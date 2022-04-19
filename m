@@ -1,77 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============0032138596100754573=="
+Content-Type: multipart/mixed; boundary="===============1256828434503921553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Tue, 19 Apr 2022 16:15:09 -0000
-Message-Id: <165038490945.8298.11164472310998976032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 19 Apr 2022 16:24:23 -0000
+Message-Id: <165038546309.12621.16190704927616839348@gitolite.kernel.org>
 
---===============0032138596100754573==
+--===============1256828434503921553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
-user: jkirsher
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 0339d25a2807d913f5645b8d5e485640915f9702
-    new: cc4bdef26ecd56de16a04bc6d99aa10ff9076498
-    log: revlist-0339d25a2807-cc4bdef26ecd.txt
+  - ref: refs/heads/pxa-multiplatform-5.18
+    old: 2d04f795f8213f779a898fbe6d7cec3c8c454ec0
+    new: afded803d0b5dea7abc17090395e8ad1d5a445e9
+    log: revlist-2d04f795f821-afded803d0b5.txt
 
---===============0032138596100754573==
+--===============1256828434503921553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0339d25a2807-cc4bdef26ecd.txt
+Content-Disposition: attachment; filename=revlist-2d04f795f821-afded803d0b5.txt
 
-f9a2fb73318eb4dbf8cd84866b8b0dd012d8b116 net/ipv6: Introduce accept_unsolicited_na knob to implement router-side changes for RFC9131
-69fd055957a02309ffdc23d887a01988b6e5bab1 net: dsa: qca8k: drop MTU tracking from qca8k_priv
-2b8fd87af7f156942971789abac8ee2bb60c03bc net: dsa: qca8k: drop port_sts from qca8k_priv
-8255212e4130bd2dc1463286a3dddb74797bbdc1 net: dsa: qca8k: rework and simplify mdiobus logic
-2349b83a2486c55b9dd225326f0172a84a43c5e4 net: dsa: qca8k: drop dsa_switch_ops from qca8k_priv
-6cfc03b602200c5cbbd8d906fd905547814e83df net: dsa: qca8k: correctly handle mdio read error
-8d1af50842bf2774f4edc57054206e909117469b net: dsa: qca8k: unify bus id naming with legacy and OF mdio bus
-7925c2d93005ac943bc8517e16f6377132fd251f Merge branch 'qca8k_preiv-shrink'
-d9d024f96609016628d750ebc8ee4a6f0d80e6e1 tcp: consume incoming skb leading to a reset
-b5ec1e6205a1cb719ab188472f00ae81b0800f2e tcp: get rid of rst_seq_match
-da40b613f89c43c58986e6f30560ad6573a4d569 tcp: add drop reason support to tcp_validate_incoming()
-37fd4e842391a1b947789969ae8454f1596735c8 tcp: make tcp_rcv_state_process() drop monitor friendly
-669da7a71890b2b2a31a7e9571c0fdf1123e26ef tcp: add drop reasons to tcp_rcv_state_process()
-4b506af9c5b8de0da34097d50d9448dfb33d70c3 tcp: add two drop reasons for tcp_ack()
-e7c89ae4078eab24af71ba26b91642e819a4bd7f tcp: add drop reason support to tcp_prune_ofo_queue()
-c337578a6592d671c5e78accc55f00cc594fe2da tcp: make tcp_rcv_synsent_state_process() drop monitor friend
-659affdb5140599f25418807c3354b060d4b1b88 tcp: add drop reasons to tcp_rcv_synsent_state_process()
-8fbf195798b56e1e87f62d01be636a6425c304c2 tcp: add drop reason support to tcp_ofo_queue()
-53c33a16d0688fc20b38e00dbbc2cb2b695e7020 Merge branch 'tcp-drop-reason-additions'
-843f77407eebee07c2a3300df0c4b33f64322e29 tcp: fix signed/unsigned comparison
-c246f9b5fd617fe487f8b6f18851703f468501d6 devlink: add support to create line card and expose to user
-fcdc8ce23a309c26a67fc613a741d9b21a248311 devlink: implement line card provisioning
-fc9f50d5b366cd9f35bdee22fe3f8d77833cb1d8 devlink: implement line card active state
-b837585985386e05478cb17868d23a6fa87c4f8d devlink: add port to line card relationship set
-bac62191a3d4dddc4dbfddb4187d4952380c29c7 mlxsw: spectrum: Allow lane to start from non-zero index
-d3ad2d88209ff8c4ec6fbcf21be7f85104767cdd mlxsw: spectrum: Allocate port mapping array of structs instead of pointers
-ebf0c53417319ff568d9b6238a60ba27395385f3 mlxsw: reg: Add Ports Mapping Event Configuration Register
-adc6462376b1a22d486ab5f6e624ba9528a380da mlxsw: Narrow the critical section of devl_lock during ports creation/removal
-b0ec003e9a906431073628e7ecc70a84f0e54074 mlxsw: spectrum: Introduce port mapping change event processing
-505f524dc66093a5db5ef2fea8153d5b449d260d mlxsw: reg: Add Management DownStream Device Query Register
-5290a8ff2e11e11d4f41369ec66c3bf7fc2f4a09 mlxsw: reg: Add Management DownStream Device Control Register
-5bade5aa4afc914dac9086500e0bfabec0d3ffbe mlxsw: reg: Add Management Binary Code Transfer Register
-b217127e5e4ee0ecfce7c5f84cfe082238123bda mlxsw: core_linecards: Add line card objects and implement provisioning
-ee7a70fa671b274aa7e34c66a6e9ab55acadc59a mlxsw: core_linecards: Implement line card activation process
-45bf3b7267e0264ff25f85ea46ba4628d39b69b4 mlxsw: core: Extend driver ops by remove selected ports op
-6445eef0f600b726da19b4d5885ebb25ba47f590 mlxsw: spectrum: Add port to linecard mapping
-e1fad9517f0fddfbe7da5605f50c362242cc7170 selftests: mlxsw: Introduce devlink line card provision/unprovision/activation tests
-2a38de067bace34e7315ce6af027fd785c31fe0f Merge branch 'mlxsw-line-card'
-a997157e42e3119b13c644549a3d8381a1d825d6 docs: net: dsa: describe issues with checksum offload
-2f1e85b1aee459b7d0fd981839042c6a38ffaf0c net: sched: use queue_mapping to pick tx queue
-38a6f0865796e26fc38fff4858f681d9ae76fa0f net: sched: support hash selecting tx queue
-8b11c35d97946c51bfa2cafd0d0b07ee18f08349 Merge branch 'net-sched-allow-user-to-select-txqueue'
-ef2a7c9065cea4e3fbc0390e82d05141abbccd7f rtnetlink: return ENODEV when ifname does not exist and group is given
-5ea08b5286f66ee5ac0150668c92d1718e83e1ad rtnetlink: enable alt_ifname for setlink/newlink
-dee04163e9f2feabb77615c630a1e31a91cc4449 rtnetlink: return ENODEV when IFLA_ALT_IFNAME is used in dellink
-b6177d3240a4f58fe547891010ad77a45bc1c9ab rtnetlink: return EINVAL when request cannot succeed
-cc4bdef26ecd56de16a04bc6d99aa10ff9076498 Merge branch 'rtnetlink-improve-alt_ifname-config-and-fix-dangerous-group-usage'
+0e2b75af658b5dccce27e8ec265e96b84fdf7036 ARM: pxa: split mach/generic.h
+d23dc21c99b2f22c737cb50e4d04aea6e059138f ARM: pxa: make mainstone.h private
+ff62bdb25e952a1c7c431e041b7b5b77dbcb944c ARM: pxa: make mach/regs-uart.h private
+eec05d26ea5e20dec50fdcddcaa6e0787f394691 ARM: pxa: remove mach/dma.h
+08d3df8c81537089fc8f21006b56f2f6fb23c6f8 ARM: pxa: split up mach/hardware.h
+2a0fd0a95a1e63f18df189c178459c5965d4ce6c ARM: pxa: stop using mach/bitfield.h
+22f0866513c2e531ae65a9d5dfc82f24497ef3b3 ARM: pxa: move mach/sound.h to linux/platform_data/
+ee84cbd5df2beaf14e8af0955f1ab15ad3f81504 ARM: pxa: move regs-lcd.h into driver
+3e61f3f9447a20d80fa405d68e9f254aa2f402bf watchdog: sa1100: use platform device registration
+4d25af7c8f5af1c5ef470ea6c4629f6a72e9e8d7 ARM: pxa: pxa2xx-ac97-lib: use IRQ resource
+5dd2d8fdf8bf8dc97f0a3dcbb359c090e0c2aac5 ARM: pxa: move pcmcia board data into mach-pxa
+8102348304aa062e9b6cf2d46603ee258193fb84 ARM: pxa: make addr-map.h header local
+d48594c46bf34bf39ff0fa21facfbe98cbfbd0b2 ARM: pxa: use pdev resource for palmld mmio
+29889674cefeb714535937de5c922f76895c259c ARM: pxa: maybe fix gpio lookup tables
+bef7c1646dd720f212db654559ee9bbc4ee5df7c ARM: pxa: tosa: use gpio descriptor for audio
+684583c18cbed41f5e0a7ce35838c7f399323524 ARM: pxa: poodle: use platform data for poodle asoc driver
+8d11ab5c07b36450decf71ca99af41515174d435 ARM: pxa: corgi: use gpio descriptors for audio
+dac6006f05b89b7c1c6e78f91c593aba052a4d43 ARM: pxa: hx4700: use gpio descriptors for audio
+1a88de409bbf0c9472bc21a79d9a7c2f70273320 ARM: pxa: lubbock: pass udc irqs as resource
+0e875434d15a5e63b6ae2e0e154c2ee0b32c9efd ARM: pxa: spitz: use gpio descriptors for audio
+411b2ab83918247054300948039c6bb2649f3aa8 ARM: pxa: eseries: use gpio lookup for audio
+7d2dd2e4196eb4252c3a63198619e9bb0b763cc3 ARM: pxa: z2: use gpio lookup for audio device
+d3b4266bfd40002a1b4d5b8983cf03ab9ddfc0a6 ARM: pxa: magician: use platform driver for audio
+9b15f5935f77576aae2d4c238679c247d5f0521f ARM: pxa: mainstone-wm97xx: use gpio lookup table
+2287dd7c6f1433a3fd24128cc9465db007f1d552 ARM: pxa: zylonite: use gpio lookup instead mfp header
+b11c6f457f8f181e461790a79e04f81aa683db52 input: touchscreen: mainstone: fix pxa2xx+pxa3xx configuration
+9f4abcc2902f524a415b37892c181407a23105f4 input: touchscreen: mainstone: sync with zylonite driver
+3f27ac517b1ac70902a4f7498ec0d0665ec707ce Input: touchscreen: use wrapper for pxa2xx ac97 registers
+7dff8b3973d5da3fbd803ddc2bc4942aa5643a6b Input: wm97xx - switch to using threaded IRQ
+e7ffe6f8b50abd2b6deaf9e1a5b1bf6e77c30b38 Input: wm97xx - get rid of irq_enable method in wm97xx_mach_ops
+90f91d2e6382dfff1c35e4f4b902d750da0a9297 ASoC: pxa: use pdev resource for FIFO regs
+865ef895e7d42f9c1309a2a84a74ef41258cfba6 ASoC: pxa: ac97: use normal MMIO accessors
+49fb76d5c40e7822d92e37e90d5c929800a63a42 ASoC: pxa: i2s: use normal MMIO accessors
+613bd9a689fdc75197241f07bf167ff464fe9a84 ARM: pxa: pcmcia: move smemc configuration back to arch
+2fd69be3c91e9b64f3fe9ba18bb52b084c11e06e ARM: pxa: remove get_clk_frequency_khz()
+df10838c047a2c11841290ab6933177c31a7b8e6 cpufreq: pxa3: move clk register access to clk driver
+71cd82cc6d1b6e92a352668bfe24d78d34e6dd03 ARM: pxa: move smemc register access from clk to platform
+2069a62508dbb2a1eb4c10eb8e31087c7605071e ARM: pxa: move clk register definitions to driver
+78e6507d6e695670a09637062b6d3584e8938062 power: tosa: simplify probe function
+24b40db0ec1f30cd7bb6dc25cba7f0cd154ec3f5 ARM: pxa: tosa: use gpio lookup for battery
+8f0f4255b81dd6def55d644726bb4ee02852ff00 ARM: pxa: remove unused mach/bitfield.h
+4f5a570480bb0590e700009a3d0f7b1a596b91ed ARM: mmp: remove tavorevb board support
+68e8fc58030a2569b478a574941760b04ec4e618 ARM: mmp: rename pxa_register_device
+3c70e69e6f37729adc27070a23bde50ac7326143 ARM: pxa: move plat-pxa to drivers/soc/
+85fe66fd89e078f54a258cab5e0d0c106e926851 ARM: PXA: fix multi-cpu build of xsc3
+1cc1598092b97ef7a2347ca1cf7e9c60fd07bb93 ARM: pxa: move mach/*.h to mach-pxa/
+f0f9c08fd372c100a628385dffd2af71a989dec6 ARM: pxa: remove support for MTD_XIP
+afded803d0b5dea7abc17090395e8ad1d5a445e9 ARM: pxa: convert to multiplatform
 
---===============0032138596100754573==--
+--===============1256828434503921553==--
