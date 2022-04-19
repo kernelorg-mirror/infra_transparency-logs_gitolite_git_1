@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6700146155731205620=="
+Content-Type: multipart/mixed; boundary="===============2981910848148873559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Tue, 19 Apr 2022 15:07:27 -0000
-Message-Id: <165038084780.25738.15066519230101720939@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 15:08:04 -0000
+Message-Id: <165038088453.26000.1908136296026083137@gitolite.kernel.org>
 
---===============6700146155731205620==
+--===============2981910848148873559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,58 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 29f1b7f8819dfc3b5f8a58a6d6b5f7f5af284554
-    new: 9b069d88e87a0ae74c05bfd2a70300d9003414f4
-    log: revlist-29f1b7f8819d-9b069d88e87a.txt
+  - ref: refs/heads/master
+    old: 97aeb877de7f14f819fc2cf8388d7a2d8090489d
+    new: cc4bdef26ecd56de16a04bc6d99aa10ff9076498
+    log: revlist-97aeb877de7f-cc4bdef26ecd.txt
 
---===============6700146155731205620==
+--===============2981910848148873559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1650380840 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1650380880 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1650380836-2356cfe4d61890290a94c1ce4b6901c061544025
+nonce 1650380880-6ee05973d7080c984cd0425bde45f733c6900c1f
 
-29f1b7f8819dfc3b5f8a58a6d6b5f7f5af284554 9b069d88e87a0ae74c05bfd2a70300d9003414f4 refs/heads/testing
+97aeb877de7f14f819fc2cf8388d7a2d8090489d cc4bdef26ecd56de16a04bc6d99aa10ff9076498 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJe0CgTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXdLrB/9lg02OtMgB85YqCS2lUBhOdFmYq/88
-dk1LKHNe/OXVGGXAFijTNzWyWsQXNPeP674cLW3wDOGykH7KdmayA+aARMII19RD
-U6p/p+BK1m3WGz+FcfUGiaFCWcRdCmVgqEDGx1j0uCsZ2QSGH4+ncKrz0AKbhkP3
-Xc9EwdULpW9xaT4TXCxgoaUlZ0/e7kr6MOAILozuYIwOXLgmR+BrTcesWtMb9dAU
-SIJ0aDCi5l1/2iuntOv0k9EvrdUfGU+BwdNi/Tpvq1wJWkUWTA1xqIsnf6604pmH
-zutUthW6Tmuhb+zXZzq8mGjxgRp7a5gxDlxRLbZkxmXMmRBS644anLfI
-=FIVK
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJe0FETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXXEjB/9VB/fwsClGNlBQkZ5V6T/EjulUz/lN
+RVAMGpOgxIjkOmx0p0jq1uGuirszQe86vjvNc/+21G8GCs2lLIG4uEt1BIFQanVl
+C4cGyI+bNYXJ1kVAVho9+Nszu9viR9Psdujw/3fKJ2xQ51BT5A35d7+klVJbkfKi
+9RGFZkXGUxTDOOA6G7F8TLMxo7Ex7gbIeaX4w4YtVN1K+tg+uQ4rbgJVIvtdGS9r
+SSsB8dQKHnD6vC3UO/essp2MICY9Z/Usf1NS2kEZglwCyDSGChPjS989mn0To8S2
+o08Su5f7UIxDlfI0Qe/5+G4QONWO9toMKU/K5XVajZEfnkhwiK1sOS/C
+=PDDI
 -----END PGP SIGNATURE-----
 
---===============6700146155731205620==
+--===============2981910848148873559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29f1b7f8819d-9b069d88e87a.txt
+Content-Disposition: attachment; filename=revlist-97aeb877de7f-cc4bdef26ecd.txt
 
+aa240ee7883487201d0c6cc537ec1c4cd6cb2a9e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+aad5b23ebf21573a32b6f07644f028d64492a5d6 dm: fix dm_io and dm_target_io flags race condition on Alpha
+5291984004edfcc7510024e52eaed044573b79c7 dm: fix bio polling to handle possibile BLK_STS_AGAIN
+26803bac2b70a7314f19d56c588cf7d55e4ddc3e Merge tag 'gpio-fixes-for-v5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+d0d642a5d365b5e2295950fd184d5d1f630896dd Merge tag 'sound-fix-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+ebf921a9fac38560e0fc3a4381e163a6969efd5a readahead: Remove read_cache_pages()
+704528d895dd3e7b173e672116b4eb2b0a0fceb0 fs: Remove ->readpages address space operation
+dfd8b4fc76d5f7ae5663328b791c4acf222c4d39 mm: remove the pages argument to read_pages
+b4e089d705eef82364945abae325cd241c80e107 mm: remove the skip_page argument to read_pages
+1e4702806faca1551733f58be17ea11a9d214e91 readahead: Update comments
+2756c818e5cbcc4c9d13d7399273e86068e95156 iomap: Simplify is_partially_uptodate a little
+a9fcd89d67bb8c4ad613b54ab691fc603c94a03a fs: Remove read_actor_t
+b2403a61308533c576c9dd783fcb73a9186e0b37 fs, net: Move read_descriptor_t to net.h
+800ba29547e16d5fbe67ca764ba660e049e9f1bf fs: Pass an iocb to generic_perform_write()
+d7414ba14a3a67f81321069219dc7dbc095022c3 filemap: Remove AOP_FLAG_CONT_EXPAND
+0f2523366386f29d56040887555989a1de548625 ext4: Correct ext4_journalled_dirty_folio() conversion
+0fb5b2ebc0422fccbb41b09ff38ff7f27616294d f2fs: Correct f2fs_dirty_data_folio() conversion
 29c87793eb3c6f78f215f85be863e5415e263e43 f2fs: Get the superblock from the mapping instead of the page
 c37731301d66cce9c1a212c60e504f28e4342b39 ntfs: Correct mark_ntfs_record_dirty() folio conversion
 5a60542c61f3cce6e5dff2a38c8fb08a852a517b btrfs: Remove a use of PAGE_SIZE in btrfs_invalidate_folio()
@@ -1058,22 +1075,5 @@ ef2a7c9065cea4e3fbc0390e82d05141abbccd7f rtnetlink: return ENODEV when ifname do
 dee04163e9f2feabb77615c630a1e31a91cc4449 rtnetlink: return ENODEV when IFLA_ALT_IFNAME is used in dellink
 b6177d3240a4f58fe547891010ad77a45bc1c9ab rtnetlink: return EINVAL when request cannot succeed
 cc4bdef26ecd56de16a04bc6d99aa10ff9076498 Merge branch 'rtnetlink-improve-alt_ifname-config-and-fix-dangerous-group-usage'
-eb38c2053b67977844404cbbdee341dbf3a02d36 can: rx-offload: rename can_rx_offload_queue_sorted() -> can_rx_offload_queue_timestamp()
-ea51736a3ee1118e5a5c945a9128feafe816c6b6 can: bittiming: can_calc_bittiming(): prefer small bit rate pre-scalers over larger ones
-a9eea50eb2af96427d4ae28206fc5b57b3e874ea can: Fix Links to Technologic Systems web resources
-1bcfb477007d2a5fa6067ec8d6c4f260b4f9a336 can: mscan: mpc5xxx_can: Prepare cleanup of powerpc's asm/prom.h
-f68b04cb93a1c0603fbf6f9e7ac8188f1c2b78b7 can: flexcan: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
-cb5a2fa0a14c456405d0e5530e2dfb2b8d244310 MAINTAINERS: rectify entry for XILINX CAN DRIVER
-03d1b03028f7e0a3f2044496e1f7201122144fd6 can: xilinx_can: mark bit timing constants as const
-9123470845c71e1e65ae49926a054df9b3fef2bc dt-bindings: can: renesas,rcar-canfd: document r8a77961 support
-99de8db7243891bc470ebba4a358c63552f75264 dt-binding: can: mcp251xfd: add binding information for mcp251863
-4c8c16a86881aec971e448c50c3310d6d0720290 can: mcp251xfd: add support for mcp251863
-1a2b8ec582d88f473daf9982a8cd46b05a2cc0d1 dt-bindings: vendor-prefix: add prefix for the Czech Technical University in Prague.
-2cbb2803efbf0c51eeea5a49eebd5c05574de785 dt-bindings: net: can: binding for CTU CAN FD open-source IP core.
-301614e3972a139a48db2791fece6c971be563e2 can: ctucanfd: add support for CTU CAN FD open-source IP core - bus independent part.
-0a94aa996199675de5d168d86563c9458790799a can: ctucanfd: CTU CAN FD open-source IP core - PCI bus support.
-14ba7bcdceefa4c2d7b69686d142fd4bfd24df41 can: ctucanfd: CTU CAN FD open-source IP core - platform/SoC support.
-4392fc8cd346f2ba4fb46cff17ff908073f26be7 docs: ctucanfd: CTU CAN FD open-source IP core documentation.
-9b069d88e87a0ae74c05bfd2a70300d9003414f4 MAINTAINERS: Add maintainers for CTU CAN FD IP core driver
 
---===============6700146155731205620==--
+--===============2981910848148873559==--
