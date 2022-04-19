@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 19 Apr 2022 14:23:30 -0000
-Message-Id: <165037821063.29416.15314411888959812772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 19 Apr 2022 14:34:26 -0000
+Message-Id: <165037886666.3348.6418425120423325259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: b2d229d4ddb17db541098b83524d901257e93845
-    new: 4bde53ab3370bfd377eff27152da36be9784e4f5
+  - ref: refs/heads/x86/tdx
+    old: adb5680b8dfdd09756f13450bfc1ed874d895935
+    new: 9e3cdf7ad39356c11b6a4f3c407726f9bcc85956
     log: |
-         6c846d026d490b2383d395bc8e7b06336219667b gpio: Don't fiddle with irqchips marked as immutable
-         704f08753b6dcd0e08c1953af0b2c7f3fac87111 gpio: Expose the gpiochip_irq_re[ql]res helpers
-         36b78aae4bfee749bbde73be570796bfd0f56bec gpio: Add helpers to ease the transition towards immutable irq_chip
-         bba00555ede79ad8a743da908f708466f6bac0f8 gpio: tegra186: Make the irqchip immutable
-         15d8c14ac849f41f2d41dbddb69f402aaf73ff8b gpio: pl061: Make the irqchip immutable
-         374b87a0fcf9fa5dd1379271337ae19f95682956 pinctrl: apple-gpio: Make the irqchip immutable
-         14dbe186b9d42cbf662eae5a4da14687edbf0edb pinctrl: msmgpio: Make the irqchip immutable
-         6173e56f76c712aac9d45208ccec7a065382911f pinctrl: amd: Make the irqchip immutable
-         afefc3266272d40cdcd0fd713c7b42008fea19d5 gpio: Update TODO to mention immutable irq_chip structures
-         5644b66a9c63c3cadc6ba85faf5a15604e6cf29a Documentation: Update the recommended pattern for GPIO irqchips
-         4bde53ab3370bfd377eff27152da36be9784e4f5 Merge branch irq/gpio-immutable into irq/irqchip-next
+         51e8253cf5444299db09e1027160bf503ef49ec9 x86/build: remove unused OBJECT_FILES_NON_STANDARD_test_nx.o
+         9e3cdf7ad39356c11b6a4f3c407726f9bcc85956 x86/mm: Fix spacing within memory encryption features message
          
