@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6102610686706247831=="
+Content-Type: multipart/mixed; boundary="===============0426278628389558203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 19 Apr 2022 09:19:01 -0000
-Message-Id: <165035994198.6077.12186387194312147006@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 09:19:15 -0000
+Message-Id: <165035995566.6251.1035078932957221132@gitolite.kernel.org>
 
---===============6102610686706247831==
+--===============0426278628389558203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 8841e027aa6b5d10b98b5cf67bf705e363917c00
-    new: 8623565c273307cc8a34386456d4e947cc470e54
-    log: revlist-8841e027aa6b-8623565c2733.txt
+  - ref: refs/heads/m68k-queue
+    old: 9d816a7d1bfb14b99a51b22e9b4731f4db5c1f60
+    new: 9e950cf12206945654eeff50a326fdb895292baf
+    log: revlist-9d816a7d1bfb-9e950cf12206.txt
 
---===============6102610686706247831==
+--===============0426278628389558203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8841e027aa6b-8623565c2733.txt
+Content-Disposition: attachment; filename=revlist-9d816a7d1bfb-9e950cf12206.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -402,6 +402,12 @@ fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of
 3a69a44278a72e15f12e24f5db4d277a497649aa Merge tag 'x86-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
-8623565c273307cc8a34386456d4e947cc470e54 Merge tag 'v5.18-rc3'
+444860b21cda4d6b7af30c59fb425c6388c99323 tty: goldfish: Introduce gf_ioread32()/gf_iowrite32()
+5aed9f821711bc015f54ee1b0b71b1ca051bc0e2 rtc: goldfish: Use gf_ioread32()/gf_iowrite32()
+266a8efee1c64db8a5f783317a7e9d74185769d8 clocksource/drivers: Add a goldfish-timer clocksource
+5c9211e0aa5946775a85531705f9f04b5b548694 m68k: Introduce a virtual m68k machine
+688f137bea970f54906c896744bc0b4e28b01ed5 m68k: atari: usb: Add ISP1160 USB host controller support
+b3f6d79a1ac252e19a5520e8097ea0fb63c3a751 m68k: atari: Update Kconfig.bus help text
+9e950cf12206945654eeff50a326fdb895292baf m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6102610686706247831==--
+--===============0426278628389558203==--
