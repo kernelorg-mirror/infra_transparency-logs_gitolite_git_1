@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3310278461578768372=="
+Content-Type: multipart/mixed; boundary="===============8335104271367603111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 19 Apr 2022 11:07:50 -0000
-Message-Id: <165036647033.27945.15585791758121474281@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 11:08:00 -0000
+Message-Id: <165036648031.28066.5560942373823703353@gitolite.kernel.org>
 
---===============3310278461578768372==
+--===============8335104271367603111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
+  - ref: refs/heads/master
     old: 3123109284176b1532874591f7c81f3837bbdc17
     new: b2d229d4ddb17db541098b83524d901257e93845
     log: revlist-312310928417-b2d229d4ddb1.txt
 
---===============3310278461578768372==
+--===============8335104271367603111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -814,4 +814,4 @@ fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of
 a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
 
---===============3310278461578768372==--
+--===============8335104271367603111==--
