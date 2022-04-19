@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 19 Apr 2022 22:45:29 -0000
-Message-Id: <165040832955.14227.10632566859821270595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 19 Apr 2022 22:47:00 -0000
+Message-Id: <165040842028.14802.2022551772445611850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 73f93db5c49b9f52c902e5dc6c750bf9832e0450
-    new: dd769f15483cac1895fd219eb17e6f04c9a5548f
+  - ref: refs/heads/dev
+    old: 3932ce26dc6822b046a7a62c2e165c6b6f1655f0
+    new: 7e510e661ea5f90cf0a5a1618af362dd115017b2
     log: |
-         c81085840e03dd421532e16b22a8cde95de8ea41 spi: remove spin_lock_irq and variable in the irq procress
-         3a2ac5809935e6043dae916bab6cf4741d9dcdeb spi: spi-cadence-quadspi: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
-         58b1efe2c1722cb47e5b1f49b79a50338428acbf spi: spi-tegra114: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
-         c03ae4876fd54822a22375aa4fc49736a8c3a5d4 spi: spi-ti-qspi: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
-         4bbaa857e9af76d8cc346bd57fbaa50d357ae132 spi: intel: Fix typo in kernel-doc of intel_spi_probe()
-         b617be33502d2bfefffef71924c7a7ba50264ff6 spi: add SPI_RX_CPHA_FLIP mode bit
-         178d0cbbfe8ec652083058968c7a27485eaa33d2 spi: spidev: add SPI_RX_CPHA_FLIP
-         79422ed9bd7fbd79f84d8a5abb0094c16221f55b spi: spi-imx: add support for SPI_RX_CPHA_FLIP
-         dd769f15483cac1895fd219eb17e6f04c9a5548f spi: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
+         a3b1f9e07d479411a336042d8be2431d768aec73 rcu-tasks: Split rcu_tasks_one_gp() from rcu_tasks_kthread()
+         130dd60ddd960d00cbe46b900bf1aa9d88739253 rcu-tasks: Move synchronize_rcu_tasks_generic() down
+         7e510e661ea5f90cf0a5a1618af362dd115017b2 rcu-tasks: Drive synchronous grace periods from calling task
          
