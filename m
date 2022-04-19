@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5153861138330517422=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 19 Apr 2022 14:22:41 -0000
-Message-Id: <165037816102.29023.5531793573906712743@gitolite.kernel.org>
-
---===============5153861138330517422==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 19 Apr 2022 14:22:56 -0000
+Message-Id: <165037817659.29169.15080459998985803179@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/usb-linus
-    old: ec547af8a9ea6441864bad34172676b5652ceb96
-    new: 71d471e3faf90c9674cadc7605ac719e82cb7fac
+  - ref: refs/heads/irq/gpio-immutable
+    old: 346a99f42ecb6f1c18592f02c3f13b4a7145b00f
+    new: 5644b66a9c63c3cadc6ba85faf5a15604e6cf29a
     log: |
-         71d471e3faf90c9674cadc7605ac719e82cb7fac usb: gadget: uvc: Fix crash when encoding data for usb request
+         6c846d026d490b2383d395bc8e7b06336219667b gpio: Don't fiddle with irqchips marked as immutable
+         704f08753b6dcd0e08c1953af0b2c7f3fac87111 gpio: Expose the gpiochip_irq_re[ql]res helpers
+         36b78aae4bfee749bbde73be570796bfd0f56bec gpio: Add helpers to ease the transition towards immutable irq_chip
+         bba00555ede79ad8a743da908f708466f6bac0f8 gpio: tegra186: Make the irqchip immutable
+         15d8c14ac849f41f2d41dbddb69f402aaf73ff8b gpio: pl061: Make the irqchip immutable
+         374b87a0fcf9fa5dd1379271337ae19f95682956 pinctrl: apple-gpio: Make the irqchip immutable
+         14dbe186b9d42cbf662eae5a4da14687edbf0edb pinctrl: msmgpio: Make the irqchip immutable
+         6173e56f76c712aac9d45208ccec7a065382911f pinctrl: amd: Make the irqchip immutable
+         afefc3266272d40cdcd0fd713c7b42008fea19d5 gpio: Update TODO to mention immutable irq_chip structures
+         5644b66a9c63c3cadc6ba85faf5a15604e6cf29a Documentation: Update the recommended pattern for GPIO irqchips
          
-
---===============5153861138330517422==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650378159 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650378158-695369cb38f125cc88e1e0b980fc5247716a75a2
-
-ec547af8a9ea6441864bad34172676b5652ceb96 71d471e3faf90c9674cadc7605ac719e82cb7fac refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJexa8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9ZoP/1Ov07U9W3YnfyHdoX1h
-uxwWN8eUM4ZgT8lPud72EYdWyavttSHBDgOyjRiQHR3sgtJFWOgp5DkbsvKHMhQR
-ieQR7RtE12PDYdkZAdVvpapNdbcm+EWsWU7E6JHdUiGvZYN8wUMDDovtEaGf7AH4
-ctTaqV8ZESmoQBO1q5f30mAWcU1TB0vdLbxujz31uefoMa3YTvQWp36Fvqa+CwWx
-NoHNYVwLgELTT75psrG8R9XJq8UetllXhMd3k3xVB87tDv8FavGgW7iFQTq34tBA
-6GbnENZnDtC7xRmRvWOlewmRM0ToCC+V3oRX6xaL+/m68cDLhc2D+BwlLp97LtGa
-27IP6nMGShysbnqCkRv8kyw9g9NQn/qQY8AonaHNjNbf50GHQc3jrE3d6x33IIkF
-HwKxhlzbXOZUiVRO4DEOwuNSHmljMnOQtP3Dte2rH7KGTEeZF9LgaHvBZMvgyfAU
-iYN8NbDM9vWketo72faUX5xE6ZLXcFb674gwGDOOOmLEAfvdeIDRpVIIAnvhm53t
-FOOca3OHqbGvvXOy957CqHOGpLysirR785iuUf9LULzdDeMkIQ9GzYqS3VKCdYrl
-eylhDJXdRtXR4CnN+S5fVKvT6Xi9GJ+svUGHRYsKtjnWbrAWl85hA67BWb0Tet1x
-AXqnTPBfL50gaWQIj/aB/j8L
-=Vkla
------END PGP SIGNATURE-----
-
---===============5153861138330517422==--
