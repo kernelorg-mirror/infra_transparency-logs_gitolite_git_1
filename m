@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 19 Apr 2022 17:06:00 -0000
-Message-Id: <165038796008.7938.4376847600982683774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 19 Apr 2022 17:06:23 -0000
+Message-Id: <165038798369.8126.8972323805632516703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/orc-fix
-    old: 5891c1ff4bcfbb61c3ba87adc12d4855c6cd9b4c
-    new: 4c9507960bd790c2c03853578b1b5679d6202652
-    log: |
-         4c9507960bd790c2c03853578b1b5679d6202652 MAINTAINERS: Add x86 unwinding entry
-         
+  - ref: refs/heads/20220415_zhouyanjie_improve_spi_support_for_ingenic_socs
+    old: 0000000000000000000000000000000000000000
+    new: 91e26c7d38d271a290f6bf6b9ec6aae11b6e91f1
