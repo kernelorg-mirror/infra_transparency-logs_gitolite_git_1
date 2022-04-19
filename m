@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 19 Apr 2022 17:32:43 -0000
-Message-Id: <165038956346.25946.6383924469431198663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 19 Apr 2022 17:46:34 -0000
+Message-Id: <165039039420.3495.2181638302172547818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: b2d229d4ddb17db541098b83524d901257e93845
-    new: b7f73403a3e922c20bb278ba3cfcc3c61930d82a
+  - ref: refs/heads/for-next/execve
+    old: 6045ab5fea4c849153ebeb0acb532da5f29d69c4
+    new: 6e1a873cefd183f0b7cd28523c9bfee9e449dfbd
     log: |
-         317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 spi: spi-mtk-nor: initialize spi controller after resume
-         299d8b74519d04042f8803d0604e08a1a7e31e5e spi: intel: Add support for Raptor Lake-S SPI serial flash
-         f1d388f216aeb41a5df518815ae559d14a6d438e spi: cadence-quadspi: fix incorrect supports_op() return value
-         8c235cc25087495c4288d94f547e9d3061004991 spi: atmel-quadspi: Fix the buswidth adjustment between spi-mem and controller
-         705191b03d507744c7e097f78d583621c14988ac fs: fix acl translation
-         b7f73403a3e922c20bb278ba3cfcc3c61930d82a Merge tag 'spi-fix-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         6e1a873cefd183f0b7cd28523c9bfee9e449dfbd binfmt_flat: Drop vestiges of coredump support
          
