@@ -1,63 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7081536576583612482=="
+Content-Type: multipart/mixed; boundary="===============5153861138330517422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 19 Apr 2022 14:18:43 -0000
-Message-Id: <165037792395.26311.8520557690454125631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 19 Apr 2022 14:22:41 -0000
+Message-Id: <165037816102.29023.5531793573906712743@gitolite.kernel.org>
 
---===============7081536576583612482==
+--===============5153861138330517422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testme
-    old: 5a0893088a20252cc268cbeabb25e883c2b6f94f
-    new: 9e3cdf7ad39356c11b6a4f3c407726f9bcc85956
-    log: revlist-5a0893088a20-9e3cdf7ad393.txt
+  - ref: refs/heads/usb-linus
+    old: ec547af8a9ea6441864bad34172676b5652ceb96
+    new: 71d471e3faf90c9674cadc7605ac719e82cb7fac
+    log: |
+         71d471e3faf90c9674cadc7605ac719e82cb7fac usb: gadget: uvc: Fix crash when encoding data for usb request
+         
 
---===============7081536576583612482==
+--===============5153861138330517422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a0893088a20-9e3cdf7ad393.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-59bd54a84d15e9335de5b8abe7b3b9713a36b99b x86/tdx: Detect running as a TDX guest in early boot
-527a534c732604931959e73e9c3a8952d8c1a994 x86/tdx: Provide common base for SEAMCALL and TDCALL C wrappers
-eb94f1b6a70a683040d60d21bbb6ad65f082600a x86/tdx: Add __tdx_module_call() and __tdx_hypercall() helper functions
-41394e33f3a0ce791caf0e086e1fca850832ddec x86/tdx: Extend the confidential computing API to support TDX guests
-65fab5bc033aad1a9faf976caec46558c2f88319 x86/tdx: Exclude shared bit from __PHYSICAL_MASK
-775acc82a88fd36f5e89a08d39874fdeeaa04247 x86/traps: Refactor exc_general_protection()
-9a22bf6debbf5169f750af53c7f86eb4e3cd6712 x86/traps: Add #VE support for TDX guest
-bfe6ed0c672782ac2a8edffac93b1ba84b0ff984 x86/tdx: Add HLT support for TDX guests
-ae87f609cd52825fa7fa36f02b29e4357fd29eaa x86/tdx: Add MSR support for TDX guests
-c141fa2c2bbaff0d1f2dc51160626dd22bc16ae2 x86/tdx: Handle CPUID via #VE
-31d58c4e557d46fa7f8557714250fb6f89c941ae x86/tdx: Handle in-kernel MMIO
-4b05f81504bfcaab51083d3a271fada75e6b8904 x86/tdx: Detect TDX at early kernel decompression time
-15104de122a4f0258981b06ed94cf616a6eb03ef x86: Adjust types used in port I/O helpers
-1e8f93e18379d05da9fd130eb7d50988a20f8b9a x86: Consolidate port I/O helpers
-eb4ea1ae8f45e3249e7586f30be8977478202a37 x86/boot: Port I/O: Allow to hook up alternative helpers
-4c5b9aac6cade51aef64cc6ed67f2ad5acda9aed x86/boot: Port I/O: Add decompression-time support for TDX
-03149948832a078f759022ed5b92e722d8d23c26 x86/tdx: Port I/O: Add runtime hypercalls
-32e72854fa5fef6bc72e27c54f31897db9092acb x86/tdx: Port I/O: Add early boot support
-cfb8ec7a31f234b4519c104f1cc9accbc8b393a9 x86/tdx: Wire up KVM hypercalls
-ff2e64684f153a61f6ae553e860af4b6ef2f4ca5 x86/boot: Add a trampoline for booting APs via firmware handoff
-f39642d0dbacded8b4a816a9197a73efb74e5702 x86/acpi/x86/boot: Add multiprocessor wake-up support
-9cf30606405f37b68ee1c0f6846253313c077088 x86/boot: Set CR0.NE early and keep it set during the boot
-77a512e35db7609a8c909e2006b2ea82f2b1616f x86/boot: Avoid #VE during boot for TDX platforms
-bae1a962ac2c5e6be08319ff3f7d6df542584fce x86/topology: Disable CPU online/offline control for TDX guests
-9aa6ea69852c46e551f4180dce4208bd53df418c x86/tdx: Make pages shared in ioremap()
-7dbde7631629896b478bc5b1f4c3e52e6d518d12 x86/mm/cpa: Add support for TDX shared memory
-968b493173ac5205fe75f6330ee767f96bf88e57 x86/mm: Make DMA memory shared for TD guest
-f4c9361f97c40d365c34f9cb8b8bc3eae0ee7778 x86/tdx/ioapic: Add shared bit for IOAPIC base address
-e2efb6359e620521d1e13f69b2257de8ceaa9475 ACPICA: Avoid cache flush inside virtual machines
-b9c7ba58777acfd0892b808aea25074d46e0618f Documentation/x86: Document TDX kernel architecture
-adb5680b8dfdd09756f13450bfc1ed874d895935 x86/kaslr: Fix build warning in KASLR code in boot stub
-51e8253cf5444299db09e1027160bf503ef49ec9 x86/build: remove unused OBJECT_FILES_NON_STANDARD_test_nx.o
-9e3cdf7ad39356c11b6a4f3c407726f9bcc85956 x86/mm: Fix spacing within memory encryption features message
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650378159 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1650378158-695369cb38f125cc88e1e0b980fc5247716a75a2
 
---===============7081536576583612482==--
+ec547af8a9ea6441864bad34172676b5652ceb96 71d471e3faf90c9674cadc7605ac719e82cb7fac refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJexa8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9ZoP/1Ov07U9W3YnfyHdoX1h
+uxwWN8eUM4ZgT8lPud72EYdWyavttSHBDgOyjRiQHR3sgtJFWOgp5DkbsvKHMhQR
+ieQR7RtE12PDYdkZAdVvpapNdbcm+EWsWU7E6JHdUiGvZYN8wUMDDovtEaGf7AH4
+ctTaqV8ZESmoQBO1q5f30mAWcU1TB0vdLbxujz31uefoMa3YTvQWp36Fvqa+CwWx
+NoHNYVwLgELTT75psrG8R9XJq8UetllXhMd3k3xVB87tDv8FavGgW7iFQTq34tBA
+6GbnENZnDtC7xRmRvWOlewmRM0ToCC+V3oRX6xaL+/m68cDLhc2D+BwlLp97LtGa
+27IP6nMGShysbnqCkRv8kyw9g9NQn/qQY8AonaHNjNbf50GHQc3jrE3d6x33IIkF
+HwKxhlzbXOZUiVRO4DEOwuNSHmljMnOQtP3Dte2rH7KGTEeZF9LgaHvBZMvgyfAU
+iYN8NbDM9vWketo72faUX5xE6ZLXcFb674gwGDOOOmLEAfvdeIDRpVIIAnvhm53t
+FOOca3OHqbGvvXOy957CqHOGpLysirR785iuUf9LULzdDeMkIQ9GzYqS3VKCdYrl
+eylhDJXdRtXR4CnN+S5fVKvT6Xi9GJ+svUGHRYsKtjnWbrAWl85hA67BWb0Tet1x
+AXqnTPBfL50gaWQIj/aB/j8L
+=Vkla
+-----END PGP SIGNATURE-----
+
+--===============5153861138330517422==--
