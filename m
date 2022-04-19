@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 19 Apr 2022 10:29:27 -0000
-Message-Id: <165036416764.2218.16522604059188874461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 19 Apr 2022 10:35:18 -0000
+Message-Id: <165036451819.6985.1977780687274284448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 5a6c6dcde054ac7c246783b5f9843d86d2d9f053
-    new: fd5698ffe7ce8e9ce39a73b7230a0b53c5cff7a9
+  - ref: refs/heads/for-v5.19/arm-dts64-cleanups
+    old: 54ff423f837db59db0626a00d091e45dcc46787e
+    new: 5e1b2304fe0a0968bd066066ab59151cfa700c7f
     log: |
-         2a6d17689cf4225a77e7d237a9e2ca8ead880d76 lib/pty: Put master PTY into non-blocking mode and buffer its output to avoid deadlock
-         fd5698ffe7ce8e9ce39a73b7230a0b53c5cff7a9 lib/pty: minor cleanups
+         a0e7f10f7f5a9c1fc902501557424f4f53d48692 arm64: dts: mediatek: align operating-points table name with dtschema
+         5e1b2304fe0a0968bd066066ab59151cfa700c7f arm64: dts: mediatek: align thermal zone node names with dtschema
          
