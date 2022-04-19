@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 19 Apr 2022 11:12:07 -0000
-Message-Id: <165036672797.31244.2004727639489010878@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 11:12:44 -0000
+Message-Id: <165036676403.31525.2475748792641020584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v2_20220414_pierre_louis_bossart_asoc_sof_add_intel_ipc4_plumbing
+  - ref: refs/heads/v6_20220414_s_hauer_asoc_fsl_micfil_driver_updates
     old: 0000000000000000000000000000000000000000
-    new: 03cf7262076f08601108cc896416fc1d66671994
+    new: a69d7f1bd373205bf539b9762423c8d526b9b9cb
