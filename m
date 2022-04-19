@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9221240437949397414=="
+Content-Type: multipart/mixed; boundary="===============0465196367443349097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 19 Apr 2022 19:11:58 -0000
-Message-Id: <165039551841.28642.3214479754755507497@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 19:12:11 -0000
+Message-Id: <165039553188.28979.6130257691331967463@gitolite.kernel.org>
 
---===============9221240437949397414==
+--===============0465196367443349097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,51 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: bfb1a7c91fb7758273b4a8d735313d9cc388b502
-    new: bdb5db369909e9c0dd7a4d5ee70754d6c18c0441
-    log: revlist-bfb1a7c91fb7-bdb5db369909.txt
+  - ref: refs/heads/objtool/core
+    old: 87c87ecd00c54ecd677798cb49ef27329e0fab41
+    new: 96dc73dca55e8a0b2cb369cb3b1ba232672290c6
+    log: revlist-87c87ecd00c5-96dc73dca55e.txt
 
---===============9221240437949397414==
+--===============0465196367443349097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfb1a7c91fb7-bdb5db369909.txt
+Content-Disposition: attachment; filename=revlist-87c87ecd00c5-96dc73dca55e.txt
 
-60210a3d86dc57ce4a76a366e7841dda746a33f7 riscv module: remove (NOLOAD)
-31818213170caa51d116eb5dc1167b88523b4fe1 netfilter: bitwise: fix reduce comparisons
-1c24a186398f59c80adb9a967486b65c1423a59d fs: fd tables have to be multiples of BITS_PER_LONG
-dc0ce6cc4b133f5f2beb8b47dacae13a7d283c2c lib/test: use after free in register_test_dev_kmod()
-6094e391e643fddd65d4b938c1d499a838dd4907 dt-bindings: net: qcom,ethqos: Document SM8150 SoC compatible
-1ec48f95519bd3e920536118e8ddd30e28cde4ab Merge tag 'jfs-5.18' of https://github.com/kleikamp/linux-shaggy
-d2d7c0473586d2f22e85d615275f34cf19f94447 xfs: aborting inodes on shutdown may need buffer lock
-ab9c81ef321f90dd208b1d4809c196c2794e4b15 xfs: shutdown in intent recovery has non-intent items in the AIL
-cd6f79d1fb324968a3bae92f82eeb7d28ca1fd22 xfs: run callbacks before waking waiters in xlog_state_shutdown_callbacks
-b5f17bec1213a3ed2f4d79ad4c566e00cabe2a9b xfs: log shutdown triggers should only shut down the log
-41e6362183589afd2cd51d653e277d256daab11f xfs: xfs_do_force_shutdown needs to block racing shutdowns
-3c4cb76bce4380aee99c275b3920049350939e47 xfs: xfs_trans_commit() path must check for log shutdown
-5652ef31705f240e1528fe5a45d99229752e1ec8 xfs: shutdown during log recovery needs to mark the log shutdown
-919edbadebe17a67193533f531c2920c03e40fa4 xfs: drop async cache flushes from CIL commits.
-965181d7ef7e1a863477536dc328c23a7ebc8a1d Merge tag 'nfs-for-5.18-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-77c9387c0c5bd496fba3200024e3618356b2fd34 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-ab0fc21bc7105b54bafd85bd8b82742f9e68898a Revert "NFSv4: Handle the special Linux file open access mode"
-b243874f6f9568b2daf1a00e9222cacdc15e159c NFSv4: fix open failure with O_ACCMODE flag
-eb07d5a4da041fd2e30e386e5fd12d23bb31cf9e SUNRPC: handle malloc failure in ->request_prepare
-87d663d40801dffc99a5ad3b0188ad3e2b4d1557 scsi: mpt3sas: Fix use after free in _scsih_expander_node_remove()
-ebfe3e0c5e805da3dd692bb120cd6269b7c19b80 scsi: libiscsi: Remove unnecessary memset() in iscsi_conn_setup()
-a6968f7a367f128d120447360734344d5a3d5336 scsi: target: tcmu: Fix possible page UAF
-35ed9613d83f3c1f011877d591fd7d36f2666106 scsi: lpfc: Improve PCI EEH Error and Recovery Handling
-a4691038b4071ff0d9ae486d8822a2c0d41d5796 scsi: lpfc: Fix unload hang after back to back PCI EEH faults
-df0101197c4d9596682901631f3ee193ed354873 scsi: lpfc: Fix queue failures when recovering from PCI parity error
-4f3beb36b1e46f1a04967a84e3a1bd55bf7a9e7a scsi: lpfc: Update lpfc version to 14.2.0.1
-7294a9bcaa7ee0d3b96aab1a277317315fd46f09 scsi: lpfc: Fix broken SLI4 abort path
-c26bd6602e1d348bfa754dc55e5608c922dd2801 scsi: lpfc: Fix locking for lpfc_sli_iocbq_lookup()
-8ee15ea779c332f94d74d135212403f2d0defb5f scsi: ufs: core: Remove unused field in struct ufs_hba
-f06aa52cb2723ec67e92df463827b800d6c477d1 scsi: core: scsi_logging: Fix a BUG
-f16aa285e6185271bc6812a176f7ae3dbd7fe28d scsi: pmcraid: Remove the PMCRAID_PASSTHROUGH_IOCTL ioctl implementation
-bc5519c18a32ce855bb51b9f5eceb77a9489d080 scsi: sr: Fix typo in CDROM(CLOSETRAY|EJECT) handling
-0bade8e53279157c7cc9dd95d573b7e82223d78a scsi: ibmvscsis: Increase INITIAL_SRP_LIMIT to 1024
-63221571ef77c71a37d3c604d604168ce1de5cab scsi: aha152x: Stop using struct scsi_pointer
 eaba83b5b8506bbc9ee7ca2f10aeab3fff3719e7 scsi: core: Fix sbitmap depth in scsi_realloc_sdev_budget_map()
 fac952bb546a9f103a769d7105194175e11abc99 scsi: isci: Fix spelling mistake "doesnt" -> "doesn't"
 41b8c2a31472a97349fe54c3a6b3176d9cdc31be scsi: virtio-scsi: Eliminate anonymous module_init & module_exit
@@ -1048,7 +1014,41 @@ fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of
 3a69a44278a72e15f12e24f5db4d277a497649aa Merge tag 'x86-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
-00b507b6f4ce727bc60c7b9d1781b6d297af145c objtool: Fix type of reloc::addend
-bdb5db369909e9c0dd7a4d5ee70754d6c18c0441 objtool: Fix relocs vs weak symbols
+3ccce9340326df40ba4462d4d2a1692b6387a68e x86/cpu: Add new Alderlake and Raptorlake CPU model numbers
+5891c1ff4bcfbb61c3ba87adc12d4855c6cd9b4c x86/unwind/orc: Recheck address range after stack info was updated
+4c9507960bd790c2c03853578b1b5679d6202652 MAINTAINERS: Add x86 unwinding entry
+252d530613949e256df45ac64522ec6ab5dcad43 lib/strn*,objtool: Enforce user_access_begin() rules
+c232d86028cde9a38d61bdeba1bf75793f9fde51 x86,xen,objtool: Add UNWIND hint
+cf2f0b85a9d1f160c4854936c8d2eec1d82fa800 x86,objtool: Mark cpu_startup_entry() __noreturn
+949297c910d94338d5987c0b949f7bd629f1d5bf x86,objtool: Explicitly mark idtentry_body()s tail REACHABLE
+cfa7ac676c187230c1a30c79054b07368ddbd0c9 objtool: Enable unreachable warnings for CLANG LTO
+0d5950c18efe912ad009d89b1eabdf64dc7d27fa x86/static_call: Add ANNOTATE_NOENDBR to static call trampoline
+c0c3185f3c9da83c11aa78851e3e6ff2293b4039 x86/retpoline: Add ANNOTATE_NOENDBR for retpolines
+4d5a2354247d907b034710fdb5b59883083d4c9c x86/uaccess: Add ENDBR to __put_user_nocheck*()
+ed996b403e04f9e81ed208a94dc4265094435851 x86/xen: Add ANNOTATE_NOENDBR to startup_xen()
+dc7d8c8aa96a00001c6b6d3ff362585ccac8dd42 objtool: Print data address for "!ENDBR" data warnings
+a78b4360eb9b45cbf0ca49a84ed29fab76d7afd4 objtool: Use offstr() to print address of missing ENDBR
+db8f79ff74d0933f84c33ca44ce179e03760c418 x86/uaccess: Don't jump between functions
+e1ae3ee68b733a161417f97edaaf3c1bf249706e objtool: Don't set 'jump_dest' for sibling calls
+efa19e3be8097dcf886114954f8b4c124b7ac846 objtool: Fix sibling call detection in alternatives
+278f7e034db76a1a166b1250c1abca79783c5bb6 objtool: Fix function fallthrough detection for vmlinux
+63eae153427e6a0a018f07b4e0e16f4e794cc1e8 x86/Kconfig: fix the spelling of 'becoming' in X86_KERNEL_IBT config
+fb61770d27a42ad44b07861b414ff15102474251 libsubcmd: Fix OPTION_GROUP sorting
+5fb800bd11243b7bb67e06102844f36961398792 objtool: Reorganize cmdline options
+e8d8a9fc5c2952c78b476b88a4b26f5c25b63826 objtool: Ditch subcommands
+c9456a00c020138a008fec87f5b466e98e691703 objtool: Don't print parentheses in function addresses
+7fb05e53036e21fd086dedf6dd83debed2f330b3 objtool: Add option to print section addresses
+3f94a0f6d7ca91b3ad6d3609b917612cf59ee350 objtool: Make stack validation optional
+9a16dc3b520cd54ad4886f29e0b2c93df795c9b5 objtool: Rework ibt and extricate from stack validation
+5ccfd4594875f00ccd4015e5d64c6d207389e7ac objtool: Extricate sls from stack validation
+55bab06f975661a356cf6e2fa6538697909a1be8 objtool: Add CONFIG_OBJTOOL
+2bf2f0a9cc01c64538767abf12c1eb214211b9e6 objtool: Make stack validation frame-pointer-specific
+0953941ab68c316097b59bfa09d06feb298f4485 objtool: Make static call annotation optional
+e53b3e48e0e2398948502486ccb4c7f5eb379a15 objtool: Make jump label hack optional
+bee50e30c28ffeb446d034f6b8880c9eab5a9cef objtool: Make noinstr hacks optional
+1a50c80120a9572a90859883cae9ae5089f800ef objtool: Rename "VMLINUX_VALIDATION" -> "NOINSTR_VALIDATION"
+9eda0de8aae93dfc319b4d14d8fdd7bf03bbdac0 objtool: Add HAVE_NOINSTR_VALIDATION
+cf341fd1aab25ba5a16cbd96f06478a682c8bc54 objtool: Remove --lto and --vmlinux in favor of --link
+96dc73dca55e8a0b2cb369cb3b1ba232672290c6 objtool: Update documentation
 
---===============9221240437949397414==--
+--===============0465196367443349097==--
