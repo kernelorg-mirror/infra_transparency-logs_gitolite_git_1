@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 19 Apr 2022 20:44:48 -0000
-Message-Id: <165040108834.29890.1916693074955100774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 19 Apr 2022 20:52:48 -0000
+Message-Id: <165040156837.2995.5032993696274081331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 2f917af777011c88e977b9b9a5d00b280d3a59ce
-    new: b5a93e79df64c32814f0edefdb920b540cbc986a
+  - ref: refs/heads/master
+    old: 44df171a10f8969d1456e0a5af7fbac142d7fa18
+    new: 0d7fefebea552771b17682a12330ea47e369a5df
     log: |
-         b5a93e79df64c32814f0edefdb920b540cbc986a RDMA/mlx5: Fix flow steering egress flow
-         
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 290c4a902b79246ec55e477fc313f27f98393dee
-    new: 679ab61bf5f5f519377d812afb4fb93634782c74
-    log: |
-         679ab61bf5f5f519377d812afb4fb93634782c74 RDMA/irdma: Fix deadlock in irdma_cleanup_cm_core()
+         a3820c48111247f4ec2ca2949597f8fa57d2c424 libbpf: Support opting out from autoloading BPF programs declaratively
+         0d7fefebea552771b17682a12330ea47e369a5df selftests/bpf: Use non-autoloaded programs in few tests
          
