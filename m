@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2568671064550273517=="
+Content-Type: multipart/mixed; boundary="===============7058149566289903856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 20 Apr 2022 16:40:31 -0000
-Message-Id: <165047283174.28897.479640115535795638@gitolite.kernel.org>
+Date: Wed, 20 Apr 2022 16:47:44 -0000
+Message-Id: <165047326491.1560.17694633862458258112@gitolite.kernel.org>
 
---===============2568671064550273517==
+--===============7058149566289903856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: e5f45b011e4a86d62fb3d9d9a634ec30a3027649
-    new: 6c67631a54c6f28c4084f54798d68068dae2bcbc
+    old: 6c67631a54c6f28c4084f54798d68068dae2bcbc
+    new: 55de6cb7f81c82dea1bdb12cd3818280af7abd87
     log: |
-         b8ce0acfa4ed6c57f3daad2a654ee4ab595daf6b staging: vt6655: Delete tmacro.h
-         b5485fe7c47ac98c9adc65b67c7eadf31219201a staging: qlge: add blank line after function declaration
-         6c67631a54c6f28c4084f54798d68068dae2bcbc staging: rtl8712: Remove unnecessary int typecast
+         bcac7e6eecd746a8f6fc0f992f887ea2d916a937 staging: vt6655: Replace MACvGPIOIn with VNSvInPortB
+         08bea7da71b34c60b9aca1258a2098fed3bc3ce6 staging: vt6655: Replace VNSvInPortB with ioread8
+         a8d412ec986b95f146c6786c76bb471e1b602589 staging: iio: ad2s1210: remove redundant assignment to variable negative
+         bb5369edbab8363a8a9a0c9ba59cb85020accb68 staging: rtl8192u: compare strcmp result to zero
+         806c7b53414934ba2a39449b31fd1a038e500273 drivers: staging: rtl8192u: Fix deadlock in ieee80211_beacons_stop()
+         9b6bdbd9337de3917945847bde262a34a87a6303 drivers: staging: rtl8192e: Fix deadlock in rtllib_beacons_stop()
+         55de6cb7f81c82dea1bdb12cd3818280af7abd87 staging: rtl8192e: Remove space after cast
          
 
---===============2568671064550273517==
+--===============7058149566289903856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650472829 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650473260 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1650472828-b05ce559190e34f0922c6e6be462e74af991874e
+nonce 1650473259-2b4097c32dbd6fe0ab511726779bb5717a1e05d7
 
-e5f45b011e4a86d62fb3d9d9a634ec30a3027649 6c67631a54c6f28c4084f54798d68068dae2bcbc refs/heads/staging-testing
+6c67631a54c6f28c4084f54798d68068dae2bcbc 55de6cb7f81c82dea1bdb12cd3818280af7abd87 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgN30bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JyEQAMBNWouA0BAEyqxpyAhL
-BboG3sN4F3GRsLne9rabAjvGQW/95+neFecz+SKACc8aXpnAh1qYjH8PK9gosOcI
-tZZI659nVzGX2NvKRYjKGhy0u0jWOhLu0r+wkXOJFj+qXDgfkRR8Js+ZWhGlF+pf
-qHzOZ7s2AmzLqaudbNuFAHLLW5RDMy0yWf2p6k4UP+kjyM5Ha7wqnIOKWMXr4Qt1
-CimDRPnmZGktPFWrHTYaqh1i8GGKVCP+q5zO3pwqvYO/aUDwPGLvh0nvdAzHxn7+
-lnAt/lbmCyCL95YJDLHssKGaAslce+X19pzPQmRhESEp8/mf4p9JQZLguvtkvElq
-Ys8IS7yIBVg+oTuoCsfRnkFY9/0IWfPcr12EYaV8ciCVlwNE280wiE3/1kf0K+zK
-Kpv1cJMp8Z6MVlZ9hYGOQp+XtzPfs9Rz9MsxoJwk30VRTXUjwkUQnxcPPugWiZxm
-4ixvXZvetjOJ0LXMbIxYSyDHbGXcZD+FkGU37vQyWXDcskQWnugM/s1Kifp5BeEO
-7ooaLmAJYHQ5sWj1TkD4Eh/QdSNzwhLSmdLYqwTl5RTEvraiP208ILTBJsVcMGtW
-PjIHiDEs4ZXEuzmsw+pPWLpAaVoEx8IrtzMVl+0EFyOD+VM9yQcwjX+3hzgzDTBD
-iJJMLj5FPNjdShigfjXBH3IU
-=eDtw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgOSwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ankP/R+XmY3xoazcsTJNflJE
+5iWr6R9q9xogad4/zcY8yGi04Im0mbIMpFGS5P96FFJfRuPzt0iSfSV0FPt3IGQc
+W6VQh0P6kq7+xiJzDgoFaCtEsBGaDTzSq013QKP5QTrXww8h4khqS4220+ioYeRN
+ofKJ/vd5QTNpawkmu+T4nwKsCwpa9lXip0WMqyNPnzmLslTmsjDtggNkbIjJ+HBU
+R+IYzXaob3fLp9tC0vXdHmmMpklRiK2vYsgAuWM1ZAqFG1mCH7Txd8nGjYWuQJ3L
+9Q47KH1J+dzxDmJJsi7Re8X1vVfWqgt7U1ULY+ValODHLyApJdi58EGKIvKR8MX9
+pFIu51wXI6BPo7mRB+RFsWa0SBCpyY8nyy6p8zCDHKf7ygvweC33zraQeQsbtmz6
+nlQiqloyXMaxpexgnL2FUMfQJCc913asYafqLqkqkfDtqlEs6QgrZw+7AZ/4lURJ
+GlJkbXpB+xX8kXMTuuHbqZhcViE9BkvUUA+DcJ+G+6+VydQrgLvZMw3Fx1Q3RQef
+BMAuu1aje7bKl0zrgTz4iXyX1sCZJeSEOcn/D8eMbC4u/VGYe6jMapX8UXo1DnS+
+7OaUjiONcn8Ih7AvbYWXHQgmsuDMhvwDwaeodgN15irkRatI/zkNRah66QMtEbxf
+YvU6oze1z3+/ELSgyZCfBi+m
+=7TIV
 -----END PGP SIGNATURE-----
 
---===============2568671064550273517==--
+--===============7058149566289903856==--
