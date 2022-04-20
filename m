@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8620195407721267606=="
+Content-Type: multipart/mixed; boundary="===============4118649689873287868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 20 Apr 2022 14:54:00 -0000
-Message-Id: <165046644064.23331.1359808317830129573@gitolite.kernel.org>
+Date: Wed, 20 Apr 2022 14:54:49 -0000
+Message-Id: <165046648989.23656.7248190119310705846@gitolite.kernel.org>
 
---===============8620195407721267606==
+--===============4118649689873287868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 2a72b1b2db9dbe12c730754009196a132500f007
-    new: 7a107b2c6b813c3c587d1e76cb405dc637dd2b36
+    old: 7a107b2c6b813c3c587d1e76cb405dc637dd2b36
+    new: 871277738426e188cf5b8eb7a2fbee1e27a496cb
     log: |
-         7a107b2c6b813c3c587d1e76cb405dc637dd2b36 Revert "serial: 8250: Handle UART without interrupt on TEMT using em485"
+         538668d7d2deb39bc3aa3b9af24fd779bd8f8b82 tty: n_gsm: clean up dead code in gsm_queue()
+         871277738426e188cf5b8eb7a2fbee1e27a496cb tty: n_gsm: clean up implicit CR bit encoding in address field
          
 
---===============8620195407721267606==
+--===============4118649689873287868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650466438 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650466487 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650466437-d7f1ef0ab01b9babf49641b879cce60ccfc61b7b
+nonce 1650466487-9513735ddc0c51bcb80a79d3485b2df9a221df28
 
-2a72b1b2db9dbe12c730754009196a132500f007 7a107b2c6b813c3c587d1e76cb405dc637dd2b36 refs/heads/tty-testing
+7a107b2c6b813c3c587d1e76cb405dc637dd2b36 871277738426e188cf5b8eb7a2fbee1e27a496cb refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgHoYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Iv0QAIe3h0anKV67U+TWYI5z
-toromLOsA0vYdMz7jctTuS4vxCex+CWFTdtfVyaMhJFih1tGH7o3FIpI2iicbMLZ
-cVY1R1tlh8BuBcwR0ZtUV8atPKkJa6ecp0FQvjNWwIXJ2+D2oOk4XnOKSZU603TI
-QtgfllVv6BSJNRHfa39jSjl8Wwqkawvv7qlMNtwl748LpO9o8Yl8XX8Zs6SbdjyM
-boVMtLXQI22mS5iPqZdKlGny7ZQLVxg9xA279Y1EWm4vsqrISVNQZQRs+/diz5GB
-Sy+ROgnMnJ3YTW1TN42aHyqz5Az5KCABy7Tmg8ahm80kod4N+iczzlx6BcQyEhGe
-2yNKBSVTIceg6fGw5h1UdcQ7stTeGcRYragQ1ouuBEFz7LTBu+A5ZfxyfO7XbC4C
-jZJxoxs5Lmx7jtkWwV92maGUII5sxX4iLsliElb8n/ihauGJxKV1yjnXLa08khSs
-q2o93kEAEpBVN0zpIInm5Y5QDF8lCnsqYXNCa0Aj7gaYT1ly0z8CcIdDomvF1rvR
-094M3z0CI4w4pogBonFgcAY3zGck60fW1eTY/gqkcNqlEY6cOMfIRsKJ0rh9KmX3
-E70mxpoMPn+PND8yNl+4oObF7ycMRacKrapvajBjaH5oTD71lrOSkCzrw+yZFwIs
-Bs9coKCNL3WhVrhMDSAzn0pk
-=cIZ/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgHrcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UoMQAI9mt1UkEpOfjDhK0Wwi
+stxIJgWcabU8u7JE2sHWsIKAChf7/gb98OPNOljrKRMDndBQq4itTWu9IWla43Rv
+Xq6DRAkJB3oVvqFuOacGHovtkYgnNMk4Xg7WsuvNgtjn6z1p08bo2EefDIasi9Ly
+ZvZ19nQCdQy8M7OL1Md7suUldCNDN/27LR0h3KA1Nf71NYyNZ+qiGOL+9cvIRHYr
+/1O7Xg3U/yCOew91+NQd/jA+e+YetuYxXm1CMC2NtT8Z6U4DpwdfsZdjpUmjD88Q
+pmO87aP6cHEL11HIoLfXdqdGdBckKnrUKXqAt5R57XnD1l5Lw951OlPL5AfaL4QH
++tDW6cbVS7Eu5t8Dr7xv044BWeAzZUp7B1U1HpcsG9G1eG6+BBmA2kMYjayaPmwl
+fp2L3eTt+v55cyB0ZpVIK/KkVfphDgr4Pb7OdmX60j59AfH84ZtmMfv1zxh7iS4w
+dqnt/z9yLYW8IGxdijWe6MPamF+tlAzewLoH1/0inRw90ErOKw/aD+IQG2zwfC6I
+EsYS2vUL6RSLEO2n0/l9MmQolQyy3H9OAcPCvtrHxvszTKenwxNCLQks4oNbDdm3
+yyGt6LrON1aOBrRPm/zzeTRzqwvLFoWkJ7PQienIaQuwSG9e/sF+OGfCGwKWru7N
+zvvvdaYahLat2e0CPPfXXBpC
+=Mub4
 -----END PGP SIGNATURE-----
 
---===============8620195407721267606==--
+--===============4118649689873287868==--
