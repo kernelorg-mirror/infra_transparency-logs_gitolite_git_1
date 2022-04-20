@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 20 Apr 2022 13:59:25 -0000
-Message-Id: <165046316505.19811.3319953631706464993@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5591279306201829992=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 20 Apr 2022 14:03:56 -0000
+Message-Id: <165046343662.22794.7119796373960247184@gitolite.kernel.org>
+
+--===============5591279306201829992==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b2d229d4ddb17db541098b83524d901257e93845
-    new: 559089e0a93d44280ec3ab478830af319c56dbe3
+    old: 21b12d408dc2348a4d7ca1a8fae7ba8348063077
+    new: 0002a63a4a0ec3e1beee087480e8285ddd8cb94e
     log: |
-         317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 spi: spi-mtk-nor: initialize spi controller after resume
-         299d8b74519d04042f8803d0604e08a1a7e31e5e spi: intel: Add support for Raptor Lake-S SPI serial flash
-         f1d388f216aeb41a5df518815ae559d14a6d438e spi: cadence-quadspi: fix incorrect supports_op() return value
-         8c235cc25087495c4288d94f547e9d3061004991 spi: atmel-quadspi: Fix the buswidth adjustment between spi-mem and controller
-         705191b03d507744c7e097f78d583621c14988ac fs: fix acl translation
-         b7f73403a3e922c20bb278ba3cfcc3c61930d82a Merge tag 'spi-fix-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-         559089e0a93d44280ec3ab478830af319c56dbe3 vmalloc: replace VM_NO_HUGE_VMAP with VM_ALLOW_HUGE_VMAP
+         0002a63a4a0ec3e1beee087480e8285ddd8cb94e Add 94D6CF91FAF6B4CC (Zorro Lang)
          
+
+--===============5591279306201829992==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1650463436 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1650463436-237b34772fd1d801c8bc498e78c04367aaee8acb
+
+21b12d408dc2348a4d7ca1a8fae7ba8348063077 0002a63a4a0ec3e1beee087480e8285ddd8cb94e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYmASzAAKCRC2xBzjVmSZ
+bGs0AQDIxmslDezwb/1z1mUAitwvdt2U0jIvih8pStZEtFsnPQD9EtYk6g3+V62j
+yG5v9vM3459GBb9szYcg0ryA0RNyWwI=
+=13rv
+-----END PGP SIGNATURE-----
+
+--===============5591279306201829992==--
