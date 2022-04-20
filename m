@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7570687117027295371=="
+Content-Type: multipart/mixed; boundary="===============9213850407592500506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
-Date: Wed, 20 Apr 2022 08:16:26 -0000
-Message-Id: <165044258677.17666.8712292702435141114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Wed, 20 Apr 2022 08:20:58 -0000
+Message-Id: <165044285893.20518.3054038934524996015@gitolite.kernel.org>
 
---===============7570687117027295371==
+--===============9213850407592500506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/zonefs
-user: dlemoal
+repo: pub/scm/linux/kernel/git/arnd/playground
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 95b115332a835fb0cbd36dfabacf1c57d915e705
-    new: 44733527d0f9e426035a8b1f2589843d595f5ed2
-    log: revlist-95b115332a83-44733527d0f9.txt
+  - ref: refs/heads/to-build
+    old: 756d59fad15b3cdee72557f63836a4c3d38e4f48
+    new: 78e0e09340fa7778055d35fc32d88a6b6d699c6a
+    log: revlist-756d59fad15b-78e0e09340fa.txt
 
---===============7570687117027295371==
+--===============9213850407592500506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95b115332a83-44733527d0f9.txt
+Content-Disposition: attachment; filename=revlist-756d59fad15b-78e0e09340fa.txt
 
-d2d7c0473586d2f22e85d615275f34cf19f94447 xfs: aborting inodes on shutdown may need buffer lock
-ab9c81ef321f90dd208b1d4809c196c2794e4b15 xfs: shutdown in intent recovery has non-intent items in the AIL
-cd6f79d1fb324968a3bae92f82eeb7d28ca1fd22 xfs: run callbacks before waking waiters in xlog_state_shutdown_callbacks
-b5f17bec1213a3ed2f4d79ad4c566e00cabe2a9b xfs: log shutdown triggers should only shut down the log
-41e6362183589afd2cd51d653e277d256daab11f xfs: xfs_do_force_shutdown needs to block racing shutdowns
-3c4cb76bce4380aee99c275b3920049350939e47 xfs: xfs_trans_commit() path must check for log shutdown
 5652ef31705f240e1528fe5a45d99229752e1ec8 xfs: shutdown during log recovery needs to mark the log shutdown
 919edbadebe17a67193533f531c2920c03e40fa4 xfs: drop async cache flushes from CIL commits.
 965181d7ef7e1a863477536dc328c23a7ebc8a1d Merge tag 'nfs-for-5.18-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
@@ -915,6 +909,7 @@ eab521aebcdeb1c801009503e3a7f8989e3c6b36 ALSA: hdspm: Fix the missing snd_card_f
 b2aa4f80693b7841e5ac4eadbd2d8cec56b10a51 ALSA: rme9652: Fix the missing snd_card_free() call at probe error
 4fb27190879b82e48ce89a56e9d6c04437dbc065 ALSA: mtpav: Don't call card private_free at probe error path
 f20ae5074dfb38f23b0c07c62bdf8e7254a0acf8 ALSA: nm256: Don't call card private_free at probe error path
+317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 spi: spi-mtk-nor: initialize spi controller after resume
 565c5e616e8061b40a2e1d786c418a7ac3503a8d io_uring: move io_uring_rsrc_update2 validation
 d8a3ba9c143bf89c032deced8a686ffa53b46098 io_uring: verify that resv2 is 0 in io_uring_rsrc_update2
 6fb53cf8ff2c4713247df523404d24f466b98f52 io_uring: verify resv is 0 in ringfd register/unregister
@@ -939,9 +934,12 @@ e16b859872b87650bb55b12cca5a5fcdc49c1442 macvlan: Fix leaking skb in source mode
 5209aed5137880fa229746cb521f715e55596460 random: allow partial reads if later user copies fail
 b0c3e796f24b588b862b61ce235d3c9417dc8983 random: make random_get_entropy() return an unsigned long
 dad32cfeed7c5a375335b04398bf064a9c61cc20 Merge tag 'wireless-2022-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+299d8b74519d04042f8803d0604e08a1a7e31e5e spi: intel: Add support for Raptor Lake-S SPI serial flash
 2511e0c87786f333c4665508f421ac99e378c719 net: dsa: realtek: fix Kconfig to assure consistent driver linkage
 8e925de60ddaeccb455f0bdad17ce9d8cc2db2e1 net: dsa: realtek: don't parse compatible string for RTL8366S
+f1d388f216aeb41a5df518815ae559d14a6d438e spi: cadence-quadspi: fix incorrect supports_op() return value
 ef27324e2cb7bb24542d6cb2571740eefe6b00dc nfc: nci: add flush_workqueue to prevent uaf
+8c235cc25087495c4288d94f547e9d3061004991 spi: atmel-quadspi: Fix the buswidth adjustment between spi-mem and controller
 e941976659f1f6834077a1596bf53e6bdb10e90b io_uring: use right issue_flags for splice/tee
 cce64ef01308b677a687d90927fc2b2e0e1cba67 io_uring: fix poll file assign deadlock
 7179c3ce3dbff646c55f7cd664a895f462f049e5 io_uring: fix poll error reporting
@@ -1042,13 +1040,15 @@ fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of
 3a69a44278a72e15f12e24f5db4d277a497649aa Merge tag 'x86-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
-48f995f176816684ce557ab3adcb45a9d37705d7 zonefs: Clear inode information flags on inode creation
-d4c4b65e0c1da4cfd957652be8ec1c68c2e24647 zonefs: Fix management of open zones
-46cff10d87ba5c9bdcbf2763a76e7be692a4fb08 zonefs: Rename super block information fields
-b7d6235237370d22365da829fbca99a2e30ff21a zonefs: Always do seq file write open accounting
-711aa1fc4e9a724ac66c8783d83e7b47f9e3a448 zonefs: Export open zone resource information through sysfs
-0188a4bcf3c5cc583b2feff57e65cb55083cfa04 zonefs: Add active seq file accounting
-d4b0d9e7d6c11ddd045c837bd6f0c19dbad75e13 documentation: zonefs: Cleanup the mount options section
-44733527d0f9e426035a8b1f2589843d595f5ed2 documentation: zonefs: Document sysfs attributes
+705191b03d507744c7e097f78d583621c14988ac fs: fix acl translation
+b7f73403a3e922c20bb278ba3cfcc3c61930d82a Merge tag 'spi-fix-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+559089e0a93d44280ec3ab478830af319c56dbe3 vmalloc: replace VM_NO_HUGE_VMAP with VM_ALLOW_HUGE_VMAP
+ea59cad644d480c4f21db2fbdfcdd213b31dec60 ARM: sa1100/assabet: move dmabounce hack to ohci driver
+3cd8b625b8ac174b7bd3cc9b201376aa15c270c5 ARM: remove dmabounce
+c1f2d35f6faf59de1710793875b3c640d16181a0 ARM: mark various dma-mapping routines static in dma-mapping.c
+533f58af75d3a555fcea4f81926a136ad958c56f ARM: remove the unused virt_to_dma helper
+7fa91c1c95c0cac20c72c52e5fc3db3aa972b03a ARM: use dma_to_phys/phys_to_dma in the dma-mapping code
+95164eec6d0c05c9b7dcd5210e3ab05ca7f1cc0c ARM: use the common dma_to_phys/phys_to_dma implementation where possible
+78e0e09340fa7778055d35fc32d88a6b6d699c6a ARM: use dma-direct unconditionally
 
---===============7570687117027295371==--
+--===============9213850407592500506==--
