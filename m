@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Wed, 20 Apr 2022 04:38:40 -0000
-Message-Id: <165042952088.27387.16286082603953457195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 20 Apr 2022 05:32:55 -0000
+Message-Id: <165043277515.30309.12378704917758778882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: mdf
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 558094cb8d54761e8e52c4579a8c5a595ddd170a
+  - ref: refs/heads/for-next/execve
+    old: 8d005269c50d6fba836eb04b989cd526375627cd
+    new: b65c760600e2a718901c11c3765de51bb2e66ff4
     log: |
-         558094cb8d54761e8e52c4579a8c5a595ddd170a MAINTAINERS: Update linux-fpga repository location
+         b2f2553c8e89ceee332dd65b02773771acd87d6c elf: Allow architectures to parse properties on the main executable
+         b65c760600e2a718901c11c3765de51bb2e66ff4 arm64: Enable BTI for main executable as well as the interpreter
          
