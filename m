@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 20 Apr 2022 00:42:12 -0000
-Message-Id: <165041533228.26845.4109146552072842783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 20 Apr 2022 00:55:08 -0000
+Message-Id: <165041610892.4065.8991909719035489175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/fixes
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: f81f7861ee2aaa6f652f18e8f622547bdd379724
+  - ref: refs/heads/master
+    old: 0d7fefebea552771b17682a12330ea47e369a5df
+    new: 0e5aefa334dba7fc07ee4ef52ae622f957fc865b
     log: |
-         f81f7861ee2aaa6f652f18e8f622547bdd379724 cpuidle: riscv: support non-SMP config
+         eb596b0905584a9389585b0f437cf8a2faeb14d0 bpf: Ensure type tags precede modifiers in BTF
+         24fe983abe01c53e1a9354fe21fab92579fcda6d selftests/bpf: Add tests for type tag order validation
+         0e5aefa334dba7fc07ee4ef52ae622f957fc865b Merge branch 'Ensure type tags are always ordered first in BTF'
          
