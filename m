@@ -1,178 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============3867269021151334919=="
+Content-Type: multipart/mixed; boundary="===============6611627942748838004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 20 Apr 2022 18:33:36 -0000
-Message-Id: <165047961652.4981.2880342041206977243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 20 Apr 2022 19:12:22 -0000
+Message-Id: <165048194229.29793.4468864977676443469@gitolite.kernel.org>
 
---===============3867269021151334919==
+--===============6611627942748838004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
-    old: c9da460b6cb34f9ad259371bfc3d324fbb13a636
-    new: 4b1ba47ca177863a4f8b358eea421ea60d59e07a
-    log: |
-         5c7858883cb071e5b8241fa4d5fd103faec8fa3b Remove cryptsetup-reencrypt version dump from tests.
-         d3ad18ad818c842a127588966a7406b027fe4e4d Add compile info to README.
-         773fc0195f6fe76022f3113086b7cd4ce2ac288f Fix typos found by codespell.
-         3363bad8c29682a62ccba9eaa1d92cbae9e1a081 Speed-up tcrypt test.
-         ebabf3ffeeb4ac48ab0385a689e2518697fdd975 Add compile-in flag to program version output.
-         81a63aca2245f1e0816d73c8bcd0ec92eeb4aa83 Fix tests if compiled with --disable-blkid.
-         e4a0d2531558f8097ea49a935b4e60d422d6d933 Fix missing batch option in test.
-         4b1ba47ca177863a4f8b358eea421ea60d59e07a Avoid compilation warning if configured with --disable-blkid.
-         
-  - ref: refs/heads/master
-    old: c9da460b6cb34f9ad259371bfc3d324fbb13a636
-    new: 4b1ba47ca177863a4f8b358eea421ea60d59e07a
-    log: |
-         5c7858883cb071e5b8241fa4d5fd103faec8fa3b Remove cryptsetup-reencrypt version dump from tests.
-         d3ad18ad818c842a127588966a7406b027fe4e4d Add compile info to README.
-         773fc0195f6fe76022f3113086b7cd4ce2ac288f Fix typos found by codespell.
-         3363bad8c29682a62ccba9eaa1d92cbae9e1a081 Speed-up tcrypt test.
-         ebabf3ffeeb4ac48ab0385a689e2518697fdd975 Add compile-in flag to program version output.
-         81a63aca2245f1e0816d73c8bcd0ec92eeb4aa83 Fix tests if compiled with --disable-blkid.
-         e4a0d2531558f8097ea49a935b4e60d422d6d933 Fix missing batch option in test.
-         4b1ba47ca177863a4f8b358eea421ea60d59e07a Avoid compilation warning if configured with --disable-blkid.
-         
-  - ref: refs/heads/misc-fixes
-    old: e1ddf5a85545da856a3fe04893a95537c7d4ce21
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/version-flags
-    old: 83e9d49be045ad8bd7f4426a9eeafb36364a2339
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/319/head
-    old: 83e9d49be045ad8bd7f4426a9eeafb36364a2339
-    new: 4b1ba47ca177863a4f8b358eea421ea60d59e07a
-    log: revlist-83e9d49be045-4b1ba47ca177.txt
-  - ref: refs/merge-requests/319/merge
-    old: 503eaad9bf675c596b4244e59db930540aef2c55
-    new: 58ea21e7c42b74a52979347f22443c0a0cafe83b
-    log: revlist-503eaad9bf67-58ea21e7c42b.txt
-  - ref: refs/merge-requests/320/merge
-    old: 8f8fd4a440309f3bc053607c3cab149cab6a30e5
-    new: d65c463bdf85ec42c69d3b39a50a307b5f3440d7
-    log: |
-         be5c5788d4bbef1d02ef6e734342c99bb51cfacd Add support for superblock BLOCK_SIZE property.
-         23887777633d3ca791dc868ce0f56f4cf042906e Add option to probe only superblocks in blkid.
-         f6452e1656ddd3bc9e71dcb2b7dc54505e77ae16 Add superblock BLOCK_SIZE detection in tools.
-         624026a98f9507adb5bfe4cca26014df1c6c0f1c Refactor reencrypt_get_active_name helper.
-         38d1f01b12b30141e081ce4b652e406bf0967114 Add tools helper reporting blkid support.
-         c9da460b6cb34f9ad259371bfc3d324fbb13a636 Do not allow dangerous sector size change during reencryption.
-         d65c463bdf85ec42c69d3b39a50a307b5f3440d7 Merge branch 'blkzeroout' into 'main'
-         
-  - ref: refs/merge-requests/322/head
-    old: e1ddf5a85545da856a3fe04893a95537c7d4ce21
-    new: 3363bad8c29682a62ccba9eaa1d92cbae9e1a081
-    log: revlist-e1ddf5a85545-3363bad8c296.txt
-  - ref: refs/merge-requests/322/merge
-    old: d7fa6fb635401c407fbd53246b943f9a12a1c814
-    new: 55fd952c59079589589b4ff5a64e54b86b3d1d9b
-    log: |
-         be5c5788d4bbef1d02ef6e734342c99bb51cfacd Add support for superblock BLOCK_SIZE property.
-         23887777633d3ca791dc868ce0f56f4cf042906e Add option to probe only superblocks in blkid.
-         f6452e1656ddd3bc9e71dcb2b7dc54505e77ae16 Add superblock BLOCK_SIZE detection in tools.
-         624026a98f9507adb5bfe4cca26014df1c6c0f1c Refactor reencrypt_get_active_name helper.
-         38d1f01b12b30141e081ce4b652e406bf0967114 Add tools helper reporting blkid support.
-         c9da460b6cb34f9ad259371bfc3d324fbb13a636 Do not allow dangerous sector size change during reencryption.
-         5c7858883cb071e5b8241fa4d5fd103faec8fa3b Remove cryptsetup-reencrypt version dump from tests.
-         d3ad18ad818c842a127588966a7406b027fe4e4d Add compile info to README.
-         773fc0195f6fe76022f3113086b7cd4ce2ac288f Fix typos found by codespell.
-         3363bad8c29682a62ccba9eaa1d92cbae9e1a081 Speed-up tcrypt test.
-         55fd952c59079589589b4ff5a64e54b86b3d1d9b Merge branch 'misc-fixes' into 'main'
-         
-  - ref: refs/merge-requests/323/merge
-    old: fe529bd5b2b2840cc687e4526a34aa865193b679
-    new: 27546d8792db1b02848b1fa68e6735df5ca12924
-    log: |
-         be5c5788d4bbef1d02ef6e734342c99bb51cfacd Add support for superblock BLOCK_SIZE property.
-         23887777633d3ca791dc868ce0f56f4cf042906e Add option to probe only superblocks in blkid.
-         f6452e1656ddd3bc9e71dcb2b7dc54505e77ae16 Add superblock BLOCK_SIZE detection in tools.
-         624026a98f9507adb5bfe4cca26014df1c6c0f1c Refactor reencrypt_get_active_name helper.
-         38d1f01b12b30141e081ce4b652e406bf0967114 Add tools helper reporting blkid support.
-         c9da460b6cb34f9ad259371bfc3d324fbb13a636 Do not allow dangerous sector size change during reencryption.
-         27546d8792db1b02848b1fa68e6735df5ca12924 Merge branch 'integrity-fixes' into 'main'
-         
+  - ref: refs/heads/omap1-multiplatform-5.18
+    old: 0423b8473c949cb76361e61900e58eee62261b71
+    new: 8cbb04ed5803bdc3d8b7dba487453fb51086ef85
+    log: revlist-0423b8473c94-8cbb04ed5803.txt
 
---===============3867269021151334919==
+--===============6611627942748838004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83e9d49be045-4b1ba47ca177.txt
+Content-Disposition: attachment; filename=revlist-0423b8473c94-8cbb04ed5803.txt
 
-ce1c39dc543a27814c6286a030539afefb6d5e0e Properly report if sectior size cannot be used for bitlk activation.
-3fbc480e327d1be5ae08f22a1e12e3f66b09f828 Clean headers for utf8 wrapper.
-ab6762b849ce915141d8df11744840556bbfcf51 Fix possible missing uchar.h.
-f34b3b27ec19d358cad3c9bf1e3d6747219d74b6 Do not use definitions in for cycle.
-99c4c3adbf841e972f8ef5cc9f0cd4e60f6e8850 Skip question if batch mode is set for volume key bitlk dump.
-2857e100833036910d3dda489448e6c027b0f68a Fix UTF16 buffer overflow in bitlk volume key dump.
-f1eea3a4b3e9b29a5c6fc3a044cf1cce3ebc84ee Clean reencrypt status struct for API call.
-be5c5788d4bbef1d02ef6e734342c99bb51cfacd Add support for superblock BLOCK_SIZE property.
-23887777633d3ca791dc868ce0f56f4cf042906e Add option to probe only superblocks in blkid.
-f6452e1656ddd3bc9e71dcb2b7dc54505e77ae16 Add superblock BLOCK_SIZE detection in tools.
-624026a98f9507adb5bfe4cca26014df1c6c0f1c Refactor reencrypt_get_active_name helper.
-38d1f01b12b30141e081ce4b652e406bf0967114 Add tools helper reporting blkid support.
-c9da460b6cb34f9ad259371bfc3d324fbb13a636 Do not allow dangerous sector size change during reencryption.
-5c7858883cb071e5b8241fa4d5fd103faec8fa3b Remove cryptsetup-reencrypt version dump from tests.
-d3ad18ad818c842a127588966a7406b027fe4e4d Add compile info to README.
-773fc0195f6fe76022f3113086b7cd4ce2ac288f Fix typos found by codespell.
-3363bad8c29682a62ccba9eaa1d92cbae9e1a081 Speed-up tcrypt test.
-ebabf3ffeeb4ac48ab0385a689e2518697fdd975 Add compile-in flag to program version output.
-81a63aca2245f1e0816d73c8bcd0ec92eeb4aa83 Fix tests if compiled with --disable-blkid.
-e4a0d2531558f8097ea49a935b4e60d422d6d933 Fix missing batch option in test.
-4b1ba47ca177863a4f8b358eea421ea60d59e07a Avoid compilation warning if configured with --disable-blkid.
+53b46feb4f84bba19fe524208d76f9bb654cae59 hack: fix omap1 boot with qemu
+f10a2532f0e7815624361f10720bc93888a25045 video: fbdev: omapfb: lcd_ams_delta: fix unused variable warning
+d7fde894b555dccaf0d8d7581a7904a78219e67f ARM: omap1: innovator: pass lcd control address as pdata
+873eb12d9b794447000a24c8a419c17a747f59f5 ARM: omap1: move lcd_dma code into omapfb driver
+a6bc4ad91e4b27ce7678b4ab593e44ff6b194c5b ARM: omap1: declare a dummy omap_set_dma_priority
+c2ca31fc82697e5004f48e17ec54c9d8ad4e8d07 fbdev: omap: pass irqs as resource
+d7455c26799f3c8f971ff81acdbb626f2245373b ARM: omap1: ams-delta: remove camera leftovers
+4e1090dc495f4843a730ef480e6402e7ec53c368 ARM: omap1: move mach/usb.h to include/linux/soc
+c274926bd1b71c07c5c4ee2dbe38dd64f8b6a5d2 ARM: omap1: move some headers to include/linux/soc
+d9276ecbcfa351118cfe3cb746b153b9047015b6 ARM: omap1: move perseus spi pinconf to board file
+dd2f55d84c31b98e51b23e83cef6983bd604f226 ARM: omap1: move CF chipselect setup to board file
+ba073365095854ea1337a9b21e138751c0db3610 fbdev: omap: avoid using mach/*.h files
+8c07a5f4c22113a817dd2a4a1b520b5fc9d4c4a4 usb: omap: avoid mach/*.h headers
+8ad69bc02227c2f0c53f970ed2f4140a28ce9a38 clocksource: ti-dmtimer: avoid using mach/hardware.h
+e19984d2dc4eb8d5ff5f33f79ed18a0eff1f559f serial: 8250/omap1: include linux/soc/ti/omap1-soc.h
+c5b08f3db4aeaa61d53171ca53691013c59d4207 input: omap: void using mach/*.h headers
+a9d77e6b4382859bb38b8ad8b023751c67226fe4 ARM: omap1: innovator: move ohci phy power handling to board file
+22a1a88e1c6602d86e8983f2a1fcb2b2578112ee ARM: omap1: move 32k counter from plat-omap to mach-omap1
+8ec4f0c593ce0a42adee6fea6045d283dde0a5b7 ARM: omap: remove debug-leds driver
+65a35c630df07794016844878eed2c872e61ed85 ARM: omap: dma: make usb support optional
+524c5718a80769b178bdbf6f407db64343abd2ce dma: omap: hide legacy interface
+632b25dc636571004a9e08375b565febfdce2fe8 ARM: omap1: dma: remove omap2 specific bits
+b931842706c630e3c382e642c8ba58d06b37cba6 ARM: omap1: move plat/dma.c to mach/omap-dma.c
+086798b1701ddd9b4ce664a83d87d0502b0de2c5 ARM: omap: split up arch/arm/plat-omap/Kconfig
+a29104441e1075ba6ed328c0f329d0336f0d1dc0 ARM: omap: un-merge plat/sram.c
+7049f340d8ea356a9b2f3032864c0b1069fc7bce ARM: omap: remove empty plat-omap directory
+c07b91498c804eedbd7e1293a178b534259ed4bf ARM: omap1: relocate static I/O mapping
+1eb60ea22233c32e988887e3b2359284f12afe86 ARM: omap1: use pci_remap_iospace() for omap_cf
+7abeac4deeff3754c09136aad4ac3f130d7b6489 ARM: omap1: move mach/*.h into mach directory
+2a1c9bdd9c4a79c6f47a97df4c66565dbe1b988d ARM: omap1: fix build with no SoC selected
+7734e8951cbfbed4f8525981c8b62b668d21d691 ARM: OMAP1: Prepare for conversion of OMAP1 clocks to CCF
+bda64450538b33ffd3eb1ff5a69a492caaa5721d ARM: OMAP1: clock: Fix early UART rate issues
+a42b948237789a90d6a330fd26dfc3ffc2f752bf ARM: OMAP1: clock: Fix UART rate reporting algorithm
+811d32f4c7645f6fd25337e0fe856c7be8e3e289 ARM: OMAP1: clock: Remove unused code
+fc71c33648b128e385ab361b55132ae435c605c4 ARM: OMAP1: clock: Remove noop code
+b772c8234d18b4fe148cb559962adf7bd41637e5 usb: host: ohci-omap: Make it CCF clk API compatible
+cdecf1a3079a2cc2d656a099f8904ff6ccca5845 usb: gadget: omap_udc: Make it CCF clk API compatible
+23566c9e517e3dc82a518f67d231df46839ee59d [MERGED] video: fbdev: omap: Make it CCF clk API compatible
+4f3b2b22db95f9ac8f4fca724cb16489d85856ab [MERGED] mmc: omap: Make it CCF clk API compatible
+2017c68e1f0bc2c4b942e3d38b7d390a8aea89da [MERGED] ASoC: ti: osk5912: Make it CCF clk API compatible
+fe3939122d9ff1cc78551780a0b496316748e0b5 [TO BE REBASED] ARM: OMAP1: clock: Convert to CCF
+8cbb04ed5803bdc3d8b7dba487453fb51086ef85 [TO BE REBASED] ARM: omap1: enable multiplatform
 
---===============3867269021151334919==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-503eaad9bf67-58ea21e7c42b.txt
-
-f1eea3a4b3e9b29a5c6fc3a044cf1cce3ebc84ee Clean reencrypt status struct for API call.
-be5c5788d4bbef1d02ef6e734342c99bb51cfacd Add support for superblock BLOCK_SIZE property.
-23887777633d3ca791dc868ce0f56f4cf042906e Add option to probe only superblocks in blkid.
-f6452e1656ddd3bc9e71dcb2b7dc54505e77ae16 Add superblock BLOCK_SIZE detection in tools.
-624026a98f9507adb5bfe4cca26014df1c6c0f1c Refactor reencrypt_get_active_name helper.
-38d1f01b12b30141e081ce4b652e406bf0967114 Add tools helper reporting blkid support.
-c9da460b6cb34f9ad259371bfc3d324fbb13a636 Do not allow dangerous sector size change during reencryption.
-5c7858883cb071e5b8241fa4d5fd103faec8fa3b Remove cryptsetup-reencrypt version dump from tests.
-d3ad18ad818c842a127588966a7406b027fe4e4d Add compile info to README.
-773fc0195f6fe76022f3113086b7cd4ce2ac288f Fix typos found by codespell.
-3363bad8c29682a62ccba9eaa1d92cbae9e1a081 Speed-up tcrypt test.
-ebabf3ffeeb4ac48ab0385a689e2518697fdd975 Add compile-in flag to program version output.
-81a63aca2245f1e0816d73c8bcd0ec92eeb4aa83 Fix tests if compiled with --disable-blkid.
-e4a0d2531558f8097ea49a935b4e60d422d6d933 Fix missing batch option in test.
-4b1ba47ca177863a4f8b358eea421ea60d59e07a Avoid compilation warning if configured with --disable-blkid.
-58ea21e7c42b74a52979347f22443c0a0cafe83b Merge branch 'version-flags' into 'main'
-
---===============3867269021151334919==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1ddf5a85545-3363bad8c296.txt
-
-ce1c39dc543a27814c6286a030539afefb6d5e0e Properly report if sectior size cannot be used for bitlk activation.
-3fbc480e327d1be5ae08f22a1e12e3f66b09f828 Clean headers for utf8 wrapper.
-ab6762b849ce915141d8df11744840556bbfcf51 Fix possible missing uchar.h.
-f34b3b27ec19d358cad3c9bf1e3d6747219d74b6 Do not use definitions in for cycle.
-99c4c3adbf841e972f8ef5cc9f0cd4e60f6e8850 Skip question if batch mode is set for volume key bitlk dump.
-2857e100833036910d3dda489448e6c027b0f68a Fix UTF16 buffer overflow in bitlk volume key dump.
-f1eea3a4b3e9b29a5c6fc3a044cf1cce3ebc84ee Clean reencrypt status struct for API call.
-be5c5788d4bbef1d02ef6e734342c99bb51cfacd Add support for superblock BLOCK_SIZE property.
-23887777633d3ca791dc868ce0f56f4cf042906e Add option to probe only superblocks in blkid.
-f6452e1656ddd3bc9e71dcb2b7dc54505e77ae16 Add superblock BLOCK_SIZE detection in tools.
-624026a98f9507adb5bfe4cca26014df1c6c0f1c Refactor reencrypt_get_active_name helper.
-38d1f01b12b30141e081ce4b652e406bf0967114 Add tools helper reporting blkid support.
-c9da460b6cb34f9ad259371bfc3d324fbb13a636 Do not allow dangerous sector size change during reencryption.
-5c7858883cb071e5b8241fa4d5fd103faec8fa3b Remove cryptsetup-reencrypt version dump from tests.
-d3ad18ad818c842a127588966a7406b027fe4e4d Add compile info to README.
-773fc0195f6fe76022f3113086b7cd4ce2ac288f Fix typos found by codespell.
-3363bad8c29682a62ccba9eaa1d92cbae9e1a081 Speed-up tcrypt test.
-
---===============3867269021151334919==--
+--===============6611627942748838004==--
