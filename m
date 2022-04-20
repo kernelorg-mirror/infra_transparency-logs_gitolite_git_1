@@ -1,24 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 20 Apr 2022 22:51:19 -0000
-Message-Id: <165049507950.12892.7516389726902884409@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2290885039087085211=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 20 Apr 2022 22:55:00 -0000
+Message-Id: <165049530012.14069.140843534355791362@gitolite.kernel.org>
+
+--===============2290885039087085211==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rcu/next
-    old: cec83620bfa1e09a5af60b439ddcedae5af1544a
-    new: 7e510e661ea5f90cf0a5a1618af362dd115017b2
+  - ref: refs/heads/for-5.18
+    old: 3756aa16fadaef2873cfbd2659dfa1978a7e1859
+    new: 08ef48404965cfef99343d6bbbcf75b88c74aa0e
     log: |
-         3dbf537fe49bbc4c304774dc2e6f5384b593365a rcu/nocb: Add/del rdp to iterate from rcuog itself
-         72029319e19a932d8d425a8f4c244b7931ed2793 rcu/nocb: Invert rcu_state.barrier_mutex VS hotplug lock locking order
-         3932ce26dc6822b046a7a62c2e165c6b6f1655f0 rcu/nocb: Fix NOCB kthreads spawn failure with rcu_nocb_rdp_deoffload() direct call
-         a3b1f9e07d479411a336042d8be2431d768aec73 rcu-tasks: Split rcu_tasks_one_gp() from rcu_tasks_kthread()
-         130dd60ddd960d00cbe46b900bf1aa9d88739253 rcu-tasks: Move synchronize_rcu_tasks_generic() down
-         7e510e661ea5f90cf0a5a1618af362dd115017b2 rcu-tasks: Drive synchronous grace periods from calling task
+         08ef48404965cfef99343d6bbbcf75b88c74aa0e ASoC: da7219: Fix change notifications for tone generator frequency
          
+
+--===============2290885039087085211==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1650495298 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1650495298-a4715de6b9825a50bfad51ed72accfe6ff4be72c
+
+3756aa16fadaef2873cfbd2659dfa1978a7e1859 08ef48404965cfef99343d6bbbcf75b88c74aa0e refs/heads/for-5.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJgj0IACgkQJNaLcl1U
+h9B9Igf+IY/GurNbc/EcZp+UWnuuVgW0XZoaVPNqE+sl8W7tiIrA1cxkt4VW7FW0
+/cRtY/gQ2mdYDkwvg5FY63oE/T5aoMyQQqEWhkS5iK5pN9pMKgyV4FdyJYJaSRnq
+vU3lRjeRYrkbynfWYadXsVU1wgws01llIYb1eTCBb6RfOZ1b0oPfkqB1Sz+Ku0K6
+SY3tgyeqW8WCuXS6//9p/0ywG8wUZ2bEMihn9dKc0B9J49yQRbNpzpXJD2UPOpam
+y8GSCdX1ZAsx4vhwbewtwUPPdyZJyulU7PKy02ps15J3COL3eC/pXrnTRfcC29wm
+lIpVuoA9TiMzKD9/WNwUW51HRUZdIg==
+=ZzVm
+-----END PGP SIGNATURE-----
+
+--===============2290885039087085211==--
