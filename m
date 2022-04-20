@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7892437998609506146=="
+Content-Type: multipart/mixed; boundary="===============0266159273861241963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 20 Apr 2022 07:12:11 -0000
-Message-Id: <165043873168.23711.15639661762673528460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 20 Apr 2022 07:13:08 -0000
+Message-Id: <165043878871.24166.4981786168016467697@gitolite.kernel.org>
 
---===============7892437998609506146==
+--===============0266159273861241963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b2d229d4ddb17db541098b83524d901257e93845
-    new: 559089e0a93d44280ec3ab478830af319c56dbe3
+    old: fde874a17422ac46a5fe61eec200a41189199d6e
+    new: ced183489c2fc1ab34cfb6fb12cb5a353496e798
     log: |
-         317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 spi: spi-mtk-nor: initialize spi controller after resume
-         299d8b74519d04042f8803d0604e08a1a7e31e5e spi: intel: Add support for Raptor Lake-S SPI serial flash
-         f1d388f216aeb41a5df518815ae559d14a6d438e spi: cadence-quadspi: fix incorrect supports_op() return value
-         8c235cc25087495c4288d94f547e9d3061004991 spi: atmel-quadspi: Fix the buswidth adjustment between spi-mem and controller
-         705191b03d507744c7e097f78d583621c14988ac fs: fix acl translation
-         b7f73403a3e922c20bb278ba3cfcc3c61930d82a Merge tag 'spi-fix-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-         559089e0a93d44280ec3ab478830af319c56dbe3 vmalloc: replace VM_NO_HUGE_VMAP with VM_ALLOW_HUGE_VMAP
+         ced183489c2fc1ab34cfb6fb12cb5a353496e798 Linux 4.19.239
          
 
---===============7892437998609506146==
+--===============0266159273861241963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650438730 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1650438728-0fbb104ff58935d004be68313f0bb16f8087c027
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650438787 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1650438786-fee2c88b6b82c96029cb2c2574bbf2673414fbe5
 
-b2d229d4ddb17db541098b83524d901257e93845 559089e0a93d44280ec3ab478830af319c56dbe3 refs/heads/master
+fde874a17422ac46a5fe61eec200a41189199d6e ced183489c2fc1ab34cfb6fb12cb5a353496e798 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJfskobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/VMQAMA145giSQSsftkRsQ4a
-T+vphlnapDqvB/x0u9qdmV8MzSMWTniNw0jBJatoBCCTC4Fnct4kbR/LiQ4bNELg
-qY/QpsOM6enPly3iSvphsj8CPlFNOTEKR9ASTAStFlYY1YyFSMz1q/FchJL6EsZw
-2RXS8Gkesb7LS4yrn60l0iaezmCBoQfijsxWCZxpRhtiiCc7+IzZw/seIMeDiNUD
-/CTIdzUcUULzJQCTgp2JvqYb9J+CfmtoeIeDRFpmMGS3Sjz1ONOeReE2aXYpTK9s
-yeaHyO/xDd4dWZ2lkLbuFKF8vk85jWi29NNsxewzcfHAsTt2Z7F1y0JShkX3cgP4
-nBhGIdf0bEvEplrPnbgxBuHTHdUavu79COhcHeyhoishbn+2/FjFDtU3qfcHKrLa
-03pRPOaUHY9i0q1Jhrw5w/iyhEIegr9/St50hSkd80p34jzVyHVzbEIDwkrVLIH/
-KMTZ7vh+NW7FHEOa2CHp4I2pJFtkhCR9Rcyw1zc1fm2p3ODz4IC1qodVnta4+J5i
-+WsewIkfeHI0JrG+18OfBJ94yeY2FUpNU74dMQLMI1HviF8+KZBLqKJolUJuCU+q
-1bkD88LMmjnlhcMlqgcR8CKhyIThsNsKnzHDXchyOQrE+1ikJY3dXorcZt/5cKrL
-+Puk15v7BO2tTZsqDTUDeXeq
-=Oozx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJfsoMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gg4QAIdv/rgOIF7vih4vNsQb
+/iGUJTx2UqH8qUQhLBzIj7aVVw3WW+v1lWuETvuUNo+eaLGRXUYf4umVk0JlzVH2
+DewutnJeo8EUW74wppT9CkzLzAn3XtT+EfwPszxEa3gc/o1+sR4jV5wAMokvnucU
+LzWvMQlFGKJE4S422IEBB/KZfdm2wtjMjHkzXxSJkQobpNb0Yjxv2eiCNPiL6cDz
+4KOT5ekQ+hCoiLlw+Vocx5JjoAlkDxXn+dhQnV7O8rrfE9bDEDWQdnRCsDegrTTE
+FmtmT4yxZHXOOItKwdvM7ox5uj973ajTkFT4zQXeFawkS34IzJjQrOTndW3sSVm+
+4WEqJ1Tx9WSWqkax2pBB4RCd5Y4pbymaUXK4tacoPd8H4R/KFtXTXG457FpZFgeZ
+a8ybcZ5a0EI9nI9PBkCWL99iM8Gq7cfoeBzHEfr3sj+ZKjZExwOCTGmapEOsk+fK
+UrAInFeoEgBlAdkYKEmkaIWtv+pOBCKJxEv7dj2fvQPmNu6IfZlbV1TPTXfAmH7A
+syBb71LbOAkn0RsNC7keVK2XkZFVE+o+cb93PuxOkjXQmTG7NBYhvy09WFqVGHB+
+8O8Pm9HrljXaj4lytbXFlDmgCMwWtUPf+n6b+/joK00aUj3hXeCUBcvLOaXb+bEw
+w5pLEfnUlVXFJ5u+lCk1JTyC
+=lDG2
 -----END PGP SIGNATURE-----
 
---===============7892437998609506146==--
+--===============0266159273861241963==--
