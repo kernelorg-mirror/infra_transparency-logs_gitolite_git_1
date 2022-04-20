@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============5591279306201829992=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 20 Apr 2022 14:03:56 -0000
-Message-Id: <165046343662.22794.7119796373960247184@gitolite.kernel.org>
-
---===============5591279306201829992==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 20 Apr 2022 14:04:39 -0000
+Message-Id: <165046347950.23053.8910201611605745662@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 21b12d408dc2348a4d7ca1a8fae7ba8348063077
-    new: 0002a63a4a0ec3e1beee087480e8285ddd8cb94e
+    old: c5d0fc54bede8765b7a91bdac342c7c7de8bc8bd
+    new: 5e6242151d7f17b056a82ca7b860c4ec8eaa7589
     log: |
-         0002a63a4a0ec3e1beee087480e8285ddd8cb94e Add 94D6CF91FAF6B4CC (Zorro Lang)
+         044011fdf162c5dd61c02841930c8f438a9adadb selftests: mlxsw: vxlan_flooding: Prevent flooding of unwanted packets
+         5e6242151d7f17b056a82ca7b860c4ec8eaa7589 selftests: mlxsw: vxlan_flooding_ipv6: Prevent flooding of unwanted packets
          
-
---===============5591279306201829992==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1650463436 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1650463436-237b34772fd1d801c8bc498e78c04367aaee8acb
-
-21b12d408dc2348a4d7ca1a8fae7ba8348063077 0002a63a4a0ec3e1beee087480e8285ddd8cb94e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYmASzAAKCRC2xBzjVmSZ
-bGs0AQDIxmslDezwb/1z1mUAitwvdt2U0jIvih8pStZEtFsnPQD9EtYk6g3+V62j
-yG5v9vM3459GBb9szYcg0ryA0RNyWwI=
-=13rv
------END PGP SIGNATURE-----
-
---===============5591279306201829992==--
