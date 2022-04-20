@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5165023153244114620=="
+Content-Type: multipart/mixed; boundary="===============4341261524111049236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 20 Apr 2022 02:12:52 -0000
-Message-Id: <165042077246.27282.16540626009719445147@gitolite.kernel.org>
+Date: Wed, 20 Apr 2022 02:12:53 -0000
+Message-Id: <165042077397.27347.4244613617245653733@gitolite.kernel.org>
 
---===============5165023153244114620==
+--===============4341261524111049236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/dts-for-5.19
-    old: 97c246c825f73a018169834e56ffa9a89dea37a9
-    new: 4b6a151f17cbea6e9bd5b043d0e6e7d19b77c3f7
-    log: revlist-97c246c825f7-4b6a151f17cb.txt
+  - ref: refs/heads/for-next
+    old: 6f27c7fe82605291225144257fe48750d2b7e932
+    new: 260ec87d3b48e3c100451cef5bd39e85209d87ce
+    log: revlist-6f27c7fe8260-260ec87d3b48.txt
 
---===============5165023153244114620==
+--===============4341261524111049236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97c246c825f7-4b6a151f17cb.txt
+Content-Disposition: attachment; filename=revlist-6f27c7fe8260-260ec87d3b48.txt
 
 73618b43dc5af291be0eb150f4ba8a3c1a5c5436 ARM: dts: qcom-*-sony*: Mention SONY board names in DT filenames
 eba5e62045b2848042435ae0503d7c2354edf2af ARM: dts: qcom-msm8974: Remove properties that are always overriden
@@ -49,5 +49,6 @@ f300826d27be7f7f671c922bf57007c98c683590 ARM: dts: qcom-msm8974: Sort and clean 
 e82be679de942decbcdaac82aecbcd1277e03fd1 ARM: dts: qcom-msm8974-rhine: Add NFC and enable I2C hosts
 e63d4c51997af75cdf3f096c333a957b4579e43a ARM: dts: qcom-msm8974-rhine: Add pstore node
 4b6a151f17cbea6e9bd5b043d0e6e7d19b77c3f7 ARM: dts: qcom-msm8974*: Remove unnecessary include
+260ec87d3b48e3c100451cef5bd39e85209d87ce Merge branches 'arm64-for-5.19', 'arm64-defconfig-for-5.19', 'clk-for-5.19', 'defconfig-for-5.19', 'drivers-for-5.19', 'dts-for-5.19' and 'arm64-fixes-for-5.18' into for-next
 
---===============5165023153244114620==--
+--===============4341261524111049236==--
