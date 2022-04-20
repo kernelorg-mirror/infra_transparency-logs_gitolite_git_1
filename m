@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8549950006428984457=="
+Content-Type: multipart/mixed; boundary="===============2568671064550273517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 20 Apr 2022 16:39:44 -0000
-Message-Id: <165047278416.27162.4504660425933618026@gitolite.kernel.org>
+Date: Wed, 20 Apr 2022 16:40:31 -0000
+Message-Id: <165047283174.28897.479640115535795638@gitolite.kernel.org>
 
---===============8549950006428984457==
+--===============2568671064550273517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 9dc9653c8501b96123d5ca00ec792ca0e4b27180
-    new: e5f45b011e4a86d62fb3d9d9a634ec30a3027649
+    old: e5f45b011e4a86d62fb3d9d9a634ec30a3027649
+    new: 6c67631a54c6f28c4084f54798d68068dae2bcbc
     log: |
-         e5f45b011e4a86d62fb3d9d9a634ec30a3027649 staging: Remove the drivers for the Unisys s-Par
+         b8ce0acfa4ed6c57f3daad2a654ee4ab595daf6b staging: vt6655: Delete tmacro.h
+         b5485fe7c47ac98c9adc65b67c7eadf31219201a staging: qlge: add blank line after function declaration
+         6c67631a54c6f28c4084f54798d68068dae2bcbc staging: rtl8712: Remove unnecessary int typecast
          
 
---===============8549950006428984457==
+--===============2568671064550273517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650472780 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650472829 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1650472779-1f65647f7faea44498e859399f4b70cd97110b0b
+nonce 1650472828-b05ce559190e34f0922c6e6be462e74af991874e
 
-9dc9653c8501b96123d5ca00ec792ca0e4b27180 e5f45b011e4a86d62fb3d9d9a634ec30a3027649 refs/heads/staging-testing
+e5f45b011e4a86d62fb3d9d9a634ec30a3027649 6c67631a54c6f28c4084f54798d68068dae2bcbc refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgN0wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pucP/35d3tzVgOkMMcIR40QN
-+9UIM/RJ9eDVHV1/eT7Dd82+nwBY7NPRYd0NiQh0vNlh83h5eI2L7GrBc2B919i1
-eg30JpkU/TyLjjXSUVrTyTyr86TNz6l610GRxFy6SALHPnYr2hd9eN05AqfusxhI
-X2DajCHa5th5WtOb1MrwF5Hr964CXH8vmNCQUBXY0x8k6XQuBbPKfUsa3bQ6PL83
-QtpW0JUGDbho1o63DZCAHFIfVmn8oJcEmt0D212k0BtKAXsGx76ye2JZ7BKdI7x6
-swoTEPRKQF7iKlv+DwBm+pVCSmhMIudDGEWtsB9Q3I6ve8WF00bPMJs1ogJVt6Ed
-LpNv0NL+4ZwK2QCzGAdYU4jJjatEQ0HyUdEtERatFAO6kBSOpmdhLRFCIUc4cLrU
-+zFkjCP48A1by8byJ+IabOwkegmdiaBj6QRWEOAseBwfZQDfFY95wVxkqLH0jZ5r
-HvOi4znZXsjs4UPkmoLutJxTXnqJJOs1j068ZiAx0LnmztoeyhDeEPv+sq8OoBG8
-hvLCHiAVpMIi/3N1GVYezRf7HRkLyrf+6uSoNPSQzC1YjRhwAcQP3Tpv0W7bxq0b
-wvfybRV9T3puO+7qwpR/vpZ2vMbcEs5ZPWc/dQi/wDU3sPkv1YJW74aVpNBe8I6O
-tc72hACSGIzbUGjFfbwTto5M
-=sExr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgN30bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JyEQAMBNWouA0BAEyqxpyAhL
+BboG3sN4F3GRsLne9rabAjvGQW/95+neFecz+SKACc8aXpnAh1qYjH8PK9gosOcI
+tZZI659nVzGX2NvKRYjKGhy0u0jWOhLu0r+wkXOJFj+qXDgfkRR8Js+ZWhGlF+pf
+qHzOZ7s2AmzLqaudbNuFAHLLW5RDMy0yWf2p6k4UP+kjyM5Ha7wqnIOKWMXr4Qt1
+CimDRPnmZGktPFWrHTYaqh1i8GGKVCP+q5zO3pwqvYO/aUDwPGLvh0nvdAzHxn7+
+lnAt/lbmCyCL95YJDLHssKGaAslce+X19pzPQmRhESEp8/mf4p9JQZLguvtkvElq
+Ys8IS7yIBVg+oTuoCsfRnkFY9/0IWfPcr12EYaV8ciCVlwNE280wiE3/1kf0K+zK
+Kpv1cJMp8Z6MVlZ9hYGOQp+XtzPfs9Rz9MsxoJwk30VRTXUjwkUQnxcPPugWiZxm
+4ixvXZvetjOJ0LXMbIxYSyDHbGXcZD+FkGU37vQyWXDcskQWnugM/s1Kifp5BeEO
+7ooaLmAJYHQ5sWj1TkD4Eh/QdSNzwhLSmdLYqwTl5RTEvraiP208ILTBJsVcMGtW
+PjIHiDEs4ZXEuzmsw+pPWLpAaVoEx8IrtzMVl+0EFyOD+VM9yQcwjX+3hzgzDTBD
+iJJMLj5FPNjdShigfjXBH3IU
+=eDtw
 -----END PGP SIGNATURE-----
 
---===============8549950006428984457==--
+--===============2568671064550273517==--
