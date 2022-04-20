@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 20 Apr 2022 02:50:03 -0000
-Message-Id: <165042300365.21609.227297254113749470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Wed, 20 Apr 2022 02:55:47 -0000
+Message-Id: <165042334713.24928.923243224930941012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/block-5.18
-    old: 9dca4168a37c9cfe182f077f0d2289292e9e3656
-    new: a87c29e1a85e64b28445bb1e80505230bf2e3b4b
+  - ref: refs/heads/main
+    old: c001fc01a43e7a06447c06ea3d50bd60641322b8
+    new: ed310803ea893ed0a8bba9c4ff0d9eb0063a8bef
     log: |
-         a87c29e1a85e64b28445bb1e80505230bf2e3b4b blk-mq: fix possible creation failure for 'debugfs_dir'
+         ed310803ea893ed0a8bba9c4ff0d9eb0063a8bef pylibfdt: add FdtRo.get_path()
+         
+  - ref: refs/heads/master
+    old: c001fc01a43e7a06447c06ea3d50bd60641322b8
+    new: ed310803ea893ed0a8bba9c4ff0d9eb0063a8bef
+    log: |
+         ed310803ea893ed0a8bba9c4ff0d9eb0063a8bef pylibfdt: add FdtRo.get_path()
          
