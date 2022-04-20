@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5500497370804670207=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 20 Apr 2022 17:28:32 -0000
-Message-Id: <165047571286.27336.7090914013342702810@gitolite.kernel.org>
-
---===============5500497370804670207==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 20 Apr 2022 17:29:45 -0000
+Message-Id: <165047578522.27766.5036269298905476800@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-5.19/trivial
-    old: 6b6efe23942536f3a2d2ae25c92d34d885f020c8
-    new: a204e6d626126d33f34f43374d5abd00141f3e65
+  - ref: refs/heads/stackleak/rework
+    old: 11837076c506eadc4c2da93bbad1a00f3314c4ba
+    new: 5ab359fe2bb14eb21e7135b9d61ffdc5aee4b865
     log: |
-         a204e6d626126d33f34f43374d5abd00141f3e65 mm/slub: remove unneeded return value of slab_pad_check
+         f6e6d34028ed5ffe9409bdd63919af78ccbf6e94 arm64: stackleak: fix current_top_of_stack()
+         43e339e507fed467516c6c7be6573f4002c6423c stackleak: move skip_erasing() check earlier
+         ac8ca73afe45360a1f14aae4d31e6f6beee4d9d4 stackleak: rework stack low bound handling
+         191c1f224c4e392da4c59f415b03ce3c8f7f042a stackleak: clarify variable names
+         238adcebdfca6ef5337b7e459ede8ab57d8643ab stackleak: rework stack high bound handling
+         927eb8896cf108f313b58fb63e17bd2cabf96121 stackleak: remove redundant check
+         7c331597b142a929370891458e4db2b70a50a83b stackleak: add on/off stack variants
+         5ab359fe2bb14eb21e7135b9d61ffdc5aee4b865 arm64: entry: use stackleak_erase_onstack()
          
-
---===============5500497370804670207==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1650475711 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1650475711-28f2429949a91567ca9d4156c1f18879cb676e7c
-
-6b6efe23942536f3a2d2ae25c92d34d885f020c8 a204e6d626126d33f34f43374d5abd00141f3e65 refs/heads/for-5.19/trivial
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmJgQr8ACgkQ4CHKc/GJ
-qRCjAggAvkF/lFoLE2GuZBkcr0Zh58aaFmWyI1k3C6rx0h+LFJ5SduqVruZaoqjv
-yG8qHtOz4HSlAuXDzWvKpqzGljbG0TG/UEn/wIT9quJVAii7xE6WkkOmlYvBXS/Q
-4cNkHHeTMcwdawyrS0PuBT3B5lE9w+ZCdWfpP1CfkpU9YQgtZDFkptvLWsvbRNtu
-v30ynzLnhP7HVa0bGh9IBhEJJbGy+BkjpWPi4OmC62themwfPMcJtpSYb86s2GU7
-1xKx5fLqExQnXNQtvGJiHTtglkGPp48gQ9dyM+2qdkXhu7OrOaJtUPQEkYUo8B21
-0ELnLBvqHe0D0ETFiK69crTwYA1E1w==
-=OAjR
------END PGP SIGNATURE-----
-
---===============5500497370804670207==--
