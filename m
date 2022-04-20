@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 Apr 2022 05:43:47 -0000
-Message-Id: <165043342753.5423.1001999427096054803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 20 Apr 2022 06:17:53 -0000
+Message-Id: <165043547356.27417.7481867596724164469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: dcf456c9a095a6e71f53d6f6f004133ee851ee70
-    new: c7655df434de1dab1af1b1ba2aad757b15e25b83
+  - ref: refs/heads/master
+    old: 7ea19126ac0d235e9e1e4fd2dad1d9e16951d391
+    new: b86fcbc0cb6a70c42be78aec490cdd9875268da6
     log: |
-         5af25a410acb8d34acb11024d752f0ea3491decf libbpf: Fix usdt_cookie being cast to 32 bits
-         58ca8b0572cd3bbaac60d14d2b1b4f38b389ad93 libbpf: Support riscv USDT argument parsing logic
-         c7655df434de1dab1af1b1ba2aad757b15e25b83 Merge branch 'Support riscv libbpf USDT arg parsing logic'
+         b86fcbc0cb6a70c42be78aec490cdd9875268da6 tpm: Remove read16/read32/write32 calls from tpm_tis_phy_ops
          
