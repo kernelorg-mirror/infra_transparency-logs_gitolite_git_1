@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0705843825781571835=="
+Content-Type: multipart/mixed; boundary="===============6749174390326787083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 20 Apr 2022 21:39:59 -0000
-Message-Id: <165049079942.29150.3067869138422508645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 20 Apr 2022 21:40:06 -0000
+Message-Id: <165049080691.30711.14384886870998038550@gitolite.kernel.org>
 
---===============0705843825781571835==
+--===============6749174390326787083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/spi-5.19
     old: dd769f15483cac1895fd219eb17e6f04c9a5548f
     new: c2b5a40c9e50651a29ee9d110f7ebc41b8720efa
     log: |
@@ -32,28 +32,28 @@ changes:
          c2b5a40c9e50651a29ee9d110f7ebc41b8720efa spi: intel: Implement dirmap hooks
          
 
---===============0705843825781571835==
+--===============6749174390326787083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650490797 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1650490797-e8fee27b4edd70dcf6524bdaae9c5fc6e5a882bb
+pusher C3F436CA30F5D8EB 1650490805 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1650490804-67bc0aa0d6fd805721aef9b8cd73cf9a67928a9d
 
-dd769f15483cac1895fd219eb17e6f04c9a5548f c2b5a40c9e50651a29ee9d110f7ebc41b8720efa refs/heads/for-5.19
+dd769f15483cac1895fd219eb17e6f04c9a5548f c2b5a40c9e50651a29ee9d110f7ebc41b8720efa refs/heads/spi-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJgfa0ACgkQJNaLcl1U
-h9C7Fgf/Qifpr3ToS/TwC2Hj7gXYGVO/NJpNjsMSyVd+rLSeCdll/EreB+aJzQSh
-4yQMa8W8NGxWnS7qCo3xZiPCW8pjdlbZGCl6g0bZCbht2t77M5Lsucj75x7i6EPj
-Im/sWpUUVWsOfKRWM3FrFEHjYoD5OZ2I/HnwFkj/QFXhcVX207WKCMd6hbY55/Ml
-d8gFMMhRpNTCymHy/9gF+ImU4g17idHdw5OfA3baqeMZlf9N93XPnmFJ4fiLsqTU
-iHM8NPrFLmJHWamrSTqvCSMW45ULLRMy/UZ+2bAyTrs+C3tBkt6WJ1PwDMEsSQXA
-zCzS7P4tAxlvXqMHduzgrJpB1YTKgA==
-=DykH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJgfbUACgkQJNaLcl1U
+h9CZQwf/ZBRacFRTvFXusfUzbvrDUzxK3gzTyuNRgLpnoYAxkK7GXlqw9SKZRGa4
+eKMoAtgb0H3NYkUP65DvBHZGpdrXMLz9+5RtjOorJOCRn1feDf2iX2pz4glTx94y
+yALB9kgJLqk3IfjHxec2ru9ZhQuQF6OQzgDFDMdcVzJ2j/qBPQim72Zzgmh2o7rC
+SMwyG0sIJnKf2BPDd8kzVLYD7NlWF9GrMd8SIEkC2pBGhoTPhRSougdepSQMONgu
+x8DoNL/hUkQ+9m1TVm5/wAiGGCY/YmJ4QWKWIcaS87n/AhsRkRiBnE1gEQOR8rEo
+ocpY5I0Shhnymp1f+POg4Q+3kioNvQ==
+=Hxfj
 -----END PGP SIGNATURE-----
 
---===============0705843825781571835==--
+--===============6749174390326787083==--
