@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0995810714952655960=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 20 Apr 2022 12:58:32 -0000
-Message-Id: <165045951205.13166.9150600337641856382@gitolite.kernel.org>
-
---===============0995810714952655960==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 20 Apr 2022 13:14:07 -0000
+Message-Id: <165046044772.23630.15475599910129179768@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 223bb7a0fb2f52c886ca824d9f3ded4a46fda0cf
-    new: 21b12d408dc2348a4d7ca1a8fae7ba8348063077
+  - ref: refs/heads/for-linus
+    old: 0aea30a07ec6b50de0fc5f5b2ec34a68ead86b61
+    new: 0665886ad1392e6b5bae85d7a6ccbed48dca1522
     log: |
-         21b12d408dc2348a4d7ca1a8fae7ba8348063077 Weekly update from keys.openpgp.org
+         0665886ad1392e6b5bae85d7a6ccbed48dca1522 ALSA: usb-audio: Clear MIDI port active flag after draining
          
-
---===============0995810714952655960==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1650459511 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1650459511-faf87bf09be491edb2b079141d7f26488dbed11b
-
-223bb7a0fb2f52c886ca824d9f3ded4a46fda0cf 21b12d408dc2348a4d7ca1a8fae7ba8348063077 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYmADdwAKCRC2xBzjVmSZ
-bDWWAP0fjX34sabXZOqIrfTvAZGG2oL95I3SCcrvoPYrZAtpkwEAkgD6qXDnMvDR
-WgkR6fGVUFwlectc5ZmYFygdoMoqIgA=
-=SQUi
------END PGP SIGNATURE-----
-
---===============0995810714952655960==--
+  - ref: refs/heads/master
+    old: 5c4c0fbed09d15d4e290cbdecb1c5c3abd840871
+    new: ec1f6b51f6072b27e9a759b3a6045aec93825052
+    log: |
+         0665886ad1392e6b5bae85d7a6ccbed48dca1522 ALSA: usb-audio: Clear MIDI port active flag after draining
+         ec1f6b51f6072b27e9a759b3a6045aec93825052 Merge branch 'for-linus'
+         
