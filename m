@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 Apr 2022 00:55:14 -0000
-Message-Id: <165041611467.4190.4290513161687436526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 20 Apr 2022 00:56:25 -0000
+Message-Id: <165041618520.4618.18263255037678427593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 0d7fefebea552771b17682a12330ea47e369a5df
-    new: 0e5aefa334dba7fc07ee4ef52ae622f957fc865b
+  - ref: refs/heads/fixes
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: f81f7861ee2aaa6f652f18e8f622547bdd379724
     log: |
-         eb596b0905584a9389585b0f437cf8a2faeb14d0 bpf: Ensure type tags precede modifiers in BTF
-         24fe983abe01c53e1a9354fe21fab92579fcda6d selftests/bpf: Add tests for type tag order validation
-         0e5aefa334dba7fc07ee4ef52ae622f957fc865b Merge branch 'Ensure type tags are always ordered first in BTF'
+         f81f7861ee2aaa6f652f18e8f622547bdd379724 cpuidle: riscv: support non-SMP config
          
