@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6433431035822757236=="
+Content-Type: multipart/mixed; boundary="===============0300233925628398200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 20 Apr 2022 21:39:43 -0000
-Message-Id: <165049078328.28924.5253865868312766652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 20 Apr 2022 21:39:51 -0000
+Message-Id: <165049079167.29027.68591958134021418@gitolite.kernel.org>
 
---===============6433431035822757236==
+--===============0300233925628398200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: b4f5c6b2e52b27462c0599e64e96e53b58438de1
     new: 3756aa16fadaef2873cfbd2659dfa1978a7e1859
     log: |
          3756aa16fadaef2873cfbd2659dfa1978a7e1859 ASoC: simple-card-utils: fix sysclk shutdown
          
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: e65f2fce08fc708e65b544131999bdd933d09164
     new: b3598fe6d009b2f2144115dfc381615c8b534aec
     log: revlist-e65f2fce08fc-b3598fe6d009.txt
 
---===============6433431035822757236==
+--===============0300233925628398200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650490777 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1650490777-0ee849c44e3c9a32164ce0fb4eb25bed6463c77c
+pusher C3F436CA30F5D8EB 1650490788 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1650490788-85e7e75b569d4ba726616512d33917d2e7d01c99
 
-b4f5c6b2e52b27462c0599e64e96e53b58438de1 3756aa16fadaef2873cfbd2659dfa1978a7e1859 refs/heads/for-5.18
-e65f2fce08fc708e65b544131999bdd933d09164 b3598fe6d009b2f2144115dfc381615c8b534aec refs/heads/for-5.19
+b4f5c6b2e52b27462c0599e64e96e53b58438de1 3756aa16fadaef2873cfbd2659dfa1978a7e1859 refs/heads/asoc-5.18
+e65f2fce08fc708e65b544131999bdd933d09164 b3598fe6d009b2f2144115dfc381615c8b534aec refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJgfZkACgkQJNaLcl1U
-h9CuZwf8CB6tiHwc1QuPu/+ko3CvpGRwoKbIiggqN6lVh59j43c2l34lCj9POPzD
-/hoWwh/kQvJWxm0y/0MRkrotFX3o/iXRVNTixV6qKi+53AlrHl2tBRLCH4WE9KpJ
-8EdcqtaagQmCV7kaa4SphIo/4GbyuC+dUncCSyTOgXHllmv/6oDZJB4Xn8hHjmSP
-T1tZDIFYBShB9hfy76wUs+rSr/e4vleqFxJmLxNY3LxbiZQX/hvOtWEDKbLom1ge
-/lor4iDP314JyZBOOlrbJzVejBLFby8JMUMsfT2fhLrcleHqmGh9CflvHppfMdiz
-GBRkU1OOwwC0QHTfOn5C10iRYZRe2Q==
-=FVh0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJgfaQACgkQJNaLcl1U
+h9CJzwf9GzE0FGuOmThfw0tsvd68fJLRcOK62bqeMLeSPsgGplKIEa8BsV/mQxlR
+Dy01CDF/O/vJQf+gALNK6Rn2mg8jMx9m58i43doqZRiCqQDHDMvD78ZSfnGCQnaC
+pb3c8+yLQmQxILGztXPYVYv+aTs3iFNFlNCkduF51EuWj4OUvqYh4aybEzUZUjZS
+p6uQvlVjHxxRNy7PvXprj1lXsi4cSjwRL+QHyUgosCyMcpnS4D0pSdKB6UjdTBMx
+ULy3jWHoQUPYz6pcRDIUu9piLPN3SCvGI9JmKBCVBGS+m18U3DtC0sx6xHJCI72t
+so6gESKQ5tERBjIiNcvdJ39CXVtgUQ==
+=An72
 -----END PGP SIGNATURE-----
 
---===============6433431035822757236==
+--===============0300233925628398200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -119,4 +119,4 @@ e1bbfccf3c52944dbdb83d8333dba4ae6b8a094c ASoC: Intel: avs: Topology and path man
 fbae863de87bf50c7b13b40e3b4dc4b479335020 ASoC: amd: acp: Add pm ops callback in machine driver
 b3598fe6d009b2f2144115dfc381615c8b534aec ASoC: SOF: using pm_runtime_resume_and_get to simplify the code
 
---===============6433431035822757236==--
+--===============0300233925628398200==--
