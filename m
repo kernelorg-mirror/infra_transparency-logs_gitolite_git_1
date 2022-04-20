@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 20 Apr 2022 12:54:05 -0000
-Message-Id: <165045924546.10302.514070826783637575@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0995810714952655960=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 20 Apr 2022 12:58:32 -0000
+Message-Id: <165045951205.13166.9150600337641856382@gitolite.kernel.org>
+
+--===============0995810714952655960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 63bcbb33c9a19465b22524b74ab39a78888ff652
-    new: d78eafff93f1fb361c037b9a90a1dd7551cbc621
+    old: 223bb7a0fb2f52c886ca824d9f3ded4a46fda0cf
+    new: 21b12d408dc2348a4d7ca1a8fae7ba8348063077
     log: |
-         3dda771e548c59661beec6430b14033c26a22a06 x86: use fallback for random_get_entropy() instead of zero
-         4ea3bedcd6d0f137def83861dada0aa7ccd67547 um: use fallback for random_get_entropy() instead of zero
-         29cdbd4b443988ebfd894ba70d5686c2e4fb978f sparc: use fallback for random_get_entropy() instead of zero
-         0a731ec955c7e953d5927b1ff4c5dc0f56c9fe64 xtensa: use fallback for random_get_entropy() instead of zero
-         d78eafff93f1fb361c037b9a90a1dd7551cbc621 random: insist on random_get_entropy() existing in order to simplify
+         21b12d408dc2348a4d7ca1a8fae7ba8348063077 Weekly update from keys.openpgp.org
          
+
+--===============0995810714952655960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1650459511 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1650459511-faf87bf09be491edb2b079141d7f26488dbed11b
+
+223bb7a0fb2f52c886ca824d9f3ded4a46fda0cf 21b12d408dc2348a4d7ca1a8fae7ba8348063077 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYmADdwAKCRC2xBzjVmSZ
+bDWWAP0fjX34sabXZOqIrfTvAZGG2oL95I3SCcrvoPYrZAtpkwEAkgD6qXDnMvDR
+WgkR6fGVUFwlectc5ZmYFygdoMoqIgA=
+=SQUi
+-----END PGP SIGNATURE-----
+
+--===============0995810714952655960==--
