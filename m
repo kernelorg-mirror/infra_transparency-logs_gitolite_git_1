@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1783844431166730863=="
+Content-Type: multipart/mixed; boundary="===============2834008626784128698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 20 Apr 2022 16:35:54 -0000
-Message-Id: <165047255433.25719.6301242729584204644@gitolite.kernel.org>
+Date: Wed, 20 Apr 2022 16:38:00 -0000
+Message-Id: <165047268027.26478.17125122968591596766@gitolite.kernel.org>
 
---===============1783844431166730863==
+--===============2834008626784128698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,59 +17,47 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: bed6d200f8ca38e1ecbdd8fb7e0564884002abd1
-    new: e3748816b74e22725e12df991e51efa076e93fd4
-    log: revlist-bed6d200f8ca-e3748816b74e.txt
+    old: e3748816b74e22725e12df991e51efa076e93fd4
+    new: 9dc9653c8501b96123d5ca00ec792ca0e4b27180
+    log: |
+         59e8d56f00a5a7635be11d4c4959de9458230553 staging: r8188eu: check receiver address only once
+         bd379a21488bbe694984ba5d1bd7d4cd4a17d416 staging: r8188eu: replace the GetFrameSubType call
+         bea6af5447fcbdc076dfaacc33db7e49a855f794 staging: r8188eu: the frame type is shifted out
+         9e9bbd6ffd0e2dfeb02b8233f069974c7d8c5a98 staging: r8188eu: replace mlme_handler with function pointer
+         7d0b25d7fb5b6e783543165dc26ca2b9172cf664 staging: r8188eu: don't call empty DoReserved function
+         db84803cd8def406c60eb865d3b4ae0efa09a9f8 staging: r8188eu: use ARRAY_SIZE for mlme_sta_tbl
+         96b6efb72d1413fab4d9e7be9a87f7d2b191a3fb r8188eu: remove unused urbs from struct xmit_buf
+         9dc9653c8501b96123d5ca00ec792ca0e4b27180 staging: r8188eu: use in-kernel ieee80211 header structures
+         
 
---===============1783844431166730863==
+--===============2834008626784128698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650472550 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650472676 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1650472548-4fc58f25580ee0ad24a3f91a4e848b8cdc5cc30a
+nonce 1650472675-4c2e298528a14f35583591ca405267444e5df345
 
-bed6d200f8ca38e1ecbdd8fb7e0564884002abd1 e3748816b74e22725e12df991e51efa076e93fd4 refs/heads/staging-testing
+e3748816b74e22725e12df991e51efa076e93fd4 9dc9653c8501b96123d5ca00ec792ca0e4b27180 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgNmYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gDQQANdaQB7pRSyXSVhy/JMV
-d1B3HZkuDVNOwn8eSqnMoj7Tysha7ISAIgTPmeZ1kEWHZcDAVOuYkMwcCGJJ7anS
-AIsejHhaIXaR//8lx3ue2sBqYclY83jE56TrrAi/HwE7Uvj9gzwPc4QduFJA/trN
-3R9SACIlX8Cv0L8gSQuTZ49JngtRlcgmetK0Oa0mfKEKJHq1J62LCX+xrb/8J0S6
-dvR+Yyez0M2zFLUNBGOMjAuw/ZiW9HW3O6Xd5dx8ClsYDz79HIAj0ZVHWKZZ6vjE
-tOunqX4a+eb2aSajUun1ktGgqHOLpxUq16hG7P7qTOoH8jln720EP9kfywDOrEFg
-9CA51NGJuBto23bsMnW81IiFXpANosKSHaQqguvYAZAhQZ1kvUV2qyfwElmFuiEJ
-yCfyqCwbUmwXOuaerTVuP9EQBWypG9taMvta2Lh+jc9NsdvGbnlyFjtY31TX2lSg
-WS8EjjPe4/eU8CBDQR40PbiTZHAw8tSQYL2doGf3luazLTUEnDvRwTRPEpkZ69VE
-+qA2lt2HOWXBWRlM6O0l0vt8KQS3lMLrEsqMjbrpd30pNbTgvR32pWqnifoiciYS
-ypbsh/t8yHb3FZdM3al0xHD0ZhqAz1uso9Rd4cxVCW3G+VAx7+3SkQr9UsDKmY0Z
-PPOxhiyeu6xMlUA1sTOLEz+Z
-=LUKV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJgNuQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o3wP/A9FFzlCVcNHrc7iHY49
+EtisURn6nP19P7+SotkZzfUMrYRHcf+RNZIp74I2Os6EpyMSR6i+QL7cLjsvbcVj
+cM1On4LWde7cXJT5z5zv/3NZMKP/yhNksOSbWE+IOoR2OnzT2Q+BcL9+Q218ill3
+bCl22hAREC1afoseG4GI3qI46xzn7NllHzQL3Rr4y1v5KNJYZ19c0GCH3YOKT9Ea
+SUCY4Rfm1qyWVmc6LQPgfCFyZwXBlPsaVqo632whq5Xxf899XKPVWHYgt5CRPXFR
+XGUkYKQE3VKmBh0NwavXDcImEOW83z067MJoofKyRzKXv/pNIp9h5WdxGkdhews1
+J+hE6C+gmm+oDTH85XDUSxURdTmjkBCySZhEGsyjAQBkACjZoNkfTbn7zRI0jFw8
+MEVjFTVPhHAFNmKloIxjr+MVKxhF6G8cGCu2At+htujdCVpbeXI3GnhO5374FHF9
+Wm1pQCr/07OZdZ3w4pVEJFDcPGjTK+iokXBCeZbDsefZib739uQh7jMNtERdIvLb
+lzfYxAEKp3Tw5EzZZLEB0IhsG3kfENaKKbFLwsdCGEjONcRV+nEQwSbrABw58euk
+emQGEj+CY51EhkB7uC6yRMmJwzhTrepH92jlLiWZUWp0Uzmn/6A9VjwtN7jX8K1v
+nFCsIGVc2ja1+wCkMjalOpRn
+=5wjW
 -----END PGP SIGNATURE-----
 
---===============1783844431166730863==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bed6d200f8ca-e3748816b74e.txt
-
-8848e22ca38579afcd928fce009ba9e75575f072 staging: bcm2835-audio: fully describe config symbol
-b526eb830f006afd65d2162ecb787a3a2a04c728 staging: bcm2835-audio: fix line ending with '('
-f936d818bbf3652cecb44e1a6976f5150b38424e staging: bcm2835-audio: fix unnecessary space after cast
-d9d19fb09b2ea59ebebf63845b4cf2e86493582c staging: bcm2835-audio: fix mutex definition without comment
-7f658339b7e2ff834952969755694dfb1fd4282b staging: bcm2835-audio: fix mutex definition without comment
-fbfdc1b6f80abc40cb1f7bac68248b899754d8be staging: r8188eu: fix struct rt_firmware_hdr
-84a44ac55059e1a87af95050a160686f9eb2817f staging: r8188eu: convert u32 fields of rt_firmware_hdr to __le32
-fbcbbcda0205d15decf3b8519267a1e7305cfd9e staging: r8188eu: clean up comments in struct rt_firmware_hdr
-60ca4cdf50ae184c868c6f5c05f7415f2383938b staging: r8188eu: rename fields of struct rt_firmware_hdr
-4e58dfad41320e65a3411c2c123fb115d3513335 staging: r8188eu: use sizeof instead of hardcoded firmware header size
-4ae19e7af2ce5e0fe8aab45706f9fc168d0cb97d staging: r8188eu: remove variables from rtl8188e_firmware_download()
-c77031960762b95e85e857c91e9766cd2ba498eb staging: r8188eu: use pr_info_once() to log the firmware version
-2e034e0390c8c60f0ffd8ade744701f7bec7674a staging: r8188eu: check firmware header existence before access
-e3748816b74e22725e12df991e51efa076e93fd4 staging: r8188eu: place constants in right side in a comparison
-
---===============1783844431166730863==--
+--===============2834008626784128698==--
