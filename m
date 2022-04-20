@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 20 Apr 2022 15:03:34 -0000
-Message-Id: <165046701449.29613.10597475102077579325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Wed, 20 Apr 2022 15:06:10 -0000
+Message-Id: <165046717031.31880.4783877232936591758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 679ab61bf5f5f519377d812afb4fb93634782c74
-    new: 570a4bf7440e9fb2a4164244a6bf60a46362b627
+  - ref: refs/heads/master
+    old: dfc93f131c8dec41699cc6d59a4bf002e73d7236
+    new: c787256a1dc643a42de9daccb50ccd15ff680aa8
     log: |
-         570a4bf7440e9fb2a4164244a6bf60a46362b627 RDMA/rxe: Recheck the MR in when generating a READ reply
+         3ccaaddc75cacabb76f1fa293a17c5b2e489593a trace-cmd listen: Remove UDP from function names
+         de8196a4bb620522d68033397507fb736ab6a33e trace-cmd listen: Replace bool use_tcp with enum type
+         c90a8afe90494dc2c7f04b8051bf96e50c0cc876 trace-cmd record: Replace bool use_tcp with enum type
+         194467199c076089f7318d52eec709d9ea827533 trace-cmd listen: Add vsocket usage
+         c787256a1dc643a42de9daccb50ccd15ff680aa8 trace-cmd listen: Add documentation on vsocket usage
          
