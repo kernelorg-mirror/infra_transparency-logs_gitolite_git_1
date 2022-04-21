@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5420342276350985949=="
+Content-Type: multipart/mixed; boundary="===============8719260072542427714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Apr 2022 16:15:47 -0000
-Message-Id: <165055774729.1461.8499718303993633835@gitolite.kernel.org>
+Date: Thu, 21 Apr 2022 16:31:26 -0000
+Message-Id: <165055868684.10767.15680932151035530035@gitolite.kernel.org>
 
---===============5420342276350985949==
+--===============8719260072542427714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: be30e3502771ac0b5080ec61223d915354cde1cc
-    new: aef11279888c00e1841a3533a35d279285af3a51
+    old: aef11279888c00e1841a3533a35d279285af3a51
+    new: 92440202a88009ef66a236001981513e03a300fb
     log: |
-         61aa709ca58a0dbeeb817bfa9230c1a92979f2c6 usb: gadget: uvc: rework uvcg_queue_next_buffer to uvcg_complete_buffer
-         9b969f93bcef9b3d9e92f1810e22bbd6c344a0e5 usb: gadget: uvc: giveback vb2 buffer on req complete
-         aef11279888c00e1841a3533a35d279285af3a51 usb: gadget: uvc: improve sg exit condition
+         38c695e1e2a2caaacb3b2dc5cddbba5e8024412f usb: typec: mux: intel_pmc_mux: Add retry logic to a PMC command
+         92440202a88009ef66a236001981513e03a300fb usb: typec: tipd: Only update power status on IRQ
          
 
---===============5420342276350985949==
+--===============8719260072542427714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650557745 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650558681 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650557744-f25b1a48c67c045d688c4179ade0afc128802a78
+nonce 1650558681-7ee58e96e43978b656247ed544107fb9c4503fd5
 
-be30e3502771ac0b5080ec61223d915354cde1cc aef11279888c00e1841a3533a35d279285af3a51 refs/heads/usb-testing
+aef11279888c00e1841a3533a35d279285af3a51 92440202a88009ef66a236001981513e03a300fb refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhgzEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nf8QAL9dcMxk73/V8niqqMhz
-Ra9CxTCV4E6jpBjXKFqpqMIKRZuxXQzJ1Tynr12PSJCz6ue/0agelI5ybDbTX+Ob
-d/cRgrgGZTIGkyT74MMiBi3TQfBAJOXlVbKVzvVekQqMzv6S8dN9Is2IDF/DF0X/
-pGOAJYBtzVFzt21AVrkwwAgDcS36rHgbcuObxPXFb5uQginonwRoXO0/xCkeU/pL
-DfH0B1wXYNQFzrZE10mmXRRTKVTgeRtxogu3Mp//T+EAyREj2/It0YQ/cpt9PHVU
-+hJsdieX03yuKMo27QIuNspMKWcAcm4Cj/E5gCOqRk1jN+PMlvDiA92dUcYBGz+w
-7SMCplo/plqXM9ahFoMlPRDIBeSbexVAtbnu3y2j9kEGy1Vb0QNHAFEBwYvC3KYc
-eeHj62KNaeL6G91vDY8sJNgB5ElNzTysL7NlpCiWap5XN2P2p0tcpIxMy1QRvPgZ
-uUwbKW7AJe5npVTIOKDOykSXHnyBbco7165EOwfXCM13nFRIyVFtZZ1V+RRqW/u8
-ejmOSojvD3XzEKGdD4ngUAgKmbzB7B4Z061dDByS7n01K2zcrKYsakePb9WPdVmu
-jiGOHLfSNDkZ66n8+X9ZGPwH6WC5AsQj05qjCkhTT9JvAlx3JYMtwWr3vQAAo9Mx
-KBKsgZ4oT8QjKNvx3Zp3OTyY
-=Q8rw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhhtkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+//YP/RvkUMsbtCwupsKEuOTm
+cWk4E6fqPdHIHPCszPDXOKz5+gLaHu0JoCnTsJLoTZ3bFnmi/Epmj+8uqoC/l6hV
+rMSsDhyTscK3PjgUITZAG8DWm0ZswVv6+uvg4KUEn6p1hVCu5MzjX8edarwi0vdW
+vkpTC/8hhnsNnzJZ3UzAZqeoITL35gU6O+u1B1xqDwkC6TvcPlfIX1kHx6A/nkCl
+A10fZwPJenOqWkrCMA6QgiXpssR31Hd9/p5JefNqd3JS6p0Qi/LA1IVNjQzQEoow
+y0m8d8M4mnj4wCSGKIl2lwf2ArOEMEzABmD6/TGGRQZy5SHB4Xs2YSfmGytpX3VC
+ByGM7GrFO20KMc+tMGdq6i8L7ViX0EvKzMGiFfz5gNO/sEG/R7xiQ/zT2HLcb8sT
+UldW1Fix/+eAhFSNdja7HRCUimZKStyzbF9Ac8DOBq5sUiiJB5AISA98hMuc/c+W
+VJd0Hahr0qIj029GZtjZp+ARtIYiL1/yp2wnAUk+YbcLxx+XFAeZHByRKJYnUGR6
+dbIgUG+Qod5huUFuoYQ1+sZr29sm8TqqgITbKrQfD08aOr966zCPzQn4iqBd1hH3
+K9ssd+dRH7h4WriUeDSY8Cg7xVd0rpaagkasd9tudjoRsupBQwmsTa4rBonSWN5x
+6Lqcur4wMrz/KTRJkphqDSlD
+=Ljup
 -----END PGP SIGNATURE-----
 
---===============5420342276350985949==--
+--===============8719260072542427714==--
