@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 21 Apr 2022 13:47:06 -0000
-Message-Id: <165054882652.29394.4521858341133169088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 21 Apr 2022 13:51:15 -0000
+Message-Id: <165054907558.32235.12285811471503848971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/mtd/next
-    old: f812679fab605b3d5b853ed24a81dabb222ea23a
-    new: ec8615bcd6f3a02e983bbafb3a4e4d35cd7e8c47
+  - ref: refs/heads/wip/acpi_ffh_opregion
+    old: 80c44631aeca485f0ae56256b3940e18f6b072e2
+    new: 0ca2d8d167ffa471639fc885ecd9ca010cb04deb
+    log: |
+         f84e255419087fc9a3f422adf8f63a4725d15a74 [WIP] arm64: Add architecture specific ACPI FFH Opregion callbacks
+         0ca2d8d167ffa471639fc885ecd9ca010cb04deb Dont-Auto-Build
+         
