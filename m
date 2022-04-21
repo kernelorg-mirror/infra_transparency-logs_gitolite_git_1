@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5207163767119810241=="
+Content-Type: multipart/mixed; boundary="===============1783194246935512450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Apr 2022 16:33:28 -0000
-Message-Id: <165055880867.11564.4969990302200505446@gitolite.kernel.org>
+Date: Thu, 21 Apr 2022 16:34:09 -0000
+Message-Id: <165055884900.11817.16153890073724755574@gitolite.kernel.org>
 
---===============5207163767119810241==
+--===============1783194246935512450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 71d471e3faf90c9674cadc7605ac719e82cb7fac
-    new: eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134
+    old: eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134
+    new: 8d084b2eae7fc5fcfc9f143cd7321a88e1cd76aa
     log: |
-         8771039482d965bdc8cefd972bcabac2b76944a8 usb: xhci: tegra:Fix PM usage reference leak of tegra_xusb_unpowergate_partitions
-         e25adcca917d7e4cdc1dc6444d0692ffda7594bf usb: typec: ucsi: Fix reuse of completion structure
-         eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134 usb: typec: ucsi: Fix role swapping
+         9e3d68f872e4f5ce40dcc5baba7e37ab7961ed74 usb: typec: rt1719: Fix build error without CONFIG_POWER_SUPPLY
+         8d084b2eae7fc5fcfc9f143cd7321a88e1cd76aa usb: typec: tcpm: Fix undefined behavior due to shift overflowing the constant
          
 
---===============5207163767119810241==
+--===============1783194246935512450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650558806 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650558846 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650558805-5088589bc542a169f3316ace22f77b64963fff8b
+nonce 1650558845-a0600c03f041ee39f86e8e66699ea62e71b6b6a3
 
-71d471e3faf90c9674cadc7605ac719e82cb7fac eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134 refs/heads/usb-linus
+eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134 8d084b2eae7fc5fcfc9f143cd7321a88e1cd76aa refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhh1YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RLYP/1YM8bMe0HSU/GNXXh8b
-3xUKh6TPlzo0RjOkPF5JPnR8+h48i2H1/Va+Ji/cLdii33hC5FpshSwTD26nDgll
-GtPD4Vl2tIzEV9BVa5xZcQalg18GD1HcTVt3F0Xj170ySE5kNbGlxH7ohvd3Q/wz
-SUzmVWNz/VCELM6StsuypwrIyQMHP5n0z9jmr/7Bxqq/f/jSEagDsSTEPqqtUmO7
-fMwlCq/A13ALWQ3awFMIIM0ytmjOPfgcusv7eF95HHbbhfl0c0Hpapxr9vaGbjxP
-q/EddIME1iZv630TnLvp7WVe/LDMaDy8gfgqFk+CGhTepBXF5MwYDAFvHkeoTXx0
-bBROWactWS4edopwbH/1eDz6TM12Lr4erTmXxvH57P/Rh+tyVVTVGhVq/KHAyZ7o
-lOlgOstTg+4kWJoDhKiAOULiQId5Vw+t5ndtQsCDF+xgf/uqcQ6tSrUy8a34GnUX
-xNztYJL820IAHEpqhSzEq2j46SzqNWooGLwOFdSgoluDcVSXFBYOGD2riLkklgX5
-j4V/2J6CUPQflLnXkASEe9GHeVP7xQKbPf2TkjwGhd4OY2Vt2gwkJEqnkhoauEoR
-Vjec5lKzg8L3vyqKEbcYlvCkdCC7LtaU0366UlG0QRnmXnqkti6rFEOR0+cGNi4/
-USQV/lHHkFlIcD5cCVXUgPof
-=itN7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhh34bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OwwP/jD8rn9/Jx+8KIpz01DG
+TxXIoAas9L4PtIMLCzNR/CZaP73/8rPIpGWkT5F2eQg2Th5DsU1Ac/KuLuXSQAtu
+CMJIPHkL9whQ160oLMtHcMiHc1SqEORqTs8a0H32AbfwLEqu374GaVC0b+0TlNzW
+jVueQp3Jz1v5XWSRoOZBLTGpJEeey42akgtqFj6FpdY5fR8BtVRee3ZzQrXxfkKQ
+oA0s5Lwj1rRFhx51ydPyyhFtmNdNsBrv661oXo9jIxfTz2qKayfm9OABeg4xNT/I
+qLM6kDNMRsEIvqepJka+DY8KevEabemzDi7IatVNrkpl9+fFwTQdQo1TzApbUOhg
+60hJQCJbV4WfTOoEKNN09Qt0lkoeLTqP2l8gFSCPuIyoDzr5qiWLs3dsyUVSEbBD
+Vj9WaqBTNxOmVtZE/Eke93ofaA6u3jhWsyY+UatonxkrWK9KFXarcLBMGHja2Wb5
+tIlf7uYh1rh5xFIFkw4rNzvoA5bm9n3lOivSrA7IH1paLO85q3iFpQ7g4rVP85WE
+WtAO0gmDrrdYDoELDjgB0nrSosrEp/SuWRD/F8FapDHawbm04YnX1HRVAJ1poubH
+uYpXeQmRzOYGLi9n2od6j4AnnCY7V9X8rfl9y3OH3pLTUr/Sxk2AdntTUOo2RCF5
+0ZLhimV/ePElQJ/mITaFYM5N
+=W9qK
 -----END PGP SIGNATURE-----
 
---===============5207163767119810241==--
+--===============1783194246935512450==--
