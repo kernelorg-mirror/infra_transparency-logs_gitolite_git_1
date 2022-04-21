@@ -1,52 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0710214821333800223=="
+Content-Type: multipart/mixed; boundary="===============0392969191828944803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 21 Apr 2022 17:21:17 -0000
-Message-Id: <165056167731.12574.7982949953737111391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 21 Apr 2022 17:22:13 -0000
+Message-Id: <165056173374.12970.6454764045444423138@gitolite.kernel.org>
 
---===============0710214821333800223==
+--===============0392969191828944803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 266a19a0bc4fbfab4d981a47640ca98972a01865
-    new: 525f3695b1a7cd96d3ed7465947616c41c7fb644
+  - ref: refs/heads/usb-testing
+    old: 8666009c5f8327d13d4c91a2139b361b41ab43c2
+    new: ab3a560ae8e2795b8069b4587792d1b49c20e671
     log: |
-         4bbef7e8eb8c2c7dabf57d97decfd2b4f48aaf02 KVM: SVM: Simplify and harden helper to flush SEV guest page(s)
-         d45829b351ee6ec5f54dd55e6aca1f44fe239fe6 KVM: SVM: Flush when freeing encrypted pages even on SME_COHERENT CPUs
-         525f3695b1a7cd96d3ed7465947616c41c7fb644 KVM: SEV: add cache flush at mmu_notifier when SEV guest memory reclaimed
+         9cd6576f46be175f7ef0769554ce120470bb2ccf dt-bindings: dwc2: Add bindings for new Ingenic SoCs.
+         d712b725b84dc1623d826b3232d706c7e9e53a4f USB: dwc2: Add OTG support for Ingenic SoCs.
+         ab3a560ae8e2795b8069b4587792d1b49c20e671 MIPS: Ingenic: Refresh USB nodes to match driver changes.
          
 
---===============0710214821333800223==
+--===============0392969191828944803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1650561675 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1650561674-343cf444bc57fd30d6dbceb180a3eeeb4616d87b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650561731 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1650561730-4e57f285eecf538ab6a021effa5d291577212ba3
 
-266a19a0bc4fbfab4d981a47640ca98972a01865 525f3695b1a7cd96d3ed7465947616c41c7fb644 refs/heads/master
+8666009c5f8327d13d4c91a2139b361b41ab43c2 ab3a560ae8e2795b8069b4587792d1b49c20e671 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJhkosUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOrjQgAiTqFuPiTkKcqJWOEjA6laVdyhTyO
-3wgO+qrpFGqELYz+kf56ySso451tv8K1hNvmp6Z0DTcp0tP/oFkE8pFsuZdRlnOy
-1uhCnPeE7xab1k8YByyVm7K4NVj1i9xIj8mvxXoK8aTIZUn3qrLvQF0HMqxoXA2W
-H3TxOpmxz6iOwN+RM7cHhJ73gWayo63RCsG6zz74duxvyyHEPCgjww1x66iNY/TB
-gxqL88gulyFUSsQwEFSSuZMrSOp/MhEVSQX4/lLbMpbuQ2fzNisbkREn9zyOwuwP
-+pr4KHD/BtsoUl3Dxp/CjeHRpASmVSYQgncwfc36coP51RHIt07FmWN2/Q==
-=l8Ss
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhksMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+21YQAMW4aSfgAVjYlKtFyet8
+ULhs4NZqsi4eoIct6qehn/8fTegX1TTScNLrcCbtOahBYTj3RebXC/pGGMSwL8F0
+FLr0ZXK2jvYJhApHMplq5+YQCqwftLwco3vhanrwZ8khPy9DvPJ6f52fVZ8IVpK+
+IpqyjViRQ92H2TqfwO0UGW7lpzS6mR4YJSjxT/+8pK4qI3JWQz98PjMMoRrl4qsL
+z9jjJWThIg8iSk0FTVESzqFfajS3dJB4Uguroxr15slMN8/FzR6jaC9GoUGWYlLR
+TLqk0ElKWFsOGIXBRscSHV+cdszPVtgaUrX5MCir0GxDYpxe5lw1uYikj0+BVJgL
+D95ln4YHGS3mOOS3mwZqJb2OuxtFNjrUX4GVk5CliFJtHaJMZuzlFmF0OBm/ksQn
+vkwjdHZ+Jxy+7+u168dJp6XbqBwWRJ0d1WNO203KRArpSve1pNNYOllj0TmjIGjS
+QfXjJiPjSp2ZGTayQ7Xc9Ulmy/JPGoiIBJTGjgN7c0zoXU7kQ1izsyyxsIotdHNF
+vPIMICDGeQ0m4rHfgwyefQUp2cygPFIAV4WbiF1DTqVojRtcfs6nB4s+0ZKEgGFC
+VIUiEKHoruo20oRw/0tzINZLT2ms8YBRxkTpel0fL/t8ny3sa9Dk8uEA0clsMN4Q
+m6u7i4SkP8J5e6/PuT0kaRMO
+=Ounb
 -----END PGP SIGNATURE-----
 
---===============0710214821333800223==--
+--===============0392969191828944803==--
