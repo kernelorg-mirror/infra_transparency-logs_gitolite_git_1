@@ -1,74 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5888473512809109226=="
+Content-Type: multipart/mixed; boundary="===============6146475765217284896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 21 Apr 2022 13:17:55 -0000
-Message-Id: <165054707583.9779.12594768034962667744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Thu, 21 Apr 2022 13:25:29 -0000
+Message-Id: <165054752901.14973.12318818424378946590@gitolite.kernel.org>
 
---===============5888473512809109226==
+--===============6146475765217284896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/omap1-multiplatform-5.18
-    old: eaac76244a9e3007242af06883653d72a55fb1d3
-    new: b59e8a5fd321fe44bdabd38908b4f899f933cf0f
-    log: revlist-eaac76244a9e-b59e8a5fd321.txt
+  - ref: refs/heads/bpf/fixes
+    old: 7cedb52fe5a6195283fe7d1151287e8d92e32303
+    new: 8662f5dbc769bcb2fa646ceaaf6f6878ef569c64
+    log: revlist-7cedb52fe5a6-8662f5dbc769.txt
 
---===============5888473512809109226==
+--===============6146475765217284896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eaac76244a9e-b59e8a5fd321.txt
+Content-Disposition: attachment; filename=revlist-7cedb52fe5a6-8662f5dbc769.txt
 
-7727adb97a6c4e9f14efa42c795650a51778e782 video: fbdev: omapfb: lcd_ams_delta: fix unused variable warning
-6f9364746e5a43e5b602812c82a47830bb726268 ARM: omap1: innovator: pass lcd control address as pdata
-042c48848b7d8dab4f095bce2872c02f711bf5d0 ARM: omap1: move lcd_dma code into omapfb driver
-0768fb6709343679e55f7135e2ed2c432e4500d8 ARM: omap1: declare a dummy omap_set_dma_priority
-81ad0f5bc476505781b1398be52a81eda3ee9798 fbdev: omap: pass irqs as resource
-cc81e344809cc9aab581f14398facd7104e63e80 ARM: omap1: ams-delta: remove camera leftovers
-e8e77e97507bf3ec5419b8067d242b538cf75cba ARM: omap1: move mach/usb.h to include/linux/soc
-1e9ca7c811f76b16c7822ad009b6b0c352227a15 ARM: omap1: move some headers to include/linux/soc
-58d37dc1dfd8900892d73da1f26ac1cefca52e6e ARM: omap1: move perseus spi pinconf to board file
-d87d44f7ab353dde25300ced494f98b69859a539 ARM: omap1: move CF chipselect setup to board file
-804f7f19c2e2928aeb8eafef8379fe8b8d13f98b fbdev: omap: avoid using mach/*.h files
-11e002924ddb6f12638532331195a8ab09bbbf7e usb: omap: avoid mach/*.h headers
-929527bcf9c9f2a8cf44b502a3bb225802d17280 clocksource: ti-dmtimer: avoid using mach/hardware.h
-9fcd04dde4c472ab6d7473e6815f649bb4abb5e7 serial: 8250/omap1: include linux/soc/ti/omap1-soc.h
-0ae41a0b5370f82893b91c9edf977fe17646c12a input: omap: void using mach/*.h headers
-9fe15316563cbd46601c770a7214ccc5e1925bfb ARM: omap1: innovator: move ohci phy power handling to board file
-d379e8899a8da1041c347ae5b792773c48a559a9 ARM: omap1: move 32k counter from plat-omap to mach-omap1
-7058e68c2fedf54a5b49ca6f6a4b63edfaea8464 ARM: omap: remove debug-leds driver
-17ea03b75e5665c9ce4945aa5afd097f3c845cdf ARM: omap: dma: make usb support optional
-8fcf714b8d320f1046a40049bfee721eb36d0251 dma: omap: hide legacy interface
-b6f4c265567782955c8fe4eccf89b505fae3e34d ARM: omap1: dma: remove omap2 specific bits
-ecb6fb163edd254471701f80cdda43ae29528910 ARM: omap1: move plat/dma.c to mach/omap-dma.c
-5ba470260855716cbc13da45244a2981dacf3ec2 ARM: omap: split up arch/arm/plat-omap/Kconfig
-bd5b46d054029637b3c8b4918406eae8b9291ccc ARM: omap: un-merge plat/sram.c
-8209e62a869c1081efd9c76023be2acb6a99b23e ARM: omap: remove empty plat-omap directory
-7e2459b5d75a34ff0f653b694710e6a023f3b0d2 ARM: omap1: relocate static I/O mapping
-83e001525d1d11afab65dc436509f3ea1b3cb4a5 ARM: omap1: use pci_remap_iospace() for omap_cf
-8fc4ae41d851267d6cefe19b24822221f548fc16 ARM: omap1: move mach/*.h into mach directory
-ce5f983424767dc5a24bcba2dee266d8fb3ca7f7 ARM: omap1: fix build with no SoC selected
-be574f3003c02ff620282cd1b89715aebf66ddd4 ARM: OMAP1: Prepare for conversion of OMAP1 clocks to CCF
-2fd66273c0d528ed5200cf6c2f7276562bb76d14 ARM: OMAP1: clock: Fix early UART rate issues
-0ca27719467da53201b7477dddf4d6a175f99204 ARM: OMAP1: clock: Fix UART rate reporting algorithm
-a13dd11e73d04f1ec12832f5db078c2bf02c293c ARM: OMAP1: clock: Remove unused code
-1987cc00241a7f58b71c73e429f9a2c4a90b21d2 ARM: OMAP1: clock: Remove noop code
-15c212f5b8d2af29733eb32d5e6c47d6595e9032 usb: host: ohci-omap: Make it CCF clk API compatible
-10975b29a1bed82ea9a9c655ee414ef4772d27a8 usb: gadget: omap_udc: Make it CCF clk API compatible
-8af9492effa27898ea0d21734287af653caf1725 ARM: OMAP1: fix typos in comments
-311d207b184750de585a5439c9d7fe470952e3e1 ARM: omap1: htc_herald: fix typos in comments
-8397c5237000fc1138efcfbe071c2b92feb96fde MAINTAINERS: omap1: Add Janusz as an additional maintainer
-4f851faf4370d5efb330e0d5a16475416b63d2e6 [MERGED] video: fbdev: omap: Make it CCF clk API compatible
-c70a08405401a9f1cc2a0228ef62b0974f808ac7 [MERGED] mmc: omap: Make it CCF clk API compatible
-bdfb692acfa98c3e8135ab44bc8366636443590a [MERGED] ASoC: ti: osk5912: Make it CCF clk API compatible
-4c4467ac74299b14b8cf74406722af8090aa7766 [TO BE REBASED] ARM: OMAP1: clock: Convert to CCF
-b59e8a5fd321fe44bdabd38908b4f899f933cf0f [TO BE REBASED] ARM: omap1: enable multiplatform
+2324257dbd6889638c6cba1ade9eeac3224e2043 selftests/bpf: Refactor prog_tests logging and test execution
+055eb95533273bc334794dbc598400d10800528f bpf: Move rcu lock management out of BPF_PROG_RUN routines
+8c89b5db7a2894e33417dd69680729e8f65f5709 selftests/bpf: Limit unroll_count for pyperf600 test
+44df171a10f8969d1456e0a5af7fbac142d7fa18 selftests/bpf: Workaround a verifier issue for test exhandler
+a3820c48111247f4ec2ca2949597f8fa57d2c424 libbpf: Support opting out from autoloading BPF programs declaratively
+0d7fefebea552771b17682a12330ea47e369a5df selftests/bpf: Use non-autoloaded programs in few tests
+eb596b0905584a9389585b0f437cf8a2faeb14d0 bpf: Ensure type tags precede modifiers in BTF
+24fe983abe01c53e1a9354fe21fab92579fcda6d selftests/bpf: Add tests for type tag order validation
+0e5aefa334dba7fc07ee4ef52ae622f957fc865b Merge branch 'Ensure type tags are always ordered first in BTF'
+dcf456c9a095a6e71f53d6f6f004133ee851ee70 bpf: Fix usage of trace RCU in local storage.
+5af25a410acb8d34acb11024d752f0ea3491decf libbpf: Fix usdt_cookie being cast to 32 bits
+58ca8b0572cd3bbaac60d14d2b1b4f38b389ad93 libbpf: Support riscv USDT argument parsing logic
+c7655df434de1dab1af1b1ba2aad757b15e25b83 Merge branch 'Support riscv libbpf USDT arg parsing logic'
+45969b4152c1752089351cd6836a42a566d49bcf bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
+92ece28072f18f30099770c5d4b8e300ea6820fa net: Change skb_ensure_writable()'s write_len param to unsigned int type
+127e7dca427bc3e5d9a1c2071357e0f34be5c1d9 selftests/bpf: Add test for skb_load_bytes
+db69264f983a5890fe8ba20ed4c20dfd4b687615 samples/bpf: Reduce the sampling interval in xdp1_user
+d9a51c96477158571f095af90778433453403641 Add error returns to two API functions
+042b971bd9a3a2bfd1b4721aecb2cc3005334382 Update API functions usage to check error
+e1a34e19ea9665d876994156766ce26998272b33 Add documentation to API functions
+91af2fc8739ebeb1fb707be5b04e8322e08113cb bpf: Make btf_find_field more generic
+0ed6ff597f2d00f7bb3cf4655ab6b69670dfeafd bpf: Move check_ptr_off_reg before check_map_access
+6f0f4c96dd360f51da70699617458f21f33f8cbb fprobe: Add ftrace_lookup_symbols function
+65725a276ff83e7760766aadae67f69d1cab2cc1 fprobe: Resolve symbols with ftrace_lookup_symbols
+8f64742343a388d98c71ccdd59bc6a0c8b6b196f bpf: Resolve symbols with ftrace_lookup_symbols for kprobe multi link
+8662f5dbc769bcb2fa646ceaaf6f6878ef569c64 selftests/bpf: Add attach bench test
 
---===============5888473512809109226==--
+--===============6146475765217284896==--
