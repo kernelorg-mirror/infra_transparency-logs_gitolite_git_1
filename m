@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 21 Apr 2022 08:50:32 -0000
-Message-Id: <165053103292.13635.8441425482099549904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 21 Apr 2022 09:11:58 -0000
+Message-Id: <165053231807.26223.5866413917459424796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 5e6242151d7f17b056a82ca7b860c4ec8eaa7589
-    new: bc6de2878429e85c1f1afaa566f7b5abb2243eef
+    old: d78eafff93f1fb361c037b9a90a1dd7551cbc621
+    new: 939ee380b17589d026e132a1be91199409c3c934
     log: |
-         bc6de2878429e85c1f1afaa566f7b5abb2243eef drivers: net: hippi: Fix deadlock in rr_close()
+         acf6b6f7e942bd2fd5159ed65a5d56cb22d52015 xtensa: use fallback for random_get_entropy() instead of zero
+         939ee380b17589d026e132a1be91199409c3c934 random: insist on random_get_entropy() existing in order to simplify
          
