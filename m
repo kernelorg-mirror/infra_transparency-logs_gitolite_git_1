@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 21 Apr 2022 20:36:55 -0000
-Message-Id: <165057341542.11613.12792235008673891757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 21 Apr 2022 20:39:06 -0000
+Message-Id: <165057354651.12367.1721969070201639331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
-    old: 61e159ae751fc4db630b8f730dad8d80ac4b3fd5
-    new: f651fbd76a6512e98aa3d178ffb45cfa49364447
+    old: 5e6242151d7f17b056a82ca7b860c4ec8eaa7589
+    new: bc6de2878429e85c1f1afaa566f7b5abb2243eef
     log: |
-         110b497cff020bac498de8136511c70b495eea3e foo
-         5dd5c967b330e012af073cece9c6ea51d6dd7b17 foo
-         f651fbd76a6512e98aa3d178ffb45cfa49364447 foo
+         bc6de2878429e85c1f1afaa566f7b5abb2243eef drivers: net: hippi: Fix deadlock in rr_close()
          
