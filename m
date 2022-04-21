@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5392375304610063596=="
+Content-Type: multipart/mixed; boundary="===============9175893587859049386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 21 Apr 2022 15:54:20 -0000
-Message-Id: <165055646065.17702.2812575661076348187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Apr 2022 15:54:26 -0000
+Message-Id: <165055646638.17824.4090631253172274982@gitolite.kernel.org>
 
---===============5392375304610063596==
+--===============9175893587859049386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/regulator-5.19
     old: bfb5711e2455a239ad64dd5151fb16d195329d46
     new: 062920d2464715ef5cbba52a8573ba12cc882b8f
     log: |
@@ -25,28 +25,28 @@ changes:
          062920d2464715ef5cbba52a8573ba12cc882b8f regulator: core: Sleep (not delay) in set_voltage()
          
 
---===============5392375304610063596==
+--===============9175893587859049386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650556459 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1650556458-3891e4b6c46d2927726468f52c60285679720f56
+pusher C3F436CA30F5D8EB 1650556465 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1650556464-be8b88d7e13de2446a2e2676756e481e1c139724
 
-bfb5711e2455a239ad64dd5151fb16d195329d46 062920d2464715ef5cbba52a8573ba12cc882b8f refs/heads/for-5.19
+bfb5711e2455a239ad64dd5151fb16d195329d46 062920d2464715ef5cbba52a8573ba12cc882b8f refs/heads/regulator-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJhfisACgkQJNaLcl1U
-h9CA2Qf7BowMVAXiqjXb1o4oyZubt1zeaNKFYVAINKHR+kr8Yd5NTPWIVtd4I4JR
-CsniZIyWW6gOu1xpwDcTEVLA8KozP83Z+GkfHvrhBmKHCxKPsRHH1ywg/vjsqAxq
-qCbVVpfDb+KCAKJUYOOF41Gc3L6jCpKtnQgeE3RucPC8MeEkhwXeBEGqCJ0f9ih5
-Rg1EbCnKBIaZokRb0lY7B1ue0ZV6soly7oaEsU6J0XhWz/I+eOZNcADP64ikL84o
-u0+tVW+jP+4rfoBuzS2wKRsPiDV3JgFKIJLWeHAMYLfuWB79j/TuI0Wzdrm63E6K
-YNdNPtQEtlSxNVzylFEx995NWOhMcg==
-=vplR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJhfjEACgkQJNaLcl1U
+h9AxZgf/YEuYGHopNvDKM6U/8snshsLgphuT6uQxrG2WXJF4tcImeJXVQl59p89D
+bwiM5fP3IeglzrinXmOuASHK17jSnR3bITfoarqVdHI0WmNQ9JdRAd80d0yk8trg
+yzNGYrDctJ94ROQ2hzM+OQMwWGXWTbZkOmO2xxl7mPppdM1ab8V06TDXJ4gXtrKN
+Htf2pvzKuACcMpJ5jThpNI0rw/84C+BygOFGBLj3QS5usLKnMY/ZJa0Eb8JsUWMD
+cYvC6V9xpjiwr0Pj8RYLcVvp0dBUqjNyeIqqLeKDy1wFZ7mTLWa4yLTw6+JrUt2s
+eJt+HPA3rmdhuqDXdJfjHJM3V6PDVg==
+=ES7+
 -----END PGP SIGNATURE-----
 
---===============5392375304610063596==--
+--===============9175893587859049386==--
