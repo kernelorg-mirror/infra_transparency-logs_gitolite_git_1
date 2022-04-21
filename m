@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Thu, 21 Apr 2022 16:46:40 -0000
-Message-Id: <165055960056.21458.14068801544442537322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 21 Apr 2022 16:49:14 -0000
+Message-Id: <165055975438.22372.13863079394587798551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
-user: jkirsher
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 365014f5c39422fa7ccd75b36235155d9041f883
-    new: 9c8774e629a1950c24b44e3c8fb93d76fb644b49
+    old: 920fd5e1771db8b338d4145c2d30d60bf0bcce99
+    new: 6a12b8e20d7e72386594a9dbe7bf2d7fae3b3aa6
     log: |
-         4facbe3d4426720b65354be1d0f5608c65eebc20 drivers: net: davinci_mdio: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
-         9c8774e629a1950c24b44e3c8fb93d76fb644b49 net: eql: Use kzalloc instead of kmalloc/memset
+         6a12b8e20d7e72386594a9dbe7bf2d7fae3b3aa6 selftests/bpf: Fix prog_tests uprobe_autoattach compilation error
          
