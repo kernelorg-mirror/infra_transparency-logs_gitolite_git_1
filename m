@@ -1,64 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============6846996600390024444=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 21 Apr 2022 08:15:12 -0000
-Message-Id: <165052891213.27540.9461969987994998518@gitolite.kernel.org>
-
---===============6846996600390024444==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 21 Apr 2022 08:17:42 -0000
+Message-Id: <165052906244.28387.8066493916924860771@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 559089e0a93d44280ec3ab478830af319c56dbe3
-    new: b253435746d9a4a701b5f09211b9c14d3370d0da
+  - ref: refs/heads/for-linus
+    old: 0665886ad1392e6b5bae85d7a6ccbed48dca1522
+    new: b3fbe53610b5ed8f0370ec4c7e6c8a1f261ddf70
     log: |
-         ee69d4be8fd064cd08270b4808d2dfece3614ee0 xtensa: patch_text: Fixup last cpu should be master
-         eb5adc70754d26a260f8b42d39db42da0d0af500 arch: xtensa: platforms: Fix deadlock in rs_close()
-         60b30050116c0351b90154044345c1b53ae1f323 erofs: fix use-after-free of on-stack io[]
-         8b1ac84dcf2cf0fc86f29e92e5c63c4862de6e55 Documentation/ABI: sysfs-fs-erofs: Fix Sphinx errors
-         839769c35477d4acc2369e45000ca7b0b6af39a7 xtensa: fix a7 clobbering in coprocessor context load/store
-         a6823e4e360fe975bd3da4ab156df7c74c8b07f3 x86: __memcpy_flushcache: fix wrong alignment if size > 2^32
-         906f904097359d059623ca8d3511d9f341080f2c Revert "fs/pipe: use kvcalloc to allocate a pipe_buffer array"
-         10c5f102e2be6d816938b168104e8dacdd5bace7 Merge tag 'erofs-for-5.18-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-         b253435746d9a4a701b5f09211b9c14d3370d0da Merge tag 'xtensa-20220416' of https://github.com/jcmvbkbc/linux-xtensa
+         b3fbe53610b5ed8f0370ec4c7e6c8a1f261ddf70 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook 845/865 G9
          
-
---===============6846996600390024444==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650528911 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1650528909-f70286c4f2da7757e8b8448cde41f4f456230310
-
-559089e0a93d44280ec3ab478830af319c56dbe3 b253435746d9a4a701b5f09211b9c14d3370d0da refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhEo8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+esQQAJ00pUOnXjqirwxucBkQ
-gUNrbDuPTFoYpNx+cqD4AuQAPExScKfcCi7rcapM5QG/DgzA0NgWykp9oBp/DrQV
-T91aJb4C4op2BSDmrl1PToqsPO6r/h75QlvB55Uzgrtl1TtpeCXAoV6O+62zNj1f
-3/wOUQMFP4yk9fiqUsagHfiGsQr7SoWp3D/pLMBlnyxWgLP9H1+ZKgJ+mZzuboYP
-GhM61DieSVurG+tCildB9WMTLOfYDaLazUnpFsPS1/3wBx3i5W9Pd1VuVYPQ7PR6
-XooqMdkPQgq1Ap8kK/YJopTNV9mSAtECjf24svKBDdvIrn1yPQxwfjceHIZLr5eu
-OLyOcNGP4rEfz7JhbT9qelVSEXhVY/vcxDnhhj3dNcltNveZOrCdb6ZmwjPKYaNz
-gvaO2luCl03TB29kAMAhcQ24yKaPTeFpNp88HtrIcXN0D8OiuIiDPP87Ive5/uJj
-hfWnZwgByVbVJ281zpdRNpmQMgVj55voYHmPn5+AFCa7ngMNXAAB00GA3cnOl7Ru
-EYpV8ZyF5HT8D6yGNfdVhzFAi0/2O0yj0fR2XIDcMF/SRRb6KSUdkLY/QfLC2j1O
-0oiiqwY5GSv7ZnYdJQ1IeZdGrNk6MlC0cggSirGNDaA+5ckQhi/XCHwbWIYLsEss
-4rQfYDRMSmebjN3TPyXFUJ4P
-=hSn1
------END PGP SIGNATURE-----
-
---===============6846996600390024444==--
+  - ref: refs/heads/for-next
+    old: faf5933c79545412ea63f0c3d15c261d104e1dde
+    new: 67d64069bc0867e52e73a1e255b17462005ca9b4
+    log: |
+         0f1f7a6661394fe4a53db254c346d6aa2dd64397 ALSA: usb-audio: Add quirk bits for enabling/disabling generic implicit fb
+         67d64069bc0867e52e73a1e255b17462005ca9b4 ALSA: usb-audio: Move generic implicit fb quirk entries into quirks.c
+         
+  - ref: refs/heads/master
+    old: ec1f6b51f6072b27e9a759b3a6045aec93825052
+    new: 4eb323156418e4376f49ad4bc239ea1e8f8f1d8b
+    log: |
+         b3fbe53610b5ed8f0370ec4c7e6c8a1f261ddf70 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook 845/865 G9
+         0547ba0e10943cac422e039f3d43b305e21278ac Merge branch 'for-linus'
+         0f1f7a6661394fe4a53db254c346d6aa2dd64397 ALSA: usb-audio: Add quirk bits for enabling/disabling generic implicit fb
+         67d64069bc0867e52e73a1e255b17462005ca9b4 ALSA: usb-audio: Move generic implicit fb quirk entries into quirks.c
+         4eb323156418e4376f49ad4bc239ea1e8f8f1d8b Merge branch 'for-next'
+         
