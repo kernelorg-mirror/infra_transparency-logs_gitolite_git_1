@@ -1,52 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2565835381810200668=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 21 Apr 2022 19:42:59 -0000
-Message-Id: <165057017952.9100.8331636472659639053@gitolite.kernel.org>
-
---===============2565835381810200668==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 21 Apr 2022 19:50:03 -0000
+Message-Id: <165057060331.15267.15990056380857416498@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: b56a4ff6bff38fc49d8e583a3fbb5e18d1a99963
-    new: e852be8b148e117e25be1c98cf72ee489b05919e
+  - ref: refs/heads/for-5.19/io_uring
+    old: 7c648b7d6186c59ed3a0e0ae4b774aaf4b415ef2
+    new: ebbe59f49556822b9bcc7b0d4d96bae31f522905
     log: |
-         683412ccf61294d727ead4a73d97397396e69a6b KVM: SEV: add cache flush to solve SEV cache incoherency issues
-         f18b4aebe107d092e384b1ae680b1e1de7a0196d kvm: selftests: do not use bitfields larger than 32-bits for PTEs
-         e852be8b148e117e25be1c98cf72ee489b05919e kvm: selftests: introduce and use more page size-related constants
+         61405fa346fe6787579cc6fcfaea8db516680c31 io_uring: support MSG_WAITALL for IORING_OP_SEND(MSG)
+         d5e92661147bb7c1b97e4bf5973166fff24665ca io_uring: allow re-poll if we made progress
+         f457ab8deb017140aef05be3027a00a18a7d16b7 io_uring: add trace support for CQE overflow
+         2a847e6faf76810ae68a6e81bd9ac3a7c81534d0 io_uring: trace cqe overflows
+         db9bb58b391c9e62da68bc139598e8470d892c77 io_uring: rework io_uring_enter to simplify return value
+         b293240e2634b2100196d7314aeeb84299ce6d5b io_uring: use constants for cq_overflow bitfield
+         34a7ee8a42c8496632465f3f0b444b3a7b908c46 io_uring: return an error when cqe is dropped
+         ebbe59f49556822b9bcc7b0d4d96bae31f522905 io_uring: allow NOP opcode in IOPOLL mode
          
-
---===============2565835381810200668==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1650570170 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1650570169-1f4ca9ec5bef9284fe7dc5c6fd3dd7dc8026babf
-
-b56a4ff6bff38fc49d8e583a3fbb5e18d1a99963 e852be8b148e117e25be1c98cf72ee489b05919e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJhs7oUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNdzAgAmm3lAAIg/cRKT95SmPbaUzE8Yecv
-lIYDgngQ1SvbzBLMoRmY+12nsfVkN//B5d+bhJAETwirb95mhsUhmZPKvOpgu8mY
-sfuOXPbYCb9d33q4Ty8IikZz17Lj4rvRkXiZjiLlQXwomnPVz90mczK3E/dmiZ4H
-uyvbG5wX+/RjNQ5XtmmpXOfl97fp8Fcv5xSlgA83Twzum6W+p0k6TtFxWvMDP9ax
-ddbxcemmqS07MHmYwetcOJHRpmLIXGigkgLl43DtwfSEmDz0tEK1XdfQSuveBsiB
-1VONc9nRZ8fkVwh1lXaPM0grCWMAx9vYRx3magSW7Mhld6u2hdP4HrYgDg==
-=WWiU
------END PGP SIGNATURE-----
-
---===============2565835381810200668==--
+  - ref: refs/heads/for-next
+    old: fe6f3882718a5106f624a9fa79891821cc7be6f4
+    new: 3aede974de0cc520c301a902c36936a5e9791166
+    log: |
+         61405fa346fe6787579cc6fcfaea8db516680c31 io_uring: support MSG_WAITALL for IORING_OP_SEND(MSG)
+         d5e92661147bb7c1b97e4bf5973166fff24665ca io_uring: allow re-poll if we made progress
+         f457ab8deb017140aef05be3027a00a18a7d16b7 io_uring: add trace support for CQE overflow
+         2a847e6faf76810ae68a6e81bd9ac3a7c81534d0 io_uring: trace cqe overflows
+         db9bb58b391c9e62da68bc139598e8470d892c77 io_uring: rework io_uring_enter to simplify return value
+         b293240e2634b2100196d7314aeeb84299ce6d5b io_uring: use constants for cq_overflow bitfield
+         34a7ee8a42c8496632465f3f0b444b3a7b908c46 io_uring: return an error when cqe is dropped
+         ebbe59f49556822b9bcc7b0d4d96bae31f522905 io_uring: allow NOP opcode in IOPOLL mode
+         3aede974de0cc520c301a902c36936a5e9791166 Merge branch 'for-5.19/io_uring' into for-next
+         
