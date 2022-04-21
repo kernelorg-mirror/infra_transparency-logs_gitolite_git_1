@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 21 Apr 2022 07:59:57 -0000
-Message-Id: <165052799742.15330.9779929212085103663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 21 Apr 2022 08:02:11 -0000
+Message-Id: <165052813183.17613.3922117626050941649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-5.19/wacom
-    old: 6d09085b38e5ace0001cf4f3cdbd4bf247533b61
-    new: 6ff1cae2e30a79265bcce85f617663c480936ab0
+  - ref: refs/heads/usb-linus
+    old: f32c5a0423400e01f4d7c607949fa3a1f006e8fa
+    new: 4972f75740346e3d46b7dfca75e02ac89b394a6e
     log: |
-         6ff1cae2e30a79265bcce85f617663c480936ab0 HID: wacom: Correct power_supply type
-         
-  - ref: refs/heads/for-next
-    old: e0452733a746573f1e59677fb9bf5207a6e6296e
-    new: 25c3dcf1df09eb1a1822ad0cc5f54f8262338dc5
-    log: |
-         6ff1cae2e30a79265bcce85f617663c480936ab0 HID: wacom: Correct power_supply type
-         25c3dcf1df09eb1a1822ad0cc5f54f8262338dc5 Merge branch 'for-5.19/wacom' into for-next
+         b4a64ed6e7b857317070fcb9d87ff5d4a73be3e8 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+         35a923a0b329c343e9e81d79518e2937eba06fcd USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+         4972f75740346e3d46b7dfca75e02ac89b394a6e USB: serial: Fix heap overflow in WHITEHEAT_GET_DTR_RTS
          
