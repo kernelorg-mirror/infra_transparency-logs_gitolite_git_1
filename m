@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6146475765217284896=="
+Content-Type: multipart/mixed; boundary="===============4573003424397301628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Thu, 21 Apr 2022 13:25:29 -0000
-Message-Id: <165054752901.14973.12318818424378946590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Thu, 21 Apr 2022 13:32:01 -0000
+Message-Id: <165054792157.18768.6155747126508120399@gitolite.kernel.org>
 
---===============6146475765217284896==
+--===============4573003424397301628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bpf/fixes
-    old: 7cedb52fe5a6195283fe7d1151287e8d92e32303
-    new: 8662f5dbc769bcb2fa646ceaaf6f6878ef569c64
-    log: revlist-7cedb52fe5a6-8662f5dbc769.txt
+  - ref: refs/heads/topic/func-desc-lkdtm
+    old: 5e5a6c5441654d1b9e576ce4ca8a1759e701079e
+    new: 0000000000000000000000000000000000000000
 
---===============6146475765217284896==
+--===============4573003424397301628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cedb52fe5a6-8662f5dbc769.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2324257dbd6889638c6cba1ade9eeac3224e2043 selftests/bpf: Refactor prog_tests logging and test execution
-055eb95533273bc334794dbc598400d10800528f bpf: Move rcu lock management out of BPF_PROG_RUN routines
-8c89b5db7a2894e33417dd69680729e8f65f5709 selftests/bpf: Limit unroll_count for pyperf600 test
-44df171a10f8969d1456e0a5af7fbac142d7fa18 selftests/bpf: Workaround a verifier issue for test exhandler
-a3820c48111247f4ec2ca2949597f8fa57d2c424 libbpf: Support opting out from autoloading BPF programs declaratively
-0d7fefebea552771b17682a12330ea47e369a5df selftests/bpf: Use non-autoloaded programs in few tests
-eb596b0905584a9389585b0f437cf8a2faeb14d0 bpf: Ensure type tags precede modifiers in BTF
-24fe983abe01c53e1a9354fe21fab92579fcda6d selftests/bpf: Add tests for type tag order validation
-0e5aefa334dba7fc07ee4ef52ae622f957fc865b Merge branch 'Ensure type tags are always ordered first in BTF'
-dcf456c9a095a6e71f53d6f6f004133ee851ee70 bpf: Fix usage of trace RCU in local storage.
-5af25a410acb8d34acb11024d752f0ea3491decf libbpf: Fix usdt_cookie being cast to 32 bits
-58ca8b0572cd3bbaac60d14d2b1b4f38b389ad93 libbpf: Support riscv USDT argument parsing logic
-c7655df434de1dab1af1b1ba2aad757b15e25b83 Merge branch 'Support riscv libbpf USDT arg parsing logic'
-45969b4152c1752089351cd6836a42a566d49bcf bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
-92ece28072f18f30099770c5d4b8e300ea6820fa net: Change skb_ensure_writable()'s write_len param to unsigned int type
-127e7dca427bc3e5d9a1c2071357e0f34be5c1d9 selftests/bpf: Add test for skb_load_bytes
-db69264f983a5890fe8ba20ed4c20dfd4b687615 samples/bpf: Reduce the sampling interval in xdp1_user
-d9a51c96477158571f095af90778433453403641 Add error returns to two API functions
-042b971bd9a3a2bfd1b4721aecb2cc3005334382 Update API functions usage to check error
-e1a34e19ea9665d876994156766ce26998272b33 Add documentation to API functions
-91af2fc8739ebeb1fb707be5b04e8322e08113cb bpf: Make btf_find_field more generic
-0ed6ff597f2d00f7bb3cf4655ab6b69670dfeafd bpf: Move check_ptr_off_reg before check_map_access
-6f0f4c96dd360f51da70699617458f21f33f8cbb fprobe: Add ftrace_lookup_symbols function
-65725a276ff83e7760766aadae67f69d1cab2cc1 fprobe: Resolve symbols with ftrace_lookup_symbols
-8f64742343a388d98c71ccdd59bc6a0c8b6b196f bpf: Resolve symbols with ftrace_lookup_symbols for kprobe multi link
-8662f5dbc769bcb2fa646ceaaf6f6878ef569c64 selftests/bpf: Add attach bench test
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1650547904 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1650547903-7f95db879ffd5f25b95afc2f1842ad2fb18d1c8f
 
---===============6146475765217284896==--
+5e5a6c5441654d1b9e576ce4ca8a1759e701079e 0000000000000000000000000000000000000000 refs/heads/topic/func-desc-lkdtm
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmJhXMATHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgCzJD/4+px03DmYZJXJVNaKam4ASI8VpQSjI
+Z989Py3Ds4OVhrGQpQ5TyZiWed+McEvc8Vnvr9PnIcIYjkxz2EQ1qt0kxc2lEI9Q
+PACsJe5W5x9KsGcEgySTUxYv8HD9u1aMHok2yqMxby2eBcEbgjMGP59F3Bl0w8AT
+btOlOM7O/1V5JjvlpoXArrTIc7ATzuCYSGeFEZ5iUrlr/oqRyfCnPHj+SdMEKGTM
+dO+TKxHdZjPyzEzDANNxd2qE8PZl4hwUPoFXmUakQGwz4LaA+HhyCSOT14vvntCB
+etkVuStetDv1QnJWkEZmVlZlfVl8g4UIWOSW8l0V7xmvJ4MC7xFplMmllW+4G0OE
+TdysDUr/U2E55Nqk7TF+AoO9cq2pfx1i/elI/dRhNNPjjfvSMllHT0xfsSArLShi
+z0c3abLVnrpvxYl1qXjRmtofnjTpUzpjSypN2pm7y/vDlEGP8dJoI9iJeaOdOSbG
+v73O7zNRmU86II1UrVAhlW/PTumwCZA0gbkUHgs1AbGYcc/7T3UtyRlq5FnnWiVu
+OzOYvKEs28RQOoIB+onALrjg7paEBJZ8x9G2R+0hXF28T1zNIKsf93FuhqyYGOsN
+17FI2/0u2bYyY4CPqEGfRTw3tg1qfVjqSL22mM4wZbipr108vOHX9hKB+vOkUxTT
+d69bFV8dVbHoLg==
+=S06U
+-----END PGP SIGNATURE-----
+
+--===============4573003424397301628==--
