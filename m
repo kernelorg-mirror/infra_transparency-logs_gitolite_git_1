@@ -1,24 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Thu, 21 Apr 2022 15:50:25 -0000
-Message-Id: <165055622571.16464.5043074625738883005@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5392375304610063596=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 21 Apr 2022 15:54:20 -0000
+Message-Id: <165055646065.17702.2812575661076348187@gitolite.kernel.org>
+
+--===============5392375304610063596==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rcu/context-tracking-v2-experimental
-    old: ddd8546faf784183c6151ca3ab45561941e2885b
-    new: ff3a50aca6d8d0ab2f56330da27335f3cacf5ebc
+  - ref: refs/heads/for-5.19
+    old: bfb5711e2455a239ad64dd5151fb16d195329d46
+    new: 062920d2464715ef5cbba52a8573ba12cc882b8f
     log: |
-         670606c5bded4385e730099231ad724e622e887d rcu/context-tracking: Move RCU-dynticks internal functions to context_tracking
-         d8832046f66ff5708d1a47d1f65755826d30f239 rcu/context-tracking: Remove unused and/or unecessary middle functions
-         47c8ad7c7a6a7158b871fd4963dfc72d5c25b211 context_tracking: Convert state to atomic_t
-         56bb9cd1efca482d3778c55f0e241f0bfbc29087 rcu/context-tracking: Use accessor for dynticks counter value
-         961ce46efb4f70dced40d7d8ebc628c87c7fec20 rcu/context_tracking: Merge dynticks counter and context tracking states
-         ff3a50aca6d8d0ab2f56330da27335f3cacf5ebc context_tracking: Exempt CONFIG_HAVE_CONTEXT_TRACKING_USER_OFFSTACK from non-active tracking
+         bab76514aca36bc513224525d5598da676938218 regulator: da9121: Fix uninit-value in da9121_assign_chip_model()
+         a38dce4cb1f1bcc4f6ef7f11e54b6507a4043ebe regulator: core: Rename _regulator_enable_delay()
+         062920d2464715ef5cbba52a8573ba12cc882b8f regulator: core: Sleep (not delay) in set_voltage()
          
+
+--===============5392375304610063596==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1650556459 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1650556458-3891e4b6c46d2927726468f52c60285679720f56
+
+bfb5711e2455a239ad64dd5151fb16d195329d46 062920d2464715ef5cbba52a8573ba12cc882b8f refs/heads/for-5.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJhfisACgkQJNaLcl1U
+h9CA2Qf7BowMVAXiqjXb1o4oyZubt1zeaNKFYVAINKHR+kr8Yd5NTPWIVtd4I4JR
+CsniZIyWW6gOu1xpwDcTEVLA8KozP83Z+GkfHvrhBmKHCxKPsRHH1ywg/vjsqAxq
+qCbVVpfDb+KCAKJUYOOF41Gc3L6jCpKtnQgeE3RucPC8MeEkhwXeBEGqCJ0f9ih5
+Rg1EbCnKBIaZokRb0lY7B1ue0ZV6soly7oaEsU6J0XhWz/I+eOZNcADP64ikL84o
+u0+tVW+jP+4rfoBuzS2wKRsPiDV3JgFKIJLWeHAMYLfuWB79j/TuI0Wzdrm63E6K
+YNdNPtQEtlSxNVzylFEx995NWOhMcg==
+=vplR
+-----END PGP SIGNATURE-----
+
+--===============5392375304610063596==--
