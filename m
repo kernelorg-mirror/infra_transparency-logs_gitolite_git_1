@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 21 Apr 2022 04:30:12 -0000
-Message-Id: <165051541278.10927.2372367979248801927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Thu, 21 Apr 2022 04:49:40 -0000
+Message-Id: <165051658009.22428.13792749595577231798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
   - ref: refs/heads/for-next
-    old: e1a34e19ea9665d876994156766ce26998272b33
-    new: 0ed6ff597f2d00f7bb3cf4655ab6b69670dfeafd
+    old: 7026944a7cf78b521359de86a7f7374dd1064371
+    new: cb98743161306163d67d09cdaca22030b453b85f
     log: |
-         91af2fc8739ebeb1fb707be5b04e8322e08113cb bpf: Make btf_find_field more generic
-         0ed6ff597f2d00f7bb3cf4655ab6b69670dfeafd bpf: Move check_ptr_off_reg before check_map_access
+         cb98743161306163d67d09cdaca22030b453b85f fuse: write inode in fuse_release()
          
