@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 21 Apr 2022 15:02:23 -0000
-Message-Id: <165055334339.15316.16644147261284426367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 21 Apr 2022 15:03:37 -0000
+Message-Id: <165055341732.15762.6565211291024108766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/1.27
+  - ref: refs/heads/drivers/memory
     old: 0000000000000000000000000000000000000000
-    new: a2210377cb4eca051c2f50d7471e251da77b07f7
+    new: d37b07897e5024088b2170b8e6e1c68d567b9be6
