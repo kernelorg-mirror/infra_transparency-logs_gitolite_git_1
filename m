@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5939136100456940046=="
+Content-Type: multipart/mixed; boundary="===============5207163767119810241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Apr 2022 16:32:16 -0000
-Message-Id: <165055873627.11094.13208270483867961975@gitolite.kernel.org>
+Date: Thu, 21 Apr 2022 16:33:28 -0000
+Message-Id: <165055880867.11564.4969990302200505446@gitolite.kernel.org>
 
---===============5939136100456940046==
+--===============5207163767119810241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 92440202a88009ef66a236001981513e03a300fb
-    new: e8784c0aec03a2581ee55827ba694e129d6a57ad
+  - ref: refs/heads/usb-linus
+    old: 71d471e3faf90c9674cadc7605ac719e82cb7fac
+    new: eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134
     log: |
-         ee11ae36b2c8e3b11a6eff4bf51eb3065ce5f94b dt-bindings: usb: Add documentation for AM62 USB Wrapper module
-         e8784c0aec03a2581ee55827ba694e129d6a57ad drivers: usb: dwc3: Add AM62 USB wrapper driver
+         8771039482d965bdc8cefd972bcabac2b76944a8 usb: xhci: tegra:Fix PM usage reference leak of tegra_xusb_unpowergate_partitions
+         e25adcca917d7e4cdc1dc6444d0692ffda7594bf usb: typec: ucsi: Fix reuse of completion structure
+         eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134 usb: typec: ucsi: Fix role swapping
          
 
---===============5939136100456940046==
+--===============5207163767119810241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650558734 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650558806 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650558733-7160516b21c8a2e3cfa4bf01cdb3fe16b699a468
+nonce 1650558805-5088589bc542a169f3316ace22f77b64963fff8b
 
-92440202a88009ef66a236001981513e03a300fb e8784c0aec03a2581ee55827ba694e129d6a57ad refs/heads/usb-testing
+71d471e3faf90c9674cadc7605ac719e82cb7fac eb5d7ff3cf0d55093c619b5ad107cd5c05ce8134 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhhw4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jV0P/i0CMpWrcCGp9GI1cjO5
-67QcOqCWdNjnY5l/h5YVxdQ2umMxBdnXDI9wAeM5RsTStOJwVvBlNjeeEy05nIe0
-sa2WOWQPZTZ0eyYQjQFSZFa+MMd+MkPiP2z/EYsAaoBeAYhwDFMhb5jQVx0RUyTQ
-2VcTf//HPQOLbw7vNT+R3dEOlbXJ5uYYqUPpGJU8sXl23nBfY5yZGujVGMCkZaMM
-ZJV3cEXN4eWHhtu64pcI3WXaQOKvIQ81IOiVhfr5cJT+tRbwBS/MudMvAa8hbj6o
-unSDDy6NAYGlQOReak+lxvP3R8cy8/4MDKhq6MGPmZs2CrNwUJn3I/uuhZBmurti
-DOvFrhzzoukq13s2b0/jOL2mWgTFHYNF9s3xZ3QSD7tsMvTPGyUngcl1MD7q5PJY
-OK4N4aFl7tdlsxj1po7M23rD5I6j+4o859wO4rlGvu7AeC+2V58Nt7dWtj6t/tgx
-KwbdUbxuQ6Y6AJ6Et2IKU3TCXOhq6Chec7QOqV0r93zH2bsXijjjtw0KJ+ETY1De
-81Zk+ADrud0zsIztMu9d/G8lQ70E0nSWj/Sp9D+0gX+UzbvDa1ucgzmL+ZCZt9ct
-pCDZ4OxghUXk/Cc7QoL8HcfMTgaexOslgpUBPMve9DwWV3SUWfSQMhVzn9hGHy6T
-gFUhCILGXim4JOFaQsgVbJky
-=EHi3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhh1YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RLYP/1YM8bMe0HSU/GNXXh8b
+3xUKh6TPlzo0RjOkPF5JPnR8+h48i2H1/Va+Ji/cLdii33hC5FpshSwTD26nDgll
+GtPD4Vl2tIzEV9BVa5xZcQalg18GD1HcTVt3F0Xj170ySE5kNbGlxH7ohvd3Q/wz
+SUzmVWNz/VCELM6StsuypwrIyQMHP5n0z9jmr/7Bxqq/f/jSEagDsSTEPqqtUmO7
+fMwlCq/A13ALWQ3awFMIIM0ytmjOPfgcusv7eF95HHbbhfl0c0Hpapxr9vaGbjxP
+q/EddIME1iZv630TnLvp7WVe/LDMaDy8gfgqFk+CGhTepBXF5MwYDAFvHkeoTXx0
+bBROWactWS4edopwbH/1eDz6TM12Lr4erTmXxvH57P/Rh+tyVVTVGhVq/KHAyZ7o
+lOlgOstTg+4kWJoDhKiAOULiQId5Vw+t5ndtQsCDF+xgf/uqcQ6tSrUy8a34GnUX
+xNztYJL820IAHEpqhSzEq2j46SzqNWooGLwOFdSgoluDcVSXFBYOGD2riLkklgX5
+j4V/2J6CUPQflLnXkASEe9GHeVP7xQKbPf2TkjwGhd4OY2Vt2gwkJEqnkhoauEoR
+Vjec5lKzg8L3vyqKEbcYlvCkdCC7LtaU0366UlG0QRnmXnqkti6rFEOR0+cGNi4/
+USQV/lHHkFlIcD5cCVXUgPof
+=itN7
 -----END PGP SIGNATURE-----
 
---===============5939136100456940046==--
+--===============5207163767119810241==--
