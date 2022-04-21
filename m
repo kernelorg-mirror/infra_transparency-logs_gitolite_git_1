@@ -1,32 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 21 Apr 2022 19:18:08 -0000
-Message-Id: <165056868837.26102.1293748092264175565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 21 Apr 2022 19:25:06 -0000
+Message-Id: <165056910672.31133.15676859365661107566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: 70fc4876013f4f5fee46d3522d8519d56ba92ada
-    new: d8c1d8dd6bb3b05c6989a2c003fdb24aecd0bfac
+    old: b3fbe53610b5ed8f0370ec4c7e6c8a1f261ddf70
+    new: 86222af07abf1f5f07a5873cc399c29ab8a9b8b8
     log: |
-         eb5773201b1c5d603424bd21f161c8c2d1075b42 ASoC: soc-ops: fix error handling
-         c26830b6c5c534d273ce007eb33d5a2d2ad4e969 ASoC: meson: axg-tdm-interface: Fix formatters in trigger"
-         0c9b152c72e53016e96593bdbb8cffe2176694b9 ASoC: meson: axg-card: Fix nonatomic links
-         d8c1d8dd6bb3b05c6989a2c003fdb24aecd0bfac Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         b07908ab26ceab51165c13714277c19252e62594 ALSA: hda: intel-dsp-config: Add RaptorLake PCI IDs
+         86222af07abf1f5f07a5873cc399c29ab8a9b8b8 ALSA: hda/realtek: Add quirk for Clevo NP70PNP
          
-  - ref: refs/heads/for-next
-    old: cbae34301661296659f193b7defba23e4ac0796b
-    new: 5a0381de4ff588df4e75f1430c24118b495e7ccd
+  - ref: refs/heads/master
+    old: 4eb323156418e4376f49ad4bc239ea1e8f8f1d8b
+    new: 1ae25ac8d743cba99564b673b77bdddf4f90861f
     log: |
-         eb5773201b1c5d603424bd21f161c8c2d1075b42 ASoC: soc-ops: fix error handling
-         c26830b6c5c534d273ce007eb33d5a2d2ad4e969 ASoC: meson: axg-tdm-interface: Fix formatters in trigger"
-         0c9b152c72e53016e96593bdbb8cffe2176694b9 ASoC: meson: axg-card: Fix nonatomic links
-         d8c1d8dd6bb3b05c6989a2c003fdb24aecd0bfac Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
-         5a0381de4ff588df4e75f1430c24118b495e7ccd Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+         b07908ab26ceab51165c13714277c19252e62594 ALSA: hda: intel-dsp-config: Add RaptorLake PCI IDs
+         86222af07abf1f5f07a5873cc399c29ab8a9b8b8 ALSA: hda/realtek: Add quirk for Clevo NP70PNP
+         1ae25ac8d743cba99564b673b77bdddf4f90861f Merge branch 'for-linus'
          
