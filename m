@@ -1,104 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============2851002812739633552=="
+Content-Type: multipart/mixed; boundary="===============1956696672180271152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 21 Apr 2022 14:20:34 -0000
-Message-Id: <165055083429.20029.1993727738791275375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 21 Apr 2022 14:21:31 -0000
+Message-Id: <165055089128.20424.5685307094411067169@gitolite.kernel.org>
 
---===============2851002812739633552==
+--===============1956696672180271152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/queue/4.14
-    old: bca9f77e8a1979152d6bbba2201accdc4585b5a7
-    new: 2dcd56b3acae2a454ac6534545f9f8eb18e7febc
-    log: |
-         9f12605a92b16d113c99fa3116dfdf226108fe41 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-         67d2d3ee0416b2488fc82f90243b3be815d3d762 mm: page_alloc: fix building error on -Werror=array-compare
-         0a46c93b35a9f91460f2c836165f5bc7a8d48be1 tracing: Have traceon and traceoff trigger honor the instance
-         94622ed746c41e0fefd9319ec7dd73677b5c378b tracing: Dump stacktrace trigger to the corresponding instance
-         17796499411afd8e6672ca6ff4606e25dc94eb0b can: usb_8dev: usb_8dev_start_xmit(): fix double dev_kfree_skb() in error path
-         2dcd56b3acae2a454ac6534545f9f8eb18e7febc gfs2: assign rgrp glock before compute_bitstructs
-         
-  - ref: refs/heads/queue/4.19
-    old: 57eab109f516bd056a45fdff80a2a18ddbba22cf
-    new: 5ad0881ca15e24828a69d272438bbe483071e202
-    log: |
-         b8cc227efc9881db04872ec2b67dfe76110c35f1 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-         aa5e14bfd9165edefdf1f8f0be49990f4dd0210f mm: page_alloc: fix building error on -Werror=array-compare
-         5fb1ae2b60444f856c9ba6e2f1df102b47dbeb28 tracing: Dump stacktrace trigger to the corresponding instance
-         60e8e0b7f0faea9765f30698c18bc38c4f6e7230 can: usb_8dev: usb_8dev_start_xmit(): fix double dev_kfree_skb() in error path
-         2742de0afca6ec10a10d1dd16c23037145c09dcb dm integrity: fix memory corruption when tag_size is less than digest size
-         5ad0881ca15e24828a69d272438bbe483071e202 gfs2: assign rgrp glock before compute_bitstructs
-         
-  - ref: refs/heads/queue/4.9
-    old: a966f5c58ae65d12a73af7d06273d8fda2438050
-    new: 86fa99d8325e8d654c7ac8562d6c75b260489bc2
-    log: |
-         7f8d312c88d35af30339f1a96fb11b60c2e94c65 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-         647e3eead20694ef2ce0af35d408e9487965cc0f mm: page_alloc: fix building error on -Werror=array-compare
-         86fa99d8325e8d654c7ac8562d6c75b260489bc2 gfs2: assign rgrp glock before compute_bitstructs
-         
-  - ref: refs/heads/queue/5.10
-    old: 23dcddf7e94eafe42f55abadfd7899e564dba461
-    new: 3b8fa2d70abc7c74178c97e122617294df934a9d
-    log: |
-         c80b941cbead60cf28c00a07a870078d4b8db360 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-         b72de327a158d814cd91e5ae4ed7d8335850e5b8 mm: page_alloc: fix building error on -Werror=array-compare
-         d21a1ba373f0284266e5a448998c124cd3a00eda tracing: Dump stacktrace trigger to the corresponding instance
-         2661cbc01cb16904cfc72c1316aac20b04757162 perf tools: Fix segfault accessing sample_id xyarray
-         3b8fa2d70abc7c74178c97e122617294df934a9d gfs2: assign rgrp glock before compute_bitstructs
-         
-  - ref: refs/heads/queue/5.15
-    old: 8630a0a7e1bf50f2443372a805a63ac8b66ad194
-    new: fcfbe4b48b2d5e976b297a08ecb6c7101d118013
-    log: revlist-8630a0a7e1bf-fcfbe4b48b2d.txt
-  - ref: refs/heads/queue/5.17
-    old: 4d4fa53f2373106f71321d1eb04e80d1e257b081
-    new: 16014029c8e77d8bb7c46b76d6759b4ff5369bc0
-    log: |
-         e7da0d23cdcdc1c2a409274dc0693ea11a7401e3 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-         232e7fa163dfa297bc94cb9b909b56355c041016 perf tools: Fix segfault accessing sample_id xyarray
-         1073b659f97c4503d4883e7fb5e547d7b64f0241 drm/amd/display: Only set PSR version when valid
-         81f19b1846e8983751c0a96f58598942949a60ff block/compat_ioctl: fix range check in BLKGETSIZE
-         64be365f9b7683b82dcac32229d3f7a2b224468d gfs2: assign rgrp glock before compute_bitstructs
-         16014029c8e77d8bb7c46b76d6759b4ff5369bc0 scsi: ufs: core: scsi_get_lba() error fix
-         
-  - ref: refs/heads/queue/5.4
-    old: e3c4dcbd28d4280d001b273be623fb98a9f144d5
-    new: fb99cd737c048fdf72a02c8ca35b483dce306924
-    log: |
-         be1736819331b9af566173a2d92fac0d33da9c98 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-         e88e7a2482562a1d2dee64f76f0eff6790444a7a mm: page_alloc: fix building error on -Werror=array-compare
-         fa8a38fb883417cac705bb8b4e8ce6e77133c18f tracing: Dump stacktrace trigger to the corresponding instance
-         7cc0639c5d6bc570fbcf0651bbe7993f55ea996f can: usb_8dev: usb_8dev_start_xmit(): fix double dev_kfree_skb() in error path
-         fb99cd737c048fdf72a02c8ca35b483dce306924 gfs2: assign rgrp glock before compute_bitstructs
-         
+  - ref: refs/heads/pxa-multiplatform-5.18
+    old: faeb13a8cc88ff47971ffd2b2af3d14bc0b351be
+    new: 7643a9ca9f8e08f71e15f89dd74863635e981e03
+    log: revlist-faeb13a8cc88-7643a9ca9f8e.txt
 
---===============2851002812739633552==
+--===============1956696672180271152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8630a0a7e1bf-fcfbe4b48b2d.txt
+Content-Disposition: attachment; filename=revlist-faeb13a8cc88-7643a9ca9f8e.txt
 
-c6e0d5050613e7c012937eecc75a47e24ce713fa fs: remove __sync_filesystem
-1dbd65d797744cd62351b1d9cb75ba01d9779085 block: remove __sync_blockdev
-2ff10f59254c34790e1c8eb20829be7e331b6327 block: simplify the block device syncing code
-ee849a51eb62fb4b12aebfcc4d90e59c325c982e vfs: make sync_filesystem return errors from ->sync_fs
-0a16c1e345dcee0f5314e0c3a408d131f41f7b1b xfs: return errors in xfs_fs_sync_fs
-80b653849c12033dea725e9fc1e10fc791e2f5e9 dma-mapping: remove bogus test for pfn_valid from dma_map_resource
-a60640d9fe1e7cb7165558b8fb8708959b31ccb0 arm64/mm: drop HAVE_ARCH_PFN_VALID
-4225618e4ab54553596b1c156b9282cf2da90475 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-fa5f72f5db1852c8e09f2a66a4c348a879938b59 mm: page_alloc: fix building error on -Werror=array-compare
-5118467a61e7e46764d0714669c1ff2b93714ee7 perf tools: Fix segfault accessing sample_id xyarray
-9d7ca71a8f7fe8f3a67070fe2e0c9a59de6f82a9 mm, kfence: support kmem_dump_obj() for KFENCE objects
-eb9e4acc987e83de254030566ab2c6752cde268a gfs2: assign rgrp glock before compute_bitstructs
-fcfbe4b48b2d5e976b297a08ecb6c7101d118013 scsi: ufs: core: scsi_get_lba() error fix
+e86bd43bcfc579cf8935c1913e92cb76b4ba81c2 watchdog: sa1100: use platform device registration
+2548e6c76ebfae09f25f941ae172535cc918c906 ARM: pxa: pxa2xx-ac97-lib: use IRQ resource
+b83deaa741558babf4b8d51d34f6637ccfff1b26 ARM: pxa: move pcmcia board data into mach-pxa
+225b5d376e53543a66fc9b824a05cfcdf74c763a ARM: pxa: make addr-map.h header local
+57bf0f5a162d386cc1a33f8dd492bb7a2cf8e8ac ARM: pxa: use pdev resource for palmld mmio
+2672a4bff6c03a20d5ae460a091f67ee782c3eff ARM: pxa: maybe fix gpio lookup tables
+80b1f9ef6d35951b6609c456ca2053806f5af370 ARM: pxa: tosa: use gpio descriptor for audio
+24d25d702a89e58a2e53e0ed935ae37cb8451d82 ARM: pxa: poodle: use platform data for poodle asoc driver
+57d24736bbfafa98e2dcabff22ec49124036b5da ARM: pxa: corgi: use gpio descriptors for audio
+e7bb016622174c8079aa8067af0b7baf7fe3a81c ARM: pxa: hx4700: use gpio descriptors for audio
+1b1474712d440b8326269fd8370cfbbb6e992041 ARM: pxa: lubbock: pass udc irqs as resource
+c878ab233065fc925b0802678c6b30a3c25b73cb ARM: pxa: spitz: use gpio descriptors for audio
+3c0dfff9ab3774b7d2d54f3a931de807f5e97855 ARM: pxa: eseries: use gpio lookup for audio
+0560aa4869dccf8b393224c299dbc691b771620a ARM: pxa: z2: use gpio lookup for audio device
+fd05eb8de0ef527e9e59e220326281aba914090e ARM: pxa: magician: use platform driver for audio
+9b03d7f95bd4d97101ecb8ea1e822103b81fdb2d ARM: pxa: mainstone-wm97xx: use gpio lookup table
+0c8471b9ff5182fd01ee49110657ee7dca8cfe65 ARM: pxa: zylonite: use gpio lookup instead mfp header
+bbb2fcec10c914c25b58d492b04e60c122032313 input: touchscreen: mainstone: fix pxa2xx+pxa3xx configuration
+ac571609a9fab9b94bbd8e634ba20e2ab672e32d input: touchscreen: mainstone: sync with zylonite driver
+d8cfe5b987d1143cf467196a4f811f1f3db6e6b5 Input: touchscreen: use wrapper for pxa2xx ac97 registers
+360bc40e83862301a4cd4a81125af659d8700c58 Input: wm97xx - switch to using threaded IRQ
+87fe22b27c46a7bb339e4b8fbdbee9e7ec0cb878 Input: wm97xx - get rid of irq_enable method in wm97xx_mach_ops
+9434d28352bbfb5b3de50c1c652f6c03635899b3 ASoC: pxa: use pdev resource for FIFO regs
+f332a7e1a39f94e416d8991069fe26d4b787b84e ASoC: pxa: ac97: use normal MMIO accessors
+14674c826d520aed12c218b88894fd2170ad5cd7 ASoC: pxa: i2s: use normal MMIO accessors
+d3791b1dcf413022ddfeed1d7a3b7e0a89507805 ARM: pxa: pcmcia: move smemc configuration back to arch
+31b5506d38d1718bf53998b2e259a1dc793e74d2 ARM: pxa: remove get_clk_frequency_khz()
+764063eee7620ea9abb940068a7ad0e7f9efa1b6 cpufreq: pxa3: move clk register access to clk driver
+f81a438df97f5d76737b3974aa8df8f3a184c3a5 ARM: pxa: move smemc register access from clk to platform
+827a6107f348d855da97831ddf90ca37868a69dc ARM: pxa: move clk register definitions to driver
+ce6fb3fc292fbcd3493d617523b99f6275356033 power: tosa: simplify probe function
+ec86d058055420a93af2d88d13cbd971af264a31 ARM: pxa: tosa: use gpio lookup for battery
+77b9aeb6e3cd4de6b320d3a9be5d692594159f9e ARM: pxa: remove unused mach/bitfield.h
+5153474f0a4388b7ddb59add4be73bfb42b2007f ARM: mmp: remove tavorevb board support
+73bae37648870fe4ee5faa4be92d6ca6557890f9 ARM: mmp: rename pxa_register_device
+77a3a994331011ba528308d0950aefb512d93a33 ARM: pxa: move plat-pxa to drivers/soc/
+2746f7c78b428c8b01b691a29a972c08101ae343 ARM: PXA: fix multi-cpu build of xsc3
+3ef7513d7a8dbaf712d01b2736ca7f391ac91eee ARM: pxa: move mach/*.h to mach-pxa/
+73d5106e9489464eac84362705e93bcf3b376123 ARM: pxa: remove support for MTD_XIP
+7643a9ca9f8e08f71e15f89dd74863635e981e03 ARM: pxa: convert to multiplatform
 
---===============2851002812739633552==--
+--===============1956696672180271152==--
