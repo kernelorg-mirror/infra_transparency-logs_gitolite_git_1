@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 21 Apr 2022 15:54:44 -0000
-Message-Id: <165055648417.17966.1068016634874576182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Thu, 21 Apr 2022 15:58:25 -0000
+Message-Id: <165055670565.20599.15327381177679265235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 791ff28c797b2726dcddfe6dc0607f51d510bd06
-    new: d6344eb23fcdce054bf04e8d9c6c1c4e199477f4
+  - ref: refs/heads/fs.mount_setattr.cleanup
+    old: bbc1e8c589d5c14f108de18e63d4d18d5bd7465c
+    new: 0014edaedfd804dbf35b009808789325ca615716
     log: |
-         bab76514aca36bc513224525d5598da676938218 regulator: da9121: Fix uninit-value in da9121_assign_chip_model()
-         a38dce4cb1f1bcc4f6ef7f11e54b6507a4043ebe regulator: core: Rename _regulator_enable_delay()
-         062920d2464715ef5cbba52a8573ba12cc882b8f regulator: core: Sleep (not delay) in set_voltage()
-         d6344eb23fcdce054bf04e8d9c6c1c4e199477f4 Merge remote-tracking branch 'regulator/for-5.19' into regulator-next
+         0014edaedfd804dbf35b009808789325ca615716 fs: unset MNT_WRITE_HOLD on failure
          
