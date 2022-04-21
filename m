@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1383476247122205138=="
+Content-Type: multipart/mixed; boundary="===============6484705511708005092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 21 Apr 2022 06:25:17 -0000
-Message-Id: <165052231715.19579.6459903674946760999@gitolite.kernel.org>
+Date: Thu, 21 Apr 2022 06:26:51 -0000
+Message-Id: <165052241155.20122.15353769637662112749@gitolite.kernel.org>
 
---===============1383476247122205138==
+--===============6484705511708005092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 2a72b1b2db9dbe12c730754009196a132500f007
-    new: 871277738426e188cf5b8eb7a2fbee1e27a496cb
+  - ref: refs/heads/tty-testing
+    old: 871277738426e188cf5b8eb7a2fbee1e27a496cb
+    new: 05fe70dd2efd13de700c2dfe5169d3a7a5050bc2
     log: |
-         7a107b2c6b813c3c587d1e76cb405dc637dd2b36 Revert "serial: 8250: Handle UART without interrupt on TEMT using em485"
-         538668d7d2deb39bc3aa3b9af24fd779bd8f8b82 tty: n_gsm: clean up dead code in gsm_queue()
-         871277738426e188cf5b8eb7a2fbee1e27a496cb tty: n_gsm: clean up implicit CR bit encoding in address field
+         05fe70dd2efd13de700c2dfe5169d3a7a5050bc2 MAINTAINERS: fix location of moxa-smartio.rst
          
 
---===============1383476247122205138==
+--===============6484705511708005092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650522316 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650522407 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650522316-006758dbcf360efae46ab51e806593e8422e461c
+nonce 1650522407-d4c26d1db266539b2bfa8470b6801bd1960702f8
 
-2a72b1b2db9dbe12c730754009196a132500f007 871277738426e188cf5b8eb7a2fbee1e27a496cb refs/heads/tty-next
+871277738426e188cf5b8eb7a2fbee1e27a496cb 05fe70dd2efd13de700c2dfe5169d3a7a5050bc2 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJg+MwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2WYP/3FaKI7tfaOn9FzxVFIM
-XiHvAhVV65pSdmCDfVpQzbos6exdIzJGTKmEj8s4EBOeWNbLPpRbDtQAMyTtpuc7
-+VdLLw/7zn3gsxD+k9uZASZ7FANS95AF3CA28pfyQjVWGz32n7MNN0aZFwNbGMjh
-d0Gu8bGaPaTF4ZTsI9Ptm+4W5Ftljx3hl3MaCHXKp8BBnuB3nZ6ZvJN9KMkqF+R4
-s+1M2EwI2bn3B03wLTNsvvUHIjEDDvHtnCj3ngfAvB67glWZTAxhSj7TD6jKuDzr
-ojne1xqksXR+Wbh+4sTjRkP9mEAEb/2GtaHtETRFhfKGwyms5Hsf6Za6gzs3MTA5
-t2GzQMe0v5lGm5pONGFtz14sGXWHySQqJ8xQ9kHbAWLIqjwseXQeVEbbKs1l+1rH
-Db8w5rWJdZw8jj40QbNPKTQ6RVzrhpL5SYK0eWDNiZ8a3vRLNxwCUM2wCn4VZlg+
-3VM/7DvvUjz3eX/zuGTiAAZJK62lPQCRwewMbWTUbueY6FOkVrOSeVPUT57qr86/
-7suR3cZdkQX5NY5aJ7p+PZiiFUYH5EPx/o7cE3r2I3kqpa5USaZCt+E6AfkselJS
-FHzzJ7dM27zOo7bULN71UGchaTFbqUZ4aQ3UCNXRupjxD7foOwF5XPQB48TgEors
-JFDHX1C3M2v5LsMuaF7qL8Vz
-=PiOz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJg+SgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jwEP/0h9P6f+bDVX+6BBZFFx
+glcROsq5WGtU7hVmiEyyL+6lWTejtCmYKNcdiBFM3n6Ai/s/LtjBgt+DxDwwCMHr
+n38mc527ipT+o63r7vu53OqyZgghWkB11l7jHc/8kS5y/3ePaNInq1gT0eGX4hnH
+6d3SvRXceQicoDQECRLAGm5CGX561Xg971TtGgv/gCdRtpKZGq+6eMKpoCowd592
+MZ7fCOTgsZ/Ln3M2A6tUu4lWUswc4TvAHJ32IdwhqnWpmi4GzSWnRVKLR5+YJnZc
+GwJHVI44SIg1RKodQGbx7oDUFAagQZjsEUF9tAnPhj40bDua+sb1KyID45h6BUJL
+GMJDGVzRpxgiy+7euA+j0nsG7XX5DPfyB7SZLNXFSUXjcoaM4j/TracAMZRfSu7g
+tO4cUvMRbiwsDGLU6KZco0XyLLQ2VtdFtAHatlqsi0rSpuaKT9brGUFzYL6yy1Zy
+FAkZbp3wJkAi8H38ZpjCZ4oXbT+XGNcE9ljYDS4TpeSEmoLVK4Z4PbpEu4SCDk8G
+0mE0ouVNKoqqyxdrG4cOjAN8kgf8Jq4z4f2tMp4MFqUWhHQDEtxTujM9gtdSy+m5
+Q3xe2aZ4pv2CXKX1ig1MUlNs9D3s/iEcQhz5Fy/CD6JAnsgEGUlcR1jw7xUZLi7Y
+7kuWr/aaJTOweANjJLPhhHbt
+=zR1D
 -----END PGP SIGNATURE-----
 
---===============1383476247122205138==--
+--===============6484705511708005092==--
