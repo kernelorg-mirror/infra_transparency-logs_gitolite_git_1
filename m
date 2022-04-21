@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0392969191828944803=="
+Content-Type: multipart/mixed; boundary="===============3050732576172071562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Apr 2022 17:22:13 -0000
-Message-Id: <165056173374.12970.6454764045444423138@gitolite.kernel.org>
+Date: Thu, 21 Apr 2022 17:23:57 -0000
+Message-Id: <165056183744.13567.3686480224555000339@gitolite.kernel.org>
 
---===============0392969191828944803==
+--===============3050732576172071562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 8666009c5f8327d13d4c91a2139b361b41ab43c2
-    new: ab3a560ae8e2795b8069b4587792d1b49c20e671
+    old: ab3a560ae8e2795b8069b4587792d1b49c20e671
+    new: 5c29e864999763baec9eedb9ea5bd557aa4cbd77
     log: |
-         9cd6576f46be175f7ef0769554ce120470bb2ccf dt-bindings: dwc2: Add bindings for new Ingenic SoCs.
-         d712b725b84dc1623d826b3232d706c7e9e53a4f USB: dwc2: Add OTG support for Ingenic SoCs.
-         ab3a560ae8e2795b8069b4587792d1b49c20e671 MIPS: Ingenic: Refresh USB nodes to match driver changes.
+         5c29e864999763baec9eedb9ea5bd557aa4cbd77 usb: musb: mediatek: Use clk_bulk API to simplify clock operations
          
 
---===============0392969191828944803==
+--===============3050732576172071562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650561731 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650561835 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650561730-4e57f285eecf538ab6a021effa5d291577212ba3
+nonce 1650561834-cebd02492bd23f784bd5c19ed1c85af56e184735
 
-8666009c5f8327d13d4c91a2139b361b41ab43c2 ab3a560ae8e2795b8069b4587792d1b49c20e671 refs/heads/usb-testing
+ab3a560ae8e2795b8069b4587792d1b49c20e671 5c29e864999763baec9eedb9ea5bd557aa4cbd77 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhksMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+21YQAMW4aSfgAVjYlKtFyet8
-ULhs4NZqsi4eoIct6qehn/8fTegX1TTScNLrcCbtOahBYTj3RebXC/pGGMSwL8F0
-FLr0ZXK2jvYJhApHMplq5+YQCqwftLwco3vhanrwZ8khPy9DvPJ6f52fVZ8IVpK+
-IpqyjViRQ92H2TqfwO0UGW7lpzS6mR4YJSjxT/+8pK4qI3JWQz98PjMMoRrl4qsL
-z9jjJWThIg8iSk0FTVESzqFfajS3dJB4Uguroxr15slMN8/FzR6jaC9GoUGWYlLR
-TLqk0ElKWFsOGIXBRscSHV+cdszPVtgaUrX5MCir0GxDYpxe5lw1uYikj0+BVJgL
-D95ln4YHGS3mOOS3mwZqJb2OuxtFNjrUX4GVk5CliFJtHaJMZuzlFmF0OBm/ksQn
-vkwjdHZ+Jxy+7+u168dJp6XbqBwWRJ0d1WNO203KRArpSve1pNNYOllj0TmjIGjS
-QfXjJiPjSp2ZGTayQ7Xc9Ulmy/JPGoiIBJTGjgN7c0zoXU7kQ1izsyyxsIotdHNF
-vPIMICDGeQ0m4rHfgwyefQUp2cygPFIAV4WbiF1DTqVojRtcfs6nB4s+0ZKEgGFC
-VIUiEKHoruo20oRw/0tzINZLT2ms8YBRxkTpel0fL/t8ny3sa9Dk8uEA0clsMN4Q
-m6u7i4SkP8J5e6/PuT0kaRMO
-=Ounb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhkysbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3JMP+wXOJhKww8l4ow4fhlH2
+HNLc2g4gDiZUIDNI7YRd+TsLXFt7WbVW66KU20EyXxVuZ1gXLuAyqC5QXFSEf5Ay
+H3WS+DlVVKI6rSiF5U8II93vaUeglvjvNS9LdB1S6x4g0sWogR13kH/+ysBBOIRo
+l+Dxy3ZNxQOsEHxUkwyGlo7UYoyIGgPBcFKe1NvP7o9kLfSIXKbYqFpvqnK7KYKJ
+8wl+c91t2pR/hG2LrokQY8FFOIXovcx8McmA+9D7+Fzr9hTjTYysFSW1zIKx8v0p
+bdaGPez5K6B9+5GbheR7mzPDsjmtMEyt5YtJ8uNUPmSObh/hZsenzGaDOPiLhqqq
+ud2fHLU+4R5hd2RJDebX4H4FzX9t8sqvR+fdDf3DtzcUZdDb0eeO2gcH6QozZDWd
+6LQd3J7sBTMjUI3KRPC+LfvpuAgEpwkYwYbh6QgE9sMPvzGsx57XmpYOUAymmlTf
+6X2Q99iGnz36UvDS5bFqLaKsMl1FFmPn6l/xC2rITq2e76WNo0j5MUGtt5DUkfxW
+sf122WvnwBEOyIaGtmJAby2WUMYhE34sLaLECFCP5sFiFxo/YqgdIEJi6EhUz/Ps
+fdLvE8T0w3fhCQAy2qCiN7vrgoBOSLuWLbyFbfcJEoCAUUiRRmLWdrPJ9qbWDh+b
+0gePnXdAMop1ivouwX8fASFV
+=h7+Q
 -----END PGP SIGNATURE-----
 
---===============0392969191828944803==--
+--===============3050732576172071562==--
