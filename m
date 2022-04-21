@@ -1,63 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0182034106254249011=="
+Content-Type: multipart/mixed; boundary="===============4392032453310807403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 21 Apr 2022 17:24:27 -0000
-Message-Id: <165056186740.13953.10752586208261369524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 21 Apr 2022 17:24:36 -0000
+Message-Id: <165056187680.14049.17558176887807860940@gitolite.kernel.org>
 
---===============0182034106254249011==
+--===============4392032453310807403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: 08ef48404965cfef99343d6bbbcf75b88c74aa0e
-    new: 12131008fc13ff7f7690d170b7a8f72d24fd7d1e
+  - ref: refs/heads/usb-linus
+    old: 0543e4e8852ef5ff1809ae62f1ea963e2ab23b66
+    new: bf95c4d4630c7a2c16e7b424fdea5177d9ce0864
     log: |
-         2e3a0d1bfa95b54333f7add3e50e288769373873 ASoC: meson: Fix event generation for AUI ACODEC mux
-         fce49921a22262736cdc3cc74fa67915b75e9363 ASoC: meson: Fix event generation for AUI CODEC mux
-         12131008fc13ff7f7690d170b7a8f72d24fd7d1e ASoC: meson: Fix event generation for G12A tohdmi mux
-         
-  - ref: refs/heads/asoc-5.19
-    old: b3598fe6d009b2f2144115dfc381615c8b534aec
-    new: d09a7db431c65aaa8303eb456439d1831ca2e6b4
-    log: |
-         397ff024960634962af93e9e2775fc0e4fe7de92 ASoC: max98390: Add reset gpio control
-         68514c9f6aa676f98328844336fc4400244a8479 ASoC: dt-bindings: max98390: add reset gpio bindings
-         b1384d4c95088d01f4266237faabf165d3d605fc ASoC: rsnd: care default case on rsnd_ssiu_busif_err_status_clear()
-         c1d97b866100f354c3381c756e8ea7c4d8f0ccbe ASoC: audio-graph-card2: indicate "Experimental stage" warning only when successed
-         d09a7db431c65aaa8303eb456439d1831ca2e6b4 ASoC: rsnd: care return value from rsnd_node_fixed_index()
+         929b22e669b15fc9a2ab110ea27f0c489ed92beb usb: misc: eud: Fix an error handling path in eud_probe()
+         bf95c4d4630c7a2c16e7b424fdea5177d9ce0864 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
          
 
---===============0182034106254249011==
+--===============4392032453310807403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650561865 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1650561865-66b56906247e516ef33794d8c93f3b9d39c50a66
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650561874 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1650561873-ee5e3631f09276984193a6e2b31843553251952a
 
-08ef48404965cfef99343d6bbbcf75b88c74aa0e 12131008fc13ff7f7690d170b7a8f72d24fd7d1e refs/heads/asoc-5.18
-b3598fe6d009b2f2144115dfc381615c8b534aec d09a7db431c65aaa8303eb456439d1831ca2e6b4 refs/heads/asoc-5.19
+0543e4e8852ef5ff1809ae62f1ea963e2ab23b66 bf95c4d4630c7a2c16e7b424fdea5177d9ce0864 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJhk0kACgkQJNaLcl1U
-h9C+OQf/elrkq9D86oHVS7Zjj94A+1nr+0+icMlJ9Chc0GG2KRG8/uJLx7NMhA30
-AIBTbVVMD0QCOyYwQpg9IaAr1QtTtNb/hmx7LL73YS5v4qOVVHzwgxg/7J1VjsS5
-KFn84FgGffG++C1ArZtKBW+yLpj8qY7N+utmdC+3ILaIfpQWHI9V+kSlTKeo0JPr
-z2qdGno4XtGAdnhTdz1j7Gq6ADSlvTx4c54zEmYqp0sdVLqYPMlG8XLzkQGRph3N
-VCORXr3sAsgHR22rVnyFqt3eHou1tGaMYCUphPwwdt2cabqBuYefSWWF9oBo+wTj
-cOGXimvjQdUNnTIPRH59gDXoLLSBxA==
-=ATY/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhk1IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+95kP/jAe0nfOrvndGaSz00iJ
+08kKkiEEN7SSYT40ZxeZYm+0mpmOuLlmKhJmOB5gYd2qt1RxtOKovqhc8HPM4Cpb
+HobSQE5GmxlPpZEmgqanwjjv1Z59qqjE9IR4UCV1y60CQK8Hn555kX8sJbMCjjIp
+x7zSOd/EUlTp9fIMrICxXwbClNTZAJSoIMK6btEvsYezZ03UqAR2zD2KzvWlW/Zt
+KDbdKpzMIhhzzbsIqtLarjNDZmbSn/3OM4QmSdRHQ+hPtHb75ny+Nnx4f4a+zkxa
+8MNzOH2ErwZGcfYu/EaT7BahICgUQpwBYVLAEDR5iz7rh19U550gcoO8IaqFrCtU
+moNSplgF157onjoEJY/91mGay1ZcS4RmJ76EZ1yle1uLPMNpyYZoBebQdGI8e5ae
+b1TW95sfVLElatjoec6idc4jLmZR9AvVQf29WbYkuUBvguC5hK3MJGtiZ1KFacs+
+32LODNmMAWKv7tblXX58u7IuHUmptZCRoZM1rhelDQv2mK5iRkF7wEHoxNLnOSep
+DqfTn/pCFKLYIxtzyZHGDTLanfPelQYmVA4A2Pvz24AmdiBW2hzyk1KaCXVDSKOj
+zk4iXMD/2N1JOFUZ4jroRldU21Hp5Y+zFq+VEgns9jKwhSPHkvy5oRnQmeDIzT0E
+efbfYCG+mz1dSCyyUFEKAChr
+=jwnk
 -----END PGP SIGNATURE-----
 
---===============0182034106254249011==--
+--===============4392032453310807403==--
