@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3050732576172071562=="
+Content-Type: multipart/mixed; boundary="===============3324308628565693204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Apr 2022 17:23:57 -0000
-Message-Id: <165056183744.13567.3686480224555000339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Thu, 21 Apr 2022 17:24:05 -0000
+Message-Id: <165056184529.13668.9211362484282161620@gitolite.kernel.org>
 
---===============3050732576172071562==
+--===============3324308628565693204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: ab3a560ae8e2795b8069b4587792d1b49c20e671
-    new: 5c29e864999763baec9eedb9ea5bd557aa4cbd77
+  - ref: refs/heads/master
+    old: 525f3695b1a7cd96d3ed7465947616c41c7fb644
+    new: b56a4ff6bff38fc49d8e583a3fbb5e18d1a99963
     log: |
-         5c29e864999763baec9eedb9ea5bd557aa4cbd77 usb: musb: mediatek: Use clk_bulk API to simplify clock operations
+         b56a4ff6bff38fc49d8e583a3fbb5e18d1a99963 KVM: SEV: add cache flush to solve SEV cache incoherency issues
          
 
---===============3050732576172071562==
+--===============3324308628565693204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650561835 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650561834-cebd02492bd23f784bd5c19ed1c85af56e184735
+pusher Paolo Bonzini <pbonzini@redhat.com> 1650561843 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1650561843-231e2e863bc5d79b4e1fd5512db465174e1ee462
 
-ab3a560ae8e2795b8069b4587792d1b49c20e671 5c29e864999763baec9eedb9ea5bd557aa4cbd77 refs/heads/usb-testing
+525f3695b1a7cd96d3ed7465947616c41c7fb644 b56a4ff6bff38fc49d8e583a3fbb5e18d1a99963 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhkysbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3JMP+wXOJhKww8l4ow4fhlH2
-HNLc2g4gDiZUIDNI7YRd+TsLXFt7WbVW66KU20EyXxVuZ1gXLuAyqC5QXFSEf5Ay
-H3WS+DlVVKI6rSiF5U8II93vaUeglvjvNS9LdB1S6x4g0sWogR13kH/+ysBBOIRo
-l+Dxy3ZNxQOsEHxUkwyGlo7UYoyIGgPBcFKe1NvP7o9kLfSIXKbYqFpvqnK7KYKJ
-8wl+c91t2pR/hG2LrokQY8FFOIXovcx8McmA+9D7+Fzr9hTjTYysFSW1zIKx8v0p
-bdaGPez5K6B9+5GbheR7mzPDsjmtMEyt5YtJ8uNUPmSObh/hZsenzGaDOPiLhqqq
-ud2fHLU+4R5hd2RJDebX4H4FzX9t8sqvR+fdDf3DtzcUZdDb0eeO2gcH6QozZDWd
-6LQd3J7sBTMjUI3KRPC+LfvpuAgEpwkYwYbh6QgE9sMPvzGsx57XmpYOUAymmlTf
-6X2Q99iGnz36UvDS5bFqLaKsMl1FFmPn6l/xC2rITq2e76WNo0j5MUGtt5DUkfxW
-sf122WvnwBEOyIaGtmJAby2WUMYhE34sLaLECFCP5sFiFxo/YqgdIEJi6EhUz/Ps
-fdLvE8T0w3fhCQAy2qCiN7vrgoBOSLuWLbyFbfcJEoCAUUiRRmLWdrPJ9qbWDh+b
-0gePnXdAMop1ivouwX8fASFV
-=h7+Q
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJhkzMUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMA1Af+OZN/7CGrS3r/TfjpFxVfU721qw6M
+kzvGxbLw0CslGpbkuuDjdWHflNCpgaUf9VGwdBi1OVEdxGfiLVc08Lcmz2YJBqZc
++6l62Gxu9GffBlC4wPL2DiazT9P5hTKRuw8fSmDWhyEQ8K5nZSGb9kvgqBJZpcX3
+Xt4piBgeWd9AyXIqCofaJbd55K496nQucdhNpCxZIfucQkhqsAn+0qdecJ85ZZg/
+TTU2NAfs+iYVvOHcS3rOQh20CPwpsbmZlzf7zsotof7VUS26XalJWIZieDl9JyB8
+pJ0Le2yE0LH9K10talz72QsH5xLOzu0MNdttXQwSq5pzhXsZaMmLnjcrUg==
+=TGl8
 -----END PGP SIGNATURE-----
 
---===============3050732576172071562==--
+--===============3324308628565693204==--
