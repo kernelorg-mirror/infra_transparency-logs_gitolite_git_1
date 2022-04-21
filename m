@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8151505416248585943=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 21 Apr 2022 08:27:21 -0000
-Message-Id: <165052964107.28982.2409311769822109726@gitolite.kernel.org>
-
---===============8151505416248585943==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 21 Apr 2022 08:27:45 -0000
+Message-Id: <165052966561.29198.8687426634752835074@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 5faefd3e84294b4a3de053772f4761faf65a5daa
-    new: ab125d832dc160b72a3553d3c1462b39c5e8aefd
+  - ref: refs/heads/queue/5.15
+    old: 3dd53da69cfca7100e32f685313c551a4f2d9225
+    new: 5a59fe4691f98e09ea0310205ca7f333f8761310
     log: |
-         4962af6c2d00799c11a2c5ef64b701ba1ba2b3e1 5.15-stable patches
-         ab125d832dc160b72a3553d3c1462b39c5e8aefd 5.15-stable patches
+         ff8210bcd6810643497b89037b434a0f4970bf90 fs: remove __sync_filesystem
+         b93f009a7214155d5ebee2cb5b0e692676d45a0b block: remove __sync_blockdev
+         6d599dbd2d4cca4feb9086c18d3294a7ad95140a block: simplify the block device syncing code
+         7517190b443aa08536e0cf5f63fa1f4a4b54bd6a vfs: make sync_filesystem return errors from ->sync_fs
+         a7b1d08723ce31826f3cc7bf827fbcccda01c4af xfs: return errors in xfs_fs_sync_fs
+         d78c34e64185233bc5cf31511c27cd17f1778833 dma-mapping: remove bogus test for pfn_valid from dma_map_resource
+         5a59fe4691f98e09ea0310205ca7f333f8761310 arm64/mm: drop HAVE_ARCH_PFN_VALID
          
-
---===============8151505416248585943==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650529640 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1650529639-fafd363ab205bf31bb5a7271e71a404dafd782d2
-
-5faefd3e84294b4a3de053772f4761faf65a5daa ab125d832dc160b72a3553d3c1462b39c5e8aefd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJhFWgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7nMP/0IEAuNyLlg7WDVJrWnz
-cIPYJOr7Uuj9pvxPXGXUUf+Nx5MlSm6u+tsKDa6m7u6kDknzrq8mWjbFg5e/rTed
-UkoPcbyhEsVtgmtZeYa2dSIXfc1qB+yiwp1SB8Sd1ewRWWDcRcc5OSDxEbew75zU
-flOyjzHiiq5IRqaKhGx0z6cmPG/zYpHDy7Jh2PIPO6RdyoICVioBjlNkSp37VOxw
-L72t7hMmxeBsoy2eeOzGaeUHWm6aQZqmRZVj3W0MNHgRoiv5xHW4TcVgsGvgdd6e
-DlqiSUwqQhqRyfAEI/eWlI08mghqg4lI+/tsfZRiqafaIgTsSyXbFiuqofJgo6n5
-ed6IVke7PD6F0DiKwlCyfn3lD8lZzfN+WJE4dSsEp0GnGeJ9lGfQruu5j3lBK1db
-MGGSupXqkgMa3vabci6zcVR3Qis/qKtXoxUqEcYJ19KOrmZc530kN08fqeuK7lYk
-evwZueH68ZRpUAU/S+VFnSZkGLQCkX6ngwni682pWSB9MDmk7a0htcwcYx6xGgEK
-gpL6DyHMFl9Kg/3W1m9//bfocyEddUv+N4gNTdeV2fgcmFFXwOT9ehgKqUD33zvo
-qKwtIa1mMz0Yw4O3rLZNdjjaJCM2YdDL5uWzaPLHkp9TwsVUyZ5ZCF+4cURyJcEA
-sKnLw++DOG7B59G+G8Jqgdb6
-=lRt2
------END PGP SIGNATURE-----
-
---===============8151505416248585943==--
