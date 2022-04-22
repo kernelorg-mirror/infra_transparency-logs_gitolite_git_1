@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1573897248134548894=="
+Content-Type: multipart/mixed; boundary="===============5884276258708644975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Apr 2022 06:20:28 -0000
-Message-Id: <165060842854.3612.7329246519934152768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 22 Apr 2022 06:20:33 -0000
+Message-Id: <165060843350.3702.13556411053030490047@gitolite.kernel.org>
 
---===============1573897248134548894==
+--===============5884276258708644975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: d58cf169c4adbfc1f3b33d80fc8973b2fd6350e8
-    new: cbe1ea77b31f8df31942f4677656604f971e8f31
-    log: revlist-d58cf169c4ad-cbe1ea77b31f.txt
+  - ref: refs/heads/queue-rc
+    old: ae36ac2c1984d5a272a0d890c0e16cde750e5341
+    new: 00e2ff5f71ed4d6d82eca7e140e222d3f3ebd2da
+    log: revlist-ae36ac2c1984-00e2ff5f71ed.txt
 
---===============1573897248134548894==
+--===============5884276258708644975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58cf169c4ad-cbe1ea77b31f.txt
+Content-Disposition: attachment; filename=revlist-ae36ac2c1984-00e2ff5f71ed.txt
 
 83e889dfe81973ac276421762156366f6481ac9d net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 72c73caa6d878c32f7d37ec9ad1b3839e44448a7 net/mlx5e: Fix wrong source vport matching on tunnel rule
@@ -43,5 +43,7 @@ ffa383a61240b3fb3cc68c580efa10c34f3637cc Merge branch 'patchq/497708' into mlx5-
 e55962a9540062bf59bedf630c76628b8d5928b9 Merge branch 'patchq/482701' into mlx5-for-net
 f9b122263ed160efd96033188b6a00a6ed7db58c Merge branch 'patchq/495663' into mlx5-for-net
 cbe1ea77b31f8df31942f4677656604f971e8f31 Merge branch 'mlx5-for-net' into net-rc
+23387fed567d9fa2293ba0ea1232da1e0c7aaaf8 Merge branch 'net-rc' into queue-rc
+00e2ff5f71ed4d6d82eca7e140e222d3f3ebd2da Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1573897248134548894==--
+--===============5884276258708644975==--
