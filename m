@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3532695644892630445=="
+Content-Type: multipart/mixed; boundary="===============6009183087637312146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 Apr 2022 14:37:59 -0000
-Message-Id: <165063827911.22084.9677425327370129934@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 14:38:31 -0000
+Message-Id: <165063831174.22321.4451211478274309773@gitolite.kernel.org>
 
---===============3532695644892630445==
+--===============6009183087637312146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 41c606879f89623dd5269eaffea640b915e9e17c
-    new: f4f7d63287217ba25e5c80f5faae5e4f7118790e
+    old: f4f7d63287217ba25e5c80f5faae5e4f7118790e
+    new: 637674fa40059cddcc3ad2212728965072f62ea3
     log: |
-         a8c5b8255f8a9acd58a4b15ff1c14cd6effd114b tty: n_gsm: fix broken virtual tty handling
-         c19ffe00fed6bb423d81406d2a7e5793074c7d83 tty: n_gsm: fix invalid use of MSC in advanced option
-         f4f7d63287217ba25e5c80f5faae5e4f7118790e tty: n_gsm: fix software flow control handling
+         6e6eebdf5e2455f089ccd000754a0deaeb79af82 serial: 8250: Also set sticky MCR bits in console restoration
+         637674fa40059cddcc3ad2212728965072f62ea3 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
          
 
---===============3532695644892630445==
+--===============6009183087637312146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638276 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638308 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650638275-343d4933f29cc9dd5a3052f38df6f591bbcb47a1
+nonce 1650638307-fb064b9f14ac4349ca5ef3650b4088f7e1bd339c
 
-41c606879f89623dd5269eaffea640b915e9e17c f4f7d63287217ba25e5c80f5faae5e4f7118790e refs/heads/tty-linus
+f4f7d63287217ba25e5c80f5faae5e4f7118790e 637674fa40059cddcc3ad2212728965072f62ea3 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivcQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UWcP/1Exg1R91HOpVVPLGKAx
-za8+1r7HPSHIsJEKQkPGSKvkRLAIw+FSlIcvO1bw+P2DFw0PUtp0Av648Da4U84M
-kRW2f8Lzh19UimCkwTyj7X5l+PRQZOaEnjCRESAlWPsWh3xd8prFNyF1pKFDqpPq
-j8ulrSACqpWLzRHV0imeBuRxB/5n8/yaGIFoTsgBM/J6Ra1yGCMF4jXPw2qoyIvV
-f3YZaIxhzE3k1YoK9bLX+T5zrRhCjAyhw70JX+mBK3Bs7fIW38FA+1LSnOjksOsg
-xlbsueXQs9YC3m5GQWLT6nUBVjVsvZOdiG/rOGQRcMUuazCs/Sq0pJGqI5GRyp+1
-14Ko9uOrTKmYpW4BkaYR+B0giSCUk7bQecXtsGFKei8MtEnfE6L+CF7Kx+OtS3Qs
-iBKzPB26yPDH5rDkOHdUc+dWJ5hvK0knl4zlxTasRKKXZSlkIU9fOZO61pZ0V+FT
-ljUZiDktjqil2efI/y7FPF+aBPizw0b+bkASqvPRxxUZWlY2EDCw8KbpUVkAvIN0
-0s8Y08QzCVqEYSiyf0PT4yTED5+S5nRsvALbRyBm2dT+pPOIItBgGIoGssMJgaaL
-q6QlG2bBCQH+nlpDbOSrHdO3mm7lgm7dz2nUB6E5XUO8BTdmOQpsSRBnRaK1XTDa
-obbuwQlLSORh7zS/BdHqZicY
-=4926
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJiveQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S28QAJjHCOxGHsx1kS5XNv4d
+ubKpZBjZKcqmZ3wfRGbxxETek2LmJaaBeSDD8zVBTUx03ToNKLdj5NX2Ys0RCdwk
+55G/LN2Hk+EP48qX/WSmqMqbLI+lZZwWueP8iRJ80oYfOr0xQd7zaQLNaEQccFl1
+aKJM31vweQRDfKRvaYO2DnUmlVEk92Xd+fH/RAdnCOVO2vdy69zfiApJ26JQGF6e
+xP+zgsb8tluGNmZ8Z9RkBBM6lNshoRTCJveNZ6TVBlNLLUCNXPT6sTWFHQxnyJul
+rUFaO1O44wcd4ljB6oTtAsuG0tNrVSRZskrOPsPwBWqEQhFPL5VJfTGK8PII2lPx
+ey6LQ6ZrqB0xJPJ3mKQ13AOiH7c6DNjujT43TmKrbgr9HnHRCMcDZZkZhdBEL0OF
+jyxTUBfE1pVO/2h7x8S4Nqu5nIF33vNErplCgvsZEaxOsuIBK/fVDW1jEc0Bt7D4
+N/e/TXvY91wgmBpp7SJrPYv2nUX7N+rPMa6NECBGY/mSA9Gv/Kn7XEnQogM/rHLo
+/hJVnKi0jtNYmvh8qCFsZWs+SkLuurv3LNSFuSVLhvAvpOyRLWH/Y9jNA1EembW6
+ceDeqm4brXl0Wgp5gPe5GKGhiY7v1aohwWVK2I6nSjNpsdGv9cMSELYrbyu1j1VC
+YiXGAxo+/XXefNRcfrcnLp0Y
+=G1pg
 -----END PGP SIGNATURE-----
 
---===============3532695644892630445==--
+--===============6009183087637312146==--
