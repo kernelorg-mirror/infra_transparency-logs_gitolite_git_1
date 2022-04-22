@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 22 Apr 2022 22:33:55 -0000
-Message-Id: <165066683528.11040.9424374903394679715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 22 Apr 2022 22:36:14 -0000
+Message-Id: <165066697474.13256.8548943938812156219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: d1468ea626fc6c4cb4b42a9a5f905f96f400cb48
-    new: ccd753014ac1ebb12dbcce262b515914d99e3a67
+    old: b107a6392b4bdd0e10e155e6b66d75af9e44d85a
+    new: b253a0680ceadc5d7b4acca7aa2d870326cad8ad
     log: |
-         ccd753014ac1ebb12dbcce262b515914d99e3a67 foo
+         b253a0680ceadc5d7b4acca7aa2d870326cad8ad tcp: ensure to use the most recently sent skb when filling the rate sample
          
