@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 22 Apr 2022 12:53:13 -0000
-Message-Id: <165063199385.15592.2041842963206515109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 22 Apr 2022 12:53:14 -0000
+Message-Id: <165063199455.15638.12052093268153150686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/stackleak/rework
-    old: a54339dab76684b91d1dca16c7461b7482580fc1
-    new: 7b1cfc6ca03a02841a0bb23fc86910bd1310d15e
+  - ref: refs/heads/for-linus
+    old: d8c1d8dd6bb3b05c6989a2c003fdb24aecd0bfac
+    new: ed6e60c4d93298cd5f2a91a35def1518f4befeff
     log: |
-         48cbf9677b40f1efc1e1d722e420de03419b97c0 stackleak: rework stack low bound handling
-         67256c17caf82c60ce20d28a43d92d5efee63f51 stackleak: clarify variable names
-         0f32080eab18579ca22cec8ac81749fd82d9d272 stackleak: rework stack high bound handling
-         81e3740bf0dc0cc233ede672bece479c806d9067 stackleak: remove redundant check
-         79acd91d6c2036e1ca1a8400cc2af9819ba424f1 stackleak: add on/off stack variants
-         edba7fb815a6d09e1d6153c005ee3826b01fe8d8 arm64: entry: use stackleak_erase_on_task_stack()
-         7b1cfc6ca03a02841a0bb23fc86910bd1310d15e WIP: x86: entry: use stackleak_erase_{on,off}_task_stack()
+         87c18514bb8477563a61f50b4285da156296edc4 ASoC: rt9120: Correct the reg 0x09 size to one byte
+         ed6e60c4d93298cd5f2a91a35def1518f4befeff Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 5a0381de4ff588df4e75f1430c24118b495e7ccd
+    new: 7d66f4709f591f5020ea69e4f7ec7ff8a29dfc59
+    log: |
+         87c18514bb8477563a61f50b4285da156296edc4 ASoC: rt9120: Correct the reg 0x09 size to one byte
+         ed6e60c4d93298cd5f2a91a35def1518f4befeff Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         7d66f4709f591f5020ea69e4f7ec7ff8a29dfc59 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
          
