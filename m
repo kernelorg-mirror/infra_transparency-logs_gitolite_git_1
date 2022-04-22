@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5896926670686492237=="
+Content-Type: multipart/mixed; boundary="===============4367217360373145121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Apr 2022 17:37:20 -0000
-Message-Id: <165064904011.11345.11632297903154711039@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 17:38:01 -0000
+Message-Id: <165064908185.11620.18089166716345748107@gitolite.kernel.org>
 
---===============5896926670686492237==
+--===============4367217360373145121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: f32f122a67f7c9a2f8f42d7a655cfdae20d2f561
-    new: 335e682e74411923808a965ea8efd1eaeafe1ef5
-    log: revlist-f32f122a67f7-335e682e7441.txt
+  - ref: refs/heads/net-mlx4
+    old: bc6de2878429e85c1f1afaa566f7b5abb2243eef
+    new: fc06b2867f4cea543505acfb194c2be4ebf0c7d3
+    log: revlist-bc6de2878429-fc06b2867f4c.txt
 
---===============5896926670686492237==
+--===============4367217360373145121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f32f122a67f7-335e682e7441.txt
+Content-Disposition: attachment; filename=revlist-bc6de2878429-fc06b2867f4c.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -241,6 +241,5 @@ b253435746d9a4a701b5f09211b9c14d3370d0da Merge tag 'xtensa-20220416' of https://
 59f0c2447e2553b0918b4a9fd38763a5c0587d02 Merge tag 'net-5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d48fea8401cfa942c67cc3a522bf379143dbb576 net: cosa: fix error check return value of register_chrdev()
 fc06b2867f4cea543505acfb194c2be4ebf0c7d3 net: dsa: Add missing of_node_put() in dsa_port_link_register_of
-335e682e74411923808a965ea8efd1eaeafe1ef5 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============5896926670686492237==--
+--===============4367217360373145121==--
