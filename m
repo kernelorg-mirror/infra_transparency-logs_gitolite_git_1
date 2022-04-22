@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 22 Apr 2022 21:15:38 -0000
-Message-Id: <165066213800.25108.8633959652231483494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 22 Apr 2022 21:18:29 -0000
+Message-Id: <165066230969.26176.145600708423328593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 770efd14e8b17ccf23a45c95ecc9d38de4e17011
-    new: 7ad5e52d4d2f91203615cd738e56aba10ad8b8f6
+    old: 22f19f67404833c2282b7a8c2f4703d9aff8f748
+    new: 06fb4ecfeac7e00d6704fa5ed19299f2fefb3cc9
     log: |
-         2a2e58225cdb9f0c6f86c610c4d2d137a914e41d test/runtests-quiet.sh: Fixup redirection
-         c36cd51eef30c81a0ce3398057672f3c03498b86 Makefile: Make sure we build everything before runtests
-         0664b331b30842d1576748604bfa4193f470cd67 test/Makefile: Remove `.PHONY` variable
-         6966b0a9e62f2b1c1b9a72156de4ae908f2b23b9 test/Makefile: Sort the test file list alphabetically
-         b07accbc2035c607443936fc0c1f78ae1bc46db7 .github/workflows: Run the nolibc build for x86 32-bit
-         7ad5e52d4d2f91203615cd738e56aba10ad8b8f6 test/double-poll-crash: Skip this test if the `mmap()` fails
+         e5c23779f93d45e39a52758ca593bd7e62e9b4be arm_pmu: Validate single/group leader events
+         45bd8951806eb5e857772c593de021b09057950d arm64: Improve HAVE_DYNAMIC_FTRACE_WITH_REGS selection for clang
+         0ff74a23e08f909ce859039e860f53727dfed0dd arm64: fix typos in comments
+         f81f7861ee2aaa6f652f18e8f622547bdd379724 cpuidle: riscv: support non-SMP config
+         d5fdade9331f57335af97dbef61cf15b4930abc1 RISC-V: mm: Fix set_satp_mode() for platform not having Sv57
+         bf9bac40b7635e2ce43ba0051a64c3fd44312405 RISC-V: cpuidle: fix Kconfig select for RISCV_SBI_CPUIDLE
+         23bc8f69f0eceecbb87c3801d2e48827d2dca92b arm64: mm: fix p?d_leaf()
+         7200095feadfb9792b744a5a6e20249ce77bc6d7 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+         4e339e5e2dbf91e6499ef65389035b2795518c3d Merge tag 'riscv-for-linus-5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+         06fb4ecfeac7e00d6704fa5ed19299f2fefb3cc9 gpio: Request interrupts after IRQ is initialized
          
