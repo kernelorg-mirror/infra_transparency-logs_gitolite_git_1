@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2995602274962056971=="
+Content-Type: multipart/mixed; boundary="===============5056042946212412450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 22 Apr 2022 20:07:36 -0000
-Message-Id: <165065805625.11913.8260387311145568899@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 20:28:58 -0000
+Message-Id: <165065933815.25524.7153789530816206712@gitolite.kernel.org>
 
---===============2995602274962056971==
+--===============5056042946212412450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/rework/kthreads
-    old: 3ef4ea3d84ca568dcd57816b9521e82e3bd94f08
-    new: 6b3d71e878920b085dd823bc422951bb6f143505
-    log: revlist-3ef4ea3d84ca-6b3d71e87892.txt
+  - ref: refs/heads/for-next
+    old: 84d7df104dbab9c3dda8f2c5b46f9a6fc256fe02
+    new: 248b050d83665c66f97f8fe935f95f58519b73a2
+    log: revlist-84d7df104dba-248b050d8366.txt
 
---===============2995602274962056971==
+--===============5056042946212412450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ef4ea3d84ca-6b3d71e87892.txt
+Content-Disposition: attachment; filename=revlist-84d7df104dba-248b050d8366.txt
 
 faebd693c59387b7b765fab64b543855e15a91b4 printk: rename cpulock functions
 f5343321b71ac0a1112adeab0ff90b239bad3a83 printk: cpu sync always disable interrupts
@@ -41,5 +41,6 @@ a699449bb13b70b8bd10dc03ad7327ea3993221e printk: refactor and rework printing lo
 09c5ba0aa2fcfdadb17d045c3ee6f86d69270df7 printk: add kthread console printers
 e00cc0e1cbf4ea5a63d66c8de8d79519855fb231 printk: extend console_lock for proper kthread support
 6b3d71e878920b085dd823bc422951bb6f143505 printk: remove @console_locked
+248b050d83665c66f97f8fe935f95f58519b73a2 Merge branch 'rework/kthreads' into for-next
 
---===============2995602274962056971==--
+--===============5056042946212412450==--
