@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5988684559609708271=="
+Content-Type: multipart/mixed; boundary="===============6618497599512351988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 22 Apr 2022 15:19:52 -0000
-Message-Id: <165064079285.18380.11002415903815219574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 22 Apr 2022 15:20:32 -0000
+Message-Id: <165064083224.20080.13664764002682321899@gitolite.kernel.org>
 
---===============5988684559609708271==
+--===============6618497599512351988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 3677563eb8731e1ad5970e3e57f74e5f9d63502a
-    new: 4e224719f5d9b92abf1e0edfb2a83053208f3026
+  - ref: refs/heads/char-misc-testing
+    old: d8a54d2e42190abd68bd5d7d3ac472f440ab8fb3
+    new: e5052bec7e3e460e47d77bbaf13e483b68c710be
     log: |
-         4e224719f5d9b92abf1e0edfb2a83053208f3026 drivers/base/memory: Fix an unlikely reference counting issue in __add_memory_block()
+         f918cfc08c1755b9e54cd6effc923fa809045cf4 firmware: xilinx: add support for IOCTL and QUERY ID feature check
+         94ae7f22265e795b4351c7a51a34c4b11dec9952 firmware: xilinx: add new function for do_feature_check_call
+         218f01a80aea0ec5eeacda243ea5e06cbc9be654 firmware: xilinx: always check API version for IOCTL/QUERY
+         e5052bec7e3e460e47d77bbaf13e483b68c710be firmware: xilinx: enable feature check for ZynqMP
          
 
---===============5988684559609708271==
+--===============6618497599512351988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650640790 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1650640789-2989c611979f8f52a015e366d07364f4fbc21911
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650640828 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1650640827-fe75fbb7f056afef708f8e701f7069d8a4f5f69c
 
-3677563eb8731e1ad5970e3e57f74e5f9d63502a 4e224719f5d9b92abf1e0edfb2a83053208f3026 refs/heads/driver-core-testing
+d8a54d2e42190abd68bd5d7d3ac472f440ab8fb3 e5052bec7e3e460e47d77bbaf13e483b68c710be refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJix5YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QXUP/0XP24Vbf5D6GA+5gV7E
-iJYwDPDL53Ithn6BYHdrMfRq2Sy10P80kuq72+BUywwwiRIQ7ySoCb9N5QVwpwxu
-dNDzNMrB7V16CeRCP7i9bNTULga79DVbM9AnnlIXMgKWhLPe7tphJwGn4+Bgwe1M
-vE7i2QgGA+8qHJz5kawS8L2+hI02HqMPoUilLVyIzZQiC40Qa/ALw5i2AyIMNq//
-KBbhQq7LW3Ak0RTOPHZcDSX4r7wGMmjIZ5KayzRSN4b8xPa3zlYhXUDTa21sxBdg
-iTa5U07sdbd00PaUe8HGmskcCgukBQdfYhwPNh3POumvsOthN4zgBadtTanWjMac
-UqjgXXzogn44V3eZijr5NGRkoj3EWevaY0M6dhN3HcOV8mCNIT7oijV1gbdDGuSu
-82tpruATQh8nzls7Uj4HvOXKcBPK8MZrxNJw8+XAgUUYpmuy3+VmPrQyEj+K5jZz
-HgFWUaaViTMZplrbnn4JFw2r13mtD920fhyGL+0TgjKW85UjeMLN+fbm8eHhBo17
-GDe2yMtpqvc87yjGBT4TfY0i2mCaHM9XOF5z86FozRxpwBDOKBdqWMxqEp2Z4Ww9
-wi1J55255jlZuYaW1lBOx5QarflhtGfV3Rn3wlDA3YdnUBiJ5UII6PUxelPsRr/8
-ewLeQCYNyo6Zbo6tS7QiU+VX
-=Ff5h
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJix7wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4SkP/1aXhoTFCTazBVOwE4Qg
+el4PmGYkVe2o0jG9QhRLZNI9Gk9wZHfWX2mw9XSxoVhPi1jf3a6CNmLGSF0I1Y8j
+S8KouXgr9reAkNKoqYzdhfdUmsv+hqVGhYy6Oi6BEJ9EJQRJBJv5mLhWTk4pMIJC
+pr8FqIVSqxtSNTY4BlTRrXl4o9jGFnQ1M2xRIZ9ET/64WePvAa2H+2dJSVPGatva
+4ODYFJv4zLJX14BpmsnOdnQi/CptFijhWfwjLa1e6c3hPhQd/kyYIvqs1IQJPMIK
+GWUU2n6luG56QtrcLL0NFlE+zIcjWRgCF7OqSCAZYWgAiBpp81qQAlxVpe11HN0+
+7DNLHFuxAPCtiADunx+QsyM/mj06FPlNWgP/KHE4LBn2hpzdhxI/5qSSs3EUi9AC
+Iwjp8z9/d5ruZabVVOoKH9EI7yq2JB8Mju18Caq6b1zucgwWKwvl7IqFPwBheL/l
+TxgEuP8KeEBYQ5bU6OoPTpvrYZybxNCKBhuQI/N5Fhc5Yyzmi/78Yl+kLa46ceCA
+7XdUMIpF+O6/4TdOPZAwvbfSKKjT/U1jjsARpz77SDz+9zCxdNBCS9o//EP0QAf6
+6TFpM11Vi4GjB20ue/8ZSitz3TffvcJk6nuk6F8gpjEQz84QSTpr1Rrk8Hz5vNWP
+PM+9dzXC56Vxb3/VRB1XyXzO
+=bbSC
 -----END PGP SIGNATURE-----
 
---===============5988684559609708271==--
+--===============6618497599512351988==--
