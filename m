@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 22 Apr 2022 21:34:57 -0000
-Message-Id: <165066329733.3753.5960894910763067057@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 21:35:39 -0000
+Message-Id: <165066333982.5422.9142948339100509409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 0841d85cb9c244451b2099a7f35fc35735e36a5c
-    new: 8ef11b62603035103fde53a21792deaa4211161b
+    old: 8ef11b62603035103fde53a21792deaa4211161b
+    new: ce243c9b35967fdbbbe6f2a56d864ac42c075de0
     log: |
-         8ef11b62603035103fde53a21792deaa4211161b icmp6,dhcp6,dhcp: Ensure buffer space for SCM_TIMESTAMP
+         ce243c9b35967fdbbbe6f2a56d864ac42c075de0 rtnl: Fix l_rtnl_route_get_protocol
          
