@@ -1,101 +1,98 @@
-Content-Type: multipart/mixed; boundary="===============0010762134521039138=="
+Content-Type: multipart/mixed; boundary="===============6736782554564308012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 22 Apr 2022 06:58:37 -0000
-Message-Id: <165061071746.27608.4658348901649147389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 22 Apr 2022 07:20:36 -0000
+Message-Id: <165061203666.10516.342892944607621236@gitolite.kernel.org>
 
---===============0010762134521039138==
+--===============6736782554564308012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/usb-next
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 5c29e864999763baec9eedb9ea5bd557aa4cbd77
-    log: revlist-312310928417-5c29e8649997.txt
+  - ref: refs/heads/master
+    old: bc94fcee00551a4262a5c6d2f619377d9163ce76
+    new: 3ef951e102769585a19ba4f100724109dc75b313
+    log: revlist-bc94fcee0055-3ef951e10276.txt
+  - ref: refs/tags/v5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89a9eba652fe348461301ef785c3e274bc491879
 
---===============0010762134521039138==
+--===============6736782554564308012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bc94fcee0055-3ef951e10276.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650610716 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650610715-33907ec98ec24c0e576bc368f708a6696c353d99
+748b82c23e25310fec54e1eff2cb63936f391b24 xfrm: Pass flowi_oif or l3mdev as oif to xfrm_dst_lookup
+12e45e89556d7a532120f976081e9e7582addd2b dmaengine: idxd: fix device cleanup on disable
+a3ae97f4c87d9570e7e9a3e3324c443757f6e29a dmaengine: imx-sdma: fix init of uart scripts
+206680c4e46b62fd8909385e0874a36952595b85 dma: at_xdmac: fix a missing check on list iterator
+7104b9cb35a33ad803a1adbbfa50569b008faf15 dmaengine: imx-sdma: Fix error checking in sdma_event_remap
+545b2baac89b859180e51215468c05d85ea8465a dmaengine: mediatek:Fix PM usage reference leak of mtk_uart_apdma_alloc_chan_resources
+8fc5133d6d4da65cad6b73152fc714ad3d7f91c1 dmaengine: dw-edma: Fix unaligned 64bit access
+5bd8baab087dff657e05387aee802e70304cc813 esp: limit skb_page_frag_refill use to a single page
+907862e9aef75bf89e2b265efcc58870be06081e igc: Fix infinite loop in release_swfw_sync
+c80a29f0fe9b6f5457e0788e27d1110577eba99b igc: Fix BUG: scheduling while atomic
+822f52e7efdc88fccffb9fbf6250a4b7666a0b0f igc: Fix suspending when PTM is active
+04ebaa1cfddae5f240cc7404f009133bb0389a47 e1000e: Fix possible overflow in LTR decoding
+d1fc4c6feac18f893e55aeefa267a281e132c7b7 ice: xsk: check if Rx ring was filled up to the end
+aacca7a83b9753c562395ef328352dfd8c003c59 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+d201665147ae788b7cca9fab58a1826f64152034 ice: fix crash in switchdev mode
+7c8881b77908a51814a050da408c89f1a25b7fb7 ice: Fix memory leak in ice_get_orom_civd_data()
+6f06aa6b2fd741d2171ff99de3537141610fd933 net: phy: LAN937x: added PHY_POLL_CABLE_TEST flag
+ee3b0826b4764f6c13ad6db67495c5a1c38e9025 rxrpc: Restore removed timer deletion
+1a74e99323746353bba11562a2f2d0aa8102f402 net/smc: Fix sock leak when release after smc_shutdown()
+29e8e659f984be00d75ec5fef4e37c88def72712 net/packet: fix packet_sock xmit return value checking
+2cc7fb9d24129be0612df8d32a1358ac91ead8d1 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+226c60243593443bb5d315b3fc2116b72be858fe Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+f40c064e933d7787ca7411b699504d7a2664c1f5 ip6_gre: Avoid updating tunnel->tun_hlen in __gre6_xmit()
+ab198e1d0dd8dc4bc7575fb50758e2cbd51e14e1 ip6_gre: Fix skb_under_panic in __gre6_xmit()
+cefa91b2332d7009bc0be5d951d6cbbf349f90f8 openvswitch: fix OOB access in reserve_sfa_size()
+da367ac74aecb59b62a9538009d4aee8ce4bdfb3 net: restore alpha order to Ethernet devices in config
+60496069d0ae2d056bc12714d953c142afdef696 powerpc: Update MAINTAINERS for ibmvnic and VAS
+f3226eed54318e7bdc186f8f7ed27bcd3cb8b681 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+3db09e762dc79584a69c10d74a6b98f89a9979f8 net/sched: cls_u32: fix netns refcount changes in u32_change()
+ec5b0f605b105457f257f2870acad4a5d463984b net/sched: cls_u32: fix possible leak in u32_init_knode()
+0b9dcf37755381e9d0b70969b5178d91e32defc8 Merge branch 'net-sched-two-fixes-for-cls_u32'
+83daab06252ee5d0e1f4373ff28b79304945fc19 l3mdev: l3mdev_master_upper_ifindex_by_index_rcu should be using netdev_master_upper_dev_get_rcu
+db53cd3d88dc328dea2e968c9c8d3b4294a8a674 net: Handle l3mdev in ip_tunnel_init_flow
+268b41b34d9afd0e49bb266d5cca54c50abbe4c2 Merge branch 'l3mdev-fix-ip-tunnel-case-after-recent-l3mdev-change'
+9cb7c013420f98fa6fd12fc6a5dc055170c108db ipv6: make ip6_rt_gc_expire an atomic_t
+d08ed852560eb71445547f3df7b05bf5c5c69cc4 net: lan966x: Make sure to release ptp interrupt
+49aefd131739df552f83c566d0665744c30b1d70 bonding: do not discard lowest hash bit for non layer3+4 hashing
+d73497081710c876c3c61444445512989e102152 can: isotp: stop timeout monitoring when no first frame was sent
+d94ef51d5b96da431cdc75f6c630435df92e92d2 Merge tag 'linux-can-fixes-for-5.18-20220417' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+cbe6c3a8f8f4315b96e46e1a1c70393c06d95a4c net: atlantic: invert deep par in pm functions, preventing null derefs
+9df1e3ff60241ce3fb26db75933970dd1b871213 drm/i915/display/vrr: Reset VRR capable property on a long hpd
+0763120b090418a5257402754e22a34227ae5f12 net: dsa: hellcreek: Calculate checksums in tagger
+4cf35a2b627a020fe1a6b6fc7a6a12394644e474 net: mscc: ocelot: fix broken IP multicast flooding
+99c07327ae11e24886d552dddbe4537bfca2765d netlink: reset network and mac headers in netlink_dump()
+0371870b96907bf560ecf7dc3fadc238fadf7845 drm/msm: Revert "drm/msm: Stop using iommu_present()"
+bb02330408a7bde33b5f46aa14fd5d7bfe6093b7 drm/i915/display/psr: Unset enable_psr2_sel_fetch if other checks in intel_psr2_config_valid() fails
+c6a4254c18c6a2195cdf01f58a362392fbe81e85 doc/ip-sysctl: add bc_forwarding
+234901de2bc6847eaa0aeb4aba62c31ffb8d3ad6 net: stmmac: Use readl_poll_timeout_atomic() in atomic state
+d4860224e6a9bcaef24121827e97831001290328 dmaengine: dw-edma: Fix inconsistent indenting
+5d9d16e5aa0cf023e600bf716239fd9caa2d4148 dmaengine: idxd: match type for retries var in idxd_enqcmds()
+bc3452cdfc468a65965d0ac397c940acb787ea4d dmaengine: idxd: fix retry value to be constant for duration of function call
+66903461ffed0b66fc3e0200082d4e09365aacdc dmaengine: idxd: add RO check for wq max_batch_size write
+505a2d1032ae656b0a8c736be110255503941cde dmaengine: idxd: add RO check for wq max_transfer_size write
+1cd8e751d96c43ece3f6842ac2244a37d9332c3a dmaengine: idxd: skip clearing device context when device is read-only
+c5d0fc54bede8765b7a91bdac342c7c7de8bc8bd nfc: MAINTAINERS: add Bug entry
+7495a5bbf89f68c8880757c112fd0994f5dba309 dt-bindings: dmaengine: qcom: gpi: Add minItems for interrupts
+044011fdf162c5dd61c02841930c8f438a9adadb selftests: mlxsw: vxlan_flooding: Prevent flooding of unwanted packets
+5e6242151d7f17b056a82ca7b860c4ec8eaa7589 selftests: mlxsw: vxlan_flooding_ipv6: Prevent flooding of unwanted packets
+bc6de2878429e85c1f1afaa566f7b5abb2243eef drivers: net: hippi: Fix deadlock in rr_close()
+59f0c2447e2553b0918b4a9fd38763a5c0587d02 Merge tag 'net-5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+e827d149fd095e51928d048a5224144780b34a94 Merge tag 'drm-intel-fixes-2022-04-20' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+b05a5683eba6e2d40eadd5eeef53c4864149a4fe Merge tag 'dmaengine-fix-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+70da382e1c5b9b2049c10abfd4489a40c1b60df0 Merge tag 'drm-msm-fixes-2022-04-20' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+d569e86915b7f2f9795588591c8d5ea0b66481cb Merge tag 'drm-fixes-2022-04-22' of git://anongit.freedesktop.org/drm/drm
+3ef951e102769585a19ba4f100724109dc75b313 Merge branch 'linus'
 
-3123109284176b1532874591f7c81f3837bbdc17 5c29e864999763baec9eedb9ea5bd557aa4cbd77 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJiUhwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1xEQAJyxTQXqLiiMzVaILjFI
-FlNSt4TurTN3db8aqKs1Shh9Jo2gruNo2wKKOQ9ufDtMXYeYyQ3wcPIDFaqbpkvD
-wapJT2nPP0M0VE07IWaI7G9I6KhllacAFKS0SzqJLNOu3/EsF4x89N+r6vKrx58L
-rlxTwyCPveD9oTOvF8cLBxuwk4MPKkJzRNctyAHRLSlM2p2hV0yorWu5Kd3UIAHv
-/DPecYEDTIDrQzLMnM4iFfXdlFDW4dqGf9JsrWJitkww3YyfSz8vN66AhNEsRFOH
-fnt8nt3exiGl25vHI/Mz8cM9DaVP6xxhJYGtMmAmA2RRl4vAuE3zp/A0gPT1jITk
-21+6t/UsbYLMPdGQi8F7cyP9NyzWwGy7KmQifqj142ENHjWU3RpuLOs9EmqMlZbF
-BFYZtIlfaeDZe5IhH/m1Dm5UcMMQFivzi8r4Sz10DnK2z95wtB7hPO8sYzxHQGlS
-CGWV2eNj/MFrAbvWAeFiwOqX+zBokdZ6ChW6bW9YiwlDD17Bqdh1mnUpKOmdLR/8
-dzAnQUGzHjEkdtjRDfaZiRwWYy2bTNaYm+fn4xSmYxYmdVb8+yv/cEmqxbzck8sj
-QXxPw+B2ZzqPRU0o1bwsYD0LwG1wunxV+2JZ8F579/LQFiaROVsnKi4SHd0DOZUi
-P6frVoolhYqzxJajQz3oMGMv
-=sbig
------END PGP SIGNATURE-----
-
---===============0010762134521039138==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-5c29e8649997.txt
-
-324e4f85070f89b58c5f9926370ad19dea907dc7 usb: gadget: uvc: allow changing interface name via configfs
-be30e3502771ac0b5080ec61223d915354cde1cc usb: gadget: uvc: remove pause flag use
-61aa709ca58a0dbeeb817bfa9230c1a92979f2c6 usb: gadget: uvc: rework uvcg_queue_next_buffer to uvcg_complete_buffer
-9b969f93bcef9b3d9e92f1810e22bbd6c344a0e5 usb: gadget: uvc: giveback vb2 buffer on req complete
-aef11279888c00e1841a3533a35d279285af3a51 usb: gadget: uvc: improve sg exit condition
-38c695e1e2a2caaacb3b2dc5cddbba5e8024412f usb: typec: mux: intel_pmc_mux: Add retry logic to a PMC command
-92440202a88009ef66a236001981513e03a300fb usb: typec: tipd: Only update power status on IRQ
-ee11ae36b2c8e3b11a6eff4bf51eb3065ce5f94b dt-bindings: usb: Add documentation for AM62 USB Wrapper module
-e8784c0aec03a2581ee55827ba694e129d6a57ad drivers: usb: dwc3: Add AM62 USB wrapper driver
-9ec4cbf1cc55d126759051acfe328d489c5d6e60 usb: usbip: fix a refcount leak in stub_probe()
-d088fabace2ca337b275d1d4b36db4fe7771e44f usb: usbip: add missing device lock on tweak configuration cmd
-eafc69a488111aa3b18794602ecc52acbef84288 usb: Prepare cleanup of powerpc's asm/prom.h
-17b2fb9c231ea418fa6c8643f2c786ec991b56f5 usb-storage: alauda: fix initFunction error return
-1abf67983a4fd74133b3d2b43722704c744621a6 usb-storage: shuttle_usbat: fix initFunction error return
-ba6df3ea68196d54a1e8299cea1bf4565fc755c5 usb-storage: isd200: fix initFunction error return
-0b059979090d72b3e8eca1cb18daa8da70400211 arm64: dts: qcom: sc7280: Add EUD dt node and dwc3 connector
-9c00c7c92265434fadc597435e98c0aca3b749ac arm64: dts: qcom: sc7280: Set the default dr_mode for usb2
-5bf4b20dc19090fef115f20d63d0adc6267d2928 usb:oxu210hp-hcd: Use platform_get_irq() to get the interrupt
-134a3408c2d3f7e23eb0e4556e0a2d9f36c2614e USB: host: isp116x: check return value after calling platform_get_resource()
-b8a19881337678c02bb3d72ae821602e1a4c377d usb: gadget: u_audio: clean up some inconsistent indenting
-67ec2c75f37780e0e825d0beb2fb4892c8a93c6a usb: gadget: net2280: use swap() instead of open coding it
-b92ffb1eddd9a66a90defc556dcbf65a43c196c7 USB: storage: karma: fix rio_karma_init return
-1e2b2f06c1be6f9676ed99f36bc263f1cda12c9c dt-bindings: usb: samsung,exynos-usb2: include usb-hcd schema
-8a722fe86e5678b12ea576f4d07c2374603ec181 dt-bindings: usb: samsung,exynos-usb2: add missing required reg
-0fee30ab63512b4cc3ed0136ffb042399f9493ab USB / dwc3: Fix three doc-build warnings
-24a5d34d7b01b2bff4ddb65af0731ac230169153 usb: gadget: omap_udc: Make it CCF clk API compatible
-a85f023022f0e094b82ab43c44cb69cc19603631 usb: host: ohci-omap: Make it CCF clk API compatible
-6a7c7df993bd3c90014453ec59a7b455613cf0e4 usb: dwc3: gadget: increase tx fifo size for ss isoc endpoints
-7e824f28c9d7275471aa98509a7e3c8369fae379 usb: gadget: f_acm: add support for USB_CDC_REQ_SEND_BREAK
-424bef51fa530389b0b9008c9e144e40c10e8458 usb: musb: Fix missing of_node_put() in omap2430_probe
-4f8cfe675f4666117c93420783049eff04c3ceba usb: core: devices: remove dead code under #ifdef PROC_EXTRA
-2a0a71d92d150548360150cb8b57c82409d8d9c6 USB: omap_udc: clean up comment
-77e00508c29626500c2c70655b66aaa323a03b33 usb: gadget: pxa27x_udc: clean up comment
-e707ec4d043502308209e3cce568f40f09c86d27 usb: gadget: s3c-hsudc: clean up comments
-53b0c69f35bd71a8f7abc5411ef23c0588bbb328 usb: gadget: tegra-xudc: clean up comments
-8666009c5f8327d13d4c91a2139b361b41ab43c2 usb: gadget: net2272: clean up comments
-9cd6576f46be175f7ef0769554ce120470bb2ccf dt-bindings: dwc2: Add bindings for new Ingenic SoCs.
-d712b725b84dc1623d826b3232d706c7e9e53a4f USB: dwc2: Add OTG support for Ingenic SoCs.
-ab3a560ae8e2795b8069b4587792d1b49c20e671 MIPS: Ingenic: Refresh USB nodes to match driver changes.
-5c29e864999763baec9eedb9ea5bd557aa4cbd77 usb: musb: mediatek: Use clk_bulk API to simplify clock operations
-
---===============0010762134521039138==--
+--===============6736782554564308012==--
