@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1676125698527672419=="
+Content-Type: multipart/mixed; boundary="===============1643668966068241405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 Apr 2022 14:36:43 -0000
-Message-Id: <165063820399.21554.2626298641772770435@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 14:37:13 -0000
+Message-Id: <165063823396.21786.7980393208429830776@gitolite.kernel.org>
 
---===============1676125698527672419==
+--===============1643668966068241405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 8f3631f0f6eb42e57f0ed120d105483c3ef61e49
-    new: 8043b16f522c9e21e2361a67514386bee3731c6e
+  - ref: refs/heads/tty-linus
+    old: 48473802506d2d6151f59e0e764932b33b53cb3b
+    new: 41c606879f89623dd5269eaffea640b915e9e17c
     log: |
-         7ea4aa70bfcec3225e2a38d8934c0b1f582c48c1 char: ttyprintk: register console
-         b0e0bd9d0d891c1811f52e836ef54fff486db866 serial: core: fix tcdrain() with CTS enabled
-         ec66b8cf03e5a63de6332c989b0ceebe4ba2937e tty: Add function for handling flow control chars
-         28fb1a92a00706d4e008ab24fbd8e4642df46ca5 serial: stm32: remove infinite loop possibility in putchar function
-         1f507b3aecb3245177ca9012dfe08117bb7925e8 serial: stm32: add KGDB support
-         8043b16f522c9e21e2361a67514386bee3731c6e serial: stm32: add earlycon support
+         41c606879f89623dd5269eaffea640b915e9e17c Revert "serial: sc16is7xx: Clear RS485 bits in the shutdown"
          
 
---===============1676125698527672419==
+--===============1643668966068241405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638200 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638231 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650638199-e28e25f99a368998a3208d30db2e1030fff57961
+nonce 1650638230-a1e21e0ad54019d67d433e0b202ba28177ff3db1
 
-8f3631f0f6eb42e57f0ed120d105483c3ef61e49 8043b16f522c9e21e2361a67514386bee3731c6e refs/heads/tty-testing
+48473802506d2d6151f59e0e764932b33b53cb3b 41c606879f89623dd5269eaffea640b915e9e17c refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivXgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CI8P+wQ+v6+bFH6AARpMDZvR
-4O5GU2jYqkISOhC56CBWVju5GM2+8bpgIaNQtFKi6gaQYAYu85G/Mq5Ru4+oXNUj
-1rcXtKd7Y0utgVrGCKEBtp7HyxqrJv3PN8G/2Jdqb3QYjNdYTQmF9Bf7I+aJSLzq
-X0nKKKDmrJPQ8SLwHlflCHk0zpcRqyOc94E88hMGm3W9cKoiKnT5xKsXm2pPCicF
-fN77M7VPA+zT4YxtOfQdzHmJiZHQ6DA6+fnDIG4RGuBU7Eoi/+3Tq0LTKuvcuAW3
-/3g+SbTyb5mki8RoNinlzD7mtJmuP3JbNRcp6FOcVDHlfiX59UeNn9Yva5rlrXG6
-IuLLjN69E5OX64uEZ9WPTt7dcw1htAMj02U9lEyZQdaX+7pgOexiYEdYLs9eU4uQ
-swLA9y3x5E3zQYToagFd31nuAZ4THQL2rQuit5L7ppZel+MFBxcsce+DOr7wO8fb
-HHSisLyUqv2ug3JN25b7RaozgmC6SiJY8WCHhzBE8tsxUFO7osFcFKMopFe41t+G
-1OsdWb1MRiE+c3L0tvdQA5PLOO1gkwuJCRPy/1ul8FpWpJa4jJjqKYUACVB4jU2O
-qwAFsBXe6MB1iQ4Tp6ZM1COLQiQH5LnNe7yYO2RHJe5clnuicZvt92QrXuK/zcDn
-BzRVQyBXBW/WVxbvXmx3MDeI
-=Miqn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivZcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C5kQAMH/qsTYGg+4Iqh+QLVa
+6Bt/m7Oo/4KsotyK8ikT5vxlikzdDFAlGQTRMT5pbyCap/Y6UGgPS7PbTMiY8tm1
+3QWRobvxcxA8KHP46511eEnoTgbMBcoJo1I62cHYfYjJXDKtW6CLVrIyR6ns17TN
+vmDGZEbc15wvJL3qdlRgk/E62oEsXDyXGvXNXOnHYdxqQluzI1AJ6o0sNn18H0Cz
+48pbmJrIQV7fMSTkRKMIsE56p6Q17iWKS5+TMt/SglaEa/dIk9wxIr3dtzFwk6NF
+Z8xJMxnhf55GZegephHLsLrimeG4XJYzR/OrmcbzqdujzpDE855fPoMsVNC2BhXq
+OAHQyW0SzhtTLyGDTgEmE9BVni8QNMnBsxH+1cnLi0/gHLNPdmUMSS4uQ5Fx4GFc
+5VeiPNs4ptiGMvJWiy1jCCHvuNM2pGNOMTD0ckX2dwm+Y8efKMBL4eAFK0yY4sEI
+g/F/Rum7jc1QSA9jDIl28DAJEKs8zSMdjBfq7YSonzYuQaE9tOs31zUbW5Ux/4bG
+2r/HsbAUXSwTd0pALVcjSHoGigaxtWWXdUdPXImAC5swtBSkBNY2O70289KVse2D
+1YrEMYLDvdfy5bpUCRmd0sKGEgj47wseNFM3ws1qnFOni3WjWu9xwVwruHzO2xGn
+6Kr4lzsq6nWBS/RZLecgSY+r
+=lNaY
 -----END PGP SIGNATURE-----
 
---===============1676125698527672419==--
+--===============1643668966068241405==--
