@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1643668966068241405=="
+Content-Type: multipart/mixed; boundary="===============3532695644892630445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 Apr 2022 14:37:13 -0000
-Message-Id: <165063823396.21786.7980393208429830776@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 14:37:59 -0000
+Message-Id: <165063827911.22084.9677425327370129934@gitolite.kernel.org>
 
---===============1643668966068241405==
+--===============3532695644892630445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 48473802506d2d6151f59e0e764932b33b53cb3b
-    new: 41c606879f89623dd5269eaffea640b915e9e17c
+    old: 41c606879f89623dd5269eaffea640b915e9e17c
+    new: f4f7d63287217ba25e5c80f5faae5e4f7118790e
     log: |
-         41c606879f89623dd5269eaffea640b915e9e17c Revert "serial: sc16is7xx: Clear RS485 bits in the shutdown"
+         a8c5b8255f8a9acd58a4b15ff1c14cd6effd114b tty: n_gsm: fix broken virtual tty handling
+         c19ffe00fed6bb423d81406d2a7e5793074c7d83 tty: n_gsm: fix invalid use of MSC in advanced option
+         f4f7d63287217ba25e5c80f5faae5e4f7118790e tty: n_gsm: fix software flow control handling
          
 
---===============1643668966068241405==
+--===============3532695644892630445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638231 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638276 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650638230-a1e21e0ad54019d67d433e0b202ba28177ff3db1
+nonce 1650638275-343d4933f29cc9dd5a3052f38df6f591bbcb47a1
 
-48473802506d2d6151f59e0e764932b33b53cb3b 41c606879f89623dd5269eaffea640b915e9e17c refs/heads/tty-linus
+41c606879f89623dd5269eaffea640b915e9e17c f4f7d63287217ba25e5c80f5faae5e4f7118790e refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivZcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C5kQAMH/qsTYGg+4Iqh+QLVa
-6Bt/m7Oo/4KsotyK8ikT5vxlikzdDFAlGQTRMT5pbyCap/Y6UGgPS7PbTMiY8tm1
-3QWRobvxcxA8KHP46511eEnoTgbMBcoJo1I62cHYfYjJXDKtW6CLVrIyR6ns17TN
-vmDGZEbc15wvJL3qdlRgk/E62oEsXDyXGvXNXOnHYdxqQluzI1AJ6o0sNn18H0Cz
-48pbmJrIQV7fMSTkRKMIsE56p6Q17iWKS5+TMt/SglaEa/dIk9wxIr3dtzFwk6NF
-Z8xJMxnhf55GZegephHLsLrimeG4XJYzR/OrmcbzqdujzpDE855fPoMsVNC2BhXq
-OAHQyW0SzhtTLyGDTgEmE9BVni8QNMnBsxH+1cnLi0/gHLNPdmUMSS4uQ5Fx4GFc
-5VeiPNs4ptiGMvJWiy1jCCHvuNM2pGNOMTD0ckX2dwm+Y8efKMBL4eAFK0yY4sEI
-g/F/Rum7jc1QSA9jDIl28DAJEKs8zSMdjBfq7YSonzYuQaE9tOs31zUbW5Ux/4bG
-2r/HsbAUXSwTd0pALVcjSHoGigaxtWWXdUdPXImAC5swtBSkBNY2O70289KVse2D
-1YrEMYLDvdfy5bpUCRmd0sKGEgj47wseNFM3ws1qnFOni3WjWu9xwVwruHzO2xGn
-6Kr4lzsq6nWBS/RZLecgSY+r
-=lNaY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivcQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UWcP/1Exg1R91HOpVVPLGKAx
+za8+1r7HPSHIsJEKQkPGSKvkRLAIw+FSlIcvO1bw+P2DFw0PUtp0Av648Da4U84M
+kRW2f8Lzh19UimCkwTyj7X5l+PRQZOaEnjCRESAlWPsWh3xd8prFNyF1pKFDqpPq
+j8ulrSACqpWLzRHV0imeBuRxB/5n8/yaGIFoTsgBM/J6Ra1yGCMF4jXPw2qoyIvV
+f3YZaIxhzE3k1YoK9bLX+T5zrRhCjAyhw70JX+mBK3Bs7fIW38FA+1LSnOjksOsg
+xlbsueXQs9YC3m5GQWLT6nUBVjVsvZOdiG/rOGQRcMUuazCs/Sq0pJGqI5GRyp+1
+14Ko9uOrTKmYpW4BkaYR+B0giSCUk7bQecXtsGFKei8MtEnfE6L+CF7Kx+OtS3Qs
+iBKzPB26yPDH5rDkOHdUc+dWJ5hvK0knl4zlxTasRKKXZSlkIU9fOZO61pZ0V+FT
+ljUZiDktjqil2efI/y7FPF+aBPizw0b+bkASqvPRxxUZWlY2EDCw8KbpUVkAvIN0
+0s8Y08QzCVqEYSiyf0PT4yTED5+S5nRsvALbRyBm2dT+pPOIItBgGIoGssMJgaaL
+q6QlG2bBCQH+nlpDbOSrHdO3mm7lgm7dz2nUB6E5XUO8BTdmOQpsSRBnRaK1XTDa
+obbuwQlLSORh7zS/BdHqZicY
+=4926
 -----END PGP SIGNATURE-----
 
---===============1643668966068241405==--
+--===============3532695644892630445==--
