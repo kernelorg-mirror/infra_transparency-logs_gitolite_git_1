@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 22 Apr 2022 18:08:57 -0000
-Message-Id: <165065093792.31843.15185415119846242135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 22 Apr 2022 18:25:17 -0000
+Message-Id: <165065191761.11474.7718298402655299474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: bb1e2858a4592087b06db01e9c39ad2bc800ffc3
-    new: 0841d85cb9c244451b2099a7f35fc35735e36a5c
+    old: 335c2245f1be30bfbc949fbbd78e62cdb7a66c99
+    new: 8426941b75e7d6d16bc20aa7cf1b416272263365
     log: |
-         0841d85cb9c244451b2099a7f35fc35735e36a5c rtnl: Check return from l_rtnl_route_new_gateway
+         8426941b75e7d6d16bc20aa7cf1b416272263365 foo
          
