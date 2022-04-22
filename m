@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 22 Apr 2022 13:14:37 -0000
-Message-Id: <165063327720.30322.10397089405174814805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 22 Apr 2022 13:18:08 -0000
+Message-Id: <165063348819.530.16078802716466116488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: f00156b83d0229c3f890efdf4ceb8a91369d9e96
-    new: 695506c6186ece8c5e55894c5c1b6ca03687a6db
+  - ref: refs/heads/jd/jitter-samples
+    old: 3ee82e24383aa87751706aa8941954fb7a814907
+    new: 3c60e9f2b789f181aac6feae1a3420bad0717761
     log: |
-         cc470d55343056d6b2a5c32e10e0aad06f324078 spi: img-spfi: Fix pm_runtime_get_sync() error checking
-         695506c6186ece8c5e55894c5c1b6ca03687a6db Merge remote-tracking branch 'spi/for-5.19' into spi-next
+         3c60e9f2b789f181aac6feae1a3420bad0717761 random: vary jitter iterations based on cycle counter speed
          
