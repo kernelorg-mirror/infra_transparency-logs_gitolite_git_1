@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 22 Apr 2022 21:50:03 -0000
-Message-Id: <165066420341.15890.17850605737335230615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 22 Apr 2022 21:51:50 -0000
+Message-Id: <165066431005.16684.7845040859880197962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/no-ipi
-    old: ec2329a6d4cdf28d3813b33046f5c99db0e0ace2
-    new: 3892f12e9a613882a72e892ef8dca213a6c803ce
+  - ref: refs/heads/riscv-sv48
+    old: 809fd516db0031293c1172dab459a7ee3020dbd9
+    new: 6ae87e7ba3da5ffa8fb3f5eec3a05c9695d6b930
     log: |
-         a02d5f593d4310ecd68560f8e849764b749c10b2 io_uring: set task_work notify method at init time
-         ce45193543d5f7edde613c2a63d830a7546296a8 io_uring: use TWA_SIGNAL_NO_IPI if IORING_SETUP_NO_RESCHED is used
-         3892f12e9a613882a72e892ef8dca213a6c803ce io_uring: add IORING_SETUP_RESCHED_DETECT setup flag
+         d0f31b6cff50760f60fb86e70be5b8ef05da86fa riscv: Improve virtual kernel memory layout dump
+         b30c3bc5eaf546d607dcf6a7a90871f0f8ea6626 Documentation: riscv: Add sv48 description to VM layout
+         8ae33a63125a4e88e46fd74a846d68774d9ae75a riscv: Allow user to downgrade to sv39 when hw supports sv48 if !KASAN
+         6ae87e7ba3da5ffa8fb3f5eec3a05c9695d6b930 RISC-V: Allow the used to downgrade to sv48 when HW supports sv57
          
