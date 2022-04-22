@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 21 Apr 2022 23:58:16 -0000
-Message-Id: <165058549691.13118.9674800875732350685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 22 Apr 2022 00:36:23 -0000
+Message-Id: <165058778398.5248.13063166513518483944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/xen/tip
+user: sstabellini
 changes:
-  - ref: refs/heads/master
-    old: b88aef8511a757ff9d56a8729ffa72de9a304993
-    new: 9c007550119b5b68b9f90f51a28f945e45048ae7
+  - ref: refs/heads/for-linus-5.18
+    old: f31076a6b2391896088fa81755a892213f07788e
+    new: b12d41716e32d14e24d675af3913f2f22af31d54
     log: |
-         9c007550119b5b68b9f90f51a28f945e45048ae7 Thu Apr 21 11:57:39 PM UTC 2022
+         b12d41716e32d14e24d675af3913f2f22af31d54 arm/xen: Fix some refcount leaks
          
