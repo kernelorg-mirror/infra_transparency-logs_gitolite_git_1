@@ -1,56 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============5652168797155852706=="
+Content-Type: multipart/mixed; boundary="===============1656421577552914476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 22 Apr 2022 06:55:20 -0000
-Message-Id: <165061052065.26457.12074010449701135351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 22 Apr 2022 06:56:34 -0000
+Message-Id: <165061059472.26925.12813431736120726494@gitolite.kernel.org>
 
---===============5652168797155852706==
+--===============1656421577552914476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: af43623c685f2910559960b9ba83357a815cea01
-    new: dcfaf8a5f8c420b602c172b3b6cc29ec693bfc80
-    log: |
-         dcfaf8a5f8c420b602c172b3b6cc29ec693bfc80 firmware_loader: Check fw_state_is_done in loading_store
-         
+  - ref: refs/heads/master
+    old: fc6a9cd957e9dfd2e9647ff79895118334ee9e7f
+    new: bc94fcee00551a4262a5c6d2f619377d9163ce76
+    log: revlist-fc6a9cd957e9-bc94fcee0055.txt
 
---===============5652168797155852706==
+--===============1656421577552914476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fc6a9cd957e9-bc94fcee0055.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650610518 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1650610517-8fba72e921195aa05009c3b8bffbb1637afc1cc9
+ee69d4be8fd064cd08270b4808d2dfece3614ee0 xtensa: patch_text: Fixup last cpu should be master
+eb5adc70754d26a260f8b42d39db42da0d0af500 arch: xtensa: platforms: Fix deadlock in rs_close()
+60b30050116c0351b90154044345c1b53ae1f323 erofs: fix use-after-free of on-stack io[]
+8b1ac84dcf2cf0fc86f29e92e5c63c4862de6e55 Documentation/ABI: sysfs-fs-erofs: Fix Sphinx errors
+839769c35477d4acc2369e45000ca7b0b6af39a7 xtensa: fix a7 clobbering in coprocessor context load/store
+6044d159b5d826259a7397d42fa3ad0bfc4dbd13 x86/boot: Put globals that are accessed early into the .data section
+a6823e4e360fe975bd3da4ab156df7c74c8b07f3 x86: __memcpy_flushcache: fix wrong alignment if size > 2^32
+906f904097359d059623ca8d3511d9f341080f2c Revert "fs/pipe: use kvcalloc to allocate a pipe_buffer array"
+10c5f102e2be6d816938b168104e8dacdd5bace7 Merge tag 'erofs-for-5.18-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+b253435746d9a4a701b5f09211b9c14d3370d0da Merge tag 'xtensa-20220416' of https://github.com/jcmvbkbc/linux-xtensa
+2bf93ffbb97e0614cfc431d2ea33b7eae7481eb2 virt: sevguest: Change driver name to reflect generic SEV support
+9617f2f48310f2f341a9a0ebbc2dcfe1e88031a2 virt: sevguest: Rename the sevguest dir and files to sev-guest
+5af14c29f7a0e6d1fcee44c4ed4a2d12a49c4a43 x86/tdx: Annotate a noreturn function
+2607e51e40f6e0b981f92b184bc1c6b267d371d8 Merge remote-tracking branch 'tip/x86/merge' into tip-master
+2fab3852389353aba05cc88e424eda4d19d45faa Merge x86/mm into tip/master
+c6e9fc5f7651c2c066d3b2a1a5e5ff34279eff43 Merge locking/core into tip/master
+4d247de07a42b884d6007902b692980d111818ae Merge perf/core into tip/master
+bf85d969ead0884b44d309963e716a82031a7d9d Merge sched/core into tip/master
+c3c700cc5a7187c13fb53cb38be20833bd0db323 Merge x86/misc into tip/master
+459a377edae9ce083c199df0680883dedcf935fc Merge ras/core into tip/master
+2aad0bcdbe4f5a5241b7cf3f03ef6408251a434b Merge x86/build into tip/master
+817ab139d0e5b78f7446970d76bca31a06197880 Merge x86/platform into tip/master
+af01a7e062614c8e6f132b45eb089e72f7d03fd1 Merge x86/irq into tip/master
+7e682d537c69d3f0c144db29aa2cb48edfde3a90 Merge x86/apic into tip/master
+ab3e91b9f6bda10dd4dd89ef79215cf7044090a5 Merge x86/kdump into tip/master
+64d409f1339d1e1226a4f5c99d8b0ac97d4e54ea Merge smp/core into tip/master
+4f93582718a128a71df84457e584ea0f808555a1 Merge core/core into tip/master
+c941a94df5d65da6f045cc708109e23f7dcf375f Merge x86/cleanups into tip/master
+a917b4ff71ac57b760cf22c37a9bc0b6d03c2a92 Merge x86/core into tip/master
+7c9ac47c1dc772d2a01df4e436c0be615be53f4b Merge irq/core into tip/master
+2c3658147effb7db229d7eb4853e9c5c3db52699 Merge timers/core into tip/master
+d6ef7518f2c23b1016a783ba89bcaa200dfd1ca2 Merge sched/urgent into tip/master
+d97691894cffbdefef9ef78b67d29d6033fa4aa7 Merge perf/urgent into tip/master
+f76e6ed0eb27d2a150784393ee17f2a7d27ead39 Merge x86/urgent into tip/master
+ab7f827f07a9655c31bbe07be3cc0380810970bf Merge objtool/urgent into tip/master
+d586aab0966a798023b83794a44ba67434a7ac47 Merge x86/sev into tip/master
+bc94fcee00551a4262a5c6d2f619377d9163ce76 Merge x86/tdx into tip/master
 
-af43623c685f2910559960b9ba83357a815cea01 dcfaf8a5f8c420b602c172b3b6cc29ec693bfc80 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJiUVYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1BYQAMwtMv7nKPh74Gbia9s/
-dYw8IzGkXMTtUwnspOIXogmngtMfaFzWgejjRw+adB0Nbj/M1eW+AGmVuoMqFpJ7
-UCljFOVylB4PEoMm5QWkZck/d+j7keUVpmDS6cNNsebfS/jcdTUczu48paYvQoSn
-/hl4zjxOILT8QbKpeXfQLEclTjLdEow+Gx74y4TlagTn2A6BBwYMPb+rNVuOnlsy
-rVs3rNH2pdSq65Fc8yPQM4+PQb+FQax2/NFR2tQ8MLDqhZ6By83d6vqB89OVLT9c
-Fk/2+Js9Oo2q9474fxO6vl2oZy6VwnInZQF42wPoXt5MDPoG8+RVao4icCzs8j7F
-KcZSGY7kL0nHnKcYyQC2SAXbdbMOKiPYPmMxRe48DrsW/9NYo/jmGY/CkD919vyL
-3oubxN4Xf9MmXmB087NF1QdIZY8Kp4gA8khFfNlMk3qFCHZpzXW6prmL7QlsMRF0
-F3Bd9Kf3ixLxxMPX694KSalXl+t0BhSMs7GBjs7rddzqH8/8ZHDulkLQiiYdGr49
-HaE10tWqAZNtuxMqrGYLue/QtKW9M3QsZIkn0XKf7JzRh80PTq8unDCXVmrWZg5y
-xHVuumQ5TZ+vo1/09wkBoZLC+jRRrPTrTNDRWhXzf7rJV5HNgKNaavsr1YKprs2f
-KK1sarVxPCwgutgnb2/NfR6U
-=SQFG
------END PGP SIGNATURE-----
-
---===============5652168797155852706==--
+--===============1656421577552914476==--
