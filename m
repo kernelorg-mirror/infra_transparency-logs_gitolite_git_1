@@ -1,46 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============4088850932552037696=="
+Content-Type: multipart/mixed; boundary="===============5437862459840728858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 22 Apr 2022 14:54:36 -0000
-Message-Id: <165063927699.1281.10736693537180766419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 22 Apr 2022 14:58:35 -0000
+Message-Id: <165063951533.3996.14237527773821565626@gitolite.kernel.org>
 
---===============4088850932552037696==
+--===============5437862459840728858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/v5.18-next/dts64
-    old: cc34df56d29ebb94478cdb767d268a1a42c71f39
-    new: e3ea51041e4257aa8e6924ce0a23188e6043c082
-    log: revlist-cc34df56d29e-e3ea51041e42.txt
+  - ref: refs/heads/bleeding-edge
+    old: 3adab5809c61a424c326538e8447689b79e13a5c
+    new: c1bb185c28c83726d132fd6e1350240105237494
+    log: revlist-3adab5809c61-c1bb185c28c8.txt
+  - ref: refs/heads/linux-next
+    old: a8a4f8e63bdfeac9fafe43dcafabc27d8f2e8b8e
+    new: c15e061fb0abc59bfd50b710deb61b4329392a3f
+    log: |
+         fc45e55ebc58dbf622cb89ddbf797589c7a5510b ACPI: processor: idle: Avoid falling back to C3 type C-states
+         20e582e16af24b074e583f9551fad557882a3c9d Revert "ACPI: processor: idle: fix lockup regression on 32-bit ThinkPad T40"
+         d0f6cfb2bd165b0aa307750e07e03420859bd554 thermal: int340x: Fix attr.show callback prototype
+         6dd4a29d26200d303d354ee8fc806113b5fcc882 ACPI: PM: Always print final debug message in acpi_device_set_power()
+         7fb9b6ea4733e2a48f71328e0c1f55c59bdd1889 Merge branch 'acpi-pm' into linux-next
+         c15e061fb0abc59bfd50b710deb61b4329392a3f Merge branches 'acpi-processor' and 'thermal-int340x-fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: a8a4f8e63bdfeac9fafe43dcafabc27d8f2e8b8e
+    new: c15e061fb0abc59bfd50b710deb61b4329392a3f
+    log: |
+         fc45e55ebc58dbf622cb89ddbf797589c7a5510b ACPI: processor: idle: Avoid falling back to C3 type C-states
+         20e582e16af24b074e583f9551fad557882a3c9d Revert "ACPI: processor: idle: fix lockup regression on 32-bit ThinkPad T40"
+         d0f6cfb2bd165b0aa307750e07e03420859bd554 thermal: int340x: Fix attr.show callback prototype
+         6dd4a29d26200d303d354ee8fc806113b5fcc882 ACPI: PM: Always print final debug message in acpi_device_set_power()
+         7fb9b6ea4733e2a48f71328e0c1f55c59bdd1889 Merge branch 'acpi-pm' into linux-next
+         c15e061fb0abc59bfd50b710deb61b4329392a3f Merge branches 'acpi-processor' and 'thermal-int340x-fixes' into linux-next
+         
 
---===============4088850932552037696==
+--===============5437862459840728858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc34df56d29e-e3ea51041e42.txt
+Content-Disposition: attachment; filename=revlist-3adab5809c61-c1bb185c28c8.txt
 
-75a3c81bc63481d81d941e0f534acfee847bcc4f arm64: dts: hisilicon: align 'freq-table-hz' with dtschema in UFS
-c01d9aa630b8a0cde657f501093821349577116b arm64: dts: mediatek: mt8183: align Google CROS EC PWM node name with dtschema
-c8b8db1a173db6f41da8e3f0e2c0d1e1570c9cf9 arm64: dts: mediatek: align operating-points table name with dtschema
-775ef8aaa66ea5c91df43d2f0b70aa8e7835f6d4 arm64: dts: mediatek: align thermal zone node names with dtschema
-c1f403d6ca9f6a14d41784c4151898d8bec4c775 arm64: dts: mt8183-kukui: align SPI NOR node name with dtschema
-e5e7fdb78b6f2bd43c99afb971ec654ada684995 arm64: dts: mediatek: Get rid of mediatek, larb for MM nodes
-419aaccaa477aed3c967550e9323badaa1f637c9 arm64: dts: mediatek: mt8173: Add power domain to encoder nodes
-d77e6abd1eba52e36de2b6c1da5414a6f788a835 arm64: dts: mt6359: add PMIC MT6359 related nodes
-94d7e9f538ffd5fd3b10e9ee93812b618364e370 dt-bindings: arm: Add compatible for Mediatek MT8192
-cd2f0efe51e8d332dabf53af8bc95c3b83e01023 arm64: dts: mt8192: Add spmi node
-875215de8d7acd11e1cad05a047b359bb4b31fae arm64: dts: mt8192: Add audio-related nodes
-b8bd7e4975af35774648bf21215883ce8d82f7c6 arm64: dts: mt8183: Update disp_aal node compatible
-43eb164baec86e2890b22aeac3d883bdbc25bc50 arm64: dts: mt8192: Add mmc device nodes
-4c78814a1f46ac0a3bb02879bf1a2030e9eef5e4 arm64: dts: Add mediatek SoC mt8195 and evaluation board
-f8ca6bb2e42b3e5c619a8e3b34eaa698f79265c4 dt-bindings: arm64: dts: mediatek: Add mt8195-demo board
-e3ea51041e4257aa8e6924ce0a23188e6043c082 arm64: dts: mediatek: Add device-tree for MT8195 Demo board
+7fb9b6ea4733e2a48f71328e0c1f55c59bdd1889 Merge branch 'acpi-pm' into linux-next
+c15e061fb0abc59bfd50b710deb61b4329392a3f Merge branches 'acpi-processor' and 'thermal-int340x-fixes' into linux-next
+cc6e234b8264089d11c34f82d6be925281ca52ba intel_idle: Add AlderLake support
+2b70bd25072ce34e203eb152e292c897ef4729dd Merge branch 'pm-cpuidle' into bleeding-edge
+bd40cbb0e3b37a4d2a2d9e2ac40122cdf619b1f3 PM: domains: Move genpd's time-accounting to ktime_get_mono_fast_ns()
+1bfc79ee64f244dff02cbd402961c69ae55c39d5 Merge branch 'pm-domains' into bleeding-edge
+ae0dc7ed1a7c713ee9ba563a328d3b4d59223d7c powercap: intel_rapl: add support for RaptorLake
+5a6377e9c6c99c7e6f2dcb25731f6a8ee980e58f Merge branch 'powercap' into bleeding-edge
+5a42ac43d0c900ade2a5c0337b2ea52d994bdec8 Revert "thermal/core: Deprecate changing cooling device state from userspace"
+fa1ef24ae251f7916e70b6fac94c7db3bb837426 thermal/governor: Remove deprecated information
+3901758dfb9ae9d053872ba97b9ff8b47d90f859 Merge branch 'thermal-core' into bleeding-edge
+ab59c89396c007c360b1a4d762732d1621ff5456 ACPI, APEI, EINJ: Refuse to inject into the zero page
+3653dafa69da280eb433173c33cdbe7542251ba5 Merge branch 'acpi-apei' into bleeding-edge
+db2d1693fae37e01e7fcfd627b407c18737e8373 ACPI: BGRT: use static for BGRT_SHOW kobj_attribute defines
+235e37728c790171bc740cb13a514da807c5b90d Merge branch 'acpi-tables' into bleeding-edge
+290a20782ac6d1bfbd70541cacddaf9acbe1f1f5 ACPI: DPTF: Correct description of INT3407 / INT3532 attributes
+c1bb185c28c83726d132fd6e1350240105237494 Merge branch 'acpi-dptf' into bleeding-edge
 
---===============4088850932552037696==--
+--===============5437862459840728858==--
