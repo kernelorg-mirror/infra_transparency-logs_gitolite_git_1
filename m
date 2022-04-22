@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2816597244651034071=="
+Content-Type: multipart/mixed; boundary="===============5093091735144107543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 22 Apr 2022 17:47:15 -0000
-Message-Id: <165064963540.18976.12412715401203873815@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 17:47:20 -0000
+Message-Id: <165064964064.19068.17862607446092721042@gitolite.kernel.org>
 
---===============2816597244651034071==
+--===============5093091735144107543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: bc6de2878429e85c1f1afaa566f7b5abb2243eef
-    new: fc06b2867f4cea543505acfb194c2be4ebf0c7d3
-    log: revlist-bc6de2878429-fc06b2867f4c.txt
+  - ref: refs/heads/dev-queue
+    old: 1c484b2fae937d1655df00d134df1f2b97dee4e7
+    new: 2e5de3720e110c3e2eddc27b3ee4564da0222284
+    log: revlist-1c484b2fae93-2e5de3720e11.txt
 
---===============2816597244651034071==
+--===============5093091735144107543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc6de2878429-fc06b2867f4c.txt
+Content-Disposition: attachment; filename=revlist-1c484b2fae93-2e5de3720e11.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -241,5 +241,15 @@ b253435746d9a4a701b5f09211b9c14d3370d0da Merge tag 'xtensa-20220416' of https://
 59f0c2447e2553b0918b4a9fd38763a5c0587d02 Merge tag 'net-5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d48fea8401cfa942c67cc3a522bf379143dbb576 net: cosa: fix error check return value of register_chrdev()
 fc06b2867f4cea543505acfb194c2be4ebf0c7d3 net: dsa: Add missing of_node_put() in dsa_port_link_register_of
+8b9411eada2fc98aec45de400a555fa5ee598ef3 i40e: i40e_main: fix a missing check on list iterator
+f8da363b1330824ea1e366e1befdfcf63bebf560 ice: ice_sched: fix an incorrect NULL check on list iterator
+0a168e131bddc140e5d1c59565cad15eb1074088 iavf: Fix error when changing ring parameters on ice PF
+584afe35f6a24328a4f9df67baee2c214f1fd5ec ixgbe: ensure IPsec VF<->PF compatibility
+224c3aaf7fc19a91d12e774558590a29520c9ea8 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+1f208d30ea7f9d0f34d0bf706aeea2f7d5f5cab1 ice: fix use-after-free when deinitializing mailbox snapshot
+e64d209845943096f5fb5a58ba440137d199570c ice: wait 5 s for EMP reset after firmware flash
+b5c9a3287b993b327a6a083ed4095bb15833677e ice: Fix race during aux device (un)plugging
+c2c8018bcdec9665353f6ef74d5891d26ee93739 ice: Protect vf_state check by cfg_lock in ice_vc_process_vf_msg()
+2e5de3720e110c3e2eddc27b3ee4564da0222284 ice: fix PTP stale Tx timestamps cleanup
 
---===============2816597244651034071==--
+--===============5093091735144107543==--
