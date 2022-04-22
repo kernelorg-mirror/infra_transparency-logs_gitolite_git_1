@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 22 Apr 2022 11:41:48 -0000
-Message-Id: <165062770893.32284.8384597761843259734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Apr 2022 11:44:17 -0000
+Message-Id: <165062785709.2037.16558255311463840490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 70c954151828f8c319698e73894eddcb6a9462c6
-    new: adf47e8f2883087aaa050679852c448a4083836e
+  - ref: refs/heads/master
+    old: 6f37c9f9dfbf9a9645ec5ea2d9370b0fd3e9081e
+    new: 0844d36f771d3fe3c418df7569396a9a58feab85
     log: |
-         3a6a7187f09a0b1add76aaf4015f215a381ab616 scsi: megaraid_sas: Remove unnecessary memset
-         faad6cebded8e0fd902b672f220449b93db479eb scsi: sr: Do not leak information in ioctl
-         129a745f660f62ac941d187aa8ee5fbb807c961b Merge branch 'fixes' into for-next
-         adf47e8f2883087aaa050679852c448a4083836e Merge branch 'misc' into for-next
+         0844d36f771d3fe3c418df7569396a9a58feab85 USB2NET : SR9800 : change SR9800_BULKIN_SIZE from global to static
          
