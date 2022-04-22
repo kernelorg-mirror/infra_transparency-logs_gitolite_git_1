@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Fri, 22 Apr 2022 22:16:22 -0000
-Message-Id: <165066578289.1119.3211026889346004311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Apr 2022 22:18:05 -0000
+Message-Id: <165066588502.1712.244150403189534509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: eb7054212eac8b451d727bf079eae3db8c88f9d3
-    new: 23e3d7f7061f8682c751c46512718f47580ad8f0
+  - ref: refs/heads/master
+    old: c78c5a660439d4d341a03b651541fda3ebe76160
+    new: 5e7260712b9a76de19c32f15d667f8f93e573978
     log: |
-         23e3d7f7061f8682c751c46512718f47580ad8f0 jbd2: fix a potential race while discarding reserved buffers after an abort
+         5e7260712b9a76de19c32f15d667f8f93e573978 qed: Remove IP services API.
          
