@@ -1,67 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============1656421577552914476=="
+Content-Type: multipart/mixed; boundary="===============0010762134521039138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 Apr 2022 06:56:34 -0000
-Message-Id: <165061059472.26925.12813431736120726494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 22 Apr 2022 06:58:37 -0000
+Message-Id: <165061071746.27608.4658348901649147389@gitolite.kernel.org>
 
---===============1656421577552914476==
+--===============0010762134521039138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fc6a9cd957e9dfd2e9647ff79895118334ee9e7f
-    new: bc94fcee00551a4262a5c6d2f619377d9163ce76
-    log: revlist-fc6a9cd957e9-bc94fcee0055.txt
+  - ref: refs/heads/usb-next
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 5c29e864999763baec9eedb9ea5bd557aa4cbd77
+    log: revlist-312310928417-5c29e8649997.txt
 
---===============1656421577552914476==
+--===============0010762134521039138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc6a9cd957e9-bc94fcee0055.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ee69d4be8fd064cd08270b4808d2dfece3614ee0 xtensa: patch_text: Fixup last cpu should be master
-eb5adc70754d26a260f8b42d39db42da0d0af500 arch: xtensa: platforms: Fix deadlock in rs_close()
-60b30050116c0351b90154044345c1b53ae1f323 erofs: fix use-after-free of on-stack io[]
-8b1ac84dcf2cf0fc86f29e92e5c63c4862de6e55 Documentation/ABI: sysfs-fs-erofs: Fix Sphinx errors
-839769c35477d4acc2369e45000ca7b0b6af39a7 xtensa: fix a7 clobbering in coprocessor context load/store
-6044d159b5d826259a7397d42fa3ad0bfc4dbd13 x86/boot: Put globals that are accessed early into the .data section
-a6823e4e360fe975bd3da4ab156df7c74c8b07f3 x86: __memcpy_flushcache: fix wrong alignment if size > 2^32
-906f904097359d059623ca8d3511d9f341080f2c Revert "fs/pipe: use kvcalloc to allocate a pipe_buffer array"
-10c5f102e2be6d816938b168104e8dacdd5bace7 Merge tag 'erofs-for-5.18-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-b253435746d9a4a701b5f09211b9c14d3370d0da Merge tag 'xtensa-20220416' of https://github.com/jcmvbkbc/linux-xtensa
-2bf93ffbb97e0614cfc431d2ea33b7eae7481eb2 virt: sevguest: Change driver name to reflect generic SEV support
-9617f2f48310f2f341a9a0ebbc2dcfe1e88031a2 virt: sevguest: Rename the sevguest dir and files to sev-guest
-5af14c29f7a0e6d1fcee44c4ed4a2d12a49c4a43 x86/tdx: Annotate a noreturn function
-2607e51e40f6e0b981f92b184bc1c6b267d371d8 Merge remote-tracking branch 'tip/x86/merge' into tip-master
-2fab3852389353aba05cc88e424eda4d19d45faa Merge x86/mm into tip/master
-c6e9fc5f7651c2c066d3b2a1a5e5ff34279eff43 Merge locking/core into tip/master
-4d247de07a42b884d6007902b692980d111818ae Merge perf/core into tip/master
-bf85d969ead0884b44d309963e716a82031a7d9d Merge sched/core into tip/master
-c3c700cc5a7187c13fb53cb38be20833bd0db323 Merge x86/misc into tip/master
-459a377edae9ce083c199df0680883dedcf935fc Merge ras/core into tip/master
-2aad0bcdbe4f5a5241b7cf3f03ef6408251a434b Merge x86/build into tip/master
-817ab139d0e5b78f7446970d76bca31a06197880 Merge x86/platform into tip/master
-af01a7e062614c8e6f132b45eb089e72f7d03fd1 Merge x86/irq into tip/master
-7e682d537c69d3f0c144db29aa2cb48edfde3a90 Merge x86/apic into tip/master
-ab3e91b9f6bda10dd4dd89ef79215cf7044090a5 Merge x86/kdump into tip/master
-64d409f1339d1e1226a4f5c99d8b0ac97d4e54ea Merge smp/core into tip/master
-4f93582718a128a71df84457e584ea0f808555a1 Merge core/core into tip/master
-c941a94df5d65da6f045cc708109e23f7dcf375f Merge x86/cleanups into tip/master
-a917b4ff71ac57b760cf22c37a9bc0b6d03c2a92 Merge x86/core into tip/master
-7c9ac47c1dc772d2a01df4e436c0be615be53f4b Merge irq/core into tip/master
-2c3658147effb7db229d7eb4853e9c5c3db52699 Merge timers/core into tip/master
-d6ef7518f2c23b1016a783ba89bcaa200dfd1ca2 Merge sched/urgent into tip/master
-d97691894cffbdefef9ef78b67d29d6033fa4aa7 Merge perf/urgent into tip/master
-f76e6ed0eb27d2a150784393ee17f2a7d27ead39 Merge x86/urgent into tip/master
-ab7f827f07a9655c31bbe07be3cc0380810970bf Merge objtool/urgent into tip/master
-d586aab0966a798023b83794a44ba67434a7ac47 Merge x86/sev into tip/master
-bc94fcee00551a4262a5c6d2f619377d9163ce76 Merge x86/tdx into tip/master
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650610716 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1650610715-33907ec98ec24c0e576bc368f708a6696c353d99
 
---===============1656421577552914476==--
+3123109284176b1532874591f7c81f3837bbdc17 5c29e864999763baec9eedb9ea5bd557aa4cbd77 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJiUhwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1xEQAJyxTQXqLiiMzVaILjFI
+FlNSt4TurTN3db8aqKs1Shh9Jo2gruNo2wKKOQ9ufDtMXYeYyQ3wcPIDFaqbpkvD
+wapJT2nPP0M0VE07IWaI7G9I6KhllacAFKS0SzqJLNOu3/EsF4x89N+r6vKrx58L
+rlxTwyCPveD9oTOvF8cLBxuwk4MPKkJzRNctyAHRLSlM2p2hV0yorWu5Kd3UIAHv
+/DPecYEDTIDrQzLMnM4iFfXdlFDW4dqGf9JsrWJitkww3YyfSz8vN66AhNEsRFOH
+fnt8nt3exiGl25vHI/Mz8cM9DaVP6xxhJYGtMmAmA2RRl4vAuE3zp/A0gPT1jITk
+21+6t/UsbYLMPdGQi8F7cyP9NyzWwGy7KmQifqj142ENHjWU3RpuLOs9EmqMlZbF
+BFYZtIlfaeDZe5IhH/m1Dm5UcMMQFivzi8r4Sz10DnK2z95wtB7hPO8sYzxHQGlS
+CGWV2eNj/MFrAbvWAeFiwOqX+zBokdZ6ChW6bW9YiwlDD17Bqdh1mnUpKOmdLR/8
+dzAnQUGzHjEkdtjRDfaZiRwWYy2bTNaYm+fn4xSmYxYmdVb8+yv/cEmqxbzck8sj
+QXxPw+B2ZzqPRU0o1bwsYD0LwG1wunxV+2JZ8F579/LQFiaROVsnKi4SHd0DOZUi
+P6frVoolhYqzxJajQz3oMGMv
+=sbig
+-----END PGP SIGNATURE-----
+
+--===============0010762134521039138==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-312310928417-5c29e8649997.txt
+
+324e4f85070f89b58c5f9926370ad19dea907dc7 usb: gadget: uvc: allow changing interface name via configfs
+be30e3502771ac0b5080ec61223d915354cde1cc usb: gadget: uvc: remove pause flag use
+61aa709ca58a0dbeeb817bfa9230c1a92979f2c6 usb: gadget: uvc: rework uvcg_queue_next_buffer to uvcg_complete_buffer
+9b969f93bcef9b3d9e92f1810e22bbd6c344a0e5 usb: gadget: uvc: giveback vb2 buffer on req complete
+aef11279888c00e1841a3533a35d279285af3a51 usb: gadget: uvc: improve sg exit condition
+38c695e1e2a2caaacb3b2dc5cddbba5e8024412f usb: typec: mux: intel_pmc_mux: Add retry logic to a PMC command
+92440202a88009ef66a236001981513e03a300fb usb: typec: tipd: Only update power status on IRQ
+ee11ae36b2c8e3b11a6eff4bf51eb3065ce5f94b dt-bindings: usb: Add documentation for AM62 USB Wrapper module
+e8784c0aec03a2581ee55827ba694e129d6a57ad drivers: usb: dwc3: Add AM62 USB wrapper driver
+9ec4cbf1cc55d126759051acfe328d489c5d6e60 usb: usbip: fix a refcount leak in stub_probe()
+d088fabace2ca337b275d1d4b36db4fe7771e44f usb: usbip: add missing device lock on tweak configuration cmd
+eafc69a488111aa3b18794602ecc52acbef84288 usb: Prepare cleanup of powerpc's asm/prom.h
+17b2fb9c231ea418fa6c8643f2c786ec991b56f5 usb-storage: alauda: fix initFunction error return
+1abf67983a4fd74133b3d2b43722704c744621a6 usb-storage: shuttle_usbat: fix initFunction error return
+ba6df3ea68196d54a1e8299cea1bf4565fc755c5 usb-storage: isd200: fix initFunction error return
+0b059979090d72b3e8eca1cb18daa8da70400211 arm64: dts: qcom: sc7280: Add EUD dt node and dwc3 connector
+9c00c7c92265434fadc597435e98c0aca3b749ac arm64: dts: qcom: sc7280: Set the default dr_mode for usb2
+5bf4b20dc19090fef115f20d63d0adc6267d2928 usb:oxu210hp-hcd: Use platform_get_irq() to get the interrupt
+134a3408c2d3f7e23eb0e4556e0a2d9f36c2614e USB: host: isp116x: check return value after calling platform_get_resource()
+b8a19881337678c02bb3d72ae821602e1a4c377d usb: gadget: u_audio: clean up some inconsistent indenting
+67ec2c75f37780e0e825d0beb2fb4892c8a93c6a usb: gadget: net2280: use swap() instead of open coding it
+b92ffb1eddd9a66a90defc556dcbf65a43c196c7 USB: storage: karma: fix rio_karma_init return
+1e2b2f06c1be6f9676ed99f36bc263f1cda12c9c dt-bindings: usb: samsung,exynos-usb2: include usb-hcd schema
+8a722fe86e5678b12ea576f4d07c2374603ec181 dt-bindings: usb: samsung,exynos-usb2: add missing required reg
+0fee30ab63512b4cc3ed0136ffb042399f9493ab USB / dwc3: Fix three doc-build warnings
+24a5d34d7b01b2bff4ddb65af0731ac230169153 usb: gadget: omap_udc: Make it CCF clk API compatible
+a85f023022f0e094b82ab43c44cb69cc19603631 usb: host: ohci-omap: Make it CCF clk API compatible
+6a7c7df993bd3c90014453ec59a7b455613cf0e4 usb: dwc3: gadget: increase tx fifo size for ss isoc endpoints
+7e824f28c9d7275471aa98509a7e3c8369fae379 usb: gadget: f_acm: add support for USB_CDC_REQ_SEND_BREAK
+424bef51fa530389b0b9008c9e144e40c10e8458 usb: musb: Fix missing of_node_put() in omap2430_probe
+4f8cfe675f4666117c93420783049eff04c3ceba usb: core: devices: remove dead code under #ifdef PROC_EXTRA
+2a0a71d92d150548360150cb8b57c82409d8d9c6 USB: omap_udc: clean up comment
+77e00508c29626500c2c70655b66aaa323a03b33 usb: gadget: pxa27x_udc: clean up comment
+e707ec4d043502308209e3cce568f40f09c86d27 usb: gadget: s3c-hsudc: clean up comments
+53b0c69f35bd71a8f7abc5411ef23c0588bbb328 usb: gadget: tegra-xudc: clean up comments
+8666009c5f8327d13d4c91a2139b361b41ab43c2 usb: gadget: net2272: clean up comments
+9cd6576f46be175f7ef0769554ce120470bb2ccf dt-bindings: dwc2: Add bindings for new Ingenic SoCs.
+d712b725b84dc1623d826b3232d706c7e9e53a4f USB: dwc2: Add OTG support for Ingenic SoCs.
+ab3a560ae8e2795b8069b4587792d1b49c20e671 MIPS: Ingenic: Refresh USB nodes to match driver changes.
+5c29e864999763baec9eedb9ea5bd557aa4cbd77 usb: musb: mediatek: Use clk_bulk API to simplify clock operations
+
+--===============0010762134521039138==--
