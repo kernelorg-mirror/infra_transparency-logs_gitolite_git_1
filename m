@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6256750058815160589=="
+Content-Type: multipart/mixed; boundary="===============7064965222899976763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 22 Apr 2022 02:26:14 -0000
-Message-Id: <165059437492.17142.6054553296761095151@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 02:26:24 -0000
+Message-Id: <165059438420.17247.6955277615599352579@gitolite.kernel.org>
 
---===============6256750058815160589==
+--===============7064965222899976763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: b79ddd945ea239251d6b627cf349b38599435e66
+  - ref: refs/heads/dev-test
+    old: bf628ee7b054c16305a0a27180f8d73a8bd221fb
     new: 5a3a02ca8c05a87acb34c71fa3d8e2797f011348
-    log: revlist-b79ddd945ea2-5a3a02ca8c05.txt
+    log: revlist-bf628ee7b054-5a3a02ca8c05.txt
 
---===============6256750058815160589==
+--===============7064965222899976763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b79ddd945ea2-5a3a02ca8c05.txt
+Content-Disposition: attachment; filename=revlist-bf628ee7b054-5a3a02ca8c05.txt
 
+930e2607638de8325686319b2789323cc85ea671 f2fs: remove obsolete whint_mode
+0adc2ab0e8a88a0e8b98dae5fc1443ae8c7062ba f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
+27275f181c7add59c211c7e40c442d8004b1e664 f2fs: fix wrong condition check when failing metapage read
 4d8ec91208196e0e19195f1e7d6be9de5873f242 f2fs: should not truncate blocks during roll-forward recovery
 ef61c4acedb1802df0eb8f85ab52af7376ff4bcb f2fs: check pinfile in gc_data_segment() in advance
 083764bf7ea5f1faf24fff56a248951741158f88 f2fs: don't set GC_FAILURE_PIN for background GC
@@ -40,4 +43,4 @@ e1b34632217397247d2d9973de26ccb7d58252fc f2fs: fix dereference of stale list ite
 6fc4ae27f133697d9d20d4dc173212337fb74c52 f2fs: use flush command instead of FUA for zoned device
 5a3a02ca8c05a87acb34c71fa3d8e2797f011348 f2fs: avoid infinite loop to flush node pages
 
---===============6256750058815160589==--
+--===============7064965222899976763==--
