@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 22 Apr 2022 23:34:12 -0000
-Message-Id: <165067045200.19403.7305009784543065449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Apr 2022 23:45:45 -0000
+Message-Id: <165067114541.28636.9521406144762283089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: f675ed06390b3a4221384fb19a28407fe3e54160
-    new: 5fd1fe4807f91ea0cca043114d929faa11bd4190
+    old: e21bebf9727a2e96c89c1f35e8f3e04e37afd6de
+    new: 31693d02b06ed2f0ac668cede16cf3258e86204e
     log: |
-         5fd1fe4807f91ea0cca043114d929faa11bd4190 net: ethernet: stmmac: fix write to sgmii_adapter_base
+         f28c47bb9fd3286a99194876a6e528be87484c75 tsnep: Remove useless null check before call of_node_put()
+         31693d02b06ed2f0ac668cede16cf3258e86204e net: hns3: Fix spelling mistake "actvie" -> "active"
          
