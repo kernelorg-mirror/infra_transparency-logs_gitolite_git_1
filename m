@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6482806568294784203=="
+Content-Type: multipart/mixed; boundary="===============1266133734048529952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Apr 2022 06:16:23 -0000
-Message-Id: <165060818322.696.1310271331458452472@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 06:16:59 -0000
+Message-Id: <165060821959.966.15974440876834200043@gitolite.kernel.org>
 
---===============6482806568294784203==
+--===============1266133734048529952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 83e889dfe81973ac276421762156366f6481ac9d
-    new: f32f122a67f7c9a2f8f42d7a655cfdae20d2f561
-    log: revlist-83e889dfe819-f32f122a67f7.txt
+  - ref: refs/heads/net-mlx4
+    old: 60496069d0ae2d056bc12714d953c142afdef696
+    new: bc6de2878429e85c1f1afaa566f7b5abb2243eef
+    log: revlist-60496069d0ae-bc6de2878429.txt
 
---===============6482806568294784203==
+--===============1266133734048529952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83e889dfe819-f32f122a67f7.txt
+Content-Disposition: attachment; filename=revlist-60496069d0ae-bc6de2878429.txt
 
 907862e9aef75bf89e2b265efcc58870be06081e igc: Fix infinite loop in release_swfw_sync
 c80a29f0fe9b6f5457e0788e27d1110577eba99b igc: Fix BUG: scheduling while atomic
@@ -52,6 +52,5 @@ c5d0fc54bede8765b7a91bdac342c7c7de8bc8bd nfc: MAINTAINERS: add Bug entry
 044011fdf162c5dd61c02841930c8f438a9adadb selftests: mlxsw: vxlan_flooding: Prevent flooding of unwanted packets
 5e6242151d7f17b056a82ca7b860c4ec8eaa7589 selftests: mlxsw: vxlan_flooding_ipv6: Prevent flooding of unwanted packets
 bc6de2878429e85c1f1afaa566f7b5abb2243eef drivers: net: hippi: Fix deadlock in rr_close()
-f32f122a67f7c9a2f8f42d7a655cfdae20d2f561 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============6482806568294784203==--
+--===============1266133734048529952==--
