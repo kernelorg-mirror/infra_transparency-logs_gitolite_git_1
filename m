@@ -1,69 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============5437862459840728858=="
+Content-Type: multipart/mixed; boundary="===============1946910185867787540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 22 Apr 2022 14:58:35 -0000
-Message-Id: <165063951533.3996.14237527773821565626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 22 Apr 2022 15:11:36 -0000
+Message-Id: <165064029644.12401.15804472455996454137@gitolite.kernel.org>
 
---===============5437862459840728858==
+--===============1946910185867787540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3adab5809c61a424c326538e8447689b79e13a5c
-    new: c1bb185c28c83726d132fd6e1350240105237494
-    log: revlist-3adab5809c61-c1bb185c28c8.txt
-  - ref: refs/heads/linux-next
-    old: a8a4f8e63bdfeac9fafe43dcafabc27d8f2e8b8e
-    new: c15e061fb0abc59bfd50b710deb61b4329392a3f
-    log: |
-         fc45e55ebc58dbf622cb89ddbf797589c7a5510b ACPI: processor: idle: Avoid falling back to C3 type C-states
-         20e582e16af24b074e583f9551fad557882a3c9d Revert "ACPI: processor: idle: fix lockup regression on 32-bit ThinkPad T40"
-         d0f6cfb2bd165b0aa307750e07e03420859bd554 thermal: int340x: Fix attr.show callback prototype
-         6dd4a29d26200d303d354ee8fc806113b5fcc882 ACPI: PM: Always print final debug message in acpi_device_set_power()
-         7fb9b6ea4733e2a48f71328e0c1f55c59bdd1889 Merge branch 'acpi-pm' into linux-next
-         c15e061fb0abc59bfd50b710deb61b4329392a3f Merge branches 'acpi-processor' and 'thermal-int340x-fixes' into linux-next
-         
-  - ref: refs/heads/testing
-    old: a8a4f8e63bdfeac9fafe43dcafabc27d8f2e8b8e
-    new: c15e061fb0abc59bfd50b710deb61b4329392a3f
-    log: |
-         fc45e55ebc58dbf622cb89ddbf797589c7a5510b ACPI: processor: idle: Avoid falling back to C3 type C-states
-         20e582e16af24b074e583f9551fad557882a3c9d Revert "ACPI: processor: idle: fix lockup regression on 32-bit ThinkPad T40"
-         d0f6cfb2bd165b0aa307750e07e03420859bd554 thermal: int340x: Fix attr.show callback prototype
-         6dd4a29d26200d303d354ee8fc806113b5fcc882 ACPI: PM: Always print final debug message in acpi_device_set_power()
-         7fb9b6ea4733e2a48f71328e0c1f55c59bdd1889 Merge branch 'acpi-pm' into linux-next
-         c15e061fb0abc59bfd50b710deb61b4329392a3f Merge branches 'acpi-processor' and 'thermal-int340x-fixes' into linux-next
-         
+  - ref: refs/heads/driver-core-testing
+    old: d9359ceb57d9f47c0d7624a2704084de02de6829
+    new: b71054e27b922dcff5d14922b232b86f4e3e6f14
+    log: revlist-d9359ceb57d9-b71054e27b92.txt
 
---===============5437862459840728858==
+--===============1946910185867787540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3adab5809c61-c1bb185c28c8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7fb9b6ea4733e2a48f71328e0c1f55c59bdd1889 Merge branch 'acpi-pm' into linux-next
-c15e061fb0abc59bfd50b710deb61b4329392a3f Merge branches 'acpi-processor' and 'thermal-int340x-fixes' into linux-next
-cc6e234b8264089d11c34f82d6be925281ca52ba intel_idle: Add AlderLake support
-2b70bd25072ce34e203eb152e292c897ef4729dd Merge branch 'pm-cpuidle' into bleeding-edge
-bd40cbb0e3b37a4d2a2d9e2ac40122cdf619b1f3 PM: domains: Move genpd's time-accounting to ktime_get_mono_fast_ns()
-1bfc79ee64f244dff02cbd402961c69ae55c39d5 Merge branch 'pm-domains' into bleeding-edge
-ae0dc7ed1a7c713ee9ba563a328d3b4d59223d7c powercap: intel_rapl: add support for RaptorLake
-5a6377e9c6c99c7e6f2dcb25731f6a8ee980e58f Merge branch 'powercap' into bleeding-edge
-5a42ac43d0c900ade2a5c0337b2ea52d994bdec8 Revert "thermal/core: Deprecate changing cooling device state from userspace"
-fa1ef24ae251f7916e70b6fac94c7db3bb837426 thermal/governor: Remove deprecated information
-3901758dfb9ae9d053872ba97b9ff8b47d90f859 Merge branch 'thermal-core' into bleeding-edge
-ab59c89396c007c360b1a4d762732d1621ff5456 ACPI, APEI, EINJ: Refuse to inject into the zero page
-3653dafa69da280eb433173c33cdbe7542251ba5 Merge branch 'acpi-apei' into bleeding-edge
-db2d1693fae37e01e7fcfd627b407c18737e8373 ACPI: BGRT: use static for BGRT_SHOW kobj_attribute defines
-235e37728c790171bc740cb13a514da807c5b90d Merge branch 'acpi-tables' into bleeding-edge
-290a20782ac6d1bfbd70541cacddaf9acbe1f1f5 ACPI: DPTF: Correct description of INT3407 / INT3532 attributes
-c1bb185c28c83726d132fd6e1350240105237494 Merge branch 'acpi-dptf' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650640293 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1650640292-4c61bb0964b4519b8e4b8ec43ab078de4509dd9d
 
---===============5437862459840728858==--
+d9359ceb57d9f47c0d7624a2704084de02de6829 b71054e27b922dcff5d14922b232b86f4e3e6f14 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJixaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MJAP+QGqBWr5fixZ/em4y8ZB
+Etx0VVILHG5z65Ptyddi/24z8mr+X+qy+FHrq97AVnl78eV0sCXoO6T9ugk91gaY
++Kf7ltV8yhqcfOovmM8Kz34mKUvw4K24b+a2F9sM9PMNnYESaJQEv3tWlHMDrg1h
+UP4KsEmlTb4MwCHV9YMNSwhTy4vpdksMqbNfoB55CuMx/B1WwGpcT0ytstjBOe52
+/KCbTewh93O9/MYWQu/jdPxSpES/xmf/RSOr/ugEmW9bdVvaQnFpDYyKMQOjunt/
+AV2uqhHMKYAqAC6saQ4xFkEs8oq9LPL3pyOk+M+wnrhkWwWUUSF4C1bHJQSHaSDo
+BJXh3xs/9mkm8yCfwClxQLQvOsL3E79GTdkkw4qRx7ZkidOQu+oV7ykCA672eRG2
+JEFKqEenjr2WCBjjSYbZKodnTic8I7LovXFoitkFVLmm+A09DKBQiPvusaxPt+Ob
+lCSA0a4U1lybBt9rnp+5vdZxMPyrDPvUiSZNI0Xdfl8VMcfTavPsQ6CgR+6DP8z+
+y/1GZh4EpQOqWo4zkwWUEBkbf1MkxB2u4BItQ11YmGjmAdNMOzByz7Zg541afOaH
+l74FZhVcumEnnxsn3kl2Nwr4dQnVLNgiMfDZVlpgMfDdmvFe81JCUQf55Beiod47
+HIt06DR1cLHVZu6LQMTIifux
+=aVLO
+-----END PGP SIGNATURE-----
+
+--===============1946910185867787540==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d9359ceb57d9-b71054e27b92.txt
+
+8514c55f288b73f487b920a2ee191ad732507fbe driver: platform: Add helper for safer setting of driver_override
+2bf9ae827992c20938dd571afb8edd808cac156d amba: Use driver_set_override() instead of open-coding
+1d540bcf86b22197d5e3728dfc4a2cc1dcb61e04 fsl-mc: Use driver_set_override() instead of open-coding
+4f7ea3d6affcc5306f8446b2d723ee29d3a16d72 hv: Use driver_set_override() instead of open-coding
+687c28890f4ed741605e849195e6cf437fee8be6 PCI: Use driver_set_override() instead of open-coding
+85ae930dcb06af6d1fcd64b9931754287e3368a5 s390/cio: Use driver_set_override() instead of open-coding
+7868b6f9f8919a08d331707d6763f17aff8d8185 spi: Use helper for safer setting of driver_override
+9a7e3110a3e78fc4a9d2c02d9730aabefcb1dd8d vdpa: Use helper for safer setting of driver_override
+8ca5747d1c3be5cd8436b27fc7672af54aa07a23 clk: imx: scu: Fix kfree() of static memory on setting driver_override
+43c126bd67026576d4489616f0dd92b1a6cbc766 slimbus: qcom-ngd: Fix kfree() of static memory on setting driver_override
+fb6c311d6e9eafaa8c18e55f12f9be2b7711813d rpmsg: Constify local variable in field store macro
+b71054e27b922dcff5d14922b232b86f4e3e6f14 rpmsg: Fix kfree() of static memory on setting driver_override
+
+--===============1946910185867787540==--
