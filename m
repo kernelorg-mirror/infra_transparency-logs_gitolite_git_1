@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4652601014961640352=="
+Content-Type: multipart/mixed; boundary="===============5437172827817703619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Apr 2022 17:41:15 -0000
-Message-Id: <165064927513.14163.811541946910717514@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 17:41:23 -0000
+Message-Id: <165064928392.14273.6041785466445342232@gitolite.kernel.org>
 
---===============4652601014961640352==
+--===============5437172827817703619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9c8774e629a1950c24b44e3c8fb93d76fb644b49
-    new: c78c5a660439d4d341a03b651541fda3ebe76160
-    log: revlist-9c8774e629a1-c78c5a660439.txt
+  - ref: refs/heads/mlx5-queue
+    old: d485c8f5b0114f38da2fa2f31b16283c88ca2f39
+    new: 32cddffa03ebd4f4be31505b8688e433f210f0e9
+    log: revlist-d485c8f5b011-32cddffa03eb.txt
 
---===============4652601014961640352==
+--===============5437172827817703619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c8774e629a1-c78c5a660439.txt
+Content-Disposition: attachment; filename=revlist-d485c8f5b011-32cddffa03eb.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -301,5 +301,12 @@ cb1e6bf42bce63158884ab83fb171b518693c771 Merge branch 'zynqmp-phy-config-optiona
 b1ad41384866aafadf24c6b0f7e7701c86bdddc2 ipv4: Initialise ->flowi4_scope properly in ICMP handlers.
 fb799dd49a25625db05af51dd141371f6f64d3d1 Merge branch 'ipv6-RT_ONLINK-remove-prep'
 c78c5a660439d4d341a03b651541fda3ebe76160 dt-bindings: net: mediatek,net: convert to the json-schema
+aac4b357952dd00e73dc1072fdf41101af41218d Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+0b45ab4342108ede1a3d770a7b1cf560b587c6fa Revert "net: openvswitch: remove unneeded semicolon"
+914efe71fb8d467be07ef91b10769c0a2987fad3 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+d5afe26691eca0b94de8f257f9becc3769ddaaec net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+a3d11d6568ed44f54ac4237a3a86b4b9a8652402 net/mlx5e: Report header-data split state through ethtool
+e14fb27456ce546f7f34abfb441130f6b4811b39 net: Disable LRO feature if no RXCSUM
+32cddffa03ebd4f4be31505b8688e433f210f0e9 Merge branch 'patchq/393730' into mlx5-queue
 
---===============4652601014961640352==--
+--===============5437172827817703619==--
