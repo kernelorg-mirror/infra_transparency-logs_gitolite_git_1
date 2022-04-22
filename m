@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 22 Apr 2022 22:36:14 -0000
-Message-Id: <165066697474.13256.8548943938812156219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 22 Apr 2022 22:37:24 -0000
+Message-Id: <165066704458.13672.15341735589494355112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: b107a6392b4bdd0e10e155e6b66d75af9e44d85a
-    new: b253a0680ceadc5d7b4acca7aa2d870326cad8ad
+    old: e8c5e1a0f78fbfc4396866959fef43b258318b6f
+    new: fd0493a1e49eb643ac86f3932b1bde60bcc9f402
     log: |
-         b253a0680ceadc5d7b4acca7aa2d870326cad8ad tcp: ensure to use the most recently sent skb when filling the rate sample
+         df86ca0d2f0fa6be525a25b0b3d836d361f85754 bpf: Allow attach TRACING programs through LINK_CREATE command
+         8462e0b46fe2d4c56d0a7de705228e3bf1da03d9 libbpf: Teach bpf_link_create() to fallback to bpf_raw_tracepoint_open()
+         fd0493a1e49eb643ac86f3932b1bde60bcc9f402 selftests/bpf: Switch fexit_stress to bpf_link_create() API
          
