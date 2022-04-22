@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6972312403267585571=="
+Content-Type: multipart/mixed; boundary="===============6235677548132661393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 22 Apr 2022 13:36:57 -0000
-Message-Id: <165063461705.12947.11541786626842703168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 22 Apr 2022 13:37:52 -0000
+Message-Id: <165063467205.13282.6124861909624897740@gitolite.kernel.org>
 
---===============6972312403267585571==
+--===============6235677548132661393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/usb-testing
-    old: e69798700edde0857357288feebdbdaacbe40ad2
-    new: 88e2c01728f4808e2e6d2f102c983b02397523d6
-    log: |
-         66efe26f3eedb109b4f07164188da4c0abdbb1c5 USB: core: Disable remote wakeup for freeze/quiesce
-         88e2c01728f4808e2e6d2f102c983b02397523d6 USB: hcd-pci: Fully suspend across freeze/thaw cycle
-         
+  - ref: refs/heads/omap1-multiplatform-5.18
+    old: b59e8a5fd321fe44bdabd38908b4f899f933cf0f
+    new: f923656e88122de794eb0e242574362170398bbf
+    log: revlist-b59e8a5fd321-f923656e8812.txt
 
---===============6972312403267585571==
+--===============6235677548132661393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b59e8a5fd321-f923656e8812.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650634614 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650634614-68d176da69422680ecc024c04bb1856dc09a2ebc
+52ef8efcb75e8a8aab88e74c1376c2785d9a5452 dma: omap: hide legacy interface
+19491c2215f638c9198b9b33e227aeccf76b22b8 ARM: omap1: dma: remove omap2 specific bits
+16630718ee467cda33fc3f410a84bcaf909c1fa1 ARM: omap1: move plat/dma.c to mach/omap-dma.c
+04e8d9d139c9fca2717b65a46333dd1cfd87dc28 ARM: omap: split up arch/arm/plat-omap/Kconfig
+11237651e22c7dee1d0822c132805de23b9ed384 ARM: omap: un-merge plat/sram.c
+e37a0bca8260a2a3348499ab20ce8586e763d211 ARM: omap: remove empty plat-omap directory
+c8b8a93a0a3d3204c9d801d18fb98a5c04ff0b7c ARM: omap1: relocate static I/O mapping
+df99e7bbbec3180693b3d932a9cbc88346e2a30e ARM: omap1: use pci_remap_iospace() for omap_cf
+7e0a9e622dbe465f66cb1841d071acfe9ceaa32f ARM: omap1: move mach/*.h into mach directory
+615dce5bf7369334f8c4f19f7f8f2a5634b4f911 ARM: omap1: fix build with no SoC selected
+98e0f6345ad98531b3a3016a632c20b4d9129e39 ARM: OMAP1: Prepare for conversion of OMAP1 clocks to CCF
+34c86239b184aeedde8dee95e2ee09dde92045e6 ARM: OMAP1: clock: Fix early UART rate issues
+338d5d476cde853dfd97378d20496baabc2ce3c0 ARM: OMAP1: clock: Fix UART rate reporting algorithm
+6bdfc9beeced467c31b0cc97367f308adffa9816 ARM: OMAP1: clock: Remove unused code
+e9bdc3d4f59c5c19284311994e7f80e3fcc952b6 ARM: OMAP1: clock: Remove noop code
+ec8f128218753e29b1d86cd683617ad00c9a5072 ARM: OMAP1: fix typos in comments
+2b2d9ef321d6b23367c457025203cf0d28f80dd4 ARM: omap1: htc_herald: fix typos in comments
+917bf5a312fdb421a65cf3e57914a34e8eccc7a1 MAINTAINERS: omap1: Add Janusz as an additional maintainer
+908c39c8cc6d5e423b7ea3ee4ba32b5f42e4fe78 [MERGED] usb: host: ohci-omap: Make it CCF clk API compatible
+930f64028dcfb00b328f91ba7a54874841862e4e [MERGED] usb: gadget: omap_udc: Make it CCF clk API compatible
+2fdc64b8ed6407fae5c67fa4fa104dca58992405 [MERGED] video: fbdev: omap: Make it CCF clk API compatible
+841847338e23ace7da73651f51057eb5685328df [MERGED] mmc: omap: Make it CCF clk API compatible
+cc588fc3635a7f92be76c171d395eaba2bcc3677 [MERGED] ASoC: ti: osk5912: Make it CCF clk API compatible
+184df12983f8400b06675f3d79557ab8b8edad56 [TO BE REBASED] ARM: OMAP1: clock: Convert to CCF
+f923656e88122de794eb0e242574362170398bbf [TO BE REBASED] ARM: omap1: enable multiplatform
 
-e69798700edde0857357288feebdbdaacbe40ad2 88e2c01728f4808e2e6d2f102c983b02397523d6 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJir3YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zRQP/Ays5NwYLb7C1sDrr3BE
-9WojAtu2crkr0plchaFDmFvcUx43x6P0LSa/VWEDZ1bWpj03/MQ9zXhBB9OvqjEl
-7or5r5aLnBeecbgE4X41pcFsSQijPz+ONUmTFNt3B2L06BwaMJvAW79zmPsyRWon
-iHZIlKtII0K7zkFwIOCmvvZSAF38504vre/mGJdAumgsfjVsPpEhrj6mnfyKFFP+
-r1s6+xqrOV1ueRBAR4d8Fx0X5VuOvz2YPZOYQkxwxy6cH/+W8QXjn0TqwRpvo4k1
-IT3mteJgB6K+Eclh9ZUlcksikSlF/ixRqGMZU/2A3yIbns625xbPWa43yzyeQ4Us
-k/Jjhvcv6VuV/hOU13h6t7Ux0jArXNsRaL96GVufG/0T1UefdGWmV0mNfZqvteqt
-i3xYCi2cjwqOUsnO9Q2MTnCF61TYKiNj+NXjZwrQHr+/zdeg/PxWg/wt310a5LYW
-O7sz1pXjHrIIRalckHow5r+eCwyBhVLEb8V+h+XeoTKJGxHjTitOjTif6QcA0TMH
-amayY5Qsd1T4i9/APqDB0P4W3yqGKUAufOw0y6oABy+qrWTMuAlm0s+giSqUIg9B
-ZLdL4r3U0tqoFM17nXww6z+xi1drIfUr2wklJ55Po1pvS5LBGiwvzIuI0jMtETEI
-Y2hdtkM84UkQXITiy+5QoRni
-=0mXz
------END PGP SIGNATURE-----
-
---===============6972312403267585571==--
+--===============6235677548132661393==--
