@@ -1,61 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============2992436105269860139=="
+Content-Type: multipart/mixed; boundary="===============3858369537349288909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Fri, 22 Apr 2022 04:30:14 -0000
-Message-Id: <165060181477.1355.8726825236281329116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 22 Apr 2022 04:30:15 -0000
+Message-Id: <165060181573.1412.742443074161153878@gitolite.kernel.org>
 
---===============2992436105269860139==
+--===============3858369537349288909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/devel
-    old: c73cb9009b8d130305afba38bbd407a58bf8f2c8
-    new: 0eb50e15d8e0e0df718ea5423dcb4575509726e4
-    log: revlist-c73cb9009b8d-0eb50e15d8e0.txt
+  - ref: refs/heads/mlx5-queue
+    old: 291d2f3f2d664c6c23fa57024d331bf16ee76182
+    new: d503be3d8417fe00393e4a114cd632da7b56bb5d
+    log: revlist-291d2f3f2d66-d503be3d8417.txt
 
---===============2992436105269860139==
+--===============3858369537349288909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c73cb9009b8d-0eb50e15d8e0.txt
+Content-Disposition: attachment; filename=revlist-291d2f3f2d66-d503be3d8417.txt
 
-e21f55bf48ec81936ed73c3a2430fa4d2003c06b serial: amba-pl011: move header content to .c
-469779eea10a3c0d93a3d4565ddfec1ecbaea892 scripts: dummy-tools, add pahole
-5ed86d5c3fe02413fdf7c8df59c7066f293c989a Documentation: fix tty link
-04d6185bfa1150eec7093001c75c45b104d4a2f6 tty: serial: introduce uart_port_tx{,_limit}() helpers
-196b7b1a7d88193db8f77bb283bf4b1565c6b7be tty: serial: use uart_port_tx() helper
-3e84d4d2dae5b26641d02bf8430d3331c556cffb tty: serial: use uart_port_tx_limit() helper
-951af36bce3e0420c4d4a5762600cbaaf9193551 Documentation: serial: move uart_ops documentation to the struct
-1f821110ff70b84824d4393a2353d5584d482312 Documentation: serial: dedup kernel-doc for uart functions
-244f80bc6a3bfa32ac9b8c2ae0600c3a4880d91c Documentation: serial: move GPIO kernel-doc to the functions
-4b770ccf313281df115cb73f2080b23b6a4cc8b7 Documentation: serial: link uart_ops properly
-f0b252a75a08f67b1db092e25f2ce5eac5ac4277 tty: serial: serial_core, reformat kernel-doc for functions
-e805930281e32d1ae41194fd77851244172f41be tty: serial: document uart_get_console()
-38658586be2fe4e16e76066761e29dba127b0422 drm/i915: remove circ_buf.h includes
-57d1f40e88cf31ab90a97fa916322405e549dddc perf: don't install headers with x permissions
-6736d54be76fc2d53828c8e1223978a07deece10 perf: remove shebang from scripts/{perl,python}/*.{pl,py}
-f78dcffd83a3287d192583b1504ad99defb174a6 mxser: less tty, more termios
-8f547253cd075e0977fa0684f484229ad2544e18 mxser: add to_mport helper
-d4c83cae5c7273f067b63f3840c66093beefc6d7 mxser: use lock from uart_port
-bd9261d17189fc648038d4776e3755360816ae8b mxser: use iobase from uart_port
-e1a039c740ad86c70420f06660e0a91aad95bc6f mxser: use type from uart_port
-d13da93aa3c934cbeb7a7749ac0d7c8818c0b49b mxser: use x_char from uart_port
-e4d512783c9e15bab7e71cf7083e07eda63c6704 mxser: use icount from uart_port
-774d7b34a78b1aff75213bb127046ba1d9457979 mxser: use timeout from uart_port
-316c2063f27d3aac1a37c3d9bf5ba48d7e2baa44 mxser: use status masks from uart_port
-7efb19e91b2676cb103a23b2eb917cf55e484d39 mxser: use fifosize from uart_port
-83cb24226e424022f5446560ee1163f803dc195e mxser: use hw_stopped from uart_port
-ea0731ce3016fdd9de2e88396ffb7b05f66bfabc mxser: switch to uart_driver
-981b180e133db26017c5da4fff29e97f2091e799 tty: 8250_dma, use dmaengine_prep_slave_sg
-af714ecabba1215adcf73e61d08222575b2ca6f2 tty: 8250_omap, use dmaengine_prep_slave_sg
-9cfda65b798b731d205102baa4cba3228a055089 kfifo updates
-0eb50e15d8e0e0df718ea5423dcb4575509726e4 tty: serial, use kfifo
+2f1e85b1aee459b7d0fd981839042c6a38ffaf0c net: sched: use queue_mapping to pick tx queue
+38a6f0865796e26fc38fff4858f681d9ae76fa0f net: sched: support hash selecting tx queue
+8b11c35d97946c51bfa2cafd0d0b07ee18f08349 Merge branch 'net-sched-allow-user-to-select-txqueue'
+ef2a7c9065cea4e3fbc0390e82d05141abbccd7f rtnetlink: return ENODEV when ifname does not exist and group is given
+5ea08b5286f66ee5ac0150668c92d1718e83e1ad rtnetlink: enable alt_ifname for setlink/newlink
+dee04163e9f2feabb77615c630a1e31a91cc4449 rtnetlink: return ENODEV when IFLA_ALT_IFNAME is used in dellink
+b6177d3240a4f58fe547891010ad77a45bc1c9ab rtnetlink: return EINVAL when request cannot succeed
+cc4bdef26ecd56de16a04bc6d99aa10ff9076498 Merge branch 'rtnetlink-improve-alt_ifname-config-and-fix-dangerous-group-usage'
+eb38c2053b67977844404cbbdee341dbf3a02d36 can: rx-offload: rename can_rx_offload_queue_sorted() -> can_rx_offload_queue_timestamp()
+85d4eb2a3dfe939dda5304d61e406cb8e0852d60 can: bittiming: can_calc_bittiming(): prefer small bit rate pre-scalers over larger ones
+20c7258980e07fb2a54797baf157e55b6c77d6e9 can: Fix Links to Technologic Systems web resources
+bb75e352d7ac35778fc555b02a69edcc03c36e74 can: mscan: mpc5xxx_can: Prepare cleanup of powerpc's asm/prom.h
+e6ec83790593af2d7ad4bae25831baa206780f66 can: flexcan: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
+badea4fc7025320c163dfc24e884c1a52e7c568a MAINTAINERS: rectify entry for XILINX CAN DRIVER
+ae38fda02996d43d9fb09f16e81e0008704dd524 can: xilinx_can: mark bit timing constants as const
+44b6b105dd2411735175af21f76ca1a2604d022e dt-bindings: can: renesas,rcar-canfd: document r8a77961 support
+6211197648502315d52b19dbbe5d9f533fe242ef dt-binding: can: mcp251xfd: add binding information for mcp251863
+c6f2a617a0a81b28ea006f91830ed2879c95c064 can: mcp251xfd: add support for mcp251863
+fb23e43a0a9ce48031dd608f19b3298ce6a88d83 dt-bindings: vendor-prefix: add prefix for the Czech Technical University in Prague.
+1da9d6e35b6bf307c0d498bd1908c1ef9bdb4298 dt-bindings: net: can: binding for CTU CAN FD open-source IP core.
+2dcb8e8782d8e4c38903bf37b1a24d3ffd193da7 can: ctucanfd: add support for CTU CAN FD open-source IP core - bus independent part.
+792a5b678e81080313beb3bee19db189aaa2cf8c can: ctucanfd: CTU CAN FD open-source IP core - PCI bus support.
+e8f0c23a2415fa8f95cca61e1b4a4c90c4f5a983 can: ctucanfd: CTU CAN FD open-source IP core - platform/SoC support.
+c3a0addefbdec09affe7e9c597f1fceed4e7410a docs: ctucanfd: CTU CAN FD open-source IP core documentation.
+cfdb2f365cb9de8f2fd1fb726d82b5bae5e042ab MAINTAINERS: Add maintainers for CTU CAN FD IP core driver
+8e9e678e4758b69b6231d3ad4d26d3381fdb5f3f net: dsa: move reset of VLAN filtering to dsa_port_switchdev_unsync_attrs
+726816a129cbb1d645ed319a6f181f152f0dbda8 net: dsa: make cross-chip notifiers more efficient for host events
+b2033a05a7197f5ddef617be8f510c9957a82553 net: dsa: use dsa_tree_for_each_user_port in dsa_slave_change_mtu
+cf1c39d3b3a583c83fc7e077e1b3689b37187bd2 net: dsa: avoid one dsa_to_port() in dsa_slave_change_mtu
+4715029fa7e9072443af229dcc324e933c83436c net: dsa: drop dsa_slave_priv from dsa_slave_change_mtu
+be6ff9665d642d4cd0800b508ded289eaa5b02a2 net: dsa: don't emit targeted cross-chip notifiers for MTU change
+8ab38ed779857fd6d739dacac928dd8df82c4655 Merge branch 'dsa-cross-chip-notifier-cleanup'
+0d14657f40830243266f972766f1e4d00436e648 net: atlantic: Implement xdp control plane
+26efaef759a1bc43e819ee44cfd8a1fc4514e8c9 net: atlantic: Implement xdp data plane
+45638f013a63219378f7a2f9b49c5acbfe031c5a net: atlantic: Implement .ndo_xdp_xmit handler
+e97e917b0efbfbf5dabffac63c6cacfd765fa403 Merge branch 'atlantic-xdp-multi-buffer'
+286c61e7279768cec9c13bf8ce947de5c33e2325 net: hns3: add ethtool parameter check for CQE/EQE mode
+07fdc163ac886613e406e8c4356279d9a824b529 net: hns3: refactor hns3_set_ringparam()
+6fde96df0447a29ab785de4fcb229e5543f0cbf7 net: hns3: refine the definition for struct hclge_pf_to_vf_msg
+bcc7a98f0d3cbb18ca2502c278812867f81add48 net: hns3: add failure logs in hclge_set_vport_mtu
+2373b35c24ffdf680efad11377ceb994149b1f6f net: hns3: add log for setting tx spare buf size
+2e0f538870119dfdacf3caf11af2d925157eb84f net: hns3: update the comment of function hclgevf_get_mbx_resp
+9c657cbc2c158a32e18f541df309772ca390fc0c net: hns3: fix the wrong words in comments
+350cb44092461d719fd1a9662b2f7fb7263891d5 net: hns3: replace magic value by HCLGE_RING_REG_OFFSET
+29c17cb67271709755973a6136e10bb08ae34c16 net: hns3: remove unnecessary line wrap for hns3_set_tunable
+e92453b9fe0955b408859d6a14b26662f62189fd Merge branch 'hns3-next'
+6f2d04ccae9b9dc7884c641833823e50db8472fa dt-bindings: net: dsa: realtek: cleanup compatible strings
+fcd30c96af957f9c0eeccb95689548dfce52e149 net: dsa: realtek: remove realtek,rtl8367s string
+e63dd41235072575a190ef3f3e6e618a6dd0ac64 ar5523: Use kzalloc instead of kmalloc/memset
+285ba06b0edb21af8c7702c5771c06392011020d net/sched: flower: Helper function for vlan ethtype checks
+6ee59e554d33f1778a7cdeb10b0fb53c3bed1028 net/sched: flower: Reduce identation after is_key_vlan refactoring
+34951fcf26c59e78ae430fba1fce7c08b1871249 flow_dissector: Add number of vlan tags dissector
+b4000312822615ba2222e368188029e9b725dbf4 net/sched: flower: Add number of vlan tags filter
+99fdb22bc5e9bcefc65ffae45c6da3de01138ffe net/sched: flower: Consider the number of tags for vlan filters
+c1f6f1e6733c5139f61ea67d5cf37456a6a94ece Merge branch 'net-sched-flower-num-vlan-tags'
+85ef87ba9bc282cef441f75d90e2f52f624221ef Merge tag 'linux-can-next-for-5.19-20220419' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+de28976d2650d3cd962035a9fac5eef3c5b1b379 mlxsw: core_linecards: Introduce ops for linecards status change tracking
+7b261af9f641595f2fc2c8fae6cdcffc740b9b9e mlxsw: core: Add bus argument to environment init API
+a11e1ec141ea14b9e44240b275378a315ee44457 mlxsw: core_env: Split module power mode setting to a separate function
+06a0fc43bb10e48355574b8d28ab5ab1a3c86c61 mlxsw: core_env: Add interfaces for line card initialization and de-initialization
+f11a323da46cff1ce3e5bb87c36cc8cd21f9a793 mlxsw: core_thermal: Add interfaces for line card initialization and de-initialization
+99a03b3193f628a525ee0191e60418af6960004b mlxsw: core_hwmon: Add interfaces for line card initialization and de-initialization
+365014f5c39422fa7ccd75b36235155d9041f883 Merge branch 'mlxsw-line-card-status-tracking'
+4facbe3d4426720b65354be1d0f5608c65eebc20 drivers: net: davinci_mdio: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
+9c8774e629a1950c24b44e3c8fb93d76fb644b49 net: eql: Use kzalloc instead of kmalloc/memset
+2177642855cc4d33fe4dbc3e810ec0b9828c0449 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+16caaeac03f13d69f2b6236ff06052e643449830 Revert "net: openvswitch: remove unneeded semicolon"
+25d8de4b2743a324b5f52abd9a76379e192c87ff Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+e77873fe349c27b9f129f9a75c852a15a69122f7 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+30e5cb40c686c6a45b318587cc0cbd6165788c89 Revert "rtnetlink: return EINVAL when request cannot succeed"
+2a3a1103a19aefc56f6364fcfbd8f8b5f64d9105 net/mlx5e: Report header-data split state through ethtool
+2943670abd3385ba50974c47e2456f46041366f4 net: Disable LRO feature if no RXCSUM
+d503be3d8417fe00393e4a114cd632da7b56bb5d Merge branch 'patchq/393730' into mlx5-queue
 
---===============2992436105269860139==--
+--===============3858369537349288909==--
