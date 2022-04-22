@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1453801567477675381=="
+Content-Type: multipart/mixed; boundary="===============5398537742221874027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 22 Apr 2022 14:42:45 -0000
-Message-Id: <165063856574.25336.3068894554140113845@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 14:45:27 -0000
+Message-Id: <165063872787.28893.12279833360318287700@gitolite.kernel.org>
 
---===============1453801567477675381==
+--===============5398537742221874027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 55de6cb7f81c82dea1bdb12cd3818280af7abd87
-    new: 97042d0a75a1220bc2bb8f3cc99f3f72b1f81607
+    old: 97042d0a75a1220bc2bb8f3cc99f3f72b1f81607
+    new: b56f8ea2b031119d95882c88130bad08c5ab335f
     log: |
-         17c8129e06241b635c7945d109eec498301628d3 staging: rtl8192u: change get_key functions to return 0 instead of -1
-         cb65037baa62f90cfc0b14babdff0b71ceedbbbd staging: rtl8723bs: remove leftover code for other chips
-         2c61fd036ac51e7ca11ab2fb6252605e8fc9bd23 staging: r8188eu: Drop redundant memset
-         97042d0a75a1220bc2bb8f3cc99f3f72b1f81607 staging: rtl8192e: Fix signedness bug in rtllib_rx_assoc_resp()
+         6d933902c609679f7551b2b113e7d62ad81da9b1 staging: r8188eu: remove OnAtim
+         869ddbfccdea7366e583b7ee70070a43f891c29b staging: r8188eu: remove dummy entries from OnAction_tbl
+         5aad5eee3e1f3b572ddbb49457093c8a651862d7 staging: r8188eu: on_action_spct does nothing
+         69192df6757e522f96ead29d583bbcef0529bdd6 staging: r8188eu: remove OnAction_qos
+         ff88784d69fc3ff180b6a12c73a44334ff6c1173 staging: r8188eu: remove OnAction_dls
+         fe5d2632dfc723467cd2ba28fef6575f46594d6b staging: r8188eu: remove unnecessary braces in single statement block
+         fe0abc0ff73301f709526e8a2cb117b7d7a003fc staging: r8188eu: remove spaces before tabs
+         093c6d3ba771c5ad0e1128174e585485fd4cc4b2 staging: r8188eu: remove 'added by' author comments
+         b56f8ea2b031119d95882c88130bad08c5ab335f staging: r8188eu: replace spaces with tabs
          
 
---===============1453801567477675381==
+--===============5398537742221874027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638563 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638725 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1650638562-f55b075aa9012d940d464427ca36901175c82ca6
+nonce 1650638724-5599591edd354eec9154550ef194a7301ac4ceb0
 
-55de6cb7f81c82dea1bdb12cd3818280af7abd87 97042d0a75a1220bc2bb8f3cc99f3f72b1f81607 refs/heads/staging-testing
+97042d0a75a1220bc2bb8f3cc99f3f72b1f81607 b56f8ea2b031119d95882c88130bad08c5ab335f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivuMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SlcQAMOk3I7PiGFeigB6hHnj
-lb5MPY4qnGL8DtGxEsjsAm3KdghiMXDxiWYLcSB8rgnzFTmATziENdvmtab67N+B
-ef53CIJ7P+zyjMgZ6DlJHHkoXl2dvE6JVWoPfCJite91QK0BLc4BOYez9K+xXrao
-smsHlUEPJVwgykKi0KwJB5VP+Ase1RdpLnfrHca+bmvuAaNGcsTspY7L6tA0A82Q
-4ruDBQ/SzWBmpE3wK6vtKZ5ZiU50lFlc45ddzZmiyhyu9b9tMRxZbIMgJ7I8lEPg
-bgKfBPCCMIsTSTIMfdbpXqRFbfpfsLoNvSG2M44P7R1hqZt1sSBffWiS8ePgDJHM
-sFjPTry/wVE9y9QSs6CfoiCYk05Q19aZTcnfWc1p8v5LNI6MAz4Qjrv72v8wg74k
-eCvwOB/GvUCchGVOfECq/C++yInz7x3Vd5qaTUAfF8O6RSuGIUpYiLt/uBQXw4pm
-bbNv4fijPAlSJqI52aqHOAIS0i+yxi90Zg7aq6oFvtHE9m2nJ7NnHdCvpl3P1raq
-zHzYTkNUBfZ6nB+stSwK5YzRjQpS8WfiuJgf9DoUgJ/hVVYzDwRHQPdkWpCktEB+
-lFPjf4JuSYL36adNjfbs2/fmPqf3ti4/y1fX3rHqoXXmbo2rBL2oAHPmp/3VcNgR
-5Bfbl/+M+NV9Bh2xH4qAILC5
-=eAa5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJiv4UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S8MQAL66+WYQIvxULE/oA5Lx
+E+c5BJCy50ezzvU5uuQGognsFb7EcvhA+nc2rNred4fSg7Y3ybpgleZPeZFdQ9jz
+e9Hu8ku4kTv/3Ru2Frk14XnIaqZ2sor9NlvFDS45LQtvY5k8Iuc6TFQ9YUjQ+XFP
+ayxvx9usn3sVI13CLXnmAtvs4RbaTaAAl2svUp8/hS/9ui8L5TaOZoBtDvNJaVj9
+m8epujNnJ2C5hu5tI1lIwPrXqrSQNgsLsg2JdfZgWQ1aM1hp5p/TZ4Mb+Nbfowju
+9h+BguqfI3NUXdNVdoG8k+FE/cxzyUcpMHekt7Ytq+7eYhwPV7LLqGWGyx/vzYtP
+rKnhH4TCyeUFA4Il/oq4Qs6kU+h1J8HXqKLHQXxE30pIZMCjik21OL9AqZvKqSyQ
+mSBL4EnRWFrNnAAq8POdFbt0hzj+HjLL4wrT9yDhAxU4Dh/clglbS0z7oQp4PiZj
+MTnVk9tbi5nBsX03YOQj42ay0jg+oaGg84Kp9w4MYv2mFYyFcdNvh3F2fj88e8Ne
+YRJ8iP4x47yUw36s4Aynx6/NpJktwpJ0dAsD2zUC+mfG+5SHs/7jZCxMPt+6HbQL
+kNFw06KvsOWlAuDhWuGA0yrjUucek/2lpVXlYbR8o8qOp7NXcXX7dwS5wf5esAQx
+iFLTYMl1/Pbdi4BXnoqZv7BV
+=4Kwn
 -----END PGP SIGNATURE-----
 
---===============1453801567477675381==--
+--===============5398537742221874027==--
