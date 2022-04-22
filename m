@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 22 Apr 2022 14:47:14 -0000
-Message-Id: <165063883436.29541.4966255523163005406@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 14:47:26 -0000
+Message-Id: <165063884610.29692.9401405073634627244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.18-next/soc
-    old: 949cfe1a433b558ebf9e93407e3ea8bf9acae1ae
-    new: f9f4545b968ba607dc54ca96c03312894679528c
+  - ref: refs/heads/v5.18-next/dts64
+    old: 4a1d1379ebf63575d5ad48f64a855dd0286c37cd
+    new: cc34df56d29ebb94478cdb767d268a1a42c71f39
     log: |
-         f9f4545b968ba607dc54ca96c03312894679528c dt-bindings: pwrap: mediatek: Update pwrap document for mt8195
+         cc34df56d29ebb94478cdb767d268a1a42c71f39 arm64: dts: Add mediatek SoC mt8195 and evaluation board
          
