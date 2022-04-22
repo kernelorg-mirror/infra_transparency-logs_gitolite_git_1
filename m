@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Fri, 22 Apr 2022 12:22:45 -0000
-Message-Id: <165063016510.27544.10669402663177942703@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 12:23:05 -0000
+Message-Id: <165063018553.27715.6736328601987587515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/tytso/ext4
 user: tytso
 changes:
   - ref: refs/tags/ext4_for_linus_stable
-    old: c75253e56cc6bdb5e23f543d3405a191156a82a9
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: c334681a09faf160ded0f84756db0b882bfd77cc
