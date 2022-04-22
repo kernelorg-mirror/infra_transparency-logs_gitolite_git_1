@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3830314449305730956=="
+Content-Type: multipart/mixed; boundary="===============8069822260082050369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 22 Apr 2022 23:16:55 -0000
-Message-Id: <165066941503.8868.8237594634739295639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 22 Apr 2022 23:17:01 -0000
+Message-Id: <165066942124.9011.11955146302484409717@gitolite.kernel.org>
 
---===============3830314449305730956==
+--===============8069822260082050369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: c3429de5b139c7e3765df1d18446d02a5ada7f74
     new: 57ebd5d568f5e1e34f5a0b67460444d43e9b829b
     log: |
@@ -32,28 +32,28 @@ changes:
          57ebd5d568f5e1e34f5a0b67460444d43e9b829b ASoC: SOF: pci: add quirks and PCI IDS
          
 
---===============3830314449305730956==
+--===============8069822260082050369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650669413 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1650669412-f16b364af6c5896c565af0cc37b7b617f0a25633
+pusher C3F436CA30F5D8EB 1650669419 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1650669419-956d9c64cc53ad89424df1099512f3135f1ddff9
 
-c3429de5b139c7e3765df1d18446d02a5ada7f74 57ebd5d568f5e1e34f5a0b67460444d43e9b829b refs/heads/for-5.19
+c3429de5b139c7e3765df1d18446d02a5ada7f74 57ebd5d568f5e1e34f5a0b67460444d43e9b829b refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJjN2UACgkQJNaLcl1U
-h9AXEAf9HJAhvj6R4MBSBOAL2aKyZggYd4n5oobXLJQ8vMjrHzig+mtjoVbSkAzz
-UcVGKun2fXYx0/LYn8K+1KaAdcthBbXbrgCRuPkMIF83hbQmKqwE+oCAfu+9vVaU
-FR09MCDDSOckHR5Dp1s5ZUsX9mfD1Uc0DENaBDCJaJt44BEmjn2C6sfgDpsDElNy
-hiRQziu5at5kE3rnzLm+zu62MiNfhphJifBza00d5+WueSNmyQFY84UJoXMhFE7v
-iWSanUMq+bHaCXJEqf4qgOyJrQTETvBiV9haeeb4i5fxSQoORUT8f2qZCu1Bfu/Y
-L7zWs7/TkQNLTeFnBZDiuEmQgOL7Og==
-=GxlB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJjN2sACgkQJNaLcl1U
+h9CDEQf+Lw5etZcYTzKGLbVH7+yoyhuV2wkdCTZJD+KDFJZECXG405zquoyZaCJT
+WhKEctVnSQ+XSWEgxkfRpczpcYgJFsYNU223f8CPuK/l+aJvlEzphMDQ98DCuWaG
+E8A1ACtvkSCizZQxPFq8TzqiM2+slpvjjVT7H8xkdfNsiUGJ16Mr4TuqiI3nA82N
+ysimvkCKVYhonUrY7x2fSagQVV+P/b6EgaDc0XttXqr8EMTLYoU8UZRLMLNOVPJi
+sGmqwkpBuXHzKXhZwzsoH5VXqkmYa4WpEQsZPhOeSy9rrwJUyMSJulsNcdCQSdyj
+Pwt3ET27cnUPpQ/mQdA0UCPk+9GCfQ==
+=r3xJ
 -----END PGP SIGNATURE-----
 
---===============3830314449305730956==--
+--===============8069822260082050369==--
