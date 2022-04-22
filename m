@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 22 Apr 2022 20:01:50 -0000
-Message-Id: <165065771065.8567.9068440795196783118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 22 Apr 2022 20:04:09 -0000
+Message-Id: <165065784971.9362.3820425146865971060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/arm/multiplatform-late
-    old: 54b203cbc12d4886e2a7e80f906f3ef6bae2e4a4
-    new: 4894b187da71512fa656294ca916e7e73aa3243e
+  - ref: refs/heads/master
+    old: a1939bd51e0faba9a8550eea2590d99cb63a33c1
+    new: 3e2ad5009c0fb2c8a7b3a04438ad1e449c764dcc
     log: |
-         4894b187da71512fa656294ca916e7e73aa3243e Revert "ARM: pxa: convert to multiplatform"
-         
-  - ref: refs/heads/for-next
-    old: bf730f4d63c32653bb881b28da1bf1f6a72abbbd
-    new: 967ba514d3a68c3c81a70d862fa2d84aeb064ac5
-    log: |
-         4894b187da71512fa656294ca916e7e73aa3243e Revert "ARM: pxa: convert to multiplatform"
-         967ba514d3a68c3c81a70d862fa2d84aeb064ac5 Merge branch 'arm/multiplatform-late' into for-next
+         c535623a713c340031daf56d0798829644a92532 hog-lib: Check if Report ID is set before prepending it
+         3e2ad5009c0fb2c8a7b3a04438ad1e449c764dcc btmon: Fix decoding of Enhanced Credit Connection Request
          
