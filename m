@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6009183087637312146=="
+Content-Type: multipart/mixed; boundary="===============1453801567477675381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 Apr 2022 14:38:31 -0000
-Message-Id: <165063831174.22321.4451211478274309773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 22 Apr 2022 14:42:45 -0000
+Message-Id: <165063856574.25336.3068894554140113845@gitolite.kernel.org>
 
---===============6009183087637312146==
+--===============1453801567477675381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: f4f7d63287217ba25e5c80f5faae5e4f7118790e
-    new: 637674fa40059cddcc3ad2212728965072f62ea3
+  - ref: refs/heads/staging-testing
+    old: 55de6cb7f81c82dea1bdb12cd3818280af7abd87
+    new: 97042d0a75a1220bc2bb8f3cc99f3f72b1f81607
     log: |
-         6e6eebdf5e2455f089ccd000754a0deaeb79af82 serial: 8250: Also set sticky MCR bits in console restoration
-         637674fa40059cddcc3ad2212728965072f62ea3 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+         17c8129e06241b635c7945d109eec498301628d3 staging: rtl8192u: change get_key functions to return 0 instead of -1
+         cb65037baa62f90cfc0b14babdff0b71ceedbbbd staging: rtl8723bs: remove leftover code for other chips
+         2c61fd036ac51e7ca11ab2fb6252605e8fc9bd23 staging: r8188eu: Drop redundant memset
+         97042d0a75a1220bc2bb8f3cc99f3f72b1f81607 staging: rtl8192e: Fix signedness bug in rtllib_rx_assoc_resp()
          
 
---===============6009183087637312146==
+--===============1453801567477675381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638308 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650638307-fb064b9f14ac4349ca5ef3650b4088f7e1bd339c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650638563 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1650638562-f55b075aa9012d940d464427ca36901175c82ca6
 
-f4f7d63287217ba25e5c80f5faae5e4f7118790e 637674fa40059cddcc3ad2212728965072f62ea3 refs/heads/tty-linus
+55de6cb7f81c82dea1bdb12cd3818280af7abd87 97042d0a75a1220bc2bb8f3cc99f3f72b1f81607 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJiveQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S28QAJjHCOxGHsx1kS5XNv4d
-ubKpZBjZKcqmZ3wfRGbxxETek2LmJaaBeSDD8zVBTUx03ToNKLdj5NX2Ys0RCdwk
-55G/LN2Hk+EP48qX/WSmqMqbLI+lZZwWueP8iRJ80oYfOr0xQd7zaQLNaEQccFl1
-aKJM31vweQRDfKRvaYO2DnUmlVEk92Xd+fH/RAdnCOVO2vdy69zfiApJ26JQGF6e
-xP+zgsb8tluGNmZ8Z9RkBBM6lNshoRTCJveNZ6TVBlNLLUCNXPT6sTWFHQxnyJul
-rUFaO1O44wcd4ljB6oTtAsuG0tNrVSRZskrOPsPwBWqEQhFPL5VJfTGK8PII2lPx
-ey6LQ6ZrqB0xJPJ3mKQ13AOiH7c6DNjujT43TmKrbgr9HnHRCMcDZZkZhdBEL0OF
-jyxTUBfE1pVO/2h7x8S4Nqu5nIF33vNErplCgvsZEaxOsuIBK/fVDW1jEc0Bt7D4
-N/e/TXvY91wgmBpp7SJrPYv2nUX7N+rPMa6NECBGY/mSA9Gv/Kn7XEnQogM/rHLo
-/hJVnKi0jtNYmvh8qCFsZWs+SkLuurv3LNSFuSVLhvAvpOyRLWH/Y9jNA1EembW6
-ceDeqm4brXl0Wgp5gPe5GKGhiY7v1aohwWVK2I6nSjNpsdGv9cMSELYrbyu1j1VC
-YiXGAxo+/XXefNRcfrcnLp0Y
-=G1pg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJivuMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SlcQAMOk3I7PiGFeigB6hHnj
+lb5MPY4qnGL8DtGxEsjsAm3KdghiMXDxiWYLcSB8rgnzFTmATziENdvmtab67N+B
+ef53CIJ7P+zyjMgZ6DlJHHkoXl2dvE6JVWoPfCJite91QK0BLc4BOYez9K+xXrao
+smsHlUEPJVwgykKi0KwJB5VP+Ase1RdpLnfrHca+bmvuAaNGcsTspY7L6tA0A82Q
+4ruDBQ/SzWBmpE3wK6vtKZ5ZiU50lFlc45ddzZmiyhyu9b9tMRxZbIMgJ7I8lEPg
+bgKfBPCCMIsTSTIMfdbpXqRFbfpfsLoNvSG2M44P7R1hqZt1sSBffWiS8ePgDJHM
+sFjPTry/wVE9y9QSs6CfoiCYk05Q19aZTcnfWc1p8v5LNI6MAz4Qjrv72v8wg74k
+eCvwOB/GvUCchGVOfECq/C++yInz7x3Vd5qaTUAfF8O6RSuGIUpYiLt/uBQXw4pm
+bbNv4fijPAlSJqI52aqHOAIS0i+yxi90Zg7aq6oFvtHE9m2nJ7NnHdCvpl3P1raq
+zHzYTkNUBfZ6nB+stSwK5YzRjQpS8WfiuJgf9DoUgJ/hVVYzDwRHQPdkWpCktEB+
+lFPjf4JuSYL36adNjfbs2/fmPqf3ti4/y1fX3rHqoXXmbo2rBL2oAHPmp/3VcNgR
+5Bfbl/+M+NV9Bh2xH4qAILC5
+=eAa5
 -----END PGP SIGNATURE-----
 
---===============6009183087637312146==--
+--===============1453801567477675381==--
