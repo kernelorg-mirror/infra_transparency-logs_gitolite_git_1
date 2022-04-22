@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4022839195718817901=="
+Content-Type: multipart/mixed; boundary="===============7013835494783653382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 22 Apr 2022 16:29:01 -0000
-Message-Id: <165064494154.31353.2536512933672758918@gitolite.kernel.org>
+Date: Fri, 22 Apr 2022 16:29:11 -0000
+Message-Id: <165064495169.31499.10193223331451336226@gitolite.kernel.org>
 
---===============4022839195718817901==
+--===============7013835494783653382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 9c8774e629a1950c24b44e3c8fb93d76fb644b49
-    new: c78c5a660439d4d341a03b651541fda3ebe76160
-    log: revlist-9c8774e629a1-c78c5a660439.txt
+  - ref: refs/heads/dev-queue
+    old: 810430e874310b6b6d73b59cbff0a2c6a9ed18b6
+    new: 9528b49be4c619c631aaa3998fc29235f29c43e1
+    log: revlist-810430e87431-9528b49be4c6.txt
 
---===============4022839195718817901==
+--===============7013835494783653382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c8774e629a1-c78c5a660439.txt
+Content-Disposition: attachment; filename=revlist-810430e87431-9528b49be4c6.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -301,5 +301,36 @@ cb1e6bf42bce63158884ab83fb171b518693c771 Merge branch 'zynqmp-phy-config-optiona
 b1ad41384866aafadf24c6b0f7e7701c86bdddc2 ipv4: Initialise ->flowi4_scope properly in ICMP handlers.
 fb799dd49a25625db05af51dd141371f6f64d3d1 Merge branch 'ipv6-RT_ONLINK-remove-prep'
 c78c5a660439d4d341a03b651541fda3ebe76160 dt-bindings: net: mediatek,net: convert to the json-schema
+9730c059c677731dff59a137e7e2fe1418ccce87 ice: Add support for classid based queue selection
+e77ceb742838b1621f2f6b0ea65df2545e545262 igc: Remove igc_set_spd_dplx method
+213d607bbb282b8a3cc8240134ab1e53388f8600 ice: introduce common helper for retrieving VSI by vsi_num
+ded675eef44143137a29fe3934f9d253cdf289b4 ice: use min_t() to make code cleaner in ice_gnss
+0d68fe77314117940ab73ba2fd0ba3325c1c3c74 i40e: i40e_main: fix a missing check on list iterator
+d1e2e06e79b11403904bf54c05b1d6061117b33f ice: ice_sched: fix an incorrect NULL check on list iterator
+3ccbf8df1acf4bb9d1cc6581ce562375c4059e92 ixgbe: ensure IPsec VF<->PF compatibility
+a30a172646f75a4da8861dadb44a03ff7b9aa62a iavf: Fix error when changing ring parameters on ice PF
+051f9443c1e6076a0e5d484d8310e1dbaaa2054d ice: Add support for double vlan in switchdev
+50421b5c5343d38d91e6299329d3e2cbdacbd18c ice: link representors to PCI device
+1a83d5c869e37f32fd1c248fc2baeffe1b5bf05c Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+0b1d89b776a0c0bdc31a27aa68ec64289a50d184 ice: Add support for vlan tpid filters in switchdev
+3586db14d9e77d07b00c939befdd0e1ab5478782 ice: return ENOSPC when exceeding ICE_MAX_CHAIN_WORDS
+87fb349e1aeed8341c8335c76402f74665a622d7 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+e0742a9098e3160d6846d2e1d2cd059b36fc80aa i40e: Add VF VLAN pruning
+dbe7c844e79216cf871d279d783b2ae39e4bb048 ice: fix use-after-free when deinitializing mailbox snapshot
+959a7ae639c879eb0e254388086974907a8666ab ice: wait 5 s for EMP reset after firmware flash
+38dacf7146fcdf9f6515d786bf093b7cb1c2e08c ice: Fix race during aux device (un)plugging
+a474d528a4330953eb96372bcba515d6a8037944 ice: add newline to dev_dbg in ice_vf_fdir_dump_info
+9474b482fe907033a3beb7169ea0ab36b5e77b33 ice: always check VF VSI pointer values
+5606882f2d342796b71dded493a8e109e88af892 ice: remove return value comment for ice_reset_all_vfs
+46d7cbbb0d0946b64b8339419bab858769da0aae ice: fix wording in comment for ice_reset_vf
+6534b1fc9b8221a05beef63fbdd44fcebab1466c ice: add a function comment for ice_cfg_mac_antispoof
+7ad9b0284247ae5ecadea741bdd47444b2582491 ice: remove period on argument description in ice_for_each_vf
+20acf6d2e4b5977d8c99a2e272ecd85f6f63e0e9 ixgbe: Fix module_param allow_unsupported_sfp type
+06e4bad8a586f481f18ed56e544052229d1376c4 iavf: Add waiting for response from PF in set mac
+5be30cbb2a5d557d36203a685de528e80c76355b ice: Protect vf_state check by cfg_lock in ice_vc_process_vf_msg()
+9de5c76054b179d9a9823d60a4c6a981d8c35aea ice: fix PTP stale Tx timestamps cleanup
+a479f63bdb0303a7cab14bd1690cfb2a82388cc9 igb: Convert kmap() to kmap_local_page()
+1120555cee0cd36da6b2dc45f8496d9c346798c4 ice: get switch id on switchdev devices
+9528b49be4c619c631aaa3998fc29235f29c43e1 ice: switch: dynamically add vlan headers to a dummy packets
 
---===============4022839195718817901==--
+--===============7013835494783653382==--
