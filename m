@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1675908973305749570=="
+Content-Type: multipart/mixed; boundary="===============8349273365137385531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 23 Apr 2022 21:09:17 -0000
-Message-Id: <165074815710.22315.7724257382540109471@gitolite.kernel.org>
+Date: Sat, 23 Apr 2022 21:21:15 -0000
+Message-Id: <165074887512.31786.13734650313644913611@gitolite.kernel.org>
 
---===============1675908973305749570==
+--===============8349273365137385531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,85 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/jd/for-guenter
-    old: c49f725bc1cc1d6034f2be2f188299a4fa97584a
-    new: 210464650f55aefb9267ab1f8563d55eab520393
-    log: revlist-c49f725bc1cc-210464650f55.txt
+    old: 210464650f55aefb9267ab1f8563d55eab520393
+    new: e01098696c9ec334f750ce98b0e3f557595f2240
+    log: revlist-210464650f55-e01098696c9e.txt
   - ref: refs/heads/jd/jitter-samples
-    old: 5ca7463e1d125ffdfefe3a33e23717166fd99d16
-    new: 09da4973c51f65ec05fc628947ae814f40ceff3b
-    log: revlist-5ca7463e1d12-09da4973c51f.txt
+    old: 09da4973c51f65ec05fc628947ae814f40ceff3b
+    new: ed4ac16a04804c785e9ae754037b9119f0bbebd7
+    log: revlist-09da4973c51f-ed4ac16a0480.txt
   - ref: refs/heads/master
-    old: 9091d1f56d275bfdfabe46678d9afa75aade7172
-    new: ad5b5d2f9a3ba38ee64927256ede419995963235
-    log: revlist-9091d1f56d27-ad5b5d2f9a3b.txt
+    old: ad5b5d2f9a3ba38ee64927256ede419995963235
+    new: c4f43a9a1843dae60c370f8912337a72e6aceadf
+    log: revlist-ad5b5d2f9a3b-c4f43a9a1843.txt
 
---===============1675908973305749570==
+--===============8349273365137385531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c49f725bc1cc-210464650f55.txt
+Content-Disposition: attachment; filename=revlist-210464650f55-e01098696c9e.txt
 
-4850336ab61c288dc71beff9d6201be85a710c0c powerpc: define get_cycles macro for arch-override
-c1a1494b3fdacaf1502fa487b3e31f0651bac287 timekeeping: add raw clock fallback for random_get_entropy()
-2bb845b92c4350cbdf65e10a3801904c9a2594c8 m68k: use fallback for random_get_entropy() instead of zero
-066f43cbd80d7d19b11a229e9dfc0e24fb53867f riscv: use fallback for random_get_entropy() instead of zero
-96a5c6c2b26470d07f64a5fbf87d4926c466a7a1 mips: use fallback for random_get_entropy() instead of just c0 random
-c3d4bfaddc7f640fc147bc62f69eadb70030ac10 arm: use fallback for random_get_entropy() instead of zero
-f75324f5635f8c646a57ed298ecf60ed014c3d84 openrisc: use fallback for random_get_entropy() instead of zero
-e9ec7b52f7d6bc945d1733d530f08f419bb50ac9 nios2: use fallback for random_get_entropy() instead of zero
-f281048305fa73eacc65b9b5c31a5d0d94504b00 x86: use fallback for random_get_entropy() instead of zero
-3ab1697560027394025d908230668a547590dff2 um: use fallback for random_get_entropy() instead of zero
-4f77a23a167669b58e97dd145331f0f0e6af45b2 sparc: use fallback for random_get_entropy() instead of zero
-05f65b9fffe62c8b78aa78022fe6d8b8d43a1ded xtensa: use fallback for random_get_entropy() instead of zero
-ad5b5d2f9a3ba38ee64927256ede419995963235 random: insist on random_get_entropy() existing in order to simplify
-09da4973c51f65ec05fc628947ae814f40ceff3b random: vary jitter iterations based on cycle counter speed
-210464650f55aefb9267ab1f8563d55eab520393 [TESTING ONLY] Tempt fate again by merging /dev/urandom and /dev/random
+97fa45811fd408732689188eb7a53e3e6001bd5e parisc: define get_cycles macro for arch-override
+6e06d14cc7650b6eeaba236ebc36ee28649e92a8 alpha: define get_cycles macro for arch-override
+e87588cc53e3e8a3a7fa11c9c5229d9f7cd885cf powerpc: define get_cycles macro for arch-override
+10553c9c06149075117a8fedd6865916b5cccebe timekeeping: add raw clock fallback for random_get_entropy()
+5f251f320757adc3ec57f6d4e7f491d1dd234628 m68k: use fallback for random_get_entropy() instead of zero
+826acbffb3b7769545a3dc8b84fb94da569d4250 riscv: use fallback for random_get_entropy() instead of zero
+287511be98476aecc940b707b0fbadf2137978c7 mips: use fallback for random_get_entropy() instead of just c0 random
+bafe458e273d1980a06e5596ad784eef0b3f0a9b arm: use fallback for random_get_entropy() instead of zero
+f744835280aec539e52386cda0f31d74364abce1 openrisc: use fallback for random_get_entropy() instead of zero
+40f1fbfb87a8cf37b44410a39faf44977866978c nios2: use fallback for random_get_entropy() instead of zero
+4b0ee8bb278f54bf2e26c78713c9b38cb546ed57 x86: use fallback for random_get_entropy() instead of zero
+35fe5435c9599c0ecf90800104b4cc0a12089e49 um: use fallback for random_get_entropy() instead of zero
+0e3f1d6331d4c06aa409a67b1ec45bd95564704f sparc: use fallback for random_get_entropy() instead of zero
+9ccbaa5964377e1ffc6d8ca92c69aa9585cd1770 xtensa: use fallback for random_get_entropy() instead of zero
+c4f43a9a1843dae60c370f8912337a72e6aceadf random: insist on random_get_entropy() existing in order to simplify
+ed4ac16a04804c785e9ae754037b9119f0bbebd7 random: vary jitter iterations based on cycle counter speed
+e01098696c9ec334f750ce98b0e3f557595f2240 [TESTING ONLY] Tempt fate again by merging /dev/urandom and /dev/random
 
---===============1675908973305749570==
+--===============8349273365137385531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ca7463e1d12-09da4973c51f.txt
+Content-Disposition: attachment; filename=revlist-09da4973c51f-ed4ac16a0480.txt
 
-4850336ab61c288dc71beff9d6201be85a710c0c powerpc: define get_cycles macro for arch-override
-c1a1494b3fdacaf1502fa487b3e31f0651bac287 timekeeping: add raw clock fallback for random_get_entropy()
-2bb845b92c4350cbdf65e10a3801904c9a2594c8 m68k: use fallback for random_get_entropy() instead of zero
-066f43cbd80d7d19b11a229e9dfc0e24fb53867f riscv: use fallback for random_get_entropy() instead of zero
-96a5c6c2b26470d07f64a5fbf87d4926c466a7a1 mips: use fallback for random_get_entropy() instead of just c0 random
-c3d4bfaddc7f640fc147bc62f69eadb70030ac10 arm: use fallback for random_get_entropy() instead of zero
-f75324f5635f8c646a57ed298ecf60ed014c3d84 openrisc: use fallback for random_get_entropy() instead of zero
-e9ec7b52f7d6bc945d1733d530f08f419bb50ac9 nios2: use fallback for random_get_entropy() instead of zero
-f281048305fa73eacc65b9b5c31a5d0d94504b00 x86: use fallback for random_get_entropy() instead of zero
-3ab1697560027394025d908230668a547590dff2 um: use fallback for random_get_entropy() instead of zero
-4f77a23a167669b58e97dd145331f0f0e6af45b2 sparc: use fallback for random_get_entropy() instead of zero
-05f65b9fffe62c8b78aa78022fe6d8b8d43a1ded xtensa: use fallback for random_get_entropy() instead of zero
-ad5b5d2f9a3ba38ee64927256ede419995963235 random: insist on random_get_entropy() existing in order to simplify
-09da4973c51f65ec05fc628947ae814f40ceff3b random: vary jitter iterations based on cycle counter speed
+97fa45811fd408732689188eb7a53e3e6001bd5e parisc: define get_cycles macro for arch-override
+6e06d14cc7650b6eeaba236ebc36ee28649e92a8 alpha: define get_cycles macro for arch-override
+e87588cc53e3e8a3a7fa11c9c5229d9f7cd885cf powerpc: define get_cycles macro for arch-override
+10553c9c06149075117a8fedd6865916b5cccebe timekeeping: add raw clock fallback for random_get_entropy()
+5f251f320757adc3ec57f6d4e7f491d1dd234628 m68k: use fallback for random_get_entropy() instead of zero
+826acbffb3b7769545a3dc8b84fb94da569d4250 riscv: use fallback for random_get_entropy() instead of zero
+287511be98476aecc940b707b0fbadf2137978c7 mips: use fallback for random_get_entropy() instead of just c0 random
+bafe458e273d1980a06e5596ad784eef0b3f0a9b arm: use fallback for random_get_entropy() instead of zero
+f744835280aec539e52386cda0f31d74364abce1 openrisc: use fallback for random_get_entropy() instead of zero
+40f1fbfb87a8cf37b44410a39faf44977866978c nios2: use fallback for random_get_entropy() instead of zero
+4b0ee8bb278f54bf2e26c78713c9b38cb546ed57 x86: use fallback for random_get_entropy() instead of zero
+35fe5435c9599c0ecf90800104b4cc0a12089e49 um: use fallback for random_get_entropy() instead of zero
+0e3f1d6331d4c06aa409a67b1ec45bd95564704f sparc: use fallback for random_get_entropy() instead of zero
+9ccbaa5964377e1ffc6d8ca92c69aa9585cd1770 xtensa: use fallback for random_get_entropy() instead of zero
+c4f43a9a1843dae60c370f8912337a72e6aceadf random: insist on random_get_entropy() existing in order to simplify
+ed4ac16a04804c785e9ae754037b9119f0bbebd7 random: vary jitter iterations based on cycle counter speed
 
---===============1675908973305749570==
+--===============8349273365137385531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9091d1f56d27-ad5b5d2f9a3b.txt
+Content-Disposition: attachment; filename=revlist-ad5b5d2f9a3b-c4f43a9a1843.txt
 
-4850336ab61c288dc71beff9d6201be85a710c0c powerpc: define get_cycles macro for arch-override
-c1a1494b3fdacaf1502fa487b3e31f0651bac287 timekeeping: add raw clock fallback for random_get_entropy()
-2bb845b92c4350cbdf65e10a3801904c9a2594c8 m68k: use fallback for random_get_entropy() instead of zero
-066f43cbd80d7d19b11a229e9dfc0e24fb53867f riscv: use fallback for random_get_entropy() instead of zero
-96a5c6c2b26470d07f64a5fbf87d4926c466a7a1 mips: use fallback for random_get_entropy() instead of just c0 random
-c3d4bfaddc7f640fc147bc62f69eadb70030ac10 arm: use fallback for random_get_entropy() instead of zero
-f75324f5635f8c646a57ed298ecf60ed014c3d84 openrisc: use fallback for random_get_entropy() instead of zero
-e9ec7b52f7d6bc945d1733d530f08f419bb50ac9 nios2: use fallback for random_get_entropy() instead of zero
-f281048305fa73eacc65b9b5c31a5d0d94504b00 x86: use fallback for random_get_entropy() instead of zero
-3ab1697560027394025d908230668a547590dff2 um: use fallback for random_get_entropy() instead of zero
-4f77a23a167669b58e97dd145331f0f0e6af45b2 sparc: use fallback for random_get_entropy() instead of zero
-05f65b9fffe62c8b78aa78022fe6d8b8d43a1ded xtensa: use fallback for random_get_entropy() instead of zero
-ad5b5d2f9a3ba38ee64927256ede419995963235 random: insist on random_get_entropy() existing in order to simplify
+97fa45811fd408732689188eb7a53e3e6001bd5e parisc: define get_cycles macro for arch-override
+6e06d14cc7650b6eeaba236ebc36ee28649e92a8 alpha: define get_cycles macro for arch-override
+e87588cc53e3e8a3a7fa11c9c5229d9f7cd885cf powerpc: define get_cycles macro for arch-override
+10553c9c06149075117a8fedd6865916b5cccebe timekeeping: add raw clock fallback for random_get_entropy()
+5f251f320757adc3ec57f6d4e7f491d1dd234628 m68k: use fallback for random_get_entropy() instead of zero
+826acbffb3b7769545a3dc8b84fb94da569d4250 riscv: use fallback for random_get_entropy() instead of zero
+287511be98476aecc940b707b0fbadf2137978c7 mips: use fallback for random_get_entropy() instead of just c0 random
+bafe458e273d1980a06e5596ad784eef0b3f0a9b arm: use fallback for random_get_entropy() instead of zero
+f744835280aec539e52386cda0f31d74364abce1 openrisc: use fallback for random_get_entropy() instead of zero
+40f1fbfb87a8cf37b44410a39faf44977866978c nios2: use fallback for random_get_entropy() instead of zero
+4b0ee8bb278f54bf2e26c78713c9b38cb546ed57 x86: use fallback for random_get_entropy() instead of zero
+35fe5435c9599c0ecf90800104b4cc0a12089e49 um: use fallback for random_get_entropy() instead of zero
+0e3f1d6331d4c06aa409a67b1ec45bd95564704f sparc: use fallback for random_get_entropy() instead of zero
+9ccbaa5964377e1ffc6d8ca92c69aa9585cd1770 xtensa: use fallback for random_get_entropy() instead of zero
+c4f43a9a1843dae60c370f8912337a72e6aceadf random: insist on random_get_entropy() existing in order to simplify
 
---===============1675908973305749570==--
+--===============8349273365137385531==--
