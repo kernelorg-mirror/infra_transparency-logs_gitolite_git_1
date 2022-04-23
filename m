@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 23 Apr 2022 02:37:15 -0000
-Message-Id: <165068143551.7533.3374687746993943494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Sat, 23 Apr 2022 02:39:05 -0000
+Message-Id: <165068154550.8174.13336940812018286244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: 8ec1442953c66a1d8462cccd8c20b7ba561f5915
-    new: b09f16ef6f632ab3e4452f8d2f89b1e84334a199
+    old: b09f16ef6f632ab3e4452f8d2f89b1e84334a199
+    new: 760d10a5b792ca94434f53a161e521a924ab77c2
     log: |
-         b09f16ef6f632ab3e4452f8d2f89b1e84334a199 RISC-V: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
+         760d10a5b792ca94434f53a161e521a924ab77c2 RISC-V: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
          
