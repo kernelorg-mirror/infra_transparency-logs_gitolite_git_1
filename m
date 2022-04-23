@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Sat, 23 Apr 2022 03:45:58 -0000
-Message-Id: <165068555812.20685.18149158050914912788@gitolite.kernel.org>
+Date: Sat, 23 Apr 2022 03:45:59 -0000
+Message-Id: <165068555999.20748.12368988142855438601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    new: 1a358d35066487d228a68303d808bc4721c6b1b9
+  - ref: refs/heads/rproc-next
+    old: 58b7c856519fe946620ee68dd0c37bd3c695484a
+    new: 4e55a6cf48119243ca05c16bcb3bd3887a3c68b5
     log: |
-         1a358d35066487d228a68303d808bc4721c6b1b9 rpmsg: qcom_smd: Fix irq_of_parse_and_map() return value
+         ee651cd1e944df7d1553bb2c5593e887f12d6cda dt-bindings: remoteproc: qcom: pas: Add sc8280xp adsp and nsp pair
+         4e55a6cf48119243ca05c16bcb3bd3887a3c68b5 remoteproc: qcom: pas: Add sc8280xp remoteprocs
          
