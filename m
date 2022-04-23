@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2440364328186615718=="
+Content-Type: multipart/mixed; boundary="===============0654342867185976066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 23 Apr 2022 10:54:44 -0000
-Message-Id: <165071128407.16780.14343524003001098814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 23 Apr 2022 11:01:18 -0000
+Message-Id: <165071167880.21748.16995128270314849503@gitolite.kernel.org>
 
---===============2440364328186615718==
+--===============0654342867185976066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 1dc9f1a66e1718479e1c4f95514e1750602a3cb9
-    new: c95ce3a23dcda678f6f7811dd39b6d14eeb6f192
+  - ref: refs/heads/master
+    old: b3aa8ca87589ed92a75eff48f920de2cd238345b
+    new: e5041cc7dcb8578901f2c5d41da2e40e2ada6042
     log: |
-         c95ce3a23dcda678f6f7811dd39b6d14eeb6f192 topology: Fix up build warning in topology_is_visible()
+         e5041cc7dcb8578901f2c5d41da2e40e2ada6042 4.9-stable patches
          
 
---===============2440364328186615718==
+--===============0654342867185976066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650711282 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1650711281-b2d6bd387129c1d30eb32715904cc5ef93bb0e9d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650711677 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1650711674-cfee7bf36d2773e1f2a6061fede05ecaa40f6cc5
 
-1dc9f1a66e1718479e1c4f95514e1750602a3cb9 c95ce3a23dcda678f6f7811dd39b6d14eeb6f192 refs/heads/driver-core-linus
+b3aa8ca87589ed92a75eff48f920de2cd238345b e5041cc7dcb8578901f2c5d41da2e40e2ada6042 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJj2vIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M9sQALPTA8J69ym8i03BUFmg
-9njYMHI4VGxl0xwgm2HJ8fDp0Sl9aM8V4f50tvUSVTSW+XSnC3ANl6KY7R2TSrQC
-osSlg4hLnYoWouhckrqflH/OmTI0RCyD+oKrNcC7YhPcQY9p4kpoEya/g2hwM5jt
-tu0FwqUROGczqQebnPSO4sIHUdokyTp60iNZdkICnMHKzc0TZPUzF1TPd+jyDvWt
-kTqYVI0s8HUHIGCNIH7qjc171oJYI/xuYnAq/2L2Xog9Nd8fo/x/UWSLFXtgSPJW
-cCySZvou78MNCswdqI6UQqYmpP2vAj6w21UTZHBj6+c0IDWyJ3ae+Ezq0zPIrTtR
-t+7epH1ybHUp2kGXgZhNvhcIc1tt3GX1p7wF8Wzh7rZ/mzIzbEAhEiW02NU5jbTv
-2t9aHWler4HCe9Ya4TrfYfoedKx6vZU9BN0vlOHs1Hq+bcZix94/c6KSxrdIUDrH
-hvlP2ewxQTF7eEPCAcdtNjqWyQOgzXEKCLzCq9L04DJhVSg7GWiU+NR7xneEKRgH
-AOOBJrvVeyErTC8Y09stBV1tgU3mNpo4HGClA3Zik1tkICf/3dCFLLgZ7HG2R9a7
-QItR/EqUJte8uEP1/QwsuFtV55ZkTMLqHEr6dWjnjKSnUPhz97bko9xFWGcImCVH
-5BtYBzI0Dabxe4/cPsOazbyc
-=9k1A
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJj3H4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nfYQAIXuomF10fFvez19dcqH
+mPRQlCEg/Cf0268UAi54kOX1yAfbpq/YfjenHyQcApwW7oY9aBao9VSP2ulwIkT/
+YLh24H1pHNqjfshZpAD1lNFNUCbw1TeT2oAdn1UW3ly879G635rcWU1BOiNX/EOA
+K8dT2GsGkF6xym/+44U2FeHSc6UlEA6ii9ZvKUER892uVfaGLcdilFucXnNgaPNn
+mTMGSdSXvm90UB+kbUon9lehC2gaI8xHQw6tt6Xhgo96MoVGp0D7CY0PMGfq43MB
+lWH5XcpjyevZJc69/g4HzAp90j/fs6gze6Wa1hyrLbxuDZ48XUmC35kb0inNcFV1
+F5m6E4p3poyPwheZDQ/a2u1G0zeD1QXtFautHIPxiRB9eVJmUUSViHjXwGIMAFKF
++StHRTj0fDYwQJmQLOa7Jy7SE5MXWt/jrUT046o9PtULMRjYzDKJXCLkrv/xia+h
+RxPhDakXBCU0Vnj5fUm57UOQRu9T+bG2cf+Db+dI8hCZ1KKVUW1W7ImddgSZrY86
+DOWUBMvoCPxD0nzrY8+TpJ/wEhqFiLW0qoctD1tG66brmRxVzGhqhxGBZbQeHxrc
+AGCACwpaaT1j1mPifXEBf382+ogKh0HZctN5soqPNqGYFwqEMehx88jXM1yGNr8v
+wEgAOGtRTGc/tE5KZpyJs+zu
+=QGIz
 -----END PGP SIGNATURE-----
 
---===============2440364328186615718==--
+--===============0654342867185976066==--
