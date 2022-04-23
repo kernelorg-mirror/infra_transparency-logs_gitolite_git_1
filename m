@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 23 Apr 2022 02:07:27 -0000
-Message-Id: <165067964723.20825.15587916775885775460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Sat, 23 Apr 2022 02:26:54 -0000
+Message-Id: <165068081412.1432.5237105138112920890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 0d13cee87bf98906f935e8ee0ffaea5e54557ea4
-    new: a2e08b1f14c530f9bc210ed1d24b8b31760f0550
+  - ref: refs/heads/fixes
+    old: 39ff5ca8bb244b31ef22b04974671cb165b7f6a6
+    new: b09f16ef6f632ab3e4452f8d2f89b1e84334a199
     log: |
-         a2e08b1f14c530f9bc210ed1d24b8b31760f0550 Sat Apr 23 02:06:43 AM UTC 2022
+         b09f16ef6f632ab3e4452f8d2f89b1e84334a199 RISC-V: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
          
