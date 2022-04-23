@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 23 Apr 2022 18:22:34 -0000
-Message-Id: <165073815462.14297.11453558941765662016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sat, 23 Apr 2022 19:18:22 -0000
+Message-Id: <165074150236.17370.8082875595777420825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: a2e08b1f14c530f9bc210ed1d24b8b31760f0550
-    new: e6669041232366f7210accd7ed0540753dd8bb56
+  - ref: refs/tags/scsi-fixes
+    old: 0eb42fa4c41c5bf6a95a6d3b8a8afcb7fb5b9044
+    new: c2d8eac8e961bf19efd97475bc61fdb7bd5448ba
     log: |
-         e6669041232366f7210accd7ed0540753dd8bb56 Sat Apr 23 06:21:59 PM UTC 2022
+         faad6cebded8e0fd902b672f220449b93db479eb scsi: sr: Do not leak information in ioctl
          
