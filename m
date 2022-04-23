@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8013956130631979399=="
+Content-Type: multipart/mixed; boundary="===============8260564639568212086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 23 Apr 2022 17:06:29 -0000
-Message-Id: <165073358983.29579.15425309205806995615@gitolite.kernel.org>
+Date: Sat, 23 Apr 2022 17:06:38 -0000
+Message-Id: <165073359885.29683.599677477875307373@gitolite.kernel.org>
 
---===============8013956130631979399==
+--===============8260564639568212086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: c78c5a660439d4d341a03b651541fda3ebe76160
-    new: cfc1d91a7d78cf9de25b043d81efcc16966d55b3
-    log: revlist-c78c5a660439-cfc1d91a7d78.txt
+  - ref: refs/heads/mlx5-queue
+    old: 32cddffa03ebd4f4be31505b8688e433f210f0e9
+    new: 0374294ea0ac7671b791ce5932e06ebb537a5537
+    log: revlist-32cddffa03eb-0374294ea0ac.txt
 
---===============8013956130631979399==
+--===============8260564639568212086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c78c5a660439-cfc1d91a7d78.txt
+Content-Disposition: attachment; filename=revlist-32cddffa03eb-0374294ea0ac.txt
 
 5e7260712b9a76de19c32f15d667f8f93e573978 qed: Remove IP services API.
 869376d0859acf40c83b2c3942ad9d5a8b5d31e4 mlxsw: core_linecards: Fix size of array element during ini_files allocation
@@ -51,5 +51,12 @@ a5114df6c61336269558d3316079d25867716e64 selftests: forwarding: add helper for r
 90b9566aa5cd3f99e5923d364ac976d5d3589fa6 selftests: forwarding: add a test for local_termination.sh
 07c8a2dd69f6102adc12a621b4ef5e17d2a5b40d selftests: drivers: dsa: add a subset of forwarding selftests
 cfc1d91a7d78cf9de25b043d81efcc16966d55b3 Merge branch 'dsa-selftests'
+9bdb3da4c38988f08124b3be694f192faf7b9f11 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+8f371fb3337641adc666a0dbc46000eb89b3c771 Revert "net: openvswitch: remove unneeded semicolon"
+a1abca93a1b11db10a93d7de59810f2b84b58699 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+48af4de7cb47ab907ed371f120abc36e44a47835 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+eca10ec95e94624aa5f2fb41298d7de00ee9f23a net/mlx5e: Report header-data split state through ethtool
+2c52ce5abca6539f0514abc95d418cfedfe93f84 net: Disable LRO feature if no RXCSUM
+0374294ea0ac7671b791ce5932e06ebb537a5537 Merge branch 'patchq/393730' into mlx5-queue
 
---===============8013956130631979399==--
+--===============8260564639568212086==--
