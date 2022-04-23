@@ -1,62 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8260564639568212086=="
+Content-Type: multipart/mixed; boundary="===============3781405815562681624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 23 Apr 2022 17:06:38 -0000
-Message-Id: <165073359885.29683.599677477875307373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 23 Apr 2022 17:11:01 -0000
+Message-Id: <165073386127.32505.906997033936073093@gitolite.kernel.org>
 
---===============8260564639568212086==
+--===============3781405815562681624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 32cddffa03ebd4f4be31505b8688e433f210f0e9
-    new: 0374294ea0ac7671b791ce5932e06ebb537a5537
-    log: revlist-32cddffa03eb-0374294ea0ac.txt
+  - ref: refs/heads/master
+    old: 45ab9400e73f34103e73c18a73280c9aa1650e98
+    new: 13bc32bad7059d6c5671e9d037e6e3ed001cc0f4
+    log: revlist-45ab9400e73f-13bc32bad705.txt
 
---===============8260564639568212086==
+--===============3781405815562681624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32cddffa03eb-0374294ea0ac.txt
+Content-Disposition: attachment; filename=revlist-45ab9400e73f-13bc32bad705.txt
 
-5e7260712b9a76de19c32f15d667f8f93e573978 qed: Remove IP services API.
-869376d0859acf40c83b2c3942ad9d5a8b5d31e4 mlxsw: core_linecards: Fix size of array element during ini_files allocation
-b649695248b15bfd921abda7c9096e1a93f8d67d net: phy: LAN87xx: add ethtool SQI support
-58f373f8d7873bfef0e8414bca554cf99571fa14 MAINTAINERS: Add maintainers for Microchip T1 Phy driver
-e21bebf9727a2e96c89c1f35e8f3e04e37afd6de Merge branch 'add-ethtool-sqi-support-for-lan87xx-t1-phy'
-f28c47bb9fd3286a99194876a6e528be87484c75 tsnep: Remove useless null check before call of_node_put()
-31693d02b06ed2f0ac668cede16cf3258e86204e net: hns3: Fix spelling mistake "actvie" -> "active"
-1761fed2567807f26fbd53032ff622f55978c7a9 mptcp: don't send RST for single subflow
-0348c690ed3731298fb73e37941475ed86b47f54 mptcp: add the fallback check
-0530020a7c8f2204e784f0dbdc882bbd961fdbde mptcp: track and update contiguous data status
-1e39e5a32ad7fdd82d6e071aa14ecd511eedc1f7 mptcp: infinite mapping sending
-f8d4bcacff3b77f8778ae3ab97e0d175e861babf mptcp: infinite mapping receiving
-104125b82e5c92554c500b50a08287aa6a981753 mptcp: add mib for infinite map sending
-d9fdd02d4265c4c4fd5264b32b46034239192b7e mptcp: dump infinite_map field in mptcp_dump_mpext
-8bd03be3418c7b723996b621414382427cd44dc0 selftests: mptcp: add infinite map mibs check
-988998ac4bd9953c034d9522149047cf5782adc0 Merge branch 'mptcp-tcp-fallback'
-b343734ee26537bc0b81a32c79e789e6387643cd selftests: forwarding: add option to run tests with stable MAC addresses
-fe32dffdcd33d34bc9bab267a55a8726074b0010 selftests: forwarding: add TCPDUMP_EXTRA_FLAGS to lib.sh
-6182c5c5098f350fd394df818b99acd075e37189 selftests: forwarding: multiple instances in tcpdump helper
-f23cddc72294a345b4a8c3662b0ab6077c7583c7 selftests: forwarding: add helpers for IP multicast group joins/leaves
-a5114df6c61336269558d3316079d25867716e64 selftests: forwarding: add helper for retrieving IPv6 link-local address of interface
-476a4f05d9b83f78c2511c01376b40609ad83834 selftests: forwarding: add a no_forwarding.sh test
-90b9566aa5cd3f99e5923d364ac976d5d3589fa6 selftests: forwarding: add a test for local_termination.sh
-07c8a2dd69f6102adc12a621b4ef5e17d2a5b40d selftests: drivers: dsa: add a subset of forwarding selftests
-cfc1d91a7d78cf9de25b043d81efcc16966d55b3 Merge branch 'dsa-selftests'
-9bdb3da4c38988f08124b3be694f192faf7b9f11 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
-8f371fb3337641adc666a0dbc46000eb89b3c771 Revert "net: openvswitch: remove unneeded semicolon"
-a1abca93a1b11db10a93d7de59810f2b84b58699 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
-48af4de7cb47ab907ed371f120abc36e44a47835 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
-eca10ec95e94624aa5f2fb41298d7de00ee9f23a net/mlx5e: Report header-data split state through ethtool
-2c52ce5abca6539f0514abc95d418cfedfe93f84 net: Disable LRO feature if no RXCSUM
-0374294ea0ac7671b791ce5932e06ebb537a5537 Merge branch 'patchq/393730' into mlx5-queue
+fd0a4b39870d49ff15f6966470185409e261f20f Input: cypress-sf - register a callback to disable the regulators
+022074918042465668db9b0f768e2260b1e39c59 drm/radeon: fix logic inversion in radeon_sync_resv
+f8e6b7babfeb40987e946bc1427609a9976017fa dma-buf-map: remove renamed header file
+323b190ba2debbcc03c01d2edaf1ec6b43e6ae43 io_uring: free iovec if file assignment fails
+c0713540f6d55c53dca65baaead55a5a8b20552d io_uring: fix leaks on IOPOLL and CQE_SKIP
+81022a170462d38ea10612cb67e8e2c529d58abe Input: omap4-keypad - fix pm_runtime_get_sync() error checking
+470776c6b03491a3e82c644737a6da5466b8b3eb Input: add Marine Navigation Keycodes
+ff2695e52c9936febf65aa36a1769881da71bec5 bcache: put bch_bio_map() back to correct location in journal_write_unlocked()
+9dca4168a37c9cfe182f077f0d2289292e9e3656 bcache: fix wrong bdev parameter when calling bio_alloc_clone() in do_bio_hook()
+f92055ae0acb035891e988ce345d6b81a0316423 drm/panel/raspberrypi-touchscreen: Avoid NULL deref if not initialised
+5f18c0782b99e26121efa93d20b76c19e17aa1dd drm/panel/raspberrypi-touchscreen: Initialise the bridge in prepare
+4dee8eebcfc1a99d7550855ec40720503df4842b drm/vc4: Fix build error when CONFIG_DRM_VC4=y && CONFIG_RASPBERRYPI_FIRMWARE=m
+298799a28264ce400d9ff95c51b7adcb123d866e drm/vmwgfx: Fix gem refcounting and memory evictions
+3d0b93d92a2790337aa9d18cb332d02356a24126 drm/vc4: Use pm_runtime_resume_and_get to fix pm_runtime_get_sync() usage
+169466d4e59ca204683998b7f45673ebf0eb2de6 Revert "drm: of: Properly try all possible cases for bridge/panel detection"
+b089c0a9b14c354a0c3a421e09af3208cb7c232c Revert "drm: of: Lookup if child node has panel or bridge"
+94f4c4965e5513ba624488f4b601d6b385635aec drm/amdgpu: partial revert "remove ctx->lock" v2
+c18a2a280c073f70569a91ef0d7434d12e66e200 Merge tag 'drm-misc-fixes-2022-04-22' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+1f5e98e723a0be814181524a7e6aaf87a805cdc9 Merge tag 'io_uring-5.18-2022-04-22' of git://git.kernel.dk/linux-block
+8467f9e34955c6923e0ed63b1c2dbbf1df70b908 Merge tag 'block-5.18-2022-04-22' of git://git.kernel.dk/linux-block
+0fe86b27cbad8003e90aa78ebd19c3d8a3eb89a5 Merge tag 'input-for-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+13bc32bad7059d6c5671e9d037e6e3ed001cc0f4 Merge tag 'drm-fixes-2022-04-23' of git://anongit.freedesktop.org/drm/drm
 
---===============8260564639568212086==--
+--===============3781405815562681624==--
