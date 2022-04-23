@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 23 Apr 2022 08:16:18 -0000
-Message-Id: <165070177847.32094.16929645960828412237@gitolite.kernel.org>
+Date: Sat, 23 Apr 2022 08:16:28 -0000
+Message-Id: <165070178866.32228.5460263579536074720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: a7fdf95e04f4a14bee461d9f72861a5063a7682e
     new: 7c39c50dcb7419a987a936d393e095e8b4579653
     log: |
