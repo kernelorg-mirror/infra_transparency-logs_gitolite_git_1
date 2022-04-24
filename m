@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1364452019375375588=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 24 Apr 2022 19:34:53 -0000
-Message-Id: <165082889322.19806.5561685679719879976@gitolite.kernel.org>
-
---===============1364452019375375588==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 24 Apr 2022 20:05:47 -0000
+Message-Id: <165083074719.9037.8090140266497561488@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 22da5264abf497a10a4ed629f07f4ba28a7ed5eb
-    new: 5206548f6e6741fccbce8d95cff8faeba0738c99
-    log: revlist-22da5264abf4-5206548f6e67.txt
-
---===============1364452019375375588==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22da5264abf4-5206548f6e67.txt
-
-e2932d1f6f055b2af2114c7e64a26dc1b5593d0c EDAC/synopsys: Read the error count from the correct register
-60490e7966659b26d74bf1fa4aa8693d9a94ca88 perf/core: Fix perf_mmap fail when CONFIG_PERF_USE_VMALLOC enabled
-528c9f1daf20da14d3e7348dc4b1d7c55743ee64 perf/x86/cstate: Add SAPPHIRERAPIDS_X CPU support
-d2b9be1f4af5cabed1ee5bb341f887f64b1c1669 powerpc/time: Always set decrementer in timer_interrupt()
-26a62b750a4e6364b0393562f66759b1494c3a01 KVM: PPC: Fix TCE handling for VFIO
-0dcad700bb2776e3886fe0a645a4bf13b1e747cd powerpc/perf: Fix power9 event alternatives
-c6cc9a852f123301d5271f1484df8e961b2b64f1 powerpc/perf: Fix power10 event alternatives
-bb82c574691daf8f7fa9a160264d15c5804cb769 powerpc/perf: Fix 32bit compile
-f2edd118d02dd11449b126f786f09749ca152ba5 page_alloc: use vmalloc_huge for large system hash
-9becb688913023124464c5463b4389b3b293f0e7 kvmalloc: use vmalloc_huge for vmalloc allocations
-b877ca4dc816aeee1ac2e27eae3f2ed42179d707 Merge tag 'edac_urgent_for_v5.18_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-f48ffef19dfd6a3c2a6872d4c680c90e14103fdf Merge tag 'perf_urgent_for_v5.18_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5206548f6e6741fccbce8d95cff8faeba0738c99 Merge tag 'powerpc-5.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-
---===============1364452019375375588==--
+    old: ccd753014ac1ebb12dbcce262b515914d99e3a67
+    new: 0ab99ec186c557c6e5e81f7a50047cc045e4d331
+    log: |
+         1de3179ee334650ba06c1501d3c2b4964bd1e773 foo
+         f15ca1393cfb306340659a108c4d2e39c5963ad9 foo
+         9e4b9ff8aaadfbdb380242a051e766cd5b1abfd8 foo
+         a5257e082562ffe7a5d50716d03ee1f44c98bd39 foo
+         f42d347bedccad1dbc366be23e9d13ca870ec558 foo
+         3542f6b22eec2c36f053a994f302080602273198 foo
+         578d346b2bd2ee67984db8fb0f5919649e27266e foo
+         0ab99ec186c557c6e5e81f7a50047cc045e4d331 foo
+         
