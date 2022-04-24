@@ -1,43 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============3449813268768604310=="
+Content-Type: multipart/mixed; boundary="===============4062852389485093536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/linux-firmware
-Date: Sun, 24 Apr 2022 13:10:32 -0000
-Message-Id: <165080583253.523.16134624747645248382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sun, 24 Apr 2022 14:01:26 -0000
+Message-Id: <165080888651.951.11627786026684858063@gitolite.kernel.org>
 
---===============3449813268768604310==
+--===============4062852389485093536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/linux-firmware
-user: kvalo
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/ath10k-20220423
-    old: 37a2769252d1016d73eafb77ac19def3712eb0aa
-    new: 44b8aee72444abb93721da9a240e708095a126c4
-    log: revlist-37a2769252d1-44b8aee72444.txt
+  - ref: refs/heads/imx/bindings
+    old: 015553c519c8bca72579298cd20b2b6e1f30d908
+    new: b4c8842bbbaac154e5db70356668dbf75afb05bd
+    log: |
+         e8ff45a8ef5740bd4f770e3ff8c20332efee2e25 dt-bindings: arm: Add i.MX8M Mini Toradex Verdin based Menlo board
+         b4c8842bbbaac154e5db70356668dbf75afb05bd dt-bindings: arm: fsl: add ls1021a-iot board
+         
+  - ref: refs/heads/imx/dt
+    old: e66f62acc42d8f7a938b6f92e1feb065f2bb63cb
+    new: 83a24d5272719df5a8969f3a408dc1f9b35e86b0
+    log: revlist-e66f62acc42d-83a24d527271.txt
+  - ref: refs/heads/imx/dt64
+    old: 7899eb6cb15d54a907adc73efacb4a373c697598
+    new: cc545760170590b5e6733ebfef8398f97d7dee05
+    log: |
+         510c527b4ff574bda5c20429eb563eda63c41198 arm64: dts: imx8mm: Add i.MX8M Mini Toradex Verdin based Menlo board
+         cc545760170590b5e6733ebfef8398f97d7dee05 arm64: dts: imx8mn-evk: Add UART3 support
+         
+  - ref: refs/heads/imx/fixes
+    old: 8be9cdc6911877843c4f13e44e836382818eb355
+    new: 0310b5aa0656a94102344f1e9ae2892e342a665d
+    log: |
+         45974e4276a8d6653394f66666fc57d8ffa6de9a ARM: dts: imx6ull-colibri: fix vqmmc regulator
+         0310b5aa0656a94102344f1e9ae2892e342a665d arm64: dts: imx8mn-ddr4-evk: Describe the 32.768 kHz PMIC clock
+         
 
---===============3449813268768604310==
+--===============4062852389485093536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37a2769252d1-44b8aee72444.txt
+Content-Disposition: attachment; filename=revlist-e66f62acc42d-83a24d527271.txt
 
-f56505fe2e45d02a15b2a2308199291e66ee3494 ath11k: QCN9074 hw1.0: add board-2.bin
-97f8b7563d6f18fc38f32934ea7f12a6ca166e5d ath11k: QCN9074 hw1.0: add to WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
-a50132f7fb1573a15b84f917165b2cdb719baaa6 ath11k: WCN6750 hw1.0: add board-2.bin
-0d5e9f7e0aa1474870ff168d87cd32123f6638b0 ath11k: WCN6750 hw1.0: add to WLAN.MSL.1.0.1-00887-QCAMSLSWPLZ-1
-be63fc0c6ca98e6c7ce33f94dcf3c58cd9c1410d ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.7
-1962cbab358c2945674f800da3acc7f834eb14e7 ath10k: QCA99X0 hw2.0: add board-2.bin
-73743b815b86c615ff427ae6a793769973fcb04d ath10k: QCA4019 hw1.0: update board-2.bin
-729bd7f615d7f1cc0b16d14b4b7d8959a81b0c5b ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00288-QCARMSWPZ-1
-6ad0930e3d95987b199743322cc468532e7b7657 ath10k: QCA6174 hw3.0: update board-2.bin
-b155d859e3f2cc6c860467f01b4681eed30e6ff2 ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.9.0.2-00156
-9fce09f6c15e504bdb9aef4dfd96feecc7c7a2e0 ath10k: QCA9888 hw2.0: update board-2.bin
-4ad3bd3487b060443fd49a90bd0f45e9eec27199 ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.9.0.2-00156
-44b8aee72444abb93721da9a240e708095a126c4 ath10k: QCA9984 hw1.0: update board-2.bin
+17efcc33e4f5fa3ffd62f6e5ce830106484817c0 ARM: dts: imx6qdl-vicut1.dtsi: remove TiWi module
+092073263226b3f417597bb13145042c60b1ab93 ARM: dts: imx6qdl-vicut1.dtsi: Put nON_SWITCH in own pinctrl grp
+2a0a0c5dc0764b00154f6784883ea60c69e5c275 ARM: dts: imx6qdl-vicut1.dtsi: Remove PCIe
+f6d8a739b35758d6958d51e39dc760f49629047e ARM: dts: imx6qdl-vicut1/victgo: Remove UART2
+1a0e71889dea95fa73a5cfc1fb505952b1f099f0 ARM: dts: imx6qdl-vicut1.dtsi: Fix LED names
+c061895eb0248d3d2c250930a2c69353d4ba94c2 ARM: dts: imx6qdl-vicut1.dtsi: Fix debug LED gpio pins
+4e6ab6837e326c975443168ac1aaf2b6132caf5b ARM: dts: imx6qdl-vicut1.dtsi: Update GPIO line names
+1d039a1ae2c7ccfd269ebfdb11c10085fc394aff ARM: dts: imx6qdl-vicut1.dtsi: Remove conflicting pinctrl entry
+4eef8cb7dd41a47da94191fc1d191167be07a077 ARM: dts: imx6q-vicut1.dts: remove sata node
+deebb9ba3a64acb8dabcedcf2845f86b48f0e7b4 ARM: dts: imx6dl-victgo.dts: update gpio names
+d380984764ad5c7c12d35f687aef843ea10f373c ARM: dts: imx6dl-victgo.dts: Factor out common parts to imx6qdl-victgo.dtsi
+217390ad7423d65591745ec4957aaa30b62c3a7b ARM: dts: imx6qdl-vicut1.dtsi: Move some node out to DTS files
+901e8f8f8b87a56e6bb6b974063e7bcb4d272e38 ARM: dts: Remove imx6qdl-victgo.dtsi
+6d8e96fbeb07fa0ac4d248cac5174e866320ce9c ARM: dts: imx6qdl-vicut1: Factor out common parts of 12inch board variants
+eac849a24e188adeecd0ba3b598ea861281da725 ARM: dts: imx6dl-victgo.dts: Remove touchscreen x axis inversion
+b456aed07944b3048d68f7daad2fd6e1155dc4fe ARM: dts: imx6qdl-vicut1.dtsi: Add missing ISB led node
+7912bda4f60dbb86c5aaa41fc1d36e639780ac90 ARM: dts: imx6qdl-vicut1.dtsi: add thermal zone and attach tmp103 to it.
+23f550d5f7f66dcdc6c1bf5e7f86c4d57a3adcb5 ARM: dts: Add initial LS1021A IoT board dts support
+9aabc12f4537923991606f7aca63e69e0583b004 ARM: dts: imx51: Add generic DMA bindings for UART nodes
+038dc22fe590fa0363c56ee7a68165cde83a8ef7 ARM: dts: i.MX51: digi-connectcore-som: Remove unused regulators
+9aac4049d3f69ad64cd076aa4e24ef3d33672297 ARM: dts: i.MX51: digi-connectcore-som: Update PMIC voltages
+9a6ba03559ba03bd5910451f9747baa8afb55534 ARM: dts: i.MX51: digi-connectcore-som: Setup usbotg vbus-supply
+83a24d5272719df5a8969f3a408dc1f9b35e86b0 ARM: dts: i.MX51: digi-connectcore-jsk: Use usb-nop-xceiv usbphy for USB1
 
---===============3449813268768604310==--
+--===============4062852389485093536==--
