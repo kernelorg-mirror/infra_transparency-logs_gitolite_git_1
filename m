@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4243961313593408286=="
+Content-Type: multipart/mixed; boundary="===============7374969357344040719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 24 Apr 2022 10:49:39 -0000
-Message-Id: <165079737938.6775.14837592112965679592@gitolite.kernel.org>
+Date: Sun, 24 Apr 2022 10:49:45 -0000
+Message-Id: <165079738547.6894.3885067240609672768@gitolite.kernel.org>
 
---===============4243961313593408286==
+--===============7374969357344040719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 5bb017d4b97a0f135f43ef77091b7edcce4dcee6
     new: 22da5264abf497a10a4ed629f07f4ba28a7ed5eb
     log: revlist-5bb017d4b97a-22da5264abf4.txt
 
---===============4243961313593408286==
+--===============7374969357344040719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ b51bd23c614bc5a8a905d258133246e78d611df1 Merge tag 'for-linus-5.18-rc4-tag' of g
 f39359260e39fc45008c1140a84497ffde193fa7 Merge tag 'arc-5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 22da5264abf497a10a4ed629f07f4ba28a7ed5eb Merge tag '5.18-rc3-ksmbd-fixes' of git://git.samba.org/ksmbd
 
---===============4243961313593408286==--
+--===============7374969357344040719==--
