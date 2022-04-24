@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 24 Apr 2022 17:31:45 -0000
-Message-Id: <165082150522.6505.6026329762429571860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 24 Apr 2022 17:48:50 -0000
+Message-Id: <165082253054.17362.14576383819243762226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/testing
-    old: f7d08f30ce1c22acd73da01d6ab67c5c0028edf2
-    new: 1510667897a2e74179d03c534ff2ffdaf9bef838
+  - ref: refs/heads/net-mlx5
+    old: 98898b3b9948fbe9d7df4753c6ac69fbac647c01
+    new: 52a7c67bfeaa22d33a3efa9052047f991d89b05a
     log: |
-         1510667897a2e74179d03c534ff2ffdaf9bef838 staging: iio: ad2s1210: remove redundant assignment to variable negative
+         165e3e17fe8fe6a8aab319bc6e631a2e23b9a857 sctp: check asoc strreset_chunk in sctp_generate_reconf_event
+         52a7c67bfeaa22d33a3efa9052047f991d89b05a net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
          
