@@ -1,53 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0424811915916996461=="
+Content-Type: multipart/mixed; boundary="===============3449813268768604310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sun, 24 Apr 2022 12:54:26 -0000
-Message-Id: <165080486602.22264.9226467583747153307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/linux-firmware
+Date: Sun, 24 Apr 2022 13:10:32 -0000
+Message-Id: <165080583253.523.16134624747645248382@gitolite.kernel.org>
 
---===============0424811915916996461==
+--===============3449813268768604310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/linux-firmware
+user: kvalo
 changes:
-  - ref: refs/tags/powerpc-5.18-3
-    old: 0000000000000000000000000000000000000000
-    new: 98c7a21f82b3b70495153a27b3499ab703f5c1d0
+  - ref: refs/heads/ath10k-20220423
+    old: 37a2769252d1016d73eafb77ac19def3712eb0aa
+    new: 44b8aee72444abb93721da9a240e708095a126c4
+    log: revlist-37a2769252d1-44b8aee72444.txt
 
---===============0424811915916996461==
+--===============3449813268768604310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-37a2769252d1-44b8aee72444.txt
 
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1650804864 +1000
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1650804864-2c14e767bca8fc8e1d9065841498be7957f9aaef
+f56505fe2e45d02a15b2a2308199291e66ee3494 ath11k: QCN9074 hw1.0: add board-2.bin
+97f8b7563d6f18fc38f32934ea7f12a6ca166e5d ath11k: QCN9074 hw1.0: add to WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
+a50132f7fb1573a15b84f917165b2cdb719baaa6 ath11k: WCN6750 hw1.0: add board-2.bin
+0d5e9f7e0aa1474870ff168d87cd32123f6638b0 ath11k: WCN6750 hw1.0: add to WLAN.MSL.1.0.1-00887-QCAMSLSWPLZ-1
+be63fc0c6ca98e6c7ce33f94dcf3c58cd9c1410d ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.7
+1962cbab358c2945674f800da3acc7f834eb14e7 ath10k: QCA99X0 hw2.0: add board-2.bin
+73743b815b86c615ff427ae6a793769973fcb04d ath10k: QCA4019 hw1.0: update board-2.bin
+729bd7f615d7f1cc0b16d14b4b7d8959a81b0c5b ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00288-QCARMSWPZ-1
+6ad0930e3d95987b199743322cc468532e7b7657 ath10k: QCA6174 hw3.0: update board-2.bin
+b155d859e3f2cc6c860467f01b4681eed30e6ff2 ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.9.0.2-00156
+9fce09f6c15e504bdb9aef4dfd96feecc7c7a2e0 ath10k: QCA9888 hw2.0: update board-2.bin
+4ad3bd3487b060443fd49a90bd0f45e9eec27199 ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.9.0.2-00156
+44b8aee72444abb93721da9a240e708095a126c4 ath10k: QCA9984 hw1.0: update board-2.bin
 
-0000000000000000000000000000000000000000 98c7a21f82b3b70495153a27b3499ab703f5c1d0 refs/tags/powerpc-5.18-3
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmJlSIATHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgPdSD/9eRfi0vPc/+kroImMyYGPNHAuvn1m5
-P3+0tMQGfVrPwx/fsGJre/IRNaTi3mYpDg2dZkEdu4vG0AAbAMBNV3wXFODw0IQm
-q0uDDrOJMWEzFYTaMHS6gEtD6hE4RKvVuVCiqQnhW1yUmhiZbhOsk6RWj94wzRHY
-ISfVCLUPB/Zx1l/JVrd1kCr37hkryK5gRNBjnylUqgBmBeYHeDpICzfz96Hg2E/K
-JuwtZn/5suDgQZjQAJyuq0iOX5DredwdxPMWqN3ad+Qybz5lhVEd7I/eZutEEgPV
-I6KHAdLgkmbhcU+Nx27sJuAGzrkglcgc+h3G8qUtAH9EQJwpg9xd625A4ic7ziM0
-OpgWY6ahgp+MdqhSqwU0ExSypAaBLDzRN/exM0bOterW+hjrn7TIAyqYTHR5tLIU
-yCSa0zRAioNgir1ys0txRiXPemr/X7io1pQnu9FrApZOO4BOqFTGuBungxNuEd0Y
-47G2dihYYvTPvil69CRp247m+ANcVreTjohs91/+x2jYDPZG6cmn8JI+OulANsa2
-GPauqbU980CixuCVRw3D5ZBDxITwCteSTHo/hUl+sU5O4rQNvJPLbxFlMcDcqk9e
-e2Le3ZfuxcSKtdBCYvJIArKclGbukTI4KwBeNQWRhTVrXG+OcNoYH3sw6xN7xNyp
-2TfyIxM+TYZGQQ==
-=z4cQ
------END PGP SIGNATURE-----
-
---===============0424811915916996461==--
+--===============3449813268768604310==--
