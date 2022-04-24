@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 24 Apr 2022 21:15:45 -0000
-Message-Id: <165083494536.22389.444182144582562893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 24 Apr 2022 21:23:17 -0000
+Message-Id: <165083539790.26223.1706960331776344552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/master
-    old: 0ab99ec186c557c6e5e81f7a50047cc045e4d331
-    new: 86ed1442a4c516b937749abb14be9c09f96ebe80
+  - ref: refs/heads/sunxi/fixes-for-5.18
+    old: c887bdc4fb254a871e6180e18203152c548419f1
+    new: b4f3d5f06e29b7020f19cc788b2c2de750e888a1
     log: |
-         bed3aa6eeb57accca3a3d99bc0c139c5b69c6748 foo
-         3f8446cbf0104010503e7b6ef6281defdd71cd0c foo
-         715ade63548b23ad8586620f3fe3303f47f93622 foo
-         86ed1442a4c516b937749abb14be9c09f96ebe80 foo
+         b4f3d5f06e29b7020f19cc788b2c2de750e888a1 clk: sunxi-ng: sun6i-rtc: Mark rtc-32k as critical
          
