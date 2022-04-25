@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0518080598353156113=="
+Content-Type: multipart/mixed; boundary="===============1372722340940215399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 25 Apr 2022 15:35:05 -0000
-Message-Id: <165090090519.7637.15965307044626330015@gitolite.kernel.org>
+Date: Mon, 25 Apr 2022 15:38:37 -0000
+Message-Id: <165090111752.8766.13601005706096534546@gitolite.kernel.org>
 
---===============0518080598353156113==
+--===============1372722340940215399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: cfc1d91a7d78cf9de25b043d81efcc16966d55b3
     new: df1cc21152ffb605e2f32e5642891f9b908e3f11
     log: revlist-cfc1d91a7d78-df1cc21152ff.txt
 
---===============0518080598353156113==
+--===============1372722340940215399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ c5794097b269f15961ed78f7f27b50e51766dec9 net: ipa: compute proper aggregation li
 b0e653b2a0d99299a9fce1c1ca4393f3173620d4 arp: fix unused variable warnning when CONFIG_PROC_FS=n
 df1cc21152ffb605e2f32e5642891f9b908e3f11 net: dsa: remove unused headers
 
---===============0518080598353156113==--
+--===============1372722340940215399==--
