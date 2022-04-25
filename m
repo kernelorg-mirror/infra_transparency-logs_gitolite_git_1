@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 25 Apr 2022 10:26:47 -0000
-Message-Id: <165088240755.25404.54172454686996587@gitolite.kernel.org>
+Date: Mon, 25 Apr 2022 10:28:06 -0000
+Message-Id: <165088248618.25934.18221907563319261499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 60d78e9fce8886b403a21fecb0dd13f9c0f12e1f
-    new: a00e41bf2f47343b8d0a265cc7710f89e9233dcd
+    old: a00e41bf2f47343b8d0a265cc7710f89e9233dcd
+    new: c5794097b269f15961ed78f7f27b50e51766dec9
     log: |
-         a00e41bf2f47343b8d0a265cc7710f89e9233dcd net: ethernet: mtk_eth_soc: add check for allocation failure
+         c5794097b269f15961ed78f7f27b50e51766dec9 net: ipa: compute proper aggregation limit
          
