@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 25 Apr 2022 14:11:53 -0000
-Message-Id: <165089591362.16852.5943023312672504124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 25 Apr 2022 14:13:09 -0000
+Message-Id: <165089598974.17482.7281085557273346112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/rcu/next
-    old: 24f4daa283b8ce4c696cb3244c086e98fdc7f426
-    new: e5215598af9bdf5509c7e7c6f896f50df0cdaf4b
+  - ref: refs/heads/for-next/juno
+    old: 5393158f009bdc5e9b55559ce4ad2b0700c46e73
+    new: d7030edf32ad5196af61a8d88e557ed2951b94cd
     log: |
-         e5215598af9bdf5509c7e7c6f896f50df0cdaf4b rcu: Put panic_on_rcu_stall() after expedited RCU CPU stall warnings
+         d7030edf32ad5196af61a8d88e557ed2951b94cd arm64: dts: fvp: Align virtio device node names with dtschema
          
