@@ -1,23 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 25 Apr 2022 17:27:35 -0000
-Message-Id: <165090765526.17106.9731133322859068778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 25 Apr 2022 17:28:04 -0000
+Message-Id: <165090768414.17363.7190097732535625122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 57ba156f6d09862203b8c84f7be9ffb8492f582c
-    new: b9d7c7f46a7ef2704b039372921868f358c3dfab
+  - ref: refs/heads/for-5.19
+    old: 4ab93063c83a2478863158799b027e9489ad4a40
+    new: 5c26993c31f0f726aa1f90158f17ec95069b7cb2
     log: |
-         39aa1fd86530e44b12ac1d46c0d02b98e117fac9 x86/asm: use fallback for random_get_entropy() instead of zero
-         c9039bcfdb11d48c22b3f7ff009d2067e0c625b1 um: use fallback for random_get_entropy() instead of zero
-         82e073335c9dcb7850d99206bf24d059f55ec6c0 sparc: use fallback for random_get_entropy() instead of zero
-         13bccf0edeeeebc9885a47d5049253dad5b6cf9a xtensa: use fallback for random_get_entropy() instead of zero
-         b9d7c7f46a7ef2704b039372921868f358c3dfab random: insist on random_get_entropy() existing in order to simplify
+         b76ee4f576ebfbab3891e51a531ec7ad7ef10a7a cgroup: Adding test_cpucg_nested_weight_overprovisioned() testcase
+         89ca0efa8468f230df965257d0c03fc3664b4331 cgroup: Add test_cpucg_nested_weight_underprovisioned() testcase
+         889ab8113ef1386c57d64da106b850e752949f07 cgroup: Add test_cpucg_max() testcase
+         a79906570f9646ae174dd0899ea54cc2eeffd788 cgroup: Add test_cpucg_max_nested() testcase
+         5c26993c31f0f726aa1f90158f17ec95069b7cb2 cgroup: Add config file to cgroup selftest suite
+         
+  - ref: refs/heads/for-next
+    old: 4ab93063c83a2478863158799b027e9489ad4a40
+    new: 5c26993c31f0f726aa1f90158f17ec95069b7cb2
+    log: |
+         b76ee4f576ebfbab3891e51a531ec7ad7ef10a7a cgroup: Adding test_cpucg_nested_weight_overprovisioned() testcase
+         89ca0efa8468f230df965257d0c03fc3664b4331 cgroup: Add test_cpucg_nested_weight_underprovisioned() testcase
+         889ab8113ef1386c57d64da106b850e752949f07 cgroup: Add test_cpucg_max() testcase
+         a79906570f9646ae174dd0899ea54cc2eeffd788 cgroup: Add test_cpucg_max_nested() testcase
+         5c26993c31f0f726aa1f90158f17ec95069b7cb2 cgroup: Add config file to cgroup selftest suite
          
