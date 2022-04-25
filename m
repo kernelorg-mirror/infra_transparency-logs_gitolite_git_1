@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 25 Apr 2022 20:33:17 -0000
-Message-Id: <165091879762.9784.918466485247853193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Mon, 25 Apr 2022 20:51:41 -0000
+Message-Id: <165091990129.22484.14097611899668630507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/main
-    old: 6f3b58436615ec63cbdfc993343434ccbfd7ebaf
-    new: e81fd551a1a0ffa7983d25f5e756a5c5b6cb4a9a
+  - ref: refs/heads/sysctl-testing
+    old: 8fd7c2144d1292f15c901211750dee021ed5079a
+    new: acd0b04ecc795e97b7878dccc5cb4d3d627a4c27
     log: |
-         e81fd551a1a0ffa7983d25f5e756a5c5b6cb4a9a devlink: fix "devlink health dump" command without arg
+         acd0b04ecc795e97b7878dccc5cb4d3d627a4c27 sysctl: minor cleanup in new_dir()
          
