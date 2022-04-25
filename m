@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0556696823823816291=="
+Content-Type: multipart/mixed; boundary="===============3476022961018916370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 25 Apr 2022 15:34:19 -0000
-Message-Id: <165090085923.5844.220027462182381714@gitolite.kernel.org>
+Date: Mon, 25 Apr 2022 15:34:59 -0000
+Message-Id: <165090089988.6123.7848107493671636842@gitolite.kernel.org>
 
---===============0556696823823816291==
+--===============3476022961018916370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 52a7c67bfeaa22d33a3efa9052047f991d89b05a
-    new: e9bc4ff22749f1a79e8daa2646d938fc953ee0fe
-    log: revlist-52a7c67bfeaa-e9bc4ff22749.txt
+  - ref: refs/heads/net-mlx4
+    old: 165e3e17fe8fe6a8aab319bc6e631a2e23b9a857
+    new: ba5a4fdd63ae0c575707030db0b634b160baddd7
+    log: revlist-165e3e17fe8f-ba5a4fdd63ae.txt
 
---===============0556696823823816291==
+--===============3476022961018916370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52a7c67bfeaa-e9bc4ff22749.txt
+Content-Disposition: attachment; filename=revlist-165e3e17fe8f-ba5a4fdd63ae.txt
 
 eba1a872cb73314280d5448d934935b23e30b7ca ipvs: correctly print the memory size of ip_vs_conn_tab
 babc3dc9524f0bcb5a0ec61f3c3639b11508fad6 netfilter: nft_set_rbtree: overlap detection with element re-addition after deletion
@@ -49,6 +49,5 @@ fde98ae91f79cab4e020f40c35ed23cbdc59661c ip6_gre: Make o_seqno start from 0 in n
 1fcb8fb3522f5b0f1cf0f5c7560cd6629abba0cb net: mscc: ocelot: don't add VID 0 to ocelot->vlans when leaving VLAN-aware bridge
 4bfe744ff1644fbc0a991a2677dc874475dd6776 tcp: fix potential xmit stalls caused by TCP_NOTSENT_LOWAT
 ba5a4fdd63ae0c575707030db0b634b160baddd7 tcp: make sure treq->af_specific is initialized
-e9bc4ff22749f1a79e8daa2646d938fc953ee0fe net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============0556696823823816291==--
+--===============3476022961018916370==--
