@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 25 Apr 2022 11:10:02 -0000
-Message-Id: <165088500209.21011.10787723372794185542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 25 Apr 2022 11:10:23 -0000
+Message-Id: <165088502314.22574.10235887373278118916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b0e653b2a0d99299a9fce1c1ca4393f3173620d4
-    new: df1cc21152ffb605e2f32e5642891f9b908e3f11
+    old: 4bfe744ff1644fbc0a991a2677dc874475dd6776
+    new: ba5a4fdd63ae0c575707030db0b634b160baddd7
     log: |
-         df1cc21152ffb605e2f32e5642891f9b908e3f11 net: dsa: remove unused headers
+         ba5a4fdd63ae0c575707030db0b634b160baddd7 tcp: make sure treq->af_specific is initialized
          
