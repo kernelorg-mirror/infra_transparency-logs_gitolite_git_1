@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5116029222448603782=="
+Content-Type: multipart/mixed; boundary="===============4056869843663956727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 25 Apr 2022 15:00:34 -0000
-Message-Id: <165089883457.17083.6987719391471280663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 Apr 2022 15:00:40 -0000
+Message-Id: <165089884043.17164.3920176775371783164@gitolite.kernel.org>
 
---===============5116029222448603782==
+--===============4056869843663956727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/regulator-5.19
     old: 062920d2464715ef5cbba52a8573ba12cc882b8f
     new: 6963569103c02b22076da245b19bd081d8da8f9e
     log: |
@@ -24,28 +24,28 @@ changes:
          6963569103c02b22076da245b19bd081d8da8f9e regulator: richtek,rt4801: parse GPIOs per regulator
          
 
---===============5116029222448603782==
+--===============4056869843663956727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650898833 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1650898832-db131f720062d208a02afdef28ca712d7739ac9f
+pusher C3F436CA30F5D8EB 1650898839 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1650898838-5610f811bf1ceeab35ab2bad19cf46ad953d4630
 
-062920d2464715ef5cbba52a8573ba12cc882b8f 6963569103c02b22076da245b19bd081d8da8f9e refs/heads/for-5.19
+062920d2464715ef5cbba52a8573ba12cc882b8f 6963569103c02b22076da245b19bd081d8da8f9e refs/heads/regulator-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJmt5EACgkQJNaLcl1U
-h9D9Dgf/YTfDq64Hnf4ti7oGHIr+wo5qWaT7f2bwSHZyS8qIsVULK2xE1rrnRlBN
-ahUg80QD/Htj5U7KCSZV84nyhCsQFmjrdcs1LRRakH18F9iqahYmykuobkt1apaX
-pxBDwcs2z6Y2mU5GeW9HcwFVbZq30vVnEd9FOW//JQptKWhGi5uYhHaNU4wxcOI5
-zNZROhSVUxx24/OeX92fi92IPL3ZNnazYYGbh4kNEBlI/xpKOTSOp9GROyAvjti3
-H/E0ArOgMKOl56tVUfE0fGDJifaz/qfPZdtUDQff5q0GckofVTTfpXk5YWODvXuw
-rQkWouXZnh3G7WHAaIPXqpPztXYCVg==
-=bzXa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJmt5cACgkQJNaLcl1U
+h9CJ5ggAhBdVuojWZ2Rx84ZMZdQrpPVNqLGZGKnO1jYStRjLP2lp+vQajRD3Bctu
+ZCRvxX9iNme9xGvFW5DKH6lIM+QcgRbhMKStjPL4Bnf2IHI9SGBJeBd64pA1LbMN
+Nmv4tTh4ofiUJc7j7bCf0r/FmFrdvAoRCEZYB/gqdUIKn0rW+ii0Q0O3otA4LMq3
+vHnvih7KQNnFp/IYvI0cufwWANGuRnq4kH9YlLsA2L+gi+3HJvImnLPMG6HBRYG7
+RpFMXcRjiY6JAXDeGCEfq5kbEbvjUW4Sg2gtx1Ec3jyjHXOCltV1Fq4WUkbbuixg
+D/nfVS8G8ohTB1aG2lR2GaMZxF3i3Q==
+=cr2V
 -----END PGP SIGNATURE-----
 
---===============5116029222448603782==--
+--===============4056869843663956727==--
