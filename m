@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 25 Apr 2022 21:09:42 -0000
-Message-Id: <165092098290.32478.9576259092748036071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 25 Apr 2022 21:14:48 -0000
+Message-Id: <165092128900.4414.6144638129126788564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 251a486d3a9364228fb489d6f0a7d3ec87cf5512
-    new: b4e941c7a092a3f951c95a2416db9b5c689cbf76
+  - ref: refs/heads/next
+    old: 678f0cdc572c5fda940cb038d70eebb8d818adc8
+    new: 170d1c23f2a356932259034f73d579d0bab857d6
     log: |
-         324dc30f280f836d1fd4d7f68c6d108054f2546c dt-bindings: hwmon: Add Atmel AT30TS74
-         b4e941c7a092a3f951c95a2416db9b5c689cbf76 hwmon: (lm75) Add Atmel AT30TS74 support
+         a23039c7306f53416ba35d230201398ea34f4640 selftests: Provide local define of __cpuid_count()
+         0dba8dae6b0489c7ea5722273f3b2d70fd9756c5 selftests/vm/pkeys: Use provided __cpuid_count() macro
+         2ba8a7abb5ef402d94830bcf599f645852eb0153 selftests/x86/amx: Use provided __cpuid_count() macro
+         170d1c23f2a356932259034f73d579d0bab857d6 selftests/x86/corrupt_xstate_header: Use provided __cpuid_count() macro
          
