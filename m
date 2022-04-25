@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Mon, 25 Apr 2022 21:01:37 -0000
-Message-Id: <165092049765.28517.8442212839783604798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 25 Apr 2022 21:09:42 -0000
+Message-Id: <165092098290.32478.9576259092748036071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/sysctl-testing
-    old: acd0b04ecc795e97b7878dccc5cb4d3d627a4c27
-    new: a467257ffe4bdb13eacddec0137013f6a1140b81
+  - ref: refs/heads/hwmon-next
+    old: 251a486d3a9364228fb489d6f0a7d3ec87cf5512
+    new: b4e941c7a092a3f951c95a2416db9b5c689cbf76
     log: |
-         a467257ffe4bdb13eacddec0137013f6a1140b81 kernel/kexec_core: move kexec_core sysctls into its own file
+         324dc30f280f836d1fd4d7f68c6d108054f2546c dt-bindings: hwmon: Add Atmel AT30TS74
+         b4e941c7a092a3f951c95a2416db9b5c689cbf76 hwmon: (lm75) Add Atmel AT30TS74 support
          
