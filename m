@@ -1,25 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 25 Apr 2022 16:12:19 -0000
-Message-Id: <165090313900.32372.11320736398041955046@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8342525585879030529=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 25 Apr 2022 16:16:55 -0000
+Message-Id: <165090341566.4098.13332605264066102484@gitolite.kernel.org>
+
+--===============8342525585879030529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next/core
-    old: 6dfebbdff4847f53124675eee50abfbe7098f419
-    new: 1b1f46d76d080197fae74ceeb82a0c441431dee4
+  - ref: refs/heads/hwmon
+    old: 4aaaaf0f279836f06d3b9d0ffeec7a1e1a04ceef
+    new: 75d2b2b06bd8407d03a3f126bc8b95eb356906c7
     log: |
-         da32b5817253697671af961715517bfbb308a592 mm: Add fault_in_subpage_writeable() to probe at sub-page granularity
-         f3ba50a7a100e91b0b13ca43190a66c1bfdb9993 arm64: Add support for user sub-page fault probing
-         18788e34642e2e3eae785b0966769d03e7fbe9d2 btrfs: Avoid live-lock in search_ioctl() on hardware with sub-page faults
-         1b1f46d76d080197fae74ceeb82a0c441431dee4 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/stacktrace', 'for-next/sme' and 'for-next/fault-in-subpage' into for-next/core
+         75d2b2b06bd8407d03a3f126bc8b95eb356906c7 hwmon: (pmbus) disable PEC if not enabled
          
-  - ref: refs/heads/for-next/fault-in-subpage
-    old: 0000000000000000000000000000000000000000
-    new: 18788e34642e2e3eae785b0966769d03e7fbe9d2
+  - ref: refs/heads/hwmon-next
+    old: 896fce276180c4b23ba3ad56ed65ce99e5417658
+    new: 548baee824305a7d404d23f82e3ab479acecb69f
+    log: revlist-896fce276180-548baee82430.txt
+
+--===============8342525585879030529==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-896fce276180-548baee82430.txt
+
+75d2b2b06bd8407d03a3f126bc8b95eb356906c7 hwmon: (pmbus) disable PEC if not enabled
+3c4cb222fe3c7c7c46095ac4e25998b1c09ccaf5 hwmon: (jc42) add HWMON_C_TZ_REGISTER
+b02aa4034397280cb76391ebd71999b8aecea1b1 hwmon: (asus-ec-sensors) Add T_Sensor for ASUS WS X570-ACE
+93a0e857b0963e90dff182b0aaf9194eafcd6978 hwmon: (peci) Use devm_delayed_work_autocancel() to simplify code
+7c92b3d99daa0741232d8e7283efd24fa4809afc hwmon: (aquacomputer_d5next) Add support for Aquacomputer Octo
+c7b7a0c245d7b31cc35a232d588fff2819908111 hwmon: introduce hwmon_sanitize_name()
+5386e608430750a8642d686de7793ccf5988aedd hwmon: (intel-m10-bmc-hwmon) use devm_hwmon_sanitize_name()
+7f50620913b0389a2809b56c85062bdd98647dcf hwmon: (asus-ec-sensors) add ProArt X570 Creator WIFI board
+87576f7611b16d7e35b907caee9ed48e347dc458 hwmon: (dell-smm) Add cooling device support
+9a886ce86ec06382e770006787252bacb87ac536 hwmon: (pmbus) add MFR_* registers to debugfs
+f6dd440c48e73f2bffc7446198b7c3b68f45e04c dt-bindings: hwmon: Add TMP401, TMP411 and TMP43x
+a7e1e934855cbd67abf7cebda4dce8d71ec519cb hwmon: (tmp401) Add support of three advanced features
+be9ca013e032ce6896fc60c236c1f14e97e38932 hwmon: (jc42) Add support for S-34TS04A
+5791310914e8847a87666b61e0fbec2bf8744560 hwmon: (dell-smm) Update Documentation regarding firmware bugs
+6e89f0e6e35fc92bffb6db4b90928d48a02281e6 hwmon: (aquacomputer_d5next) Add support for Aquacomputer Farbwerk
+548baee824305a7d404d23f82e3ab479acecb69f hwmon: (pmbus/max16601) Add MAX16602 support
+
+--===============8342525585879030529==--
