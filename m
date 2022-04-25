@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 25 Apr 2022 13:27:36 -0000
-Message-Id: <165089325645.20137.2936257918774176921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 25 Apr 2022 13:27:43 -0000
+Message-Id: <165089326391.20254.7891151683537173970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/v2_20220415_steve_asoc_remaining_i2c_match_id_i2c_probe_changes
-    old: 227dc28341a1a9a0cb895b78564e4a4655a86358
-    new: 988e6870c86cce7999f55133197fddfe7e2795d2
+  - ref: refs/heads/master
+    old: ef7d50a0cc59d3b55587c8ea5fa45db45b888aee
+    new: 875d6a31d7d5042a382fd7a4612e24f1582b062e
+    log: |
+         e054895f4a22680cfd41f875b842f1544090d379 lsblk: make ID-LINK code more readable
+         875d6a31d7d5042a382fd7a4612e24f1582b062e lsblk: add ID column
+         
