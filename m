@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 25 Apr 2022 18:55:57 -0000
-Message-Id: <165091295767.11948.18020264247800303233@gitolite.kernel.org>
+Date: Mon, 25 Apr 2022 18:57:42 -0000
+Message-Id: <165091306263.12582.16464821473537459884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: c83227a5d05ed77b634ce4c2fc5f143ae2a4d6f5
-    new: fae74fb5d525f979085b6e70b883d7a7049bf15f
+  - ref: refs/heads/gpio/for-current
+    old: af2d861d4cd2a4da5137f795ee3509e6f944a25b
+    new: ed694f607862df987a44a5eb8720e18f5dc37305
     log: |
-         fae74fb5d525f979085b6e70b883d7a7049bf15f gpio: pcf857x: Make teardown callback return void
+         ed694f607862df987a44a5eb8720e18f5dc37305 gpiolib: of: fix bounds check for 'gpio-reserved-ranges'
          
