@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 25 Apr 2022 22:59:43 -0000
-Message-Id: <165092758357.7660.6023508032372410207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 25 Apr 2022 23:03:45 -0000
+Message-Id: <165092782542.10474.5546201901549590072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/fs/xfs/xfs-linux
+user: dgc
 changes:
-  - ref: refs/heads/next
-    old: 170d1c23f2a356932259034f73d579d0bab857d6
-    new: d577380da04e410a31e7f944b04d838ab1c8a1c3
-    log: |
-         6220f69e72a534838cffd84dce6afd777777be03 selftests/resctrl: Extend CPU vendor detection
-         d577380da04e410a31e7f944b04d838ab1c8a1c3 selftests/resctrl: Print a message if the result of MBM&CMT tests is failed on Intel CPU
-         
+  - ref: refs/heads/xfs-5.18-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 9a5280b312e2e7898b6397b2ca3cfd03f67d7be1
+  - ref: refs/tags/xfs-5.18-fixes-1
+    old: 0000000000000000000000000000000000000000
+    new: 388d93e97320c660483e29e0afb08edb022b0201
