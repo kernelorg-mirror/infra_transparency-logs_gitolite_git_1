@@ -1,53 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4035810165068207914=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 25 Apr 2022 05:39:49 -0000
-Message-Id: <165086518961.22722.14359385739737676660@gitolite.kernel.org>
-
---===============4035810165068207914==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 25 Apr 2022 05:52:13 -0000
+Message-Id: <165086593337.26910.16483268040408727928@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/linux-5.17.y
-    old: f8e739787152143aacffc181562a29c049c2d658
-    new: 0000000000000000000000000000000000000000
-
---===============4035810165068207914==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650865185 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1650865182-ee6e5449f176f2368fc73202d5989be3a045cc5d
-
-f8e739787152143aacffc181562a29c049c2d658 0000000000000000000000000000000000000000 refs/tags/linux-5.17.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJmNCEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rBQP/2P13P6c89Pjl1jUjkUs
-zeb2kJQbNowV6nwnJF9BB75AIc97oOwxFQGIbS0TfsXu3ijDZtyL2nAY+0VEGZTF
-K+JiWQBO7RQ2lGysO6R3S736RqWw/rnniV0pXgJGHosVA84VgSNXk+gvvlfNee6V
-77+xxcqkv3LUtDkRK17wEW8yOEUF86o1qLJw5l08aal3s30TlAOpbMmAYjtc4JOq
-7xW9oRxIeACIKIy9dvCjkvGI+a2uT/l89lTMvCM4fbIl2cTJXYJlkktsLhrFUGeJ
-eeH7va0n+mxRFZosLIjbZd87nyvfeY4prHDTHu5EHkuIfoH3ll68bvLG7IzXKVIu
-Tr5ssO/ZIdsoy8CVxpQz2Zl7mO0aCLe2ewjyIvL/WGZAGvvdLcspCROL29tKRAQz
-mqUvVtf01BQPEt6ABv1dwTHIQklsZct3e7dPsYFd5hjBEEIR5O/WWRKbiz9KqI62
-Z/kAK2i1tDnf+S7SULSLwrYxSd2cPlr4ikWns1oCp2AxJGPMt9D3kdmlkdZdXR/T
-bIHbsEsjRx2wzZ48ypR1s3+KNd45wLd3pbWZ340PXnGaquv1kt+GHJLb1hJGCw8i
-VppeZ16OQrHhlS0NFqSqPIbaWQwpKhjije4AxF49wIVreX7v7KctmmEfx3CRq1zX
-B2Mv/spOwtsGx2bA0gPXCnvT
-=Bof2
------END PGP SIGNATURE-----
-
---===============4035810165068207914==--
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: f2d9973abd735a34f8318ec4db5c71a6d29ca955
+    new: 8f705811d64b57f3dca562ed2312f2cb1fafc67e
+    log: |
+         f52b16ba9fe49ae97a687d8067823c9401778f54 cpufreq: mediatek: Use device print to show logs
+         da89357f2b1341d5a80574a8bd6cd3db925603fc cpufreq: mediatek: Replace old_* with pre_*
+         f4ba82c6c4321a5374c6cb98cb2a9d0a6b8f41eb cpufreq: mediatek: Record previous target vproc value
+         8f705811d64b57f3dca562ed2312f2cb1fafc67e cpufreq: mediatek: Make sram regulator optional
+         
