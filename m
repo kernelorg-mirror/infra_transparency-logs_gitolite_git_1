@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8948062730596131437=="
+Content-Type: multipart/mixed; boundary="===============3210616179712933562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 25 Apr 2022 17:23:25 -0000
-Message-Id: <165090740587.14037.2468194322455430543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 Apr 2022 17:23:32 -0000
+Message-Id: <165090741221.14112.2595091213701198435@gitolite.kernel.org>
 
---===============8948062730596131437==
+--===============3210616179712933562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/spi-5.19
     old: cc470d55343056d6b2a5c32e10e0aad06f324078
     new: 9ee448f94318ab2d42e4e7266666d084fdb1e992
     log: revlist-cc470d553430-9ee448f94318.txt
 
---===============8948062730596131437==
+--===============3210616179712933562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1650907404 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1650907403-1a129eb6cee5726899629160d901d2ce05b90bfd
+pusher C3F436CA30F5D8EB 1650907410 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1650907410-8dfc94907186e487948af88ed08c99098057d040
 
-cc470d55343056d6b2a5c32e10e0aad06f324078 9ee448f94318ab2d42e4e7266666d084fdb1e992 refs/heads/for-5.19
+cc470d55343056d6b2a5c32e10e0aad06f324078 9ee448f94318ab2d42e4e7266666d084fdb1e992 refs/heads/spi-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJm2QwACgkQJNaLcl1U
-h9CH6gf/UY1NODUJ+aCkEr6yN/m/rMTZcmtJG2PSo4zvkjwD+nt10CwUybRo48R8
-Dld1I8UuP9lOyE/PQrLWKkrgb0kiCrpRFWw1vPuY+/mcGRT/JY6LIQ+5ja3a4stv
-h9ubtZjYQfoFvq5EJu6lr5z7k1IutmOI1y/JOzZo0FHEsUt6VH7AHZiME9rqJ2YO
-/gK0RveadKFOuioeIlRkoXaX8jUGHVIMrVTZoYdXBTM73kJmM888p+aq6ljxBamk
-xzikwiyO+3ORbAjbe/wGM/yCQVLJYyZ4LumQ99Jh9RBDvJ61t3vwMDtRz0lZyEb0
-CuYk3oGmRR/qALiA47i20W2AZqxX9A==
-=RwqR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJm2RIACgkQJNaLcl1U
+h9Dwkwf6AmVvmc2701lX45Du+SwrHwKF3E661nCVhPIxofd3eomq4475C23mdrR1
+ntkoKVqr/UyqfSeOasIf1kr8sjTxCKbZvL0JeY3oJHXruwlnNVFWxCJCM+Kkwh1v
+mmbHUlMgga+GdyRDSYjMgAxYZ8wVCQgV+HSWJFKJp/aMStEF1w+1VjLUuWEoc8c7
+mnMS9Iwpmd9GDbJ2gxR3ED+wMAtksEGeoQuQii6k1SIrO3G6dJHrJY4uCQ2sn0fB
+xvBmggGxEs86N9cjklrwMfQ/PCJqvhEGgdvAp41L/eiyWIdG212bwr6SWuJPKeS3
+xAWlgqBmUhHGMvzLYK6h1n2++jbNAQ==
+=+Ltv
 -----END PGP SIGNATURE-----
 
---===============8948062730596131437==
+--===============3210616179712933562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ b7be05d5e4a3046e245947730cd90d07d09bdcee spi: spi-cadence-quadspi: using pm_runt
 b0ceb62125155c1f8e67d3a944af9536d93609c7 spi: clps711x: Use syscon_regmap_lookup_by_phandle
 9ee448f94318ab2d42e4e7266666d084fdb1e992 Improve SPI support for Ingenic SoCs.
 
---===============8948062730596131437==--
+--===============3210616179712933562==--
