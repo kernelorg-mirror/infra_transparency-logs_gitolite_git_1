@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 25 Apr 2022 18:04:34 -0000
-Message-Id: <165090987450.8645.15765730974732720652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 25 Apr 2022 18:05:06 -0000
+Message-Id: <165090990622.10342.11128825273004763447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 7d4c60f30825eb24bcb835fcda6ce8ec9f07cd10
-    new: 737a9ba0eeb8f179c6f34f2bbd5a79396f59241c
+  - ref: refs/heads/next
+    old: 2730ef6965efd8e612ba5882a2d810fea348b00f
+    new: 49358dfe2aaae4e90b072332c3e324019826783f
     log: |
-         fff8c10368e64e7f8960f149375c12ca5f3b30af bus: sunxi-rsb: Fix the return value of sunxi_rsb_device_create()
-         f58ca215cda1975f77b2b762903684a3c101bec9 clk: sunxi: sun9i-mmc: check return value after calling platform_get_resource()
-         7a10341e67edb51fe192c4a0df656f06cc08ad34 Merge branch 'sunxi/clk-fixes-for-5.18' into sunxi/for-next
-         737a9ba0eeb8f179c6f34f2bbd5a79396f59241c Merge branch 'sunxi/fixes-for-5.18' into sunxi/for-next
+         3d0dfe0610517ff69419cdc8b5f7f5d3f7b60a0f pahole: Don't try encode BTF when all CUs were filtered
+         c3f2fe2f6a81f13c618f675417f1d49c8d75ef99 core: Add string to id language lookup method
+         8ee363790b7437283c53090a85a9fec2f0b0fbc4 pahole: Introduce --lang to ask for only compilation units written in some languages
+         49358dfe2aaae4e90b072332c3e324019826783f pahole: Add --lang_exclude to allow skipping compilation units written in some languages
          
