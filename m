@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1947378712446520773=="
+Content-Type: multipart/mixed; boundary="===============4747079395470917850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 Apr 2022 12:16:14 -0000
-Message-Id: <165088897491.4669.15694536801886947322@gitolite.kernel.org>
+Date: Mon, 25 Apr 2022 12:16:32 -0000
+Message-Id: <165088899230.4823.10401081083284137615@gitolite.kernel.org>
 
---===============1947378712446520773==
+--===============4747079395470917850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 05d51e42df06f0211c7029ab9aa46c492ee85043
-    new: a96e4ebf3dedaf110999189939cd0272d32c4296
-    log: |
-         a96e4ebf3dedaf110999189939cd0272d32c4296 m68k: defconfig: Update defconfigs for v5.18-rc1
-         
-  - ref: refs/heads/master
-    old: 8623565c273307cc8a34386456d4e947cc470e54
-    new: 138d673f12ac7e33ef4c54a4e104675bcadc1aaa
-    log: revlist-8623565c2733-138d673f12ac.txt
+  - ref: refs/heads/m68k-queue
+    old: 9e950cf12206945654eeff50a326fdb895292baf
+    new: 18b3bc314ec94560bea280ecf94525faa35d91f4
+    log: revlist-9e950cf12206-18b3bc314ec9.txt
 
---===============1947378712446520773==
+--===============4747079395470917850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8623565c2733-138d673f12ac.txt
+Content-Disposition: attachment; filename=revlist-9e950cf12206-18b3bc314ec9.txt
 
 748b82c23e25310fec54e1eff2cb63936f391b24 xfrm: Pass flowi_oif or l3mdev as oif to xfrm_dst_lookup
 c775cbf62ed4911e4f0f23880f01815753123690 ASoC: atmel: Remove system clock tree configuration for at91sam9g20ek
@@ -283,6 +277,12 @@ f48ffef19dfd6a3c2a6872d4c680c90e14103fdf Merge tag 'perf_urgent_for_v5.18_rc4' o
 5206548f6e6741fccbce8d95cff8faeba0738c99 Merge tag 'powerpc-5.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 42740a2ff5d3f2cc0c73876dfb37ed0b88d926fd Merge tag 'sched_urgent_for_v5.18_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 af2d861d4cd2a4da5137f795ee3509e6f944a25b Linux 5.18-rc4
-138d673f12ac7e33ef4c54a4e104675bcadc1aaa Merge tag 'v5.18-rc4'
+00c67b2f391d8a78ca0ecf03b20e7767b67bab17 tty: goldfish: Introduce gf_ioread32()/gf_iowrite32()
+7f85f6758672031e852b7dfc2940af38b16bb291 rtc: goldfish: Use gf_ioread32()/gf_iowrite32()
+8eabf10f5efb98ab9295048c9a636e51d6969773 clocksource/drivers: Add a goldfish-timer clocksource
+9014fc256c88fae134f84705d56b8114d631d57e m68k: Introduce a virtual m68k machine
+96299bc3720a3bb4bea42d7ebf81961e97112120 m68k: atari: usb: Add ISP1160 USB host controller support
+a77bd6e52bff297f988f4fdea74bee4b277a0f01 m68k: atari: Update Kconfig.bus help text
+18b3bc314ec94560bea280ecf94525faa35d91f4 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1947378712446520773==--
+--===============4747079395470917850==--
