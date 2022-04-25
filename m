@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 25 Apr 2022 10:25:57 -0000
-Message-Id: <165088235790.25044.17618392323892540273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 25 Apr 2022 10:26:47 -0000
+Message-Id: <165088240755.25404.54172454686996587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 4e2e65e2e56c6ceb4ea1719360080c0af083229e
-    new: 9810c58c7051ae83e7ac326fca3daa823da6b778
+    old: 60d78e9fce8886b403a21fecb0dd13f9c0f12e1f
+    new: a00e41bf2f47343b8d0a265cc7710f89e9233dcd
     log: |
-         9810c58c7051ae83e7ac326fca3daa823da6b778 net: lan966x: fix a couple off by one bugs
+         a00e41bf2f47343b8d0a265cc7710f89e9233dcd net: ethernet: mtk_eth_soc: add check for allocation failure
          
