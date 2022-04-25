@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 25 Apr 2022 13:43:39 -0000
-Message-Id: <165089421926.31572.5627490186107741498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 25 Apr 2022 13:44:14 -0000
+Message-Id: <165089425446.31915.4767632326391293988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: d9ce28281c4417ce756c8825aa79dafadd829a64
-    new: 89c47377b01adf0719f865ac09d8467f79ed886c
+    old: 875d6a31d7d5042a382fd7a4612e24f1582b062e
+    new: 28a43fc626b8dbe51270f8cf40a39c9ba714e70f
     log: |
-         310ed6dda6082d0b99d09f18084368c5fe8a30ab x86/asm: use fallback for random_get_entropy() instead of zero
-         0e96117d231b05a8cd3c5ea433537745d62376d2 um: use fallback for random_get_entropy() instead of zero
-         60dedbdeb610a6e9ef03b7f5b66d407d350a875c sparc: use fallback for random_get_entropy() instead of zero
-         86097ba2f75858487507a672d713675f6d7ae69f xtensa: use fallback for random_get_entropy() instead of zero
-         89c47377b01adf0719f865ac09d8467f79ed886c random: insist on random_get_entropy() existing in order to simplify
+         28a43fc626b8dbe51270f8cf40a39c9ba714e70f eject: update file provenance of DRIVER_SENSE in the comments
          
