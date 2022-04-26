@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
-Date: Tue, 26 Apr 2022 17:30:01 -0000
-Message-Id: <165099420129.11333.14432643128305761500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
+Date: Tue, 26 Apr 2022 17:30:05 -0000
+Message-Id: <165099420503.12919.7105574326233085832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/iproute2
+repo: pub/scm/linux/kernel/git/jkirsher/net-queue
 user: jkirsher
 changes:
-  - ref: refs/heads/main
-    old: d8a7a0f4f7fe5de1e8f9186227ba4c1d6ec00e6d
-    new: e81fd551a1a0ffa7983d25f5e756a5c5b6cb4a9a
+  - ref: refs/heads/master
+    old: ba5a4fdd63ae0c575707030db0b634b160baddd7
+    new: acb16b395c3f3d7502443e0c799c2b42df645642
     log: |
-         42d351fa16da2ce9130f88eaf915a2b4f18af199 man: 'allow to' -> 'allow one to'
-         6f3b58436615ec63cbdfc993343434ccbfd7ebaf man: use quote instead of acute accent
-         e81fd551a1a0ffa7983d25f5e756a5c5b6cb4a9a devlink: fix "devlink health dump" command without arg
+         97b9af7a70936e331170c79040cc9bf20071b566 net/smc: Only save the original clcsock callback functions
+         0558226cebee256aa3f8ec0cc5a800a10bf120a6 net/smc: Fix slab-out-of-bounds issue in fallback
+         c3e8d5a40685aed49d736a24f4d2b9e7607771f0 Merge branch 'net-smc-two-fixes-for-smc-fallback'
+         b561275d633bcd8e0e8055ab86f1a13df75a0269 mctp: defer the kfree of object mdev->addrs
+         acac0541d1d65e81e599ec399d34d184d2424401 net: bcmgenet: hide status block before TX timestamping
+         0ed9704b660b259b54743cad8a84a11148f60f0a net: phy: marvell10g: fix return value on error
+         24cbdb910bb62b5be3865275e5682be1a7708c0f net: dsa: mv88e6xxx: Fix port_hidden_wait to account for port_base_addr
+         acb16b395c3f3d7502443e0c799c2b42df645642 virtio_net: fix wrong buf address calculation when using xdp
          
