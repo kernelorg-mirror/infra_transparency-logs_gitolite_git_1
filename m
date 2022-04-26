@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5983679644017871688=="
+Content-Type: multipart/mixed; boundary="===============1089400697412150267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 26 Apr 2022 16:37:42 -0000
-Message-Id: <165099106220.9616.18312194184944069042@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 16:37:49 -0000
+Message-Id: <165099106928.9717.7328889741964657250@gitolite.kernel.org>
 
---===============5983679644017871688==
+--===============1089400697412150267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c78c5a660439d4d341a03b651541fda3ebe76160
-    new: 561215482cc69d1c758944d4463b3d5d96d37bd1
-    log: revlist-c78c5a660439-561215482cc6.txt
+  - ref: refs/heads/dev-queue
+    old: 28cd78159579ecb2f2c5141e2088e03b85399b46
+    new: ba3eaecdecf1230899e942ae9ea1683e50e1faf4
+    log: revlist-28cd78159579-ba3eaecdecf1.txt
 
---===============5983679644017871688==
+--===============1089400697412150267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c78c5a660439-561215482cc6.txt
+Content-Disposition: attachment; filename=revlist-28cd78159579-ba3eaecdecf1.txt
 
 5e7260712b9a76de19c32f15d667f8f93e573978 qed: Remove IP services API.
 869376d0859acf40c83b2c3942ad9d5a8b5d31e4 mlxsw: core_linecards: Fix size of array element during ini_files allocation
@@ -74,5 +74,35 @@ fb0a43f5bd454dfae94aeb293b32669c6ef83b37 net: phy: LAN937x: add interrupt suppor
 de6dd626d7082eda383ec77a5e06093c82122d10 net: dsa: ksz: added the generic port_stp_state_set function
 dfed913e8b55a0c2c4906f1242fd38fd9a116e49 net/af_packet: add VLAN support for AF_PACKET SOCK_RAW GSO
 561215482cc69d1c758944d4463b3d5d96d37bd1 net: usb: qmi_wwan: add support for Sierra Wireless EM7590
+0bd9733320f14a795abde9826165d976645ff468 ice: Add support for classid based queue selection
+25d09ef655105fde54f7ed184ee48c42a4e9486b igc: Remove igc_set_spd_dplx method
+72bf540da0c7e306fd620ff882d2d54bc0ce41e7 ice: introduce common helper for retrieving VSI by vsi_num
+42ed44acfd5da485f47ea1c4887b111a23d85cc3 ice: use min_t() to make code cleaner in ice_gnss
+7b9412bf68a3017580878fc3ea3e3f79a52299ad i40e: i40e_main: fix a missing check on list iterator
+2c3fe27ba7aadccbd616dcd01aaf22bcd2582099 ice: ice_sched: fix an incorrect NULL check on list iterator
+ef642a52ed43d074f2695a016e2956a097cf7ef4 ixgbe: ensure IPsec VF<->PF compatibility
+0187d095b9ed0fb973b0a74addcf1b7bd9cd7260 iavf: Fix error when changing ring parameters on ice PF
+d7cdfa0ffb44531dba187e2e2c16051d0cc2cf90 ice: Add support for double vlan in switchdev
+2ba9a0db3ee657779a8415dbb54007ab7d812afa ice: link representors to PCI device
+99ffdab3375fc8e273ad321629ce6c9ea6465efa Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+7771de96088d7ad95c2fc56928139f71910014f2 ice: Add support for vlan tpid filters in switchdev
+3eff6cb82b9251cf7aa9eda524140b1e0f6a00ec ice: return ENOSPC when exceeding ICE_MAX_CHAIN_WORDS
+c91e748abeddbd768d7e05efc5a91ce81907dd4b ice: Fix incorrect locking in ice_vc_process_vf_msg()
+ead6bfc024975812494f430905f10922fd02c681 i40e: Add VF VLAN pruning
+454894986fedb41592ce7c87c3e0a308c66117c9 ice: fix use-after-free when deinitializing mailbox snapshot
+d93e6d0e3ec2f92471cefb440df12eead32f8cf3 ice: wait 5 s for EMP reset after firmware flash
+3c5843da51f2877a9dcfa13791b4c812990148ad ice: add newline to dev_dbg in ice_vf_fdir_dump_info
+193033787a8c6c44ae7884bac93e12522805133a ice: always check VF VSI pointer values
+9d845a47e32d8e3978ffb3a14986c5d1a37c937a ice: remove return value comment for ice_reset_all_vfs
+3f486e9033e3f3d68568027deaa9d27ed7efb42f ice: fix wording in comment for ice_reset_vf
+96e09d01d209bcf2d5f0d1e862af0544ff3aea94 ice: add a function comment for ice_cfg_mac_antispoof
+795086ce37e7f9cd200f4e155930abf1826af7c4 ice: remove period on argument description in ice_for_each_vf
+9e9588f98792677a1e87aae9a75e3900ed32edaf ixgbe: Fix module_param allow_unsupported_sfp type
+48606a1d50b34655e780f45d9495ad0d0c0060a3 iavf: Add waiting for response from PF in set mac
+44dd59732a4aa981640e5cabbf3a99c86512d0e9 ice: Protect vf_state check by cfg_lock in ice_vc_process_vf_msg()
+60da9faa481595bad1dfa4701429bb63ea97ed2c ice: fix PTP stale Tx timestamps cleanup
+78a0de6a44111cda7b54430274ccad99aa88de07 igb: Convert kmap() to kmap_local_page()
+657184199cb7e1ac35d2bd28418c8161feb82013 ice: get switch id on switchdev devices
+ba3eaecdecf1230899e942ae9ea1683e50e1faf4 ice: switch: dynamically add vlan headers to a dummy packets
 
---===============5983679644017871688==--
+--===============1089400697412150267==--
