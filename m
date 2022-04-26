@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6354710404394482587=="
+Content-Type: multipart/mixed; boundary="===============2251434927716433403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 26 Apr 2022 11:29:31 -0000
-Message-Id: <165097257121.32205.11443135980400413110@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 11:30:48 -0000
+Message-Id: <165097264818.1742.3994430200685842765@gitolite.kernel.org>
 
---===============6354710404394482587==
+--===============2251434927716433403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: e8ffbb71f783f577b24c25bd4dd1c7119d344924
-    new: b54f7a922d334014071ddaea313a045781024f4d
+    old: b54f7a922d334014071ddaea313a045781024f4d
+    new: 85a503c9ea7d4978db5f98de941e6c04b44623f1
     log: |
-         b54f7a922d334014071ddaea313a045781024f4d serial: 8250: Handle UART without interrupt on TEMT
+         85a503c9ea7d4978db5f98de941e6c04b44623f1 dt-bindings: serial: renesas,hscif: Document r8a779g0 bindings
          
 
---===============6354710404394482587==
+--===============2251434927716433403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650972569 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650972646 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650972568-0e7fec01dbd9c3564fdfe1c033246d4b96d9ab48
+nonce 1650972645-b202cc26f005976da6892b13c6550519ec088ac2
 
-e8ffbb71f783f577b24c25bd4dd1c7119d344924 b54f7a922d334014071ddaea313a045781024f4d refs/heads/tty-testing
+b54f7a922d334014071ddaea313a045781024f4d 85a503c9ea7d4978db5f98de941e6c04b44623f1 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJn15kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++tkP/iFhB5/T6YuLYRg1NXbu
-azrBG66Np/YWsZ/DtwfALn37T812GcCbp9Cdp/+VKwlMBbwFUi2fEhkoFUflef2A
-Sa+LE/+qmugLbLBEVuE984ofxM3/9wnNAMa4ptrJhQesXS+CIj8rUc3JYgafH+qN
-N5+nnCsgjs54A+svMA7ryjiRnRe+EpazRRCZqQpr0iHIND5o7LlGWmZ18gN3UPn7
-/FcSqZptY8yoRuDhdBwg+9Hbw90lSFS04PMjzRu+dMBCKY/UQ+j0km15TrAqGhf3
-qmZueX0xw2fgKoBPSC3DVV0JAl4Enc9dGnKv98Hkd+VOKFlLWjW2vQmdJI34/0tj
-yOQoraIc/5WRvxKqpC4Hi6Dm9mGwtUyk8SD3mrThABA7+lsGE/sUprTEpikRGugf
-kkUVlRhhjdQ9f/dahYj66Dq2341eFQm6QdtUxM01thQyH9wXMltc+m70K5JZRyvm
-P1HCtGgy59p43s/uz25rAvKBsZcKNMEHF5+/VwJW8/K6iyNOlmDyMjkdG1nh63SG
-4ZJ6kG3esOYD9Air5c2USkr8SduZh34r4rkwMJJdouc3eknSej26PoKpeV6Jm0us
-5NkKGaNtpCZOWg7pZj7V/sQ7nPJvVxI3wqyuaveKjNNvLry27UPxaDWTd3fF/ShE
-cDR5h16t66Q0ZsHZtLpkVU7Q
-=rgap
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJn1+YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wB0P/iF91cl+FwKhnLy3gU36
+nN6w1NhuATHkNgUSNLyYyIq/IptpQNb/qGzexB1Kg3xlEoK33qpdgyq3A5eLq+7g
+7qnFE99/hgbHu7RhwRzxdBvy6JM3A5mCfKCsmtDe0eDrTcyG3076VoenDynuX/9V
+xSy0Yu6/gQKiXr81K4Wzk/egt1n3FvkyUS2/JNaD8+JWOWLv1YnOqG8zRI6tUPfU
+Bztf3Kb/Cs0R0c9lP88UMJ/W7LcagffvqniYXR2eUVN3N/EULf7UjhBDfpYu70n3
+4fera4YEbfhsopQegwMvseVXUFMtTMnRiW9PqId99ReudtLPYQAiX8VpFR4lK1qT
+1755Bf8H2tMQVHjtXArCvPoXUHE3Y+o49Qjk/J2vm3fo5HuhowHgFDu8wh/VpWvA
+VRu5cS3dnwn5yik1c8WCbYQmqKeObrevSDPceWL65qHZOmMRlFF6WFhVf+/6tuHn
+Cv+/UEXLlkgmBL4Em5G1apIzF0z07ubrWTWmm1bkz4CQ3zqRf6OQ8M+rWBZWfdbM
+DQxbcicHxI8tpCfyNwrLtMKwQTAxLmryUKcopZZThfCHwJasC5yxficj6FhvWP71
+LjniVAd99dZ6Kc5ZoU266qsDZEInKifR3oppmiXAS7oU4uxuGLWfKWBtiL6uJvts
+xn4Hu/5PXMe3auhLDdRxluDf
+=4ZlB
 -----END PGP SIGNATURE-----
 
---===============6354710404394482587==--
+--===============2251434927716433403==--
