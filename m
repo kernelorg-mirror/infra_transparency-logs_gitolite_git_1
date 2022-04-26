@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2048707949729570222=="
+Content-Type: multipart/mixed; boundary="===============1627766367990906668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 26 Apr 2022 20:42:41 -0000
-Message-Id: <165100576164.9278.710850306851399698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 26 Apr 2022 20:48:39 -0000
+Message-Id: <165100611947.13768.3720466184335523640@gitolite.kernel.org>
 
---===============2048707949729570222==
+--===============1627766367990906668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/dev-queue
-    old: ba3eaecdecf1230899e942ae9ea1683e50e1faf4
-    new: f3a5675a1ea4672f2ed25614bc252efa9c517fdb
-    log: revlist-ba3eaecdecf1-f3a5675a1ea4.txt
+  - ref: refs/heads/riscv-compat
+    old: d84810b12dce65023c222aea22d30e2b22e3016a
+    new: fa9b303e34fccd1be47b64f7496d3371cbf3d4ca
+    log: revlist-d84810b12dce-fa9b303e34fc.txt
 
---===============2048707949729570222==
+--===============1627766367990906668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba3eaecdecf1-f3a5675a1ea4.txt
+Content-Disposition: attachment; filename=revlist-d84810b12dce-fa9b303e34fc.txt
 
-4991de012e0d77970e00d040ec145ed6710ee76f ice: Add support for double vlan in switchdev
-5102f9dce70ca1ac4f56035eb8acd6b1e93ddbaa ice: link representors to PCI device
-1d67e64f70d721dea905f77015417c751ffe2181 Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
-d7910a1b22af4a64451394d9c29886eb80ace87b ice: Add support for vlan tpid filters in switchdev
-7a21ea64910a09cc58b4d9b014ad66c0d3ccb1fc ice: return ENOSPC when exceeding ICE_MAX_CHAIN_WORDS
-4eb66f6a239ae57daf18a95de300473e345a1ea9 ice: Fix incorrect locking in ice_vc_process_vf_msg()
-2bb93607112e1a779dddb0aca36df414df0a2180 i40e: Add VF VLAN pruning
-27b9649ab8ac855c0add865b5a3e93f53fbf423d ice: fix use-after-free when deinitializing mailbox snapshot
-f122bb92a2dd3884646a5ad4cbeb4abad4b4ff4b ice: wait 5 s for EMP reset after firmware flash
-fcdf4213638dac2cf9d7e4a349c35b532a764c30 ice: add newline to dev_dbg in ice_vf_fdir_dump_info
-18c5b949bb59be865ba3d7fe98e18bf77f9f767f ice: always check VF VSI pointer values
-a3de288e1213ffe069e837a365e2d7022f03941d ice: remove return value comment for ice_reset_all_vfs
-f4f523e7b7a60ea4c688bf19d50969310cef639f ice: fix wording in comment for ice_reset_vf
-69aaf47c267bc76173dfbc27b8f277d45151e844 ice: add a function comment for ice_cfg_mac_antispoof
-4ca399fc45165c33b89aff8ebd81e31472e439a9 ice: remove period on argument description in ice_for_each_vf
-80d36f2c9b4228194e554e2d20247b7e9a84cd65 ixgbe: Fix module_param allow_unsupported_sfp type
-2c2c4bb53c14a1781af044d4f7e44ec2a51c93d7 iavf: Add waiting for response from PF in set mac
-911053319b8fcabb26d9be746fffd6bf4b70bf76 ice: Protect vf_state check by cfg_lock in ice_vc_process_vf_msg()
-4d1c184ff18fa644fff2e846304d9253db7766fe ice: fix PTP stale Tx timestamps cleanup
-e5aa629944675b0496273ed764d3e1b824339c95 igb: Convert kmap() to kmap_local_page()
-54052a115036ea9c340d8bde83344f286b125132 ice: get switch id on switchdev devices
-430d520e3ea4d5e5598e5d5e1b3a1e17a1821382 ice: switch: dynamically add vlan headers to a dummy packets
-f3a5675a1ea4672f2ed25614bc252efa9c517fdb ice: Fix race during aux device (un)plugging
+9f79b8b7233942e9c4b071f1f331f17e7282bbfa uapi: simplify __ARCH_FLOCK{,64}_PAD a little
+306f7cc1e9061313c46d19e9bdffc819880794c1 uapi: always define F_GETLK64/F_SETLK64/F_SETLKW64 in fcntl.h
+3ce0f2373f7073f04715b1ffd7b1812d3183f79a compat: consolidate the compat_flock{,64} definition
+0cbed0ee1dbcd7ecd890e6af297c9d133f730021 arch: Add SYSVIPC_COMPAT for all architectures
+f18ed30db299458f809aec55bf1800dbeebeb953 fs: stat: compat: Add __ARCH_WANT_COMPAT_STAT
+84a0c977ab9821a4b57f69d9a6108f64188d1e71 asm-generic: compat: Cleanup duplicate definitions
+c86d2cad193a5c7f9b92467955bb7fb6642b9e80 syscalls: compat: Fix the missing part for __SYSCALL_COMPAT
+72f045d19f25f19be6d7682d5b1d948e20580817 riscv: Fixup difference with defconfig
+06d0e3723647610936660c3c2a144c6243367c3c riscv: compat: Add basic compat data type implementation
+01abdfeac81b5f56062d0a78f2cdc805db937a75 riscv: compat: Support TASK_SIZE for compat mode
+59c10c52f573faca862cda5ebcdd43831608eb5a riscv: compat: syscall: Add compat_sys_call_table implementation
+dfb0bfa738f5c58b5c6e81262a0ee4ba154c3f28 riscv: compat: syscall: Add entry.S implementation
+69d0bf4cc668387f8b8bf89c2b77568c7bbe722e riscv: compat: process: Add UXL_32 support in start_thread
+87309e1082481bb78a9fbea6ed6784d979ff93c9 riscv: compat: Add elf.h implementation
+f4b395e6f1a588ed6c9a30474e58cf6b27b65783 riscv: compat: Add hw capability check for elf
+0715372a06ce17a9ba69bbec306ddf30c4bad99e riscv: compat: vdso: Add COMPAT_VDSO base code implementation
+3092eb45637573c5e435fbf5eaf9516316e5f9c6 riscv: compat: vdso: Add setup additional pages implementation
+4aae2d7905d584b625c11b2957ca6561c58ac4cc riscv: compat: signal: Add rt_frame implementation
+01a23d97243054f7bdb3239f76d066e0255a1708 riscv: compat: ptrace: Add compat_arch_ptrace implement
+fa9b303e34fccd1be47b64f7496d3371cbf3d4ca riscv: compat: Add COMPAT Kbuild skeletal support
 
---===============2048707949729570222==--
+--===============1627766367990906668==--
