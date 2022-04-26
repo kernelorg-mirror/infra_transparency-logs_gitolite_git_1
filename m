@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6044650791010806976=="
+Content-Type: multipart/mixed; boundary="===============5518857355803139050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Apr 2022 03:54:33 -0000
-Message-Id: <165094527396.10248.5426964773484526369@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 03:54:44 -0000
+Message-Id: <165094528476.10381.17055516097542366055@gitolite.kernel.org>
 
---===============6044650791010806976==
+--===============5518857355803139050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 70b4fda1bee8a1c973fb5aba29280327557468f0
-    new: 3345a72a4cbfae7fceb9bac6ceb331bf55f41024
-    log: revlist-70b4fda1bee8-3345a72a4cbf.txt
+  - ref: refs/heads/5.19/scsi-staging
+    old: f9bdac31cf4b8609c1b241749b0ceb8f67c8685b
+    new: a346f28ad231cb6746109219a1a371d7de11d67c
+    log: revlist-f9bdac31cf4b-a346f28ad231.txt
 
---===============6044650791010806976==
+--===============5518857355803139050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1650945265 -0400
+pusher 75C5DE3D 1650945276 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1650945264-ffecca6c1ff3d494278f1ac93f17aa9694bb76df
+nonce 1650945276-fbcd565f591a8bd715b4af5d3549315a12abb309
 
-70b4fda1bee8a1c973fb5aba29280327557468f0 3345a72a4cbfae7fceb9bac6ceb331bf55f41024 refs/tags/mkp-scsi-staging
+f9bdac31cf4b8609c1b241749b0ceb8f67c8685b a346f28ad231cb6746109219a1a371d7de11d67c refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJnbPEACgkQ7ulgGnXF
-3j2f6w//Wt9UGp1qjkBBJuwnlcYCGN4d251IcZoaWTRVSepv+sByB3JRfY24OyHt
-JtNVc5Fvz0QGHP+R3dRBvdBDd+kkIXWYC6AaMYgC6+XolsXO0Bbq6BgoYcFZuGFP
-B9WNPiZeJTizzjPF6iFTD00IH5OOLM5ZIIq9LqIziL80tIai6fd+qThDcXQNClUA
-iTgWvyVn2eRNLs4ywaDx3GFx81rfHVHTOFVFec2qRwdHd1OfwkvVoYZPQ7pn89gQ
-a0eg4+SIr7N/wSRqjmABgCsRjuFhr/mnx1frsga6PNQ7lJfyvQNOlE8c6KLkMN3u
-5SqOoWXRv4SBn5tDafwRqPmn4K3Q5Ph++PyjlvwUCvpDWJAPGmf1rCJRRuJExqli
-rnWmzaNtLiT8FSL7I6qg3h2NRPBiOqoJ2MkZPCK6SAFNxtAal/SSOynUmb5+uZr3
-uoeGqPBHVhD4SaTZ2olr+HkI8ZuVgQEI41eet/IJMjFntDukxztx/jb7jARb3l3L
-ICotoF/3RuZWWl4i7upvH8xeah6L1xcfxOfKiFsHhdYPJUmWdgLU0fbysFCHMfZK
-kDfMjXV73YNHFKNgOTzB6VnegOQKhsg2ESlzmx5u5MEoWA6HZqju22x9HhHr6RqE
-buJS9ejIMPd9Rqh5MN5nKCIXpqEEZL+hJYlVMu2I44lsAfA2KWM=
-=JG1q
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJnbPwACgkQ7ulgGnXF
+3j2t7Q/+LS+tconIxsl3n5dVNcwv4ERCdW5tpickGKAuk6Q6yZ+JuzV6uLSmgPzH
+xkyKRRoWFkRe0WxLonlop4zlADNEtEjM5tOWePR75wV03KR6d6+NmLVYYl9UG4gP
++cF4RywSP1IUfNXCtRiD41JfB6MNpgVCNvPScuihDfUIip9CI+DCWh8QGQX38Ckk
+o67V2r2gms8noeGnt1lNqrA0q+eFDa/H8fMT2WLvWTnvJVk9rGUsx4MwMf6rIVo7
+QgWEz8dK2ERkY8Fy3Vbu17kBESGx3IaP7IBqZGlJSB9dFDqs8SFqQrDJp+sbCQ3v
+0YP4eVffPNosZkNqSdr5XL+yeMqnlkAKkJ2xAqtb+9+Othyg9tObzn6WcZFiWjMT
+qE4DU73KkE0d8jykXwKh+aHFejqaoR2/BrjqRDFk+1w6yT5BcXRV3eJKhEPwdJ5K
+ofyHScoBDv7kBJcihpYbO3+S7m1p3cd/Lq0RSrB678MuzMMYrrB7wwSuYP12SN5f
+5q8FLYBU6Yksb6dSiEkQDDC4WDFcofyaZRsMH/Y47CbxHJRjxC65uD7r+NjsaESn
+OaMHGaRXYNH84bzMG6TuRVmQn9/Q6hCt59EJb8mDwkeabEUlws62bklPrZmAQpGY
+HGW8GHE9efI56qCsE78zsBrs9mXE08a+TfWoYQm6osqS1nHoI7M=
+=0zl6
 -----END PGP SIGNATURE-----
 
---===============6044650791010806976==
+--===============5518857355803139050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70b4fda1bee8-3345a72a4cbf.txt
+Content-Disposition: attachment; filename=revlist-f9bdac31cf4b-a346f28ad231.txt
 
 ad14649fc5ab216e0abb6b38115898238a0991f5 scsi: qla2xxx: Remove free_sg command flag
 dceaef94a4753d4d49d493a6cd4a81168e384d6f scsi: mpt3sas: Fix _ctl_set_task_mid() TaskMID check
@@ -117,4 +117,4 @@ cf97628fe1a1f25f3a5617fa10619d7bef904da1 scsi: qla2xxx: Remove unneeded flush_wo
 671a52f2aeafe2f42bddb53dcfe3933b1f641843 scsi: fnic: Remove unneeded flush_workqueue()
 a346f28ad231cb6746109219a1a371d7de11d67c scsi: lpfc: Remove unneeded variable
 
---===============6044650791010806976==--
+--===============5518857355803139050==--
