@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3087143832373509177=="
+Content-Type: multipart/mixed; boundary="===============8357387094486105536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 26 Apr 2022 10:48:29 -0000
-Message-Id: <165097010960.6070.1351573960524587016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 26 Apr 2022 10:52:02 -0000
+Message-Id: <165097032214.8662.6589055888277518244@gitolite.kernel.org>
 
---===============3087143832373509177==
+--===============8357387094486105536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 99c470f930375de953d4e0e7516c7c7ca096c581
-    new: 26360a8c9732cff2ee5bc2f180e9716b63e9f650
+  - ref: refs/heads/char-misc-testing
+    old: 1f7142915d304804a9bd952245fce92786b1b62f
+    new: e88a6a8fece9b92be4f55735134a022061e6e68b
     log: |
-         acb118696eee80bbd13935770d774571da6ac427 platform: finally disallow IRQ0 in platform_get_irq() and its ilk
-         26360a8c9732cff2ee5bc2f180e9716b63e9f650 driver core: Add sysfs support for physical location of a device
+         4647769bab901562b1d3aa6ceb640a4886b0f277 drivers/virt/fsl_hypervisor: remove unneeded `ret` variable in `fsl_hv_open()`
+         26eff2d66aff33527c7872277ab9c9d8478a978c binder: Use memset_page() in binder_alloc_clear_buf()
+         1d625960e41907af706f573a3cd097595a0ade63 binder: Use kmap_local_page() in binder_alloc_copy_user_to_buffer()
+         e88a6a8fece9b92be4f55735134a022061e6e68b binder: Use memcpy_{to,from}_page() in binder_alloc_do_buffer_copy()
          
 
---===============3087143832373509177==
+--===============8357387094486105536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650970105 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1650970104-d55aeb58cee63b884218de933ec00f1ad1894900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650970319 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1650970319-cec206c5741ee6d245d9011089bc79e7b84f40e1
 
-99c470f930375de953d4e0e7516c7c7ca096c581 26360a8c9732cff2ee5bc2f180e9716b63e9f650 refs/heads/driver-core-testing
+1f7142915d304804a9bd952245fce92786b1b62f e88a6a8fece9b92be4f55735134a022061e6e68b refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJnzfkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vZUQANNjzqqtzUjQ9Y+OcAfW
-mbjyC/Tw1NNZ8cWao/xgHT+4fv3uyZuGh9aq3xiBK54zevXkXy5SMKPhPwkNtXLi
-ofUO3ihKLUH7U42e/PPvIbvrmLehG/4SpLbZ9wcBDlsgNnDEjsU8TKJhnrKqv53D
-6bh14YDRZGzDvl9y9FjsF8nn9sF0NtiVSgk/bTpoB/c2oGlzLk+NHZv/r4Swe+nS
-lt0JsuIFsMqO+1tKfh83dHbJOFibNYnjHngk4b4osUNgu/1DU6Hcgrcmi6bfNj5c
-LzamHCchQlNhw6sS7hZgERcNlJvAqIKmEjRe21C3IDDhn8+j5Qb1On66adMDsybD
-v6ERaJH/VJmanyVjo/oAs5AdJzqE6o5KXXjEJMFZoAMQ9LO4pkb6buWKyuh/BEfS
-L+Mbk57mYXIcMDglrW2ezldQe3QwNKlEH/YHnQA4Yu+d0xIVdgAwruZbb6rRdKBn
-u4a5SBdSjx9GkVhH/UeXTbo3ggiJW3twzeoun8ZdltGonTOOBVpg+b1Zt692RcAB
-Fa3ryiObXYxDEOmNJUTFooQyDtH2TS2hTyO4iwLWF4UouUeLlk2GbZcP3SVBzQC9
-sXW+dHpaiJ1EPACi2jMECOH74qy33ts/vC28GrO/emLhvmUznn0TiYE3ulSFvUFm
-afEoh9xwo6MybdlK+bQaRdQ8
-=Y5L2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJnzs8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HSsQAMZtYAWdkw/hRrH+T72j
+hmHZ0axhCIxj932AAORoa8UbyHlDOwnkq4zi+XlhWIMI9+jPIFm5liA27wqE/UOr
+psFpn5CUgwx5K1R/1DkqgFw5Hh32SqOAMQE9dn7WuoUoRcY1DaoIRHjseMomF03F
+uOQEwN5uzoer1ho9PZCRAtMv1RiYPu30xCS6CasKlIkBrCp/EG7caiy3HwUqQ4iu
+2QhfRY7dDpzB3QKrutn9vNPL1DiFglsGCvQXm6oFhrohJ0ULqdZ9q2Mg3F2yOzQD
+fiN85mf9s2ZOm9nXt/E1e53X8v6UE+v7Bhr6ziHw2lh1FtmDDjEXgJiH7QzAKyTj
+0V207sNn0YZMytpTLRQhHd8SyPFnE5vA4cY2m3MP9CMVxpYMkP0t9dPpYDIHy+2Q
+isXBJASswrUuORMYsPz2JK4PXI+x33DFFv9vVTWKsIXmRYPCX8d8QgRojxz7adUq
+PCyX/DN5wV6hjdwFtrTK/Ov/h0xkigqv51HHlSCSG+t8b0wqvAQA4dMSVurZuBUT
+hLG6Zmn/wUeuRdIShcBWvzPcPuJviBrqNuejN6oNAXHzk7K/Dycr09ArxaVfWLee
+7xYwKXF4jRMqhZdkG26F9Lq4ChXyI2ORbJwnSKW5BxqzfRNSaJxF3FSzXnxCH64X
+LWoNgcK2ikjaKYoVUC903NeS
+=dk9F
 -----END PGP SIGNATURE-----
 
---===============3087143832373509177==--
+--===============8357387094486105536==--
