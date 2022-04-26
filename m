@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0962878971426074256=="
+Content-Type: multipart/mixed; boundary="===============0595017414817315470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm-git
-Date: Tue, 26 Apr 2022 19:19:05 -0000
-Message-Id: <165100074547.19472.8592167666932383888@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 19:19:18 -0000
+Message-Id: <165100075885.19625.1907512066794703603@gitolite.kernel.org>
 
---===============0962878971426074256==
+--===============0595017414817315470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/akpm/mm-git
 user: akpm
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 8e4b17558a4682a1e6e1a2aa6c1157f61ab85f87
-    new: 8439edff6395e04bd82539d6c857b8db22abd6f2
-    log: revlist-8e4b17558a46-8439edff6395.txt
+  - ref: refs/heads/mm-hotfixes
+    old: 96231d6db717e22105ac50fec5bf67491bbf6fc2
+    new: cefffc055f7479702569addcb0a3d8871e007d8b
+    log: revlist-96231d6db717-cefffc055f74.txt
 
---===============0962878971426074256==
+--===============0595017414817315470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e4b17558a46-8439edff6395.txt
+Content-Disposition: attachment; filename=revlist-96231d6db717-cefffc055f74.txt
 
 af11f31715b50ce77e50fa393bc530df0f33960b video: fbdev: of: display_timing: Remove a redundant zeroing of memory
 aaf7dbe07385e0b8deb7237eca2a79926bbc7091 video: fbdev: udlfb: properly check endpoint type
@@ -63,6 +63,5 @@ fd574a2f841c8f07b20e5b55391e0af5d39d82ff Merge tag 'for-5.18-rc4-tag' of git://g
 4fad37d595b9d9a2996467d780cb2e7a1b08b2c0 Merge tag 'gfs2-v5.18-rc4-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 cf424ef014ac30b0da27125dd1fbdf10b0d3a520 Merge tag 'for-5.18/fbdev-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 cefffc055f7479702569addcb0a3d8871e007d8b Merge branch 'master' into mm-hotfixes
-8439edff6395e04bd82539d6c857b8db22abd6f2 Merge branch 'mm-hotfixes' into mm-unstable
 
---===============0962878971426074256==--
+--===============0595017414817315470==--
