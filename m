@@ -1,44 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0076563842155659895=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 26 Apr 2022 23:49:22 -0000
-Message-Id: <165101696276.1906.4514974628233472809@gitolite.kernel.org>
-
---===============0076563842155659895==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 26 Apr 2022 23:50:04 -0000
+Message-Id: <165101700405.3676.3807357794888944413@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: cf424ef014ac30b0da27125dd1fbdf10b0d3a520
-    new: 46cf2c613f4b10eb12f749207b0fd2c1bfae3088
-    log: revlist-cf424ef014ac-46cf2c613f4b.txt
-
---===============0076563842155659895==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf424ef014ac-46cf2c613f4b.txt
-
-abb860ac7e3f022a233f34b12d035d49abfc114d pinctrl: samsung: staticize fsd_pin_ctrl
-0be0b70df6611205ac392d0e21f7e077f3230ee6 pinctrl: alderlake: Fix register offsets for ADL-N variant
-fda4d7e7767cc7ed3a6e0b9904ac733b58f3a61e Merge tag 'intel-pinctrl-v5.18-2' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into fixes
-ef0beba1a5fb0c693ddf7d31246bd96c925ffd00 pinctrl: qcom: sm6350: fix order of UFS & SDC pins
-87950929e2ff2236207bdbe14bff8230558b541b pinctrl: mediatek: moore: Fix build error
-ac875df4d854ab13d9c4af682a1837a1214fecec pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
-08b7cf134eafca3b38e818d934b00dfe6b5b0fb4 pinctrl: Fix an error in pin-function table of SP7021
-e74200ebf7c4f6a7a7d1be9f63833ddba251effa pinctrl: stm32: Do not call stm32_gpio_get() for edge triggered IRQs in EOI
-b3af85969e959872f21f0e6aaf5fbb9d37c5cb90 Merge tag 'samsung-pinctrl-fixes-5.18' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into fixes
-1f3e25a068832f8892a5ff71467622d012f5bc9f pinctrl: rockchip: fix RK3308 pinmux bits
-7c4cffc5d473e87ae2eaa50aed8cb27d17bcd1ec pinctrl: rockchip: sort the rk3308_mux_recalced_data entries
-05d8af449d93e04547b4c6b328e39c890bc803f4 pinctrl: stm32: Keep pinctrl block clock enabled when LEVEL IRQ requested
-0c9843a74a85224a89daa81fa66891dae2f930e1 pinctrl: pistachio: fix use of irq_of_parse_and_map()
-46cf2c613f4b10eb12f749207b0fd2c1bfae3088 Merge tag 'pinctrl-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-
---===============0076563842155659895==--
+  - ref: refs/heads/io_uring-big-sqe
+    old: c5eb9a698f2a082cdfbfdc0b32ed8d855bc6040e
+    new: 0fde61fe729221b43d9c8374cb57e571f4fb2a16
+    log: |
+         5c8bcc8e97123e3e68a6b1aa4c3eb6c5d5b9d174 io_uring: support CQE32 in io_uring_cqe
+         04c3f8c8deae29e184d54b2cd815f39fd46c6b2e io_uring: store add. return values for CQE32
+         9291ac41fda10ba7e80fc2147ca39a3b1d130ef9 io_uring: change ring size calculation for CQE32
+         bc6bda624e953fcf42c6075fe35a219ce6df4bc4 io_uring: add CQE32 setup processing
+         22b76e8c5fd312701a1827b970230ee66aa24f69 io_uring: add CQE32 completion processing
+         771c7f07faf909b9993fd5e42581c8c82531fb58 io_uring: modify io_get_cqe for CQE32
+         b8e5029ed965c01066009bcb172c082b60ff436c io_uring: flush completions for CQE32
+         3ee1cd786a668ba2a6e8dfefacb8f29e1d995c12 io_uring: overflow processing for CQE32
+         225afd24978b55a771660fb4c6ad90cac75e7da8 io_uring: add tracing for additional CQE32 fields
+         41a971975a3ae2b498b9f5ecad34c34280f0ffdc io_uring: support CQE32 in /proc info
+         bb30aab40bcb6e9b80321615a2847a9491c95bf9 io_uring: enable CQE32
+         0fde61fe729221b43d9c8374cb57e571f4fb2a16 io_uring: support CQE32 for nop operation
+         
+  - ref: refs/heads/io_uring-flags2
+    old: bfbad055dcd5655d2258b97e8db1653e5109739f
+    new: 476a47487086a3f9826db55472dc22ffbd73d540
+    log: |
+         476a47487086a3f9826db55472dc22ffbd73d540 io_uring: return hint on whether more data is available after receive
+         
