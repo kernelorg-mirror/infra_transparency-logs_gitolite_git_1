@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8251250267497515822=="
+Content-Type: multipart/mixed; boundary="===============0911525236581316138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 26 Apr 2022 15:29:52 -0000
-Message-Id: <165098699272.29113.4807275917238435941@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 15:29:57 -0000
+Message-Id: <165098699755.29233.3592158883979160592@gitolite.kernel.org>
 
---===============8251250267497515822==
+--===============0911525236581316138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: fc06b2867f4cea543505acfb194c2be4ebf0c7d3
-    new: acb16b395c3f3d7502443e0c799c2b42df645642
-    log: revlist-fc06b2867f4c-acb16b395c3f.txt
+  - ref: refs/heads/dev-queue
+    old: f2714bd3e8156d2e2e78b913095720cccc134489
+    new: fb2e7b9b63e334d20017908428521c43b5424e99
+    log: revlist-f2714bd3e815-fb2e7b9b63e3.txt
 
---===============8251250267497515822==
+--===============0911525236581316138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc06b2867f4c-acb16b395c3f.txt
+Content-Disposition: attachment; filename=revlist-f2714bd3e815-fb2e7b9b63e3.txt
 
 eba1a872cb73314280d5448d934935b23e30b7ca ipvs: correctly print the memory size of ip_vs_conn_tab
 babc3dc9524f0bcb5a0ec61f3c3639b11508fad6 netfilter: nft_set_rbtree: overlap detection with element re-addition after deletion
@@ -67,5 +67,14 @@ acac0541d1d65e81e599ec399d34d184d2424401 net: bcmgenet: hide status block before
 0ed9704b660b259b54743cad8a84a11148f60f0a net: phy: marvell10g: fix return value on error
 24cbdb910bb62b5be3865275e5682be1a7708c0f net: dsa: mv88e6xxx: Fix port_hidden_wait to account for port_base_addr
 acb16b395c3f3d7502443e0c799c2b42df645642 virtio_net: fix wrong buf address calculation when using xdp
+c4bc918e6f841d28e09c7cb325d6ec0fc63dcaf4 i40e: i40e_main: fix a missing check on list iterator
+5a58bcb87d57f85d53bcda6934fb79ceaf9e3761 ice: ice_sched: fix an incorrect NULL check on list iterator
+ec589c709f3cd1827a16a6280ccd19b0a667d952 iavf: Fix error when changing ring parameters on ice PF
+136d147044c6c22f0e8156252c1f2c17bd462a08 ixgbe: ensure IPsec VF<->PF compatibility
+8f8a28c33f9244f32c416bdf6644d145b0eb5caf ice: Fix incorrect locking in ice_vc_process_vf_msg()
+7d9f16165a4b368c55dd54828782acfa7d9d0997 ice: fix use-after-free when deinitializing mailbox snapshot
+6f304c63a31adba2ee0c81854f3b36c628af0a83 ice: wait 5 s for EMP reset after firmware flash
+4e003f922b435a3e99b5cfcb65d377e8a480790a ice: Protect vf_state check by cfg_lock in ice_vc_process_vf_msg()
+fb2e7b9b63e334d20017908428521c43b5424e99 ice: fix PTP stale Tx timestamps cleanup
 
---===============8251250267497515822==--
+--===============0911525236581316138==--
