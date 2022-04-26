@@ -1,120 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3947387229828207285=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Apr 2022 03:55:06 -0000
-Message-Id: <165094530630.12066.16783986548397295385@gitolite.kernel.org>
-
---===============3947387229828207285==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 26 Apr 2022 04:53:25 -0000
+Message-Id: <165094880570.16870.5701780287398524830@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/for-next
-    old: f9bdac31cf4b8609c1b241749b0ceb8f67c8685b
-    new: a346f28ad231cb6746109219a1a371d7de11d67c
-    log: revlist-f9bdac31cf4b-a346f28ad231.txt
-
---===============3947387229828207285==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1650945298 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1650945298-71afb0b71fc7728c98c4cded1232e9aaafaaf4a3
-
-f9bdac31cf4b8609c1b241749b0ceb8f67c8685b a346f28ad231cb6746109219a1a371d7de11d67c refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJnbRIACgkQ7ulgGnXF
-3j269g//Xt4hveUdnb5ZUUyUEb89yKXdVYgZ/OEnvx791LXT9/hvyHwrpCVZv8ms
-Eh0i3WuCzExE95mDVh2rkaKsK37vkRFscMm4fsUBG4qRRDSwfJHnIiQ/2O6D/VMm
-14LfUNV/EwJbS1yKlxNdNW1Tbzb45Pk/spcdU8XdOCb0fHYSBtF5L9jhijIR6/46
-9RJpU59UaQUF21uHGFg5KeRnrLdY0DDlI2LHQm+b1gPcIuDjvaIJwoo4y0+uGlT3
-CKPjDIOojCVs6MhmozUzlJpisfwtfVZZPVDLpM9XA288rdvBTkzx4klVJ8ToQMsy
-m2xgpE59/4r1st+b346ce5sc0LhyDsEz0NHetkTMw+9PlkWMODwik1M+z52wGmlT
-9ETl1ImgEVVQVkWQ0ehwFmT/lzM4fnyyEMNxHgQiy7y0yBjuH4GB8YM20gG14oFQ
-ztjjUC4/JLfiALM6NtJuGMgKJ4yVKhIaDu6f6UqPpVvIc8L/6BoIhtniMcUvJwnV
-dS4YYTXUFYUoyZBoYAoB1xHFFTmwJi/bPXd8fAa94IfLSUZkXnDqOraMXb6SMafD
-KQ7oPxZ7BTU/HdhHGA5tZ76jDXYG+gSA5gDCr7MeUDfjA09ahFEQHz/ElaGCeRlS
-tsWGhJSB002cmks8DAhGkEuldceA2uUeiuVVm3Lj0QorDS+PysU=
-=z4eo
------END PGP SIGNATURE-----
-
---===============3947387229828207285==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9bdac31cf4b-a346f28ad231.txt
-
-ad14649fc5ab216e0abb6b38115898238a0991f5 scsi: qla2xxx: Remove free_sg command flag
-dceaef94a4753d4d49d493a6cd4a81168e384d6f scsi: mpt3sas: Fix _ctl_set_task_mid() TaskMID check
-b4efbec4c2a75b619fae4e8768be379e88c78687 scsi: mpt3sas: Fix writel() use
-7ab4d2441b952977556672c2fe3f4c2a698cbb37 scsi: mpt3sas: Fix ioc->base_readl() use
-82b4420c288c45cc38a1be6c5b4e396c1ea4599f scsi: mpt3sas: Fix event callback log_code value handling
-fe413ab32b240d30c2500c3ba8f3f0ccbcf59fe4 scsi: mpt3sas: Fix adapter replyPostRegisterIndex declaration
-95af09fabf3782be9728a6af6461f6937cd8e528 scsi: target: core: Silence the message about unknown VPD pages
-565138ac5f8a5330669a20e5f94759764e9165ec scsi: iscsi: Fix harmless double shift bug
-a4e6496fca3f32e997e8a3b5c44e2a1ae09d018e scsi: ufs: core: Increase fDeviceInit poll frequency
-2abe580023644d76f9d4ef1c3f13f6ef38de7e15 scsi: ufs: Fix a spelling error in a source code comment
-59a57bb79e1079ab634370c07eb6506711c69f85 scsi: ufs: Declare ufshcd_wait_for_register() static
-51d1628fc4572705daabac18a7935b661baae1a0 scsi: ufs: Remove superfluous boolean conversions
-a858af9a9e01972c33f61036a3de6f707184e51b scsi: ufs: Simplify statements that return a boolean
-b639b59b44fdab99bcff7b4d01ef642605ae7aa4 scsi: ufs: Remove ufshcd_lrb.sense_bufflen
-1de4378f605787d79a6aab905c96a4320411b9b1 scsi: ufs: Remove ufshcd_lrb.sense_buffer
-9d3ab17e840c48c3ca427c5f7138f361e2d8394c scsi: ufs: Use get_unaligned_be16() instead of be16_to_cpup()
-dd2cf44ff4eca20b4b42014d1c7ada3518fda4e1 scsi: ufs: Remove the UFS_FIX() and END_FIX() macros
-25eff2f543b11597a6200c55ca3a1bdf0a77bf9f scsi: ufs: Rename struct ufs_dev_fix into ufs_dev_quirk
-aead21f32ae787af140233e32e18801dfd5185b1 scsi: ufs: Declare the quirks array const
-acbbfe484faac99d0088aa259e62a5b55aef3b39 scsi: ufs: Invert the return value of ufshcd_is_hba_active()
-9474c64e83ca5561a7c5b410395ec6c24616d3b4 scsi: ufs: Remove unused constants and code
-778d2b0ec6d11642f42ad55b0415988a85255f6c scsi: ufs: Switch to aggregate initialization
-c906e8328de83b27f27af07cf79afb799e69838a scsi: ufs: Make the config_scaling_param calls type safe
-b4ade33b0d168334177466488cd7aa03b1569a86 scsi: ufs: Remove the driver version
-e2106584d0110b2613cc7de3bf013fa9e070bfd1 scsi: ufs: Rename sdev_ufs_device into ufs_device_wlun
-2b10863f71637797121a729a55ba6872b8c85b2b scsi: ufs: Use an SPDX license identifier in the Kconfig file
-d0c1725b1e64d9fd4e082f4b600d658b8a535cac scsi: ufs: Remove paths from source code comments
-21c2e3418d07955c7b87fc3f75688cb1c2b04a32 scsi: ufs: Remove the TRUE and FALSE definitions
-3fb20fcd93fe5a1580355f1ea73f6daed1712f06 scsi: ufs: Remove locking from around single register writes
-ad8a647e77294dde3487c86847ca28bd4c8543cd scsi: ufs: Introduce ufshcd_clkgate_delay_set()
-bee40dc167da159ea5b939c074e1da258610a3d6 scsi: ufs: qcom: Fix ufs_qcom_resume()
-c10d52d73ae0ebc66a837c486b82d1259be01459 scsi: ufs: Remove unnecessary ufshcd-crypto.h include directives
-cff91daf52d364d0d84fa47b489abcfd4eb19bb9 scsi: ufs: Fix kernel-doc syntax in ufshcd.h
-3f06f7800b80462e8f6aadade6bb823496204e06 scsi: ufs: Minimize #include directives
-4bc26113c603073363ac96f6f1c7d6389bc0b243 scsi: ufs: Split the ufshcd.h header file
-743b09d8541e2d6ae419bf41c4815f8be318dcc5 scsi: ufs: Move the struct ufs_ref_clk definition
-a8b032b5b3ba4e9d8ecb913724d0725121445b24 scsi: ufs: Move the ufs_is_valid_unit_desc_lun() definition
-aa96bfb4caff59c93f0637092efe3a714cab0fe6 scsi: sd: sd_zbc: Improve source code documentation
-9a93b9c9d38aee1f729f3cea72971a2616dca936 scsi: sd: sd_zbc: Verify that the zone size is a power of two
-43af5da09efb8abe450ec859d3063adeb7d1eb54 scsi: sd: sd_zbc: Use logical blocks as unit when querying zones
-628617be8968e575ca0a0637fb227f8a990cb2f7 scsi: sd: sd_zbc: Introduce struct zoned_disk_info
-60caf3758103b8edc90724ba781ff119f739162a scsi: sd: sd_zbc: Return early in sd_zbc_check_zoned_characteristics()
-c976e588b34e4ff2fdd2922edab4b983244a17e6 scsi: sd: sd_zbc: Hide gap zones
-897284e8a04894537b58a079a2729a70731c229d scsi: scsi_debug: Fix a typo
-35dbe2b9a7b0c92777c855c6a2cca8390f4c166b scsi: scsi_debug: Rename zone type constants
-4a5fc1c6d75261f2f014a961d39ab10aae66a0f9 scsi: scsi_debug: Add gap zone support
-331c6e910f1acfcd854428241789431ebed65677 scsi: aacraid: Fix undefined behavior due to shift overflowing the constant
-93de8df20537697cc2e74ac42b61e94b5ef5a1eb scsi: mac53c94: Fix warning comparing pointer to 0
-1dcd96c4d0b726df1155066126e029cb17a6dd3d scsi: fnic: Remove redundant NULL check
-8e897c84661e67e30c0c57dd4d25e18869958951 scsi: bfa: Remove redundant NULL check
-8c36b054df01e15d285a7414a7bafff7a2ed9eb0 scsi: aha1542: Remove unneeded semicolon
-ce781c3f05cd93515e31091def848c134f5bb2f2 scsi: message: fusion: Remove unused variable retval
-507bd398a056c08d5618450db86bad69b02dde6b scsi: elx: efct: Remove unnecessary memset() in efct_io()
-391b8dac55770686d33f65ab5e87cfbc5bb3942d scsi: ipr: Directly return instead of using local ret variable
-bda57fede0a6211f9c3423e8b972caffbe623ee0 scsi: qla4xxx: Drop redundant memset()
-21faafff6abbbe79fe56e3c7049514df08a9e66e scsi: qedf: Remove unnecessary code
-4c0df601e150c1e48566e7e4e183ba40c9f81157 scsi: bfa: Remove unneeded flush_workqueue()
-cf97628fe1a1f25f3a5617fa10619d7bef904da1 scsi: qla2xxx: Remove unneeded flush_workqueue()
-671a52f2aeafe2f42bddb53dcfe3933b1f641843 scsi: fnic: Remove unneeded flush_workqueue()
-a346f28ad231cb6746109219a1a371d7de11d67c scsi: lpfc: Remove unneeded variable
-
---===============3947387229828207285==--
+  - ref: refs/heads/pending
+    old: 280302f0e8f6919f0c591753ea21906d77797746
+    new: ac33087b90d44498835ff3030e94357204ebaa31
+    log: |
+         0a2beb585a2788cc70e55540a781f7b26384059b PCI/ACPI: add a helper for retrieving _OSC Control DWORDs
+         98b13ba4a5f0f0b7e6a55e5333ea1fb0eb03e948 PCI/ACPI: Prefer CXL _OSC instead of PCIe _OSC for CXL host bridges
+         461ff456195f172248ceb9f164c024bc164c8bfa PCI/ACPI: negotiate CXL _OSC
+         584b7b7ca98d9f4a9b752ae54d25823ef87f6565 cxl: Replace lockdep_mutex with local lock classes
+         66261e39a6ee0397eddc86efcaf6cf9ae8c8079b cxl/acpi: Add root device lockdep validation
+         47670c14138ddff5a3c13d13b66b91cd2588ad49 cxl: Drop cxl_device_lock()
+         31e3f2b5ed821872862694cd116657ce7162a69a nvdimm: Replace lockdep_mutex with local lock classes
+         650fafc7d42a284f0d81385f755d7f44f832121c ACPI: NFIT: Drop nfit_device_lock()
+         a007b5ffb0591a94a3beb105c19f0bc4a488c4a8 nvdimm: Drop nd_device_lock()
+         67a84261117e1c54145add2317ab65f23485cad2 device-core: Kill the lockdep_mutex
+         ac33087b90d44498835ff3030e94357204ebaa31 nvdimm: Fix firmware activation deadlock scenarios
+         
