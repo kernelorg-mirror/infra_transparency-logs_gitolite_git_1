@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 26 Apr 2022 13:18:00 -0000
-Message-Id: <165097908088.7307.10262840574501608286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 26 Apr 2022 13:25:28 -0000
+Message-Id: <165097952886.12493.6726908659430480798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/mips-next
-    old: b2d229d4ddb17db541098b83524d901257e93845
-    new: aa88b7066a10e2cb5355478f22daa28794ab3835
+  - ref: refs/heads/master
+    old: af2d861d4cd2a4da5137f795ee3509e6f944a25b
+    new: d615b5416f8a1afeb82d13b238f8152c572d59c0
     log: |
-         33d7085682b4aa212ebfadbc21da81dfefaaac16 MIPS: SGI-IP27: Free some unused memory
-         fd27234f24ae11bd6a79234d9d30033152342085 MIPS: SGI-IP30: Free some unused memory
-         27498967d65c6a7c5fec5f2e33be5d8e84a775fd MIPS: dts: align SPI NOR node name with dtschema
-         4107fa700f314592850e2c64608f6ede4c077476 mips: cpc: Fix refcount leak in mips_cpc_default_phys_base
-         407710a3b52c32db6f212727f06620f1c38ed1d2 MIPS: Octeon: fix CN6640 hang on XAUI init
-         aa88b7066a10e2cb5355478f22daa28794ab3835 MIPS: Octeon: support all interfaces on CN66XX
+         930e2607638de8325686319b2789323cc85ea671 f2fs: remove obsolete whint_mode
+         0adc2ab0e8a88a0e8b98dae5fc1443ae8c7062ba f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
+         27275f181c7add59c211c7e40c442d8004b1e664 f2fs: fix wrong condition check when failing metapage read
+         4d8ec91208196e0e19195f1e7d6be9de5873f242 f2fs: should not truncate blocks during roll-forward recovery
+         0fc74d820a012550be006ba82dd8f1e3fe6fa9f7 no-MMU: expose vmalloc_huge() for alloc_large_system_hash()
+         d615b5416f8a1afeb82d13b238f8152c572d59c0 Merge tag 'f2fs-fix-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
          
