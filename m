@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 26 Apr 2022 06:21:55 -0000
-Message-Id: <165095411591.10128.5176119528391890408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 26 Apr 2022 06:37:54 -0000
+Message-Id: <165095507495.19326.12874003879319413604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-next/kspp-checkpatch
-    old: 0000000000000000000000000000000000000000
-    new: 73f1d07e5f8a1dec989a5ec964f5f2ce5b6f8825
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 2de19142b0b8b22c75095b53b1501d9031a74ae8
+    new: 8f705811d64b57f3dca562ed2312f2cb1fafc67e
