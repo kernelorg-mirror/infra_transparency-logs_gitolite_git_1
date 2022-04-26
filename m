@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4382553234953452018=="
+Content-Type: multipart/mixed; boundary="===============4841506263781069265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 26 Apr 2022 13:54:21 -0000
-Message-Id: <165098126149.30603.2924130576362612122@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 13:54:39 -0000
+Message-Id: <165098127904.30755.2878910557583562409@gitolite.kernel.org>
 
---===============4382553234953452018==
+--===============4841506263781069265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 2363b0d9535b601f2764cc69403303596f534157
-    new: ac9d25557dcc9fe90ed12bfbb6db401e892ca004
-    log: revlist-2363b0d9535b-ac9d25557dcc.txt
+  - ref: refs/heads/fixes
+    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
+    new: 4bc31edebde51fcf8ad0794763b8679a7ecb5ec0
+    log: revlist-ce522ba9ef7e-4bc31edebde5.txt
 
---===============4382553234953452018==
+--===============4841506263781069265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2363b0d9535b-ac9d25557dcc.txt
+Content-Disposition: attachment; filename=revlist-ce522ba9ef7e-4bc31edebde5.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -654,41 +654,5 @@ f48ffef19dfd6a3c2a6872d4c680c90e14103fdf Merge tag 'perf_urgent_for_v5.18_rc4' o
 42740a2ff5d3f2cc0c73876dfb37ed0b88d926fd Merge tag 'sched_urgent_for_v5.18_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 af2d861d4cd2a4da5137f795ee3509e6f944a25b Linux 5.18-rc4
 4bc31edebde51fcf8ad0794763b8679a7ecb5ec0 mmc: core: Set HS clock speed before sending HS CMD13
-583e48372eb1370cf24195a2236878810df58d4f mmc: renesas_sdhi: remove outdated headers
-6af8dd53c36f3e400b60269d3b55bdcc0d0574f7 mmc: renesas_sdhi: R-Car D3 also has no HS400
-6de9727a2207495faad6fe3822eb0f87c7381e65 mmc: renesas_sdhi: make setup selection more understandable
-254b7d1299eb4876821d62cb957bf6f6434c1074 mmc: renesas_sdhi: remove a stale comment
-c0a43968be5609c7c0f5ba0b5c72cbc7ab22ebce mmc: renesas_sdhi: make 'fixed_addr_mode' a quirk
-bcfa7f15eb1657ec16a9c2cf8d93c5aef8e8e39f mmc: renesas_sdhi: make 'dmac_only_one_rx' a quirk
-ed9ab884987bf80e015f0531e10ad1c1af978e09 mmc: renesas_sdhi: style fix for proper function bodies
-970dc9c11a17994ab878016b536612ab00d1441d mmc: mmci: stm32: use a buffer for unaligned DMA requests
-139bbdba494b0ba8ba5304db747d7f136ca9ad66 mmc: renesas_sdhi: Add missing checks for the presence of quirks
-fc1fdbd94cabab0f647c80fbd5c41029f84735b4 mmc: renesas_sdhi: R-Car V3M also has no HS400
-3ddfa03d8162264b32b95b26eccb902ed4e07f3f dt-bindings: mmc: xenon: Convert to JSON schema
-7792fdf626c20aa4e0d2b0daacf4e30df3ff9583 dt-bindings: mmc: mtk-sd: increase reg items
-103da0667d4b7cdbc667666bd0e64899f3801033 mmc: core: block: fix sloppy typing in mmc_blk_ioctl_multi_cmd()
-25bbf0daec560e7e4b499baa5a84089b06535701 mmc: mmc_spi: parse speed mode options
-e3e5255e772850311d8ee0c34777cdd3701fa093 mmc: omap: Make it CCF clk API compatible
-f504dee2c63b93fddb2dc42f37971e9f36c021e7 mmc: renesas_sdhi: R-Car V3H ES2.0 gained HS400 support
-a252a4d3d4af0b19066e17f4f2514ad52dc49106 mmc: renesas_sdhi: remove superfluous specific M3W entry
-01c5d28a5b55d220c953dae7f8c3b7af23f982a9 MAINTAINERS: Add linux-renesas-soc@vger.kernel.org list for Renesas TMIO/SDHI driver
-9723f69d1de37ca25474372ad1753ea39bb0dce1 mmc: core: improve API to make clear that mmc_sw_reset is for cards
-32f18e596141f40dbc5d8700b2730371ffd3055f mmc: improve API to make clear hw_reset callback is for cards
-6c1757be927ab1800754b14df01ad56da795339a dt-bindings: mmc: imx-esdhc: Update compatible fallbacks
-afadb04f1d6e74b18a253403f5274cde5e3fd7bd mmc: jz4740: Apply DMA engine limits to maximum segment size
-13acb62ce1ee7377ef03034fbbad6f5499464b86 mmc: sh_mmcif: move platform_data header to proper location
-36ed2fd32b2cf7ff49804fae455e58e4d3b3bcad mmc: sdhci-pci-gli: A workaround to allow GL9755 to enter ASPM L1.2
-238b638b309093b77852137bcffd98702b95564f mmc: meson-gx: switch to device-managed dmam_alloc_coherent()
-f7ad75041ba9b36d8141a1c0dd527154ed10b96e mmc: mmci: Break IRQ status loop when all zero
-de6e855b28f4c54eb04582cd468c6fa17577c8cc dt-bindings: mmc: Add small binding note on level shifters
-a778dbd9a8ef30c07eaa7f46292d88f0a3b51e23 dt-bindings: mmc: convert orion-sdio to JSON schema
-a18f3e46537434537bc3c11d33ef529c52370815 dt-bindings: mmc: convert sdhci-dove to JSON schema
-cfb646613649c013591a9d5a4dc8f5db3e7ac25b dt-bindings: mmc: imx-esdhc: Add i.MX8DXL compatible string
-c25a7e5d18ba6e88932ef8ebcf6635cca630d032 Merge branch 'fixes' into next
-7a0587496a6233b9ffa8441573d38f8844751066 dt-bindings: mmc: sdhci-am654: Add flag to force setting of TESTCD bit
-c7666240ec76422cb7546bd07cc8ae80dc0ccdd2 drivers: mmc: sdhci_am654: Add the quirk to set TESTCD bit
-897ae3fe1216e52f2a5f28b37b4be8e6a9cb1bfa mmc: sdhci-omap: Use of_device_get_match_data() helper
-23e09be254f95a5b75cd87f91a4014f3b46dda3f mmc: core: Allows to override the timeout value for ioctl() path
-ac9d25557dcc9fe90ed12bfbb6db401e892ca004 mmc: core: Add CIDs for cards to the entropy pool
 
---===============4382553234953452018==--
+--===============4841506263781069265==--
