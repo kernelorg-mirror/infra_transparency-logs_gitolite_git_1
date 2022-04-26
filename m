@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Tue, 26 Apr 2022 17:30:07 -0000
-Message-Id: <165099420795.12990.16618321682677745698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
+Date: Tue, 26 Apr 2022 17:30:27 -0000
+Message-Id: <165099422779.13189.17309197037934715261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
+repo: pub/scm/linux/kernel/git/jkirsher/rdma
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: df1cc21152ffb605e2f32e5642891f9b908e3f11
-    new: 561215482cc69d1c758944d4463b3d5d96d37bd1
+    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
+    new: 570a4bf7440e9fb2a4164244a6bf60a46362b627
     log: |
-         cc271ab86606c963e97915d84be34ae4bd067578 wwan_hwsim: Avoid flush_scheduled_work() usage
-         fb0a43f5bd454dfae94aeb293b32669c6ef83b37 net: phy: LAN937x: add interrupt support for link detection
-         de6dd626d7082eda383ec77a5e06093c82122d10 net: dsa: ksz: added the generic port_stp_state_set function
-         dfed913e8b55a0c2c4906f1242fd38fd9a116e49 net/af_packet: add VLAN support for AF_PACKET SOCK_RAW GSO
-         561215482cc69d1c758944d4463b3d5d96d37bd1 net: usb: qmi_wwan: add support for Sierra Wireless EM7590
+         290c4a902b79246ec55e477fc313f27f98393dee RDMA/rxe: Fix "Replace mr by rkey in responder resources"
+         679ab61bf5f5f519377d812afb4fb93634782c74 RDMA/irdma: Fix deadlock in irdma_cleanup_cm_core()
+         570a4bf7440e9fb2a4164244a6bf60a46362b627 RDMA/rxe: Recheck the MR in when generating a READ reply
          
