@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7845544923159657615=="
+Content-Type: multipart/mixed; boundary="===============5964257130347839770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 26 Apr 2022 08:17:02 -0000
-Message-Id: <165096102206.22013.15585656230829758384@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 08:17:35 -0000
+Message-Id: <165096105597.22272.7871278552952678151@gitolite.kernel.org>
 
---===============7845544923159657615==
+--===============5964257130347839770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,70 +17,70 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.9.y
-    old: 7eb61afe0cb414664c5944ddc98087c6a37cbd34
-    new: 023c00061b2abb040f38dc75be79e329215513ca
-    log: revlist-7eb61afe0cb4-023c00061b2a.txt
+    old: 023c00061b2abb040f38dc75be79e329215513ca
+    new: 73ad06e1327e6e3dfd8ae7c18bcf71b07fbe4683
+    log: revlist-023c00061b2a-73ad06e1327e.txt
 
---===============7845544923159657615==
+--===============5964257130347839770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650961020 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650961054 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1650961015-6accc53e3f945924beadc925995efdd78530bbab
+nonce 1650961052-187e01bcf119a05ba722d034b7a0f21dcb36d108
 
-7eb61afe0cb414664c5944ddc98087c6a37cbd34 023c00061b2abb040f38dc75be79e329215513ca refs/heads/linux-4.9.y
+023c00061b2abb040f38dc75be79e329215513ca 73ad06e1327e6e3dfd8ae7c18bcf71b07fbe4683 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJnqnwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MJQP/1Zr2VdxHJkrzh+rdwe2
-bZFG1ytTonmVdv1RPkaLWlP5ObaVlr1hCbGzBpgGrxajudPrvFTaDmY6tzYVjnjS
-CtdYqDRxuTWpiNZEFVhCW+C9SJJTLu+Wltc5PzLVgq7Wa5o7JASmsuwIHjDgW6On
-JYy7WNLxGkkH7TG5+tLtGGevUf0LFn3q9Sg40+62WLg/ETmBxQwOJ6XVdmf64GCu
-KqNAOr1LaAvs945YUK4WjA7+hB9yR/+OQlD+R3bipP1gjqA03u1h7l4b7HzxsG/X
-Lk2/q620uCLBFtpEt7ccioMf6x1Pvgw52d55/+DNsF5ahmpTlv064+6FxzFZRAZX
-MD/UfnXtqVCnfqtS4scFBOGj2kdF+GSlrxVXw82ejQ/LeTPeXh3HdrbQEtNh99Rw
-tce9jFnKIhcBujddPju3qChZ1nb7O9l98VNXJlR98yDc7Zt+EY8OTehYfeI9QqjZ
-zcWK4hi4pMNN+grgZYaUdaxgZDADJrcvjznhVm6qVo99dsk5Q0wN6YZfJBJ8jUf+
-QKElcntzPPK9BFua0N/qvL5Zsw9JRCXe4a2lG6T2cZU/LvPDScPS+Pk8EBBX2xAc
-Z3NbyaNB9ioLsYUMESSQiKpWKVWqfCh1nhc8UOo+16EJEPzPEvq6goIdpjYhQZXc
-tLi2fOyMRPulm3vO0gXnlXF/
-=pQzC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJnqp4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wpMQAI/hxNVUA7MhCH4MTiCm
+Pv6C/dM5S1OHekr0il9aPYtuX6o18jZGnpRpOXwN9y3YHwAJk39C1COTpFNFHbzQ
+Xb7LLJRgjW4wflTdvIIcBISEMexsYPKHn1cjPmvdavUX3qM9CeXajqsQlJiqIToo
+mjGbgMFuIfuGWRcvKQa19SE8z6ZOsBQVdKU9LN2VVyxQ8GVrHFsqm69XxNnh0k3O
+okUl6zyNwlCZ5v7W9ETWGqGx/k3ppZUVmfTzFfj4Ww2Mwii+rbRhF4l0AsGgmQO0
+GboWipa9oHon/xmCYd4/pnm9dEjEi4SMGL0HoKFxdo1AOjYjHS48UtwnGX7C9Xr7
+CSI3n86yB2OlCv7nuic0vqFX4MdaUX1NIYGgwe0/qGOBqyLAvIjXVrhYk0pLQAu4
+xZl1eH1+UZLBJqZ1+qz9t0fXxzFpwu3Ddm58B7obc4VXakLqdIbOMozaUGHYCn5j
+WiKf3SXUWa20UfYgdxeN9b9rv4oAUAyhZ/G/7VupA1XelwYD0eix5u74XuvAW2Os
+XlPdo/NQnicnlsOKKR8uqgpLnBTdrUD/P5IER/AUZPR9ElbJHcb8pEy2k/SEQMlY
+qvSTv7fFNZ4/D+wZbtDOAvXynbeHhGuSPmiIZtmviQGkzZvro+3AHDK3CRBIzFWB
+lGmj91lcm2T9YHyhV6YQbVaX
+=vZm8
 -----END PGP SIGNATURE-----
 
---===============7845544923159657615==
+--===============5964257130347839770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7eb61afe0cb4-023c00061b2a.txt
+Content-Disposition: attachment; filename=revlist-023c00061b2a-73ad06e1327e.txt
 
-fbf913fe4f0bba7637ec4fa86813082374119a39 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-96733dd29c88276c26e1ccf503c714a90a57f56d mm: page_alloc: fix building error on -Werror=array-compare
-48be2520919a0afff9fc929562a32390386de610 gfs2: assign rgrp glock before compute_bitstructs
-23401326fdb9247e9aff4499b8fbdcc1181e80a3 ALSA: usb-audio: Clear MIDI port active flag after draining
-f02ba0ec3c603cc6886c52233d495e656feca67c dmaengine: imx-sdma: Fix error checking in sdma_event_remap
-3d71e52e43a3cb641d236a20b891f979ca41dcfa net/packet: fix packet_sock xmit return value checking
-fea41175aecf1193e83412c8f5a7d9690434b7da netlink: reset network and mac headers in netlink_dump()
-6665d04675b17143be80c833aa1d4dd9373d6a18 ARM: vexpress/spc: Avoid negative array index when !SMP
-b3432e87b49075f4ed946918d80b05c510eff5fe platform/x86: samsung-laptop: Fix an unsigned comparison which can never be negative
-80b52354e0c16e3f42783837a4680e256f0df8e5 ALSA: usb-audio: Fix undefined behavior due to shift overflowing the constant
-79ec13dcdcc441d781a367ccde6d091b0174c0bb vxlan: fix error return code in vxlan_fdb_append
-b576452da3651e4b19e33e9e43baf287ac0e428f cifs: Check the IOCB_DIRECT flag, not O_DIRECT
-da8f2923b8f595326d4427bb452fb0e59e9e6ae9 brcmfmac: sdio: Fix undefined behavior due to shift overflowing the constant
-f3c159841899d8e7f491ba1e3b1c6f044d30c7a6 drm/msm/mdp5: check the return of kzalloc()
-29efb3f8cab77bfaa81ef5d4e2dca6d24a70ba9d ata: pata_marvell: Check the 'bmdma_addr' beforing reading
-62574b0b2aad432438ce8bb91db0de85218a9935 dma: at_xdmac: fix a missing check on list iterator
-964f721eef9ecfc5e7f8541307ca48c329896a10 openvswitch: fix OOB access in reserve_sfa_size()
-aac98219aed663f2a5c81ff84e0562f2a3ed78db ASoC: soc-dapm: fix two incorrect uses of list iterator
-1ea2039e465cf07249947cf88e6497c5ed5558c9 e1000e: Fix possible overflow in LTR decoding
-dd4f08c61254071068fac78e00d08b0dda09697b ARC: entry: fix syscall_trace_exit argument
-7a49e22e2dcf2335c70204628d85712ae5926388 ext4: limit length to bitmap_maxbytes - blocksize in punch_hole
-a8d4e00325a67359dbed2e6424151b216071582c ext4: fix overhead calculation to account for the reserved gdt blocks
-32060732ad36ed70fdf60ccf0a3f1035419d81c7 ext4: force overhead calculation if the s_overhead_cluster makes no sense
-bab184b4e57c8bef74468789138d287f2a81723c block/compat_ioctl: fix range check in BLKGETSIZE
-023c00061b2abb040f38dc75be79e329215513ca Linux 4.9.312-rc1
+c039b066fa4554fe0c1d0967990f6deb9a70f76a etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
+c1f78639f97560d9691da883d23d51f635271ee4 mm: page_alloc: fix building error on -Werror=array-compare
+2fb8ec2b38c32db0efd4b68d19eae995e876a1f7 gfs2: assign rgrp glock before compute_bitstructs
+bd083321f8416debea04bc5738b1fc64d995f93f ALSA: usb-audio: Clear MIDI port active flag after draining
+8a88d2432287047ac69bd5d8bd82f6d87014c08b dmaengine: imx-sdma: Fix error checking in sdma_event_remap
+3faf54af4a7f341711609372e76d663556d685aa net/packet: fix packet_sock xmit return value checking
+47972e65ba346cb88f4ef03c9b9536f06a501e05 netlink: reset network and mac headers in netlink_dump()
+9ca05e7df039d81c6aaa30fd4c20f182d1913e89 ARM: vexpress/spc: Avoid negative array index when !SMP
+881743d19539dd7a960aaded7344cf060ec766d9 platform/x86: samsung-laptop: Fix an unsigned comparison which can never be negative
+bc873c23016a80a09bcad2893a22162432bae850 ALSA: usb-audio: Fix undefined behavior due to shift overflowing the constant
+7bd82dfef92afeac4b13a9c26cd5f6278cd5987d vxlan: fix error return code in vxlan_fdb_append
+d66d1418897389a11f6572426c02c07c3041902f cifs: Check the IOCB_DIRECT flag, not O_DIRECT
+96037175702d6e6173bb696a467e4e96033df96b brcmfmac: sdio: Fix undefined behavior due to shift overflowing the constant
+3394b5f02dff50f8e5d054c8f892916566c58eea drm/msm/mdp5: check the return of kzalloc()
+11cd4d12575c820257d6d68cc083e5332ad1370c ata: pata_marvell: Check the 'bmdma_addr' beforing reading
+917db86d33312121b4f74988585aac8b2526ddcf dma: at_xdmac: fix a missing check on list iterator
+f9860ddea6de8b3ff892dafb61e9075357f854d9 openvswitch: fix OOB access in reserve_sfa_size()
+f0dcd03bcf98acf0d45e152e7d73b9139db78422 ASoC: soc-dapm: fix two incorrect uses of list iterator
+7867dfabc371b05ea034ba85b514b995b23bd0b1 e1000e: Fix possible overflow in LTR decoding
+6917f0714e98bf9c8c936b8a9297fb422d41baa1 ARC: entry: fix syscall_trace_exit argument
+0680cbd8e64d5f681049d34404d05d323a549409 ext4: limit length to bitmap_maxbytes - blocksize in punch_hole
+1235e2a00b715758bb1a17657452932adfbe799d ext4: fix overhead calculation to account for the reserved gdt blocks
+77bfddb7d9d4b2b0bf43ba2a25603d4457fa2b95 ext4: force overhead calculation if the s_overhead_cluster makes no sense
+79bffb506fe1e2467bba8c5e7b5a128ba2e53b6b block/compat_ioctl: fix range check in BLKGETSIZE
+73ad06e1327e6e3dfd8ae7c18bcf71b07fbe4683 Linux 4.9.312-rc1
 
---===============7845544923159657615==--
+--===============5964257130347839770==--
