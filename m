@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Tue, 26 Apr 2022 08:29:22 -0000
-Message-Id: <165096176234.29485.10588383403602091152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 26 Apr 2022 08:32:18 -0000
+Message-Id: <165096193880.31966.9680039544175858394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: e7b192fae27b0b49a8a82ef1f387af594780b6d2
-    new: dbcd3070646684033a07ce640c120fcd94574e22
+  - ref: refs/heads/master
+    old: 60cedc9213c4b1fee557ec01f9628cd054ad4a56
+    new: 9c01f798f491a59bb1124776f24d983972491382
     log: |
-         73f1aaf114e63ee2baa94ac798d5764b15e4fdc5 MAINTAINERS: omap: remove me as a maintainer
-         dbcd3070646684033a07ce640c120fcd94574e22 Merge branch 'maintainers-take2' into for-next
+         9c01f798f491a59bb1124776f24d983972491382 libblkid: fix FSSIZE docs
          
