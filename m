@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6462904613208447754=="
+Content-Type: multipart/mixed; boundary="===============1819162070990789407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm-git
-Date: Tue, 26 Apr 2022 19:19:32 -0000
-Message-Id: <165100077217.19741.2915517831558554888@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 19:19:38 -0000
+Message-Id: <165100077881.19830.8519301271876024398@gitolite.kernel.org>
 
---===============6462904613208447754==
+--===============1819162070990789407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/akpm/mm-git
 user: akpm
 changes:
-  - ref: refs/heads/mm-stable
-    old: 8b43f61942e0b369b0330f3ea26df05ad8a79775
-    new: cefffc055f7479702569addcb0a3d8871e007d8b
-    log: revlist-8b43f61942e0-cefffc055f74.txt
+  - ref: refs/heads/master
+    old: af2d861d4cd2a4da5137f795ee3509e6f944a25b
+    new: cf424ef014ac30b0da27125dd1fbdf10b0d3a520
+    log: revlist-af2d861d4cd2-cf424ef014ac.txt
 
---===============6462904613208447754==
+--===============1819162070990789407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b43f61942e0-cefffc055f74.txt
+Content-Disposition: attachment; filename=revlist-af2d861d4cd2-cf424ef014ac.txt
 
 af11f31715b50ce77e50fa393bc530df0f33960b video: fbdev: of: display_timing: Remove a redundant zeroing of memory
 aaf7dbe07385e0b8deb7237eca2a79926bbc7091 video: fbdev: udlfb: properly check endpoint type
@@ -55,7 +55,6 @@ c40b65304c361432b841bdbd5b1c8dfa918d6baa video: fbdev: sh_mobile_lcdcfb: Remove 
 a692e13d87cb6d0193387aac55cfcc947077c20b btrfs: fix assertion failure during scrub due to block group reallocation
 5f0addf7b89085f8e0a2593faa419d6111612b9b btrfs: zoned: use dedicated lock for data relocation
 4d8ec91208196e0e19195f1e7d6be9de5873f242 f2fs: should not truncate blocks during roll-forward recovery
-96231d6db717e22105ac50fec5bf67491bbf6fc2 kasan: prevent cpu_quarantine corruption when CPU offline and cache shrink occur at same time
 0fc74d820a012550be006ba82dd8f1e3fe6fa9f7 no-MMU: expose vmalloc_huge() for alloc_large_system_hash()
 d615b5416f8a1afeb82d13b238f8152c572d59c0 Merge tag 'f2fs-fix-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 6fbe0cc53a1b5f7abe2c44399c18e943adbebe2f video: fbdev: clps711x-fb: Use syscon_regmap_lookup_by_phandle
@@ -63,6 +62,5 @@ e57f9af73d6b0ffb5f1aeaf6cec9a751dd8535c9 gfs2: Don't re-check for write past EOF
 fd574a2f841c8f07b20e5b55391e0af5d39d82ff Merge tag 'for-5.18-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 4fad37d595b9d9a2996467d780cb2e7a1b08b2c0 Merge tag 'gfs2-v5.18-rc4-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 cf424ef014ac30b0da27125dd1fbdf10b0d3a520 Merge tag 'for-5.18/fbdev-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-cefffc055f7479702569addcb0a3d8871e007d8b Merge branch 'master' into mm-hotfixes
 
---===============6462904613208447754==--
+--===============1819162070990789407==--
