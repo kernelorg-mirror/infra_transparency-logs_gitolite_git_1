@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 26 Apr 2022 21:10:31 -0000
-Message-Id: <165100743112.27980.12542977617311826659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 26 Apr 2022 21:12:01 -0000
+Message-Id: <165100752186.28690.11873719919535860340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: c4f3f823c2a63853fae5bbd61548dc281bd3a9ff
-    new: 4ae547cee61252b105115eabee27ec7466861179
+  - ref: refs/heads/dev-queue
+    old: f3a5675a1ea4672f2ed25614bc252efa9c517fdb
+    new: c5c97462df61a388cc92fd0c29dca9c3d17c169f
     log: |
-         e53da8c490046e214528bad245521ffe9e7713c0 dt-bindings: mfd: mediatek: Add bindings for MT6360 PMIC
-         942680d6192058ed56f50657250e34d8a2cc90e7 dt-bindings: Drop empty and unreferenced binding .txt files
-         cd9fdd06b0e8aafc715f239153ff41cbf12c991a dt-bindings: arm: mediatek: topckgen: Convert to DT schema
-         16a146735df3b67941ebf09a5fc871ac4584892d dt-bindings: arm: mediatek: apmixedsys: Convert to DT schema
-         4ae547cee61252b105115eabee27ec7466861179 dt-bindings: arm: mediatek: infracfg: Convert to DT schema
+         235864754d34c1e078f8ddbf7ac28c0b63ca15be igc: Remove unused phy_type enum
+         e2c5e3ab8f65344ba69fd98a257726cf543cf9de igc: Change type of the 'igc_check_downshift' method
+         1b33abca376b13a1c19c6bb4a1628a0b47c6131a ice: don't set VF VLAN caps in switchdev
+         c5c97462df61a388cc92fd0c29dca9c3d17c169f ice: remove VLAN representor specific ops
          
