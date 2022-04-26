@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 26 Apr 2022 19:50:07 -0000
-Message-Id: <165100260718.8968.9105167311512184694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 26 Apr 2022 20:06:39 -0000
+Message-Id: <165100359907.18377.8927890951840838640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 077bf417ebaef67f4b89591d0fbd4265037d9d64
-    new: 7480d084f5557aad40d3e309c10e4ef34cfccc3e
+  - ref: refs/heads/net-next-mlx5
+    old: d0dbd5a1bff3300dac2ffbaf7b5ace343a88439d
+    new: 99af5f2b71b1c9a8ed57fe4e4aaae5804c9025cb
     log: |
-         7480d084f5557aad40d3e309c10e4ef34cfccc3e Tue Apr 26 07:49:22 PM UTC 2022
+         61f8bca2d287711accae77e5d8c308a33fa5d00c net/mlx5: use kvfree() for kvzalloc() in mlx5_ct_fs_smfs_matcher_create
+         99af5f2b71b1c9a8ed57fe4e4aaae5804c9025cb net/mlx5: Remove useless kfree
          
