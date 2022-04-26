@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0209591230569358570=="
+Content-Type: multipart/mixed; boundary="===============3087143832373509177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 26 Apr 2022 10:40:20 -0000
-Message-Id: <165096962072.708.18420770736230199567@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 10:48:29 -0000
+Message-Id: <165097010960.6070.1351573960524587016@gitolite.kernel.org>
 
---===============0209591230569358570==
+--===============3087143832373509177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 6a3f81c9d93f4e4ce424b7995f1b4a109e77bc18
-    new: 99c470f930375de953d4e0e7516c7c7ca096c581
+    old: 99c470f930375de953d4e0e7516c7c7ca096c581
+    new: 26360a8c9732cff2ee5bc2f180e9716b63e9f650
     log: |
-         99c470f930375de953d4e0e7516c7c7ca096c581 drivers/base/node.c: fix compaction sysfs file leak
+         acb118696eee80bbd13935770d774571da6ac427 platform: finally disallow IRQ0 in platform_get_irq() and its ilk
+         26360a8c9732cff2ee5bc2f180e9716b63e9f650 driver core: Add sysfs support for physical location of a device
          
 
---===============0209591230569358570==
+--===============3087143832373509177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650969618 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650970105 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1650969618-be8cea1dd0fdb978e98f63573696dc01a87a70a3
+nonce 1650970104-d55aeb58cee63b884218de933ec00f1ad1894900
 
-6a3f81c9d93f4e4ce424b7995f1b4a109e77bc18 99c470f930375de953d4e0e7516c7c7ca096c581 refs/heads/driver-core-testing
+99c470f930375de953d4e0e7516c7c7ca096c581 26360a8c9732cff2ee5bc2f180e9716b63e9f650 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJnzBIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FRgP/2X37JPVGJQnFfa+HkBK
-pbfD06HM8GPEVvUIzO98LGCmh7ycZzuowvJTGGe3FEYoYdBMt72Hlm6JMqma6nBI
-wwHF/6MW47fkNtNdZsy2qNbgy6P6+8T7IE/Yz23+nU9kMN2H09geeB503nDXRXg+
-761UKWnjOBNtF+yMtQUIvJTLdeq8+ne1C9zqePlBr4gQ7mw+DJyODarK8r9S20dT
-Yn3MNbRon+03d80nZc8NlvcZIxseRygsuU+gngOAUC4eEvOm5IaIXCM6wEp43+YR
-Ytn0Qyt1vLxyihxjtc0D7oEEfte8dk06YSM+HSRbeFt9wG4oV0TY9eEMS8z8HAgq
-1IeRuu3ke9gzO7s+irBlSmIjLswTKpnWrDM/wrGxyYB+Le9FqxwBp0DST1p/ndNP
-4LJ2pSZ6gqsdZGnsqxb4YeMinTXXASni4jESKPMU5FMQANPI6YeCsa+OgW4fKmCf
-iC2iJQ6VwF+qJOpACoIfIif3lCO8jeSgpy3/q6zCUGjtXUOk5zQOFlSit+HvxnQO
-BroWtWwiF9pkQb3HAxSaCUQG6eMkRc7ogpSmRxKnpdxsguMjqtbB9XJPR1X7PcKx
-F5yaxQPVW6491/J0XTD0KMj5HYx7JTRmAYL7qEItWXkSQTIvOHviCp8Z1HCH2Ixk
-z69uvqYhaV4uweDVk2Rd7xbW
-=MkUG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJnzfkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vZUQANNjzqqtzUjQ9Y+OcAfW
+mbjyC/Tw1NNZ8cWao/xgHT+4fv3uyZuGh9aq3xiBK54zevXkXy5SMKPhPwkNtXLi
+ofUO3ihKLUH7U42e/PPvIbvrmLehG/4SpLbZ9wcBDlsgNnDEjsU8TKJhnrKqv53D
+6bh14YDRZGzDvl9y9FjsF8nn9sF0NtiVSgk/bTpoB/c2oGlzLk+NHZv/r4Swe+nS
+lt0JsuIFsMqO+1tKfh83dHbJOFibNYnjHngk4b4osUNgu/1DU6Hcgrcmi6bfNj5c
+LzamHCchQlNhw6sS7hZgERcNlJvAqIKmEjRe21C3IDDhn8+j5Qb1On66adMDsybD
+v6ERaJH/VJmanyVjo/oAs5AdJzqE6o5KXXjEJMFZoAMQ9LO4pkb6buWKyuh/BEfS
+L+Mbk57mYXIcMDglrW2ezldQe3QwNKlEH/YHnQA4Yu+d0xIVdgAwruZbb6rRdKBn
+u4a5SBdSjx9GkVhH/UeXTbo3ggiJW3twzeoun8ZdltGonTOOBVpg+b1Zt692RcAB
+Fa3ryiObXYxDEOmNJUTFooQyDtH2TS2hTyO4iwLWF4UouUeLlk2GbZcP3SVBzQC9
+sXW+dHpaiJ1EPACi2jMECOH74qy33ts/vC28GrO/emLhvmUznn0TiYE3ulSFvUFm
+afEoh9xwo6MybdlK+bQaRdQ8
+=Y5L2
 -----END PGP SIGNATURE-----
 
---===============0209591230569358570==--
+--===============3087143832373509177==--
