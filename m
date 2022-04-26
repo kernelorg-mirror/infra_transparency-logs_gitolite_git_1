@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 26 Apr 2022 08:32:18 -0000
-Message-Id: <165096193880.31966.9680039544175858394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 26 Apr 2022 08:33:18 -0000
+Message-Id: <165096199871.32355.17801300768596665133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 60cedc9213c4b1fee557ec01f9628cd054ad4a56
-    new: 9c01f798f491a59bb1124776f24d983972491382
+    old: fb0a43f5bd454dfae94aeb293b32669c6ef83b37
+    new: de6dd626d7082eda383ec77a5e06093c82122d10
     log: |
-         9c01f798f491a59bb1124776f24d983972491382 libblkid: fix FSSIZE docs
+         de6dd626d7082eda383ec77a5e06093c82122d10 net: dsa: ksz: added the generic port_stp_state_set function
          
