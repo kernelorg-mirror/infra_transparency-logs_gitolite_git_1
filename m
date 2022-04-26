@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8409980270192243565=="
+Content-Type: multipart/mixed; boundary="===============0503056983489717134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 26 Apr 2022 03:29:25 -0000
-Message-Id: <165094376568.25913.10722761316186192470@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 03:29:31 -0000
+Message-Id: <165094377164.25989.17418806225155802618@gitolite.kernel.org>
 
---===============8409980270192243565==
+--===============0503056983489717134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d9d31cf88702ae071bec033e5c8714048aa71285
     new: 367590b7fccc2c317026abe7d29923322d959781
     log: revlist-d9d31cf88702-367590b7fccc.txt
 
---===============8409980270192243565==
+--===============0503056983489717134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ef89654f2bc7459f45b40be80de6cd3765ef8539 libbpf: Add kptr type tag macros to bpf
 792c0a345f0eb2a6bb12afcca1cf6e518bf57b43 selftests/bpf: Add test for strict BTF type check
 367590b7fccc2c317026abe7d29923322d959781 Merge branch 'Introduce typed pointer support in BPF maps'
 
---===============8409980270192243565==--
+--===============0503056983489717134==--
