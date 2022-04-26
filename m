@@ -1,36 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 26 Apr 2022 23:50:04 -0000
-Message-Id: <165101700405.3676.3807357794888944413@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5737590923925760034=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Tue, 26 Apr 2022 23:59:01 -0000
+Message-Id: <165101754188.7882.2989643654942442744@gitolite.kernel.org>
+
+--===============5737590923925760034==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/io_uring-big-sqe
-    old: c5eb9a698f2a082cdfbfdc0b32ed8d855bc6040e
-    new: 0fde61fe729221b43d9c8374cb57e571f4fb2a16
-    log: |
-         5c8bcc8e97123e3e68a6b1aa4c3eb6c5d5b9d174 io_uring: support CQE32 in io_uring_cqe
-         04c3f8c8deae29e184d54b2cd815f39fd46c6b2e io_uring: store add. return values for CQE32
-         9291ac41fda10ba7e80fc2147ca39a3b1d130ef9 io_uring: change ring size calculation for CQE32
-         bc6bda624e953fcf42c6075fe35a219ce6df4bc4 io_uring: add CQE32 setup processing
-         22b76e8c5fd312701a1827b970230ee66aa24f69 io_uring: add CQE32 completion processing
-         771c7f07faf909b9993fd5e42581c8c82531fb58 io_uring: modify io_get_cqe for CQE32
-         b8e5029ed965c01066009bcb172c082b60ff436c io_uring: flush completions for CQE32
-         3ee1cd786a668ba2a6e8dfefacb8f29e1d995c12 io_uring: overflow processing for CQE32
-         225afd24978b55a771660fb4c6ad90cac75e7da8 io_uring: add tracing for additional CQE32 fields
-         41a971975a3ae2b498b9f5ecad34c34280f0ffdc io_uring: support CQE32 in /proc info
-         bb30aab40bcb6e9b80321615a2847a9491c95bf9 io_uring: enable CQE32
-         0fde61fe729221b43d9c8374cb57e571f4fb2a16 io_uring: support CQE32 for nop operation
-         
-  - ref: refs/heads/io_uring-flags2
-    old: bfbad055dcd5655d2258b97e8db1653e5109739f
-    new: 476a47487086a3f9826db55472dc22ffbd73d540
-    log: |
-         476a47487086a3f9826db55472dc22ffbd73d540 io_uring: return hint on whether more data is available after receive
-         
+  - ref: refs/heads/master
+    old: f219d616f42b0640275aa2fd2cdff937a4043f9e
+    new: ac21ab5d1de0de34201c90d32eee436f873d1e5b
+    log: revlist-f219d616f42b-ac21ab5d1de0.txt
+
+--===============5737590923925760034==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f219d616f42b-ac21ab5d1de0.txt
+
+ab0d8c137d4235dbb09ac4c76dd5477719cd73f1 i915: Add GuC v70.1.1 for all platforms
+8a2d811764e7fcc9e2862549f91487770b70563b rtl_bt: Add firmware and config files for RTL8852C
+9fa878c6f1d7ade672d6fd8efcee7e3d059b0c81 qcom: apq8096: add aDSP firmware
+afc44bb26f7656e4bda1b63e530f787ffefb7609 qcom: apq8096: add modem firmware
+10612bd12e4778069aff50caad9431002f92e374 mediatek: Add mt8195 SCP firmware
+1fe86d1c49c703ddd598c862519da8ecd382bd2b Merge branch 'apq8096' of https://github.com/lumag/linux-firmware into main
+fe52ca67b459903197be234ebcc1459c5ba142eb Merge branch 'v14454.8.0' of https://github.com/tinghan-shen/linux_fw_scp into main
+b0e1b45ea8ad8d0b8ab6342b0a30055780056af5 linux-firmware: update firmware for MT7922 WiFi device
+ee439794cada7b1c26598d3e827ddb6b5b2512d6 linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
+fcf9d8ca2d5e2942075716686ef423851ea77002 amdgpu: update yellow carp DMCUB firmware
+7d19d1ddac1d1774b8481089e72f9b82fa256650 Merge branch 'guc_v70.1.1' of git://anongit.freedesktop.org/drm/drm-firmware into main
+e6553076626e932983b1947e1cc593421cb83aa8 Mellanox: Add new mlxsw_spectrum firmware xx.2010.1502
+af9117b45649ead9508e98680cbdae492a1a6ab0 Mellanox: xx.2010.1502: Distribute non-xz-compressed lc_ini_bundle
+ac21ab5d1de0de34201c90d32eee436f873d1e5b Mellanox: Add lc_ini_bundle for xx.2010.1006
+
+--===============5737590923925760034==--
