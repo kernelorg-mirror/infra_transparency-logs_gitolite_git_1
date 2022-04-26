@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5737590923925760034=="
+Content-Type: multipart/mixed; boundary="===============0668519672104280611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 26 Apr 2022 23:59:01 -0000
-Message-Id: <165101754188.7882.2989643654942442744@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 23:59:03 -0000
+Message-Id: <165101754366.7964.9703493251671657116@gitolite.kernel.org>
 
---===============5737590923925760034==
+--===============0668519672104280611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev-queue
     old: f219d616f42b0640275aa2fd2cdff937a4043f9e
     new: ac21ab5d1de0de34201c90d32eee436f873d1e5b
     log: revlist-f219d616f42b-ac21ab5d1de0.txt
 
---===============5737590923925760034==
+--===============0668519672104280611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e6553076626e932983b1947e1cc593421cb83aa8 Mellanox: Add new mlxsw_spectrum firmwa
 af9117b45649ead9508e98680cbdae492a1a6ab0 Mellanox: xx.2010.1502: Distribute non-xz-compressed lc_ini_bundle
 ac21ab5d1de0de34201c90d32eee436f873d1e5b Mellanox: Add lc_ini_bundle for xx.2010.1006
 
---===============5737590923925760034==--
+--===============0668519672104280611==--
