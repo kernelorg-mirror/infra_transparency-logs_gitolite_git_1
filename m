@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Tue, 26 Apr 2022 08:15:56 -0000
-Message-Id: <165096095633.21557.11687078520099944775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 26 Apr 2022 08:16:58 -0000
+Message-Id: <165096101822.21951.1704629461802366840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/bindings-signed
-    old: 0000000000000000000000000000000000000000
-    new: 8178999e54a03a141dfccad710e09eaa8cb50b9b
+  - ref: refs/heads/master
+    old: cc271ab86606c963e97915d84be34ae4bd067578
+    new: fb0a43f5bd454dfae94aeb293b32669c6ef83b37
+    log: |
+         fb0a43f5bd454dfae94aeb293b32669c6ef83b37 net: phy: LAN937x: add interrupt support for link detection
+         
