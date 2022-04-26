@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 26 Apr 2022 16:06:32 -0000
-Message-Id: <165098919263.21930.12685048870106972929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 26 Apr 2022 16:14:25 -0000
+Message-Id: <165098966510.27203.3901117795156684537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/dev-test
-    old: e5d2a27541a4ef5d0ce264a9b85e62fa8f8582e9
-    new: 6b93bec1bcc82c6bce819f056d45f9797f614021
+  - ref: refs/heads/dev
+    old: 66226e2acda8b31b60137b1ae71244df68541a01
+    new: ef41303096e59a9ca8d2668f06358bba11ee02c1
     log: |
-         6b93bec1bcc82c6bce819f056d45f9797f614021 dump.f2fs: compress: fix dstlen of LZ4_compress_fast_extState()
+         d20922d6d841df22c59d2a47bb6160dc98165b44 Revert "rcu: Avoid tracing a few functions executed in multi_cpu_stop()"
+         ef41303096e59a9ca8d2668f06358bba11ee02c1 rcu: Avoid tracing a few functions executed in stop machine
          
