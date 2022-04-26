@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0837982838353616082=="
+Content-Type: multipart/mixed; boundary="===============2440264030794321480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Apr 2022 12:02:22 -0000
-Message-Id: <165097454295.22401.16125389133393731979@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 12:10:44 -0000
+Message-Id: <165097504476.27933.6963236027166376627@gitolite.kernel.org>
 
---===============0837982838353616082==
+--===============2440264030794321480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: fc274c1e997314bf47f6a62c79b5d7e554ed59c4
-    new: c40b62216c1aecc0dc00faf33d71bd71cb440337
+  - ref: refs/heads/usb-linus
+    old: 973e0f7a847ef13ade840d4c30729ce329a66895
+    new: c7428dbddcf4ea1919e1c8e15f715b94ca359268
     log: |
-         8e8b11956486e3fe8cacf54a1d492ebdd8cc1fb2 of/platform: Add stubs for of_platform_device_create/destroy()
-         0298b4b95cb373c21e6323c905589f8dac42c5b4 usb: misc: Add onboard_usb_hub driver
-         c40b62216c1aecc0dc00faf33d71bd71cb440337 usb: core: hcd: Create platform devices for onboard hubs in probe()
+         c7428dbddcf4ea1919e1c8e15f715b94ca359268 usb: dwc3: gadget: Return proper request status
          
 
---===============0837982838353616082==
+--===============2440264030794321480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650974528 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650975040 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1650974528-d27b20f599d3311d43f6318dac006677ddd65dcd
+nonce 1650975040-4771080e83dcde113eb65d9c8782d31e4e9531b5
 
-fc274c1e997314bf47f6a62c79b5d7e554ed59c4 c40b62216c1aecc0dc00faf33d71bd71cb440337 refs/heads/usb-testing
+973e0f7a847ef13ade840d4c30729ce329a66895 c7428dbddcf4ea1919e1c8e15f715b94ca359268 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJn30AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r1EQAK7hfy+d1lTCvn87iduZ
-1D0Km4ZQfRKrBXVePgiWuZ7EFuK1LhYkt+bXYiZc+raezZO0YCYc2QBDPJRGd7Os
-G4g8OzALSDNAP4/i92y0g8s5gTX32dd9KTwJOP8midh0pcVuGzs9g/u4yylhw/Go
-Jjg0BPBa+rxV/PRAoa/lzIkg4jR/iaE8IwumTDT28AwsTRDg4LcCE2SM2rxChexR
-ECLBAVGhNMff1DtSz3cqSg54N1Xo3YDJiPgTk38bsLf/FCnPGmYy5DHo+cycrQMp
-1iN/Tr+uyJatBkkvPr+Plp3PE1iMZn6b5HM+sY8HHtgkQOOItH1Pd5d02joTBF1S
-bd/ZZttCV8iTrBegVSb+QEJOrv+7IcYqBfl7cGoGkLcMQf0SWnER/YccX8Bse7vi
-UbGY2GGjM8OcdqVoafDNHBdosKycSEgqWhrMFw9cILwYqRy864PT6W69ajxXVBKi
-yurzASbS229XBd5tF6QTCtFysqp8r5ZsacG7PoLSxGfaAA1Y2ToP31fowEcwe/6c
-qhlw52cnlglLtjYFaL8neUtPz69EtjnZqvjsCarQinLFTnAxlF4t/yS/uAKITSUP
-7egPynMqVE/BnBjXw4Tr2yndmSd2gSNxT5NWwjtqGHRqGPquXH4crp4kqRM/RY9t
-D86SZ6IyZo75P9dS54F8Mka7
-=jPtB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJn4UAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x+EP/0WgiBss8MfHRPGMflvp
+WlWmBwRZXwVcGQv4pHD5fkvIuOzt/d/VZsHryTV5uJxs1RKlnZNW9vmTmgU7uwMs
+RU4uvd8bgnWEva1n/dnXn/Et3/sCF3eMJopEtTmJ56pKrgb/vVBjyyEgaJfCf4d4
+Spn9FVCWQ1leF8slsFsNz9JIpYZKeZNh268IAvNJkMheuOkt8rwNwE1xVs1vmLy4
+avphAxh0iZHqllqvzSo07dWEwMzEJmKeqZk/xmWEAgaPTqZ3iM20gGDW/To0DRQD
+fW3cHwq7U2BmXYmRxcGeGFp36CGoCs4rehM+TzVcNnOeFJh4urn9aqgN1NTQV+Of
+Eirc1I/7xVSIiIpHM38WYFtZOPf5y9DnWHPz3H47FCnZeyaflHPw/AureokFUGPf
+hmp2adrFeK8TL+rb++94Si/tebw2aKsnBoSVwPPoX5nTip98MeCyzcm2eIRCUPqT
+l2oGo/zl/lePNwCUh8IOwiw7PQIO4vt6hC1Uhgn+ntlygjyPcXrpftIQzKc0wkla
+TF8PxLpvefGuArzekQjDTxEwXr+1i6IgL5r9FOE0rAoVzMQ7odXHzDFugZN/x8CP
+iqibn5nJgi3YQ29Mwb0+PiKpy2EK2VcgB6MhaJhpUNDo27YBIjPAVe43NycmwgAA
+vd1lKCdaaYYSBK4nMETxZr0X
+=06RF
 -----END PGP SIGNATURE-----
 
---===============0837982838353616082==--
+--===============2440264030794321480==--
