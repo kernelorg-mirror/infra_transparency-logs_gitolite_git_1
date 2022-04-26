@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2138430867904426357=="
+Content-Type: multipart/mixed; boundary="===============3003450245262201733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Apr 2022 23:00:45 -0000
-Message-Id: <165101404581.3120.9490732283040845243@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 23:00:56 -0000
+Message-Id: <165101405684.3301.7038480309125105519@gitolite.kernel.org>
 
---===============2138430867904426357==
+--===============3003450245262201733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7a078aa1dc4588ba5a46b3b40dec45cdf632e098
-    new: 7c68deb9fd7515d3230e79a882952c71ca601d39
+  - ref: refs/heads/5.19/scsi-staging
+    old: c144bb10b5b9612072d5920ec76d37abbb2a49da
+    new: 43ee9f7c5869a45217524e80b6d2b4ef739a665e
     log: |
          d632ad18129aa117d78913b701962b36532ba456 scsi: lpfc: Remove unnecessary null ndlp check in lpfc_sli_prep_wqe()
          c9b8fd98a17002ffeeb4489f4be91f7176645f7b scsi: lpfc: Fix resource leak in lpfc_sli4_send_seq_to_ulp()
@@ -32,33 +32,33 @@ changes:
          43ee9f7c5869a45217524e80b6d2b4ef739a665e scsi: mpi3mr: Update driver version to 8.0.0.69.0
          
 
---===============2138430867904426357==
+--===============3003450245262201733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1651014037 -0400
+pusher 75C5DE3D 1651014049 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1651014036-0de13cddb80cdb9a0d5d6d48edc6f12afe581334
+nonce 1651014048-2404ad17ae23ac04255d90b54547df05c59472fe
 
-7a078aa1dc4588ba5a46b3b40dec45cdf632e098 7c68deb9fd7515d3230e79a882952c71ca601d39 refs/tags/mkp-scsi-staging
+c144bb10b5b9612072d5920ec76d37abbb2a49da 43ee9f7c5869a45217524e80b6d2b4ef739a665e refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJoeZUACgkQ7ulgGnXF
-3j1kTg/9H4b7D3/TI04RnMJy2hR7EfBk6lOtJGB9HDCutJfFGupDdjDxAdolZjtd
-odenY0WgMCbTaX6835i4E/085bzIDm4S/Ml3HOhPNQTUL5weFlCHHG/l5HCEQrvY
-pawm9jGo4E1eBcnOpWupu4FhV/aZrwzMW1qf91IgYL8JlfoSBukhuwmHrldFg9TM
-iRHdtK4OatX1s+KooIoAMNDDmdKhYT4ZjM3kiH8Aar4OyGWjZlUiYuryva8xLS9a
-FYCKNV8vo/MZcUysG2aNag8FSBelSlhFOi6aWHC+Fug9Gw9vIMi7W7V0Bs2w55oV
-K27T8alYQbteeRL1ZwDBiaNzkt6wNX0u+2bChzdYICalVhnIXhQJQYn8h3/YWrFp
-/XTg7pcGO8XYW8jJbB1t9m7nvEcizUEfGVQk/jfYPRqgMzSUQQ8JI2+Y9so5rxKd
-VYSjPl75T6LNLYATFlVGDSnbPqyE626HLkEu6LEk3jIYesD+ESpj3fRqV2qS5X8R
-UM6N3reI6TwdcLuYT93gVaAYcWX5MVUOHuL/2MFV6MacLABwFgKNu29tPzIYh9Fh
-4eEYwIH/BnwKVTM6CvKja1nQaUlKsycHaikiut3DojfPFKCuexm5JMp00ERMVAEt
-fikFJpbw9y2tGo72fUjVSI//lKqYJFQfJdM7UMpFPabUk2c6Mso=
-=pKqu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJoeaEACgkQ7ulgGnXF
+3j389w//YT5V1ZPJxiSeXFpxzMbngVWpVomegWYE7LWJsh6ZNlqSUuApU0MI6tj+
+oZisR1J7cZfnABEkCLLEzPntsBEhSpast3tV+rjvB6PxIT4kletFUa/UngelA9jC
+nnQ8PVIhDovCTCsuRL7/cBvSrwIJbDdwc66JWDO0w2r5briWQwLEk8koT3ETgev8
+qRUwyBvY3Y7IezGpITBrs8emyQ0OrfmNXYtneslfmraJw+u4udc1xYvjkiniYQW6
+OAPk6hwNXM1wZsYVIvRaJkZkQF7+t74PY4CuN1DLPj0JWu4WELXh8/9uffp4xKYE
+bIpAoEx3N0oJY+3Rf94SrDCGT5Yw91F8jy4xtuQIpcP0bsOic2Nd1ON0Q2Yt9Idy
+TSxSN8DSckgKkSq0JWk4e5H/Dct9r1zRAg8bRmh1aFXY43fjSPg11jmXeJ7hDimS
+ftapG72en63WQusQ+jWFIwb8SCIL+yuisGPynzssSevmdpUIUKCqauRnzC+l0fJt
+ITn8TupKK0lWyKOXGX3roHfyDcraRcAjwjJDerMoqSiXrh4AEh6Qa7zjS0gG9cGt
+d++VGUopWEq+of8e4BlmtDMySOLJBKUYAkxILEAF5I7P9U+fp+4L+B5IklLUnI9E
+NOsn2TreGFDtOFcttepxcDDrWp6NJVuyGm3AcI3G/uc0z9Sc9Fo=
+=aj4p
 -----END PGP SIGNATURE-----
 
---===============2138430867904426357==--
+--===============3003450245262201733==--
