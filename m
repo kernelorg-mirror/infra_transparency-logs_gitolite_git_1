@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Apr 2022 18:26:16 -0000
-Message-Id: <165099757632.17890.9208216300456495431@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 18:26:20 -0000
+Message-Id: <165099758069.17977.14101294974407067698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: ba5a4fdd63ae0c575707030db0b634b160baddd7
-    new: acb16b395c3f3d7502443e0c799c2b42df645642
+  - ref: refs/heads/net-next-mlx4
+    old: df1cc21152ffb605e2f32e5642891f9b908e3f11
+    new: 561215482cc69d1c758944d4463b3d5d96d37bd1
     log: |
-         97b9af7a70936e331170c79040cc9bf20071b566 net/smc: Only save the original clcsock callback functions
-         0558226cebee256aa3f8ec0cc5a800a10bf120a6 net/smc: Fix slab-out-of-bounds issue in fallback
-         c3e8d5a40685aed49d736a24f4d2b9e7607771f0 Merge branch 'net-smc-two-fixes-for-smc-fallback'
-         b561275d633bcd8e0e8055ab86f1a13df75a0269 mctp: defer the kfree of object mdev->addrs
-         acac0541d1d65e81e599ec399d34d184d2424401 net: bcmgenet: hide status block before TX timestamping
-         0ed9704b660b259b54743cad8a84a11148f60f0a net: phy: marvell10g: fix return value on error
-         24cbdb910bb62b5be3865275e5682be1a7708c0f net: dsa: mv88e6xxx: Fix port_hidden_wait to account for port_base_addr
-         acb16b395c3f3d7502443e0c799c2b42df645642 virtio_net: fix wrong buf address calculation when using xdp
+         cc271ab86606c963e97915d84be34ae4bd067578 wwan_hwsim: Avoid flush_scheduled_work() usage
+         fb0a43f5bd454dfae94aeb293b32669c6ef83b37 net: phy: LAN937x: add interrupt support for link detection
+         de6dd626d7082eda383ec77a5e06093c82122d10 net: dsa: ksz: added the generic port_stp_state_set function
+         dfed913e8b55a0c2c4906f1242fd38fd9a116e49 net/af_packet: add VLAN support for AF_PACKET SOCK_RAW GSO
+         561215482cc69d1c758944d4463b3d5d96d37bd1 net: usb: qmi_wwan: add support for Sierra Wireless EM7590
          
