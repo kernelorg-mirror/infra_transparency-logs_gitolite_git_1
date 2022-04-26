@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Apr 2022 18:25:35 -0000
-Message-Id: <165099753536.17574.13908870241590367417@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 18:26:16 -0000
+Message-Id: <165099757632.17890.9208216300456495431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: e9bc4ff22749f1a79e8daa2646d938fc953ee0fe
-    new: 567a0a524aaa2cb921aed19d9550fc9c949f502e
+  - ref: refs/heads/net-mlx4
+    old: ba5a4fdd63ae0c575707030db0b634b160baddd7
+    new: acb16b395c3f3d7502443e0c799c2b42df645642
     log: |
          97b9af7a70936e331170c79040cc9bf20071b566 net/smc: Only save the original clcsock callback functions
          0558226cebee256aa3f8ec0cc5a800a10bf120a6 net/smc: Fix slab-out-of-bounds issue in fallback
@@ -23,5 +23,4 @@ changes:
          0ed9704b660b259b54743cad8a84a11148f60f0a net: phy: marvell10g: fix return value on error
          24cbdb910bb62b5be3865275e5682be1a7708c0f net: dsa: mv88e6xxx: Fix port_hidden_wait to account for port_base_addr
          acb16b395c3f3d7502443e0c799c2b42df645642 virtio_net: fix wrong buf address calculation when using xdp
-         567a0a524aaa2cb921aed19d9550fc9c949f502e net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
          
