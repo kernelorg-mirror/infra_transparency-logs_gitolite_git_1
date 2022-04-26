@@ -1,79 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============9095593810950097624=="
+Content-Type: multipart/mixed; boundary="===============2545377801892109747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 26 Apr 2022 11:20:03 -0000
-Message-Id: <165097200322.27672.13785240324418929380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 26 Apr 2022 11:26:13 -0000
+Message-Id: <165097237328.31040.15883931253045689842@gitolite.kernel.org>
 
---===============9095593810950097624==
+--===============2545377801892109747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e88a6a8fece9b92be4f55735134a022061e6e68b
-    new: c268c0a8a33047cd957fecc1349d09a68eb6ad9e
-    log: revlist-e88a6a8fece9-c268c0a8a330.txt
+  - ref: refs/heads/tty-testing
+    old: 8043b16f522c9e21e2361a67514386bee3731c6e
+    new: 070e246217230cce21b8dddad38bd59428494c48
+    log: revlist-8043b16f522c-070e24621723.txt
 
---===============9095593810950097624==
+--===============2545377801892109747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650971998 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1650971998-e1f11173e47d75f92578d558a1b9a0cba1280ac8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650972370 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1650972369-cb10231121c5f8131b7c8925bb64b43e39cecd7e
 
-e88a6a8fece9b92be4f55735134a022061e6e68b c268c0a8a33047cd957fecc1349d09a68eb6ad9e refs/heads/char-misc-testing
+8043b16f522c9e21e2361a67514386bee3731c6e 070e246217230cce21b8dddad38bd59428494c48 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJn1V4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YpEP/1l+FhTVPHQ6Dme1E5vu
-fuweorSvZDuAi1KqgyF11WhJ1a1ugRjNa7qcdHS6TFK6MVUKB2+Sd5RIeqjZkkIu
-ABgHY3Uhhwcqwrk3FSmPBsnZrWsbzXeeXwrhRwSfv3V98raHThhRITKth9S/qAZY
-fzoZAo4ndllwAkJoot0VzyqLaHomR/TZs7DlPK/34WaUJn5bg4uLisEm/hSEc6ik
-trOeerfvARAXeeCyYZgNkK7/h2/FuRh0Og2wtTzN/8fCthBrtPJbwvXv7IBgqsfz
-g08lsQ164xS4vZbs0drPCMz/5qmoeWIXFQvA0dc68x1K55wnBxXDyjFAa9Nl/yCj
-L3qlz3+KIZZDiCGOGcWlQVENXSNs/kxioNeH6tq60FIu230QNreg8qqzRX0JakkY
-kXtRPMTrFPbrIb+gi0/HJ9FZmR8e6J9t/Z742EjkU+RC+/DejjzPcaqZP8eT7xmm
-4ov0/9T7wsbPZp7+FxxkPT3qVR/YeMWFdZPLV2e5WUxAqD+mIxQH71kFIU7oKdfi
-WVOk3XyM5/dktOz/iOSxQWyp+aMBU24PlFeySL2aE24iVNoMqtzZyejG8ajuAluI
-Lip5JnnVt3qeQH8xifX5/Yunyx5HxtwzcHOUzBBOIykiJdPh6+7YL0eadcZUhmLP
-iXqmRVwbqko5OnmCiotmLN1k
-=1Gir
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJn1tIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UqMP+gKxGeyPJT/g+iy5wNff
+YlFGWY1zyR4cVKSNYyUaXug7O9cRTINt36UXUqOpfUPDcYG8Pq17al0lD6MOpFCO
+5VNIoeOoq0IaNXnwa8AcBOYauWDHG38MmOcX+d78xj8a0yG0MeM2J73al5kYgW1g
+220aBxONwX8xZ7jGLjwCTrigQ6Dd5vpVsVNBp9G4bGswnD4KtjDy7hAqzcgwf2Xk
+NWv38NNY6uSxUbjNsLVu8jaTVwPxJBKaidbiVStaWaNDmUdhKOuuvE26zbYKzyqE
+NgfWy+pXZSz8Esfh6Z9wprpD2Wbaj6flP/fMp3BKC44016v1WZI3Ncmj6GahcflA
+uOcZxYiMjniIAFdTQxCgHSbVJU7krF3dRtIBPGkK2LLqT3AkraEaKpca+lQkoQ5W
+r/nos3pnkaqtjQpFXa0Gi69BPv00NqBg3Yzvv6Fz+B/+U/9J/eWu2qOvYiXS5Twk
+2lZdM8DmZCys0hQrNzxbGyBIUPumhm3Wb1gyC+tEjQWiPP0mqhJ7L6np7Z9+8kPg
+CPtjewI/ppnP2HbC/Qwm6BjxYA4+K09W9HaOo9Luh4uRJT3RLpCIHBciHGG7JW34
+1mdcPKsARAOTcepXRQkphxziFY/yG9hFBVltvFXZTs4irIZr+kDbdPg8uJ+HoVJn
+v6LmVgbsNwrN5hhRs7sVJjV/
+=pv/V
 -----END PGP SIGNATURE-----
 
---===============9095593810950097624==
+--===============2545377801892109747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e88a6a8fece9-c268c0a8a330.txt
+Content-Disposition: attachment; filename=revlist-8043b16f522c-070e24621723.txt
 
-d434743e5cac3558381b767f343eef5af246a4dc bus: mhi: ep: Add support for registering MHI endpoint controllers
-ee0360b20b3fa08e2eee300eacb45e812ae44578 bus: mhi: ep: Add support for registering MHI endpoint client drivers
-297c77a0f27312b9a04696018c4cbd47926ca92b bus: mhi: ep: Add support for creating and destroying MHI EP devices
-e9e4da23cd65ea76ba658346f5c182791bd1cea9 bus: mhi: ep: Add support for managing MMIO registers
-bbdcba57a1a26a4439a4f4ecdbfaf80a10fd8f34 bus: mhi: ep: Add support for ring management
-961aeb6892242e0a667f5b8eb62b9b0a6041752c bus: mhi: ep: Add support for sending events to the host
-f9baa4f737950523ca648866dfa345ac378e4487 bus: mhi: ep: Add support for managing MHI state machine
-4799e71b082615445dc40ba0bbb86cbb76c24724 bus: mhi: ep: Add support for processing MHI endpoint interrupts
-fb3a26b7e8aff11e44d582604f61c38f63bd507c bus: mhi: ep: Add support for powering up the MHI endpoint stack
-5d507ee04894e166f8c5a29f05c6b06ce91d5833 bus: mhi: ep: Add support for powering down the MHI endpoint stack
-7a97b6b47353c60dd1b53ada6180741437e377f2 bus: mhi: ep: Add support for handling MHI_RESET
-f7d0806bdb1b377d4abe0f2c7798cec5b8a837ce bus: mhi: ep: Add support for handling SYS_ERR condition
-e827569062a804c67b51930ce83a4cb886113cb7 bus: mhi: ep: Add support for processing command rings
-530125889977365cb6db32d7d0bd84c9f54c8aab bus: mhi: ep: Add support for reading from the host
-03c0bb8ec983f993a704417d73cc0a3511453d3e bus: mhi: ep: Add support for processing channel rings
-2d945a394d9c1c59d88397cb383b11216d018a6b bus: mhi: ep: Add support for queueing SKBs to the host
-e4b7b5f0f30aaa4677126e04220677a02839e1c4 bus: mhi: ep: Add support for suspending and resuming channels
-c268c0a8a33047cd957fecc1349d09a68eb6ad9e bus: mhi: ep: Add uevent support for module autoloading
+f0426b4e3b6940c6108c47ef5268c9e3ce89cb55 tty/hvc_opal: simplify if-if to if-else
+3d27b05e4181a0eba618108292aa1998017b1dd7 tty: hvcs: simplify if-if to if-else
+5390e7f46b9d5546d45a83e6463bc656678b1d0e sysrq: do not omit current cpu when showing backtrace of all active CPUs
+d9666dfb314e1ffd6eb9c3c4243fe3e094c047a7 serial: 8250: dw: Move definitions to the shared header
+4a218b277fdba357d8e9022ae675c94e59d64b4e serial: 8250: dw: Create a generic platform data structure
+ffd381445eac2aa624e49bab5a811451e8351008 serial: 8250: dw: Move the USR register to pdata
+593dea000bc1f160623f8cf65ad5e47c72f4ec67 serial: 8250: dw: Allow to use a fallback CPR value if not synthesized
+e4fb03fe10c5e7a5d9aef7cefe815253274fb9ee serial: 8250: dma: Allow driver operations before starting DMA transfers
+8ef6e1ba71e947abfd9f81974724ecd00dfb0f37 serial: 8250: dw: Introduce an rx_timeout variable in the IRQ path
+c9c23d01384e88a78d4fc8e6541cd439b87494db serial: 8250: dw: Move the IO accessors to 8250_dwlib.h
+aa63d786cea2739791032742efc11990ce32ee4a serial: 8250: dw: Add support for DMA flow controlling devices
+070e246217230cce21b8dddad38bd59428494c48 serial: 8250: dw: Improve RZN1 support
 
---===============9095593810950097624==--
+--===============2545377801892109747==--
