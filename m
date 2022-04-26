@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1191635645944045876=="
+Content-Type: multipart/mixed; boundary="===============1958844366727228065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Apr 2022 21:19:19 -0000
-Message-Id: <165100795972.1375.14627521794987130735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 26 Apr 2022 21:19:24 -0000
+Message-Id: <165100796480.1450.7914529060377620441@gitolite.kernel.org>
 
---===============1191635645944045876==
+--===============1958844366727228065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 6db38d8e63f808d6adcc4f731230d1fc0d13c9c1
-    new: 6b4987eebd51eaeead5bcc6e784eb8856d37ec6a
-    log: revlist-6db38d8e63f8-6b4987eebd51.txt
+  - ref: refs/heads/queue-rc
+    old: ccb4390fc7ee31b719c3ce2ae3b11dc9d93d64df
+    new: e3729ceb96afd4c0a4b52d4213e82f09686a7e7b
+    log: revlist-ccb4390fc7ee-e3729ceb96af.txt
 
---===============1191635645944045876==
+--===============1958844366727228065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6db38d8e63f8-6b4987eebd51.txt
+Content-Disposition: attachment; filename=revlist-ccb4390fc7ee-e3729ceb96af.txt
 
 97b9af7a70936e331170c79040cc9bf20071b566 net/smc: Only save the original clcsock callback functions
 0558226cebee256aa3f8ec0cc5a800a10bf120a6 net/smc: Fix slab-out-of-bounds issue in fallback
@@ -56,5 +56,7 @@ a1b5ebd3925b264698195db80b9c361969036a63 Merge branch 'patchq/495663' into mlx5-
 b8897c53e323871137ef4f91ccb473fb732b4c2c Merge branch 'patchq/474041' into mlx5-for-net
 786cdd610c1df47361e4dbc639529dd94b53c83c Merge branch 'patchq/495703' into mlx5-for-net
 6b4987eebd51eaeead5bcc6e784eb8856d37ec6a Merge branch 'mlx5-for-net' into net-rc
+2baa19bad93d1a97af5226d1dae8de9c2925d907 Merge branch 'net-rc' into queue-rc
+e3729ceb96afd4c0a4b52d4213e82f09686a7e7b Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1191635645944045876==--
+--===============1958844366727228065==--
