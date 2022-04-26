@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6676694019694145436=="
+Content-Type: multipart/mixed; boundary="===============6611210301292788972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 26 Apr 2022 22:49:08 -0000
-Message-Id: <165101334802.27497.12774261520379761422@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 22:49:13 -0000
+Message-Id: <165101335377.27631.10731813559843997542@gitolite.kernel.org>
 
---===============6676694019694145436==
+--===============6611210301292788972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c317ab71facc2cd0a94145973318a4c914e11acc
     new: d54d06a4c4bc5d76815d02e4b041b31d9dbb3fef
     log: revlist-c317ab71facc-d54d06a4c4bc.txt
 
---===============6676694019694145436==
+--===============6611210301292788972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b58af63aab11e4ae00fe96de9505759cfdde8ee9 libbpf: Refactor CO-RE relo human descr
 ea4128eb43eb3fe856831eaa9f747fab350ed5f3 selftests/bpf: Add libbpf's log fixup logic selftests
 d54d06a4c4bc5d76815d02e4b041b31d9dbb3fef Merge branch 'Teach libbpf to "fix up" BPF verifier log'
 
---===============6676694019694145436==--
+--===============6611210301292788972==--
