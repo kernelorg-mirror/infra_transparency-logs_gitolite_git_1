@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3474043885778837365=="
+Content-Type: multipart/mixed; boundary="===============1247459304690798757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Apr 2022 13:12:44 -0000
-Message-Id: <165097876494.2707.6654447379046821376@gitolite.kernel.org>
+Date: Tue, 26 Apr 2022 13:12:55 -0000
+Message-Id: <165097877591.2971.10718293364712444322@gitolite.kernel.org>
 
---===============3474043885778837365==
+--===============1247459304690798757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 3345a72a4cbfae7fceb9bac6ceb331bf55f41024
-    new: 7a078aa1dc4588ba5a46b3b40dec45cdf632e098
+  - ref: refs/heads/5.19/scsi-staging
+    old: a346f28ad231cb6746109219a1a371d7de11d67c
+    new: c144bb10b5b9612072d5920ec76d37abbb2a49da
     log: |
          973dac8a8a14a7fcfd4fa0b682851f415eb91b04 scsi: core: Refine how we set tag_set NUMA node
          ef60031022eb6d972aac86ca26c98c33e1289436 scsi: ufs: core: Exclude UECxx from SFR dump list
@@ -31,33 +31,33 @@ changes:
          c144bb10b5b9612072d5920ec76d37abbb2a49da scsi: ufs: Use pm_runtime_resume_and_get() instead of pm_runtime_get_sync()
          
 
---===============3474043885778837365==
+--===============1247459304690798757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1650978755 -0400
+pusher 75C5DE3D 1650978768 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1650978755-d21cf52cb836dd2d200e124507020144ad210b78
+nonce 1650978767-a07a8b5dd35f1214f1f76aff703b3a408b8d6422
 
-3345a72a4cbfae7fceb9bac6ceb331bf55f41024 7a078aa1dc4588ba5a46b3b40dec45cdf632e098 refs/tags/mkp-scsi-staging
+a346f28ad231cb6746109219a1a371d7de11d67c c144bb10b5b9612072d5920ec76d37abbb2a49da refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJn78MACgkQ7ulgGnXF
-3j215g//YeNeF/jVohBylTyddQw6XhAhB103RfCAWBp9yHFii/p+Vjmgbplu8+iK
-wyPYQe61N21ZCDm++1DI2htg2zpCsOyr/xTWXLn1tWBdcc5YflMLVMnDrekV0Rgb
-vfU46sjtE/r9YaQY1MXTLbUeUlfU40EWd+iZCApdH6LbEBdnR7+84qynSV/45T+d
-z7yscsJ1JhnR3r/macw7Xn8Sy/Vb11esKwe46YAIUwt/reJ1Xx6m51l+yTqGR3Bw
-kOc4800eXaDIxznRsfI7WIgSxceA4BFJ4CwGlT+rL5Q+wP2X9jUvkIjMDl19Xgoq
-7FBJRp8TUTxKModRGiqnT4auit6zs/tVrX3qWukvaHK5U9KihJ2PRnSfhSu9Xzvm
-JsrKOAxz95EG+++alnRS7WRntaaxXjIRzFP95F6UDborcrvPVkbY2XXjax3chhnp
-F9bPixrpHJqHU53aWY1dvYfa1rN94cQnV4MfF+pkCuBZ5h12ce4DqunxDAPLS9o+
-PD5pV+Jj2fjnbLgIotLo05AtQppiCV/p3+JLCTQZ4tX5TmvDoJWyfIQYd8pSc8Sl
-arPgTLeJnZa/Iiy7yJzGjWTpSIoawilgrHGHxb4o0aZht+XT6yylNodfWRniXb2g
-Djq7BRkoGeLELmoe7ig623bu8ipP97m/MAu2rQ7qymjA5C9ZMa4=
-=s3I/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJn79AACgkQ7ulgGnXF
+3j2MuA/+M9AGoRW9cWF1RZE43Ivum3oEPFxUdvrpytUdwxlLz6GWXmg51D+OWZ0y
+6OiSy/rPxFqFCeyWlfD8dn4qJL7YHd3QfUvUpwaE87djqN9ND3a1XSwiLPQXMxjs
+x1o40sYy8IBIkNM1lMZ1bbJwEiteBO+OHyIouppiZYRpucyL0ZguLD5mSpQSfnBr
+2VE8UvIKGH+n0VvzP1CK+bagrmQXZPEiXqsxdO58y9H1naCtc4TiWfaBzfz8Qbrf
+RMIudrBF6XEkg5dsRzNhlF6zjUJJdYsb87KEsF0SaN6WWm2zkQQzh2dKM0Jf+PEo
+9dfSGBCMKwQXQKptheTcV+WVZLzu43NwOiY/kmFu5A1S79PzfuTXZU27Tm8ZXfl5
+l2jOs6/NAE1UzI5OjGwpBb4LccPtvyTuu44T42OfToA6+JM2l7uiUPFc7q16OSZp
+egSGzGpNjqih/ouRzQVjUC+UIOHneDB+F4QvtdXcxqBpiZpQKPcdgNQzNd1lbsya
+B8Pn5/a9htzsQIrsBo5Afk6oGhn/EUwjjN+gLBNzoD4cV+Bj/7Uh4XLP9J1ev4yN
+0S5je/01vHM/S+JMA2kkPVL832N0JKvVRRQ5cg/wHezs1/5RgZlAus8R7DFeyNKm
+XDkMGY+7mMoNGWKlEYRzHTHNsVBHKz3UeF0Hv11PWJ0aKxtmggw=
+=RAaO
 -----END PGP SIGNATURE-----
 
---===============3474043885778837365==--
+--===============1247459304690798757==--
