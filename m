@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 27 Apr 2022 19:47:17 -0000
-Message-Id: <165108883751.29222.12969808637677383977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 27 Apr 2022 19:50:03 -0000
+Message-Id: <165108900300.31031.4191251805812414849@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/testing/stringop-overflow
-    old: 0000000000000000000000000000000000000000
-    new: 841e98dddf647582547543eba0a1e3e8c8f8db9c
+  - ref: refs/heads/io_uring-flags2
+    old: 5a6cd9c682ef72630cf8c6eff5615f203718ddfe
+    new: ef2c2c975a921046e081a6aa29732c5c7b09cdb2
+    log: |
+         b401d88339d015e9d2d9f176814ffaae4d7bc438 net: pass back data left in socket after receive
+         ef2c2c975a921046e081a6aa29732c5c7b09cdb2 io_uring: return hint on whether more data is available after receive
+         
