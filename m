@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3084635243832813176=="
+Content-Type: multipart/mixed; boundary="===============4097627704299099814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Apr 2022 02:51:08 -0000
-Message-Id: <165102786885.28911.2460360566719925918@gitolite.kernel.org>
+Date: Wed, 27 Apr 2022 02:51:20 -0000
+Message-Id: <165102788043.29055.4338472986928811705@gitolite.kernel.org>
 
---===============3084635243832813176==
+--===============4097627704299099814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7c68deb9fd7515d3230e79a882952c71ca601d39
-    new: a40c85729fb2289fe9d7d98650b81ee105cd1bfd
-    log: revlist-7c68deb9fd75-a40c85729fb2.txt
+  - ref: refs/heads/5.19/scsi-staging
+    old: 43ee9f7c5869a45217524e80b6d2b4ef739a665e
+    new: 6c86c1c0cc900e847743e164b0e4914fffc2fefe
+    log: revlist-43ee9f7c5869-6c86c1c0cc90.txt
 
---===============3084635243832813176==
+--===============4097627704299099814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1651027860 -0400
+pusher 75C5DE3D 1651027872 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1651027860-4dbafa2e48ed1a75b32fd1e83be7c33d50c65281
+nonce 1651027871-51d3ee00ba5fd550209a1a162a42aa5423b2a77e
 
-7c68deb9fd7515d3230e79a882952c71ca601d39 a40c85729fb2289fe9d7d98650b81ee105cd1bfd refs/tags/mkp-scsi-staging
+43ee9f7c5869a45217524e80b6d2b4ef739a665e 6c86c1c0cc900e847743e164b0e4914fffc2fefe refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJor5QACgkQ7ulgGnXF
-3j0wRw/9Fdt9X3mBdYB+lrTwET+jLWJPXCLMD/UxFUnIRHrSMipUtI3P0zV0DEMm
-IUtoNHgVGJBdtGIvzbrJGw4gZzorPJpM3ZYd2BiYQskGF/x7tnZZ3IcG3Yy0uTta
-3/3uV4OcCm/LbORiHRdtegmPYuhKPPHUaVB5rthG3aRyVFbdk0X9vRHzm8dY6WOF
-oXQN/7lfMg61FErQv2K2GtA7OCSyaNYhstsWS/b9asuR11d4XsQyA/38X2h5hViE
-bijj/TOfr0xJB6C3GYa20pQVAj4SuG4r+wG2IN2YWYDRtm06mg1GQLurgBs/oj+J
-VZMx9VHY4QqkEVF2tTzYLDnlTJp+ygW5onYvPdQKuUDej6/DJHo8hcx6fUSRtbnw
-8LwzW8dK3Iyu4YjnZMmnsV2dcZsJLD66LZM9bLt8ENYG3R8dh5Bz2ETJHMO9MHHw
-e/clljjKNgJ4+gcwweYpsW6uHXjt34MktDIJeTf9gfW07f9DDIK5Ke/i+I/gBbdi
-PVsTSlAPFZjfY5AbZJZcmCOcnJ8nSzsi/Ds4KIM2mPKEdwSS/x5EP2PxOTXvzAnD
-XfsMYgR4E09FxK9hm5eItbTw4fUuDAeZmUoKJwnSO9Ef8k2iKKlyII8K8oQ1cIIx
-1zh/4VeDJXVXpNsEfwKNwz5ElZyNCOGow30Nfu/FToU41NOnk10=
-=SbJm
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJor6AACgkQ7ulgGnXF
+3j0GUw/+NiYqPSycDVFULeZiZhZ6JK+3TCA6//XkFJ7II9cGuOeXDwGHQCD7j8KH
+NcQ0xVxtUltbx44CV2qmme7YNfpax7a44v8y1tOZddflDSIMkGAeqZQbnbkRQmw8
+0ZEomoFgrlq/jOcq1ddRH01sjWLA8LL1bRYEiZ16GS6sARHZucWjMD6+gvEvZMoz
+LVWA6gY+GwVN3ELrNrZIp5evRjoCDvLmglafVNF9nMoKCfDXB8ISLeQZ8C8iSjJD
+cB9XQpBJUzWH/VTLZ8BJ8HL+4X4Y16KWzC6LxAJlY6YIriTThiJdlKn3aC+VVG0i
+3DzUUZ+l5r0JPcG7xskd3XOtmTgYvaQ3LL8L4/ZaWTdWeTACyBJgTAJ4/9vxM+HR
+KbJCDi3VXQLKymbFCGVIZt3r7MJc3lZHaTL5CEEOJ1HqvhB729U7T2PudM7Bi3tN
+eTqUWVtyCfM9UBpWKIHrQF93/8MaBx89rjVlzpw5WnWWpFeQ+/yinUNCgAEOE4RY
+3iEnOZkGsNntlZCN8tKdWPC3Zul69Z7VvFJlBjJY6TV7lLhA86fILmvzSgRQlPba
+TGyOTeWndVHv2L6/9rkAiv54Urex5DZ3Xx+mWbjwY2x5LNMLZTzusZyYy3BGPH1x
+c/QZWTg8fPcQnA2LZLDreKAvb2iUVzVBn/7SNLIDsGLNa+BpWbs=
+=xv+7
 -----END PGP SIGNATURE-----
 
---===============3084635243832813176==
+--===============4097627704299099814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c68deb9fd75-a40c85729fb2.txt
+Content-Disposition: attachment; filename=revlist-43ee9f7c5869-6c86c1c0cc90.txt
 
 75b8715e20a20bc7b4844835e4035543a2674200 scsi: ufs: Use pm_runtime_resume_and_get() instead of pm_runtime_get_sync()
 3d1d34ec1fbcab2d77e3733ff385a074fdf2d60c scsi: lpfc: Remove unnecessary null ndlp check in lpfc_sli_prep_wqe()
@@ -77,4 +77,4 @@ bb9fb18f17d08f729c81feee9b2946681b75885d scsi: sd: Use cached ATA Information VP
 4c69b3f7ac2d93f19db540f9ed459c540404f133 scsi: sd: Optimal I/O size should be a multiple of reported granularity
 6c86c1c0cc900e847743e164b0e4914fffc2fefe scsi: sd: Reorganize DIF/DIX code to avoid calling revalidate twice
 
---===============3084635243832813176==--
+--===============4097627704299099814==--
