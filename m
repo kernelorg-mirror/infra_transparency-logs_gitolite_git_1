@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 27 Apr 2022 18:09:36 -0000
-Message-Id: <165108297692.27176.9871293729139117992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 27 Apr 2022 18:12:12 -0000
+Message-Id: <165108313218.29696.6624028580349513591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: cf57203021c6beccfbcdf95e6f2fc51dac72024c
-    new: 11bc021da284dfa4233001909208200a402592cd
+    old: 7a6d6c3106b28859366c06f2c0f3c825a0079bcb
+    new: 9f42eb8458cc03faa65f568d26e834fe66fa9cd8
     log: |
-         11bc021da284dfa4233001909208200a402592cd Wed Apr 27 06:09:02 PM UTC 2022
+         3be9571130ed87880afd74a23679724c9cccde4a foo
+         9f42eb8458cc03faa65f568d26e834fe66fa9cd8 foo
          
