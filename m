@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 27 Apr 2022 19:50:03 -0000
-Message-Id: <165108900300.31031.4191251805812414849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 27 Apr 2022 19:50:26 -0000
+Message-Id: <165108902649.31841.7858505087950612168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/io_uring-flags2
-    old: 5a6cd9c682ef72630cf8c6eff5615f203718ddfe
-    new: ef2c2c975a921046e081a6aa29732c5c7b09cdb2
+  - ref: refs/heads/stable
+    old: 767c4220f80a2c9f545c74d4ec66f61c335bd6d1
+    new: ee7e0b6d501f50604adf55093970f7507683e930
     log: |
-         b401d88339d015e9d2d9f176814ffaae4d7bc438 net: pass back data left in socket after receive
-         ef2c2c975a921046e081a6aa29732c5c7b09cdb2 io_uring: return hint on whether more data is available after receive
+         7170432d2966e33acb97f6a64e88490b6577d62c wireguard: selftests: use only one serial port
+         ee7e0b6d501f50604adf55093970f7507683e930 wireguard: selftests: bump package deps
          
