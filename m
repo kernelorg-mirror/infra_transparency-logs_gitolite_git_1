@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 27 Apr 2022 01:50:03 -0000
-Message-Id: <165102420332.22253.13679385348603738553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Wed, 27 Apr 2022 02:25:48 -0000
+Message-Id: <165102634852.12157.4091406913415951799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/io_uring-flags2
-    old: 476a47487086a3f9826db55472dc22ffbd73d540
-    new: d441f584a043d574680ae581845f6c1da48fd5c5
+  - ref: refs/heads/sysctl-next
+    old: 8fd7c2144d1292f15c901211750dee021ed5079a
+    new: a467257ffe4bdb13eacddec0137013f6a1140b81
     log: |
-         da8df1812627106d4417893ae910d86a4da8aa49 io_uring: check reserved fields for send/sendmsg
-         228b3912854171b963d76643ddc2836d6000d0f3 io_uring: check reserved fields for recv/recvmsg
-         0aa5789cfb12af8bedbebd76abc65ad83ed71150 io_uring: check IOPOLL/ioprio support upfront
-         3588069b517a266eb5ea1c83f871e7c87e482f8d io_uring: wire up IOSQE2_POLL_FIRST for send/sendmsg and recv/recvmsg
-         d441f584a043d574680ae581845f6c1da48fd5c5 io_uring: return hint on whether more data is available after receive
+         acd0b04ecc795e97b7878dccc5cb4d3d627a4c27 sysctl: minor cleanup in new_dir()
+         a467257ffe4bdb13eacddec0137013f6a1140b81 kernel/kexec_core: move kexec_core sysctls into its own file
          
