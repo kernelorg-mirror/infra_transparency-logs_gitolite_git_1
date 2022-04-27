@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7745173630880089800=="
+Content-Type: multipart/mixed; boundary="===============1567386433052930013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 27 Apr 2022 15:45:39 -0000
-Message-Id: <165107433956.31717.11836975752814559149@gitolite.kernel.org>
+Date: Wed, 27 Apr 2022 15:46:46 -0000
+Message-Id: <165107440642.32160.18265906349443331634@gitolite.kernel.org>
 
---===============7745173630880089800==
+--===============1567386433052930013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: e2932d1f6f055b2af2114c7e64a26dc1b5593d0c
-    new: 5075cc5ccfc79be9e4e77a8a681d052f0d7c1122
-    log: revlist-e2932d1f6f05-5075cc5ccfc7.txt
+  - ref: refs/heads/edac-for-next
+    old: 423279d81631e9c5b76b8dd5d212437cf3886b62
+    new: 2f4c230ca02c417a5cbece13b09ae8f94d946b14
+    log: revlist-423279d81631-2f4c230ca02c.txt
 
---===============7745173630880089800==
+--===============1567386433052930013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2932d1f6f05-5075cc5ccfc7.txt
+Content-Disposition: attachment; filename=revlist-423279d81631-2f4c230ca02c.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -654,5 +654,6 @@ f48ffef19dfd6a3c2a6872d4c680c90e14103fdf Merge tag 'perf_urgent_for_v5.18_rc4' o
 af2d861d4cd2a4da5137f795ee3509e6f944a25b Linux 5.18-rc4
 108f241d7159bd8ec2702c68f96151f27d58ebc6 EDAC/synopsys: Use the correct register to disable the error interrupt on v3 hw
 5075cc5ccfc79be9e4e77a8a681d052f0d7c1122 EDAC/synopsys: Re-enable the error interrupts on v3 hw
+2f4c230ca02c417a5cbece13b09ae8f94d946b14 Merge branch 'edac-urgent' into edac-for-next
 
---===============7745173630880089800==--
+--===============1567386433052930013==--
