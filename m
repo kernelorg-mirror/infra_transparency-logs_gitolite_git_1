@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 27 Apr 2022 16:16:34 -0000
-Message-Id: <165107619418.19171.5185100317283066356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 27 Apr 2022 16:24:04 -0000
+Message-Id: <165107664440.22982.2589353228028060664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nand/next
-    old: 9b2152f96f4a243bdfb89027c0d920aa0af810e7
-    new: 079d6348f3be114f977b5b2e18174044eef6f1d3
-    log: |
-         4fd62f15afa0d0da4823f429a2fb4c3492a84edf mtd: nand: make mtk_ecc.c a separated module
-         4c5bf4b51c9857e20c5f5e9d74b86aa1bd1def40 mtd: nand: mtk-ecc: also parse nand-ecc-engine if available
-         079d6348f3be114f977b5b2e18174044eef6f1d3 Merge tag 'mtd/mtk-spi-nand-for-5.19' into nand/next
-         
+  - ref: refs/heads/v2_20220426_prabhakar_mahadev_lad_rj_asoc_sh_rz_ssi_trivial_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 767e6f26204d3f5406630e86b720d01818b8616d
