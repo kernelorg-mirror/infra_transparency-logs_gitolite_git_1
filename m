@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 27 Apr 2022 19:07:24 -0000
-Message-Id: <165108644484.1635.10205885123164670015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 27 Apr 2022 19:24:15 -0000
+Message-Id: <165108745516.12599.9032248588613894921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/dev
-    old: 98c2183449331f38330192efdde03c9e850ef156
-    new: 4ccb27d8a0f234aef439d44865d51218ab51eb5a
+  - ref: refs/heads/master
+    old: 9f42eb8458cc03faa65f568d26e834fe66fa9cd8
+    new: 7fabb4e6fc62e209647173f71ba9ab1c631b853f
     log: |
-         5d349b94c189103b663a7e7ee99fbb50876db968 memory-model: Prohibit nested SRCU read-side critical sections
-         726422d77541352c3d1b850314bae9230bf52d1f doc: Document rcutree.nocb_nobypass_lim_per_jiffy kernel parameter
-         4ccb27d8a0f234aef439d44865d51218ab51eb5a rcutorture: Simplify rcu_torture_read_exit_child() loop
+         ce07af2f25f0ba4b0ce4f8b06a1775ee881a1fcb foo
+         7fabb4e6fc62e209647173f71ba9ab1c631b853f foo
          
-  - ref: refs/heads/rcu/next
-    old: 4ccb27d8a0f234aef439d44865d51218ab51eb5a
-    new: 98c2183449331f38330192efdde03c9e850ef156
