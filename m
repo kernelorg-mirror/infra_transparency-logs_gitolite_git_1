@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/linux-firmware
-Date: Wed, 27 Apr 2022 08:26:19 -0000
-Message-Id: <165104797926.20546.8416540264545107309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Wed, 27 Apr 2022 08:27:34 -0000
+Message-Id: <165104805404.21004.3467143748320881462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/linux-firmware
-user: kvalo
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/ath10k-20220423
-    old: 44b8aee72444abb93721da9a240e708095a126c4
-    new: 4a0e59f95830817b1601631281191a5c3327d138
+  - ref: refs/heads/mhi-next
+    old: 17e6ff4937be04b986558d752802bde48198e9c3
+    new: 58043faa5f84835c907c98cc80addcb942cd1908
     log: |
-         4a0e59f95830817b1601631281191a5c3327d138 ath11k: QCA6390 hw2.0: update to WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
+         58043faa5f84835c907c98cc80addcb942cd1908 bus: mhi: pci_generic: add Telit FN980 v1 hardware revision
          
