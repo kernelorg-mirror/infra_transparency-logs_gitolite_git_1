@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0321093007269584559=="
+Content-Type: multipart/mixed; boundary="===============8829995657936459828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 27 Apr 2022 22:01:39 -0000
-Message-Id: <165109689957.20629.6352208770068799549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 27 Apr 2022 22:01:45 -0000
+Message-Id: <165109690557.20759.7214985277468778335@gitolite.kernel.org>
 
---===============0321093007269584559==
+--===============8829995657936459828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: aa22125c57f9e577f0a667e4fa07fc3fa8ca1e60
     new: c61711c1c95791850be48dd65a1d72eb34ba719f
     log: |
          c61711c1c95791850be48dd65a1d72eb34ba719f ASoC: SOF: Fix NULL pointer exception in sof_pci_probe callback
          
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: 6cefb6264277c073030a3b2d91ba6b28593b4c89
     new: 3838bf828b84d58bf0213289e06c914f7d0a04da
     log: revlist-6cefb6264277-3838bf828b84.txt
 
---===============0321093007269584559==
+--===============8829995657936459828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651096897 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1651096897-3c54f989d29da51faa0d6f48cf5a670ffa5169cc
+pusher C3F436CA30F5D8EB 1651096903 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1651096903-26b073975ebd069d8deac95b794abb4036890a66
 
-aa22125c57f9e577f0a667e4fa07fc3fa8ca1e60 c61711c1c95791850be48dd65a1d72eb34ba719f refs/heads/for-5.18
-6cefb6264277c073030a3b2d91ba6b28593b4c89 3838bf828b84d58bf0213289e06c914f7d0a04da refs/heads/for-5.19
+aa22125c57f9e577f0a667e4fa07fc3fa8ca1e60 c61711c1c95791850be48dd65a1d72eb34ba719f refs/heads/asoc-5.18
+6cefb6264277c073030a3b2d91ba6b28593b4c89 3838bf828b84d58bf0213289e06c914f7d0a04da refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJpvUEACgkQJNaLcl1U
-h9AxNQf/aeogogHlIlV4Ahf29BLEFl+f/4oC2yo+UM4ohdVsK70CbNvY74q/y/ZO
-A8EqB/55J3hxTpGyVdiYD4yXo0uwguVcq5/xXiwX2SEJM0X70Xks2kprKjtKRzbS
-L//sK8WvuSLneTdw8osmN/eScqcK1E1/wc15AMy3Jxu1BFS379fSJ7p4xWXEIs9b
-7da7EJfJOJMquUv2s1UOnGjlGZgHucAPjYCpl5mdTqdh+BnqzFOgnwAgI+eETevi
-33YIUK5hvmdWWrM+y3duC7LMHb3hmrHF/+wfz2aZIJlF2hHSnN4hRNf0/LVtMP9E
-dU3aRbqzaHwjdEK/W8KjMiSKzrya2w==
-=KSvL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJpvUcACgkQJNaLcl1U
+h9Dsowf+NZUoQKejJDg1uj+mtHajy9JaPPpn7bfHVvjuvl2MhHY6DHQ85e7eVph5
+MDpClPb6HcMW2YLAryOPgjCn7qbV5/7GUGwX1aYYYdFpDQio5OvV9Qg1/5W8b5Pp
+wYqohc1g/kiQZDBbh11gTLpKokC/mT4r3ocHsYSAZASx4bLPEzNkXI9K9AzzgNlt
+UtQyDH6Cb7QMrWcEiR2GhHZ+cNVfL+v4BhnnSUGOgjDAtSu/R36gtMz937wuxHM9
+bHIpaUjBspunzWZZmXcPIdUP5FAUO8X+IBbOr7ExBdhxO6f4Zz8fgkhTsbBDFHqP
+6BlfNcN0HZfHy9N5AEPn/7xvJQ6rAA==
+=LfdQ
 -----END PGP SIGNATURE-----
 
---===============0321093007269584559==
+--===============8829995657936459828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ afe57ecab58b976c54fcbc31d718f936a0cc98cc ASoC: SOF: bump SOF_ABI_MINOR
 87e291075d06ba1613d4b7b9c1f156b8d5c2526f ASoC: SOF: use pm_runtime_resume_and_get()
 3838bf828b84d58bf0213289e06c914f7d0a04da ASoC: sh: rz-ssi: Trivial fixes
 
---===============0321093007269584559==--
+--===============8829995657936459828==--
