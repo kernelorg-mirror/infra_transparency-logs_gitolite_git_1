@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0381285682854289296=="
+Content-Type: multipart/mixed; boundary="===============8210342061593799085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 27 Apr 2022 07:52:13 -0000
-Message-Id: <165104593309.30962.2946381550431953982@gitolite.kernel.org>
+Date: Wed, 27 Apr 2022 07:53:57 -0000
+Message-Id: <165104603731.31566.4942872311401178088@gitolite.kernel.org>
 
---===============0381285682854289296==
+--===============8210342061593799085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,37 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 26360a8c9732cff2ee5bc2f180e9716b63e9f650
-    new: 75e7cde8ce376a3eca5cffd20f3336f89e9e084a
-    log: |
-         84e7c6786aad1dffa04f5729270f8fcd7281fe4b driver core: Prevent overriding async driver of a device before it probe
-         a72b6dff4089e6c3455e73ea97b08623b4fed699 drivers/base/node.c: fix compaction sysfs file leak
-         ce753ad1549cbe9ccaea4c06a1f5fa47432c8289 platform: finally disallow IRQ0 in platform_get_irq() and its ilk
-         6423d2951087231706246f81851067f7f0593d4a driver core: Add sysfs support for physical location of a device
-         bd900901b8d1838bf1b6e63063e0025fca42d283 kernfs: Remove reference counting for kernfs_open_node.
-         75e7cde8ce376a3eca5cffd20f3336f89e9e084a kernfs: make ->attr.open RCU protected.
-         
+    old: 75e7cde8ce376a3eca5cffd20f3336f89e9e084a
+    new: bd900901b8d1838bf1b6e63063e0025fca42d283
 
---===============0381285682854289296==
+--===============8210342061593799085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651045927 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651046035 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1651045926-9062ab5297643884726ac0e7c59c39e3228225e1
+nonce 1651046035-ab3bd5875a2d1591b587121affef5ad3b4112a9d
 
-26360a8c9732cff2ee5bc2f180e9716b63e9f650 75e7cde8ce376a3eca5cffd20f3336f89e9e084a refs/heads/driver-core-testing
+75e7cde8ce376a3eca5cffd20f3336f89e9e084a bd900901b8d1838bf1b6e63063e0025fca42d283 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJo9icbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WY0P/1depwMFRiQJVy+yao3q
-1GX7p4DCiN+6HGv7YGC/oCJKXxcx+EptyuOp0X2ngOD4VjKLNFtb5SbNxLVevIeq
-pTk4icvI85KPcqOFAV/yh/ro7XMjicIt8JFOeqqP/9IhKVyPC19ApK0Lwv2WJoko
-di7d9GIHwbmVBZXpSIRWwvs78hoe0+aD5c4VLGzYT5W75FTR+NIylm8csrNnhnY+
-D1eMgzv+18L2O+RNnfERP0V2Q2jCS+mEnz+uE+VoU6f5mcaLiBTk6Z/+ojFo801E
-FawTyG8vY9TdiCvqDvI1y5+pl9JocHLAD1VIXxcpmnhfXVkThDxDRXRRn+eQi15J
-lL8+c1OgtpGij+BPa1rZZtvqn3C0vJSQANZoDm4Ae1VjH+Ipj/oThPxAPRsA6P00
-MaJTvoMx4cL0gvax8S6m8HroPXoKZt1OQO1aDs6oC6+Bltk3X6+4NXMWL2VRo8bv
-uP8UTCGb0M0xTxGohbOELB4OGWMDr649ReIBuolVUB+3BnBNJBiGuT0ByN1Zv9kG
-NRWkTkhsTZXTDXlVOLDa7HeSUTLPJq2WltG1qDXGEriUJxjpZlVWPfSEwmJGOcW6
-d0n209+rokpqGE7yL9ygVMzPSqigbvv51QuVMPgOc0zfMr029mZAimvVJFop5+Jt
-GZA4dX+nF50DAKPKDNNRfD1a
-=xmXS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJo9pMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sGIP/Am0VDzcd7VmoSMYCpI+
+YDrbd/U49XrXMRmWB0aS6pMh7zyr3ePEty+K3DIS2lmND1rKpybTo8FScHX+s30Q
+6CFK5F5QM1wmXi9n8l8X/XAvFTxkOfvm1pDc0O+01A1XRmO+ueUrQX4eOzivbLkN
+fVbVRDqaUyXNu0AearmO4+RnALZUCN+wjehVLFkVdHIGXx+1S/AQIbhKhEOwpLUU
+gISTm0DQOpbSJg4XfhHFU9KhuwqYooJ2n21XzXCVE20bqq5M81Pp708uYzv+l5A0
+qdSSI76jVjQxYgUFCYIKeh/62JCfUyqOCilL0Fssxx0GJdc46WHpXOJ145GpQxfJ
+K9hIJsBcUB/Y0nKpW6tUnUFQ7bPUwkpUp8ZC0V5SZbhGl0MonV52UVnAr9+bWe2f
+ASPBXHZXtImxqpKlfF1G2ICIyJQlGGMIN8RivfFFygZqS7nmgIKH7AgJK9pLshIt
+jQaBzYM/Jdcx4o4onw+wJ0jjMr8xm2r/WLbjMddhq1rEoVQsspKw/hDsdbCaYyeg
+YquC4yYFNXh+u3OczgSOm5UQklaLA5+Zh5yDGNaF8pPqUrT4NaQVC15Til1HqnRy
+c7oEGXxENnoqFqAieivM9bSbGLMNA3c4EFkmhqlPFxBrwlm412NpCYhzBMyvuYjI
+k9dlgvOydIn3zRY91vgTdZSI
+=xb1K
 -----END PGP SIGNATURE-----
 
---===============0381285682854289296==--
+--===============8210342061593799085==--
