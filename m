@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 27 Apr 2022 17:50:23 -0000
-Message-Id: <165108182363.16535.5549335964085784398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 27 Apr 2022 17:55:24 -0000
+Message-Id: <165108212466.19594.6819894264603339943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: e3ab3c42665d95c91217a32ba28a04bc46b8cbc4
-    new: cf57203021c6beccfbcdf95e6f2fc51dac72024c
+  - ref: refs/heads/stable
+    old: 3611eb9de027042135ea3467eda272be703e829d
+    new: 767c4220f80a2c9f545c74d4ec66f61c335bd6d1
     log: |
-         cf57203021c6beccfbcdf95e6f2fc51dac72024c Wed Apr 27 05:49:48 PM UTC 2022
+         767c4220f80a2c9f545c74d4ec66f61c335bd6d1 wireguard: selftests: bump package deps
          
