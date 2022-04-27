@@ -1,31 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 27 Apr 2022 04:50:49 -0000
-Message-Id: <165103504993.10148.17532368880024008076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 27 Apr 2022 05:05:39 -0000
+Message-Id: <165103593997.19067.8547752411416782703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/mm-everything
-    old: 0000000000000000000000000000000000000000
-    new: 4f705d41691538a8600924dabe7a20b949c45cd6
-  - ref: refs/heads/mm-hotfixes
-    old: 0000000000000000000000000000000000000000
-    new: 1c593c30bbf9f48d11f82cc9df207b7d329cd618
-  - ref: refs/heads/mm-hotfixes-and-stable
-    old: 0000000000000000000000000000000000000000
-    new: b2fc99e721bb4f737700c9e156e4dd5a6637cde8
-  - ref: refs/heads/mm-non-mm
-    old: 0000000000000000000000000000000000000000
-    new: b7f80e3e3710d8873cc8d66d3a3e1a9683a25e09
-  - ref: refs/heads/mm-stable
-    old: 0000000000000000000000000000000000000000
-    new: c982827275f6509ac62fb91250cf609be2ee9f82
-  - ref: refs/heads/mm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: b06c069cbf181e97684d8bde0554806066959362
+  - ref: refs/heads/main
+    old: 2fb822f82a59db899ba7b3a615cb0ddbc8c04f0f
+    new: 8c783024d6acbd7a18b94ae7ed0e0ed4f163d0ba
+    log: |
+         68d57a07bfe5bb29b80cd8b8fa24c9d1ea104124 wireless: add plfxlc driver for pureLiFi X, XL, XC devices
+         255ca28a659d3cfb069f73c7644853ed93aecdb0 mwifiex: Select firmware based on strapping
+         562354ab9f0aa4fcd8f2184506dcb9c18a792182 mwifiex: Add SD8997 SDIO-UART firmware
+         fc6234d7e2e322e84ed3c5c6c05a54f611faa9ab rtw88: use the correct bit in the REG_HCI_OPT_CTRL register
+         746285cf81dc19502ab238249d75f5990bd2d231 rtl818x: Prevent using not initialized queues
+         21947f3a74d6c90508e1065d649791c9a38d515b brcmfmac: use ISO3166 country code and 0 rev as fallback on brcmfmac43602 chips
+         8c783024d6acbd7a18b94ae7ed0e0ed4f163d0ba rtlwifi: btcoex: fix if == else warning
+         
