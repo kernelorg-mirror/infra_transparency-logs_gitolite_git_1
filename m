@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 27 Apr 2022 20:53:06 -0000
-Message-Id: <165109278650.7598.320932997563181940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Wed, 27 Apr 2022 20:54:37 -0000
+Message-Id: <165109287775.8161.726220156506449670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/master
-    old: e4d8a29997731b3bb14059024b24df9f784288d0
-    new: 8f4dd16603ce834d1c5c4da67803ea82dd282511
+  - ref: refs/heads/bpf/fixes
+    old: 35597ce11b848ee8a696d54223d1f7b64cb49cb2
+    new: bb95074988637dba8784646e647306063fe4adbb
     log: |
-         31fa985b4196f8a66f027672e9bf2b81fea0417c kasan: prevent cpu_quarantine corruption when CPU offline and cache shrink occur at same time
-         5603f9bdea68406f54132125b6fdddeeb5c0d2e4 docs: vm/page_owner: use literal blocks for param description
-         8f4dd16603ce834d1c5c4da67803ea82dd282511 Merge branch 'akpm' (patches from Andrew)
+         280f76918c82441cbe72620287fa24cbb7f74353 kallsyms: Fully export kallsyms_on_each_symbol function
+         7a9c2227862c908fb557282732faea012420dc47 ftrace: Add ftrace_lookup_symbols function
+         8b04437a26fcbae1186d66135154e3599712ca7f fprobe: Resolve symbols with ftrace_lookup_symbols
+         aed338523bed92db161eac2b6175ce936670768c bpf: Resolve symbols with ftrace_lookup_symbols for kprobe multi link
+         bb95074988637dba8784646e647306063fe4adbb selftests/bpf: Add attach bench test
          
