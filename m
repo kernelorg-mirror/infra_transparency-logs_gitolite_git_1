@@ -1,77 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============6715360730072286306=="
+Content-Type: multipart/mixed; boundary="===============5717119852721465229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 28 Apr 2022 14:38:01 -0000
-Message-Id: <165115668168.15479.17118267296472692394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 28 Apr 2022 14:38:34 -0000
+Message-Id: <165115671412.15736.2980680349134338624@gitolite.kernel.org>
 
---===============6715360730072286306==
+--===============5717119852721465229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 5b47b751b760ee1c74a51660fd096aa148a362cd
-    new: fda05730f62b9a53e7d415f5c607942afbdc1fd9
-    log: revlist-5b47b751b760-fda05730f62b.txt
+  - ref: refs/heads/driver-core-next
+    old: 5b5bfecaa333fb6a0cce1bfc4852a622dacfed1d
+    new: 4388f887b857de8576a8bf7fefc1202dc7dd10df
+    log: revlist-5b5bfecaa333-4388f887b857.txt
 
---===============6715360730072286306==
+--===============5717119852721465229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651156679 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1651156678-7e0ed94ab9a03d3d5e4eae62ff370fb2709c9d71
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651156713 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1651156712-0e08387959eaa6950dc07315c853b9b688ff1cb2
 
-5b47b751b760ee1c74a51660fd096aa148a362cd fda05730f62b9a53e7d415f5c607942afbdc1fd9 refs/heads/char-misc-linus
+5b5bfecaa333fb6a0cce1bfc4852a622dacfed1d 4388f887b857de8576a8bf7fefc1202dc7dd10df refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJqpscbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BV4QAL1WplRiSmxrZxOFtL/k
-+v+STxfQjqFQHuMLNJcJuG1Ja+55yton9Y5ek3uQxzy3jgOMWUqlecjbQC4D0YBl
-CD38qGIXTwEFbdgi3L/6c32obM1+u3SYvoUFkvtr5jGlfPMpavM1+e2RS0gfubjx
-RNJMiBoFv7B3lA4S4NOFRgnjk2jPvSALuQr+k0ClQK22BPxyimcKotZZ6RiVUrNb
-PRpMmKRQIm7K3M2arHDMhHZEdDz9Ua6UMo6k3RiVZ9GBkUs8JK8vK4CLC5nEUCNk
-NPYjIWgsoFnlHNpCaOOo7A2PSC7MwS7zfjUpM1FMujVoA6qnt6C4KEWj3iI+Pwxv
-1qZjt4SrvOJkcaPAxhp4gVTPKWncpGLA96IJpy7GnGMSkkdlJxmXRix7CxqG5P7z
-POcwTRlTMBPZaFjz/dqaIs/xdcLVMHhNC4ZJdZ1qIjPUp7HNhMB6g5lLywfgnYzh
-YG35SEp5T1BWnXCNuLBqsrwwsjDOlNjQkx3ZzuMQOsfwLVM6gL3F7XW1ExDnt3mo
-o6k6+iw0aZx7xP9fy0dtIh6OahztpNTLiUseBTC4MkEb6LmgKKbM0yNfZ1b2B2+K
-RX2Pg/gQwN1IiJZ/+B7F0ir+XUNheCdUKLCSYK0vnDrl7eS1D5xtrm2ukrwHUtBN
-6PnehHQSgmFzlL1wvSKD3ZWj
-=P0mL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJqpukbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4X0P/A+h7zkjj9q0WZco9IcA
+Zhxhf97WzxPRp/2oAZ7Z2Y2TxOOqITjRrepN2pUDGSWgMkGWMSdbE89QvaveRnXN
+t2AQ99EEcGhPjtSAqgwNsO7USDEL9eJCfg0ElEAof+tmVWkDGVT/9pV3uS4KkQv0
+1gHJs2Nt4KdBZ525HNKFHjDmRzI1pT1H/tlchBCHM/FIVSMfR/Gd8ZGSPuZ0Eohq
+r4V024mLpzHl1/TCIBXijwxeHsCLhboaHKJ+dqmRudC9lNYRhcTIDQUxHiQwaE3F
+ybGs1jL1tZKswA+8HHaXEmc1onEOEMZBsviEVC+ByMhAshEpt4++Hkfh5ssp/Oa2
+o4HiZGADecIEvFQgu04gpiKYQFpBQTjhd7OlKxQYhk1hnMGUuoorwa5ORTKRGqqf
+ClXLFWptlyPAHKrnnLy8oqgKI+LM6vPfc6EMs93LsI7OVi6LuN0C1TZ0AdWEVTNv
+5qAvduEBhza79Vq3XP72tNRLYd7bHgzvasGdS7Ct2p9Gk4017Hl2ETEVrsLCoCvv
+poaoYs0yHFnUeKgMHcmasmKwom4Uk4FZmeveuC73jzvIoKLy/pAXCBotDBiMn7SL
+uEE68G0NtSq6IqtNMvVp9M1ABul6vk9MPoVNLY8urOodz3/XyhoxuJYTk22vl4J5
++GNLOmdEL1iZkD0IFhTMCpS+
+=l7OD
 -----END PGP SIGNATURE-----
 
---===============6715360730072286306==
+--===============5717119852721465229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b47b751b760-fda05730f62b.txt
+Content-Disposition: attachment; filename=revlist-5b5bfecaa333-4388f887b857.txt
 
-460bfa65b0de72f4d8a808bc7cfb1cb591a95b18 iio: dac: ad3552r: fix signedness bug in ad3552r_reset()
-f50232193e61cf89a73130b5e843fef30763c428 iio: scd4x: check return of scd4x_write_and_fetch
-d926054d5565d3cfa2c7c3f7a48e79bcc10453ed iio:imu:bmi160: disable regulator in error path
-a2a43fd9d84aec15f8c3dc434d50cd59d8a116b2 iio: dac: dac5571: Fix chip id detection for OF devices
-b55b38f7cc12da3b9ef36e7a3b7f8f96737df4d5 iio: dac: ad5592r: Fix the missing return value.
-d85cce86a86746354fffb688dd134609c8277adc iio:filter:admv8818: select REGMAP_SPI for ADMV8818
-03779df928a6b34e18b28c17c94627fe014304b3 iio: adc: ad7280a: Fix wrong variable used when setting thresholds.
-74a53a959028e5f28e3c0e9445a876e5c8da147c iio:proximity:sx_common: Fix device property parsing on DT systems
-108e4d4de2b58011eafd14581b6ea7469f1fc467 iio:proximity:sx9324: Fix hardware gain read/write
-3a26787dacf04257a68b16315c984eb2c340bc5e iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-89a01cd688d3c0ac983ef0b0e5f40018ab768317 iio: dac: ad5446: Fix read_raw not returning set value
-d79478a79cfa393cde46bccb05d52fc7d875d2e2 iio: sx9324: Fix default precharge internal resistance register
-de3b9fe9609a05d3c354c6718ca657962d11d9fe iio:dac:ad3552r: Fix an IS_ERR() vs NULL check
-e7e51eb037d1848d4403efbf9696ea50c40cad36 iio: dac: ltc2688: fix voltage scale read
-b5d6ba09b10d2ccb865ed9bc45941db0a41c6756 iio: imu: inv_icm42600: Fix I2C init possible nack
-fda05730f62b9a53e7d415f5c607942afbdc1fd9 Merge tag 'iio-fixes-for-5.18a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio
+e0c11a8b985137aebf4bcd07cd957b80ac23924d firmware_loader: Split sysfs support from fallback
+97730bbb242cde22b7140acd202ffd88823886c9 firmware_loader: Add firmware-upload support
+536fd8184b7dfa30e28e5b459e7c5c91c3a8063f firmware_loader: Add sysfs nodes to monitor fw_upload
+a31ad463b72de2ec1a71bb4690acaf1e6dcafb45 test_firmware: Add test support for firmware upload
+4a4e975bae37c995b12b4a86d46a6c14fa804277 test_firmware: Error injection for firmware upload
+4c32174a24759d5ac6dc42b508fcec2afb8b9602 Documentation: dd: Use ReST lists for return values of driver_deferred_probe_check_state()
+84e7c6786aad1dffa04f5729270f8fcd7281fe4b driver core: Prevent overriding async driver of a device before it probe
+a72b6dff4089e6c3455e73ea97b08623b4fed699 drivers/base/node.c: fix compaction sysfs file leak
+ce753ad1549cbe9ccaea4c06a1f5fa47432c8289 platform: finally disallow IRQ0 in platform_get_irq() and its ilk
+6423d2951087231706246f81851067f7f0593d4a driver core: Add sysfs support for physical location of a device
+bd900901b8d1838bf1b6e63063e0025fca42d283 kernfs: Remove reference counting for kernfs_open_node.
+4388f887b857de8576a8bf7fefc1202dc7dd10df Revert "firmware_loader: use kernel credentials when reading firmware"
 
---===============6715360730072286306==--
+--===============5717119852721465229==--
