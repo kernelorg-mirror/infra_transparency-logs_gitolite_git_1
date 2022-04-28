@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8249474065318368914=="
+Content-Type: multipart/mixed; boundary="===============6715360730072286306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 28 Apr 2022 14:35:08 -0000
-Message-Id: <165115650869.14511.6372037082553380250@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 14:38:01 -0000
+Message-Id: <165115668168.15479.17118267296472692394@gitolite.kernel.org>
 
---===============8249474065318368914==
+--===============6715360730072286306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,62 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 1f7142915d304804a9bd952245fce92786b1b62f
-    new: c268c0a8a33047cd957fecc1349d09a68eb6ad9e
-    log: revlist-1f7142915d30-c268c0a8a330.txt
+  - ref: refs/heads/char-misc-linus
+    old: 5b47b751b760ee1c74a51660fd096aa148a362cd
+    new: fda05730f62b9a53e7d415f5c607942afbdc1fd9
+    log: revlist-5b47b751b760-fda05730f62b.txt
 
---===============8249474065318368914==
+--===============6715360730072286306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651156508 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651156679 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1651156507-82a10155d45b4f3bf54d2b4a0ea32a0772158a5b
+nonce 1651156678-7e0ed94ab9a03d3d5e4eae62ff370fb2709c9d71
 
-1f7142915d304804a9bd952245fce92786b1b62f c268c0a8a33047cd957fecc1349d09a68eb6ad9e refs/heads/char-misc-next
+5b47b751b760ee1c74a51660fd096aa148a362cd fda05730f62b9a53e7d415f5c607942afbdc1fd9 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJqphwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l2EP/1E2KaVON6R7C/qB81yf
-UyDhc8InZVP+XsgAE8xz9JwGguyFGQ32bAptdAzJ9bEfnTEGJHcZpyj19G6vsvsD
-rU7gsHHX7SuEesrn32xYcCJx4cNe2cqA7vxySK44+7bzB4LnaLl9LWQUnD3D9SiF
-K+wzIi1WnBl5VhBZ1wrsKcn25wuFmTiWVFcD46bQYcOEcuxv1I1f1xiARA7anHyk
-XsEqOCQtz7kQgvRFwsHZiZpccbIAKH9CaekmTJuDiwm+dcc3Z5mgCU2oDM1pwmNU
-nPpjOtSNQYoJY7rYzsuNnWeEpczwnzA6PLgcOzfzt2xY+EcEQUuibiTsoEBWDWZ8
-DePsZaN2HTC1VM45O7FVHSnyhwvvhPy1OI5Jat/aVPaWvYbGUDl7VmmccQcpDXeX
-ylA0zhITWIWPyJzhmcrzsZ73fmBy4BPkIxHEzc5BmnUucqDVKdDR9vaTdoRWZBFP
-3YmQ4BNzSEQdC1cmSff8OCSf0UKvOvCVbzXjtylWHHpXq1D0ud1mXbtzaNV01xnn
-Zi26E2SHMNlTVelhiYbTbtCw6SL0LPJqQW31qqAcfEyZmgFdnSXIeBlJEKSx2XbY
-zfK1UFOjqTIL3A4x6VJPHjVpTHptW/cjyBSxlghvV6ugufh9WHjEPhgWHfBApOib
-DN/d+9C9Lo6HQ5Pk4McpJwX9
-=D2jb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJqpscbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BV4QAL1WplRiSmxrZxOFtL/k
++v+STxfQjqFQHuMLNJcJuG1Ja+55yton9Y5ek3uQxzy3jgOMWUqlecjbQC4D0YBl
+CD38qGIXTwEFbdgi3L/6c32obM1+u3SYvoUFkvtr5jGlfPMpavM1+e2RS0gfubjx
+RNJMiBoFv7B3lA4S4NOFRgnjk2jPvSALuQr+k0ClQK22BPxyimcKotZZ6RiVUrNb
+PRpMmKRQIm7K3M2arHDMhHZEdDz9Ua6UMo6k3RiVZ9GBkUs8JK8vK4CLC5nEUCNk
+NPYjIWgsoFnlHNpCaOOo7A2PSC7MwS7zfjUpM1FMujVoA6qnt6C4KEWj3iI+Pwxv
+1qZjt4SrvOJkcaPAxhp4gVTPKWncpGLA96IJpy7GnGMSkkdlJxmXRix7CxqG5P7z
+POcwTRlTMBPZaFjz/dqaIs/xdcLVMHhNC4ZJdZ1qIjPUp7HNhMB6g5lLywfgnYzh
+YG35SEp5T1BWnXCNuLBqsrwwsjDOlNjQkx3ZzuMQOsfwLVM6gL3F7XW1ExDnt3mo
+o6k6+iw0aZx7xP9fy0dtIh6OahztpNTLiUseBTC4MkEb6LmgKKbM0yNfZ1b2B2+K
+RX2Pg/gQwN1IiJZ/+B7F0ir+XUNheCdUKLCSYK0vnDrl7eS1D5xtrm2ukrwHUtBN
+6PnehHQSgmFzlL1wvSKD3ZWj
+=P0mL
 -----END PGP SIGNATURE-----
 
---===============8249474065318368914==
+--===============6715360730072286306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f7142915d30-c268c0a8a330.txt
+Content-Disposition: attachment; filename=revlist-5b47b751b760-fda05730f62b.txt
 
-4647769bab901562b1d3aa6ceb640a4886b0f277 drivers/virt/fsl_hypervisor: remove unneeded `ret` variable in `fsl_hv_open()`
-26eff2d66aff33527c7872277ab9c9d8478a978c binder: Use memset_page() in binder_alloc_clear_buf()
-1d625960e41907af706f573a3cd097595a0ade63 binder: Use kmap_local_page() in binder_alloc_copy_user_to_buffer()
-e88a6a8fece9b92be4f55735134a022061e6e68b binder: Use memcpy_{to,from}_page() in binder_alloc_do_buffer_copy()
-d434743e5cac3558381b767f343eef5af246a4dc bus: mhi: ep: Add support for registering MHI endpoint controllers
-ee0360b20b3fa08e2eee300eacb45e812ae44578 bus: mhi: ep: Add support for registering MHI endpoint client drivers
-297c77a0f27312b9a04696018c4cbd47926ca92b bus: mhi: ep: Add support for creating and destroying MHI EP devices
-e9e4da23cd65ea76ba658346f5c182791bd1cea9 bus: mhi: ep: Add support for managing MMIO registers
-bbdcba57a1a26a4439a4f4ecdbfaf80a10fd8f34 bus: mhi: ep: Add support for ring management
-961aeb6892242e0a667f5b8eb62b9b0a6041752c bus: mhi: ep: Add support for sending events to the host
-f9baa4f737950523ca648866dfa345ac378e4487 bus: mhi: ep: Add support for managing MHI state machine
-4799e71b082615445dc40ba0bbb86cbb76c24724 bus: mhi: ep: Add support for processing MHI endpoint interrupts
-fb3a26b7e8aff11e44d582604f61c38f63bd507c bus: mhi: ep: Add support for powering up the MHI endpoint stack
-5d507ee04894e166f8c5a29f05c6b06ce91d5833 bus: mhi: ep: Add support for powering down the MHI endpoint stack
-7a97b6b47353c60dd1b53ada6180741437e377f2 bus: mhi: ep: Add support for handling MHI_RESET
-f7d0806bdb1b377d4abe0f2c7798cec5b8a837ce bus: mhi: ep: Add support for handling SYS_ERR condition
-e827569062a804c67b51930ce83a4cb886113cb7 bus: mhi: ep: Add support for processing command rings
-530125889977365cb6db32d7d0bd84c9f54c8aab bus: mhi: ep: Add support for reading from the host
-03c0bb8ec983f993a704417d73cc0a3511453d3e bus: mhi: ep: Add support for processing channel rings
-2d945a394d9c1c59d88397cb383b11216d018a6b bus: mhi: ep: Add support for queueing SKBs to the host
-e4b7b5f0f30aaa4677126e04220677a02839e1c4 bus: mhi: ep: Add support for suspending and resuming channels
-c268c0a8a33047cd957fecc1349d09a68eb6ad9e bus: mhi: ep: Add uevent support for module autoloading
+460bfa65b0de72f4d8a808bc7cfb1cb591a95b18 iio: dac: ad3552r: fix signedness bug in ad3552r_reset()
+f50232193e61cf89a73130b5e843fef30763c428 iio: scd4x: check return of scd4x_write_and_fetch
+d926054d5565d3cfa2c7c3f7a48e79bcc10453ed iio:imu:bmi160: disable regulator in error path
+a2a43fd9d84aec15f8c3dc434d50cd59d8a116b2 iio: dac: dac5571: Fix chip id detection for OF devices
+b55b38f7cc12da3b9ef36e7a3b7f8f96737df4d5 iio: dac: ad5592r: Fix the missing return value.
+d85cce86a86746354fffb688dd134609c8277adc iio:filter:admv8818: select REGMAP_SPI for ADMV8818
+03779df928a6b34e18b28c17c94627fe014304b3 iio: adc: ad7280a: Fix wrong variable used when setting thresholds.
+74a53a959028e5f28e3c0e9445a876e5c8da147c iio:proximity:sx_common: Fix device property parsing on DT systems
+108e4d4de2b58011eafd14581b6ea7469f1fc467 iio:proximity:sx9324: Fix hardware gain read/write
+3a26787dacf04257a68b16315c984eb2c340bc5e iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+89a01cd688d3c0ac983ef0b0e5f40018ab768317 iio: dac: ad5446: Fix read_raw not returning set value
+d79478a79cfa393cde46bccb05d52fc7d875d2e2 iio: sx9324: Fix default precharge internal resistance register
+de3b9fe9609a05d3c354c6718ca657962d11d9fe iio:dac:ad3552r: Fix an IS_ERR() vs NULL check
+e7e51eb037d1848d4403efbf9696ea50c40cad36 iio: dac: ltc2688: fix voltage scale read
+b5d6ba09b10d2ccb865ed9bc45941db0a41c6756 iio: imu: inv_icm42600: Fix I2C init possible nack
+fda05730f62b9a53e7d415f5c607942afbdc1fd9 Merge tag 'iio-fixes-for-5.18a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio
 
---===============8249474065318368914==--
+--===============6715360730072286306==--
