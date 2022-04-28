@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 28 Apr 2022 22:46:13 -0000
-Message-Id: <165118597330.19214.17042291312959744870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 28 Apr 2022 22:53:50 -0000
+Message-Id: <165118643041.23269.3426003016270900817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 4ae547cee61252b105115eabee27ec7466861179
-    new: 8274c8eae1d3e48bb834dc26b7ebdaeef53d10ba
+  - ref: refs/heads/pxa-multiplatform-5.18
+    old: bafe674c95e7e72094bdbeab22affaf87976929e
+    new: e8ab9a9a274552aee0191bff67bd8ed757289188
     log: |
-         0037c30a84c10819e43c9bac5f85fb9cc0fc0af4 dt-bindings: interrupt-controller: fsl,ls-extirq: convert to YAML
-         8274c8eae1d3e48bb834dc26b7ebdaeef53d10ba dt-bindings: fsl: convert fsl,layerscape-scfg to YAML
+         2b38dd405181b06968c0a6f15a518334380aaf31 ARM: pxa/sa1100: move I/O space to PCI_IOBASE
+         e8ab9a9a274552aee0191bff67bd8ed757289188 ARM: pxa: convert to multiplatform
          
