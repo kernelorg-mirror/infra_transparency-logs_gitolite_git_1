@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 28 Apr 2022 12:16:49 -0000
-Message-Id: <165114820926.20335.9047368222446463360@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6604304237437420816=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 28 Apr 2022 12:19:00 -0000
+Message-Id: <165114834013.21110.14695860408680658589@gitolite.kernel.org>
+
+--===============6604304237437420816==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/has_ioport
-    old: e20b7c3fb43b92cdc6725510a62905167de69bdc
-    new: 10f21a071bf3145552ea4b078675df17f75be9fe
+  - ref: refs/heads/master
+    old: 2024c2afff37665e05dfbef6ce2308cc6ccf4b3a
+    new: 670ae6f75699aea0a3d532929aa52cd89c64507e
     log: |
-         9b4334b8d8cecfbb6e9b9065656b51d4103dbc9a sound: add HAS_IOPORT dependencies
-         5f057febee1e85920dccecfe03772be44ca33b14 speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
-         26a428ce58017dfc5c4281516dd1cce95683b758 staging: add HAS_IOPORT dependencies
-         bb71554466df5411ec58de68bce57a832d2b98cf tty: serial: add HAS_IOPORT dependencies
-         31e77384c5b8c7626ef3dcc0930c48113359d2c9 usb: handle HAS_IOPORT dependencies
-         708a772924624b24dc00cf5938e9c6a6e92c34fc video: handle HAS_IOPORT dependencies
-         b2ac6a7c43a21abf56dbddd071ee343677daa5ed watchdog: add HAS_IOPORT dependencies
-         096c23897fab8a80969eeecbe52366fbdf58479b wireless: add HAS_IOPORT dependencies
-         10f21a071bf3145552ea4b078675df17f75be9fe asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
+         670ae6f75699aea0a3d532929aa52cd89c64507e 5.4-stable patches
          
+
+--===============6604304237437420816==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651148339 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1651148337-6f68d9b1efbf0e7ca0afd847e7a170f63a698098
+
+2024c2afff37665e05dfbef6ce2308cc6ccf4b3a 670ae6f75699aea0a3d532929aa52cd89c64507e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJqhjMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2EsP/i1YOsXftfYI5F+2eEs4
+Ng6Krzx6vnbhYPPT9DAzsEEcMADtJD5oe7fkoyyASzIoYbTvAC3qAwujACa3fONZ
+Ju5jWeToFWZnQaAmXXFsbqBpzKuAcvlvY45kwwVEBvYLb6E3eJkJnyMI7lzqWxuT
+UDZAQ9yjge1m8N9rU9aRziQ1DPnd+pXEPrVLa721T0NT80TMn01pNUg/m3szIrbH
+wtDbRkbkVuFawDY/jLUzShyOyGoHG+R/dFCkTg9nHRB0hyG3u+RUo8sVvWg+9FKA
+3R3D5kOdY4B8zykk+G2Nh7o8U3SCF1BT/3Fhq7l4qAfvGHKUNQHKTE+RTfywXAQY
+tM4hck6aH3qEzPELjSQQcM++wsArkHlOqDR3IL9vmfuKEgQopMbLV1uQKJhEyht7
+FXyxagf+cF3Noq/tR+6QIuVeWf3Yf1Q5/N/ry7NVzCRtEusTNfOcpt8A8ojQDQDK
+jJi8Rm7ffzFp7YD6vvKmTSiRifp2ZboytazqL4JLo6uIlpmTs+WpNxqpp0nkShKu
+aKzHjvA6O0JnZoMFLTHx0UmBjssjXwLVwguyQBKbjHC9WF9dlqD812SHfrXYGR9L
+6CHPJ06fw7Eq+JScDJUo9SA8T4YRit4b7Xb5UgtWXRjCI1Go7uhr6OdtHulFtoUK
+h/UYIl84s2pytriBJUsr6c+C
+=v5fu
+-----END PGP SIGNATURE-----
+
+--===============6604304237437420816==--
