@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6030622083060686302=="
+Content-Type: multipart/mixed; boundary="===============6988567616877057279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 28 Apr 2022 18:16:43 -0000
-Message-Id: <165116980357.29319.10360195226187349907@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 18:17:01 -0000
+Message-Id: <165116982170.29472.2725399631274822403@gitolite.kernel.org>
 
---===============6030622083060686302==
+--===============6988567616877057279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 1510667897a2e74179d03c534ff2ffdaf9bef838
     new: cb55b4428550fc1511fdd0f74057169c9a63c96e
     log: revlist-1510667897a2-cb55b4428550.txt
 
---===============6030622083060686302==
+--===============6988567616877057279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ fff4a7a890ea23e671c55e322c8b341f1f94c4e3 iio: adc: sc27xx: add support for PMIC 
 79f4dc9dec0e0beb12728dc214ae03672b7d76d8 iio: imu: adis16480: Use temporary variable for struct device
 cb55b4428550fc1511fdd0f74057169c9a63c96e iio: imu: adis16480: Improve getting the optional clocks
 
---===============6030622083060686302==--
+--===============6988567616877057279==--
