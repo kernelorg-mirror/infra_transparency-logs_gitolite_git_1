@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 28 Apr 2022 16:38:38 -0000
-Message-Id: <165116391852.26596.12569177320316787735@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 16:43:31 -0000
+Message-Id: <165116421121.30893.8822669107139644706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: febb2d2fa5619b0ff08e1e2793a29bebf17319d5
-    new: 126858db81a5094d20885bc59621c3b9497f9048
+    old: 126858db81a5094d20885bc59621c3b9497f9048
+    new: f049efc7f7cd2f3c419f55040928eaefb13b3636
     log: |
-         126858db81a5094d20885bc59621c3b9497f9048 MAINTAINERS: Update BNXT entry with firmware files
+         f049efc7f7cd2f3c419f55040928eaefb13b3636 ixgbe: ensure IPsec VF<->PF compatibility
          
