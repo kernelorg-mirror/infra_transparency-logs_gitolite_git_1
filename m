@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1506515137139221684=="
+Content-Type: multipart/mixed; boundary="===============5853902884646741564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 28 Apr 2022 19:12:16 -0000
-Message-Id: <165117313691.32570.10569694381562016934@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 19:12:25 -0000
+Message-Id: <165117314568.32717.3344100202753642894@gitolite.kernel.org>
 
---===============1506515137139221684==
+--===============5853902884646741564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: 22da5264abf497a10a4ed629f07f4ba28a7ed5eb
     new: a5d20d42a2f2dc2b2f9e9361912062732414090d
     log: revlist-22da5264abf4-a5d20d42a2f2.txt
 
---===============1506515137139221684==
+--===============5853902884646741564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -114,4 +114,4 @@ de8fd138430ccac4b8f7b812e5c6f8963b5ccf07 perf intel-pt: Fix timeless decoding wi
 8799ebce84d672aae1dc3170510f6a3e66f96b11 perf symbol: Update symbols__fixup_end()
 a5d20d42a2f2dc2b2f9e9361912062732414090d perf symbol: Remove arch__symbols__fixup_end()
 
---===============1506515137139221684==--
+--===============5853902884646741564==--
