@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 28 Apr 2022 22:10:28 -0000
-Message-Id: <165118382847.26191.15545357242617945740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 28 Apr 2022 22:10:35 -0000
+Message-Id: <165118383515.26298.921779467611957232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/timers/urgent
-    old: 214cab6f8020a9ad4a5e9862a4e68088d5a79f08
-    new: 2c33d775ef4c25c0e1e1cc0fd5496d02f76bfa20
-    log: |
-         2c33d775ef4c25c0e1e1cc0fd5496d02f76bfa20 timekeeping: Mark NMI safe time accessors as notrace
-         
+  - ref: refs/heads/x86/wip.ibt.ud1
+    old: 0000000000000000000000000000000000000000
+    new: f4f8f75b4bbcb19225168655723e1714682c661d
