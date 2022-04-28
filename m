@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3218015516017874667=="
+Content-Type: multipart/mixed; boundary="===============7647454272941938366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 28 Apr 2022 01:55:34 -0000
-Message-Id: <165111093477.18367.10212927003602503835@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 01:56:29 -0000
+Message-Id: <165111098986.18716.2047056983704003982@gitolite.kernel.org>
 
---===============3218015516017874667==
+--===============7647454272941938366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d54d06a4c4bc5d76815d02e4b041b31d9dbb3fef
     new: 50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5
     log: revlist-d54d06a4c4bc-50c6afabfd2a.txt
 
---===============3218015516017874667==
+--===============7647454272941938366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bc6df26f1f785be9b4c10d37e50ac40b46428984 net: wan: remove support for Z85230-bas
 c6101dd7ffb8b7f940e3fc4a22ce4023f8184f0d net: dsa: ksz9477: move get_stats64 to ksz_common.c
 50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============3218015516017874667==--
+--===============7647454272941938366==--
