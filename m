@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 28 Apr 2022 13:25:42 -0000
-Message-Id: <165115234252.1203.1117703374083444619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 28 Apr 2022 13:37:38 -0000
+Message-Id: <165115305820.8120.12920659962468506047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/arm/multiplatform-late
-    old: 761a9054608a01bdebffd0cafc131a35d954f669
-    new: df39a61512626936941688bf4ef65daf79305f07
+  - ref: refs/heads/for-next/fixes
+    old: 23bc8f69f0eceecbb87c3801d2e48827d2dca92b
+    new: c35fe2a68f29a0bda15ae994154cacaae5f69791
     log: |
-         df39a61512626936941688bf4ef65daf79305f07 Merge branch 'pxa-multiplatform-5.18' into arm/multiplatform-late
+         c35fe2a68f29a0bda15ae994154cacaae5f69791 elf: Fix the arm64 MTE ELF segment name and value
          
