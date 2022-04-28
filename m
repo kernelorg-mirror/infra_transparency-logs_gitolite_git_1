@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4439002661016044781=="
+Content-Type: multipart/mixed; boundary="===============7622978310001709036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Thu, 28 Apr 2022 07:36:12 -0000
-Message-Id: <165113137261.15017.10433382766744558955@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 07:36:19 -0000
+Message-Id: <165113137923.15105.17143267414596609224@gitolite.kernel.org>
 
---===============4439002661016044781==
+--===============7622978310001709036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 49aefd131739df552f83c566d0665744c30b1d70
-    new: d2b52ec056d5bddb055c8f21d7489a23548d0838
-    log: revlist-49aefd131739-d2b52ec056d5.txt
+  - ref: refs/heads/testing
+    old: d73497081710c876c3c61444445512989e102152
+    new: 9bfd91c52aac23c761583e19116a3e3d2e8fbd81
+    log: revlist-d73497081710-9bfd91c52aac.txt
 
---===============4439002661016044781==
+--===============7622978310001709036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651131368 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651131375 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1651131368-8a6ba455755d4e6bf7999dedf7ecf282601fb151
+nonce 1651131375-3f29dd8db859bb224606c1141a5704eff95f5a5b
 
-49aefd131739df552f83c566d0665744c30b1d70 d2b52ec056d5bddb055c8f21d7489a23548d0838 refs/heads/master
+d73497081710c876c3c61444445512989e102152 9bfd91c52aac23c761583e19116a3e3d2e8fbd81 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJqQ+gTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXfmdB/0fUnwOD5mRaPs7NnKt0+TfBMIUgZ6E
-VzozSMVFtRAXHQS2ZDGmRD4J8hy4kd1Cavky9j7BCGQsTMm4C4B7aHHWKDdUaexC
-TG/CQGNCChIxiQz/XF4ziMypg4Mpp5iXMM1OqOXNyznVQKUV1Kc2bwWKX/SADcRF
-uoke7BCyyGle4PeL+KmkQb5qRhjyAyiPNQ8+If19X5lvQ22Gxo9ZtaP5KkJFDfLt
-IFkeiEnN8m9XLaWya5rcFGGAd9WoHiyXiLXT3oydo6DoYCTmhCRPEZqYiRkxqLDw
-4EP3gdX9Xf8xfIltnEf8/2SZX/PzWbWlng36OWP8wFSx/AwPbRVJPHtP
-=P814
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJqQ+8THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXSdGB/958PnwirGv16mQ7w68J1j4zU2kjNDj
+PApkYC3rZfaQuoHiK2gWt4Ym3X3oYgWohGJ+r5XZ/KAxV4lK05mPt9jZKGU3e33Y
+4Lldu2tpYchMx+pffNJAV8NmJt7Ljf2UDG0u02TJt9gun8YEq8kF0fUO06jGffLg
+tpVEvv1nhj4eZK54TfMoZHouWjDJG+FHBhOcrJIFBt6IMoogh4N54hOd0IkavpOS
+CqINjkyV/WcjY2YPpBLpGjXYMvG/9xOS01b5IYFGTqqUwEtH2eJAPUweqDLEd2/c
+nC1fD/uhn8BdEsHR+vIhoQNOC4UCWjD2nu3G0V9uZ3PgRzwyIQ4LmUTJ
+=OysX
 -----END PGP SIGNATURE-----
 
---===============4439002661016044781==
+--===============7622978310001709036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49aefd131739-d2b52ec056d5.txt
+Content-Disposition: attachment; filename=revlist-d73497081710-9bfd91c52aac.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -250,7 +250,6 @@ b00868396dbd23bb6875f4096b6e59e1b17d67de Merge tag 'dma-mapping-5.18-2' of git:/
 70a0cec8186bff968384f5ad4fe5cb551f04bfd7 Merge tag 'soc-fixes-5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 de6e93366828925b58e4a102b6590a8f4798b7e2 Merge tag 'gpio-fixes-for-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 a2c29ccd9477861b16ddc02c411a6c9665250558 Merge tag 'devicetree-fixes-for-5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-d73497081710c876c3c61444445512989e102152 can: isotp: stop timeout monitoring when no first frame was sent
 bd0c7d755bf3bad8ef075a899c10f192858c01d4 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 9a921a6ff7a616863b981220d0a2e0d1de2d050b Merge tag 'for-v5.18-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 7e1777f5ec178542adf0506e5ba2308f5be862a7 Merge tag 'irq-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -336,5 +335,7 @@ a1bde8c92d27d178a988bfd13d229c170b8135aa Merge branch '100GbE' of git://git.kern
 a0df71948e9548de819a6f1da68f5f1742258a52 tls: Skip tls_append_frag on zero copy size
 af68656d66eda219b7f55ce8313a1da0312c79e1 bnx2x: fix napi API usage sequence
 d2b52ec056d5bddb055c8f21d7489a23548d0838 net: fec: add missing of_node_put() in fec_enet_init_stop_mode()
+4aaccfcd58397ef3ce80e9403ac7237bbbbaa0aa can: isotp: remove re-binding of bound socket
+9bfd91c52aac23c761583e19116a3e3d2e8fbd81 can: grcan: grcan_close(): fix deadlock
 
---===============4439002661016044781==--
+--===============7622978310001709036==--
