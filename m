@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8501827605713538806=="
+Content-Type: multipart/mixed; boundary="===============2639541577896195875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 28 Apr 2022 07:34:21 -0000
-Message-Id: <165113126105.12858.4519610312317485643@gitolite.kernel.org>
+Date: Thu, 28 Apr 2022 07:34:31 -0000
+Message-Id: <165113127192.12980.2134569493349596085@gitolite.kernel.org>
 
---===============8501827605713538806==
+--===============2639541577896195875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: cc4bdef26ecd56de16a04bc6d99aa10ff9076498
-    new: 50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5
-    log: revlist-cc4bdef26ecd-50c6afabfd2a.txt
+  - ref: refs/heads/testing
+    old: 9b069d88e87a0ae74c05bfd2a70300d9003414f4
+    new: d0191039d3f1d3624538dce15127d8419e682fb3
+    log: revlist-9b069d88e87a-d0191039d3f1.txt
 
---===============8501827605713538806==
+--===============2639541577896195875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651131257 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651131268 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1651131256-85fc228cf897d3ee18bfd1ca1c301b4c1f320301
+nonce 1651131267-c650bb43296e526914efc51fd181f0b7c5dc07ab
 
-cc4bdef26ecd56de16a04bc6d99aa10ff9076498 50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5 refs/heads/master
+9b069d88e87a0ae74c05bfd2a70300d9003414f4 d0191039d3f1d3624538dce15127d8419e682fb3 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJqQ3kTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXRr6B/9vTeGteTJveU5ofCRykI+sfpWllLoQ
-28rqBtXJ7+UZNUztos2MPhvuy0hix3vNHr103sEQnBZUeAwKcNy6Cwc9EcI2a3tc
-4j7XKgt/ed1K/Bmz2LmfEshwAGPRXbNjGl4de9Hmab/DU2OSpIrAUFHl379WWREM
-wDKkHzXcYeE2PltE037n5vCxwZVcWkIyu6m5MngPTX517xJSn3p5n3Y3GRGNk79g
-wnRR1076oZgExBE//SDuu28xFL42OXN+24tQ41zUu7NlfxY2KfI3ULS991ifUrvN
-HYP2ffCZMbeyoyh7p3aBjIvXjKGpplatqt8wwhzmDrVIBB0n9IAK+b76
-=hJlW
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJqQ4QTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXUNDCACRSs5inJ0abFniOXxG2qqm32APtcJX
+FAV+L1doeHM68ScLHJiMKhfcK8CGWECM1lwhD7GZQo5HNwGYNGu9Rn24U09KiLpt
+ElCQmiXVGLxOQBnWMypcPyRxeYdiDTMRc4DTWDTl9rpIxcx2qd6mfssVU1IPLCx+
+FPnEUBAzyazkCXKKpzndiwaGg9FeK3NcOe6tN1VPAlQ3UHjWC2yORyVWtfIoN0dl
+/nvUdPHeDbW7PfhWmfSFUqMy0XqJ7bF3IGzddQZNjlkjOWS1aOo+EeSv01ykvZdp
+2AM8E5j6I4K4vvUcuD6Cggc6rG3QmgCPL1UBp9Ta2/CaBFrtNFoE+BAn
+=F75d
 -----END PGP SIGNATURE-----
 
---===============8501827605713538806==
+--===============2639541577896195875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc4bdef26ecd-50c6afabfd2a.txt
+Content-Disposition: attachment; filename=revlist-9b069d88e87a-d0191039d3f1.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -323,7 +323,6 @@ cbe6c3a8f8f4315b96e46e1a1c70393c06d95a4c net: atlantic: invert deep par in pm fu
 0763120b090418a5257402754e22a34227ae5f12 net: dsa: hellcreek: Calculate checksums in tagger
 4cf35a2b627a020fe1a6b6fc7a6a12394644e474 net: mscc: ocelot: fix broken IP multicast flooding
 99c07327ae11e24886d552dddbe4537bfca2765d netlink: reset network and mac headers in netlink_dump()
-eb38c2053b67977844404cbbdee341dbf3a02d36 can: rx-offload: rename can_rx_offload_queue_sorted() -> can_rx_offload_queue_timestamp()
 85d4eb2a3dfe939dda5304d61e406cb8e0852d60 can: bittiming: can_calc_bittiming(): prefer small bit rate pre-scalers over larger ones
 20c7258980e07fb2a54797baf157e55b6c77d6e9 can: Fix Links to Technologic Systems web resources
 bb75e352d7ac35778fc555b02a69edcc03c36e74 can: mscan: mpc5xxx_can: Prepare cleanup of powerpc's asm/prom.h
@@ -551,5 +550,13 @@ bc6df26f1f785be9b4c10d37e50ac40b46428984 net: wan: remove support for Z85230-bas
 03fa8fc93e443e6caa485cc741328a1386c63630 Merge branch 'remove-virt_to_bus-drivers'
 c6101dd7ffb8b7f940e3fc4a22ce4023f8184f0d net: dsa: ksz9477: move get_stats64 to ksz_common.c
 50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+33e385ca0b9aca375c019d9544571b8ee3a90fa9 dt-bindings: can: renesas,rcar-canfd: Document RZ/G2UL support
+a5cf1190fcffc4c87c5570e81e42b21553240ccf docs: networking: device drivers: can: add ctucanfd to index
+fdef82296c1f5dcdb2ad15100f55536aa9afb818 docs: networking: device drivers: can: ctucanfd: update author e-mail
+651297a47ccdc79f4c3f6ae14530b51b3ab0e627 can: ctucanfd: remove unused including <linux/version.h>
+17a8f9054346d13a8c0629fdd969dfd1b2791639 can: ctucanfd: ctucan_platform_probe(): remove unnecessary print function dev_err()
+464a26e75e1b0829bba2d96ee8e7c2fed808b53b can: ctucanfd: remove inline keyword from local static functions
+28df558e4d25926f008203826b41ec13c734ac4e can: ctucanfd: remove debug statements
+d0191039d3f1d3624538dce15127d8419e682fb3 can: ctucanfd: remove PCI module debug parameters
 
---===============8501827605713538806==--
+--===============2639541577896195875==--
