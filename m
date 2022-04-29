@@ -1,49 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============3086246226303652061=="
+Content-Type: multipart/mixed; boundary="===============4526661443879283320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Apr 2022 16:01:48 -0000
-Message-Id: <165124810882.17134.17629859135589297940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
+Date: Fri, 29 Apr 2022 16:03:58 -0000
+Message-Id: <165124823899.17964.11714143919792410595@gitolite.kernel.org>
 
---===============3086246226303652061==
+--===============4526661443879283320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
+user: bigeasy
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-linus
-    old: f09b44031b3df98cdd094b4a0c6e4227e9f95494
-    new: 3a129880c5de23427510dbc4d01ad5f0e46a37c8
+  - ref: refs/heads/linux-5.18.y-rt
+    old: 3acb83aa3fc8e213b2c3e5ac48404b46aa225134
+    new: 085b57d2188be63244998024e24dfd6b85096e1e
     log: |
-         3a129880c5de23427510dbc4d01ad5f0e46a37c8 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         02c21d684af0b94dbab4cdea9fb7a491136a5003 printk: Update the printk series.
+         085b57d2188be63244998024e24dfd6b85096e1e v5.18-rc4-rt3
          
-  - ref: refs/heads/for-next
-    old: 9d6899f3f98fcb44474f9e0452dce3f2592e0600
-    new: 180e66c028cbce98f297962db188965efc7546d7
-    log: revlist-9d6899f3f98f-180e66c028cb.txt
+  - ref: refs/heads/linux-5.18.y-rt-patches
+    old: e18f374c9f24f135a4ec660d587bfd3209bec8bb
+    new: 380fa9136bcc8baa44030164305239a0f41a6b0b
+    log: |
+         380fa9136bcc8baa44030164305239a0f41a6b0b [ANNOUNCE] v5.18-rc4-rt3
+         
+  - ref: refs/tags/v5.18-rc4-rt3
+    old: 0000000000000000000000000000000000000000
+    new: 6f9bfee75196691b5c4c7aca08e23dddf8230904
+  - ref: refs/tags/v5.18-rc4-rt3-patches
+    old: 0000000000000000000000000000000000000000
+    new: 819996c7fdef424a68f156876bd2be903df0b53c
+  - ref: refs/tags/v5.18-rc4-rt3-rebase
+    old: 0000000000000000000000000000000000000000
+    new: cc5971e43a76dc6e7db3cd6d01d0d071960f9552
 
---===============3086246226303652061==
+--===============4526661443879283320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d6899f3f98f-180e66c028cb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-61bafd1c4571ceb9cdf1830a257eac873d0b68ee ASoC: SOF: Introduce IPC dependent ops for firmware handling, loading
-d2458baa799fff377660d86323dd20a3f4deecb4 ASoC: SOF: ipc3-loader: Implement firmware parsing and loading
-2a6099a73c943130c6f864c2df9c5607d25f6b6b ASoC: SOF: ipc: Add check for fw_loader ops
-143cdcf1780eae05c33184380987d29682ac1ad6 ASoC: SOF: loader: Switch to use the fw_loader ops
-0da5f110c583551b39471ecedc3fba704c7362a5 ASoC: SOF: amd: renoir: Do not set the load_module ops
-499c55fe5f5e5c4d586777e6850f484c1ded3bb8 ASoC: SOF: imx: Do not set the load_module ops
-a22502fb61b2fdd9ba12e158590a29b6d35ae68a ASoC: SOF: Intel: bdw/byt/pci-tng: Do not set the load_module ops
-77b677d139dbf53fec02e1cfe3cc593f5a5f080a ASoC: SOF: mediatek: mt8195: Do not set the load_module ops
-910bd536d3f72d9c39e5ec08e946c11f9bcdc532 ASoC: SOF: loader: Remove snd_sof_parse_module_memcpy() as it is not used
-1dd4b999dad2d8b8fce257e4c3c3d334a709c933 ASoC: SOF: loader: Call optional query_fw_configuration on first boot
-756a615083315c9dc3b60c3b84c01427a082f1f8 ASoC: SOF: IPC Abstraction for FW loading
-3a129880c5de23427510dbc4d01ad5f0e46a37c8 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
-180e66c028cbce98f297962db188965efc7546d7 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+certificate version 0.1
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1651248217 +0200
+pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
+nonce 1651248217-41d9270809c035b277d4b2658da197e07c09a388
 
---===============3086246226303652061==--
+3acb83aa3fc8e213b2c3e5ac48404b46aa225134 085b57d2188be63244998024e24dfd6b85096e1e refs/heads/linux-5.18.y-rt
+e18f374c9f24f135a4ec660d587bfd3209bec8bb 380fa9136bcc8baa44030164305239a0f41a6b0b refs/heads/linux-5.18.y-rt-patches
+0000000000000000000000000000000000000000 6f9bfee75196691b5c4c7aca08e23dddf8230904 refs/tags/v5.18-rc4-rt3
+0000000000000000000000000000000000000000 819996c7fdef424a68f156876bd2be903df0b53c refs/tags/v5.18-rc4-rt3-patches
+0000000000000000000000000000000000000000 cc5971e43a76dc6e7db3cd6d01d0d071960f9552 refs/tags/v5.18-rc4-rt3-rebase
+-----BEGIN PGP SIGNATURE-----
+
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmJsDFkWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W35qDACG3QEYDbh+ZFS4kX+AQMEkAapd
+4cafpps656KGyJw6vQemKCNmQRToqB5VDSgJE00WdtmTn/27gY+uqFfVVqcMlfsT
+l9dyh+V9fVKWT1zQ4v+qP4giwyaYpGx0Q3gaA/b9EM97By/EHeb4xzodsCmpudeJ
+AVsgG2/veL0poyK+Xdfsn/eaeCUcnsOf6CJsPDpMYTJLxDIsGqkWiFo7wjgRUPMt
+0TlnzkRdjtGcr7Z1ibFyCvbTuPdRbmw9DRy6qKaukmjkN9k3xEPmtcZE325TBbIX
+31e6boAcMJKhTdCaLja7bcnkkuB6jNHXuj7cD+LYlGHyofex/m+kfm6XncVLxiJ8
+FkSarsDBdT/kkVIS0kr/5Rt75YFroaBM9VvZK1DT2XBcb0m0yVU1Am8kWAoOvJsB
+TKGtBuQ8FrDje6o3dNCuEXhYbUmBy96OXyIN5rBsZSGOSdl2Qlz+wD6xGNvSwtMu
+lxALGjV7+FLC2KK6XGT+7DlIc0rU+ueq6A7N6ZE=
+=vCkA
+-----END PGP SIGNATURE-----
+
+--===============4526661443879283320==--
