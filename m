@@ -1,45 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 29 Apr 2022 08:36:56 -0000
-Message-Id: <165122141653.23962.818287814980688656@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3613812345606991453=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 29 Apr 2022 08:42:53 -0000
+Message-Id: <165122177350.27649.5312273157674755886@gitolite.kernel.org>
+
+--===============3613812345606991453==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19/arm64/dt
-    old: 261a46a977c6babde207d5e979fe5cf779b067b9
-    new: 000b99e5ed1c9e33c14f3582474ae55cd739ae8d
+  - ref: refs/heads/master
+    old: b1c3b5ebf436ad7ce642cb63c5fdca6f547e93c0
+    new: 7b6ca5e775228d8b8f8d4afb9fa523f4b64c469c
     log: |
-         000b99e5ed1c9e33c14f3582474ae55cd739ae8d arm64: tegra: Add memory controller channels
+         7b6ca5e775228d8b8f8d4afb9fa523f4b64c469c 4.14-stable patches
          
-  - ref: refs/heads/for-5.19/memory
-    old: 84f6f49b9017397ab299484c5b30fca0062b4e3f
-    new: cf465bdfea7a319e636a1bc8708d0c66ccfcc8f3
-    log: |
-         fc3d13c3dba87a308dbe919f1acf5074bb4e125a memory: tegra: Add memory controller channels support
-         cf465bdfea7a319e636a1bc8708d0c66ccfcc8f3 memory: tegra: Add MC error logging on Tegra186 onward
-         
-  - ref: refs/heads/for-next
-    old: a17c2cb3035801c0b5b9c10db6032d3242ea8580
-    new: 59ac218540e9aeb0b2220dacf0791bcf5073dae2
-    log: |
-         e2ab93e59bc3c029b61a7091825f193f1a66a1a1 dt-bindings: memory: tegra: Update validation for reg and reg-names
-         fc3d13c3dba87a308dbe919f1acf5074bb4e125a memory: tegra: Add memory controller channels support
-         cf465bdfea7a319e636a1bc8708d0c66ccfcc8f3 memory: tegra: Add MC error logging on Tegra186 onward
-         000b99e5ed1c9e33c14f3582474ae55cd739ae8d arm64: tegra: Add memory controller channels
-         c3d8375c9527cb6d7897a2463ff71d598283ae00 Merge branch for-5.19/arm/core into for-next
-         2e667b1b211bf16551027b2298d644aaa9b81382 Merge branch for-5.19/soc into for-next
-         ed052bc0ae6876d61ae11674c9e5aafcf224fcae Merge branch for-5.19/dt-bindings into for-next
-         95de1dd95e7566955e72be0a75e1267fcc3b9f48 Merge branch for-5.19/memory into for-next
-         c3f13b405a9ae451535690eeb175ef98283917e0 Merge branch for-5.19/arm/defconfig into for-next
-         bd9ef95973901c3691f358ef4accd0b14164b66e Merge branch for-5.19/arm64/dt into for-next
-         59ac218540e9aeb0b2220dacf0791bcf5073dae2 Merge branch for-5.19/arm64/defconfig into for-next
-         
-  - ref: refs/heads/for-5.19/dt-bindings
-    old: 0000000000000000000000000000000000000000
-    new: e2ab93e59bc3c029b61a7091825f193f1a66a1a1
+
+--===============3613812345606991453==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651221772 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1651221769-08d881e5e3531a27dbcf305f52fbdab71c280453
+
+b1c3b5ebf436ad7ce642cb63c5fdca6f547e93c0 7b6ca5e775228d8b8f8d4afb9fa523f4b64c469c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrpQwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1rUQAJMGRBDVNXwwyKOIlWxu
+44lhm78c3Py+HeTAal18FHeBCuJs7B9t2NFGY7geJn9oO5YVWvudpXSxpdelBay6
+2gonge8E/8YXF9nIpqDKMX9xpXcCOAPLZlYJBpWbBgQCO3uKWohtdRCmzmZKmyVg
+Wq8whuV6nqcJGGid4HBQ1GB2GQsnex6x1FHfvhNLgxjzujj6pwuN+UiIsIEgcpu+
+s2Dwz87hTWS603ru0ZuBs3w70Bq1JDswaBS4a26x7VWoxsjdpmRlJMmOYiYks2qA
+Ha4vJg1cU75BRiAhjuHg5sH65VzY6f08W3rg+DVltzzswNOv7p1RpgQn5uHxTl+p
+8c0TEor3pAlCFhTpQoAPhGjmfdaelwFodO7BACol/JQWCba1UxX2qu70aJECdM7n
+ULLa33fMgi2qmZo3Kzhp1zBWF4BuzCKv0BGMe0PeOgz6dNnnygOdVtNHCnVTEkzN
+iBMK0ZahEPkw2Ta0UtmxX/FPTgVKeKI7ZuqPlprDK58U1Ey7yS+z5XlVnKEXye3S
+aZy2duv4ldT/l0BWF/wXZPGycX4GbXPi2J4e6/P4ERgk35+Up0eiV30B1C/GnHIW
+ZTo156EIlyQPXH73/xHGnomiWc9ZBYcJuOI9F6gUwHD7pO+mBHgjt6Ez03WT0CIk
+cKT8ErPqSHyc4XqUw9e2903E
+=ZPSU
+-----END PGP SIGNATURE-----
+
+--===============3613812345606991453==--
