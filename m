@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3148664560236693191=="
+Content-Type: multipart/mixed; boundary="===============9193584103362162491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Fri, 29 Apr 2022 13:41:44 -0000
-Message-Id: <165123970445.20132.11803129886217967450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 29 Apr 2022 13:50:38 -0000
+Message-Id: <165124023898.27318.13538413140587988093@gitolite.kernel.org>
 
---===============3148664560236693191==
+--===============9193584103362162491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/has_ioport_rfc_v2
-    old: 423962b476b26a08352175f01cf3874e0d8e8e7e
-    new: 1f31526418497b5bc303ae522487025d8862ee02
-    log: revlist-423962b476b2-1f3152641849.txt
+  - ref: refs/heads/driver-core-testing
+    old: 4388f887b857de8576a8bf7fefc1202dc7dd10df
+    new: cebdc5349fba7ba9a76a756d35997d010cd1aac2
+    log: |
+         cebdc5349fba7ba9a76a756d35997d010cd1aac2 firmware: edd: Remove redundant condition
+         
 
---===============3148664560236693191==
+--===============9193584103362162491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-423962b476b2-1f3152641849.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c2aa7a6f18d4cc418783c826191bbcb20b1ec30a net: add HAS_IOPORT dependencies
-926b54cf7600b12c1d72d18b080134f5df270f13 parport: PC style parport depends on HAS_IOPORT
-dd9372f4c0cdb7d45a06d830a0295a3508efe104 PCI: make quirk using inw() depend on HAS_IOPORT
-a15caa6505ba9c9046def7374ac6061a10003897 PCI/sysfs: make I/O resource depend on HAS_IOPORT
-db8aa1a98070797b5e776794988737d58304b2b0 pcmcia: add HAS_IOPORT dependencies
-23d733bd5ca71a36bd8a09557fa9ee273f61681d platform: add HAS_IOPORT dependencies
-f76d9800152dcc42ad8bbb6bcc115cafd9cd6719 pnp: add HAS_IOPORT dependencies
-46fc4d4e0a12f8e0603d73cec8985210baab578e power: add HAS_IOPORT dependencies
-76d229ebef485d6a9889838e4c8a57bdb5a05d64 rtc: add HAS_IOPORT dependencies
-2bc7c4921bfc842f1dde4ec81cc7bc5be3d07d4a scsi: add HAS_IOPORT dependencies
-46a63846de30f003a14e82af054d32d179597f20 sound: add HAS_IOPORT dependencies
-7bc4423bc7fdca53936291227d36c15a2e00449e speakup: add HAS_IOPORT dependency for SPEAKUP_SERIALIO
-dc172246736da1d6639e56dd62a8dcf71e58af7d staging: add HAS_IOPORT dependencies
-9146acdaa5bef4ff7137b9d02d8e8ce8f26702bb tty: serial: add HAS_IOPORT dependencies
-d9d6d8d24bde358ca07318011a7a33b5bc599d61 usb: handle HAS_IOPORT dependencies
-f3974e404718824f00cd06f76e494710e08a4d4e video: handle HAS_IOPORT dependencies
-5fd88bb456b3f133c8128eae9163c3b0830489bc watchdog: add HAS_IOPORT dependencies
-4213bb43a147692696b3ce5d442608aa3a68b3bb wireless: add HAS_IOPORT dependencies
-2b6583a49ba3b33dbc532605fee33b2e1d73fbfc asm-generic/io.h: drop inb() etc for HAS_IOPORT=n
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651240237 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1651240234-4054df9e51d1d500fae01d09b516a6aa15ff6f39
 
---===============3148664560236693191==--
+4388f887b857de8576a8bf7fefc1202dc7dd10df cebdc5349fba7ba9a76a756d35997d010cd1aac2 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJr7S0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W1IP/2dkLjd8a2BxzEqx0kqb
+M5CWHd/f6FglKSt6gTadxhJ1zCNkzVrj+sUWexmoprtzp9+PPLE6B/z9QjAA7Hpt
+0lnXdHue11E/OiQpQ243nn0wu7kPVIah12SDBV6pnnPEh983+ongULw28zMuqQSL
+mOPQEN+Ju/tUTI1ocbsW3l3a9k8t6T/E+1D/cVZqAfaUKQhHCgHc6BjsAjJoPF+K
+ea2nSjqPVAjSF9GiYbtGZT389QQvW3lYcBpFTnPUWULWwSGsochvMZDnJCgWJs6D
+cNoF27Zyf7sYUfgQrCPPuDVgDX8QKTdeRnZw9aaZZ1M6UmvZDzxBzbmsJl2q8a9a
+AH5aGf6NMoE46u+9est6p6MRxvAsUTAohjEwKYB4xVdv5u/CqxfvQg1EvSo2FZ61
+g8b9vxeGAHf+TZVslplmNX9czxL0bcjrZBF1xEyy6eDqnP9lESnCEcyz0ZlQwIOX
+IXt/IfxUthOCVVvdLIABHp4pFpjGZfwuvGpg6ZJpMJDQyPTb6D4Z545HNg6/n3YN
+nha8ajEaYTc6WJRVYETL8rkaq7kH8YKnjAki3YwnAW2gw5nnMhsC8B0fmd0qJuK9
+Op8dGWH1nkNCRcRxa/P5XNX7NUpgOxYJ98wyka1naHpeJGfTMyBYl0t27XE6nSH/
+lMhB4U+9n87MWo5Qznmln1uC
+=jvh2
+-----END PGP SIGNATURE-----
+
+--===============9193584103362162491==--
