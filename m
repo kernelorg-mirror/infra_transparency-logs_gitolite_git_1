@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 29 Apr 2022 15:50:04 -0000
-Message-Id: <165124740435.10260.6719025540877636164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 29 Apr 2022 15:57:02 -0000
+Message-Id: <165124782280.13922.16057174906969574824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/for-5.19/io_uring-pbuf
-    old: 4db3d328cb42ba7ccf120c8fe3b47ade5ff3b62e
-    new: 63d3cf1d18a08786b17fbdb88d59a12e0cf59a0b
+  - ref: refs/heads/for-next
+    old: 2e26a810b679803c3a61b7b77f7b96879a4df521
+    new: 0f07cbb92a28894a58fb70fc49e37de8e855eda8
     log: |
-         0620d2bc3327c8404cb7adace8b31d6c3f0a7269 io_uring: kill io_rw_buffer_select() wrapper
-         21ebebee0926df349995943cf0a2ac36489027e4 io_uring: ignore ->buf_index if REQ_F_BUFFER_SELECT isn't set
-         12735e66d2a44703b15cc9a96742d166f4bbb4af io_uring: always use req->buf_index for the provided buffer group
-         71c6e1e62629558fb1318eff91fa75ee83b1a4f3 io_uring: cache last io_buffer_list lookup
-         c6cd3faf9cb7203a240a6589fe846c7eb8c37cec io_uring: add buffer selection support to IORING_OP_NOP
-         7c1c6ecf8baf4cad95100dc6c1a265b7291a011e io_uring: add io_pin_pages() helper
-         94fdec4fa2c480acf22080e4af46c96abc44fe94 io_uring: abstract out provided buffer list selection
-         9ec23caceb8ddb4a4ecf1609660854df55e39680 io_uring: relocate io_buffer_get_list()
-         63d3cf1d18a08786b17fbdb88d59a12e0cf59a0b io_uring: add support for ring mapped supplied buffers
+         83521a998688846f35011811ab87549ebc81782a nvmem: qfprom: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
+         76ce7cf6d1f4d7fa4d1af432942bcbc8885f1b56 nvmem: brcm_nvram: check for allocation failure
+         caed313c30888b9cfffad6ddcee0a070658818c2 dt-bindings: nvmem: sfp: Fix typo
+         6f388d90a88027f18e0cb74b6a7b423a79cf315a dt-bindings: nvmem: sfp: Add clock properties
+         940d21f52783c376318fb4199416ee03a52a7459 dt-bindings: nvmem: sfp: Add TA_PROG_SFP supply
+         114321c4e0a424a3e4ba88452f91a28a3b71f022 dt-bindings: nvmem: sfp: Add compatible binding for TA 2.1 SFPs
+         61425af24528e2a8ff19069e6c00f057e8cef411 nvmem: sfp: Use regmap
+         0f07cbb92a28894a58fb70fc49e37de8e855eda8 nvmem: sfp: Add support for TA 2.1 devices
          
