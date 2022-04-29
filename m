@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1407045108302137322=="
+Content-Type: multipart/mixed; boundary="===============7098935431567891142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Apr 2022 17:38:42 -0000
-Message-Id: <165125392239.15374.9553518511647737133@gitolite.kernel.org>
+Date: Fri, 29 Apr 2022 17:38:52 -0000
+Message-Id: <165125393204.15476.51581437043722799@gitolite.kernel.org>
 
---===============1407045108302137322==
+--===============7098935431567891142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 561215482cc69d1c758944d4463b3d5d96d37bd1
-    new: 17d49e6e8012a9e30f8aab7af82f6a14ca25afaf
-    log: revlist-561215482cc6-17d49e6e8012.txt
+  - ref: refs/heads/mlx5-queue
+    old: 1d1cbd7d042c43af50770abb5b865af3ddfecf03
+    new: 965015c3d30c8221e663db9df88a5184b6091ec9
+    log: revlist-1d1cbd7d042c-965015c3d30c.txt
 
---===============1407045108302137322==
+--===============7098935431567891142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-561215482cc6-17d49e6e8012.txt
+Content-Disposition: attachment; filename=revlist-1d1cbd7d042c-965015c3d30c.txt
 
 be5985b3dbce5ba2af3c8b0f2b7df235c93907e6 cpufreq: qcom-hw: drop affinity hint before freeing the IRQ
 5e4f009da6be563984ba4db4ef4f32529e9aeb90 cpufreq: qcom-hw: fix the race between LMH worker and cpuhp
@@ -540,5 +540,22 @@ bbbe6ecbc36d55e0ac49251f52f3ccffa51ec32a eth: gfar: remove a copy of the NAPI_PO
 e9c6ec6510301285647d0a1357ce49ab07ccd4ef eth: velocity: remove a copy of the NAPI_POLL_WEIGHT define
 4bb0c7f09a1962330e9edf5dd6cfe44113aeee45 qeth: remove a copy of the NAPI_POLL_WEIGHT define
 17d49e6e8012a9e30f8aab7af82f6a14ca25afaf Merge branch 'remove-NAPI_POLL_WEIGHT-copies'
+602865efe2edae922579a68d8c66cbb0c1e3840f Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+187076591bc869001940c8a793a782b6877bad68 Revert "net: openvswitch: remove unneeded semicolon"
+f40344e64791b84e319fce1a8dc21ac5fd02ff02 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+a584303c55b74335a09f9c2de5677df7cf59692a net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+c3a87b4b109152ea52f100eabea5285d83dc2e88 net/mlx5: use kvfree() for kvzalloc() in mlx5_ct_fs_smfs_matcher_create
+fcd3c5a5224b0ea8e93749b2df5ebf9c08591053 net/mlx5: Remove useless kfree
+7989dc9e043d7879fa531ef63920ccdbde0c4e98 net/mlx5e: Report header-data split state through ethtool
+0a8c76ddd00761175c9efd9f107c1e5bffae692f net: Disable LRO feature if no RXCSUM
+2cef56e6896304dce1b78f06cbf16dfb8b58fb55 net/mlx5: Delete redundant default assignment of runtime devlink params
+c03ac6967816f3757e46c40803875e5cd27e3511 net/mlx5e: Drop error CQE handling from the XSK RX handler
+e1510e6a679d342bef3b8397bfe02eb7be300c2a net/mlx5: Print initializing field in case of timeout
+7fc6f83e671a233692ff69ae207c495967e56b25 net/mlx5e: Remove unused mlx5e_dcbnl_build_rep_netdev function
+a2f72f0a7a99dd0a7902e77b302664499ed3f330 Merge branch 'patchq/393730' into mlx5-queue
+fb7a31fc037f72b90d75c644a308246ba7625639 Merge branch 'patchq/444162' into mlx5-queue
+efb1de5399422ff8b1a600fbb42f882df4642bf2 Merge branch 'patchq/467532' into mlx5-queue
+ed8ad74cc97d6c7464d9570ff79811b0ef526cff Merge branch 'patchq/489815' into mlx5-queue
+965015c3d30c8221e663db9df88a5184b6091ec9 Merge branch 'patchq/491823' into mlx5-queue
 
---===============1407045108302137322==--
+--===============7098935431567891142==--
