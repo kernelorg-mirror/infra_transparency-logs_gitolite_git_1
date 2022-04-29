@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4099532815806454768=="
+Content-Type: multipart/mixed; boundary="===============5686207841933315076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 29 Apr 2022 10:40:25 -0000
-Message-Id: <165122882519.28043.14011023853823222263@gitolite.kernel.org>
+Date: Fri, 29 Apr 2022 10:40:27 -0000
+Message-Id: <165122882785.28153.3412639206558618956@gitolite.kernel.org>
 
---===============4099532815806454768==
+--===============5686207841933315076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,43 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 483123bb4e3cba0a1bbb866abaffdc88076f0e00
-    new: 9a49683852f18727d50381b110364c4fe683ff53
+  - ref: refs/heads/linux-5.10.y
+    old: 9fca1f942bc8ea78a886f6d88b923389368ac762
+    new: 454c6fe7ba641c1018c5114e6f40128263a934ca
     log: |
-         643aa2e28a49d857ff2cb35281fb3826a285d05e floppy: disable FDRAWCMD by default
-         1d68d5376d4a9c04559911b02eb884dd2fb521dd Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-         77c9c8763113d6fb85cb3093fc2715291dcd7986 lightnvm: disable the subsystem
-         9a49683852f18727d50381b110364c4fe683ff53 Linux 4.9.313-rc1
+         755ea65cebebd431b89a514bfd6a762a8605cbe8 floppy: disable FDRAWCMD by default
+         7d77bcf37064379edfeb71a98a68783ce1739f2d lightnvm: disable the subsystem
+         454c6fe7ba641c1018c5114e6f40128263a934ca Linux 5.10.114-rc1
          
 
---===============4099532815806454768==
+--===============5686207841933315076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651228824 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651228827 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1651228822-c0f7c8b6eeb14be1225db0c22c35bd07bf25f181
+nonce 1651228824-9b2f805025c5b45eadc2901d3351202a752e0039
 
-483123bb4e3cba0a1bbb866abaffdc88076f0e00 9a49683852f18727d50381b110364c4fe683ff53 refs/heads/linux-4.9.y
+9fca1f942bc8ea78a886f6d88b923389368ac762 454c6fe7ba641c1018c5114e6f40128263a934ca refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrwJgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mksP/jBZ68p2U5TjWCV5+3b8
-XVBcRPnbLqSqg+N8V0scjpr+bSlRkrdWBGM1nVraPfSsuZHH2ucs+leU136Chw8o
-2YRzxH3wk2UruGQZ9p50uaECA8W/fOS6ystxDKKI0F4Dw6yQ4+TKMkSRqJ3OAjWF
-Cgna7xz8Lp12pTTmzH2xQdeyu7b8FowE9PIyJxDeLESw1h7i4zGP4MR2ivCpn50p
-MGpeLjXlFNzFX0U3ARx61Y98PfW3SpK/U6wtTNsrqmUiR9kglxdq0+thcxLOUTc2
-QDntluebhxX4a25Iy4mk1XcZ0j5/VhTfxZDYlmhN6w5Z0bJX3l5VjwaEom/PsEG1
-LWsZm6ruP8I2fmEO8qpW54gIHwhox+fL/4syc2HQI4jhMglTaITowko2SIwF7R3F
-sBGufsVs4AqMZRj1CeZM14XB8oO0B8+yZvP8Lituosy6o2WFtwpnhE5BiJmfTr4i
-BgacGLa6QaNEibegEy0okU4jc2sg8w3llcSxOLad67LI7Fk6DjsMnNM18CyoOkY7
-Bl93iDC9Y2x+La33WqWEirVANxZtR+9uDRtJ3zvIXVYy48obK9VnIoS9CmrlKfxI
-KeKV7wShkzEOpMi0PTxDawaYTGRWHfgI1O2CajI5krA9+8z6XyWj4k/QYUqolHXn
-s2efM+37ZlnJrX4ih6nif+j9
-=JhjF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrwJsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bB8P/jA6gfET6DhpoS9pEPtX
+Q+kEr7baR3Eu5JFDOWUEGN3WUghkUsfxaXpVinVHYTmF5xN776/kNVcTn6T05pxm
+E/BlV7cRw45KjxHt5R5PegYqpqEhQ57PqzEt3DUYsNfxGvfkmpwn1ZVztPwCtpY8
+MDT6G/21a3lYwFbWAxJ8yn943niw67kFkyJZOV7CLtRzCelY5ah5RTyIEzbQSRPM
+K4aZynJWhsCdJ0qQP2auxJyl6nWAPAPg0EBT9mQ9vNJx0KkfA5aqdI+mnjAfwAiv
+kB8U1Uy+gp8b/eBPSZZHg/FBKJQKG38z9Z2e5BnhVWCRgbKY0gxlFYEuMqV/JJ5z
+m1TzSP+i/O4Bjcyo7QyPQLhj6bzvrvHbKfsM9I9Pa6kqrDC8kRlfCVUmSDhrlNLl
+3d+zWMOvnv1xDxjKjYxTqVpl+UrfBHXnThT5RIwDUd+nCr6a2tiWRBGO5S9hskzw
+m0cDp//dPnpreXnINnQAASr3tqHIywbiWqRUqfeV2SR/vWcPf/PQsUBqlVeSYRzd
+JJXSGxljLmBDxGq5OzjpCWHSRaXK+6NPnpM60AARt0/dPJqLdlOJZgXn06sQoMi9
+fXCRC0pyZ3r7ecwwDxbv4eB4LWsbrf8WcG+KtTHyrETFPLxbkb5BzjLnGLP0GNmX
+85NCFWhpyfUbkK6+IfTltKqu
+=mWpw
 -----END PGP SIGNATURE-----
 
---===============4099532815806454768==--
+--===============5686207841933315076==--
