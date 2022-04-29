@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 29 Apr 2022 14:07:25 -0000
-Message-Id: <165124124566.4812.14898419634811262616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 29 Apr 2022 14:17:39 -0000
+Message-Id: <165124185924.12303.9227151939066704141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/v5.18-next/dts64
-    old: 7aef5f8aa9690e3eaa2c8039d0e6617bd6ee3b2d
-    new: 7d3c600448a7233976dfd6f1bcf00bb0daa31109
+  - ref: refs/heads/ath12k-bringup
+    old: 444199a9f89e574f35972a5e9da21faf65c4ca3a
+    new: a3fed8cf2d9f4e4a213e0d471d74d5e892befba2
     log: |
-         1972a672bc6f2e8ca17f67422f3b27ef8bec018b arm64: dts: mt7622: specify the L2 cache topology
-         8152bc357ca46bd1249feb982bae8bf341904dfe arm64: dts: mediatek: mt8183-pumpkin: fix bad thermistor node name
-         4b049d7f1c6515daaded91697cd858401b00086f arm64: dts: mediatek: mt8195-demo: Remove input-name property
-         39f0daabb283c0d5f2cb144d04bf7ede18de7fa1 arm64: dts: mediatek: mt8195-demo: enable uart1
-         7d3c600448a7233976dfd6f1bcf00bb0daa31109 arm64: dts: mediatek: add mtk-snfi for mt7622
+         1634b7e6581b6208670ce0c058cb80d3689cde19 ath12k: fix implicit conversion from enum hal_rx_mon_status
+         a3fed8cf2d9f4e4a213e0d471d74d5e892befba2 ath12k: remove A-MSDU related comment
          
