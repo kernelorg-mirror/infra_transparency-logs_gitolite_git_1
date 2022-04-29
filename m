@@ -1,62 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 29 Apr 2022 08:46:27 -0000
-Message-Id: <165122198793.31612.7709576611993444948@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2006628868817458965=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 29 Apr 2022 08:57:11 -0000
+Message-Id: <165122263143.5507.3352166308573161781@gitolite.kernel.org>
+
+--===============2006628868817458965==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 81d9b131d6cb0e6f34d183a12e56fc1ce53dd462
-    new: ac08cb015af85dad1f82985b273efe43521ad667
+  - ref: refs/heads/master
+    old: df82f274d3eb3b20f4e4fe8b03d432693f9dd10a
+    new: 91bbbfc8cc7d2fd133a7349456ef8f3c6e238bc6
     log: |
-         8150124a0e4e7f13cfc79746e5d41c74bbf52e65 floppy: disable FDRAWCMD by default
-         85f9f81b023065239eda073dddf75e29ef7e91e7 hamradio: defer 6pack kfree after unregister_netdev
-         ac08cb015af85dad1f82985b273efe43521ad667 hamradio: remove needs_free_netdev to avoid UAF
+         91bbbfc8cc7d2fd133a7349456ef8f3c6e238bc6 4.14-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 83434ae19ff0bc8a38653b015fd2d2e4aa006bb0
-    new: b535ea41cc27b5c7897d314e7b4bf7ae6aa5ab21
-    log: |
-         b6a0977b2e215753aec1d6a98d6e9a29198b43f2 media: vicodec: upon release, call m2m release before freeing ctrl handler
-         9cba05e2bf27b93fba9d0df030e3aa56cab097e3 floppy: disable FDRAWCMD by default
-         a562fef60e319f6bde5343b06bf34d521c040add hamradio: defer 6pack kfree after unregister_netdev
-         b535ea41cc27b5c7897d314e7b4bf7ae6aa5ab21 hamradio: remove needs_free_netdev to avoid UAF
-         
-  - ref: refs/heads/queue/4.9
-    old: 43e393a114bd1dbdbaf0889ca93677fe3c779263
-    new: 16b3eacc50755baf718d868da847f744a077a8e1
-    log: |
-         16b3eacc50755baf718d868da847f744a077a8e1 floppy: disable FDRAWCMD by default
-         
-  - ref: refs/heads/queue/5.10
-    old: b17d6612542ce90b6ee71a4a9fbb00490864a1fa
-    new: facf7a50c254a0f270d54f1c48d7508468818693
-    log: |
-         facf7a50c254a0f270d54f1c48d7508468818693 floppy: disable FDRAWCMD by default
-         
-  - ref: refs/heads/queue/5.15
-    old: 89067ab34340e8fdc2b013bce6c2025aa703b829
-    new: 1c064163277ae4cc64a4224f651e6880fc64831d
-    log: |
-         1c064163277ae4cc64a4224f651e6880fc64831d floppy: disable FDRAWCMD by default
-         
-  - ref: refs/heads/queue/5.17
-    old: 7114c675b252fc0376a1d4e8b014371d6088a90f
-    new: 99c6d3ca5e09a67242040017aa5eb13e1bd2a5f9
-    log: |
-         99c6d3ca5e09a67242040017aa5eb13e1bd2a5f9 floppy: disable FDRAWCMD by default
-         
-  - ref: refs/heads/queue/5.4
-    old: 1cb61d42e2a39b39b53dcdbfbbf30dc75e7e261a
-    new: d5b3898be5dd30891da936c071cbc029e26945f5
-    log: |
-         4f66cb8ad5b38351ab640765a64c3cf1dded3319 floppy: disable FDRAWCMD by default
-         39908aab72d334b425433dd47037c8846900d2f9 hamradio: defer 6pack kfree after unregister_netdev
-         d5b3898be5dd30891da936c071cbc029e26945f5 hamradio: remove needs_free_netdev to avoid UAF
-         
+
+--===============2006628868817458965==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651222630 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1651222629-a10df182cd7d9332e955d45520c62be69b478c22
+
+df82f274d3eb3b20f4e4fe8b03d432693f9dd10a 91bbbfc8cc7d2fd133a7349456ef8f3c6e238bc6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrqGYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RUUP/in6tOitIrPg0a+KupSf
+H4LzJMWrnWkG7iOEg5pxvhgoO3ktIHKlXsjHMH8RnuBef66LpUmXn9zUT8e4bXcg
+7CAjwgM4xa3N0iF0MqNUH9AIjkUMD5ivRxspuO9brG5DY4trdytSojeWT7I8TzRy
+U5B/IER/i4Wy0GoQFsufN+Fv+NSuPhURNb85F+mnN/Cvj8F911zk4zNskdhQbJeU
+i2dpvZXT4MbUg6LXT9sGXzr59aZv/RkX4SFPZTU4T6a5YAjOZCtphCBqUDT1oMQ5
+BFSnLKfnFLTDpTGe8j6vUPAWEo/KoLEGABdDo7fjc/CMhAihHWEiGditdsG/+ZDX
+M6uowy7xvcoyZYl+qk4nudPqA7FbP3ZqZZyKba6cDvx+AzGVjYqybi7bJ7Sga9my
+RyYlFxdV0MziV2NBn3AuA/t+hqVx36MQtDeZMkzz8dLjZprPwkAcQGEcldjU4BaE
+3S2CgcTrAxnEJB1NR45iypG6RVobvu0PeLyBkrBHQ9GDn6euA/kMcyAwqGLPxWvN
+1ms6pXi1xadFjfvpB0pNvtlVSH4WIjbibOfQagfqlzcpTROicqGhO/fR4ohxvdrz
+Qzjx183go7hmxj3XgAtNE3YpLnC+i0xSGzt+E+TU4NDOSZe59Cb1KEiXCxlQ1aVA
+ez5xWWWQ6p04SA5XS4ua+9w+
+=MEOC
+-----END PGP SIGNATURE-----
+
+--===============2006628868817458965==--
