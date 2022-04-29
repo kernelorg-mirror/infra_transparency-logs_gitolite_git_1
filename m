@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 29 Apr 2022 11:57:49 -0000
-Message-Id: <165123346902.14932.7535711405156722228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Fri, 29 Apr 2022 12:04:01 -0000
+Message-Id: <165123384188.18528.1339216234426759390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/v5.18-next/dts64
-    old: cf11eccbf44d24cc7f8d16fbbf59afeff99e73bf
-    new: 7aef5f8aa9690e3eaa2c8039d0e6617bd6ee3b2d
+  - ref: refs/heads/stable
+    old: 1c7bdfbc30e023312f9a2efd28d3e84577005a37
+    new: 72bacb4c68de3639addb6ebf8c1ef443c06f6187
     log: |
-         7aef5f8aa9690e3eaa2c8039d0e6617bd6ee3b2d arm64: dts: mt7622: specify the number of DMA requests
+         72bacb4c68de3639addb6ebf8c1ef443c06f6187 wireguard: selftests: restore support for ccache
          
