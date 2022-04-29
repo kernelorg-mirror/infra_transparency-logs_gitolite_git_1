@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2636700312154911883=="
+Content-Type: multipart/mixed; boundary="===============3461664466060397130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 29 Apr 2022 14:18:29 -0000
-Message-Id: <165124190998.12680.13640224207058413274@gitolite.kernel.org>
+Date: Fri, 29 Apr 2022 14:18:38 -0000
+Message-Id: <165124191865.12776.13097361978544045870@gitolite.kernel.org>
 
---===============2636700312154911883==
+--===============3461664466060397130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfsprogs-dev
 user: sandeen
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: 19ee1446915252927011c8f4eee06b9be0536ab2
     new: f88fad889e59f8b10cfc196748a9b7aa9d088289
     log: revlist-19ee14469152-f88fad889e59.txt
 
---===============2636700312154911883==
+--===============3461664466060397130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ c967ee0a69cdcc2c252eb29236a7b5980f1b7886 xfs: kill XFS_BTREE_MAXLEVELS
 d24312763362ad4484793764c4736bf855157a8b xfs: Fix the free logic of state in xfs_attr_node_hasname
 f88fad889e59f8b10cfc196748a9b7aa9d088289 xfsprogs: Release v5.16.0-rc0
 
---===============2636700312154911883==--
+--===============3461664466060397130==--
