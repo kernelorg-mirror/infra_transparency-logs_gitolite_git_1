@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 29 Apr 2022 02:23:47 -0000
-Message-Id: <165119902761.8231.3745837103143301335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 29 Apr 2022 03:09:28 -0000
+Message-Id: <165120176879.5548.8143386081309056380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/mm-everything
-    old: 0000000000000000000000000000000000000000
-    new: 2f2a9cf505a6fcaac28e1b2268859919f26d15d7
-  - ref: refs/heads/mm-hotfixes-unstable
-    old: 0000000000000000000000000000000000000000
-    new: da37acb540ecf694317a1eca3d9a92053b0be032
-  - ref: refs/heads/mm-nonmm-stable
-    old: 0000000000000000000000000000000000000000
-    new: ffa7f3a113b2b59faf36e00d9da1f966e0690611
-  - ref: refs/heads/mm-nonmm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: 2f2a9cf505a6fcaac28e1b2268859919f26d15d7
-  - ref: refs/heads/mm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: 102803b49f5a4f7a7daeb4903e0c27cb7365472c
+  - ref: refs/heads/master
+    old: 32c03c4954a03d46f603f94acac9d2705bd5c9c6
+    new: a2c70dbc3407b99e716a362be2df3ed9bbed1d35
+    log: |
+         b198881d4b4c22c499168421b44eff3913a22fb1 libbpf: Append "..." in fixed up log if CO-RE spec is truncated
+         69721203b1f3f9d123ae0f81bbf41f9a85185859 libbpf: Use libbpf_mem_ensure() when allocating new map
+         ec41817b4af5114825621fe9b31cb861480f6cd7 libbpf: Allow to opt-out from creating BPF maps
+         68964e155677ab6eca21784a248b8e65fb745660 selftests/bpf: Test bpf_map__set_autocreate() and related log fixup logic
+         a2c70dbc3407b99e716a362be2df3ed9bbed1d35 Merge branch 'libbpf: allow to opt-out from BPF map creation'
+         
