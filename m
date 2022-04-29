@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7739705947060693017=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 29 Apr 2022 13:38:50 -0000
-Message-Id: <165123953085.17327.15453594055139360951@gitolite.kernel.org>
-
---===============7739705947060693017==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 29 Apr 2022 13:39:04 -0000
+Message-Id: <165123954470.17486.1574472874706759207@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.19
-    old: e8858ba89ca377064da130d09648c99683f8bd90
-    new: dc6d04619e62825083926929d88c94c5b6b42670
+  - ref: refs/heads/for-linus
+    old: abacd5757270767e99dc2d4fad6a423728a979de
+    new: 215a60398b851bb55c48fa4032a901f5ae30101c
     log: |
-         dc6d04619e62825083926929d88c94c5b6b42670 regulator: sm5703: Correct reference to the common regulator schema
+         215a60398b851bb55c48fa4032a901f5ae30101c Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
          
-
---===============7739705947060693017==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1651239529 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1651239529-72349c7e0b05c9d82aff9758498bda0fc65edee0
-
-e8858ba89ca377064da130d09648c99683f8bd90 dc6d04619e62825083926929d88c94c5b6b42670 refs/heads/regulator-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJr6mkACgkQJNaLcl1U
-h9CgBwf/Res2r0RQAZYPv+A07D7IOOouYh2SSNkUt26LxEjzMgGNTsTXQNnC98/M
-O9bAgBZDzi6VMZW34CiGArWwKFOK7MBfdBFgonGToaf0K6ddDU8dN20vTP+8dwrI
-TxTtllhELmKredEt+YRlw/YnKGgic/FYx8j8gb37i5hoNycuw8fR54Mg9MxFg3oe
-Su2iSjV08+18bpLh6JIffi7kEUQBnGt/0dgRTKUmqAHQRB1JqDT2udwfUbS8jVGH
-szGzP40RZAPRA0LVQtPt9czYrgHaVsoK4DBDoenVm5J6Bm49tDjnLyRJ1n+bejl/
-CdjDJspdBiMSlIWle8AqZn1y4nJZxw==
-=fDzr
------END PGP SIGNATURE-----
-
---===============7739705947060693017==--
+  - ref: refs/heads/for-next
+    old: 24358b70043b8340cc109a9500d81ac200b25a55
+    new: a3e5b4d1219c072ce724763dc7f21350e4076f10
+    log: |
+         bdc8cd505b5312c3b26f13f0b6a567d97d55e715 ASoC: SOF: sof-pci-dev: fix missing pci_release_regions() on error in sof_pci_probe()
+         215a60398b851bb55c48fa4032a901f5ae30101c Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         a3e5b4d1219c072ce724763dc7f21350e4076f10 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+         
