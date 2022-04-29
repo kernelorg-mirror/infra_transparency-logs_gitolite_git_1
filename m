@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============7218711578543384046=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 29 Apr 2022 10:35:34 -0000
-Message-Id: <165122853443.24801.11347667031263721268@gitolite.kernel.org>
-
---===============7218711578543384046==
-Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 29 Apr 2022 10:36:38 -0000
+Message-Id: <165122859851.25179.2546877469212330838@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,28 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/renesas-arm-dt-for-v5.19
-    old: bbc8066978635a47fc5f01562542ecb229fd87c4
-    new: 45aacfac1f0928cb03ae2666ef413229d5d89b20
-    log: revlist-bbc806697863-45aacfac1f09.txt
-
---===============7218711578543384046==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbc806697863-45aacfac1f09.txt
-
-90715507cb899df6c726494c0225d30130ad0cc5 dt-bindings: power: Add r8a779g0 SYSC power domain definitions
-f2afa78d5a0c0b0b2461a5c532d7a84214a1b633 dt-bindings: clock: Add r8a779g0 CPG Core Clock Definitions
-b0fa698b834f0f8b4a0c9c5c086d88787f1124a0 arm64: dts: renesas: rzg2ul-smarc: Enable i2c{0,1} and wm8978
-820e976909c2b286d1ef259ea524979540475ba6 arm64: dts: renesas: rzg2ul-smarc: Enable CANFD
-0b3e18dbcdf6ec80d22d76d4c8099968704f7cf9 arm64: dts: renesas: rzg2ul-smarc-som: Enable OSTM
-3f67af66e65baf88da482b6327c53c742b949d15 arm64: dts: renesas: rzg2ul-smarc-som: Enable watchdog
-a4744a1de601e86d2c78cb8c5a1c40d25117a97d Merge tag 'renesas-r8a779g0-dt-binding-defs-tag' into renesas-arm-dt-for-v5.19
-b3735fb31397d2b22524e4c27bd235cb69b542cb arm64: dts: renesas: Add Renesas R8A779G0 SoC support
-db5b41260035b9ac851af4bf0da43eb733c9f960 arm64: dts: renesas: Add Renesas White Hawk boards support
-01214672bf35a34f1eb13e79960a32addb35d9d8 arm64: dts: renesas: rzg2l-smarc: Move ssi0 and cpu sound_dai nodes from common dtsi
-9b3c59a29c2bbb0f0f8cedd8e447f0520e08517a arm64: dts: renesas: rzg2ul-smarc: Enable Audio
-45aacfac1f0928cb03ae2666ef413229d5d89b20 arm64: dts: renesas: rzg2ul-smarc: Enable USB2.0 support
-
---===============7218711578543384046==--
+  - ref: refs/tags/renesas-devel-2022-04-29-v5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 47cfa0a0494dbd7653e5bed379f408e3f95ea7de
+  - ref: refs/tags/renesas-next-2022-04-29-v5.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 03de549672b2a507e09c0c1b3d67eb85165e76dd
