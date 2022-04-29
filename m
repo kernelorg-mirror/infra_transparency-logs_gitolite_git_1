@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6764931178512740291=="
+Content-Type: multipart/mixed; boundary="===============5914420804667699668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 29 Apr 2022 09:39:50 -0000
-Message-Id: <165122519038.16578.8066211120453496885@gitolite.kernel.org>
+Message-Id: <165122519050.16742.4642488670087663117@gitolite.kernel.org>
 
---===============6764931178512740291==
+--===============5914420804667699668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,20 +16,18 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: e3a56aaade89bc89f33baec11b12538fc22536e2
-    new: f6a054fe8d6dd0aece9d141651243c8d6c073d60
+  - ref: refs/heads/linux-5.4.y
+    old: 4426e6017f73bbbd65270965ecc11b6b3ff4af4d
+    new: 23f0993b46fa3de0196c043860a9f22591378e3c
     log: |
-         f0570c300c9fa8a8063cd26fcd3ab4a3ef65229d floppy: disable FDRAWCMD by default
-         c76f103380c7c8053934d82985152988c9791007 hamradio: defer 6pack kfree after unregister_netdev
-         b39663cf0fd522fa513b71ef7be11e42153bf756 hamradio: remove needs_free_netdev to avoid UAF
-         55c9f1990327523ea4ac99556c425db701942e81 net/sched: cls_u32: fix netns refcount changes in u32_change()
-         594608810f8d5977a51ba6d81b770fb7b7b6a35e Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-         fad5181fefeefd0df1e3880ec8326d23627fb4b8 lightnvm: disable the subsystem
-         f6a054fe8d6dd0aece9d141651243c8d6c073d60 Linux 4.14.278-rc1
+         f322fda89f584e1ee2745757b0439f5342b5ec71 floppy: disable FDRAWCMD by default
+         15dd7cc870813a68570e85b6c61146d5d0de9a25 hamradio: defer 6pack kfree after unregister_netdev
+         c2146719e891b0332e15a82e60899434c647ecb8 hamradio: remove needs_free_netdev to avoid UAF
+         b54dafe27f4078bd30f0e462b3dd3ce723ca0eed lightnvm: disable the subsystem
+         23f0993b46fa3de0196c043860a9f22591378e3c Linux 5.4.192-rc1
          
 
---===============6764931178512740291==
+--===============5914420804667699668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,23 +38,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651225189 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1651225185-3e00a2b846fd8b3466e312fd1d8675ba40d8794c
 
-e3a56aaade89bc89f33baec11b12538fc22536e2 f6a054fe8d6dd0aece9d141651243c8d6c073d60 refs/heads/linux-4.14.y
+4426e6017f73bbbd65270965ecc11b6b3ff4af4d 23f0993b46fa3de0196c043860a9f22591378e3c refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrsmUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/nUP/jVl70QluC80muanHdVq
-qjGjFmbPpdT1YkVHxe+kkZZ9cWcmnFgeedI/C72uFkPY8K7fhGUzeIeXw6zDYuw+
-x6JQtpf5wbMev6hUC2/HhsoLWNltoaDEqFl/RUlw5nygYRLP5T0zZzulo23okk/C
-gAI3b4sC1yz8kwlrPfoyeL7mCFzvoDtBfnM7fQAURSOkQeapWHx6EjrZiK5yVAnp
-fvDcHA5EII1TbT2hhAS0nPpGLRjgkekYGUh2uSOA7LqkIOvDSTmL3zhhHZICa6QY
-u9VXPsTfKpHp8s/DonL9IyXRBMRDcxqQS20t9roDx0h3kCVfIsMCcAvsBz8FWFxy
-NKK6dXysdA80Ud7BCxmh1fWZ+nYdbyncMTK1i4Pytez4wvhj97P6pBphZgBs11Oh
-1d8ndFHPttxDja+fsXFSeKU5CKKhjx9U2Zz/XjdFj8K2yBFN+UYPMfSkq98rCg/B
-DTqgIktl9hufpBLIOjk1fEgpvAkkHx6GRMe1K1OO+NwQPqtBnxjMFz1lbCDaLXeU
-IoVqMKOtvs8dEyDAb0lUHpPuH98dgqVC2gTrFNYJf31L9ROMXF/Yjj9K/ky4k59k
-fKF7+bbr8MoL4fUn5nzkDS3qnBDnsCbbHBbMkV2thvp4Z5RKMRS33VBOIz4BNqrc
-XzfXGXj/sxRoqGchjigVoutb
-=gBn5
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7esQAMjW9KsOWtKLm/PHT610
+vilqvBVzne2T8eERqIKepXFWdkewzIzvkc6Y8m57pXRPbF7rP+yYHJ0aQp15p/SF
+N4JpzAIaM88/yrDbr7Cg0S7HsKZ/s0VjET5qrpl9aQMoyYTO59O57niQLAgL0Enl
+f8EHG6b1ZqIRc3AGkaUr7XTB8Zmv77oftKcdKHTU0PS8kPb0Us7r1FlndlmIJZ91
+GDSMkcvQ2oF+BAn93oJ8X06gxtfzO6ethiA3PF7JF3BLTOEUFr6lSaWY6JWC5SaX
+tmTtAKw2brLEdAjwwXccgdZtJiKbYDu1gLps6zI57D2hlTKk/rqTixojnXP5dLfh
+4QFyDjyqCfHY7C5YNIWZ7bZmawiJhOCG7GXDjslXmJhezMaBNy5Y6fJvHavmNu/t
+oog6tznDh64yDOFLE2X6qpsOUYCUea0LJB3nn9I8ZutiyuWebj9R/0mbkY42whvX
+mHgvkFgq8IV7Inf7PuKGgXK8RrUVwsip0JG7dLxAxFckW2DIM/qrC5lWtfP+20CC
+8mOtMRv8ZNlYs5Wik+ttwdIsN/Cf/Czge5Pa/vgH8v4dqkT25bU+iLviecnZsQvE
+P5lrihNMg3IE0wuKQGxTiXrSp1nl53UUGsiS27nKsKA8wHB+PrrhFLq1ogPWTMcd
+dlI8sF8lhcvRCywcwoorN8qV
+=GZJW
 -----END PGP SIGNATURE-----
 
---===============6764931178512740291==--
+--===============5914420804667699668==--
