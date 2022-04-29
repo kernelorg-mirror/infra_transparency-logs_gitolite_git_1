@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8044958834065559644=="
+Content-Type: multipart/mixed; boundary="===============4481094291227673005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 29 Apr 2022 13:38:39 -0000
-Message-Id: <165123951904.17111.5083535651036505751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 29 Apr 2022 13:38:45 -0000
+Message-Id: <165123952524.17233.16651585033868596745@gitolite.kernel.org>
 
---===============8044958834065559644==
+--===============4481094291227673005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: ce216cfa84a4e1c23b105e652c550bdeaac9e922
-    new: bdc8cd505b5312c3b26f13f0b6a567d97d55e715
+  - ref: refs/heads/for-5.19
+    old: e8858ba89ca377064da130d09648c99683f8bd90
+    new: dc6d04619e62825083926929d88c94c5b6b42670
     log: |
-         bdc8cd505b5312c3b26f13f0b6a567d97d55e715 ASoC: SOF: sof-pci-dev: fix missing pci_release_regions() on error in sof_pci_probe()
+         dc6d04619e62825083926929d88c94c5b6b42670 regulator: sm5703: Correct reference to the common regulator schema
          
 
---===============8044958834065559644==
+--===============4481094291227673005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651239517 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1651239517-c94d596d4306b0845183a8a0c68653af19e6a4cc
+pusher C3F436CA30F5D8EB 1651239523 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1651239523-47407d6d30809ae0fc60ab1d45ef1fbf7f1663d9
 
-ce216cfa84a4e1c23b105e652c550bdeaac9e922 bdc8cd505b5312c3b26f13f0b6a567d97d55e715 refs/heads/asoc-5.19
+e8858ba89ca377064da130d09648c99683f8bd90 dc6d04619e62825083926929d88c94c5b6b42670 refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJr6l0ACgkQJNaLcl1U
-h9BjGwf/Vbk/D2O6sLcLPizvrAVbP/kcnpNSZ4U5A2eJP328oE3ax/uIL1tud7xM
-p82LiPdiKNVOaMFvt+prxqk7cRIyowTE74huOjtZu2pZ8y+3TZ5rmk8C4SaV5pMp
-Q2GzPSAqtlsTF6m4SPab/JeYxKFa2L/kuAdjldYe9V7mny1BKG+IP+6TSMimgyNk
-G9OM0knVwCPYD2kBo8/tL0ZvE6Te2GH7HjvUDweSmmXrwtIgCTI0a3BAdmb7yKsY
-KRADcfbhaqIXpNNBDPm/wv5iYh3/BPNrvRpeHyDu5sfA21+n85uxHvjqGmYGtl7D
-FpUMvqdVFOr4Ikig5UJOyv1SzHUf+A==
-=2jQM
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJr6mMACgkQJNaLcl1U
+h9Al1Af3ajT3OIP93b4sUOOfvOH9+yXx2gFlnRaYYgI3N63GJnYW8BbBCXmy4pT8
+f1rmCnTQisPB+rpoDbXcd2v6TN/9Z6Ba1V7PF/4las7IPyqOuLOMqFfrjQJB/n9K
+H0FQG4rL9AcpSsKswNTuy0iQLp3xYmYAIzdh/fz2oJTD3WkcCOXftLo91PP6QOcx
+4kUKqC5CPLSppDhFtGWbsGoc6paR+SItVrN32j2N67xIKZ+KbT4L6b58dErfj+hA
+yiUiXegOddGhi8M+z2O816Z3vtenmEwZVuW1dz2pIahqTlnq9IrxKyw54bnvVROX
+86nfBzycv4BysA1WxvOwGAjvkkLg
+=b2bi
 -----END PGP SIGNATURE-----
 
---===============8044958834065559644==--
+--===============4481094291227673005==--
