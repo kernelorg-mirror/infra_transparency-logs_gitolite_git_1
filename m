@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6306839639974492541=="
+Content-Type: multipart/mixed; boundary="===============0944205751712581476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 29 Apr 2022 10:40:51 -0000
-Message-Id: <165122885163.28676.3016975670756420593@gitolite.kernel.org>
+Date: Fri, 29 Apr 2022 10:40:53 -0000
+Message-Id: <165122885376.28735.6184124234746807586@gitolite.kernel.org>
 
---===============6306839639974492541==
+--===============0944205751712581476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,42 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 276ed839b00f30a704488ccad8488f44247ac200
-    new: 8fbeb62c90f27e43bb410a155b6deb488823ec2b
+  - ref: refs/heads/linux-5.17.y
+    old: 92120016ad3545b35f4ded02e3ed39eb4e497f63
+    new: b59a5f68feee876e9648c05f295cd4568792d276
     log: |
-         e159585dc34908292bc4e90e1f0ca9ea1ecadb64 floppy: disable FDRAWCMD by default
-         c176a4b8a9fc9876d641c80a3ef996ebc7d85bf1 hamradio: defer 6pack kfree after unregister_netdev
-         17bcde10d0742f2211ad228d566f5fa2625699fa hamradio: remove needs_free_netdev to avoid UAF
-         18281db15172f5caa10e82fcb37d4296fa0a5d09 net/sched: cls_u32: fix netns refcount changes in u32_change()
-         506c182428c63fdf68dc6e506b9cf7c404a6f0e2 Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-         09932c6cbf2d017ff188d2b552145f15472eb31a lightnvm: disable the subsystem
-         8fbeb62c90f27e43bb410a155b6deb488823ec2b Linux 4.14.278-rc1
+         02f42e7cb99f55bffb4d9548d19a4edc9407e527 floppy: disable FDRAWCMD by default
+         b59a5f68feee876e9648c05f295cd4568792d276 Linux 5.17.6-rc1
          
 
---===============6306839639974492541==
+--===============0944205751712581476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651228850 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651228852 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1651228849-bf8a6bfaae4b8290b1c26e44e990addb6cf18827
 
-276ed839b00f30a704488ccad8488f44247ac200 8fbeb62c90f27e43bb410a155b6deb488823ec2b refs/heads/linux-4.14.y
+92120016ad3545b35f4ded02e3ed39eb4e497f63 b59a5f68feee876e9648c05f295cd4568792d276 refs/heads/linux-5.17.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrwLIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ul4QAIcRPoWfjCUayYiA4ReJ
-qdn2jKZIWq46Occf04moQrJfmyMjSvA93pt/ERBVrLeeKzkdy79H5miCiGQ71DRz
-ZsBenHYDTUd8ln0/662rlGYaadTOuRFM/Cq8oyGdS5iJ/9NQdAd78slqc4bcCsym
-XxD1yVdXIweW1yJCtptZGCxaTkQosKJg7QAlIKTpWSKP8wspGntdExdfBryXaToQ
-HwaYHNK8eMzKAyBM0gqFjKPFMq62U0kCZ67jGvOZdERhABBU6+MfEH/g8JkoT/YD
-oVuEv6c7NNLIpACcX3tke2yUO4TnAMRY5BhdDrit7HX21eSbly0WLV5vLAAvFVqN
-chnG2FG8cHFjLc7Em44NZtGzgl5xgRIS6q3ZPgj/vewbHI4b7043hMPLDnEmPYhk
-FHb3bS0uyFQ4Uf9/68bheLzEAmqA0PRLEPE3thg33+vcoQhB6I/uWwbOPNsjq5Z1
-6MCVPl4RptyTSp7Zc6keQx8946LHRCsEhI32C5guH1VyXftuDvR3nl0XU7jKbk+5
-RHiswpQpKX9QZcs5+aUEOzCL83zkwCOdr/JhFOBiANxsXZmBDlQVZlBP/K30yLI8
-2fU8EXmeiBKpaomgNehK1bvcB/CbvKaeTnhgBH281Ebo0Ym3bg9WXYvJPuVUMSRd
-0yyKFl2N8OfPaUHsPubIrmrg
-=ldIO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrwLQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/9gQAJcOdlbSa+bzYbZmgTB0
+CGBFAPmWtbnWOdS8spAG5lSF2XmSnYgLZMrC+utLUtHwltJ/fmxA7oi6JbCcTt70
+TJRaY9EvVWckmS1TFtapfqKYTewEvsp+E4fh7wOzKXlldc6FohlV9iykJloMF2Er
+WtMn8uvix7qFP3t24bPWYXAcwlg7drmiuQ8k3spW8g1hs70if8Jt4lLRb7+SLWPA
+Rl8n355JhIE3nIzogGjNh0inQkXzYhSwj+OqISWd/Azv2bXgQkEEvQM71LOlq9nd
+wx98F7/BxW/ZPnHH0mCImcQFvLp6QaeAptHWF4alaiqy6rLNMkqmWJTd5/F3alrq
+uGa2ZxIjIPS05u3LBz2A54o2rvU67xc1hbGfNKLL54aBR0PvBqkQ0CSrBLgaG2Ty
+ri6De0D90VH0oBAYIJGpukTAK+jOyP2mtqvAimqA/9KimdbHaRoiGn8uFI2A7gBY
+S8E2FVSgH1EvGIwW8J+cmyIitqzoK78MBWX3spG30+GUTeaeWxzGqxiGxiCvbmNu
+f7vRbJ29sZYqoZ2MFW64d+kzyb/y762nGVXKoBI6lA8WzJbkA+Tejdfmy/1amEqi
+n8aetCsucByaK+p+QOJzskoE8kVP0jOyKFYFRWGbZkD8dG4Ke+vZnRoD5PlaKx3n
+4zqF++EI+hbtaTmdbYgGFfE/
+=wxal
 -----END PGP SIGNATURE-----
 
---===============6306839639974492541==--
+--===============0944205751712581476==--
