@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2563581625677928374=="
+Content-Type: multipart/mixed; boundary="===============6918684430582499752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Apr 2022 15:01:44 -0000
-Message-Id: <165124450413.9451.13323143800724554044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 29 Apr 2022 15:01:49 -0000
+Message-Id: <165124450996.9548.3710161561155938380@gitolite.kernel.org>
 
---===============2563581625677928374==
+--===============6918684430582499752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: bdc8cd505b5312c3b26f13f0b6a567d97d55e715
     new: 66727cdb250ec5d3f42558e33ace5c7d0fbd9477
     log: |
          66727cdb250ec5d3f42558e33ace5c7d0fbd9477 ASoC: dsp: mediatek: add mt8195 dsp document
          
 
---===============2563581625677928374==
+--===============6918684430582499752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651244502 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1651244502-a16b803e8572b74ce60aef59b68737976f56cc5b
+pusher C3F436CA30F5D8EB 1651244508 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1651244508-a77caf56e4e9b173c8eaabea6b516e1186477bd7
 
-bdc8cd505b5312c3b26f13f0b6a567d97d55e715 66727cdb250ec5d3f42558e33ace5c7d0fbd9477 refs/heads/for-5.19
+bdc8cd505b5312c3b26f13f0b6a567d97d55e715 66727cdb250ec5d3f42558e33ace5c7d0fbd9477 refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJr/dYACgkQJNaLcl1U
-h9CgrQf7B8B2yeeVxZD4ikUr0sTGQ/VyCsomR2mSbiEosMqv/P4U/xpE5FnPe5N4
-bAm+E+HCGYg1uxoOb7/PwtnBiKp3yfvS+0qIlGcIXvsK2xXwOzp4k5AiVe3apXZ0
-/VXHwxpj8LMP/qmDCBxlAvxIN6aUZ6kZr44Rs827Zhdhg/WMkPpAvTHh0ZKyseAZ
-DH1moLqEwbZNY73OAlwfgK5qp9lFc36RPK3jylfcTATax5st7wMjbX4IkJK/YneD
-jWmNYcDjjR2Id61zgng5faLAQ2ikGRFvHSe16zWRb7rmSHvuGbpGYzWWi9XnkSxN
-7jNATwHu158Rt6GGtILrk1fsJ7+GWQ==
-=g8Ki
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJr/dwACgkQJNaLcl1U
+h9Bjrgf/bE5InH76rkj7OWqOitk6Tl/ljm3QXBVX5JDm2U2yqKv3TFpt7TDhw4Zm
+XUParEE3SZPK9R5v9OtsJ7AsCzYCp2eYTSPZ6TZTGixkxQ3UDgHCG96c7ns9HzjB
+GtfMk+Jo7dmqqv5wLrPgOopOuX/PlXIdW1ByOD7pFjJFMLjw+f2kfcoV2jX8e+Fj
+965uTddzwQ1m9TALKCP45m7dDfGs4Ej2Zpp96Lf8x4X+DbkkZ0BI7uQ0VIyO6EMQ
+mmJ085vsbKpotJz482XA2T14jvNLJjc9+yepig7wE9MOLKoIGAKJOhelGUv4lUE4
+lHMIUELTyhpI9/0GH7Yqg7X84TzvUg==
+=glny
 -----END PGP SIGNATURE-----
 
---===============2563581625677928374==--
+--===============6918684430582499752==--
