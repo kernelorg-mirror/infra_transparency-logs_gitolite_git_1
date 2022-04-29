@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Fri, 29 Apr 2022 04:41:12 -0000
-Message-Id: <165120727262.4867.8272979526808263781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 29 Apr 2022 04:54:33 -0000
+Message-Id: <165120807326.13269.9255520611157944063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 21d08b03c2a737e4384a07857e0289ad0126b663
-    new: 9a9579181897a62dc107b121f139a319d7e297fa
+    old: a2c70dbc3407b99e716a362be2df3ed9bbed1d35
+    new: 20b87e7c29dffcfa3f96f2e99daec84fd46cabdb
     log: |
-         9a9579181897a62dc107b121f139a319d7e297fa Improve documentation for cap_get_pid and cap_reset_ambient.
+         20b87e7c29dffcfa3f96f2e99daec84fd46cabdb selftests/bpf: Fix two memory leaks in prog_tests
          
