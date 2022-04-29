@@ -1,53 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5925599797947264097=="
+Content-Type: multipart/mixed; boundary="===============4021443415523659814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 29 Apr 2022 10:10:08 -0000
-Message-Id: <165122700879.8233.10142283479844031748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Fri, 29 Apr 2022 10:35:15 -0000
+Message-Id: <165122851585.24635.16934784908424547760@gitolite.kernel.org>
 
---===============5925599797947264097==
+--===============4021443415523659814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/testing
-    old: a731cac6f58b2ce250466caa46b4cf66794f9642
-    new: 2873d4d52f7c52d60b316ba6c47bd7122b5a9861
-    log: |
-         47f070a63e735bcc8d481de31be1b5a1aa62b31c can: grcan: grcan_close(): fix deadlock
-         101da4268626b00d16356a6bf284d66e44c46ff9 can: grcan: use ofdev->dev when allocating DMA memory
-         1e93ed26acf03fe6c97c6d573a10178596aadd43 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-         2873d4d52f7c52d60b316ba6c47bd7122b5a9861 can: grcan: only use the NAPI poll budget for RX
-         
+  - ref: refs/heads/master
+    old: d9db556ad00ccf278daa20b573c5a0da6800aee6
+    new: 32b87add13fcbd8b384a969924720c0f2b30893a
+    log: revlist-d9db556ad00c-32b87add13fc.txt
+  - ref: refs/heads/next
+    old: 114240d3fb676f51967972e3b86a80a2c5c1ea18
+    new: f8a7df6a1a0408a9806441267173f0691e49f897
+    log: revlist-114240d3fb67-f8a7df6a1a04.txt
 
---===============5925599797947264097==
+--===============4021443415523659814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d9db556ad00c-32b87add13fc.txt
 
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651227004 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1651227003-1f1e22655b13763692f99b480d1d8770c71aa686
+b0fa698b834f0f8b4a0c9c5c086d88787f1124a0 arm64: dts: renesas: rzg2ul-smarc: Enable i2c{0,1} and wm8978
+820e976909c2b286d1ef259ea524979540475ba6 arm64: dts: renesas: rzg2ul-smarc: Enable CANFD
+0b3e18dbcdf6ec80d22d76d4c8099968704f7cf9 arm64: dts: renesas: rzg2ul-smarc-som: Enable OSTM
+3f67af66e65baf88da482b6327c53c742b949d15 arm64: dts: renesas: rzg2ul-smarc-som: Enable watchdog
+a4744a1de601e86d2c78cb8c5a1c40d25117a97d Merge tag 'renesas-r8a779g0-dt-binding-defs-tag' into renesas-arm-dt-for-v5.19
+b3735fb31397d2b22524e4c27bd235cb69b542cb arm64: dts: renesas: Add Renesas R8A779G0 SoC support
+db5b41260035b9ac851af4bf0da43eb733c9f960 arm64: dts: renesas: Add Renesas White Hawk boards support
+01214672bf35a34f1eb13e79960a32addb35d9d8 arm64: dts: renesas: rzg2l-smarc: Move ssi0 and cpu sound_dai nodes from common dtsi
+9b3c59a29c2bbb0f0f8cedd8e447f0520e08517a arm64: dts: renesas: rzg2ul-smarc: Enable Audio
+45aacfac1f0928cb03ae2666ef413229d5d89b20 arm64: dts: renesas: rzg2ul-smarc: Enable USB2.0 support
+f8a7df6a1a0408a9806441267173f0691e49f897 Merge branch 'renesas-arm-dt-for-v5.19' into renesas-next
+32b87add13fcbd8b384a969924720c0f2b30893a Merge branch 'renesas-next' into renesas-devel
 
-a731cac6f58b2ce250466caa46b4cf66794f9642 2873d4d52f7c52d60b316ba6c47bd7122b5a9861 refs/heads/testing
------BEGIN PGP SIGNATURE-----
+--===============4021443415523659814==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-114240d3fb67-f8a7df6a1a04.txt
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJruX0THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXeRvB/92hTryq8cC7vywStzjP5iF2d2t02OR
-fRt/NqK7bcP5yEoU4ETryNvaYrwxOlR9WHEfsFM4+K7dYR0wII+IzYbmQ/EYp144
-nB+L60BuQwZbdCictP2pX5j5qwZV2Qkj1idZUP2fllqH8gK6HmkPeEzEezrI1nir
-wjdtdj0JeGt0huFQm6XUGF3PlDYWGwhxK7raKRYP1AwI3FFn790U+u0rHtHAbTmw
-XLe6Ae6E52uWQ9/s+m8QhcOcgjI388tfMwwiJyrenWtvh2a9qnf7vjDkxB9kliic
-1QYHddH/5oKhs0PIW6maZqdWrTh+NtKurH1XKLXSCZPzDoS1y27JvOyM
-=nYcA
------END PGP SIGNATURE-----
+b0fa698b834f0f8b4a0c9c5c086d88787f1124a0 arm64: dts: renesas: rzg2ul-smarc: Enable i2c{0,1} and wm8978
+820e976909c2b286d1ef259ea524979540475ba6 arm64: dts: renesas: rzg2ul-smarc: Enable CANFD
+0b3e18dbcdf6ec80d22d76d4c8099968704f7cf9 arm64: dts: renesas: rzg2ul-smarc-som: Enable OSTM
+3f67af66e65baf88da482b6327c53c742b949d15 arm64: dts: renesas: rzg2ul-smarc-som: Enable watchdog
+a4744a1de601e86d2c78cb8c5a1c40d25117a97d Merge tag 'renesas-r8a779g0-dt-binding-defs-tag' into renesas-arm-dt-for-v5.19
+b3735fb31397d2b22524e4c27bd235cb69b542cb arm64: dts: renesas: Add Renesas R8A779G0 SoC support
+db5b41260035b9ac851af4bf0da43eb733c9f960 arm64: dts: renesas: Add Renesas White Hawk boards support
+01214672bf35a34f1eb13e79960a32addb35d9d8 arm64: dts: renesas: rzg2l-smarc: Move ssi0 and cpu sound_dai nodes from common dtsi
+9b3c59a29c2bbb0f0f8cedd8e447f0520e08517a arm64: dts: renesas: rzg2ul-smarc: Enable Audio
+45aacfac1f0928cb03ae2666ef413229d5d89b20 arm64: dts: renesas: rzg2ul-smarc: Enable USB2.0 support
+f8a7df6a1a0408a9806441267173f0691e49f897 Merge branch 'renesas-arm-dt-for-v5.19' into renesas-next
 
---===============5925599797947264097==--
+--===============4021443415523659814==--
