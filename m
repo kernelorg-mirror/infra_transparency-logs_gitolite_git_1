@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5361549711997045927=="
+Content-Type: multipart/mixed; boundary="===============6540705488425549199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Apr 2022 17:18:42 -0000
-Message-Id: <165125272216.2977.10953833793256772650@gitolite.kernel.org>
+Date: Fri, 29 Apr 2022 17:19:24 -0000
+Message-Id: <165125276499.3239.18429303342691845742@gitolite.kernel.org>
 
---===============5361549711997045927==
+--===============6540705488425549199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 567a0a524aaa2cb921aed19d9550fc9c949f502e
-    new: 2e6980be82e434b9a93915230b564036fdda7190
-    log: revlist-567a0a524aaa-2e6980be82e4.txt
+  - ref: refs/heads/net-mlx4
+    old: acb16b395c3f3d7502443e0c799c2b42df645642
+    new: 249aca0d3d631660aa3583c6a3559b75b6e971b4
+    log: revlist-acb16b395c3f-249aca0d3d63.txt
 
---===============5361549711997045927==
+--===============6540705488425549199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-567a0a524aaa-2e6980be82e4.txt
+Content-Disposition: attachment; filename=revlist-acb16b395c3f-249aca0d3d63.txt
 
 be5985b3dbce5ba2af3c8b0f2b7df235c93907e6 cpufreq: qcom-hw: drop affinity hint before freeing the IRQ
 5e4f009da6be563984ba4db4ef4f32529e9aeb90 cpufreq: qcom-hw: fix the race between LMH worker and cpuhp
@@ -351,6 +351,5 @@ f12d31c00b2e1d0774772695fd644b1c15e446ac Merge tag 'acpi-5.18-rc5' of git://git.
 659ed6e2850c7df4eba838863325f6d71f437844 Merge tag 'pm-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3c76fe74368b79d5341decaccce97f45907395f1 Merge tag 'thermal-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 249aca0d3d631660aa3583c6a3559b75b6e971b4 Merge tag 'net-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-2e6980be82e434b9a93915230b564036fdda7190 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============5361549711997045927==--
+--===============6540705488425549199==--
