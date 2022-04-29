@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3294786802881930876=="
+Content-Type: multipart/mixed; boundary="===============8250989476427803108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 29 Apr 2022 10:40:54 -0000
-Message-Id: <165122885434.28810.8699730979291736083@gitolite.kernel.org>
+Message-Id: <165122885465.28850.14720484281147004256@gitolite.kernel.org>
 
---===============3294786802881930876==
+--===============8250989476427803108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 454c6fe7ba641c1018c5114e6f40128263a934ca
-    new: bc311a966773f6c2eddefca7b797ccb595e8cf6b
-    log: |
-         f5c7739529fb4499eb341daead6b18927bc47f64 floppy: disable FDRAWCMD by default
-         293b4b5cd2f6214084a3bd3231c2d3bcde8f942c lightnvm: disable the subsystem
-         bc311a966773f6c2eddefca7b797ccb595e8cf6b Linux 5.10.114-rc1
-         
+  - ref: refs/heads/linux-4.19.y
+    old: 9e090d4278b82bfea087b4f1ca1ec3a392332c28
+    new: aca3ff930ee4690457052e389411fa5f5ee8af52
+    log: revlist-9e090d4278b8-aca3ff930ee4.txt
 
---===============3294786802881930876==
+--===============8250989476427803108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -36,23 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651228853 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1651228849-bf8a6bfaae4b8290b1c26e44e990addb6cf18827
 
-454c6fe7ba641c1018c5114e6f40128263a934ca bc311a966773f6c2eddefca7b797ccb595e8cf6b refs/heads/linux-5.10.y
+9e090d4278b82bfea087b4f1ca1ec3a392332c28 aca3ff930ee4690457052e389411fa5f5ee8af52 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJrwLUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GX4QAKqkZWDXmJENqFzd6yhE
-gmuyt3+ZTMShgpbu+ggtNZB8pgL25SXGpNoUR8+N6+pEFALtynw6Go9UhM0ooIo9
-XH5uZ3wdndqRDx4mM9vpLrYwy+CTQPOdjPUitR7nkfIM2fySTpFJbSIJJO72mNJh
-XECq/59iMWizHS53jBKgugUv5ZsJ0bO+YwKuX2AnS7JJsx6N9RzK8N1Jcdzv1eOw
-r9sC7KSk2PkKQoeI4SegdivEyRHaE13nzU2ha3Rz+iwUCWehsz5DYmqTAH5J6OsI
-/+UdEM7cK4GbuUF8N9vFayKwXCxZKVWc3vcBX5y9hIO6FI1uppDwltlvePT12uGn
-1kPJGjNlzd6NLat0NWPqqFHVk5a5kU3t4JiH5kaRV/LmFbSuCDZw86cm+sYqX5YD
-RV6l415SrhARzJ/+NcP+e6OczEncEwg5vwEoURodEGPcexB5Dkz6kJm7pWPyrBLN
-Fa/MwTw7LYQde4qCh44ZXlQH/3GPLa3VSXI2wWAQyRGCtmQh8AyD1Ode4EtgSgsR
-SxiBIzxRqo2sTPQzX5VS3ZJ+Hmzxoksr0Da9dKOfKLZCzeslEopQNKaBkRBvVMpY
-GGFXTR3tNEXTNxD/ZaYYgGKpUZTnzhnUAHjXvxmqyRYHaL2KMBJUI5lcf/ACScyw
-LNkn5ShX5yl25ab6c/TI3umq
-=Bjqh
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XhgP+gPLBRB4fqQ8A2IZLnRR
+GLeW+Wx0M/k/qGxBLT2bw9RMQo9NkofrE5nlunRpzUaK4Uw5Ob3cQESziKq7IVYf
+BAvJeAgI64g+hPX8GVRdcAd3aBJ8hSDW4c7xB1YV6+ZUwJEyQBpQKHE86cqL/w6t
+RNjOV7Wf+OC6Pu3B9echX8yp+cMGgEVHUT/bNI8cVOb35qe/Zat5vlWiBMAwXMs3
+Y9+0mWlp8kxwm3QXiEMErmhLva1c0wsyPHAhwfYZlFkOh2Gf+8DZ0C4ttOGB8gtG
+PH/vQJHdekAPr+79FBxDYN+Zsojj+aWuuS3LIlEzJwArqpDtq1nL9+xPi/W9UVbG
+Ei1qdIoOqH6WFffbFk8tKFWPVrjzD+4fWu6w502AiLXY/h4pWZ3Ycemn1+rTDllQ
+wbPWMlxwqC3pzAThgNaS/0l7j+d3YAvwkruLkw1+Y2cpPD4gye2qK+4V5Eth3YmU
+UmixVgm4DA6AsLbd5jVxA9bm/pJQBj6T9UisgiRnzj0wEPYYzG338SCmxlp1TfkD
+Ny9W5Mm6mYhQdBrjguLkMC0l/d1cfuSB5YCykknPOuZylMj5HXX1iADOPYveuHGp
+2i1Ga5oWw2sgQz6n3NJyHZ42T9Q6bwCL9aTanDP8Mc2Tjmz3dtfQl1myhkvLpKPP
+XRO2x90sRLdZ/elN69okaAGs
+=r2fF
 -----END PGP SIGNATURE-----
 
---===============3294786802881930876==--
+--===============8250989476427803108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9e090d4278b8-aca3ff930ee4.txt
+
+48bc8fe492ee01833ef20b49e893311db63c161e media: vicodec: upon release, call m2m release before freeing ctrl handler
+d5e5f01c78e0851d1fd06a86b229ed847c3547dd floppy: disable FDRAWCMD by default
+711d4bb797158454b07c01df50318c6e3a03c930 hamradio: defer 6pack kfree after unregister_netdev
+0ef5528ebd2cd4328200b7e47998392e22b19e00 hamradio: remove needs_free_netdev to avoid UAF
+ea1d25bf6b52c02f9d46f4e41360754a7f5d5eb8 net/sched: cls_u32: fix netns refcount changes in u32_change()
+dc143ac83c18f031b1489f6a2b1c19641991ef79 powerpc/64/interrupt: Temporarily save PPR on stack to fix register corruption due to SLB miss
+442f0902bf8498872f8e25cc53b5166e7ea66cd2 powerpc/64s: Unmerge EX_LR and EX_DAR
+38937f0fd3047d57506d5892c19c6016a06a59e8 Revert "ia64: kprobes: Fix to pass correct trampoline address to the handler"
+8b84d27c655435cff764362f1adf556f8bc78cb3 Revert "ia64: kprobes: Use generic kretprobe trampoline handler"
+04bf5ae334da0943d67115c05db3c248545aacb9 ia64: kprobes: Fix to pass correct trampoline address to the handler
+1c3435450a25f240662ef8bf56887fecb130cb6c Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
+a4c1e80ad87219b6406351df04343765fbde93a9 lightnvm: disable the subsystem
+aca3ff930ee4690457052e389411fa5f5ee8af52 Linux 4.19.241-rc1
+
+--===============8250989476427803108==--
