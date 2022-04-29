@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Fri, 29 Apr 2022 08:08:17 -0000
-Message-Id: <165121969755.4906.8672361179140800659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 29 Apr 2022 08:08:27 -0000
+Message-Id: <165121970765.5041.5595380996461161861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/icc-next
-    old: fd3abb2525a1bf37323c2db806dd1794349bd089
-    new: 2c16d1b0fc5f2b696d0a38399652c52933aeb0b3
+  - ref: refs/heads/arm/multiplatform
+    old: 44d3760701a0d0ea5b6cbe32b77ae9d51f71edea
+    new: 766475cb526b2fc5ca21374b5810d6d8557870fc
     log: |
-         3d28502d529112ac91a9d400bf13fefe9653c9b5 interconnect: qcom: sc8280xp: constify qcom_icc_desc
-         fcb3cd7e3af9df45d01066fced068ccdb0f1c283 interconnect: qcom: sc8280xp: constify icc_node pointers
-         01c3f0387c638127fddc1849cb2bdee7f50d88f3 interconnect: qcom: sc8280xp: constify qcom_icc_bcm pointers
-         ad3cc2f05fdaa2ef95ac538995ebfa60e273fdef interconnect: Restore sync state by ignoring ipa-virt in provider count
-         469da3e767f7eb7200f5bc7c1178ff9727906f2e Merge branch 'icc-sc8280xp' into icc-next
-         f01926810bc36eaff4f24fd7ca4c5c11de04113d Merge branch 'icc-sdx65' into icc-next
-         2c16d1b0fc5f2b696d0a38399652c52933aeb0b3 Merge branch 'icc-const' into icc-next
+         6d9230edf08ff633c377ad6c61c65dc69f577cad ARM: omap2: remove include/mach/ subdirectory
+         ca31807b8506d261c884f152fc434a9dd7ccdf42 ARM: davinci: remove include/mach/ subdirectory
+         c164620ae2f4d7b31023fd79445063f0f5cc9471 ARM: spear: remove include/mach/ subdirectory
+         deb44711675efa923ee8cebc0c5730d6f5905b32 ARM: omap: fix address space warnings from sparse
+         e514f1fd09b6f966f5f55220fdc4fb8a2efc0d6a ARM: omap: fix missing declaration warnings
+         766475cb526b2fc5ca21374b5810d6d8557870fc ARM: omap1: add back omap_set_dma_priority() stub
          
