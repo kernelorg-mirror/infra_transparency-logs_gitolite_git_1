@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 29 Apr 2022 14:19:23 -0000
-Message-Id: <165124196375.13088.13808442861868194262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 29 Apr 2022 14:20:56 -0000
+Message-Id: <165124205696.15097.13326892228835567022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: sandeen
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/tags/v5.16.0-rc0
-    old: 0000000000000000000000000000000000000000
-    new: f74f0df76168344714437ca164294ee95395b05e
+  - ref: refs/heads/ath12k-bringup
+    old: a3fed8cf2d9f4e4a213e0d471d74d5e892befba2
+    new: 11bd2cb24ff5bd3a5d28f2a58d03e92171f89d58
+    log: |
+         11bd2cb24ff5bd3a5d28f2a58d03e92171f89d58 ath12k: send beacon template after vdev restart during CSA
+         
