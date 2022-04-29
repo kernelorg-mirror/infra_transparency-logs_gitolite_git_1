@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 29 Apr 2022 15:08:12 -0000
-Message-Id: <165124489263.13224.10413402615461605844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 29 Apr 2022 15:13:39 -0000
+Message-Id: <165124521947.17676.15850931678986185577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/jd/fork-event
-    old: 1dd316294d73483fa880620f278ed92c708fb34c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/riscv-for-linus-5.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: adda0e5419b1e5e60587c7021555781d6492e870
