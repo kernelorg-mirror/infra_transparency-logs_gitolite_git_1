@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Sat, 30 Apr 2022 21:07:52 -0000
-Message-Id: <165135287241.10046.6702323266472194229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 30 Apr 2022 21:50:03 -0000
+Message-Id: <165135540330.6184.13658754901510933167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/jd/openrisc
-    old: 1ee435fde031fae1eb0920b841c35cc1905ab6d8
-    new: e38972b2c4d424487ce9b8a0599fc3e52daa5120
+  - ref: refs/heads/for-5.19/io_uring-pbuf
+    old: f0017ea092f25d1a52757ecc1a1e7f00b60d0952
+    new: 5f5b240013529de4a0945a5e0e780c8c8202e59c
     log: |
-         26cb5f2460bf9643afe82868109ec7f47938430f wireguard: selftests: limit parallelism to $(nproc) tests at once
-         7528b76fc753ca69eca2cdef0e2fdd8d6cf87f6b wireguard: selftests: use only one serial port
-         e38972b2c4d424487ce9b8a0599fc3e52daa5120 wireguard: selftests: handle qemu instances that won't terminate
+         a94a6d3ec6f0d2c49cc9c9985ffe48b16bf18d97 io_uring: never call io_buffer_select() for a buffer re-select
+         a4b7de0d1203255425c8216a9143b5708aa43428 io_uring: add buffer selection support to IORING_OP_NOP
+         a37757ab03d7dfe6c075c86b0aa700062358f2da io_uring: add io_pin_pages() helper
+         54e5e95aaeabdf4aa7008f31a5b893e7c14f8b72 io_uring: abstract out provided buffer list selection
+         b4012bd7d575d8a0dd91acaff4272999f1482241 io_uring: move provided and fixed buffers into the same io_kiocb area
+         5f5b240013529de4a0945a5e0e780c8c8202e59c io_uring: add support for ring mapped supplied buffers
          
