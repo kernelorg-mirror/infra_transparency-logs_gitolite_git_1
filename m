@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 30 Apr 2022 14:18:30 -0000
-Message-Id: <165132831056.6370.7603966642465300079@gitolite.kernel.org>
+Date: Sat, 30 Apr 2022 14:19:19 -0000
+Message-Id: <165132835967.6697.5626667647070731294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 39cb9faa5d46d0d0694f4b594ef905f517600c8e
-    new: dba5bdd57bea587ea4f0b79b03c71135f84a7e8b
+    old: dba5bdd57bea587ea4f0b79b03c71135f84a7e8b
+    new: a9384a4c1d250cb40cebf50e41459426d160b08e
     log: |
-         dba5bdd57bea587ea4f0b79b03c71135f84a7e8b net: igmp: respect RCU rules in ip_mc_source() and ip_mc_msfilter()
+         a9384a4c1d250cb40cebf50e41459426d160b08e mld: respect RCU rules in ip6_mc_source() and ip6_mc_msfilter()
          
