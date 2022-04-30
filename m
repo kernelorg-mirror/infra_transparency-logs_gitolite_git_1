@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 30 Apr 2022 12:39:01 -0000
-Message-Id: <165132234136.4504.6691294217065991008@gitolite.kernel.org>
+Date: Sat, 30 Apr 2022 12:55:16 -0000
+Message-Id: <165132331603.16579.12379593138308112782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 783d108dd71d97e4cac5fe8ce70ca43ed7dc7bb7
-    new: 2f187bfa6f35cc8bf1626bfc09449a09a6063ea1
+    old: 2f187bfa6f35cc8bf1626bfc09449a09a6063ea1
+    new: 059d9f413efe3ed954e2df37511a4c0e514662f7
     log: |
-         2f187bfa6f35cc8bf1626bfc09449a09a6063ea1 net: ethernet: ocelot: remove the need for num_stats initializer
+         059d9f413efe3ed954e2df37511a4c0e514662f7 qede: Reduce verbosity of ptp tx timestamp
          
