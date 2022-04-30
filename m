@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 30 Apr 2022 14:19:19 -0000
-Message-Id: <165132835967.6697.5626667647070731294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 30 Apr 2022 14:20:31 -0000
+Message-Id: <165132843160.8583.4529300947413912797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: dba5bdd57bea587ea4f0b79b03c71135f84a7e8b
-    new: a9384a4c1d250cb40cebf50e41459426d160b08e
+    old: 2e47eece158a7e5d2205be42e9c44b87302de1a7
+    new: 48cec73a891cca087fbc7791c4753784180991a9
     log: |
-         a9384a4c1d250cb40cebf50e41459426d160b08e mld: respect RCU rules in ip6_mc_source() and ip6_mc_msfilter()
+         48cec73a891cca087fbc7791c4753784180991a9 net: lan966x: Fix compilation error
          
