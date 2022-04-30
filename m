@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2972308805191151895=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 30 Apr 2022 20:18:06 -0000
-Message-Id: <165134988642.10791.7571284249531578754@gitolite.kernel.org>
-
---===============2972308805191151895==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 30 Apr 2022 20:50:03 -0000
+Message-Id: <165135180328.32411.14021263495700976261@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: eb55b0b3ed22007e21087329e69f7747c578a4f4
-    new: d7fca8bd287f3e36f95edeca3f0e42849512bf1f
-    log: revlist-eb55b0b3ed22-d7fca8bd287f.txt
-
---===============2972308805191151895==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb55b0b3ed22-d7fca8bd287f.txt
-
-23e5d0a6db7a67934028baf318e178a58ea773ba openrisc: start CPU timer early in boot
-de4726f82d3cb9414937481f7b5854383609adc9 timekeeping: add raw clock fallback for random_get_entropy()
-6502ad90c9cf7822097b87a81c9360eb4a3172f0 m68k: use fallback for random_get_entropy() instead of zero
-b3805946263f5812ecabb01f33fed8321d8a19c5 riscv: use fallback for random_get_entropy() instead of zero
-30ff49a6fc9359158a810f1d0863eea5e60bb4ca mips: use fallback for random_get_entropy() instead of just c0 random
-73ccf0e76cc72add58ea0e103833e080c1fd36b7 arm: use fallback for random_get_entropy() instead of zero
-a7f45c8000e3c077b54e91eaa0712b9844e9b913 nios2: use fallback for random_get_entropy() instead of zero
-266507d6033959e5b3533b36adc4647dfce01c2a x86/asm: use fallback for random_get_entropy() instead of zero
-6e1de92e475c67ecba8224f904a8cf977c41af07 um: use fallback for random_get_entropy() instead of zero
-50770a295080a6fad514725b2665e5325fb12448 sparc: use fallback for random_get_entropy() instead of zero
-0f99359918175bdd433f3ad6e5f6c489dbd8fc0e xtensa: use fallback for random_get_entropy() instead of zero
-231cdaf6cb81819d9d8832bc12b3771764b7a07a random: insist on random_get_entropy() existing in order to simplify
-ed4cc0fea0c7d6934844e48abf6034ba841408ac random: vary jitter iterations based on cycle counter speed
-b506701287b83c3930e530bde75bc43290caa6a2 random: add fork_event sysctl for polling VM forks
-085f22b082d032c22929d553316c43d502ef4abd random: do not check for system_wq initialization in wait event
-d7fca8bd287f3e36f95edeca3f0e42849512bf1f random: use first 128 bits of input as fast init
-
---===============2972308805191151895==--
+  - ref: refs/heads/for-5.19/io_uring-pbuf
+    old: ce13d1f88cf7593bc4e0009cff6c464faa50ce5a
+    new: f0017ea092f25d1a52757ecc1a1e7f00b60d0952
+    log: |
+         6de396c742c2b3ee22125297dff1ee25e2f6d080 io_uring: never call io_buffer_select() for a buffer re-select
+         a8c7362a839ccec1c9f5feed19bc0ebd82f76efc io_uring: add buffer selection support to IORING_OP_NOP
+         c34974c98ef3ef37e08f5244f3bbbf949cd26392 io_uring: add io_pin_pages() helper
+         191c625b34ae21d6f5dc00026c93c640c0c31657 io_uring: abstract out provided buffer list selection
+         bdf0fb0af9f85acecffe42c8b9b9c454917ea432 io_uring: move provided and fixed buffers into the same io_kiocb area
+         f0017ea092f25d1a52757ecc1a1e7f00b60d0952 io_uring: add support for ring mapped supplied buffers
+         
