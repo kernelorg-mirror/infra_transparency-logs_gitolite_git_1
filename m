@@ -1,55 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5822264505961865763=="
+Content-Type: multipart/mixed; boundary="===============2080055080182180982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 30 Apr 2022 14:50:04 -0000
-Message-Id: <165133020448.28233.4825106985644780477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 30 Apr 2022 15:04:30 -0000
+Message-Id: <165133107000.3212.2214893701498449997@gitolite.kernel.org>
 
---===============5822264505961865763==
+--===============2080055080182180982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19/io_uring
-    old: 012b7e911e69791ea518ef3d084c12cb2b8f2914
-    new: f2e030dd7aaea5a937a2547dc980fab418fbc5e7
-    log: |
-         e788be95a57a9bebe446878ce9bf2750f6fe4974 task_work: allow TWA_SIGNAL without a rescheduling IPI
-         3a4b89a25ce59a87fcfff1f030cba8d544fd402c io_uring: serialize ctx->rings->sq_flags with atomic_or/and
-         6cf5862e3c2caafd11f39a373b98b00c5a04b83a io-wq: use __set_notify_signal() to wake workers
-         9f010507bbc1be19dbeedc1a254209fea44adc14 io_uring: set task_work notify method at init time
-         e1169f06d5bbdbc2b22ae4e3083a4bf75ae5ecee io_uring: use TWA_SIGNAL_NO_IPI if IORING_SETUP_COOP_TASKRUN is used
-         ef060ea9e4fd3b763e7060a3af0a258d2d5d7c0d io_uring: add IORING_SETUP_TASKRUN_FLAG
-         f2e030dd7aaea5a937a2547dc980fab418fbc5e7 io_uring: replace smp_mb() with smp_mb__after_atomic() in io_sq_thread()
-         
-  - ref: refs/heads/for-next
-    old: d67508ac29c11ae0370a123b7ad1f1be900c1b70
-    new: bf8fc754f4ee56f8f342f437bb1690293c5f1090
-    log: revlist-d67508ac29c1-bf8fc754f4ee.txt
+  - ref: refs/tags/char-misc-5.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: c9995922d558d6e708da336379ea81b00551f6ef
 
---===============5822264505961865763==
+--===============2080055080182180982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d67508ac29c1-bf8fc754f4ee.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e788be95a57a9bebe446878ce9bf2750f6fe4974 task_work: allow TWA_SIGNAL without a rescheduling IPI
-3a4b89a25ce59a87fcfff1f030cba8d544fd402c io_uring: serialize ctx->rings->sq_flags with atomic_or/and
-6cf5862e3c2caafd11f39a373b98b00c5a04b83a io-wq: use __set_notify_signal() to wake workers
-9f010507bbc1be19dbeedc1a254209fea44adc14 io_uring: set task_work notify method at init time
-e1169f06d5bbdbc2b22ae4e3083a4bf75ae5ecee io_uring: use TWA_SIGNAL_NO_IPI if IORING_SETUP_COOP_TASKRUN is used
-ef060ea9e4fd3b763e7060a3af0a258d2d5d7c0d io_uring: add IORING_SETUP_TASKRUN_FLAG
-f2e030dd7aaea5a937a2547dc980fab418fbc5e7 io_uring: replace smp_mb() with smp_mb__after_atomic() in io_sq_thread()
-cb1de333eeced1f6d77445a85695075bdb29d930 Merge branch 'for-5.19/block' into for-next
-e3d789d1cf7a6aedcf34345016d14737f55481c7 Merge branch 'for-5.19/drivers' into for-next
-2a1fd632e7399b5d333bdbd235d108e648e8f27a Merge branch 'for-5.19/io_uring' into for-next
-1b50132141b628ebe928d9ce64a354fc70019631 Merge branch 'for-5.19/io_uring-xattr' into for-next
-99feefe95d4523dd5a30bee137b84d503e255da3 Merge branch 'for-5.19/io_uring-socket' into for-next
-bf8fc754f4ee56f8f342f437bb1690293c5f1090 Merge branch 'for-5.19/io_uring-net' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651331039 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1651331035-6ffaa4d8e2b0202741b350c4734b1352f823fd1c
 
---===============5822264505961865763==--
+0000000000000000000000000000000000000000 c9995922d558d6e708da336379ea81b00551f6ef refs/tags/char-misc-5.18-rc5
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJtT98bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zTgP/3f4X4r4HXRPFyS/KDdG
+iEViJIRe8GadmcPhnCwzZh3XJHro4Caqzagd5TAyFE5B+FlMmAO3MuWEriP+hQR8
+1hKwuv50sfPBIACdR3jCcDkqfRujD8b9UcMRfUHQXEjtuIfbGScqp6uHHKo4ixjY
+TxPIFP+pIW5R5q/xphVNhpONMkBnv0roR2XzuV/T/Tu+dORDKT5Bs6q9ND3A5R2n
+KzAZeFBn1xSx23d+vR4vWO9M3M6SvpISLh97nxnryYgvoabuIq42ffnFFSZkGkNi
+7GlgjSR5u0VeBoE6b+P7JBQBYwrQnyuLqC5TaeaAYqKaRWRvHyAca1rYlUvRZVf9
+DuQ+9WdteExuYMXJzfNuwst1BPmu1e94onAA2SOcyqOxY1036KIQ8ZqJ/lZKznnA
+icw2AHGqoWvOC0XiFjZQ7i3T0rpZz47c/+TfLYFIqY1TgMdQrYvkFwyPpDquXCi/
++RXtppSksbwsrpcyukyz9t4amutQ3d777YNo0ZSVoTcSby/qWHN+9VESexGgGb3O
+xklHMy9bA86QAhFF1u1ROy/AUznMTiMM7vpsOUJrdR1QmlhouaPV+wJvD+Hz0qV8
+EMy3uIL9zk87uAhB9IBDstcGKhZ1/NSZ5Gyz3mHbFZgynaBrKv0kCwUwWN4Y9zVO
+xchqPTw+ETux2wR2b4MDfJ/y
+=bXs6
+-----END PGP SIGNATURE-----
+
+--===============2080055080182180982==--
