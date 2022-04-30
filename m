@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
-Date: Sat, 30 Apr 2022 01:50:41 -0000
-Message-Id: <165128344173.22772.11067204444179914351@gitolite.kernel.org>
+Date: Sat, 30 Apr 2022 01:50:59 -0000
+Message-Id: <165128345969.23135.9848619310006113315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,453 +11,258 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kuba/linux
 user: kuba
 changes:
-  - ref: refs/tags/3.6-pci-fixes
-    old: 6549091b0c23166c9ce9a2e6cb4f70bbeeff4e8b
+  - ref: refs/tags/next-20180604
+    old: d681285f7448223783e77fe76e7dc5b3be6d2688
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/3.7-pci-fixes
-    old: 7ee682786464e68296470333c7ad05760765b850
+  - ref: refs/tags/next-20180614
+    old: c367a6e3cb28abe49b599aa7e2ea99c20bce2beb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/3.8-pci-fixes
-    old: 2ea5dc8206628943e1e74a5802b419a7bc7be854
+  - ref: refs/tags/next-20180622
+    old: 04108d2bcedc8cd3825473f302354eccc6d3bdda
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/3.8-pci-fixes-2
-    old: 1c71e38c20529ea12a36c150126e06d7f1bb5008
+  - ref: refs/tags/next-20180816
+    old: 6e8387cd573cc256ece0129e68d75181ef11f549
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/3.8-pci-fixes-3
-    old: 8e9f75fbdeeb5fd1610cd78783c78844e9b3703a
+  - ref: refs/tags/next-20180911
+    old: 55020a44ad74af23b71dd6b3c5535785ee0b8918
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-for-3.5
-    old: 056079564c1b82eecab27e09309ade3874a4289a
+  - ref: refs/tags/next-20181107
+    old: 748e8b4a9388c676c3be1793fb225e9c8423244c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.10-changes
-    old: db37d353302a965e81932ca23fbdef324138090e
+  - ref: refs/tags/next-20181119
+    old: a496186e649de69370a9d6a49d3b759b3ebcf00a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.10-fixes-1
-    old: 98c844774a234de824c600ff0bb47bcf329353dc
+  - ref: refs/tags/next-20181120
+    old: 163e0449334abae4f6f3dcbc30343a3d8e750159
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.10-fixes-2
-    old: c59b0ae5daac63ce0c2ba4a23b21a5436ef35822
+  - ref: refs/tags/next-20190201
+    old: 6e09d8a2291bac3ea915c11b883a627953518ab9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.10-fixes-3
-    old: eaa8925c125a66a300fdff7327e888bd5b681124
+  - ref: refs/tags/next-20190412
+    old: 635fb7a16e0636800b24599cdc822a2bab37faa0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.11-changes
-    old: 6ced4229e4943b9b6a190c678e02e224b619e0e1
+  - ref: refs/tags/next-20190417
+    old: 0c9f9ec708b91e3f974a7f5237935baf8b9d4f66
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.11-fixes-1
-    old: dabd06360925b436d82be5183398d3cb99b32cae
+  - ref: refs/tags/next-20190506
+    old: fa903b2b132d9a82b7e09d927c4aa2164873794a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.12-changes
-    old: 8b6bf7e277e335a54b7b39a858371574872828e6
+  - ref: refs/tags/next-20190620
+    old: 17cf6f8c7d1037ff44b0025b0ae5cd49c7a5a764
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.12-fixes-1
-    old: 3b53202c87d183fa2fe8a4ade4ce67bf4c33e418
+  - ref: refs/tags/next-20190719
+    old: 670edfb1de7627300b046f91f3438624a386ca59
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.13-changes
-    old: 47b37496eaed636c9bde700e33d9c71c2a3740bc
+  - ref: refs/tags/next-20191111
+    old: f81f045851e7fc7652e3b0ee3b0f173ca33da9c8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.13-fixes-1
-    old: 49f5b14906f6b03b6f5fee3f951c80f85607c5bc
+  - ref: refs/tags/next-20191120
+    old: 9ab6b3404141f6c4d0ab578133d0cd09acfc4317
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.13-fixes-2
-    old: da2c4abecabbc3c66009690ac81c8c0f48a8a266
+  - ref: refs/tags/next-20200110
+    old: 7cb3a6cc24beacc7d0c7749eb21911e305f4ca66
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.14-changes
-    old: 401c2bdba030511ca76ff320bb10d24e6c1cd286
+  - ref: refs/tags/next-20200410
+    old: 64f85b106bf5168ad1d82b407f902505267b1907
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.14-fixes-1
-    old: 925390b7f26358cfe4368ff546410ff2dc801353
+  - ref: refs/tags/next-20220401
+    old: 1b7f78e6dd6a14ff90c1effa3854dc22196602e5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.14-fixes-2
-    old: 725c80833f89d543db385ff84312a131ff57e03f
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-01-02
+    old: 0880bc14588470f3c0dabead3740ab4ab2ea284e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.14-fixes-3
-    old: 62b0e3d0ea9d81ddd86cdb67f0f90b44ee59a9b3
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-01-22
+    old: 519feb976c5aa39f6aae0b8a658748b482106e12
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.15-changes
-    old: 963ff659f6b1c688db5a013f20b9afd18480ca5f
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-02-07
+    old: 4b23937faed3209bd49b4ddb880d8cfed0db1f6b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.15-fixes-1
-    old: 603e4fb496394a1d6ba9f1f1dbf3758a73f8c2b9
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-03-06
+    old: f91231bcaed674c51ee03422f030401ceaca69fa
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.15-fixes-2
-    old: d1f3085f24bd7a13097e8dcfc3459779fbca94f0
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-04-01
+    old: fbdb74ed1f05686b5c811fb167e2f19c64e95923
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.16-changes
-    old: 7a2e85cf6d0cf6b71df9df16ece8af42a5a59911
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-04-09
+    old: 6c4a8296927ea19115c7f13ba84cb2efffcc7e91
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.16-changes-2
-    old: 66e51776ef794651cb5aa72b2173878965589f56
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-05-21
+    old: dd4c7f72bbebd1f95c758f4a57ba4e53ea485d25
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.16-fixes-1
-    old: fccf9560875606353b3e4813216ca0204a70ffb1
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-06-03
+    old: 71627a6f3f699a368c4242c25718fc517cddaa5e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.17-changes
-    old: 5de060f150c782e4aa594df35a0adbf81d603309
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-06-18
+    old: a8fc201ab74a7a2c13caa2ef8a2cb595ba4d2090
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.17-changes-2
-    old: 76ab7da520593c5435b4f1e2d857f315ce23d07f
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-07-31
+    old: 2d3295bd6c8062677516b1e073230a6a5b86e190
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.17-changes-3
-    old: 1a16cd04171318dfdd81a285ab196561db72d434
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-08-19
+    old: b1db0684f752f5af6dfbf357c30f387cf2e2b377
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.17-fixes-1
-    old: e0705ce47a7c579dfa9049a9442058b7050cb5f6
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-08-26
+    old: b73f7e27c698626ee455be5d5eca311f85ce32cc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.17-fixes-2
-    old: eff7a24726f77e6532111bf892227f67e311c807
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-10-09
+    old: 75564e62107cf28d303d3f844f330cedef039093
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.17-fixes-3
-    old: bcc4f008ab6753344b46d6c708d187143bdb8e89
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-10-27
+    old: b7cf219a774c9d68717a630348079359e57d9847
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.18-changes
-    old: 67006bd7c2cea81eb41d105299b7f121f0742f72
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-10-29
+    old: 861d6000b7d7f68c228ac5061b386d74598ce62a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.18-fixes-1
-    old: 966f33e93dea74ee706517ee382501e719777a67
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-11-25
+    old: f68fbd62ee9fbb59e1df23360dd8a5d7e41a823e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.18-fixes-2
-    old: 31bb60a0d23f80cfa7c87079e34af2dd6eefbca1
+  - ref: refs/tags/wireless-drivers-next-for-davem-2015-12-07
+    old: a502ba4938ef91077de6f199c215c6750076871b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.18-fixes-3
-    old: 9c3778f56dc1be5e78435a091e6c23ab314563bf
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-01-05
+    old: a3b606cbca5202b5d9d135a963ae8a7f40bc8999
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.18-fixes-4
-    old: e33a56a863ab22778d2f233c62af692831bd83a9
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-01-09
+    old: 5239ac8fbe38daa1b18cedb383a549ddb4936519
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.19-changes
-    old: 8b7b64aec6ab667b8843a9a472013b55c130cd03
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-02-12
+    old: 2c608a4a38c2d7c64088966b2c66376b0bed9a29
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.19-fixes-1
-    old: 6dc8fc57fa770f7507430411c2ff1af758c4c382
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-03-09
+    old: 7626a512b56c04172334193d4f4722d12686c73f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.19-fixes-2
-    old: a52c1cd5274da9d6ce660337cfb1e974537c4ab0
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-03-14
+    old: e0a7864b905b638a22f9e21f05aca2b54a4ad3e0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.20-changes
-    old: 63c2552317096d3d23a285f4fde7813e21ca38ba
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-04-11
+    old: 8cb6f64655052574cbfd6077d11deb3bb1175221
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.20-fixes-1
-    old: 1dfcddff368cd4a1ac408b327b0c07cd2466101d
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-05-02
+    old: 5f3076b8544978359af545afad0f7bc17e0dce54
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.9-changes
-    old: 882be21ab7519d834bb36ac7a7e8ba4f85802d21
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-05-13
+    old: 743502b64b19cacb7e27df6edb504081af9c5fc2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v3.9-fixes-1
-    old: d1d28be0415295a4cf9fe4d44eeca23fac014f8c
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-06-21
+    old: a4b44a5a28785c4d821e27421f0a13ca6e570125
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.0-fixes-2
-    old: 52329eb8c85a277aba73cbd44824d8551f23a9a1
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-07-13
+    old: 104c9890085b6c9f4239775fce520682de63d516
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.0-fixes-3
-    old: 4bcb7bcd09b7287e2419556361019a25989aab9b
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-07-22
+    old: 2825b6a0748a3cb76b0e07c86744e83a851bcb6a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.1-changes
-    old: 37aa051d94642ec9390accd5ea5e02fc68ee9f98
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-09-15
+    old: 7fe97ef87d36333be511729a07188e17445c6a69
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.1-fixes-1
-    old: 38c8a928baf844d06ba70bfdc458a1475f9f3c2d
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-09-29
+    old: ad8c04374827454a8a56ce8c2d4c15bc79a87664
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.1-fixes-2
-    old: 15148cd186a21f2a90c25bd73e734079e4dea584
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-11-25
+    old: 479d0a3950c1faeb70c823b9e4bb67a7d3259428
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.10-changes
-    old: 3f99600c5bda2a7cb2de893e05be525a65b0ebe6
+  - ref: refs/tags/wireless-drivers-next-for-davem-2016-12-01
+    old: 9204f0ca96217a2cb948ee646b9143db3d4581c8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.10-fixes-1
-    old: 96e3bad71173f157be147a9af345b161847e1338
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-01-02
+    old: d754d787fcffb30a3f2bba04c8a1da1b964576d0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.10-fixes-2
-    old: 8f8ae73b9a5e2917aa22d8a29392e0c7b1ae98bf
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-02-01
+    old: 4dba5b17fbd4754327f1329799d99b816b75b110
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.10-fixes-3
-    old: 2a4a6da91648565f10761c879d4f2227c8cbbd6c
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-02-09
+    old: aaebac87a3e20cb3af538798d56b2ac30bcf944e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.10-fixes-4
-    old: fc7428087a63ea699de1ab4b6b014c43362bd791
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-02-16
+    old: d16337735e5dbf79bae7b7e7fc7c60a6517213eb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.11-changes
-    old: 5eb9b8ddae9682be1b96d45ebed5191c4e4b20cd
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-04-07
+    old: 303a086faa1f66f8dbd05698dc9eb12360de2207
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.11-fixes-1
-    old: 3edeb4d46c6c8ed1921db9c35bcea2ad86faaebc
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-04-21
+    old: cc2ae77d030bee6997a4867b8f243e22b5a416c7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.11-fixes-2
-    old: 381647c0157995454cdee1a0b5d84242225b57ee
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-04-27
+    old: 69b5a5a1b732afdb829dec9adab496c6278c1d94
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.11-fixes-3
-    old: 8d6b942accad85b74e6e54b6af88594825bf0ce2
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-06-12
+    old: 4ab66a3841c25708107e53b4d39af576942be7dd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.11-fixes-4
-    old: 40b413beb27d60f267f0fdae31d1dc9f08e7c33d
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-06-25
+    old: d5d385454a18368e34547df24952742208f08295
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.11-fixes-5
-    old: 49b379d6e8bc519cd9c0bbf60102f9a94c0d9c36
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-06-30
+    old: ed3ca769ccb726d55dbbf058313ce5bce406254a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.12-changes
-    old: ebe00b75e7a33cc4807040ac20c36d0e7b0027f4
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-07-03
+    old: 380f483b67e0a3d658e661e71aa22325f1c1d67f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.12-fixes-1
-    old: 5b9e8dc6459d35fa2f6b8e06d12ca65a29638597
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-08-07
+    old: 7c54142760e6fecb1716bd79d96e80ddb5d79c6f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.12-fixes-2
-    old: 984f5ed3ed4c50f30ee9b4bc31916c16bcde5458
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-08-28
+    old: edf491c8cbb53d327daf3ebeb8308fb8891297ff
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.13-changes
-    old: df2f2e2e64ca050c73f3d9d6e13cb77ccb972f4a
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-09-01
+    old: 71708e5997f634b00c4389d7b8df71e77fbb336d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.13-fixes-1
-    old: 720b9c3efd7cd3c65a76e58377fb00fa600a7a68
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-10-18
+    old: 5918f6143dc64091e8bfc782b31c9187f798b3b8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.13-fixes-2
-    old: 6c9aa1064710bb52c577c059eaba5010eaa7e262
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-11-03
+    old: d9f20f70a65d004d27d22c3c3902c29056b385b4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.13-fixes-3
-    old: b35ccf820104250f06527dfe4c97d623983123c9
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-11-11
+    old: 357e4d84527ca1b6efd4059d8cdf086a2b3cebc2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-changes
-    old: bd7c4c9e0b5ac8271b9f5e561e878facc57cd4f3
+  - ref: refs/tags/wireless-drivers-next-for-davem-2017-12-18
+    old: 3c3499fa405f43e8030f609fae8001250a35a07d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-1
-    old: 43bbd32bf5424e6d1d4bec5cd8cf968257b9a677
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-01-13
+    old: 07b7d9dd1fc4a73a81d84383d2e54da01ac4ce13
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-2
-    old: e6fb6b2faf298ccfc4c666ebfd8f68d2cf19ddb9
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-01-19
+    old: dea23c2827431195a2fab855ba8a54e305a9227e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-3
-    old: 92734ee5ce33f9f45337773545f65fda05dfdca0
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-01-26
+    old: ee70d55c683ed0871fd37083e757760b8f667e9b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-4
-    old: 817f81ff100a8a32ef68cdeede2adca507b27dad
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-02-08
+    old: ce74dead4e31f94de9d86a1920314e4a9724c62f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-5
-    old: e85e40cce8d4e02b2bf2b7443b3ae6424896ed4c
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-03-24
+    old: e167edd99b7183f3baaa7cb672b3bb74709971e0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-6
-    old: 3d43bd4761159f2425ff1f1fc5add65be1588aa8
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-03-29
+    old: d65778340d04849fb778ef3586628c05f30e6fc2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.14-fixes-7
-    old: 1459341315d3648e25f8fc9bdbb69f75967fae8b
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-05-17
+    old: 59938ccc41169a3b61ac1116965f1e9424e9f84a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.15-changes
-    old: a1fc4d915a2facee29c4c4b8f98e45ca0aa46653
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-05-31
+    old: 77e5a40b7ef2bf50e2e04d8256cdeeaaa4f8a1aa
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.15-fixes-1
-    old: 4d26a7ebf9e824a7c95b32f228825288d92abb63
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-07-23
+    old: 7ac81c08d44c7660e91fabdcee75a71f18f36516
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.15-fixes-2
-    old: c4f1f858045d142e681af62d6296499b35fe55e3
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-08-05
+    old: bfd8c3ce6a6246928bdb426eb51f188ecf23a4c8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.15-fixes-3
-    old: 34a46571283912abcb6cfad5e783822f4a52d122
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-08-12
+    old: 1de24efd236c3d822336e8b2e81b12655a2c36e2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.16-changes
-    old: 447e36da9e5d1dda939d6b579e1c758827968c4b
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-10-02
+    old: 9d50f44a32c6a3fa65891bc18ea02005407526e7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.16-fixes-1
-    old: 4e840fd24868404ffb313b61a2001ed0aef79a6d
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-10-07
+    old: c7b738fedbd558d5f24cc43ad0425995361ff11d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.16-fixes-2
-    old: f5fda94664fb9c6382dc8591cf97a693ffad17ff
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-10-14
+    old: 6fc761de53896c75d2e7a875d2359245759d4212
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.16-fixes-3
-    old: b7577c2138ebbc15e8ecde8346c0d7062705566a
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-11-30
+    old: 12cfde725f0ac853fb5a0348e732df02110b34d7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.17-changes
-    old: af3233f8d4ba1aa502149a965a1b989f9101e80a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.17-changes-2
-    old: 72e951f2e1d27395fba23b52beefcdfbb150c5bd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.17-fixes-1
-    old: cd01f3a5c208a94925d2205718e45ed5222f8d56
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-changes
-    old: cf8ab5b3c39673de71f4bea4c2a60d63e73cd79d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-changes-2
-    old: bff41e4a99f1f5b65987f7dc0172ce17a66ddaec
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-fixes-1
-    old: 48f7e09d00bd7d9f0b58a6e062e6ccb588a47bfc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-fixes-2
-    old: 159d4b8db626a2c814e0118b1df552027aaa0d68
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-fixes-3
-    old: 55fe07966b57f0c167a847ac3255089484196f84
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-fixes-4
-    old: 3e73a96681dcafe39f4a181d35a7cab310b091cb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.18-fixes-5
-    old: ac745528e1eb845e808def28fcacd055043d596c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.19-changes
-    old: c9d29af2d38036a598a400a79f0e6b72f78c0f62
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.19-fixes-1
-    old: 3a0a43ca957a5b361382393efb96438ef49f5562
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.19-fixes-2
-    old: 6b0ba2c941ced535e8b183bc1df0329cf4bedd81
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.19-fixes-3
-    old: ee912710eef2e0cfacb06e29660aa6e82321eb7a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.2-changes
-    old: f7162d1be994f15cf46761ea19ed0ea113337b43
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.2-fixes-1
-    old: 353b7e68bbc4b0f3e5390d81a616cbbf35362273
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.2-fixes-2
-    old: b3a00ff2defcaedab4605043c00048783d979a0c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.20-changes
-    old: 1f3d53d8b405bef778f77764ae1f84b6bfff3610
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.20-fixes-1
-    old: cf3f421e2a903e38b9acc65ddc93891702b624e5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.20-fixes-2
-    old: 11bd6fa8178acc5ff748c2e068314aeae161c1ac
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.20-fixes-3
-    old: f013e0667ab15a8fbfa6aa95a764a469a3c84337
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.20-fixes-4
-    old: ac19ff768303efc51d474b9f7b12c6daac3a33ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.21-changes
-    old: 4b340e74542e4c1d1dc4a648ef615782d5e0b312
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.3-changes
-    old: f54d7893ab9d188f90a66d51ad7a1a1bce43c8d7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.3-fixes-1
-    old: a3e4e20fdbbe74565526db1e04065c01162c3b43
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.3-fixes-2
-    old: d6383212a7b3cb55b7a97951ee982fc412ad6540
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.4-changes
-    old: 3525bd10e1ba062503b28f002b73e79722828274
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.4-fixes-1
-    old: 268f173f73af71febc40bd8f68ee8916e60efe5b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.4-fixes-2
-    old: a2325f0247e5d06ac5f4c0d71f2a7ce806c53a7b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.4-fixes-3
-    old: 50b3224768a6d7cb0b0694d85d01b58ce7f03807
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.4-fixes-4
-    old: 42b59cdee69badcad4ffe9a573780d1b5ba28509
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.5-changes
-    old: e16c1233b35a3ddcda9c0650609c08caf0624f2f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.5-fixes-1
-    old: 800d47f6df75e6dc53f4942576e04d802959a4f4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.5-fixes-3
-    old: 8ba0342241f5bdf28b5a4d74e5c4e84e507b3f4e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.5-fixes-4
-    old: 6c67285a69324b781282d2f2254a8b6109f98910
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.5-fixes-5
-    old: 1b49df18c0f70221e6674053a85195d7e250b789
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.6-changes
-    old: dafefc8045a71d78479ad34c07d73f21143ac5c3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.6-fixes-1
-    old: 7f7466c315a181ef4c7ccbb4c6b07e9adab1099b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.6-fixes-2
-    old: a5893a89296861fcc098fd8d28edfe7bc15e246e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.6-fixes-3
-    old: aa61c32b721654955831624e89926a4aa4ddfd49
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.7-changes
-    old: 59f92666b76cd0253757bcb0ef5267fe37e9fe48
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.7-fixes-1
-    old: 0f7eebf8ff16e6fee23399b554a991fe7ef8dfb9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.8-changes
-    old: 0139eb2a3edbd02a6c12f5cf6cb81582a5c5a5c6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.8-fixes-1
-    old: a8c4e2294974b5155c64a6c378bebd0b51c27ceb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.8-fixes-2
-    old: 1ca2463515fd19a18f8f0fd3444ec088f8f355ca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.9-changes
-    old: f5674789116d9317ed0af3cfebf6ac76c7f69b32
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.9-changes-2
-    old: d0e1f38690975145a9e345a9a45590537af6e463
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.9-fixes-1
-    old: 244f9a598a5b999234229ccb4d095cb97529bc5b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.9-fixes-2
-    old: 51748853698057cfca6cf5a9cbd91ccd7895bfd3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.9-fixes-3
-    old: c67622a24d7aa601d2c99c762e3af241d98d3073
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v4.9-fixes-4
-    old: 162de53c5c51fa80ed3163f4f590e133461e1ad4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.0-changes
-    old: 48d839af70dfab5a6d6d2adb34b431683f262830
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.0-fixes-1
-    old: 7338b10791f440a0d4a559f4dc6eb2d466b959d8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.0-fixes-2
-    old: fa35049e2cc33c9b5c8693105398f10ca1292afa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.0-fixes-3
-    old: b32ef34b6315abdebac09ebf162727a9446fffe5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.0-fixes-4
-    old: 1a0636257250f9496b76d36226dc4bec981aad59
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.1-changes
-    old: b11f3415c487a94e9170acf6a6aef177155039b2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.1-fixes-1
-    old: 60bf704c25734b05a38d6498078f6eeac8840d68
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.1-fixes-2
-    old: 8566b50cf06af46e5ea42afb5577c51cc96e4d1e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.1-fixes-3
-    old: 09d0ccac88ee82a185e0c66771d142a74a43406c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.2-fixes-1
-    old: f5489bbbdf682784aab50a79c08bff744411a489
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.3-changes
-    old: a2af6a9d7fafc611c0bbb82a040d283768077287
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.3-fixes-1
-    old: 223249045598c272969fb5a0f445d70bc04224c9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.4-changes
-    old: eba655b086b4847e17816e8076360edad2b3ccc4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.5-changes
-    old: 92df4e17f8f72cd47ca350cb196e66f664a047c1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pci-v5.5-fixes-1
-    old: 6ef536616a6f8a2af6f0aaf4faff981eff134668
+  - ref: refs/tags/wireless-drivers-next-for-davem-2018-12-20
+    old: 0f625776ffddcd9c02a29dfebb95791c1dbfac02
     new: 0000000000000000000000000000000000000000
