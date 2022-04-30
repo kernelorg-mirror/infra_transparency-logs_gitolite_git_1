@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 30 Apr 2022 12:38:40 -0000
-Message-Id: <165132232040.4309.3235456793795167845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 30 Apr 2022 12:39:01 -0000
+Message-Id: <165132234136.4504.6691294217065991008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 1a15267b7be77e0792cf0c7b36ca65c8eb2df0d8
-    new: 95098d5ac2551769807031444e55a0da5d4f0952
+    old: 783d108dd71d97e4cac5fe8ce70ca43ed7dc7bb7
+    new: 2f187bfa6f35cc8bf1626bfc09449a09a6063ea1
     log: |
-         95098d5ac2551769807031444e55a0da5d4f0952 net: cpsw: add missing of_node_put() in cpsw_probe_dt()
+         2f187bfa6f35cc8bf1626bfc09449a09a6063ea1 net: ethernet: ocelot: remove the need for num_stats initializer
          
