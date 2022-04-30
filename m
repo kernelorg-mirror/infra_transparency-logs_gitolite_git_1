@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
-Date: Sat, 30 Apr 2022 01:50:59 -0000
-Message-Id: <165128345969.23135.9848619310006113315@gitolite.kernel.org>
+Date: Sat, 30 Apr 2022 01:51:44 -0000
+Message-Id: <165128350443.23530.9751450396425449030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,258 +11,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kuba/linux
 user: kuba
 changes:
-  - ref: refs/tags/next-20180604
-    old: d681285f7448223783e77fe76e7dc5b3be6d2688
+  - ref: refs/tags/enforcement-4.14-rc6
+    old: 5a2594559f6380d4d81a821fd46f6f94b4ddd2e6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20180614
-    old: c367a6e3cb28abe49b599aa7e2ea99c20bce2beb
+  - ref: refs/tags/enforcement-4.14-rc8
+    old: 692845c1a3ef3d7694eda56ea8f6d04d496bfa6f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20180622
-    old: 04108d2bcedc8cd3825473f302354eccc6d3bdda
+  - ref: refs/tags/for-3.6
+    old: db3bc2300970f42f69cc41bbeb198789ad02ea7c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20180816
-    old: 6e8387cd573cc256ece0129e68d75181ef11f549
+  - ref: refs/tags/for-3.7
+    old: edfe41150ba037128573f67cf0ed570da2be548b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20180911
-    old: 55020a44ad74af23b71dd6b3c5535785ee0b8918
+  - ref: refs/tags/for-3.8
+    old: 0ae85db23e102971ed57ef1c0ac9c42994f48450
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20181107
-    old: 748e8b4a9388c676c3be1793fb225e9c8423244c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20181119
-    old: a496186e649de69370a9d6a49d3b759b3ebcf00a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20181120
-    old: 163e0449334abae4f6f3dcbc30343a3d8e750159
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20190201
-    old: 6e09d8a2291bac3ea915c11b883a627953518ab9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20190412
-    old: 635fb7a16e0636800b24599cdc822a2bab37faa0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20190417
-    old: 0c9f9ec708b91e3f974a7f5237935baf8b9d4f66
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20190506
-    old: fa903b2b132d9a82b7e09d927c4aa2164873794a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20190620
-    old: 17cf6f8c7d1037ff44b0025b0ae5cd49c7a5a764
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20190719
-    old: 670edfb1de7627300b046f91f3438624a386ca59
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20191111
-    old: f81f045851e7fc7652e3b0ee3b0f173ca33da9c8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20191120
-    old: 9ab6b3404141f6c4d0ab578133d0cd09acfc4317
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20200110
-    old: 7cb3a6cc24beacc7d0c7749eb21911e305f4ca66
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20200410
-    old: 64f85b106bf5168ad1d82b407f902505267b1907
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20220401
-    old: 1b7f78e6dd6a14ff90c1effa3854dc22196602e5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-01-02
-    old: 0880bc14588470f3c0dabead3740ab4ab2ea284e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-01-22
-    old: 519feb976c5aa39f6aae0b8a658748b482106e12
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-02-07
-    old: 4b23937faed3209bd49b4ddb880d8cfed0db1f6b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-03-06
-    old: f91231bcaed674c51ee03422f030401ceaca69fa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-04-01
-    old: fbdb74ed1f05686b5c811fb167e2f19c64e95923
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-04-09
-    old: 6c4a8296927ea19115c7f13ba84cb2efffcc7e91
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-05-21
-    old: dd4c7f72bbebd1f95c758f4a57ba4e53ea485d25
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-06-03
-    old: 71627a6f3f699a368c4242c25718fc517cddaa5e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-06-18
-    old: a8fc201ab74a7a2c13caa2ef8a2cb595ba4d2090
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-07-31
-    old: 2d3295bd6c8062677516b1e073230a6a5b86e190
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-08-19
-    old: b1db0684f752f5af6dfbf357c30f387cf2e2b377
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-08-26
-    old: b73f7e27c698626ee455be5d5eca311f85ce32cc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-10-09
-    old: 75564e62107cf28d303d3f844f330cedef039093
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-10-27
-    old: b7cf219a774c9d68717a630348079359e57d9847
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-10-29
-    old: 861d6000b7d7f68c228ac5061b386d74598ce62a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-11-25
-    old: f68fbd62ee9fbb59e1df23360dd8a5d7e41a823e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2015-12-07
-    old: a502ba4938ef91077de6f199c215c6750076871b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-01-05
-    old: a3b606cbca5202b5d9d135a963ae8a7f40bc8999
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-01-09
-    old: 5239ac8fbe38daa1b18cedb383a549ddb4936519
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-02-12
-    old: 2c608a4a38c2d7c64088966b2c66376b0bed9a29
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-03-09
-    old: 7626a512b56c04172334193d4f4722d12686c73f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-03-14
-    old: e0a7864b905b638a22f9e21f05aca2b54a4ad3e0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-04-11
-    old: 8cb6f64655052574cbfd6077d11deb3bb1175221
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-05-02
-    old: 5f3076b8544978359af545afad0f7bc17e0dce54
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-05-13
-    old: 743502b64b19cacb7e27df6edb504081af9c5fc2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-06-21
-    old: a4b44a5a28785c4d821e27421f0a13ca6e570125
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-07-13
-    old: 104c9890085b6c9f4239775fce520682de63d516
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-07-22
-    old: 2825b6a0748a3cb76b0e07c86744e83a851bcb6a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-09-15
-    old: 7fe97ef87d36333be511729a07188e17445c6a69
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-09-29
-    old: ad8c04374827454a8a56ce8c2d4c15bc79a87664
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-11-25
-    old: 479d0a3950c1faeb70c823b9e4bb67a7d3259428
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2016-12-01
-    old: 9204f0ca96217a2cb948ee646b9143db3d4581c8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-01-02
-    old: d754d787fcffb30a3f2bba04c8a1da1b964576d0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-02-01
-    old: 4dba5b17fbd4754327f1329799d99b816b75b110
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-02-09
-    old: aaebac87a3e20cb3af538798d56b2ac30bcf944e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-02-16
-    old: d16337735e5dbf79bae7b7e7fc7c60a6517213eb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-04-07
-    old: 303a086faa1f66f8dbd05698dc9eb12360de2207
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-04-21
-    old: cc2ae77d030bee6997a4867b8f243e22b5a416c7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-04-27
-    old: 69b5a5a1b732afdb829dec9adab496c6278c1d94
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-06-12
-    old: 4ab66a3841c25708107e53b4d39af576942be7dd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-06-25
-    old: d5d385454a18368e34547df24952742208f08295
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-06-30
-    old: ed3ca769ccb726d55dbbf058313ce5bce406254a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-07-03
-    old: 380f483b67e0a3d658e661e71aa22325f1c1d67f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-08-07
-    old: 7c54142760e6fecb1716bd79d96e80ddb5d79c6f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-08-28
-    old: edf491c8cbb53d327daf3ebeb8308fb8891297ff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-09-01
-    old: 71708e5997f634b00c4389d7b8df71e77fbb336d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-10-18
-    old: 5918f6143dc64091e8bfc782b31c9187f798b3b8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-11-03
-    old: d9f20f70a65d004d27d22c3c3902c29056b385b4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-11-11
-    old: 357e4d84527ca1b6efd4059d8cdf086a2b3cebc2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2017-12-18
-    old: 3c3499fa405f43e8030f609fae8001250a35a07d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-01-13
-    old: 07b7d9dd1fc4a73a81d84383d2e54da01ac4ce13
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-01-19
-    old: dea23c2827431195a2fab855ba8a54e305a9227e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-01-26
-    old: ee70d55c683ed0871fd37083e757760b8f667e9b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-02-08
-    old: ce74dead4e31f94de9d86a1920314e4a9724c62f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-03-24
-    old: e167edd99b7183f3baaa7cb672b3bb74709971e0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-03-29
-    old: d65778340d04849fb778ef3586628c05f30e6fc2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-05-17
-    old: 59938ccc41169a3b61ac1116965f1e9424e9f84a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-05-31
-    old: 77e5a40b7ef2bf50e2e04d8256cdeeaaa4f8a1aa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-07-23
-    old: 7ac81c08d44c7660e91fabdcee75a71f18f36516
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-08-05
-    old: bfd8c3ce6a6246928bdb426eb51f188ecf23a4c8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-08-12
-    old: 1de24efd236c3d822336e8b2e81b12655a2c36e2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-10-02
-    old: 9d50f44a32c6a3fa65891bc18ea02005407526e7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-10-07
-    old: c7b738fedbd558d5f24cc43ad0425995361ff11d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-10-14
-    old: 6fc761de53896c75d2e7a875d2359245759d4212
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-11-30
-    old: 12cfde725f0ac853fb5a0348e732df02110b34d7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireless-drivers-next-for-davem-2018-12-20
-    old: 0f625776ffddcd9c02a29dfebb95791c1dbfac02
+  - ref: refs/tags/pci/for-linus
+    old: b4aef5ce82f1d27e0f14d1f8488dc2db9c22dd38
     new: 0000000000000000000000000000000000000000
