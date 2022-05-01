@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6293993179992711309=="
+Content-Type: multipart/mixed; boundary="===============7718639149419409558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 01 May 2022 15:24:55 -0000
-Message-Id: <165141869581.7910.14541754143477929397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 01 May 2022 15:31:43 -0000
+Message-Id: <165141910341.8024.8563726538390364399@gitolite.kernel.org>
 
---===============6293993179992711309==
+--===============7718639149419409558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 690a443d7a15a35979393b92f1aae1ede464d413
-    new: a7161362e4baf58f5daddcd7f2e78b17168a19f8
-    log: |
-         a7161362e4baf58f5daddcd7f2e78b17168a19f8 Notes added by 'git notes add'
-         
+  - ref: refs/heads/net-next-mlx5
+    old: 7b76784bdfbc1b62a458f120d85e928e01452c99
+    new: c1382cc4f571fed1090ca744126354d2bc56673f
+    log: revlist-7b76784bdfbc-c1382cc4f571.txt
 
---===============6293993179992711309==
+--===============7718639149419409558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7b76784bdfbc-c1382cc4f571.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651418694 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1651418693-fd8358dcc16c20fa4186a93d3d6088cb76481f7f
+0ed99ecc95b9c1d3c46d3bc34459088e82caef32 net: phy: marvell: update abilities and advertising when switching to SGMII
+14bfee9b62702ccac3014f1291943fabebafd5bc sock: dedup sock_def_write_space wmem_alloc checks
+052ada096842a910327936b4ed203048906eb2c3 sock: optimise UDP sock_wfree() refcounting
+0a8afd9f026a7f6c835be0fed2ab709d4133797f sock: optimise sock_def_write_space barriers
+b97af72209eedccb79a146b7b6243cffb20739b2 Merge branch 'UDP-sock_wfree-opts'
+961c6136359eef38a8c023d02028fdcd123f02a6 net: enable memcg accounting for veth queues
+1d50635cb0ecd6d183548dd2fe2d8be57b1f7f0b Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+181daa8c7de508cc55cabb918e29d9c8c49e6dba Revert "net: openvswitch: remove unneeded semicolon"
+11f7b148f91fb9428fe6d3fe1ce6f9682472b831 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+320157a44266d316fd4b7ff026f78aabd3d9f37d net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+3235306757f2290e5a218b76c7efca59a8df3670 net/mlx5: use kvfree() for kvzalloc() in mlx5_ct_fs_smfs_matcher_create
+c1382cc4f571fed1090ca744126354d2bc56673f net/mlx5: Remove useless kfree
 
-690a443d7a15a35979393b92f1aae1ede464d413 a7161362e4baf58f5daddcd7f2e78b17168a19f8 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJupkYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qvAQAJRuGeBvMNWK2/2pP59U
-2pjWPKEBM0rfHTSj/LazdCwxrEz/Vi6srPCoq4HSpxJmRIT8Vk+6tCIbXG0jLB+b
-LYpgAEv6FqH+eUzK3JGDyIg2vUZvAuE+7OEceOIQqE7oJS8kO2jtZBYhaVCUp6g3
-zXFHLmdjTPdXh+0c6v+cFOp2++E9JyCMTepXZzSUk1hpUR2IooHrYwf9HwoPXdsh
-PeMSVZjW1y5XHtH0FNz0ikbcZZh0he8s9Xv5KkOmJ2DWtEU3rIjR54bMqBIBGDh9
-APX1hHjAGZHX245s/4tHHnYgxG8aNmTimNdLdHCJ2LopR58fk9ZzZTdWD9N2HjIV
-dTeExr8HQ8hGPfGRZyEdgcMiZhd9I3yXWQ/Vq2iRWP6UmLk/RhK5c/Yf/Xqs/pCy
-xme+lnobT/y0595KAL5Pyj9rVaQiPGiOyfPdkBFz4nxOyour6Sc9SV/HbTLttT48
-Wwqfwuo3yMGs3+uXBpopopECFu+1/+DK52vDXZmncgxSJY5aSw5OGFn/aaQ9Qls0
-+UtokTyECmPdcL9dlKtpTP1WyPMhFDGNMMlzx2XOsfVHGXYlwuzilmiaoPCQXrFC
-HVuCEyyh0NIi+QYTzCVElgODleQ9rcHFr+MPPJ8wPcfYcEP5PBRUbQf5Uzpsu3S7
-s5QjrKIoPBBivD5Q3RuM3SBs
-=I4iV
------END PGP SIGNATURE-----
-
---===============6293993179992711309==--
+--===============7718639149419409558==--
