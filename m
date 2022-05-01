@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4631875428655869792=="
+Content-Type: multipart/mixed; boundary="===============1183902923931371231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 01 May 2022 18:33:24 -0000
-Message-Id: <165143000462.31157.14615908010720602138@gitolite.kernel.org>
+Date: Sun, 01 May 2022 18:35:46 -0000
+Message-Id: <165143014680.1165.6594240562955039096@gitolite.kernel.org>
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,303 +16,309 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 8b945d7deeb69e81b03116aebb071da75ee03f8b
-    new: 55236a06e22b3eaef8f7ad90bed3ec8e07e07f1f
-    log: revlist-8b945d7deeb6-55236a06e22b.txt
+    old: 55236a06e22b3eaef8f7ad90bed3ec8e07e07f1f
+    new: 3f1ed560ad96362e92dce8a4bb8edf8ce6723084
+    log: revlist-55236a06e22b-3f1ed560ad96.txt
   - ref: refs/heads/queue/4.19
-    old: bc44e47dbe9792fb5c89c95ce2faafc68498bbfb
-    new: b77f30151322cc50b938d775ba1af33711da52ef
-    log: revlist-bc44e47dbe97-b77f30151322.txt
+    old: b77f30151322cc50b938d775ba1af33711da52ef
+    new: dbc1e8c595a85455af088cb496e5cd742ac7d54e
+    log: revlist-b77f30151322-dbc1e8c595a8.txt
   - ref: refs/heads/queue/4.9
-    old: 3e76be30ebc3eff5775c712913ff5ae51dccb659
-    new: f06d9cb595d377be41a3f809fb7e600e9c1a81d9
-    log: revlist-3e76be30ebc3-f06d9cb595d3.txt
+    old: f06d9cb595d377be41a3f809fb7e600e9c1a81d9
+    new: ffabe52339fbc89bc075c04b9783a2702e23dec0
+    log: revlist-f06d9cb595d3-ffabe52339fb.txt
   - ref: refs/heads/queue/5.10
-    old: c0c3068aa0c2673dc70e6813e54d8225ce1eb5f9
-    new: 31fbc68df6f9b2c1c436c42f98a549822a253776
-    log: revlist-c0c3068aa0c2-31fbc68df6f9.txt
+    old: 31fbc68df6f9b2c1c436c42f98a549822a253776
+    new: 621e7ad202a1a0bbf09ed57a662d0c7d28e1ef2c
+    log: revlist-31fbc68df6f9-621e7ad202a1.txt
   - ref: refs/heads/queue/5.15
-    old: bcb411ba6def313a94787f39a04ecc68b731f023
-    new: 8e9065cf8c267c1c1abfd5219ee406b8cb4fb075
-    log: revlist-bcb411ba6def-8e9065cf8c26.txt
+    old: 8e9065cf8c267c1c1abfd5219ee406b8cb4fb075
+    new: b95fc2b51e82777d231ad4aef1d19adc3ad17353
+    log: revlist-8e9065cf8c26-b95fc2b51e82.txt
   - ref: refs/heads/queue/5.17
-    old: 5e048ef5b622aef639626c9fa969b2c8d96af5a1
-    new: aba2c3dc8336a1a77ef5e3f6cfad609a2c0856d6
-    log: revlist-5e048ef5b622-aba2c3dc8336.txt
+    old: aba2c3dc8336a1a77ef5e3f6cfad609a2c0856d6
+    new: 7b4520db8d2af47c0037f7c0deed0aba7ac4c27e
+    log: revlist-aba2c3dc8336-7b4520db8d2a.txt
   - ref: refs/heads/queue/5.4
-    old: 9cc063ff1c82cad3589ff46350885cdf082b86d3
-    new: 88b47c4162551942b0cbd1b3a948db80e413316b
-    log: revlist-9cc063ff1c82-88b47c416255.txt
+    old: 88b47c4162551942b0cbd1b3a948db80e413316b
+    new: 795a5055b335909e546d59eb7afd9a0626adcd37
+    log: revlist-88b47c416255-795a5055b335.txt
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b945d7deeb6-55236a06e22b.txt
+Content-Disposition: attachment; filename=revlist-55236a06e22b-3f1ed560ad96.txt
 
-1b50fc3361d7a0f18391ce6fab21a065bb68fd35 floppy: disable FDRAWCMD by default
-cac417ed2b0646664eceab229558cf29c3979b55 hamradio: defer 6pack kfree after unregister_netdev
-36efdbd439dc4207d30a44184299ed8099842ce2 hamradio: remove needs_free_netdev to avoid UAF
-833fb8b6b5534b01ecffa10f49deefe3f89ece1f net/sched: cls_u32: fix netns refcount changes in u32_change()
-ea7d59258f635702bdcd12732ac7e2847afdcc3f Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-e2a6c647dd23bb30809c1e002d2f373dfc7dd1b9 lightnvm: disable the subsystem
-7cec9283e4c5aad061c4612e64da65f32ab288ab usb: mtu3: fix USB 3.0 dual-role-switch from device to host
-182d69298be4b16de17ca2e13549c25bbc4bdce9 USB: quirks: add a Realtek card reader
-584138b9ca15fdf8985d873640ac568b23a03897 USB: quirks: add STRING quirk for VCOM device
-b66a5ea98c115c5f118f5afc290e6d46368388a9 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-364fe964c4d48f139fdc08103265b6b913ad52bf USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-6cac62f32f517f860ee55a0b6744028e268f8585 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-1ec6bdd3bffb8bf850275227440581bab3f8eb20 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-4e9fba90d2e865c2c8699b73b6b3ebffc1a5a51e xhci: stop polling roothubs after shutdown
-8e23587fbac021e8d7b052dcb7c4887707319aa1 iio: dac: ad5592r: Fix the missing return value.
-0e7569662e9928f1d41845cae2b2d8b9bc05c962 iio: dac: ad5446: Fix read_raw not returning set value
-2ec93c3798ffb89edfd2760569aec658ed2ed8c8 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-52adcbe746b4317c5048ae1ccf7608fadbacfe89 usb: misc: fix improper handling of refcount in uss720_probe()
-3f2ae238af6c4593b8445715d7c0df9c1900bd02 usb: gadget: uvc: Fix crash when encoding data for usb request
-e7965c7926c72843ab89726f47011f079d9c5074 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-5a645f7c3161d504429e95ab3cb0057d90fef01b serial: 8250: Also set sticky MCR bits in console restoration
-ff9f0d519244b13446bd488257dbb6c6ca689acc serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-ea16e34e6d47018f86e068a20ff980e871d609e0 hex2bin: make the function hex_to_bin constant-time
-55236a06e22b3eaef8f7ad90bed3ec8e07e07f1f hex2bin: fix access beyond string end
+777c28b5d16ce8a0a86b303e361a4ba0011e984f floppy: disable FDRAWCMD by default
+0e9ebcf4e0b2196da51b4002353ffb2ab1d90572 hamradio: defer 6pack kfree after unregister_netdev
+82b1ec1b9bdd9f8891f7c2d19fd565e15efac855 hamradio: remove needs_free_netdev to avoid UAF
+bab61997ba046cca3d793d1992aaeff43a4d852d net/sched: cls_u32: fix netns refcount changes in u32_change()
+260037106464075e01cd9c7cf2d0fa3ee14e1c06 Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
+c5613147ff065b3acb451fb9551f03608d98b3ec lightnvm: disable the subsystem
+220474ca91844f3b8da6e5eb20c3fa32a77b6e8f usb: mtu3: fix USB 3.0 dual-role-switch from device to host
+a471feb25f67fb665edd2c8479320b7d5ce2d677 USB: quirks: add a Realtek card reader
+484616228e4f64782b5bbe65cca4ec60b7be3261 USB: quirks: add STRING quirk for VCOM device
+f0bf8328a3c2af180814736a1a2df1495c30e255 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+a5705f6216d7b4306a53a122638527dabb49c3ae USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+b686541bd8fbd08ac3d5441770f8ad007d10b2f2 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+679c0c4cf0e53b6eed2c9854c92db1f6e042596d USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+fd564306e9a97a7672e0ad14d1bf2f2ca29705ba xhci: stop polling roothubs after shutdown
+80baedf0fe0201b2a754f6cd8405d856e3c9bf77 iio: dac: ad5592r: Fix the missing return value.
+83bde5d60b7ffe08f7b0f6998f3f14dcaad86576 iio: dac: ad5446: Fix read_raw not returning set value
+a40af336a857d756a714211ed622f5b6b404271c iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+e0240cc6edf3b2060aaf0317b8c1a7ac78f34b5e usb: misc: fix improper handling of refcount in uss720_probe()
+adb913229b131804f1018bc9e51ce43853cddf9f usb: gadget: uvc: Fix crash when encoding data for usb request
+648d03edd47464b2cdb9ce6851767da69ef8f0fa usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+c7ae9396c77ffd2c8016808de234a95f78501b7e serial: 8250: Also set sticky MCR bits in console restoration
+584de751cbacc0592cfdc7016160b3c12b216443 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+090c6b9f4f17e3be55e0fffcdec243b55e2842d6 hex2bin: make the function hex_to_bin constant-time
+3f1ed560ad96362e92dce8a4bb8edf8ce6723084 hex2bin: fix access beyond string end
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc44e47dbe97-b77f30151322.txt
+Content-Disposition: attachment; filename=revlist-b77f30151322-dbc1e8c595a8.txt
 
-f105a0564b685ffbbb7e7df96c7475157d3dae2d usb: mtu3: fix USB 3.0 dual-role-switch from device to host
-dfc5beefe8cd4ad4c406671ca16aa440e02410e5 USB: quirks: add a Realtek card reader
-37bf84c815d6169b23b8c06b8b5fdc65933b28e3 USB: quirks: add STRING quirk for VCOM device
-aa76b5f070d64f007e196ed6f42b94b9de96d676 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-0756a62754f56c1311c712e468c60b332f07177d USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-168c0f1297822413c72caeb237b6b9e5eb7da808 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-e2a22a2a5ba7e615db04c40406c7ef3254de4e0b USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-6e12b39a2f9c77989f065718a9939c0b92cbf0d4 xhci: stop polling roothubs after shutdown
-0f2590baf8638be53ec585bd83583b3a04042ee2 iio: dac: ad5592r: Fix the missing return value.
-01ecb38ecf29bbc78e1dee848f0e95896cde64c9 iio: dac: ad5446: Fix read_raw not returning set value
-b03455a192c29812c8d4edbe6386e146f323b7d9 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-0259c4f23a7c839a513deccae3e4940c5c3b7dc5 usb: misc: fix improper handling of refcount in uss720_probe()
-2077b1d757714c40ad3d0c47e1a0e71391653453 usb: gadget: uvc: Fix crash when encoding data for usb request
-db116179733f41b75e149c01b8f62d92afaf2d8b usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-1665bd5f0b6b59e2888dc207f07845f2b7bf2548 usb: dwc3: core: Fix tx/rx threshold settings
-7f45e0698b1ec256366a5739096ce4e258ffa8a1 usb: dwc3: gadget: Return proper request status
-c0452ddf067bd9eb3fa5e719aa5d5974a5455925 serial: imx: fix overrun interrupts in DMA mode
-6479e4667b25a2c6b9b8cfbe2fbc384c7de60175 serial: 8250: Also set sticky MCR bits in console restoration
-a9332d52e232ea744fd0153abdc3be294baa602c serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-696bfbd2aa766adf0bbb70f3c0ccde2cc4453833 hex2bin: make the function hex_to_bin constant-time
-b77f30151322cc50b938d775ba1af33711da52ef hex2bin: fix access beyond string end
+5c58193ad19d8d7defac14e0a922734cc1b8abc9 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
+ffe703dd93ddca6f57dcc1df9e1b25e80cee61ea USB: quirks: add a Realtek card reader
+9561c3f6f8900a6be2b64c42cb8273c8debecb7d USB: quirks: add STRING quirk for VCOM device
+01f2232c78681b11e5503ea2db720c19029cae56 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+c61125a09550cdd0970ff224048961be35ebe29e USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+5326ff2dea7199dd931ec05a36998e28515c8c03 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+c9cb83c65944cb513618a8b1168bc7c3daffbac0 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+eaa591a51a47d8d6ddc1c935ef7038891d9cf127 xhci: stop polling roothubs after shutdown
+0cb908e7a0344749659c72dcb8eafe21734c5102 iio: dac: ad5592r: Fix the missing return value.
+25a02d56168b11a84d80eb3bcad647499d403a6b iio: dac: ad5446: Fix read_raw not returning set value
+5df75f72f3bf0a25adf8c997ba49b53698cbd22f iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+bf06c452e2b9590f1bc91acfcb8034a668c927bf usb: misc: fix improper handling of refcount in uss720_probe()
+787fa6878a863240c3f492dc54246126d4bae74f usb: gadget: uvc: Fix crash when encoding data for usb request
+fafb4951abf8fdecdfd7eb34f1230e41e67ca926 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+3c0cfc3bab63eba328844f92b5f4aabc2d8c1aee usb: dwc3: core: Fix tx/rx threshold settings
+8ba54aeb8ea0afd4e7f0f136def0478c57781625 usb: dwc3: gadget: Return proper request status
+c64fe74131e1c9b47dfe2be011ef84b078dc046b serial: imx: fix overrun interrupts in DMA mode
+fb8ccb9eb2122d60667fa78b4a890f6307d441a6 serial: 8250: Also set sticky MCR bits in console restoration
+8c62f760216a7a648960899cdca761d99e6788b2 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+7218bf50242f6ac270ec559e013b879287d23803 hex2bin: make the function hex_to_bin constant-time
+dbc1e8c595a85455af088cb496e5cd742ac7d54e hex2bin: fix access beyond string end
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e76be30ebc3-f06d9cb595d3.txt
+Content-Disposition: attachment; filename=revlist-f06d9cb595d3-ffabe52339fb.txt
 
-25e85fa69b520d09e9ef37c4c469897b1428fcee floppy: disable FDRAWCMD by default
-3d25dfce1189a12606f57854fceb02f4b8d0d32f Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-17b31c1854b34ad73dcba471b5c36f551e88c378 lightnvm: disable the subsystem
-d60f186dc1790eb76fe63d2817a0dee16be06e4d USB: quirks: add a Realtek card reader
-5452cc6428655a30f234079227cf4a8c24191a9e USB: quirks: add STRING quirk for VCOM device
-31eaafd2670734aa2f370a0e290768853f283840 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-ba8c3611daad1533cabc9470ff5b034eb4278d02 USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-a9b6bda12e4d6c257cf16309bfb8ec7a55276a9d USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-b98b80723356838e4d0b38c3ba159868b9b69052 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-b58567350247529ce293775150f07511c5823c17 xhci: stop polling roothubs after shutdown
-43dfb75fc455909146a7908f07a1aba04e9c37c5 iio: dac: ad5592r: Fix the missing return value.
-07eb8979c171127fbecf40c01f2ff73d108d608e iio: dac: ad5446: Fix read_raw not returning set value
-ec65e8f70ad1b60b1d7e92bc61aa5380c8ecc0be iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-2936eeeff7d2fac938b4571b9a372fde33efe38c usb: misc: fix improper handling of refcount in uss720_probe()
-839345e78e0ea0852fbc8699022acbff8868c547 usb: gadget: uvc: Fix crash when encoding data for usb request
-d05d98b7665f7999e9d2027bb39e7bf7371acfd3 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-cfd0f265261b41a91f6adf30b6872306a048b1cf serial: 8250: Also set sticky MCR bits in console restoration
-fcf1b0a892eca7e695f93f92df8096d1021ad9d4 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-2673c1ee94f40af5b15d0c07a752c2af91dcc27a hex2bin: make the function hex_to_bin constant-time
-f06d9cb595d377be41a3f809fb7e600e9c1a81d9 hex2bin: fix access beyond string end
+9d0c26feeda29c84b1b5d1cdf13783bbda79fe33 floppy: disable FDRAWCMD by default
+94a93dd9cbc933249862535538a7ced3b5638331 Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
+f51b7293f63b10a1aa01d99a15352201f75c5d78 lightnvm: disable the subsystem
+2b658d354b86e0e72ccf5b2da86f5382b2ef58d0 USB: quirks: add a Realtek card reader
+400c0dd43bd90f05704a6e56280289dfb9729116 USB: quirks: add STRING quirk for VCOM device
+086cb815bba61847deaf9f029dc2d817ed6b553a USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+96615a8490dbe3966b077d2b27fc30ab772e31dd USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+5bd4d3e7426443c875fab60ded9c3a9520571670 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+99507702c1d3e27db0185f7c5b0a46fa3529243f USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+82d2580be727c486c73c6fc63a1b6402f5c5a779 xhci: stop polling roothubs after shutdown
+d703fc127d07ce16e34e68d0ba3f00a44037f21d iio: dac: ad5592r: Fix the missing return value.
+77111f201920064f9cf80351fd0454810a53c198 iio: dac: ad5446: Fix read_raw not returning set value
+4d60bca3b1bfa2309371dd338e94b77b15a295fe iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+1c57a0269b4359bcbd20160f3ead11c0f569622d usb: misc: fix improper handling of refcount in uss720_probe()
+b5d830c79724df801e18d271337170952a0c6e7f usb: gadget: uvc: Fix crash when encoding data for usb request
+591074d2a66b71b569b44e66b4dc66235294921f usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+0b9878f53dce6011132ab59b2475d80e76fd10a8 serial: 8250: Also set sticky MCR bits in console restoration
+2dc58b49b7682e6ac1e0347e4320f039c6de1249 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+430eba2b06c4275d31c8d7086b5427b3733ecede hex2bin: make the function hex_to_bin constant-time
+ffabe52339fbc89bc075c04b9783a2702e23dec0 hex2bin: fix access beyond string end
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0c3068aa0c2-31fbc68df6f9.txt
+Content-Disposition: attachment; filename=revlist-31fbc68df6f9-621e7ad202a1.txt
 
-bc897cd7272dd8d193f92000949775fc9c7fb58d floppy: disable FDRAWCMD by default
-7df667b38489aeef7e0343a7f7385f1b63d4c7b0 lightnvm: disable the subsystem
-343a8e90aaa3e66dcb65806209db0fb899964ce0 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
-955db1cb42c9baaa79d8d9bb7aa12803ee6f3e61 USB: quirks: add a Realtek card reader
-c6dc3f4b9a58e93b963d7d04726d503b4706b513 USB: quirks: add STRING quirk for VCOM device
-ff8d9695d5fb0d1d2212063e73c2c32d1eaa6f26 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-9f1888f310e1fd3b688cafd4e83045f432d5629d USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-a5f4b5b2021333d5868e50a3a243abdb28e81933 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-cdb652e2caa05713db7a9b3db643f894bd765e50 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-05506abc30e7bf676a4908f6cae5f5e30f5506d3 xhci: Enable runtime PM on second Alderlake controller
-1c77814e7382fd711e9e8979125738c41e7c7a62 xhci: stop polling roothubs after shutdown
-2be1857cc02d5f2ac4c87d9381d110d3620149be xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
-b2820ca54648d7a15be30b510e59325e1b39d6f7 iio: dac: ad5592r: Fix the missing return value.
-4cac8554caf218704685aa4112da2930d16aa64b iio: dac: ad5446: Fix read_raw not returning set value
-70c47e118c155b3e7f6c008df90cc12cb2bd131a iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-3ebc53b2afe6f279680ed9573eb69308c3fe3884 iio: imu: inv_icm42600: Fix I2C init possible nack
-979e18a61bfdc4d41f95357f0dea29bb1d1f0e62 usb: misc: fix improper handling of refcount in uss720_probe()
-a5300c10e7515d96f15f693b47cf4a6607a45720 usb: typec: ucsi: Fix reuse of completion structure
-21890f14dd68f440f35f2d3403875ec190f3af8f usb: typec: ucsi: Fix role swapping
-ff5962784ccfe00ee77b2a77d8291a16558ada02 usb: gadget: uvc: Fix crash when encoding data for usb request
-59c77dc290efcaa5d07b2b1ab802f970f437598a usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-6c18fef5e498c886ba3732b2bee120bc49fba2d9 usb: dwc3: Try usb-role-switch first in dwc3_drd_init
-2f10fd57057910ce00ee5ded9ec0114d931fc4c6 usb: dwc3: core: Fix tx/rx threshold settings
-c61f6ba31a5faf0683921f5c38134b8184f3fd9b usb: dwc3: core: Only handle soft-reset in DCTL
-e6b17236a1353d26dadb613a53a321810e535ab6 usb: dwc3: gadget: Return proper request status
-53dd748042365c2d46d70a9f95727371e85fc024 usb: cdns3: Fix issue for clear halt endpoint
-4d0f8de10a7f2ceff1f326304c51d078b2ccbe74 usb: phy: generic: Get the vbus supply
-125a8043c19a8b42fa035f43c99cdb311a0aaf81 serial: imx: fix overrun interrupts in DMA mode
-4ddb5e2cfed514b162898ec6183ace8783bf22c8 serial: 8250: Also set sticky MCR bits in console restoration
-a66e2c353cce33d43248305f02ea7374f6a76cc4 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-6b6bc91aa225b8f76a0c29c2cef73c56411e49b1 arch_topology: Do not set llc_sibling if llc_id is invalid
-92830f1bc2323cde85220941eaf406ab9bf7d8ed pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
-ffc6fe405a5fb7ac9ddda75e93581301b8ab96b0 hex2bin: make the function hex_to_bin constant-time
-81d0fd1f4aadecfaf2172302847af9a688b59eed hex2bin: fix access beyond string end
-a27e7dd535719fb7ccad1da36cd0f3d0986e59b6 riscv: patch_text: Fixup last cpu should be master
-3580f32fb5f39f45b11e9c0d79ad90eae501ce84 x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
-31fbc68df6f9b2c1c436c42f98a549822a253776 iocost: don't reset the inuse weight of under-weighted debtors
+58469c0ae1d245b71525d67a3747924906608856 floppy: disable FDRAWCMD by default
+6608ec3645b5aed2d00de88a65fab81d283d4486 lightnvm: disable the subsystem
+44f0c211f4b5ca321ef0682b29185671f92d9242 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
+e3da63f32e2f641231dde58d3a98f98bc1cbc20a USB: quirks: add a Realtek card reader
+62565122398ece56d5f99bb16b6a90c107df0c5e USB: quirks: add STRING quirk for VCOM device
+9b4fce93dd42fe329f41699bc9650d34f70d83a5 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+3beb8ee54a315370954ad470d49bbcb75e50588e USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+311ad7b880e0cf7b097cf722255442d7cf8e685c USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+e46bb6d874e15f475b410e11b3d456dc69ea5589 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+5fa906d5a82bbd3730fd55a086f8dca7e3d65bf8 xhci: Enable runtime PM on second Alderlake controller
+8f0ead55811edf80c250e92bc6fc671b03ca6b20 xhci: stop polling roothubs after shutdown
+6ff134dd95e4237ce822a1978df28d83307c9942 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
+0ba64f4d30e044f2d58a06c7510d8619e69de256 iio: dac: ad5592r: Fix the missing return value.
+e6a2c2b942b3f7269128d6964de2454f62e9f692 iio: dac: ad5446: Fix read_raw not returning set value
+de193a600a8e039932985c9c5f49d1a8bf928447 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+17c7821578e640e8ab1a1848fc5486f2d5f30701 iio: imu: inv_icm42600: Fix I2C init possible nack
+0b8052843eb2473eed1c01235293f3f672c8f9c9 usb: misc: fix improper handling of refcount in uss720_probe()
+eb971534dd4d1c4d30f10cb0268b646d2924963e usb: typec: ucsi: Fix reuse of completion structure
+c9846b33ee86a50dd53766b97a86934bc58425f0 usb: typec: ucsi: Fix role swapping
+90fdd31a79d890dc06eb944ae6d43941865e181b usb: gadget: uvc: Fix crash when encoding data for usb request
+582976600ff6b72a66cf89f15c43846b1d67e300 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+5a38ddd715715336c0d675ae03046e0fc8624928 usb: dwc3: Try usb-role-switch first in dwc3_drd_init
+a47f0054bdee602ac7f880b0a328e7cd5cd4d430 usb: dwc3: core: Fix tx/rx threshold settings
+c4ffdc0e475461a59ed229203481b5a3c933b582 usb: dwc3: core: Only handle soft-reset in DCTL
+c5e3ba9a95e99c25cdf78dcbe7c9211b9ec7c4d8 usb: dwc3: gadget: Return proper request status
+253b57db569ff6ba0fdc2d763498c77c10f9a732 usb: cdns3: Fix issue for clear halt endpoint
+174e6e3900cea13f0c01c5e6f874f98440ce210d usb: phy: generic: Get the vbus supply
+fbc9d7ea0a9adf546f3afc5b594f036315a5358b serial: imx: fix overrun interrupts in DMA mode
+43ff1bd41627018b7e83d63f0fef24d61a189908 serial: 8250: Also set sticky MCR bits in console restoration
+2d8d0a84577d6fcfc5f0ce623acb4a317523f4ef serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+0987cd323d3409d100e08ba5a378e042e5f29f96 arch_topology: Do not set llc_sibling if llc_id is invalid
+bcabee4435891671ec4f51f6b63b14f4f7c1b181 pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
+edda8cc663401d63b09a2cf3e1693e11bbffd7ab hex2bin: make the function hex_to_bin constant-time
+b819fdb63cd57c70ed56b71989c63316e68ac0a3 hex2bin: fix access beyond string end
+17b99eab3ff284913ada39fe4686bcff15513b65 riscv: patch_text: Fixup last cpu should be master
+8fd01ff016e473f9658bbe1249c9c4e08e9521c6 x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
+621e7ad202a1a0bbf09ed57a662d0c7d28e1ef2c iocost: don't reset the inuse weight of under-weighted debtors
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcb411ba6def-8e9065cf8c26.txt
+Content-Disposition: attachment; filename=revlist-8e9065cf8c26-b95fc2b51e82.txt
 
-0f25258f03fc57fb43a704a54c27c07a283c61d7 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
-b210712f9a79bb612f078ae88991b1cbbcf87c3a USB: quirks: add a Realtek card reader
-d3bc90b06b469a1321c9b37fdc37f2daa9db16eb USB: quirks: add STRING quirk for VCOM device
-2c0d027bcb28a7be53a8c7390cb6be74bf642099 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-a8cde832b10ffa89a5cdd99e7c45e4aa138e1534 USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-94d00f42906776783e16dada78a33bd56cbef7f5 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-1567110e36794d9981c75d41c68da2d12a9c2527 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-92370b9daafd384615b002702d6c61a6bb922dec usb: xhci: tegra:Fix PM usage reference leak of tegra_xusb_unpowergate_partitions
-cee4a7e318d1bc82c75329782e47dec591d5c485 xhci: Enable runtime PM on second Alderlake controller
-3df648af83c4468bf951cbed47cb7a30ed8e6dbe xhci: stop polling roothubs after shutdown
-22356013885bab598ce9060db4e89eecf90b3e94 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
-5fa4f062a4d4108882d4a2b0207497522eabb5d4 iio: dac: ad5592r: Fix the missing return value.
-0a72d4b77e8bef5a1fd9d9dc0eaa9611292157ad iio: dac: ad5446: Fix read_raw not returning set value
-90f0da38e88bc35bd1d882a822db0927bd138c55 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-50e2d9316ebdb6d780bf054188dbe390c812a58e iio: imu: inv_icm42600: Fix I2C init possible nack
-9cddc9093ada482785f8a93e9eb2a931cc038ef7 usb: misc: fix improper handling of refcount in uss720_probe()
-963f3ec9b615e4f512fd70dc9ebf1df955dfdddd usb: core: Don't hold the device lock while sleeping in do_proc_control()
-e2dbea420c4699cbcd540389d642acffd851694d usb: typec: ucsi: Fix reuse of completion structure
-618a0de65947330864b5a304184da3a8e4b06835 usb: typec: ucsi: Fix role swapping
-df9283f2d5ea89b09838f0045a527eb50e981940 usb: gadget: uvc: Fix crash when encoding data for usb request
-7f3429edd4f639f97b7c77ea786ed963adcbb0b9 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-c0ef58eca4673a81dcc9a96c6837ec2565a53ee9 usb: dwc3: Try usb-role-switch first in dwc3_drd_init
-ff6ae71386e9380c7a098f45be1e99848fde0bae usb: dwc3: core: Fix tx/rx threshold settings
-ca5e2a2f9155db7632c53d38fbba8027496b9c11 usb: dwc3: core: Only handle soft-reset in DCTL
-bf96635e89ea7b33bbb2646449151f263e2ee559 usb: dwc3: gadget: Return proper request status
-f0bc08df69fe82baf41e51c5f41bc989f7d6cabf usb: dwc3: pci: add support for the Intel Meteor Lake-P
-493e7e977a2f5cbd091e7d3218af4859eaa26753 usb: cdns3: Fix issue for clear halt endpoint
-f0e0e440ba011f0eb19c2d2fe56e5f3ff73ce5d8 usb: phy: generic: Get the vbus supply
-70cf14aac514d6f05130e1125db05e0055111af4 serial: imx: fix overrun interrupts in DMA mode
-dde1d3d6603c82ce8deebefe664d6fa21f54c184 serial: amba-pl011: do not time out prematurely when draining tx fifo
-c4bf262d09878950cffc5978c045074f632e600b serial: 8250: Also set sticky MCR bits in console restoration
-e42874c48fe47bd6836090973b653491a0afef4d serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-509fed5f5ff7063926e363da057d75aa73d4eca3 arch_topology: Do not set llc_sibling if llc_id is invalid
-9490b81374d918a620c8692d2044217aadc9b3d2 ceph: fix possible NULL pointer dereference for req->r_session
-5ce5af20b677748932027ae2d458baa2601c1c47 bus: mhi: host: pci_generic: Add missing poweroff() PM callback
-4a9c2a7a121b9587ad5f474f3c78a0fad4b26d9c bus: mhi: host: pci_generic: Flush recovery worker during freeze
-2df3d1416f15b331ac3825ee35b0a430a78f4b6f arm64: dts: imx8mm-venice: fix spi2 pin configuration
-9ff01296d326bdc1a35729c050c3d3021c360357 pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
-cb9ed76cc63d7aa1901b6a3db5f1b6a9d7792c30 hex2bin: make the function hex_to_bin constant-time
-1a5fe853f1c040c3d48017f2db09d41edfd79ccb hex2bin: fix access beyond string end
-77a53c84037d31a116c48f3e24164e6a2160669e riscv: patch_text: Fixup last cpu should be master
-3fd2345c3f2443b9e9b10384523104f540811158 x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
-01b16051e8095e55dbc44c02a1f11adc9e6ed599 iocost: don't reset the inuse weight of under-weighted debtors
-8e9065cf8c267c1c1abfd5219ee406b8cb4fb075 virtio_net: fix wrong buf address calculation when using xdp
+0e28dbe571d43afd66edcea7cd98f79089e88a9d usb: mtu3: fix USB 3.0 dual-role-switch from device to host
+9bd9e198f8422ce548768bc1bd1cb4cf7a4522ba USB: quirks: add a Realtek card reader
+a4f1547c7f959da6995cd715bb882c0b86023a8a USB: quirks: add STRING quirk for VCOM device
+3cb8557c7ff2a65a52ff6b308e00febbd2b42041 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+e2111a096f745ef63827c2a9a35e188a6574b725 USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+fe86da1d68de06d853afd34d0f524269c7c11b33 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+0d20a96d59f730f1de7f80ea15c8258b8e6cfdd1 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+83af8d40da19a48a75f76590220aa913343b2f18 usb: xhci: tegra:Fix PM usage reference leak of tegra_xusb_unpowergate_partitions
+37f2f974fcdc2af4152847ebfda1ef5f21562fb1 xhci: Enable runtime PM on second Alderlake controller
+a764ab78c4517f78d625d24a2c5d47ea7e4f302d xhci: stop polling roothubs after shutdown
+0da49ada9620b19f391376efba59e69e149707b4 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
+eb123bf17b7337cb8b35201f3973bc6118bb5c1c iio: dac: ad5592r: Fix the missing return value.
+49b631ca5d50ec50265a14747748f35c80a9b10e iio: dac: ad5446: Fix read_raw not returning set value
+4af7705591217a7c032c376e0ac84e345fb52b84 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+4b29bc38f07d3e3988f4f7b96cd14d03e1cd60f4 iio: imu: inv_icm42600: Fix I2C init possible nack
+3a8b7a5813dcdea9333ac9ce2d126502bad271d9 usb: misc: fix improper handling of refcount in uss720_probe()
+001af4dfa4ae4137148405f58312925ea8bda9f4 usb: core: Don't hold the device lock while sleeping in do_proc_control()
+573a76f5da70f8ad0c7672a40c01cb55798c7efc usb: typec: ucsi: Fix reuse of completion structure
+14cf0f4e9830226a4d6f2ffd818096c135a535f2 usb: typec: ucsi: Fix role swapping
+e52476a267d2dd8e6c19fea18bb72aa81540ac81 usb: gadget: uvc: Fix crash when encoding data for usb request
+9f31021d4244577fd9c35f3e4261167a912dd946 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+112ec4127d3120d2c7a8e4476d345152232ecf59 usb: dwc3: Try usb-role-switch first in dwc3_drd_init
+99749b4d8a0d6cf1aef3b1b36c58f71438f6ba3c usb: dwc3: core: Fix tx/rx threshold settings
+bbe990463e6e81514155f7bdaab1ffa99e5c7dd0 usb: dwc3: core: Only handle soft-reset in DCTL
+771808b958b099e0537676157131c0c7953f2ea9 usb: dwc3: gadget: Return proper request status
+45c683926442d2df26ee3c319595ce4599f550af usb: dwc3: pci: add support for the Intel Meteor Lake-P
+88aad35331223bfc04344b757ecfd0e2a702ea8f usb: cdns3: Fix issue for clear halt endpoint
+565456c44b276fb04f3819f68950644741fceaa6 usb: phy: generic: Get the vbus supply
+82ca50d3571b637fb80b632ed5c8b3e7a8bbbbd4 serial: imx: fix overrun interrupts in DMA mode
+3d778c874318b50278bf2c7ecf77e84e865b6520 serial: amba-pl011: do not time out prematurely when draining tx fifo
+a6523cee53afd0e2fa9a7c039f01989fffdf809b serial: 8250: Also set sticky MCR bits in console restoration
+9a452fb421ddf3e39f80d908176a07c9fcd51e92 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+068cd6a25860395facc778480592e3505dbeb0d3 arch_topology: Do not set llc_sibling if llc_id is invalid
+0b2a55546057480a8b4f049a79ff0ec569f5740a ceph: fix possible NULL pointer dereference for req->r_session
+2639374d0e57edcdc7750d0ff24f2c314fc8d0d3 bus: mhi: host: pci_generic: Add missing poweroff() PM callback
+d7b319252d4c0d56eef49eb26436ddb80cd75380 bus: mhi: host: pci_generic: Flush recovery worker during freeze
+046f77e052a1e772b2a094c720355ff55ccdb0a5 arm64: dts: imx8mm-venice: fix spi2 pin configuration
+5eb2c109d70d8741f675d1433d5395c3dd251ab2 pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
+757d31ec4d16ed148570a04ed5971ae95977acce hex2bin: make the function hex_to_bin constant-time
+67ab44c0dcf6700773ed8ce6086215ce70323049 hex2bin: fix access beyond string end
+2ad472ed7995adbd0a78d017a3ddaf8057a13ce3 riscv: patch_text: Fixup last cpu should be master
+734a98e00431b707ab00676a0a4bd301b5ca8305 x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
+45289bf402ca15f2fc38c1ba088e0392e8012e95 iocost: don't reset the inuse weight of under-weighted debtors
+b95fc2b51e82777d231ad4aef1d19adc3ad17353 virtio_net: fix wrong buf address calculation when using xdp
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e048ef5b622-aba2c3dc8336.txt
+Content-Disposition: attachment; filename=revlist-aba2c3dc8336-7b4520db8d2a.txt
 
-c2ed8c91d9113bf8cd7e220744b44354ba3b343d usb: mtu3: fix USB 3.0 dual-role-switch from device to host
-210780558bd882ad1759e34de7f515ca09eddb08 floppy: disable FDRAWCMD by default
-6c2180c71fcd08153d658cc0b05842fe5577067e USB: quirks: add a Realtek card reader
-642c9f50a93f721a18f4c16177b159ef526ae66c USB: quirks: add STRING quirk for VCOM device
-f572ee18c6afd50a6fef64d83ff76381f85b54f1 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-f5a183a3166ca69557a02a3c955e418009877f22 USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-25a90b16ac1625558838e48eabf3a48a037455e6 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-2604e983408341232a1fe9d13da78bd8f0450e83 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-10b8dae76cea0f3bfb03bb4835dd5db2cad9a986 usb: xhci: tegra:Fix PM usage reference leak of tegra_xusb_unpowergate_partitions
-7259c9a85657a31c294f3efd66dc85ff96e6e4b5 xhci: Enable runtime PM on second Alderlake controller
-90650e70a3833e306d4c8b60f52d6329ffce20a2 xhci: stop polling roothubs after shutdown
-13c4550601a9b20ddeded006d31168c7f60022b7 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
-9b15897dedc90d408edd41aa17c3d66d4756e0d5 iio: dac: ad5592r: Fix the missing return value.
-7e4a8abadbcbb1cb19cb4434bbb2e5852a6e6fcc iio: scd4x: check return of scd4x_write_and_fetch
-63ae4d8d8edf19fba4f63214b24eb904817ba4af iio: dac: ad5446: Fix read_raw not returning set value
-b0fc8469a7a6dc9123ef6aaf6eee0c987a1a0db0 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-900836f285e9a6b810e390cea83889666b4f77cd iio: imu: inv_icm42600: Fix I2C init possible nack
-49e02952268e16275840ba0b2397f9a25f5ebb29 usb: misc: fix improper handling of refcount in uss720_probe()
-12f3c0da6385f46ff67cd1a1dbb5364654ff5358 usb: core: Don't hold the device lock while sleeping in do_proc_control()
-365f2ec1903357b98da248150619ecb2eea97a29 usb: typec: ucsi: Fix reuse of completion structure
-a442d033f526c865be5f8908bfcd6e15bfdb3280 usb: typec: ucsi: Fix role swapping
-16bf12b7be2201153d196a298b6c91eccbb0d997 usb: gadget: uvc: Fix crash when encoding data for usb request
-d9695c601952908f7217d882f35750f847ef1d53 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-d85fa60a19241973a4c8f0c6d087f409da0e2d56 usb: dwc3: Try usb-role-switch first in dwc3_drd_init
-790b8918fffd8bad616819bb9dfbb87c0e14a656 usb: dwc3: core: Fix tx/rx threshold settings
-bb369ded099d5875ee7baf2e6d21135406d03372 usb: dwc3: core: Only handle soft-reset in DCTL
-2f886e643bd5d6106c584016b52ebaa7ff8c3c38 usb: dwc3: gadget: Return proper request status
-6000d3b5c041d46e06af268e3557db953e0ee8f5 usb: dwc3: pci: add support for the Intel Meteor Lake-P
-c9f763faf5d1a65a725732f08de6f36e6203fffd usb: cdns3: Fix issue for clear halt endpoint
-8e68431e989dd3a156cc47a8b6175388d6ed387b usb: phy: generic: Get the vbus supply
-a395c822e72cdf2f9744ff721f4460e02eb971c0 kernfs: fix NULL dereferencing in kernfs_remove
-f43105ac2d91811574dc15fb710407070dea21ac binder: Gracefully handle BINDER_TYPE_FDA objects with num_fds=0
-0c6fa4a7cc9283d59e7410c35ce949013c98cb04 binder: Address corner cases in deferred copy and fixup
-7c10c067456dfe0d6b018d34e3191931520c6752 serial: imx: fix overrun interrupts in DMA mode
-2f2dc6564279adc295ec084edc4cbff6eb994e5a serial: amba-pl011: do not time out prematurely when draining tx fifo
-ef278172cb55aa5bad34610ef599ad80f3e92073 serial: 8250: Also set sticky MCR bits in console restoration
-ff70e6669630aacc5d70eb76c7e6ab35313a4875 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-ba4a2f6d68d3e48f4c23f8dd21ae4f8dbc71e7d2 eeprom: at25: Use DMA safe buffers
-296127cee4d1cbc95387c83edf24eb09799a1302 arch_topology: Do not set llc_sibling if llc_id is invalid
-270b986a162788a75a74ab81bcb87b06facf56cd topology: make core_mask include at least cluster_siblings
-92ddee0400769fa8cf573cf2dea7dfe02b6a3711 ceph: fix possible NULL pointer dereference for req->r_session
-6013130045fcc2a272daf760e055e49099bf6386 bus: mhi: host: pci_generic: Add missing poweroff() PM callback
-02ac7aec88c7f946e16741427ae073ec9996a7ca bus: mhi: host: pci_generic: Flush recovery worker during freeze
-aad44523f1e0104d80f9169662cb37f76db8ca56 arm64: dts: imx8mm-venice: fix spi2 pin configuration
-211d6344f66f1f7e69cc9e0b7e4cc97f1d55f909 pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
-a064c334c73e3a6654adff2018379e96d6b3d7de f2fs: should not truncate blocks during roll-forward recovery
-3b92e6d27265b097a60992255e00729b2e0141a5 hex2bin: make the function hex_to_bin constant-time
-aba2c3dc8336a1a77ef5e3f6cfad609a2c0856d6 hex2bin: fix access beyond string end
+79e4788ce9b23f64666237785762c221bfc155c6 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
+6d7b7147009e1f14e7a39014a32cbe88264f3988 floppy: disable FDRAWCMD by default
+34f3a6650d64a8022cfb090ba35e4346805781ec USB: quirks: add a Realtek card reader
+24aa99301d7c085fd14405b473f3de3207d785ae USB: quirks: add STRING quirk for VCOM device
+f4855bcbf774c0e76f48dda151be780d94c60b96 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+886dfa249c615f9681043a438c2c06db411abd95 USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+ecc8631cb5e4ff5cf610e6f3f19c7da9cf36888a USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+125a720ba1aafa23fc991de87289a931e9b5a965 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+fee2273595a9ad427e18e2a0dff5eff636d915dc usb: xhci: tegra:Fix PM usage reference leak of tegra_xusb_unpowergate_partitions
+716f287126819889aef606505b2eb21840831199 xhci: Enable runtime PM on second Alderlake controller
+a6e60abd10447d341ee1ff84ca18a4ced6e4664b xhci: stop polling roothubs after shutdown
+ba853730fe451c6f7aba75ca18829970e4ea3f88 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
+cd3d0d62cf09d2a5aba581159b60e572dd2b9d66 iio: dac: ad5592r: Fix the missing return value.
+606b7abb7d4cfee031655f9f52288b8ca3ca9dff iio: scd4x: check return of scd4x_write_and_fetch
+60b12cc6f0d3262aac84af2a0857cda08c626eaf iio: dac: ad5446: Fix read_raw not returning set value
+763a44df0a466cbf58546ecfc29f32582db10379 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+d1695c805b933ccd6bd3d3a44c26cf9e375b02d3 iio: imu: inv_icm42600: Fix I2C init possible nack
+ea9a095765dab282b32c4be6deb0c2960e2a72e0 usb: misc: fix improper handling of refcount in uss720_probe()
+019ba6e719078e4eebe7be3cc75c6f8eafe09e3c usb: core: Don't hold the device lock while sleeping in do_proc_control()
+1065dd20d99d20f695f8a4b4650934b6905f6c80 usb: typec: ucsi: Fix reuse of completion structure
+3c25eeb225bb1144256c93961e4da2d97abab72f usb: typec: ucsi: Fix role swapping
+58f176fc83a33f14af7403a90b1745b3c0869d5a usb: gadget: uvc: Fix crash when encoding data for usb request
+103ea1d1edfb6338e0c19d23c51db34fe6a002b8 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+32b91b75a7446604c80ef791facf2b6895db2330 usb: dwc3: Try usb-role-switch first in dwc3_drd_init
+6044a0f538bfcf03fde76b84ae64fb08137348de usb: dwc3: core: Fix tx/rx threshold settings
+d73a9e6450ab8f33af72424986e9e9726daff69c usb: dwc3: core: Only handle soft-reset in DCTL
+86e930a08555fa77c1ac1c3455e8b0fd9cfe8ce3 usb: dwc3: gadget: Return proper request status
+415f243c5b1245b8be656af2fd109752c1d81398 usb: dwc3: pci: add support for the Intel Meteor Lake-P
+033c0029f46a912949f02e08c8163df6d89d7689 usb: cdns3: Fix issue for clear halt endpoint
+e0b3dbccda781e1e64a5ed1fc8893673b0818a6f usb: phy: generic: Get the vbus supply
+d3c3043e30d8984fc4c71939632fc6c5ee34da74 kernfs: fix NULL dereferencing in kernfs_remove
+91fefe8f83a86380312894b2734f9b685639a6dc binder: Gracefully handle BINDER_TYPE_FDA objects with num_fds=0
+7445817aa9dbf687932d5f93cef140b7249a6f68 binder: Address corner cases in deferred copy and fixup
+edbac0a54e7de1451aaa3406b20bc0e1d7af7b6e serial: imx: fix overrun interrupts in DMA mode
+b0beb2bdcb0b74e31250d1849819e997db5ef719 serial: amba-pl011: do not time out prematurely when draining tx fifo
+27bd090452e2001dd7ad14835aed21706e627527 serial: 8250: Also set sticky MCR bits in console restoration
+023a01cea50edf3a65f43007733d416cbfd3ac78 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+f4e63213c44aa1bd46dd04fce9ae8bca186cfa94 eeprom: at25: Use DMA safe buffers
+d233d2075cf2d19b4fb31c268cce233459ef5a9b arch_topology: Do not set llc_sibling if llc_id is invalid
+ec0a56a5ee2c480b275c15b5b5d5119db8381a65 topology: make core_mask include at least cluster_siblings
+afa8747aa33e57520616137ba989743b6f205509 ceph: fix possible NULL pointer dereference for req->r_session
+3e7bbd1403e78473b909a832dcb0fbb169997f70 bus: mhi: host: pci_generic: Add missing poweroff() PM callback
+aa0c7068a449c8a930ddbaafc2445cc5e220d72c bus: mhi: host: pci_generic: Flush recovery worker during freeze
+d8b17ec3e2d23c6dd5bcc003826104330dde70ed arm64: dts: imx8mm-venice: fix spi2 pin configuration
+c8ab64beb4bc11d0c628f35e0c09b07d15573f0a pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
+511696d6ec873b3545f2c008f02d5c8c3f57c12f f2fs: should not truncate blocks during roll-forward recovery
+3c8d6f40e9e8053eb51030c34de5614e573ce69e hex2bin: make the function hex_to_bin constant-time
+9036f52132376ace08a5574b8a7d4d81a78eb35c hex2bin: fix access beyond string end
+e7d1b0cad9e76dd3bfa7fa50bb3be08f18a2cd3e bus: fsl-mc-msi: Fix MSI descriptor mutex lock for msi_first_desc()
+be33ac32623c3b4f889399acb2af1061b7eda972 riscv: patch_text: Fixup last cpu should be master
+6cd4ac785af399f999281a98ae2c41bebd96b2b2 x86/cpu: Load microcode during restore_processor_state()
+d905482e3a0fc1eb52395264434a088a1acaac8a x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
+cc89dbdfcff995c4ec6599a1ca48db0b9e24542f iocost: don't reset the inuse weight of under-weighted debtors
+7b4520db8d2af47c0037f7c0deed0aba7ac4c27e virtio_net: fix wrong buf address calculation when using xdp
 
---===============4631875428655869792==
+--===============1183902923931371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cc063ff1c82-88b47c416255.txt
+Content-Disposition: attachment; filename=revlist-88b47c416255-795a5055b335.txt
 
-94ec69d8953c45568b53a7bc3311251e603731cb floppy: disable FDRAWCMD by default
-9426ed383181b6887fc38db3482c15e4fdeb5c9b hamradio: defer 6pack kfree after unregister_netdev
-3822fda09bdf841e43a35adc9c51f4148a8b442a hamradio: remove needs_free_netdev to avoid UAF
-9252666028d646ff8ab1612a3c4870b624d1a953 lightnvm: disable the subsystem
-0a097446b456b7d1c2b4eb46e138cf9320e54fb1 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
-01d0c59bb410f0229cac766afa8bcb24957c864a USB: quirks: add a Realtek card reader
-cb8da8286b92aefa3cd2092d98c4ca9e487968f6 USB: quirks: add STRING quirk for VCOM device
-3c48c0f859bce878724a2e5aff5849823139ab9a USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
-f5708af518b41e1003de18c55b27e6a84621f31a USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
-5dd6736e3677f4c0b76ea28afe58edda16cfc818 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
-efc398e2d35c19b04069e1a69b4ae8bcbea76d41 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
-7b9c70427bcbe3a7eb4cea4292daa7cc3ee32fa6 xhci: stop polling roothubs after shutdown
-d5fd30ff114bd507f360bb84dc44cf23aa35b172 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
-9aac1631c62a4d454de1c3146ce1bf48bb0d88ff iio: dac: ad5592r: Fix the missing return value.
-818d205bb6e5d76429a67ccb5e51b682e03a236b iio: dac: ad5446: Fix read_raw not returning set value
-8d098998e2f9368b529ccc89122cb20b69b0ecb7 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
-66661bf4573c07d713d5a35fb7c4f12efb8b994c usb: misc: fix improper handling of refcount in uss720_probe()
-faeb7bcfbc42603261626676b5f005f2133e925f usb: typec: ucsi: Fix role swapping
-942d7c173c3168fdb611e0f0124e8798c924e6d5 usb: gadget: uvc: Fix crash when encoding data for usb request
-ae436a99489657d9d9c6f20d639db8d2d1e900ab usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
-7d64728b1e0e6a61d4138cd86c9282eb26a5cf86 usb: dwc3: core: Fix tx/rx threshold settings
-ec37cc90737adc6356e63431d562f35cf53c5ff6 usb: dwc3: gadget: Return proper request status
-c668e44b761ebc9244a6d7df09f9b7850a59f3b4 serial: imx: fix overrun interrupts in DMA mode
-30b5f90efa651699ee8d1aca1b67ea7bd10b926f serial: 8250: Also set sticky MCR bits in console restoration
-bee73bff851ff94489251d773dcb2964c7f55744 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
-d9670def932f806178af66bad8a0ca483b3cc5e7 arch_topology: Do not set llc_sibling if llc_id is invalid
-13e17b290ae1622c42b85b8dcfbcb4946077a9be hex2bin: make the function hex_to_bin constant-time
-88b47c4162551942b0cbd1b3a948db80e413316b hex2bin: fix access beyond string end
+bbf2e504cadb542c0c534848e5cf807ba9c9dc93 floppy: disable FDRAWCMD by default
+07187e83935b7cb7a5d86917167817ee6363540a hamradio: defer 6pack kfree after unregister_netdev
+ee951b09d9de94fa773b66453d36527a5cad332f hamradio: remove needs_free_netdev to avoid UAF
+7b2862feac6a6251cc2645ed805eef91ede1530a lightnvm: disable the subsystem
+b9a7d196e6263d7fd2b002cab24f2124cc739096 usb: mtu3: fix USB 3.0 dual-role-switch from device to host
+196f50a4b6bdd413e38dacd02a32fbd1f5b8b1a3 USB: quirks: add a Realtek card reader
+5990c595f622a6bcc274a8f8719353c27df1337c USB: quirks: add STRING quirk for VCOM device
+508a8323374b0e397d89edef219a034b4ada0491 USB: serial: whiteheat: fix heap overflow in WHITEHEAT_GET_DTR_RTS
+23a7dd662d93256cfe94254ce1e46cf9aab4c35b USB: serial: cp210x: add PIDs for Kamstrup USB Meter Reader
+2cfa87356156629e0a781504b462617f6d61f203 USB: serial: option: add support for Cinterion MV32-WA/MV32-WB
+18d7238efcdfa3802a5c9115fd9b133e467c4705 USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+3e0de29693e56dcabec86e0b574bab37c71aea2a xhci: stop polling roothubs after shutdown
+ae76b48e6c34dca23827076c8a9050df3197babd xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
+16c08286e888522a32eca5513cd7059429d9cb26 iio: dac: ad5592r: Fix the missing return value.
+b0fc7af46019e52eb1c2f45384e8fa7a50f71d3e iio: dac: ad5446: Fix read_raw not returning set value
+fff809c2dc341195c8ac6966796c6e3d26999402 iio: magnetometer: ak8975: Fix the error handling in ak8975_power_on()
+81644ce72f7f867a461826813837ff6b8875b9a1 usb: misc: fix improper handling of refcount in uss720_probe()
+b3999ae38d8668ba887b4915c6e0cb154ca89c06 usb: typec: ucsi: Fix role swapping
+ff62fc0bad285a9496ff3b3f2bd5c4c513730080 usb: gadget: uvc: Fix crash when encoding data for usb request
+2150dc18a0c6fc1a3c429c2b7875bb9968e81552 usb: gadget: configfs: clear deactivation flag in configfs_composite_unbind()
+ce36b9667de25003ca24867790a948b52db79d45 usb: dwc3: core: Fix tx/rx threshold settings
+41fc680c6b82170cb6d5722cdd8e540d7ac9041e usb: dwc3: gadget: Return proper request status
+603d6f2c3eed629af11218848d416b9eaaa81a24 serial: imx: fix overrun interrupts in DMA mode
+e0165179af8da1e21901082c1e571fed83257f5b serial: 8250: Also set sticky MCR bits in console restoration
+73e8bf58cf6fc1f18f15947bb1b394ce2f54a861 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
+88602bea9ef566f2a44b30c0add7498ba8141a3b arch_topology: Do not set llc_sibling if llc_id is invalid
+3cf8e8f1e9b90034d1070d2770ee76e82782b4db hex2bin: make the function hex_to_bin constant-time
+795a5055b335909e546d59eb7afd9a0626adcd37 hex2bin: fix access beyond string end
 
---===============4631875428655869792==--
+--===============1183902923931371231==--
