@@ -1,26 +1,49 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 01 May 2022 19:30:06 -0000
-Message-Id: <165143340668.5775.3253004439008640269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Sun, 01 May 2022 19:33:50 -0000
+Message-Id: <165143363028.7387.13016982783239041043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
-  - ref: refs/heads/master
-    old: 411a1476ea417c7cce9792b31dbc83cedbad7a41
-    new: 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a
-    log: |
-         3254e0b9eb5649ffaa48717ebc9c593adc4ee6a9 ethtool: Add 10base-T1L link mode entry
-         909b4f2bf764a903e9183111368f1509f9b40e6d net: phy: Add 10-BaseT1L registers
-         1b020e448e0fb67bcb04ee0f778d413045f965d3 net: phy: Add BaseT1 auto-negotiation registers
-         3da8ffd8545f62fec85a48a3c637b2f427974f11 net: phy: Add 10BASE-T1L support in phy-c45
-         7eaf9132996a34ba2643efe91a355385c6ff5114 net: phy: adin1100: Add initial support for ADIN1100 industrial PHY
-         48f20f90211978140fc391c4c1f10016f020a0fa net: phy: adin1100: Add SQI support
-         49714461b7970acb38c421a48f5d7f782e360003 dt-bindings: net: phy: Add 10-baseT1L 2.4 Vpp
-         6e28f56c0d1d976a4940d13d7f27e446ce65cd0a Merge branch 'adin1100-industrial-PHY-support'
-         
+  - ref: refs/tags/ieee802154-for-davem-2022-05-01
+    old: 0000000000000000000000000000000000000000
+    new: 1229df4b313acf15d372caadcbbc62a430cd2697
+  - ref: refs/tags/v5.17
+    old: 0000000000000000000000000000000000000000
+    new: f8e739787152143aacffc181562a29c049c2d658
+  - ref: refs/tags/v5.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
+  - ref: refs/tags/v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
+  - ref: refs/tags/v5.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: fb245665706076547ba72af611b41bc38c3ab73a
+  - ref: refs/tags/v5.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/tags/v5.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/tags/v5.17-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
+  - ref: refs/tags/v5.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+  - ref: refs/tags/v5.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
+  - ref: refs/tags/v5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89a9eba652fe348461301ef785c3e274bc491879
+  - ref: refs/tags/v5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
