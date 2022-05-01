@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4091203040889278985=="
+Content-Type: multipart/mixed; boundary="===============5182994145679642386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
 Date: Sun, 01 May 2022 04:35:12 -0000
-Message-Id: <165137971239.8002.7745409017932761930@gitolite.kernel.org>
+Message-Id: <165137971296.8045.5116206197210790092@gitolite.kernel.org>
 
---===============4091203040889278985==
+--===============5182994145679642386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
+  - ref: refs/heads/driver-core-linus
+    old: ad8d869343ae4a07a2038a4ca923f699308c8323
     new: 57ae8a492116910bad2b3497ffe555b3a4b4180f
-    log: revlist-ce522ba9ef7e-57ae8a492116.txt
+    log: revlist-ad8d869343ae-57ae8a492116.txt
 
---===============4091203040889278985==
+--===============5182994145679642386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651379707 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1651379707-7738f04fdf892e57105f87206f916998d041fcae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651379712 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1651379711-9bc5918a560fd9a40f53a6509a6855a98b80ebb5
 
-ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e 57ae8a492116910bad2b3497ffe555b3a4b4180f refs/heads/main
+ad8d869343ae4a07a2038a4ca923f699308c8323 57ae8a492116910bad2b3497ffe555b3a4b4180f refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJuDfsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FEcP/A5WhhNEdrUMDLAVaU26
-lBwQ+7f1f/cQEckatHko/YYnQ0hz4E18Un3thVZZtcgNoR4QXdRTyLfz45G+jk9L
-y2gm07VZMSZNrTgihJ4y41UIV7rV8+EX9dWqZZwlNuh7uLKKLRrAmuwf4Ryz2jTf
-DOr6mbcKmutVKfSuI5XKvEshXAMQ8UMDUTPa8T76ArsamQ4joDxDKjFycPAk9zIn
-wh3Fb+10RcsB9hZ+FTI8fx52sHSEtH4D8nm/Ll3f4J2WdYgbpJuGiH681hDHLMfL
-pQolkKWxj4qKRxp4Il70KBWSblYrqBfII1RN4LIFvOtANNDlKNf5Ux6LfCyXX1RA
-6tJ6qgMWUoXd/4OisrPl60JTExwAILP917Y8AlLwxrgxMdF5ecweXzo0ACYUIpOH
-ch0nOF8qRph6NTOoD8FbWDMEVTCgUYybz7OO07qE1iJfwnnq3I9+2ICGHZrYsi9A
-sWLdDIrRedvXNq/LN1NK4SMGvauegeyEBasEorseQ8n1jc3W7qHT5pNaRO5anZWn
-bV2q1D9yd5OhJ7KFYppyMBdM8yv0HfMks/xTDTdj64fqDLndPlOlbXBkHAb94MJL
-M2qFooV5J1Yp0oyOyReFZWrZObDXS3gY1qhfd5V6jBIaoNJkeK3EIEnFuDfbcHNF
-/7zQXanHFFd/Bmjj1Su8hrVR
-=+zNL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJuDgAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++C8P/1TmFLoY5vI87lARaGUo
+z347Mjvzp1Y29x3SxZWS5M7VuGazx/zCYNeXWwvk/exQgzvFS1sOSep5Kxp6DblT
+QPljouQcwx9ejdWtRcR1ZUnG2Yl0BXnB7qJiVl29keKkJ+o+CkcQc7UW8Y30kr1j
+O9TboOg9iRpTboUUx6pD+gZsi4TSzmX0qWRDTeHv6MESFfp52unUfN6CiqKD+szp
+4r50tL7+rJh9uG3PANguKAQwgqsC27OqQEWJ2z24pKE7Wn4tZHQtQy71o9iBfj5V
+GzXimUBzNQ9l3anIBkbIh7RwlkznjlYuDQo9k8iV3U9MWDwwbcidDlut6DfffEJa
+y7HKKOamXY1oS2i/u0aZDf9gMnvzNuodxZHQ+H/9Qrm2Ngp+CZKRD58M0AQR+YDf
+99hLj0ow4Fju8fmPEMEL2WynNtHZ32vr17LC2fXGChpO7Aei8aw14QwP7sY9o/vy
+RUqeGs3p4vb8hRVqXGrF/vrtVChVpr9X1e9P0T2IGhDk7CHqU3taDkb8RFwUm3Z6
+0ISpBmuj6DeIt9jobcGC0yCwt09XewQSLufzcd4pOCh/KT0rfab7+G++1KqbyoJ7
+11CedASg7RMUy4RUi/WfiSFPK6RLdPHrK94SDN1lt/jH+l4QEFNL/xsh4DSWNdub
+qwj//0eJo07bx2W1zy23ARri
+=M9L8
 -----END PGP SIGNATURE-----
 
---===============4091203040889278985==
+--===============5182994145679642386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce522ba9ef7e-57ae8a492116.txt
+Content-Disposition: attachment; filename=revlist-ad8d869343ae-57ae8a492116.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -718,9 +718,6 @@ c5d0fc54bede8765b7a91bdac342c7c7de8bc8bd nfc: MAINTAINERS: add Bug entry
 044011fdf162c5dd61c02841930c8f438a9adadb selftests: mlxsw: vxlan_flooding: Prevent flooding of unwanted packets
 5e6242151d7f17b056a82ca7b860c4ec8eaa7589 selftests: mlxsw: vxlan_flooding_ipv6: Prevent flooding of unwanted packets
 48473802506d2d6151f59e0e764932b33b53cb3b tty: n_gsm: fix missing update of modem controls after DLCI open
-aa63a74d4535a1d97b60e46655a1361c42565b89 topology/sysfs: Hide PPIN on systems that do not support it.
-db1e59483dfd8d4e956575302520bb8f7e20c79b topology: make core_mask include at least cluster_siblings
-1dc9f1a66e1718479e1c4f95514e1750602a3cb9 arch_topology: Do not set llc_sibling if llc_id is invalid
 930e2607638de8325686319b2789323cc85ea671 f2fs: remove obsolete whint_mode
 0adc2ab0e8a88a0e8b98dae5fc1443ae8c7062ba f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
 27275f181c7add59c211c7e40c442d8004b1e664 f2fs: fix wrong condition check when failing metapage read
@@ -891,7 +888,6 @@ a2438f82366eaeb4dc122c021884ea8deea5b215 clk: microchip: mpfs: mark CLK_ATHENA a
 6deb9bf4580d53fea191fa0689a4446c8937398d riscv: dts: microchip: reparent mpfs clocks
 c18a2a280c073f70569a91ef0d7434d12e66e200 Merge tag 'drm-misc-fixes-2022-04-22' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 da609eda81a8b842417ccf74bdf6bf9b5d403549 Merge tag 'usb-serial-5.18-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-c95ce3a23dcda678f6f7811dd39b6d14eeb6f192 topology: Fix up build warning in topology_is_visible()
 9423edfc5188c436f6df4356d0737bae09d35b82 sparc: cacheflush_32.h needs struct page
 45ab9400e73f34103e73c18a73280c9aa1650e98 Merge tag 'perf-tools-fixes-for-v5.18-2022-04-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 1f5e98e723a0be814181524a7e6aaf87a805cdc9 Merge tag 'io_uring-5.18-2022-04-22' of git://git.kernel.dk/linux-block
@@ -1006,7 +1002,6 @@ eb2fd9b43fae0c51982ac4229535b6cfd77380db platform/x86/intel: pmc/core: change pm
 7b5148be4a6e1119523f7546c5c3d112ed6c40c2 Add Eric Dumazet to networking maintainers
 03498b7131b874166724ca016178932d0b5781aa Merge tag 'mtd/fixes-for-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 211ed5480aff457ac1a9e333e68522ef4a0c6ce9 Merge tag 'zonefs-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-ad8d869343ae4a07a2038a4ca923f699308c8323 kernfs: fix NULL dereferencing in kernfs_remove
 e5be15767e7e284351853cbaba80cde8620341fb hex2bin: make the function hex_to_bin constant-time
 e4d8a29997731b3bb14059024b24df9f784288d0 hex2bin: fix access beyond string end
 0f03610b20ccf72c7bd8cf297c1666a430f6992e Merge tag 'cpufreq-arm-fixes-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -1081,4 +1076,4 @@ a6b5c5dc06a4b25fc7690a7a25a7c095d3f16fa9 Merge tag 'tty-5.18-rc5' of git://git.k
 e2e5ebecca69a5a692cbd0728cb7f4abd25f48ac Merge tag 'char-misc-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 57ae8a492116910bad2b3497ffe555b3a4b4180f Merge tag 'driver-core-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============4091203040889278985==--
+--===============5182994145679642386==--
