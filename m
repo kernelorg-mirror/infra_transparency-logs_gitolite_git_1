@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 01 May 2022 12:38:27 -0000
-Message-Id: <165140870707.2248.14572632953295400686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Sun, 01 May 2022 12:47:06 -0000
+Message-Id: <165140922610.9177.11860539234236177121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: f162593e6f63d60d1ced978c7cf1a1f57a440761
-    new: 7f2bfb1c5ce3d24888dfa2225f0589a89d9e03f5
+  - ref: refs/heads/master-pending
+    old: 670dbdbfddcd5b54dace5027cc703ffc91b094b8
+    new: ce6fcb5594be69157f56c840ba644275e327f46c
     log: |
-         ddcfba51193bfdce3c530c05967183650f296744 random: use first 128 bits of input as fast init
-         7f2bfb1c5ce3d24888dfa2225f0589a89d9e03f5 random: mix in timestamps and reseed on system restore
+         e7750f094f157fe6cf7eed2f566296ea1a5ccc03 carl9170: tx: fix an incorrect use of list iterator
+         ce6fcb5594be69157f56c840ba644275e327f46c Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 27e55e785804f403367c3d793c9e2af657e7da21
+    new: e7750f094f157fe6cf7eed2f566296ea1a5ccc03
+    log: |
+         e7750f094f157fe6cf7eed2f566296ea1a5ccc03 carl9170: tx: fix an incorrect use of list iterator
          
