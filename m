@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5182994145679642386=="
+Content-Type: multipart/mixed; boundary="===============0187261895412964492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 01 May 2022 04:35:12 -0000
-Message-Id: <165137971296.8045.5116206197210790092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 01 May 2022 04:35:18 -0000
+Message-Id: <165137971897.8144.11998191148378242298@gitolite.kernel.org>
 
---===============5182994145679642386==
+--===============0187261895412964492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: ad8d869343ae4a07a2038a4ca923f699308c8323
+  - ref: refs/heads/tty-linus
+    old: 19317433057dc1f2ca9a975e4e6b547282c2a5ef
     new: 57ae8a492116910bad2b3497ffe555b3a4b4180f
-    log: revlist-ad8d869343ae-57ae8a492116.txt
+    log: revlist-19317433057d-57ae8a492116.txt
 
---===============5182994145679642386==
+--===============0187261895412964492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651379712 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1651379711-9bc5918a560fd9a40f53a6509a6855a98b80ebb5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651379718 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1651379716-c67dc5ebe3750dd8674225f21174780fa177a15c
 
-ad8d869343ae4a07a2038a4ca923f699308c8323 57ae8a492116910bad2b3497ffe555b3a4b4180f refs/heads/driver-core-linus
+19317433057dc1f2ca9a975e4e6b547282c2a5ef 57ae8a492116910bad2b3497ffe555b3a4b4180f refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJuDgAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++C8P/1TmFLoY5vI87lARaGUo
-z347Mjvzp1Y29x3SxZWS5M7VuGazx/zCYNeXWwvk/exQgzvFS1sOSep5Kxp6DblT
-QPljouQcwx9ejdWtRcR1ZUnG2Yl0BXnB7qJiVl29keKkJ+o+CkcQc7UW8Y30kr1j
-O9TboOg9iRpTboUUx6pD+gZsi4TSzmX0qWRDTeHv6MESFfp52unUfN6CiqKD+szp
-4r50tL7+rJh9uG3PANguKAQwgqsC27OqQEWJ2z24pKE7Wn4tZHQtQy71o9iBfj5V
-GzXimUBzNQ9l3anIBkbIh7RwlkznjlYuDQo9k8iV3U9MWDwwbcidDlut6DfffEJa
-y7HKKOamXY1oS2i/u0aZDf9gMnvzNuodxZHQ+H/9Qrm2Ngp+CZKRD58M0AQR+YDf
-99hLj0ow4Fju8fmPEMEL2WynNtHZ32vr17LC2fXGChpO7Aei8aw14QwP7sY9o/vy
-RUqeGs3p4vb8hRVqXGrF/vrtVChVpr9X1e9P0T2IGhDk7CHqU3taDkb8RFwUm3Z6
-0ISpBmuj6DeIt9jobcGC0yCwt09XewQSLufzcd4pOCh/KT0rfab7+G++1KqbyoJ7
-11CedASg7RMUy4RUi/WfiSFPK6RLdPHrK94SDN1lt/jH+l4QEFNL/xsh4DSWNdub
-qwj//0eJo07bx2W1zy23ARri
-=M9L8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJuDgYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+roEQAJBTCAa/hC79Auov9oSi
+UGKNl56DnXgNuYiWWrSTsXbG7TsflGcQrr/rWtsx752rVnuMtZMvYtgB8yCZPWeG
++AWoVl/kpxiL7KqMZfRnYg36632D+oP4CjIimPRFWlso5vNszJD0Bz8MvUbAwvpY
+F0TyWBnz/b8YJVOHjPd/loaIB42BslEyqo0afy1Xe/3fgokFFMlDORVSdc2yQiEl
+IIU7iG3HXAUFVRySEzLt5EMbIQbKRUn98JoIxpKrmsWCnNf8KvCFGUppeSLo/Mkm
+CZRCDXGrUsPa3Z08tcnNBf45EStjh3TZOKPPGj3O9NKBHYd+9NfsQ9tihDzOZKEC
+W4ATtdhUNA6uyu6hu0J1xawLnJJ3mQ1LG7g3id0i9Etd0ZXW0ADV2obE1YBLlw8P
+C5jpGlYFjzoWCXZPU1mqWpz9V94CeRF0FmVFTzNxuMZxqNMZ4CWKZKSCJ9iEJ9dz
+madKq5KY5bY1gJ0g0eGf8zUYiuPczuBDPSlJDIOEe9EKUbfvI/VZbI1pGI4Me12N
+pL8kddVi5g9cyi6Pr0NcelnHoU86WhylBBbeFntq8mz63ctqHFf4/wCYLoRdJ4pH
+r6RdVkIplGhqWlFl4mWGAEM7B4U1TuI2Dij8I2QkA94NKoTJXHeJOVTeB0UeOR2F
+3hKEBNtEfYtxt3Sr6a5qHMS9
+=Fl3y
 -----END PGP SIGNATURE-----
 
---===============5182994145679642386==
+--===============0187261895412964492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad8d869343ae-57ae8a492116.txt
+Content-Disposition: attachment; filename=revlist-19317433057d-57ae8a492116.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -560,28 +560,9 @@ b42b6f4485e3f0970e11f73df6202eeaf9f53a3e nvme: don't print verbose errors for in
 00ff400e6deee00f7b15e200205b2708b63b8cf6 nvme: add a quirk to disable namespace identifiers
 a98a945b80f8684121d477ae68ebc01da953da1f nvme-pci: disable namespace identifiers for the MAXIO MAP1002/1202
 66dd346b84d79fde20832ed691a54f4881eac20d nvme-pci: disable namespace identifiers for Qemu controllers
-11451693e4081d32ef65147c6ca08cd0094ae252 tty: n_gsm: fix missing mux reset on config change at responder
-aa371e96f05dcb36a88298f5cb70aa7234d5e8b8 tty: n_gsm: fix restart handling via CLD command
-1ec92e9742774bf42614fceea3bf6b50c9409225 tty: n_gsm: fix decoupled mux resource
-284260f278b706364fb4c88a7b56ba5298d5973c tty: n_gsm: fix mux cleanup after unregister tty device
-06d5afd4d640eea67f5623e76cd5fc03359b7f3c tty: n_gsm: fix wrong signal octet encoding in convergence layer type 2
-7a0e4b1733b635026a87c023f6d703faf0095e39 tty: n_gsm: fix frame reception handling
-a24b4b2f660b7ddf3f484b37600bba382cb28a9d tty: n_gsm: fix malformed counter for out of frame data
-535bf600de75a859698892ee873521a48d289ec1 tty: n_gsm: fix insufficient txframe size
-deefc58bafb4841df7f0a0d85d89a1c819db9743 tty: n_gsm: fix wrong DLCI release order
-17eac652028501df7ea296b1d9b9c134db262b7d tty: n_gsm: fix missing explicit ldisc flush
-d0bcdffcad5a22f202e3bf37190c0dd8c080ea92 tty: n_gsm: fix wrong command retry handling
-398867f59f956985f4c324f173eff7b946e14bd8 tty: n_gsm: fix wrong command frame length field encoding
-317f86af7f5d19f286ed2d181cbaef4a188c7f19 tty: n_gsm: fix wrong signal octets encoding in MSC
-1adf6fee58ca25fb6720b8d34c919dcf5425cc9c tty: n_gsm: fix missing tty wakeup in convergence layer type 2
-73029a4d7161f8b6c0934553145ef574d2d0c645 tty: n_gsm: fix reset fifo race condition
-ff9166c623704337bd6fe66fce2838d9768a6634 tty: n_gsm: fix incorrect UA handling
 357ad4d898286b94aaae0cb7e3f573459e5b98b9 sound/oss/dmasound: fix 'dmasound_setup' defined but not used
 c74193787b2f683751a67603fb5f15c7584f355f ALSA: hda/hdmi: fix warning about PCM count when used with SOF
 6624fb41f5126c7205e866e58d4aaae0453f0914 ALSA: hda/hdmi: add HDMI codec VID for Raptorlake-P
-0e4deb56b0c625efdb70c94f150429e2f2a16fa1 serial: amba-pl011: do not time out prematurely when draining tx fifo
-3ee82c6e41f3d2212647ce0bc5a05a0f69097824 serial: imx: fix overrun interrupts in DMA mode
-cc994bb97587787b8f0c094a9bc6945d82075b1d serial: 8250: Fix runtime PM for start_tx() for empty buffer
 6f06aa6b2fd741d2171ff99de3537141610fd933 net: phy: LAN937x: added PHY_POLL_CABLE_TEST flag
 ee3b0826b4764f6c13ad6db67495c5a1c38e9025 rxrpc: Restore removed timer deletion
 1a74e99323746353bba11562a2f2d0aa8102f402 net/smc: Fix sock leak when release after smc_shutdown()
@@ -717,7 +698,9 @@ c5d0fc54bede8765b7a91bdac342c7c7de8bc8bd nfc: MAINTAINERS: add Bug entry
 0665886ad1392e6b5bae85d7a6ccbed48dca1522 ALSA: usb-audio: Clear MIDI port active flag after draining
 044011fdf162c5dd61c02841930c8f438a9adadb selftests: mlxsw: vxlan_flooding: Prevent flooding of unwanted packets
 5e6242151d7f17b056a82ca7b860c4ec8eaa7589 selftests: mlxsw: vxlan_flooding_ipv6: Prevent flooding of unwanted packets
-48473802506d2d6151f59e0e764932b33b53cb3b tty: n_gsm: fix missing update of modem controls after DLCI open
+aa63a74d4535a1d97b60e46655a1361c42565b89 topology/sysfs: Hide PPIN on systems that do not support it.
+db1e59483dfd8d4e956575302520bb8f7e20c79b topology: make core_mask include at least cluster_siblings
+1dc9f1a66e1718479e1c4f95514e1750602a3cb9 arch_topology: Do not set llc_sibling if llc_id is invalid
 930e2607638de8325686319b2789323cc85ea671 f2fs: remove obsolete whint_mode
 0adc2ab0e8a88a0e8b98dae5fc1443ae8c7062ba f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
 27275f181c7add59c211c7e40c442d8004b1e664 f2fs: fix wrong condition check when failing metapage read
@@ -833,12 +816,6 @@ e90d20c9df11cf33e33e6e3e1445454e044216b1 Merge tag 'mhi-fixes-v5.18' of git://gi
 babc3dc9524f0bcb5a0ec61f3c3639b11508fad6 netfilter: nft_set_rbtree: overlap detection with element re-addition after deletion
 2e043a2ead2a24d35d5136fc5f7afe4a2b32f381 Merge tag 'phy-fixes-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-linus
 89b3896056c775bf957c8d287c65290707cdad4a Merge tag 'icc-5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-41c606879f89623dd5269eaffea640b915e9e17c Revert "serial: sc16is7xx: Clear RS485 bits in the shutdown"
-a8c5b8255f8a9acd58a4b15ff1c14cd6effd114b tty: n_gsm: fix broken virtual tty handling
-c19ffe00fed6bb423d81406d2a7e5793074c7d83 tty: n_gsm: fix invalid use of MSC in advanced option
-f4f7d63287217ba25e5c80f5faae5e4f7118790e tty: n_gsm: fix software flow control handling
-6e6eebdf5e2455f089ccd000754a0deaeb79af82 serial: 8250: Also set sticky MCR bits in console restoration
-637674fa40059cddcc3ad2212728965072f62ea3 serial: 8250: Correct the clock for EndRun PTP/1588 PCIe device
 5a42ac43d0c900ade2a5c0337b2ea52d994bdec8 Revert "thermal/core: Deprecate changing cooling device state from userspace"
 fa1ef24ae251f7916e70b6fac94c7db3bb837426 thermal/governor: Remove deprecated information
 2d1746e3fda0c3612143d7c06f8e1d1830c13e23 binder: Address corner cases in deferred copy and fixup
@@ -888,6 +865,7 @@ a2438f82366eaeb4dc122c021884ea8deea5b215 clk: microchip: mpfs: mark CLK_ATHENA a
 6deb9bf4580d53fea191fa0689a4446c8937398d riscv: dts: microchip: reparent mpfs clocks
 c18a2a280c073f70569a91ef0d7434d12e66e200 Merge tag 'drm-misc-fixes-2022-04-22' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 da609eda81a8b842417ccf74bdf6bf9b5d403549 Merge tag 'usb-serial-5.18-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+c95ce3a23dcda678f6f7811dd39b6d14eeb6f192 topology: Fix up build warning in topology_is_visible()
 9423edfc5188c436f6df4356d0737bae09d35b82 sparc: cacheflush_32.h needs struct page
 45ab9400e73f34103e73c18a73280c9aa1650e98 Merge tag 'perf-tools-fixes-for-v5.18-2022-04-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 1f5e98e723a0be814181524a7e6aaf87a805cdc9 Merge tag 'io_uring-5.18-2022-04-22' of git://git.kernel.dk/linux-block
@@ -953,7 +931,6 @@ d615b5416f8a1afeb82d13b238f8152c572d59c0 Merge tag 'f2fs-fix-5.18' of git://git.
 c3e8d5a40685aed49d736a24f4d2b9e7607771f0 Merge branch 'net-smc-two-fixes-for-smc-fallback'
 6fbe0cc53a1b5f7abe2c44399c18e943adbebe2f video: fbdev: clps711x-fb: Use syscon_regmap_lookup_by_phandle
 a91b05f6b928e8fab750fc953d7df0aa6dc43547 Merge tag 'sunxi-clk-fixes-for-5.18-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
-19317433057dc1f2ca9a975e4e6b547282c2a5ef tty: n_gsm: fix sometimes uninitialized warning in gsm_dlci_modem_output()
 e4e6448638a01905faeda9bf96aa9df7c8ef463c cpufreq: qcom-cpufreq-hw: Clear dcvs interrupts
 4ae4dd2e26fdfebf0b8c6af6c325383eadfefdb4 drm/i915: Fix SEL_FETCH_PLANE_*(PIPE_B+) register addresses
 f7e1089f43761ca221914aea9a755b23dc7cbc33 drm/i915/fbc: Consult hw.crtc instead of uapi.crtc
@@ -1002,6 +979,7 @@ eb2fd9b43fae0c51982ac4229535b6cfd77380db platform/x86/intel: pmc/core: change pm
 7b5148be4a6e1119523f7546c5c3d112ed6c40c2 Add Eric Dumazet to networking maintainers
 03498b7131b874166724ca016178932d0b5781aa Merge tag 'mtd/fixes-for-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 211ed5480aff457ac1a9e333e68522ef4a0c6ce9 Merge tag 'zonefs-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+ad8d869343ae4a07a2038a4ca923f699308c8323 kernfs: fix NULL dereferencing in kernfs_remove
 e5be15767e7e284351853cbaba80cde8620341fb hex2bin: make the function hex_to_bin constant-time
 e4d8a29997731b3bb14059024b24df9f784288d0 hex2bin: fix access beyond string end
 0f03610b20ccf72c7bd8cf297c1666a430f6992e Merge tag 'cpufreq-arm-fixes-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -1076,4 +1054,4 @@ a6b5c5dc06a4b25fc7690a7a25a7c095d3f16fa9 Merge tag 'tty-5.18-rc5' of git://git.k
 e2e5ebecca69a5a692cbd0728cb7f4abd25f48ac Merge tag 'char-misc-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 57ae8a492116910bad2b3497ffe555b3a4b4180f Merge tag 'driver-core-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============5182994145679642386==--
+--===============0187261895412964492==--
