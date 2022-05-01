@@ -1,54 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 01 May 2022 15:24:41 -0000
-Message-Id: <165141868191.7750.12734944978761274505@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6293993179992711309=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 01 May 2022 15:24:55 -0000
+Message-Id: <165141869581.7910.14541754143477929397@gitolite.kernel.org>
+
+--===============6293993179992711309==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: fb0c7566e7e5487ca86e769d28c48b2406d8e68c
-    new: 11acc316c974fd0f0d377f68b200e6571a7306d3
+  - ref: refs/notes/signatures/tar
+    old: 690a443d7a15a35979393b92f1aae1ede464d413
+    new: a7161362e4baf58f5daddcd7f2e78b17168a19f8
     log: |
-         d4359a2535107b1a2d57f4408d3df976e9e3b1b1 floppy: disable FDRAWCMD by default
-         29ceab81c5fd90642e82e0a4399fbbda5773f3fe hamradio: defer 6pack kfree after unregister_netdev
-         c74ee61d7bd6ef5d4e793bf22aa57be850277228 hamradio: remove needs_free_netdev to avoid UAF
-         f339c71429b63577e0f3402232d66449fcd5f5a0 net/sched: cls_u32: fix netns refcount changes in u32_change()
-         1596da3287cead7596c099d5aee63bbaa0c57a05 Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-         11acc316c974fd0f0d377f68b200e6571a7306d3 lightnvm: disable the subsystem
+         a7161362e4baf58f5daddcd7f2e78b17168a19f8 Notes added by 'git notes add'
          
-  - ref: refs/heads/queue/4.9
-    old: 92db0e270c4fd9c08d18018b0a19c6275669cda8
-    new: c5558d3846f4c1a7bd2c57391f0b447666072ef1
-    log: |
-         75c4e3c9f8d0d57f29dbdff47aabb0705fd77ef0 floppy: disable FDRAWCMD by default
-         2b12c1a9ea0b410af1a488dbfad2729a257ce37c Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
-         c5558d3846f4c1a7bd2c57391f0b447666072ef1 lightnvm: disable the subsystem
-         
-  - ref: refs/heads/queue/5.10
-    old: 3c41fff550d887ce6f06d409dc9e097b027338e0
-    new: 54dbfe0799c4ccb48f2eed6f2040960e6e33466b
-    log: |
-         b9619439e672913ecf1d9362e94bc74cf9e5fc6a floppy: disable FDRAWCMD by default
-         54dbfe0799c4ccb48f2eed6f2040960e6e33466b lightnvm: disable the subsystem
-         
-  - ref: refs/heads/queue/5.17
-    old: cd89552779c49a49d9f8d093af65d014401ca22d
-    new: db3b2d5e27c0aea9baa59d4fd8a4f3f544cfb0db
-    log: |
-         db3b2d5e27c0aea9baa59d4fd8a4f3f544cfb0db floppy: disable FDRAWCMD by default
-         
-  - ref: refs/heads/queue/5.4
-    old: 5014b17d6c1dbd693644570c1197e71f3b2625c1
-    new: 3c71e54169832d480a81ae795180b29073e3e431
-    log: |
-         b2cee66c23671eaa41448ffde9068bb15cb8145b floppy: disable FDRAWCMD by default
-         c42cc307cae3fdd38a990bb3a9aefcbf0dbed68b hamradio: defer 6pack kfree after unregister_netdev
-         0b6b9ed4f7bac5b4b645ee669df52399bbe32231 hamradio: remove needs_free_netdev to avoid UAF
-         3c71e54169832d480a81ae795180b29073e3e431 lightnvm: disable the subsystem
-         
+
+--===============6293993179992711309==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651418694 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1651418693-fd8358dcc16c20fa4186a93d3d6088cb76481f7f
+
+690a443d7a15a35979393b92f1aae1ede464d413 a7161362e4baf58f5daddcd7f2e78b17168a19f8 refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJupkYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qvAQAJRuGeBvMNWK2/2pP59U
+2pjWPKEBM0rfHTSj/LazdCwxrEz/Vi6srPCoq4HSpxJmRIT8Vk+6tCIbXG0jLB+b
+LYpgAEv6FqH+eUzK3JGDyIg2vUZvAuE+7OEceOIQqE7oJS8kO2jtZBYhaVCUp6g3
+zXFHLmdjTPdXh+0c6v+cFOp2++E9JyCMTepXZzSUk1hpUR2IooHrYwf9HwoPXdsh
+PeMSVZjW1y5XHtH0FNz0ikbcZZh0he8s9Xv5KkOmJ2DWtEU3rIjR54bMqBIBGDh9
+APX1hHjAGZHX245s/4tHHnYgxG8aNmTimNdLdHCJ2LopR58fk9ZzZTdWD9N2HjIV
+dTeExr8HQ8hGPfGRZyEdgcMiZhd9I3yXWQ/Vq2iRWP6UmLk/RhK5c/Yf/Xqs/pCy
+xme+lnobT/y0595KAL5Pyj9rVaQiPGiOyfPdkBFz4nxOyour6Sc9SV/HbTLttT48
+Wwqfwuo3yMGs3+uXBpopopECFu+1/+DK52vDXZmncgxSJY5aSw5OGFn/aaQ9Qls0
++UtokTyECmPdcL9dlKtpTP1WyPMhFDGNMMlzx2XOsfVHGXYlwuzilmiaoPCQXrFC
+HVuCEyyh0NIi+QYTzCVElgODleQ9rcHFr+MPPJ8wPcfYcEP5PBRUbQf5Uzpsu3S7
+s5QjrKIoPBBivD5Q3RuM3SBs
+=I4iV
+-----END PGP SIGNATURE-----
+
+--===============6293993179992711309==--
