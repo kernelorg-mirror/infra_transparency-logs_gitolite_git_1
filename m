@@ -1,47 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6057102249979396294=="
+Content-Type: multipart/mixed; boundary="===============3208991468124244273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 02 May 2022 14:07:09 -0000
-Message-Id: <165150042900.9952.8832510491152625252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 02 May 2022 14:12:38 -0000
+Message-Id: <165150075829.13324.4047275668925535434@gitolite.kernel.org>
 
---===============6057102249979396294==
+--===============3208991468124244273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
   - ref: refs/heads/master
-    old: 38734237543525f77b91ae380c3c52e47ae21ca3
-    new: d148e695cf471017e9eb328f0f41324286dcedb9
-    log: revlist-387342375435-d148e695cf47.txt
-  - ref: refs/heads/jd/fork_event
+    old: cfd3557af835ad2ab2dc8d617ea69aae2067d411
+    new: 1f8c8b9be6eda0a563d1a40cfb9493489df52e40
+    log: revlist-cfd3557af835-1f8c8b9be6ed.txt
+  - ref: refs/tags/ath-202205021411
     old: 0000000000000000000000000000000000000000
-    new: 3fea427d8d6b2303b1d84958f74733e27d811782
+    new: 1f8c8b9be6eda0a563d1a40cfb9493489df52e40
 
---===============6057102249979396294==
+--===============3208991468124244273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-387342375435-d148e695cf47.txt
+Content-Disposition: attachment; filename=revlist-cfd3557af835-1f8c8b9be6ed.txt
 
-2f5a26aa211ec03e6fde33d408cfc5e9fb21ff3f timekeeping: Add raw clock fallback for random_get_entropy()
-70e905d597adc931a1c955b955fcac6e29a3ad55 m68k: use fallback for random_get_entropy() instead of zero
-b51eac5dea32f2b301da0f18af3e7503c1c51f59 riscv: use fallback for random_get_entropy() instead of zero
-84a420922d9c0829a9f8bfdf561c97ce5c7ce173 mips: use fallback for random_get_entropy() instead of just c0 random
-0f99668c25eb666881137643cc3aee8d0f6fa7a9 arm: use fallback for random_get_entropy() instead of zero
-8d0159a061cd7cb29052fa7066bed55c597715ea nios2: use fallback for random_get_entropy() instead of zero
-2686be004a3320a31c2909c6653652637d02b9e1 x86/tsc: Use fallback for random_get_entropy() instead of zero
-a8b804e05dc0b91513f357ee93a4a422905458bf um: use fallback for random_get_entropy() instead of zero
-2abf662edab36a783ad6d9ba34b767d586aa23d2 sparc: use fallback for random_get_entropy() instead of zero
-c2dd069019bde6e0057791e118e47d15524c28f3 xtensa: use fallback for random_get_entropy() instead of zero
-e179a23710f7dfc4d28f7927a08432151c643789 random: insist on random_get_entropy() existing in order to simplify
-91541157b96cb54645d9c9e84359684bdd18ec85 random: vary jitter iterations based on cycle counter speed
-e875a8da2bce20b593081aa8b9217a52a6b95c26 random: use first 128 bits of input as fast init
-d148e695cf471017e9eb328f0f41324286dcedb9 random: mix in timestamps and reseed on system restore
+7330e1ec9748948177830c6e1a13379835d577f9 ath11k: fix warning of not found station for bssid in message
+3a597f0d425b2160ce4278c3e1c8384bec8ccfb4 ath11k: change management tx queue to avoid connection timed out
+00fd24089b8154ddf5b3e724e2c4c9974b9ba91e dt: bindings: net: add bindings of WCN6750 for ath11k
+92c1858e4399edc093a41cbf8f74874bdab59da7 ath11k: Move parameters in bus_params to hw_params
+d1e1edfde0352321af52599ad447b71c91bc6e76 ath11k: Add HW params for WCN6750
+56c8ccf331bd2ebf8b85f70efb4844803ef3f768 ath11k: Add register access logic for WCN6750
+676f8905fff904ea3e4ee52086a18ab54912b410 ath11k: Fetch device information via QMI for WCN6750
+73d3e71306fe864d9667e8d37f731e93a91e2040 ath11k: Add QMI changes for WCN6750
+49890d9c93d5abf21babda2b495c7d3014fb9c98 ath11k: HAL changes to support WCN6750
+e67ba19739177f95706c1d4a53c884c89973b843 ath11k: Datapath changes to support WCN6750
+00402f49d26ffe991892bba76ccbdfed26538824 ath11k: Add support for WCN6750 device
+52bcfd1b239b0a62d863b92abcc1a04528a41946 ath10k: remove a copy of the NAPI_POLL_WEIGHT define
+3b3299a1080e357c540e968b704f2eeb46a697f7 wil6210: use NAPI_POLL_WEIGHT for napi budget
+54a6f29522da3c914da30e50721dedf51046449a carl9170: tx: fix an incorrect use of list iterator
+e3819ba613b8e2147bf701e1f39068aa170adbd5 Merge branch 'ath-next'
+e971809c900c2dc64a1a3a27b66256a76b683136 Merge remote-tracking branch 'mhi/mhi-next'
+1f8c8b9be6eda0a563d1a40cfb9493489df52e40 Add localversion-wireless-testing-ath
 
---===============6057102249979396294==--
+--===============3208991468124244273==--
