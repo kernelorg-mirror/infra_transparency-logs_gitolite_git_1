@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8001781814054432737=="
+Content-Type: multipart/mixed; boundary="===============0288222188276541256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 02 May 2022 14:12:40 -0000
-Message-Id: <165150076069.13452.11418292053923522069@gitolite.kernel.org>
+Date: Mon, 02 May 2022 14:17:52 -0000
+Message-Id: <165150107224.17682.6237638555435363407@gitolite.kernel.org>
 
---===============8001781814054432737==
+--===============0288222188276541256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath-next
-    old: eee645eccfc4edc9fb7dcef1b381e406c5dd4d14
-    new: 54a6f29522da3c914da30e50721dedf51046449a
-    log: revlist-eee645eccfc4-54a6f29522da.txt
-  - ref: refs/heads/ath-qca
-    old: d68b1443b639986ce04ebc4866666fa50de14d71
-    new: 6508f7fe8eda68d1e38678dc255aed466b17b60f
-    log: revlist-d68b1443b639-6508f7fe8eda.txt
+  - ref: refs/heads/master-pending
+    old: 0b1079ba238919229658d583abe24a6038000444
+    new: 407c0384b2d7fdf54128808552062bc9ccea3b14
+    log: revlist-0b1079ba2389-407c0384b2d7.txt
+  - ref: refs/heads/pending
+    old: dbe7d67b15a1bfa0a9c6a60cbe3a6f28f917bb28
+    new: 47e6286f8b68058d78457b5a3ab884e980b02201
+    log: revlist-dbe7d67b15a1-47e6286f8b68.txt
 
---===============8001781814054432737==
+--===============0288222188276541256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eee645eccfc4-54a6f29522da.txt
+Content-Disposition: attachment; filename=revlist-0b1079ba2389-407c0384b2d7.txt
 
 7330e1ec9748948177830c6e1a13379835d577f9 ath11k: fix warning of not found station for bssid in message
 3a597f0d425b2160ce4278c3e1c8384bec8ccfb4 ath11k: change management tx queue to avoid connection timed out
@@ -44,12 +44,18 @@ e67ba19739177f95706c1d4a53c884c89973b843 ath11k: Datapath changes to support WCN
 52bcfd1b239b0a62d863b92abcc1a04528a41946 ath10k: remove a copy of the NAPI_POLL_WEIGHT define
 3b3299a1080e357c540e968b704f2eeb46a697f7 wil6210: use NAPI_POLL_WEIGHT for napi budget
 54a6f29522da3c914da30e50721dedf51046449a carl9170: tx: fix an incorrect use of list iterator
+e3819ba613b8e2147bf701e1f39068aa170adbd5 Merge branch 'ath-next'
+e971809c900c2dc64a1a3a27b66256a76b683136 Merge remote-tracking branch 'mhi/mhi-next'
+1f8c8b9be6eda0a563d1a40cfb9493489df52e40 Add localversion-wireless-testing-ath
+a6846075dcdcf2e2ecd8b2a0b91fb43c256323b7 ath11k: Fix RX de-fragmentation issue on WCN6750
+47e6286f8b68058d78457b5a3ab884e980b02201 ath11k: Add support for targets without trustzone
+407c0384b2d7fdf54128808552062bc9ccea3b14 Merge branch 'pending' into master-pending
 
---===============8001781814054432737==
+--===============0288222188276541256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d68b1443b639-6508f7fe8eda.txt
+Content-Disposition: attachment; filename=revlist-dbe7d67b15a1-47e6286f8b68.txt
 
 7330e1ec9748948177830c6e1a13379835d577f9 ath11k: fix warning of not found station for bssid in message
 3a597f0d425b2160ce4278c3e1c8384bec8ccfb4 ath11k: change management tx queue to avoid connection timed out
@@ -65,6 +71,7 @@ e67ba19739177f95706c1d4a53c884c89973b843 ath11k: Datapath changes to support WCN
 52bcfd1b239b0a62d863b92abcc1a04528a41946 ath10k: remove a copy of the NAPI_POLL_WEIGHT define
 3b3299a1080e357c540e968b704f2eeb46a697f7 wil6210: use NAPI_POLL_WEIGHT for napi budget
 54a6f29522da3c914da30e50721dedf51046449a carl9170: tx: fix an incorrect use of list iterator
-6508f7fe8eda68d1e38678dc255aed466b17b60f Merge branch 'ath-next' into ath-qca
+a6846075dcdcf2e2ecd8b2a0b91fb43c256323b7 ath11k: Fix RX de-fragmentation issue on WCN6750
+47e6286f8b68058d78457b5a3ab884e980b02201 ath11k: Add support for targets without trustzone
 
---===============8001781814054432737==--
+--===============0288222188276541256==--
