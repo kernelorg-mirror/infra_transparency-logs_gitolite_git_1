@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3721891696631981829=="
+Content-Type: multipart/mixed; boundary="===============8742489006991838621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 02 May 2022 07:26:34 -0000
-Message-Id: <165147639453.26352.24052755909603666@gitolite.kernel.org>
+Date: Mon, 02 May 2022 07:26:43 -0000
+Message-Id: <165147640334.26476.15178381203057736423@gitolite.kernel.org>
 
---===============3721891696631981829==
+--===============8742489006991838621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5
-    new: 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a
-    log: revlist-50c6afabfd2a-6e28f56c0d1d.txt
+  - ref: refs/heads/testing
+    old: d0191039d3f1d3624538dce15127d8419e682fb3
+    new: 28b250e070e9a45a814d13c4ae756aab1298ff27
+    log: revlist-d0191039d3f1-28b250e070e9.txt
 
---===============3721891696631981829==
+--===============8742489006991838621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651476390 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1651476400 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1651476389-707517b71332510aee38cbf7ce21d3d8e76f4aaa
+nonce 1651476399-c6d2f78dc34349735843beb2e828a105e3fb76bf
 
-50c6afabfd2ae91a4ff0e2feb14fe702b0688ec5 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a refs/heads/master
+d0191039d3f1d3624538dce15127d8419e682fb3 28b250e070e9a45a814d13c4ae756aab1298ff27 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJvh6YTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXY+WB/44Lr5O/ntl0Da0LmnzOe3jBnfyM0xr
-1AbyUznPCxWSDKubmMFDFdt9rhHXI32qkXKCfASZHihLCxpH+eQ+mhQfVvlhD+mp
-JS0fqZcEh345EH+KPmn9mnAdVEYfV36EII9iOrwXpTpq9MMrQi6fX57+/pHNLY+o
-3ha9LFQY+YRz2+ImrD0K5IbcrL/xX/nHYfGRge+AK9VV5Yhml2s+aR9mGWBo6CHe
-rUIOsrQcx4u6TkDssvFcPwbp5HtovggVSZFyZn4rVCE+7Qh5KXQKnpGlx3CbixUN
-+ntEG/ZieMUjyT5XB6Uuf4X7FVNUCl8ot86ecmNIJvCf1WEGvcMUM2WC
-=0Rci
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJvh7ATHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXWInB/oCfcPXElJmv32M62IQ3tLmoJJnzGfl
+NB64UFljqTRDOXqVu8xn9m7Kvf57h9R5qBhRwuSuRWgaq2bJFEF8ulDQWjWKcgTx
+/razWwfnncyJ58wnCskkI63wmZeG7GePwnNcKSKOjXQG/Xm2iGTGBS6zlMuj9m4D
+pNf1cIAyknA/yCKzYHyLaJqHm/mzFjtI/oFtAKNfKL9en19/PB3djqEK50VsdI5R
+TbZLd+Rj3hDJ2vLhHIkNWE7TjcwJcOXHAzbjjyL2b6bxhSpe7W5qVT/L9s04fgZx
+abTBw/Iyams+EhTfdWuQwl2JzM1WtSiFZ0cOTpFzMOG3r2OUURNkK7hL
+=uZ1d
 -----END PGP SIGNATURE-----
 
---===============3721891696631981829==
+--===============8742489006991838621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50c6afabfd2a-6e28f56c0d1d.txt
+Content-Disposition: attachment; filename=revlist-d0191039d3f1-28b250e070e9.txt
 
 be5985b3dbce5ba2af3c8b0f2b7df235c93907e6 cpufreq: qcom-hw: drop affinity hint before freeing the IRQ
 5e4f009da6be563984ba4db4ef4f32529e9aeb90 cpufreq: qcom-hw: fix the race between LMH worker and cpuhp
@@ -492,5 +492,14 @@ b97af72209eedccb79a146b7b6243cffb20739b2 Merge branch 'UDP-sock_wfree-opts'
 48f20f90211978140fc391c4c1f10016f020a0fa net: phy: adin1100: Add SQI support
 49714461b7970acb38c421a48f5d7f782e360003 dt-bindings: net: phy: Add 10-baseT1L 2.4 Vpp
 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a Merge branch 'adin1100-industrial-PHY-support'
+35a78bf20033d5d7b1c53cb5616732dbf6ec9890 dt-bindings: can: renesas,rcar-canfd: Document RZ/G2UL support
+e1cf330fa28acc342e527baf12298a5fd8219bad can: m_can: remove a copy of the NAPI_POLL_WEIGHT define
+5f02ecbe08d6a3434a14b92bee98adec76e8808e docs: networking: device drivers: can: add ctucanfd to index
+75790ef3b796abefe9a0f6a90288b7ae9971fd3c docs: networking: device drivers: can: ctucanfd: update author e-mail
+704fd176204577459beadb37d46e164d376fabc3 can: ctucanfd: remove unused including <linux/version.h>
+e715d4459485377273c085d30992b8f9d70eede0 can: ctucanfd: ctucan_platform_probe(): remove unnecessary print function dev_err()
+a51491ac6ed2f55d0c4b65bc8370b3833dca6b7b can: ctucanfd: remove inline keyword from local static functions
+e391a0f7be617b16a3b4d1092596519bd96889a4 can: ctucanfd: remove debug statements
+28b250e070e9a45a814d13c4ae756aab1298ff27 can: ctucanfd: remove PCI module debug parameters
 
---===============3721891696631981829==--
+--===============8742489006991838621==--
