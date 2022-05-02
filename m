@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 02 May 2022 13:35:55 -0000
-Message-Id: <165149855589.22335.13741993403573518810@gitolite.kernel.org>
+Date: Mon, 02 May 2022 13:41:24 -0000
+Message-Id: <165149888440.25496.18086222246565222180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: 5c8f5f171d5621a2bc540c21cc62f308a43d4fc5
-    new: 6ab10df254c62e1abf962a8756c0cd4aa333a47f
+    old: 6ab10df254c62e1abf962a8756c0cd4aa333a47f
+    new: 1d37c285b4b9e9a51caee67c8c42c0386e8c0274
     log: |
-         63bb04509e79e2edc4b16962c7fa947b56b2a2a0 lib/strutils: add ul_strchr_escaped()
-         6ab10df254c62e1abf962a8756c0cd4aa333a47f logger: make sure structured data are escaped
+         1d37c285b4b9e9a51caee67c8c42c0386e8c0274 agetty: fix prompt
          
