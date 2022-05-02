@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 02 May 2022 14:18:44 -0000
-Message-Id: <165150112470.18079.1745073341718799738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 02 May 2022 14:26:46 -0000
+Message-Id: <165150160673.23418.17333833882338068480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 099700a154030624c6e76e0e75f5f66c6ff255dc
-    new: 14093643710f3e5b2a4d7f3ec759a3668ae7601d
+    old: 7ad5e52d4d2f91203615cd738e56aba10ad8b8f6
+    new: 95bcdd2f4bdd0dc702d9eb77675a31c0f0935dc6
     log: |
-         14093643710f3e5b2a4d7f3ec759a3668ae7601d scan: Sort scan_requests by wiphy work item priority
+         95bcdd2f4bdd0dc702d9eb77675a31c0f0935dc6 test/statx: use regular stat include
          
