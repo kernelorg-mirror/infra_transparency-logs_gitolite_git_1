@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3697839176408036660=="
+Content-Type: multipart/mixed; boundary="===============6500177639183360706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 02 May 2022 07:42:05 -0000
-Message-Id: <165147732582.3995.13720481972565663188@gitolite.kernel.org>
+Date: Mon, 02 May 2022 07:42:49 -0000
+Message-Id: <165147736960.4408.18414781236111470143@gitolite.kernel.org>
 
---===============3697839176408036660==
+--===============6500177639183360706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: b58b1f563ab78955d37e9e43e02790a85c66ac05
     new: 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a
     log: revlist-b58b1f563ab7-6e28f56c0d1d.txt
 
---===============3697839176408036660==
+--===============6500177639183360706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b97af72209eedccb79a146b7b6243cffb20739b2 Merge branch 'UDP-sock_wfree-opts'
 49714461b7970acb38c421a48f5d7f782e360003 dt-bindings: net: phy: Add 10-baseT1L 2.4 Vpp
 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a Merge branch 'adin1100-industrial-PHY-support'
 
---===============3697839176408036660==--
+--===============6500177639183360706==--
