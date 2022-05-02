@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2710376739188783660=="
+Content-Type: multipart/mixed; boundary="===============7909567453598750114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 02 May 2022 07:44:35 -0000
-Message-Id: <165147747567.6079.13605100289885239951@gitolite.kernel.org>
+Date: Mon, 02 May 2022 07:45:05 -0000
+Message-Id: <165147750571.7778.15607491462769604260@gitolite.kernel.org>
 
---===============2710376739188783660==
+--===============7909567453598750114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 5bd8baab087dff657e05387aee802e70304cc813
     new: 79396934e289dbc501316c1d1f975bb4c88ae460
     log: revlist-5bd8baab087d-79396934e289.txt
 
---===============2710376739188783660==
+--===============7909567453598750114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b6693611f71e1b9107a2d178c1f7d92c7d850891 Merge branch 'nfc-fixes'
 6b292a04c694573a302686323fe15b1c7e673e5b pci_irq_vector() can't be used in atomic context any longer. This conflicts with the usage of this function in nic_mbx_intr_handler().
 79396934e289dbc501316c1d1f975bb4c88ae460 net: dsa: b53: convert to phylink_pcs
 
---===============2710376739188783660==--
+--===============7909567453598750114==--
