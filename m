@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 02 May 2022 14:39:23 -0000
-Message-Id: <165150236312.30508.18129605150271333711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Mon, 02 May 2022 14:48:41 -0000
+Message-Id: <165150292110.5263.3613380869153769466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/main
-    old: 5b3fd8fd7ceb135d08edf52adf6e833ee92a351e
-    new: 0d3b26c4b97ae1a561070a973f0b2086e3644d1a
+  - ref: refs/heads/mhi-next
+    old: 58043faa5f84835c907c98cc80addcb942cd1908
+    new: aa5c73d9296d35aadea654b67f96dfe6c8203a06
     log: |
-         0d3b26c4b97ae1a561070a973f0b2086e3644d1a rtw88: remove a copy of the NAPI_POLL_WEIGHT define
+         aa5c73d9296d35aadea654b67f96dfe6c8203a06 bus: mhi: pci_generic: add Telit FN990
          
