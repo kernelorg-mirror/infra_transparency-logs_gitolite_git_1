@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5337997159450829410=="
+Content-Type: multipart/mixed; boundary="===============1396913356223243356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 May 2022 09:05:20 -0000
-Message-Id: <165148232029.27078.6117535480098633037@gitolite.kernel.org>
+Date: Mon, 02 May 2022 09:05:24 -0000
+Message-Id: <165148232497.27142.13491329880491329430@gitolite.kernel.org>
 
---===============5337997159450829410==
+--===============1396913356223243356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 138d673f12ac7e33ef4c54a4e104675bcadc1aaa
-    new: f3f50e32949fa00ca6517073ebaabe47eb23ed3a
-    log: revlist-138d673f12ac-f3f50e32949f.txt
+  - ref: refs/heads/m68k-queue
+    old: 18b3bc314ec94560bea280ecf94525faa35d91f4
+    new: cee663b39385c16604208d7c7ed91436192da830
+    log: revlist-18b3bc314ec9-cee663b39385.txt
 
---===============5337997159450829410==
+--===============1396913356223243356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-138d673f12ac-f3f50e32949f.txt
+Content-Disposition: attachment; filename=revlist-18b3bc314ec9-cee663b39385.txt
 
 be5985b3dbce5ba2af3c8b0f2b7df235c93907e6 cpufreq: qcom-hw: drop affinity hint before freeing the IRQ
 5e4f009da6be563984ba4db4ef4f32529e9aeb90 cpufreq: qcom-hw: fix the race between LMH worker and cpuhp
@@ -462,6 +462,12 @@ b70ed23c238af025153cb0f5b3c1d0ae5bc30f73 Merge tag 'objtool_urgent_for_v5.18_rc5
 b2da7df52e16110c8d8dda0602db81c15711e7ff Merge tag 'x86_urgent_for_v5.18_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b6b2648911bbc13c59def22fd7b4b7c511a4eb92 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 672c0c5173427e6b3e2a9bbb7be51ceeec78093a Linux 5.18-rc5
-f3f50e32949fa00ca6517073ebaabe47eb23ed3a Merge tag 'v5.18-rc5'
+fd7e283623864a7de0e2a3e7f6d6e7998cb6c8ef tty: goldfish: Introduce gf_ioread32()/gf_iowrite32()
+f88f06e111174299b70a0599b7d1fed37f2b401c rtc: goldfish: Use gf_ioread32()/gf_iowrite32()
+7d0add98b9caf8dfbe12dad314fd50c8b9e00a67 clocksource/drivers: Add a goldfish-timer clocksource
+52a34afb500d8dfd37d37eb8d93dc6eddc566b09 m68k: Introduce a virtual m68k machine
+932ffae61f80dd4c38d402bc47b2dc6e66a1c4cc m68k: atari: usb: Add ISP1160 USB host controller support
+ec2448b0f83c677e037a303ef5f7a9e97b33826b m68k: atari: Update Kconfig.bus help text
+cee663b39385c16604208d7c7ed91436192da830 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5337997159450829410==--
+--===============1396913356223243356==--
