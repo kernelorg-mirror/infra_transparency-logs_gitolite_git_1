@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3423153250943532195=="
+Content-Type: multipart/mixed; boundary="===============8874408114020840410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Mon, 02 May 2022 11:12:17 -0000
-Message-Id: <165148993720.25908.16563855318626910737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 02 May 2022 11:15:12 -0000
+Message-Id: <165149011271.29555.215930430456909823@gitolite.kernel.org>
 
---===============3423153250943532195==
+--===============8874408114020840410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: ae664d9d8559b123766b47af4dfbfa877a80156e
     new: 2fc9f69edd2165f9047ae97cfad2341e82bd3437
     log: revlist-ae664d9d8559-2fc9f69edd21.txt
 
---===============3423153250943532195==
+--===============8874408114020840410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ e391a0f7be617b16a3b4d1092596519bd96889a4 can: ctucanfd: remove debug statements
 28b250e070e9a45a814d13c4ae756aab1298ff27 can: ctucanfd: remove PCI module debug parameters
 2fc9f69edd2165f9047ae97cfad2341e82bd3437 Merge tag 'linux-can-next-for-5.19-20220502' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 
---===============3423153250943532195==--
+--===============8874408114020840410==--
