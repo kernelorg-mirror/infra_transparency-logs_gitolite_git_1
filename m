@@ -1,40 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8874408114020840410=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 02 May 2022 11:15:12 -0000
-Message-Id: <165149011271.29555.215930430456909823@gitolite.kernel.org>
-
---===============8874408114020840410==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
+Date: Mon, 02 May 2022 11:34:33 -0000
+Message-Id: <165149127329.7681.4323410968566390227@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/pabeni/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: ae664d9d8559b123766b47af4dfbfa877a80156e
-    new: 2fc9f69edd2165f9047ae97cfad2341e82bd3437
-    log: revlist-ae664d9d8559-2fc9f69edd21.txt
-
---===============8874408114020840410==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae664d9d8559-2fc9f69edd21.txt
-
-35a78bf20033d5d7b1c53cb5616732dbf6ec9890 dt-bindings: can: renesas,rcar-canfd: Document RZ/G2UL support
-e1cf330fa28acc342e527baf12298a5fd8219bad can: m_can: remove a copy of the NAPI_POLL_WEIGHT define
-5f02ecbe08d6a3434a14b92bee98adec76e8808e docs: networking: device drivers: can: add ctucanfd to index
-75790ef3b796abefe9a0f6a90288b7ae9971fd3c docs: networking: device drivers: can: ctucanfd: update author e-mail
-704fd176204577459beadb37d46e164d376fabc3 can: ctucanfd: remove unused including <linux/version.h>
-e715d4459485377273c085d30992b8f9d70eede0 can: ctucanfd: ctucan_platform_probe(): remove unnecessary print function dev_err()
-a51491ac6ed2f55d0c4b65bc8370b3833dca6b7b can: ctucanfd: remove inline keyword from local static functions
-e391a0f7be617b16a3b4d1092596519bd96889a4 can: ctucanfd: remove debug statements
-28b250e070e9a45a814d13c4ae756aab1298ff27 can: ctucanfd: remove PCI module debug parameters
-2fc9f69edd2165f9047ae97cfad2341e82bd3437 Merge tag 'linux-can-next-for-5.19-20220502' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-
---===============8874408114020840410==--
+  - ref: refs/heads/main
+    old: 2fc9f69edd2165f9047ae97cfad2341e82bd3437
+    new: d7ab15ab34a491b3837595b629e79323a1922fc8
+    log: |
+         70dcf3cdc342b8c3613614a24e587aa524a01c14 net: phylink: Convert to mdiobus_c45_{read|write}
+         260bdfea873aec8fe8990154c722abe3a0a6d8d3 net: phy: Convert to mdiobus_c45_{read|write}
+         cad75717c71b49149fbb1ab136bf88a85274d01e net: phy: bcm87xx: Use mmd helpers
+         639e4b93ab68f5f5fc4734c766124ca96c167f14 net: dsa: sja1105: Convert to mdiobus_c45_read
+         d18af067c98eb187b8d9fe1f4e2e59ba3ad0a1d8 net: pcs: pcs-xpcs: Convert to mdiobus_c45_read
+         d7ab15ab34a491b3837595b629e79323a1922fc8 Merge branch 'use-mmd-c45-helpers'
+         
