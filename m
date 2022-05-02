@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4685707767636140661=="
+Content-Type: multipart/mixed; boundary="===============5858769351089558920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Mon, 02 May 2022 17:27:03 -0000
-Message-Id: <165151242382.12048.4245260534736093313@gitolite.kernel.org>
+Date: Mon, 02 May 2022 17:27:06 -0000
+Message-Id: <165151242618.12109.4302877372747694585@gitolite.kernel.org>
 
---===============4685707767636140661==
+--===============5858769351089558920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev-queue
     old: ac21ab5d1de0de34201c90d32eee436f873d1e5b
     new: c3624ebd67c68722e0fabc9cae01397b15310239
     log: revlist-ac21ab5d1de0-c3624ebd67c6.txt
 
---===============4685707767636140661==
+--===============5858769351089558920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a1074bb7d47d41cb275a754549dab46d28e6756e rtl_bt: Update RTL8852A BT USB firmware
 a8067ef339e6125190677f2d3deaae9c21b0d27b Merge branch 'guc_v70.1.2_dg2' of git://anongit.freedesktop.org/drm/drm-firmware into main
 c3624ebd67c68722e0fabc9cae01397b15310239 Merge branch 'ath10k-20220423' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/linux-firmware into main
 
---===============4685707767636140661==--
+--===============5858769351089558920==--
