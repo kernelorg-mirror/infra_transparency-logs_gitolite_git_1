@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 02 May 2022 23:42:20 -0000
-Message-Id: <165153494065.3527.4085112315945144362@gitolite.kernel.org>
+Date: Mon, 02 May 2022 23:43:54 -0000
+Message-Id: <165153503489.5229.17971893946807607438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: fa7828bddd2164408535a9ac45095564e9ebbeea
-    new: 1957ab9d54ced69bf27225437f209bf680941bb3
+    old: 1957ab9d54ced69bf27225437f209bf680941bb3
+    new: b7ca43eedfd5a028909a410287ad915ec026e24d
     log: |
-         c75ff36b77f88821beffabe4d3e60317c243d9b1 btdev: Fix not removing connection and advertising set on reset
-         19f8c5670f905f158d4e856b93e3068782196c6e monitor: Decode LTV fields of Basic Audio Announcements
-         5d11bb0e403195d0aca9361fc272ae10308cda6e monitor: Fix parsing of LE Terminate BIG Complete event
-         1957ab9d54ced69bf27225437f209bf680941bb3 fixup! monitor: Decode LTV fields of Basic Audio Announcements
+         6bf9d1775cf4ccd7374a6a88f353ddefaa123d52 monitor: Decode LTV fields of Basic Audio Announcements
+         b7ca43eedfd5a028909a410287ad915ec026e24d monitor: Fix parsing of LE Terminate BIG Complete event
          
