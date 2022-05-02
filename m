@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 02 May 2022 15:50:21 -0000
-Message-Id: <165150662117.14833.16934596181091215736@gitolite.kernel.org>
+Date: Mon, 02 May 2022 15:55:18 -0000
+Message-Id: <165150691885.17860.7750760666381889695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: 22d0912fc3fd6490a3499e875496b7a31af83272
-    new: a6b36823df3f7d82635efa7d9112a5d358067ba1
+  - ref: refs/heads/for-5.19/wacom
+    old: 6ff1cae2e30a79265bcce85f617663c480936ab0
+    new: 7e0de2a1f5a606eadc665ae5c512b332c8aeee7b
     log: |
-         24401f291dcc4f2c18b9e2f65763cbaadc7a1528 HID: lenovo: Add support for ThinkPad TrackPoint Keyboard II
-         a0a5c2a696990520eba366fae67573306641b93b HID: lenovo: Sync Fn-lock state on button press for Compact and TrackPoint II keyboards
-         5c9b8fae88bc2f629926b7949dbc3672d4fbdad2 HID: lenovo: Add note about different report numbers
-         a6b36823df3f7d82635efa7d9112a5d358067ba1 Merge branch 'for-5.19/lenovo' into for-next
+         7e0de2a1f5a606eadc665ae5c512b332c8aeee7b MAINTAINERS: Add Wacom driver maintainers
          
-  - ref: refs/heads/for-5.19/lenovo
-    old: 0000000000000000000000000000000000000000
-    new: 5c9b8fae88bc2f629926b7949dbc3672d4fbdad2
+  - ref: refs/heads/for-next
+    old: a6b36823df3f7d82635efa7d9112a5d358067ba1
+    new: 6464ff12c60e7f5517db5c4831f448db8593cc25
+    log: |
+         7e0de2a1f5a606eadc665ae5c512b332c8aeee7b MAINTAINERS: Add Wacom driver maintainers
+         6464ff12c60e7f5517db5c4831f448db8593cc25 Merge branch 'for-5.19/wacom' into for-next
+         
