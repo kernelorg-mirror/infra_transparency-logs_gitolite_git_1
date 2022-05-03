@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5239541031300856984=="
+Content-Type: multipart/mixed; boundary="===============2926429453801886563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 May 2022 15:49:42 -0000
-Message-Id: <165159298240.13346.14405087892632806780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 May 2022 15:49:48 -0000
+Message-Id: <165159298874.13446.11447272327865727777@gitolite.kernel.org>
 
---===============5239541031300856984==
+--===============2926429453801886563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: dd508e324cdde1c06ace08a8143fa50333a90703
     new: a962890a5a3cce903ff7c7a19fadee63ed9efdc7
     log: |
@@ -25,37 +25,37 @@ changes:
          4213ff556740bb45e2d9ff0f50d056c4e7dd0921 ASoC: rt5514: Fix event generation for "DSP Voice Wake Up" control
          a962890a5a3cce903ff7c7a19fadee63ed9efdc7 ASoC: SOF: ipc3-topology: Correct get_control_data for non bytes payload
          
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: 756a615083315c9dc3b60c3b84c01427a082f1f8
     new: 55d2a66cfec6a4196243940f754f5b34dd2106bf
     log: revlist-756a61508331-55d2a66cfec6.txt
 
---===============5239541031300856984==
+--===============2926429453801886563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651592980 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1651592980-92f9828061dc9761b5ad0004711f6d3aa6c78dce
+pusher C3F436CA30F5D8EB 1651592987 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1651592986-b63f7c84593095d414dc0087ec8696166d9ab771
 
-dd508e324cdde1c06ace08a8143fa50333a90703 a962890a5a3cce903ff7c7a19fadee63ed9efdc7 refs/heads/for-5.18
-756a615083315c9dc3b60c3b84c01427a082f1f8 55d2a66cfec6a4196243940f754f5b34dd2106bf refs/heads/for-5.19
+dd508e324cdde1c06ace08a8143fa50333a90703 a962890a5a3cce903ff7c7a19fadee63ed9efdc7 refs/heads/asoc-5.18
+756a615083315c9dc3b60c3b84c01427a082f1f8 55d2a66cfec6a4196243940f754f5b34dd2106bf refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJxTxQACgkQJNaLcl1U
-h9Cx9Af9Hk7aHGeiolJGPJNN6KyOcU6MRTv0BLtMuz4UPkKmQWWZbn4+BWdtglCG
-kfLMykYdleEuTOFY+kHKG5jgRMeUNgzUBAKAQL04/NDp3POAuQl0/oHGCQQ6SyvS
-D0pNl3s7nybFxVH/boD0D/4Hzw6OSs7H42PJkZqNr5e2lYgUQWEnq7VfEdAJzw6C
-6p6ekLOo/OtMfz1jt863nGNHK6YbXTrE6DY9X/GeifT1mj7uKSF87vf1xWrQo04T
-pHaOg4OVGPI43bZxDA7uLZnC+AERI/BaSQiwItonsDapBYIm0iy2HostUXzrvXL/
-JH95pUrTSIxNwcGEX7XAw66bBdBUdg==
-=4zqj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJxTxsACgkQJNaLcl1U
+h9CcUgf9FDQSl0Ddlax3Y//sG5mS5YuyJGWhvP880FcFjQyo9LSFeikDf9Um1MFU
+4qADwtCj4RftkhdLEeh5HfPYnPrFTSJ5sAiIk2smOIlwpITukzc6BRCfuUpj9pWP
+jE5WijQaG6K6ljI6cqzjQI/dmCLFotvbfCFqYkf1Noe5Jx8N96w2kkl2hAN5FsZ8
+DoRzkh1a9OOKNSKv/tkuinIfsuBSQjHHQefvWp8Qf+BQgNjfYJjQyY/SVKztltgT
+h6d5gg/IhBBPtcm2zeAoJHx6NnrH2Up/PH1JGjowx65Ua8j1h9Z0SvRSw9alqrjg
+Mr4g7hYbqwpsJVqNBg0sdpeSVnW9hA==
+=tfYS
 -----END PGP SIGNATURE-----
 
---===============5239541031300856984==
+--===============2926429453801886563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ c7b92395836c3962eedbe6b4f58f9dfb2b2cc921 ASoC: adau1761: Add ADAU1761-as-ADAU136
 35a9b000b24d512228d4513dc55f5767b015bc73 ASoC: rk3328: fix disabling mclk on pclk probe failure
 55d2a66cfec6a4196243940f754f5b34dd2106bf ASoC: tpa6130: use i2c_match_id and simple i2c probe
 
---===============5239541031300856984==--
+--===============2926429453801886563==--
