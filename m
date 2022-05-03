@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 03 May 2022 04:43:28 -0000
-Message-Id: <165155300801.11764.4011933748174953128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Tue, 03 May 2022 05:05:03 -0000
+Message-Id: <165155430306.25758.5062306754028184574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/next
-    old: bc055a50a8594a634e09a7286601d0d2bd51c734
-    new: d413a34932f98cc5bf0ffdd332884a8b63a1a7f9
+  - ref: refs/heads/for-next
+    old: ff4715eca5fbe9baf96bacdd706da79eb0c5e1df
+    new: a4be0d8fdc8e347304b055e7d8994b5cc487dec9
     log: |
-         f0a4bc38a12f5a0cc5ad68670d9480e91e6a94df phy: qcom-qmp: fix struct clk leak on probe errors
-         4d2900f20edfe541f75756a00deeb2ffe7c66bc1 phy: qcom-qmp: fix reset-controller leak on probe errors
-         0a97630ac9726436e319e38cb95d73706581c6c4 phy: qcom-qmp: switch to explicit reset helpers
-         5e73b2d9867998278479ccc065a8a8227a5513ef phy: qcom-qmp: fix pipe-clock imbalance on power-on failure
-         d413a34932f98cc5bf0ffdd332884a8b63a1a7f9 phy: qcom-qmp: rename error labels
+         e792a74475e4d6d7e63cd52dcad7d5b0dbb500be platform/chrome: cros_ec_lpcs: detect the Framework Laptop
+         a4be0d8fdc8e347304b055e7d8994b5cc487dec9 platform/chrome: cros_ec_lpcs: reserve the MEC LPC I/O ports first
          
