@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 03 May 2022 20:53:07 -0000
-Message-Id: <165161118722.22047.6732695582892442096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 03 May 2022 21:13:24 -0000
+Message-Id: <165161240407.2883.16142318096379070532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/dev-test
-    old: 2e3350a75c9d3ff027c790894c7544d0dace8dd7
-    new: cb22e8f369d373c12dcd383e71bcaf5c252accfc
-    log: |
-         ae131acf0c04a28b4fc10033283795a2c89230d2 f2fs: fix to do sanity check on total_data_blocks
-         4a9ac687a92f95c52ef2023776afded7e889e705 f2fs: fix to do sanity check for inline inode
-         605e132b5fff899449266b0e901e1f754ca9ae14 f2fs: fix to avoid f2fs_bug_on() in dec_valid_node_count()
-         eed1443afe7cfd25b3652d610ae73e6e8c5d18ff f2fs: fix to do sanity check on block address in f2fs_do_zero_range()
-         cb22e8f369d373c12dcd383e71bcaf5c252accfc f2fs: change the current atomic write way
-         
+  - ref: refs/heads/kvm-arm64/vgic-fixes-5.18
+    old: 0000000000000000000000000000000000000000
+    new: 4a292cca2878cfaa9e45941e6fd1d86f802dd37d
