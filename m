@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7044316955851464764=="
+Content-Type: multipart/mixed; boundary="===============9130424837886184118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 May 2022 00:43:52 -0000
-Message-Id: <165153863298.12363.2064038744934290407@gitolite.kernel.org>
+Date: Tue, 03 May 2022 00:44:04 -0000
+Message-Id: <165153864486.12513.11220057723656639593@gitolite.kernel.org>
 
---===============7044316955851464764==
+--===============9130424837886184118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f4bdec9195688502830a592e4bb127ffdb4afb0a
-    new: d156a4fedd46630ecd9af2a20f3c9784740125ca
-    log: revlist-f4bdec919568-d156a4fedd46.txt
+  - ref: refs/heads/5.19/scsi-staging
+    old: cd186449fe1c278b80bf70986a95b89c2cd08f0a
+    new: f304d35e59958ea4be399f78e5be08d4a0c4db75
+    log: revlist-cd186449fe1c-f304d35e5995.txt
 
---===============7044316955851464764==
+--===============9130424837886184118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1651538624 -0400
+pusher 75C5DE3D 1651538636 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1651538624-c2494bd174ec9236cdc94bb853cb7e9623336889
+nonce 1651538635-d3028c1edeaf6740b6b9d53588a5348e7382dd59
 
-f4bdec9195688502830a592e4bb127ffdb4afb0a d156a4fedd46630ecd9af2a20f3c9784740125ca refs/tags/mkp-scsi-staging
+cd186449fe1c278b80bf70986a95b89c2cd08f0a f304d35e59958ea4be399f78e5be08d4a0c4db75 refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJwesAACgkQ7ulgGnXF
-3j3FyA/+Pj5fOkDvEAXrXPOUiEj4ILi1+NZv/kTzb9paG2MLnF4hCsMd172ttGZT
-SbQztMAhPDsG6TPhT4mMxcxKkvvkm/l16GUIk0JTMeHp9++LN7CDyGKvmMXakKrO
-psV2I+jcEZkFBkxHoLjb1Nnoft5+/EmqQd7E5gjlj/HdasOwTfRs2a1LqXsjIWwb
-VNeof2Z0q7d1ugjLF0k51s7h4hzg2ScGNa9wI4XAftzJBlzoZR2jGLONgqU+Eoil
-aGj4lcJaFp+n13xqbT8SDU1TE/Sz78fjZjmgTP+uf4iS/o7bDdFGrDdaF4H5bLT1
-6d2Uch5vBmJliRPkrlp52mz/iiUO8oOSv4zZ6FzWqQZ5kPyuMqUwiUy2faVHQWLb
-3ZUgziGaVqvkeUcE1O5STW4Ow03+iC0vIK+4krRoTpu+YkrHElCzOvgoeXB/rAHb
-0WYDQK9CHMwncO+vl4wPDaaEkYz1Ov6hbbsz09EmxpaH3OtsdIm3h8WsBV09EELo
-AMuowv2QycFmaXpFGTcLPP6fz449b8luRQYax8RWlYWn17OS+4eSrV76OsRAL0SN
-EoZOvoeOsFDbyR20iru11R4U7ltfV+l2RJBlIjdV/laVqEWu94ecPtlrZkSMjWKL
-arLKdHscSLu3C7FMZkBK0DCX1hLQeDuSp8rfShou5EFx/ELGkJk=
-=YFsL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJweswACgkQ7ulgGnXF
+3j195w/+MbkBxkAipXnAGCmMz2LiPhT4nkSgn7KZfxkOZmtsAxIz7JC5v3cEkx1M
+jYSANlwUikX9QSd0UriiK1U7F+ubBGn7HF/RflKKMm1s3CxiF+4R1TaN+tLk38WT
+nRe5sCtnaxv+HBie9m43lLgKdggFjrzoa3sZCPCaesgWmZRDFDAnpL8avhQPd7CT
+Qjj9E3qz6wHNCp0wROGkj2ncztLBiqZVAj5UICUDULh+sN0ysaUdyrdeHu1TQ7A9
+Ych/fQuZLmMZ1aSi/DKueZN6f23NCd3zNJs1JQrE7qY9Akrf22U26lW3eoSWXIZ4
+iBKQggSbSIp+OneUhmZVGVesWgy8lbHsfN8te39Jutx3DGZlXXdD3Y5mtKNqLTQe
+yrAkeAuLqxkR45nCf7dKg0rk3VGXbynX4EM1n74+pKZ6ZCCE8L0U6tvwO0Suat7y
+tOrPipNFeYgvRHFG+KvCSrOrgcITjOA/FbX4LAU5JJ+PKIZdgEEdeWlgorShoukf
+i83PBMIUNz5txb5WjtJyQOAhMaUxhN7udd1rbaoC/magUdMoNjq/lReI/aa3y0+w
+2QqT0zjhbnUCLXuIW/HwKQJ3Sh/KK0g1PZglcBPi+1gepn9OHWXVSsCsy5BH7LQh
+Rpf7EzNyMAZr40eTn4J4u5/GpUoNDHV2O92MV6K8dUfiLLLqNc8=
+=wx9U
 -----END PGP SIGNATURE-----
 
---===============7044316955851464764==
+--===============9130424837886184118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4bdec919568-d156a4fedd46.txt
+Content-Disposition: attachment; filename=revlist-cd186449fe1c-f304d35e5995.txt
 
 dc1178767cba9d67f5100fb370670fd613319362 scsi: mpt3sas: Use cached ATA Information VPD page
 c92a6b5d63359dd6d2ce6ea88ecd8e31dd769f6b scsi: core: Query VPD size before getting full page
@@ -78,4 +78,4 @@ f3de4706c1e0c3b9fa39ec24a30c1996a33bc9e4 scsi: mpi3mr: Move data structures/defi
 7dbd0dd8cde356d2a747d5c87dad7c2233dad8a4 scsi: mpi3mr: Add support for NVMe passthrough
 f304d35e59958ea4be399f78e5be08d4a0c4db75 scsi: mpi3mr: Update driver version to 8.0.0.69.0
 
---===============7044316955851464764==--
+--===============9130424837886184118==--
