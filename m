@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0196376302773590115=="
+Content-Type: multipart/mixed; boundary="===============4105662612953701324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 May 2022 00:43:17 -0000
-Message-Id: <165153859773.11880.16974389088016357224@gitolite.kernel.org>
+Date: Tue, 03 May 2022 00:43:29 -0000
+Message-Id: <165153860911.12033.1360448736530876533@gitolite.kernel.org>
 
---===============0196376302773590115==
+--===============4105662612953701324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0f2134d02a3db6d773e6d28853febf0e2ae43c4b
-    new: 3b5300111bea8b7d166fd74f670754a58bf891f4
-    log: revlist-0f2134d02a3d-3b5300111bea.txt
+  - ref: refs/heads/5.19/scsi-queue
+    old: f9bdac31cf4b8609c1b241749b0ceb8f67c8685b
+    new: ebc95c790653508ad7e031cfb9de5d0fa39135e2
+    log: revlist-f9bdac31cf4b-ebc95c790653.txt
 
---===============0196376302773590115==
+--===============4105662612953701324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1651538589 -0400
+pusher 75C5DE3D 1651538600 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1651538588-11309161e9cecdf70dd8950712f9d27d2f23e334
+nonce 1651538600-acea81a9fab2ffc556b57c9466f3372de5b9858b
 
-0f2134d02a3db6d773e6d28853febf0e2ae43c4b 3b5300111bea8b7d166fd74f670754a58bf891f4 refs/tags/mkp-scsi-queue
+f9bdac31cf4b8609c1b241749b0ceb8f67c8685b ebc95c790653508ad7e031cfb9de5d0fa39135e2 refs/heads/5.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJwep0ACgkQ7ulgGnXF
-3j2E1RAAomSz9euxMaQIwjf8ts3GcyCuGMDgr+NUTRIgEQ94XgDVPKNeUtSk+3v3
-2LvP1Uovrm7aThpEFyrx3S+Zbl+Rhx7kbh9thS/3nqoFVNY83yqx2iyMR9Fd1kf3
-McbX5pKOrbJ2MMNz3DZzWrYl0lcNY7ZZAyqAUYyRmzYi8Z7Mlf/YBvJ/Z3G3LABh
-ur3Ot1Xo86lbggLFBY1gkhhPfwCe6mXUazPEpjO2J3Qg/2J+PITaZNbJFq53TRgg
-VJwqIqUQhM79lI/w9E7FoEQMFZpn+M7t7TOLvXgtqwW3Potmdv+sUzijhMLL32KE
-i4FJB+YlX3CR/JY850Qra0aE/RdqMlBD2OYQp3in/JhDQDYE18bozu2vV91qqbMG
-5yVSrdClanCZ8foO2C4yP2AlX1TnODAePj+W63+rfc43zN+7mEmcDF5+ITgUqlqe
-NLZffFSfqB4UsQIMMFCpXZQpY3vKltVArFHkrJmSfU3h9DV1UsVNSMHHlF0kuyiz
-yGqhQ7ROZjFuxBvd/JiDkpLEIYdWxb9jIVbxzC7JFuzW8/GQmTepkeFjBb/plbMH
-PhSCZ/LHlbRbJfwaKNHRiNrKSlL2KnH4+j/HFF3vfb+gbkBBb3Xrw7gKz/9cosOe
-79FlqDpvCQxlvcnYCCrWauiM+msrJPqoSyTAvjefNtfomdpwfXA=
-=wEfN
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJweqgACgkQ7ulgGnXF
+3j2b/Q//VIs7brv0LH63QFLOhb/goOEUEZu5scUoFgVi7s3U3ONyZmcRYw1k0V5W
+xOZD2CmwWrbF7u3dYlNzvufI9n4I6xNVsHTLRZOkbZ1AxBpMUeVwQDiTyACmyNUo
+bCHd6fiijeneUMxnOgjALDsZUn3k4ZKcfmOxnVJfcwJuUkoo9uX01G8GtjOG5eqV
+KmPYi+LuI9JmAPYo+ea7j40RgTGHwuXjEWgnmGDuXHzdtcMRESD/5FfEKk01gc9m
+cl0JJsQZgN+c/5pDVDCRI9S2x1l0J6FgMjmjzw65WHLl346k0AoHwf6HBcUC8xTH
+U3h4o7ZSK71dLxKooWFG1ogiw204UavzMhzar5DcfMGjlfIlc9qMl+DGgJW4GQqI
+JE4cMv8060V4JJkOb0zeEhl81Kug2GBMN9BwUnIlEhpNbZ8foQmk+59ta69SMwHI
+BoOUJbB+wTBd0B8FkpfW6p2J/V0C0bPuaXwcj62PocPXGIVRWNdOdn9RTAODoHk5
+CJgLVffMZzuVea3SNNsMNrOAzCE2/YLwX7GmhwJPYallJ4Fcq8ncKGslcetq0EMd
+HKjkrrE7eLQfAm9phLBP95kvdk7oW2UfOeziiik+6WGmnL4+fKv7KEg4Dn/gkk93
+aN/vQG6jG0h8XLBdYJ5VpQyosJ9jY5v0dyWlw832qZ3fpIqWdps=
+=t5XK
 -----END PGP SIGNATURE-----
 
---===============0196376302773590115==
+--===============4105662612953701324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f2134d02a3d-3b5300111bea.txt
+Content-Disposition: attachment; filename=revlist-f9bdac31cf4b-ebc95c790653.txt
 
 ad14649fc5ab216e0abb6b38115898238a0991f5 scsi: qla2xxx: Remove free_sg command flag
 dceaef94a4753d4d49d493a6cd4a81168e384d6f scsi: mpt3sas: Fix _ctl_set_task_mid() TaskMID check
@@ -140,4 +140,4 @@ c2024e3b33ee785960e21c22da478c937a6af538 scsi: lpfc: Remove redundant lpfc_sli_p
 bb9b9eb0ae2e9d3f6036f0ad907c3a83dcd43485 scsi: target: tcmu: Fix possible data corruption
 ebc95c790653508ad7e031cfb9de5d0fa39135e2 scsi: sr: Add memory allocation failure handling for get_capabilities()
 
---===============0196376302773590115==--
+--===============4105662612953701324==--
