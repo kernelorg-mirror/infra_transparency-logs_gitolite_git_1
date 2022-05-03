@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0561966238564862406=="
+Content-Type: multipart/mixed; boundary="===============7795069266340225013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 May 2022 15:19:56 -0000
-Message-Id: <165159119666.25693.6137686212458353200@gitolite.kernel.org>
+Date: Tue, 03 May 2022 15:20:04 -0000
+Message-Id: <165159120408.27253.17631675838436723559@gitolite.kernel.org>
 
---===============0561966238564862406==
+--===============7795069266340225013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 17d49e6e8012a9e30f8aab7af82f6a14ca25afaf
-    new: 2b68abf933654eb750ba963e46bd9cd2d8677dce
-    log: revlist-17d49e6e8012-2b68abf93365.txt
+  - ref: refs/heads/dev-queue
+    old: 6fc76294e400f6e7f06b86b941a15a065c14adc8
+    new: e1cdfc3b9e59d743999e85f8076e94a1e78aba7d
+    log: revlist-6fc76294e400-e1cdfc3b9e59.txt
 
---===============0561966238564862406==
+--===============7795069266340225013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17d49e6e8012-2b68abf93365.txt
+Content-Disposition: attachment; filename=revlist-6fc76294e400-e1cdfc3b9e59.txt
 
 cfa1e01ecf516511bfc0fa87f96aa19bc6ee401f net: ieee802154: ca8210: Fix lifs/sifs periods
 731cddce6dd110fb2cdee34eddb48599e7251517 net: mac802154: Convert the symbol duration into nanoseconds
@@ -149,5 +149,40 @@ c864769add96f568ac10a6173e5d2c55057d64c2 mlxsw: Configure descriptor buffers
 1d267aa8699b5985a297f697c493aadc507711a9 selftests: mlxsw: Add a test for soaking up a burst of traffic
 f4f1fd7646203d36b844645704636e2208a54268 Merge branch 'mlxsw-remove-size-limitations-on-egress-descriptor-buffer'
 2b68abf933654eb750ba963e46bd9cd2d8677dce Merge tag 'mlx5-updates-2022-05-02' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+b1ea7691fb021e4797ab59b021464bf37a2d4a9f ice: Add support for classid based queue selection
+7af6edad8944bb5c3707e6e37308e0bc1bc69e6a igc: Remove igc_set_spd_dplx method
+6e6af74db574dc6962380305abd58c6a9e51daba ice: introduce common helper for retrieving VSI by vsi_num
+fc5a90da5e6b2a66d9e29bba546656bf6feebc7a ice: use min_t() to make code cleaner in ice_gnss
+b32db6e6bd68a30be1ea96cec53e47bd42c6d8af i40e: i40e_main: fix a missing check on list iterator
+d6644cf754075586b0f9303791e8b6b774bffc01 ice: ice_sched: fix an incorrect NULL check on list iterator
+e5b8ddd1dc5a3fc12bed6e0851f54bb26572eff2 ice: Add support for double vlan in switchdev
+1401330718fbd123e3b81f81a76a5dc7c217d25d ice: link representors to PCI device
+15801c8b0754884ccc2b3ea3411dda4972c4262f Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+18cf17c18fc1ec64f7d78308a18c7f8b037fa2e3 ice: Add support for vlan tpid filters in switchdev
+8cb68910ad521d559c0f82fe2f5fc477a83a0c16 ice: return ENOSPC when exceeding ICE_MAX_CHAIN_WORDS
+4b16b466734d0a811ff80757b8347d9a582c0af4 i40e: Add VF VLAN pruning
+597cedbfc723c7dccbd9657b4ee2493daaea5a09 ice: add newline to dev_dbg in ice_vf_fdir_dump_info
+e138d3ef0c8851c1b8a4d9c9c355b5b4f8671501 ice: always check VF VSI pointer values
+67aa45db4b616738a8c5ba9d7633ccb619f78549 ice: remove return value comment for ice_reset_all_vfs
+8b6a2bb341d4a802a8952274c29e1490a6d1c389 ice: fix wording in comment for ice_reset_vf
+4275e26d089feefbc1e4bdc0e018c42f9f52f1be ice: add a function comment for ice_cfg_mac_antispoof
+dca86c924beb246d4de54ed6eaaaa3b7c578b2f1 ice: remove period on argument description in ice_for_each_vf
+52c577fc6118541a70019389bd36b996bd49cbb0 ixgbe: Fix module_param allow_unsupported_sfp type
+7fc30557fbf5d57a7493f8f0a7e4103e327c98b7 iavf: Add waiting for response from PF in set mac
+efabe351b1403f5b64d00b5010ddb6cb0436d7ad ice: fix PTP stale Tx timestamps cleanup
+0c441c91576187ec5cb897829d19c33c1c3720e0 igb: Convert kmap() to kmap_local_page()
+816c2dff4e3a5590e9256437c870a93814adb682 ice: get switch id on switchdev devices
+f7180d86e3179f66d41b4980cc5934a34df4bfa8 ice: switch: dynamically add vlan headers to a dummy packets
+d633464de11304b5fb147137b0759054ec04728c ice: Fix race during aux device (un)plugging
+c1a3d040500a69882d8c5e6e9152b3f4602bc133 igc: Remove unused phy_type enum
+19571ff67e315c31fee4d0573e8895d713ffecc2 igc: Change type of the 'igc_check_downshift' method
+913feec7a3551f94ee399d6667b338702bae2441 ice: don't set VF VLAN caps in switchdev
+91e1c1aea6756c3e0bb34fa8f411fcb137f65920 ice: remove VLAN representor specific ops
+56625e68d2d78cf88283454cebde8a5e663cfb96 ice: fix crash when writing timestamp on RX rings
+54ebb82c6a0b3428b720ce0a1cb5ba7ef9fc0c60 ice: clear stale Tx queue settings before configuring
+769046f2183de30808e0c5d3c27cc105fc54ca5d ice: fix possible under reporting of ethtool Tx and Rx statistics
+b8c9cc2902fe21bdc1837ac9838f7579c63fa015 ice: remove u16 arithmetic in ice_gnss
+7e9b3f3cf91b979573966936809328ddfa028a02 ice: add i2c write command
+e1cdfc3b9e59d743999e85f8076e94a1e78aba7d ice: add write functionality for GNSS TTY
 
---===============0561966238564862406==--
+--===============7795069266340225013==--
