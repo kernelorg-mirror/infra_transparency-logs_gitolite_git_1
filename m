@@ -1,64 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3984185557188305299=="
+Content-Type: multipart/mixed; boundary="===============8271286532883823123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
-Date: Tue, 03 May 2022 16:23:10 -0000
-Message-Id: <165159499083.5053.1369300715652659675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
+Date: Tue, 03 May 2022 16:23:15 -0000
+Message-Id: <165159499554.5134.2193698857209082326@gitolite.kernel.org>
 
---===============3984185557188305299==
+--===============8271286532883823123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/firmware
+repo: pub/scm/linux/kernel/git/jkirsher/net-queue
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: ac21ab5d1de0de34201c90d32eee436f873d1e5b
-    new: d4b75516c46b22d17b8654c65f2ea2730875bf14
-    log: revlist-ac21ab5d1de0-d4b75516c46b.txt
+    old: 249aca0d3d631660aa3583c6a3559b75b6e971b4
+    new: 3a58f13a881ed351198ffab4cf9953cf19d2ab3a
+    log: revlist-249aca0d3d63-3a58f13a881e.txt
 
---===============3984185557188305299==
+--===============8271286532883823123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac21ab5d1de0-d4b75516c46b.txt
+Content-Disposition: attachment; filename=revlist-249aca0d3d63-3a58f13a881e.txt
 
-6b1ac46dc83085e395ece1c87879edfa54c9eded ath11k: IPQ6018 hw1.0: update board-2.bin
-3417df39f2dbbf110f9fa097f55238710714437b ath11k: IPQ6018 hw1.0: update to WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
-f52cd1d002e11940a5b9fba93b2dbd38a3c87965 ath11k: IPQ8074 hw2.0: update board-2.bin
-adbc778e771d1750ad687d1ac0f90275cb6afba8 ath11k: IPQ8074 hw2.0: update to WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
-d3514767929c105f480efaa336cddbb8d90628da ath11k: QCA6390 hw2.0: update board-2.bin
-f56505fe2e45d02a15b2a2308199291e66ee3494 ath11k: QCN9074 hw1.0: add board-2.bin
-97f8b7563d6f18fc38f32934ea7f12a6ca166e5d ath11k: QCN9074 hw1.0: add to WLAN.HK.2.5.0.1-01208-QCAHKSWPL_SILICONZ-1
-a50132f7fb1573a15b84f917165b2cdb719baaa6 ath11k: WCN6750 hw1.0: add board-2.bin
-0d5e9f7e0aa1474870ff168d87cd32123f6638b0 ath11k: WCN6750 hw1.0: add to WLAN.MSL.1.0.1-00887-QCAMSLSWPLZ-1
-be63fc0c6ca98e6c7ce33f94dcf3c58cd9c1410d ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.7
-1962cbab358c2945674f800da3acc7f834eb14e7 ath10k: QCA99X0 hw2.0: add board-2.bin
-73743b815b86c615ff427ae6a793769973fcb04d ath10k: QCA4019 hw1.0: update board-2.bin
-729bd7f615d7f1cc0b16d14b4b7d8959a81b0c5b ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00288-QCARMSWPZ-1
-6ad0930e3d95987b199743322cc468532e7b7657 ath10k: QCA6174 hw3.0: update board-2.bin
-b155d859e3f2cc6c860467f01b4681eed30e6ff2 ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.9.0.2-00156
-9fce09f6c15e504bdb9aef4dfd96feecc7c7a2e0 ath10k: QCA9888 hw2.0: update board-2.bin
-4ad3bd3487b060443fd49a90bd0f45e9eec27199 ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.9.0.2-00156
-44b8aee72444abb93721da9a240e708095a126c4 ath10k: QCA9984 hw1.0: update board-2.bin
-e7d3d08c72abd1a2e57cf93b626b5b835b262dca rtw89: 8852c: add new firmware v0.27.20.0 for RTL8852C
-89ae5eb20f65752db6a3e38b9a69144f19540567 i915: Add GuC v70.1.2 for DG2
-d0ea8ffa542d863d81230f46bc9832a07b4554f8 qcom: add firmware files for Adreno a220
-4a43f1a8443fe24b147df4fe1b971a1182084a4f qcom: add firmware files for Adreno a330
-dfa3c4c30996376dbc3adb530c0505b2efad583b qcom: add firmware files for Adreno a420 & related generations
-4a0e59f95830817b1601631281191a5c3327d138 ath11k: QCA6390 hw2.0: update to WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
-fc4735eba70df2590d26c457b5fc1ff3df537d42 Merge https://github.com/pkshih/linux-firmware into main
-480d6c29fceaf757623a4369e0313561496f6ad8 amdgpu: update dcn_3_1_6_dmcub firmware
-b4994be7d27c7c3f44e80913c547289d2033458f amdgpu: update gc_10_3_7_rlc firmware
-61eb408159a726decd36350af4017e16b7001d78 amdgpu: update psp_13_0_8 firmware
-95652847fb7dc75cc00a80af4ed6ec50e9207f07 Merge branch 'adreno-firmware' of https://github.com/lumag/linux-firmware into main
-a1074bb7d47d41cb275a754549dab46d28e6756e rtl_bt: Update RTL8852A BT USB firmware to 0xDBB7_C1D9
-a8067ef339e6125190677f2d3deaae9c21b0d27b Merge branch 'guc_v70.1.2_dg2' of git://anongit.freedesktop.org/drm/drm-firmware into main
-c3624ebd67c68722e0fabc9cae01397b15310239 Merge branch 'ath10k-20220423' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/linux-firmware into main
-b8bd6ccd9c409508a0b424492981721b45c55127 i915: Add DMC v2.06 for DG2
-d4b75516c46b22d17b8654c65f2ea2730875bf14 Merge branch 'dg2_dmc_v2.06_rebase' of git://anongit.freedesktop.org/drm/drm-firmware into main
+72ed3ee9fa0b461ad086403a8b5336154bd82234 can: isotp: remove re-binding of bound socket
+47f070a63e735bcc8d481de31be1b5a1aa62b31c can: grcan: grcan_close(): fix deadlock
+101da4268626b00d16356a6bf284d66e44c46ff9 can: grcan: use ofdev->dev when allocating DMA memory
+1e93ed26acf03fe6c97c6d573a10178596aadd43 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+2873d4d52f7c52d60b316ba6c47bd7122b5a9861 can: grcan: only use the NAPI poll budget for RX
+4f159a7c4d1be4d160270ea2800d44d9ebe157e1 Merge tag 'linux-can-fixes-for-5.18-20220429' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+38dcd9570d6fced1dcfee226d5b29722b070ce90 selftests/net: add missing tests to Makefile
+f62c5acc800eebfe25bf6738b2cc8aa5d6aa7598 selftests/net/forwarding: add missing tests to Makefile
+1e4e6904bb773a4ac5f082f76eb1a12c7a051970 Merge branch 'selftests-net-add-missing-tests-to-makefile'
+ff5265d45345d01fefc98fcb9ae891b59633c919 net: ethernet: mediatek: add missing of_node_put() in mtk_sgmii_init()
+e87f66b38e66dffdec9daa9f8f0eb044e9a62e3b net: mdio: Fix ENOMEM return value in BCM6368 mux bus controller
+52b2abef450a78e25d485ac61e32f4ce86a87701 hinic: fix bug of wq out of bound access
+fee34dd199384a483f84806a5cbcf8d657a481cc net: dsa: ksz9477: port mirror sniffing limited to one port
+a9e9b091a1c14ecd8bd9d3214a62142a1786fe30 net: dsa: mt7530: add missing of_node_put() in mt7530_setup()
+1a15267b7be77e0792cf0c7b36ca65c8eb2df0d8 net: stmmac: dwmac-sun8i: add missing of_node_put() in sun8i_dwmac_register_mdio_mux()
+95098d5ac2551769807031444e55a0da5d4f0952 net: cpsw: add missing of_node_put() in cpsw_probe_dt()
+39cb9faa5d46d0d0694f4b594ef905f517600c8e rxrpc: Enable IPv6 checksums on transport socket
+dba5bdd57bea587ea4f0b79b03c71135f84a7e8b net: igmp: respect RCU rules in ip_mc_source() and ip_mc_msfilter()
+a9384a4c1d250cb40cebf50e41459426d160b08e mld: respect RCU rules in ip6_mc_source() and ip6_mc_msfilter()
+47f753c1108e287edb3e27fad8a7511a9d55578e net: stmmac: disable Split Header (SPH) for Intel platforms
+da5c0f119203ad9728920456a0f52a6d850c01cd nfc: replace improper check device_is_registered() in netlink related functions
+d270453a0d9ec10bb8a802a142fb1b3601a83098 nfc: nfcmrvl: main: reorder destructive operations in nfcmrvl_nci_unregister_dev to avoid bugs
+b6693611f71e1b9107a2d178c1f7d92c7d850891 Merge branch 'nfc-fixes'
+6b292a04c694573a302686323fe15b1c7e673e5b pci_irq_vector() can't be used in atomic context any longer. This conflicts with the usage of this function in nic_mbx_intr_handler().
+79396934e289dbc501316c1d1f975bb4c88ae460 net: dsa: b53: convert to phylink_pcs
+b800528b97d0adc3a5ba42d78a8b0d3f07a31f44 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
+7a6bc33ab54923d325d9a1747ec9652c4361ebd1 net: emaclite: Add error handling for of_address_to_resource()
+45c77fb41821efa9ebb697430e03b37f2cb56602 Merge branch 'emaclite-improve-error-handling-and-minor-cleanup'
+3122257c02afd9f199a8fc84ae981e1fc4958532 selftests: mirror_gre_bridge_1q: Avoid changing PVID while interface is operational
+97926d5a847ca1758ad8702ce591e3b05a701e0d selftests/net: so_txtime: fix parsing of start time stamp on 32 bit systems
+f5c2174a3775491e890ce285df52f5715fbef875 selftests/net: so_txtime: usage(): fix documentation of default clock
+3a58f13a881ed351198ffab4cf9953cf19d2ab3a net: rds: acquire refcount on TCP sockets
 
---===============3984185557188305299==--
+--===============8271286532883823123==--
