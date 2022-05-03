@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 03 May 2022 17:03:46 -0000
-Message-Id: <165159742638.32766.1644296835813265481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Tue, 03 May 2022 17:04:15 -0000
+Message-Id: <165159745515.539.15858923240605723117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/arm64-sysreg-gen
-    old: b8448bc11b2ad8bf832052cf32d844ab5453d507
-    new: aa4c0bddbaff456edcb1a9f7ac0eac1618e0b063
+  - ref: refs/heads/sunxi/for-next
+    old: 737a9ba0eeb8f179c6f34f2bbd5a79396f59241c
+    new: c275d16eb08d6d51c9789eb3be4795281f8dd664
     log: |
-         1988eb39c0a8af6ec451dc0095d12336b14fba49 arm64: Update name of ID_AA64ISAR0_EL1_ATOMIC to reflect ARM
-         c962883862a16c0745efdc17be62bb1687c5ebd9 arm64/sysreg: Standardise ID_AA64ISAR0_EL1 macro names
-         dbec7db9a3faab46bd5c4c97ba08e6309a5af422 arm64: Add sysreg header generation scripting
-         eae0e803fe437767fb26dd00b4587bd0660b1f00 arm64/sysreg: Enable automatic generation of system register definitions
-         dc730f04ec1d688031d1e3c1d978e8b2f2503225 arm64/sysreg: Generate definitions for ID_AA64ISAR0_EL1
-         6b9511b81f5f305476818db1260cd3c3b49a4d62 arm64/sysreg: Generate definitions for TTBRn_EL1
-         aa4c0bddbaff456edcb1a9f7ac0eac1618e0b063 arm64/sysreg: Generate definitions for SCTLR_EL1
+         50612cf9e05d111c21e84096e50a31d0c35d5825 arm64: dts: allwinner: teres-i: Add GPIO port regulators
+         c275d16eb08d6d51c9789eb3be4795281f8dd664 Merge branch 'sunxi/dt-for-5.19' into sunxi/for-next
          
