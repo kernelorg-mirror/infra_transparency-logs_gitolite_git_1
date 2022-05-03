@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3007653033761709757=="
+Content-Type: multipart/mixed; boundary="===============5906484141973815834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 03 May 2022 15:49:54 -0000
-Message-Id: <165159299488.13525.298410228110020400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 May 2022 15:50:00 -0000
+Message-Id: <165159300082.13648.12173675777119777766@gitolite.kernel.org>
 
---===============3007653033761709757==
+--===============5906484141973815834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/regulator-5.19
     old: dc6d04619e62825083926929d88c94c5b6b42670
     new: 20078e3bbe6e5adb1a88f03f9609d532d99c690c
     log: |
@@ -27,28 +27,28 @@ changes:
          20078e3bbe6e5adb1a88f03f9609d532d99c690c regulator: pca9450: Enable DVS control via PMIC_STBY_REQ
          
 
---===============3007653033761709757==
+--===============5906484141973815834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651592993 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1651592993-c8cda6c29386dd71210840dc18ebe2f2dc9f3428
+pusher C3F436CA30F5D8EB 1651592999 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1651592999-5afe0b8661c9e749cd9b8b0e5ec4be5d7917f7aa
 
-dc6d04619e62825083926929d88c94c5b6b42670 20078e3bbe6e5adb1a88f03f9609d532d99c690c refs/heads/for-5.19
+dc6d04619e62825083926929d88c94c5b6b42670 20078e3bbe6e5adb1a88f03f9609d532d99c690c refs/heads/regulator-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJxTyEACgkQJNaLcl1U
-h9B2nwf/X7XaS1jMsgZuyWH73VDyTO0HlfC63VvfhDddg2s0FbochydQdDyPzoMt
-P2SCsaRYelCmAHR4kbkCVaGfCW996WuANVWbB7AUJq17jrft3PM/lxztW9CdT9f3
-lJIbloJClA/+ge4gMWMiynNdk+WK/BxWJfPAgGBJzsDgYUgv0v7mB1qJcne/gkyS
-U5Elry3K28uSRakQANlueONxBxJjTCrgdrxs0wxiXTtQkB3Zx9HYhH5VCCOYbetQ
-5wmvESCYqzsb341WaR4Ye6jNfIzltpaKNchvFF9Uv38Huf1MH8eDuawH3vv2oCVy
-HWImIyzK34Ze0DWUJz3CVZUNZ6z0AQ==
-=L5DZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJxTycACgkQJNaLcl1U
+h9BMTgf/c3wywdTbTI8b7VDMFo1PA/awyTMrapRgfYmMKGdoYqQ4j1OZmzReoPws
+pDOxSYZWnoYyN3KxaXHAmXX3ljgOMECZGGfjAsRij0uFVC+G7ztRI4TH0ZcXQ8fl
+IA6kJh2ZqydjlbgDPvKgIjKI848eFC6zW95vUu9i1YvJ/sxJacCIrIqbx83KVaQq
+H7tc/34nrbiXK8KafbXKicHSWQByXm1Qy4QOmxJsg/0/k8Vsge8+KLIqSLZfpo3/
+niV6r+o3Ci72X4PkTyG0gsWBi2FK/62cKSS2rR4x/S+nPbAaQtuOz9qhdOdZFYlX
+06pHy4DPCmrYVcRecsVxXyFQ/uQPLQ==
+=WFwv
 -----END PGP SIGNATURE-----
 
---===============3007653033761709757==--
+--===============5906484141973815834==--
