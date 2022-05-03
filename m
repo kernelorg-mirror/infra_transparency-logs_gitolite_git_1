@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2308450618498570892=="
+Content-Type: multipart/mixed; boundary="===============2613729684962607541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 May 2022 15:16:19 -0000
-Message-Id: <165159097920.24392.7653787746452368451@gitolite.kernel.org>
+Date: Tue, 03 May 2022 15:16:23 -0000
+Message-Id: <165159098387.24468.15046129841939657252@gitolite.kernel.org>
 
---===============2308450618498570892==
+--===============2613729684962607541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 4f159a7c4d1be4d160270ea2800d44d9ebe157e1
-    new: 3a58f13a881ed351198ffab4cf9953cf19d2ab3a
-    log: revlist-4f159a7c4d1b-3a58f13a881e.txt
+  - ref: refs/heads/dev-queue
+    old: fd65f257f7d7f01b29e73afa11d52d33367d5bfc
+    new: 7ba2737f746d4acdd5236fe62ac286e367d47db4
+    log: revlist-fd65f257f7d7-7ba2737f746d.txt
 
---===============2308450618498570892==
+--===============2613729684962607541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f159a7c4d1b-3a58f13a881e.txt
+Content-Disposition: attachment; filename=revlist-fd65f257f7d7-7ba2737f746d.txt
 
 38dcd9570d6fced1dcfee226d5b29722b070ce90 selftests/net: add missing tests to Makefile
 f62c5acc800eebfe25bf6738b2cc8aa5d6aa7598 selftests/net/forwarding: add missing tests to Makefile
@@ -52,5 +52,12 @@ b800528b97d0adc3a5ba42d78a8b0d3f07a31f44 net: emaclite: Don't advertise 1000BASE
 97926d5a847ca1758ad8702ce591e3b05a701e0d selftests/net: so_txtime: fix parsing of start time stamp on 32 bit systems
 f5c2174a3775491e890ce285df52f5715fbef875 selftests/net: so_txtime: usage(): fix documentation of default clock
 3a58f13a881ed351198ffab4cf9953cf19d2ab3a net: rds: acquire refcount on TCP sockets
+82fcc06049e24ded57c7f0b47572be29a9a6ba7f i40e: i40e_main: fix a missing check on list iterator
+60842f26b48f57c2f4a85924d69cb2c8a2a2683e ice: ice_sched: fix an incorrect NULL check on list iterator
+6027bfb7953884460bda4b4c4833e0f478f5e120 ice: fix PTP stale Tx timestamps cleanup
+4bd0e4e79bd6085120ea7d0fa98c90d4c78a5c2b ice: Fix race during aux device (un)plugging
+2cea31356014555b549c75ca7cd1c1976d4b04e2 ice: fix crash when writing timestamp on RX rings
+ebe193c43d888dc945225f0ac1d55d3ad18dae98 ice: clear stale Tx queue settings before configuring
+7ba2737f746d4acdd5236fe62ac286e367d47db4 ice: fix possible under reporting of ethtool Tx and Rx statistics
 
---===============2308450618498570892==--
+--===============2613729684962607541==--
