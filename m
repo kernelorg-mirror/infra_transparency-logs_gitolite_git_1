@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5695260636878589154=="
+Content-Type: multipart/mixed; boundary="===============4166714125698285989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 03 May 2022 10:54:14 -0000
-Message-Id: <165157525461.7974.17230530306560460631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 03 May 2022 10:58:09 -0000
+Message-Id: <165157548949.10674.7423888541820806570@gitolite.kernel.org>
 
---===============5695260636878589154==
+--===============4166714125698285989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: f4f1fd7646203d36b844645704636e2208a54268
     new: 2b68abf933654eb750ba963e46bd9cd2d8677dce
     log: revlist-f4f1fd764620-2b68abf93365.txt
 
---===============5695260636878589154==
+--===============4166714125698285989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ a30c8b9025dbc088c6041fccf97e0368c7db1c8d net/mlx5: fs, do proper bookkeeping for
 3a09fae035c879c7ae8e5e154d7b03ddf0de5f20 net/mlx5: fs, an FTE should have no dests when deleted
 2b68abf933654eb750ba963e46bd9cd2d8677dce Merge tag 'mlx5-updates-2022-05-02' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============5695260636878589154==--
+--===============4166714125698285989==--
