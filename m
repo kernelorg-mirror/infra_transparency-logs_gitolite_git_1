@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Tue, 03 May 2022 11:42:39 -0000
-Message-Id: <165157815962.7248.11407018412376443207@gitolite.kernel.org>
+Date: Tue, 03 May 2022 11:45:10 -0000
+Message-Id: <165157831042.10735.7934305804980360616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/niks/linux
 user: niks
 changes:
-  - ref: refs/heads/has_ioport_v3
+  - ref: refs/heads/has_ioport_v2
     old: 0000000000000000000000000000000000000000
-    new: c92a8e178da27f69ae34cb13e3f82a98416aa04d
+    new: 2b6583a49ba3b33dbc532605fee33b2e1d73fbfc
