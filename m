@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 03 May 2022 12:30:07 -0000
-Message-Id: <165158100778.7631.8965685378554038608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Tue, 03 May 2022 12:45:25 -0000
+Message-Id: <165158192579.17999.7207582005385122253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/drivers/memory-2
+  - ref: refs/heads/hte/for-next
     old: 0000000000000000000000000000000000000000
-    new: 854fd9209b20837ab48c2e6714e5e44dd8ea33a2
+    new: cedbe14082d169f4c1136c70c5170a76bd9a076a
