@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 03 May 2022 12:19:48 -0000
-Message-Id: <165158038889.31934.16887792080602707633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 03 May 2022 12:20:41 -0000
+Message-Id: <165158044139.1305.15510106749721591440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/jd/premature-next
-    old: 5f87a2cccb1b3c5c6c15148c111e4605c66f5513
-    new: bb628c5c2a36aaadd35d4b6611237b15607c3c69
+  - ref: refs/heads/main
+    old: c3624ebd67c68722e0fabc9cae01397b15310239
+    new: d4b75516c46b22d17b8654c65f2ea2730875bf14
     log: |
-         9108c94934e6b45904b90fa0e27cf8bbb8c74d88 random: do not use batches when !crng_ready()
-         bb628c5c2a36aaadd35d4b6611237b15607c3c69 random: do not pretend to handle premature next security model
+         b8bd6ccd9c409508a0b424492981721b45c55127 i915: Add DMC v2.06 for DG2
+         d4b75516c46b22d17b8654c65f2ea2730875bf14 Merge branch 'dg2_dmc_v2.06_rebase' of git://anongit.freedesktop.org/drm/drm-firmware into main
          
