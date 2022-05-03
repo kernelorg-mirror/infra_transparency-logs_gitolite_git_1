@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 03 May 2022 22:42:55 -0000
-Message-Id: <165161777583.29454.16997696730497446769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 03 May 2022 23:07:42 -0000
+Message-Id: <165161926252.12841.14170966365655148257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-linus
-    old: 92597f97a40bf661bebceb92e26ff87c76d562d4
-    new: 134b5ce3ed33d3857d5d6e1edcd1656ed9364bbf
+  - ref: refs/heads/master
+    old: ef8e4d3c2ab1f47f63b6c7e578266b7e5cc9cd1b
+    new: 107c948d1d3e61d10aee9d0f7c3d81bbee9842af
     log: |
-         134b5ce3ed33d3857d5d6e1edcd1656ed9364bbf PCI: qcom: Remove ddrss_sf_tbu clock from SC8180X
+         2bfed7d2ffa5d86c462d3e2067f2832eaf8c04c7 selftests/seccomp: Don't call read() on TTY from background pgrp
+         107c948d1d3e61d10aee9d0f7c3d81bbee9842af Merge tag 'seccomp-v5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
          
