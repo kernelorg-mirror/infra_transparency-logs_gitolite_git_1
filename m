@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 03 May 2022 13:10:51 -0000
-Message-Id: <165158345129.1768.15392012404675312586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 03 May 2022 13:13:09 -0000
+Message-Id: <165158358932.2949.1878297470010254090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 260c272ce947bcc5bcfe57d11082e77b719728b0
-    new: ae4d9e3a29015adfb3d942a064f73a5107f2ad61
+  - ref: refs/heads/master
+    old: 9108c94934e6b45904b90fa0e27cf8bbb8c74d88
+    new: 09f2b2a178172b1212a7c24a1938c489e89d8213
     log: |
-         762cfeb0d074c5b8248097e62de2034505398b75 hwmon: add driver for the Microchip LAN966x SoC
-         ce9535d4ca37eaf7e48270b3faeb760f00a46383 dt-bindings: hwmon: Document adt7475 pin-function properties
-         e8966a3073f0ac4100391b0814a0ad46ee6ddb9e hwmon: (adt7475) Add support for pin configuration
-         7755c43ef3ec093187c7e3c676280066a1d7735f hwmon: (adt7475) Use enum chips when loading attenuator settings
-         ae4d9e3a29015adfb3d942a064f73a5107f2ad61 hwmon: (pmbus) Register with thermal for PSC_TEMPERATURE
+         4cd8b9eb21167ac4c1c6d6b9c495088b89e25930 random: mix in timestamps and reseed on system restore
+         0da4f28a47dc6eb5dc95321da2a5b877b11507c7 random: do not use batches when !crng_ready()
+         09f2b2a178172b1212a7c24a1938c489e89d8213 random: use first 128 bits of input as fast init
          
