@@ -1,53 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============9162739150987709979=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Tue, 03 May 2022 06:29:32 -0000
-Message-Id: <165155937260.15388.6452569282370066842@gitolite.kernel.org>
-
---===============9162739150987709979==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 03 May 2022 07:05:40 -0000
+Message-Id: <165156154020.6943.14010618646504336400@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: 930161749e6491714f881212c953d69f0ba3b034
-    new: ef1db0dad6022227678bff8f6db45eb7e21b68b2
-    log: revlist-930161749e64-ef1db0dad602.txt
-
---===============9162739150987709979==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-930161749e64-ef1db0dad602.txt
-
-e348101bbaed4a0263ccc37e9b6c68f686465588 ARM: dts: am437x-gp-evm: Enable wkup_m3 control of IO isolation
-d480ecc9752d2b5a46f6f590e5853337bf4754f6 ARM: dts: am33xx: Add i2c voltage scaling firmware to wkup_m3_ipc
-392ab2e2af060962ee1e37a5e2aa358f878a8f77 ARM: dts: am43xx: Add i2c voltage scaling firmware to wkup_m3_ipc
-24a3db53ec9cac80b71e14b3c489b98e7537cdae ARM: dts: Group omap3 CONTROL_DEVCONF0 clocks
-1e7079d32e6ae9ec8caae2a4e7d9696b97307b7a ARM: dts: Group omap3 CONTROL_DEVCONF1 clocks
-3408a95f213e71fae8a9530872ecd2a77be78926 ARM: dts: Group omap3 CM_FCLKEN1_CORE clocks
-aeb4dcf2c2bf0f8b0ae354ea37cf55fd0e17de65 ARM: dts: Group omap3 crypto accelerator clocks
-eea4b03528410bc893b031860885e25e4f856bf3 ARM: dts: Group omap3 CM_ICLKEN1_CORE clocks
-4e28ab96e311e4cf07f064f3bbe78e92ef013b15 ARM: dts: Group omap3 CM_ICLKEN3_CORE clocks
-b0985e02787759d99a8e921215b6dee0a2980c8c ARM: dts: Group omap3 CM_CLKSEL_CORE clocks
-05891b43bee70e026bcf11028936cabd3cc1eb08 ARM: dts: Group omap3 CM_FCLKEN_WKUP clocks
-23347c90e2329b88fab5b8fad6bfe94471ca1514 ARM: dts: Group omap3 CM_ICLKEN_WKUP clocks
-2f7c426df6f63447a65af770a07539051bc8c868 ARM: dts: Group omap3 CM_CLKSEL_WKUP clocks
-173e215b7f8632c62db2dc713e51a998038bb8ac ARM: dts: Group omap3 CM_CLKSEL1_PLL clocks
-0019a9543a71995304bf2c2aa493d8242f387587 ARM: dts: Group omap3 CM_CLKOUT_CTRL clocks
-89953638a83cb5b55193f720653de931fa92347c ARM: dts: Group omap3 CM_FCLKEN_DSS clocks
-2d09a2a9d13163b9b401cc0d88c1166c6dd18b1c ARM: dts: Group omap3 CM_CLKSEL_DSS clocks
-32169e7ef4be5cb3af7c2c32fde9e07171b4c80b ARM: dts: Group omap3 CM_FCLKEN_CAM clocks
-b508079bf2dca43995eb2cfa2aef5a4e7d82d2e6 ARM: dts: Group omap3 CM_FCLKEN_PER clocks
-cab3db1b8d15a4daccda72f94397192bc6e4d298 ARM: dts: Group omap3 CM_ICLKEN_PER clocks
-c22a3d8cad504f18efb437a6998f8948e7dc992f ARM: dts: Group omap3 CM_CLKSEL_PER clocks
-29a5f5f0b08af1bac5c3d2c0948ed7f56ba4d255 ARM: dts: Group omap3 CM_CLKSEL1_EMU clocks
-ef1db0dad6022227678bff8f6db45eb7e21b68b2 Merge branch 'omap-for-v5.19/dt' into for-next
-
---===============9162739150987709979==--
+  - ref: refs/tags/memory-controller-drv-5.19-2
+    old: 0000000000000000000000000000000000000000
+    new: b313f50c2d35042ce8896a339d4e7e1603f68750
