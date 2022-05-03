@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 03 May 2022 12:55:59 -0000
-Message-Id: <165158255941.24350.17994553565540450690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 May 2022 12:56:18 -0000
+Message-Id: <165158257829.24524.16788930659322104277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/renesas/defconfig
+  - ref: refs/heads/file9GaKBm
     old: 0000000000000000000000000000000000000000
-    new: dcc1449554ba8e49880507c7b761559022363bdd
+    new: 55d2a66cfec6a4196243940f754f5b34dd2106bf
