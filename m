@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 03 May 2022 17:03:41 -0000
-Message-Id: <165159742125.32631.14191071386152475882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Tue, 03 May 2022 17:03:45 -0000
+Message-Id: <165159742558.32706.1893973566283828962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/tags/arm64-sysreg-gen-v6
-    old: 0000000000000000000000000000000000000000
-    new: a41fa90d130771189fc690fb5f4a317e9b789236
+  - ref: refs/heads/sunxi/dt-for-5.19
+    old: f9814e2ef9056fd919e774e95f721e12420648e6
+    new: 50612cf9e05d111c21e84096e50a31d0c35d5825
+    log: |
+         50612cf9e05d111c21e84096e50a31d0c35d5825 arm64: dts: allwinner: teres-i: Add GPIO port regulators
+         
