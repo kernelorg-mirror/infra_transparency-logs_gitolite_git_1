@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9026553701262656709=="
+Content-Type: multipart/mixed; boundary="===============9162739150987709979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Tue, 03 May 2022 06:25:03 -0000
-Message-Id: <165155910336.13949.17923432404613546422@gitolite.kernel.org>
+Date: Tue, 03 May 2022 06:29:32 -0000
+Message-Id: <165155937260.15388.6452569282370066842@gitolite.kernel.org>
 
---===============9026553701262656709==
+--===============9162739150987709979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tmlind/linux-omap
 user: tmlind
 changes:
-  - ref: refs/heads/omap-for-v5.19/dt
-    old: 165c79da163f9909aba8fad68b897148399a1ba5
-    new: 29a5f5f0b08af1bac5c3d2c0948ed7f56ba4d255
-    log: revlist-165c79da163f-29a5f5f0b08a.txt
+  - ref: refs/heads/for-next
+    old: 930161749e6491714f881212c953d69f0ba3b034
+    new: ef1db0dad6022227678bff8f6db45eb7e21b68b2
+    log: revlist-930161749e64-ef1db0dad602.txt
 
---===============9026553701262656709==
+--===============9162739150987709979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-165c79da163f-29a5f5f0b08a.txt
+Content-Disposition: attachment; filename=revlist-930161749e64-ef1db0dad602.txt
 
 e348101bbaed4a0263ccc37e9b6c68f686465588 ARM: dts: am437x-gp-evm: Enable wkup_m3 control of IO isolation
 d480ecc9752d2b5a46f6f590e5853337bf4754f6 ARM: dts: am33xx: Add i2c voltage scaling firmware to wkup_m3_ipc
@@ -48,5 +48,6 @@ b508079bf2dca43995eb2cfa2aef5a4e7d82d2e6 ARM: dts: Group omap3 CM_FCLKEN_PER clo
 cab3db1b8d15a4daccda72f94397192bc6e4d298 ARM: dts: Group omap3 CM_ICLKEN_PER clocks
 c22a3d8cad504f18efb437a6998f8948e7dc992f ARM: dts: Group omap3 CM_CLKSEL_PER clocks
 29a5f5f0b08af1bac5c3d2c0948ed7f56ba4d255 ARM: dts: Group omap3 CM_CLKSEL1_EMU clocks
+ef1db0dad6022227678bff8f6db45eb7e21b68b2 Merge branch 'omap-for-v5.19/dt' into for-next
 
---===============9026553701262656709==--
+--===============9162739150987709979==--
