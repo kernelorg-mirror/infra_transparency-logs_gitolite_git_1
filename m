@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2557213789696247694=="
+Content-Type: multipart/mixed; boundary="===============3486284945418239947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 03 May 2022 18:07:25 -0000
-Message-Id: <165160124542.10243.8137347058935763106@gitolite.kernel.org>
+Date: Tue, 03 May 2022 18:07:36 -0000
+Message-Id: <165160125603.10404.15752820306748726151@gitolite.kernel.org>
 
---===============2557213789696247694==
+--===============3486284945418239947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 17d49e6e8012a9e30f8aab7af82f6a14ca25afaf
-    new: 2b68abf933654eb750ba963e46bd9cd2d8677dce
-    log: revlist-17d49e6e8012-2b68abf93365.txt
+  - ref: refs/heads/mlx5-queue
+    old: 965015c3d30c8221e663db9df88a5184b6091ec9
+    new: 4d4a20f5bb5047afda98ba05db5c1ca31b693b8c
+    log: revlist-965015c3d30c-4d4a20f5bb50.txt
 
---===============2557213789696247694==
+--===============3486284945418239947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17d49e6e8012-2b68abf93365.txt
+Content-Disposition: attachment; filename=revlist-965015c3d30c-4d4a20f5bb50.txt
 
 cfa1e01ecf516511bfc0fa87f96aa19bc6ee401f net: ieee802154: ca8210: Fix lifs/sifs periods
 731cddce6dd110fb2cdee34eddb48599e7251517 net: mac802154: Convert the symbol duration into nanoseconds
@@ -149,5 +149,12 @@ c864769add96f568ac10a6173e5d2c55057d64c2 mlxsw: Configure descriptor buffers
 1d267aa8699b5985a297f697c493aadc507711a9 selftests: mlxsw: Add a test for soaking up a burst of traffic
 f4f1fd7646203d36b844645704636e2208a54268 Merge branch 'mlxsw-remove-size-limitations-on-egress-descriptor-buffer'
 2b68abf933654eb750ba963e46bd9cd2d8677dce Merge tag 'mlx5-updates-2022-05-02' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+816bc730788996a0d04ac2abe79cbc0c5b6ec460 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+abb1de1b7d5d01d77f3ca58e61abd41546b8a029 Revert "net: openvswitch: remove unneeded semicolon"
+6cce8ef647b1cd0bd50b61a68465fe4806da712d Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+54584d68b8ac97f988478a4992cab3226b82213e net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+5e86f24e491e693348c88986ce1324764ee38f45 net/mlx5e: Report header-data split state through ethtool
+2666deda8269d643f39d78a0946d6a079051c059 net: Disable LRO feature if no RXCSUM
+4d4a20f5bb5047afda98ba05db5c1ca31b693b8c Merge branch 'patchq/393730' into mlx5-queue
 
---===============2557213789696247694==--
+--===============3486284945418239947==--
