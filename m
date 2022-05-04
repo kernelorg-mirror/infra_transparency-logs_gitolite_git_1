@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0893194351545584747=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 04 May 2022 15:10:18 -0000
-Message-Id: <165167701843.9557.15345546459593801242@gitolite.kernel.org>
-
---===============0893194351545584747==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 04 May 2022 15:10:21 -0000
+Message-Id: <165167702171.9617.16362965449785768564@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 06438bf4bd519f5d0f7af4a4a3f2868022eba82c
-    new: 189e8b8cfcad1899974dcc33503a59861989dba7
+  - ref: refs/heads/irq/irqchip-next
+    old: 4bde53ab3370bfd377eff27152da36be9784e4f5
+    new: a6ad8551b86137cbe266cbbeb512ee550ba3af6e
     log: |
-         189e8b8cfcad1899974dcc33503a59861989dba7 5.15-stable patches
+         34453c2e9f799d02f5f379519495208bbd96a935 irqchip/gic-v3: Exposes bit values for GICR_CTLR.{IR, CES}
+         a837ed362e7070d48b6064138d3b61eb75eb9fd9 irqchip/gic-v3: Detect LPI invalidation MMIO registers
+         63f13483f0689a4de20fbfd847866ab39bec736f irqchip/gic-v3: Relax polling of GIC{R,D}_CTLR.RWP
+         4053b6b43fae126bea0654493fe512d364ee9fc1 dt-bindings: interrupt-controller: arm,gic-v3: Make the v2 compat requirements explicit
+         2b2cd74a06c38cc26b2a17854f5e42f7270438eb irqchip/gic-v3: Claim iomem resources
+         a6ad8551b86137cbe266cbbeb512ee550ba3af6e Merge branch irq/gic-v3-5.19 into irq/irqchip-next
          
-
---===============0893194351545584747==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651677017 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1651677017-84f1378c55926fb163fd95882ca659fe46ecd0af
-
-06438bf4bd519f5d0f7af4a4a3f2868022eba82c 189e8b8cfcad1899974dcc33503a59861989dba7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJyl1kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hp8P/1csy06xK7MxzK/9pvMP
-K94tvu0nypKzokVlGyvyfahmyHrXUJkmr9Q3A4eTbfBfEESzM2RxH66DPZSO+B/y
-7GpHtSPrehlmKuNQvdGzVFFxraQdrRzM6JfZfH6hWvx3KSVj3VyPx316pCNMECEJ
-qc3s2hrZObeb5GRonDtO/c9cznvDtOrMRnJvayBZMtSsu5mr9dwSHBQT/7Owil3I
-yNbw1k3bljUhw3kc2uteYI4YtLWyi1/l18zkRuWQRQTvebKvQ1NMRHPdZkAzMGcK
-nRyBQCGvOThyd6p761YdIs2kyifuzWWZinfniHahP7Pep/HowVoZqCy7fQqexvD0
-2VVRVJa8o5UK1bFsdLZCk6DH7PrBehpTV11Dn9qTGySzkVMsfwpXUE/I8j9rIwAB
-ftzKuarqnolL3ik81ZFQQa5uMfH6UB3erb732mdyGgGDnlTkTQYF6AcHcQrzcCR9
-hT9SzVtndWO791+hXEyPuMJouq/14/ctTfw80KsBfXVOZsO8xiB4eiTmdP78hQLp
-KONAOF+bmJ8YuEb2KypI0AfTIJK0NFo9GTomdQ/KTHtJP90pZOLvfbDQBztkFCZ+
-WGwwV2pUz2oyMlGZa3rmf6o6Bfm8Q8ytb9+3aS9KPDnE2swjCWqUCu0yUvxyKJYG
-/Gg9o9yjB+SirYPUAqIopBnt
-=zvp6
------END PGP SIGNATURE-----
-
---===============0893194351545584747==--
