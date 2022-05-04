@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 04 May 2022 23:40:59 -0000
-Message-Id: <165170765939.28515.10303383513397410575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 04 May 2022 23:57:14 -0000
+Message-Id: <165170863469.6883.11565336580534220469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: bda2a9e6f90295f295bd14ec8596bdd263eb0671
-    new: 7ce093041a19b7195ddab6940e62587edc7b99ea
+  - ref: refs/heads/for-rc
+    old: 570a4bf7440e9fb2a4164244a6bf60a46362b627
+    new: 1c9043ae0667a43bd87beeebbdd4bed674713629
     log: |
-         7ce093041a19b7195ddab6940e62587edc7b99ea device-api: Clarify Paired/Bonded documentation
+         7b8943b821bafab492f43aafbd006b57c6b65845 RDMA/irdma: Flush iWARP QP if modified to ERR from RTR state
+         2df6d895907b2f5dfbc558cbff7801bba82cb3cc RDMA/irdma: Reduce iWARP QP destroy time
+         1c9043ae0667a43bd87beeebbdd4bed674713629 RDMA/irdma: Fix possible crash due to NULL netdev in notifier
          
