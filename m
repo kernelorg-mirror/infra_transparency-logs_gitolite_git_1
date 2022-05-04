@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 04 May 2022 07:03:18 -0000
-Message-Id: <165164779805.665.4489223493940456483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Wed, 04 May 2022 07:19:28 -0000
+Message-Id: <165164876810.11250.4779851083199382809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/kvm-arm64/aarch32-idreg-trap
-    old: a9e192cd4fc738469448803693c9dc730898b8f1
-    new: ee87a9bd657e89fe7763cb79cfe1b6bb2d0b0623
+  - ref: refs/heads/for-next
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 24e2d05d1b68981f22c984c766fabc5a93c83dba
     log: |
-         ee87a9bd657e89fe7763cb79cfe1b6bb2d0b0623 KVM: arm64: Fix new instances of 32bit ESRs
+         a8e53db46f19f67be6a26488aafb7d10c78e33bd dt-bindings: leds: Add Qualcomm Light Pulse Generator binding
+         24e2d05d1b68981f22c984c766fabc5a93c83dba leds: Add driver for Qualcomm LPG
          
