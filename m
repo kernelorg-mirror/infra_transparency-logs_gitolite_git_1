@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 04 May 2022 20:54:46 -0000
-Message-Id: <165169768604.11258.6920047000266175341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Wed, 04 May 2022 20:58:32 -0000
+Message-Id: <165169791262.13901.1004183297621123802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next
-    old: 2a4700b08ea34e47790b85d87e65d91d0af1ad99
-    new: 1066d97fe812a0596fbe99fe5fb543cd592e2597
+  - ref: refs/heads/sysctl-testing
+    old: a467257ffe4bdb13eacddec0137013f6a1140b81
+    new: 105be3ab7c756680760dcdaf07c053187699bc0a
     log: |
-         2cd757e6292e23b898791d71978c6edf60a251ad spi: omap2-mcspi: add support for interword delay
-         1066d97fe812a0596fbe99fe5fb543cd592e2597 Merge remote-tracking branch 'spi/for-5.19' into spi-next
+         f5bc3e24dcc0d4ab83b931b5c41bb36ad79d0b55 reboot: Fix build warning without CONFIG_SYSCTL
+         105be3ab7c756680760dcdaf07c053187699bc0a sched: Fix build warning without CONFIG_SYSCTL
          
