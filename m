@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 04 May 2022 12:17:39 -0000
-Message-Id: <165166665950.27492.14170292371512708820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 04 May 2022 12:17:58 -0000
+Message-Id: <165166667878.27692.5637917933887616076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: 0d0613627945718ef1ac895e4f5e8efe75f06621
-    new: 2fbd7d55b13c3eb68b8c5ad91624a5a41625923a
+  - ref: refs/heads/master
+    old: 4891cd899766a3d4d296fd14964a399292fcb543
+    new: 563e189b8208f382514ac7ae3af30f975ebb96c9
     log: |
-         c36820b04c56db0c34b198a2af6c9a6bd7d93459 Documentation: Fix index.rst after psci.rst renaming
-         2fbd7d55b13c3eb68b8c5ad91624a5a41625923a Merge branch kvm-arm64/hcall-selection into kvmarm-master/next
+         563e189b8208f382514ac7ae3af30f975ebb96c9 random: do not pretend to handle premature next security model
          
