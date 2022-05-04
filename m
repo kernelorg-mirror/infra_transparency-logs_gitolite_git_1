@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1783272693089626298=="
+Content-Type: multipart/mixed; boundary="===============2673284095837100824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 04 May 2022 19:35:29 -0000
-Message-Id: <165169292961.23472.755369016695971515@gitolite.kernel.org>
+Date: Wed, 04 May 2022 19:37:23 -0000
+Message-Id: <165169304363.24160.11506463113118074120@gitolite.kernel.org>
 
---===============1783272693089626298==
+--===============2673284095837100824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/lto-cleanup-wip2
-    old: dd8764ce98f45908c87509039e18f15b7d37639d
-    new: e08c4104f70a07e3d58650b91ebf1e6f09945144
-    log: revlist-dd8764ce98f4-e08c4104f70a.txt
+  - ref: refs/heads/for-next
+    old: 1d82e3107d369416a8b7876b4197f3f1bcd559fa
+    new: 902416965b6c0b1267b5940010764d960d500513
+    log: revlist-1d82e3107d36-902416965b6c.txt
 
---===============1783272693089626298==
+--===============2673284095837100824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd8764ce98f4-e08c4104f70a.txt
+Content-Disposition: attachment; filename=revlist-1d82e3107d36-902416965b6c.txt
 
-2ee901e564601ccbb8a97bd8673666cfc3fc1f15 kbuild: link symbol CRCs at final link of vmlinux or modules
-5f5857d9e2dbddea2c79aab56a6882d315f3ebc4 kbuild: stop merging *.symversions
-9a8e15a071f983010f5d7b83cb2082020b7c3b1e genksyms: adjust the output format for .cmd files
-4a0879cc96c219c3bd29410ce757152b5dc7c22d kbuild: remove CONFIG_MODULE_REL_CRCS
-c2e1edf260db2210c9f0a39a168542374fecfd9f kbuild: do not create *.prelink.o for Clang LTO or IBT
-81c40b4881246fcebf90f72b289d5db9153b6313 kbuild: make built-in.a rule robust against too long argument error
-2e8df3eb9737128b918749bbbd1793416ffdd4b6 kbuild: make *.mod rule robust against too long argument error
-c8c2320dd31d0caa17a81922bfdecfc7a13ea122 modpost: simplify the ->is_static initialization
-e11d8f6496406c60aded5d8185842973a3dc1713 modpost: use hlist for hash table implementation
-e11c9c44470986812da2aea0b187803627f977d2 module: do not pass opaque pointer for symbol search
-6188daa32bbb5a04d25d537385e676c4dcfcb08f module: do not binary-search in __ksymtab_gpl if fsa->gplok is false
-e08c4104f70a07e3d58650b91ebf1e6f09945144 module: merge check_exported_symbol() into find_exported_symbol_in_section()
+ea67246a7df1cb04ef9a8abb2cb914b005bc0142 modpost: use bool type where appropriate
+a81526cd942e4f56bd9a9f3d5e2876226261e228 modpost: change mod->gpl_compatible to bool type
+2a5befb9e1088f743991b773309b5b56405776b2 modpost: import include/linux/list.h
+75cc0f86c3e6f26eeb65656324a010135fa89369 modpost: traverse modules in order
+9921ccf67a2324ae97a8a62018aae88e4b5141d1 modpost: add sym_add_unresolved() helper
+1b20bb95469894b7eae5a3bfee2d3be26e1324bd modpost: traverse unresolved symbols in order
+f3017550efbbea8d596ea5580198e42b990f600a modpost: use doubly linked list for dump_lists
+7c4ef1813b675dc714941734c585500fbb344910 modpost: traverse the namespace_list in order
+4efe332db1c87d81b780ab7c302fcfff6014f206 modpost: dump Module.symvers in the same order of modules.order
+bc15324a67c92412d0435f44ccedee605cbd1dfe modpost: move static EXPORT_SYMBOL check to check_exports()
+7fb141ceeb49b3fb4aeac5c213fda2118331e7ac modpost: make multiple export error
+48ef8010fe77a391a14287d6d06bb1bc16873f84 modpost: make sym_add_exported() always allocate a new symbol
+902416965b6c0b1267b5940010764d960d500513 modpost: split new_symbol() to symbol allocation and hash table addition
 
---===============1783272693089626298==--
+--===============2673284095837100824==--
