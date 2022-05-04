@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0248012305975501126=="
+Content-Type: multipart/mixed; boundary="===============7480868245993947118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 04 May 2022 20:33:26 -0000
-Message-Id: <165169640639.28796.2025086802193398903@gitolite.kernel.org>
+Date: Wed, 04 May 2022 20:33:34 -0000
+Message-Id: <165169641459.28895.2329654448392122292@gitolite.kernel.org>
 
---===============0248012305975501126==
+--===============7480868245993947118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2b68abf933654eb750ba963e46bd9cd2d8677dce
-    new: a37f37a2e7f5ea3ae2a1278f552aa21a8e32c221
-    log: revlist-2b68abf93365-a37f37a2e7f5.txt
+  - ref: refs/heads/dev-queue
+    old: b9c76266e387b1b7220c5a3fad83c1f0a9e4d736
+    new: c22e1bd3d32dd9cd663334672146f4c49001c25e
+    log: revlist-b9c76266e387-c22e1bd3d32d.txt
 
---===============0248012305975501126==
+--===============7480868245993947118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b68abf93365-a37f37a2e7f5.txt
+Content-Disposition: attachment; filename=revlist-b9c76266e387-c22e1bd3d32d.txt
 
 ba9177fcef21fa98406e73c472b5ac2eb4ec5f31 ath11k: Add basic WoW functionalities
 fec4b898f369a9b9d516f7bfc459eb4a8c5ceb2c ath11k: Add WoW net-detect functionality
@@ -312,5 +312,43 @@ d1314096fbe9601ea6606b925ec4563c027936d9 mlxsw: spectrum_acl: Do not report acti
 b8950003849de2a78f7aed9e348233e2b678b755 mlxsw: spectrum_switchdev: Only query FDB notifications when necessary
 cff9437605d5c282c1fe00c63ea5f312a7465646 mlxsw: spectrum_router: Only query neighbour activity when necessary
 a37f37a2e7f5ea3ae2a1278f552aa21a8e32c221 Merge branch 'mlxsw-updates'
+2ba9873acf51c26382d0f12fd98198938892b739 ice: Add support for classid based queue selection
+c3dd5c6c62202b0fa61a015af2b2648b6a8f0c82 igc: Remove igc_set_spd_dplx method
+f6b85f6a5be42b96d1aa87963c60a2713a091a3a ice: introduce common helper for retrieving VSI by vsi_num
+ec0ad4401e3875da05e030e82588c10b0521b371 ice: use min_t() to make code cleaner in ice_gnss
+5adaa4f75d8b7c4b5f5a8d123e96e5d689928328 i40e: i40e_main: fix a missing check on list iterator
+423a708c22f57fab1b84c3d7e06f3217745b8b2b ice: Add support for double vlan in switchdev
+17edfc5cdadb3a1e0ef4a5f6e2389dbe1d4963b0 ice: link representors to PCI device
+329210e61743cfba24e6661a9c3166badc26cf9e Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+c1901d0ad12cc9f5ff224c2acd8fd6c4d970d9ed ice: Add support for vlan tpid filters in switchdev
+201d382a8256f1efe5f1e58257e3b52116cf2f36 ice: return ENOSPC when exceeding ICE_MAX_CHAIN_WORDS
+93a40365325495d01d9ef6b5fa7bc34b53b8e9a8 i40e: Add VF VLAN pruning
+4b7e44f5c3d74671c34f91cf143c8b2063b481b5 ice: add newline to dev_dbg in ice_vf_fdir_dump_info
+8e55b91e835c9a2636760261afbb2b1bdca0f568 ice: always check VF VSI pointer values
+de64f9052af0e22ec80d2fbad3b3b02ecaa225ba ice: remove return value comment for ice_reset_all_vfs
+05ffd45f8d3cd97c423c8b4160d90f5a2e2abae2 ice: fix wording in comment for ice_reset_vf
+a5972be93350aa3a684320d55d5cf1c40c532b26 ice: add a function comment for ice_cfg_mac_antispoof
+2c149f6ed09533e994644ec4bbf521c9345586ba ice: remove period on argument description in ice_for_each_vf
+afab2b1c342f7bb0f5a4921eb786e780c4e743ed ixgbe: Fix module_param allow_unsupported_sfp type
+793f06b39ba69959d14ff345ba7f539903b56f85 iavf: Add waiting for response from PF in set mac
+a0490129df68a57542c3600495455d4ec4029c8c ice: fix PTP stale Tx timestamps cleanup
+9e9aba29f84122c6f745eff8600b9744ec70cabe igb: Convert kmap() to kmap_local_page()
+b0dc66310194786de3cf260d95f0003789ab9ba0 ice: get switch id on switchdev devices
+168ed919db255358c925d38a78ec4589b9f770c0 ice: switch: dynamically add vlan headers to a dummy packets
+cab8e4cf83d4ca23c91a964d8f2f28f0470de6c1 ice: Fix race during aux device (un)plugging
+37bce8df622cfaac959ee6ebadfe7210a7c2d43c igc: Remove unused phy_type enum
+2d10ae21449cc8cf724a74ffe764a1d9fa3581ea igc: Change type of the 'igc_check_downshift' method
+4e408c005d35e4cb3fdff839b723d2fe821b90f4 ice: don't set VF VLAN caps in switchdev
+918de72dc51d6e694d15c06658e911456e626036 ice: remove VLAN representor specific ops
+2cc79a35e89ff5a30b40879629731e59c74d5573 ice: fix crash when writing timestamp on RX rings
+fdd45495bcbc1279d96ac9daca37c96fe77f686f ice: clear stale Tx queue settings before configuring
+5d795c04833b4ef93724f91e836f025bf79a5e0f ice: fix possible under reporting of ethtool Tx and Rx statistics
+8705e515894dbf4ddededb7e6f50b76ef8837dcc ice: remove u16 arithmetic in ice_gnss
+49ea1ee309ad8ac9aff0a45ddc1921bbc5dbe305 ice: add i2c write command
+0b0191f9efd179327b70519226e7a635b86bce73 ice: add write functionality for GNSS TTY
+fe6977c5baff7ee9f2358e3abe9d09599d6114b4 i40e: Fix adding ADq filter to TC0
+9feee8a081a8c373b56b700e4b75979cd38bda4d i40e: Fix calculating the number of queue pairs
+6e726f3d32242d33b9d93c74123435771b8670ee igb: skip phy status check where unavailable
+c22e1bd3d32dd9cd663334672146f4c49001c25e ice: Expose RSS indirection tables for queue groups via ethtool
 
---===============0248012305975501126==--
+--===============7480868245993947118==--
