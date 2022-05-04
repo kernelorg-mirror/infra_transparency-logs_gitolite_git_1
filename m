@@ -1,51 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7271248718664751471=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Wed, 04 May 2022 16:58:43 -0000
-Message-Id: <165168352351.17141.12336984425206043945@gitolite.kernel.org>
-
---===============7271248718664751471==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 04 May 2022 17:09:56 -0000
+Message-Id: <165168419601.23510.10519670847251546270@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/devel
-    old: fab642eca5e0ca41e656c8a0685cadf975b7ff88
-    new: d18b1e28d82538aa7f778e2cade34f6706f992f1
-    log: revlist-fab642eca5e0-d18b1e28d825.txt
-
---===============7271248718664751471==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fab642eca5e0-d18b1e28d825.txt
-
-01d0632e37530801e652311bc6b3f661785786e8 vt: rename and document struct uni_pagedir
-686212dcefc7c6d00c92bc74ba878409ccc1bbd5 vt: define UNI_* macros for constants
-147665301f05263feb29a13180922f953e74a5c6 vt: decrypt inverse_translate
-ec2ad15b1a18962ef708cd44f43ca86312ba6dea consolemap.h: remove extern from functions
-4c2c205e7848d949554f7f8ff0fd81df08cd8ba4 consolemap.h: convert macros to static inlines
-f728bf5d25eb73b17c1d13aad14740d9085613a8 vt: sane parameters of inverse_translate()
-31854c464f19a6a1dc38de69c96f869f6662d262 one line = one statement
-5f2339468e6ab1100bcbf3bc5dffb2f62bd72eb3 UNI_ macros
-f34c9501a69a1c907622faf21cb6387005e56bf8 consolemap.c: zero uni_pgdir using kcalloc
-0dba685edb0522716f34b3e79618a937311baaef use sizeof(*pointer) instead of sizeof(type)
-ea0d7eb6f200bc2f9e0f8eb5c0aa272e14f2fd15 make con_set_unimap() more readable
-d89953795855b4ff7bcfcf740513854f2b599208 make con_get_unimap() more readable
-03dd9dd40dbff86021bee4e808fb49183e0cc63d make p1 increment less confusing in con_get_unimap()
-ebb78f12f346cdd276a99275bb7b2ef890e74ba1 check put_user() in con_get_unimap()
-30e2de743d2e0018992f9577aca3118ab402b8ac introduce enum translation_map and use it in the code
-080ecbc43ec6ca6938412dc022d13b2e35673144 remove glyph < 0 check from set_inverse_trans_unicode()
-32901945f4fe074c6e022b29bab99e15123c9b9a saner variable names in set_inverse_trans_unicode()
-b53f9c01ca6e49a39691bb701542cea3da8de8d7 saner variable names in con_unify_unimap()
-061adb53047c2716502b47924ea503cfabe022cf saner variable names in con_insert_unipair()
-f4a4832248828b5c4ed6f6952945343c07ca83d2 saner variable names in con_do_clear_unimap()
-d18b1e28d82538aa7f778e2cade34f6706f992f1 extract dict unsharing to con_unshare_unimap()
-
---===============7271248718664751471==--
+  - ref: refs/heads/arm64-for-5.19
+    old: f238ff81e8946540e1a7c1496aa92fa2386893dc
+    new: aadc48f7c4ecd11b4fba7ba7d5ed1788ce32bb78
+    log: |
+         067bc653b85e466048914c48e46659a50a907fa6 arm64: dts: qcom: sc7180: Remove ipa interconnect node
+         497b272759986af1aa5a25b5e903d082c67bd8f6 arm64: dts: qcom: sc7280-idp: Configure CTS pin to bias-bus-hold for bluetooth
+         3d0e375bae55c2dfa6dd0762f45ad71f0b192f71 arm64: dts: qcom: sc7280-qcard: Configure CTS pin to bias-bus-hold for bluetooth
+         5be66d2dc8873edcf215804067b1c076b00c6887 arm64: dts: qcom: pm8350c: Add pwm support
+         82096cc644098ab610e6df5238341907ea662164 arm64: dts: qcom: Enable pm8350c pwm for sc7280-idp2
+         aadc48f7c4ecd11b4fba7ba7d5ed1788ce32bb78 arm64: dts: qcom: sm8350-duo2: enable battery charger
+         
+  - ref: refs/heads/drivers-for-5.19
+    old: f68f1cb3437d338ee88a9fc05acd19dacdb9aabd
+    new: c35886d605604e0b03cdd835ae3249dc1fe0cc2a
+    log: |
+         d0d8cb7b94b8d23e9721cbbec5c7b00c04ae6514 dt-bindings: arm: msm: Add sc8180x and sc8280xp LLCC compatibles
+         ec69dfbdc426f22a9557e5c5408d7902fe0e0144 soc: qcom: llcc: Add sc8180x and sc8280xp configurations
+         c35886d605604e0b03cdd835ae3249dc1fe0cc2a soc: qcom: socinfo: Add another ID for sc7180
+         
+  - ref: refs/heads/dts-for-5.19
+    old: 3912e74c576a56920cde1d5591125cdd5560caae
+    new: fb5e339fb1bc9eb7f34b341d995e4ab39c03588e
+    log: |
+         02fbeb1649534d564b100a994b05d4eaa167ea19 ARM: dts: qcom: sdx55: Remove ipa interconnect node
+         88044abcde58ebf810f4be49ee2555ecc333bad4 ARM: dts: qcom: msm8974-FP2: Add support for touchscreen
+         da281bf9345a8bcde224976b83d6ad7899830e97 ARM: dts: qcom: msm8974-FP2: Configure charger
+         fb5e339fb1bc9eb7f34b341d995e4ab39c03588e ARM: dts: qcom: msm8974-FP2: Add supplies for remoteprocs
+         
