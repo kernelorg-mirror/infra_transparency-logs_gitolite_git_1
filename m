@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 04 May 2022 20:54:35 -0000
-Message-Id: <165169767528.11120.12117008844658930867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 04 May 2022 20:54:46 -0000
+Message-Id: <165169768604.11258.6920047000266175341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 2445d7eb15c4bef6ea419273c1713206781b226c
-    new: dba3f9fa70341070c663611bf99bbd4fea62c2f4
+    old: 2a4700b08ea34e47790b85d87e65d91d0af1ad99
+    new: 1066d97fe812a0596fbe99fe5fb543cd592e2597
     log: |
-         0f2d636e7d1fd76f704dd3ea5089ce29a8aee049 regulator: core: Add error flags to sysfs attributes
-         dba3f9fa70341070c663611bf99bbd4fea62c2f4 Merge remote-tracking branch 'regulator/for-5.19' into regulator-next
+         2cd757e6292e23b898791d71978c6edf60a251ad spi: omap2-mcspi: add support for interword delay
+         1066d97fe812a0596fbe99fe5fb543cd592e2597 Merge remote-tracking branch 'spi/for-5.19' into spi-next
          
