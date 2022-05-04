@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 04 May 2022 02:10:33 -0000
-Message-Id: <165163023322.6687.13830974799975344903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 04 May 2022 03:57:42 -0000
+Message-Id: <165163666248.10525.8434208951768191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 57b888ca2541785de2fcb90575b378921919b6c0
-    new: c9bc1a0ef9f613a7bc1adfff4c67dc5e5d7d1709
+  - ref: refs/heads/master
+    old: 527a78c82657d807f3e6f86b712772fd6c984008
+    new: 2eb5bac72b6ce9450d7f188474e35fdbb1e8dcad
     log: |
-         6a5d778edaa39dfa07a61d487a70f2deb1017c0f platform/chrome: cros_ec_lpcs: detect the Framework Laptop
-         c9bc1a0ef9f613a7bc1adfff4c67dc5e5d7d1709 platform/chrome: cros_ec_lpcs: reserve the MEC LPC I/O ports first
+         2eb5bac72b6ce9450d7f188474e35fdbb1e8dcad char: tpm: cr50_i2c: Suppress duplicated error message in .remove()
          
