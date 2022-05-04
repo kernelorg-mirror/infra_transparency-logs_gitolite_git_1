@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 04 May 2022 10:44:28 -0000
-Message-Id: <165166106821.30019.3826205383301391699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 04 May 2022 10:46:10 -0000
+Message-Id: <165166117077.32180.18252831969663828680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/next
-    old: c86dd9869128156696b4482b2a073790d3db2cfb
-    new: 8c1d3f79d9ca48e406b78e90e94cf09a8c076bf2
-    log: |
-         8c1d3f79d9ca48e406b78e90e94cf09a8c076bf2 coresight: core: Fix coresight device probe failure issue
-         
+  - ref: refs/tags/stm32-dt-for-v5.19-1
+    old: 0000000000000000000000000000000000000000
+    new: 8d8d6c8bbe6bedc453ab9156cde78cfbd720b490
