@@ -1,50 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3764832238045379395=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 04 May 2022 20:36:30 -0000
-Message-Id: <165169659077.31649.807605040484918842@gitolite.kernel.org>
-
---===============3764832238045379395==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 04 May 2022 20:36:44 -0000
+Message-Id: <165169660432.31809.691767571693442856@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.18
-    old: dfd2b37edf7ef469574ef7f36e3a1905ac9ead62
-    new: 6d435a94ba5bb4f2ad381c0828fbae89c66b50fe
+  - ref: refs/heads/for-linus
+    old: 71ae87b81379fa919dca16eca3bf2e0a386ea0d2
+    new: 00c6974bb1315599937aa3636996f3508f7a6f29
     log: |
-         6d435a94ba5bb4f2ad381c0828fbae89c66b50fe regulator: mt6315: Enforce regulator-compatible, not name
+         00c6974bb1315599937aa3636996f3508f7a6f29 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
          
-
---===============3764832238045379395==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1651696589 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1651696589-47cf47d81ca59e62f0c993d74e3f1ea8db43128a
-
-dfd2b37edf7ef469574ef7f36e3a1905ac9ead62 6d435a94ba5bb4f2ad381c0828fbae89c66b50fe refs/heads/regulator-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJy480ACgkQJNaLcl1U
-h9BPgwf/Qao84omHCC0NgbCUr6NPQvIyNdNiX3Nlu20AfzeQgKQuPFqVri6xEMdh
-bxs8QGNDW0Zq8ZRB1ZJ4/Fv15w83so+LqvM+prdHNVqiHCuG8WdPy3KOwPMp83uN
-h9ITr7GFe13B6huFY+CQsAW9hQS/T3vYV/AwacKbCGjJwH7XrVZ7yFEgo+pDknHJ
-eju/AV6jOTgklZr6lq+782Fz0y4afoeK/cG8a4pSyxQXKABi9kNvXZKsOSjFd7b4
-YRvue/QU61xs+FCZNV7HcEcoLSdMU9V7fiHL+A37Neq3I0EmKU/3UNSsUVHt7Yv4
-mH8dRmMBHYbBoqNlJ9B/oKgjEW6EvQ==
-=mouf
------END PGP SIGNATURE-----
-
---===============3764832238045379395==--
+  - ref: refs/heads/for-next
+    old: 47526ca36e4b1ce13ef701bd1f38d78d53fae08e
+    new: 404771d96387782931378d8569f3162790364ad2
+    log: |
+         c0b38be14f1d843c29edc763d3df3cc741a2bf10 ASoC: Pull in fixes
+         f80beaf6f2b1eb55fb1b2128a43e0a0c9c4d19de ASoC: SOF: ipc3: Remove the ipc3-ops.h header file
+         43556516fffe1d2be2d4a73cfe7cd34d6062dd11 ASoC: soc-generic-dmaengine-pcm: Use default config when none is given
+         6ff98a694cc114fd79f692345a7fbd469f800f8c ASoC: cs35l45: Enable BOOST
+         00c6974bb1315599937aa3636996f3508f7a6f29 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         404771d96387782931378d8569f3162790364ad2 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+         
