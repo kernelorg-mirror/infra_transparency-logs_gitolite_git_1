@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8187853327814577135=="
+Content-Type: multipart/mixed; boundary="===============7205029636095926856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 04 May 2022 17:36:58 -0000
-Message-Id: <165168581848.9764.1853278073712693645@gitolite.kernel.org>
+Date: Wed, 04 May 2022 17:37:36 -0000
+Message-Id: <165168585644.10016.1195604618096499624@gitolite.kernel.org>
 
---===============8187853327814577135==
+--===============7205029636095926856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 840426ff2ae62b13f659de6b5249e832f6deb509
-    new: ca0fcf003a21617d961ec966d82fd12204707b24
-    log: revlist-840426ff2ae6-ca0fcf003a21.txt
+  - ref: refs/heads/net-mlx4
+    old: 3a58f13a881ed351198ffab4cf9953cf19d2ab3a
+    new: ad0724b90a2d637c4279fba0a56d4c0b8efc7401
+    log: revlist-3a58f13a881e-ad0724b90a2d.txt
 
---===============8187853327814577135==
+--===============7205029636095926856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-840426ff2ae6-ca0fcf003a21.txt
+Content-Disposition: attachment; filename=revlist-3a58f13a881e-ad0724b90a2d.txt
 
 2069624dac19d62c558bb6468fe03678553ab01d net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
 5ef9b803a4af0f5e42012176889b40bb2a978b18 smsc911x: allow using IRQ0
@@ -48,6 +48,5 @@ cb7786a76ea39f394f0a059787fe24fa8e340fb6 net/mlx5: Fix deadlock in sync reset fl
 fc3d3db07b35885f238e1fa06b9f04a8fa7a62d0 net/mlx5: Avoid double clear or set of sync reset requested
 a042d7f5bb68c47f6e0e546ca367d14e1e4b25ba net/mlx5: Fix matching on inner TTC
 ad0724b90a2d637c4279fba0a56d4c0b8efc7401 Merge tag 'mlx5-fixes-2022-05-03' of git://git.kernel.org/pub/scm/linux/kernel/g it/saeed/linux
-ca0fcf003a21617d961ec966d82fd12204707b24 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============8187853327814577135==--
+--===============7205029636095926856==--
