@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 04 May 2022 21:29:38 -0000
-Message-Id: <165169977856.1719.4044861133238546108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 04 May 2022 21:39:42 -0000
+Message-Id: <165170038243.8105.1517669172551949830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/dev-test
-    old: 89fcc99284eaeb99c6fb2f9ec4e6800f4e6a71fc
-    new: 986afe913b021966d3c66be7e14a80a30bf499bb
+  - ref: refs/heads/mediatek-drm-next
+    old: ba99d08da6adec0fb277e7ecbb125be6dfd1f2ea
+    new: b8b8eeda63d60d434fcb0351ed45daf9f2d15afd
     log: |
-         d04ae1affb11a6de7d8659b46c58b205837e1ba5 f2fs: fix to avoid f2fs_bug_on() in dec_valid_node_count()
-         d2093835a404a9a705f42cdb012ae24f42e878fe f2fs: fix to do sanity check on block address in f2fs_do_zero_range()
-         3eecaa75e8964725b49e45a3d502de17d998c446 f2fs: avoid to select pinned section during checkpoint=disable
-         2f70350d04f7cb3deeab321674e3c1038703405e f2fs: fix deadloop in foreground GC
-         986afe913b021966d3c66be7e14a80a30bf499bb f2fs: change the current atomic write way
+         b8b8eeda63d60d434fcb0351ed45daf9f2d15afd drm/mediatek: mtk_dsi: Remove unnecessary print function dev_err()
          
