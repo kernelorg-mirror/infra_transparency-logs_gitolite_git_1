@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 04 May 2022 08:48:36 -0000
-Message-Id: <165165411654.4606.18190587250004604923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 04 May 2022 08:48:56 -0000
+Message-Id: <165165413624.4809.13235608603466221388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 31f1198d6a65c09c8463a1d5a4703c6c68b18f63
-    new: cd23a4336f49ba6a12ade557a09589f2a7c966f4
-    log: |
-         e2b4f5bee2afabb0ecd2a7f9776baab978085639 meson: get rid of get_pkgconfig_variable
-         cd23a4336f49ba6a12ade557a09589f2a7c966f4 meson: make libcap-ng dependent on setpriv
-         
+  - ref: refs/tags/ffa-updates-5.19
+    old: 0000000000000000000000000000000000000000
+    new: 37d26768ea80c8b7d22bf250cf44f36e9249f917
