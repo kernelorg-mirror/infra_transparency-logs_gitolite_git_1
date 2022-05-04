@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7020872429261887622=="
+Content-Type: multipart/mixed; boundary="===============4160339763610565377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 04 May 2022 19:40:52 -0000
-Message-Id: <165169325254.26965.8211064777789769319@gitolite.kernel.org>
+Date: Wed, 04 May 2022 19:41:01 -0000
+Message-Id: <165169326187.27121.11786658756713257407@gitolite.kernel.org>
 
---===============7020872429261887622==
+--===============4160339763610565377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 2b68abf933654eb750ba963e46bd9cd2d8677dce
-    new: a37f37a2e7f5ea3ae2a1278f552aa21a8e32c221
-    log: revlist-2b68abf93365-a37f37a2e7f5.txt
+  - ref: refs/heads/mlx5-queue
+    old: a02b06a8f5f7c578135f7689bf07eeaf503221d6
+    new: 6f8dc82b0e64763996ec71aed25689c7e6232dd6
+    log: revlist-a02b06a8f5f7-6f8dc82b0e64.txt
 
---===============7020872429261887622==
+--===============4160339763610565377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b68abf93365-a37f37a2e7f5.txt
+Content-Disposition: attachment; filename=revlist-a02b06a8f5f7-6f8dc82b0e64.txt
 
 ba9177fcef21fa98406e73c472b5ac2eb4ec5f31 ath11k: Add basic WoW functionalities
 fec4b898f369a9b9d516f7bfc459eb4a8c5ceb2c ath11k: Add WoW net-detect functionality
@@ -312,5 +312,17 @@ d1314096fbe9601ea6606b925ec4563c027936d9 mlxsw: spectrum_acl: Do not report acti
 b8950003849de2a78f7aed9e348233e2b678b755 mlxsw: spectrum_switchdev: Only query FDB notifications when necessary
 cff9437605d5c282c1fe00c63ea5f312a7465646 mlxsw: spectrum_router: Only query neighbour activity when necessary
 a37f37a2e7f5ea3ae2a1278f552aa21a8e32c221 Merge branch 'mlxsw-updates'
+cb08dae60410842cc1d709ffd6fd1a98b6dfc837 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+99e22e71fd92e6a7d76b375c9d461ffe7dae6a47 Revert "net: openvswitch: remove unneeded semicolon"
+dac340cf53746d2cab4f7e2dd4c490a744183f6c Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+c967ad7a82c7bc8ab214a070cf0f172eb8535491 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+7e2b6052161fb9339ac554b8cf7b123d0cf6a1c9 net/mlx5e: Report header-data split state through ethtool
+abec856afd85a9e1257c44f6877c2d3ee6227907 net: Disable LRO feature if no RXCSUM
+d8a01c1cdc2cad5bfda044fe8599f33c48cc967f net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
+c0158aa232eb863c8f9d486c438e678e58cb4b8e net/mlx5: Add exit route when waiting for FW
+d075ff3c4e71067a781c99a3422eec5856cd2165 net/mlx5: Increase FW pre-init timeout for health recovery
+d2e5b9f841dd8ced100f7422a716abd61c14d1a1 Merge branch 'patchq/393730' into mlx5-queue
+b98d2edc2c4a18d96009500e64d7ae1a56c3cb48 Merge branch 'patchq/495559' into mlx5-queue
+6f8dc82b0e64763996ec71aed25689c7e6232dd6 Merge branch 'patchq/492042' into mlx5-queue
 
---===============7020872429261887622==--
+--===============4160339763610565377==--
