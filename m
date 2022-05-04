@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2594481453430840534=="
+Content-Type: multipart/mixed; boundary="===============4182719968261761488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 04 May 2022 20:54:10 -0000
-Message-Id: <165169765032.10832.12558734508585078125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 04 May 2022 20:54:16 -0000
+Message-Id: <165169765644.10947.1080852954866281907@gitolite.kernel.org>
 
---===============2594481453430840534==
+--===============4182719968261761488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/spi-5.19
     old: dfc6597eb1e1604575c6e061e1a9be0048d17b2c
     new: 2cd757e6292e23b898791d71978c6edf60a251ad
     log: |
          2cd757e6292e23b898791d71978c6edf60a251ad spi: omap2-mcspi: add support for interword delay
          
 
---===============2594481453430840534==
+--===============4182719968261761488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651697648 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1651697648-30abc4937914d304c5f45168cbd81c54f87ca50f
+pusher C3F436CA30F5D8EB 1651697655 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1651697654-76bbf6a3c665dc39a0cb1dfa799955f579e948a9
 
-dfc6597eb1e1604575c6e061e1a9be0048d17b2c 2cd757e6292e23b898791d71978c6edf60a251ad refs/heads/for-5.19
+dfc6597eb1e1604575c6e061e1a9be0048d17b2c 2cd757e6292e23b898791d71978c6edf60a251ad refs/heads/spi-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJy5/EACgkQJNaLcl1U
-h9ABaQf/WHMH3UaZj9DFLik7ezoT/EIHkArLrlTYrZ1HDVjTYZZaUJxY6bK9qaEw
-ArHSEtoh8IEbKnrhmV/JVU7Vf4lTojyG9xXdIeE2JHT5mE9rcha2bkMHufHsBHgU
-9B9fMNGfHT3IUnG03xm+JcPsK6e5k8unh2QqUtIZAKdpk/6ho1J+oIEgpn2imnKv
-8FMiGTWQ8jACuPi+aIRYyWquEDKvF5gQmi68Yz84vozH1K9QGB7H4yutPjuhj7Ex
-dPg0OqXiEqtRcGga0zkmnhMQnp5xQqZN+iEV/Goz5vUhkdfHW5va5GeVY47fio5K
-WafBsKc4c7Aw4+GtkYSCdIEoXoBz9w==
-=cA0y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJy5/cACgkQJNaLcl1U
+h9AAugf+Mn7hqjurfk7By7FrsKyCAp/A6jk56Sf1Z34gMoPeuOXUmS+MO9oISEHb
+UZYNcgmNlzEQ95SjVCXSF4g1H4/Q6Xdxfhqz6WpdYLy6Qc3HfGSx220gWZJEQkqa
+Ij3573fChRy94EQOIyrj0Rkj9hxzY/8t0jKeJ3FYgba+2rC+tLkozcbE1OI3smjg
+nJyCguC6lyEgCwQ/lxj0Lc6fJQAHerVgLgH0CCObh4zHBYKJAIONx+VxTHGCwmTH
+Uwi+5jpO54y2dIjRhfNkLeVUJgBNgcg/clp4YMHpgEr+K4fuHcjPe4n8RcuBiDKK
+qQrF0YgC2DT0DvYLz8Z52a3dnZi4uw==
+=g2yh
 -----END PGP SIGNATURE-----
 
---===============2594481453430840534==--
+--===============4182719968261761488==--
