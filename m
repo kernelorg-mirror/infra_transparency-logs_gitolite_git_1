@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1650093563954047191=="
+Content-Type: multipart/mixed; boundary="===============1783272693089626298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 04 May 2022 19:16:43 -0000
-Message-Id: <165169180346.11753.14173233559747448622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 04 May 2022 19:35:29 -0000
+Message-Id: <165169292961.23472.755369016695971515@gitolite.kernel.org>
 
---===============1650093563954047191==
+--===============1783272693089626298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 1fe35f29cf8220a5f9ab39ee3e5c722eb716b6fa
-    new: d46ac904fd35edfccc5080818e950d4d3b4697c4
-    log: revlist-1fe35f29cf82-d46ac904fd35.txt
+  - ref: refs/heads/lto-cleanup-wip2
+    old: dd8764ce98f45908c87509039e18f15b7d37639d
+    new: e08c4104f70a07e3d58650b91ebf1e6f09945144
+    log: revlist-dd8764ce98f4-e08c4104f70a.txt
 
---===============1650093563954047191==
+--===============1783272693089626298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fe35f29cf82-d46ac904fd35.txt
+Content-Disposition: attachment; filename=revlist-dd8764ce98f4-e08c4104f70a.txt
 
-4c849d27b729ba4fc20f2b456ce6ec348092b077 arm64: stackleak: fix current_top_of_stack()
-e98a7c56d73c544d333ed762080ef1aac28f7e66 stackleak: move skip_erasing() check earlier
-e45d9f71deea299549cfe893dee8d935d15566b2 stackleak: remove redundant check
-cbe7edb47d3cdf6051eca8a842e0d673dd0b2938 stackleak: rework stack low bound handling
-e9da2241ed85a4f6d3f51de8b2634a17a56b56a7 stackleak: clarify variable names
-cfef4372a4b7f184ed59cadfdfdf329c2edc7e88 stackleak: rework stack high bound handling
-ff5f6d37e5bcb86596a5e42e1b52fbd773d333a8 stackleak: rework poison scanning
-23fd893fa0d7e1c43b189a542782ff3b04ab1648 lkdtm/stackleak: avoid spurious failure
-f4cfacd92972cc440d534b5156df23d0a2136bab lkdtm/stackleak: rework boundary management
-c393c0b98d7595cbd29273cec363de83d208a8a9 lkdtm/stackleak: prevent unexpected stack usage
-b6bf5a354eca09e6076faee6d6d6656e7e674e26 lkdtm/stackleak: check stack boundaries
-96c59349a56cea71b3fce1f6d9c30d11bc01a548 stackleak: add on/off stack variants
-d46ac904fd35edfccc5080818e950d4d3b4697c4 arm64: entry: use stackleak_erase_on_task_stack()
+2ee901e564601ccbb8a97bd8673666cfc3fc1f15 kbuild: link symbol CRCs at final link of vmlinux or modules
+5f5857d9e2dbddea2c79aab56a6882d315f3ebc4 kbuild: stop merging *.symversions
+9a8e15a071f983010f5d7b83cb2082020b7c3b1e genksyms: adjust the output format for .cmd files
+4a0879cc96c219c3bd29410ce757152b5dc7c22d kbuild: remove CONFIG_MODULE_REL_CRCS
+c2e1edf260db2210c9f0a39a168542374fecfd9f kbuild: do not create *.prelink.o for Clang LTO or IBT
+81c40b4881246fcebf90f72b289d5db9153b6313 kbuild: make built-in.a rule robust against too long argument error
+2e8df3eb9737128b918749bbbd1793416ffdd4b6 kbuild: make *.mod rule robust against too long argument error
+c8c2320dd31d0caa17a81922bfdecfc7a13ea122 modpost: simplify the ->is_static initialization
+e11d8f6496406c60aded5d8185842973a3dc1713 modpost: use hlist for hash table implementation
+e11c9c44470986812da2aea0b187803627f977d2 module: do not pass opaque pointer for symbol search
+6188daa32bbb5a04d25d537385e676c4dcfcb08f module: do not binary-search in __ksymtab_gpl if fsa->gplok is false
+e08c4104f70a07e3d58650b91ebf1e6f09945144 module: merge check_exported_symbol() into find_exported_symbol_in_section()
 
---===============1650093563954047191==--
+--===============1783272693089626298==--
