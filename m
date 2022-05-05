@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5586108148230049347=="
+Content-Type: multipart/mixed; boundary="===============6718555530622910240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 05 May 2022 10:06:09 -0000
-Message-Id: <165174516911.32403.5351852607957978454@gitolite.kernel.org>
+Date: Thu, 05 May 2022 10:06:16 -0000
+Message-Id: <165174517660.32543.13691475920573203167@gitolite.kernel.org>
 
---===============5586108148230049347==
+--===============6718555530622910240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 3123109284176b1532874591f7c81f3837bbdc17
     new: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
     log: revlist-312310928417-672c0c517342.txt
 
---===============5586108148230049347==
+--===============6718555530622910240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b2da7df52e16110c8d8dda0602db81c15711e7ff Merge tag 'x86_urgent_for_v5.18_rc5' of
 b6b2648911bbc13c59def22fd7b4b7c511a4eb92 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 672c0c5173427e6b3e2a9bbb7be51ceeec78093a Linux 5.18-rc5
 
---===============5586108148230049347==--
+--===============6718555530622910240==--
