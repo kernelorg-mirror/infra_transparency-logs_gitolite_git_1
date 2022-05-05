@@ -1,27 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 05 May 2022 13:03:25 -0000
-Message-Id: <165175580519.18561.18142145591362422273@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2958291145650575875=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 05 May 2022 13:03:46 -0000
+Message-Id: <165175582603.18783.12283617584075906055@gitolite.kernel.org>
+
+--===============2958291145650575875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: 0c82b511ecbb2210d5e207845637ba08775d49d5
-    new: cf97232efd97dff220858f51fcad6b6b53e52261
-    log: |
-         7a0c5cb67166ba546ec52e2dc2145b8f89caa9fc soc: imx: fix semicolon.cocci warnings
-         5c39d087c98db6bc453e6f7911e7a9713f219a77 dt-bindings: vendor-prefixes: Add prefix for Storopack
-         0efdbec205bfd16a537c29eecd535afce195b4d2 dt-bindings: arm: fsl: Add Storopack i.MX7D SMEGW01 board
-         9ac0ae97e34911177e3b59328055eccbd27cefca ARM: dts: imx7d-smegw01: Add support for i.MX7D SMEGW01 board
-         fed3743f59d57a28309bd7ebf8bb57861b18b6b1 Merge branch 'imx/drivers' into for-next
-         71de53d99a57be3e256d5b6132c08ca651f10e13 Merge branch 'imx/bindings' into for-next
-         01c186923cc63bda6a36be4934915e5520084383 Merge branch 'imx/dt' into for-next
-         2cc6726e6afbf65a4c7c4a87c38354d2136c887c Merge branch 'imx/dt64' into for-next
-         cf97232efd97dff220858f51fcad6b6b53e52261 Merge branch 'imx/defconfig' into for-next
-         
+  - ref: refs/heads/gpio/for-next
+    old: 7f42aa7b008c611743daf830e5ac4066e8ae276f
+    new: 86bfb916df5982911028b285dbfb7faf494b4a05
+    log: revlist-7f42aa7b008c-86bfb916df59.txt
+
+--===============2958291145650575875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7f42aa7b008c-86bfb916df59.txt
+
+6c846d026d490b2383d395bc8e7b06336219667b gpio: Don't fiddle with irqchips marked as immutable
+704f08753b6dcd0e08c1953af0b2c7f3fac87111 gpio: Expose the gpiochip_irq_re[ql]res helpers
+36b78aae4bfee749bbde73be570796bfd0f56bec gpio: Add helpers to ease the transition towards immutable irq_chip
+bba00555ede79ad8a743da908f708466f6bac0f8 gpio: tegra186: Make the irqchip immutable
+15d8c14ac849f41f2d41dbddb69f402aaf73ff8b gpio: pl061: Make the irqchip immutable
+374b87a0fcf9fa5dd1379271337ae19f95682956 pinctrl: apple-gpio: Make the irqchip immutable
+14dbe186b9d42cbf662eae5a4da14687edbf0edb pinctrl: msmgpio: Make the irqchip immutable
+6173e56f76c712aac9d45208ccec7a065382911f pinctrl: amd: Make the irqchip immutable
+afefc3266272d40cdcd0fd713c7b42008fea19d5 gpio: Update TODO to mention immutable irq_chip structures
+5644b66a9c63c3cadc6ba85faf5a15604e6cf29a Documentation: Update the recommended pattern for GPIO irqchips
+86bfb916df5982911028b285dbfb7faf494b4a05 Merge branch 'irq/gpio-immutable' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into gpio/for-next
+
+--===============2958291145650575875==--
