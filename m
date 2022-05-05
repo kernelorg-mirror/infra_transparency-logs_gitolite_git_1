@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 05 May 2022 23:32:31 -0000
-Message-Id: <165179355185.10244.3761457008579907180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 05 May 2022 23:33:25 -0000
+Message-Id: <165179360509.10568.8950695804262349903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 9a6a782a7677e565e51341aa031bd52365e46a11
-    new: 3978032756dce614515e0df24e7dad8b4dd84666
+    old: 0974831c5a716ef3c6b80ec92ffcecd6350bd82a
+    new: 90d8aedc93bbbeb2feb071055b90eb19e4d0dda1
     log: |
-         2ae70d225da4150375b5e6b8a30f714046ef166e random: use first 128 bits of input as fast init
-         3978032756dce614515e0df24e7dad8b4dd84666 random: do not pretend to handle premature next security model
+         90d8aedc93bbbeb2feb071055b90eb19e4d0dda1 Thu May  5 11:32:49 PM UTC 2022
          
