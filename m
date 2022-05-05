@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 05 May 2022 12:41:48 -0000
-Message-Id: <165175450811.4096.8123167448861224579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 May 2022 12:46:52 -0000
+Message-Id: <165175481236.8400.1334382718944414427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 171865dab096da1ab980a32eeea5d1b88cd7bc50
-    new: f0663f54165eca4595289cf70e1369d730fbdb29
-    log: |
-         f0663f54165eca4595289cf70e1369d730fbdb29 gpio: max77620: Make the irqchip immutable
-         
+  - ref: refs/heads/20220505_peter_ujfalusi_asoc_sof_ipc4_introduce_message_handling_functionality
+    old: 0000000000000000000000000000000000000000
+    new: ceb89acc4dc8f071f63f8d64442c7a5d768e4c9d
