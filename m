@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 05 May 2022 06:08:33 -0000
-Message-Id: <165173091319.26860.2303174556692252163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Thu, 05 May 2022 06:26:55 -0000
+Message-Id: <165173201504.7040.3578070028122884295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/lto-cleanup-wip2
-    old: a403ed7fda2e49c127e3014e928b98b8bb9d2f66
-    new: 99622d847d75490bdfc932049dec47e1d4b49e85
+  - ref: refs/heads/next
+    old: 5dddb41692849594862473e4ddf57fb52e1249d6
+    new: 8e1de7042596abb7cb277ea751fc13a4c2b65aea
     log: |
-         4653b71498b99576856de56b57fbddec332a30d1 kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
-         e4099bdcf15f630be8a5e86ea00ff96402e5abbf kbuild: stop merging *.symversions
-         0e215ca743227a0a95d2f88d6651b2eb8903e1f4 genksyms: adjust the output format to modpost
-         ce00d982944aec1d3f1cb80a511465ef69b5a761 kbuild: do not create *.prelink.o for Clang LTO or IBT
-         461e12e9d53bac6abbfe7aeebe8bf59912569e78 modpost: simplify the ->is_static initialization
-         b661be6d9eaec8088c70f6b977f8a479d852c13d modpost: use hlist for hash table implementation
-         77c6b706852f95cf3cf349628e4d7bf636a80607 kbuild: make built-in.a rule robust against too long argument error
-         99622d847d75490bdfc932049dec47e1d4b49e85 kbuild: make *.mod rule robust against too long argument error
+         90f720d2292f52de51df2307272a8f8cf7ef7134 thunderbolt: Add debug logging when lane is enabled/disabled
+         94581b25d81f8f16b48e0b61a13f81469d6e5bc0 thunderbolt: Move tb_port_state() prototype to correct place
+         0e14dd5e14d697e2489c7bf0fe35947831de3975 thunderbolt: Split setting link width and lane bonding into own functions
+         0a2e1667a73fe0c4374ddace925d85a4072d509c thunderbolt: Ignore port locked error in tb_port_wait_for_link_width()
+         8e1de7042596abb7cb277ea751fc13a4c2b65aea thunderbolt: Add support for XDomain lane bonding
          
