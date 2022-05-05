@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2827003031897068668=="
+Content-Type: multipart/mixed; boundary="===============8507807007263125102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Thu, 05 May 2022 15:11:02 -0000
-Message-Id: <165176346240.5735.7252991809153416414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 05 May 2022 15:11:08 -0000
+Message-Id: <165176346807.5843.2940541178494026915@gitolite.kernel.org>
 
---===============2827003031897068668==
+--===============8507807007263125102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/regmap-5.19
     old: d640947562cea6158df13fe021b0e117865ba8b3
     new: eedd8a8542b9509d3a2aa8141c60858ac0c5024a
     log: |
@@ -24,28 +24,28 @@ changes:
          eedd8a8542b9509d3a2aa8141c60858ac0c5024a regmap: Custom bulk operations for regmaps
          
 
---===============2827003031897068668==
+--===============8507807007263125102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1651763461 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1651763460-8ecc18a276c4119f72dff9b6577f383b71716496
+pusher C3F436CA30F5D8EB 1651763466 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1651763466-37f2726f8e5daf2507a7ed7c80a7989b1ee398e9
 
-d640947562cea6158df13fe021b0e117865ba8b3 eedd8a8542b9509d3a2aa8141c60858ac0c5024a refs/heads/for-5.19
+d640947562cea6158df13fe021b0e117865ba8b3 eedd8a8542b9509d3a2aa8141c60858ac0c5024a refs/heads/regmap-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJz6QUACgkQJNaLcl1U
-h9Daewf/XOLFHNI5ESl0BeqV77prwvhJ1b6gk6of4qHrIuaXId3Ls5+TjTo4SMmn
-9/qFMLAckyQZ0hM3eVoDiyt8ZIFPepn5tkMR5ZQ2YQeGCHtwRw6o5kjOrWuclOAt
-A9L9pRg34X8p0068zuoW/kySoXOo89z/PG77zR1lNIT0FmgzSyJLWo8VA/OCMxgv
-2AZ3jzX5hky1SOkP4F8CdLZp2E0ka8Z+BsjW1Tmx0L6bNKqpYDHG0yBmpagWjxlu
-uaLG/eMZW5vFkGsVYpSkM9SMISaxgcjxeG83rt04zyZustKg1UJ07u0LV2RgU3FQ
-hd/SSRh0iNTUM1SrtNMeK8yF8Wm5Fw==
-=rjGO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJz6QoACgkQJNaLcl1U
+h9AUHAgAhhyIT3P5S6FhjnJQW+3Tlodg9fyyTPzC6edA+go4VdpgN25dgrP80PAj
+JxoDm+7MZv+u//fuoJ6zOKY7Rt+uiZLHu+4Lp4w8V0HSCtjU6OtLiBS4MEN1zAgo
+sH17Zpcg3Y+eKza8SO6Tn9D11Q67kYg74SyomqI9uB3DfbWZlHsEwM9p290WjgSu
+JSUDX5fQNrS2VFUN/gr0X6LKaKnJuT9MZ6DYg8YV4akow8dFHwMMcrSKSyYaRCRS
+kz3Wlshm85Zwl/klaZPVkYQfJzIowMEJIrX0IrDJxZh8vH/yG/6ZPhw7DReXizw+
+d0mHeF3tBypnq2t7ZfxZbNdabT8kUg==
+=S6FA
 -----END PGP SIGNATURE-----
 
---===============2827003031897068668==--
+--===============8507807007263125102==--
