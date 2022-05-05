@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 05 May 2022 22:13:23 -0000
-Message-Id: <165178880368.23816.10657800131298105735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 05 May 2022 22:21:28 -0000
+Message-Id: <165178928844.29464.13970698281437107469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: ae8f4223b15227ec054bdb8a6247ce5b54d6e48e
-    new: fa2024c315135d8319001363f1e456dcd0d9b51e
-    log: |
-         fa2024c315135d8319001363f1e456dcd0d9b51e dt-bindings: timer: Convert rda,8810pl-timer to YAML
-         
+  - ref: refs/heads/arm64-sysreg-gen-fp
+    old: 0000000000000000000000000000000000000000
+    new: d93f19283f409631f15b76b21aa0f78838134f29
