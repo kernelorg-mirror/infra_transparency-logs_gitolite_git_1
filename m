@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4983816832629627106=="
+Content-Type: multipart/mixed; boundary="===============0186464547368560810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 05 May 2022 17:37:15 -0000
-Message-Id: <165177223578.4632.15847956457559087426@gitolite.kernel.org>
+Date: Thu, 05 May 2022 17:37:53 -0000
+Message-Id: <165177227351.4880.16104752659487461179@gitolite.kernel.org>
 
---===============4983816832629627106==
+--===============0186464547368560810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: ca0fcf003a21617d961ec966d82fd12204707b24
-    new: fa8831f4ecf569d18f30543328a4bf3de09a907e
-    log: revlist-ca0fcf003a21-fa8831f4ecf5.txt
+  - ref: refs/heads/net-mlx4
+    old: ad0724b90a2d637c4279fba0a56d4c0b8efc7401
+    new: 4071bf121d59944d5cd2238de0642f3d7995a997
+    log: revlist-ad0724b90a2d-4071bf121d59.txt
 
---===============4983816832629627106==
+--===============0186464547368560810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca0fcf003a21-fa8831f4ecf5.txt
+Content-Disposition: attachment; filename=revlist-ad0724b90a2d-4071bf121d59.txt
 
 ae2de669c14a18b5144cdacf49933ad400ed7e1c wireguard: selftests: make routing loop test non-fatal
 39f02bf1e5ce9d72045de01e3d618ade1067158c wireguard: selftests: limit parallelism to $(nproc) tests at once
@@ -43,6 +43,5 @@ e8161345ddbb66e449abde10d2fdce93f867eba9 tcp: drop the hash_32() part from the i
 ef562489818723ea0a66c57bfdfbf151ad568c42 Merge branch 'insufficient-tcp-source-port-randomness'
 5a7c5f70c743c6cf32b44b05bd6b19d4ad82f49d selftests: ocelot: tc_flower_chains: specify conform-exceed action for policer
 4071bf121d59944d5cd2238de0642f3d7995a997 NFC: netlink: fix sleep in atomic bug when firmware download timeout
-fa8831f4ecf569d18f30543328a4bf3de09a907e net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============4983816832629627106==--
+--===============0186464547368560810==--
