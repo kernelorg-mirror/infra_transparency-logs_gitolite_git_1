@@ -1,92 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1535004119077973680=="
+Content-Type: multipart/mixed; boundary="===============8224478602314238741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 05 May 2022 05:41:07 -0000
-Message-Id: <165172926794.9490.13029851657529800500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 05 May 2022 05:41:15 -0000
+Message-Id: <165172927577.9625.5592710566463965264@gitolite.kernel.org>
 
---===============1535004119077973680==
+--===============8224478602314238741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: b1bb04dead8362e4eb9b979d569713379f62a72c
-    new: 5a090b9b7746d6d6552b277fe669349a155f1645
-    log: revlist-b1bb04dead83-5a090b9b7746.txt
-  - ref: refs/heads/rdma-rc
-    old: d825f627340a8bde8756d1031ea32f7b37bbb4e5
-    new: 32db61b824ebaafd4edb3aac4f88ee0b6d85815c
-    log: |
-         ef91271c65c12d36e4c2b61c61d4849fb6d11aa0 RDMA/siw: Fix a condition race issue in MPA request processing
-         a926a903b7dc39a8a949150258c09290998dd812 RDMA/rxe: Do not call  dev_mc_add/del() under a spinlock
-         bfdc0edd11f9501b891a069b5bbd3b16731941e1 RDMA/rxe: Change mcg_lock to a _bh lock
-         32db61b824ebaafd4edb3aac4f88ee0b6d85815c RDMA/cma: Limit join multicast to UD QP type only
-         
-  - ref: refs/heads/testing/rdma-next
-    old: d3c059262a824570160987804ac13b3722ad12c3
-    new: e0c4308f063becec6f78cd840421d154ec1984ff
-    log: revlist-d3c059262a82-e0c4308f063b.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: ee7d01741faaef8943f05b5503ec92644360b82b
-    new: e3038aa188d9ea7edddba32f747a2b477661fbfd
+  - ref: refs/heads/queue-next
+    old: fb830d390900fbcd7c541929a7456f9f832d5d62
+    new: 56b0a3217448bbe663d93b6459342cc4543f7528
+    log: revlist-fb830d390900-56b0a3217448.txt
+  - ref: refs/heads/queue-rc
+    old: 7d230c12eb9ca2ffd9816a5193c8ef93bd75b2ef
+    new: 1e16099b095a51ff5d193a9fdd6fc735b5cdbd6c
     log: |
          ef91271c65c12d36e4c2b61c61d4849fb6d11aa0 RDMA/siw: Fix a condition race issue in MPA request processing
          a926a903b7dc39a8a949150258c09290998dd812 RDMA/rxe: Do not call  dev_mc_add/del() under a spinlock
          bfdc0edd11f9501b891a069b5bbd3b16731941e1 RDMA/rxe: Change mcg_lock to a _bh lock
          32db61b824ebaafd4edb3aac4f88ee0b6d85815c RDMA/cma: Limit join multicast to UD QP type only
          e3038aa188d9ea7edddba32f747a2b477661fbfd Merge branch 'master' into testing/rdma-rc
-         
-  - ref: refs/tags/mlx-rc
-    old: 570a4bf7440e9fb2a4164244a6bf60a46362b627
-    new: ef91271c65c12d36e4c2b61c61d4849fb6d11aa0
-    log: |
-         7b8943b821bafab492f43aafbd006b57c6b65845 RDMA/irdma: Flush iWARP QP if modified to ERR from RTR state
-         2df6d895907b2f5dfbc558cbff7801bba82cb3cc RDMA/irdma: Reduce iWARP QP destroy time
-         1c9043ae0667a43bd87beeebbdd4bed674713629 RDMA/irdma: Fix possible crash due to NULL netdev in notifier
-         ef91271c65c12d36e4c2b61c61d4849fb6d11aa0 RDMA/siw: Fix a condition race issue in MPA request processing
+         1e16099b095a51ff5d193a9fdd6fc735b5cdbd6c Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============1535004119077973680==
+--===============8224478602314238741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1bb04dead83-5a090b9b7746.txt
-
-e7734156b0ad7c32643de851d644db74ea4b0074 RDMA/rxe: Replace paylen by payload
-cc377b9b24c7839531c2c0b7a2165819b578393e RDMA/hns: Remove unnecessary ret variable from hns_roce_dereg_mr()
-e8ea058edc2b225a68b307057a65599625daaebf RDMA/hns: Add the detection for CMDQ status in the device initialization process
-db5dfbf5b201df65c1f5332c4d9d5e7c2f42396b RDMA/hns: Remove the num_cqc_timer variable
-08d709d5e1242340e10dd8d0a789b5cea508ccf5 RDMA/rxe: Optimize the mr pool struct
-f935f463e56a4ba7afffee9bc00b6b692eaa5d60 net/sched: Don't print dump stack in event of transmission timeout
-04acb684b0a858a09834b17c25fa1ae74dd43a17 RDMA/core: Introduce peer memory interface
-f81a42e939052139ea90c0b37df1ce7a88e1afb5 RDMA/core: Add an rb_tree that stores cm_ids sorted by ifindex and remote IP
-5816719fe3e06aca781a0c8988238bd11b4569c6 RDMA/core: Add a netevent notifier to cma
-0e7cdb2443e585632badcc27b03f968dac2f49c8 net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
-ef8be7f185b17805c543c7870b679f9a5eac23dd RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-9ebc959ad9b16f5bfa7c89d9fbae117343ae3e20 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-2666438d8703638e977568830b7a9c8706600a9d Intel Sky Lake-E host root ports check.
-b0a231da6ad779ee620d77858ca06b12be209481 net/mlx5: Introduce header-modify-pattern ICM properties
-09c654b1b55073022b0cbaeb21f7864181e39822 net/mlx5: Manage ICM of type modify-header pattern
-f6f41d52213b16e6bbaa05e533990e1ed85cd992 RDMA/mlx5: Support handling of modify-header pattern ICM area
-0117296f637b1b57cc2c0c65ef6087b7a5d7cef0 vfio/mlx5: Reorganize the VF is migratable code
-ca77bc9a2c2424bc601dba330a1300a6def86e83 net/mlx5: Expose mlx5_sriov_blocking_notifier_register / unregister APIs
-087e82ae50607d3dcb8edf9cfec638f5efa4663b vfio/mlx5: Manage the VF attach/detach callback from the PF
-2b10edae2453f6418bec0c5ad9ccd00337499394 vfio/mlx5: Refactor to enable VFs migration in parallel
-c42179d11dddaf96fc58caf37bf8ba094728b845 vfio/mlx5: Run the SAVE state command in an async mode
-25151f87c0140ca9e1327238fa5f6b3e61e9c708 net/mlx5: Introduce ifc bits for migratable
-5a090b9b7746d6d6552b277fe669349a155f1645 vfio/mlx5: Set VF as migratable
-
---===============1535004119077973680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3c059262a82-e0c4308f063b.txt
+Content-Disposition: attachment; filename=revlist-fb830d390900-56b0a3217448.txt
 
 301e0be800be425c5fa4f384f9f0e9b23109f809 net/mlx5: Simplify IPsec flow steering init/cleanup functions
 9af1968ee13b33b0bff7def9c4861f1730389a7b net/mlx5: Check IPsec TX flow steering namespace in advance
@@ -184,5 +133,6 @@ c42179d11dddaf96fc58caf37bf8ba094728b845 vfio/mlx5: Run the SAVE state command i
 e3038aa188d9ea7edddba32f747a2b477661fbfd Merge branch 'master' into testing/rdma-rc
 193f6d0d841ae0f7c4bf0612bb3a02297222ea66 Merge branch 'rdma-next' into testing/rdma-next
 e0c4308f063becec6f78cd840421d154ec1984ff Merge branch 'xfrm-next' into testing/rdma-next
+56b0a3217448bbe663d93b6459342cc4543f7528 Merge branch 'testing/rdma-next' into queue-next
 
---===============1535004119077973680==--
+--===============8224478602314238741==--
