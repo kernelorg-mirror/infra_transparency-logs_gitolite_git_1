@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 05 May 2022 15:43:31 -0000
-Message-Id: <165176541164.28404.11995440485821736084@gitolite.kernel.org>
+Date: Thu, 05 May 2022 15:44:09 -0000
+Message-Id: <165176544940.28742.16545881032649439302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/at91-next
+    old: 0c640d9544d0109da3889d71ae77301e556db977
     new: c9a1e633e10594d1ac31d7ae524eb391e6c20391
     log: |
          ffb9159ab567395da1fbed228358734dff982300 ARM: configs: at91: Enable options required for systemd
