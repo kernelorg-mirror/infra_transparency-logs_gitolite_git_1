@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 05 May 2022 08:34:24 -0000
-Message-Id: <165173966470.22988.3855272103538321981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 May 2022 08:42:48 -0000
+Message-Id: <165174016801.28846.7399934846946312183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next/core
-    old: ced2737aa7771a689c3aa279cdf5b2d73bf49404
-    new: f2807a27b26d3e817f5adee1e2f748d783469b05
+  - ref: refs/heads/master
+    old: 5a7c5f70c743c6cf32b44b05bd6b19d4ad82f49d
+    new: 4071bf121d59944d5cd2238de0642f3d7995a997
     log: |
-         f41ef4c2ee99d255c82d8ac6f720f28116340869 arm64: mm: Cleanup useless parameters in zone_sizes_init()
-         f2807a27b26d3e817f5adee1e2f748d783469b05 Merge branch 'for-next/misc' into for-next/core
+         4071bf121d59944d5cd2238de0642f3d7995a997 NFC: netlink: fix sleep in atomic bug when firmware download timeout
          
