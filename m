@@ -1,30 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 05 May 2022 00:50:03 -0000
-Message-Id: <165171180345.10425.17137340484780073747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 05 May 2022 01:04:57 -0000
+Message-Id: <165171269771.21932.1939105861776580144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-5.19/block
-    old: f624506f98b198e65b44da303f44974590fb16c0
-    new: 069adbac2cd85ae00252da6c5576cbf9b9d9ba6e
+  - ref: refs/heads/wip/jgg-for-next
+    old: cc377b9b24c7839531c2c0b7a2165819b578393e
+    new: 08d709d5e1242340e10dd8d0a789b5cea508ccf5
     log: |
-         513616843d736fb7161b4460cdfe5aa825c5902c block: remove superfluous calls to blkcg_bio_issue_init
-         7ecc56c62b27d93838ee67fc2c7a1c3c480aea04 block: allow passing a NULL bdev to bio_alloc_clone/bio_init_clone
-         069adbac2cd85ae00252da6c5576cbf9b9d9ba6e block: improve the error message from bio_check_eod
-         
-  - ref: refs/heads/for-next
-    old: 4d14f4890cb8cfa47273638cf2aa16f6f2195939
-    new: ec7cd8c3b5adb92347ab1daa17841ac9030f0407
-    log: |
-         513616843d736fb7161b4460cdfe5aa825c5902c block: remove superfluous calls to blkcg_bio_issue_init
-         7ecc56c62b27d93838ee67fc2c7a1c3c480aea04 block: allow passing a NULL bdev to bio_alloc_clone/bio_init_clone
-         069adbac2cd85ae00252da6c5576cbf9b9d9ba6e block: improve the error message from bio_check_eod
-         ec7cd8c3b5adb92347ab1daa17841ac9030f0407 Merge branch 'for-5.19/block' into for-next
+         e8ea058edc2b225a68b307057a65599625daaebf RDMA/hns: Add the detection for CMDQ status in the device initialization process
+         db5dfbf5b201df65c1f5332c4d9d5e7c2f42396b RDMA/hns: Remove the num_cqc_timer variable
+         08d709d5e1242340e10dd8d0a789b5cea508ccf5 RDMA/rxe: Optimize the mr pool struct
          
