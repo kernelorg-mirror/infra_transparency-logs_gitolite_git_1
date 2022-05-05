@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7828489627506857260=="
+Content-Type: multipart/mixed; boundary="===============2110853124536568243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 05 May 2022 18:52:07 -0000
-Message-Id: <165177672740.21962.460859856758541582@gitolite.kernel.org>
+Date: Thu, 05 May 2022 18:52:23 -0000
+Message-Id: <165177674397.22132.12759132076846736705@gitolite.kernel.org>
 
---===============7828489627506857260==
+--===============2110853124536568243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f9bdac31cf4b8609c1b241749b0ceb8f67c8685b
-    new: ebc95c790653508ad7e031cfb9de5d0fa39135e2
-    log: revlist-f9bdac31cf4b-ebc95c790653.txt
+  - ref: refs/heads/for-next
+    old: a576d58bd4ac45b9de34d7538998c4ca60863ee9
+    new: f223697cc8409574bf94571d1b6fa1f1244a0afe
+    log: revlist-a576d58bd4ac-f223697cc840.txt
 
---===============7828489627506857260==
+--===============2110853124536568243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9bdac31cf4b-ebc95c790653.txt
+Content-Disposition: attachment; filename=revlist-a576d58bd4ac-f223697cc840.txt
 
 ad14649fc5ab216e0abb6b38115898238a0991f5 scsi: qla2xxx: Remove free_sg command flag
 dceaef94a4753d4d49d493a6cd4a81168e384d6f scsi: mpt3sas: Fix _ctl_set_task_mid() TaskMID check
@@ -109,5 +109,9 @@ e38d9e83a376923454af599b2add53e71cd7508a scsi: sd: Use cached ATA Information VP
 c2024e3b33ee785960e21c22da478c937a6af538 scsi: lpfc: Remove redundant lpfc_sli_prep_wqe() call
 bb9b9eb0ae2e9d3f6036f0ad907c3a83dcd43485 scsi: target: tcmu: Fix possible data corruption
 ebc95c790653508ad7e031cfb9de5d0fa39135e2 scsi: sr: Add memory allocation failure handling for get_capabilities()
+6056a92ceb2a7705d61df7ec5370548e96aee258 scsi: scsi_dh_alua: Properly handle the ALUA transitioning state
+26f9ce53817a8fd84b69a73473a7de852a24c897 scsi: qla2xxx: Fix missed DMA unmap for aborted commands
+cc83107e5803764b3f44ff6d53e22e076f64fd40 Merge branch 'fixes' into for-next
+f223697cc8409574bf94571d1b6fa1f1244a0afe Merge branch 'misc' into for-next
 
---===============7828489627506857260==--
+--===============2110853124536568243==--
