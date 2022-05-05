@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 05 May 2022 03:46:48 -0000
-Message-Id: <165172240837.1260.11796682404804811497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Thu, 05 May 2022 03:46:50 -0000
+Message-Id: <165172241031.1318.18155066553381223373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: fa728505f3e7dd1089beed7d0ac40267d5b22dce
-    new: 4950b6990e3b1efae64a5f6fc5738d25e3b816b3
+  - ref: refs/heads/main
+    old: e81fd551a1a0ffa7983d25f5e756a5c5b6cb4a9a
+    new: 17bf51b74ddd4696ad3393ff700eb5dca3a617f0
     log: |
-         0a448bba50090a6147c144f452f49301025111ec net: mscc: ocelot: use list_add_tail in ocelot_vcap_filter_add_to_block()
-         3825a0d02748b4eb355b1d3926ff750fd3846178 net: mscc: ocelot: add to tail of empty list in ocelot_vcap_filter_add_to_block
-         09fd1e0d14815fd2c80577f4116c8976d8d080f8 net: mscc: ocelot: use list_for_each_entry in ocelot_vcap_filter_add_to_block
-         8e90c499bd6816f6dc4127f071179e7bd190e5aa net: mscc: ocelot: drop port argument from qos_policer_conf_set
-         91d350d661bf9c7d4afeb585a81ad694280cc0fb net: mscc: ocelot: don't use magic numbers for OCELOT_POLICER_DISCARD
-         4950b6990e3b1efae64a5f6fc5738d25e3b816b3 Merge branch 'ocelot-vcap-cleanups'
+         9e0057b48dd1676b9e9ee27daa3573d6dc849c8f libbpf: Use bpf_object__load instead of bpf_object__load_xattr
+         fa305925123a0a245413aae80be4c4be4fb4e36e libbpf: Remove use of bpf_program__set_priv and bpf_program__priv
+         17bf51b74ddd4696ad3393ff700eb5dca3a617f0 libbpf: Remove use of bpf_map_is_offload_neutral
          
