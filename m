@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3558153670178779352=="
+Content-Type: multipart/mixed; boundary="===============0700088336077806136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Thu, 05 May 2022 13:22:32 -0000
-Message-Id: <165175695264.32039.1202332805387719900@gitolite.kernel.org>
+Date: Thu, 05 May 2022 13:32:45 -0000
+Message-Id: <165175756508.5965.14135523938875649008@gitolite.kernel.org>
 
---===============3558153670178779352==
+--===============0700088336077806136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 51231af4dc8de77af654e300ab9e8fb4cc2ac920
-    new: ec0714939e486ea25abe2231d72cd53e707d1133
-    log: revlist-51231af4dc8d-ec0714939e48.txt
+  - ref: refs/heads/for-usb-linus
+    old: 6099125b3d1ec50c7bce94beccf84e087374aaac
+    new: 1f6e23bcb9b2a2981d1124e4adb1f463cbc769ba
+    log: revlist-6099125b3d1e-1f6e23bcb9b2.txt
 
---===============3558153670178779352==
+--===============0700088336077806136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51231af4dc8d-ec0714939e48.txt
+Content-Disposition: attachment; filename=revlist-6099125b3d1e-1f6e23bcb9b2.txt
 
+3b68b08885217abd9c57ff9b3bb3eb173eee02a9 ep93xx: clock: Fix UAF in ep93xx_clk_register_gate()
+caee01050bd483f1b6f6abc686a3516e48e2ad9e ep93xx: clock: Don't use plain integer as NULL pointer
+f455742ae2caf270a4b874f7f1dd86e56c5eeb95 Merge tag 'scmi-fixes-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+bc22bb224b3c1cbea868c3efa5466014b6a29d59 Merge tag 'vexpress-fixes-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+02481c7b849d893dcceaa60fe113f3f080fcee62 Merge tag 'samsung-fixes-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/fixes
+44e4a2c75676eda875bf5da20709bfae62af9a99 Merge tag 'memory-controller-drv-fixes-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/fixes
 1f5fb1dc7497776a7dd12420ae87382e61718bf5 arm: configs: imote2: Drop defconfig as board support dropped.
 0dc23d1a8e17839f1c071302b5f3e04a34692d44 arm: dts: at91: Fix boolean properties with values
 1a67653de0ddc67d274ce2762265ae18d58cc09a arm64: dts: tegra: Fix boolean properties with values
@@ -1043,12 +1049,6 @@ b70ed23c238af025153cb0f5b3c1d0ae5bc30f73 Merge tag 'objtool_urgent_for_v5.18_rc5
 b2da7df52e16110c8d8dda0602db81c15711e7ff Merge tag 'x86_urgent_for_v5.18_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b6b2648911bbc13c59def22fd7b4b7c511a4eb92 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 672c0c5173427e6b3e2a9bbb7be51ceeec78093a Linux 5.18-rc5
-44f4a3fded1880e7320ebf218189c714394285a0 xhci: factor out parts of xhci_gen_setup()
-20c9bf1cee478eb9146013ae1d7e48c1b983427c xhci: prepare for operation w/o shared hcd
-197d5061e4791e0bd112573c95878d82ba330d83 usb: host: xhci-plat: create shared hcd after having added main hcd
-a4212a6f2e56f97afb75d4e50636a039e9c7de5e usb: host: xhci-plat: prepare operation w/o shared hcd
-0a2c4d6d6b4b0594fab7f26391ff7299c03d6e52 usb: host: xhci-plat: omit shared hcd if either root hub has no ports
-eef1e9699c059de7c0594588490b9f99c85448d3 usb: core: hcd: Add support for deferring roothub registration
-ec0714939e486ea25abe2231d72cd53e707d1133 xhci: Set HCD flag to defer primary roothub registration
+1f6e23bcb9b2a2981d1124e4adb1f463cbc769ba xhci: turn off port power in shutdown
 
---===============3558153670178779352==--
+--===============0700088336077806136==--
