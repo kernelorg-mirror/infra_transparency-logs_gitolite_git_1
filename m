@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 05 May 2022 05:53:45 -0000
-Message-Id: <165173002519.17842.13111141166901563549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 05 May 2022 06:06:40 -0000
+Message-Id: <165173080032.26198.10654304410381054630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/lto-cleanup-wip2
-    old: 1b211d2545cb6d3e12b7755737202c161ce47075
-    new: a403ed7fda2e49c127e3014e928b98b8bb9d2f66
+  - ref: refs/heads/modules-testing
+    old: 8b1abdc9007c0cb7976543dcb0f93441a4f05ab1
+    new: 327aaafd8bc6baccf7d6ded743c023d71ec02a1a
     log: |
-         1a2f8fb3f02ace2a5c608d68b7e1494caae775aa kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
-         5ece372529a1658e04fc95faa5bc4c56546243ff kbuild: stop merging *.symversions
-         fd0f10a7aebc642d825f1750d8d94a87665d7bda genksyms: adjust the output format to modpost
-         1dbab90547bfb2e194b6e34f087f66786ece0c9a kbuild: do not create *.prelink.o for Clang LTO or IBT
-         8483872c7623f1b1382baca0d3548a4a23a36dad modpost: simplify the ->is_static initialization
-         37fffcf7145d44b7e2f0cbd92f14b47944103ae8 modpost: use hlist for hash table implementation
-         3180cec7286fc8a186e471f7b2f673793443d605 kbuild: make built-in.a rule robust against too long argument error
-         a403ed7fda2e49c127e3014e928b98b8bb9d2f66 kbuild: make *.mod rule robust against too long argument error
+         57e741e347b32a2b1459a00e8df5fbd936d879b8 module: do not pass opaque pointer for symbol search
+         5dffd7c3f5db0b0e23db5d86ac8afd35207088cf module: do not binary-search in __ksymtab_gpl if fsa->gplok is false
+         327aaafd8bc6baccf7d6ded743c023d71ec02a1a module: merge check_exported_symbol() into find_exported_symbol_in_section()
          
