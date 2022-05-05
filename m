@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 05 May 2022 11:27:53 -0000
-Message-Id: <165175007340.20385.16300296265683422716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 05 May 2022 11:53:32 -0000
+Message-Id: <165175161234.4694.13274029297330228279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/kvm-arm64/psci-suspend
+  - ref: refs/tags/mips-fixes_5.18_1
     old: 0000000000000000000000000000000000000000
-    new: 582eb04e05ddd234ca32083c8457c6d409fd7b6a
+    new: 6437caa23f00169a3b557ef027a5e83c91a13559
