@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 May 2022 02:18:28 -0000
-Message-Id: <165171710857.7334.3965245920212618997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
+Date: Thu, 05 May 2022 02:37:21 -0000
+Message-Id: <165171824134.18927.15080737239614760633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/kuba/linux
 user: kuba
 changes:
-  - ref: refs/heads/master
-    old: ad0724b90a2d637c4279fba0a56d4c0b8efc7401
-    new: 205557ba9904eec0a8e9ca28ec32e567f5027338
+  - ref: refs/heads/netdev-netif-gso-tso-limits
+    old: ed15f4f8c0c6005c242c4481e90bb140df3c89b9
+    new: e6cf4f658e9cc24e2558c8b32df73f0a789d52d4
     log: |
-         ae2de669c14a18b5144cdacf49933ad400ed7e1c wireguard: selftests: make routing loop test non-fatal
-         39f02bf1e5ce9d72045de01e3d618ade1067158c wireguard: selftests: limit parallelism to $(nproc) tests at once
-         d5d9b29bc963cc084c5c0f3a7c28e2632a22e0c4 wireguard: selftests: use newer toolchains to fill out architectures
-         d261ba6aa411e03c27da266b7df4bef771e8105e wireguard: selftests: restore support for ccache
-         a6b8ea9144340c0aaa66c817a3bbb6bca47f0321 wireguard: selftests: bump package deps
-         3fc1b11e5d7278437bdfff0e01f51e777eefb222 wireguard: selftests: set panic_on_warn=1 from cmdline
-         205557ba9904eec0a8e9ca28ec32e567f5027338 Merge branch 'wireguard-patches-for-5-18-rc6'
+         62ccc9f2c5944d644ab3d2c1bad32b14359f1992 net: don't allow user space to lift the device limits
+         fc36e0924056ab887ab1d2e6de8240b15611e2a4 net: make drivers set the TSO limit not the GSO limit
+         e6cf4f658e9cc24e2558c8b32df73f0a789d52d4 net: move netif_set_gso_max helpers
          
