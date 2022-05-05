@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 05 May 2022 18:50:03 -0000
-Message-Id: <165177660371.21039.14334731403068980481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 05 May 2022 18:51:44 -0000
+Message-Id: <165177670439.21696.14986578236507716454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-5.19/io_uring-passthrough
-    old: 864ce187307aea5ae34922a93b77e90c1fbdcb38
-    new: c1cb69421df642845ff89651e7487cd85d31e648
+  - ref: refs/heads/fixes-base
+    old: faad6cebded8e0fd902b672f220449b93db479eb
+    new: 8be70a842f70c0fe8e00fd488b1966344fa10ff4
     log: |
-         5cfe14e3c1dccae963542c955738673057953cdc fs,io_uring: add infrastructure for uring-cmd
-         cf113551e91fef1435a1ec0fc128e6269643badd block: wire-up support for passthrough plugging
-         8e0d737e77f0cbf3ef7d7037c4fc8444183a1993 nvme: refactor nvme_submit_user_cmd()
-         57c4ab470047399beb7b7f6b9595be5d2a42a3be nvme: wire-up uring-cmd support for io-passthru on char-device.
-         c1cb69421df642845ff89651e7487cd85d31e648 nvme: add vectored-io support for uring-cmd
+         8be70a842f70c0fe8e00fd488b1966344fa10ff4 scsi: target: pscsi: Set SCF_TREAT_READ_AS_NORMAL flag only if there is valid data
          
