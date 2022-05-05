@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 05 May 2022 12:46:52 -0000
-Message-Id: <165175481236.8400.1334382718944414427@gitolite.kernel.org>
+Date: Thu, 05 May 2022 12:47:29 -0000
+Message-Id: <165175484933.8669.11888556388211976988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20220505_peter_ujfalusi_asoc_sof_ipc4_introduce_message_handling_functionality
+  - ref: refs/heads/fileMfTpNZ
     old: 0000000000000000000000000000000000000000
-    new: ceb89acc4dc8f071f63f8d64442c7a5d768e4c9d
+    new: e14bd35ef44606c7d55ccb3660cededd421a14a1
