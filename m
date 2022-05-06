@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 06 May 2022 06:12:56 -0000
-Message-Id: <165181757601.14739.863267819039304124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 06 May 2022 06:17:29 -0000
+Message-Id: <165181784945.18657.9806542509387684380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 1ca980168669acc361e3e3e984f23e20d8bf99f9
-    new: 454744754cbf2c21b3fc7344e46e10bee2768094
+  - ref: refs/heads/next
+    old: 736e0f2179d3005d994ab5addd282988de2e4615
+    new: 26a46ab5a636baef76d93f03964ac47aa7c71be7
     log: |
-         f1c5d4ded782800d58321a9f10d0caff2af56fc3 wil6210: switch to netif_napi_add_tx()
-         3ed27b602cc3e13e37a411980083bb850aff0a01 mt76: switch to netif_napi_add_tx()
-         193eb523d27c4225aa6cf6fe7debac4d3eac942f qtnfmac: switch to netif_napi_add_weight()
-         454744754cbf2c21b3fc7344e46e10bee2768094 wl1251: dynamically allocate memory used for DMA
+         3ba75c1316390b2bc39c19cb8f0f85922ab3f9ed efi: libstub: declare DXE services table
+         82e0d6d76a2a74bd6a31141d555d53b4cc22c2a3 efi: libstub: ensure allocated memory to be executable
+         24b72bb12e84c75e297a5a81f24b921d7a011575 efi: x86: Set the NX-compatibility flag in the PE header
+         416a9f84a77cf826fed1bf9a1908b2d066c17430 efi: libstub: pass image handle to handle_kernel_image()
+         07768c55f9c2ad64ccae3ed82447a87d8af8a687 efi/arm64: libstub: run image in place if randomized by the loader
+         26a46ab5a636baef76d93f03964ac47aa7c71be7 efi: stub: prefer mirrored memory for randomized allocations
          
