@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 06 May 2022 18:56:55 -0000
-Message-Id: <165186341593.13375.10216099058826163498@gitolite.kernel.org>
+Date: Fri, 06 May 2022 19:01:48 -0000
+Message-Id: <165186370827.16481.8677661448147380071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: a953b02f31bbe3ca45f3fcec65a1f62f3034cd81
-    new: 13b63445d12cde7a93ed7398e0f4d9bd6cf29f63
+    old: 13b63445d12cde7a93ed7398e0f4d9bd6cf29f63
+    new: 85595c9b5107be01157871392e1aa1ce065a7ca7
     log: |
-         f55ae08c89873e140c7cac2a7fa161d31a0d60cf cpufreq: Avoid unnecessary frequency updates due to mismatch
-         13b63445d12cde7a93ed7398e0f4d9bd6cf29f63 Merge branch 'pm-cpufreq' into bleeding-edge
+         46acb9d9b6bb24448936365ec4e49198aa712090 Merge Energy Model material for 5.19 to satisfy dependencies.
+         d3c3db41df7e1bdefc9c68073070b62ce3b260bd cpufreq: CPPC: Add per_cpu efficiency_class
+         740fcdc2c20ecf855b36b919d7fa1b872b5a7eae cpufreq: CPPC: Register EM based on efficiency class information
+         85595c9b5107be01157871392e1aa1ce065a7ca7 Merge branch 'pm-cpufreq' into bleeding-edge
          
