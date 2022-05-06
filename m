@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 06 May 2022 22:40:18 -0000
-Message-Id: <165187681863.32760.13575010619169378293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 May 2022 22:41:51 -0000
+Message-Id: <165187691108.1036.14511670051532215316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9e6c6d17d1d6a3f1515ce399f9a011629ec79aa0
-    new: d5076fe4049cadef1f040eda4aaa001bb5424225
+    old: 95730d65708397828f75ca7dbca838edf6727bfd
+    new: 53e2cb3b2a5a9ecd42555a1c1c0d24cf1c33b4e3
     log: |
-         d5076fe4049cadef1f040eda4aaa001bb5424225 netlink: do not reset transport header in netlink_recvmsg()
+         833fbbbbfc8b4b1effb95e1487b196efdaf842ea ixgbe: Fix module_param allow_unsupported_sfp type
+         b35413f415c6469c79b430c52a718de17c62db2f igb: Convert kmap() to kmap_local_page()
+         53e2cb3b2a5a9ecd42555a1c1c0d24cf1c33b4e3 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
