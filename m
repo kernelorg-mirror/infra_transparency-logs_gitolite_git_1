@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0714798137177094336=="
+Content-Type: multipart/mixed; boundary="===============0417585000130638711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 06 May 2022 19:39:06 -0000
-Message-Id: <165186594611.7419.761627567639301142@gitolite.kernel.org>
+Date: Fri, 06 May 2022 19:39:21 -0000
+Message-Id: <165186596175.7565.3022643649079339288@gitolite.kernel.org>
 
---===============0714798137177094336==
+--===============0417585000130638711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 6260f6427c944279f8aca108140db900699a30de
-    new: fcdc03f78d5c8db53ba090e38474b05113d34ade
-    log: revlist-6260f6427c94-fcdc03f78d5c.txt
+  - ref: refs/heads/for-next
+    old: 52132d2ab904a90c1d5a3fe856d45dbb8be9bc15
+    new: ae549c5091042f97b24dcbd16aac9d706536731c
+    log: revlist-52132d2ab904-ae549c509104.txt
 
---===============0714798137177094336==
+--===============0417585000130638711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6260f6427c94-fcdc03f78d5c.txt
+Content-Disposition: attachment; filename=revlist-52132d2ab904-ae549c509104.txt
 
 4ae46db99cd88444fffb4591a477cefaf5330c30 s390/consoles: improve panic notifiers reliability
 4b03b3ee60db1d46da7638e535848c377aa5348d s390/crypto: fix typos in comments
@@ -41,5 +41,7 @@ aceb06d1e83783bf5a25c4979647bd8af6a99654 s390/head: initialize all new psws
 f84d88ed3beb7fc2b4549e4c213ad428c0be9029 s390/boot: convert parmarea to C
 29b06ad7e8a69ad1cbfe7898aef1d9cb7fbd02a5 s390/entry: remove broken and not needed code
 fcdc03f78d5c8db53ba090e38474b05113d34ade s390/compat: cleanup compat_linux.h header file
+c09725a798254554c6cd537bafe1cca7c84db16f Merge branch 'fixes' into for-next
+ae549c5091042f97b24dcbd16aac9d706536731c Merge branch 'features' into for-next
 
---===============0714798137177094336==--
+--===============0417585000130638711==--
