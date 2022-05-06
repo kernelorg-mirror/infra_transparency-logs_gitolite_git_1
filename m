@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Fri, 06 May 2022 00:19:02 -0000
-Message-Id: <165179634200.8106.11645898681238313668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 06 May 2022 00:40:13 -0000
+Message-Id: <165179761304.21721.15395321389388746452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/devel
-    old: f9be522dcc12fe0f759dc5cf175be4d67e278589
-    new: c8227d568ddf2f38a8806fdcd2e20b9e11747d9a
+  - ref: refs/heads/master
+    old: 90d8aedc93bbbeb2feb071055b90eb19e4d0dda1
+    new: c1e15e1e6790813ecd5c62dcf0d1cd6402aefaf8
+    log: |
+         c1e15e1e6790813ecd5c62dcf0d1cd6402aefaf8 Fri May  6 12:39:38 AM UTC 2022
+         
