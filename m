@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6359351371767543575=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 06 May 2022 18:48:29 -0000
-Message-Id: <165186290978.7694.3727353190600048579@gitolite.kernel.org>
-
---===============6359351371767543575==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 06 May 2022 18:52:35 -0000
+Message-Id: <165186315596.10551.17747830142618035516@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: d0920c3c9a223d5ebd9eaf00a5fa838a9c85422e
-    new: 6be43ff7b46d2552285cb85751a229a4e288f400
+  - ref: refs/heads/bleeding-edge
+    old: 1fb89757668ad3301992968960e204ee09c07a09
+    new: a953b02f31bbe3ca45f3fcec65a1f62f3034cd81
     log: |
-         6be43ff7b46d2552285cb85751a229a4e288f400 Update 282787F243932B05 (Josh Poimboeuf)
+         988d7a14408db4183202f16bb02b8149b9da3727 ACPI: AGDI: Fix missing prototype warning for acpi_agdi_init()
+         a174dce006a98cde2e19b2f14f13f3b2715e10f6 Merge branch 'acpi-tables' into bleeding-edge
+         185d20694a8aceb4eda9fc1314cbaad0df0aab07 ACPI: battery: Make "not-charging" the default on no charging or full info
+         27263b3428f5b2b73be97adf3d679125b6065271 ACPI: processor: idle: Expose max_cstate/nocst/bm_check_disable read-only in sysfs
+         868b9037376d7dc0fac2f3f8004f7cb60aea260e Merge branches 'acpi-battery' and 'acpi-processor' into bleeding-edge
+         f6e109a0afedec2a9470fec31a567071e2f01e46 device property: Advertise fwnode and device property count API calls
+         b4d4e6bb3256424f7cc5af93eee315a4d7d84df4 Merge branch 'devprop' into bleeding-edge
+         42e5ed0618030543e4f679afa5e42ec8ab9337bb ACPI: DPTF: Add support for high frequency impedance notification
+         a953b02f31bbe3ca45f3fcec65a1f62f3034cd81 Merge branch 'acpi-dptf' into bleeding-edge
          
-
---===============6359351371767543575==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1651862909 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1651862909-5758ae295ff74b3995458d146f2df4320c05b934
-
-d0920c3c9a223d5ebd9eaf00a5fa838a9c85422e 6be43ff7b46d2552285cb85751a229a4e288f400 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYnVtfQAKCRC2xBzjVmSZ
-bKHqAQCJ4VDYx1IV45gS+QrUvrcCQxmaphZafBh9r9gc2trTewD/ZGjj5ijWLqPA
-ZZhQIIVty2VM7ObdFHdZiTDsSdz14A0=
-=V1SI
------END PGP SIGNATURE-----
-
---===============6359351371767543575==--
