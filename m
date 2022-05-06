@@ -1,47 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 06 May 2022 13:25:00 -0000
-Message-Id: <165184350081.18612.15361740996874880731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
+Date: Fri, 06 May 2022 13:25:33 -0000
+Message-Id: <165184353373.20290.12643084591093048304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/will/kvmtool
+user: will
 changes:
-  - ref: refs/heads/for-5.19/clk
-    old: 6a7ace2b99706a17b3f38e0114172abaeb00f240
-    new: 6f6baf690c3b8c41083d7443ab6a5645b96ff91b
+  - ref: refs/heads/master
+    old: 5657dd3e48b41bc6db38fa657994bc0e030fd31f
+    new: 4639b72f61a3d4ca48a2af1b0510584d633b8de1
     log: |
-         6f6baf690c3b8c41083d7443ab6a5645b96ff91b clk: tegra: Update kerneldoc to match prototypes
-         
-  - ref: refs/heads/for-5.19/memory
-    old: 2ed0a9733298af499f03081c4abd817df6d124bd
-    new: eab0086afe17524e560ee4d4e071904969f71e29
-    log: |
-         eab0086afe17524e560ee4d4e071904969f71e29 memory: tegra: Add MC error logging on Tegra186 onward
-         
-  - ref: refs/heads/for-5.19/soc
-    old: 9767d1be1529c40469d1bbdc457953f88fa1dca7
-    new: d3a20dcbca4880ada8974b2d0167df99161bbfaf
-    log: |
-         d3a20dcbca4880ada8974b2d0167df99161bbfaf soc/tegra: pmc: Document core domain fields
-         
-  - ref: refs/heads/for-next
-    old: 616b8a9f6e306e5bca84007e69a7a6ae9366640e
-    new: d7d062129a723ca863d2402289512429f8e31c55
-    log: |
-         d3a20dcbca4880ada8974b2d0167df99161bbfaf soc/tegra: pmc: Document core domain fields
-         6f6baf690c3b8c41083d7443ab6a5645b96ff91b clk: tegra: Update kerneldoc to match prototypes
-         eab0086afe17524e560ee4d4e071904969f71e29 memory: tegra: Add MC error logging on Tegra186 onward
-         f0bec84c2209f90da89292672da1da6e2d2b0ce6 Merge branch for-5.19/clk into for-next
-         800adcb74a79f5dcf5a4d92ad47eeb163c0799ff Merge branch for-5.19/memory into for-next
-         04ccec965e2be739223e1e4d8a3f0ca1b29f92bb Merge branch for-5.19/arm/core into for-next
-         f99fb49b12fe33e9b6c4839a25a26896522601f6 Merge branch for-5.19/soc into for-next
-         e084124aaa56cdca68dc5f659e24a18bffb5305c Merge branch for-5.19/dt-bindings into for-next
-         83e574d2798371d1f665855d949e79cd1b7bbfce Merge branch for-5.19/arm/defconfig into for-next
-         99c92fa8581c7e13cba4ed9f53d2c9578249bb6c Merge branch for-5.19/arm64/dt into for-next
-         d7d062129a723ca863d2402289512429f8e31c55 Merge branch for-5.19/arm64/defconfig into for-next
+         443cd881b47126bde6f442abc1f6c76998d713b7 linux/err.h: Add missing stdbool.h include
+         d9b64eb6aa05e552d6c9abf26ae9d87d9fb9c4ed linux/bitops.h: Include wordsize.h to provide the __WORDSIZE define
+         5898515dc727c8fa595a25dac640202bec2440eb arm/arm64: pmu.h: Add missing header guards
+         412ee1375de8fcfae2feece5db9c859eedb3cdba arm: Move arch specific VCPU features to the arch specific function
+         b23aed2ae11e8c0a03c53d7e8e63ad1b22e5db1f arm: Get rid of the ARM_VCPU_FEATURE_FLAGS() macro
+         f57ce447709232e07e996968bd2df3e5395129a3 arm: Make the PMUv3 emulation code arm64 specific
+         83713e75cd6563db10cdd9881636740eace02770 arm64: Rework set_pmu_attr()
+         0febaae00bb6f8c5e694f87d6354fbcbe81e6653 Add cpumask functions
+         083a976e0f08e052a577560c64bd13a0fc79aa89 update_headers.sh: Sync ABI headers with Linux v5.18-rc2
+         1393bda01407d85a0b4c923a4b1bf2e33ce8b846 arm64: Add support for KVM_ARM_VCPU_PMU_V3_SET_PMU
+         4639b72f61a3d4ca48a2af1b0510584d633b8de1 arm64: Add --vcpu-affinity command line argument
          
