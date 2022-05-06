@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 06 May 2022 11:23:23 -0000
-Message-Id: <165183620384.5616.2276600061436567216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 May 2022 11:23:58 -0000
+Message-Id: <165183623887.5905.8726237529698070185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 389d92be306297acc79c354affb03af944523d24
-    new: a738e4b40a39be9ced326f79851f93aad8c00998
+  - ref: refs/heads/master
+    old: beb21e3e8e261fc9f11050af17efe6de183b33d3
+    new: 95730d65708397828f75ca7dbca838edf6727bfd
     log: |
-         a3d66a76348daf559873f19afc912a2a7c2ccdaf irqchip/armada-370-xp: Do not touch Performance Counter Overflow on A375, A38x, A39x
-         baf78c1078b474aed18864796a8161784dd81fc2 irqchip/armada-370-xp: Do not allow mapping IRQ 0 and 1
-         a738e4b40a39be9ced326f79851f93aad8c00998 Merge branch irq/misc-5.19 into irq/irqchip-next
+         6df6398f7c8b481ce83f28143bc08a5231616deb net: add netif_inherit_tso_max()
+         14d7b8122fd591693a2388b98563707ba72c6780 net: don't allow user space to lift the device limits
+         ee8b7a1156f357613646d6c69d07ac5a087a1071 net: make drivers set the TSO limit not the GSO limit
+         744d49daf8bd3b17b345c836f2e6f97d49fa6ae8 net: move netif_set_gso_max helpers
+         95730d65708397828f75ca7dbca838edf6727bfd Merge branch 'tso-gso-limit-split'
          
