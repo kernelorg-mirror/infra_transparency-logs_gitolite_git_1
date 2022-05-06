@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 06 May 2022 16:13:38 -0000
-Message-Id: <165185361847.1506.2278923769683092712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Fri, 06 May 2022 16:14:41 -0000
+Message-Id: <165185368165.1942.4699041577078265161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/dt/next
-    old: fa2024c315135d8319001363f1e456dcd0d9b51e
-    new: 1c591c8f66a1141643ca73fd8918815e8fb211b0
-    log: |
-         1c591c8f66a1141643ca73fd8918815e8fb211b0 Revert "dt-bindings: rcc: Add optional external ethernet RX clock properties"
-         
+  - ref: refs/tags/sunxi-clk-for-5.19-1
+    old: 0000000000000000000000000000000000000000
+    new: 6a285267e1a43265b2f845d8fb5b63aed6191928
