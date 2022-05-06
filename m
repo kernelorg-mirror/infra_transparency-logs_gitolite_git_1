@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 06 May 2022 01:58:03 -0000
-Message-Id: <165180228356.12304.11165226412399048887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 06 May 2022 02:05:58 -0000
+Message-Id: <165180275851.17750.5251465507782661460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: c67b627e99affe4865b13557d68152ad4c35515c
-    new: 10b4a11fe70f295426fb4ebbb8b20370885c3806
+  - ref: refs/heads/perf/core
+    old: 4e411ee400c106668e150501c42610dedc595117
+    new: 33cd6928039c6bf18cf0baec936924d908e6c89b
     log: |
-         10b4a11fe70f295426fb4ebbb8b20370885c3806 firmware: tee_bnxt: Use UUID API for exporting the UUID
+         1ce7fc6fd42412ac612b0e295be88562a18eecfc perf vendor events intel: Update CLX events to v1.15
+         0255571a16059c8e863a65a4b1611db93bb9b3ae perf cpumap: Switch to using perf_cpu_map API
+         33cd6928039c6bf18cf0baec936924d908e6c89b perf evlist: Clear all_cpus before propagating
          
