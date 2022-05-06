@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 06 May 2022 08:42:22 -0000
-Message-Id: <165182654227.15425.15551248041718219361@gitolite.kernel.org>
+Date: Fri, 06 May 2022 08:42:31 -0000
+Message-Id: <165182655108.15534.15855015307814632177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,17 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-defconfig
+  - ref: refs/heads/at91-next
     old: c9a1e633e10594d1ac31d7ae524eb391e6c20391
-    new: 386d0503c1eb04d11ec241789439334f1c2c3b72
+    new: a845fa592554e6c92d2f81de6e7074f0a50d7828
     log: |
-         5c6f84728db77367df696ebb63a8f6430b3c9708 ARM: configs: at91: Remove MTD_BLOCK and use MTD_UBI_BLOCK for read only block FS
-         f095e413f9363a809d064cb04ced084108af45ac ARM: multi_v7_defconfig: add atmel video pipeline modules
-         907080f0a5ba914b79f32c82bd2fc2e84510f558 ARM: configs: at91: sama7: add xisc and csi2dc
-         398a7f7ce7121782d9f0b513c57ffed3b6a18fdd ARM: configs: at91: sama7: Enable MTD_UBI_FASTMAP
-         a5f83aacf1c7568c407aa235f3a0bad613aa4aa0 ARM: configs: at91: sama7: Enable MTD_UBI_BLOCK
-         1cbc6291603db480908ae0c82eb87ac38a0ef7df ARM: configs: at91: sama7: add MCHP PDMC and DMIC drivers
-         7dac8e27c62d9acec3470d2675747abeacfb7422 ARM: configs: at91: sama7: enable CONFIG_RESET_CONTROLLER
-         44a26be07924fdd91fa62e22358504372c6ee20c ARM: configs: at91: Enable options required for systemd
-         386d0503c1eb04d11ec241789439334f1c2c3b72 ARM: configs: at91: Enable AUTOFS_FS required by systemd
+         96e7b5479a01c05f2ed2fd8bc824b707d7068060 Merge branch 'at91-dt' into at91-next
+         67e2236e0abb8a5549751ff472b0e1a40a01f944 Merge branch 'at91-defconfig' into at91-next
+         c751ee5a62af16091e95bb5a52b4b3a96bb712a5 Merge branch 'at91-defconfig' into at91-next
+         f4de6d853a03ef2d0505549a80d4be34814b5f5f Merge branch 'at91-soc' into at91-next
+         285cc0d7d21b780b9facf4c19cfe679d646592b0 Merge branch 'at91-soc' into at91-next
+         f6640914805205a1ed90aa405ef9fe14131b3ecd Merge branch 'at91-dt' into at91-next
+         8949f82fc32939ee0ab7403881efd48c0581e259 Merge branch 'at91-defconfig' into at91-next
+         d355edef55eed7f2f19558505a13591240973d7d soc: microchip: make mpfs_sys_controller_put static
+         a845fa592554e6c92d2f81de6e7074f0a50d7828 Merge branch 'clk-at91' into at91-next
          
