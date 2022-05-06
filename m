@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 06 May 2022 02:17:32 -0000
-Message-Id: <165180345206.25705.2997727393323893429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 06 May 2022 02:24:36 -0000
+Message-Id: <165180387679.29418.1174851064940636545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 10b4a11fe70f295426fb4ebbb8b20370885c3806
-    new: 949dfdcf343c1646d26ee0ef320d6b2a4a39af28
+    old: 4e707344e18525b4edf5c2bc2e3eb60692e8c92e
+    new: c88d3908516d301972420160f5f15f936ba3ec3a
     log: |
-         b713d0067574e15cddd08ee7f25acd535b7437cf mptcp: really share subflow snd_wnd
-         92be2f522777b775a2d83b00c3690732c1243dfc mptcp: add mib for xmit window sharing
-         ea66758c1795cef81dc59cd5240e9d0f5c5207cf tcp: allow MPTCP to update the announced window
-         f3589be0c420a3137e5902d15705ced6a36f3f43 mptcp: never shrink offered window
-         38acb6260f60a7698c3a24db4df6ec1cf8f14c60 mptcp: add more offered MIBs counter
-         949dfdcf343c1646d26ee0ef320d6b2a4a39af28 Merge branch 'mptcp-improve-mptcp-level-window-tracking'
+         e1846cff2fe614d93a2f89461b5935678fd34bd9 net: mscc: ocelot: mark traps with a bool instead of keeping them in a list
+         16bbebd35629c93a8c68c6d8d28557e100bcee73 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
+         6741e11880003e35802d78cc58035057934f4dab net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
+         477d2b91623e682e9a8126ea92acb8f684969cc7 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
+         93a8417088ea570b5721d2b526337a2d3aed9fa3 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
+         c88d3908516d301972420160f5f15f936ba3ec3a Merge branch 'ocelot-vcap-fixes'
          
