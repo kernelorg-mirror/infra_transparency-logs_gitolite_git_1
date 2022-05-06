@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9177352204944985026=="
+Content-Type: multipart/mixed; boundary="===============1803120534865477027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 06 May 2022 05:29:19 -0000
-Message-Id: <165181495964.18910.4512047323383350170@gitolite.kernel.org>
+Date: Fri, 06 May 2022 05:30:09 -0000
+Message-Id: <165181500912.20701.11991352232522216758@gitolite.kernel.org>
 
---===============9177352204944985026==
+--===============1803120534865477027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6e28f56c0d1d976a4940d13d7f27e446ce65cd0a
     new: 949dfdcf343c1646d26ee0ef320d6b2a4a39af28
     log: revlist-6e28f56c0d1d-949dfdcf343c.txt
 
---===============9177352204944985026==
+--===============1803120534865477027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -773,4 +773,4 @@ f3589be0c420a3137e5902d15705ced6a36f3f43 mptcp: never shrink offered window
 38acb6260f60a7698c3a24db4df6ec1cf8f14c60 mptcp: add more offered MIBs counter
 949dfdcf343c1646d26ee0ef320d6b2a4a39af28 Merge branch 'mptcp-improve-mptcp-level-window-tracking'
 
---===============9177352204944985026==--
+--===============1803120534865477027==--
