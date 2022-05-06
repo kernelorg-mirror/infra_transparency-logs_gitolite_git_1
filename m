@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 06 May 2022 14:48:40 -0000
-Message-Id: <165184852026.9642.9452053865989225227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 06 May 2022 15:00:19 -0000
+Message-Id: <165184921955.17676.9586421718225330939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: bfc1f2749c23a4748dc4993df37cf75fa2602aba
-    new: a110b11164a53aa1cb2769ec418e6ab9c95a045e
+  - ref: refs/heads/gpio/for-current
+    old: 171865dab096da1ab980a32eeea5d1b88cd7bc50
+    new: dba785798526a3282cc4d0f0ea751883715dbbb4
     log: |
-         701850dc0c31bfadf75a0a74af7d2c97859945ec printk, tracing: fix console tracepoint
-         a110b11164a53aa1cb2769ec418e6ab9c95a045e Merge branch 'rework/kthreads' into for-next
+         dba785798526a3282cc4d0f0ea751883715dbbb4 gpio: pca953x: fix irq_stat not updated when irq is disabled (irq_mask not set)
          
