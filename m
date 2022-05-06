@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 May 2022 20:23:00 -0000
-Message-Id: <165186858034.5260.14989390350568308409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 06 May 2022 20:24:51 -0000
+Message-Id: <165186869158.5894.11907924424716584798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/x86/asm
-    old: 38f3803fb4fa588ef7645048285493efbe264d79
-    new: e2ef115813c34ea5380ac5b4879f515070150210
-    log: |
-         e2ef115813c34ea5380ac5b4879f515070150210 objtool: Fix STACK_FRAME_NON_STANDARD reloc type
-         
+  - ref: refs/heads/arm/dt32-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 361736cf495ccc49df5ae66d0f9f10a55976d2da
