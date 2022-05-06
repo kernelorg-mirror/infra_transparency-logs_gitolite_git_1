@@ -1,59 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3243466251425377634=="
+Content-Type: multipart/mixed; boundary="===============7888935940932992809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 06 May 2022 17:08:31 -0000
-Message-Id: <165185691171.4946.16567451740082198401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 06 May 2022 17:11:06 -0000
+Message-Id: <165185706675.7233.15517456089347950479@gitolite.kernel.org>
 
---===============3243466251425377634==
+--===============7888935940932992809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
-    old: d0419d76cf235f4d3c8033dee76d08e0cd0465cc
-    new: 053d2290c0307e3642e75e0185ddadf084dc36c1
-    log: |
-         0c2c7c069285374fc8feacddc0498f8ab7627117 KVM: SEV: Mark nested locking of vcpu->lock
-         053d2290c0307e3642e75e0185ddadf084dc36c1 KVM: VMX: Exit to userspace if vCPU has injected exception and invalid state
-         
-  - ref: refs/tags/for-linus
-    old: 4fc6f3a455d9bc6e8856205d8f9301c90713dabd
-    new: 0b9e769841de5881d6731c369ed485a171b5170f
-    log: |
-         0c2c7c069285374fc8feacddc0498f8ab7627117 KVM: SEV: Mark nested locking of vcpu->lock
-         053d2290c0307e3642e75e0185ddadf084dc36c1 KVM: VMX: Exit to userspace if vCPU has injected exception and invalid state
-         
+    old: 68533eb1fb197a413fd8612ebb88e111ade3beac
+    new: c88d3908516d301972420160f5f15f936ba3ec3a
+    log: revlist-68533eb1fb19-c88d3908516d.txt
 
---===============3243466251425377634==
+--===============7888935940932992809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-68533eb1fb19-c88d3908516d.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1651856909 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1651856909-a5a17eb6048fe10b47bfa8627fb1a6477c5de002
+6997fbd7a3dafa754f81d541498ace35b43246d8 net: rds: use maybe_get_net() when acquiring refcount on TCP sockets
+e333eed63a091a09bd0db191b7710c594c6e995b net: phy: micrel: Do not use kszphy_suspend/resume for KSZ8061
+15f03ffe4bb951e982457f44b6cf6b06ef4cbb93 net: phy: micrel: Pass .probe for KS8737
+e1a7ac6f3ba6e157adcd0ca94d92a401f1943f56 ping: fix address binding wrt vrf
+e71b7f1f44d3d88c677769c85ef0171caf9fc89f selftests: add ping test with ping_group_range tuned
+690447a22c70402c2ef142d8328c909ee7cea853 Merge branch 'vrf-fix-address-binding-with-icmp-socket'
+85db6352fc8a158a893151baa1716463d34a20d0 net: Fix features skip in for_each_netdev_feature()
+4e707344e18525b4edf5c2bc2e3eb60692e8c92e MAINTAINERS: add missing files for bonding definition
+e1846cff2fe614d93a2f89461b5935678fd34bd9 net: mscc: ocelot: mark traps with a bool instead of keeping them in a list
+16bbebd35629c93a8c68c6d8d28557e100bcee73 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
+6741e11880003e35802d78cc58035057934f4dab net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
+477d2b91623e682e9a8126ea92acb8f684969cc7 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
+93a8417088ea570b5721d2b526337a2d3aed9fa3 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
+c88d3908516d301972420160f5f15f936ba3ec3a Merge branch 'ocelot-vcap-fixes'
 
-d0419d76cf235f4d3c8033dee76d08e0cd0465cc 053d2290c0307e3642e75e0185ddadf084dc36c1 refs/heads/master
-4fc6f3a455d9bc6e8856205d8f9301c90713dabd 0b9e769841de5881d6731c369ed485a171b5170f refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJ1Vg0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOa0wf/cguvs6UD+nt5DLlF84ffZy1K2rji
-SczMVzp1lfTQha/iCA0rxzGJ5AVHoe19pV0sWoPeSe+gxPOt3k1HdbtpEqskZewx
-HV4mBDWk6N4qKMH8SVVovpC7xjsmSQBitKb3RvM/DtZHcUOCM9g2nba9r4j4NAbU
-itdIBeX0NLb8zJIHZ26yWvZS7ZkRSxAodBZE6p0He6WHU5G8fpb2fiLx4Pp2faxw
-ZXUQ/9CAo2T+hdi96JmscT7xEGQybN1ZnA1QfSV4LhsQmx/HKFdJV8O8C1jXXwaK
-RwP71fhPCMeApr1aUgghajX+vgbcCmM8EloQU/7b7ikw2jEwpJ3CJE1VEQ==
-=JevJ
------END PGP SIGNATURE-----
-
---===============3243466251425377634==--
+--===============7888935940932992809==--
