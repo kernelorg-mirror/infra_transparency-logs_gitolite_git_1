@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3138314654601938863=="
+Content-Type: multipart/mixed; boundary="===============2676219130594110723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 06 May 2022 17:26:45 -0000
-Message-Id: <165185800533.18289.15016879678003661497@gitolite.kernel.org>
+Date: Fri, 06 May 2022 17:27:29 -0000
+Message-Id: <165185804980.18593.8761558394367138822@gitolite.kernel.org>
 
---===============3138314654601938863==
+--===============2676219130594110723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: fa8831f4ecf569d18f30543328a4bf3de09a907e
-    new: b5a398129c1de9d8763f51db80258b3a2f932569
-    log: revlist-fa8831f4ecf5-b5a398129c1d.txt
+  - ref: refs/heads/net-mlx4
+    old: 4071bf121d59944d5cd2238de0642f3d7995a997
+    new: c88d3908516d301972420160f5f15f936ba3ec3a
+    log: revlist-4071bf121d59-c88d3908516d.txt
 
---===============3138314654601938863==
+--===============2676219130594110723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa8831f4ecf5-b5a398129c1d.txt
+Content-Disposition: attachment; filename=revlist-4071bf121d59-c88d3908516d.txt
 
 6c4d636bc00dc17c63ffb2a73a0da850240e26e3 arm64: dts: meson: remove CPU opps below 1GHz for G12B boards
 fd86d85401c2049f652293877c0f7e6e5afc3bbc arm64: dts: meson: remove CPU opps below 1GHz for SM1 boards
@@ -328,6 +328,5 @@ e1846cff2fe614d93a2f89461b5935678fd34bd9 net: mscc: ocelot: mark traps with a bo
 477d2b91623e682e9a8126ea92acb8f684969cc7 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
 93a8417088ea570b5721d2b526337a2d3aed9fa3 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
 c88d3908516d301972420160f5f15f936ba3ec3a Merge branch 'ocelot-vcap-fixes'
-b5a398129c1de9d8763f51db80258b3a2f932569 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============3138314654601938863==--
+--===============2676219130594110723==--
