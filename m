@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 06 May 2022 06:36:51 -0000
-Message-Id: <165181901192.30861.11515280406673509131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Fri, 06 May 2022 06:36:59 -0000
+Message-Id: <165181901921.30989.18250286210094605175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/for-5.19/wacom
-    old: b3ddadbf353cb4ac5ca66c200cfb25d632cc9e6f
-    new: d88591a555325f6f0ec1f28c5fe2c7f2383a4366
+  - ref: refs/heads/testing
+    old: 949dfdcf343c1646d26ee0ef320d6b2a4a39af28
+    new: 254c4a824c7c6a53360bc4974710e4213b8b7f5d
     log: |
-         d88591a555325f6f0ec1f28c5fe2c7f2383a4366 Hid: wacom: Fix kernel test robot warning
-         
-  - ref: refs/heads/for-next
-    old: 1b52907411bb751ec0c7c42bf5c2e4eb3a46fcdb
-    new: 3809e4395410fcdf11a72ef0a3134de2c71d4445
-    log: |
-         d88591a555325f6f0ec1f28c5fe2c7f2383a4366 Hid: wacom: Fix kernel test robot warning
-         3809e4395410fcdf11a72ef0a3134de2c71d4445 Merge branch 'for-5.19/wacom' into for-next
+         b01a277a0520edd5c815af346f05ef2c747919b6 xfrm: free not used XFRM_ESP_NO_TRAILER flag
+         a36708e646586f74d073199828ed878b223e988d xfrm: delete not used number of external headers
+         87e0a94e60ea2e29be9dec6bc146fbc9861a4055 xfrm: rename xfrm_state_offload struct to allow reuse
+         482db2f1dd211f73ad9d71e33ae15c1df6379982 xfrm: store and rely on direction to construct offload flags
+         0c05ab78e3f2105de0f7be56e244906b1e8d176d ixgbe: propagate XFRM offload state direction instead of flags
+         55e2f83afb1c142885da63c5a9ce2998b6f6ab21 netdevsim: rely on XFRM state direction instead of flags
+         3ef535eccea33b2a4fce20f4f298e09647350d71 net/mlx5e: Use XFRM state direction instead of flags
+         254c4a824c7c6a53360bc4974710e4213b8b7f5d xfrm: drop not needed flags variable in XFRM offload struct
          
