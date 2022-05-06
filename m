@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 06 May 2022 01:49:14 -0000
-Message-Id: <165180175420.6593.10582940188014738353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 06 May 2022 01:50:03 -0000
+Message-Id: <165180180371.8373.10984875621501529329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 15f03ffe4bb951e982457f44b6cf6b06ef4cbb93
-    new: 4e707344e18525b4edf5c2bc2e3eb60692e8c92e
+  - ref: refs/heads/for-5.19/io_uring-passthrough
+    old: e6ba81f440a7bd9e2e3a73ed2c5b9a14ddc2825f
+    new: 6f7c47f1c2768790e557c301ddf75498f36f12b2
     log: |
-         e1a7ac6f3ba6e157adcd0ca94d92a401f1943f56 ping: fix address binding wrt vrf
-         e71b7f1f44d3d88c677769c85ef0171caf9fc89f selftests: add ping test with ping_group_range tuned
-         690447a22c70402c2ef142d8328c909ee7cea853 Merge branch 'vrf-fix-address-binding-with-icmp-socket'
-         85db6352fc8a158a893151baa1716463d34a20d0 net: Fix features skip in for_each_netdev_feature()
-         4e707344e18525b4edf5c2bc2e3eb60692e8c92e MAINTAINERS: add missing files for bonding definition
+         86116c2f6fee81a0be72a71cc2f1f7c087df8efa nvme: wire-up uring-cmd support for io-passthru on char-device.
+         6f7c47f1c2768790e557c301ddf75498f36f12b2 nvme: add vectored-io support for uring-cmd
+         
+  - ref: refs/heads/for-next
+    old: 01bf46581608fa25f0e2e2a2c1ea95108418ae69
+    new: bf0dd0a663c11bf682b3c1c182daa3ed29a9f47e
+    log: |
+         86116c2f6fee81a0be72a71cc2f1f7c087df8efa nvme: wire-up uring-cmd support for io-passthru on char-device.
+         6f7c47f1c2768790e557c301ddf75498f36f12b2 nvme: add vectored-io support for uring-cmd
+         bf0dd0a663c11bf682b3c1c182daa3ed29a9f47e Merge branch 'for-5.19/io_uring-passthrough' into for-next
          
