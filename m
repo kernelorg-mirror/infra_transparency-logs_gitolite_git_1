@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 06 May 2022 22:04:19 -0000
-Message-Id: <165187465930.8288.2441376749577501386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 06 May 2022 22:10:56 -0000
+Message-Id: <165187505605.13288.3176849212402661220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/damon/next
-    old: 898bf7d2b9fd70447ffa1af80998a19865e92201
-    new: 7802673cc9cff28348f0e439cade767edfb2d99f
+  - ref: refs/heads/master
+    old: cc9688c39fc874b6481a5dd8bd090eff071ccbd9
+    new: 827222e1d2cb11886b2c8d317651d7bdf352f9fa
     log: |
-         096aafe3ca2e59d961b802cfddee4bd8ecf81493 mm/damon/paddr: Support DAMOS_COLD
-         762000122ae2034a30745e5d892484120ca8d083 for_damon_hack/cv: Add a cv for DAMON_PLRUS
-         7802673cc9cff28348f0e439cade767edfb2d99f for_damon_hack/cv/plurs: Add mini eval result
+         827222e1d2cb11886b2c8d317651d7bdf352f9fa Fri May  6 10:10:21 PM UTC 2022
          
