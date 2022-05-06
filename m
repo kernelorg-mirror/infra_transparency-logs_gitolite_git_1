@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 06 May 2022 02:08:11 -0000
-Message-Id: <165180289104.18515.17865761875439229367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 May 2022 02:17:32 -0000
+Message-Id: <165180345206.25705.2997727393323893429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 4e411ee400c106668e150501c42610dedc595117
-    new: 33cd6928039c6bf18cf0baec936924d908e6c89b
+  - ref: refs/heads/master
+    old: 10b4a11fe70f295426fb4ebbb8b20370885c3806
+    new: 949dfdcf343c1646d26ee0ef320d6b2a4a39af28
     log: |
-         1ce7fc6fd42412ac612b0e295be88562a18eecfc perf vendor events intel: Update CLX events to v1.15
-         0255571a16059c8e863a65a4b1611db93bb9b3ae perf cpumap: Switch to using perf_cpu_map API
-         33cd6928039c6bf18cf0baec936924d908e6c89b perf evlist: Clear all_cpus before propagating
+         b713d0067574e15cddd08ee7f25acd535b7437cf mptcp: really share subflow snd_wnd
+         92be2f522777b775a2d83b00c3690732c1243dfc mptcp: add mib for xmit window sharing
+         ea66758c1795cef81dc59cd5240e9d0f5c5207cf tcp: allow MPTCP to update the announced window
+         f3589be0c420a3137e5902d15705ced6a36f3f43 mptcp: never shrink offered window
+         38acb6260f60a7698c3a24db4df6ec1cf8f14c60 mptcp: add more offered MIBs counter
+         949dfdcf343c1646d26ee0ef320d6b2a4a39af28 Merge branch 'mptcp-improve-mptcp-level-window-tracking'
          
