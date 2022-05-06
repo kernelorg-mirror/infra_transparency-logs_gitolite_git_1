@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4696947849163682852=="
+Content-Type: multipart/mixed; boundary="===============2046437757068523210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 06 May 2022 09:18:47 -0000
-Message-Id: <165182872745.8150.11031088773688288091@gitolite.kernel.org>
+Date: Fri, 06 May 2022 09:19:06 -0000
+Message-Id: <165182874655.8332.17612150578445802430@gitolite.kernel.org>
 
---===============4696947849163682852==
+--===============2046437757068523210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
-    new: 29ad05fd6760c55fa7ab0e1f96e5be1b66daa4fc
+  - ref: refs/heads/driver-core-testing
+    old: 6370b04f24bc10c1f2056c0f12dd651ac0121a6f
+    new: bc443c31def574e3bfaed50cb493b8305ad79435
     log: |
-         581dd69830341d299b0c097fc366097ab497d679 firmware_loader: use kernel credentials when reading firmware
-         8bf6e0e3c7de857b91a75aa57cecd56c10035bb2 Documentation/process: Make groups alphabetical and use tabs consistently
-         29ad05fd6760c55fa7ab0e1f96e5be1b66daa4fc Documentation/process: Add embargoed HW contact for Ampere Computing
+         bb17d110cbf270d5247a6e261c5ad50e362d1675 rpmsg: Fix calling device_lock() on non-initialized device
+         38ea74eb8fc1b82b39e13a6527095a0036539117 rpmsg: use local 'dev' variable
+         d143b9db8069f0e2a0fa34484e806a55a0dd4855 export: fix string handling of namespace in EXPORT_SYMBOL_NS
+         c1b1352f21bcf8c0678c4d4fbfafc4f6729e1daa kernfs: Rename kernfs_put_open_node to kernfs_unlink_open_file.
+         c3d438eeb5413111889edef10cb5fcc2c0fb8bc9 arch_topology: Trace the update thermal pressure
+         bc443c31def574e3bfaed50cb493b8305ad79435 driver core: location: Check for allocations failure
          
 
---===============4696947849163682852==
+--===============2046437757068523210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651828722 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1651828741 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1651828722-7b4d3718c0bb7f41c42cf60c057fdf9f884d9625
+nonce 1651828740-0baabcfad7725a39df50dc32e0c5115929049a63
 
-672c0c5173427e6b3e2a9bbb7be51ceeec78093a 29ad05fd6760c55fa7ab0e1f96e5be1b66daa4fc refs/heads/driver-core-linus
+6370b04f24bc10c1f2056c0f12dd651ac0121a6f bc443c31def574e3bfaed50cb493b8305ad79435 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ05/IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n3YP/j/4yjOni2Dix95jCwAd
-x82Lvcj5I4K5aHV7Zzd3MOwTgg2TAQ5jH/n/RHgUSk2FZihzFW4AF5m18i+3S0oF
-yX8C443X3PuvHkj7KqWywqbjGWn2ZUhjTOwvqyO229Xg4g1bX+d1b6jMr/l5kZUs
-6SrbWbgvrz+vTHcu9krgVa3sZibZVqwtINP/v5cM8WgFerpwitNrZcteNQaNvEYF
-8NKs0iSDkCTbMsAwdyDt9yJXft094wpw5gjWVW53PXEQ2du4iyZsNC5ZBMrqzBT/
-9Uk0EhdJvWqGtyNCyecWE5jpHl1MaG1EfYfhfP7kAqZRW6GEkJahI94WKmLPQBEV
-Iv+IEr4Yw+5BLuxrS1ariD5LMswZoPTJZSmI1gOnTnEEcly4IQ+UmhjWVOsCDLBF
-Ghx+Lk+MNsmM1sDHLzy03OpRurP8+b7t7ygBHHw5ZydWf8kBdeU7Eg8rSjM6zmvp
-QS3Hx1TWdM3rqyPI3JcEgCnSM2EeIqbqWsI29WvGX35Lg+d5WJsST8NjOwNB8Waq
-ZtcPkvItgx6XyCEVqsyEF2z7CJHYV0PagJC0lhZKppRFwnI+N+y6nPCvDrVllTV7
-0r3esScFFaEsFJx9BsnY+YRnYwypByvj05pG24SzplR1K4JzbALQOZFcoHb6qMGO
-jnp2sZmnpyC9IAjfKYD+c9yd
-=FOhi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ06AUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xkcP/i3GZH4C/Cgx2DCVojUB
+tSQOuJ3HY41TumByxCtZyDoHs990DcA7lllsalp//mSyzPVhlQMkW2jGMyX9S/0t
+TeK/Cz2jRLyY9VZXYPbCXRy3OWSKAQFkGOgaOh8Zodattu9GD8HWLff5wkoIZCpi
+Tq9ie53ulYb2vznYrGDXvMDeghSIQ1xn3pFQ2XpvfJknIj5kZDBcjOlP53tLV4Eg
+PB7FPGOnTCEXTI5V/3qGaKFaz55WRK58SeKDKc5Z+V9vAFHPEMkLlEJa21tgHbdi
+cgjOP9xVLS5sTrbPONklZsCZWUpvLVp+rTybUhkOFLW+irRHIesOgBnzpnPtsB8d
+CKLcscmONekz/2pOwMCnN54bVYKIodbuParNoL6ZP0aWGwtG2/Ceh+x2iwzYDMNj
+BXs/0Y3tWzWuIEtzCVc9E8/kQTGJbCk1cSL4rfnZFxAC1/PTYu5cPWyQWZR9nq6n
+K83g+v6fW/i0ANbDwJA4poUNiItXpaSUvP8r9l+rTBFVL8uzdy4/9LfwBHFj8IRW
+68daXI5g9hZhp1iJ1cSzETbwdZqE/4UEm0vIkcD/QN6UG2R5CG0zgPljXy153LTT
+ulwe7f3vGho7cU3TxbQH7VhSlaJhS3K6waP7qv/gCCIkqThaOh1V051hjNC8k2+A
+k1irl560mpxIliQyhVtfagDN
+=SHDQ
 -----END PGP SIGNATURE-----
 
---===============4696947849163682852==--
+--===============2046437757068523210==--
