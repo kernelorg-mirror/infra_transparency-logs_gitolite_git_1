@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 06 May 2022 20:27:02 -0000
-Message-Id: <165186882294.8290.6967458846180671511@gitolite.kernel.org>
+Date: Fri, 06 May 2022 20:27:11 -0000
+Message-Id: <165186883117.8437.10448496518306954456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: d70522fc541224b8351ac26f4765f2c6268f8d72
-    new: 5c42d83fab070d0f59249f53699fbcf5db1ab8a9
+  - ref: refs/heads/objtool/core
+    old: a8e35fece49b16b20de000aab687ca075e4463af
+    new: 0c477702d82da35bdf3b944cb844829fdfac2a53
     log: |
-         9a3687da0c05987416620c16962e04a173b34ca0 sched/core: Avoid obvious double update_rq_clock warning
-         5c42d83fab070d0f59249f53699fbcf5db1ab8a9 sched/deadline: Remove superfluous rq clock update in push_dl_task()
+         8a9156b3fc4074ed29c8d0d17e15b9ba193fd570 objtool: Rework arch_dest_reloc_offset()
+         36831f73bac40151164d0b9d3b93ab677da60c07 objtool: Mark __ubsan_handle_builtin_unreachable() as noreturn
+         0c1ce224210235e8a51495014a2a6c9a020d24f0 x86/cpu: Elide KCSAN for cpu_has() and friends
+         0c477702d82da35bdf3b944cb844829fdfac2a53 jump_label,noinstr: Avoid instrumentation for JUMP_LABEL=n builds
          
