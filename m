@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5515276586122205058=="
+Content-Type: multipart/mixed; boundary="===============0713959324746997209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 06 May 2022 17:31:31 -0000
-Message-Id: <165185829112.21505.5404909954704482064@gitolite.kernel.org>
+Date: Fri, 06 May 2022 17:31:41 -0000
+Message-Id: <165185830186.21937.16320079684738241091@gitolite.kernel.org>
 
---===============5515276586122205058==
+--===============0713959324746997209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 1c1ed5a48411e1686997157c21633653fbe045c6
-    new: 95730d65708397828f75ca7dbca838edf6727bfd
-    log: revlist-1c1ed5a48411-95730d657083.txt
+  - ref: refs/heads/mlx5-queue
+    old: cccddc079356fe39421f857cde8ae563a68119e2
+    new: 6499a312cebb95ef0a7116ab56b36068f2e109ec
+    log: revlist-cccddc079356-6499a312cebb.txt
 
---===============5515276586122205058==
+--===============0713959324746997209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c1ed5a48411-95730d657083.txt
+Content-Disposition: attachment; filename=revlist-cccddc079356-6499a312cebb.txt
 
 6c4d636bc00dc17c63ffb2a73a0da850240e26e3 arm64: dts: meson: remove CPU opps below 1GHz for G12B boards
 fd86d85401c2049f652293877c0f7e6e5afc3bbc arm64: dts: meson: remove CPU opps below 1GHz for SM1 boards
@@ -427,5 +427,17 @@ beb21e3e8e261fc9f11050af17efe6de183b33d3 Merge branch 'nfp-flower-rework'
 ee8b7a1156f357613646d6c69d07ac5a087a1071 net: make drivers set the TSO limit not the GSO limit
 744d49daf8bd3b17b345c836f2e6f97d49fa6ae8 net: move netif_set_gso_max helpers
 95730d65708397828f75ca7dbca838edf6727bfd Merge branch 'tso-gso-limit-split'
+e649cb67b791c73ea168c44489317e56d6265568 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+d5a2f6e7b3ec84df598941d5575ee4eb2b086610 Revert "net: openvswitch: remove unneeded semicolon"
+83ee7508a3704ca1107a772c85de83dcb1e5d8de Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+8cafe9040b1859be4abd987d94c9e0a310e6946c net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+cf3729f84712e7f8b6a502bc2c81a022e2cf88e9 net/mlx5e: Report header-data split state through ethtool
+09571d630934a0af1373b34e05260251fc17e15c net: Disable LRO feature if no RXCSUM
+3a8df7aeec71a8020f8719b30ca24a831a637c2a net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
+d5cf47c6f734d9d21a0b52c675a445c660851577 net/mlx5: Add exit route when waiting for FW
+6f453363e724832e47f4cc2771ab41c5f4b1912a net/mlx5: Increase FW pre-init timeout for health recovery
+09c610f66367da00a0da0e0182c5a73b4942f613 Merge branch 'patchq/393730' into mlx5-queue
+a2a924caae32e5bf78d37fc48212171434e52324 Merge branch 'patchq/495559' into mlx5-queue
+6499a312cebb95ef0a7116ab56b36068f2e109ec Merge branch 'patchq/492042' into mlx5-queue
 
---===============5515276586122205058==--
+--===============0713959324746997209==--
