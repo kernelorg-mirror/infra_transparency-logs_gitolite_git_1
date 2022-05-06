@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 06 May 2022 06:30:00 -0000
-Message-Id: <165181860020.25494.746027243202226382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 06 May 2022 06:32:48 -0000
+Message-Id: <165181876854.27954.13102799292178791451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-next
-    old: eb3f85f0fc6e1a06e98cb5a28d07c125f85f95f7
-    new: 67de830f8d75044a6a438ab0a6495d944a7fadcc
+  - ref: refs/heads/ti-k3-dts-next
+    old: c024c46fe13bb9e9a70d044fd2d63dbee82bbb59
+    new: 7d4686fc3c2ad9bfd1eaf3c54515d6469e542578
     log: |
-         06be0d6442a07f73107964d7b56c21759c6dfb00 HID: Add support for Mega World controller force feedback
-         67de830f8d75044a6a438ab0a6495d944a7fadcc Merge branch 'for-5.19/megaworld' into for-next
+         92c996f4ceabd5780bb7678138267db0a1e1a00e arm64: dts: ti: k3-j721e-*: add DP & DP PHY
+         8f984f60f2f1fa109f9ae8c9194b6989f6675c1d arm64: dts: ti: k3-j721e-common-proc-board: add DP to j7 evm
+         d4f3c8a169ab82b91ba1e10a495e900477a75cf5 arm64: dts: ti: k3-j721e-sk: Enable DisplayPort
+         7d4686fc3c2ad9bfd1eaf3c54515d6469e542578 arm64: dts: ti: k3-j721e-sk: Enable HDMI
          
-  - ref: refs/heads/for-5.19/megaworld
-    old: 0000000000000000000000000000000000000000
-    new: 06be0d6442a07f73107964d7b56c21759c6dfb00
