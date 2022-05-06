@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Fri, 06 May 2022 18:41:53 -0000
-Message-Id: <165186251359.2926.10181879582542738354@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6359351371767543575=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 06 May 2022 18:48:29 -0000
+Message-Id: <165186290978.7694.3727353190600048579@gitolite.kernel.org>
+
+--===============6359351371767543575==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devfreq-testing
-    old: efa22bf7e05c4c3d65e4b8a0392c2248d435cf1d
-    new: c148ffa0e3aff1250769a9a064016d2f213411a9
+  - ref: refs/heads/master
+    old: d0920c3c9a223d5ebd9eaf00a5fa838a9c85422e
+    new: 6be43ff7b46d2552285cb85751a229a4e288f400
     log: |
-         38d5903c1095fb90c4c51aa39d83ab03161c3521 PM / devfreq: Add cpu based scaling support to passive governor
-         c8bc882b926864107e1ce31d4cc8653d6a72f3e0 PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
-         ee3497ee2b2c54266b69efc9d24fdeec17fdad50 PM / devfreq: passive: Keep cpufreq_policy for possible cpus
-         c148ffa0e3aff1250769a9a064016d2f213411a9 PM / devfreq: passive: Update frequency when start governor
+         6be43ff7b46d2552285cb85751a229a4e288f400 Update 282787F243932B05 (Josh Poimboeuf)
          
+
+--===============6359351371767543575==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1651862909 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1651862909-5758ae295ff74b3995458d146f2df4320c05b934
+
+d0920c3c9a223d5ebd9eaf00a5fa838a9c85422e 6be43ff7b46d2552285cb85751a229a4e288f400 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYnVtfQAKCRC2xBzjVmSZ
+bKHqAQCJ4VDYx1IV45gS+QrUvrcCQxmaphZafBh9r9gc2trTewD/ZGjj5ijWLqPA
+ZZhQIIVty2VM7ObdFHdZiTDsSdz14A0=
+=V1SI
+-----END PGP SIGNATURE-----
+
+--===============6359351371767543575==--
