@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0802745371436210664=="
+Content-Type: multipart/mixed; boundary="===============5515276586122205058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 06 May 2022 17:27:34 -0000
-Message-Id: <165185805465.18684.13754789878668483670@gitolite.kernel.org>
+Date: Fri, 06 May 2022 17:31:31 -0000
+Message-Id: <165185829112.21505.5404909954704482064@gitolite.kernel.org>
 
---===============0802745371436210664==
+--===============5515276586122205058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 1c1ed5a48411e1686997157c21633653fbe045c6
     new: 95730d65708397828f75ca7dbca838edf6727bfd
     log: revlist-1c1ed5a48411-95730d657083.txt
 
---===============0802745371436210664==
+--===============5515276586122205058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -428,4 +428,4 @@ ee8b7a1156f357613646d6c69d07ac5a087a1071 net: make drivers set the TSO limit not
 744d49daf8bd3b17b345c836f2e6f97d49fa6ae8 net: move netif_set_gso_max helpers
 95730d65708397828f75ca7dbca838edf6727bfd Merge branch 'tso-gso-limit-split'
 
---===============0802745371436210664==--
+--===============5515276586122205058==--
