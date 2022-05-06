@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============2053275388551981163=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 06 May 2022 10:02:34 -0000
-Message-Id: <165183135433.17713.12034327554898403174@gitolite.kernel.org>
-
---===============2053275388551981163==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 06 May 2022 10:05:16 -0000
+Message-Id: <165183151610.20002.13584872828366883017@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: b0c07116c894325d40a218f558047f925e4b3bdb
-    new: 830fe3c30dffe0b9f9485772070c29fcd8c2473d
-    log: revlist-b0c07116c894-830fe3c30dff.txt
-
---===============2053275388551981163==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0c07116c894-830fe3c30dff.txt
-
-acd51562e07d17aaf4ac652f1dc55c743685bf41 platform/x86: amd-pmc: Shuffle location of amd_pmc_get_smu_version()
-d2833762f23a62cce1636452108706541a735290 platform/x86: asus-wmi: Potential buffer overflow in asus_wmi_evaluate_method_buf()
-c5f2b8e9a9f891f67c58a3d9c6bca1eb8449dda2 platform/x86: asus-wmi: Fix driver not binding when fan curve control probe fails
-24ba808a1fffdb136f5e9d418cf1fbe684041fa4 platform/x86: dell-laptop: Add quirk entry for Latitude 7520
-258af41d150b2a8a2364a641bfeaa637b3ae8607 platform/x86: gigabyte-wmi: added support for B660 GAMING X DDR4 motherboard
-e769cb20c5b7c74513b88d1aed482309bcaece71 platform/x86: intel-uncore-freq: Prevent driver loading in guests
-5d7e5e346ef84949db438e9ca1ef81d895b56c0f platform/x86/intel/sdsi: Handle leaky bucket
-5a79615c0e186b9dd25ce9831a8405f7f1a9535b platform/x86/intel/sdsi: Poll on ready bit for writes
-20b5ec315a3b8c830820b69fc2f69e8608d7a09f platform/x86/intel/sdsi: Fix bug in multi packet reads
-b4e74f6842d4928d5d95935b1a058d503c103ed7 platform/x86/intel: pmc/core: change pmc_lpm_modes to static
-0eb369bf48f25cf4f1cceb7786af27da4edb8dce platform/x86/intel: pmc/core: Use kobj_to_dev()
-242e85a7a0a0994072383b5d29f017f6a17af472 platform/x86: asus-wmi: Use kobj_to_dev()
-77089467fc799e2c24cb4067b013db9b7664f5ed platform/x86/dell: add buffer allocation/free functions for SMI calls
-830fe3c30dffe0b9f9485772070c29fcd8c2473d amd_hsmp: Add HSMP protocol version 5 messages
-
---===============2053275388551981163==--
+  - ref: refs/heads/kvm-arm64/misc-5.19
+    old: 325031d4f39cfb1adf41708c1329e60b9abfbdac
+    new: bd61395ae8393f28f4b084702acd6f5f02b1f7c0
+    log: |
+         7ee74cc7ad7ef526e4383a3a3294b7039622eb37 KVM: arm64: Avoid unnecessary absolute addressing via literals
+         bd61395ae8393f28f4b084702acd6f5f02b1f7c0 KVM: arm64: nvhe: Eliminate kernel-doc warnings
+         
