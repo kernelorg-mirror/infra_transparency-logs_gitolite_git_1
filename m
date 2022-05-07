@@ -1,45 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4914206872038036134=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 07 May 2022 18:54:04 -0000
-Message-Id: <165194964407.18059.251909852548226438@gitolite.kernel.org>
-
---===============4914206872038036134==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Sat, 07 May 2022 19:10:58 -0000
+Message-Id: <165195065809.29103.2038873551862563952@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 4b97bac0756a81cda5afd45417a99b5bccdcff67
-    new: 30c8e80f79329617012f07b09b70114592092ea4
-    log: revlist-4b97bac0756a-30c8e80f7932.txt
-
---===============4914206872038036134==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b97bac0756a-30c8e80f7932.txt
-
-e75f88efac05bf4e107e4171d8db6d8c3937252d gpiolib: of: fix bounds check for 'gpio-reserved-ranges'
-e5f6e5d554ac274f9c8ba60078103d0425b93c19 gpio: mvebu: drop pwm base assignment
-a196c78b5443fc61af2c0490213b9d125482cbd1 io_uring: assign non-fixed early for async work
-285d5731a0cb2dd3a12ddf34d67be4e4965e64da Revert "block: release rq qos structures for queue without disk"
-2d3535ed2c73fee356160aed40714b27be07442a MAINTAINERS: update the GPIO git tree entry
-171865dab096da1ab980a32eeea5d1b88cd7bc50 gpio: visconti: Fix fwnode of GPIO IRQ
-5b53a405e4658580e1faf7c217db3f55a21ba849 s390/dasd: fix data corruption for ESE devices
-71f3871657370dbbaf942a1c758f64e49a36c70f s390/dasd: prevent double format of tracks for ESE devices
-cd68c48ea15c85f1577a442dc4c285e112ff1b37 s390/dasd: Fix read for ESE with blksize < 4k
-b9c10f68e23c13f56685559a0d6fdaca9f838324 s390/dasd: Fix read inconsistency for ESE DASD devices
-f1c8781ac9d87650ccf45a354c0bbfa3f9230371 s390/dasd: Use kzalloc instead of kmalloc/memset
-dba785798526a3282cc4d0f0ea751883715dbbb4 gpio: pca953x: fix irq_stat not updated when irq is disabled (irq_mask not set)
-b366bd7d9613971e666cdbfe7a08c653d329bf15 Merge tag 'io_uring-5.18-2022-05-06' of git://git.kernel.dk/linux-block
-8967605e7db37a46df69cecf42be2c68774f245c Merge tag 'block-5.18-2022-05-06' of git://git.kernel.dk/linux-block
-30c8e80f79329617012f07b09b70114592092ea4 Merge tag 'gpio-fixes-for-v5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-
---===============4914206872038036134==--
+  - ref: refs/heads/for-next/core
+    old: 154bb84c1cf0cd92dbd9a5948c1a0b8f7996a03e
+    new: 01ce2f5af527043a591208fe26788f55101b90bd
+    log: |
+         2e5920bb073a4e3e69cf8e581836cafc8ba1b464 kdump: return -ENOENT if required cmdline option does not exist
+         e6b394425c615d1596ce7d9de23a3a34ee2e612b arm64: Use insert_resource() to simplify code
+         944a45abfabc171fd121315ff0d5e62b11cb5d6f arm64: kdump: Reimplement crashkernel=X
+         fb319e77a0e70b9ccfef87827d34b10d6bc2ccce of: fdt: Add memory for devices by DT property "linux,usable-memory-range"
+         8af6b91f58341325bf74ecb0389ddc0039091d84 of: Support more than one crash kernel regions for kexec -s
+         5832f1ae50600ac6b2b6d00cfef42d33a9473f06 docs: kdump: Update the crashkernel description for arm64
+         01ce2f5af527043a591208fe26788f55101b90bd Merge branch 'for-next/crashkernel' into for-next/core
+         
+  - ref: refs/heads/for-next/crashkernel
+    old: 0000000000000000000000000000000000000000
+    new: 5832f1ae50600ac6b2b6d00cfef42d33a9473f06
