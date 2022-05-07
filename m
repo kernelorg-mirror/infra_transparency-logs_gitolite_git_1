@@ -1,51 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2764667411672567455=="
+Content-Type: multipart/mixed; boundary="===============6024647447260101234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 07 May 2022 17:29:45 -0000
-Message-Id: <165194458558.27855.7847879274373739088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 07 May 2022 18:11:33 -0000
+Message-Id: <165194709347.22670.3920536197650467652@gitolite.kernel.org>
 
---===============2764667411672567455==
+--===============6024647447260101234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 6499a312cebb95ef0a7116ab56b36068f2e109ec
-    new: ff40dfaf495521da60f0d0d6c66dd991a0ca89a5
-    log: revlist-6499a312cebb-ff40dfaf4955.txt
+  - ref: refs/heads/master
+    old: 4b97bac0756a81cda5afd45417a99b5bccdcff67
+    new: 30c8e80f79329617012f07b09b70114592092ea4
+    log: revlist-4b97bac0756a-30c8e80f7932.txt
 
---===============2764667411672567455==
+--===============6024647447260101234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6499a312cebb-ff40dfaf4955.txt
+Content-Disposition: attachment; filename=revlist-4b97bac0756a-30c8e80f7932.txt
 
-833fbbbbfc8b4b1effb95e1487b196efdaf842ea ixgbe: Fix module_param allow_unsupported_sfp type
-b35413f415c6469c79b430c52a718de17c62db2f igb: Convert kmap() to kmap_local_page()
-53e2cb3b2a5a9ecd42555a1c1c0d24cf1c33b4e3 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-0a02e282bad4dad455553fc2b9268cf1d003f132 mlxbf_gige: increase MDIO polling rate to 5us
-2c110abc46168c3a8cc9f855c986a55650c777dd net: dsa: felix: use PGID_CPU for FDB entry migration on NPI port
-a51c1c3f3218c74c07fed55ea2ad5b18c374dc25 net: dsa: felix: stop migrating FDBs back and forth on tag proto change
-28de0f9fec5a84bd5b56d6364432a8730eac410a net: dsa: felix: perform MDB migration based on ocelot->multicast list
-fe5233b0ba0d2216d549f93e4540542b99b97642 net: dsa: delete dsa_port_walk_{fdbs,mdbs}
-8fc0b6992a06998404321f26a57ea54522659b64 Merge branch 'simplify-migration-of-host-filtered-addresses-in-felix-driver'
-043405fcf2b516072b2b26f19b3eca7900548560 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
-619cd2dddcc6cc0028e40a86bf60627fbfdabd5f Revert "net: openvswitch: remove unneeded semicolon"
-7be57b72174f0baf07721a9caf8a2234e85ee34f Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
-f4def49b2a4878f636cbdb2e696560539a605c63 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
-a31c5f8d298cf6073fc908a739dc6b2349a3f3ca net/mlx5e: Report header-data split state through ethtool
-8fcc611c608778a697c7a7811f1d106fe6016c14 net: Disable LRO feature if no RXCSUM
-5e52307ff6e6986740edf3d25027147c18958901 net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
-8c530277042f3ddba28fa0a64615b038544079a0 net/mlx5: Add exit route when waiting for FW
-16ea423ca01fa6d9d07f8dcf42c7fbefcedf5ba9 Merge branch 'patchq/393730' into mlx5-queue
-4b6a2c56cefc768513cbc2fcbf43312e51f2e174 net/mlx5: Increase FW pre-init timeout for health recovery
-56e1f157fd15a55e9ef7e456c37e4c5de3e295f6 Merge branch 'patchq/495559' into mlx5-queue
-ff40dfaf495521da60f0d0d6c66dd991a0ca89a5 Merge branch 'patchq/492042' into mlx5-queue
+e75f88efac05bf4e107e4171d8db6d8c3937252d gpiolib: of: fix bounds check for 'gpio-reserved-ranges'
+e5f6e5d554ac274f9c8ba60078103d0425b93c19 gpio: mvebu: drop pwm base assignment
+a196c78b5443fc61af2c0490213b9d125482cbd1 io_uring: assign non-fixed early for async work
+285d5731a0cb2dd3a12ddf34d67be4e4965e64da Revert "block: release rq qos structures for queue without disk"
+2d3535ed2c73fee356160aed40714b27be07442a MAINTAINERS: update the GPIO git tree entry
+171865dab096da1ab980a32eeea5d1b88cd7bc50 gpio: visconti: Fix fwnode of GPIO IRQ
+5b53a405e4658580e1faf7c217db3f55a21ba849 s390/dasd: fix data corruption for ESE devices
+71f3871657370dbbaf942a1c758f64e49a36c70f s390/dasd: prevent double format of tracks for ESE devices
+cd68c48ea15c85f1577a442dc4c285e112ff1b37 s390/dasd: Fix read for ESE with blksize < 4k
+b9c10f68e23c13f56685559a0d6fdaca9f838324 s390/dasd: Fix read inconsistency for ESE DASD devices
+f1c8781ac9d87650ccf45a354c0bbfa3f9230371 s390/dasd: Use kzalloc instead of kmalloc/memset
+dba785798526a3282cc4d0f0ea751883715dbbb4 gpio: pca953x: fix irq_stat not updated when irq is disabled (irq_mask not set)
+b366bd7d9613971e666cdbfe7a08c653d329bf15 Merge tag 'io_uring-5.18-2022-05-06' of git://git.kernel.dk/linux-block
+8967605e7db37a46df69cecf42be2c68774f245c Merge tag 'block-5.18-2022-05-06' of git://git.kernel.dk/linux-block
+30c8e80f79329617012f07b09b70114592092ea4 Merge tag 'gpio-fixes-for-v5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============2764667411672567455==--
+--===============6024647447260101234==--
