@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2826324910996065471=="
+Content-Type: multipart/mixed; boundary="===============2822955999512211388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 07 May 2022 18:31:23 -0000
-Message-Id: <165194828368.3702.3035713354649320052@gitolite.kernel.org>
+Date: Sat, 07 May 2022 18:31:34 -0000
+Message-Id: <165194829425.3843.11686291151280077731@gitolite.kernel.org>
 
---===============2826324910996065471==
+--===============2822955999512211388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 902416965b6c0b1267b5940010764d960d500513
     new: a24e06a3db44b45dbfab067b7e36b4c54efaeeb9
     log: revlist-902416965b6c-a24e06a3db44.txt
 
---===============2826324910996065471==
+--===============2822955999512211388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ e3183d820e52e6cf3a601cb6c48741d7646cae54 modpost: move *.mod.c generation to wri
 0fabb91ea0f3da138fb6a24838bb7c1ef1791dec kbuild: generate a list of objects in vmlinux
 a24e06a3db44b45dbfab067b7e36b4c54efaeeb9 kbuild: record symbol versions in *.cmd files
 
---===============2826324910996065471==--
+--===============2822955999512211388==--
