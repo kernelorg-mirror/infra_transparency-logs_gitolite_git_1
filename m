@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2436311629753323111=="
+Content-Type: multipart/mixed; boundary="===============2826324910996065471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 07 May 2022 18:30:48 -0000
-Message-Id: <165194824891.3466.16355354193854580214@gitolite.kernel.org>
+Date: Sat, 07 May 2022 18:31:23 -0000
+Message-Id: <165194828368.3702.3035713354649320052@gitolite.kernel.org>
 
---===============2436311629753323111==
+--===============2826324910996065471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild2
-    old: a21d731120f4fcc4e54f3f9274501d1100ea35a2
+  - ref: refs/heads/kbuild
+    old: 902416965b6c0b1267b5940010764d960d500513
     new: a24e06a3db44b45dbfab067b7e36b4c54efaeeb9
-    log: revlist-a21d731120f4-a24e06a3db44.txt
+    log: revlist-902416965b6c-a24e06a3db44.txt
 
---===============2436311629753323111==
+--===============2826324910996065471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a21d731120f4-a24e06a3db44.txt
+Content-Disposition: attachment; filename=revlist-902416965b6c-a24e06a3db44.txt
 
 7ce3e410e0188ce7ca65b49c90cff2863d6e232e modpost: remove useless export_from_sec()
 535b3e05f435698f8f661d9e6449beb5791fff59 modpost: move export_from_secname() call to more relevant place
@@ -71,4 +71,4 @@ e3183d820e52e6cf3a601cb6c48741d7646cae54 modpost: move *.mod.c generation to wri
 0fabb91ea0f3da138fb6a24838bb7c1ef1791dec kbuild: generate a list of objects in vmlinux
 a24e06a3db44b45dbfab067b7e36b4c54efaeeb9 kbuild: record symbol versions in *.cmd files
 
---===============2436311629753323111==--
+--===============2826324910996065471==--
