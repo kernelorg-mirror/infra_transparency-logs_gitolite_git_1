@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8991072961306359982=="
+Content-Type: multipart/mixed; boundary="===============4662536362398978333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 08 May 2022 16:12:24 -0000
-Message-Id: <165202634476.7959.4449104266977560455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 08 May 2022 16:24:09 -0000
+Message-Id: <165202704991.15700.13903888361551394415@gitolite.kernel.org>
 
---===============8991072961306359982==
+--===============4662536362398978333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 5fad5fd909dcca5a0ad2367aeb16daeab5c17c4b
-    new: 467fc8f049f71a659c5bc681bc282a5c76ce5cb2
-    log: |
-         467fc8f049f71a659c5bc681bc282a5c76ce5cb2 drop queue-5.17/asoc-intel-sof_es8336-add-a-quirk-for-huawei-mateboo.patch
-         
+  - ref: refs/heads/net-next-mlx5
+    old: f4def49b2a4878f636cbdb2e696560539a605c63
+    new: 38c770d979786169c4822e87a84c4fdb3b502840
+    log: revlist-f4def49b2a48-38c770d97978.txt
 
---===============8991072961306359982==
+--===============4662536362398978333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f4def49b2a48-38c770d97978.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652026341 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1652026340-9a4cdb50dc44c7a8e133d678b7dd75e926549a67
+4d92c627557584621fcea04992b2935feff99a24 um: vector: switch to netif_napi_add_weight()
+be8af67fabcb94b2f4e0897e5782bccd3104bef3 caif_virtio: switch to netif_napi_add_weight()
+b707b89f7be36147187ebc52d91c085040c26de9 eth: switch to netif_napi_add_weight()
+8ded532cd1cbe48461821c605dbad9447555755a r8152: switch to netif_napi_add_weight()
+d484735dcf923e7872d5e353aacfaa4f42dea1d4 net: virtio: switch to netif_napi_add_weight()
+6f83cb8cbfbfc2f26c644dba98992356a74aec4c net: wan: switch to netif_napi_add_weight()
+9f88af22521db8602c68dc7b38b3b1189a6ec0ba Merge branch 'switch-drivers-to-netif_napi_add_weight'
+7cf0f96df1d86a4d08ac0160931df85bc88d42e8 mlxsw: spectrum: Tolerate enslaving of various devices to VRF
+0a27cb1692dedd44516745d86e0cb8e9524004c0 mlxsw: spectrum_router: Add a dedicated notifier block
+4f8afb680f1343a2ce42d5ff3c31e8486650a3a6 mlxsw: spectrum: Move handling of VRF events to router code
+f40e600b369e00b990d788bf3c68631234ff2843 mlxsw: spectrum: Move handling of HW stats events to router code
+ba81954cd5266c2cbcd3e1513f0dd10986d23948 mlxsw: spectrum: Move handling of router events to router code
+75ef4342282a2e2d008b97d70155475a5d342927 mlxsw: spectrum: Move handling of tunnel events to router code
+05a8d7d4fadfc0ab65c6e8d81f8a02484d8db116 mlxsw: spectrum: Update a comment
+c353fb0d4c932e4b8b561d31afc54b5a60df3d95 mlxsw: spectrum_router: Take router lock in router notifier handler
+32fb67a3e7a65171cd790ff0e65fcee49cae7cf5 selftests: lib: Add a generic helper for obtaining HW stats
+813f97a2686086464f59a433c1bf3413cf504757 selftests: forwarding: Add a tunnel-based test for L3 HW stats
+eb60020411fca202e8bd0b8f762a5a4e1cc204a0 Merge branch 'mlxsw-dedicated-router-notification-block'
+d272547fe007f59bc31f36ed027c04eeec588ff3 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+bdb5eb0237d23c225b98cb3245354e348fe619bf Revert "net: openvswitch: remove unneeded semicolon"
+b47cecafa6def8869dab11968504609973477314 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+38c770d979786169c4822e87a84c4fdb3b502840 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
-5fad5fd909dcca5a0ad2367aeb16daeab5c17c4b 467fc8f049f71a659c5bc681bc282a5c76ce5cb2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ36+UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p+wQAI3uSURokQPpPUXCe3Zi
-TmrM/+4pdOvxgR+IVoUk9Ub6TuRRhDsdaWwOgbQ3ZDolTdnYO64qkTszBmMmPOLw
-2L0Nca8sxr3WYu2HZ0JxyVsBRxwp7z4sa1xXpDW4Gj+B69CyEZOiIcFaNZrPtLuq
-6MQq10cyhl1FVUCaDss1uBV6HEfzvqglEzJajAuz74oVC0EZiolSGW2qk9Ndgvm+
-qzfUy9Gm8jArz7TfnI4ZBDaASFKRUMNQFMZNbz44AK8+fpEB8dWabwRGfeACZx53
-ZzXxj2MMiEycJfxG3aD5QsqZBksGn0xiOjJBe72EkolbmmxZQ+ciyxUDTfEhlyFu
-3dnngrDEgTP2vrTAWQIWFKOICH6zW8Va26Q0cx+P5LpjbGoOnqWD8AdpuaoXMGTI
-S0Tz9JfViicrYk91qqXKxwcENKC4IVoNntfknd5SGb27222SVKnFYGdzMI1XTafF
-31AU15o+1JSqqDmynaw97NRnQfTyKS0DO+ssnHJVxfmy52YBG2yQZFdMjf0JsV9r
-xkckryHx/kHNq3/J/r2vJphKPgcBHkxsATVoO62vYyLGel9W4naem7j30Mt5GJ7F
-/HLIOX+RcuJt7+OwRs2+DR0b/dVDkLNTyy6gB691k357Y+1kTzRaAYi+YJn7dYJV
-ahHHkuKjQBpGIqrrhm41ahXW
-=OyIj
------END PGP SIGNATURE-----
-
---===============8991072961306359982==--
+--===============4662536362398978333==--
