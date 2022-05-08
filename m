@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 08 May 2022 17:53:57 -0000
-Message-Id: <165203243782.9554.16168806127977175764@gitolite.kernel.org>
+Date: Sun, 08 May 2022 17:57:25 -0000
+Message-Id: <165203264582.12125.14210276102805306626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: d40214f2bc940db85481664ec908da951d5b6cda
-    new: 968865f7b3c61fdb0dda0c457512fecbdbc6745e
+    old: 968865f7b3c61fdb0dda0c457512fecbdbc6745e
+    new: 408bed6f113640d846600f1440366d3f3e0a16ca
     log: |
-         968865f7b3c61fdb0dda0c457512fecbdbc6745e iio: imu: st_lsm6dsx: Switch from of headers to mod_devicetable.h
+         e044b88398e52add81c1f851a9be4a1f7bdf8523 iio: ABI: Add a new location label
+         408bed6f113640d846600f1440366d3f3e0a16ca iio: common: cros_ec_sensors: Add label attribute
          
