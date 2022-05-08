@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1411873644438110218=="
+Content-Type: multipart/mixed; boundary="===============7163263737151674749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 08 May 2022 06:13:50 -0000
-Message-Id: <165199043064.5107.17971840728204848882@gitolite.kernel.org>
+Date: Sun, 08 May 2022 06:30:40 -0000
+Message-Id: <165199144027.16038.3076038696229110009@gitolite.kernel.org>
 
---===============1411873644438110218==
+--===============7163263737151674749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev
+  - ref: refs/heads/dev-test
     old: ebb14dc294d184a32d5dacfe996aa98e8b4699a4
-    new: d4ac2f6576642e97da4f6f3bee7e85b917ddd57b
-    log: revlist-ebb14dc294d1-d4ac2f657664.txt
+    new: 62fb5c149ff65182a2460909e2bc38339c3f9d4c
+    log: revlist-ebb14dc294d1-62fb5c149ff6.txt
 
---===============1411873644438110218==
+--===============7163263737151674749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebb14dc294d1-d4ac2f657664.txt
+Content-Disposition: attachment; filename=revlist-ebb14dc294d1-62fb5c149ff6.txt
 
 a8d6acf0f3ef806a671e84458b710a1e22e5f98e erofs: remove obsoleted comments
 9ce3e5d1455a2f261165cc5fd2214e656b9cad23 erofs: refine on-disk definition comments
@@ -50,5 +50,6 @@ a2c50249ff61a7c3505acfbbaaa7365c101baf25 erofs: implement fscache-based data rea
 a11d6c8d5a6244746285ecd58b79c8310cc94946 erofs: implement fscache-based data read for inline layout
 645cd8392b3f2912d6ca046a3992ec2b85962270 erofs: implement fscache-based data readahead
 d4ac2f6576642e97da4f6f3bee7e85b917ddd57b erofs: add 'fsid' mount option
+62fb5c149ff65182a2460909e2bc38339c3f9d4c erofs: change to use asynchronous io for fscache readpage/readahead
 
---===============1411873644438110218==--
+--===============7163263737151674749==--
