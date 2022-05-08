@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 08 May 2022 21:49:55 -0000
-Message-Id: <165204659535.32716.8963486028883887661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 08 May 2022 21:50:03 -0000
+Message-Id: <165204660354.1518.12470565725703090362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: dcabe76b2b60a21f8772af2bffa8b236d21c52a6
-    new: 86856475a48370cc0ab1f614d343039021e5cdc9
+  - ref: refs/heads/fastpoll-mshot
+    old: 883f288d64ca56518398dfa59bbdbfae1215ec03
+    new: e0b98b9cb4cd64c67f192aca572110458d056394
     log: |
-         86856475a48370cc0ab1f614d343039021e5cdc9 Sun May  8 09:49:10 PM UTC 2022
+         87d65277c8aa34dfc6a648b8fee6d5ff126a1518 io_uring: add basic fixed file allocator
+         eeb88514d96f74df4c415f8273b1512a19658524 io_uring: allow allocated fixed files for openat/openat2
+         e0b98b9cb4cd64c67f192aca572110458d056394 io_uring: allow allocated fixed files for accept
          
