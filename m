@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 09 May 2022 17:19:48 -0000
-Message-Id: <165211678838.27760.1903449036312031209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 09 May 2022 17:20:26 -0000
+Message-Id: <165211682601.29492.8005150475610280439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/qcom-dts-for-5.19
+  - ref: refs/heads/fileo4JDqB
     old: 0000000000000000000000000000000000000000
-    new: 596acb462ca02ad9c9461d1ade74b3ad13c3c1af
+    new: 7dcf61ddea6a751b1bf99bbcea96597e8f600a78
