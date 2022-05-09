@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6197931768225112286=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 May 2022 08:49:16 -0000
-Message-Id: <165208615607.25434.5477601467941778841@gitolite.kernel.org>
-
---===============6197931768225112286==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 09 May 2022 08:49:55 -0000
+Message-Id: <165208619575.25776.2482435958276246431@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: f6228312df092e876309f548b58e476b6557a210
-    new: 8a5ae55f43c2601e0f6a2f446007320a9fa2b9ba
+  - ref: refs/heads/for-next
+    old: d2fd434f2e1cc956e88ce13a343e79397931e176
+    new: 1e2b798e96646fa7cc0867735433a8da3b2b4bb0
     log: |
-         8a5ae55f43c2601e0f6a2f446007320a9fa2b9ba 5.17-stable patches
+         72c81bb67026a07d7cd40418520269e12f0657cb memory: tegra: Add Tegra234 support
+         cc3d696c01d83dfb2009a2d7ffbb330d2b506ac9 memory: tegra: Add APE memory clients for Tegra234
+         a7cffa11fa9232eabf0c4f441dc53002978ab526 memory: tegra: Add memory controller channels support
+         54a85e09f44c5fa322a2d186f50862d09f517225 memory: tegra: Add MC error logging on Tegra186 onward
+         1e2b798e96646fa7cc0867735433a8da3b2b4bb0 Merge branch 'for-v5.19/tegra-mc' into for-next
          
-
---===============6197931768225112286==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652086155 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1652086154-71d69e1d4a8b07011dfbc357c83e3beb23f8e659
-
-f6228312df092e876309f548b58e476b6557a210 8a5ae55f43c2601e0f6a2f446007320a9fa2b9ba refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ41YsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bNcP/jvWYjfee1aVZOusJu/p
-Y/kGQCwhXjeFFFykadI6YkwFjXMNlHFJiFBvCrRBHHxmZcRo3BAxdjUm4NRVo5Pf
-qdOsk/Lz4XJUGmfz3Tx67vGx0p+dagErXUPZ/4x7Z9Qd8C4uyQ6qQVLAXuEzmNzf
-UX/0E+ZmOYlBsg8BEUV04WgxRPSWQVzLYmuVxUn+yD6SdvfneHZodCkIce1vjNp6
-ZzOLrPN5qfLhUnskL8ktq8bJtZUBKo4NoKnUpv6C82GithduusXYuWcBg3rSNadn
-9NMLqfLi7F/YKPCgCAdHFs/y9Ze7m/ktegpPHGVYSHRRvQdljgelyvkkga74DSq0
-LbOmvkLeDuLI8kDyyKU7mWHKOkjeqT/XXnHudkJf7j66CT6xXth2obdWvbOIrOb6
-x+39DNxrP+WgMOA6zV3da7oCLqQSz9yD11e799ujRWBOAGWtDbG3Afj7dKGlhEFf
-DE+atzEDIcUgL3Q8HIYYOkiotm3dM81qeLBiFFbPhmVto1Ge2Q5CIW80ybQ91puN
-lw/AIhrG+56jLgKyGLbEsOob6cTKIXamka0dybcuMjftyoKVQWaWeNv8/pFm0Bhx
-0mfrT/JWblBnEwBS0bGMmQvAXn/qQqSgT+jsMvmknKsuRpETFxusNDZ9HlRqAxSH
-1fupMoDKsEZBBDEGKNB02pGK
-=JTmA
------END PGP SIGNATURE-----
-
---===============6197931768225112286==--
+  - ref: refs/heads/for-v5.19/tegra-mc
+    old: 0000000000000000000000000000000000000000
+    new: 54a85e09f44c5fa322a2d186f50862d09f517225
