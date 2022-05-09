@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8604156094877699588=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 May 2022 09:55:35 -0000
-Message-Id: <165209013519.19487.7914702197229701466@gitolite.kernel.org>
-
---===============8604156094877699588==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Mon, 09 May 2022 09:58:37 -0000
+Message-Id: <165209031799.20514.17682005895805279392@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
   - ref: refs/heads/master
-    old: 2b5026fd42eab00f4b34e5a9958fca6842d990e5
-    new: 5c14eaff70816cabe810b4e6b3efd3ba702312c1
+    old: 66017ccf57f0ead9bc4d7713e27a1f1735ac833b
+    new: 69e21978509140d837881bcd87a1135905cd9cc6
     log: |
-         5c14eaff70816cabe810b4e6b3efd3ba702312c1 5.17-stable patches
+         01ed51540da2ceaf1a5073675a32ff5ff2e16dea netfilter: conntrack: add nf_ct_iter_data object for nf_ct_iterate_cleanup*()
+         88f67fffad7f0288ec8b37ce40a067b11c7887d7 netfilter: nfnetlink: allow to detect if ctnetlink listeners exist
+         83803cd623065fc547d8990e78e2e174aee9d52f netfilter: conntrack: un-inline nf_ct_ecache_ext_add
+         cda99ac75d22a92229dfb739543fc024ef2ae0bb netfilter: conntrack: add nf_conntrack_events autodetect mode
+         70250df53df93e0427becebc2957f40be0291431 netfilter: prefer extension check to pointer check
+         ab3fd936da6501b2a582593f532f8e63dcbd6848 netfilter: flowtable: nft_flow_route use more data for reverse route
+         69e21978509140d837881bcd87a1135905cd9cc6 netfilter: conntrack: skip verification of zero UDP checksum
          
-
---===============8604156094877699588==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652090134 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1652090133-3d2758e6991efcd8e465e5d0a5c83eea5d318259
-
-2b5026fd42eab00f4b34e5a9958fca6842d990e5 5c14eaff70816cabe810b4e6b3efd3ba702312c1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ45RYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qb0QAK7SeeQbmihKANVHTCfw
-Tayxjpp5GYX7W4ZLPtNcU/yfeOfWqLtVhdSKkAa6cmXJbQ3FFC/q5tr6/Sf3TlFx
-m7L3CDpW/mG3hiEUUtn5TBbBCKDUtQClTm6lRsAkF1Mz16z+IGncHO4dyvjN2QIh
-VfZf9v/U7MuGvTVdIkkkii6Qb5MIAhoqFgtwTI60GBJxVqyh6d3gSZ16jr3M5tXZ
-7ZCvkVsQnhngfka+GGDASQA394kAcov7uXhLgNzwnTQciW6X8j5vVbYo2QkfCDVF
-quTFJLXSbbHi9+11qP4Gc03DiGeLmrOUUXuzgE5ZsP6RvWqbYjkle2vjrsJbze1s
-YNTrogr/6ataCcR2yY9HndrFm54l9hp44K9V2rxhcYiL1nPipNCFXr8Gyb1E8kZa
-NyeisU1xWBBy8pgMayZgU2pDBUEpksikAMtWHuaEhFs6uJSM2NDijBUQPuy7Mk0G
-oKyszqvCn1A/bXvOUlISFZH3AAVp/vbR+YfpCGYfL26PmKdefJ+F2bi084eFX8IF
-RTg/yQp/fp4lGDd+7/YJ9Ecbbch5aIAXTo+t7ShjqnXnEINEUaKbxRhwd+qF9ECh
-TDENjSDvoy9IFsa2k/I6r5mQt7Om8CWiX18uhfnfigSvrVw32ByP1gTYkxfAat4O
-Icwxs6IfDVTw/9QUenco9wq7
-=uDEy
------END PGP SIGNATURE-----
-
---===============8604156094877699588==--
