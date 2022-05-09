@@ -1,21 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 09 May 2022 15:44:53 -0000
-Message-Id: <165211109308.26357.5003025940738450844@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8592089679361223161=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 09 May 2022 15:44:53 -0000
+Message-Id: <165211109393.26410.10611941988224523639@gitolite.kernel.org>
+
+--===============8592089679361223161==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4c64a62fe32f8c8aa901dabcf8cd20ffcc8d9974
-    new: 31fe8035624e2c24bb5ff2ea754635793f13426d
+  - ref: refs/heads/for-5.19
+    old: 2cd757e6292e23b898791d71978c6edf60a251ad
+    new: a2b331ac11e1cac56f5b7d367e9f3c5796deaaed
     log: |
-         fcb24583509f843b1b4025761552dd64aa9f8b96 dt-bindings: remoteproc: imx_rproc: Support i.MX93
-         9222fabf0e39d281de65e908b94f4331eab556a2 remoteproc: imx_rproc: Support i.MX93
-         31fe8035624e2c24bb5ff2ea754635793f13426d Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         a2b331ac11e1cac56f5b7d367e9f3c5796deaaed spi: spi-fsl-qspi: check return value after calling platform_get_resource_byname()
          
+
+--===============8592089679361223161==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1652111092 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1652111092-511a72eed445c1055dc4dca7ab4a935fe957714b
+
+2cd757e6292e23b898791d71978c6edf60a251ad a2b331ac11e1cac56f5b7d367e9f3c5796deaaed refs/heads/for-5.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ5NvQACgkQJNaLcl1U
+h9At/Qf/dER/p0Y+tTX7SLzqJsv0xvz54ZWheNGGAp4zuvH8/hjF8ZO7cUulRDmS
+5I4K7PnWsaZwjRbhOZyG0OPfFTXJ9UUIXjjxB5vK0BYKo6gfYd3CpcJSxtcaC/XA
+tlgolFXdFXlFox/AwEHH8oj5v2vd7bftsFQYM/NBHxR9+CkYcCQuttPsEclZr3g3
+GSBvOvZiS/w093cWuoah2lvHk7Ylmr6PIKZ6TXjiYiB7uEwnf4FvtB6Cd/jBPTKh
+OJ5hFhS58T9viPnjTSmEe7jX7sy/8MMA+qE9Nkj99ft4lUkMKXqQsOgRTnvY6pr3
+9adDVS7FFoQ3fR8ba//APP+5Xqtkuw==
+=Rrdk
+-----END PGP SIGNATURE-----
+
+--===============8592089679361223161==--
