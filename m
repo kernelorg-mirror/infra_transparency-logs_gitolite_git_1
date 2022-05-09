@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 09 May 2022 21:48:37 -0000
-Message-Id: <165213291734.15815.1720034987118833038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Mon, 09 May 2022 21:49:23 -0000
+Message-Id: <165213296308.16110.13971027291100213784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/imx/dt64
-    old: 0000000000000000000000000000000000000000
-    new: d80b9c8422fa8e02b9a92b90fbb328e3e069c649
+  - ref: refs/heads/next-integrity
+    old: 891163adf180bc369b2f11c9dfce6d2758d2a5bd
+    new: 88338edebe37d7d2fe67e4e2fa3ec06452089cbb
+    log: |
+         644664627d21648735adfa733956f94064d3417d ima: fix 'd-ng' comments and documentation
+         09091c44cb737256f588050e363c4675d88aaac3 ima: use IMA default hash algorithm for integrity violations
+         246d921646c071b878480997c294db6c83215b06 fs-verity: define a function to return the integrity protected file digest
+         989dc72511f7b57b94b42eabfcbe79d9070de6e3 ima: define a new template field named 'd-ngv2' and templates
+         54f03916fb892441f9a9b579db9ad7925cdeb395 ima: permit fsverity's file digests in the IMA measurement list
+         398c42e2c46c88b186ec29097a05b7a8d93b7ce5 ima: support fs-verity file digest based version 3 signatures
+         79c13fb366f892e266037bc7ddcd6d51f90d1189 fsverity: update the documentation
+         88338edebe37d7d2fe67e4e2fa3ec06452089cbb Merge branch 'next-integrity.fsverity-v9' into next-integrity
+         
