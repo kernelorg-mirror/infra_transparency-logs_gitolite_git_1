@@ -1,53 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============1633204433346809467=="
+Content-Type: multipart/mixed; boundary="===============7756356953129042286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 09 May 2022 06:53:31 -0000
-Message-Id: <165207921164.32473.8330083620764884797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 09 May 2022 07:01:37 -0000
+Message-Id: <165207969707.32637.8894448433111436194@gitolite.kernel.org>
 
---===============1633204433346809467==
+--===============7756356953129042286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
+  - ref: refs/heads/master
+    old: e3de3a1cda5fdc3ac42cb0d45321fb254500595f
+    new: c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a
+    log: revlist-e3de3a1cda5f-c5eb0a61238d.txt
 
---===============1633204433346809467==
+--===============7756356953129042286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e3de3a1cda5f-c5eb0a61238d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652079210 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1652079210-f37667f0243169333cd7cb446e1af77ef49a4e42
+9dc4241bb14afecd16518a0760bceb3d7359b12a Revert "parisc: Mark cr16 CPU clocksource unstable on all SMP machines"
+7962c0896429af2a0e00ec6bc15d992536453b2d Revert "parisc: Mark sched_clock unstable only if clocks are not syncronized"
+6c800d7f55fcd78e17deae5ae4374d8e73482c13 Revert "parisc: Fix patch code locking and flushing"
+0921244f6f4f0d05698b953fe632a99b38907226 parisc: Only list existing CPUs in cpu_possible_mask
+7e93a3dd63db2341d094ab1d9ba29b5d8d5093d1 parisc: Update 32- and 64-bit defconfigs
+1955c4f879a130c7822f483cf593338ad747aed4 parisc: Re-enable GENERIC_CPU_DEVICES for !SMP
+5b89966bc96a06f6ad65f64ae4b0461918fcc9d3 parisc: Merge model and model name into one line in /proc/cpuinfo
+234ff4c585d704896450a3634a7c29fa4e1907e1 parisc: Change MAX_ADDRESS to become unsigned long long
+a65bcad5421507c2f6c52e1e2ca6a6ce02fd1ad6 parisc: Fix typos in comments
+340233dcc0160aafcce46ca893d1679f16acf409 parisc: Mark cr16 clock unstable on all SMP machines
+ba0c04104082ca211e108dd8eec6db2ad7676528 Revert "parisc: Increase parisc_cache_flush_threshold setting"
+f002488d80b557c7dc540457b176011449895fcb Merge tag 'for-5.18/parisc-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a Linux 5.18-rc6
 
-0000000000000000000000000000000000000000 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e refs/tags/v5.18-rc6
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ4umobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h8UQANM/GQwnzt6ByTH/XFEj
-7juJ+quLMSa0GBOCGGJNPkqGqIopbRpR+sgNf5FuaEabxXjYzJJ51GMpcZ3PX2Jl
-HDCXL4Hk471/KN7chC76BoUyZJtH1/jzwA80Grp48cFT/kahJiBhj5Nlprnn1R4N
-lAjCPFsgn24BceCSDnbmzDt/9C5wTw9J6cngk0z2rKbhEugWnnWKJa7uKTSVrY48
-Ck+MPzn0UVrptt9BSCSQdHg66j8owQSxSk5Uz5OKn1bA4BzCTU3rCJO8ZfqjnRbI
-lHiBBLE5SmhD14YtieFyUr5LKtgIE1l85uC2KAflwb73Zll13MMoyuMm79few8BU
-VIE1detW15hbHQjidtDghoSudLt8Mum2Xw8JC9iiv/dOMdNPFgd3UOE9+2Ea+NEA
-FoNSBID4rmPjnB9Bilm0BHzuiVqrlUsZCMW1o1+6D3pCcxvvVz+xA6C/IvpbXIku
-SsMWg9OLHYc0U+0zDJ58ROr9WU8UN1NSV4lL6pSrmqeUhw5UzQKuc0KzN2tpdZu+
-sNiImjyAGLL5USwWorhZcXIWV6RhJRKudh0m3c5am9Qak3HtYjIMppRluZCv54hp
-DZFAiLnwHTIE/xwK2E4o3NUySxDxETT9U/6WsU5g/ck5AABTqfdSpG6yZzW5Vfs7
-rCwOG8colK9DAgMXFsse9Zbp
-=X1WB
------END PGP SIGNATURE-----
-
---===============1633204433346809467==--
+--===============7756356953129042286==--
