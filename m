@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7872979902230489586=="
+Content-Type: multipart/mixed; boundary="===============0254314741474534983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 May 2022 15:44:36 -0000
-Message-Id: <165211107627.26075.8949386088442997023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 09 May 2022 15:44:42 -0000
+Message-Id: <165211108226.26195.9305710653960918519@gitolite.kernel.org>
 
---===============7872979902230489586==
+--===============0254314741474534983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: cae640c5ff94134ddb928122365a84c2e0c478d5
-    new: 5cb3bdd6bdcda6293aafe2a5adaaa44d011fbdf2
+  - ref: refs/heads/for-5.19
+    old: eedd8a8542b9509d3a2aa8141c60858ac0c5024a
+    new: 5c422f0b970d287efa864b8390a02face404db5d
     log: |
-         ef1258a7820d99cc7999cafbd8ea78a24559ff12 ASoC: uniphier: simplify the return expression of uniphier_aio_compr_set_params()
-         74eaa8126f50e52a19f055eed002cc76cf3122dc ASoC: mediatek: simplify the return expression of mtk_dai_pcm_prepare()
-         5cb3bdd6bdcda6293aafe2a5adaaa44d011fbdf2 ASoC: pcm186x: simplify the return expression of pcm186x_power_off()
+         5c422f0b970d287efa864b8390a02face404db5d regmap: Add missing map->bus check
          
 
---===============7872979902230489586==
+--===============0254314741474534983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1652111074 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1652111074-e9036739874dd0dcd30d3e20a78b2aac168bec80
+pusher C3F436CA30F5D8EB 1652111080 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1652111080-4b334e4cf3f5aa699f2e4c32689260c57c2ad915
 
-cae640c5ff94134ddb928122365a84c2e0c478d5 5cb3bdd6bdcda6293aafe2a5adaaa44d011fbdf2 refs/heads/asoc-5.19
+eedd8a8542b9509d3a2aa8141c60858ac0c5024a 5c422f0b970d287efa864b8390a02face404db5d refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ5NuIACgkQJNaLcl1U
-h9Dm6gf+Og5/zZnfgH/EEroepzVwEWKLgPXKNl/GrPJr//mO1SLS4Fm7Pr3D0XLn
-JkUGLjlGgakhrkm4dX7qdiNMELd3pD8kgR6m7zZ0mcrbU+82vkuT7xhWSPZkmZao
-nNbZQRmWsh49uvE72yOop8lMsZ4ZLW7qojlflRQsyiuuFoyS9A9GAO/S9qO9HrhN
-En6tWRXY0fYIFAEFILCyDyOSLMeRG4VNZTqahHFju+9xSjxmXj5xrf5EWKjPzq2F
-G1vtqsN3+iaw2o7kcFnOfvqrorb8cT9xUFyXfK7/8o1CtroxVj5PzhF+TblzrlwD
-2EvHKuYNOhKgrJlL1r7rSmqm5p5N2w==
-=8zKo
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ5NugACgkQJNaLcl1U
+h9CTUQf/e00ZcnpAplAB7rJpmuSkwS9yi7eNKCcoYgU9NpQvBpbhFHHi5Z14xj3Z
+WF76Ardu0uFY0CsKhtoozqoFh+huSr1PtMZOjuZs4ib8/opFTcnGJgftEmj1Kw59
+0jKF99ygYbdGBP0fn0R4arCiTvNAeGqTj9qLXWXX8mIFt2njGzyc/Ze2hQuCJnJT
+DB43NOWjcqs/wMtPgqqSSt4lOgGidpiq/tq4M5l7nsdMAilcqN8ID8EdCU8/xPeW
+Rq0+qzsuRwmVEkUcQAg08VhAhTY0uX7poNyt7As1hpxal2dZy40vIFQ5jOuyBhJ6
+7peU73fVn922nq+JDIqT8jEA22mJhA==
+=rEIs
 -----END PGP SIGNATURE-----
 
---===============7872979902230489586==--
+--===============0254314741474534983==--
