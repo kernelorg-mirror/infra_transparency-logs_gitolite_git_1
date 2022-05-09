@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6456365487725987796=="
+Content-Type: multipart/mixed; boundary="===============7524406603730781757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 May 2022 11:17:52 -0000
-Message-Id: <165209507252.11193.11281082705603822554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 09 May 2022 11:17:53 -0000
+Message-Id: <165209507303.11237.6942998644304542399@gitolite.kernel.org>
 
---===============6456365487725987796==
+--===============7524406603730781757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: ddadf6c4ea6a220b8953e22d9397ab9bec4f48ff
-    new: 7cb23d30fdd9955a11a9cda0e2a8a000e5e3c7c2
-    log: |
-         7cb23d30fdd9955a11a9cda0e2a8a000e5e3c7c2 5.15-stable patches
-         
+    old: 6da3c47264b2083006262f9c733b6597bf191d9b
+    new: 613707eb8bb07164d8b01771ef7cbfeb291b588c
+    log: revlist-6da3c47264b2-613707eb8bb0.txt
 
---===============6456365487725987796==
+--===============7524406603730781757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6da3c47264b2-613707eb8bb0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652095071 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1652095070-44efa816fc8b2ee9605facdebd45c1eab57bb11b
+ca4567f1e6f660f86fcd04f3563c0045b0d4772f rtnetlink: add extack support in fdb del handlers
+e92695e506d663bc4868ffc5bc187488a4f4d5c8 net: vxlan: Add extack support to vxlan_fdb_delete
+5dd6da25255a9d64622c693b99d7668da939a980 Merge branch 'vxlan_fdb_delete-extack'
+a7f0e4bea8eda1d286f4e99176bcb88f53aa703b net: phy: genphy_c45_baset1_an_config_aneg: do no set unknown configuration
+90532850eb210dff70423eaf20e323a91ef542d8 net: phy: introduce genphy_c45_pma_baset1_setup_master_slave()
+a04dd88f77a4036ceedd42ed1fbefa68008e1850 net: phy: genphy_c45_pma_baset1_setup_master_slave: do no set unknown configuration
+b9a366f3d874ce1c9c0148ec399f2ce4ab05a467 net: phy: introduce genphy_c45_pma_baset1_read_master_slave()
+acb8c5aec2b13dab96f0be33feb10a5b1213f113 net: phy: genphy_c45_pma_baset1_read_master_slave: read actual configuration
+2013ad8836aceb828c0fb5b16fa8bb98fd3d9b28 net: phy: export genphy_c45_baset1_read_status()
+165cd04fe25392f875ebb94188c4faa20905290d net: phy: dp83td510: Add support for the DP83TD510 Ethernet PHY
+613707eb8bb07164d8b01771ef7cbfeb291b588c Merge branch 'add-ti-dp83td510-support'
 
-ddadf6c4ea6a220b8953e22d9397ab9bec4f48ff 7cb23d30fdd9955a11a9cda0e2a8a000e5e3c7c2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ4+F8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+55UP/2xOF9+DoZyzDgK8yDOr
-ERTWGo8yw/YcyetonkddEH0GkGRnjBhf7Y088yDoAzR7HXcsg8I9sLcBDqYrEEnC
-L+mQmv47EkkXiG9rPEhbpwuP8WgprCB8SDyfwekfeal70zTuYMxE0u1TGJK4k5OX
-AaxRd1yK+H5QD/2b6uQj7cI3lM+8N9y6x/aAzJCLYbi9q1WQtEj4K0DPX8TOeYjD
-H+fzoyehEc6jWNjn+ZmwC5MNXJUE8XW3aMLRnRonYUTJiD76zVBa3E82DNP3UKw7
-5Va4HMCdQ5w3k/KbaQetDk0GuQSnnIc4Q/KDbgTSxqFBtHGV2+ts2IoBHz1cpHO5
-CoaenA+ZyjmZBl8fU/tvpmKoQAkvs8Cc/fWzEeoEwEIGd1tIsIl7rfq8m2UEtQi0
-jfEFq5rVVyMZvPB3t0irzBqbOKAPs6Wu8rfEObgqq+xEoTC2LdRDSGBnJvsQ33Pu
-5Q5YXbTwlpa3o8n8VrBvUqg9FlnFf5QD1EOehcd6SNRkzS1Vvmb1Su267v5ckrH9
-Q8k9DvIXQeLhQTx+lUYNdzXwCmTwW4iGVBl/Oz6hbaRC5Uyjkpq1QQpofr4tDdAM
-qA6TgKQsTc0GcX4pT71woEKS1Ad181oJajW5rMZZli9tuMaNYEl9NJaBPm6MNPqR
-c1G4UuAfFZl97n0p6oKc0Byn
-=kNtr
------END PGP SIGNATURE-----
-
---===============6456365487725987796==--
+--===============7524406603730781757==--
