@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0836359794718167894=="
+Content-Type: multipart/mixed; boundary="===============1922372022457535652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 May 2022 13:44:47 -0000
-Message-Id: <165210388745.9739.10070719262016082536@gitolite.kernel.org>
+Date: Mon, 09 May 2022 13:47:11 -0000
+Message-Id: <165210403160.12076.18240440965393742645@gitolite.kernel.org>
 
---===============0836359794718167894==
+--===============1922372022457535652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: a15dac8b228677daf8ad7f9855d38734ffa0e7d9
-    new: b6b7ef932ae838209254f016ecf8862d716a5ced
+    old: b6b7ef932ae838209254f016ecf8862d716a5ced
+    new: 33a1c6618677fe33f8e84cb7bedc45abbce89a50
     log: |
-         dbc2f62061c6bfba0aee93161ee3194dcee84bd0 nvmem: core: support passing DT node in cell info
-         207775f7e17b8fd0426a2ac4a5b81e4e1d71849e nvmem: brcm_nvram: find Device Tree nodes for NVMEM cells
-         8c240bd68ba089c189194b0f78968f3bbf09db97 MAINTAINERS: Add apple efuses nvmem files to ARM/APPLE MACHINE
-         7177042bdd1605b6c8d6b5c65a72f3e389690eaf dt-bindings: nvmem: Add apple,efuses
-         b6b7ef932ae838209254f016ecf8862d716a5ced nvmem: Add Apple eFuse driver
+         517f6e2641a2802dce5a5aa0d18c7d37a35678d2 nvmem: qfprom: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
+         c75945ac2e503375a5fcd44684a5243df07a6158 dt-bindings: nvmem: sfp: Fix typo
+         8cb0cd68bef75af5ac8ef93f3314d4f8dc8767a3 dt-bindings: nvmem: sfp: Add clock properties
+         54eb278a06128a83973390fc8b06acf4d6c0675b dt-bindings: nvmem: sfp: Add TA_PROG_SFP supply
+         60ed1f7cecbdaf0e3f2d62ca53d118138f4065e0 dt-bindings: nvmem: sfp: Add compatible binding for TA 2.1 SFPs
+         943eadbdb11314b41eacbcc484dfb7f93e271ff4 nvmem: sfp: Use regmap
+         33a1c6618677fe33f8e84cb7bedc45abbce89a50 nvmem: sfp: Add support for TA 2.1 devices
          
 
---===============0836359794718167894==
+--===============1922372022457535652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652103882 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652104028 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1652103881-17d4a7d7db677b737fd39d8f175b027f23f56d2f
+nonce 1652104028-dbc1793181140793960443e0441fbbad3c661904
 
-a15dac8b228677daf8ad7f9855d38734ffa0e7d9 b6b7ef932ae838209254f016ecf8862d716a5ced refs/heads/char-misc-testing
+b6b7ef932ae838209254f016ecf8862d716a5ced 33a1c6618677fe33f8e84cb7bedc45abbce89a50 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ5GsobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9ksQAMZ/iyca9+vLpYsGSJBR
-DFsd6AIhSJSTgCKrWl/yFqm2bB4YmObbIhmbEM2aTbAxWNPBKQUc3bQ2qfB20kUF
-3twC7sf9ea/Nl3lBtP1GEZQmTk17cWpeTZgAV+22zY/KpR38NxxxT2KpZWeyfLTR
-f7PglQU6n/gosvPLf1QNRa4Hy6iaC2880Y3b6Mqb1FLhpnf65Oi4DzQSoVihrkmE
-DTV/vMtT+0RchjzPlcSKYiuU46TGEv/hegZ1QiowNMUn7zs8GtNBt2inzXLfFyj9
-r57U1BVfbuZfpOJ098eXNFaOmBsjATTjX7ia9Y9LgdMp9xDyFGlTi58r60B4k5AT
-ELCPC1hzQmjF5Mx/YQjVd7MCybLdgTecHndVkVjEyds8kcJpXXq2jc2TZBW3ZjuO
-9h6CULiFsFQEYfP7l/bOGPtq4Wh/f57/Srp2/yPkHUncqxINCrvTtlrjhe2dM+sd
-VYzIuW3xBlxnJ/OzxPpT/o+V/ed8bnYkB5ysdrsB7Mvnyse8JGuWp5q9z+6Nm9Vo
-unawSlulwYjzxUfZtkq+PUdXo/CKh29xkC7jU/Q+QSrbs7BbhZmGypmbnK3MxscQ
-fJJKEDPz8HH1GG2VmTwCJnGumM9F2NmfQSjHd2cBhyImkeUJ4aMUizXCySEbwbU0
-Vt35eHratxx+UG6MSRnWMiUi
-=WzuI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ5G1wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lesP/jLPttyrttcg6xRXFHeo
+CvLdJESAdx+bl3oo2zaDNlYnj7/wZElqXVZyJqfl30SitSqEnQExOqJs61dzViUe
+vLU4QZLij7IstWPkhPYanSnSJQv1RRxoVEL5kLOJxHdkQWnURnPxq+N1qu1CFoxE
+mi/EX3p0KhF3MWrDnAl/rXLV4O/hqh7ObPlfY9Band/9EikKt4ZAenTZPtpFc8iL
+LC5G0DTIE8AweM+q/PV8sKM3L0QEzR7U3iM5jF7r0uoChjfNT9LR1ncBccMaPIe5
+nqVKSczgd7ACW/Ca7t8yIYQ2Bg/3mtQg6BOtct0P6AwgiyMR1v8rAYCU6upVdETO
+xCvTvXR3DC9qeFvBDQyvHWAiAgnA6SqGbukHWs3i6a7BCPsaUUw55qPXfj9H4rQl
+j5j1g39iux+clvYWKR145NlA0+yx9+j71vOUa2JxHxgfP23kWkUDnfcfY8GB8AUr
+EWq+OLs1rkmWdYQdMWhMcFxFDlAFfkV35t6bB+TmUrNjEy97CJbG9Bqz6wDR32nI
+L8WayQ7x1BkckuTsL1DyeZ4BR4IPnY7eclRS84fpy6vLWnSaQBvlittLb1aCR4Ii
+7JvkG1YpHzKVuESsHEcKwnkcHuwHoB5HMxSWfE1IDF70zVHstbEugV/VXeiIUVwc
+Wh2FL9pEOY/F0zySLPWW927k
+=hBuC
 -----END PGP SIGNATURE-----
 
---===============0836359794718167894==--
+--===============1922372022457535652==--
