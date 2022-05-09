@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3864398744356762946=="
+Content-Type: multipart/mixed; boundary="===============4044302790748084516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 09 May 2022 17:59:23 -0000
-Message-Id: <165211916356.22186.3742401479109262179@gitolite.kernel.org>
+Date: Mon, 09 May 2022 17:59:33 -0000
+Message-Id: <165211917346.22337.220312762465562150@gitolite.kernel.org>
 
---===============3864398744356762946==
+--===============4044302790748084516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: eb60020411fca202e8bd0b8f762a5a4e1cc204a0
-    new: 9c095bd0d4c451d31d0fd1131cc09d3b60de815d
-    log: revlist-eb60020411fc-9c095bd0d4c4.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8dfa9da860a60783261e5e6f62c6a64d09455fbd
+    new: 2ecca6aaeeec7aad9182fef07ee1c7bd5445efbd
+    log: revlist-8dfa9da860a6-2ecca6aaeeec.txt
 
---===============3864398744356762946==
+--===============4044302790748084516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb60020411fc-9c095bd0d4c4.txt
+Content-Disposition: attachment; filename=revlist-8dfa9da860a6-2ecca6aaeeec.txt
 
 cfa4e7b1bcf85cde71a498d9f23aa84640598d71 batman-adv: Start new development cycle
 8864d2fcf04385cabb8c8bb159f1f2ba5790cf71 batman-adv: remove unnecessary type castings
@@ -65,5 +65,22 @@ bbed702412041c370d336f076b783bc9e5e04c21 net: hns3: remove the affinity settings
 a1aed456e3261c0096e36618db9aa61d5974ad16 net: hns3: add query vf ring and vector map relation
 443edfd6d43d59652a6062e89de680fc0c824f84 net: hns3: fix incorrect type of argument in declaration of function hclge_comm_get_rss_indir_tbl
 9c095bd0d4c451d31d0fd1131cc09d3b60de815d Merge branch 'hns3-next'
+d3c85f46884c67584330ef535449e887fe6d2597 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+7531423211e7e5e0f5d3fd06d7c95532d67179f9 Revert "net: openvswitch: remove unneeded semicolon"
+e5ecdc5312c8355628ff2ac0ff812b2d159e81be Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+f081febfe69cf393fa519383ccc0162075cf13de net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+9795527d5a581b4fd7bed674d64f803c5aad28f4 net/mlx5e: Report header-data split state through ethtool
+c4af6fac9f34a153b5f94ae93265aaa04fc20898 net/mlx5: Add exit route when waiting for FW
+43a986ee988e78fbe7597b517daa0fbfc44c5d38 net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
+d5eb69dd558374ced503359f42db4a5a7be5c0ad net/mlx5: Increase FW pre-init timeout for health recovery
+149e06b7140073baed06bf4d2c7e819a08a130b8 net: Disable LRO feature if no RXCSUM
+41820b8a4225b5b10bc4b5acfcdcb10921665446 net/mlx5: Add bits and fields to support enhanced CQE compression
+6dd44cb8644de932b0bee156ac3a301a39e58824 net/mlx5e: Support enhanced CQE compression
+242aa8fdd68adbc5891b028ca114aa34cd3a6c63 net/mlx5e: Correct the calculation of max channels for rep
+966f32a51e66d22af4b45e76d8c34a9212cad43a Merge branch 'patchq/495559' into mlx5-queue
+17d43ce4c29ac21b55235c8d9bc0475258bdb089 Merge branch 'patchq/492042' into mlx5-queue
+8098f5924c5cdf52aba88cefe489d5d10f28f6f9 Merge branch 'patchq/393730' into mlx5-queue
+97069d64c61fdb7c1355eb92ed28d9b9a5c0b569 Merge branch 'patchq/323390' into mlx5-queue
+2ecca6aaeeec7aad9182fef07ee1c7bd5445efbd Merge branch 'patchq/500380' into mlx5-queue
 
---===============3864398744356762946==--
+--===============4044302790748084516==--
