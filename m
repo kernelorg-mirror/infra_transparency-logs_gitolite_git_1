@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8379908218629737095=="
+Content-Type: multipart/mixed; boundary="===============6775632668751766667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 May 2022 11:14:46 -0000
-Message-Id: <165209488613.8162.3737433205330069228@gitolite.kernel.org>
+Date: Mon, 09 May 2022 11:15:13 -0000
+Message-Id: <165209491379.9911.5314591968284571732@gitolite.kernel.org>
 
---===============8379908218629737095==
+--===============6775632668751766667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: a96e4ebf3dedaf110999189939cd0272d32c4296
-    new: 4fbdb1a9e9e5c802080aa86c8d557135922fb859
-    log: |
-         c862fe70b023b5efeb1f360ff614b270089bd6ce m68k: Wire up syscall_trace_enter/leave for m68k
-         4fbdb1a9e9e5c802080aa86c8d557135922fb859 m68k: math-emu: Fix typos in comments
-         
-  - ref: refs/heads/for-v5.19
-    old: a96e4ebf3dedaf110999189939cd0272d32c4296
-    new: 4fbdb1a9e9e5c802080aa86c8d557135922fb859
-    log: |
-         c862fe70b023b5efeb1f360ff614b270089bd6ce m68k: Wire up syscall_trace_enter/leave for m68k
-         4fbdb1a9e9e5c802080aa86c8d557135922fb859 m68k: math-emu: Fix typos in comments
-         
-  - ref: refs/heads/master
-    old: f3f50e32949fa00ca6517073ebaabe47eb23ed3a
-    new: 5ce775425058ddf42f6fc7e493de72603fd2c667
-    log: revlist-f3f50e32949f-5ce775425058.txt
+  - ref: refs/heads/m68k-queue
+    old: cee663b39385c16604208d7c7ed91436192da830
+    new: c12c9bd5e9bccc63b55e8d10bce3759d6204707d
+    log: revlist-cee663b39385-c12c9bd5e9bc.txt
 
---===============8379908218629737095==
+--===============6775632668751766667==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f3f50e32949f-5ce775425058.txt
+Content-Disposition: attachment; filename=revlist-cee663b39385-c12c9bd5e9bc.txt
 
 d6732317a5525a95a7eb2d12b46e3e42d321c6b6 hwmon: (xdpe12284) Fix build warning seen if CONFIG_SENSORS_XDPE122_REGULATOR is disabled
 4fd45cc8568e6086272d3036f2c29d61e9b776a1 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
@@ -276,8 +262,14 @@ ea82593bad9a77f6f14c9701c13ff7368b22f027 Merge tag 'timers-urgent-2022-05-08' of
 e3de3a1cda5fdc3ac42cb0d45321fb254500595f Merge tag 'powerpc-5.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 f002488d80b557c7dc540457b176011449895fcb Merge tag 'for-5.18/parisc-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a Linux 5.18-rc6
-ee9a94d93adcc147052da15816580b007d3b0a5b m68k: Wire up syscall_trace_enter/leave for m68k
-7a51f67b3b453bb9684f2211d666af1d88803c8e m68k: math-emu: Fix typos in comments
-5ce775425058ddf42f6fc7e493de72603fd2c667 Merge tag 'v5.18-rc6'
+db535f6c657a3edb8314091222cef7d4e5cd7643 tty: goldfish: Introduce gf_ioread32()/gf_iowrite32()
+5ead2fc03fda633c79a0a886c3dfd360b971a57b rtc: goldfish: Use gf_ioread32()/gf_iowrite32()
+77ec8650c7cce9e1d2e7074e3cfad4a8f464cb3a clocksource/drivers: Add a goldfish-timer clocksource
+26bd2bac8de1b7b122088f4950c9daa0d1f05df4 m68k: Introduce a virtual m68k machine
+d32932b9bc645bd93063b0d18f521da5fc7a0fb3 m68k: Wire up syscall_trace_enter/leave for m68k
+a8ba851873510fdc87c023b9901f68847a31d435 m68k: math-emu: Fix typos in comments
+194f213a9ba649e2ddd88477e05b814316e03692 m68k: atari: usb: Add ISP1160 USB host controller support
+442aa425cbe3e238c9e81f130249185ad482d4f1 m68k: atari: Update Kconfig.bus help text
+c12c9bd5e9bccc63b55e8d10bce3759d6204707d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8379908218629737095==--
+--===============6775632668751766667==--
