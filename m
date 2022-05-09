@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============1237687315053914945=="
+Content-Type: multipart/mixed; boundary="===============8699639989451118139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 May 2022 08:10:54 -0000
-Message-Id: <165208385495.30948.2875005735201988132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 09 May 2022 08:12:20 -0000
+Message-Id: <165208394020.31677.971709600154533622@gitolite.kernel.org>
 
---===============1237687315053914945==
+--===============8699639989451118139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: 67b9c8feff03adfbb094fceb8d80980fb5f5fd61
-    new: 3e02e460d2723ff34326f0931e6515e2dbe9d23b
-    log: |
-         3e02e460d2723ff34326f0931e6515e2dbe9d23b 5.17-stable patches
-         
+  - ref: refs/heads/damon/next
+    old: eda7f1bbee83eccb134e34d1ed10b4b716633ee8
+    new: cfe0c07a6733f40f490063e949f002a657445ed2
+    log: revlist-eda7f1bbee83-cfe0c07a6733.txt
 
---===============1237687315053914945==
+--===============8699639989451118139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-eda7f1bbee83-cfe0c07a6733.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652083854 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1652083849-742af294aaf0d75ea7a5b317af47241dfb96e482
+bf4d03d699fe540eacda713af6fd5822f3ef098b MAINTAINERS: Add a mailing list for DAMON development
+67400504dc56806659e8ff523b22bc908f88774e mm/damon/reclaim: Use resource_size function on resource object
+fe880446fdc962a67f90271e52fb6fde143da9a0 === Patches written or reviewed by SJ but not merged in -mm ===
+7a9493e25ffe97a0a7a9ea12d3f45f40ef2581fd xen-blk{back,front}: Update contact points for buffer_squeeze_duration_ms and feature_persistent
+985b30fb26aed0bd70443e2dcfddc2dd83979c35 scripts/get_abi: Fix wrong script file name in the help message
+a8501dd6b167ad70b73ea7406c9b0eab146408ed ==== YuanChu's DAMON kselftest fix ====
+4d1a2c5e3cbf996e2a97cb5d4e8cce3e7c5d6fec selftests/damon: suppress compiler warnings for huge_count_read_write
+70f717b6e525e6ce0a827dd8d03cb52d97d9de2b selftests/damon: add damon to selftests root Makefile
+e4b0d37c7f3d9daf1d26d230ea653a0a320e42f5 === commits having no plan to post for now ===
+96cd8e67369b027ec0618fd7cc524875c05a1ddd tools: Introduce a minimal user-space tool for DAMON
+91424fb4dee3482638e1ead50e70f49ba8682575 tools/perf: Integrate DAMON in perf
+9a5b3a7cbacb57c32d56932bcfbf9fb1f9412008 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
+ab3011b12ca19dd7427483f09d434a787ba73c71 selftests/damon: Test target_ids_write()'s pids leaks
+f1a499a7dd03cf424bf976852d0c69aaadde3c0c === Commits aiming not to be posted ===
+764ebd4582cf6a0731a4ab5f26d22121f35af48f mm/damon: Add debug code
+160fb8d3c9a2f26f59ffcbde7eb7f01bc53fe06d Docs: Modify for DAMON only
+9a50863a2eb62efd80fcf378364e8c1b407870e3 Docs/DAMON: Add more docs -next doc
+bce45a90ca9ca6b40cab17be17f653d46c8c9329 === Hacks in progress (aim to be posted) ===
+fb5d781a3740f0e4d58e0ac8350944db8b308eb8 ==== DAMON-based Proactive LRU-lists Sorting ====
+401502cb7d64473eb974ae91922b937a714e60c9 mm/damon/paddr: move DAMOS_PAGEOUT handling to a separate function
+7d2310dc24dec9322d631c2ea976cf52ea9c9379 mm/damon/schemes: Support 'hot' action
+c3cfc96e9fbea0b312eb209d26041973014d6647 mm/damon/paddr: Support DAMOS_COLD
+98290f2448142db9e3b347f74dd792bb7ee50bcf ==== Trivial Cleanups ====
+c4f3c17323cc2dfb4baae395ceacdec787bea63d mm/damon/{dbgfs,sysfs}: Move target_has_pid() from dbgfs to core
+f5821d7c8bdbb8a6d93a127602db3ba7d1c1efba mm/damon/reclaim: Deduplicate commit_inputs handling
+1dac4faee7c2959528ff3ee6665d46296f15c182 mm/damon/sysfs: Deduplicate inputs applying
+771ef4b854262363d2dcacecff6f383e00d96e5c for_damon_hack/cv: Add a cv for DAMON_PLRUS
+dde768a2f960f36240929fc8e476be32c916084d for_damon_hack/cv/plurs: Add mini eval result
+44bee3f2773ec52556640d50d10326c2cab47ed8 for_damon_hack/cv/plurs: Further cleanup
+cfe0c07a6733f40f490063e949f002a657445ed2 for_damon_hack/cv/plrus: Further cleanup
 
-67b9c8feff03adfbb094fceb8d80980fb5f5fd61 3e02e460d2723ff34326f0931e6515e2dbe9d23b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ4zI4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hFUQAIRXtweHyBF9ApZNVkvA
-UmQq0Xc3KNPp7YMpJXp11e/mEg7qpIDKHLREOOIlEesxBdW23h8TqBib9/nJHw8o
-TN8wcC+OHzkJI7Vh5nzYn1+1Ff/1FbLPzZD7svyOLMJWnqjEoqrDEUwhqQbXI09l
-h3qSFvGABtBKjrU2LZjkfikMb3o43ByEm0Hqzk2PJkBDKMoQ1IcaWlTCDv1rTxQ+
-z0CT2AXFTH5jK6ZxfOPsZNcN2cKSGwuh7uYaFtC4aSCEFZCakikBNg5ADkh3R45V
-cEVQlTogGln0gOw89W+tRHLJFDCpzdmw9ks5LJ81kMmo3j7rTvjJiE+rNXufJlWm
-9Pw/T0Jb0KWEvRXfwdWPiQ75x64cSZrhtgwi8Hh8IvJXwUscG+8bGgO63bY+Fu01
-cwMSR0Mt8iBfurBSkZ8Km0Mhb89tmX7qlfWObUYPLkLGZfHndJj0XwN8xhHzf5L9
-jOQ/w9cVpNf/goZC7o4JiqJNUe2DwGeebCNTVAREfcKN192FsWlRMhJpTj2Oi/cg
-lIyvHJaGercomrcVzG2RIedZ55U3SAwOr44kPBqI2gMLoSC/HtC4kmiCA8xHRh8P
-501aJWeiEOO5FrXiXXlOO0boQlIIF2Thmi4OGUztqY7DkVeP3Z0oQwqvVsB7yxK/
-LlMNhewtNUoUwTzZRe4YwQGM
-=Fr9n
------END PGP SIGNATURE-----
-
---===============1237687315053914945==--
+--===============8699639989451118139==--
