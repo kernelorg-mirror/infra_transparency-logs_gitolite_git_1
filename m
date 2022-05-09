@@ -1,58 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============2668498058578289903=="
+Content-Type: multipart/mixed; boundary="===============0721376787824327875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 May 2022 21:12:44 -0000
-Message-Id: <165213076411.23328.10292538474122803375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 09 May 2022 21:12:50 -0000
+Message-Id: <165213077055.23481.16308344512096499262@gitolite.kernel.org>
 
---===============2668498058578289903==
+--===============0721376787824327875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: d94d1486952b860dcedd04d0ff8ade2176418905
-    new: d491db14df2f59257812551db64a46420d27062c
-    log: |
-         a669ec5f4bc485a56b2f379e7c7197a810872cc1 ASoC: SOF: sof-client: Add API to get the maximum IPC payload size
-         ef368c3347fe79a4193317b130b02064801920d7 ASoC: SOF: ipc-msg-injector: Query the maximum IPC payload size
-         a1e5bbc8ea6ae6e0fa1bd42f2ef810b13d9ec066 ASoC: SOF: sof-client-probes: Query the maximum IPC payload size
-         cdf8233d2cd2e55c8bc409e5b4fbdb181a1dea2b ASoC: SOF: sof-client: Add API to get the ipc_type
-         100c9374318f881c3083573af9dc76afa229fd23 ASoC: SOF: sof-client: Add support IPC4 message sending
-         a9aa3381e404abae3dd8c37b7c845415b56f0305 ASoC: SOF: ipc-msg-injector: Separate the message sending
-         066c67624d8ca2a2465690d4a7b7f52b880e9925 ASoC: SOF: ipc-msg-injector: Add support for IPC4 messages
-         5889ccdd094ac32ee52851fc9eccd124897daf2b ASoC: SOF: sof-client: IPC flood test can only work with SOF_IPC
-         d491db14df2f59257812551db64a46420d27062c ASoC: SOF: sof-client: Update for different IPC versions
-         
+  - ref: refs/heads/for-5.19
+    old: a2b331ac11e1cac56f5b7d367e9f3c5796deaaed
+    new: 184434fcd6177b76f929570348935d7c9f22d296
+    log: revlist-a2b331ac11e1-184434fcd617.txt
 
---===============2668498058578289903==
+--===============0721376787824327875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1652130762 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1652130762-221094ba336a24f213e0adc226fee1025528af74
+pusher C3F436CA30F5D8EB 1652130769 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1652130768-ed7e1112a8b7a18d45cd0b3ae79c3bd472ce2629
 
-d94d1486952b860dcedd04d0ff8ade2176418905 d491db14df2f59257812551db64a46420d27062c refs/heads/asoc-5.19
+a2b331ac11e1cac56f5b7d367e9f3c5796deaaed 184434fcd6177b76f929570348935d7c9f22d296 refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ5g8oACgkQJNaLcl1U
-h9BLvggAg7icmxIsleKNJJ5ZkvzBdkPBelI90fzDTqbuuPMrMidyLqIRbFGRnQpZ
-ohAGVy5zBNnP/gUpJFXo1BPXS/v0U/VcDXReho4iqIzaustbIALzJ8LMfK0o4r1h
-uwZW2Mebg7z+Xqx7YJrrQ+6n+1Z7bDIdVFuglbIxvAYmlf5dRR42ha76alVAbcbg
-I1S3GyggcAw5WRoQVvukFOSHOXK12ypvLwL5fqEiVvWkWqE9uxsAAPHfXlivEqCk
-rfgQl93N0fjendnfQPI7yHSSBRz+LzNKpc+cJwMc7CFp3M+7g+hw0oCX9q7XekCI
-XK/UvL6pEuijk0N4WxQPYeQPWaN3fg==
-=FwcI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ5g9EACgkQJNaLcl1U
+h9DX/gf/R/7tTFCeNIREALV6NY50mLgfl6BbNBqXN9bA69mqRfCgyYwEw62QOx4M
+LcOqSmvLdmODEi6RNdJKUseeephXbFmtbtWGRunuDbdv7QDrb4Khgi8YuGtcRjnm
+ssCn2GV/6r4pqKYRpl8KUOcJf9Y3XKUqOiv2Njc/ZJ+ykrwUJqXJWghGjEyLY/B5
+ap/t4M1h9oKFug6vKIsrYBnZ4jSMnzHCGQbFgnU9zBBCKFsmCfewHPCppa0Eo4sH
+asK3Uq8F96uF4KUE3rKn360XvIF0T3OSGXy1ITfQ9eLHjGS8CzpBim9kQSf+MKVg
+0LJchaoK4SUn6L6mgP62kMSMgrwfbw==
+=tmoq
 -----END PGP SIGNATURE-----
 
---===============2668498058578289903==--
+--===============0721376787824327875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a2b331ac11e1-184434fcd617.txt
+
+f7b8787164551a09fca287b1dea15d0c4d646e4a spi: spi-imx: fix sparse warning: add identifier name to function definition
+a8c785c1e75538876b524247a3738db53b1f78b8 spi: spi-imx: avoid unnecessary line continuations
+1a23461a8a08c4a32972dec31a394eee3302511d spi: spi-imx: mx51_ecspi_intctrl(): prefer 'unsigned int' to bare use of 'unsigned'
+dae336d0dca669143e0fdf6b82c333bf6a8d9e0a spi: spi-imx: spi_imx_buf_rx_swap_u32(): fix sparse warning: use swab32s() instead of cpu_to_be32()
+baaadffe8854ea14eed1a5f3c09f2136c3aa4427 spi: spi-imx: spi_imx_buf_rx_swap_u32(): replace open coded swahw32s()
+63cd96b70f9366f67048fbc07294ce5823001ded spi: spi-imx: complete conversion from master -> controller
+307c897db762d1e0feee9477276b08f6deca4a5b spi: spi-imx: replace struct spi_imx_data::bitbang by pointer to struct spi_controller
+07e7593877882fbd07c55b26b7dcf88760449323 spi: spi-imx: add PIO polling support
+184434fcd6177b76f929570348935d7c9f22d296 spi: spi-imx: mx51_ecspi_prepare_message(): skip writing MX51_ECSPI_CONFIG register if unchanged
+
+--===============0721376787824327875==--
