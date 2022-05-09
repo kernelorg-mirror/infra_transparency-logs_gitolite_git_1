@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 09 May 2022 16:49:58 -0000
-Message-Id: <165211499878.6815.7593754787354702594@gitolite.kernel.org>
+Date: Mon, 09 May 2022 16:51:35 -0000
+Message-Id: <165211509579.8895.8265415289774634902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 1c591c8f66a1141643ca73fd8918815e8fb211b0
-    new: 0f6983509ea126e41b8cfd17bc490cba0df58728
+  - ref: refs/heads/dt/next
+    old: 0f6983509ea126e41b8cfd17bc490cba0df58728
+    new: 52bf4b7147e5a0446ec5bdfe92106f0e16bf281f
     log: |
-         e4783856a2e8e41c679fd818afc912904d4088ba dt-bindings: iommu: arm,smmu-v3: make PRI IRQ optional
-         b25bccb697798242e87ce36979f1d0b7ff0875be dt-bindings: arm: spe-pmu: convert to DT schema
-         f7187a02f1f9ec22cf7d4400cf35f1a0f687acbf dt-bindings: arm: sp810: convert to DT schema
-         b85593476ec497dc246ea9142433d9ea7b24f65d dt-bindings: sound: add Arm PL041 AACI DT schema
-         97ef3551fb9cb2313806e865eca53ab09d1803c6 dt-bindings: serio: add Arm PL050 DT schema
-         47db321666cb88e1add876535da8aeb4e6c3a8dd dt-bindings: arm: convert vexpress-sysregs to DT schema
-         7e8339b5162fb193a89e537e7a2ce4ad471e8a6e dt-bindings: arm: convert vexpress-config to DT schema
-         3f7e3653c1248a13fd36a84f63beb06d6e97358f dt-bindings: display: convert PL110/PL111 to DT schema
-         36fd2a65bcafb7cc3014d06c7b1335eb746e09c8 dt-bindings: display: convert Arm HDLCD to DT schema
-         2c8b082a3ab1f4f0b5a2cd8f7f0460b909545be9 dt-bindings: display: convert Arm Mali-DP to DT schema
-         0f6983509ea126e41b8cfd17bc490cba0df58728 dt-bindings: display: convert Arm Komeda to DT schema
+         f9095ac1ba1ce407cecc1df93c05ad4ac504661c dt-bindings: ufs: cdns,ufshc: Add power-domains
+         e17fd4bf54fb579d03566ab22a02dc03b36f4d06 dt-bindings: leds-mt6360: Drop redundant 'unevaluatedProperties'
+         b2b701b31e1c5827957c88e5c1f0c3dde1f55b2f dt-bindings: pinctrl: Allow values for drive-push-pull and drive-open-drain
+         caf83e494de965dbb5f8add655c526b9af6a96cb dt-bindings: Drop redundant 'maxItems/minItems' in if/then schemas
+         5dc4630426511f641b7ac44fc550b8e21eafb237 dt-bindings: pci: apple,pcie: Drop max-link-speed from example
+         52bf4b7147e5a0446ec5bdfe92106f0e16bf281f Merge branch 'dt/linus' into dt/next
          
