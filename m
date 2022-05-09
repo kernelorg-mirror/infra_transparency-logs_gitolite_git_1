@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 09 May 2022 07:16:46 -0000
-Message-Id: <165208060606.1708.17426645973810096821@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8886228842263996866=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 09 May 2022 07:16:49 -0000
+Message-Id: <165208060983.1785.15818851650336402888@gitolite.kernel.org>
+
+--===============8886228842263996866==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 830fe3c30dffe0b9f9485772070c29fcd8c2473d
-    new: 619695fab3ba18a9145000280b0d74faf2131dea
+  - ref: refs/heads/master
+    old: 03e319530fc6d2687c2858eafbed4f01c6032620
+    new: 99f4f87a15d027ea3d44a7a902facacce9c2ca25
     log: |
-         89643719d86ff9ec7b972aa969587d37b08d113c platform/x86: thinkpad_acpi: Convert btusb DMI list to quirks
-         fbb404ab4e45c029bbc96764d202f15e629ae86b platform/x86: thinkpad_acpi: Add a s2idle resume quirk for a number of laptops
-         f964f0c9b1a5f915aec0ff70b9c3fe4a7bb8b01c platform/x86: thinkpad_acpi: Correct dual fan probe
-         16b12375e05573a35af70145db36ef438945d196 platform/x86/intel: Fix 'rmmod pmt_telemetry' panic
-         14048b90f51b65955d3bc7b6415dafdc6b881a80 platform/surface: gpe: Add support for Surface Pro 8
-         4555906fdcafa253135bd6daaa8faede61d73ee9 platform/surface: aggregator: Fix initialization order when compiling as builtin module
-         17faaacac3c92abde4019600e107c10c367d74f2 platform/x86: amd-pmc: Fix build error unused-function
-         6de4d4eca9a2d0195f802bc97b0e9aeeaff05900 platform/x86: pmc_atom: remove unused pmc_atom_write()
-         619695fab3ba18a9145000280b0d74faf2131dea platform/x86: pmc_atom: dont export pmc_atom_read - no modular users
+         99f4f87a15d027ea3d44a7a902facacce9c2ca25 Linux 5.17.6
          
+
+--===============8886228842263996866==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652080608 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1652080607-906116842898645bfdd8bcf8b9caeeee83283d16
+
+03e319530fc6d2687c2858eafbed4f01c6032620 99f4f87a15d027ea3d44a7a902facacce9c2ca25 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ4v+AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jNgP/1QYzZ5rdRvg0LUtoVnh
+4L9K7gDILaXYjSfv2bK0VDLfGGvRdyqUagYYFKw1c012RqvyEAu1NZFcOA2EraON
+DhgGo//Z+Xyms7SfYY83NlSh+swxXwPFMQ1ww44D++N/iMsXrNXlNPun0LnmlaFG
+Aflqc0Jrkv2Gy8LATovE42Eodu5f45KN+WXelDvg/n+s2welDdBhcMW2Sk0dmKJW
+YHM5Hxjt3F/gEAQgV64L2vJcrMRjVorpQX6UTfc9dMhlAJobCa1g5vr3Gsz0t23F
+QUb/JRdV2+G99wbDXFc3HaEj3UqDvqduyKF+g3NwqP8NdX8NTI0LnzydxLNtWBPh
+jKF4c+nLKimxdJotn0wDHdvnm9Egw61qti0sBdto4LTW0oTL2UiXYeAds6ngzh7/
+z58jUMn2BgZxRYOK/4QApzEDWk1bNZFrsZEJ9ipx+WPmkReO1BiOPNldW9JjzdDF
+IxhgbscCCSAhYdBYMVlf4pojyg4jKWAoYVCEMrbFOKPiXu9utnyleWrMWr/dNGf8
+lJpJhixOw51Aq61FiZMFwqaDpdyHB2xTiDKPnXXn4IheNpEQ0q76s5e8u7ZtyXHL
+5n7NEEWWSQqNMVKqrYxLAOYPslgqUoT0ECOpl9wEnJKJNP3DoTxOitHVLq6MohXl
+vxbnteLQNM4IA8IbHub3JD3T
+=hCTB
+-----END PGP SIGNATURE-----
+
+--===============8886228842263996866==--
