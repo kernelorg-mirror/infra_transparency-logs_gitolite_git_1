@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 09 May 2022 19:18:51 -0000
-Message-Id: <165212393172.12503.7369985010993064916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 09 May 2022 19:21:49 -0000
+Message-Id: <165212410990.14910.15833166392233015479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/tspinlock-v4
-    old: 50fb604f40ad3db6f12f2dc8805b3553836841a4
-    new: d128b77fb138d3f44dde1ce9ee3db45fff44a901
+  - ref: refs/heads/for-next
+    old: 5e513a63cda725a082c694e7d51ff3457efd93c0
+    new: de350a1b99b1cd07feb347338e1466db2adf726c
     log: |
-         d128b77fb138d3f44dde1ce9ee3db45fff44a901 qspinlock comment cleanups
+         5461d47faf1b726d20ed6bcebd15d336da9ba05c dm mpath: provide high-resolution timer to HST for bio-based
+         de350a1b99b1cd07feb347338e1466db2adf726c dm cache metadata: remove unnecessary variable in __dump_mapping
          
