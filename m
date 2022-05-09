@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0682897238883867541=="
+Content-Type: multipart/mixed; boundary="===============1750961518317856185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 May 2022 13:40:06 -0000
-Message-Id: <165210360615.6568.17499067303596597238@gitolite.kernel.org>
+Date: Mon, 09 May 2022 13:40:45 -0000
+Message-Id: <165210364567.6836.6860270708884430194@gitolite.kernel.org>
 
---===============0682897238883867541==
+--===============1750961518317856185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 35a7609639c49f76f13f206402cbf692c4ae3e4e
-    new: 9145554d3613299c8f9b0d17c62762cb6b0c4e41
+    old: 9145554d3613299c8f9b0d17c62762cb6b0c4e41
+    new: 77acbdc0f314b7040afcc02be267fe71161f4ac7
     log: |
-         b1c5f3085149e9643b125eb10aae0e74644d7dcc misc: rtsx: add rts5261 efuse function
-         9145554d3613299c8f9b0d17c62762cb6b0c4e41 altera-stapl: Use swap() instead of open coding it
+         f861d36e021e1ac4a0a2a1f6411d623809975d63 misc: rtsx: set NULL intfdata when probe fails
+         77acbdc0f314b7040afcc02be267fe71161f4ac7 lkdtm: cfi: Fix type width for masking PAC bits
          
 
---===============0682897238883867541==
+--===============1750961518317856185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652103603 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652103643 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1652103602-ac8bc8a66923add60364565eecf552302941af20
+nonce 1652103642-04ee903f5b57dab5117180debf539af655a84a08
 
-35a7609639c49f76f13f206402cbf692c4ae3e4e 9145554d3613299c8f9b0d17c62762cb6b0c4e41 refs/heads/char-misc-testing
+9145554d3613299c8f9b0d17c62762cb6b0c4e41 77acbdc0f314b7040afcc02be267fe71161f4ac7 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ5GbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oNkQAMFz5LEWtYAOrV7sGnh/
-hCdj4i5I8q/zjFoMrQloyQovFGiNein2c/g1RC7bvpTrHmKzucG9h2cmtEE6lNQ0
-sUXtRQSMnSwC29em+ZtSx/VHjmGMVb7qc9DCr+iNGkYCDSEpmtU9NM2FPfToK/EW
-tHoMqFgMypAzB+aKnhZxc9HXrdDE+is8l3Yrw9I+QXUDVQay/9A1cQQX4TuOD0HP
-ZtkuSGpM/+70SlqHBOiNTPox8nmEBNzOhwGXYjuF5E8hOC6T8iNuHFuyszJWOe+V
-EwK9/xw74Jf7vrclIrL12s71EtPfqhV4l1Lg2SOOBGoBbcZY/IHegkrfkww2suPZ
-jRJPCqyeO0GG9AGVY9SpZ58XIxvGICH2ApBslNg8AuXaE4dAFkzZJvUC8LUyeQbW
-nm0wpnPOtwZKbsWHEKaXRLgNj+QbHhCIAaTxPjW/4tPRAhCdASDb9sJ+ShTuiMF3
-FCByCMsoFvDBUXXkQy0MtXOM98HMajcm2O3t4/VHTsVTei2nuWTj0dByMSZYhbdS
-d0oCr15dPquBaRXmRQuRuS8Ibsd2wzbU0/BGfQDAaSyIhmXy9SETJ8aWTne3CcMT
-KV/OB6AxtFNCUoO6lQQ7ZEIBZaahjDEMqvnrCSAgaK0bR/IjfyFMf58RVZ7l+x+D
-Z2gIHYkAefZbyI919dor6krk
-=UMAn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ5GdsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2EgP/1J8xuypDCM5ToyWutB0
+kzbuCXVkIpx9fGCnng6XnjAUa5iVCYQ2SPBIDu0RURUbHWI1WOagpmkAnEmhAq4Z
+/rV6+yA+OTK3JQ0XvWZHstYiouQmnNp/GQCF9o+KkmXnJsGXbqvO0dbfOvWK31lV
+9VtF7lV9HPeeHqWjpqNXzTHSIfwA+mLIGPMnCfzGUZG0RFBZ+uX2MEJ1ivA7yNQL
+DYdyngAAoMNuGxGNioGH7DbxXgF27bDDHPvZwTKGLamKekmHT2LfgzUMM9hUjHRW
+ChcZGXnjawqZZXb21DBFwEoUqCuKVBEoLtxUblJcVWvY5dq3DFAdo/4hv4tQldU/
+0d3d1YX6VeJ+Gj7SqSJpBfqpt7eeWPmTtQJ3QBGWDeMRscKge32iwNhMTbMxe0hY
+3koVWjgmFDkpTLeZiW6gFOMnKBT/GtLyjVqI2AJmzWTATQm7/5iuxZ16rBcbHIWN
+8QXW96z3YnQcCBJtAujSqVqnT9ABkFKe9WZPMNtn3AmJLqiQv5FXQLtgbIJfr1+8
+t5tVUxz64VzP+WxW/dtglMqfwjB0Eq5Is7oatuC/rqKeRfVP+uyEiQMXBjAGLgUH
+sP7YUCzs0RzO0FPRFINnAKYFoCDrsY6Fb2zhygrCU7QO29CvPt76gBqNOfKGzPeB
+VYtQoo0Gi7hQHSb7bjWJf3GK
+=rSw6
 -----END PGP SIGNATURE-----
 
---===============0682897238883867541==--
+--===============1750961518317856185==--
