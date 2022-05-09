@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 May 2022 17:19:41 -0000
-Message-Id: <165211678185.27661.137138087855837337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 09 May 2022 17:19:48 -0000
+Message-Id: <165211678838.27760.1903449036312031209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/20220506_peter_ujfalusi_asoc_sof_sof_client_update_for_different_ipc_versions
+  - ref: refs/tags/qcom-dts-for-5.19
     old: 0000000000000000000000000000000000000000
-    new: 5889ccdd094ac32ee52851fc9eccd124897daf2b
+    new: 596acb462ca02ad9c9461d1ade74b3ad13c3c1af
