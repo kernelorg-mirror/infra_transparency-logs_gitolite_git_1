@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3299777769240495579=="
+Content-Type: multipart/mixed; boundary="===============3717653738859403252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 May 2022 14:00:51 -0000
-Message-Id: <165210485193.21244.8525716330258393185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 09 May 2022 14:07:08 -0000
+Message-Id: <165210522814.24674.13738887284799710551@gitolite.kernel.org>
 
---===============3299777769240495579==
+--===============3717653738859403252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
-    new: fe503887eed6ea528e144ec8dacfa1d47aa701ac
+  - ref: refs/heads/driver-core-next
+    old: 6370b04f24bc10c1f2056c0f12dd651ac0121a6f
+    new: bc443c31def574e3bfaed50cb493b8305ad79435
     log: |
-         fe503887eed6ea528e144ec8dacfa1d47aa701ac slimbus: qcom: Fix IRQ check in qcom_slim_probe
+         bb17d110cbf270d5247a6e261c5ad50e362d1675 rpmsg: Fix calling device_lock() on non-initialized device
+         38ea74eb8fc1b82b39e13a6527095a0036539117 rpmsg: use local 'dev' variable
+         d143b9db8069f0e2a0fa34484e806a55a0dd4855 export: fix string handling of namespace in EXPORT_SYMBOL_NS
+         c1b1352f21bcf8c0678c4d4fbfafc4f6729e1daa kernfs: Rename kernfs_put_open_node to kernfs_unlink_open_file.
+         c3d438eeb5413111889edef10cb5fcc2c0fb8bc9 arch_topology: Trace the update thermal pressure
+         bc443c31def574e3bfaed50cb493b8305ad79435 driver core: location: Check for allocations failure
          
 
---===============3299777769240495579==
+--===============3717653738859403252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652104849 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1652104849-0e304d8c39ef5873cae19fbcd07d6773bb02e72f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652105227 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1652105226-b642395ebaf6f2cbcb9fe03df7ca7923eba45eff
 
-672c0c5173427e6b3e2a9bbb7be51ceeec78093a fe503887eed6ea528e144ec8dacfa1d47aa701ac refs/heads/char-misc-linus
+6370b04f24bc10c1f2056c0f12dd651ac0121a6f bc443c31def574e3bfaed50cb493b8305ad79435 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ5HpEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RKQQAIH1HMAEbkCME6dRhcdt
-ElvcQHZ5fzIywVlShG5rOl04GfdUEMj6OxU7jN1dUFt3gCfESLxgQ+AYGcQ2cX0g
-JAScOTUdQsj4mjKwrXNhyyKBHCxG7LDK6dEmh7vPmv4vsAh5eC8mGYiXHTU6ABgq
-DrikHlBzHL4DrSm6LPIRc96ywLnIlTAjSoR/dr+0h7GvXuVEszxVRc2R1nbVgELb
-c1w9MMn6w8VJJWq7JfdCFT5DJSjvvPhRyeRZdydQ17rm1LZZjhPKNDCF0hUn0MbQ
-yyfWVuBlFTOKbvbPp2YRB53JMmrZb22DOqSF64607NFwCl2nTcVf1m76O9wp25nK
-bSMGz2jgZyBqKbyC/oYgDGdNSOrzFIy7Fo5mHfKVzT8bQ6T3QwHFiON+3ZtuTPDL
-N00aj3uNftMkmbsfz3D+nJKanxxbkP+MlHprLy5JOSUfYqMPZKfhp9dcM1sw+MzG
-IPFqb0jvdfPuzS2E41Z1bGCBlgPqwoqZL4SpwnwGXzuehBwNVm/NVvPuktW22H1U
-rBKY1ogp5Ffb29eMX3ddNLrJpq3lOSIPKEvVKUNssng3aXNixksmOfC60T89+BnA
-6YzIhH25gotKake+aO6n5DShj6H8KUq0vx45/jCoEJRwcSapAAdvUhOqz9L2s1wQ
-sTOzhM1abHRajOsMInpFiWOc
-=f19j
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ5IAsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d50QAMQWJnov947SYVvXsu+h
+n8gKIIUtxhyWa0RPSkxAr4UrruWDfrfPT6fxL6OiPOgbKYKY6/ZEHnCoBZG0jhlD
+gz52q4niOqcD3gMYDbYLapHWNclw4gTn2bDxO5hJkW5XAZaot64rf/I2at6BgL8S
+2ZSmrPdQLVF2AuusvCzE+bNHxGBFHPrxUB3BWR0CBcPMNv2bXGiwvbLl5AJ/4MG7
+26NQJUklDvJci+SPaeSXhLHnNNM5MowxfstgDRml6GJJq/Bml7R++ClvwSV2RfpT
+vzZ8fN+x/BMOm0/ik4eJWUl2NDaGVjdIAxz2KhFSHyMPWV+ejF/fCjbpTaC7WZb3
+92OQP3LbUNsqn2LD+onXHtebAk0F6xekuqOnMVuyf6ZbdrV1XxQHfiDtvPG20XeK
+LuInmIKCLt1SrNvtd/qfiKFocbC8FWic3/yezO/CviqLcvpUdTUz9OYbWf01IBIn
+dcRl1mRTfjjGhinqYhC8d9UAwqSzabtNOl28YSUfXWqBmUL4VKHI1TtHTgVGVZdS
+IGQyfr70QGY7Lz+IPZbJHtXKm6CL/TVf5w1yttNUgkHsWiBgfbTPMclymnj7wQFz
+/P7pDC3JYfy4AiMBNXCXVy5cC5uOBaur1bew5tLq6gQqdGvyl8IlOvU0+KhR9/EJ
+aNXiwqxKZ+0V4yfef/3HjFll
+=MODC
 -----END PGP SIGNATURE-----
 
---===============3299777769240495579==--
+--===============3717653738859403252==--
