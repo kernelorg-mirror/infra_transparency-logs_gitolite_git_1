@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7524406603730781757=="
+Content-Type: multipart/mixed; boundary="===============5742133763609550429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 09 May 2022 11:17:53 -0000
-Message-Id: <165209507303.11237.6942998644304542399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 09 May 2022 11:18:04 -0000
+Message-Id: <165209508466.11429.2637244893138729266@gitolite.kernel.org>
 
---===============7524406603730781757==
+--===============5742133763609550429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6da3c47264b2083006262f9c733b6597bf191d9b
-    new: 613707eb8bb07164d8b01771ef7cbfeb291b588c
-    log: revlist-6da3c47264b2-613707eb8bb0.txt
+    old: 7cb23d30fdd9955a11a9cda0e2a8a000e5e3c7c2
+    new: 1ea6febbc32b767382f8d5c884bab14cf568288c
+    log: |
+         1ea6febbc32b767382f8d5c884bab14cf568288c 5.17-stable patches
+         
 
---===============7524406603730781757==
+--===============5742133763609550429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6da3c47264b2-613707eb8bb0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ca4567f1e6f660f86fcd04f3563c0045b0d4772f rtnetlink: add extack support in fdb del handlers
-e92695e506d663bc4868ffc5bc187488a4f4d5c8 net: vxlan: Add extack support to vxlan_fdb_delete
-5dd6da25255a9d64622c693b99d7668da939a980 Merge branch 'vxlan_fdb_delete-extack'
-a7f0e4bea8eda1d286f4e99176bcb88f53aa703b net: phy: genphy_c45_baset1_an_config_aneg: do no set unknown configuration
-90532850eb210dff70423eaf20e323a91ef542d8 net: phy: introduce genphy_c45_pma_baset1_setup_master_slave()
-a04dd88f77a4036ceedd42ed1fbefa68008e1850 net: phy: genphy_c45_pma_baset1_setup_master_slave: do no set unknown configuration
-b9a366f3d874ce1c9c0148ec399f2ce4ab05a467 net: phy: introduce genphy_c45_pma_baset1_read_master_slave()
-acb8c5aec2b13dab96f0be33feb10a5b1213f113 net: phy: genphy_c45_pma_baset1_read_master_slave: read actual configuration
-2013ad8836aceb828c0fb5b16fa8bb98fd3d9b28 net: phy: export genphy_c45_baset1_read_status()
-165cd04fe25392f875ebb94188c4faa20905290d net: phy: dp83td510: Add support for the DP83TD510 Ethernet PHY
-613707eb8bb07164d8b01771ef7cbfeb291b588c Merge branch 'add-ti-dp83td510-support'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652095083 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1652095082-33ed0c455220f10fd8192e044ccc6be0ec2d1b46
 
---===============7524406603730781757==--
+7cb23d30fdd9955a11a9cda0e2a8a000e5e3c7c2 1ea6febbc32b767382f8d5c884bab14cf568288c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ4+GsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1A0P/2LVGn7ULo2Lkc5W5JFA
+uUqRJbMx7gRafA+3P225451rCLU7jFHSAPiGXEpn8phnDO05yCw1wYIQxBSBk/Mh
+p+4ZKbwKurXxAiWCaRw+CT7Qeml8mFToM+Ux2WxOkqcqwwNklxEo/+uUaQXvbq1x
++q9UxzXY5sYbtItUJTrt2TADcaLM4YcK22tMK+G5KyHo0pK1z2cfbK16Bng2ZF4i
+iFwqVipJjkdr9U2GvymS86WT3YD7pt0PN1CcB+jX+FhENIxzuJu+gQwXd+w/U8zi
+TcfynhXI9pQVAqBH+6mpvClWKAboBQqFZcIf5Fv15qQPRxw67r+nRrVQjki1fNso
+Cfzualpah4It1Ok84SbWJZ1CIYKGHNme4vnFuKXUtK3x3SCP/SfXDAf/q/nv2Hkj
+Xe5fFx9G2J1osj8U1jH08GAm5z0GJ7mCHWrYe3lLLHzTLHM5SUWqWqr/u12e5kx1
+Sw9kjaDi6zRnm760WfoN9sSlj8DZ1d0tPS16P6Fp1VNPnU7ZE8ruAnPPXKfbF7KP
++PwBYG7Tvvlyv0N7urR0/2cKhXbQCecBdPVfWNNfflvIsea5ux8VMCfAPogcu1gn
+QRR0o9sE/tk+CT7jap5+rbaLmtL0RZq2ip2UmDYZklSFMgJbAT3YDGrOuBXl+Kny
+dXwfdFLMSE9RkKHvuWH3eXOc
+=duD5
+-----END PGP SIGNATURE-----
+
+--===============5742133763609550429==--
