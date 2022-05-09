@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5023396059538305908=="
+Content-Type: multipart/mixed; boundary="===============7215042015861680498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 09 May 2022 15:17:17 -0000
-Message-Id: <165210943781.8534.7494292165612524709@gitolite.kernel.org>
+Date: Mon, 09 May 2022 15:17:24 -0000
+Message-Id: <165210944426.8608.6683570191055593260@gitolite.kernel.org>
 
---===============5023396059538305908==
+--===============7215042015861680498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 53e2cb3b2a5a9ecd42555a1c1c0d24cf1c33b4e3
-    new: 9c095bd0d4c451d31d0fd1131cc09d3b60de815d
-    log: revlist-53e2cb3b2a5a-9c095bd0d4c4.txt
+  - ref: refs/heads/dev-queue
+    old: ca10f48c89235c2b521e354ad050e7cb65f1bb46
+    new: 74e3b987a62f04907a535ad737bfc3bd665b7da8
+    log: revlist-ca10f48c8923-74e3b987a62f.txt
 
---===============5023396059538305908==
+--===============7215042015861680498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53e2cb3b2a5a-9c095bd0d4c4.txt
+Content-Disposition: attachment; filename=revlist-ca10f48c8923-74e3b987a62f.txt
 
 cfa4e7b1bcf85cde71a498d9f23aa84640598d71 batman-adv: Start new development cycle
 8864d2fcf04385cabb8c8bb159f1f2ba5790cf71 batman-adv: remove unnecessary type castings
@@ -89,5 +89,31 @@ bbed702412041c370d336f076b783bc9e5e04c21 net: hns3: remove the affinity settings
 a1aed456e3261c0096e36618db9aa61d5974ad16 net: hns3: add query vf ring and vector map relation
 443edfd6d43d59652a6062e89de680fc0c824f84 net: hns3: fix incorrect type of argument in declaration of function hclge_comm_get_rss_indir_tbl
 9c095bd0d4c451d31d0fd1131cc09d3b60de815d Merge branch 'hns3-next'
+d1d4348dcc82c332cd0a6b5bdc88340351785fe3 ice: Add support for classid based queue selection
+32f9e947ccc0820e7cc646fe06cc41914c5dba91 igc: Remove igc_set_spd_dplx method
+45b5a4c4fb5cecaad0dee9b719b2cddf46baa0b8 i40e: i40e_main: fix a missing check on list iterator
+a3a4c73c463052a0b7b4d762b17629b22fb32f22 ice: Add support for double vlan in switchdev
+ef19d820bf0c9242cbc452e0830c43936df4d73e ice: link representors to PCI device
+de8073432b5244698abad20b288317a5d394dd9c Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+41933738921665274e5b387f239c140ae1acb03a ice: Add support for vlan tpid filters in switchdev
+e81053c17fca5a9000e8d21a312565d04faa73b2 i40e: Add VF VLAN pruning
+41216849ce1c45c31127319cfcb12714eae32591 iavf: Add waiting for response from PF in set mac
+e4d4a4237d3bc7d6a87317b95a86a87e262391e3 ice: fix PTP stale Tx timestamps cleanup
+b7c59bc0cf2735d30c7de39eed508fcfa43c8707 ice: switch: dynamically add vlan headers to a dummy packets
+908b9ceaf58938b5c083424ccaa5bff8bc02eb5b ice: Fix race during aux device (un)plugging
+56eeaf4d09ea0975f307c73d4e184045d01587fc igc: Remove unused phy_type enum
+6ffbee89028ebf63bb71fa5e537ad011e3cac04c igc: Change type of the 'igc_check_downshift' method
+1631d1cdbb2ebfa599f29809af89740c98615ea9 ice: don't set VF VLAN caps in switchdev
+200aea1f818dec6055a4fc0e4f2907a00c550501 ice: remove VLAN representor specific ops
+0a06c4cc654ac8fe7c40f69c4b24457931ae2704 ice: fix crash when writing timestamp on RX rings
+ab22916a1758f67dd00b667beea15bd38f2140e7 ice: clear stale Tx queue settings before configuring
+7209fc661c3271b555e4b2c78b5c827901093955 ice: fix possible under reporting of ethtool Tx and Rx statistics
+05d228ecae09ddf895595b167133340326ed9175 ice: remove u16 arithmetic in ice_gnss
+724dcebccbc3e169c192c516b7e4d653761533a4 ice: add i2c write command
+2968d94fdb7e33fbffa04d4548ea88ccc8a521b6 ice: add write functionality for GNSS TTY
+423eff6647d31f3bf0db110413ba8ba99ef62422 i40e: Fix adding ADq filter to TC0
+0d9d82af455a35e9e0a36029bad90c36e91f2369 i40e: Fix calculating the number of queue pairs
+5b45866ca4d6c082ef5a8323a484d3e3f126786b igb: skip phy status check where unavailable
+74e3b987a62f04907a535ad737bfc3bd665b7da8 ice: Expose RSS indirection tables for queue groups via ethtool
 
---===============5023396059538305908==--
+--===============7215042015861680498==--
