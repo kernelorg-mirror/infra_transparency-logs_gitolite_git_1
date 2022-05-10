@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4712447629416447486=="
+Content-Type: multipart/mixed; boundary="===============0372475813966345351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Tue, 10 May 2022 07:27:04 -0000
-Message-Id: <165216762469.8821.17928527388878871145@gitolite.kernel.org>
+Date: Tue, 10 May 2022 07:27:19 -0000
+Message-Id: <165216763983.8965.5425335059411164808@gitolite.kernel.org>
 
---===============4712447629416447486==
+--===============0372475813966345351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,43 @@ repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
 user: jberg
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/release/core69
-    old: 6f44cd99cd3ccf077129aa349f360add8b462c42
-    new: 9bbd35d2461854f77353b776b3cb6cf2287a1027
+  - ref: refs/heads/release/core68
+    old: 4566c59708f6df1e67c03f947a213d217ac742f4
+    new: 8e94ef93aacc13841c819f91484b63de8ea87c86
     log: |
-         5f06301c932970f94f4ae93a1ce02f4785660c24 iwlwifi: mvm: rfi: disable RFI feature
-         f588209dc32a6fc9de9b54f3d27b23d6ef5db1ca [BUGFIX] mac80211: treat some SAE auth steps as final
-         ebfd239cd6e591b7accc974ec8a1959bcc02fd19 [BUGFIX] mac80211: work around iPhone 13 AP mode HE operation
-         2bd8485b3591f66d6441713e0a13ac227427158d [BUGFIX] iwlwifi: fw: init SAR GEO table only if data is present
-         b3ed7763724bbdd5cc6edd0e5ef92b44bb75eede iwlwifi: mvm: add OTP info in case of init failure
-         9bbd35d2461854f77353b776b3cb6cf2287a1027 [BUGFIX] iwlwifi: mvm: Don't fail if PPAG isn't supported
+         77d1beaa1ef872ef5ce16b61a9416da699a12f5c iwlwifi: mvm: add additional info for boot info failures
+         be0727d12a770774aaceb629667685ebd3d2d472 iwlwifi: mvm: add additional info for boot info failures
+         501d2113853cfda76372f590c1c3a5641fd04b14 iwlwifi: mvm: add OTP info in case of init failure
+         8e94ef93aacc13841c819f91484b63de8ea87c86 [BUGFIX] iwlwifi: mvm: Don't fail if PPAG isn't supported
          
 
---===============4712447629416447486==
+--===============0372475813966345351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1652167619 +0200
+pusher 7BF9099A 1652167635 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git
-nonce 1652167619-fe4e9ebffdadd8b166579ea962b18d370619b89e
+nonce 1652167635-7304c7d9cb24792e1883a4c8ad8628a750a60b5f
 
-6f44cd99cd3ccf077129aa349f360add8b462c42 9bbd35d2461854f77353b776b3cb6cf2287a1027 refs/heads/release/core69
+4566c59708f6df1e67c03f947a213d217ac742f4 8e94ef93aacc13841c819f91484b63de8ea87c86 refs/heads/release/core68
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmJ6E8MACgkQB8qZga/f
-l8Qnbg//bpyCv1jc5HELOn5sBy4F7ur3b20XxG3TRyVEMNUbWWWHo7LlLXCaE1nW
-Vf3g4pBy3zdmipf6wx6kS09RH/Sf+DSURCPi+fqUNJqLyYkcRMzkLecgIP8DKGLA
-P36ILlH4cexj/nWluaz1T0+0IyUQyls/DcY0ACCvmratqWN2k+SD8R914PPmxEzJ
-bjwLqv0FjM/RwD3+/BA9ddVyZPZDhxu13O29dDz8AXh538LdwoeNUIqBI/Xar2k8
-Scr18ntdtw1y8DS7PdViFN9WMjwuFVyMPpBnhfsntuS/SDbL+6jku2MLWCONsRAL
-G1q63jecS1JGGfE4X9uYRjnLsD/NfMyiPKUgqg6GOzByJ/F60/Ps0CVrQlbF+XlY
-N4CUylapcaCY26+KzWfOlDJE1AZD1nS070HFRGh4nTzLzA9f9CCou1pMd4ZOpVVK
-rYLqdiZqgBdnkA6fGXmDTetV01NHvYs/uCa5rLkp2lyjt4AyQ4HXF73g5DWkT1xl
-E8SgzHAGg+XKkY7c12S79ah7Q3THvtKHGg95SBklTAXAOtNB5XHOkInOMApAYjRf
-Sl1Q0o9H4ty4I3Zyfg6gSXYRA+/m09BED3d/VYRMaof2bthTBEtieLyPRZ9r8mQH
-ZO3Srb0l3i1aSCHGA2pFfFL5h3npbxGnh4ZlyGLiNKBZfT6yWmU=
-=pTrz
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmJ6E9MACgkQB8qZga/f
+l8RvfBAAjqTeOYRndOrs0Xh2wDAeQHkAEo0bWq8bluy8L7mcOUZM3aBRrpG5iWWJ
+iSQ8Zqm5XJTCDfRlQKT4ZvmgY4vKrnW382xb0hC8yJoqiq/4mAk9l8tZ8KUbQ+NA
+ddB2jdg8Kiw+CKe2ctgwhiCeiS78kY1mmMX8zD0NbvK7QncHDmLN5m175LDnxX2F
+7nH/x8hQAOVpI2gOtG306NUc90obzUz5xr89EBJfCpDKuCRUl2JRhDR8opXRLzky
+ncImF3KmsS6qxHsFW7geiiRk5DSZLsOgAUphsaK3eyArTomO5gbhhEFrVfAJa1+v
+bQFQ6XD60vDCuv9GVl2/Tfwzl9jrEa05AhXQB+141QJDA50+AUxDEqhB1j5rQjhV
+QM7twqxaN9bixEuIFZEkT4dCt+GiKe9QB9z0/bc0rN39y9ZJfo5cen7QvVUGHQom
+DWPsR1HuUbiqqPWv3V/li4ZYw6zoPWwos9RjuXW7+5UJtT/D4DS9x+xQgKIqd3fW
+3PjQMDOUNdgknnjDWBQwiwnIc3O+vAQMMBZcalHfWn4d7OtOsq1gpzXqCvqSRkc9
+p6mi9wx8y9ZQ9XS2DcFG26y9Rl8tTJNpVEXZr99xFFUO+yPVJNw5UaaXgoO7KNT+
+GCk4zUlXkh/rWFUWzGETdUUMiXSGAqMVD5y5UMdBDREB/wn8i2I=
+=Ytww
 -----END PGP SIGNATURE-----
 
---===============4712447629416447486==--
+--===============0372475813966345351==--
