@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 10 May 2022 17:28:54 -0000
-Message-Id: <165220373422.6512.15329297318228831525@gitolite.kernel.org>
+Date: Tue, 10 May 2022 17:31:11 -0000
+Message-Id: <165220387145.8834.6539761016461680308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,12 @@ repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 77fdf1301d1a1e914e49c79d3ad4ba2defd77edc
-    new: da1be81d83d4744289df74d0f7d15b197dca5323
+    old: da1be81d83d4744289df74d0f7d15b197dca5323
+    new: 82c1c90905c46b4924f4c965a435c30ed922e235
     log: |
-         a0b1b2e73d15e8401e8f7e5f7a732318d8476e8c ice: ignore protocol field in GTP offload
-         da1be81d83d4744289df74d0f7d15b197dca5323 ice: Fix PTP TX timestamp offset calculation
+         ac9e04972bff6210c6c41deb06934685ff4ea534 ixgbe: add xdp frags support to ndo_xdp_xmit
+         cf48be02e2e6bc3e68bb1a16a9660952366fbed4 i40e: add xdp frags support to ndo_xdp_xmit
+         58372163499530b05c5704a36e50f9278a35c61f e1000e: Enable GPT clock before sending message to CSME
+         9d7bd436a0aa7068cef5924c212834e2df87cfcc Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+         82c1c90905c46b4924f4c965a435c30ed922e235 ixgbe: export vf statistics
          
