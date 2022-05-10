@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Tue, 10 May 2022 04:30:06 -0000
-Message-Id: <165215700656.25339.7673328281021752938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Tue, 10 May 2022 05:41:21 -0000
+Message-Id: <165216128157.5167.3945839516054609013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/for-next
-    old: eee1071ee7df49f712dd9b6f13f7ac16649e4b13
-    new: 7269868818a4c1f2df1d5dca00bcff4f1e4f229b
+  - ref: refs/heads/mhi-next
+    old: 3388f276d70746bbdcbc0eadc4baff2f69366732
+    new: 13b9b814da2de5006795ddcff2bbaea46017429d
     log: |
-         d0749c3c95fcb48c20c4639d9cf45e8110b944b2 fpga: fix for coding style issues
-         154970f89f0603adb1c322ab1bcefc76a96d0b9a fpga: fpga-mgr: fix kernel-doc warnings
-         d73ef1ed7300a38dd91dceb2232f268093e6ab6e fpga: Use tab instead of space indentation
-         7269868818a4c1f2df1d5dca00bcff4f1e4f229b fpga: fpga-region: fix kernel-doc formatting issues
+         a96ef8b504efb2ad445dfb6d54f9488c3ddf23d2 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
+         77fc41204734042861210b9d05338c9b8360affb bus: mhi: host: pci_generic: add Telit FN990
+         13b9b814da2de5006795ddcff2bbaea46017429d bus: mhi: host: Add support for Foxconn T99W373 and T99W368
          
