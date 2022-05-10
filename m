@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4494374796978806225=="
+Content-Type: multipart/mixed; boundary="===============4814040331773389239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 May 2022 17:48:39 -0000
-Message-Id: <165220491959.20625.18427570490448904140@gitolite.kernel.org>
+Date: Tue, 10 May 2022 17:52:48 -0000
+Message-Id: <165220516866.23435.172456263690579561@gitolite.kernel.org>
 
---===============4494374796978806225==
+--===============4814040331773389239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 9eab75d45ddc9d29640fd17199880d39241eeb35
     new: ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337
     log: revlist-9eab75d45ddc-ecd17a87eb78.txt
 
---===============4494374796978806225==
+--===============4814040331773389239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ fd3040b9394c58bcedb83554bcf1a073021d6b36 net: ethernet: Add driver for Sunplus S
 a12af6f860b3537085d00dd9114b990d256efcae Merge branch 'this-is-a-patch-series-for-ethernet-driver-of-sunplus-sp7021-soc'
 ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337 x25: remove redundant pointer dev
 
---===============4494374796978806225==--
+--===============4814040331773389239==--
