@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 May 2022 22:21:41 -0000
-Message-Id: <165222130113.6248.13061210444130139803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Tue, 10 May 2022 22:52:06 -0000
+Message-Id: <165222312640.25629.13920690450204698304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: pmalani
 changes:
-  - ref: refs/heads/master
-    old: dc5306a8c0eace6c113aded2e36ae5e15fdca4d7
-    new: 12a4d677b1c34717443470c1492fe520638ef39a
+  - ref: refs/heads/for-kernelci
+    old: 647ca66a238bb661523362bde8805c45019ad88b
+    new: ecc9e81aff497d77e77430ac0ed1fa9ee1142a49
     log: |
-         12a4d677b1c34717443470c1492fe520638ef39a net: phy: micrel: Fix incorrect variable type in micrel
+         7464ff8bf2d762251b9537863db0e1caf9b0e402 platform/chrome: cros_ec_typec: Check for EC driver
+         ecc9e81aff497d77e77430ac0ed1fa9ee1142a49 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
