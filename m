@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Tue, 10 May 2022 10:48:46 -0000
-Message-Id: <165217972636.28689.94801891022594657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 10 May 2022 10:49:11 -0000
+Message-Id: <165217975159.28920.17735320665036437615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/misc-next
-    old: 41782eb393b3a3ba47f4a7fce1cbb33433c3f994
-    new: bf988d76ebcb9003a16c6b3cd5d25ca94872b93e
+  - ref: refs/heads/master
+    old: c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a
+    new: 9be9ed2612b5aedb52a2c240edb1630b6b743cb6
     log: |
-         bf988d76ebcb9003a16c6b3cd5d25ca94872b93e btrfs: do not account twice for inode ref when reserving metadata units
+         c25d7f32e3e209462cd82e6e93e66b72dbb2308f platform/x86: thinkpad_acpi: Convert btusb DMI list to quirks
+         455cd867b85b53fd3602345f9b8a8facc551adc9 platform/x86: thinkpad_acpi: Add a s2idle resume quirk for a number of laptops
+         aa2fef6f40e6ccc22e932b36898f260f0e5a021a platform/x86: thinkpad_acpi: Correct dual fan probe
+         2cdfa0c20d58da3757054797c2974c967035926a platform/x86/intel: Fix 'rmmod pmt_telemetry' panic
+         ed13d4ac57474d959c40fd05d8860e2b1607becb platform/surface: gpe: Add support for Surface Pro 8
+         44acfc22c7d055d9c4f8f0974ee28422405b971a platform/surface: aggregator: Fix initialization order when compiling as builtin module
+         9be9ed2612b5aedb52a2c240edb1630b6b743cb6 Merge tag 'platform-drivers-x86-v5.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
          
