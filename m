@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5056628215479062010=="
+Content-Type: multipart/mixed; boundary="===============7778965471559337423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 May 2022 11:13:10 -0000
-Message-Id: <165218119018.12993.7589766347971626126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 May 2022 11:13:27 -0000
+Message-Id: <165218120753.13448.2791713333278260759@gitolite.kernel.org>
 
---===============5056628215479062010==
+--===============7778965471559337423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: d491db14df2f59257812551db64a46420d27062c
-    new: 795dd8d3b883b0e7f5ceb66efe362749b0c65f7d
-    log: revlist-d491db14df2f-795dd8d3b883.txt
+  - ref: refs/heads/for-linus
+    old: aef7b18a3a198b03a6abfcd74c61bcdcd4084594
+    new: 1bdc1c1ca8e11acf8d3ec37939b5ae80adb55a36
+    log: |
+         1bdc1c1ca8e11acf8d3ec37939b5ae80adb55a36 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 812fe35aa7742f67dcd39e5df94d6023f5d4ab85
+    new: db5f79c8a32b14bb10de3c9e109954cd74950e98
+    log: revlist-812fe35aa774-db5f79c8a32b.txt
 
---===============5056628215479062010==
+--===============7778965471559337423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1652181188 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1652181187-ed414c3ae13d264e27d9da1744aaa7106a29c213
-
-d491db14df2f59257812551db64a46420d27062c 795dd8d3b883b0e7f5ceb66efe362749b0c65f7d refs/heads/asoc-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ6SMQACgkQJNaLcl1U
-h9Cp6Qf/YgL/xR0yzx5+HCOpAq/VUaIal6W2LRdOfaFJ6LhJ+zIsgsLqsR40z7+Q
-q8DdrynoBdzqBg/PEiOl5dOqHZkBXafFwaUMxACBecZbGWFq5sjj9p2Shk6T5BMj
-1QGN8vWJfjb/oGN/76OgmQ7Ll5PU8Ydpv5JJqYfJWTlnsVrufovqcWec9KRGP7vE
-WUzXkmPpcFfKCjgaNnzm4Y7R3Jsefpp3dXJ5QuhOnU8GHKFs5/ZK/FgDxl5ZsuHB
-GZhCQlNe13EX1CP66aCdjmck4v3eslaVqCZmQ2o6h6PL3tB8AaKnm38mWr8lqe8n
-g4C/XXohweUUNeHmc9xWK1ReNXQVJw==
-=jX+m
------END PGP SIGNATURE-----
-
---===============5056628215479062010==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d491db14df2f-795dd8d3b883.txt
+Content-Disposition: attachment; filename=revlist-812fe35aa774-db5f79c8a32b.txt
 
 5c832efdbf8651e2800a0169a870786bd85ee230 ASoC: soc-component: Add comment for the endianness flag
 52857c3baa0e5ddeba7b2c84e56bb71c9674e048 ASoC: atmel-pdmic: Remove endianness flag on pdmic component
@@ -90,5 +71,7 @@ ff7f9aa523d1699663cbeec4b0e69aaeab5e6bba ASoC: wcd938x: Add endianness flag in s
 96bc59d097047a8a013cb77b2a1215cc4877fa96 ASoC: wsa881x: Add endianness flag in snd_soc_component_driver
 e2d61f6255a26a09d4fe2458fa93a33a71db1024 ASoC: sdw-mockup: Add endianness flag in snd_soc_component_driver
 795dd8d3b883b0e7f5ceb66efe362749b0c65f7d Clean up usage of the endianness flag
+1bdc1c1ca8e11acf8d3ec37939b5ae80adb55a36 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+db5f79c8a32b14bb10de3c9e109954cd74950e98 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
 
---===============5056628215479062010==--
+--===============7778965471559337423==--
