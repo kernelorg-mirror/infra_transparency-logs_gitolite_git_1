@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Tue, 10 May 2022 05:41:21 -0000
-Message-Id: <165216128157.5167.3945839516054609013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 May 2022 05:54:12 -0000
+Message-Id: <165216205225.13416.8452222689985636278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/mhi-next
-    old: 3388f276d70746bbdcbc0eadc4baff2f69366732
-    new: 13b9b814da2de5006795ddcff2bbaea46017429d
-    log: |
-         a96ef8b504efb2ad445dfb6d54f9488c3ddf23d2 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
-         77fc41204734042861210b9d05338c9b8360affb bus: mhi: host: pci_generic: add Telit FN990
-         13b9b814da2de5006795ddcff2bbaea46017429d bus: mhi: host: Add support for Foxconn T99W373 and T99W368
-         
+  - ref: refs/tags/mlx5-updates-2022-05-09
+    old: 0000000000000000000000000000000000000000
+    new: 7915e80ab472a3bffd686974d13733917714dd7f
