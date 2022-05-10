@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 May 2022 07:28:59 -0000
-Message-Id: <165216773986.9638.17830741622219231547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 10 May 2022 07:37:53 -0000
+Message-Id: <165216827340.15538.3335410709825299506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 9eab75d45ddc9d29640fd17199880d39241eeb35
-    new: b3552d6a3b8bd4260a971f1f70140ed3513cc4f7
-    log: |
-         b3552d6a3b8bd4260a971f1f70140ed3513cc4f7 eth: dpaa2-mac: remove a dead-code NULL check on fwnode parent
-         
+  - ref: refs/heads/test/omap
+    old: 0000000000000000000000000000000000000000
+    new: 52b44ef8a1b1ac37010620d64f3ae0f3f95a01b6
