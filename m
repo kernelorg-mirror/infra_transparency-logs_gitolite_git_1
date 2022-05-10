@@ -1,58 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0272232815127599114=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 10 May 2022 19:52:47 -0000
-Message-Id: <165221236731.6421.4992016009783886235@gitolite.kernel.org>
-
---===============0272232815127599114==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 10 May 2022 19:53:11 -0000
+Message-Id: <165221239113.6658.10583361686479944410@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/dev
-    old: 1207c765b830fd7db226cc90cab09207c0a3dc17
-    new: 4ed212dddbdedeb04a19d8f1304cc0ec4a2f4cd2
-    log: revlist-1207c765b830-4ed212dddbde.txt
-  - ref: refs/heads/dev-test
-    old: 1207c765b830fd7db226cc90cab09207c0a3dc17
-    new: 4ed212dddbdedeb04a19d8f1304cc0ec4a2f4cd2
-    log: revlist-1207c765b830-4ed212dddbde.txt
-
---===============0272232815127599114==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1207c765b830-4ed212dddbde.txt
-
-eee0d73a646cee48f1ff518caa2701dd6b85daee erofs: refine on-disk definition comments
-2cb01d8a0623f20e621ce4a5f3856bd709fe8f7f erofs: make filesystem exportable
-02f8bf2535df66089a291c414b6e29c40f6ba498 cachefiles: extract write routine
-bea5fb3f475fe9d815586488660854a653e47eac cachefiles: notify the user daemon when looking up cookie
-68a3de7450fd96a22a323c440820f998e77e3a7e cachefiles: unbind cachefiles gracefully in on-demand mode
-e4324c504ca2fa0d2df3f943543004d5bc843a23 cachefiles: notify the user daemon when withdrawing cookie
-cb7cb03f6c1c54d2ac9c94fe78232580819f0f95 cachefiles: implement on-demand read
-e8354db626c394b1e037371d4cd369768f5e36b0 cachefiles: enable on-demand read mode
-930acbaf7e5e3faff1f02a153b4ab469b6e53322 cachefiles: add tracepoints for on-demand read mode
-f73ecf6c081e48e46fde1e15195f13995ea91871 cachefiles: document on-demand read mode
-152f2f435815a7cc8bc8bd5b928e7cac4866c1c0 erofs: make erofs_map_blocks() generally available
-b070c23eed3862126e657370221322ff2e8573c0 erofs: add fscache mode check helper
-56274b0ceb1dfa9f86d481c059a2ceac4b0b111a erofs: register fscache volume
-572680da9c79194da988d55d54d72dea6c302987 erofs: add fscache context helper functions
-20f86419a616de9e0eb00604ccff85cea4d3aaba erofs: add anonymous inode caching metadata for data blobs
-2bc215a5fbbd1003d27dbc63dbe2a0132efa6f37 erofs: add erofs_fscache_read_folios() helper
-f1606c29cba765ac24b9bac0138de4ea87758eae erofs: register fscache context for primary data blob
-d6d2b60aa0d6da85327ec9d485dac3131a718c7d erofs: register fscache context for extra data blobs
-1b6ab5558248b4c33f74d6af42c48dffa14092e5 erofs: implement fscache-based metadata read
-e1520edcca0ebf016dd4f75dab0ee2ea7b14f55b erofs: implement fscache-based data read for non-inline layout
-40b0b043aef469150f332f3f97dcccd3169f644b erofs: implement fscache-based data read for inline layout
-3584a77459a9c8c41ffbfbb05807934be27eccff erofs: implement fscache-based data readahead
-9625e9bf388d0ed03dc9f87d2268af246bde086d erofs: add 'fsid' mount option
-4ed212dddbdedeb04a19d8f1304cc0ec4a2f4cd2 erofs: change to use asynchronous io for fscache readpage/readahead
-
---===============0272232815127599114==--
+  - ref: refs/heads/testme
+    old: f17500c33b5f6ded112fda74d1897d5c7f4e55cc
+    new: 2dc773aeeb4dd7e8025e33ffb9bb2a11c46a6144
+    log: |
+         5ee32d5d3f3cdb943b01992d2ffc5093b139d023 x86/sgx: Disconnect backing page references from dirty status
+         6b566057dbd35b7b55abee2ccc71ba2df1de9646 x86/sgx: Mark PCMD page as dirty when modifying contents
+         8a22c9164ec97f602be034f83a693f6ffb59a997 x86/sgx: Obtain backing storage page with enclave mutex held
+         4926504ea074eadebb03c3d66c3cf157ff44d865 x86/sgx: Fix race between reclaimer and page fault handler
+         2dc773aeeb4dd7e8025e33ffb9bb2a11c46a6144 x86/sgx: Ensure no data in PCMD page after truncate
+         
