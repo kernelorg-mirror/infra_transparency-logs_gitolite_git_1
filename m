@@ -1,51 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2256399975836449114=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 May 2022 14:49:01 -0000
-Message-Id: <165219414171.31497.10519361488053413837@gitolite.kernel.org>
-
---===============2256399975836449114==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 May 2022 14:49:16 -0000
+Message-Id: <165219415626.31650.6488463178891290339@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.19
-    old: 184434fcd6177b76f929570348935d7c9f22d296
-    new: 0d8688298d6a43f2e187dad1e45871248123764f
+  - ref: refs/heads/for-linus
+    old: f3caa2de4b0c6915fbce6c92cb53145a602929a2
+    new: a2cf0f7dba92cd7344a44ba98849725df208c905
     log: |
-         76159e2f9a0fa29fd9fccb262687d95282985b49 spi: cadence-quadspi: Add missing blank line in cqspi_request_mmap_dma()
-         0d8688298d6a43f2e187dad1e45871248123764f spi: cadence-quadspi: remove unnecessary (void *) casts
+         a2cf0f7dba92cd7344a44ba98849725df208c905 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
          
-
---===============2256399975836449114==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1652194140 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1652194139-f522a4f21dddeb8208ecc25ef934d02d30c45114
-
-184434fcd6177b76f929570348935d7c9f22d296 0d8688298d6a43f2e187dad1e45871248123764f refs/heads/spi-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ6e1wACgkQJNaLcl1U
-h9DP6gf/RT8E50fh/7ehwT+mcKc1g4GRvk2tx4ZKpdfkWqB3Z0VZDJxVZ9cwIYfp
-dQx7CTo8eEm7DI10A3CwXNNRxv69+mA3GosKSDJjXtwzG3KcwgJZpYcxBgxvj4TQ
-rn2X/3skusGQoAvmFAE9GQnb32VjAA0OUwhQRCXlmb2L5dJ1DlBHpCv42gk5ZSGI
-xKbtZTH+9jGKMPPJ/yRyr15zhdqNO9lGxcsXEfE/RtzJfzJbA0JQB8/IdhxgXv3l
-NmeSuQn0oKJJbkPA7y3NhTsCvXNGbR4MDQaPxsGVf03cXhgybZYe36Dy4x0/TiUZ
-n0lzZgXe/HmAdfaMXw/oq/8SVaOwxg==
-=BJNX
------END PGP SIGNATURE-----
-
---===============2256399975836449114==--
+  - ref: refs/heads/for-next
+    old: 7b2728259f3d1608106c7dc84bd91f986cac139b
+    new: 7667cd1274cac487febcde7247b6e1c508ae9ece
+    log: |
+         9d62ba94266be3ddc864348a4df7e54f5562f0d5 ASoC: samsung: spdif: remove unnecessary check of mem_res
+         2cb29da3f2c29e62311eec6446be92aa5f2c1620 ASoC: SOF: ipc: introduce cont_update_posn in sof_ipc_stream_params struct
+         cb05dac1bc34ad701972503ca1a75b51ae4478ff ASoC: fsl_micfil: Add support for i.MX8MPlus
+         7b46eb1bf9534a75ff072a01e774b79e6a17cfdd ASoC: dt-bindings: fsl,micfil: Add compatible string for imx8mp
+         a2cf0f7dba92cd7344a44ba98849725df208c905 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         7667cd1274cac487febcde7247b6e1c508ae9ece Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+         
