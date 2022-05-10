@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 May 2022 05:54:12 -0000
-Message-Id: <165216205225.13416.8452222689985636278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Tue, 10 May 2022 06:08:52 -0000
+Message-Id: <165216293248.22240.9652079688321591264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/tags/mlx5-updates-2022-05-09
+  - ref: refs/tags/mhi-for-v5.19
     old: 0000000000000000000000000000000000000000
-    new: 7915e80ab472a3bffd686974d13733917714dd7f
+    new: 4151aaa6e6826ea9259c995e9cb36f0f68328a7c
