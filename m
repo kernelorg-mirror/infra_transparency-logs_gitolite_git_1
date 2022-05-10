@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Tue, 10 May 2022 08:17:33 -0000
-Message-Id: <165217065314.10757.9191241066253099826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
+Date: Tue, 10 May 2022 08:20:48 -0000
+Message-Id: <165217084892.13250.11051646945545399907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/pabeni/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 904f3acc900d08b2e0acb4c7813027bc483e69aa
-    new: ae23f746d7442909a19bd43397b567145d6e5db3
+  - ref: refs/heads/main
+    old: b3552d6a3b8bd4260a971f1f70140ed3513cc4f7
+    new: 827634531e344850106c7ac618a3acb5ac40f6e6
     log: |
-         57ce2e406fe1fa005e8fdbf20936c791252ac7bc fpga: fix for coding style issues
-         3f3f9cb67f69a45d2fa52b919c1e6bc6416b9ec7 fpga: fpga-mgr: fix kernel-doc warnings
-         baf7d27d033c7cbbdd483ce0867b27e54b702ad5 fpga: Use tab instead of space indentation
-         838a84382a9d78f306903e173bcaacd2e5178d9b fpga: fpga-region: fix kernel-doc formatting issues
-         88b3f3ff38d188e3c54603ea0244139cc55348fc fpga: dfl: check feature type before parse irq info
-         2b28c9e0fe97fa2bae2ab52540a2970c0d3bdf8d Documentation: fpga: dfl: add link address of feature id table
-         ae23f746d7442909a19bd43397b567145d6e5db3 fpga: dfl: Allow Port to be linked to FME's DFL
+         42704b26b0f1d891f6cf4ebc877dbac0d17c690d ptp: Add cycles support for virtual clocks
+         51eb7492af276b5b4d27cfa4474d40bdac7b9cf8 ptp: Request cycles for TX timestamp
+         d58809d854c9ee19e4cd41023e137e65e9dc3f94 ptp: Pass hwtstamp to ptp_convert_timestamp()
+         97dc7cd92ac67f6e05df418df1772ba4a7fbf693 ptp: Support late timestamp determination
+         fcf308e50928a9c9eca90c56f9fc6885005dafd1 ptp: Speed up vclock lookup
+         0abb62b68252b1beefd553dd80f5b4c0b456bcaf tsnep: Add free running cycle counter support
+         827634531e344850106c7ac618a3acb5ac40f6e6 Merge branch 'ptp-support-hardware-clocks-with-additional-free-running-cycle-counter'
          
