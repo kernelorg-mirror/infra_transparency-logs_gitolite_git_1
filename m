@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 May 2022 00:24:12 -0000
-Message-Id: <165214225252.19777.3124459705164583620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 10 May 2022 00:24:44 -0000
+Message-Id: <165214228477.19997.4634021756811720187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 9c095bd0d4c451d31d0fd1131cc09d3b60de815d
-    new: eef0dc7e517e72344d6d121e598866dad8c96666
+    old: 3244a2b9bb7ecf8cd98ef54a445f0118785ced62
+    new: d5b62b8d7e44fb8f819b04d466b8ca65f7b3f6bd
     log: |
-         eef0dc7e517e72344d6d121e598866dad8c96666 ROSE: Remove unused code and clean up some inconsistent indenting
+         0ed55ff04f35186af8f79c756c39187460244b1a foo
+         f25b1e596b29a803696026cc14c6037c253c8430 foo
+         e808fe7fc64617819ae1602857cc05d5a780dbf6 foo
+         d5b62b8d7e44fb8f819b04d466b8ca65f7b3f6bd foo
          
