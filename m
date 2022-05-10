@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 10 May 2022 08:20:48 -0000
-Message-Id: <165217084892.13250.11051646945545399907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 10 May 2022 08:21:02 -0000
+Message-Id: <165217086223.13385.13369327828765871772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: b3552d6a3b8bd4260a971f1f70140ed3513cc4f7
     new: 827634531e344850106c7ac618a3acb5ac40f6e6
     log: |
