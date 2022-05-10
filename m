@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 10 May 2022 14:49:27 -0000
-Message-Id: <165219416732.31794.10842701691395406129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 10 May 2022 15:06:06 -0000
+Message-Id: <165219516680.10363.15106455238359936495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: f5fcfe2bdd887d1fa1caaa6dc2c3a5ee848a7dc5
-    new: 96674ac22f966196b0866710652ee4d3c21d23d2
+  - ref: refs/heads/for-linus
+    old: 1efcdd9c1f34f5a6590bc9ac5471e562fb011386
+    new: a34ae6c0660d3b96b0055f68ef74dc9478852245
     log: |
-         76159e2f9a0fa29fd9fccb262687d95282985b49 spi: cadence-quadspi: Add missing blank line in cqspi_request_mmap_dma()
-         0d8688298d6a43f2e187dad1e45871248123764f spi: cadence-quadspi: remove unnecessary (void *) casts
-         96674ac22f966196b0866710652ee4d3c21d23d2 Merge remote-tracking branch 'spi/for-5.19' into spi-next
+         a34ae6c0660d3b96b0055f68ef74dc9478852245 ALSA: wavefront: Proper check of get_user() error
+         
+  - ref: refs/heads/master
+    old: 15f41edb34a23d3e36bc6d6c1f6abfe72957442f
+    new: 9dba236f6529b113c1f983c0a6cd0b6a13877575
+    log: |
+         a34ae6c0660d3b96b0055f68ef74dc9478852245 ALSA: wavefront: Proper check of get_user() error
+         9dba236f6529b113c1f983c0a6cd0b6a13877575 Merge branch 'for-linus'
          
