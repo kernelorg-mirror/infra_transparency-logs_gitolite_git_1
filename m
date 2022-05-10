@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Tue, 10 May 2022 18:17:35 -0000
-Message-Id: <165220665574.8267.11499197107123097006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 10 May 2022 18:21:23 -0000
+Message-Id: <165220688314.10927.3244500980156460672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: ef87501ee0fef58b6f786115a09715abf36c8938
-    new: 681304a9a57a9c2b05fcc2cc372e3d921b5ff415
+  - ref: refs/heads/master
+    old: 704874025a2ee0e0c3076ac026ac9af73a9a6c76
+    new: b6d5a9ca073a628468102be327b36948c08c0bac
     log: |
-         85330a8ab1afec5370676e7c3d753a4528f24e6f tuna: Add logging infrastructure to tuna-cmd
-         681304a9a57a9c2b05fcc2cc372e3d921b5ff415 tuna: Add cleanlogs rule to Makefile
+         b6d5a9ca073a628468102be327b36948c08c0bac foo
          
