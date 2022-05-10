@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Tue, 10 May 2022 10:05:30 -0000
-Message-Id: <165217713049.32038.14691813273557539590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
+Date: Tue, 10 May 2022 10:06:05 -0000
+Message-Id: <165217716547.32297.12142776385603775133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/pabeni/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for_next
-    old: 40c7b28ce8a9525aac95fdc7c9d86da94dcd152c
-    new: b7a2f3ef06b8fc331162e9d314fc50ff66617e72
+  - ref: refs/heads/main
+    old: a12af6f860b3537085d00dd9114b990d256efcae
+    new: ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337
     log: |
-         846a3351ddfe4a86eede4bb26a205c3f38ef84d3 writeback: Avoid skipping inode writeback
-         b7a2f3ef06b8fc331162e9d314fc50ff66617e72 Pull writeback stall fix from Jing Xia.
+         ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337 x25: remove redundant pointer dev
          
