@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 10 May 2022 17:31:11 -0000
-Message-Id: <165220387145.8834.6539761016461680308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 10 May 2022 17:41:14 -0000
+Message-Id: <165220447424.15108.13666693942905682787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev-queue
-    old: da1be81d83d4744289df74d0f7d15b197dca5323
-    new: 82c1c90905c46b4924f4c965a435c30ed922e235
+  - ref: refs/heads/master
+    old: 174efa7811659b3e3dec05b3649dc6d66c8c4628
+    new: a82ebb093fc7bdd88f8df17b2fa303d7535fa43b
     log: |
-         ac9e04972bff6210c6c41deb06934685ff4ea534 ixgbe: add xdp frags support to ndo_xdp_xmit
-         cf48be02e2e6bc3e68bb1a16a9660952366fbed4 i40e: add xdp frags support to ndo_xdp_xmit
-         58372163499530b05c5704a36e50f9278a35c61f e1000e: Enable GPT clock before sending message to CSME
-         9d7bd436a0aa7068cef5924c212834e2df87cfcc Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
-         82c1c90905c46b4924f4c965a435c30ed922e235 ixgbe: export vf statistics
+         9263dddc7b6f816fdd327eee435cc54ba51dd095 bpf: Extend batch operations for map-in-map bpf-maps
+         a82ebb093fc7bdd88f8df17b2fa303d7535fa43b selftests/bpf: Handle batch operations for map-in-map bpf-maps
          
