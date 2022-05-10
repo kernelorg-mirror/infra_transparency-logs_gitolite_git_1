@@ -1,62 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5499700826150702952=="
+Content-Type: multipart/mixed; boundary="===============1563120858938849282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 10 May 2022 16:46:01 -0000
-Message-Id: <165220116134.12121.9885348298563580315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 May 2022 16:46:12 -0000
+Message-Id: <165220117271.12289.5736052084179438196@gitolite.kernel.org>
 
---===============5499700826150702952==
+--===============1563120858938849282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master-pending
-    old: 4037d96e3f882b16b98fa2a4a9d1f298bb20310f
-    new: e07fc768e2dc215bcbedc82cbae38401fdf9f727
-    log: revlist-4037d96e3f88-e07fc768e2dc.txt
-  - ref: refs/heads/pending
-    old: 0371040f5ee5e7a7c115b50147f579e3d633da96
-    new: d62054b3b309b9c2a8a32207fe41cccf445c0ca3
-    log: |
-         0f84a156aa3b9c9889c64a31d36b533508fabcb7 ath11k: Handle keepalive during WoWLAN suspend and resume
-         3a5627b94222c3abc7e65486e2d2c0cc0a35c140 ath11k: Implement remain-on-channel support
-         355333a217541916576351446b5832fec7930566 ath11k: Don't check arvif->is_started before sending management frames
-         1d7f514577f0ccf3e5f5736247138868fb62896a ath11k: Designating channel frequency when sending management frames
-         4255a07a98cb0054947fbe5cb3d6f0b5eb87522b wil6210: remove 'freq' debugfs
-         5962f370ce416371b432325a8f98680f73a1bfdc ath11k: Reuse the available memory after firmware reload
-         25c321e8534e9efe1869b548e7912faffed1f5be ath11k: remove redundant assignment to variables vht_mcs and he_mcs
-         f20b5325be55ec322e0869b49fd2ab305ababa43 ath10k: reset pointer after memory free to avoid potential use-after-free
-         21548044686db0c98a9047e340a2b73fae1c4b26 ath10k: improve BDF search fallback strategy
-         d62054b3b309b9c2a8a32207fe41cccf445c0ca3 ath11k: update missing MU-MIMO and OFDMA stats
-         
+  - ref: refs/heads/net-next-mlx5
+    old: 5ac40b7391dc4c36b8511b2716b8da52f6f2ce91
+    new: 43eabfb28caa80a908f023a31e1d6c638d7ad4dc
+    log: revlist-5ac40b7391dc-43eabfb28caa.txt
 
---===============5499700826150702952==
+--===============1563120858938849282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4037d96e3f88-e07fc768e2dc.txt
+Content-Disposition: attachment; filename=revlist-5ac40b7391dc-43eabfb28caa.txt
 
-a96ef8b504efb2ad445dfb6d54f9488c3ddf23d2 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
-77fc41204734042861210b9d05338c9b8360affb bus: mhi: host: pci_generic: add Telit FN990
-13b9b814da2de5006795ddcff2bbaea46017429d bus: mhi: host: Add support for Foxconn T99W373 and T99W368
-0f84a156aa3b9c9889c64a31d36b533508fabcb7 ath11k: Handle keepalive during WoWLAN suspend and resume
-3a5627b94222c3abc7e65486e2d2c0cc0a35c140 ath11k: Implement remain-on-channel support
-355333a217541916576351446b5832fec7930566 ath11k: Don't check arvif->is_started before sending management frames
-1d7f514577f0ccf3e5f5736247138868fb62896a ath11k: Designating channel frequency when sending management frames
-4255a07a98cb0054947fbe5cb3d6f0b5eb87522b wil6210: remove 'freq' debugfs
-5962f370ce416371b432325a8f98680f73a1bfdc ath11k: Reuse the available memory after firmware reload
-25c321e8534e9efe1869b548e7912faffed1f5be ath11k: remove redundant assignment to variables vht_mcs and he_mcs
-cc0c4c1a04f14de7df41e05b3aef39484672c733 Merge branch 'ath-next'
-67e81bcdcc3cb191c1b693181653f1dae2492072 Merge remote-tracking branch 'mhi/mhi-next'
-14c24bc11b43da59fe41d79d3c1b29decc3d21f3 Add localversion-wireless-testing-ath
-f20b5325be55ec322e0869b49fd2ab305ababa43 ath10k: reset pointer after memory free to avoid potential use-after-free
-21548044686db0c98a9047e340a2b73fae1c4b26 ath10k: improve BDF search fallback strategy
-d62054b3b309b9c2a8a32207fe41cccf445c0ca3 ath11k: update missing MU-MIMO and OFDMA stats
-e07fc768e2dc215bcbedc82cbae38401fdf9f727 Merge branch 'pending' into master-pending
+b3552d6a3b8bd4260a971f1f70140ed3513cc4f7 eth: dpaa2-mac: remove a dead-code NULL check on fwnode parent
+42704b26b0f1d891f6cf4ebc877dbac0d17c690d ptp: Add cycles support for virtual clocks
+51eb7492af276b5b4d27cfa4474d40bdac7b9cf8 ptp: Request cycles for TX timestamp
+d58809d854c9ee19e4cd41023e137e65e9dc3f94 ptp: Pass hwtstamp to ptp_convert_timestamp()
+97dc7cd92ac67f6e05df418df1772ba4a7fbf693 ptp: Support late timestamp determination
+fcf308e50928a9c9eca90c56f9fc6885005dafd1 ptp: Speed up vclock lookup
+0abb62b68252b1beefd553dd80f5b4c0b456bcaf tsnep: Add free running cycle counter support
+827634531e344850106c7ac618a3acb5ac40f6e6 Merge branch 'ptp-support-hardware-clocks-with-additional-free-running-cycle-counter'
+0cfeca62b56abde16c6f12e30cdff46177c687e8 devicetree: bindings: net: Add bindings doc for Sunplus SP7021.
+fd3040b9394c58bcedb83554bcf1a073021d6b36 net: ethernet: Add driver for Sunplus SP7021
+a12af6f860b3537085d00dd9114b990d256efcae Merge branch 'this-is-a-patch-series-for-ethernet-driver-of-sunplus-sp7021-soc'
+ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337 x25: remove redundant pointer dev
+5ecb91f5edd37ec92329a645e2f45c080a56872b Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+3ecdbe93d38a272c1020a25087268ee7bcf29e4f Revert "net: openvswitch: remove unneeded semicolon"
+bf8c06fccf4e7768212ec8e9f47f51aa6305d299 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+43eabfb28caa80a908f023a31e1d6c638d7ad4dc net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============5499700826150702952==--
+--===============1563120858938849282==--
