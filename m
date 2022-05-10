@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4968052120617444969=="
+Content-Type: multipart/mixed; boundary="===============0979229232546288655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 May 2022 09:42:44 -0000
-Message-Id: <165217576471.15687.11181501832058869058@gitolite.kernel.org>
+Date: Tue, 10 May 2022 09:43:25 -0000
+Message-Id: <165217580570.16946.4548412493706050128@gitolite.kernel.org>
 
---===============4968052120617444969==
+--===============0979229232546288655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 22ae03c0da7f7ba25d14a850969e87fa69c8f200
-    new: cf16f831e479ee37c93bd2257b86db59dc2b5e1e
-    log: revlist-22ae03c0da7f-cf16f831e479.txt
+  - ref: refs/heads/net-mlx4
+    old: edae34a3ed9293b5077dddf9e51a3d86c95dc76a
+    new: fc54e39199928cb09f5423654f344631ac5956fb
+    log: revlist-edae34a3ed92-fc54e3919992.txt
 
---===============4968052120617444969==
+--===============0979229232546288655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22ae03c0da7f-cf16f831e479.txt
+Content-Disposition: attachment; filename=revlist-edae34a3ed92-fc54e3919992.txt
 
 a063f2fba3fa633a599253b62561051ac185fa99 batman-adv: Don't skb_split skbuffs with frag_list
 486b9eee57ddca5c9a2d59fc41153f36002e0a00 ice: Fix race during aux device (un)plugging
@@ -38,6 +38,5 @@ ee1444b5e1df4155b591d0d9b1e72853a99ea861 dim: initialize all struct fields
 d75b4c7deed1ea87161e22fda6a4c5a73dbc70ef Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 630fd4822af2374cd75c682b7665dcb367613765 net: dsa: flush switchdev workqueue on bridge join error path
 fc54e39199928cb09f5423654f344631ac5956fb Merge tag 'batadv-net-pullrequest-20220508' of git://git.open-mesh.org/linux-merge
-cf16f831e479ee37c93bd2257b86db59dc2b5e1e net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============4968052120617444969==--
+--===============0979229232546288655==--
