@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0372475813966345351=="
+Content-Type: multipart/mixed; boundary="===============1979819433504684550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Tue, 10 May 2022 07:27:19 -0000
-Message-Id: <165216763983.8965.5425335059411164808@gitolite.kernel.org>
+Date: Tue, 10 May 2022 07:28:44 -0000
+Message-Id: <165216772420.9491.6562422785717106331@gitolite.kernel.org>
 
---===============0372475813966345351==
+--===============1979819433504684550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,37 @@ repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
 user: jberg
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/release/core68
-    old: 4566c59708f6df1e67c03f947a213d217ac742f4
-    new: 8e94ef93aacc13841c819f91484b63de8ea87c86
-    log: |
-         77d1beaa1ef872ef5ce16b61a9416da699a12f5c iwlwifi: mvm: add additional info for boot info failures
-         be0727d12a770774aaceb629667685ebd3d2d472 iwlwifi: mvm: add additional info for boot info failures
-         501d2113853cfda76372f590c1c3a5641fd04b14 iwlwifi: mvm: add OTP info in case of init failure
-         8e94ef93aacc13841c819f91484b63de8ea87c86 [BUGFIX] iwlwifi: mvm: Don't fail if PPAG isn't supported
-         
+  - ref: refs/heads/release/core71
+    old: 0000000000000000000000000000000000000000
+    new: a925c37df2850668041e7280db2cd7c13b2e54ba
 
---===============0372475813966345351==
+--===============1979819433504684550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1652167635 +0200
+pusher 7BF9099A 1652167719 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi.git
-nonce 1652167635-7304c7d9cb24792e1883a4c8ad8628a750a60b5f
+nonce 1652167719-167af2d4b05627908838ee193a577d71e59d83f1
 
-4566c59708f6df1e67c03f947a213d217ac742f4 8e94ef93aacc13841c819f91484b63de8ea87c86 refs/heads/release/core68
+0000000000000000000000000000000000000000 a925c37df2850668041e7280db2cd7c13b2e54ba refs/heads/release/core71
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmJ6E9MACgkQB8qZga/f
-l8RvfBAAjqTeOYRndOrs0Xh2wDAeQHkAEo0bWq8bluy8L7mcOUZM3aBRrpG5iWWJ
-iSQ8Zqm5XJTCDfRlQKT4ZvmgY4vKrnW382xb0hC8yJoqiq/4mAk9l8tZ8KUbQ+NA
-ddB2jdg8Kiw+CKe2ctgwhiCeiS78kY1mmMX8zD0NbvK7QncHDmLN5m175LDnxX2F
-7nH/x8hQAOVpI2gOtG306NUc90obzUz5xr89EBJfCpDKuCRUl2JRhDR8opXRLzky
-ncImF3KmsS6qxHsFW7geiiRk5DSZLsOgAUphsaK3eyArTomO5gbhhEFrVfAJa1+v
-bQFQ6XD60vDCuv9GVl2/Tfwzl9jrEa05AhXQB+141QJDA50+AUxDEqhB1j5rQjhV
-QM7twqxaN9bixEuIFZEkT4dCt+GiKe9QB9z0/bc0rN39y9ZJfo5cen7QvVUGHQom
-DWPsR1HuUbiqqPWv3V/li4ZYw6zoPWwos9RjuXW7+5UJtT/D4DS9x+xQgKIqd3fW
-3PjQMDOUNdgknnjDWBQwiwnIc3O+vAQMMBZcalHfWn4d7OtOsq1gpzXqCvqSRkc9
-p6mi9wx8y9ZQ9XS2DcFG26y9Rl8tTJNpVEXZr99xFFUO+yPVJNw5UaaXgoO7KNT+
-GCk4zUlXkh/rWFUWzGETdUUMiXSGAqMVD5y5UMdBDREB/wn8i2I=
-=Ytww
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmJ6FCcACgkQB8qZga/f
+l8RSIw/9EVNT+OPHAKQ1gFFA2b4K0/Y6ITdPm0NrLI3bkb42hP0xm+vKnmBdL3Sp
+2UOE/ql14ydkGtpPEMvLAVWWQvJtLF+Kh2f9ObjursIRHOpF17CWVE10oj70YSFJ
+pCXh8j4y46AekOlN/UY1+GLp9VmKkeQlgcv713MCntgHAjrWRuiOAXNjoRD1Ou2V
+NMh/sW5ONVKa/K2NVUmFI+gk+tYMACrjLYlOlSaEql98bI0sByfr31CwGCXyMEA5
+MVg84Tt+QL8dvWa86pm4CsZu2dKD9w6VUBWKFJ8XT6Hy3bhHur8gcHmaLqXk5KU6
+bxlEzH2v+IITZxlUb9r+Emj9z2IsuBQ2f+9ajKy/xCmqfGSj01z2z43NDMe7i8Td
+UQzRbDGgTSCp85ftBkZUtR+Rdw/fi2HL7vuk8FWdgWDp2dvDl1dGJlqMi336s4hZ
+QN9CIoNUKPVmcVyCDZC25nLHzYzxKxRKLoZhHIPXL5SP9xVffajtrmLWGFy2w4rx
+Pe+/a9z4D/Z9WidiMKZjkwbupEqCWxzj5C+Ss1I3u2h1ADiiDFdhQxwNkvwfWA7X
+032CHEMwIpj/llSS0aWsQyUeAbfzB/L+5OdMRjY6EmL3JqzjO1Q3yimDNfsSW+SJ
+DhGthzk7yeYMoAqhTJ+jL6Va/hKwsPI/slozt+7yNW7yg768zZ8=
+=0b5p
 -----END PGP SIGNATURE-----
 
---===============0372475813966345351==--
+--===============1979819433504684550==--
