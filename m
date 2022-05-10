@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 May 2022 22:19:33 -0000
-Message-Id: <165222117369.4089.4136133652416404392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 May 2022 22:21:41 -0000
+Message-Id: <165222130113.6248.13061210444130139803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337
-    new: 61004d1d4badb5ba31d57d49003c17cfcdfed027
+    old: dc5306a8c0eace6c113aded2e36ae5e15fdca4d7
+    new: 12a4d677b1c34717443470c1492fe520638ef39a
     log: |
-         61004d1d4badb5ba31d57d49003c17cfcdfed027 nfp: flower: fix 'variable 'flow6' set but not used'
+         12a4d677b1c34717443470c1492fe520638ef39a net: phy: micrel: Fix incorrect variable type in micrel
          
