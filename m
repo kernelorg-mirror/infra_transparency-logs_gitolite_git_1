@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 May 2022 23:16:23 -0000
-Message-Id: <165231098353.26414.16330131226532108690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 11 May 2022 23:17:02 -0000
+Message-Id: <165231102270.26698.6807388571410169849@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 11ecf3412bdc583defd9c79584dd64ff82aa796d
-    new: d7722973a1923c9af6372f5bd7ee75439e68c882
-    log: |
-         1900e30d0ef74755213811cc23079b1be51298fe net: macb: simplify/cleanup NAPI reschedule checking
-         138badbc21a0113ce783270c426210d6451da5d1 net: macb: use NAPI for TX completion path
-         d7722973a1923c9af6372f5bd7ee75439e68c882 Merge branch 'macb-napi-improvements'
-         
+  - ref: refs/tags/v5.19-rockchip-drivers1
+    old: 0000000000000000000000000000000000000000
+    new: ae4fccde08cfb82a04cbbae37eed2d04ee394cc4
