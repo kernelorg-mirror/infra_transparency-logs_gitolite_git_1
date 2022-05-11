@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0679934196474708476=="
+Content-Type: multipart/mixed; boundary="===============8124045981115804520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 11 May 2022 16:37:01 -0000
-Message-Id: <165228702105.22529.14304070571660462142@gitolite.kernel.org>
+Date: Wed, 11 May 2022 16:38:02 -0000
+Message-Id: <165228708215.22936.18310067658540590468@gitolite.kernel.org>
 
---===============0679934196474708476==
+--===============8124045981115804520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,101 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/iomap-for-next
-    old: ebb7fb1557b1d03b906b668aa2164b51e6b7d19a
-    new: d74999c8c060dfeaf9977b91baa3c795fc183a84
-    log: revlist-ebb7fb1557b1-d74999c8c060.txt
-  - ref: refs/heads/iomap-5.19-merge
-    old: 0000000000000000000000000000000000000000
-    new: d74999c8c060dfeaf9977b91baa3c795fc183a84
-  - ref: refs/tags/iomap-5.19-merge-1
-    old: 0000000000000000000000000000000000000000
-    new: bce4808915989d803d86db03bf682d5b80d697b0
+  - ref: refs/heads/whatamess
+    old: f17c8e4605db8ab58a927f4e96ed361d826a9192
+    new: 6186d469deabf8ce66935784be6a177f42a9aeaa
+    log: revlist-f17c8e4605db-6186d469deab.txt
 
---===============0679934196474708476==
+--===============8124045981115804520==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ebb7fb1557b1-d74999c8c060.txt
+Content-Disposition: attachment; filename=revlist-f17c8e4605db-6186d469deab.txt
 
-c538dc792ff7e456d777f585fdf96aa4e781ed66 KVM: SVM: Do not activate AVIC for SEV-enabled guest
-42dcbe7d8bac997eef4c379e61d9121a15ed4e36 KVM: x86: hyper-v: Avoid writing to TSC page without an active vCPU
-a9f17d0c0778dd971dc9770fa0a2085a41d8c5e4 phy: ti: tusb1210: Fix an error handling path in tusb1210_probe()
-6f83ab22adcb77a5824d2c274dace0d99e21319f io_uring: io_kiocb_update_pos() should not touch file for non -1 offset
-2804ecd8d3e3730b4f999cc1ff4b2441e1f4d513 io_uring: move apoll->events cache
-82733d168cbd3fe9dab603f05894316b99008924 io_uring: stop using io_wq_work as an fd placeholder
-5ad7f18cd82cee8e773d40cc7a1465a526f2615c net: macb: Restart tx only if queue pointer is lagging
-868e6139c5212e7d9de8332806aacfeafb349320 block: move lower_48_bits() to block
-b1871fd48efc567650dbdc974e5a2342a03fe0d2 net/smc: use memcpy instead of snprintf to avoid out of bounds read
-d22f4f977236f97e01255a80bca2ea93a8094fc8 net/smc: Fix NULL pointer dereference in smc_pnet_find_ib()
-49b7d376abe54a49e8bd5e64824032b7c97c62d4 net/smc: Fix af_ops of child socket pointing to released memory
-d6d9fc1d37f9bb911ba7013d7628a03bb4cb2561 Merge branch 'net-smc-fixes-2022-04-08'
-65745da171e685b47725bfee138580ad8bf09d8f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-390d645877ffd6dcb55f162d618045b2779217b3 drm/msm/gpu: Avoid -Wunused-function with !CONFIG_PM_SLEEP
-f19fe8f354a6e7c2b9588f83af4876e34f0ce83e Revert "scsi: scsi_debug: Address races following module load"
-294080eacf92a0781e6d43663448a55001ec8c64 scsi: pm80xx: Mask and unmask upper interrupt vectors 32-63
-bcd8a45223470e00b5f254018174d64a75db4bbe scsi: pm80xx: Enable upper inbound, outbound queues
-c34f95e98d8fb750eefd4f3fe58b4f8b5e89253b scsi: iscsi: Move iscsi_ep_disconnect()
-cbd2283aaf47fef4ded4b29124b1ef3beb515f3a scsi: iscsi: Fix offload conn cleanup when iscsid restarts
-3c6ae371b8a1ffba1fc415989fd581ebf841ed0a scsi: iscsi: Release endpoint ID when its freed
-0aadafb5c34403a7cced1a8d61877048dc059f70 scsi: iscsi: Fix endpoint reuse regression
-7c6e99c18167ed89729bf167ccb4a7e3ab3115ba scsi: iscsi: Fix conn cleanup and stop race during iscsid restart
-03690d81974535f228e892a14f0d2d44404fe555 scsi: iscsi: Fix unbound endpoint error handling
-5bd856256f8c03e329f8ff36d8c8efcb111fe6df scsi: iscsi: Merge suspend fields
-44ac97109e42f87b1a34954704b81b6c8eca80c4 scsi: iscsi: Fix NOP handling during conn recovery
-857b06527f707f5df634b854898a191b5c1d0272 scsi: qedi: Fix failed disconnect handling
-70a3baeec4e89736be932a60d682d7ae27556f5c scsi: iscsi: MAINTAINERS: Add Mike Christie as co-maintainer
-8467dda0c26583547731e7f3ea73fc3856bae3bf sctp: Initialize daddr on peeled off socket
-eb9c0d671e9432901b8a453e7915416f22f7f919 net: lan966x: Update lan966x_ptp_get_nominal_value
-6476f90aefaf119c47ceccde52327464e813fe26 net: lan966x: Fix IGMP snooping when frames have vlan tag
-d7a947d289dc205fc717c004dcebe33b15305afd net: lan966x: Fix when a port's upper is changed.
-269219321eb7d7645a3122cf40a420c5dc655eb9 net: lan966x: Stop processing the MAC entry is port is wrong.
-ad8064a7f1a67c3e47b37ffcb66abb12c931daa4 Merge branch 'net-lan966x-lan966x-fixes'
-7281a59ce3a584ed7379bbdcd06a2008c47c3e5c Merge tag 'platform-drivers-x86-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-c40b65304c361432b841bdbd5b1c8dfa918d6baa video: fbdev: sh_mobile_lcdcfb: Remove sh_mobile_lcdc_check_var() declaration
-6c6f9f31ecd47dce1d0dafca4bec8805f9bc97cd netfilter: nf_tables: nft_parse_register can return a negative value
-fee2b871d8d6389c9b4bdf9346a99ccc1c98c9b8 ALSA: core: Add snd_card_free_on_error() helper
-313c7e57035125cb7533b53ddd0bc7aa562b433c ALSA: echoaudio: Fix the missing snd_card_free() call at probe error
-0f83e6b4161617014017a694888dd8743f46f071 ARM: OMAP2+: Fix refcount leak in omap_gic_of_init
-a12315d6d27093392b6c634e1d35a59f1d1f7a59 bus: ti-sysc: Make omap3 gpt12 quirk handling SoC specific
-8d2453d9a307c2eafd21242dd73f35f05fb7ce74 ARM: dts: dra7: Fix suspend warning for vpe powerdomain
-30de14b1884ba609fc1acfba5b40309e3a6ccefe s390: current_stack_pointer shouldn't be a function
-c68c63429319a923a3f23db64810ba608f5d20f7 s390: enable CONFIG_HARDENED_USERCOPY in debug_defconfig
-545b2baac89b859180e51215468c05d85ea8465a dmaengine: mediatek:Fix PM usage reference leak of mtk_uart_apdma_alloc_chan_resources
-8fc5133d6d4da65cad6b73152fc714ad3d7f91c1 dmaengine: dw-edma: Fix unaligned 64bit access
-290c4a902b79246ec55e477fc313f27f98393dee RDMA/rxe: Fix "Replace mr by rkey in responder resources"
-0f8da75b51ac863b9435368bd50691718cc454b0 io_uring: fix assign file locking issue
-10b1881a97be240126891cb384bd3bc1869f52d8 ALSA: galaxy: Fix the missing snd_card_free() call at probe error
-d72458071150b802940204950d0d462ea3c913b1 ALSA: sc6000: Fix the missing snd_card_free() call at probe error
-a8e84a5da18e6d786540aa4ceb6f969d5f1a441d ALSA: ad1889: Fix the missing snd_card_free() call at probe error
-19401a9441236cfbbbeb1bef4ef4c8668db45dfc ALSA: ali5451: Fix the missing snd_card_free() call at probe error
-d616a0246da88d811f9f4c3aa83003c05efd3af0 ALSA: als4000: Fix the missing snd_card_free() call at probe error
-48e8adde8d1c586c799dab123fc1ebc8b8db620f ALSA: atiixp: Fix the missing snd_card_free() call at probe error
-b093de145bc8769c6e9207947afad9efe102f4f6 ALSA: au88x0: Fix the missing snd_card_free() call at probe error
-49fe36e1c02cb06f66689c888e4e767c31cd259d ALSA: azt3328: Fix the missing snd_card_free() call at probe error
-c79442cc5a38e46597bc647128c8f1de62d80020 ALSA: ca0106: Fix the missing snd_card_free() call at probe error
-9bf5ed9a4e623583f15202d99f4521bc39050f61 ALSA: cs4281: Fix the missing snd_card_free() call at probe error
-2a56314798e0227cf51e3d1d184a419dc07bc173 ALSA: cs5535audio: Fix the missing snd_card_free() call at probe error
-f37019b6bfe2e13cc536af0e6a42ed62005392ae ALSA: emu10k1x: Fix the missing snd_card_free() call at probe error
-c2dc46932d117a1505f589ad1db3095aa6789058 ALSA: ens137x: Fix the missing snd_card_free() call at probe error
-bc22628591e5913e67edb3c2a89b97849e30a8f8 ALSA: es1938: Fix the missing snd_card_free() call at probe error
-de9a01bc95a9e5e36d0659521bb04579053d8566 ALSA: es1968: Fix the missing snd_card_free() call at probe error
-7f611274a3d1657a67b3fa8cd0cec1dee00e02b4 ALSA: fm801: Fix the missing snd_card_free() call at probe error
-4a850a0079ce601c0c4016f4edb7d618e811ed7d ALSA: ice1724: Fix the missing snd_card_free() call at probe error
-71b21f5f8970a87f034138454ebeff0608d24875 ALSA: intel8x0: Fix the missing snd_card_free() call at probe error
-c01b723a56ce18ae66ff18c5803942badc15fbcd ALSA: korg1212: Fix the missing snd_card_free() call at probe error
-ae86bf5c2a8d81418eadf1c31dd9253b609e3093 ALSA: maestro3: Fix the missing snd_card_free() call at probe error
-348f08de55b149e41a05111d1a713c4484e5a426 ALSA: riptide: Fix the missing snd_card_free() call at probe error
-55d2d046b23b9bcb907f6b3e38e52113d55085eb ALSA: rme32: Fix the missing snd_card_free() call at probe error
-93b884f8d82f08c7af542703a724cc23cd2d5bfc ALSA: rme96: Fix the missing snd_card_free() call at probe error
-b087a381d7386ec95803222d0d9b1ac499550713 ALSA: sonicvibes: Fix the missing snd_card_free() call at probe error
-27a0963f9cea5be3c68281f07fe82cdf712ef333 ALSA: via82xx: Fix the missing snd_card_free() call at probe error
-5e154dfb4f9995096aa6d342df75040ae802c17e ALSA: intel_hdmi: Fix the missing snd_card_free() call at probe error
-2236a3243ff8291e97c70097dd11a0fdb8904380 ALSA: sis7019: Fix the missing error handling
-f0438155273f057fec9818bc9d1b782ba35cf6a1 ALSA: bt87x: Fix the missing snd_card_free() call at probe error
-d04e84b9817c652002f0ee9b42059d41493e9118 ALSA: lola: Fix the missing snd_card_free() call at probe error
-ab8bce9da6102c575c473c053672547589bc4c59 ALSA: als300: Fix the missing snd_card_free() call at probe error
-bf4067e8a19eae67c45659a956c361d59251ba57 ALSA: aw2: Fix the missing snd_card_free() call at probe error
 a59396b1c11823c69c31621198c04def17f3a869 ALSA: cmipci: Fix the missing snd_card_free() call at probe error
 60797a21dd8360a99ba797f8ca587087c07bb54c ALSA: lx6464es: Fix the missing snd_card_free() call at probe error
 6ebc16e206aa82ddb0450c907865c55bcb7c0f43 ALSA: oxygen: Fix the missing snd_card_free() call at probe error
@@ -141,6 +57,11 @@ c186f0887fe7061a35cebef024550ec33ef8fbd8 ext4: fix use-after-free in ext4_search
 2da376228a2427501feb9d15815a45dbdbdd753e ext4: limit length to bitmap_maxbytes - blocksize in punch_hole
 7102ffe4c166ca0f5e35137e9f9de83768c2d27d ext4, doc: fix incorrect h_reserved size
 925ca893b4a65177394581737b95d03fea2660f2 ALSA: memalloc: Add fallback SG-buffer allocations for x86
+83a21c18441f75aec64548692b52d34582b98a6a xfs: Directory's data fork extent counter can never overflow
+4f86bb4b66c999ad9ddcfd49fec93992eeba2715 xfs: Conditionally upgrade existing inodes to use large extent counters
+5b35d922c5279804be87cab60e4810403038488b xfs: Decouple XFS_IBULK flags from XFS_IWALK flags
+c3c4ecb529c5a1f0590cffb70649d407ee79b8a8 xfs: Enable bulkstat ioctl to support 64-bit per-inode extent counters
+973ac0eb3a7dfedecd385bd2b48b12e62a0492f2 xfs: Add XFS_SB_FEAT_INCOMPAT_NREXT64 to the list of supported flags
 24d0c9f0e7de95fe3e3e0067cbea1cd5d413244b ALSA: usb-audio: Limit max buffer and period sizes per time
 e64d5fa5044f225ac87d96a7e4be11389999c4c6 bus: mhi: host: pci_generic: Add missing poweroff() PM callback
 c38f83bae4037023827c85e045841d0421f85034 bus: mhi: host: pci_generic: Flush recovery worker during freeze
@@ -462,14 +383,51 @@ f31076a6b2391896088fa81755a892213f07788e xen: Convert kmap() to kmap_local_page(
 b9b3fe152e4966cf8562630de67aa49e2f9c9222 xfs: convert buffer flags to unsigned.
 d65a92de4383e54b920ba11f333032b0ea5e4174 MAINTAINERS: update IOMAP FILESYSTEM LIBRARY and XFS FILESYSTEM
 9a5280b312e2e7898b6397b2ca3cfd03f67d7be1 xfs: reorder iunlink remove operation in xfs_ifree
+2d9ac4319b9959bf3195fedf88bdfd224c67593b xfs: simplify local variable assignment in file write code
 87950929e2ff2236207bdbe14bff8230558b541b pinctrl: mediatek: moore: Fix build error
 694852ead287a3433126e7ebda397b242dc99624 zonefs: Clear inode information flags on inode creation
 1da18a296f5ba4f99429e62a7cf4fdbefa598902 zonefs: Fix management of open zones
+735fbf67df56f402e9baa079a5560ebe8fa049c1 xfs: factor out the CIL transaction header building
+6eaed95e21a0872692246e63cb45542d0f62c922 xfs: only CIL pushes require a start record
+ffa04c1f2cb047d6a44c3570bfb6e1ca5ba7f489 xfs: embed the xlog_op_header in the unmount record
+54021b624261fe5b429d7ab4d081c3b2cca153a8 xfs: embed the xlog_op_header in the commit record
+c7610dceed39d978ef1ee0f2ab5a3c8d2d54d120 xfs: log tickets don't need log client id
+3c352bef8335a8d9d8f14bc0bd533df023280a72 xfs: move log iovec alignment to preparation function
+8d547cf9d2392585204075243f29022a619550f2 xfs: reserve space and initialise xlog_op_header in item formatting
+c5141320c42b08b99b7c4b250ac9675d7c7ed3a7 xfs: log ticket region debug is largely useless
+d80fc2914f9125a723d9af7038b1592fa8d1ea96 xfs: pass lv chain length into xlog_write()
+decb545fc081a1f03d4216831afb82482e8b6342 xfs: change the type of ic_datap
+db357078b0423e0a86a633780cbca3f01c54885d xfs: introduce xlog_write_full()
+ad3e3693182bb990484b187b33c7f9735bb549be xfs: introduce xlog_write_partial()
+1236bbe86bb83165ff6ba68ce19d81713340f597 xfs: remove xlog_verify_dest_ptr
+be8ddda5f7e01229729a3e00e9971cc2b8a9ec10 xfs: xlog_write() no longer needs contwr state
+14b07ecd5cd2545fcee3ff29119405f7cf2f59ad xfs: xlog_write() doesn't need optype anymore
+593e34391faafd72102bd79c43994f32e9dd0c91 xfs: CIL context doesn't need to count iovecs
+a4d98629c93fdb312641dfc336a9bda56358ef72 xfs: convert attr type flags to unsigned.
+79539c7c761ac6d00abd50d5f1e4390f5dc9af18 xfs: convert scrub type flags to unsigned.
+0e5b8e45229bc2680f4b10505da338f1ca15a6d2 xfs: convert bmap extent type flags to unsigned.
+e7d410ac336856cdae934e14b9c2c749ca5a32ea xfs: convert bmapi flags to unsigned.
+f53dde11b405e7c655997513822c90ac9761efdb xfs: convert AGF log flags to unsigned.
+0d1b97696696871dc42dfc59d527a0b68b1a1209 xfs: convert AGI log flags to unsigned.
+722db70fb2f03ef9ff21cd5194e9f592701e1be6 xfs: convert btree buffer log flags to unsigned.
+581b4484475c14cf606cdc9d6cdecc98f7ab1be4 xfs: convert buffer log item flags to unsigned.
+3402d931575f1fb0c6863eaad6595f55e6389eda xfs: convert da btree operations flags to unsigned.
+1005dd019c88f556f85cb3632df4d2c702ae95cd xfs: convert dquot flags to unsigned.
+22d53f480c56e34316d2e5f3757ba1839d47008b xfs: convert log item tracepoint flags to unsigned.
+a103375307ade71f3394889310ba37abb23c1c21 xfs: convert inode lock flags to unsigned.
+90215d74987159fdd7a6d800256ba1d2a9b0dca8 xfs: convert ptag flags to unsigned.
+b9f3082eee5a77d5000742859532ba4ff584354f xfs: convert quota options flags to unsigned.
+2eb7550d2c0dd7c383839018991dfa602790dc77 xfs: convert shutdown reasons to unsigned.
+c60d13ea657f69a0f90c7ba131c16e0a25598488 xfs: convert log ticket and iclog flags to unsigned.
 298799a28264ce400d9ff95c51b7adcb123d866e drm/vmwgfx: Fix gem refcounting and memory evictions
+1499b8a3a37baf5a78ee8044e9a8fa0471268d74 Merge branch 'guilt/5.19-miscellaneous' into xfs-5.19-for-next
 41f10081a92a0ed280008218a8ec18ad8ba0fceb cifs: fix NULL ptr dereference in refresh_mounts()
 cd70a3e8988a999c42d307d2616a5e7b6a33c7c8 cifs: use correct lock type in cifs_reconnect()
 f5d0f921ea362636e4a2efb7c38d1ead373a8700 cifs: destage any unwritten data to the server before calling copychunk_write
 d2b9be1f4af5cabed1ee5bb341f887f64b1c1669 powerpc/time: Always set decrementer in timer_interrupt()
+898a768f54bf3c910392eb7987b47ebddc28e444 Merge branch 'guilt/xfs-unsigned-flags-5.18' into xfs-5.19-for-next
+463260d7670566c357dfa2c38bc3124c98b646bc Merge branch 'guilt/xlog-write-rework' into xfs-5.19-for-next
+a44a027a8b2a20fec30e0e9c99b0eb41c03e7420 Merge tag 'large-extent-counters-v9' of https://github.com/chandanr/linux into xfs-5.19-for-next
 ac875df4d854ab13d9c4af682a1837a1214fecec pinctrl: samsung: fix missing GPIOLIB on ARM64 Exynos config
 26a62b750a4e6364b0393562f66759b1494c3a01 KVM: PPC: Fix TCE handling for VFIO
 3d0b93d92a2790337aa9d18cb332d02356a24126 drm/vc4: Use pm_runtime_resume_and_get to fix pm_runtime_get_sync() usage
@@ -714,6 +672,9 @@ c3e8d5a40685aed49d736a24f4d2b9e7607771f0 Merge branch 'net-smc-two-fixes-for-smc
 6fbe0cc53a1b5f7abe2c44399c18e943adbebe2f video: fbdev: clps711x-fb: Use syscon_regmap_lookup_by_phandle
 a91b05f6b928e8fab750fc953d7df0aa6dc43547 Merge tag 'sunxi-clk-fixes-for-5.18-2' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
 00c94ebec5925593c0377b941289224469e72ac7 NFSv4: Don't invalidate inode attributes on delegation return
+1a3385069745f10c4ca7278a25499d79934c703a xfs: improve __xfs_set_acl
+f650df7171b882dca737ddbbeb414100b31f16af xfs: fix soft lockup via spinning in filestream ag selection loop
+bc37e4fb5cac2925b2e286b1f1d4fc2b519f7d92 xfs: revert "xfs: actually bump warning counts when we send warnings"
 19317433057dc1f2ca9a975e4e6b547282c2a5ef tty: n_gsm: fix sometimes uninitialized warning in gsm_dlci_modem_output()
 e4e6448638a01905faeda9bf96aa9df7c8ef463c cpufreq: qcom-cpufreq-hw: Clear dcvs interrupts
 4ae4dd2e26fdfebf0b8c6af6c325383eadfefdb4 drm/i915: Fix SEL_FETCH_PLANE_*(PIPE_B+) register addresses
@@ -772,6 +733,9 @@ eb2fd9b43fae0c51982ac4229535b6cfd77380db platform/x86/intel: pmc/core: change pm
 211ed5480aff457ac1a9e333e68522ef4a0c6ce9 Merge tag 'zonefs-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 ad8d869343ae4a07a2038a4ca923f699308c8323 kernfs: fix NULL dereferencing in kernfs_remove
 c7d2f89fea26c84d5accc55d9976dd7e5305e63a bus: fsl-mc-msi: Fix MSI descriptor mutex lock for msi_first_desc()
+c46eef34830e51ae7fe4b8371837c586448c3078 xfs: capture buffer ops in the xfs_buf tracepoints
+5b7ca8b313621907d80460bfcc1fa876d2a38488 xfs: simplify xfs_rmap_lookup_le call sites
+75d893d19c8e1b4bf4a9acd613fe5e7a80b58974 xfs: speed up rmap lookups by using non-overlapped lookups when possible
 e5be15767e7e284351853cbaba80cde8620341fb hex2bin: make the function hex_to_bin constant-time
 e4d8a29997731b3bb14059024b24df9f784288d0 hex2bin: fix access beyond string end
 0f03610b20ccf72c7bd8cf297c1666a430f6992e Merge tag 'cpufreq-arm-fixes-5.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -828,6 +792,16 @@ f049efc7f7cd2f3c419f55040928eaefb13b3636 ixgbe: ensure IPsec VF<->PF compatibili
 aeaf59b78712c7a1827c76f086acff4f586e072f Revert "ibmvnic: Add ethtool private flag for driver-defined queue limits"
 4a2316a1eda4ef3ced18c7f08f7cb3726bcae44b Merge tag 'gfs2-v5.18-rc4-fix2' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 c26d0d988edddcd8c19ba59b5bc93a0cabcb6cc7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+1edf8056131aca6fe7f98873da8297e6fa279d8c xfs: speed up write operations by using non-overlapped lookups when possible
+c47260d4ea2ac11ce607d6ac1e0ca5528f42f482 xfs: count EFIs when deciding to ask for a continuation of a refcount update
+4ed6435cc369cce722966983f6e07b872562276f xfs: stop artificially limiting the length of bunmap calls
+f1e6a8d72806d2d57560b4873d8aa42c420384ee xfs: remove a __xfs_bunmapi call from reflink
+52d8ea4f2406c14d632a0e7f816bbb18d8c3e9ed xfs: create shadow transaction reservations for computing minimum log size
+918247ce541995dba05391cf14d6061cf0844866 xfs: report "max_resp" used for min log size computation
+4ecf9e7c69edcb8f5b98df471dd026419b881d2b xfs: reduce the absurdly large log operation count
+b037c4eed2df4568a7702cd512d26625962f95b9 xfs: reduce transaction reservations with reflink
+df2fd88f8ac77f75a603d9fa5015225cc6c30edb xfs: rewrite xfs_reflink_end_cow to use intents
+6ed7e509d2304519f4f6741670f512a55e9e80fe xfs: rename xfs_*alloc*_log_count to _block_count
 d9157f6806d1499e173770df1f1b234763de5c79 tcp: fix F-RTO may not work correctly when receiving DSACK
 fd5a4c7d26fa49d0468459b9c453841ff59dc322 Merge tag 'regulator-fix-v5.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 259b897e5a7958e06d1ac30ddd28dc8419e8f328 Merge tag 'platform-drivers-x86-v5.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
@@ -941,6 +915,25 @@ ef8e4d3c2ab1f47f63b6c7e578266b7e5cc9cd1b Merge tag 'hwmon-for-v5.18-rc6' of git:
 2b156fb57d8f0d28f2207edc646751f4717cf20d bnxt_en: Initiallize bp->ptp_lock first before using it
 195af57914d15229186658ed26dab24b9ada4122 bnxt_en: Fix unnecessary dropping of RX packets
 0a806ecc4023fcf393fcc1093f4a532813ca4124 Merge branch 'bnxt_en-bug-fixes'
+cb512c921639613ce03f87e62c5e93ed9fe8c84d xfs: zero inode fork buffer at allocation
+c230a4a85bcdbfc1a7415deec6caf04e8fca1301 xfs: fix potential log item leak
+b2c28035cea290edbcec697504e5b7a4b1e023e7 xfs: hide log iovec alignment constraints
+5ddd658ea878f8dbae5ec33dba6cfdabb5056916 xfs: don't commit the first deferred transaction without intents
+f5b81200b6c166f78b73b3e2ca3e8f0c34c9daaf xfs: add log item flags to indicate intents
+bb7b1c9c5dd3d24db3f296e365570fd50c8ca80c xfs: tag transactions that contain intent done items
+22b1afc57e42da13f840d630ad484d4d99504839 xfs: factor and move some code in xfs_log_cil.c
+c23ab603e3d6557bd15e672fdbcbba4b28d08921 xfs: add log item method to return related intents
+3512fc1e84c3ab58fa08466c2f75ae973fc472d1 xfs: whiteouts release intents that are not in the AIL
+0d227466be84332d1888724e1e74dac34bff6d71 xfs: intent item whiteouts
+dc04db2aa7c9307e740d6d0e173085301c173b1a xfs: detect self referencing btree sibling pointers
+1eb70f54c445fcbb25817841e774adb3d912f3e8 xfs: validate inode fork size against fork format
+dd0d2f9755191690541b09e6385d0f8cd8bc9d8f xfs: set XFS_FEAT_NLINK correctly
+f0f5f658065a5af09126ec892e4c383540a1c77f xfs: validate v5 feature fields
+9cf4f6160c20bbdb53f20a773d48ab6dfa3b49e3 Merge branch 'guilt/xfs-5.19-misc-2' into xfs-5.19-for-next
+5e116e99dc94c84650a94aaf51d0c5bca3702352 Merge branch 'guilt/xlog-intent-whiteouts' into xfs-5.19-for-next
+956f1b8f80b5d34394950269fcf7286122b9a3a9 Merge tag 'rmap-speedups-5.19_2022-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.19-for-next
+166afc45ed5523298541fd0297f9ad585cc2708c Merge tag 'reflink-speedups-5.19_2022-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.19-for-next
+86810a9ebd9e69498524c57a83f1271ade56ded8 Merge branch 'guilt/xfs-5.19-fuzz-fixes' into xfs-5.19-for-next
 cb0d54cbf94866b48a73e10a73a55655f808cc7c net/mlx5e: Fix wrong source vport matching on tunnel rule
 7ba2d9d8de96696c1451fee1b01da11f45bdc2b9 net/mlx5: Fix slab-out-of-bounds while reading resource dump menu
 ada09af92e621ab500dd80a16d1d0299a18a1180 net/mlx5e: Don't match double-vlan packets if cvlan is not set
@@ -1056,5 +1049,6 @@ f002488d80b557c7dc540457b176011449895fcb Merge tag 'for-5.18/parisc-3' of git://
 c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a Linux 5.18-rc6
 b71450e2cc4b3c79f33c5bd276d152af9bd54f79 iomap: iomap_write_failed fix
 d74999c8c060dfeaf9977b91baa3c795fc183a84 iomap: iomap_write_end cleanup
+6186d469deabf8ce66935784be6a177f42a9aeaa Merged korg/for-next at Wed May 11 09:37:47 PDT 2022.
 
---===============0679934196474708476==--
+--===============8124045981115804520==--
