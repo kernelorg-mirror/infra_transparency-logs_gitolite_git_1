@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Wed, 11 May 2022 13:20:01 -0000
-Message-Id: <165227520161.27736.6788950211601717820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 11 May 2022 13:30:18 -0000
+Message-Id: <165227581856.2647.10365663489708845473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 20c59ac5d71e766235e74f353b74e60facd733c8
-    new: 33872ff1642bc3176a4cd4d07ce33e64c15961fd
+  - ref: refs/heads/jd/openrisc
+    old: e93cb50553cc6245b2b1e9ac3d94dad3cf0be558
+    new: a23f005006016120c550c530437f48dd591d688d
     log: |
-         0803bf3aa57cc93d9748dd85f126cc2c828b9182 habanalabs: update firmware header
-         034ed90ab9c38f8aaea027a2654c7ffcbff2db89 habanalabs: use NULL for eventfd
-         33872ff1642bc3176a4cd4d07ce33e64c15961fd habanalabs: return -EFAULT on copy_to_user error
+         a23f005006016120c550c530437f48dd591d688d wireguard: selftests: support OpenRISC
          
