@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 11 May 2022 19:23:13 -0000
-Message-Id: <165229699325.3285.4239754163331180035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 11 May 2022 19:37:45 -0000
+Message-Id: <165229786567.12353.3360233470982463833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 36ef0e8924b80e4fb9266943293787c741c891b3
-    new: cb68dd6d63e20332c38c597b9593320c9b7209d1
+  - ref: refs/heads/locking/core
+    old: dc1f7893a70fe403983bd8492f177bf993940e2c
+    new: 434e09e7575b02e014931bc5672289fabd7a825c
     log: |
-         6e9e894adaa5f13d145642dd3bd71991b01fc326 hwmon: Introduce hwmon_device_register_for_thermal
-         108fbccba32403d609ca3273db0fadf8d9d3abff thermal/drivers/thermal_hwmon: Use hwmon_device_register_for_thermal()
-         cb68dd6d63e20332c38c597b9593320c9b7209d1 hwmon: Make chip parameter for with_info API mandatory
+         deaf7c4b4bf8b802cc465bb9b33fe6c76e812924 lockdep: Delete local_irq_enable_in_hardirq()
+         434e09e7575b02e014931bc5672289fabd7a825c locking/qrwlock: Change "queue rwlock" to "queued rwlock"
          
