@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Wed, 11 May 2022 19:51:18 -0000
-Message-Id: <165229867824.22605.8600478604044623786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 11 May 2022 19:58:59 -0000
+Message-Id: <165229913928.26457.6657967854191056031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/ptrace_stop-cleanup-for-v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 31cae1eaae4fd65095ad6a3659db467bc3c2599e
+  - ref: refs/heads/master
+    old: 998e1869de1b10caec6ec940632ff271036926f5
+    new: fd0ad6f1d10c01796904608aacd6e70d6f624305
+    log: |
+         fd0ad6f1d10c01796904608aacd6e70d6f624305 selftests/bpf: fix a few clang compilation errors
+         
