@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9195891319850090022=="
+Content-Type: multipart/mixed; boundary="===============6105198296610228769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 11 May 2022 02:37:09 -0000
-Message-Id: <165223662926.15302.4716237497506179654@gitolite.kernel.org>
+Date: Wed, 11 May 2022 02:37:20 -0000
+Message-Id: <165223664096.15443.12222414012202389531@gitolite.kernel.org>
 
---===============9195891319850090022==
+--===============6105198296610228769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: d156a4fedd46630ecd9af2a20f3c9784740125ca
-    new: edb5faa7dcb86b960ab9b16f6739f55111154773
-    log: revlist-d156a4fedd46-edb5faa7dcb8.txt
+  - ref: refs/heads/5.19/scsi-staging
+    old: f304d35e59958ea4be399f78e5be08d4a0c4db75
+    new: 0873fe44e780eb8ff7932aed347de8dd4103cea7
+    log: revlist-f304d35e5995-0873fe44e780.txt
 
---===============9195891319850090022==
+--===============6105198296610228769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1652236620 -0400
+pusher 75C5DE3D 1652236632 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1652236619-b27d7452750040b7990fa34b144db73574d91b9e
+nonce 1652236632-90acdb63781759f5626a0fb1463d37c5672ad288
 
-d156a4fedd46630ecd9af2a20f3c9784740125ca edb5faa7dcb86b960ab9b16f6739f55111154773 refs/tags/mkp-scsi-staging
+f304d35e59958ea4be399f78e5be08d4a0c4db75 0873fe44e780eb8ff7932aed347de8dd4103cea7 refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJ7IUwACgkQ7ulgGnXF
-3j0+BhAAnEr0tGhg+Kdyvlts/gxaNxNUweOE+vPDopfQ1ej2FcOUm86bWEZ2s9Rb
-AQO/sNfb1DjCfv3YQQnw+6+02Zu+JG2vOkUZmOfM0kNyZ04dalO12tzCUBKyrwpb
-uWGZIsFTUoWcW0qm5PbYQg2YjOdhieu8QlyF5OiiK2jslZxd1zZB8XPXZSlH2eIp
-3gYGh7SmHtdF8DIrzKtainVWg9LP2aPwlb7FuW1OkwIGVnZzAUnA9McV8/MSxaGT
-AXtgp1yJrpyb11QVSD6d1YTAJcoeSHBrIS+BpjVXEeEsL0wgaG+MG1TeEWU7R9zL
-BNyG8/ElbwqJpbn4fa9asskw7I416C/bnIcME8j8DVtNX8V4ensT/M5xa9fHO99s
-2sUBRQ0VWiDBUA3FOQ2+r9/sTAtTXGB0MHKbTg1OheUMJZXqE7IIU27dhtTXUZmd
-Bh7cG+4x0BAhSSvVwe3g67v1hIhd1UFbMfa0jnpj5Ak4/G9xqpejlTlTSfUbbecO
-a2Aec1DyRInroRXVFFIzirUAUO8FJL4YRql/XmGOgoz5SkENN6J1uE8xCQ63PCEt
-yDzi2Z2PcAOU/SQujJhYp9MxX+myuB6TG4RGZJS/yGIcZEoXGlOU5sVGqpLbdrg4
-jv+pGQ7tmZFpNqerWqg3uIT2s1EtTbjWidxBvnl5mwRe5YAJXsQ=
-=hzkh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJ7IVgACgkQ7ulgGnXF
+3j3soA/+OsbIVt/xLsUG4cZW1chkB9p1xKfS1MKnO+r32fu5pVqrfbgEYbCX6vnA
+G4zIsfA993m/A9KUibtmCopa0gYYktdxfVVsGd3cn6DcV7LHvFv+zLo6a3Jp9hXS
+b1LVbDwb7e41gjcUQzvU6W4JB5M54OidF9Nxgb6z0BWQcyoHMvHrzMjSpsNjtM0U
+vrcojY2YjyAqnh6B94lW6sjfbVE7BxCLnqHKZ8QRYRYIgYY19aakIuwFCDV8MMZE
+EyHmcczTZu3OXHBZ8FbFgMXJXBJhmml2O0u/KWuDVjIMMaZfj0nYzAilrk4l+X+p
+ObIq/zMCapo9hUKX5e3rIWoDiqVtTcaXeWNDnhV9GuM9KpVDdKj3w/XAqxJR4I7q
+p6sPRciSO4d+5VxElMRTTfmMhAN+ovrQAJNri3SZ4+Wk0XK7CeQ0SxE1gXgjN3JE
+Qv9DsQrIwmOY3Q2jk89MMJCpYj/N/ym/Y7ipFlCMnVP8WDSJ34TEmBJUn48X8sTr
+MEeePng3L7S9a1FhKbQkEB+KdUbnKUUQIEskRu+VRZhRQP7V9X65g51XoZSL3UP0
+BhFd5pFbdJKn317N0gPet7uYo10QcHVckAN4/zdLEA5ms5zSmEmK2wZfBnZzBKFr
+sRqYDCUkblwXbOFtBisnmLYsj4oLfRLT0cXEZPksPRA+r9jMjS0=
+=6Lud
 -----END PGP SIGNATURE-----
 
---===============9195891319850090022==
+--===============6105198296610228769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d156a4fedd46-edb5faa7dcb8.txt
+Content-Disposition: attachment; filename=revlist-f304d35e5995-0873fe44e780.txt
 
 9b5387fe5af38116b452259d87cd66594b6277c1 scsi: hisi_sas: Undo RPM resume for failed notify phy event for v3 HW
 223b17ed76ebecba54f7857cd1a3205050d6257b scsi: ufs: qcom: Fix acquiring the optional reset control line
@@ -87,4 +87,4 @@ fcb9e738667c874cbff0b240b96a895901f09ee0 scsi: lpfc: Update lpfc version to 14.2
 be36d683fc29e74bbd29347717be72beb6a74219 scsi: target: iscsi: Rename iscsi_conn to iscsit_conn
 0873fe44e780eb8ff7932aed347de8dd4103cea7 scsi: target: iscsi: Rename iscsi_session to iscsit_session
 
---===============9195891319850090022==--
+--===============6105198296610228769==--
