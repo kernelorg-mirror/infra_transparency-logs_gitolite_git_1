@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 11 May 2022 21:35:59 -0000
-Message-Id: <165230495973.24910.13022852977334528329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 11 May 2022 21:41:09 -0000
+Message-Id: <165230526973.28032.8979393174809686401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 42e9b8db92d5d8725e9a1bfd93a5c6a257186776
-    new: 4423d63a9634e62cb41d1b1b53cf360edd927f98
+  - ref: refs/heads/fixes
+    old: 26f9ce53817a8fd84b69a73473a7de852a24c897
+    new: 7752662071053adcdb6b6e7853834205dd60e1c0
     log: |
-         4423d63a9634e62cb41d1b1b53cf360edd927f98 device: Fix pairing has failed due to the error of Already Paired (0x13)
+         cc28fac16ab7152168be8bee76708df9d65efd71 scsi: lpfc: Fix split code for FLOGI on FCoE
+         7752662071053adcdb6b6e7853834205dd60e1c0 scsi: lpfc: Correct BDE DMA address assignment for GEN_REQ_WQE
          
