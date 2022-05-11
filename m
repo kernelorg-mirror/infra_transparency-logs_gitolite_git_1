@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Wed, 11 May 2022 15:12:12 -0000
-Message-Id: <165228193245.31203.1786483836234252011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 11 May 2022 15:13:06 -0000
+Message-Id: <165228198689.31848.4865205675743960760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/pci/dwc
-    old: bc49681c96360e0ff9c6659e352eec3286b968ce
-    new: e8aae154df6121167e5b4f156cfc2402e651d2b1
+  - ref: refs/heads/review-hans
+    old: 619695fab3ba18a9145000280b0d74faf2131dea
+    new: ae6e1d73ceffc61cb97343dd4fa61c74a3c75682
     log: |
-         931262e646caae906d818c82390ebc1716263ff0 dt-bindings: PCI: Remove fallback from Rockchip DesignWare binding
-         431e7d2eece5b906578926d15ee22a70504c364d PCI: rockchip-dwc: Reset core at driver probe
-         e8aae154df6121167e5b4f156cfc2402e651d2b1 PCI: rockchip-dwc: Add legacy interrupt support
+         abcebcd39fe094b68826cc04f2eca835606697f9 platform_data/mlxreg: Add field for notification callback
+         9e267f050444fa018c9a06b0cc07effac084b920 platform/mellanox: Add support for new SN2201 system
+         ae6e1d73ceffc61cb97343dd4fa61c74a3c75682 Documentation/ABI: Add new attributes for mlxreg-io sysfs interfaces
          
