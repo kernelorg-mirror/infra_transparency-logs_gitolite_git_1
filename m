@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 11 May 2022 13:01:51 -0000
-Message-Id: <165227411129.15271.16817406427247379291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Wed, 11 May 2022 13:04:09 -0000
+Message-Id: <165227424970.16064.4545074592921781165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/lto-cleanup-v4
-    old: 49bcf0f27028f44a13a4266100936af3d8b236b9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pci/microchip
+    old: c049b4b37685ff5b179a7e062b919c31eb406214
+    new: 30097efa334a706f9021b9aee6efcddcfa44a78a
+    log: |
+         30097efa334a706f9021b9aee6efcddcfa44a78a PCI: microchip: Add missing chained_irq_enter()/exit() calls
+         
