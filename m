@@ -1,36 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 11 May 2022 17:50:03 -0000
-Message-Id: <165229140339.7021.1979254687846379942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 11 May 2022 17:52:14 -0000
+Message-Id: <165229153458.7780.17569215188135705125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/for-5.19/io_uring
-    old: 7ccba24d3bc084d891def1a6fea504e4cb327a8c
-    new: 83549c0e2c481cc1565ed9ede1b108a3b1a34cfb
+  - ref: refs/heads/hyperv-next
+    old: acf1608d2c94bf19ff4e5a4a34f88c5ba929b745
+    new: a2bad844a67b1c7740bda63e87453baf63c3a7f7
     log: |
-         fb5c6a7ed6e2b4248025e288fcaae107b16aa9e0 io_uring: track fixed files with a bitmap
-         c18a56320ad39d72a5d8033a5e8126b437cf63bc io_uring: add basic fixed file allocator
-         08cf52bc6eb44e72c3bc507d0d8bcf1b50270aa0 io_uring: allow allocated fixed files for openat/openat2
-         bd3bc9e99a916c26a5eb872fa1b938f19120a60f io_uring: allow allocated fixed files for accept
-         5dd977985f24052b6288e14d75dac4600ee69e0c io_uring: bump max direct descriptor count to 1M
-         83549c0e2c481cc1565ed9ede1b108a3b1a34cfb io_uring: add flag for allocating a fully sparse direct descriptor space
-         
-  - ref: refs/heads/for-next
-    old: f78fcbca85f51245589d7cd538a9f884eac6d4e5
-    new: 883a0bd2fde4456cd912aade5ebc46f0a4a77ae1
-    log: |
-         fb5c6a7ed6e2b4248025e288fcaae107b16aa9e0 io_uring: track fixed files with a bitmap
-         c18a56320ad39d72a5d8033a5e8126b437cf63bc io_uring: add basic fixed file allocator
-         08cf52bc6eb44e72c3bc507d0d8bcf1b50270aa0 io_uring: allow allocated fixed files for openat/openat2
-         bd3bc9e99a916c26a5eb872fa1b938f19120a60f io_uring: allow allocated fixed files for accept
-         5dd977985f24052b6288e14d75dac4600ee69e0c io_uring: bump max direct descriptor count to 1M
-         83549c0e2c481cc1565ed9ede1b108a3b1a34cfb io_uring: add flag for allocating a fully sparse direct descriptor space
-         883a0bd2fde4456cd912aade5ebc46f0a4a77ae1 Merge branch 'for-5.19/io_uring' into for-next
+         a6b94c6b49198266eaf78095a632df7245ef5196 Drivers: hv: vmbus: Remove support for Hyper-V 2008 and Hyper-V 2008R2/Win7
+         106b98a5181c1a5831f1fe31d33d17dd1f0e7ae1 scsi: storvsc: Remove support for Hyper-V 2008 and 2008R2/Win7
+         b0cce4f6fe6633546bbe5ca04f965f76948e2f34 video: hyperv_fb: Remove support for Hyper-V 2008 and 2008R2/Win7
+         ac6811a9b36f3ceb549d8b84bd8aeedf6026df02 drm/hyperv: Remove support for Hyper-V 2008 and 2008R2/Win7
+         b4b77778ecc5bfbd4e77de1b2fd5c1dd3c655f1f PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
+         a2bad844a67b1c7740bda63e87453baf63c3a7f7 PCI: hv: Fix interrupt mapping for multi-MSI
          
