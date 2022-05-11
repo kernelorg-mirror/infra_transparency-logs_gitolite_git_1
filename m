@@ -1,41 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6648574256138654217=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 11 May 2022 12:40:26 -0000
-Message-Id: <165227282653.764.860417296664834411@gitolite.kernel.org>
-
---===============6648574256138654217==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 11 May 2022 12:44:01 -0000
+Message-Id: <165227304145.3271.16572980929521503817@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 0be0b70df6611205ac392d0e21f7e077f3230ee6
-    new: 608a0b46bc7c421bb07dc36c0598a5163cdc06f1
-    log: revlist-0be0b70df661-608a0b46bc7c.txt
-
---===============6648574256138654217==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0be0b70df661-608a0b46bc7c.txt
-
-6c846d026d490b2383d395bc8e7b06336219667b gpio: Don't fiddle with irqchips marked as immutable
-704f08753b6dcd0e08c1953af0b2c7f3fac87111 gpio: Expose the gpiochip_irq_re[ql]res helpers
-36b78aae4bfee749bbde73be570796bfd0f56bec gpio: Add helpers to ease the transition towards immutable irq_chip
-bba00555ede79ad8a743da908f708466f6bac0f8 gpio: tegra186: Make the irqchip immutable
-15d8c14ac849f41f2d41dbddb69f402aaf73ff8b gpio: pl061: Make the irqchip immutable
-374b87a0fcf9fa5dd1379271337ae19f95682956 pinctrl: apple-gpio: Make the irqchip immutable
-14dbe186b9d42cbf662eae5a4da14687edbf0edb pinctrl: msmgpio: Make the irqchip immutable
-6173e56f76c712aac9d45208ccec7a065382911f pinctrl: amd: Make the irqchip immutable
-afefc3266272d40cdcd0fd713c7b42008fea19d5 gpio: Update TODO to mention immutable irq_chip structures
-5644b66a9c63c3cadc6ba85faf5a15604e6cf29a Documentation: Update the recommended pattern for GPIO irqchips
-608a0b46bc7c421bb07dc36c0598a5163cdc06f1 Merge branch 'irq/gpio-immutable' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into intel/pinctrl
-
---===============6648574256138654217==--
+  - ref: refs/heads/rdma-next
+    old: beab6bf5ef6617960e301c8503ce3644831b4dc0
+    new: 833ef9ae65e2ef1f867d80933becd7f62c170f09
+    log: |
+         833ef9ae65e2ef1f867d80933becd7f62c170f09 RDMA/mlx5: Add a umr recovery flow
+         
+  - ref: refs/heads/testing/rdma-next
+    old: 943b37b303cc11ca077f95bf2996d3dc20568eba
+    new: 8812b8e22380560071ad1dd43a5325a0d2533924
+    log: |
+         833ef9ae65e2ef1f867d80933becd7f62c170f09 RDMA/mlx5: Add a umr recovery flow
+         9c6ae8a3d21712ce5c47d88caacbc0b7ad1fcac8 Merge branch 'rdma-next' into testing/rdma-next
+         8812b8e22380560071ad1dd43a5325a0d2533924 Merge branch 'xfrm-next' into testing/rdma-next
+         
+  - ref: refs/tags/mlx-next
+    old: 08d709d5e1242340e10dd8d0a789b5cea508ccf5
+    new: 4703b4f0d94a5f887297713a2f6c2916a1ef08fd
+    log: |
+         1a7085b34291a266a0413795c27061eb707104f7 RDMA/rxe: Skip adjusting remote addr for write in retry operation
+         0b1fbfb9e9058e6eae6564cdb4ed0003d766445c RDMA/rxe: Remove IB_SRQ_INIT_MASK
+         b2a41678fc21fd39b11f5aca0a8c999f8efcb1a8 RDMA/rxe: Add rxe_srq_cleanup()
+         4e05a4b329e9416e5aded022feacde4385148f21 RDMA/rxe: Check rxe_get() return value
+         ed2b5dd0f895f80c30e28de63ce607c2f139318e RDMA/rxe: Move qp cleanup code to rxe_qp_do_cleanup()
+         cf40367961d8e8af084f4333e6554205c62c7946 RDMA/rxe: Move mr cleanup code to rxe_mr_cleanup()
+         cde3f5d682279340a75b6ae90944b1c6bd3ae0d8 RDMA/rxe: Move mw cleanup code to rxe_mw_cleanup()
+         4703b4f0d94a5f887297713a2f6c2916a1ef08fd RDMA/rxe: Enforce IBA C11-17
+         
