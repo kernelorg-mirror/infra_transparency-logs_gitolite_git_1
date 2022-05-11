@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 May 2022 01:33:02 -0000
-Message-Id: <165223278258.5681.4528238081734856329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 11 May 2022 01:48:14 -0000
+Message-Id: <165223369466.16142.17323737254307201481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: bca56ea6849fafcbc7d50b2338bd06385474a370
-    new: 4c0c6e4cf775653d597ba3ce48c5a137d5849443
+    old: 11493b312ab93fb9c7633db5bd24017286d9879f
+    new: ce32afff5422475afdc627e142233c5f891f57fd
     log: |
-         be76955dea93fe7ee9e0a6f961a7185290a2417f net: fix kdoc on __dev_queue_xmit()
-         ddccc9ef55992716ad477d38fbcd9f8f1d34fc67 skbuff: add a basic intro doc
-         9ec7ea1462084df695f34c5ac2d2d2250d9d6897 skbuff: rewrite the doc for data-only skbs
-         9facd94114b59afebd405e74b3bc2bf184efe986 skbuff: render the checksum comment to documentation
-         4c0c6e4cf775653d597ba3ce48c5a137d5849443 Merge branch 'docs-document-some-aspects-of-struct-sk_buff'
+         965123d2e70594672b21ad9c00b7fef9e159341d random: do not use input pool from hard IRQs
+         9d32a08c7526615a045d7014cb9888d966a6c67e random: help compiler out with fast_mix() by using simpler arguments
+         9b19ab07066dc8d4fdeba74de994e643f05327b3 siphash: use one source of truth for siphash permutations
+         15189bc705fe1cd56798dc841869d9ba7490bc1a random: use symbolic constants for crng_init states
+         c45f1d2597666a567d7bbd2e2819a16811818e50 random: avoid init'ing twice in credit race
+         98b751b5f119413963d32b2c3d188c992fc5480d random: move initialization out of reseeding hot path
+         dc1cbc035b55014960d2bd08fe9f74e5f1866f33 random: remove ratelimiting for in-kernel unseeded randomness
+         ce32afff5422475afdc627e142233c5f891f57fd random: use proper jiffies comparison macro
          
