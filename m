@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 May 2022 12:18:48 -0000
-Message-Id: <165227152860.18426.14012220550530426535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 11 May 2022 12:18:56 -0000
+Message-Id: <165227153601.18568.15134510551858170060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: e508af8abbf9ced64f644755f2ddd509c935173f
-    new: 01f4685797a5723b0046da03c30185ac9ff42b30
+  - ref: refs/heads/for-next
+    old: 5eefe17c7ae41bac4d2d281669e8357a10f4d5a4
+    new: b63b3c490eeeedd324e194929bd0aa8ba553f875
     log: |
-         03dcb90dbf62fd0bb6152bb59b1d70c8e4ad1c87 net: appletalk: remove Apple/Farallon LocalTalk PC support
-         01f4685797a5723b0046da03c30185ac9ff42b30 eth: amd: remove NI6510 support (ni65)
+         b63b3c490eeeedd324e194929bd0aa8ba553f875 libbpf: Add bpf_program__set_insns function
          
