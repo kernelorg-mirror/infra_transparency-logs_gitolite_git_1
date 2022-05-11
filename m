@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3140958481615327100=="
+Content-Type: multipart/mixed; boundary="===============0151746300133495191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 11 May 2022 02:36:32 -0000
-Message-Id: <165223659290.14916.18156617690280110737@gitolite.kernel.org>
+Date: Wed, 11 May 2022 02:36:44 -0000
+Message-Id: <165223660456.15044.13778195234420951205@gitolite.kernel.org>
 
---===============3140958481615327100==
+--===============0151746300133495191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 3b5300111bea8b7d166fd74f670754a58bf891f4
-    new: 1cc957b17130793abee2cd3111ead6fc81e3c54f
+  - ref: refs/heads/5.19/scsi-queue
+    old: ebc95c790653508ad7e031cfb9de5d0fa39135e2
+    new: f304d35e59958ea4be399f78e5be08d4a0c4db75
     log: |
          4268fa7513655a83d5492705591fdac6c65db48a scsi: mpi3mr: Add bsg device support
          f5e6d5a343761081317c89d23489c93fbafc69ff scsi: mpi3mr: Add support for driver commands
@@ -30,33 +30,33 @@ changes:
          f304d35e59958ea4be399f78e5be08d4a0c4db75 scsi: mpi3mr: Update driver version to 8.0.0.69.0
          
 
---===============3140958481615327100==
+--===============0151746300133495191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1652236584 -0400
+pusher 75C5DE3D 1652236596 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1652236584-d32c020b5a623b0cc593c03030c7349235768e9c
+nonce 1652236595-6635bf4986852b40f272b5c344228d085e03a383
 
-3b5300111bea8b7d166fd74f670754a58bf891f4 1cc957b17130793abee2cd3111ead6fc81e3c54f refs/tags/mkp-scsi-queue
+ebc95c790653508ad7e031cfb9de5d0fa39135e2 f304d35e59958ea4be399f78e5be08d4a0c4db75 refs/heads/5.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJ7ISgACgkQ7ulgGnXF
-3j3K+g//arOxNIlCUr4eK3hht/lP7qtPDTVr/waPYkblLt2iOzRp1rCk2kUEbF0B
-/0Q127SADuAsQXs7/o103n5EJ9F3JsfA3heMvSIKAplKJjUv9vtFGUCGuS1lHw4K
-ONN2KZZUkQERfWDb2pFqys0Ga5optzbM6PdUhrJBhHAknuAjMZc337m9A5ar1wwy
-Pk7ldlY6U4ijOfRkDo8WxMVJ6A9Pqw2UKfOkwUwENlqU4+y1zQyCrdGrzj7ljU+8
-QDeSnoBAV7V+rEnG/EK4qM5bkTCsUjLRDSU+Bto3lKtjr6YL+NC6uXExZZ/9TjYf
-7qI7b24u4jWYhl5QqTN5WInlwrD88HVt6RRR5LRmmUyz1U1ZkfGITPjRN0Ou2RvT
-Dk6Ui/EncFB4DI5LugM8muP1lTO+4GXepdY4dxtlaK0Xv27YGQwjfWN9BMFHNgxm
-zLbg6g0RZ/CIHh734IJBiLWEQAXvj2dlOo7Dcm1zuhjmkAaTHdBHSnCZ5NDCHm5x
-kc8X7KNkzzq3tE863lqVO7YClaX3seQQ4mjcwj++s4XdBQlUdahQiWW6f0yU7GZc
-VMIhKXzPUfvKT0wLYI5mg5iBv5hoSrtZIi0+nrYx859rvi12ljvA96bmMfm70/7u
-z72FQVsSDC2/lbgLJBn3ceZug+40zyuzB6/Cn6085ec4ZeEwIm8=
-=aPXf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJ7ITQACgkQ7ulgGnXF
+3j1FhQ/9FzBapkB1Yg+W63nmXxZRJ5gfrl0JsEaKfnFXNN4U55cWM/25BaLbafQC
+5MicKYuoSYDDkWsT6+yqUv8K5zmDslh5pRWuQ/eo5dnxdis1/ak9QiLXvW1bms0M
+RE86EiVc1lr3d6ng4Y6GAmHpj/fBa57pP6rd7A9IBESHVbooV5DOvs20i8n/iTSd
+/Q/PvLGKWxtfABmX8DWelbXeBq52PUO/MJBx3junx/2i7YiryHli9p3/YfpU0zKz
+X1iWbftX7qH/xjjPZCXq7C9n0WYRnUoTDyMMLdMPhZm4q3K/o9EW4FUjwDNmy5SD
+sWPzd9NygdT3CnMqz120T9lYKjRVbbhnAn212E0gFk+DQFxXtMRHYS63+ASdPLMl
+JCkxoRIC7wFCkrKw+uEV8ZnJs89NkPdbb4zO16DdD21s27J6l6nE88dhKzIAmcx8
+LHlPhgTbztZHnMQfvFKQfuY/FhFKX/pXGCqWCNoeDqVkyfZ2VEmdRUTV3tkcbzKP
+zwXZJIZY1QCRGnNwM5RJG7JHbukpKQwIvYAN8yoBClRBNNB7ME+Aif+mwLer2Xqk
+q66ekrLgGKYY0udWMdsrZ8HnO/GNooMVGwK/9CS9RUB6VZlm3ZmxqwwRTXw5duwA
+L23CHMBH2EOi6CnAbtl616+BM3Le91Gw2F2wrAGNEwp1Ebxo0o8=
+=UVGF
 -----END PGP SIGNATURE-----
 
---===============3140958481615327100==--
+--===============0151746300133495191==--
