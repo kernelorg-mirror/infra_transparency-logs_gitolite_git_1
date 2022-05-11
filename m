@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 11 May 2022 18:00:04 -0000
-Message-Id: <165229200411.13456.18229389954919796202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Wed, 11 May 2022 18:09:51 -0000
+Message-Id: <165229259105.17990.12710831305532546787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/dm-5.19
-    old: 4f202dc671fba9d704ef386c565e84c3255896e2
-    new: ca522482e3eafd005b8d4e8b1331c911505a58d5
+  - ref: refs/heads/kthread-cleanups-for-v5.19
+    old: 1b2552cbdbe099b51aaffa486c042b0a7bf0a808
+    new: b3f9916d81e8ffb21cbe7abccf63f86a5a1d598a
     log: |
-         ca522482e3eafd005b8d4e8b1331c911505a58d5 dm: pass NULL bdev to bio_alloc_clone
+         b3f9916d81e8ffb21cbe7abccf63f86a5a1d598a sched: Update task_tick_numa to ignore tasks without an mm
          
