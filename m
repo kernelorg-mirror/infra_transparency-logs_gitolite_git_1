@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 11 May 2022 16:03:50 -0000
-Message-Id: <165228503015.32520.2072365429714761236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 11 May 2022 16:10:17 -0000
+Message-Id: <165228541729.4995.1009388819448701828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/review-hans
-    old: 7a54ba5723a3980c47515cf633c15f7046d8f525
-    new: 57709a27d9744f5af4bbeec3ba3105c6aa1075eb
+  - ref: refs/heads/for-next/core
+    old: 01ce2f5af527043a591208fe26788f55101b90bd
+    new: 6cade124772449868ffb2449c3b3cacb14cff229
     log: |
-         7881ec9d6406d9163d492f24ad043b9d5966f755 platform/x86: gigabyte-wmi: Add support for Z490 AORUS ELITE AC and X570 AORUS ELITE WIFI
-         8c07a299887dc32f6ce8690f7f5e61f285aa12ec platform/x86: samsung-laptop: use kobj_to_dev()
-         57709a27d9744f5af4bbeec3ba3105c6aa1075eb platform/x86: toshiba_acpi: use kobj_to_dev()
+         710c8d6c026c0bbbd5d9036ef210e263edeb07d3 arm64: Declare non global symbols as static
+         fb396bb459c1fa3920dd8a9d84680398c65fed75 arm64/hugetlb: Drop TLB flush from get_clear_flush()
+         6cade124772449868ffb2449c3b3cacb14cff229 Merge branch 'for-next/misc' into for-next/core
+         
+  - ref: refs/heads/for-next/misc
+    old: f41ef4c2ee99d255c82d8ac6f720f28116340869
+    new: fb396bb459c1fa3920dd8a9d84680398c65fed75
+    log: |
+         710c8d6c026c0bbbd5d9036ef210e263edeb07d3 arm64: Declare non global symbols as static
+         fb396bb459c1fa3920dd8a9d84680398c65fed75 arm64/hugetlb: Drop TLB flush from get_clear_flush()
          
