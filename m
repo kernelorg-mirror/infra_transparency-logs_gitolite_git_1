@@ -1,50 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5362511388800867832=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 11 May 2022 18:25:39 -0000
-Message-Id: <165229353904.30437.8206666251237023714@gitolite.kernel.org>
-
---===============5362511388800867832==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 11 May 2022 18:25:52 -0000
+Message-Id: <165229355263.30588.5737798265515624530@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.19
-    old: ac87e588b49302a9b9ff71c3b5c074eb5ab1fc4e
-    new: afaa7b933ef00a2d3262f4d1252087613fb5c06d
+  - ref: refs/heads/for-linus
+    old: a2cf0f7dba92cd7344a44ba98849725df208c905
+    new: 7edabb008a4c0de76c9bb3a01ded83108712938f
     log: |
-         afaa7b933ef00a2d3262f4d1252087613fb5c06d regulator: pfuze100: Fix refcount leak in pfuze_parse_regulators_dt
+         7edabb008a4c0de76c9bb3a01ded83108712938f Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
          
-
---===============5362511388800867832==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1652293537 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1652293537-5a5e4c146fa60d0adf7a7c9b490e604dd9df9ad5
-
-ac87e588b49302a9b9ff71c3b5c074eb5ab1fc4e afaa7b933ef00a2d3262f4d1252087613fb5c06d refs/heads/regulator-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ7/6EACgkQJNaLcl1U
-h9C6LAf+Me8dep6dFt0PwRPlwfa2hIE3Ne+3kbksmS1OB4T4gQeRsEpm5KpwHh3I
-ho0nXOH7RdBLq/xFrkUY81mQ0ltNBItb1qDDZ+9AXzLF1ITu6cT8qe0kFiWZUBYV
-seQ/N9KZ16q51uwei48LoyypymcPc98B1Mkr9YTelFNHaki2VhFx3UHgcBW6CJnz
-+TwibW9wacHxw8sr12gsD9wdpl5ixPjd15/aSksdkU+9eg2N4cGX+vxS0V4bHE07
-nBC8l93963x5UPfziKFGq5Cj9oYVbUZNtQs2PdkpV8zl+Y9/qVNAvtfRHGjeQLLV
-Tu1z9xpfdJLuvdUiVfeU5vCSZCwdzQ==
-=+9L5
------END PGP SIGNATURE-----
-
---===============5362511388800867832==--
+  - ref: refs/heads/for-next
+    old: 7667cd1274cac487febcde7247b6e1c508ae9ece
+    new: 7810d48396a4581f05aa28703de2cfe5ba0f02ab
+    log: |
+         0b56ed197d7df394fc4918bfea0f77e6192996b0 ASoC: Intel: sof_rt5682: Add support for adl_rt1019_rt5682s
+         d1c808765deb2bcd35d827402ed4d75d068aae18 ASoC: Intel: sof_ssp_amp: fix no DMIC BE Link on Chromebooks
+         cebbefbd22d5afd161a4762ced7212c10971d011 ASoC: Intel: sof_ssp_amp: enable capture stream from cs35l41
+         71013db522a90513e4e4ec3b33eb00c939e2f4b3 ASoC: Intel: boards: Chromebook configuration updates
+         7edabb008a4c0de76c9bb3a01ded83108712938f Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         7810d48396a4581f05aa28703de2cfe5ba0f02ab Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+         
