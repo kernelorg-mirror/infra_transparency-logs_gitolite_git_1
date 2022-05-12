@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3426317032415388508=="
+Content-Type: multipart/mixed; boundary="===============3832554322216515768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 12 May 2022 21:47:41 -0000
-Message-Id: <165239206170.3334.3036612428857975346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 12 May 2022 22:29:43 -0000
+Message-Id: <165239458316.29060.8889210748691275572@gitolite.kernel.org>
 
---===============3426317032415388508==
+--===============3832554322216515768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 3740651bf7e200109dd42d5b2fb22226b26f960a
+    old: a48ab883c4a9289694b82cacd95385b8f2367b20
     new: f3f19f939c11925dadd3f4776f99f8c278a7017b
-    log: revlist-3740651bf7e2-f3f19f939c11.txt
+    log: revlist-a48ab883c4a9-f3f19f939c11.txt
   - ref: refs/tags/v5.18-rc6
     old: 0000000000000000000000000000000000000000
     new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
 
---===============3426317032415388508==
+--===============3832554322216515768==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3740651bf7e2-f3f19f939c11.txt
+Content-Disposition: attachment; filename=revlist-a48ab883c4a9-f3f19f939c11.txt
 
 290c4a902b79246ec55e477fc313f27f98393dee RDMA/rxe: Fix "Replace mr by rkey in responder resources"
 b4f5c6b2e52b27462c0599e64e96e53b58438de1 ASoC: wm8958: Fix change notifications for DSP controls
@@ -178,8 +178,15 @@ ceaf69f8eadcafb323392be88e7a5248c415d423 fanotify: do not allow setting dirent e
 7ff960a6fe399fdcbca6159063684671ae57eee9 virtio: fix virtio transitional ids
 c1ad35dd0548ce947d97aaf92f7f2f9a202951cf udf: Avoid using stale lengthOfImpUse
 feb9c5e19e913b53cb536a7aa7c9f20107bb51ec Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+00832b1d1a393dfb1b9491d085e5b27e8c25d103 net: ethernet: mediatek: ppe: fix wrong size passed to memset()
+6b77c06655b8a749c1a3d9ebc51e9717003f7e5a net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
+810c2f0a3f86158c1e02e74947b66d811473434a mlxsw: Avoid warning during ip6gre device removal
+b7be130c5d52e5224ac7d89568737b37b4c4b785 net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
+f3c46e41b32b6266cf60b0985c61748f53bf1c61 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+1fa89ffbc04545b7582518e57f4b63e2a062870f net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+3740651bf7e200109dd42d5b2fb22226b26f960a tls: Fix context leak on tls_device_down
 c37dba6ae45c2f0ec9913d7c96790fc00976d3d4 Merge tag 'fixes_for_v5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 0ac824f379fba2c2b17b75fd5ada69cd68c66348 Merge branch 'for-5.18-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 f3f19f939c11925dadd3f4776f99f8c278a7017b Merge tag 'net-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3426317032415388508==--
+--===============3832554322216515768==--
