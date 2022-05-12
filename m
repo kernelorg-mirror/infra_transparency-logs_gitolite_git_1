@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 12 May 2022 14:41:01 -0000
-Message-Id: <165236646107.10028.7015609988967247571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 12 May 2022 14:44:16 -0000
+Message-Id: <165236665692.12461.2512519517236884793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/pci/cadence
-    old: d3dbd4d862f46ae8f3f3c9e9284ba357e5891e46
-    new: 0f0cd520aa46fc7340b5833966b7c8b577f54e43
+  - ref: refs/heads/master
+    old: f585c290ef6be4255067c9dab9d066adff5eae14
+    new: 20f3180998676ed4c979afe72315a05d753ceb7f
     log: |
-         0f0cd520aa46fc7340b5833966b7c8b577f54e43 PCI: cadence: Allow PTM Responder to be enabled
+         20f3180998676ed4c979afe72315a05d753ceb7f random: use static branch for crng_ready()
          
