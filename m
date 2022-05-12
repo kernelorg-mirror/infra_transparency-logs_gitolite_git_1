@@ -1,197 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============1387022355017631180=="
+Content-Type: multipart/mixed; boundary="===============2018735870375196998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 12 May 2022 14:03:31 -0000
-Message-Id: <165236421130.16646.7540159829468010328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 12 May 2022 14:04:21 -0000
+Message-Id: <165236426104.17004.3867271084236759172@gitolite.kernel.org>
 
---===============1387022355017631180==
+--===============2018735870375196998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: 71d7c575a673d42ad7175ad5fc27c85c80330311
-    new: a3808d88461270c71d3fece5e51cc486ecdac7d0
-    log: revlist-71d7c575a673-a3808d884612.txt
-  - ref: refs/heads/queue
-    old: 2764011106d0436cb44702cfb0981339d68c3509
-    new: a3808d88461270c71d3fece5e51cc486ecdac7d0
-    log: revlist-2764011106d0-a3808d884612.txt
+  - ref: refs/heads/queue/4.14
+    old: a79ac949b3a8fdc5555f5afed3d2e71b282f319b
+    new: 7655c1c6fb547bf7c917fde87d9917c989695470
+    log: |
+         9cded2bd3c87bfcfee0a54d02cf4b513aa859ea1 MIPS: Use address-of operator on section symbols
+         90cd5cd155e36b64da60fccb36a1534f3cdfc5d9 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         ae165ac8e7224109b5ef97a70e06d759af0f0ea5 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+         7655c1c6fb547bf7c917fde87d9917c989695470 can: grcan: only use the NAPI poll budget for RX
+         
+  - ref: refs/heads/queue/4.19
+    old: a7a4e8d06838d3d711f00ebd92ba6686f3b3c1ed
+    new: 5f36f554ae014f3178802edc14dab726e1ef9e8b
+    log: |
+         9d391fde4c2b290bcc4b5fcd3f050543b5b1fd67 MIPS: Use address-of operator on section symbols
+         90e2bdf6285d5eee89168df87793164991aa43b3 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         838878290209a5c4696d11f3ed051c2c68cbdcae drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+         4b6db896256bb82018215a6b740afba458e23dc3 nfp: bpf: silence bitwise vs. logical OR warning
+         9af91a748d7fda9d00aea5236df630bba4b01189 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+         5f36f554ae014f3178802edc14dab726e1ef9e8b can: grcan: only use the NAPI poll budget for RX
+         
+  - ref: refs/heads/queue/4.9
+    old: e5960fe1d278f7103d9cf1fbc9e62e3c4ac05c7d
+    new: 11cda8d8b45dc817e345f3222b564801fe5f19d2
+    log: |
+         4b76ed8e316a93a28cca4759b37cfa3ae62b2b75 MIPS: Use address-of operator on section symbols
+         c3afeb3a265b6818bf592f9c7d11bd49fb030455 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         d65f9d543d57c26f1e8dd528951a757f7523e608 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+         11cda8d8b45dc817e345f3222b564801fe5f19d2 can: grcan: only use the NAPI poll budget for RX
+         
+  - ref: refs/heads/queue/5.10
+    old: 185d79def7d815e3fad008b2a18407353e673be0
+    new: 121cb66daa2d6b9b7555e02f9cfa21b7413f88cb
+    log: |
+         095b5e219c1f87d4c885b89cd0e25ea2a575f1d2 MIPS: Use address-of operator on section symbols
+         377054a182c074cce3abd246290cdac6f4b5cb60 regulator: consumer: Add missing stubs to regulator/consumer.h
+         eaa0ff02ea71a4f6821dac04525bbd2ebe8a5475 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         25bb345b3ec108234a103402b429014d687f8c66 drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+         378e6c25d7b12eaa2dd120d15656eebcdb6e38c7 nfp: bpf: silence bitwise vs. logical OR warning
+         121cb66daa2d6b9b7555e02f9cfa21b7413f88cb arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+         
+  - ref: refs/heads/queue/5.15
+    old: 65a8d0610bb99a2b2536d158df7623aafb9b5ad9
+    new: b2914308d4339eb918f570ffdbcbe0698a5e6411
+    log: revlist-65a8d0610bb9-b2914308d433.txt
+  - ref: refs/heads/queue/5.4
+    old: 3a8517c63bb196ee4915c524965a89d76a38fffb
+    new: a892f3cd688a50954c7eb7f7c3fff1e77b1a40c9
+    log: revlist-3a8517c63bb1-a892f3cd688a.txt
 
---===============1387022355017631180==
+--===============2018735870375196998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-65a8d0610bb9-b2914308d433.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1652364206 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1652364206-b6f73b1d85211bca6bf9c2632d0c1b4e9d2ef5a3
+62329e7ed3404d2092405add13faf2739af22ceb x86/lib/atomic64_386_32: Rename things
+06f0c2a01d0bcdc6b550bc99eef851adfdd58ed6 x86: Prepare asm files for straight-line-speculation
+d7b6adb53f9f5be0e0e5bb5b310a0b9c198e208f x86: Prepare inline-asm for straight-line-speculation
+bf98e7db61e2e40d204dd0c80e0bf3e3f798c44d objtool: Add straight-line-speculation validation
+7f284aef10eabe97eeb286babfd496e5d5be805d x86/alternative: Relax text_poke_bp() constraint
+5694e7ea6fa844d6a518f5aa1eee022d99357858 kbuild: move objtool_args back to scripts/Makefile.build
+be97bb62a06d2626545df396b8fbeba40f89f33b x86: Add straight-line-speculation mitigation
+7a437fffd21ad7e723ddb4e037e0f697d52ec7b7 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
+a75aee652374cbdc9a2887001434d2c08c4d4737 kvm/emulate: Fix SETcc emulation function offsets with SLS
+40841e1ad160955a9cc4c64a0eba826364f9ed55 crypto: x86/poly1305 - Fixup SLS
+b2914308d4339eb918f570ffdbcbe0698a5e6411 objtool: Fix SLS validation for kcov tail-call replacement
 
-71d7c575a673d42ad7175ad5fc27c85c80330311 a3808d88461270c71d3fece5e51cc486ecdac7d0 refs/heads/next
-2764011106d0436cb44702cfb0981339d68c3509 a3808d88461270c71d3fece5e51cc486ecdac7d0 refs/heads/queue
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJ9E64UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNiqgf8D8VsuvphEnI4HqJOHtAm1vWCKqaf
-A6PSFUofaqnMOYUm6F9VwzLTsWZtz0+ZNm+CkrBUE1thJJqWvdKLZMU7eiNfr/Y9
-zStsZeLvEKinLt/ptWWFNAXjUEUREUuOUZmytrO+KDTZRzpXf0WRG4aO6w3vwccf
-V/dQXnOdyMSv3YRd6tezKeVtun5ruVbPOndK6+K6IwRV+y/6902EzO54bo7HGBES
-gbXeaasnuVMVUTAvl1aD2wB3yS8/Rv+VYtLWd8m4LN/GZq8UIKCafk9ZF2Wifb3g
-WtLOwZJC2QxXLvSoCZIVP8M9V2boneuB3U8+4iQJl1UwMiu1m5QMr06a+g==
-=WyoK
------END PGP SIGNATURE-----
-
---===============1387022355017631180==
+--===============2018735870375196998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71d7c575a673-a3808d884612.txt
+Content-Disposition: attachment; filename=revlist-3a8517c63bb1-a892f3cd688a.txt
 
-f30903394eb62316dddea8801b357f5cec4df187 x86/cpufeatures: Add virtual TSC_AUX feature bit
-296d5a17e793956f7b914336422043c939263409 KVM: SEV-ES: Use V_TSC_AUX if available instead of RDTSC/MSR_TSC_AUX intercepts
-65936229d35883a1637730e628c3c84d3600025d KVM: x86/mmu: Check for host MMIO exclusion from mem encrypt iff necessary
-8b9e74bfbf8c7020498a9ea600bd4c0f1915134d KVM: x86/mmu: Use enable_mmio_caching to track if MMIO caching is enabled
-daed87b8767c005cb2b385c80e265edf82a2f64b KVM: x86/mmu: nested EPT cannot be used in SMM
-82ffa13f7933cdc9aa3d22c9bc5c8d9c9f610af1 KVM: x86/mmu: constify uses of struct kvm_mmu_role_regs
-39e7e2bf321ac7784823e61abcbdf1459aeaee94 KVM: x86/mmu: pull computation of kvm_mmu_role_regs to kvm_init_mmu
-25cc05652cd6be7349c84abbea3886b5483330cd KVM: x86/mmu: rephrase unclear comment
-6819af7597d87d40769b47bb377472877a6b56c0 KVM: x86: Clean up and document nested #PF workaround
-b89805082adf1f502b1f0b993063e938e1bcb098 KVM: x86/mmu: remove "bool base_only" arguments
-e5ed0fb01004f93ddf8a0c632cbc8a3f1ea5b518 KVM: x86/mmu: split cpu_role from mmu_role
-60f3cb60a59d3f155d7b5b7f8339754b2aba8815 KVM: x86/mmu: do not recompute root level from kvm_mmu_role_regs
-ec283cb1dcb934d1a861e5e25ce843e033ee4ab7 KVM: x86/mmu: remove ept_ad field
-19b5dcc3be2efe93760372f444dec44e77f67146 KVM: x86/mmu: remove kvm_calc_shadow_root_page_role_common
-2ba676774dfc9369f67f30cd3b4f58ccda907c24 KVM: x86/mmu: cleanup computation of MMU roles for two-dimensional paging
-f417e1459a1299bb4984cbffc03d8746cab9f8a8 KVM: x86/mmu: cleanup computation of MMU roles for shadow paging
-362505deb8e2ce27993a1dee0b3c5755d4d6646e KVM: x86/mmu: store shadow EFER.NX in the MMU role
-7a458f0e1ba150a6ea012171a43c4b947f1d825d KVM: x86/mmu: remove extended bits from mmu_role, rename field
-7a7ae8292391c4d53c4340e606bf48776c3449e7 KVM: x86/mmu: rename kvm_mmu_role union
-faf729621c9609367a0714f5383df67fdd8d021c KVM: x86/mmu: remove redundant bits from extended role
-56b321f9e332082b9c5f7519495f068b147fe2c0 KVM: x86/mmu: simplify and/or inline computation of shadow MMU roles
-a7f1de9b6066cc62e0142302d8021731d56b9559 KVM: x86/mmu: pull CPU mode computation to kvm_init_mmu
-a972e29c1d6c957242a23b42f355b1fdf721cbd4 KVM: x86/mmu: replace shadow_root_level with root_role.level
-4d25502aa12ef1fb01e599cbfd341a8d436f4b8b KVM: x86/mmu: replace root_level with cpu_role.base.level
-347a0d0ded16a2e59c35b43ace7ad2b53fb6df57 KVM: x86/mmu: replace direct_map with root_role.direct
-7223fd2d5338d5eeef1775abd3440f8b499f3c0a KVM: SVM: Use target APIC ID to complete AVIC IRQs when possible
-9f084f7c2ed7e6b8cc3176b9ece2f6cb0641c385 KVM: SVM: Introduce trace point for the slow-path of avic_kic_target_vcpus
-767d8d8d503f946c7a67735e77dea7e1c9cb6b51 KVM: X86/MMU: Add sp_has_gptes()
-84e5ffd045f33e4fa32370135436d987478d0bf7 KVM: X86/MMU: Fix shadowing 5-level NPT for 4-level NPT L1 guest
-6fcee03df6a1a3101a77344be37bb85c6142d56c KVM: x86: avoid loading a vCPU after .vm_destroy was called
-f502cc568de95e5ed9cc9e6133fa454fbe0c5c01 KVM: Add max_vcpus field in common 'struct kvm'
-c180269d27bfadc9e79e20c233b06e49c3127732 KVM: VMX: Use vcpu_to_pi_desc() uniformly in posted_intr.c
-706c9c55e5a32800605eb6a864ef6e1ca0c6c179 KVM: x86/mmu: Don't treat fully writable SPTEs as volatile (modulo A/D)
-54eb3ef56f36827aad90915df33387d4c2b5df5a KVM: x86/mmu: Move shadow-present check out of spte_has_volatile_bits()
-ba3a6120a4e7efc13d19fe43eb6c5caf1da05b72 KVM: x86/mmu: Use atomic XCHG to write TDP MMU SPTEs with volatile bits
-6ea6581f127128a07e18f61ea691a22741a3c714 Merge branch 'kvm-tdp-mmu-atomicity-fix' into HEAD
-5eb849322d7f7ae9d5c587c7bc3b4f7c6872cd2f KVM: x86/svm: Account for family 17h event renumberings in amd_pmc_perf_hw_id
-5a1bde46f98b893cda6122b00e94c0c40a6ead3c kvm: x86/cpuid: Only provide CPUID leaf 0xA if host has architectural PMU
-9913288318aa4acf2c849add1616e9b4df5a7b44 Merge branch 'kvm-amd-pmu-fixes' into HEAD
-33fbe6befa622c082f7d417896832856814bdde0 KVM: x86: fix typo in __try_cmpxchg_user causing non-atomicness
-91ab933f7514fc0fb42b77dc6d128c450baeae0b KVM: VMX: clean up pi_wakeup_handler
-54275f74cf384217d9e6e85629793f0a024d88b7 KVM: x86/mmu: Don't attempt fast page fault just because EPT is in use
-5c64aba5179f6fc6a367f76342c6290a5e06cfc4 KVM: x86/mmu: Drop exec/NX check from "page fault can be fast"
-5276c616abf149a4dfbc708df3f22da642ec3dde KVM: x86/mmu: Add RET_PF_CONTINUE to eliminate bool+int* "returns"
-8a009d5bca0af7385880123d12081713f7066904 KVM: x86/mmu: Make all page fault handlers internal to the MMU
-8d5265b1016369836c0735ed40933e179f186630 KVM: x86/mmu: Use IS_ENABLED() to avoid RETPOLINE for TDP page faults
-1075d41efd598d3fd4d52a1e1116b20979975135 KVM: x86/mmu: Expand and clean up page fault stats
-c9f3d9fbcd9a013f44a43bd74a3f40d924ce4843 KVM: x86: a vCPU with a pending triple fault is runnable
-c919e881ba83e2912354ffa035980f62c78cc2f3 KVM: x86/mmu: Rename reset_rsvds_bits_mask()
-e54f1ff244ac96c919049838a5a1f03087793594 KVM: x86/mmu: Add shadow_me_value and repurpose shadow_me_mask
-3c5c32457d7da76d077effc08176d3ad2e7536f9 KVM: VMX: Include MKTME KeyID bits in shadow_zero_check
-6ba1e04fa60787ced4c9049cf7bd6cd0f1b80764 KVM: x86/mmu: Speed up slot_rmap_walk_next for sparsely populated rmaps
-121383d0107ee8a6cd2c75a1a132d7a63f9cb0a0 x86/cpu: Add new VMX feature, Tertiary VM-Execution control
-9fbf31ba29b0e0e44fcfc21b8e9433de3e0ac3ee KVM: VMX: Extend BUILD_CONTROLS_SHADOW macro to support 64-bit variation
-fd351c52963a5e10e4721cf26db55c6f391e5c4c KVM: VMX: Detect Tertiary VM-Execution control when setup VMCS config
-9402278c24c0d931e9806c9db28e80fe31574dc5 KVM: VMX: Report tertiary_exec_control field in dump_vmcs()
-3fadd6b78db00ac9d7e924046209d67bec9cdf31 KVM: x86: Add support for vICR APIC-write VM-Exits in x2APIC mode
-8236723e797c49997881db8a3a384f5cdc9e7901 KVM: VMX: Clean up vmx_refresh_apicv_exec_ctrl()
-b113d61e1d1b2134e7e7171be45cc2599096de6f KVM: Move kvm_arch_vcpu_precreate() under kvm->lock
-a7747898a7c617c734857f9ed7223d50b1c0fd0e KVM: x86: Allow userspace to set maximum VCPU id for VM
-b77b7e13f82783b475ce444e65d08f77e1829654 kvm: selftests: Add KVM_CAP_MAX_VCPU_ID cap test
-694599c8267d862085324bc1f6ef5e8014abc5c0 KVM: VMX: enable IPI virtualization
-15900f13d7db541d55f210e976da82d22265dd7f KVM: LAPIC: Trace LAPIC timer expiration on every vmentry
-dc8a9febbab0add3cf66b39d84ea6e6cf13bd44c KVM: selftests: x86: Fix test failure on arch lbr capable platforms
-2c8beb526ce90f1a2c945db6b599e7111067699f perf/x86/intel: Add EPT-Friendly PEBS for Ice Lake Server
-35a6bdffbf218cb69cc72bb18e945686dceff9f2 perf/x86/intel: Handle guest PEBS overflow PMI for KVM guest
-907508f75964d4e3e2fe0b853294a30e95ebbd4b perf/x86/core: Pass "struct kvm_pmu *" to determine the guest values
-0dc19fcc24712f636bf2e860c78207e4e750a687 KVM: x86/pmu: Set MSR_IA32_MISC_ENABLE_EMON bit when vPMU is enabled
-4282743c110af7082a0274e0ce7ff91b8e3b20ff KVM: x86/pmu: Introduce the ctrl_mask value for fixed counter
-db2265f3a9ed46b358c2dda622abbaa139d06eb2 x86/perf/core: Add pebs_capable to store valid PEBS_COUNTER_MASK value
-34e02809217325da2186f6470cf9eaee61d30f9a KVM: x86/pmu: Add IA32_PEBS_ENABLE MSR emulation for extended PEBS
-44d47de274d59c8c5cff5f670e29b250cb697c4f KVM: x86/pmu: Reprogram PEBS event to emulate guest PEBS counter
-a095df2c5f48f577c75ef183ad35703667a30ce4 KVM: x86/pmu: Adjust precise_ip to emulate Ice Lake guest PDIR counter
-f32db9822ccb2d0d420bdb0520022a0b1cd045bd KVM: x86/pmu: Add IA32_DS_AREA MSR emulation to support guest DS
-c873e000e103065df31010d69c0b55c9df38d63b KVM: x86/pmu: Add PEBS_DATA_CFG MSR emulation to support adaptive PEBS
-aa03a92de13aaa964d0a06fd467becbc85548266 KVM: x86: Set PEBS_UNAVAIL in IA32_MISC_ENABLE when PEBS is enabled
-a10cabf6815c118685af21e456c5b57a94431996 KVM: x86/pmu: Move pmc_speculative_in_use() to arch/x86/kvm/pmu.h
-e1f82aee2e45346f75413a225c0451cb1a9ea5ef KVM: x86/pmu: Disable guest PEBS temporarily in two rare situations
-8eeac7e999e866ed73d4a1a1106fb69bf30e68cb KVM: x86/pmu: Add kvm_pmu_cap to optimize perf_get_x86_pmu_capability
-1672f447172a5f7929eb06f71036e9a311902e9d KVM: x86/cpuid: Refactor host/guest CPU model consistency check
-a3808d88461270c71d3fece5e51cc486ecdac7d0 KVM: x86/pmu: Expose CPUIDs feature bits PDCM, DS, DTES64
+98e010c34af8e4e31f193549431bc634022d8532 MIPS: Use address-of operator on section symbols
+4407b91d60315a4570c56962108bec09ab60fca0 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+56c91e4df41ed33ba43c46fdd86da9a1e4920f9f drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+e25386ee1d9436aa499e2ab6c60c95aa43d4a5aa drm/i915: Cast remain to unsigned long in eb_relocate_vma
+c64d0c74b59d949d965f829335a7ee14d4ebd84d nfp: bpf: silence bitwise vs. logical OR warning
+13edee32181fb495e84229bb7e4d64bbcd8743e8 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+94aa2fac73ce53fb8763d5eab33acf2c1a0b8944 can: grcan: only use the NAPI poll budget for RX
+69db522d1dbffde8290e63e7dec7e4ba2b524ac3 arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+04ec86e9544870b17b9fb76683188b81e400f215 KVM: x86/pmu: Refactoring find_arch_event() to pmc_perf_hw_id()
+59801e3ad82143415814e8355c6ac7a2315fecd9 x86/asm: Allow to pass macros to __ASM_FORM()
+a250ec5cac834fa9a5f207e95749888aa3e10ec7 x86: xen: kvm: Gather the definition of emulate prefixes
+8d4fa4b4ac223d5818fe1e16c3c8bcb90714fe9d x86: xen: insn: Decode Xen and KVM emulate-prefix signature
+a892f3cd688a50954c7eb7f7c3fff1e77b1a40c9 x86: kprobes: Prohibit probing on instruction which has emulate prefix
 
---===============1387022355017631180==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2764011106d0-a3808d884612.txt
-
-706c9c55e5a32800605eb6a864ef6e1ca0c6c179 KVM: x86/mmu: Don't treat fully writable SPTEs as volatile (modulo A/D)
-54eb3ef56f36827aad90915df33387d4c2b5df5a KVM: x86/mmu: Move shadow-present check out of spte_has_volatile_bits()
-ba3a6120a4e7efc13d19fe43eb6c5caf1da05b72 KVM: x86/mmu: Use atomic XCHG to write TDP MMU SPTEs with volatile bits
-6ea6581f127128a07e18f61ea691a22741a3c714 Merge branch 'kvm-tdp-mmu-atomicity-fix' into HEAD
-5eb849322d7f7ae9d5c587c7bc3b4f7c6872cd2f KVM: x86/svm: Account for family 17h event renumberings in amd_pmc_perf_hw_id
-5a1bde46f98b893cda6122b00e94c0c40a6ead3c kvm: x86/cpuid: Only provide CPUID leaf 0xA if host has architectural PMU
-9913288318aa4acf2c849add1616e9b4df5a7b44 Merge branch 'kvm-amd-pmu-fixes' into HEAD
-33fbe6befa622c082f7d417896832856814bdde0 KVM: x86: fix typo in __try_cmpxchg_user causing non-atomicness
-91ab933f7514fc0fb42b77dc6d128c450baeae0b KVM: VMX: clean up pi_wakeup_handler
-54275f74cf384217d9e6e85629793f0a024d88b7 KVM: x86/mmu: Don't attempt fast page fault just because EPT is in use
-5c64aba5179f6fc6a367f76342c6290a5e06cfc4 KVM: x86/mmu: Drop exec/NX check from "page fault can be fast"
-5276c616abf149a4dfbc708df3f22da642ec3dde KVM: x86/mmu: Add RET_PF_CONTINUE to eliminate bool+int* "returns"
-8a009d5bca0af7385880123d12081713f7066904 KVM: x86/mmu: Make all page fault handlers internal to the MMU
-8d5265b1016369836c0735ed40933e179f186630 KVM: x86/mmu: Use IS_ENABLED() to avoid RETPOLINE for TDP page faults
-1075d41efd598d3fd4d52a1e1116b20979975135 KVM: x86/mmu: Expand and clean up page fault stats
-c9f3d9fbcd9a013f44a43bd74a3f40d924ce4843 KVM: x86: a vCPU with a pending triple fault is runnable
-c919e881ba83e2912354ffa035980f62c78cc2f3 KVM: x86/mmu: Rename reset_rsvds_bits_mask()
-e54f1ff244ac96c919049838a5a1f03087793594 KVM: x86/mmu: Add shadow_me_value and repurpose shadow_me_mask
-3c5c32457d7da76d077effc08176d3ad2e7536f9 KVM: VMX: Include MKTME KeyID bits in shadow_zero_check
-6ba1e04fa60787ced4c9049cf7bd6cd0f1b80764 KVM: x86/mmu: Speed up slot_rmap_walk_next for sparsely populated rmaps
-121383d0107ee8a6cd2c75a1a132d7a63f9cb0a0 x86/cpu: Add new VMX feature, Tertiary VM-Execution control
-9fbf31ba29b0e0e44fcfc21b8e9433de3e0ac3ee KVM: VMX: Extend BUILD_CONTROLS_SHADOW macro to support 64-bit variation
-fd351c52963a5e10e4721cf26db55c6f391e5c4c KVM: VMX: Detect Tertiary VM-Execution control when setup VMCS config
-9402278c24c0d931e9806c9db28e80fe31574dc5 KVM: VMX: Report tertiary_exec_control field in dump_vmcs()
-3fadd6b78db00ac9d7e924046209d67bec9cdf31 KVM: x86: Add support for vICR APIC-write VM-Exits in x2APIC mode
-8236723e797c49997881db8a3a384f5cdc9e7901 KVM: VMX: Clean up vmx_refresh_apicv_exec_ctrl()
-b113d61e1d1b2134e7e7171be45cc2599096de6f KVM: Move kvm_arch_vcpu_precreate() under kvm->lock
-a7747898a7c617c734857f9ed7223d50b1c0fd0e KVM: x86: Allow userspace to set maximum VCPU id for VM
-b77b7e13f82783b475ce444e65d08f77e1829654 kvm: selftests: Add KVM_CAP_MAX_VCPU_ID cap test
-694599c8267d862085324bc1f6ef5e8014abc5c0 KVM: VMX: enable IPI virtualization
-15900f13d7db541d55f210e976da82d22265dd7f KVM: LAPIC: Trace LAPIC timer expiration on every vmentry
-dc8a9febbab0add3cf66b39d84ea6e6cf13bd44c KVM: selftests: x86: Fix test failure on arch lbr capable platforms
-2c8beb526ce90f1a2c945db6b599e7111067699f perf/x86/intel: Add EPT-Friendly PEBS for Ice Lake Server
-35a6bdffbf218cb69cc72bb18e945686dceff9f2 perf/x86/intel: Handle guest PEBS overflow PMI for KVM guest
-907508f75964d4e3e2fe0b853294a30e95ebbd4b perf/x86/core: Pass "struct kvm_pmu *" to determine the guest values
-0dc19fcc24712f636bf2e860c78207e4e750a687 KVM: x86/pmu: Set MSR_IA32_MISC_ENABLE_EMON bit when vPMU is enabled
-4282743c110af7082a0274e0ce7ff91b8e3b20ff KVM: x86/pmu: Introduce the ctrl_mask value for fixed counter
-db2265f3a9ed46b358c2dda622abbaa139d06eb2 x86/perf/core: Add pebs_capable to store valid PEBS_COUNTER_MASK value
-34e02809217325da2186f6470cf9eaee61d30f9a KVM: x86/pmu: Add IA32_PEBS_ENABLE MSR emulation for extended PEBS
-44d47de274d59c8c5cff5f670e29b250cb697c4f KVM: x86/pmu: Reprogram PEBS event to emulate guest PEBS counter
-a095df2c5f48f577c75ef183ad35703667a30ce4 KVM: x86/pmu: Adjust precise_ip to emulate Ice Lake guest PDIR counter
-f32db9822ccb2d0d420bdb0520022a0b1cd045bd KVM: x86/pmu: Add IA32_DS_AREA MSR emulation to support guest DS
-c873e000e103065df31010d69c0b55c9df38d63b KVM: x86/pmu: Add PEBS_DATA_CFG MSR emulation to support adaptive PEBS
-aa03a92de13aaa964d0a06fd467becbc85548266 KVM: x86: Set PEBS_UNAVAIL in IA32_MISC_ENABLE when PEBS is enabled
-a10cabf6815c118685af21e456c5b57a94431996 KVM: x86/pmu: Move pmc_speculative_in_use() to arch/x86/kvm/pmu.h
-e1f82aee2e45346f75413a225c0451cb1a9ea5ef KVM: x86/pmu: Disable guest PEBS temporarily in two rare situations
-8eeac7e999e866ed73d4a1a1106fb69bf30e68cb KVM: x86/pmu: Add kvm_pmu_cap to optimize perf_get_x86_pmu_capability
-1672f447172a5f7929eb06f71036e9a311902e9d KVM: x86/cpuid: Refactor host/guest CPU model consistency check
-a3808d88461270c71d3fece5e51cc486ecdac7d0 KVM: x86/pmu: Expose CPUIDs feature bits PDCM, DS, DTES64
-
---===============1387022355017631180==--
+--===============2018735870375196998==--
