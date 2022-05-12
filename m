@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Thu, 12 May 2022 21:20:26 -0000
-Message-Id: <165239042659.17900.9338966580124622476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 12 May 2022 21:40:42 -0000
+Message-Id: <165239164295.30450.8371364745039294720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/pci/cadence
-    old: 0f0cd520aa46fc7340b5833966b7c8b577f54e43
-    new: 95b00f68209e2bc9f2ee9126afcebab451e0e9d8
+  - ref: refs/heads/dev-queue
+    old: 1af0e0dcbb5a281daf1b732c427f495fdbf4a3bf
+    new: 853b37599540873df48af63b9fa71d0c3a823010
     log: |
-         a1f67bc131c3935f325513cd153249fdbc22ac5b PCI: cadence: Allow PTM Responder to be enabled
-         95b00f68209e2bc9f2ee9126afcebab451e0e9d8 PCI: cadence: Clear FLR in device capabilities register
+         211596b238b2adcdeadf169aab4131e9968defa5 intel/i40e: delete if NULL check before dev_kfree_skb
+         853b37599540873df48af63b9fa71d0c3a823010 i40e: Add support for ethtool -s <interface> speed <speed in Mb>
          
