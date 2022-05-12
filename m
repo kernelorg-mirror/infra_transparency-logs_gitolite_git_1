@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 12 May 2022 19:58:07 -0000
-Message-Id: <165238548756.25934.6864796654448360537@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1032386652047080777=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 12 May 2022 20:03:59 -0000
+Message-Id: <165238583956.29316.17480861959932238879@gitolite.kernel.org>
+
+--===============1032386652047080777==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon-next
-    old: cb68dd6d63e20332c38c597b9593320c9b7209d1
-    new: 07d762982fb97738789dfe8454898510fa21980b
+  - ref: refs/heads/master
+    old: 1febdb59561caf12560815a1443b4f9f46b3e2c2
+    new: 9ab06a014ab42c12a2c23882072dc80aedeb9537
     log: |
-         6261cdbd476787d974cb036dce52c1b72a96ae35 hwmon: (as370-hwmon) Use HWMON_CHANNEL_INFO macro
-         92125323e3119002554e84cb2409568da6e1fd10 hwmon: (ltc2992) Use HWMON_CHANNEL_INFO macro
-         ca7d1ea6659aef55e6d5cb8f64eb1b416748c13b hwmon: (mr75203) Use HWMON_CHANNEL_INFO macro
-         989d792e9c237f06ff0c6db5ab726dc67e2764a1 hwmon: (peci/cputemp) Use HWMON_CHANNEL_INFO macro
-         d132ef9a70ce3775459a09238f320548b70db90e hwmon: (peci/dimmtemp) Use HWMON_CHANNEL_INFO macro
-         15b474294371764bafdea23ee69f0ae4cff81d7f hwmon: (pwm-fan) Use HWMON_CHANNEL_INFO macro
-         07d762982fb97738789dfe8454898510fa21980b hwmon: (sl28cpld-hwmon) Use HWMON_CHANNEL_INFO macro
+         9ab06a014ab42c12a2c23882072dc80aedeb9537 Update 70AA62F3B95C551B (Eric Dumazet)
          
+
+--===============1032386652047080777==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1652385839 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1652385839-1a69c34f128b93121cfbcb4452eff8a2491b088f
+
+1febdb59561caf12560815a1443b4f9f46b3e2c2 9ab06a014ab42c12a2c23882072dc80aedeb9537 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYn1oLwAKCRC2xBzjVmSZ
+bC0VAP422TPODKX8v4TjDxTohSrraEv3B2ez28b2GKXj1gqrTQEAmTp3rKR5gARW
+rPempvu3NkiSwgBnr8+VT6mREZFB7AI=
+=itkM
+-----END PGP SIGNATURE-----
+
+--===============1032386652047080777==--
