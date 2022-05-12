@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Thu, 12 May 2022 14:17:12 -0000
-Message-Id: <165236503236.27508.13093896732059992609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 12 May 2022 14:30:14 -0000
+Message-Id: <165236581471.3464.10114625710606980736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/tags/fstests.vfstest.for-next
-    old: 0000000000000000000000000000000000000000
-    new: 20e085d3cf96a0a8a99bcc098d052e5a6c912f67
+  - ref: refs/heads/perf/core
+    old: 2cc6edea3673e38fa96df5cf8a62ddc8b27c7217
+    new: bc469ddf67154a4840267132e87ce0d8b72d4952
+    log: |
+         bc469ddf67154a4840267132e87ce0d8b72d4952 perf/x86/amd: Remove unused variable 'hwc'
+         
