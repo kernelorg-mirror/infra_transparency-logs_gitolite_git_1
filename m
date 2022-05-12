@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3611534625953928519=="
+Content-Type: multipart/mixed; boundary="===============3292215724094898162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 May 2022 15:52:54 -0000
-Message-Id: <165237077422.27116.6861858020014785431@gitolite.kernel.org>
+Date: Thu, 12 May 2022 15:54:18 -0000
+Message-Id: <165237085827.27663.4079950804593792453@gitolite.kernel.org>
 
---===============3611534625953928519==
+--===============3292215724094898162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: dc5306a8c0eace6c113aded2e36ae5e15fdca4d7
-    new: 810c2f0a3f86158c1e02e74947b66d811473434a
-    log: revlist-dc5306a8c0ea-810c2f0a3f86.txt
+  - ref: refs/heads/dev-queue
+    old: 1d5c847e5488ec14daa98cacaa6ea279e87793b9
+    new: adb7f877aca30847a96a785d67be8b90f6416638
+    log: revlist-1d5c847e5488-adb7f877aca3.txt
 
---===============3611534625953928519==
+--===============3292215724094898162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc5306a8c0ea-810c2f0a3f86.txt
+Content-Disposition: attachment; filename=revlist-1d5c847e5488-adb7f877aca3.txt
 
 7635a1ad8d92dcc8247b53f949e37795154b5b6f iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
 4dd4e6f659850f2df20b9612593f5a0f040549e1 MAINTAINERS: update iwlwifi driver maintainer
@@ -57,5 +57,14 @@ a48ab883c4a9289694b82cacd95385b8f2367b20 Merge tag 'for-net-2022-05-11' of git:/
 00832b1d1a393dfb1b9491d085e5b27e8c25d103 net: ethernet: mediatek: ppe: fix wrong size passed to memset()
 6b77c06655b8a749c1a3d9ebc51e9717003f7e5a net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
 810c2f0a3f86158c1e02e74947b66d811473434a mlxsw: Avoid warning during ip6gre device removal
+1a5e54133a2c99965e0b6a2e73737c9a77f2030a ice: fix crash when writing timestamp on RX rings
+009aa1037a9039552d38f80260a330d7a37bf813 ice: fix possible under reporting of ethtool Tx and Rx statistics
+ec3b80824be537b20cf2ac22397b0e534a0e17c8 i40e: Fix adding ADq filter to TC0
+bcbccf267ce1b9e13adbdda14b192d7c20e9a13d i40e: Fix calculating the number of queue pairs
+ba5eee29f32df80057f46a6edd307d6798499319 igb: skip phy status check where unavailable
+ee63ed5862d4828b4969daceef7a1b85112c70a0 ice: prevent low-core machines crashing on DCB config
+beae414f692eaa04210a979d173c485c4b6f6140 ice: Fix interrupt moderation settings getting cleared
+a318d10043bbf718bf7c03664b4f7d2dcf022280 ice: ignore protocol field in GTP offload
+adb7f877aca30847a96a785d67be8b90f6416638 ice: Fix PTP TX timestamp offset calculation
 
---===============3611534625953928519==--
+--===============3292215724094898162==--
