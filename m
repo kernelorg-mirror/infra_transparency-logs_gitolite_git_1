@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Thu, 12 May 2022 14:39:22 -0000
-Message-Id: <165236636298.7924.18446371606139998423@gitolite.kernel.org>
+Date: Thu, 12 May 2022 14:39:40 -0000
+Message-Id: <165236638095.8131.5262929857334871569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
 user: brauner
 changes:
-  - ref: refs/heads/fstests.vfstest
-    old: b29acd10a48a866d609d343912a6456ea9d25e3e
-    new: 2fd2e2f01e3634d41c4e0306f682359ab2b66d04
+  - ref: refs/tags/fstests.vfstest.for-next
+    old: 20e085d3cf96a0a8a99bcc098d052e5a6c912f67
+    new: 15dbd9a8c7ef29f0ebf4cbb6c340fcd9042e578d
     log: |
          512286565d976586597518b4f55e9d512406af77 src/vfs: rename idmapped-mounts.c file
          73b1a1c31a70fd8b94a927357a11ec85222b5e68 vfstest: rename struct t_idmapped_mounts
