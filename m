@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5570296915447592735=="
+Content-Type: multipart/mixed; boundary="===============8876875583010426999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 12 May 2022 11:58:42 -0000
-Message-Id: <165235672294.1510.7373022777533835583@gitolite.kernel.org>
+Date: Thu, 12 May 2022 11:59:01 -0000
+Message-Id: <165235674198.1658.15818523676247816930@gitolite.kernel.org>
 
---===============5570296915447592735==
+--===============8876875583010426999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f9d76d15072caf1ec5558fa7cc6d93c7b9d33488
-    new: b4b44897ad3f4c1ad4ffe910e7b141c61522726c
+    old: b4b44897ad3f4c1ad4ffe910e7b141c61522726c
+    new: 72e28b70499ac3b5d720c9cb9ad0d4229fdc5e0d
     log: |
-         d090c7a2ab84663185e4abda21d7d83880937c8a USB / dwc3: Fix a checkpatch warning in core.c
-         84db2ee2370332240a5e562779862b564fb9d49a usb: host: ehci-xilinx: Fix quoted string split across lines
-         b92d8a6e935fbd586397341ac1cb6762b041c6d5 USB: c67x00: remove unnecessary check of res
-         b4b44897ad3f4c1ad4ffe910e7b141c61522726c usb: gadget: udc: Remove useless variable assignment in xudc_read_fifo()
+         72e28b70499ac3b5d720c9cb9ad0d4229fdc5e0d usb: host: ehci-xilinx: adding description for return value
          
 
---===============5570296915447592735==
+--===============8876875583010426999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652356720 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652356740 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1652356719-54e1ffc3a40e36ad5f7422cbb9ec85413e42f138
+nonce 1652356739-9ccaa862f2f7e50ae1fb6bb4efa83d31b8f45bd4
 
-f9d76d15072caf1ec5558fa7cc6d93c7b9d33488 b4b44897ad3f4c1ad4ffe910e7b141c61522726c refs/heads/usb-testing
+b4b44897ad3f4c1ad4ffe910e7b141c61522726c 72e28b70499ac3b5d720c9cb9ad0d4229fdc5e0d refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ89nAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tGYP/jvmLgOmzEDX0tsfnlmV
-a8WY3bcpQfeAuc0eZu8RU1G2tuQ+fZ0xfvgnmxsGqb20UIgmX6c6/BVY0Ic0IWB3
-V43/VjrtlHsRROQWa6xZrT5dl1AlKxO8WU+BX/3XsJkFm5qjxcO1MgoXh8gncYAs
-qXQVPSZcC+s6AFFLEXgJr9jRSof5rNYJWSVv/9U35wMPTJFT6J+3+RFYULCA/pRc
-T060W/iegm57rfVpAnzJiYGQ2WcAmkJ59N0gdlpENijZ4O0N17Ni+6NiMlZ4NZrY
-9Ma6+ZHPyicuqzZt2/YvtG4Ukpo4nJH9Ewmovq7G4kGhbh140wYF4XtoE3ZkgK1V
-h7wL81acLckXvcYDV4I8LqlS0fnwaISO5H/BTI9wf+gMNftfv7I5M0p4nFitZ6pu
-9Kd2rg2tCRFDVDNTOQmCw0hQdyi6mDH7enAhVbtEwn47yCzw1KS1Y7j9IACJcLU1
-2xeBMVI+9p1UVNFV5fbGxgCJi0kTp8SXl9zB0pHANoFzQ4OOxuPtPneJUI0vYhS7
-Ka+ZkgyV+EVPWU0/VhFnMgAzZKA4weiIF4MZ3kdf7ZfKcgiM+Af5MmUbnawl5UpA
-EmZoYVdKacE5lStGT8Q9EoZpAdoKB5+43ywsRyeDnnMjZSKstS0nvfEAHXK1tnbJ
-z2SSJ1UAvImPtv0gM1k22hUt
-=ASK0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ89oQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nTsP/3/3xWRgmsQGLhaonKmo
+PqaoE+UojXTbF5RH6pxVgOv2VM+u2JH62o3bYsyeumkoVFPxhkluCLZQvHfjP09f
+QgmLGkypjMb68BR/hUT6uKUhA7XwG8qsNlXCX0A172Oa3SdB+KplI/N9kkr7DUhz
+eyVAIwxqN9mbwKsWIj7wZTnXlRUD14D5q1huIhbONvNLHLICDWZM1lAS4zvee40c
+V74qssuGylejEMzHBa55U/rJo8TKXBxTojJpFTHF0LJoHSD5GFVxDifSytjn38Of
+Bo4L5ZJdHQiRfQb+KgduAWSNgRzLoWi6fTSm0znR1BEG31nUGESxd0GN01jTnwLV
+DJcasg8j54YRNuXCtkUEzmwNAMmiSOJctcbS5U9sasRXoVp7vz95Girvjg7ol1LZ
+uWWCh34N4OZA1Rq//T4aMPnPjpyK+RuJtLM3lJ5nvnDyvPsJuN4q/gfg7A8mMi1Y
+K6h+j8/MXEUAcxyBurFl70FiMUwYwsQzXZqsu1VMi30O0uVKIkG+2x1F/RslUwYP
+0aCJtXyMMv2EUH+i6p9HnloanmgXICsfDJi/ihjhcJrLMqrrZRkXTD0iTrIEgZRp
+mn3Ib2i545PAuj6A/XGddVOVVgAY0waHKIXcylK9xopb4dm1O/rJJlvwpYjQ2MvO
+rHMmJnDeWC0ZBIpG35KVSHy8
+=SI5A
 -----END PGP SIGNATURE-----
 
---===============5570296915447592735==--
+--===============8876875583010426999==--
