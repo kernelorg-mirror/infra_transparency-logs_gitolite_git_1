@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 12 May 2022 05:38:54 -0000
-Message-Id: <165233393484.19455.15992274264098976089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Thu, 12 May 2022 06:23:26 -0000
+Message-Id: <165233660651.16312.18361495755312874032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 222557758c53c78bdfce77d132fbf2bc05a90c20
-    new: 0a76d4c331b4408607d30c4c9ac0c256ea74131a
+  - ref: refs/heads/next
+    old: 8e1de7042596abb7cb277ea751fc13a4c2b65aea
+    new: c7c99a09ef0e2615d13e13b19c74428ca43b7dcf
     log: |
-         0a76d4c331b4408607d30c4c9ac0c256ea74131a mm: usercopy: move the virt_addr_valid() below the is_vmalloc_addr()
+         93bf344f66995ef816bd63c165fa9ac1ea4fcb3d thunderbolt: Fix buffer allocation of devices with no DisplayPort adapters
+         c7c99a09ef0e2615d13e13b19c74428ca43b7dcf thunderbolt: Add KUnit test for devices with no DisplayPort adapters
          
