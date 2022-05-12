@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 12 May 2022 01:21:37 -0000
-Message-Id: <165231849733.15694.1668731394241385558@gitolite.kernel.org>
+Date: Thu, 12 May 2022 01:22:45 -0000
+Message-Id: <165231856514.16140.7487111455365355284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 571b8739dd6df6d41bdcc83ed50b481a27af912c
-    new: 0bed8f374a9981d94c6b03376925419ef588f44a
+  - ref: refs/heads/master
+    old: 0bed8f374a9981d94c6b03376925419ef588f44a
+    new: 5790a2fee02c48e28fde2ce7ea4765eeadcda0ba
     log: |
-         07343110b293456d30393e89b86c4dee1ac051c8 bpf: add bpf_map_lookup_percpu_elem for percpu map
-         ed7c13776e20c74486b0939a3c1de984c5efb6aa selftests/bpf: add test case for bpf_map_lookup_percpu_elem
-         0bed8f374a9981d94c6b03376925419ef588f44a Merge branch 'Introduce access remote cpu elem support in BPF percpu map'
+         5790a2fee02c48e28fde2ce7ea4765eeadcda0ba selftests/bpf: make fexit_stress test run in serial mode
          
