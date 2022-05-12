@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 12 May 2022 17:17:03 -0000
-Message-Id: <165237582379.19751.16930429360842720657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 12 May 2022 17:29:54 -0000
+Message-Id: <165237659465.26574.1407877111897503517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/kunit
-    old: 38289a26e1b8a37755f3e07056ca416c1ee2a2e8
-    new: 9660209d9418f2295d31fea0d32e313e9b2c1200
+  - ref: refs/heads/modules-next
+    old: 0759813b38a850946f4e1b42b8ebeb01fc8136ab
+    new: 7390b94a3c2d93272d6da4945b81a9cf78055b7b
     log: |
-         ad69172ec930075d25e14220841dd96375088d28 kunit: Rework kunit_resource allocation policy
-         dcbb2ee24601fabbb547fb0c747ca98b876fe5df lib/Kconfig.debug: change KUnit tests to default to KUNIT_ALL_TESTS
-         a02353f491622e49c7ddedc6a6dc4f1d6ed2150a kunit: bail out of test filtering logic quicker if OOM
-         c249764320cba8ab42821b0c7dad75f117c853e4 kunit: tool: update test counts summary line format
-         3f0a50f345f78183f6e9b39c2f45ca5dcaa511ca kunit: tool: stop using a shell to run kernel under QEMU
-         9660209d9418f2295d31fea0d32e313e9b2c1200 kunit: tool: print clearer error message when there's no TAP output
+         80140a81f7f833998d732102eea0fea230b88067 module.h: simplify MODULE_IMPORT_NS
+         c14e522bc76efed6e947cd0ab83a1fac7a7a3ec9 module: Make module_flags_taint() accept a module's taints bitmap and usable outside core code
+         6fb0538d0121ffab770a505b183968d93466ad59 module: Move module_assert_mutex_or_preempt() to internal.h
+         99bd9956551b27cb6f5b445abaced7e13b9976cd module: Introduce module unload taint tracking
+         391e982bfa632b8315235d8be9c0a81374c6a19c module: fix [e_shstrndx].sh_size=0 OOB access
+         8eac910a49347821cbafc770a319e00ccd69d58b module: show disallowed symbol name for inherit_taint()
+         c6eee9df57a6d9252bae93a9386d0d872798f5d5 module: do not pass opaque pointer for symbol search
+         cdd66eb52fdaa9bdab7f1be8dc9162bf4acc64ae module: do not binary-search in __ksymtab_gpl if fsa->gplok is false
+         7390b94a3c2d93272d6da4945b81a9cf78055b7b module: merge check_exported_symbol() into find_exported_symbol_in_section()
          
