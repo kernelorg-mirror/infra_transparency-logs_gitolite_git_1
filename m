@@ -1,43 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6944718089813881481=="
+Content-Type: multipart/mixed; boundary="===============4750509875648315865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 12 May 2022 16:35:38 -0000
-Message-Id: <165237333852.24133.1214491271072557511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 12 May 2022 16:35:53 -0000
+Message-Id: <165237335321.24280.16223351359576814872@gitolite.kernel.org>
 
---===============6944718089813881481==
+--===============4750509875648315865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: d26eee72d9b9048ba8621e3d47553792729db01f
-    new: 93c0651617a62a69717299f1464dda798af8bebb
-    log: revlist-d26eee72d9b9-93c0651617a6.txt
+  - ref: refs/heads/usb-linus
+    old: 5f0b5f4d50fa0faa8c76ef9d42a42e8d43f98b44
+    new: 1645eee0d7f623660e6ce0f1aef4591788a0c9da
+    log: |
+         c237566b78ad8c72bc0431c5d6171db8d12e6f94 usb: xhci-mtk: fix fs isoc's transfer error
+         1645eee0d7f623660e6ce0f1aef4591788a0c9da usb: xhci-mtk: remove bandwidth budget table
+         
 
---===============6944718089813881481==
+--===============4750509875648315865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d26eee72d9b9-93c0651617a6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e64f737ad70fee4a3c57d147fc511e5d5014b5dd riscv: integrate alternatives better into the main architecture
-d14ca1f8d3039970e812fec1f01e7b46b62cc5fc riscv: allow different stages with alternatives
-a8e910168bbad5c901202727470e601eb2489ec1 riscv: implement module alternatives
-fbdba60b8119f60887974dd3d7adb537d71c18b4 riscv: implement ALTERNATIVE_2 macro
-e509204acb03785719cda632758b7ac6cd351e28 riscv: extend concatenated alternatives-lines to the same length
-49b290e430d390bacf7d3792d5654fa4b3212926 riscv: prevent compressed instructions in alternatives
-ffb0b0afbd7c2608b6608d693569f0e726efd26b riscv: move boot alternatives to after fill_hwcap
-100631b48ded73fcd8fdd7e17139cda92dfbfb79 riscv: Fix accessing pfn bits in PTEs for non-32bit variants
-ff689fd21cb13098305bae3f8d0c0065df2e2fc1 riscv: add RISC-V Svpbmt extension support
-e1026505c1a9c5abd61f6afdf396b9cf467834c7 riscv: remove FIXMAP_PAGE_IO and fall back to its default value
-1745cfafebdfb017f6871c80f9894910a76373a4 riscv: don't use global static vars to store alternative data
-a35707c3d850dda0ceefb75b1b3bd191921d5765 riscv: add memory-type errata for T-Head
-93c0651617a62a69717299f1464dda798af8bebb riscv: support for Svpbmt and D1 memory types
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652373350 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1652373349-d14f5e2d375f09a1c07a4358f849acbb06bd83f5
 
---===============6944718089813881481==--
+5f0b5f4d50fa0faa8c76ef9d42a42e8d43f98b44 1645eee0d7f623660e6ce0f1aef4591788a0c9da refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ9N2YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GcwP/iD05KtWMTxDG0HLZz4Z
+/0EQqS+QUilEM8ijB6e7T/ab4ph2/i/U89lRqcpMuv+BNcMNkqRkFBkxqzxYmjPw
+Ju3EpUV/dd2gDyPI3EyZCSqPrqh8o4e1uceN+QizTC+bxxYq+5dWG84TX738Bii+
+2AyqwYnG4agN/M3PAR7UY5fzkL3YArnKKy0ev/WYjia9oB/whby9cVbB7FjOtni3
+1mrQlUXRSeprghZM2N9rd6zfNP7JPhYX2hP2tP6cok57pzfd2xnIAPb0aJsBd3v5
+h2xqszmROPnVQbFnccRMd2Moo+cgfzMug5pbBRLj7MgJ9iSckmN1UyY3qQ3M9gmA
+WAf3Mk84J9Vvql3lLg7xV47o4AmE+zJFIAVqgZPzDTg9fPWxciiDiF2GT2gsCChl
+TONr8UAZTZZedwREIR363qnss4zatOHnl2cBRTGEsv9PMjYHnKo7xJ6NSEQKdEeB
+/QbE+l8OCIWIVccaZliMUkrl0eEbv2Vvl8fmJqxFPWeob6opn1mmmdAzLEMWWqh4
+g+FIGVZBi7iYg5WS3SK6JOxuONN5KiYY+dPb1raxgbPTd3BfMszywxuwDFZu3AqX
+OjxIs56tUmxN1ECcG4V2hp9l6CmXi7gDe9Xw55GOt7QLIE7sVYRKq7eFf6y93zsY
+223+zdEE/XQT/5qiQMqGheMS
+=vgG6
+-----END PGP SIGNATURE-----
+
+--===============4750509875648315865==--
