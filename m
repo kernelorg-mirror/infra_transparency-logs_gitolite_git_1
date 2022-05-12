@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 12 May 2022 13:05:12 -0000
-Message-Id: <165236071263.9873.16692706091016041692@gitolite.kernel.org>
+Date: Thu, 12 May 2022 13:05:33 -0000
+Message-Id: <165236073379.10059.5983063540656646893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 9be9ed2612b5aedb52a2c240edb1630b6b743cb6
-    new: feb9c5e19e913b53cb536a7aa7c9f20107bb51ec
+  - ref: refs/heads/hwmon-next
+    old: cb68dd6d63e20332c38c597b9593320c9b7209d1
+    new: 9230dca1ea110e18850fdae23dc8415a13d40778
     log: |
-         7ff960a6fe399fdcbca6159063684671ae57eee9 virtio: fix virtio transitional ids
-         feb9c5e19e913b53cb536a7aa7c9f20107bb51ec Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+         9230dca1ea110e18850fdae23dc8415a13d40778 hwmon: acpi_power_meter: convert to hwmon_device_register_with_info
          
