@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Thu, 12 May 2022 20:46:57 -0000
-Message-Id: <165238841738.27834.6926838178872931541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 12 May 2022 20:49:01 -0000
+Message-Id: <165238854101.28532.10314280175610696102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: ak
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: a4edca25ef3bd8780ae1dc54bc203973ec7f1640
-    new: d975fc16fd37b3e136114c01ced263de1456acf1
+    old: 6e0d39de38c4475dfd3f71d0538f6f985c0c922d
+    new: 5e196c1318bb7c0e0cd276cbe40591fb408116a1
     log: |
-         ad41a9236ac42511d9b9140854c2e5ee9691f17b Make genconfig use python3
-         d975fc16fd37b3e136114c01ced263de1456acf1 Merge pull request #104 from FruitFly638/master
+         5e196c1318bb7c0e0cd276cbe40591fb408116a1 foo
          
