@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6501828903814595507=="
+Content-Type: multipart/mixed; boundary="===============3516565017932809415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
-Date: Thu, 12 May 2022 13:06:04 -0000
-Message-Id: <165236076481.10336.7657969383941364953@gitolite.kernel.org>
+Date: Thu, 12 May 2022 13:10:13 -0000
+Message-Id: <165236101369.13169.4739824547240109237@gitolite.kernel.org>
 
---===============6501828903814595507==
+--===============3516565017932809415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,56 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 71a20aefb52483f6049242e55b1faa5ad4096543
-    new: e678ed0f99087c90323853915254712d274a4e59
-    log: revlist-71a20aefb524-e678ed0f9908.txt
+  - ref: refs/heads/linux-5.10.y-rebase
+    old: de7343e2ec02e9725e18247dcd30167f03c5cbaa
+    new: 89499ea3797829fc6bf5f93d389bbdc24e130f46
+    log: revlist-de7343e2ec02-89499ea37978.txt
 
---===============6501828903814595507==
+--===============3516565017932809415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71a20aefb524-e678ed0f9908.txt
+Content-Disposition: attachment; filename=revlist-de7343e2ec02-89499ea37978.txt
 
-edefc4b2a8e8310eee8e2b1714709ad5b2a93928 cifs: fix NULL ptr dereference in smb2_ioctl_query_info()
-a55e2d74232f63e411d979d0141009ba03e16d97 ALSA: cs4236: fix an incorrect NULL check on list iterator
-7b7a03d8b5f885ee037b26eb068008daaa15bfd9 ALSA: hda: Avoid unsol event during RPM suspending
-9017201e8d8c6d1472273361389ed431188584a0 ALSA: pcm: Fix potential AB/BA lock with buffer_mutex and mmap_lock
-51f7557c3cb905b4de13558ab65b9762485819c4 ALSA: hda/realtek: Fix audio regression on Mi Notebook Pro 2020
-928c06c114082513f69302654af883affc4bba5a mm: madvise: skip unmapped vma holes passed to process_madvise
-8b354e30326026dd2314b70ed829a83c1046e776 mm: madvise: return correct bytes advised with process_madvise
-608c501d70bf94edc2730e0fc8507461d845bb89 Revert "mm: madvise: skip unmapped vma holes passed to process_madvise"
-bc2f58b8e47cc01cb75e13e29930e4e547d6bc5c mm,hwpoison: unmap poisoned page before invalidation
-d5d5804acc16fce9726fbbd006660d8642e2c459 mm/kmemleak: reset tag when compare object pointer
-b101e74f9a72d106e87ed2a43c5f47f6e15c4a54 dm integrity: set journal entry unused when shrinking device
-fde8c5cad0881fb899a104a187c80fb8cfc8af97 drbd: fix potential silent data corruption
-d72866a7f5326160d2a9d945a33eb6ef1883e25d can: isotp: sanitize CAN ID checks in isotp_bind()
-e1a58498ef91f5713b8a0c41a8e09d5a640d8b7f powerpc/kvm: Fix kvm_use_magic_page
-210e7b43d4dad04ddc7782444bc5457089a85bce udp: call udp_encap_enable for v6 sockets when enabling encap
-7ce550a01b838a5e3d8efceb7aa79ec4c8a3fd29 arm64: signal: nofpsimd: Do not allocate fp/simd context when not available
-e85fa9f4e9258b60d3215eb4fb757b79dc2fb40e arm64: dts: ti: k3-am65: Fix gic-v3 compatible regs
-18864e8b837acd5fd22c272d5d2783e4cdbb5fe2 arm64: dts: ti: k3-j721e: Fix gic-v3 compatible regs
-ef3a87e0c4b0c959346a23cdcdbd174ac4f85414 arm64: dts: ti: k3-j7200: Fix gic-v3 compatible regs
-7ad5ccc3da7a85c33664d7e2181d0ac17d622674 ACPI: properties: Consistently return -ENOENT if there are no more references
-c119fb65f6ab4fa6118b75ec99686cbdf1813130 coredump: Also dump first pages of non-executable ELF libraries
-a1e6884b2d28e8f82b9a2c18060e70e61b609133 ext4: fix ext4_fc_stats trace point
-b35eb48471822a60f3dda67c57d49fd515c9a121 ext4: fix fs corruption when tring to remove a non-empty directory with IO error
-f67a1400788f550d201c71aeaf56706afe57f0da drivers: hamradio: 6pack: fix UAF bug caused by mod_timer()
-958e9b56de7b8dad732d67b00c632e2ec15c337a mailbox: tegra-hsp: Flush whole channel
-6e0d24598ca0a75864739515bd8094f3f69cab02 block: limit request dispatch loop duration
-ce1927b8cfed3084c6951916494195fc913da9c5 block: don't merge across cgroup boundaries if blkcg is enabled
-ba09b04173242c379d2442be979ab2f1971f2f8b drm/edid: check basic audio support on CEA extension block
-72af8810922eb143ed4f116db246789ead2d8543 video: fbdev: sm712fb: Fix crash in smtcfb_read()
-2ca2a5552a83ae16e87d5ddeb3c31c0495985a3e video: fbdev: atari: Atari 2 bpp (STe) palette bugfix
-7187c9beb70232d09798a8f583780c98bafb049c ARM: dts: at91: sama5d2: Fix PMERRLOC resource size
-5ac205c414c5d675f777a007eeea2b8f34b83675 ARM: dts: exynos: fix UART3 pins configuration in Exynos5250
-3cde68a1ebbc8dc054203ed5200013623a960d23 ARM: dts: exynos: add missing HDMI supplies on SMDK5250
-ef1df9168532cf00e65ccee43c0fe95f78f84d21 ARM: dts: exynos: add missing HDMI supplies on SMDK5420
-3aef4df6e1cc4bd5c9ac2b850d4451582dea47e9 mgag200 fix memmapsl configuration in GCTL6 register
-b26f400e4fe4e4a511e33f3188b61afa897d7361 carl9170: fix missing bit-wise or operator for tx_params
-86a926c3f00ef7c89569f74c73d4a67da9b8e359 pstore: Don't use semaphores in always-atomic-context code
-bf057eac9a34efce45d3b8ab2c0f7242703cc391 thermal: int340x: Increase bitmap size
-b02d33171dfb26a7285f6cb131d4159685395296 lib/raid6/test: fix multiple definition linking error
 27a6f495b63a1804cc71be45911065db7757a98c exec: Force single empty string when argv is empty
 c1db3f44f252e1f2e9ecd0e7decf23d3f943cafe crypto: rsa-pkcs1pad - only allow with rsa
 f38c318068ee12cdeeebbb3890edd5fe5876bb4a crypto: rsa-pkcs1pad - correctly get hash from source scatterlist
@@ -1049,6 +1010,45 @@ a2baa907c2818131cd05cca3c33cff955993f2b4 tty: n_gsm: fix wrong DLCI release orde
 bf98302e689d197692d3c91fbc253ab4ed2f4769 tty: n_gsm: fix software flow control handling
 2d74f61787e6ddb0b5423feb916712f7a290e04d perf symbol: Remove arch__symbols__fixup_end()
 f40e35e79c115a5fd4b11aad1cf439d6e870aaf3 Linux 5.10.114
-e678ed0f99087c90323853915254712d274a4e59 Merge tag 'v5.10.114' into linux-5.10.y
+e675ddf6854341444d23d72172c4703e678b7bf8 MAINTAINERS: Add entries for Toshiba Visconti5 watchdog driver
+2efdff4ba2c96f3ea34af1888e795ae483582c72 arm64: dts: visconti: Add watchdog support for TMPV7708 SoC
+a43bbaa050bb6e477a4dbefab9101880edc1f446 dt-bindings: gpio: Add bindings for Toshiba Visconti GPIO Controller
+400cd67f53f5988bb70e4f2769bb85b9ec60eea6 gpio: visconti: Add Toshiba Visconti GPIO support
+f80e960695036f2b5b0f4607b76f55284a6a859e MAINTAINERS: Add entries for Toshiba Visconti GPIO controller
+0aad6134f6a8389845f19dcd8db09fd4e80525a4 arm: dts: visconti: Add DT support for Toshiba Visconti5 GPIO driver
+95a0c87217e4c7fe254da32cc108f399b9e5a81a dt-bindings: net: Add DT bindings for Toshiba Visconti TMPV7700 SoC
+2fdb073ae31dde252facb6f38441a8ec7be48636 net: stmmac: Add Toshiba Visconti SoCs glue driver
+a9941959bf040eebf1d4d0f083e2e9562ff7707e MAINTAINERS: Add entries for Toshiba Visconti ethernet controller
+9c6fbad7c5cc67e3bb55057a4bc63701df82aae7 arm: dts: visconti: Add DT support for Toshiba Visconti5 ethernet controller
+b0ecf1e85e9bfad5d9ba0e1c5ef540c5f206d8de net: stmmac: Fix missing spin_lock_init in visconti_eth_dwmac_probe()
+9b0584bd07ba717f2072375acc9ad7e396798b15 dt-bindings: pwm: Add bindings for Toshiba Visconti PWM Controller
+47ba38eae8aa94dd0ad4bb65fad21fbb053e3b69 pwm: visconti: Add Toshiba Visconti SoC PWM support
+2bc275f36c9270831f6b52760ab18aee23d8c6d7 pwm: visconti: Fix and simplify period calculation
+1ceedc789b2a5f9a1b9228a3c3107b388d12b0bc arm64: dts: visconti: Add PWM support for TMPV7708 SoC
+668cf00d141668b290b149a3767b9026e373e040 arm64: defconfig: Visconti: Enable PWM
+6682a4dc79253b440d95bdc91cc1832c7e08a47a arm64: defconfig: Visconti: Enable GPIO
+d8bce0d849ae603f5c66272542d37037a75c4080 PCI: visconti: Add Toshiba Visconti PCIe host controller driver
+72037db55aa799fd45555cd700180b035515ed06 MAINTAINERS: Add entries for Toshiba Visconti PCIe controller
+5a32ed6ba90deb039003d2a3577f7a289c5f6823 arm64: dts: visconti: Add PCIe host controller support for TMPV7708 SoC
+842f16802495a350aa65f32714cdba263d8f7aba arm64: dts: visconti: Add 150MHz fixed clock to TMPV7708 SoC
+cea4c8844d0d107fa2bcd4a09bb6f160689c62bf arm64: dts: visconti: Add DTS for the VisROBO board
+20a999f7dc3935d30d10817c68b33be8c6dbb298 arm64: defconfig: Visconti: Enable PCIe host controller
+ff4463986e65aa98c14282c594aa05fc1b0ffe03 MAINTAINERS: rectify entry for ARM/TOSHIBA VISCONTI ARCHITECTURE
+9d810f76ccc411727e73bb491b52e630487f6440 net: stmmac: dwmac-visconti: Fix value of ETHER_CLK_SEL_FREQ_SEL_2P5M
+e208547cadff6f35a3a53f3919e597d0ea846aaa dt-bindings: clock: Add DT bindings for PLL of Toshiba Visconti TMPV770x SoC
+d661a61f9765107d6ecc39928d1c3e54619b458a dt-bindings: clock: Add DT bindings for SMU of Toshiba Visconti TMPV770x SoC
+2a9ccf096ed142661f6dc6190ada19cb770e72bf clk: visconti: Add support common clock driver and reset driver
+6262f1ed532f5b845939768a0f6b0a3ed7084cbc pwm: visconti: Simplify using devm_pwmchip_add()
+2c8668fcd06ea079631d42de9ee554c68622e148 MAINTAINERS: Add entries for Toshiba Visconti PLL and clock controller
+e4601802a80342942d14fcbc43fcd85352c49407 clk: visconti: Remove pointless NULL check in visconti_pll_add_lookup()
+5b74d12f3060c0280898589e8472fc9fde1e412b clk: visconti: Fix uninitialized variable in printk
+6515bd8d7f80c0f4d21b0cbd5effb4075937a673 clk: visconti: prevent array overflow in visconti_clk_register_gates()
+b6651ba5cd7149110f364916aee6b02b52ee2d74 net: stmmac: dwmac-visconti: Fix bit definitions for ETHER_CLK_SEL
+6d863450867cc38a1fd125bee362a3b2638fbcfe net: stmmac: dwmac-visconti: Fix clock configuration for RMII mode
+9d6a00957f97d8d145d4bd26d12ba045bf2f8234 net: stmmac: dwmac-visconti: No change to ETHER_CLOCK_SEL for unexpected speed request.
+d6b3c9253f5f6346d14469f083099a2d653222e0 net: stmmac: dwmac-visconti: Make use of the helper function dev_err_probe()
+70d8efc39f939a5f9a6e3a42a60b2aa740f03e10 dt-bindings: pwm: toshiba,visconti: Include generic PWM schema
+a9ff4b3e66b4a5ddff6de6496df87baff8718697 PCI: visconti: Remove surplus dev_err() when using platform_get_irq_byname()
+89499ea3797829fc6bf5f93d389bbdc24e130f46 gpio: visconti: Fix fwnode of GPIO IRQ
 
---===============6501828903814595507==--
+--===============3516565017932809415==--
