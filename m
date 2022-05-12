@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 12 May 2022 04:28:10 -0000
-Message-Id: <165232969003.6212.3015447148012392694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 12 May 2022 04:36:18 -0000
+Message-Id: <165233017877.11685.5333624909178258958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 5790a2fee02c48e28fde2ce7ea4765eeadcda0ba
-    new: a2aa95b71c9bbec793b5c5fa50f0a80d882b3e8d
+  - ref: refs/heads/master
+    old: 7d72c7c3ff05d4aa543d44412e7f57a6b4d06cba
+    new: 3fa931b7486a9a3b573218cd7e99011f1b661f92
     log: |
-         a2aa95b71c9bbec793b5c5fa50f0a80d882b3e8d bpf: Fix potential array overflow in bpf_trampoline_get_progs()
+         3fa931b7486a9a3b573218cd7e99011f1b661f92 Drop unneeded deps
          
