@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 12 May 2022 17:03:32 -0000
-Message-Id: <165237501262.9454.13537386433934049370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 12 May 2022 17:09:06 -0000
+Message-Id: <165237534689.12678.5658390024624842529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: d338e8760f3f442b3e4498598854130e55745eb9
-    new: 6f1a24593c227a4f392f454698aca20e95f0006c
+  - ref: refs/heads/objtool/core
+    old: 4bc78005887f6fca60b624822943708652fda01a
+    new: 21e350233b07619dbfc3ce606ff1fc468fce2d82
     log: |
-         74ee19043ebb12dd6b0aa243f8cdb7ccd63af857 backend: Fix indentation
-         6f1a24593c227a4f392f454698aca20e95f0006c Makefile: Suppress `-Wimplicit-fallthrough` when compiling `lex.yy`
+         21e350233b07619dbfc3ce606ff1fc468fce2d82 scripts: Create objdump-func helper script
          
