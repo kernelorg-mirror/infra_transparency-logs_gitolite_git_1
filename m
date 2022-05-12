@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 12 May 2022 15:43:39 -0000
-Message-Id: <165237021957.21072.11015543003591672633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 12 May 2022 15:50:03 -0000
+Message-Id: <165237060374.26126.12285247464566410359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 6934f0277872e5ce098be08786b8385b894997a6
-    new: 432ed0642a884ea36c24c074a98b921f6b91b283
+  - ref: refs/heads/for-5.19/io_uring-pbuf
+    old: 49b63c8245486d615c345cb54a7f4512a353f800
+    new: f40b213a20049423129701616c75766d157e30db
     log: |
-         432ed0642a884ea36c24c074a98b921f6b91b283 random: use static branch for crng_ready()
+         f40b213a20049423129701616c75766d157e30db io_uring: add support for ring mapped supplied buffers
          
