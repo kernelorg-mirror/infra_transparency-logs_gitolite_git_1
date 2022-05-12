@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 12 May 2022 14:16:31 -0000
-Message-Id: <165236499155.27216.12656226564795596914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
+Date: Thu, 12 May 2022 14:17:12 -0000
+Message-Id: <165236503236.27508.13093896732059992609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: d1f910f307946d0800d86a4fc5bfcafdb1c06a92
-    new: f585c290ef6be4255067c9dab9d066adff5eae14
-    log: |
-         f585c290ef6be4255067c9dab9d066adff5eae14 random: use static branch for crng_ready()
-         
+  - ref: refs/tags/fstests.vfstest.for-next
+    old: 0000000000000000000000000000000000000000
+    new: 20e085d3cf96a0a8a99bcc098d052e5a6c912f67
