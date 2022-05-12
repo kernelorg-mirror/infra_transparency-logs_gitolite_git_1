@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 May 2022 23:38:15 -0000
-Message-Id: <165239869538.9093.3617769509753939995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 12 May 2022 23:47:19 -0000
+Message-Id: <165239923904.16139.8950295763236679966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 9b19e57a3c78f1f7c08a48bafb7d84caf6e80b68
-    new: f0a65f815f640499990d446d4f5d9090634fdf27
+    old: 9fc6d4df7bf9a3eaebc178ef9f1cb1df1d33238b
+    new: bd1f29a90d09fee327276195a178c2969dd249d8
     log: |
-         f4826443f4d69d2c97c184952c085caf0936a7b8 mlxbf_gige: remove driver-managed interrupt counts
-         0df65743537dd6e1c8b0924714f14dc367cba2be skbuff: replace a BUG_ON() with the new DEBUG_NET_WARN_ON_ONCE()
-         fa926bb3e491221a76bd476a990019cd55df8a30 net: update the register_netdevice() kdoc
-         f0a65f815f640499990d446d4f5d9090634fdf27 net: lan966x: Fix use of pointer after being freed
+         129f31585cd40653e504b65afe96dc24cf707508 random32: use real rng for non-deterministic randomness
+         02350a831a4e60cb0968cdcbd81c965985853604 random: use symbolic constants for crng_init states
+         19301c334b2aeced52d4c9faea4cdda08ecedd6c random: avoid init'ing twice in credit race
+         ba558e785e774b3d1e264e183a78bc0941212091 random: move initialization out of reseeding hot path
+         e026c703f9d9bb6a231cc388606f73e8551f4827 random: remove ratelimiting for in-kernel unseeded randomness
+         fc456ce6ad86fe28bf956c0a99a25d3119c16a7a random: use proper jiffies comparison macro
+         3f40a5f3c64b8315ece816b06fa3434f62ad4974 random: handle latent entropy and command line from random_init()
+         6ccef63b768b98e6e0b54117ab714f16ca62014e random: credit architectural init the exact amount
+         bd1f29a90d09fee327276195a178c2969dd249d8 random: use static branch for crng_ready()
          
