@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 12 May 2022 17:11:59 -0000
-Message-Id: <165237551954.15495.7830217854477223622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 12 May 2022 17:17:03 -0000
+Message-Id: <165237582379.19751.16930429360842720657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-5.19
-    old: 5c26993c31f0f726aa1f90158f17ec95069b7cb2
-    new: 54de76c0123915e7533ce352de30a1f2d80fe81f
+  - ref: refs/heads/kunit
+    old: 38289a26e1b8a37755f3e07056ca416c1ee2a2e8
+    new: 9660209d9418f2295d31fea0d32e313e9b2c1200
     log: |
-         54de76c0123915e7533ce352de30a1f2d80fe81f kselftest/cgroup: fix test_stress.sh to use OUTPUT dir
-         
-  - ref: refs/heads/for-next
-    old: 953da11e98e05d71f4143020c8f5b7efe7ddbd9b
-    new: 67158d17fdd420f9c0c6bf69e20288c5304237d4
-    log: |
-         54de76c0123915e7533ce352de30a1f2d80fe81f kselftest/cgroup: fix test_stress.sh to use OUTPUT dir
-         67158d17fdd420f9c0c6bf69e20288c5304237d4 Merge branch 'for-5.19' into for-next
+         ad69172ec930075d25e14220841dd96375088d28 kunit: Rework kunit_resource allocation policy
+         dcbb2ee24601fabbb547fb0c747ca98b876fe5df lib/Kconfig.debug: change KUnit tests to default to KUNIT_ALL_TESTS
+         a02353f491622e49c7ddedc6a6dc4f1d6ed2150a kunit: bail out of test filtering logic quicker if OOM
+         c249764320cba8ab42821b0c7dad75f117c853e4 kunit: tool: update test counts summary line format
+         3f0a50f345f78183f6e9b39c2f45ca5dcaa511ca kunit: tool: stop using a shell to run kernel under QEMU
+         9660209d9418f2295d31fea0d32e313e9b2c1200 kunit: tool: print clearer error message when there's no TAP output
          
