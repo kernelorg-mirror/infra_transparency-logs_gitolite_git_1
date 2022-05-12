@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 12 May 2022 12:57:16 -0000
-Message-Id: <165236023628.4004.3895013731713052329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 12 May 2022 13:00:27 -0000
+Message-Id: <165236042712.6586.363740388807284759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/bug-entry
-    old: 9989a7f674027634171ccd25c5248e00d4dfc0b9
-    new: f0e05be797a16f4fc2401eeb88c8450dcbe61df6
+  - ref: refs/heads/master
+    old: 982c97eede13f3cb98c471c1b8fc5a12686ef85c
+    new: b33177f1d62bea7dd8a7dd6775116958ea71dc6b
     log: |
-         f0e05be797a16f4fc2401eeb88c8450dcbe61df6 bug: Use normal relative pointers in 'struct bug_entry'
+         a14857c27a505bc7ebcef6311424274b2f42f846 rtnetlink: verify rate parameters for calls to ndo_set_vf_rate
+         e0d0e1fdf1ed9dcbca60409af0856fa17f0021cb nfp: VF rate limit support
+         b33177f1d62bea7dd8a7dd6775116958ea71dc6b Merge branch 'nfp-vf-rate-limit-support'
          
