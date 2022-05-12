@@ -1,50 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 12 May 2022 12:50:03 -0000
-Message-Id: <165235980345.32307.18432878344376153349@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5498760791907259789=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 12 May 2022 12:51:23 -0000
+Message-Id: <165235988312.347.776454391523307168@gitolite.kernel.org>
+
+--===============5498760791907259789==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-5.19/block
-    old: 2a371f7d5fa575010b915e325c5d20b9ad0d5d5a
-    new: 5d2ae14276e698c76fa0c8ce870103f343b38263
-    log: |
-         5ce7729f25c16d5045deff4c9577e6d565da2d8d block: reorder the REQ_ flags
-         5d2ae14276e698c76fa0c8ce870103f343b38263 block: Fix the bio.bi_opf comment
-         
-  - ref: refs/heads/for-5.19/io_uring
-    old: 83549c0e2c481cc1565ed9ede1b108a3b1a34cfb
-    new: d313852e5a4e17149bc44be9ea74d32c7776691d
-    log: |
-         dc18ad209d01bc2efd5497bfc7755b05063e8d17 io_uring: allow allocated fixed files for openat/openat2
-         09d0e5a31cd2f16d8e01c0331e9118a4a186dfb3 io_uring: allow allocated fixed files for accept
-         fe638ab72b89a3b781e7d7f5b08aec9191db12b9 io_uring: bump max direct descriptor count to 1M
-         d313852e5a4e17149bc44be9ea74d32c7776691d io_uring: add flag for allocating a fully sparse direct descriptor space
-         
-  - ref: refs/heads/for-next
-    old: ea363bf15fca3271c1f97ae3d28f2a05c73ea9f7
-    new: 4881efac2eba99e2c50de472d5f46db4b7fa21a5
-    log: |
-         dc18ad209d01bc2efd5497bfc7755b05063e8d17 io_uring: allow allocated fixed files for openat/openat2
-         09d0e5a31cd2f16d8e01c0331e9118a4a186dfb3 io_uring: allow allocated fixed files for accept
-         fe638ab72b89a3b781e7d7f5b08aec9191db12b9 io_uring: bump max direct descriptor count to 1M
-         d313852e5a4e17149bc44be9ea74d32c7776691d io_uring: add flag for allocating a fully sparse direct descriptor space
-         ab8ce0a37461bf7297aeb54d452c4886204853be Merge branch 'for-5.19/io_uring' into for-next
-         5ce7729f25c16d5045deff4c9577e6d565da2d8d block: reorder the REQ_ flags
-         f47d7e59b7ddd4f6e56c8d75d5e1aad47b3de381 Merge branch 'for-5.19/block' into for-next
-         5d2ae14276e698c76fa0c8ce870103f343b38263 block: Fix the bio.bi_opf comment
-         4881efac2eba99e2c50de472d5f46db4b7fa21a5 Merge branch 'for-5.19/block' into for-next
-         
-  - ref: refs/heads/io_uring-5.18
-    old: a196c78b5443fc61af2c0490213b9d125482cbd1
-    new: beed4eed5fc1fe18f2b78b214450e28d786c1e49
-    log: |
-         2d2d5cb6ca8424fa849ebb4edb8e8022c13860c7 io_uring: fix ordering of args in io_uring_queue_async_work
-         beed4eed5fc1fe18f2b78b214450e28d786c1e49 io_uring: only wake when the correct events are set
-         
+  - ref: refs/heads/master
+    old: 02aae530d29a71169255133ae283f3ad3951f5ee
+    new: 20806fb178111cee9efd56b61698fa3f690ef3b9
+    log: revlist-02aae530d29a-20806fb17811.txt
+
+--===============5498760791907259789==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-02aae530d29a-20806fb17811.txt
+
+d12fbc38471172287299653b810f72818d4b389a init: call time_init() before rand_initialize()
+14105141da293e74075ef72b21dc1c41eab6e907 timekeeping: Add raw clock fallback for random_get_entropy()
+0bf185f4f4e3ad015533a23c04663af0bfa450d7 m68k: use fallback for random_get_entropy() instead of zero
+6f0225e7dd0511ff84140f4f40b2b85647083396 riscv: use fallback for random_get_entropy() instead of zero
+e3cb07a441c4242bcd12f4f21747e1d3abd007bc mips: use fallback for random_get_entropy() instead of just c0 random
+11c17ec4a1fb8494fa922795c8161fdc7c58f46d arm: use fallback for random_get_entropy() instead of zero
+88d8791ea82382a43a354bc19d081da0414f5041 nios2: use fallback for random_get_entropy() instead of zero
+79aee9360c0ed1302f1729ef3c0ee64e5f782f1c x86/tsc: Use fallback for random_get_entropy() instead of zero
+483bbc7488fa8a5b7e817fe98d4b7b667f5f07e6 um: use fallback for random_get_entropy() instead of zero
+5362a03b65a5837901293dd176a0602877771c82 sparc: use fallback for random_get_entropy() instead of zero
+1a50365921a6b895f3e3a95cec626e6222199f3d xtensa: use fallback for random_get_entropy() instead of zero
+f8a84d3b737e984b89e722f2ba1f72b912cd7714 random: insist on random_get_entropy() existing in order to simplify
+1b5aa9d053e5f4bb7ce7d23bfa796f7597014d4b random: vary jitter iterations based on cycle counter speed
+ce72d814553392af399a05dbfd7d7ed3aa579fdd random: mix in timestamps and reseed on system restore
+d661b94e72253ca956e758560a5aaff6d8b1f9c7 random: do not use batches when !crng_ready()
+a315c03df2faf1494b322f6b71f9ee9e32b15434 random: use first 128 bits of input as fast init
+88c6e6e9f6e60d61e11c7b8ce31361b7176f691e random: do not pretend to handle premature next security model
+42ff82ac81dd282047ed99861d7a74950a2bed74 random: order timer entropy functions below interrupt functions
+c598f3dc7c6e0277751311ba535fafc13830a702 random: do not use input pool from hard IRQs
+1c6f0c67ebcd4f824648f90971a7412d553a6c68 random: help compiler out with fast_mix() by using simpler arguments
+0185d668f5e5cecf633954246857fa92d297f483 siphash: use one source of truth for siphash permutations
+ff6fd8cc3b1813900197686e128be1494856de36 random: use symbolic constants for crng_init states
+7835ce7412a49b100dab51f8347def04f61ceed0 random: avoid init'ing twice in credit race
+fdb1e421c9cb498e9a645e8a7658bc2069dca96a random: move initialization out of reseeding hot path
+637b2809994b1ea4412ecf125c93c451cb9cbd1a random: remove ratelimiting for in-kernel unseeded randomness
+39c0b70faea8a0ee7c8470b893a8df8d309d202f random: use proper jiffies comparison macro
+0fef2a2488a05297d150b42250e5b4675f6435c4 random: use static branch for crng_ready()
+20806fb178111cee9efd56b61698fa3f690ef3b9 random: handle latent entropy and command line from random_init()
+
+--===============5498760791907259789==--
