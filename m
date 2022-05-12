@@ -1,41 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============4292511245934414026=="
+Content-Type: multipart/mixed; boundary="===============5893926590437919807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 12 May 2022 13:18:31 -0000
-Message-Id: <165236151185.18696.15994803044377142719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Thu, 12 May 2022 13:19:54 -0000
+Message-Id: <165236159426.19204.8711631935694515893@gitolite.kernel.org>
 
---===============4292511245934414026==
+--===============5893926590437919807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 20806fb178111cee9efd56b61698fa3f690ef3b9
-    new: 11810929f4c3d8bfc9412753a54be30b468b1910
-    log: revlist-20806fb17811-11810929f4c3.txt
+  - ref: refs/heads/fixes
+    old: 348c71344111d7a48892e3e52264ff11956fc196
+    new: ee8348496c77e3737d0a6cda307a521f2cff954f
+    log: |
+         ee8348496c77e3737d0a6cda307a521f2cff954f KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
+         
+  - ref: refs/heads/next-test
+    old: 94971b64cc4ea9040c3b4b846fd664f56adfed38
+    new: e893cdee5343060f224768d7657829c2da2e2848
+    log: |
+         1e0aa861fb3c0b030f6c7c42e102eb7b2bbe2c38 powerpc: Export mmu_feature_keys[] as non-GPL
+         c38c1b0720d8b7f5bc11f4557269ba3ff603c857 powerpc/vdso: Remove unused ENTRY in linker scripts
+         e893cdee5343060f224768d7657829c2da2e2848 powerpc/vdso: Link with ld.lld when requested
+         
 
---===============4292511245934414026==
+--===============5893926590437919807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20806fb17811-11810929f4c3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7fac80b2c8a57723964bea09f933f053650aa154 random: do not use input pool from hard IRQs
-1e528edfcf225b525536c45cfa951516eab4e613 random: help compiler out with fast_mix() by using simpler arguments
-808dbfe74c6177fa2e592c5f7e8a3aa82300e595 siphash: use one source of truth for siphash permutations
-968f3d94ad1d5355825d4cf0c62bcce1e109a812 random32: use real rng for non-deterministic randomness
-299198a9f58cb33e3c463a19fb4f8a27313db8d9 random: use symbolic constants for crng_init states
-c3bb40f539915dc6d84dfe15e1265d5bded452c4 random: avoid init'ing twice in credit race
-501e7193408510ccf5c53c8e2c8d0beec19faf3b random: move initialization out of reseeding hot path
-945dd86430c016789a423ec61a3373da3ea558f6 random: remove ratelimiting for in-kernel unseeded randomness
-99aa036626145ad11a7975a3b66b9609a872c7bd random: use proper jiffies comparison macro
-df71474e4ff4dcf29c5ca414b505e927d7f83d0c random: use static branch for crng_ready()
-11810929f4c3d8bfc9412753a54be30b468b1910 random: handle latent entropy and command line from random_init()
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1652361582 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1652361582-b1e73633229d4216463e80d96ea910fb49a8fe22
 
---===============4292511245934414026==--
+348c71344111d7a48892e3e52264ff11956fc196 ee8348496c77e3737d0a6cda307a521f2cff954f refs/heads/fixes
+94971b64cc4ea9040c3b4b846fd664f56adfed38 e893cdee5343060f224768d7657829c2da2e2848 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmJ9CW4THG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgEa6EACzPBeIIuJti156pOYvvJcYgE+UwV2E
+wKi4SSQgkQQznvEDE9kakiFAsJclU5cLZJ1NPhXp9C1WmLhw07fzbvzIfWDgWBf3
+hQyPM6igNayD37nKh2p78bPeG8mf7Zg6QTP80mRkyUEzJH2CIuCQ6DJVdYhtNdlh
+Wf/IcWeRgGU2UeJINEo7pf/2MmmoPWZQAl5Ys+SZMd0m2d6Uy4VplWFuT4o3s7PC
++adXcO+twyBthoK2a1pUEk5/8GpnG0748/Ma9NR/wb7uZAc4adfIlC5dajFF/A4u
+HDbyHRtbxlbBInY7uV0w0sAtzM4f03dbPq7vxL/5aiLhY49ukyCg5DZ6asNE102t
+XTciGjcsO9W6mw5XwJIrKgqZzS98exPB2zyKm6AwQarU/yUoJ9wX0kwc0vyGvFET
+12j80mAtvyILlFJk/0VPVBKKMmNGp9D0Vyn5PqUm2ccgQFcuL05C+Wk6qf6AKB0Q
+Y6fFglPFK7h4OsPILE+S/FKrWKBfFIAL9kqPXfNjr4MntxhmTEuy8/lqHZwTeUnm
+Ev+iD//gH9tzxv277k0k0qOXwBFEc++xE/Ww9v2HIQNdi3gOQYdHtELZcgSrEXN0
+cPa+3ToqGaqxWVxaYQ25lJZKDbDjX5b7pZfSa36OxFOYzxm/gE/PRgWAXxjMkDDB
+as/olGR+F8yr7A==
+=M3ir
+-----END PGP SIGNATURE-----
+
+--===============5893926590437919807==--
