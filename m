@@ -1,45 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4180567853454353328=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 12 May 2022 19:42:50 -0000
-Message-Id: <165238457095.15844.10689435124027554822@gitolite.kernel.org>
-
---===============4180567853454353328==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 12 May 2022 19:58:07 -0000
+Message-Id: <165238548756.25934.6864796654448360537@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a
-    new: 0ac824f379fba2c2b17b75fd5ada69cd68c66348
-    log: revlist-c5eb0a61238d-0ac824f379fb.txt
-
---===============4180567853454353328==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5eb0a61238d-0ac824f379fb.txt
-
-2685027fca387b602ae565bff17895188b803988 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-c25d7f32e3e209462cd82e6e93e66b72dbb2308f platform/x86: thinkpad_acpi: Convert btusb DMI list to quirks
-455cd867b85b53fd3602345f9b8a8facc551adc9 platform/x86: thinkpad_acpi: Add a s2idle resume quirk for a number of laptops
-aa2fef6f40e6ccc22e932b36898f260f0e5a021a platform/x86: thinkpad_acpi: Correct dual fan probe
-2cdfa0c20d58da3757054797c2974c967035926a platform/x86/intel: Fix 'rmmod pmt_telemetry' panic
-ed13d4ac57474d959c40fd05d8860e2b1607becb platform/surface: gpe: Add support for Surface Pro 8
-44acfc22c7d055d9c4f8f0974ee28422405b971a platform/surface: aggregator: Fix initialization order when compiling as builtin module
-ceaf69f8eadcafb323392be88e7a5248c415d423 fanotify: do not allow setting dirent events in mask of non-dir
-9be9ed2612b5aedb52a2c240edb1630b6b743cb6 Merge tag 'platform-drivers-x86-v5.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-846a3351ddfe4a86eede4bb26a205c3f38ef84d3 writeback: Avoid skipping inode writeback
-7ff960a6fe399fdcbca6159063684671ae57eee9 virtio: fix virtio transitional ids
-c1ad35dd0548ce947d97aaf92f7f2f9a202951cf udf: Avoid using stale lengthOfImpUse
-feb9c5e19e913b53cb536a7aa7c9f20107bb51ec Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-c37dba6ae45c2f0ec9913d7c96790fc00976d3d4 Merge tag 'fixes_for_v5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-0ac824f379fba2c2b17b75fd5ada69cd68c66348 Merge branch 'for-5.18-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-
---===============4180567853454353328==--
+  - ref: refs/heads/hwmon-next
+    old: cb68dd6d63e20332c38c597b9593320c9b7209d1
+    new: 07d762982fb97738789dfe8454898510fa21980b
+    log: |
+         6261cdbd476787d974cb036dce52c1b72a96ae35 hwmon: (as370-hwmon) Use HWMON_CHANNEL_INFO macro
+         92125323e3119002554e84cb2409568da6e1fd10 hwmon: (ltc2992) Use HWMON_CHANNEL_INFO macro
+         ca7d1ea6659aef55e6d5cb8f64eb1b416748c13b hwmon: (mr75203) Use HWMON_CHANNEL_INFO macro
+         989d792e9c237f06ff0c6db5ab726dc67e2764a1 hwmon: (peci/cputemp) Use HWMON_CHANNEL_INFO macro
+         d132ef9a70ce3775459a09238f320548b70db90e hwmon: (peci/dimmtemp) Use HWMON_CHANNEL_INFO macro
+         15b474294371764bafdea23ee69f0ae4cff81d7f hwmon: (pwm-fan) Use HWMON_CHANNEL_INFO macro
+         07d762982fb97738789dfe8454898510fa21980b hwmon: (sl28cpld-hwmon) Use HWMON_CHANNEL_INFO macro
+         
