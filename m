@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 13 May 2022 11:22:39 -0000
-Message-Id: <165244095944.1088.13184714676668655287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 13 May 2022 11:24:00 -0000
+Message-Id: <165244104086.1624.18206650052166043685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: baabb7f530e8a3f0085d12f4ea0bada4115515d3
-    new: 3b42055388c30f2761a2d9cd9af2c99611dfe457
+    old: 49bb39bddad214304bb523258f02f57cd25ed88b
+    new: 9e2bc267e78068b512d4409b884662f425adb1ec
     log: |
-         a9a347655d224fa2841877957b34fc9d491fc2d7 Bluetooth: MGMT: Add conditions for setting HCI_CONN_FLAG_REMOTE_WAKEUP
-         3b42055388c30f2761a2d9cd9af2c99611dfe457 Bluetooth: hci_sync: Fix attempting to suspend with unfiltered passive scan
+         4915d50e300e96929d2462041d6f6c6f061167fd inet: add READ_ONCE(sk->sk_bound_dev_if) in INET_MATCH()
+         f0cf4000f5867ec4325d19d32bd83cf583065667 net: axienet: Be more careful about updating tx_bd_tail
+         9e2bc267e78068b512d4409b884662f425adb1ec net: axienet: Use NAPI for TX completion path
          
