@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 13 May 2022 12:11:07 -0000
-Message-Id: <165244386747.1163.17660854630319528960@gitolite.kernel.org>
+Date: Fri, 13 May 2022 12:14:24 -0000
+Message-Id: <165244406496.3575.5206914637339093673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,17 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: f4b6e0b19c56284b435165131dc7f85ec3a3627f
-    new: 11743232447c910573b5e366efd115e9c7008695
+    old: 11743232447c910573b5e366efd115e9c7008695
+    new: 64d820f13d5a1bef8b99942e72ed9a8d0545edc7
     log: |
-         4da0d03cddc203be1ac92eec86482ab507c9e365 random: move initialization out of reseeding hot path
-         7f18bf4758d6f7a661e2422be8c41cca9bb83506 random: remove ratelimiting for in-kernel unseeded randomness
-         9a57081849cbf37cdb0852eb6e5d9857235ccc33 random: use proper jiffies comparison macro
-         9bb093bdc1d8e628f84e4f88efd1ca2e0724053f random: handle latent entropy and command line from random_init()
-         99cd76ef5c0a50bec90ffe301d138cb7c183f0e9 random: credit architectural init the exact amount
-         bd943e9c7edf7e41b48e1e04a1043c31832b135f random: use static branch for crng_ready()
-         ea523c51e0d66afba212cb89a2296fa34a3adf97 random: remove extern from functions in header
-         a2ed88ccf782ad54b92f6db20c8b3d7218208c58 random: use proper return types on get_random_{int,long}_wait()
-         11743232447c910573b5e366efd115e9c7008695 random: make consistent use of buf and len
+         d6bbae76c28841f0397456153160a95662b1100c random: avoid initializing twice in credit race
+         3f7961fdfd35b95d02d5e1173879faba05bc20b9 random: move initialization out of reseeding hot path
+         8bf21e732159b43fe2de434f031feb8d4842fcdc random: remove ratelimiting for in-kernel unseeded randomness
+         0f3102e798c9a26987be7f69e51e9e4d29879f3c random: use proper jiffies comparison macro
+         76eb646593f98dfbd01440090181e74af5826d13 random: handle latent entropy and command line from random_init()
+         4858bab5029ab9545b31749220a480150bb61cf2 random: credit architectural init the exact amount
+         366b30e6d9deae6f2b3fd4beb802d7b635db9422 random: use static branch for crng_ready()
+         e332087ce6d2c002ff17dc44f6c2d5d3764e5158 random: remove extern from functions in header
+         484a5bc5e40c5e8a0add730c0f46fb8cf90c4340 random: use proper return types on get_random_{int,long}_wait()
+         64d820f13d5a1bef8b99942e72ed9a8d0545edc7 random: make consistent use of buf and len
          
