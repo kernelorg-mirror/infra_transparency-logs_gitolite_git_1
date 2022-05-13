@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0275149943988916004=="
+Content-Type: multipart/mixed; boundary="===============8476266320341309438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 13 May 2022 17:24:33 -0000
-Message-Id: <165246267386.18835.11289370187857665@gitolite.kernel.org>
+Date: Fri, 13 May 2022 17:25:22 -0000
+Message-Id: <165246272235.20551.3624113754328246547@gitolite.kernel.org>
 
---===============0275149943988916004==
+--===============8476266320341309438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 04ad4280a19bd39e0fe83354a68b8e450bf68c36
-    new: cef08ee555eaacf09a5e60d21bad0a7532bde2e9
-    log: revlist-04ad4280a19b-cef08ee555ea.txt
+  - ref: refs/heads/net-mlx4
+    old: dc5306a8c0eace6c113aded2e36ae5e15fdca4d7
+    new: 04c494e68a1340cb5c70d4704ac32d863dc64293
+    log: revlist-dc5306a8c0ea-04c494e68a13.txt
 
---===============0275149943988916004==
+--===============8476266320341309438==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-04ad4280a19b-cef08ee555ea.txt
+Content-Disposition: attachment; filename=revlist-dc5306a8c0ea-04c494e68a13.txt
 
 290c4a902b79246ec55e477fc313f27f98393dee RDMA/rxe: Fix "Replace mr by rkey in responder resources"
 b4f5c6b2e52b27462c0599e64e96e53b58438de1 ASoC: wm8958: Fix change notifications for DSP controls
@@ -218,6 +218,5 @@ d8290cbe1111105f92f0c8ab455bec8bf98d0630 net: ipa: record proper RX transaction 
 8d017efb1eaad69f148bb99ee2c7020abdedfad1 net: ipa: get rid of a duplicate initialization
 9646ee44b53f7ef5a5135a1b5245089d4a0755fb Merge branch 'ipa-fixes'
 04c494e68a1340cb5c70d4704ac32d863dc64293 Revert "tcp/dccp: get rid of inet_twsk_purge()"
-cef08ee555eaacf09a5e60d21bad0a7532bde2e9 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============0275149943988916004==--
+--===============8476266320341309438==--
