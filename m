@@ -1,21 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 13 May 2022 15:53:21 -0000
-Message-Id: <165245720164.23651.12161928168425462358@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0417743333174863045=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 13 May 2022 15:53:39 -0000
+Message-Id: <165245721906.23812.8987116270865434018@gitolite.kernel.org>
+
+--===============0417743333174863045==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 910edb5ff5fbe5ad5460c750c7a62e92c4eb0aa5
-    new: 17f72f0d72d49f4c173898d2e4437cf800c803cd
+  - ref: refs/heads/for-5.19
+    old: 75d6fe48a21a0ea1565228c12b9c16f3fb37b673
+    new: 22d35e40419a2ac0914fb6b05c8781c9af8d4126
     log: |
-         4fb0ea201b5070eaabb4a1d02ff8592f637c77d3 ath12k: don't call ath12k_pci_set_l1ss
-         4e403b73c3946fb0e64cba7b3118615182b6c0f7 ath12k: Fix inaccessible debug registers
-         17f72f0d72d49f4c173898d2e4437cf800c803cd ath12k: Add support to detect MIC failure
+         22d35e40419a2ac0914fb6b05c8781c9af8d4126 spi: spi-cadence: Update ISR status variable type to irqreturn_t
          
+
+--===============0417743333174863045==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1652457217 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1652457217-e924344e7e03dd340bead2752a28a4343cf6b929
+
+75d6fe48a21a0ea1565228c12b9c16f3fb37b673 22d35e40419a2ac0914fb6b05c8781c9af8d4126 refs/heads/for-5.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJ+fwEACgkQJNaLcl1U
+h9DNtAf+KivEYRL/Ge3RYVryGs/mZlRd6NzMmUqWMDyjtvDneO4NS8HZvcmi/VkH
+oPSosZZN7nSIJYYF4TH1q0DFFcBivHi4phUN4mnmnZChBCBZMiwtm075BZdIbah7
+zptj31v1FqGHkuwGtbuO/doUxIVGhPSUniX2mKt2R+cdtDRrBwxiYJPyT09oKjBe
+vOLvV0208whJ0yt2RWT2dzFdmOu1C0CDVVP+cIPmecNwCG2uYdLhUBiW86/fvwBm
+EK1UXEIPg1CAlE9Kn7ZbjvG1NPJhUF31vlYNvnPoTIGpIK5TzzqA7ncOKFuuTAxx
+bgAvKTyCsKf3h3IDFsnTGiJHfVa/1A==
+=syzD
+-----END PGP SIGNATURE-----
+
+--===============0417743333174863045==--
