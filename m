@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 13 May 2022 12:43:13 -0000
-Message-Id: <165244579366.22747.1104050246786363482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 13 May 2022 12:43:34 -0000
+Message-Id: <165244581448.23035.844700267799930281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/tags/mvebu-arm-5.19-1
-    old: 0000000000000000000000000000000000000000
-    new: 353063d0d9138a704926b19f66a0209298b622dd
+  - ref: refs/heads/gicv3/fixes
+    old: bdec33a0ca9587071f848711375463d213d00e63
+    new: 8c8ffe6486c4291aa8a702347a9d265c5fa453e3
+    log: |
+         c3676db63536acc46bba58b69659f565a0d01cb1 irqchip/gic-v3: refactor ISB + EOIR at ack time
+         8c8ffe6486c4291aa8a702347a9d265c5fa453e3 irqchip/gic-v3: fix priority mask handling
+         
