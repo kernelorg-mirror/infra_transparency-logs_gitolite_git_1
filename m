@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6034923628144664585=="
+Content-Type: multipart/mixed; boundary="===============2826386589095624256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 May 2022 14:22:34 -0000
-Message-Id: <165245175415.28598.13777481466820185636@gitolite.kernel.org>
+Date: Fri, 13 May 2022 14:22:35 -0000
+Message-Id: <165245175544.28665.7722110311736901554@gitolite.kernel.org>
 
---===============6034923628144664585==
+--===============2826386589095624256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,65 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.17.y
-    old: 841daaf9b4bb626626f633c89b997ab4a232580c
-    new: a8480fa60862622d04d6440efdfda7e367721037
-    log: revlist-841daaf9b4bb-a8480fa60862.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 2af55b58fbc7f8e8aef51c592da3a3a71690caf2
+    new: 15301ad6000946aa71e6c14b3f701b34e5e694eb
+    log: revlist-2af55b58fbc7-15301ad60009.txt
 
---===============6034923628144664585==
+--===============2826386589095624256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652451752 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652451753 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1652451749-6cabc8b77d272c665a0b027b63623b9cc3471b07
+nonce 1652451752-6c6c98e44fd26325228207e83020cc7b50465973
 
-841daaf9b4bb626626f633c89b997ab4a232580c a8480fa60862622d04d6440efdfda7e367721037 refs/heads/linux-5.17.y
+2af55b58fbc7f8e8aef51c592da3a3a71690caf2 15301ad6000946aa71e6c14b3f701b34e5e694eb refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ+aakbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UKQP/RoLhJgHcyL8/1IRzW9h
-OeKCdWipjRCaU5C2GwmIdRhCYeXlcm67SHeprd7krgUNxE8axBPufiivEuQBYeA5
-5DFPC6y55ZvIaJrQ3xcGZQecqSqXonPHstQu+hlI5KGkJLnW9enQQUZZ0NFoqu7h
-2ZmdM4J/cpG07a5sFfW+8K3vxXp2kg1xyRBF0psVRa12Daka/HeOSMcdx/gH/WAI
-S3cpODQxuVMJYuQtwYqa2Q3Trq7fSRJFSAY+g2lDZ6bsNGjDHBeRgH0F3cpip5Ll
-BKna9wLfyc7Fs5crp5fmThIZYpDFIEIw2tPvFkeblOi5fLZvVD91Y5rlmKQYsG9M
-/fHw9+7gsh/ayF6Vepe2yUDQ2bn5UNz5H6FCeEQF8QMsnqgoDi6ntKfUIeJpm3Wd
-K5FEoTldpI9ArRCOmarCvUYSoQO2FMz0EoxjKvnc8pJTziLuE7gzvOfO+iQR4aaI
-uDAX8RmwMyQyr5FoEvc7DcnqI2WwWA7VyfBwKNFKBxmQwOlX00QDJxiZzuW/1TXz
-EYirr5zV2/i/z+Bn2fTGznxcgTF/AKGTzbY+RxFJRdxUusGaJWQxHiijtZ6D/Gog
-eqZso3aVRRK6vuH0iuqsdVZEfRXsoTcud/zZ8ImF9lPX4+oogCb8hnpOj51sbFCa
-PARyV59ar8d8DSj30aeBqLnX
-=JR3E
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4NAQAL//ITfhsQTn1Fofgt6i
+YeZusvZ+KyP1OSVl9eBOXcTktdWMsBPfrG94GepxdUU4PDkN7MFxShvWRWZbHz4y
+iB+PDvDcXfUnoM54srf9PfzpOQv+A7cLUcDOa7Y25u9BbEsI/zXOJu3Ui1stcmOO
+un1ACpJ1ePg6Z8qr5nm42pjZ+WjIrBwA8eBobFe7CDQttpUsraLsfSDfH94IjjPK
+9e64/ulQ+JQZIpb8E6C7ZLT4Z9i6raVUIZvv/yqpU+qMmC0pu1TgUqfh4hdVJa6/
+pB3u/B+XFHXD+Xs9viDXRoFoKc5gULbTQ40ED83Tmw5vFtyFRW/Xa9pctXjADE2Y
+iN2V2D5oeqAm/g1J7PKy/nI/0H3zaJCmmpWsGOOgW4uUHy3eVaGkW2s27mQAQD6x
+7ceIBE3NZPV8MLwCCXzyPfb7Wt4mjDYQda5D+y9ucDrlrBvIW6n4zVH/QDBkacTm
+Uvbdp7g/Iyt9qVuC7gsXrDmw8ZdZ9E2ydRPy7l9GxlUAL5o3kgiyS/yWmxDbr930
+IC2fB8Nc1ec7A24Ez4h5NzCxSeAubasVwY7zIWUAfxoHzjifpd896n9zKHQVWC3+
+rSi36brXT5vhPtWAk7TXHe8XHKvqY3+EFu+naZKgIpnDGkpPCA/ARMy7WvTwTaFY
+byNHx2y+KIIEdfHd0nkbD9/r
+=iTLp
 -----END PGP SIGNATURE-----
 
---===============6034923628144664585==
+--===============2826386589095624256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-841daaf9b4bb-a8480fa60862.txt
+Content-Disposition: attachment; filename=revlist-2af55b58fbc7-15301ad60009.txt
 
-972eac71170d0fd227c17f3ebd54820e5f5acbc6 Bluetooth: Fix the creation of hdev->name
-824adabdb1a1a6ad36b03d78cb478d21060fc47f rfkill: uapi: fix RFKILL_IOCTL_MAX_SIZE ioctl request definition
-50097a103a34c5db9277c5c968f2d1e6a8b973aa udf: Avoid using stale lengthOfImpUse
-2fb43d559b2b1abb6ddd6b4c1b1345222efe2e58 mm: fix missing cache flush for all tail pages of compound page
-1288004376cf145adaa7f62b4b0e4c3c9e09036a mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
-99b5ae47eeddd260d83dc98ad07fe96382bb4943 mm: hugetlb: fix missing cache flush in hugetlb_mcopy_atomic_pte()
-a07e26e51ca9b53aff38e94d24c173a318a95d2d mm: shmem: fix missing cache flush in shmem_mfill_atomic_pte()
-80e2f3b68ca85aff7d606b60c40245f82f7687d0 mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
-941ca837d72b8910895cb2b33bac307f057c4418 mm/hwpoison: fix error page recovered but reported "not recovered"
-392b834b5d4164bc4e89698d8d31e99af6ed914c mm/mlock: fix potential imbalanced rlimit ucounts adjustment
-f4d8c8ea81ff609000c2a2b0970b083e765d7179 mm,migrate: fix establishing demotion target
-5531d04eade48bc75c415387cd70e2bf0b3f127a mm: fix invalid page pointer returned with FOLL_PIN gups
-a8480fa60862622d04d6440efdfda7e367721037 Linux 5.17.8-rc1
+d24f48767d5eda4c70a2e0c024e4f851044a65f9 MIPS: Use address-of operator on section symbols
+1bcb92ef9768210c98281a274d02b42cb749a7f0 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+fcd7886ebcb140b34841565d0b976ffe6627454f drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+ba211a1f3bbcac2a48efd4d8f4162dd9e5fb3211 drm/i915: Cast remain to unsigned long in eb_relocate_vma
+6fd9ab45f493053392aaeb7762f15cda5cadd310 nfp: bpf: silence bitwise vs. logical OR warning
+10d11fd1a8a5e00655d20227fa26f72d047ce4bd can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+4c16f306901d8d981954b2930613b744f750f94c can: grcan: only use the NAPI poll budget for RX
+2fc11eec17255a91fd85d2a43eca657065f9f3bf arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+0611ab88c683a469a2fa99cf3eb3b00ea35d7602 KVM: x86/pmu: Refactoring find_arch_event() to pmc_perf_hw_id()
+cfbce38166f7c03179ceadb4038b0a136e0fc3f4 x86/asm: Allow to pass macros to __ASM_FORM()
+7c4c4c4c33c03087df5744a54ed541926644de22 x86: xen: kvm: Gather the definition of emulate prefixes
+c0bd5821bdf25157a25faeeb942194ea51061789 x86: xen: insn: Decode Xen and KVM emulate-prefix signature
+f46d89d8fbef48a5e7be02e2450e60f3dba06ac6 x86: kprobes: Prohibit probing on instruction which has emulate prefix
+66fbb0e3a9ba93152d05c6243e8a2080a44747b4 KVM: x86/svm: Account for family 17h event renumberings in amd_pmc_perf_hw_id
+9f2ef338cb4aa1b1ce4f613d0d07bd69a515ccb6 Bluetooth: Fix the creation of hdev->name
+e7c9e7bb059ca8b95f8f7786596d0cd315b5d155 mm: fix missing cache flush for all tail pages of compound page
+14f21d42c3f0584ce37a856b4d40de379db33925 mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
+d02706f56c6b9c87f6ceadbaa0940e6daef52201 mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
+15301ad6000946aa71e6c14b3f701b34e5e694eb Linux 5.4.194-rc1
 
---===============6034923628144664585==--
+--===============2826386589095624256==--
