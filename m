@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2357579493226009199=="
+Content-Type: multipart/mixed; boundary="===============6034923628144664585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 May 2022 14:22:33 -0000
-Message-Id: <165245175346.28517.16217581081040369445@gitolite.kernel.org>
+Date: Fri, 13 May 2022 14:22:34 -0000
+Message-Id: <165245175415.28598.13777481466820185636@gitolite.kernel.org>
 
---===============2357579493226009199==
+--===============6034923628144664585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,59 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 364de2c3306ed1196373a3b6b7a3427e698c4980
-    new: b770d46f20165770243c4893df110518daee01fc
-    log: revlist-364de2c3306e-b770d46f2016.txt
+  - ref: refs/heads/linux-5.17.y
+    old: 841daaf9b4bb626626f633c89b997ab4a232580c
+    new: a8480fa60862622d04d6440efdfda7e367721037
+    log: revlist-841daaf9b4bb-a8480fa60862.txt
 
---===============2357579493226009199==
+--===============6034923628144664585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652451751 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652451752 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1652451749-6cabc8b77d272c665a0b027b63623b9cc3471b07
 
-364de2c3306ed1196373a3b6b7a3427e698c4980 b770d46f20165770243c4893df110518daee01fc refs/heads/linux-5.10.y
+841daaf9b4bb626626f633c89b997ab4a232580c a8480fa60862622d04d6440efdfda7e367721037 refs/heads/linux-5.17.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ+aacbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fq0P/RBk3Xb0STC2DVaXTaez
-Df+8GZdh1r2+Koam+vXi9aJUf/P9OrlOvx19e8CJbT5js0xc7x0PHrZbRGDzso4P
-1oAz8ysoIG7sYEm+fzaq+ivf9VIxB1a8u93MCkF3ePw0OXeIHFaLKLNghVFWRg75
-bMZcp9w7XH8a9rwQ+1uCUCYyvcA3LxhvqvDwr8XIMp6NnkdWLAOY/QtQBT4LWcCW
-aLx5NdSX5YpKJyMpdJaAoUPor2/TYxFFLYIpsY/DV2MZPuw3RTeKM2WrZAl7OEWl
-uuywPsxQ2JeMxluYLiq6m1jMG8MjtUBUXRdCzHjhljXl10eLaZ147bn05fmkVCcl
-UFqQ2PXuDtSvt2FLR5JlyNuE5fJzO0M29fcwmnHCuRKIaAlfpSND1xoDLWukAIWO
-2b4OUTeBIK1RNO4hn1tGvxzw6MBNvgIc2OBXVSfP15hj8VNDjcN27xkcOqA3bcA2
-TkQuTyLlPxk3YwsdmAuGDk0JLn9UltnYHm84V4OYlY9GaBCiJTgFEr6HN14D27Ph
-YiYyUFyOUM+3DFHn9UIbYOl/QMkxEOLHoriVK0VhTCZDQI+jnf9cBDhOtyoMl0y6
-hziDAu6jHQJNU0/a4kj+0uaHUTemeDOjJ7+PmgUokCIE5bAzk/w5D7xwyuGAw8Nx
-yp3asOkyNXqGm7LUXm+Dkpz+
-=VDF1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ+aakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UKQP/RoLhJgHcyL8/1IRzW9h
+OeKCdWipjRCaU5C2GwmIdRhCYeXlcm67SHeprd7krgUNxE8axBPufiivEuQBYeA5
+5DFPC6y55ZvIaJrQ3xcGZQecqSqXonPHstQu+hlI5KGkJLnW9enQQUZZ0NFoqu7h
+2ZmdM4J/cpG07a5sFfW+8K3vxXp2kg1xyRBF0psVRa12Daka/HeOSMcdx/gH/WAI
+S3cpODQxuVMJYuQtwYqa2Q3Trq7fSRJFSAY+g2lDZ6bsNGjDHBeRgH0F3cpip5Ll
+BKna9wLfyc7Fs5crp5fmThIZYpDFIEIw2tPvFkeblOi5fLZvVD91Y5rlmKQYsG9M
+/fHw9+7gsh/ayF6Vepe2yUDQ2bn5UNz5H6FCeEQF8QMsnqgoDi6ntKfUIeJpm3Wd
+K5FEoTldpI9ArRCOmarCvUYSoQO2FMz0EoxjKvnc8pJTziLuE7gzvOfO+iQR4aaI
+uDAX8RmwMyQyr5FoEvc7DcnqI2WwWA7VyfBwKNFKBxmQwOlX00QDJxiZzuW/1TXz
+EYirr5zV2/i/z+Bn2fTGznxcgTF/AKGTzbY+RxFJRdxUusGaJWQxHiijtZ6D/Gog
+eqZso3aVRRK6vuH0iuqsdVZEfRXsoTcud/zZ8ImF9lPX4+oogCb8hnpOj51sbFCa
+PARyV59ar8d8DSj30aeBqLnX
+=JR3E
 -----END PGP SIGNATURE-----
 
---===============2357579493226009199==
+--===============6034923628144664585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-364de2c3306e-b770d46f2016.txt
+Content-Disposition: attachment; filename=revlist-841daaf9b4bb-a8480fa60862.txt
 
-52c23fd63b78ce0d1f0218dc2934fc92993feb76 MIPS: Use address-of operator on section symbols
-53dc405aafb09db7a4459fa2ab59ce8bda2d0165 regulator: consumer: Add missing stubs to regulator/consumer.h
-d0bf1e20805ad131b6e3a84a1fd19ecdafae8f21 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-a69465e5c15e4b77eeb6d8186ae6dc5d15d4f6e6 drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
-7904fa4f139ad4101edfe8e1e2fc4c54f0310d87 nfp: bpf: silence bitwise vs. logical OR warning
-484ead16ec322318ea59ac5faf1f11dfa3f9aa25 arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
-0264ce8081ba09769dd1d070ce2ae7a34e415869 Bluetooth: Fix the creation of hdev->name
-28beb3783bc0912a03e4f6e0c7997b43293f310c mm: fix missing cache flush for all tail pages of compound page
-747d71defd391957ec10dce923fc9745d251f229 mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
-bfb4798d9064369af9f7d06a8fe2f4847e445b08 mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
-b770d46f20165770243c4893df110518daee01fc Linux 5.10.116-rc1
+972eac71170d0fd227c17f3ebd54820e5f5acbc6 Bluetooth: Fix the creation of hdev->name
+824adabdb1a1a6ad36b03d78cb478d21060fc47f rfkill: uapi: fix RFKILL_IOCTL_MAX_SIZE ioctl request definition
+50097a103a34c5db9277c5c968f2d1e6a8b973aa udf: Avoid using stale lengthOfImpUse
+2fb43d559b2b1abb6ddd6b4c1b1345222efe2e58 mm: fix missing cache flush for all tail pages of compound page
+1288004376cf145adaa7f62b4b0e4c3c9e09036a mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
+99b5ae47eeddd260d83dc98ad07fe96382bb4943 mm: hugetlb: fix missing cache flush in hugetlb_mcopy_atomic_pte()
+a07e26e51ca9b53aff38e94d24c173a318a95d2d mm: shmem: fix missing cache flush in shmem_mfill_atomic_pte()
+80e2f3b68ca85aff7d606b60c40245f82f7687d0 mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
+941ca837d72b8910895cb2b33bac307f057c4418 mm/hwpoison: fix error page recovered but reported "not recovered"
+392b834b5d4164bc4e89698d8d31e99af6ed914c mm/mlock: fix potential imbalanced rlimit ucounts adjustment
+f4d8c8ea81ff609000c2a2b0970b083e765d7179 mm,migrate: fix establishing demotion target
+5531d04eade48bc75c415387cd70e2bf0b3f127a mm: fix invalid page pointer returned with FOLL_PIN gups
+a8480fa60862622d04d6440efdfda7e367721037 Linux 5.17.8-rc1
 
---===============2357579493226009199==--
+--===============6034923628144664585==--
