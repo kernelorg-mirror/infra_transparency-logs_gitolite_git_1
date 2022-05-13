@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3205959636516732940=="
+Content-Type: multipart/mixed; boundary="===============8122753016524625975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 May 2022 14:22:30 -0000
-Message-Id: <165245175074.28392.17291832604434242142@gitolite.kernel.org>
+Date: Fri, 13 May 2022 14:22:33 -0000
+Message-Id: <165245175326.28494.12995822269607370435@gitolite.kernel.org>
 
---===============3205959636516732940==
+--===============8122753016524625975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 162e667e6dbaf3fcfa8ebed2599a1e5364e79f79
-    new: 4477341b2b1996b745937de9d99ff53095c7a679
-    log: revlist-162e667e6dba-4477341b2b19.txt
+  - ref: refs/heads/linux-4.19.y
+    old: d17a4095bd8a350bc4c4c0b332e0ec6b6bda63ba
+    new: a96b764d90b5b33d8b7817d4e0da1ea730cc208d
+    log: revlist-d17a4095bd8a-a96b764d90b5.txt
 
---===============3205959636516732940==
+--===============8122753016524625975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652451749 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652451752 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1652451748-9ed97950119a09859c42e1f4ab46d5f9c37ebb62
+nonce 1652451749-6cabc8b77d272c665a0b027b63623b9cc3471b07
 
-162e667e6dbaf3fcfa8ebed2599a1e5364e79f79 4477341b2b1996b745937de9d99ff53095c7a679 refs/heads/linux-4.14.y
+d17a4095bd8a350bc4c4c0b332e0ec6b6bda63ba a96b764d90b5b33d8b7817d4e0da1ea730cc208d refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ+aaUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R9UP/RjD2yeSIjtY91rfUD5h
-VSRSAUaJdFwvNIojA/Y9mqG09VM4naJrr5PVmXFXPW4Y30fB4+losAi2eTICGudw
-Fk+2dPjaxkwwROokGd1OdyXssOvR9cHwpGHRGiaSBQNHU4Dm7YJwlJFVAeMCD9WI
-/zeoEougvoufRjyxioRiSsUDDMTjgSIOS160a5OrBxou2yNweW9QpAlxwsqUrjvD
-e3MMVcQwnaZPTZTu6tNL6Q5qbntiRrHiCD5DW7oVdNjaLD2gQV//s1V7GfbbgKma
-3YhtB6CvxXjZVojBTsp4kZSEQ+Wc3e+5S4fJdvrk5bJMgq/1MxhAqLGtJixuS603
-qDVxWN14eaJqv+6h+HiH3fhjvKOFwl/g2fRTa+d5fi1WuWIckhD4K8RNX6EjLTji
-7aNpPYkTcRFydQjx1Cl4liDNOticL/+xF/jObr5Hc15b9tlxMZfG9v+kzTHI5alr
-Dx4163J6RF5HoRylxBEPMSbSyndUigBJ+S1UrKhLoZ/55ct9cHz2w1UFVLblxMIS
-1E9JMfNqjOdPtaiZ3ULR42GRkmMWAi8+EJ0zlBCJCHmLdgYEwUlXxna2bW0ypzsI
-7lhwEG+2/OSz+6AssELCqW5N+cxWkFurRT1v4nJC12PtCoa5+TLLqMRX52KdqfIo
-yDcckHIq7eJMnPTqGyJSUijt
-=3QwU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJ+aagbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V5QP/A2hXt0fkW1v3WF/feDg
+6heiBGXCrh34HC5zk8eOzyFsm8IIjGwp6B0vJdr4eqZz+3sSUWe5/rcBRmsEnTnn
+SZuiqKNGPM4wnisV2njFzY205Qq241AUakUGNkPkyJACuOdet94MwLZ6Afmril69
++v4giNIGx+liXTqYqXI0k0XYJj8CkQSF7zVdiSHZGTzC3H/phEx8nRruOfEKXVkr
+oA4hhyRkVmzLzEy/agdyptfTbMu4KuT6FBTfGuEy8G+pS5EQakA5DxPxqYHOgH9u
+Hn6SUlmxAy3C8B3rcW2T/FPG1ENlaTV2Kz8ee0aipiQu0NqO6ZN9p/9TCcaaYvPM
+WmhW7m1/Px4bAl1rOTXXrqp3A9xw4e1vmmFUtvODv56YKGgoKzfYIg64XEU670gE
+QkKAqGCByQlxF7PU97e+QIYeNEYBpws5ngcEgdNbf6Oobiy2FXCkn/lq+z+poTvV
+B6x+IGPwRx0bntN88yWU2dqS+3x1Vb+yfIVmPTMU5aWDDkWfZSj1/ioYCbmOu1Yy
+K4ip8VKGbWWjWzAM0yQXz7sq9X+5uDhSifvuq2sC+fIkBI+RIrFUkt4ThiNYEjTm
+T5NQFukrMTGUyNBvTm07hq6gm1ck2P4pQnrDiMlOTcU6mifOJdoCxWt/V4v7aMUw
++Vw93FnFhlnfeGcedkgPgXUS
+=9eiB
 -----END PGP SIGNATURE-----
 
---===============3205959636516732940==
+--===============8122753016524625975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-162e667e6dba-4477341b2b19.txt
+Content-Disposition: attachment; filename=revlist-d17a4095bd8a-a96b764d90b5.txt
 
-b047d2ea13088ddec16957dbbdd13039bdbf380c MIPS: Use address-of operator on section symbols
-92125637bdc68f7464c7dcd05a3cc1bb2d178687 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-a8c85b7bf317092ffeeaed1d56382795a9640e16 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-1fb9fcb8bfc8e2c9c700761c449396622eca67a1 can: grcan: only use the NAPI poll budget for RX
-0d9276981382a2990645210c78d5c0fbc0878653 Bluetooth: Fix the creation of hdev->name
-ed132839406fa8fbd0026dac5de2a1e1d4318553 mmc: rtsx: add 74 Clocks in power on flow
-6f8d7279462c9ad308ff540e1707ac2763ad7240 mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
-4c0fef22643a4aff09fec25b7391b3f6b652f02e mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
-66434fecc1ac1580b5674a0d57ac239fbb5f5e52 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-7586a683290c9e3693120fe4deaca41d1533726d ALSA: pcm: Fix races among concurrent read/write and buffer changes
-27158d976ee7356b7200f53ed01af720d7c44298 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-8ec4160cde172af6ca5a47c0a239cfdf12300373 ALSA: pcm: Fix races among concurrent prealloc proc writes
-abb4be4b6216b577ed99a2f7e232a3b13a90d6da ALSA: pcm: Fix potential AB/BA lock with buffer_mutex and mmap_lock
-b754cfe11d5bb638724f083338d73db5be0cdbc4 VFS: Fix memory leak caused by concurrently mounting fs with subtype
-4477341b2b1996b745937de9d99ff53095c7a679 Linux 4.14.279-rc1
+fae6112e3c5affd1586f42809cf7a42a74a51efd MIPS: Use address-of operator on section symbols
+9e3881fe838b207166e01a9dd40598967d99ceda block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+7ef6ff38fd9d99f483eab11b1548880d5c952555 drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+b0c50641c011291a23bf663078c06401efd75824 nfp: bpf: silence bitwise vs. logical OR warning
+f5b2eb91a9387139695159d0ac0758dde119df70 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+caa68dbc24973799ac71a106c7a14cff1ff4384b can: grcan: only use the NAPI poll budget for RX
+07d53b5bfd88ae14620076b197ae264c5b5fc36c Bluetooth: Fix the creation of hdev->name
+d882ea72b9e8d4bab11eed418da9e62809414802 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+089eb917150402cad6610e42e2ec09fdf83197a5 ALSA: pcm: Fix races among concurrent read/write and buffer changes
+37acc6ac7a70c36a17bbb1084b5baf1fc1590833 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+720117903f13e4b24729821e04586a9f5f230418 ALSA: pcm: Fix races among concurrent prealloc proc writes
+be0d78d4f2caeda194d61a10921ca6d380d97365 ALSA: pcm: Fix potential AB/BA lock with buffer_mutex and mmap_lock
+18af86df5c13cb63f8e96e379fef8ef9aec23cac mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
+df53018063fd665b449252a9012e285a1a33c754 mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
+e980ef3a00b1cbebd7edb7c96be0bf4272a5485c VFS: Fix memory leak caused by concurrently mounting fs with subtype
+a96b764d90b5b33d8b7817d4e0da1ea730cc208d Linux 4.19.243-rc1
 
---===============3205959636516732940==--
+--===============8122753016524625975==--
