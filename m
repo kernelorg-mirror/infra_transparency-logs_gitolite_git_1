@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 13 May 2022 07:55:42 -0000
-Message-Id: <165242854206.7987.4944287899289798900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 13 May 2022 07:55:47 -0000
+Message-Id: <165242854733.8056.7007829302429135394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/tags/v5.18-next-dts32
-    old: 0000000000000000000000000000000000000000
-    new: 3c4f38211adb4477d4791284994dbd573801f310
+  - ref: refs/tags/next-20220207
+    old: 17030a7e8a9b5e2fc2e720303749640eba179164
+    new: 0000000000000000000000000000000000000000
