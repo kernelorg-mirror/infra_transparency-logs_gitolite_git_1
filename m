@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8474533403006905908=="
+Content-Type: multipart/mixed; boundary="===============4551256353829572044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 13 May 2022 18:06:15 -0000
-Message-Id: <165246517547.14625.16678878127663741669@gitolite.kernel.org>
+Date: Fri, 13 May 2022 18:06:25 -0000
+Message-Id: <165246518523.14735.5619091678030826897@gitolite.kernel.org>
 
---===============8474533403006905908==
+--===============4551256353829572044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: ecd17a87eb78b5bd5ca6d1aa20c39f2bc3591337
-    new: a65cc84355407d1b149d4fd6843ac5cd18168bcc
-    log: revlist-ecd17a87eb78-a65cc8435540.txt
+  - ref: refs/heads/mlx5-queue
+    old: 70ac65ff07c3abb7cf4908514f290093c3a90aed
+    new: 566885ae9c24a21568233a046dc6f97e6cd0956b
+    log: revlist-70ac65ff07c3-566885ae9c24.txt
 
---===============8474533403006905908==
+--===============4551256353829572044==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ecd17a87eb78-a65cc8435540.txt
+Content-Disposition: attachment; filename=revlist-70ac65ff07c3-566885ae9c24.txt
 
 290c4a902b79246ec55e477fc313f27f98393dee RDMA/rxe: Fix "Replace mr by rkey in responder resources"
 a063f2fba3fa633a599253b62561051ac185fa99 batman-adv: Don't skb_split skbuffs with frag_list
@@ -361,5 +361,25 @@ ad04cc058d644acc6c903d8da4b8d59aa2b6335e bnxt_en: Update firmware interface to 1
 66ed81dcedc665bf8c7dfc3867d425f50eba219e bnxt_en: Enable packet timestamping for all RX packets
 ab0bed4bf6fae8a42cf3b08b38e1fffb1a79193a bnxt_en: parse and report result field when NVRAM package install fails
 a65cc84355407d1b149d4fd6843ac5cd18168bcc Merge branch 'bnxt_en-next'
+899c8e617c418554f8ccd14d35c207139c5e1389 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+2c0397dd097b4b08adaf57b54a59c61a1a99bc4b Revert "net: openvswitch: remove unneeded semicolon"
+18a7c94aa0568b6f15c7ef3db0ef70fb9c796021 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+9db1c3caea9f9e3921a2c5d4642d8d6c5f90c587 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+76f08c957c2c2a86f62ba0aa24ee0d1965f33e1a net/mlx5e: Report header-data split state through ethtool
+ce58d4a750e41ed1271bbd570c4586c79005ef93 net: Disable LRO feature if no RXCSUM
+aa3d31fbbb2d1bef1546ea6f472ad5bf91b2e547 net/mlx5: Add bits and fields to support enhanced CQE compression
+9051500359281d4f42a0338abb19c07c0af96f80 net/mlx5e: Support enhanced CQE compression
+716533b5f247b96033eb76abc8df596482562b10 net/mlx5e: Correct the calculation of max channels for rep
+41bd18e6b01fbf3e7b446911e905abaa0a1557a0 net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
+e8e0d1427a1bb42cb8f612dc0dfc2a52ea8f69fd net/mlx5: Inline db alloc API function
+367ba142f19151bdb83c4909130a6af655a584a0 net/mlx5: Allocate virtually contiguous memory in vport.c
+fe182354883a0eb7fda02e7235d906c90e87b0cc net/mlx5: Allocate virtually contiguous memory in pci_irq.c
+6b5cb7a44bbf374f5fb079741bf2834adce4339f net/mlx5e: Allocate virtually contiguous memory for VLANs list
+01533de12453f6c8164352e186c1c1acb5f52e27 net/mlx5e: Allocate virtually contiguous memory for reps structures
+9ba38b720c3835356abdec1dc79bf994ea8e16b1 Merge branch 'patchq/393730' into mlx5-queue
+5ca1588ea7142faa82beac10afe69cd72e75103f Merge branch 'patchq/323390' into mlx5-queue
+225d8d3316658f23785fe44535cc9d2f29b0547e Merge branch 'patchq/500380' into mlx5-queue
+05c29a05dc164447140f165f3ca349a08a45e53c Merge branch 'patchq/495559' into mlx5-queue
+566885ae9c24a21568233a046dc6f97e6cd0956b Merge branch 'patchq/393607' into mlx5-queue
 
---===============8474533403006905908==--
+--===============4551256353829572044==--
