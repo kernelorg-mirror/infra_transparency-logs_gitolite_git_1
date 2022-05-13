@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 13 May 2022 10:22:41 -0000
-Message-Id: <165243736172.25599.5031019544020494864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 13 May 2022 10:27:55 -0000
+Message-Id: <165243767540.28714.17755562594314080881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/gicv3/fixes
-    old: d1d885cf50062464d80d87711e7eeff989e411fd
-    new: 43d40c47813fcf018160527c6a27a609c61776a3
+  - ref: refs/heads/master
+    old: b67fd3d9d94223b424674f45eeadeff58b4b03ef
+    new: a19cef450bb6b1365c3bd5c82952f95b76688143
     log: |
-         43d40c47813fcf018160527c6a27a609c61776a3 irqchip/gic-v3: fix priority mask handling
+         a19cef450bb6b1365c3bd5c82952f95b76688143 net: ethernet: Use swap() instead of open coding it
          
