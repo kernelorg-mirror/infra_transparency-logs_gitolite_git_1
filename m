@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 13 May 2022 19:50:03 -0000
-Message-Id: <165247140303.17433.17337863508010490145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 13 May 2022 19:52:40 -0000
+Message-Id: <165247156087.19156.15266435042814302604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-5.19/io_uring-pbuf
-    old: e0e4d7ae26b99a7032643333ba62c49fbfada969
-    new: 1d71cdcfd01688f1dcf5194415167cbab0bf75f4
+  - ref: refs/heads/gpio/for-current
+    old: dba785798526a3282cc4d0f0ea751883715dbbb4
+    new: ae7aea1e6053692247f966cbf4688c260852bfbb
     log: |
-         1d71cdcfd01688f1dcf5194415167cbab0bf75f4 io_uring: add support for ring mapped supplied buffers
+         ae7aea1e6053692247f966cbf4688c260852bfbb gpio: gpio-vf610: do not touch other bits when set the target bit
          
