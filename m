@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 13 May 2022 15:48:27 -0000
-Message-Id: <165245690719.20599.15473052093415449114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 13 May 2022 15:50:03 -0000
+Message-Id: <165245700322.22188.3840989651138054321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 0a76d4c331b4408607d30c4c9ac0c256ea74131a
-    new: 8c296a9ad2c8a119fd57dc41a64425964acab517
-    log: |
-         8c296a9ad2c8a119fd57dc41a64425964acab517 loadpin: stop using bdevname
-         
+  - ref: refs/heads/for-5.19/io_uring-huge
+    old: 0000000000000000000000000000000000000000
+    new: f47f79d94a219a8f1a80fe41a0904172f1bcec5c
