@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 13 May 2022 16:53:19 -0000
-Message-Id: <165246079936.31165.10094302094690514262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Fri, 13 May 2022 16:53:29 -0000
+Message-Id: <165246080956.31300.8732450284783109899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: 330b4c9b969c8f7e310d459891743b5c11456833
-    new: 9934d10abf98e0be0d30537d2e9b232fa7649ebe
-    log: |
-         ca2fee4f9f1303fa715a73010f4235b18533081a random: make consistent use of buf and len
-         9934d10abf98e0be0d30537d2e9b232fa7649ebe random: move initialization functions out of hot pages
-         
+  - ref: refs/heads/libnvdimm-for-next
+    old: 866f841d312b95a3a0b2de104e8d9c02006e7953
+    new: e4628f04a31a3c3e03364a16bbfac0f07ad02b40
