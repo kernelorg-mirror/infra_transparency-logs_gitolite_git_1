@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6793349033073728494=="
+Content-Type: multipart/mixed; boundary="===============7442882343318363919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 May 2022 08:31:58 -0000
-Message-Id: <165243071816.2792.13888452731645412822@gitolite.kernel.org>
+Date: Fri, 13 May 2022 08:33:53 -0000
+Message-Id: <165243083319.3517.1891241408216032189@gitolite.kernel.org>
 
---===============6793349033073728494==
+--===============7442882343318363919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,97 +16,120 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 95c4f04a529a0aa5dcb2b24cedcc6c67c8e22bb3
-    new: 2535ffa5fcc584deaa9b63f90e72d966fbe24cd5
+    old: 2535ffa5fcc584deaa9b63f90e72d966fbe24cd5
+    new: 60071cff8755b4645074e5b6b520982ff8948dad
     log: |
-         74047bcc6cb514c77fcb17fc3cef1785d16c5795 MIPS: Use address-of operator on section symbols
-         d43d2132b7e1beababf0b8a5e6d90c3b3de4d348 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-         1d689b93144314fe734d2bcf5c0d9149a2d8b75f can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-         d820eadc583dc29c81e80718288d9f5f88449eaf can: grcan: only use the NAPI poll budget for RX
-         8a89c5f3d0619c47188ceeb3415e3755f3aaa641 Bluetooth: Fix the creation of hdev->name
-         2535ffa5fcc584deaa9b63f90e72d966fbe24cd5 mmc: rtsx: add 74 Clocks in power on flow
+         d6cf0a90b1d93f6ddc5a3eaa9b2cdf38d4ca8cd5 MIPS: Use address-of operator on section symbols
+         b38f0c1b1dbdb7b9fc56bfd31c6bab74e099bb76 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         bd5e03ae3add0e9a623517f102ee91c6f5cf8f4b can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+         7849355c9df1bf74afc682fc7ad85a05ad1d1e0f can: grcan: only use the NAPI poll budget for RX
+         6b4c3f9d82d7a34d6052ae455d199641a31b8b32 Bluetooth: Fix the creation of hdev->name
+         60071cff8755b4645074e5b6b520982ff8948dad mmc: rtsx: add 74 Clocks in power on flow
          
   - ref: refs/heads/queue/4.19
-    old: bc804f0e4e39cf8807e119a9fde708da240c89a2
-    new: cd8462a6acd3266287f90096531269ea638d799b
-    log: |
-         e7f4fbbad7ac155ad630cc71e90331578521c9d5 MIPS: Use address-of operator on section symbols
-         f865e91382fbd95bcc235bc36d1bde3b68d58fe8 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-         d1b02463e6c588a191f1b41e3c64fd352d211fe0 drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
-         7a06f6dcc1fce1576b76344c64867502bb8d34ae nfp: bpf: silence bitwise vs. logical OR warning
-         00a7964fd0f0d8a6102664905c2f894375575342 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-         d8843a4e2ff27a6d81c928144c496f5855b7b7db can: grcan: only use the NAPI poll budget for RX
-         cd8462a6acd3266287f90096531269ea638d799b Bluetooth: Fix the creation of hdev->name
-         
+    old: cd8462a6acd3266287f90096531269ea638d799b
+    new: 860af7230098d0a9ce9b76a32caaa4fa98755f8f
+    log: revlist-cd8462a6acd3-860af7230098.txt
   - ref: refs/heads/queue/4.9
-    old: 403268d64f402f905305a75498a67a7f8668821d
-    new: 975377074b182c19e1a8c419607a7be0e5e0e5b7
+    old: 975377074b182c19e1a8c419607a7be0e5e0e5b7
+    new: 5c72e69d116853c147da33eb267c9251bdb7eb58
     log: |
-         84fcf37401b22752fd1eb5db9041b06cbb74cdb4 MIPS: Use address-of operator on section symbols
-         77596a2241c83391065c36267f41cdf024317a83 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-         6c0ccd63214fa9660b08c1acdda6d815c7e5ecfd can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-         43de3a575657f3a43e3235beb6394ca05f75381b can: grcan: only use the NAPI poll budget for RX
-         31db756cee9456e24214c10b3247d796a7943fe4 Bluetooth: Fix the creation of hdev->name
-         975377074b182c19e1a8c419607a7be0e5e0e5b7 mmc: rtsx: add 74 Clocks in power on flow
+         221c0c763440641ec2dcefd3d6ac97957e78d360 MIPS: Use address-of operator on section symbols
+         d51961bb86f1aa39390899e38c5bd6ce4e290423 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         56b67f06c7691e12c900d257ce33eda4d45fa04a can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+         b021ada0fe6aff0881cd18b19dd47176dae99f73 can: grcan: only use the NAPI poll budget for RX
+         91eafba0eba977ca84345441a9f09c479a3e6fee Bluetooth: Fix the creation of hdev->name
+         5c72e69d116853c147da33eb267c9251bdb7eb58 mmc: rtsx: add 74 Clocks in power on flow
          
   - ref: refs/heads/queue/5.10
-    old: c48882b56b7397e342d3c8c822d78978ff28cd3d
-    new: a86cab51cafeb2d00b606ac621a0df26cb67c729
+    old: a86cab51cafeb2d00b606ac621a0df26cb67c729
+    new: 052d7b18197916d39eb333e654dc852d16dbc61f
     log: |
-         cbe16bdd4ea847bf9cf2cab681ad878ad167e22b MIPS: Use address-of operator on section symbols
-         aa0ef5b097e0724dcc9f534aa3506b5ae4cb44ff regulator: consumer: Add missing stubs to regulator/consumer.h
-         bd6370273b29bcf0778a3dc893a00e23c8ee49c5 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-         fe64687d67c04ebf10f77a55bc181cf74aa7f60a drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
-         18ade65e91f887783e69ff695d2fbd643e9ab83e nfp: bpf: silence bitwise vs. logical OR warning
-         a86cab51cafeb2d00b606ac621a0df26cb67c729 arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+         539a9da2422e7829f970597ac6b21d14c3b12534 MIPS: Use address-of operator on section symbols
+         3c6b454d62a7f297ec3ef9de04e149a892912dfc regulator: consumer: Add missing stubs to regulator/consumer.h
+         ec77f731bd35b8048cb003e4b97aa3fc62e09837 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+         9c99c10809636fd934db98ed22ff498b8266f412 drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+         4a012d6a8b20a37d2d17bf4f5f09c0d428689646 nfp: bpf: silence bitwise vs. logical OR warning
+         bd70aeaba4e101aa2b5ccbc97fd8bf05f5acde19 arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+         052d7b18197916d39eb333e654dc852d16dbc61f Bluetooth: Fix the creation of hdev->name
          
   - ref: refs/heads/queue/5.15
-    old: 6f6601dcce879eb96a00e2295787cef36842c1e9
-    new: f0f6dd49ea72d80a94d6e81c1b4abbceb25db221
-    log: revlist-6f6601dcce87-f0f6dd49ea72.txt
+    old: f0f6dd49ea72d80a94d6e81c1b4abbceb25db221
+    new: fbe000656fadd72c4e5dd29cdfdc760fae6afe4d
+    log: revlist-f0f6dd49ea72-fbe000656fad.txt
+  - ref: refs/heads/queue/5.17
+    old: 7651bb70fe5d2bc9b1b45890d990cb670b23a51c
+    new: e1b80915825ab86b7ba981bfeb91025e3284a2b7
+    log: |
+         29da8ceafd8d21570fab28874a303d8d2f461a8c Bluetooth: Fix the creation of hdev->name
+         3f44cf36ce53a17ed442650a601f176fdf7f64a0 rfkill: uapi: fix RFKILL_IOCTL_MAX_SIZE ioctl request definition
+         e1b80915825ab86b7ba981bfeb91025e3284a2b7 udf: Avoid using stale lengthOfImpUse
+         
   - ref: refs/heads/queue/5.4
-    old: 5312b6bfcbf7b50292f52e662eb82422d950ee26
-    new: 520f345b3885019a1b169263261dfe2f31cdbb49
-    log: revlist-5312b6bfcbf7-520f345b3885.txt
+    old: 520f345b3885019a1b169263261dfe2f31cdbb49
+    new: 27b27a1dfb2a7d25bc6e05fed7ab3916427bad03
+    log: revlist-520f345b3885-27b27a1dfb2a.txt
 
---===============6793349033073728494==
+--===============7442882343318363919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f6601dcce87-f0f6dd49ea72.txt
+Content-Disposition: attachment; filename=revlist-cd8462a6acd3-860af7230098.txt
 
-8d05d763186448f3a398f94d3090565d2d24b9d0 x86/lib/atomic64_386_32: Rename things
-7c978e76a2c2cca825cbbf4dd82274da76dd38a5 x86: Prepare asm files for straight-line-speculation
-4ffdc56e2465c5d1b21abdeb8e1f17c7ad70eda3 x86: Prepare inline-asm for straight-line-speculation
-276d35e1629702949c3d44d5ad8498abef47b471 objtool: Add straight-line-speculation validation
-091ab1d0274197f87d98ecdc4adbd28fc9405791 x86/alternative: Relax text_poke_bp() constraint
-752691400bdad6f3272cd21b3c05df94ab9ccbcb kbuild: move objtool_args back to scripts/Makefile.build
-91ae43a079b22e3bf1b3fbc7a088cacbee1c37f0 x86: Add straight-line-speculation mitigation
-c3ff0c3b282719e2dae7c69b14bfbe51a4848db6 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
-185131e71b51ae0ca9962a423611cb2482ab6bd9 kvm/emulate: Fix SETcc emulation function offsets with SLS
-87041b0655ccdca973ec86349b282ebbe4fe52af crypto: x86/poly1305 - Fixup SLS
-f0f6dd49ea72d80a94d6e81c1b4abbceb25db221 objtool: Fix SLS validation for kcov tail-call replacement
+af2ebdd1bcdd5848000a5d1bb54aa0cfff0b5386 MIPS: Use address-of operator on section symbols
+b529bb9f601afe5eb3d98a65ee3c5a8824854f98 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+fd910e114b8356fd21a9cf3b2a1f9ca9573e7301 drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+950c143faf273ddc8e46245b3ad52cf125ac351c nfp: bpf: silence bitwise vs. logical OR warning
+aff504cdcb0e07a95b0e9db43f15e91d675ec126 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+ab4958e256484ab979da14a8b9ecd1f90bad039f can: grcan: only use the NAPI poll budget for RX
+684861d328efb598b25a5c11ef331c98e31d9bf9 Bluetooth: Fix the creation of hdev->name
+43d62518594a9a34d054f8aa4c59ad4f36bf2f97 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+9f3a5e29b3de46760f4c0eb68047db2d35b21d48 ALSA: pcm: Fix races among concurrent read/write and buffer changes
+42b4be8fdeddae1c2506d757927c1e1c6941e117 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+9347e3ba699c824d192fecfe703173ed5bf1400a ALSA: pcm: Fix races among concurrent prealloc proc writes
+860af7230098d0a9ce9b76a32caaa4fa98755f8f ALSA: pcm: Fix potential AB/BA lock with buffer_mutex and mmap_lock
 
---===============6793349033073728494==
+--===============7442882343318363919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5312b6bfcbf7-520f345b3885.txt
+Content-Disposition: attachment; filename=revlist-f0f6dd49ea72-fbe000656fad.txt
 
-e25f40c870f5a51d73ebf74e8f6d6a39303dc4d8 MIPS: Use address-of operator on section symbols
-9612f718e2b522787fbaa90eafa88a1837ddbbe9 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
-c4e5cd32b76de0fcea0551901f4e5716d95cfaeb drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
-99461d5702bfcdc47feb1e2d771ea7476f954e68 drm/i915: Cast remain to unsigned long in eb_relocate_vma
-59d651e29eb6b388b5f479efc0e62f167b6e87cf nfp: bpf: silence bitwise vs. logical OR warning
-de7e0e9026ad34deb0b1dd3945f1b6fad54956b6 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-29ec54e18af20e678c4420b3ac2f741f6ab15383 can: grcan: only use the NAPI poll budget for RX
-cc612854d90ad50d56c3ceaaa3eeef5d600a0a3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
-23cdf8d5b3a0fc155d058001b7a9b1462c9bcd2c KVM: x86/pmu: Refactoring find_arch_event() to pmc_perf_hw_id()
-19b86acffa7c053185e46dd89931aba93e50d6f6 x86/asm: Allow to pass macros to __ASM_FORM()
-074616d719748282400f674e37f42b82562d8d27 x86: xen: kvm: Gather the definition of emulate prefixes
-d3ef0b8e3c71e01e0312d8d1bb51ba921a88f8ac x86: xen: insn: Decode Xen and KVM emulate-prefix signature
-db59cb6f19a975d352e8f1f4e69156099455eb20 x86: kprobes: Prohibit probing on instruction which has emulate prefix
-3ef53d99abef10e927c38b0f2d4c90b62a85f2c7 KVM: x86/svm: Account for family 17h event renumberings in amd_pmc_perf_hw_id
-520f345b3885019a1b169263261dfe2f31cdbb49 Bluetooth: Fix the creation of hdev->name
+a8fd9b4dc89eb9fe281124a819fef39c3882b1e8 x86/lib/atomic64_386_32: Rename things
+bca818f4da526cef61be2efe94420fe5827587fc x86: Prepare asm files for straight-line-speculation
+1b7f453189b2c3f2a4c6aabb8d42fb0fe394bc06 x86: Prepare inline-asm for straight-line-speculation
+980c954da6b72cc1f1a44be78be3243f1d1044e9 objtool: Add straight-line-speculation validation
+259b984aa3c858bf935812756cb9783365959924 x86/alternative: Relax text_poke_bp() constraint
+36c8d7c8d7843ed29d47a85fdffe8a51a0e3d7ef kbuild: move objtool_args back to scripts/Makefile.build
+e66f5e4e9d245b84bc08d15d5f9a29c01db4518a x86: Add straight-line-speculation mitigation
+75ae9ed6bad4e84cca21d14f1c76053185ba1349 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
+5b7af1e81edb0ea4ab4ef2632cfbfe943bc6d3bd kvm/emulate: Fix SETcc emulation function offsets with SLS
+d2b1ef58095a3807214939b31fcf514669db8b07 crypto: x86/poly1305 - Fixup SLS
+0e55cc9a4068144dbc3ec6afabc9b02b66a9e687 objtool: Fix SLS validation for kcov tail-call replacement
+ae3262c13715db5c4deb881131bbecbb7630df6f Bluetooth: Fix the creation of hdev->name
+759ec10449623d228b476ad60bd97075e0edbf07 rfkill: uapi: fix RFKILL_IOCTL_MAX_SIZE ioctl request definition
+fbe000656fadd72c4e5dd29cdfdc760fae6afe4d udf: Avoid using stale lengthOfImpUse
 
---===============6793349033073728494==--
+--===============7442882343318363919==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-520f345b3885-27b27a1dfb2a.txt
+
+23ccf0e562e95d3d7c4b514344ff6549f7438712 MIPS: Use address-of operator on section symbols
+c7604fe41a5ba4efed5bb4bf05b23edfd8045638 block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
+64df6828195f2c613ff0cd51bf911674b2eef60a drm/amd/display/dc/gpio/gpio_service: Pass around correct dce_{version, environment} types
+660f4ea6d32f32d5fca6a0732817a0f7904708ef drm/i915: Cast remain to unsigned long in eb_relocate_vma
+bc36898426613b16e574c80949133cb3571639be nfp: bpf: silence bitwise vs. logical OR warning
+1c240b668090dd1eba6e79a3cb84ca65bc32281e can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
+b7460627c19ecfd575d94757fc80485a35957f69 can: grcan: only use the NAPI poll budget for RX
+c0ce48352525e4115cd96187ac709d35d4152fab arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+b27928ae3bff85be286108093e59ea62b38a29d5 KVM: x86/pmu: Refactoring find_arch_event() to pmc_perf_hw_id()
+e4d7dd3b077f837eb6dde2ec529821611710e704 x86/asm: Allow to pass macros to __ASM_FORM()
+71a85d66df39286aaa8d4ec9266cebaa17a160c5 x86: xen: kvm: Gather the definition of emulate prefixes
+1e62baf2aa6c3dd2f9d511a22afb173d87bd1044 x86: xen: insn: Decode Xen and KVM emulate-prefix signature
+9c1a5ce76974eca21cd994c70b6085484c9d8309 x86: kprobes: Prohibit probing on instruction which has emulate prefix
+36bf9878ac87c49f446285aa6a86a648f7ede282 KVM: x86/svm: Account for family 17h event renumberings in amd_pmc_perf_hw_id
+27b27a1dfb2a7d25bc6e05fed7ab3916427bad03 Bluetooth: Fix the creation of hdev->name
+
+--===============7442882343318363919==--
