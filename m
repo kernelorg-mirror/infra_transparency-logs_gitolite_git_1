@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0821500464382631839=="
+Content-Type: multipart/mixed; boundary="===============8131962042920425735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 13 May 2022 13:01:55 -0000
-Message-Id: <165244691585.4758.8948839783762368029@gitolite.kernel.org>
+Date: Fri, 13 May 2022 13:02:05 -0000
+Message-Id: <165244692502.4853.14706918769918758604@gitolite.kernel.org>
 
---===============0821500464382631839==
+--===============8131962042920425735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: d9157f6806d1499e173770df1f1b234763de5c79
-    new: f3f19f939c11925dadd3f4776f99f8c278a7017b
-    log: revlist-d9157f6806d1-f3f19f939c11.txt
+  - ref: refs/heads/testing
+    old: 2873d4d52f7c52d60b316ba6c47bd7122b5a9861
+    new: 3ddd9ed84d8954afcdf7afacf8e142198c3803c3
+    log: revlist-2873d4d52f7c-3ddd9ed84d89.txt
 
---===============0821500464382631839==
+--===============8131962042920425735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652446912 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652446920 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1652446911-fd97d0442b58e72bb03d60ac6fc24330f4e3a4e1
+nonce 1652446920-2221b6e19d41db9d3dd022b13c1f75f836d07a9c
 
-d9157f6806d1499e173770df1f1b234763de5c79 f3f19f939c11925dadd3f4776f99f8c278a7017b refs/heads/master
+2873d4d52f7c52d60b316ba6c47bd7122b5a9861 3ddd9ed84d8954afcdf7afacf8e142198c3803c3 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJ+VsATHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXWUOCACqTcHNNOUr4jKmPtVzoMpQRAxXvBXe
-dxZ70WSwkomqZdPn+QJTZZ2eyIcMR/Cdvxg/loIpG7b7/nAfN1tDAmfXF0NhO7oE
-t+8Tyt3h5Kg1lUAInE8pAhPW0fUuwA8naqnTRgmvjwk5W3mNsMbnvHzhDbhbz7jK
-a1nD+8wZdsAy0N8BbeIipA20PyT9Jjs3PZ7QPLeghz1xwfWgS+uyZjYWmaQue9tI
-auFFI5y9bL7EprCWJovX0gqBJkeP+TuiKniAc/rxNpI3oTXoMNNPwUG7m1pniQm6
-xgq7nHNcUdUgrTntbDRL2Z9wNdvE93cEX8ohFqHpL43kNlrLV1nsRhe6
-=aWyE
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJ+VsgTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXedmB/4qrNcEAClJLb8py21p8kY81WQNpADc
+cOYNSCkmqyQ+tXcGy7+YOL9p2dqP3dyuKgWzVpjAyRGHIEjG/XJveCvQIbskCx+b
+W2UOlkGkIu8CCXs6mamI85NeORnZvrwPlXaFe/aMSf3zntEtWDtwGnZ1sxy+j9XZ
+OSYSHTZY1hSO3SwC2E96N108vH/WwvR5fPZC+p7l2vMTZt6ihPJfujrfa52NqrMr
+vBB9jT9ccgCvRFLqS3B522oZODYT4IZQsWb50wTUFzZ3U6mvTPv/cPx5pGBBZfMi
+3avdYutcerXw64gjBG1pSRkK2medw3uDQ9DxOaQcoOan5bj0xnY+upn+
+=/SPo
 -----END PGP SIGNATURE-----
 
---===============0821500464382631839==
+--===============8131962042920425735==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d9157f6806d1-f3f19f939c11.txt
+Content-Disposition: attachment; filename=revlist-2873d4d52f7c-3ddd9ed84d89.txt
 
 be5985b3dbce5ba2af3c8b0f2b7df235c93907e6 cpufreq: qcom-hw: drop affinity hint before freeing the IRQ
 5e4f009da6be563984ba4db4ef4f32529e9aeb90 cpufreq: qcom-hw: fix the race between LMH worker and cpuhp
@@ -632,11 +632,6 @@ f12d31c00b2e1d0774772695fd644b1c15e446ac Merge tag 'acpi-5.18-rc5' of git://git.
 9d9f720733b7e8d11e4cc53b53f461b117dab839 Merge tag 'amd-drm-fixes-5.18-2022-04-27' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 38d741cb70b30741c0e802cbed7bd9cf4fd15fa4 Merge tag 'drm-fixes-2022-04-29' of git://anongit.freedesktop.org/drm/drm
 bb300130e47fcefbe938f06dbacaef0312e28416 ath11k: reduce the wait time of 11d scan and hw scan while add interface
-72ed3ee9fa0b461ad086403a8b5336154bd82234 can: isotp: remove re-binding of bound socket
-47f070a63e735bcc8d481de31be1b5a1aa62b31c can: grcan: grcan_close(): fix deadlock
-101da4268626b00d16356a6bf284d66e44c46ff9 can: grcan: use ofdev->dev when allocating DMA memory
-1e93ed26acf03fe6c97c6d573a10178596aadd43 can: grcan: grcan_probe(): fix broken system id check for errata workaround needs
-2873d4d52f7c52d60b316ba6c47bd7122b5a9861 can: grcan: only use the NAPI poll budget for RX
 7e0815b3e09986d2fe651199363e135b9358132a x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
 efce2d0ba6bf70994394a5a139347ced4d172771 SUNRPC: Ensure timely close of disconnected AF_LOCAL sockets
 09df6a75fffa68169c5ef9bef990cd7ba94f3eef bfq: Fix warning in bfqq_request_over_limit()
@@ -926,5 +921,7 @@ f3c46e41b32b6266cf60b0985c61748f53bf1c61 net/smc: non blocking recvmsg() return 
 c37dba6ae45c2f0ec9913d7c96790fc00976d3d4 Merge tag 'fixes_for_v5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 0ac824f379fba2c2b17b75fd5ada69cd68c66348 Merge branch 'for-5.18-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 f3f19f939c11925dadd3f4776f99f8c278a7017b Merge tag 'net-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+206f663c890033b4628dffc080161b1403261a63 Revert "can: m_can: pci: use custom bit timings for Elkhart Lake"
+3ddd9ed84d8954afcdf7afacf8e142198c3803c3 can: m_can: remove support for custom bit timing, take #2
 
---===============0821500464382631839==--
+--===============8131962042920425735==--
