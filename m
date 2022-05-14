@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 14 May 2022 00:08:29 -0000
-Message-Id: <165248690972.23485.6922676086953713854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 14 May 2022 00:09:33 -0000
+Message-Id: <165248697356.23884.16411644582141245711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 04c494e68a1340cb5c70d4704ac32d863dc64293
-    new: d40dcaa4c91a9b2510d3660066b8e4a2ed17f713
+    old: c28678162b330c8d3bfc472db8c47c8e5e7726f1
+    new: d9713088158b23973266e07fdc85ff7d68791a8c
     log: |
-         95d686517884a403412b000361cee2b08b2ed1e6 mptcp: fix subflow accounting on close
-         e274f71540082b015568eaf0b08ec70ac08dc4ad selftests: mptcp: add subflow limits test-cases
-         d40dcaa4c91a9b2510d3660066b8e4a2ed17f713 Merge branch 'mptcp-subflow-accounting-fix'
+         470bcfd6039b390f1bc29d9ce12461781f5cd7af ixgbe: add xdp frags support to ndo_xdp_xmit
+         d9713088158b23973266e07fdc85ff7d68791a8c ice: Expose RSS indirection tables for queue groups via ethtool
          
