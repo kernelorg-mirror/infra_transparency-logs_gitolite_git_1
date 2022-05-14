@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 13 May 2022 23:50:03 -0000
-Message-Id: <165248580331.13462.14932842955064100026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 14 May 2022 00:05:34 -0000
+Message-Id: <165248673466.22535.11707214671758688363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/block-5.18
-    old: f1c8781ac9d87650ccf45a354c0bbfa3f9230371
-    new: 725f22a1477c9c15aa67ad3af96fe28ec4fe72d2
+  - ref: refs/heads/master
+    old: 2c5f1536473b7530adefd09a25cf3fef2cfe01f2
+    new: c28678162b330c8d3bfc472db8c47c8e5e7726f1
     log: |
-         725f22a1477c9c15aa67ad3af96fe28ec4fe72d2 block/mq-deadline: Set the fifo_time member also if inserting at head
+         c28678162b330c8d3bfc472db8c47c8e5e7726f1 eth: sfc: remove remnants of the out-of-tree napi_weight module param
          
