@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3544103516235025119=="
+Content-Type: multipart/mixed; boundary="===============7872149002535099814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 14 May 2022 13:17:47 -0000
-Message-Id: <165253426761.20067.16510375424042328822@gitolite.kernel.org>
+Date: Sat, 14 May 2022 13:17:55 -0000
+Message-Id: <165253427529.20158.14727222919232323672@gitolite.kernel.org>
 
---===============3544103516235025119==
+--===============7872149002535099814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/perf/core
     old: cad10ce36671c99dde850de7bd4ca0d8df66c47f
     new: 843e5ba75ee859df92a09d98370bdd1c8607cdd0
     log: revlist-cad10ce36671-843e5ba75ee8.txt
 
---===============3544103516235025119==
+--===============7872149002535099814==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -420,4 +420,4 @@ feb9c5e19e913b53cb536a7aa7c9f20107bb51ec Merge tag 'for_linus' of git://git.kern
 68a6772f11dbb1ed8b74d4c8adc2da1f84dd32a6 perf bench: Add breakpoint benchmarks
 843e5ba75ee859df92a09d98370bdd1c8607cdd0 perf tools: Remove unused machines__find_host()
 
---===============3544103516235025119==--
+--===============7872149002535099814==--
