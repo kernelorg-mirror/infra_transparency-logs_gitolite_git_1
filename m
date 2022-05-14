@@ -1,47 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7672006317631154380=="
+Content-Type: multipart/mixed; boundary="===============5382605301091857346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 14 May 2022 14:18:27 -0000
-Message-Id: <165253790769.26699.18193521020951564761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Sat, 14 May 2022 14:37:25 -0000
+Message-Id: <165253904546.5767.8910390384451222087@gitolite.kernel.org>
 
---===============7672006317631154380==
+--===============5382605301091857346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/watchdog-next
-    old: e4eb999cf8d0959cc69c4f7a59dbe13a3059a31c
-    new: 7897b39ba6b4bc1a6f8250a090105e03873dcace
-    log: revlist-e4eb999cf8d0-7897b39ba6b4.txt
+  - ref: refs/heads/master
+    old: a65cc84355407d1b149d4fd6843ac5cd18168bcc
+    new: d9713088158b23973266e07fdc85ff7d68791a8c
+    log: revlist-a65cc8435540-d9713088158b.txt
 
---===============7672006317631154380==
+--===============5382605301091857346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4eb999cf8d0-7897b39ba6b4.txt
+Content-Disposition: attachment; filename=revlist-a65cc8435540-d9713088158b.txt
 
-baa741c9740230591f863be946ed4ed35a3a1fb9 dt-bindings: mfd: da9063: watchdog: add suspend disable option
-c82d9fb461473892e518f468c2d5c57bcbf5dfc9 watchdog: da9063: optionally disable watchdog during suspend
-2c2d90fa4fe1f501e6b7e74ada8dd0ebd4dae5ad watchdog: sp805: disable watchdog on remove
-48c81ca30858b98a8dec7bbaf541cbc43ca915b1 dt-bindings: watchdog: uniphier: Use unevaluatedProperties
-05299cd68e8b5e3d5f99884cdcf4f46f03c25098 watchdog: rti_wdt: Fix calculation and evaluation of preset heartbeat
-058f1f88640e3b82aa2df78649dbef6d67d02b98 dt-bindings: watchdog: Add SC8180X and SC8280XP compatibles
-59b99b813aca289b516b5cb03b0cab598c4a7c37 watchdog: rti-wdt: Fix pm_runtime_get_sync() error checking
-a5b45ed3e394269116f9a635fbe71e4388ab2b76 watchdog: iTCO_wdt: Using existing macro define covers more scenarios
-b35a4682b01827027c9dc0c70942822c5efe8d40 dt-bindings: watchdog: renesas,wdt: Document RZ/G2UL SoC
-012bf4e548123f878e155724dd66e9757c6779eb dt-bindings: watchdog: da9062: add watchdog timeout mode
-e0d596beb3372dab206acadec1c24bdde7fa3283 watchdog: wdat_wdt: Using the existing function to check parameter timeout
-5b73185e59c81e773fa9c0ba398f4d114b396713 watchdog: wdat_wdt: Stop watchdog when rebooting the system
-d6274a84ec3c9663c5c6d05f334a81f921a910e9 watchdog: wdat_wdt: Stop watchdog when uninstalling module
-900e6afafc5397dfc9c77d0d67bf19139c26b60d dt-bindings: watchdog: renesas,wdt: Add support for RZ/N1
-50429ed0c3a89fda43f7e768c50bfe19b63d17b1 watchdog: Add Renesas RZ/N1 Watchdog driver
-5c50e860532e8d4c968468f71d877a078677efc7 dt-bindings: watchdog: renesas,wdt: R-Car V3U is R-Car Gen4
-7897b39ba6b4bc1a6f8250a090105e03873dcace watchdog: ts4800_wdt: Fix refcount leak in ts4800_wdt_probe
+b01a277a0520edd5c815af346f05ef2c747919b6 xfrm: free not used XFRM_ESP_NO_TRAILER flag
+a36708e646586f74d073199828ed878b223e988d xfrm: delete not used number of external headers
+87e0a94e60ea2e29be9dec6bc146fbc9861a4055 xfrm: rename xfrm_state_offload struct to allow reuse
+482db2f1dd211f73ad9d71e33ae15c1df6379982 xfrm: store and rely on direction to construct offload flags
+0c05ab78e3f2105de0f7be56e244906b1e8d176d ixgbe: propagate XFRM offload state direction instead of flags
+55e2f83afb1c142885da63c5a9ce2998b6f6ab21 netdevsim: rely on XFRM state direction instead of flags
+3ef535eccea33b2a4fce20f4f298e09647350d71 net/mlx5e: Use XFRM state direction instead of flags
+254c4a824c7c6a53360bc4974710e4213b8b7f5d xfrm: drop not needed flags variable in XFRM offload struct
+0f9008e5c5103e32e788d260558d170c2fc9c2be Merge  branch 'Be explicit with XFRM offload direction'
+f9a210c72d70c9a59cf989fb23fb01ff10d18136 sfc: siena: Fix Kconfig dependencies
+2c5f1536473b7530adefd09a25cf3fef2cfe01f2 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+c28678162b330c8d3bfc472db8c47c8e5e7726f1 eth: sfc: remove remnants of the out-of-tree napi_weight module param
+470bcfd6039b390f1bc29d9ce12461781f5cd7af ixgbe: add xdp frags support to ndo_xdp_xmit
+d9713088158b23973266e07fdc85ff7d68791a8c ice: Expose RSS indirection tables for queue groups via ethtool
 
---===============7672006317631154380==--
+--===============5382605301091857346==--
