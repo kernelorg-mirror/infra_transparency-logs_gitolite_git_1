@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 14 May 2022 00:05:34 -0000
-Message-Id: <165248673466.22535.11707214671758688363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 14 May 2022 00:08:29 -0000
+Message-Id: <165248690972.23485.6922676086953713854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 2c5f1536473b7530adefd09a25cf3fef2cfe01f2
-    new: c28678162b330c8d3bfc472db8c47c8e5e7726f1
+    old: 04c494e68a1340cb5c70d4704ac32d863dc64293
+    new: d40dcaa4c91a9b2510d3660066b8e4a2ed17f713
     log: |
-         c28678162b330c8d3bfc472db8c47c8e5e7726f1 eth: sfc: remove remnants of the out-of-tree napi_weight module param
+         95d686517884a403412b000361cee2b08b2ed1e6 mptcp: fix subflow accounting on close
+         e274f71540082b015568eaf0b08ec70ac08dc4ad selftests: mptcp: add subflow limits test-cases
+         d40dcaa4c91a9b2510d3660066b8e4a2ed17f713 Merge branch 'mptcp-subflow-accounting-fix'
          
