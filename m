@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 14 May 2022 02:44:47 -0000
-Message-Id: <165249628770.26824.893083055281367729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 14 May 2022 03:48:20 -0000
+Message-Id: <165250010074.2935.10949547227322443102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 7e672eec03c111697d542f7e42b4b59afcb99458
-    new: 70145a5ae8567cf25d3fe0af464e25aee991c167
+  - ref: refs/heads/hwmon-next
+    old: 07d762982fb97738789dfe8454898510fa21980b
+    new: 80c2ab0dfdf55602679ea0129df95c0ae54c59e4
     log: |
-         c4a34b8208bc98f3aa9de218972a492ab1fb3965 foo
-         597a7b2760084fe54e7b52316266b823914d4b7c foo
-         3c52a63a1cf2d202e2cb7cf5933d92adc57cc7c8 foo
-         43f6dea1e3d9a6b2b203ac3b46a19864a42b75a7 foo
-         63c6b137cdac87615b1dad76df047088a2f70b8a foo
-         70145a5ae8567cf25d3fe0af464e25aee991c167 foo
+         3c6c7e1598ab5d994024d4b60477f286e296d559 hwmon: (peci/cputemp) Use HWMON_CHANNEL_INFO macro
+         578859a3efc2b7576af061a9bf72a19c7180afb0 hwmon: (peci/dimmtemp) Use HWMON_CHANNEL_INFO macro
+         de751b82d8c1230a27a7f888ee322ad915092b15 hwmon: (pwm-fan) Use HWMON_CHANNEL_INFO macro
+         80c2ab0dfdf55602679ea0129df95c0ae54c59e4 hwmon: (sl28cpld-hwmon) Use HWMON_CHANNEL_INFO macro
          
