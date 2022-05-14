@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 14 May 2022 13:19:14 -0000
-Message-Id: <165253435424.20674.9206452476970459719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Sat, 14 May 2022 13:43:23 -0000
+Message-Id: <165253580350.4362.305668248851062704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: 474e76c4075c10461c4373d932a083e25d6adf3c
-    new: c46721e4604f260918e660550a16d1e28637d66c
+  - ref: refs/heads/next/libgpiod-2.0
+    old: 5c62d28ec535b9fa540caf83079700a1bac9029e
+    new: 635ab91fb2784611a252ef522b2da5eab636ed34
     log: |
-         c46721e4604f260918e660550a16d1e28637d66c MAINTAINERS: Add James and Mike as Arm64 performance events reviewers
+         635ab91fb2784611a252ef522b2da5eab636ed34 WIP: tests: require linux v5.17.4
          
