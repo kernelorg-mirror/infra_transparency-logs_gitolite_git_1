@@ -1,47 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0687865319784376717=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sat, 14 May 2022 18:54:29 -0000
-Message-Id: <165255446902.9912.6604470327520083765@gitolite.kernel.org>
-
---===============0687865319784376717==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 14 May 2022 18:59:37 -0000
+Message-Id: <165255477753.12937.18094812721745672117@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/linux-can-fixes-for-5.18-20220514
-    old: 0000000000000000000000000000000000000000
-    new: 2f0242fa1486a76ac3b1535e640faedc3240876d
-
---===============0687865319784376717==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652554465 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1652554465-fd3fb746afdbc03a78c7595c30bf4ddcf5990d8d
-
-0000000000000000000000000000000000000000 2f0242fa1486a76ac3b1535e640faedc3240876d refs/tags/linux-can-fixes-for-5.18-20220514
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmJ/+uETHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXURKCACBPwh7HWM6fb6bgolm8IF0Dz+H0qIS
-nX6fRjPcAY9zYW/7+uNVUJ/bTYZ8bZX4alNjTzTJG1sjJwrmY68esbp6HF9JyIyW
-iLx69c3Xe156wQ7AoKbC4BJ3K0OgQjWpcXafJO7uiHFAcM2buKKRPvLkSQL761sS
-rF8hWLE/a1WjA2VV8ol+VAh6ozUF1LzHgkH+4Beq8M8XmJjUiuJU5+6qwX79saqg
-A7+B9wr13ZUoUTWsMNYhOFwHB4iENDnnuCGxnxYTpsonmqc/6H3kgWbo+D9Fd5mV
-ePnqqyOQTtkC+p9SO+Xm+9vdjLKnvoOK317Y91sVsoisJz4xIE597Pic
-=Zv0f
------END PGP SIGNATURE-----
-
---===============0687865319784376717==--
+  - ref: refs/heads/master
+    old: ec7f49619d8ee13e108740c82f942cd401b989e9
+    new: 2fe1020d73ca0467b5383b0a3e459a1d29902762
+    log: |
+         183d4f2d23acecb29695f4d07427c8594e3a9691 perf bench: Fix two numa NDEBUG warnings
+         45fa7c38696bae632310c2876ba81fdfa25cc9c2 perf tests: Fix coresight `perf test` failure.
+         474e76c4075c10461c4373d932a083e25d6adf3c tools headers UAPI: Sync linux/kvm.h with the kernel sources
+         c46721e4604f260918e660550a16d1e28637d66c MAINTAINERS: Add James and Mike as Arm64 performance events reviewers
+         2fe1020d73ca0467b5383b0a3e459a1d29902762 Merge tag 'perf-tools-fixes-for-v5.18-2022-05-14' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+         
