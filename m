@@ -1,24 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 14 May 2022 15:50:01 -0000
-Message-Id: <165254340182.20967.10753781719592317231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 14 May 2022 15:50:04 -0000
+Message-Id: <165254340497.22134.7265137988800547264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: fe18894930a025617114aa8ca0adbf94d5bffe89
-    new: ecdde8bf6e6a8568d1f47ae185811d92bfe2916f
+  - ref: refs/heads/for-5.19/io_uring
+    old: 1b1d7b4bf1d9948c8dba5ee550459ce7c65ac019
+    new: 4e86a2c980137f7be1ea600af5f1f5c8342ecc09
     log: |
-         048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
-         bb52d3691db8cf24cea049235223f3599778f264 iio: magnetometer: yas530: Fix memchr_inv() misuse
-         f8ef475aa069cd72e9e7bdb2d60dc6a89e2bafad iio: adc: xilinx-ams: fix return error variable
-         d3296c58b3f1ec14fd177d6ac788fb518995d636 iio: adc: stm32-adc: Use generic_handle_domain_irq()
-         a142568c440627ac4310cdce7762e43e10bb1ce8 iio: freq: admv1014: Fix warning about dubious x & !y and improve readability
-         ecdde8bf6e6a8568d1f47ae185811d92bfe2916f iio: gyro: mpu3050: Fix the error handling in mpu3050_power_up()
+         390ed29b5e425ba00da2b6113b74a14949f71b02 io_uring: add IORING_ACCEPT_MULTISHOT for accept
+         227685ebfaba0bc7e2ddc47cef4556050b6d7a8f io_uring: add REQ_F_APOLL_MULTISHOT for requests
+         dbc2564cfe0faff439dc46adb8c009589054ea46 io_uring: let fast poll support multishot
+         4e86a2c980137f7be1ea600af5f1f5c8342ecc09 io_uring: implement multishot mode for accept
+         
+  - ref: refs/heads/for-next
+    old: e54ac908e073d3071399cd8dcfa32f2ea5e496c9
+    new: e82d3f896229550767eb4ccd8280d4ba84f9ca57
+    log: |
+         390ed29b5e425ba00da2b6113b74a14949f71b02 io_uring: add IORING_ACCEPT_MULTISHOT for accept
+         227685ebfaba0bc7e2ddc47cef4556050b6d7a8f io_uring: add REQ_F_APOLL_MULTISHOT for requests
+         dbc2564cfe0faff439dc46adb8c009589054ea46 io_uring: let fast poll support multishot
+         4e86a2c980137f7be1ea600af5f1f5c8342ecc09 io_uring: implement multishot mode for accept
+         e82d3f896229550767eb4ccd8280d4ba84f9ca57 Merge branch 'for-5.19/io_uring' into for-next
          
