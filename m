@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5354165825362865509=="
+Content-Type: multipart/mixed; boundary="===============3188980147681743159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 15 May 2022 18:20:49 -0000
-Message-Id: <165263884995.2268.17716992874419271779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 15 May 2022 18:21:15 -0000
+Message-Id: <165263887534.2502.339319504830389957@gitolite.kernel.org>
 
---===============5354165825362865509==
+--===============3188980147681743159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: fff4ded9518edd9077c472cac1f153f3ac194dc9
-    new: 25a59f37a5ba95228ee1e9c7757b2f22eec79789
-    log: |
-         25a59f37a5ba95228ee1e9c7757b2f22eec79789 Notes added by 'git notes add'
-         
+  - ref: refs/heads/queue/5.17
+    old: 7cc220fd26111a36a294b9b6d261435a1d3ec337
+    new: fe482dc7b01451b37d7dad788298809bf21f9411
+    log: revlist-7cc220fd2611-fe482dc7b014.txt
 
---===============5354165825362865509==
+--===============3188980147681743159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7cc220fd2611-fe482dc7b014.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652638849 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1652638847-07b6e5dfe0115ed31234fca4dcee689f0460c3a7
+d5c1a658c3c002d7d58e2d4d6f593b2ef0791abd Bluetooth: Fix the creation of hdev->name
+96721e3cea46e0a63287a843ed6fe4ceb847a109 rfkill: uapi: fix RFKILL_IOCTL_MAX_SIZE ioctl request definition
+17813ac412968391e4bbb4f0a658a05664e5b8dd udf: Avoid using stale lengthOfImpUse
+eccbc8abe78ee1b861591a94d8a24a00d5ea1516 mm: fix missing cache flush for all tail pages of compound page
+6abcdee4f2827d0ec3e01d65e6d63d6517f61d3e mm: hugetlb: fix missing cache flush in copy_huge_page_from_user()
+491d5dde0433f2e0f15249326b9114642b55c7b7 mm: hugetlb: fix missing cache flush in hugetlb_mcopy_atomic_pte()
+8e2ea0725f04137f927909a10ca38aab996cb1cf mm: shmem: fix missing cache flush in shmem_mfill_atomic_pte()
+d29ba83e5007bbb2e7f1f40b03826f78ff169dcd mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
+f836a6b5288e9f95b920e1aada809cef12a3b7c3 mm/hwpoison: fix error page recovered but reported "not recovered"
+bc5046220bc890f170603b5a4efcef85ff77aa48 mm/mlock: fix potential imbalanced rlimit ucounts adjustment
+c7990bef0d7a14ca25830a160974bbc250922178 mm,migrate: fix establishing demotion target
+fe482dc7b01451b37d7dad788298809bf21f9411 mm: fix invalid page pointer returned with FOLL_PIN gups
 
-fff4ded9518edd9077c472cac1f153f3ac194dc9 25a59f37a5ba95228ee1e9c7757b2f22eec79789 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKBRIEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JykP/iD0m3mxLT16wKruVAeg
-ImWwRJf9hZRD9KVsLpzYDAcqwLbjD3fgJZC0jx41M/emOF0dLtI0lW409k36hvj4
-lxzJWD9yP9QICXLMoB7CIbv/H9CEcDcE+AACQwG4wC/GjdkwMUULZWPhWsNqfErG
-orS/2vYNNfw2iI14A1nmMt4GtDqDL5LHfziCS37/fBE+hh5/x4NklMFouIvrbPQH
-2jsXX1RJQiMczHy6e1OXovDKTFqSQKVzyagdG5oy2c2AD2fqbOtGXQdMhM262fpO
-RYht7h1MXWa2vFuTXKuSnFlLAeX8IXt+BnIrYXo8oFC5r5Lx6JZNKyuPM87pxFM0
-R2mo8OaQvWjyT11gdBIUcP2UpaynNWbKiRnKFkIqjGPQVH6OnCmnGQOd7vph/F/F
-Dg/bczkwX2IWU0jONeNW29tORc2x3F29i9dUxbHRLzzMArz5MbA+1qKMnXC82Bzd
-XWt31Nvw5c9paQ64hrfaRkuPRwxSLfnQgNL1zKUYd3yhusu7FJWeUp+GtYamlKT5
-M+tZ/9w0u11PW0MqYOPfAzVQZOoodh5QoTnjeSlsNd2Hblq0naWj34Z6YOqprk8K
-d804Ubulqe1ZsuOQHTc7agEnpN3uyKHd+auwpJyE74Jdxd3jr2rCVJhlLmhaWL6d
-fZLs4zZTOL2dbuPSgXYgT+sJ
-=1XWr
------END PGP SIGNATURE-----
-
---===============5354165825362865509==--
+--===============3188980147681743159==--
