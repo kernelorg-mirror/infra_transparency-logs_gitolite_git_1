@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 15 May 2022 13:20:11 -0000
-Message-Id: <165262081103.20933.11270218141540551462@gitolite.kernel.org>
+Date: Sun, 15 May 2022 13:34:33 -0000
+Message-Id: <165262167330.28515.11889734576218794538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: a411b89681b9fc7e762a2da9660726bb8b7cf74f
-    new: ea20ce6740b30746244dab92942373cee4c72f49
+    old: ea20ce6740b30746244dab92942373cee4c72f49
+    new: 5c83394c5c31b16a0d0d0b29671b048bd98f22ad
     log: |
-         b44f90125942a634a15248d5b53e1f7c723f07ee random: remove mostly unused async readiness notifier
-         849e4bfe7839ba3bef030427e1c15847b78cfdab random: move randomize_page() into mm where it belongs
-         ea20ce6740b30746244dab92942373cee4c72f49 random: unify batched entropy implementations
+         b55e5c2a399c5b483185d6017e927013a55a97a5 random: remove mostly unused async readiness notifier
+         9a022c36e1b5368c412f3c1e755257297fc9d925 random: move randomize_page() into mm where it belongs
+         5c83394c5c31b16a0d0d0b29671b048bd98f22ad random: unify batched entropy implementations
          
