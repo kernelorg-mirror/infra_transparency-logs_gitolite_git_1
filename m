@@ -1,100 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============0701089955927649139=="
+Content-Type: multipart/mixed; boundary="===============8463126022270306401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 15 May 2022 20:57:28 -0000
-Message-Id: <165264824825.27116.14391442172390701773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Sun, 15 May 2022 21:12:39 -0000
+Message-Id: <165264915974.3896.4527652080703705308@gitolite.kernel.org>
 
---===============0701089955927649139==
+--===============8463126022270306401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/testing
-    old: 6bf6912410344d91e728d839a15f995c631ed961
-    new: 757454af7e483b739f8bf8bf1786a87c02e07369
-    log: revlist-6bf691241034-757454af7e48.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 20a82a3d747c0e408aad2987930f4e89217fcba0
+    new: ba851b77071ca2f6d6a35b5758aa276c8af6306d
+    log: revlist-20a82a3d747c-ba851b77071c.txt
 
---===============0701089955927649139==
+--===============8463126022270306401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bf691241034-757454af7e48.txt
+Content-Disposition: attachment; filename=revlist-20a82a3d747c-ba851b77071c.txt
 
-20ce30fb4750f2ffc130cdcb26232b1dd87cd0a5 interconnect: Restore sync state by ignoring ipa-virt in provider count
-26a08f8bad3e1f98d3153f939fb8cd330da4cb26 USB: serial: pl2303: add device id for HP LM930 Display
-714adff9a6271b5f1664b04c944b598141ebfe73 USB: serial: option: add Fibocom L610 modem
-07989eb981d862f7f2be68d233d753f2e7ccc119 USB: serial: option: add Fibocom MA510 modem
-870b1eee2d844727b06e238c121d260bc5645580 USB: serial: qcserial: add support for Sierra Wireless EM7590
-01e01f5c89773c600a9f0b32c888de0146066c3a usb: cdc-wdm: fix reading stuck on device close
-bbc126ae381cf0a27822c1f822d0aeed74cc40d9 usb: typec: tcpci: Don't skip cleanup in .remove() on error
-b81ac4395bbeaf36e078dea1a48c02dd97b76235 usb: gadget: uvc: allow for application to cleanly shutdown
-447ee1516f19f534a228dda237eddb202f23e163 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
-bb0b197aadd928f52ce6f01f0ee977f0a08cf1be serial: 8250_mtk: Fix UART_EFR register address
-6f81fdded0d024c7d4084d434764f30bca1cd6b1 serial: 8250_mtk: Make sure to select the right FEATURE_SEL
-e1bfdbc7daca171c74a577b3dd0b36d76bb0ffcc serial: 8250_mtk: Fix register address for XON/XOFF character
-fd442e5ba30aaa75ea47b32149e7a3110dc20a46 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
-edd5f60c340086891fab094ad61270d6c80f9ca4 tty: n_gsm: fix mux activation issues in gsm_config()
-9361ebfbb79fd1bc8594a487c01ad52cdaa391ea tty: n_gsm: fix invalid gsmtty_write_room() result
-401fb66a355eb0f22096cf26864324f8e63c7d78 fsl_lpuart: Don't enable interrupts too early
-581dd69830341d299b0c097fc366097ab497d679 firmware_loader: use kernel credentials when reading firmware
-8bf6e0e3c7de857b91a75aa57cecd56c10035bb2 Documentation/process: Make groups alphabetical and use tabs consistently
-29ad05fd6760c55fa7ab0e1f96e5be1b66daa4fc Documentation/process: Add embargoed HW contact for Ampere Computing
-fe503887eed6ea528e144ec8dacfa1d47aa701ac slimbus: qcom: Fix IRQ check in qcom_slim_probe
-575f00edea0a7117e6a4337800ebf62e2a1d09d6 Documentation/process: Update ARM contact for embargoed hardware issues
-792ea6a074ae7ea5ab6f1b8b31f76bb0297de66c genirq: Remove WARN_ON_ONCE() in generic_handle_domain_irq()
-ee8348496c77e3737d0a6cda307a521f2cff954f KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
-9c2136be0878c88c53dea26943ce40bb03ad8d8d sched/tracing: Append prev_state to tp args instead
-4031cd95cba70c72e4cadc2d46624bcd31e5a6c0 usb: typec: tcpci_mt6360: Update for BMC PHY setting
-5f0b5f4d50fa0faa8c76ef9d42a42e8d43f98b44 usb: gadget: fix race when gadget driver register via ioctl
-c237566b78ad8c72bc0431c5d6171db8d12e6f94 usb: xhci-mtk: fix fs isoc's transfer error
-1645eee0d7f623660e6ce0f1aef4591788a0c9da usb: xhci-mtk: remove bandwidth budget table
-757b9f6e6a2070043e5f215ff4afe350ecfb2bf7 Merge tag 'usb-serial-5.18-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial
-280abe14b6e0a38de9cc86fe6a019523aadd8f70 x86/mm: Fix marking of unused sub-pmd ranges
-d83ea024091e11d384f983f389a7853312c33c5d Merge tag 'icc-5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
-e85c0fc1d94c52483a603651748d4c76d6aa1c6b random: do not pretend to handle premature next security model
-7a63ce5eb31f42283769653014ee524b90585ed4 random: order timer entropy functions below interrupt functions
-4a8c95b519bc8476ceb4a0e28324078803b9e981 random: do not use input pool from hard IRQs
-b3529200ab51eb9b593198a0f9f4b3bd6cb69d35 random: help compiler out with fast_mix() by using simpler arguments
-2a5ad4a6045ada8d2d9e2c75742e2d412b4e3ab2 siphash: use one source of truth for siphash permutations
-519e88e28cb137628d13c26d96e9c5e4efdc305a random32: use real rng for non-deterministic randomness
-539dcec1142099e93c9ac89ac0628224dd4ae9ae random: use symbolic constants for crng_init states
-fadd8ffa4a3ecc2b50644a915aec7b8ddd0aea9f random: avoid initializing twice in credit race
-2bc9a5fa2fc99887a20b44cff56a46804d20113b random: move initialization out of reseeding hot path
-860d883c5bc24c4b36d5221e9c1c1fd0b5d65bf2 random: remove ratelimiting for in-kernel unseeded randomness
-a93a895dd13f769f4876e7ba93c065f0d3b932c7 random: use proper jiffies comparison macro
-b6f39b41eec203913a42a7da69676141cb40d6fd random: handle latent entropy and command line from random_init()
-40a3a0101a928546cbcbefd3248784fb99ec9457 random: credit architectural init the exact amount
-efd76caa46957c77694d50d80257299d833c8ab3 random: use static branch for crng_ready()
-32c294022a055fc70f329c4e512a93fa1b3c13a1 random: remove extern from functions in header
-8b7662a36ac89da3cab1fc67633413498159e38f random: use proper return types on get_random_{int,long}_wait()
-dbbd7d16a58ecb2f40527164ac1d091e766d377d random: make consistent use of buf and len
-fc41e3d92f25b844d567dd04e2fca194cb75aed2 random: move initialization functions out of hot pages
-e2c4353be47aedca4e500a3848ef0a943265fcd0 random: remove get_random_bytes_arch() and add rng_has_arch_random()
-b55e5c2a399c5b483185d6017e927013a55a97a5 random: remove mostly unused async readiness notifier
-9a022c36e1b5368c412f3c1e755257297fc9d925 random: move randomize_page() into mm where it belongs
-5c83394c5c31b16a0d0d0b29671b048bd98f22ad random: unify batched entropy implementations
-fb756280f97788525e898181adfc4feb106c79d3 Merge tag 'irq-urgent-2022-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-990e798d182a63afba6cc990f5bcd42d18436b55 Merge tag 'sched-urgent-2022-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-79dc4fc2f235159f0f59fca2250855a796f590ff Merge tag 'x86-urgent-2022-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bc403203d65a874df2f3156046468052e4109cb0 Merge tag 'powerpc-5.18-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-6811a466d27ba79e6c31c0aecc74feab0472df36 Merge tag 'tty-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-5becde60ed4e63858385aa10354cb87d7444b9cf Merge tag 'char-misc-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-1076114a0cb122b40098e2b54dbb87783188ad58 Merge remote-tracking branch 'cryptodev/master' into testing
-1ddaabd8b0811a298ebd4e3946b6c228ffdd4c8c Merge remote-tracking branch 'random/master' into testing
-1f3dc2c75e0c8f6032f4bcd181700b582653f314 Merge remote-tracking branch 'f2fs/dev' into testing
-fcb614c01b8ba9358906858be97aea082ce631c6 Merge remote-tracking branch 'fscrypt/master' into testing
-151375b4b6728f6a4c852efcf60ae2ce10f5c808 Merge remote-tracking branch 'ebiggers/test_dummy_encryption' into testing
-eea0191b9e5667355318df3ae439a22168dd914d Merge remote-tracking branch 'ebiggers/crypto-pending' into testing
-394da8a9d1f6284bd17a0873385e3c6522c54859 Merge remote-tracking branch 'ebiggers/ext4-pending' into testing
-29c82a7d587cdd915ab0b8cc506c6092e0e18d1a Merge remote-tracking branch 'ebiggers/f2fs-pending' into testing
-757454af7e483b739f8bf8bf1786a87c02e07369 Merge remote-tracking branch 'ebiggers/cryptobench' into testing
+5c5516f5141051f4262f245a0abe26f8ae1afe9e net/mlx5: Fix size field in bufferx_reg struct
+e575e5e25df98fe54478725691ea9060b114a33f net-sysfs: add check for netdevice being present to speed_show
+208599f8d88e07d45d7caee751ffa232b0c6282c x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+366f614e2fcf88bfee3e44c938c1f69299b0941c x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+9c47aaa6326eaba042a092c66bd7cda835fb1e71 xen/xenbus: don't let xenbus_grant_ring() remove grants in error case
+9c84bd1094ab48d79c1d285cc65ec0d4037eaec9 xen/grant-table: add gnttab_try_end_foreign_access()
+873e7894652972288e4354403e4e065132ffdb3f xen/netfront: don't use gnttab_query_foreign_access() for mapped status
+a0136a6ab4ea023f7103e6431e0466c8037f37cb xen/scsifront: don't use gnttab_query_foreign_access() for mapped status
+c6865595c63176531ff35623ac5549625e9b44b9 xen/gntalloc: don't use gnttab_query_foreign_access()
+cf3daddcad8deb55576c41cd2db603d0c3484cbf xen: remove gnttab_query_foreign_access()
+3b23ce33ad8016cdb2a80f48cd0075b7afc898c3 xen/gnttab: fix gnttab_end_foreign_access() without page specified
+eeff8e5969554161d85e8cc7ccc2fb63c301d1b8 xen/netfront: react properly to failing gnttab_end_foreign_access_ref()
+dbb45072885612a10a4f875390077922485366b3 ethernet: Fix error handling in xemaclite_of_probe
+8b3ac26283d5ec9b8a5956d697397bafd9cd7a68 net: ethernet: lpc_eth: Handle error for clk_enable
+0f8ac8dc8d00aeaac37257f19399e0dcb975efe9 ax25: Fix NULL pointer dereference in ax25_kill_by_device
+61adee669dc8e6c9f724f04fe356f0eee7398eb3 NFC: port100: fix use-after-free in port100_send_complete
+92306c705c9bc3126874b70527d332000f2213ff Revert "xen-netback: Check for hotplug-status existence before watching"
+cdca39eea3255283262fd6d5b93a6e36c31a7777 tracing: Ensure trace buffer is at least 4096 bytes large
+3d54b267fb28f8d6b6381e73b63204a79dc6ab7e selftests/memfd: clean up mapping in mfd_fail_write
+26e8ec43e5e38a5c9a298a4c15a0924fcfce45dc staging: gdm724x: fix use after free in gdm_lte_rx()
+36f1706fa70dc68ec69540eeb5a48c26498672a3 btrfs: unlock newly allocated extent buffer after error
+05093187fc992e2b20d213d05842313fab8d88ab xfrm: Fix xfrm migrate issues when address family changes
+7d408d308424a9e45a6ad54b32cbf191b5607c07 MIPS: smp: fill in sibling and core maps earlier
+80de8800019eb33be477c79554f928034db95028 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+a67159ac8bfe2a4472c236442606d4754ca707c6 atm: firestream: check the return value of ioremap() in fs_init()
+760a14e25b574a03798389ec298a32a78a46fb7d nl80211: Update bss channel on channel switch for P2P_CLIENT
+883524fff20ef9c7989138ee5ec6bad0ec2a35c4 tcp: make tcp_read_sock() more robust
+80d3538c3ed149ee97889c6d0dd1fa00d7db556c sfc: extend the locking on mcdi->seqno
+5a0c3d0a6313cb2be4c2babe8a1c71ba257ecb0c kselftest/vm: fix tests build with old libc
+79ebd397afa0f4a68f52e773381456004093ea61 fs: sysfs_emit: Remove PAGE_SIZE alignment check
+b63f1369cfbe8b496fda059db3b2403e37b7c8be net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+d67e97d6f26def37c8b1df56b709ba9c42e21d15 atm: eni: Add check for dma_map_single
+debcd5bcbe8ab6cfaf703ad7f7333308e388874a usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+c383c8867e935430ca360969afd727526db42cf5 Input: aiptek - properly check endpoint type
+b2df16de20b3f2ee6dbaf86b474e1bd87ddd8d51 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+a8fe31a097842ba15dc9d54d2d383310a6c8dad6 net: ipv6: fix skb_over_panic in __ip6_append_data
+07146f716f11aa532e2001247480b0f304f61ad8 staging: fbtft: fb_st7789v: reset display before initialization
+a40449267eebcb1a40e5f311bd441d6b283e61c8 llc: fix netdevice reference leaks in llc_ui_bind()
+af951e651803fd597d4ef09e9813e6bb8ab42d21 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+c6f56e045330093907eb3581af15af79f973fdcf ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+79548b082cbdaa32dc568eaebace818239e10f9f ALSA: cmipci: Restore aux vol on suspend/resume
+b971dd3b9f9ce8d2dda8fa10157f83d47e39604d ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+d90721416cde50f04a108331d524c69c7213be83 netfilter: nf_tables: initialize registers in nft_do_chain()
+aedfd9b7b21ac365a7d36c5feb19adc8f484796e ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+b41af6ee6afc38e23a6d28ed7597891c2dc862a9 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+5b08904487040814e71d7a5d824495088809f1cb ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+4173ed6b9ed3a40b157c8479cd4b7cc4df22e1dc mac80211: fix potential double free on mesh join
+f8a37a8dfe068bc1b579a5a33b6a36b75cd1c88e llc: only change llc->dev when bind() succeeds
+2eac8cc37c71810e19280a722bd994480ab6c93f Merge changes from 4.9.309.
+ba851b77071ca2f6d6a35b5758aa276c8af6306d Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
 
---===============0701089955927649139==--
+--===============8463126022270306401==--
