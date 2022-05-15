@@ -1,41 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 15 May 2022 17:50:03 -0000
-Message-Id: <165263700369.23692.15669707972576668412@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1065821423216800199=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 15 May 2022 17:55:27 -0000
+Message-Id: <165263732767.26932.9275005171146808117@gitolite.kernel.org>
+
+--===============1065821423216800199==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19/io_uring
-    old: fa5da31df51f8f581ec1776e613c1bcabbe9559f
-    new: ed3ec408f289963ff22b5a9a783e4f211ed45b20
+  - ref: refs/heads/master
+    old: 71d4b9b854f7e78a9ed9bbcf8c35e2933d193c17
+    new: f13a49e1dd95b6e3dbb53f7620a7ef3a86bcd133
     log: |
-         ed3ec408f289963ff22b5a9a783e4f211ed45b20 io_uring: fix locking state for empty buffer group
+         f13a49e1dd95b6e3dbb53f7620a7ef3a86bcd133 Linux 5.4.194
          
-  - ref: refs/heads/for-5.19/io_uring-pbuf
-    old: 1d71cdcfd01688f1dcf5194415167cbab0bf75f4
-    new: e3107fc12d96976894a08fcc6ef401fae839113d
-    log: |
-         1b1d7b4bf1d9948c8dba5ee550459ce7c65ac019 io_uring: only wake when the correct events are set
-         390ed29b5e425ba00da2b6113b74a14949f71b02 io_uring: add IORING_ACCEPT_MULTISHOT for accept
-         227685ebfaba0bc7e2ddc47cef4556050b6d7a8f io_uring: add REQ_F_APOLL_MULTISHOT for requests
-         dbc2564cfe0faff439dc46adb8c009589054ea46 io_uring: let fast poll support multishot
-         4e86a2c980137f7be1ea600af5f1f5c8342ecc09 io_uring: implement multishot mode for accept
-         fa5da31df51f8f581ec1776e613c1bcabbe9559f io_uring: use force attribute for __kernel_rwf_t casts to make sparse happy
-         ed3ec408f289963ff22b5a9a783e4f211ed45b20 io_uring: fix locking state for empty buffer group
-         4b40fd01b975ad689e68538371f57ab33a940727 io_uring: add buffer selection support to IORING_OP_NOP
-         ebe40c671df7c7f6db4ec3622df6b186a0d2562d io_uring: add io_pin_pages() helper
-         e3107fc12d96976894a08fcc6ef401fae839113d io_uring: add support for ring mapped supplied buffers
-         
-  - ref: refs/heads/for-next
-    old: df8dc70043313854d7e96b63003d91f5a02d40e1
-    new: 3782ad725049732385cc33d822faa150cf472f42
-    log: |
-         ed3ec408f289963ff22b5a9a783e4f211ed45b20 io_uring: fix locking state for empty buffer group
-         3782ad725049732385cc33d822faa150cf472f42 Merge branch 'for-5.19/io_uring' into for-next
-         
+
+--===============1065821423216800199==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652637326 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1652637323-7eec06d7912821c9b217671380d5c18885fce416
+
+71d4b9b854f7e78a9ed9bbcf8c35e2933d193c17 f13a49e1dd95b6e3dbb53f7620a7ef3a86bcd133 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKBPo4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LSAQAKEa5P2qrUZB3W7qTWV/
+cw+VkilrBKBRTPNJMYpDj0gPPuMfLEbClKwkzsTlV/cLP+YeMD0Z5XkB76jdhY9q
+j6vKdQrEsEoGDyt6R7qQFFqV3bX//9w3jILn+rpzSFUGOHxuuX3mMT4VQTdkeKsw
+PCAT7sjCtlorzR/lqLEgQxT+OzPXP1IshLcvehgzvYHWo95JQOYCkMem53d5UDkY
+YLdfp0ZtqyvALv3gPh1rjfyz+Hj+HL4IWv1z7MiasOEtkNo8FC6vwZryD/M0ISvz
+qjJ+DQHRSRDvyOWhQ3n1WaTaRMUNSr0ysTkyAEzvcX57AD8uO4i3eBmtJqVNZG9V
+y2k2HbNhoJuQUwgCxXi7cSmiKpy1jaxW+rAV9dR4ZQ9GqlO0JFSnMMgKWQcpPRG0
+Jha6u/iafVGEitCcqn2eg6FW54Zeu2OLgMFUICNqv81QH1ms8B+Vz5N/7agu7Idj
+8L9rgvN2NdOZS9pZ0A5JhUPtZbgkJAD71hj45O0rRcXGJuenU/vo/Zd4negZyAMK
+YHb+wtr/SrA8FmSR6jrVn0HcbQh+tPaoj0WhYqOrT76/WXMS0OAHWsENi/K4/wAD
+cnOWpj+DyAvVJcQYqtyFvGouiAfkQzjRMwtLBjrxvMdYjTgBdC9ibvjCptP6HsX9
+pYPHhksMfJJ6nisPzz+N6Iix
+=N62D
+-----END PGP SIGNATURE-----
+
+--===============1065821423216800199==--
