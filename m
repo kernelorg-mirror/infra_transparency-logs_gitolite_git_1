@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 16 May 2022 17:18:16 -0000
-Message-Id: <165272149682.32003.11843783283030371270@gitolite.kernel.org>
+Date: Mon, 16 May 2022 17:18:36 -0000
+Message-Id: <165272151608.32171.3441569941313321214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: ea9c730b848200621374d66d6d313c0ee176df9e
+  - ref: refs/heads/for-next
+    old: f68cd356d0ac0101263c551bd951db2082d38e43
     new: 180f9db7754539f16a0de4a145d33ce713302a9a
     log: |
          bdb6528ec5504ccc5a9da768a406579e7670dd2b Documentation: gpio: Fix IRQ mask and unmask examples
