@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 May 2022 10:49:41 -0000
-Message-Id: <165269818197.1234.16658307164045743898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 16 May 2022 10:52:27 -0000
+Message-Id: <165269834707.3602.14982756121087762650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: dbd5f5d8685ff4b9bf236e381b49851a667f0a66
-    new: 4d42d54a7d6aa6d29221d3fd4f2ae9503e94f011
+  - ref: refs/heads/ath12k-bringup
+    old: 17f72f0d72d49f4c173898d2e4437cf800c803cd
+    new: 788e8354d360957ae167dccec55bbf5a6a6c49b5
     log: |
-         4d42d54a7d6aa6d29221d3fd4f2ae9503e94f011 net/sched: act_pedit: sanitize shift argument before usage
+         2e85038c66137cb3d58463161d0258f70ffcebc9 ath12k: fix QMI server arrive callback by correcting MHI chan configs
+         370bbba27c1daf42b7ada8f0db4b736dee7e1ae1 ath12k: fix PCI read and write register
+         788e8354d360957ae167dccec55bbf5a6a6c49b5 ath12k: Skip SW decryption for groupcast mgmt frames
          
