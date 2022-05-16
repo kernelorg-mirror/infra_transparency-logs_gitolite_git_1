@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 May 2022 20:10:04 -0000
-Message-Id: <165273180483.17888.15971667037637459228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 16 May 2022 20:11:22 -0000
+Message-Id: <165273188266.18340.516170751609452198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 4d42d54a7d6aa6d29221d3fd4f2ae9503e94f011
-    new: da2172a9bfec858ceeb0271b9d444378490398c8
+    old: 8e6004dfecb7bab0d8945989917fbcae5d3b50bd
+    new: f008f8d0305cdf930de97d4f746f2a6bc9338385
     log: |
-         da2172a9bfec858ceeb0271b9d444378490398c8 ptp: ocp: have adjtime handle negative delta_ns correctly
+         f008f8d0305cdf930de97d4f746f2a6bc9338385 net: dsa: realtek: rtl8366rb: Serialize indirect PHY register access
          
