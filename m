@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7909990964643601140=="
+Content-Type: multipart/mixed; boundary="===============5629689759488525070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 16 May 2022 17:35:37 -0000
-Message-Id: <165272253710.11583.14826472439120319002@gitolite.kernel.org>
+Date: Mon, 16 May 2022 17:35:39 -0000
+Message-Id: <165272253981.11656.14933637033705599804@gitolite.kernel.org>
 
---===============7909990964643601140==
+--===============5629689759488525070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,90 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 0ef58b8415220d5186ece88e865e3e2198c3ba09
-    new: fda0b8964234040db680200bdb9422304bf8def4
-    log: revlist-0ef58b841522-fda0b8964234.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 71ab15716d941846af0392680e4121844683c79b
+    new: b715e355af47eead717fcf1c013776dd2a98b315
+    log: revlist-71ab15716d94-b715e355af47.txt
 
---===============7909990964643601140==
+--===============5629689759488525070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652722536 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652722538 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1652722535-617301ca5e09e0e6ecdc502a4d764655133f12f0
+nonce 1652722538-8cbbc8d1f94454f702db770c7541f805e3cd82f0
 
-0ef58b8415220d5186ece88e865e3e2198c3ba09 fda0b8964234040db680200bdb9422304bf8def4 refs/heads/linux-4.19.y
+71ab15716d941846af0392680e4121844683c79b b715e355af47eead717fcf1c013776dd2a98b315 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKCi2gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CwAQALLNrxn/N80sMiwbQDvS
-iZDVGxAxaO6cM0Z3+MUA+8LI+BSMUtm15ESTQxgPtxTS7sQxnb7v0ixzd4giE8uA
-kBVb/LMwLO9qRpmAqdMVcqpG//k9A04OAv4NhtYPEvTJM2ayARTbEvEsiMB07ozN
-F3UlbmpZPqmEh4aAOAACdj1c9UMWYrOesG5mz/B3zlYu0fXfHvpfklFtKzJ9iw+i
-QCNKdsnqxjUdPj2x8eCxNfaAjUNGlFLILrTNUTfWan7Zaq/8S6c7HSkT9xn1YfV+
-zEGBlJ9A0LA+6GEo7AWcV2828A1Ew6UrBI6wi7uql430TRFAsSQNRBsdqQ+LCT2R
-G+Vgl4195jcpVNIp2t+QDEDvYoy9wG+vPerniEewNUq9JL7keXLli2M+o+bGG6kC
-Uled67JfRmSF/82BeUfP3lbxis8auIiUOHmz1bNdtAOjGZXL3BHv+dGY53z/Wdlt
-o6iiiKcVduBGgO/YjGKzCrfWDfL03rEKml2OLrB8JPL0kgjIpzpmmCavzwRnYQmw
-ZmDl659mQbwBKWE8NeLxZSxljAVtg6TmbK2Xo6GABS+TSOknGMUTyF6YAJhsvSbF
-SvYMyzPCEBUzA8RHJqIa/H8MV5AQj1SkL4aQcwKO1pWGCFg8wMCo4GpY+lu4yhxm
-72JCs3/fpjZOCG5Tu/Ekh8J8
-=IOl6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKCi2obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NQsP/iuIPMVDeYPv/bbl30Ga
+bZB5swIltLPfNt6NII9JZiqtRC2ixTj23k/Bky/Ls50tKHFbK7+4sR5Ufxkt88IJ
+wtmAmCb+RZJjVqPzWyglnQeUtXCozgcZtv5srCnXFAnBvxaFSM3fUdY9ILibS6Il
+uAFKUpULhBxr2xyPjsb/7etFsXE4RQsMNSS2TtEJHQ851rR9IsT3ayiK64J5tI1v
+hGb5bhl17ExzoSEAwElhZSvSFNnJ5YdzkLC7k9MuOrtyFMkKR0HBQO2A/OQ/Z4Wk
+5o5fWRU8wTxY/AF+jVISpH6AfGSzicLOLjz4HP/qmuOTBbuyr68uZ52CC4zUV0m4
+e67imjSLK9Zn2gb/CgAFoyD8IF2Nhb3YCUJOwnVZmw2owmPC4mg59Ed7gUWt/CPG
+/cL/4Zsk3mpNcUOx7Jg2BJV6eZgOZkc/MXpf/y0GA/2hJEQMsT/d7sdCqpyN/m4z
+0fSEP/fhdiZfz1+i+SuObNhaTZThESwz9qVNm1XMCdJE8qkg9f6AcvhvXuL3ExYp
+PUBaoFZsrvUcz9v4dUhlwi8TM7AX8ls7pN6QsTyoQxTzJ0fmFuKnWHs6HmBjNkmi
+5XLlLgvYKMwc25EiRSvXwcUQMwBsMqLRcWr08K9nCU7+J1+T+Xh+MplCpnqZ77gW
+b36pgD3s8EFPXvSdTtUdCCYX
+=BNHC
 -----END PGP SIGNATURE-----
 
---===============7909990964643601140==
+--===============5629689759488525070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ef58b841522-fda0b8964234.txt
+Content-Disposition: attachment; filename=revlist-71ab15716d94-b715e355af47.txt
 
-9497165708328da476fcf9365c2ff9ef8ef1b233 batman-adv: Don't skb_split skbuffs with frag_list
-e8aa39cf27618c7811609d516d0839a8dab27e3b hwmon: (tmp401) Add OF device ID table
-f6cd71c1429a6e066edbe99803d921bc2127101d net: Fix features skip in for_each_netdev_feature()
-cf0f4c29fee4073dc8f9c3bae1081f4a48ad5870 ipv4: drop dst in multicast routing path
-fedbc16717653e9331df312e5d716026535bf66b netlink: do not reset transport header in netlink_recvmsg()
-579c9d9c770268ddc7a70ccda576d41b9ad7d3b6 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-bbf1ec037670875f4dd624c43600dc8d5594f013 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-e273368f8d01baacd01bad936fdda69880b09588 s390/ctcm: fix variable dereferenced before check
-5cf56e59a22b8beef264371f072fb9e862af24bb s390/ctcm: fix potential memory leak
-469e2d7eb5c1e5dfa4af3a1cd76edc7f22071f55 s390/lcs: fix variable dereferenced before check
-b09f1b2e1061ee2811e84fa390ab02b7ff6bd26e net/sched: act_pedit: really ensure the skb is writable
-73898def4d4bf81bc21ddd2e166df27c16bed877 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-152419e836eb0dd81f0e1e9a5f5e29993dc28805 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-ea606ce733184bd3eadf71b19f62cf20d71865ed gfs2: Fix filesystem block deallocation for short writes
-900fb6d127b2193fec5899600f1b35d929b980ea hwmon: (f71882fg) Fix negative temperature
-3e61f81eeef23a6893ffd6dec0ee3730b5e55e5a ASoC: max98090: Reject invalid values in custom control put()
-a2a8ae7086466254ad66acf976767602b14928fe ASoC: max98090: Generate notifications on changes for custom control
-d66e4707fad22a5fca54782f3885dd8b47df7225 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-d450eea90aa19ef5e31e1f1f725feb6c28d0a0c5 s390: disable -Warray-bounds
-3594e967e745a53b37cefe4503a02f687fd877f0 tcp: resalt the secret every 10 seconds
-4994fca1bce7e51dc02d28b832c73e129d5bc1c5 usb: cdc-wdm: fix reading stuck on device close
-a5f70e2e88c12a3b32637a0333e2bd610465fbee usb: typec: tcpci: Don't skip cleanup in .remove() on error
-75fe5b56f96a0e5c546a10957df357285e1f0246 USB: serial: pl2303: add device id for HP LM930 Display
-f40aa10053dc61175ee728cee62bb6bd247710b0 USB: serial: qcserial: add support for Sierra Wireless EM7590
-25819bf6654c527740bc950e65e9ec45de882c76 USB: serial: option: add Fibocom L610 modem
-e9cb1bc9c1131cd1909ca597e926a7a47f46f77d USB: serial: option: add Fibocom MA510 modem
-ed9da7f4a0f71285b18324d7d65ff4bc512fd996 slimbus: qcom: Fix IRQ check in qcom_slim_probe
-e8a721550390e50ac543b9998336fa49265ae32b cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-4d0a5929975245cdd28e98cb3845add5e21cdfea drm/vmwgfx: Initialize drm_mode_fb_cmd2
-2601c8d3da452c56423f961d4173095289050b30 MIPS: fix allmodconfig build with latest mkimage
-7e3f112aa1112bba95c458510d6fbda204583493 ping: fix address binding wrt vrf
-42d343816f15ca5fa6a2d911517b5610f2c77770 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
-fda0b8964234040db680200bdb9422304bf8def4 Linux 4.19.244-rc1
+f8408dff264215e6ce0fecbe01f596482381b557 batman-adv: Don't skb_split skbuffs with frag_list
+65bc1de2992955dc55516612c3fae534a4d0cba0 hwmon: (tmp401) Add OF device ID table
+101fda43001b98fe43d7f0f065601427b321168d mac80211: Reset MBSSID parameters upon connection
+5326e14dc30fabc55ba4831869042bc3d8b068fe net: Fix features skip in for_each_netdev_feature()
+383e9991aba0bfbd8d34467187e2b0f63517290f ipv4: drop dst in multicast routing path
+296691fb100aeb5a1daa1d1e9bc99ab785e96b3b drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
+61593ed27608dd3d7602661221cbdcc654ab7648 netlink: do not reset transport header in netlink_recvmsg()
+ecf1e82023af684d487e1ba42793f0b6282ad451 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+771f64214b7963a40d1817a157d009d870886a1d dim: initialize all struct fields
+54f1d24be7fd8e71d71e5ef77e98677331eadf7b hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+549a036c91a71e1093d0ae7c727b0f29cff27e9b s390/ctcm: fix variable dereferenced before check
+ca3752d5dfab42df1f17a21a6dea7485dafc0316 s390/ctcm: fix potential memory leak
+81b60be913905e88e3c35fb955342d4f3a2b98a4 s390/lcs: fix variable dereferenced before check
+07e8b0822cd5d44acdd177388fcb064e333bf096 net/sched: act_pedit: really ensure the skb is writable
+c43d8828c157abbd3743f3014a62a69b46438511 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+bfa7ade30d6b1614bfc9b3e4692fd42a3b915821 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+c1a8baae64fa8d34b11add9cb33b80ee4e3eb08d gfs2: Fix filesystem block deallocation for short writes
+dbd1c360e7c460904b2707034503192790927b44 hwmon: (f71882fg) Fix negative temperature
+18567c6892ea920c0abd4e195d7f887bfe2943e0 ASoC: max98090: Reject invalid values in custom control put()
+7740cf075b19597685fe9df68caec08194fc09d8 ASoC: max98090: Generate notifications on changes for custom control
+21e347225dc10b927b813c6d78bf4739c2cd48d6 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+2f3a09961a0453adb898d7410c964a589deb9163 s390: disable -Warray-bounds
+89de4c6e4b0cbf64317f51082c4a53a09a13b47a net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
+1d4490b0dbda257a0041bd7ebb223e246c609a36 tcp: resalt the secret every 10 seconds
+56f5cc00f369f60525b2f4fe0ac24f5b225656f1 tty: n_gsm: fix mux activation issues in gsm_config()
+22c9321c1e104f0620a61206543bc4a5b8fc369b usb: cdc-wdm: fix reading stuck on device close
+dd1cdef06e6be5d433299dc8b2df1e159fd59c08 usb: typec: tcpci: Don't skip cleanup in .remove() on error
+3381465d3f3475791057d75844c62555e260d747 USB: serial: pl2303: add device id for HP LM930 Display
+f1836080630d7b3d89a60bcb38a1325e2277aa70 USB: serial: qcserial: add support for Sierra Wireless EM7590
+64e0610275c18a85b25c3590780a88e189596f01 USB: serial: option: add Fibocom L610 modem
+853694b47627c772317586d73854f1dbeeb5389a USB: serial: option: add Fibocom MA510 modem
+e5c31b5cbc55e395a4b5663a6341a9e0841b5f31 slimbus: qcom: Fix IRQ check in qcom_slim_probe
+a887fa5e7bd232849b0d65aff51b7894e04a0630 serial: 8250_mtk: Fix UART_EFR register address
+b271756f6fcbad161757ae4b40c73d6e9a383b07 serial: 8250_mtk: Fix register address for XON/XOFF character
+0f487b79b51af8ed6011f64c4f35b597d3ae834b drm/nouveau/tegra: Stop using iommu_present()
+a387ee9599c538aa7577318144e376ab378cc04e i40e: i40e_main: fix a missing check on list iterator
+43490a1f0d5253338ae5354fb7505d99f755cb6d cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+ec5a8cec5665be41505db1ddf138d4acec8a5899 drm/vmwgfx: Initialize drm_mode_fb_cmd2
+19736b278e11c7b1c34d38d40d6df6e8cb31db1b MIPS: fix build with gcc-12
+1f53c395eaae9e25b2b7f3e6403a6cfdab1b5540 net: phy: Fix race condition on link status change
+5ba1713f6760dde078bbf6604b0220aff1ae4c70 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
+b8a2abf5c87f7edb1c6473a12ca7220adadeee29 ping: fix address binding wrt vrf
+3edaeb4010b5a785d55cdb758ca1f4ca79dc93b7 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+b715e355af47eead717fcf1c013776dd2a98b315 Linux 5.4.195-rc1
 
---===============7909990964643601140==--
+--===============5629689759488525070==--
