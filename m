@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 16 May 2022 16:56:41 -0000
-Message-Id: <165272020188.18061.9965989489715840366@gitolite.kernel.org>
+Date: Mon, 16 May 2022 16:57:14 -0000
+Message-Id: <165272023474.18303.10949038257245729793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 22d35e40419a2ac0914fb6b05c8781c9af8d4126
-    new: dcc6394db3c8cf6c1d4077a288e6967c4f0a4e43
+  - ref: refs/heads/for-5.19
+    old: dcc6394db3c8cf6c1d4077a288e6967c4f0a4e43
+    new: b1849f505f87f11815d55e03b67e97aa87ea9b5d
     log: |
-         dcc6394db3c8cf6c1d4077a288e6967c4f0a4e43 drivers: spi: spi-au1550: replace ternary operator with min()
+         b1849f505f87f11815d55e03b67e97aa87ea9b5d spi: spi-au1550: replace ternary operator with min()
          
