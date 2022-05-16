@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 16 May 2022 22:48:35 -0000
-Message-Id: <165274131507.24685.7818774483197112050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Mon, 16 May 2022 22:49:02 -0000
+Message-Id: <165274134272.24923.8193409102680397474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/for-next
-    old: ac6a65868a5a45db49d5ee8524df3b701110d844
-    new: 68084a13642001b73aade05819584f18945f3297
+  - ref: refs/heads/next-integrity-testing
+    old: 4c41186ff394680cbde32a6a29e539f1e6036a47
+    new: 048ae41bb0806cde340f4e5d5030398037ab0be8
     log: |
-         68084a13642001b73aade05819584f18945f3297 selftests/bpf: Fix building bpf selftests statically
+         048ae41bb0806cde340f4e5d5030398037ab0be8 integrity: Fix sparse warnings in keyring_handler
          
