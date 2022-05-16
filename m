@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3981832052662270572=="
+Content-Type: multipart/mixed; boundary="===============4124197301081986929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 16 May 2022 06:32:34 -0000
-Message-Id: <165268275416.10799.9869568389975385566@gitolite.kernel.org>
+Date: Mon, 16 May 2022 06:32:43 -0000
+Message-Id: <165268276373.10923.4172097659092179976@gitolite.kernel.org>
 
---===============3981832052662270572==
+--===============4124197301081986929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
+  - ref: refs/heads/tty-linus
+    old: 401fb66a355eb0f22096cf26864324f8e63c7d78
     new: 42226c989789d8da4af1de0c31070c96726d990c
-    log: revlist-672c0c517342-42226c989789.txt
+    log: revlist-401fb66a355e-42226c989789.txt
 
---===============3981832052662270572==
+--===============4124197301081986929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682753 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682763 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1652682752-42b9246c14a513bc8b1f9bf9f2c081155d356e3f
+nonce 1652682761-6d66a166757f32e1fb1438444ce6e330e825534e
 
-672c0c5173427e6b3e2a9bbb7be51ceeec78093a 42226c989789d8da4af1de0c31070c96726d990c refs/heads/main
+401fb66a355eb0f22096cf26864324f8e63c7d78 42226c989789d8da4af1de0c31070c96726d990c refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB8AEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zrMQANekK+2zR2gCTkUnnkiy
-uqX59emMqRj/wO2Boa4RRvmNzKMIK1Sna3Qfjj3tsR0pE6dnWYmqynjNE0yLujqX
-ysmvZ5WLuk7HE25UOMiAbBEN/MEJqWjyuqHREYX+bwZBkvxWeNZtw7DhVE5Ju86x
-CQ9bvQBhEfq/elNw0+BOk/d2bgdvC0Z9Y5Ar9eL7C7oknxLokvKff4ygz56+PEYh
-lSn6QURr9nT6gUQH6SPYfrwtXKvJ/hgHKs2/2nl31udWP5h0upu7WKjhOEDp+aEz
-wPTevy0aKwAhL083XfnqPjevC4DYE3x0Wzx//Hxr1ZlxUvY3LoarllA/lk8M7H+4
-zT8aEk0BR9ufwQJBBX1uREOrWPemZcVkcIHv+Op5rVfaxLNrxYzS+/hs4GvsxU1i
-IRm9KysA9rjsIjRY52tESZ+D5TVGIFjmFUud1irIlASjnHw7JYbQHGnPGsDDiKBM
-3vi40K8PXBcAQoIECZ3dec6radHZuL84TagrdstJNt0cRWzw1p+XmylyAbsFI1LH
-LjYAAF3/Bd5Id3tuTBuJ4KrHL2TW65toR0Bn8HNgC1x4ZqDPsfEy9qUNmeSnZ+PS
-/mJcKTnngw3Bh+VHweEZJWpQyMHe1FGZ6z56E9EmL3385F4lYytp1J1tDf2Kd2LR
-zmZWiRQChw91d31mdFYndNU9
-=AoJI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB8AsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PJMP+gO1a1KWqDoEPPWoCpF5
+Wk9/Cc1cxI8R8JNuOkBSCUpyH43iQuk11FNvmsH+l2a8KJvkZPzjtCMNATYwD6ug
+RyXa22Dj5OnF7nK0y4hN+EYtNmmQF7DROcWKlH6q8dsp5B4ekcJ9jxIwbtJ0aKGq
+yblyrIt3en8DASaSxU1T1lDCsGSO7+5M4b3ZNoSUKAtFWtN5f8IqGOaIPoax7cle
+XzyghrLx7Hdzy/2P8AFuLXKyMaA1T7VOwYIjHTv6bgr/t0/ZQryykbMtHQ/3obp9
+2M5guqeCz2BuRWepFeTF7X5Jyqh38h2XzRmN0ZRXb9CF80zHSfvYQ7q5dXlegGeJ
+pIzs5DvrjYKXg/mdlRjB/m/aMoCE2uHHria72uCOpdW0ehiy8KGm7VxQNKf7xI49
+wTBfZ4wEZommYvRRBEZM7QN/SZd7jkiOZN+Lq2bMdl2DQUvWqE+UJDIfy5IpJODZ
+KkTggj61qK7tFq8/OvdX6mVqghYl/bFBuaR7EPGNGCT0621Vg4nA/ujLwY9ASNCQ
+VQSIhN5f0lmNc47iHC104OZMQ7ypdiGCgbj5DqCJSOAQpvSmzMfQ7u+0qDy8g+iq
+UImaa61jVv4+2LTRK1sgHj0DPHhsZNUxVXB77UFjnfTcxHmTmDDrNkZlk6fOrEA4
+XlDWT2Ykxg1ADV0QU/Cq8oFZ
+=Kyft
 -----END PGP SIGNATURE-----
 
---===============3981832052662270572==
+--===============4124197301081986929==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-672c0c517342-42226c989789.txt
+Content-Disposition: attachment; filename=revlist-401fb66a355e-42226c989789.txt
 
 d6732317a5525a95a7eb2d12b46e3e42d321c6b6 hwmon: (xdpe12284) Fix build warning seen if CONFIG_SENSORS_XDPE122_REGULATOR is disabled
 4fd45cc8568e6086272d3036f2c29d61e9b776a1 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
@@ -268,14 +268,6 @@ ceb4f60830a7cd38ff47b7dd54e9e06ddbaf413c btrfs: zoned: activate block group prop
 01e01f5c89773c600a9f0b32c888de0146066c3a usb: cdc-wdm: fix reading stuck on device close
 bbc126ae381cf0a27822c1f822d0aeed74cc40d9 usb: typec: tcpci: Don't skip cleanup in .remove() on error
 b81ac4395bbeaf36e078dea1a48c02dd97b76235 usb: gadget: uvc: allow for application to cleanly shutdown
-447ee1516f19f534a228dda237eddb202f23e163 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
-bb0b197aadd928f52ce6f01f0ee977f0a08cf1be serial: 8250_mtk: Fix UART_EFR register address
-6f81fdded0d024c7d4084d434764f30bca1cd6b1 serial: 8250_mtk: Make sure to select the right FEATURE_SEL
-e1bfdbc7daca171c74a577b3dd0b36d76bb0ffcc serial: 8250_mtk: Fix register address for XON/XOFF character
-fd442e5ba30aaa75ea47b32149e7a3110dc20a46 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
-edd5f60c340086891fab094ad61270d6c80f9ca4 tty: n_gsm: fix mux activation issues in gsm_config()
-9361ebfbb79fd1bc8594a487c01ad52cdaa391ea tty: n_gsm: fix invalid gsmtty_write_room() result
-401fb66a355eb0f22096cf26864324f8e63c7d78 fsl_lpuart: Don't enable interrupts too early
 f47c960e9395743a8aa3bd939d4d3a0f582f565e Merge tag 'devicetree-fixes-for-5.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 6997fbd7a3dafa754f81d541498ace35b43246d8 net: rds: use maybe_get_net() when acquiring refcount on TCP sockets
 fe27d189e3f42e31d3c8223d5daed7285e334c5e Merge tag 'folio-5.18f' of git://git.infradead.org/users/willy/pagecache
@@ -487,4 +479,4 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
 
---===============3981832052662270572==--
+--===============4124197301081986929==--
