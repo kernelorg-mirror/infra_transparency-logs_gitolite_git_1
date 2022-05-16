@@ -1,36 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 16 May 2022 12:50:03 -0000
-Message-Id: <165270540366.17430.9481156018877379267@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3829545035850244163=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 16 May 2022 12:51:25 -0000
+Message-Id: <165270548513.17919.15044204223212437377@gitolite.kernel.org>
+
+--===============3829545035850244163==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19/block
-    old: cb9e061e974f8a3a8f2b8c89d93f34ffa7cacafb
-    new: b1ec1bae3b425e145e134fd63347576c478b85db
+  - ref: refs/heads/master
+    old: 295065208cb28222d6467ef87a3ba72a86cd31d8
+    new: 38f8557783c096cd02897329c350d4d077858cea
     log: |
-         b1ec1bae3b425e145e134fd63347576c478b85db block: cleanup the VM accounting in submit_bio
+         38f8557783c096cd02897329c350d4d077858cea 5.4-stable patches
          
-  - ref: refs/heads/for-5.19/drivers
-    old: c23d47abee3a54e4991ed3993340596d04aabd6a
-    new: 491bf8f236fdeec698fa6744993f1ecf3fafd1a5
-    log: |
-         491bf8f236fdeec698fa6744993f1ecf3fafd1a5 nbd: Fix hung on disconnect request if socket is closed before
-         
-  - ref: refs/heads/for-next
-    old: 195fbdc42ab95bcd5c5f0b5bb109b212afb15ad0
-    new: 5604eb526640effc903521393675e40d6ece27c2
-    log: |
-         491bf8f236fdeec698fa6744993f1ecf3fafd1a5 nbd: Fix hung on disconnect request if socket is closed before
-         306d7f1a76df22edaf2e5b38c34261cf5135f519 Merge branch 'for-5.19/drivers' into for-next
-         aeb0f615fc24c82b7f081cce5b361a3a7375f4d5 Merge branch 'for-5.19/io_uring' into for-next
-         b1ec1bae3b425e145e134fd63347576c478b85db block: cleanup the VM accounting in submit_bio
-         e7e59de7152aaab7c5cb7ef02178ef5c793a9479 Merge branch 'for-5.19/block' into for-next
-         5604eb526640effc903521393675e40d6ece27c2 Merge branch 'for-5.19/cdrom' into for-next
-         
+
+--===============3829545035850244163==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652705484 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1652705483-9ba558eb9a29a91944a851830e14a551651b9ee4
+
+295065208cb28222d6467ef87a3ba72a86cd31d8 38f8557783c096cd02897329c350d4d077858cea refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKCSMwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yDkP/2knNvInH6d+Bn9ORuEz
+zOmFaDEHrijhIROd3GSNRwEas/34JsLBtQpKxS10SBTPDPUHj+XnAaiyZ0mDKHiI
+gany3lSRrjO9DZU2/mdOWJ+fud3c+zvEBDeakXcig/oeKGVj+6p3FbB/kQpGWPSp
+WF5sudy9yogywlS6psJX2/BiCf+cuk8KylQoCWWvRda6XYl9sv0SywhWuoKVTOEi
+WBUI4qgLoYkZC7MDFUlwLAO/60nQdCE20YCFl0V9RpxA1sKLW15+Bxx007NqjOek
+FaZlYph+5TEMgZT8O0e/aADwae7EvpENADCe+AwkvhzqDGkNKa14+ke1P5VgsIp8
+Dw3opj5wofUeURlm89bcXYVdmmoM45sG+B+qXCdvTnglmLaaLfoxFANwEe6hT/lf
+J4WeQ5B7aeWB0MZ63YhFzwva585O5WZmggNofon6X23xKF7UwetJgNdBvpCfla50
+O+oogMbYF9lOkQJagsNx0M221BRmgWOOjJylROQnMC0INZvE9SRhV1avc9dxKR1i
+UvRJetdFv8sG+fDDEBGqW27tCxVYCSKmB0nyUeudBGrR3Ke8BnNiCja4TrYAJhMc
+UJ29+sD6vuHD4xNzv6v3Xrs3kxuoZxSW+bUz6JObAbkisM1UZj5LzkP3iB4LK+rq
+uBEhZjstZSKfZuGb0t18Su57
+=DgX7
+-----END PGP SIGNATURE-----
+
+--===============3829545035850244163==--
