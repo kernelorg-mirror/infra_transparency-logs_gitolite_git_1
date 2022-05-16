@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0937144048475437941=="
+Content-Type: multipart/mixed; boundary="===============7704066254014527232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 16 May 2022 08:34:23 -0000
-Message-Id: <165269006369.27152.10099640886868200892@gitolite.kernel.org>
+Date: Mon, 16 May 2022 08:34:45 -0000
+Message-Id: <165269008534.27359.15577210434246930243@gitolite.kernel.org>
 
---===============0937144048475437941==
+--===============7704066254014527232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 4fbdb1a9e9e5c802080aa86c8d557135922fb859
-    new: ed6bc6bf0a7d75e80eb1df883c09975ebb74e590
-    log: |
-         ed6bc6bf0a7d75e80eb1df883c09975ebb74e590 m68k: math-emu: Fix dependencies of math emulation support
-         
-  - ref: refs/heads/for-v5.19
-    old: 4fbdb1a9e9e5c802080aa86c8d557135922fb859
-    new: ed6bc6bf0a7d75e80eb1df883c09975ebb74e590
-    log: |
-         ed6bc6bf0a7d75e80eb1df883c09975ebb74e590 m68k: math-emu: Fix dependencies of math emulation support
-         
-  - ref: refs/heads/master
-    old: 5ce775425058ddf42f6fc7e493de72603fd2c667
-    new: 5b566ef5f7d6a0c31a512bfe4eefcce31771cf12
-    log: revlist-5ce775425058-5b566ef5f7d6.txt
+  - ref: refs/heads/m68k-queue
+    old: c12c9bd5e9bccc63b55e8d10bce3759d6204707d
+    new: bb67e35d3618303dd51bc21362153d660d056b4e
+    log: revlist-c12c9bd5e9bc-bb67e35d3618.txt
 
---===============0937144048475437941==
+--===============7704066254014527232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ce775425058-5b566ef5f7d6.txt
+Content-Disposition: attachment; filename=revlist-c12c9bd5e9bc-bb67e35d3618.txt
 
 a063f2fba3fa633a599253b62561051ac185fa99 batman-adv: Don't skb_split skbuffs with frag_list
 7635a1ad8d92dcc8247b53f949e37795154b5b6f iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
@@ -231,7 +219,15 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 5becde60ed4e63858385aa10354cb87d7444b9cf Merge tag 'char-misc-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
-762e51e61c7cf7b05c3d3752a0d79a020b7d2937 m68k: math-emu: Fix dependencies of math emulation support
-5b566ef5f7d6a0c31a512bfe4eefcce31771cf12 Merge tag 'v5.18-rc7'
+ab9b7334abef60c65a3486085772197f1664fcf7 tty: goldfish: Introduce gf_ioread32()/gf_iowrite32()
+e4f7bfa0899f7ac3c73cb90c220d289bb5a84bdd rtc: goldfish: Use gf_ioread32()/gf_iowrite32()
+7bf803a76c67ce072b1df3d5fe9da776c8b46850 clocksource/drivers: Add a goldfish-timer clocksource
+47b83ead4ad9a5ebc4e4c5dbf7291c2b824fda9c m68k: Introduce a virtual m68k machine
+547b5749e06afaa542caf3425ff4834e449edd64 m68k: Wire up syscall_trace_enter/leave for m68k
+acb3e224f7d73fbe3cb5a449d3beaac924464319 m68k: math-emu: Fix typos in comments
+bb99643bf716a7914db7e96369d6cab52c917c25 m68k: math-emu: Fix dependencies of math emulation support
+515c9ec1e8d68ab0c48f447d1b4eb52e4653c084 m68k: atari: usb: Add ISP1160 USB host controller support
+9c501b8e96039adf84f6d36138b277739004bbcb m68k: atari: Update Kconfig.bus help text
+bb67e35d3618303dd51bc21362153d660d056b4e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0937144048475437941==--
+--===============7704066254014527232==--
