@@ -1,66 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============7659242628350115282=="
+Content-Type: multipart/mixed; boundary="===============5891974494536529950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 16 May 2022 15:38:07 -0000
-Message-Id: <165271548717.30262.14579478677717915419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 16 May 2022 15:41:05 -0000
+Message-Id: <165271566544.32697.469618631718878663@gitolite.kernel.org>
 
---===============7659242628350115282==
+--===============5891974494536529950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/big-sqe
-    old: 219d53b5b5f43035426f244c8a214259b6ab2258
-    new: 797439af0962b65451425032c1559f0800fca13e
-    log: revlist-219d53b5b5f4-797439af0962.txt
+  - ref: refs/heads/master
+    old: 2fe1020d73ca0467b5383b0a3e459a1d29902762
+    new: 42226c989789d8da4af1de0c31070c96726d990c
+    log: revlist-2fe1020d73ca-42226c989789.txt
 
---===============7659242628350115282==
+--===============5891974494536529950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-219d53b5b5f4-797439af0962.txt
+Content-Disposition: attachment; filename=revlist-2fe1020d73ca-42226c989789.txt
 
-8b20997546d884f9a1cc37ec463b225fd18e57e3 liburing: Update io_uring in liburing
-72f55e271377eb2000fd4dc4991ce944440b551c liburing: add helper functions for setxattr and fsetxattr
-73849e908ce0ca8b85e3c890e88d070732d70b4f liburing: Add helper functions for fgetxattr and getxattr
-d6515e06f73ce6fc9810a74fccca4959ce49f819 liburing: Add new test program to verify xattr support
-f88e96ff2bd1bc3be84f11f37cd49d614de58a68 test/xattr: specify file mode with O_CREAT
-54faa4b2c76d90eaaf529532bb20cdee217ce9c2 test/xattr: style fixups
-894d32dc15a2919642f2d326f36d9126933055ae test/xattr: don't fail on kernels not supporting the feature
-e5dcfbf4c94135a2ba188d475eba60f63b10e5d0 32-bit build warning cleanups
-cdc632f1145f4862bbfe443b4329cc82bd847469 io_uring: add new cancel flags
-aa801a8541154ae38559b14bc24cd4a3f5939e80 liburing.h: add io_uring_prep_cancel_fd()
-5579f1ebdc7e1d0b4370bdeb9a03dab4d95e8bff test/poll-cancel-all: test issuing CANCEL_ALL | CANCEL_FD
-67b1d7ad568cec6cc4216fc55513cd17bf66e950 test/poll-cancel-all: add test case canceling a subset of pending
-6a504852c2c5fa8af18e54263515ab5723cad2c9 test/poll-cancel-all: abort test if cancel flags not supported
-d02460d876daec91293aa025f0cfb3af59dcccd4 io_uring.h: add IORING_ASYNC_CANCEL_ANY
-c091b912bc9c6fb64c68c7b0056c4923b327cd9e test/poll-cancel-all: test IORING_ASYNC_CANCEL_ANY
-6977ce1f49d38c496a3781bd2f1d39c6f23b8639 test/poll-cancel-all: add async read test case
-e597622672fcfdab486337b5a80be49cfe25a99c man: update man pages for waiting on a CQE with a timeout
-846097febe8eedfbce550c584f023459d614fbf4 queue: add new IORING_SQ_TASKRUN flag
-15af89d0d906791639ac7950f4f12ed9f30341d3 Add sparse registration helper and kernel definition
-6d94339b5050c31be8cc2734b7ef17cc41ec5fb6 Merge branch 'cancel-fd-all'
-961bfbda2d4b6995d598dd2bf59176aa738a9cd1 test/open-direct-pick.c: add test case for open direct with alloc
-36d6378c70e682bbacb4625c4ae1b72e4435c8da io_uring.h: add IORING_CQE_F_SOCK_NONEMPTY
-5d52bb71eeecb92134bd4cea42c280a08f5714c7 io_uring.h: add IORING_RECVSEND_POLL_FIRST
-a886f04557c676270152660816eeba1f3d54560b test/send_recvmsg.c: only check buffer group ID if set
-4d6a12e5d6bd7d7260d202cf888c911a039376ea Merge branch 'xattr'
-d6927ea5786d3056dabf696c6861cc10a864de79 io_uring.h: add IORING_SETUP_SQE128
-1efee07cc554c0d59ffbc323b577e28bc96fac24 setup: add basic support for SQE128
-e6f6a2d0e4ff10cadd13d115c48b36df11b846b4 test/nop: add basic IORING_SETUP_SQE128 tests
-5fa7867d8c5b027a421c72dfc68c7c4ac186dbb9 liburing: Update io_uring.h with large CQE kernel changes
-7eb8df1b627cce6ccb1ce1b422a713a06943eb6e liburing: increase mmap size for large CQE's
-0ba877d0e76f378c01a34c221bf1dc67d158744c liburing: return correct ring size for large CQE's
-406176e9a0e7c023a6572d734d4e2d40e3e2c4d6 liburing: index large CQE's correctly
-a2b20bcad03706101c3fffe77f0ced1ebcc1b9ff liburing: add large CQE tests to nop test
-855ffa0d9fc7875ada65ec23a086489dac59e2c9 liburing: Test all configurations with NOP test
-707550cb0d7c60caa1f788cb416ea52c5a1a4535 liburing: Update io_uring.h
-797439af0962b65451425032c1559f0800fca13e test/nop: make less verbose and don't fail on older kernels
+20ce30fb4750f2ffc130cdcb26232b1dd87cd0a5 interconnect: Restore sync state by ignoring ipa-virt in provider count
+26a08f8bad3e1f98d3153f939fb8cd330da4cb26 USB: serial: pl2303: add device id for HP LM930 Display
+714adff9a6271b5f1664b04c944b598141ebfe73 USB: serial: option: add Fibocom L610 modem
+07989eb981d862f7f2be68d233d753f2e7ccc119 USB: serial: option: add Fibocom MA510 modem
+870b1eee2d844727b06e238c121d260bc5645580 USB: serial: qcserial: add support for Sierra Wireless EM7590
+01e01f5c89773c600a9f0b32c888de0146066c3a usb: cdc-wdm: fix reading stuck on device close
+bbc126ae381cf0a27822c1f822d0aeed74cc40d9 usb: typec: tcpci: Don't skip cleanup in .remove() on error
+b81ac4395bbeaf36e078dea1a48c02dd97b76235 usb: gadget: uvc: allow for application to cleanly shutdown
+447ee1516f19f534a228dda237eddb202f23e163 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+bb0b197aadd928f52ce6f01f0ee977f0a08cf1be serial: 8250_mtk: Fix UART_EFR register address
+6f81fdded0d024c7d4084d434764f30bca1cd6b1 serial: 8250_mtk: Make sure to select the right FEATURE_SEL
+e1bfdbc7daca171c74a577b3dd0b36d76bb0ffcc serial: 8250_mtk: Fix register address for XON/XOFF character
+fd442e5ba30aaa75ea47b32149e7a3110dc20a46 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
+edd5f60c340086891fab094ad61270d6c80f9ca4 tty: n_gsm: fix mux activation issues in gsm_config()
+9361ebfbb79fd1bc8594a487c01ad52cdaa391ea tty: n_gsm: fix invalid gsmtty_write_room() result
+401fb66a355eb0f22096cf26864324f8e63c7d78 fsl_lpuart: Don't enable interrupts too early
+581dd69830341d299b0c097fc366097ab497d679 firmware_loader: use kernel credentials when reading firmware
+8bf6e0e3c7de857b91a75aa57cecd56c10035bb2 Documentation/process: Make groups alphabetical and use tabs consistently
+29ad05fd6760c55fa7ab0e1f96e5be1b66daa4fc Documentation/process: Add embargoed HW contact for Ampere Computing
+fe503887eed6ea528e144ec8dacfa1d47aa701ac slimbus: qcom: Fix IRQ check in qcom_slim_probe
+575f00edea0a7117e6a4337800ebf62e2a1d09d6 Documentation/process: Update ARM contact for embargoed hardware issues
+792ea6a074ae7ea5ab6f1b8b31f76bb0297de66c genirq: Remove WARN_ON_ONCE() in generic_handle_domain_irq()
+ee8348496c77e3737d0a6cda307a521f2cff954f KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
+9c2136be0878c88c53dea26943ce40bb03ad8d8d sched/tracing: Append prev_state to tp args instead
+4031cd95cba70c72e4cadc2d46624bcd31e5a6c0 usb: typec: tcpci_mt6360: Update for BMC PHY setting
+5f0b5f4d50fa0faa8c76ef9d42a42e8d43f98b44 usb: gadget: fix race when gadget driver register via ioctl
+c237566b78ad8c72bc0431c5d6171db8d12e6f94 usb: xhci-mtk: fix fs isoc's transfer error
+1645eee0d7f623660e6ce0f1aef4591788a0c9da usb: xhci-mtk: remove bandwidth budget table
+757b9f6e6a2070043e5f215ff4afe350ecfb2bf7 Merge tag 'usb-serial-5.18-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial
+280abe14b6e0a38de9cc86fe6a019523aadd8f70 x86/mm: Fix marking of unused sub-pmd ranges
+d83ea024091e11d384f983f389a7853312c33c5d Merge tag 'icc-5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
+fb756280f97788525e898181adfc4feb106c79d3 Merge tag 'irq-urgent-2022-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+990e798d182a63afba6cc990f5bcd42d18436b55 Merge tag 'sched-urgent-2022-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+79dc4fc2f235159f0f59fca2250855a796f590ff Merge tag 'x86-urgent-2022-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bc403203d65a874df2f3156046468052e4109cb0 Merge tag 'powerpc-5.18-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+6811a466d27ba79e6c31c0aecc74feab0472df36 Merge tag 'tty-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+5becde60ed4e63858385aa10354cb87d7444b9cf Merge tag 'char-misc-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
 
---===============7659242628350115282==--
+--===============5891974494536529950==--
