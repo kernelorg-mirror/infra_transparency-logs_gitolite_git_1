@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0282025520510911108=="
+Content-Type: multipart/mixed; boundary="===============1761132403541967230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 16 May 2022 06:30:27 -0000
-Message-Id: <165268262791.9474.5663240095143513393@gitolite.kernel.org>
+Date: Mon, 16 May 2022 06:30:31 -0000
+Message-Id: <165268263144.9536.4041357626231043270@gitolite.kernel.org>
 
---===============0282025520510911108==
+--===============1761132403541967230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
+  - ref: refs/heads/driver-core-linus
+    old: 575f00edea0a7117e6a4337800ebf62e2a1d09d6
     new: 42226c989789d8da4af1de0c31070c96726d990c
-    log: revlist-672c0c517342-42226c989789.txt
+    log: revlist-575f00edea0a-42226c989789.txt
 
---===============0282025520510911108==
+--===============1761132403541967230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682627 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682630 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1652682626-6e13bf296c4b53e3b06553099d7cffd796a6ae85
+nonce 1652682629-00a087a870d3c1670c47f1edda83a6b30d72b309
 
-672c0c5173427e6b3e2a9bbb7be51ceeec78093a 42226c989789d8da4af1de0c31070c96726d990c refs/heads/main
+575f00edea0a7117e6a4337800ebf62e2a1d09d6 42226c989789d8da4af1de0c31070c96726d990c refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB74MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RjYP/1ofMPCNjLq99Rm2yFKn
-a/OiL/A469/GJbW2sfDIGq+mfK+i9+Q6HWycrY9Jyl2IszVOFvIpytyxrZmAaKfK
-BT4oN+4n1Mc84I0tEhxgIplWhBYPIzW+nn7HCUD3glW8VGlT2sABpsRFQXDKsKY/
-UWwoL58JJr3PJ/g+EXZWUum6bEnGz6d+aW3HTtWAbJ71za4026oA5QUk2iZC4am4
-FfQJbP0XSrUdJkPc8fEuZ165uAiJMhV/7horGNowN9O6nyLCBDjFFxYKxzXCi8VG
-zk0osjxYGLVPvJeW8+pa+8kukxfxa+Plrgj41GGUh5cR4qidSPzgkTp4DSqt1XkO
-aqt0L8xrNwOaasZiA8qQmxBntcIxGOG8yxh/lklSJU+bosZkqj/cSq9OlBMQLn5F
-7IALLny7vN4i+nnpL0xrvsF9PfL50Fqm53MD5Y1cQF41Otzg4XWK6qbEWZ/LfM2l
-ZmwNFU67dEd1gP4m6b/bCUg6c2Vk5I93ejncZnMJjkd9oFrYbk3xqNm3KFpcJkkt
-lTNY1IHu1Qpk0N0BLLFX1pg0ZYpLHllAzOp40SFwuH0aKpPbngOh3PZiHaJBEciq
-bFtZyDWz+Vp6FzZzvSzRRmp0rsute2LqMA6hZzaSmvjGFJE5rlBIJen15T6besUV
-+15ID1e4MU0ri989y03bf6eb
-=yGYg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB74YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XkoP/jROOQ1WARnZpkOnY9Ic
+f6RXGGyNo4x5VY45ijmutaOzSdPUhhfAFmM7f1Ud+jDju0kU0Pv6uYteKETqSVUn
+dFIOKBEmj74ovVwEuEXx5qOrwp7CRVCga+WUJCDxNCsKr+Cgpb4NCMShVfEUv41q
+WfgLkyX2l6oVW0KURsOas4QYRl7mOa0bjvqBMXI290JaJAyiG8FnDhYqpUw2SJr2
+oEl7R6ts2+Tr/uCl5meVPqzBtdApiocqBDqvTY5Sbgi6lSrxn9cyx1Y31Ss5b9vv
+y1p0oIcCWohzPomW/ZmUNDT4ggAB6QFLj+RubKLKWDOdPKObIOJOhWkaDdfMeyzP
+gSSzl9kkNacCbOHpjL5gvIf2QqVNTIPcjQTpzDX8fUemkWGSwKqguLutmgkWJLPX
+8++t6cZo1uHVsj5W7+7teTJfExmqDU47K6JZ+aTXUJ4Csmq8atqXDnEu9bAaCf3z
+QbU0aMFOr3/rb2bPj0QxgXe3Y8J4jmDsR7jEt4snWoqtiWZLgOFWUh0X6kpt2/n0
+7fYlHL21iRwa5v+J3yd4Ed+66sg6dmYgOY/YtmITGIum+vSzH8gW8doMq2udE/Tr
+rPiq728rs0ml4sBeoRzC5N+BFs7GB4Xj4JD/TxDnZLiucfMXF/OJoNH7BOnjby/c
+73QTCuxvRqczYvCR56rVqnZb
+=8Hfp
 -----END PGP SIGNATURE-----
 
---===============0282025520510911108==
+--===============1761132403541967230==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-672c0c517342-42226c989789.txt
+Content-Disposition: attachment; filename=revlist-575f00edea0a-42226c989789.txt
 
 d6732317a5525a95a7eb2d12b46e3e42d321c6b6 hwmon: (xdpe12284) Fix build warning seen if CONFIG_SENSORS_XDPE122_REGULATOR is disabled
 4fd45cc8568e6086272d3036f2c29d61e9b776a1 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
@@ -306,9 +306,6 @@ c88d3908516d301972420160f5f15f936ba3ec3a Merge branch 'ocelot-vcap-fixes'
 666b90b3ce9e4aac1e1deba266c3a230fb3913b0 fbdev: simplefb: Cleanup fb_info in .fb_destroy rather than .remove
 d258d00fb9c7c0cdf9d10c1ded84f10339d2d349 fbdev: efifb: Cleanup fb_info in .fb_destroy rather than .remove
 b3c9a924aab61adbc29df110006aa03afe1a78ba fbdev: vesafb: Cleanup fb_info in .fb_destroy rather than .remove
-581dd69830341d299b0c097fc366097ab497d679 firmware_loader: use kernel credentials when reading firmware
-8bf6e0e3c7de857b91a75aa57cecd56c10035bb2 Documentation/process: Make groups alphabetical and use tabs consistently
-29ad05fd6760c55fa7ab0e1f96e5be1b66daa4fc Documentation/process: Add embargoed HW contact for Ampere Computing
 c25d7f32e3e209462cd82e6e93e66b72dbb2308f platform/x86: thinkpad_acpi: Convert btusb DMI list to quirks
 455cd867b85b53fd3602345f9b8a8facc551adc9 platform/x86: thinkpad_acpi: Add a s2idle resume quirk for a number of laptops
 aa2fef6f40e6ccc22e932b36898f260f0e5a021a platform/x86: thinkpad_acpi: Correct dual fan probe
@@ -407,7 +404,6 @@ dc5306a8c0eace6c113aded2e36ae5e15fdca4d7 decnet: Use container_of() for struct d
 7ff960a6fe399fdcbca6159063684671ae57eee9 virtio: fix virtio transitional ids
 c1ad35dd0548ce947d97aaf92f7f2f9a202951cf udf: Avoid using stale lengthOfImpUse
 c46721e4604f260918e660550a16d1e28637d66c MAINTAINERS: Add James and Mike as Arm64 performance events reviewers
-575f00edea0a7117e6a4337800ebf62e2a1d09d6 Documentation/process: Update ARM contact for embargoed hardware issues
 feb9c5e19e913b53cb536a7aa7c9f20107bb51ec Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 12a4d677b1c34717443470c1492fe520638ef39a net: phy: micrel: Fix incorrect variable type in micrel
 792ea6a074ae7ea5ab6f1b8b31f76bb0297de66c genirq: Remove WARN_ON_ONCE() in generic_handle_domain_irq()
@@ -487,4 +483,4 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
 
---===============0282025520510911108==--
+--===============1761132403541967230==--
