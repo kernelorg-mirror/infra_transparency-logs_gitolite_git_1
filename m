@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0230803473455434841=="
+Content-Type: multipart/mixed; boundary="===============5069534799669801771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 16 May 2022 15:21:18 -0000
-Message-Id: <165271447813.20073.14292221423489999601@gitolite.kernel.org>
+Date: Mon, 16 May 2022 15:24:14 -0000
+Message-Id: <165271465432.21130.9120300788147504228@gitolite.kernel.org>
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,477 +16,478 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 3046c224a183a011df45de145d807506bf6e7238
-    new: dda5aed5823d62cef7ecc39e88adb47684e22755
-    log: revlist-3046c224a183-dda5aed5823d.txt
+    old: dda5aed5823d62cef7ecc39e88adb47684e22755
+    new: 8ecacb826a86725cce79747b7fa4e7bcd26bbb32
+    log: revlist-dda5aed5823d-8ecacb826a86.txt
   - ref: refs/heads/queue/4.19
-    old: 6515e678fbd758acfab224ca1f2036e6ee4771bf
-    new: 17a1ca631f1081531dd6b53223a47845d735b7e2
-    log: revlist-6515e678fbd7-17a1ca631f10.txt
+    old: 17a1ca631f1081531dd6b53223a47845d735b7e2
+    new: 035a06f050e6882720c1c5c97d7d20ca0cc69b00
+    log: revlist-17a1ca631f10-035a06f050e6.txt
   - ref: refs/heads/queue/4.9
-    old: ac83a80e62e1374e8d060db9ac459dc8d0206be1
-    new: e7f18fad5ef50223811160bb5ebe08b6466d3d1e
-    log: revlist-ac83a80e62e1-e7f18fad5ef5.txt
+    old: e7f18fad5ef50223811160bb5ebe08b6466d3d1e
+    new: 080b961c3a66ffa00acd16c0d1202123515a8d27
+    log: revlist-e7f18fad5ef5-080b961c3a66.txt
   - ref: refs/heads/queue/5.10
-    old: b64a646bb78f56f51966984f56604203fa7ee7f3
-    new: 12e65a982353159472dffda7599137523c64b562
-    log: revlist-b64a646bb78f-12e65a982353.txt
+    old: 12e65a982353159472dffda7599137523c64b562
+    new: 678760868882a1b8dd7f45e9b6058f2c0ce109a3
+    log: revlist-12e65a982353-678760868882.txt
   - ref: refs/heads/queue/5.15
-    old: 0de7befc97c9dbf238d3bc7bd71fcdd3a3624a34
-    new: 5d6ba64fc01131af924bed07a117998170aba0de
-    log: revlist-0de7befc97c9-5d6ba64fc011.txt
+    old: 5d6ba64fc01131af924bed07a117998170aba0de
+    new: 4dc9a63abd08284e80db2da526ccbdd86ed78f53
+    log: revlist-5d6ba64fc011-4dc9a63abd08.txt
   - ref: refs/heads/queue/5.17
-    old: c91afcc1172ff617a84b0d53a334856935a3a3cb
-    new: e12bf6afffbdfa44881978482a64af039712e841
-    log: revlist-c91afcc1172f-e12bf6afffbd.txt
+    old: e12bf6afffbdfa44881978482a64af039712e841
+    new: 31218da16de9a5a9c56922972e75cb622fd596b3
+    log: revlist-e12bf6afffbd-31218da16de9.txt
   - ref: refs/heads/queue/5.4
-    old: c3b3f655c54f0755d1de7f2743dc9e7a039e031f
-    new: 3ba46bef913c50b1fd6d1f64af44e8f4743def99
-    log: revlist-c3b3f655c54f-3ba46bef913c.txt
+    old: 3ba46bef913c50b1fd6d1f64af44e8f4743def99
+    new: 33e43036d9105d0f7ab7107d3d240f6b381b1d67
+    log: revlist-3ba46bef913c-33e43036d910.txt
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3046c224a183-dda5aed5823d.txt
+Content-Disposition: attachment; filename=revlist-dda5aed5823d-8ecacb826a86.txt
 
-0f3873c2c145b286856d3efee064df33ab1accde batman-adv: Don't skb_split skbuffs with frag_list
-f303ed172f0ad92ef0a983630885ad66a24be2ee net: Fix features skip in for_each_netdev_feature()
-d09da74e970bfea5c91829a26f6e0bd6f834fdf3 ipv4: drop dst in multicast routing path
-d568c7808bfa5427ed12f9e048db1caf6c1ec689 netlink: do not reset transport header in netlink_recvmsg()
-e5fe74929b2606ea005755376562fa4c934d72d5 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-3103122f1e9ae4c421bb32adb56f41ba34e81e81 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-1769d2d0e588ecc0c839e7c2b60d5e014d8505cd s390/ctcm: fix variable dereferenced before check
-bd00dfb88f8425838b4e8f4e2961e35132fcf849 s390/ctcm: fix potential memory leak
-5d4b5fd9a4e40e21708249c645eadb929d594c55 s390/lcs: fix variable dereferenced before check
-cb48c4495a7232bbb3aa74b1e31eba1c856a9626 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-55c83a2bdeaf02eb442344bbcb9f8b3d5198f90b net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-6f82f800af16b22d177b33fb8f65178898071feb hwmon: (f71882fg) Fix negative temperature
-da9063bc72713d9ec569ed58ec8f1d53802036aa ASoC: max98090: Reject invalid values in custom control put()
-708b711565e3df523b76df4323850ece10ef4dc9 ASoC: max98090: Generate notifications on changes for custom control
-f6f14a35ceedc7796e37a274789662bdc420e973 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-de82bf46d30f330603baf92f5a0e22bf03115e13 tcp: resalt the secret every 10 seconds
-90c1c68ed8e14863d5531844474c50a9be665236 usb: cdc-wdm: fix reading stuck on device close
-2b29f326dcad28aa80b888d63fb0220e16926381 USB: serial: pl2303: add device id for HP LM930 Display
-91de3f8bb89d3665f6380871654c0a30033f5f7c USB: serial: qcserial: add support for Sierra Wireless EM7590
-4a699eb7c4919ae415213258102cf93e053c88ee USB: serial: option: add Fibocom L610 modem
-f3ae302db3bcf8b608082bf7706eb326f57421a4 USB: serial: option: add Fibocom MA510 modem
-e30dc4066128eb5cbd846e00ca147456651f79b2 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-318a1298a5cc2e36f350a01c92c3175af0e7a54c drm/vmwgfx: Initialize drm_mode_fb_cmd2
-aad6b03000d4b53004c4b8aa7527a5d9effcd65d ping: fix address binding wrt vrf
-dda5aed5823d62cef7ecc39e88adb47684e22755 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+6f288dcded33fc57d81f5cce78e732d71dc1884d batman-adv: Don't skb_split skbuffs with frag_list
+8dd7682b94f79f5730a8ae75cbb8fba17a0a6ef7 net: Fix features skip in for_each_netdev_feature()
+aaf7da17b144d33ec59a4115d2efaf0c17422a63 ipv4: drop dst in multicast routing path
+e3fa0e1ebc8b8be9623523116e6669d7675fd15e netlink: do not reset transport header in netlink_recvmsg()
+9db19bd8f70a8c281e333fe91f76f5ca31f0ceeb mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+caadff30d8f8c7164de896189d092659791ffdd4 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+8625ac4822b3baa95348d2c82a8846e8aed27373 s390/ctcm: fix variable dereferenced before check
+47fb8c646a280da2364d80e3f6440c24a187265d s390/ctcm: fix potential memory leak
+44bb722dfebbb9858236165c31f3b88bac7955dd s390/lcs: fix variable dereferenced before check
+e467bbbf59ff9edb3825d724474550a70ad33166 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+86364e6da5bc359e8c58013fd05343bbb9286f6a net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+14fa3fcd50d59af0dacbb3b2fb3b2fe2cb4b65f7 hwmon: (f71882fg) Fix negative temperature
+a6b3b0107e59b979a147aac680d7ca10d313d589 ASoC: max98090: Reject invalid values in custom control put()
+16a3afbb0fec420227cdc5852b02830f0e622c08 ASoC: max98090: Generate notifications on changes for custom control
+ce514aa2b81f5a4623a21927cec31c0993efd72d ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+a9ada4cc4a8eaeb1bdf98edd2c20bfd1a035220d tcp: resalt the secret every 10 seconds
+46645940a21253b05aa2ce9bbeee06b715ccbdc8 usb: cdc-wdm: fix reading stuck on device close
+ff4af5e1bc355950b1c96728ea35a35e0b288edf USB: serial: pl2303: add device id for HP LM930 Display
+4fa53ed5e41f64571d3b14df649b03ab4cf5b6fe USB: serial: qcserial: add support for Sierra Wireless EM7590
+503b026f2bd68bef65db879f59d63c2f8ee36153 USB: serial: option: add Fibocom L610 modem
+d9adcd1b70250f0a6f8b528b8e29ebbf5751fee0 USB: serial: option: add Fibocom MA510 modem
+8390cc3d825480fc4d4f63f3976c4e83c66f8e9b cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+73845b7c36ac2845d753c69aa057aca9943a9f7f drm/vmwgfx: Initialize drm_mode_fb_cmd2
+174ce2d9cee8a9abe73a235103e2da5a7763e246 ping: fix address binding wrt vrf
+8ecacb826a86725cce79747b7fa4e7bcd26bbb32 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6515e678fbd7-17a1ca631f10.txt
+Content-Disposition: attachment; filename=revlist-17a1ca631f10-035a06f050e6.txt
 
-4f744c582c9c3bddb6c68dfa5482a49595592083 batman-adv: Don't skb_split skbuffs with frag_list
-fb2bef1d5aa29f7e28a4024d34a305e6d939e37c hwmon: (tmp401) Add OF device ID table
-933e2a510331a7a6ed0096744896398697753ec6 net: Fix features skip in for_each_netdev_feature()
-c4141d457bd6bc9e1d785b466f7a65ead3b5e261 ipv4: drop dst in multicast routing path
-c976e871896b08fc96b25b10f17becbe4ea5ca32 netlink: do not reset transport header in netlink_recvmsg()
-98a2d91b672d5ce2a868c07bb47eca68e5dd1230 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-03b8a4ec2f57f3378e322eb93f3e8ecb49bc5e10 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-8a40890b87ba674964f371897069c515c0402c11 s390/ctcm: fix variable dereferenced before check
-31268bdc1512688d348032618d755e12f73428ab s390/ctcm: fix potential memory leak
-463b441a742c7404426b9bfadb798f4679f90ac6 s390/lcs: fix variable dereferenced before check
-13fc2d57ec062aa565784dd22bb0f5815f11b1e7 net/sched: act_pedit: really ensure the skb is writable
-c609d0cc1cfca10005cdeeb4217fbf8ee770aec5 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-f4247d856ab3fdce5148b33567498e2ca147cda3 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-fc0e44254750e5399b381d8d8e7fb45ba9b54438 gfs2: Fix filesystem block deallocation for short writes
-6bf8b12dd701ef59bdef2b0d1918367171cf0de0 hwmon: (f71882fg) Fix negative temperature
-3f44b651e99601f8b2b5578614edee19ddc8d916 ASoC: max98090: Reject invalid values in custom control put()
-5906a51c26ad306c90569f35267894a3bfc9ff44 ASoC: max98090: Generate notifications on changes for custom control
-f073a125ca8837b31c9745b6568cab1e2a091873 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-6da4de29a4e4b0e045fbef9b02f3c24bba3e8350 s390: disable -Warray-bounds
-6c4755b2b9aace66e32333f6af74276e93693bf4 tcp: resalt the secret every 10 seconds
-5a265a931af41b2455c10174fac1cfbfe5f226d7 usb: cdc-wdm: fix reading stuck on device close
-966df0eeff2778cb2158e8b818a491784fa67190 usb: typec: tcpci: Don't skip cleanup in .remove() on error
-45428d349add2cce965de4cfa6f8aef0aabaddea USB: serial: pl2303: add device id for HP LM930 Display
-44b89e2839f9af603e0d055ae0836d970092a6ed USB: serial: qcserial: add support for Sierra Wireless EM7590
-34996a7a899ab2c6d5e1f7ed77ff27c9b80f7c5b USB: serial: option: add Fibocom L610 modem
-c37ff660b6cd4af1fae618ab5dd1500525023eb4 USB: serial: option: add Fibocom MA510 modem
-0b04344afc3335aaa54e191ccdbb452e2192fe01 slimbus: qcom: Fix IRQ check in qcom_slim_probe
-ba59bb534946b5296e9b9ab1ed2a844a53d3f820 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-58651c4bb21a57a09e9c0933a3551eac74a4481b drm/vmwgfx: Initialize drm_mode_fb_cmd2
-d687d4a33d964f65521f27cb831bd9df8e097f7a MIPS: fix allmodconfig build with latest mkimage
-bef3f616c5c301a71f1dd1bda0bc52f59fcb770e ping: fix address binding wrt vrf
-17a1ca631f1081531dd6b53223a47845d735b7e2 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+81df0f2827b8ecc2ea986bcbf6d549287d6d8aaf batman-adv: Don't skb_split skbuffs with frag_list
+b1e15a95b8538a5ac7d6e5da70ad5bce7e3d075f hwmon: (tmp401) Add OF device ID table
+19a777455c923fd1e90fd66a96b73100383a6d26 net: Fix features skip in for_each_netdev_feature()
+050d73a503a531764c6e987d5989183b7af17da7 ipv4: drop dst in multicast routing path
+8e144265946a595154dacf4501ded9f171fdc928 netlink: do not reset transport header in netlink_recvmsg()
+fee7647d34cae0f1418b73921859122636675765 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+7a7faf36d2688866666cdf9e48d47c4cfc9ca1bc hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+bb147b80ca3e8dbbab5af55d37018b3bd8f85405 s390/ctcm: fix variable dereferenced before check
+b1366ad8e55bd32951951ce18ed973b38486aed0 s390/ctcm: fix potential memory leak
+84c8b544bb3131e8ee70e4653602e4fb3ef1919c s390/lcs: fix variable dereferenced before check
+713c4cc670c4cc5a3ede2a6468d5185d4e014d1e net/sched: act_pedit: really ensure the skb is writable
+c37f84d34a7b98cb316d8cd3d848260f19fc2cf7 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+fdbc8cc534b1ab938e0d48e612288e0408dc9581 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+b99e0afc4dd3205ae99c487780c663ec6b276e53 gfs2: Fix filesystem block deallocation for short writes
+e37d8a51449eabe1ae4cdfca1f7d16b57fa9d63a hwmon: (f71882fg) Fix negative temperature
+677b6e49cb59e5265325b30662ead06526b3ac5e ASoC: max98090: Reject invalid values in custom control put()
+ca7fc8ad8245faa965da545c4e314a832726b45c ASoC: max98090: Generate notifications on changes for custom control
+a3d7d51804ec1764d34bb3fd425b96529acb71ac ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+a238d1a312a49a7b0a9f6ef3bc46ce08b7ffaf95 s390: disable -Warray-bounds
+a71f04bd360f3c9c2f51811af47818bb5cb700a6 tcp: resalt the secret every 10 seconds
+f9e5913a9f80601cbe5e104919a48256a4b4b646 usb: cdc-wdm: fix reading stuck on device close
+f35f4f39d56575b83e563ce49e128e6102114cc0 usb: typec: tcpci: Don't skip cleanup in .remove() on error
+0985b325616e883d4325e4a45a7a2f8c8527812f USB: serial: pl2303: add device id for HP LM930 Display
+1e913c97b9ba615809f0f912f74dadd78657fd80 USB: serial: qcserial: add support for Sierra Wireless EM7590
+acc87274e582ef055fcb55886d92f6e958483d66 USB: serial: option: add Fibocom L610 modem
+91928e082103d3452244e9724ccd70619070d185 USB: serial: option: add Fibocom MA510 modem
+befb9d361be74d12b1b9704bf3930f6c51e17e80 slimbus: qcom: Fix IRQ check in qcom_slim_probe
+81f1afc8d3a381ee4cb4996f0085777c72c33792 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+56253518143e0b5dffec7835ee3fa35ee8063289 drm/vmwgfx: Initialize drm_mode_fb_cmd2
+79424f4a01d91fccf890087c83366c8c4d467e81 MIPS: fix allmodconfig build with latest mkimage
+d7dba679cc1541b70cd51228500f180bdbe994ad ping: fix address binding wrt vrf
+035a06f050e6882720c1c5c97d7d20ca0cc69b00 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac83a80e62e1-e7f18fad5ef5.txt
+Content-Disposition: attachment; filename=revlist-e7f18fad5ef5-080b961c3a66.txt
 
-99a4c9c3df91c322c4061fdf5b36438df72b21c2 net: Fix features skip in for_each_netdev_feature()
-06303203770f3c52d13aa07cfa390835ee928e13 ipv4: drop dst in multicast routing path
-3aad8a96b56bc4976ff74dafb9b7f639693a6546 netlink: do not reset transport header in netlink_recvmsg()
-f2afac4c14aab8cd3051f2b85bb81127b6585f0c mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-1106831e5184d35d34b07345c5fd1e860ac32fa9 s390/ctcm: fix variable dereferenced before check
-f31e27611d2f4f971213b16ca1a66512e7266103 s390/ctcm: fix potential memory leak
-d1b7b51f3386455771db9ecde5a2740a6aee0f63 s390/lcs: fix variable dereferenced before check
-e095d054cf2769ce77d4a4f67289e00f16b6cefe net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-aa692a67d1178d6029afb3ce916b10732db445a2 hwmon: (f71882fg) Fix negative temperature
-c802c354392b761cbb2fead898742a8d6c77236a ASoC: max98090: Reject invalid values in custom control put()
-3b2665a8deb12e33bfb0f9219ab00ed539ddff28 ASoC: max98090: Generate notifications on changes for custom control
-2e01c3858e6ddc647452ca79b39d8516bd370800 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-ba40db212407d24a9fd13acba2369cec1c454875 usb: cdc-wdm: fix reading stuck on device close
-ad778353709b2c0bd6b354ba1bcba547d9c2dc1c USB: serial: pl2303: add device id for HP LM930 Display
-9cec76dbcd87275e17a88200bca09ff09b61b7d4 USB: serial: qcserial: add support for Sierra Wireless EM7590
-7c9a776d65160c8a69c1606728701a8e3fc134bf USB: serial: option: add Fibocom L610 modem
-22802f1f582d95a6fef475f7395e681f761a3d6c USB: serial: option: add Fibocom MA510 modem
-0c85c261120c82705c5735fe01173ca081acfd6b ping: fix address binding wrt vrf
-e7f18fad5ef50223811160bb5ebe08b6466d3d1e tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+25871d1c6170fda3e5c1ef6d0f0ce5a3e79286e7 net: Fix features skip in for_each_netdev_feature()
+a01e62a8eab8c45edcf857332464040eada22366 ipv4: drop dst in multicast routing path
+f217c0701b1dc0e845c3746ccf745f16e4f1907f netlink: do not reset transport header in netlink_recvmsg()
+cb4518b340970740a0b0c7829d65bc9b0b3e8dd7 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+10c398c1da2c4490e1c0efe0c15ea9537ec0e944 s390/ctcm: fix variable dereferenced before check
+69c197cb65a425ec0dd1cb6739ed00a02b7ee2bc s390/ctcm: fix potential memory leak
+1028041b4683039986983d542107cd05ab6fdddd s390/lcs: fix variable dereferenced before check
+6eb52a95ece2958a7375ab1ff803724e3fb94807 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+3a90f1b57108dc85e454232445848ae1e17f58dd hwmon: (f71882fg) Fix negative temperature
+ebe665868d60b65f7b033437fa8907cf9add8c18 ASoC: max98090: Reject invalid values in custom control put()
+8f65593599f6d5b0b8005b866bbf1f3d225a6990 ASoC: max98090: Generate notifications on changes for custom control
+2a90aed7489ab9cc6ae7bcb7906955ca1e96a053 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+35ad2cfd12d19235d5d928ef517eece010ef8e54 usb: cdc-wdm: fix reading stuck on device close
+a1cc3c19d07759d3b2aa380d2dfd4f1e86922658 USB: serial: pl2303: add device id for HP LM930 Display
+ba95af995695afcd0914460e7d59a69a166e2629 USB: serial: qcserial: add support for Sierra Wireless EM7590
+500483e93b70a0a5d4b53d8a397bb0c278a877ce USB: serial: option: add Fibocom L610 modem
+1005e1e8121e771d589313908405513eda2f1949 USB: serial: option: add Fibocom MA510 modem
+67f748b38d47f64a0194a8633101726ef9b6df6f ping: fix address binding wrt vrf
+080b961c3a66ffa00acd16c0d1202123515a8d27 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b64a646bb78f-12e65a982353.txt
+Content-Disposition: attachment; filename=revlist-12e65a982353-678760868882.txt
 
-8621682cbf0d1fd5537562ab8dbc8ed70a5305b4 batman-adv: Don't skb_split skbuffs with frag_list
-e319aba5a79129b2033ea0859b5be1c8b0212d37 iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
-87c8f58afc1f262bd04a2508968130fb7a3c1bf6 hwmon: (tmp401) Add OF device ID table
-d27e625d2b6244ec0a2d70cbc266601b8fc30d9b mac80211: Reset MBSSID parameters upon connection
-cc0fb1b2b5a0c20ce20f47f532be49c0b1ea03db net: Fix features skip in for_each_netdev_feature()
-7a6a1b89ab3ae952d6e46f47a971c7952dc1566f net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
-757b098659743830f68416b6fa192f2b6e446669 net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
-ee054c66d4bd319e65b528f8a520bb2c0f270e56 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
-c74e3a08fdff0105f127c328325791207fb775bf net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
-c436396542b8ae1c51c46f09f476fe0e80f44895 ipv4: drop dst in multicast routing path
-9d1587ecbd200d3a8c3436b7219b15b0ece7978b drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
-2d15c26c074aaefdc0700dbc8f57a97cbf95e42a netlink: do not reset transport header in netlink_recvmsg()
-52d6a48cf1505d2ef5943177e9e847284ead3424 sfc: Use swap() instead of open coding it
-24c6c8541ce7f470619064727af818fcd22b4a27 net: sfc: fix memory leak due to ptp channel
-b88e21630dba1fd62c524cf608ce51628da28f77 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-f0e7f24fd14ce14e54c23b1758eb8ecdd24a7db2 nfs: fix broken handling of the softreval mount option
-c3f934ab61de56a6022ca5ca26a035e306d2b8a0 ionic: fix missing pci_release_regions() on error in ionic_probe()
-59af5802c75d27801fc092910182f45808fdcbda dim: initialize all struct fields
-165800f4f6c0b34f5268c04bb62474cc0c191834 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-6e8cde07a7cc3fccbed193d08c6ad54fae497a9c selftests: vm: Makefile: rename TARGETS to VMTARGETS
-6cc05388aa2823c6570926bd66ad8c1e9c018016 s390/ctcm: fix variable dereferenced before check
-2d3dcaff6e9c1113530f52b121522de83296e952 s390/ctcm: fix potential memory leak
-16f3729fd0818b9968466bdf4cbe8d5065a26046 s390/lcs: fix variable dereferenced before check
-5e2cc6df8bac37bb06760ae3953370d7061043fa net/sched: act_pedit: really ensure the skb is writable
-43050a678dfb08b84d1c38cb104b63827b185927 net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
-4fb030d863043bbff4ab3384d87b31f50a264e7d net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
-d224ea80c36fde20909961e4af1fd2670cfe5c2b net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-5ced4a4bbf5f6969c8f9507b1865f4a78a0ceef3 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-9111ce9d61caa90f28c974c25c1d809ba57b2550 tls: Fix context leak on tls_device_down
-aec9723918856e2608706511183ec850abea33d8 gfs2: Fix filesystem block deallocation for short writes
-28b1f76c5cf3836cdab2e650cd270ac238cdf558 hwmon: (f71882fg) Fix negative temperature
-a53cad7a2c01b56d86aa2e3dfc2e4a65db2912ba ASoC: max98090: Reject invalid values in custom control put()
-192a146b77d5bd089c40610ae9292a86f0b6d6c4 ASoC: max98090: Generate notifications on changes for custom control
-01f69737903f6a9f94a62c03478d765ad47c0a0e ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-e9d757cdbd9ec4b96090dc542bf03db0a3daaddf s390: disable -Warray-bounds
-4c1a1edd17b88c05e70dd89db61992013fd3f709 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
-20bd1fca8b993cdc07dbb52ddf46357a85d704a7 net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
-4a64848d569420b013cc3e77a884cf886705d65f tcp: resalt the secret every 10 seconds
-a65377b52b42cf91c6326d8c23c5089146b6f0d2 firmware_loader: use kernel credentials when reading firmware
-77e80023411af1fc4a425191c52426812d529be8 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
-973537371590472a07bdea977b6ad5e39d602d4c tty: n_gsm: fix mux activation issues in gsm_config()
-da1b3271b60d295565eab921b3fc6438bb18abbf usb: cdc-wdm: fix reading stuck on device close
-ddf06e6cda6df12a15117f19331710ce05b6ba91 usb: typec: tcpci: Don't skip cleanup in .remove() on error
-d8cf05001a3dd31cc6808e6b546ef7acb0146fbc usb: typec: tcpci_mt6360: Update for BMC PHY setting
-a27c2d18aeaf3ac5905585ce78e1cdf50824f1d9 USB: serial: pl2303: add device id for HP LM930 Display
-ffad3b550a054ab664b944161cac8cc59a393d13 USB: serial: qcserial: add support for Sierra Wireless EM7590
-0d04e5dfaf5f5235582585d6a96b8e198e13a2a1 USB: serial: option: add Fibocom L610 modem
-6c5c8c5d3af3f4da81fdbef18a6615f4107912ac USB: serial: option: add Fibocom MA510 modem
-7763590177aa9d5e0a6432cc143e38e252d4e32a slimbus: qcom: Fix IRQ check in qcom_slim_probe
-ec98c49c65539516975c91ee118adf4461a87c34 serial: 8250_mtk: Fix UART_EFR register address
-5d2d27a27a9593fe5fdb94ad3e80e49935d86d35 serial: 8250_mtk: Fix register address for XON/XOFF character
-018556663883e479e1072b27e5402765b044acff ceph: fix setting of xattrs on async created inodes
-db43342ceee9be7fc4d806db4131a576cc658872 drm/nouveau/tegra: Stop using iommu_present()
-92377b39644b4ae4b26a6d9c8b2f81c38553d588 i40e: i40e_main: fix a missing check on list iterator
-650457d1de387f6f25b8da06f0f0f7de0d641afc net: atlantic: always deep reset on pm op, fixing up my null deref regression
-225d6c8b2ac984bb1f113ee7e569cafafb079f83 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-2aaed0ec9076f55a38f1f86844fe916e3c2395a3 drm/vmwgfx: Initialize drm_mode_fb_cmd2
-7be4ec90451479d78249c969e801e6b2dbc0f26b SUNRPC: Clean up scheduling of autoclose
-cf6ba3d3df96ec2320cd013f11e76f3cfd2e9c10 SUNRPC: Prevent immediate close+reconnect
-dc6e9513a4804cfc601feac021d5bb0d6a4ce831 SUNRPC: Don't call connect() more than once on a TCP socket
-d805e9a87ed6c68e420d22e035e26994b0bd1f4c SUNRPC: Ensure we flush any closed sockets before xs_xprt_free()
-b778ced66126b271d9d337df7319c95822276688 net: phy: Fix race condition on link status change
-3420a7db1929e92a2ccfc7027ccddb43b69783f4 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
-12e65a982353159472dffda7599137523c64b562 ping: fix address binding wrt vrf
+1c7e30aca402506aa7964ba293dc2f393208c31a batman-adv: Don't skb_split skbuffs with frag_list
+27afd8cc628a4d641e0da802c639352d3a405214 iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
+8831a7b3bf49d40a1fe160ffa46974bba0e05e8a hwmon: (tmp401) Add OF device ID table
+11598f3941caa88d193d785f7de7b7bf56144ee0 mac80211: Reset MBSSID parameters upon connection
+926b9d70493687bcb801cbb97ee53dac63787e1d net: Fix features skip in for_each_netdev_feature()
+53acd554f15172d6509e9c7173719e5c4315ea08 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
+4c66e42618e8f1e7c6e5e171392d1cc16ff55726 net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
+1934c355cfdac684165d2789ed5fdfd66b4eca75 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
+ffac1b1d6d2a10dcbce2a74253900d7648af2a8a net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
+abeb4f12aaa73d4ed0bb14197d2cc501be40c07b ipv4: drop dst in multicast routing path
+d15758958fb30660b36c52d7921591af5710b5a3 drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
+13af3097778fc80cef718b4a9c58a8743cd3f8b6 netlink: do not reset transport header in netlink_recvmsg()
+d6324b7288693809d80471fc642c07651f832b8c sfc: Use swap() instead of open coding it
+fc033b8d2b06751834bf7818b4ce1d4e4eae777c net: sfc: fix memory leak due to ptp channel
+402a634aa28f31a36a4d6bba8d53c1d29eda4e25 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+440bea0eb9044f2ccc330f3a165ce0fcf09d768f nfs: fix broken handling of the softreval mount option
+5cd08eb4c17cc177d2029734c420bc0aa435c77c ionic: fix missing pci_release_regions() on error in ionic_probe()
+e990d7c8596e7263cddb3d64c80c116f66d48610 dim: initialize all struct fields
+32132bed916275e0a24da54fad5fec62e5c3e6e9 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+0695f440388ea4e42f0cf1f462f79da58d39a001 selftests: vm: Makefile: rename TARGETS to VMTARGETS
+92cdd29b5b1ce0dd40ed2fcf1ee82cf40ca4c46a s390/ctcm: fix variable dereferenced before check
+954ac32087cc642afe884f7d0e1e2383fe9e8591 s390/ctcm: fix potential memory leak
+6615a1a1c448608c2c661553543f2335402e7327 s390/lcs: fix variable dereferenced before check
+110b56e74e841cae643f0e4e6cfb7e78adcccdbe net/sched: act_pedit: really ensure the skb is writable
+741fd2c5abc2de3a94dccc525268b1f678b8f137 net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
+0177d4db5ffb40f3f0d9a1250f5b694e779549de net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
+1283b311e43ab67833b649bea178b2481af6d72e net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+96bcdd70798492a9ae03dcc23622aa06e11b4abf net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+b7d4411f33c001fe256cc9a31ffe86984a765011 tls: Fix context leak on tls_device_down
+f98178c6d5afb924bd89ec8b29eb5dfcae7387cc gfs2: Fix filesystem block deallocation for short writes
+e52a189c5ff060613374a9f523ce99b5bd91f1f4 hwmon: (f71882fg) Fix negative temperature
+78ea894ec773356cdbbbf0692ad33ed5f41692b9 ASoC: max98090: Reject invalid values in custom control put()
+7cc2f570d2ede4413ee6fd96e0bdbf8b3fa971db ASoC: max98090: Generate notifications on changes for custom control
+60655a8d12fd9c5600e5d9444e9e4b7876a27879 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+e95d7d7917218855fedd4be23353ac0bb8fcb4e7 s390: disable -Warray-bounds
+97c706e4575bec04ac13fddf3e7482c8d22bc18a net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
+f7114152e49741200f89a3779f5057af33a1c4e1 net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
+848c6fc4b5e0eba61f8c45f463ebe6d01b3e8858 tcp: resalt the secret every 10 seconds
+3dce8a3c83d58a09220f2dd4b4f7da3c60690eb8 firmware_loader: use kernel credentials when reading firmware
+3c4fae7c4b25c09dde5ddcb8a0e1c0c52af7537e tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+0d4e6946edd43d3df3733e2d76ab6651c1613ce2 tty: n_gsm: fix mux activation issues in gsm_config()
+6b50d79d87604651971064de4785fa36004c5df8 usb: cdc-wdm: fix reading stuck on device close
+2a0ab5f0257caa542388b5cb5e379462d43d1424 usb: typec: tcpci: Don't skip cleanup in .remove() on error
+f80d4a5762979374197642590c4e1f630ec0bcc7 usb: typec: tcpci_mt6360: Update for BMC PHY setting
+55a2093263d1f2c0721fddc5c60778bcec3c723b USB: serial: pl2303: add device id for HP LM930 Display
+1b7fbcc0cc05f6dd031c3a8251dd9fbee6d40364 USB: serial: qcserial: add support for Sierra Wireless EM7590
+298951cd1981c299e260ebf46bb6c1eefcaaf1d7 USB: serial: option: add Fibocom L610 modem
+9bb85bfcf0ce5c70725b64747d7ebae35e77364f USB: serial: option: add Fibocom MA510 modem
+95a49166c7611f734b250272924f1828686c4ee0 slimbus: qcom: Fix IRQ check in qcom_slim_probe
+8ddab79dcb784b611b40234c77cb30411fcfa406 serial: 8250_mtk: Fix UART_EFR register address
+905fa5e2d3a67b61e3f058a20c33aaeba013fbb7 serial: 8250_mtk: Fix register address for XON/XOFF character
+6de04cd750eebc08ef4f8e30acd1bab939db7d93 ceph: fix setting of xattrs on async created inodes
+139d76d7355a64efe457952227dd55ad79149647 drm/nouveau/tegra: Stop using iommu_present()
+839760211b067bb4efcc3f2968bedd8f3840e6c2 i40e: i40e_main: fix a missing check on list iterator
+caac65e7b9bb710eaaefad45009f7c83b1fec024 net: atlantic: always deep reset on pm op, fixing up my null deref regression
+c068e450430b0e6c9855fd02e90b4ace83c8ae22 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+9cbf0f359da7a28b42403cda70abe491eb8abcf4 drm/vmwgfx: Initialize drm_mode_fb_cmd2
+90f8dce74d66e527fc05557baf68c1e839ca6f54 SUNRPC: Clean up scheduling of autoclose
+d1bb30771cce91c367891d2363683ca4cf46e85d SUNRPC: Prevent immediate close+reconnect
+4692504bd5789507a8a5de79514e9f17e0001b4f SUNRPC: Don't call connect() more than once on a TCP socket
+de304365104b171a82b2c84a7846c3066a6962c1 SUNRPC: Ensure we flush any closed sockets before xs_xprt_free()
+8cd31309fba23eadfcc270bfaecbee87059d9c0f net: phy: Fix race condition on link status change
+c14857b98464b595c07bba887defe0d6dbb68e86 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
+678760868882a1b8dd7f45e9b6058f2c0ce109a3 ping: fix address binding wrt vrf
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0de7befc97c9-5d6ba64fc011.txt
+Content-Disposition: attachment; filename=revlist-5d6ba64fc011-4dc9a63abd08.txt
 
-8440e8305900488b791fc7a366867ab50a045492 batman-adv: Don't skb_split skbuffs with frag_list
-3404c025280c817556b2c8c736e18862962324e2 iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
-f9b60fb3e0c9d4d118ac5f49f50bd5848dec8e48 hwmon: (tmp401) Add OF device ID table
-e7f22ff81b7be59efc6f70a8770952a5bc86c87d mac80211: Reset MBSSID parameters upon connection
-d578784c5dff6baaf64a1e71e9cd9be57c5fa206 net: Fix features skip in for_each_netdev_feature()
-cdf38340d37625db0c62261e1ff7163a026e0c71 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
-350b3f1fd9e9f8cc74e69154915eba8939613c7d net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
-4bac51e1a1d268a8d6d57fb88ff8f168df85a95f net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
-a64269f05e008344f9bea3ee29c19c4d30b063c3 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
-4505208da5109d0770df1d3c321b4f1e58473575 fbdev: simplefb: Cleanup fb_info in .fb_destroy rather than .remove
-516a121d3b0868d83327a8a876d8af59685d7871 fbdev: efifb: Cleanup fb_info in .fb_destroy rather than .remove
-90cbe5510bd1094335d13e9d5c237d9849499336 fbdev: vesafb: Cleanup fb_info in .fb_destroy rather than .remove
-fdf2600df790261f2f4a8f54ebc24e641f36a736 platform/surface: aggregator: Fix initialization order when compiling as builtin module
-66c4ab375d109cc1ca690b4e9d08fab28bd92ddf ice: Fix race during aux device (un)plugging
-b16ba95039d2792f68982ae6060c6db1fde63947 ice: fix PTP stale Tx timestamps cleanup
-117bb9ceafabdd24106ab92922522a21214498f0 ipv4: drop dst in multicast routing path
-45d613a07b3ca5c862d045d1b0ed31bd53dffc71 drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
-bc8d565676dd06b94077a1159bc4886b0b8ea930 netlink: do not reset transport header in netlink_recvmsg()
-1a990efa0936c6512174b6880d94ee3e27147599 net: chelsio: cxgb4: Avoid potential negative array offset
-19764c620798d6e57514f65830d13cf016814aaa fbdev: efifb: Fix a use-after-free due early fb_info cleanup
-23034b428ae30b2a2252a1f467855253628a1abf sfc: Use swap() instead of open coding it
-40c222056e7ec3579c15e4d338c177f30b478abe net: sfc: fix memory leak due to ptp channel
-b6d793ff410920a87daa7d04a90c2c9241fed5b4 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-a94a2a03e911e67911be33fb753eb010a5167f25 nfs: fix broken handling of the softreval mount option
-2ca8f88b283318729e46dac438e06862ee567ec2 ionic: fix missing pci_release_regions() on error in ionic_probe()
-382ef15de82591d0f48a62eb51cf471fc42eb0b5 dim: initialize all struct fields
-0f8de406ec8f97e4ddc8798c6a02de7825ca9240 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-e5ce9af10deb88090c4d6229e1431da3e766e69d procfs: prevent unprivileged processes accessing fdinfo dir
-67a131e4dcb36cce5570d98b22808c60d651155c selftests: vm: Makefile: rename TARGETS to VMTARGETS
-d719be60f5ea098c0ad919d7721231fec232e2b2 arm64: vdso: fix makefile dependency on vdso.so
-60b473199cf665d76d30fcaae26c31731428dd5e virtio: fix virtio transitional ids
-e9f65eb46f94167e55b398dcf496c66d719a8e50 s390/ctcm: fix variable dereferenced before check
-8a1ca745e45b4cb1c4924e753fb6c287e63e8a73 s390/ctcm: fix potential memory leak
-5f9197f5c7756e3eac6591385ac6a115d7826352 s390/lcs: fix variable dereferenced before check
-34eaf0a5c5c60dc78b29b00525953333e6115bd3 net/sched: act_pedit: really ensure the skb is writable
-35b7184585b4ca9be14cd6d8edadd6fec7fa7d3e net: ethernet: mediatek: ppe: fix wrong size passed to memset()
-9813b3f023b2dcb6fe52a01a426627100fc35006 net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
-04d1dcf5a0bb468ae5499f62d7a4b70cfd62cfe7 drm/vc4: hdmi: Fix build error for implicit function declaration
-8051b3450b55d333fce71e9e6e236e3c8aa564f3 net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
-c0b4e62695a91fbd446a3c632895fc0a93abf516 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-7165eb067618aa22a16d24f6f5fdb37537a1af3c net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-317583f014605dae7dda0733f4a4fde9546a6ce3 tls: Fix context leak on tls_device_down
-1dc17f0289e6fab1f0b8c36817b3598aebdb12ec drm/vmwgfx: Fix fencing on SVGAv3
-97e395079144268caa54b48d012b544a5a9143c5 gfs2: Fix filesystem block deallocation for short writes
-c972efdb5cb9e36d8db320097e8be372c74ba788 hwmon: (f71882fg) Fix negative temperature
-3d23019fe5b581f1454676656c54202d3b3fdb50 RDMA/irdma: Fix deadlock in irdma_cleanup_cm_core()
-6f0ab24ad706d20530cd23fc6f9411eda2b4cd0f iommu: arm-smmu: disable large page mappings for Nvidia arm-smmu
-386dd89891ad54c06ad54f50bd1b691e7a97da2a ASoC: max98090: Reject invalid values in custom control put()
-3071352d7f1e0fbfb543548f393eb26db86eb052 ASoC: max98090: Generate notifications on changes for custom control
-b0f9bc9f638123469f297cae3c1d6c7460ea4190 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-f5ca388704ee089e2e06042eaeb816b50bc43971 s390: disable -Warray-bounds
-8357821e63a82df180716f97f0a70e6ecc04971e ASoC: SOF: Fix NULL pointer exception in sof_pci_probe callback
-111cc595467ff4e2ed28a14afe235fdda8037706 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
-c38ae3d8fd5c4d3ca3bb899c91d19bb9c9ac389e net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
-18e8a479ec09f16dc5c5ccb0985bb5eb18d2948e secure_seq: use the 64 bits of the siphash for port offset calculation
-3adb3b226a5069f7ddbf970929f1a19895582d1e tcp: use different parts of the port_offset for index and offset
-82239b867b2b735204810a6e248edec8652d52e3 tcp: resalt the secret every 10 seconds
-506096bc9afe83cf9a62d133f921bb1e712fc9bc tcp: add small random increments to the source port
-e5285955770355384abcb37132d66ec083ab056d tcp: dynamically allocate the perturb table used by source ports
-fdcbaca3351a5c33c69910d85bd2953281c850a9 tcp: increase source port perturb table to 2^16
-429609a1885ad75606958ca79204aba22768d585 tcp: drop the hash_32() part from the index calculation
-b956a4184c94527a384ff8743d6fccbaff4d0354 interconnect: Restore sync state by ignoring ipa-virt in provider count
-b606e192d0e1616eb185ab60c580f4338c0649e1 firmware_loader: use kernel credentials when reading firmware
-e8937f15699bc84b148d852b2fad1bef5767ae6b KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
-8f7aa8169e8f34a4318bbccd36623476b9aca257 usb: xhci-mtk: fix fs isoc's transfer error
-8d23b123f5e642053b0293cab8fdead999c85581 x86/mm: Fix marking of unused sub-pmd ranges
-c9762d97b2cc0562a6ccb9ee2b10c959217e273f tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
-ce501011255314229a6cd01be8df6f35b84e5723 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
-30b3b259131c1d1ca9ab7b2fff9a5a6e56806e79 tty: n_gsm: fix mux activation issues in gsm_config()
-5f2a11ad2ffa71fa1ff23cb475abdfa2a3cc9d4d usb: cdc-wdm: fix reading stuck on device close
-9fbe44bd98a9daf2ba52394a961025ee691dde6f usb: typec: tcpci: Don't skip cleanup in .remove() on error
-270e3a45ed6f3ce05e6a0546179e214fa1e52d9a usb: typec: tcpci_mt6360: Update for BMC PHY setting
-872c49124914fae680286d9eac7faec2ebf3a4e4 USB: serial: pl2303: add device id for HP LM930 Display
-aa5e069cd0a713d251cfddd71984f58004c43970 USB: serial: qcserial: add support for Sierra Wireless EM7590
-d66dabde6a4e0f8e832c69f75f9cd40140a77005 USB: serial: option: add Fibocom L610 modem
-c0350f9e0969bf69ab23aa3ef94abd4cf6bb82e3 USB: serial: option: add Fibocom MA510 modem
-f91add33d11c866a9455bdfea745addfea57b90f slimbus: qcom: Fix IRQ check in qcom_slim_probe
-55958799c1ac46b51b559399d8beef7ebda0cc23 fsl_lpuart: Don't enable interrupts too early
-22e47c3826fbe2b6910e4af93422700c1cdc0d77 serial: 8250_mtk: Fix UART_EFR register address
-51cb0169ce6b6fa89cc910e7f2e36c496b3f56cd serial: 8250_mtk: Fix register address for XON/XOFF character
-6c5f4c4ea864328381fa7f950cf244f214458d1d ceph: fix setting of xattrs on async created inodes
-651dfb42e6afa51273c04a210a9442dfca0f7244 Revert "mm/memory-failure.c: skip huge_zero_page in memory_failure()"
-e94caf312245ea9f022bfccf7316d71d79ed4583 mm/huge_memory: do not overkill when splitting huge_zero_page
-94cf372cd98ad068af807f0ebef2a55c49b349ab drm/vmwgfx: Disable command buffers on svga3 without gbobjects
-669feeb7db8847da20f81cf999238744ae1e1684 drm/nouveau/tegra: Stop using iommu_present()
-446e5c0e3380c96cd6869ef0058e336fe9656b76 i40e: i40e_main: fix a missing check on list iterator
-f87efa3c1852e2908a626470492275113bc9c759 net: atlantic: always deep reset on pm op, fixing up my null deref regression
-f83962d4e0669b82e29f97d56e0813e0b3d0e9d5 net: phy: Fix race condition on link status change
-cdaa5a0dce915931dfe86e72ffcd4c7896e5e3f6 writeback: Avoid skipping inode writeback
-cd33b98e318f9a928a47ca18daaa3484e9098dce cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-013d25997d53da499e3126b72b8ac2df456fb81b arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
-b9a4188b39b4b643612a08b791beeadfa2fde28f net: phy: micrel: Do not use kszphy_suspend/resume for KSZ8061
-b3f71c3e7f3d2cae06c4d6644ab2254b6ca0ae1b net: phy: micrel: Pass .probe for KS8737
-a9d391530627c27ac3cd23767737dc9620186546 SUNRPC: Ensure that the gssproxy client can start in a connected state
-b682999928219f5ecf1f612ae8a23e6957384eb9 drm/vmwgfx: Initialize drm_mode_fb_cmd2
-5f9b2a29e925fba08ad03b951d57bb5874259150 Revert "drm/amd/pm: keep the BACO feature enabled for suspend"
-4d7d31c11bc4fa3c500f381afb6b26e4f064c083 dma-buf: call dma_buf_stats_setup after dmabuf is in valid list
-341aef0b3304014c89ff1b89dfb38bd2ca2eb26b mm/hwpoison: use pr_err() instead of dump_page() in get_any_page()
-585bb77acf75c0a08ac4b9e26233c99bf50995fb SUNRPC: Ensure we flush any closed sockets before xs_xprt_free()
-5d6ba64fc01131af924bed07a117998170aba0de ping: fix address binding wrt vrf
+a60373a7cfcc26e76fe33493071c4c2e948f8d38 batman-adv: Don't skb_split skbuffs with frag_list
+667d6cca3261d389e165315b36158a9ac85cf3dc iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
+5cb14763fce9556231ae1261b329db449c42eafe hwmon: (tmp401) Add OF device ID table
+cfc8380c437f9a3b36523b4c1a3b88a843242a77 mac80211: Reset MBSSID parameters upon connection
+5400e3831ebccad867ba94f35d45a5b154dcef1e net: Fix features skip in for_each_netdev_feature()
+a6dcf2849f0abce0c1312447a209e1bd89e3d909 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
+2cb5a1b6e87db39043bec45bdb73693395ac85b6 net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
+bdb0e4c0c09d59ef7c004f31edf25b0558a81108 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
+602d3dab407b55662547d7af0b49e047de7bda80 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
+78dce5e809d705674e36183275ebbfcc5ec8536b fbdev: simplefb: Cleanup fb_info in .fb_destroy rather than .remove
+84c519cb316750f10faa1d7702fb1d15064cb070 fbdev: efifb: Cleanup fb_info in .fb_destroy rather than .remove
+1abd481354c4998e9df5c1199a4808de7cfbebb9 fbdev: vesafb: Cleanup fb_info in .fb_destroy rather than .remove
+a3dd2ab37e7487482ea29943fb5716190885c2fa platform/surface: aggregator: Fix initialization order when compiling as builtin module
+362457ee5fef2082297e95e2185237acbab99af3 ice: Fix race during aux device (un)plugging
+479ca8afb0f49a3fab64ac8a9e05507daf658612 ice: fix PTP stale Tx timestamps cleanup
+106a0e192e6b4dd03d636b55dd248bedcf51221c ipv4: drop dst in multicast routing path
+72848a8ca087ba2fb74a2ec06769998edabb12bd drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
+4d512f90b6e844c3f48e473d896df250ee86d20b netlink: do not reset transport header in netlink_recvmsg()
+4e3f005ba9abbadac38139a2f0f55fb077cea31c net: chelsio: cxgb4: Avoid potential negative array offset
+208caba166362f34acdcb964563978fec97c71e2 fbdev: efifb: Fix a use-after-free due early fb_info cleanup
+7aea852396bea41ab2cc616981ae4573f74feb4d sfc: Use swap() instead of open coding it
+4cc00c741da563ec5a2bc28405a14410e741534a net: sfc: fix memory leak due to ptp channel
+792c9e63b82434a01e38d0c1b5c4cb6289785efe mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+d9e47294d42ed0a844b4337755da936cb137c22f nfs: fix broken handling of the softreval mount option
+8c2139ef57cf2c1cd1eca34741274cbde89a6b27 ionic: fix missing pci_release_regions() on error in ionic_probe()
+ef62cfd52bd89532a40b58281e2ca6937f15f5a7 dim: initialize all struct fields
+527f56f9d615a1e248d42e931fe42edb9953e65a hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+f1bd66eb7abbb65d1161d12614fa29014eebf0fb procfs: prevent unprivileged processes accessing fdinfo dir
+dede92ca3b22376870b7eb80b7c92dea362a311a selftests: vm: Makefile: rename TARGETS to VMTARGETS
+65c5c26a91138b41b62915e1a627eba53b737ee2 arm64: vdso: fix makefile dependency on vdso.so
+7847b30c22d86c2ce10d45767a0af39bb0298a21 virtio: fix virtio transitional ids
+f68ead9a525b62e9ff0077b8519d209e7a95aad2 s390/ctcm: fix variable dereferenced before check
+a0f142bfea01bf60b64f8c28ddffcb59ab4f3e46 s390/ctcm: fix potential memory leak
+3da1cc115564ef22cf3e00852550634c9fcc1362 s390/lcs: fix variable dereferenced before check
+7d0039e8e090e1f050a3af32fd773c0f29297869 net/sched: act_pedit: really ensure the skb is writable
+bd0930aa7afdf4f8fd7ffd6cd9aade7572933a14 net: ethernet: mediatek: ppe: fix wrong size passed to memset()
+cab0aa3fed3324f92561e27fde83381e24efc1f4 net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
+d341ea303933bbf457c143acddc99137743e6b2d drm/vc4: hdmi: Fix build error for implicit function declaration
+4734c229ac362ee7cf465284caeda344bc1c56e6 net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
+43b00cc741e6cf981143fff4d4a35bfb03b00cf3 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+96721bb04cc6a077b422cb51794af8dd081db60e net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+543d7902f937a01f0920a4b5945269aa061ef45b tls: Fix context leak on tls_device_down
+33b874091ae59576783162ba024fae557450ea0e drm/vmwgfx: Fix fencing on SVGAv3
+5d7a7eaf2aefc189b661bebbfb33ade9c17ac6c9 gfs2: Fix filesystem block deallocation for short writes
+8875da5edd7dcc88c3ae97993d478ee5b10bf5e5 hwmon: (f71882fg) Fix negative temperature
+1a48e6cbb7ead0868c21bf4a764b9f846cc33d96 RDMA/irdma: Fix deadlock in irdma_cleanup_cm_core()
+7c7a00a934e4cea183ced015b739f0dc1ef63e42 iommu: arm-smmu: disable large page mappings for Nvidia arm-smmu
+0ae912327aa07e3715758996784835c37a01b342 ASoC: max98090: Reject invalid values in custom control put()
+91c4431d242959fbda1438c7a59ef38c96239e95 ASoC: max98090: Generate notifications on changes for custom control
+5e10372f22cbea45ae8c455700213c10285cd2ec ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+c0f611706400e0e3bf1f6a796cc50a9f40dd3014 s390: disable -Warray-bounds
+39df6b30df3b2169f8c6425d7fc6d3f65b7f2193 ASoC: SOF: Fix NULL pointer exception in sof_pci_probe callback
+c776082eabb6c1f69d284b539043347369a5a686 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
+3059ed7f5f449dc76df7088360e74e5be0c33488 net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
+aae0633dd20e634f79ca7f2571403781ed684e17 secure_seq: use the 64 bits of the siphash for port offset calculation
+d5156bc4129aee304eb2adf19c4c183ed456ffa0 tcp: use different parts of the port_offset for index and offset
+60898f129d353093dfe5d9cc8bdaf6261bd2e976 tcp: resalt the secret every 10 seconds
+e927f47cdaea9a9ab4c752caca4e1209abff1e1b tcp: add small random increments to the source port
+dcedb06ff69cccb355c1f6dc5d78860164c14561 tcp: dynamically allocate the perturb table used by source ports
+f5737e8f568230f9254d6b2cf7927f81f8e320f2 tcp: increase source port perturb table to 2^16
+ed1aae037544a33bd3f720c452b3669198ea7009 tcp: drop the hash_32() part from the index calculation
+916ca50e1c0adf43cbe56cc644bc9f9c0b61dfb2 interconnect: Restore sync state by ignoring ipa-virt in provider count
+cd2fddab675177d4c3781c080c0efb00d6804a20 firmware_loader: use kernel credentials when reading firmware
+ffb3f2b0a8c8daadad0559e9b657567a9681e29d KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
+2b994c353d30491b6d4fedd9908cac2b331ac383 usb: xhci-mtk: fix fs isoc's transfer error
+38287ade1c66e0e8cb255f39e0154a3c8b887605 x86/mm: Fix marking of unused sub-pmd ranges
+e52354e537df81e7106a73ac501fc96929661357 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+4e376a20cd8a74a8fcf33ef8863da3bc99b10fa1 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
+e3ae6133ba5efabf04afd76546e1e86e50546f61 tty: n_gsm: fix mux activation issues in gsm_config()
+fa1acd6c53cdad8032561658452585b2afa6a7ee usb: cdc-wdm: fix reading stuck on device close
+3e28baffbfb5c13c840aa36a8f125b47412360b5 usb: typec: tcpci: Don't skip cleanup in .remove() on error
+70596d82c95886798523780eab911bce4ca5c0ba usb: typec: tcpci_mt6360: Update for BMC PHY setting
+57f1440b7821b0d9c1d3f422c08c6bbd89f4af17 USB: serial: pl2303: add device id for HP LM930 Display
+c83c8259957a7b5dfa0f44f45c6377744276e592 USB: serial: qcserial: add support for Sierra Wireless EM7590
+ed104eabec9c43151d687c80bdb11932cde8f32c USB: serial: option: add Fibocom L610 modem
+0f6056a915ed9cba0820920521b0cde8181a7925 USB: serial: option: add Fibocom MA510 modem
+bedfd2cf256135f204c651a4beb293d00d2a184c slimbus: qcom: Fix IRQ check in qcom_slim_probe
+e93659fce861ee0c3fd5427e522d1ef319568ae8 fsl_lpuart: Don't enable interrupts too early
+89d9b29e331775120a4f0a8e754cba0526b4932b serial: 8250_mtk: Fix UART_EFR register address
+09f2452c19852840bf86d7717404e9a7c3606537 serial: 8250_mtk: Fix register address for XON/XOFF character
+126abab7720032e96792302e8a17012ddc88b46f ceph: fix setting of xattrs on async created inodes
+ad207c36074bf9d3b4580c70f0d3d0e661451899 Revert "mm/memory-failure.c: skip huge_zero_page in memory_failure()"
+a52b7c9b3088785a4caf7cc87065f5f5eb605818 mm/huge_memory: do not overkill when splitting huge_zero_page
+c30a02323944e840824b08914cfd5beef1481761 drm/vmwgfx: Disable command buffers on svga3 without gbobjects
+63e5be0da12abaf3b165c3237debb9dc52b9541a drm/nouveau/tegra: Stop using iommu_present()
+30132670e02d23c3d8f9eb4ed0aac23d64949f23 i40e: i40e_main: fix a missing check on list iterator
+3db2b2de5c9ad7c8f9f56a11a1fbb69c4d2ccc4e net: atlantic: always deep reset on pm op, fixing up my null deref regression
+dc0c051d8dac1d0be3beeb6ad1bbe3a6c57edb36 net: phy: Fix race condition on link status change
+d42abf8f96e3cecfd3b4cb190253796c4681c555 writeback: Avoid skipping inode writeback
+69f67cad0373cc8d7f7c4c50e9ef41dd1c03fd55 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+4c57318261cf346cef70a880e950e4b327219a74 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
+148eb347016fc1f842322462abf01bcbe207fac9 net: phy: micrel: Do not use kszphy_suspend/resume for KSZ8061
+da94e8bcd1b4d87542b0e319c0f36ecfbe7e5091 net: phy: micrel: Pass .probe for KS8737
+f526ebcdfcc84f459111035473c77b159834a85d SUNRPC: Ensure that the gssproxy client can start in a connected state
+1c1d2e376b205b28fcd3ec8b9c546e0e5d5f2a28 drm/vmwgfx: Initialize drm_mode_fb_cmd2
+19f0a1bd04f187acc564e64538570d241d4a511d Revert "drm/amd/pm: keep the BACO feature enabled for suspend"
+a2331a5f15929f31b0a7c866c3a22e661932710c dma-buf: call dma_buf_stats_setup after dmabuf is in valid list
+08b0fc5eff69998a1593abd880f1a74d8e484605 mm/hwpoison: use pr_err() instead of dump_page() in get_any_page()
+f39d7f8f0555485539f49fb4b932f71722981df8 SUNRPC: Ensure we flush any closed sockets before xs_xprt_free()
+4dc9a63abd08284e80db2da526ccbdd86ed78f53 ping: fix address binding wrt vrf
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c91afcc1172f-e12bf6afffbd.txt
+Content-Disposition: attachment; filename=revlist-e12bf6afffbd-31218da16de9.txt
 
-e7a3ac3e5dbafc7faeec2901938ec48060c18b9a batman-adv: Don't skb_split skbuffs with frag_list
-cee8a09596494ee1ed4609768159d45634f0dbad iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
-fc068c5f6aa53cc4ceea671e5c110c1f41fcb24f hwmon: (tmp401) Add OF device ID table
-d02f02733850c3a4ba6696ecbbd03a2bfa89d566 mac80211: Reset MBSSID parameters upon connection
-af717ef1e40c7033b71a3a9a360e22b6b6e6b391 net: rds: use maybe_get_net() when acquiring refcount on TCP sockets
-c50753db8ad2874bf76ada2cce3e9ef17a5a0d94 net: Fix features skip in for_each_netdev_feature()
-b129289aa95249a1367316e22f23dedc1d7933c3 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
-aee998a8bbe81fcaf8bec9c23e802159b13871f3 net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
-85d7421cfccc38dfd6fefdf2a4d831db53d1ca8f net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
-9c61317c869e6d2e2d1e01e800cc42555eaf5889 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
-8e347c773fe92a942565ce3a9809312183b5e7bb fbdev: simplefb: Cleanup fb_info in .fb_destroy rather than .remove
-dafaaf9b062628b1c450f44facc9e7f32d9b5677 fbdev: efifb: Cleanup fb_info in .fb_destroy rather than .remove
-954b65d5fe716b4b55e9699d4f4cfbadbc797ea7 fbdev: vesafb: Cleanup fb_info in .fb_destroy rather than .remove
-a37e5012516a2d6b11a87f471dcdb5450ec16d67 platform/surface: aggregator: Fix initialization order when compiling as builtin module
-6fca1625bb50a943f24793d89372bc191e21daec ice: Fix race during aux device (un)plugging
-c043bab04bb9bef5a986ac7a27e38c4f24dfbe6c ice: clear stale Tx queue settings before configuring
-f98e5f4c34b3a58f969c948d9828d57640b2ca56 ice: fix PTP stale Tx timestamps cleanup
-24d62414e038368c7f8bc4160f3661a9527451f7 ipv4: drop dst in multicast routing path
-3fb23cf34d4fde6f52b66049e505dc63766f1fc4 drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
-4f82aa6ca35428b889a7f64e5db4aae4e8fa648f netlink: do not reset transport header in netlink_recvmsg()
-1fe4b15c75d6ee4813b2d96a87b42e3e5d5c63b7 net: chelsio: cxgb4: Avoid potential negative array offset
-2549486b69a8035dd51d4159e62cab0543b1e52a fbdev: efifb: Fix a use-after-free due early fb_info cleanup
-c3799bd5690b328f725d9de5ffa825f0a5cefc44 net: sfc: fix memory leak due to ptp channel
-45d9bb62fe42629e0fc0c836a9d54a433bf646d8 fanotify: do not allow setting dirent events in mask of non-dir
-7090af0a10ab4563c016b5e78630b34a2cd3e73b mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-9332c961cea3eb6afddf23341495bbe608651694 nfs: fix broken handling of the softreval mount option
-ab3a294642ca4fd5823e23a882b3bfbcd038bcf5 ionic: fix missing pci_release_regions() on error in ionic_probe()
-20117a628eeb08ac4fe3dbad4a77ae37888530d4 dim: initialize all struct fields
-88ba1cc61360c71b79f4151e10579faf479aaa1b hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-6367bfa8a0b9cad4320665f8cfa854aad7e70911 procfs: prevent unprivileged processes accessing fdinfo dir
-3b09ae59bff7acabaa55881017212df3f7e9515a selftests: vm: Makefile: rename TARGETS to VMTARGETS
-1577dfa47ec347cd6a4beb736cfc2b0ad8c55fae net: dsa: flush switchdev workqueue on bridge join error path
-fb0711aafec6cf43837a719ba7d4c19e0d2cbf74 arm64: vdso: fix makefile dependency on vdso.so
-0ab602fb28c17f6bf1b5373c6cf212856fa2bc23 virtio: fix virtio transitional ids
-8ab2a93211269d3c83622ce3289c0151fd78999e s390/ctcm: fix variable dereferenced before check
-429d840bb6e46f63c5388787ad86ae24009a5e7c s390/ctcm: fix potential memory leak
-1ec44dd36867267366ab7cfcb5c18b12fc6ab926 s390/lcs: fix variable dereferenced before check
-a3f9fdd42439c6a32ceaf3057c18816e5bff7f65 net/sched: act_pedit: really ensure the skb is writable
-fec6db10b391ee743409da5576947f9e92805898 net: ethernet: mediatek: ppe: fix wrong size passed to memset()
-629f45f3ccbd57ab1343744dc0193bee5cb10a27 net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
-45c7c061d71433a282d85c0dcb37e542a2245a1c drm/vc4: hdmi: Fix build error for implicit function declaration
-3b12ff79cfce18ac428bff9e58ec3c3541f21041 mlxsw: Avoid warning during ip6gre device removal
-66f08efc1f4ccef79055bc78895274eec8f73327 net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
-b6173b7aeb3db84d4fb379d4a9d6a690d83d0fc0 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-ca24a59f69cbc40862e3255cc5bb1b5678ce6a7e net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-136b1633ffd0b9bb716f3532777162e1fa6952c8 tls: Fix context leak on tls_device_down
-443ae7d3a3311938daf19653456a6a5d6ebf7805 drm/vmwgfx: Fix fencing on SVGAv3
-1a65f2d907519e8236f875e977cbdbefef398d01 gfs2: Fix filesystem block deallocation for short writes
-d682f57094f7306b0654e7b09d0ddf4316138508 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
-76edf0633d93db5020a7eb8ffdb1aff8595dbb95 hwmon: (f71882fg) Fix negative temperature
-3f28330e6a801245fc2b40befd18b2560590ef4e RDMA/irdma: Fix deadlock in irdma_cleanup_cm_core()
-f14f191b8fc2406def5caabb3463396840c6d7cb iommu: arm-smmu: disable large page mappings for Nvidia arm-smmu
-3fd8baba565ede6104a11582b4ec2efd963a19e4 ASoC: max98090: Reject invalid values in custom control put()
-e1730790776516a573b97c15684e9ecc2e6f24b9 ASoC: max98090: Generate notifications on changes for custom control
-da0a293a0859e9825cbfc82b5484d802f2b59f59 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-4e3b00607c2eccb35238372174c6944748cb5e35 s390: disable -Warray-bounds
-ba1bdad800c9853c2e623f394874d3b535515273 ASoC: SOF: Fix NULL pointer exception in sof_pci_probe callback
-e0f1e03ad3f87a428b1a1c911d5da3f3e35b181a io_uring: assign non-fixed early for async work
-aeeb1b20e580f4a5e43169d1340c03aa6f77d2f6 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
-8c150fb700be783f01b5a089d1fd484973bdaea6 net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
-b7c7052375330912fafe89ff524616645f93b748 secure_seq: use the 64 bits of the siphash for port offset calculation
-6293f41e536b6c5a28a144a2d3368c0f4c63d7d7 tcp: use different parts of the port_offset for index and offset
-7a4a3b0706b093d5fb0ede69be9b21a4fa513183 tcp: resalt the secret every 10 seconds
-dc16ccad682f6b9d6d07493c963ec65936a4136b tcp: add small random increments to the source port
-2392729bc5738bc02892c49dc0f59df79a7fcff5 tcp: dynamically allocate the perturb table used by source ports
-bb88c02bbf807503c10ad88974bf2d09b56bf882 tcp: increase source port perturb table to 2^16
-0d4cd3ed8dde8fb8ad9f89f25a9fbd06f4464583 tcp: drop the hash_32() part from the index calculation
-46f257d5eab2fda59473f1295c976dfcf352329f block: Do not call folio_next() on an unreferenced folio
-61224a5cd640e08c8cf17411699c0da42309c6d4 interconnect: Restore sync state by ignoring ipa-virt in provider count
-5fa707dd7f35ef82db2297ae153bc38d8b2e7a31 perf tests: Fix coresight `perf test` failure.
-1d5b0e933227d9521cde864e1a7bf7b5014d8522 firmware_loader: use kernel credentials when reading firmware
-62e964ac479ce94c33dc2b123b80327fec56c6dd KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
-a3edd02d83ea593f31aa18822a75f441f5d1b1bd usb: xhci-mtk: fix fs isoc's transfer error
-adc4fbedc0b03002c0597baf8e9a359350278d2e x86/mm: Fix marking of unused sub-pmd ranges
-3af0f2a238c01191a43c523cc5409e0f7ee3e1bf tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
-80e912a08b05e5964b6da2dd34adc8b1af899508 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
-96c4181083167344fffe87f1eccac2ce322fb670 tty: n_gsm: fix mux activation issues in gsm_config()
-8bb9375a168de92e6bff252efa28b45bd30fcd4c tty: n_gsm: fix invalid gsmtty_write_room() result
-3cc4ddafa01c50048a11d5ed863cfc38ae3b966a usb: gadget: uvc: allow for application to cleanly shutdown
-ebd4feeed868760dc0a9beb451f7f997d63cafc2 usb: cdc-wdm: fix reading stuck on device close
-9e4c7f418af7b8d4b1f2f6fe49ac6064831bccfb usb: typec: tcpci: Don't skip cleanup in .remove() on error
-10ace358d90652526a5b831da07961b84cfa3702 usb: typec: tcpci_mt6360: Update for BMC PHY setting
-2e5ac5870dc54f0aac7469301b26e9f1050047bd USB: serial: pl2303: add device id for HP LM930 Display
-724ee1e378b6c69e38ca5dbb807f8816ba66d423 USB: serial: qcserial: add support for Sierra Wireless EM7590
-aa2640489737deb96da8c6e58ebb753dede6b2d2 USB: serial: option: add Fibocom L610 modem
-a4450ac99d4b0d1b2e7598d9bcd7300710754972 USB: serial: option: add Fibocom MA510 modem
-64e1f9f9d634c1a1488d3c74baacfb91537dec18 slimbus: qcom: Fix IRQ check in qcom_slim_probe
-91a3c5471239029e62c54f9487dfb7fa6fe5dcfe fsl_lpuart: Don't enable interrupts too early
-fc5142c2ff782c10763406845c2e7736661be07c genirq: Remove WARN_ON_ONCE() in generic_handle_domain_irq()
-fdc27fa382f4f4bae0b589599b3663942701ebd0 serial: 8250_mtk: Fix UART_EFR register address
-7db44e4a7ff33d9753cda4104cd3c8be82c66893 serial: 8250_mtk: Fix register address for XON/XOFF character
-c509590520827a46069f6668b533d090c53f4085 ceph: fix setting of xattrs on async created inodes
-8420aa4db555d5b337c30bd3331f537a62066440 Revert "mm/memory-failure.c: skip huge_zero_page in memory_failure()"
-4637e3e83a3607f138e92e5b4d19e44e046c6886 mm/huge_memory: do not overkill when splitting huge_zero_page
-42ddebc3d39230e27ecfed8ab7c9827a45296bb6 mm: mremap: fix sign for EFAULT error return value
-202e90c3023b375b235ae19f0c2174bbc2da5566 drm/vmwgfx: Disable command buffers on svga3 without gbobjects
-6b84e1cbc2611c9102e597d02e830f1bb94a822e drm/nouveau/tegra: Stop using iommu_present()
-03e8caa03dd46490454bcab112ac42f6aeead9d7 i40e: i40e_main: fix a missing check on list iterator
-9d11e69ec48aecd257c6b19ef2fba55f0ce74d69 net: atlantic: always deep reset on pm op, fixing up my null deref regression
-499b5ed7e29f226f61fccd296d0cda43ce273fc9 net: phy: Fix race condition on link status change
-bd24d5cd4921af9de86bb50ed4e7e4b1aa169860 writeback: Avoid skipping inode writeback
-a9aba5782fbee508a62ac2d6975c8860168fa398 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-a8f607e13f7e353cc8fa7630f46f956866df3239 ping: fix address binding wrt vrf
-1173225ab2f7240960326fb48bd853d683a0056c ath11k: reduce the wait time of 11d scan and hw scan while add interface
-5fde3ff41d9b30d4181f02dc8a0b64ee61def8c1 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
-ca940a4ea5700e74af861936f0b57312d4bd5da2 net: phy: micrel: Do not use kszphy_suspend/resume for KSZ8061
-c9a742fe2db63d11930eae64cd2d2deb70ffa1c2 net: phy: micrel: Pass .probe for KS8737
-d2c98658ffc5870b153b3f3cbdb79a011de6a805 SUNRPC: Ensure that the gssproxy client can start in a connected state
-c1475328039423bd869410746439b540aba52dcd drm/vmwgfx: Initialize drm_mode_fb_cmd2
-a4cb14d9e5f598b632faa0b03cd3441873a6f487 Revert "drm/amd/pm: keep the BACO feature enabled for suspend"
-b325ea60bd273d2d77612e6fdaeb4b33a89a003d dma-buf: call dma_buf_stats_setup after dmabuf is in valid list
-afa8f57328f50112ed4119444cc9bdd18eb22e22 mm/hwpoison: use pr_err() instead of dump_page() in get_any_page()
-b6054e0f8699001f00db461c5f9e940d1603e24d net: phy: micrel: Fix incorrect variable type in micrel
-e12bf6afffbdfa44881978482a64af039712e841 mm/kfence: reset PG_slab and memcg_data before freeing __kfence_pool
+851979e79f33d243779f6be64973e5b1ea4ed78d batman-adv: Don't skb_split skbuffs with frag_list
+ba8a687ba92b8ee537eda3c2666d604625212be2 iwlwifi: iwl-dbg: Use del_timer_sync() before freeing
+b1a8b877439932e6b7bafb7d3804e42863f19ede hwmon: (tmp401) Add OF device ID table
+ab854eb6a154a389e4eacbee0166a74f77c7a77e mac80211: Reset MBSSID parameters upon connection
+f28e02efd3a5337791ccb1aff3b9a4b46421930f net: rds: use maybe_get_net() when acquiring refcount on TCP sockets
+2476e11da9a220b8df075457d8b453dc9dc09dbb net: Fix features skip in for_each_netdev_feature()
+00da83854de7ad91e504dd8cce436e3ab78db5d7 net: mscc: ocelot: fix last VCAP IS1/IS2 filter persisting in hardware when deleted
+9452b36de50f965cd509a9b38156726d13c65ec1 net: mscc: ocelot: fix VCAP IS2 filters matching on both lookups
+e98d0391b326bd0482a7a26012096a0f6f2880f9 net: mscc: ocelot: restrict tc-trap actions to VCAP IS2 lookup 0
+3abafc742c75ab85dfaeca0f5b05ab27d6aceaf2 net: mscc: ocelot: avoid corrupting hardware counters when moving VCAP filters
+c8e06eb638e2634e60faddd1032126492af865fe fbdev: simplefb: Cleanup fb_info in .fb_destroy rather than .remove
+3beac7a756742304cc3499263fb5844549c58392 fbdev: efifb: Cleanup fb_info in .fb_destroy rather than .remove
+e86e7d96a62a901f2aab7bbb7be5353e5313d8ff fbdev: vesafb: Cleanup fb_info in .fb_destroy rather than .remove
+e3119b7e9ea4c9595b1744b75ac7204d6b836ed5 platform/surface: aggregator: Fix initialization order when compiling as builtin module
+17ed6c4f701d8d47153f26f34d2cf6fe4c397f25 ice: Fix race during aux device (un)plugging
+3fb1688136258cfaea921404b78eeddb37cfb4cf ice: clear stale Tx queue settings before configuring
+abe55e8fb1f8c2c3f3bceb42a9c2a6b8afa96939 ice: fix PTP stale Tx timestamps cleanup
+a4b00c968de506b0dab7b95fe0bf1e818b0f14af ipv4: drop dst in multicast routing path
+ce4625ee699aa7d783ea7082802bb2c8ba9e4286 drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
+65c57cb096a24b22b88f0a3f4cdc9c58d43c1e1c netlink: do not reset transport header in netlink_recvmsg()
+7c6661c1eb8bde9cbc2803d298ec6b4484f87c7f net: chelsio: cxgb4: Avoid potential negative array offset
+5cc02c2016edd89d9d9769fe4c39ae7b8cbe7fa3 fbdev: efifb: Fix a use-after-free due early fb_info cleanup
+e121fcab0b6f38a6bfcb1b4830656af6b5be5623 net: sfc: fix memory leak due to ptp channel
+5df7f30a54cf6629e25c827ae7eb3f26696a8583 fanotify: do not allow setting dirent events in mask of non-dir
+3a828fe45ba4e889428d5e0365a5062a75e9a4db mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+4518dddebb3d21f165025626026be56362158565 nfs: fix broken handling of the softreval mount option
+3cf1fca5198d9843ab9fddd924cf8e5b5bf5ee4f ionic: fix missing pci_release_regions() on error in ionic_probe()
+11d53487e57461abbe6f98f30eeaf79a1ca9b95e dim: initialize all struct fields
+58fc8694c7ebeba627a5dfdd230bed86327ea816 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+6177630bbc1a9dc34a2e52007dc5304a8a7a4ced procfs: prevent unprivileged processes accessing fdinfo dir
+8c321c7f062764563d9fcc979f508f4994be5a1b selftests: vm: Makefile: rename TARGETS to VMTARGETS
+a04d240581a60a445b002ee402af7598e5dd4bc1 net: dsa: flush switchdev workqueue on bridge join error path
+213b35c262fbedb5af0c19836c58914a205b9d34 arm64: vdso: fix makefile dependency on vdso.so
+f019f0e64f2b530fe9b032c8946ed149083093f7 virtio: fix virtio transitional ids
+6a15bf450eb761d9c17afd058449f8dc24c72746 s390/ctcm: fix variable dereferenced before check
+27bd0475331cadfa9cddaaede7b595b54a6e06e7 s390/ctcm: fix potential memory leak
+3020dde8a981ec9c216edd574189cc41f9beb0df s390/lcs: fix variable dereferenced before check
+b460600369d25c6c35044417168a5e2064222b3e net/sched: act_pedit: really ensure the skb is writable
+b600c11a11fd2b19c10c746f8c7097fa799ac40d net: ethernet: mediatek: ppe: fix wrong size passed to memset()
+2ab505b05edc810f83f62bd64acd93ef80b29d36 net: bcmgenet: Check for Wake-on-LAN interrupt probe deferral
+ca4bed7b00f621e72c82db5021a17df5baa14bfd drm/vc4: hdmi: Fix build error for implicit function declaration
+843b899640158a23a899ba19969a90444450ecab mlxsw: Avoid warning during ip6gre device removal
+792010b668b61ad48f9909228f746f63a7e5b405 net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
+307160d8f9a1f60abc7a9b1e7b912ec081a187ad net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+4d52498a6f78ae6343549ac79f6af85bd32912f2 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+649c06b12760e5a170425608d1878f6f3e0c72ce tls: Fix context leak on tls_device_down
+b0f588f5a82aacaaf96d03c60b6432bd17f0528e drm/vmwgfx: Fix fencing on SVGAv3
+9993d0194163ce359e7ec90807214e9b1dfd513c gfs2: Fix filesystem block deallocation for short writes
+ca78d6ac65b1258a56cca1fd1235c8c73eff9405 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
+f1d145102ab324cbd822423393d2372fd132b26b hwmon: (f71882fg) Fix negative temperature
+b8a321ba1dc6790bb1086ea33194204b2c0e4b27 RDMA/irdma: Fix deadlock in irdma_cleanup_cm_core()
+2f9d3e5bf2694f3f9d874d157050c60ad183880d iommu: arm-smmu: disable large page mappings for Nvidia arm-smmu
+a1efcb0abf58bfcd92488643629634f5ae2cb155 ASoC: max98090: Reject invalid values in custom control put()
+c1f14696ff3a6951b1a710bb561250fbe0d6b1b1 ASoC: max98090: Generate notifications on changes for custom control
+3c78e939606adf8c5a8ef6c7cb5452f55524da8c ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+87c4fbfcfa9dfef634f16377d48836744b3d15a9 s390: disable -Warray-bounds
+2b79f4d502ae7f323e8c1d2549c88779281c7e16 ASoC: SOF: Fix NULL pointer exception in sof_pci_probe callback
+e95cd41803faa5b865fd7bceca3f48f4bc9aaee2 io_uring: assign non-fixed early for async work
+300746c5b92365792443b193a2c571796cb4c2e4 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
+f42557dd6250a417c70ae6fa622119f8f8050ea3 net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
+8e946193025190a5bb42b30ac68d5be36c96980e secure_seq: use the 64 bits of the siphash for port offset calculation
+c65c53d9440730085f5e51ba3749f0eaafc9ece0 tcp: use different parts of the port_offset for index and offset
+2bb73819bb9abccca37ca344993e7a6499f1516b tcp: resalt the secret every 10 seconds
+8db6c1bbf0456909cd9b216f0e770a7b3e160ed6 tcp: add small random increments to the source port
+0a98ef58d37bec53d1fc3d1c8a0fe42a55b69401 tcp: dynamically allocate the perturb table used by source ports
+0e1bb05241838447e6ae43f37a19e06db22e736b tcp: increase source port perturb table to 2^16
+48f293ea41c5bff84b4b35031a3ca36c0da3863a tcp: drop the hash_32() part from the index calculation
+a1583044a20450d193e1d6fef1cd0d9f739f4345 block: Do not call folio_next() on an unreferenced folio
+7035b297ad727f14f59d8ef93e9d7a120796e078 interconnect: Restore sync state by ignoring ipa-virt in provider count
+9b3ee704832b7d88caa5ff68d2e2ee9fdd317cde perf tests: Fix coresight `perf test` failure.
+4bbd639620d12c8c623fd5104412e11299e9be1d firmware_loader: use kernel credentials when reading firmware
+a1d6b7e24ead6aa77bd5badc4e4438efe2b43eea KVM: PPC: Book3S PR: Enable MSR_DR for switch_mmu_context()
+121bf7be1874e3ea245a6b63193e91b70e13b9da usb: xhci-mtk: fix fs isoc's transfer error
+676a4f6983077ba066c9257d86172d25ff40a8e4 x86/mm: Fix marking of unused sub-pmd ranges
+c36be5343f655ee4a593ab09f75de5c530c9f9ba tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+adb13882e9dfa6dc038189ce76c0b4f725a397d9 tty: n_gsm: fix buffer over-read in gsm_dlci_data()
+6f862a31ef7de27138eab0637accc2d33f1d0853 tty: n_gsm: fix mux activation issues in gsm_config()
+f0c81334e3705dce972670b83b541d557f865f2c tty: n_gsm: fix invalid gsmtty_write_room() result
+186ba62c99baf9e0b82c9750ecbe608a2b71efe5 usb: gadget: uvc: allow for application to cleanly shutdown
+29da1560a776e3d568db4990bf2c1a01b291b3a9 usb: cdc-wdm: fix reading stuck on device close
+73b5ebd9023e4e73ea9fa3c0154062dfdca18c4e usb: typec: tcpci: Don't skip cleanup in .remove() on error
+2449b4520d2d6738c21a59ae70545535b3736a80 usb: typec: tcpci_mt6360: Update for BMC PHY setting
+52813ac2bb5dcc210ddd56b068aad60b5c41fe21 USB: serial: pl2303: add device id for HP LM930 Display
+ea18d6fbfd8ffab66395c08968a5e3c8ce9c6521 USB: serial: qcserial: add support for Sierra Wireless EM7590
+0e4c3f65bc73de05b3c1f29210705e9fe714edb2 USB: serial: option: add Fibocom L610 modem
+42a1eda464e36dd812e00f827579425e1a69ec84 USB: serial: option: add Fibocom MA510 modem
+968a723752318da15721cccf3dc6b0cb7d26d869 slimbus: qcom: Fix IRQ check in qcom_slim_probe
+2b2c0b9813fa6cdd61ee0adf9680dd28bd7d8d99 fsl_lpuart: Don't enable interrupts too early
+14490438e4f41287de36fc9125600b546e62d445 genirq: Remove WARN_ON_ONCE() in generic_handle_domain_irq()
+fdd2028db2233dd73de1c7a416bdff66b31afad4 serial: 8250_mtk: Fix UART_EFR register address
+f14db6552c4870181ffc1b32c12fe94f1e1bee21 serial: 8250_mtk: Fix register address for XON/XOFF character
+3b7cfcfaee485287b7ecbdf9b129b19c99298fde ceph: fix setting of xattrs on async created inodes
+ae51bd1e51e176d37093d0155277d0446f33a32c Revert "mm/memory-failure.c: skip huge_zero_page in memory_failure()"
+58c5d55d2f9e833211a0a7eeaa4fca724d85739d mm/huge_memory: do not overkill when splitting huge_zero_page
+c3eff5130b63430f25b54cee304137df118e33ed mm: mremap: fix sign for EFAULT error return value
+054516bac93f208be4c7cafed1fecf8e87e62c4e drm/vmwgfx: Disable command buffers on svga3 without gbobjects
+ccdc957308879169be3acb832ba1038421f65add drm/nouveau/tegra: Stop using iommu_present()
+497e289eabda68e217e4c4127ada2310a2135d09 i40e: i40e_main: fix a missing check on list iterator
+de00fd452049d24f7bcd4ca4b24d24957a45caba net: atlantic: always deep reset on pm op, fixing up my null deref regression
+1ee0770aed3edc955c939c9f03fbb9f21cb4f9fd net: phy: Fix race condition on link status change
+c97a6c57456606fc17bcdcec5129c954ec79f5dc writeback: Avoid skipping inode writeback
+fd3567af85d7aae1556be8af98f0261fce30c7ea cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+47f9f7306e1d833030cc9ebc9468254f17e0ab25 ping: fix address binding wrt vrf
+fd179b894fea3bdc7e0fd4edb8130e674592b063 ath11k: reduce the wait time of 11d scan and hw scan while add interface
+5b40fa9919b0b501ad93b26bbd4f4725e1c53daa arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
+f847517b5d07ac7b6eb29cf91d633209c2bc76be net: phy: micrel: Do not use kszphy_suspend/resume for KSZ8061
+d415a72d1f9b2a06d06cbd8d2e8a1a5739c862f0 net: phy: micrel: Pass .probe for KS8737
+cd6aab53357f84a58221820924e7354d20ec2809 SUNRPC: Ensure that the gssproxy client can start in a connected state
+d12aeea7b77fdf826b070838aae74370bd83f86f drm/vmwgfx: Initialize drm_mode_fb_cmd2
+f29e169b1a4687b9097414c5acee8653f0505803 Revert "drm/amd/pm: keep the BACO feature enabled for suspend"
+f102c3fe7f1be10b80b4e3b62c78f34e2c42962e dma-buf: call dma_buf_stats_setup after dmabuf is in valid list
+a8c2de137a2117b1cbff1fd8a32add93c908caf4 mm/hwpoison: use pr_err() instead of dump_page() in get_any_page()
+616ffab89b0d3ff6cd53071b429cf40aabdca56b net: phy: micrel: Fix incorrect variable type in micrel
+31218da16de9a5a9c56922972e75cb622fd596b3 mm/kfence: reset PG_slab and memcg_data before freeing __kfence_pool
 
---===============0230803473455434841==
+--===============5069534799669801771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3b3f655c54f-3ba46bef913c.txt
+Content-Disposition: attachment; filename=revlist-3ba46bef913c-33e43036d910.txt
 
-b4f8e3bf0f2e4bce63a40c66deee4576791134c6 batman-adv: Don't skb_split skbuffs with frag_list
-15b334178c56ac7d472791543a761b59c823ca76 hwmon: (tmp401) Add OF device ID table
-9644284bbe208f95860658fd670ee91594eb42f2 mac80211: Reset MBSSID parameters upon connection
-fef17e2cf505a3376cdac555dc504e6993cbc173 net: Fix features skip in for_each_netdev_feature()
-3da9ccadbb7ad287c1697a9ba02bee9aabf690b7 ipv4: drop dst in multicast routing path
-c0bd074b90731f0ff43b5ea1ff5a1cea4278e0a7 drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
-1283e64322de3a7f8f62a3899715d845a3fda12f netlink: do not reset transport header in netlink_recvmsg()
-bfa00df403726f5f90cc8c07ced79426c2098865 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
-7492995b1dc636bb5752dfdf755a94ced7b55875 dim: initialize all struct fields
-e9379b1c38959c2140bcf6d7c2f303916ec33e7e hwmon: (ltq-cputemp) restrict it to SOC_XWAY
-9bd40719ca2175bf382379edffa07ce80cde6716 s390/ctcm: fix variable dereferenced before check
-96e2162817d7017a64456082e5a257fabc5d1b61 s390/ctcm: fix potential memory leak
-63a100b8eb2ea0e9fcd3c05d40c8e4e74d15fb94 s390/lcs: fix variable dereferenced before check
-c754571840cf732059e1d877c55e7d9d96aa2ec4 net/sched: act_pedit: really ensure the skb is writable
-16dbe5249e63153056aafcaebb5c6b89773acf99 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
-32121a2e70336eaba0f3942e278d4fb2ca9254a9 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
-2b6a3a59bd8ab237d201494a540693604fde3139 gfs2: Fix filesystem block deallocation for short writes
-76dae777f6711814f5e9bbe9cdf8014ae4301b0d hwmon: (f71882fg) Fix negative temperature
-20e9b33f4afe91ac187a68fc9f45cc40b3580f6d ASoC: max98090: Reject invalid values in custom control put()
-9407321f7873a36ed96de418e9d44a9217552dbf ASoC: max98090: Generate notifications on changes for custom control
-80330c872f2fb0aa20361ba0b9278489165a209c ASoC: ops: Validate input values in snd_soc_put_volsw_range()
-dbece5a7a027bdf20ff2d350dcd6ae318bc6ac33 s390: disable -Warray-bounds
-9e2502a1deb47e035abd68a4bbcc2d78bb39af6b net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
-f3cea487b04fcbf686b8c85ed4790b9060c345f2 tcp: resalt the secret every 10 seconds
-48a48011d4e0f38b2019a7fa0881bed83edf190a tty: n_gsm: fix mux activation issues in gsm_config()
-c9f9e5a8d25d571c5b1a84fbe49de611d41cd629 usb: cdc-wdm: fix reading stuck on device close
-fbe7a0c44418daf338977d875db9e20ad3f1d153 usb: typec: tcpci: Don't skip cleanup in .remove() on error
-78fb6978ab2bcea2b1627ced57608582920cae94 USB: serial: pl2303: add device id for HP LM930 Display
-f6833789cdd171c155b3368affa6edf4b4e58f8c USB: serial: qcserial: add support for Sierra Wireless EM7590
-8dde6bae46fb77321252be7c31e42eda3a5a4639 USB: serial: option: add Fibocom L610 modem
-757582828057b75c998986a4c9d3b0ba05eb5c40 USB: serial: option: add Fibocom MA510 modem
-e5bce465aa54c4e69e011256c7a612b4e5d488ef slimbus: qcom: Fix IRQ check in qcom_slim_probe
-4ae55b3a431ce932f59694020c0a62a8a189e7d9 serial: 8250_mtk: Fix UART_EFR register address
-d575051f0c5ab7cc958ac7ad1f8092049a3bfcf5 serial: 8250_mtk: Fix register address for XON/XOFF character
-3f6e364358c3b14c434bc7c2fa87a0e8a6194717 drm/nouveau/tegra: Stop using iommu_present()
-50da8f76c38376a0cf52442426e4dcbf96fceb0c i40e: i40e_main: fix a missing check on list iterator
-f1236a0121c71b0814a9b603eabfb0dff4596ef1 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
-2a0135b32cd759c9a58f89bb4d96a4ef6f3f7ba7 drm/vmwgfx: Initialize drm_mode_fb_cmd2
-84ab2381adddad4e52712bf606922c6d9e689785 MIPS: fix build with gcc-12
-183e8fb50dde6b155a4844fc7de27f88890adf81 net: phy: Fix race condition on link status change
-a50c453afa9c06f4b4a10de2c579918b8e431fc7 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
-3ba46bef913c50b1fd6d1f64af44e8f4743def99 ping: fix address binding wrt vrf
+d33cef62e01c5f11cf9b021abae5cae35f0798a8 batman-adv: Don't skb_split skbuffs with frag_list
+eeb6fb16e1fa267438f5a133da516d5169d1b8e6 hwmon: (tmp401) Add OF device ID table
+dc641b1da9056299fd2afb758b8063fced81adea mac80211: Reset MBSSID parameters upon connection
+5cd3d73747ad2b95e31650c045eae815e0d549dc net: Fix features skip in for_each_netdev_feature()
+fbb18f9e98f26afda4f14cbcb56b09c6b57dc850 ipv4: drop dst in multicast routing path
+10d755a958f7498410b811cdd36008b39e0ed5e3 drm/nouveau: Fix a potential theorical leak in nouveau_get_backlight_name()
+067771da02d9fb579362c72531f52e5493b429b8 netlink: do not reset transport header in netlink_recvmsg()
+0b1fc76659f0b94402db836f10929ba869dccae5 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
+6bf97b1cc0388c455f0157d778cf5d3af1228084 dim: initialize all struct fields
+f2b49bbc703e6a1fe9668b7ad5356f305b7d8079 hwmon: (ltq-cputemp) restrict it to SOC_XWAY
+232c30592173244d2cb095a024373e2a3958242f s390/ctcm: fix variable dereferenced before check
+54962311f3b010938e2294827137fb1578985ef1 s390/ctcm: fix potential memory leak
+6dc50a16f71d462c3cbe54afeddc6fefdc6c580d s390/lcs: fix variable dereferenced before check
+efffdb352109cfc9805d78c248dce3ea816d1617 net/sched: act_pedit: really ensure the skb is writable
+c515b83d452f9e2708949b807c0ffcd55a88d143 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
+251c1b60c03fce7f3ec6fca8cef6efb6006e7160 net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
+763e259ff5542b836b118d7bb6520204dfb5b76b gfs2: Fix filesystem block deallocation for short writes
+550acdf6f7bd0301d06866a650280f8bd335a775 hwmon: (f71882fg) Fix negative temperature
+9a93be924b716874cfc9dbdad6ee4c555bbcd64d ASoC: max98090: Reject invalid values in custom control put()
+bbdb74a69530db6a52f5579817e35838eb9ce060 ASoC: max98090: Generate notifications on changes for custom control
+97e94405c15394e5230c61265a2468b840bdae96 ASoC: ops: Validate input values in snd_soc_put_volsw_range()
+7a9d5d9c2f6f8e7e0b0af240931a3c9c412a8ccb s390: disable -Warray-bounds
+72b3cc7bc817af15e269e62a30c741778530bf91 net: emaclite: Don't advertise 1000BASE-T and do auto negotiation
+eccf9e7a7b74c45bba2ce1ea23f78e545e40c937 tcp: resalt the secret every 10 seconds
+acee430aa08e23a411aefa98b472c6bdf36ad635 tty: n_gsm: fix mux activation issues in gsm_config()
+974885cdd9f0c1d7ce9d0bf3c992389da42846b6 usb: cdc-wdm: fix reading stuck on device close
+e3c80cb26561accbd89d23479b2f66c7e90bdf0f usb: typec: tcpci: Don't skip cleanup in .remove() on error
+ade2e62584475c965038b351b2a2b5a9f21eac7f USB: serial: pl2303: add device id for HP LM930 Display
+728a52ca60f3a606eb6debf0cd74a22216619c61 USB: serial: qcserial: add support for Sierra Wireless EM7590
+b0c71381ae4ded92ce1e2c5b3d39daac7af58a6a USB: serial: option: add Fibocom L610 modem
+efc93d3de5a6f10ae596a19b90820a6f1a24eec4 USB: serial: option: add Fibocom MA510 modem
+c59d1fc11c9de39fd4df461854a8443943c8a215 slimbus: qcom: Fix IRQ check in qcom_slim_probe
+e8a9846410811f1d73ed1d8962e67eaf42bcde2b serial: 8250_mtk: Fix UART_EFR register address
+99322729af7ff53191482459603a66e724bc3409 serial: 8250_mtk: Fix register address for XON/XOFF character
+ce068b3898be69a29cfa51c138fb8ab0f022a882 drm/nouveau/tegra: Stop using iommu_present()
+3c1a3dd287fd63d623f5b8596e2a7f8027f513b6 i40e: i40e_main: fix a missing check on list iterator
+d0a59f90c9add075663c697e29ec282018b70953 cgroup/cpuset: Remove cpus_allowed/mems_allowed setup in cpuset_init_smp()
+6ab3e03755d57ea14b0785407727d393514c8dfa drm/vmwgfx: Initialize drm_mode_fb_cmd2
+d48c8567f5884ffe009ebf8e84d212ffd386720e MIPS: fix build with gcc-12
+82cb9b60f91e113a4115d282e2ee7dbe0bf38f3e net: phy: Fix race condition on link status change
+854481486311fbebfd0b51888b3f0f0158fe2df9 arm[64]/memremap: don't abuse pfn_valid() to ensure presence of linear map
+ed67d759a0c401cdfa55c4bb7ea4eaf4847cb021 ping: fix address binding wrt vrf
+33e43036d9105d0f7ab7107d3d240f6b381b1d67 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
 
---===============0230803473455434841==--
+--===============5069534799669801771==--
