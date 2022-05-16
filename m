@@ -1,40 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1342105678937184924=="
+Content-Type: multipart/mixed; boundary="===============7325307034719157196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 16 May 2022 00:50:04 -0000
-Message-Id: <165266220406.15234.1634116377802701523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 16 May 2022 01:07:56 -0000
+Message-Id: <165266327686.29123.13272406462641027929@gitolite.kernel.org>
 
---===============1342105678937184924==
+--===============7325307034719157196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 3782ad725049732385cc33d822faa150cf472f42
-    new: 195fbdc42ab95bcd5c5f0b5bb109b212afb15ad0
-    log: |
-         eeef7565e8ba1718e8e1f835f145125fa6cc8494 cdrom: make EXPORT_SYMBOL follow exported function
-         03fea699b050805ad6ee111f9db04f223f3e835e cdrom: remove the unused driver specific disc change ioctl
-         8fa10ee183c3a1ecb53e81c95895ed5bc2a5530a cdrom: mark CDROMGETSPINDOWN/CDROMSETSPINDOWN obsolete
-         e24ccaaf7ec44e647dc56c1af2bc8d1ab67b4a11 block: remove last remaining traces of IDE documentation
-         2e10a1d693b9f1c8921bd797838cff0be7cdd537 cdrom: remove obsolete TODO list
-         195fbdc42ab95bcd5c5f0b5bb109b212afb15ad0 Merge branch 'for-5.19/cdrom' into for-next
-         
   - ref: refs/heads/master
     old: feb9c5e19e913b53cb536a7aa7c9f20107bb51ec
     new: 0cdd776ec92c0fec768c7079331804d3e52d4b27
     log: revlist-feb9c5e19e91-0cdd776ec92c.txt
-  - ref: refs/heads/for-5.19/cdrom
-    old: 0000000000000000000000000000000000000000
-    new: 2e10a1d693b9f1c8921bd797838cff0be7cdd537
 
---===============1342105678937184924==
+--===============7325307034719157196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -224,4 +210,4 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 5becde60ed4e63858385aa10354cb87d7444b9cf Merge tag 'char-misc-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============1342105678937184924==--
+--===============7325307034719157196==--
