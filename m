@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2973032694119271136=="
+Content-Type: multipart/mixed; boundary="===============7404500108507750262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 16 May 2022 13:13:13 -0000
-Message-Id: <165270679303.32242.8370670757174633532@gitolite.kernel.org>
+Date: Mon, 16 May 2022 13:13:24 -0000
+Message-Id: <165270680425.32346.15029820513104321918@gitolite.kernel.org>
 
---===============2973032694119271136==
+--===============7404500108507750262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: c46721e4604f260918e660550a16d1e28637d66c
     new: 42226c989789d8da4af1de0c31070c96726d990c
     log: revlist-c46721e4604f-42226c989789.txt
 
---===============2973032694119271136==
+--===============7404500108507750262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -216,4 +216,4 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
 
---===============2973032694119271136==--
+--===============7404500108507750262==--
