@@ -1,48 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 16 May 2022 07:57:10 -0000
-Message-Id: <165268783058.2124.1938613842964702561@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0528663190965627472=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 16 May 2022 08:01:23 -0000
+Message-Id: <165268808357.5005.2548905525677555647@gitolite.kernel.org>
+
+--===============0528663190965627472==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 8b3b2392ed68bcd17c7eb84ca615ce1e5f115b99
-    new: 024a7ad9eb4df626ca8c77fef4f67fd0ebd559d2
-    log: |
-         024a7ad9eb4df626ca8c77fef4f67fd0ebd559d2 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machine
-         
-  - ref: refs/heads/for-next
-    old: 542350509499fed057a2a56921a383888a6f4fd3
-    new: 00f87ec74c3c09628889173b0f594cfc01e74157
-    log: |
-         c960aa6aa3ccfc59293fb0850a1addf7646d790a ALSA: hda: cs35l41: Fix error in spi cs35l41 hda driver name
-         775d667539a4dd8b9f7015c5da5526999f1d5bf1 ALSA: hda: cs35l41: Set Speaker Position for CLSA0100 Laptop
-         14e42ceec89a59ad34bb22da9bbf3426a8824265 ALSA: hda: cs35l41: Remove Set Channel Map api from binding
-         aa4a38af97e9f117450bcafd25ef02f9f1a37215 ALSA: hda: cs35l41: Add Support for Interrupts
-         de8cab7b38d74e7f2bec7f3abe129c31354a5dcf ALSA: hda: cs35l41: Enable GPIO2 Interrupt for CLSA0100 laptops
-         caf7c1f1de9f011ea0e6494fcb1b2ba203bd3422 ASoC: cs35l41: Move cs35l41_set_cspl_mbox_cmd to shared code
-         ff8aad072e6388243fb0c76db4154d0883988384 ASoC: cs35l41: Move cs35l41 fs errata into shared code
-         0db99577c4cddc45447701aeb7b4d7d7b03d626f ASoC: cs35l41: Move cs_dsp config struct into shared code
-         00f87ec74c3c09628889173b0f594cfc01e74157 ALSA: hda: cs35l41: Add Amp Name based on channel and index
-         
   - ref: refs/heads/master
-    old: 0e6dd632859ba88824f95c0b56d15500eb1b0b2b
-    new: d996ab619e7c9ce38c8576599314080c747816cb
+    old: 4faaf1c974c8ca6caead29565a6364251348bc3c
+    new: 98cd531968494f45bc7a0bf05c5b4ca38a7af2b9
     log: |
-         c960aa6aa3ccfc59293fb0850a1addf7646d790a ALSA: hda: cs35l41: Fix error in spi cs35l41 hda driver name
-         775d667539a4dd8b9f7015c5da5526999f1d5bf1 ALSA: hda: cs35l41: Set Speaker Position for CLSA0100 Laptop
-         14e42ceec89a59ad34bb22da9bbf3426a8824265 ALSA: hda: cs35l41: Remove Set Channel Map api from binding
-         aa4a38af97e9f117450bcafd25ef02f9f1a37215 ALSA: hda: cs35l41: Add Support for Interrupts
-         de8cab7b38d74e7f2bec7f3abe129c31354a5dcf ALSA: hda: cs35l41: Enable GPIO2 Interrupt for CLSA0100 laptops
-         caf7c1f1de9f011ea0e6494fcb1b2ba203bd3422 ASoC: cs35l41: Move cs35l41_set_cspl_mbox_cmd to shared code
-         ff8aad072e6388243fb0c76db4154d0883988384 ASoC: cs35l41: Move cs35l41 fs errata into shared code
-         0db99577c4cddc45447701aeb7b4d7d7b03d626f ASoC: cs35l41: Move cs_dsp config struct into shared code
-         00f87ec74c3c09628889173b0f594cfc01e74157 ALSA: hda: cs35l41: Add Amp Name based on channel and index
-         d996ab619e7c9ce38c8576599314080c747816cb Merge branch 'for-next'
+         98cd531968494f45bc7a0bf05c5b4ca38a7af2b9 5.17-stable patches
          
+
+--===============0528663190965627472==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652688082 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1652688079-2c746b5d50480fe8c93c3e629da4f26c6fd597b6
+
+4faaf1c974c8ca6caead29565a6364251348bc3c 98cd531968494f45bc7a0bf05c5b4ca38a7af2b9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKCBNIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KFEQAJ12KZC8mJSV0RGcafKb
+5LT7FrSV518qWFOvn/N6ntI6PefK+7T2dMkrtk4rlz1URq9m5W3UAKYZq9jAUis2
+/Xvgw8TIjTdidfjwTpMeeqPb+IutlkWxKicfs1Pa2Y4LCTcSJLycKQGRELsYat3K
+rzZ3vmsigd4JGoHGkRbHtgyH9XEqnVB9WmwEdTUC0HuJrlUDYMLnGwkiuxEyJJp8
++6cwJacmY1Jw3/uQlx0nlBCTB/PfnkMAUAlfHHEIY0VujipwbbN7dt2qGlOMgQfd
+6YrqAU+hehMiTuvuQBN+DovxLvD3ozaKUTvYd2tEtAaSs7TbD7Jet1zM+ACT0M/P
+5fSE7jKsML4J2SSt2sc4C9wzSGj78Rhcatl5EPlLo5vmtu5llBHN9GusKmIkHpYl
+BIzjHeObc9DwHYacN1PKlk+6+DGo3soTc6k+52NkrcoK743iA+06vCIJZd6ZCCmi
+BxG4fxKvOiQf6AXz+kLZ0e4ub9G7AwMW7PPQ14RwbZHDqDZap8dManiIZipis9WS
+NvC2NN5vJ5wUkDZs9gbJ/ZUhsDn4QZGAD6kf4wcjlxrVBV2/cyIdRHbmL0HaCsyI
+r0kjClydSb8lMHzzfcuGh+KlXCikHWmkxX1jvmHXZ68vr7tvw4A1joOv5ehxftAi
+4uDmY1t1jOiWONlMVezDcZKK
+=eCDJ
+-----END PGP SIGNATURE-----
+
+--===============0528663190965627472==--
