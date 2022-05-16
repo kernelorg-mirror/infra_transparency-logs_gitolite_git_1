@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8237007076224534111=="
+Content-Type: multipart/mixed; boundary="===============3667851507720959904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 May 2022 06:26:23 -0000
-Message-Id: <165268238380.6248.16015670266916684897@gitolite.kernel.org>
+Date: Mon, 16 May 2022 06:26:27 -0000
+Message-Id: <165268238761.6358.8689934236174842213@gitolite.kernel.org>
 
---===============8237007076224534111==
+--===============3667851507720959904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
+  - ref: refs/heads/char-misc-linus
+    old: d83ea024091e11d384f983f389a7853312c33c5d
     new: 42226c989789d8da4af1de0c31070c96726d990c
-    log: revlist-672c0c517342-42226c989789.txt
+    log: revlist-d83ea024091e-42226c989789.txt
 
---===============8237007076224534111==
+--===============3667851507720959904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682383 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682387 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1652682382-f5b295c6ca083a090c18081e2b7feb5d199c26a3
+nonce 1652682386-fbd014a882b5841a07661a70bbb66220b8a9681d
 
-672c0c5173427e6b3e2a9bbb7be51ceeec78093a 42226c989789d8da4af1de0c31070c96726d990c refs/heads/main
+d83ea024091e11d384f983f389a7853312c33c5d 42226c989789d8da4af1de0c31070c96726d990c refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB7o8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+opwP/iGJVT/dTnLpSu9Sjwo5
-tKVKFGbbqXbSgB4Fx+FqynA3JtR0+zd411X9V2v5WUJAcMMknKKBY9j0GT//aKAC
-B+yiolrSZwxOQNFAudnLGZfX514k+oGGjL84XHT7ObV0R15PyFuAg8rzv31YHOv4
-X7eGGzP+iHzDLbkmD0Uq2q9G4LlkbrO0ewb2WYHP/SfdLjHjp1pr+1ijHgfrzhrA
-LpgeNtrnHDVS6y3zegS/FSIkmAs4amHoS35D7DLXDsw0vYKSKQNNF6aULMzlnMWY
-0a82gUQWXHQtqb+RSqLRJZEW/qWvGk6aRJNN4uACCAAsydBsKfwa8uSPbIfqCyOl
-BxoOHXOI/va5BHjyg7g2MU8ozwWmL2wXDAU95QoqP2n1d2eadCFwEMcuTxqHOFOV
-cSgB2JBDKH+I6brge87O38vuJ/Nef8EutqAufTTtQ4rPatOPrAMb7eTocrWj8o2k
-eTS68m6HxMkFSHMPmPZO6pRBlKnMAgXycSNHA711R6Wgxl5zL+z1WaVXXu4uZdcd
-b4Z2n91t3iReTfSr8A2pITHJ8DiLj6PRH5cBWingsx23EAUcALo8oROeIb2IfXOZ
-Qh4JBjofbVBBt47vxlVK/xvfM3K778hvX7jXMdjFKkVPo6Re8qNcvkav5aghY9m9
-wH0cgEJPoQ9C67wbLDVYh3zA
-=hATQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB7pMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B44QANSj5FLQRyKJaKfhidjc
+mtQTJ2wHSaHekKtZ07zjIhZt2UL/vVAez1+Z3kc0D3NwIrQRzzUelkCD778GF9rA
+226q9JJwsSVZ1rSmZyagx8oL6suTGVqoeDFW4OuSU53hSUXXLCWhGoUWkoTU86Zf
+WRjd6pKUZe4OUjH04ozmBcdvAxCI9n0FfSODRua50mtRB5VtdKFVefWMOFk1EaOW
+UNCjWrhsRaxxoxjYkKwP+VTAqebwmCCGcQjtl7QJVUhEOkCRmBs0uF53Od4YL0vi
+q2BCQ9FWfVq2GDXxujrBL5w7Klpu8shSaqzFUQH5OdXB26aIzATk+AQSYGFKkxoj
+utYBNWCclJw8KhSmv4N+uTEEIxTi2QUV2MOvRXAxsC2UQTse3h6VqFjEHmQF0u7m
+w/pN6QaulCirv89Vs94Cjxkc1Sy5KdWa98A9i92dbyZbR6Xm45+jqEyI2aEO/ypK
+7Z2H1hF5nYVqE9SARH1hUPWBFPxhdOzvKvnTqkB/Ioq59te3yhACZgpx+dLpYa0T
+mygHYYfH61ggmZWDqtlVHIn9clsO331egwJtnipC977Ya4PMFByUpVOHjh0CTYjP
+2krAUnaKrNoxfBu0q5/NSD0AK2/b1l1oYtR78QtqgtpxvNqRP+KoRz9MCLhu0M2d
+Pxq/TgdXeNlD/8ZJjX5RsoxS
+=POEi
 -----END PGP SIGNATURE-----
 
---===============8237007076224534111==
+--===============3667851507720959904==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-672c0c517342-42226c989789.txt
+Content-Disposition: attachment; filename=revlist-d83ea024091e-42226c989789.txt
 
 d6732317a5525a95a7eb2d12b46e3e42d321c6b6 hwmon: (xdpe12284) Fix build warning seen if CONFIG_SENSORS_XDPE122_REGULATOR is disabled
 4fd45cc8568e6086272d3036f2c29d61e9b776a1 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
@@ -183,7 +183,6 @@ a06afe8383080c630a7a528b8382fc6bb4925b61 KVM: s390: vsie/gmap: reduce gmap_rmap 
 3481551f035725fdc46885425eac3ef9b58ae7b7 hwmon: (tmp401) Add OF device ID table
 aafa025c76dcc7d1a8c8f0bdefcbe4eb480b2f6a fbdev: Make fb_release() return -ENODEV if fbdev was unregistered
 ef8e4d3c2ab1f47f63b6c7e578266b7e5cc9cd1b Merge tag 'hwmon-for-v5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-20ce30fb4750f2ffc130cdcb26232b1dd87cd0a5 interconnect: Restore sync state by ignoring ipa-virt in provider count
 107c948d1d3e61d10aee9d0f7c3d81bbee9842af Merge tag 'seccomp-v5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 2069624dac19d62c558bb6468fe03678553ab01d net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT
 5ef9b803a4af0f5e42012176889b40bb2a978b18 smsc911x: allow using IRQ0
@@ -378,7 +377,6 @@ a59d55568d02bbbdf9c0cc15be9580180f855b4f mac80211_hwsim: fix RCU protected chanc
 9e2db50f1ef2238fc2f71c5de1c0418b7a5b0ea2 mac80211_hwsim: call ieee80211_tx_prepare_skb under RCU protection
 f971e1887fdb3ab500c9bebf4b98f62d49a20655 nl80211: fix locking in nl80211_set_tx_bitrate_mask()
 a36e07dfe6ee71e209383ea9288cd8d1617e14f9 rfkill: uapi: fix RFKILL_IOCTL_MAX_SIZE ioctl request definition
-fe503887eed6ea528e144ec8dacfa1d47aa701ac slimbus: qcom: Fix IRQ check in qcom_slim_probe
 9be9ed2612b5aedb52a2c240edb1630b6b743cb6 Merge tag 'platform-drivers-x86-v5.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 085d16d5f949b64713d5e960d6c9bbf51bc1d511 nfs: fix broken handling of the softreval mount option
 e4b1045bf9cfec6f70ac6d3783be06c3a88dcb25 ionic: fix missing pci_release_regions() on error in ionic_probe()
@@ -454,7 +452,6 @@ c8f0c2d45c121a59e9786559f647b76e108efa70 Merge tag 'drm-intel-fixes-2022-05-12' 
 5005e9814698f47c5a3698fcc56c9f5e6f1d4644 Merge tag 'amd-drm-fixes-5.18-2022-05-11' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 757b9f6e6a2070043e5f215ff4afe350ecfb2bf7 Merge tag 'usb-serial-5.18-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial
 280abe14b6e0a38de9cc86fe6a019523aadd8f70 x86/mm: Fix marking of unused sub-pmd ranges
-d83ea024091e11d384f983f389a7853312c33c5d Merge tag 'icc-5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 1d6595b4cd47acfd824550f48f10b54a6f0e93ee drm/vmwgfx: Fix fencing on SVGAv3
 3059d9b9f6aa433a55b9d0d21b566396d5497c33 drm/vmwgfx: Initialize drm_mode_fb_cmd2
 21d1d192890ced87f2f04f8f4dea92406e0b162a drm/vmwgfx: Disable command buffers on svga3 without gbobjects
@@ -487,4 +484,4 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
 
---===============8237007076224534111==--
+--===============3667851507720959904==--
