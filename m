@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6469939687767427332=="
+Content-Type: multipart/mixed; boundary="===============2424218711243340603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 16 May 2022 20:09:21 -0000
-Message-Id: <165273176198.16016.15213486985811843132@gitolite.kernel.org>
+Date: Mon, 16 May 2022 20:09:30 -0000
+Message-Id: <165273177093.16138.9147925818927312648@gitolite.kernel.org>
 
---===============6469939687767427332==
+--===============2424218711243340603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: b67fd3d9d94223b424674f45eeadeff58b4b03ef
-    new: d887ae3247e022183f244cb325dca1dfbd0a9ed0
-    log: revlist-b67fd3d9d942-d887ae3247e0.txt
+  - ref: refs/heads/testing
+    old: fc159442c42fd1901c72b6454aa4d22d3138f444
+    new: 905cefdee6d4c8297ae06b70f17fc6a85bddbb59
+    log: revlist-fc159442c42f-905cefdee6d4.txt
 
---===============6469939687767427332==
+--===============2424218711243340603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652731757 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652731767 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1652731756-dfa3494609f8088e7a9af79211edf440bf4677fb
+nonce 1652731766-12ccf8b0ac9e9007df0493a38c21f0bfaa290017
 
-b67fd3d9d94223b424674f45eeadeff58b4b03ef d887ae3247e022183f244cb325dca1dfbd0a9ed0 refs/heads/master
+fc159442c42fd1901c72b6454aa4d22d3138f444 905cefdee6d4c8297ae06b70f17fc6a85bddbb59 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKCr20THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXRPcB/96SkFWea+73lueoj2kBUk5sPdYdPK3
-0xBg7buw4YkTehHnHFISbhxY8kK50wWqNk2LSpV9DkQ1sH6ap5+ADdyGfxY5Ssk/
-WQsyCc2kGFTAwBDxDDtLtNJ5sEqa8I9j9fcjeg2YTCv+ztIJ1lsEJ/Kh7UzLFuPZ
-ZisMy3hBWXrLPIbB/xGctQUFG7PwBTuFnSxFkFS2o7Uv4IzOAtV/vJ0nC96qN/jh
-cW8OROS2AWfFERDhDAneIe4KDI6uIEVaeZXhj0DuHkowmU0Q6coBC2Hx59hVpCX/
-IqReHfmNdbeZ8NTpUd8REZ7bVt0uIe/pU93/PEBtD1vFnqRPXTHPrzeg
-=sYO9
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKCr3cTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXRSzB/9dMst8frGG4uVqln14mzqGEN4PnpJc
+Ms6Ie1sCmWHVG/Joe3PAiYoHbkRT0U3pRZUdZvlK3xLfx7Wn8kyXUikFKZ2vRYPu
+HrP5IZtx/QZPkBs38PIJ9lH41HKlhn0+oMh0VmHuALq8v+IZzT/MOtEIjPaI98sy
+BX49n1CQN8G0N8DXEO5k+RwdrA7yNPo5t6BsG0QD6ZwWQ3mA6aJAbw6IdfCAhSWa
+68ySrUpDlc0rnalLODYu6sQNTcrS+ClQ+Cn4W3V9ZjP2PGKl4G247D07QpN8Gn/V
+qphTxJntFcKAS34/Buo+Nr7eTEN4VTr4B9Pvtcfeb+BhHaDBrKFETDUJ
+=MFyA
 -----END PGP SIGNATURE-----
 
---===============6469939687767427332==
+--===============2424218711243340603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b67fd3d9d942-d887ae3247e0.txt
+Content-Disposition: attachment; filename=revlist-fc159442c42f-905cefdee6d4.txt
 
 b01a277a0520edd5c815af346f05ef2c747919b6 xfrm: free not used XFRM_ESP_NO_TRAILER flag
 a36708e646586f74d073199828ed878b223e988d xfrm: delete not used number of external headers
@@ -151,5 +151,14 @@ e68372efb9feae33467bdbea2654f3d91b2e0466 octeon_ep: add missing destroy_workqueu
 1dee43c2c6f159c26684e02a56373bb3b537ab24 octeon_ep: delete unnecessary NULL check
 b321dfafb0b99e285d14bcaae00b4f9093556eb6 net: wwan: t7xx: Fix return type of t7xx_dl_add_timedout()
 d887ae3247e022183f244cb325dca1dfbd0a9ed0 octeontx2-pf: Remove unnecessary synchronize_irq() before free_irq()
+2af84932b3a1db29e37b10ef7f268da47489eb16 can: raw: raw_sendmsg(): remove not needed setting of skb->sk
+51a0d5e51178fcd147c1b8fdab2ed16b561326db can: raw: add support for SO_TXTIME/SCM_TXTIME
+9f39d36530e5678d092d53c5c2c60d82b4dcc169 can: isotp: add support for transmission without flow control
+2aa39889c463195a0dfe2aff9fad413139c32a4f can: isotp: isotp_bind(): return -EINVAL on incorrect CAN ID formatting
+94737ef56b610d94a24fadfb8386fc17dbd79ddd can: ctucanfd: Let users select instead of depend on CAN_CTUCANFD
+30abc929132929b52fa7203c35e60335c500bd17 can: slcan: slc_xmit(): use can_dropped_invalid_skb() instead of manual check
+48b171dbf7b65c188b533c9e19dce88d028cc26a dt-bindings: can: renesas,rcar-canfd: Make interrupt-names required
+f6d102a3b898d4526429c61b395024a3eec44e0c dt-binding: can: ctucanfd: include common CAN controller bindings
+905cefdee6d4c8297ae06b70f17fc6a85bddbb59 docs: ctucanfd: Use 'kernel-figure' directive instead of 'figure'
 
---===============6469939687767427332==--
+--===============2424218711243340603==--
