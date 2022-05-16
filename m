@@ -1,36 +1,48 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 16 May 2022 07:56:33 -0000
-Message-Id: <165268779335.1860.6986734560249984398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 16 May 2022 07:57:10 -0000
+Message-Id: <165268783058.2124.1938613842964702561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master-pending
-    old: e07fc768e2dc215bcbedc82cbae38401fdf9f727
-    new: 556781191e83dae2206bd3d8dba6e56fff76df69
+  - ref: refs/heads/for-linus
+    old: 8b3b2392ed68bcd17c7eb84ca615ce1e5f115b99
+    new: 024a7ad9eb4df626ca8c77fef4f67fd0ebd559d2
     log: |
-         18ed35709e4876176e91f61a10119814c2016fd0 ath10k: do not enforce interrupt trigger type
-         ba84a66b2b54f82b2db0a6af01049d365cc3155b ath11k: Fix pointer dereferenced before checking
-         afc123300827045d38e10716eed7ca6f4f26fc9a ath10k: improve tx status reporting
-         0036208954ee765a51ea3a4aaabaed12037a5bf0 ath10k: htt_tx: do not interpret Eth frames as WiFi
-         ea3fca207e1d555af66241598212e1c6090723f8 ath10k: turn rawmode into frame_mode
-         4efdc08e4884c9d58b18d34a9ae249d7e1e4bdc7 ath10k: add encapsulation offloading support
-         556781191e83dae2206bd3d8dba6e56fff76df69 Merge branch 'pending' into master-pending
+         024a7ad9eb4df626ca8c77fef4f67fd0ebd559d2 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machine
          
-  - ref: refs/heads/pending
-    old: d62054b3b309b9c2a8a32207fe41cccf445c0ca3
-    new: 4efdc08e4884c9d58b18d34a9ae249d7e1e4bdc7
+  - ref: refs/heads/for-next
+    old: 542350509499fed057a2a56921a383888a6f4fd3
+    new: 00f87ec74c3c09628889173b0f594cfc01e74157
     log: |
-         18ed35709e4876176e91f61a10119814c2016fd0 ath10k: do not enforce interrupt trigger type
-         ba84a66b2b54f82b2db0a6af01049d365cc3155b ath11k: Fix pointer dereferenced before checking
-         afc123300827045d38e10716eed7ca6f4f26fc9a ath10k: improve tx status reporting
-         0036208954ee765a51ea3a4aaabaed12037a5bf0 ath10k: htt_tx: do not interpret Eth frames as WiFi
-         ea3fca207e1d555af66241598212e1c6090723f8 ath10k: turn rawmode into frame_mode
-         4efdc08e4884c9d58b18d34a9ae249d7e1e4bdc7 ath10k: add encapsulation offloading support
+         c960aa6aa3ccfc59293fb0850a1addf7646d790a ALSA: hda: cs35l41: Fix error in spi cs35l41 hda driver name
+         775d667539a4dd8b9f7015c5da5526999f1d5bf1 ALSA: hda: cs35l41: Set Speaker Position for CLSA0100 Laptop
+         14e42ceec89a59ad34bb22da9bbf3426a8824265 ALSA: hda: cs35l41: Remove Set Channel Map api from binding
+         aa4a38af97e9f117450bcafd25ef02f9f1a37215 ALSA: hda: cs35l41: Add Support for Interrupts
+         de8cab7b38d74e7f2bec7f3abe129c31354a5dcf ALSA: hda: cs35l41: Enable GPIO2 Interrupt for CLSA0100 laptops
+         caf7c1f1de9f011ea0e6494fcb1b2ba203bd3422 ASoC: cs35l41: Move cs35l41_set_cspl_mbox_cmd to shared code
+         ff8aad072e6388243fb0c76db4154d0883988384 ASoC: cs35l41: Move cs35l41 fs errata into shared code
+         0db99577c4cddc45447701aeb7b4d7d7b03d626f ASoC: cs35l41: Move cs_dsp config struct into shared code
+         00f87ec74c3c09628889173b0f594cfc01e74157 ALSA: hda: cs35l41: Add Amp Name based on channel and index
+         
+  - ref: refs/heads/master
+    old: 0e6dd632859ba88824f95c0b56d15500eb1b0b2b
+    new: d996ab619e7c9ce38c8576599314080c747816cb
+    log: |
+         c960aa6aa3ccfc59293fb0850a1addf7646d790a ALSA: hda: cs35l41: Fix error in spi cs35l41 hda driver name
+         775d667539a4dd8b9f7015c5da5526999f1d5bf1 ALSA: hda: cs35l41: Set Speaker Position for CLSA0100 Laptop
+         14e42ceec89a59ad34bb22da9bbf3426a8824265 ALSA: hda: cs35l41: Remove Set Channel Map api from binding
+         aa4a38af97e9f117450bcafd25ef02f9f1a37215 ALSA: hda: cs35l41: Add Support for Interrupts
+         de8cab7b38d74e7f2bec7f3abe129c31354a5dcf ALSA: hda: cs35l41: Enable GPIO2 Interrupt for CLSA0100 laptops
+         caf7c1f1de9f011ea0e6494fcb1b2ba203bd3422 ASoC: cs35l41: Move cs35l41_set_cspl_mbox_cmd to shared code
+         ff8aad072e6388243fb0c76db4154d0883988384 ASoC: cs35l41: Move cs35l41 fs errata into shared code
+         0db99577c4cddc45447701aeb7b4d7d7b03d626f ASoC: cs35l41: Move cs_dsp config struct into shared code
+         00f87ec74c3c09628889173b0f594cfc01e74157 ALSA: hda: cs35l41: Add Amp Name based on channel and index
+         d996ab619e7c9ce38c8576599314080c747816cb Merge branch 'for-next'
          
