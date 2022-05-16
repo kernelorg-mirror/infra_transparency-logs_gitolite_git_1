@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2300713102147362333=="
+Content-Type: multipart/mixed; boundary="===============7659242628350115282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 16 May 2022 15:37:52 -0000
-Message-Id: <165271547213.30094.5004742054401892942@gitolite.kernel.org>
+Date: Mon, 16 May 2022 15:38:07 -0000
+Message-Id: <165271548717.30262.14579478677717915419@gitolite.kernel.org>
 
---===============2300713102147362333==
+--===============7659242628350115282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: a886f04557c676270152660816eeba1f3d54560b
-    new: db2153d86f04fbfccfb67e52caafdeeb658d15e4
-    log: revlist-a886f04557c6-db2153d86f04.txt
+  - ref: refs/heads/big-sqe
+    old: 219d53b5b5f43035426f244c8a214259b6ab2258
+    new: 797439af0962b65451425032c1559f0800fca13e
+    log: revlist-219d53b5b5f4-797439af0962.txt
 
---===============2300713102147362333==
+--===============7659242628350115282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a886f04557c6-db2153d86f04.txt
+Content-Disposition: attachment; filename=revlist-219d53b5b5f4-797439af0962.txt
 
 8b20997546d884f9a1cc37ec463b225fd18e57e3 liburing: Update io_uring in liburing
 72f55e271377eb2000fd4dc4991ce944440b551c liburing: add helper functions for setxattr and fsetxattr
@@ -34,6 +34,22 @@ f88e96ff2bd1bc3be84f11f37cd49d614de58a68 test/xattr: specify file mode with O_CR
 54faa4b2c76d90eaaf529532bb20cdee217ce9c2 test/xattr: style fixups
 894d32dc15a2919642f2d326f36d9126933055ae test/xattr: don't fail on kernels not supporting the feature
 e5dcfbf4c94135a2ba188d475eba60f63b10e5d0 32-bit build warning cleanups
+cdc632f1145f4862bbfe443b4329cc82bd847469 io_uring: add new cancel flags
+aa801a8541154ae38559b14bc24cd4a3f5939e80 liburing.h: add io_uring_prep_cancel_fd()
+5579f1ebdc7e1d0b4370bdeb9a03dab4d95e8bff test/poll-cancel-all: test issuing CANCEL_ALL | CANCEL_FD
+67b1d7ad568cec6cc4216fc55513cd17bf66e950 test/poll-cancel-all: add test case canceling a subset of pending
+6a504852c2c5fa8af18e54263515ab5723cad2c9 test/poll-cancel-all: abort test if cancel flags not supported
+d02460d876daec91293aa025f0cfb3af59dcccd4 io_uring.h: add IORING_ASYNC_CANCEL_ANY
+c091b912bc9c6fb64c68c7b0056c4923b327cd9e test/poll-cancel-all: test IORING_ASYNC_CANCEL_ANY
+6977ce1f49d38c496a3781bd2f1d39c6f23b8639 test/poll-cancel-all: add async read test case
+e597622672fcfdab486337b5a80be49cfe25a99c man: update man pages for waiting on a CQE with a timeout
+846097febe8eedfbce550c584f023459d614fbf4 queue: add new IORING_SQ_TASKRUN flag
+15af89d0d906791639ac7950f4f12ed9f30341d3 Add sparse registration helper and kernel definition
+6d94339b5050c31be8cc2734b7ef17cc41ec5fb6 Merge branch 'cancel-fd-all'
+961bfbda2d4b6995d598dd2bf59176aa738a9cd1 test/open-direct-pick.c: add test case for open direct with alloc
+36d6378c70e682bbacb4625c4ae1b72e4435c8da io_uring.h: add IORING_CQE_F_SOCK_NONEMPTY
+5d52bb71eeecb92134bd4cea42c280a08f5714c7 io_uring.h: add IORING_RECVSEND_POLL_FIRST
+a886f04557c676270152660816eeba1f3d54560b test/send_recvmsg.c: only check buffer group ID if set
 4d6a12e5d6bd7d7260d202cf888c911a039376ea Merge branch 'xattr'
 d6927ea5786d3056dabf696c6861cc10a864de79 io_uring.h: add IORING_SETUP_SQE128
 1efee07cc554c0d59ffbc323b577e28bc96fac24 setup: add basic support for SQE128
@@ -46,6 +62,5 @@ a2b20bcad03706101c3fffe77f0ced1ebcc1b9ff liburing: add large CQE tests to nop te
 855ffa0d9fc7875ada65ec23a086489dac59e2c9 liburing: Test all configurations with NOP test
 707550cb0d7c60caa1f788cb416ea52c5a1a4535 liburing: Update io_uring.h
 797439af0962b65451425032c1559f0800fca13e test/nop: make less verbose and don't fail on older kernels
-db2153d86f04fbfccfb67e52caafdeeb658d15e4 Merge branch 'big-sqe'
 
---===============2300713102147362333==--
+--===============7659242628350115282==--
