@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5545857368992332232=="
+Content-Type: multipart/mixed; boundary="===============0026956281645213089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 May 2022 06:31:43 -0000
-Message-Id: <165268270359.10275.16256047777300088545@gitolite.kernel.org>
+Date: Mon, 16 May 2022 06:31:47 -0000
+Message-Id: <165268270736.10344.6352518817886699343@gitolite.kernel.org>
 
---===============5545857368992332232==
+--===============0026956281645213089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
+  - ref: refs/heads/usb-linus
+    old: 757b9f6e6a2070043e5f215ff4afe350ecfb2bf7
     new: 42226c989789d8da4af1de0c31070c96726d990c
-    log: revlist-672c0c517342-42226c989789.txt
+    log: revlist-757b9f6e6a20-42226c989789.txt
 
---===============5545857368992332232==
+--===============0026956281645213089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682703 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652682706 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1652682702-cf598ab99a72129af5581a16457852afba8481df
+nonce 1652682706-7ca4d7ad5b889f0404aa9cb0245c3e719be63d53
 
-672c0c5173427e6b3e2a9bbb7be51ceeec78093a 42226c989789d8da4af1de0c31070c96726d990c refs/heads/main
+757b9f6e6a2070043e5f215ff4afe350ecfb2bf7 42226c989789d8da4af1de0c31070c96726d990c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB788bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VbQP/iyJpN6mW3T1DWSz8rXP
-AjDOhVXzZ/X5Y5TFwmJ8/uE2pgrQBdqBqaYTBZQm2TSdZO9nfYQ90YPXjXN+32+7
-9E8PmoTUFWGyauIVdBDW8gO2T4xnjIgsfAZn99Oc0v2ultZkQR8HD6Hd0AGl7hXT
-ar7ZsrIp1U4a09kvNUuX/OLmfspyVQZPSrEDvFMf4dAWc2cF73KClbu+C53owKKW
-NQWrO0yxBvdC+N+UthWMqPenvOQoyChj3tOv7/ZvuALtiTO+lbAnXNDkg8kRrgGh
-eqqr7EkQgZaQXDOTrjlI/tJpaE3rnvjYiqG2GYv2UoIYqQU74M6X1GzE306q4Nvk
-QJ88Sj4vJm9x8q1HxS7Fn0j5mJQS037BjllOZCYH4hIoipFyHgupb1SO7+GmlAZd
-mHaHqYxqv0FokXn7mMojVQCakjSoGyxjNftsH1fpjjXWUueaxD1FQzZSdQ/H5YqT
-5um7w5K+LuiGWk8Pcbu+gy+3TA2GKdTBvAKHRJpdIBFCl1qs7z06TULrvCDkOkIa
-wXI2MOfPb3pNfEGlHz1wxYHWySosrIU5V/eAUw2NL/jSOJsMN69+Q0q5El7vLoLZ
-42wjYbV8x5bD4m9eee8YMcchEtHi/+Q12ylh0La5qpLCTFusLOptVkT3VmJTlMqs
-hddU0tnlL+1kI8N6vkqqFSxn
-=PmLE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKB79IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QTcP/0KVNoyNYN9c562MZkxB
+A+XyBeWVYMENs/A4LJtSbux3EFWwDyAPNHAUmcuc70bQBuYFm2nri1hfZFqOFY9m
+XFDvN/n0YeNss2VNt3VMWjF+Zb/k+j8EEFgHNm5kFbi4Dbg+D9pL691cyURcOxRe
+QT9E/UTWYfLtDwsTauTDPw5aI1LuAhAiIEEKPfjQkvOp0ZrZT6cCT5KwcPMA2xAS
+m8EPTIwVykXjwh/uC27V5kBsZmc67EBF1OChWKRVk2k5rdEUkOa1nNwo64fwkky2
+Wsy6an5VwpBeUHYsZwMxjXDczR45x91nl2gOlrp5O5q3eRRTwy0He3LIrc7m/mfR
+KIcJietiNIpQD/yGc71gw15ERK3OpF/Bqu1uGhYfFCie1LoW3py4vI6z3koLPTL5
+O7CAq/t7/SqJVap8Q1+7L/Xj8FqPB+qfFtIvkeL8sH7l3tGrqgT/KchfQJnWxbxS
+kaI0zWdSfVb6+R9/Kic6Nvm3ZcmMnd/B6uG4ioNdfK1D9kQhnU+TFBGEKb4sB0wD
+QQjZVEVwRclEjPvmnU1on+flWulkQnCEl6c96bVGOBJ3iCJiO8M4R1EGFs/TvKnl
+tZaTQmUxCd6neiWF+DXGyjUuuqHgrHg2ZI0Zc9GfGlDBQtM1qdEZ9QjOtHl1OEVk
+jCEGlR/+9CixIs1nbtsduW/B
+=KtEJ
 -----END PGP SIGNATURE-----
 
---===============5545857368992332232==
+--===============0026956281645213089==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-672c0c517342-42226c989789.txt
+Content-Disposition: attachment; filename=revlist-757b9f6e6a20-42226c989789.txt
 
 d6732317a5525a95a7eb2d12b46e3e42d321c6b6 hwmon: (xdpe12284) Fix build warning seen if CONFIG_SENSORS_XDPE122_REGULATOR is disabled
 4fd45cc8568e6086272d3036f2c29d61e9b776a1 hwmon: (asus_wmi_sensors) Fix CROSSHAIR VI HERO name
@@ -251,11 +251,7 @@ b9ff43dd27434dbd850b908e2e0e1f6e794efd9b mm/readahead: Fix readahead with large 
 4071bf121d59944d5cd2238de0642f3d7995a997 NFC: netlink: fix sleep in atomic bug when firmware download timeout
 2d3535ed2c73fee356160aed40714b27be07442a MAINTAINERS: update the GPIO git tree entry
 8707898e22fd665bc1d7b18b809be4b56ce25bdd genirq: Synchronize interrupt thread startup
-26a08f8bad3e1f98d3153f939fb8cd330da4cb26 USB: serial: pl2303: add device id for HP LM930 Display
-714adff9a6271b5f1664b04c944b598141ebfe73 USB: serial: option: add Fibocom L610 modem
-07989eb981d862f7f2be68d233d753f2e7ccc119 USB: serial: option: add Fibocom MA510 modem
 171865dab096da1ab980a32eeea5d1b88cd7bc50 gpio: visconti: Fix fwnode of GPIO IRQ
-870b1eee2d844727b06e238c121d260bc5645580 USB: serial: qcserial: add support for Sierra Wireless EM7590
 68533eb1fb197a413fd8612ebb88e111ade3beac Merge tag 'net-5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 905a6537e7640993fdbd18da6f56d86035069e88 Merge tag 'mips-fixes_5.18_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 0f5d752b1395e777ef81e28886945e5e939b7c8a Merge tag 's390-5.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -265,9 +261,6 @@ b9ff43dd27434dbd850b908e2e0e1f6e794efd9b mm/readahead: Fix readahead with large 
 ceb4f60830a7cd38ff47b7dd54e9e06ddbaf413c btrfs: zoned: activate block group properly on unlimited active zone device
 750ee454908e90a8792b1e2b157c2948da86e926 btrfs: fix assertion failure when logging directory key range item
 3e1ad196385c65c1454aceab1226d9a4baca27d5 btrfs: sysfs: export the balance paused state of exclusive operation
-01e01f5c89773c600a9f0b32c888de0146066c3a usb: cdc-wdm: fix reading stuck on device close
-bbc126ae381cf0a27822c1f822d0aeed74cc40d9 usb: typec: tcpci: Don't skip cleanup in .remove() on error
-b81ac4395bbeaf36e078dea1a48c02dd97b76235 usb: gadget: uvc: allow for application to cleanly shutdown
 447ee1516f19f534a228dda237eddb202f23e163 tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
 bb0b197aadd928f52ce6f01f0ee977f0a08cf1be serial: 8250_mtk: Fix UART_EFR register address
 6f81fdded0d024c7d4084d434764f30bca1cd6b1 serial: 8250_mtk: Make sure to select the right FEATURE_SEL
@@ -439,10 +432,6 @@ a48ab883c4a9289694b82cacd95385b8f2367b20 Merge tag 'for-net-2022-05-11' of git:/
 2de7689c7caa55949da5a56be02ec41a86ac1725 arm64: cpufeature: remove duplicate ID_AA64ISAR2_EL1 entry
 810c2f0a3f86158c1e02e74947b66d811473434a mlxsw: Avoid warning during ip6gre device removal
 51f559d66527e238f9a5f82027bff499784d4eac arm64: Enable repeat tlbi workaround on KRYO4XX gold CPUs
-4031cd95cba70c72e4cadc2d46624bcd31e5a6c0 usb: typec: tcpci_mt6360: Update for BMC PHY setting
-5f0b5f4d50fa0faa8c76ef9d42a42e8d43f98b44 usb: gadget: fix race when gadget driver register via ioctl
-c237566b78ad8c72bc0431c5d6171db8d12e6f94 usb: xhci-mtk: fix fs isoc's transfer error
-1645eee0d7f623660e6ce0f1aef4591788a0c9da usb: xhci-mtk: remove bandwidth budget table
 b7be130c5d52e5224ac7d89568737b37b4c4b785 net: dsa: bcm_sf2: Fix Wake-on-LAN with mac_link_down()
 f3c46e41b32b6266cf60b0985c61748f53bf1c61 net/smc: non blocking recvmsg() return -EAGAIN when no data and signal_pending
 1fa89ffbc04545b7582518e57f4b63e2a062870f net: sfc: ef10: fix memory leak in efx_ef10_mtd_probe()
@@ -452,7 +441,6 @@ c37dba6ae45c2f0ec9913d7c96790fc00976d3d4 Merge tag 'fixes_for_v5.18-rc7' of git:
 f3f19f939c11925dadd3f4776f99f8c278a7017b Merge tag 'net-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c8f0c2d45c121a59e9786559f647b76e108efa70 Merge tag 'drm-intel-fixes-2022-05-12' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 5005e9814698f47c5a3698fcc56c9f5e6f1d4644 Merge tag 'amd-drm-fixes-5.18-2022-05-11' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-757b9f6e6a2070043e5f215ff4afe350ecfb2bf7 Merge tag 'usb-serial-5.18-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial
 280abe14b6e0a38de9cc86fe6a019523aadd8f70 x86/mm: Fix marking of unused sub-pmd ranges
 d83ea024091e11d384f983f389a7853312c33c5d Merge tag 'icc-5.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 1d6595b4cd47acfd824550f48f10b54a6f0e93ee drm/vmwgfx: Fix fencing on SVGAv3
@@ -487,4 +475,4 @@ fc49583cdb2c8d5dc7dc626b80c8852478cb3383 Merge tag 'usb-5.18-rc7' of git://git.k
 0cdd776ec92c0fec768c7079331804d3e52d4b27 Merge tag 'driver-core-5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
 
---===============5545857368992332232==--
+--===============0026956281645213089==--
