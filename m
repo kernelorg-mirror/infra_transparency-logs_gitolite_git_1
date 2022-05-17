@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8723731424326693342=="
+Content-Type: multipart/mixed; boundary="===============8897176404558819842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 May 2022 18:07:38 -0000
-Message-Id: <165281085806.29957.7300176453540851408@gitolite.kernel.org>
+Date: Tue, 17 May 2022 18:07:45 -0000
+Message-Id: <165281086555.30078.15063261883918445908@gitolite.kernel.org>
 
---===============8723731424326693342==
+--===============8897176404558819842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d9713088158b23973266e07fdc85ff7d68791a8c
-    new: 65a9dedc11d615d8f104a48d38b4fa226967b4ed
-    log: revlist-d9713088158b-65a9dedc11d6.txt
+  - ref: refs/heads/dev-queue
+    old: 4eb6cb274848c95e088eb226fa9881fb80480615
+    new: 718d4aeece7c5392a20f85da284ed1ae0429a68a
+    log: revlist-4eb6cb274848-718d4aeece7c.txt
 
---===============8723731424326693342==
+--===============8897176404558819842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9713088158b-65a9dedc11d6.txt
+Content-Disposition: attachment; filename=revlist-4eb6cb274848-718d4aeece7c.txt
 
 2ed3bf188b33630cf9d93b996ebf001847a00b5a netfilter: ecache: use dedicated list for event redelivery
 0d3cc504ba9cdcff76346306c37eb1ea01e60a86 netfilter: conntrack: include ecache dying list in dumps
@@ -120,5 +120,30 @@ a968c799eb1da3e27fc107cfdc228bf87ff27e22 ax25: merge repeat codes in ax25_dev_de
 bd81bfb5a1d1aa811ccb370aa5d118d0f87877bc net: vxge: Remove unnecessary synchronize_irq() before free_irq()
 d1e7f009bfff8b739599c7ff89fb794ef6d4a44d net: qede: Remove unnecessary synchronize_irq() before free_irq()
 65a9dedc11d615d8f104a48d38b4fa226967b4ed net: phy: marvell: Add errata section 5.1 for Alaska PHY
+c1aa4c06244af4f5d1d816467b396985eda2b595 ice: Add support for classid based queue selection
+7caefc260cdb4ab32ac80c180e37bda82d43331c ice: Add support for double vlan in switchdev
+ae0e18ae23c3a16a3a665c215651a50305ae0221 ice: Add support for vlan tpid filters in switchdev
+347f20395a42baf7b21f1d983be3c52c06eba411 i40e: Add VF VLAN pruning
+3df23ec7bf9916a348f9f2240a5b771a8bb8c97d ice: switch: dynamically add vlan headers to a dummy packets
+e164f646861d01e214fd7261441aa0e860de97b2 ice: don't set VF VLAN caps in switchdev
+fb5a4568ac226a25c0a5902cea32ae7194ea4d04 ice: remove VLAN representor specific ops
+c817b4ddc703ff4ed7debb354c039b4017c35c1a ice: fix crash when writing timestamp on RX rings
+06d1cbcc554a55891c7e4dda9d74eb9e73608db3 ice: fix possible under reporting of ethtool Tx and Rx statistics
+2501c9f2de9617487f18d9a37c3d73a7a15c2724 ice: remove u16 arithmetic in ice_gnss
+0eb2f74ee5194f1ee9980181660a2e24f2f0a5a6 ice: add i2c write command
+583be6e25c3df81caf6c56d499435e2f0808579b ice: add write functionality for GNSS TTY
+8a310daf5e91b7b79790b41fa917ba055f5c0a62 i40e: Fix adding ADq filter to TC0
+8674b22c1c9efcd50b4e05385469a01254ddb181 i40e: Fix calculating the number of queue pairs
+cdd51965b56396055e702817f5b13fb2bb835ab2 igb: skip phy status check where unavailable
+85bf018932640addc090834ef1c7ef3adb0c4a43 ice: prevent low-core machines crashing on DCB config
+bab388bb0b8a899fb711a61cf488c8b2a2a11be7 ice: Fix interrupt moderation settings getting cleared
+990a1a8cbb4c929de841ba2c338c949d1cb480cc ice: ignore protocol field in GTP offload
+baf02f7bf5a34a5f6ecfff452abaf04e5b78e285 ice: Fix PTP TX timestamp offset calculation
+b7e5832c3e9501a05cfe0fc48ac6783940b0bdf2 i40e: add xdp frags support to ndo_xdp_xmit
+d0642ce4ae3eddd548c349c669a2bbf657a9d6e5 e1000e: Enable GPT clock before sending message to CSME
+7421c8e50399190fbba21f60ea9deb6ce5057e33 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+58792121cfc1bec402d876bdda12a047e8785156 ixgbe: export vf statistics
+3f6594b81efa20be24c81f27fece87374edc1a24 intel/i40e: delete if NULL check before dev_kfree_skb
+718d4aeece7c5392a20f85da284ed1ae0429a68a i40e: Add support for ethtool -s <interface> speed <speed in Mb>
 
---===============8723731424326693342==--
+--===============8897176404558819842==--
