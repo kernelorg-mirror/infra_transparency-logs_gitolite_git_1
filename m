@@ -1,61 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8018599774829415376=="
+Content-Type: multipart/mixed; boundary="===============2938804158946344762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 17 May 2022 02:36:03 -0000
-Message-Id: <165275496388.17006.10556015911192328701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 17 May 2022 02:38:54 -0000
+Message-Id: <165275513486.18069.15858325293715555245@gitolite.kernel.org>
 
---===============8018599774829415376==
+--===============2938804158946344762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 1e25cde67d55bcc411e0a82a8e8cd07a4aaaf41a
-    new: 699bc86149f02913fdc429f0955297a87140363c
-    log: revlist-1e25cde67d55-699bc86149f0.txt
+  - ref: refs/heads/master
+    old: f6d47365e01235a717038cd291f6b45c0960e39d
+    new: 94d012715ab8425540f61a9ab5b66b21bc9e954e
+    log: revlist-f6d47365e012-94d012715ab8.txt
 
---===============8018599774829415376==
+--===============2938804158946344762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e25cde67d55-699bc86149f0.txt
+Content-Disposition: attachment; filename=revlist-f6d47365e012-94d012715ab8.txt
 
-9b5387fe5af38116b452259d87cd66594b6277c1 scsi: hisi_sas: Undo RPM resume for failed notify phy event for v3 HW
-223b17ed76ebecba54f7857cd1a3205050d6257b scsi: ufs: qcom: Fix acquiring the optional reset control line
-c9ed9a6c56af4142ce0da240451c207d8171e451 scsi: ufs: qcom: Simplify handling of devm_phy_get()
-8eecddfca30e1651dc1c74531ed5eef21dcce7e3 scsi: ufs: qcom: Add a readl() to make sure ref_clk gets enabled
-23803bacaab47eafcd3a13ab607b5aa7b0debaaf scsi: ufs: core: Remove redundant wmb() in ufshcd_send_command()
-6f21d9274c779a6425bd5056005bc69b99c956a4 scsi: ufs: qcom: Enable RPM_AUTOSUSPEND for runtime PM
-facc239c87b1d66e7fdadade4fba07f9cecca7d6 scsi: ufs: ufshpb: Merge ufshpb_reset() and ufshpb_reset_host()
-6f341ed5e3771ea932b19377302ea97a0a02e0b5 scsi: ufs: ufshpb: Remove enum initialization value
-a3f3c26d4df5475e601f18250a94232fedfa24b8 scsi: ufs: ufshpb: Clean up the handler when device resets HPB information
-d4300c552bf8a64e7577ce17c973e51fc89dba7c scsi: ufs: ufshpb: Change sysfs node hpb_stats/rb_* prefix to start with rcmd_*
-32d6eab31ac3bc7fecdec86541fa1458a2eb18a9 scsi: ufs: ufshpb: Add handing of device reset regions in HPB device mode
-18ebe2390c6197738cbe67aa26acabe7815060bd scsi: ufs: ufshpb: Clean up ufshpb_suspend()/resume()
-84c6f99e39074d45f75986e42ca28e27c140fd0d scsi: lpfc: Fix element offset in __lpfc_sli_release_iocbq_s4()
-ba3d58a1df460ba28bb5989ad7269ff48682375a scsi: lpfc: Fill in missing ndlp kref puts in error paths
-b7e952cbc63c8b98a7433f294321c3b89850305c scsi: lpfc: Fix ndlp put following a LOGO completion
-ead76d4c09b89f4c8d632648026a476a5a34fde8 scsi: lpfc: Inhibit aborts if external loopback plug is inserted
-596fc8adb171dce3751a359018e2ade612af8d97 scsi: lpfc: Fix dmabuf ptr assignment in lpfc_ct_reject_event()
-4a0f4aff3ce5a3efdf674f3bc1ba7d2642fa55ea scsi: lpfc: Use list_for_each_entry_safe() in rscn_recovery_check()
-dc8a71bd414fb550fd17164440c409f9ecf4b2a8 scsi: lpfc: Decrement outstanding gidft_inp counter if lpfc_err_lost_link()
-5099478e436f0acd8c76495590c105668f2d8afc scsi: lpfc: Change VMID registration to be based on fabric parameters
-de3ec318fee32313092b609f88475f86e58f3fe5 scsi: lpfc: Rework FDMI initialization after link up
-e6f51041450282a8668af3a8fc5c7744e81a447c scsi: lpfc: Alter FPIN stat accounting logic
-a14396b6d139ff9335b4be25ba30ffa67cadd2e9 scsi: lpfc: Use sg_dma_address() and sg_dma_len() macros for NVMe I/O
-fcb9e738667c874cbff0b240b96a895901f09ee0 scsi: lpfc: Update lpfc version to 14.2.0.3
-1aa529d400253eda76733dbb95b62f6cca7b274a scsi: mpi3mr: Increase I/O timeout value to 60s
-2dd8389f96d6d00a24816888262e33a85d414c05 scsi: mpi3mr: Hidden drives not removed during soft reset
-256bd4f23d9cecaba2e6795f0058fa9c2362698c scsi: mpi3mr: Return I/Os to an unrecoverable HBA with DID_ERROR
-66cd9d4ef74ae1ad459e3db3a3280182275c2ce9 scsi: target: iscsi: Rename iscsi_cmd to iscsit_cmd
-be36d683fc29e74bbd29347717be72beb6a74219 scsi: target: iscsi: Rename iscsi_conn to iscsit_conn
-0873fe44e780eb8ff7932aed347de8dd4103cea7 scsi: target: iscsi: Rename iscsi_session to iscsit_session
-699bc86149f02913fdc429f0955297a87140363c Merge branch 'misc' into for-next
+19b0d25193330d3cfcd636d4cc2e4ec1ec019271 test/accept.c: close the listen fd at the end of the test
+e7c7089e352f5a6ead9c409a7d8a43ffe9cd59a5 liburing.h: support multishot accept
+305eb96b9dbb84a3dd3151d0debde753a354d81e liburing.h: add api to support multishot accept direct
+66cf84527c34acf8ea37b5cc048f04018b22ed2c test/accept.c: add test for multishot mode accept
+70e40d8de2ce5e3196c84344f611ca70f34e8182 test/accept.c: test for multishot direct accept with wrong arg
+9997778eed96c4ba2240c1a18773e3047be95290 man/io_uring_prep_accept.3: add man info for multishot accept
+2894a54a29e5466b4554f186e23856cf0e984eb9 man/io_uring_prep_accept.3: fixup some phrasing
+c519d1928a631873a622a3b81afdc1f2982ba35b liburing.h: use helper for io_uring_prep_multishot_accept()
+91040e8b1e22de8ec79161bba6ced308cdf6b8fd open/openat2: update man page to include IORING_FILE_INDEX_ALLOC
+a2dcf19a32cfb1c4580ef3a377d4ccb17ba61ddc man/io_uring_prep_cancel.3: document new 5.19 cancelation flags
+cd3f9fff5aa69a91bf412a36c444d8b1e048d439 man/io_uring_prep_recv{msg}.3: add new 5.19 flags
+94d012715ab8425540f61a9ab5b66b21bc9e954e Merge branch 'accept-multi'
 
---===============8018599774829415376==--
+--===============2938804158946344762==--
