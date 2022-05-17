@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6726359850706589845=="
+Content-Type: multipart/mixed; boundary="===============8018599774829415376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 17 May 2022 02:35:43 -0000
-Message-Id: <165275494301.16793.11069632074866258536@gitolite.kernel.org>
+Date: Tue, 17 May 2022 02:36:03 -0000
+Message-Id: <165275496388.17006.10556015911192328701@gitolite.kernel.org>
 
---===============6726359850706589845==
+--===============8018599774829415376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f304d35e59958ea4be399f78e5be08d4a0c4db75
-    new: 0873fe44e780eb8ff7932aed347de8dd4103cea7
-    log: revlist-f304d35e5995-0873fe44e780.txt
+  - ref: refs/heads/for-next
+    old: 1e25cde67d55bcc411e0a82a8e8cd07a4aaaf41a
+    new: 699bc86149f02913fdc429f0955297a87140363c
+    log: revlist-1e25cde67d55-699bc86149f0.txt
 
---===============6726359850706589845==
+--===============8018599774829415376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f304d35e5995-0873fe44e780.txt
+Content-Disposition: attachment; filename=revlist-1e25cde67d55-699bc86149f0.txt
 
 9b5387fe5af38116b452259d87cd66594b6277c1 scsi: hisi_sas: Undo RPM resume for failed notify phy event for v3 HW
 223b17ed76ebecba54f7857cd1a3205050d6257b scsi: ufs: qcom: Fix acquiring the optional reset control line
@@ -56,5 +56,6 @@ fcb9e738667c874cbff0b240b96a895901f09ee0 scsi: lpfc: Update lpfc version to 14.2
 66cd9d4ef74ae1ad459e3db3a3280182275c2ce9 scsi: target: iscsi: Rename iscsi_cmd to iscsit_cmd
 be36d683fc29e74bbd29347717be72beb6a74219 scsi: target: iscsi: Rename iscsi_conn to iscsit_conn
 0873fe44e780eb8ff7932aed347de8dd4103cea7 scsi: target: iscsi: Rename iscsi_session to iscsit_session
+699bc86149f02913fdc429f0955297a87140363c Merge branch 'misc' into for-next
 
---===============6726359850706589845==--
+--===============8018599774829415376==--
