@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Tue, 17 May 2022 16:01:17 -0000
-Message-Id: <165280327776.11782.6283543860118920692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 17 May 2022 16:02:25 -0000
+Message-Id: <165280334576.12235.5483184620969509942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: ggreenman
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/chromeos-5.15__core70_po
-    old: 0000000000000000000000000000000000000000
-    new: e446f1fd7ebaa5bd0b5dccadb5a8e45dc7b65679
-  - ref: refs/tags/chromeos-5.15__core70_po_2022_05_17
-    old: 0000000000000000000000000000000000000000
-    new: e446f1fd7ebaa5bd0b5dccadb5a8e45dc7b65679
+  - ref: refs/heads/kunit
+    old: 8a7ccad38f8b25c8202efd69371a022357286400
+    new: 1b11063d32d7e11366e48be64215ff517ce32217
+    log: |
+         1b11063d32d7e11366e48be64215ff517ce32217 kunit: fix executor OOM error handling logic on non-UML
+         
