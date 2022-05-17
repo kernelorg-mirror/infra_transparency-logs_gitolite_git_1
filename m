@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 17 May 2022 08:33:12 -0000
-Message-Id: <165277639203.26207.13789699635006265735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 17 May 2022 08:36:15 -0000
+Message-Id: <165277657549.28634.13304773357738099473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/clk-tegra
-    old: 0000000000000000000000000000000000000000
-    new: 8b9d9e9f8e60571648a6eebd15ce6d370e7c852a
+  - ref: refs/heads/master
+    old: a6d1154e81be793b6eedb322ed09c849c9e97452
+    new: bcde61d5787225e55786797b9e6c20f41c2a94e8
+    log: |
+         a7fed5c0431dbfa707037848830f980e0f93cfb3 x86/nmi: Make register_nmi_handler() more robust
+         bcde61d5787225e55786797b9e6c20f41c2a94e8 Merge branch into tip/master: 'x86/core'
+         
