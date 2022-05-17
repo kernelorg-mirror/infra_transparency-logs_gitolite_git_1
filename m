@@ -1,31 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Tue, 17 May 2022 05:10:43 -0000
-Message-Id: <165276424379.22682.15548456844653980428@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5885808239255301850=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Tue, 17 May 2022 06:11:35 -0000
+Message-Id: <165276789568.28986.8500382875811632876@gitolite.kernel.org>
+
+--===============5885808239255301850==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: ggreenman
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pending
-    old: d93185a92918c38996dbe24ecb6bb0f30078bc75
-    new: a786b171b90fe097fda151935ffb1c7789a4cf82
+  - ref: refs/heads/testing
+    old: ba3e2eaef1ae5019775989aeec3be8e9df83baa5
+    new: bb7b7a0518318677b555798dccfb242ff6c92341
     log: |
-         19abe9a4d1710f54a91469350530775ee0f894f0 iwlwifi: pcie: simplify MSI-X cause mapping
-         78a7651327bb1fb970eae2311941260986a174fd iwlwifi: mvm: use NULL instead of ERR_PTR when parsing wowlan status
-         41f528383a6bcbd58854867f2e6deb51d0aeab53 iwlwifi: mvm: clean up authorized condition
-         bc45923b74e92c052157a8db61624d1af16a6d14 iwlwifi: fw: init SAR GEO table only if data is present
-         ed2ffc8ce732b6a17770c4c45294d5be7b6b2963 iwlwifi: mvm: fix assert 1F04 upon reconfig
-         48464938b27ac86ff6acca4f319270268c1a7554 iwlwifi: mvm: add OTP info in case of init failure
-         479956a46317908681da300633a6bd41a4eb2cf5 iwlwifi: mvm: always tell the firmware to accept MCAST frames in BSS
-         8c91ae023b15cd5ff0c09487463de8e562ce5895 iwlwifi: mvm: remove vif_count
-         8dd3423cf6833063f771e3915e097fbb76b28e5a iwlwifi: mei: clear the sap data header before sending
-         a786b171b90fe097fda151935ffb1c7789a4cf82 iwlwifi: mei: fix potential NULL-ptr deref
+         bb7b7a0518318677b555798dccfb242ff6c92341 can: move to netif_napi_add_weight()
          
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2022-05-17
-    old: 0000000000000000000000000000000000000000
-    new: a786b171b90fe097fda151935ffb1c7789a4cf82
+
+--===============5885808239255301850==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652767891 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1652767891-1088bced3453427f025b2df041f2e0aa6ceba88f
+
+ba3e2eaef1ae5019775989aeec3be8e9df83baa5 bb7b7a0518318677b555798dccfb242ff6c92341 refs/heads/testing
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKDPJMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXaxlB/9amqNyIJMwf4FGHMRit4vdpbL8GuIc
+4PPK5k//6kdFiMgiYe6aFYvvKUWPf9RRvMezlGROCIYrXGumHisFgoxY0m3EVTLI
+allzUmUqfroTVqtw/zjeSeZum5k7o6QBq4bDq/0QXE/J6/T5+sj31/IVq/LppZEi
+gpuZNR1x2iVGlR19Q1nZ3bD/hKWnatW7veX4gH5RXEpBHBdFmWY/lBE1oaekcAIl
+USnGNBFYU3YqWwxsizCOFpOkKeg6LHbXK51PGjFtFWkXXRo+2FRVDpGBO50Jowpi
+/P0+FzkJSRWOQhPqstwhAQlAl+wgKOIvi22TfQS3PLJfMIcHUDOkSi2V
+=NmXe
+-----END PGP SIGNATURE-----
+
+--===============5885808239255301850==--
