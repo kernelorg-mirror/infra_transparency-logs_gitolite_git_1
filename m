@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4550708105793745442=="
+Content-Type: multipart/mixed; boundary="===============7934017803360087493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 17 May 2022 02:16:20 -0000
-Message-Id: <165275378014.4189.15485587538366209608@gitolite.kernel.org>
+Date: Tue, 17 May 2022 02:16:32 -0000
+Message-Id: <165275379244.4319.11862766358230528378@gitolite.kernel.org>
 
---===============4550708105793745442==
+--===============7934017803360087493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,63 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: f304d35e59958ea4be399f78e5be08d4a0c4db75
-    new: 0873fe44e780eb8ff7932aed347de8dd4103cea7
-    log: revlist-f304d35e5995-0873fe44e780.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: edb5faa7dcb86b960ab9b16f6739f55111154773
+    new: fca14c3561809958548a698751623dc9220bf871
+    log: revlist-edb5faa7dcb8-fca14c356180.txt
 
---===============4550708105793745442==
+--===============7934017803360087493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1652753772 -0400
+pusher 75C5DE3D 1652753784 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1652753772-75f79f5cc064163440963346486918b2941e4e39
+nonce 1652753783-0a5bc9e70fdca2a96439bc563af33a795939b364
 
-f304d35e59958ea4be399f78e5be08d4a0c4db75 0873fe44e780eb8ff7932aed347de8dd4103cea7 refs/heads/queue
+edb5faa7dcb86b960ab9b16f6739f55111154773 fca14c3561809958548a698751623dc9220bf871 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKDBWwACgkQ7ulgGnXF
-3j2dIg//Uey9zoPN4EMp8/67FBw6LiiwbC+rIDgKxb4jO0WAtyQu49FgVy9imzKI
-oiR4Rmza+V4K+tZ5g5THoAJGxqDTEedrr49pNnTSXO+oyezrRP3UQ2AoP/dLaC9n
-Hp/g+U7EFKptnOaTpEhYk8NEdH+axOF/t4qiQkgY/QBJrPWXps3o8MSBkyXJz7gX
-Fjnc1wk/x+YKLvT/76cQ9ww0+iTVybmG6Yy4Pn3YSpEIfkDfTUCyJmoNSmUO/AoE
-GHfyEWM06BrUJH/ItOyiY1+Gysu2CXC5xxRmZwOa4+XMwDkWvDHxN6kg4DTyK/ZV
-nneRlJ9F//nZrfJBrwetVypTejVbTYD8erC0NOw8KJ4MPGYoykdueVG0Lb7S+wdv
-/g7d2yqwKeBWMJjb/Cvw/izxq7FUZqvffmtelm4L2MWt0OAl/X+nM3P6ezmc6fpR
-+ijRgiaBbkH2CXNn4tA0BCd3BX8KwiigDStdqZTvRsxTxsb6MPv3ZH5I4C/5kFwi
-/UB990xqVVM4fLYaHZQYuyQe1QA3XYwxkblfuD8kimKdpiSYWt9UO6tIeEtIdg4l
-7lGEm/jgFS542rXRkpd/3kduXXGRYF6l9n/TkrT8Yv24xmDEQ2lMLvyrUaMdRLWV
-iGrd1u/CsbI61pptSQEq43iuUrTKo+7H/H7zu8jF22bsK5gMa9M=
-=GM8O
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKDBXgACgkQ7ulgGnXF
+3j00bQ//Zycf4UchJhpjI7RvnLQA5MWW7NbmQCaQKqDz330fdB57k9HV7f9aBf2g
+anasW2fX5jjXJ21FNsLmxFAQKyDDCnJ2Y/lld+ZvoNtbtALTimrCWwxY/in6CcXR
+3NmAYzBHU5H46zSyTPPzW0wcJMC2FllLC9YKAaIkEK/cFSOVj8pejECEmxBYiXU9
+0CYiDIDtDnBrZ18BH7Z8WlMiIBTvyLM/+VEzUm6YuQExup+aklp1n3iOmqLvsEdQ
+2L2EtwKQWdk6Ao2z4a5ojVDyQ2U3Vd98P3Iaq5H2ExCoA69xgM3fcCo8KsXDFMWd
+bHK15qan3b04RIlIotXlYfNCebv8cru0a31fvL7LwRbCjr8i3vlWMq174/VLje6X
+iMghWGhBTgza/cSJL0glFnURXS7u8P+qT9sxR3Cd+ackZI4oCzozIZ71yJZ44hty
+ZKNYkZCZ8VUAgQ2Hek3wDpLytDM4UhuctRKiSOxLo3YuAVxJRvgNbyTHuL5K1YhR
+kJ/Ye6kaznEPJygVWZDS/Ettqj+E7johyHr10qx6dS96kKzIupa2AIN36hhPbQ6G
+Nwpt6XLoe0gSeYQqhTPGrL+AXcyxY99oLabU+ju/K2I0dncprj7w7/fPkbUlkdCd
+KlU0XM1ZxXSSMXU3zSTn+AFeU1Czo5k7ntD8rHMMAPsiVT1o3Gs=
+=N8iL
 -----END PGP SIGNATURE-----
 
---===============4550708105793745442==
+--===============7934017803360087493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f304d35e5995-0873fe44e780.txt
+Content-Disposition: attachment; filename=revlist-edb5faa7dcb8-fca14c356180.txt
 
-9b5387fe5af38116b452259d87cd66594b6277c1 scsi: hisi_sas: Undo RPM resume for failed notify phy event for v3 HW
-223b17ed76ebecba54f7857cd1a3205050d6257b scsi: ufs: qcom: Fix acquiring the optional reset control line
-c9ed9a6c56af4142ce0da240451c207d8171e451 scsi: ufs: qcom: Simplify handling of devm_phy_get()
-8eecddfca30e1651dc1c74531ed5eef21dcce7e3 scsi: ufs: qcom: Add a readl() to make sure ref_clk gets enabled
-23803bacaab47eafcd3a13ab607b5aa7b0debaaf scsi: ufs: core: Remove redundant wmb() in ufshcd_send_command()
-6f21d9274c779a6425bd5056005bc69b99c956a4 scsi: ufs: qcom: Enable RPM_AUTOSUSPEND for runtime PM
-facc239c87b1d66e7fdadade4fba07f9cecca7d6 scsi: ufs: ufshpb: Merge ufshpb_reset() and ufshpb_reset_host()
-6f341ed5e3771ea932b19377302ea97a0a02e0b5 scsi: ufs: ufshpb: Remove enum initialization value
-a3f3c26d4df5475e601f18250a94232fedfa24b8 scsi: ufs: ufshpb: Clean up the handler when device resets HPB information
-d4300c552bf8a64e7577ce17c973e51fc89dba7c scsi: ufs: ufshpb: Change sysfs node hpb_stats/rb_* prefix to start with rcmd_*
-32d6eab31ac3bc7fecdec86541fa1458a2eb18a9 scsi: ufs: ufshpb: Add handing of device reset regions in HPB device mode
-18ebe2390c6197738cbe67aa26acabe7815060bd scsi: ufs: ufshpb: Clean up ufshpb_suspend()/resume()
-84c6f99e39074d45f75986e42ca28e27c140fd0d scsi: lpfc: Fix element offset in __lpfc_sli_release_iocbq_s4()
-ba3d58a1df460ba28bb5989ad7269ff48682375a scsi: lpfc: Fill in missing ndlp kref puts in error paths
-b7e952cbc63c8b98a7433f294321c3b89850305c scsi: lpfc: Fix ndlp put following a LOGO completion
-ead76d4c09b89f4c8d632648026a476a5a34fde8 scsi: lpfc: Inhibit aborts if external loopback plug is inserted
-596fc8adb171dce3751a359018e2ade612af8d97 scsi: lpfc: Fix dmabuf ptr assignment in lpfc_ct_reject_event()
-4a0f4aff3ce5a3efdf674f3bc1ba7d2642fa55ea scsi: lpfc: Use list_for_each_entry_safe() in rscn_recovery_check()
-dc8a71bd414fb550fd17164440c409f9ecf4b2a8 scsi: lpfc: Decrement outstanding gidft_inp counter if lpfc_err_lost_link()
-5099478e436f0acd8c76495590c105668f2d8afc scsi: lpfc: Change VMID registration to be based on fabric parameters
-de3ec318fee32313092b609f88475f86e58f3fe5 scsi: lpfc: Rework FDMI initialization after link up
-e6f51041450282a8668af3a8fc5c7744e81a447c scsi: lpfc: Alter FPIN stat accounting logic
-a14396b6d139ff9335b4be25ba30ffa67cadd2e9 scsi: lpfc: Use sg_dma_address() and sg_dma_len() macros for NVMe I/O
-fcb9e738667c874cbff0b240b96a895901f09ee0 scsi: lpfc: Update lpfc version to 14.2.0.3
-1aa529d400253eda76733dbb95b62f6cca7b274a scsi: mpi3mr: Increase I/O timeout value to 60s
-2dd8389f96d6d00a24816888262e33a85d414c05 scsi: mpi3mr: Hidden drives not removed during soft reset
-256bd4f23d9cecaba2e6795f0058fa9c2362698c scsi: mpi3mr: Return I/Os to an unrecoverable HBA with DID_ERROR
-66cd9d4ef74ae1ad459e3db3a3280182275c2ce9 scsi: target: iscsi: Rename iscsi_cmd to iscsit_cmd
-be36d683fc29e74bbd29347717be72beb6a74219 scsi: target: iscsi: Rename iscsi_conn to iscsit_conn
-0873fe44e780eb8ff7932aed347de8dd4103cea7 scsi: target: iscsi: Rename iscsi_session to iscsit_session
+848b89778ed53e6c9f9e3ed01c90109ee970b3d1 scsi: fcoe: Add a local_lock to fcoe_percpu
+a912460efafea8ba763717b083347d5b33495bfa scsi: fcoe: Use per-CPU API to update per-CPU statistics
+a0548edf852a8776dade1e511694b2980c674e2a scsi: libfc: Remove get_cpu() semantics in fc_exch_em_alloc()
+20f8932f979e7377a625f6e711bd4e84ec025d0b scsi: bnx2fc: Avoid using get_cpu() in bnx2fc_cmd_alloc()
+a25eafd13e5f79d9bbada5a4a4a4224cc5f6d14c scsi: mpi3mr: Fix a NULL vs IS_ERR() bug in mpi3mr_bsg_init()
+aabd5fea49461c7b3a70d7aaa965e8cb3f19b7e7 scsi: ipr: Use kobj_to_dev()
+980a0e068d14ac82c78beb93c97e8e9a630367a3 scsi: nvme-fc: Add new routine nvme_fc_io_getuuid()
+e0063f4ad51c358e504b5550e419ed2ca6f67b4b scsi: lpfc: Commonize VMID code location
+88b44d9173115fb69a7aa0246b1b9fcc01fa53cc scsi: lpfc: Rework lpfc_vmid_get_appid() to be protocol independent
+aaff4f1867018202905b6e68d9901f88bf27efb9 scsi: lpfc: Add support for VMID tagging of NVMe I/Os
+ca40e73100409e3ffa519221699c4e68b83ca6de scsi: mpt3sas: Fix junk chars displayed while printing ChipName
+c98cc624f6dbc4b66e4697a2405626462c82b75d scsi: mpt3sas: Update driver version to 42.100.00.00
+57aa3236aca77d4e381ff0b6d528398cc2d351bf scsi: libsas: Refactor sas_ata_hard_reset()
+8c5c86295d4464be29637e2415eeeeeaa6c83f90 scsi: hisi_sas: Use sas_ata_wait_after_reset() in IT nexus reset
+89676aa27e3210dc8ceaf7f8f357fdb23c2a35c0 scsi: hisi_sas: Fix rescan after deleting a disk
+0eab5e6b07fbc1fb1f2c6436d2d2b396eb3ccb74 scsi: mpi3mr: Return error if dma_alloc_coherent() fails
+bdad1e3bfd597f64f9debbfedfe23d5d3584daae scsi: megaraid_sas: Remove redundant memset() statement
+e33eae0656c87dfefb05e3a3c073f82b188739c6 scsi: elx: efct: Remove redundant memset() statement
 
---===============4550708105793745442==--
+--===============7934017803360087493==--
