@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7934017803360087493=="
+Content-Type: multipart/mixed; boundary="===============6364537146563923635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 17 May 2022 02:16:32 -0000
-Message-Id: <165275379244.4319.11862766358230528378@gitolite.kernel.org>
+Date: Tue, 17 May 2022 02:16:43 -0000
+Message-Id: <165275380328.4462.8284148038091178987@gitolite.kernel.org>
 
---===============7934017803360087493==
+--===============6364537146563923635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: edb5faa7dcb86b960ab9b16f6739f55111154773
-    new: fca14c3561809958548a698751623dc9220bf871
-    log: revlist-edb5faa7dcb8-fca14c356180.txt
+  - ref: refs/heads/5.19/scsi-staging
+    old: 0873fe44e780eb8ff7932aed347de8dd4103cea7
+    new: e33eae0656c87dfefb05e3a3c073f82b188739c6
+    log: revlist-0873fe44e780-e33eae0656c8.txt
 
---===============7934017803360087493==
+--===============6364537146563923635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1652753784 -0400
+pusher 75C5DE3D 1652753795 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1652753783-0a5bc9e70fdca2a96439bc563af33a795939b364
+nonce 1652753795-683e48ff5f0270d55e2055b3f6fb46f12a663d78
 
-edb5faa7dcb86b960ab9b16f6739f55111154773 fca14c3561809958548a698751623dc9220bf871 refs/tags/mkp-scsi-staging
+0873fe44e780eb8ff7932aed347de8dd4103cea7 e33eae0656c87dfefb05e3a3c073f82b188739c6 refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKDBXgACgkQ7ulgGnXF
-3j00bQ//Zycf4UchJhpjI7RvnLQA5MWW7NbmQCaQKqDz330fdB57k9HV7f9aBf2g
-anasW2fX5jjXJ21FNsLmxFAQKyDDCnJ2Y/lld+ZvoNtbtALTimrCWwxY/in6CcXR
-3NmAYzBHU5H46zSyTPPzW0wcJMC2FllLC9YKAaIkEK/cFSOVj8pejECEmxBYiXU9
-0CYiDIDtDnBrZ18BH7Z8WlMiIBTvyLM/+VEzUm6YuQExup+aklp1n3iOmqLvsEdQ
-2L2EtwKQWdk6Ao2z4a5ojVDyQ2U3Vd98P3Iaq5H2ExCoA69xgM3fcCo8KsXDFMWd
-bHK15qan3b04RIlIotXlYfNCebv8cru0a31fvL7LwRbCjr8i3vlWMq174/VLje6X
-iMghWGhBTgza/cSJL0glFnURXS7u8P+qT9sxR3Cd+ackZI4oCzozIZ71yJZ44hty
-ZKNYkZCZ8VUAgQ2Hek3wDpLytDM4UhuctRKiSOxLo3YuAVxJRvgNbyTHuL5K1YhR
-kJ/Ye6kaznEPJygVWZDS/Ettqj+E7johyHr10qx6dS96kKzIupa2AIN36hhPbQ6G
-Nwpt6XLoe0gSeYQqhTPGrL+AXcyxY99oLabU+ju/K2I0dncprj7w7/fPkbUlkdCd
-KlU0XM1ZxXSSMXU3zSTn+AFeU1Czo5k7ntD8rHMMAPsiVT1o3Gs=
-=N8iL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKDBYMACgkQ7ulgGnXF
+3j2a7BAAgtuvVXPpGZ73b6j0bZZdo6yGm3xusRjBSZrTMQB01PV5CogP1eyWvjxJ
+BeHlZhZXo7IW7XDFAG9r3pOZo4URDB2P+gVMrBhe5E4d5/Ko+bZw+AGrtbOZw+Pt
+Pqf1DKGbygCbmgP3RDL3YFiEkBak4eFxWuvtBn8QEHhs50PzAx2tgtMSVCovyJ2h
+UJL7tprJImAUEgWm+waDDJ/utG/mTUZP7wtWbRiFvMVPL6gh5bStK2mCIUd94BEH
+vElXIar6rZlI4d8/kgN1i97WaIunfgGnqKnuogKjBGo9xwkGT8E7cWL10iCLxdzs
+jcSVM8md57OPW2QRhG3gJKtRn/VPV3AN05FFEfBbc65JAGT2Qdj5g4q1THjklqRx
+32iabpA7zGGcp2ojUnl2JL8tSDoc8iTBH2PcE9McYa7l+Q33xoRRcLBr5IT7nDKj
+XyTMgYawyh3T/BOfA4AnVfwkUuK3uTTkQHcSgVnnewQP1ArRDQVg+TKk/isNH5Jg
+ATl/3cXNKVgZLPeOXFf2ItQTK5d4tlM7/CNplzePffU9lRuXo+vmcu0s1E8fDJ4f
+ilufIe38pgm3sVW3fHCzcZFrUsyY45Y3TWXWWIGYFEXlKtQzYROJdXYTzBLT5mng
+0AWN1wKA+PtlrqQZ8IjtUuN9InPSGPvUG8hn5QgQzGWyd1oQFFs=
+=iSoL
 -----END PGP SIGNATURE-----
 
---===============7934017803360087493==
+--===============6364537146563923635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edb5faa7dcb8-fca14c356180.txt
+Content-Disposition: attachment; filename=revlist-0873fe44e780-e33eae0656c8.txt
 
 848b89778ed53e6c9f9e3ed01c90109ee970b3d1 scsi: fcoe: Add a local_lock to fcoe_percpu
 a912460efafea8ba763717b083347d5b33495bfa scsi: fcoe: Use per-CPU API to update per-CPU statistics
@@ -75,4 +75,4 @@ c98cc624f6dbc4b66e4697a2405626462c82b75d scsi: mpt3sas: Update driver version to
 bdad1e3bfd597f64f9debbfedfe23d5d3584daae scsi: megaraid_sas: Remove redundant memset() statement
 e33eae0656c87dfefb05e3a3c073f82b188739c6 scsi: elx: efct: Remove redundant memset() statement
 
---===============7934017803360087493==--
+--===============6364537146563923635==--
