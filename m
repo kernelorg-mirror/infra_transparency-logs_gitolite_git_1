@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/git/git
-Date: Tue, 17 May 2022 01:26:22 -0000
-Message-Id: <165275078222.3378.10030172575470700731@gitolite.kernel.org>
+Date: Tue, 17 May 2022 01:26:42 -0000
+Message-Id: <165275080279.3594.13707075067261028379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/git/git
 user: junio
 changes:
-  - ref: refs/heads/seen
-    old: 299ca833afd47cfbc2d3e0ece1aecda9eff8b35d
-    new: ee82bc97867ce90a0b36ca3e4fcc1a930f0eb8dd
+  - ref: refs/heads/todo
+    old: e630d22cf8b934d5608bc80d3897751204ae0a9a
+    new: a766380fae4b16cbfb5e2e2643aae6c1f2564cdd
     log: |
-         8a50571a0ea700fe2b9a3c7ef7ed2117c87ca9ba object-file: convert 'switch' back to 'if'
-         ee82bc97867ce90a0b36ca3e4fcc1a930f0eb8dd Merge branch 'ds/object-file-unpack-loose-header-fix' into seen
+         a766380fae4b16cbfb5e2e2643aae6c1f2564cdd What's cooking (2022/05 #05)
          
