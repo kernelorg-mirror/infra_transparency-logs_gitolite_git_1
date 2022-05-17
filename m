@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 17 May 2022 18:23:37 -0000
-Message-Id: <165281181708.8343.2883902914233966230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 17 May 2022 18:24:59 -0000
+Message-Id: <165281189994.8862.13977506847757399386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: ec716e9dc3ff9b9e1e6b43d9743f112bf13dad6d
-    new: 83db2bc2a5b765d85e1fdc56749cd06aecd788f7
+  - ref: refs/heads/for-next
+    old: a38f35eed910234561d77bfb22e4cebb7c8097fa
+    new: a593e0fd315b3a0d4b0d44111b2137ff7c5375c3
     log: |
-         85db177b69b0fa20849bfff205b83660bb269256 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
-         be0c0cd8b2b0e71c44b7888b2463c2d515bed4e9 Revert "net: openvswitch: remove unneeded semicolon"
-         1ee72d5b640a8c01c5337e381d50dd3cfd457443 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
-         cfe2215ccb9b7c7d2ee6f71724b674f4e74d8b86 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
-         83db2bc2a5b765d85e1fdc56749cd06aecd788f7 sfc: siena: Have a uniqe define for efx channels header
+         152555b39cebda84a02e2553fde3a5ab5c51e741 btrfs: send: avoid trashing the page cache
+         aa9ffadfcae33e611d8c2d476bcc2aa0d273b587 btrfs: zoned: fix comparison of alloc_offset vs meta_write_pointer
+         97bdf1a903c51bd773b5828af233f639957a92b7 btrfs: do not account twice for inode ref when reserving metadata units
+         d5321a0fa8bc49f11bea0b470800962c17d92d8f btrfs: add "0x" prefix for unsupported optional features
+         d8101a0c8a318d1c25f333f44523571806b3fb05 btrfs: allow defrag to convert inline extents to regular extents
+         0a05fafe9def0d9f0fbef3dfc8094925af9e3185 btrfs: zoned: introduce a minimal zone size 4M and reject mount
+         4c1879349363ed8c1c1c6e09cc5932df9acbf348 Merge branch 'misc-next' into for-next-next-v5.18-20220517
+         a593e0fd315b3a0d4b0d44111b2137ff7c5375c3 Merge branch 'for-next-next-v5.18-20220517' into for-next-20220517
          
