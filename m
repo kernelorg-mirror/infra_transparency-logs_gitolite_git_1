@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 17 May 2022 15:51:41 -0000
-Message-Id: <165280270153.4986.7555725843788522720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 17 May 2022 15:51:54 -0000
+Message-Id: <165280271462.5087.8965937025708044281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/edac-misc
-    old: 815fad6e4f9c7dcd3336b989d84ee02fd912d29e
-    new: 2edb9863e12566259503b2695d1c252c775b0ee7
+  - ref: refs/heads/buf-ring
+    old: f3718ab0b96b8b57592772dee925e03796215010
+    new: adfe074ad083d1c2c5efd6a65716736f6b8b2829
     log: |
-         2edb9863e12566259503b2695d1c252c775b0ee7 EDAC/i5100: Remove unused inline function i5100_nrecmema_dm_buf_id()
+         02f3b7f7b40976bc24bad725c1a5422139d86218 Add ring based registered buffers
+         6b212b74aa262d207bc3841195d81ddf3b8b74b8 test/send_recvmsg: add buffer ring test cases
+         c1141b61b8517282bed6f53d2efaa2e5c86bdb9c liburing.c: add buffer ring supply/commit helpers
+         adfe074ad083d1c2c5efd6a65716736f6b8b2829 test/send_recvmsg.c: use buffer ring helpers
          
