@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 May 2022 22:15:25 -0000
-Message-Id: <165282572587.1461.8397985433619150982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 17 May 2022 22:16:25 -0000
+Message-Id: <165282578594.1831.7909691004298743503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/objtool/core
-    old: a8e35fece49b16b20de000aab687ca075e4463af
-    new: 1d1a0e7c5100d332583e20b40aa8c0a8ed3d7849
+  - ref: refs/heads/rtc-next
+    old: 060eceb739e5b30db684666592c2a33d09426651
+    new: aabfe05a824585f64a0620f131841f12ee259a20
     log: |
-         f193c32cad2ddc79ad55a2e2fb3bc35e7d92946a objtool: Remove inat-tables.c when make clean
-         4bc78005887f6fca60b624822943708652fda01a objtool: Remove libsubcmd.a when make clean
-         21e350233b07619dbfc3ce606ff1fc468fce2d82 scripts: Create objdump-func helper script
-         1d1a0e7c5100d332583e20b40aa8c0a8ed3d7849 scripts/faddr2line: Fix overlapping text section failures
+         bb9b98071eacc5f195fe3e7cb0c7664df4cff60f dt-binding: pcf85063: Add an entry for pca85073a
+         aabfe05a824585f64a0620f131841f12ee259a20 rtc: pcf85063: Add a compatible entry for pca85073a
          
