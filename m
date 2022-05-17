@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3091263843604498892=="
+Content-Type: multipart/mixed; boundary="===============0040993454942240567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 17 May 2022 17:21:19 -0000
-Message-Id: <165280807968.32759.9482937295457685415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 17 May 2022 17:21:34 -0000
+Message-Id: <165280809400.460.15779425019279749810@gitolite.kernel.org>
 
---===============3091263843604498892==
+--===============0040993454942240567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: 37a86b32bf0e5c5ca23567d7b120306b9ac8497d
-    new: ec432e2a51412bde3d2d9fa785d3812f55ccd696
-    log: revlist-37a86b32bf0e-ec432e2a5141.txt
+  - ref: refs/heads/for-linus
+    old: 66cd7235717262dd50a33ff8ea6e96730423b60b
+    new: a681e9423ecf3dc6601e8233a76f37d3ea23580d
+    log: |
+         a681e9423ecf3dc6601e8233a76f37d3ea23580d Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 7ef871603928b9b80e6c9e55e2e63113b119d167
+    new: b33f104e416b498cc970ee65697901788a6fb2b9
+    log: revlist-7ef871603928-b33f104e416b.txt
 
---===============3091263843604498892==
+--===============0040993454942240567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1652808077 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1652808077-dbb4e7ed9622fd5371aa6c28ec10dd491b796d88
-
-37a86b32bf0e5c5ca23567d7b120306b9ac8497d ec432e2a51412bde3d2d9fa785d3812f55ccd696 refs/heads/asoc-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKD2Y0ACgkQJNaLcl1U
-h9CknAf/fnN/U0ru/5HU4E/LL3Fp0YL9JofhYdeG8LNqLtuSaQrqdwQ1Nm2uOQkL
-lZXSUnAyNeaYYfqiLMpY6cO2B88krfcmZyxPvE3GWQoS6zmuzGyAQj/6ZARb4Sam
-kuth8zGkJnxZEg+BB+hM2gNjurS1mIBHalKdyBFtcIjkti0K6nltPal8QT9UiuO/
-CrOQbwARRMPzWZjAeak7mAcDPZvMYe40Oxg8zntEROw7aRAOJjYrRd+Mvdjx40P4
-0FcnJYF9zhdbPmbKZrVt9jr4S+y28sm9MU5962l2fVYLGuqZaYCHxvZwkNCHTJF0
-2QhI2549eZmvyOYIqvqNagdQgwWVOw==
-=B58P
------END PGP SIGNATURE-----
-
---===============3091263843604498892==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37a86b32bf0e-ec432e2a5141.txt
+Content-Disposition: attachment; filename=revlist-7ef871603928-b33f104e416b.txt
 
 81a299105d69344233e6aed8565522da9beec99e ASoC: Intel: avs: Account for libraries when booting basefw
 f1b3b320bd6519b16e3480f74f2926d106e3bcba ASoC: Intel: avs: Generic soc component driver
@@ -67,5 +48,7 @@ cfbc100e6bbfd01a56bb83fe796318a02dc18ce4 ASoC: Intel: avs: Power management
 b3e29075b2346564f1bef7f8e19a1a7fcbcf7ed8 ASoC: Intel: avs: SKL-based platforms support
 c8c960c109716d96cfd1de65396fb8021eed4202 ASoC: Intel: avs: APL-based platforms support
 ec432e2a51412bde3d2d9fa785d3812f55ccd696 ASoC: Intel: avs: Driver core and PCM operations
+a681e9423ecf3dc6601e8233a76f37d3ea23580d Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+b33f104e416b498cc970ee65697901788a6fb2b9 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
 
---===============3091263843604498892==--
+--===============0040993454942240567==--
