@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3910807953006956108=="
+Content-Type: multipart/mixed; boundary="===============6301563844252441228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 17 May 2022 09:05:43 -0000
-Message-Id: <165277834343.16615.13291654850996144419@gitolite.kernel.org>
+Date: Tue, 17 May 2022 09:07:08 -0000
+Message-Id: <165277842886.17085.17151245438052948717@gitolite.kernel.org>
 
---===============3910807953006956108==
+--===============6301563844252441228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 2eac8cc37c71810e19280a722bd994480ab6c93f
-    new: 015effbfc7076666ff9bb9c1b7afbb2b58255954
-    log: revlist-2eac8cc37c71-015effbfc707.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: ba851b77071ca2f6d6a35b5758aa276c8af6306d
+    new: 7ddc709c5083334dc899a0e4d8510e3c5d93c8b3
+    log: revlist-ba851b77071c-7ddc709c5083.txt
 
---===============3910807953006956108==
+--===============6301563844252441228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eac8cc37c71-015effbfc707.txt
+Content-Disposition: attachment; filename=revlist-ba851b77071c-7ddc709c5083.txt
 
 e2db5bb14d72a3583b647603d93309a35b72a0f1 arm64: Add helper to decode register from instruction
 743390f00a4a0eeaa819f543d2e25f1a1aa3947a USB: serial: pl2303: add IBM device IDs
@@ -189,5 +189,6 @@ c87aaec4fdae5fbe8eb6cfa1ae7a658a425f94f5 ARM: davinci: da850-evm: Avoid NULL poi
 932188b6167d7b925f87ef5e458d1364de927d3a smp: Fix offline cpu check in flush_smp_call_function_queue()
 3ecb8c3d68edc55fdbbee61083bf71bfff941739 i2c: pasemi: Wait for write xfers to finish
 015effbfc7076666ff9bb9c1b7afbb2b58255954 Merge changes from 4.9.311.
+7ddc709c5083334dc899a0e4d8510e3c5d93c8b3 Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
 
---===============3910807953006956108==--
+--===============6301563844252441228==--
