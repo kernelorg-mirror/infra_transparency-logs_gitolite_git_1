@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 17 May 2022 01:26:42 -0000
-Message-Id: <165275080279.3594.13707075067261028379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 17 May 2022 01:50:03 -0000
+Message-Id: <165275220307.19497.12340330386392204499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/todo
-    old: e630d22cf8b934d5608bc80d3897751204ae0a9a
-    new: a766380fae4b16cbfb5e2e2643aae6c1f2564cdd
+  - ref: refs/heads/master
+    old: 0cdd776ec92c0fec768c7079331804d3e52d4b27
+    new: 42226c989789d8da4af1de0c31070c96726d990c
     log: |
-         a766380fae4b16cbfb5e2e2643aae6c1f2564cdd What's cooking (2022/05 #05)
+         42226c989789d8da4af1de0c31070c96726d990c Linux 5.18-rc7
          
