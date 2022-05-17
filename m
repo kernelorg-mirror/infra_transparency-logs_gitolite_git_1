@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 17 May 2022 00:16:54 -0000
-Message-Id: <165274661427.18202.7968533248394206359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 17 May 2022 00:45:28 -0000
+Message-Id: <165274832814.4483.13629972017090515516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/seen
-    old: 092848a6c4c9dcd50fc2e4359642e00064f6b1b3
-    new: 299ca833afd47cfbc2d3e0ece1aecda9eff8b35d
+  - ref: refs/heads/tmp.perf/core
+    old: c5468a28efde5978644f1a7eef67780abcd16340
+    new: df36d2572e0515dc190459489c159b78bb3a21fc
     log: |
-         95cc523d149b34571b49f90488062bc819a20326 fetch: do not run a redundant fetch from submodule
-         299ca833afd47cfbc2d3e0ece1aecda9eff8b35d Merge branch 'jc/avoid-redundant-submodule-fetch' into seen
+         df36d2572e0515dc190459489c159b78bb3a21fc perf bench breakpoint: Fix build on 32-bit arches
          
