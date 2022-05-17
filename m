@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7554224910010149544=="
+Content-Type: multipart/mixed; boundary="===============6752213715501777176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 17 May 2022 19:59:49 -0000
-Message-Id: <165281758975.6604.5466327135164991978@gitolite.kernel.org>
+Date: Tue, 17 May 2022 19:59:59 -0000
+Message-Id: <165281759914.6742.6599525138606921339@gitolite.kernel.org>
 
---===============7554224910010149544==
+--===============6752213715501777176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: d887ae3247e022183f244cb325dca1dfbd0a9ed0
-    new: 65a9dedc11d615d8f104a48d38b4fa226967b4ed
-    log: revlist-d887ae3247e0-65a9dedc11d6.txt
+  - ref: refs/heads/mlx5-queue
+    old: f8941582dd51bcea974a62b985a686382684a269
+    new: 007d435ee057c4814346e647b033795cc9566fc2
+    log: revlist-f8941582dd51-007d435ee057.txt
 
---===============7554224910010149544==
+--===============6752213715501777176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d887ae3247e0-65a9dedc11d6.txt
+Content-Disposition: attachment; filename=revlist-f8941582dd51-007d435ee057.txt
 
 f2ef6f7539c68c6bd6c32323d8845ee102b7c450 net: phy: micrel: Allow probing without .driver_data
 8e6004dfecb7bab0d8945989917fbcae5d3b50bd net: phy: micrel: Use the kszphy probe/suspend/resume
@@ -54,5 +54,26 @@ a968c799eb1da3e27fc107cfdc228bf87ff27e22 ax25: merge repeat codes in ax25_dev_de
 bd81bfb5a1d1aa811ccb370aa5d118d0f87877bc net: vxge: Remove unnecessary synchronize_irq() before free_irq()
 d1e7f009bfff8b739599c7ff89fb794ef6d4a44d net: qede: Remove unnecessary synchronize_irq() before free_irq()
 65a9dedc11d615d8f104a48d38b4fa226967b4ed net: phy: marvell: Add errata section 5.1 for Alaska PHY
+85db177b69b0fa20849bfff205b83660bb269256 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+be0c0cd8b2b0e71c44b7888b2463c2d515bed4e9 Revert "net: openvswitch: remove unneeded semicolon"
+1ee72d5b640a8c01c5337e381d50dd3cfd457443 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+cfe2215ccb9b7c7d2ee6f71724b674f4e74d8b86 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
+83db2bc2a5b765d85e1fdc56749cd06aecd788f7 sfc: siena: Have a uniqe define for efx channels header
+ee96122c0fa46e82c8679d4cbfaac939620001d1 net: Disable LRO feature if no RXCSUM
+ca3e6c456bb8585c962fceb38e0f51d0dbc7e19b net/mlx5: Add bits and fields to support enhanced CQE compression
+b36732475e56e61a807ed30d098fd8b47f5d7593 net/mlx5e: Support enhanced CQE compression
+0f4545faf932434e9c57159d2d45252c5ba39261 net/mlx5e: Correct the calculation of max channels for rep
+3a05fc9158ee1704d8667ac66140ae72cf5242e3 net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
+8f6734df3073a36104d2b95c1709bec9874e5a0b net/mlx5: Inline db alloc API function
+30ac3bd6acffdacb840737dbefb931769d43d30f net/mlx5: Allocate virtually contiguous memory in vport.c
+a49d7faa015fb3f65934f8be1c13dae3a8c77d79 net/mlx5: Allocate virtually contiguous memory in pci_irq.c
+08cb6bbabe387e663dbe970c5c9f8b2a5024e542 net/mlx5e: Allocate virtually contiguous memory for VLANs list
+8b225494868db8ab0cf90a15ceeb7afc42a4e24c net/mlx5e: Allocate virtually contiguous memory for reps structures
+eb9bf3fc36fd7b84ef9ed3e987383593fb39515e Merge branch 'patchq/323390' into mlx5-queue
+b9ddf204ca45b567745f358f0e7dde309bf97f71 Merge branch 'patchq/500380' into mlx5-queue
+ff4bc49d7bf1adfe7ba9bd95b83107e7917a8b19 net/mlx5e: Add XDP SQs to uplink representors steering tables
+fa8055dc24fc8cd510a69e8dbd0f6eb68e7f1689 Merge branch 'patchq/495559' into mlx5-queue
+808fcb28b2744a34a019ef3aaa32a0a0cce4c066 Merge branch 'patchq/393607' into mlx5-queue
+007d435ee057c4814346e647b033795cc9566fc2 Merge branch 'patchq/484475' into mlx5-queue
 
---===============7554224910010149544==--
+--===============6752213715501777176==--
