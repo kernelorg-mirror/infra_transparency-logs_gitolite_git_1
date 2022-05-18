@@ -1,27 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Wed, 18 May 2022 14:57:44 -0000
-Message-Id: <165288586485.27432.3235099859442354870@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0125443473474257887=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 18 May 2022 15:08:54 -0000
+Message-Id: <165288653472.1434.6429354714249243502@gitolite.kernel.org>
+
+--===============0125443473474257887==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/master
-    old: 624b9fbe1905cd8b951de472758366acbd85aba5
-    new: ba6988dab62ed8797ceeed947525f0a680d419ef
-    log: |
-         5bc883ed85ab7d10a2a2c5910b1c3f1cea016787 test-appliance: update xfs and overlay excludes
-         95d9604490018af7d1e2d58ce5d4a8cb0e63bf70 test-appliance: make ltm/kcs server image default to xfstests-cloud
-         d396dac653c99e46e4234d9600c6e2b0de433fdd test-appliance: remove convenience fstab entries
-         32a9024484b0eaa54f6b42aeb617359eb084b4a3 kernel-configs: fix kernel configs for 5.16+ to build with debug info
-         97ebd2eab024a046762caccd8507d73feefe4229 install-kconfig: teach install-kconfig a new option --full-debug-info
-         f3e365958c08aea9042ca29244ecda8ec3fc1514 test-appliance: install drgn into the kvm and gce test appliance
-         d0bdd40fe38690a3735ed93ae5e94d1d937df4c8 increase ltm size
-         8c24b71dc3be090647133bffad09e0307e0e0674 gce-xfstests: allow setting ltm/kcs machine type in config
-         ba6988dab62ed8797ceeed947525f0a680d419ef Merge remote-tracking branch 'leah/master'
-         
+    old: edf410cb74dc612fd47ef5be319c5a0bcd6e6ccd
+    new: 6fd45e79e8b93b8d22fb8fe22c32fbad7e9190bd
+    log: revlist-edf410cb74dc-6fd45e79e8b9.txt
+
+--===============0125443473474257887==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-edf410cb74dc-6fd45e79e8b9.txt
+
+e6175a2ed1f18bf2f649625bf725e07adcfa6a28 xfrm: fix "disable_policy" flag use when arriving from different devices
+4503cc7fdf9a84cd631b0cb8ecb3c9b1bdbf3594 ice: fix crash when writing timestamp on RX rings
+31b6298fd8e29effe9ed6b77351ac5969be56ce0 ice: fix possible under reporting of ethtool Tx and Rx statistics
+bf13502ed5f941b0777b3fd1e24dac5d93f3886c ice: Fix interrupt moderation settings getting cleared
+5361448e45fac6fb96738df748229432a62d78b6 net/qla3xxx: Fix a test in ql_reset_work()
+23dd4581350d4ffa23d58976ec46408f8f4c1e16 NFC: nci: fix sleep in atomic context bugs caused by nci_skb_alloc
+2c5fc6cd269ad3476da99dad02521d2af4a8e906 net/mlx5: DR, Fix missing flow_source when creating multi-destination FW table
+b33886971dbc4a86d1ec5369a2aaefc60a7cd72d net/mlx5: Initialize flow steering during driver probe
+785d7ed295513bd3374095304b7034fd65c123b0 net/mlx5: DR, Ignore modify TTL on RX if device doesn't support it
+379169740b0a955972cebb4994b2607b264a4b41 net/mlx5e: Wrap mlx5e_trap_napi_poll into rcu_read_lock
+15a5078cab30d7aa02ad14bfadebf247d95fc239 net/mlx5e: Block rx-gro-hw feature in switchdev mode
+cf6e34c8c22fba66bd21244b95ea47e235f68974 net/mlx5e: Properly block LRO when XDP is enabled
+b0617e7b35001c92c8fa777e1a095d3e693813df net/mlx5e: Properly block HW GRO when XDP is enabled
+6bbd723035badafe4a8eb17ccdecd96eae7a96d5 net/mlx5e: Remove HW-GRO from reported features
+8e1dcf499a67c494aafff00f25d88320dfec0af3 net/mlx5e: CT: Fix support for GRE tuples
+04c551bad3713661ac85902163b3a567864c9a7c net/mlx5e: CT: Fix setting flow_source for smfs ct tuples
+16d42d313350946f4b9a8b74a13c99f0461a6572 net/mlx5: Drain fw_reset when removing device
+4dc2a5a8f6754492180741facf2a8787f2c415d7 net: af_key: add check for pfkey_broadcast in function pfkey_process
+015c44d7bff3f44d569716117becd570c179ca32 net: af_key: check encryption module availability consistency
+765d12160014613dec0a35f5b8f3134499699a55 Merge tag 'mlx5-fixes-2022-05-17' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+089403a3f7d6132e6b8c699510ff66ae29149975 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+680b892685ea7043addb5819ddec9147d4263195 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+ba2c89e0ea74a904d5231643245753d77422e7f5 mptcp: fix checksum byte order
+ae66fb2ba6c3dcaf8b9612b65aa949a1a4bed150 mptcp: Do TCP fallback on early DSS checksum failure
+575fb4fb02b391ed60e5b041acda136f78e7779c Merge branch 'mptcp-checksums'
+b8cedb7093b2d1394cae9b86494cba4b62d3a30a nfc: pn533: Fix buggy cleanup order
+942d2ad5d2e0df758a645ddfadffde2795322728 igb: skip phy status check where unavailable
+6fd45e79e8b93b8d22fb8fe22c32fbad7e9190bd net: ftgmac100: Disable hardware checksum on AST2600
+
+--===============0125443473474257887==--
