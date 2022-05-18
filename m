@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 May 2022 02:27:08 -0000
-Message-Id: <165284082854.8477.308188284171664586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Wed, 18 May 2022 02:29:38 -0000
+Message-Id: <165284097888.9343.8809908914353299348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 9cc341286e99a268e63efc6e937d4c467bcf386c
-    new: 6e144b47f560edc25744498f360835b1042b73dd
+    old: 60d3fab7ef151f02110786f64633d70e0a0f8f14
+    new: 3abbc30282882f61615133478994ec00caea8749
     log: |
-         6e144b47f560edc25744498f360835b1042b73dd octeontx2-pf: Add support for adaptive interrupt coalescing
+         3d752130aa1ca14fa0adcd2bf7cef214dcf76045 selftests: remove tc-testing from targets
+         3abbc30282882f61615133478994ec00caea8749 selftests/sgx: add test_encl.elf to TEST_GEN_FILES
          
