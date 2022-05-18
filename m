@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7208256863387190899=="
+Content-Type: multipart/mixed; boundary="===============1066175361164443400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 18 May 2022 07:57:21 -0000
-Message-Id: <165286064159.15061.12706735420718350737@gitolite.kernel.org>
+Date: Wed, 18 May 2022 07:58:09 -0000
+Message-Id: <165286068991.15385.3228381262907734579@gitolite.kernel.org>
 
---===============7208256863387190899==
+--===============1066175361164443400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.4.y-cip
-    old: 7ddc709c5083334dc899a0e4d8510e3c5d93c8b3
-    new: 52de9431d314a28c4aa66d8f81144c9958c11168
-    log: revlist-7ddc709c5083-52de9431d314.txt
+  - ref: refs/heads/linux-4.4.y-st
+    old: 015effbfc7076666ff9bb9c1b7afbb2b58255954
+    new: 5cd6adc62818c613bef3fdcf48d5c1473e617e9f
+    log: revlist-015effbfc707-5cd6adc62818.txt
 
---===============7208256863387190899==
+--===============1066175361164443400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ddc709c5083-52de9431d314.txt
+Content-Disposition: attachment; filename=revlist-015effbfc707-5cd6adc62818.txt
 
 da8d8d3c16e2a105342f93f46c3ab3fc077094c5 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
 9416f9d68705681614b826da6055ae35a2c4aa6f mm: page_alloc: fix building error on -Werror=array-compare
@@ -107,6 +107,5 @@ abe8435e37265f17f526e589487028eaf133cb10 can: grcan: only use the NAPI poll budg
 0ea5f03df1232dbf8f5fa8cbaf8f614a5e90f80a mmc: rtsx: add 74 Clocks in power on flow
 9748473ee6bed1d61ddc2ba7ab83c5f54dc9f8e9 mm: userfaultfd: fix missing cache flush in mcopy_atomic_pte() and __mcopy_atomic()
 5cd6adc62818c613bef3fdcf48d5c1473e617e9f Merge changes from 4.9.314.
-52de9431d314a28c4aa66d8f81144c9958c11168 Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
 
---===============7208256863387190899==--
+--===============1066175361164443400==--
