@@ -1,55 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6690959868111307814=="
+Content-Type: multipart/mixed; boundary="===============4257821177931474272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 18 May 2022 19:03:30 -0000
-Message-Id: <165290061078.25011.4956190117009644634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Wed, 18 May 2022 19:34:57 -0000
+Message-Id: <165290249751.12423.12866116202367008518@gitolite.kernel.org>
 
---===============6690959868111307814==
+--===============4257821177931474272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: c0ba9ef9d454d6189164b92bbfdb12f6691e880c
-    new: bd714c557a183181228aa3046f94aa895ba96680
-    log: revlist-c0ba9ef9d454-bd714c557a18.txt
+  - ref: refs/heads/pending-5.10
+    old: 3a74fa02022ba25f2c891fee5326b0b21ac58af5
+    new: a2d0c3b6bebbb91430383d743243df4a6e5b51ad
+    log: revlist-3a74fa02022b-a2d0c3b6bebb.txt
 
---===============6690959868111307814==
+--===============4257821177931474272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0ba9ef9d454-bd714c557a18.txt
+Content-Disposition: attachment; filename=revlist-3a74fa02022b-a2d0c3b6bebb.txt
 
-2142c27ef06bf8f9c0bd784395ea5aa1924cad49 dt-bindings: devfreq: rk3399_dmc: Convert to YAML
-76d136b56fc13d12f9b0d68b9a626dfaf8e2b7ae dt-bindings: devfreq: rk3399_dmc: Deprecate unused/redundant properties
-4de8fd02a55f2b00fe952cdfb2757968827f3c0e dt-bindings: devfreq: rk3399_dmc: Fix Hz units
-77c188085b466434b2180ffe917a60ed442c8739 dt-bindings: devfreq: rk3399_dmc: Specify idle params in nanoseconds
-a86fb6a9a21d20aa643448d742da4eec065091f7 dt-bindings: devfreq: rk3399_dmc: Add more disable-freq properties
-5f50c52f13f12d63699feaae54ee2b1e4aee5a86 PM / devfreq: rk3399_dmc: Drop undocumented ondemand DT props
-b82acf8215c40fcb7d29e34aab17c51df58c4f40 PM / devfreq: rk3399_dmc: Drop excess timing properties
-a5ca18540dab8f9477883ad9365d33a88abca958 PM / devfreq: rk3399_dmc: Use bitfield macro definitions for ODT_PD
-e442172191782d2488c5543b5a43f22f912ed9b5 PM / devfreq: rk3399_dmc: Support new disable-freq properties
-fd5b8479ef7e6a6cf1cf83ed62349c11b3864f12 PM / devfreq: rk3399_dmc: Support new *-ns properties
-2fccf9e6050e0e3b8b4cd275d41daf7f7fa22804 PM / devfreq: rk3399_dmc: Disable edev on remove()
-cb178a9585946d5f2691d784640038edd4111cd1 PM / devfreq: rk3399_dmc: Use devm_pm_opp_of_add_table()
-5d521a307526871f5613d24a8e71babf1869c486 PM / devfreq: rk3399_dmc: Avoid static (reused) profile
-defec178df76e0caadd4e8ef68f3d655a2088198 soc: rockchip: power-domain: Manage resource conflicts with firmware
-2e691421a2c9e0462175fe98171afa632861b199 PM / devfreq: rk3399_dmc: Block PMU during transitions
-713472e53e6e53c985e283782b0fd76b8ecfd47e PM / devfreq: Export devfreq_get_freq_range symbol within devfreq
-a03dacb0316f74400846aaf144d6c73f4217ca08 PM / devfreq: Add cpu based scaling support to passive governor
-05723e71234b60a1a47313ea1a889797ec648f1c PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
-26984d9d581e5049bd75091d2e789b9cc3ea12e0 PM / devfreq: passive: Keep cpufreq_policy for possible cpus
-f125bdbdd6bd4a88f3697e5850359d3ffe43a3f2 powercap: intel_rapl: add support for ALDERLAKE_N
-b82955fed3ca6eb73fbe6816334a98e83268c80f Merge branch 'powercap' into bleeding-edge
-5a66bfb27748d4fd284997dea060c76cdc245375 thermal: intel: hfi: remove NULL check after container_of() call
-900b676e77d94afebf8fe11884725047c6366a8e Merge branch 'thermal-hfi' into bleeding-edge
-d44d6c4a3a5d79410fa2003f0b2e3e773978927f Merge tag 'devfreq-next-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-bd714c557a183181228aa3046f94aa895ba96680 Merge branch 'pm-devfreq' into bleeding-edge
+ac6413b64f1a56c41b3a973ae51f42c40648cf86 Input: add bounds checking to input_set_capability()
+cca3c6f3495f1266764d373f039ea07dd0849065 Input: stmfts - fix reference leak in stmfts_input_open
+afa26fe3cdaefc45cdcb0f599f8e4e2947f4e0d4 nvme-pci: add quirks for Samsung X5 SSDs
+ea170dbb6b692eee1789c9c87c24fe692389abac gfs2: Disable page faults during lockless buffered reads
+613fe64e1f372f6e6f30ae555db9217df7d35885 rtc: sun6i: Fix time overflow handling
+c1995af75be6004c942878f8cd46632288888dc7 crypto: stm32 - fix reference leak in stm32_crc_remove
+d94efe0f58221a38a4d0b72e1424e3cbb051e1bb crypto: x86/chacha20 - Avoid spurious jumps to other functions
+2d60e49185c4fee755444cf00b3d80abe85cc310 ALSA: hda/realtek: Enable headset mic on Lenovo P360
+91ed229f739a3c423a803023fe1a40abe8e710fe s390/pci: improve zpci_dev reference counting
+2b6cfe610b44db919770aa8124e06aff04ae5030 vhost_vdpa: don't setup irq offloading when irq_num < 0
+60a9c9fdd9f6aac0fe59486c093b798d2f51fbab tools/virtio: compile with -pthread
+128e7c2d68834d9c15740b87fc3fad29bfe5e2f8 nvme-multipath: fix hang when disk goes live over reconnect
+6070303469715b9b5b7ccdbc4026b8993efa3517 rtc: mc146818-lib: Fix the AltCentury for AMD platforms
+7ce1b03fbfa62483bc24ffdce546362a2c5dd13c fs: fix an infinite loop in iomap_fiemap
+deaf8cd36a0b807a1486e64f810a05f23754c5cd MIPS: lantiq: check the return value of kzalloc()
+851707d447e1397dde1d86dad514a93adde850f5 drbd: remove usage of list iterator variable after loop
+3c075123cb0e75d413597145be95ddc9921d11bc platform/chrome: cros_ec_debugfs: detach log reader wq from devm
+d6454c182e2f4a5e6f8a7474edcf433ae52246cc ARM: 9191/1: arm/stacktrace, kasan: Silence KASAN warnings in unwind_frame()
+e66d74204f11436bd4e103f11ef687c478fdd5bf nilfs2: fix lockdep warnings in page operations for btree nodes
+705799957b8aed77b114d90d2a09392a457ae485 nilfs2: fix lockdep warnings during disk space reclamation
+6456d476c5ce2eb14483cbcdbb99532c1328ffe1 Revert "swiotlb: fix info leak with DMA_FROM_DEVICE"
+a2d0c3b6bebbb91430383d743243df4a6e5b51ad Reinstate some of "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
 
---===============6690959868111307814==--
+--===============4257821177931474272==--
