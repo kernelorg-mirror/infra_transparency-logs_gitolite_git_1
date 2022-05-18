@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 May 2022 00:39:41 -0000
-Message-Id: <165283438118.28196.3217523564985306472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 18 May 2022 00:41:59 -0000
+Message-Id: <165283451907.30564.11967691472473929514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 68a0bd6790495b8a65c68279f041cbb16e87ca42
-    new: 76e1e5df4b7cb8a87ca8b0242aabf06c8dc0d09d
+  - ref: refs/heads/dev
+    old: a34d489b539f64f8e50672c1fa67b0ab0f93a054
+    new: 69cceddab0d8a060e2d29436163b01783773627d
     log: |
-         76e1e5df4b7cb8a87ca8b0242aabf06c8dc0d09d octeontx2-pf: Use memset_startat() helper in otx2_stop()
+         69cceddab0d8a060e2d29436163b01783773627d rcu-tasks: Avoid rcu_tasks_trace_pertask() duplicate list additions
          
