@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6856390828402955643=="
+Content-Type: multipart/mixed; boundary="===============6091963706366437014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Wed, 18 May 2022 13:34:48 -0000
-Message-Id: <165288088827.5080.10120202271377469370@gitolite.kernel.org>
+Date: Wed, 18 May 2022 13:36:32 -0000
+Message-Id: <165288099241.7075.16922958105065348163@gitolite.kernel.org>
 
---===============6856390828402955643==
+--===============6091963706366437014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/spdx-linus
-    old: 67924b71412cd965e0d1c55c0cddb0014c8a725b
-    new: 0509b270a358fa563946368418f8e832d9b63452
+    old: 0509b270a358fa563946368418f8e832d9b63452
+    new: e0208351383c19e62f5f04209ce4ecf24db64eaf
     log: |
-         0509b270a358fa563946368418f8e832d9b63452 scripts/spdxcheck: Put excluded files and directories into a separate file
+         2fb977133684bb74d301bd86a9bb1bd2762362fc scripts/spdxcheck: Exclude config directories
+         2ab99ce9780d3c3505db4b83669869627010307e scripts/spdxcheck: Exclude MAINTAINERS/CREDITS
+         e0208351383c19e62f5f04209ce4ecf24db64eaf scripts/spdxcheck: Exclude top-level README
          
 
---===============6856390828402955643==
+--===============6091963706366437014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652880886 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652880990 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1652880885-28e63d134e6b4bb55d521fe1e23b6d0658a07b0a
+nonce 1652880989-f3ddc6e6c601be3d76ff4b2d98aad229bfd7cbd7
 
-67924b71412cd965e0d1c55c0cddb0014c8a725b 0509b270a358fa563946368418f8e832d9b63452 refs/heads/spdx-linus
+0509b270a358fa563946368418f8e832d9b63452 e0208351383c19e62f5f04209ce4ecf24db64eaf refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKE9fYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kMQQAI+Ws7piZAykpGrP9dSi
-6QKc1DzVmEEsuF8/eiO9uLnWD/LJmkNk7vbkusIQXKxm5/qAwlCgDAyIa7zrSKHy
-rW8oXbXWbbR3xVhqDNM6D15MGs/ks6qI+20glo95N7ApHYZ2zd0pZAqFUrklmCI8
-4nBtUHQ5qtHaqFtGCgtcx0yjqb4b3qnjAnJ2LkfFfKPHknrBOcbY1fAH5zUIEYPm
-B0efePiOw1CzyssHn+TNvg7hBI2ghzgOLlKq1uO9APxOMXuJe+uSIJ6avlaD35Cy
-dLgIThlBjYY4pXaWsChEb0/DUe9JqWe/uhImU3BgmY6GcArDR+Jr3hpil9iTRWK/
-tHGM5qdI2n7WRPeLlb/oFwl3XVCwJFtINRnK66vTLbfdeuU+fB/RTuPlonkD5uHI
-lStx3FunXbAl57Wbzk9Qyur4Ept3mjOyMrMuVkdfMLmBDBz+M2ylnd7ilIdDFjJa
-E46TJSu3ubGlf3oIBg0Lwe2XDtv9OPiOduR/300RpAYb0/EWx62VciLRHFIjtB6x
-1luLPTcTG7bVxh6hHqQZ/aOI7SOjqCUzHHmmUBcqScUzhRzesKgiFUvz32gvjCAk
-clDnKGpqErRK4ANrl4+Ow1cIrhk5RP19rKdg7TfQcEGPaAtne2RV33UTClIJJBDl
-LNGVsDaAp7f6JbTrKmapYfvS
-=pxO9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKE9l4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zCoP/3rKFTSOYqWvxTuMFJ3u
+t4UfhS4lM1ZGyMMqR7zs3qNi/dseKfYFpDlC8NMNEE2RRFqep/qTzupi0F+XRhT6
+QS6yF2jLFvEH8Q7ikQv/zRHQJiMrj6ADzJBZYPQzJWFawPCsJiJy4ifoK8GG23ko
+rpnckPb09BNf1GC+Fwi5weLiQSKqLX33FDfwcHzXT+tiezV/5+axfOgKiiinU8WB
+A0dfU88+l2KaJXjwzlAMFplLaw2HMyIWGy8fgoQctTf5nYogFiydeoq0GfH9qz8n
+yzY57djwgXFl1hVtqstlMY2cjC9f51rE05m2Wh1lZAaalWuN2xD3qOl1M17cYs6m
+HWqko6gRbcCqM9mp1ehiD/SJuFOx5PdL8Eb7RELX8zZkWXkBM/bZasXK5LXKSzbf
+JDqTMaX6CRRq8TuTQ+bcXsaWExQpHZvn7zEfNapqBdsP7MTm0t51rb1plS0SplkZ
+bGNkq3z/F3zoCN56gllVA0Qiq7TRFPI6nbGw53XlCS2bMC82rPeQRQ9c6ZNfCyPP
+szn/ECJhtHH2KmFkxtZ69U3gAAPCd4KSlAah/pGrizdGBceM/S2/0j5wPkqiWwl5
+NhYY9Ux56O9lv0ISkTzVMBWsxQ0v3su8Rm2Qs2WLh1jcXFMkJ1WJFqTj/xpy0+Wc
+mC2wojFUTKicMG7SraTBjrJX
+=EBbG
 -----END PGP SIGNATURE-----
 
---===============6856390828402955643==--
+--===============6091963706366437014==--
