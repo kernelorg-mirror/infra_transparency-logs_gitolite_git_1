@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3758652214079551599=="
+Content-Type: multipart/mixed; boundary="===============7041136338276628383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Wed, 18 May 2022 13:31:57 -0000
-Message-Id: <165288071769.4069.14226928941314061176@gitolite.kernel.org>
+Date: Wed, 18 May 2022 13:32:51 -0000
+Message-Id: <165288077171.4399.1668997730311280286@gitolite.kernel.org>
 
---===============3758652214079551599==
+--===============7041136338276628383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/spdx-linus
-    old: a377ce75e4916da5dbb84672218a7e61e51da3ce
-    new: 0e7f030687efb7a6f8dddd0e967ca4377aee3001
+    old: 0e7f030687efb7a6f8dddd0e967ca4377aee3001
+    new: 67924b71412cd965e0d1c55c0cddb0014c8a725b
     log: |
-         0e7f030687efb7a6f8dddd0e967ca4377aee3001 scripts/spdxcheck: Add [sub]directory statistics
+         67924b71412cd965e0d1c55c0cddb0014c8a725b scripts/spdxcheck: Add option to display files without SPDX
          
 
---===============3758652214079551599==
+--===============7041136338276628383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652880715 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652880769 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1652880714-7e4e9410641145de7b7a0d1e44565359208097cf
+nonce 1652880768-d02c914b0dbf05391efff00e18e79a95f8ff9490
 
-a377ce75e4916da5dbb84672218a7e61e51da3ce 0e7f030687efb7a6f8dddd0e967ca4377aee3001 refs/heads/spdx-linus
+0e7f030687efb7a6f8dddd0e967ca4377aee3001 67924b71412cd965e0d1c55c0cddb0014c8a725b refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKE9UsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E3QP/0ZXI2zwIDpJe1Sdd9WH
-R3/jVJiz5vzHAeq18S6cL2Xh5uGh1wpfvSgNoyofCfuJx64BG2K2pjlaN8cJvDMw
-npF9TA16SikR09N0QAwm7Hd768grwAKGpDD9uYKe6rcAkD9jyyvE5r/DC7reeBSf
-GizxFZ4LOltpdbr6Cl89DPoYx2PQDkmYhm9B4bilvh0I69vNHAswiYl86iYWys6W
-P7izYAf6N9EGLvY6351BfV6t6knI45iCxHMiUxZ1J1bXVkOBihOpnvhAUiFFzT9b
-1vxoeFQtmbsWxk0HQeif71J7+E1w0LmCjlKkwZwW16FbkYRwkXdSjxTov7UwdIf8
-5n0ep8xA0JcEAhhA0+uT+7ZeitPCcQmkoVHTgyIzJspWKeAN/z8USxdL8bkQ4sJX
-F717MlFO9u4JW+a8+fdO4cvEAMaEks6m1b/0PVHJhkHTnz+BJdRI/VZ8kIRtVPmb
-Ur8V3A+Lfu8FETaqDiDmlYcbCEG2WwYSjtyGLOw9dnbkNsVMszxAkAcawWLZuogj
-nyUpQa6FT9BUhOl5b9JJWtbZKvpf+QgaUrfKDHwLJ/uLZqbGxbdzPC3jdm4H0SOB
-Ss1hkoL18UU1ltji1tUq7mRoh12tykXvSvgUX1gP/nzD2DRKb6ZdW2yQV3elr9EY
-JBY4f+Cd+InXyAcUQim3ksst
-=+6f4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKE9YEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WO0P/1r6OOV4eazeJm+dVMXb
+f9/IfbTJHbrWsyKZ4H1Jwnel47lNVFX3SETRIu12GHMGkMmHrN2lCHcCsZ6RCJKo
+9qCt5kmAZf95HLym2ww7Y6KlMjLyspmZ9kbKiMRQCwraqAWyrJ0pcqasg5O89Bli
+3rw106Xu969PHvMDi4eEvXB0gI6mMbkDzrw9DlpPV1ZqrBy5+FMgNpamHKKE1xPp
+BuGf3sOTVyqz9XUpl3glxGIlneGM0OFnoD3Ic0HxXkdckBJXMjyRlNv1a2l+hCIr
+p59wT3QSKaPNI3FAci9ZzYPEfaZpZhFcYiCipDZYiHQS7w771fiZtDo+QXP58OKj
+8FnTvUGFC7KKkH3uvs/+yJy8RB/UUIQSUA54L5vRzuVhHVRSqrq8lpfLvdTj7GCg
+uw3ECTrRRIjoIuYkn7xMu3J0HJL8WVg/IZJqj+rQ2kb1vh8fsaT/yRg4dBT/E8M1
+vgbbootOmbmePS0+6ZR5tYmrDbAyeET2VoqDXIvnxTGhn4mE120nnmZycSIvlk5X
+yW6eujxS+m+mz1ZSPi3sK3AEytpFnHnH9kL2UqPT08sFTGj/ZJR+epNneTH6W2lh
+Vol33omWn8qJZp9XoBYQv1H2ulbb3C7/aSIMe0ezFQVQ0mVQ+QMa/4jZbeVTkJYG
+iDuN37y6yxv1Jj4tiCSLmHZD
+=RM5v
 -----END PGP SIGNATURE-----
 
---===============3758652214079551599==--
+--===============7041136338276628383==--
