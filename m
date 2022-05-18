@@ -1,22 +1,76 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Wed, 18 May 2022 00:04:47 -0000
-Message-Id: <165283228789.5441.6127521073370336649@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4540393159828252417=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Wed, 18 May 2022 00:09:41 -0000
+Message-Id: <165283258139.8443.9957789375663897715@gitolite.kernel.org>
+
+--===============4540393159828252417==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/icc-next
-    old: a43dd2464fb416abdc1ccaed5f3d6061b82dea85
-    new: 3be0ec65fd17b9677d0a4c8913ee359bd941da5d
-    log: |
-         016fca59f95f6a327595b8f3f3c39979c177d676 Merge branch 'icc-const' into icc-next
-         314cf651fa83b83aa487299cdfe95fe1e8fb8fbe Merge branch 'icc-sc8180x' into icc-next
-         3a4c63f5d904d83852a2e4df13fcb89cce977405 Merge branch 'icc-rpm' into icc-next
-         3be0ec65fd17b9677d0a4c8913ee359bd941da5d dt-bindings: interconnect: Remove sc7180/sdx55 ipa compatibles
-         
+  - ref: refs/heads/master
+    old: 46e1b83398523332521899b6bc88baeb9c8c3f91
+    new: 64f2596142800c215cb40a658ebd5793ed37c936
+    log: revlist-46e1b8339852-64f259614280.txt
+  - ref: refs/tags/v1.15.0
+    old: 0000000000000000000000000000000000000000
+    new: 64f2596142800c215cb40a658ebd5793ed37c936
+
+--===============4540393159828252417==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-46e1b8339852-64f259614280.txt
+
+c7757ecdd1a051f205da875df066cc355d491c3a man: update mkfs.f2fs to give the default android option
+6afcf6493578e77528abe65ab8b12f3e1c16749f libf2fs: don't allow mkfs / fsck on non power-of-2 zoned devices
+d24fd5c01cab09a00ac7be5f5aee9f9ef12f93f3 configure.ac: Stop using obsolete macros
+ae65a157634fddf88c1030b4a5bea4c6ec14af95 configure.ac: Remove two prototype tests
+91ba5e5daf4968163382678be70e8d90c36681d8 configure.ac: Enable the automake -Wall option
+3e97d07348386abe02c84e3b8c9ed770487a13b4 configure.ac: Sort header file names alphabetically
+c48335416a09b881d2309b8f88c9b3d1441f4a9c configure.ac: Enable cross-compilation
+87d7a95e3134b668e9f1e8519a19f390509fac60 Switch from the u_int to the uint types
+f3033fbc8ab80a026740171cdbad44d8bd5fd882 Change the ANDROID_WINDOWS_HOST macro into _WIN32
+cb4c5d616ccfac739cf8cef6469da631844aeb1f ci: Build f2fstools upon push and pull requests
+006bb1305a865e69f6b11f11c5dd017387a6e324 Change one array member into a flexible array member
+9425b47b897e690c71a337c0c93477bfd6fa1997 Verify structure sizes at compile time
+e61203c2aae8656a178234bc20df2e4a5994407b Suppress a compiler warning
+7a5109ff62c97646276db38aa5cdf805e43ed8ea f2fs_fs.h: Use standard fixed width integer types
+1612bf99de322e2554a90dced7337ff2d8d1ded6 Remove unnecessary __attribute__((packed)) annotations
+cdefef0d077de556bc30e79e1bdd527b9bad6bb9 Move the be32_to_cpu() definition
+24663b62275c969f46203ccca2594323a8e07085 Include <stddef.h> instead of defining offsetof()
+ecd27dc7dec4248c3b7b50d691f5e093936f8feb Use %zu to format size_t
+1790203deed19a93c60813f75956f2788ac96c95 Fix the MinGW build
+2e59ab8fa6519e1169631189bd50810cb6b49426 configure.ac: Detect the sparse/sparse.h header
+ef011a49f3c640c59c7e21c3816d01c039711c58 configure.ac: Detect selinux/android.h
+98f7f56cf35c352c1ff3d83ad1e72e5b1e5fdf84 mkfs/f2fs_format.c: Suppress a compiler warning
+559e60ef1bdcac2084052acd0c1682653c6540d3 fsck: Remove a superfluous include directive
+93c6483b85141551e6a5fea339ab4c6cc1f9cc8c tools/f2fscrypt.c: Fix build without uuid/uuid.h header file
+ede3bde6ea6ad84dd189ca0a4198a5cb5f35bdb1 fsck/main.c: Suppress a compiler warning
+fdff1ab3157c2787d908e013b9d42db84184e196 fsck/segment.c: Remove dead code
+28de4d1334d4519c1a64659245dfd84cc2ddfa6c tools/f2fs_io: Fix the type of 'ret'
+b964b79d495d058f645f5a63357699a6c295025e Change #ifdef _WIN32 checks into #ifdef HAVE_.*
+7a1206adf33595a50b669d4027b72ad0786fb12f Annotate switch/case fallthrough
+70e4139665cbcb7bde42cf004267dd97268f61b7 Suppress a compiler warning about integer truncation
+c491657c0eb68d01dee5cc66ee3909dba5523540 Fix PowerPC format string warnings
+6eebd13e76e12748cda19daa340e3953ea1e8ecb ci: Enable -Wall, -Wextra and -Werror
+0c54cf767f5a10c8293358a991ba432d8ff0476d libf2fs_io: add unused mactor to avoid build failure
+a8fefc20bd4c030069f1d9e527ee04a0bb20e419 android_config.h: add missing liblz4
+ea9921f4f5b947084a70a94573c472bd953e1c0d f2fs-tools: support zoned device in Android
+e5fe1a213698c6765ecf9aabddf1e461b50b9203 f2fs-tools: use fsync() in Android
+eee3969d7dcf3be9c3b831d993fcf49f55855a35 mkfs.f2fs: check uuid library
+0b9b89fda2e9fbaf17a11fa15332e7ae95cf5261 dump.f2fs: compress: fix dstlen of LZ4_compress_fast_extState()
+4d9c009c343ce1247d9df583b22110f348201b3d f2fs-tools: use android config only if there's no config.h
+3af62be37cd2407da1f44396cd9390bd560ed01f f2fs-tools: show segment/section layout correctly
+299c0b566ad71f0a9ca0cc359d1d174de9068294 fsck.f2fs: fix broken file_map output
+d9d5b11413bd40dbd31a2c64750565d508a180b3 f2fs-tools: build silently
+64f2596142800c215cb40a658ebd5793ed37c936 f2fs-tools: upgrade version 1.15.0
+
+--===============4540393159828252417==--
