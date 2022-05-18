@@ -1,63 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0146536796513438435=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 May 2022 15:09:00 -0000
-Message-Id: <165288654020.1556.12440446635655894551@gitolite.kernel.org>
-
---===============0146536796513438435==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 18 May 2022 15:34:52 -0000
+Message-Id: <165288809284.18210.11121165473544330050@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/dev-queue
-    old: 2fb4b8f62f65007b667b7a0a2453c0545f24cf1c
-    new: e69d70586decda211fbb0459b7841af94c1e6b66
-    log: revlist-2fb4b8f62f65-e69d70586dec.txt
-
---===============0146536796513438435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fb4b8f62f65-e69d70586dec.txt
-
-e6175a2ed1f18bf2f649625bf725e07adcfa6a28 xfrm: fix "disable_policy" flag use when arriving from different devices
-4503cc7fdf9a84cd631b0cb8ecb3c9b1bdbf3594 ice: fix crash when writing timestamp on RX rings
-31b6298fd8e29effe9ed6b77351ac5969be56ce0 ice: fix possible under reporting of ethtool Tx and Rx statistics
-bf13502ed5f941b0777b3fd1e24dac5d93f3886c ice: Fix interrupt moderation settings getting cleared
-5361448e45fac6fb96738df748229432a62d78b6 net/qla3xxx: Fix a test in ql_reset_work()
-23dd4581350d4ffa23d58976ec46408f8f4c1e16 NFC: nci: fix sleep in atomic context bugs caused by nci_skb_alloc
-2c5fc6cd269ad3476da99dad02521d2af4a8e906 net/mlx5: DR, Fix missing flow_source when creating multi-destination FW table
-b33886971dbc4a86d1ec5369a2aaefc60a7cd72d net/mlx5: Initialize flow steering during driver probe
-785d7ed295513bd3374095304b7034fd65c123b0 net/mlx5: DR, Ignore modify TTL on RX if device doesn't support it
-379169740b0a955972cebb4994b2607b264a4b41 net/mlx5e: Wrap mlx5e_trap_napi_poll into rcu_read_lock
-15a5078cab30d7aa02ad14bfadebf247d95fc239 net/mlx5e: Block rx-gro-hw feature in switchdev mode
-cf6e34c8c22fba66bd21244b95ea47e235f68974 net/mlx5e: Properly block LRO when XDP is enabled
-b0617e7b35001c92c8fa777e1a095d3e693813df net/mlx5e: Properly block HW GRO when XDP is enabled
-6bbd723035badafe4a8eb17ccdecd96eae7a96d5 net/mlx5e: Remove HW-GRO from reported features
-8e1dcf499a67c494aafff00f25d88320dfec0af3 net/mlx5e: CT: Fix support for GRE tuples
-04c551bad3713661ac85902163b3a567864c9a7c net/mlx5e: CT: Fix setting flow_source for smfs ct tuples
-16d42d313350946f4b9a8b74a13c99f0461a6572 net/mlx5: Drain fw_reset when removing device
-4dc2a5a8f6754492180741facf2a8787f2c415d7 net: af_key: add check for pfkey_broadcast in function pfkey_process
-015c44d7bff3f44d569716117becd570c179ca32 net: af_key: check encryption module availability consistency
-765d12160014613dec0a35f5b8f3134499699a55 Merge tag 'mlx5-fixes-2022-05-17' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-089403a3f7d6132e6b8c699510ff66ae29149975 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-680b892685ea7043addb5819ddec9147d4263195 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-ba2c89e0ea74a904d5231643245753d77422e7f5 mptcp: fix checksum byte order
-ae66fb2ba6c3dcaf8b9612b65aa949a1a4bed150 mptcp: Do TCP fallback on early DSS checksum failure
-575fb4fb02b391ed60e5b041acda136f78e7779c Merge branch 'mptcp-checksums'
-b8cedb7093b2d1394cae9b86494cba4b62d3a30a nfc: pn533: Fix buggy cleanup order
-942d2ad5d2e0df758a645ddfadffde2795322728 igb: skip phy status check where unavailable
-6fd45e79e8b93b8d22fb8fe22c32fbad7e9190bd net: ftgmac100: Disable hardware checksum on AST2600
-bc1f468706ec7b9202b43846ca76c0c9348f601d i40e: Fix adding ADq filter to TC0
-500798aaf157c3ee24e01aeddfda7af55326189a i40e: Fix calculating the number of queue pairs
-60dc0a9cea784cf5c90633b54332d9820dc4642d ice: prevent low-core machines crashing on DCB config
-66fd70c0f0b2e14a47e8ab62b95f015111d2d875 ice: ignore protocol field in GTP offload
-e69d70586decda211fbb0459b7841af94c1e6b66 ice: Fix PTP TX timestamp offset calculation
-
---===============0146536796513438435==--
+  - ref: refs/heads/master
+    old: 0bd50a5825dea65c014f6a062bb04122a86681ad
+    new: 9e539c5b6d9c5b996e45105921ee9dd955c0f535
+    log: |
+         e5eaac2beb54f0a16ff851125082d9faeb475572 netfilter: flowtable: fix TCP flow teardown
+         2738d9d963bd1f06d5114c2b4fa5771a95703991 netfilter: flowtable: move dst_check to packet path
+         9e539c5b6d9c5b996e45105921ee9dd955c0f535 netfilter: nf_tables: disable expression reduction infra
+         
