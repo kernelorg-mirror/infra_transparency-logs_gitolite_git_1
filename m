@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 18 May 2022 12:08:27 -0000
-Message-Id: <165287570784.12659.2321751810760914436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 18 May 2022 12:20:28 -0000
+Message-Id: <165287642835.21963.13083935089877356564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/usb-next
-    old: 1b30499ace5bdc1f5e84427f88d883784f61be4c
-    new: e82e7c6dde91acd6748d672a44dc1980ce239f86
+  - ref: refs/heads/master
+    old: 680b892685ea7043addb5819ddec9147d4263195
+    new: 575fb4fb02b391ed60e5b041acda136f78e7779c
     log: |
-         e82e7c6dde91acd6748d672a44dc1980ce239f86 USB: serial: pl2303: fix type detection for odd device
+         ba2c89e0ea74a904d5231643245753d77422e7f5 mptcp: fix checksum byte order
+         ae66fb2ba6c3dcaf8b9612b65aa949a1a4bed150 mptcp: Do TCP fallback on early DSS checksum failure
+         575fb4fb02b391ed60e5b041acda136f78e7779c Merge branch 'mptcp-checksums'
          
