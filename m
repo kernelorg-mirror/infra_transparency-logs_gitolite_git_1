@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 18 May 2022 22:18:10 -0000
-Message-Id: <165291229015.21913.9401044615035096651@gitolite.kernel.org>
+Date: Wed, 18 May 2022 22:18:18 -0000
+Message-Id: <165291229863.22049.5508475596835877363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 841b51e4a3590866d17fa2663c64688c25b891b1
-    new: 76e98718b1fed5df1ac95c06fb1fe83c7d845dd8
-    log: |
-         76e98718b1fed5df1ac95c06fb1fe83c7d845dd8 perf/x86/amd/core: Fix reloading events for SVM
-         
+  - ref: refs/heads/perf/wip.cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 7835c87bb5e9ea0ec2c5eb69c7986625aeacde3c
