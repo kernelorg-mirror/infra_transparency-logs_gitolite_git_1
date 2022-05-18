@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 18 May 2022 05:14:40 -0000
-Message-Id: <165285088052.20398.12967670165699451711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 18 May 2022 05:19:44 -0000
+Message-Id: <165285118401.23521.14204197926422352026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/master-pending
-    old: 62fd664b1a3d63546d80a0d6bf4d2862e8fef9a1
-    new: 00e99a76ea783d89f5f34bf46fa01661d1d1e267
+  - ref: refs/heads/for-next
+    old: 0a4cad9c11ad46662ede48d94f08ecb7cd9f6916
+    new: bbd43a37ec7a02e81dc0afb2c6194957518a904b
     log: |
-         9a06761a43376fb849aa0f36925b78f20bde30d5 ath11k: fix failed to find the peer with peer_id 0 when disconnected
-         00e99a76ea783d89f5f34bf46fa01661d1d1e267 Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: cb13475dfa68083ea34213c4230bfdf0e23b7605
-    new: 9a06761a43376fb849aa0f36925b78f20bde30d5
-    log: |
-         9a06761a43376fb849aa0f36925b78f20bde30d5 ath11k: fix failed to find the peer with peer_id 0 when disconnected
+         42701e7c0cd2a715def2dafd22f11f25ca0f5024 platform/chrome: cros_ec_proto: drop unneeded BUG_ON() in prepare_packet()
+         71d3ae7fb6404c87b498f8b7f86b8271dd74989f platform/chrome: correct cros_ec_prepare_tx() usage
+         c2dcb1b06053a1ccfb73fe84e7b54b92383401cc platform/chrome: cros_ec_proto: drop BUG_ON() in cros_ec_prepare_tx()
+         20a264c97bc8c17d3a7dd7e8d0f72dc57b02c75e platform/chrome: cros_ec_proto: drop BUG_ON() in cros_ec_get_host_event()
+         8bff946c4199fd79f43dbff93c030b58b01bed65 platform/chrome: cros_ec_i2c: drop BUG_ON() in cros_ec_pkt_xfer_i2c()
+         ddec8e9e90cea8e8430b04a01adce7fb196d95c6 platform/chrome: cros_ec_spi: drop unneeded BUG_ON()
+         bbd43a37ec7a02e81dc0afb2c6194957518a904b platform/chrome: cros_ec_spi: drop BUG_ON() if `din` isn't large enough
          
