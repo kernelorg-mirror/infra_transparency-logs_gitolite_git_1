@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0125443473474257887=="
+Content-Type: multipart/mixed; boundary="===============0146536796513438435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 May 2022 15:08:54 -0000
-Message-Id: <165288653472.1434.6429354714249243502@gitolite.kernel.org>
+Date: Wed, 18 May 2022 15:09:00 -0000
+Message-Id: <165288654020.1556.12440446635655894551@gitolite.kernel.org>
 
---===============0125443473474257887==
+--===============0146536796513438435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: edf410cb74dc612fd47ef5be319c5a0bcd6e6ccd
-    new: 6fd45e79e8b93b8d22fb8fe22c32fbad7e9190bd
-    log: revlist-edf410cb74dc-6fd45e79e8b9.txt
+  - ref: refs/heads/dev-queue
+    old: 2fb4b8f62f65007b667b7a0a2453c0545f24cf1c
+    new: e69d70586decda211fbb0459b7841af94c1e6b66
+    log: revlist-2fb4b8f62f65-e69d70586dec.txt
 
---===============0125443473474257887==
+--===============0146536796513438435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edf410cb74dc-6fd45e79e8b9.txt
+Content-Disposition: attachment; filename=revlist-2fb4b8f62f65-e69d70586dec.txt
 
 e6175a2ed1f18bf2f649625bf725e07adcfa6a28 xfrm: fix "disable_policy" flag use when arriving from different devices
 4503cc7fdf9a84cd631b0cb8ecb3c9b1bdbf3594 ice: fix crash when writing timestamp on RX rings
@@ -54,5 +54,10 @@ ae66fb2ba6c3dcaf8b9612b65aa949a1a4bed150 mptcp: Do TCP fallback on early DSS che
 b8cedb7093b2d1394cae9b86494cba4b62d3a30a nfc: pn533: Fix buggy cleanup order
 942d2ad5d2e0df758a645ddfadffde2795322728 igb: skip phy status check where unavailable
 6fd45e79e8b93b8d22fb8fe22c32fbad7e9190bd net: ftgmac100: Disable hardware checksum on AST2600
+bc1f468706ec7b9202b43846ca76c0c9348f601d i40e: Fix adding ADq filter to TC0
+500798aaf157c3ee24e01aeddfda7af55326189a i40e: Fix calculating the number of queue pairs
+60dc0a9cea784cf5c90633b54332d9820dc4642d ice: prevent low-core machines crashing on DCB config
+66fd70c0f0b2e14a47e8ab62b95f015111d2d875 ice: ignore protocol field in GTP offload
+e69d70586decda211fbb0459b7841af94c1e6b66 ice: Fix PTP TX timestamp offset calculation
 
---===============0125443473474257887==--
+--===============0146536796513438435==--
