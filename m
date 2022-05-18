@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 18 May 2022 17:03:07 -0000
-Message-Id: <165289338773.11167.2374285632494320017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 18 May 2022 17:13:13 -0000
+Message-Id: <165289399363.18362.8293715472255032559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/for-5.19
-    old: 213adc63dfbcdff9a0c19ec1f2681fda9c05cf6d
-    new: 29ed17389c4dcd09c5be8d88ddf6f4f60241567d
+  - ref: refs/heads/master
+    old: f5fccbab31e63e8213fd6c61cacc1457e16811b3
+    new: eae16fd59cd8d95b834b6e72ab9d121e177762f2
     log: |
-         29ed17389c4dcd09c5be8d88ddf6f4f60241567d cgroup: Make cgroup_debug static
-         
-  - ref: refs/heads/for-next
-    old: 4d00bb3c2f23d1d8b8a25ed0cf288ebdf047aed4
-    new: b7eb2d2c4cda75dced5d0e4a4241a01c4344875b
-    log: |
-         29ed17389c4dcd09c5be8d88ddf6f4f60241567d cgroup: Make cgroup_debug static
-         b7eb2d2c4cda75dced5d0e4a4241a01c4344875b Merge branch 'for-5.19' into for-next
+         eae16fd59cd8d95b834b6e72ab9d121e177762f2 dhcp: CLIENT_ENTER_STATE should log as INFO
          
