@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 May 2022 12:58:27 -0000
-Message-Id: <165287870726.13131.4662709495679965095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 18 May 2022 12:59:27 -0000
+Message-Id: <165287876755.13506.6905099532857369648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 575fb4fb02b391ed60e5b041acda136f78e7779c
-    new: b8cedb7093b2d1394cae9b86494cba4b62d3a30a
+    old: 86d282aca8944adba55e7b7104df84d3dc7c891b
+    new: e991d0ed0b7a4c135236ec41ba7df7ea99ea9247
     log: |
-         b8cedb7093b2d1394cae9b86494cba4b62d3a30a nfc: pn533: Fix buggy cleanup order
+         e991d0ed0b7a4c135236ec41ba7df7ea99ea9247 net: stmmac: remove unused get_addr() callback
          
