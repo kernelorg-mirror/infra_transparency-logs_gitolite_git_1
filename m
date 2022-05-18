@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 18 May 2022 00:21:01 -0000
-Message-Id: <165283326119.17612.2811572948461305041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 18 May 2022 00:25:18 -0000
+Message-Id: <165283351884.20435.2627207696575069885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 4effa1af7f95b517ab2be74cfb7aec8b6543c902
-    new: 09ae2f31ea659221eee915e4ba3f93b886534e8f
+  - ref: refs/heads/dev
+    old: 8d2fc3f08bea86f2b6f924f76dabf34cfc58710a
+    new: a34d489b539f64f8e50672c1fa67b0ab0f93a054
     log: |
-         09ae2f31ea659221eee915e4ba3f93b886534e8f Wed May 18 12:20:21 AM UTC 2022
+         b6fe4778067082b22b955b28572be0b7a650a5c4 rcu-tasks: Add blocked-task indicator to RCU Tasks Trace stall warnings
+         a34d489b539f64f8e50672c1fa67b0ab0f93a054 rcu-tasks: Move rcu_tasks_trace_pertask() before rcu_tasks_trace_pregp_step()
          
+  - ref: refs/heads/dev.2022.05.11a
+    old: 0000000000000000000000000000000000000000
+    new: 9bbf65afc492613e4a26e053e78195482cacc5ac
