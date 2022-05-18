@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4929656448523090597=="
+Content-Type: multipart/mixed; boundary="===============5862796751326849721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 18 May 2022 10:53:26 -0000
-Message-Id: <165287120650.28536.6648746209466621275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 18 May 2022 11:03:04 -0000
+Message-Id: <165287178412.2058.13126779619210240883@gitolite.kernel.org>
 
---===============4929656448523090597==
+--===============5862796751326849721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/testing
-    old: d8a22b0067851629c08b1094c3341b4058758041
-    new: 40bcb3243ee8b8ffbd93213c51c3ca11981aa92a
-    log: revlist-d8a22b006785-40bcb3243ee8.txt
+  - ref: refs/heads/master
+    old: 23dd4581350d4ffa23d58976ec46408f8f4c1e16
+    new: 765d12160014613dec0a35f5b8f3134499699a55
+    log: revlist-23dd4581350d-765d12160014.txt
 
---===============4929656448523090597==
+--===============5862796751326849721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8a22b006785-40bcb3243ee8.txt
+Content-Disposition: attachment; filename=revlist-23dd4581350d-765d12160014.txt
 
-58a94a62a53ff76085f8b3face7d9b929b6a34ee netfilter: ctnetlink: fix up for "netfilter: conntrack: remove unconfirmed list"
-66187948c8f999708d5b30a03b8e1b6ac7a8250c netfilter: nfnetlink: fix warn in nfnetlink_unbind
-84368552d68f48c74257a79a673e1a8838c5b577 netfilter: conntrack: re-fetch conntrack after insertion
-2a2f778ad5f04fa9a520d853b6c854bb7ba7d337 netfilter: nf_queue: carry index in hook state
-3281350ba280e8f7312ddb42805c8cf819034fbf netfilter: nat: split nat hook iteration into a helper
-e889a5310876fc2346fcab16d1f3aface5cabf95 netfilter: remove hook index from nf_hook_slow arguments
-03ec8cbdcf600098205e2ff05c95d9605a8fc332 netfilter: make hook functions accept only one argument
-aeeb438d3495932c0b482b2713be9f2ba2c828f1 netfilter: reduce allowed hook count to 32
-d6058f935b80dfd90272cda816756fe23f9fd969 netfilter: add bpf base hook program generator
-75816d1db1df2ee54dd8c2f7391fcb5890751d1e netfilter: core: do not rebuild bpf program on dying netns
-e0635f7495ec97df99da4c5d99dffd40d514905a netfilter: netdev: switch to invocation via bpf
-40bcb3243ee8b8ffbd93213c51c3ca11981aa92a netfilter: hook_jit: add prog cache
+2c5fc6cd269ad3476da99dad02521d2af4a8e906 net/mlx5: DR, Fix missing flow_source when creating multi-destination FW table
+b33886971dbc4a86d1ec5369a2aaefc60a7cd72d net/mlx5: Initialize flow steering during driver probe
+785d7ed295513bd3374095304b7034fd65c123b0 net/mlx5: DR, Ignore modify TTL on RX if device doesn't support it
+379169740b0a955972cebb4994b2607b264a4b41 net/mlx5e: Wrap mlx5e_trap_napi_poll into rcu_read_lock
+15a5078cab30d7aa02ad14bfadebf247d95fc239 net/mlx5e: Block rx-gro-hw feature in switchdev mode
+cf6e34c8c22fba66bd21244b95ea47e235f68974 net/mlx5e: Properly block LRO when XDP is enabled
+b0617e7b35001c92c8fa777e1a095d3e693813df net/mlx5e: Properly block HW GRO when XDP is enabled
+6bbd723035badafe4a8eb17ccdecd96eae7a96d5 net/mlx5e: Remove HW-GRO from reported features
+8e1dcf499a67c494aafff00f25d88320dfec0af3 net/mlx5e: CT: Fix support for GRE tuples
+04c551bad3713661ac85902163b3a567864c9a7c net/mlx5e: CT: Fix setting flow_source for smfs ct tuples
+16d42d313350946f4b9a8b74a13c99f0461a6572 net/mlx5: Drain fw_reset when removing device
+765d12160014613dec0a35f5b8f3134499699a55 Merge tag 'mlx5-fixes-2022-05-17' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============4929656448523090597==--
+--===============5862796751326849721==--
