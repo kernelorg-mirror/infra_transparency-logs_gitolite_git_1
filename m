@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 18 May 2022 05:02:17 -0000
-Message-Id: <165285013730.12344.16254213251281856454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 18 May 2022 05:06:59 -0000
+Message-Id: <165285041920.15284.6650325316911144683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: f8cafefb5e0910b3a6eab6962bdcd5be6fa3dc51
-    new: db02d07308ba7e94347ca037a662b3a1b1afe8c4
+  - ref: refs/heads/for-next
+    old: 44d30762cde76fe0a5b2e955ec34b369815679d6
+    new: 03a8b0df757f1beb21ba1626e23ca7412e48b525
     log: |
-         db02d07308ba7e94347ca037a662b3a1b1afe8c4 Input: vmmouse - disable vmmouse before entering suspend mode
+         03a8b0df757f1beb21ba1626e23ca7412e48b525 ALSA: usb-audio: Fix wrong kfree issue in snd_usb_endpoint_free_all
          
-  - ref: refs/heads/next
-    old: f8cafefb5e0910b3a6eab6962bdcd5be6fa3dc51
-    new: db02d07308ba7e94347ca037a662b3a1b1afe8c4
+  - ref: refs/heads/master
+    old: 7488d88c2f1ce90a18b8ad25dfa7a9f8d77bd40e
+    new: 68a7913ef4f7b5c8fa4b8ce8dfe720c33af5bf9a
     log: |
-         db02d07308ba7e94347ca037a662b3a1b1afe8c4 Input: vmmouse - disable vmmouse before entering suspend mode
+         03a8b0df757f1beb21ba1626e23ca7412e48b525 ALSA: usb-audio: Fix wrong kfree issue in snd_usb_endpoint_free_all
+         68a7913ef4f7b5c8fa4b8ce8dfe720c33af5bf9a Merge branch 'for-next'
          
