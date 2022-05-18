@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 18 May 2022 23:05:05 -0000
-Message-Id: <165291510564.20926.1793487236395813291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Wed, 18 May 2022 23:27:40 -0000
+Message-Id: <165291646079.2514.10838024084436569541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/kunit
-    old: 1b11063d32d7e11366e48be64215ff517ce32217
-    new: e7eaffce47b7db72b077630dbe836f0c4132496d
+  - ref: refs/heads/ucount-rlimits-cleanups-for-v5.19
+    old: ddc97dfbb3f12c0a540104d41da1067ac9d38672
+    new: de399236e240743ad2dd10d719c37b97ddf31996
     log: |
-         e7eaffce47b7db72b077630dbe836f0c4132496d kunit: tool: Use qemu-system-i386 for i386 runs
+         de399236e240743ad2dd10d719c37b97ddf31996 ucounts: Split rlimit and ucount values and max values
          
