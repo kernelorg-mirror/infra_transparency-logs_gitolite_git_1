@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4181788308477306391=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 18 May 2022 14:15:33 -0000
-Message-Id: <165288333319.1591.2208473853472730175@gitolite.kernel.org>
-
---===============4181788308477306391==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 18 May 2022 14:16:17 -0000
+Message-Id: <165288337704.1891.2689650617630624054@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: c07a7c8dbcd8e0e31446f10235108aef1f6d03ce
-    new: 72b3fc61c75227c77b1ef14073fba70a50668940
-    log: revlist-c07a7c8dbcd8-72b3fc61c752.txt
-
---===============4181788308477306391==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c07a7c8dbcd8-72b3fc61c752.txt
-
-c3827036dd882e80bcfd0367054ac088ef79ca51 thermal/drivers/broadcom: Fix potential NULL dereference in sr_thermal_probe
-1189299d8fd3899033a8bf06fa40c3b904255534 tools/lib/thermal: remove unneeded semicolon
-c6be0ccd6c05f6e13382facd0cc4434c44e4eb51 tools/thermal: remove unneeded semicolon
-6b982adda17dc6ea5a2697da518cbeec592b1edc thermal: thermal_of: fix typo on __thermal_bind_params
-e81ce83c3b3841d8066cffdc6eb5b0a8e5a4b0fb dt-bindings: thermal: rzg2l-thermal: Document RZ/G2UL bindings
-73b31c0b59425f805e31b7a43a9353a3e742ace1 thermal/drivers/rz2gl: Fix OTP Calibration Register values
-9dcb288dc43aa599f6007b2fc199587b6cff29dc thermal/drivers/qcom/lmh: Add sc8180x compatible
-a966c193f14887ea8476dcc6aa1ce6755049b80e dt-bindings: thermal: lmh: Add Qualcomm sc8180x compatible
-9ea13dd3602536bfa0dce9219e7a8d4885e956d1 dt-bindings: thermal: tsens: Add sc8280xp compatible
-45b5e2572ed65f2fc41694c1977845cbea77f01c thermal/core: Fix memory leak in __thermal_cooling_device_register()
-83520935923e62b918dda4c2fd95e77fe1622d09 thermal/drivers/imx_sc_thermal: Fix refcount leak in imx_sc_thermal_probe
-d30f840007974cac94229c9a5445d44f581f1793 dt-bindings: thermal: k3-j72xx: Add VTM bindings documentation
-72b3fc61c75227c77b1ef14073fba70a50668940 thermal: k3_j72xx_bandgap: Add the bandgap driver support
-
---===============4181788308477306391==--
+  - ref: refs/heads/master
+    old: f3f19f939c11925dadd3f4776f99f8c278a7017b
+    new: 0bd50a5825dea65c014f6a062bb04122a86681ad
+    log: |
+         396ef64113a8ba01c46315d67a99db8dde3eef51 netfilter: flowtable: fix excessive hw offload attempts after failure
+         45ca3e61999e9a30ca2b7cfbf9da8a9f8d13be31 netfilter: nft_flow_offload: skip dst neigh lookup for ppp devices
+         cf2df74e202d81b09f09d84c2d8903e0e87e9274 net: fix dev_fill_forward_path with pppoe + bridge
+         2456074935003b66c40f78df6adfc722435d43ea netfilter: nft_flow_offload: fix offload with pppoe + vlan
+         fb3beec8242fa27778e904eebb2fc7158ae721e2 netfilter: nft_numgen: disable preempt to access per-cpu data
+         3422d8fa84d8a1583c63764568f9b36142393f08 netfilter: flowtable: fix TCP flow teardown
+         0bd50a5825dea65c014f6a062bb04122a86681ad netfilter: flowtable: move dst_check to packet path
+         
