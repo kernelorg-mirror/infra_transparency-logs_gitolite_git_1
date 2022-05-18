@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 18 May 2022 13:23:08 -0000
-Message-Id: <165288018890.30144.7141076459889190591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 18 May 2022 13:24:26 -0000
+Message-Id: <165288026682.30663.15311428967864801452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for_next
-    old: 2ca982b5d6b49fccd51f3d6969e05ac561dee115
-    new: 1d86bf02e2fce35903b41c9d12a07e94bfaea8e4
+  - ref: refs/heads/master
+    old: 127262b1da4ca7e8257cde76fe08addf5014a924
+    new: 93c4a4a9de532ec90de0ff6c2feb585f47040159
     log: |
-         14362a2541797cf9df0e86fb12dcd7950baf566e fsnotify: introduce mark type iterator
-         e730558adffb88a52e562db089e969ee9510184a fsnotify: consistent behavior for parent not watching children
-         1d86bf02e2fce35903b41c9d12a07e94bfaea8e4 Pull parent mark handling fixes from Amir Goldstein.
+         93c4a4a9de532ec90de0ff6c2feb585f47040159 siphash: add SPDX tags as sole licensing authority
          
