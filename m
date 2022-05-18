@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 May 2022 11:53:05 -0000
-Message-Id: <165287478503.3044.6674967348742375646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 18 May 2022 11:53:07 -0000
+Message-Id: <165287478781.3106.13376455757311963578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: 765d12160014613dec0a35f5b8f3134499699a55
-    new: 089403a3f7d6132e6b8c699510ff66ae29149975
+  - ref: refs/heads/for-next
+    old: bbd43a37ec7a02e81dc0afb2c6194957518a904b
+    new: 7bff62406671dd89e9d1a7bf00169197f2833c41
     log: |
-         e6175a2ed1f18bf2f649625bf725e07adcfa6a28 xfrm: fix "disable_policy" flag use when arriving from different devices
-         4dc2a5a8f6754492180741facf2a8787f2c415d7 net: af_key: add check for pfkey_broadcast in function pfkey_process
-         015c44d7bff3f44d569716117becd570c179ca32 net: af_key: check encryption module availability consistency
-         089403a3f7d6132e6b8c699510ff66ae29149975 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+         596cbc6ab0abd18206b3247aaeaa225788afaf8c platform/chrome: Use tables for values lists of ChromeOS ACPI sysfs ABI
+         7bff62406671dd89e9d1a7bf00169197f2833c41 platform/chrome: Use imperative mood for ChromeOS ACPI sysfs ABI descriptions
          
