@@ -1,42 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6189653361260665984=="
+Content-Type: multipart/mixed; boundary="===============2463213997497763234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 18 May 2022 06:54:04 -0000
-Message-Id: <165285684434.19503.6099369396721859474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 18 May 2022 07:15:36 -0000
+Message-Id: <165285813610.2295.16753796012358196085@gitolite.kernel.org>
 
---===============6189653361260665984==
+--===============2463213997497763234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 854663c55f90d3432600c1825a4d54b6894704c3
-    new: 3ac2ae96905856aa4b009afc205fe1121370fb4b
-    log: revlist-854663c55f90-3ac2ae969058.txt
+  - ref: refs/heads/master
+    old: 42226c989789d8da4af1de0c31070c96726d990c
+    new: 210e04ff768142b96452030c4c2627512b30ad95
+    log: |
+         92597f97a40bf661bebceb92e26ff87c76d562d4 PCI/PM: Avoid putting Elo i2 PCIe Ports in D3cold
+         134b5ce3ed33d3857d5d6e1edcd1656ed9364bbf PCI: qcom: Remove ddrss_sf_tbu clock from SC8180X
+         7b145802ba545ecf9446ce6d67d6011b73dac0e0 thermal: int340x: Mode setting with new OS handshake
+         a3b69dd0ad6265c29c4b6fb381cd76fb3bebdf8c Revert "PCI: aardvark: Rewrite IRQ code to chained IRQ handler"
+         a1f37cd8171cfcc1e9f79b914add983706b4e7dc Merge tag 'thermal-5.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         210e04ff768142b96452030c4c2627512b30ad95 Merge tag 'pci-v5.18-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
+         
 
---===============6189653361260665984==
+--===============2463213997497763234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-854663c55f90-3ac2ae969058.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b632eb06973209dfac1eba3a9fbd13f0041f3e45 net/smc: send cdc msg inline if qp has sufficient inline space
-793a7df63071eb09e5b88addf2a569d7bfd3c973 net/smc: rdma write inline if qp has sufficient inline space
-68a0bd6790495b8a65c68279f041cbb16e87ca42 Merge branch 'net-smc-send-and-write-inline-optimization-for-smc'
-76e1e5df4b7cb8a87ca8b0242aabf06c8dc0d09d octeontx2-pf: Use memset_startat() helper in otx2_stop()
-ab4d6357c95f5aa6473cc39382271916091378e3 net: thunderx: remove null check after call container_of()
-5ff0348b7f755aac2770bbfc244f5371e4e55224 net: smc911x: replace ternary operator with min()
-bec67592521ec816371f5f072b1a340e1c2ad434 ptp: ptp_clockmatrix: Add PTP_CLK_REQ_EXTTS support
-7c7dcd66c5e0537b33b4e217ddb347d768a4b294 ptp: ptp_clockmatrix: return -EBUSY if phase pull-in is in progress
-9cc341286e99a268e63efc6e937d4c467bcf386c dn_route: set rt neigh to blackhole_netdev instead of loopback_dev in ifdown
-6e144b47f560edc25744498f360835b1042b73dd octeontx2-pf: Add support for adaptive interrupt coalescing
-35623c37edaa452c4ca9dc490d9df1eb8ff75010 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
-3ac2ae96905856aa4b009afc205fe1121370fb4b sfc: siena: Have a uniqe define for efx channels header
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652858135 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1652858134-380d2aaaf33656ac39f09ec318244cb31c73167c
 
---===============6189653361260665984==--
+42226c989789d8da4af1de0c31070c96726d990c 210e04ff768142b96452030c4c2627512b30ad95 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKEnRcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IG8P/iwCZfyea+8jSHLnh6cY
+fk4eboEXafP3RD1sX/3gCOmePJnXbwjpTaqrxlYtHPvp5H6MV0p0OEzvhPfI2O+I
+Sy5UTyPBI2r0vATJ+Y7r6rysa0jRMfKMTr+fcQW3kOaCqxBb5WhzP7BdZCx/lXGU
+I1smUQw150LMDnpaAx59Lt96FXvG0Emi7AXVChMWGSq9vSItgmsA/AWS1GVi2WB9
+fCP1APFLBUwIPi3wo9zIRbRf9TFWN2+ADjk1Eu70EZLKIJvpr40Md8i+A+pLg2uP
+hlbYUeYY6hLO8MrZ7gdGNPRIRqeC7WY/dzVe+D6gY9F8qfdI0PAO/bCWkYch05Oe
+w8by6ib1yxgQ8OPB8Pkdc3S1iPrM8FRbZyoz0qoubFNnSUg6Rbyi6gdnZumOBgUR
+D+lqwlOCefsXWIdnBbd/k++eZ3idyg9a7fva9Vci+RLC5unqaPFgirbwRzZLDtJ5
+XJDFDe27MXsL0sbN+ZA7E67AefrpHVbv5uVhtuRflgbyyooPaI3/GbSwHERVBnPA
+pRrH1PdxGFWOtWXbntIw8eBUW5F+nluzRRJv+5gruAUpzxb8y45h2z9uW3ZeFIrZ
+tHsi+p56XjCiP6zKPuCyrlLS2SpoIYxS5ZYXFSnp2FMzBlAk05hNk9xOdZsdNThO
+9y6yMzsqeUfQ3uqZC0UPSHo1
+=10yf
+-----END PGP SIGNATURE-----
+
+--===============2463213997497763234==--
