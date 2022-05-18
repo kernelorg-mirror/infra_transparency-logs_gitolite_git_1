@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 18 May 2022 02:29:38 -0000
-Message-Id: <165284097888.9343.8809908914353299348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 18 May 2022 02:30:56 -0000
+Message-Id: <165284105642.11348.17331781833575203972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 60d3fab7ef151f02110786f64633d70e0a0f8f14
-    new: 3abbc30282882f61615133478994ec00caea8749
+  - ref: refs/heads/fixes-base
+    old: 8be70a842f70c0fe8e00fd488b1966344fa10ff4
+    new: 7752662071053adcdb6b6e7853834205dd60e1c0
     log: |
-         3d752130aa1ca14fa0adcd2bf7cef214dcf76045 selftests: remove tc-testing from targets
-         3abbc30282882f61615133478994ec00caea8749 selftests/sgx: add test_encl.elf to TEST_GEN_FILES
+         6056a92ceb2a7705d61df7ec5370548e96aee258 scsi: scsi_dh_alua: Properly handle the ALUA transitioning state
+         26f9ce53817a8fd84b69a73473a7de852a24c897 scsi: qla2xxx: Fix missed DMA unmap for aborted commands
+         cc28fac16ab7152168be8bee76708df9d65efd71 scsi: lpfc: Fix split code for FLOGI on FCoE
+         7752662071053adcdb6b6e7853834205dd60e1c0 scsi: lpfc: Correct BDE DMA address assignment for GEN_REQ_WQE
          
