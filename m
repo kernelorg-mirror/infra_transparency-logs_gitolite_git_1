@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
-Date: Wed, 18 May 2022 13:26:09 -0000
-Message-Id: <165288036948.32655.7183881412336997242@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6055787849164628879=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Wed, 18 May 2022 13:30:40 -0000
+Message-Id: <165288064028.3149.1231926539573156329@gitolite.kernel.org>
+
+--===============6055787849164628879==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gerg/m68knommu
-user: gerg
+repo: pub/scm/linux/kernel/git/gregkh/spdx
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/cf
-    old: 40e036ecc07311e45075f2dec6110bb506b645c3
-    new: 6716a776dbc899888ea422386de63076b83f4146
+  - ref: refs/heads/spdx-linus
+    old: 42226c989789d8da4af1de0c31070c96726d990c
+    new: 0b1e987c56640f6b3e2e39db973e823ce1d01417
     log: |
-         fe87183853951016f89cd764323386d16eb03ed7 m68knommu: fix undefined reference to `mach_get_rtc_pll'
-         c5f206e1cea8ecd29311f40b185a1291e7213583 m68k: removed unused "mach_get_ss"
-         6716a776dbc899888ea422386de63076b83f4146 m68knommu: fix 68000 CPU link with no platform selected
+         0b1e987c56640f6b3e2e39db973e823ce1d01417 freevxfs: relicense to GPLv2 only
          
-  - ref: refs/heads/for-next
-    old: a71b9e66fee47c59b3ec34e652b5c23bc6550794
-    new: 13a55e3a00d118fc503876eb3d49b6682d3230ab
-    log: |
-         94cac569012aff092b029f0d674f9ab944b08b5a m68knommu: fix undefined reference to `mach_get_rtc_pll'
-         16ebecafadabe794edc31d8f7f94a4e53daf3391 m68k: removed unused "mach_get_ss"
-         13a55e3a00d118fc503876eb3d49b6682d3230ab m68knommu: fix 68000 CPU link with no platform selected
-         
+
+--===============6055787849164628879==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652880638 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1652880636-12e4f843bf048c06a9891036c33d49cc5f2555a7
+
+42226c989789d8da4af1de0c31070c96726d990c 0b1e987c56640f6b3e2e39db973e823ce1d01417 refs/heads/spdx-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKE9P4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t1QQAJkW8VqTIjysZsWgegla
+I45fhF+RcNLNDQrokDpR/b7HhWV1VOpk0xxKdvczXD3prvIJ6QntpffIhRLz9+JL
+PD13cnKUnlz6czCjixtDYjHLUDM+yRD+T2+Smj3y127NRZEnf58cDNTNN5rtvdfK
+ZFKC6kDROH9k/INWWGCV3xWtcq7+g6+2HZeWn5XSwiUGMgKWL+Y9jOXDVHgAxx+f
+jDTapBFrP7lXw/M86zGjYB2fDoOMqxRHC8rFZDouFBQMHGjA0Ymnj5cVcuGZLP/a
+DhP0uLxfSZF4C7dhvXDMAo8Rl6JyD4bmhNxCrUeslARiWIonc3meq57oM9Ikigca
+X8GOPFHy8PPHT9+3v2JS96vwcPKbN8rHg2o5+zUUNOROcsx6owRt9jMDl7QRX7XJ
+3JD2EbB5TS0Ltvvjnwp5PiaUCUtTvMt60cwauPk7L90dI8eOiqEAsHRTz3iEe3k9
+vzRvDNvAicETmMlvDo4UVxy+lfoeQTJdNHUsvOULBf4+AN7KBF+aB748zfAQBtsU
+dlqcULp+0A+zP/EfvrUbVcK193BA3+wgb8QAkvfcIItqv3/cIkPvAQFGxb/mOWdK
+ZB2Nqy3TkowAfcltseBGonu/84Ly9pYNBSbuBUwrvwtrVEDYqT8argru4s85v1Vm
+hcIy/vrqBxTrZAqrbh8w4KGr
+=m1ko
+-----END PGP SIGNATURE-----
+
+--===============6055787849164628879==--
