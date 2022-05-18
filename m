@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
-Date: Wed, 18 May 2022 03:23:43 -0000
-Message-Id: <165284422302.12459.7919151631289167414@gitolite.kernel.org>
+Date: Wed, 18 May 2022 03:23:45 -0000
+Message-Id: <165284422576.12526.18297371732093706069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/net-queue
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: edf410cb74dc612fd47ef5be319c5a0bcd6e6ccd
-    new: 23dd4581350d4ffa23d58976ec46408f8f4c1e16
-    log: |
-         5361448e45fac6fb96738df748229432a62d78b6 net/qla3xxx: Fix a test in ql_reset_work()
-         23dd4581350d4ffa23d58976ec46408f8f4c1e16 NFC: nci: fix sleep in atomic context bugs caused by nci_skb_alloc
-         
+  - ref: refs/tags/v5.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
+  - ref: refs/tags/v5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89a9eba652fe348461301ef785c3e274bc491879
+  - ref: refs/tags/v5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
+  - ref: refs/tags/v5.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
+  - ref: refs/tags/v5.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
