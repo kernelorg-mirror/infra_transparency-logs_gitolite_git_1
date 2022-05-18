@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8009710891780915900=="
+Content-Type: multipart/mixed; boundary="===============1075659250357543637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 18 May 2022 01:54:22 -0000
-Message-Id: <165283886266.19111.12154400455667484639@gitolite.kernel.org>
+Date: Wed, 18 May 2022 01:54:33 -0000
+Message-Id: <165283887362.19258.12701711887382643179@gitolite.kernel.org>
 
---===============8009710891780915900==
+--===============1075659250357543637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: fca14c3561809958548a698751623dc9220bf871
-    new: 71df04160254bb5ec2987d162e66763aae370a83
+  - ref: refs/heads/5.19/scsi-staging
+    old: e33eae0656c87dfefb05e3a3c073f82b188739c6
+    new: e21b20ba2dd3109988d2033eb35c82a44d60bf94
     log: |
          1806245e992082553ed555ca58937241d76fb640 scsi: mpi3mr: Add shost related sysfs attributes
          ccf985281c7360b28fdea4a93555e5606ed12951 scsi: mpi3mr: Add target device related sysfs attributes
@@ -30,33 +30,33 @@ changes:
          e21b20ba2dd3109988d2033eb35c82a44d60bf94 scsi: target: tcmu: Avoid holding XArray lock when calling lock_page
          
 
---===============8009710891780915900==
+--===============1075659250357543637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1652838854 -0400
+pusher 75C5DE3D 1652838865 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1652838853-e649939b1bcdcf35d461b500b6227aea605e0537
+nonce 1652838865-67779de51e9adb9984e8198de04d9971c8c7e021
 
-fca14c3561809958548a698751623dc9220bf871 71df04160254bb5ec2987d162e66763aae370a83 refs/tags/mkp-scsi-staging
+e33eae0656c87dfefb05e3a3c073f82b188739c6 e21b20ba2dd3109988d2033eb35c82a44d60bf94 refs/heads/5.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKEUcYACgkQ7ulgGnXF
-3j31bg//TRykxdfOPEBWM5/IICVVWuk5mGDqUu7ssKTUirPywsmUk595MUeK86Vt
-ZCwcrVGkqAofM6rtSanhXrdAOYEeJEB9oP45WW0Sq2pySqvmlLU0u6mCfcRWmGno
-EErUKLw6BG/dSl4pkWYP3eEakw/iSPR3BwvNBBhrs5K80ZKLpdy28xIgTsk2DXhb
-no/txXQFOwTC2YUiQhA1BnkpBjm9k4kJacD0NZJmi5b5xkQe/KMVLcnBxbx3PKWF
-MrrbKjaAnz3LyIVyfzRcZ4Hc0UFc+7mC/exQfcZmMgL1pozKIqLimtBd19N6keFw
-h2dsQw4CXhME6mfreE3gWa64t6AbuKNvhk8KCAngmqjQZhH0RtnNyfjAgKo1Eaz1
-MW1wlPD5n5jfBtv9StYIEyQOkBcf9onYWBFSIwIhcRuRXP2cbHNKbXPgMhmjIqub
-/YXTspirWACeh/fHMpo2WPxarFMqv+8mzvQR+sIFdBO4PE7jn486okZ5/icUNqdg
-JNbjbeDC5HdOjy1EnkaoKfSAO3H/judcOOEC1pVmf9KMYVYGcpFNkxAf7qkV0QUs
-8vDs88jy9swJbXdE9l6uxhNZLMHd5j1ElVZxCdM2b0LKd9FvqBNp6kyxpMFktYKT
-IaSPixPSno5qrRksfJVlDylQ6O5uzRrNKp3Y/J6tE32F/H4yTf4=
-=KnVz
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKEUdEACgkQ7ulgGnXF
+3j2tVA/+OcJnQyT6IGkLXCAS1wwSJLzwJurlGegYg8BUHCSwSVCtuTU/6TQyy+ik
+V8dmWXQJNJZ1Pdls5RKB8wSHjoqbVgoUysg6m4VyHvEgzkey2CTfdG98HFqHdBQs
+iZmwG/IVd5KYTOcboVNe/C4VWJt2MW91PbhPJAxc78P6KnNA/o8QWwH3C6XINotk
+u3s8nWoBSEXGUvai9dUO0v/A209DcyaN3pHLtRCVpqLzLibYOZfs/9MRQpbKbVU/
+fqDP0SAoVMElUJNu4fVaiCWacPpzuFlujS7C6BuTnUx+JR2aM11l4RsYF7nEZdB/
+PoOv1o4MUvDBttuAtT0J3hKlt7aqVoQ0tI60e5Mttc9RvZ091fzzdmiZrRRcwDdV
+/5CzujTo7vVjCCFatZZo1ZDNlmmk+fFAq/OkBONY0fdRwc0K86kenCOjoJe3+WQo
+a4P9cwAN7pZFcb2vJkPntF+Zj15jVMrQJzP8EyfeADhgyNFDBrhVrKNJ/B+XD6An
+EtwYoJpFSv4BS+21bKfCR3+SUCk0wgpGTJ4fHqxDHfWqocWc9g9c5iWkZPBKFhxF
+LNi/xl39GlOQS8nr8QT094r3SvRZYsVoiIxuVdGGHLcUHbo7eFE9Gm5cgcRCYWDt
+4enq7OmqjKAA6F6RCWrgNTTfxU33CuaCyuDh9qxtejTEu4716R0=
+=0jhb
 -----END PGP SIGNATURE-----
 
---===============8009710891780915900==--
+--===============1075659250357543637==--
