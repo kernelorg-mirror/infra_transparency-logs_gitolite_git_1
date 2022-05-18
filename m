@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 18 May 2022 18:04:53 -0000
-Message-Id: <165289709333.18571.14117564263796889234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Wed, 18 May 2022 18:05:20 -0000
+Message-Id: <165289712040.20216.9309084916411870727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/tags/v5.18-rc2
