@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 May 2022 13:13:22 -0000
-Message-Id: <165287960250.23959.8000538554890613060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 18 May 2022 13:22:28 -0000
+Message-Id: <165288014808.29874.15041235221553694487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: 223153ea6c79a0d78dc2a04e3300de1deb336f14
-    new: a3641ca416a3da7cbeae5bcf1fc26ba9797a1438
+  - ref: refs/heads/fsnotify
+    old: 5f9d3bd520261fd7a850818c71809fd580e0f30c
+    new: e730558adffb88a52e562db089e969ee9510184a
     log: |
-         a3641ca416a3da7cbeae5bcf1fc26ba9797a1438 net: smc911x: Fix min() use in debug code
+         14362a2541797cf9df0e86fb12dcd7950baf566e fsnotify: introduce mark type iterator
+         e730558adffb88a52e562db089e969ee9510184a fsnotify: consistent behavior for parent not watching children
          
