@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3097463867013435155=="
+Content-Type: multipart/mixed; boundary="===============6667903260455629130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 18 May 2022 13:52:56 -0000
-Message-Id: <165288197626.17968.15221069190203616820@gitolite.kernel.org>
+Date: Wed, 18 May 2022 13:54:04 -0000
+Message-Id: <165288204453.18409.18112613324413538017@gitolite.kernel.org>
 
---===============3097463867013435155==
+--===============6667903260455629130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 9de35756d67a3f44840f10fbd6ae5b8e46c8a51d
-    new: b47f21aa2e66f151a0a3ee25ce12397dd8352754
-    log: revlist-9de35756d67a-b47f21aa2e66.txt
+    old: b47f21aa2e66f151a0a3ee25ce12397dd8352754
+    new: 0090127adc44e7511479c2c77b0040c7319f4f4a
+    log: revlist-b47f21aa2e66-0090127adc44.txt
 
---===============3097463867013435155==
+--===============6667903260455629130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9de35756d67a-b47f21aa2e66.txt
+Content-Disposition: attachment; filename=revlist-b47f21aa2e66-0090127adc44.txt
 
-e7b3ad218301bffcbbb4a0bfcd35a558276e91a6 random: do not use input pool from hard IRQs
-245e3fb1ac552e61d5b11105d9e5a7c125cf7f3d random: help compiler out with fast_mix() by using simpler arguments
-62a3c8e44a2c2e65a1153697488b448db724667e siphash: use one source of truth for siphash permutations
-269f465442194f8b143a3cc40f08177ef07b1917 random32: use real rng for non-deterministic randomness
-3e8a7ce10c093ab6e652211af7bcef21cef3266e random: use symbolic constants for crng_init states
-cbb21574fb34677f3c409286da23f68360557b06 random: avoid initializing twice in credit race
-0da73ec19e23fb10cea5b5a4ae1566938a0a037e random: move initialization out of reseeding hot path
-78d0bf12dbd30c330cc20389c0e7fd55ef9428eb random: remove ratelimiting for in-kernel unseeded randomness
-b47d354c958842afee2e996fa916ec2ee94c4ab6 random: use proper jiffies comparison macro
-c9f34851aff527a40e29286f4947091387531aff random: handle latent entropy and command line from random_init()
-90f4305f95b58160a9fe714762c6d6c9fbfd7793 random: credit architectural init the exact amount
-bb0ef52ca429d368a80d63a22e01c2917105c39d random: use static branch for crng_ready()
-ae04057c39a04a540ec3a8ec9dfc7e7d36bd50a2 random: remove extern from functions in header
-ba7caa4bc87aa79fc5045a516021a0893b477ab6 random: use proper return types on get_random_{int,long}_wait()
-7d825bbe3f3572d448429fe5de59a989b8b477fd random: make consistent use of buf and len
-c387d56d205f547e9cddb8f1825b8e18270cb591 random: move initialization functions out of hot pages
-639a9b66b95e42b1839a680a2219527cdf1b3adf random: remove get_random_bytes_arch() and add rng_has_arch_random()
-0ea73fd6f90b9acd623ccd234955b2ddb9cae0e0 random: remove mostly unused async readiness notifier
-9cf5104812d44a908d2b6438cb22279e98912835 random: move randomize_page() into mm where it belongs
-cb830b695cfc005e0b937a747e3601eacf44b5e7 random: unify batched entropy implementations
-b47f21aa2e66f151a0a3ee25ce12397dd8352754 siphash: add SPDX tags as sole licensing authority
+e3e33fc2ea7fcefd0d761db9d6219f83b4248f5c random: do not use input pool from hard IRQs
+791332b3cbb080510954a4c152ce02af8832eac9 random: help compiler out with fast_mix() by using simpler arguments
+e73aaae2fa9024832e1f42e30c787c7baf61d014 siphash: use one source of truth for siphash permutations
+d4150779e60fb6c49be25572596b2cdfc5d46a09 random32: use real rng for non-deterministic randomness
+e3d2c5e79a999aa4e7d6f0127e16d3da5a4ff70d random: use symbolic constants for crng_init states
+fed7ef061686cc813b1f3d8d0edc6c35b4d3537b random: avoid initializing twice in credit race
+68c9c8b192c6dae9be6278e98ee44029d5da2d31 random: move initialization out of reseeding hot path
+cc1e127bfa95b5fb2f9307e7168bf8b2b45b4c5e random: remove ratelimiting for in-kernel unseeded randomness
+8a5b8a4a4ceb353b4dd5bafd09e2b15751bcdb51 random: use proper jiffies comparison macro
+2f14062bb14b0fcfcc21e6dc7d5b5c0d25966164 random: handle latent entropy and command line from random_init()
+12e45a2a6308105469968951e6d563e8f4fea187 random: credit architectural init the exact amount
+f9acd96612da0df753b05473820379eedd41b245 random: use static branch for crng_ready()
+efefbbb56e7029b27c0818d176fa2137465d19ca random: remove extern from functions in header
+4f9d5abff03569818d22a6f95472b8f764d3670e random: use proper return types on get_random_{int,long}_wait()
+7c75e7b9a85849632149dcb83f60ac45e23d45c8 random: make consistent use of buf and len
+9e4f48caefbfd7fa321b3c9e460eaf81819d3292 random: move initialization functions out of hot pages
+fadd52def742a2b1583420373cc6a416b2ba8d42 random: remove get_random_bytes_arch() and add rng_has_arch_random()
+fe712f1c03b785755cc2ba43b17a7f5c8a5dcbbe random: remove mostly unused async readiness notifier
+ef786833d7f8acc0af67be1c1ef507195cb94f20 random: move randomize_page() into mm where it belongs
+6374396c369ee99bde738ba3da346b7b6b532db8 random: unify batched entropy implementations
+0090127adc44e7511479c2c77b0040c7319f4f4a siphash: add SPDX tags as sole licensing authority
 
---===============3097463867013435155==--
+--===============6667903260455629130==--
