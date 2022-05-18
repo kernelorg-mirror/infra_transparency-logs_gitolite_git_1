@@ -1,47 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============1525502923235678985=="
+Content-Type: multipart/mixed; boundary="===============8502312606925232257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 May 2022 11:03:16 -0000
-Message-Id: <165287179682.2193.4432599951870297167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 18 May 2022 11:06:05 -0000
+Message-Id: <165287196529.4570.9104239568249592242@gitolite.kernel.org>
 
---===============1525502923235678985==
+--===============8502312606925232257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 6e144b47f560edc25744498f360835b1042b73dd
-    new: 6431ce6cd3bb2ccf55acab0ccaae33208e9a0ab3
-    log: revlist-6e144b47f560-6431ce6cd3bb.txt
+  - ref: refs/heads/main
+    old: a456021c6f1482b94dce77ebaeef77412cd37dba
+    new: 78488a64aea94a3336ee97f345c1496e9bc5ebdf
+    log: |
+         c1918196427b917d1fbf064b07538410807f8b03 iwlwifi: pcie: simplify MSI-X cause mapping
+         537b76d26cbbeb696ec7b47536fc9ce58f5ea22b iwlwifi: mvm: use NULL instead of ERR_PTR when parsing wowlan status
+         51e073c23b46236d8dfbc1cbf7d95b0a5ff6e6e7 iwlwifi: mvm: clean up authorized condition
+         d1f6530c3e373ddd7c76b05646052a27eead14ad iwlwifi: fw: init SAR GEO table only if data is present
+         9d096e3d3061dbf4ee10e2b59fc2c06e05bdb997 iwlwifi: mvm: fix assert 1F04 upon reconfig
+         184f10db5f8f15902ac8687b26507b558ac3204d iwlwifi: mvm: add OTP info in case of init failure
+         147eb05f24e6f603dc2dc7f2e0675ba1707c538f iwlwifi: mvm: always tell the firmware to accept MCAST frames in BSS
+         98c0de7b26a1872f000ffae5661d2709b1d01932 iwlwifi: mvm: remove vif_count
+         55cf10488d7a9fa1b1b473a5e44a80666932e094 iwlwifi: mei: clear the sap data header before sending
+         78488a64aea94a3336ee97f345c1496e9bc5ebdf iwlwifi: mei: fix potential NULL-ptr deref
+         
 
---===============1525502923235678985==
+--===============8502312606925232257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e144b47f560-6431ce6cd3bb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4c7c8a6d87a83d5e7ffb9bc166ebf865b9360040 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
-1d2c717bc7f7fd3c9cf38d4a0d5d7ede06adf05b net/mlx5: Add last command failure syndrome to debugfs
-9b45bde82c229fda94618896ff530dcba9d66fe0 net/mlx5: Inline db alloc API function
-773c104d5333aed1c7966e79ee3c75c4c5ac5515 net/mlx5: Allocate virtually contiguous memory in vport.c
-88468311c07a8bb34321166341f93981f7337a7d net/mlx5: Allocate virtually contiguous memory in pci_irq.c
-035e0dd573929306994a1856061e95998699cd69 net/mlx5e: Allocate virtually contiguous memory for VLANs list
-597c112326197786abcc3a38090b08856bf860af net/mlx5e: Allocate virtually contiguous memory for reps structures
-675b9d51d6fbc8d08842bdce84e4d38a400e357d net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
-682adfa6ca80f86dcdc5cebe85b11d30d15944d9 net/mlx5e: Support partial GSO for tunnels over vlans
-f05ec8d9d0d62367b6e1f2cb50d7d2a45e7747cf net/mlx5e: Allow relaxed ordering over VFs
-77422a8f6f61be1ef64978e9a94f40fed0d1634e net/mlx5e: CT: Add ct driver counters
-6d0ba49321a40a8dada22c223bbe91c063b08db4 net/mlx5e: Correct the calculation of max channels for rep
-65810a2d2ab3c2a640e14a3e249c87e50675e6ce net/mlx5e: Add XDP SQs to uplink representors steering tables
-ef9a3a4a813ac0debfd2d64b71db0a55dbc3efd7 net/mlx5: Lag, refactor lag state machine
-a4a9c87ebb689c8c5e6609b8b4dda0b6da5b1ebe net/mlx5: Remove unused argument
-94db3317781922ba52722c58061e0e8517d4d80d net/mlx5: Support multiport eswitch mode
-6431ce6cd3bb2ccf55acab0ccaae33208e9a0ab3 Merge tag 'mlx5-updates-2022-05-17' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+certificate version 0.1
+pusher 7BF9099A 1652871944 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1652871944-4a5e46d1b65b9f4ab5e09c4f522803b672d9f05a
 
---===============1525502923235678985==--
+a456021c6f1482b94dce77ebaeef77412cd37dba 78488a64aea94a3336ee97f345c1496e9bc5ebdf refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmKE0wgACgkQB8qZga/f
+l8SG1w//TqNXRgnpnA/n0+rmZZOhwQMlVzM3zfoegM14ywm4hRy5xFcDoy1Exo0g
+rlk9Zll+fErVLbNtBdoWMWcJc5e49zitzVCMdOGI0D+tIsYbp2TC2Ogag3kaMPNL
+DvmjPZ7QVhoqYpxev/Qmfx9qmH4vUZ3TLGiawlA8FYPy06Dk/lRqQELEhlkHoDJM
+oSRRZaX/4TlnzZ3XL74/Eq+AVg9LYZuddwuTG6k/QdVWGNHpsvQpN7NbVvhD3hAc
+g0Afg8s0Bn5tNPnmyics/xpDlf2iEVt+AXqfObL7CxCqi0q2qqmRlfeJ7G1Eqtk8
+6/3pPtMtpwWWTjlsw4r+9BUIS0gp4VulxzHuevUICTtsBIb8KwiHbTxmORZaJ0iL
+3qjqz4LgFZKpCA7S9gToJ+n6mQzJj6DnVD+BAAaHyAcPgvbKzzIB8ovZQgWEc86K
+ropE45z/iFBV3hoUyWa0cX+cHJaJncckgt0N6o3i5xxPQ7/FSECDVi41PF3jBz4w
+K7He5w33Q7TlnC32RMpXXTHLXz/cUdAvlvQZH0w/OFslnPsNStBh0GgZGURglirw
+D7kXArgTHeiIy+jpz/8I0qt+wHHNAb/MDREOabH6IasjizF7t/3ou/EH+efkyVWW
+Y9vWQwEI81UQ6NLOVwfgPELtLg7q3YSAeekT7ES8X8dncJUzLt0=
+=aRYz
+-----END PGP SIGNATURE-----
+
+--===============8502312606925232257==--
