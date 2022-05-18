@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 May 2022 13:01:00 -0000
-Message-Id: <165287886085.15547.8033443134310860621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 18 May 2022 13:03:23 -0000
+Message-Id: <165287900337.16340.348714955516853037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: b8cedb7093b2d1394cae9b86494cba4b62d3a30a
-    new: 942d2ad5d2e0df758a645ddfadffde2795322728
-    log: |
-         942d2ad5d2e0df758a645ddfadffde2795322728 igb: skip phy status check where unavailable
-         
+  - ref: refs/heads/rcu/context-tracking-v3
+    old: 0000000000000000000000000000000000000000
+    new: 339c667118c84314e759bb67eb0ebd8eb292eafb
