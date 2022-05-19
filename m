@@ -1,43 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============7986191291780663621=="
+Content-Type: multipart/mixed; boundary="===============6287843321406552838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 19 May 2022 15:57:00 -0000
-Message-Id: <165297582095.22600.14795138228136550409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 19 May 2022 16:00:44 -0000
+Message-Id: <165297604414.25364.2118759235240713784@gitolite.kernel.org>
 
---===============7986191291780663621==
+--===============6287843321406552838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: e6829d1bd3c4b58296ee9e412f7ed4d6cb390192
-    new: b896a1f788d1eb4e77245712d4b59895d2c0baa8
-    log: revlist-e6829d1bd3c4-b896a1f788d1.txt
+  - ref: refs/heads/usb-testing
+    old: 74f55a62c4c354f43a6d75f77dd184c4f57b9a26
+    new: 376d6b02cb08021c0d3679bb53a6d6bf0dac181c
+    log: revlist-74f55a62c4c3-376d6b02cb08.txt
 
---===============7986191291780663621==
+--===============6287843321406552838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6829d1bd3c4-b896a1f788d1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2bcf3bbd348fc10260aa6243ff6a22a1882b5b35 cxl/mem: Drop mem_enabled check from wait_for_media()
-1e14c9fbb55fbc48eb88b55d1736c994b1deb631 cxl/pci: Consolidate wait_for_media() and wait_for_media_ready()
-194d5edadf0b403f6de2be89c484a01c83ee269f cxl/pci: Drop wait_for_valid() from cxl_await_media_ready()
-76a4121e86649bf381aa32cb69ede913def57202 cxl/mem: Fix cxl_mem_probe() error exit
-75b7ae29991f945b69c10d75b861d7d5e90bd541 cxl/mem: Validate port connectivity before dvsec ranges
-2e4ba0ec978335b4b550bbed95cb198ac3a00745 cxl/pci: Move cxl_await_media_ready() to the core
-14d78874077442d1d0f08129f5a0ea5070984b4b cxl/mem: Consolidate CXL DVSEC Range enumeration in the core
-dd2d42ad6f422076d1bd49b132bec74376c26f5c cxl/mem: Skip range enumeration if mem_enable clear
-a12562bb70776093b270f79a4b6ef18f4bcead2b cxl/mem: Merge cxl_dvsec_ranges() and cxl_hdm_decode_init()
-92804edb11f065aadb3a4f398bed8a846a035cd3 cxl/pci: Drop @info argument to cxl_hdm_decode_init()
-5e5f4ad52f33c125af9b91d4c3b7cad59c13772e cxl/port: Move endpoint HDM Decoder Capability init to port driver
-fcfbc93cc33ec601f00f113eca6fc484b930532d cxl/port: Reuse 'struct cxl_hdm' context for hdm init
-b896a1f788d1eb4e77245712d4b59895d2c0baa8 cxl/port: Enable HDM Capability after validating DVSEC Ranges
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652976041 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1652976039-0019a907429e1f2578f4caa3374b3e989db777a4
 
---===============7986191291780663621==--
+74f55a62c4c354f43a6d75f77dd184c4f57b9a26 376d6b02cb08021c0d3679bb53a6d6bf0dac181c refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGaakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kfoQAKB+/gAqpS4oQKkJ0h+L
+hBePuf9dOGoqzkauwei+2yFigQbwPwlWxYjhL8V2bxBsp5iRF8gBDvJAL/OZadjh
+UlaMvE8a6dN50SDEyYUWbFtJTI8yUT03E+jm7wwvEenvwcBnQkypcxkXqeSQFbUU
+LgiGQWAhkjE0eacCvj6a05My5xbfOU52wAcbLs58EngGqe0Sf5ZzVcxdHK1z8HGZ
+pLx/SxfSAjYwqGJB5fAUv3djH1iwohxYVchyR3a0vxPQhUhlgQiI9Pc7X/Owwfx6
+nM2slRihxbIpIe46iJHSfoPSrv5jXYjbxLOXhFX7ISFF0MP6yVTxWvzrtGL+hcof
+1FtOGYqhA+hGeAL6/esnCvprB+IfMJ+86hn/doMkpDIRHysbhAZirLyYnqJjhYOL
+EyhHN81vieSUFwMP4Agesb94FQ93+5LizJeLjwBGxgnoyPYvBr+GpBPPVOfevGnB
+EbVnY0qZ2Rcuc3aRg0wfYvVCQenwr9Aqu3mYHS/AtuD/w9rVnQTOss4t+tTqqfMn
+JBWa3Xe14bbxHGfHr5VOAZR/pFBH+qSPPjaCTy+6UrISq+TcfhMkZe7ZSOLUtppP
+LwAi0LDLFF5MLYKtImkUlodE1WqDOoSSHEUlFIxzhENTV0ujnz6mMMn8yxzKnKmv
+qsjW9V/Nry6gXs80SHlhsfbm
+=DLwL
+-----END PGP SIGNATURE-----
+
+--===============6287843321406552838==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74f55a62c4c3-376d6b02cb08.txt
+
+03941ed91c7231e4973fb50de6c349974405df4e thunderbolt: Replace usage of found with dedicated list iterator variable
+ca319f5565193b7c51533852083ab44837eb2709 thunderbolt: Fix typo in comment
+ebe99c0f297dfc0f349f54dae850b83985539de5 thunderbolt: Use decimal number with port numbers
+259e0c71e552557294d4820c840f62185e135c3a thunderbolt: Dump path config space entries during discovery
+9d2d0a5cf0ca063f417681cc33e767ce52615286 thunderbolt: Use different lane for second DisplayPort tunnel
+84d4333c1e28cedfad37c5347b4a94a3565a454f misc/mei: Add NULL check to component match callback functions
+5dddb41692849594862473e4ddf57fb52e1249d6 thunderbolt: Link USB4 ports to their USB Type-C connectors
+90f720d2292f52de51df2307272a8f8cf7ef7134 thunderbolt: Add debug logging when lane is enabled/disabled
+94581b25d81f8f16b48e0b61a13f81469d6e5bc0 thunderbolt: Move tb_port_state() prototype to correct place
+0e14dd5e14d697e2489c7bf0fe35947831de3975 thunderbolt: Split setting link width and lane bonding into own functions
+0a2e1667a73fe0c4374ddace925d85a4072d509c thunderbolt: Ignore port locked error in tb_port_wait_for_link_width()
+8e1de7042596abb7cb277ea751fc13a4c2b65aea thunderbolt: Add support for XDomain lane bonding
+93bf344f66995ef816bd63c165fa9ac1ea4fcb3d thunderbolt: Fix buffer allocation of devices with no DisplayPort adapters
+c7c99a09ef0e2615d13e13b19c74428ca43b7dcf thunderbolt: Add KUnit test for devices with no DisplayPort adapters
+376d6b02cb08021c0d3679bb53a6d6bf0dac181c Merge tag 'thunderbolt-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+
+--===============6287843321406552838==--
