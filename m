@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 19 May 2022 12:52:39 -0000
-Message-Id: <165296475962.26615.12132279264570877529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Thu, 19 May 2022 12:53:12 -0000
+Message-Id: <165296479221.26925.7925442750313302719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/for-next
-    old: b0362ef88de4798084734d4d37df590357c631a6
-    new: 067d74c6f18c99b92e961c2f0b518fc7f9b2153b
+  - ref: refs/heads/linux-next
+    old: 4573240f0764ee79d7558d74fc535baa1e110d20
+    new: 5b3353949e89d48b4faf54a9cc241ee5d70df615
     log: |
-         29ebab61bd966ca787709e61e57233ae0b9c8b9e dt-bindings: clock: Add Qualcomm SC8280XP GCC bindings
-         650eef4b857652560223be9ae438668b0bdd1fc0 clk: qcom: add sc8280xp GCC driver
-         067d74c6f18c99b92e961c2f0b518fc7f9b2153b Merge branches 'arm64-for-5.19', 'arm64-defconfig-for-5.19', 'clk-for-5.19', 'defconfig-for-5.19', 'drivers-for-5.19', 'dts-for-5.19' and 'arm64-fixes-for-5.18' into for-next
+         12f112c3e3e573a833010ef2e4469295ac7b6e82 xen-blk{back,front}: Update contact points for buffer_squeeze_duration_ms and feature_persistent
+         1591a65f55bca5f7e14f9fbca4bd082dc8f4680f x86: xen: remove STACK_FRAME_NON_STANDARD from xen_cpuid
+         62db0fafa8fc0f6c9f901e7eefdfc6bbd9731ec9 xen: sync xs_wire.h header with upstream xen
+         5b3353949e89d48b4faf54a9cc241ee5d70df615 xen: add support for initializing xenstore later as HVM domain
          
