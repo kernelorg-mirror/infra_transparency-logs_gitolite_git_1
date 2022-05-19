@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 19 May 2022 00:39:16 -0000
-Message-Id: <165292075659.16568.560476716505821717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Thu, 19 May 2022 01:02:04 -0000
+Message-Id: <165292212469.3193.8196036113650594948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/tags/mm-everything-2022-05-19-00-03
-    old: 0000000000000000000000000000000000000000
-    new: 004e72ec2b70376ac62a459efc93e191007ddbf3
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/heads/devfreq-testing
+    old: 820b7818bb97e6c18e6952fb47adb335892849a0
+    new: aabd771699111cb60e19b6f8775b37191dfc3cbf
+    log: |
+         aabd771699111cb60e19b6f8775b37191dfc3cbf PM / devfreq: passive: Return non-error when not-supported event is required
+         
