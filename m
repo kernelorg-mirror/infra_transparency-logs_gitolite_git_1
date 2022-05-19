@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 19 May 2022 14:17:31 -0000
-Message-Id: <165296985151.18776.1290583596587752974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 19 May 2022 14:23:50 -0000
+Message-Id: <165297023037.22250.15907733605602980919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/fscache-next
-    old: eedbe508d93547dafd940683f12deab9938d088e
-    new: a3457aa9c40f99183345cbedd7e0a7404bcc6370
+  - ref: refs/heads/locking/core
+    old: c2df0a6af177b6c06a859806a876f92b072dc624
+    new: 3c197cb044eeea94f6ab13ab822d36343b57e9ab
     log: |
-         1e4ca1030024af93281db6105a10ad56c7b66613 netfs: ->cleanup() op is always given a rreq pointer now
-         32c2aab279b95369c4d55b0ea7662223d73d5759 netfs: Export netfs_put_subrequest()
-         a3457aa9c40f99183345cbedd7e0a7404bcc6370 netfs: Fix gcc-12 warning by embedding vfs inode in netfs_i_context
+         3c197cb044eeea94f6ab13ab822d36343b57e9ab sched/clock: Use try_cmpxchg64 in sched_clock_{local,remote}
          
