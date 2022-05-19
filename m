@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2751100743884327682=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 19 May 2022 20:16:55 -0000
-Message-Id: <165299141526.1507.10290669635924673459@gitolite.kernel.org>
-
---===============2751100743884327682==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 19 May 2022 20:23:54 -0000
+Message-Id: <165299183468.5093.7586723527296620666@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/testing
-    old: a804364d4ad9b46f1ffb30f2ff8f5ddb8e94e6cb
-    new: 1a6dd9996699889313327be03981716a8337656b
+  - ref: refs/heads/riscv-kexec
+    old: daae2fd41212953aeccd56f0a84546394cd00dfb
+    new: 838b3e28488f702e2b5477b393f009b2639d2b1a
     log: |
-         6c1e423a3c84953edcf91ff03ab97829b287184a can: can-dev: remove obsolete CAN LED support
-         1a6dd9996699889313327be03981716a8337656b can: mcp251xfd: silence clang's -Wunaligned-access warning
+         6261586e0c91db14c34f894f4bc48f2300cff1d4 RISC-V: Add kexec_file support
+         8acea455fafaf2620b247de6c00774828b618a82 RISC-V: Support for kexec_file on panic
+         736e30af583fb6e0e2b8211b894ff99dea0f1ee7 RISC-V: Add purgatory
+         838b3e28488f702e2b5477b393f009b2639d2b1a RISC-V: Load purgatory in kexec_file
          
-
---===============2751100743884327682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652991411 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1652991411-16f0b85734ab1084ad4f3323c0b521940e3d75b8
-
-a804364d4ad9b46f1ffb30f2ff8f5ddb8e94e6cb 1a6dd9996699889313327be03981716a8337656b refs/heads/testing
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKGpbMTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXXryB/4s6HAxRXu8FiPgh/025WNycwZeNnyS
-/xe10ei0nWWEikm1CCvydGJA0HDcLWBsZu9s9N5CqmDzGvvekHJgrE/RIM6/9M/l
-4uSL9UVvmAtLQmJsbIvEfQn5MAWCHITvgqeRuGFT4rL5cV0vadPbx4ANAdjkEmEy
-0vRk+pBnBITDnIxoHpxz/K9wfzQ10csyvFBOp1rwwKxppy01TTVTSwDKZvYOINmz
-HsVTF1msVva73tisgBCOJfQwsMm3GVVkdKafU14ZSbWdwSPBP31pzfrMDnPV+sRq
-GIR6lNysuX0uFSXEzImXNaeVuTSOqubDMFdgjHazgvBiAF7tA0vtTxAJ
-=JyvC
------END PGP SIGNATURE-----
-
---===============2751100743884327682==--
