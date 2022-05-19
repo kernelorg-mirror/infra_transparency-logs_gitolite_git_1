@@ -1,59 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 19 May 2022 12:59:09 -0000
-Message-Id: <165296514950.30548.12941682958823911426@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2605448790127015055=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 19 May 2022 12:59:43 -0000
+Message-Id: <165296518346.30847.7014705601963466747@gitolite.kernel.org>
+
+--===============2605448790127015055==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: ee33af9b307b42ed4875b9b2ad5a6d4bd8bca611
-    new: adee8fb9291c6ec8ef2032bb4c1df41caa0fd899
+  - ref: refs/heads/master
+    old: fa755afe709752b4c8f31988970b74696cb4ec9d
+    new: 7085d6633adeff5d45f75124edd2cb8fc11e2758
     log: |
-         adee8fb9291c6ec8ef2032bb4c1df41caa0fd899 floppy: use a statically allocated error counter
+         7085d6633adeff5d45f75124edd2cb8fc11e2758 5.10-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 4952ed6310988e170a8bd4e679edb8162a089505
-    new: ef34b0c0cb3d40df50d829697aa0ee838e9330b8
-    log: |
-         ef34b0c0cb3d40df50d829697aa0ee838e9330b8 floppy: use a statically allocated error counter
-         
-  - ref: refs/heads/queue/4.9
-    old: 8d0cee5d2384185ada1a0731c2ab3d18ecc6b379
-    new: 934d9cb3471be8b94f64cd7081cf3cfb0dece26d
-    log: |
-         934d9cb3471be8b94f64cd7081cf3cfb0dece26d floppy: use a statically allocated error counter
-         
-  - ref: refs/heads/queue/5.10
-    old: 97125ba3a0257f9640cfe798687b614661efe68a
-    new: 76d8c5892284979392b63e11dda2f25df4396d60
-    log: |
-         7883dd1066d5de156c0fb29d3e73ca9c28ee08bc usb: gadget: fix race when gadget driver register via ioctl
-         993317e4d141a32458270c4b6ab17acc538ad978 io_uring: always grab file table for deferred statx
-         76d8c5892284979392b63e11dda2f25df4396d60 floppy: use a statically allocated error counter
-         
-  - ref: refs/heads/queue/5.15
-    old: ecc716c5c4dcef850b1642f275009155e1a9e0e4
-    new: 3def81e9dcb302150ff4b05a315089db36a973c2
-    log: |
-         3def81e9dcb302150ff4b05a315089db36a973c2 usb: gadget: fix race when gadget driver register via ioctl
-         
-  - ref: refs/heads/queue/5.17
-    old: c75b565bbbe2026064f41a850856d552874f490c
-    new: c5dc29bc3028a2697ad17f758bc69c0464836089
-    log: |
-         c5dc29bc3028a2697ad17f758bc69c0464836089 usb: gadget: fix race when gadget driver register via ioctl
-         
-  - ref: refs/heads/queue/5.4
-    old: 543b953552de626c8f48dd2504b932b0edba97a5
-    new: 8f9561fe610232cdb5e1c5149a9ac4ff4fdb4583
-    log: |
-         81deeb5e8230aebb743f01d2ddba6e11570b7961 floppy: use a statically allocated error counter
-         98af27eb7159b153aff821ca4752e72b5f202fec x86/xen: Make the boot CPU idle task reliable
-         8f9561fe610232cdb5e1c5149a9ac4ff4fdb4583 x86/xen: Make the secondary CPU idle tasks reliable
-         
+
+--===============2605448790127015055==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652965182 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1652965180-c3d2a0b8b5759d408b0a62f237db53e177a3abeb
+
+fa755afe709752b4c8f31988970b74696cb4ec9d 7085d6633adeff5d45f75124edd2cb8fc11e2758 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGPz4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8IsQALyQnfZLcxHxT579CM8o
+1T5Dc4W/oT0b9tjksV4LBOU5j0ktUzSrUfej7BPAO/Zxk5D8kChzH0o9qlmwz4wh
+ekbPE7RV36VRFEj8gOb4X9fDQZjZ70VlDCKPQMtlCh7T0qkp5sxlr6q/825SUSjp
+4isGjRjftGUf7xv0bZSIic1A6N5SWghYd1O1wysFn4krHWqzO7tce21RU8cosOlq
+ViP2DqXGK2/Jf/lN+haWPHLrVgzQ3lheJAxF4v+KwwfOMhXp0xrggpzVfWhmd96i
+YxVFx7DWEojFdN8+GtN0Z9qMfnI6SvAg721D81Oif6QpIBV/Yq15CKS7DOeLMEK1
+KD7tXEUzVGPOn4KfaQKtGm+I1+cpvcYTbIFys1GnJvrxcSvyGJxHGnCaM82Xne1d
+gM2CoT+8LXgcAnTIs8J9V+uis7GZewXrpo5pIT0nTxQTahNWgEWC91evgjlY30t+
+i2/gV3UIwTuaNm3AdoYyPRmXMBgvnk//0X6Gf0l0obWXyqVlUsDG3WIu0Mi5IAZw
+rSLWlhFmQVvtCC8UMdrGmB64p+HRfXAt4A+0grvOO/Yr4ZWOEfGTW8WONKFKqTmt
+5GYBrYZga86MBTiWDRn+HqIKMwEQXLxOK0FzCaXPxJnKWSY4zlyZqL/1rTXm7ZMA
+4sybMG7N9lOxQgj2INIJMN0D
+=zjUY
+-----END PGP SIGNATURE-----
+
+--===============2605448790127015055==--
