@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0192457732982357802=="
+Content-Type: multipart/mixed; boundary="===============1898072753456885303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 19 May 2022 20:12:44 -0000
-Message-Id: <165299116473.29841.10026260157252170835@gitolite.kernel.org>
+Date: Thu, 19 May 2022 20:12:53 -0000
+Message-Id: <165299117355.29979.18374482587980690789@gitolite.kernel.org>
 
---===============0192457732982357802==
+--===============1898072753456885303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: bb7b7a0518318677b555798dccfb242ff6c92341
-    new: a804364d4ad9b46f1ffb30f2ff8f5ddb8e94e6cb
-    log: revlist-bb7b7a051831-a804364d4ad9.txt
+  - ref: refs/heads/master
+    old: d887ae3247e022183f244cb325dca1dfbd0a9ed0
+    new: d7e6f5836038eeac561411ed7a74e2a225a6c138
+    log: revlist-d887ae3247e0-d7e6f5836038.txt
 
---===============0192457732982357802==
+--===============1898072753456885303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652991159 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1652991169 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1652991159-e66ce5f5d9da1cbb6e8c60a0fd7f6ee249dcead4
+nonce 1652991169-5f4eec597f4b39b59e849f56d56799165ade506f
 
-bb7b7a0518318677b555798dccfb242ff6c92341 a804364d4ad9b46f1ffb30f2ff8f5ddb8e94e6cb refs/heads/testing
+d887ae3247e022183f244cb325dca1dfbd0a9ed0 d7e6f5836038eeac561411ed7a74e2a225a6c138 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKGpLcTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXe5qB/9t0skOcH68K3Mv99boFOzCdhOj9ZLp
-YPTiRf1tadp5eCpodrL7A7Gw2VBd0iauA/xuerrD5XF/0RrJ8JCmRnCvQDB8GksK
-YUtfYfhfIaTnCe8EGGh/OlvxJqqCL6ex6bbKqulhOR8CceViv9Z5xCf1unyJovAn
-uZEYmKijbKQFel1J1wTR47r+5NPmsVCAW0TRJjm0zR+6FJqxZWi5PV78ja3HWcDS
-HR9Gy2OIcV3OTjT56td36iwzeblfiIYrCmZHxovDFWzylDow0uyR4yTmiZTi8wPA
-oEvB4RcQV+Q52pcp6Cts8dcP/DKF93ltD39NNAUj0U56k0n7CC7OcoG2
-=FEJs
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKGpMETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXRjPCACRq+OrWYWA9zbpmiOcSMUX4waQ4GQI
+Ood2BCtCALLMx1+NePYN/bDiWbuGVEmUbLZIU0UX3wfZxZBaxJ2HdC8U7VD3Gy06
+31h9OkXMLs/WkZK6hx4vBwmrwwZvcMM3anuQtN0GCviNRnCAUudLgA82OPIHcDLC
+pk3SbRjjK1zass27GgafEh6cSqG857NrLmOGtxsrq1FUY9vUUdQlQvZwCQLqgkSP
+H2gyUoNgg6+oVelocKE7Rno5/T4t1xhV+99civ4aiD40j2siRT4usVxBYtaxKv47
+bls4RlMpQi9hzYhYGgU0SHhvLuJZH2v09Is0d0ocJ1AvyFcuCQS9+ckB
+=jr6F
 -----END PGP SIGNATURE-----
 
---===============0192457732982357802==
+--===============1898072753456885303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb7b7a051831-a804364d4ad9.txt
+Content-Disposition: attachment; filename=revlist-d887ae3247e0-d7e6f5836038.txt
 
 6f277adf11890c09853df4417e96650f7dd5029b arm64: dts: rockchip: Change io-domains of bpi-r2-pro
 77047ed73dd8b80c209bf5b5c215b858f1f5b14a arm64: dts: rockchip: Add gmac1 and change network settings of bpi-r2-pro
@@ -210,8 +210,17 @@ cf2df74e202d81b09f09d84c2d8903e0e87e9274 net: fix dev_fill_forward_path with ppp
 2456074935003b66c40f78df6adfc722435d43ea netfilter: nft_flow_offload: fix offload with pppoe + vlan
 f2ef6f7539c68c6bd6c32323d8845ee102b7c450 net: phy: micrel: Allow probing without .driver_data
 8e6004dfecb7bab0d8945989917fbcae5d3b50bd net: phy: micrel: Use the kszphy probe/suspend/resume
+2af84932b3a1db29e37b10ef7f268da47489eb16 can: raw: raw_sendmsg(): remove not needed setting of skb->sk
+51a0d5e51178fcd147c1b8fdab2ed16b561326db can: raw: add support for SO_TXTIME/SCM_TXTIME
+9f39d36530e5678d092d53c5c2c60d82b4dcc169 can: isotp: add support for transmission without flow control
+2aa39889c463195a0dfe2aff9fad413139c32a4f can: isotp: isotp_bind(): return -EINVAL on incorrect CAN ID formatting
+94737ef56b610d94a24fadfb8386fc17dbd79ddd can: ctucanfd: Let users select instead of depend on CAN_CTUCANFD
+30abc929132929b52fa7203c35e60335c500bd17 can: slcan: slc_xmit(): use can_dropped_invalid_skb() instead of manual check
+48b171dbf7b65c188b533c9e19dce88d028cc26a dt-bindings: can: renesas,rcar-canfd: Make interrupt-names required
 da2172a9bfec858ceeb0271b9d444378490398c8 ptp: ocp: have adjtime handle negative delta_ns correctly
 f008f8d0305cdf930de97d4f746f2a6bc9338385 net: dsa: realtek: rtl8366rb: Serialize indirect PHY register access
+14e1e9338c08a56454afa982d2880846d0a1609f dt-bindings: can: ctucanfd: include common CAN controller bindings
+ba3e2eaef1ae5019775989aeec3be8e9df83baa5 docs: ctucanfd: Use 'kernel-figure' directive instead of 'figure'
 c43ce39870b3cff3cefb1faf78c577153edc2dde selftests: mptcp: fix a mp_fail test warning
 0ea5374255a93eee517b76df066a02e301c43fe6 Revert "mptcp: add data lock for sk timers"
 ea1e301d04b7dc47e9e25ebba461c397f4d4e767 mptcp: sockopt: add TCP_DEFER_ACCEPT support
@@ -343,9 +352,5 @@ e43d940f480b69ab98dd5d14e9fefdef8851db1a nfp: flower: support ct merging when ma
 c1318b39c7d36bd5139a9c71044ff2b2d3c6f9d8 tls: Add opt-in zerocopy mode of sendfile()
 d904c8cc0302393640bc29ee62193f88ddc53126 Merge tag 'net-5.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d7e6f5836038eeac561411ed7a74e2a225a6c138 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b76b163f46b661499921a0049982764a6659bfe7 can: isotp: isotp_bind(): do not validate unused address information
-caf6b7f81e053dfdc5f16e943b355bc954e0de34 can: can-dev: move to netif_napi_add_weight()
-2329f3e6baf3dcb4feb1e1416589b7f1c5e4f429 can: can-dev: remove obsolete CAN LED support
-a804364d4ad9b46f1ffb30f2ff8f5ddb8e94e6cb can: mcp251xfd: silence clang's -Wunaligned-access warning
 
---===============0192457732982357802==--
+--===============1898072753456885303==--
