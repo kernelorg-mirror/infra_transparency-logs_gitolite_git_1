@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 19 May 2022 23:40:54 -0000
-Message-Id: <165300365425.6160.15829166653124617002@gitolite.kernel.org>
+Date: Thu, 19 May 2022 23:41:06 -0000
+Message-Id: <165300366640.6317.12813201690225530287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: cfd4b5f1fc0af7b88938a34c259ff7d9262b14ab
     new: e9c7a40274cf611cb551ddaad6aadd0243a7ae1c
     log: |
