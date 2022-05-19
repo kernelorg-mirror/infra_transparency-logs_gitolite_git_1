@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2987879793626266499=="
+Content-Type: multipart/mixed; boundary="===============2977374000305558720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Thu, 19 May 2022 16:54:36 -0000
-Message-Id: <165297927675.29171.5386082287307812041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 19 May 2022 16:56:24 -0000
+Message-Id: <165297938480.31235.15288517075956906260@gitolite.kernel.org>
 
---===============2987879793626266499==
+--===============2977374000305558720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
-    old: e0208351383c19e62f5f04209ce4ecf24db64eaf
-    new: 53c83d6d8e399fad3d3d25df0ea0d54eb0f94f88
+  - ref: refs/heads/char-misc-testing
+    old: dc6a7effb48e7267c9f1314e3aa8cfe539bd6096
+    new: 80ad54a63af3a3e2eb701fbf30242a922c4fac47
     log: |
-         53c83d6d8e399fad3d3d25df0ea0d54eb0f94f88 siphash: add SPDX tags as sole licensing authority
+         da4864962d768b33e3bc31cd233270af6226686d binder: fix printk format for commands
+         dafa5e9ab8b5b31d64c0ded188d95f8bb6be9746 binder: fix potential UAF of target_{proc,thread}
+         aed86f8add0e3f63a033861f247c9ae956b72c92 binder: fix atomic sleep when get extended error
+         7394d2ebb651a9f62e08c6ab864aac015d27c64d scripts/tags.sh: Invoke 'realpath' via 'xargs'
+         80ad54a63af3a3e2eb701fbf30242a922c4fac47 drivers: comedi: replace ternary operator with min()
          
 
---===============2987879793626266499==
+--===============2977374000305558720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652979274 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1652979272-c3bf8031d1f5d029cbb9858858fe72ad1283e508
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652979382 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1652979380-cc711ae1c73614bf1930828bf84bc7785929f233
 
-e0208351383c19e62f5f04209ce4ecf24db64eaf 53c83d6d8e399fad3d3d25df0ea0d54eb0f94f88 refs/heads/spdx-linus
+dc6a7effb48e7267c9f1314e3aa8cfe539bd6096 80ad54a63af3a3e2eb701fbf30242a922c4fac47 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGdkobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6xYP/1pYY1K6AKWKpfpoGSQv
-uQJ3r+LpQoT+QGY6qSW0tIgOjEnyZqzIBG+cCEfJ0egMqnpjxxgQFr2FwcVXt1vi
-S1zAjtm/uosnTbN/Po7ylF6skaipk9bR9jkd0HDB3fqjlDYV0kaMMNnHM00GUb4X
-7MwA6pdNw7F8et9NiFLwMZeTwSeo3wvPhVINtXs66KR0FbGCV753dY1bYxFQfgmf
-byr0AaTeeNEi3daFzvwKoKd+5pYoKWHgng9RC7Xn3eshvFkVCPBXcBz1zktmXONM
-Mwa5S3QrSbsDZgJBX/RkyAZwe1bhdMjKBp/7BSGrUtlxBbhDrDghf20O4yHUhOsQ
-ifrKlmzWaMwedYI1tzFvHDmzZ+Len21KjxaeRjejraGRZf/B7HjzKGuAWbGMs0tW
-7fy8LSVdxqdjOvjELhHmA9c0wQjw3XsrCOv1CCPn8CVagLI6SFGzyeq6T3MMR5DI
-37yHSMgf7TQ5bECbXTpSlB6U8EEqugcSesAHwQGS5U+0ZBfXHkh1IDTWt+z4Fbu9
-XcKgGKi+O/t33XcM56L/Pzwoz636+Dted/XHX67LVkII3j8wys/CYUNHgefR4SMn
-212Gdvp1TkKpNzh0F+XkBGpjqoyPWQ7l309OCYKCFCkVxCsFn6kWrddo9/kCwcO+
-DJS6oNDRAEVbmcl33CoKnYeM
-=IWtf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGdrYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+axUQAMJXE9cG4HfGhHl1rp5R
+omwT73tVhEwlIyQsqRmV9eEwJ+cPu+u6aiamwUDnU8WwOgErdTPHDWSIr2Io7l7S
+yILwEPHtBJJlaXdVC12sd7hGivcyp2DBnpdTRiccwz0b4lfAIMCXZ5/s/lWUAGwK
+fGx1siX3eb0oIkEdy9ofU3hdMXkcZdiKMEYIDcLbLL1w79oCgUztao5h/kfgsLsl
+3nGCxQJWpXHM2zpj9mqjPpDS3GIhuwkgPuWpG2zIIaAAdWpEi5khvYyxp2rdNMtH
+n7ppGhI6jFI2+BjtaBgKotiFzC/TxY1VtHSKCyuY4+rR1Pfhdj6Fwnm3yHFLhttC
+3YJaIJXveochshX6ppQMHtRAvGQCXad1ZD9m8v6J9dcWZ2jnHHtCp5EqR3fkc6wl
+B3BmoVJAQVG9RNfoaP81FukLUGOPyQFIjT77S0PA9CFkXLmH7XmOwxU420mgfNVU
++mVELXLbU6Zoc6Qf8NZlPM9/YoEptQuSt8emjk6xeG7sz3pIYK9CaecG9K6uh7O4
+h7+5A+x/Vqj3Lr9uo5CM58TlxJm0BYNb1pxnLk5Qa+Yk3C9NLKbjkSvoFOUaSzxg
+uZWQg5pIB/tz1YdPVhuV9c/06AsjwRy9CPZifEWQQJV7JCqr9QmWqVoPrkZFWYWa
+o3l1xxw5MTKHMZI3Lbo1+Djt
+=a3zT
 -----END PGP SIGNATURE-----
 
---===============2987879793626266499==--
+--===============2977374000305558720==--
