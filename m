@@ -1,85 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2648997073050115651=="
+Content-Type: multipart/mixed; boundary="===============1348662505968084982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 19 May 2022 17:39:59 -0000
-Message-Id: <165298199956.26821.13043090520944708216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 19 May 2022 17:50:58 -0000
+Message-Id: <165298265863.3490.6952147444056229998@gitolite.kernel.org>
 
---===============2648997073050115651==
+--===============1348662505968084982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 6646b95aab5f62c049f1416a3801dec5432c348b
-    new: 9dcff75d39f246f3bb39b2816f35f54d6add8545
-    log: revlist-6646b95aab5f-9dcff75d39f2.txt
+  - ref: refs/heads/for-next
+    old: 93c0651617a62a69717299f1464dda798af8bebb
+    new: 7eb6369d7acfe87df73848b3757c648e8f352b86
+    log: revlist-93c0651617a6-7eb6369d7acf.txt
 
---===============2648997073050115651==
+--===============1348662505968084982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-93c0651617a6-7eb6369d7acf.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652981999 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1652981997-d41dded4835f44414c541a5bf0939b75492cc02b
+9f79b8b7233942e9c4b071f1f331f17e7282bbfa uapi: simplify __ARCH_FLOCK{,64}_PAD a little
+306f7cc1e9061313c46d19e9bdffc819880794c1 uapi: always define F_GETLK64/F_SETLK64/F_SETLKW64 in fcntl.h
+3ce0f2373f7073f04715b1ffd7b1812d3183f79a compat: consolidate the compat_flock{,64} definition
+0cbed0ee1dbcd7ecd890e6af297c9d133f730021 arch: Add SYSVIPC_COMPAT for all architectures
+f18ed30db299458f809aec55bf1800dbeebeb953 fs: stat: compat: Add __ARCH_WANT_COMPAT_STAT
+84a0c977ab9821a4b57f69d9a6108f64188d1e71 asm-generic: compat: Cleanup duplicate definitions
+c86d2cad193a5c7f9b92467955bb7fb6642b9e80 syscalls: compat: Fix the missing part for __SYSCALL_COMPAT
+72f045d19f25f19be6d7682d5b1d948e20580817 riscv: Fixup difference with defconfig
+06d0e3723647610936660c3c2a144c6243367c3c riscv: compat: Add basic compat data type implementation
+01abdfeac81b5f56062d0a78f2cdc805db937a75 riscv: compat: Support TASK_SIZE for compat mode
+59c10c52f573faca862cda5ebcdd43831608eb5a riscv: compat: syscall: Add compat_sys_call_table implementation
+dfb0bfa738f5c58b5c6e81262a0ee4ba154c3f28 riscv: compat: syscall: Add entry.S implementation
+69d0bf4cc668387f8b8bf89c2b77568c7bbe722e riscv: compat: process: Add UXL_32 support in start_thread
+87309e1082481bb78a9fbea6ed6784d979ff93c9 riscv: compat: Add elf.h implementation
+f4b395e6f1a588ed6c9a30474e58cf6b27b65783 riscv: compat: Add hw capability check for elf
+0715372a06ce17a9ba69bbec306ddf30c4bad99e riscv: compat: vdso: Add COMPAT_VDSO base code implementation
+3092eb45637573c5e435fbf5eaf9516316e5f9c6 riscv: compat: vdso: Add setup additional pages implementation
+7383ee05314be58f8f9f018ee0ac53bef3808aea riscv: compat: signal: Add rt_frame implementation
+4608c159594fb40a5101357d4f614fdde9ce1fdb riscv: compat: ptrace: Add compat_arch_ptrace implement
+9be8459298eadb39b9fe9974b890239e9c123107 riscv: compat: Add COMPAT Kbuild skeletal support
+7eb6369d7acfe87df73848b3757c648e8f352b86 RISC-V: Add support for rv32 userspace via COMPAT
 
-6646b95aab5f62c049f1416a3801dec5432c348b 9dcff75d39f246f3bb39b2816f35f54d6add8545 refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGgO8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HJ8P/iivtvIhviJTMKl+82LP
-nvsVlTAkBZb+H8OQsV2Djosq7BsPzSuEV4cPMJ8ZBDaDUAZ+MlUgtnQxJ8bfEO4b
-pfQAiwO/06ZhBaaNwrKCpTDgU0cC41JGZeBLUVqBQscRPkRd6DFxLPKQJ6PiCwZm
-8Uk8G0SmmtsdHqmXbV72ZCj3G+8o7cJwIYfyPOnZVQQAsd+ayLJ6vh+3KccUkGF7
-uH1T4vE4GRtk0oCf/QPcJdQe1gIkWHUxAAGLhesr/1klSyGQn3G2/Gy+s+kujI8a
-zRRgae7biqKhfWZcPbNLg8vEWtXf0yB/NPsOiuYkX8VwEyqxGjNyExI6fjujtlL8
-8G9UeV43sryJjXsgeT2PUq0FSYmDKChUzPoj4UIE3HbpwiP4VwXVvmUqJU8C3qdU
-NiAcDJzeo5fHrbZZQPISlSRx8weNf37b8sKR8JwfSvy87BffodW9ZUQIho20H7hQ
-kT8O1xrq958003zyZ17kPGtM9pj0y825gsAsEkcfJZQmdfN6sy6Dqalg81Bgchls
-y+8UPj5ZGXCEnunjUF5e9HI1h6EmkqH5EQT7anqZQcX5aBPACZ0yiWlrz7vPQLdG
-Hy++Hc0Jaxo3uOEin0Ie4QEVpMIl0dWehzFVQWtY/GCh29RNF6nkogZWW7ygj1q+
-r/hckqRVha9xUvfXl0iOBDgR
-=DRiE
------END PGP SIGNATURE-----
-
---===============2648997073050115651==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6646b95aab5f-9dcff75d39f2.txt
-
-ea3364db9068e37bd8e12b9a99c7c92385593ed7 dt-bindings: interconnect: qcom: Add sc8280xp binding
-f29dabda7917d293926b2f756747c6c1d4054444 interconnect: qcom: Add SC8280XP interconnect provider
-1625aaa3fe7c7f95e75d8be646e83a46a376c7ae interconnect: qcom: constify qcom_icc_desc
-2ccf33c0638893851c7027dee149efe99d5363e0 interconnect: qcom: constify icc_node pointers
-7123f8836392f15b33ed49b47b7d4001a9577cf5 interconnect: qcom: constify qcom_icc_bcm pointers
-d405ac52ab19301622bddabf4bf925d199937823 dt-bindings: interconnect: Add Qualcomm SDX65 DT bindings
-39a5392889c0dcc943958f029d71d4c96af791fa interconnect: qcom: Add SDX65 interconnect provider driver
-3d28502d529112ac91a9d400bf13fefe9653c9b5 interconnect: qcom: sc8280xp: constify qcom_icc_desc
-fcb3cd7e3af9df45d01066fced068ccdb0f1c283 interconnect: qcom: sc8280xp: constify icc_node pointers
-01c3f0387c638127fddc1849cb2bdee7f50d88f3 interconnect: qcom: sc8280xp: constify qcom_icc_bcm pointers
-65fac3b3493f74eed6a7dcbc1835c1549b70f167 interconnect: qcom: icc-rpm: Fix for cached clock rate
-97f7d384ac4fcadfc0fb83519be23ccd59b4250b interconnect: qcom: icc-rpm: Cache every clock rate
-bb4b905b738cbc230873fd0ff0e62cd7499c1b11 Merge branch 'icc-sc8280xp' into icc-next
-828ff75c44f47fb049d53a63fa92782680ba5c27 Merge branch 'icc-sdx65' into icc-next
-b9e2a1d50e36688d9e515cd981bf3e501a300451 dt-bindings: interconnect: Add SC8180X QUP0 virt provider
-a3e45cf838c8eb91628b03862595861c6d426c1a interconnect: qcom: sc8180x: Modernize sc8180x probe
-42c4e3f670b97df0c9e23ca2f7080ff7cd591837 interconnect: qcom: sc8180x: Fix QUP0 nodes
-ce83211c87caaf3a19e24225809db53b8051264c interconnect: qcom: sc8180x: Mark some BCMs keepalive
-04548d4e2798d4b90f8270b8bb708038dd33d7fa interconnect: qcom: sc8180x: Reformat node and bcm definitions
-016fca59f95f6a327595b8f3f3c39979c177d676 Merge branch 'icc-const' into icc-next
-314cf651fa83b83aa487299cdfe95fe1e8fb8fbe Merge branch 'icc-sc8180x' into icc-next
-3a4c63f5d904d83852a2e4df13fcb89cce977405 Merge branch 'icc-rpm' into icc-next
-3be0ec65fd17b9677d0a4c8913ee359bd941da5d dt-bindings: interconnect: Remove sc7180/sdx55 ipa compatibles
-9dcff75d39f246f3bb39b2816f35f54d6add8545 Merge tag 'icc-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-
---===============2648997073050115651==--
+--===============1348662505968084982==--
