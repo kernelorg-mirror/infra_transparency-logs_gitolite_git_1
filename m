@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 May 2022 04:37:31 -0000
-Message-Id: <165293505150.14473.11280293217990801898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 19 May 2022 04:40:38 -0000
+Message-Id: <165293523888.16929.9359117549126779962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 6fd45e79e8b93b8d22fb8fe22c32fbad7e9190bd
-    new: 090f9dd092c6c2e9e4b9d0472b8d8628e4b851cb
+  - ref: refs/heads/mlx5-queue
+    old: 76473af190954e89ccd6d89d5058d8f753e9061a
+    new: c3afd73eb5ea25a1de071e916a12ffefcc14f555
     log: |
-         396ef64113a8ba01c46315d67a99db8dde3eef51 netfilter: flowtable: fix excessive hw offload attempts after failure
-         45ca3e61999e9a30ca2b7cfbf9da8a9f8d13be31 netfilter: nft_flow_offload: skip dst neigh lookup for ppp devices
-         cf2df74e202d81b09f09d84c2d8903e0e87e9274 net: fix dev_fill_forward_path with pppoe + bridge
-         2456074935003b66c40f78df6adfc722435d43ea netfilter: nft_flow_offload: fix offload with pppoe + vlan
-         e5eaac2beb54f0a16ff851125082d9faeb475572 netfilter: flowtable: fix TCP flow teardown
-         2738d9d963bd1f06d5114c2b4fa5771a95703991 netfilter: flowtable: move dst_check to packet path
-         9e539c5b6d9c5b996e45105921ee9dd955c0f535 netfilter: nf_tables: disable expression reduction infra
-         7dc02d7f0832236cc3b7f9fc0ca085aed70b79d2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-         090f9dd092c6c2e9e4b9d0472b8d8628e4b851cb selftests: forwarding: fix missing backslash
+         c6dd9d43bc27952ebcd63c575feaaf58ae9ba6ca net: Disable LRO feature if no RXCSUM
+         859ba6490b585b3683e96febcf36201dc7986e90 net/mlx5: Add bits and fields to support enhanced CQE compression
+         f5def19f32bba7a652a205a339accb5025f41925 net/mlx5e: Support enhanced CQE compression
+         3dcc1e976f6cd10460f4bdcb454cc6469dff9f71 net/mlx5e: Correct the calculation of max channels for rep
+         2b0a5b9a630a5bc44ed5dfa3db81cf31b42bf78b net/mlx5e: IPoIB, Improve ethtool rxnfc callback structure in IPoIB
+         88d14351d5b82ade7f167db0be993c1dfdd6b626 tls: Add opt-in zerocopy mode of sendfile()
+         1d87b2517a5527a5d3625eefaf09939f3d492106 Merge branch 'patchq/323390' into mlx5-queue
+         ebc8b09332a656f625ccb7a2fc9db513f3db56f0 Merge branch 'patchq/500380' into mlx5-queue
+         b1598c971b597bff5fdbd9f92275b41084b3d3b9 Merge branch 'patchq/495559' into mlx5-queue
+         c3afd73eb5ea25a1de071e916a12ffefcc14f555 Merge branch 'patchq/386777' into mlx5-queue
          
