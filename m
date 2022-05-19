@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 19 May 2022 10:01:01 -0000
-Message-Id: <165295446122.12246.10844424496154549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Thu, 19 May 2022 10:12:14 -0000
+Message-Id: <165295513464.18703.4036537143678753977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: b885aab3d39d1c81709e957324c7fb9aeac02c38
-    new: e43d940f480b69ab98dd5d14e9fefdef8851db1a
+  - ref: refs/heads/rtc-next
+    old: e60e8a73235ce5d42a2891c6989e8df1c8888c4a
+    new: b520cbe5be37b1b9b401c0b6ecbdae32575273db
     log: |
-         e43d940f480b69ab98dd5d14e9fefdef8851db1a nfp: flower: support ct merging when mangle action exists
+         d3b43eb505bffb8e4cdf6800c15660c001553fe6 rtc: mt6397: check return value after calling platform_get_resource()
+         b520cbe5be37b1b9b401c0b6ecbdae32575273db rtc: ftrtc010: Fix error handling in ftrtc010_rtc_probe
          
