@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4141705653115480895=="
+Content-Type: multipart/mixed; boundary="===============6327499423553600581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 19 May 2022 16:33:00 -0000
-Message-Id: <165297798064.14507.16320759941504804465@gitolite.kernel.org>
+Date: Thu, 19 May 2022 16:33:55 -0000
+Message-Id: <165297803548.14845.2198415344409470693@gitolite.kernel.org>
 
---===============4141705653115480895==
+--===============6327499423553600581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 0258502f11a4f6036b5f8b34b09027c8a92def3a
-    new: ef44c6c1e86fa89f20d27713d7268d7c7689af5c
+    old: ef44c6c1e86fa89f20d27713d7268d7c7689af5c
+    new: 25e02ba60f0fbe65ba07553b5b2b8867726273c4
     log: |
-         3f7fed405c118607d4d42255f2572072db728399 serial: uartlite: Fix BRKINT clearing
-         fd63031b8c0763addcecdefe0e0c59d49646204e serial: digicolor-usart: Don't allow CS5-6
-         098333a9c7d12bb3ce44c82f08b4d810c44d31b0 serial: rda-uart: Don't allow CS5-6
-         79ac88655dc0551e3571ad16bdabdbe65d61553e serial: txx9: Don't allow CS5-6
-         9b87162de8be26bf3156460b37deee6399fd0fcb serial: sh-sci: Don't allow CS5-6
-         c069d2756c01ed36121fae6a42c14fdf1325c71d serial: sifive: Sanitize CSIZE and c_iflag
-         52bb1cb7118564166b04d52387bd8403632f5190 serial: st-asc: Sanitize CSIZE and correct PARENB for CS7
-         1deeda8d2877c18bc2b9eeee10dd6d2628852848 serial: stm32-usart: Correct CSIZE, bits, and parity
-         ef44c6c1e86fa89f20d27713d7268d7c7689af5c pcmcia: synclink_cs: Don't allow CS5-6
+         25e02ba60f0fbe65ba07553b5b2b8867726273c4 tty: Rework receive flow control char logic
          
 
---===============4141705653115480895==
+--===============6327499423553600581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652977976 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652978033 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1652977975-34c2194f6c3896547c8dc401a88990e7f77a8ba7
+nonce 1652978032-92bb749a92c7f4fda3eb1e3b028846fef1a1d515
 
-0258502f11a4f6036b5f8b34b09027c8a92def3a ef44c6c1e86fa89f20d27713d7268d7c7689af5c refs/heads/tty-testing
+ef44c6c1e86fa89f20d27713d7268d7c7689af5c 25e02ba60f0fbe65ba07553b5b2b8867726273c4 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGcTgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UuoP/1NzMY6KlrbYjx8H8Ry8
-ffgZQa9hYLHiKNnbrjA2weTrpk1vf1O5rYQ9xxb6nksrzgElymDSvKMA2doDN3Hi
-JJX/ZhX0PgwpbNy2GDOrjsOxkyfAFWphc+s5JDgjNGoIszAEDH0UNC9DpDd8I1T1
-OEwp5wa5eYlCubOGhmyss28Bl9bfuAvqT0SgyPuHDjFXumBT/dkIIkJh3HjlAQyX
-ylsN1aQi7vrggRNUkbc2/UGWmd6IA/UO2x88WPiEfUorlbyujPSsyXvVB42NwOGy
-dnGqMwy4xeV7ZRrJT34G0cxJJg8giXRX1kZeBBX9a6T3sRVKcXfW6cL4dfDSyF4f
-SkvgxBZP2pUiLN6I/w6pbgEKtQtbRk0VAVXQ1kA7KGC4o0g2IQeHUiyloDSY81T5
-s60WXxG/ebEEzqAkHgrJlAwUxytIgxhe6eRHVGkJ1SYafNOQz+eqJEuS7ovKo/uB
-AilFj3NzT58S822U/Vwv/cCUfbHiLx3vFW9Q07pqeDKJWN+/ea6xAXoR73xeLjNB
-HjrGCnjodnwzlF6PFHl7IBXRmwZ95WxPbVVGAgnYadhrrcX6JIZ1gyU/XljTASqt
-YEfAk0U44hw+vl5mnhqGJbF/9Qq+9M9PF68W6AjISUu59h1IeoFotFjnEL79u4Pr
-CbFIU2ZdN/miRJvj5xm0/GlR
-=f4c+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGcXEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wCIP/2tW6UM1h6hkPK+dQT7F
+rc9DEC8KQMwRyrj03rjwLMEPpXjBm91/rSA3a75SjIBZgEgG18mnIWqAYEFTug0/
+V+I8hpZqehIMgtGc5dVQKtDY5gjcstH63d4L6eEh0CmffH5b/dsq2+LQXh0OXjJ0
+zsKNW2vuP51lBZ6lxXSa4Q82y6lNbSQbZGXtSrjzp52JE71ppVJZRCr3m5DCKtKY
+X5+nvdlC81jbxJ5w7KQw2D3R0gAsiIY7UF4E7YzuCK/7zZrsf+PCiNObNTJZJ9ku
+7+CJNm3onF7JxyiOfoIjiqjYg5Cxx47OyqmR/O1KwcMS7EGLzdbM0IrbIRb3PQbc
+d3ud0I3U7bdJWwgUx+wDgZGrdzdEnWVgWLkGsC+85OFR1WJOFYaBLPUNtY+y+QX/
+XjqwsjKQMjJWA9ejCpqwDXLappgeSnoLnHM2fcwd+WaBDZm9jYO9bZXGQKEIJPbc
+QsIbN8tp6tOwUEsbWU5nSwGXWIIJne+bX7dkLn3roaQf2OsdedFXQIxSUgkZbusr
+qLaXR7fDl2xehM5zVCrsm2DTzXUiEURTnkCl57/BM/WK+y0XZQvmm1fTyKqhVuap
+qaCg57LAjeKeoGYbPvQqqHBa85bFbX1yeYS5630GBNE0UmlN9kj17dd4jWmMEmB9
+AogM82pID6ps8MEmQ0r+EXyo
+=wAv7
 -----END PGP SIGNATURE-----
 
---===============4141705653115480895==--
+--===============6327499423553600581==--
