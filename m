@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6345263772497341114=="
+Content-Type: multipart/mixed; boundary="===============2071979058282004852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 19 May 2022 16:31:16 -0000
-Message-Id: <165297787662.13805.11257630753333412427@gitolite.kernel.org>
+Date: Thu, 19 May 2022 16:32:18 -0000
+Message-Id: <165297793864.14235.4096357308852260859@gitolite.kernel.org>
 
---===============6345263772497341114==
+--===============2071979058282004852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 2da6f1e5f72a3ea8a5aed85a8473a710d2e41ffb
-    new: f0136f65285bcfb7e8f90d1013723076a35acd51
+    old: f0136f65285bcfb7e8f90d1013723076a35acd51
+    new: 0258502f11a4f6036b5f8b34b09027c8a92def3a
     log: |
-         4088ca3edca80c19cd190fba75af7e7a3194adcf serial: 8250_dw: Update the list of OF headers used by driver
-         295b09128d12fb1a7a67f771cc0ae0df869eafaf serial: 8250_dw: Use devm_add_action_or_reset()
-         57f83e5dd6a33c4696699954784f8fee789b1d0c serial: 8250_dw: Use dev_err_probe()
-         589f892ac8ef244e47c5a00ffd8605daa1eaef8e serial: meson: acquire port->lock in startup()
-         aabdbb1b7a5819e18c403334a31fb0cc2c06ad41 serial: msm_serial: disable interrupts in __msm_console_write()
-         f0136f65285bcfb7e8f90d1013723076a35acd51 Revert "serial: 8250_mtk: Make sure to select the right FEATURE_SEL"
+         af0179270977508df6986b51242825d7edd59caf serial: 8250_fintek: Check SER_RS485_RTS_* only with RS485
+         4ed26f87c71f97d6551caeb2e9e533f8980e764e dt-bindings: serial: renesas,em-uart: Add RZ/V2M clock to access the registers
+         c2194bc999d41eff69301ee723b0c2979b6eb7bd tty: serial: qcom-geni-serial: Remove uart frequency table. Instead, find suitable frequency with call to clk_round_rate.
+         c9d2325cdb92fd4a6362ea792d93571195741675 serial: core: Do stop_rx in suspend path for console if console_suspend is disabled
+         0258502f11a4f6036b5f8b34b09027c8a92def3a serial: cpm_uart: Fix build error without CONFIG_SERIAL_CPM_CONSOLE
          
 
---===============6345263772497341114==
+--===============2071979058282004852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652977873 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1652977935 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1652977872-b9788503f5430f932467f941ddda02a520f3be1b
+nonce 1652977934-fb699996e0bb1b3afac5983d7760b951d29560b3
 
-2da6f1e5f72a3ea8a5aed85a8473a710d2e41ffb f0136f65285bcfb7e8f90d1013723076a35acd51 refs/heads/tty-testing
+f0136f65285bcfb7e8f90d1013723076a35acd51 0258502f11a4f6036b5f8b34b09027c8a92def3a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGcNEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dRUP/2YWnn3pu+cUdf8UMYMt
-qOvXae1Z0+ItVnIndo6EzHMZNh4czvs+893Ww6kKoelx5ppJxMOmyb90w8rk6F+l
-8PqsPvwC4ygRx16GAVHZpwQV+DoJECH5J7wF4SqhK8rJftpSnok6eF73vkdrZ1vD
-qthQZ5eTJ27ecjcbyarRL2DIsI+D8eTyrCbNETwJ5a+8iYcjs8/EXf+EJjaJiCa/
-dgak8qxCk2pxY1lfND/LJ89mUKl3DVbNCvvhf2Wo9r+UwMmEoxgu9XaJs/557TA0
-DKaRudR70VKuoDMW2zP4A409MNCncj+XdQHpztOzfZ5yHvl/yt9jDfr6LKF1TU3Y
-ZRo4PxZ+8TEaf4BM4VgAsGbhJADakcQYSerYGGsCPhGgyR+qiplWxWKhSg5EcyjS
-x2umvVkmAzCPmcne+UbnJJuqe9EKgodLLh4wj6irh6OcRPnlxUfShF0//agjIEiB
-Xi2TFLJ/gb4vyHc97g5KM0W03CKJK+AYTl996qSIwqqOY8TjK3G2Uqzlnvf3qr78
-vJTxlOjXBLW73i422FERsEfjEM7GsHDXQIcX90n5q4OAjWnM+IlCYYpTZQSToA7d
-wYna9n0TJQz5GEdanB9NVRPfWqE561LC3uUvayRBNbqSv1X+lFRHJohbK8txQEag
-4EvY2Hfcfyu2nNeuawjpBwfo
-=kEK9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKGcQ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1EsP/2WAFOiZ59BVtL41VuRp
+n3yTueUsr3XzLPivPL6Qgclkad10ZU4s/nQ6s04LsVYL12y5ovGBaltEOoThOGAp
+JWkncNV//klClemkDTCYwAqz1SdpVXezMgnJ4NLIb7miUpFTv2xD0z08gZKJjteN
+XS/vKBuoPp2d/wPdXRzvVLJdD5pgH5+3zbAxK1U6qzILnHHugo8OLNXEGRWp9Xe8
+5UWhFgbGdOgPY3+TVNUNdjyEfOViZBHyGnKMU5kBe+aG63ydvR6mGgfh/Qym3YMH
+KRNHis0hjQ4zWMzwAlEIKrcpWoyh93NkZA9oorh+Kfnb2lJBdkvDn9hvErofEHpC
+PXC/jxbNuXAGOE3Cwq/Y20+wm7vdoVd6i1TQ6H4GcmZrIhuD5TudQ/wUMw75hVP9
+WC+bJMHOUGy6W317stGmO+vVURp5ikRZR9CLZdhOfSBybSPufcx8lKGI84XAzjGw
+y08AUhRNDcScWLVKv0s3SoN0fwYquVOajGW9HmOkoa9sAmuRyQIZbMUSLDI25vjV
+rRhDh1unIKt46xnKVfJx07ASoihRjFL4HDgzA0PYNMRI2SgKySUItqa22H7itn3V
+89327wBxiqoV0CAGdRZz4IxW4J+ESp/cdjpDFeZsO3VaiWTan2tmWRkTueM8medu
+QZUHV/Sr7FIwIe9uLSEf64N5
+=Ec9+
 -----END PGP SIGNATURE-----
 
---===============6345263772497341114==--
+--===============2071979058282004852==--
