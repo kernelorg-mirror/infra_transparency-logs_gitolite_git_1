@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 19 May 2022 21:42:06 -0000
-Message-Id: <165299652605.24844.11812959620095448409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 19 May 2022 21:48:25 -0000
+Message-Id: <165299690582.29596.6650336322400628483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/clk-for-5.19
-    old: 650eef4b857652560223be9ae438668b0bdd1fc0
-    new: d65d005f9a6cffb1efb205f3af4d0de8f1e3b352
+  - ref: refs/heads/locking/core
+    old: c2df0a6af177b6c06a859806a876f92b072dc624
+    new: 8491d1bdf5de152f27fc941e2dcdc4e66c950542
     log: |
-         a66a82f2a55ef1f47daeb45e0b4074d88ce5ca99 dt-bindings: clock: Add Qualcomm SC8280XP GCC bindings
-         d65d005f9a6cffb1efb205f3af4d0de8f1e3b352 clk: qcom: add sc8280xp GCC driver
+         8491d1bdf5de152f27fc941e2dcdc4e66c950542 sched/clock: Use try_cmpxchg64 in sched_clock_{local,remote}
          
