@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 19 May 2022 03:09:35 -0000
-Message-Id: <165292977531.21099.5178935105672286296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 19 May 2022 03:21:57 -0000
+Message-Id: <165293051785.30707.10094093195946814670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: b465131b80540cfaa83ba11e775bc48a4b056836
-    new: 309ec443079b0c6fcfb93a62c2554a164ade3f3e
+  - ref: refs/heads/dev
+    old: b2a7e376a9dcfa2de46236696dfdd48275edf63d
+    new: b14850c62372e35b101d90112c171fe9af276a88
     log: |
-         309ec443079b0c6fcfb93a62c2554a164ade3f3e sfc: siena: Have a unique wrapper ifndef for efx channels header
+         0634fa7072ddf6cd1efc69b836361d6e4f2d0b7e rcu-tasks: Stop RCU Tasks Trace from scanning idle tasks
+         b14850c62372e35b101d90112c171fe9af276a88 fixup! tasks-rcu: Track blocked RCU Tasks Trace readers
          
