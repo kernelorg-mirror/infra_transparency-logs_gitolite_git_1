@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6762503938610691727=="
+Content-Type: multipart/mixed; boundary="===============7168140167795380911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Fri, 20 May 2022 16:28:10 -0000
-Message-Id: <165306409025.434.18331831207448978496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 20 May 2022 16:31:13 -0000
+Message-Id: <165306427318.3018.15914019868092261398@gitolite.kernel.org>
 
---===============6762503938610691727==
+--===============7168140167795380911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
-user: jkirsher
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: c1318b39c7d36bd5139a9c71044ff2b2d3c6f9d8
-    new: b6d261449e6e4ed69ae654e3b4b41c0c416cf2a9
-    log: revlist-c1318b39c7d3-b6d261449e6e.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 10d5632be54df196a6c91b685e813ad3ff3fa459
+    new: b5353bfd7b8ebe39b01d6785901a1af362bd389b
+    log: revlist-10d5632be54d-b5353bfd7b8e.txt
 
---===============6762503938610691727==
+--===============7168140167795380911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1318b39c7d3-b6d261449e6e.txt
+Content-Disposition: attachment; filename=revlist-10d5632be54d-b5353bfd7b8e.txt
 
 6f277adf11890c09853df4417e96650f7dd5029b arm64: dts: rockchip: Change io-domains of bpi-r2-pro
 77047ed73dd8b80c209bf5b5c215b858f1f5b14a arm64: dts: rockchip: Add gmac1 and change network settings of bpi-r2-pro
@@ -428,5 +428,6 @@ f0488c540e8a36e515c744a531f27a6e994888d6 net: ipa: move endpoint configuration d
 cf4e73a1667e620ef703ff1f86ae96471ffa80f6 net: ipa: rename a few endpoint config data types
 660e52d651ab7faa20d1ba08ae90a306b023e395 net: ipa: save a copy of endpoint default config
 b6d261449e6e4ed69ae654e3b4b41c0c416cf2a9 Merge branch 'net-ipa-next'
+b5353bfd7b8ebe39b01d6785901a1af362bd389b net/mlx5: Delete ipsec_fs header file as not used
 
---===============6762503938610691727==--
+--===============7168140167795380911==--
