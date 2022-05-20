@@ -1,49 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7959139492169925487=="
+Content-Type: multipart/mixed; boundary="===============3838815909295771904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 20 May 2022 16:58:41 -0000
-Message-Id: <165306592138.20393.8478054435739816576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 20 May 2022 17:06:23 -0000
+Message-Id: <165306638379.25792.3841110652655309633@gitolite.kernel.org>
 
---===============7959139492169925487==
+--===============3838815909295771904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: fee5ab8caeb45da3d85da22d94a506d888c7dba3
-    new: cf4dd0d459ecbe16fe08b9d251cbab2978400b36
+  - ref: refs/heads/master
+    old: 6f5adb35045d1100b715aad864589b0c41040ff4
+    new: ea8c66fe8d8f4f93df941e52120a3512d7bf5128
     log: |
-         cf4dd0d459ecbe16fe08b9d251cbab2978400b36 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         4ac19ead0dfbabd8e0bfc731f507cfb0b95d6c99 kvm: x86/pmu: Fix the compare function used by the pmu event filter
+         04baa2233d55e85e0f0f5dfe0401ecb027da9a0e selftests: kvm/x86: Add the helper function create_pmu_event_filter
+         c41ef29cc1d4fa4ac5f1bb8e6ab57bf6f02cf878 selftests: kvm/x86: Verify the pmu event filter matches the correct event
+         e332b55fe79cca72451fe0b797219bd9fe6b9434 KVM: eventfd: Fix false positive RCU usage warning
+         c87661f855c3f2023e40ddc364002601ee234367 KVM: Free new dirty bitmap if creating a new memslot fails
+         ea8c66fe8d8f4f93df941e52120a3512d7bf5128 KVM: x86: hyper-v: fix type of valid_bank_mask
          
-  - ref: refs/heads/for-next
-    old: 4d1ca8ad6f077579ff0ebb73ca8519beee29b1db
-    new: ab0f81aece67f122e162beabe9a34c656c2932ff
-    log: revlist-4d1ca8ad6f07-ab0f81aece67.txt
 
---===============7959139492169925487==
+--===============3838815909295771904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d1ca8ad6f07-ab0f81aece67.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0cfbaee21fcbf131f02c475dbc15f8a18ee621bc ASoC: SOF: Introduce IPC independent ops for firmware tracing support
-25b17da691f3c1a7cc433f864fd4845998a5a37a ASoC: SOF: Rename dtrace_is_supported flag to fw_trace_is_supported
-671e0b90051ec19e83c12501905734fb808b944e ASoC: SOF: Clone the trace code to ipc3-dtrace as fw_tracing implementation
-1dedbe4f223cac603e871d91133b9aa3136fbc21 ASoC: SOF: Switch to IPC generic firmware tracing
-b69979a1ec2d9347a43bf0ebdad2c1eb23447ca6 ASoC: SOF: ipc3-dtrace: Move host ops wrappers from generic header to private
-4b49cbd1e7ebe4b000a7eedc4f910488da62c055 ASoC: SOF: Modify the host trace_init parameter list to include dmab
-08341b27bd2ee3c79265ef7925b3bc68a1790ab9 ASoC: SOF: Introduce opaque storage of private data for firmware tracing
-0683532999ab3890f44f832cd47feee9e2374c22 ASoC: SOF: ipc3-dtrace: Move dtrace related variables local from sof_dev
-affa9983e7cbac8cbe2596975efacdbdf0eb18e9 ASoC: rt1308-sdw: add the default value of register 0xc320
-f7a344468105ef8c54086dfdc800e6f5a8417d3e ASoC: max98090: Move check for invalid values before casting in max98090_put_enab_tlv()
-e5cd20e0d6713138444cc3f3f982712cf9a36143 ASoC: SOF: Introduce generic (in)firmware tracing infrastructure
-cf4dd0d459ecbe16fe08b9d251cbab2978400b36 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
-ab0f81aece67f122e162beabe9a34c656c2932ff Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1653066379 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1653066379-777bc1f71709f52c38d786c9bcd8f044a46b63fc
 
---===============7959139492169925487==--
+6f5adb35045d1100b715aad864589b0c41040ff4 ea8c66fe8d8f4f93df941e52120a3512d7bf5128 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmKHyosUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPeVAgAiK4b2ZhhF4c4q9iOBhAdo7eixO2b
+fYhp0MoWnBCjXMY6NYulTT2E6f4H+ZWC5StKauh9GfxrO0IrVgBHBqF3NqAthmuI
+Uy1T5zpoO79aQskPoJlM62GDH5EhqJA+StzWGsu/tTQM3Tv/2rCC+YugKBczPMtp
+adKex9ypz3g6I+f6EqBAgXz2PN8pFz5EflOpnCfhlOPQ0Ke/RRIxOloyt7Wdb2mI
+2yFvWx7QQuhQFthTRVSvs+P9nS9a9vq25hMJ215gIzgspIRCndR1scfzUjCPdx+H
+TeIqIr3YotE6r4jIVzHMK6ELLVo6Rfgmupqdz7un5KwVQs/TxqnG4ZH42A==
+=a0lk
+-----END PGP SIGNATURE-----
+
+--===============3838815909295771904==--
