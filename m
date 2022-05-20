@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0939685451096986498=="
+Content-Type: multipart/mixed; boundary="===============1320818901873670829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 May 2022 01:05:51 -0000
-Message-Id: <165300875110.453.3772875913855813501@gitolite.kernel.org>
+Date: Fri, 20 May 2022 01:06:02 -0000
+Message-Id: <165300876241.595.526711717121592116@gitolite.kernel.org>
 
---===============0939685451096986498==
+--===============1320818901873670829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 790475212a7841eb5355c11d5b3ee8e48042cbc5
-    new: 698be37d3ee2b448cbe3afcfd1947b37067c816f
-    log: revlist-790475212a78-698be37d3ee2.txt
+  - ref: refs/heads/5.19/scsi-queue
+    old: 0873fe44e780eb8ff7932aed347de8dd4103cea7
+    new: 325d5c5fb216674296f3902a8902b942da3adc5b
+    log: revlist-0873fe44e780-325d5c5fb216.txt
 
---===============0939685451096986498==
+--===============1320818901873670829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1653008742 -0400
+pusher 75C5DE3D 1653008754 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1653008742-8851308b7e0506c80f1dd441f6d52c9ede58578f
+nonce 1653008753-0ac1db0b7c53070250ba0152e139bc895279d487
 
-790475212a7841eb5355c11d5b3ee8e48042cbc5 698be37d3ee2b448cbe3afcfd1947b37067c816f refs/tags/mkp-scsi-queue
+0873fe44e780eb8ff7932aed347de8dd4103cea7 325d5c5fb216674296f3902a8902b942da3adc5b refs/heads/5.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKG6WYACgkQ7ulgGnXF
-3j1+bQ/9EC1xCl0QgixwbiikdcQrYfH2QNwNvHkKHXLOPIxMxNzHtD95TcRxOomR
-EEfsVnX4QbIHHeSJxwtirLrk9+635B5IARfv26AMZT6VtbWOGBvWIGi/+1fQ0iB2
-dAJQrDSs0hofNV/TJnfbjoHFnItD17dB2i25RN6BmpDHaWyKExtkcKryvdyQD4Ff
-eo9db18p9lyCNBzGP48eEw7mcw/+bRP9IxiI9Eo4aVlgBVUzRQk3nrEEGusRp3nO
-5nCRshBQxzoMIkpC4flUxm664JYagX9Wd/8sDdaqRswHdp43YOvfuW+OMvMpwVbl
-a3VJozOiEjvttRhFzYH4OFtNdYpQv2nIpFWLUxT51oOR0E7jTNOe3pigRWdLIKvU
-wjcERRL6Jmaqr4Hbw0sEDQ4qaOMWTk34jK0bCXXNL1gE+oPVX3/4X5XsRv1T1c4m
-poGvYTA983XLNRUWffFrZF8T8MIpVoK7642KFSU1Pv1K6SV7IVACoWGYXGvlhjuL
-M51iKOmYMMvnwVMqibKZKd2te0/AqAZA4YfAu2uSlPDq0gxyD+RzWpiJePkM3n2A
-XUNxz8ajplWJh0FHmDHcSu/DyD+iSIOCrpPecoeZQ2Nqmd7nOnMozIuhtJBjrbLU
-wEDi6AYgszaz3byZCEGAzFPd+J1LyQoUChwPiACi3l77XIt6Wk8=
-=UWAJ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKG6XIACgkQ7ulgGnXF
+3j2F9A/9FUtX2+/BKKj/I7oVmWEAwtbQehyTsbHAyeNjPLFMnFP/n6btcUt0wZta
+K1pW0I7AR+AeziNWFDrr5bwUbL06bYH7HqKwnyEJBkTZF5wudqxj5l3x+5ACdzCK
+mWI1/+ao436H9Z3w18COzyqR4F6gJGSBcze6gbW4Mgw5sgz/RawNRZKSUd5n8X4q
+pCONUfrMS6Zfja+eziYW2sbaqZOIHO9QZi0nW1g0md/mhXDkEOjKpHnFjrfX5XaT
+YPgRjLkbc9UymZe6Zmskl5OvAGgEOMMiWEaaYMn4iuAeAzGr25lEIhcEa55f9Dc+
+rPxWrsnPe+SwFbtH1Y7189Xlz46EzyFkA9eurN4N2xmRpBwMCETISziQMafBsWHp
+J6a4Lpfb8pBDdU7lMDjKII7RzMKEUUo6xV/SE75YhwITZ3iB7sO1qNiGBdQvBhf0
+EtoPcevViUhDHuTDsdVAbfVaeeVw2/mkyURbM42g9IucADisyJaYkoUC5eWn1IzH
+vl7JbVpDr2yAB6u9VKdeDngPUOPVE3/wDz7GJxruyi1ipQBVgUcdlRyDBOFqnjaJ
+DaaGHj7hhY/u+LRhYaXw2vrvPkjBoUltCzPBko5t/iKZG2aogJY/QHws3Qq/rPOq
+PN8vrcWLk528ENbtQ1JBz396WDDTfgcLcm5v3DmF9Q12aqVnpBc=
+=h7lB
 -----END PGP SIGNATURE-----
 
---===============0939685451096986498==
+--===============1320818901873670829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-790475212a78-698be37d3ee2.txt
+Content-Disposition: attachment; filename=revlist-0873fe44e780-325d5c5fb216.txt
 
 848b89778ed53e6c9f9e3ed01c90109ee970b3d1 scsi: fcoe: Add a local_lock to fcoe_percpu
 a912460efafea8ba763717b083347d5b33495bfa scsi: fcoe: Use per-CPU API to update per-CPU statistics
@@ -79,4 +79,4 @@ fc65df48c88ea0b7d4bcbccdc59ffeedc64222c2 scsi: qedf: Remove redundant variable o
 d627660c22b51121262c03dfa1a51bf54361f5a9 scsi: elx: efct: Remove NULL check after calling container_of()
 325d5c5fb216674296f3902a8902b942da3adc5b scsi: target: tcmu: Avoid holding XArray lock when calling lock_page
 
---===============0939685451096986498==--
+--===============1320818901873670829==--
