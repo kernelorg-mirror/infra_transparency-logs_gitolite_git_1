@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3671693601225802226=="
+Content-Type: multipart/mixed; boundary="===============0156250584414707540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 20 May 2022 11:18:15 -0000
-Message-Id: <165304549576.24743.7911170252047827919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 20 May 2022 11:18:29 -0000
+Message-Id: <165304550983.24904.18113825085684586030@gitolite.kernel.org>
 
---===============3671693601225802226==
+--===============0156250584414707540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: ec432e2a51412bde3d2d9fa785d3812f55ccd696
-    new: b4ce6dd4de3f75f6ee1751148198beaf4e37bedb
-    log: revlist-ec432e2a5141-b4ce6dd4de3f.txt
+  - ref: refs/heads/for-linus
+    old: a681e9423ecf3dc6601e8233a76f37d3ea23580d
+    new: fee5ab8caeb45da3d85da22d94a506d888c7dba3
+    log: |
+         fee5ab8caeb45da3d85da22d94a506d888c7dba3 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: b33f104e416b498cc970ee65697901788a6fb2b9
+    new: 4d1ca8ad6f077579ff0ebb73ca8519beee29b1db
+    log: revlist-b33f104e416b-4d1ca8ad6f07.txt
 
---===============3671693601225802226==
+--===============0156250584414707540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1653045493 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1653045493-7de9f97251ce074198806129e005f3e5466a546c
-
-ec432e2a51412bde3d2d9fa785d3812f55ccd696 b4ce6dd4de3f75f6ee1751148198beaf4e37bedb refs/heads/asoc-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKHePUACgkQJNaLcl1U
-h9DN2wf4ivfWZfLIr+Eh0N0SGnKLc5Qr7O3o5TCZUDXytOoIrTpAhgL7JJ/bmVMz
-q+zfsQMIScgV+Sg1SfTjU9R7vksDafgH8B/h56nRjjBozeeL8B2kLA059WT13O8E
-fSJrZzdZysJSMdhvdgHX9zRgAxbWPqpvVPO1Y+6GhwDALa+6ZVCsyTS4Q9O8xRR2
-vv4R9c4h6XM5XMwIq5rZ0SAaoBq88bvhBXhd0pcWRtE7bL18T7vuA74t7dgWBhPc
-VqyX0vgHYlMGPc70F6Na+ekqd9QHAfMWcQ/UnIXUZTqwu053V3lwCXwX0uClZ0w2
-TjsJu3XwIo5+TX+aQUGVLEXMpKD4
-=T1qv
------END PGP SIGNATURE-----
-
---===============3671693601225802226==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec432e2a5141-b4ce6dd4de3f.txt
+Content-Disposition: attachment; filename=revlist-b33f104e416b-4d1ca8ad6f07.txt
 
 21ca3274333f5c1cbbf9d91e5b33f4f2463859b2 ASoC: max98357a: remove dependency on GPIOLIB
 b390c25c6757b9d56cecdfbf6d55f15fc89a6386 ASoC: rt1015p: remove dependency on GPIOLIB
@@ -65,5 +46,7 @@ be2af740e2a9c7134f2d8ab4f104006e110b13de ASoC: wm2000: fix missing clk_disable_u
 80b949f332e331b67c3ae4f323daf2cb91e743e5 ASoC: rt9120: Use pm_runtime and regcache to optimize 'pwdnn' logic
 bb94bb86286b3560ebb539a84b299ca03141940f ASoC: remove two unnecessary gpiolib dependencies
 b4ce6dd4de3f75f6ee1751148198beaf4e37bedb ASoC: SOF: mediatek: add debug dump
+fee5ab8caeb45da3d85da22d94a506d888c7dba3 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+4d1ca8ad6f077579ff0ebb73ca8519beee29b1db Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
 
---===============3671693601225802226==--
+--===============0156250584414707540==--
