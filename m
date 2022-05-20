@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 May 2022 01:43:32 -0000
-Message-Id: <165301101287.28283.15361846197446291325@gitolite.kernel.org>
+Date: Fri, 20 May 2022 01:46:51 -0000
+Message-Id: <165301121167.30898.13301823424324697835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 86afd5a0e78eb9b84b158b33d85f711c5f748fd1
-    new: 53332f845194b8dedf213c5bf51c2d4af88364ee
+    old: 53332f845194b8dedf213c5bf51c2d4af88364ee
+    new: 7ebe52f555de21a1f239b963aa49972a6916a49a
     log: |
-         7b4149bdee6a6363cb4eca3599296d41a7b3700d net: dsa: lantiq_gswip: Fix start index in gswip_port_fdb()
-         4951995dbe9dd0c3fbe1fbfdb760b05a797700f1 net: dsa: lantiq_gswip: Fix typo in gswip_port_fdb_dump() error print
-         53332f845194b8dedf213c5bf51c2d4af88364ee Merge branch 'lantiq_gswip-two-small-fixes'
+         dbbc7d04c549a43ad343c69e17b27a57e2102041 net: wwan: iosm: remove pointless null check
+         1172aa6e4a195aaf5941ae89a93068cb9dd07b47 net: ipa: don't proceed to out-of-bound write
+         7ebe52f555de21a1f239b963aa49972a6916a49a docs: change the title of networking docs
          
