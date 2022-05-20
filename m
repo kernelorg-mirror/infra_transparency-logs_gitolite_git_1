@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0890279627822348039=="
+Content-Type: multipart/mixed; boundary="===============5660009393912164284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 20 May 2022 11:30:27 -0000
-Message-Id: <165304622789.797.1963108103933975191@gitolite.kernel.org>
+Date: Fri, 20 May 2022 11:30:41 -0000
+Message-Id: <165304624111.964.9492529411428729733@gitolite.kernel.org>
 
---===============0890279627822348039==
+--===============5660009393912164284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 0873fe44e780eb8ff7932aed347de8dd4103cea7
-    new: 325d5c5fb216674296f3902a8902b942da3adc5b
-    log: revlist-0873fe44e780-325d5c5fb216.txt
+  - ref: refs/heads/for-next
+    old: d988290190a7978091db1d0a96551f21686b6e0b
+    new: f619d4a66989642dfa77e43adb65edd4e0bdf97a
+    log: revlist-d988290190a7-f619d4a66989.txt
 
---===============0890279627822348039==
+--===============5660009393912164284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0873fe44e780-325d5c5fb216.txt
+Content-Disposition: attachment; filename=revlist-d988290190a7-f619d4a66989.txt
 
 848b89778ed53e6c9f9e3ed01c90109ee970b3d1 scsi: fcoe: Add a local_lock to fcoe_percpu
 a912460efafea8ba763717b083347d5b33495bfa scsi: fcoe: Use per-CPU API to update per-CPU statistics
@@ -48,5 +48,8 @@ fc65df48c88ea0b7d4bcbccdc59ffeedc64222c2 scsi: qedf: Remove redundant variable o
 91fdd0788878862581128c86025c8a6262aeb868 scsi: dpt_i2o: Drop redundant spinlock initialization
 d627660c22b51121262c03dfa1a51bf54361f5a9 scsi: elx: efct: Remove NULL check after calling container_of()
 325d5c5fb216674296f3902a8902b942da3adc5b scsi: target: tcmu: Avoid holding XArray lock when calling lock_page
+d5d92b64408443e113b9742f8f1c35278910dd4d scsi: ufs: core: Fix referencing invalid rsp field
+1b748067a6c71dab8f58c2bf750338b1b4fd5c86 Merge branch 'fixes' into for-next
+f619d4a66989642dfa77e43adb65edd4e0bdf97a Merge branch 'misc' into for-next
 
---===============0890279627822348039==--
+--===============5660009393912164284==--
