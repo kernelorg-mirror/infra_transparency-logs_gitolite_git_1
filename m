@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 May 2022 01:07:39 -0000
-Message-Id: <165300885988.1584.12249072319359662458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 20 May 2022 01:07:43 -0000
+Message-Id: <165300886369.1694.6297046417968838312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: df98714e432abf5cbdac3e4c1a13f94c65ddb8d3
-    new: 1c2133114d2d11c10ffb0da4e12904bde0478beb
+    old: 582a2dbc72ac5dd2b3ae4f75bccd4b4c73bb0e1f
+    new: b413b0cb008646e9f24ce5253cb3cf7ee217aff6
     log: |
-         1c2133114d2d11c10ffb0da4e12904bde0478beb net: tls: fix messing up lists when bpf enabled
+         b413b0cb008646e9f24ce5253cb3cf7ee217aff6 NFC: hci: fix sleep in atomic context bugs in nfc_hci_hcp_message_tx
          
