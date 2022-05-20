@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7081675092437851961=="
+Content-Type: multipart/mixed; boundary="===============8944224099409364968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 May 2022 01:06:13 -0000
-Message-Id: <165300877363.777.11868439989821554995@gitolite.kernel.org>
+Date: Fri, 20 May 2022 01:06:26 -0000
+Message-Id: <165300878674.937.1031632894218511833@gitolite.kernel.org>
 
---===============7081675092437851961==
+--===============8944224099409364968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 0873fe44e780eb8ff7932aed347de8dd4103cea7
-    new: 325d5c5fb216674296f3902a8902b942da3adc5b
-    log: revlist-0873fe44e780-325d5c5fb216.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 71df04160254bb5ec2987d162e66763aae370a83
+    new: 2b7d68af6034538a60c907a3251686bc61850a52
+    log: revlist-71df04160254-2b7d68af6034.txt
 
---===============7081675092437851961==
+--===============8944224099409364968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1653008765 -0400
+pusher 75C5DE3D 1653008777 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1653008765-5c16f71f43d45dedda1d91aba2abe308340fe875
+nonce 1653008777-66be4ecace984dffea4ce52f987dfab8190269a3
 
-0873fe44e780eb8ff7932aed347de8dd4103cea7 325d5c5fb216674296f3902a8902b942da3adc5b refs/heads/queue
+71df04160254bb5ec2987d162e66763aae370a83 2b7d68af6034538a60c907a3251686bc61850a52 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKG6X0ACgkQ7ulgGnXF
-3j2XGw//TIeplOvI5bJcOo7IcwQ810JGcdX/zFwBHkJq+ybQ/0H2V5f/Amb/eaN6
-0RygfAPwUNT0ar2e7+wyhx3sBJzgZh+G1pXWGqzNwEV6gwUcc7mfGtXwVeLxxJ7t
-wjoiYhoPh96BrxUk12hO6FERa7jUB0LSkCRljVc8l2TIWy8NQ8sXJgqLr3h2sH/W
-2gIS1+W6q+7ya81ye6arwySOcwy4QXOGcGTNu3506xhnFyKY50h3k1SLqx/+OZdW
-eC59IZrs3aPI6XBW5YV+8mA0qB0gzvYqSN8GQ7nP5dcfKeQzV9P11Wdz969Jc8Id
-1WraGxjlCLeqkfT6OSZ67Qk0FxeLsOsJIWD/+L2N/z6gFzYD+5s4Vjiphixn4mic
-J+IZ0ot4Jsc2M6f1S1dy8Ak9DpxHIAB1yrlH9v1cCGflD9vaMXYiLLXB1HlIWlfp
-SJA4Tt9R+laz5W7VatIMjU3MrzbrDru3hCa5g/eiVnxn3zZl8euJgcTdyTUCIj3a
-XMyDJMatsJGAyxUJMGwha0CQINM4HzK/PtWpKctXLDEXJLxBMCea6D9sMnyKXk8J
-njPOLWQV4GUWgjNMv03vnLxFJJXteQtGgwFSZgONFtQvN9oBL0twbdOUT+Ug480+
-HEYDrbuQ2mU6a7Oo6duPpq0uYiMWU2rJCxlbNJ+1y8EhUR06q/Q=
-=evaM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKG6YkACgkQ7ulgGnXF
+3j0YGw/+MrD55hsAmH6r+VZH7YEmKYJFvboRnmnZGfIxjiU1WDuOHnK+N5x5W8KS
+YbVLNn99mFZgaaqzJLVoiN3nkB6Jl91LDrSW0zm7olhwtQ69CEKwWuDXr98s/r2L
+YNvjOmce34O1JVi/WFlLlGr7O4Y1qiMhcKmRPnvfSqI3SbyOMSytZG4qTNRrmYoB
+1tYUHGHUvc3cOH42960124oL3cLLy+4z6EA/NFZb4Z/k8p72FyY2IZX82Mi0HeD2
+juosLVeeLhKiTm0lM62EOAsI0s6nqzooQEvDbRR+wJRiuEqpM/4b9ktY842Pt657
+mzN9CLgi+Xp2Qekzj0jIMCgP+SC8GhqU0plvyiNEbkFDZMcLo7asAbys2mktazfy
+AeCXfZ1lR4ldveKUIQHqodvYPfsiH5dtWdLcmOFM2UhFEx8HuiANRxxuaJ2Ty+vf
+5Y+4MIcovqlGkKtUctLfQHc2V1gGTFlN6vJUMeYuP3CpHn8q8l94Q1tLKTxjDao7
+fZY+PQUS/pk+8cK6wAenZV6yxLHexEIg/mXDHdrDgD1pXx2hJPdISmgE5t2ulLi2
+msN+pQeMuv2Y5/6k6HpAhyJmlVyTyYCy+JnLHHCteu1cVObTxk4mMCA09rLxNws2
+JdoR12WBq6+Yh7DX0A28b0HeKd68f4doViSOVqeRfMdj9FND5Y0=
+=tC2u
 -----END PGP SIGNATURE-----
 
---===============7081675092437851961==
+--===============8944224099409364968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0873fe44e780-325d5c5fb216.txt
+Content-Disposition: attachment; filename=revlist-71df04160254-2b7d68af6034.txt
 
-848b89778ed53e6c9f9e3ed01c90109ee970b3d1 scsi: fcoe: Add a local_lock to fcoe_percpu
-a912460efafea8ba763717b083347d5b33495bfa scsi: fcoe: Use per-CPU API to update per-CPU statistics
-a0548edf852a8776dade1e511694b2980c674e2a scsi: libfc: Remove get_cpu() semantics in fc_exch_em_alloc()
-20f8932f979e7377a625f6e711bd4e84ec025d0b scsi: bnx2fc: Avoid using get_cpu() in bnx2fc_cmd_alloc()
-a25eafd13e5f79d9bbada5a4a4a4224cc5f6d14c scsi: mpi3mr: Fix a NULL vs IS_ERR() bug in mpi3mr_bsg_init()
-aabd5fea49461c7b3a70d7aaa965e8cb3f19b7e7 scsi: ipr: Use kobj_to_dev()
 8e129add48e0c35a8f1bf5df91f50a438dd75ba6 scsi: mpt3sas: Fix junk chars displayed while printing ChipName
 53d5088deff64c526ac52b39ce1244ce10372367 scsi: mpt3sas: Update driver version to 42.100.00.00
 057e5fc03369f8f2ed9b2ca884754b1d80b83620 scsi: libsas: Refactor sas_ata_hard_reset()
@@ -78,5 +72,24 @@ fc65df48c88ea0b7d4bcbccdc59ffeedc64222c2 scsi: qedf: Remove redundant variable o
 91fdd0788878862581128c86025c8a6262aeb868 scsi: dpt_i2o: Drop redundant spinlock initialization
 d627660c22b51121262c03dfa1a51bf54361f5a9 scsi: elx: efct: Remove NULL check after calling container_of()
 325d5c5fb216674296f3902a8902b942da3adc5b scsi: target: tcmu: Avoid holding XArray lock when calling lock_page
+827fc630e4c8087df5a8e8ee013b686bd6f13736 scsi: nvme-fc: Add new routine nvme_fc_io_getuuid()
+ed913cf4a5334427f40d1a09450368b2af6edd89 scsi: lpfc: Commonize VMID code location
+348efeca74878dc6af688486267b862460a96040 scsi: lpfc: Rework lpfc_vmid_get_appid() to be protocol independent
+896325a8b1650e45e7626079170c56313057eefa scsi: lpfc: Add support for VMID tagging of NVMe I/Os
+c10ba0c961d3e3c05c0e13bb15a9e630fd208579 scsi: qla1280: Remove redundant variable
+dd11376b9f1b73aca3f8c6eb541486bbb6996f05 scsi: ufs: Split the drivers/scsi/ufs directory
+b77c63f3bc723f2c5abe2fd58da120677ad313aa scsi: iscsi: Fix HW conn removal use after free
+af6c2c41a09a5fa3daa8ad3a14b4fc753c48750e scsi: iscsi: Add helper to remove a session from the kernel
+cf8290a3bac9733b73b08f20676e99c58c5b337e scsi: qedi: Use QEDI_MODE_NORMAL for error handling
+0561d178f97672a7bda7ae4bcb33ee4ba047f6e4 scsi: iscsi: Fix session removal on shutdown
+685395b1810b1d7c29fc6b9d926c62a49a8a21ef scsi: iscsi: Rename iscsi_conn_queue_work()
+ffa14b7eee01bd875b4282d173d04369f825beef scsi: iscsi: Add recv workqueue helpers
+90b7c28232c7797486b125b9fc9b57fa72149395 scsi: iscsi: Run recv path from workqueue
+4cb8242ddc0e7bb8a81ce0d85543b62c6c2eea06 scsi: iscsi_tcp: Tell net when there's more data
+ff21fc17b9de6337a705e3e229c637b26cd3d08b scsi: iscsi_tcp: Drop target_alloc use
+316fbce30c488c7216953799d1a938eee423b9ad scsi: iscsi: Remove unneeded task state check
+a01ff1e161ea32d438d94032dd93cf2e4d9caac3 scsi: iscsi: Remove iscsi_get_task back_lock requirement
+a5164a67bda27904272473e55eb7b732243c5d31 scsi: iscsi: Try to avoid taking back_lock in xmit path
+bc76c07daef25cc9f5de750cf107e21e1f5eca8d scsi: libiscsi: Improve conn_send_pdu API
 
---===============7081675092437851961==--
+--===============8944224099409364968==--
