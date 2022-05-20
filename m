@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 20 May 2022 01:50:35 -0000
-Message-Id: <165301143512.1163.13804471591367244346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 May 2022 02:04:09 -0000
+Message-Id: <165301224961.8267.16966260651867821722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: b413b0cb008646e9f24ce5253cb3cf7ee217aff6
-    new: 9b80ccda233fa6c59de411bf889cc4d0e028f2c7
+    old: 7ebe52f555de21a1f239b963aa49972a6916a49a
+    new: 9ad084d666194c20a30e3589cbfaf971dae55c24
     log: |
-         9b80ccda233fa6c59de411bf889cc4d0e028f2c7 bonding: fix missed rcu protection
+         9ad084d666194c20a30e3589cbfaf971dae55c24 tcp: improve PRR loss recovery
          
