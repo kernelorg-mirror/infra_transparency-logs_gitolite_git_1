@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 20 May 2022 23:26:04 -0000
-Message-Id: <165308916483.12966.11488914500587650856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 20 May 2022 23:34:38 -0000
+Message-Id: <165308967867.17457.8317501835749987252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: fa376860658252a4559026496528c5d3a36b52e3
-    new: 2dc323b1c4cb8ab7db9f8286a9c3267ce66419ab
+  - ref: refs/heads/net-next-mlx5
+    old: b5353bfd7b8ebe39b01d6785901a1af362bd389b
+    new: efd4f48bc990a11b8387e7c6d377de799f2b160d
     log: |
-         2dc323b1c4cb8ab7db9f8286a9c3267ce66419ab selftests/bpf: Remove filtered subtests from output
+         dc7769244e03e932262a4f10eeab11657cb601c7 tcp_ipv6: set the drop_reason in the right place
+         efd4f48bc990a11b8387e7c6d377de799f2b160d net/mlx5: Delete ipsec_fs header file as not used
          
