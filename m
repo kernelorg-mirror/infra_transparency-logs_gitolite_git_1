@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Sat, 21 May 2022 07:38:32 -0000
-Message-Id: <165311871225.12887.15042289292907340782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Sat, 21 May 2022 08:55:27 -0000
+Message-Id: <165312332763.31089.9888264894257589790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
-  - ref: refs/heads/rxrpc-next
-    old: 91d0b09d24fda8343577e04e66618a87b83505ea
-    new: ff8a9d0bfd1189450a3048de45bcf4e4a2e95108
+  - ref: refs/heads/master
+    old: c4706aa764f3ae68258ba60be6325a5662900362
+    new: 13f149378345dbc820d9c34499e78f8c25147fa6
     log: |
-         295f57b1849bfb1d838e611367f87479b2fb8959 rxrpc: Fix locking issue
-         03a6b4a72b3cb527aa1c3c6331dfec9902c29f5e rxrpc: Automatically generate trace tag enums
-         9701c98b729898087bae6015661e8194c54a602e rxrpc: Return an error to sendmsg if call failed
-         c24113701f1520f7d4f6a1d1458a25472bcd9145 rxrpc, afs: Fix selection of abort codes
-         ff8a9d0bfd1189450a3048de45bcf4e4a2e95108 afs: Adjust ACK interpretation to try and cope with NAT
+         8abfadf076d524d1db23a7faef168efda2bda290 fix infnte loop wth self-init vars
+         0365ec9b807c3a924a1ff36a84a3eaa5831950de sparse: fix broken 'memcpy-max-count' check
+         13f149378345dbc820d9c34499e78f8c25147fa6 parse: warn about a 'case label' on empty statement
          
-  - ref: refs/tags/rxrpc-next-20220521
-    old: 0000000000000000000000000000000000000000
-    new: efeda29026bed7b69d52567ffe3db16f55200aec
