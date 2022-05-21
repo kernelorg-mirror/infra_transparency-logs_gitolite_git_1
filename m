@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sat, 21 May 2022 12:50:50 -0000
-Message-Id: <165313745079.1607.10989268395308786097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 21 May 2022 13:09:35 -0000
+Message-Id: <165313857564.11708.1549757999748075810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: b22b01e5c1c6da0a6eeb6b3bb5d538f493f696b6
-    new: 618f92e7ad155144cc8c97098f7ef86a57aad39d
+  - ref: refs/heads/kvm-arm64/burn-the-flags
+    old: 64a9a04e0084bb0a18262b6b36e164d0ab4a25bd
+    new: c6e222baa5cf84459e4a2e13a1b39df36718a31a
     log: |
-         618f92e7ad155144cc8c97098f7ef86a57aad39d fix one year off in v0.6.4's release notes
+         09089b80e21a2fa96c7afca47bea30084f78c058 fixup! KVM: arm64: Move FOREIGN_FP flags to the input flag set
+         c6e222baa5cf84459e4a2e13a1b39df36718a31a KVM: arm64: Drop FP_FOREIGN_STATE from the hypervisor code
          
