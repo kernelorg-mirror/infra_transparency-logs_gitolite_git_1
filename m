@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 21 May 2022 15:23:47 -0000
-Message-Id: <165314662771.30745.15457382799350180563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 21 May 2022 15:30:58 -0000
+Message-Id: <165314705828.3492.12682160150416444818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/riscv-atomic_cleanups
-    old: 4b73b43b079809acd95859ce26c808c173ff4566
-    new: aa327fb1b914e83b44796eab9a30aeab913b8768
+  - ref: refs/heads/master
+    old: c89cf6f7cc848070efef1852880792e12242d0a2
+    new: 0d60637526cb90a2c92b29acb9dfc4f0e07faba0
     log: |
-         aa327fb1b914e83b44796eab9a30aeab913b8768 fixup
+         0d60637526cb90a2c92b29acb9dfc4f0e07faba0 foo
          
