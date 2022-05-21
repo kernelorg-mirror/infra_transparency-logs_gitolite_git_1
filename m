@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sat, 21 May 2022 09:20:03 -0000
-Message-Id: <165312480351.14908.3745716604094182218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Sat, 21 May 2022 09:32:37 -0000
+Message-Id: <165312555702.21876.12988574362048136750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
+repo: pub/scm/devel/sparse/sparse-dev
 user: lucvoo
 changes:
   - ref: refs/heads/master
-    old: 13f149378345dbc820d9c34499e78f8c25147fa6
-    new: 7d990b119a6249af9a1ef4f3df9957d8975b56b2
+    old: 7d990b119a6249af9a1ef4f3df9957d8975b56b2
+    new: b22b01e5c1c6da0a6eeb6b3bb5d538f493f696b6
     log: |
-         4cd76bd9eeb3777219a307893e33d072df05eb37 sparse: fix broken 'memcpy-max-count' check
-         d08822184fe1d4557beca97c2e3599ffc3668e50 parse: warn about a 'case label' on empty statement
-         7d990b119a6249af9a1ef4f3df9957d8975b56b2 Merge branch 'next-ramsay'
+         2a5afb6eafe9cd781f149ab53ee6ea8f23010ee5 dissect: Allow to show all symbols
+         99fe3982ff45fc0bef5e5e414b85f87143e71ce5 dissect: Show macro definitions
+         62dafeef8ba83d210d0ce861476d4071f66fc34a dissect: Show typedefs
+         b22b01e5c1c6da0a6eeb6b3bb5d538f493f696b6 Merge branch 'semid'
          
