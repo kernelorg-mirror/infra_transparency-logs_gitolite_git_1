@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5570153674316570450=="
+Content-Type: multipart/mixed; boundary="===============2006232160470827178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 21 May 2022 00:36:26 -0000
-Message-Id: <165309338620.26447.7637979984629692010@gitolite.kernel.org>
+Date: Sat, 21 May 2022 00:38:27 -0000
+Message-Id: <165309350782.27123.9976566472450780994@gitolite.kernel.org>
 
---===============5570153674316570450==
+--===============2006232160470827178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 497013b564e697ed9fb0c6be85a7b21e42f1e747
-    new: 06ca32eb8f41afc50d69c064a07fe236334daf15
-    log: revlist-497013b564e6-06ca32eb8f41.txt
+  - ref: refs/heads/net-mlx4
+    old: 23dd4581350d4ffa23d58976ec46408f8f4c1e16
+    new: 9b80ccda233fa6c59de411bf889cc4d0e028f2c7
+    log: revlist-23dd4581350d-9b80ccda233f.txt
 
---===============5570153674316570450==
+--===============2006232160470827178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-497013b564e6-06ca32eb8f41.txt
+Content-Disposition: attachment; filename=revlist-23dd4581350d-9b80ccda233f.txt
 
 6f277adf11890c09853df4417e96650f7dd5029b arm64: dts: rockchip: Change io-domains of bpi-r2-pro
 77047ed73dd8b80c209bf5b5c215b858f1f5b14a arm64: dts: rockchip: Add gmac1 and change network settings of bpi-r2-pro
@@ -224,6 +224,5 @@ d904c8cc0302393640bc29ee62193f88ddc53126 Merge tag 'net-5.18-rc8' of git://git.k
 582a2dbc72ac5dd2b3ae4f75bccd4b4c73bb0e1f Documentation: add description for net.core.gro_normal_batch
 b413b0cb008646e9f24ce5253cb3cf7ee217aff6 NFC: hci: fix sleep in atomic context bugs in nfc_hci_hcp_message_tx
 9b80ccda233fa6c59de411bf889cc4d0e028f2c7 bonding: fix missed rcu protection
-06ca32eb8f41afc50d69c064a07fe236334daf15 net/mlx5: sparse: error: context imbalance in 'mlx5_vf_get_core_dev'
 
---===============5570153674316570450==--
+--===============2006232160470827178==--
