@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sat, 21 May 2022 21:14:38 -0000
-Message-Id: <165316767868.30180.17973246551576160188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 21 May 2022 21:25:10 -0000
+Message-Id: <165316831084.5330.7284718465927061687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: fbdc046e9561829265588582a0e5926eda1eaa88
-    new: b4fb2fd8eefb57d1888da06bd56c3b2f78f7cd04
-    log: |
-         54cb689f2b664d379ac070b23fa3d8c814421d3a RISC-V: Add the Zicsr extension
-         76d40fa9e54fdf790f9d1a4b97be93f94d26abfc RISC-V: Add the Zifencei extension
-         b4fb2fd8eefb57d1888da06bd56c3b2f78f7cd04 Merge branch 'riscv-zicsr'
-         
+  - ref: refs/tags/perf-tools-fixes-for-v5.18-2022-05-21
+    old: 0000000000000000000000000000000000000000
+    new: 95dfbf12c0c09e79000b9f72f5c7f7d5cb96ff41
