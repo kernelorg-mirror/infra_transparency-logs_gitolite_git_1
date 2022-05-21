@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sat, 21 May 2022 08:56:20 -0000
-Message-Id: <165312338067.31412.16438316058258773544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Sat, 21 May 2022 09:19:51 -0000
+Message-Id: <165312479101.13346.16027152082036807166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
+repo: pub/scm/devel/sparse/sparse-dev
 user: lucvoo
 changes:
   - ref: refs/heads/master
-    old: c4706aa764f3ae68258ba60be6325a5662900362
-    new: 13f149378345dbc820d9c34499e78f8c25147fa6
+    old: 13f149378345dbc820d9c34499e78f8c25147fa6
+    new: 7d990b119a6249af9a1ef4f3df9957d8975b56b2
     log: |
-         8abfadf076d524d1db23a7faef168efda2bda290 fix infnte loop wth self-init vars
-         0365ec9b807c3a924a1ff36a84a3eaa5831950de sparse: fix broken 'memcpy-max-count' check
-         13f149378345dbc820d9c34499e78f8c25147fa6 parse: warn about a 'case label' on empty statement
+         4cd76bd9eeb3777219a307893e33d072df05eb37 sparse: fix broken 'memcpy-max-count' check
+         d08822184fe1d4557beca97c2e3599ffc3668e50 parse: warn about a 'case label' on empty statement
+         7d990b119a6249af9a1ef4f3df9957d8975b56b2 Merge branch 'next-ramsay'
          
