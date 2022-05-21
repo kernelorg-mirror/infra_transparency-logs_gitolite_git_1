@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 May 2022 23:48:35 -0000
-Message-Id: <165309051548.27550.11428206521256025026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 May 2022 00:07:49 -0000
+Message-Id: <165309166959.6909.8234428910813330760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: dc7769244e03e932262a4f10eeab11657cb601c7
-    new: cc398a34d16fd90a2dcc59b1105c634f038ea53b
+    old: 9b80ccda233fa6c59de411bf889cc4d0e028f2c7
+    new: fe5c5fc145edcf98a759b895f52b646730eeb7be
     log: |
-         cc398a34d16fd90a2dcc59b1105c634f038ea53b sfc/siena: Remove duplicate check on segments
+         fe5c5fc145edcf98a759b895f52b646730eeb7be net: stmmac: fix out-of-bounds access in a selftest
          
