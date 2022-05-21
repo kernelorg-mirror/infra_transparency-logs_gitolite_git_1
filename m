@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Sat, 21 May 2022 19:48:46 -0000
-Message-Id: <165316252639.7727.8626120896953875120@gitolite.kernel.org>
+Date: Sat, 21 May 2022 20:17:33 -0000
+Message-Id: <165316425379.26531.13539628702181087379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dtor/input
 user: dtor
 changes:
-  - ref: refs/heads/master
-    old: 038c4bf85ba2bca715db3ca4d190de3e5299c6c3
-    new: fabcf4d8696839a8da8a3f90d1fd30ae923ddde7
-    log: |
-         fabcf4d8696839a8da8a3f90d1fd30ae923ddde7 Input: cypress_ps2 - fix typo in comment
-         
-  - ref: refs/heads/next
-    old: 038c4bf85ba2bca715db3ca4d190de3e5299c6c3
-    new: fabcf4d8696839a8da8a3f90d1fd30ae923ddde7
-    log: |
-         fabcf4d8696839a8da8a3f90d1fd30ae923ddde7 Input: cypress_ps2 - fix typo in comment
-         
+  - ref: refs/tags/input-for-v5.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 3300a7ffe30a3ddac89a6d27a252dfa28179734c
