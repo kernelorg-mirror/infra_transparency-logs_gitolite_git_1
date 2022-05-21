@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 May 2022 02:42:17 -0000
-Message-Id: <165310093792.12703.8771247045428186116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Sat, 21 May 2022 02:53:11 -0000
+Message-Id: <165310159178.20236.3282673255079804847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: eac67d83bf2553f98cfddd42cfbcfd6f9ccfc287
-    new: aa5334b1f96801cd09775217a72ff252ef614d7a
+  - ref: refs/heads/libtracefs
+    old: ce09bacfe89c9e3e40de20f47776bf85c5835ed1
+    new: a5da57f2d4ffd7edb82994851c4748d4969ebc7d
     log: |
-         d5a42de8bdbe25081f07b801d8b35f4d75a791f4 net: Add a second bind table hashed by port and address
-         538aaf9b2383701094a47797b4554c6a21c83eed selftests: Add test for timing a bind request to a port with a populated bhash entry
-         aa5334b1f96801cd09775217a72ff252ef614d7a Merge branch 'add-a-bhash2-table-hashed-by-port-address'
+         fc3adc7af37d3f9ea4896857b0fd90d42d71bf44 libtracefs: Remove one unnecessary quotation mark
+         a5da57f2d4ffd7edb82994851c4748d4969ebc7d libtracefs: Add tracefs_debug_dir()
          
