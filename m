@@ -1,34 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Sat, 21 May 2022 16:26:41 -0000
-Message-Id: <165315040173.7058.12738002103459384754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-patches
+Date: Sat, 21 May 2022 16:51:32 -0000
+Message-Id: <165315189236.23229.13412758022723530753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/colyli/bcache-patches
+user: colyli
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 31fe8392f0a35a19f02773999b69104beaac2595
-    new: 3d22e39d225d7adb6c670065f4ae016e759171ed
+  - ref: refs/heads/master
+    old: 995eb52153c879646c1dedb21ff4d2683aa4966d
+    new: 41347a6d6406e1297ae11c7eb003c0b284a25720
     log: |
-         c244dc1bc92e94c625325a654337490bb1da871a Revert "ACPICA: executer/exsystem: Warn about sleeps greater than 10 ms"
-         3d22e39d225d7adb6c670065f4ae016e759171ed Merge branch 'acpica' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: 31fe8392f0a35a19f02773999b69104beaac2595
-    new: 3d22e39d225d7adb6c670065f4ae016e759171ed
-    log: |
-         c244dc1bc92e94c625325a654337490bb1da871a Revert "ACPICA: executer/exsystem: Warn about sleeps greater than 10 ms"
-         3d22e39d225d7adb6c670065f4ae016e759171ed Merge branch 'acpica' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 31fe8392f0a35a19f02773999b69104beaac2595
-    new: 3d22e39d225d7adb6c670065f4ae016e759171ed
-    log: |
-         c244dc1bc92e94c625325a654337490bb1da871a Revert "ACPICA: executer/exsystem: Warn about sleeps greater than 10 ms"
-         3d22e39d225d7adb6c670065f4ae016e759171ed Merge branch 'acpica' into linux-next
+         41347a6d6406e1297ae11c7eb003c0b284a25720 update for-test and for-next
          
