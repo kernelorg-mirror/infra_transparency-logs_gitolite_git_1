@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 May 2022 00:45:06 -0000
-Message-Id: <165309390642.1273.3446147381381185547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 May 2022 00:49:28 -0000
+Message-Id: <165309416873.2707.15384799081026104613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: f7b5a89c66defe87d11240cfdaa8b6cbee5784eb
-    new: 29849a486a85f7ab1f3b389db5e3d4948119bef2
+    old: ed46b3e1272d6e5c79c8333a60115003035cfbd4
+    new: eb4c0788964730d12e8dd520bd8f5217ca48321c
     log: |
-         29849a486a85f7ab1f3b389db5e3d4948119bef2 stcp: Use memset_after() to zero sctp_stream_out_ext
+         eb4c0788964730d12e8dd520bd8f5217ca48321c hv_netvsc: Fix potential dereference of NULL pointer
          
