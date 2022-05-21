@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1673781201131067888=="
+Content-Type: multipart/mixed; boundary="===============3561889246753660314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 21 May 2022 01:14:01 -0000
-Message-Id: <165309564162.19153.18101840203719148682@gitolite.kernel.org>
+Date: Sat, 21 May 2022 01:14:10 -0000
+Message-Id: <165309565001.19260.17962952884019548279@gitolite.kernel.org>
 
---===============1673781201131067888==
+--===============3561889246753660314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 6e144b47f560edc25744498f360835b1042b73dd
-    new: dc7769244e03e932262a4f10eeab11657cb601c7
-    log: revlist-6e144b47f560-dc7769244e03.txt
+  - ref: refs/heads/mlx5-queue
+    old: c3afd73eb5ea25a1de071e916a12ffefcc14f555
+    new: c82f33189673281c2eb34ced66ce07c96e202805
+    log: revlist-c3afd73eb5ea-c82f33189673.txt
 
---===============1673781201131067888==
+--===============3561889246753660314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e144b47f560-dc7769244e03.txt
+Content-Disposition: attachment; filename=revlist-c3afd73eb5ea-c82f33189673.txt
 
 6f277adf11890c09853df4417e96650f7dd5029b arm64: dts: rockchip: Change io-domains of bpi-r2-pro
 77047ed73dd8b80c209bf5b5c215b858f1f5b14a arm64: dts: rockchip: Add gmac1 and change network settings of bpi-r2-pro
@@ -476,5 +476,10 @@ cf4e73a1667e620ef703ff1f86ae96471ffa80f6 net: ipa: rename a few endpoint config 
 660e52d651ab7faa20d1ba08ae90a306b023e395 net: ipa: save a copy of endpoint default config
 b6d261449e6e4ed69ae654e3b4b41c0c416cf2a9 Merge branch 'net-ipa-next'
 dc7769244e03e932262a4f10eeab11657cb601c7 tcp_ipv6: set the drop_reason in the right place
+efd4f48bc990a11b8387e7c6d377de799f2b160d net/mlx5: Delete ipsec_fs header file as not used
+bd17679646b06f77af67d462aa03e68121827ad4 net: Disable LRO feature if no RXCSUM
+695b34f262a97af9c3d6d976936d74a51496ebe8 net/mlx5: Add bits and fields to support enhanced CQE compression
+711e6ebcd1b7bd7059312c201103e2c03085e02e net/mlx5e: Support enhanced CQE compression
+c82f33189673281c2eb34ced66ce07c96e202805 Merge branch 'patchq/323390' into mlx5-queue
 
---===============1673781201131067888==--
+--===============3561889246753660314==--
