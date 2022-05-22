@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 22 May 2022 15:40:00 -0000
-Message-Id: <165323400041.9689.7149241480057155841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 22 May 2022 16:32:19 -0000
+Message-Id: <165323713951.11615.4215928872321701688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: cd73530fda7bbff049fc7683ef8a5e7e2e9b7c48
-    new: dd8efb57280572833bd514f209aec35861c31a93
+  - ref: refs/heads/kbuild
+    old: 72c089eb1fdb542b7542722b865aac5130b212d8
+    new: 73d41750824b7f0a26cf45f1dd6d84fa3e1dc8e0
     log: |
-         5a62715ddf88bd19111ddc2df2eee4d033ae2658 net/mlx5: Delete ipsec_fs header file as not used
-         e604256a755bb1278b6d21a7e4676d8aa7a98dcd net: Disable LRO feature if no RXCSUM
-         373340b6ad6eb35cbad33a3e2e1e60526687386d net/mlx5: Add bits and fields to support enhanced CQE compression
-         4ea80da0ded4e030053dd266686149cbc0343b98 net/mlx5e: Support enhanced CQE compression
-         dd8efb57280572833bd514f209aec35861c31a93 Merge branch 'patchq/323390' into mlx5-queue
+         98d8a9b5e17d80e4cf9aeaf1e5ef5a3813da53c6 kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
+         10941e7b15e7c709a0fc4bc59b4fb28f7edce6c2 kbuild: stop merging *.symversions
+         d019c6891029dd5aa35ee1ed52147510c217b455 genksyms: adjust the output format to modpost
+         0212301af7bb3deb6956e65ca19dce60f5b6b758 kbuild: do not create *.prelink.o for Clang LTO or IBT
+         86e4cdec74f0ec8d69f138022a25514171adef94 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
+         c8bdf5c37434f630057e530c7bd53fd7b3cbce08 kbuild: make built-in.a rule robust against too long argument error
+         15b429814ac0e3cc0d88c37461cffc109d1c7e31 kbuild: make *.mod rule robust against too long argument error
+         11973693b3ac8d417c8b93fbe9bb61e9f62ff7ae kbuild: add cmd_and_savecmd macro
+         73d41750824b7f0a26cf45f1dd6d84fa3e1dc8e0 kbuild: rebuild multi-object modules when objtool is updated
          
