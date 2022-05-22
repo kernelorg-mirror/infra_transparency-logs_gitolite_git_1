@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5553821498579168880=="
+Content-Type: multipart/mixed; boundary="===============0122047530850714362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 22 May 2022 13:53:21 -0000
-Message-Id: <165322760123.6810.1856177000387508840@gitolite.kernel.org>
+Date: Sun, 22 May 2022 13:53:29 -0000
+Message-Id: <165322760995.6929.12073170700443885775@gitolite.kernel.org>
 
---===============5553821498579168880==
+--===============0122047530850714362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 51d0bf99b8342be82369aa63eff343bf5df586dd
     new: eaea45fc0e7b6ae439526b4a41d91230c8517336
     log: revlist-51d0bf99b834-eaea45fc0e7b.txt
 
---===============5553821498579168880==
+--===============0122047530850714362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ b3454ce0b2c8a56e760e6baa88ed10278585072b Merge tag 'clk-fixes-for-linus' of git:
 4c493b1a41274c3f9b754036cd8431903306cdf3 Merge tag 'input-for-v5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 eaea45fc0e7b6ae439526b4a41d91230c8517336 Merge tag 'perf-tools-fixes-for-v5.18-2022-05-21' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============5553821498579168880==--
+--===============0122047530850714362==--
