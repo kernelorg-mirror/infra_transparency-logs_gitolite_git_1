@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 22 May 2022 21:50:03 -0000
-Message-Id: <165325620315.23402.10737233632278011523@gitolite.kernel.org>
+Date: Sun, 22 May 2022 21:50:06 -0000
+Message-Id: <165325620607.24090.12571256764198687794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,22 +11,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/for-5.19/drivers
-    old: 537b9f2bf60f4bbd8ab89cea16aaab70f0c1560d
-    new: 4be2d484e9842b09fd451cfd36e22cb3db3aaf5e
-    log: |
-         c766acd3d78e30c7d24faca05333c2526aeffd6c bcache: improve multithreaded bch_btree_check()
-         0c723008bd6cf999130e338a043f7fa5b603462f bcache: improve multithreaded bch_sectors_dirty_init()
-         4d667b2ce04fcf4a53a248a85a60336870729300 bcache: remove incremental dirty sector counting for bch_sectors_dirty_init()
-         4be2d484e9842b09fd451cfd36e22cb3db3aaf5e bcache: avoid journal no-space deadlock by reserving 1 journal bucket
-         
-  - ref: refs/heads/for-next
-    old: 887467b080f018a97158900ae1f3a22567b99f2a
-    new: 2ea8179ecde40a988d4f693a8d760b20492abca6
-    log: |
-         c766acd3d78e30c7d24faca05333c2526aeffd6c bcache: improve multithreaded bch_btree_check()
-         0c723008bd6cf999130e338a043f7fa5b603462f bcache: improve multithreaded bch_sectors_dirty_init()
-         4d667b2ce04fcf4a53a248a85a60336870729300 bcache: remove incremental dirty sector counting for bch_sectors_dirty_init()
-         4be2d484e9842b09fd451cfd36e22cb3db3aaf5e bcache: avoid journal no-space deadlock by reserving 1 journal bucket
-         2ea8179ecde40a988d4f693a8d760b20492abca6 Merge branch 'for-5.19/drivers' into for-next
-         
+  - ref: refs/tags/for-5.19/block-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: d96b3078ad029ac78c9d40b3289b35697a686de1
+  - ref: refs/tags/for-5.19/cdrom-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: 80bf930ab27a5ca5e8be7064e595a34ad1767fbb
+  - ref: refs/tags/for-5.19/drivers-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: d5a2473c227596d50542792887e05cf4c42d5b72
+  - ref: refs/tags/for-5.19/io_uring-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: 51429cc3cdc33bea71b869a79e54b17bad3094d0
+  - ref: refs/tags/for-5.19/io_uring-net-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: 8ef848cec9e6a6b57b47532e7fd0f43e917eaffb
+  - ref: refs/tags/for-5.19/io_uring-passthrough-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: b8cbc8bd4b3c31186c94803b333520be79e30d4b
+  - ref: refs/tags/for-5.19/io_uring-socket-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: fae5e3a6a4b0ea42ce6653d8013be42239670f38
+  - ref: refs/tags/for-5.19/io_uring-xattr-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: 8319c3a2977a05c7389cb094762feaec51d7deaa
+  - ref: refs/tags/for-5.19/writeback-2022-05-22
+    old: 0000000000000000000000000000000000000000
+    new: 1c39853492deb55bee2af46c8fa1cd81be90a9b6
