@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5243915704217002314=="
+Content-Type: multipart/mixed; boundary="===============3458844586739080885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 22 May 2022 10:37:57 -0000
-Message-Id: <165321587745.9469.13481064894283035110@gitolite.kernel.org>
+Date: Sun, 22 May 2022 10:38:10 -0000
+Message-Id: <165321589072.9623.7832112351199030231@gitolite.kernel.org>
 
---===============5243915704217002314==
+--===============3458844586739080885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: d4bc6b4d1e575d3e70a0ffb201f8211b3ce01a8a
+  - ref: refs/heads/togreg
+    old: 8d12e6b6230191d88f9ef417e7e8dfc7bf5719cf
     new: c321674386d8d5597831cbf980f566df8c98d4c1
-    log: revlist-d4bc6b4d1e57-c321674386d8.txt
+    log: revlist-8d12e6b62301-c321674386d8.txt
 
---===============5243915704217002314==
+--===============3458844586739080885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4bc6b4d1e57-c321674386d8.txt
+Content-Disposition: attachment; filename=revlist-8d12e6b62301-c321674386d8.txt
 
 3c6ae371b8a1ffba1fc415989fd581ebf841ed0a scsi: iscsi: Release endpoint ID when its freed
 0aadafb5c34403a7cced1a8d61877048dc059f70 scsi: iscsi: Fix endpoint reuse regression
@@ -1051,4 +1051,4 @@ bce9752aba42e7c46346af9b8b25b0fc48fc8847 iio: adc: stx104: Utilize iomap interfa
 7891d3337aeb0caeab6baf7f3f7b3ee4df28eb1d dt-bindings: iio: adc: Document Renesas RZ/G2UL ADC
 c321674386d8d5597831cbf980f566df8c98d4c1 iio: adc: rzg2l_adc: Remove unnecessary channel check from rzg2l_adc_read_label()
 
---===============5243915704217002314==--
+--===============3458844586739080885==--
