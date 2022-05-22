@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 22 May 2022 20:44:52 -0000
-Message-Id: <165325229268.12028.7765261981859641217@gitolite.kernel.org>
+Date: Sun, 22 May 2022 20:46:41 -0000
+Message-Id: <165325240184.14183.4671637430230079802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: baea40de321b35c7eefb6afbe34ac49caece76cf
-    new: a3f7404c0befe336108094b3141169abd1fb1561
+    old: a3f7404c0befe336108094b3141169abd1fb1561
+    new: 621427fbdada788f18f77238e1c36f463c2cb9d1
     log: |
-         a3f7404c0befe336108094b3141169abd1fb1561 net: selftests: Add stress_reuseport_listen to .gitignore
+         621427fbdada788f18f77238e1c36f463c2cb9d1 net: phy: DP83822: enable rgmii mode if phy_interface_is_rgmii
          
