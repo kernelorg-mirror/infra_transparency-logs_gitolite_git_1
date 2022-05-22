@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6608516811517382921=="
+Content-Type: multipart/mixed; boundary="===============9054566994942032876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Sun, 22 May 2022 00:41:10 -0000
-Message-Id: <165318007073.345.8292080964849956304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Sun, 22 May 2022 00:41:16 -0000
+Message-Id: <165318007622.435.11574252966692924043@gitolite.kernel.org>
 
---===============6608516811517382921==
+--===============9054566994942032876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 76b55935e332eac61717b3061b68e31c07c0a0b3
     log: revlist-60f7d865b975-76b55935e332.txt
 
---===============6608516811517382921==
+--===============9054566994942032876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ ea00ec7d5a0c72c76f4fa4b4206a3a582cf432ad trace-cmd agent-proxy: Send options at 
 c1af390c936a7e07e7fe3c622247df947d4d4efa trace-cmd listen: Use copy of host for connect_ip()
 76b55935e332eac61717b3061b68e31c07c0a0b3 trace-cmd time-sync: Pass role to tracecmd_tsync_get_proto()
 
---===============6608516811517382921==--
+--===============9054566994942032876==--
