@@ -1,116 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============0820511854169035824=="
+Content-Type: multipart/mixed; boundary="===============6670627450395197147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 22 May 2022 19:04:06 -0000
-Message-Id: <165324624606.11623.9875870025248025977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 22 May 2022 19:04:46 -0000
+Message-Id: <165324628646.11947.3226139444868632899@gitolite.kernel.org>
 
---===============0820511854169035824==
+--===============6670627450395197147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: cafada1fe932ce761d6c0bc1d56967e27abe4cff
-    new: 90de6805267f8c79cd2b1a36805071e257c39b5c
-    log: revlist-cafada1fe932-90de6805267f.txt
+  - ref: refs/heads/master
+    old: 6c3f5bec9b40b9437410abb08eccd5cdd1598a3c
+    new: 978df3e158467ae09be635b27e9e1eb990704e0b
+    log: revlist-6c3f5bec9b40-978df3e15846.txt
 
---===============0820511854169035824==
+--===============6670627450395197147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653246245 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1653246244-a0a96978b2d702d5feaacf1638e209c1e93a12f3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653246284 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1653246283-ae3b8607b61553a061981af0a54a86b4b9e509d2
 
-cafada1fe932ce761d6c0bc1d56967e27abe4cff 90de6805267f8c79cd2b1a36805071e257c39b5c refs/heads/char-misc-next
+6c3f5bec9b40b9437410abb08eccd5cdd1598a3c 978df3e158467ae09be635b27e9e1eb990704e0b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKKiSUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tdYQAKnMpKSHbxYyeQfRFP6E
-ep2iYARxyN8ZXwrCS68g9sFuAs3D/boDIRUD9ROLWT51+nmp/HKQABXVeBhpUTwu
-Ya6afg2rNMF99+Oe0VeGgfY7TaYqeHRzaQL8a2S9Q9qU3L0R2mxRvlpR00021JZ3
-KiMR2jkk4T/JvVCcO4SybGumanijWlDEADB6S6NGVIBYGwwQGmB5AVGz5z+qqOqx
-qB8Zh/Lyn2SI4lroaJm3ZimY27oG4/mS6M/ithKaOJ/iHFVUDM4aehqhU05WYOIx
-n1Xo43gcChHa0FncEjlGsfscOarnrCBjFmM3elB2Mh3UZLjf65SNUYYZTRB/GzHe
-vB17XRrcKg+aXdXMzm5Ukg7ILukbvK7nE5BTuTLnGJMR+H9Iwdk0efBpTUWdAkCN
-/dlPQ/iMS4tiBg4YjabDp8IiqBiRb6MvXl8vvix4Tf1inUiwi6cdxjkbByGrsL7w
-dryTIQ3sTRLj7V5SY2qUNJmwNhFtMzfdcj/+vjuD2MIlteB0RRZNgAPPCR7KuhNU
-nFnDC3XNcm98e0AJYN8gamkm0Byvf/OE7hJVZCdlmd2P3wqqHpLXNtHW1RZFawFE
-gLBQBpdCw17lv+o69Gyfe5yLyzfou3IVy3bmNMWRY7A2IIqzlabFeFWdohtbZ49y
-shXZHecT0Xh8mn5rD6mzVV5q
-=GTpF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKKiUwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+haIQAJSwz5Gw9EKNLXyr9609
+t+jV4PmI4fKMkc4TXiHnjt9b2ozBSSr4oEDYWNQFUS2ycELMJ41n78s3UiGfSdkM
+0teUPviiz+Ep8L/F8baZ/WLma6eL7feugxtqjJ9FfF3+fNrVvzwEgjcI6Yp8SVB5
+YaUEc8ZJI1JHrM8LTq3oLux0oHz/5VEUi0DhhzmIDCDggtvvLWbYUyLc3vbJEYF7
+ZQuNfh+ZF88meCHa4UNXrQC1G7/jnOzlkI7HnHg5M56GNhunwkH52pOjFgR4hMsb
+pICr4Me2eXFiz3h3kdLLwugf3gT0BxCR1YGD4mropPK9njjGvNCbfrJpDbKir+y4
+7B40AZrWJUdOuJXl5P7NW6nM2nOc0uSAaPNQOFUW/fMI9cwu/4qwFyH8CT8RcWPs
+XFmo6Jr54Q/7OGbGTP9GrflvEK7Eh+hBy/TfwA/RGtavXOcolMHl9v+R4fY9bMHk
+SjmubLVjt698l+jVUCpVjjfDkfAKOxJOU/bNFQvLwBnESclleWJpDVjTT2sZNhEv
+ep1FAYOEoTSicILI95u28LIymsMv8i+5p/c3bsXEGO8SPAI6IHtvC52sRl6YNNRl
+KnBBSuJYEo3bdvEszAKdPj07MOa5o5JjZflIGIRGLR/Cc0Ouaax+k4/CpyVLco+5
+rVqZDv3vjSfKQzbwYZ9eOLpM
+=AxsD
 -----END PGP SIGNATURE-----
 
---===============0820511854169035824==
+--===============6670627450395197147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cafada1fe932-90de6805267f.txt
+Content-Disposition: attachment; filename=revlist-6c3f5bec9b40-978df3e15846.txt
 
-378b02dc017777e1dea304b472f2e2db836b6706 habanalabs: set non-0 value in dram default page size
-1359fcbe0f4aa2cd6ea684727a5a111eebeeed3a habanalabs: add DRAM default page size to HW info
-2f8f0de878e0f25984befd5a1f8f001e7c5ff9fd habanalabs: change mmu_get_real_page_size to be ASIC-specific
-06926dbed215ac98d253b151ae5ad3b0cabac2bf habanalabs: convert all MMU masks/shifts to arrays
-050a6f349a09d3cefb14f4114bfa047b2c5b2a65 habanalabs: add user API to get valid DRAM page sizes
-4c3b9f6e3bd0480474666f9e016ff57ea0c5ecaa habanalabs: add new return code to device fd open
-fdec56c1a416c6947b1db22617da15cb89f46c6c habanalabs: expose compute ctx status through info ioctl
-b19768d81a6bd1591872952075ff9d960bd4e8d8 habanalabs/gaudi: increase submission resources
-9d92689ca26e98e3fc24239934e24ea79ed5680a habanalabs/gaudi: avoid resetting max power in hard reset
-c41cb902b22f3e8eb5d491d26957941db31e8345 habanalabs: parse full firmware versions
-687c6b535e4cb7ef501ed0d67d6e6e478ee9040c habanalabs: modify dma_mask to be ASIC specific property
-9138c24244a71bf90cd36123247b768e83433347 habanalabs: replace usage of found with dedicated list iterator variable
-b75cce27d0bc18b69471469fddf06fc9ac00bb8f habanalabs: save f/w preboot major version
-babe8e7c04b5d3b7298b77acdd1de922c97442bc habanalabs: unified memory manager infrastructure
-4d530e7d121a2b4fc703c4c2145ae761140bc18f habanalabs: convert ts to use unified memory manager
-acbabe63efa78012eb3702486e1cfe7b485f70a0 habanalabs: add MMU prefetch to ASIC-specific code
-c3712c1d7d3dc313527a7ff7c29726e091bc8f43 habanalabs/gaudi: Use correct sram size macro for debugfs
-f5d85fe05a943920aed8e2911fe2a13f53b14bce habanalabs: rephrase device out-of-memory message
-d0b59cf68cecf48cc3e7ab817046a221967fbf8c habanalabs/gaudi: add debugfs to fetch internal sync status
-116a28ac1f0802dc306392746c3dde272ee55c47 habanalabs: hl_ts_behavior can be static
-234366d3b6dac33dc6f78abf0fbc4abe9bae986b habanalabs: add callback and field to be used for debugfs refactor
-ee8a10c833c4a49720055f23eeb215352b969bda habanalabs: unify code for memory access from debugfs
-9248aa90d2fa0a03955f0813d17accde9e1f0751 habanalabs: enforce alignment upon registers access through debugfs
-799b9eb01a643ba5b6ad80aa89cd4a425c17971e habanalabs: remove debugfs read/write callbacks
-cd92c3678ab3158f11319ea08b81ac58beb519c7 habanalabs: wrong handle removal in memory manager
-fcadbf56883eb36fa2186478cb7007b88cd3f068 habanalabs: remove redundant info print
-738607f005dc07e59424837e0ab286cdc65ccfdf habanalabs: change a reset print to debug level
-c82b025f2b8cf3c1e0f6dcca52ece71fba4f8b12 habanalabs: don't print normal reset operations
-658591ec32f8038bb1c2cd692cb29c3c47161b81 habanalabs: remove user interrupt debug print
-b31848430f49d070c2dd07fbcd719930c35fe1ec habanalabs: fix comments according to kernel-doc
-2ba75d31198d2242fbce7a8082e44011bd4f2048 habanalabs: refactor HOP functions in MMU V1
-b8d852add6ea50d1395522e31a2330b9e567d1a0 habanalabs/gaudi: use lower_32_bits() for casting
-ab4ea5872842766b0155b2517db61a4ae99d98e0 habanalabs: use for_each_sgtable_dma_sg for dma sgt
-0ff1d6f8f55eafadea0a5ca25d0eaf3571813c70 habanalabs: support debugfs Byte access to device DRAM
-77c97a7ea85f3a1f8d2c3bf54869c0b6638519c7 habanalabs: Stop using iommu_present()
-5d1a0de2c778f369970dd50f6713e95068926a8b habanalabs: add prefetch flag to the MAP operation
-b0b09b7a8b7d2a015adeb0c66d41f7a28cfc40f2 habanalabs: use get_task_pid() to take PID
-de3484dfaa04a97cd0a11e5367635d36f5b49fee habanalabs: Add separate poll interval value for protocol
-4e63ce6af63f3db7f922e3c564f23ac606218a3d habanalabs: hide memory manager page shift
-ff086c186bf2b2237410ce9145c16d2141a881ff habanalabs: add put by handle method to memory manager
-2db04a68265519f6d3783f4cb99175fb6923aa2d habanalabs/gaudi: set arbitration timeout to a high value
-dc653c36c98e559575644aaa7c5989301d98f7ed habanalabs: unified memory manager new code for CB flow
-829ec038c967d04032d6922b34abff0713660638 habanalabs: use unified memory manager for CB flow
-0688474eda80ba8a87c38c138aa00b4fea90d8cc habanalabs: add device memory scrub ability through debugfs
-c37803388c95833c4728b089e6c94996dc457d95 habanalabs: handle race in driver fini
-f2daa2d97ec16766bc36fc2b6218d0acb47885ed habanalabs: add topic to memory manager buffer
-422ef171038d4855ffe938137039a8f3b3e84293 habanalabs: add support for notification via eventfd
-368b0b4fd6971b63ab9eb0a969b5847755d09493 habanalabs: update firmware header
-49d2a8af97a20d65d09ac85b57e525b32fdaa0e4 habanalabs: use NULL for eventfd
-804d514d7977adbdacb3d4b23bc7d35914fe8930 habanalabs: return -EFAULT on copy_to_user error
-83617f5a87f4ad8403bf1177708fedc98b0a1059 habanalabs: order memory manager messages
-9e495e24003eec491141c80a9bd8fb4ea5edc171 habanalabs: do MMU prefetch as deferred work
-e31dd9362f01682192d80221cc4339e4f7140f30 habanalabs: remove hdev from hl_ctx_get args
-f873a27fd50d161111d0e52087af0f5b2111c5c4 habanalabs: fix missing handle shift during mmap
-90de6805267f8c79cd2b1a36805071e257c39b5c habanalabs: use separate structure info for each error collect data
+70509676739f88317f3a171d9f9b5fce9d12e617 dt-bindings: input: mediatek,mt6779-keypad: update maintainer
+525f447f88b14a64424642de670f77424e067d5b scsi: target: Fix incorrect use of cpumask_t
+e4920d42ce0e9c8aafb7f64b6d9d4ae02161e51e Input: ili210x - fix reset timing
+b26ff9137183309c18cdfe931e1cafcf3c1a980d Input: ili210x - use one common reset implementation
+d5d92b64408443e113b9742f8f1c35278910dd4d scsi: ufs: core: Fix referencing invalid rsp field
+0ae065a5d265bc5ada13e350015458e0c5e5c351 perf build: Fix check for btf__load_from_kernel_by_id() in libbpf
+92d579ea3279aa87392b862df5810f0a7e30fcc6 perf stat: Fix and validate CPU map inputs in synthetic PERF_RECORD_STAT events
+a2537c98a8a3b57002e54a262d180b9490bc7190 i2c: mt7621: fix missing clk_disable_unprepare() on error in mtk_i2c_probe()
+17a0f3acdc6ec8b89ad40f6e22165a4beee25663 i2c: ismt: Provide a DMA buffer for Interrupt Cause Logging
+03a35bc856ddc09f2cc1f4701adecfbf3b464cb3 drivers: i2c: thunderx: Allow driver to work with ACPI defined TWSI controllers
+451ed8058c69a3fee29fa9e2967a4e22a221fe75 perf test: Fix "all PMU test" to skip hv_24x7/hv_gpci tests on powerpc
+01b28e4a58152e8906eeb5f1b55a0c404c48c7c8 perf regs x86: Fix arch__intr_reg_mask() for the hybrid platform
+caaaa55477e23cec9761f7c981b144dd5ecc0bf3 perf test: Avoid shell test description infinite loop
+f8ac1c478424a9a14669b8cef7389b1e14e5229d perf bench numa: Address compiler error on s390
+cfd7092c31aed7288725cb922bc10d9d52eac302 perf test session topology: Fix test to skip the test in guest environment
+8994e97be3eb3c3a7b59d6223018ffab8c272e2d perf test bpf: Skip test if clang is not present
+51d0bf99b8342be82369aa63eff343bf5df586dd perf session: Fix Intel LBR callstack entries and nr print message
+36ed2da76b181200ecdee4a8bf84f698138f290a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+4c493b1a41274c3f9b754036cd8431903306cdf3 Merge tag 'input-for-v5.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+eaea45fc0e7b6ae439526b4a41d91230c8517336 Merge tag 'perf-tools-fixes-for-v5.18-2022-05-21' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+978df3e158467ae09be635b27e9e1eb990704e0b Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 
---===============0820511854169035824==--
+--===============6670627450395197147==--
