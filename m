@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6861711113199950015=="
+Content-Type: multipart/mixed; boundary="===============7301655435271920655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 23 May 2022 17:40:20 -0000
-Message-Id: <165332762017.1704.947596958883462022@gitolite.kernel.org>
+Date: Mon, 23 May 2022 17:40:24 -0000
+Message-Id: <165332762489.1774.4018294046955611626@gitolite.kernel.org>
 
---===============6861711113199950015==
+--===============7301655435271920655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 9b80ccda233fa6c59de411bf889cc4d0e028f2c7
-    new: 8c3b8dc5cc9bf6d273ebe18b16e2d6882bcfb36d
-    log: revlist-9b80ccda233f-8c3b8dc5cc9b.txt
+  - ref: refs/heads/dev-queue
+    old: 63294684b038482cf6ecba53948c4de93dee9e4b
+    new: 15eee0fae70a784683e2394c246964b11398dbd4
+    log: revlist-63294684b038-15eee0fae70a.txt
 
---===============6861711113199950015==
+--===============7301655435271920655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b80ccda233f-8c3b8dc5cc9b.txt
+Content-Disposition: attachment; filename=revlist-63294684b038-15eee0fae70a.txt
 
 fe5c5fc145edcf98a759b895f52b646730eeb7be net: stmmac: fix out-of-bounds access in a selftest
 937956ba404e70a765ca5aa39d3d7564d86a8872 amt: fix gateway mode stuck
@@ -46,5 +46,11 @@ d5f4e19a85670b4e5697654f4a4e086e064f8a47 dpaa2-eth: use the correct software ann
 0a3ad7d323686fbaae8688326cc5ea0d185c6fca net: dsa: restrict SMSC_LAN9303_I2C kconfig
 75c1edf23b95a9c66923d9269d8e86e4dbde151f net/smc: postpone sk_refcnt increment in connect()
 8c3b8dc5cc9bf6d273ebe18b16e2d6882bcfb36d net/smc: fix listen processing for SMC-Rv2
+7dc08defc596ac7a2581ef8acc69cb08d72fcf52 i40e: Fix adding ADq filter to TC0
+a451a1cdddb4076a8a9287b72b69f7285b949879 i40e: Fix calculating the number of queue pairs
+9aaeb1e5a93e9c4cc81c80c10d3315578517a883 ice: prevent low-core machines crashing on DCB config
+b5253a10fffa9134d6dd5e188b6776f29c7e1192 ice: ignore protocol field in GTP offload
+a7a7f049f4b959125af30929a056cad29f1d73aa ice: Fix PTP TX timestamp offset calculation
+15eee0fae70a784683e2394c246964b11398dbd4 i40e: Fix call trace in setup_tx_descriptors
 
---===============6861711113199950015==--
+--===============7301655435271920655==--
