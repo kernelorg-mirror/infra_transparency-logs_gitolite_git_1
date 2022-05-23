@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3212472135973954046=="
+Content-Type: multipart/mixed; boundary="===============5141118833312833133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 23 May 2022 15:58:33 -0000
-Message-Id: <165332151370.32082.10338533626955833527@gitolite.kernel.org>
+Date: Mon, 23 May 2022 15:58:45 -0000
+Message-Id: <165332152541.32206.14202810681286073877@gitolite.kernel.org>
 
---===============3212472135973954046==
+--===============5141118833312833133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 73d41750824b7f0a26cf45f1dd6d84fa3e1dc8e0
     new: 73809470d3e663757609bbde72a5d6c957657a04
     log: revlist-73d41750824b-73809470d3e6.txt
 
---===============3212472135973954046==
+--===============5141118833312833133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ e7a0541ed9930b8e0e6d86591d87194d0f0fc9d1 kbuild: make *.mod rule robust against 
 69ec2d8c9a7d224dc30f450bdac01de14608112a kbuild: add cmd_and_savecmd macro
 73809470d3e663757609bbde72a5d6c957657a04 kbuild: rebuild multi-object modules when objtool is updated
 
---===============3212472135973954046==--
+--===============5141118833312833133==--
