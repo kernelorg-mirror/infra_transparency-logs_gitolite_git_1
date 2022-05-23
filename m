@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3869540552189340020=="
+Content-Type: multipart/mixed; boundary="===============4656600378739960315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 23 May 2022 16:29:50 -0000
-Message-Id: <165332339059.21143.7831104298854522954@gitolite.kernel.org>
+Date: Mon, 23 May 2022 16:29:57 -0000
+Message-Id: <165332339778.21265.12269786402012732167@gitolite.kernel.org>
 
---===============3869540552189340020==
+--===============4656600378739960315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: dc7769244e03e932262a4f10eeab11657cb601c7
-    new: fe7324b932222574a0721b80e72c6c5fe57960d1
-    log: revlist-dc7769244e03-fe7324b93222.txt
+  - ref: refs/heads/dev-queue
+    old: f5a4ca1b07014ac04c8a251af01e206d25ffeb2a
+    new: 9b8b55628c481d2274a55985091a1d147cb4f6db
+    log: revlist-f5a4ca1b0701-9b8b55628c48.txt
 
---===============3869540552189340020==
+--===============4656600378739960315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc7769244e03-fe7324b93222.txt
+Content-Disposition: attachment; filename=revlist-f5a4ca1b0701-9b8b55628c48.txt
 
 cc398a34d16fd90a2dcc59b1105c634f038ea53b sfc/siena: Remove duplicate check on segments
 c09b0cd2cc6c3f91988a20d45fa45c889f72c56c net: avoid strange behavior with skb_defer_max == 1
@@ -115,5 +115,27 @@ a4e044dc4c5b1e03f4195224c47108dc44122917 net: dsa: felix: tag_8021q preparation 
 0097e86c8ec5a68f20bc1ae19f5c21fb0e751f83 net: ethernet: mtk_eth_soc: fix error code in mtk_flow_offload_replace()
 32c53420d2a0c2c3a691edb895d90d9d028ca3e0 eth: de4x5: remove support for Generic DECchip & DIGITAL EtherWORKS PCI/EISA
 fe7324b932222574a0721b80e72c6c5fe57960d1 net: dsa: OF-ware slave_mii_bus
+af05d8c66e54400ee2bef87275239041c2211f39 ice: Add support for classid based queue selection
+c9a1e2cf498d1d127b16867499f8eabe71b0fcb8 ice: Add support for double vlan in switchdev
+b48de4e706df5489a7b3f7969d073a7461e8d1e8 ice: Add support for vlan tpid filters in switchdev
+d5f036ff31ff292e78ae69719bb2b40cd4bfec57 i40e: Add VF VLAN pruning
+8f74bff151a9fe178498848f35c208a448e5c12d ice: switch: dynamically add vlan headers to a dummy packets
+42445b31bbe27efe7218548eefdf997ad5d7fa18 ice: don't set VF VLAN caps in switchdev
+dfdc5196fe05568256354e48ed2f20061262c89e ice: remove VLAN representor specific ops
+a74cd700c35de98ee1c2c78d033be6b32a08edb4 ice: remove u16 arithmetic in ice_gnss
+d5caca7d5ee648c0fe8fbfcff94d6d5ff4f9ba62 i40e: Fix adding ADq filter to TC0
+95ee19055c1c8ef2420bbd7fe17195055f3acad0 i40e: Fix calculating the number of queue pairs
+0ed223e0014cd218c989ce9d394360f9e9bef4d6 ice: prevent low-core machines crashing on DCB config
+05c61034d33f783bf2cf7fda34650c768bd74d25 ice: ignore protocol field in GTP offload
+594a46963d4439fce9905a6b25ca28f8261be555 ice: Fix PTP TX timestamp offset calculation
+49f91967681fb9c37d6322aabeac3108c6b11928 i40e: add xdp frags support to ndo_xdp_xmit
+e8cc95986ad6d2a5159da0cd31c1ccdefc0404b8 e1000e: Enable GPT clock before sending message to CSME
+830b070634666d7ed80826d0850640a24b72c8ad Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+ab50c138ac0231785c6dbdca3a21d387dd7caf63 ixgbe: export vf statistics
+21bb538bc4f0a5e195c3ba7394143bc74448c6ad intel/i40e: delete if NULL check before dev_kfree_skb
+241dc5452b4c2be32935aedd47e9d1aba59ff806 i40e: Add support for ethtool -s <interface> speed <speed in Mb>
+e7fd328a177c8e89eae9d16f008b02608580d46d i40e: Fix call trace in setup_tx_descriptors
+7023b47d81ffa58cd236045778af7c6bf789b218 ice: use eth_broadcast_addr() to set broadcast address
+9b8b55628c481d2274a55985091a1d147cb4f6db i40e: Remove unnecessary synchronize_irq() before free_irq()
 
---===============3869540552189340020==--
+--===============4656600378739960315==--
