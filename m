@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 23 May 2022 16:12:20 -0000
-Message-Id: <165332234004.8939.124067051744255846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Mon, 23 May 2022 16:12:31 -0000
+Message-Id: <165332235122.9083.14675887170468672874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
-  - ref: refs/tags/tpmdd-next-v5.19-rc1
+  - ref: refs/heads/master
+    old: d975fc16fd37b3e136114c01ced263de1456acf1
+    new: c75cd42e245d6eba31ce8f8aeee38ef4084a9f50
+    log: |
+         c75cd42e245d6eba31ce8f8aeee38ef4084a9f50 mcelog: Reduce default threshold for corrected error page offline
+         
+  - ref: refs/tags/v182
     old: 0000000000000000000000000000000000000000
-    new: 2260bf336bb220b40f08be0c6c40a5116d1e9f0a
+    new: c75cd42e245d6eba31ce8f8aeee38ef4084a9f50
