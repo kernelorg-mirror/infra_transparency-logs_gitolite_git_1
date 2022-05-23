@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 23 May 2022 10:00:21 -0000
-Message-Id: <165330002182.22795.2880429565718412260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 23 May 2022 10:07:13 -0000
+Message-Id: <165330043361.26453.925360688284228500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/linux-5.18.y
+  - ref: refs/tags/printk-for-5.19
     old: 0000000000000000000000000000000000000000
-    new: f4195f2a970d9fdbf55e6664e23edf6f32c326c5
+    new: f7bc80a36196104cf2f62cbee9137bf58be1d5bf
