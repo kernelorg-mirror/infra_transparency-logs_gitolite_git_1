@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 May 2022 16:28:01 -0000
-Message-Id: <165332328101.20095.15022718697491090862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 23 May 2022 16:28:25 -0000
+Message-Id: <165332330512.20274.17465670991027637519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/tags/x86_sgx_for_v5.19_rc1
-    old: 23a5687124af779af8793c91b921b2c50ca40385
-    new: bd70e2b03756d27245a59ddcb3a821fc6440d75b
+  - ref: refs/heads/mips-next
+    old: 84aa85108b1b8af0d1d310e76975f421c5975e66
+    new: e205a9945cf9dbcec79d8271caba355916ea0943
+    log: |
+         e205a9945cf9dbcec79d8271caba355916ea0943 MIPS: bmips: Fix compiler warning observed on W=1 build
+         
