@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0697897308346053975=="
+Content-Type: multipart/mixed; boundary="===============5931120627822656482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 23 May 2022 20:04:44 -0000
-Message-Id: <165333628401.32542.16687398858490435798@gitolite.kernel.org>
+Date: Mon, 23 May 2022 20:04:51 -0000
+Message-Id: <165333629134.32630.10800232236996345881@gitolite.kernel.org>
 
---===============0697897308346053975==
+--===============5931120627822656482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: d7e6f5836038eeac561411ed7a74e2a225a6c138
-    new: fe7324b932222574a0721b80e72c6c5fe57960d1
-    log: revlist-d7e6f5836038-fe7324b93222.txt
+  - ref: refs/heads/testing
+    old: 1a6dd9996699889313327be03981716a8337656b
+    new: 8f445a3ec3fd36feb90c5b2ef8d21e2492819cdc
+    log: revlist-1a6dd9996699-8f445a3ec3fd.txt
 
---===============0697897308346053975==
+--===============5931120627822656482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1653336277 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1653336287 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1653336277-3957f47f5b69508abe3b351ab4c8e3301d6a986f
+nonce 1653336287-8b62ea1dc68d193087450f57d0152d0bdf359e67
 
-d7e6f5836038eeac561411ed7a74e2a225a6c138 fe7324b932222574a0721b80e72c6c5fe57960d1 refs/heads/master
+1a6dd9996699889313327be03981716a8337656b 8f445a3ec3fd36feb90c5b2ef8d21e2492819cdc refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKL6NUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXWCYB/46FqA8n+gT+aHamfWWITYHr0qS/GwU
-CpX7MmWCpTqAK5YDVJQTP2c+I1iPe2vmLG/XvCIe4Ch1d/jxa6bdxOKNRr85raBt
-oSMB/bHgxlRUHbBvgPczABeBk413HEQMA01jXyx+UwNvYAzuB6GpYt3lQAv/Ul8l
-6w0lcKJCJSvkVOdQOUoggmGrqw22fdP8WO+wBnNgCupqZ+iVcwTLmsVw2wtPu2MK
-S628SRqIVOf3GDsF1Crd2v8D353KqaVHphcbKllzNPkY9AqZLIrReG/25t/H/aBa
-yReHOl9B6nX5E2bHIbAsN+VYxLlmq4U3BXFIy04tBgB6ajZ/MpqNjPeN
-=+M26
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKL6N8THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXQVEB/456ddKBG9/PNX+A7tdhA3JpDRzZXdG
+c07dwklCIWAfMqfoRoc6YacbIcdfhDeL/Dak79/ugVSn4XwmPe7azYbbpo01yzW2
+W38gpvlklLS8Y1KjW/P4oAz3zVnvYa6Q1d9qO1zWR3jwReO0OcP3lxyNFzWZ08Yo
+tRL5v426ubbRu0TWwRwH2ieAEIkvGcOdEyN9i+ZJ9Y9964Qw43nSQSkyykpZNDYp
+MzrO435EJyKzCY8RK9hSQGMPoV/6p8iShAZMrTq2KZp07vmDINfDLbvDW5mc8F09
+H1MJcOrq4YLGTpEjjcUUfN8y9SL3Jz0U9CJJssBb4vD65OQCiI2dn0KN
+=TgPi
 -----END PGP SIGNATURE-----
 
---===============0697897308346053975==
+--===============5931120627822656482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7e6f5836038-fe7324b93222.txt
+Content-Disposition: attachment; filename=revlist-1a6dd9996699-8f445a3ec3fd.txt
 
 eeff214dbfcb96bafbf83607925f35795d62a7aa wfx: avoid flush_workqueue(system_highpri_wq) usage
 5309cd5ec9b46c893ac65618ce0507e53ca68347 rtw89: 8852c: rfk: get calibrated channels to notify firmware
@@ -193,10 +193,6 @@ d1f6530c3e373ddd7c76b05646052a27eead14ad iwlwifi: fw: init SAR GEO table only if
 55cf10488d7a9fa1b1b473a5e44a80666932e094 iwlwifi: mei: clear the sap data header before sending
 78488a64aea94a3336ee97f345c1496e9bc5ebdf iwlwifi: mei: fix potential NULL-ptr deref
 d353e1a3bafd468941d42f6aa59bbd8ac42959b6 Merge tag 'wireless-next-2022-05-19' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
-b76b163f46b661499921a0049982764a6659bfe7 can: isotp: isotp_bind(): do not validate unused address information
-caf6b7f81e053dfdc5f16e943b355bc954e0de34 can: can-dev: move to netif_napi_add_weight()
-6c1e423a3c84953edcf91ff03ab97829b287184a can: can-dev: remove obsolete CAN LED support
-1a6dd9996699889313327be03981716a8337656b can: mcp251xfd: silence clang's -Wunaligned-access warning
 fcf8962827b4fb224a10c786b0f048f444b76384 Merge tag 'linux-can-next-for-5.19-20220519' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 f01cdcf891a569dee187a5de0c25cd5766151524 net: usb: r8152: Add in new Devices that are supported for Mac-Passthru
 df98714e432abf5cbdac3e4c1a13f94c65ddb8d3 net: ethernet: SP7021: fix a use after free of skb->len
@@ -327,5 +323,8 @@ a4e044dc4c5b1e03f4195224c47108dc44122917 net: dsa: felix: tag_8021q preparation 
 0097e86c8ec5a68f20bc1ae19f5c21fb0e751f83 net: ethernet: mtk_eth_soc: fix error code in mtk_flow_offload_replace()
 32c53420d2a0c2c3a691edb895d90d9d028ca3e0 eth: de4x5: remove support for Generic DECchip & DIGITAL EtherWORKS PCI/EISA
 fe7324b932222574a0721b80e72c6c5fe57960d1 net: dsa: OF-ware slave_mii_bus
+a682d18433005f9609be95c46924ddca827122de can: peak_usb: fix typo in comment
+3e88445a3a5afc65929c578fe2ffc03420588993 can: kvaser_usb: silence a GCC 12 -Warray-bounds warning
+8f445a3ec3fd36feb90c5b2ef8d21e2492819cdc can: ctucanfd: platform: add missing dependency to HAS_IOMEM
 
---===============0697897308346053975==--
+--===============5931120627822656482==--
