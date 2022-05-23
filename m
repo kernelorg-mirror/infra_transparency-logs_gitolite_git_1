@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4506928173219189089=="
+Content-Type: multipart/mixed; boundary="===============8114804424861022003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 23 May 2022 02:16:41 -0000
-Message-Id: <165327220189.6746.13393702192527351276@gitolite.kernel.org>
+Date: Mon, 23 May 2022 02:18:04 -0000
+Message-Id: <165327228443.7280.10340652045488596211@gitolite.kernel.org>
 
---===============4506928173219189089==
+--===============8114804424861022003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
-    log: revlist-312310928417-4b0986a3613c.txt
+  - ref: refs/heads/dev
+    old: 3ed96c6515964376c408b2f4718e8f6cb3c490ea
+    new: 64ba4b15e5c045f8b746c6da5fc9be9a6b00b61d
+    log: revlist-3ed96c651596-64ba4b15e5c0.txt
 
---===============4506928173219189089==
+--===============8114804424861022003==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-312310928417-4b0986a3613c.txt
+Content-Disposition: attachment; filename=revlist-3ed96c651596-64ba4b15e5c0.txt
 
-b7f73403a3e922c20bb278ba3cfcc3c61930d82a Merge tag 'spi-fix-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-0371870b96907bf560ecf7dc3fadc238fadf7845 drm/msm: Revert "drm/msm: Stop using iommu_present()"
-f9e14dbbd454581061c736bf70bf5cbb15ac927c x86/cpu: Load microcode during restore_processor_state()
-559089e0a93d44280ec3ab478830af319c56dbe3 vmalloc: replace VM_NO_HUGE_VMAP with VM_ALLOW_HUGE_VMAP
-40f5aa4c5eaebfeaca4566217cb9c468e28ed682 sched/pelt: Fix attach_entity_load_avg() corner case
 60490e7966659b26d74bf1fa4aa8693d9a94ca88 perf/core: Fix perf_mmap fail when CONFIG_PERF_USE_VMALLOC enabled
 528c9f1daf20da14d3e7348dc4b1d7c55743ee64 perf/x86/cstate: Add SAPPHIRERAPIDS_X CPU support
 6c8ef58a50b5fab6e364b558143490a2014e2a4f x86/unwind/orc: Recheck address range after stack info was updated
@@ -1050,5 +1045,10 @@ eaea45fc0e7b6ae439526b4a41d91230c8517336 Merge tag 'perf-tools-fixes-for-v5.18-2
 978df3e158467ae09be635b27e9e1eb990704e0b Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2aeb8c86d49967552394d5e723f87454cb53f501 afs: Fix afs_getattr() to refetch file status if callback break occurred
 4b0986a3613c92f4ec1bdc7f60ec66fea135991f Linux 5.18
+d8dad2588addd1d861ce19e7df3b702330f0c7e3 exfat: fix referencing wrong parent directory information after renaming
+9b002894b4c252169abc26720452bf3746114b20 exfat: introduce mount option 'sys_tz'
+97d6fb1b48f5e6f6d58028593defe8a23641b0b4 block: add sync_blockdev_range()
+1b6138385499507147e8f654840f4c39afe6adbf exfat: reduce block requests when zeroing a cluster
+64ba4b15e5c045f8b746c6da5fc9be9a6b00b61d exfat: check if cluster num is valid
 
---===============4506928173219189089==--
+--===============8114804424861022003==--
