@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8602163349683803425=="
+Content-Type: multipart/mixed; boundary="===============6561723238269485113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 May 2022 21:42:23 -0000
-Message-Id: <165334214376.459.7292328405036042551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Mon, 23 May 2022 22:13:23 -0000
+Message-Id: <165334400369.21046.9400744351558145942@gitolite.kernel.org>
 
---===============8602163349683803425==
+--===============6561723238269485113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
+user: jkirsher
 changes:
   - ref: refs/heads/master
     old: fe7324b932222574a0721b80e72c6c5fe57960d1
     new: b1e6738a2185fd7626a6187050a3edf9c38c2afe
     log: revlist-fe7324b93222-b1e6738a2185.txt
 
---===============8602163349683803425==
+--===============6561723238269485113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ a9a347655d224fa2841877957b34fc9d491fc2d7 Bluetooth: MGMT: Add conditions for set
 edcb185fa9c4f8fa1301f032fb503d2597a92b1e Bluetooth: hci_sync: use hci_skb_event() helper
 b1e6738a2185fd7626a6187050a3edf9c38c2afe Merge tag 'for-net-next-2022-05-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 
---===============8602163349683803425==--
+--===============6561723238269485113==--
