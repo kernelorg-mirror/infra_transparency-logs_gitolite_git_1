@@ -1,30 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============5602518893356891688=="
+Content-Type: multipart/mixed; boundary="===============4373039228874290963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 23 May 2022 09:01:18 -0000
-Message-Id: <165329647810.1530.14732213594890848457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 23 May 2022 09:04:36 -0000
+Message-Id: <165329667626.2613.17665924544901471659@gitolite.kernel.org>
 
---===============5602518893356891688==
+--===============4373039228874290963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/fixes
-    old: 42226c989789d8da4af1de0c31070c96726d990c
-    new: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
-    log: revlist-42226c989789-4b0986a3613c.txt
+  - ref: refs/heads/master
+    old: 6bd98cbba53cd9f63aaf4d82982dff95c824b92a
+    new: d7344501bd97263caeccbd7a972c0db04024a081
+    log: revlist-6bd98cbba53c-d7344501bd97.txt
+  - ref: refs/heads/renesas-arm-dt-for-v5.20
+    old: 623eb0d9e301788e6433bfa20a852a3cc34468bc
+    new: a911a94b7660cea4b8bf57124a013fb3f8639b97
+    log: |
+         f279704b17e572b028678c7804dd729854c0bb0f arm64: dts: renesas: r9a09g011: Add ethernet nodes
+         a911a94b7660cea4b8bf57124a013fb3f8639b97 arm64: dts: renesas: rzv2mevk2: Enable ethernet
+         
 
---===============5602518893356891688==
+--===============4373039228874290963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42226c989789-4b0986a3613c.txt
+Content-Disposition: attachment; filename=revlist-6bd98cbba53c-d7344501bd97.txt
 
 6f277adf11890c09853df4417e96650f7dd5029b arm64: dts: rockchip: Change io-domains of bpi-r2-pro
 77047ed73dd8b80c209bf5b5c215b858f1f5b14a arm64: dts: rockchip: Add gmac1 and change network settings of bpi-r2-pro
@@ -213,5 +220,9 @@ eaea45fc0e7b6ae439526b4a41d91230c8517336 Merge tag 'perf-tools-fixes-for-v5.18-2
 978df3e158467ae09be635b27e9e1eb990704e0b Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2aeb8c86d49967552394d5e723f87454cb53f501 afs: Fix afs_getattr() to refetch file status if callback break occurred
 4b0986a3613c92f4ec1bdc7f60ec66fea135991f Linux 5.18
+f279704b17e572b028678c7804dd729854c0bb0f arm64: dts: renesas: r9a09g011: Add ethernet nodes
+a911a94b7660cea4b8bf57124a013fb3f8639b97 arm64: dts: renesas: rzv2mevk2: Enable ethernet
+6f55b16810d505e6c899ec4ea9e2d4db30267fc4 Merge tag 'v5.18' into renesas-devel
+d7344501bd97263caeccbd7a972c0db04024a081 Merge branch 'renesas-arm-dt-for-v5.20' into renesas-devel
 
---===============5602518893356891688==--
+--===============4373039228874290963==--
