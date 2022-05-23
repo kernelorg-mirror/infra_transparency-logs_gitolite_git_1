@@ -1,19 +1,79 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 23 May 2022 18:08:34 -0000
-Message-Id: <165332931425.19259.9284435673384971709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 23 May 2022 18:14:48 -0000
+Message-Id: <165332968835.24045.17046880619420395110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/kbuild
-    old: 73809470d3e663757609bbde72a5d6c957657a04
-    new: 158f24ba4cf876481a7eca743360486d19e0263a
-    log: |
-         158f24ba4cf876481a7eca743360486d19e0263a kbuild: Fix include path in scripts/Makefile.modpost
-         
+  - ref: refs/heads/rcu/next
+    old: 7ab96061e7fdd407e6027aaaa75cb042a5d5b8e5
+    new: 409db57c8d453f267f1ffab3d4367440a832eff4
+  - ref: refs/tags/core-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 4dee5c294b310d66fe5c2a11fba7b275dbf46985
+  - ref: refs/tags/core-debugobjects-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: a193c17ac31f9e0082fd2c98c75680e0d2c31715
+  - ref: refs/tags/irq-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 5ba2562f83d6780bfb5aa6188973a8216851e0a2
+  - ref: refs/tags/locking-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 44445e18a5ae24e82491eef794eb516a73199e95
+  - ref: refs/tags/objtool-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 8ccf100e7777d2aa38a8c22ae3935e59c60f9cc9
+  - ref: refs/tags/perf-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 20dce77db42ed7fa2a9fc54ca2a1f13afbcbf4b5
+  - ref: refs/tags/ras_core_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: b559a60316393a435be9206d295bce89c57eb5e3
+  - ref: refs/tags/sched-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: b1931fee6a028c4bcf812ed412d2a6c53c2c7a2a
+  - ref: refs/tags/smp-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 38639411fa030fd718ebdda576221675375a3346
+  - ref: refs/tags/timers-core-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: 361b2b698103805bacd19b24a7ef5c51265e23c9
+  - ref: refs/tags/v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/tags/x86-irq-2022-05-23
+    old: 0000000000000000000000000000000000000000
+    new: abc05a5f55c68bff8ad11dff1df4a0c9ecf27fa9
+  - ref: refs/tags/x86_asm_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2c9eb3e1107ec1a21dd8531784d2333580aca212
+  - ref: refs/tags/x86_build_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 81d19e224f6c1a9366449f19dc4eae5c9470e5da
+  - ref: refs/tags/x86_cleanups_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 711a179280169dfa74edc0549e598641b42ac23f
+  - ref: refs/tags/x86_core_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: e1c28b41c9199f065d6abfbd686b5f41f561b50b
+  - ref: refs/tags/x86_cpu_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 51fd093c10cbbfb4e61934305e605975d570f059
+  - ref: refs/tags/x86_fpu_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: c1df0eec7e3b2945bfc316fad9df96c7ce4e9c0b
+  - ref: refs/tags/x86_mm_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: f67a71d83d0c2722c3bb718625dbd1b4307cc620
+  - ref: refs/tags/x86_sev_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: a7b5e2b0e2992278f91b3af427c6258d05d91356
+  - ref: refs/tags/x86_tdx_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 621ecfea3fcb820eb7d7913f6961cecd7a1a4de1
