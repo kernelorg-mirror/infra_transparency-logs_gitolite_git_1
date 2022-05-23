@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 23 May 2022 18:26:14 -0000
-Message-Id: <165333037471.32511.8364254795684174859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 23 May 2022 18:36:38 -0000
+Message-Id: <165333099823.6199.3365318997455062469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: bb412cf1d712656f27b2a08c492ed9d7591485aa
-    new: ff2095976ca83d01f4297417fec89f6a1549a5a9
-    log: |
-         ff2095976ca83d01f4297417fec89f6a1549a5a9 s390/bpf: Fix typo in comment
-         
+  - ref: refs/tags/x86_platform_for_v5.19_rc1
+    old: 0000000000000000000000000000000000000000
+    new: f3a47a680cbccaa8ff3efc3613a29314395d2212
