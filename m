@@ -1,106 +1,119 @@
-Content-Type: multipart/mixed; boundary="===============1502187356169856861=="
+Content-Type: multipart/mixed; boundary="===============3869540552189340020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 23 May 2022 16:29:37 -0000
-Message-Id: <165332337733.20993.10850895823885867903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 23 May 2022 16:29:50 -0000
+Message-Id: <165332339059.21143.7831104298854522954@gitolite.kernel.org>
 
---===============1502187356169856861==
+--===============3869540552189340020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 49673f691293917d6b6bf4c3c75dc1face313b9f
-    new: f5bd47289583e6e33e0dad4a9e6e30a69247b3c6
-    log: revlist-49673f691293-f5bd47289583.txt
+  - ref: refs/heads/master
+    old: dc7769244e03e932262a4f10eeab11657cb601c7
+    new: fe7324b932222574a0721b80e72c6c5fe57960d1
+    log: revlist-dc7769244e03-fe7324b93222.txt
 
---===============1502187356169856861==
+--===============3869540552189340020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dc7769244e03-fe7324b93222.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653323374 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1653323373-70bd1f73cd22207afc7a96ff99029086d998e893
+cc398a34d16fd90a2dcc59b1105c634f038ea53b sfc/siena: Remove duplicate check on segments
+c09b0cd2cc6c3f91988a20d45fa45c889f72c56c net: avoid strange behavior with skb_defer_max == 1
+dc2df00af951569689ec39ce0a41b1dff7e3595e net: tulip: fix build with CONFIG_GSC
+9ee152ee3ee3568b1a3302f2bb816d5440e6f5f1 net: wwan: t7xx: use GFP_ATOMIC under spin lock in t7xx_cldma_gpd_set_next_ptr()
+5feba47273952918e6563d692d9c5ce35a2165b3 selftests: fib_nexthops: Make ping timeout configurable
+dbb2f362c7835660a4e39eadd7481563e2e176b7 eth: bnxt: make ulp_id unsigned to make GCC 12 happy
+c2e10f53455c898050738d6a5f8c237f27aec225 net: vxlan: Fix kernel coding style
+f7b5a89c66defe87d11240cfdaa8b6cbee5784eb net: mscc: fix the alignment in ocelot_port_fdb_del()
+29849a486a85f7ab1f3b389db5e3d4948119bef2 stcp: Use memset_after() to zero sctp_stream_out_ext
+eac67d83bf2553f98cfddd42cfbcfd6f9ccfc287 wwan: iosm: use a flexible array rather than allocate short objects
+d5a42de8bdbe25081f07b801d8b35f4d75a791f4 net: Add a second bind table hashed by port and address
+538aaf9b2383701094a47797b4554c6a21c83eed selftests: Add test for timing a bind request to a port with a populated bhash entry
+aa5334b1f96801cd09775217a72ff252ef614d7a Merge branch 'add-a-bhash2-table-hashed-by-port-address'
+1f36a72ae347bc922bddf9382b608afa47a25a28 net: sparx5: switchdev: fix typo in comment
+e34be16bee65dc4eee4e4f9398e6acf26d69379e net: mvpp2: fix typo in comment
+b0ea505ba0d74dd9b5a2e40e872253b13e5c5671 net/mlx5: fix typo in comment
+cc4e7fa549cb69c18bc2ba7209df373ca06749e3 net: qed: fix typos in comments
+3f660c1820f7aae10f841ac05aa6f804566ca2cb cirrus: cs89x0: fix typo in comment
+878e2eb29ac130c1a2dec6a3c3bb8706f5dd1476 net: marvell: prestera: fix typo in comment
+b993e72cdd44345b12ed160dfb823bc9bd027108 nfp: flower: fix typo in comment
+60f243ad1426b796efed750937733b0e410f9257 qed: fix typos in comments
+153213f0554d5053d5f9385ae6b4f116c4dc1fb8 net: ipa: make endpoint HOLB drop configurable
+3cebb7c2ed2d76f6f8df67b030c34ffe27867766 net: ipa: support hard aggregation limits
+beb90cba607ff060c325e6717d2d5e7ff58abf11 net: ipa: specify RX aggregation time limit in config data
+d15180b4eadbdee782d97afcbf3c56e2f246c40a net: ipa: kill gsi_trans_commit_wait_timeout()
+2091c79ac4deb4f4dd6c5b223d50f4536e3265a2 net: ipa: count the number of modem TX endpoints
+7ffba3bdf76a7bf93ec2dc56369ea563dea92b7c net: ipa: get rid of ipa_cmd_info->direction
+4de284b72e59e1006a6b6358c060265a9f1be100 net: ipa: remove command direction argument
+8797972afff3d462711758acec68be11172e2d01 net: ipa: remove command info pool
+a224bd4b88caa3ac62a4b541a07fae7ea26cab7a net: ipa: use data space for command opcodes
+0598cec957abbdd47b8eb7dceb51d54ac465417d Merge branch 'ipa-next'
+33912c2639ad76660988c8ca97e4d18fca89b668 rxrpc: Allow list of in-use local UDP endpoints to be viewed in /proc
+a05754295e01f006a651eec759c5dbe682ef6cef rxrpc: Use refcount_t rather than atomic_t
+ad25f5cb39872ca14bcbe00816ae65c22fe04b89 rxrpc: Fix locking issue
+dc9fd093b2ebabc25a5d7d0dd5bdfdd6c878e0bf rxrpc: Automatically generate trace tag enums
+4ba68c5192554876bd8c3afd904e3064d2915341 rxrpc: Return an error to sendmsg if call failed
+de696c4784f0706884458893c5a6c39b3a3ff65c rxrpc, afs: Fix selection of abort codes
+adc9613ff66c26ebaff9814973181ac178beb90b afs: Adjust ACK interpretation to try and cope with NAT
+baea40de321b35c7eefb6afbe34ac49caece76cf Merge branch 'rxrpc-misc'
+a3f7404c0befe336108094b3141169abd1fb1561 net: selftests: Add stress_reuseport_listen to .gitignore
+621427fbdada788f18f77238e1c36f463c2cb9d1 net: phy: DP83822: enable rgmii mode if phy_interface_is_rgmii
+5ff851b7be752a6d607c289b489c40f96f9dc489 net: fec: Do proper error checking for enet_out clk
+c304eddcecfe2513ff98ce3ae97d1c196d82ba08 net: wrap the wireless pointers in struct net_device in an ifdef
+980e74cac800881b30d8984a43ead421487eb3a3 selftests: ocelot: tc_flower_chains: streamline test output
+93196ef911bac57f43034317c50e9ca42acf55c4 selftests: ocelot: tc_flower_chains: use conventional interface names
+4ea1396a8bd5b7af4df15c52396c640a92b05b30 selftests: ocelot: tc_flower_chains: reorder interfaces
+cb7f2d05da8ff973444d7e44b9c48e7c90d63915 Merge branch 'ocelot-selftests'
+4149af28318a1335f844a778d67d1fd27d05a505 net: mscc: ocelot: offload tc action "ok" using an empty action vector
+06da3e8f390aba135ae8808e9424e8a68e53d261 eth: mtk_eth_soc: silence the GCC 12 array-bounds warning
+385bc51b41ea74a91545600cb3d731754372f75e eth: ice: silence the GCC 12 array-bounds warning
+9dec850fd7c210a04b4707df8e6c95bfafdd6a4b eth: tg3: silence the GCC 12 array-bounds warning
+cf0005d2b07b6eccc8d4f3f3c4faee59e7409a95 Merge branch 'net-gcc12-warnings'
+082ff36bd5c010f77227d881a199c7548f0a6aaf arm64: dts: mediatek: mt7986: introduce ethernet nodes
+4b139b75cc9590136ab5eb015ebfd84568543e8c dt-bindings: net: mediatek,net: add mt7986-eth binding
+62dfb4cc444649b3f841ddb4f472a12ed6422714 net: ethernet: mtk_eth_soc: rely on GFP_KERNEL for dma_alloc_coherent whenever possible
+731f3fd6bc879fcf11e99a2576747a33d3958cef net: ethernet: mtk_eth_soc: move tx dma desc configuration in mtk_tx_set_dma_desc
+eb067347aa87eaf8a42d945d3e877b1e8333f5ea net: ethernet: mtk_eth_soc: add txd_size to mtk_soc_data
+0e05744beda4ae2d65100ed217e4bd50130b4078 net: ethernet: mtk_eth_soc: rely on txd_size in mtk_tx_alloc/mtk_tx_clean
+c4fd06c2bb82c8167e69ca655ea2ed217ec3ca89 net: ethernet: mtk_eth_soc: rely on txd_size in mtk_desc_to_tx_buf
+e70a5634c1f58a352aea3dbf2a50e98a0cadd68c net: ethernet: mtk_eth_soc: rely on txd_size in txd_to_idx
+670ff7dabbb0f317305fa8ccdc87ac88d0c87809 net: ethernet: mtk_eth_soc: add rxd_size to mtk_soc_data
+649a752775c26bb9f9d163aa1102ab9cc5941496 net: ethernet: mtk_eth_soc: rely on txd_size field in mtk_poll_tx/mtk_poll_rx
+72e27d3718ba24e75bef7a17d1acd8fbfe37c623 net: ethernet: mtk_eth_soc: rely on rxd_size field in mtk_rx_alloc/mtk_rx_clean
+8cb42714cdc1fc1d91f0a67aa710b794280b7af0 net: ethernet: mtk_eth_soc: introduce device register map
+160d3a9b192985b1cea7f394ab745de762d89165 net: ethernet: mtk_eth_soc: introduce MTK_NETSYS_V2 support
+7173eca8eeb7d58f885f7506f808f17851f934ce net: ethernet: mtk_eth_soc: convert ring dma pointer to void
+4d6426904f13bdb5ab20a2dddfb3427dc518f1f8 net: ethernet: mtk_eth_soc: convert scratch_ring pointer to void
+197c9e9b17b115e04c30d9e185ced582b1fee2a8 net: ethernet: mtk_eth_soc: introduce support for mt7986 chipset
+265f58f60a29c2e9d471a928556622e2a4aa8b89 Merge branch 'mt7986-support'
+2a11fb1d1b8501c430472c66ea5390cb719bbd8f net: fddi: skfp: smt: Remove extra parameters to vararg macro
+17155d5db7eecf512404b894266b77797ac127ce dt-bindings: net: toshiba,visconti-dwmac: Update the common clock properties
+0c7ab953d1f2358cce5bcddf96877b16966bbabc wifi: plfxlc: remove redundant NULL-check for GCC 12
+e95032988053c17baf6c7e27024f5103a19a5f4a wifi: ath9k: silence array-bounds warning on GCC 12
+ee3db469dd317e82f57b13aa3bc61be5cb60c2b4 wifi: rtlwifi: remove always-true condition pointed out by GCC 12
+bd1d129daa3ede265a880e2c6a7f91eab0f4dc62 wifi: ath6k: silence false positive -Wno-dangling-pointer warning on GCC 12
+af3cdfd30c631dd6bb56933d67a0f0df2980b7d1 wifi: iwlwifi: use unsigned to silence a GCC 12 warning
+84f23fb192ef62cef438fdae932ce9d96d131b0c wifi: brcmfmac: work around a GCC 12 -Warray-bounds warning
+13182526173679c3be794c8149226fc258fdfdbe wifi: carl9170: silence a GCC 12 -Warray-bounds warning
+1e39b27bd9d12d615973c3aacefb936466512cae Merge branch 'fix-silence-gcc-12-warnings-in-drivers-net-wireless'
+129b7532a0edc3f381a6c5f3bb1a155e743d141b net: dsa: fix missing adjustment of host broadcast flooding
+61be79ba2d90162b0b213384f35eb8db7eb183b8 net: dsa: felix: move the updating of PGID_CPU to the ocelot lib
+a72e23dd679c632bcf6ab47a3a1a58c1e777713a net: dsa: felix: update bridge fwd mask from ocelot lib when changing tag_8021q CPU
+8c166acb60f8284470db673b6dccd43e6fedfae2 net: dsa: felix: directly call ocelot_port_{set,unset}_dsa_8021q_cpu
+c295f9831f1db12330d6a28a1cb2bd2562535e37 net: mscc: ocelot: switch from {,un}set to {,un}assign for tag_8021q CPU ports
+a4e044dc4c5b1e03f4195224c47108dc44122917 net: dsa: felix: tag_8021q preparation for multiple CPU ports
+682a8c633fc32933a73fd0379c62d37d1346055d Merge branch 'dsa-multi-cpu-port-part-two'
+0097e86c8ec5a68f20bc1ae19f5c21fb0e751f83 net: ethernet: mtk_eth_soc: fix error code in mtk_flow_offload_replace()
+32c53420d2a0c2c3a691edb895d90d9d028ca3e0 eth: de4x5: remove support for Generic DECchip & DIGITAL EtherWORKS PCI/EISA
+fe7324b932222574a0721b80e72c6c5fe57960d1 net: dsa: OF-ware slave_mii_bus
 
-49673f691293917d6b6bf4c3c75dc1face313b9f f5bd47289583e6e33e0dad4a9e6e30a69247b3c6 refs/heads/linux-4.19.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKLtm4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vRQP+gMmUyAzVT+DS0qH5pz8
-+JlVT0GPs4eV8Q8rVbMLBuvX5A71O/zgkno/VlV9wuXRoYgfwpYxcF1aF5DTR0P+
-a97dWN8mnokWSkM+t1+VZjntgJhFpL6QoII0CUjzsdiZnlnnsHtmlzDzpoIB6iwV
-HsrnZMXObrx696oWux8GO0lsyHEFHGtuSek3sTemT6LatfqJgWDSy50Iqml33EwS
-e9JZE2aV1GQVCRcznW/aPvru3MKzBmq59Q3nybcPDp5J8STeN5bMxi2Rg9iKpw1W
-SAm8Gd30NUq0HAYNVAfTztM4h0YLZebs4GqQbljahtNemx1pwI/IRNn+8AH50nyp
-Rmi+q8Cp6VFH/K+L7T4reT+NZw4FoI2CG9CLz6LLH7ovg/SNYwFxG3IxvLRXAyxb
-1onJErexEUopnu4wMnJD6IAx7piJxJEBJGv5PQztVovmXcpgcrAwnG0DNm9QKVuL
-BqMq230cHhSrV7MF8MA/Kc08ENB9CDA4gZAqSLeWWBz+C5srX97AR/eai+mcKkkb
-36u0KV/T14a+/1mHdNXC3QRxx2ZFi9dwlU37NmK/ftK88dNANxBWxdgaJTiR6Vb4
-TxO/sa5Y2m38MPGISk4np5Q9m8mEht57hYfroWJl/G/r+nueSMsbDBYFgLvzOBGr
-rVi4YSnpx+OOhxFY5saNaAXZ
-=xeym
------END PGP SIGNATURE-----
-
---===============1502187356169856861==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49673f691293-f5bd47289583.txt
-
-19eedd4168463dc2aec95b12b2139637bee47483 floppy: use a statically allocated error counter
-92bbba5932fbcacd7d8f9de0869898ddd3f028c0 um: Cleanup syscall_handler_t definition/cast, fix warning
-0fd804e86ae5fe7edecfe5efd8d34e06a2da2834 Input: add bounds checking to input_set_capability()
-50952075522c361c371f69ce9645488150cbb005 Input: stmfts - fix reference leak in stmfts_input_open
-02fc6a92dfaea97e850ecc22231688d409587c60 crypto: stm32 - fix reference leak in stm32_crc_remove
-4ca2750bfb55b4f41703d7bb0f47dace1a755cd6 MIPS: lantiq: check the return value of kzalloc()
-57fdfae649d3cb1c3573b7e86413e29dafafa9ab drbd: remove usage of list iterator variable after loop
-41d0519c7e1e3a91e73de44d268e0d46cf2ae38d ARM: 9191/1: arm/stacktrace, kasan: Silence KASAN warnings in unwind_frame()
-c28cf50badd25fd9cf918d4badd8cbe8bef28756 nilfs2: fix lockdep warnings in page operations for btree nodes
-5b045e62c6f46ac3dc6e7130f46df859939de2da nilfs2: fix lockdep warnings during disk space reclamation
-4cbcb80f4bce62951c566e8628ad7a16b0d85bbb ALSA: wavefront: Proper check of get_user() error
-b59c5d895e17519dee77aac8f86a538ac9592e52 perf: Fix sys_perf_event_open() race against self
-3a74fc4d9bba9da50997fe122a092015d8686c30 Fix double fget() in vhost_net_set_backend()
-62fc3181bf65f184fd90c83564a90a0d1c51d021 PCI/PM: Avoid putting Elo i2 PCIe Ports in D3cold
-4c80d18bafe40fa1fa5f9b4e2e9a788825a9acc7 crypto: qcom-rng - fix infinite loop on requests not multiple of WORD_SZ
-bf8cbec75aa86bb1d3f4e5c4dfc7f811381611db drm/dp/mst: fix a possible memory leak in fetch_monitor_name()
-4f94853dd71e8c2dfd87d1bacc75435c7e4a53d3 mmc: core: Cleanup BKOPS support
-0db45cfb11622830991a5974f47fc47a0afb9a74 mmc: core: Specify timeouts for BKOPS and CACHE_FLUSH for eMMC
-dae9ab33b0c6d6caa0fd8eaebd5051796a8765d9 mmc: block: Use generic_cmd6_time when modifying INAND_CMD38_ARG_EXT_CSD
-5a0b3ce058a81113e71538c64e7ca5f10ac70bd3 mmc: core: Default to generic_cmd6_time as timeout in __mmc_switch()
-d9aeaab19ce300c92d2a6337dc208f1d5543d0d2 net: macb: Increment rx bd head after allocating skb and buffer
-51a8d6f5d3cc3cc3db65cbf2b89fed9fb1499f7b net/sched: act_pedit: sanitize shift argument before usage
-2f4ee04f18d8cfc60b2eb26655479b7a6ba92afd net: vmxnet3: fix possible use-after-free bugs in vmxnet3_rq_alloc_rx_buf()
-4b13ef0229ea2180e2b6fcf35a70a8ae2dca4f40 net: vmxnet3: fix possible NULL pointer dereference in vmxnet3_rq_cleanup()
-c83b4a3cd6926f1b0296199dc04547db9c097227 clk: at91: generated: consider range when calculating best rate
-2edfba68a3af1ef5a07a2dca6685242b57f42b9d net/qla3xxx: Fix a test in ql_reset_work()
-aebbf2205b9116b2fae8a0164bb1b0d6ba31a1c3 NFC: nci: fix sleep in atomic context bugs caused by nci_skb_alloc
-8a3f89e323480edb7c04172d226677f45e7fa1ae net/mlx5e: Properly block LRO when XDP is enabled
-f864d330047351826a50b4ec26f1aacf02c74d7a net: af_key: add check for pfkey_broadcast in function pfkey_process
-fb5d0adb7952ca2399f4667ae448035991477a59 ARM: 9196/1: spectre-bhb: enable for Cortex-A15
-12e3977ba848008d0d0a35617ac78a43cc9da102 ARM: 9197/1: spectre-bhb: fix loop8 sequence for Thumb2
-1fe777ff60686740f75340b10be1ddf9e9428aae igb: skip phy status check where unavailable
-b6379fb4a3e744d631bf14b4d61465dca1a0ae38 net: bridge: Clear offload_fwd_mark when passing frame up bridge interface.
-f9cc18a135b8b0f5738581945030a5f1e3fd2f18 gpio: gpio-vf610: do not touch other bits when set the target bit
-81414540d4190918c21565ad12c1e8b4b518f393 gpio: mvebu/pwm: Refuse requests with inverted polarity
-ed8f1b87560a2c495039ece992b795c266d6b076 perf bench numa: Address compiler error on s390
-4ec8a6db6a37032a7ef385e962f06dbc22e7817b scsi: qla2xxx: Fix missed DMA unmap for aborted commands
-7b4cfd3b18ea53e67d79b5ea8feb54fc28d5502e mac80211: fix rx reordering with non explicit / psmp ack policy
-1d7c5dc5064171f3dbdda0f82e833b586b6ae283 ethernet: tulip: fix missing pci_disable_device() on error in tulip_init_one()
-09ec9d1295ae0e750a80520f6371d890e5dfe861 net: stmmac: fix missing pci_disable_device() on error in stmmac_pci_probe()
-1590e6550539dbf24c6610c6d4e1ab6742516578 net: atlantic: verify hw_head_ lies within TX buffer ring
-def788d9bf6f00cabcc4563d705b6cdef349cf80 swiotlb: fix info leak with DMA_FROM_DEVICE
-043a3f7c69c2644f5c955299c7bed9f5bb633b57 Reinstate some of "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
-d36acef9baff947146f674f2bbda973c8402752d afs: Fix afs_getattr() to refetch file status if callback break occurred
-f5bd47289583e6e33e0dad4a9e6e30a69247b3c6 Linux 4.19.245-rc1
-
---===============1502187356169856861==--
+--===============3869540552189340020==--
