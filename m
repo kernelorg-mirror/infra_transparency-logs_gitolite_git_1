@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable
-Date: Mon, 23 May 2022 17:34:05 -0000
-Message-Id: <165332724575.1667.8222160693045684040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 23 May 2022 17:34:25 -0000
+Message-Id: <165332726584.1864.1019169610214058242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/linux-5.18.y
+  - ref: refs/tags/for-5.19-tag
     old: 0000000000000000000000000000000000000000
-    new: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
+    new: d203f9432e7fb250a836d153c995b012194349d1
