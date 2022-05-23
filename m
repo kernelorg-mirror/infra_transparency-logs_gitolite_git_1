@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Mon, 23 May 2022 04:49:00 -0000
-Message-Id: <165328134087.8232.15868428905927476128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Mon, 23 May 2022 04:51:26 -0000
+Message-Id: <165328148625.10550.5322695289070562722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 3783abdc439f1652ec710ca2dabd99fc0fd65fca
-    new: 045d44630bafcae791c4a3bccd52e3ddc50e3acf
-    log: |
-         54d2ab00b14771ab403993e64205e220d61e0cdf glossary: Capitalize 'Release store'
-         045d44630bafcae791c4a3bccd52e3ddc50e3acf formal: Update RCU-test-ratio table as of v5.18
-         
+  - ref: refs/heads/for-5.19
+    old: 31a644b3c2ae6d0c47e84614ded3ce9bef1adb7a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/zonefs-5.19-rc1
+    old: 482820e896f6f8021630bcb2385cdfe089892f09
+    new: 0000000000000000000000000000000000000000
