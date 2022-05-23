@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6480804758883206517=="
+Content-Type: multipart/mixed; boundary="===============4913696100082117676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 23 May 2022 15:49:36 -0000
-Message-Id: <165332097647.25956.13948681370619835062@gitolite.kernel.org>
+Date: Mon, 23 May 2022 15:49:57 -0000
+Message-Id: <165332099719.26153.14235767597140601646@gitolite.kernel.org>
 
---===============6480804758883206517==
+--===============4913696100082117676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: e9c7a40274cf611cb551ddaad6aadd0243a7ae1c
     new: 7f3113e3b9f7207f0bd57b5fdae1a1b9c8215e08
     log: revlist-e9c7a40274cf-7f3113e3b9f7.txt
 
---===============6480804758883206517==
+--===============4913696100082117676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -115,4 +115,4 @@ e9c5048c2de1913d0bcd589bc1487810c2e24bc1 KEYS: trusted: Introduce support for NX
 5002426e426166f57e1636b936666b275e6b3d2f doc: trusted-encrypted: describe new CAAM trust source
 7f3113e3b9f7207f0bd57b5fdae1a1b9c8215e08 MAINTAINERS: add KEYS-TRUSTED-CAAM
 
---===============6480804758883206517==--
+--===============4913696100082117676==--
