@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8702897057411029649=="
+Content-Type: multipart/mixed; boundary="===============8419703495601004986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 23 May 2022 16:56:47 -0000
-Message-Id: <165332500764.8531.16819092611918062714@gitolite.kernel.org>
+Date: Mon, 23 May 2022 16:57:57 -0000
+Message-Id: <165332507707.8980.13911079042342713472@gitolite.kernel.org>
 
---===============8702897057411029649==
+--===============8419703495601004986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,71 +17,71 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.9.y
-    old: bc0cbb114b1a22e0b01d93c1927412cd47ee966f
-    new: e040332de526f0c17ed5e49086451763e4ecbdd4
-    log: revlist-bc0cbb114b1a-e040332de526.txt
+    old: e040332de526f0c17ed5e49086451763e4ecbdd4
+    new: be4ec3e3faa1cfbe1ee62a6f6dc29c1b341a90f0
+    log: revlist-e040332de526-be4ec3e3faa1.txt
 
---===============8702897057411029649==
+--===============8419703495601004986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653325006 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653325074 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1653325005-55d3d0f472401ca9aa307e5b1aa93a49b865e50e
+nonce 1653325073-4b2786cbcb4b1676aa42d3a13ccc68df7702acab
 
-bc0cbb114b1a22e0b01d93c1927412cd47ee966f e040332de526f0c17ed5e49086451763e4ecbdd4 refs/heads/linux-4.9.y
+e040332de526f0c17ed5e49086451763e4ecbdd4 be4ec3e3faa1cfbe1ee62a6f6dc29c1b341a90f0 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKLvM4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SWkP/iPk6dGQnguqpCDaIdYq
-zcgI102di0UdFxaW+ETx8mKzkfnoDfukxNloPOT4KH6n79LiY9g6VM8ZCszX7qe4
-f8EHdP3pRwUyCUy1GFdo1Ka/jzDZeDe3kT3+Z+xIEX1rbgDUd9HwxWYMJDhAqDL/
-D0rfgUp0pqf37qKH1cHrvCC/DA2gGd23RVdLvmojolgmZKRDaXFog0A2Q5rEUbbs
-2ZhdhThEyj29kYKOgGa4e0/uCb2ssvg5kqgQSXa5Xhnq7ZJyPnHKpduNAraftSFN
-ANEKD0pSYb6BjbZ1up2WAODbsfZd/i5MltbNq7h+nNhrQPhxCcoo19eWggzJQUDF
-TX79H/8E6RZnUYFQ+aFbWFCllKIx7ki/7HjyJzk/70xLv8rULR6iKqtXf429UeIt
-czuVQhIYQUxQv0uw1rlBMnh9LRPv28bBKbQlM5YMi8i+cLqJGjStIKFMPFLzLwy9
-xHb/Vh5K16BCMXH/amow2MjQ9y0brSVv66IQdUrFZgu/IkJQFzgyXWxezcp6u7rA
-e3nMQjDAuWuLKhgL527nyBD2pY7i1uFzjJ8uRkHwwPaqsBcE1PTZg9z/IaFwUYhQ
-iZjJRJbbRcPblF23vuDkODuKU53BhNRyfOHFQy73BPzjVNN5HksZZ5xZsgdP3FOW
-lM/bsaIZUnHeN2qqrABbTZOz
-=oQ3/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKLvRIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lcgP/iNsqEZpMSmZ7CLE5BJ9
+GNHCAJwYMyQABbwTya5Y3lxZxpAbkryu+QWENzuqS4FEJPK4dfBN4BUVH97rAxEM
+K1eR/XMMCi18oB1N4+cjV9r9ZyHTFyo4a9bLtZdTRtPTxj4qcmOR8UClrlAqBkgb
+dQgDQoyDNL4zAPMUoZ4SQpu1mlo1iR0ttTsN35G2pJ0cnSK7+IgSUDADz9nfiEAp
+dMoxK0LQs58fU4qpB1Ad1SFXdVQ3ijzoGS6xOPJkgS211ew/L6WUfgPuvCleQjcP
+vChKE4BRkB0xeF/C6rTYlfTPVmOavsqJnrQ8yv2US/RpL01ecOg79mJfPm3tAttm
+4Bx4+4fIapW5CocEjWURxRWJ4WGul+Nxa4a+koAmVQbMIUYR9QMZE8iiY2xKloxj
+HcKJ5o7EX4CEI4YTBL+XdBiaVxcAXdAiJEqVJvgYoE9tTzMOjG1K24ixF7VMGC8z
+R63mD6nf+0kNvL1yY0scRw5604gotmCiu3XT8cG4mbWdgeHb85yu0Ab8ifxVNQYi
+uo4GZ5H1rzHpphCEfLvw5JDnu/Jof93eYjVtcwpPjW0eszKgfTlmlbPhSSmsCzoG
+qOAI8i+RwhIbqygDHMGeXa1cOt+Gr6YT14ug6s0ful/zrZgx/gAoakTbI6knMA/T
+SuwoRctyL292ozvGmiOJJeI2
+=HMI5
 -----END PGP SIGNATURE-----
 
---===============8702897057411029649==
+--===============8419703495601004986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc0cbb114b1a-e040332de526.txt
+Content-Disposition: attachment; filename=revlist-e040332de526-be4ec3e3faa1.txt
 
-a26588772378493ee61dc38642e6696bd34d8461 floppy: use a statically allocated error counter
-6e199d59547b37c2e00ea3b79104e148e7a7e1ad um: Cleanup syscall_handler_t definition/cast, fix warning
-e36e610f756cebd1700c7bc5b47a806abac8b10d Input: add bounds checking to input_set_capability()
-97a3a6811b239d6c364f1652331118bd639e098f MIPS: lantiq: check the return value of kzalloc()
-1e9ca2e03a70f32093852b9c25c948c0ad24bd60 drbd: remove usage of list iterator variable after loop
-17db7deffdaff1fd81d9d0dd8276c235019cb4eb ARM: 9191/1: arm/stacktrace, kasan: Silence KASAN warnings in unwind_frame()
-0056dc6616f5129e3b74e013be4503d1ef408a52 mmc: core: Specify timeouts for BKOPS and CACHE_FLUSH for eMMC
-eca4777716bd969c447ea58dff4e93d9c901da78 mmc: block: Use generic_cmd6_time when modifying INAND_CMD38_ARG_EXT_CSD
-6191ac33cdc374d596319739f79b84e14b1b7870 mmc: core: Default to generic_cmd6_time as timeout in __mmc_switch()
-1c557af5fb6096fb5eff8509ff718c694961cd22 ALSA: wavefront: Proper check of get_user() error
-eb1d360a09d4c11fae9953b82a55bc17abb1040f perf: Fix sys_perf_event_open() race against self
-ac60dcdf057d1e725c721a05929ea0e960f3e087 drm/dp/mst: fix a possible memory leak in fetch_monitor_name()
-8b72da4e4c67c8f73fa838a236296f02f873efc3 net: vmxnet3: fix possible use-after-free bugs in vmxnet3_rq_alloc_rx_buf()
-1bc84542621b1118f248dcf5aa00fe0a9bd6b2c5 net: vmxnet3: fix possible NULL pointer dereference in vmxnet3_rq_cleanup()
-fc86d1e9679d4be876c8e1b13f5824ad8b718139 net/qla3xxx: Fix a test in ql_reset_work()
-ecdd186cebb277752fad73bcc9caa41ca467b42f NFC: nci: fix sleep in atomic context bugs caused by nci_skb_alloc
-989d96f3d088f1c8736baf3b9bc3ba752eaa4887 net: af_key: add check for pfkey_broadcast in function pfkey_process
-2187127a1fb484db683b9b19310de56681bb695f ARM: 9196/1: spectre-bhb: enable for Cortex-A15
-13177f687b98e7e5a2d1af9bbaadef31a817beba ARM: 9197/1: spectre-bhb: fix loop8 sequence for Thumb2
-3b48ecd4a4f4811430cd1d0c431f03b86fb0582f igb: skip phy status check where unavailable
-50ac9628a1d501d57480a08211ffa3ccbfddf512 perf bench numa: Address compiler error on s390
-c8891b41e939302a942a2b72366dac2cf24a21ae scsi: qla2xxx: Fix missed DMA unmap for aborted commands
-06e8cf3da469043921207b956209939cc5fdcb72 mac80211: fix rx reordering with non explicit / psmp ack policy
-9314b3bfda82cce8b0dcb66706315608335580b6 ethernet: tulip: fix missing pci_disable_device() on error in tulip_init_one()
-e7cc2e04bf2891ee6017e224c53c95699d164093 net: stmmac: fix missing pci_disable_device() on error in stmmac_pci_probe()
-e040332de526f0c17ed5e49086451763e4ecbdd4 Linux 4.9.316-rc1
+738e66d2e3217d7d31760a09baa3ed11d7787ebf floppy: use a statically allocated error counter
+144898778c5fccc522e7a68e93ea40e93bebe372 um: Cleanup syscall_handler_t definition/cast, fix warning
+4693268a3a70225a073a46b2475abb5d427be789 Input: add bounds checking to input_set_capability()
+bd0b03e1b524a17dcb792c6e662fd6bb4060eafa MIPS: lantiq: check the return value of kzalloc()
+4856edff273322ec193bc7a6da3a4be49a212a01 drbd: remove usage of list iterator variable after loop
+736877d346551bc99d65279f9ad01c2908cb79da ARM: 9191/1: arm/stacktrace, kasan: Silence KASAN warnings in unwind_frame()
+ab9bc73edda09cd457a8852575e30de6722e38f1 mmc: core: Specify timeouts for BKOPS and CACHE_FLUSH for eMMC
+3aa676041add6bde31cb86da7f567b1eb8829ef9 mmc: block: Use generic_cmd6_time when modifying INAND_CMD38_ARG_EXT_CSD
+ba4511d99cf0ed8d2f93fe0f47110118029fbe14 mmc: core: Default to generic_cmd6_time as timeout in __mmc_switch()
+83983214a359d03745d198ff829d8b9520353177 ALSA: wavefront: Proper check of get_user() error
+0f37936c6106d74dc8e3a89a86ab48a2054a0eba perf: Fix sys_perf_event_open() race against self
+52eca82594553a50686509b9eb4485b5d987d0b3 drm/dp/mst: fix a possible memory leak in fetch_monitor_name()
+3017512424746c71f374f91038e6c2bc86b67d46 net: vmxnet3: fix possible use-after-free bugs in vmxnet3_rq_alloc_rx_buf()
+9452681a0d49f0497d07e4711f5dc1d6e7e834e2 net: vmxnet3: fix possible NULL pointer dereference in vmxnet3_rq_cleanup()
+2982645e5746c959db998cabd118688ec97b4ce3 net/qla3xxx: Fix a test in ql_reset_work()
+d6555410b33c2093aa7c030fe9e841e4167a489f NFC: nci: fix sleep in atomic context bugs caused by nci_skb_alloc
+af59ba6db9ac7ff34b6c4048ceaf17791402ff40 net: af_key: add check for pfkey_broadcast in function pfkey_process
+e352583e77716a7c11352257cb9cc6247cb9e6f7 ARM: 9196/1: spectre-bhb: enable for Cortex-A15
+2bdc0d483039f6cad05cec430ef7fc5e7f20aa0a ARM: 9197/1: spectre-bhb: fix loop8 sequence for Thumb2
+f0273ddbf05cb5a81b7e51694d782407266b49ab igb: skip phy status check where unavailable
+3fcdf0bf895414f8705fd706f7db98a2d9f06c04 perf bench numa: Address compiler error on s390
+8a2340a867abf546927cf2857075ce21a3648458 scsi: qla2xxx: Fix missed DMA unmap for aborted commands
+5ef7534644ae887b99a45fc94df120205b756b3c mac80211: fix rx reordering with non explicit / psmp ack policy
+961dc671c3ad56a320f640c804039042a751a72a ethernet: tulip: fix missing pci_disable_device() on error in tulip_init_one()
+70882277096a349c9c50c0b3075fe83b29ef6f3c net: stmmac: fix missing pci_disable_device() on error in stmmac_pci_probe()
+be4ec3e3faa1cfbe1ee62a6f6dc29c1b341a90f0 Linux 4.9.316-rc1
 
---===============8702897057411029649==--
+--===============8419703495601004986==--
