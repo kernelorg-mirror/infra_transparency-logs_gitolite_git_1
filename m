@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5141118833312833133=="
+Content-Type: multipart/mixed; boundary="===============1861684513300260100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 23 May 2022 15:58:45 -0000
-Message-Id: <165332152541.32206.14202810681286073877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 May 2022 15:59:53 -0000
+Message-Id: <165332159345.32625.13337863974380429442@gitolite.kernel.org>
 
---===============5141118833312833133==
+--===============1861684513300260100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 73d41750824b7f0a26cf45f1dd6d84fa3e1dc8e0
-    new: 73809470d3e663757609bbde72a5d6c957657a04
-    log: revlist-73d41750824b-73809470d3e6.txt
+  - ref: refs/heads/master
+    old: a270d75e82f25a619527a7c91210e3b065f59a41
+    new: 13391d5b945936ca57c8cb1d736d162de2941801
+    log: |
+         13391d5b945936ca57c8cb1d736d162de2941801 4.14-stable patches
+         
 
---===============5141118833312833133==
+--===============1861684513300260100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73d41750824b-73809470d3e6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-69c4cc99bbcbf3ef2e1901b569954e9226180840 modpost: add sym_find_with_module() helper
-f292d875d0dc700b3af0bef04c5abc1dc7b3b62c modpost: extract symbol versions from *.cmd files
-5255bb025ec27c5fa9acbfb079544920426313ec kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
-c0278c0903c5039e924f6df1ace154a06e7a1afa kbuild: stop merging *.symversions
-995096f55eacf2b613efebdaed43a87d6d897d8d genksyms: adjust the output format to modpost
-8ade00c90a0d63e45698fe921422a50127328339 kbuild: do not create *.prelink.o for Clang LTO or IBT
-921bdd390d5a1c7acdedb9c5a1842ab983511ba2 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
-0131198a1ddd85ffb669548ecaaaf0cbf134d6f3 kbuild: make built-in.a rule robust against too long argument error
-e7a0541ed9930b8e0e6d86591d87194d0f0fc9d1 kbuild: make *.mod rule robust against too long argument error
-69ec2d8c9a7d224dc30f450bdac01de14608112a kbuild: add cmd_and_savecmd macro
-73809470d3e663757609bbde72a5d6c957657a04 kbuild: rebuild multi-object modules when objtool is updated
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653321592 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1653321591-13b3392eaaf87aa0331c24f96646bc746fa34a2b
 
---===============5141118833312833133==--
+a270d75e82f25a619527a7c91210e3b065f59a41 13391d5b945936ca57c8cb1d736d162de2941801 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKLr3gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HAQQALJQsckTKDIW/Ky3tE0B
+ycnB7iWgcOJIWkiZpn5pq+StnMbpQR/jI6aHF6o8YF8CJ9IanjKpiAQ7jWAWPWoT
+zqnWeDW/YKGK0/z3rIiVBkWe19l+7JsbnkTado70TVjtm/8bVkTIwbzwEa+SCS2i
+Ow0Ea21MDrvCIPegrKPpZ8Jy9EKsmPjHC8dF2dR2eH9oG8xjZsiFJv37buT3LXB3
+iDX7JoqJ9K3XYisEZrAEcPtE5znpG5psn+1QjQHIWZD1c4SagCb3Q0AnBHB8sYhh
++eJtL2WtVV2kXUhrvUKmtLksgIl5wZRz2hi2L0Duvi2u1W+lisCiMNPxezli0G/4
+pKuYtMVlGImzJYsUF6g34crvIT9VWGOVlaJbWsupiqdpTYVSHETPPyqE0yO2e2Xl
+/CPTe2jfKB+g0GykstAkvzOAaLRQahnsJC6g48imTqSfxKCDpYBN6dQ2GRdjEEPY
+OJ3z9jMVR2tAOZk5/2vKwXBMyV27MUZkbChQzGTjQEMzm4LhURszPny5znwp5F17
+OjCdMrhFfW80Ffgx6JHUlA9GXNaye2bqlvkIrdDJ7GJJihBbl/llIKkkaGWeKcri
+Tfb8RPiy+50B/+Aui6ptSLs1IAmEcGQVoZ0d5P7DgQ9Ps1Z5sYwAmNk8oq85ye1s
+V2HnnnlUmkF8fRjzz0Fk6tvV
+=SbfQ
+-----END PGP SIGNATURE-----
+
+--===============1861684513300260100==--
