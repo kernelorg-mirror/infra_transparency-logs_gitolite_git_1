@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Tue, 24 May 2022 12:07:51 -0000
-Message-Id: <165339407182.30640.1639264484488372643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 24 May 2022 12:08:37 -0000
+Message-Id: <165339411737.30949.2454947175674344728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/perf/weak
-    old: aa0394d19e35567703dc37b9336ff60f32d9fb12
-    new: 1e06597baac3530ee3d2edc8a75121fe63117211
+  - ref: refs/heads/jd/block-urandom
+    old: a256159a3b8fbe16357593feb45a63a8073278df
+    new: 177314e1b12e5f76350d5d35f746aaa8d2d4f12f
     log: |
-         d0027f2628ea157a0a44edd640bd6dd984749847 perf build: Fix check for bpf_prog_load() in libbpf
-         8ccfd097856c24b5711e77bb6084724b28244b00 perf build: Fix check for bpf_object__next_program() in libbpf
-         b01e941ea7da315b5e8183c0a126a18c2d88e96f perf build: Fix check for bpf_object__next_map() in libbpf
-         2f9ecc303ef3d13754cc9974cf72d7c990ec028a perf build: Fix check for btf__raw_data() in libbpf
-         1e06597baac3530ee3d2edc8a75121fe63117211 perf build: Fix btf__load_from_kernel_by_id feature check
+         1b388e7765f2eaa137cf5d92b47ef5925ad83ced random: convert to using fops->read_iter()
+         22b0a222af4df8ee9bb8e07013ab44da9511b047 random: convert to using fops->write_iter()
+         79025e727a846be6fd215ae9cdb654368ac3f9a6 random: wire up fops->splice_{read,write}_iter()
+         1ce6c8d68f8ac587f54d0a271ac594d3d51f3efb random: check for signals after page of pool writes
+         9e8360c8ea179a1543bd5052476075cbd6cb1c63 siphash: add SPDX tags as sole licensing authority
+         177314e1b12e5f76350d5d35f746aaa8d2d4f12f random: block in /dev/urandom
          
