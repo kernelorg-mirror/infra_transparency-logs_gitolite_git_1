@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5516793646312030644=="
+Content-Type: multipart/mixed; boundary="===============3238473483129163738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 24 May 2022 03:27:33 -0000
-Message-Id: <165336285315.4303.17022613490536378509@gitolite.kernel.org>
+Date: Tue, 24 May 2022 03:27:48 -0000
+Message-Id: <165336286826.4466.9815431396799665446@gitolite.kernel.org>
 
---===============5516793646312030644==
+--===============3238473483129163738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 2b7d68af6034538a60c907a3251686bc61850a52
-    new: 236044c55868622a2145f2c7e3d845440d57f819
-    log: revlist-2b7d68af6034-236044c55868.txt
+  - ref: refs/heads/staging
+    old: bc76c07daef25cc9f5de750cf107e21e1f5eca8d
+    new: b23a0b8388bf3f3e755fa0a06fd68f77139f3d3f
+    log: revlist-bc76c07daef2-b23a0b8388bf.txt
 
---===============5516793646312030644==
+--===============3238473483129163738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1653362844 -0400
+pusher 75C5DE3D 1653362859 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1653362843-decddd694ca132580fac1ff11d0d3037c067df8c
+nonce 1653362859-9bc1709e2304b64bef9215684d66dcd915e676c8
 
-2b7d68af6034538a60c907a3251686bc61850a52 236044c55868622a2145f2c7e3d845440d57f819 refs/tags/mkp-scsi-staging
+bc76c07daef25cc9f5de750cf107e21e1f5eca8d b23a0b8388bf3f3e755fa0a06fd68f77139f3d3f refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKMUJwACgkQ7ulgGnXF
-3j3UWg//d70IDLZdTIPuo5YgfzdHYT1h52dX9HfZ/FAG+q4C9RAgENQgzUnD4gWY
-rvD4RXhKiN4Vnxs7rxzW0q8v+rslvQdFkX1hwh6+QjIltOJtfrlj2PHCTB6OkT+X
-tBhL9zWLX7tOIbBIYbZcOwbPX+RWYX9cuVnQNO2TOrlm5FoUA0oqPq1ocHalwUUn
-LG7LIN9Xqt/x29Mum7SYs43H3AsE8+MUe8yGUkTZE1TewnZ/OO2h1rF6OU1G7mt+
-MN+1KehSBPhtfB7YBbytuwsP98LEmAPYgeJ605XpbuxYwYJC/rrU0vsOBnYerzAX
-Din1DZwDkHOyzJ78TlVw8RZjvWbcmxOwpGhyrs1oxXQ4/BDJEZMUMlFH6tFMprZ2
-0v+ZyJGK2dfY8mZt+97BhI1jKf88/btyb4nUmj+Ruzi2ZCLOMenXE1q/afkcz9GW
-u88ui5gc6hNxDrc1Stp/moccx5bC5sV4k4EzLGN3cG24xteX1lPRrZUGSCMN56sV
-jjRxLn8HKH0d4zrI1etV1F+/S7IUZakKipZZzp8Oa1j9HH78WG75ZQk2sbj0kwds
-al80Iga6w+l94EZf3J/YN0MPEYbvSjwyCPjioVVZfYJzc1DdCcS+iAVrHASn9VcA
-+evjzBWqzqPLww1keu88c8GviG3rQNyqWELqufBQO/cBWlxasd4=
-=DRQw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKMUKsACgkQ7ulgGnXF
+3j2M4xAAtTT6ZMEErraHhcl4tR18eucNUqS1l+SccaZlFaF/bOQzNCi1L/0cPDrB
+IBcsa7EFaIwOGAqWxEKH5RYr/pFw+jdkgePy1zHraxUuLg8L7Ve5ATbiNLYY5V4p
+7IX+Ji4bki1bPowoUnCZSnPmVvq2t5kbrv2++pmYJhC2RgJT4cmey82+ihRxORpr
+I4GPITF7nKvhaxjsEGwm48D2uUwJMMdCoUwaP5HgPMY9mAmUHx/mYv/YMCCmpSWY
+LpIkeXYD3rOWxs82Ujm3Y30V/eG4qNQg7V9zQZ2+ub/0yMGWQ3IUzigCBJcMO4gy
+lPtUkFPP4UKRvKDvwF1aSpRYe+8fXMXCpwiUnGYwy7P3tKWy3+w2kfMypYZwvvsu
+NhDnAnOmfrRKbSV1jUGO5L8Y113Bj5RarG4iP45ikVqAq+Ft2qhlJmVODiMBrdLN
+zuEJNabbi5+qjDv/fMN37RHZ7vlxnyGt+wWQECaMjlg/s9/Qt3dphNMZJnmp3WAh
+L4nGAVVqcvYHgMJHPnwBNFVsgtG7qDaJ/4aSxG3zhMnE4xoqOT0jG6p1Z2LwVXrc
+ZMGV+g5TUUcVZwYWHe+qEmarBofaNHfQqFYHWZSDkHK3aEDkD/3cqVLgj6wzP4Bx
+PaTkHf+bKXAG8S0oXHBYhVG0ks41yJRi6xy6LiknXqJt7ASu29Y=
+=f1Nz
 -----END PGP SIGNATURE-----
 
---===============5516793646312030644==
+--===============3238473483129163738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b7d68af6034-236044c55868.txt
+Content-Disposition: attachment; filename=revlist-bc76c07daef2-b23a0b8388bf.txt
 
 5445e08e115906163a39917c747b00083f88f270 scsi: storvsc: Fix typo in comment
 0676f275837ccab6c75a49bb0533ed519a0a9d7f scsi: esas2r: Fix typo in comment
@@ -80,4 +80,4 @@ cf615f4c483c60c2d27fc8706f94230c85f75eda scsi: iscsi_tcp: Drop target_alloc use
 81dbb48fb9782c0d257c243483ef1fd80b932fb5 scsi: iscsi: Try to avoid taking back_lock in xmit path
 b23a0b8388bf3f3e755fa0a06fd68f77139f3d3f scsi: libiscsi: Improve conn_send_pdu API
 
---===============5516793646312030644==--
+--===============3238473483129163738==--
