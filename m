@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 23 May 2022 23:51:26 -0000
-Message-Id: <165334988642.19767.1837573104111415154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 24 May 2022 00:14:35 -0000
+Message-Id: <165335127565.1652.7616473796631154138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: a0ee3740af3a9deb67b8f8b9b2e1bbd9fe85d966
-    new: 4d9a5d09f7f6d5d5051ef2a8259626e85a9962cc
-    log: |
-         4d9a5d09f7f6d5d5051ef2a8259626e85a9962cc Mon May 23 11:45:41 PM UTC 2022
-         
+  - ref: refs/heads/arch-page_table_check-v7
+    old: 0000000000000000000000000000000000000000
+    new: 53866c9ab3b1ba06663b8be4920148a8c6db7a8d
