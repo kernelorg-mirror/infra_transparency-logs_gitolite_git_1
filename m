@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 24 May 2022 02:38:02 -0000
-Message-Id: <165335988277.4150.16331546524478145911@gitolite.kernel.org>
+Date: Tue, 24 May 2022 02:38:23 -0000
+Message-Id: <165335990314.4295.9124063811503978610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/chrome-platform-5.19
+  - ref: refs/tags/tag-chrome-platform-for-v5.19
     old: 0000000000000000000000000000000000000000
-    new: abd4fd43f2af03e2e852e6b1b98faeee9e3eae55
+    new: 88925ec4de7eeb35f876705d4ef8f2dfb4d8832c
