@@ -1,22 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 24 May 2022 07:56:03 -0000
-Message-Id: <165337896342.17286.7068321807222215216@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3901008987542014845=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 24 May 2022 07:56:07 -0000
+Message-Id: <165337896791.17362.17067543462086739636@gitolite.kernel.org>
+
+--===============3901008987542014845==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: eeb0a442da2fbf9617e9f934026958f782b1beef
-    new: f93afd8e7567fa9dcf0089ff4ce5a713bfb5dae7
-    log: |
-         311242c7703df0da14c206260b7e855f69cb0264 mfd: davinci_voicecodec: Fix possible null-ptr-deref davinci_vc_probe()
-         ade0642d7dcaff67fa5794770d5bec484c26cdfc mfd: rt4831: Improve error reporting for problems during .remove()
-         21a486c4a9b8cfcb5f11c854287f4b5d3f6af28c dt-bindings: mfd: wlf,arizona: Add spi-max-frequency
-         f93afd8e7567fa9dcf0089ff4ce5a713bfb5dae7 dt-bindings: cros-ec: Fix a typo in description
-         
+  - ref: refs/heads/kbuild
+    old: 193ce6b16e10632abf21c2d756c1c181d6ecdf40
+    new: 58d493ffabada69c6e16e710923043e504c6a4ed
+    log: revlist-193ce6b16e10-58d493ffabad.txt
+
+--===============3901008987542014845==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-193ce6b16e10-58d493ffabad.txt
+
+7b4537199a4a8480b8c3ba37a2d44765ce76cd9b kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
+7375cbcf2343a9337b19846e76dfd94c3af98a27 kbuild: stop merging *.symversions
+5ce2176b81f77366bd02c27509b83049f0020544 genksyms: adjust the output format to modpost
+3eec672cbc9b1b5e3a4ab703dca91c9ba221120c kbuild: do not create *.prelink.o for Clang LTO or IBT
+c8a6431cbfd54803bdd8498b8b32308abaa2ca01 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
+aff966d280cadb28e280da5fdbae4398c2a92d73 kbuild: make built-in.a rule robust against too long argument error
+7414d89fd7cde00fd3f81959f7cbae039340849a kbuild: make *.mod rule robust against too long argument error
+bf82b566bbf1396ec45748d1401f7f191a842cf0 kbuild: add cmd_and_savecmd macro
+7dc39300e525be2eb6e1597b574ee8b82c87cb24 kbuild: rebuild multi-object modules when objtool is updated
+5da3c41ab13261e793dc14bca424286ead079b5e kbuild: Fix include path in scripts/Makefile.modpost
+58d493ffabada69c6e16e710923043e504c6a4ed scripts/kallsyms: update usage message of the kallsyms program
+
+--===============3901008987542014845==--
