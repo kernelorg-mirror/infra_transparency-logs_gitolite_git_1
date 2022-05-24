@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 24 May 2022 19:33:06 -0000
-Message-Id: <165342078601.28628.2001186640243710291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 24 May 2022 19:43:58 -0000
+Message-Id: <165342143808.3821.8356488161303982208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/tags/gfs2-v5.18-rc6-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 37da323f201df2f380dba113ee7b48f71a10ef61
+  - ref: refs/heads/dev
+    old: 759820c92a346dd18daaa8873f5cabe731d8a31c
+    new: 9ee1ce46c3ebdc2956199318fc49fe206a6b90f1
+    log: |
+         9ee1ce46c3ebdc2956199318fc49fe206a6b90f1 f2fs: allow compression for mmap files in compress_mode=user
+         
