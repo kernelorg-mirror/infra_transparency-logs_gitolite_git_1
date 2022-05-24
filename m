@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3901008987542014845=="
+Content-Type: multipart/mixed; boundary="===============4941497788630539848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 24 May 2022 07:56:07 -0000
-Message-Id: <165337896791.17362.17067543462086739636@gitolite.kernel.org>
+Date: Tue, 24 May 2022 07:56:48 -0000
+Message-Id: <165337900830.17668.3996118268801404078@gitolite.kernel.org>
 
---===============3901008987542014845==
+--===============4941497788630539848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 193ce6b16e10632abf21c2d756c1c181d6ecdf40
     new: 58d493ffabada69c6e16e710923043e504c6a4ed
     log: revlist-193ce6b16e10-58d493ffabad.txt
 
---===============3901008987542014845==
+--===============4941497788630539848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ bf82b566bbf1396ec45748d1401f7f191a842cf0 kbuild: add cmd_and_savecmd macro
 5da3c41ab13261e793dc14bca424286ead079b5e kbuild: Fix include path in scripts/Makefile.modpost
 58d493ffabada69c6e16e710923043e504c6a4ed scripts/kallsyms: update usage message of the kallsyms program
 
---===============3901008987542014845==--
+--===============4941497788630539848==--
