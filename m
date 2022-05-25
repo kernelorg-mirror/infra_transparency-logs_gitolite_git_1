@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 25 May 2022 04:50:03 -0000
-Message-Id: <165345420333.18372.2110616379660848861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Wed, 25 May 2022 04:51:02 -0000
+Message-Id: <165345426291.18830.12920406269864186782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-5.20/io_uring
-    old: efc30c3b043b70c4a299df9f10a948b60ef721e3
-    new: 9da4fba4e0165c5e40d689eb5d34b73d780bf067
+  - ref: refs/heads/master
+    old: 3034a418ff561cfaeea4575aaae0a3214251fb7f
+    new: efc2bc71b3fa4971fdf8df466dfd1464287e7afa
     log: |
-         1ed0d231e24cc7c163e81441715dcc3f6c7c54a2 io_uring: split out filesystem related operations
-         22eadf221928100134978b69655f0cf37466e30a io_uring: split out splice related operations
-         97892908cf8aaaa750dee94efd7ab6e7c91c9658 io_uring: split out fs related sync/fallocate functions
-         a26af15bc2a126a831173607e14afeb6f18d4329 io_uring: split out fadvise/madvise operations
-         07feae14cc69c9ca93809105b4f828cf8672b160 io_uring: separate out file table handling code
-         9da4fba4e0165c5e40d689eb5d34b73d780bf067 io_uring: split out open/close operations
+         efc2bc71b3fa4971fdf8df466dfd1464287e7afa mkfs.f2fs: fix typo
          
