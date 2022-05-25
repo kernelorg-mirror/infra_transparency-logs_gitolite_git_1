@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7664967274587951044=="
+Content-Type: multipart/mixed; boundary="===============3850736907572553749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 25 May 2022 13:31:28 -0000
-Message-Id: <165348548849.14392.4539803871525549787@gitolite.kernel.org>
+Date: Wed, 25 May 2022 13:31:56 -0000
+Message-Id: <165348551610.14889.4472187609324079661@gitolite.kernel.org>
 
---===============7664967274587951044==
+--===============3850736907572553749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,50 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.43
-    old: 0000000000000000000000000000000000000000
-    new: 90dce17b4f29be71c06df696af06be2d582fb499
-  - ref: refs/tags/v5.17.11
-    old: 0000000000000000000000000000000000000000
-    new: ba79b77722e71f82e3670005e4d0b3b1b02c9c1e
+  - ref: refs/heads/linux-5.15.y
+    old: c5871dddc145ac70916dac7c3f8366aba55ed9f3
+    new: 0e5bb338bf471ec46924f744c4301751bab8793a
+    log: |
+         d12cd0bf5d262887eeaa407744618255bde76565 mptcp: Do TCP fallback on early DSS checksum failure
+         0e5bb338bf471ec46924f744c4301751bab8793a Linux 5.15.43
+         
+  - ref: refs/heads/linux-5.17.y
+    old: 6c468bb6fae847a154c7ec54cae85f83c9d17a90
+    new: e960d734930b58bd6ce00c631ea117af0764473c
+    log: |
+         297364739e1b1f99b22172055c727c68eaec7a00 mptcp: Do TCP fallback on early DSS checksum failure
+         e960d734930b58bd6ce00c631ea117af0764473c Linux 5.17.11
+         
 
---===============7664967274587951044==
+--===============3850736907572553749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653485484 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653485515 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1653485483-92fc86b1cadcecbef9e6d723144b51ad46252935
+nonce 1653485514-aa9814503e66a1886bc144f09a0a170d64b5d075
 
-0000000000000000000000000000000000000000 90dce17b4f29be71c06df696af06be2d582fb499 refs/tags/v5.15.43
-0000000000000000000000000000000000000000 ba79b77722e71f82e3670005e4d0b3b1b02c9c1e refs/tags/v5.17.11
+c5871dddc145ac70916dac7c3f8366aba55ed9f3 0e5bb338bf471ec46924f744c4301751bab8793a refs/heads/linux-5.15.y
+6c468bb6fae847a154c7ec54cae85f83c9d17a90 e960d734930b58bd6ce00c631ea117af0764473c refs/heads/linux-5.17.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKOL60bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++R4P/jyXEFNky/H84AFRKPKj
-sJ8o8ZNIlUzVOLq+76O1MZj9AixYDfRQMg1To4aSvRdfweOfjjvw1ON+JXuNpu4m
-qtxFEtbj3p/aQDPOqRr2ecCDsgd2yfYjUJeaHOX2lfURP3lcLoMAQDgL96jTVJwN
-KSdeMU3sAZHDpCz/76Xne2OT+QB76TLeu4kmubOiQG5/OaN2oUR/rxa3DmzEC1YP
-UMcyM7RffUxtwEkOiS7vu1fhDuiX4z4WbjnO0lt4J4grjTBcGAsFtEER1PJQLJbR
-u0izilFFIQy1gt/I7AVjWgPi9Vn7aJamhI0jeJKnHb0qsrBSBTTbwj6ETCgeVDI/
-jxP3XboJFyhzDZlQFKBlam9/1ewjEUZnWiAd4NIWG2+mJRZbhqP9D8P/QCbZw/96
-5p/rKokh0Vv0tMofRtUzSKC0NTMD0Y5dAI71hUs8Pzt7p1T9GBUXdKgXOy4tDbUI
-rDFMbQPu2lgEgFT39mzO4tzvvYMGP3T9Hpk5NIToWOO/xcSwRIsHjsL7VRfOtRAS
-dQEf2zFOyFpdz9CHOThzbiPMyJzzzCWKK10IUbQ+Qgh8py7M2KP8DY/RFPS/2vUF
-1QRiLDsAM5+HiGR/iYSU90uuESEOHNS89nyESreenIVKMkD9q6NYHz27Vgz+DfUL
-U6exb2BCqSMVurpPV0eW05MF
-=TO+O
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKOL8sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZnUQAKu641x3dyiaopfTnqH0
+JoxIygTKbTR4ILdMHMP4jDWiNj+e+mQA7z5WDB1PRNKXeJkP2nTVBtbttZ5+Lfm5
+DuShpKmUCAfok1ZjOR0MSJ5VEAXHetWoQh+t8EQd2eWGZqbVoFD5Jtxc+4dd3g0C
+0RtKeXXh/GVw7/6ElxGQXJaU7X0PWXs0/hmXZKqFf1y8uXx1NJKjuJf2SsSLjWJs
+GBebWPP+1zlzl99+uqvldSsUke5QVP5EhBjyUwH0CITMyVSChtkxsE+MSemRnX/9
+p+F/O9eC5CfBehlrMVQyJIiuCJAWBzHyGGpZSHl8OOtzgsq5xFxUCOo/pGE4bj0g
+ZeHV/whr6n0rcuDMoc4/e47pU9bjhSBoYvzhLBk3dyFZNyzpv/RTA+qUvI5jq0zz
+oh41n6ogt/kaVTdodrjgc7NoEfCzuKREoE+hyonFPrQPpItocsSMkmMI6N3jybca
+SAkzKaKaj+p3zeUGC8BNq58osBMiCZWRkhLjFmTJ1ZvAQwvPONpqLkG1Ux7M55e0
+jV31eUsQLQ7o7uxs8nPfDe4qD541h2I6lzLG6hPgnOtdCzEzY6jho5cPmNFk5uPi
+tF6wvOtL3tmMMWLkQdBP9/rqhB31dJ62jg3Fe1bWuglNTIIEqMJmw1yGQ9NMG9gT
+8Br0Wu3K4I8GM5yK2PhE+Vjg
+=X3Dh
 -----END PGP SIGNATURE-----
 
---===============7664967274587951044==--
+--===============3850736907572553749==--
