@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7700059918466138678=="
+Content-Type: multipart/mixed; boundary="===============6604140509694673042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 25 May 2022 06:33:28 -0000
-Message-Id: <165346040841.19602.11000687667345176902@gitolite.kernel.org>
+Date: Wed, 25 May 2022 06:33:52 -0000
+Message-Id: <165346043255.19775.5545300570020119415@gitolite.kernel.org>
 
---===============7700059918466138678==
+--===============6604140509694673042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
     new: fdaf9a5840acaab18694a19e0eb0aa51162eeeed
     log: revlist-4b0986a3613c-fdaf9a5840ac.txt
 
---===============7700059918466138678==
+--===============6604140509694673042==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1653460402 +0200
+pusher Mickaël Salaün <mic@digikod.net> 1653460430 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1653460402-2f69e31f489f49ee6c61c5565f7cdaab22ba33f5
+nonce 1653460429-1708df4492d4fa1c661ca1b687cbf6fb4cb358ac
 
-4b0986a3613c92f4ec1bdc7f60ec66fea135991f fdaf9a5840acaab18694a19e0eb0aa51162eeeed refs/heads/master
+4b0986a3613c92f4ec1bdc7f60ec66fea135991f fdaf9a5840acaab18694a19e0eb0aa51162eeeed refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYo3NshAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbSOcQBANzqKqwiUptLLIJws5LyLddXmt3SnvxzYsKH
-r3Ort1E7AQDLRfOATt/9QFWplw0eyd4FM3s/kmAVpZq7MWxC6aHKDA==
-=KCin
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYo3NzhAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSUykBALTTv9tQThbH837xyseRaruquJSs9wcgrtZ4
+lMBJCSEJAQDnKPruEg4GU/KWGUczG2lKgh5b5LhePazq23TnWfB8BQ==
+=Bjun
 -----END PGP SIGNATURE-----
 
---===============7700059918466138678==
+--===============6604140509694673042==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1072,4 +1072,4 @@ f289811258552a8a8c15d2446f9ead1d567357f2 Merge tag 'dlm-5.19' of git://git.kerne
 8642174b52214dde4d8113f28fb4c9be5a432126 Merge tag 'iomap-5.19-merge-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 fdaf9a5840acaab18694a19e0eb0aa51162eeeed Merge tag 'folio-5.19' of git://git.infradead.org/users/willy/pagecache
 
---===============7700059918466138678==--
+--===============6604140509694673042==--
