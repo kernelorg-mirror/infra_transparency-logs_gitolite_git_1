@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1921831137910736560=="
+Content-Type: multipart/mixed; boundary="===============3483350603728475922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 May 2022 22:22:59 -0000
-Message-Id: <165351737973.23601.12110953731231475865@gitolite.kernel.org>
+Date: Wed, 25 May 2022 22:23:26 -0000
+Message-Id: <165351740672.23813.13328344503037045916@gitolite.kernel.org>
 
---===============1921831137910736560==
+--===============3483350603728475922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 677fb7525331375ba2f90f4bc94a80b9b6e697a3
     new: 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad
     log: revlist-677fb7525331-7e062cda7d90.txt
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
 
---===============1921831137910736560==
+--===============3483350603728475922==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1051,4 @@ caa28984163cb63ea0be4cb8dbf05defdc7303f9 linux/types.h: reinstate "__bitwise__" 
 5d1772b1739b085721431eef0c0400f3aff01abf Merge branch 'for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad Merge tag 'net-next-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============1921831137910736560==--
+--===============3483350603728475922==--
