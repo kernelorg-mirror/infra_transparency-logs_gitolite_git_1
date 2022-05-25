@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7361107939278296461=="
+Content-Type: multipart/mixed; boundary="===============6060531013145496763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 25 May 2022 12:45:05 -0000
-Message-Id: <165348270537.27600.9187280895512753429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 25 May 2022 12:45:15 -0000
+Message-Id: <165348271543.4021.5010800904999783616@gitolite.kernel.org>
 
---===============7361107939278296461==
+--===============6060531013145496763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.17.11
-    old: 0000000000000000000000000000000000000000
-    new: 554453a1120ed124dec55573706a6ac18a54d0ee
+  - ref: refs/heads/linux-5.17.y
+    old: 6c468bb6fae847a154c7ec54cae85f83c9d17a90
+    new: e960d734930b58bd6ce00c631ea117af0764473c
+    log: |
+         297364739e1b1f99b22172055c727c68eaec7a00 mptcp: Do TCP fallback on early DSS checksum failure
+         e960d734930b58bd6ce00c631ea117af0764473c Linux 5.17.11
+         
 
---===============7361107939278296461==
+--===============6060531013145496763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653482704 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1653482704-02e38b1053170a451395b370bfa0916bd18aafcc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653482714 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1653482713-3e62a40560c44b8f8d255102942aa54cd2be0868
 
-0000000000000000000000000000000000000000 554453a1120ed124dec55573706a6ac18a54d0ee refs/tags/v5.17.11
+6c468bb6fae847a154c7ec54cae85f83c9d17a90 e960d734930b58bd6ce00c631ea117af0764473c refs/heads/linux-5.17.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKOJNAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TboP/jeOGYWb6ePWkc8CTZT1
-qW01WMEBeXS5LQ8MTr4hJawRedj4qzdt8bGuOYbrnf4ETw1Ba3Augrxu+3p8Rx3F
-ibd939/LfjvpoSLOmZHSkFF+QFXS2yk2yEeAyBPlePTIJBbUKNXFdpI0jhWyBUAR
-2Ajq12JKGMbNYfo3sinMabi8V9jEiyOQpeG5BLIfTU4xIrFWiUu0pYeqwdHOVZiy
-DYJsf/hjMiaAXzWQiqpDsh8VfrIG5i1LoAFqwZI+DBysW5z6nKes4pEjViBOZ7pO
-WvG/XOKXC2H0YCb8w264jqkpnKFg4HOoujnQRuCTWolgZ2VDm9PXHWPxQ3kmZzs+
-ku/doa7fV4vdT95AF7fCxcfhbLKMe12jlzctgegdoNFV6YSFa3AO/1B6JasdC/Bv
-OYzNA+e8aim2RJaUQqujU4NgBJ2NTEv0lwdCrZrm4fGT8upjqqvSQxl0lV3Tczr5
-VSHjPNsolPXIvuVoq4AcbG/oMbOmnza35lUIxtmWNiPt3UnFOgW35CgE5VEvkGgV
-hozTxbXcPZWx+XtEjDYA0UE9rStXCdmpWowao9e+pQ6gCpUAChtpVFemtSd0tF3A
-47AYT8VX7/stTUJkyUjE1xq5dpt2a+uS8eMw97OtWGTS17OFXaxVdpBf9RxcizOc
-MIdkCy9D4byWvRZbXxfm+voh
-=YFnr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKOJNobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ELgQAKEh5vSJmFG0GoPl/Tx5
+3+o1H4IEeTqEwnX7EaVSSYPW1esfMUoE9TIpYopvhyuMdfNLo95HaDSiiNMWavu2
+5AQdjil6qn8pFlh/8J2I83S1gG5eibKqQYmT6bpwQtoSYniUnQvxyb7rDFjSpLQk
+V9QUJnyFSaMgWMIA7SN4KVISWf09rKZCXjBVficJn3Mo+pAvMs0VOXWkw6qbdpnO
+9Ecvy/s2QS+PTxlENjbNqYuiXPEAiwQMELcwnesUQ8yleg3gz8xPkNau5CQcYXFU
+Pv18yxa5do/C9jl+9vTf0u3W7ZGsv8QTOpOmAzpqdBsoUf/V/nVlW+j2g87pMOr5
+etS7OLqlPjNzfoW6yGPu4Srj0rEpJIULW+gKVQeehnAbDBsjqq+JgEooguKNpHrL
+q4+uprNDcLXMXwK4Q0d2av0mrsulSqFfXj9FxXWmFJ6em/0g7u0iNbuanOqE7mPd
+JUVvH9z4I1Vcdv57miTnqkLtTWcuWfzn7JcAjEHJJBD1mkFZDuUhJOKWc+N7Mkz/
+8uq/NmVFa1/9NwQTv8RgG5BU21oi9usdimwvRzwBzUAzTtS56S6ngp9UXM7cEvJE
+1N5dfdnfXWwPWtMSlcS2cgvsiLNEAWs9Mcno0Hkcb4qclbkvppr2UtGlpVn0AUsM
+QueCaG2uR6YnNKyvAXAM7enj
+=yOEi
 -----END PGP SIGNATURE-----
 
---===============7361107939278296461==--
+--===============6060531013145496763==--
