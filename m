@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 26 May 2022 16:42:38 -0000
-Message-Id: <165358335829.13700.12137309111762091567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 26 May 2022 16:42:50 -0000
+Message-Id: <165358337013.13958.9689618185903189154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: eb8362bf76b41f7634f6942093c06fecea99fd0c
-    new: 7290989e15e356edf781adbff6ddb809585e7a47
-    log: |
-         a18c6e10a7934dcef5c3f5b42c2773f263a6c97f auto-t: fix eapol_reauth utility
-         7290989e15e356edf781adbff6ddb809585e7a47 auto-t: add EAP reauth to testEAP
-         
+  - ref: refs/heads/linux-5.17.y
+    old: 677a7411439f5d9dc0e1fa723b1d46a413649b44
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/linux-5.18.y
+    old: f4195f2a970d9fdbf55e6664e23edf6f32c326c5
+    new: 0000000000000000000000000000000000000000
