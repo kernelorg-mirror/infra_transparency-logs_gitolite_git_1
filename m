@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 26 May 2022 15:01:54 -0000
-Message-Id: <165357731489.11547.13960613099054267888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Thu, 26 May 2022 15:11:41 -0000
+Message-Id: <165357790169.17425.2723691567701088296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/tags/nfsd-5.19
-    old: 0000000000000000000000000000000000000000
-    new: 8a3ddf8b15077e5cef7e9f5b2374eec71123e4be
+  - ref: refs/heads/mediatek-cmdq6
+    old: cc63e8e92cb872081f249ea16e6c460642f3e4fb
+    new: a35f642aa89f02b7307725cdaa3bfb348b26d093
+    log: |
+         a35f642aa89f02b7307725cdaa3bfb348b26d093 mailbox: mtk-cmdq: Remove proprietary cmdq_task_cb
+         
