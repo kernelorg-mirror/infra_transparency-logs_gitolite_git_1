@@ -1,50 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 26 May 2022 12:05:05 -0000
-Message-Id: <165356670527.24901.5023369445422220001@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0884231511606377525=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 26 May 2022 12:05:29 -0000
+Message-Id: <165356672983.25103.10185199099081197286@gitolite.kernel.org>
+
+--===============0884231511606377525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 501eec4f9e138b958fc7438e7a745c0d6a7c68b3
-    new: 8a34f8e7da1b61fa4b279973e23dc39d47ef919a
+  - ref: refs/heads/master
+    old: b43aae0dbae0aef22f0581ea774d99e54080e967
+    new: 115ef8822639af01b08479406c2cebce1143ff32
     log: |
-         8a34f8e7da1b61fa4b279973e23dc39d47ef919a x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
+         115ef8822639af01b08479406c2cebce1143ff32 4.14-stable patches
          
-  - ref: refs/heads/queue/5.10
-    old: b0f10b7c5633ad2b77d69a029c36b36ac8aa9c15
-    new: 0357562a6342f9f8fd350d30a4ed8eb3acc06d95
-    log: |
-         0357562a6342f9f8fd350d30a4ed8eb3acc06d95 lockdown: also lock down previous kgdb use
-         
-  - ref: refs/heads/queue/5.15
-    old: 5fc0aa804313614bf37f4734c297de7a0e51616a
-    new: f9599c291efebe186b76e1ee8ced765571c56b05
-    log: |
-         f9599c291efebe186b76e1ee8ced765571c56b05 HID: amd_sfh: Add support for sensor discovery
-         
-  - ref: refs/heads/queue/5.17
-    old: bc3aa5b4c251b93a30ca3d5fb8e54ddc0a8fcb4a
-    new: 2024ca7ac9d31d0a853c2f6d7a73031d95fcf6ec
-    log: |
-         2024ca7ac9d31d0a853c2f6d7a73031d95fcf6ec HID: amd_sfh: Add support for sensor discovery
-         
-  - ref: refs/heads/queue/5.18
-    old: e19361c4c707b173abadfb97e835736be7ffeba2
-    new: 793335a352cd23b8f8400087ea27cc351e3b6bc4
-    log: |
-         ae4270bbc5b435012c812e191c0ed3cd7f75539d lockdown: also lock down previous kgdb use
-         793335a352cd23b8f8400087ea27cc351e3b6bc4 HID: amd_sfh: Add support for sensor discovery
-         
-  - ref: refs/heads/queue/5.4
-    old: 4c4483b3bee6044ec112bf42570ece230c12027c
-    new: 63f1891b2387807b41a2f21a4a79676fdf2bab87
-    log: |
-         63f1891b2387807b41a2f21a4a79676fdf2bab87 lockdown: also lock down previous kgdb use
-         
+
+--===============0884231511606377525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653566729 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1653566728-73dc0f46400bef9d19c3aa8692926a907fbbe2f7
+
+b43aae0dbae0aef22f0581ea774d99e54080e967 115ef8822639af01b08479406c2cebce1143ff32 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKPbQkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XJ8P/jwSFevECbwiNDnFZIO1
+NhXjQhezVmC0OVoHB5x+5+H8efcC0+Qdwp5eD4Ay4rhlgAKIDJt/CAJsr3gml5yf
+e31yovJtQGeK1Ofowr6lCQa49SIa1HPMkCFpV5zHHkD7SKL6rpHwkHnnkRDyfJlu
+ua2QuqzHSO8v3jYfSkFft4lw0utMwB3OfW/qoSATXrEHrsQAdpdaitzKcmE6Xh9i
+ZO0UMlMwUXztJfByz97alEAAqUc8Ns76Wx7pfTa6AWE707YodDldWJFFI9MDpNE4
+B1ZL8MVj7K38yrt60+LBbuCjLhoQHAv50xrhGqt3cafxVZuNTudn8BMEX7wFAP4R
+3LDYslG8cFUAkCxD9PaZ5fz4U++4G9w5lkl9+xDFlomc8+pDftRrD0mXaN2bgzSQ
+Hd9wrTLEU+RXlRki+ifTrz/BWD1Tt1PAWqO4RPahjjCqZmu+qR1vxd+zu9dyQBCP
+kpr5GkBlku4qCCOewTkZsni360L+OX6z116ntBO7KLWfA6PXrWFK7t8w0hIyB1KL
+JwsG5sTW4nA9L7xqfwO7rzhBPuza7D+czSeXElICrQ9nw8fJVCaucVybofUSPgI4
+Bdl+ucbZnbSu6V0CCbpr5hhkovfYudWCr3DEdV9lyYGOct74U4mLxLou4c7zpMgt
+reAK3CJHRtWbGgAGAOLwPvti
+=/QAg
+-----END PGP SIGNATURE-----
+
+--===============0884231511606377525==--
