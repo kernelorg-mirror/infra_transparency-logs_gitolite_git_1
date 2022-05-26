@@ -1,44 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 26 May 2022 11:47:05 -0000
-Message-Id: <165356562522.13367.1803965672407488479@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4951800846550798301=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 26 May 2022 12:03:02 -0000
+Message-Id: <165356658230.22703.17223927789414259165@gitolite.kernel.org>
+
+--===============4951800846550798301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.10
-    old: f799f5f9e4d0054c7825e08fe8cd52bd35293f70
-    new: b0f10b7c5633ad2b77d69a029c36b36ac8aa9c15
+  - ref: refs/heads/master
+    old: 0f52a0e6fd560a94dbdd9ff7d3c4b74bf05aad60
+    new: b43aae0dbae0aef22f0581ea774d99e54080e967
     log: |
-         b0f10b7c5633ad2b77d69a029c36b36ac8aa9c15 lockdown: also lock down previous kgdb use
+         b43aae0dbae0aef22f0581ea774d99e54080e967 4.14-stable patches
          
-  - ref: refs/heads/queue/5.15
-    old: 0e5bb338bf471ec46924f744c4301751bab8793a
-    new: 5fc0aa804313614bf37f4734c297de7a0e51616a
-    log: |
-         5fc0aa804313614bf37f4734c297de7a0e51616a HID: amd_sfh: Add support for sensor discovery
-         
-  - ref: refs/heads/queue/5.17
-    old: e960d734930b58bd6ce00c631ea117af0764473c
-    new: bc3aa5b4c251b93a30ca3d5fb8e54ddc0a8fcb4a
-    log: |
-         bc3aa5b4c251b93a30ca3d5fb8e54ddc0a8fcb4a HID: amd_sfh: Add support for sensor discovery
-         
-  - ref: refs/heads/queue/5.18
-    old: 7350d3c1f391a91f217ec74534087ef9d0646d7a
-    new: e19361c4c707b173abadfb97e835736be7ffeba2
-    log: |
-         c346d95dbce94e9b9c9a56cc722ee9e7e95bbf53 lockdown: also lock down previous kgdb use
-         e19361c4c707b173abadfb97e835736be7ffeba2 HID: amd_sfh: Add support for sensor discovery
-         
-  - ref: refs/heads/queue/5.4
-    old: 39a93474bb1f5429c879ec2f92bcc7d7bcd69eb5
-    new: 4c4483b3bee6044ec112bf42570ece230c12027c
-    log: |
-         4c4483b3bee6044ec112bf42570ece230c12027c lockdown: also lock down previous kgdb use
-         
+
+--===============4951800846550798301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1653566581 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1653566580-34b96532a3a8f4571c66473b31c5b64d3eddad45
+
+0f52a0e6fd560a94dbdd9ff7d3c4b74bf05aad60 b43aae0dbae0aef22f0581ea774d99e54080e967 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKPbHUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nBAQAKOh6GpDTzGaDKF20i1y
+9hYS5sCbM9k9eqOtcZ/UFuTi442TzKgVgNVadlZZkQ/xishvieEVLBjlzRYfZ87/
+NTAUQqH+UQ5jV2pZ48FG57ailKaSb2TpW0XCY2SD0Up8dneQKGtw1TBBKPTGMAR2
+mcFVWJQBEN3ntfLZMgN5YEKAJfu5DGzPM/8hjYu/i9DrlGXauxZjx4a9Pj+7Wx2b
+NyqQvY7rEwZW1zzxaalqgKVpYaPGxIjlG0RQznpNhKfKNI8o7UfDZsZCuTbNMyhq
+k1A0U41Ybs1AijChDJFHXy/qJWHy+d6l6YOLrgzQ6pWM9YSKabEiHIgrL5+OoMb0
+X0LHeolzz8DzAtOy9cQMxWZbuxmG7dEYj21rizSWrQbL96eOlZX7iQS08WugaK6Y
+fwslm1ogox+VNz0V6z0CWXfW5AnPn6kr3VRqPPH1uuK4PO8W0nlIosocv1bU7JZI
+SoaG7j9CW5GoiITiC6bgkSxz2ztNyaDbK73AhHs/JrnfHhjklI2Y026it6zLqjDw
+G2FkU17trnYbrIYuhcbBLNOeYhhS6I+ZkinTPhD1m6LK8z45txmwS6JtGWGOtDcu
+zo+QhwPMsvQDIL9KAN9d4dv98X1kL+JU8f2wU2XkZtVMsPBYdZhV41HDtDuQJjXk
+22KsE03S8D73V+EtV6qvt2Pb
+=lstf
+-----END PGP SIGNATURE-----
+
+--===============4951800846550798301==--
