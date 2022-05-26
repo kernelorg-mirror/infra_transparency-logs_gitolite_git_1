@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 26 May 2022 11:11:59 -0000
-Message-Id: <165356351985.20941.13757809025669011449@gitolite.kernel.org>
+Date: Thu, 26 May 2022 11:12:08 -0000
+Message-Id: <165356352897.21043.5403768400711575934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 108ea7eb3e754be735a1c33d2713a19527fb2065
-    new: 4cfef6f2f81a7ef60327be7c3e84e47a7d599e65
-    log: |
-         4cfef6f2f81a7ef60327be7c3e84e47a7d599e65 x86/events/intel/ds: Enable large PEBS for PERF_SAMPLE_WEIGHT_TYPE
-         
+  - ref: refs/heads/sched/idle
+    old: 0000000000000000000000000000000000000000
+    new: f29727b55a404f445a4822e9f49f5c6ab890f786
