@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1759130525592423766=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 May 2022 15:54:52 -0000
-Message-Id: <165358049221.14466.7586132511010149443@gitolite.kernel.org>
-
---===============1759130525592423766==
-Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 26 May 2022 15:55:04 -0000
+Message-Id: <165358050411.16036.5827022618027370359@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
-    old: 832296804bc7171730884e78c761c29f6d258e13
-    new: 5fa66f29937eb806997a4d1d3edd360ef4e93db9
+  - ref: refs/heads/for-linus
+    old: 69203f3f937d4bb920b717e46260f73c801bf8c1
+    new: 5da1c60b9f39933ee45c45947e7c59a5e6c46424
     log: |
-         5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
+         832296804bc7171730884e78c761c29f6d258e13 ASoC: rt5640: Do not manipulate pin "Platform Clock" if the "Platform Clock" is not in the DAPM
+         5da1c60b9f39933ee45c45947e7c59a5e6c46424 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
          
-
---===============1759130525592423766==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1653580490 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1653580490-b26ae15526643ebb82b91f83f31c595f931d813e
-
-832296804bc7171730884e78c761c29f6d258e13 5fa66f29937eb806997a4d1d3edd360ef4e93db9 refs/heads/for-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKPosoACgkQJNaLcl1U
-h9Cc/wf/cjuBRcZB6tpV0lI46zYNxX52vgXpP9YL+J+AGU5pboeJoje9GnMIG6RQ
-mztw2IERPIafiB5urW0DQCL+PFkv6Hj1HF0ZH4L5xH4UTpW3cVwuyGfTnuOro4u9
-bb+xL2WblsSRKoHKq3pbAzCiTU4bdSJsGHlXF0CGD4JvCSSFW7SoU6Pn/AtHn0Fx
-WLcqgfPWRIv/svpbWHIjlNx+nAJrD3N1ftcBpDUVrS1VoJemujD5zs2PbO4j8gkZ
-znAQHgABA4v9KZHLOuE4VhVQJbAlXFeAjbVoa9uzcuPUEkGjzFYRz+JVY3reHo/u
-kYcPe70pH8la1ZhiJII1P0dWdAXxPA==
-=VVd7
------END PGP SIGNATURE-----
-
---===============1759130525592423766==--
+  - ref: refs/heads/for-next
+    old: 69203f3f937d4bb920b717e46260f73c801bf8c1
+    new: 5da1c60b9f39933ee45c45947e7c59a5e6c46424
+    log: |
+         832296804bc7171730884e78c761c29f6d258e13 ASoC: rt5640: Do not manipulate pin "Platform Clock" if the "Platform Clock" is not in the DAPM
+         5da1c60b9f39933ee45c45947e7c59a5e6c46424 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
