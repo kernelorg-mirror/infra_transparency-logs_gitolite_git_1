@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3410007805657046117=="
+Content-Type: multipart/mixed; boundary="===============8863614569678754161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 26 May 2022 11:11:42 -0000
-Message-Id: <165356350201.20564.192330052324170881@gitolite.kernel.org>
+Date: Thu, 26 May 2022 11:11:51 -0000
+Message-Id: <165356351142.20826.10124674916017923955@gitolite.kernel.org>
 
---===============3410007805657046117==
+--===============8863614569678754161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: 4abff6d48dbcea8200c7ea35ba70c242d128ebf3
-    new: 43c6fc6a431b43163dc3950543dd87b986f25945
-    log: revlist-4abff6d48dbc-43c6fc6a431b.txt
+  - ref: refs/heads/sched/core
+    old: 991d8d8142cad94f9c5c05db25e67fa83d6f772a
+    new: e1104c5c736fd65cba1710f6d38c2933dc85703a
+    log: revlist-991d8d8142ca-e1104c5c736f.txt
 
---===============3410007805657046117==
+--===============8863614569678754161==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4abff6d48dbc-43c6fc6a431b.txt
+Content-Disposition: attachment; filename=revlist-991d8d8142ca-e1104c5c736f.txt
 
+df5cd369876114f91f9ae60658fea80acfb15890 of/fdt: Ignore disabled memory nodes
+2e3026134104006c72a9204645efc216ab086de3 dt-bindings: net: add schema for ASIX USB Ethernet controllers
+c0c155fc7e76073acd2cb05275071af239b315b0 dt-bindings: net: add schema for Microchip/SMSC LAN95xx USB Ethernet controllers
+6177531020c7a774cba68f92fc242d695b059aad dt-bindings: usb: ci-hdrc-usb2: fix node node for ethernet controller
+152555b39cebda84a02e2553fde3a5ab5c51e741 btrfs: send: avoid trashing the page cache
+aa9ffadfcae33e611d8c2d476bcc2aa0d273b587 btrfs: zoned: fix comparison of alloc_offset vs meta_write_pointer
+97bdf1a903c51bd773b5828af233f639957a92b7 btrfs: do not account twice for inode ref when reserving metadata units
+d5321a0fa8bc49f11bea0b470800962c17d92d8f btrfs: add "0x" prefix for unsupported optional features
+d8101a0c8a318d1c25f333f44523571806b3fb05 btrfs: allow defrag to convert inline extents to regular extents
+0a05fafe9def0d9f0fbef3dfc8094925af9e3185 btrfs: zoned: introduce a minimal zone size 4M and reject mount
 0be698ecbe4471fcad80e81ec6a05001421041b3 ext4: fix use-after-free in ext4_rename_dir_prepare
 d63c00ea435a5352f486c259665a4ced60399421 ext4: mark group as trimmed only if it was fully scanned
 e4e58e5df309d695799c494958962100a4c25039 ext4: fix journal_ioprio mount option handling
@@ -392,8 +402,6 @@ ee77ef0d09e3ca0509833f6fbd49d925630a27f4 dt-bindings: timer: samsung,exynos4210-
 036c07c0c3b8a57d5c96e1f2aab62da0056f8f21 x86/entry: Fix register corruption in compat syscall
 8491d1bdf5de152f27fc941e2dcdc4e66c950542 sched/clock: Use try_cmpxchg64 in sched_clock_{local,remote}
 69505e3d9a39a988aaed9b58aa6b3482238f6516 bug: Use normal relative pointers in 'struct bug_entry'
-546a3fee174969ff323d70ff27b1ef181f0d7ceb sched: Reverse sched_class layout
-991d8d8142cad94f9c5c05db25e67fa83d6f772a topology: Remove unused cpu_cluster_mask()
 bae19fdd7e9e759580ac4693d2df3bc23ab415d7 perf/x86/amd/core: Fix reloading events for SVM
 c932edeaf6d6e6cc25088e61c3fcf585c30497c0 riscv: dts: microchip: fix gpio1 reg property typo
 fcf8962827b4fb224a10c786b0f048f444b76384 Merge tag 'linux-can-next-for-5.19-20220519' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
@@ -1041,14 +1049,6 @@ fbe86daca0ba878b04fa241b85e26e54d17d4229 Merge tag 'scsi-misc' of git://git.kern
 8b728edc5be161799434cc17e1279db2f8eabe29 Merge tag 'fs_for_v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 e375780b631a5fc2a61a3b4fa12429255361a31e Merge tag 'fsnotify_for_v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 babf0bb978e3c9fce6c4eba6b744c8754fd43d8e Merge tag 'xfs-5.19-for-linus' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-15663440776ea567494a55991e99ee0660562a2b objtool: Add CONFIG_HAVE_UACCESS_VALIDATION
-443193a7ca1d08338bdc73af24a205ef964dabbb x86/entry: Anchor annotation
-2c1e76cdfe2a7add1eb69b32271cfed7fb648265 objtool: Extend UNWIND_HINT based ENDBR rules
-707bb15f31f2a991ce80306c61923d7b190029d8 objtool: Mark __ubsan_handle_builtin_unreachable() as noreturn
-3f5e2123f0cfd1e9b0a39c5a5f6c1a3abc2fbd67 x86/cpu: Elide KCSAN for cpu_has() and friends
-3488ccc3b9676477874be86d9cac833e55e0cf67 jump_label,noinstr: Avoid instrumentation for JUMP_LABEL=n builds
-580964b9d03a70743bac62807388fa7a1a4b419e x86: Always inline on_thread_stack() and current_top_of_stack()
-acf94111e30518a42d0f56c46e36b2770a270e5c context_tracking: Always inline empty stubs
-43c6fc6a431b43163dc3950543dd87b986f25945 x86/extable: Annotate ex_handler_msr_mce() as a dead end
+e1104c5c736fd65cba1710f6d38c2933dc85703a sched/fair: Consider cpu affinity when allowing NUMA imbalance in find_idlest_group
 
---===============3410007805657046117==--
+--===============8863614569678754161==--
