@@ -1,87 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3420587483063389115=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 26 May 2022 19:18:38 -0000
-Message-Id: <165359271857.19100.14583414801626654038@gitolite.kernel.org>
-
---===============3420587483063389115==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 26 May 2022 19:22:02 -0000
+Message-Id: <165359292293.21704.1242878632404735975@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 16477cdfefdb494235a675cc80563d736991d833
-    new: df202b452fe6c6d6f1351bad485e2367ef1e644e
-    log: revlist-16477cdfefdb-df202b452fe6.txt
-
---===============3420587483063389115==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16477cdfefdb-df202b452fe6.txt
-
-9a22717b9b074d75baf7dd6041487730e53b4dbb kbuild: uapi: use -fsyntax-only rather than -S
-d5ea4fece4508bf8e72b659cd22fa4840d8d61e5 kbuild: Allow kernel installation packaging to override pkg-config
-cab802b7b8c9eea6fe30161dab77a05d20d76195 docs: kbuild: add references on Kconfig semantics
-f43e31d5cb7859189a8be5699f4347e07b07c1df kbuild: factor out genksyms command from cmd_gensymtypes_{c,S}
-dc6dc3e7a73fc09c9ce773bc23bc2864d4c13284 kbuild: do not remove empty *.symtypes explicitly
-7ce3e410e0188ce7ca65b49c90cff2863d6e232e modpost: remove useless export_from_sec()
-535b3e05f435698f8f661d9e6449beb5791fff59 modpost: move export_from_secname() call to more relevant place
-b5f1a52a59eb810f68c96d1cea7cf1256c39956c modpost: remove redundant initializes for static variables
-79f646e8654b6b8e4f7dda456ec3eabd51052041 modpost: remove annoying namespace_from_kstrtabns()
-8017ce50641c303b9b5d96f3c10229ecfd770a70 kbuild: refactor cmd_modversions_c
-7cfa2fcbac167ca0ceadf25a4b600391fd01fb29 kbuild: refactor cmd_modversions_S
-9eef99f7a335e4ffc6dfe65fc29c7d38dafae915 kbuild: reuse suffix-search to refactor multi_depend
-f97cf399915bc928f5f97ce93e15ce40da514e16 kbuild: make multi_depend work with targets in subdirectory
-b3591e061919c837c14680c1ceff8f009ed0afb4 kbuild: reuse real-search to simplify cmd_mod
-9413e7640564fe70b24ea1a9ff3fb92c5bb52fcb kbuild: split the second line of *.mod into *.usyms
-22f26f21774f838e97921952d8c5c4aab3da2ea4 kbuild: get rid of duplication in *.mod files
-fc93a4cdce1db7568fcdff608924324f5754efe5 kbuild: make *.mod not depend on *.o
-feb7d79fea1d43ddf51a09359b52e73bba0340fd kbuild: read *.mod to get objects passed to $(LD) or $(AR)
-c77d06e70d59cbc6e3c22bf644bb0b197a5fc182 kbuild: support W=e to make build abort in case of warning
-1e8ca62b79dec20aeded4fe283f4890e5016767a kheaders: Have cpio unconditionally replace files
-a90bb65ae2168c8b36e53f82dc3cb35c6cff4f1e scripts: dummy-tools, add pahole
-f4d40868fc4dcfd5db4999149b13fea3902c8883 checksyscalls: ignore -Wunused-macros
-15a28c7c72917f96820e9e9ccd113606363ba3ac modpost: use snprintf() instead of sprintf() for safety
-c155a47d83ab0b5ee96ebe1721057cba1936d0d5 modpost: do not write out any file when error occurred
-594ade3eef3f2d458902ced2cb2614dfae8558de modpost: remove stale comment about sym_add_exported()
-23beb44a0effaad1bd627fd134f0301c622deba7 modpost: add a separate error for exported symbols without definition
-4cae77ac582b430d6ad6fbf0e1b23248997ceac8 modpost: retrieve the module dependency and CRCs in check_exports()
-70ddb48db4aaddd3c2a7d8802463e15b21ce8525 modpost: move struct namespace_list to modpost.c
-75ef31221cec1b6056c42ac21cde59a2881d60f1 Makefile: fix 2 typos
-8d613a1d048c233a490d45a26d55fc2fd58d26e8 kbuild: drop $(objtree)/ prefix support for clean-files
-63cbee7f3a1d4f48f8aceb11598f0da4f32fb403 ia64: make the install target not depend on any build artifact
-58e01fcae18c9d01be701bec9e9a8ee58269c7c1 modpost: use bool type where appropriate
-5066743e4c2f702c1da8ba00a1dc217527a0ab7c modpost: change mod->gpl_compatible to bool type
-97aa4aef532aed6885e887ad6979e5ffb2667c84 modpost: import include/linux/list.h
-325eba05e8ab53a9182a2734f0986c15e5f87349 modpost: traverse modules in order
-e882e89bcf1d54da2e4388570325774c3e3078a9 modpost: add sym_add_unresolved() helper
-8a69152be9a8c1f7a02c6b8410b35c68cb200f6d modpost: traverse unresolved symbols in order
-4484054816cab940fc2fde23fa989174fec889d0 modpost: use doubly linked list for dump_lists
-ab489d6002fc27dc5db6d66f121da6fc0bda13ad modpost: traverse the namespace_list in order
-f841536e8c5b28e1fbf8743911ae1dc78993abd4 modpost: dump Module.symvers in the same order of modules.order
-b8422711080f57cdf9fb1c0cb8683a2112bed27c modpost: make multiple export error
-e76cc48d8e6df5d949284132981db73d2dd8c6b5 modpost: make sym_add_exported() always allocate a new symbol
-f18379a30271c0289c2d0e1074e1ed633bfd708c modpost: split new_symbol() to symbol allocation and hash table addition
-f774f5bb87d132b48bc4a99598c45f35121ac054 kbuild: factor out the common installation code into scripts/install.sh
-5d53508d1bae79a84840bcfd3c45094d2081d6d2 scripts/prune-kernel: Use kernel-install if available
-7fedac9698b3a56571064eb3b23063f09c93eb94 modpost: merge add_{intree_flag,retpoline,staging_flag} to add_header
-a44abaca0e196cfeef2374ed663b97daa1ad112a modpost: move *.mod.c generation to write_mod_c_files()
-e493f472752000968f5b30aac10391288cfbf5b1 kbuild: generate a list of objects in vmlinux
-78e9e56af3858bf2c52c065daa6c8bee0d72048c kbuild: record symbol versions in *.cmd files
-ce79c406a24c3825a2adeaa4668f79f8d5d72e58 modpost: remove left-over cross_compile declaration
-2a66c3124afd2782015d160f8bad693488ce68de modpost: change the license of EXPORT_SYMBOL to bool type
-69c4cc99bbcbf3ef2e1901b569954e9226180840 modpost: add sym_find_with_module() helper
-f292d875d0dc700b3af0bef04c5abc1dc7b3b62c modpost: extract symbol versions from *.cmd files
-7b4537199a4a8480b8c3ba37a2d44765ce76cd9b kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
-7375cbcf2343a9337b19846e76dfd94c3af98a27 kbuild: stop merging *.symversions
-5ce2176b81f77366bd02c27509b83049f0020544 genksyms: adjust the output format to modpost
-df202b452fe6c6d6f1351bad485e2367ef1e644e Merge tag 'kbuild-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-
---===============3420587483063389115==--
+  - ref: refs/heads/bleeding-edge
+    old: ee80e69facff8b4c9c955b8e8c58949c50b4f6f3
+    new: 4eec359c469be110cdaa32c4a511930e9459fd8b
+    log: |
+         eac830e80e10413e5f22c7ee6852b6bd4c3f642e Merge branches 'acpi-cppc' and 'acpi-dptf' into linux-next
+         df1daf9600c19e4e57c43f0b45017e59d3b695bd Merge branch 'thermal-int340x' into linux-next
+         4eec359c469be110cdaa32c4a511930e9459fd8b Merge branch 'pm-docs' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 15e13f9dc84a0151e6a20e16b48ea79bf1664656
+    new: 4eec359c469be110cdaa32c4a511930e9459fd8b
+    log: |
+         9e12eb8231496682525b6f9ba04131132d139759 ACPI: CPPC: fix typo in comment
+         657b95d34ba3cecc62993817a21896475110603d ACPI: DPTF: Support Meteor Lake
+         3c1d004bdb4e12b4b1dfbdd6a9167ea5003e48cd thermal: int340x: Add Meteor Lake PCI device ID
+         4fe4f1552394d41442205f9cde93af00eda59435 Documentation: admin-guide: PM: Add Out of Band mode
+         eac830e80e10413e5f22c7ee6852b6bd4c3f642e Merge branches 'acpi-cppc' and 'acpi-dptf' into linux-next
+         df1daf9600c19e4e57c43f0b45017e59d3b695bd Merge branch 'thermal-int340x' into linux-next
+         4eec359c469be110cdaa32c4a511930e9459fd8b Merge branch 'pm-docs' into linux-next
+         
