@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8507266135267432975=="
+Content-Type: multipart/mixed; boundary="===============1351072093632023590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 27 May 2022 07:25:50 -0000
-Message-Id: <165363635006.17863.18019319735192102915@gitolite.kernel.org>
+Date: Fri, 27 May 2022 07:26:26 -0000
+Message-Id: <165363638622.18169.15388444408039698649@gitolite.kernel.org>
 
---===============8507266135267432975==
+--===============1351072093632023590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 58d493ffabada69c6e16e710923043e504c6a4ed
     new: c9db1884050fa6524ae851347731ba2ff9c8d734
     log: revlist-58d493ffabad-c9db1884050f.txt
 
---===============8507266135267432975==
+--===============1351072093632023590==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c5c468dcc25efc0095361bb63b6255622e22f695 modpost: reuse ARRAY_SIZE() macro for s
 68fef6704e38581f7462cb7aac349978fd4ca5cc modpost: squash if...else-if in find_elf_symbol2()
 c9db1884050fa6524ae851347731ba2ff9c8d734 kbuild: replace $(if A,A,B) with $(or A,B) in scripts/Makefile.modpost
 
---===============8507266135267432975==--
+--===============1351072093632023590==--
