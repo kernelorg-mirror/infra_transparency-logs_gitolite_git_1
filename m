@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Fri, 27 May 2022 13:42:34 -0000
-Message-Id: <165365895494.18802.4495014412281506707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 27 May 2022 13:43:32 -0000
+Message-Id: <165365901298.20360.1602350949100159866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/for-next
-    old: e35ec7a9e03dd4f5a38ebae241fdb0f541dca198
-    new: 659e9fb96f7afde8fb6e2cd61e1d6eca7e13925b
-    log: |
-         212771a7eb393d93ef6f1a43af00fd17348f9559 bcache: avoid unnecessary soft lockup in kworker update_writeback_rate()
-         659e9fb96f7afde8fb6e2cd61e1d6eca7e13925b md: bcache: check the return value of kzalloc() in detached_dev_do_request()
-         
+  - ref: refs/heads/v5.20-armsoc/drivers
+    old: 0000000000000000000000000000000000000000
+    new: a467b8b3efe95a0c14e70256155c252cdb488e35
+  - ref: refs/heads/v5.20-armsoc/dts32
+    old: 0000000000000000000000000000000000000000
+    new: 475ea4a65af1399009d0e75c4ebdd8d4a51f378c
+  - ref: refs/heads/v5.20-armsoc/dts64
+    old: 0000000000000000000000000000000000000000
+    new: 6b050e3e84f7540c5bf3ac392d0108754021ccba
