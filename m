@@ -1,71 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============6612324994112237955=="
+Content-Type: multipart/mixed; boundary="===============3228994976522777146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Fri, 27 May 2022 00:13:43 -0000
-Message-Id: <165361042317.19579.13605633188324265774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 27 May 2022 00:31:37 -0000
+Message-Id: <165361149751.30900.11259115388022046121@gitolite.kernel.org>
 
---===============6612324994112237955==
+--===============3228994976522777146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 6474b7c8651368d63968671d75e34e4c7d6c9a20
-    new: b1521ec002e1d2c72404aa9e4d7734c541260a7c
-    log: revlist-6474b7c86513-b1521ec002e1.txt
+  - ref: refs/heads/master
+    old: cdeffe87f790dfd1baa193020411ce9a538446d7
+    new: 7f50d4dfe816dd916a7cbf39039674825c2b388b
+    log: revlist-cdeffe87f790-7f50d4dfe816.txt
 
---===============6612324994112237955==
+--===============3228994976522777146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6474b7c86513-b1521ec002e1.txt
+Content-Disposition: attachment; filename=revlist-cdeffe87f790-7f50d4dfe816.txt
 
-ee53174bd977e9d71c5c2f9d41823e82c870c7a3 ip/iplink_virt_wifi: add support for virt_wifi
-f6559beaf7ab0cc68c932e8ff03ed64f981f4d02 ip-link: put types on man page in alphabetic order
-bba95837524d09ee2f0efdf6350b83a985f4b2f8 Update kernel headers
-38ae12d39632c164835a4b2954344189a58af830 devlink: introduce -[he]x cmdline option to allow dumping numbers in hex format
-a463d6b19107373748f6f930170b4c106bee0c42 libnetlink: Add filtering to rtnl_statsdump_req_filter()
-5520cf1603bacdc9fdafa119e8bf4a35ad57fefc ip: Publish functions for stats formatting
-54d82b0699a07b1af32a46e229ed37331e38d3a2 ip: Add a new family of commands, "stats"
-82f6444f83c76e01870ca9f7779a43cfd81d38d9 ipstats: Add a "set" command
-df0b2c6d0098bfcc8be1c74238d43a0e38681090 ipstats: Add a shell of "show" command
-0517a2fd66ae30bd037ddc9ac2358146e6a7bfb7 ipstats: Add a group "link"
-af5e7955273e47ee40b83f0b04c1879fe7ad92ae ipstats: Add a group "offload", subgroup "cpu_hit"
-179030fa6bc714b12776aa5e0a905fadf7f3e402 ipstats: Add offload subgroup "hw_stats_info"
-0f1fd40cc9e8f4fdde18b67cd48ec2445ed7dc97 ipstats: Add offload subgroup "l3_stats"
-a05a27c07cbff46c030d79df7fc9adf795bce33f ipmonitor: Add monitoring support for stats events
-b28eb051b3213ca60167dda751e06d63a1d7bc8a man: Add man pages for the "stats" functions
-39888ed09935661a453f9c02244d5fd44da8e317 Merge branch 'ip-stats' into next
-5ba31bcf4463e8037dde1c5e1a13ebba1eb9dd26 f_flower: Add num of vlans parameter
-5788732e380caede5381af0bc0e0a3cd94c7b92a f_flower: Check args with num_of_vlans
-b4f805547786fc2ba3a98a604c3cbdc5b99e08bd Merge branch 'flower-vlans' into next
-a6eb654d1cf6a98ff0671230c1a724c461919383 f_flower: add number of vlans man entry
-ba6519cbcb28ec8e78c5948fff580cdf5ce2df29 libbpf: Use bpf_object__load instead of bpf_object__load_xattr
-64e5ed779f5dc92c5d5f5c505bdd4c48bdf8f0a3 libbpf: Remove use of bpf_program__set_priv and bpf_program__priv
-837294e452521129718c913fd04e2214998ae9e4 libbpf: Remove use of bpf_map_is_offload_neutral
-45cd32f9f7d53087b48b76e0a880066fd7ea77a6 bridge: vxlan device vnifilter support
-c7f12a156be0ff5593b280178ef61cb2e658f99e ip: iplink_vxlan: add support to set vnifiltering flag on vxlan device
-40b50f153c52e14b1848c74fd09ffc9e51b75c8a bridge: vni: add support for stats dumping
-2c09c7622afb0b6e4be517af4375182512e5df89 Merge branch 'bridge-vxlan-vni-filtering' into next
-ce41750fcc924c377ac3dda1df265e3b27d90a68 ip: ipstats: Do not assume length of response attribute payload
-72623b73c4eaceb0267f110e55c7bc1c342267b1 iplink: Fix formatting of MPLS stats
-dff392fd86ee6085737560c88875b35628888e91 iplink: Publish a function to format MPLS stats
-5ed8fd9d514422771d283607fac523d8baef1179 ipstats: Add a group "afstats", subgroup "mpls"
-2ed73b9a80d8291359d477caafab5defca113c58 iplink: Add JSON support to MPLS stats formatter
-c6900b79b13d7bc329955b4f9e8c7470d42ae2fa ipstats: Add a third level of stats hierarchy, a "suite"
-1247ed51e9242ca3d0a74dfaeedb5b7afea91c42 ipstats: Add groups "xstats", "xstats_slave"
-79f5ad95c17c7b8ae56b34f677f22ca88d9c3975 iplink_bridge: Split bridge_print_stats_attr()
-36e10429dafc4e80307d73585be00f81088e6ccd ipstats: Expose bridge stats in ipstats
-d9976d671c37373c91bc56a92706dfe446d131b3 ipstats: Expose bond stats in ipstats
-5a1ad9f8c1e62f080d4249d572f5ebe0ae870c12 man: ip-stats.8: Describe groups xstats, xstats_slave and afstats
-5a179c7217c59552faff65e8c5f1dfd85dee685e Merge branch 'support-xstats-afstats' into next
-8d3977ef8193f976a0905d5ff054869f0d5ebc11 Update kernel headers
-b1521ec002e1d2c72404aa9e4d7734c541260a7c Merge git://git.kernel.org/pub/scm/network/iproute2/iproute2-next
+cfc1d277891eb499b3b5354df33b30f598683e90 module: Move all into module/
+8ab4ed08a24f88359f22439e37cac65c95cf6ac2 module: Simple refactor in preparation for split
+5aff4dfdb4ae2741cfff759d917f597f2c7f70aa module: Make internal.h and decompress.c more compliant
+1be9473e31ab87ad1b6ecf9fd11df461930ede85 module: Move livepatch support to a separate file
+58d208de3e8d87dbe196caf0b57cc58c7a3836ca module: Move latched RB-tree support to a separate file
+b33465fe9c52a3719f013deeca261bd82af235ee module: Move strict rwx support to a separate file
+0c1e42805c25c87eb7a6f3b18bdbf3b3b7840aff module: Move extra signature support out of core code
+473c84d1856e83faebf059a52a8e49bdb89026d3 module: Move kmemleak support to a separate file
+91fb02f31505dc22262b13a129550f470ab90a79 module: Move kallsyms support into a separate file
+08126db5ff739fa011fc5b8af683ad759f2cba9a module: kallsyms: Fix suspicious rcu usage
+0ffc40f6c8ab684e694774ebc835b198398129a8 module: Move procfs support into a separate file
+44c09535de4784f31d151aa1047efcf4797ca3cd module: Move sysfs support into a separate file
+f64205a42046d3802c423fa2059e7fca39af127c module: Move kdb module related code out of main kdb code
+47889798da4307ed78346f04c5d95c87abbf696b module: Move version support into a separate file
+0597579356fe5b6c0b99196e4743d4c2978f654a module: Make module_enable_x() independent of CONFIG_ARCH_HAS_STRICT_MODULE_RWX
+32a08c17d8096f0fd2c6600bc5fe8464aaf68ea7 module: Move module_enable_x() and frob_text() in strict_rwx.c
+ef505058dc5524488a84423b4d5e8a7598a23a2e module: Rework layout alignment to avoid BUG_ON()s
+7337f929d5672e37a80c8582d357f084320f475f module: Rename debug_align() as strict_align()
+80b8bf4369906aefbcb63a03012aed7a1abcbd18 module: Always have struct mod_tree_root
+446d55666d5599ca58c1ceac25ce4b5191e70835 module: Prepare for handling several RB trees
+6ab9942c44b2d213a16b2620e4baf0223122222f module: Introduce data_layout
+01dc0386efb769056257410ba5754558384006a7 module: Add CONFIG_ARCH_WANTS_MODULES_DATA_IN_VMALLOC
+55ce556dbf92ec779b65336593d213ceef3f26f3 module: Remove module_addr_min and module_addr_max
+eeaec7801c421e17edda6e45a32d4a5596b633da powerpc: Select ARCH_WANTS_MODULES_DATA_IN_VMALLOC on book3s/32 and 8xx
+a60707d74bd1d119cf7bcc5101cda912fc46d5e3 sched: Move child_runs_first sysctls to fair.c
+f5ef06d58be8311a9425e6a54a053ecb350952f3 sched: Move schedstats sysctls to core.c
+d9ab0e63fa7f8405fbb19e28c5191e0880a7f2db sched: Move rt_period/runtime sysctls to rt.c
+84227c12888b1105725cd2de14705b029bcbb4b2 sched: Move deadline_period sysctls to deadline.c
+dafd7a9dad22fadcb290b24dff54e2eae3b89776 sched: Move rr_timeslice sysctls to rt.c
+28f152cd0926596e69d412467b11b6fe6fe4e864 sched/rt: fix build error when CONFIG_SYSCTL is disable
+3267e0156c3341ac25b37a0f60551cdae1634b60 sched: Move uclamp_util sysctls to core.c
+d4ae80ffa64f87b9c355692b680b603add084e96 sched: Move cfs_bandwidth_slice sysctls to fair.c
+8a0441415b3f9b9a920a6a5086580ea3daa7b884 sched: Move energy_aware sysctls to topology.c
+06d177662fb86b80c7fc2290667b9a14cb0bd925 kernel/reboot: move reboot sysctls to its own file
+43fe219aa56a2fdd8f0623c9470a32b14b0617a5 mm: move oom_kill sysctls to their own file
+aa779e5102195e1d9ade95dcbc0bfbd8f916eb59 mm: move page-writeback sysctls to their own file
+f79c9b8ae8bde10126586c1bb55b5fd027276d8e kernel/lockdep: move lockdep sysctls to its own file
+9df918698408fd914493aba0b7858fef50eba63a kernel/panic: move panic sysctls to its own file
+801b501439d1b366d524dee4fc1e6b3473a95b9a kernel/acct: move acct sysctls to its own file
+1186618a6a35d43a865448472a261184b608d13c kernel/delayacct: move delayacct sysctls to its own file
+d772cc2c321900f3f463a124eebeb7218e66dda6 kernel/do_mount_initrd: move real_root_dev sysctls to its own file
+8e4e83b2278bdfb55cb2b13de07cf0a721ce8af7 ftrace: move sysctl_ftrace_enabled to ftrace.c
+383189718496c1fe163f378526f9b86dc7f0cf77 Merge remote-tracking branch 'bpf-next/pr/bpf-sysctl' into sysctl-next
+5d79fa0d33258d8e79064316ce8fae37e27bd34b ftrace: Fix build warning
+f8b7d2b4c192118c37ab24c0540d1134dd0104d8 ftrace: fix building with SYSCTL=n but DYNAMIC_FTRACE=y
+988f11e046401f8561c4afefa506a50f0203de40 latencytop: move sysctl to its own file
+3c6a4cba3138d1aeeb8fd917178c6578b9b8ae29 mm: fix unused variable kernel warning when SYSCTL=n
+cb55f27ac9326bfe3bcaaf0adb498778d64602b6 fs/proc: Introduce list_for_each_table_entry for proc sysctl
+8fd7c2144d1292f15c901211750dee021ed5079a ftrace: fix building with SYSCTL=y but DYNAMIC_FTRACE=n
+acd0b04ecc795e97b7878dccc5cb4d3d627a4c27 sysctl: minor cleanup in new_dir()
+b3bbf6a70ba0f827938525e285cd2be6c76a6a00 ARC: enable HAVE_REGS_AND_STACK_ACCESS_API feature
+fb0b54909b153ac6195378fa8ddee3f7531f8e51 ARC: implement syscall tracepoints
+a467257ffe4bdb13eacddec0137013f6a1140b81 kernel/kexec_core: move kexec_core sysctls into its own file
+9a78a8a8bb582743ce6747d978b58360c3c599d9 ARC: disasm: handle ARCv2 case in kprobe get/set functions
+6aa98f6217861889523e38b0141c8c71b2ef8a83 ARC: bpf: define uapi for BPF_PROG_TYPE_PERF_EVENT program type
+764aaf44cd64dd1f760268ee0b22d2dc53cd5bc0 reboot: Fix build warning without CONFIG_SYSCTL
+494dcdf46e5cdee926c9f441d37e3ea1db57d1da sched: Fix build warning without CONFIG_SYSCTL
+d49401999adda2d69150b69655ade16dc77baa96 openrisc: fix typos in comments
+065b8ced7c40bd6a4444f7005413f7af9fe6b642 openrisc: remove bogus nops and shutdowns
+80140a81f7f833998d732102eea0fea230b88067 module.h: simplify MODULE_IMPORT_NS
+c14e522bc76efed6e947cd0ab83a1fac7a7a3ec9 module: Make module_flags_taint() accept a module's taints bitmap and usable outside core code
+6fb0538d0121ffab770a505b183968d93466ad59 module: Move module_assert_mutex_or_preempt() to internal.h
+99bd9956551b27cb6f5b445abaced7e13b9976cd module: Introduce module unload taint tracking
+391e982bfa632b8315235d8be9c0a81374c6a19c module: fix [e_shstrndx].sh_size=0 OOB access
+8eac910a49347821cbafc770a319e00ccd69d58b module: show disallowed symbol name for inherit_taint()
+c6eee9df57a6d9252bae93a9386d0d872798f5d5 module: do not pass opaque pointer for symbol search
+cdd66eb52fdaa9bdab7f1be8dc9162bf4acc64ae module: do not binary-search in __ksymtab_gpl if fsa->gplok is false
+7390b94a3c2d93272d6da4945b81a9cf78055b7b module: merge check_exported_symbol() into find_exported_symbol_in_section()
+635267b7a8f1746d72d6b23030863f8779618584 openrisc: define nop command for simulator reboot
+87e387acd8eba5021a8e5d6b54e0c5ef5c28ada2 openrisc: Add gcc machine instruction flag configuration
+e449759c246e1594307760f7203debf6038a42ea openrisc: Cleanup emergency print handling
+29bbb2a90fcdd46d9f12746deac4718082df325a openrisc: Add support for liteuart emergency printing
+a0a94bc9a68ffad0cecae6dbff53e5486cdb8eb0 openrisc: Add syscall details to emergency syscall debugging
+7d2ae3decda0bb7a9ce0fe4f728630d617c04dd9 openrisc: Pretty print show_registers memory dumps
+fe47623a798b34ee38d02bfe4dbc529cccc78ad7 openrisc: Update litex defconfig to support glibc userland
+f4b26b1a7b3e10b6e26078d80d035574b0975185 openrisc/traps: Declare file scope symbols as static
+de901d12df896ffab7f08b26a5abcbc5e720b455 openrisc/traps: Remove die_if_kernel function
+024b58f3d92de2d19e2222f841c103127ee54684 openrisc/traps: Declare unhandled_exception for asmlinkage
+5a344bbe88bf435bf40e22543b4595d6e6cb6556 openrisc/time: Fix symbol scope warnings
+2f51d67e42a2b6e69d66a1b71cf06fac976177b5 openrisc/delay: Add include to fix symbol not declared warning
+d8fee3f6fa5a49b338d9149cf498d58e024e27f9 openrisc/fault: Fix symbol scope warnings
+ed3a88d7dbbb924312a707d5f295b7a31e2f8d2d openrisc: Remove unused IMMU tlb workardound
+83da38d82b2f7ac207646e55be94e8bd642e2c39 openrisc: Allow power off handler overriding
+44d35720c9a660074b77ab9de37abf2c01c5b44f Merge tag 'sysctl-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
+ef98f9cfe20d8ca063365d46d4ab2b85eeeb324f Merge tag 'modules-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
+ba62a537b48d7ae60524000efe01c9e76e2a5b2d Merge tag 'arc-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+7f50d4dfe816dd916a7cbf39039674825c2b388b Merge tag 'for-linus' of https://github.com/openrisc/linux
 
---===============6612324994112237955==--
+--===============3228994976522777146==--
