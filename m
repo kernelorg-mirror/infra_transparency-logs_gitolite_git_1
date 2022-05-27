@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6600865761646676743=="
+Content-Type: multipart/mixed; boundary="===============4315017768481538384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 27 May 2022 06:33:37 -0000
-Message-Id: <165363321723.13408.17974597055095616596@gitolite.kernel.org>
+Date: Fri, 27 May 2022 06:35:13 -0000
+Message-Id: <165363331341.15396.6857031787803923979@gitolite.kernel.org>
 
---===============6600865761646676743==
+--===============4315017768481538384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 94c7d955358efa81dc5e090c5ea71df66a63bb51
+  - ref: refs/heads/net-mlx4
+    old: eb4c0788964730d12e8dd520bd8f5217ca48321c
     new: a54ce3703613e41fe1d98060b62ec09a3984dc28
-    log: revlist-94c7d955358e-a54ce3703613.txt
+    log: revlist-eb4c07889647-a54ce3703613.txt
 
---===============6600865761646676743==
+--===============4315017768481538384==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-94c7d955358e-a54ce3703613.txt
+Content-Disposition: attachment; filename=revlist-eb4c07889647-a54ce3703613.txt
 
 11e12a91c118780b76ecae3610efd49b7ff7d39e arm64/sme: Generate defintions for SVCR
 89e9fb327421081166c1d1682b6601ac93dd610c arm64/sve: Generate ZCR definitions
@@ -1051,4 +1051,4 @@ ed6cd6a17896561b9f51ab4c0d9bbb29e762b597 net, neigh: Set lower cap for neigh_man
 b58cdd4388b1d8f5bee9f5a3897a7e780d1eaa48 net: lan966x: check devm_of_phy_get() for -EDEFER_PROBE
 a54ce3703613e41fe1d98060b62ec09a3984dc28 net: sched: fixed barrier to prevent skbuff sticking in qdisc backlog
 
---===============6600865761646676743==--
+--===============4315017768481538384==--
