@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8279613247411788492=="
+Content-Type: multipart/mixed; boundary="===============8759466933409007556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 27 May 2022 06:54:08 -0000
-Message-Id: <165363444815.27872.14323432331907723140@gitolite.kernel.org>
+Date: Fri, 27 May 2022 06:54:16 -0000
+Message-Id: <165363445657.28002.15787984588291823007@gitolite.kernel.org>
 
---===============8279613247411788492==
+--===============8759466933409007556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: aa5334b1f96801cd09775217a72ff252ef614d7a
-    new: 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad
-    log: revlist-aa5334b1f968-7e062cda7d90.txt
+  - ref: refs/heads/mlx5-queue
+    old: e2652e1ba599c287dbca7d7632c427253d791b9d
+    new: 469296e0404fb5f63b8a127e08296e88edb31923
+    log: revlist-e2652e1ba599-469296e0404f.txt
 
---===============8279613247411788492==
+--===============8759466933409007556==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aa5334b1f968-7e062cda7d90.txt
+Content-Disposition: attachment; filename=revlist-e2652e1ba599-469296e0404f.txt
 
-35a68080ff86c74f9921b5048e444eff3b92e84e btrfs: use btrfs_for_each_slot in is_ancestor
-649b96355d4b243bc9a186e733b0486678dad039 btrfs: use btrfs_for_each_slot in process_all_refs
-69e4317759f5bc48daf3db3b2cabe31d751f9513 btrfs: use btrfs_for_each_slot in process_all_new_xattrs
-9930e9d4adf05c0f2c1da1dfceb6f2fff6d8ce0b btrfs: use btrfs_for_each_slot in process_all_extents
-3d64f060a72a464a5bdf340a2723cd404c7f42d4 btrfs: use btrfs_for_each_slot in btrfs_unlink_all_paths
 43cb1478de68ccc1656b6f0ea70ffc4825fd2803 btrfs: use btrfs_for_each_slot in btrfs_read_chunk_tree
 184b3d1900872da37ad84c0b0fae90f288ae8158 btrfs: use btrfs_for_each_slot in btrfs_listxattr
 b67d73c1ff252bbb3e28c4d3eb734a4db74b9399 btrfs: use a local variable for fs_devices pointer in btrfs_dev_replace_finishing
@@ -1050,5 +1045,10 @@ caa28984163cb63ea0be4cb8dbf05defdc7303f9 linux/types.h: reinstate "__bitwise__" 
 8b49c4b1b6f6397aca3eaee4c79295b74350b7b4 Merge branch 'for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 5d1772b1739b085721431eef0c0400f3aff01abf Merge branch 'for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad Merge tag 'net-next-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+2b08da02457f583ea5c9504d8e5d000ba89b2866 net/mlx5: Delete ipsec_fs header file as not used
+d7cff76ac9017aeda1033b3b22a32ff741ce317a net: Disable LRO feature if no RXCSUM
+016c9149c709f89b6b6357f3a40836987fc91a8c net/mlx5: Add bits and fields to support enhanced CQE compression
+3825cfcdd2ac3d91e836de60fc532f0f9e184c23 net/mlx5e: Support enhanced CQE compression
+469296e0404fb5f63b8a127e08296e88edb31923 Merge branch 'patchq/323390' into mlx5-queue
 
---===============8279613247411788492==--
+--===============8759466933409007556==--
