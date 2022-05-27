@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-Date: Fri, 27 May 2022 19:41:32 -0000
-Message-Id: <165368049237.27814.17050045587004121147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 27 May 2022 20:13:37 -0000
+Message-Id: <165368241701.16525.14026343860664376717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-user: sforshee
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 647bcaa958866e8f66a0a027daa4d8b3af6ff6dd
-    new: c6b079d6ff61dec725e64c3319cbb572d63486ca
+    old: 2ff9f7fe0c37662bc162d4eed57c2977d4d933a1
+    new: 971f3cf0f134d32fd1aa0d691675165b89e83fe7
     log: |
-         c6b079d6ff61dec725e64c3319cbb572d63486ca wireless-regdb: update regulatory rules for Bulgaria (BG) on 6GHz
+         971f3cf0f134d32fd1aa0d691675165b89e83fe7 Fix type for io_uring_prep_socket_direct()
          
