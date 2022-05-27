@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Fri, 27 May 2022 13:47:10 -0000
-Message-Id: <165365923046.23076.933859431282107084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 27 May 2022 14:05:02 -0000
+Message-Id: <165366030287.1718.4050648702863197417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/v5.20/arm64
-    old: 5d08817f99847d0ccff65903a99794703de9ad46
-    new: ead23b52f539a4d93a541afe208d70b1a9089e1a
+  - ref: refs/heads/master
+    old: 712592580fa6d885c44ab8ade9880bdb0831fd21
+    new: f0b11b7ae9aa15d88e879773915494e6de941404
     log: |
-         ead23b52f539a4d93a541afe208d70b1a9089e1a arm64: dts: meson: add reset controller for Meson-S4 SoC
+         f0b11b7ae9aa15d88e879773915494e6de941404 Fri May 27 02:03:29 PM UTC 2022
          
