@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 27 May 2022 20:37:29 -0000
-Message-Id: <165368384969.31449.14909242502453161125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 27 May 2022 20:48:05 -0000
+Message-Id: <165368448552.6583.12959066846123236496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: sandeen
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/v5.18.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: b13ed30645cb5b7b1ec942cd9eea8de7d8f4ad0d
+  - ref: refs/heads/master
+    old: 50b3d7b47ba0eea68798b335d18fd6ccfe3d01f3
+    new: ecf66cc2a49c69e9c9d224ef54b95082844a7b7a
+    log: |
+         ecf66cc2a49c69e9c9d224ef54b95082844a7b7a man: add note on vectored reads and writes
+         
