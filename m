@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5567546633965125914=="
+Content-Type: multipart/mixed; boundary="===============5755204500776959231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/uml
-Date: Fri, 27 May 2022 07:08:08 -0000
-Message-Id: <165363528804.4635.16801852860110968822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
+Date: Fri, 27 May 2022 07:09:09 -0000
+Message-Id: <165363534979.5023.6309889838208717971@gitolite.kernel.org>
 
---===============5567546633965125914==
+--===============5755204500776959231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/uml
+repo: pub/scm/linux/kernel/git/uml/linux
 user: rw
 changes:
   - ref: refs/heads/linux-next
-    old: 82017457957a550d7d00dde419435dd74a890887
+    old: db0dd9cee82270e032123169ceff659eced5115d
     new: 2a4a62a14be1947fa945c5c11ebf67326381a568
-    log: revlist-82017457957a-2a4a62a14be1.txt
+    log: revlist-db0dd9cee822-2a4a62a14be1.txt
 
---===============5567546633965125914==
+--===============5755204500776959231==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-82017457957a-2a4a62a14be1.txt
+Content-Disposition: attachment; filename=revlist-db0dd9cee822-2a4a62a14be1.txt
 
 722985e2f6ec9127064771ba526578ea8275834d Merge tag 'for-5.18-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 5a674d9dc9a097308e8f5848b8439e8a3eeac846 dt-bindings: Fix array constraints on scalar properties
@@ -1051,4 +1051,4 @@ af9fb41ed315ce95f659f0b10b4d59a71975381d um: virtio_uml: Fix broken device handl
 57ae0b67b747031bc41fb44643aa5344ab58607e um: chan_user: Fix winch_tramp() return value
 2a4a62a14be1947fa945c5c11ebf67326381a568 um: Fix out-of-bounds read in LDT setup
 
---===============5567546633965125914==--
+--===============5755204500776959231==--
