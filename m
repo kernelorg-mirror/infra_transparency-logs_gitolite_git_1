@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 27 May 2022 23:10:34 -0000
-Message-Id: <165369303450.999.626071993797119455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 27 May 2022 23:27:40 -0000
+Message-Id: <165369406055.11893.14741300813315178971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 59ed76fe2f981bccde37bdddb465f260a96a2404
-    new: caff1fa4118cec4dfd4336521ebd22a6408a1e3e
+  - ref: refs/heads/for-linus
+    old: 4246970a3bcb450e52c043127792d4f0ad39678f
+    new: 4194a74014843788984ccce42b3c6afa42753545
     log: |
-         caff1fa4118cec4dfd4336521ebd22a6408a1e3e bpf: Fix probe read error in ___bpf_prog_run()
+         4194a74014843788984ccce42b3c6afa42753545 PCI/PM: Fix bridge_d3_blacklist[] Elo i2 overwrite of Gigabyte X299
          
