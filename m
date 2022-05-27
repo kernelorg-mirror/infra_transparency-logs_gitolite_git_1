@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0270025247343090664=="
+Content-Type: multipart/mixed; boundary="===============5598878357228931229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leo/linux
-Date: Fri, 27 May 2022 01:28:00 -0000
-Message-Id: <165361488006.7451.15536038561375665488@gitolite.kernel.org>
+Date: Fri, 27 May 2022 01:28:21 -0000
+Message-Id: <165361490114.7621.3063559878683614815@gitolite.kernel.org>
 
---===============0270025247343090664==
+--===============5598878357228931229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/leo/linux
 user: leo
 changes:
-  - ref: refs/heads/next
-    old: 1ce93cb102e7fcf5d1849044d23ce92b5a71040a
+  - ref: refs/heads/master
+    old: e868adf21c0a25634d5dfa5b1e6dbf839306d8fa
     new: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
-    log: revlist-1ce93cb102e7-4b0986a3613c.txt
+    log: revlist-e868adf21c0a-4b0986a3613c.txt
 
---===============0270025247343090664==
+--===============5598878357228931229==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1ce93cb102e7-4b0986a3613c.txt
+Content-Disposition: attachment; filename=revlist-e868adf21c0a-4b0986a3613c.txt
 
 b7f73403a3e922c20bb278ba3cfcc3c61930d82a Merge tag 'spi-fix-v5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 0371870b96907bf560ecf7dc3fadc238fadf7845 drm/msm: Revert "drm/msm: Stop using iommu_present()"
@@ -1051,4 +1051,4 @@ eaea45fc0e7b6ae439526b4a41d91230c8517336 Merge tag 'perf-tools-fixes-for-v5.18-2
 2aeb8c86d49967552394d5e723f87454cb53f501 afs: Fix afs_getattr() to refetch file status if callback break occurred
 4b0986a3613c92f4ec1bdc7f60ec66fea135991f Linux 5.18
 
---===============0270025247343090664==--
+--===============5598878357228931229==--
