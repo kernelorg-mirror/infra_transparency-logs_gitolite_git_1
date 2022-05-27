@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2011976820254672884=="
+Content-Type: multipart/mixed; boundary="===============7654939762241434037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 27 May 2022 12:45:44 -0000
-Message-Id: <165365554461.15150.15047366009607046274@gitolite.kernel.org>
+Date: Fri, 27 May 2022 12:47:14 -0000
+Message-Id: <165365563465.15737.9358933670414824483@gitolite.kernel.org>
 
---===============2011976820254672884==
+--===============7654939762241434037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/for-next
-    old: a110b11164a53aa1cb2769ec418e6ab9c95a045e
-    new: d55663695b602fbff3ee9f9cb45669a996ffeda2
-    log: revlist-a110b11164a5-d55663695b60.txt
+  - ref: refs/heads/for-linus
+    old: 1c6fd59943a630f087b4b3089aefdcb0bf43cca0
+    new: 537e62c865dcb9b91d07ed83f8615b71fa0b51bb
+    log: revlist-1c6fd59943a6-537e62c865dc.txt
 
---===============2011976820254672884==
+--===============7654939762241434037==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a110b11164a5-d55663695b60.txt
+Content-Disposition: attachment; filename=revlist-1c6fd59943a6-537e62c865dc.txt
 
+57c0900b91d8891ab43f0e6b464d059fda51d102 ia64: define get_cycles macro for arch-override
+2e3df523256cb9836de8441e9c791a796759bb3c s390: define get_cycles macro for arch-override
+8865bbe6ba1120e67f72201b7003a16202cd42be parisc: define get_cycles macro for arch-override
 1097710bc9660e1e588cf2186a35db3d95c4d258 alpha: define get_cycles macro for arch-override
 408835832158df0357e18e96da7f2d1ed6b80e7f powerpc: define get_cycles macro for arch-override
 516dd4aacd67a0f27da94f3fe63fe0f4dbab6e2b openrisc: start CPU timer early in boot
@@ -881,7 +884,6 @@ d8dad2588addd1d861ce19e7df3b702330f0c7e3 exfat: fix referencing wrong parent dir
 64ba4b15e5c045f8b746c6da5fc9be9a6b00b61d exfat: check if cluster num is valid
 dc60001e1a305ad8bba1ddaf09484e0e150aba60 xtensa: Return true/false (not 1/0) from bool function
 be80a1ca5119c5d31b6019d5e6dc6d9123bda959 Merge branches 'edac-misc' and 'edac-alloc-cleanup' into edac-updates-for-v5.19
-1c6fd59943a630f087b4b3089aefdcb0bf43cca0 Merge branch 'rework/kthreads' into for-linus
 e001897da62eb543ef79bf173f145c2c9677f66c Merge branches 'slab/for-5.19/stackdepot' and 'slab/for-5.19/refactor' into slab/for-linus
 371183fa578a4cf56b3ae12e54b7f01a4249add1 selftests/landlock: Format with clang-format
 9805a722db071e1772b80e6e0ff33f35355639ac samples/landlock: Add clang-format exceptions
@@ -1048,7 +1050,5 @@ e5499dd7253c8382d03f687f19a854adcc688357 media: lirc: revert removal of unused f
 caa28984163cb63ea0be4cb8dbf05defdc7303f9 linux/types.h: reinstate "__bitwise__" macro for user space use
 2e17ce1106e04a7f3a83796ec623881487f75dd3 Merge tag 'slab-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 537e62c865dcb9b91d07ed83f8615b71fa0b51bb Merge tag 'printk-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-809631e2bff5aba056df75cc4e43127dbd0278c9 Revert "printk: wake up all waiters"
-d55663695b602fbff3ee9f9cb45669a996ffeda2 Merge branch 'rework/kthreads' into for-next
 
---===============2011976820254672884==--
+--===============7654939762241434037==--
