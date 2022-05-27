@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3560293239114574435=="
+Content-Type: multipart/mixed; boundary="===============0788228394919329841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 27 May 2022 11:02:48 -0000
-Message-Id: <165364936821.11138.7071585629725867063@gitolite.kernel.org>
+Date: Fri, 27 May 2022 11:04:07 -0000
+Message-Id: <165364944711.11587.15141871425189241799@gitolite.kernel.org>
 
---===============3560293239114574435==
+--===============0788228394919329841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 3ef4ea3d84ca568dcd57816b9521e82e3bd94f08
+  - ref: refs/heads/rework/kthreads
+    old: 701850dc0c31bfadf75a0a74af7d2c97859945ec
     new: 537e62c865dcb9b91d07ed83f8615b71fa0b51bb
-    log: revlist-3ef4ea3d84ca-537e62c865dc.txt
+    log: revlist-701850dc0c31-537e62c865dc.txt
 
---===============3560293239114574435==
+--===============0788228394919329841==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3ef4ea3d84ca-537e62c865dc.txt
+Content-Disposition: attachment; filename=revlist-701850dc0c31-537e62c865dc.txt
 
 2e3df523256cb9836de8441e9c791a796759bb3c s390: define get_cycles macro for arch-override
 8865bbe6ba1120e67f72201b7003a16202cd42be parisc: define get_cycles macro for arch-override
@@ -1051,4 +1051,4 @@ caa28984163cb63ea0be4cb8dbf05defdc7303f9 linux/types.h: reinstate "__bitwise__" 
 2e17ce1106e04a7f3a83796ec623881487f75dd3 Merge tag 'slab-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 537e62c865dcb9b91d07ed83f8615b71fa0b51bb Merge tag 'printk-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 
---===============3560293239114574435==--
+--===============0788228394919329841==--
