@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Fri, 27 May 2022 13:28:17 -0000
-Message-Id: <165365809706.9214.7479952446005392958@gitolite.kernel.org>
+Date: Fri, 27 May 2022 13:29:28 -0000
+Message-Id: <165365816886.9646.7800446929220517113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/v5.19-clk/next
-    old: 32a214cd8ccbc361319bcd00b0b1b05a6b53bc61
+  - ref: refs/heads/v5.19-armsoc/soc32
+    old: 2946aa908bb63539b566fc3ba0b867022787602b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.19-rockchip-clk1
-    old: 94817f3048a6d83bea80c26017320898a89ce1d7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.19-rockchip-clk2
-    old: 3e5d05707487315f59aefa91284a1d3d5f6645e8
+  - ref: refs/tags/v5.19-rockchip-soc32-1
+    old: 0af0f862521532cb33eb533be1a640b7a71ab703
     new: 0000000000000000000000000000000000000000
