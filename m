@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8042740123175855003=="
+Content-Type: multipart/mixed; boundary="===============0771908752545590628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 27 May 2022 17:20:48 -0000
-Message-Id: <165367204899.670.3881306062682528900@gitolite.kernel.org>
+Date: Fri, 27 May 2022 17:21:33 -0000
+Message-Id: <165367209395.991.12218903863121403251@gitolite.kernel.org>
 
---===============8042740123175855003==
+--===============0771908752545590628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daveh/devel
 user: daveh
 changes:
-  - ref: refs/heads/devel-x86/urgent
-    old: ed6c7e91f2cab6179a125a5982f971032fbb1fe1
+  - ref: refs/heads/testme
+    old: e3a3bbe3e99de73043a1d32d36cf4d211dc58c7e
     new: a09da146ed5a297a9e43500fe278de66e72b170a
-    log: revlist-ed6c7e91f2ca-a09da146ed5a.txt
+    log: revlist-e3a3bbe3e99d-a09da146ed5a.txt
 
---===============8042740123175855003==
+--===============0771908752545590628==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ed6c7e91f2ca-a09da146ed5a.txt
+Content-Disposition: attachment; filename=revlist-e3a3bbe3e99d-a09da146ed5a.txt
 
 3f68e69520d3d52d66a6ad872a75b7d8f2ea7665 riscv/efi_stub: Add support for RISCV_EFI_BOOT_PROTOCOL
 47f33de4aafb2f5e43d480d590a939d0f1d566a9 x86/sev: Mark the code returning to user space as syscall gap
@@ -1051,4 +1051,4 @@ ba62a537b48d7ae60524000efe01c9e76e2a5b2d Merge tag 'arc-5.19-rc1' of git://git.k
 7e284070abe53d448517b80493863595af4ab5f0 Merge tag 'for-5.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 a09da146ed5a297a9e43500fe278de66e72b170a x86/sgx: Set active memcg prior to shmem allocation
 
---===============8042740123175855003==--
+--===============0771908752545590628==--
