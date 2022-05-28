@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 28 May 2022 20:18:00 -0000
-Message-Id: <165376908070.28178.13121829747880081370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 28 May 2022 20:35:40 -0000
+Message-Id: <165377014018.7203.17973590590664229898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 89553140b092619985d0c220bb992d58bd410eda
-    new: c68ca1e8dc0274316e5f6dac38ece94c72c9ebb9
+    old: f56dbdda4322d33d485f3d30f3aabba71de9098c
+    new: 47f15561b69e226bfc034e94ff6dbec51a4662af
     log: |
-         c68ca1e8dc0274316e5f6dac38ece94c72c9ebb9 Sat May 28 08:13:51 PM UTC 2022
+         47f15561b69e226bfc034e94ff6dbec51a4662af drm: fix EDID struct for old ARM OABI format
          
