@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 28 May 2022 17:17:16 -0000
-Message-Id: <165375823626.6169.1302891588493754515@gitolite.kernel.org>
+Date: Sat, 28 May 2022 17:21:11 -0000
+Message-Id: <165375847133.8960.8185932294768159617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 9bae058ab57f88c7c1ad61797ee16a5abeda42c2
-    new: 5e1eeef69c0fef6249b794bda5d68f95a65d062f
+  - ref: refs/heads/mlx5-queue
+    old: 812b837848c7e428d934bec18cc114fb031939ac
+    new: 88a4fec1a1ef8fc7424309a952fe3f62f0e10c37
     log: |
-         e225c9a5a74b12e9ef8516f30a3db2c7eb866ee1 net/smc: fixes for converting from "struct smc_cdc_tx_pend **" to "struct smc_wr_tx_pend_priv *"
-         2f1de254a25bee55600287e2eb2cc12ea389c129 net: phy: Directly use ida_alloc()/free()
-         11825765291a93d8e7f44230da67b9f607c777bf tcp: fix tcp_mtup_probe_success vs wrong snd_cwnd
-         d8064c10560d53a841b08ab2e11dbd5d28873955 net: dpaa: Convert to SPDX identifiers
-         0649e4d63420ebc8cbebef3e9d39e12ffc5eb9fa nfp: only report pause frame configuration for physical device
-         911799172d2f703cc14e9000c55d124d5e0a91a2 net: nfc: Directly use ida_alloc()/free()
-         5e1eeef69c0fef6249b794bda5d68f95a65d062f bonding: NS target should accept link local address
+         fe964a9155d06a9d29a28c7aca400bd4623843a7 net/mlx5: Delete ipsec_fs header file as not used
+         b016a70320462c35f94b0e2f5d411e806b4e2a49 net/mlx5: Add bits and fields to support enhanced CQE compression
+         5f299e193bb54d199b6145173d06fb08fbacdc84 net: Disable LRO feature if no RXCSUM
+         f5a5db9fb9d3b68f5b605c90e846eaadc3c3cc0f net/mlx5e: Support enhanced CQE compression
+         88a4fec1a1ef8fc7424309a952fe3f62f0e10c37 Merge branch 'patchq/323390' into mlx5-queue
          
