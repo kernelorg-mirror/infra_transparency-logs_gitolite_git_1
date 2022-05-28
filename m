@@ -1,23 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 28 May 2022 02:32:01 -0000
-Message-Id: <165370512134.1443.12853103913519264632@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4316011648865653251=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sat, 28 May 2022 02:48:33 -0000
+Message-Id: <165370611316.12184.10462258406909645841@gitolite.kernel.org>
+
+--===============4316011648865653251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 5e7af9291bce85990a1b4d150c2505901e0b950b
-    new: 607ba056bf74ac555fb2f083f54be8f9f8c5819a
-    log: |
-         1a9fa2cc9851390ebb66523bdbb3c771adce329f net/mlx5: Delete ipsec_fs header file as not used
-         63e42408e5755a9b582ae12f299c64af81e13afe net: Disable LRO feature if no RXCSUM
-         37de864b43b8aeac328fe381a086e7ab2ae9922f net/mlx5: Add bits and fields to support enhanced CQE compression
-         bf59493c344dfa52b76ed21f07094bd2c8d0d983 net/mlx5e: Support enhanced CQE compression
-         607ba056bf74ac555fb2f083f54be8f9f8c5819a Merge branch 'patchq/323390' into mlx5-queue
-         
+  - ref: refs/heads/ftrace/core
+    old: b988ccd72f9f84ee355d5d5ea65bca034ddc22e3
+    new: 8e929948ac1f0bd2655b4776fbdc6b529f123350
+    log: revlist-b988ccd72f9f-8e929948ac1f.txt
+
+--===============4316011648865653251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b988ccd72f9f-8e929948ac1f.txt
+
+e4931b824a6f36cae9cc5632709f015cfa748a25 tracing: Use trace_create_file() to simplify creation of tracefs entries
+2889c658b2fbc7ad4c5d541734fdc1d97b130753 ftrace: Deal with error return code of the ftrace_process_locs() function
+cb24693d94ceaf658944ad2e922203c0503775d2 tracing: Use strim() to remove whitespace instead of doing it manually
+99696a2592bca641eb88cc9a80c90e591afebd0f tracing: Fix potential double free in create_var_ref()
+b27f266f74fbda4ee36c2b2b04d15992860cf23b tracing: Fix return value of trace_pid_write()
+43994049180704fd1faf78623fabd9a5cd443708 kprobes: Fix build errors with CONFIG_KRETPROBES=n
+aa748949b4e665f473bc5abdc5f66029cb5f5522 tracing/timerlat: Notify IRQ new max latency only if stop tracing is set
+4dd2aea24ed7613735664feadc9879d37f718c23 tracing/timerlat: Print stacktrace in the IRQ handler if needed
+9c556e5a4dd5cfc0939a0575577d0517118f98af tracing/timerlat: Do not wakeup the thread if the trace stops at the IRQ
+2d601b98643dd2846e2958d931826e7b7af44969 tracing: Change "char *" string form to "char []"
+2decd16f47e3df3234b5486fe89a9aa5a1102af1 tracing: Cleanup code by removing init "char *name"
+3a2bfec0b02f2226ff3376a5d2ff604d799bd7ea ftrace: Remove return value of ftrace_arch_modify_*()
+50c697819d59c5013a66728940015348919a0c0c ftrace: Fix typo in comment
+154827f8e53d8c492b3fb0cb757fbcadb5d516b5 tracing: Initialize integer variable to prevent garbage return value
+bb5eb8f3b329789fbf22c85328dcf696a3e97ffb tracing: Disable kcov on trace_preemptirq.c
+0a54f556b035e5217e21724d82dd98ce695bd6d6 tracing: Fix comments of create_filter()
+7d54c15cb89a29a5f59e5ffc9ee62e6591769ef1 ftrace: Clean up hash direct_functions on register failures
+feccde2a49ff88e3e197adf1f16ea852dd05d059 x86,tracing: Remove unused headers
+aef54851bf1d3e31f9c15e8134e859c2f343ceab x86/traceponit: Fix comment about irq vector tracepoints
+8d4a21b5ac9dad5d5221c60060b3ac28d22f57ca tracing: Fix comments for event_trigger_separate_filter()
+8e929948ac1f0bd2655b4776fbdc6b529f123350 ftrace: Add FTRACE_MCOUNT_MAX_OFFSET to avoid adding weak function
+
+--===============4316011648865653251==--
