@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2353123133954235380=="
+Content-Type: multipart/mixed; boundary="===============4892482840782137629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sat, 28 May 2022 02:53:08 -0000
-Message-Id: <165370638822.15203.14368226300762880257@gitolite.kernel.org>
+Date: Sat, 28 May 2022 02:54:09 -0000
+Message-Id: <165370644985.15569.7402937159050195890@gitolite.kernel.org>
 
---===============2353123133954235380==
+--===============4892482840782137629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rostedt/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/for-next-core
-    old: ba27d8555867b0e02e15709f4ddb79aec5cf2efc
-    new: 8e929948ac1f0bd2655b4776fbdc6b529f123350
-    log: revlist-ba27d8555867-8e929948ac1f.txt
+  - ref: refs/heads/for-next
+    old: 786a8f96500f68d981bccc3a8aa7279ec3bb36be
+    new: e8b521f43618d3563329edfa5adf816a73e8d188
+    log: revlist-786a8f96500f-e8b521f43618.txt
 
---===============2353123133954235380==
+--===============4892482840782137629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba27d8555867-8e929948ac1f.txt
+Content-Disposition: attachment; filename=revlist-786a8f96500f-e8b521f43618.txt
 
 499f12168aebd6da8fa32c9b7d6203ca9b5eb88d tracing: Have event format check not flag %p* on __get_dynamic_array()
 e35c2d8e22745751cf304ec3fe39616643db2e0a tracing: Reset the function filter after completing trampoline/graph selftest
@@ -49,5 +49,6 @@ feccde2a49ff88e3e197adf1f16ea852dd05d059 x86,tracing: Remove unused headers
 aef54851bf1d3e31f9c15e8134e859c2f343ceab x86/traceponit: Fix comment about irq vector tracepoints
 8d4a21b5ac9dad5d5221c60060b3ac28d22f57ca tracing: Fix comments for event_trigger_separate_filter()
 8e929948ac1f0bd2655b4776fbdc6b529f123350 ftrace: Add FTRACE_MCOUNT_MAX_OFFSET to avoid adding weak function
+e8b521f43618d3563329edfa5adf816a73e8d188 Merge branch 'trace/for-next-rtla' into trace/for-next
 
---===============2353123133954235380==--
+--===============4892482840782137629==--
