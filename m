@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 28 May 2022 07:07:49 -0000
-Message-Id: <165372166956.18055.2285044617276130597@gitolite.kernel.org>
+Date: Sat, 28 May 2022 07:11:49 -0000
+Message-Id: <165372190939.20961.2457353952935510654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
   - ref: refs/heads/kbuild
-    old: f1235a2c98b6f9a5ff2277d64c9cece4df219f1a
-    new: ecd4984db347b5885ca0990a077f67b957d3734a
+    old: ecd4984db347b5885ca0990a077f67b957d3734a
+    new: a52859232a2baffc7d023d64246b2ed73c47971b
     log: |
-         4c478d3aff15c938b5a4dee9268c33e94cad931a kbuild: replace $(linked-object) with CONFIG options
-         d42794fd680fbae091702b353af699e29890591b kbuild: do not create *.prelink.o for Clang LTO or IBT
-         13f98a5cb11400d1270c476e90877073d995d1c3 parisc: remove arch/parisc/nm
-         ddf45bf6251cb64b2d18fc58eb288157da744a41 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
-         640506c587e958babc4869d4cfb5f275f0a650be kbuild: make built-in.a rule robust against too long argument error
-         261d42a0e8d517a18a4ec50a35fef6f768b5f0ca kbuild: make *.mod rule robust against too long argument error
-         05223ec3273be0f188a536c093d95cae8fe89145 kbuild: add cmd_and_savecmd macro
-         ecd4984db347b5885ca0990a077f67b957d3734a kbuild: rebuild multi-object modules when objtool is updated
+         64b55cb0495ccc8be663d4019af5b2dea2e4bb0d kbuild: replace $(linked-object) with CONFIG options
+         ea2d014af518659c7935592c893372ce075d6084 kbuild: do not create *.prelink.o for Clang LTO or IBT
+         ea945c198f2d13b37a645d5b379fc6136d635b96 parisc: remove arch/parisc/nm
+         3a57a01447de4e196cf4dee32d03dbb624104080 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
+         40bafb792329fbb5fa50e4a6364d53ee98746850 kbuild: make built-in.a rule robust against too long argument error
+         66fa8d83b6292dd2097a2e4ce7a8033fbd5a2360 kbuild: make *.mod rule robust against too long argument error
+         1ad0e726bf7303ec24b14d46e3895b08b07d03d6 kbuild: add cmd_and_savecmd macro
+         a52859232a2baffc7d023d64246b2ed73c47971b kbuild: rebuild multi-object modules when objtool is updated
          
