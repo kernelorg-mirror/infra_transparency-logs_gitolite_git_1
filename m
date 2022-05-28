@@ -1,48 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7346829566018836189=="
+Content-Type: multipart/mixed; boundary="===============1188389919368576285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 28 May 2022 09:35:06 -0000
-Message-Id: <165373050620.16950.16714826149722517541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 28 May 2022 09:36:49 -0000
+Message-Id: <165373060944.17576.6397570898645410376@gitolite.kernel.org>
 
---===============7346829566018836189==
+--===============1188389919368576285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/kvm-arm64/burn-the-flags
-    old: 377cf2edcee4077f373c0c5091793040aef1a38e
-    new: 2371e96fde51e57c283708cda9569ab109de6aa0
-    log: revlist-377cf2edcee4-2371e96fde51.txt
+  - ref: refs/heads/net-rc
+    old: 3ff303ca88e6f8949f19b55840e612ccdeaf7306
+    new: 5f84e049b17aaa696c98e1bd70c775eb2fb85ac4
+    log: revlist-3ff303ca88e6-5f84e049b17a.txt
 
---===============7346829566018836189==
+--===============1188389919368576285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-377cf2edcee4-2371e96fde51.txt
+Content-Disposition: attachment; filename=revlist-3ff303ca88e6-5f84e049b17a.txt
 
-127c5b546b79e7227d5f445689ebad1b8c0d49eb KVM: arm64: Always start with clearing SVE flag on load
-d4a3933cea760c462e595448456c7c4e947ed79f KVM: arm64: Always start with clearing SME flag on load
-1a46a007e0ea398df9fb01cfb3447aad2757bfad KVM: arm64: Drop FP_FOREIGN_STATE from the hypervisor code
-203567d244ddda99b09cc1266112eda5bc5d63f0 KVM: arm64: Move FP state ownership from flag to a tristate
-84ab564e0bb5aed4a09eba58ef300907406085b2 KVM: arm64: Add helpers to manipulate vcpu flags among a set
-1305af4da17a6c1c4a685caafa605030f7cf7463 KVM: arm64: Add three sets of flags to the vcpu state
-5c030396ac5b60d3b735e754ea0587cfcabf5094 KVM: arm64: Move vcpu configuration flags into their own set
-7eda7fae2113d6f6e6eb6d0f6ea25a833104178e KVM: arm64: Move vcpu PC/Exception flags to the input flag set
-41a32a6ccb050f6279c0758a66a932a4a0bdd8a4 KVM: arm64: Move vcpu debug/SPE/TRBE flags to the input flag set
-0c0cc82d96b342bea4dc18650e8561dfdff1f648 KVM: arm64: Move vcpu SVE/SME flags to the state flag set
-69a131493219b6f627ffe8fac7d99fbdf65fa074 KVM: arm64: Move vcpu ON_UNSUPPORTED_CPU flag to the state flag set
-c5200f489d03d71af7fece0a9ee14cd56268a6e2 KVM: arm64: Move vcpu WFIT flag to the state flag set
-20cfd12e44207a816429e161987858ac9e591a7f KVM: arm64: Kill unused vcpu flags field
-fa67f9dd6e6a2126e4705dfd2c7e9212e15cb63d KVM: arm64: Convert vcpu sysregs_loaded_on_cpu to a state flag
-4ce4b3eb3940151f9d44c25be7309e271912f7b3 KVM: arm64: Warn when PENDING_EXCEPTION and INCREMENT_PC are set together
-8aeda281d7adf0f2ef8f07f83e8828c585bcef70 KVM: arm64: Add build-time sanity checks for flags
-6810dbd32cde9277b7862331816b979f92da5e92 KVM: arm64: Reduce the size of the vcpu flag members
-2371e96fde51e57c283708cda9569ab109de6aa0 KVM: arm64: Document why pause cannot be turned into a flag
+59ed76fe2f981bccde37bdddb465f260a96a2404 selftests/bpf: fix stacktrace_build_id with missing kprobe/urandom_read
+caff1fa4118cec4dfd4336521ebd22a6408a1e3e bpf: Fix probe read error in ___bpf_prog_run()
+6b51935a26518baa8370c192d5a5520dfefec183 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+4dc160a52da1330d54d561f9dac8a9e0ef333895 dt-bindings: net: Update ADIN PHY maintainers
+155c0c90bca918de6e4327275dfc1d97fd604115 net: ipa: fix page free in ipa_endpoint_trans_release()
+70132763d5d2e94cd185e3aa92ac6a3ba89068fa net: ipa: fix page free in ipa_endpoint_replenish_one()
+9bae058ab57f88c7c1ad61797ee16a5abeda42c2 Merge branch 'net-ipa-fix-page-free-in-two-spots'
+f882cc5a43c14996e30596d479479e227d315d34 net/mlx5: Don't use already freed action pointer
+ba52a99983636ff700362adea11db8d7263e2206 net/mlx5e: TC NIC mode, fix tc chains miss table
+ba4058f2a2ec647dc9a7847d84e7f36bc80b1b82 net/mlx5: CT: Fix header-rewrite re-use for tupels
+426862db4fea81c7932b4dde7b80d771ab666d87 net/mlx5e: Disable softirq in mlx5e_activate_rq to avoid race condition
+03f54c37bd464f73913d46ab97384cb494d4e2bc net/mlx5: correct ECE offset in query qp output
+0279dd6dc114a494b8e944a08e2ba9464cfab042 net/mlx5: Fix mlx5_get_next_dev() peer device matching
+0273796df424877e73c45d6f489b91784f084c6e Merge branch 'patchq/507503' into mlx5-for-net
+b724f34c8ea2b0b4d374dd31613d5115b03c97c5 Merge branch 'patchq/496973' into mlx5-for-net
+5d74ba452e55db6120567997e27580f2bf88c2d1 Merge branch 'patchq/505998' into mlx5-for-net
+cf4637f4b6ac77087f08f2d88a8b54349164a813 Merge branch 'patchq/376281' into mlx5-for-net
+5f84e049b17aaa696c98e1bd70c775eb2fb85ac4 Merge branch 'mlx5-for-net' into net-rc
 
---===============7346829566018836189==--
+--===============1188389919368576285==--
