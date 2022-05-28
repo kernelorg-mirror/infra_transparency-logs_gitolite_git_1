@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1188389919368576285=="
+Content-Type: multipart/mixed; boundary="===============5819789006234569079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 28 May 2022 09:36:49 -0000
-Message-Id: <165373060944.17576.6397570898645410376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 28 May 2022 09:36:54 -0000
+Message-Id: <165373061435.17652.2493029603396323436@gitolite.kernel.org>
 
---===============1188389919368576285==
+--===============5819789006234569079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 3ff303ca88e6f8949f19b55840e612ccdeaf7306
-    new: 5f84e049b17aaa696c98e1bd70c775eb2fb85ac4
-    log: revlist-3ff303ca88e6-5f84e049b17a.txt
+  - ref: refs/heads/queue-rc
+    old: 153c0f8ec99c777ec7349bf4f34becac17f482b4
+    new: 4f8a93a3e48286ec5d6ad70e2ca3841970300204
+    log: revlist-153c0f8ec99c-4f8a93a3e482.txt
 
---===============1188389919368576285==
+--===============5819789006234569079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ff303ca88e6-5f84e049b17a.txt
+Content-Disposition: attachment; filename=revlist-153c0f8ec99c-4f8a93a3e482.txt
 
 59ed76fe2f981bccde37bdddb465f260a96a2404 selftests/bpf: fix stacktrace_build_id with missing kprobe/urandom_read
 caff1fa4118cec4dfd4336521ebd22a6408a1e3e bpf: Fix probe read error in ___bpf_prog_run()
@@ -44,5 +44,7 @@ b724f34c8ea2b0b4d374dd31613d5115b03c97c5 Merge branch 'patchq/496973' into mlx5-
 5d74ba452e55db6120567997e27580f2bf88c2d1 Merge branch 'patchq/505998' into mlx5-for-net
 cf4637f4b6ac77087f08f2d88a8b54349164a813 Merge branch 'patchq/376281' into mlx5-for-net
 5f84e049b17aaa696c98e1bd70c775eb2fb85ac4 Merge branch 'mlx5-for-net' into net-rc
+fe29689369323c37f609e85da16941c4c66e4bf9 Merge branch 'net-rc' into queue-rc
+4f8a93a3e48286ec5d6ad70e2ca3841970300204 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1188389919368576285==--
+--===============5819789006234569079==--
