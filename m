@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3804089422466878515=="
+Content-Type: multipart/mixed; boundary="===============7867508137225707953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 28 May 2022 08:39:30 -0000
-Message-Id: <165372717083.11995.1856970896051576744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 28 May 2022 08:39:35 -0000
+Message-Id: <165372717585.12102.5919188409282551518@gitolite.kernel.org>
 
---===============3804089422466878515==
+--===============7867508137225707953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 183ed59e1b2a419c3f73d7073dd1a6fd41c4b17b
-    new: 757b3f178a1462406dd99aa092c0d7945e29771a
-    log: revlist-183ed59e1b2a-757b3f178a14.txt
+  - ref: refs/heads/queue-next
+    old: 612bac61ee3ba0c1491c12cd5d72d9e086c5301c
+    new: eeb0ffc3d2b4857c8f66bb968d42a7e94dc99bea
+    log: revlist-612bac61ee3b-eeb0ffc3d2b4.txt
 
---===============3804089422466878515==
+--===============7867508137225707953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-183ed59e1b2a-757b3f178a14.txt
+Content-Disposition: attachment; filename=revlist-612bac61ee3b-eeb0ffc3d2b4.txt
 
 59ed76fe2f981bccde37bdddb465f260a96a2404 selftests/bpf: fix stacktrace_build_id with missing kprobe/urandom_read
 caff1fa4118cec4dfd4336521ebd22a6408a1e3e bpf: Fix probe read error in ___bpf_prog_run()
@@ -51,5 +51,7 @@ d2854736a5904cc9839cef0436eaf912de551e86 net/mlx5e: Support enhanced CQE compres
 1bea73af913dc467007890cc159d2cde51ce9fac Merge branch 'mlx5-queue' into net-next
 d149dd1644bcbe47a04145d639ab6781eaf4e8ac Merge branch 'mlx4-for-net' into net-next
 757b3f178a1462406dd99aa092c0d7945e29771a Merge branch 'mlx5-for-net' into net-next
+a3965efb28211a8827871c5069905460ded73bec Merge branch 'net-next' into queue-next
+eeb0ffc3d2b4857c8f66bb968d42a7e94dc99bea Merge branch 'testing/rdma-next' into queue-next
 
---===============3804089422466878515==--
+--===============7867508137225707953==--
