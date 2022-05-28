@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 28 May 2022 07:12:09 -0000
-Message-Id: <165372192921.21129.168480627958898147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 28 May 2022 07:18:55 -0000
+Message-Id: <165372233531.25962.5177498593963963143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: c9db1884050fa6524ae851347731ba2ff9c8d734
-    new: a52859232a2baffc7d023d64246b2ed73c47971b
+  - ref: refs/heads/net-mlx5
+    old: a321da4d37253db7f27c8a4fe7aaec5a5aba19f8
+    new: f882cc5a43c14996e30596d479479e227d315d34
     log: |
-         64b55cb0495ccc8be663d4019af5b2dea2e4bb0d kbuild: replace $(linked-object) with CONFIG options
-         ea2d014af518659c7935592c893372ce075d6084 kbuild: do not create *.prelink.o for Clang LTO or IBT
-         ea945c198f2d13b37a645d5b379fc6136d635b96 parisc: remove arch/parisc/nm
-         3a57a01447de4e196cf4dee32d03dbb624104080 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
-         40bafb792329fbb5fa50e4a6364d53ee98746850 kbuild: make built-in.a rule robust against too long argument error
-         66fa8d83b6292dd2097a2e4ce7a8033fbd5a2360 kbuild: make *.mod rule robust against too long argument error
-         1ad0e726bf7303ec24b14d46e3895b08b07d03d6 kbuild: add cmd_and_savecmd macro
-         a52859232a2baffc7d023d64246b2ed73c47971b kbuild: rebuild multi-object modules when objtool is updated
+         59ed76fe2f981bccde37bdddb465f260a96a2404 selftests/bpf: fix stacktrace_build_id with missing kprobe/urandom_read
+         caff1fa4118cec4dfd4336521ebd22a6408a1e3e bpf: Fix probe read error in ___bpf_prog_run()
+         6b51935a26518baa8370c192d5a5520dfefec183 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+         4dc160a52da1330d54d561f9dac8a9e0ef333895 dt-bindings: net: Update ADIN PHY maintainers
+         155c0c90bca918de6e4327275dfc1d97fd604115 net: ipa: fix page free in ipa_endpoint_trans_release()
+         70132763d5d2e94cd185e3aa92ac6a3ba89068fa net: ipa: fix page free in ipa_endpoint_replenish_one()
+         9bae058ab57f88c7c1ad61797ee16a5abeda42c2 Merge branch 'net-ipa-fix-page-free-in-two-spots'
+         f882cc5a43c14996e30596d479479e227d315d34 net/mlx5: Don't use already freed action pointer
          
