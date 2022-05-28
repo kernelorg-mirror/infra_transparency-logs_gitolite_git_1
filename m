@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 28 May 2022 13:09:51 -0000
-Message-Id: <165374339172.5645.9741088996112905087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sat, 28 May 2022 13:32:47 -0000
+Message-Id: <165374476787.21463.14793149502160454612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/dev
-    old: ec339ed55bdf1c65ca31e750a8b9fb21f35c921d
-    new: 82c11da29ca5f4a99811100027c9991504a87110
+  - ref: refs/heads/ftrace/core
+    old: 63106d5e426ab51ccc7c21a51c38b3b7e4a26aaa
+    new: b39181f7c6907dc66ff937b74758671fa6ba430c
     log: |
-         7cd218304034f8fad3fda49fb53df05b78553518 erofs: fix crash when enable tracepoint cachefiles_prep_read
-         82c11da29ca5f4a99811100027c9991504a87110 erofs: update documentation
+         b39181f7c6907dc66ff937b74758671fa6ba430c ftrace: Add FTRACE_MCOUNT_MAX_OFFSET to avoid adding weak function
          
