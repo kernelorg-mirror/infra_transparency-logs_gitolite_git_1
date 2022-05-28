@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 28 May 2022 07:11:49 -0000
-Message-Id: <165372190939.20961.2457353952935510654@gitolite.kernel.org>
+Date: Sat, 28 May 2022 07:12:09 -0000
+Message-Id: <165372192921.21129.168480627958898147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: ecd4984db347b5885ca0990a077f67b957d3734a
+  - ref: refs/heads/for-next
+    old: c9db1884050fa6524ae851347731ba2ff9c8d734
     new: a52859232a2baffc7d023d64246b2ed73c47971b
     log: |
          64b55cb0495ccc8be663d4019af5b2dea2e4bb0d kbuild: replace $(linked-object) with CONFIG options
