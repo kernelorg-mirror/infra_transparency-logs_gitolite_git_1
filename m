@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 28 May 2022 02:10:23 -0000
-Message-Id: <165370382378.19765.15416091720591422462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 28 May 2022 02:11:08 -0000
+Message-Id: <165370386869.20067.811857568104922423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 2c79c149ba64f2fba558afb85d06cc568d44ed16
-    new: 9dde6cadb92b5670b23b97ec53091df0530ec38b
+  - ref: refs/heads/master
+    old: 4dc160a52da1330d54d561f9dac8a9e0ef333895
+    new: 9bae058ab57f88c7c1ad61797ee16a5abeda42c2
     log: |
-         2be00431c576f7fc2299673301134b0d190699a9 perf tools arm64: Add support for VG register
-         f4df0dbbe62ee8e4405a57b27ccd54393971c773 perf jevents: Fix event syntax error caused by ExtSel
-         c4f462235c0f61a0eff2ca0f965a3fdceb80347d perf scripting python: Expose dso and map information
-         12fdd6c009da0d029ae54cff67242be02ea42a7a perf scripts python: Support Arm CoreSight trace data disassembly
-         9dde6cadb92b5670b23b97ec53091df0530ec38b tools arch x86: Sync the msr-index.h copy with the kernel sources
+         155c0c90bca918de6e4327275dfc1d97fd604115 net: ipa: fix page free in ipa_endpoint_trans_release()
+         70132763d5d2e94cd185e3aa92ac6a3ba89068fa net: ipa: fix page free in ipa_endpoint_replenish_one()
+         9bae058ab57f88c7c1ad61797ee16a5abeda42c2 Merge branch 'net-ipa-fix-page-free-in-two-spots'
          
