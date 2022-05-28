@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 28 May 2022 06:25:54 -0000
-Message-Id: <165371915472.24415.3831011785663240199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-patches
+Date: Sat, 28 May 2022 06:26:16 -0000
+Message-Id: <165371917693.24613.11806667023696792998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/colyli/bcache-patches
+user: colyli
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 1a9fa2cc9851390ebb66523bdbb3c771adce329f
-    new: bd8c54c903d94cdbff9290f19cde879faab1aae1
+  - ref: refs/heads/master
+    old: 5b73169ecf044d0175ed367cf56559585c3a62e6
+    new: b236ea2af4ecb5e5e77275f40d2dd76f02e4eee2
     log: |
-         bd8c54c903d94cdbff9290f19cde879faab1aae1 net/mlx5: Delete ipsec_fs header file as not used
+         5fa94acba8ddf4d2f8d4e1a32c32651c0dc466ec for-next: remove merged patches
+         167a5ac72783bf3e566441ebf1e2547bbc66bb2c for-test: remove remove-multiple-cache-devices series since most part are merged
+         b236ea2af4ecb5e5e77275f40d2dd76f02e4eee2 for-test: remove jouranl-deadlock series, most part are merged
          
