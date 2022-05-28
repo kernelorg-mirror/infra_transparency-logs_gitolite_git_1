@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 28 May 2022 17:21:11 -0000
-Message-Id: <165375847133.8960.8185932294768159617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 28 May 2022 17:27:31 -0000
+Message-Id: <165375885198.12469.5773806349219708247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 812b837848c7e428d934bec18cc114fb031939ac
-    new: 88a4fec1a1ef8fc7424309a952fe3f62f0e10c37
+  - ref: refs/heads/for-next
+    old: 50e35bd57c02a584442c0aa917787c858eabe80b
+    new: acde4003efc16480375543638484d8f13f2e99a3
     log: |
-         fe964a9155d06a9d29a28c7aca400bd4623843a7 net/mlx5: Delete ipsec_fs header file as not used
-         b016a70320462c35f94b0e2f5d411e806b4e2a49 net/mlx5: Add bits and fields to support enhanced CQE compression
-         5f299e193bb54d199b6145173d06fb08fbacdc84 net: Disable LRO feature if no RXCSUM
-         f5a5db9fb9d3b68f5b605c90e846eaadc3c3cc0f net/mlx5e: Support enhanced CQE compression
-         88a4fec1a1ef8fc7424309a952fe3f62f0e10c37 Merge branch 'patchq/323390' into mlx5-queue
+         acde4003efc16480375543638484d8f13f2e99a3 video: fbdev: vesafb: Fix a use-after-free due early fb_info cleanup
          
