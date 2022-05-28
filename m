@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 28 May 2022 14:29:13 -0000
-Message-Id: <165374815386.25227.14062386803550548746@gitolite.kernel.org>
+Date: Sat, 28 May 2022 14:30:45 -0000
+Message-Id: <165374824568.27338.2990469213134416697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d8064c10560d53a841b08ab2e11dbd5d28873955
-    new: 911799172d2f703cc14e9000c55d124d5e0a91a2
+    old: 911799172d2f703cc14e9000c55d124d5e0a91a2
+    new: 5e1eeef69c0fef6249b794bda5d68f95a65d062f
     log: |
-         0649e4d63420ebc8cbebef3e9d39e12ffc5eb9fa nfp: only report pause frame configuration for physical device
-         911799172d2f703cc14e9000c55d124d5e0a91a2 net: nfc: Directly use ida_alloc()/free()
+         5e1eeef69c0fef6249b794bda5d68f95a65d062f bonding: NS target should accept link local address
          
