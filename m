@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 29 May 2022 21:08:32 -0000
-Message-Id: <165385851210.29274.1532141560316118530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 29 May 2022 22:19:38 -0000
+Message-Id: <165386277860.10580.17071261800565162695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: de7fee520cbf6ddd3536d44a0be06a3e976e5db4
-    new: 8a4e1ed553491adf1dca2adeea37ad97c343a25f
+  - ref: refs/heads/damon/next
+    old: f53848f1ce60f7884ce89e24421dbb35c4da95a4
+    new: 97b2995e662a3c5cb32e55bbb208a67cc99d62be
     log: |
-         8a4e1ed553491adf1dca2adeea37ad97c343a25f Sun May 29 09:06:06 PM UTC 2022
+         97b2995e662a3c5cb32e55bbb208a67cc99d62be mm/damon: Introduce DAMON-based LRU-lists Sorting
          
