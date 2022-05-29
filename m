@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 29 May 2022 09:59:10 -0000
-Message-Id: <165381835070.19844.3920839101180024897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 29 May 2022 09:59:17 -0000
+Message-Id: <165381835779.19931.11563274323830406428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/tags/v2022.05.29
+  - ref: refs/heads/hp-visualize-fx-drm
     old: 0000000000000000000000000000000000000000
-    new: d52c73bca51c15e0bd9a580fb3cfac469c929b48
+    new: c2d0f767c19314c3d3a1a2d304be3c871b729523
