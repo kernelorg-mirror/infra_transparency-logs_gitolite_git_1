@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sun, 29 May 2022 11:05:34 -0000
-Message-Id: <165382233438.30556.13337724794758097088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 29 May 2022 11:13:59 -0000
+Message-Id: <165382283940.3481.6554924718625383862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: 5cd6adc62818c613bef3fdcf48d5c1473e617e9f
-    new: 98c4292ae3daa6e0a4cfbbc078554972039d3fb5
+  - ref: refs/heads/master
+    old: 18eeb4dea65cb587057740d6b7b71a13bcfececd
+    new: 90343f573252f5ebf13b3aa3b9a0b7e60ca7f503
     log: |
-         98c4292ae3daa6e0a4cfbbc078554972039d3fb5 ptrace: Check PTRACE_O_SUSPEND_SECCOMP permission on PTRACE_SEIZE
+         2e102b53f8a778f872dc137f4c7ac548705817aa sfc: fix considering that all channels have TX queues
+         c308dfd1b43ef0d4c3e57b741bb3462eb7a7f4a2 sfc: fix wrong tx channel offset with efx_separate_tx_channels
+         90343f573252f5ebf13b3aa3b9a0b7e60ca7f503 Merge branch 'sfc-fixes'
          
