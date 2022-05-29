@@ -1,443 +1,118 @@
-Content-Type: multipart/mixed; boundary="===============5974882573351659233=="
+Content-Type: multipart/mixed; boundary="===============6243492059477927211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 29 May 2022 18:28:15 -0000
-Message-Id: <165384889526.23268.1001242820203162191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 29 May 2022 18:50:10 -0000
+Message-Id: <165385021058.6213.15990206269559575958@gitolite.kernel.org>
 
---===============5974882573351659233==
+--===============6243492059477927211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-greg/4.14-101
-    old: 0a4583713b84f7bda08ad47bd6283f5c3d135c23
-    new: 05dc68f572617948a55789b861f0b77440005282
-    log: revlist-0a4583713b84-05dc68f57261.txt
-  - ref: refs/heads/for-greg/4.19-101
-    old: b1c0bf4e8e417fd14028ef4045adbece4566c98c
-    new: 6e388d259b6d95399964cf977a6cf8211be767a1
-    log: revlist-b1c0bf4e8e41-6e388d259b6d.txt
-  - ref: refs/heads/for-greg/4.9-101
-    old: fb0bdfc6e20a05c9ea2336c2b26493a7fff5a702
-    new: 8281f3e1330a77aaf78705c84d4117dd5abaa26d
-    log: revlist-fb0bdfc6e20a-8281f3e1330a.txt
-  - ref: refs/heads/for-greg/5.10-101
-    old: d6c641cedce933bccadd0f0df7b6be2cf86be3b6
-    new: 1be062b68fc7ced414cad18a76577b768f066f51
-    log: revlist-d6c641cedce9-1be062b68fc7.txt
-  - ref: refs/heads/for-greg/5.15-101
-    old: be9982f7029967f121a230d1d4eb4c148fde3ec1
-    new: c86ffa5a147c96ceb8a87f2302e9ba87bcbd0ea4
-    log: revlist-be9982f70299-c86ffa5a147c.txt
-  - ref: refs/heads/for-greg/5.16-101
-    old: 15327895b76395f0fb6f01d281a2cef50bdace1a
-    new: 63aace0660c14896fa714a1402604028b0a8c7b0
-    log: revlist-15327895b763-63aace0660c1.txt
-  - ref: refs/heads/for-greg/5.17-101
-    old: 39076753be300f2cb25b49b55bcfc03c77a81a98
-    new: 5b5312457a0e703def1e5b14976b1d23b4e7bf54
-    log: revlist-39076753be30-5b5312457a0e.txt
-  - ref: refs/heads/for-greg/5.4-101
-    old: 5dc986cfb3334e3ecd669407a9d86d4120ea3d1d
-    new: df61db45c6b7da568b49e19a703e60f26459e16a
-    log: revlist-5dc986cfb333-df61db45c6b7.txt
+  - ref: refs/heads/master
+    old: c3a9a3c5f5590e85da15d6201e415ff636fe5670
+    new: b00ed48bb0a7c295facf9036135a573a5cdbe7de
+    log: revlist-c3a9a3c5f559-b00ed48bb0a7.txt
 
---===============5974882573351659233==
+--===============6243492059477927211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a4583713b84-05dc68f57261.txt
+Content-Disposition: attachment; filename=revlist-c3a9a3c5f559-b00ed48bb0a7.txt
 
-d908d2776464a8021a1f63eba6e7417fbe7653c9 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-5149b895206f810e3b616896c1ee99d7a2d005c5 net: ipv6: fix skb_over_panic in __ip6_append_data
-2c8abafd6c72ef04bc972f40332c76c1dd04446d esp: Fix possible buffer overflow in ESP transformation
-97f4a463902ca5f3246dad32100962d00816e1ec staging: fbtft: fb_st7789v: reset display before initialization
-f0ddc5184b0127038d05008e2a69f89d1e13f980 thermal: int340x: fix memory leak in int3400_notify()
-0f294bc04be87f1c9e1d1a908db9fcc84ce94210 llc: fix netdevice reference leaks in llc_ui_bind()
-11a63e57e4b9cba31c1e3ca6529438d837552908 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-c5034a73f3478db28d00a86139ab3bc8db865841 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-d097387ed143ff8e8035de3f7d429f59d95182df ALSA: cmipci: Restore aux vol on suspend/resume
-7115e8d65b4da1a687c8080af30594c68c056ecc ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-6c35f6cd1bbd5bf678107f9f15edccd0a2315764 drivers: net: xgene: Fix regression in CRC stripping
-a3cc32863b175168283cb0a5fde08de6a1e27df9 netfilter: nf_tables: initialize registers in nft_do_chain()
-1b5146d41effe85a831a8c5dca40728696e1c751 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-419906dd8cc800d3ce24f4af5f9c9523a2f559de ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-c2ddbb724a8c8341e88198acdad877202f2c73d6 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-29116501726fef0f3b2ff14abe5c0a9467e80275 crypto: qat - disable registration of algorithms
-c1d9c3628ef0a0ca197595d0f9e01cd3b5dda186 mac80211: fix potential double free on mesh join
-f25366d9a27585d45dfd475aa1764b8886958aac llc: only change llc->dev when bind() succeeds
-af1af6ebca0e28a97e5f802b9da695678fcd226a Linux 4.14.274
-30d023382174a5481763d4a6dfe9566c9a44adbe sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-1bf5c7852dba1ec2a5ce099794f0a34167f243f1 perf/core: Fix address filter parser for multiple filters
-05dc68f572617948a55789b861f0b77440005282 perf/x86/intel/pt: Fix address filter config for 32-bit kernel
+06006ad29abeee1f94d1793107309ce100067e46 dt-bindings: dma-engine: sifive,fu540: Add dma-channels property and modify compatible
+e2dfce24f4175e8ba183d5800f669fc89843df54 dmaengine: sf-pdma: Get number of channel by device tree
+448a0994cc698d41d056f14fb9065305b14f3c75 dmaengine: sh: Kconfig: Make RZ_DMAC depend on ARCH_RZG2L
+8b0c99371ac8c8db25ce68ce207fee3b22627597 dmaengine: nbpfaxi: Use platform_get_irq_optional() to get the interrupt
+bb40bb695ec8b90bee4bfd7db52ba92c4a0b7586 dmaengine: mediatek: mtk-hsdma: Use platform_get_irq() to get the interrupt
+80380f89d0f56e0efa43e24c11f989e89b4af952 dmaengine: mediatek-cqdma: Use platform_get_irq() to get the interrupt
+3157dd0a366183adaea2f4d8721961637d562fee dmaengine: idxd: don't load pasid config until needed
+9060a7a46a9463ec519a9436fa2b84f5407b138e dmaengine: ep93xx: Remove redundant word in comment
+105989311442e4d74a0226e555503dd57aa1e896 dmaengine: bestcomm: Prepare cleanup of powerpc's asm/prom.h
+ec834f1cc7cf471b090bb0a6ee077a7bb90a3549 dmaengine: stm32-mdma: check the channel availability (secure or not)
+1f854536a8336c61c89ab040bbc874c75325d37c dmaengine: Clarify cyclic transfer residue documentation
+81f5eb2b11ba748ee7e393e2faf32af773ae332d dmaengine: idxd: remove trailing white space on input str for wq name
+745bd600941375ed6d2b4139f3b90619ac0fcd12 MAINTAINERS: update my email address
+cc4abaa67e051ddc1bb4e00186870adbd780d1cd dt-bindings: altr,msgdma: update my email address
+729106266a50400181c3baa508c79bead46eb8e0 dt-bindings: dmaengine: Add doc for tegra gpcdma
+ee17028009d49fffed8cc963455d33b1fd3f1d08 dmaengine: tegra: Add tegra gpcdma driver
+2d7991fe867974a8e5065ee9691451a406b9320d dmaengine: idxd: update IAA definitions for user header
+52126d4c03798cc55aa927fea4c776ab26b5a5f0 dmaengine: Remove a useless mutex
+94b8f0e58fa138455edc5414aa097694fede8836 dmaengine: qcom: gpi: set chain and link flag for duplex
+dd45d96bd9d3a052f1497f3d813a76d8308af25e dt-bindings: dmaengine: qcom: gpi: add compatible for sm8350/sm8350
+6316572cf30283d784df0ecf3d517daf020b4507 dmaengine: qcom: gpi: Add support for ee_offset
+d0a3ef604801e8e8564d15bdeb29497607a0d65a dmaengine: qcom: gpi: Add SM8350 support
+766b540df8a374f75d7ad7084da026439c107825 dt-bindings: dmaengine: xilinx_dma: Add MCMDA channel ID index description
+1d05a0bdb420ddb3e2d7f39cdc24ff16d6902f55 dmaengine: plx_dma: Move spin_lock_bh() to spin_lock()
+578245307f4afefd8da2ca66979d40b9ef517d67 dt-bindings: dmaengine: qcom: gpi: add compatible for sc7280
+d965068259d13fde49487b45064106d3d0c57a74 dmaengine: PTDMA: support polled mode
+2128565a8d3055623f651712b7faa3d66ce4f02c dmaengine: jz4780: set DMA maximum segment size
+4e5a4eb20393b851590b4465f1197a8041c2076b dmaengine: idxd: set DMA_INTERRUPT cap bit
+23084545dbb0ac0d1f0acad915bdeed7bd5f48cd dmaengine: idxd: set max_xfer and max_batch for RO device
+3dbc47a9629d3ab1bca89cc25f6bffcc47c71ed7 dmaengine: pl08x: drop the useless function
+e335de6ba5b63872e03208c83a44d2dc155985b8 dmaengine: mediatek: mtk-hsdma: use NULL instead of using plain integer as pointer
+a8facc7b988599f83a680d2d61f4607cda495175 dmaengine: add verification of DMA_INTERRUPT capability for dmatest
+96144c8fb3921aa8f02ecac2129d30fa36f93ccb dmaengine: tegra: Remove unused including <linux/version.h>
+439b5e765a00a546e8f6b6eedac69889d0b5a869 dmaengine: idxd: move wq irq enabling to after device enable
+fc44ff0ae9f2aa20b64c4e63ab4614156df80240 dmaengine: Document dmaengine_prep_dma_memset
+ceabe10cf5d642b6ea80e77193f9cd4446df26b5 dmaengine: at_hdmac: In atc_prep_dma_memset, treat value as a single byte
+3e0c06964bfcc8271a07065709452fcbc44e70b0 dmaengine: at_xdmac: In at_xdmac_prep_dma_memset, treat value as a single byte
+643a4a85b0bc7efeb5732fb4563c43c77ba0c6ac dmaengine: hidma: In hidma_prep_dma_memset treat value as a single byte
+e235fe3bcf831dabd67bc2d9b75cad53311a16ec dmaengine: ptdma: statify pt_tx_status
+b21fe492a3a9831c315eb456cf5480c9490eaeef dmaengine: ti: k3-psil-am62: Update PSIL thread for saul.
+63c14ae6c161dec8ff3be49277edc75a769e054a dmaengine: idxd: refactor wq driver enable/disable operations
+99faef48e7a3f878848a2d711af710e36fadbd6e dmaengine: mv_xor_v2 : Move spin_lock_bh() to spin_lock()
+461cd3709f266d179064b0a63d8949fa2e75ff72 dmaengine: tegra: Use platform_get_irq() to get IRQ resource
+aab08c1aac01097815fbcf10fce7021d2396a31f dmaengine: idxd: Fix the error handling path in idxd_cdev_register()
+b965182aee6e391084addcd25be3134d82fddb22 dt-bindings: renesas,rcar-dmac: R-Car V3U is R-Car Gen4
+42a1b73852c4a176d233a192422b5e1d0ba67cbf dmaengine: idxd: Separate user and kernel pasid enabling
+cf4ac3fef33883a14131d8925d7edfbdb7d69b68 dmaengine: idxd: fix lockdep warning on device driver removal
+9120c879d28873829dfa2f511c68162d52540e6a dmaengine: idxd: free irq before wq type is reset
+4734afb0d5ed3e56494ca6f28e51bafafef4c6aa dmaengine: idxd: remove redudant idxd_wq_disable_cleanup() call
+f9a9f43a62a04ec3183fb0da9226c7706eed0115 dmaengine: zynqmp_dma: In struct zynqmp_dma_chan fix desc_size data type
+9126518e0439bc4b47b15d0da42f0cdba7a74b3a dmaengine: zynqmp_dma: check dma_async_device_register return value
+517a710ac8fe9cbc48d0ec3ca81377f6ef3b86b7 dmaengine: zynqmp_dma: use pm_runtime_resume_and_get() instead of pm_runtime_get_sync()
+8e6226f0f1a321de5f9ffdcb3fe920f94b45d38b dmaengine: idxd: make idxd_register/unregister_dma_channel() static
+d0ad42388a396813771e9407614f40d128ad62db dmaengine: idxd: skip irq free when wq type is not kernel
+54326f37ec134c138dad4ae33bea048b0b186dd3 dt-bindings: dmaengine: sprd: deprecate '#dma-channels'
+d84c3ad998795503379ef8458ffffb5c06d18cc5 dmaengine: sprd: deprecate '#dma-channels'
+2112b8f4fb5cc35d1c384324763765953186b81f dmaengine: idxd: add missing callback function to support DMA_INTERRUPT
+411dccf9d271e49f37471c73ebedb18719d6b608 dmaengine: idxd: Remove unnecessary synchronize_irq() before free_irq()
+6cd4154a266584ca3908305ce64e14a5f0f3e81f dt-bindings: dmaengine: Introduce RZN1 dmamux bindings
+ad73c629b591c73baac67cb388ea342d076f6b1b dt-bindings: clock: r9a06g032-sysctrl: Reference the DMAMUX subnode
+7ac92262e1fb574ee4da2944b83e412aa0ae2ab4 dt-bindings: dmaengine: Introduce RZN1 DMA compatible
+885525c1e7e27ea6207d648a8db20dfbbd9e4238 clk: renesas: r9a06g032: Export function to set dmamux
+134d9c52fca26d2d199516e915da00f0cc6adc73 dmaengine: dw: dmamux: Introduce RZN1 DMA router support
+2182066d95c33dfb4cb7400952a92cfd12265873 clk: renesas: r9a06g032: Probe possible children
+d5a8fe0fee54d830c47959f625ffc41d080ee526 dmaengine: dw: Add RZN1 compatible
+2cdd3ca67aeabf4d6274af2d1c7e22f17a33dd64 dmaengine: tegra: Fix build error without IOMMU_API
+bd1eca7b2c66c53873a0eab84f9f301aca41f33a dt-bindings: dmaengine: mmp: deprecate '#dma-channels' and '#dma-requests'
+d9cb0a4c0be595b55e30cf8774d3e92ab38bca5b dmaengine: pxa: deprecate '#dma-channels' and '#dma-requests'
+607c04a0441ff477666dca4744e94f555aa8fd65 dmaengine: mmp: deprecate '#dma-channels'
+a725e582d720066e49034f8980af57a720d75127 dmaengine: ti: deprecate '#dma-channels'
+9d6a2d92e450926c483e45eaf426080a19219f4e dmaengine: stm32-mdma: remove GISR1 register
+da3b8ddb464bd49b6248d00ca888ad751c9e44fd dmaengine: stm32-mdma: fix chan initialization in stm32_mdma_irq_handler()
+2763826966808800beeda5db406b3b704edc8137 dmaengine: stm32-mdma: use dev_dbg on non-busy channel spurious it
+6c3c2066d6dc317fd05893d4ce07b2f3633e3e2a dt-bindings: dma: pl330: Add power-domains
+c7399e6d3b18dc17974bc44e2e178664f1bd1bec dmaengine: qcom: gpi: Add support for sc7280
+d0b360e3c164be7ccc8eb2bfc341287959e27040 dmaengine: stm32-dmamux: avoid reset of dmamux if used by coprocessor
+db60a63eb6850fce081c1a22e7318e5d37f4dcf5 dmaengine: stm32-dma: introduce stm32_dma_sg_inc to manage chan->next_sg
+ded6230691e00b0f31afc8aa18f26c57072ff58f dmaengine: stm32-dma: pass DMA_SxSCR value to stm32_dma_handle_chan_done()
+baa1424314f8e4bb5b266aaf9cc7fb7a9e65901b dmaengine: stm32-dma: rename pm ops before dma pause/resume introduction
+099a9a94be0e1c7fa45410deb2bff640320c3819 dmaengine: stm32-dma: add device_pause/device_resume support
+39b930bec80e7af4faae4caf4a36464a6d003bed dmaengine: tegra: Fix uninitialized variable usage
+360e4f4e3fcceb9c24ee509f9eb4ed48759b3918 dmaengine: tegra: Remove unused switch case
+59e477763d092923f567051e1bbfbb4e04d0dfbf dt-bindings: dma: sun50i-a64: Add compatible for D1
+9aa48806edb8c37e82532dbc6098b03f6bd4245e dmaengine: sun6i: Do not use virt_to_phys
+ec31c5c594927556ae74f6617fe4969568d8dcc5 dmaengine: sun6i: Add support for 34-bit physical addresses
+8292a15597db6f97dddd2afff98095a4722d0303 dmaengine: sun6i: Add support for the D1 variant
+d1a28597808268b87f156138aad3104aa255e62b dmaengine: idxd: make idxd_wq_enable() return 0 if wq is already enabled
+b00ed48bb0a7c295facf9036135a573a5cdbe7de Merge tag 'dmaengine-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1c0bf4e8e41-6e388d259b6d.txt
-
-0043b74987acb44f1ade537aad901695511cfebe nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-616e2dffaba372cf20b01172a73013ed28cbcc84 net: ipv6: fix skb_over_panic in __ip6_append_data
-ce89087966651ad41e103770efc5ce2742046284 esp: Fix possible buffer overflow in ESP transformation
-d1641f57a1687206d1703605c8e960d716c96144 staging: fbtft: fb_st7789v: reset display before initialization
-c3fa6d1937a8d0828131a04ae2cd2c30d0668693 thermal: int340x: fix memory leak in int3400_notify()
-d14193111c436fc5de33206c67c7afd45c730099 llc: fix netdevice reference leaks in llc_ui_bind()
-2a97f0a4fd3d6e914dd3d76585f1ec2a651f4992 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-a63af1baf0a5e11827db60e3127f87e437cab6e5 ALSA: oss: Fix PCM OSS buffer allocation overflow
-9d721cddf0111c298229241db8de5d36111e7350 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-9703ababd5eca82c49670271df58e8f2aadc2063 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-d565b353b5e4b9c67498162f2dc6de35bd4db82e ALSA: cmipci: Restore aux vol on suspend/resume
-e45ecd89b49ea535b3a94452f5c22b380b4d7156 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-ea0bc620490a594b785d0732bc70557ee478bd5a drivers: net: xgene: Fix regression in CRC stripping
-88791b79a1eb2ba94e95d039243e28433583a67b netfilter: nf_tables: initialize registers in nft_do_chain()
-783d2ec3700d779311e6cc06620122328c6579e6 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-918317abb722b80700f616bdf391654d0968622d ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-95471dcb7d9570db6418734737f6f1464036646c ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-5f80dc97be40b4b0e3bed25ad9adf2787a77c4b8 crypto: qat - disable registration of algorithms
-273ebddc5fda2967492cb0b6cdd7d81cfb821b76 mac80211: fix potential double free on mesh join
-87d82483f1cf34e114ddcfe3da24fd4a4318ed97 nds32: fix access_ok() checks in get/put_user
-c106f9aa6cd8913af9188ad361899ae696b5de37 llc: only change llc->dev when bind() succeeds
-a6e4a1818efa77621b27b5055cea85873b5e1f83 Linux 4.19.237
-b11a0bdbef449b640112b54fa33547e1a041b5ff sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-b0acea90477aca41e837a885f3cc6a7785c5f66c perf/core: Fix address filter parser for multiple filters
-6e388d259b6d95399964cf977a6cf8211be767a1 perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb0bdfc6e20a-8281f3e1330a.txt
-
-c1184fa07428fb81371d5863e09795f0d06d35cf nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-08fe8723ffe50d76860dc8ea5ed16005e59c0d62 net: ipv6: fix skb_over_panic in __ip6_append_data
-7133e8468790b20cf5598de6b08174509aef3819 staging: fbtft: fb_st7789v: reset display before initialization
-0a7aad979bfb43c4a78d33a5f356caf4ceb28bca llc: fix netdevice reference leaks in llc_ui_bind()
-6c9f0dd8f00e525a3726d12f7b83ad05d01f9df3 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-b0c89f83685eb4c9bc34b8cb0dfe54c6cae565b4 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-f00ad246dbc432533ad9087bb4971be2c1249461 ALSA: cmipci: Restore aux vol on suspend/resume
-f990a920152ef5c13d5310322a86cabe52bfd968 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-4d28522acd1c4415c85f6b33463713a268f68965 netfilter: nf_tables: initialize registers in nft_do_chain()
-2f88439f0cd8b7b3fbf182ab2105ad7229569b88 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-2ed6e1a08b04224a7dc6e5d089b4dc1ccaf6edab ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-f7735356dc3e25fad21d248acd703ee40ca37483 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-64dbd9e380ab1018977653005058d97673e5c741 crypto: qat - disable registration of algorithms
-615716af8644813355e014314a0bc1e961250f5a mac80211: fix potential double free on mesh join
-e82b631e22920bffbd7e4a15c14a823d36d45233 llc: only change llc->dev when bind() succeeds
-ae62da6ae3f6d9c7ea62960573f8a48df434e7a4 Linux 4.9.309
-e214984a99ceb13478474d1e1e5cc3810a93a839 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-de6710442bf491eded4970fcc8bfd0ac25ce6dfc perf/core: Fix address filter parser for multiple filters
-8281f3e1330a77aaf78705c84d4117dd5abaa26d perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6c641cedce9-1be062b68fc7.txt
-
-25c23fe40e6e1ef8e6d503c52b4f518b2e520ab7 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-ae8ec5eabb1a0e672e054ef50374f3d8508d6828 net: ipv6: fix skb_over_panic in __ip6_append_data
-9eeaa2d7d58ae7fe66bdb016a03fe251c48fe222 exfat: avoid incorrectly releasing for root inode
-f28364fe384feffbe7d44b095ef4571285465c47 cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
-824a950c3f1118eb06b1877c49ed1b2eca8e236d cgroup: Use open-time cgroup namespace for process migration perm checks
-ea21245cdcab3f2b46aecd421ac5f5753a1cf88d cgroup-v1: Correct privileges check in release_agent writes
-351493858ebc192c4526182f4c5819466e345659 tpm: Fix error handling in async work
-56dc187b35d5a0ac9d08560684721abf3aefa4df staging: fbtft: fb_st7789v: reset display before initialization
-571df3393f523b59cba87e2f3e80a3a624030f9c llc: fix netdevice reference leaks in llc_ui_bind()
-db03abd0dae07396559fd94b1a8ef54903be2073 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-5ce74ff7059341d8b2f4d01c3383491df63d1898 ALSA: oss: Fix PCM OSS buffer allocation overflow
-80eab86a86d2a53c4e735f1e600a02ff6cccf682 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-26fe8f31033bb4c9a30960e4000a6c30b66e3596 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-ca8247b4dfb8a7a192beef97b635fa97a57c2acb ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-05256f3fd6c9c70075f8f5887013a51ef2d81548 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-014c81dfb31929396c31c8b976030b56a8dc57d6 ALSA: hda/realtek: Add quirk for ASUS GA402
-0f6947f5f5208f6ebd4d76a82a4757e2839a23f8 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-8527c8f052fb42091c6569cb928e472376a4a889 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-a38440f006974e693f92a1ea10f819eccc4dcc37 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-b560d670c87d7d40b3cf6949246fa4c7aa65a00a ALSA: pcm: Fix races among concurrent prealloc proc writes
-0ae81ef3ea0e39950eb38a360f30f22d42ca3ddb ALSA: pcm: Add stream lock during PCM reset ioctl operations
-cbd27127af5f859929d707748633f47e08b3b33f ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-6936d2ecf8220440eb7b470d58c05a5cfb5e0f28 ALSA: cmipci: Restore aux vol on suspend/resume
-a2368d10b7fbdd449130b43776dc174954ca02b0 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-eb1ba8d1c3e2ca9817e24baad8fd1a418693fabc drivers: net: xgene: Fix regression in CRC stripping
-2c74374c2e88c7b7992bf808d9f9391f7452f9d9 netfilter: nf_tables: initialize registers in nft_do_chain()
-2724b72b225de65ad119a5cb490c974059318f5e ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-0b2ffba2de5046e508616f3b30f0e424436d16f7 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-9f4e64611ebeb9f21126d7312e12db92cc03ba3a ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-c971e6a1c8fa0816a0a5401b3a9ad137fe112eee crypto: qat - disable registration of algorithms
-87f7ed7c36596f76fc8e9d07c7efc800e76d4e33 Revert "ath: add support for special 0x0 regulatory domain"
-fcc9797d0d1323ca51d87f2dd7260c002fd1a2d2 rcu: Don't deboost before reporting expedited quiescent state
-5d3ff9542a40ce034416bca03864709540a36016 mac80211: fix potential double free on mesh join
-95193d12f10a8a088843b25e0f5fe1d83ec6b079 tpm: use try_get_ops() in tpm-space.c
-c064268eb8ed5c9a809ae0e5d9104a343a81d206 wcn36xx: Differentiate wcn3660 from wcn3620
-2b5a6d771450a6577eab0db18be6b91b75733df1 nds32: fix access_ok() checks in get/put_user
-163960a7de1333514c9352deb7c80c6b9fd9abf2 llc: only change llc->dev when bind() succeeds
-d9c5818a0bc09e4cc9fe663edb69e4d6cdae4f70 Linux 5.10.109
-5093296b31adcbaa33c4550c08e186dbad86ca33 f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
-b3121a23ad52e69541e9d47857186aeccd8fb6d5 locking/lockdep: Avoid potential access of invalid memory in lock_class
-71af21340674f3574b235e6ff634088ede6b5982 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-640b1e88692ac05c4e30bec8d0652e98e11f37c7 sched/core: Export pelt_thermal_tp
-1296dcbf3c5ab2c6cc4d109149a4b6bdc815af61 rseq: Optimise rseq_get_rseq_cs() and clear_rseq_cs()
-c4292800e70cecf809e724182a2f1b61ff4fc34c rseq: Remove broken uapi field layout on 32-bit little endian
-d5ecdf62ad6d92f6d98c64635d72411a88ef2a72 perf/core: Fix address filter parser for multiple filters
-cb0212d61ce29772e19365d07bdd4d64c1bae98c perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-2a03cedcb1f1b2450369f61869516a64f9e17596 f2fs: fix missing free nid in f2fs_handle_failed_inode
-893e784e8670d63dd36b842ffba678b3d01aa091 nfsd: more robust allocation failure handling in nfsd_file_cache_init
-acea5bbdc95a2c5bc5bb31b36c81316347690725 f2fs: fix to avoid potential deadlock
-64f8c4b8c84bf9097328f2e26c2b3b8e1dc8319a btrfs: fix unexpected error path when reflinking an inline extent
-19f8bb7a801e70c5ba4597fe078b0c2dd389dd2e f2fs: compress: remove unneeded read when rewrite whole cluster
-7a081894a72b28cbdedd1209ef2d7d7511a9ef9e f2fs: fix compressed file start atomic write may cause data corruption
-5695d6cd6107d7b1c79e783b55423af98ff729cf selftests, x86: fix how check_cc.sh is being invoked
-1be062b68fc7ced414cad18a76577b768f066f51 kunit: make kunit_test_timeout compatible with comment
-
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be9982f70299-c86ffa5a147c.txt
-
-a34c47b1ab07153a047476de83581dc822287f39 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-2317fd3b126c448fd0bbb3faa77106a7eb58ce92 net: ipv6: fix skb_over_panic in __ip6_append_data
-42b9f6d19faa86ae74a35574b9db71cebae5cf10 tpm: Fix error handling in async work
-5b2ca3b8213a49940cb88d29034cbdaa3fbaccb7 Bluetooth: btusb: Add another Realtek 8761BU
-e9072996108387ab19b497f5b557c93f98d96b0b llc: fix netdevice reference leaks in llc_ui_bind()
-5e431799c35b4621e71f25883707103514ac1104 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-7a40cbf3579a8e14849ba7ce46309c1992658d2b ALSA: oss: Fix PCM OSS buffer allocation overflow
-10cdffd4854a6a682823542fd73315865ded275b ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-85060f4868dbb3215459f6fc67e90d516757daaf ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-8e6ea2176222af06b49e8b7ff5cc62745f952ec4 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-0e7cdc8059a04fa80839a02f284a7199fc62269c ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-3b1bacd00ac3b1bd8fc3ec588ae7dd17c7a00860 ALSA: hda/realtek: Add quirk for ASUS GA402
-33061d0fba51d2bf70a2ef9645f703c33fe8e438 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-47711ff10c7e126702cfa725f6d86ef529d15a5f ALSA: pcm: Fix races among concurrent read/write and buffer changes
-cb6a39c5ebd0a125c420c5a10999813daaece019 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-51fce708ab8986a9879ee5da946a2cc120f1036d ALSA: pcm: Fix races among concurrent prealloc proc writes
-f4827c62b6496fe16ca55c29d45d2c51d5245904 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-099a1cc21b16dbf446158fd3675f3d23cbea1b68 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-9abaacd6491e454c3e753acfcab12e9bf991b1c8 ALSA: cmipci: Restore aux vol on suspend/resume
-c2052ad0c74fd0a1c6def7dd5a9bbad520f52687 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-3e27eafac6590d09164e4ad00a2e99b30e4ea37e drivers: net: xgene: Fix regression in CRC stripping
-fafb904156fbb8f1dd34970cd5223e00b47c33be netfilter: nf_tables: initialize registers in nft_do_chain()
-1bd57dea456149619f3b80d67eee012122325af8 netfilter: nf_tables: validate registers coming from userspace.
-8942aac690161dd3bd8c91044c6f867d9f10a364 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-a01ac24114899d46dafcb0dc0c204418f9d28ea4 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-57a2b3f8bf1c91f4a7daf40cc77a095d8fc14493 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-cb807cb52a8e399dfe7d58a64549cbbbb176ba9d crypto: qat - disable registration of algorithms
-4b6a48f87d0319e506c0ad7e4da0b81b01182b06 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-5023652cc6e490ca94b0beb29d6f2496623451f9 Revert "ath: add support for special 0x0 regulatory domain"
-b094fece3810c71ceee6f0921676cb65d4e68c5a drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
-058d62a03e7d057d5eeec0db800117765ff23e6c rcu: Don't deboost before reporting expedited quiescent state
-e65d28d4e9bf90a35ba79c06661a572a38391dec uaccess: fix integer overflow on access_ok()
-12e407a8ef17623823fd0c066fbd7f103953d28d mac80211: fix potential double free on mesh join
-476ddd23f818fb94cf86fb5617f3bb9a7c92113d tpm: use try_get_ops() in tpm-space.c
-cdb96445297bb922e17ee08fed02515b6688e564 wcn36xx: Differentiate wcn3660 from wcn3620
-110dea31d48f9e91ce9ab528a82ac61470a27d14 m68k: fix access_ok for coldfire
-22ac37c530656eedfeaa2536d7c65e4ff936b8ad nds32: fix access_ok() checks in get/put_user
-60981bb5ce183cbea9ddc88389735f363b8c56c5 llc: only change llc->dev when bind() succeeds
-e29be6724adbc9c3126d2a9550ec21f927f22f6d Linux 5.15.32
-0443c9d063218521cc9834678c18a2be0c3f5300 f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
-f9bfdb8e73949250965d5443aa7eabb99f9d9c96 locking/lockdep: Avoid potential access of invalid memory in lock_class
-2af57cc553ded8ef88005c8e47910257173d38db sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-922576490c1bf298da5dac1891095cf7ef77645b sched/core: Export pelt_thermal_tp
-89ae6b278306a66d1ac5f21c2b172f63ad637b05 sched/uclamp: Fix iowait boost escaping uclamp restriction
-3d5b8025af0edae4eecb4da98588017dd5553d68 rseq: Remove broken uapi field layout on 32-bit little endian
-703eb784db79dcf44de5e7c2d9bc1124f32638ae perf/core: Fix address filter parser for multiple filters
-aec1731f24d98ba84df4a7e49ba07f6ad430ac8e perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-57002a91ff449a4296d291fceec46bb4b17674ac sched/fair: Improve consistency of allowed NUMA balance calculations
-2e06ed2c7cf9ea7b684aa27a085b7800faef6a9a f2fs: fix missing free nid in f2fs_handle_failed_inode
-e85330f9b30f10f692c782040332d8aac74002c7 nfsd: more robust allocation failure handling in nfsd_file_cache_init
-f3e83604dde8d6b887981a10796c72758de60fea sched/cpuacct: Fix charge percpu cpuusage
-9a5b3b035dc4addb9b6970e4a4d435d22c717fd7 sched/rt: Plug rt_mutex_setprio() vs push_rt_task() race
-34a23faa9359ab415212363dc39457a4cae6d7f5 f2fs: fix to avoid potential deadlock
-8c55fb011242f060104a418540a0229301071a63 btrfs: fix unexpected error path when reflinking an inline extent
-85f2092a59f69fe0f713007353c87315b7662837 f2fs: fix compressed file start atomic write may cause data corruption
-983896da711858e7d7537ca8d72b33eb8dbc7da5 selftests, x86: fix how check_cc.sh is being invoked
-dd1c31d73e965648fc80e0bc7547b7880342c78c drivers/base/memory: add memory block to memory group after registration succeeded
-c86ffa5a147c96ceb8a87f2302e9ba87bcbd0ea4 kunit: make kunit_test_timeout compatible with comment
-
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15327895b763-63aace0660c1.txt
-
-1e1ea85986ea04fd412737520a8790305fe33fa2 Bluetooth: btusb: Add another Realtek 8761BU
-6f5bf395c60ed2643de51f2b1041cb0882e9d97f llc: fix netdevice reference leaks in llc_ui_bind()
-e4f72a15e289539d317dcbcafd7aa1aa0bafc538 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-fb08bf99195a87c798bc8ae1357337a981faeade ALSA: oss: Fix PCM OSS buffer allocation overflow
-6c014f53a849313017b0dcc7e4299a4f573ac0d7 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-70345962f1938c7d3b483e9060e3240b4bc8a3b8 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-ffbc67fbecab3022a28ecf4abe974a81abe2bd2f ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-34f1d767ed9709e3b988b42b92f9159e5c9e8a7a ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-336ba8f0a0699b7936ccc32a89543385d0104db7 ALSA: hda/realtek: Add quirk for ASUS GA402
-0090c13cbbdffd7da079ac56f80373a9a1be0bf8 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-4d1b0ace2d56dc27cc4921eda7fae57f77f03eb5 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-0646efbb6e100a3f93eba3b6a10a7f4c28dd1478 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-5d13e36da8b202936e3f60da5ec0ab1e362332ab net: ipv6: fix skb_over_panic in __ip6_append_data
-c5d05c52b293b74caf7c6b111eef67d68d96ea0a tpm: Fix error handling in async work
-e1ff3a347ed1531eec40a24c47eab15f0efbf835 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-a21d2f323b5a978dedf9ff1d50f101f85e39b3f2 ALSA: pcm: Fix races among concurrent prealloc proc writes
-97c5e6650dc1b3c7851af20775d105cb18f13c4e ALSA: pcm: Add stream lock during PCM reset ioctl operations
-cbc2fe8a30fe530946342cbbae08bdf3d5476da3 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-663cbb17917b07f9d5ca970dfae83a21a8d97f7f ALSA: cmipci: Restore aux vol on suspend/resume
-850ec3c3c4eba42bc03aeca8815c355327063f48 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-df53a515b745caec028fe6777d8c0a3c14201eaf drivers: net: xgene: Fix regression in CRC stripping
-64f24c76dd0ce53d0fa3a0bfb9aeea507c769485 netfilter: nf_tables: initialize registers in nft_do_chain()
-2c8ebdaa7c9755b85d90c07530210e83665bad9a netfilter: nf_tables: validate registers coming from userspace.
-85f3416f2a626aee31de3000572217ab6f2a4189 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-74ef51ae522d7fcea5da57ffff0a277b56619f33 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-73ec11419cb43340c614ef22caf3af39f7fbec0d ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-023a3c8e95e392d09b6044165e902d81d5a7f802 crypto: qat - disable registration of algorithms
-4e0747b0768c465a425a6bc5f6f448536b4ad63c Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-0df9f1b209a8e2e6d782174f2920a2faf8dda200 Revert "ath: add support for special 0x0 regulatory domain"
-ac92b474eeeed75b8660374ba1d129a121c09da8 drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
-133f65ed63a4d87bb0d042bb2e36d88d3e25e159 rcu: Don't deboost before reporting expedited quiescent state
-99801e2f457824955da4aadaa035913a6dede03a uaccess: fix integer overflow on access_ok()
-582d8c60c0c053684f7138875e8150d5749ffc17 mac80211: fix potential double free on mesh join
-eda1662cce964c8a65bb86321f8d9cfa6e9ceaab tpm: use try_get_ops() in tpm-space.c
-e047a3860fe3fbb10130f52d792d210cb25e582a wcn36xx: Differentiate wcn3660 from wcn3620
-547e4a8415d403c0af8810cd1a1fd5f7e152cd97 m68k: fix access_ok for coldfire
-63d58651f82c5703845194f2f8575c6d084804b4 nds32: fix access_ok() checks in get/put_user
-313ab7d716675b12cfde3d78981f21785b139279 llc: only change llc->dev when bind() succeeds
-9fec77b5f094c1bbd0432c3f98d20cca8fc07321 Linux 5.16.18
-5b98df5d5255889aa52ff5fbeb0cbbb8a3f99097 f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
-4edeba1abecaba33f6c29a3010c0bbd4a9a2f85d locking/lockdep: Avoid potential access of invalid memory in lock_class
-af8e67f0a2b1d79c6c4e3ba7e19eb9c49308df49 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-38f27db38d93942da87b62355fda7d84723cb22b sched/core: Export pelt_thermal_tp
-1c54e5eb09f2871480fee3a95e54b68361e00ec3 sched/uclamp: Fix iowait boost escaping uclamp restriction
-ffe6f14f4c0355e4830a69b3f875cc1af6c0ce22 rseq: Remove broken uapi field layout on 32-bit little endian
-c5f11874b90ec5649da1793e1ffe904903ae3308 perf/core: Fix address filter parser for multiple filters
-ddfac85c152640ee9b3f0d7308727c8797d27f1d perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-eacdd1bd6748bba4b66bd7f2c164f5ea199daa10 sched/fair: Improve consistency of allowed NUMA balance calculations
-67e6afdbdee5442cc5dd1a94ad3fbbee1dca3bbf f2fs: fix missing free nid in f2fs_handle_failed_inode
-31f822f17d0979c99567f075c1d060f6b335462e nfsd: more robust allocation failure handling in nfsd_file_cache_init
-869e47f3c36f43d5ba9f14e096373d46ccbdd312 sched/cpuacct: Fix charge percpu cpuusage
-782e80430425830470f2a9dda95fdd4d341b861a sched/rt: Plug rt_mutex_setprio() vs push_rt_task() race
-91c59bb4c95d5d19ac65712d33002e03aa1124ba f2fs: fix to avoid potential deadlock
-1dad941ab9ccf02d28893cc13ee399ee85901584 btrfs: fix unexpected error path when reflinking an inline extent
-8a37e8fec172135bb9f130b4e29250edb9035579 f2fs: fix compressed file start atomic write may cause data corruption
-9caba0fa8bc2be5043fc35144964a856ffa2f6d6 selftests, x86: fix how check_cc.sh is being invoked
-50c80a591b109a33ca003cd9cfa8e517d7a1a1de drivers/base/memory: add memory block to memory group after registration succeeded
-63aace0660c14896fa714a1402604028b0a8c7b0 kunit: make kunit_test_timeout compatible with comment
-
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39076753be30-5b5312457a0e.txt
-
-0d15c66771bbdd00676361e58e98bc1c59e6f3d8 tpm: Fix error handling in async work
-816a512233527c6e682710dd75348a3529490a61 Bluetooth: btusb: Add another Realtek 8761BU
-ef1a6fe3563cf47ce4fd555727ca80085cf18884 llc: fix netdevice reference leaks in llc_ui_bind()
-39504539ca3109cdec24ed54d7de43aa20fe7df8 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-e74a069c6a7bb505f3ade141dddf85f4b0b5145a ALSA: oss: Fix PCM OSS buffer allocation overflow
-1e6c2681b520eda29b2e54d5b4ae814b247774d0 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-d5ec0858e78262d61d52931dd82e57f24a9fc073 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-e3a8cf32beefa998fb3a17e559137b05eda01834 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-5d2f019b7a679a02d67d4bda73f09761747363d3 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-81b0e6aa90e9bacda0850239f00c2a7c76eaaefb ALSA: hda/realtek: Add quirk for ASUS GA402
-1bbf82d9f961414d6c76a08f7f843ea068e0ab7b ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-dd2f8c684da3e226e5ec7a81c89ff5fd4a957a03 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-e9d05532252ec41d000021d3cf40f3a2084fd5f9 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-5ed8f8e3c4e59d0396b9ccf2e639711e24295bb6 ALSA: pcm: Fix races among concurrent prealloc proc writes
-e7e04e25248372e024821327dbf2ac99077fea41 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-7188dd4d75f9dab66f51799dd9e0c3cd1c2a39b5 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-efeffb30291ce84f364c460e9312e1c774f359e0 ALSA: cmipci: Restore aux vol on suspend/resume
-7a378016d63e09fdca5d0ac171bd1c3895599fdb ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-8e8f66882b14e8806228ab5e9e83cafa3b3865c6 drivers: net: xgene: Fix regression in CRC stripping
-dd03640529204ef4b8189fbdea08217d8d98271f netfilter: nf_tables: initialize registers in nft_do_chain()
-afdc3f4b81f0ec9f97f0910476af4620a2481a6d netfilter: nf_tables: validate registers coming from userspace.
-4006144228a0529163d47925967af67a86df0add ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-9024419ced01c023889f63095638510f0cabd9aa ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-0d73a21c488b5f08842a342937677c3fb14436a1 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-608d06085d15e3e8c5b63d66dc0c1e0af141ba18 crypto: qat - disable registration of algorithms
-ef4d3dcd66ac0968f658db8cfacae25eabfd505c Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-72deda4b68bca9b4a6349a977cb83127ea1da391 Bluetooth: hci_sync: Add a new quirk to skip HCI_FLT_CLEAR_ALL
-5f32afca84d6dbf219d67be66b3f26826d510a0d Bluetooth: btusb: Use quirk to skip HCI_FLT_CLEAR_ALL on fake CSR controllers
-ae0e10382c3489973df373e1ba076a03f75d37c6 Revert "ath: add support for special 0x0 regulatory domain"
-abc9ad36df16e27ac1c665085157f1a082d39bac drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
-bff94c57bd130e3062afa94414c2294871314096 jbd2: fix use-after-free of transaction_t race
-cfda62aaf813dd899d35c68abe64db1776ec8009 rcu: Don't deboost before reporting expedited quiescent state
-a1ad747fc1a0e06d1bf26b996ee8a56b5c8d02d8 uaccess: fix integer overflow on access_ok()
-46bb87d40683337757a2f902fcd4244b32bb4e86 mac80211: fix potential double free on mesh join
-6e7baf84149fb43950631415de231b3a41915aa3 tpm: fix reference counting for struct tpm_chip
-ba84f9a48366dcc3cdef978599433efe101dd5bd tpm: use try_get_ops() in tpm-space.c
-bed07e7ecc73f5c043a8bc1f519e46d650ff9e22 wcn36xx: Differentiate wcn3660 from wcn3620
-b7509a4e81b516493cf601294268db07cad7659b m68k: fix access_ok for coldfire
-8f8a8f3ab3a64752b97182f696a0094accd8b2d9 nds32: fix access_ok() checks in get/put_user
-dc9363ece2048e64df4bd8dc7c71734cc47dcecb drm/msm/gpu: Fix crash on devices without devfreq support (v2)
-d5ac598705e1eb40e952cf7c8fe8b48c8dea897e llc: only change llc->dev when bind() succeeds
-59db887d13b3a4df2713c2a866fa2767e0dea569 Linux 5.17.1
-a8add8bdddbb851bb5e79aa8d1a543d1c54d7cd3 f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
-155db61841ff7cdfc7223be15542f9ead24db3d8 locking/lockdep: Avoid potential access of invalid memory in lock_class
-d9d2a05c821faa6145157ef80f34fbbd818492d0 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-cbe9905a4b258945dba788df29ce3b9fd6439670 sched/core: Export pelt_thermal_tp
-0a5028d2d454ff0ea3a17ffa60254dd8bec10622 sched/sugov: Ignore 'busy' filter when rq is capped by uclamp_max
-e0db01733e658c6007344b4faec9bd3b9a9de44b sched/uclamp: Fix iowait boost escaping uclamp restriction
-b2dd0ccf36cc07feeeea478f0b4dfec683544063 rseq: Remove broken uapi field layout on 32-bit little endian
-0ee309ad16c452b0d69d33bb3496298eda1dd3d5 perf/core: Fix address filter parser for multiple filters
-2d7449b63019b3d1ce5b7e01e31f0be31fb9b03e perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-7e5c4f53b85ab99d98055377746c059de6df945b sched/fair: Improve consistency of allowed NUMA balance calculations
-5e7b13369a80a042b2f09cce1424e7ad877313cd f2fs: fix missing free nid in f2fs_handle_failed_inode
-3dc65a1385937786042c1f4e6e3e79238f560127 ext4: fix remount with 'abort' option
-3ff90c2491a8925f3ab74cb35af48f5461f693ff nfsd: more robust allocation failure handling in nfsd_file_cache_init
-16f6a3e6eddf4e27312ade1e7ce7eedb1dc4bf68 sched/cpuacct: Fix charge percpu cpuusage
-861ac62d31a00b209940d15d91ddb839aa9ab007 sched/rt: Plug rt_mutex_setprio() vs push_rt_task() race
-7714d2108dae3f43bd57cfb81d753bb88751e1b7 f2fs: fix to avoid potential deadlock
-57dc5985c97f1e82b5bca81ee40bba081c93c72d btrfs: fix unexpected error path when reflinking an inline extent
-50c9a4f5a8d56f5fd2f29113ff0e69fd5c7d6941 iomap: Fix iomap_invalidatepage tracepoint
-5b5b4a6b3efe5968a9406a7988a6c9d952798b6b fs: erofs: add sanity check for kobject in erofs_unregister_sysfs
-3e208fae3be8a412c17288794b0c7ef2f52643a0 f2fs: fix compressed file start atomic write may cause data corruption
-fd9d6a19d5b2741928042a707a164f879d8718fb cifs: use a different reconnect helper for non-cifsd threads
-4242de53fcfd26564780b07b50c9f762c37984c5 selftests, x86: fix how check_cc.sh is being invoked
-79914b04ddcb88b1b6ec5899e84c5bb9d31292bc drivers/base/memory: add memory block to memory group after registration succeeded
-5b5312457a0e703def1e5b14976b1d23b4e7bf54 kunit: make kunit_test_timeout compatible with comment
-
---===============5974882573351659233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dc986cfb333-df61db45c6b7.txt
-
-c32f1041382a88b17da5736886da4a492353a1bb nfsd: cleanup nfsd_file_lru_dispose()
-628adfa21815f74c04724abc85847f24b5dd1645 nfsd: Containerise filecache laundrette
-0aef7184630b599493a0dcad4eec6d42b3e68e91 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-2774edd43ab1f1c0e81c353502ccd5df59bfaeae net: ipv6: fix skb_over_panic in __ip6_append_data
-fee4dfbda68ba10f3bbcf51c861d6aa32f08f9e4 esp: Fix possible buffer overflow in ESP transformation
-637d12f9dc67c3d12d3ff7615e125dc83a6076e2 tpm: Fix error handling in async work
-5ff048f4ab5cf6338fccbcc6354205287189c43c staging: fbtft: fb_st7789v: reset display before initialization
-2e798814e01827871938ff172d2b2ccf1e74b355 thermal: int340x: fix memory leak in int3400_notify()
-572f9a0d3f3feb8bd3422e88ad71882bc034b3ff llc: fix netdevice reference leaks in llc_ui_bind()
-0f27a350f8b81a3ab5838a269887062466ff7b68 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-d86bf7e0732e0a98431c77f02ef9a91c4899f536 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-1f4eefc585a7739b9687b6f2c21fafad0fa31c9b ALSA: cmipci: Restore aux vol on suspend/resume
-7870321eaf41d4a1728e0b6938c5e4d78476481e ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-d5c7e1987ce31223c383393c620deec4dabfe50c drivers: net: xgene: Fix regression in CRC stripping
-ab49515f7db30c9ef777748854892a3778641dcf ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-0c4190b41a69990666b4000999e27f8f1b2a426b ALSA: oss: Fix PCM OSS buffer allocation overflow
-f7a7cd530a9efe129538c698e68755ad5708cc5f ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-5061bf0f79d59062a4d349cb1ef9565bbe749b39 ALSA: hda/realtek: Add quirk for ASUS GA402
-06f0ff82c70241a766a811ae1acf07d6e2734dcb netfilter: nf_tables: initialize registers in nft_do_chain()
-2374007850c5030c729835db43edf55415da79e4 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-d7f29f397b742b46070ee96e5aea1721905adfc5 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-b0222e222d773208a4cd0d76d52cf8987034ff37 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-edcc12ae324919e35716e2c3cfb006161da0773f crypto: qat - disable registration of algorithms
-cda27a2c6d54eded8a5d4046ed92a0f09ff47450 rcu: Don't deboost before reporting expedited quiescent state
-3bbd0000d012f92aec423b224784fbf0f7bf40f8 mac80211: fix potential double free on mesh join
-5b1d2561a03e534064b51c50c774657833d3d2cf tpm: use try_get_ops() in tpm-space.c
-bb4878b39d6d35e4416696c7245083b5b7f812d2 nds32: fix access_ok() checks in get/put_user
-993c23880bcecf5e74090c9288ea680b5eb29005 llc: only change llc->dev when bind() succeeds
-2845ff3fd34499603249676495c524a35e795b45 Linux 5.4.188
-b5f077c62f78323100031590e2e760daca8bd3a5 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-2c6df716d88c96b6acc452a41d07ff5e211b3fa2 perf/core: Fix address filter parser for multiple filters
-fd2d53aca3623694a31c06b3157ec614afc98d4a perf/x86/intel/pt: Fix address filter config for 32-bit kernel
-57721626c4eb1c1b2314ef3531902978d789e0d9 f2fs: fix missing free nid in f2fs_handle_failed_inode
-df61db45c6b7da568b49e19a703e60f26459e16a f2fs: fix to avoid potential deadlock
-
---===============5974882573351659233==--
+--===============6243492059477927211==--
