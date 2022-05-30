@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2551961511422046321=="
+Content-Type: multipart/mixed; boundary="===============4351911243762490162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 30 May 2022 12:57:38 -0000
-Message-Id: <165391545835.3402.11767892526490485805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Mon, 30 May 2022 12:59:40 -0000
+Message-Id: <165391558044.4219.17482902009445846152@gitolite.kernel.org>
 
---===============2551961511422046321==
+--===============4351911243762490162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/next
-    old: c71159648c3cf0f7127ddc0bdf3eb4d7885210df
-    new: d770bed1bcf61082043f1f8b600b123e1095f708
-    log: revlist-c71159648c3c-d770bed1bcf6.txt
+  - ref: refs/heads/loongarch-next
+    old: 215da6d2dac02596585a63829dce4a489d81498f
+    new: b88a778a9ce9c7238d9a36adbdf5aaf4f1b78c5d
+    log: revlist-215da6d2dac0-b88a778a9ce9.txt
 
---===============2551961511422046321==
+--===============4351911243762490162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c71159648c3c-d770bed1bcf6.txt
+Content-Disposition: attachment; filename=revlist-215da6d2dac0-b88a778a9ce9.txt
 
-e4e62bbc6aba49a5edb3156ec65f6698ff37d228 hwrng: omap3-rom - fix using wrong clk_disable() in omap_rom_rng_runtime_resume()
-3d7285a335edaf23b699e87c528cf0b0070e3293 Merge tag 'v5.18-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-66ccd1d16e03e7308629de3c6713930a94729c6e Merge tag 'drm-misc-next-fixes-2022-05-19' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
-03536823589a501eb6601a7d09d77f8e1cbbcdd6 Merge tag 'msm-next-5.19-fixes' of https://gitlab.freedesktop.org/abhinavk/msm into drm-next
-b154a017c92011d8f71ce804583e5f9c3d90bb9a cgroup: remove the superfluous judgment
-9c55d99e099bd7aa6b91fce8718505c35d5dfc65 x86/microcode: Add explicit CPU vendor dependency
-ce6565282b3b16fd850c6a676f78c6bc76d0c235 x86/entry: Fixup objtool/ibt validation
-c15f950d149564989aa5a134b42e83e57511e628 net: ipa: drop an unneeded transaction reference
-c9d92cf28c0cda6e3bd76b75e6e343b86075cd2d net: ipa: rename a GSI error code
-332ef7c814bdd60f08d0d9013d0e1104798b2d23 net: ipa: ignore endianness if there is no header
-75944b040bbcce0fc1d1432787efe8a96b51b595 net: ipa: open-code ether_setup()
-f0488c540e8a36e515c744a531f27a6e994888d6 net: ipa: move endpoint configuration data definitions
-cf4e73a1667e620ef703ff1f86ae96471ffa80f6 net: ipa: rename a few endpoint config data types
-660e52d651ab7faa20d1ba08ae90a306b023e395 net: ipa: save a copy of endpoint default config
-b6d261449e6e4ed69ae654e3b4b41c0c416cf2a9 Merge branch 'net-ipa-next'
-d936411dc9caeb3edb992e39c33d4d1d81ca8c08 x86: Remove empty files
-ead165fa1042247b033afad7be4be9b815d04ade objtool: Fix symbol creation
-22682a07acc308ef78681572e19502ce8893c4d4 objtool: Fix objtool regression on x32 systems
-c796f02162e428b595ff70196dca161ee46b163b x86/tdx: Fix RETs in TDX asm
-4ac19ead0dfbabd8e0bfc731f507cfb0b95d6c99 kvm: x86/pmu: Fix the compare function used by the pmu event filter
-04baa2233d55e85e0f0f5dfe0401ecb027da9a0e selftests: kvm/x86: Add the helper function create_pmu_event_filter
-c41ef29cc1d4fa4ac5f1bb8e6ab57bf6f02cf878 selftests: kvm/x86: Verify the pmu event filter matches the correct event
-bb94bb86286b3560ebb539a84b299ca03141940f ASoC: remove two unnecessary gpiolib dependencies
-b4ce6dd4de3f75f6ee1751148198beaf4e37bedb ASoC: SOF: mediatek: add debug dump
-1f44de0f5e309e8699b569b49a8e89ef4e7527c7 ARM: 9193/1: amba: Add amba_read_periphid() helper
-7719a68b2fa404fa8af6b0b7119a38c406c74858 ARM: 9192/1: amba: fix memory leak in amba_device_try_add()
 952f03316352c606bebef56ba8f9642edbb8e348 ARM: 9194/1: assembler: simplify ldr_this_cpu for !SMP builds
 508074607c7b95b24f0adf633fdf606761bb7824 ARM: 9195/1: entry: avoid explicit literal loads
 c4f486f1e7b34b27ec578494a236061b337d50ae ARM: 9198/1: spectre-bhb: simplify BPIALL vector macro
@@ -84,6 +58,10 @@ e8f4f794d7047dd36f090f44f12cd645fba204d2 perf stat: Always keep perf metrics top
 e7d1374ed5cb346efd9b3df03814dbc0767adb4e perf parse-events: Support different format of the topdown event name
 e0e14cdff31d326f81e0edbd5140f788c870756c perf parse-events: Move slots event for the hybrid platform too
 9cf62d91e4b78d8165e68aab3f8041b6bc3a0874 RDMA/mlx4: Avoid flush_scheduled_work() usage
+4689752c79fa30e91b49b39a9fba93c4d1f3e20c drivers/s390/char: Add Ultravisor io device
+cbac924200b838cfb8d8b1415113d788089dc50b selftests: drivers/s390x: Add uvdevice tests
+c783631b0bffe6060113ff0aafe5fdbd71bea793 KVM: s390: Don't indicate suppression on dirtying, failing memop
+c71159648c3cf0f7127ddc0bdf3eb4d7885210df KVM: s390: selftest: Test suppression indication on key prot exception
 9bf3ac466faa83d51a8fe9212131701e58fdef74 gpio: gpio-vf610: do not touch other bits when set the target bit
 3ecb10175b1f776f076553c24e2689e42953fef5 gpio: mvebu/pwm: Refuse requests with inverted polarity
 1b388e7765f2eaa137cf5d92b47ef5925ad83ced random: convert to using fops->read_iter()
@@ -1039,16 +1017,38 @@ f56dbdda4322d33d485f3d30f3aabba71de9098c Merge tag 'hyperv-next-signed-20220528'
 76bfd3de34783ceda1fc1d73d0db87361de07ecb Merge tag 'trace-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 c3a9a3c5f5590e85da15d6201e415ff636fe5670 Merge tag 'trace-tools-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 b00ed48bb0a7c295facf9036135a573a5cdbe7de Merge tag 'dmaengine-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-780faa6496acd467d48f065c1ee576659fadec0a s390/uv: Add SE hdr query information
-94c3e01bd3adae59f9fcd04f41f17a63c37aac41 s390/uv: Add dump fields to query
-c04294a789ac05524efacf85aaf7f53090bde0f4 KVM: s390: pv: Add query interface
-1fb4670d921fc5a57acac2391e15e64e854df654 KVM: s390: pv: Add dump support definitions
-8e34e11735202ee331a1161539cbe93795adb088 KVM: s390: pv: Add query dump information
-d08e13528c1c732ed4c56f65c149c964fdcf5c92 KVM: s390: Add configuration dump functionality
-12681f5acb558fe3e4286398eb3eb952b14c9581 KVM: s390: Add CPU dump functionality
-ad28bd38d70e65def6d76dae8af00e79d2803953 KVM: s390: Add KVM_CAP_S390_PROTECTED_DUMP
-992947302e7daf31431a5ba62bbac240754e147d Documentation: virt: Protected virtual machine dumps
-242915ac3afe91ccea66ac77d0487e7e7baaefcd Documentation/virt/kvm/api.rst: Add protvirt dump/info api descriptions
-d770bed1bcf61082043f1f8b600b123e1095f708 Documentation/virt/kvm/api.rst: Explain rc/rrc delivery
+f317236ce9e87e966b05b4891da554f8f0bb99e8 Documentation: LoongArch: Add basic documentations
+bb72f391fd3db35211c5c13fb3dde28cb3359aaf Documentation/zh_CN: Add basic LoongArch documentations
+b9e6ceededf6dd81efd95ce69dd49c93619265e4 LoongArch: Add ELF-related definitions
+10d550aae42b0b050e597b7f6bf1c9001ced6f3e LoongArch: Add writecombine support for drm
+218b0939a7fe0809452ec809599dfdbff05ebf00 LoongArch: Add build infrastructure
+2d6bd6c0803035713691aef09e748fc38e56b966 LoongArch: Add CPU definition headers
+90d77c5c6b00ef3827caac9f09fc32fa70e7a507 LoongArch: Add atomic/locking headers
+91f0c46d87a5d095518fab460cee6a8ba77cb630 LoongArch: Add other common headers
+90c58f617c70351e1d57ac16c0c572f6ce261c24 LoongArch: Add boot and setup routines
+08d20cdf5d5724d6f4d599b0c21212cb4a72ef00 LoongArch: Add exception/interrupt handling
+5c48c4e061ef1a07f51387d47b02c225c7566d5a LoongArch: Add process management
+64d812a46508e451c000e8ab39f359b35fc98507 LoongArch: Add memory management
+de47054d43402c4dc0674e0b938db00b91ce4b56 LoongArch: Add system call support
+1b79e373fa0b9052d96e418a4b564db879fa4e9e LoongArch: Add signal handling support
+0d118bde7bda86fd34e6057ed5d5bee722cdd31c LoongArch: Add ELF and module support
+1850e2f835a18c66ebbe7ca064275c904345bf68 LoongArch: Add misc common routines
+3cf55e1aa8d2a3f1c8d00257e546c280131a1299 LoongArch: Add some library functions
+6a5e11f6a63eebd419c0310c13e362798eb939ce LoongArch: Add PCI controller support
+688e4e8dae4b4f6c6e3d5ba2e95c054fba978869 LoongArch: Add VDSO and VSYSCALL support
+07f5c23ddaf9f41e4e287e81c8ddb6587a6dd460 LoongArch: Add multi-processor (SMP) support
+4b63a63d358de9817b01ec87b76827008aa6fd03 LoongArch: Add Non-Uniform Memory Access (NUMA) support
+dab66730b500f03328807bcc6a3ded1ae81168b2 LoongArch: Add Loongson-3 default config file
+4adf0f70ecc9c41d91614447b48fe124dbe3f20a MAINTAINERS: Add maintainer information for LoongArch
+14978377fcac78980ce720ed2ccf13ba0afcf37b ACPICA: MADT: Add LoongArch APICs support
+320ec2c5c5dbe2a67d40770a4b9bcf419627b58a ACPICA: Events: Support fixed pcie wake event
+f4a7dc3b2600ef01337a2d816598b620929564df irqchip: Adjust Kconfig for Loongson
+bd890084d41a9cb2c1c1601588c775cc1385ddbe irqchip/loongson-liointc: Fix build error for LoongArch
+64274708d9bb73aa76a1b38ef0f1c422af6956a9 PCI: loongson: Use generic 8/16/32-bit config ops on LS2K/LS7A
+74a42e89e68ba7979d8b440f1e366631550c592b PCI: loongson: Add ACPI init support
+2e1cfb1ed327c2debc819006d21bc7eb896e84b6 PCI: loongson: Don't access unexisting devices
+f635f146d16888815ba14849406965d18d012400 PCI: loongson: Improve the MRRS quirk for LS7A
+2cea59fe06cbb5e0bae5cce0eaf15fa94af78b3b PCI: Add quirk for LS7A to avoid reboot failure
+b88a778a9ce9c7238d9a36adbdf5aaf4f1b78c5d PCI: Add quirk for multifunction devices of LS7A
 
---===============2551961511422046321==--
+--===============4351911243762490162==--
