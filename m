@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 30 May 2022 22:56:23 -0000
-Message-Id: <165395138379.6313.5440798821192235592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 30 May 2022 23:05:05 -0000
+Message-Id: <165395190571.12095.1524310757684681362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: ecf66cc2a49c69e9c9d224ef54b95082844a7b7a
-    new: c7d274054fea5e0a2fc2aa645b0c728643c355a6
+  - ref: refs/heads/for-next
+    old: 4e2bbecd71d9c01e70ec184791b9594978735b5d
+    new: 7699f7aacf3ebfee51c670b6f796b2797f0f7487
     log: |
-         87b6b2112c3de7be7b6c0a32974cbd6ee61ddcb7 Let IORING_OP_FILES_UPDATE support to choose fixed file slots
-         c7d274054fea5e0a2fc2aa645b0c728643c355a6 Tweaks to close+unregister of direct descriptor
+         7699f7aacf3ebfee51c670b6f796b2797f0f7487 RISC-V: Prepare dropping week attribute from arch_kexec_apply_relocations[_add]
          
