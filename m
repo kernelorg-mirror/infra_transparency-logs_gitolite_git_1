@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 31 May 2022 21:02:21 -0000
-Message-Id: <165403094133.10321.738221717845947188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 31 May 2022 21:12:59 -0000
+Message-Id: <165403157956.17052.9705390743910163204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
-    new: b73b2a2fb547193e341d792d9e3190182af1363e
+  - ref: refs/heads/master
+    old: 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad
+    new: 9271cf2ecc9a0b999ce779736b2cf599c5c74466
     log: |
-         b73b2a2fb547193e341d792d9e3190182af1363e parisc: Drop CONFIG_SCHED_MC
+         9271cf2ecc9a0b999ce779736b2cf599c5c74466 Bluetooth: hci_qca: Return wakeup for qca_wakeup
          
