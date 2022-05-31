@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 31 May 2022 22:34:34 -0000
-Message-Id: <165403647456.4788.1107443820344224880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 31 May 2022 22:35:48 -0000
+Message-Id: <165403654875.6677.3098415282284204533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 0d60164dbe813f053f7a6fabfa9d9ea6fcf88240
-    new: c515b15817efd843a368e9b10bdb284d80c61d85
+    old: 960b8ef9609c2058924e8ef9c4ca004bc11403f6
+    new: d992a11f11710ae10010e77654c8cee66d8f913b
     log: |
-         c515b15817efd843a368e9b10bdb284d80c61d85 Tue May 31 10:33:06 PM UTC 2022
+         d992a11f11710ae10010e77654c8cee66d8f913b Check for NULL ptr of btf in codegen_asserts
          
