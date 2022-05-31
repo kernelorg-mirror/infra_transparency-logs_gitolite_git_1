@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3641565046211680906=="
+Content-Type: multipart/mixed; boundary="===============8809674300042458946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 31 May 2022 13:35:59 -0000
-Message-Id: <165400415980.10318.9122560463982066297@gitolite.kernel.org>
+Date: Tue, 31 May 2022 13:38:13 -0000
+Message-Id: <165400429398.11096.553550829086306988@gitolite.kernel.org>
 
---===============3641565046211680906==
+--===============8809674300042458946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: e949dee3625e1b0ef2e40d9aa09c2995281b12f6
-    new: 291e7d52d19f114cad6cbf802f3f19ef12a011f8
-    log: revlist-e949dee3625e-291e7d52d19f.txt
+  - ref: refs/heads/devel
+    old: 5219533abc2548309fb1af8288cae1ad3464b7ca
+    new: 50f2a4492c74464ce55596243a86ca65bc96cb54
+    log: revlist-5219533abc25-50f2a4492c74.txt
 
---===============3641565046211680906==
+--===============8809674300042458946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e949dee3625e-291e7d52d19f.txt
+Content-Disposition: attachment; filename=revlist-5219533abc25-50f2a4492c74.txt
 
-9714061423b8b24b8afb31b8eb4df977c63f19c4 crypto: qat - add param check for RSA
-2acbb8771f6ac82422886e63832ee7a0f4b1635b crypto: qat - add param check for DH
-8fb203c65a795b96faa1836b5086a5d6eb5c5e99 crypto: qat - honor CRYPTO_TFM_REQ_MAY_SLEEP flag
-d09144745959bf7852ccafd73243dd7d1eaeb163 crypto: qat - re-enable registration of algorithms
-fbdab61af2d02ebf9c015458c95e34b54dea9027 crypto: qat - add support for 401xx devices
 2d33f5771b513f7dfb819563d4b38b687f2a4982 crypto: hisilicon/sec - delete the flag CRYPTO_ALG_ALLOCATES_MEMORY
 e4e62bbc6aba49a5edb3156ec65f6698ff37d228 hwrng: omap3-rom - fix using wrong clk_disable() in omap_rom_rng_runtime_resume()
 3d7285a335edaf23b699e87c528cf0b0070e3293 Merge tag 'v5.18-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
@@ -1049,6 +1044,11 @@ f56dbdda4322d33d485f3d30f3aabba71de9098c Merge tag 'hyperv-next-signed-20220528'
 76bfd3de34783ceda1fc1d73d0db87361de07ecb Merge tag 'trace-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 c3a9a3c5f5590e85da15d6201e415ff636fe5670 Merge tag 'trace-tools-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 b00ed48bb0a7c295facf9036135a573a5cdbe7de Merge tag 'dmaengine-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+25a77babb1f52b0cdb1b4dab29dff135e7e02e7f mmc: sdhci-of-dwcmshc: add reset call back for rockchip Socs
+790f99bbcc0ab8fa7915cc61525f19d360a76d44 mmc: sdhci-of-dwcmshc: rename rk3568 to rk35xx
+3bacbc5e5d485b39139d73467a843ccdd16f70b7 mmc: sdhci-of-dwcmshc: add support for rk3588
+3107f0912f6bb76bf835778e7144951eb533ab0d dt-bindings: mmc: sdhci-msm: Fix issues in yaml bindings
 291e7d52d19f114cad6cbf802f3f19ef12a011f8 mmc: sdhci-pci-gli: Fix GL9763E runtime PM when the system resumes from suspend
+50f2a4492c74464ce55596243a86ca65bc96cb54 Merge branch 'fixes' into devel
 
---===============3641565046211680906==--
+--===============8809674300042458946==--
