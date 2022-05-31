@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 31 May 2022 18:31:17 -0000
-Message-Id: <165402187751.9438.5231996704338182258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 31 May 2022 18:49:53 -0000
+Message-Id: <165402299314.20811.18310795463676220891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/heads/dm-5.19
+    old: 41f8ea1c305bed7810d7c5b43d6737652bdfb871
+    new: 9571f829f30a89b888ec4c3a72f5a04573f0e058
+    log: |
+         9571f829f30a89b888ec4c3a72f5a04573f0e058 dm table: fix dm_table_supports_poll to return false if no data devices
+         
