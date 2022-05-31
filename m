@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 31 May 2022 04:24:26 -0000
-Message-Id: <165397106653.28902.17540719640188186574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 31 May 2022 04:33:40 -0000
+Message-Id: <165397162013.2203.5553753254335324385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 4b74f4ce216a784323770c45ac97563778e3cb75
-    new: 01b84d72ea6de9961f50bae0ebc48f1a3a0abb3d
+    old: 90343f573252f5ebf13b3aa3b9a0b7e60ca7f503
+    new: d7cd5e06c9dd70a82f1461c7b5f676bc03f5cd61
     log: |
-         01b84d72ea6de9961f50bae0ebc48f1a3a0abb3d foo
+         3a2cd89bfbeb10012eb90857ce641d34f0151c4c net: ipv4: Avoid bounds check warning
+         d7cd5e06c9dd70a82f1461c7b5f676bc03f5cd61 net: phy: at803x: disable WOL at probe
          
