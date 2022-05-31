@@ -1,32 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 31 May 2022 13:09:30 -0000
-Message-Id: <165400257028.23950.1627071698142165976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 31 May 2022 13:13:16 -0000
+Message-Id: <165400279672.27993.1657497953821612057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/for-linus
-    old: 9bfa7b36343c7d84370bc61c9ed774635b05e4eb
-    new: 3753fcc22974affa26160ce1c46a6ebaaaa86758
-    log: |
-         3753fcc22974affa26160ce1c46a6ebaaaa86758 ALSA: usb-audio: Optimize TEAC clock quirk
-         
-  - ref: refs/heads/for-next
-    old: 9bfa7b36343c7d84370bc61c9ed774635b05e4eb
-    new: 3753fcc22974affa26160ce1c46a6ebaaaa86758
-    log: |
-         3753fcc22974affa26160ce1c46a6ebaaaa86758 ALSA: usb-audio: Optimize TEAC clock quirk
-         
-  - ref: refs/heads/master
-    old: 52b5954fd0b3b3781afe32c0475fafe67498fc52
-    new: 93a42cc48b0860756b1ab4f9830f7570a6d0074d
-    log: |
-         3753fcc22974affa26160ce1c46a6ebaaaa86758 ALSA: usb-audio: Optimize TEAC clock quirk
-         93a42cc48b0860756b1ab4f9830f7570a6d0074d Merge branch 'for-linus'
-         
+  - ref: refs/heads/linux-next
+    old: 0c293fbd7b1be5ff05760352a5f7644425c465d2
+    new: 0a19bab54ef44348aa5edfc2b8ff47f63a45ae15
