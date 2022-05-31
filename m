@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1335593311535112631=="
+Content-Type: multipart/mixed; boundary="===============2939917284520349412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 31 May 2022 17:04:13 -0000
-Message-Id: <165401665301.16572.6153818206070845398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 31 May 2022 17:19:20 -0000
+Message-Id: <165401756038.27376.311972649344223710@gitolite.kernel.org>
 
---===============1335593311535112631==
+--===============2939917284520349412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: 8ab2afa23bd197df47819a87f0265c0ac95c5b6a
     new: e1cbc3b96a9974746b2a80c3a6c8a0f7eff7b1b5
     log: revlist-8ab2afa23bd1-e1cbc3b96a99.txt
 
---===============1335593311535112631==
+--===============2939917284520349412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -126,4 +126,4 @@ b0dacee202efbf1a5d9f5cdfd82049e8b5b085d2 Merge branches 'apple/dart', 'arm/media
 3335d5550256210c9b213f67240221633d8f7b53 Merge tag 'microblaze-v5.19' of git://git.monstr.eu/linux-2.6-microblaze
 e1cbc3b96a9974746b2a80c3a6c8a0f7eff7b1b5 Merge tag 'iommu-updates-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 
---===============1335593311535112631==--
+--===============2939917284520349412==--
