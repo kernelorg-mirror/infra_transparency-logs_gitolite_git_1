@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 31 May 2022 20:44:51 -0000
-Message-Id: <165402989115.31156.17302282222807545102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 31 May 2022 20:45:15 -0000
+Message-Id: <165402991528.414.4657088324659543552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dt/linus
-    old: adb97f9f8442317f64b94bebded88a08012e85b3
-    new: 7b6002b3b23de4ecc93cf1708869eb983e3d7d89
+  - ref: refs/heads/dev-queue
+    old: 355ef3d44ecab420cd8b121945a1b0b015ed0f09
+    new: 02ae2726bced6aa95cd63a885847b98c874ba4d0
     log: |
-         e67a7728d1236190f9802e77bace5e20b31f7da0 dt-bindings: usb: snps,dwc3: Add missing 'dma-coherent' property
-         213379bfdad477fcf69cb3223a77a2a59779df04 dt-bindings: PCI: socionext,uniphier-pcie: Add missing child interrupt controller
-         7b6002b3b23de4ecc93cf1708869eb983e3d7d89 dt-bindings: net: Fix unevaluatedProperties warnings in examples
+         02ae2726bced6aa95cd63a885847b98c874ba4d0 i40e: Fix dropped jumbo frames statistics
          
