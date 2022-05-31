@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0041120264635231001=="
+Content-Type: multipart/mixed; boundary="===============0447925016883218400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 31 May 2022 23:03:08 -0000
-Message-Id: <165403818815.24229.11717195456251003176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Tue, 31 May 2022 23:13:30 -0000
+Message-Id: <165403881100.31736.13865807775849104997@gitolite.kernel.org>
 
---===============0041120264635231001==
+--===============0447925016883218400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/master
-    old: 8ab2afa23bd197df47819a87f0265c0ac95c5b6a
-    new: 2a5699b0de4ee623d77f183c8e8e62691bd60a70
-    log: revlist-8ab2afa23bd1-2a5699b0de4e.txt
+  - ref: refs/heads/pending-fixes
+    old: ceccc06b624edcb4c1ddb2427d482d9c1eb6fd5f
+    new: fcd52170776540e596380364c0605a28c31ea4b6
+    log: revlist-ceccc06b624e-fcd521707765.txt
 
---===============0041120264635231001==
+--===============0447925016883218400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ab2afa23bd1-2a5699b0de4e.txt
+Content-Disposition: attachment; filename=revlist-ceccc06b624e-fcd521707765.txt
 
 c562570e00799c919d64e793e5b4c334d6978ce2 dt-bindings: i2c: qcom,i2c-qup: convert to dtschema
 633c0e7559ea88d2cbd5a6a06d6accfddf55542f i2c: rcar: add support for I2C_M_RECV_LEN
@@ -227,15 +227,75 @@ dd8437cd4249e367f747a37b6a19d4cd04bf8796 riscv: atomic: Cleanup unnecessary defi
 e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
 f83050a82d4f0b1cbf48ed458752bb913633d7ee RISC-V: Avoid empty create_*_mapping definitions
 1ae41598f482616449f869daf53eebe37973dc27 RISC-V: ignore xipImage
+8e39efd840b8d4eae5ab398b43e20ffaff0010cc KVM: VMX: Print VM-instruction error when it may be helpful
+cc07e60b0811eeeca769fb342aa6e13da5977657 KVM: VMX: Print VM-instruction error as unsigned
+0471a7bd1bca2a47a5f378f2222c5cf39ce94152 KVM: set_msr_mce: Permit guests to ignore single-bit ECC errors
+345b0fd6fe5f66dfe841bad0b39dd11a5672df68 KVM: Drop unused @gpa param from gfn=>pfn cache's __release_gpc() helper
+3dddf65b4f4c451c345d34ae85bdf1791a746e49 KVM: Put the extra pfn reference when reusing a pfn in the gpc cache
+3ba2c95ea180740b16281fa43a3ee5f47279c0ed KVM: Do not incorporate page offset into gfn=>pfn cache user address
+93984f19e7bce4c18084a6ef3dacafb155b806ed KVM: Fully serialize gfn=>pfn cache refresh via mutex
+58cd407ca4c6278cf9f9d09a2e663bf645b0c982 KVM: Fix multiple races in gfn=>pfn cache refresh
+85165781c5d900d97052be1d2723f6929d56768d KVM: Do not pin pages tracked by gfn=>pfn caches
 e7681beba992d5a196476d5d79dfcb48f2a2c477 RISC-V: Split out the XIP fixups into their own file
 d9e418d0ca1c464fe361468b772d4aa870d54e63 RISC-V: Fix the XIP build
 324373f476936b6c8d6a83086a8025a818c1b9e6 riscv: compat: Using seperated vdso_maps for compat_vdso_info
 4e2bbecd71d9c01e70ec184791b9594978735b5d RISC-V: Various XIP fixes
+06f5882122e3faa183d76c4ec2c92f4c38e2c7bb ASoC: da7219: Fix pole orientation detection on certain headsets
+2d969e8f35b1849a43156029a7a6e2943b89d0c0 ASoC: da7219: cancel AAD related work earlier for jack removal
 7699f7aacf3ebfee51c670b6f796b2797f0f7487 RISC-V: Prepare dropping week attribute from arch_kexec_apply_relocations[_add]
+3a2cd89bfbeb10012eb90857ce641d34f0151c4c net: ipv4: Avoid bounds check warning
+d7cd5e06c9dd70a82f1461c7b5f676bc03f5cd61 net: phy: at803x: disable WOL at probe
+ab0925ab728163b854ea17da09e299254a86076e ASoC: da7219: Small fixes for jack detection and removal
+9296993b5df3213c2e83e50f1652592563a4e319 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+4a1f14df55d1e9ecdfa797a87a80131207cbd66f bonding: show NS IPv6 targets in proc master info
+3e0b8f529c10037ae0b369fc892e524eae5a5485 net/ipv6: Expand and rename accept_unsolicited_na to accept_untracked_na
+09e545f7381459c015b6fa0cd0ac6f010ef8cc25 xen/netback: fix incorrect usage of RING_HAS_UNCONSUMED_REQUESTS()
+e6b8d9bf983420a09f2817958caeffcafcb315af KVM: s390: selftests: Use TAP interface in the memop test
+933be397cc287829f3142dac30f8d2a13167fec0 KVM: s390: selftests: Use TAP interface in the sync_regs test
+fd35ba6add67afe9c9ba7740aa29a87d0de10061 KVM: s390: selftests: Use TAP interface in the tprot test
+242c04f01377122b137e13313190303a27773f70 KVM: s390: selftests: Use TAP interface in the reset test
+3753fcc22974affa26160ce1c46a6ebaaaa86758 ALSA: usb-audio: Optimize TEAC clock quirk
+291e7d52d19f114cad6cbf802f3f19ef12a011f8 mmc: sdhci-pci-gli: Fix GL9763E runtime PM when the system resumes from suspend
+9171c484dffd82ef20942ea6adbbc8f765691c69 dt-bindings: soc: qcom,smd: do not use pattern for simple rpm-requests string
+adb97f9f8442317f64b94bebded88a08012e85b3 dt-bindings: soc: imx8mp-media-blk-ctrl: Fix DT example
+e67a7728d1236190f9802e77bace5e20b31f7da0 dt-bindings: usb: snps,dwc3: Add missing 'dma-coherent' property
+213379bfdad477fcf69cb3223a77a2a59779df04 dt-bindings: PCI: socionext,uniphier-pcie: Add missing child interrupt controller
+7b6002b3b23de4ecc93cf1708869eb983e3d7d89 dt-bindings: net: Fix unevaluatedProperties warnings in examples
+079d93b7dba8373920ad8b50e01616ce8ab3c927 selftests: alsa: Handle pkg-config failure more gracefully
 3335d5550256210c9b213f67240221633d8f7b53 Merge tag 'microblaze-v5.19' of git://git.monstr.eu/linux-2.6-microblaze
 e1cbc3b96a9974746b2a80c3a6c8a0f7eff7b1b5 Merge tag 'iommu-updates-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+7894025c783ca36394d3afe49c8cfb4c830b82fe Revert "PCI: brcmstb: Do not turn off WOL regulators on suspend"
+212942609d83b591f5a2f2691df122d13aa3a87d Revert "PCI: brcmstb: Add control of subdevice voltage regulators"
+420be2f7ebe60c9ba3e332f5290017cd168e2bf8 Revert "PCI: brcmstb: Add mechanism to turn on subdev regulators"
+f4fd559de3434c44bed1d2912bd0c75cfa42898b Revert "PCI: brcmstb: Split brcm_pcie_setup() into two funcs"
+12068bb346db5776d0ec9bb4cd073f8427a1ac92 PCI/PM: Fix bridge_d3_blacklist[] Elo i2 overwrite of Gigabyte X299
+833e53a4ffe92e742e99347c68d99dc33986598b MAINTAINERS: Update Lorenzo Pieralisi's email address
 35b51afd23c98e2f055ac563aca36173a12588b9 Merge tag 'riscv-for-linus-5.19-mw0' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f8a52af9d00d59fd887d8ad1fa0c2c88a5d775b9 Merge tag 'i2c-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2a5699b0de4ee623d77f183c8e8e62691bd60a70 Merge tag 'leds-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
+e0491b11c131b2040b552dc71f04d4a0b12b4139 bpf, arm64: Clear prog->jited_len along prog->jited
+0e02471d017b37803213fdcd0ec8d679dcba391a Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+ffdd5cbe903d1db3bc81e1bc23bad8c176866675 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
+f106ee9aabe70b5ebc842143a650227665f3f077 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+91d6e8c2d2f0adb03b4714de6d72d6cfeb8dfdb8 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
+fa0eaf373369b572f0cb81aa50c165ab1a6a64ee Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+65298dadf4e6be158cee85b8f34e79ed64528197 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+48dcc94a256cb73038c830b4dead5f67f299219d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+867a61e5c003961d8456dbd0d7c41a0fb489a85c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+e2c7b526c3318926077544231a6e82b530c3bd2c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+05d3bd827374f107f525a15fa7a399468e2d6f2e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
+6ffc76b8d0f4a6baa4275bc2ca91c40de32810d3 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+776a64efce0d23bae2be52baefef2cef144de08b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+f38beecf7ea3bba8576a14c2e9970a8934c9cae7 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
+4640cbf168aea4830559809e4cf2db08c01e03d5 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
+b3e7fdb27c5c11c721fea3f12ff6cb7776752150 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+bf1cbec41937302f5261d42e2d0c490202b9ed5d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git
+4fe1e9140fe2620e98135d7d80d34ff1fcbf36d6 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
+fa1529a48c962315ed12dfcc65606f8ece849053 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
+6f154f8c3d1a25cb0ae0fc8d7d791bf3ee3b531d Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
+80fcdd66a69df86991a704b0c0536eb025480220 Merge branch 'spdx-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx.git
+661a3682f4496ac99c41489072944104a8f25bfe Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+70cf777f0b18d3c0a2ec5e6b32eb069a5e63e3f7 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
+fcd52170776540e596380364c0605a28c31ea4b6 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
 
---===============0041120264635231001==--
+--===============0447925016883218400==--
