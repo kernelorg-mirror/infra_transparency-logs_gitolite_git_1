@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2732937004923041161=="
+Content-Type: multipart/mixed; boundary="===============4486918506151240373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 31 May 2022 15:40:31 -0000
-Message-Id: <165401163126.25913.15315885677413621097@gitolite.kernel.org>
+Date: Tue, 31 May 2022 15:40:36 -0000
+Message-Id: <165401163639.26004.13933469151309916748@gitolite.kernel.org>
 
---===============2732937004923041161==
+--===============4486918506151240373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2c262b21de6dc93ac4d8c7a4cea0da4226b451fb
-    new: 09e545f7381459c015b6fa0cd0ac6f010ef8cc25
-    log: revlist-2c262b21de6d-09e545f73814.txt
+  - ref: refs/heads/dev-queue
+    old: c38b2ff6d60ba50c0b785a43c1a98cd1f9f04b58
+    new: 355ef3d44ecab420cd8b121945a1b0b015ed0f09
+    log: revlist-c38b2ff6d60b-355ef3d44eca.txt
 
---===============2732937004923041161==
+--===============4486918506151240373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c262b21de6d-09e545f73814.txt
+Content-Disposition: attachment; filename=revlist-c38b2ff6d60b-355ef3d44eca.txt
 
 59ed76fe2f981bccde37bdddb465f260a96a2404 selftests/bpf: fix stacktrace_build_id with missing kprobe/urandom_read
 caff1fa4118cec4dfd4336521ebd22a6408a1e3e bpf: Fix probe read error in ___bpf_prog_run()
@@ -49,5 +49,17 @@ d7cd5e06c9dd70a82f1461c7b5f676bc03f5cd61 net: phy: at803x: disable WOL at probe
 4a1f14df55d1e9ecdfa797a87a80131207cbd66f bonding: show NS IPv6 targets in proc master info
 3e0b8f529c10037ae0b369fc892e524eae5a5485 net/ipv6: Expand and rename accept_unsolicited_na to accept_untracked_na
 09e545f7381459c015b6fa0cd0ac6f010ef8cc25 xen/netback: fix incorrect usage of RING_HAS_UNCONSUMED_REQUESTS()
+09952478f6f6ddd66ab78e916922c83a610aafcf i40e: Fix adding ADq filter to TC0
+fd7bc7e81b88ef73618cc1cf8cc39f3222d079cc i40e: Fix calculating the number of queue pairs
+82b5540313d4086be8a85db23d0e914c625b117d ice: prevent low-core machines crashing on DCB config
+f7a37ff3fff95769516b617ad7ee6d0ffb440251 ice: ignore protocol field in GTP offload
+da725fc7e32e4c7ad3117b489daae1ba8d95d536 ice: Fix PTP TX timestamp offset calculation
+0c66758c9705ac8db7f5cdc6e2ba311e4c5674a4 i40e: Fix call trace in setup_tx_descriptors
+049c998f0ab6d8e0ffae10841971475fb9038413 iavf: Fix issue with MAC address of VF shown as zero
+d0398d77656edd1bc91b96be66d14a808915ba73 i40e: Fix interface init with MSI interrupts (no MSI-X)
+9afab4cd25ce2930aaa9a7d3cd1aee25f0a3dbf6 ice: Fix switchdev rules book keeping
+27f69e8ea21851c61dad4644c1cdf2dc3e330d55 ixgbe: fix bcast packets Rx on VF after promisc removal
+2e5ab157904ac3cd05a5557bc60b64e07d4619f5 ixgbe: fix unexpected VLAN Rx in promisc mode on VF
+355ef3d44ecab420cd8b121945a1b0b015ed0f09 igb: Make DMA faster when CPU is active on the PCIe link
 
---===============2732937004923041161==--
+--===============4486918506151240373==--
