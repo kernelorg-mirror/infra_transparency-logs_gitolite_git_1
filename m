@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0701211279793200890=="
+Content-Type: multipart/mixed; boundary="===============1382946523836183385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 01 Jun 2022 09:56:12 -0000
-Message-Id: <165407737244.13186.16347912067851443358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 01 Jun 2022 09:56:18 -0000
+Message-Id: <165407737896.13289.13998774707626833890@gitolite.kernel.org>
 
---===============0701211279793200890==
+--===============1382946523836183385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 700170bf6b4d773e328fa54ebb70ba444007c702
     log: revlist-fdaf9a5840ac-700170bf6b4d.txt
 
---===============0701211279793200890==
+--===============1382946523836183385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f8a52af9d00d59fd887d8ad1fa0c2c88a5d775b9 Merge tag 'i2c-for-5.19' of git://git.k
 1501f707d2b24316b41d45bdc95a73bc8cc8dd49 Merge tag 'f2fs-for-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 700170bf6b4d773e328fa54ebb70ba444007c702 Merge tag 'nfs-for-5.19-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============0701211279793200890==--
+--===============1382946523836183385==--
