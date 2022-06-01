@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6061419227994511090=="
+Content-Type: multipart/mixed; boundary="===============2165678951517913866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 01 Jun 2022 20:09:45 -0000
-Message-Id: <165411418519.22158.16594526832434569130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 01 Jun 2022 20:09:56 -0000
+Message-Id: <165411419696.22299.15553870613916700005@gitolite.kernel.org>
 
---===============6061419227994511090==
+--===============2165678951517913866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 35b51afd23c98e2f055ac563aca36173a12588b9
     log: revlist-7699f7aacf3e-35b51afd23c9.txt
 
---===============6061419227994511090==
+--===============2165678951517913866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e11a93567d3f1e843300ed98ff049a4335db8015 Merge tag 'for-5.19/parisc-1' of git://
 e1cbc3b96a9974746b2a80c3a6c8a0f7eff7b1b5 Merge tag 'iommu-updates-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 35b51afd23c98e2f055ac563aca36173a12588b9 Merge tag 'riscv-for-linus-5.19-mw0' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============6061419227994511090==--
+--===============2165678951517913866==--
