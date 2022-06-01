@@ -1,29 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 01 Jun 2022 12:38:53 -0000
-Message-Id: <165408713366.17277.6085402093871137299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 01 Jun 2022 12:42:17 -0000
+Message-Id: <165408733755.19999.10046365682389036247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linus
-    old: 9296993b5df3213c2e83e50f1652592563a4e319
-    new: 36513d56b7d574397744fddf6d66058cdfe9424a
-    log: |
-         aeca8a3295022bcec46697f16e098140423d8463 ASoC: nau8822: Add operation for internal PLL off and on
-         ef8d89b83bf453ea9cc3c4873a84b50ff334f797 ASoC: qcom: lpass-platform: Update VMA access permissions in mmap callback
-         36513d56b7d574397744fddf6d66058cdfe9424a Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 9296993b5df3213c2e83e50f1652592563a4e319
-    new: 36513d56b7d574397744fddf6d66058cdfe9424a
-    log: |
-         aeca8a3295022bcec46697f16e098140423d8463 ASoC: nau8822: Add operation for internal PLL off and on
-         ef8d89b83bf453ea9cc3c4873a84b50ff334f797 ASoC: qcom: lpass-platform: Update VMA access permissions in mmap callback
-         36513d56b7d574397744fddf6d66058cdfe9424a Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         
+  - ref: refs/heads/arch_topology
+    old: 0000000000000000000000000000000000000000
+    new: 4dff91390fba0c2702f8076b4df10f0217b2b216
