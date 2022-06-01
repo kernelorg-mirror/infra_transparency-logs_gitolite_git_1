@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 01 Jun 2022 04:42:19 -0000
-Message-Id: <165405853994.22662.2409811891608739297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 01 Jun 2022 04:47:16 -0000
+Message-Id: <165405883669.26987.571388197227680751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: b3c0a9efbe0e9471afae2986201da09c046bbd77
-    new: 0a375c822497ed6ad6b5da0792a12a6f1af10c0b
+    old: f19269d216ef6ebcfb417e87d040bd8374754c33
+    new: cb4b3b8d9b26b906e0733ec1d1f91e5d886749b6
     log: |
-         0a375c822497ed6ad6b5da0792a12a6f1af10c0b tcp: tcp_rtx_synack() can be called from process context
+         cb4b3b8d9b26b906e0733ec1d1f91e5d886749b6 epstopdf-rule.mk: Add -dNOSAFER to eps2eps for .eps -> .pdf (from .tex)
          
