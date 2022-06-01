@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7845056828849365979=="
+Content-Type: multipart/mixed; boundary="===============1554478777913922125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 01 Jun 2022 14:07:54 -0000
-Message-Id: <165409247495.11066.18080467551402206067@gitolite.kernel.org>
+Date: Wed, 01 Jun 2022 14:08:06 -0000
+Message-Id: <165409248649.11217.15378491281061702233@gitolite.kernel.org>
 
---===============7845056828849365979==
+--===============1554478777913922125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 2860935d183bfc3fafc5ff3874ea4d9e2aa36b7b
+  - ref: refs/heads/for-next
+    old: 74e9cf4b8c7f677efdacb268801889977da0b73d
     new: bcc450ecc136e3b40fabd2fa1f634b4e68e7c3f9
-    log: revlist-2860935d183b-bcc450ecc136.txt
+    log: revlist-74e9cf4b8c7f-bcc450ecc136.txt
 
---===============7845056828849365979==
+--===============1554478777913922125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2860935d183b-bcc450ecc136.txt
+Content-Disposition: attachment; filename=revlist-74e9cf4b8c7f-bcc450ecc136.txt
 
 31cb50b5590fe911077b8463ad01144fac8fa4f3 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
 cd968b97c49214e6557381bddddacbd0e0fb696e kbuild: make built-in.a rule robust against too long argument error
@@ -40,4 +40,4 @@ cf2cbe28c6a294bf8d0f3277be8818a2d8d79f33 modpost: fix section mismatch check for
 80680aa358e32820c7e35e5d031193d6332110bb modpost: use fnmatch() to simplify match()
 bcc450ecc136e3b40fabd2fa1f634b4e68e7c3f9 scripts: kconfig: nconf: make nconfig accept jk keybindings
 
---===============7845056828849365979==--
+--===============1554478777913922125==--
