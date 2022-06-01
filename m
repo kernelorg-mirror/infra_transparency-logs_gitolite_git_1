@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 01 Jun 2022 04:41:29 -0000
-Message-Id: <165405848929.22132.11577677042272469786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 01 Jun 2022 04:42:19 -0000
+Message-Id: <165405853994.22662.2409811891608739297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: 8d0e772c17bd982193abc48d80e62b9fcf97f3e3
-    new: 19abca3f9f9095e58c46e2f169543705bd92cf35
+  - ref: refs/heads/master
+    old: b3c0a9efbe0e9471afae2986201da09c046bbd77
+    new: 0a375c822497ed6ad6b5da0792a12a6f1af10c0b
     log: |
-         4b3564b0807387c66b80b24095019479584039c9 rcu-tasks: Manual revert of 4b2a6af8fe31e85fb2754b8da5072041a4dea471
-         19abca3f9f9095e58c46e2f169543705bd92cf35 rcu-tasks: Simplify trc_inspect_reader() QS logic
+         0a375c822497ed6ad6b5da0792a12a6f1af10c0b tcp: tcp_rtx_synack() can be called from process context
          
