@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 01 Jun 2022 22:02:04 -0000
-Message-Id: <165412092459.1370.9286413335570955750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 01 Jun 2022 22:02:12 -0000
+Message-Id: <165412093267.1489.1618495112128439541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: dgc
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/xfs-5.19-for-linus-2
-    old: 0000000000000000000000000000000000000000
-    new: 7428298818d94489d087b59cf1a094965ba2b19e
+  - ref: refs/heads/master
+    old: dafd0f870eae225816d069c92695852748bee8a3
+    new: 788542f2b4075700e85e74271b93edcb1ec8681d
+    log: |
+         788542f2b4075700e85e74271b93edcb1ec8681d libbpf: Fix a couple of typos
+         
