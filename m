@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 01 Jun 2022 22:53:49 -0000
-Message-Id: <165412402915.2339.12220304199926200664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Wed, 01 Jun 2022 23:02:10 -0000
+Message-Id: <165412453023.7873.4521985195598815254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: cfd0ca9d8b6ff1e3470a84c55d160b4455a8e915
-    new: ca5b42a89c1cf03474400f9761c3c2a40b6c56d4
+  - ref: refs/heads/main
+    old: b1521ec002e1d2c72404aa9e4d7734c541260a7c
+    new: 11e41a635cfab54e8e02fbff2a03715467e77ae9
     log: |
-         2945bd2246845c6bb3653f30582ad073f39c9489 x86/ftrace: Remove OBJECT_FILES_NON_STANDARD usage
-         ca5b42a89c1cf03474400f9761c3c2a40b6c56d4 objtool: Fix obsolete reference to CONFIG_X86_SMAP
+         11e41a635cfab54e8e02fbff2a03715467e77ae9 ip: Convert non-constant initializers to macros
          
