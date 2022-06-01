@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rui/linux
-Date: Wed, 01 Jun 2022 13:53:23 -0000
-Message-Id: <165409160373.1886.5971122518449789502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 01 Jun 2022 13:56:31 -0000
+Message-Id: <165409179130.4348.10359308364658097137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rui/linux
-user: rui
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/amd-pstate-ut-v8
-    old: 0000000000000000000000000000000000000000
-    new: f8be87a72d5a73b1b1e905af18008bf056bf70e3
+  - ref: refs/heads/master
+    old: 0a375c822497ed6ad6b5da0792a12a6f1af10c0b
+    new: 282e5f8fe907dc3f2fbf9f2103b0e62ffc3a68a5
+    log: |
+         282e5f8fe907dc3f2fbf9f2103b0e62ffc3a68a5 netfilter: nat: really support inet nat without l3 address
+         
