@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 01 Jun 2022 17:20:39 -0000
-Message-Id: <165410403993.10142.773042916897647048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 01 Jun 2022 17:24:58 -0000
+Message-Id: <165410429827.11603.11636398110097913681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 8a172952fc597ab9a56d4511d5a72af7c4419c7a
-    new: 43624eda86c98b0de726d0b6f2516ccc3ef7313f
-    log: |
-         43624eda86c98b0de726d0b6f2516ccc3ef7313f gpio: pca953x: use the correct register address to do regcache sync
-         
+  - ref: refs/heads/kvm-arm64/vgic-hw-resample-fixes
+    old: 0000000000000000000000000000000000000000
+    new: f633f98ad6a77a546bd3d3d76d55f2542e349e07
