@@ -1,54 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7931040857636119464=="
+Content-Type: multipart/mixed; boundary="===============3872846094738832814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Wed, 01 Jun 2022 14:57:50 -0000
-Message-Id: <165409547092.13520.15150477965681236178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Wed, 01 Jun 2022 14:58:21 -0000
+Message-Id: <165409550122.13750.11866412346173166575@gitolite.kernel.org>
 
---===============7931040857636119464==
+--===============3872846094738832814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/next
-    old: c2e1f6986a4964d3e41192640b6b36c36492d95d
-    new: b1edf7f159a6d532757b004a70f31a6425d5043f
-    log: revlist-c2e1f6986a49-b1edf7f159a6.txt
+  - ref: refs/heads/loongarch-next
+    old: 6c76b34d8710e0cf62e4633ef91aaf89da1ae541
+    new: 6e86125eef7e258b02ee577f93898926b14777a0
+    log: revlist-6c76b34d8710-6e86125eef7e.txt
 
---===============7931040857636119464==
+--===============3872846094738832814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2e1f6986a49-b1edf7f159a6.txt
+Content-Disposition: attachment; filename=revlist-6c76b34d8710-6e86125eef7e.txt
 
-8e39efd840b8d4eae5ab398b43e20ffaff0010cc KVM: VMX: Print VM-instruction error when it may be helpful
-cc07e60b0811eeeca769fb342aa6e13da5977657 KVM: VMX: Print VM-instruction error as unsigned
-0471a7bd1bca2a47a5f378f2222c5cf39ce94152 KVM: set_msr_mce: Permit guests to ignore single-bit ECC errors
-345b0fd6fe5f66dfe841bad0b39dd11a5672df68 KVM: Drop unused @gpa param from gfn=>pfn cache's __release_gpc() helper
-3dddf65b4f4c451c345d34ae85bdf1791a746e49 KVM: Put the extra pfn reference when reusing a pfn in the gpc cache
-3ba2c95ea180740b16281fa43a3ee5f47279c0ed KVM: Do not incorporate page offset into gfn=>pfn cache user address
-93984f19e7bce4c18084a6ef3dacafb155b806ed KVM: Fully serialize gfn=>pfn cache refresh via mutex
-58cd407ca4c6278cf9f9d09a2e663bf645b0c982 KVM: Fix multiple races in gfn=>pfn cache refresh
-85165781c5d900d97052be1d2723f6929d56768d KVM: Do not pin pages tracked by gfn=>pfn caches
-ac640db3a0260541058e95e4acd249cc166cb0eb s390/uv: Add SE hdr query information
-38c218259d4c4a8c232c2b16a5598568b814d2df s390/uv: Add dump fields to query
-35d02493dba1ae6386fac07072908717affc3ff8 KVM: s390: pv: Add query interface
-06eb3388e703d95de0dfeea657b2640fdda720db KVM: s390: pv: Add dump support definitions
-fe9a93e07ba4f29def2f8a4318b63e0c70a5c6c2 KVM: s390: pv: Add query dump information
-0460eb35b443f73f8a8e3be1ea87bd690a852e20 KVM: s390: Add configuration dump functionality
-8aba09588d2af37c6cc1a781b87d1d91ebf389ae KVM: s390: Add CPU dump functionality
-e9bf3acb23f0a6e18438c35944d6cb618d16cf05 KVM: s390: Add KVM_CAP_S390_PROTECTED_DUMP
-660a28653d839b70949087d2662e140cc511b363 Documentation: virt: Protected virtual machine dumps
-437cfd714db9c1d28878a6e2555e9a730f3490c8 Documentation/virt/kvm/api.rst: Add protvirt dump/info api descriptions
-b0f46280d3fcd59a65cfae9742fa5172362af893 Documentation/virt/kvm/api.rst: Explain rc/rrc delivery
-97da92c0ff92f33a7c33533e5fdd3e870f01cc6a KVM: s390: selftests: Use TAP interface in the memop test
-17e48d8a1ef0ab070b11e7368e14ac45c335de57 KVM: s390: selftests: Use TAP interface in the sync_regs test
-0c073227df5055714a545cbe536e3bd9ea39c74b KVM: s390: selftests: Use TAP interface in the tprot test
-b1edf7f159a6d532757b004a70f31a6425d5043f KVM: s390: selftests: Use TAP interface in the reset test
+bbf71ae02964550aab17131e4139cae3c75730a8 irqchip: Adjust Kconfig for Loongson
+cbc9aab66907ed409f6b0aa499a7f577ce290b40 irqchip/loongson-liointc: Fix build error for LoongArch
+2f348a7115369ca216972796ecc4080f36b50642 Documentation: LoongArch: Add basic documentations
+fe9a226d5f2b9beda17f35db0e2edaab69b17c67 Documentation/zh_CN: Add basic LoongArch documentations
+30b30869b8c85ac17ea4e6fcfef662cbd401adff LoongArch: Add ELF-related definitions
+08304dbfaa4c964090244ab35721d3e091b01d8b LoongArch: Add writecombine support for drm
+e7742f130595c77274d1aea9f3e59db5da6f032f LoongArch: Add build infrastructure
+23adcb68c191c9d53b1e01a89f4b4a5ac113ee25 LoongArch: Add CPU definition headers
+7591387409765b30d3f6657ef7a184b1be357c58 LoongArch: Add atomic/locking headers
+4581880f803dfcdce82da2c0f52ce4c1fd766ef1 LoongArch: Add other common headers
+08035ed3fe357572f9e8ab4d09fe850e881d8605 LoongArch: Add boot and setup routines
+847d94606835a1869fe87e87ecd15b1461910301 LoongArch: Add exception/interrupt handling
+c66daef040a244dc4b220bcc70333da884829373 LoongArch: Add process management
+8a0ff8158fff874fb15e98ba9d87e2bc6eb0a281 LoongArch: Add memory management
+387de473f268a5a63a0ad337e9427d2c5723acbc LoongArch: Add system call support
+2843d760378c08197417df9cb292a50d0bb2aa50 LoongArch: Add signal handling support
+2d8ebf8f64f58aad046af6827cc97cd907ce9aef LoongArch: Add ELF and module support
+a7dc4733f765a465613610f769f370e2e02e1ac0 LoongArch: Add misc common routines
+f0c5be837f4dc5423d8b35ab9dc1c7d7d3650581 LoongArch: Add some library functions
+1bf6c4195bf8141b223112b09feb90b5e3831e79 LoongArch: Add VDSO and VSYSCALL support
+c39da805f51a9c08ae8cbdeeea3541b7466d8d91 LoongArch: Add multi-processor (SMP) support
+4f39c6feb0ce259d6f1d4b490b75236d16060a89 LoongArch: Add Non-Uniform Memory Access (NUMA) support
+b30b184e305b4b1d07433c2a4a56e2ba0053fb8e LoongArch: Add Loongson-3 default config file
+6e86125eef7e258b02ee577f93898926b14777a0 MAINTAINERS: Add maintainer information for LoongArch
 
---===============7931040857636119464==--
+--===============3872846094738832814==--
