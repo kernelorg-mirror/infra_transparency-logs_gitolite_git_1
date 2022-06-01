@@ -1,55 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 01 Jun 2022 20:53:43 -0000
-Message-Id: <165411682340.20081.12960742292155121766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 01 Jun 2022 20:55:53 -0000
+Message-Id: <165411695384.22206.9044268532634934107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/block-5.18-2022-05-06
-    old: 0000000000000000000000000000000000000000
-    new: 0538144b9da321d4f0f261273692e977221f6409
-  - ref: refs/tags/block-5.18-2022-05-18
-    old: 0000000000000000000000000000000000000000
-    new: 724e4b49ee7247beeba89f029d3472203e4a582c
-  - ref: refs/tags/for-5.19/block-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: d96b3078ad029ac78c9d40b3289b35697a686de1
-  - ref: refs/tags/for-5.19/cdrom-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 80bf930ab27a5ca5e8be7064e595a34ad1767fbb
-  - ref: refs/tags/for-5.19/dm-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 4694404c247027bb9fc56b5fdd7b5e4b46c85ce9
-  - ref: refs/tags/for-5.19/drivers-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: d5a2473c227596d50542792887e05cf4c42d5b72
-  - ref: refs/tags/for-5.19/io_uring-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 51429cc3cdc33bea71b869a79e54b17bad3094d0
-  - ref: refs/tags/for-5.19/io_uring-net-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 8ef848cec9e6a6b57b47532e7fd0f43e917eaffb
-  - ref: refs/tags/for-5.19/io_uring-passthrough-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: b8cbc8bd4b3c31186c94803b333520be79e30d4b
-  - ref: refs/tags/for-5.19/io_uring-socket-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: fae5e3a6a4b0ea42ce6653d8013be42239670f38
-  - ref: refs/tags/for-5.19/io_uring-xattr-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 8319c3a2977a05c7389cb094762feaec51d7deaa
-  - ref: refs/tags/for-5.19/writeback-2022-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 1c39853492deb55bee2af46c8fa1cd81be90a9b6
-  - ref: refs/tags/io_uring-5.18-2022-05-06
-    old: 0000000000000000000000000000000000000000
-    new: d367e4d63d301f01b3211be913e98e78532fac45
-  - ref: refs/tags/io_uring-5.18-2022-05-18
-    old: 0000000000000000000000000000000000000000
-    new: 69e9b353f1833603eb124f128c10330cc866ab76
+  - ref: refs/heads/master
+    old: f56dbdda4322d33d485f3d30f3aabba71de9098c
+    new: cb350b0d9f65b9752546ab03843cb96a378111cc
+    log: |
+         cb350b0d9f65b9752546ab03843cb96a378111cc random: always mix cycle counter in add_latent_entropy()
+         
