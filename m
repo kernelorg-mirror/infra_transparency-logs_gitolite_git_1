@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6732233634306622595=="
+Content-Type: multipart/mixed; boundary="===============4371645672920584450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 01 Jun 2022 22:26:28 -0000
-Message-Id: <165412238870.17496.7894173862967441638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 01 Jun 2022 22:26:32 -0000
+Message-Id: <165412239201.17557.11939503993995276330@gitolite.kernel.org>
 
---===============6732233634306622595==
+--===============4371645672920584450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/master
-    old: fe27d189e3f42e31d3c8223d5daed7285e334c5e
+    old: 3123109284176b1532874591f7c81f3837bbdc17
     new: 35b51afd23c98e2f055ac563aca36173a12588b9
-    log: revlist-fe27d189e3f4-35b51afd23c9.txt
+    log: revlist-312310928417-35b51afd23c9.txt
 
---===============6732233634306622595==
+--===============4371645672920584450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe27d189e3f4-35b51afd23c9.txt
+Content-Disposition: attachment; filename=revlist-312310928417-35b51afd23c9.txt
 
 c71159648c3cf0f7127ddc0bdf3eb4d7885210df KVM: s390: selftest: Test suppression indication on key prot exception
 9bf3ac466faa83d51a8fe9212131701e58fdef74 gpio: gpio-vf610: do not touch other bits when set the target bit
@@ -1051,4 +1051,4 @@ e11a93567d3f1e843300ed98ff049a4335db8015 Merge tag 'for-5.19/parisc-1' of git://
 e1cbc3b96a9974746b2a80c3a6c8a0f7eff7b1b5 Merge tag 'iommu-updates-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 35b51afd23c98e2f055ac563aca36173a12588b9 Merge tag 'riscv-for-linus-5.19-mw0' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============6732233634306622595==--
+--===============4371645672920584450==--
