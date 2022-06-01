@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 01 Jun 2022 16:14:02 -0000
-Message-Id: <165410004216.30974.4679486780303300767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 01 Jun 2022 16:22:38 -0000
+Message-Id: <165410055822.4139.8243809384251506055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 7290989e15e356edf781adbff6ddb809585e7a47
-    new: 1296e4eacb456a509010033b82f19afe4dc7f224
+  - ref: refs/heads/net-next-mlx5
+    old: 44d8652520a1e50762b45a6bf19b778a8e2db1de
+    new: 0cb67eafdd222310cfd8f022096009053851bf95
     log: |
-         e2aca6e9174ab83b89996c8d9052a596d3fa4493 auto-t: correctly import Mapping from collections
-         1296e4eacb456a509010033b82f19afe4dc7f224 auto-t: allow wildcard phase1 for EAP tests
+         f67f0127efd2ca9a5ceee5c34753e43346d3cacf net/mlx5: Delete ipsec_fs header file as not used
+         0cb67eafdd222310cfd8f022096009053851bf95 net/mlx5: delete dead code in mlx5_esw_unlock()
          
