@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 01 Jun 2022 04:47:16 -0000
-Message-Id: <165405883669.26987.571388197227680751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 01 Jun 2022 05:24:42 -0000
+Message-Id: <165406108236.17388.5428626069845166721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: f19269d216ef6ebcfb417e87d040bd8374754c33
-    new: cb4b3b8d9b26b906e0733ec1d1f91e5d886749b6
+  - ref: refs/heads/linux-next
+    old: 0a19bab54ef44348aa5edfc2b8ff47f63a45ae15
+    new: 41925b105e345ebc84cedb64f59d20cb14a62613
     log: |
-         cb4b3b8d9b26b906e0733ec1d1f91e5d886749b6 epstopdf-rule.mk: Add -dNOSAFER to eps2eps for .eps -> .pdf (from .tex)
+         41925b105e345ebc84cedb64f59d20cb14a62613 xen: replace xen_remap() with memremap()
          
