@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5092430372426039096=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 02 Jun 2022 18:53:57 -0000
-Message-Id: <165419603766.6747.18390200401282273509@gitolite.kernel.org>
-
---===============5092430372426039096==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 02 Jun 2022 19:00:48 -0000
+Message-Id: <165419644883.11980.4142401336597873571@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: df890d0469018967bd225d633757833f2887a610
-    new: ce1b9b2b42f5434f6c880beda4511a2e9b01f0eb
+    old: 93850c827d549115f0396da42c4a0529feeed1a3
+    new: ab31e2f7e828df3d971cba6f12859edc69f149d5
     log: |
-         ce1b9b2b42f5434f6c880beda4511a2e9b01f0eb Add 22E2C55B37CF380C (Conor Dooley)
+         7bcd32e67e9388c49212e5dd5dd431c9ec079eb0 test-runner: Fix not waiting for system_bus_socket
+         67b325c614e5fdac255798fb9280b32e704895e1 test-runner: Enable BT_HCIUART and BT_HCIUART_H4
+         ab31e2f7e828df3d971cba6f12859edc69f149d5 mgmt-tester: Fix build error
          
-
---===============5092430372426039096==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1654196037 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1654196037-d003d05deb00ca47737d8e7febb67fc7ed46f805
-
-df890d0469018967bd225d633757833f2887a610 ce1b9b2b42f5434f6c880beda4511a2e9b01f0eb refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYpkHRQAKCRC2xBzjVmSZ
-bJroAP9bjCoL4VnTnaAyZdOS+DoBb8Jl61WjHoeUS4VRiRqJ5gEAqp33JUHC6oIL
-YCKq0uT1yuZgsfWm2PKotfNmPNwfZws=
-=Fua6
------END PGP SIGNATURE-----
-
---===============5092430372426039096==--
