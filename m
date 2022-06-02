@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Thu, 02 Jun 2022 04:48:42 -0000
-Message-Id: <165414532286.13750.7059081070282025999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 02 Jun 2022 04:49:53 -0000
+Message-Id: <165414539351.14141.9737537644108808636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-linus-5.19
-    old: 0a19bab54ef44348aa5edfc2b8ff47f63a45ae15
-    new: 41925b105e345ebc84cedb64f59d20cb14a62613
+  - ref: refs/heads/for-next
+    old: f929139d6021cf4208ab0f8390db4e816b7504a6
+    new: 02d88b40cb2e9614e0117c3385afdce878f0d377
     log: |
-         41925b105e345ebc84cedb64f59d20cb14a62613 xen: replace xen_remap() with memremap()
+         35d33c76d68dfacc330a8eb477b51cc647c5a847 riscv: Initialize thread pointer before calling C functions
+         26b8f69edda85a7942fa580360690c2d5c74f765 riscv: Improve virtual kernel memory layout dump
+         2273272823db6f67d57761df8116ae32e7f05bed riscv: Fix irq_work when SMP is disabled
+         02d88b40cb2e9614e0117c3385afdce878f0d377 riscv: Wire up memfd_secret in UAPI header
          
