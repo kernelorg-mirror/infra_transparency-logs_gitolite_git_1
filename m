@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 02 Jun 2022 21:01:29 -0000
-Message-Id: <165420368929.27679.3248522703042537262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 02 Jun 2022 21:11:49 -0000
+Message-Id: <165420430960.1596.6767307622871336198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: e3aaf22fb3dbcbf443a0a9eefd0f6ae7a02f8c51
-    new: fee5021f57a530243a08a931270d6cc961ee230d
+  - ref: refs/heads/pxa-multiplatform-5.18
+    old: 250c1a694ff304e5d69e74ab32755eddcc2b8f65
+    new: 3d76c9f5e0ee842ad42e482669d7fd63d4b67867
     log: |
-         fee5021f57a530243a08a931270d6cc961ee230d crc-itu-t: fix typo in CRC ITU-T polynomial comment
+         3d76c9f5e0ee842ad42e482669d7fd63d4b67867 ARM: pxa/mmp: remove traces of plat-pxa
          
