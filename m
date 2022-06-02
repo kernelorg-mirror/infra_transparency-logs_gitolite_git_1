@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 02 Jun 2022 10:57:34 -0000
-Message-Id: <165416745492.10374.2563896888332435254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 02 Jun 2022 10:59:50 -0000
+Message-Id: <165416759081.11200.13078422957367806915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
   - ref: refs/heads/master
-    old: d1dc87763f406d4e67caf16dbe438a5647692395
-    new: 06b8ae91a252ce64a9368dcbd22b549690dc3ae1
+    old: c6fbbf1eae8f35e10966826960e154c9596c86dc
+    new: 6e1ff618737a2ffa12191dcd99f83ef07fac2e45
     log: |
-         06b8ae91a252ce64a9368dcbd22b549690dc3ae1 tpm: Add check for Failure mode for TPM2 modules
+         6e1ff618737a2ffa12191dcd99f83ef07fac2e45 ice: fix access-beyond-end in the switch code
          
