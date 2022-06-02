@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 01 Jun 2022 23:53:09 -0000
-Message-Id: <165412758952.9365.480665615353987671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 02 Jun 2022 00:34:09 -0000
+Message-Id: <165413004935.2380.1890878201300573003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: cb4b3b8d9b26b906e0733ec1d1f91e5d886749b6
-    new: 16131c2c320ce291a277ea098d05f6f1c289e1d9
+    old: 86360030cc5117596626bef1d937277cd2bebe05
+    new: 8d3398ba2a0d1e25690f830192b7834acab003ec
     log: |
-         16131c2c320ce291a277ea098d05f6f1c289e1d9 locking: Add section describing temporal properties of locks
+         8d3398ba2a0d1e25690f830192b7834acab003ec socket: Don't use u8 type in uapi socket.h
          
