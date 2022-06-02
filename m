@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Jun 2022 00:34:09 -0000
-Message-Id: <165413004935.2380.1890878201300573003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 02 Jun 2022 00:41:16 -0000
+Message-Id: <165413047661.7453.7141690944863922311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: 86360030cc5117596626bef1d937277cd2bebe05
-    new: 8d3398ba2a0d1e25690f830192b7834acab003ec
+  - ref: refs/heads/objtool/urgent
+    old: ca5b42a89c1cf03474400f9761c3c2a40b6c56d4
+    new: 034f9ab48d97d168c2c11ad516f3ab9340005521
     log: |
-         8d3398ba2a0d1e25690f830192b7834acab003ec socket: Don't use u8 type in uapi socket.h
+         034f9ab48d97d168c2c11ad516f3ab9340005521 faddr2line: Pass section name to faddr2line
          
