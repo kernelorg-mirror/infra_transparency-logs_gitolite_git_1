@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 02 Jun 2022 19:00:48 -0000
-Message-Id: <165419644883.11980.4142401336597873571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 02 Jun 2022 19:40:50 -0000
+Message-Id: <165419885019.5664.9152472073068634454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 93850c827d549115f0396da42c4a0529feeed1a3
-    new: ab31e2f7e828df3d971cba6f12859edc69f149d5
+  - ref: refs/heads/for-next/core
+    old: 1bec877bdb763999112ad05d243bd538966938b4
+    new: 78c09c0f4df89fabdcfb3e5e53d3196cf67f64ef
     log: |
-         7bcd32e67e9388c49212e5dd5dd431c9ec079eb0 test-runner: Fix not waiting for system_bus_socket
-         67b325c614e5fdac255798fb9280b32e704895e1 test-runner: Enable BT_HCIUART and BT_HCIUART_H4
-         ab31e2f7e828df3d971cba6f12859edc69f149d5 mgmt-tester: Fix build error
+         189129aecb5302ab65407e965f1037a201b58a07 arm64: hibernate: Fix syntax errors in comments
+         73e2d827a501d48dceeb5b9b267a4cd283d6b1ae arm64: Initialize jump labels before setup_machine_fdt()
+         78c09c0f4df89fabdcfb3e5e53d3196cf67f64ef kselftest/arm64: signal: Skip SVE signal test if not enough VLs supported
          
