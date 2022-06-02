@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 02 Jun 2022 05:37:27 -0000
-Message-Id: <165414824748.12641.489637526774552967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Thu, 02 Jun 2022 05:39:41 -0000
+Message-Id: <165414838127.13463.10406577092124489801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/riscv-pmu_fixes
+  - ref: refs/heads/test/klp-trampoline
     old: 0000000000000000000000000000000000000000
-    new: 513db7f7b686358e6e5d6c96c0fbe18f6a878820
+    new: 6fbf5243a0d6ac55cae9ed84bb5ef0d49d1c00bc
