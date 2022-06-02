@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7172941557351760910=="
+Content-Type: multipart/mixed; boundary="===============6530688043947905158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 02 Jun 2022 07:11:39 -0000
-Message-Id: <165415389994.8987.8380932811528485846@gitolite.kernel.org>
+Date: Thu, 02 Jun 2022 07:12:16 -0000
+Message-Id: <165415393627.9453.3807356306215257688@gitolite.kernel.org>
 
---===============7172941557351760910==
+--===============6530688043947905158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6821ad8770340825f17962cf5ef64ebaffee7fd7
     new: 9f4fc18bf285f20c1498f8fcfb586fa70a070fb5
     log: revlist-6821ad877034-9f4fc18bf285.txt
 
---===============7172941557351760910==
+--===============6530688043947905158==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e6652a8ef3e64d953168a95878fe29b934ad78ac net: ping6: Fix ping -6 with interface 
 c034ff2b53cf5add27c121d536864a00f0257700 Merge tag 'mlx5-fixes-2022-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 9f4fc18bf285f20c1498f8fcfb586fa70a070fb5 net: usb: qmi_wwan: Add support for Cinterion MV31 with new baseline
 
---===============7172941557351760910==--
+--===============6530688043947905158==--
