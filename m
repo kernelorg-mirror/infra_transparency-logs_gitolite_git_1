@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Thu, 02 Jun 2022 14:27:20 -0000
-Message-Id: <165418004048.22464.885857964510992086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Thu, 02 Jun 2022 14:38:53 -0000
+Message-Id: <165418073381.29589.8170170137533650630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/v5.19-next/soc
-    old: 93f1a74d54ce3d281b1ba090a7aa9239536183aa
-    new: b3ec3509d4d998e032e61588222de41db621cc73
+  - ref: refs/heads/master
+    old: 1589e9e1019756b5287b41dddcd7285271c5990e
+    new: ffea17ecc2b64a68724362e18133229dd91bde0e
     log: |
-         acd97c3725b7ce234b1de4d414fd58e3a3ca9587 dt-bindings: soc: mediatek: devapc: Add bindings for MT8186
-         2647264b20d8bb7f122e5ce03ba00be7f493849e soc: mediatek: devapc: Separate register offsets from mtk_devapc_data
-         b3ec3509d4d998e032e61588222de41db621cc73 soc: mediatek: devapc: Add support for MT8186
+         87140487459d4a317702ddd7ebc99441908fb5fa po: Update translations (from translationproject.org)
+         ffea17ecc2b64a68724362e18133229dd91bde0e v2.5.0
          
