@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Thu, 02 Jun 2022 10:00:58 -0000
-Message-Id: <165416405855.4839.223232317118718775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Thu, 02 Jun 2022 10:34:12 -0000
+Message-Id: <165416605274.25968.12954076682479289728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: a4c97a261996b2b4f82d7352aeb74363a82addc6
-    new: 9a5cdeb5343cfa5c436622d77851159f9007de85
+  - ref: refs/heads/for-linus
+    old: 537e62c865dcb9b91d07ed83f8615b71fa0b51bb
+    new: 809631e2bff5aba056df75cc4e43127dbd0278c9
     log: |
-         21dd81038539b5763dca6849c2c47be3deaa8f85 trace-cmd library: Keep USECS flag if TSC multiplier is set
-         9a5cdeb5343cfa5c436622d77851159f9007de85 trace-cmd record: Set clock to TSC when connecting to a proxy with kvm
+         809631e2bff5aba056df75cc4e43127dbd0278c9 Revert "printk: wake up all waiters"
          
