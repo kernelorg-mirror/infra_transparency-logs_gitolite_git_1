@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 02 Jun 2022 17:06:29 -0000
-Message-Id: <165418958977.32062.4322087044176865254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Thu, 02 Jun 2022 17:23:44 -0000
+Message-Id: <165419062484.10865.8291934564724896752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/for-next
-    old: 08af54b3e5729bc1d56ad3190af811301bdc37a1
-    new: f012e95b377c73c0283f009823c633104dedb337
-    log: |
-         9ff9f77f34e44a0054eadb9041e459548c955ccb MAINTAINERS: reciprocal co-maintainership for file locking and nfsd
-         b6c71c66b0ad8f2b59d9bc08c7a5079b110bec01 NFSD: Fix potential use-after-free in nfsd_file_put()
-         f012e95b377c73c0283f009823c633104dedb337 SUNRPC: Trap RDMA segment overflows
-         
+  - ref: refs/tags/v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/tags/v5.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
+  - ref: refs/tags/v5.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
