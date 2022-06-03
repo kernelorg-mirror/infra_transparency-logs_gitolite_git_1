@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 03 Jun 2022 21:23:16 -0000
-Message-Id: <165429139673.11757.354770135519930404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 03 Jun 2022 21:37:21 -0000
+Message-Id: <165429224108.20673.7170266680152052224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next-for-next
-    old: 0000000000000000000000000000000000000000
-    new: 61114e734ccb804bc12561ab4020745e02c468c2
+  - ref: refs/heads/net-mlx5
+    old: f57cabfee697e63cc7e565c985cdfbaee9ee80b3
+    new: 3a6292eba36373ea9dd4289d7aaddb867f316fe1
+    log: |
+         3a6292eba36373ea9dd4289d7aaddb867f316fe1 Revert "net/mlx5e: Allow relaxed ordering over VFs"
+         
