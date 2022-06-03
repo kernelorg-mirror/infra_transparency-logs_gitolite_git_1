@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4929252357472266105=="
+Content-Type: multipart/mixed; boundary="===============5341639252843498425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 03 Jun 2022 15:29:05 -0000
-Message-Id: <165427014586.26414.13364895132195796232@gitolite.kernel.org>
+Date: Fri, 03 Jun 2022 15:29:14 -0000
+Message-Id: <165427015428.26538.7281359188113780098@gitolite.kernel.org>
 
---===============4929252357472266105==
+--===============5341639252843498425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 09e545f7381459c015b6fa0cd0ac6f010ef8cc25
-    new: 58f9d52ff689a262bec7f5713c07f5a79e115168
-    log: revlist-09e545f73814-58f9d52ff689.txt
+  - ref: refs/heads/dev-queue
+    old: 02ae2726bced6aa95cd63a885847b98c874ba4d0
+    new: 1314e20c56892e43286283e724e36b33a34317c8
+    log: revlist-02ae2726bced-1314e20c5689.txt
 
---===============4929252357472266105==
+--===============5341639252843498425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09e545f73814-58f9d52ff689.txt
+Content-Disposition: attachment; filename=revlist-02ae2726bced-1314e20c5689.txt
 
-17572892e3beefe68d0875ecfd015eef521c244d ASoC: amd: acp: Set Speaker enable/disable pin through rt1019 codec driver.
-57f68f2168988e574133fb5abcd73949bf1d1df2 ASoC: rt9120: Fix 3byte read, valule offset typo
-80b949f332e331b67c3ae4f323daf2cb91e743e5 ASoC: rt9120: Use pm_runtime and regcache to optimize 'pwdnn' logic
-2bcf3bbd348fc10260aa6243ff6a22a1882b5b35 cxl/mem: Drop mem_enabled check from wait_for_media()
-1e14c9fbb55fbc48eb88b55d1736c994b1deb631 cxl/pci: Consolidate wait_for_media() and wait_for_media_ready()
-194d5edadf0b403f6de2be89c484a01c83ee269f cxl/pci: Drop wait_for_valid() from cxl_await_media_ready()
-76a4121e86649bf381aa32cb69ede913def57202 cxl/mem: Fix cxl_mem_probe() error exit
-75b7ae29991f945b69c10d75b861d7d5e90bd541 cxl/mem: Validate port connectivity before dvsec ranges
-2e4ba0ec978335b4b550bbed95cb198ac3a00745 cxl/pci: Move cxl_await_media_ready() to the core
-14d78874077442d1d0f08129f5a0ea5070984b4b cxl/mem: Consolidate CXL DVSEC Range enumeration in the core
-dd2d42ad6f422076d1bd49b132bec74376c26f5c cxl/mem: Skip range enumeration if mem_enable clear
-a12562bb70776093b270f79a4b6ef18f4bcead2b cxl/mem: Merge cxl_dvsec_ranges() and cxl_hdm_decode_init()
-92804edb11f065aadb3a4f398bed8a846a035cd3 cxl/pci: Drop @info argument to cxl_hdm_decode_init()
 5e5f4ad52f33c125af9b91d4c3b7cad59c13772e cxl/port: Move endpoint HDM Decoder Capability init to port driver
 fcfbc93cc33ec601f00f113eca6fc484b930532d cxl/port: Reuse 'struct cxl_hdm' context for hdm init
 d80c69846ddfddf437167b31ab4cd0de12f61001 cifs: fix signed integer overflow when fl_end is OFFSET_MAX
@@ -1050,5 +1037,18 @@ e9d3f80935b6607dcdc5682b00b1d4b28e0a0c5d net/af_packet: make sure to pull mac he
 c399c85d60a4295bd911d366399a97df2865fb86 Merge tag 'pci-v5.19-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 73503963b715a64a44aa2b1c486114b917a17c73 module: Fix prefix for module.sig_enforce module param
 58f9d52ff689a262bec7f5713c07f5a79e115168 Merge tag 'net-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+acd52d499cf6aa414eb07567f23cd65cc2bb4893 i40e: Fix adding ADq filter to TC0
+f98c2c2c0656e171c299165c3924e9f913f21757 i40e: Fix calculating the number of queue pairs
+f83c933335126fae47fff50dddf73a1b5d4f97ee ice: prevent low-core machines crashing on DCB config
+52e06a5378a5cc07757ae2509e7285bf4dc08874 ice: ignore protocol field in GTP offload
+302043fabb90257a570cca534a5ff08cccae11f0 ice: Fix PTP TX timestamp offset calculation
+3f4993342c8d53b93e342443632799ebd1636f7e i40e: Fix call trace in setup_tx_descriptors
+19c920a72cf394f0bacdb8fb28de88c54efc62ba iavf: Fix issue with MAC address of VF shown as zero
+e53deb8a7a9636301a1c3df9dc0d10c0f78e1c18 i40e: Fix interface init with MSI interrupts (no MSI-X)
+b5fd2cf0bdf1404bd48a59ad583e45b4f13f0566 ice: Fix switchdev rules book keeping
+d6f0c8475f4689d16e9e96ec31d6644b25756ca9 ixgbe: fix bcast packets Rx on VF after promisc removal
+6256dc7546ff1ddb1086bfaa923b026d3ae3a7fc ixgbe: fix unexpected VLAN Rx in promisc mode on VF
+373285476719e6ac1ccbeb585478d4229bb9ef10 igb: Make DMA faster when CPU is active on the PCIe link
+1314e20c56892e43286283e724e36b33a34317c8 i40e: Fix dropped jumbo frames statistics
 
---===============4929252357472266105==--
+--===============5341639252843498425==--
