@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8403889883861445625=="
+Content-Type: multipart/mixed; boundary="===============8747374441603228154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 03 Jun 2022 17:38:26 -0000
-Message-Id: <165427790611.19578.236843103010331829@gitolite.kernel.org>
+Message-Id: <165427790656.19624.5523200218451682915@gitolite.kernel.org>
 
---===============8403889883861445625==
+--===============8747374441603228154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,113 +16,114 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 3a82a34e687ad668bafe67bc07949bf3839647e5
-    new: c5d3dc2dfc027824f60e0e6913265b16296eceec
-    log: revlist-3a82a34e687a-c5d3dc2dfc02.txt
+  - ref: refs/heads/linux-5.18.y
+    old: 73043ad7a6752e2a3090b9482efe4cb011a0cda6
+    new: 20fa00749a26c2347ca02a2eb231d61ecd877c90
+    log: revlist-73043ad7a675-20fa00749a26.txt
 
---===============8403889883861445625==
+--===============8747374441603228154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654277904 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654277905 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1654277903-90850f3fc59b2946f0af957a12a8463d57f4e55b
 
-3a82a34e687ad668bafe67bc07949bf3839647e5 c5d3dc2dfc027824f60e0e6913265b16296eceec refs/heads/linux-5.15.y
+73043ad7a6752e2a3090b9482efe4cb011a0cda6 20fa00749a26c2347ca02a2eb231d61ecd877c90 refs/heads/linux-5.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKaRxAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TBQQALM2kFY7jkNav/9K4HVE
-rDRFHg3eDqE5/UxgolAFcUELftgrFp9aztkh7mPdLq3xjMkc8RQb4GAUlcO60udh
-xZ9vnm7M9SB0G6PpkS8+zdCtUzBkp2TInlCnL/idQCvKkQe92kZN2rPUXkwEzA90
-yf1Aib1cma2xB8FnpysPUZmZqsX+Lc9sYvow5/8gd4CDarEh23404WW4c6fosAaB
-egivnBm7bn8l3bAspxBtDoZomBUK7jQz0OZKMS+EfBrjatKYI/j7XgN59TuS5gF3
-1IoR0rIDHFXgEytKFXNHl0Sd4DY4tN5Os9g1gN+dzNwCOtI+UO/KyFOJdcrIGR2K
-MYz46eNlQwespGNw676yipyD/otRICK/TY8RiSNFJTIacTghOajJQZQ8oIONkMty
-MoqCAKatWk8ARiJMflGWQAbDwbjUkwo48uDUlSkJ0vtNXNA7YrGHs3qrKKPIzKS2
-tAysA2SJGCcwytiV+cHbDZ0dSMrzU5SM/4/eLxo3lR4AgDZQUTyksnkMwwxOL9qq
-ghGcHCbYRuPpvTNNcpx8ydGel9btHddlPzGzkjOqrE6ry/gHnQ0/eIocpgtb0neb
-P9iATgmayd6YDHOqT3Cnsc7FfYEtAAshhjEysOn62NxnwWgSt2Cp5Y+WB5KqxQk7
-lCxYp5IzTN/Tt6mThlKNM3Yc
-=03Fj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKaRxEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AEUQAIfFvYcb1AVB+O07p6Fl
+rSPI4EMYx0nDgPr/4AVNEAXJMy+xrGX7x4kfjnoc1NDix9Ew01hQf9vnmuJQ7FAg
+pv3/n4Q/Ib0FEq8+rtynT6mu9/Xj2N32f+b7N4lAPZ0r4bhGUH8FqTCSWEqM9HIp
+GOo9K1whLoQDhuoRO15sqsZtL98J9wq8N3aV+Ktgi2/JXSkDHfxO08y1XZjUJAIy
+w62rfLOb+pfhD0pDW/wvmClej95rfonkZY/e0ClDtw7xZuLzP2BfJKGrgSWIHMXX
+/IlzPL4Ewo0i6iAwvntpcxAuNW1/+zonN3lcBZ6KQ8LDu2wBFa5jNomXnuXNpc0n
+uKqQGfq/35EkI7Ubobm3IxH/gx89IVjgGyNqGHsnKkF+P1ku4l4XMYHW63kAH89J
+v214tNqQpOcGbt9d014AOr5cHmHoPaB0of8fWNy+F29hIwRfr1VEbzNjPOtMr8gU
+014He3CvtVVz2cJoDfL5EhbLZQ2zhk+aGIq6EbWkVDyLyGshpxvsahG42cm6YONv
+/kDhEwO+sIwj+PzA/FamswawwhjHm18MIoKB+Io6Rr4hCOrUbT5mma9vTkvwMSg+
+Nt33Kurz8rZyHIfLvDgwBj5zivmsNslqOdGakk+c7WsdkmWZdS3beGqhaKLYhoXP
+CMjzQCyHskIHaxuC9dnd22fW
+=vt2n
 -----END PGP SIGNATURE-----
 
---===============8403889883861445625==
+--===============8747374441603228154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a82a34e687a-c5d3dc2dfc02.txt
+Content-Disposition: attachment; filename=revlist-73043ad7a675-20fa00749a26.txt
 
-38ed01e2451d39bd2c5f7daee48b2579daf02674 ALSA: usb-audio: Don't get sample rate for MCT Trigger 5 USB-to-HDMI
-2baeffee7ebccec11e2cc98421b7e70709921bb5 pinctrl: sunxi: fix f1c100s uart2 function
-18b3819f6bddb7ef5c303ef88356f16667f5f10d KVM: arm64: Don't hypercall before EL2 init
-603cf1181416f29039cced4b9f81f0bc94a54e74 percpu_ref_init(): clean ->percpu_count_ref on failure
-98521c7478010b0c62da8a26d1a1a828817a6d4d net: af_key: check encryption module availability consistency
-5d6dca7fdd5f8fbf0b4747926a794e77211d1e45 nfc: pn533: Fix buggy cleanup order
-9d29b45d42729745ef13f3c55c2ef61ab6f8b073 net: ftgmac100: Disable hardware checksum on AST2600
-7c7f2942d8879de2c9eff85a8dbf12b4337a41fd i2c: ismt: Provide a DMA buffer for Interrupt Cause Logging
-8fa3d8a38a942a362e542a6b6cf68052c9c4a783 drivers: i2c: thunderx: Allow driver to work with ACPI defined TWSI controllers
-318c2a672d13757222d608f7b5c326c87a8263ae netfilter: nf_tables: disallow non-stateful expression in sets earlier
-002c937c65eb83487c02563fafe4b17c181a9a57 i2c: ismt: prevent memory corruption in ismt_access()
-a4c07d827455ff2b676dc2715c3e7b4c188786c9 assoc_array: Fix BUG_ON during garbage collect
-bb4682c860bda2668e9d8bfe97a21ae5e7480a18 pipe: make poll_usage boolean and annotate its access
-e2549a868c74229c85e1c291c21c051f8c5dd31e pipe: Fix missing lock in pipe_resize_ring()
-4523fa7b4f8416783356cc470b99a6d413a8eba2 net: ipa: compute proper aggregation limit
-8d41a733d2cbb02cb81f70ec8a60940de7d505f2 drm/i915: Fix -Wstringop-overflow warning in call to intel_read_wm_latency()
-5124e74a840e6c1fd515998d336acd694470014d exfat: check if cluster num is valid
-87392d04493ff5a3eca3e71529e0720ad3a39aa0 exfat: fix referencing wrong parent directory information after renaming
-1ece2bfd129431df7ca292b556bb258f8c1a55a2 lib/crypto: add prompts back to crypto libraries
-31e5f57eedcebcacc026a85ac05dc122641ecac7 crypto: drbg - prepare for more fine-grained tracking of seeding state
-f7dadedcfa5b958e8ac78d80314617594553f37f crypto: drbg - track whether DRBG was seeded with !rng_is_initialized()
-e7e83b625e696ac76533c6f6fe1ad8d366f2accd crypto: drbg - move dynamic ->reseed_threshold adjustments to __drbg_seed()
-0ca38f5ca9d2e9515c1330a5cc9865af0bd16842 crypto: drbg - make reseeding from get_random_bytes() synchronous
-7d233df16aff18527dac144b8b9a8cbee32d5a2b netfilter: nf_tables: sanitize nft_set_desc_concat_parse()
-6fb689889b9352cdbbe39b8210798012c15c2934 netfilter: nf_tables: hold mutex on netns pre_exit path
-f8b06ae59beb63efc7400ce89fac73080e6b8301 netfilter: nf_tables: double hook unregistration in netns path
-3702f46937b45e9fef5729043902c2be76d2e2e6 netfilter: conntrack: re-fetch conntrack after insertion
-045a1ab9d9585185b8102975d6c472ee729752c1 KVM: PPC: Book3S HV: fix incorrect NULL check on list iterator
-c741c167b75d50e10822808c42da0e4fa5bd788d x86/kvm: Alloc dummy async #PF token outside of raw spinlock
-95b80c89ecafe68bef30fa21687d85683854d0ed x86, kvm: use correct GFP flags for preemption disabled
-9ecccb2970fb558b5c2ced1a39c6902b79027928 KVM: x86: avoid calling x86 emulator without a decoded instruction
-4fa186b03a0510fd1ab644d97c26c155857572dd KVM: x86: Drop WARNs that assert a triple fault never "escapes" from L2
-32ea4587bc83ffa2f1ae59b56bada3dfd2d54bad KVM: SVM: Use kzalloc for sev ioctl interfaces to prevent kernel data leak
-db6dd4d78da5b19cce7df40ea168832d2444e390 crypto: caam - fix i.MX6SX entropy delay value
-f303e3cbff684962118e73782f6b510f88c3ee4b crypto: ecrdsa - Fix incorrect use of vli_cmp
-71bd9215b8951e1ee05c219f07437a1acf195f5c zsmalloc: fix races between asynchronous zspage free and page migration
-173135025bba51019bea0330dc0044b21697f52f ALSA: usb-audio: Workaround for clock setup on TEAC devices
-868eb729ac682226e72dbda2b1e5027d13a727e2 ALSA: usb-audio: Add missing ep_idx in fixed EP quirks
-5bbc158ea064f25a25022336a9fbcc964634a9bf ALSA: usb-audio: Configure sync endpoints before data
-657a01eb5f1d15a187a3039f23610491b3f03d28 Bluetooth: hci_qca: Use del_timer_sync() before freeing
-3f3dcc9579545726620165e1ae03c04cb825f465 ARM: dts: s5pv210: Correct interrupt name for bluetooth in Aries
-de656e7454a8fa204e075c0d23d92c523a2bf622 dm integrity: fix error code in dm_integrity_ctr()
-0e6b093d285a94b4221f32ac6c549e98a97309c5 dm crypt: make printing of the key constant-time
-30d08f6e1916d8a86e71cdcfd097e41de8c569b2 dm stats: add cond_resched when looping over entries
-6d43c238c46fb565b8550ca818775c9eb3a9cacc dm verity: set DM_TARGET_IMMUTABLE feature flag
-36787310be769167544f0cec0c1b7a5d1b5cc7d3 raid5: introduce MD_BROKEN
-d55aaa61b3c8f401d4cdc32cb177eca9f02b8764 fs/ntfs3: validate BOOT sectors_per_clusters
-99d9bec64a85b6177c07963596f961729ed33a4d HID: multitouch: Add support for Google Whiskers Touchpad
-a14972c7287ce61d247f2e73d18081263444ab45 HID: multitouch: add quirks to enable Lenovo X12 trackpoint
-46bbda34329647348c84d3a289caffca7d9c8154 x86/sgx: Disconnect backing page references from dirty status
-e1ec27003e80cc30f4a0b3e5a5d3236e20a816eb x86/sgx: Mark PCMD page as dirty when modifying contents
-65e3ac3cf8ad72d8b28729e9842c170e2a475c24 x86/sgx: Obtain backing storage page with enclave mutex held
-acf0cdfe5d76b6725fc73bda5f5cc45283eac6ba x86/sgx: Fix race between reclaimer and page fault handler
-aae3147ccdf97361cc846cb2a7c6f9bff77e420e x86/sgx: Ensure no data in PCMD page after truncate
-e862e6706f58b20b855550dd3dfd0cedc2741fc5 media: i2c: imx412: Fix reset GPIO polarity
-8db6362e8b0fc63e9ce2b1a2fe8feec5a4c7af54 media: i2c: imx412: Fix power_off ordering
-b9b46a1832766dadec9754a9e4ca13f13702883f tpm: Fix buffer access in tpm2_get_tpm_pt()
-3a2b86c89e9c6ee3b06a6e531db8b7f885e05dad tpm: ibmvtpm: Correct the return value in tpm_ibmvtpm_probe()
-a8b3c68a5199ebac134c2c24881e19bc8dacdeac docs: submitting-patches: Fix crossref to 'The canonical patch format'
-dc689dcc549754c1557425f4b8a0f7344fbf3dce NFS: Memory allocation failures are not server fatal errors
-0a44fd68137605320fd78f591f4f706d0aabbe93 NFSD: Fix possible sleep during nfsd4_release_lockowner()
-39ed8966492896455377c93f0f7362c90ea37ed4 bpf: Fix potential array overflow in bpf_trampoline_get_progs()
-efe680b673d5a20dc752d2b1a434829d1b2153ea bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
-182473e65df00538e9ce2b7e3327a6b0f90a02ec bpf: Fix excessive memory allocation in stack_map_alloc()
-bc8a32b1b76d799977f48d2a65b2cd8574ac10fd bpf: Reject writes for PTR_TO_MAP_KEY in check_helper_mem_access
-b50b77605e9b24986f9f406d4cef7e24b98ca860 bpf: Check PTR_TO_MEM | MEM_RDONLY in check_helper_mem_access
-c5d3dc2dfc027824f60e0e6913265b16296eceec Linux 5.15.45-rc1
+b61ab3c6143fbe20bc121367382cf55e4b41ddc8 netfilter: nf_tables: disallow non-stateful expression in sets earlier
+98c31d84837a6c192e46a2713864f16dfb4f94ce i2c: ismt: prevent memory corruption in ismt_access()
+f0aca7417e293901f8df8ad775bcfeec362bcfef assoc_array: Fix BUG_ON during garbage collect
+33484616d92fe6111cbb2df268b65d8a1e88fc93 pipe: make poll_usage boolean and annotate its access
+993ace33cbd1d1a022cbc85b411545e37b355da6 pipe: Fix missing lock in pipe_resize_ring()
+faf77654ca565684b3476da68fc62bd02d44d94d net: ipa: compute proper aggregation limit
+ddc6fa3faa59da59ec6de7ffb57d6f12adde82ef drm/i915: Fix -Wstringop-overflow warning in call to intel_read_wm_latency()
+c938ca57cc31ed6cbe23acce4415551f7fae5a20 exfat: check if cluster num is valid
+20da61dff990a9f34f8066d0c11db638d6dd9941 exfat: fix referencing wrong parent directory information after renaming
+4cb50af64f10dbedaa35027f6610d654a3f72471 netfilter: nft_limit: Clone packet limits' cost value
+0b4446f90982954d8c77b609880cf026f951afa3 netfilter: nf_tables: sanitize nft_set_desc_concat_parse()
+0e4d3ef7c8668409350dfaa5b69a3835d78b7043 netfilter: nf_tables: hold mutex on netns pre_exit path
+14eb6e861d4f253d7976a6ba9efa99dfa99052d9 netfilter: nf_tables: double hook unregistration in netns path
+11404986174b3181bc22aab4e8a0a1cdcfbe0fcf netfilter: conntrack: re-fetch conntrack after insertion
+f995dc6cfe9b63d822d9d38f24531df08f0dac23 KVM: PPC: Book3S HV: fix incorrect NULL check on list iterator
+8354bb1d369e4923ecbf89a1fec18b825ffe7b92 x86/fpu: KVM: Set the base guest FPU uABI size to sizeof(struct kvm_xsave)
+95b40f32bd85e892591efec9d0bc30805d938491 x86/kvm: Alloc dummy async #PF token outside of raw spinlock
+c65040b454e33a2fcb98bbc8914d583fce016b41 x86, kvm: use correct GFP flags for preemption disabled
+71fd4c461c9f316a30161f6e624dce52589f42e4 x86/uaccess: Implement macros for CMPXCHG on user addresses
+8d604df09de588932c3841660e36a6474f2faeb0 KVM: x86: Use __try_cmpxchg_user() to update guest PTE A/D bits
+fd781ecc454b8adff1f42bfd4925b715cebd9e8d KVM: x86: Use __try_cmpxchg_user() to emulate atomic accesses
+36cfb832ab6b34d97c607793d4b089788dbf3ff7 KVM: x86: fix typo in __try_cmpxchg_user causing non-atomicness
+d472c56a9187e06b24a15e37a365443ad463fc2e KVM: x86: avoid calling x86 emulator without a decoded instruction
+6744bb50a129b311a63b82c8a28904edf30fbdc7 KVM: x86: avoid loading a vCPU after .vm_destroy was called
+cee3cee1fca4ab8ceadc1a31160ad0f496d84548 KVM: x86: Fix the intel_pt PMI handling wrongly considered from guest
+539a7cff1ccbb93a20c9caeed3c4af5c8af6de63 KVM: x86: Drop WARNs that assert a triple fault never "escapes" from L2
+53b06896841767ef20b151f0d95903545cfb592f KVM: x86/mmu: Don't rebuild page when the page is synced and no tlb flushing is required
+d04747d127df68b766423550f9ebd4f444328f4d KVM: SVM: Use kzalloc for sev ioctl interfaces to prevent kernel data leak
+cae7513b9be93eb657aedb7b7dd2179dd081c616 crypto: caam - fix i.MX6SX entropy delay value
+eea3d0461a322657dd3001a88176a063251c5888 crypto: ecrdsa - Fix incorrect use of vli_cmp
+00056078dc3b6a84c122bd8b036634257a47c4f4 crypto: qat - rework the VF2PF interrupt handling logic
+5bb37e555f43de6b709efb023267acb9f335c57d zsmalloc: fix races between asynchronous zspage free and page migration
+fa3dfe58b71460641ea7a3c88d6adb109334dbd8 tools/memory-model/README: Update klitmus7 compat table
+405c160fa25dbb8dbc6c893bee075ab528f44b25 ALSA: usb-audio: Workaround for clock setup on TEAC devices
+45f55d169aac053f9159ba97728e79f20b4d19fc ALSA: usb-audio: Add missing ep_idx in fixed EP quirks
+8edfffd5cab2e0cc6c42f1257cb5f4affedae70d ALSA: usb-audio: Configure sync endpoints before data
+90fcbe0cfc62fd828cb6873135da03b5b673cd51 Bluetooth: hci_qca: Use del_timer_sync() before freeing
+c41b87cea1fe8d514859fa7afad440dd94879499 ARM: dts: s5pv210: Correct interrupt name for bluetooth in Aries
+365f0c6ed017c950e4420407dc41419a8f756082 dm integrity: fix error code in dm_integrity_ctr()
+6b89c75328249b8f1882bdd8c12127ad8c18ea71 dm crypt: make printing of the key constant-time
+36db5f4118c3f0c10a0f5f1ee40b719114b86b80 dm stats: add cond_resched when looping over entries
+911a77ec694d1007af485e2f02e3d51165476dc3 dm verity: set DM_TARGET_IMMUTABLE feature flag
+2e60bce35eacb984f4d4227c7700b8d68800cca9 raid5: introduce MD_BROKEN
+141673e39a3d13e3a23e53d0fdff6846bd9c3ae7 fs/ntfs3: validate BOOT sectors_per_clusters
+60f09bce13d899cb24552be21739895a8f920691 HID: multitouch: Add support for Google Whiskers Touchpad
+01a5082d2b3d510a94f4788a98a8c390ecdde948 HID: multitouch: add quirks to enable Lenovo X12 trackpoint
+6662759cc2384f3cb5081d67520da46ed1faa8a4 x86/sgx: Disconnect backing page references from dirty status
+aace032dcc7529255816b36dde4a4a3a54fc6d40 x86/sgx: Mark PCMD page as dirty when modifying contents
+a31932938c3bbdab0625ef46fab27a4715778118 x86/sgx: Obtain backing storage page with enclave mutex held
+4a060e7f3df0b3e7e40c8cb1a29f5b5d4c826d2c x86/sgx: Fix race between reclaimer and page fault handler
+a5e7c45454d6a652dbe52e52d0c38dafe1ab5190 x86/sgx: Ensure no data in PCMD page after truncate
+cc90802f5c4da707528cf148c4e4ac42788afa01 media: i2c: imx412: Fix reset GPIO polarity
+001b5c24ce035213595108681d582bcb986c6bca media: i2c: imx412: Fix power_off ordering
+5f9bc0effe5b2240e451c5649cab999c9c16d201 tpm: Fix buffer access in tpm2_get_tpm_pt()
+9f81c2966cea618350bdab2633e5c4f04ea6a584 tpm: ibmvtpm: Correct the return value in tpm_ibmvtpm_probe()
+520c2f9e3e3d1923c8f9f91c6611838003e6dd87 docs: submitting-patches: Fix crossref to 'The canonical patch format'
+2a346cfa0e370194f57499bc3dc9aa861cf6da4b NFS: Memory allocation failures are not server fatal errors
+a9a63517cd3dc655ed5b5b34b1941220ca3d1435 NFSD: Fix possible sleep during nfsd4_release_lockowner()
+43db110875d168ebca0ba935ff445dfae54b7c41 bpf: Fill new bpf_prog_pack with illegal instructions
+417bff201b2247863d70ae6a340a0a12baa0065b bpf: Fix potential array overflow in bpf_trampoline_get_progs()
+213f9ae0fe8480bda13d111ded0d541b15405eb7 bpf: Fix combination of jit blinding and pointers to bpf subprogs.
+954cdba5edecf895796a5fcb48e82f26b22e1c95 bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
+d740006a4b2e88f8cb9504d78b755454dcce510f bpf: Fix usage of trace RCU in local storage.
+0cf676db44f19409f475f705e52da999b5e30adb bpf: Fix excessive memory allocation in stack_map_alloc()
+8109de0d39a90a1d3ec26b0f9f9631fe750d9aac bpf: Reject writes for PTR_TO_MAP_KEY in check_helper_mem_access
+0ebea629329aed124f51d42a2e0a0c195875d94f bpf: Check PTR_TO_MEM | MEM_RDONLY in check_helper_mem_access
+510b4b426e60e5e1b7e66135160257f9b3d02789 bpf: Do write access check for kfunc and global func
+20fa00749a26c2347ca02a2eb231d61ecd877c90 Linux 5.18.2-rc1
 
---===============8403889883861445625==--
+--===============8747374441603228154==--
