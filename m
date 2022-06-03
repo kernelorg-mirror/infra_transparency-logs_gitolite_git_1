@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 03 Jun 2022 17:01:32 -0000
-Message-Id: <165427569270.25766.17141516548530016360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Fri, 03 Jun 2022 17:02:33 -0000
+Message-Id: <165427575333.26141.5969117024189792713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dev-queue
-    old: 77979635fde8a77eba6714c4154ee47181479dde
-    new: 58f9d52ff689a262bec7f5713c07f5a79e115168
+  - ref: refs/heads/fixes-togreg
+    old: b192ddb1eddf16ac0698d11a052e606e21425568
+    new: dee61a0ffff512c81a11c0082ccb076c168d784d
+    log: |
+         dee61a0ffff512c81a11c0082ccb076c168d784d iio: adc: vf610: fix conversion mode sysfs node name
+         
