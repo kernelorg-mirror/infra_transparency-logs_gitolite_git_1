@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5209245036856913503=="
+Content-Type: multipart/mixed; boundary="===============3050803769379435982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 03 Jun 2022 09:08:35 -0000
-Message-Id: <165424731529.23161.1653966554610678817@gitolite.kernel.org>
+Date: Fri, 03 Jun 2022 09:08:40 -0000
+Message-Id: <165424732055.23236.11954637177797607720@gitolite.kernel.org>
 
---===============5209245036856913503==
+--===============3050803769379435982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: f7081834b2d5bbc77d67073d8ab490bfeaf3c13b
-    new: 77b2c072dd466f6332189c9057bcca155e6d529c
-    log: revlist-f7081834b2d5-77b2c072dd46.txt
+  - ref: refs/heads/auto-latest
+    old: f3c3debf7700103a83b222d2a4b5ea0f8035f3a5
+    new: 23e79f6c076085abbdde6e03efcba2e92084a872
+    log: revlist-f3c3debf7700-23e79f6c0760.txt
+  - ref: refs/heads/master
+    old: f3c3debf7700103a83b222d2a4b5ea0f8035f3a5
+    new: 23e79f6c076085abbdde6e03efcba2e92084a872
+    log: revlist-f3c3debf7700-23e79f6c0760.txt
 
---===============5209245036856913503==
+--===============3050803769379435982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7081834b2d5-77b2c072dd46.txt
+Content-Disposition: attachment; filename=revlist-f3c3debf7700-23e79f6c0760.txt
 
-71081e7ac16c93acdd18afa65daa468620bb1b64 cifs: print TIDs as hex
-b23316aabffa835ecc516cb81daeef5b9155e8a5 selftests/bpf: Add missing trampoline program type to trampoline_count test
-fa376860658252a4559026496528c5d3a36b52e3 selftests/bpf: Fix subtest number formatting in test_progs
-2dc323b1c4cb8ab7db9f8286a9c3267ce66419ab selftests/bpf: Remove filtered subtests from output
-cc398a34d16fd90a2dcc59b1105c634f038ea53b sfc/siena: Remove duplicate check on segments
-fe5c5fc145edcf98a759b895f52b646730eeb7be net: stmmac: fix out-of-bounds access in a selftest
-c09b0cd2cc6c3f91988a20d45fa45c889f72c56c net: avoid strange behavior with skb_defer_max == 1
-937956ba404e70a765ca5aa39d3d7564d86a8872 amt: fix gateway mode stuck
-fe29794c3585d039fefebaa2b5a4932a627ad4fd amt: fix memory leak for advertisement message
-dc2df00af951569689ec39ce0a41b1dff7e3595e net: tulip: fix build with CONFIG_GSC
-ed46b3e1272d6e5c79c8333a60115003035cfbd4 Merge branch 'amt-fix-several-bugs-in-gateway-mode'
-9ee152ee3ee3568b1a3302f2bb816d5440e6f5f1 net: wwan: t7xx: use GFP_ATOMIC under spin lock in t7xx_cldma_gpd_set_next_ptr()
-5feba47273952918e6563d692d9c5ce35a2165b3 selftests: fib_nexthops: Make ping timeout configurable
-dbb2f362c7835660a4e39eadd7481563e2e176b7 eth: bnxt: make ulp_id unsigned to make GCC 12 happy
-c2e10f53455c898050738d6a5f8c237f27aec225 net: vxlan: Fix kernel coding style
-f7b5a89c66defe87d11240cfdaa8b6cbee5784eb net: mscc: fix the alignment in ocelot_port_fdb_del()
-29849a486a85f7ab1f3b389db5e3d4948119bef2 stcp: Use memset_after() to zero sctp_stream_out_ext
-eb4c0788964730d12e8dd520bd8f5217ca48321c hv_netvsc: Fix potential dereference of NULL pointer
-eac67d83bf2553f98cfddd42cfbcfd6f9ccfc287 wwan: iosm: use a flexible array rather than allocate short objects
 d5a42de8bdbe25081f07b801d8b35f4d75a791f4 net: Add a second bind table hashed by port and address
 538aaf9b2383701094a47797b4554c6a21c83eed selftests: Add test for timing a bind request to a port with a populated bhash entry
 aa5334b1f96801cd09775217a72ff252ef614d7a Merge branch 'add-a-bhash2-table-hashed-by-port-address'
@@ -916,6 +901,13 @@ aef54851bf1d3e31f9c15e8134e859c2f343ceab x86/traceponit: Fix comment about irq v
 090b39af591cdde897664dfa5d3d5b0c78a197fb Merge tag 'hardening-v5.19-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 780d8ce7162818cfe03e9a5e23b3af192a1d37bc Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 7e284070abe53d448517b80493863595af4ab5f0 Merge tag 'for-5.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+5f3da8c08508df82823566c32f753071c8ad36af objtool: Add CONFIG_HAVE_UACCESS_VALIDATION
+385bd430c011a8cb8278e61c32d602d11e06f414 objtool: Mark __ubsan_handle_builtin_unreachable() as noreturn
+a6a5eb269f6f3a2fe392f725a8d9052190c731e2 x86/cpu: Elide KCSAN for cpu_has() and friends
+656d054e0a15ec327bd82801ccd58201e59f6896 jump_label,noinstr: Avoid instrumentation for JUMP_LABEL=n builds
+1894a4030582472336c2873cb07911ce67e0d14e x86: Always inline on_thread_stack() and current_top_of_stack()
+620f8d3bd3d5e82dff8cc591c831827d4beeae2e context_tracking: Always inline empty stubs
+2028a255f4df3af9e759f01f958d3237f825f256 x86/extable: Annotate ex_handler_msr_mce() as a dead end
 809631e2bff5aba056df75cc4e43127dbd0278c9 Revert "printk: wake up all waiters"
 dcf280e6f80be280ca7dd1b058f038654e4a18dd powerpc/64: Include cache.h directly in paca.h
 48381273f8734d28ef56a5bdf1966dd8530111bc hugetlb: fix huge_pmd_unshare address update
@@ -992,6 +984,7 @@ b00ed48bb0a7c295facf9036135a573a5cdbe7de Merge tag 'dmaengine-5.19-rc1' of git:/
 6f5097e3367a7c0751e165e4c15bc30511a4ba38 xfs: fix xfs_ifree() error handling to not leak perag ref
 621dc801df4c2e523a66c96b250e0133ed7da90e Merge branch 'guilt/xfs-5.19-recovery-buf-cancel' into xfs-5.19-for-next
 7146bda743e6f543af60584fad2cfbb6ce83d8ac Merge branch 'guilt/xfs-5.19-larp-cleanups' into xfs-5.19-for-next
+82f586f923e3ac6062bc7867717a7f8afc09e0ff sched/autogroup: Fix sysctl move
 a3f083e04a87662559bbadddc02f4739b78e743a cpufreq: CPPC: Fix build error without CONFIG_ACPI_CPPC_CPUFREQ_FIE
 da4363457f777906d49d765398f5227657c82ef9 cpufreq: CPPC: Fix unused-function warning
 22ffff6d21ebfcd6e722af5f6954ab97c726c3c8 Merge branch 'pm-opp'
@@ -1049,6 +1042,17 @@ ca1dcc6d0c569e1e5f5b4a764329d9530760a416 Merge tag 'memblock-v5.19-rc1' of git:/
 12831f6486f9db5a8f2c87129f2b8f33349b1e04 Merge tag 'printk-for-5.19-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 7c9e960c636306f632ccae623bf94b2b53d35cbd Merge tag 'livepatching-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 17d8e3d90b6989419806c1926b894d7d7483a25b Merge tag 'ceph-for-5.19-rc1' of https://github.com/ceph/ceph-client
+0c9782e204d3cc5625b9e8bf4e8625d38dfe0139 x86/sgx: Set active memcg prior to shmem allocation
 77b2c072dd466f6332189c9057bcca155e6d529c Merge branch 'linus' into x86/cleanups, to resolve conflict
+dab4c2fe98df5b05fe4e8e5dcdc26c2fd980bc9f Merge branch into tip/master: 'objtool/urgent'
+b848e681b426811ce6b761b2da8abe7c0e73ae5b Merge branch into tip/master: 'perf/urgent'
+aa6382f25a9b3f89bcc2fbc11558174c2ae7ea62 Merge branch into tip/master: 'sched/urgent'
+4bdf7a015d500497c47bd8ce64476bf017c2e09e Merge branch into tip/master: 'x86/urgent'
+c4010c09bd88a2d713a399480b36477dafe4fa92 Merge branch into tip/master: 'perf/core'
+538de88fba752097d525565059886c15ed81d4c4 Merge branch into tip/master: 'timers/core'
+f3dedc5332b926cf86f18d95207d21232a688eea Merge branch into tip/master: 'x86/boot'
+abf4e4378cfe618169988fce7627a8658c867908 Merge branch into tip/master: 'x86/cleanups'
+5ea5779954d9ff0a15d2a7399fdcc72e1174c22e Merge branch into tip/master: 'x86/microcode'
+23e79f6c076085abbdde6e03efcba2e92084a872 Merge branch into tip/master: 'x86/mm'
 
---===============5209245036856913503==--
+--===============3050803769379435982==--
