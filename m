@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2858398725056600775=="
+Content-Type: multipart/mixed; boundary="===============5502947018386761682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 03 Jun 2022 17:38:18 -0000
-Message-Id: <165427789807.19257.6317411498235424035@gitolite.kernel.org>
+Message-Id: <165427789893.19321.302487028722622666@gitolite.kernel.org>
 
---===============2858398725056600775==
+--===============5502947018386761682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,77 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 0c15757952890e7370991af88ba46c62a8e22aed
-    new: f412febea824d191dc7d71faf706d9312f5cac7a
-    log: revlist-0c1575795289-f412febea824.txt
+  - ref: refs/heads/linux-4.19.y
+    old: c2d62f494e2f5c733ef995bbecb626a151372cee
+    new: 8d1c6d3581bb07a2ea5e34376791884a79ff4114
+    log: revlist-c2d62f494e2f-8d1c6d3581bb.txt
 
---===============2858398725056600775==
+--===============5502947018386761682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654277897 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654277898 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1654277895-d26d36dd0517a8414c8a62dbd00752b02db666dc
+nonce 1654277897-c6b6151a01da49c90f1b78d0626823a324ce4cb7
 
-0c15757952890e7370991af88ba46c62a8e22aed f412febea824d191dc7d71faf706d9312f5cac7a refs/heads/linux-4.14.y
+c2d62f494e2f5c733ef995bbecb626a151372cee 8d1c6d3581bb07a2ea5e34376791884a79ff4114 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKaRwkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+twMQAKRG8OPqjS1dhc70Xc4h
-8Ttg2Z713L+qkA+crw/Uxa/PpsW/4aoqigGA0FQkvZgLKCPbvo2m1UBZMXBQShqX
-Rdv4Te4yIZd4mv4sj8KumncQf2mi9FKyhW/WfAFj8FC/1Ji7TdR4OCfX6MLHstDY
-Qa4lWaV3uAaiJDqucw2GdnzRSAykeZtJ2DeSAMtR92+Iei9oRHiP1UPRRfF7kzCM
-sFVHo2CubvgWEA9e9VGDbGlcZT/VksbiB6em6RLEDqXrtKzpATSqXO0P4VAJ+mIz
-gJyHrw0ZvltKbm53v8STiaBBPIA4qkXwvhtXvwrxmb4DeBPL229rLdvpsaEbCB43
-OvKQmEJrRC5zE1+xTsCLQ+R1grzgqmPvJxb1Bsb3gGc63PiXI5bsLAR5wKqSmv1M
-+vOU0oLPGGCkJ8mYmk6bI8ynTrQUN98bx709HKxhMmSCf5/q3QQwGnR6ulQoeXTO
-6udFShc+e16y2UA5Mdk2dt2reR/OSVQ04ribEXYWKExwgGvvTefDpPyygtFJUW0I
-SQLqD8VkW79zXEXhfboykYfuhWURAHZDf+FHkdhtN76kU/uKzedo1WVoKuhuUab2
-rQU1/HhpripcJQEH4qaVEEzymHLry9WdNp1ozDTXS2El74bH1YquoLWwwzLibbsE
-7FbsdZH/FSlA35hAgDhUYLSL
-=Lgkn
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKaRwobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FL8P+MJvLWWh+LZRCcbY5WEF
+bDz93+xXL8vqeJu+OYFSO69lc9YkkvkwycQm0frYyiRTGX8z43Zvh47GinmJf7yx
+LL/FUn6ENK/3Oxubju4NhB1V+e3KbbOF7EajqZLVDUSmkfk91PhocVXJmvKKn5Ps
+MY9gG8KaNKT22tFDGbTVFuLqNDgaqab1OkEJKIdfvzuxkJfIT6d5yFAA+bIwOwzN
+FLvJxDhn0z0M19FWj76G6k8epvauU0oi1H9Ey5KVpw1R5uLt/jy/WZEwr76HmHd+
+R33TLTUQNUhwEEn0YY1bmCUYF3cy8wNFp/PLgbZ0foBZ6bp2/thgDaviOBJULlbc
+IouiKBb92W+t1R5MwjVL/tH1Y7sqXTldiAlCcq92VfAwkknxZ8Rybzj2WR7l/Cmq
+2nmnUKsCp+wJyelX1PhPm3o0iK804rXBjUEb0awacSVDGyHmbHFNjvbOH55hZFNX
+RSEN4n3fPFnlEKi5VgVaKd7098i+v/TL4PMiR/0mBNaj1SRvoHBcgjBFvo+QGoqI
+iH//y+8nM+QJf/iuO7u4ZgX6XVs85YpwuiZGGUD75t/3oHpsPMYpxlWm+yo+cVoF
+97CJvFEnBzUl1/yefMt/9QFxUxmPak+oadwY4IpP9x5see2MXEdVd3FYy00P5A9l
++H833988uop4TSGkr1jzq70=
+=+/dE
 -----END PGP SIGNATURE-----
 
---===============2858398725056600775==
+--===============5502947018386761682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c1575795289-f412febea824.txt
+Content-Disposition: attachment; filename=revlist-c2d62f494e2f-8d1c6d3581bb.txt
 
-a16fffd7af07c8c86bd793eb7cfec3ae97345758 x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
-8145c87a53087a3d74287938e7892b25f9cc290e staging: rtl8723bs: prevent ->Ssid overflow in rtw_wx_set_scan()
-6eb9f4a5503ef9373c50fa3db2746e2dace2b17d tcp: change source port randomizarion at connect() time
-193ae5ba3e11c0d71a0a9b5745a748dae15ad954 secure_seq: use the 64 bits of the siphash for port offset calculation
-54a3aedf120ed5b378672126798bd4795689e306 ACPI: sysfs: Make sparse happy about address space in use
-e79767e402486bc1564e79181dfce5f03cf23fa0 ACPI: sysfs: Fix BERT error region memory mapping
-b209fd32be5fa1f61aeb35a6da6c52f86668ead0 net: af_key: check encryption module availability consistency
-3a24bfb1dd3a93c95fee815cd801e6e1525d2ef0 net: ftgmac100: Disable hardware checksum on AST2600
-1a69678222ede2b93909be28c25d6ff88351082e drivers: i2c: thunderx: Allow driver to work with ACPI defined TWSI controllers
-c218e6b6e66ec70ce35d061cf1f50133a0ce1c5b assoc_array: Fix BUG_ON during garbage collect
-448d4533b14a94469c97a13a45eac7a0b8b6fd92 drm/i915: Fix -Wstringop-overflow warning in call to intel_read_wm_latency()
-5c6973261202900b90720f98ff8d95ed70eaaa48 block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
-4ed6fe33c4afa143ff98b138ff2e939888fd1152 exec: Force single empty string when argv is empty
-ce8cf88a72920eaf3fce02dc062ed53cb5db243a netfilter: conntrack: re-fetch conntrack after insertion
-2cc1b65c8e09cb7868ea2bb0987cfa2481fb2b4f zsmalloc: fix races between asynchronous zspage free and page migration
-cdfada882680c600fb746d57f17e93c3f99b81bd dm integrity: fix error code in dm_integrity_ctr()
-a4846fd811ae01a6fa1753b3a378c70045643793 dm crypt: make printing of the key constant-time
-6cae404a8183a608c2feccdf34b3cc610b62603b dm stats: add cond_resched when looping over entries
-69493b9c96fe2f3aec4feae9fa47ea228ef24361 dm verity: set DM_TARGET_IMMUTABLE feature flag
-36ad11bc7a48cb7687f3b346fbf8848a8eabe2a1 tpm: ibmvtpm: Correct the return value in tpm_ibmvtpm_probe()
-bc52dc80b506c6dfb7ceed4cbe5d620d62de7839 docs: submitting-patches: Fix crossref to 'The canonical patch format'
-65d2858d6ab4adac7b28b456308d7908a422c4ac NFSD: Fix possible sleep during nfsd4_release_lockowner()
-e1ad9d775f7856f16037832345f4279de366b593 bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
-f412febea824d191dc7d71faf706d9312f5cac7a Linux 4.14.282-rc1
+566b2327190c62451cde6ccb51a5c21699b25652 x86/pci/xen: Disable PCI/MSI[-X] masking for XEN_HVM guests
+8b4b369493cba7b2aeb32102c20c71ffadde1f18 staging: rtl8723bs: prevent ->Ssid overflow in rtw_wx_set_scan()
+9e54ee6dc2bb5ac037db02c03754a297fcf91ff7 tcp: change source port randomizarion at connect() time
+33ebcba71381a27e2214bfdb993cf45516344ad9 secure_seq: use the 64 bits of the siphash for port offset calculation
+210452dd628e268f97220787656928f586a7c2c1 ACPI: sysfs: Make sparse happy about address space in use
+ea2f403e172cff1ab2654ede4bd21dd9ce686a22 ACPI: sysfs: Fix BERT error region memory mapping
+b001795a2a970c9be3035a844826170c658d565d net: af_key: check encryption module availability consistency
+64395e4dfdf9f56f4b54d11096db4ffac7b9c08d net: ftgmac100: Disable hardware checksum on AST2600
+d5c528241aa7d133af15c46d9fdd7e9213d67048 i2c: ismt: Provide a DMA buffer for Interrupt Cause Logging
+3ae3b24597e3593dbf42b515bbf94b49c1f0f65d drivers: i2c: thunderx: Allow driver to work with ACPI defined TWSI controllers
+fcddbab4ad3dc2792e3b53ced6fa792c03009327 assoc_array: Fix BUG_ON during garbage collect
+2c339a48d6ca26e9979dfb607654692c3199cb34 cfg80211: set custom regdomain after wiphy registration
+108c75d6b6d0d98db58c23e9aa40318705ae3b43 libtraceevent: Fix build with binutils 2.35
+47a5c133816141c8df9dc0819839354d1ff71605 perf bench: Share some global variables to fix build with gcc 10
+9389735a2110e523c804fa869307c7121a4d52a6 perf tests bp_account: Make global variable static
+a27f00bd0005b0e3a726fdd4c6e13ef533fda62b drm/i915: Fix -Wstringop-overflow warning in call to intel_read_wm_latency()
+6de51318831999e7669b421820d87cbe2deb9d4c block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
+97207fef5c9af594e93583da045de4d5b912b403 exec: Force single empty string when argv is empty
+b85c3e93e1ab60f2fbd699529a8b8c57102d0b09 netfilter: conntrack: re-fetch conntrack after insertion
+f6dd0633658b9e0b43b0777d5686d89b1ab1dfab zsmalloc: fix races between asynchronous zspage free and page migration
+c63dfb4699c6f189cacdd54142d4033a1a0657b7 dm integrity: fix error code in dm_integrity_ctr()
+f518d9c2317f1c5fe8b38e1ae3c2282192fd1c0b dm crypt: make printing of the key constant-time
+e9f93359e79d7a4d35f6b31cbd27081f33c2dad3 dm stats: add cond_resched when looping over entries
+4454e8cd7fe19c9c47c4542342433b8a8e785b9b dm verity: set DM_TARGET_IMMUTABLE feature flag
+9acb40c25b78e9627449dc04b5cdb3f30c8b09cd HID: multitouch: Add support for Google Whiskers Touchpad
+9f0d8769704d94fc78c7677e7c2cb8fcd8e37306 tpm: Fix buffer access in tpm2_get_tpm_pt()
+8ac8d7adfb15ee17014508fce3bff716adf5662e tpm: ibmvtpm: Correct the return value in tpm_ibmvtpm_probe()
+4316a8f1387bc3d54f228504e1da51c0aa74292b docs: submitting-patches: Fix crossref to 'The canonical patch format'
+1f7513dd5c699aa45bbd6869455f465a2a608db9 NFSD: Fix possible sleep during nfsd4_release_lockowner()
+e441e55f3870c68823acadbb4802bcacdab46683 bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
+8d1c6d3581bb07a2ea5e34376791884a79ff4114 Linux 4.19.246-rc1
 
---===============2858398725056600775==--
+--===============5502947018386761682==--
