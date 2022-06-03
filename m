@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2619341650159376204=="
+Content-Type: multipart/mixed; boundary="===============6895422943586431151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 03 Jun 2022 11:38:42 -0000
-Message-Id: <165425632288.5832.16094488661015134603@gitolite.kernel.org>
+Date: Fri, 03 Jun 2022 11:38:54 -0000
+Message-Id: <165425633463.5933.11008667851668419325@gitolite.kernel.org>
 
---===============2619341650159376204==
+--===============6895422943586431151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 9a39002b27c1c8bb3ba223aa5d02a7a1a3f08ae1
-    new: 1da8bedc27947522f3da203672a2624466d73649
+  - ref: refs/heads/5.19/scsi-queue
+    old: f9f0a46141e2e39bedb4779c88380d1b5f018c14
+    new: aa2a4ded05058f134a4dee1424f829d662e00cda
     log: |
          4094981db7b6ed6ebe3ebe398d8d9136ac5c44c8 scsi: mpi3mr: Rework mrioc->bsg_device model to fix warnings
          05fbde3a77a4f1d62e4c4428f384288c1f1a0be5 scsi: sd: Fix potential NULL pointer dereference
@@ -30,33 +30,33 @@ changes:
          aa2a4ded05058f134a4dee1424f829d662e00cda scsi: qla2xxx: Remove unused 'ql_dm_tgt_ex_pct' parameter
          
 
---===============2619341650159376204==
+--===============6895422943586431151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1654256314 -0400
+pusher 75C5DE3D 1654256326 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1654256314-42ed69b80efd59b705ca9bf562c54ae18f53b553
+nonce 1654256325-ec17d41a679e234bef086f4073dec491cf7d9ed3
 
-9a39002b27c1c8bb3ba223aa5d02a7a1a3f08ae1 1da8bedc27947522f3da203672a2624466d73649 refs/tags/mkp-scsi-queue
+f9f0a46141e2e39bedb4779c88380d1b5f018c14 aa2a4ded05058f134a4dee1424f829d662e00cda refs/heads/5.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKZ8roACgkQ7ulgGnXF
-3j29gw//e67BaOAfUckobfszaAdKIAm/UtAMesxpWvwx0O/Kdoearn8bN56Jiezx
-w07Sm8ZAytYVfa9OusrL2ZE4iIiG+Vlkx0MLGy1pR+L6EZPlwiOOomRA9L8Cxa8T
-agSKeG2+p12gv3eW29l7Kft9tqqJ0CrUls4rqyYY6kduYJ8Sojnfjs8iDzN4pZEe
-cF6bW8Aig2Dut3n/SOzW95nt11FdlhOLSWzPWlg9x6w3RK5HSXZFMgMeTZms+o42
-22bbf0ixwcPFUOuphKKCKn4D2PoszLHg71sktTOaEBr0f/XNaEvVb9Ci2h8QaJic
-cMXMOvnXrmko/f8czoecx32E3Q0uyu1+nMnQcF6Uuzsh12uiNWCxNLpLO8LxLF0D
-6rEYos6el19C1kHigMzwuuf2ilpfkA8lLubMyRK31lXVff/7J7Q14K3lGJBTPuGf
-ttSQgigccGewukdXYHe8L3O+akfTnP5X8L4QoM5M58wadNiNoNzUMT/pzH1aZgXe
-LVHrKmn1C3XO3uSsH0O1me/495292nnBrK2Mk9Outi9aKyZ/g9APyaHNwRd8wOgG
-mWJVymmdb77NytwmDyWP/oXg4Rsli0U0RXPKdJop3viVG/Qw4PZe9L9O5PqgLSyT
-yEaUfyElEf0wdEG/6bXT1ppSxQhOzXAtCCimi3KkDn6YXfDg2BA=
-=8894
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKZ8sYACgkQ7ulgGnXF
+3j3qKA/+Kr1KnbGgKJeI2MennitMZTEeFmSZTprW/OSUM08Thdeyfy3LVvX/z+PB
+oiod7rstZZCx8kmrm9xswkjbKfV4SaIbyW0Su3/8LM1ZB3PyY9N7Ejp67G52ceVH
+jzcsXKX3CL143xuCh5vaTLPhWq/Rfa5vcf/pkbB+o+l0BJjYqPZC6avi/mt+mE5X
+F2bnNtTf2nmuUbbxFe7BITWbmyWeT24sQiXgfYaTWIJ5IUwPy3p9aCJPQbliXPE4
+08fbOv7MVsAmbVcF7MF8LJR1KqORzvudI5G5PSAuU6zoOn+1Y3+mu15M0kywMgPQ
+E0nX0hF38UIc2FjZRLObLoEtzXPCLRPVTTdZW7lju+I0hTb3t08WEtcgjZoeMcjD
+LtEEPK4NrhiRBDjQh/V05cDnHjaQJnPwqRAuYzKrPluwq1AcCRENjdBUCsdkkIAm
+9w/O3HSyw9WTTOOAf4sYmQXiZuTSlnSJMsBBJ4wiXjFfMkqYC0u64DeKifvrlee9
+DIgEsAHn4YktmkpX0And0hNR2B8BiKsh6IamlFXlFqYtXjjgkVvmu/LCbcxmIYLr
+aAiuxVS0HSxFfhyxlV6dIL/gf0koFqjkJLL8ivecKOwi2Cp/LGlZsPf6IU4sLXFw
+0OTCVfdvEFexqgAz5CTGywkWP97sKD6xmmfYjW+61Q5Q1zvQ+80=
+=4iNO
 -----END PGP SIGNATURE-----
 
---===============2619341650159376204==--
+--===============6895422943586431151==--
