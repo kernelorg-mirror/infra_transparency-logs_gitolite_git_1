@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 03 Jun 2022 13:26:34 -0000
-Message-Id: <165426279411.11449.12838231771253945175@gitolite.kernel.org>
+Date: Fri, 03 Jun 2022 13:27:00 -0000
+Message-Id: <165426282093.11675.11425777205886148595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f9f0a46141e2e39bedb4779c88380d1b5f018c14
-    new: aa2a4ded05058f134a4dee1424f829d662e00cda
+  - ref: refs/heads/for-next
+    old: c4068bc397c5e3c78dae42466a9261f84875f53b
+    new: 5f78d0bdd4aaee89e23da94f5a20b408d1aacdbc
     log: |
          4094981db7b6ed6ebe3ebe398d8d9136ac5c44c8 scsi: mpi3mr: Rework mrioc->bsg_device model to fix warnings
          05fbde3a77a4f1d62e4c4428f384288c1f1a0be5 scsi: sd: Fix potential NULL pointer dereference
@@ -23,4 +23,5 @@ changes:
          1fcbe4c490396c5a0d4588cfb84923ad6076b62a scsi: mpi3mr: Fix kernel-doc
          e250bd2699e0e7418cd54ea2a762acfcfad43ffd scsi: qla2xxx: Remove setting of 'req' and 'rsp' parameters
          aa2a4ded05058f134a4dee1424f829d662e00cda scsi: qla2xxx: Remove unused 'ql_dm_tgt_ex_pct' parameter
+         5f78d0bdd4aaee89e23da94f5a20b408d1aacdbc Merge branch 'misc' into for-next
          
