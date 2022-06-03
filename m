@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6023954226041500554=="
+Content-Type: multipart/mixed; boundary="===============3802091666278164673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 03 Jun 2022 16:30:04 -0000
-Message-Id: <165427380451.4983.6072678470767819108@gitolite.kernel.org>
+Date: Fri, 03 Jun 2022 16:30:16 -0000
+Message-Id: <165427381635.5111.7815856123158716711@gitolite.kernel.org>
 
---===============6023954226041500554==
+--===============3802091666278164673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad
-    new: 58f9d52ff689a262bec7f5713c07f5a79e115168
-    log: revlist-7e062cda7d90-58f9d52ff689.txt
+  - ref: refs/heads/dev-queue
+    old: 74ba827d265743795b31669bc4917a260cf5d76a
+    new: 77979635fde8a77eba6714c4154ee47181479dde
+    log: revlist-74ba827d2657-77979635fde8.txt
 
---===============6023954226041500554==
+--===============3802091666278164673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e062cda7d90-58f9d52ff689.txt
+Content-Disposition: attachment; filename=revlist-74ba827d2657-77979635fde8.txt
 
-2b6aa7332f8020dfdaffe340ff038aac4df35238 kernel/reboot: Add do_kernel_power_off()
-5d34b41aa420c3908793b43419a1097362ca2668 kernel/reboot: Add stub for pm_power_off
-0e2110d2e910e44cc7cf23fce14613e232602602 kernel/reboot: Add kernel_can_power_off()
-fb61375ecfba49e153af561402f49f6fe3bebd39 kernel/reboot: Add register_platform_power_off()
-856c288b0039791f64bdeb16e2a73ae1c8e5e575 ARM: Use do_kernel_power_off()
-cf7e5bf0c68fa4a057ad3297ebdafa1189208236 csky: Use do_kernel_power_off()
-6b22c7365962a80c4e8fb7dea19247cef260e725 riscv: Use do_kernel_power_off()
-0c6499149ebdb2ea7dd3507bb2263e5848c94ad7 arm64: Use do_kernel_power_off()
-f4622fe42484209fe2050b5461d14b6a1dd212ad parisc: Use do_kernel_power_off()
-f089ab674cea43561fee8e3de8d15d864e486286 xen/x86: Use do_kernel_power_off()
-c33fd0b17eab643e13cb8555a0588ae6eee8f657 powerpc: Use do_kernel_power_off()
-f0f7e5265b3b37b0aea3d7601607e2e46ea6a9c1 m68k: Switch to new sys-off handler API
-9b0d0af145195cfd79210b805448a4bcc69f0e04 sh: Use do_kernel_power_off()
-d35773499329300d837818417f6d1b5a7987317d x86: Use do_kernel_power_off()
-d3ad437e68712ad82177e5ae481688a06661f797 ia64: Use do_kernel_power_off()
-2dfb34edfebf8a881914ffc80551fd37d1b632c2 mips: Use do_kernel_power_off()
-bf8d73b934df8aa485dc4650d6d5dfe5a640af4b memory: emif: Use kernel_can_power_off()
-98f30d0ecf79da8cf17a171fa4cf6eda7ba4dd71 ACPI: power: Switch to sys-off handler API
-02a1124defc2571b81c054ae4c5481f1ac7ccf20 regulator: pfuze100: Use devm_register_sys_off_handler()
-5b71808eb7c97815fc3b9c386ca0ef6daf2dc053 reboot: Remove pm_power_off_prepare()
-eae813b755c46c74d65f52fa6b0b1a5476e13551 soc/tegra: pmc: Use sys-off handler API to power off Nexus 7 properly
-d2c5415327171e6c1bca2dc4d8a77f450ecf7150 kernel/reboot: Add devm_register_power_off_handler()
-6779db970bd287bb35b28bd5dc256fd7aef19d1c kernel/reboot: Add devm_register_restart_handler()
-9d6a2d92e450926c483e45eaf426080a19219f4e dmaengine: stm32-mdma: remove GISR1 register
-da3b8ddb464bd49b6248d00ca888ad751c9e44fd dmaengine: stm32-mdma: fix chan initialization in stm32_mdma_irq_handler()
-2763826966808800beeda5db406b3b704edc8137 dmaengine: stm32-mdma: use dev_dbg on non-busy channel spurious it
-6c3c2066d6dc317fd05893d4ce07b2f3633e3e2a dt-bindings: dma: pl330: Add power-domains
-1934fee67593c561ef883761bf2ddee82f908ed9 ACPI: video: improve PM notifer callback
-c7399e6d3b18dc17974bc44e2e178664f1bd1bec dmaengine: qcom: gpi: Add support for sc7280
-d0b360e3c164be7ccc8eb2bfc341287959e27040 dmaengine: stm32-dmamux: avoid reset of dmamux if used by coprocessor
-db60a63eb6850fce081c1a22e7318e5d37f4dcf5 dmaengine: stm32-dma: introduce stm32_dma_sg_inc to manage chan->next_sg
-ded6230691e00b0f31afc8aa18f26c57072ff58f dmaengine: stm32-dma: pass DMA_SxSCR value to stm32_dma_handle_chan_done()
-baa1424314f8e4bb5b266aaf9cc7fb7a9e65901b dmaengine: stm32-dma: rename pm ops before dma pause/resume introduction
-099a9a94be0e1c7fa45410deb2bff640320c3819 dmaengine: stm32-dma: add device_pause/device_resume support
-39b930bec80e7af4faae4caf4a36464a6d003bed dmaengine: tegra: Fix uninitialized variable usage
 360e4f4e3fcceb9c24ee509f9eb4ed48759b3918 dmaengine: tegra: Remove unused switch case
 59e477763d092923f567051e1bbfbb4e04d0dfbf dt-bindings: dma: sun50i-a64: Add compatible for D1
 9aa48806edb8c37e82532dbc6098b03f6bd4245e dmaengine: sun6i: Do not use virt_to_phys
@@ -1050,5 +1015,40 @@ e9d3f80935b6607dcdc5682b00b1d4b28e0a0c5d net/af_packet: make sure to pull mac he
 c399c85d60a4295bd911d366399a97df2865fb86 Merge tag 'pci-v5.19-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 73503963b715a64a44aa2b1c486114b917a17c73 module: Fix prefix for module.sig_enforce module param
 58f9d52ff689a262bec7f5713c07f5a79e115168 Merge tag 'net-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+dd538f1d118a3ce453e1b649ecd80258bfd20a7d ice: Add support for double vlan in switchdev
+cac4bee9987d2d0881b32b836e2ceb606577344a ice: Add support for vlan tpid filters in switchdev
+73aadc4b412c00cdc86543448746e0f32fd2238b i40e: Add VF VLAN pruning
+57cec773b2b5db1315a177c8410071ac36b450b6 ice: switch: dynamically add vlan headers to a dummy packets
+37a442681dd66c3309271e672112b7e25e9b1744 ice: don't set VF VLAN caps in switchdev
+158e9a9cdf95b76f0d6c5e0605755b13b0631d08 ice: remove VLAN representor specific ops
+491402bc9ffc8026b24768d663d1f2e1232510d0 ice: remove u16 arithmetic in ice_gnss
+5e579bda47cd7ae814c906e039e06a45314be834 i40e: Fix adding ADq filter to TC0
+f026591db8cfc0bf233e0c4813e1195f686e24c3 i40e: Fix calculating the number of queue pairs
+dcfc7dfa8843b85d168b812dc03208e3b96dad37 ice: prevent low-core machines crashing on DCB config
+fad64819f82b719cbafb46e0c4712b66e7d9947f ice: ignore protocol field in GTP offload
+c1567b8618605c531df1f830071dc67edecbf32e ice: Fix PTP TX timestamp offset calculation
+836e84841c7fb3dfdac324b8120b965dbbeef2db i40e: add xdp frags support to ndo_xdp_xmit
+93f7ee23188de209fd82456ca443d5ab20a78e33 e1000e: Enable GPT clock before sending message to CSME
+c76a75b15fdae848db9dfbf278ce60194f3c8028 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+ee1ffc94d10e30db9fd83b86f70cfa5145ae3671 ixgbe: export vf statistics
+dbbefd51973308df3e85153fc15adbb1f76f1752 intel/i40e: delete if NULL check before dev_kfree_skb
+ae933c2704b83b1bf1c83d4a22f8945daf94db57 i40e: Add support for ethtool -s <interface> speed <speed in Mb>
+754b7d77aae28e13b4d9ced0e2b69bb43d6c7a7b i40e: Fix call trace in setup_tx_descriptors
+62f2d08f7c6b9e666fdb6190bb38132a733a6884 ice: use eth_broadcast_addr() to set broadcast address
+5653023c981c57d8d1bb1c4db3b16b61468aba1b i40e: Remove unnecessary synchronize_irq() before free_irq()
+249ba06cd3d1a38c36859a614c5f50b6d69d02c4 iavf: Fix issue with MAC address of VF shown as zero
+d2e068cd1d1c7cec42b0491a2f78a3289d23633a i40e: Fix interface init with MSI interrupts (no MSI-X)
+528935a9ed0606b2dab2b02157bb23fc1b76fd77 ice: Fix switchdev rules book keeping
+a0d88840d4f0d93937d67d22dea33dda9bff32ce iavf: Add waiting for response from PF in set mac
+3a8b0c089ed3fb3d3e4f0456bae0792decc53151 ice: Use correct order for the parameters of devm_kcalloc()
+cbfa63b2e6bc81767df23dd9250e133b2cf52039 drivers/net/ethernet/intel: fix typos in comments
+dffb9817ed8f8b1b236bc66f8455076af05ff5df ixgbe: fix bcast packets Rx on VF after promisc removal
+16dd4ba9390c31458d76636ad9a1024b1e0aeab3 ixgbe: fix unexpected VLAN Rx in promisc mode on VF
+3e43177dc86999974a8a52d6788ff54a80f69e57 igb: Make DMA faster when CPU is active on the PCIe link
+a878fa700f11055d6b24abaea95f53b151b2cf3a igb: Remove duplicate defines
+09fd557465a69ad8ec17e9d559b2b4e7e0a59d5b i40e: Fix dropped jumbo frames statistics
+1a6e8c598e1d5cf8554f51f77f88e329a539ea56 e1000: Fix typos in comments
+da676d5f79189bb3bf3612b06556c348e28c5ebc ixgb: Fix typos in comments
+77979635fde8a77eba6714c4154ee47181479dde ixgbe: Fix typos in comments
 
---===============6023954226041500554==--
+--===============3802091666278164673==--
