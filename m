@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============8217740904027038386=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Fri, 03 Jun 2022 18:37:49 -0000
-Message-Id: <165428146932.26174.17295494046806352809@gitolite.kernel.org>
+Date: Fri, 03 Jun 2022 18:44:14 -0000
+Message-Id: <165428185406.31173.6319434063393686737@gitolite.kernel.org>
+
+--===============8217740904027038386==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,210 +15,73 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/tags/5.10-android12-9
-    old: 0000000000000000000000000000000000000000
-    new: a35f5428fd7870a9a4ea69d702755c590c0ec622
-  - ref: refs/tags/5.19-rc1-4.14
-    old: 0000000000000000000000000000000000000000
-    new: a711ea45de2ef398d0fb66d13cab0d2a9dbe79a4
-  - ref: refs/tags/5.19-rc1-4.19
-    old: 0000000000000000000000000000000000000000
-    new: bb2449b3b611e83ea70e79d126a3054d903002b6
-  - ref: refs/tags/5.19-rc1-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3b91f3bc1f8973c20c5f47d6febed3cc61e2c7ed
-  - ref: refs/tags/5.19-rc1-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 9d03ec1e540d7638e75492d01016428728b06d4f
-  - ref: refs/tags/5.19-rc1-5.4
-    old: 0000000000000000000000000000000000000000
-    new: a63f2b83e94ba63c182d3d11157c9d96665f5394
-  - ref: refs/tags/ASB-2020-06-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: a76460ef0fcadb2f967d6c1a072637db208fb146
-  - ref: refs/tags/ASB-2020-07-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 31a69aa0eb2e1c17c9273169efa85dcba12aa746
-  - ref: refs/tags/ASB-2020-08-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 666d236a4739524ec8b762c76ef983e6116be7be
-  - ref: refs/tags/ASB-2020-09-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: d928209f7bec43426bf5feb3b05b527ce507204a
-  - ref: refs/tags/ASB-2020-10-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 9730a0fc009d3e98f821f49d6a90a2996b0986cc
-  - ref: refs/tags/ASB-2020-11-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 6792629049b02e72b76b0d505254ca55cf9e1984
-  - ref: refs/tags/ASB-2020-12-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 2e72e797df0b55e4e42978484a8128db3164add7
-  - ref: refs/tags/ASB-2021-01-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 01b19624f79ca4084be6ca3a4b2ac4d965aeb8c9
-  - ref: refs/tags/ASB-2021-01-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 076e26b7b8589a0f873b6fa7edd50b1cb5626138
-  - ref: refs/tags/ASB-2021-02-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 4ebf6835b279b8ed23d49f868cb240c3c5db2cf4
-  - ref: refs/tags/ASB-2021-02-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 9a6f1d8d7fdee860140b9424da802c9f881314a9
-  - ref: refs/tags/ASB-2021-03-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: bfa1ca99cebf017db67092b007247af3973884c6
-  - ref: refs/tags/ASB-2021-03-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 9a2a5550c993df458b20027b6d2e1daa1a3b856a
-  - ref: refs/tags/ASB-2021-04-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 02cfc2bd684d56eb9924e1bfbc934d5ff5742658
-  - ref: refs/tags/ASB-2021-04-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 477f7900bee60a2ae0bea84704c093f85a9f118a
-  - ref: refs/tags/ASB-2021-05-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: d4964b85c64d3f782fa69e2a2f2f3668f97e1eb0
-  - ref: refs/tags/ASB-2021-05-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 4920b749e8b08de44ae3841bda9f74953909abfb
-  - ref: refs/tags/ASB-2021-06-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: c0bcc1426c4b098ef25225d0140c790817ba85a0
-  - ref: refs/tags/ASB-2021-06-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 9a7e18cd3f2d7604ba177a3d4850a8a93294999a
-  - ref: refs/tags/ASB-2021-06-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: d6e79cf86e8cb526a3a0987b835fb19f8b386cff
-  - ref: refs/tags/ASB-2021-07-05_12-5.10
-    old: 0000000000000000000000000000000000000000
-    new: cf072a221c7ec094c1894ada7e7193a2d9c363be
-  - ref: refs/tags/ASB-2021-07-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: cc5f1f69263b37adf4aaca99d8daeaebfa2a9882
-  - ref: refs/tags/ASB-2021-07-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 56457d82d302b529bc82f38bb34430437afc1f85
-  - ref: refs/tags/ASB-2021-08-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 34e02bc5eefb369b44c36096a6b1baa8cfaa6fd3
-  - ref: refs/tags/ASB-2021-08-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: fa65fa989076d242da4fb3daa557c3347ffc610e
-  - ref: refs/tags/ASB-2021-09-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: e2f0f98c708b19137d6e2b6e2610b5e137f19309
-  - ref: refs/tags/ASB-2021-09-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: e86f51d730bf416a3b59832d94123e6a1f7f0d55
-  - ref: refs/tags/ASB-2021-10-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f122a4c4abd3e8cb86f6114c2461bb2e6affb10
-  - ref: refs/tags/ASB-2021-10-05_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 32753d8018cc0d32166f3c679a8ae9233a52c7df
-  - ref: refs/tags/ASB-2021-11-06_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 818808bc0bcdf78f809629f358694228663294da
-  - ref: refs/tags/ASB-2021-11-06_mainline
-    old: 0000000000000000000000000000000000000000
-    new: 91abab09174fb4dbf0eb0bd9dfd4383bcb202a43
-  - ref: refs/tags/ASB-2021-12-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: f695283440351a076823244fad4b35fafb5b79ac
-  - ref: refs/tags/ASB-2021-12-05_13-5.15
-    old: 0000000000000000000000000000000000000000
-    new: c3a253762cd189bf069a9471ba0814be0818655b
-  - ref: refs/tags/ASB-2022-01-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 39a4f4f2efbd1f070d1eca4dbc15d86d02107461
-  - ref: refs/tags/ASB-2022-01-05_13-5.15
-    old: 0000000000000000000000000000000000000000
-    new: cbf849728fa13d2dbbf63dcb6f72a9c0b59dd4ae
-  - ref: refs/tags/ASB-2022-02-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 5c3c38c23925c56229f21d5106dc9188cf56a64c
-  - ref: refs/tags/ASB-2022-02-05_13-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 132c2e5a3445561d3d96ee93dd9d02f3139bea29
-  - ref: refs/tags/ASB-2022-03-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 0037680c65de8965d1552dda5ba2c683de78b1f6
-  - ref: refs/tags/ASB-2022-03-05_13-5.15
-    old: 0000000000000000000000000000000000000000
-    new: da2938832c9c7d6dc3614360dc3cd563dee6e9cc
-  - ref: refs/tags/ASB-2022-04-05_13-5.10
-    old: 0000000000000000000000000000000000000000
-    new: e297cf75810c01c0f6e92a498db21d7c3b3f78d9
-  - ref: refs/tags/ASB-2022-04-05_13-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 029e1e52b58ad2fe5454fb744d111c16a7bbd792
-  - ref: refs/tags/android-mainline-5.10
-    old: 0000000000000000000000000000000000000000
-    new: 71dcfca1adb107ce832f6c06a5db95d1cfb2e2d5
-  - ref: refs/tags/android-mainline-5.11
-    old: 0000000000000000000000000000000000000000
-    new: 7b5acb2d8671b701b9105aad9427ffd0095d79bc
-  - ref: refs/tags/android-mainline-5.12
-    old: 0000000000000000000000000000000000000000
-    new: 31f15042efe584ce737fdb16db4e6c01e55ff410
-  - ref: refs/tags/android-mainline-5.13
-    old: 0000000000000000000000000000000000000000
-    new: 5d43863bab4fb18b92506c72f6638646f7452bc8
-  - ref: refs/tags/android-mainline-5.14
-    old: 0000000000000000000000000000000000000000
-    new: 2fc93d4669c9dbe2dc4ec31095d883d1a9463f51
-  - ref: refs/tags/android-mainline-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 5b30908110e23578a1e31a0de9ab2bd17b9821a2
-  - ref: refs/tags/android-mainline-5.7
-    old: 0000000000000000000000000000000000000000
-    new: bcb8fcec5310f528a97ae8b79fc779abf2bfb4a1
-  - ref: refs/tags/android-mainline-5.8
-    old: 0000000000000000000000000000000000000000
-    new: 387d88ce1d539fe264060889d6f4dad1ba59689c
-  - ref: refs/tags/android-mainline-5.9
-    old: 0000000000000000000000000000000000000000
-    new: d6f483f2ed80a726e373431f52f7139ddd394e23
-  - ref: refs/tags/android-t-preview-1_r0.4
-    old: 0000000000000000000000000000000000000000
-    new: e06f8866b791f65945eb0fb3d018940d71795436
-  - ref: refs/tags/android-t-preview-2_r0.4
-    old: 0000000000000000000000000000000000000000
-    new: a6ada871a67fceb8a3043a8fb14b321ee2693717
-  - ref: refs/tags/android12-5.10-2021-07_r1
-    old: 0000000000000000000000000000000000000000
-    new: 178e222363352d9b99539a0ec6fa62e3dd8ab046
-  - ref: refs/tags/f2fs-fix-5.18
-    old: 0000000000000000000000000000000000000000
-    new: 607c4a6a20573608391d99d2ff12001a0d6f91a0
-  - ref: refs/tags/f2fs-for-5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fa18d9e3475d4020f0cecc9df31a7b644d5bc846
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
-  - ref: refs/tags/v5.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
-  - ref: refs/tags/v5.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/heads/linux-5.15.y
+    old: f78d4e66260f075f899991ec5c46e95d20c73417
+    new: 2c7e69438d7f6a786193aa49908fb71ff7bc86c9
+    log: revlist-f78d4e66260f-2c7e69438d7f.txt
+
+--===============8217740904027038386==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f78d4e66260f-2c7e69438d7f.txt
+
+fa33f94b9954bab030f58021167e538360bcff9c FROMGIT: scsi: sd: sd_zbc: Improve source code documentation
+90f56ddc367201faaac396b85542ef6db471baf6 FROMGIT: scsi: sd: sd_zbc: Verify that the zone size is a power of two
+b58cf8995b1ab298b5f06f5c550b580b881d29b2 FROMGIT: scsi: sd: sd_zbc: Use logical blocks as unit when querying zones
+368693d3e2fb53a3a0d1b83ded05eaa736500570 FROMGIT: scsi: sd: sd_zbc: Introduce struct zoned_disk_info
+2f6918f3a3102092d49c169cd55b991130ff2a30 FROMGIT: scsi: sd: sd_zbc: Return early in sd_zbc_check_zoned_characteristics()
+7eae3febdf0124a034cbbc754faa9abc33e2d570 FROMGIT: scsi: sd: sd_zbc: Hide gap zones
+b27960f1089cafe59ed69fcdaf4b580c382e59f1 FROMGIT: scsi: scsi_debug: Fix a typo
+c8622f49e4c90c9597b3f41f2fe4d94e28325cc3 FROMGIT: scsi: scsi_debug: Rename zone type constants
+423088083d83d996ce855274cfcf415381703b9e FROMGIT: scsi: scsi_debug: Add gap zone support
+e643f0f8520dd4c50c141a09c34673b78e3ac725 f2fs: replace congestion_wait() calls with io_schedule_timeout()
+e8e3f1a12d05d0aef2c819664890b540dfb055af f2fs: don't pass a bio to f2fs_target_device
+9fb1cfcd65adb25602acfd2a25c4cf047e532f84 f2fs: pass the bio operation to bio_alloc_bioset
+fdf493a2d35cb01f0472ef5cd5a9dc7a4f745c76 f2fs: remove obsolete whint_mode
+f983ae971a917699dcde0c8036d62739b0b9264d f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
+91e1b07af1bf34a999a7e08e4966f1b50d4887a2 f2fs: fix wrong condition check when failing metapage read
+0084ddbc302370f50cd7afc49b1fe92e0c0bcccd f2fs: should not truncate blocks during roll-forward recovery
+1e3f2b54b00d0d9a82d44728bd8959b8a7958804 f2fs: check pinfile in gc_data_segment() in advance
+e1fc90b5f5770d82d1a4f9341f9450a3fce01952 f2fs: don't set GC_FAILURE_PIN for background GC
+9424a9fdc163182ff119a82a6caa322628006e5d f2fs: remove unnecessary f2fs_lock_op in f2fs_new_inode
+4722ee2c4c199d46d485ba6ea72a655d506d87cc f2fs: introduce data read/write showing path info
+0b8c2cb3f899246bde95b53405dfe8a260abab48 f2fs: fix to do sanity check on inline_dots inode
+5d724a393a437ec34c1368c9a38f4a3244e9601b f2fs: fix dereference of stale list iterator after loop body
+436b60432a59dc7b4cb8b0f579a954e5b7808162 f2fs: Remove usage of list iterator pas the loop for list_move_tail()
+4c22a6785d79ee57fd8b38f4210aaaece163fc80 f2fs: replace usage of found with dedicated list iterator variable
+f763cdd4f63d4b82ce276ee9974ef1b287ece764 f2fs: remove WARN_ON in f2fs_is_valid_blkaddr
+50cf7ef92fe740e8b49d0402c8a2e7b6feac3323 f2fs: use flush command instead of FUA for zoned device
+23710ade20183246da80445dacb7f9eb59a4ea88 f2fs: avoid infinite loop to flush node pages
+17aed49ed16aef9b9c4e769113361a39ff421818 f2fs: extend stat_lock to avoid potential race in statfs
+18e09a823ff33c414757045cd89d7c6a2b9855fd f2fs: call bdev_zone_sectors() only once on init_blkz_info()
+f634322eac286b806b0613809d67eb470f208ca8 f2fs: ensure only power of 2 zone sizes are allowed
+6f974a68fc86e9f287ded649a5479b6136954e01 f2fs: fix to clear dirty inode in f2fs_evict_inode()
+b2593de2475c8346d53ec05ab344585756dfb040 f2fs: write checkpoint during FG_GC
+3511949cefb93ae240445a6a952797d3a84e747d f2fs: fix to avoid f2fs_bug_on() in dec_valid_node_count()
+354c050902c634c278f405b0c4e421aefdec5731 f2fs: fix to do sanity check on block address in f2fs_do_zero_range()
+329e9031091a0e880a0deddb68de7bd31af37086 f2fs: fix deadloop in foreground GC
+8e285631dff46cdf3f672ae904b518915130488a f2fs: fix to do sanity check on total_data_blocks
+bf123c9ddf34b3b6d0bb9b46f64478daf01b4f1f f2fs: give priority to select unpinned section for foreground GC
+f37569f8d67002308a1b9a661367cc4ec92c7639 f2fs: skip GC if possible when checkpoint disabling
+d8a5f0ec1110c98a55ad449fe0f25f6ed39b98c2 f2fs: stop allocating pinned sections if EAGAIN happens
+2d86f7572df449196671794db0587c44235691d1 f2fs: don't need inode lock for system hidden quota
+77c0800191374e45230484de20a7a3b6953e7134 f2fs: change the current atomic write way
+87a38cac9eb1e8ea28aa015713ae5d179e023057 f2fs: kill volatile write support
+8f08a1a4cedc85fb6c5d7da5b69eba68e1893c1c f2fs: reject test_dummy_encryption when !CONFIG_FS_ENCRYPTION
+42368edd88b9943f501a2c3ebffa2274131a5bca f2fs: introduce f2fs_gc_control to consolidate f2fs_gc parameters
+b86a2a1564d2685ec1c70810d9eb85af714d839f f2fs: keep wait_ms if EAGAIN happens
+1fb82674e063a4d46f56f089a738a495a9ac21a1 f2fs: do not stop GC when requiring a free section
+017e64bde295dd28eb3aafad27b1bc4790fc7d61 f2fs: don't use casefolded comparison for "." and ".."
+41df0435a8e522b33e91ec4ab96f096e381ea4cd f2fs: fix fallocate to use file_modified to update permissions consistently
+3f134b1b1b53474fe09f96bc7ebac879cb8a8c7a f2fs: fix to do sanity check for inline inode
+0671eb7794e062d4a9056c2019af04faec4aeac4 f2fs: make f2fs_read_inline_data() more readable
+e5b8b3371beba1e3207f7de7c250a324ae94a612 f2fs: fix typo in comment
+77142c3cf71f09dcf3fb2ef43926a29e2cfd2ae3 f2fs: allow compression for mmap files in compress_mode=user
+f9a80689503d13961c9ca5ccad010b01586da430 f2fs: avoid unneeded error handling for revoke_entry_slab allocation
+d4affd1238e1794cc72ccef5096e976f5f428198 f2fs: add f2fs_init_write_merge_io function
+9fd22b27c8ee58594c05ebd8188c0edaac50b894 f2fs: replace F2FS_I(inode) and sbi by the local variable
+9d03ec1e540d7638e75492d01016428728b06d4f f2fs: fix to tag gcing flag on page during file defragment
+2c7e69438d7f6a786193aa49908fb71ff7bc86c9 f2fs: attach inline_data after setting compression
+
+--===============8217740904027038386==--
