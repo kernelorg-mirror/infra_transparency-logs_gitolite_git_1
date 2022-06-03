@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 03 Jun 2022 21:37:21 -0000
-Message-Id: <165429224108.20673.7170266680152052224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 03 Jun 2022 21:42:04 -0000
+Message-Id: <165429252437.23816.10490909856607404411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/net-mlx5
-    old: f57cabfee697e63cc7e565c985cdfbaee9ee80b3
-    new: 3a6292eba36373ea9dd4289d7aaddb867f316fe1
+  - ref: refs/heads/master
+    old: f913ad6559e337b464cbd935f0ec1bacbdd95405
+    new: 43496801c7bd7a4a7f05165ddae6b91a228b098a
     log: |
-         3a6292eba36373ea9dd4289d7aaddb867f316fe1 Revert "net/mlx5e: Allow relaxed ordering over VFs"
+         43496801c7bd7a4a7f05165ddae6b91a228b098a selftests/bpf: Add drv mode testing for xdping
          
