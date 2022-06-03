@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 03 Jun 2022 13:27:00 -0000
-Message-Id: <165426282093.11675.11425777205886148595@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5748669015034500816=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 03 Jun 2022 13:36:56 -0000
+Message-Id: <165426341653.17961.14658635206823221749@gitolite.kernel.org>
+
+--===============5748669015034500816==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c4068bc397c5e3c78dae42466a9261f84875f53b
-    new: 5f78d0bdd4aaee89e23da94f5a20b408d1aacdbc
+  - ref: refs/heads/master
+    old: c2cc13a99f16085fdbac1de2717b70b2563173e6
+    new: 047516b3c30d1cd0ce8dbf5aa599fb340391ab80
     log: |
-         4094981db7b6ed6ebe3ebe398d8d9136ac5c44c8 scsi: mpi3mr: Rework mrioc->bsg_device model to fix warnings
-         05fbde3a77a4f1d62e4c4428f384288c1f1a0be5 scsi: sd: Fix potential NULL pointer dereference
-         30c4fdc3dcdd1f08876300711778d8b680d54b36 scsi: sd_zbc: Prevent zone information memory leak
-         b3bc1a88b534b3ef880a5124f3db45c149e601ee scsi: core: Return BLK_STS_TRANSPORT for ALUA transitioning
-         a5b168efba215229465d9a1a0e77b83073c7bfd0 scsi: lpfc: Add support for ATTO Fibre Channel devices
-         1fcbe4c490396c5a0d4588cfb84923ad6076b62a scsi: mpi3mr: Fix kernel-doc
-         e250bd2699e0e7418cd54ea2a762acfcfad43ffd scsi: qla2xxx: Remove setting of 'req' and 'rsp' parameters
-         aa2a4ded05058f134a4dee1424f829d662e00cda scsi: qla2xxx: Remove unused 'ql_dm_tgt_ex_pct' parameter
-         5f78d0bdd4aaee89e23da94f5a20b408d1aacdbc Merge branch 'misc' into for-next
+         047516b3c30d1cd0ce8dbf5aa599fb340391ab80 4.9-stable patches
          
+
+--===============5748669015034500816==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654263413 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1654263413-e8498d28eecf10a496de70804755bffad6eada13
+
+c2cc13a99f16085fdbac1de2717b70b2563173e6 047516b3c30d1cd0ce8dbf5aa599fb340391ab80 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKaDnUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O6IQANHCp0KmZuP9Mmk+ndAI
+K1l/+9OSE11owRG9k+uvPpwKJkdDSt+NX5JfUp0pqwcDSFx6SQApSa3SlB68VwLy
+i0jDll2SQ8peB4R9wRxNSj75W7VCbZ8XEDkn6V9eYOB+b58b8AmdKqT4wMjNpDQq
+N7H7Qu1zHw/Rnp7CBMvKyehYyeU6PIP012wXsZhY2bPeRPqav0t6RnWD51UOLyqD
+zzWdIVkVyCNxPbGaArbkUxReIF4liIxQs8Gcej7co+Oe7DT1W0mQ62ushCx1OQf7
+u7s2wQWcMBXaXwyFKuTTqaEGJxGX11juL0bQKLuOLAT0sWskDLnZ6O6yYXdEpe38
+RHSX7ugv97nLV/a53if/tIyI//zpnAe5gbbwluYNrmztuYOGXps71bsfc+MKKW3q
+eFI1AlyuhEECZ7yCY7wljb67VaNW1op17drCImqbtJbTc6MhNrL7cQBd/asEkzLQ
+32+6v9FtqO2r6j9rLn/FsVMwV3S9sQYk6NCQsjVKDTkvrN49bHZPqVFnRjGBLr8z
+0C6+MZQrobmw2ZWRjnypiuMd7LOzyAWuh8QtmPDzH54XLo7WdNvPhFI5yodqK/3F
+lTvBWu0AIx37HmqrJlmqX0I7oWeYQGZTp2XlAnSU9lhnRzmy+ombF7ig+GklC9wG
+ntJN8m92BqPg/JFcEtNyEwbG
+=kPfJ
+-----END PGP SIGNATURE-----
+
+--===============5748669015034500816==--
