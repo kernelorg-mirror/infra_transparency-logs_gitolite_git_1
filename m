@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6216956677571490588=="
+Content-Type: multipart/mixed; boundary="===============5712815148118977458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 03 Jun 2022 12:10:40 -0000
-Message-Id: <165425824003.27360.6062311576638222417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 03 Jun 2022 12:25:49 -0000
+Message-Id: <165425914940.5289.15621551594870624199@gitolite.kernel.org>
 
---===============6216956677571490588==
+--===============5712815148118977458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/loongarch-next
-    old: fb575e32bdd27d57b1587227abea8d4ea2eccb71
-    new: 8be4493119b0aedf7dd61e1ca520fb398537b53e
-    log: revlist-fb575e32bdd2-8be4493119b0.txt
+  - ref: refs/tags/loongarch-5.19
+    old: 284d68d77c0d72e31794908f5c53a5af2d7f4cd7
+    new: dc867d33007b5030e5565038031b8c14cf6632b9
+    log: revlist-284d68d77c0d-dc867d33007b.txt
 
---===============6216956677571490588==
+--===============5712815148118977458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb575e32bdd2-8be4493119b0.txt
+Content-Disposition: attachment; filename=revlist-284d68d77c0d-dc867d33007b.txt
 
 987a3e03c821366b7c62b41b1516138181e51764 irqchip: Adjust Kconfig for Loongson
 fa84f89395e0383b94ae2822003d8940fdb24d3c irqchip/loongson-liointc: Fix build error for LoongArch
@@ -51,4 +51,4 @@ d4b6f1562a3c3284adcef81d6e4f183d7d34b8a9 LoongArch: Add Non-Uniform Memory Acces
 9e8536e261165db0795bebaaa0aa92b8ba35f3e3 LoongArch: Add Loongson-3 default config file
 8be4493119b0aedf7dd61e1ca520fb398537b53e MAINTAINERS: Add maintainer information for LoongArch
 
---===============6216956677571490588==--
+--===============5712815148118977458==--
