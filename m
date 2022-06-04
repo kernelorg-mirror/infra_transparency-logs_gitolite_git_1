@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8066933470510685599=="
+Content-Type: multipart/mixed; boundary="===============6228377239683149327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 04 Jun 2022 09:49:05 -0000
-Message-Id: <165433614577.17521.7821043992394481800@gitolite.kernel.org>
+Date: Sat, 04 Jun 2022 09:49:09 -0000
+Message-Id: <165433614968.17583.3825143559866185683@gitolite.kernel.org>
 
---===============8066933470510685599==
+--===============6228377239683149327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 97fa5887cf283bb75ffff5f6b2c0e71794c02400
     new: 032dcf09e2bf7c822be25b4abef7a6c913870d98
     log: revlist-97fa5887cf28-032dcf09e2bf.txt
 
---===============8066933470510685599==
+--===============6228377239683149327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654336145 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654336148 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1654336143-97970711ef014c5f20cd1a7e12d510470857cc77
+nonce 1654336147-40f3c0e6d6eef7675a1dfc10f6abae380fb2599f
 
-97fa5887cf283bb75ffff5f6b2c0e71794c02400 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/usb-next
+97fa5887cf283bb75ffff5f6b2c0e71794c02400 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKpEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8bUP/1YqHeCuRcIaR3DaJ56z
-eFU/kKjghN1SU4Ic+T+ZMqJK+m3CSio0fmZtqvfJCMdpn+mEQdDNNvB2M6FT/Cpy
-MWBCn3E7IWkmwO1gM7PW+R096cZ5ckk8tSQ73gK1F0mQUv1WWUZvXbequN3FFMyN
-a4Dy8rKOA7esnRb9Ab7hsYpCR/sajwfDMCkT6oAns2uzzrg0sq9JoDcVxfbVybLw
-kXoU0bsIiij79iyYHK/BTYeEWgIhfzz+HHLv+fqM6KYnGq19yJJ62QuIU8aG0LyE
-NRfEbfMdRIdTdArbdh1fi4p84SZ2KS/qb1i9nSJd2fDOwmwevIrby830Tida3YKG
-GsAgAZB3zOa6/EiHP8glKvWtbfLiGmQPFVZ26sdoOyO66kwDcBe7veEKZpIW74AJ
-SxHuR+7pjcz8FRB30nsmeZnkivWKwbcLrtMNQB67250YVrosC00eYMkyCLhAKjlQ
-LHEuoWjKqtxe9WzdAY5rZqDCX7lJFT32x0OCJFX7DPZ2ka3IM+aXdzF7lDdr3wDV
-sLhFrnYKzpa396JEb9r3dzSn45mdcG5cJN3xiObLWKY9wrsy0TZX1/Ot8DZgq0Rq
-tjKzUEIv0NAYOC1TxW027csPtbTe8lVHH0i/+TDS66IBefxRPtOugFViXAZapCfA
-QyB0+oK0jFhkou84TTHublGa
-=BTog
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKpQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PPkQAKVgDyTsXwHTA5r+JUQr
+G2ZPXF78rrHnzKIAtJeW88YArjn164x4FQ2pwqOO1jDjc0UAWbd5dkSrifgkGp1s
+HEICKYLA1NOoFjkvTSFcV0BUfJBtCcvS623TbGjKG9kBeDKz4xEHzdC8yCZFMyPj
+0odx3FaYYzVORRuWxfvtF5D2Ae7koA236ZCzAg1sqlWqpZ/K1Wqej8KJSAqxB7RR
+tJnx2gsGmDT0FxBWhi6+2p5ylrAyDI9mbzFoWgQ+1eEm+mZy8cq5P0Ln5pXKUwyt
+1ko1Rp+lI5JdOj9WmRwARRdOX63L6q9zUDmXvENACqWQ6JXDPVleZVaiwobKVqjj
+QotK29CbwXQEtDJTHTAWfEL3zV/yZ4VqUfb4TP5gg0FhOVflE46+VpBLXfm+5TJ3
+sVv/9ekZt7qLqMS2WegWe91PIpFd2/rbdcB6Dj/3vtOcCcn7EM8jraxAOM3MVYzy
+p2pIDKYqNbFzN8amp5INkUmoFzFj8Z8Nl2xSWEeEKebq8yntTN3IlMjauvigDQIV
+fCavBPEfXkZTTP9Ba8ToNxbBXj+aZDom2ykvoRy7mHukoZvV8JtfF6OT3f1iFCKJ
+pqPjVwbshWor5A1265g9G5e0YsMeB0q2nvy56u/UViah1JzMUFT9N+0N7HKfqF/x
+z8rpndUGp9SegQhpjDgIxiUC
+=RFm6
 -----END PGP SIGNATURE-----
 
---===============8066933470510685599==
+--===============6228377239683149327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============8066933470510685599==--
+--===============6228377239683149327==--
