@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Sat, 04 Jun 2022 20:06:35 -0000
-Message-Id: <165437319582.23913.15946876493088413241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Sat, 04 Jun 2022 20:12:04 -0000
+Message-Id: <165437352466.27343.5220279361840830298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: b2ed779ce9276a8f379cb72537eff37f01fd3020
-    new: d555a867fb97f4d3a43b21f09df87d8526223c8f
-    log: |
-         5c1cc7729daa268cb166d0218089efaa52a91571 build: Update to support Autoconf >= 2.69
-         d555a867fb97f4d3a43b21f09df87d8526223c8f build: Require at least version 0.51 when building with external ELL
-         
+  - ref: refs/heads/erofs/initrd-fsdax
+    old: 0000000000000000000000000000000000000000
+    new: 2621d398880ea0be83c3f6df3af8b988c3ee4e6d
