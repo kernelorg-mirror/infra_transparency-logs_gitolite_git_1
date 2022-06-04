@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4560573116087324881=="
+Content-Type: multipart/mixed; boundary="===============2971405653142168324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 04 Jun 2022 20:54:48 -0000
-Message-Id: <165437608830.22694.4083764952618311937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 04 Jun 2022 21:13:10 -0000
+Message-Id: <165437719085.3128.14796122669209868394@gitolite.kernel.org>
 
---===============4560573116087324881==
+--===============2971405653142168324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 032dcf09e2bf7c822be25b4abef7a6c913870d98
     new: 23df9ba64bb9e26cfee6b34f5c3ece49a8a61ee1
     log: revlist-032dcf09e2bf-23df9ba64bb9.txt
 
---===============4560573116087324881==
+--===============2971405653142168324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b046f984814af7985f444150ec28716d42d00d9a parisc/stifb: Keep track of hardware pa
 4ccbe91de91a8f9559052179d15c0229a8ac9f8a Merge tag 'for-linus-5.19-rc1b-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 23df9ba64bb9e26cfee6b34f5c3ece49a8a61ee1 Merge tag 'for-5.19/parisc-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============4560573116087324881==--
+--===============2971405653142168324==--
