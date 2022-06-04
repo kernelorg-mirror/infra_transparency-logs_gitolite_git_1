@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7698902474367109438=="
+Content-Type: multipart/mixed; boundary="===============5163358176088677952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Jun 2022 09:43:21 -0000
-Message-Id: <165433580197.12672.7850954615130454478@gitolite.kernel.org>
+Date: Sat, 04 Jun 2022 09:43:25 -0000
+Message-Id: <165433580585.12840.6065967805331305315@gitolite.kernel.org>
 
---===============7698902474367109438==
+--===============5163358176088677952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: b232b02bf3c205b13a26dcec08e53baddd8e59ed
     new: 032dcf09e2bf7c822be25b4abef7a6c913870d98
     log: revlist-b232b02bf3c2-032dcf09e2bf.txt
 
---===============7698902474367109438==
+--===============5163358176088677952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335801 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335805 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1654335800-f6112614309e53bc96a479440f106ac09746c1f9
+nonce 1654335804-61351a29dc52b99ddf10bf2a018f90f320641f7b
 
-b232b02bf3c205b13a26dcec08e53baddd8e59ed 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/driver-core-next
+b232b02bf3c205b13a26dcec08e53baddd8e59ed 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKTkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vewP/3LjUEKAURHIMmwJSfaa
-C5e98KpYiZkVT71MD3lxGP8V0iCpj3ERjrC/h5sBtzx/0ZC4+acWiSJWzGJAM91t
-3uEg5/oXEXOHZ1A5L+9OEB/Glwr34l19uw2HXGIupmhVDen7Eo3ddlCtYoYM5oJp
-jTdePtkfY1oC5H2dGHT2YiWClQrMJc6h6kWovF5izQs0h/ISZRF0gpC/70T5Jjsw
-/L6rWtVis7Hrr+SvfPNfIJW37l3e1iNxnDiNdBhQASUc7WLBP36whkTzmDYN2VD4
-8U2bhrCdVnt0EgWvZLEEjbdLjtI/cE6usCmO7IY1y//1IOIAnJBRJYsDpqS+eDDf
-KUX9H/HtXez/tU3OVPZ/q9JPrfoEn9cnU9Tl1og2WYoBq9YwhDMskZ9Om34XsJD/
-fHgpL0T8/vFry4+78Yu8lks5SRWGmQ1AixXkyIrYlaxLO+ol5gowOPdq/8aQpmxy
-KT4B8+qnY5u05R+bbakM2hwsYp3QPk377Z1n9uRCF2f57fM8thR+XXO2EQyr7H+1
-lzjVGFsH4tHdtM0I83WLtnILSpy65BVvcpIrTTgjh2cmGSa3DIA2YKwK8PuwKHa5
-Tkz8xDWTY6vzEfjKpSG/xcShQhaZbZQdkI4igO1s0CFNtP345MpFTz3ann/NXZFI
-Ep2GDZINy1j2f9CevG9U3d9A
-=6k5U
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKT0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NDUQALiwrJCoRD+NqtkoAMhz
+8UTWhcCVGaUDxQt32nxXVRhIs+w5ol3E3UOplfaVU/k9lUfcKaHwD/bWWpmVOFAx
+sNyY4vBVdu8C7KgVwcLkGcTosM3LF9+NbTCkosR/7oU3TmCiLcrpiz6p2pqNqTZ3
+zAjOeo38B7/MxwK0ohfquWKBBSXN2QV/kclzcLoLUtCbxiSgKCr7xjMk5Z7yeQ2K
+46W5zT3q+RUcKpq+6iGbqwFEec3mH+l57SYd46Bq0xGfJDXVY4tnCgV8qgQOXJ24
+D0puKT7JIfCrM8MrWvwG/T9Gh0zQ50HNI703lzu7vAoHujhrocfFwLC7TYauwj48
+kzLEZGa8A06eYACfDlmuDR1DGmmTzGjiy2PkF0IjEBV8qEc5R5u03oMDjCKco0zm
+o1IJFV2EFtVRM8fAy953ASuLcj1hTWqLjOrYvFj+5ot3ZZllUrGSjl4PZ4EJm+/S
+cwKD1zmSvScxhqVY5aD/hD515ryL7JGOirnk9MNEx4ejFS69TT5tsZ3NnRotPdjP
+Ah1xDqeq7MhNuEiemPjSn/jROOzo4esQPT2O9G6hCFEwrPHrWp/F2OmzVPtvTWfp
+851MWHhp/V/sJ5jkvT9TXVzjm6et9oiDAMrMn1RmXjuOWcPntxAWMLE8RxyLQBVR
+tCqDJiJfRYdojhylktP738t3
+=Ld9h
 -----END PGP SIGNATURE-----
 
---===============7698902474367109438==
+--===============5163358176088677952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============7698902474367109438==--
+--===============5163358176088677952==--
