@@ -1,31 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7725848278221279956=="
+Content-Type: multipart/mixed; boundary="===============1396551185061357201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 04 Jun 2022 14:54:21 -0000
-Message-Id: <165435446154.18669.16577768807324951141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 04 Jun 2022 15:50:03 -0000
+Message-Id: <165435780375.23394.16607288048215855139@gitolite.kernel.org>
 
---===============7725848278221279956==
+--===============1396551185061357201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/testing
-    old: 32a026e42647f311be4091519ee2675e687c3e99
-    new: d536a7a085796edf2948dd58ea6e6a10bf9033de
-    log: revlist-32a026e42647-d536a7a08579.txt
+  - ref: refs/heads/for-5.20/io_uring
+    old: fbce2e977c371c24acdcbb19b33bc792159e6283
+    new: 61d845d82828a225fad04e6fc8bf23185ac02ab5
+    log: revlist-fbce2e977c37-61d845d82828.txt
 
---===============7725848278221279956==
+--===============1396551185061357201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32a026e42647-d536a7a08579.txt
+Content-Disposition: attachment; filename=revlist-fbce2e977c37-61d845d82828.txt
 
+de8ac81747fca15925f3488ead7804560cdea532 Merge tag 'x86_core_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e36ae2290fd1ff3768c3688627e442cd11d4ca1e Merge tag 'x86_fpu_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bbdf6cf56c88845fb0b713cbf5c6623c53fe40d8 smb3: check for null tcon
+c415b53ad00d27a0655bbe7691dc005787da4f8d Merge tag 'x86_mm_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9ccfc23a72b669678e4c9ccba98d3d91db1c04cf smb3: don't set rc when used and unneeded in query_info_compound
+1abcb10d6edf5c4c53d29e9ab5488c7734183828 Merge tag 'x86_platform_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e3228a86a33ba7e2f4205c1a06fdd05cc5c4eeb5 Merge tag 'x86_kdump_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+916654201008d5fb4d5f5dcf0b373d291da615ac Merge tag 'x86_apic_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3e2cbc016b1d08463925db9b9bd3bd253f64b8b0 Merge tag 'x86_splitlock_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+abc8babefbc1fc6f013573bc933d66bc906cf726 Merge tag 'x86_misc_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+88699f8fbfd482167362a881d37156cc3e2b0475 Merge tag 'x86_microcode_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d6ecaa0024485effd065124fe774de2e22095f2d Merge tag 'x86_vdso_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cfe1cb014bf947c8a85e542ab0f7a417adca7059 Merge tag 'x86_sgx_for_v5.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8443516da676be839b54ee11350baa2605f0a445 Merge tag 'platform-drivers-x86-v5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+d61306047533eb6f63a7bd51dfa7f868503bf0ba Merge tag 'for-linus-5.19-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+17a05c8f1e18b3ef846d0032a19002568282ac29 Merge tag 'xtensa-20220523' of https://github.com/jcmvbkbc/linux-xtensa
+fdd8f6585cef1c8c0fac745c1baa687301d55a90 Merge tag 'm68k-for-v5.19-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+67c642e0d9aa927c1340638e472f2467fefd1dbf Merge tag 'csky-for-linus-5.19-rc1' of https://github.com/c-sky/csky-linux
+95fbef17e8253775876a08ec2011d3665b86a55f Merge tag 's390-5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+d6edf95109661e5fb9b20613478470d2e8fa4455 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
+143a6252e1b8ab424b4b293512a97cca7295c182 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+677fb7525331375ba2f90f4bc94a80b9b6e697a3 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+52832252dded19e291a7b8842542ea61d1765f2f smb3: add mount parm nosparse
+5d7c854593a460706dacf8e1b16c9bdcb1c2d7bb livepatch: Remove klp_arch_set_pc() and asm/livepatch.h
+0e85a22d01dfe9ad9a9d9e87cd4a88acce1aad65 ALSA: usb-audio: Configure sync endpoints before data
+7b4537199a4a8480b8c3ba37a2d44765ce76cd9b kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
+7375cbcf2343a9337b19846e76dfd94c3af98a27 kbuild: stop merging *.symversions
 5ce2176b81f77366bd02c27509b83049f0020544 genksyms: adjust the output format to modpost
 14bdb047a54d7a44af8633848ad097bbaf1b2cb6 zonefs: Fix zonefs_init_file_inode() return value
 8959f00799a174af300f88bf8360b903976363c9 Merge branch 'for-5.19/amd-sfh' into for-linus
@@ -200,8 +227,6 @@ bd52cd5e23f134019b23f0c389db0f9a436e4576 s390/crypto: fix scatterwalk_unmap() ca
 85806016acb0610e47ffcd5415d1575f18f58a33 s390: simplify early program check handler
 3384f135e90f96a7697a85c33081e46c0a0f415d s390: generate register offsets into pt_regs automatically
 c9bfb460c3e4da2462e16b0f0b200990b36b1dd2 s390/perf: obtain sie_block from the right address
-ecddc25d1355d0ce2b486a4991b826b6e87875a9 io_uring: make timeout prep handlers consistent with other prep handlers
-54739cc6b4e12b8bf3802536634b8e896eb796b1 io_uring: make prep and issue side of req handlers named consistently
 9f56390f8c49a1e2f38f049673dcbb407a742302 video: fbdev: xen: remove setting of 'transp' parameter
 14c03a4a757f4be3e81c5004ca72f809ab04e0b1 Merge back reboot/poweroff notifiers rework for 5.19-rc1.
 cfd6d63e596552e1a5bf38bb889997b656475032 m68k: virt: Switch to new sys-off handler API
@@ -663,15 +688,7 @@ d7cd5e06c9dd70a82f1461c7b5f676bc03f5cd61 net: phy: at803x: disable WOL at probe
 aa41d2fe60ee2e4452b0f9ca9f0f6d80a4ff9f9d nvme: set controller enable bit in a separate write
 cbf84dbf0600b0efe1134cc3f98ae29c523a3a23 nvmet: fix typo in comment
 ab0925ab728163b854ea17da09e299254a86076e ASoC: da7219: Small fixes for jack detection and removal
-fcde59feb1affb6d56aecadc3868df4631480da5 io_uring: add io_op_defs 'def' pointer in req init and issue
 4a1f14df55d1e9ecdfa797a87a80131207cbd66f bonding: show NS IPv6 targets in proc master info
-157dc813b47ab2adb4bc8a08491887bc161284c2 io_uring: unify calling convention for async prep handling
-1151a7cccbd2cfd5a552805c92c92fb264a957d5 io_uring: move shutdown under the general net section
-21870e02fcd385c39fe635e6531ce78302f3cd71 io_uring: fix a memory leak of buffer group list on exit
-fa82dd105bed389f37d919fd783ce459bb92facb io_uring: wire up allocated direct descriptors for socket
-8c71fe750215e688df9c7477e7bf448380d4ce9e io_uring: ensure fput() called correspondingly when direct install fails
-4278a0deb1f6cac40ded3362fe2a9827d7efee3d io_uring: defer alloc_hint update to io_file_bitmap_set()
-a7c41b4687f5902af70cd559806990930c8a307b io_uring: let IORING_OP_FILES_UPDATE support choosing fixed file slots
 3e0b8f529c10037ae0b369fc892e524eae5a5485 net/ipv6: Expand and rename accept_unsolicited_na to accept_untracked_na
 09e545f7381459c015b6fa0cd0ac6f010ef8cc25 xen/netback: fix incorrect usage of RING_HAS_UNCONSUMED_REQUESTS()
 3753fcc22974affa26160ce1c46a6ebaaaa86758 ALSA: usb-audio: Optimize TEAC clock quirk
@@ -818,7 +835,6 @@ ca209f8b5f61b74782dd4275ebc7173d92cb4905 efi: x86: Fix config name for setting t
 fae35da4ace3721dfba1b3986a9239fc85cf8c72 docs: move Linux logo into a new `images` folder
 6199e138fe3b7479f1c6980f8407a8e0b2ade1e8 docs: add SVG version of the Linux logo
 a27e51b45e1bc57f15cffd6b9bfc38efef8cc419 documentation: Format button_dev as a pointer.
-61c1b44a21d70d4783db02198fbf68b132f4953c io_uring: fix deadlock on iowq file slot alloc
 ff979b2a9d9779382030023bfc4e3b1989c8c314 ftrace/fgraph: fix increased missing-prototypes warnings
 741d4514e96a3a6eef57522ba8df3646a1585441 MAINTAINERS: Update GPIO ACPI library to Supported
 8a172952fc597ab9a56d4511d5a72af7c4419c7a MAINTAINERS: Update Intel GPIO (PMIC and PCH) to Supported
@@ -874,7 +890,6 @@ d1dc87763f406d4e67caf16dbe438a5647692395 assoc_array: Fix BUG_ON during garbage 
 02d88b40cb2e9614e0117c3385afdce878f0d377 riscv: Wire up memfd_secret in UAPI header
 e61bf5c071148c80d091f8e7220b3b9130780ae3 RISC-V: Mark IORESOURCE_EXCLUSIVE for reserved mem instead of IORESOURCE_BUSY
 9eb2e45d097c0b951d76d9c6625f248f54e8c7ff riscv: move errata/ and kvm/ builds to arch/riscv/Kbuild
-9cae36a094e7e9d6e5fe8b6dcd4642138b3eb0c7 io_uring: reinstate the inflight tracking
 7bb8a0cf49d5fede1104afdcb43bd2f8a1df3253 gpio: adp5588: Remove support for platform setup and teardown callbacks
 c9fdf7b453874e37ff4c499140ba2ab56fa0c7e5 Merge tag 'nvme-5.19-2022-06-02' of git://git.infradead.org/nvme into for-5.19/drivers
 ff47dbd18b8db251fe1fd013a8fa067d381ecd5b block: remove useless BUG_ON() in blk_mq_put_tag()
@@ -978,77 +993,62 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 1f952675835bfe18d6ae494a5581724d68c52352 Merge tag 'ntfs3_for_5.19' of https://github.com/Paragon-Software-Group/linux-ntfs3
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-572f09bea728d5507d6d3c2b9896888b378e00d9 iio: trigger: stm32-lptimer-trigger: Make use of device properties
-959ed31a2d0a34a77821c74013dcdb0544ebd0bf iio: proximity: srf04: Make use of device properties
-e123ef2a7a5f39c19db2aacb1d9eae6822ccb750 iio:accel:mc3230: Remove duplicated error reporting in .remove()
-da95db3ce15e6ed49721f81a00ef7cc4a04ee5a1 iio:accel:stk8312: Remove duplicated error reporting in .remove()
-dad5b303ffa61002771014b8420347c86e01fdd2 iio:accel:stk8ba50: Remove duplicated error reporting in .remove()
-8f61ea8189a38919135cff44c8c6d723de895fd9 iio:light:bh1780: Remove duplicated error reporting in .remove()
-45ec6adf639b1e01a34ce14b6dcc901fc9f67e6a iio:light:isl29028: Remove duplicated error reporting in .remove()
-831022427facce1649d5512873c4468a8b0b9ff1 iio:light:jsa1212: Remove duplicated error reporting in .remove()
-80d732d9e8dc03c8d0fc78305423fee80e0cbf79 iio:light:opt3001: Remove duplicated error reporting in .remove()
-767fa916ea39174ee1f4b5e0503c0ff8e10bafb8 iio:light:stk3310: Remove duplicated error reporting in .remove()
-f38aa44f32845901b035bc032a4bb38e835fb0ef iio:light:tsl2583: Remove duplicated error reporting in .remove()
-e547e83dd953857f6f67d252c7e3ac7ddd43e3f3 iio: accel: bma400: Fix the scale min and max macro values
-f2b7b1fce18c2d39fa13574ea70650833bdd2264 iio: accel: bma400: Reordering of header files
-d7c4799f6c12266cd853dd3d0386e8a976ab32e8 iio: accel: bma400: conversion to device-managed function
-824ce5f10f970f5ee31e8bc5e37fbbfcba94ab8d iio: accel: bma400: Add triggered buffer support
-6762bf6b4896db066b333f12ce8108e43b639d0d iio: accel: bma400: Add separate channel for step counter
-12088ba17e9dc85d5de6a3a7c00c43ac45b1a67b iio: accel: bma400: Add step change event
-a5996e77fd9f48028548ad8528fc20d34c374eae iio: accel: bma400: Add activity recognition support
-2a0888406d888db6b839413623578bc3adca5f7e iio: accel: bma400: Add support for activity and inactivity events
-bb52b09851a6c95962a26418385ebdd1dc1cd803 iio: imu: st_lsm6dsx: Switch from of headers to mod_devicetable.h
-30fbb7f3f0aa759d3075cd261bf4c117d5cfe35a iio: ABI: Add a new location label
-28bb622513d700b9ab892a0a20dbda6efafbdf6e iio: common: cros_ec_sensors: Add label attribute
-024ae1b5ce9370501420309d1adf568d8bbae21d iio: health: afe4404: Remove duplicated error reporting in .remove()
-aa3ad31041ccb64ef373765c12b2c98dc4ba6ecd iio: adc: stx104: Utilize iomap interface
-952a8649df802e88366ca2e7be43460570ecc107 iio: dac: cio-dac: Utilize iomap interface
-cd7800c212f817741a4ee6a2bdfab74c78057554 dt-bindings: iio: adc: Document Renesas RZ/G2UL ADC
-48473c18be7496a0bb18d72026ab69b637deebea iio: adc: rzg2l_adc: Remove unnecessary channel check from rzg2l_adc_read_label()
-804f83f48c0c26c2f79f2d2a52dbadef8c3f7b7f iio:adc:ina2xx: Improve error reporting for problems during .remove()
-4b259c01c9168570b9efc87a3c2183b10e40d829 iio:adc:ti-ads1015: Improve error reporting for problems during .remove()
-3d958f586af102a9c19401c130c9247c2eb9fb7d iio:chemical:atlas: Improve error reporting for problems during .remove()
-d2bd3cbfa13b49349aa6b82c4466340e4e5eb41b iio:chemical:ccs811: Improve error reporting for problems during .remove()
-74696c459917f746e78806fd9c86d5decfc3ad2b iio:light:pa12203001: Improve error reporting for problems during .remove()
-0d4c692c00ac2f5a0564777aad80b6829068aaba iio:light:us5182d: Improve error reporting for problems during .remove()
-e8c1ab23216d45e93931d036dc875d8e77277ef4 iio:light:vcnl4000: Improve error reporting for problems during .remove()
-ad3edf0e30b61d074390a16854a5469779950461 iio:light:vcnl4035: Improve error reporting for problems during .remove()
-8308b45499d0b1ea5b9326bfc97a87cc1cf48724 iio: proximity: ping: fix typo in comment
-c8fe5464c1a5405ddc60401436ab669740b8a6a4 iio: chemical: bme680: fix typo in comment
-98047db31138ca1c68957cb8a303309cad1720aa iio:magnetometer:mbc150: Make bmc150_magn_remove() return void
-bc4f248a05ec86b34f739463e189dfc3b224657b iio: accel: adxl367: do not update FIFO watermark on scan mode update
-a8dba53654d54894aa6d0329f1302028ef22dfeb dt-bindings: iio: ti-dac5571: Add ti,dac121c081
-ec7a06a835489e0f0426502c04e86710973e0925 iio: dac: ti-dac5571: add support for ti,dac121c081
-cf28f0b21f0c2965cde34a45226dd7acb9db7698 iio: srf08: Remove redundant if statement
-0c4e69b48bcb2f6cd5cf1b96ffedeb49deac0e4f dt-bindings: proximity: vl53l0x: Document optional supply and GPIO properties
-11be0c1a5d8675d7396ee371c8587e759a10a783 proximity: vl53l0x: Prefer pre-initialized interrupt flags
-c39e106e0994cc6b79404489f64a243bb2d9e699 proximity: vl53l0x: Handle the VDD regulator
-5a07821a9568ce7cbbcdf3337b7c994fe1669eff proximity: vl53l0x: Handle the reset GPIO
-b4c3e8e514f66a5222cf6a563757a1c0fa0959ec dt-bindings: iio: accel: ADIS16240: update maintainers
-f2c506985ac73f36b4c68d5ae4d21e9313c9f15a dt-bindings: iio: adc: AD9467: update maintainers
-d85d3f63e8f76f1da5fab37d563b5ca0d0f86752 dt-bindings: iio: adc: axi-adc: update maintainers
-af394e33083f56bd7679ee0462467e1964082e51 dt-bindings: iio: dac: AD5770R: update maintainers
-5fa9ba08de16a3c1304c1348de6219354ae4d96b dt-bindings: iio: imu: adis16480: update maintainers
-8d516bb9cf4c26640578353cb96dd88bae4b4313 iio: accel: bmi088: Modified the scale calculate
-9dc49059a583de498c4edc7efcbb8f312d62922e iio: accel: bmi088: Make it possible to config scales
-42939622c28c0b16c06be697d239626c94df4e1c iio: accel: bmi088: modified the device name
-30182d6f5d7a1c1f2a341dd14ab7a0c42c16b993 iio: accel: bmi088: Add support for bmi085 accel
-c3df1c50af328290ab2d769f3dbdf25608523ce4 iio: accel: bmi088: Add support for bmi090l accel
-cd130a521394076daa60df810de7e8f35cc7bcdc dt-bindings: iio: accel: Add bmi085 and bmi090l bindings
-7f35380ad013dd9950d8a9c051bf613a0bbf8e11 iio: Directly use ida_alloc()/free()
-adf11b0d1ae0d15efc6710437d2a0b6ef5edd604 iio: adc: sd_adc_modulator: Drop dependency on OF
-126b0042dbd992231e22c90003ceb4a226af5551 iio: adc: envelope-detector: Drop dependency on OF
-4db086040b195ec2a2a9adf64a8e0f4c5ce658fe iio: proximity: sx_common: Allow IIO core to take care of firmware node
-493914a055c3752a80775fa76b9b4efea148bd2d iio: adc: lpc18xx_adc: Switch from of headers to mod_devicetable.h
-ee050af13f4e6e5e5f1ec48758e690a854e7bfd1 iio: dac: ad5592r: Get rid of OF specifics
-3eb6c22437343cfc5e0c625a2d9075cb0b1c704a iio: adc: vf610_adc: Make use of device properties
-ef96307c34d0a6859eaa2b181a07103f606b3804 iio: adc: nau7802: Convert driver to use ->probe_new()
-2abc26eb4839c7c0fa5023026d96924721de692b iio: adc: nau7802: Make use of device properties
-171ddccb5e318520a2c9e57412cc5c9bd8985696 dt-bindings: iio: accel: sca3300: Document murata,scl3300
-cbc8ca77d01425f6cf9029133c060cd002dc92c8 iio: accel: sca3300: add define for temp channel for reuse.
-7d9391859ba382c390faf5d9a0df5db8dc4c3558 iio: accel: sca3300: modified to support multi chips
-6ae1dbf662024f2b3373aa778c40adbe78f99b90 iio: accel: sca3300: Add support for SCL3300
-d3296815aa60093b2c5322238407595b5589f2d9 iio: accel: sca3300: Add inclination channels
-d536a7a085796edf2948dd58ea6e6a10bf9033de iio: accel: sca3000: Fix syntax errors in comments
+ecf6d395bd84906922b5d8e1a7bd16128888e835 io_uring: define a 'prep' and 'issue' handler for each opcode
+60bc41f5550b878f8577b8cd97fc2ddb4641fc62 io_uring: move to separate directory
+c7015422b7d7ceed909e2556ea7f652b5b2fa492 io_uring: move req async preparation into opcode handler
+9c7e9d412d52327b1c9820d99f6a47b7ce8f455c io_uring: add generic command payload type to struct io_kiocb
+9ccc0951e27066891bd5f90bc3e69a7ac27e3969 io_uring: convert read/write path to use io_cmd_type
+fbabd04c884d896ab2fc982ddea7176664bb266e io_uring: convert poll path to use io_cmd_type
+8a4eef6755f9a6d0e2784f966963978dba9c2c02 io_uring: convert poll_update path to use io_cmd_type
+0bb31b59f2a36eb13c10c5110c57934d27f74fea io_uring: remove recvmsg knowledge from io_arm_poll_handler()
+49efec5e784986db4ae13b8a931f4d1627b27ee0 io_uring: convert net related opcodes to use io_cmd_type
+9e86ab82efbfffd341283037c3b0911fdd5dbd53 io_uring: convert the sync and fallocate paths to use io_cmd_type
+04660654e3c7757c0e8753ce08a48908907e737f io_uring: convert cancel path to use io_cmd_type
+fc917da67a3c276c544e5937f549767d9989c213 io_uring: convert timeout path to use io_cmd_type
+48565bf8c70ea2bc47342ab4f3f338ae56a91eee io_uring: convert open/close path to use io_cmd_type
+de0f4f703d631df81666216ca26f60cd27a465ea io_uring: convert madvise/fadvise to use io_cmd_type
+ee8c6049f7e7fa7254e494e5485d0346166c948c io_uring: convert file system request types to use io_cmd_type
+527ed5665190cbb341db2b035f8aa47b4f8c352c io_uring: convert epoll to io_cmd_type
+cc4ebb18b691d2139f51842edca4e83e2ac81bf9 io_uring: convert splice to use io_cmd_type
+44719d187a281ef5d05781b4dec824f6886238a0 io_uring: convert msg and nop to io_cmd_type
+f472ca9c75d297086a759fe9ce45d2a29fc90e83 io_uring: convert rsrc_update to io_cmd_type
+21cdf435b347fdf915d41b0cc299fb0fff73ef41 io_uring: convert xattr to use io_cmd_type
+2d41fb8bbd6097ea34d3ec5505682fc462d8dd0b io_uring: convert iouring_cmd to io_cmd_type
+c74707560bc3867e60212eafcde429d2e5ac4dfa io_uring: unify struct io_symlink and io_hardlink
+5c11a05ecda5b6016032ddd45b1c1ff72c3a74bf io_uring: define a request type cleanup handler
+4dbd45a24bbad30f868e5883130867817e6c414e io_uring: add io_uring_types.h
+325a9fb3fe7319f30ec4b2e53ca097cafa9f2f94 io_uring: set completion result upfront for CQE32 completions
+1e685dd22487b8056efd840f35051c03b9dddeb6 io_uring: handle completions in the core
+90b7fc37e13d7cb927afcbd7cc0804b30413ba7d io_uring: move xattr related opcodes to its own file
+d889798a0cd2019a033002e231d80065c5a7a37e io_uring: move nop into its own file
+e936ceced6e3a5eefd403c525dbb2cc49153c929 io_uring: split out filesystem related operations
+9bf000e62d35ffae201ad5b1f526c45e9c905af4 io_uring: split out splice related operations
+b1a02d6e6fbfa9cd9bfd3fc1c09437f12c0fa4c2 io_uring: split out fs related sync/fallocate functions
+180184b0d9a281b428d3f55689d66a66194ef9c2 io_uring: split out fadvise/madvise operations
+84b37d5abd20317bf633f7d8a421942bcf1d31c3 io_uring: separate out file table handling code
+164e72244a3e14d5f4a9237ceca3953d7b938173 io_uring: split out open/close operations
+1cad5ba6579f0f02dd0d049b093a622a69a66b7c io_uring: move uring_cmd handling to its own file
+0bc376341325acd6b6e2da1ec6a812d18886947c io_uring: add a dummy -EOPNOTSUPP prep handler
+a5071d3483fd2510557aea2ca9c5335702ffbe29 io_uring: move epoll handler to its own file
+df7a2086ac25a17d9d752db3af1ea91d56c76243 io_uring: move statx handling to its own file
+28317c65c1f586ad1a60c8ce530fdbd6f3e6b5f2 io_uring: split network related opcodes into its own file
+1712ceef8b5c0fbd14ab477f4f97fe5315830c87 io_uring: move msg_ring into its own file
+a73c288f4ca721be34121d1fffe8494308b52d2e io_uring: move our reference counting into a header
+f91afd5f1b36e4eeb730f7444b78492ffe10e41f io_uring: move timeout opcodes and handling into its own file
+0fa3b367a0ecdc5e889843844aba969156e6e16e io_uring: move SQPOLL related handling into its own file
+7ebb636a21a3d1469a919019a586b4bd4a2df442 io_uring: use io_is_uring_fops() consistently
+fe48e4bebe0cd3095c50124ecf993fb67919b49f io_uring: move fdinfo helpers to its own file
+4e73421b015089e466771c5b0bbb86d1a301ae68 io_uring: move io_uring_task (tctx) helpers into its own file
+9be0fd04f69448657c067b1be511a172e1a33727 io_uring: include and forward-declaration sanitation
+5ef14f2c1ce17713b92cf8e35344d6cd7c113b1d io_uring: add opcode name to io_op_defs
+3a8c65884d2175b00352b78b0845ab6319ba41e7 io_uring: move poll handling into its own file
+9e24ac3853a2d7b76f0467201734302f1989c1ba io_uring: move cancelation into its own file
+195942f8a9100aa60efe96a080181eb8b9b92eca io_uring: split provided buffers handling into its own file
+3190cbde91e55a37cb7e26bb1c4bdfab0b5329ae io_uring: move rsrc related data, core, and commands
+fa6efdbe7d514ca594ecace24d564ab6f329ae2e io_uring: move remaining file table manipulation to filetable.c
+593300773bc4d0b1c045b7067d2d6bd93c72c583 io_uring: move read/write related opcodes to its own file
+539516e9ca07d922746cdfa043fb69d01a1d8777 io_uring: move io_op_defs[] back to the top of the file
+40760a46c63b3d77c5e9c3413370248c83fd114e io_uring: add support for level triggered poll
+61d845d82828a225fad04e6fc8bf23185ac02ab5 io_uring: deprecate epoll_ctl support
 
---===============7725848278221279956==--
+--===============1396551185061357201==--
