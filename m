@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8150364081516167890=="
+Content-Type: multipart/mixed; boundary="===============3615496764488878503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 04 Jun 2022 09:43:40 -0000
-Message-Id: <165433582032.13056.3113750774443046879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Sat, 04 Jun 2022 09:43:43 -0000
+Message-Id: <165433582397.13182.5675631727644027654@gitolite.kernel.org>
 
---===============8150364081516167890==
+--===============3615496764488878503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 42226c989789d8da4af1de0c31070c96726d990c
+  - ref: refs/heads/spdx-linus
+    old: 53c83d6d8e399fad3d3d25df0ea0d54eb0f94f88
     new: 032dcf09e2bf7c822be25b4abef7a6c913870d98
-    log: revlist-42226c989789-032dcf09e2bf.txt
+    log: revlist-53c83d6d8e39-032dcf09e2bf.txt
 
---===============8150364081516167890==
+--===============3615496764488878503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335819 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1654335818-e2ff1aefeddf75fd540622cfba3d24b8b06fc162
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335823 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1654335822-6bd7dff41b5f38f9ab3891bd7065030fb7b76b27
 
-42226c989789d8da4af1de0c31070c96726d990c 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/kobject-const
+53c83d6d8e399fad3d3d25df0ea0d54eb0f94f88 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKUsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YWMQALX4dl8JHSDIGBhiaohv
-lBzT5YU4oCatfFMRUX5oYNLNkSYiRKKiNlKxS0MgSv+p3Tjc5lcNZWxgfva5pgdZ
-OEDLRBqih1QaQqLOvh63qXjwwJQYd11p+w7OhXUxRhmWJmcrbbXltVf/bg3MQrCA
-Kjnony+YCgBVHbbjdYPdY7JKP0bDG8sv2uDjBzXQi2jYRlTLc/igh/vK0nohLniU
-7f1SdvnuImdwT+3mLYGcRaYaLK5guSiglWGCb3gQSWlVDMBpKKdSwaBA3TiP5Jxu
-qS6MoiMFTW9FsBh8J8Vm/u/KT2ZXoJgwnTBM7B7iCHb0aPRalZ7QlpVzKvoqRsKV
-nnOP2YFs5LqVudbKOIpO3WiM6nl/+Uz71///oMuUNSXuL1JzpdTlrnrq0aqpLVcJ
-57W9gZJm3mmpSxyftD9/rE+gEc377ZwuefzIXOE3/Kdi0cgmhKtNLJbI+Wt1du//
-gI529Q0/n10EHcsfumZgGF6t69Bk24J7snOEOgSveSu+6GV/OSBco6nwqVeLj7SM
-2enSzCm6VljdoLwD9yLPdSETpZzAg12qtYe1YP/CLgQwkERcla19eRKaCc8pnGDo
-dy6qtb/AHsEV8jTHrbLKerwJZ/F2953iNpveTBa0Azu3KVv9rf+pyCTps4ImwzhX
-dTjC3Mjz8MjOiVSAjQ8Rm+zz
-=UMSg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HogP/AwjkOCmgtO9/gF7QQ60
+T7pL/K6yGJrQtgxzYswBj4ZG3153Xpuivw0hfeKAXka8YtYATao9Ot4mfyhkU4pp
+zIcHxn6StY4w1JxXhhutQH2ZMZGl8BQ2Uh56F+DZLSxNjz2rSl2bw5NeNRzb4n0X
+aPc2Pa2IL8kSUfXQdLCzCIttMPf3+jmAqmFP5LafvaKjJN1LpmlqAwO8Gpg+b07h
+MHBuOLTzGNRLxLlfjoiTriQsIq6d8ONeBdG80mV285en7cmj4ScTSgyuiIjJ3Qg+
+9sqkgn9eUT3nL7edN4eU9+3Tyng/2rTW6yK/uSUGEXsmWCEWQETN8jKN3Bkn0lh/
+wH3F+GHj12xK/uH3koqsjUKdpsgAq82jV8JHnlWHEbTALJhFt8ZANsw37G6T/e+P
+GRYWXYRzSz4bFtmfhn+aV//CcPrm+hHnVUWQYAJFZUWz7fJUuZLwfKSf146nW5eD
+DymSvAnpTqYqlvKTKqDEeVEkFhfL3uU5AlzAANIqUO3uVPvWN/GD14VHi2ldW90H
+3JYUHmec9n1YdvDoRMtbabgSktSuXHA9X5Zt5HvXVvrzhVnZa2HIJF0PhKqXyWPt
+q291GGnv690PqPe8MuyHp7PoZpkw/yKJ9WO402nmkTVf8NsO28u9C6/9+TaT1nrd
+2lchdO0U6QVdeYdqov+fLnCb
+=3Ebw
 -----END PGP SIGNATURE-----
 
---===============8150364081516167890==
+--===============3615496764488878503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42226c989789-032dcf09e2bf.txt
+Content-Disposition: attachment; filename=revlist-53c83d6d8e39-032dcf09e2bf.txt
 
 a682d18433005f9609be95c46924ddca827122de can: peak_usb: fix typo in comment
 3e88445a3a5afc65929c578fe2ffc03420588993 can: kvaser_usb: silence a GCC 12 -Warray-bounds warning
@@ -1082,4 +1082,4 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============8150364081516167890==--
+--===============3615496764488878503==--
