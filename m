@@ -1,26 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5496963009774187501=="
+Content-Type: multipart/mixed; boundary="===============4080958879504234526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 04 Jun 2022 07:50:08 -0000
-Message-Id: <165432900807.28732.732871523463731582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 04 Jun 2022 08:51:33 -0000
+Message-Id: <165433269320.2470.7725116524056462874@gitolite.kernel.org>
 
---===============5496963009774187501==
+--===============4080958879504234526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
     old: 50fd82b3a9a9335df5d50c7ddcb81c81d358c4fc
     new: 032dcf09e2bf7c822be25b4abef7a6c913870d98
     log: revlist-50fd82b3a9a9-032dcf09e2bf.txt
 
---===============5496963009774187501==
+--===============4080958879504234526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654332711 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1654332670-8b4ad15c903868f830ff2b1044c8912a612446e4
+
+50fd82b3a9a9335df5d50c7ddcb81c81d358c4fc 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbHSgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MM4P/jeNgbEYPa5nvUewm9W+
+ILyuWT9J+xj+CPAzVIl3c46EJywH0FNF3sBKYQ1qfRU23C3K2ZcyQPzFgoATO1gc
+8EopSVJ2ey1SPrReIx51fmPpeG+Jf45dqoX/W6PswwOOfq6JTKZYib71ntnSUBeB
+DGaHKzogEkrnct4vZlDbMxrig5c8BU7eic4ALYgCy3CkL4XiL+bushEUKwpqdLLh
+t9piF1/2QNrEzpgGggsDnt5NXT9WHj187ft52d1fBqDBsCx7WsYbXnsNhStIglAA
+Zzr1iM/mlVZuX+DJjACv6sLGif88V425tMIgW0OtMyMiSBao9G5Kubky9NIlqLrv
+vZLWmgkQXDe4K+E/RVYKTbijJVfHaX/pbLS/U0V4rTjnIDpDNyhb1mYL5qs6ljaf
+gfiayjSVMXX2gUxpIMTxcF1VVXm1Uq8imYO8p93RL8btIhqas9/WxDD+bbuIgCwM
+zbtCBAwVB2/uxpIAWTT+5vW8oZohEVa3WePq7W/DsonS87R9MsV40RE9LCnAL1nN
+V8CYh9cG2J8v+fFYCxPhoxTF6OeeN6SLgtxkcLWTVUmDLC3trgNlI69gtH+uuHxc
+n2qZbns+PALKIL4Jyeb6j5xYw0O/8PcBwt5urfazwFymuPEhgATn4d+JSXZk+QbI
+l3xjujGFGTPa8YtgC6oqyVfo
+=yt6O
+-----END PGP SIGNATURE-----
+
+--===============4080958879504234526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1082,4 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============5496963009774187501==--
+--===============4080958879504234526==--
