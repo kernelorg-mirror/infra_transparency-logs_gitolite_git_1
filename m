@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2929483185211231531=="
+Content-Type: multipart/mixed; boundary="===============4560889928141113774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 04 Jun 2022 09:46:02 -0000
-Message-Id: <165433596255.15811.14122571522861335600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 04 Jun 2022 09:46:04 -0000
+Message-Id: <165433596495.15899.14951887632513935084@gitolite.kernel.org>
 
---===============2929483185211231531==
+--===============4560889928141113774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 42226c989789d8da4af1de0c31070c96726d990c
+  - ref: refs/heads/staging-testing
+    old: 6a31a95135da0bb2c5349e49e37d76e9909ab7ea
     new: 032dcf09e2bf7c822be25b4abef7a6c913870d98
-    log: revlist-42226c989789-032dcf09e2bf.txt
+    log: revlist-6a31a95135da-032dcf09e2bf.txt
 
---===============2929483185211231531==
+--===============4560889928141113774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335961 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1654335961-a3f232be3d1bbf9ad375ab25814554a7484466c5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335964 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1654335963-f1d9098e8ae9a3d335667157d0a32071987afe4b
 
-42226c989789d8da4af1de0c31070c96726d990c 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/tty-linus
+6a31a95135da0bb2c5349e49e37d76e9909ab7ea 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKdkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYgQAIsxPbTwk+ynoC47BvjK
-xpnGxXcF1P7YQzX9RHK59bUx61ALP8DZWzBy2UUwYzm6cWjJyk/zuvIqk+y/vMWk
-8p48aQB4kcY+4si0M6Cl6vOOOI5HmniuQfzXQYHlXo6g45hWofDyt9Q9kJR93PM8
-bDFleWdxj5ViDCs2ssSH0lhdGZl/wzEUjtbw40mIHjhXLNSy5EwzQuKaYP8ElyTu
-UNSBpFKy7goYFyJVo3C54KkN5qku6ItwfbM0DOcCV3+Ko5FYCNfk6RWDwiBPmhvM
-R5+iF4VWdC/ZjifmK43vw+UI7iRn+Y2VSXQeKksdTSgAdhMYn+Si8LumJlCd6YNz
-DIC4sq32kDzShNkqQ1WZbQw7TnNK1dp30IW6TLLTkT9ZCPv9C8GK8rDMgFkyB25W
-LjVTqWKab6R5sr43wnnGRr9UXnUU2/TffKELampHHbQZ4Sim5eV2iPOIc+8XyD54
-tzr1o+yJEYjY/6Rien5l7YqFjprGLgdNBNnZnr/zqxtZDwQaZXtU7e2+7HlYqxn1
-ShHidxzast+4uY/i9UgcCsxTkY0MWd7/N2urFIOIeQhUCh94BCRFTzYCbebv+ICZ
-BCHqBdjTZonrv7wSP7SHh0SdW0M47SMz7Y7pisr9CYhu1y7PnssF1JiVs5ye4AVp
-9ZDTeD5+Vnke361NEs5PqugZ
-=si0Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKdwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MOkP/A4ETbnKDSYH13+86plX
+dAi/bNUGE6uVboqd5GACRJ++F+JF4NAacvMVh4GsF4mszfrgu9piZuKvYX8AROZ5
+unfZa375JryyxbGLYQ2vg4cEzcD+l1JXSynxz4oUkF1jBKOqcxFcgKO4C7Cc/JDH
+2gL8lplcS1G9ocEwVK+2rNpa2CzFOwQ+B/PgAOpK0FnSn6Xk+ZNjZJXQgyj8fW0U
+n946tWalGSkYEn9D3gwdf6r8FzwJx4y2yj7FyleA1eRWQDypWvdAM858KTPUJwEz
+q4XvfHstLyi/srFTH4ego+saGYdl3FHseFk+tZIzh4WBAbAtB5jweIqshKXHe/d5
+vxvU5SjpyxmJNOp7L/rXfrrEG8c8ejWUaHTwSkMH51O1X9w6eEqmzuBXviNSR3w1
++pk88DxZZnCnlo2+Fj4un7Efug7/0ACYc/6CaZxpXmpfrPMR2tRJDkUHhABER4Xb
+95BMyH98H9+yfy+3Y3Q5DLfbu4t6vaM68dfs/8PmodHcVorZmL5dlVGeiioxR79W
+US2XyvkNmPev/Hyhca9e9eRpIESmEVf6I8xgAFabFFreebadkvJ6Wb5BJejXWBeS
+6j6r2stSFllC6kM4iE3CjB438fddjXSom2ZI/EuDqQaTECCkmDZzU6XT5H9ZQfgJ
+mrGfPSbwd4258UaX2uoxFbKk
+=iRqh
 -----END PGP SIGNATURE-----
 
---===============2929483185211231531==
+--===============4560889928141113774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42226c989789-032dcf09e2bf.txt
+Content-Disposition: attachment; filename=revlist-6a31a95135da-032dcf09e2bf.txt
 
 a682d18433005f9609be95c46924ddca827122de can: peak_usb: fix typo in comment
 3e88445a3a5afc65929c578fe2ffc03420588993 can: kvaser_usb: silence a GCC 12 -Warray-bounds warning
@@ -1082,4 +1082,4 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============2929483185211231531==--
+--===============4560889928141113774==--
