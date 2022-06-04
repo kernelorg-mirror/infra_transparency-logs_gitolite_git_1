@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 04 Jun 2022 14:03:59 -0000
-Message-Id: <165435143959.18202.11777130415984951426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 04 Jun 2022 14:06:28 -0000
+Message-Id: <165435158852.20483.11102462764750320937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: a74c22992f3e2a4cde72c37ddaaec92e88414606
-    new: 2757c1a3651bfbcafddda8fbe50258d5b788ecc6
-    log: |
-         2757c1a3651bfbcafddda8fbe50258d5b788ecc6 Sat Jun  4 02:01:36 PM UTC 2022
-         
+  - ref: refs/heads/parisc-5.19-2
+    old: 0000000000000000000000000000000000000000
+    new: b046f984814af7985f444150ec28716d42d00d9a
