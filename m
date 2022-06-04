@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4301829850911220189=="
+Content-Type: multipart/mixed; boundary="===============1449152659592792620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 04 Jun 2022 09:49:13 -0000
-Message-Id: <165433615383.17692.9777159484710706733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 04 Jun 2022 10:03:07 -0000
+Message-Id: <165433698797.26346.15420805659138520301@gitolite.kernel.org>
 
---===============4301829850911220189==
+--===============1449152659592792620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/usb-5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: eb6a1936dbe4ddd8d2ff31e1e7ab9f829c46249a
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/heads/master
+    old: 43cda9feb09eb302ace73723d90f5a6fa479d6e7
+    new: dbd890bc1b9327ebe633397186384b30ccf09e4e
+    log: |
+         dbd890bc1b9327ebe633397186384b30ccf09e4e drop exfat patch from all trees
+         
 
---===============4301829850911220189==
+--===============1449152659592792620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654336152 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1654336152-419c788e43e4beab1980fa8e47167d5c369b5887
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654336984 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1654336982-0822c430541ecbf7cd870ebd337b54d394c1e0b4
 
-0000000000000000000000000000000000000000 eb6a1936dbe4ddd8d2ff31e1e7ab9f829c46249a refs/tags/usb-5.19-rc1
-0000000000000000000000000000000000000000 99cd00206e418c5fb0e9bd885ded84b8781194b7 refs/tags/v5.18
+43cda9feb09eb302ace73723d90f5a6fa479d6e7 dbd890bc1b9327ebe633397186384b30ccf09e4e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKpgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uEsP+gMQwPCl6zvA75/zIqyp
-S5Zz97tPt6JZ3k6i6VMQW3fcJti4ZNInKRHvbxVxTesTyb4y3Ocp6UULfFK1q5jI
-UZGhtyf4j4TGHyzaEQTIxGXNRofxVOMvgEOIUrWvjo4Xese0muQrITxT9T1OOXBx
-WBrds4ldUAHb6dDWs9ryem8+xdWo2caFfd1csZq0kjb7/1g4wt4Q2N8KnaVR7R2f
-YoF8TbTm4yKq4urU/QdTU/EpvDqGo/gcxECxnMgGxcRqrYDykOt3kiLhj37p3Wbn
-NlkZJAYefbyo4FqFRl347IJgkFvYflmLC1XxePMLi7zg7wf7lGOezjXwUKgBWrXL
-Uvl9fx5+PI3xAZY7wFCT6+wwH4TrcTMAbv7zQHuw3X1GThL6NrQBTubzm+OwlGpd
-/D+PAHesql4hd8rtdVrplNAsNPCCmvmvSWkcTAuUl5/g4ne70p09mBODQtPrShLU
-OtOIVh3oB41j2QDPeoYCfQtCIHS9vF3YiAo0O/6wSGA17+3tmoZm5rvCH4HFk6e6
-exgsT75BoczlqY+drL34iYMzzM8+Qs6YkrGGolXbLbjA/w8ynne5B/ZbFAd2SjJB
-SDu6VCf7DglT0dD4ED/CkoSo0fPc4D6WrHNu+fOZzTtG0hR9RH4M92oOqeN6whks
-AlDR6M3IeJn3jVmyQn753PRw
-=2NSH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbLdgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PgUQAMjlOWnNBMp9Q9VGMSa6
+FYUAM+h1DhWvBxr+lf6vQNMfRwyv4rTSDGnkRw2CQitHFZA71KQ78TgHV+pAVmO2
+2JqfyQu+75t8pYQsVtvIpbZFt4RUYvotOTEvYxhBD7MToh4sISJ5CNGgIvmAWlaV
+ZYV/Wi/vn9Q+0N7oP93C8X+5mBSucMZe/+0m7EtiFXFfhA57i/QgZcr+IzCjn0v2
+Gnnl1mcOA8IrSXyY1/AEjPMZT9d2pz68AgFHveUMhYdRKijtapmLfhZ1cvmdpEv/
+9TeNL4qfNvX4gqdEF5C9v3+orwGPFPxr2l4GjK7mULSrkbd2tm2wOXYVble5wwqx
+iB2wvWP6VhyJSbeg/HRNpcM3IgMzvI8bHCVedVN0LIqDOQesNz8xyDJwyWf0aFRO
+PNe7BkNlakb6t0lnKdgRXHvN7oAiLwQK8EhSaQAUSnaC9ESY2/fC7V0II7I8eEu7
+CChkKAthqwOrkljmvYoBqU0Ck5mWcm07RgwThbWeqKpQAVSFdVs8iNGND5tvsZ1a
+dJYqIaTRV8+xOxUuFQd1mdhCpmja+cKekwDTRktD67DTXWdobOroC00BYL/SL5cq
+J4purocOS55ZUt6RoupkzC/fvXXQC4gdsvKFiECp2NCddvtqU1KiR+god2EnRZsa
+V8crdAg/BUStbqoiMSI+m54b
+=SjJa
 -----END PGP SIGNATURE-----
 
---===============4301829850911220189==--
+--===============1449152659592792620==--
