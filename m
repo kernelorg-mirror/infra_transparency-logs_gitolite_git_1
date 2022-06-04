@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6180796254668674898=="
+Content-Type: multipart/mixed; boundary="===============2679346893843568602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 04 Jun 2022 09:41:09 -0000
-Message-Id: <165433566988.10166.10095176499275123605@gitolite.kernel.org>
+Date: Sat, 04 Jun 2022 09:41:13 -0000
+Message-Id: <165433567399.10279.12972392915110085150@gitolite.kernel.org>
 
---===============6180796254668674898==
+--===============2679346893843568602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 42226c989789d8da4af1de0c31070c96726d990c
+  - ref: refs/heads/char-misc-next
+    old: 90de6805267f8c79cd2b1a36805071e257c39b5c
     new: 032dcf09e2bf7c822be25b4abef7a6c913870d98
-    log: revlist-42226c989789-032dcf09e2bf.txt
+    log: revlist-90de6805267f-032dcf09e2bf.txt
 
---===============6180796254668674898==
+--===============2679346893843568602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335669 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654335673 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1654335668-ac4061ab44072c3105314c09430f26e655122842
+nonce 1654335672-25e4b6db38a19bd985ed4096927b75adf2780dfe
 
-42226c989789d8da4af1de0c31070c96726d990c 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/char-misc-linus
+90de6805267f8c79cd2b1a36805071e257c39b5c 032dcf09e2bf7c822be25b4abef7a6c913870d98 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKLUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lGsQAMQW3a5mY/D4FonEawS5
-VgVlkDukKSI+pOS1irDgQp0R3JRaTbrH1XsaZGL/dpvaBRZlucyWJVs5CbKNcHB2
-My0bJK+E1CIGPnyFlijId1bOb9q+qvqWbwnKiXncySxl1hIrwtobnv0zHY5eDRM+
-3x0mbhO8pLf/p2vC3AoBG+01y4sw11Dxn89ivS32t4KuOl8gyaIi6i/LDXjJcB/k
-K0i1MJkymd+HJP3YBToZMv6BtyQ5c239FEi6UyOM6gAvOEh6XieV639/axkWXb1V
-KfPjGXI6UoIctPt4SjrSXcG8DG7aL286CGYO2LOzbX5ayN/SirE2ItEi49IZwI03
-dg16iQwBiIYouAAiRCEQ3pxy/BWkP0SF5FhC+anm6fOSocEAiQ6QAw8h94kvV0jD
-NPG4/4q8mMi22oFVVXcKlJ5C9ponXWLkFOPxxNT0i1IukfvVOfHcDIanuT57Xb+J
-2UCFJPme6QnhDWdUa8Buwh4yR/kjF9Qawho0Js05pSPyqV1SsJzIqikJ4TZukD11
-ITUGUkR33/dskliXJ+hEGdL0d30Xm5Migj/SnoxEDjYZ+1mMs0Jci4Yh41olcnjm
-pbw6k+Y9EESuuP9sv212x9H6ULMuGq4IMpbQHxWkOza9WFuIMTlRLiCDKpriEjDC
-DJDDhGUrmejLiBrenJgkH/Bv
-=JG8G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKbKLkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dYgQAM2bpVs1NiwfRv1vhJjK
+oMLt7NC1avpYEeGv0wkwY4TzL0zgET3uTBvtkwFHsG5ehEw3Hq71cTgKZPKz8JfF
+fA2nzmv7sE7BfT0oe4PmWpAAyULaKkP9Fhr2xDi6Oe4SvR+FbPMJNcsM1PGNhgXR
+FhdSD19Y9v00U5fSTyFhrbIMowrULWZCgXcXRoWfQQVt1Uq93NeBjUdnCXTPpXV1
+My+Fbw0lbOYMxv6FvK5oP4gnQYRZlLfng1wUCGQGugSu5HX9g2+GOqtsaybUITfy
+SrfgRbEXFI/GeeErM4yaEwX05ff+Mr13DLinAPUSbC5DcIXi2IcXikvyZnedcBpT
+TyxEVedOPvbTsX6MfnJnpFSsropCVW2VV/MXuwf3AcpSyukI6xQ/dKoOVFG23Au0
+fgxYAINsDeVa/AuQUdpmoDzkj0pdY2ExRUHyoU2CV9Vg+f9+yh754Jt6v8rlmpyx
+O/c5kEoeT39chA4hRZGAajUUn5Qq1sqGeRfa10bFoI3fH2GPShoMFWX5cwF0ETlz
+vFMZb8GVkkeH4Rp6uknH5pFuLDwGuEhpeU1S5Y2a/yrNxOHaVglOzzgLl9nKaI34
+sooMfzABG+T+/TN3csNsTua8b2l0o3lcV6YQxSZ8oXs4LYV2HeYfknfIFCYWFfg6
+vgm0yn6TuoG+0eSO56ASd4OG
+=BNz/
 -----END PGP SIGNATURE-----
 
---===============6180796254668674898==
+--===============2679346893843568602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42226c989789-032dcf09e2bf.txt
+Content-Disposition: attachment; filename=revlist-90de6805267f-032dcf09e2bf.txt
 
 a682d18433005f9609be95c46924ddca827122de can: peak_usb: fix typo in comment
 3e88445a3a5afc65929c578fe2ffc03420588993 can: kvaser_usb: silence a GCC 12 -Warray-bounds warning
@@ -1082,4 +1082,4 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============6180796254668674898==--
+--===============2679346893843568602==--
