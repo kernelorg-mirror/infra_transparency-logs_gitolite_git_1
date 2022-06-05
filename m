@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sun, 05 Jun 2022 20:22:50 -0000
-Message-Id: <165446057000.29099.12126383979008801688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sun, 05 Jun 2022 21:57:28 -0000
+Message-Id: <165446624856.24506.8526839355629039780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: d9c17b4dc21ef531d673d1d6e510347e141e6801
-    new: b3cf30ba5b47dfa7414416fe3bc5ae34db6065e7
-    log: |
-         e31e645f5c29b6587404c1efe534c65b4691e023 RISC-V: don't die() on -march errors, just warn
-         90feaaa967227961fc9972a0a46bb4fa51eec7b2 RISC-V: Match GCC's semantics for multiple -march instances
-         dcb3887d85c10c96cc56d2715bf21566e3c31d9b RISC-V: Remove the unimplemented ISA extensions
-         b296539554213125eb8f61291c862eec190e4c9b RISC-V: Remove "g" from the extension list
-         b3cf30ba5b47dfa7414416fe3bc5ae34db6065e7 Merge branch 'riscv'
-         
+  - ref: refs/heads/for-palmer
+    old: 0000000000000000000000000000000000000000
+    new: 28f2d99cb1534f64f116a89f9ef2ca342c992c31
