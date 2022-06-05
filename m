@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5715042297925395435=="
+Content-Type: multipart/mixed; boundary="===============3631820715313116495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 05 Jun 2022 04:50:04 -0000
-Message-Id: <165440460414.4931.986752715525423076@gitolite.kernel.org>
+Date: Sun, 05 Jun 2022 05:50:03 -0000
+Message-Id: <165440820384.10882.10130769002617150699@gitolite.kernel.org>
 
---===============5715042297925395435==
+--===============3631820715313116495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 032dcf09e2bf7c822be25b4abef7a6c913870d98
-    new: 952923ddc01120190dcf671e7b354364ce1d1362
-    log: revlist-032dcf09e2bf-952923ddc011.txt
+  - ref: refs/heads/for-5.20/io_uring
+    old: 61d845d82828a225fad04e6fc8bf23185ac02ab5
+    new: cbcd81a6a0d27f34c981ee5af5209ef450cd078f
+    log: revlist-61d845d82828-cbcd81a6a0d2.txt
 
---===============5715042297925395435==
+--===============3631820715313116495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-032dcf09e2bf-952923ddc011.txt
+Content-Disposition: attachment; filename=revlist-61d845d82828-cbcd81a6a0d2.txt
 
 e18e5cbc70f17029c3d028ee701cecc45b7618b4 net: dsa: don't use bitmap_weight() in b53_arl_read()
 1ef1b69beaad10aab85292b822c7cfed4fb01586 net: systemport: don't use bitmap_weight() in bcm_sysport_rule_set()
@@ -108,5 +108,62 @@ d66016c5cd3d4c474cd24622c511dcd358645613 Merge tag '5.19-rc-smb3-client-fixes-pa
 dbe0ee46614016146c1b3e1fc063b44333bb2401 Merge tag 'pull-18-rc1-work.fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 cbd76edeabd5ed078391abb2323b7aee790cdc04 Merge tag 'pull-18-rc1-work.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 952923ddc01120190dcf671e7b354364ce1d1362 Merge tag 'pull-18-rc1-work.namei' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+8bf6b13a58bf8e002390d557f9fee7076099364d io_uring: define a 'prep' and 'issue' handler for each opcode
+e6177199db3006b206e3194a183fae15ed112933 io_uring: move to separate directory
+13164cf6a75d3c8037a360d5eb0aceea9b73eb06 io_uring: move req async preparation into opcode handler
+896c7d0c8b1cbe39235dc31b1839b58a78f20768 io_uring: add generic command payload type to struct io_kiocb
+5e5f3a774c7696fe4530744fb508ba5e29011c34 io_uring: convert read/write path to use io_cmd_type
+0cc9d76fdac1394e4537ddde4ed3bf1464607af3 io_uring: convert poll path to use io_cmd_type
+5922514d4880c675dd6a50fa6ad938b209513ed5 io_uring: convert poll_update path to use io_cmd_type
+d85134ea9bf25738a560c375feef63880011b08b io_uring: remove recvmsg knowledge from io_arm_poll_handler()
+b080aa74fd7e5e1f5d17e93839ee3befd2890068 io_uring: convert net related opcodes to use io_cmd_type
+33f44229c73a01fba44dfeb737c4d130be51fece io_uring: convert the sync and fallocate paths to use io_cmd_type
+9bebb0e19b717d78eb1cf74d32ba1c4c0ed99277 io_uring: convert cancel path to use io_cmd_type
+85d3948f8294d8a430f94324656a88c55f3da380 io_uring: convert timeout path to use io_cmd_type
+fe10e7603b23e13f07d2f9e4715b9c6e210edeef io_uring: convert open/close path to use io_cmd_type
+fb52c7372c29c6c72bd7490fed8b3719c516b308 io_uring: convert madvise/fadvise to use io_cmd_type
+6d4a4581515b016cfc2f05ef0db298c46d3fb77d io_uring: convert file system request types to use io_cmd_type
+ea774bfe5611596229a3bd1c2d17d58bb0a1d974 io_uring: convert epoll to io_cmd_type
+b3a0fb4c9c5bc99df26c3acbcadcb32915d4b3ef io_uring: convert splice to use io_cmd_type
+872b7a05e88e15d77c365adf8513d8169cf16114 io_uring: convert msg and nop to io_cmd_type
+f9173b0599b76e470232a15586ed723b21ef4f38 io_uring: convert rsrc_update to io_cmd_type
+dfcf9cea2251ded86481b7a2f3eeb4d05bcfa993 io_uring: convert xattr to use io_cmd_type
+43bc7f0fd735091b243580b5a0111d111f5ff060 io_uring: convert iouring_cmd to io_cmd_type
+941d98b0007c74c4a14b53f3dd5dde895874439c io_uring: unify struct io_symlink and io_hardlink
+4d5908b34cfc4a20c6894cad34c200c1bcfc0cfa io_uring: define a request type cleanup handler
+e0593122a213a7a6b7690a9f74b1eab7b40ed759 io_uring: add io_uring_types.h
+b7a6ec65cf6e6e19e0ebc502e10176d785053f31 io_uring: set completion result upfront for CQE32 completions
+58311d77e5df2270257a61a4c3f286b5c98ce93b io_uring: handle completions in the core
+84fb6848ad10a5d331cfeda4a5f75e8e2dfd8d7d io_uring: move xattr related opcodes to its own file
+3b058e1eb253c14eb496196e9be3561809151b9f io_uring: move nop into its own file
+e0dee4598325d23eb12a93011e079868d9ac228f io_uring: split out filesystem related operations
+d98ce931dff885aeb30cc64b1afe5c47133c3dcc io_uring: split out splice related operations
+703fe444bf0ff51ae1b4d7970b98d1727ede6e58 io_uring: split out fs related sync/fallocate functions
+219aad5c19d286454b2a7bdbea832dd980ad4aec io_uring: split out fadvise/madvise operations
+05133ca1130254bb0c48864c96beac054b049b3e io_uring: separate out file table handling code
+b640d1fa82f40b6f260d961514d40127dcd80d16 io_uring: split out open/close operations
+4e08eff8a6a9a7791659233a582e5b1645dcc2a5 io_uring: move uring_cmd handling to its own file
+fc93332df92b63f8943fe34c362765ae7f6702dc io_uring: add a dummy -EOPNOTSUPP prep handler
+7820b327daba51d3baf33a7eeb238f23b4f519d5 io_uring: move epoll handler to its own file
+b356817f250fc7dbdddb94a3550c76343ad68cbb io_uring: move statx handling to its own file
+5ad2bf44f08bfaf7c96444c32f49acd6ec43d498 io_uring: split network related opcodes into its own file
+f42ee6a22597e699741a2aab6154a5496dbf1dbb io_uring: move msg_ring into its own file
+e4e8736b2b95048fa44ae2a6e3c1509690d5188b io_uring: move our reference counting into a header
+8560a6d2ccbe9d92be427af8a9a7cb3c6f566f8b io_uring: move timeout opcodes and handling into its own file
+fb0f67934a3975b1ed54969422e05f8494caa38a io_uring: move SQPOLL related handling into its own file
+51462dcfae2e0ba29a6e1ddebf24271de77f722e io_uring: use io_is_uring_fops() consistently
+89d6f358ea28af4d6249188cf3482f7621426e0e io_uring: move fdinfo helpers to its own file
+f1a901740a637b4ebf24c3f17ddfa0b887401fba io_uring: move io_uring_task (tctx) helpers into its own file
+c09e3b7786658f49ec0591026077f0399331007b io_uring: include and forward-declaration sanitation
+d08bc8c4d2eaae9ac6cf75aefddcf98dabe8a169 io_uring: add opcode name to io_op_defs
+826225747d12f06ec3bdbcadada9ab9b2a2f3d7f io_uring: move poll handling into its own file
+96f9e8f92713c0f3dd2fe7c3128f94aa24334f6f io_uring: move cancelation into its own file
+21f58d018d4992ad7499cd41301275fd1b7118b1 io_uring: split provided buffers handling into its own file
+b50eda2efbfec9aa6703574dd0ef4ba061ec7421 io_uring: move rsrc related data, core, and commands
+c7f2065c75c83a00f9c4217db24938c2fd5b2462 io_uring: move remaining file table manipulation to filetable.c
+43735122bc4115fda42c44ab65a1e7fe5f568828 io_uring: move read/write related opcodes to its own file
+d59578644d2645da485058c85ade8a66e2c55ad8 io_uring: move io_op_defs[] back to the top of the file
+f7fa680604bef7dcb380af42e83d38d4b16b2b07 io_uring: add support for level triggered poll
+cbcd81a6a0d27f34c981ee5af5209ef450cd078f io_uring: deprecate epoll_ctl support
 
---===============5715042297925395435==--
+--===============3631820715313116495==--
