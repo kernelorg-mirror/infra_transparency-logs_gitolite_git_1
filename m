@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7301468439666036392=="
+Content-Type: multipart/mixed; boundary="===============2408998307413769938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 05 Jun 2022 18:16:49 -0000
-Message-Id: <165445300902.13112.1112754557790967272@gitolite.kernel.org>
+Date: Sun, 05 Jun 2022 18:16:58 -0000
+Message-Id: <165445301860.13235.1251838397326901059@gitolite.kernel.org>
 
---===============7301468439666036392==
+--===============2408998307413769938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: bcc450ecc136e3b40fabd2fa1f634b4e68e7c3f9
+  - ref: refs/heads/kbuild
+    old: 42ce60aa5aa46ae00f71aa806a11510b6db6d1a7
     new: 44688ffd111af31984237f0cba05f2e201eac530
-    log: revlist-bcc450ecc136-44688ffd111a.txt
+    log: revlist-42ce60aa5aa4-44688ffd111a.txt
 
---===============7301468439666036392==
+--===============2408998307413769938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcc450ecc136-44688ffd111a.txt
+Content-Disposition: attachment; filename=revlist-42ce60aa5aa4-44688ffd111a.txt
 
+48482f4dd3432e5e62873bf0f2e254cfb8ce2ac2 selftests/powerpc: Better reporting in spectre_v2
+5fe855169f9782c669f640b66242662209ffb72a powerpc/irq: Remove arch_local_irq_restore() for !CONFIG_CC_HAS_ASM_GOTO
+84ade0a6655bee803d176525ef457175cbf4df22 powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
+60e832def18de7a0753393034c6ae459b3bee70a kasan: Document support on 32-bit powerpc
+f08aed52412c860f68e30da148da58ad8e40a43b powerpc/mm/kasan: rename kasan_init_32.c to init_32.c
+5352090a999570c6e8a701bcb755fd91e8c5a2cd powerpc/kasan: Don't instrument non-maskable or raw interrupts
+2ab2d5794f14c08676690bf0859f16cc768bb3a4 powerpc/kasan: Disable address sanitization in kexec paths
 41b7a347bf1491e7300563bb224432608b41f62a powerpc: Book3S 64-bit outline-only KASAN support
 7574dd080ee0a1e8a9c6312dc7c8fe97f73415ff powerpc/book3e: Fix build error
 cdf87d2bd12cf3ea760a1fa35907a31e5177f425 powerpc/kaslr_booke: Fix build error
@@ -1035,13 +1042,6 @@ ee3c8019cce254f586b7fc2c5b836c275b275527 cifs: fix uninitialized pointer in erro
 4ccbe91de91a8f9559052179d15c0229a8ac9f8a Merge tag 'for-linus-5.19-rc1b-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 23df9ba64bb9e26cfee6b34f5c3ece49a8a61ee1 Merge tag 'for-5.19/parisc-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 d0e60d46bc03252b8d4ffaaaa0b371970ac16cda Merge tag 'bitmap-for-5.19-rc1' of https://github.com/norov/linux
-b0d6207bad2cb5a6f2099ac4a6ea4e76864dd596 kbuild: clean .tmp_* pattern by make clean
-5d45950dfbb1540bba3e3762a3497de8b4a715d3 kbuild: move vmlinux.o link to scripts/Makefile.vmlinux_o
-b42d2306502419688190aa6dd4dab4a6def24b3d kbuild: factor out the common objtool arguments
-8c9ce89c5b63028dd3be43807f10b009cd2c6e51 modpost: simplify mod->name allocation
-a89227d769845eb9e9ab113f9f83df34d3c91db5 modpost: use fnmatch() to simplify match()
-2bbb486162c4ace673ea423bbd7e7b40f020ad45 scripts: kconfig: nconf: make nconfig accept jk keybindings
-42ce60aa5aa46ae00f71aa806a11510b6db6d1a7 kbuild: Allow to select bash in a modified environment
 d66016c5cd3d4c474cd24622c511dcd358645613 Merge tag '5.19-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 dbe0ee46614016146c1b3e1fc063b44333bb2401 Merge tag 'pull-18-rc1-work.fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 cbd76edeabd5ed078391abb2323b7aee790cdc04 Merge tag 'pull-18-rc1-work.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -1051,4 +1051,4 @@ cbd76edeabd5ed078391abb2323b7aee790cdc04 Merge tag 'pull-18-rc1-work.mount' of g
 b2c9a83d262a8feb022e24e9f9aadb66cb10a7a8 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 44688ffd111af31984237f0cba05f2e201eac530 Merge tag 'objtool-urgent-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7301468439666036392==--
+--===============2408998307413769938==--
