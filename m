@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1096339683618101576=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 05 Jun 2022 10:31:14 -0000
-Message-Id: <165442507460.4978.8635067844133395692@gitolite.kernel.org>
-
---===============1096339683618101576==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Sun, 05 Jun 2022 10:33:37 -0000
+Message-Id: <165442521794.5821.16834408646105860698@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 846b953c1f5635e16432ffb113cb0803704e8126
-    new: 22d1e94dc1c02675e0ff053e2c4aa2b8a4392f7f
+  - ref: refs/heads/habanalabs-next
+    old: 38403cefae938e8440e450a1711a2775a7183e53
+    new: 7cc515ddc9436c5d2f621ce4aba5f5189d9e2d48
     log: |
-         22d1e94dc1c02675e0ff053e2c4aa2b8a4392f7f 5.18-stable patches
+         57a09f66340b596a61dcbd852e8f1403e107317b habanalabs: add terminating NULL to attrs arrays
+         45cde8064dd798461dd7d00855bff904acabf60f habanalabs: align ioctl uapi structures to 64-bit
+         336c0cadd0bda3844b666f6461bab9a2accff8c9 habanalabs/gaudi: move tpc assert raise into internal func
+         fb5204e82927db54bb6a04cd8c32397c653dfaf0 habanalabs: change the write flag name of error info structs
+         5655835a9cd34b0ddc02f5a766bb7d0b66332a00 habanalabs/gaudi: fix comment to reflect current code
+         59c8436e2c34c0a20239e9357d23f28c3364110c habanalabs: keep a record of completed CS outcomes
+         7cc515ddc9436c5d2f621ce4aba5f5189d9e2d48 habanalabs: fix race between hl_get_compute_ctx() and hl_ctx_put()
          
-
---===============1096339683618101576==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654425073 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1654425071-84fe970fb6e31699e10a94302e8f439c35b69983
-
-846b953c1f5635e16432ffb113cb0803704e8126 22d1e94dc1c02675e0ff053e2c4aa2b8a4392f7f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKchfEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7hgQAJQWyPKu/qdSqoBblh9m
-eVHzvkMI8G6op6oRnkWNcMO4xpP/fgvnPOLACrh+/455MPdtIq447KZ6XHxE2Ea1
-Bb9ZcjxUHOlFnyczG+QUKbszWv6FttbIdkYBHDrHqFOr0df7tEgp/UaNDyMI6d9p
-f6pxxcPGm8yExBKzYEy2LFeIy44n7tTHrggy2Umpf5OEy0eVOE10FyXx4Udvn7DX
-G7JTpOGhib844yfikurvfFfvoIhfu+0MHl1zs6IwdWVpCHigXJv0sizg071/0Gkv
-T1KtI8DbGYu7p0Pkcczu8ahGq4Cf0g+A3sfZ5/46IM8kf68GJP8pOhTZHHFwK2y7
-U6ZKBg+Uoq+ADaCsmjFj3Zco3jLH7vkvsyo4BgOm5l08j54ybK/r0pVIW0mS27NE
-ReXyloFPkfAC7Ea4YQzvZ7VZBpH27+2Yl+EEAbNPC5fR/Pm1T1PZCYk01GwxF+sZ
-nz5EAjZEIUZBshHKYs3Z3YTupqgn2eoIr0lQXVHXtLR3b/KmtIDsjJ5zUNQtcnc2
-l+UtG+mKI46fiyiRTFsnW63tuOXLHRe0cPm5a675B1kcVcYcJcaFH9V2ZIW5FMPa
-LXTkslHJJJFYy7WErdiKb4mFXyc8ITSWkhOKIJFL/ZHieGMQMdErT45NTKMGpNXH
-3JFr3n1K91r0xZy0shceOQXu
-=rPiA
------END PGP SIGNATURE-----
-
---===============1096339683618101576==--
