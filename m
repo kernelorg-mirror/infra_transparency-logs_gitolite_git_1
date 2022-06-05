@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7110977647161047780=="
+Content-Type: multipart/mixed; boundary="===============8590294445944848406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 05 Jun 2022 17:14:49 -0000
-Message-Id: <165444928951.3480.1990820683982749658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 05 Jun 2022 17:35:01 -0000
+Message-Id: <165445050188.15943.11959178646672594775@gitolite.kernel.org>
 
---===============7110977647161047780==
+--===============8590294445944848406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 952923ddc01120190dcf671e7b354364ce1d1362
     new: 44688ffd111af31984237f0cba05f2e201eac530
     log: revlist-952923ddc011-44688ffd111a.txt
 
---===============7110977647161047780==
+--===============8590294445944848406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -103,4 +103,4 @@ a89227d769845eb9e9ab113f9f83df34d3c91db5 modpost: use fnmatch() to simplify matc
 b2c9a83d262a8feb022e24e9f9aadb66cb10a7a8 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 44688ffd111af31984237f0cba05f2e201eac530 Merge tag 'objtool-urgent-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7110977647161047780==--
+--===============8590294445944848406==--
