@@ -1,42 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0321652286371628823=="
+Content-Type: multipart/mixed; boundary="===============9026620764847004785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 06 Jun 2022 16:12:57 -0000
-Message-Id: <165453197724.12939.16903755805969873984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 06 Jun 2022 16:13:15 -0000
+Message-Id: <165453199593.13147.6070685528272590488@gitolite.kernel.org>
 
---===============0321652286371628823==
+--===============9026620764847004785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 5c422f0b970d287efa864b8390a02face404db5d
+    old: e4296f8578b5ba01aa3782ddb4fbe7604352c036
+    new: 79727a0637066f62e078e572d352a7a19f08ce7c
     log: |
-         bd941dfaae3503c6b707d8544696205f759e57a3 regmap: Constify static regmap_bus structs
-         d640947562cea6158df13fe021b0e117865ba8b3 regmap: cache: set max_register with reg_stride
-         d77e745613680c54708470402e2b623dcd769681 regmap: Add bulk read/write callbacks into regmap_config
-         eedd8a8542b9509d3a2aa8141c60858ac0c5024a regmap: Custom bulk operations for regmaps
-         5c422f0b970d287efa864b8390a02face404db5d regmap: Add missing map->bus check
+         79727a0637066f62e078e572d352a7a19f08ce7c Merge remote-tracking branch 'regulator/for-5.18' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 5c422f0b970d287efa864b8390a02face404db5d
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-5c422f0b970d-f2906aa86338.txt
+    old: e4296f8578b5ba01aa3782ddb4fbe7604352c036
+    new: e1befa6dbcacadc1d750b0369ee891b7b46954d1
+    log: revlist-e4296f8578b5-e1befa6dbcac.txt
 
---===============0321652286371628823==
+--===============9026620764847004785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c422f0b970d-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-e4296f8578b5-e1befa6dbcac.txt
 
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
@@ -783,7 +778,6 @@ d144182ed19af0bed4e4a73b51c7af9caccf6fa2 s390/uaccess: whitespace cleanup
 f037acb41dc9fc0f00521685b3250226d6f9b437 s390/stack: merge empty stack frame slots
 e0ffcf3fe18e0310221461c08969edec2cc7628c s390/stack: add union to reflect kvm stack slot usages
 724bbe49c5e427cb077357d72d240a649f2e4054 fs/ntfs3: provide block_invalidate_folio to fix memory leak
-28cbc2d4c54c09a427b18a1604740efb6b2cc2d6 regulator: mt6315-regulator: fix invalid allowed mode
 e6652a8ef3e64d953168a95878fe29b934ad78ac net: ping6: Fix ping -6 with interface name
 86360030cc5117596626bef1d937277cd2bebe05 net/sched: act_api: fix error code in tcf_ct_flow_table_fill_tuple_ipv6()
 ca209f8b5f61b74782dd4275ebc7173d92cb4905 efi: x86: Fix config name for setting the NX-compatibility flag in the PE header
@@ -1060,5 +1054,7 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+79727a0637066f62e078e572d352a7a19f08ce7c Merge remote-tracking branch 'regulator/for-5.18' into regulator-linus
+e1befa6dbcacadc1d750b0369ee891b7b46954d1 Merge branch 'regulator-linus' into regulator-next
 
---===============0321652286371628823==--
+--===============9026620764847004785==--
