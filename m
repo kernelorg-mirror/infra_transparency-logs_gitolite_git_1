@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7298934828302925854=="
+Content-Type: multipart/mixed; boundary="===============4040491233567874538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 06 Jun 2022 08:06:45 -0000
-Message-Id: <165450280543.16332.9663779341352555380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 06 Jun 2022 08:06:47 -0000
+Message-Id: <165450280754.16399.14266772861028514120@gitolite.kernel.org>
 
---===============7298934828302925854==
+--===============4040491233567874538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/next/drivers
-    old: 5fe580196dd9b7d8eb2a99629055bb4ffa00f262
+  - ref: refs/heads/mem-ctrl-next
+    old: 854fd9209b20837ab48c2e6714e5e44dd8ea33a2
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-5fe580196dd9-f2906aa86338.txt
+    log: revlist-854fd9209b20-f2906aa86338.txt
 
---===============7298934828302925854==
+--===============4040491233567874538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fe580196dd9-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-854fd9209b20-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============7298934828302925854==--
+--===============4040491233567874538==--
