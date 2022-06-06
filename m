@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9195346885217070183=="
+Content-Type: multipart/mixed; boundary="===============0596345248841383684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 06 Jun 2022 03:10:56 -0000
-Message-Id: <165448505670.4202.5903296434753048451@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 03:12:05 -0000
+Message-Id: <165448512506.4776.14726684365656969781@gitolite.kernel.org>
 
---===============9195346885217070183==
+--===============0596345248841383684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: abd4fd43f2af03e2e852e6b1b98faeee9e3eae55
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-abd4fd43f2af-f2906aa86338.txt
+  - ref: refs/heads/for-kernelci
+    old: c2d7e384924df85db92e45390ef0c00f2b89d9c2
+    new: 4a0e708bb23fc2fd10c7320b40ab9af2cf619f5f
+    log: revlist-c2d7e384924d-4a0e708bb23f.txt
 
---===============9195346885217070183==
+--===============0596345248841383684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abd4fd43f2af-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-c2d7e384924d-4a0e708bb23f.txt
 
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
-dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
@@ -1050,5 +1045,10 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+db681eaf7145158fb49eddbdb548692e8bfe7fab platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_prepare_tx()
+23a34e3a9d00829f6bed67004a751d5b48f6084a platform/chrome: cros_ec_proto: factor legacy out from cros_ec_prepare_tx()
+97b11dd6350a1d5fb076df69ebbf504eb5c4fd57 platform/chrome: cros_ec_proto: update cros_ec_check_result() comment
+4319cbd4ed99003e0c981728ab1626c25be7af4a platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_check_result()
+4a0e708bb23fc2fd10c7320b40ab9af2cf619f5f KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============9195346885217070183==--
+--===============0596345248841383684==--
