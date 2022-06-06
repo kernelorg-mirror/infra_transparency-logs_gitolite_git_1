@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 06 Jun 2022 10:34:52 -0000
-Message-Id: <165451169286.2080.11578259318301553122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 06 Jun 2022 10:36:49 -0000
+Message-Id: <165451180995.4224.9173666448435504432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 3014efe7f4d624a8c0dff874d2fee17b9d1b42ce
-    new: 47e4cce2e747496d8aac71b3fd91d42241db4fa1
+    old: 44e64c574d3fa13bac315ed5f1c79422d1d8a0d0
+    new: 26f6fa2ba3b48092315093379846997ed6bd59f6
     log: |
-         c79a1fdabb1b9e1420e91c096e4841b92912abd7 Fixes for 5.18
-         6a7f5d81b22d848816d418a2135d850767430c37 Fixes for 5.17
-         2f776bab83a3f4c638272c2e395d036a6d8509d2 Fixes for 5.15
-         1d2f3c71cdac61b5662700b55a11fc2fd199d083 Fixes for 5.10
-         119a1ab7244092f63371b44d33d1263c9e895958 Fixes for 5.4
-         3923f59077364257ca7ccd20c4a39a68876cc103 Fixes for 4.19
-         21b7651802e396d48306a49ae7a74481545db301 Fixes for 4.14
-         47e4cce2e747496d8aac71b3fd91d42241db4fa1 Fixes for 4.9
+         97afabf71b6177e36279c456c2de135ed0c9ba00 lsblk: add -N/--nvme
+         0540d07611a543371348109d6c06f707276ffbce lsblk: support virtio block
+         1b3e8f5d2c9c8a4eb2df578010c10f84b057d501 lsblk: add -v/--virtio
+         3b26273394259a0dbe77bdeb4b3adf3ceaef94a0 lsblk: introduce 'MQ' column
+         f1a714d869b0df59fd88ba0845acca5250f26152 lsblk: enable 'MQ' for NVMe/virtio by default
+         26f6fa2ba3b48092315093379846997ed6bd59f6 lsblk: simplify code by ul_path_count_dirents()
          
