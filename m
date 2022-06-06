@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6971637470077793846=="
+Content-Type: multipart/mixed; boundary="===============4497202382294599059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Mon, 06 Jun 2022 10:01:48 -0000
-Message-Id: <165450970836.12152.9557767153694252008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Mon, 06 Jun 2022 10:02:34 -0000
+Message-Id: <165450975456.12447.13824322134572313465@gitolite.kernel.org>
 
---===============6971637470077793846==
+--===============4497202382294599059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 54bf672111eef18819fa6e562f68b2d6c449b05d
+    old: 0f07cbb92a28894a58fb70fc49e37de8e855eda8
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-54bf672111ee-f2906aa86338.txt
+    log: revlist-0f07cbb92a28-f2906aa86338.txt
 
---===============6971637470077793846==
+--===============4497202382294599059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54bf672111ee-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-0f07cbb92a28-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============6971637470077793846==--
+--===============4497202382294599059==--
