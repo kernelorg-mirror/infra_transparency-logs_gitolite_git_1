@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1467237049337093807=="
+Content-Type: multipart/mixed; boundary="===============7815265804593632096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 06 Jun 2022 07:34:15 -0000
-Message-Id: <165450085568.26843.4994909159142796925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Mon, 06 Jun 2022 07:35:58 -0000
+Message-Id: <165450095882.28853.9364034144925038658@gitolite.kernel.org>
 
---===============1467237049337093807==
+--===============7815265804593632096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
-    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
+  - ref: refs/heads/gnss-next
+    old: 3123109284176b1532874591f7c81f3837bbdc17
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-672c0c517342-f2906aa86338.txt
+    log: revlist-312310928417-f2906aa86338.txt
 
---===============1467237049337093807==
+--===============7815265804593632096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-672c0c517342-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-312310928417-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============1467237049337093807==--
+--===============7815265804593632096==--
