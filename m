@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3170645002412338060=="
+Content-Type: multipart/mixed; boundary="===============7215458013783255348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 06 Jun 2022 00:52:38 -0000
-Message-Id: <165447675869.6934.1148705613520766183@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 00:56:10 -0000
+Message-Id: <165447697023.9518.16229565373742860412@gitolite.kernel.org>
 
---===============3170645002412338060==
+--===============7215458013783255348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.19-fixes
-    old: 400d76f44464d10aa579cd7bb2bcfff52b0a5ef7
-    new: 10d6bdf532902be1d8aa5900b3c03c5671612aa2
-    log: revlist-400d76f44464-10d6bdf53290.txt
+  - ref: refs/heads/master
+    old: 700170bf6b4d773e328fa54ebb70ba444007c702
+    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    log: revlist-700170bf6b4d-f2906aa86338.txt
 
---===============3170645002412338060==
+--===============7215458013783255348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-400d76f44464-10d6bdf53290.txt
+Content-Disposition: attachment; filename=revlist-700170bf6b4d-f2906aa86338.txt
 
+0e7f030687efb7a6f8dddd0e967ca4377aee3001 scripts/spdxcheck: Add [sub]directory statistics
+67924b71412cd965e0d1c55c0cddb0014c8a725b scripts/spdxcheck: Add option to display files without SPDX
+0509b270a358fa563946368418f8e832d9b63452 scripts/spdxcheck: Put excluded files and directories into a separate file
 2fb977133684bb74d301bd86a9bb1bd2762362fc scripts/spdxcheck: Exclude config directories
 2ab99ce9780d3c3505db4b83669869627010307e scripts/spdxcheck: Exclude MAINTAINERS/CREDITS
 e0208351383c19e62f5f04209ce4ecf24db64eaf scripts/spdxcheck: Exclude top-level README
@@ -1047,8 +1050,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-a734510fa8b4e61e6a37176f0da01f4c55fa52de ata: libata: drop 'sas_last_tag'
-bf476fe22aa1851bab4728e0c49025a6a0bea307 ata: libata-core: fix NULL pointer deref in ata_host_alloc_pinfo()
-10d6bdf532902be1d8aa5900b3c03c5671612aa2 ata: pata_octeon_cf: Fix refcount leak in octeon_cf_probe
 
---===============3170645002412338060==--
+--===============7215458013783255348==--
