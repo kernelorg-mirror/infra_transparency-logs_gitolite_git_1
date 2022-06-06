@@ -1,26 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Jun 2022 14:00:30 -0000
-Message-Id: <165452403097.18228.15169862606081617021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 06 Jun 2022 14:01:59 -0000
+Message-Id: <165452411923.18807.12163157195224938659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/review-andy
-    old: 955986d03c033f07452c358355071bb52438eb03
-    new: 3bfddf2fc66f6f185b159e34c3b04cb75dfd77c4
+  - ref: refs/heads/hmm
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 5a865a32bf9b449da35956df247b69b78dc55ed1
     log: |
-         386cbe7f1b152c8476a7d322d39512b1b4259ed5 gpio: crystalcove: make irq_chip immutable
-         b34d2ad73af3c58dbaf8aa71b7308f17d9863780 gpio: crystalcove: Use specific type and API for IRQ number
-         68a12c19e1cb0f3332d3f59e1d5447f2aff97cd7 gpio: crystalcove: Join function declarations and long lines
-         41a18c4918dcd57a49b0d046d9f2d587878de739 gpio: wcove: make irq_chip immutable
-         a80fed9fb643175832e2fb8481d38f5d92cbcd34 gpio: merrifield: make irq_chip immutable
-         f1138dacb7ff5221c4a37b823e42fc0a34df8731 gpio: sch: make irq_chip immutable
-         b93a8b2c5161696e732185311d309e0aaf0575be gpio: dln2: make irq_chip immutable
-         3bfddf2fc66f6f185b159e34c3b04cb75dfd77c4 gpiolib: cdev: Fix kernel doc for struct line
+         b9d27e96de7b074bf7ef8f557cadd1896d7ddf40 RDMA: Add ERDMA to rdma_driver_id definition
+         4cfa9d42507ffdf53cbdc81baa119e1fad0d09ed RDMA/erdma: Add the hardware related definitions
+         ac033aa21c9e60441afc00a86cf53bf6c908194b RDMA/erdma: Add main include file
+         7ed2543e423ce5a61b1a7e6d60549d90c964be78 RDMA/erdma: Add cmdq implementation
+         5a289eed200de04483fd9b45c2c65dab98b8db29 RDMA/erdma: Add event queue implementation
+         c35924ab50aa9533b0ce738fb2f24f9ce037e825 RDMA/erdma: Add verbs header file
+         c4612e83c14b908d2d75be3da94b5c55f71c0a5c RDMA/erdma: Add verbs implementation
+         81c527f04b90f471b42c1ba28a489ce996dad9b2 RDMA/erdma: Add connection management (CM) support
+         d4d7a22521c9021738feaeba7e9c7ef2c325127b RDMA/erdma: Add the erdma module
+         ad19068c46ccbf111be289f63e40a922265496c8 RDMA/erdma: Add the ABI definitions
+         5a865a32bf9b449da35956df247b69b78dc55ed1 RDMA/erdma: Add driver to kernel build environment
          
