@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 06 Jun 2022 09:29:54 -0000
-Message-Id: <165450779490.7022.6590839359193224971@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 09:34:06 -0000
+Message-Id: <165450804631.10170.1842449555945468384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
   - ref: refs/heads/next
-    old: 3084b48fa13931400f316e2b9ffdd98b8ba6600e
-    new: e173b7d46c0413f004450bfc48f45bfc0f0f2fc2
+    old: e173b7d46c0413f004450bfc48f45bfc0f0f2fc2
+    new: 7ec58378a985618909ffae18e4ac0de2ae625f33
     log: |
-         e173b7d46c0413f004450bfc48f45bfc0f0f2fc2 thunderbolt: Fix some kernel-doc comments
+         7ec58378a985618909ffae18e4ac0de2ae625f33 thunderbolt: Add support for Intel Raptor Lake
          
