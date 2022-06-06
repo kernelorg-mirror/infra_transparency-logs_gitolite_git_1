@@ -1,38 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============9026620764847004785=="
+Content-Type: multipart/mixed; boundary="===============0870789959211531819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 06 Jun 2022 16:13:15 -0000
-Message-Id: <165453199593.13147.6070685528272590488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 06 Jun 2022 16:13:24 -0000
+Message-Id: <165453200437.13299.7011436056784743663@gitolite.kernel.org>
 
---===============9026620764847004785==
+--===============0870789959211531819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e4296f8578b5ba01aa3782ddb4fbe7604352c036
-    new: 79727a0637066f62e078e572d352a7a19f08ce7c
-    log: |
-         79727a0637066f62e078e572d352a7a19f08ce7c Merge remote-tracking branch 'regulator/for-5.18' into regulator-linus
-         
+    old: ebf2a3521738520e12849b221fea24928b3f61ff
+    new: 6aa27071e4354c351d98e345fc888b70f335f185
+    log: revlist-ebf2a3521738-6aa27071e435.txt
   - ref: refs/heads/for-next
-    old: e4296f8578b5ba01aa3782ddb4fbe7604352c036
-    new: e1befa6dbcacadc1d750b0369ee891b7b46954d1
-    log: revlist-e4296f8578b5-e1befa6dbcac.txt
+    old: ebf2a3521738520e12849b221fea24928b3f61ff
+    new: 6aa27071e4354c351d98e345fc888b70f335f185
+    log: revlist-ebf2a3521738-6aa27071e435.txt
 
---===============9026620764847004785==
+--===============0870789959211531819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4296f8578b5-e1befa6dbcac.txt
+Content-Disposition: attachment; filename=revlist-ebf2a3521738-6aa27071e435.txt
 
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -239,8 +236,6 @@ ed6cd6a17896561b9f51ab4c0d9bbb29e762b597 net, neigh: Set lower cap for neigh_man
 d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and balloon_remove() error handling
 50e35bd57c02a584442c0aa917787c858eabe80b video: fbdev: radeon: Fix spelling typo in comment
 5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
-61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
-ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
 9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
 73534617dfa3c4cd95fe5ffaeff5315e9ffc2de6 perf build: Fix btf__load_from_kernel_by_id() feature check
 5c83eff38194ab2c69a7dc1a64a0a3683f0a3c3a perf build: Stop using __weak bpf_prog_load() to handle older libbpf versions
@@ -778,6 +773,7 @@ d144182ed19af0bed4e4a73b51c7af9caccf6fa2 s390/uaccess: whitespace cleanup
 f037acb41dc9fc0f00521685b3250226d6f9b437 s390/stack: merge empty stack frame slots
 e0ffcf3fe18e0310221461c08969edec2cc7628c s390/stack: add union to reflect kvm stack slot usages
 724bbe49c5e427cb077357d72d240a649f2e4054 fs/ntfs3: provide block_invalidate_folio to fix memory leak
+28cbc2d4c54c09a427b18a1604740efb6b2cc2d6 regulator: mt6315-regulator: fix invalid allowed mode
 e6652a8ef3e64d953168a95878fe29b934ad78ac net: ping6: Fix ping -6 with interface name
 86360030cc5117596626bef1d937277cd2bebe05 net/sched: act_api: fix error code in tcf_ct_flow_table_fill_tuple_ipv6()
 ca209f8b5f61b74782dd4275ebc7173d92cb4905 efi: x86: Fix config name for setting the NX-compatibility flag in the PE header
@@ -1054,7 +1050,9 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-79727a0637066f62e078e572d352a7a19f08ce7c Merge remote-tracking branch 'regulator/for-5.18' into regulator-linus
-e1befa6dbcacadc1d750b0369ee891b7b46954d1 Merge branch 'regulator-linus' into regulator-next
+21b511ddee09a78909035ec47a6a594349fe3296 spi: spi-cadence: Fix SPI CS gets toggling sporadically
+7b40322f7183a92c4303457528ae7cda571c60b9 spi: cadence: Detect transmit FIFO depth
+2283679f4c468df367830b7eb8f22d48a6940e19 spi: spi-mem: Fix spi_mem_poll_status()
+6aa27071e4354c351d98e345fc888b70f335f185 spi: dt-bindings: Fix unevaluatedProperties warnings in examples
 
---===============9026620764847004785==--
+--===============0870789959211531819==--
