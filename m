@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0379917347097343593=="
+Content-Type: multipart/mixed; boundary="===============6848722578613160292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 06 Jun 2022 19:18:53 -0000
-Message-Id: <165454313305.11568.8520065150978413801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 06 Jun 2022 19:18:56 -0000
+Message-Id: <165454313699.11685.9302513795314286289@gitolite.kernel.org>
 
---===============0379917347097343593==
+--===============6848722578613160292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
     log: revlist-35b51afd23c9-f2906aa86338.txt
 
---===============0379917347097343593==
+--===============6848722578613160292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============0379917347097343593==--
+--===============6848722578613160292==--
