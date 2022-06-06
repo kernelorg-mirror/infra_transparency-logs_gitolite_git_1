@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6471567931186688652=="
+Content-Type: multipart/mixed; boundary="===============2793943400681034269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 06 Jun 2022 06:59:15 -0000
-Message-Id: <165449875586.2218.13358328189852764489@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 07:01:02 -0000
+Message-Id: <165449886252.3005.14958671177503284919@gitolite.kernel.org>
 
---===============6471567931186688652==
+--===============2793943400681034269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/linux-next
-    old: 41925b105e345ebc84cedb64f59d20cb14a62613
-    new: bb1b8419ea23d8d2de3c886a540f41e39dfe82a9
-    log: revlist-41925b105e34-bb1b8419ea23.txt
+  - ref: refs/heads/master
+    old: f993aed406eaf968ba3867a76bb46c95336a33d0
+    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    log: revlist-f993aed406ea-f2906aa86338.txt
 
---===============6471567931186688652==
+--===============2793943400681034269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41925b105e34-bb1b8419ea23.txt
+Content-Disposition: attachment; filename=revlist-f993aed406ea-f2906aa86338.txt
 
+46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
+5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
+dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
 cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
@@ -408,6 +415,7 @@ c5c468dcc25efc0095361bb63b6255622e22f695 modpost: reuse ARRAY_SIZE() macro for s
 68fef6704e38581f7462cb7aac349978fd4ca5cc modpost: squash if...else-if in find_elf_symbol2()
 c9db1884050fa6524ae851347731ba2ff9c8d734 kbuild: replace $(if A,A,B) with $(or A,B) in scripts/Makefile.modpost
 57963a92a70b037aa22544fbc34742e5be689c04 Merge tag 'timers-v5.19-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
+49f8b459fc1de5e3712b57c8ccefae9ec45270f8 xen: switch gnttab_end_foreign_access() to take a struct page pointer
 ffd219efd9ee1ceccc7ccfa9361fd40705680fc3 netfilter: nfnetlink: fix warn in nfnetlink_unbind
 56b14ecec97f39118bf85c9ac2438c5a949509ed netfilter: conntrack: re-fetch conntrack after insertion
 aeed55a08d0b2bf2e3986b110b04d2a5aca192a6 netfilter: cttimeout: fix slab-out-of-bounds read in cttimeout_net_exit
@@ -531,6 +539,7 @@ c55b2b983b0fa012942c3eb16384b2b722caa810 nbd: fix race between nbd_alloc_config(
 858f1bf65d3d9c00b5e2d8ca87dc79ed88267c98 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
 1243172d5894e2d8f277ee3c278180792de5c521 nbd: use pr_err to output error message
 9d004b2f4fea97cde123e7f1939b80e77bf2e695 Merge tag 'cxl-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+0a19bab54ef44348aa5edfc2b8ff47f63a45ae15 MAINTAINERS: Update Xen maintainership
 2ef4bb24ff39ae4af89b80bcc5d516f55368e8ae pcmcia: Use platform_get_irq() to get the interrupt
 630f972d76d6460235e84e1aa034ee06f9c8c3a9 riscv: read-only pages should not be writable
 e225c9a5a74b12e9ef8516f30a3db2c7eb866ee1 net/smc: fixes for converting from "struct smc_cdc_tx_pend **" to "struct smc_wr_tx_pend_priv *"
@@ -740,6 +749,7 @@ bcd7ec2cd720d5034a95d42f7ba3276b5e917bda dt-bindings: PCI: socionext,uniphier-pc
 b3c0a9efbe0e9471afae2986201da09c046bbd77 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 0a375c822497ed6ad6b5da0792a12a6f1af10c0b tcp: tcp_rtx_synack() can be called from process context
 cc391b694ff085f62f133e6b8f864d43a8e69dfd cifs: fix potential deadlock in direct reclaim
+41925b105e345ebc84cedb64f59d20cb14a62613 xen: replace xen_remap() with memremap()
 7becdd13b640a6f91219ae3f201afa03ed67876b vdpa/mlx5: Remove flow counter from steering
 baf2ad3f6a985354293e371b9ba12b162d639e29 vdpa/mlx5: Add RX MAC VLAN filter support
 bd8bb9aed56b1814784a975e2dfea12a9adcee92 vdpa: ifcvf: set pci driver data in probe
@@ -1040,15 +1050,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-2130a790ca49763f724ec45cf93b9dd765e2023e kernel: add platform_has() infrastructure
-3f9dfbebdc48cebfbda738f6f3d1dbf6d7232f90 virtio: replace arch_has_restricted_virtio_memory_access()
-9bf22421dc8a69cade3c994771637e9693ff0216 arm/xen: Introduce xen_setup_dma_ops()
-02a9e681a3f7998074f39ec265080bf934871530 xen/grants: support allocating consecutive grants
-2c73e39aceb90b59058cdbc497916049e798963c xen/grant-dma-ops: Add option to restrict memory access under Xen
-6b268a48884cf8ef00477a0e652864638391587c xen/virtio: Enable restricted memory access using Xen grant mappings
-683070750f0dcca9d92ce3a2b240b237b6258314 dt-bindings: Add xen,grant-dma IOMMU description for xen-grant DMA ops
-32e271e0e3a5655944e33c3d3e2188abfe9f2923 xen/grant-dma-iommu: Introduce stub IOMMU driver
-fff954abd2ebe7897b48328d7d1d4a3abc541eb8 xen/grant-dma-ops: Retrieve the ID of backend's domain for DT devices
-bb1b8419ea23d8d2de3c886a540f41e39dfe82a9 arm/xen: Assign xen-grant DMA ops for xen-grant DMA devices
 
---===============6471567931186688652==--
+--===============2793943400681034269==--
