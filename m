@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3179239877175786542=="
+Content-Type: multipart/mixed; boundary="===============1302395558265939624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 06 Jun 2022 05:33:46 -0000
-Message-Id: <165449362679.30149.2550580745229053921@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 05:33:49 -0000
+Message-Id: <165449362993.30229.17676295254458177519@gitolite.kernel.org>
 
---===============3179239877175786542==
+--===============1302395558265939624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 032dcf09e2bf7c822be25b4abef7a6c913870d98
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
     log: revlist-032dcf09e2bf-f2906aa86338.txt
 
---===============3179239877175786542==
+--===============1302395558265939624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654493626 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654493629 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1654493625-d258a045568079e40f5f51b4b031617925287d4e
+nonce 1654493628-e721c59c25cfe68d1ca9bc969f7a558241607528
 
-032dcf09e2bf7c822be25b4abef7a6c913870d98 f2906aa863381afb0015a9eb7fefad885d4e5a56 refs/heads/main
+032dcf09e2bf7c822be25b4abef7a6c913870d98 f2906aa863381afb0015a9eb7fefad885d4e5a56 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKdkbobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JbQP/0HbUHBdlCeIdutEM3Ow
-srv40vvhEmdalxeMbQpWQH2cC+Bjd7EUh47jey6GW2nyGA3TF1KUu4HbhQ+wGH2r
-8ro36tbdZFJQH3FxkQLu2MbC9ZAerAAImhHxulVW1+4jc/jZb4IMdnkF7tDc330w
-wP9bS41j1lVWWyhNpEy69UImA8mUmUHxXx+kc4QPxVPip4XWrRRj5OYT/ZYSTBNQ
-gOCuRiyMz2I1MrsOcXmdZOtxUpwFMZMOX/M0flDU3XzOSIjEoK3UQ/UtsQVhOLrf
-4kcJVaHM9q/msjTU3JbDTDqqQQWSnvDwCCxRU262SZepkk+m/ILo/oWig4ThP9gn
-RXMn75CD1FyCzf6RXsAz342TWvOpuPgi2TEsqG9f6x50s3hxG7udkLWRTWX8H63f
-5P9vRFqDFKs4Nw4ilNpetw8SOxQI1iZDxVYS4uUelmFGMjZy/BgU/vDH5iMU6Bf/
-qfVxMlOBQ1VVOnZdfRF0yykSHfZl0yKaFicLlPTHw4GFvylm56V5xKfamird3AtU
-jjtLjZSDFlAqQu8HxP2DOl8Togl2Qb3uiY1HRj6SgUQojB0pPrJ9jQMMiWM6HyxZ
-+gP3w0ixRLMxGCl4LNX1ZD7aGmH8JrKtSXrBDX0H5rC1b+K5QPKLuZKDF5AerHj/
-26C15mpxe2aa1U1I5REFQcA3
-=JrYN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKdkb0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+37gQAM6fBA4cVrEl66uE0ItV
+U8J6fCQh81P1F3JabB2+qjUuG+zWF+XvDaDdKWR1Lv25/yytNmfXypc0NlAnXTD8
+pFtU3aYSwzQEmSfIFUz2E6cjejDkJG7Q3z54ewm0HRZCyLJvY5UZkSufumNElPXl
+7/2skdrm4Mb4s0qF8a2aDtzkj5IjwELdgsVJ7e6Eawt12ik0r1jFmQOq/hWy/KGS
+3nPVEFL12CYNfiUlQCRHl3ibMdRucjEF2147iO9EvxNgwtZQg3dWC9TOfcffsNwP
+Q8GtRD+eXzsAzlWK0Ti5ZtRBDyyBm9mUDutsrUvZIbSlq8KPJDMh4C/VbF4O6Yat
+mZsIsSfGUJb8xcrisfJKm3nDfGSMujEzqIg3Td7ww7AguGI5GGQ2ohoi3H0avKeM
+XSe8Veo+aCYP72BILecuEpkodXCfTX+vbjOd3+3E53054Uzg4YdFkbnpsUbvvj/X
+0hhSoCEa5sseE3snk+oT6Q5s1hgqaikVw6faqXwkWp0J1dg35Z3J+MMRmG9S5rni
+MhDOtMsvVmnPi6z1FYhqbjtltTXC+lA0Q6q6N+281S3jy4dYVd/5vi9wtExMyl4y
+5mqRg3OXYGJweURBPGOSple9kdf3l1etWYQIAOvJ1LzyJOT76xjNMbqdPcrW+CEy
+mVLFv2tWR9JuW9n9Qsrgeu5o
+=b4Ma
 -----END PGP SIGNATURE-----
 
---===============3179239877175786542==
+--===============1302395558265939624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -271,4 +271,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============3179239877175786542==--
+--===============1302395558265939624==--
