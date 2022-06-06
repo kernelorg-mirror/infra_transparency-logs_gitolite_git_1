@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 06 Jun 2022 13:15:22 -0000
-Message-Id: <165452132218.19754.11148017502807143847@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 13:18:11 -0000
+Message-Id: <165452149112.20698.11046436184276993577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: b7fb767b1658b3154da712844cf834c5d66ddb2b
+    old: b7fb767b1658b3154da712844cf834c5d66ddb2b
+    new: bd448b8867b7e0c30ecd09f944a86018596fa4ad
     log: |
-         b7fb767b1658b3154da712844cf834c5d66ddb2b drm/mediatek: Add DSC support for mediatek-drm
+         bd448b8867b7e0c30ecd09f944a86018596fa4ad drm/mediatek: Add MERGE support for mediatek-drm
          
