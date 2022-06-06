@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4823882955334692117=="
+Content-Type: multipart/mixed; boundary="===============6327303914437644261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 06 Jun 2022 18:03:25 -0000
-Message-Id: <165453860534.22719.10188378084067150788@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 18:05:04 -0000
+Message-Id: <165453870444.24812.764551280187545357@gitolite.kernel.org>
 
---===============4823882955334692117==
+--===============6327303914437644261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 3a6292eba36373ea9dd4289d7aaddb867f316fe1
-    new: 98c7a272058576ad6d8e6672e903fe3e95501113
-    log: revlist-3a6292eba363-98c7a2720585.txt
+  - ref: refs/heads/net-mlx4
+    old: 86360030cc5117596626bef1d937277cd2bebe05
+    new: 58f9d52ff689a262bec7f5713c07f5a79e115168
+    log: revlist-86360030cc51-58f9d52ff689.txt
 
---===============4823882955334692117==
+--===============6327303914437644261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a6292eba363-98c7a2720585.txt
+Content-Disposition: attachment; filename=revlist-86360030cc51-58f9d52ff689.txt
 
+b69979a1ec2d9347a43bf0ebdad2c1eb23447ca6 ASoC: SOF: ipc3-dtrace: Move host ops wrappers from generic header to private
+4b49cbd1e7ebe4b000a7eedc4f910488da62c055 ASoC: SOF: Modify the host trace_init parameter list to include dmab
 08341b27bd2ee3c79265ef7925b3bc68a1790ab9 ASoC: SOF: Introduce opaque storage of private data for firmware tracing
 0683532999ab3890f44f832cd47feee9e2374c22 ASoC: SOF: ipc3-dtrace: Move dtrace related variables local from sof_dev
 21ca3274333f5c1cbbf9d91e5b33f4f2463859b2 ASoC: max98357a: remove dependency on GPIOLIB
@@ -1048,7 +1050,5 @@ e9d3f80935b6607dcdc5682b00b1d4b28e0a0c5d net/af_packet: make sure to pull mac he
 c399c85d60a4295bd911d366399a97df2865fb86 Merge tag 'pci-v5.19-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 73503963b715a64a44aa2b1c486114b917a17c73 module: Fix prefix for module.sig_enforce module param
 58f9d52ff689a262bec7f5713c07f5a79e115168 Merge tag 'net-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-46f96c06d51c2429460a392e0b5ea6dbc29a6372 MAINTAINERS: adjust MELLANOX ETHERNET INNOVA DRIVERS to TLS support removal
-98c7a272058576ad6d8e6672e903fe3e95501113 Revert "net/mlx5e: Allow relaxed ordering over VFs"
 
---===============4823882955334692117==--
+--===============6327303914437644261==--
