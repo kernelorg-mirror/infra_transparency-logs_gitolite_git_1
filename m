@@ -1,31 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============7135129156593024555=="
+Content-Type: multipart/mixed; boundary="===============3224163106699213450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 06 Jun 2022 17:41:29 -0000
-Message-Id: <165453728932.7817.5678479992469421096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 06 Jun 2022 17:41:42 -0000
+Message-Id: <165453730251.7979.4553561039694654539@gitolite.kernel.org>
 
---===============7135129156593024555==
+--===============3224163106699213450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 8150e97d82fa97db493042cb2c646ed1c0e8cce9
-    new: fd916d758adaa3e0da88b750fc1da81abf8a62f7
-    log: revlist-8150e97d82fa-fd916d758ada.txt
+  - ref: refs/heads/master
+    old: af2d861d4cd2a4da5137f795ee3509e6f944a25b
+    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    log: revlist-af2d861d4cd2-f2906aa86338.txt
+  - ref: refs/tags/v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/tags/v5.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
+  - ref: refs/tags/v5.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
+  - ref: refs/tags/v5.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
 
---===============7135129156593024555==
+--===============3224163106699213450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8150e97d82fa-fd916d758ada.txt
+Content-Disposition: attachment; filename=revlist-af2d861d4cd2-f2906aa86338.txt
 
+46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
+5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
+dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
+cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
+7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d335371940179318df97d66baef13987ee6e796b Merge tag 'mtd/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+a6e25b39adc3f68b9bc46f8e100345ee9bf62f8c dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
+a935601eed18d739c11da5504b551c7c4754f2ec PCI: qcom: Add SM8150 SoC support
+fdf6a2f533115ec5d4d9629178f8196331f1ac50 PCI: qcom: Fix pipe clock imbalance
+87d83b96c8d6c6c2d2096bd0bdba73bcf42b8ef0 PCI: qcom: Fix runtime PM imbalance on probe errors
+83013631f0f9961416abd812e228c8efbc2f6069 PCI: qcom: Fix unbalanced PHY init on probe errors
+075a9d55932edc8bddf85c6f8c0764928691cde4 dt-bindings: PCI: qcom: Convert to YAML
+6700a9b00f0aad206903b6ff216db56faf964654 dt-bindings: PCI: qcom: Do not require resets on msm8996 platforms
+c6523c4a301d3adff7ddcf57515b9c847beb7566 dt-bindings: PCI: qcom: Specify reg-names explicitly
+3f467d122f27f3a0be7fa7f2f60c7dd9475c4a81 dt-bindings: PCI: qcom: Add schema for sc7280 chipset
+ae0d0d18a8056b59a84384d617eeca3e6c43ccc4 Merge branch 'pci/aspm'
+55fd033bae79a2d51a1804f10dc54b1182a8aa32 Merge branch 'pci/error'
+85ae3970a0e393cbb07ec30ac99d82cfd6c3f922 Merge branch 'pci/hotplug'
+e840e475397ed81f3885af563b1a725debf2a3ac Merge branch 'pci/misc'
+4f5bc91ce1be9c0b5ad99cf2d3b97f8d28ac13e7 Merge branch 'pci/p2pdma'
+6b5e9bdce6cf6e2e88b50e85aec0a2193dc69890 Merge branch 'pci/pm'
+f1bde2786d8e1218e40b47788f3a4929c2a3ece0 Merge branch 'pci/resource'
+8d8b2669f98e8276ce0c26f5d9562a8ace2f9744 Merge branch 'pci/virtualization'
+086ab94321f48b4b7d37d12c78e6e1274f082eb7 Merge branch 'remotes/lorenzo/pci/cadence'
+39348d2eb2f5b4ffe47b708240ed243d05c563c4 Merge branch 'remotes/lorenzo/pci/dwc'
+b8dc34460ceca2e09edd9a1cfde3ba5fac5ebdac Merge branch 'remotes/lorenzo/pci/imx6'
+8d8270069cfb3118076f9a49e60bed4daff29558 Merge branch 'remotes/lorenzo/pci/layerscape'
+979db15b4a7124a8a2c5198426d5aa9176b1fdc6 Merge branch 'remotes/lorenzo/pci/mediatek'
 5ae34e8f9e9aaf11baff6ef828109fea214f0ad7 Merge branch 'remotes/lorenzo/pci/microchip'
 b0266c42894a1c706d9bb760a36335b29cae7f20 Merge branch 'remotes/lorenzo/pci/power-slot'
 ba3527d8ff7f60b04c7b1495d4bd98edd8ecc3fa Merge branch 'pci/host/qcom'
@@ -1014,41 +1065,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-346dc2d1db2444b5f9ed0f6bdf37c06420d01437 arm64: entry: simplify trampoline data page
-68e77baf40a70c988466e34a01040bef9bde5443 arm64: kpti-ng: simplify page table traversal logic
-68ec8a913ede7cce43b05e0c39c6173309b2f3c0 arm64: mm: install KPTI nG mappings with MMU enabled
-1e393294b9d78a836ab46db595aace683f68bd02 arm64: head: move kimage_vaddr variable into C file
-ea3587ffbf337e706d9b08fd67bd092ce8f52922 arm64: mm: make vabits_actual a build time constant if possible
-c029ed899dbfa9f01d4cb9e805c0d52c774f174a arm64: head: move assignment of idmap_t0sz to C code
-f9e477eefe4f33112cf4ddbc6f5920e378f1d27f arm64: head: drop idmap_ptrs_per_pgd
-3f92a66091c0e93a2ecc8e6d19f7fb2514bfbedf arm64: head: simplify page table mapping macros (slightly)
-6b804d6f1040665f05d77b4650f0f97250c6e2ff arm64: head: switch to map_memory macro for the extended ID map
-3603fb184d90923a053cdca3ea834c98be8e430b arm64: head: split off idmap creation code
-4750af8b19d97da6f4289d5c14db82894f655bd1 arm64: kernel: drop unnecessary PoC cache clean+invalidate
-16edda0ee7ad5524d48e1725e91b1507460a72e8 arm64: head: pass ID map root table address to __enable_mmu()
-a95b33ab5163035bc0bf435dc1f441d5c47dda0b arm64: mm: provide idmap pointer to cpu_replace_ttbr1()
-a7642c656ae3b514fc54824b80ebb309eac09364 arm64: head: add helper function to remap regions in early page tables
-7dd96b497015c3811986fe074fc2da2f54865352 arm64: head: cover entire kernel image in initial ID map
-ffb685143609ce92d81b6484522518fdb10f74ff arm64: head: use relative references to the RELA and RELR tables
-905f8d6700b888ed5bfce19b21cac7dcce3b7010 arm64: head: create a temporary FDT mapping in the initial ID map
-17fc2f41416a38b209ac048364664dac5ed6fabf arm64: idreg-override: use early FDT mapping in ID map
-d9343d883d6d6c6b5212b3cafc7532bc54c965dd arm64: head: factor out TTBR1 assignment into a macro
-69b334133f181b6c48d77fa5adc31e070923883a arm64: head: populate kernel page tables with MMU and caches on
-5705d39ffa71b2c75e911037694a057845129c3d arm64: head: record CPU boot mode after enabling the MMU
-a0bcff576c11522ad136c728cad98ba859475193 arm64: kaslr: deal with init called with VA randomization enabled
-acd276a5eb83fbca59689069f1cc836084d884e9 arm64: head: relocate kernel only a single time if KASLR is enabled
-e9c05933bf62a0dc7ddc4ce9f779220fc681038c arm64: head: remap the kernel text/inittext region read-only
-199fe15229784e3f2bb34c738be0eef90cfdaf2d arm64: setup: drop early FDT pointer helpers
-b427a0e9325fe96d83198eb9da9f5c40b79d54b5 arm64: mm: move ro_after_init section into the data segment
-eadf4b799ad860baf09f88a162d22dcdb1eeaa01 mm: add arch hook to validate mmap() prot flags
-d5b0d1cb10f027c7fdd169d65d32298e3e89d903 arm64: mm: add support for WXN memory translation attribute
-807826523f3dc3b4ad8590a7ded4929f483940a4 arm64: head: record the MMU state at primary entry
-858e9c929b98d2cc088d9b23716e594d0b055280 arm64: head: avoid cache invalidation when entering with the MMU on
-16681bac5b99b1e533d0b14c2fb18d414d5a0496 arm64: head: clean the ID map page to the PoC
-120771682fbf24feffe241837b58e87f360e8da5 arm64: efi/libstub: enter with the MMU on if executing in place
-f26e800f7865233bbdfd103a5541dda1d9616dd8 arm64: jump_label: use more precise asm constraints
-04d1aee746a2528c546fb24cf2775e6977e448bb arm64: kernel: move ID map out of .text mapping
-baf90343ef9349efcb21153df5436f72602cabc8 arm64: kernel: switch to PIE code generation for relocatable kernels
-fd916d758adaa3e0da88b750fc1da81abf8a62f7 ARM: mm: introduce MT_MEMORY_RO memory type and use it for FDT
 
---===============7135129156593024555==--
+--===============3224163106699213450==--
