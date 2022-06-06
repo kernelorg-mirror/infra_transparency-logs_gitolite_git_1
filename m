@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6696196668149641023=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 06 Jun 2022 11:09:58 -0000
-Message-Id: <165451379862.26100.6396077016164185210@gitolite.kernel.org>
-
---===============6696196668149641023==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 06 Jun 2022 11:12:43 -0000
+Message-Id: <165451396300.28752.1486358627332697468@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 47e4cce2e747496d8aac71b3fd91d42241db4fa1
-    new: 2da65e004f921d004715723ab2995fa21a121a2a
+  - ref: refs/heads/for-next
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: b93a8b2c5161696e732185311d309e0aaf0575be
     log: |
-         2da65e004f921d004715723ab2995fa21a121a2a 5.4-stable patches
+         386cbe7f1b152c8476a7d322d39512b1b4259ed5 gpio: crystalcove: make irq_chip immutable
+         b34d2ad73af3c58dbaf8aa71b7308f17d9863780 gpio: crystalcove: Use specific type and API for IRQ number
+         68a12c19e1cb0f3332d3f59e1d5447f2aff97cd7 gpio: crystalcove: Join function declarations and long lines
+         41a18c4918dcd57a49b0d046d9f2d587878de739 gpio: wcove: make irq_chip immutable
+         a80fed9fb643175832e2fb8481d38f5d92cbcd34 gpio: merrifield: make irq_chip immutable
+         f1138dacb7ff5221c4a37b823e42fc0a34df8731 gpio: sch: make irq_chip immutable
+         b93a8b2c5161696e732185311d309e0aaf0575be gpio: dln2: make irq_chip immutable
          
-
---===============6696196668149641023==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654513797 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1654513796-3c329525ea9d28871f087e17ba303c0089811624
-
-47e4cce2e747496d8aac71b3fd91d42241db4fa1 2da65e004f921d004715723ab2995fa21a121a2a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKd4IUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bygP/ipbRmaop3/aR6TvoE/C
-K4wIMjy2MBojB0A8QKtP5qvW7/SSSQklJVf+hyohsUen1vjm6CK8IbLG18xuLNEw
-sSpitj3+9/Idu08zPzJOzv2lecXFnb/gNdXvCuzmQchrInyo3B+9+3bMX0h5hY2m
-IGGF4GJowP9mtq59PfSRthLUtRL7jQNd7fvcq8z21AeUuoOvFJdqSDiW/pyN/TT1
-tQSjQZdwNJ2SqemdMcBw2KmGFKtSffbtF1aLi3WvhiHVriyglrJfVwPRGzkvIW3P
-afCV6Hb4Qr+P6YPWC7Gh1RMT7VwkKM1TSQ30LJBmG69qYDSUirOxNx+oPhFOvT85
-n/IzjjsoxNRXD0lXvNJJjHYYCpflCjuGoQiwiq4o4atdInZ7yv8ifM2H7s4KxATK
-0vw9SLor9hwiXVmqSPnGsPVlFe2fb53j5xOJ/aTqAPibkLOExkAyxxTX33//pNPz
-U73yyleYxopRRvBHHRTzlgO+3srLu38SUeYA3GVfcwdhMYTpPUgdZBb48ve7wL44
-uIEhGkTyAqrZyw7stHRPIhdmfqN/LbQPvH2DHwbhd1WTi0taZplfZz/e9k3PpRmq
-URfH09KPLbcehkcdEe6OTEKnK85JCpSoSX53Gd+/NUSmKP/hFIpOj+rDBo7LyR4e
-OcjPrwVIb/p37upoon/11BUD
-=wp5x
------END PGP SIGNATURE-----
-
---===============6696196668149641023==--
