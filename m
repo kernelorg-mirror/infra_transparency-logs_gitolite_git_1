@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 06 Jun 2022 03:43:27 -0000
-Message-Id: <165448700752.26483.11902358570670187433@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 03:47:40 -0000
+Message-Id: <165448726080.29305.6283593731277149719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
   - ref: refs/heads/for-next
-    old: c2c9885a0010a520918681abd3c38bf45110ba81
-    new: 2f8d9052fe10cd52e256b186bd611a5c9f0fdd03
+    old: 2f8d9052fe10cd52e256b186bd611a5c9f0fdd03
+    new: d6ed675fc81930a9f4139ef9d18ee8f0cc09e27c
     log: |
-         2f8d9052fe10cd52e256b186bd611a5c9f0fdd03 cros_ec_commands: Fix syntax errors in comments
+         d6ed675fc81930a9f4139ef9d18ee8f0cc09e27c platform/chrome: cros_ec_commands: Fix syntax errors in comments
          
