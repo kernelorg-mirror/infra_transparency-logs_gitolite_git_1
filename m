@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 06 Jun 2022 23:22:04 -0000
-Message-Id: <165455772492.8387.2501959123932248476@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 23:26:51 -0000
+Message-Id: <165455801167.11328.9166032798239398889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: 9c1b06a509dfaf539ced98cecce9e797fb2ee3eb
-    new: 7f6335c6a258edf4d5ff1b904bc033188dc7b48b
+    old: 7f6335c6a258edf4d5ff1b904bc033188dc7b48b
+    new: cde7e2e35c2866d22a3a012e72a41052dfcc255d
     log: |
-         7f6335c6a258edf4d5ff1b904bc033188dc7b48b drm/mediatek: Modify dsi funcs to atomic operations
+         cde7e2e35c2866d22a3a012e72a41052dfcc255d drm/mediatek: Separate poweron/poweroff from enable/disable and define new funcs
          
