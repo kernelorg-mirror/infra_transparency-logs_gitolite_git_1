@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Jun 2022 09:40:18 -0000
-Message-Id: <165450841840.3661.12582095579917504117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 06 Jun 2022 09:41:46 -0000
+Message-Id: <165450850607.29979.8735985338670664684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/review-andy
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 955986d03c033f07452c358355071bb52438eb03
+  - ref: refs/heads/stm32-dt-for-v5.19
+    old: 5b7e58313a77e951850586cfaa9f5d60122f908f
+    new: 747a29b9a5a52a14833b2477cb621f57d36511ed
     log: |
-         a4385c0e0122dabb8f76680942ff321255452522 gpiolib: cdev: Fix kernel doc for struct line
-         90aa70e2c04b4b358478da035ba056d09160918c gpio: crystalcove: make irq_chip immutable
-         b7869c2c91a1b9f7fc6c0ab6cae55fe0ef2fcc13 gpio: crystalcove: Use specific type and API for IRQ number
-         7b2164d8f35763ec269de2d41e649d90fde45ea7 gpio: crystalcove: Join function declarations and long lines
-         433dc75ce2cf07754ffd5d49181a8850fa43dc9c gpio: wcove: make irq_chip immutable
-         e5ff2a9e6ddfceb2499aa5325617e25ebb2f4f21 gpio: merrifield: make irq_chip immutable
-         319b382e9e794fdbc1246f1da1fc62303197a2ff gpio: sch: make irq_chip immutable
-         955986d03c033f07452c358355071bb52438eb03 gpio: dln2: make irq_chip immutable
+         747a29b9a5a52a14833b2477cb621f57d36511ed dt-bindings: clock: stm32mp1: adapt example for "st,stm32mp1-rcc-secure"
          
