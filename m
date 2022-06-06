@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5883815913512151894=="
+Content-Type: multipart/mixed; boundary="===============1386707693862005044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Jun 2022 09:35:30 -0000
-Message-Id: <165450813031.12160.12636056077755674153@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 09:35:35 -0000
+Message-Id: <165450813561.12242.7417192685386174073@gitolite.kernel.org>
 
---===============5883815913512151894==
+--===============1386707693862005044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 0c2cae09a765b1c1d842eb9328982976ec735926
+  - ref: refs/heads/for-next
+    old: edc5601db66411a8c9c6b08b3aacf7e154a34c6d
     new: ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb
-    log: revlist-0c2cae09a765-ba79c5e45eec.txt
+    log: revlist-edc5601db664-ba79c5e45eec.txt
 
---===============5883815913512151894==
+--===============1386707693862005044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c2cae09a765-ba79c5e45eec.txt
+Content-Disposition: attachment; filename=revlist-edc5601db664-ba79c5e45eec.txt
 
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 
---===============5883815913512151894==--
+--===============1386707693862005044==--
