@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2103363127734548600=="
+Content-Type: multipart/mixed; boundary="===============3003511579020291456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 06 Jun 2022 16:12:43 -0000
-Message-Id: <165453196304.11748.10038654756403834739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 06 Jun 2022 16:12:45 -0000
+Message-Id: <165453196567.11842.15791839921899908697@gitolite.kernel.org>
 
---===============2103363127734548600==
+--===============3003511579020291456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-linus
-    old: bf0fd5eace2c523f520b67affcb9c872d4dca0e6
-    new: 60ce5fb1ddda38df8e499da8d370613b432d2888
-    log: |
-         60ce5fb1ddda38df8e499da8d370613b432d2888 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: bf0fd5eace2c523f520b67affcb9c872d4dca0e6
-    new: 65213b6150d11fd6029fcadb4c11a371d69cd2f1
-    log: revlist-bf0fd5eace2c-65213b6150d1.txt
+  - ref: refs/heads/kunit
+    old: e7eaffce47b7db72b077630dbe836f0c4132496d
+    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    log: revlist-e7eaffce47b7-f2906aa86338.txt
 
---===============2103363127734548600==
+--===============3003511579020291456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf0fd5eace2c-65213b6150d1.txt
+Content-Disposition: attachment; filename=revlist-e7eaffce47b7-f2906aa86338.txt
 
-c878bea3c9d724ddfa05a813f30de3d25a0ba83f ext4: filter out EXT4_FC_REPLAY from on-disk superblock field s_state
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -240,6 +233,7 @@ ed6cd6a17896561b9f51ab4c0d9bbb29e762b597 net, neigh: Set lower cap for neigh_man
 86c8fb4d228ed8dbe17b1abd664888bc7ee0052a scsi: storvsc: Removing Pre Win8 related logic
 d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and balloon_remove() error handling
 50e35bd57c02a584442c0aa917787c858eabe80b video: fbdev: radeon: Fix spelling typo in comment
+5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
 61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
 ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
 9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
@@ -604,6 +598,9 @@ da4363457f777906d49d765398f5227657c82ef9 cpufreq: CPPC: Fix unused-function warn
 22ffff6d21ebfcd6e722af5f6954ab97c726c3c8 Merge branch 'pm-opp'
 1cdc5ba06dcea1f1008c497fca34c42be9bc6a1d Merge branch 'pm-docs'
 9f9c1f6844bdacb4a011cc69e19b929997038f4f Merge branch 'pm-sysoff'
+d6f8168e4345cb00156743c19dc1a409126936e1 ASoC: Intel: avs: Fix build error on arc, m68k and sparc
+06f5882122e3faa183d76c4ec2c92f4c38e2c7bb ASoC: da7219: Fix pole orientation detection on certain headsets
+2d969e8f35b1849a43156029a7a6e2943b89d0c0 ASoC: da7219: cancel AAD related work earlier for jack removal
 72acadfeb378915a3c4990f4252ab33ce8225491 parisc: Drop __ARCH_WANT_OLD_READDIR and __ARCH_WANT_SYS_OLDUMOUNT
 a9face899413f468460219c79503c091c4d362cb usb: typec: ucsi: acpi: fix a NULL vs IS_ERR() check in probe
 15f4bb9aac620f7ca1e50c859731e7d990f807ed Merge branches 'acpi-glue', 'acpi-osl', 'acpi-processor' and 'acpi-cppc'
@@ -627,6 +624,7 @@ cbf84dbf0600b0efe1134cc3f98ae29c523a3a23 nvmet: fix typo in comment
 a77a94f86273ce42a39cb479217dd8d68acfe0ff x86/microcode: Default-disable late loading
 d23d33ea0fcdc4bbb484990bf53867f99c63ccab x86/microcode: Taint and warn on late loading
 0c0fe08c76485fe0178ebb0fa1a2052c727abe94 x86/microcode: Remove unnecessary perf callback
+ab0925ab728163b854ea17da09e299254a86076e ASoC: da7219: Small fixes for jack detection and removal
 fcde59feb1affb6d56aecadc3868df4631480da5 io_uring: add io_op_defs 'def' pointer in req init and issue
 4a1f14df55d1e9ecdfa797a87a80131207cbd66f bonding: show NS IPv6 targets in proc master info
 157dc813b47ab2adb4bc8a08491887bc161284c2 io_uring: unify calling convention for async prep handling
@@ -1052,9 +1050,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-be1a63daffdd152ba4c7b71ab9fec2e39259b42b Merge existing fixes from asoc/for-5.19 into new branch
-60ce5fb1ddda38df8e499da8d370613b432d2888 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-6bce9be6b47fdbd1003e84771f95dc761f4d0069 Merge branch 'asoc-linus' into asoc-next
-65213b6150d11fd6029fcadb4c11a371d69cd2f1 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============2103363127734548600==--
+--===============3003511579020291456==--
