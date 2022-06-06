@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7920597374195695973=="
+Content-Type: multipart/mixed; boundary="===============8121343111777093643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 06 Jun 2022 01:45:39 -0000
-Message-Id: <165447993919.15499.8767310637040712595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Mon, 06 Jun 2022 02:55:01 -0000
+Message-Id: <165448410175.25728.8271802708857077656@gitolite.kernel.org>
 
---===============7920597374195695973==
+--===============8121343111777093643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 7897b39ba6b4bc1a6f8250a090105e03873dcace
-    new: 158e7077b4e059b095b54d19dffed9023d2a6254
-    log: revlist-7897b39ba6b4-158e7077b4e0.txt
+  - ref: refs/heads/for-next
+    old: 521554bc8a890fb49db11e92d5e85fd6498f64b0
+    new: c2c9885a0010a520918681abd3c38bf45110ba81
+    log: revlist-521554bc8a89-c2c9885a0010.txt
 
---===============7920597374195695973==
+--===============8121343111777093643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7897b39ba6b4-158e7077b4e0.txt
+Content-Disposition: attachment; filename=revlist-521554bc8a89-c2c9885a0010.txt
 
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -1049,6 +1046,9 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-158e7077b4e059b095b54d19dffed9023d2a6254 watchdog: gxp: Add missing MODULE_LICENSE
+9395e84c0313367473be6ca30dd607e1373936a1 platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_prepare_tx()
+ebb3eed6eb0c9373fa4a33d83ad0f129c4ba98b4 platform/chrome: cros_ec_proto: factor legacy out from cros_ec_prepare_tx()
+5f32ad20b483fac6ef713b8001e0cd741e7a4942 platform/chrome: cros_ec_proto: update cros_ec_check_result() comment
+c2c9885a0010a520918681abd3c38bf45110ba81 platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_check_result()
 
---===============7920597374195695973==--
+--===============8121343111777093643==--
