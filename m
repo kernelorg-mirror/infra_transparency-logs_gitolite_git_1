@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0231035236363948908=="
+Content-Type: multipart/mixed; boundary="===============8817839891998412216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 06 Jun 2022 06:00:32 -0000
-Message-Id: <165449523270.16573.8180533441019989688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 06 Jun 2022 06:00:34 -0000
+Message-Id: <165449523462.16651.4079910366852124674@gitolite.kernel.org>
 
---===============0231035236363948908==
+--===============8817839891998412216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
-    old: c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a
+    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-c5eb0a61238d-f2906aa86338.txt
+    log: revlist-672c0c517342-f2906aa86338.txt
 
---===============0231035236363948908==
+--===============8817839891998412216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5eb0a61238d-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-672c0c517342-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============0231035236363948908==--
+--===============8817839891998412216==--
