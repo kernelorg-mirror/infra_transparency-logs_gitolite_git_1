@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7928918513818052467=="
+Content-Type: multipart/mixed; boundary="===============3300700545996379826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Jun 2022 09:35:41 -0000
-Message-Id: <165450814148.12353.490104497510319639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 06 Jun 2022 09:36:17 -0000
+Message-Id: <165450817767.12626.6283902822805758592@gitolite.kernel.org>
 
---===============7928918513818052467==
+--===============3300700545996379826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: edc5601db66411a8c9c6b08b3aacf7e154a34c6d
+  - ref: refs/heads/for-next
+    old: 7b923e67a4a76b8e0d7f5eb7688e4546fd9954bc
     new: ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb
-    log: revlist-edc5601db664-ba79c5e45eec.txt
+    log: revlist-7b923e67a4a7-ba79c5e45eec.txt
 
---===============7928918513818052467==
+--===============3300700545996379826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edc5601db664-ba79c5e45eec.txt
+Content-Disposition: attachment; filename=revlist-7b923e67a4a7-ba79c5e45eec.txt
 
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 
---===============7928918513818052467==--
+--===============3300700545996379826==--
