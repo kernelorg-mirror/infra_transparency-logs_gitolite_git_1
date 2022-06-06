@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3555513288019119159=="
+Content-Type: multipart/mixed; boundary="===============2835957727955278047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 06 Jun 2022 07:36:09 -0000
-Message-Id: <165450096989.28962.4090225872032595910@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 07:36:18 -0000
+Message-Id: <165450097865.29089.2201767770267067771@gitolite.kernel.org>
 
---===============3555513288019119159==
+--===============2835957727955278047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/master
     old: 3123109284176b1532874591f7c81f3837bbdc17
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
     log: revlist-312310928417-f2906aa86338.txt
 
---===============3555513288019119159==
+--===============2835957727955278047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============3555513288019119159==--
+--===============2835957727955278047==--
