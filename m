@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8860767707225182030=="
+Content-Type: multipart/mixed; boundary="===============0630624510758400221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 06 Jun 2022 18:27:03 -0000
-Message-Id: <165454002333.7357.7040691408311623641@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 18:27:12 -0000
+Message-Id: <165454003215.7493.2922675483666725990@gitolite.kernel.org>
 
---===============8860767707225182030==
+--===============0630624510758400221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 7e062cda7d90543ac8c7700fc7c5527d0c0f22ad
-    new: 58f9d52ff689a262bec7f5713c07f5a79e115168
-    log: revlist-7e062cda7d90-58f9d52ff689.txt
+  - ref: refs/heads/mlx5-queue
+    old: e5bf079f49626c070de9e4e938942a44612dc7f7
+    new: 3f6f04dfee76d189c6312e0be718bef805a5cab0
+    log: revlist-e5bf079f4962-3f6f04dfee76.txt
 
---===============8860767707225182030==
+--===============0630624510758400221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e062cda7d90-58f9d52ff689.txt
+Content-Disposition: attachment; filename=revlist-e5bf079f4962-3f6f04dfee76.txt
 
-2b6aa7332f8020dfdaffe340ff038aac4df35238 kernel/reboot: Add do_kernel_power_off()
-5d34b41aa420c3908793b43419a1097362ca2668 kernel/reboot: Add stub for pm_power_off
-0e2110d2e910e44cc7cf23fce14613e232602602 kernel/reboot: Add kernel_can_power_off()
-fb61375ecfba49e153af561402f49f6fe3bebd39 kernel/reboot: Add register_platform_power_off()
-856c288b0039791f64bdeb16e2a73ae1c8e5e575 ARM: Use do_kernel_power_off()
-cf7e5bf0c68fa4a057ad3297ebdafa1189208236 csky: Use do_kernel_power_off()
-6b22c7365962a80c4e8fb7dea19247cef260e725 riscv: Use do_kernel_power_off()
-0c6499149ebdb2ea7dd3507bb2263e5848c94ad7 arm64: Use do_kernel_power_off()
-f4622fe42484209fe2050b5461d14b6a1dd212ad parisc: Use do_kernel_power_off()
 f089ab674cea43561fee8e3de8d15d864e486286 xen/x86: Use do_kernel_power_off()
 c33fd0b17eab643e13cb8555a0588ae6eee8f657 powerpc: Use do_kernel_power_off()
 f0f7e5265b3b37b0aea3d7601607e2e46ea6a9c1 m68k: Switch to new sys-off handler API
@@ -1050,5 +1041,14 @@ e9d3f80935b6607dcdc5682b00b1d4b28e0a0c5d net/af_packet: make sure to pull mac he
 c399c85d60a4295bd911d366399a97df2865fb86 Merge tag 'pci-v5.19-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 73503963b715a64a44aa2b1c486114b917a17c73 module: Fix prefix for module.sig_enforce module param
 58f9d52ff689a262bec7f5713c07f5a79e115168 Merge tag 'net-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+079315abd3b9c9a25c17fceb8bf319202d5d5832 net/mlx5: Delete ipsec_fs header file as not used
+032b8139e8f320447e57c2060d8ba794ab95da5e net/mlx5: delete dead code in mlx5_esw_unlock()
+8419e5473403e20faa38073d18874abe0fb4ee7c net: Disable LRO feature if no RXCSUM
+6790e609f65f4c5efe684f7c3f267377c990570f net/mlx5: Add bits and fields to support enhanced CQE compression
+181fb27b6047ed3dd50e4baa7c0f5a095ec24600 net/mlx5e: Support enhanced CQE compression
+f9f5f0fbc830e17e4f81dafd446e11dddc9d1cbb net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+dd76829494868b5aa220bea4bc8132e4097fea54 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+a4ddac97ee9a7f4ef26ce2235810c59381368c56 Merge branch 'patchq/323390' into mlx5-queue
+3f6f04dfee76d189c6312e0be718bef805a5cab0 Merge branch 'patchq/496064' into mlx5-queue
 
---===============8860767707225182030==--
+--===============0630624510758400221==--
