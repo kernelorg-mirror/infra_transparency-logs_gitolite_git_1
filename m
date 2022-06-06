@@ -1,20 +1,101 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Mon, 06 Jun 2022 10:10:02 -0000
-Message-Id: <165451020288.17051.6301098223162571898@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9208168634235989096=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 06 Jun 2022 10:10:11 -0000
+Message-Id: <165451021102.17993.7908063204570129336@gitolite.kernel.org>
+
+--===============9208168634235989096==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
-user: srini
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 4ad3deabeea21f9fda6a49de10fd417c4199ffaf
-    log: |
-         e44850ee00a1556c1179179d92df1ad53d5c3347 drivers: slimbus: Directly use ida_alloc()/free()
-         4ad3deabeea21f9fda6a49de10fd417c4199ffaf slimbus: messaging: fix typos in comments
-         
+  - ref: refs/tags/v4.14.282
+    old: 0000000000000000000000000000000000000000
+    new: 929cd235debdf58c2e4445d9b3fff85f8d721865
+  - ref: refs/tags/v4.19.246
+    old: 0000000000000000000000000000000000000000
+    new: 45011a23df1e34e2a46342f04f3e762d64b4f6f8
+  - ref: refs/tags/v4.9.317
+    old: 0000000000000000000000000000000000000000
+    new: 87da876c98630499f222e9356394dbe6a1882e36
+  - ref: refs/tags/v5.10.119
+    old: 0000000000000000000000000000000000000000
+    new: b3a1ba976df17837cee6aed5e3760ea30ba49056
+  - ref: refs/tags/v5.10.120
+    old: 0000000000000000000000000000000000000000
+    new: 25214327191715aa4571c2106a7a6c8a30d5fd7b
+  - ref: refs/tags/v5.15.44
+    old: 0000000000000000000000000000000000000000
+    new: ede367b210bd6b26ab778b9d0d286d69c5cfbbd4
+  - ref: refs/tags/v5.15.45
+    old: 0000000000000000000000000000000000000000
+    new: f26e5a648d67c7b027485fb6e6a9b865c775ff6c
+  - ref: refs/tags/v5.17.12
+    old: 0000000000000000000000000000000000000000
+    new: 8c9bd03dd5723c7742120881eb73220fbac52079
+  - ref: refs/tags/v5.17.13
+    old: 0000000000000000000000000000000000000000
+    new: 65c33f7a666ad1e43a1083625202aa06b2dcc9a0
+  - ref: refs/tags/v5.18.1
+    old: 0000000000000000000000000000000000000000
+    new: ae682663a28911ec6bb691f4a43e2e31526486b5
+  - ref: refs/tags/v5.18.2
+    old: 0000000000000000000000000000000000000000
+    new: e220d889ec0288a3d196d336f89503520c9f564c
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/tags/v5.4.197
+    old: 0000000000000000000000000000000000000000
+    new: 27fa14e91cf8b74419864486ea1910864b3fb153
+
+--===============9208168634235989096==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654510204 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1654510197-6c09e5c5313c1f9e97ac86d635a023329d73a803
+
+0000000000000000000000000000000000000000 929cd235debdf58c2e4445d9b3fff85f8d721865 refs/tags/v4.14.282
+0000000000000000000000000000000000000000 45011a23df1e34e2a46342f04f3e762d64b4f6f8 refs/tags/v4.19.246
+0000000000000000000000000000000000000000 87da876c98630499f222e9356394dbe6a1882e36 refs/tags/v4.9.317
+0000000000000000000000000000000000000000 b3a1ba976df17837cee6aed5e3760ea30ba49056 refs/tags/v5.10.119
+0000000000000000000000000000000000000000 25214327191715aa4571c2106a7a6c8a30d5fd7b refs/tags/v5.10.120
+0000000000000000000000000000000000000000 ede367b210bd6b26ab778b9d0d286d69c5cfbbd4 refs/tags/v5.15.44
+0000000000000000000000000000000000000000 f26e5a648d67c7b027485fb6e6a9b865c775ff6c refs/tags/v5.15.45
+0000000000000000000000000000000000000000 8c9bd03dd5723c7742120881eb73220fbac52079 refs/tags/v5.17.12
+0000000000000000000000000000000000000000 65c33f7a666ad1e43a1083625202aa06b2dcc9a0 refs/tags/v5.17.13
+0000000000000000000000000000000000000000 ae682663a28911ec6bb691f4a43e2e31526486b5 refs/tags/v5.18.1
+0000000000000000000000000000000000000000 e220d889ec0288a3d196d336f89503520c9f564c refs/tags/v5.18.2
+0000000000000000000000000000000000000000 15fd1bd1e8b4c33f1f249d02d15aa043df52271c refs/tags/v5.19-rc1
+0000000000000000000000000000000000000000 27fa14e91cf8b74419864486ea1910864b3fb153 refs/tags/v5.4.197
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKd0nwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ASwQAJYPrfIPtl3br2ta/tX2
+W/sD7jZV99sqjqWeyGNyicoo8GArr7a3hjlE+pHDFQZCaX98F1eA18nIh/VjZgBT
+2EV6Hr33/1BQuo3Ctq0gxMRawnl1fEeIQks+h3gQlMWF3mYaNbIpW7W3ht+1lMPJ
+fIGyJmX+eQWCaB1ZomPV7w7teLpa2nuc46iFrOTexTfDGtuqRglnwBKbEqmMkzZX
+Ns/oqts1htPvRyv8jVTr+BH7TFXU/viHxFfIYHrOsjk3ZWmzvqi1nXlYlQfj/ghV
+CyqNfOMsAPA4eEMA0+jEiBEY4dviWDif3gfCfYWlNpH2/7sN5MtGy7Xm9wxNAdZe
+aM85HMo1f86xNes6CP9Rezugt53oQV7t374MwlX3vJTohuqdIzyD3z5iY6KECcAZ
+YQvW2E+XQKKe1uwUrYQbHR43Hig3TqqSQSXhIpo9DewVMtPoPrFnNdZqJysyFjn0
+Lbij5tLj50e8TBu5IIkKyTLnybqhoL1RoHM6Bk+eR+JryBlxVUqKUxcOC3P/Xmcg
+85jjExiZ3aL7yL5SknF+YEqPWcbAYeNpgRp2vMiO2wkb3F3TTaKjxuucvKHVeQPM
+KocVl0EhR50Wi6JjOOpsogtnJpyizAwnsbvp3XKulCot0YivC32DbSKUTsoVLgU4
+R34yIxAPECC2MZ2tbFSH/A9a
+=EbDa
+-----END PGP SIGNATURE-----
+
+--===============9208168634235989096==--
