@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6170975978640773659=="
+Content-Type: multipart/mixed; boundary="===============5798020276935884701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 06 Jun 2022 06:08:50 -0000
-Message-Id: <165449573055.21795.1862322837963329884@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 06:10:37 -0000
+Message-Id: <165449583735.23819.3695939469151563024@gitolite.kernel.org>
 
---===============6170975978640773659==
+--===============5798020276935884701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 79053469559d0cf0d4106fb8b3784b8cd9fa4f61
-    new: 3e763d3dc62697733877ccb2d3c219dfd2404cd9
-    log: revlist-79053469559d-3e763d3dc626.txt
+  - ref: refs/heads/staging-linus
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 96f0a54e8e65a765b3a4ad4b53751581f23279f3
+    log: |
+         5b7419ae1d208cab1e2826d473d8dab045aa75c7 staging: r8188eu: fix rtw_alloc_hwxmits error detection for now
+         96f0a54e8e65a765b3a4ad4b53751581f23279f3 staging: r8188eu: Fix warning of array overflow in ioctl_linux.c
+         
 
---===============6170975978640773659==
+--===============5798020276935884701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654495728 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654495836 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1654495728-580e1da9467d5cc4a1d16708e5427a95c23a3562
+nonce 1654495835-a932be43df583e6a6ccd2b50ae0eb510ed2b7117
 
-79053469559d0cf0d4106fb8b3784b8cd9fa4f61 3e763d3dc62697733877ccb2d3c219dfd2404cd9 refs/heads/staging-testing
+f2906aa863381afb0015a9eb7fefad885d4e5a56 96f0a54e8e65a765b3a4ad4b53751581f23279f3 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKdmfAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ebkP/2y6nQZsC6eX5u1/2hOx
-u0KDtGNdzvLspWEpLlE7jhVRyFvFpH/cCbPVttqbxvyMr/Bh7r9qSWPEyMcG5Vmt
-I7n5cCaCR94kgUbYB8GWYww4EuzJZXK5MyUsaKrfgQUavw7PNc38H/SEu2+5HsU5
-jwqthPW3yFYr7/9rU9e3l8LHB+8NhLb3U7sTd4UH1A/o48hgmB7KRhtDEDmK2Zpg
-QYxDKTURCC9zl5DkJxGNLv3+HYS9aJ6FI+To77GqBwwzgT38u9Y8uGif0+88KvrU
-ZfCE10rLWQKSR+7eDNY7t7y1N5twQ6r5FdWgjprRip0YR3ckmvjls195i2r6Qb3k
-mSlNy6y6S7FnHq8K+Bfv6aFxl5Q7Nt7O52mdz9i+D0PlO+xMTBTnyNO8O13djaMh
-QuLCIY3RaxdcwOxBopyP6l6KEpdC7qgn9sBip6qjyAuX5GdCpnzYpbdyqCdgS+Fw
-/ZT33V7lOEzUHYWgvw3ccCfEwWVeEZpTuUqElR5gDovCplLAHWGD/AVj9pHqEyT0
-rRj2qy1pFXHJi5tjCxQHbnRsXU+YYIxF8HzcDIHY3WBqtsBgjpd1o5qGZk2+FFix
-SFxI1T2Ao/qoJfubMfI7222+HfL+30gptvD6CoNfYRUWpGzVdk8YL5YdvLER2sq+
-ymsmf4TO687NuomzEKOI9s/j
-=a57k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKdmlwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DcQQAJRLjppPxQP6oHzv8dn5
+u/W5rdEDGp/Va7fp/X+PxGQ3O1qkfsGkfsowCtP00T+V98oiPvzttY7RoCWMPZph
+Hut6Pk19F4sDtd3RjxhdRPNrZ1+gJyD9ZV+kAtkzOmsLA8uyN+CeURibKe1hfqBY
++3buHQk44oIQMymyb1hQg4CmlpxIYWbDWM2bth06XcvF2GUEle2FCL6Hrqiezy2H
+oYf/PyOUnEn2++VfJ0lu8c/4v4Z5301tk+y3R63/M/UG5Hqwf/HD2ef8yQ2MfRtK
+PFw2+fUxYYhojUO8/xKTKZjS8mhBFG93TdnRM1Ak5K5ggeaEeGpSQ6uXDbGPZZYG
+Ke7AnFPTOeRCkfvEaizRafXDwlvapoOALoS0sCrFZmIQ/1u9Wn3ZgReJJJeHB4bj
+1UNB2exC2IME2XaGMxGD1CjdWAGkEr2sLhIog6LG6RymAlRheyPDlzumNxp12GUB
+n16+TwUlgslM9R0Dsln14IeNVMCvynxX2bPSoZLshb5d46D3xExmPc69xrPJYRWV
+eqBYVjj0OtC7e6SK0D9o4ZNscdYoGj7MUOj9ZJ/KHZToVNLNQkrdVNk4WJFJiDet
+k/5QOa6CHwTZyO3HW2UrQMe+C3puAmyNnQyqjLK5s1ZqkHmvj+5bSg6AOL/M6ROV
+7NQjrEnj677PDGQds4Wa3j4T
+=jF29
 -----END PGP SIGNATURE-----
 
---===============6170975978640773659==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79053469559d-3e763d3dc626.txt
-
-80c968a04a381dc0e690960c60ffd6b6aee7e157 staging: greybus: audio: fix loop cursor use after iteration
-0e01f8931c7a360f76c00b636950f80d283bfcd3 staging: r8188eu: use mgmt to set resp dialog token
-e2643fd46cc34a26a8d9eab76d179d5416e03344 staging: r8188eu: use mgmt to set the addba resp status
-140529aec4687a7865c315e70988896d377b0fce staging: r8188eu: use mgmt to set the addba resp timeout
-8836faf7196b233bb2baf7dc2b84bfe9f34efe11 staging: r8188eu: use ieee80211 to set addba resp capabilities
-c67eea0c34101ba199e500c825edf0a080cdfd45 staging: r8188eu: calculate the addba response length
-c5727d76ca0cf84d1d8b4fd7bb28920a4d440c11 staging: r8188eu: use mgmt to set the delba reason code
-9120436aa9883da6fde9fa66d3afe503df3c44ae staging: r8188eu: use mgmt to set delba params
-3d7deed4ec52d2018f81d0e798966b551c7d1487 staging: r8188eu: clarify the contents of the delba params
-d8f2cff63249fdf7f2cf78e70344613db1fc4e53 staging: r8188eu: calculate the delba length
-979315ccedf45ba5b74313c463f9d94b87411932 staging: r8188eu: remove the pframe variable
-3e763d3dc62697733877ccb2d3c219dfd2404cd9 staging: r8188eu: use u8, u16 in issue_action_BA prototype
-
---===============6170975978640773659==--
+--===============5798020276935884701==--
