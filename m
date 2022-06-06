@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8862867716125269130=="
+Content-Type: multipart/mixed; boundary="===============0236533409681662492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 06 Jun 2022 08:06:49 -0000
-Message-Id: <165450280955.16486.14172185724923252736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 06 Jun 2022 08:06:50 -0000
+Message-Id: <165450281032.16538.14710515778827674876@gitolite.kernel.org>
 
---===============8862867716125269130==
+--===============0236533409681662492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: ac875df4d854ab13d9c4af682a1837a1214fecec
+  - ref: refs/heads/next/dt
+    old: d414b7a3f370d640cff544a3aa3a41abf34fd5d6
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-ac875df4d854-f2906aa86338.txt
+    log: revlist-d414b7a3f370-f2906aa86338.txt
 
---===============8862867716125269130==
+--===============0236533409681662492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac875df4d854-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-d414b7a3f370-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============8862867716125269130==--
+--===============0236533409681662492==--
