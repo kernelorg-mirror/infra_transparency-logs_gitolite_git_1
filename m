@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3481340149507804332=="
+Content-Type: multipart/mixed; boundary="===============2787005377461766968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 06 Jun 2022 10:02:48 -0000
-Message-Id: <165450976858.12580.9108902796295899292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Mon, 06 Jun 2022 10:03:06 -0000
+Message-Id: <165450978630.12732.8853290100068739489@gitolite.kernel.org>
 
---===============3481340149507804332==
+--===============2787005377461766968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
     log: revlist-312310928417-f2906aa86338.txt
 
---===============3481340149507804332==
+--===============2787005377461766968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============3481340149507804332==--
+--===============2787005377461766968==--
