@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6847295554551186334=="
+Content-Type: multipart/mixed; boundary="===============5181497478885251530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 06 Jun 2022 21:17:56 -0000
-Message-Id: <165455027690.25358.13868149663214450132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Mon, 06 Jun 2022 21:19:43 -0000
+Message-Id: <165455038355.26006.12997643677065443917@gitolite.kernel.org>
 
---===============6847295554551186334==
+--===============5181497478885251530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 073220ee354dcd79f954836ffb4a71c72e707f08
-    new: 076b8d7194c3c4cd6e4abba85bbfdb66d6b5f18f
-    log: revlist-073220ee354d-076b8d7194c3.txt
+  - ref: refs/heads/linux-safety
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    log: revlist-312310928417-f2906aa86338.txt
 
---===============6847295554551186334==
+--===============5181497478885251530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-073220ee354d-076b8d7194c3.txt
+Content-Disposition: attachment; filename=revlist-312310928417-f2906aa86338.txt
 
+46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -1047,8 +1050,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-e1c51d31befcebe42f4188a14c91503eba42d551 clk: sunxi-ng: Deduplicate ccu_clks arrays
-4f05f03e8f8bf5c609adca829ae9857fb9f6de3e ARM: dts: sun5i: adjust whitespace around '='
-076b8d7194c3c4cd6e4abba85bbfdb66d6b5f18f Merge branch 'sunxi/dt-for-5.20' into sunxi/for-next
 
---===============6847295554551186334==--
+--===============5181497478885251530==--
