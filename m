@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1386707693862005044=="
+Content-Type: multipart/mixed; boundary="===============7928918513818052467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 06 Jun 2022 09:35:35 -0000
-Message-Id: <165450813561.12242.7417192685386174073@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 09:35:41 -0000
+Message-Id: <165450814148.12353.490104497510319639@gitolite.kernel.org>
 
---===============1386707693862005044==
+--===============7928918513818052467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: edc5601db66411a8c9c6b08b3aacf7e154a34c6d
     new: ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb
     log: revlist-edc5601db664-ba79c5e45eec.txt
 
---===============1386707693862005044==
+--===============7928918513818052467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 
---===============1386707693862005044==--
+--===============7928918513818052467==--
