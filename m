@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0870789959211531819=="
+Content-Type: multipart/mixed; boundary="===============1028713191549583076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 06 Jun 2022 16:13:24 -0000
-Message-Id: <165453200437.13299.7011436056784743663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Jun 2022 16:14:18 -0000
+Message-Id: <165453205880.13738.4377514765783523475@gitolite.kernel.org>
 
---===============0870789959211531819==
+--===============1028713191549583076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: ebf2a3521738520e12849b221fea24928b3f61ff
+  - ref: refs/heads/spi-5.19
+    old: dcc6394db3c8cf6c1d4077a288e6967c4f0a4e43
     new: 6aa27071e4354c351d98e345fc888b70f335f185
-    log: revlist-ebf2a3521738-6aa27071e435.txt
-  - ref: refs/heads/for-next
-    old: ebf2a3521738520e12849b221fea24928b3f61ff
-    new: 6aa27071e4354c351d98e345fc888b70f335f185
-    log: revlist-ebf2a3521738-6aa27071e435.txt
+    log: revlist-dcc6394db3c8-6aa27071e435.txt
 
---===============0870789959211531819==
+--===============1028713191549583076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebf2a3521738-6aa27071e435.txt
+Content-Disposition: attachment; filename=revlist-dcc6394db3c8-6aa27071e435.txt
 
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -236,6 +230,8 @@ ed6cd6a17896561b9f51ab4c0d9bbb29e762b597 net, neigh: Set lower cap for neigh_man
 d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and balloon_remove() error handling
 50e35bd57c02a584442c0aa917787c858eabe80b video: fbdev: radeon: Fix spelling typo in comment
 5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
+61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
+ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
 9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
 73534617dfa3c4cd95fe5ffaeff5315e9ffc2de6 perf build: Fix btf__load_from_kernel_by_id() feature check
 5c83eff38194ab2c69a7dc1a64a0a3683f0a3c3a perf build: Stop using __weak bpf_prog_load() to handle older libbpf versions
@@ -1055,4 +1051,4 @@ f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 2283679f4c468df367830b7eb8f22d48a6940e19 spi: spi-mem: Fix spi_mem_poll_status()
 6aa27071e4354c351d98e345fc888b70f335f185 spi: dt-bindings: Fix unevaluatedProperties warnings in examples
 
---===============0870789959211531819==--
+--===============1028713191549583076==--
