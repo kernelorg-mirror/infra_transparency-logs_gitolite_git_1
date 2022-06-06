@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 06 Jun 2022 03:47:40 -0000
-Message-Id: <165448726080.29305.6283593731277149719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 06 Jun 2022 03:49:54 -0000
+Message-Id: <165448739458.30065.17830204029553675677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 2f8d9052fe10cd52e256b186bd611a5c9f0fdd03
-    new: d6ed675fc81930a9f4139ef9d18ee8f0cc09e27c
+  - ref: refs/heads/for-kernelci
+    old: 4a0e708bb23fc2fd10c7320b40ab9af2cf619f5f
+    new: c1db0861e8d025ee5b2e0a83f6691aa9098f2f18
     log: |
-         d6ed675fc81930a9f4139ef9d18ee8f0cc09e27c platform/chrome: cros_ec_commands: Fix syntax errors in comments
+         8d5976089c97a4beeeda4de59e2fba9862946893 platform/chrome: cros_ec_commands: Fix syntax errors in comments
+         c1db0861e8d025ee5b2e0a83f6691aa9098f2f18 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
