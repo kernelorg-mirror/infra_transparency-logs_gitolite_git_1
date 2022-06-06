@@ -1,30 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3003511579020291456=="
+Content-Type: multipart/mixed; boundary="===============0321652286371628823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 06 Jun 2022 16:12:45 -0000
-Message-Id: <165453196567.11842.15791839921899908697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 06 Jun 2022 16:12:57 -0000
+Message-Id: <165453197724.12939.16903755805969873984@gitolite.kernel.org>
 
---===============3003511579020291456==
+--===============0321652286371628823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
 changes:
-  - ref: refs/heads/kunit
-    old: e7eaffce47b7db72b077630dbe836f0c4132496d
+  - ref: refs/heads/for-linus
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 5c422f0b970d287efa864b8390a02face404db5d
+    log: |
+         bd941dfaae3503c6b707d8544696205f759e57a3 regmap: Constify static regmap_bus structs
+         d640947562cea6158df13fe021b0e117865ba8b3 regmap: cache: set max_register with reg_stride
+         d77e745613680c54708470402e2b623dcd769681 regmap: Add bulk read/write callbacks into regmap_config
+         eedd8a8542b9509d3a2aa8141c60858ac0c5024a regmap: Custom bulk operations for regmaps
+         5c422f0b970d287efa864b8390a02face404db5d regmap: Add missing map->bus check
+         
+  - ref: refs/heads/for-next
+    old: 5c422f0b970d287efa864b8390a02face404db5d
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-e7eaffce47b7-f2906aa86338.txt
+    log: revlist-5c422f0b970d-f2906aa86338.txt
 
---===============3003511579020291456==
+--===============0321652286371628823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7eaffce47b7-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-5c422f0b970d-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1061,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============3003511579020291456==--
+--===============0321652286371628823==--
