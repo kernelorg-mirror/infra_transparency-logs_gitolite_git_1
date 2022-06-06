@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8258453543366712818=="
+Content-Type: multipart/mixed; boundary="===============2973791680807472298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 06 Jun 2022 06:39:56 -0000
-Message-Id: <165449759667.2294.2396952354117332631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 06 Jun 2022 06:40:06 -0000
+Message-Id: <165449760696.5996.10511635183350094160@gitolite.kernel.org>
 
---===============8258453543366712818==
+--===============2973791680807472298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
 
---===============8258453543366712818==
+--===============2973791680807472298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1057,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============8258453543366712818==--
+--===============2973791680807472298==--
