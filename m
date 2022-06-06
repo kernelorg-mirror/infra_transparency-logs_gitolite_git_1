@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3003250223511993603=="
+Content-Type: multipart/mixed; boundary="===============8842356009192754273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 06 Jun 2022 08:07:00 -0000
-Message-Id: <165450282089.16814.7602498651935284420@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 08:07:05 -0000
+Message-Id: <165450282563.16905.3671373197832848074@gitolite.kernel.org>
 
---===============3003250223511993603==
+--===============8842356009192754273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/next/soc
-    old: 170a0c56c5ec597fa15447e63272827a80a19be1
+  - ref: refs/heads/next/soc64
+    old: 3123109284176b1532874591f7c81f3837bbdc17
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-170a0c56c5ec-f2906aa86338.txt
+    log: revlist-312310928417-f2906aa86338.txt
 
---===============3003250223511993603==
+--===============8842356009192754273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-170a0c56c5ec-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-312310928417-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============3003250223511993603==--
+--===============8842356009192754273==--
