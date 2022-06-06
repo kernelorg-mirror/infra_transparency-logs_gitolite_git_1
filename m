@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3845263481022826749=="
+Content-Type: multipart/mixed; boundary="===============2472096109583775427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 06 Jun 2022 06:03:15 -0000
-Message-Id: <165449539558.18115.12000888287491831337@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 06:03:54 -0000
+Message-Id: <165449543433.18392.8733760978643409677@gitolite.kernel.org>
 
---===============3845263481022826749==
+--===============2472096109583775427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: af2d861d4cd2a4da5137f795ee3509e6f944a25b
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-af2d861d4cd2-f2906aa86338.txt
+  - ref: refs/heads/extcon-testing
+    old: f1bf4bc95afcbd049bfa5519558c067a2b3ae986
+    new: f0ddda961c6b76730445f886748eb069bdba8edf
+    log: revlist-f1bf4bc95afc-f0ddda961c6b.txt
 
---===============3845263481022826749==
+--===============2472096109583775427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af2d861d4cd2-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-f1bf4bc95afc-f0ddda961c6b.txt
 
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
@@ -1050,5 +1049,6 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+f0ddda961c6b76730445f886748eb069bdba8edf extcon: Add support of multiple external connector on a device
 
---===============3845263481022826749==--
+--===============2472096109583775427==--
