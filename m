@@ -1,53 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2205960944772897038=="
+Content-Type: multipart/mixed; boundary="===============2862473805878047116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Mon, 06 Jun 2022 15:02:55 -0000
-Message-Id: <165452777506.27567.9824716273215093824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Mon, 06 Jun 2022 15:07:56 -0000
+Message-Id: <165452807616.30672.15933008789598893225@gitolite.kernel.org>
 
---===============2205960944772897038==
+--===============2862473805878047116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/i3c/next
-    old: 66ed42caf286a7aaeb6f1db4b2995dd9416226c2
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-66ed42caf286-f2906aa86338.txt
+  - ref: refs/heads/ps3-queue
+    old: 8e524c9239ba66d491c25e7da2f926939c663e7e
+    new: 59e9c0a51e2fdccccb1518764e4db06d9f34277a
+    log: revlist-8e524c9239ba-59e9c0a51e2f.txt
 
---===============2205960944772897038==
+--===============2862473805878047116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66ed42caf286-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-8e524c9239ba-59e9c0a51e2f.txt
 
-c878bea3c9d724ddfa05a813f30de3d25a0ba83f ext4: filter out EXT4_FC_REPLAY from on-disk superblock field s_state
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
-dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
-cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
-7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-d335371940179318df97d66baef13987ee6e796b Merge tag 'mtd/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-a6e25b39adc3f68b9bc46f8e100345ee9bf62f8c dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
-a935601eed18d739c11da5504b551c7c4754f2ec PCI: qcom: Add SM8150 SoC support
-fdf6a2f533115ec5d4d9629178f8196331f1ac50 PCI: qcom: Fix pipe clock imbalance
-87d83b96c8d6c6c2d2096bd0bdba73bcf42b8ef0 PCI: qcom: Fix runtime PM imbalance on probe errors
-83013631f0f9961416abd812e228c8efbc2f6069 PCI: qcom: Fix unbalanced PHY init on probe errors
-075a9d55932edc8bddf85c6f8c0764928691cde4 dt-bindings: PCI: qcom: Convert to YAML
-6700a9b00f0aad206903b6ff216db56faf964654 dt-bindings: PCI: qcom: Do not require resets on msm8996 platforms
 c6523c4a301d3adff7ddcf57515b9c847beb7566 dt-bindings: PCI: qcom: Specify reg-names explicitly
 3f467d122f27f3a0be7fa7f2f60c7dd9475c4a81 dt-bindings: PCI: qcom: Add schema for sc7280 chipset
 ae0d0d18a8056b59a84384d617eeca3e6c43ccc4 Merge branch 'pci/aspm'
@@ -805,6 +783,7 @@ f634b63d43e1ef4ccd68017687a8437d3c416918 Merge tag 'rproc-v5.19' of git://git.ke
 e5b0208713326cdd3f0a83540e31f9b6f280da38 Merge tag '5.19-rc-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 8171acb8bc9b33f3ed827f0615b24f7a06495cd0 Merge tag 'erofs-for-5.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 e2c6170a55baefcbeb477e06e66f07659ea4f58d dt-bindings: PCI: xilinx-cpm: Fix reg property order
+66ed42caf286a7aaeb6f1db4b2995dd9416226c2 MAINTAINERS: rectify entries for some i3c drivers after dt conversion
 176882156ae6d63a81fe7f01ea6fe65ab6b52105 Merge tag 'vfio-v5.19-rc1' of https://github.com/awilliam/linux-vfio
 96752be4d7b443e6f1e322428d61f777d7d8bd4d Merge tag 'linux-watchdog-5.19-rc1' of git://www.linux-watchdog.org/linux-watchdog
 c7993147519ca970ad4af17e0eac9d683e7721b9 Merge tag 'for-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
@@ -1050,5 +1029,26 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+17752594e1c0ac5a4f5de459713e054d3e7462fb net/ps3_gelic: Add gelic_descr structures
+61734ac5c980c25577d3974994b2f1a13a3e328c net/ps3_gelic: Use local dev variable
+bdf1a961b8818c447664bbc137de95ecec56613d net/ps3_gelic: Format cleanups
+ffd2a32a3db39e766e1f2a6f0e6f076059e2f11c net/ps3_gelic: Add new macro BUG_ON_DEBUG
+ca8033bef17d55cbc43b299cb988c1143805b9b0 net/ps3_gelic: Add vlan_id structure
+176753bf44956ce5c5cfeb622a71ec7b1f59ce6a net/ps3_gelic: Cleanup debug code
+c775db91dae48baee8530ba93b2aa7606278fb9a net/ps3_gelic: Add new routine gelic_unmap_link
+3097f5d458f91a41857cf9bf695888b06924c9d0 net/ps3_gelic: Rename no to descr_count
+6145836fe7b4832b287d7472181e65a333e3982c net/ps3_gelic: Add new routine gelic_work_to_card
+94ce748ed611cf10b961bc42df111e57ff65a917 net/ps3_gelic: Fix DMA mapping problems
+860b2c76a61791657db79ea70310994d9cf19375 hvc_console: Allow backends to set I/O buffer size
+4a51ac944bd85cb3183e8d9c74156fffd4d9221c ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+741bd648edf2664b747c6f525b4c867efa446306 ps3-debugging: Setup DABR register
+74bb2efdec0c8c262731ce8a34651468b68c0994 ps3_defconfig: Cut down version
+c25e40a306b6805121f22b6607e54b4e695325ab powerpc/ps3: Refresh ps3_defconfig
+f21c71dc30839c4709c3e835b481358692eaecbc local: Add ps3_nfs_defconfig
+8b24ba2f1576af003d5523750ccbd9152d198319 local: ps3_nfs_defconfig: Cut down version
+dd5697af78cb9970f180c0302f80726c91490f9a local: Refresh ps3_nfs_defconfig
+4fb84370a3e4401f94a3b55a4d2de382797bb0cd local: Add ps3_petitboot_defconfig
+8526f84edcc2a80a422f07983c90920689e83d3b local: Add ps3_petitboot_nfs_defconfig
+59e9c0a51e2fdccccb1518764e4db06d9f34277a local: ps3_petitboot_nfs_defconfig: ip=dhcp
 
---===============2205960944772897038==--
+--===============2862473805878047116==--
