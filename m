@@ -1,56 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============7818697988800258483=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 06 Jun 2022 07:28:20 -0000
-Message-Id: <165450050055.22509.3987883477158949076@gitolite.kernel.org>
-
---===============7818697988800258483==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 06 Jun 2022 07:29:44 -0000
+Message-Id: <165450058442.23097.3795651222470380863@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 2b1ea9835a922e2a67048d54b489fa0caeb105fd
-    new: c31a689a5324e5e79809d99a2c3de6998e56e828
+  - ref: refs/heads/queue/4.14
+    old: c35eeec1e217e7c4f6575c9bf993d32782200bad
+    new: 45cde3f2ba4389dcdbc4158be7076cd067a01430
     log: |
-         c31a689a5324e5e79809d99a2c3de6998e56e828 5.18-stable patches
+         376bec318fa6755ec7c56560ff58892fc8b34704 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         78974de5c7c087ff0b109aebf4ba41a2df102807 USB: serial: option: add Quectel BG95 modem
+         45cde3f2ba4389dcdbc4158be7076cd067a01430 USB: new quirk for Dell Gen 2 devices
          
-
---===============7818697988800258483==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654500499 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1654500498-16a4419f1b9a2137b5ed7d469e711c8e9dd67292
-
-2b1ea9835a922e2a67048d54b489fa0caeb105fd c31a689a5324e5e79809d99a2c3de6998e56e828 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKdrJMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A14QAJ8uqYMb8LlBHqTjYRq0
-8vYuPgf5g8MIAf+ClU1AFycwLMDPKc29CKkxJxL0AC0b10y88hzYhB8u3yf8JHH2
-MI/4yQo8KMjULKCaUEUiwrQCBnaSjn2tRUJL1vYm8oNQmxQazFrVEpcj6cQCRp7B
-qPtqADH3Ce4r1QNY1Vt9W7TYUGuEUc1/V+fCsfrTSOEcPH5SGGD3NM2EUIy7+DXU
-iGwLx9XBtz3UeUYlkpTCYdPFU9+BBNfY3i9iqoiptzTgsjHr810ntt8NQk+YEaN4
-o2zknidgRJ4ZeYxYz93/dKlTN/+oNrFIHUQo24mPuLpAzc3efjXenV4niNr+A6xL
-FMxadaeQ93ZDcz+O6kG3jyTFkqTavVyeCYMQXgdRsVmIpT7EM/HaQbM+daq6DFih
-CVCJZf48ehqT8C+I61ns0qFk9jRm9RRHkxJMymQ4AdFtrd46BJcD41shqPlwcZeK
-0IEvvoZcl9FimIe8r+BkRjHjhn0PxRvXjibrxdX3uohC1Xop4a76T2uWtPmuGJH2
-rCJsgRbSMULCRFxHqqzcvnBjK0POmfesV3RIsJNP5IY1/OR7tgs2gJJM36FB1YVN
-fUlerR+7T/23xCx+P3kWA6/ainJgYqSEpGrvwoITQW2MFu4x/1U+t8q5YqloTsfl
-WhzYOTPY+sOpzWC3zchLPIPf
-=tQjj
------END PGP SIGNATURE-----
-
---===============7818697988800258483==--
+  - ref: refs/heads/queue/4.19
+    old: 529fd05173c83c9c01fb0fef80175927080c4c6a
+    new: 426c04158fb178a8a5f016634bfa72daada88a84
+    log: |
+         426c04158fb178a8a5f016634bfa72daada88a84 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         
+  - ref: refs/heads/queue/4.9
+    old: a1a1b79c5ddb99186f1778d00551eebe18961479
+    new: 3ddc19e68965cadf5ff223aaaa9466b5ca37184d
+    log: |
+         3ddc19e68965cadf5ff223aaaa9466b5ca37184d USB: new quirk for Dell Gen 2 devices
+         
+  - ref: refs/heads/queue/5.10
+    old: f43a638e79504d655fda3f29ce7bcd26a6de4326
+    new: 6b4e701829866b0757884ed6bc54bd3de5823d8c
+    log: |
+         89b6488a5d237f684e776d8b28b5e23fde616222 arm64: Initialize jump labels before setup_machine_fdt()
+         6b4e701829866b0757884ed6bc54bd3de5823d8c binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         
+  - ref: refs/heads/queue/5.15
+    old: 076413f610028434f6032ee839368a09b3ddb050
+    new: f62c96e563d647035c40f5e5f7623dc3a2aba8d0
+    log: |
+         a57fc3742ccf5a1ae550cbe379d00db57011212b arm64: Initialize jump labels before setup_machine_fdt()
+         f62c96e563d647035c40f5e5f7623dc3a2aba8d0 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         
+  - ref: refs/heads/queue/5.17
+    old: 194e3137b1f5bd04deead553a941718b7d06b3d2
+    new: 969380e9b2b62c8abd49910181b948419c47ce56
+    log: |
+         df388090b3c98f22b693a3ce1294a9d3fa56c6d8 arm64: Initialize jump labels before setup_machine_fdt()
+         601db55315954600a2f590037c790575e9154c74 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         969380e9b2b62c8abd49910181b948419c47ce56 parisc/stifb: Implement fb_is_primary_device()
+         
+  - ref: refs/heads/queue/5.18
+    old: 11aad225dd1ffd13508b89ebadc1b1bf928d3f83
+    new: 61be71bb4a2307d95e0f13362791dcaea77e8cd0
+    log: |
+         413fd06b6226b5bc0f6cbd211c98b5e3e25f2fa1 arm64: Initialize jump labels before setup_machine_fdt()
+         b2c7400308d501712f996a3b74c7ee1bb7a79e24 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         d7882a70a03b7a582544feb6fe74fa57fe2983ee parisc: fix a crash with multicore scheduler
+         a9981eb753d01896ef7b0e69cf7631f16ef2e327 parisc/stifb: Implement fb_is_primary_device()
+         61be71bb4a2307d95e0f13362791dcaea77e8cd0 parisc/stifb: Keep track of hardware path of graphics card
+         
+  - ref: refs/heads/queue/5.4
+    old: 5ce37486eb98eba35e8e5a613774673c7c96c50d
+    new: f6abf6bd17117cf5bcc2ea7a5fad242d65f724b2
+    log: |
+         f6abf6bd17117cf5bcc2ea7a5fad242d65f724b2 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
+         
