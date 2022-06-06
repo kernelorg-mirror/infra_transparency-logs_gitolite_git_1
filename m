@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7976420477581683119=="
+Content-Type: multipart/mixed; boundary="===============1467237049337093807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 06 Jun 2022 07:34:08 -0000
-Message-Id: <165450084809.26727.18358837552635363926@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 07:34:15 -0000
+Message-Id: <165450085568.26843.4994909159142796925@gitolite.kernel.org>
 
---===============7976420477581683119==
+--===============1467237049337093807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 42226c989789d8da4af1de0c31070c96726d990c
+  - ref: refs/heads/master
+    old: 672c0c5173427e6b3e2a9bbb7be51ceeec78093a
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-42226c989789-f2906aa86338.txt
+    log: revlist-672c0c517342-f2906aa86338.txt
 
---===============7976420477581683119==
+--===============1467237049337093807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42226c989789-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-672c0c517342-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============7976420477581683119==--
+--===============1467237049337093807==--
