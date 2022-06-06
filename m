@@ -1,33 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5698697117468070545=="
+Content-Type: multipart/mixed; boundary="===============7487052049380452231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 06 Jun 2022 16:12:04 -0000
-Message-Id: <165453192491.11165.11150217818532545549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 06 Jun 2022 16:12:16 -0000
+Message-Id: <165453193675.11307.7568627532748349451@gitolite.kernel.org>
 
---===============5698697117468070545==
+--===============7487052049380452231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 15477b31db104bc795dd1acccb3e9b89465fff01
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-15477b31db10-f2906aa86338.txt
+  - ref: refs/heads/for-5.19
+    old: ebf2a3521738520e12849b221fea24928b3f61ff
+    new: 6aa27071e4354c351d98e345fc888b70f335f185
+    log: revlist-ebf2a3521738-6aa27071e435.txt
 
---===============5698697117468070545==
+--===============7487052049380452231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15477b31db10-f2906aa86338.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1654531935 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1654531934-ffe53369b3a8e64c607c93875743ca8b5d688e3d
+
+ebf2a3521738520e12849b221fea24928b3f61ff 6aa27071e4354c351d98e345fc888b70f335f185 refs/heads/for-5.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKeJ18ACgkQJNaLcl1U
+h9AxUAf8DTV7AI/BDoR3fKqM8R1eu/cX2phtJHSAKq1x4emyhyIg31nVOVQnrEKQ
+1nY1bF3EBYPQkC79lM0O5fjCusavAxtRz7u6YabzLf6xBjZfVfC1r6nvoNR3/3rq
+MqQsTAs6skISb/UnwuAau2bE47hBPpa4VnTP0CD+6U9m5ShI5vt48Jkl72LDzc4+
+xG3etw8R6+3tJLyB4x9QtsuiCmJbaPGNmzHhRzVbowA9thC+AsAveJgDB32iB5rd
+6T7W1fjW3vFtO9k8QORFIl9oZCY/KsQWZAsrd0njEtdqXjMisGjuJbE+nmCbJsxj
+PmjAGZ178zlGPiWbY2n8jSXHBEXHwA==
+=fjak
+-----END PGP SIGNATURE-----
+
+--===============7487052049380452231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ebf2a3521738-6aa27071e435.txt
+
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -234,8 +257,6 @@ ed6cd6a17896561b9f51ab4c0d9bbb29e762b597 net, neigh: Set lower cap for neigh_man
 d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and balloon_remove() error handling
 50e35bd57c02a584442c0aa917787c858eabe80b video: fbdev: radeon: Fix spelling typo in comment
 5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
-61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
-ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
 9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
 73534617dfa3c4cd95fe5ffaeff5315e9ffc2de6 perf build: Fix btf__load_from_kernel_by_id() feature check
 5c83eff38194ab2c69a7dc1a64a0a3683f0a3c3a perf build: Stop using __weak bpf_prog_load() to handle older libbpf versions
@@ -1050,5 +1071,9 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+21b511ddee09a78909035ec47a6a594349fe3296 spi: spi-cadence: Fix SPI CS gets toggling sporadically
+7b40322f7183a92c4303457528ae7cda571c60b9 spi: cadence: Detect transmit FIFO depth
+2283679f4c468df367830b7eb8f22d48a6940e19 spi: spi-mem: Fix spi_mem_poll_status()
+6aa27071e4354c351d98e345fc888b70f335f185 spi: dt-bindings: Fix unevaluatedProperties warnings in examples
 
---===============5698697117468070545==--
+--===============7487052049380452231==--
