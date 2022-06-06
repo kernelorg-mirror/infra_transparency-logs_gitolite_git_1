@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5933820287166175850=="
+Content-Type: multipart/mixed; boundary="===============5154702394464650936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 06 Jun 2022 14:44:12 -0000
-Message-Id: <165452665259.15033.10347168471804059021@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 14:44:17 -0000
+Message-Id: <165452665788.15111.8353661916891499945@gitolite.kernel.org>
 
---===============5933820287166175850==
+--===============5154702394464650936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: da50aad6d86716aa48a2b8463c85caea77c0355f
+  - ref: refs/heads/fixes
+    old: 010ddb813f3554cbbf8bd13b731452236a2c8017
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-da50aad6d867-f2906aa86338.txt
+    log: revlist-010ddb813f35-f2906aa86338.txt
 
---===============5933820287166175850==
+--===============5154702394464650936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da50aad6d867-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-010ddb813f35-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============5933820287166175850==--
+--===============5154702394464650936==--
