@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8236461761556105765=="
+Content-Type: multipart/mixed; boundary="===============1375658811689844530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 06 Jun 2022 07:24:31 -0000
-Message-Id: <165450027180.19267.6613853180194742094@gitolite.kernel.org>
+Date: Mon, 06 Jun 2022 07:24:57 -0000
+Message-Id: <165450029759.19488.7888298034964173572@gitolite.kernel.org>
 
---===============8236461761556105765==
+--===============1375658811689844530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 9c477178a0a187c4718c228cc6e0692564811441
+  - ref: refs/heads/for-rc
+    old: c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-9c477178a0a1-f2906aa86338.txt
+    log: revlist-c5eb0a61238d-f2906aa86338.txt
 
---===============8236461761556105765==
+--===============1375658811689844530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c477178a0a1-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-c5eb0a61238d-f2906aa86338.txt
 
-c878bea3c9d724ddfa05a813f30de3d25a0ba83f ext4: filter out EXT4_FC_REPLAY from on-disk superblock field s_state
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -237,6 +236,7 @@ d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and bal
 5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
 61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
 ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
+9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
 73534617dfa3c4cd95fe5ffaeff5315e9ffc2de6 perf build: Fix btf__load_from_kernel_by_id() feature check
 5c83eff38194ab2c69a7dc1a64a0a3683f0a3c3a perf build: Stop using __weak bpf_prog_load() to handle older libbpf versions
 8916d72554e5f06df5ba17bfabc87c7977294ba4 perf build: Stop using __weak bpf_object__next_program() to handle older libbpf versions
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============8236461761556105765==--
+--===============1375658811689844530==--
