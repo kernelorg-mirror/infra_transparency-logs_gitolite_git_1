@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6498376960269539053=="
+Content-Type: multipart/mixed; boundary="===============3097851606641264512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 06 Jun 2022 06:01:22 -0000
-Message-Id: <165449528282.17220.16104929711697006709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 06 Jun 2022 06:01:50 -0000
+Message-Id: <165449531020.17443.15057332181040762668@gitolite.kernel.org>
 
---===============6498376960269539053==
+--===============3097851606641264512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 2e691421a2c9e0462175fe98171afa632861b199
+  - ref: refs/heads/extcon-next
+    old: 5dcc2afe716d69f5112ce035cb14f007461ff189
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-2e691421a2c9-f2906aa86338.txt
+    log: revlist-5dcc2afe716d-f2906aa86338.txt
 
---===============6498376960269539053==
+--===============3097851606641264512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e691421a2c9-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-5dcc2afe716d-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============6498376960269539053==--
+--===============3097851606641264512==--
