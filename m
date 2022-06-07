@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 07 Jun 2022 12:32:52 -0000
-Message-Id: <165460517227.29605.9829996378343920169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 07 Jun 2022 12:42:10 -0000
+Message-Id: <165460573027.3538.2262592051439491711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/main
-    old: eaee2dacc2be1609089a1eb4ce574bea8b047d32
-    new: 02c69863c885db963f8c0121b533f2816ef5be3b
+  - ref: refs/heads/for-next
+    old: 74f96b49da3245421d1074391c359244344a0bde
+    new: 3e2df9e51e79e769d17aa79239cdf0ab98ed988e
     log: |
-         02c69863c885db963f8c0121b533f2816ef5be3b rtl_bt: Update RTL8852A BT USB firmware to 0xDFB8_0634
+         c241d049122b49698d9094c7ee7a0215fbc04cfe ARM: s3c: Use strscpy to replace strlcpy
+         3e2df9e51e79e769d17aa79239cdf0ab98ed988e Merge branch 'next/soc' into for-next
+         
+  - ref: refs/heads/next/soc
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: c241d049122b49698d9094c7ee7a0215fbc04cfe
+    log: |
+         c241d049122b49698d9094c7ee7a0215fbc04cfe ARM: s3c: Use strscpy to replace strlcpy
          
