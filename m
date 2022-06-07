@@ -1,31 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 07 Jun 2022 08:33:32 -0000
-Message-Id: <165459081219.15471.380470509314339345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Tue, 07 Jun 2022 08:33:48 -0000
+Message-Id: <165459082886.15639.15862242559458165389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/tags/v5.14-rc2
+  - ref: refs/tags/renesas-devel-2022-06-07-v5.19-rc1
     old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
+    new: 490fd1b21f36b1e83fb789fa633b14aa74ab6031
+  - ref: refs/tags/renesas-next-2022-06-07-v5.19-rc1
     old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
-  - ref: refs/tags/v5.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53371b959e5823998cd617e74b585e7d328f5840
+    new: f5ab1530d2daa02ee6fb085e83b3eb6813000183
