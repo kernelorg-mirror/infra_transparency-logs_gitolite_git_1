@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8529214885090696280=="
+Content-Type: multipart/mixed; boundary="===============5140229245677364922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 07 Jun 2022 10:54:17 -0000
-Message-Id: <165459925745.28711.13272909350764381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 Jun 2022 10:54:24 -0000
+Message-Id: <165459926428.28818.17243422514787306328@gitolite.kernel.org>
 
---===============8529214885090696280==
+--===============5140229245677364922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: ac8a2ea48001a4c336fbaaa977642d5ad79cdbd8
     new: 7ede9c4c1654f00360b966c58a2209feab049cbc
     log: revlist-ac8a2ea48001-7ede9c4c1654.txt
 
---===============8529214885090696280==
+--===============5140229245677364922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1654599254 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1654599254-b5e9f5a1b0cb26ffc5402761eeab69af70be3673
+pusher C3F436CA30F5D8EB 1654599261 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1654599261-bba30e664686e158c1528507e0dbc4085ab59417
 
-ac8a2ea48001a4c336fbaaa977642d5ad79cdbd8 7ede9c4c1654f00360b966c58a2209feab049cbc refs/heads/for-5.20
+ac8a2ea48001a4c336fbaaa977642d5ad79cdbd8 7ede9c4c1654f00360b966c58a2209feab049cbc refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKfLlYACgkQJNaLcl1U
-h9CTdQf/QX3wm862Pp2dylZZVaKq1CqiHl1mWhoVw2Kw6Nzo90EDz6i2IfUIhRml
-QH6hs6GAp01JZV6aC3gqylMqd9/bBmQG8iwd2v4eP6m1cV26JTnESZrxKSzOVQMk
-NvKmqb04x4CSHt+mGWGSU5maRkmYtRhHhYh0yaw10putIbTi1gou3LCM9wu4wNo5
-NPbJlIzbE3ZYE79CjbA2QOw0+1WVOqvkxXDefZKBFYG0FpQGwAojQoL4qhoMJzwD
-eRKF+5Kb+T3yiWUXEQHThlRiCjKHcDqaneqLFAydcl+HLaFklc91ADDlYreQGgoD
-OYthnn3WgKczkSVPJJiUsd4jjnz59g==
-=L4Sp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKfLl0ACgkQJNaLcl1U
+h9DnqQf/Zxz4O3jfGYsHJ1AwfBuElhq2rwM5f9kI2tHj18/79WkW6EN2VSlbiuRJ
+2b1YVKO275Hjl4Co/1oqJCMSSsG8+zjws7FXkWM7nb4MNpcwDT+lQSdLd9VsQmdg
+0RHMTJGbKXEOu05lCOg05RG2wAGLqGIVuE7V01RUm3z0GLYqRfID7uMfhy/QzJji
+bnusYQ8lVDrFkTduGqJdsa4BNynY21dspNPlu5BCqmI5ePxYie5RLwxhyON1A5ur
+UfP+dnkedvTlM42ejuHhHz3w/CT9nu0UiZnmrvRgnPaiBvkE0JikLHzutNus8Ttx
+eAMlHCrcrykMrhmKhv80LdvmSY32Eg==
+=2XgB
 -----END PGP SIGNATURE-----
 
---===============8529214885090696280==
+--===============5140229245677364922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -118,4 +118,4 @@ ed05d691b921bff37e2397f7a41507b858950020 OPE support on Tegra210 and later
 52970da262e007574e683ec3983257e39f086e3e ASoC: Drop some i2c noop remove callbacks
 7ede9c4c1654f00360b966c58a2209feab049cbc Add Machine driver support for nau8825, max98560 and rt5682s, rt1019
 
---===============8529214885090696280==--
+--===============5140229245677364922==--
