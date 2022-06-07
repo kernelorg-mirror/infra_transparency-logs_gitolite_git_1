@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 07 Jun 2022 08:32:43 -0000
-Message-Id: <165459076345.14846.2161164707138561643@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 08:32:55 -0000
+Message-Id: <165459077502.14948.12088164229135338842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/tags/v5.18-rc2
+  - ref: refs/tags/v5.17
     old: 0000000000000000000000000000000000000000
-    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
-  - ref: refs/tags/v5.18-rc3
+    new: f8e739787152143aacffc181562a29c049c2d658
+  - ref: refs/tags/v5.17-rc2
     old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
-  - ref: refs/tags/v5.18-rc4
+    new: 95bc47315b817afcb621e4cbd2de4877152509ff
+  - ref: refs/tags/v5.17-rc3
     old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
+    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
+  - ref: refs/tags/v5.17-rc4
     old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
+    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
+  - ref: refs/tags/v5.17-rc5
     old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
+    new: fb245665706076547ba72af611b41bc38c3ab73a
+  - ref: refs/tags/v5.17-rc6
     old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/tags/v5.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/tags/v5.17-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
