@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7002842327511203385=="
+Content-Type: multipart/mixed; boundary="===============7987615322764689816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 07 Jun 2022 09:17:43 -0000
-Message-Id: <165459346323.13040.12872311409293310292@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 09:18:19 -0000
+Message-Id: <165459349935.13301.18163768323859660734@gitolite.kernel.org>
 
---===============7002842327511203385==
+--===============7987615322764689816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,35 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/v5.20-armsoc/dts32
-    old: 475ea4a65af1399009d0e75c4ebdd8d4a51f378c
-    new: 70e76f7344e59266e8a97cfe64d0d7c081652b35
-    log: revlist-475ea4a65af1-70e76f7344e5.txt
-  - ref: refs/heads/v5.20-armsoc/dts64
-    old: f2d2d694f1305cb9c0d185aaab11875e1ee4ba62
-    new: 4bcee17c7f28e2c63e9e13bb037101510777e7a9
-    log: |
-         66b51ea7d70fcc2ede87161c413fe1db4422bdac arm64: dts: rockchip: Add rk3568 PCIe2x1 controller
-         89504897b7a91bb2a7116b2b4bb13a3ac8ca31f7 arm64: dts: rockchip: Enable PCIe controller on quartz64-a
-         b65155c786c4b3767b75b3a3df5475294e0fb3d9 arm64: dts: rockchip: add pine64 touch panel display to rockpro64
-         9d6c6d978f97fab2add458bb92d4de11298d2561 arm64: dts: rockchip: rk356x: Add VOP2 nodes
-         d689e5709b8a9d502453d528aa37139dcc3b245a arm64: dts: rockchip: rk356x: Add HDMI nodes
-         991b3d12349293730f523a5a75200335fcd26d3e arm64: dts: rockchip: rk3568-evb: Enable VOP2 and hdmi
-         0c096d6ed84248a771f34bb626618c15769f431e arm64: dts: rockchip: enable vop2 and hdmi tx on quartz64a
-         4bcee17c7f28e2c63e9e13bb037101510777e7a9 arm64: dts: rockchip: enable vop2 and hdmi tx on rock-3a
-         
+  - ref: refs/heads/for-next
+    old: 09711f1d1f03fa7aeddb1673b69b4a2efb4f4f74
+    new: f7898b33dbb0b09a7b37af4685f2117bddccc7b8
+    log: revlist-09711f1d1f03-f7898b33dbb0.txt
 
---===============7002842327511203385==
+--===============7987615322764689816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-475ea4a65af1-70e76f7344e5.txt
+Content-Disposition: attachment; filename=revlist-09711f1d1f03-f7898b33dbb0.txt
 
-116a28ac1f0802dc306392746c3dde272ee55c47 habanalabs: hl_ts_behavior can be static
-234366d3b6dac33dc6f78abf0fbc4abe9bae986b habanalabs: add callback and field to be used for debugfs refactor
-ee8a10c833c4a49720055f23eeb215352b969bda habanalabs: unify code for memory access from debugfs
-9248aa90d2fa0a03955f0813d17accde9e1f0751 habanalabs: enforce alignment upon registers access through debugfs
-799b9eb01a643ba5b6ad80aa89cd4a425c17971e habanalabs: remove debugfs read/write callbacks
 cd92c3678ab3158f11319ea08b81ac58beb519c7 habanalabs: wrong handle removal in memory manager
 fcadbf56883eb36fa2186478cb7007b88cd3f068 habanalabs: remove redundant info print
 738607f005dc07e59424837e0ab286cdc65ccfdf habanalabs: change a reset print to debug level
@@ -505,16 +487,6 @@ fbf4df0699926cf620b2f722ddc213826e248962 mm: kasan: fix input of vmalloc_to_page
 0710d0122abc93adcb9a70a78f1625c491f6ad91 mm: Kconfig: reorganize misplaced mm options
 fa020a2b87d24016723fff4a4237deb612478a32 mm/shmem.c: suppress shift warning
 44a48081fc03187d3c047077f3ad3eb3a3eaf8fb smb3: remove unneeded null check in cifs_readdir
-f7230dcfb44e80fadfa67efe94071cb2542433b6 ARM: dts: rockchip: add clocks property to cru node rv1108
-e8cead54a6c73415d99f9feea3c38f892df786b8 ARM: dts: rockchip: Remove "amba" bus nodes from rv1108
-9d66847be3f8290e3142184af0b1806aae6269e2 ARM: dts: rockchip: add clocks property to cru node rk3288
-25f417b56384a3a3f65b7c7439a9797966b926e9 ARM: dts: rockchip: add clocks property to cru node rk3066a/rk3188
-8dd85bffc577c90bd29428215494fa68413ffa1f ARM: dts: rockchip: add clocks property to cru node rk3036
-840fc447d78e3d4e4048c307ec8f6649d2abb9e7 ARM: dts: rockchip: add clocks property to cru node rk3228
-cd2d081d18de396cb45636c215dc589a330b3f4e arm64: dts: rockchip: add clocks to rk356x cru
-2d363912168fe4b2786de7a6ced12b53bc7f4a00 arm64: dts: rockchip: add clocks property to cru node rk3308
-3d65818cd6cf2edc8fc742f982731c54be14e5b8 arm64: dts: rockchip: add clocks property to cru node rk3368
-cd414d5ac1fdeecf0617737e688a1af00858253a arm64: dts: rockchip: rename Quartz64-A bluetooth gpios
 189b0ddc245139af81198d1a3637cac74f96e13a pipe: Fix missing lock in pipe_resize_ring()
 e68b823ab0ba03323805e54743d16200ba0224d4 arm64/hugetlb: Fix building errors in huge_ptep_clear_flush()
 8bdc2a190105e862dfe7a4033f2fd385b7e58ae8 crypto: poly1305 - cleanup stray CRYPTO_LIB_POLY1305_RSIZE
@@ -1062,6 +1034,21 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+fb4f915c44ee059c9a3916c6c5389c2cc35e2f59 arm64: dts: rockchip: add Quartz64-A fan pinctrl
+28ae8a98494f09d1d2bee2be16fc5b575dbac6ea arm64: dts: rockchip: enable sdr-104 for sdmmc on Quartz A
+b181a1e8b3ffc0b4d723245765ead3ac5f32e308 arm64: dts: rockchip: enable sfc controller on Quartz64 Model A
+66b51ea7d70fcc2ede87161c413fe1db4422bdac arm64: dts: rockchip: Add rk3568 PCIe2x1 controller
+89504897b7a91bb2a7116b2b4bb13a3ac8ca31f7 arm64: dts: rockchip: Enable PCIe controller on quartz64-a
+b65155c786c4b3767b75b3a3df5475294e0fb3d9 arm64: dts: rockchip: add pine64 touch panel display to rockpro64
+9d6c6d978f97fab2add458bb92d4de11298d2561 arm64: dts: rockchip: rk356x: Add VOP2 nodes
+d689e5709b8a9d502453d528aa37139dcc3b245a arm64: dts: rockchip: rk356x: Add HDMI nodes
+991b3d12349293730f523a5a75200335fcd26d3e arm64: dts: rockchip: rk3568-evb: Enable VOP2 and hdmi
+0c096d6ed84248a771f34bb626618c15769f431e arm64: dts: rockchip: enable vop2 and hdmi tx on quartz64a
+4bcee17c7f28e2c63e9e13bb037101510777e7a9 arm64: dts: rockchip: enable vop2 and hdmi tx on rock-3a
+16bc4d196b2a8960cac3bdfd4c98d72c44ab043b arm64: dts: rockchip: Fix ethernet on production Quartz64-B
 70e76f7344e59266e8a97cfe64d0d7c081652b35 ARM: dts: rockchip: enable nfc node in rk3066a-mk808.dts
+b28a36fad7c66705e0569c1bfe7250add4255a8c Merge branch 'v5.19-armsoc/dtsfixes' into for-next
+3012a39c78c7f9ee88e4771b66b37641213ee4d4 Merge branch 'v5.20-armsoc/dts32' into for-next
+f7898b33dbb0b09a7b37af4685f2117bddccc7b8 Merge branch 'v5.20-armsoc/dts64' into for-next
 
---===============7002842327511203385==--
+--===============7987615322764689816==--
