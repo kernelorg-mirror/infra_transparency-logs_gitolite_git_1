@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 07 Jun 2022 10:36:26 -0000
-Message-Id: <165459818603.16148.3550569615385644655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 07 Jun 2022 10:37:05 -0000
+Message-Id: <165459822521.16406.7592453848557474461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/fixes
-    old: 479260419fa4cb30e3e5d935a857fbdf0ffdd854
-    new: f616ec25d0bff70bab5d5c9e2515b8ad81a9171a
+  - ref: refs/heads/master
+    old: 5e74a4b3ec1816e3bbfd715d46ae29d2508079cb
+    new: 662a80946ce13633ae90a55379f1346c10f0c432
     log: |
-         f616ec25d0bff70bab5d5c9e2515b8ad81a9171a mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
+         662a80946ce13633ae90a55379f1346c10f0c432 af_unix: Fix a data-race in unix_dgram_peer_wake_me().
          
