@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2357692974578394159=="
+Content-Type: multipart/mixed; boundary="===============8281009060271681311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Tue, 07 Jun 2022 16:25:36 -0000
-Message-Id: <165461913666.22885.4001787295037645384@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 16:26:11 -0000
+Message-Id: <165461917170.23168.10049897739716714684@gitolite.kernel.org>
 
---===============2357692974578394159==
+--===============8281009060271681311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.19-next/soc
-    old: b3ec3509d4d998e032e61588222de41db621cc73
-    new: 1c9faace10172e965012e0fb2d2061f95f8ff0e3
-    log: revlist-b3ec3509d4d9-1c9faace1017.txt
+  - ref: refs/heads/v5.19-next/dts32
+    old: a378934154a119cb773307fe18d192f2ce3d728c
+    new: e0c5341acdbeb5c900f3204cf279153c1c8b7433
+    log: revlist-a378934154a1-e0c5341acdbe.txt
 
---===============2357692974578394159==
+--===============8281009060271681311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3ec3509d4d9-1c9faace1017.txt
+Content-Disposition: attachment; filename=revlist-a378934154a1-e0c5341acdbe.txt
 
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
+5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
+dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
 cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
 7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -1042,13 +1049,6 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-18c7deca2b812537aa4d928900e208710f1300aa soc: mediatek: pwrap: Use readx_poll_timeout() instead of custom function
-e84187fa6f55caa897ee7d408046907a65e88a78 soc: mediatek: pwrap: Switch to devm_platform_ioremap_resource_byname()
-56a468b5f6454aae0e32e4c6ead1abde5cc4dd23 soc: mediatek: pwrap: Check return value of platform_get_irq()
-43406cebf06b3519d10c665e6e0228be197b534c soc: mediatek: pwrap: Move IO pointers to new structure
-f1a95a356daa9790151a5a60535fcdbfc0ca2e9c soc: mediatek: pwrap: Compress of_device_id entries to one line
-37e9a1071b72c995c61df1c65102bb47642e50ec dt-bindings: soc: mediatek: devapc: Add bindings for MT8186
-2cb41ed0d73d8b15b30c917392d7e97c22866818 soc: mediatek: devapc: Separate register offsets from mtk_devapc_data
-1c9faace10172e965012e0fb2d2061f95f8ff0e3 soc: mediatek: devapc: Add support for MT8186
+e0c5341acdbeb5c900f3204cf279153c1c8b7433 ARM: dts: add clock support for Airoha EN7523
 
---===============2357692974578394159==--
+--===============8281009060271681311==--
