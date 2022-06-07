@@ -1,31 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4394289206104017742=="
+Content-Type: multipart/mixed; boundary="===============3283424970691518703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 07 Jun 2022 13:32:45 -0000
-Message-Id: <165460876578.4702.4351448688371732519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 07 Jun 2022 13:36:01 -0000
+Message-Id: <165460896127.7180.7169441319445913708@gitolite.kernel.org>
 
---===============4394289206104017742==
+--===============3283424970691518703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/burn-the-flags
-    old: 2371e96fde51e57c283708cda9569ab109de6aa0
-    new: e7fb79b85f3b4dacc14734931530bcd2d9cd15cc
-    log: revlist-2371e96fde51-e7fb79b85f3b.txt
+  - ref: refs/heads/fixes
+    old: 2e40316753ee552fb598e8da8ca0d20a04e67453
+    new: 039f49c4cafb785504c678f28664d088e0108d35
+    log: revlist-2e40316753ee-039f49c4cafb.txt
 
---===============4394289206104017742==
+--===============3283424970691518703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2371e96fde51-e7fb79b85f3b.txt
+Content-Disposition: attachment; filename=revlist-2e40316753ee-039f49c4cafb.txt
 
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
+5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
+dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
+cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
+7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d335371940179318df97d66baef13987ee6e796b Merge tag 'mtd/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+a6e25b39adc3f68b9bc46f8e100345ee9bf62f8c dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
+a935601eed18d739c11da5504b551c7c4754f2ec PCI: qcom: Add SM8150 SoC support
+fdf6a2f533115ec5d4d9629178f8196331f1ac50 PCI: qcom: Fix pipe clock imbalance
+87d83b96c8d6c6c2d2096bd0bdba73bcf42b8ef0 PCI: qcom: Fix runtime PM imbalance on probe errors
 83013631f0f9961416abd812e228c8efbc2f6069 PCI: qcom: Fix unbalanced PHY init on probe errors
 075a9d55932edc8bddf85c6f8c0764928691cde4 dt-bindings: PCI: qcom: Convert to YAML
 6700a9b00f0aad206903b6ff216db56faf964654 dt-bindings: PCI: qcom: Do not require resets on msm8996 platforms
@@ -1034,21 +1050,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 d52d165d67c5aa26c8c89909003c94a66492d23d KVM: arm64: Always start with clearing SVE flag on load
 039f49c4cafb785504c678f28664d088e0108d35 KVM: arm64: Always start with clearing SME flag on load
-b73ceebb4bab8d7d0327b3fdf62d21ea3057b2cc KVM: arm64: Drop FP_FOREIGN_STATE from the hypervisor code
-30d093c6bccf05aef463eae5e7c201c42677786d KVM: arm64: Move FP state ownership from flag to a tristate
-d07c27def4a5362fe4287679bc0547028222bff0 KVM: arm64: Add helpers to manipulate vcpu flags among a set
-cf22382d2539f260d0ace35d5e520fdebe3a68e1 KVM: arm64: Add three sets of flags to the vcpu state
-86a7625d95d422a8b8f6bcfd186a73aebb41ecdc KVM: arm64: Move vcpu configuration flags into their own set
-a7223f82f13759a9c8e760cdd90216c28425c011 KVM: arm64: Move vcpu PC/Exception flags to the input flag set
-90c3f3b104e8e1dca26d1f7e9ffd97dffd0ecb28 KVM: arm64: Move vcpu debug/SPE/TRBE flags to the input flag set
-b2827d48d97b29d64a678bb444ff4fdb89c8dabe KVM: arm64: Move vcpu SVE/SME flags to the state flag set
-9b33fc3725ae160ed4b4cceef133cd9600556aac KVM: arm64: Move vcpu ON_UNSUPPORTED_CPU flag to the state flag set
-02749d3d5e8c0b6bb37e4e3d8301ea4bc966d8eb KVM: arm64: Move vcpu WFIT flag to the state flag set
-1eb95abc7650304923d9c926e72d0bc2af91333d KVM: arm64: Kill unused vcpu flags field
-b4559e90ebb0da6e09a1ac4adebdd0cd3e21e5c8 KVM: arm64: Convert vcpu sysregs_loaded_on_cpu to a state flag
-ed4c3639016df07d24c4eff3a0fd5c813731a362 KVM: arm64: Warn when PENDING_EXCEPTION and INCREMENT_PC are set together
-d129231797fc8c2d3c7364456d9dc2153d3fa1fd KVM: arm64: Add build-time sanity checks for flags
-20182771968baa436cfadc073855b391cb8cbab3 KVM: arm64: Reduce the size of the vcpu flag members
-e7fb79b85f3b4dacc14734931530bcd2d9cd15cc KVM: arm64: Document why pause cannot be turned into a flag
 
---===============4394289206104017742==--
+--===============3283424970691518703==--
