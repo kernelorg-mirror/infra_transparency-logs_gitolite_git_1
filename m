@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5140229245677364922=="
+Content-Type: multipart/mixed; boundary="===============3566243502923407355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 07 Jun 2022 10:54:24 -0000
-Message-Id: <165459926428.28818.17243422514787306328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 07 Jun 2022 10:54:45 -0000
+Message-Id: <165459928589.29041.5213296686507690718@gitolite.kernel.org>
 
---===============5140229245677364922==
+--===============3566243502923407355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: ac8a2ea48001a4c336fbaaa977642d5ad79cdbd8
-    new: 7ede9c4c1654f00360b966c58a2209feab049cbc
-    log: revlist-ac8a2ea48001-7ede9c4c1654.txt
+  - ref: refs/heads/for-linus
+    old: b1ed4f24bc7571767a2d6f770ef72069b47d36a4
+    new: 020d6d04f420ea0854dee584a2923ae5ce3e7674
+    log: |
+         020d6d04f420ea0854dee584a2923ae5ce3e7674 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: e761801a6a4aee61af47213025d9686f9b769213
+    new: 2f6b6c5bf7521d072177b0916d096cef61573152
+    log: revlist-e761801a6a4a-2f6b6c5bf752.txt
 
---===============5140229245677364922==
+--===============3566243502923407355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1654599261 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1654599261-bba30e664686e158c1528507e0dbc4085ab59417
-
-ac8a2ea48001a4c336fbaaa977642d5ad79cdbd8 7ede9c4c1654f00360b966c58a2209feab049cbc refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKfLl0ACgkQJNaLcl1U
-h9DnqQf/Zxz4O3jfGYsHJ1AwfBuElhq2rwM5f9kI2tHj18/79WkW6EN2VSlbiuRJ
-2b1YVKO275Hjl4Co/1oqJCMSSsG8+zjws7FXkWM7nb4MNpcwDT+lQSdLd9VsQmdg
-0RHMTJGbKXEOu05lCOg05RG2wAGLqGIVuE7V01RUm3z0GLYqRfID7uMfhy/QzJji
-bnusYQ8lVDrFkTduGqJdsa4BNynY21dspNPlu5BCqmI5ePxYie5RLwxhyON1A5ur
-UfP+dnkedvTlM42ejuHhHz3w/CT9nu0UiZnmrvRgnPaiBvkE0JikLHzutNus8Ttx
-eAMlHCrcrykMrhmKhv80LdvmSY32Eg==
-=2XgB
------END PGP SIGNATURE-----
-
---===============5140229245677364922==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac8a2ea48001-7ede9c4c1654.txt
+Content-Disposition: attachment; filename=revlist-e761801a6a4a-2f6b6c5bf752.txt
 
 fed3d9297a9bf8b342c034e74a1fdba6940fe84a ASoC: nau8822: Disable internal PLL if freq_out is zero
 45c6c5e052df2ee0d87e74743d8bb72e70fd0887 ASoC: tegra: Add binding doc for OPE module
@@ -117,5 +98,8 @@ ed05d691b921bff37e2397f7a41507b858950020 OPE support on Tegra210 and later
 2947683c534e45090b669bda06123201ff950c49 Switch to use internal PLL for iMCLK
 52970da262e007574e683ec3983257e39f086e3e ASoC: Drop some i2c noop remove callbacks
 7ede9c4c1654f00360b966c58a2209feab049cbc Add Machine driver support for nau8825, max98560 and rt5682s, rt1019
+020d6d04f420ea0854dee584a2923ae5ce3e7674 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+551423ef692542742310c27472af5a275a72739c Merge branch 'asoc-linus' into asoc-next
+2f6b6c5bf7521d072177b0916d096cef61573152 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============5140229245677364922==--
+--===============3566243502923407355==--
