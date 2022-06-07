@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 07 Jun 2022 14:37:40 -0000
-Message-Id: <165461266092.14970.5979607522842770606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Tue, 07 Jun 2022 14:55:59 -0000
+Message-Id: <165461375961.27699.10700411408265018908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/heads/for-next
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 5bea4f218a7364d5ae087ea49c8b4ce118a6d893
+    log: |
+         9f74f65b01dfa09ca539822993b652c2713139e7 mfd: intel-m10-bmc: Rename n3000bmc-secure driver
+         9a4db6da1005b5addd5e2bc83e0fa11b1db1bd36 fpga: m10bmc-sec: create max10 bmc secure update
+         e0325e2f4686b2a6c8f376d3702d92d7d4f09efc fpga: m10bmc-sec: expose max10 flash update count
+         cc55d0529c516b78eaa9aa38bb00d9c9d9f75ecf fpga: m10bmc-sec: expose max10 canceled keys in sysfs
+         5bea4f218a7364d5ae087ea49c8b4ce118a6d893 fpga: m10bmc-sec: add max10 secure update functions
+         
