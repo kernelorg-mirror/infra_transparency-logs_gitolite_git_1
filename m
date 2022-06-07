@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 07 Jun 2022 06:32:17 -0000
-Message-Id: <165458353734.1119.16766759443797843237@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 06:38:32 -0000
+Message-Id: <165458391236.4500.1448973477096371690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,29 +12,31 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 3e76e0906bb1e857c4480f75d41fa31ba74b48f8
-    new: dab6cdd11bd9fa5f901348da3d92a1e2bf16d3e4
+    old: dab6cdd11bd9fa5f901348da3d92a1e2bf16d3e4
+    new: 43d33c8114a210c5f1a2d356464c2bc60a230071
     log: |
-         6f8c75ad5a1550257d60883eef6d5e97f6268022 arm64: dts: exynos: adjust whitespace around '='
-         3b0a91e586dc92da738af9eb35352d5897b8b279 ARM: dts: exynos: adjust whitespace around '='
-         283d046406c22409d45b3ab31a4c93fe94b66349 arm64: dts: exynos: adjust DT style of ufs nodes in ExynosAutov9
-         2164784a4b2700d1929854b5ec6b2169ff449814 arm64: dts: exynos: align MMC node name with dtschema
-         a07cadf80c85a3ee6a1688fafb71b8c5cabfa904 ARM: dts: exynos: align MMC node name with dtschema
-         e00d71021862061ade41214d3fd4752f6ea6c994 Merge branch 'next/dt' into for-next
-         dab6cdd11bd9fa5f901348da3d92a1e2bf16d3e4 Merge branch 'next/dt64' into for-next
+         5dba27958273ffc0056795a479550957a134e981 ARM: dts: s3c2410: use local header for pinctrl register values
+         468fff18c3776ced9bb466ae4fb2e30fdf671bef ARM: dts: s3c64xx: use local header for pinctrl register values
+         7fd554de160eed060e7819aa42ca0478c9e0f4cb ARM: dts: s5pv210: use local header for pinctrl register values
+         fd1d3737f605c8b821794b031e3ed0920f6d843d ARM: dts: exynos: use local header for pinctrl register values
+         304e65b691ce115eedd43bae191f5757dca4d5ca arm64: dts: exynos: use local header for pinctrl register values
+         2a795ade7740a3217eb2b08179479018c5bf25dd arm64: dts: fsd: use local header for pinctrl register values
+         e53792664f08a8a2c9ae0f684dab4f82ff3a1b7a Merge branch 'next/dt' into for-next
+         43d33c8114a210c5f1a2d356464c2bc60a230071 Merge branch 'next/dt64' into for-next
          
   - ref: refs/heads/next/dt
-    old: 6c52573bf4c3a0f6e7142264fb36b31ae2c3707a
-    new: a07cadf80c85a3ee6a1688fafb71b8c5cabfa904
+    old: a07cadf80c85a3ee6a1688fafb71b8c5cabfa904
+    new: fd1d3737f605c8b821794b031e3ed0920f6d843d
     log: |
-         3b0a91e586dc92da738af9eb35352d5897b8b279 ARM: dts: exynos: adjust whitespace around '='
-         a07cadf80c85a3ee6a1688fafb71b8c5cabfa904 ARM: dts: exynos: align MMC node name with dtschema
+         5dba27958273ffc0056795a479550957a134e981 ARM: dts: s3c2410: use local header for pinctrl register values
+         468fff18c3776ced9bb466ae4fb2e30fdf671bef ARM: dts: s3c64xx: use local header for pinctrl register values
+         7fd554de160eed060e7819aa42ca0478c9e0f4cb ARM: dts: s5pv210: use local header for pinctrl register values
+         fd1d3737f605c8b821794b031e3ed0920f6d843d ARM: dts: exynos: use local header for pinctrl register values
          
   - ref: refs/heads/next/dt64
-    old: c75f5c9e11cf71e77c5cb8f0e082e5ee1e71545a
-    new: 2164784a4b2700d1929854b5ec6b2169ff449814
+    old: 2164784a4b2700d1929854b5ec6b2169ff449814
+    new: 2a795ade7740a3217eb2b08179479018c5bf25dd
     log: |
-         6f8c75ad5a1550257d60883eef6d5e97f6268022 arm64: dts: exynos: adjust whitespace around '='
-         283d046406c22409d45b3ab31a4c93fe94b66349 arm64: dts: exynos: adjust DT style of ufs nodes in ExynosAutov9
-         2164784a4b2700d1929854b5ec6b2169ff449814 arm64: dts: exynos: align MMC node name with dtschema
+         304e65b691ce115eedd43bae191f5757dca4d5ca arm64: dts: exynos: use local header for pinctrl register values
+         2a795ade7740a3217eb2b08179479018c5bf25dd arm64: dts: fsd: use local header for pinctrl register values
          
