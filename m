@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 07 Jun 2022 12:42:10 -0000
-Message-Id: <165460573027.3538.2262592051439491711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 07 Jun 2022 12:50:02 -0000
+Message-Id: <165460620239.9213.7235179875044313102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 74f96b49da3245421d1074391c359244344a0bde
-    new: 3e2df9e51e79e769d17aa79239cdf0ab98ed988e
-    log: |
-         c241d049122b49698d9094c7ee7a0215fbc04cfe ARM: s3c: Use strscpy to replace strlcpy
-         3e2df9e51e79e769d17aa79239cdf0ab98ed988e Merge branch 'next/soc' into for-next
-         
-  - ref: refs/heads/next/soc
+  - ref: refs/heads/hwmon
     old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: c241d049122b49698d9094c7ee7a0215fbc04cfe
+    new: ac6888ac5a11c0a47d1f1da4b7809c0c595fdc5d
     log: |
-         c241d049122b49698d9094c7ee7a0215fbc04cfe ARM: s3c: Use strscpy to replace strlcpy
+         5e3f89ad8e0cbd75aa3479e9ceb96d9e1c5585b8 dt-bindings: hwmon: ti,tmp401: Drop 'items' from 'ti,n-factor' property
+         ac6888ac5a11c0a47d1f1da4b7809c0c595fdc5d hwmon: (occ) Lock mutex in shutdown to prevent race with occ_active
          
