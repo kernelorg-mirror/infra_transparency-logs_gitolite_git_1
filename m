@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4198883153648126068=="
+Content-Type: multipart/mixed; boundary="===============0668734317703027700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 07 Jun 2022 10:05:48 -0000
-Message-Id: <165459634823.28761.17086041283207252314@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 10:06:14 -0000
+Message-Id: <165459637406.28986.5539883857848256363@gitolite.kernel.org>
 
---===============4198883153648126068==
+--===============0668734317703027700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/ceil
+  - ref: refs/heads/opp/linux-next
     old: 4ff2eecfc0dae7797f778e42758921d481ad440d
     new: acf77c478ca45fa47f5c59164f1de64ff330ec82
     log: revlist-4ff2eecfc0da-acf77c478ca4.txt
 
---===============4198883153648126068==
+--===============0668734317703027700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ eaf633b3439ed87524b3a1427f3326b29fe96de2 OPP: Add support for config_regulators(
 b9388ab25e15563baff5316e14fca35e4734338d OPP: Use generic key finding helpers for level key
 acf77c478ca45fa47f5c59164f1de64ff330ec82 OPP: Use generic key finding helpers for bandwidth key
 
---===============4198883153648126068==--
+--===============0668734317703027700==--
