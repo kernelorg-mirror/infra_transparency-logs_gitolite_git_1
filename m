@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3530478556959310334=="
+Content-Type: multipart/mixed; boundary="===============3538362170467319380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 07 Jun 2022 07:09:50 -0000
-Message-Id: <165458579071.24722.6290364159254891310@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 07:09:55 -0000
+Message-Id: <165458579549.24791.11988991551281958300@gitolite.kernel.org>
 
---===============3530478556959310334==
+--===============3538362170467319380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 67e3a731eab11bc68822924b983a6a981138c47c
-    new: 4d2c0584c35d51a24eb79c1c170c0efd0656a87b
-    log: revlist-67e3a731eab1-4d2c0584c35d.txt
+  - ref: refs/heads/m68k-queue
+    old: 93c071b060b9c0298a56841f9a129d17594a5d38
+    new: 756aa80382cac5b39e3a00fff2f3aa3e32c9a5b2
+    log: revlist-93c071b060b9-756aa80382ca.txt
 
---===============3530478556959310334==
+--===============3538362170467319380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67e3a731eab1-4d2c0584c35d.txt
+Content-Disposition: attachment; filename=revlist-93c071b060b9-756aa80382ca.txt
 
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -1048,7 +1046,9 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-193519887f877d7747bd541db65bc4100b7fcd75 Merge tag 'v5.19-rc1'
-4d2c0584c35d51a24eb79c1c170c0efd0656a87b m68k: virt: Kconfig minor fixes
+006a629248d7cf890d42033abd399b28b94f93d9 m68k: virt: Kconfig minor fixes
+e09cda2e18647ebd402616172701c03dba47ad3c m68k: atari: usb: Add ISP1160 USB host controller support
+17c22e458e5bf21eaf0f819dbe85bb9f465069bf m68k: atari: Update Kconfig.bus help text
+756aa80382cac5b39e3a00fff2f3aa3e32c9a5b2 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3530478556959310334==--
+--===============3538362170467319380==--
