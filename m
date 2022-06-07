@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8281009060271681311=="
+Content-Type: multipart/mixed; boundary="===============1334748230060785351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Tue, 07 Jun 2022 16:26:11 -0000
-Message-Id: <165461917170.23168.10049897739716714684@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 16:26:44 -0000
+Message-Id: <165461920494.23432.9749433150560776148@gitolite.kernel.org>
 
---===============8281009060271681311==
+--===============1334748230060785351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.19-next/dts32
-    old: a378934154a119cb773307fe18d192f2ce3d728c
-    new: e0c5341acdbeb5c900f3204cf279153c1c8b7433
-    log: revlist-a378934154a1-e0c5341acdbe.txt
+  - ref: refs/heads/v5.19-next/dts64
+    old: 86e9f8c161e9450094028c14c1d475ac98aff212
+    new: 68163cd12ca5d8af3c2c7fa4cd009e6ea919232d
+    log: revlist-86e9f8c161e9-68163cd12ca5.txt
 
---===============8281009060271681311==
+--===============1334748230060785351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a378934154a1-e0c5341acdbe.txt
+Content-Disposition: attachment; filename=revlist-86e9f8c161e9-68163cd12ca5.txt
 
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -1049,6 +1047,8 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-e0c5341acdbeb5c900f3204cf279153c1c8b7433 ARM: dts: add clock support for Airoha EN7523
+95eacb24f3739df87690e0c96982b88a6b2dc2bf arm64: dts: mediatek: Add opp table and clock property for MT8183 cpufreq
+f3ceebeb0c9bf2ceba87faa6bb77b6bee1f01d99 arm64: dts: mediatek: Add MediaTek CCI node for MT8183
+68163cd12ca5d8af3c2c7fa4cd009e6ea919232d arm64: dts: mediatek: Add mediatek,cci property for MT8183 cpufreq
 
---===============8281009060271681311==--
+--===============1334748230060785351==--
