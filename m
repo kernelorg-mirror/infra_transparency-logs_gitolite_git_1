@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 07 Jun 2022 22:47:27 -0000
-Message-Id: <165464204735.19115.830653152555557827@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 22:55:12 -0000
+Message-Id: <165464251267.24465.13354614821739422765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/kprobes
-    old: f12b0c7271f048247a17de9f53ff12d24cabd7dc
-    new: b1a464c572bdc81a99bf764586f7a9105674ab25
+    old: b1a464c572bdc81a99bf764586f7a9105674ab25
+    new: 78a4397f0e9b4577d064fab47f5458b389bfaa4b
     log: |
-         b1a464c572bdc81a99bf764586f7a9105674ab25 kprobes: Enable tracing for mololithic kernel images
+         78a4397f0e9b4577d064fab47f5458b389bfaa4b kprobes: Enable tracing for mololithic kernel images
          
