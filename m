@@ -1,37 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 07 Jun 2022 08:33:17 -0000
-Message-Id: <165459079703.15242.3715583225838849692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 07 Jun 2022 08:33:20 -0000
+Message-Id: <165459080048.15327.14227622946155411926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 997b2d66ff4e40ef6a5acf76452e8c21104416f7
-    new: 4d4136360b30e8e454df0f7a2166303438081616
-    log: |
-         4ff21ed9269793eaa7c64e06bfb4119608efa731 arm64: dts: renesas: r8a779f0: Add IPMMU nodes
-         b36be13ed6cb4619f26f9e963e41ffd74c3a2ef7 arm64: dts: renesas: r8a779f0: Add iommus to DMAC nodes
-         6f4a1ec70aeccaabaae9ae3860561c6f48965c31 Merge branch 'renesas-arm-dt-for-v5.20' into renesas-next
-         4d4136360b30e8e454df0f7a2166303438081616 Merge branch 'renesas-next' into renesas-devel
-         
-  - ref: refs/heads/next
-    old: f85c6f32f3b66d2a7851b4a7dea876839910bb37
-    new: 6f4a1ec70aeccaabaae9ae3860561c6f48965c31
-    log: |
-         4ff21ed9269793eaa7c64e06bfb4119608efa731 arm64: dts: renesas: r8a779f0: Add IPMMU nodes
-         b36be13ed6cb4619f26f9e963e41ffd74c3a2ef7 arm64: dts: renesas: r8a779f0: Add iommus to DMAC nodes
-         6f4a1ec70aeccaabaae9ae3860561c6f48965c31 Merge branch 'renesas-arm-dt-for-v5.20' into renesas-next
-         
-  - ref: refs/heads/renesas-arm-dt-for-v5.20
-    old: dc24257124dba514164bd708dc1f4ca07538da00
-    new: b36be13ed6cb4619f26f9e963e41ffd74c3a2ef7
-    log: |
-         4ff21ed9269793eaa7c64e06bfb4119608efa731 arm64: dts: renesas: r8a779f0: Add IPMMU nodes
-         b36be13ed6cb4619f26f9e963e41ffd74c3a2ef7 arm64: dts: renesas: r8a779f0: Add iommus to DMAC nodes
-         
+  - ref: refs/tags/v5.15
+    old: 0000000000000000000000000000000000000000
+    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/tags/v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
+  - ref: refs/tags/v5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/tags/v5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/v5.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
