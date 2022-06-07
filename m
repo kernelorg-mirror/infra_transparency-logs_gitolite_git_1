@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 07 Jun 2022 08:46:17 -0000
-Message-Id: <165459157788.25395.7991735228854489144@gitolite.kernel.org>
+Date: Tue, 07 Jun 2022 08:47:12 -0000
+Message-Id: <165459163230.25773.16517654910720604450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-rc
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 3b1ef3efd67671f83f72df4d260083e93fdcb665
+    old: 3b1ef3efd67671f83f72df4d260083e93fdcb665
+    new: 118f767413ada4eef7825fbd4af7c0866f883441
     log: |
-         3b1ef3efd67671f83f72df4d260083e93fdcb665 RDMA/qedr: Fix reporting QP timeout attribute
+         118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
          
