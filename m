@@ -1,57 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 07 Jun 2022 10:42:14 -0000
-Message-Id: <165459853458.19819.11340538195513591289@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5290071844296098019=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 07 Jun 2022 10:42:56 -0000
+Message-Id: <165459857672.21200.16051190861417537336@gitolite.kernel.org>
+
+--===============5290071844296098019==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6ac27f50ad42bb98f87858ccf35200ec2fe3e1ba
-    new: 692bb8a455b96a76a2d91524292e5c3c2311532a
-    log: |
-         692bb8a455b96a76a2d91524292e5c3c2311532a Properly define uint32_t constants in API.
-         
   - ref: refs/heads/master
-    old: 6ac27f50ad42bb98f87858ccf35200ec2fe3e1ba
-    new: 692bb8a455b96a76a2d91524292e5c3c2311532a
+    old: 27fccf29e55f479e262f69ac192fdd6d9e906fc4
+    new: acb7e41565e15ca088a769a1681333a961b34ec9
     log: |
-         692bb8a455b96a76a2d91524292e5c3c2311532a Properly define uint32_t constants in API.
+         54f242db500f0a8a2784fb7c8321e8411bf5a464 5.15-stable patches
+         bcb41a1e42bc8834ed90ec57a5fff7ea72d33c6a 5.17-stable patches
+         acb7e41565e15ca088a769a1681333a961b34ec9 5.18-stable patches
          
-  - ref: refs/merge-requests/349/head
-    old: dd2072a6f0212c0be80100b1208f0272d808522c
-    new: c7c56d869a4230d5ae993857c5e4f32c33a6727e
-    log: |
-         fc49a258bd328fc1898d74d4f5fc001d4f7198f8 Add configuration file for lgtm analyser.
-         ddc8c9c4413bf0f7397840a882b6f0c049b539c4 Use %s for JSON progress print.
-         82a6ae3c255d6bb77f7e68d3a27aae50af1e2dd4 Remove condition that is always true.
-         4913de11fcfd3d675e5dd5a431aea55a6fbedbd5 Remove condition that is always true.
-         e921991ba5af9fde14f517c8943698b207642006 Annotate LGTM TOCTOU condition.
-         93f90bf0f706a8784cb5c63f882ff94a5fdaa891 Do not report FIXME and empty blocks in LGTM.
-         6ac27f50ad42bb98f87858ccf35200ec2fe3e1ba Print output of symver attribute check in autoconf.
-         c7c56d869a4230d5ae993857c5e4f32c33a6727e CI: add Alpine Linux runner
-         
-  - ref: refs/merge-requests/349/merge
-    old: 7b08820fff24d042042ade438f5dc40d7f001017
-    new: e57eaa33a23ed095f354dad62f4396c6e61f8684
-    log: |
-         c7c56d869a4230d5ae993857c5e4f32c33a6727e CI: add Alpine Linux runner
-         e57eaa33a23ed095f354dad62f4396c6e61f8684 Merge branch 'ci-alpinelinux' into 'main'
-         
-  - ref: refs/merge-requests/352/head
-    old: 0000000000000000000000000000000000000000
-    new: 987e835b33cb9c65d23bdb489e178fa813654e6b
-  - ref: refs/merge-requests/352/merge
-    old: 0000000000000000000000000000000000000000
-    new: 6817bdcc98769b7b2266060dfc262a010c43663c
-  - ref: refs/merge-requests/353/head
-    old: 0000000000000000000000000000000000000000
-    new: 692bb8a455b96a76a2d91524292e5c3c2311532a
-  - ref: refs/merge-requests/353/merge
-    old: 0000000000000000000000000000000000000000
-    new: 35e597fbc1aac101f5d02cec963c98a6809956ac
+
+--===============5290071844296098019==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654598575 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1654598573-80663afc44bbe77d3f0f7705e2799ccdbd57157c
+
+27fccf29e55f479e262f69ac192fdd6d9e906fc4 acb7e41565e15ca088a769a1681333a961b34ec9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKfK68bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1+UP/1ZWTIsrJO8/U4dPbUqX
+OiaxJhqBDyTyLNP5X8YVsEL5a6N/tyf/zxtpy4WLF1JCunys/12wGhGWK2Z9KONO
+Iste3WE1QMg4RoCkAu6ShnoWdeG5JN6E4+Ql9oxgoRCUGv1E4XyFp65IPvUwA3PB
+ZYypdQ8NpcaxdiEQTgLC8xedQGTC6/vqsg+D+S1gTFLhbOdntUl/1r1XPCXfHY+C
+6fo/PfogD5VRO7Q4Pd4YcB3vUsWsh7XPc3i0sNOv/8A0bCGP2/RPbING8eHCVTre
++jFo+qiltjjG3entyl/glZsnb4h+Jc80EN5CwzihqSWHRGe1ax0F+ty2dTcXHNkU
+6dV898yXwCv3bpcbkSifZqvsZehL0rga3WO7dXEGpLj7G/odIPnCzORnwE6YTsL9
++is6jCp5rA5ihRlDxp6BaO6ZtvtyLsT77IcToxrk7oQo5ItYczd2a70DzhQBb1o1
+kU1lyNFYnF4FcBA/ip5+z6kkzmCBqQizo3X2FEUARvbZD3dgIzncz56awZ9YdnPJ
+FCG3Ckhzq0BfPeJiy5I3rfW7jhHLn9FS2ZHjBQWRnWnV7YxXjKDz0V9R3/QLbFeY
+rEtZJZElS17TtbamHk4sEDklrcE4CUaLGhIsfQk6uBJ6Fc+GqPj1mtM77T01IXdR
+HUU0J/wD6AZ9V2m3al9xPPbk
+=0MVn
+-----END PGP SIGNATURE-----
+
+--===============5290071844296098019==--
