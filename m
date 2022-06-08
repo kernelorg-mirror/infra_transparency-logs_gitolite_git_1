@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Wed, 08 Jun 2022 12:05:11 -0000
-Message-Id: <165468991141.16391.11189217324424052303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Wed, 08 Jun 2022 12:05:55 -0000
+Message-Id: <165468995520.16642.12395628162660066857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
   - ref: refs/heads/fixes
     old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: b93a8b2c5161696e732185311d309e0aaf0575be
+    new: ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb
     log: |
-         386cbe7f1b152c8476a7d322d39512b1b4259ed5 gpio: crystalcove: make irq_chip immutable
-         b34d2ad73af3c58dbaf8aa71b7308f17d9863780 gpio: crystalcove: Use specific type and API for IRQ number
-         68a12c19e1cb0f3332d3f59e1d5447f2aff97cd7 gpio: crystalcove: Join function declarations and long lines
-         41a18c4918dcd57a49b0d046d9f2d587878de739 gpio: wcove: make irq_chip immutable
-         a80fed9fb643175832e2fb8481d38f5d92cbcd34 gpio: merrifield: make irq_chip immutable
-         f1138dacb7ff5221c4a37b823e42fc0a34df8731 gpio: sch: make irq_chip immutable
-         b93a8b2c5161696e732185311d309e0aaf0575be gpio: dln2: make irq_chip immutable
+         ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
          
