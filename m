@@ -1,59 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8309430495862507748=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 08 Jun 2022 15:19:08 -0000
-Message-Id: <165470154874.14588.4709265000970204760@gitolite.kernel.org>
-
---===============8309430495862507748==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Wed, 08 Jun 2022 15:21:17 -0000
+Message-Id: <165470167720.16761.624362693060214718@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 11d39e8cc43e1c6737af19ca9372e590061b5ad2
-    new: 6cd88243c7e03845a450795e134b488fc2afb736
+  - ref: refs/heads/libtracefs
+    old: deb54b1d20f6bae4fff7ce195540b81fedfb2bd0
+    new: e8e2aeafdb1727c6b6b4b955114629da7ada62cd
     log: |
-         54aa83c90198e68eee8b0850c749bc70efb548da KVM: x86: do not set st->preempted when going back to user space
-         6cd88243c7e03845a450795e134b488fc2afb736 KVM: x86: do not report a vCPU as preempted outside instruction boundaries
+         45ee277e72bbe625a67520595d5044527ea60a45 libtracefs: Fix make sqlhist when built again
+         04900258bccca9e28b7e2e782588a9eb87f9bed2 libtracefs: Add libtracefs.a to dependency of sqlhist
+         a103ce524ae5a31f3357c3d9d5b1177e1d481db4 libtracefs: Differentiate FROM and JOIN events if they are the same event
+         00c6b5f6ba1747d09b5dff88a8ec26a331e4da28 libtracefs: Use unique names for sql field variables
+         75545106144c42ddfad515244a23f023e0c42cf8 libtracefs: Differentiate WHERE clause when FROM and TO events are the same
+         e8e2aeafdb1727c6b6b4b955114629da7ada62cd libtracefs sqlhist: Report errors executing the commands
          
-  - ref: refs/tags/for-linus
-    old: b7436a1cd9a23d5eea2861fca511b1c1370c1b12
-    new: 7be5fb974a74e1de9cebbfd60d039f4852152cb6
-    log: |
-         54aa83c90198e68eee8b0850c749bc70efb548da KVM: x86: do not set st->preempted when going back to user space
-         6cd88243c7e03845a450795e134b488fc2afb736 KVM: x86: do not report a vCPU as preempted outside instruction boundaries
-         
-
---===============8309430495862507748==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1654701541 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1654701540-703130078fe5e78da3d088156ea76936df7519cc
-
-11d39e8cc43e1c6737af19ca9372e590061b5ad2 6cd88243c7e03845a450795e134b488fc2afb736 refs/heads/master
-b7436a1cd9a23d5eea2861fca511b1c1370c1b12 7be5fb974a74e1de9cebbfd60d039f4852152cb6 refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmKgveYUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNDmgf9FVtCukIyHeFzoP5EJa/rzd7CYJVU
-TdbGU/JFLv+OxRhve+/+py09MVaZ5Q6D0QDCDvCEwXXeykvtGiLyYrXwXJv4q1N3
-5GR1kko65LNiW27RI6NCkaIhmiPJ/HLY0++A52T9ktWSAqJfpoohfx6THlhLFhtJ
-kMgJPaioXayDKmoCm/I8SjKZSOrYV/yBLWj9GZpqjydghh/xVrBE7nZIqAhnpRUV
-n7Vn373K68RwbBb7sGAQZToB2Bx6ejBdr0aLGUgb7e2gFmKSfgzGJ3s8J5AHhvHP
-vOIVaZ6jdMTgwLuihifuCilzjkc15C1xXIa2YFEuIRbIvMykpbF/SLQsrA==
-=XgRE
------END PGP SIGNATURE-----
-
---===============8309430495862507748==--
