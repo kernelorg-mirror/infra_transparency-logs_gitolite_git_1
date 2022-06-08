@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7187656881135183270=="
+Content-Type: multipart/mixed; boundary="===============0884126529644294247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 08 Jun 2022 13:34:30 -0000
-Message-Id: <165469527057.10018.3537437681289624536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 08 Jun 2022 13:34:36 -0000
+Message-Id: <165469527678.10115.8316378938066597284@gitolite.kernel.org>
 
---===============7187656881135183270==
+--===============0884126529644294247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: 27e05fcbea2053e7ee9efb942269ba0ced740d32
-    new: ec3ad554b956d5dbefa1962c419f164ba223e6b3
+  - ref: refs/heads/for-5.20
+    old: 0ac8bc4f54efc62afc51f2fee3b669bdf38e9cbd
+    new: 9723070ecb280e3046dd32a4d11cb52a332507cc
     log: |
-         ec3ad554b956d5dbefa1962c419f164ba223e6b3 ASoC: ak4613: cares Simple-Audio-Card case for TDM
-         
-  - ref: refs/heads/asoc-5.20
-    old: e288179dd09a0980c0bce20d5017e0dba95b4407
-    new: b09654e39c89a86680528345f3a95b832236ee82
-    log: |
-         b09654e39c89a86680528345f3a95b832236ee82 ASoC: mediatek: mt8186: Fix a handful of spelling mistakes
+         9723070ecb280e3046dd32a4d11cb52a332507cc spi: s3c64xx: Fix spelling mistake "hannel" -> "channel"
          
 
---===============7187656881135183270==
+--===============0884126529644294247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1654695269 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1654695268-78d2f4053bc907f86ce5c556dbc17d62af7116ec
+pusher C3F436CA30F5D8EB 1654695275 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1654695274-eac17cdbf3246126dad257a296944ca2e977df0b
 
-27e05fcbea2053e7ee9efb942269ba0ced740d32 ec3ad554b956d5dbefa1962c419f164ba223e6b3 refs/heads/asoc-5.19
-e288179dd09a0980c0bce20d5017e0dba95b4407 b09654e39c89a86680528345f3a95b832236ee82 refs/heads/asoc-5.20
+0ac8bc4f54efc62afc51f2fee3b669bdf38e9cbd 9723070ecb280e3046dd32a4d11cb52a332507cc refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgpWUACgkQJNaLcl1U
-h9Cemgf/WLK39AWkUmBM/fXkbF0VfbMYW0+b8aQXr5M8xZnzP5C99Em0tIuO0YJx
-AFbM7P4+I0b3q8JluAmMuntrn3HYRe+AlvBgCvQShb7yz0drPn+MHmFmgRqqxHnT
-NwNIVzykYJcLgYgJvjpCj+QJYtX9m9VtNEMDkAuBsbTqSKNglTUCStYEDMAY8V//
-H7mdOBXW91y5wMCXQ0dLMcTjarLk2RD3VuSa/+Hb3oXU8zQ1HFLh4UxasO9H3rpn
-6EeYpV1gLzliPwvuroCTTXlYdndWO91GWfB51EfC+fpu3CvEPzYVpWALsz0b2lVX
-KkWnkq6XVage1jUrAG4+PTjUj7bnWQ==
-=mmS7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgpWsACgkQJNaLcl1U
+h9C+9Qf/fW8cP8hAAndUaIPT0bB3XkxqjFbucSZMuP9kdtPXgfGNXRzOYxJuJXOA
+eQYVWI9MsFGGK3XfO/3DpY4cp0x2ddjS3PX4TSLrEusRLIRHGInUR9SzQHiZ6tJl
+HajeLkORPV57OOQmbZbSU+vJEFf5tO5YmwYciMdpMjhD5PJOgRtS5lIz/BTWybjF
+iPWJqvJNLLJxpjooIGzKWRlPPEAaJnk10u+ol2d64NqJkDAECA+858d6F/BUc1ut
+432y4vNtHs9OZSYo9Nm0WeJC7kCVLnK5+C/A7R+TqAsn/BqC3dGmn4H92GG5Sbda
+Kb3qkqwcYfaDj5FiK4p+RQjHh3A8JQ==
+=eOHA
 -----END PGP SIGNATURE-----
 
---===============7187656881135183270==--
+--===============0884126529644294247==--
