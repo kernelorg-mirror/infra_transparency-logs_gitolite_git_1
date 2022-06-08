@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1525252265772780903=="
+Content-Type: multipart/mixed; boundary="===============4900199498444394901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Jun 2022 10:48:11 -0000
-Message-Id: <165468529141.28032.7928779360214895970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Jun 2022 10:48:19 -0000
+Message-Id: <165468529909.28138.10874151773071964636@gitolite.kernel.org>
 
---===============1525252265772780903==
+--===============4900199498444394901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: 2abdf9f80019e8244d3806ed0e1c9f725e50b452
     new: 5871321fb4558c55bf9567052b618ff0be6b975e
     log: revlist-2abdf9f80019-5871321fb455.txt
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 336a2d935a99636eef1d42070e19c32ed0139fd7
     new: e288179dd09a0980c0bce20d5017e0dba95b4407
     log: revlist-336a2d935a99-e288179dd09a.txt
 
---===============1525252265772780903==
+--===============4900199498444394901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1654685289 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1654685288-10c2435c54a8c5b342bd68ac7e5252011b8e454b
+pusher C3F436CA30F5D8EB 1654685296 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1654685296-34e152e85fe3ad94b5d92273c1eb614a40e2b716
 
-2abdf9f80019e8244d3806ed0e1c9f725e50b452 5871321fb4558c55bf9567052b618ff0be6b975e refs/heads/for-5.19
-336a2d935a99636eef1d42070e19c32ed0139fd7 e288179dd09a0980c0bce20d5017e0dba95b4407 refs/heads/for-5.20
+2abdf9f80019e8244d3806ed0e1c9f725e50b452 5871321fb4558c55bf9567052b618ff0be6b975e refs/heads/asoc-5.19
+336a2d935a99636eef1d42070e19c32ed0139fd7 e288179dd09a0980c0bce20d5017e0dba95b4407 refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgfmkACgkQJNaLcl1U
-h9A1CQf+MJmtJ4WsF1iAGCGRpnOiMU0BOnufNJI5pePwiOMyHFB6UARcJPrSZJfy
-yCWZ96GqqvlS8OooGRtd9sZYVuL17NoJcIHSPM0iwg/bIYoX3atv17TwfehcwHSv
-6FJ0ywarsIbrYF0uh+cMI1LFE2+pSbenQFsxqp22kUCEBKXTnz5y58R27dT6OW/9
-5Jbp9sl6vH2hQFqU+/6qwOxaErrB4/0AYKYd60Hql3a95p+TuK8UQmT+PRLq5ysm
-7aUz/J2y6F9E2AtPWja6r/FyXkrIi2Izz3uO+xyCwbeSiYWLie//daoAHrO/gdjO
-riFXVhtX7VulI8A2RB+sWpPxlW2aUw==
-=B6uM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgfnAACgkQJNaLcl1U
+h9CXAAf+JpK1y6XBvNVptz52Gkw7i2+aeNHTWDfNSpBz7Et/mc+ShoU6xMVfg+Ue
+EkLzCaBEH0Iom4pWvE8WHN5+pJznAuiFL0VwFqfYiMLtxVAkC2TNDn64KqK4zrAd
+2jwxAbXddHaEvzHLOha9GNbejU4PDIAFykpcHHWY2lV/t+cGOS78HrAIam6Je+3x
+pzf3+E58dl5W3fRDhgXnKAkCw6hobnQE0v9KQMast+5GxSS+IjlwCLLN5jNfnoxp
+nW6WJBWUWtIwRdWOf5CM6JQN6KHIWKIclKjVNorLR4ECy1h/l3oBTZqa0lmaeyIo
+eIE2Z9WMRE1SAk615++bxgBwMm+Dlw==
+=9tAK
 -----END PGP SIGNATURE-----
 
---===============1525252265772780903==
+--===============4900199498444394901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,7 +1081,7 @@ f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
 5871321fb4558c55bf9567052b618ff0be6b975e ASoC: ops: Fix off by one in range control validation
 
---===============1525252265772780903==
+--===============4900199498444394901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1118,4 +1118,4 @@ b9ff35c7afc6ae1bddca3f84fb23a3d903a62a23 ASoC: tlv320aic23: Use modern ASoC DAI 
 894bf75bb1f6c274cdd877879d9215abd6ed4b1b ASoC: tlv320dac3x: Use modern ASoC DAI format terminology
 e288179dd09a0980c0bce20d5017e0dba95b4407 ASoC: DAI clocking terminology modernisation
 
---===============1525252265772780903==--
+--===============4900199498444394901==--
