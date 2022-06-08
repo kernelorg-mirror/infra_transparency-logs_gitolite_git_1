@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 08 Jun 2022 20:46:11 -0000
-Message-Id: <165472117187.6325.9672628120102310505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 08 Jun 2022 21:17:23 -0000
+Message-Id: <165472304340.26185.16134602277455731473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 934d683147b78b9891e5109883e49b968b144556
-    new: 762834bd705f599995920e6941708b99aa1e03da
+  - ref: refs/heads/master
+    old: 34f4335c16a5f4bb7da6c8d2d5e780b6a163846a
+    new: 6bfb56e93bcef41859c2d5ab234ffd80b691be35
     log: |
-         5dfac65b621733e69b789150a0a3f1bf2f9095a3 spi: <linux/spi/spi.h>: Add missing documentation for struct members
-         762834bd705f599995920e6941708b99aa1e03da Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         6bfb56e93bcef41859c2d5ab234ffd80b691be35 cert host tools: Stop complaining about deprecated OpenSSL functions
          
