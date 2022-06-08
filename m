@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 08 Jun 2022 08:11:59 -0000
-Message-Id: <165467591963.5328.17990596921158519110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Wed, 08 Jun 2022 08:13:46 -0000
+Message-Id: <165467602699.7109.4855534450446377463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/main
-    old: 0e703de3ef41692f765e80884caa36fed9da05df
-    new: 85393ca610ded5875611d2d81c7cfd90397afe93
+  - ref: refs/heads/for-next
+    old: d6ed675fc81930a9f4139ef9d18ee8f0cc09e27c
+    new: 40144dc96c132b5693ae968931a5d023062be543
     log: |
-         d38c9df53ad6cd374a047126cd6aa5c5dffb455f wifi: rtw88: use %*ph to print small buffer
-         9e8e9187673cb24324f9165dd47b2b28f60b0b10 wifi: ray_cs: Utilize strnlen() in parse_addr()
-         4dfc63c002a555a2c3c34d89009532ad803be876 wifi: ray_cs: Drop useless status variable in parse_addr()
-         85393ca610ded5875611d2d81c7cfd90397afe93 wifi: rtw89: support MULTI_BSSID and correct BSSID mask of H2C
+         2d3c5a369fb3022bcdcdf0dc0a72a75983fa7518 regulator: cros-ec: Use common cros_ec_command()
+         8f2277a52c33b438e4f89f09a65ee0dd4ad4c2b8 platform/chrome: cros_ec_proto: Rename cros_ec_command function
+         40144dc96c132b5693ae968931a5d023062be543 platform/chrome: cros_ec_proto: Update size arg types
          
