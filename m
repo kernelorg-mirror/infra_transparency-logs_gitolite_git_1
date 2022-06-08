@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2934319551421251513=="
+Content-Type: multipart/mixed; boundary="===============5356877564874254615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 08 Jun 2022 00:50:14 -0000
-Message-Id: <165464941459.3547.11213182633812063752@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 00:51:47 -0000
+Message-Id: <165464950795.4104.16065080763547463357@gitolite.kernel.org>
 
---===============2934319551421251513==
+--===============5356877564874254615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/statx
-    old: a0d64c2938f9d1510ead43c62c92cf9df65e4b91
-    new: d7f2dfb178c0c28a01216d91d8f04eb6c928e606
-    log: revlist-a0d64c2938f9-d7f2dfb178c0.txt
+  - ref: refs/heads/testing
+    old: 3313fe8a45ece8bb7bf80ce85e7ecb514711687b
+    new: 7875b5a9901586ebf7a616fea5e62a5519d10223
+    log: revlist-3313fe8a45ec-7875b5a99015.txt
 
---===============2934319551421251513==
+--===============5356877564874254615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0d64c2938f9-d7f2dfb178c0.txt
+Content-Disposition: attachment; filename=revlist-3313fe8a45ec-7875b5a99015.txt
 
-823ae99e09f7ada9e72c76cb2a9cc6a75a09971e scsi: isci: Fix typo in comment
-476e45923b5df19534178d0ed5c87c517dd6f669 scsi: ufs: ufshcd: Delete unnecessary NULL check
-7274ce0558adb4b9b1f5c5b613fb4fe331c18911 scsi: sd: Don't call blk_cleanup_disk() in sd_probe()
-7ad36c8b2b80c8d296478f9854135d379cc63551 scsi: core: Unexport scsi_bus_type
-f9f0a46141e2e39bedb4779c88380d1b5f018c14 scsi: myrb: Fix up null pointer access on myrb_cleanup()
-52832252dded19e291a7b8842542ea61d1765f2f smb3: add mount parm nosparse
-5d7c854593a460706dacf8e1b16c9bdcb1c2d7bb livepatch: Remove klp_arch_set_pc() and asm/livepatch.h
-8c0d9461ab760439b09ae321803ee85df1136e08 clocksource/drivers/timer-ti-dm: Remove unnecessary NULL check
-9c04a8ff03def4df3f81219ffbe1ec9b44ff5348 clocksource/drivers/oxnas-rps: Fix irq_of_parse_and_map() return value
-7b4537199a4a8480b8c3ba37a2d44765ce76cd9b kbuild: link symbol CRCs at final link, removing CONFIG_MODULE_REL_CRCS
-7375cbcf2343a9337b19846e76dfd94c3af98a27 kbuild: stop merging *.symversions
-5ce2176b81f77366bd02c27509b83049f0020544 genksyms: adjust the output format to modpost
-14554d92c1c5a127dd0dab8fce8f08bf70d8b39b powerpc/xics: Include missing header
-c85ab4fe33065ca1fdcac26f0c00c837fe727ba7 powerpc/64s: Only set HAVE_ARCH_UNMAPPED_AREA when CONFIG_PPC_64S_HASH_MMU is set
-31f12fdc2f1ed59f1a919f57b8b31af614b8c5ee MIPS: Kconfig: Fix indentation and add endif comment
 fb3d6967d508a59b2e8df8358aad1c35579a2833 MIPS: Return -EINVAL if mem parameter is empty in early_parse_mem()
 795d82ed389b0592aefa49c4b1c498351da65a63 MIPS: Use memblock_add_node() in early_parse_mem() under CONFIG_NUMA
 832296804bc7171730884e78c761c29f6d258e13 ASoC: rt5640: Do not manipulate pin "Platform Clock" if the "Platform Clock" is not in the DAPM
@@ -110,8 +95,6 @@ efa315818337ce00d7452546e4966e2692acd9d9 Merge branch 'remotes/lorenzo/pci/versa
 3f3489248927a53fcfec571ff603163f6b676a46 rtc: rzn1: Fix a variable type
 f83050a82d4f0b1cbf48ed458752bb913633d7ee RISC-V: Avoid empty create_*_mapping definitions
 1ae41598f482616449f869daf53eebe37973dc27 RISC-V: ignore xipImage
-66d34fcbbe63ebd8584b792e0d741f6648100894 f2fs: allow compression for mmap files in compress_mode=user
-78901cfa44981d170fb5caae0d5421c97782b0d0 f2fs: avoid unneeded error handling for revoke_entry_slab allocation
 856c7986d29dd74aa37aceedba7ffebcf2c7b24e Merge tag 'qcom-clk-for-5.19' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
 c17f8fd3f2184cf0f56626d1691dce417c450ca0 Merge tag 'qcom-clk-for-5.19-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
 2c29798c5d6f5756516881cb45eae9d6ca3d2a80 Merge branches 'clk-ti', 'clk-cleanup', 'clk-airoha', 'clk-i2c-simple' and 'clk-renesas' into clk-next
@@ -179,7 +162,6 @@ e5c3f619a04d9e191de66d5f8e069367f73a6487 include/trace/events/percpu.h: cleanup 
 ccd2a1201d267bf6f1950bf31cfd55fb4e17a231 selftests: vm: add "test_hmm.sh" to TEST_FILES
 0598739900071feff82b89f1515f963a6889b330 selftests: vm: add the "settings" file with timeout variable
 f403f22f8ccb12860b2b62fec3173c6ccd45938b mm: kfence: use PAGE_ALIGNED helper
-908ea6541661d72c6852650f91adebba88b0de0b f2fs: add f2fs_init_write_merge_io function
 d7a2dc523085f8b8c60548ceedc696934aefeb0e ceph: allow ceph.dir.rctime xattr to be updatable
 3302ffd44c3d70e77ad5764d15f5028a6ade540a rbd: replace usage of found with dedicated list iterator variable
 6c1dc50284c4dab9f1e563efba6f9c4a47af894a ceph: remove unused CEPH_MDS_LEASE_RELEASE related code
@@ -1006,6 +988,7 @@ a01fe7ec42b7fcd4201084dc56a2372f7b101f99 Merge tag 'devicetree-fixes-for-5.19-1'
 1f952675835bfe18d6ae494a5581724d68c52352 Merge tag 'ntfs3_for_5.19' of https://github.com/Paragon-Software-Group/linux-ntfs3
 77d4d3609cd2dd613b6f4c3162616a944d3aeb0b Merge tag 'regulator-fix-v5.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 032dcf09e2bf7c822be25b4abef7a6c913870d98 Merge tag 'gpio-fixes-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+aa22d6955596858be9aed437202d109041abbcbb crc-itu-t: fix typo in CRC ITU-T polynomial comment
 cf936af790a3ef5f41ff687ec91bfbffee141278 parisc/stifb: Implement fb_is_primary_device()
 b046f984814af7985f444150ec28716d42d00d9a parisc/stifb: Keep track of hardware path of graphics card
 ee3c8019cce254f586b7fc2c5b836c275b275527 cifs: fix uninitialized pointer in error case in dfs_cache_get_tgt_share
@@ -1043,6 +1026,18 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+188dceb8570bd1d9b14100aedf0af9781eaaf825 f2fs: use the updated test_dummy_encryption helper functions
+b3d9efcec77cb1ae8acea1edf2d51edf9902b365 crypto: xctr - Add XCTR support
+7eb0bc1233e60c35e83a6b0f973ba604c30fb40d crypto: polyval - Add POLYVAL support
+24ef2eebaf71c69981fe6eb6a9324f88a09bfe7b crypto: hctr2 - Add HCTR2 support
+14a979f19259d076ccbbb981e27bf0296d2af9ea crypto: x86/aesni-xctr: Add accelerated implementation of XCTR
+12715b169aa1eeb98a9b696f669aeaf7f32e160b crypto: arm64/aes-xctr: Add accelerated implementation of XCTR
+06e97c11e3fb06eaa0bb137548a4ee2ef008e773 crypto: arm64/aes-xctr: Improve readability of XCTR and CTR modes
+936143008214a9d0346b9c84fd7d76e99c4ce68c crypto: x86/polyval: Add PCLMULQDQ accelerated implementation of POLYVAL
+dd15c5ab150109df2c7d9512d97e8320dbc75daa crypto: arm64/polyval: Add PMULL accelerated implementation of POLYVAL
+9e9cf6e4109a9a014c6aab0662f42ae3b1064ca6 fscrypt: Add HCTR2 support for filename encryption
+d8c93cbf8d7da95989a79fcad5855bdb01070033 [TESTING, DO NOT MERGE] crypto - add benchmark and testing module
+89115e587e68f73ca607863ded5daab38dcb5b12 ext4: fix up test_dummy_encryption handling for new mount API
 820b3e2754897bbc78cf663fbc2eaf8d2539f9bd statx: add I/O alignment information
 dc29b47eecf7fd614e6e8a5a7339f0dfaa10f7f1 fscrypt: change fscrypt_dio_supported() to prepare for STATX_IOALIGN
 9be6a5d47b05bcf6d5ee3e64ef56d81f9b77d926 ext4: support STATX_IOALIGN
@@ -1050,5 +1045,10 @@ dc29b47eecf7fd614e6e8a5a7339f0dfaa10f7f1 fscrypt: change fscrypt_dio_supported()
 6b216b95f3bb83283857909c54692a3377351c48 f2fs: don't allow DIO reads but not DIO writes
 81cdfc82fc04d05aba31d44794058207a652e40e f2fs: simplify f2fs_force_buffered_io()
 d7f2dfb178c0c28a01216d91d8f04eb6c928e606 f2fs: support STATX_IOALIGN
+d2ab5714e088d48c07806c72a0696f061a36516e Merge remote-tracking branch 'ebiggers/ext4-pending' into testing
+51d4535926f33f9cfc54e5b7557c4b4088028af7 Merge remote-tracking branch 'ebiggers/f2fs-pending' into testing
+34864417531287ad8c6bf3dfe3d041d58b3a9bee Merge remote-tracking branch 'ebiggers/cryptobench' into testing
+837889973e512ff79eeb9d95977862f9894bee85 Merge remote-tracking branch 'ebiggers/statx' into testing
+7875b5a9901586ebf7a616fea5e62a5519d10223 Merge remote-tracking branch 'random/master' into testing
 
---===============2934319551421251513==--
+--===============5356877564874254615==--
