@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2667407942242487283=="
+Content-Type: multipart/mixed; boundary="===============1417522072766828274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 08 Jun 2022 02:23:23 -0000
-Message-Id: <165465500351.4197.12889016260461906823@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 02:23:38 -0000
+Message-Id: <165465501808.4342.11555355628030557974@gitolite.kernel.org>
 
---===============2667407942242487283==
+--===============1417522072766828274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,68 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: d5d92b64408443e113b9742f8f1c35278910dd4d
-    new: ec1e8adcbdf661c57c395bca342945f4f815add7
-    log: revlist-d5d92b644084-ec1e8adcbdf6.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 1da8bedc27947522f3da203672a2624466d73649
+    new: 6647a3eb6256114ee647e826dcf4a32365b1359c
+    log: revlist-1da8bedc2794-6647a3eb6256.txt
 
---===============2667407942242487283==
+--===============1417522072766828274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1654654993 -0400
+pusher 75C5DE3D 1654655007 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1654654992-291c8e5a6b6f709a4cc42011118e424b0d308a98
+nonce 1654655007-c269bc8fd08303fde9a50c8c80bd5db647366151
 
-d5d92b64408443e113b9742f8f1c35278910dd4d ec1e8adcbdf661c57c395bca342945f4f815add7 refs/heads/fixes
+1da8bedc27947522f3da203672a2624466d73649 6647a3eb6256114ee647e826dcf4a32365b1359c refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKgCBEACgkQ7ulgGnXF
-3j1asQ//XE+f3JcySKcGw/L6gMjab4wpkh6yE0pjSXwK5NKfcurAK6EFyi12jMBB
-Q45u10zBowaoSUmv8n+Tr0yO/8XDBYRnDUPJ1s9O/peZ1rG7ZvLkWSh5nXTw+HGd
-lvTzGOs1DH5WWfKrC1RX/IcGgcP2Ma6QHvevRoA4fRMzbb+H6U9aIfdbrMX692Qv
-8tmpRzS7Gcxy3E9hfwzxUDpAlWTcM81v4K/ig3jsPz1EuSMdRZp6TcEPvRXkm1oG
-o447BIUK7xGlTWXFC1khCCmMC3rrMUvTEafQjE/78srihM78vHiXq9kpchQEkHoX
-hVrzCJYGxBb4BXJYCC4DBBLMq+WHEgguWfp7s5NuUn8SH4fBJ34swt4IU5bQZl2I
-ANHp7/Dfq5Es6BZgMl1mhWcXo1HHeMHl5T7C9s9+O4iDllMTx6kkiDa4FBsQgMF+
-DIhHUWRL2KJZUQeZYzBASipz4JPeOjB5in8546L+jVYw+ZIRkgj1ceaJ4WrNv50J
-Of/XzUWWquS8T6W6VAx4sCp+mUWtagLYNvZisp7QHaWt4Zb1/Xtmngsj+XwVobVH
-dEqJmflP38rjsg8QGRqZX419i9u0DHcX/fdMaHTEJS1WjlIraPh9PiVLdl6AHu3b
-VJ8YGsJZg+GwoH4xnNHwyAVA+C61oKJkQQdIjF5JNpxWIh/sWxk=
-=LbZa
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKgCB8ACgkQ7ulgGnXF
+3j3XGg//boLLTEQCid+LzODg1qDEN/Z3ynSgyfjuXUxQJimISvf3c+kilPLoOCbZ
+opHOsGZM8RSGpbmleytAMTQcJC5Ks43Ysc6GpbJvO8zrRE06eWIaCdpF2oxzHtaX
+VysYTz739t+yzBOBTcX/PYVhbd+k1ptQunIVUeOh8P0vUTxDAc9d/3gNB8IFFIyS
+UaKT+gtqsNKNYcnLtGZShMCQlouJe7YGLPmZXubMO3PULL7guJKwGj4YD6EUgP2P
+2n1BehzvW7nSeKPv024rRnKB7zj2lO+zhyz2QcxIZTAEjZtuivljyREp3bcYN562
+zQth2ejzT7dns6Erq1XUckhYZcnoYaWIHoSrlBrYaOoNizebI3mjDCpqAGw66Y4X
+T7/wt1siX9D13ODYvMLtw9g5FfXzt0V45Sz6f2CY82+S9gvp6UC0fpenhvoch+x0
+5Ihd/1lfTAwrt81/79v/keYlR5PtNFJUjgyiUvVzSDEupsm2neyWOv/Vs/g1ocae
+nX6G+7HWkCuRMu1vkp5v93rkZEGbM36RWhDBBKjo6Gt6xvhfHNXoO6Egby52I8NJ
+pvQ4BokhxTvwiDfNjkL9/CyuSsHQM0tRnr+7uDAJ/uaug78Sn0rzikWVA57nRNHY
+HVBGfDg+tsnUEeNYhBL6xYJJpi8eF6MT8GLUIu4uIRjSH4zoLC4=
+=thMA
 -----END PGP SIGNATURE-----
 
---===============2667407942242487283==
+--===============1417522072766828274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5d92b644084-ec1e8adcbdf6.txt
+Content-Disposition: attachment; filename=revlist-1da8bedc2794-6647a3eb6256.txt
 
+0bf13a84362e750a90008af259b098d7c0e0755b Merge tag 'kernel-hardening-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+53bb540fd591f6fdd4cb5c9a785d9790ac33862d gfs2: Explain some direct I/O oddities
+11d8b79e849db099b04584913880a799549aaad5 gfs2: Use container_of() for gfs2_glock(aspace)
+f4a47561fcc1494ee3f273163189cf4462b6a245 gfs2: Return more useful errors from gfs2_rgrp_send_discards()
+5fcff61eea9efd1f4b60e89d2d686b5feaea100f gfs2: use i_lock spin_lock for inode qadata
+c360abbb9db298d0548b31e1a86a48ebb157d7cd gfs2: Convert function bh_get to use iomap
+d87c48ce4d8951f46d21f17ea86bba8853049862 cifs: cache the dirents for entries in a cached directory
+c878bea3c9d724ddfa05a813f30de3d25a0ba83f ext4: filter out EXT4_FC_REPLAY from on-disk superblock field s_state
+46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
+5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
+dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
+cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
+7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d335371940179318df97d66baef13987ee6e796b Merge tag 'mtd/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 a6e25b39adc3f68b9bc46f8e100345ee9bf62f8c dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
 a935601eed18d739c11da5504b551c7c4754f2ec PCI: qcom: Add SM8150 SoC support
 fdf6a2f533115ec5d4d9629178f8196331f1ac50 PCI: qcom: Fix pipe clock imbalance
@@ -863,14 +885,6 @@ c034ff2b53cf5add27c121d536864a00f0257700 Merge tag 'mlx5-fixes-2022-05-31' of gi
 d1dc87763f406d4e67caf16dbe438a5647692395 assoc_array: Fix BUG_ON during garbage collect
 2981deb83de2b94947086a992b961b2339988a71 RISC-V: PolarFire SoC Device Tree Updates
 77d707a310fa908d796d00e6c26b650cf2b4442f RISC-V: Only default to spinwait on SBI-0.1 and M-mode
-4094981db7b6ed6ebe3ebe398d8d9136ac5c44c8 scsi: mpi3mr: Rework mrioc->bsg_device model to fix warnings
-05fbde3a77a4f1d62e4c4428f384288c1f1a0be5 scsi: sd: Fix potential NULL pointer dereference
-30c4fdc3dcdd1f08876300711778d8b680d54b36 scsi: sd_zbc: Prevent zone information memory leak
-b3bc1a88b534b3ef880a5124f3db45c149e601ee scsi: core: Return BLK_STS_TRANSPORT for ALUA transitioning
-a5b168efba215229465d9a1a0e77b83073c7bfd0 scsi: lpfc: Add support for ATTO Fibre Channel devices
-1fcbe4c490396c5a0d4588cfb84923ad6076b62a scsi: mpi3mr: Fix kernel-doc
-e250bd2699e0e7418cd54ea2a762acfcfad43ffd scsi: qla2xxx: Remove setting of 'req' and 'rsp' parameters
-aa2a4ded05058f134a4dee1424f829d662e00cda scsi: qla2xxx: Remove unused 'ql_dm_tgt_ex_pct' parameter
 387ba9bf4cb80277fb01a7b753da611ab1260a1a cifs: do not build smb1ops if legacy support is disabled
 7ef93ffccd55fb0ba000ed16ef6a81cd7dee07b5 cifs: version operations for smb20 unneeded when legacy support disabled
 9d19f2b5256ef6cdd4947b48fab4032d0060e916 Documentation: riscv: Add sv48 description to VM layout
@@ -1066,19 +1080,5 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
-cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
-44ba9786b67345dc4e5eabe537c9ef2bfd889888 scsi: lpfc: Correct BDE type for XMIT_SEQ64_WQE in lpfc_ct_reject_event()
-24e1f056677eefe834d5dcf61905cce857ca4b19 scsi: lpfc: Resolve some cleanup issues following abort path refactoring
-e27f05147bff21408c1b8410ad8e90cd286e7952 scsi: lpfc: Resolve some cleanup issues following SLI path refactoring
-6f808bd78e8296b4ded813b7182988d57e1f6176 scsi: lpfc: Address NULL pointer dereference after starget_to_rport()
-b1b3440f437b75fb2a9b0cfe58df461e40eca474 scsi: lpfc: Resolve NULL ptr dereference after an ELS LOGO is aborted
-336d63615466b4c06b9401c987813fd19bdde39b scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
-ea7bd1f393311e823716a232e9d8857fb64eb105 scsi: lpfc: Add more logging of cmd and cqe information for aborted NVMe cmds
-2e7e9c0c1ec05f18d320ecc8a31eec59d2af1af9 scsi: lpfc: Allow reduced polling rate for nvme_admin_async_event cmd completion
-1af48fffd7ffe280e0c225659d826fd5ae802a08 scsi: lpfc: Update lpfc version to 14.2.0.4
-120f1d95efb1cdb6fe023c84e38ba06d8f78cd03 scsi: mpt3sas: Fix out-of-bounds compiler warning
-d64c491911322af1dcada98e5b9ee0d87e8c8fee scsi: ipr: Fix missing/incorrect resource cleanup in error case
-ec1e8adcbdf661c57c395bca342945f4f815add7 scsi: pmcraid: Fix missing resource cleanup in error case
 
---===============2667407942242487283==--
+--===============1417522072766828274==--
