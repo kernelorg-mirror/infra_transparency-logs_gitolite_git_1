@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2584491089358092378=="
+Content-Type: multipart/mixed; boundary="===============8359202966520982791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 08 Jun 2022 12:40:28 -0000
-Message-Id: <165469202847.7669.12783652383888349532@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 12:40:37 -0000
+Message-Id: <165469203760.7764.11881533975306471497@gitolite.kernel.org>
 
---===============2584491089358092378==
+--===============8359202966520982791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/perf/core
     old: 1bcca2b1bd67f3c0e5c3a88ed16c6389f01a5b31
     new: 9886142c7a2226439c1e3f7d9b69f9c7094c3ef6
     log: revlist-1bcca2b1bd67-9886142c7a22.txt
 
---===============2584491089358092378==
+--===============8359202966520982791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -393,4 +393,4 @@ c42e65664390be7c1ef3838cd84956d3a2739d60 Input: bcm5974 - set missing URB_NO_TRA
 f7a447eda2120ab8988b0f8c708c1fd3bd4d3729 Merge tag 'mmc-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 9886142c7a2226439c1e3f7d9b69f9c7094c3ef6 Merge tag 'input-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
---===============2584491089358092378==--
+--===============8359202966520982791==--
