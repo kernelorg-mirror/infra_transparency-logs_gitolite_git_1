@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8402340378151994609=="
+Content-Type: multipart/mixed; boundary="===============4180631310890843565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 08 Jun 2022 02:24:05 -0000
-Message-Id: <165465504516.4641.7348727123895074798@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 02:24:19 -0000
+Message-Id: <165465505968.4806.6759558170886786136@gitolite.kernel.org>
 
---===============8402340378151994609==
+--===============4180631310890843565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: aa2a4ded05058f134a4dee1424f829d662e00cda
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-aa2a4ded0505-f2906aa86338.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: f5130ea80d58c920d44876c0ff2fa3a783bc3acd
+    new: c478d9555b6962222fed630e8d751a7c9aac8b1c
+    log: revlist-f5130ea80d58-c478d9555b69.txt
 
---===============8402340378151994609==
+--===============4180631310890843565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1654655035 -0400
+pusher 75C5DE3D 1654655049 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1654655034-5caa123bf5beae68ee69be3bfcfe498754734f70
+nonce 1654655048-1beb105fe7c9ad05703bc3b74092fc6be1c47b20
 
-aa2a4ded05058f134a4dee1424f829d662e00cda f2906aa863381afb0015a9eb7fefad885d4e5a56 refs/heads/queue
+f5130ea80d58c920d44876c0ff2fa3a783bc3acd c478d9555b6962222fed630e8d751a7c9aac8b1c refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKgCDsACgkQ7ulgGnXF
-3j2HeBAArvj/gLvrFZ9MT+4Th1/6DyXEDEsGZ3HMe0CQWOCQPm/f339rXF1Y4PDL
-r15RHWvI/+q7ZYPdf/6HekpwQcM3kvfRLHr5kVdHeOwroOFRWB+BLdqMJ0dKFOH8
-vvPBwpTNwluXvnXPV4CgYkk3FJs9XlxHAsOX0T8MKcBU6BTT2HGDOM5kHFB3F55Y
-e85Qv9sQ++giq00cXhtZ10JreOlJgT9praimlS9x8HkTEvOGAB5eo/kNnuobe0Bb
-02jVs2ampM6vVvdys3HkV4lLuB2MJ74M3Nwil05z0iGAXyWOHEGXI52XnVDDiGTr
-UIJi84ugX1PGaLXJCbOSJG34Le3qpHOgl/Iy7s9EK+uYpI78sf1KPdaF1cdTz3ty
-WN06nT52ceddwXU7wEQuYmSbDZxpFjSj4VpZy2CBf3l3IPz4R/w2jiRUeM6ix0wg
-kO9sZ2Z3PlMZu+1D5rieWJeyJxl7W1xq4vKE3yuWHa0NSanONzFxDoXNox7F9f4m
-ddILaGHtkvekUBmUOEbn28HU00zVG9A/8dVx7wT5sEqzAvfnRZn2jjzuc0uEzfVc
-zLgdvq4VA3OtfyoqiuauOkrbFaO5S/a6JJPcIaYHk2EyNV9Z3TR8F9TsSrvRZFaO
-B77+aK5gKZnduGoFodtVnjt3s2BZIfv6tSRN8ZfVZwNhbSvTqHc=
-=D021
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKgCEkACgkQ7ulgGnXF
+3j0LHw/9HpMvRkItILKiDltDOaiQ8tKTHYo6vWmB7KR/Mou8SYr6M0uHHdpKLCOa
+z8GAoLtwklvmO1yKVxYa2sGAl/GO60snHFzD6U7P58dNxTbuebPpJnKriHHugCLW
+zZ+8XlezDD4bIRhjJ7KnusYxD0KR7c6XHSdDf5P0fIVPdVyUHXQ5mSYWUtFCCVDB
+e1HA7VGjkxy6sweiMlbpDBVBWXcH2/+mNHJZDrWnp3U8115osRH3XX9ENbnGuMNa
+az8JpHBv0us4to1eNTlDiEP5pWe8jgoUbhksoI/F+x9OunqMtufjyqFmoxdDIeZA
+OAWB6IGHJslrIADM9yl3dfPYG9GdB+1WMCjdAGmKFcUaCJU4OJssW/Rp+Lmz81Uq
+1WmJ3nNgDnFuZzyi+K1D981Xa6bAeUpvE10XGwooZMjoxQOYsKjxmg/GxZnmjm0W
+3O9ezXvVYPu5hhf1B1ibYhhj3RX05/6g2hMwttlbb4sPSE+yCXtq8VinHC+jlmKW
+09PgvOkhAUXJl3znh1uOhHJmIvnBBotkp6EThZ3i4zAsRDhSdwZfTcRmKRTLwQbD
+uQrkGf5a3IZhwSYLTtdMGdVeZ9/JzNQ0dpZ4sqjodptZM3oL+coKIW1p6800aefl
+wFuqU6lYypD3ijBAyipm+BuFVBvh0MZIQ7l87XubEsf4TZVksNs=
+=Yld7
 -----END PGP SIGNATURE-----
 
---===============8402340378151994609==
+--===============4180631310890843565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa2a4ded0505-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-f5130ea80d58-c478d9555b69.txt
 
-0bf13a84362e750a90008af259b098d7c0e0755b Merge tag 'kernel-hardening-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-53bb540fd591f6fdd4cb5c9a785d9790ac33862d gfs2: Explain some direct I/O oddities
-11d8b79e849db099b04584913880a799549aaad5 gfs2: Use container_of() for gfs2_glock(aspace)
-f4a47561fcc1494ee3f273163189cf4462b6a245 gfs2: Return more useful errors from gfs2_rgrp_send_discards()
-5fcff61eea9efd1f4b60e89d2d686b5feaea100f gfs2: use i_lock spin_lock for inode qadata
-c360abbb9db298d0548b31e1a86a48ebb157d7cd gfs2: Convert function bh_get to use iomap
-d87c48ce4d8951f46d21f17ea86bba8853049862 cifs: cache the dirents for entries in a cached directory
-c878bea3c9d724ddfa05a813f30de3d25a0ba83f ext4: filter out EXT4_FC_REPLAY from on-disk superblock field s_state
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
-dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
 cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
@@ -1080,5 +1065,20 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+9c40c36e75ffd49952cd4ead0672defc4b4dbdf7 scsi: qla2xxx: edif: Reduce Initiator-Initiator thrashing
+7a7b0b4865d3490f62d6ef1a3aa39fa2b47859a4 scsi: qla2xxx: edif: bsg refactor
+df648afa39da9c4d3af99c6c03dc3e9c7dfa99b0 scsi: qla2xxx: edif: Wait for app to ack on sess down
+5ecd241bd7b1088a189581c0b560a13fe93621f6 scsi: qla2xxx: edif: Add bsg interface to read doorbell events
+e0fb8ce2bb9e52c846e54ad2c58b5b7beb13eb09 scsi: qla2xxx: edif: Fix potential stuck session in sa update
+cf79716e6636400ae38c37bc8a652b1e522abbba scsi: qla2xxx: edif: Synchronize NPIV deletion with authentication application
+0b3f3143d473b489a7aa0779c43bcdb344bd3014 scsi: qla2xxx: edif: Add retry for ELS passthrough
+1040e5f75ddf56fdd571a2a14b4d1a9e8ed846a9 scsi: qla2xxx: edif: Remove old doorbell interface
+789d54a4178634850e441f60c0326124138e7269 scsi: qla2xxx: edif: Fix n2n discovery issue with secure target
+aec55325ddec975216119da000092cb8664a3399 scsi: qla2xxx: edif: Fix n2n login retry for secure device
+4dc48a107a146cade61097958ff2366c13da1f60 scsi: qla2xxx: Update version to 10.02.07.500-k
+a11b80692be5c408a33ea89e3fe1a240bef8c820 scsi: target: iscsi: Add upcast helpers
+a75fcb0912a549c6c1da8395f33271ce06e84acd scsi: target: iscsi: Extract auth functions
+a6e0d179764cb31b2981c85e6fd156adc777e4ed scsi: target: iscsi: Control authentication per ACL
+3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397 scsi: core: iscsi: Directly use ida_alloc()/ida_free()
 
---===============8402340378151994609==--
+--===============4180631310890843565==--
