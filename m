@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0884126529644294247=="
+Content-Type: multipart/mixed; boundary="===============3558220672323507366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 08 Jun 2022 13:34:36 -0000
-Message-Id: <165469527678.10115.8316378938066597284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Jun 2022 13:34:42 -0000
+Message-Id: <165469528252.10234.17733599281473793200@gitolite.kernel.org>
 
---===============0884126529644294247==
+--===============3558220672323507366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/spi-5.20
     old: 0ac8bc4f54efc62afc51f2fee3b669bdf38e9cbd
     new: 9723070ecb280e3046dd32a4d11cb52a332507cc
     log: |
          9723070ecb280e3046dd32a4d11cb52a332507cc spi: s3c64xx: Fix spelling mistake "hannel" -> "channel"
          
 
---===============0884126529644294247==
+--===============3558220672323507366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1654695275 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1654695274-eac17cdbf3246126dad257a296944ca2e977df0b
+pusher C3F436CA30F5D8EB 1654695281 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1654695280-72f72dc95459d06f9aa7fa52ddb275e17359d833
 
-0ac8bc4f54efc62afc51f2fee3b669bdf38e9cbd 9723070ecb280e3046dd32a4d11cb52a332507cc refs/heads/for-5.20
+0ac8bc4f54efc62afc51f2fee3b669bdf38e9cbd 9723070ecb280e3046dd32a4d11cb52a332507cc refs/heads/spi-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgpWsACgkQJNaLcl1U
-h9C+9Qf/fW8cP8hAAndUaIPT0bB3XkxqjFbucSZMuP9kdtPXgfGNXRzOYxJuJXOA
-eQYVWI9MsFGGK3XfO/3DpY4cp0x2ddjS3PX4TSLrEusRLIRHGInUR9SzQHiZ6tJl
-HajeLkORPV57OOQmbZbSU+vJEFf5tO5YmwYciMdpMjhD5PJOgRtS5lIz/BTWybjF
-iPWJqvJNLLJxpjooIGzKWRlPPEAaJnk10u+ol2d64NqJkDAECA+858d6F/BUc1ut
-432y4vNtHs9OZSYo9Nm0WeJC7kCVLnK5+C/A7R+TqAsn/BqC3dGmn4H92GG5Sbda
-Kb3qkqwcYfaDj5FiK4p+RQjHh3A8JQ==
-=eOHA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgpXEACgkQJNaLcl1U
+h9A2ogf/ZA294oTgIanun5p1vUTFAWDQrreEUdhFxzitNSMhx7ihvfjhDi2ygqwt
+1ghRlOv8F8T9XeU8wRxbQrZLfV8q1BPvuYdPJXk156uSn9ESWgTihyS1xQlqZV+Y
+lHszsuk/nAaTwYSjbtv9/Z5du1iNtNlPy0hIDTptMwa6JnaRaahOXlIWaxJkmdwY
+DXxQI2cJpW/OWVwXJqzDz3yFNrEf/sl0VKSKvSoYNITpufMT9uffEeY0Oy4JxL/T
+er0m/DfFKPWrCbCjIVTVv2XqIiwJ3hkaKMYzLm60zmXxB/313+IC6bDY6K+Lybt+
+e9lEqgAT2LhRQJ1dFCfikE0i6kWIFw==
+=oGMu
 -----END PGP SIGNATURE-----
 
---===============0884126529644294247==--
+--===============3558220672323507366==--
