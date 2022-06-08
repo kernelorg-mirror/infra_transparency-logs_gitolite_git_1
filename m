@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3036205215666259051=="
+Content-Type: multipart/mixed; boundary="===============5253487002953758604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 08 Jun 2022 20:45:38 -0000
-Message-Id: <165472113874.5826.2502902535965702461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 08 Jun 2022 20:45:44 -0000
+Message-Id: <165472114491.5944.5011393530326221185@gitolite.kernel.org>
 
---===============3036205215666259051==
+--===============5253487002953758604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: b09654e39c89a86680528345f3a95b832236ee82
-    new: ff87d619ac180444db297f043962a5c325ded47b
+  - ref: refs/heads/for-5.20
+    old: 9723070ecb280e3046dd32a4d11cb52a332507cc
+    new: 5dfac65b621733e69b789150a0a3f1bf2f9095a3
     log: |
-         ff87d619ac180444db297f043962a5c325ded47b ASoC: fsl_sai: Enable MCTL_MCLK_EN bit for master mode
+         5dfac65b621733e69b789150a0a3f1bf2f9095a3 spi: <linux/spi/spi.h>: Add missing documentation for struct members
          
 
---===============3036205215666259051==
+--===============5253487002953758604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1654721137 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1654721136-780e3bbbaf36c9ca5ccb20bc88bfac1dc4ab5d2f
+pusher C3F436CA30F5D8EB 1654721143 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1654721143-9ff2d04292726db6d66205e57aeefaf8ef700659
 
-b09654e39c89a86680528345f3a95b832236ee82 ff87d619ac180444db297f043962a5c325ded47b refs/heads/asoc-5.20
+9723070ecb280e3046dd32a4d11cb52a332507cc 5dfac65b621733e69b789150a0a3f1bf2f9095a3 refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKhCnEACgkQJNaLcl1U
-h9CMmgf9HSl0z3ubyZkdMiDT7/0gF1off2TqWa28F866GfdzE3VtV78wxGjackaF
-EnsR+DSIN+AH4NqTjrrejOBsEDLMVfQAGxyx5nEHV8vPibPxwnghR5N6+WzoVTpO
-PqrsoTsz8MPW7Exf/CleKaxnSBpZ8r0+gUzcZo2kUf91JvA88plPi714Zf5jznKs
-9g7cr77u4DEbh82L2r1QSo4/4Y0syH2cvQQOQlOIkMvZFMNVwFVeb+/uXawcdE7m
-mAZBIA0Rj7dTttXw37GbnxG/h21hLN1RQlmSMU4WrYz5bdSW7Q1DAPkTlC7yNl6y
-Fno8c9UiUeZPppcc/AHn2Pw/NJ79NQ==
-=bgUW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKhCncACgkQJNaLcl1U
+h9BGEQf/ddvpuP7CcR3A2mHQMHn/jqRxxehi3Cyodvp25PCAF/+GYinEowbt0SiV
+IMSzkTENP9yO5fkpToBzZOBO4hlmeFpJO40IGajIT1Ht3d1BFoE+5xqvpS/mgXm6
+lkuzfZdPd7SwErfx4CQPi6hhAth7amF+0TQ2Zo9O+EM0lBKPhd0pO9ZenQ5eblsY
+cUSHZE3veJ4+Zy4TjEkROPdISGvNo9vbdh5pQWb/nmfe31zHKXt3MlC6v48ssCFF
+r6cdD2S/NVDYcCWAvZXE6n1Bb8c1lA+IBIXRLEU2eOjpNuHIaAoPhOB0u41DO4oe
+NImJ6vbagfu5A9U70R1dTikB5JNSHQ==
+=HF6s
 -----END PGP SIGNATURE-----
 
---===============3036205215666259051==--
+--===============5253487002953758604==--
