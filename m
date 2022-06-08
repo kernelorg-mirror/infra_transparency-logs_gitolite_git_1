@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2419232651690384673=="
+Content-Type: multipart/mixed; boundary="===============6966909268739058924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 08 Jun 2022 19:59:30 -0000
-Message-Id: <165471837017.4822.2044693011677810595@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 19:59:39 -0000
+Message-Id: <165471837922.4914.1545520443703968037@gitolite.kernel.org>
 
---===============2419232651690384673==
+--===============6966909268739058924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 991d8d8142cad94f9c5c05db25e67fa83d6f772a
-    new: 9998ec17ac85308894f195c515037ede31dc823b
-    log: revlist-991d8d8142ca-9998ec17ac85.txt
+  - ref: refs/heads/perf/core
+    old: 108ea7eb3e754be735a1c33d2713a19527fb2065
+    new: 60f23618b3d8be7065527e5525f1531c3caceab5
+    log: revlist-108ea7eb3e75-60f23618b3d8.txt
 
---===============2419232651690384673==
+--===============6966909268739058924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-991d8d8142ca-9998ec17ac85.txt
+Content-Disposition: attachment; filename=revlist-108ea7eb3e75-60f23618b3d8.txt
 
+46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
 5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
 dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -142,7 +145,6 @@ e04314082c3197874f0cb3f4031219e811741a49 Merge tag 'opp-updates-5.19-rc1' of git
 20eb48885b62d5de4ab6be7e08f9f55aa33333fd x86/idt: Remove unused headers
 4fe4f1552394d41442205f9cde93af00eda59435 Documentation: admin-guide: PM: Add Out of Band mode
 1a23accae82d780b5d5de6254d32c270aeb7f664 ARM: ixp4xx: Consolidate Kconfig fixing issue
-108ea7eb3e754be735a1c33d2713a19527fb2065 perf/x86/Kconfig: Fix indentation in the Kconfig file
 86dca369075b3e310c3c0adb0f81e513c562b5e4 perf/x86/intel: Fix event constraints for ICL
 e5499dd7253c8382d03f687f19a854adcc688357 media: lirc: revert removal of unused feature flags
 caa28984163cb63ea0be4cb8dbf05defdc7303f9 linux/types.h: reinstate "__bitwise__" macro for user space use
@@ -1047,8 +1049,6 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-5a25a3f28c785089d007e67d9f405a56c3b2a77a sched/fair: Consider cpu affinity when allowing NUMA imbalance in find_idlest_group
-d9d530a99c5e0c52869ed2207430f1b9cc65219d sched/fair: optimize and simplify rq leaf_cfs_rq_list
-9998ec17ac85308894f195c515037ede31dc823b sched/deadline: Use proc_douintvec_minmax() limit minimum value
+60f23618b3d8be7065527e5525f1531c3caceab5 x86/events/intel/ds: Enable large PEBS for PERF_SAMPLE_WEIGHT_TYPE
 
---===============2419232651690384673==--
+--===============6966909268739058924==--
