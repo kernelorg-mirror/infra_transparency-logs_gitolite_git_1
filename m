@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 08 Jun 2022 04:28:34 -0000
-Message-Id: <165466251441.22585.12680758301100536716@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 04:31:19 -0000
+Message-Id: <165466267976.25032.18216174221408729202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,57 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/tags/objtool-urgent-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: 09e069333ac67b7b988ffae15808dd1cd02ec70a
-  - ref: refs/tags/perf-core-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: 299d0b8874f662459a27a6b8b3864531f5be4b64
-  - ref: refs/tags/perf-urgent-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: ecdc5d2400f9f1db7de2df4c0498569a6110ff0a
-  - ref: refs/tags/sched-urgent-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: 05535bc3217a3a1432bb3a204d5af77f20d55d87
-  - ref: refs/tags/timers-core-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: 46f50b67613bbad9f67932eafb9474e16eae7b32
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/x86-boot-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: c4e5e5704c80834c8b1c70f2a8586b676a9b4a26
-  - ref: refs/tags/x86-cleanups-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: 6a7c37afae1eea46249f15fdc8dd05215ce0e9d2
-  - ref: refs/tags/x86-microcode-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: ecb3a9661ae0e21e224b9e9b3783d2c38e930659
-  - ref: refs/tags/x86-mm-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: c2539b6219513577bc0e1a62ae5fc886915f0add
-  - ref: refs/tags/x86-urgent-2022-06-05
-    old: 0000000000000000000000000000000000000000
-    new: c2d2d491b96a8864a675437b65f1589326922cc8
-  - ref: refs/tags/x86_apic_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 13ca7a1a6ba8ef7de117d85b850874d6763bd808
-  - ref: refs/tags/x86_kdump_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: d8fab0791db498246121e8dd3c8894999ccb9a7f
-  - ref: refs/tags/x86_microcode_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: a37cdf4be7f8c3652d85f6bd9fdc51fd4874563c
-  - ref: refs/tags/x86_misc_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: e62b027a8fc9880a2432b0ffacee8cef81ea9d7a
-  - ref: refs/tags/x86_platform_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: f3a47a680cbccaa8ff3efc3613a29314395d2212
-  - ref: refs/tags/x86_splitlock_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: df44b0f151ee9cff2e1178747a37f13a88e47d24
-  - ref: refs/tags/x86_vdso_for_v5.19_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 98d1e2e17a087e34f13f0618caa85e82e6c92625
+  - ref: refs/heads/dev
+    old: 3e95d4b287b37ee5f7f82e5ebd749ab89fd706c2
+    new: 771634294326a0a64ecf1e9a9a824031cb3fb324
+    log: |
+         50653bbf151188865c7580600f19df4def3737a2 rcu-tasks: Disable and enable CPU hotplug in same function
+         771634294326a0a64ecf1e9a9a824031cb3fb324 squash! rcu-tasks: Update comments
+         
