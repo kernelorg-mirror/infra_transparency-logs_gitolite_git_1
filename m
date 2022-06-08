@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 08 Jun 2022 11:07:17 -0000
-Message-Id: <165468643754.8382.1876381335103603063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 08 Jun 2022 11:10:18 -0000
+Message-Id: <165468661819.10875.4075311965533854142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-5.19/upstream-fixes
-    old: 15b28156029465e594b462e6dad459a737028697
-    new: db925d809011c37b246434fdce71209fc2e6c0c2
+  - ref: refs/heads/master
+    old: 1b1be7ee3bc2176881b3418b46d3bfeb8cc84fc4
+    new: 0e520892dbf201f722921264fd4f2f36d68b3ade
     log: |
-         db925d809011c37b246434fdce71209fc2e6c0c2 HID: hid-input: add Surface Go battery quirk
-         
-  - ref: refs/heads/for-next
-    old: abc44fe1d31fb4e26f6a8660760a69cda011fb15
-    new: 221bd70be2e8b1becb837ce7ac5002f29b293971
-    log: |
-         db925d809011c37b246434fdce71209fc2e6c0c2 HID: hid-input: add Surface Go battery quirk
-         221bd70be2e8b1becb837ce7ac5002f29b293971 Merge branch 'for-5.19/upstream-fixes' into for-next
+         147c051d968a4d074435cfd7041c401eb2c2ab09 Input: raspberrypi-ts - add missing HAS_IOMEM dependency
+         529d35dcec5cbe8ae9332cc5f3872dccb907c364 Input: bcm5974 - set missing URB_NO_TRANSFER_DMA_MAP urb flag
+         4ce49e85c7ba178c578525340b6f663c4d6931a7 Input: soc_button_array - also add Lenovo Yoga Tablet2 1051F to dmi_use_low_level_irq
+         5b16c63f30deb0700514c85b57502f1231cacd3b KEYS: trusted: tpm2: Fix migratable logic
+         0e520892dbf201f722921264fd4f2f36d68b3ade tpm: Add upgrade/reduced mode support for TPM1.2 modules
          
