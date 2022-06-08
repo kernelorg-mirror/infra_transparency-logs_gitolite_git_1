@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1087816166359368668=="
+Content-Type: multipart/mixed; boundary="===============8131215635546749173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Wed, 08 Jun 2022 13:41:53 -0000
-Message-Id: <165469571368.15668.10036984705693860898@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 13:42:16 -0000
+Message-Id: <165469573660.15883.3171618977383257908@gitolite.kernel.org>
 
---===============1087816166359368668==
+--===============8131215635546749173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/misc
-    old: 6e661acb887b877d330a447b422fa8c006702a59
-    new: 4a09102ba67d7e6ebf2fbfdae60610ab94317b5e
-    log: revlist-6e661acb887b-4a09102ba67d.txt
+  - ref: refs/heads/kfence/dev
+    old: dea607f992201b473690ca161635bc74160a2928
+    new: a986ac74369d5ef7d3aa2b4b7bf256ed41ed1075
+    log: revlist-dea607f99220-a986ac74369d.txt
 
---===============1087816166359368668==
+--===============8131215635546749173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e661acb887b-4a09102ba67d.txt
+Content-Disposition: attachment; filename=revlist-dea607f99220-a986ac74369d.txt
 
+3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
+d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
+5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
+dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
 cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
@@ -1044,11 +1049,6 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-02fde294f51d49c097fc5be1dbd1ee82824c1778 perf: Allow restricted kernel breakpoints on user addresses
-2f02a115d7f99ece307272bf6894b0a719d599bd perf/hw_breakpoint: Optimize list of per-task breakpoints
-15da4f60212fddd2e5f04c92cddd901aecd04186 perf/hw_breakpoint: Mark data __ro_after_init
-b7cd35c99efae214a31bcd905b5157465271a27c perf/hw_breakpoint: Optimize constant number of breakpoint slots
-7fa07f6c966c5e6f42a84c60c5c2b03cb874501b perf/hw_breakpoint: Reduce contention with large number of tasks
-4a09102ba67d7e6ebf2fbfdae60610ab94317b5e perf/hw_breakpoint: Clean up headers
+a986ac74369d5ef7d3aa2b4b7bf256ed41ed1075 docs: kernel-parameters: add info about kfence.sample_interval
 
---===============1087816166359368668==--
+--===============8131215635546749173==--
