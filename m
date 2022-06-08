@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 08 Jun 2022 10:41:24 -0000
-Message-Id: <165468488406.22587.9601641619540941781@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2825233822126712441=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 08 Jun 2022 10:41:48 -0000
+Message-Id: <165468490846.22998.8283788554436426193@gitolite.kernel.org>
+
+--===============2825233822126712441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: 663ab62631c015305ffc36b9eb78aef496a54a57
-    new: 36200f25a88e3cd56a34b08fa4faf0007c3156fe
+  - ref: refs/heads/master
+    old: 67c7f862021054c9184c7ccb96d7226e87738659
+    new: 3257c0e73196adcd50d6465c6fda96b7b4c96f83
     log: |
-         6df51e126770b237d2ceacb88d2bc10b2dff5d89 platform/chrome: cros_ec_proto: return 0 on getting wake mask success
-         0bdc1b2f736c485df443efda629cdbd081b8e7e8 platform/chrome: cros_ec_proto: add Kunit test for getting wake mask
-         912dc393a5bd3d7974fdb47cdcb3d4a158545a28 platform/chrome: cros_ec_proto: handle empty payload in getting wake mask
-         fd8f08c299fb289a356cc3dc47ec57026b07dabd platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_cmd_xfer()
-         022080fc832bb39d189cdac3240bb80f3dd61112 platform/chrome: cros_ec_proto: separate _send_command()
-         d666e7ad6a4c942049b0b8d7124688bc421f11ee platform/chrome: cros_ec_proto: separate wait_until_complete()
-         36200f25a88e3cd56a34b08fa4faf0007c3156fe platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_cmd_xfer_status()
+         3257c0e73196adcd50d6465c6fda96b7b4c96f83 5.15-stable patches
          
+
+--===============2825233822126712441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654684907 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1654684907-b592bdc5235ff695a439b8c47d5ee13e2c5df456
+
+67c7f862021054c9184c7ccb96d7226e87738659 3257c0e73196adcd50d6465c6fda96b7b4c96f83 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKgfOsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tl4P/39nCq79YF6Uv777VNg+
+FoQGiyi01dYtkLZIIkY7EqVFvBuM2S8ugJFsggeQcl04dNdK6L02+BpH3bVq5IHt
+L2fvt2hEWJmTY4OQ3IODuuLOwr+wkDcRwvAZXC3q5NMQ9sZOZdlJ5gopbNAyNmzr
+0p0mg35VS2I4bVabHFd07HHUxSYx8+dp5nkIEA66f2qIYt5dqWRgeZwcRPGz4mGU
+8M2RoySjeQefGwjr+x5OXN0k7ZIoci8vvtrtzbP9k8umo+TgAm+2e7/eJRAgizjt
+0RNNM4OSL7p2anQQSobcx4Ob0bjNrqXh+ZoI/VgyXT46SJJXJKjEUEO6/WXMEuJE
+hypUQdyy01QJYnb7u8/RzenRsDGSlOEyf6qNdDn/P4kDi/eo5ggPUaIe+WnHRA/z
+0kHROxIZQ3totLTW3IcXQG1oLwlRaGfliBf4XOks9RTc5xoJlm2sPOriXG0gg0Db
+7FNLinQNR9J7hdPYtE4aBM3YkeKUzo4843K7fZs8Q4SgD/tTsruPIgUTewI+zvlC
+OvhNHYXyXUifMyYDo5tkoJAYZkSzSuuZVyzgdjE92IJ0fu76s7X5dl6yXHlBZ7yO
+B8vjXNsXWlPyXdhGuwB2X9SMaMmlErFVqe/32+gFWQMZJRONoLQ7tISHd1Keo1yk
+XrqrBfodk6fSYFcy2zDdVa5y
+=8xag
+-----END PGP SIGNATURE-----
+
+--===============2825233822126712441==--
