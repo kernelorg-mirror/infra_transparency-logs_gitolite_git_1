@@ -1,31 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============7362885303371674923=="
+Content-Type: multipart/mixed; boundary="===============7533313563757498433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 08 Jun 2022 22:01:29 -0000
-Message-Id: <165472568902.22791.2356887690191818350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 08 Jun 2022 22:01:30 -0000
+Message-Id: <165472569088.22847.379300538935310155@gitolite.kernel.org>
 
---===============7362885303371674923==
+--===============7533313563757498433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/md-next
-    old: 92a045f71a3c6767a7f30c0d80d2e4f6d5d49d77
-    new: facef3b96c5b9565fa0416d7701ef990ef96e5a6
-    log: revlist-92a045f71a3c-facef3b96c5b.txt
+  - ref: refs/heads/for-linux-next
+    old: 4b0986a3613c92f4ec1bdc7f60ec66fea135991f
+    new: 9cbe729756e45788b61776eda2cd43efcd1d8ed5
+    log: revlist-4b0986a3613c-9cbe729756e4.txt
 
---===============7362885303371674923==
+--===============7533313563757498433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a045f71a3c-facef3b96c5b.txt
+Content-Disposition: attachment; filename=revlist-4b0986a3613c-9cbe729756e4.txt
 
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
+cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
+7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d335371940179318df97d66baef13987ee6e796b Merge tag 'mtd/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+a6e25b39adc3f68b9bc46f8e100345ee9bf62f8c dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
+a935601eed18d739c11da5504b551c7c4754f2ec PCI: qcom: Add SM8150 SoC support
+fdf6a2f533115ec5d4d9629178f8196331f1ac50 PCI: qcom: Fix pipe clock imbalance
+87d83b96c8d6c6c2d2096bd0bdba73bcf42b8ef0 PCI: qcom: Fix runtime PM imbalance on probe errors
+83013631f0f9961416abd812e228c8efbc2f6069 PCI: qcom: Fix unbalanced PHY init on probe errors
+075a9d55932edc8bddf85c6f8c0764928691cde4 dt-bindings: PCI: qcom: Convert to YAML
+6700a9b00f0aad206903b6ff216db56faf964654 dt-bindings: PCI: qcom: Do not require resets on msm8996 platforms
+c6523c4a301d3adff7ddcf57515b9c847beb7566 dt-bindings: PCI: qcom: Specify reg-names explicitly
+3f467d122f27f3a0be7fa7f2f60c7dd9475c4a81 dt-bindings: PCI: qcom: Add schema for sc7280 chipset
+ae0d0d18a8056b59a84384d617eeca3e6c43ccc4 Merge branch 'pci/aspm'
+55fd033bae79a2d51a1804f10dc54b1182a8aa32 Merge branch 'pci/error'
+85ae3970a0e393cbb07ec30ac99d82cfd6c3f922 Merge branch 'pci/hotplug'
+e840e475397ed81f3885af563b1a725debf2a3ac Merge branch 'pci/misc'
+4f5bc91ce1be9c0b5ad99cf2d3b97f8d28ac13e7 Merge branch 'pci/p2pdma'
+6b5e9bdce6cf6e2e88b50e85aec0a2193dc69890 Merge branch 'pci/pm'
+f1bde2786d8e1218e40b47788f3a4929c2a3ece0 Merge branch 'pci/resource'
+8d8b2669f98e8276ce0c26f5d9562a8ace2f9744 Merge branch 'pci/virtualization'
+086ab94321f48b4b7d37d12c78e6e1274f082eb7 Merge branch 'remotes/lorenzo/pci/cadence'
+39348d2eb2f5b4ffe47b708240ed243d05c563c4 Merge branch 'remotes/lorenzo/pci/dwc'
+b8dc34460ceca2e09edd9a1cfde3ba5fac5ebdac Merge branch 'remotes/lorenzo/pci/imx6'
+8d8270069cfb3118076f9a49e60bed4daff29558 Merge branch 'remotes/lorenzo/pci/layerscape'
+979db15b4a7124a8a2c5198426d5aa9176b1fdc6 Merge branch 'remotes/lorenzo/pci/mediatek'
+5ae34e8f9e9aaf11baff6ef828109fea214f0ad7 Merge branch 'remotes/lorenzo/pci/microchip'
+b0266c42894a1c706d9bb760a36335b29cae7f20 Merge branch 'remotes/lorenzo/pci/power-slot'
+ba3527d8ff7f60b04c7b1495d4bd98edd8ecc3fa Merge branch 'pci/host/qcom'
+647b52ecabb47ad72741861b604a18e38f156d0a Merge branch 'remotes/lorenzo/pci/rockchip'
+efa315818337ce00d7452546e4966e2692acd9d9 Merge branch 'remotes/lorenzo/pci/versatile'
+32f479d05a445b52cb7fcbe6e06f579fb852be71 Merge branch 'remotes/lorenzo/pci/vmd'
+b1b5bf1640165063fd9b7c6aeb5c7d63c4cb3c1d Merge tag 'for-linus-4.19-1' of https://github.com/cminyard/linux-ipmi
+638971b77f1c4fb9997c674ad66d1b96f7931c2b Merge tag 'mmc-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+5d23bb5f25ed9cbf530b99640f4f17f59b79de9e Merge tag 'regmap-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+9b18d07ba3ae75fcb7a191fafe4e2954f07271be Merge tag 'regulator-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+d8e0f976f104a0258c0426b3805b057411cd0bd2 Merge tag 'spi-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+aa051d36ce4ae23b488489f6b15abad68b59ca23 Merge tag 'for-linus-2022052401' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+1961b06c9126e5b2b949fab806c4e4304d1eae8b Merge tag 'acpi-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+09583dfed2cb9723da31601cb7080490c2e2e2d7 Merge tag 'pm-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+64d69b5daf6fe9b86236d34e57ba8ebf7d84f245 rtc: rzn1: Avoid mixing variables
+f4fb8596657c998ca4cdb833bc0f509533a38ddd Merge tag 'thermal-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+0b6da785130d9e8cf33d001a7bf08a979c87d019 rtc: rzn1: Fix error code in probe
+3f3489248927a53fcfec571ff603163f6b676a46 rtc: rzn1: Fix a variable type
+268db333b561c77dee3feb6831806412293b4a7e Merge tag 'devprop-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+f83050a82d4f0b1cbf48ed458752bb913633d7ee RISC-V: Avoid empty create_*_mapping definitions
+1ae41598f482616449f869daf53eebe37973dc27 RISC-V: ignore xipImage
+827060261cf3c7b79ee7185d5aa61c851beb9403 Merge tag 'media/v5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+f30fabe78acb31cd309f2fdfdb0be54df4cad68f Merge tag 'fs.idmapped.v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+850f6033cd2bf3b1fcbf9a20d078edab7e7c67b4 Merge tag 'exfat-for-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 65965d9530b0c320759cd18a9a5975fb2e098462 Merge tag 'erofs-for-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 3842007b1a33589d57f67eac479b132b77767514 Merge tag 'zonefs-5.19-rc1-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 bd1b7c1384ec15294ee45bf3add7b7036e146dad Merge tag 'for-5.19-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -375,6 +429,7 @@ a6a5eb269f6f3a2fe392f725a8d9052190c731e2 x86/cpu: Elide KCSAN for cpu_has() and 
 79dfeb2916d7deb7ed11e2fb782d109d445a0cd4 net: lan743x: PCI11010 / PCI11414 fix
 2c262b21de6dc93ac4d8c7a4cea0da4226b451fb net: usb: qmi_wwan: add Telit 0x1250 composition
 dcf280e6f80be280ca7dd1b058f038654e4a18dd powerpc/64: Include cache.h directly in paca.h
+b9684a71fca793213378dd410cd11675d973eaa1 block, loop: support partitions without scanning
 3e11194631275937bc40da49b98aa1a74dd1ee67 Merge branch 'hpe/gxp-soc' into arm/late
 8a7322a3a05f75e8a4902bdf8129aecd37d54fe9 ep93xx: clock: Do not return the address of the freed memory
 fd82d925f206c5f4db72b1d2da62a2f8086096c5 Merge tag 'at91-soc-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/late
@@ -395,6 +450,8 @@ d09e9a2bddba6c48e0fddb16c4383172ac593251 ubi: fastmap: Fix high cpu usage of ubi
 15dad62f4bdb5dc0f0efde8181d680db9963544c ALSA: hda/realtek: Enable 4-speaker output for Dell XPS 15 9520 laptop
 4dd99891649ea5248e6a60113df0e0d04967eef7 ALSA: hda/via: Delete does not require return
 59ed76fe2f981bccde37bdddb465f260a96a2404 selftests/bpf: fix stacktrace_build_id with missing kprobe/urandom_read
+7d6b902ea0e02b2a25c480edf471cbaa4ebe6b3c bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
+40f567bbb3b0639d2ec7d1c6ad4b1b018f80cf19 md: bcache: check the return value of kzalloc() in detached_dev_do_request()
 48381273f8734d28ef56a5bdf1966dd8530111bc hugetlb: fix huge_pmd_unshare address update
 c572e4888ad1be123c1516ec577ad30a700bbec4 mm/page_alloc: always attempt to allocate at least one page during bulk allocation
 3e35142ef99fe6b4fe5d834ad43ee13cca10a2dc kexec_file: drop weak attribute from arch_kexec_apply_relocations[_add]
@@ -469,6 +526,12 @@ a9f94826e4bb6402e67f3eb849dee0811f1de6da Merge tag 'clang-format-for-linus-v5.19
 621433b7e25d6d42e5f75bd8c4a62d6c7251511b ksmbd: smbd: relax the count of sges required
 403d50341cce6b5481a92eb481e6df60b1f49b55 block: take destination bvec offsets into account in bio_copy_data_iter
 98d40e76652e9aeb3aec4065f600d633ed335e94 block: document BLK_STS_AGAIN usage
+06c4da89c24e7023ea448cadf8e9daf06a0aae6e nbd: call genl_unregister_family() first in nbd_cleanup()
+c55b2b983b0fa012942c3eb16384b2b722caa810 nbd: fix race between nbd_alloc_config() and module removal
+2895f1831e911ca87d4efdf43e35eb72a0c7e66e nbd: don't clear 'NBD_CMD_INFLIGHT' flag if request is not completed
+09dadb5985023e27d4740ebd17e6fea4640110e5 nbd: fix io hung while disconnecting device
+858f1bf65d3d9c00b5e2d8ca87dc79ed88267c98 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
+1243172d5894e2d8f277ee3c278180792de5c521 nbd: use pr_err to output error message
 9d004b2f4fea97cde123e7f1939b80e77bf2e695 Merge tag 'cxl-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 0a19bab54ef44348aa5edfc2b8ff47f63a45ae15 MAINTAINERS: Update Xen maintainership
 2ef4bb24ff39ae4af89b80bcc5d516f55368e8ae pcmcia: Use platform_get_irq() to get the interrupt
@@ -482,6 +545,7 @@ ebd076bf7d5deef488ec7ebc3fdbf781eafae269 block: use bio_queue_enter instead of b
 ae948fd6d02930a7e8e7c492d9627dfef18e7d7f blk-mq: remove __blk_execute_rq_nowait
 32ac5a9b8bc511edcd81f03c3e21753789475709 blk-mq: avoid a mess of casts for blk_end_sync_rq
 e2e530867245d051dc7800b0d07193b3e581f5b9 blk-mq: remove the done argument to blk_execute_rq_nowait
+a1a2d8f0162b27e85e7ce0ae6a35c96a490e0559 bcache: avoid unnecessary soft lockup in kworker update_writeback_rate()
 b39181f7c6907dc66ff937b74758671fa6ba430c ftrace: Add FTRACE_MCOUNT_MAX_OFFSET to avoid adding weak function
 911799172d2f703cc14e9000c55d124d5e0a91a2 net: nfc: Directly use ida_alloc()/free()
 5e1eeef69c0fef6249b794bda5d68f95a65d062f bonding: NS target should accept link local address
@@ -980,75 +1044,11 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-3be48103983f61ab66e18736210718b07e1ebe97 io_uring: define a 'prep' and 'issue' handler for each opcode
-9ec0b7eccb47f278ef21814bc3447710c80c85d5 io_uring: move to separate directory
-fcf81e8309d982b50aadc4211c625fa213b4d322 io_uring: move req async preparation into opcode handler
-5a6c8538762a3ba19864efecfe15dcc8558be32a io_uring: add generic command payload type to struct io_kiocb
-71f0d489b99e044aad4d08247439f95cf52c6a16 io_uring: convert read/write path to use io_cmd_type
-d3e6ac900b122215609b7b3f75a1e2ba6b425d86 io_uring: convert poll path to use io_cmd_type
-92fdad578b10fdd225e9d6d6bd36f6ba8b9e9f44 io_uring: convert poll_update path to use io_cmd_type
-f50e23cc87caced806511cc5bb3268ffc82b69be io_uring: remove recvmsg knowledge from io_arm_poll_handler()
-d91d695709e926bcceb98f194a08ddbd25e07a29 io_uring: convert net related opcodes to use io_cmd_type
-cf161bcd6f50f0de8700fbf281aa60834cccedf1 io_uring: convert the sync and fallocate paths to use io_cmd_type
-e2f3fe9e2a3ee6fb15b048a8a43a07c575b0bcf3 io_uring: convert cancel path to use io_cmd_type
-885d7705ee1262035a06c56accde3a557a641cf1 io_uring: convert timeout path to use io_cmd_type
-d7de394f2095bc606ce9e7c43ddecc0602186fe6 io_uring: convert open/close path to use io_cmd_type
-5cfdb0591fa4cf8f89368456caa85fd864a618ad io_uring: convert madvise/fadvise to use io_cmd_type
-3918ac9bb4d13a32864622491d26dd673e86e662 io_uring: convert file system request types to use io_cmd_type
-950be9f5ee4a22a1df26696ba06e18f673886468 io_uring: convert epoll to io_cmd_type
-4473baab6813208e2140fa7392d0136d4f4ee0f8 io_uring: convert splice to use io_cmd_type
-40f68f5157c7175988bc6826a8b4d0198fb4b54a io_uring: convert msg and nop to io_cmd_type
-aa4a772e198d9c59650613c92f4d2df5f546f33e io_uring: convert rsrc_update to io_cmd_type
-a1fb3adc1ed37be6d2462ed2e5a37a57c0b6725c io_uring: convert xattr to use io_cmd_type
-694da8da69f8867c51e4900c8b4094b59787cfdb io_uring: convert iouring_cmd to io_cmd_type
-b02ebfca0a7b5916ef991c4597c4677b39ea8016 io_uring: unify struct io_symlink and io_hardlink
-982b2c08672544448cb2437ff9bd6eabb609e3c7 io_uring: define a request type cleanup handler
-f8dc595a7fa506baf2c0c9eb26d1092cc6b8d56c io_uring: add io_uring_types.h
-923927dd4116e3b567068e7880ff3e66b8ed1c40 io_uring: set completion result upfront for CQE32 completions
-4c6cb124ae06bbf156eedafe4e0a977c4dd5e4f5 io_uring: handle completions in the core
-0177a4bcbe909cfcbbd3acb06b7b03ab2b5fceb5 io_uring: move xattr related opcodes to its own file
-270ec5cbf2877c37c1f8afd6926743a7fd422e4a io_uring: move nop into its own file
-66ebcd584e5f7241a460f8a11f0654630db966b4 io_uring: split out filesystem related operations
-91963c665f4031098f343c43813a16f106c34811 io_uring: split out splice related operations
-8d6bffa3b5f5d7312b95cf090721ec09c302019e io_uring: split out fs related sync/fallocate functions
-dc57560ed2028121e42f65990d4a54f678e68253 io_uring: split out fadvise/madvise operations
-c4b2af3e492367db78afec262ea1dea47fb27baa io_uring: separate out file table handling code
-b66663fd8aff46c4859ae458bd5106fa5df9a553 io_uring: split out open/close operations
-094e63a8ffee705fab68bb3f942bf5bf782c693d io_uring: move uring_cmd handling to its own file
-bf5a6fc941e4a12418cbad8ccc1d54560d0035c8 io_uring: add a dummy -EOPNOTSUPP prep handler
-7c3fcf6878215c228ab70ec664c7a4d19508d7cc io_uring: move epoll handler to its own file
-ce2171d95d9bbdf31023b85b6874fc99c419ae48 io_uring: move statx handling to its own file
-e5e5683f40edbe8179efa274ff022ac133c35608 io_uring: split network related opcodes into its own file
-6c8367d30638ee38fe5c40a7751258d85450ca85 io_uring: move msg_ring into its own file
-81e1bd227569c1933bbe8e9c2aa45f949fb7aa46 io_uring: move our reference counting into a header
-502e24b1dfdc1c92f406afd5903819cf8ed6c1f4 io_uring: move timeout opcodes and handling into its own file
-b28a9b6d3a24ef3b6a3a2593aa23d6113b0ab6ee io_uring: move SQPOLL related handling into its own file
-7ca39a8dd627744286b83e8f98cd89e2827a2497 io_uring: use io_is_uring_fops() consistently
-e0bca3a200fa6cbbab3d84c4f4c440bb26cc4f99 io_uring: move fdinfo helpers to its own file
-35e009f7271a3682d0ab3b82ab8fca501496a443 io_uring: move io_uring_task (tctx) helpers into its own file
-c69b2c9ecf94fcbe07b2c04825302be2bbc31f7c io_uring: include and forward-declaration sanitation
-c98dd0d5bda77810043a06215940fae4c5ac50cf io_uring: add opcode name to io_op_defs
-790f11fa084971da56e7236817d7abbec19baa0f io_uring: move poll handling into its own file
-9ac53a2e3ae9a4c923c66b5a2805e1ed560d609a io_uring: move cancelation into its own file
-8bde36498a463f1ea1c162b5d103de1c2148d2ff io_uring: split provided buffers handling into its own file
-cb691335b848de7000671cd294b4321324dce6b0 io_uring: move rsrc related data, core, and commands
-0514f5e6bea2159c301c00bd4f7ddd99fba76a28 io_uring: move remaining file table manipulation to filetable.c
-5a595e92b633708bcf02679099cd125ec5aed6a4 io_uring: move read/write related opcodes to its own file
-85c4a898bdf1bb85bd082557326287ca240efe64 io_uring: move io_op_defs[] back to the top of the file
-13e54e554a9502adaf68ff8af79f1d5cd7a93769 io_uring: add support for level triggered poll
-d8271bf021438f468dab3cd84fe5279b5bbcead8 io_uring: deprecate epoll_ctl support
-41b085c991ed884a462c7616c21478c8de40fb98 md: Explicitly create command-line configured devices
-238b66334c56bfb52df78af919b69eb26b540ac4 MAINTAINERS: add patchwork link to linux-raid project
-2f37ac322c33e314b9af12de5c8183cbcb7df250 md/raid5-ppl: Fix argument order in bio_alloc_bioset()
-54d0264ecbc27601581d5d236eac48246a8e3032 md/raid5-log: Drop extern decorators for function prototypes
-f7733566be35c8e14e31e843971e92dae7b1895f md/raid5-ppl: Drop unused argument from ppl_handle_flush_request()
-ac1506992459fe45a085c1f93df74d51c381887b md/raid5: suspend the array for calls to log_exit()
-065c51c15e92273172c464a8d10511680215f9db md/raid5-cache: Take mddev_lock in r5c_journal_mode_show()
-d876596b439e7cf83f7e9daa22a1fb6c8c00a7e7 md/raid5-cache: Drop RCU usage of conf->log
-1cc4b3ae371dd0d9ab1d104ab2df0214b1685495 md/raid5-cache: Clear conf->log after finishing work
-20050690acd8c2151122ac5aceb781ad7ae5e283 md/raid5-cache: Annotate pslot with __rcu notation
-c7f1766b18024efe875b4850502ba255641ee4c4 md: Use enum for overloaded magic numbers used by mddev->curr_resync
-28df0de6879f2732c405aa3f6575e9c4c3acc5e2 md: Ensure resync is reported after it starts
-facef3b96c5b9565fa0416d7701ef990ef96e5a6 md: Notify sysfs sync_completed in md_reap_sync_thread()
+122839b58a089ff7f231759e2c8f63790724cae2 firmware: arm_scmi: Relax base protocol sanity checks on the protocol list
+d0c94bef70e71e364c0a016b0e92307cd4d1d719 firmware: arm_scmi: Remove all the unused local variables
+78a4242ebfb5bad7ca002056ea8e4e7fef6c423d firmware: arm_scmi: Review BASE protocol string-buffers sizes
+883e1b7818348151e161622636dfa83ae913b4b9 firmware: arm_scmi: Fix SENSOR_AXIS_NAME_GET behaviour when unsupported
+0684269ee43139f9caed500566dc60d86cc38c47 firmware: arm_scmi: Use preferred strscpy to handle strings
+9cbe729756e45788b61776eda2cd43efcd1d8ed5 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============7362885303371674923==--
+--===============7533313563757498433==--
