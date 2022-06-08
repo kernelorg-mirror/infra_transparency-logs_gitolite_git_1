@@ -1,63 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============4380292734231228617=="
+Content-Type: multipart/mixed; boundary="===============1134957581569695729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 08 Jun 2022 10:48:31 -0000
-Message-Id: <165468531103.28344.9552117296319653852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 08 Jun 2022 10:48:44 -0000
+Message-Id: <165468532437.28496.6207826073391433945@gitolite.kernel.org>
 
---===============4380292734231228617==
+--===============1134957581569695729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.19
-    old: 28cbc2d4c54c09a427b18a1604740efb6b2cc2d6
-    new: 122e951eb8045338089b086c8bd9b0b9afb04a92
-    log: revlist-28cbc2d4c54c-122e951eb804.txt
-  - ref: refs/heads/regulator-5.20
-    old: a8280a5dd5a425bd33d858ac787defdbad47362d
-    new: f210f387c8c05ae0bd5312b8b6b85398c20b94f9
-    log: |
-         f210f387c8c05ae0bd5312b8b6b85398c20b94f9 regulator: qcom_smd: add get_voltage to MP5496
-         
+  - ref: refs/heads/for-linus
+    old: 4ba2b795322f8320168de9495e5817240b8cc4fc
+    new: e193cd07529de4f3d2164db61f9dfbdf2ffe05d5
+    log: revlist-4ba2b795322f-e193cd07529d.txt
+  - ref: refs/heads/for-next
+    old: f2527c0fa253eb3e9c93c9a17a0e89739a2a6a54
+    new: c0fb1872d1de5c72825a97ae0a72c552bff14f94
+    log: revlist-f2527c0fa253-c0fb1872d1de.txt
 
---===============4380292734231228617==
+--===============1134957581569695729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4ba2b795322f-e193cd07529d.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1654685309 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1654685308-5b1c0dc385eab4415a855161031e1ca783eb83cb
-
-28cbc2d4c54c09a427b18a1604740efb6b2cc2d6 122e951eb8045338089b086c8bd9b0b9afb04a92 refs/heads/regulator-5.19
-a8280a5dd5a425bd33d858ac787defdbad47362d f210f387c8c05ae0bd5312b8b6b85398c20b94f9 refs/heads/regulator-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKgfn0ACgkQJNaLcl1U
-h9DOEQf/eQCH4My4I0erHD3myLZhOpel4rksCJbf2i531Mwsot3bX1nv5JikpDOR
-cAtPrerpujeRCuKLDzvmnR5J/TrXYkayaSpivcuuT5JeBXnGXMjaCxFY2IMLBCwa
-chUu4gp3douJO4j7MRBwiZUR+Rc+iNVPZ1tXj1DytQXkRdi6Kid4P4CV4vGh4Ovh
-w1/xI5RyqXu3G17LbJMH0HAF9GIMxauq5CBxsteMUmJf6mGllKGr9J1BM7RFYduR
-PcYGdcNHKfpRDNuFdoSXzVcKkt6lfFnFEn5C7eu3nrUV0rWkTLcfAXm1X7KtK8Ey
-PASsHodApUsmqJRhtl6e39yO9e2xBw==
-=k6rM
------END PGP SIGNATURE-----
-
---===============4380292734231228617==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28cbc2d4c54c-122e951eb804.txt
-
+d87c48ce4d8951f46d21f17ea86bba8853049862 cifs: cache the dirents for entries in a cached directory
+c878bea3c9d724ddfa05a813f30de3d25a0ba83f ext4: filter out EXT4_FC_REPLAY from on-disk superblock field s_state
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -265,7 +239,6 @@ ed6cd6a17896561b9f51ab4c0d9bbb29e762b597 net, neigh: Set lower cap for neigh_man
 86c8fb4d228ed8dbe17b1abd664888bc7ee0052a scsi: storvsc: Removing Pre Win8 related logic
 d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and balloon_remove() error handling
 50e35bd57c02a584442c0aa917787c858eabe80b video: fbdev: radeon: Fix spelling typo in comment
-5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
 61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
 ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
 9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
@@ -630,9 +603,6 @@ da4363457f777906d49d765398f5227657c82ef9 cpufreq: CPPC: Fix unused-function warn
 22ffff6d21ebfcd6e722af5f6954ab97c726c3c8 Merge branch 'pm-opp'
 1cdc5ba06dcea1f1008c497fca34c42be9bc6a1d Merge branch 'pm-docs'
 9f9c1f6844bdacb4a011cc69e19b929997038f4f Merge branch 'pm-sysoff'
-d6f8168e4345cb00156743c19dc1a409126936e1 ASoC: Intel: avs: Fix build error on arc, m68k and sparc
-06f5882122e3faa183d76c4ec2c92f4c38e2c7bb ASoC: da7219: Fix pole orientation detection on certain headsets
-2d969e8f35b1849a43156029a7a6e2943b89d0c0 ASoC: da7219: cancel AAD related work earlier for jack removal
 72acadfeb378915a3c4990f4252ab33ce8225491 parisc: Drop __ARCH_WANT_OLD_READDIR and __ARCH_WANT_SYS_OLDUMOUNT
 a9face899413f468460219c79503c091c4d362cb usb: typec: ucsi: acpi: fix a NULL vs IS_ERR() check in probe
 15f4bb9aac620f7ca1e50c859731e7d990f807ed Merge branches 'acpi-glue', 'acpi-osl', 'acpi-processor' and 'acpi-cppc'
@@ -656,7 +626,6 @@ cbf84dbf0600b0efe1134cc3f98ae29c523a3a23 nvmet: fix typo in comment
 a77a94f86273ce42a39cb479217dd8d68acfe0ff x86/microcode: Default-disable late loading
 d23d33ea0fcdc4bbb484990bf53867f99c63ccab x86/microcode: Taint and warn on late loading
 0c0fe08c76485fe0178ebb0fa1a2052c727abe94 x86/microcode: Remove unnecessary perf callback
-ab0925ab728163b854ea17da09e299254a86076e ASoC: da7219: Small fixes for jack detection and removal
 fcde59feb1affb6d56aecadc3868df4631480da5 io_uring: add io_op_defs 'def' pointer in req init and issue
 4a1f14df55d1e9ecdfa797a87a80131207cbd66f bonding: show NS IPv6 targets in proc master info
 157dc813b47ab2adb4bc8a08491887bc161284c2 io_uring: unify calling convention for async prep handling
@@ -805,6 +774,7 @@ d144182ed19af0bed4e4a73b51c7af9caccf6fa2 s390/uaccess: whitespace cleanup
 f037acb41dc9fc0f00521685b3250226d6f9b437 s390/stack: merge empty stack frame slots
 e0ffcf3fe18e0310221461c08969edec2cc7628c s390/stack: add union to reflect kvm stack slot usages
 724bbe49c5e427cb077357d72d240a649f2e4054 fs/ntfs3: provide block_invalidate_folio to fix memory leak
+28cbc2d4c54c09a427b18a1604740efb6b2cc2d6 regulator: mt6315-regulator: fix invalid allowed mode
 e6652a8ef3e64d953168a95878fe29b934ad78ac net: ping6: Fix ping -6 with interface name
 86360030cc5117596626bef1d937277cd2bebe05 net/sched: act_api: fix error code in tcf_ct_flow_table_fill_tuple_ipv6()
 ca209f8b5f61b74782dd4275ebc7173d92cb4905 efi: x86: Fix config name for setting the NX-compatibility flag in the PE header
@@ -1081,6 +1051,49 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-122e951eb8045338089b086c8bd9b0b9afb04a92 regulator: qcom_smd: correct MP5496 ranges
+073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
+5871321fb4558c55bf9567052b618ff0be6b975e ASoC: ops: Fix off by one in range control validation
+e193cd07529de4f3d2164db61f9dfbdf2ffe05d5 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
 
---===============4380292734231228617==--
+--===============1134957581569695729==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f2527c0fa253-c0fb1872d1de.txt
+
+3929ead38d61abe6c5302adce1d490f5c041d4b3 ASoC: nau8822: Add operation for internal PLL off and on
+dd58365d43efccd87dbfc8f93eb3e61b9b4d64f8 ASoC: qcom: lpass-platform: Update VMA access permissions in mmap callback
+33dbf3fc6942b53920296395bb4c81fb3cc5ebfd ASoC: Intel: cirrus-common: fix incorrect channel mapping
+07c2307ce8b420e351e0635c690397ad7a9fab77 ASoC: cs42l52: Fix TLV scales for mixer controls
+e9dad4de223ee5a4bd5e8b11931a2af8558da0bc ASoC: cs35l36: Update digital volume TLV
+5a7f6cdd402e3da891d2768f1da1f3ea1664a2a2 ASoC: cs53l30: Correct number of volume levels on SX controls
+cd6c0895b9d30b47d22293b9cddab3a8366e4a76 ASoC: cs42l52: Correct TLV for Bypass Volume
+0c9495ee315e13cce3e3eb588efdcb107b566aab ASoC: cs42l56: Correct typo in minimum level for SX volume controls
+513abe2460de2feaa56a66270efda5fa7a788459 ASoC: cs42l51: Correct minimum value for SX volume control
+eff8f2aeaf0c1b529d918c9f9569577dff600dc5 ASoC: cx2072x: Use modern ASoC DAI format terminology
+573a9a37b6fcef6dc3977ca11a671f82b1c1b606 ASoC: max98090: Use modern ASoC DAI format terminology
+cd0df1706d181bf103d0f02e6c008c2386772eb1 ASoC: rk3328: Use modern ASoC DAI format terminology
+ef08b481ae78eb89672bdf67ed306a43065253b3 ASoC: sta32x: Use modern ASoC DAI format terminology
+def5b3774a48ed06e69b56af8317cb563bbd9ceb ASoC: sta350: Use modern ASoC DAI format terminology
+d7e98b570e801375130ed4796bcbb35a39669d44 ASoC: sti-sas: Use modern ASoC DAI format terminology
+6b486af2ab946cbcad5c95f8daa1f4a8a53f25c5 ASoC: tas2552: Use modern ASoC DAI format terminology
+f8a4018c826fde6137425bbdbe524d5973feb173 ASoC: tas2770: Use modern ASoC DAI format terminology
+7c5c399fb97e3f7a88d1b154f610cab4d9253955 ASoC: tas5086: Use modern ASoC DAI format terminology
+9f6654c3162a4e64265c62bea433550fce4beffd ASoC: tas5720: Use modern ASoC DAI format terminology
+f025fcc466cc03fa4f5ae245b6848629b846edff ASoC: tas6424: Use modern ASoC DAI format terminology
+5fc4ed4bda465fb826bea7c6a7b15657154787ce ASoC: uda1334: Use modern ASoC DAI format terminology
+ad60ff09801fa1841dcdcf1f6ad1fa0e09ad0693 ASoC: tlv320adc3xxx: Use modern ASoC DAI format terminology
+10649fa392c9abb6e9b258f7af9577596339fbe2 ASoC: tlv320adcx140: Use modern ASoC DAI format terminology
+b9ff35c7afc6ae1bddca3f84fb23a3d903a62a23 ASoC: tlv320aic23: Use modern ASoC DAI format terminology
+8d322f170b09989f47614c1a663371647f03176f ASoC: tlv320aic26: Use modern ASoC DAI format terminology
+2fd8298aed2228b8c6b94edf820121da25b3f5e2 ASoC: tlv320aic31xx: Use modern ASoC DAI format terminology
+0cc5a137f7a3ba6fec069d8d222020f0927a18ef ASoC: tlv320aic32x4: Use modern ASoC DAI format terminology
+83a5f86903fbaf9c47c13975eb6f2fbd16d7f865 ASoC: tlv320aic33: Use modern ASoC DAI format terminology
+894bf75bb1f6c274cdd877879d9215abd6ed4b1b ASoC: tlv320dac3x: Use modern ASoC DAI format terminology
+073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
+5871321fb4558c55bf9567052b618ff0be6b975e ASoC: ops: Fix off by one in range control validation
+e288179dd09a0980c0bce20d5017e0dba95b4407 ASoC: DAI clocking terminology modernisation
+e193cd07529de4f3d2164db61f9dfbdf2ffe05d5 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+c0fb1872d1de5c72825a97ae0a72c552bff14f94 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
+
+--===============1134957581569695729==--
