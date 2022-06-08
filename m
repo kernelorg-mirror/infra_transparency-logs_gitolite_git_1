@@ -1,45 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7897654412374002438=="
+Content-Type: multipart/mixed; boundary="===============7276054537958105874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 08 Jun 2022 01:31:59 -0000
-Message-Id: <165465191991.3276.546442592364555211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 08 Jun 2022 02:22:55 -0000
+Message-Id: <165465497585.3935.11004471766806006583@gitolite.kernel.org>
 
---===============7897654412374002438==
+--===============7276054537958105874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-312310928417-f2906aa86338.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 9cc1638460da3b26a59ef8621c298394a079a51e
+    new: 8580bd8488196b002b5beb51d6659a05b1f547c2
+    log: revlist-9cc1638460da-8580bd848819.txt
 
---===============7897654412374002438==
+--===============7276054537958105874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-f2906aa86338.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
-3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
-d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
-5f41fdaea63ddf96d921ab36b2af4a90ccdb5744 ext4: only allow test_dummy_encryption when supported
-dc8af1ffd657c90733088e0093c7990305b2b4e9 Merge tag 'seccomp-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
-cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
-7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-d335371940179318df97d66baef13987ee6e796b Merge tag 'mtd/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+certificate version 0.1
+pusher 75C5DE3D 1654654961 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1654654960-b7c152733c6482b8e597f5b7b17951f932d93f93
+
+9cc1638460da3b26a59ef8621c298394a079a51e 8580bd8488196b002b5beb51d6659a05b1f547c2 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKgB/EACgkQ7ulgGnXF
+3j2r4BAAhJuz2O+qLoNRPqKrwaNq8akDgyJpd3x93q8iRnOeTWKUSolZImQlEubX
+zv0H2cCIOZQaPqsQhUblDKBAvJ8cRYiCjwFuN3vZxGcKs9o7Qssmw9Xx9v2HR0BH
+e9isgiR8znSmhuqGiq/tADJkPw5dsgDUH2CZRgpLYctnlzSv+sBU2pYJhWPkHqs4
+h62iwRcdkz6OPR5gezH8xBSE+fMlPy2RB+CPQ95MGfMmbEURGZsvM4Nsn04RD5gs
+Di1R8VJjoke/nHUF7DPkO1dnMqINw5TYFdEFZiEwdJMz+2b2BhhsNy/dlwqfAUCu
+8lApn61lbGX1iqLn75tLQJct66EbFzRVl5RrjBzNAAY39u/+/4gv/7IwPCKaDIVO
+1iXvKQlWisI0/kty1YL1lt1zDM21W/r5C7pZEwMp+j118SI6kDKAMAuaWuUMToti
+s7Dn2AI+hMSqFoIX8VBPJYbAEBMzJFo4MH/XFp3Q1XtzANlnS8TfrMQGToa0bPE7
+dcQqv3WRUdQeEtDgyWCiLzmPsC9+XUpnNDAHaIchaSlAdRKRrxtdlgpD8XO5S3yx
+tH5o+1j+BSkjz0d4iVHiqeDv1T/rPmC4G6aVP/G8nZnl5RMxRi24wSar4PPX47qE
+DEGv91FsvkFIaNgpE8RvsCgVG3Qm/UsIXxHO8KEwrcREPFgmY8k=
+=/046
+-----END PGP SIGNATURE-----
+
+--===============7276054537958105874==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9cc1638460da-8580bd848819.txt
+
 a6e25b39adc3f68b9bc46f8e100345ee9bf62f8c dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
 a935601eed18d739c11da5504b551c7c4754f2ec PCI: qcom: Add SM8150 SoC support
 fdf6a2f533115ec5d4d9629178f8196331f1ac50 PCI: qcom: Fix pipe clock imbalance
@@ -1050,5 +1066,19 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
+f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
+cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
+44ba9786b67345dc4e5eabe537c9ef2bfd889888 scsi: lpfc: Correct BDE type for XMIT_SEQ64_WQE in lpfc_ct_reject_event()
+24e1f056677eefe834d5dcf61905cce857ca4b19 scsi: lpfc: Resolve some cleanup issues following abort path refactoring
+e27f05147bff21408c1b8410ad8e90cd286e7952 scsi: lpfc: Resolve some cleanup issues following SLI path refactoring
+6f808bd78e8296b4ded813b7182988d57e1f6176 scsi: lpfc: Address NULL pointer dereference after starget_to_rport()
+b1b3440f437b75fb2a9b0cfe58df461e40eca474 scsi: lpfc: Resolve NULL ptr dereference after an ELS LOGO is aborted
+336d63615466b4c06b9401c987813fd19bdde39b scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
+ea7bd1f393311e823716a232e9d8857fb64eb105 scsi: lpfc: Add more logging of cmd and cqe information for aborted NVMe cmds
+2e7e9c0c1ec05f18d320ecc8a31eec59d2af1af9 scsi: lpfc: Allow reduced polling rate for nvme_admin_async_event cmd completion
+1af48fffd7ffe280e0c225659d826fd5ae802a08 scsi: lpfc: Update lpfc version to 14.2.0.4
+120f1d95efb1cdb6fe023c84e38ba06d8f78cd03 scsi: mpt3sas: Fix out-of-bounds compiler warning
+d64c491911322af1dcada98e5b9ee0d87e8c8fee scsi: ipr: Fix missing/incorrect resource cleanup in error case
+ec1e8adcbdf661c57c395bca342945f4f815add7 scsi: pmcraid: Fix missing resource cleanup in error case
 
---===============7897654412374002438==--
+--===============7276054537958105874==--
