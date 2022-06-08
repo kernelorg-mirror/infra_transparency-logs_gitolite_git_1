@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3936347452930801938=="
+Content-Type: multipart/mixed; boundary="===============6078407015743498295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Wed, 08 Jun 2022 16:25:08 -0000
-Message-Id: <165470550839.26795.8383212083443105693@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 16:25:13 -0000
+Message-Id: <165470551305.26912.12812294549217499507@gitolite.kernel.org>
 
---===============3936347452930801938==
+--===============6078407015743498295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/rdma
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: c5eb0a61238dd6faf37f58c9ce61c9980aaffd7a
-    new: 118f767413ada4eef7825fbd4af7c0866f883441
-    log: revlist-c5eb0a61238d-118f767413ad.txt
+  - ref: refs/heads/for-next
+    old: 9c477178a0a187c4718c228cc6e0692564811441
+    new: 158e71bb69e368b8b33e8b7c4ac8c111da0c1ae2
+    log: revlist-9c477178a0a1-158e71bb69e3.txt
 
---===============3936347452930801938==
+--===============6078407015743498295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5eb0a61238d-118f767413ad.txt
+Content-Disposition: attachment; filename=revlist-9c477178a0a1-158e71bb69e3.txt
 
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -235,7 +235,6 @@ d27423bf048dcb5e15f04286d001c66685e30c29 hv_balloon: Fix balloon_probe() and bal
 5fa66f29937eb806997a4d1d3edd360ef4e93db9 ASoC: Intel: common: fix typo for tplg naming
 61bf40ef51aa73f6216b33563271b6acf7ea8d70 spi: fsi: Fix spurious timeout
 ebf2a3521738520e12849b221fea24928b3f61ff spi: core: Display return code when failing to transfer message
-9c477178a0a187c4718c228cc6e0692564811441 RDMA/rtrs-clt: Fix one kernel-doc comment
 73534617dfa3c4cd95fe5ffaeff5315e9ffc2de6 perf build: Fix btf__load_from_kernel_by_id() feature check
 5c83eff38194ab2c69a7dc1a64a0a3683f0a3c3a perf build: Stop using __weak bpf_prog_load() to handle older libbpf versions
 8916d72554e5f06df5ba17bfabc87c7977294ba4 perf build: Stop using __weak bpf_object__next_program() to handle older libbpf versions
@@ -1049,6 +1048,7 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
+650126a890902a47304e9326a85b603c96f0c980 RDMA/hfi1: Fix typo in comment
+158e71bb69e368b8b33e8b7c4ac8c111da0c1ae2 RDMA/mlx5: Add a umr recovery flow
 
---===============3936347452930801938==--
+--===============6078407015743498295==--
