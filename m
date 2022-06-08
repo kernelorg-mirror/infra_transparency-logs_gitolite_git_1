@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 08 Jun 2022 08:13:46 -0000
-Message-Id: <165467602699.7109.4855534450446377463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 08 Jun 2022 08:15:23 -0000
+Message-Id: <165467612349.9217.5565017270111219775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: d6ed675fc81930a9f4139ef9d18ee8f0cc09e27c
-    new: 40144dc96c132b5693ae968931a5d023062be543
+  - ref: refs/heads/for-kernelci
+    old: c1db0861e8d025ee5b2e0a83f6691aa9098f2f18
+    new: 2e042d202474336c941d8c22a54c60ceb97aa623
     log: |
-         2d3c5a369fb3022bcdcdf0dc0a72a75983fa7518 regulator: cros-ec: Use common cros_ec_command()
-         8f2277a52c33b438e4f89f09a65ee0dd4ad4c2b8 platform/chrome: cros_ec_proto: Rename cros_ec_command function
-         40144dc96c132b5693ae968931a5d023062be543 platform/chrome: cros_ec_proto: Update size arg types
+         015cd0043503a1691ba28529e21478fe0822f3ff regulator: cros-ec: Use common cros_ec_command()
+         b1d288d9c3c5ca28df062214656a59cf7ee370e0 platform/chrome: cros_ec_proto: Rename cros_ec_command function
+         f87e15fbf6d8cdb51f953338d41a4a52ad1aca14 platform/chrome: cros_ec_proto: Update size arg types
+         2e042d202474336c941d8c22a54c60ceb97aa623 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
