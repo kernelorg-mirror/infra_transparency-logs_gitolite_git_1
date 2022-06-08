@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 08 Jun 2022 09:52:06 -0000
-Message-Id: <165468192677.22839.2914584934532585496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 08 Jun 2022 09:54:15 -0000
+Message-Id: <165468205554.23596.3978620200609716184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: d83a5f8c2b49b9f3a3c01d43c10286fbe463161e
-    new: 1b5fc3fe13947baab133bd426f3377e2eb5ccc90
+  - ref: refs/heads/for-next
+    old: 168192f798c3a1185e71932e4ccf36abdf06297c
+    new: 2a6539b2be4590675190878828da2d855b703473
     log: |
-         1b5fc3fe13947baab133bd426f3377e2eb5ccc90 tests: (hardlink) remove runtime depend output
+         a0a05054583fed17f522172e101594f1ff265463 HID: apple: Properly handle function keys on non-Apple keyboard
+         2a6539b2be4590675190878828da2d855b703473 Merge branch 'for-5.20/apple' into for-next
          
+  - ref: refs/heads/for-5.20/apple
+    old: 0000000000000000000000000000000000000000
+    new: a0a05054583fed17f522172e101594f1ff265463
