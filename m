@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 08 Jun 2022 09:11:31 -0000
-Message-Id: <165467949170.12852.14624182123180007459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Wed, 08 Jun 2022 09:13:09 -0000
+Message-Id: <165467958935.14669.1197866627352101300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 80b998d058238696f531de39dc6f0f0048078258
-    new: bd2a2d5c554cc2fa2a320519a100dc161d5cecf7
+  - ref: refs/heads/for-next
+    old: 293c4978b53196a285758da5affe742fa7290d80
+    new: a5e3d775d088658a0bd734eebd07283c9ac79c17
     log: |
-         03171eb8f05aca17240a95f5f8bf59849783bc58 ath12k: ath12k_dp_rx_h_rxdma_err(): fix checkpatch warning
-         e8debdc2b28102dde483374e29ecc305639b87a9 ath12k: remove testmode support
-         070381028567d9b8e0d82e6f244909e51902bc49 ath12k: remove spectral support
-         caa2f39cd59ba34be73e788ca2f6d8ed45de980f ath12k: remove debugfs support
-         cb0c65e98f9148be757795133c807b31942aa397 ath12k: remove debugfs.h
-         bd2a2d5c554cc2fa2a320519a100dc161d5cecf7 ath12k: remove thermal support
+         3f83b62a7bfa273959cb124bb581a20a68d114c3 mfd: intel-m10-bmc: Rename n3000bmc-secure driver
+         bdf86d0e6ca307de8c85e9363b31ca8c86c0b0c7 fpga: m10bmc-sec: create max10 bmc secure update
+         154afa5c31cd2de5e6c2c4f35eee390993ee345a fpga: m10bmc-sec: expose max10 flash update count
+         7f03d84a672d87630448339a8a0e1d689f6980f9 fpga: m10bmc-sec: expose max10 canceled keys in sysfs
+         5cd339b370e29b04b85fbb83f40496991465318e fpga: m10bmc-sec: add max10 secure update functions
+         a5e3d775d088658a0bd734eebd07283c9ac79c17 fpga: Directly use ida_alloc()/free()
          
