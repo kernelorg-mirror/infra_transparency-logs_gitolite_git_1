@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4660426740141534934=="
+Content-Type: multipart/mixed; boundary="===============2938769840205982438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 08 Jun 2022 20:32:05 -0000
-Message-Id: <165472032556.27856.13100203638141707266@gitolite.kernel.org>
+Date: Wed, 08 Jun 2022 20:33:46 -0000
+Message-Id: <165472042642.28449.12431530820341955709@gitolite.kernel.org>
 
---===============4660426740141534934==
+--===============2938769840205982438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 4c5f372ba13bd4b013e83d053680925fcfdec91f
-    new: d0d4c70422570dd987a88702be2e0dd7e4246960
-    log: revlist-4c5f372ba13b-d0d4c7042257.txt
+  - ref: refs/heads/net-mlx4
+    old: 58f9d52ff689a262bec7f5713c07f5a79e115168
+    new: a6958951ebe7db60e84b2437ee53aa4843028726
+    log: revlist-58f9d52ff689-a6958951ebe7.txt
 
---===============4660426740141534934==
+--===============2938769840205982438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c5f372ba13b-d0d4c7042257.txt
+Content-Disposition: attachment; filename=revlist-58f9d52ff689-a6958951ebe7.txt
 
 282e5f8fe907dc3f2fbf9f2103b0e62ffc3a68a5 netfilter: nat: really support inet nat without l3 address
 ab5e5c062f67c5ae8cd07f0632ffa62dc0e7d169 netfilter: nf_tables: use kfree_rcu(ptr, rcu) to release hooks in clean_net path
@@ -57,7 +57,5 @@ e44c8f4080ca264b5aac3183a321538662b0950b Merge branch 'split-nfc-st21nfca-refact
 f93431c86b631bbca5614c66f966bf3ddb3c2803 ipv6: Fix signed integer overflow in __ip6_append_data
 f638a84afef3dfe10554c51820c16e39a278c915 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
 a6958951ebe7db60e84b2437ee53aa4843028726 au1000_eth: stop using virt_to_bus()
-21838a31530ca1c2cd89a887baa12334f3fcca59 MAINTAINERS: adjust MELLANOX ETHERNET INNOVA DRIVERS to TLS support removal
-d0d4c70422570dd987a88702be2e0dd7e4246960 Revert "net/mlx5e: Allow relaxed ordering over VFs"
 
---===============4660426740141534934==--
+--===============2938769840205982438==--
