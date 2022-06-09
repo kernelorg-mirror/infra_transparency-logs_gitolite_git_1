@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7493597120833521333=="
+Content-Type: multipart/mixed; boundary="===============1856215413944655363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 09 Jun 2022 09:34:25 -0000
-Message-Id: <165476726591.12198.15248871041928275428@gitolite.kernel.org>
+Date: Thu, 09 Jun 2022 09:34:56 -0000
+Message-Id: <165476729663.12433.16670966253653216493@gitolite.kernel.org>
 
---===============7493597120833521333==
+--===============1856215413944655363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/config
-    old: 3ae889058e39f07abd21910750b6497380931ba6
-    new: 811c0002fc44aad6eed32b792ae5a226f5fe9b72
-    log: revlist-3ae889058e39-811c0002fc44.txt
+  - ref: refs/heads/opp/linux-next
+    old: acf77c478ca45fa47f5c59164f1de64ff330ec82
+    new: 10630adca5a0e515eea39fb19aca3d341aea79e8
+    log: revlist-acf77c478ca4-10630adca5a0.txt
 
---===============7493597120833521333==
+--===============1856215413944655363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ae889058e39-811c0002fc44.txt
+Content-Disposition: attachment; filename=revlist-acf77c478ca4-10630adca5a0.txt
 
 9bfb1ffff1972291738b4288e7653ba7ea3c24fa OPP: Fix typo in comment
 0a43452bb6b1f499b695b123e9fedf4b1a9bbf64 OPP: Track if clock name is configured by platform
@@ -58,5 +58,15 @@ bbe13bf5061a9f24f766435d4cb2e3ca1ebf4e87 OPP: Remove dev_pm_opp_register_set_opp
 2397750af0af705a32f6a06cf5286da9c7a89093 OPP: Remove dev_pm_opp_attach_genpd() and friends
 a30957f678f6c63b35c3cdff5d480b5801c24284 OPP: Remove dev_pm_opp_set_prop_name() and friends
 811c0002fc44aad6eed32b792ae5a226f5fe9b72 OPP: Rearrange dev_pm_opp_set_config() and friends
+b3cd3ad98d18634a221444a7e53a8a011adbac22 OPP: Add support for config_regulators() helper
+90dc369375384ade23a14904379a34df9fe7e47b OPP: Make _generic_set_opp_regulator() a config_regulators() interface
+f5058ace3d81ecd41c995ed31bc1268550fe0316 OPP: Add dev_pm_opp_get_supplies()
+678688e7ac05f065ba2580984dbd1d5d80ce42a9 OPP: ti: Migrate to config_regulators()
+00ef02b3ab3591b6658c9a1d8113473fb05512ab OPP: Remove custom OPP helper support
+71ed3210de2899c104d5356e38c0613653b91f4d OPP: Remove dev_pm_opp_find_freq_ceil_by_volt()
+d2eb7a5929a5665b0c0d53e0d77e14790c409b17 OPP: Add generic key finding helpers
+b89e8bf5fd1b6c4d3d9e472cd00d2f1cf9755475 OPP: Use generic key finding helpers for freq key
+b26e72f768922627c007f57ec3231b3f4c9b54c7 OPP: Use generic key finding helpers for level key
+10630adca5a0e515eea39fb19aca3d341aea79e8 OPP: Use generic key finding helpers for bandwidth key
 
---===============7493597120833521333==--
+--===============1856215413944655363==--
