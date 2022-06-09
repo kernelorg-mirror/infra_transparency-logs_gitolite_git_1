@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 09 Jun 2022 17:43:11 -0000
-Message-Id: <165479659164.28703.1968205397738457352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 09 Jun 2022 17:46:08 -0000
+Message-Id: <165479676857.31287.5121141920327504212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: cfd9f34fc4afa6f5aff1e605cb5ccd7a4f6d7e07
-    new: bfbff03d7cc162d069f96aa1740889b76271b6fe
+    old: f1f05a5690cecf25053be1881b18100388c844f2
+    new: 54a07837304c7ad2a9f76f2ffa7d82d714c8f320
     log: |
-         1fa2db13ca47f752f9c00680a8ceef837925352c i40e: Fix VF's MAC Address change on VM
-         0f1ff62cbed9e2661b36555eaa609edc58d862a0 ice: handle E822 generic device ID in PLDM header
-         c0e48461767d96ca18cc3cbf3a700a37c78fb0ac ice: change devlink code to read NVM in blocks
-         bfbff03d7cc162d069f96aa1740889b76271b6fe i40e: Refactor tc mqprio checks
+         0b15c853480c1eff650d2a99b28f68e945c7b2f1 i40e: Fix VF's MAC Address change on VM
+         28cf3c21526b65faa843581ac8e4b082a9be7158 ice: handle E822 generic device ID in PLDM header
+         54a07837304c7ad2a9f76f2ffa7d82d714c8f320 ice: change devlink code to read NVM in blocks
          
