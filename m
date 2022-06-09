@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 09 Jun 2022 21:37:38 -0000
-Message-Id: <165481065812.19359.11507931318268442333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 09 Jun 2022 22:06:47 -0000
+Message-Id: <165481240707.5876.5303567799464677822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dt/next
-    old: cbf9c4b9617b6767886a913705ca14b7600c77db
-    new: 38a85b9d95c7a7c2bf12a0e73ef974136318f15f
+  - ref: refs/heads/master
+    old: 3d9f55c57bc3659f986acc421eac431ff6edcc83
+    new: 874c8ca1e60b2c564a48f7e7acc40d328d5c8733
     log: |
-         72ca190052700d56dc130a106ce66651ba155835 dt-bindings: vendor-prefixes: document several vendors for Aspeed BMC boards
-         ae5a8983414ae67db27bc9f1c38919db70c26b0e dt-bindings: sram: qcom,ocmem: cleanup example coding style
-         38a85b9d95c7a7c2bf12a0e73ef974136318f15f dt-bindings: sram: qcom,imem: add IMEM memory region
-         
-  - ref: refs/heads/for-next
-    old: cbf9c4b9617b6767886a913705ca14b7600c77db
-    new: 38a85b9d95c7a7c2bf12a0e73ef974136318f15f
-    log: |
-         72ca190052700d56dc130a106ce66651ba155835 dt-bindings: vendor-prefixes: document several vendors for Aspeed BMC boards
-         ae5a8983414ae67db27bc9f1c38919db70c26b0e dt-bindings: sram: qcom,ocmem: cleanup example coding style
-         38a85b9d95c7a7c2bf12a0e73ef974136318f15f dt-bindings: sram: qcom,imem: add IMEM memory region
+         874c8ca1e60b2c564a48f7e7acc40d328d5c8733 netfs: Fix gcc-12 warning by embedding vfs inode in netfs_i_context
          
