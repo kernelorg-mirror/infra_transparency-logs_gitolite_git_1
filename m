@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 09 Jun 2022 20:11:52 -0000
-Message-Id: <165480551211.28755.12626090173947721988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Thu, 09 Jun 2022 20:13:39 -0000
+Message-Id: <165480561928.30550.14648812263150060097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
-  - ref: refs/heads/for-next
-    old: 23c46bab922b856b585a5f49413f74a9a7b2400d
-    new: e08f8a118514c94c8cf78aa1dcf5f26f7b6918ba
+  - ref: refs/heads/6lowpan
+    old: b735f4040da3e486c6d6487de98d771394f0bae5
+    new: 260b5c694bd41fd53b1aa21fbea369568c7b5a4a
     log: |
-         6aa35ab9db2c9ca141ba9d64a2ad95b73dbf90e3 power: supply: ab8500: Respect charge_restart_voltage_uv
-         e08f8a118514c94c8cf78aa1dcf5f26f7b6918ba power: supply: ab8500: Exit maintenance if too low voltage
+         eb9edf4366a2364b626c000b9ac720b0c13a551c net: 6lowpan: remove const from scalars
+         31264f9563e6c2b2f895582e0632881cbc197af9 net: 6lowpan: use array for find nhc id
+         f3de6f4eccddfcaf3f8b3674ab57a0646b572650 net: 6lowpan: constify lowpan_nhc structures
+         260b5c694bd41fd53b1aa21fbea369568c7b5a4a MAINTAINERS: Remove Jukka Rissanen as 6lowpan maintainer
          
