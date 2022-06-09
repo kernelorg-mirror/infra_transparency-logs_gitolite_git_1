@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 09 Jun 2022 14:03:38 -0000
-Message-Id: <165478341821.9922.18074011866662988870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 09 Jun 2022 14:06:34 -0000
+Message-Id: <165478359479.12448.13010112558248062417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/sysctl-next
-    old: 30bb01fe2ff13042eef6454516526b46739f6896
-    new: acdc07ace871d307fb19550bfcdd47ac1a896e64
-    log: |
-         acdc07ace871d307fb19550bfcdd47ac1a896e64 kernel/sysctl.c: Clean up indentation, replace spaces with tab.
-         
+  - ref: refs/heads/work.9p
+    old: 0000000000000000000000000000000000000000
+    new: f615625a44c4e641460acf74c91cedfaeab0dd28
