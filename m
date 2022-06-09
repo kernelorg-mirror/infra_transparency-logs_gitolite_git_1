@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 09 Jun 2022 18:55:54 -0000
-Message-Id: <165480095477.11648.14074202709770753264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 09 Jun 2022 18:56:40 -0000
+Message-Id: <165480100090.12006.9738891118059592900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/review-andy
-    old: 3bfddf2fc66f6f185b159e34c3b04cb75dfd77c4
-    new: 82f37ab88928c77501078948fb016ea86a3dd87d
-    log: |
-         e3ef03a71d486f9ebc798f9a227fee5237c2e03f gpio: pch: Use dev_err_probe()
-         e55b9e0998c626a5b4c13ab38097068df10cec5c gpio: pch: Change PCI device macros
-         82f37ab88928c77501078948fb016ea86a3dd87d gpiolib: cdev: Fix kernel doc for struct line
-         
+  - ref: refs/tags/v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/tags/v5.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
