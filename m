@@ -1,26 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 09 Jun 2022 13:40:43 -0000
-Message-Id: <165478204336.27061.18237477029741177233@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4117958837198573444=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 09 Jun 2022 13:41:00 -0000
+Message-Id: <165478206013.27239.13047398576325509344@gitolite.kernel.org>
+
+--===============4117958837198573444==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0c55c9f66cab21351b8fde27dfec5413c0dbc6f7
-    new: 58b659e87f231c154d9f8f2cf638daed603315ac
+  - ref: refs/heads/for-5.20
+    old: d3d8feadcc54c28015b62436a1f69d1080b85fb5
+    new: 142d456204cf4dabe18be59e043d806440f609d4
     log: |
-         4a3dac1f45fe6d89fb273ab6eeae8135b9e0142d Fixes for 5.18
-         b48228861ed3d2110bc4ea3f11b39821958bb3ff Fixes for 5.17
-         84a8102f29e7a78281b3cadc127099728261bdbc Fixes for 5.15
-         9d7a3e65d39e7f302c5f7a94edb2e1352e3cef54 Fixes for 5.10
-         753ef528087f25271a14563ced87e398b7c0a45c Fixes for 5.4
-         cc2e31c794347f24d45657a1a386e54509d5ada0 Fixes for 4.19
-         fa54727c2804f549f9144e6cffc923a1fa76b7b9 Fixes for 4.14
-         58b659e87f231c154d9f8f2cf638daed603315ac Fixes for 4.9
+         142d456204cf4dabe18be59e043d806440f609d4 ASoC: imx-audmux: remove unnecessary check of clk_disable_unprepare/clk_prepare_enable
          
+
+--===============4117958837198573444==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1654782058 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1654782058-d73d1e11d9ca4063184838e2780c52c9abc0718e
+
+d3d8feadcc54c28015b62436a1f69d1080b85fb5 142d456204cf4dabe18be59e043d806440f609d4 refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKh+GoACgkQJNaLcl1U
+h9DSPAf/WCSAYVFoMLCzDPRy3toNtJjfJZ4ev1BhrDGTDA42UIzxCHCOYCATUfmv
+baVZcBRrdnw7q4Euj0dTWFpkSRMCV0QIfqjtBoEuvE12aF12I5UALE6tcRxu4jzc
+xWHhVQuCv/y5x5+uiNu3Q+5ljCl936zXBqrMUAZskpH0o0ZlwAktr/z4R5pchhR+
+5DfjF8GgMsUUwH2KbasTaigYWjlCQ8h5C1eRtD2q0P4JUNncVd1VEO5qLU59jAaE
+eTR4RaroBaw05jmhToKjgj2dQuD/FhaD7+Nbp2DcY9gU+GAdvxiUWN5qJiXmBIYh
+P8fc0hsdTRsOYrPgsK0tAz0ofJ2Dmg==
+=eAkn
+-----END PGP SIGNATURE-----
+
+--===============4117958837198573444==--
