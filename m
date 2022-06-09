@@ -1,52 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============7973661034807843930=="
+Content-Type: multipart/mixed; boundary="===============0104035182788792752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 09 Jun 2022 15:24:45 -0000
-Message-Id: <165478828565.32514.243603004979210766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 09 Jun 2022 15:24:48 -0000
+Message-Id: <165478828854.32598.14165344699049067012@gitolite.kernel.org>
 
---===============7973661034807843930==
+--===============0104035182788792752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: ec3ad554b956d5dbefa1962c419f164ba223e6b3
-    new: 4643e10a17e549467420aaeeb35c9b3480716618
-    log: |
-         537b4a0c8b9490d762e70c0ecec38144c83d0c37 ASoC: SOF: Intel: hda-dsp: Expose hda_dsp_core_power_up()
-         fcb3c775f7073410965ce9414ddb2a1f339c502b ASoC: SOF: Intel: hda-loader: Make sure that the fw load sequence is followed
-         4643e10a17e549467420aaeeb35c9b3480716618 ASoC: SOF: Intel: hda-loader: Clarify the cl_dsp_init() flow
-         
+  - ref: refs/heads/dev-queue
+    old: 73b175f98f075e8ad4c7aca848c151545bacffd2
+    new: f1f05a5690cecf25053be1881b18100388c844f2
+    log: revlist-73b175f98f07-f1f05a5690ce.txt
 
---===============7973661034807843930==
+--===============0104035182788792752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-73b175f98f07-f1f05a5690ce.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1654788284 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1654788283-2aed848b85d7967f24c389a64eb0442e3f79e872
+282e5f8fe907dc3f2fbf9f2103b0e62ffc3a68a5 netfilter: nat: really support inet nat without l3 address
+ab5e5c062f67c5ae8cd07f0632ffa62dc0e7d169 netfilter: nf_tables: use kfree_rcu(ptr, rcu) to release hooks in clean_net path
+b6d9014a3335194590abdd2a2471ef5147a67645 netfilter: nf_tables: delete flowtable hooks via transaction list
+2c9e4559773c261900c674a86b8e455911675d71 netfilter: nf_tables: always initialize flowtable hook list in transaction
+c271cc9febaaa1bcbc0842d1ee30466aa6148ea8 netfilter: nf_tables: release new hooks on unsupported flowtable flags
+9dd732e0bdf538b1b76dc7c157e2b5e560ff30d3 netfilter: nf_tables: memleak flow rule from commit path
+3a41c64d9c1185a2f3a184015e2a9b78bfc99c71 netfilter: nf_tables: bail out early if hardware offload is not supported
+10f3b29c65bb2fe0d47c2945cd0b4087be1c5218 bpf, arm64: Clear prog->jited_len along prog->jited
+fd58f7df2415ef747782e01f94880fefad1247cf bpf: Use safer kvmalloc_array() where possible
+f858c2b2ca04fc7ead291821a793638ae120c11d bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
+2cf7b7ffdae519b284f1406012b52e2282fa36bf selftests/bpf: Add selftest for calling global functions from freplace
+803e9895ea2b0fe80bc85980ae2d7a7e44037914 ixgbe: fix bcast packets Rx on VF after promisc removal
+7bb0fb7c63df95d6027dc50d6af3bc3bbbc25483 ixgbe: fix unexpected VLAN Rx in promisc mode on VF
+91ffb0893291ff80cb3695f87e397533abc26823 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+0737e018a05e2aa352828c52bdeed3b02cff2930 net: dsa: lantiq_gswip: Fix refcount leak in gswip_gphy_fw_list
+f5826c8c9d57210a17031af5527056eefdc2b7eb net/mlx4_en: Fix wrong return value on ioctl EEPROM query failure
+d678cbd2f867a564a3c5b276c454e873f43f02f8 xsk: Fix handling of invalid descriptors in XSK TX batching API
+7c217aca85dd31dd2c8f45f6a7520767c9fae766 MAINTAINERS: Add a maintainer for bpftool
+35b42dce619701f1300fb8498dae82c9bb1f0263 net: mdio: unexport __init-annotated mdio_bus_init()
+4a388f08d8784af48f352193d2b72aaf167a57a1 net: xfrm: unexport __init-annotated xfrm4_protocol_init()
+5801f064e35181c71857a80ff18af4dbec3c5f5c net: ipv6: unexport __init-annotated seg6_hmac_init()
+653926f6938d0dbfa44ee66c3d3cf0df3c08b583 Merge branch 'net-unexport-some-symbols-that-are-annotated-__init'
+77e5fe8f176a525523ae091d6fd0fbb8834c156d nfc: st21nfca: fix incorrect validating logic in EVT_TRANSACTION
+996419e0594abb311fb958553809f24f38e7abbe nfc: st21nfca: fix memory leaks in EVT_TRANSACTION handling
+f2e19b36593caed4c977c2f55aeba7408aeb2132 nfc: st21nfca: fix incorrect sizing calculations in EVT_TRANSACTION
+e44c8f4080ca264b5aac3183a321538662b0950b Merge branch 'split-nfc-st21nfca-refactor-evt_transaction-into-3'
+8a4d480702b71184fabcf379b80bf7539716752e nfc: nfcmrvl: Fix memory leak in nfcmrvl_play_deferred
+f93431c86b631bbca5614c66f966bf3ddb3c2803 ipv6: Fix signed integer overflow in __ip6_append_data
+f638a84afef3dfe10554c51820c16e39a278c915 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
+a6958951ebe7db60e84b2437ee53aa4843028726 au1000_eth: stop using virt_to_bus()
+d5d4c36398ba66c033602b117b4be6174b7b8533 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+8d21e9963bec1aad2280cdd034c8993033ef2948 ip_gre: test csum_start instead of transport header
+2f2c0d2919a14002760f89f4e02960c735a316d2 net: ethernet: mtk_eth_soc: fix misuse of mem alloc interface netdev[napi]_alloc_frag
+2061ecfdf2350994e5b61c43e50e98a7a70e95ee net: openvswitch: fix misuse of the cached connection on tuple changes
+11ec18b1d8d92b9df307d31950dcba0b3dd7283c net: altera: Fix refcount leak in altera_tse_mdio_create
+47e96930d6e6106d5252e85b868d3c7e29296de0 net: dsa: mv88e6xxx: use BMSR_ANEGCOMPLETE bit for filling an_complete
+2b4bb9cd9bcdbe1f791fec18a7c8728cb6989bf8 net: dsa: mv88e6xxx: fix BMSR error to be consistent with others
+b4d78731b34bd6bfd1bfedce26a55e3582b0bc14 net: dsa: mv88e6xxx: correctly report serdes link failure
+5d4af9c1f04ab0411ba5818baad9a68e87f33099 Merge branch 'mv88e6xxx-fixes-for-reading-serdes-state'
+568a32f5653d3131374057589c2627b330d3a177 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+487994ff75880569d32504d7e70da8b3328e0693 net: dsa: realtek: rtl8365mb: fix GMII caps for ports with internal PHY
+e67b72b90b7e19a4be4d9c29f3feea6f58ab43f8 tcp: use alloc_large_system_hash() to allocate table_perturb
+647df0d41b6bd8f4987dde6e8d8d0aba5b082985 net: amd-xgbe: fix clang -Wformat warning
+205bb7f86bb410813c23466776f49b1026094bb0 i40e: Fix adding ADq filter to TC0
+45be3dc943f4af766358a6e77107990be0ac9f32 i40e: Fix calculating the number of queue pairs
+a6cf328bc83e1ab67064f1f0c7cd544df0ba16e6 ice: prevent low-core machines crashing on DCB config
+73b5692ea68e85320047926620ba6c8de4b62db1 ice: ignore protocol field in GTP offload
+9bb07e6c4b360b134bc44fdc8bd14ec32f95f58b ice: Fix PTP TX timestamp offset calculation
+4aaca96ed375ff9a0c507bc0c9e616a6ab078bfc i40e: Fix call trace in setup_tx_descriptors
+6bdf28a32a01f39ae6ee925191e505a755bd401e iavf: Fix issue with MAC address of VF shown as zero
+6248f09d09d11441a6fb5c9030d2dbac667b49cd i40e: Fix interface init with MSI interrupts (no MSI-X)
+c5cba19abfc9b68255b48efcaa5e4afac1dded35 ice: Fix switchdev rules book keeping
+dc8a4135e9a616fcb67ac3566e9188c27dc05cf6 igb: Make DMA faster when CPU is active on the PCIe link
+52ff1c6f2c2c59eb77873bbf2b0390582e440f35 i40e: Fix dropped jumbo frames statistics
+2b653c621495d53f4f19faa9acad0a9e4e28ada7 ice: Fix queue config fail handling
+1d088673ed3f83684578db5035a16b83fcac90e5 ice: Fix memory corruption in VF driver
+f8be8242f154344e6fa293f1a346d60ac2fb3611 igc: Reinstate IGC_REMOVED logic and implement it properly
+d73ea0dc3a0e24cf0787acc0ce9e3a146183f61c ice: ethtool: Prohibit improper channel config for DCB
+b410e07a36bf9cb6ae6f226711c1a80bfd2e6fa7 ice: Sync VLAN filtering features for DVM
+f1f05a5690cecf25053be1881b18100388c844f2 ice: ethtool: advertise 1000M speeds properly
 
-ec3ad554b956d5dbefa1962c419f164ba223e6b3 4643e10a17e549467420aaeeb35c9b3480716618 refs/heads/asoc-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKiELwACgkQJNaLcl1U
-h9CKQAf8Cu2Ql0R4wYeEMN93ed/Civv+dO9AqQbtUD4lnxHygfHUt65MI5C0kYbF
-vPZyCbHf935QfwIuS9K/XSGLGGajKsXjV+S6m2cw5HHjtn1QNTPNuim/RSeL/szu
-wLRs0y0kkRN0l/4o88/ooQPp+R0Ic5VFTTQ8sdyVfC8RK1WmFgou9ch4J8RPQHgV
-CAcUGfzPDwqKrRKDRWZAw6F+zGCptMT+Idrem+3aDc/C/xn8p2GOP5ATd1SjABtg
-dBpTkJqVvWZgKxrySyD3Z4M06wOuUG5yRASbgO861UzRo976RYo1hdOhs73nuLqf
-HWYlqVWVe5gcg6m4m3FvPNldpMZJGg==
-=ORqE
------END PGP SIGNATURE-----
-
---===============7973661034807843930==--
+--===============0104035182788792752==--
