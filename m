@@ -1,83 +1,112 @@
-Content-Type: multipart/mixed; boundary="===============6972026221708430953=="
+Content-Type: multipart/mixed; boundary="===============8982254871115053762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net
-Date: Thu, 09 Jun 2022 10:17:36 -0000
-Message-Id: <165476985650.22588.4263299268120652078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 09 Jun 2022 10:26:20 -0000
+Message-Id: <165477038084.28248.8662424196053071210@gitolite.kernel.org>
 
---===============6972026221708430953==
+--===============8982254871115053762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 662a80946ce13633ae90a55379f1346c10f0c432
-    new: 647df0d41b6bd8f4987dde6e8d8d0aba5b082985
-    log: revlist-662a80946ce1-647df0d41b6b.txt
-  - ref: refs/tags/net-5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 044af39dc2d0469e36df2b47ad26b94e4fcdb100
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/heads/for-5.20
+    old: ff87d619ac180444db297f043962a5c325ded47b
+    new: 913862fea93fa17f7503a812cdc29b49de50c00d
+    log: revlist-ff87d619ac18-913862fea93f.txt
 
---===============6972026221708430953==
+--===============8982254871115053762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-662a80946ce1-647df0d41b6b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-282e5f8fe907dc3f2fbf9f2103b0e62ffc3a68a5 netfilter: nat: really support inet nat without l3 address
-ab5e5c062f67c5ae8cd07f0632ffa62dc0e7d169 netfilter: nf_tables: use kfree_rcu(ptr, rcu) to release hooks in clean_net path
-b6d9014a3335194590abdd2a2471ef5147a67645 netfilter: nf_tables: delete flowtable hooks via transaction list
-2c9e4559773c261900c674a86b8e455911675d71 netfilter: nf_tables: always initialize flowtable hook list in transaction
-c271cc9febaaa1bcbc0842d1ee30466aa6148ea8 netfilter: nf_tables: release new hooks on unsupported flowtable flags
-9dd732e0bdf538b1b76dc7c157e2b5e560ff30d3 netfilter: nf_tables: memleak flow rule from commit path
-3a41c64d9c1185a2f3a184015e2a9b78bfc99c71 netfilter: nf_tables: bail out early if hardware offload is not supported
-cf67838c4422eab826679b076dad99f96152b4de selftests net: fix bpf build error
-10f3b29c65bb2fe0d47c2945cd0b4087be1c5218 bpf, arm64: Clear prog->jited_len along prog->jited
-fd58f7df2415ef747782e01f94880fefad1247cf bpf: Use safer kvmalloc_array() where possible
-f858c2b2ca04fc7ead291821a793638ae120c11d bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
-2cf7b7ffdae519b284f1406012b52e2282fa36bf selftests/bpf: Add selftest for calling global functions from freplace
-803e9895ea2b0fe80bc85980ae2d7a7e44037914 ixgbe: fix bcast packets Rx on VF after promisc removal
-7bb0fb7c63df95d6027dc50d6af3bc3bbbc25483 ixgbe: fix unexpected VLAN Rx in promisc mode on VF
-91ffb0893291ff80cb3695f87e397533abc26823 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-0737e018a05e2aa352828c52bdeed3b02cff2930 net: dsa: lantiq_gswip: Fix refcount leak in gswip_gphy_fw_list
-f5826c8c9d57210a17031af5527056eefdc2b7eb net/mlx4_en: Fix wrong return value on ioctl EEPROM query failure
-d678cbd2f867a564a3c5b276c454e873f43f02f8 xsk: Fix handling of invalid descriptors in XSK TX batching API
-7c217aca85dd31dd2c8f45f6a7520767c9fae766 MAINTAINERS: Add a maintainer for bpftool
-35b42dce619701f1300fb8498dae82c9bb1f0263 net: mdio: unexport __init-annotated mdio_bus_init()
-4a388f08d8784af48f352193d2b72aaf167a57a1 net: xfrm: unexport __init-annotated xfrm4_protocol_init()
-5801f064e35181c71857a80ff18af4dbec3c5f5c net: ipv6: unexport __init-annotated seg6_hmac_init()
-653926f6938d0dbfa44ee66c3d3cf0df3c08b583 Merge branch 'net-unexport-some-symbols-that-are-annotated-__init'
-77e5fe8f176a525523ae091d6fd0fbb8834c156d nfc: st21nfca: fix incorrect validating logic in EVT_TRANSACTION
-996419e0594abb311fb958553809f24f38e7abbe nfc: st21nfca: fix memory leaks in EVT_TRANSACTION handling
-f2e19b36593caed4c977c2f55aeba7408aeb2132 nfc: st21nfca: fix incorrect sizing calculations in EVT_TRANSACTION
-e44c8f4080ca264b5aac3183a321538662b0950b Merge branch 'split-nfc-st21nfca-refactor-evt_transaction-into-3'
-8a4d480702b71184fabcf379b80bf7539716752e nfc: nfcmrvl: Fix memory leak in nfcmrvl_play_deferred
-f93431c86b631bbca5614c66f966bf3ddb3c2803 ipv6: Fix signed integer overflow in __ip6_append_data
-f638a84afef3dfe10554c51820c16e39a278c915 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
-a6958951ebe7db60e84b2437ee53aa4843028726 au1000_eth: stop using virt_to_bus()
-d5d4c36398ba66c033602b117b4be6174b7b8533 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-8d21e9963bec1aad2280cdd034c8993033ef2948 ip_gre: test csum_start instead of transport header
-2f2c0d2919a14002760f89f4e02960c735a316d2 net: ethernet: mtk_eth_soc: fix misuse of mem alloc interface netdev[napi]_alloc_frag
-2061ecfdf2350994e5b61c43e50e98a7a70e95ee net: openvswitch: fix misuse of the cached connection on tuple changes
-11ec18b1d8d92b9df307d31950dcba0b3dd7283c net: altera: Fix refcount leak in altera_tse_mdio_create
-47e96930d6e6106d5252e85b868d3c7e29296de0 net: dsa: mv88e6xxx: use BMSR_ANEGCOMPLETE bit for filling an_complete
-2b4bb9cd9bcdbe1f791fec18a7c8728cb6989bf8 net: dsa: mv88e6xxx: fix BMSR error to be consistent with others
-b4d78731b34bd6bfd1bfedce26a55e3582b0bc14 net: dsa: mv88e6xxx: correctly report serdes link failure
-5d4af9c1f04ab0411ba5818baad9a68e87f33099 Merge branch 'mv88e6xxx-fixes-for-reading-serdes-state'
-568a32f5653d3131374057589c2627b330d3a177 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-487994ff75880569d32504d7e70da8b3328e0693 net: dsa: realtek: rtl8365mb: fix GMII caps for ports with internal PHY
-e67b72b90b7e19a4be4d9c29f3feea6f58ab43f8 tcp: use alloc_large_system_hash() to allocate table_perturb
-647df0d41b6bd8f4987dde6e8d8d0aba5b082985 net: amd-xgbe: fix clang -Wformat warning
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1654770378 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1654770378-bab05171c4b0942de6edc59fcd23c4c32982abf6
 
---===============6972026221708430953==--
+ff87d619ac180444db297f043962a5c325ded47b 913862fea93fa17f7503a812cdc29b49de50c00d refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKhysoACgkQJNaLcl1U
+h9BcGQf/RkjWzwbNxj8LP3iRoi/KD0Eh80d542HcaOZUZOhgTS9pE1i5RABuUbsP
+bYDYPBEnf7zyTyw3ix+rA+t1Aig9m7kia8GRePSBn8TBwBhtEJokS0bXWNeMp1GB
+YKFT8738zKZ6qtw4cGSdtMzGijApsI2l7NvVVzkaRPHAq5QQ0EfkwJDmQszmJtyw
+dxHCNuvevW0hd7nzUqZPZPsffn+rXTkgKZ1fbfcqLXztWoFN+YrGji5K9gx99r6Z
+lIA4fVPiLhAwk5CzKK1gmC4m8lHbpzEtZTI8OK0eoCkHS2uj8cWn6u0fB9Dq1r3w
+TnPEbXqhVqpafv/9G4QRyqWJ/M04fQ==
+=EKob
+-----END PGP SIGNATURE-----
+
+--===============8982254871115053762==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ff87d619ac18-913862fea93f.txt
+
+905f3a04e184854555fc248ca4e692fdbf2f2547 ASoC: core: Add set_fmt_new callback that directly specifies provider
+ab890e0f83a65624d20b0ca4a7cb6306b8511558 ASoC: amd: vangogh: Update to use set_fmt_new callback
+0fd054a577180cd807992e32c7cd394e54c85903 ASoC: atmel: Update to use set_fmt_new callback
+fee11f70849b21a244e6e27d281f3858b671bfea ASoC: au1x: Update to use set_fmt_new callback
+04ea2404468b7885c560c3673f6f2fd368f305a2 ASoC: bcm: Update to use set_fmt_new callback
+5d6124e58d56818249a6266f56d9c3739e72e1bd ASoC: ep93xx: Update to use set_fmt_new callback
+ca0444f1f7b228ae3b8d1a5c0f0d1b4463171f98 ASoC: dwc: Update to use set_fmt_new callback
+3b14c15a333b8225ea38479e13c0366539d3374a ASoC: fsl: Update to use set_fmt_new callback
+0f362524dd3face4865077a4f7e7e640a95702aa ASoC: hisilicon: Update to use set_fmt_new callback
+ed2b384082a678a0c4c8c56deff9e5f46d5e3fca ASoC: img: Update to use set_fmt_new callback
+add9ee8c64c617f561a309cdda50104e9e2c12f6 ASoC: Intel: Update to use set_fmt_new callback
+cbb3a19f090d5a41b822caf9ff2058e1c6bc7ea3 ASoC: js4740-i2s: Update to use set_fmt_new callback
+3af99430f8d948a41556156155b0295dec274d41 ASoC: mediatek: Update to use set_fmt_new callback
+f60442bf6eab47aa4ab127aab88afdcc29a09a73 ASoC: meson: Update to use set_fmt_new callback
+f3c0064f1f8e358799c70c7905a09d15c5ec5e5a ASoC: mxs-saif: Update to use set_fmt_new callback
+84c5b47c8ce4d5059d5e7539d3b44922cc0390e9 ASoC: pxa: Update to use set_fmt_new callback
+1148e16b335f341f36475b646c692b4a71a1855e ASoC: qcom: Update to use set_fmt_new callback
+27646d265da1745b2d1d10fec18465631cb1135f ASoC: rockchip: Update to use set_fmt_new callback
+0b491c7c1b2555ef08285fd49a8567f2f9f34ff8 ASoC: samsung: Update to use set_fmt_new callback
+2d4dd776e902546389f2d7808ece7fd815aa829c ASoC: sh: Update to use set_fmt_new callback
+0092dac91ec1c404787841bdd9ecbf3404d1a41c ASoC: stm: Update to use set_fmt_new callback
+7cc3965fde74c9c725ed01de4ac35bc7d562d16a ASoC: sunxi: Update to use set_fmt_new callback
+d92ad6633fa77f9496840b77c8effeaa13ac78dc ASoC: tegra: Update to use set_fmt_new callback
+d444c8d246a62392c0d249b1030c3ca271d47649 ASoC: test-component: Update to use set_fmt_new callback
+563ff63dc9fbb8ef4b8f145a53c84a5489bbd789 ASoC: ti: Update to use set_fmt_new callback
+ce3467c78478e33927aea9043bf20f46fa4d5688 ASoC: ux500: Update to use set_fmt_new callback
+e945206a0a448ac81dde0609578508368946f7a6 ASoC: xtensa: Update to use set_fmt_new callback
+6c076273a326cc5b5162451aacf7b7744bb03c66 ASoC: core: Always send the CPU DAI a direct clock specifier
+346f47e784cd48b456f267a66e0daf1ef10d21b3 ASoC: amd: vangogh: Rename set_fmt_new back to set_fmt
+a839a53b9dc70f94032a671ee019599884612d4a ASoC: atmel: Rename set_fmt_new back to set_fmt
+2c73f5fd20a845fcb48173578b7c83dbcbacdeda ASoC: au1x: Rename set_fmt_new back to set_fmt
+1a267dd98c246237be00587b6e71f969bf75f10d ASoC: bcm: Rename set_fmt_new back to set_fmt
+324a4db8de05290237793dc3d7da887846ae90c1 ASoC: ep93xx: Rename set_fmt_new back to set_fmt
+765fb623a2cd925c550370f73efe2137c52a1b25 ASoC: dwc: Rename set_fmt_new back to set_fmt
+00778276cf4c611882219ab7aba9664c48981f1a ASoC: fsl: Rename set_fmt_new back to set_fmt
+b9a7972818b84a15d46505df7808fd86c3fba5bb ASoC: hisilicon: Rename set_fmt_new back to set_fmt
+1830a30ec4cf1642a429e80dbbeb86aa7825c71a ASoC: img: Rename set_fmt_new back to set_fmt
+c14a6ce9848571cf67faff206b02e212bec82761 ASoC: Intel: Rename set_fmt_new back to set_fmt
+1724cc38e7685ad8b01413acd70a4a731fc105ae ASoC: jz4740-i2s: Rename set_fmt_new back to set_fmt
+00ca2d152ef0fa9f4beb2a590e176499440de8fe ASoC: mediatek: Rename set_fmt_new back to set_fmt
+eee6b5b9f3af0e906085022713ef41e56d03eca8 ASoC: meson: Rename set_fmt_new back to set_fmt
+1a805faeb4915496671cd24bd2a75cc97a85dfc8 ASoC: mxs-saif: Rename set_fmt_new back to set_fmt
+8e2cc2b241bc0bb905231f301e6dfc80dc79f8a8 ASoC: pxa: Rename set_fmt_new back to set_fmt
+f1bd2fae856384f9377ca3faed0583d929002640 ASoC: qcom: Rename set_fmt_new back to set_fmt
+059f16bc0e02164617312435c31dffdc419f113f ASoC: rockchip: Rename set_fmt_new back to set_fmt
+b99d00c724bcf395558cb3028e823bd8f554fee6 ASoC: samsung: Rename set_fmt_new back to set_fmt
+adced68031f96642272fae4e8c36d45d13797306 ASoC: sh: Rename set_fmt_new back to set_fmt
+02ba0d9680feee645a321d65012f38d0a368b559 ASoC: stm: Rename set_fmt_new back to set_fmt
+15011b2388d020a6cdb323539fc69c31b04d9f21 ASoC: sunxi: Rename set_fmt_new back to set_fmt
+475f2af6a2ff33e828900601a162e324b9986f9a ASoC: tegra: Rename set_fmt_new back to set_fmt
+408c122ef9de99220f7919594ab8af98194a19e8 ASoC: test-component: Rename set_fmt_new back to set_fmt
+9ff1836023ae19013c01f230e6a091fad6835213 ASoC: ti: Rename set_fmt_new back to set_fmt
+e24ba1a21e244e7174e75ca0c4020beaff0ad369 ASoC: ux500: Rename set_fmt_new back to set_fmt
+58e23e21d18532aaa404e1db87ec92762e1fecd5 ASoC: xtensa: Rename set_fmt_new back to set_fmt
+19423951a4b5c4f0ca107d6a4bed23f3f63718ca ASoC: soc-dai: Remove set_fmt_new callback
+28086d05ada6d03daa886aad0e469854b811311c ASoC: simple-card-utils: Move snd_soc_component_is_codec to be local
+913862fea93fa17f7503a812cdc29b49de50c00d Specify clock provider directly to CPU DAIs
+
+--===============8982254871115053762==--
