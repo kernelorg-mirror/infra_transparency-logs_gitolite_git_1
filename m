@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4026942995385437483=="
+Content-Type: multipart/mixed; boundary="===============7735472747595013546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 09 Jun 2022 17:21:27 -0000
-Message-Id: <165479528775.13922.16555941196475273988@gitolite.kernel.org>
+Date: Thu, 09 Jun 2022 17:21:32 -0000
+Message-Id: <165479529224.13987.902666564432808213@gitolite.kernel.org>
 
---===============4026942995385437483==
+--===============7735472747595013546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: a6958951ebe7db60e84b2437ee53aa4843028726
-    new: 647df0d41b6bd8f4987dde6e8d8d0aba5b082985
-    log: revlist-a6958951ebe7-647df0d41b6b.txt
+  - ref: refs/heads/net-next-mlx4
+    old: a84a434baf9427a1c49782fb1f0973d1308016df
+    new: 263efe85a4b618037e1003c9636562d6cbb5f9f3
+    log: revlist-a84a434baf94-263efe85a4b6.txt
 
---===============4026942995385437483==
+--===============7735472747595013546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6958951ebe7-647df0d41b6b.txt
+Content-Disposition: attachment; filename=revlist-a84a434baf94-263efe85a4b6.txt
 
-10f3b29c65bb2fe0d47c2945cd0b4087be1c5218 bpf, arm64: Clear prog->jited_len along prog->jited
-fd58f7df2415ef747782e01f94880fefad1247cf bpf: Use safer kvmalloc_array() where possible
-f858c2b2ca04fc7ead291821a793638ae120c11d bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
-2cf7b7ffdae519b284f1406012b52e2282fa36bf selftests/bpf: Add selftest for calling global functions from freplace
-803e9895ea2b0fe80bc85980ae2d7a7e44037914 ixgbe: fix bcast packets Rx on VF after promisc removal
-7bb0fb7c63df95d6027dc50d6af3bc3bbbc25483 ixgbe: fix unexpected VLAN Rx in promisc mode on VF
-d678cbd2f867a564a3c5b276c454e873f43f02f8 xsk: Fix handling of invalid descriptors in XSK TX batching API
-7c217aca85dd31dd2c8f45f6a7520767c9fae766 MAINTAINERS: Add a maintainer for bpftool
-d5d4c36398ba66c033602b117b4be6174b7b8533 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-8d21e9963bec1aad2280cdd034c8993033ef2948 ip_gre: test csum_start instead of transport header
-2f2c0d2919a14002760f89f4e02960c735a316d2 net: ethernet: mtk_eth_soc: fix misuse of mem alloc interface netdev[napi]_alloc_frag
-2061ecfdf2350994e5b61c43e50e98a7a70e95ee net: openvswitch: fix misuse of the cached connection on tuple changes
-11ec18b1d8d92b9df307d31950dcba0b3dd7283c net: altera: Fix refcount leak in altera_tse_mdio_create
-47e96930d6e6106d5252e85b868d3c7e29296de0 net: dsa: mv88e6xxx: use BMSR_ANEGCOMPLETE bit for filling an_complete
-2b4bb9cd9bcdbe1f791fec18a7c8728cb6989bf8 net: dsa: mv88e6xxx: fix BMSR error to be consistent with others
-b4d78731b34bd6bfd1bfedce26a55e3582b0bc14 net: dsa: mv88e6xxx: correctly report serdes link failure
-5d4af9c1f04ab0411ba5818baad9a68e87f33099 Merge branch 'mv88e6xxx-fixes-for-reading-serdes-state'
-568a32f5653d3131374057589c2627b330d3a177 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-487994ff75880569d32504d7e70da8b3328e0693 net: dsa: realtek: rtl8365mb: fix GMII caps for ports with internal PHY
-e67b72b90b7e19a4be4d9c29f3feea6f58ab43f8 tcp: use alloc_large_system_hash() to allocate table_perturb
-647df0d41b6bd8f4987dde6e8d8d0aba5b082985 net: amd-xgbe: fix clang -Wformat warning
+c87c938f62d8f1f7c24620859d67f2e3eca23afc i40e: Add VF VLAN pruning
+35a2443d0910fdd6ce29d4f724447ad7029e8f23 iavf: Add waiting for response from PF in set mac
+42a09d932a3c202709e6385fa8bead04329106fd Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+5834e72eda0b7e5767eb107259d98eef19ebd11f xen/netback: do some code cleanup
+55f0395fcace9e675af2cbb96015ce1ae8856806 vmxnet3: prepare for version 7 changes
+6f91f4ba046e5de6a6e579620b32b8ecf56873f7 vmxnet3: add support for capability registers
+543fb67405410cc548a72d7a9a4087688d2f56ac vmxnet3: add support for large passthrough BAR register
+2c5a5748105a6bb901579d365c6f93e79f282b69 vmxnet3: add support for out of order rx completion
+c7112ebd27ea0dbe4eecd5c96cad93757e34e73d vmxnet3: add command to set ring buffer sizes
+d2857b99a74b082368ee80f359372faa1d051043 vmxnet3: limit number of TXDs used for TSO packet
+60cafa0395c2bed44d13277ed328317ed16a58c0 vmxnet3: use ext1 field to indicate encapsulated packet
+acc38e041bd304621d4f59cea4849747d13bba9c vmxnet3: update to version 7
+e4c437cd9214e61a4fc4bb40e83f2ea12dbeff0e Merge branch 'vmxnet3-upgrade-to-version-7'
+263efe85a4b618037e1003c9636562d6cbb5f9f3 net: macb: change return type for gem_ptp_set_one_step_sync()
 
---===============4026942995385437483==--
+--===============7735472747595013546==--
