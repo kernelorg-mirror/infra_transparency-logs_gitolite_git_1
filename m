@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7960697377471785781=="
+Content-Type: multipart/mixed; boundary="===============3434403076941895972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 09 Jun 2022 11:59:10 -0000
-Message-Id: <165477595053.23541.4675841772047493354@gitolite.kernel.org>
+Date: Thu, 09 Jun 2022 11:59:19 -0000
+Message-Id: <165477595946.23690.4708063592638245735@gitolite.kernel.org>
 
---===============7960697377471785781==
+--===============3434403076941895972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 991d8d8142cad94f9c5c05db25e67fa83d6f772a
-    new: d3a29b3e4ca2bd6dea9af68ba6f2278f0f56ccac
-    log: revlist-991d8d8142ca-d3a29b3e4ca2.txt
+  - ref: refs/heads/perf/core
+    old: 108ea7eb3e754be735a1c33d2713a19527fb2065
+    new: 98129f38b555a3eb4ee13847cd4bb5091b0e2b3e
+    log: revlist-108ea7eb3e75-98129f38b555.txt
 
---===============7960697377471785781==
+--===============3434403076941895972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-991d8d8142ca-d3a29b3e4ca2.txt
+Content-Disposition: attachment; filename=revlist-108ea7eb3e75-98129f38b555.txt
 
+a6b450573b912316ad36262bfc70e7c3870c56d1 Merge tag 'execve-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+efd1df1982e9203b4f56cb0d5946a24885260ce5 Merge tag 'selinux-pr-20220523' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+e98a860f65428a3cae7ed7b3e8ebcf6320d7fc5e leds: qcom-lpg: Require pattern to follow documentation
+cb44e4f061e16be65b8a16505e121490c66d30d0 Merge tag 'landlock-5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+a9d1046a846571422a92d2b8fbf8a8b24221b9a3 Merge tag 'Smack-for-5.19' of https://github.com/cschaufler/smack-next
 7cf6a8a17f5b134b7e783c2d45c53298faef82a7 Merge tag 'tpmdd-next-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0350785b0a092c99c5ddd2ace0260dbe7b3f919f Merge tag 'integrity-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 076f222a690e11b433d2b1e218dbd9bdb08fb190 Merge tag 'hwmon-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
@@ -135,7 +140,6 @@ e04314082c3197874f0cb3f4031219e811741a49 Merge tag 'opp-updates-5.19-rc1' of git
 20eb48885b62d5de4ab6be7e08f9f55aa33333fd x86/idt: Remove unused headers
 4fe4f1552394d41442205f9cde93af00eda59435 Documentation: admin-guide: PM: Add Out of Band mode
 1a23accae82d780b5d5de6254d32c270aeb7f664 ARM: ixp4xx: Consolidate Kconfig fixing issue
-108ea7eb3e754be735a1c33d2713a19527fb2065 perf/x86/Kconfig: Fix indentation in the Kconfig file
 86dca369075b3e310c3c0adb0f81e513c562b5e4 perf/x86/intel: Fix event constraints for ICL
 e5499dd7253c8382d03f687f19a854adcc688357 media: lirc: revert removal of unused feature flags
 caa28984163cb63ea0be4cb8dbf05defdc7303f9 linux/types.h: reinstate "__bitwise__" macro for user space use
@@ -1040,15 +1044,11 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-1f22c622cee1fd8f88d569d5b8dfc27319ad3517 sched/numa: Initialise numa_migrate_retry
-78d6d62539e6c724b2dcbb86d69ee7f6c7c6eba6 sched/numa: Do not swap tasks between nodes when spare capacity is available
-cd24fef8edaca855807482bdc9427da6e9fb766b sched/numa: Apply imbalance limitations consistently
-fba40c7f70f70e65999ea62a20478ad219b71b5c sched/numa: Adjust imb_numa_nr to a better approximation of memory channels
-13e5bb442e5a1e6adc232adf22cc414ca2173a52 sched/fair: optimize and simplify rq leaf_cfs_rq_list
-88cf75af445fbab8c0f9a8d800f21c04146a1111 sched/deadline: Use proc_douintvec_minmax() limit minimum value
-134664f861cc6cdbf1aa387ec4e9b2a71ab13bb5 sched: Allow newidle balancing to bail out of load_balance
-078b49dde642c2aa0aa580a9c14b167b79f45a24 sched/fair: combine detach into dequeue when migrating task
-7426f9b37739eacdfd99f5df78a25a7a7eb35acb sched: Fix the check of nr_running at queue wakelist
-d3a29b3e4ca2bd6dea9af68ba6f2278f0f56ccac sched: Remove the limitation of WF_ON_CPU on wakelist if wakee cpu is idle
+8749a2592d888977b1ee36c46ca24a337a23c95e x86/events/intel/ds: Enable large PEBS for PERF_SAMPLE_WEIGHT_TYPE
+4993923263caa6763668ba53edf7d9dc894a2db4 perf/x86/amd/uncore: Use dynamic events array
+1fb6a2368853e6eb7e0ee072acd3129d87b99044 perf/x86/amd/uncore: Use attr_update for format attributes
+722f45a43a5bbb408480db2ec9c21d7a696616ac perf/x86/amd/uncore: Detect available DF counters
+fa61c8c4a8d771109d824a1f1c543729ba817c3b perf/x86/amd/uncore: Add PerfMonV2 DF event format
+98129f38b555a3eb4ee13847cd4bb5091b0e2b3e perf/x86/amd/uncore: Add PerfMonV2 RDPMC assignments
 
---===============7960697377471785781==--
+--===============3434403076941895972==--
