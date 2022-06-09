@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 09 Jun 2022 09:13:38 -0000
-Message-Id: <165476601802.31831.1228392304669797640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Thu, 09 Jun 2022 09:28:54 -0000
+Message-Id: <165476693448.8399.1328527742122573221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
-  - ref: refs/heads/for-5.19/upstream-fixes
-    old: 381583845d19cb4bd21c8193449385f3fefa9caf
-    new: 54eed5c7b938dc4ef6b14d4ee048bbdafdbce352
+  - ref: refs/heads/master
+    old: b3cf30ba5b47dfa7414416fe3bc5ae34db6065e7
+    new: 9212270048c3bd23f56c20a83d4f89b870b2b26e
     log: |
-         54eed5c7b938dc4ef6b14d4ee048bbdafdbce352 HID: multitouch: new device class fix Lenovo X12 trackpad sticky
+         29083a76efa600b02d30f32d0393ae53e37887f8 cgcc: do not die on '-x assembler'
+         e44f724a5ce007ad789d4688a37d03c4845032c0 fix crash when inlining casts of erroneous expressions
+         53e04b3b780bbcf2dd3eb7990c17414742bbfef9 allow show_token() on TOKEN_ZERO_IDENT
+         9212270048c3bd23f56c20a83d4f89b870b2b26e Merge branches 'cgcc-dash-x' and 'fixes'
          
-  - ref: refs/heads/for-next
-    old: 6328a8a8ec6c8c8bf72449b74764966e3ff4bc27
-    new: 353539023e4fd8084f062192b0243566e157405f
-    log: |
-         54eed5c7b938dc4ef6b14d4ee048bbdafdbce352 HID: multitouch: new device class fix Lenovo X12 trackpad sticky
-         353539023e4fd8084f062192b0243566e157405f Merge branch 'for-5.19/upstream-fixes' into for-next
-         
-  - ref: refs/heads/for-5.20/uclogic
-    old: 0000000000000000000000000000000000000000
-    new: aa051d36ce4ae23b488489f6b15abad68b59ca23
