@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0324043141604263276=="
+Content-Type: multipart/mixed; boundary="===============4026942995385437483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 09 Jun 2022 17:19:47 -0000
-Message-Id: <165479518707.11857.15500955869511973454@gitolite.kernel.org>
+Date: Thu, 09 Jun 2022 17:21:27 -0000
+Message-Id: <165479528775.13922.16555941196475273988@gitolite.kernel.org>
 
---===============0324043141604263276==
+--===============4026942995385437483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: d0d4c70422570dd987a88702be2e0dd7e4246960
-    new: d525145cb09f3458bcb8efe00b190e6709eacab1
-    log: revlist-d0d4c7042257-d525145cb09f.txt
+  - ref: refs/heads/net-mlx4
+    old: a6958951ebe7db60e84b2437ee53aa4843028726
+    new: 647df0d41b6bd8f4987dde6e8d8d0aba5b082985
+    log: revlist-a6958951ebe7-647df0d41b6b.txt
 
---===============0324043141604263276==
+--===============4026942995385437483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0d4c7042257-d525145cb09f.txt
+Content-Disposition: attachment; filename=revlist-a6958951ebe7-647df0d41b6b.txt
 
 10f3b29c65bb2fe0d47c2945cd0b4087be1c5218 bpf, arm64: Clear prog->jited_len along prog->jited
 fd58f7df2415ef747782e01f94880fefad1247cf bpf: Use safer kvmalloc_array() where possible
@@ -47,7 +47,5 @@ b4d78731b34bd6bfd1bfedce26a55e3582b0bc14 net: dsa: mv88e6xxx: correctly report s
 487994ff75880569d32504d7e70da8b3328e0693 net: dsa: realtek: rtl8365mb: fix GMII caps for ports with internal PHY
 e67b72b90b7e19a4be4d9c29f3feea6f58ab43f8 tcp: use alloc_large_system_hash() to allocate table_perturb
 647df0d41b6bd8f4987dde6e8d8d0aba5b082985 net: amd-xgbe: fix clang -Wformat warning
-b89b6d6968e08057a1501c2ab97093e38ff47f85 MAINTAINERS: adjust MELLANOX ETHERNET INNOVA DRIVERS to TLS support removal
-d525145cb09f3458bcb8efe00b190e6709eacab1 Revert "net/mlx5e: Allow relaxed ordering over VFs"
 
---===============0324043141604263276==--
+--===============4026942995385437483==--
