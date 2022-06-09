@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 09 Jun 2022 00:28:17 -0000
-Message-Id: <165473449787.20958.14406478627294448151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Thu, 09 Jun 2022 01:06:09 -0000
+Message-Id: <165473676940.16676.17911524336851569682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/for-5.19-fixes
-    old: 6d11acd452fd885ef6ace184c9c70bc863a8c72f
-    new: 481f7017c37a8c722a0b09985db1a35f15749d5d
+  - ref: refs/heads/devfreq-next
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 9f3ec0f65421e4c334a2ab36a506bf181957e060
     log: |
-         72aad489f992871e908ff6d9055b26c6366fb864 ata: libata-transport: fix {dma|pio|xfer}_mode sysfs files
-         481f7017c37a8c722a0b09985db1a35f15749d5d MAINTAINERS: add ATA sysfs file documentation to libata entry
+         887b1bdd9aee801ca1656ae95da6f3756e5d4367 dt-bindings: interconnect: Add MediaTek CCI dt-bindings
+         9f3ec0f65421e4c334a2ab36a506bf181957e060 PM / devfreq: mediatek: Introduce MediaTek CCI devfreq driver
          
