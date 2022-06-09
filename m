@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 09 Jun 2022 19:55:12 -0000
-Message-Id: <165480451271.18927.2621557282069866253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 09 Jun 2022 20:04:35 -0000
+Message-Id: <165480507577.23303.16800107366805786117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/tags/damon/next-2022-06-09-19-55-on-v5.19-rc1-mm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: 53927b50c2b8189948e473c4efce3524d71dd638
+  - ref: refs/heads/for-next
+    old: f7ca2d8c1b6d280a480baf7289c053754f98b44b
+    new: 23c46bab922b856b585a5f49413f74a9a7b2400d
+    log: |
+         23c46bab922b856b585a5f49413f74a9a7b2400d power: supply: cros_peripheral: Use struct_size() helper in kzalloc()
+         
