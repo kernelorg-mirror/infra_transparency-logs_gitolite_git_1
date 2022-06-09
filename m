@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Thu, 09 Jun 2022 12:27:49 -0000
-Message-Id: <165477766915.11766.5824969109952507847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 09 Jun 2022 12:36:25 -0000
+Message-Id: <165477818557.17318.12135046310222255421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/dev
-    old: 0000000000000000000000000000000000000000
-    new: 204e6ceaa1035cb7b92b156517e88842ebb4c7ff
+  - ref: refs/heads/usb-linus
+    old: 908e698f2149c3d6a67d9ae15c75545a3f392559
+    new: 158f7585bfcea4aae0ad4128d032a80fec550df1
+    log: |
+         158f7585bfcea4aae0ad4128d032a80fec550df1 USB: serial: option: add support for Cinterion MV31 with new baseline
+         
