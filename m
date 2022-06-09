@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 09 Jun 2022 12:07:06 -0000
-Message-Id: <165477642657.30124.1065874645242106855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 09 Jun 2022 12:08:07 -0000
+Message-Id: <165477648788.30489.16495947367253037096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-next
-    old: 0b817059a8830b8bc3d50bb2402dea923cd89b01
-    new: 492f99e4190a4574a4e015507e0466ab6d8d5d88
+  - ref: refs/heads/usb-linus
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: d6abf44e4e3077789b33a48ffa8bce63d7118e3a
     log: |
-         492f99e4190a4574a4e015507e0466ab6d8d5d88 bpf, docs: Fix typo "BFP_ALU" to "BPF_ALU"
+         d6abf44e4e3077789b33a48ffa8bce63d7118e3a USB: serial: io_ti: add Agilent E5805A support
          
