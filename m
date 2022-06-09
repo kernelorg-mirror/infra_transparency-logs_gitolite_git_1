@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5380239482475339353=="
+Content-Type: multipart/mixed; boundary="===============3354722158958889302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Thu, 09 Jun 2022 08:03:10 -0000
-Message-Id: <165476179056.27726.7504788729876977059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 09 Jun 2022 08:09:17 -0000
+Message-Id: <165476215702.31108.8654875512471033014@gitolite.kernel.org>
 
---===============5380239482475339353==
+--===============3354722158958889302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: dc58e77b1e0183f83dbbb0a137ec5a05d498c170
-    new: 212d79155feb94a7fe1479135283595eaa25133e
-    log: revlist-dc58e77b1e01-212d79155feb.txt
+  - ref: refs/heads/master
+    old: 9c76a6e4ad6a897c7418d4ba03a8a6d6cac20c7d
+    new: a8ab84a20269b2a6750ffc6bbc289fc5dc973684
+    log: |
+         a8ab84a20269b2a6750ffc6bbc289fc5dc973684 drop queue-5.17/nfsv4-fix-free-of-uninitialized-nfs4_label-on-referr.patch
+         
 
---===============5380239482475339353==
+--===============3354722158958889302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc58e77b1e01-212d79155feb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1ef48567291818edcc4261610a1bf9d6297b8949 platform/chrome: cros_ec_proto: add Kunit test for getting cmd mask error
-49c58a987de9d91ce993224b47207848cfa8e0fa platform/chrome: cros_ec_proto: check `msg->result` in getting cmd mask
-4b9b2a0549b7e7ed80b6e7c6319eadc3c1c19391 platform/chrome: cros_ec_proto: add Kunit tests for getting cmd mask
-84293e39ca4f67cd025532c31be013f312725f70 platform/chrome: cros_ec_proto: handle empty payload in getting cmd mask
-66620d2f9103abeed994e2f0937b11fac9558d66 platform/chrome: cros_ec_proto: return 0 on getting wake mask success
-3d7b3bc1da834ad398988b3fa5763fa9f3653622 platform/chrome: cros_ec_proto: add Kunit test for getting wake mask
-2b1dd338b1980c13d39a223038ff3d9de3f0e464 platform/chrome: cros_ec_proto: handle empty payload in getting wake mask
-aa17e14c08104c508e16757015e0143fff7ace20 platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_cmd_xfer()
-2c135d95a2879a0a1257c5d21caf8f1723940afa platform/chrome: cros_ec_proto: separate _send_command()
-3149ea85c1bc74262095c73a476a5adc1413af82 platform/chrome: cros_ec_proto: separate wait_until_complete()
-212d79155feb94a7fe1479135283595eaa25133e platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_cmd_xfer_status()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654762154 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1654762153-7ea5cee0fb23c88bb29ecb6c53bb2613cfb012c0
 
---===============5380239482475339353==--
+9c76a6e4ad6a897c7418d4ba03a8a6d6cac20c7d a8ab84a20269b2a6750ffc6bbc289fc5dc973684 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKhqqobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xcYQAKSNzyIgextpQlviQycL
+egGXSbZpneQ1OIji5nwgChJVYmkmhShCkfuf34OlImNRFhBqd5MxYC/LJIzt4oLj
+lHWVd4QMYL/UPtJuFJOsEUdZIOmI6gOkz4xvekyoMohI+LJl5Lzv1uUxONVuInPO
+hQSoCyoTI2MBYahr97afFrg0WaOJmdjzugXZwdDRgY76vxGsa81v5pxALx5aao5Q
+cGODsl1Oz7glo9KB40YCbXtpOOHrASfCS3pdYjopGbZXnrCigAmI6lmBKDZPj266
+Ui1ySfyrcm0Zh3x7HCy9GDlfje622KKS/apGzKf3j9wJHDMwH9K+ntEiKsbjxHkw
+4OfUxTL5cZkUGGIWIDpyDaFpPXall9b+hGkRGSdjgl6ageSVMf8haZZN3FcI+a5x
+YWNikxNdxEoln7A3i6t1SBmiWCkekrwXBcJ0JHI/RrjlW4wXcmVMMrM8YOwvG9An
+SuiulIkuUAa+P2KVf9krhena8NmwBmvIZhnw/8NXEbz+j5ObNXNNw4RqJ2lT55iQ
+926BX1ysilEaBEb3ASHQzi7EeHIaWzcUKMBnqEQc8LT4cCcWp+gSpOkSZIPK8aUn
+JG+rtyHLNWGM+JHdvqoeeCHqfYaFjrGuQ+NM5ekgqpvlGmRmfciMBM5loIT+wVHj
+idr1gcyC6i9jDzhTewkvmWbg
+=UiUx
+-----END PGP SIGNATURE-----
+
+--===============3354722158958889302==--
