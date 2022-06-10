@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 10 Jun 2022 23:36:07 -0000
-Message-Id: <165490416782.27718.8525577121534529418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 10 Jun 2022 23:42:20 -0000
+Message-Id: <165490454031.31295.251303809034285198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/todo
-    old: 7c89ac0feb9f27a4f5e09e4b3bb982938ceed976
-    new: d42bd3f245ef2d29f0610017033bfe20aac22c4c
+  - ref: refs/heads/master
+    old: b0bca1d3bb8cb32f51b4a81f09ed8bb2d1dc3be8
+    new: 3229fc8e5dd9e997f78e7316a1feb8208a603e3e
     log: |
-         d42bd3f245ef2d29f0610017033bfe20aac22c4c What's cooking (2022/06 #03)
+         3229fc8e5dd9e997f78e7316a1feb8208a603e3e wireguard: selftests: use maximum CPU features
          
