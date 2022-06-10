@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5602464219561489015=="
+Content-Type: multipart/mixed; boundary="===============3984319043462510602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 10 Jun 2022 13:29:42 -0000
-Message-Id: <165486778239.13017.375622031620242486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 10 Jun 2022 13:37:40 -0000
+Message-Id: <165486826065.18649.3033344157543489618@gitolite.kernel.org>
 
---===============5602464219561489015==
+--===============3984319043462510602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 242439f7e279d86b3f73b5de724bc67b2f8aeb07
-    new: bd476c1306ea989d6d9eb65295572e98d93edeb6
+  - ref: refs/heads/staging-linus
+    old: 67ea0a2adbf667cd6da4965fbcfd0da741035084
+    new: cd756dafd86ee3a4969906086f3c2537e0c6d9d0
     log: |
-         bd476c1306ea989d6d9eb65295572e98d93edeb6 misc: rtsx: Fix clang -Wsometimes-uninitialized in rts5261_init_from_hw()
+         cd756dafd86ee3a4969906086f3c2537e0c6d9d0 staging: Also remove the Unisys visorbus.h
          
 
---===============5602464219561489015==
+--===============3984319043462510602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654867781 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1654867780-752d68b5b950d49d7b84f93cc51348d123d66bef
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654868259 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1654868258-9fd2dfed6092897496264e105b3fd172cf26dde8
 
-242439f7e279d86b3f73b5de724bc67b2f8aeb07 bd476c1306ea989d6d9eb65295572e98d93edeb6 refs/heads/char-misc-linus
+67ea0a2adbf667cd6da4965fbcfd0da741035084 cd756dafd86ee3a4969906086f3c2537e0c6d9d0 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjR0UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/lcQAIQlINBhOJxbcRg1qQKH
-xnIcuFgT7phlqvlY2hltrtGWXdxwGXjwGzBysZNeTKjJv1IHs7gAU/mlzspZ0ddM
-Wh8o8cgxQV0sc0cSsn4CHtu7SnCwwgizHfq/449MLaKq5Hxp/YPjBlXJMeN/TXig
-+Tsm1Tw1xHomRnOUSd+/NlfaFSJbudCkBjDEde0tzR+GslHcEW+6VbAuVEwkjs9b
-F1QrrJbae6OeBSCYgLMw1PCXxFl+izWIcOM4DDjerDDHmjYvTyQnzsJrYANzh8D4
-/cJ9aljkBli6c1qp8ay2egbX8IyZugBl1hB4DfqUFixOMn8FZoMYMu1l83jEesBB
-Zg7vzJAtXaG9soiZ2ghBa3HSb3vfhKDdDn0kdROB4UBzVE6C1/RgsfeTqqW7GS4v
-TfDLeVTqxEswafaI/q84rD3huwdzGCTEC+ufLqdBL8VA1o0w2AR/2Y/8aV8i3E/j
-6lE5RIqozTzBg9XvkQSSj7j8Fr37lwmMTn3RvompK0eAC/aSdL8GWf2BxxuNq3eg
-VKOq45QzNyWQTPhTOKkZKjdBYPY2jR13vr9/rp0BZdRwOJ6GY2qCzd5ematOkRUM
-YJWMKFhhKu4ZjZqBwJ2dic2EdzklmPubVWLNIOjCBuf5e/pypflLIXGnxxuH/Icg
-5xthDYZ/QTzYCQrxK2IpZYhO
-=nozP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjSSMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HqoP/128OZ0ErkRE5fzrZ4J9
+FyMjy+wO6FCDTsFtVd8ZgG6TXuZHMX6xLoiuQjrlNOK4ufG/1Z/2YSi5nM+dQ4cc
+7Z9CvMnat8QUtlXZEafOCL6cwHH+w84yCdMk5SEj1ER27LkadIZT3chsPx26lS/S
++38v3GVc3QPn4bYNDHmbEWv7anCofslqGo8UsKMW50KdsLQFcr96ctXmvkpdIXhD
+sqnFLDaq9MseVCr4/k/WyWC8KGzFUnD4nzUdl3ip8zSodbG73p6pR7pgW7ytox/y
+xGAra0OTtYQYGrKu+0aIX/LkrIriLK0/1OGZJv8uu/0OZVDP+XPL8Z5vmkQdOPRt
+bbagGDr8bqvXyP9tqxLU2Jye5zDybwHNR0bD33HP4sdbIxWbKSQ1CuIBm+Nelpbu
+LUhqXOAylGE5RGrmHZArNKrdYC6RxrSl55gO80Md/+DU/L8rP93hy6MZBvud2b65
+mdE7BWqPLJM1asefpH+ddy9jpLqqJfngMroYEmqfXI8kilcERuOYI3BgheVqy3hP
+BX86TJ59AiqO/tgL6dC8aXRgOwUOVnUzF97pfeOk1q9luTrGsAwXb7XJAwe1cKea
+piGGYGmPU6ibKPfKFi1W34zKl4oXK7/ecQBtjdhx1KRkM2PBev6vJz/hK9EMakdR
+lJpsSUY+Z1TUasB3gSU/5Zj8
+=Eusk
 -----END PGP SIGNATURE-----
 
---===============5602464219561489015==--
+--===============3984319043462510602==--
