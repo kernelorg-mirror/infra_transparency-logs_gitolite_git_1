@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2193781363723388449=="
+Content-Type: multipart/mixed; boundary="===============4527513072918092908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 10 Jun 2022 09:53:06 -0000
-Message-Id: <165485478619.31236.13407331208291185824@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 09:54:18 -0000
+Message-Id: <165485485848.31707.305798370901706226@gitolite.kernel.org>
 
---===============2193781363723388449==
+--===============4527513072918092908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a725d0f6dfc5d3739d6499f30ec865305ba3544d
-    new: 13118959cb1a67eb80bf06152e35e0df733615e2
+    old: 13118959cb1a67eb80bf06152e35e0df733615e2
+    new: 5fd6c4f0a649c956b2c50c18e0da765b7f5e3eff
     log: |
-         757bdf1f2fb5f1281cb13da5f24860ae81c6140e usb: musb: remove schedule work called after flush
-         5e1fa6dd4caa7ce26029427647bc2f424784a559 usb: mtu3: sync interrupt before unbind the udc
-         54c4862f29725a0a20b09a10f2fa788a973713ee usb: mtu3: implement udc_async_callbacks of gadget operation
-         13118959cb1a67eb80bf06152e35e0df733615e2 usb: mtu3: register mtu3_irq by threaded irq
+         5767f40053ebf599e47d688e65b259d0b6f3227a ucsi_ccg: Do not hardcode interrupt polarity and type
+         5fd6c4f0a649c956b2c50c18e0da765b7f5e3eff ucsi_ccg: ACPI based I2c client enumeration for AMD ASICs
          
 
---===============2193781363723388449==
+--===============4527513072918092908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654854784 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654854857 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1654854783-6e6e70af67a162e2a3ec2b0daa123ce67399d3dc
+nonce 1654854856-2c36889c3637784d54531ee27ed999d34d3cd442
 
-a725d0f6dfc5d3739d6499f30ec865305ba3544d 13118959cb1a67eb80bf06152e35e0df733615e2 refs/heads/usb-testing
+13118959cb1a67eb80bf06152e35e0df733615e2 5fd6c4f0a649c956b2c50c18e0da765b7f5e3eff refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjFIAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IQsP/1WY2/JEl162WxqTLw5d
-Q1BrzbzKwDZrKTrwl6z/sn65Z+gAMQCPd2O2GT38cE3mG80czofd3rkJQzOQXrNI
-tFEq0Dq3ygA3knIw8040LHR4D8q817QeMooMuyRsxe2M6PqRazZj43+boddcnTUx
-kiLXEnAbg3F5+dQH4mJars6udht49WOxcDtdSyo27Wws+uZO0Iw2tXL+bOxYkbhw
-lHK2BJxsKtlYzSXbtY0Wuwhn7R+OyQlpadotabpHpaU5dqOK504XEFeetO5ggYrp
-8OY3DIQD4fbq103/op0X6gdGy4VK1vMD5gQJYotplyXKu8jPbwpL+UXvWnozTR7R
-AV28Blhd+pvUPKXiLW9aA1lMjHwmeDAOVm2FQXahS+yXS23IDLSS+ap1bHyN2HWP
-xNplvCHmXqAvku121qUF47XSr4S7GUFCl+hb9rAnbG2G08+sU5ERK/nX9iQ/4i3r
-13XLIwv1I7AAC4oAKLCJIkH/J4HtkPgnM/y3Ph5CHd8x12d37dhLBv+2DImnZhMQ
-2KQor1ZI9hmPf2Xc0F1SSCfC9+PmfRzV6NrxzP/U8maAAvC04st5QBvb6WVCO9EB
-35c2AOh2OpMhi1y9gbR77l8hDTwpiEhoZwCn6NOh6tb2moKEyxJMiOQDKAGOBKVh
-KsqytvLY8ocBor+wxgFIqG7P
-=Xfvm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjFMkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6XsP/1i1bwy/ZMyNdUSAEFoa
+KpYL+qixMLDyH3Q76k6m/92BETQbL9De6krD4/hKBe4epT4R0EuzBa2r6O2PY+KJ
+8fvupDLaSpLQJOIlgplTh+7fTc8PsyaX4mdaWgcMIVpifnjqVElrfRaXvPzsoXKk
+HFwmxM5TzYtXIACJHqUb8h8UVlbys0x/hRbdtrblNwhvmEMiRBmQySKB6GNismzD
+p0oU4hrci7M/BAQVUZy4UQ9tQLUH39uIna3ip0PxMCN0OVn+8b9hJQL0I+Elr078
+GNEh+NKu9VfTn7wqvh9eDOC7xH7JSQxj81Zg5VFhnNb3/ViTuywPhiJyoJCrrBp3
+jyJZyNkshXNKBTya/lDQcFlU0s1/8mrnUHmT9pvdXwEr+bZDzP844ZrjxowSkFwb
+6gOJSVSuENMvsmKh5SnkdD9SaatVq39EhY/iKYV2Xv3gjAm19S0xiThS/xxGaISQ
+D+3+X83sg6uZVZUeo2hKQxIt+OJLdoOAvIf+jRgOO9DzFexixGI4OjtMqagCHl6W
+gCpQTe5ARYBSuqON9prjrQ0emYbals0rGcHh1ly55b3rLkE9miAWGOste02wAFsG
+H4osenRBOuu5jiLOaOYa+9WcHStDClC3Kl+PssNB5JZM6uOKIj2UtojSZ3/j9+IC
+PL/lOu77HjgQAYLUs0XRxsqJ
+=EkD4
 -----END PGP SIGNATURE-----
 
---===============2193781363723388449==--
+--===============4527513072918092908==--
