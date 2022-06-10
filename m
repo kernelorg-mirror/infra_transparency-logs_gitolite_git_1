@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Fri, 10 Jun 2022 19:50:42 -0000
-Message-Id: <165489064227.10749.5711443161855979013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 10 Jun 2022 19:51:01 -0000
+Message-Id: <165489066101.10900.11936562106484730264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/next
-    old: 4d3d0ed60ee0d2da4c541e525c132dc374464624
-    new: 9691e4f9ba6c7dc6af07b8a4feba6279d76f0003
+  - ref: refs/heads/master
+    old: 39b36f8e21f2760fdcbd553743cb50b78e76b277
+    new: c7640f83465c2b5a4f7dae7f9f47cfe27c0cf99a
     log: |
-         9691e4f9ba6c7dc6af07b8a4feba6279d76f0003 selinux: fix typos in comments
+         c7640f83465c2b5a4f7dae7f9f47cfe27c0cf99a monitor: fix integer comparison error (clang)
          
