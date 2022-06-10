@@ -1,58 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6038961533599108164=="
+Content-Type: multipart/mixed; boundary="===============8382211480673697506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 10 Jun 2022 13:45:59 -0000
-Message-Id: <165486875930.25678.9481454492069126471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 10 Jun 2022 13:50:26 -0000
+Message-Id: <165486902656.28613.3765338414538759380@gitolite.kernel.org>
 
---===============6038961533599108164==
+--===============8382211480673697506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: bd476c1306ea989d6d9eb65295572e98d93edeb6
-    new: 3ed8c7d39cfef831fe508fc1308f146912fa72e6
+  - ref: refs/heads/main
+    old: bc0130524cd9a0fda36a14986686a8041ef43fb7
+    new: 987796ffdc40c15af9dea5c7124836c606ee8d1d
     log: |
-         9f4639373e6756e1ccf0029f861f1061db3c3616 mei: me: set internal pg flag to off on hardware reset
-         68553650bc9c57c7e530c84e5b2945e9dfe1a560 mei: hbm: drop capability response on early shutdown
-         3ed8c7d39cfef831fe508fc1308f146912fa72e6 mei: me: add raptor lake point S DID
+         1bee7546f0f1b4796a58b6ccc9578f0945f0c95b wifi: virt_wifi: fix typo in comment
+         17472bc2c3d00e4ed72c3c7b9af0697edea02fff wifi: nl80211: fix typo in comment
+         23a5f0af6ff43195c6fd15d8ae59d019836a6046 wifi: mac80211: remove cipher scheme support
+         9fb00dfe90af4aac6b768ecaa4f03eb198938d0f wifi: mac80211: refactor some key code
+         987796ffdc40c15af9dea5c7124836c606ee8d1d wifi: mac80211_hwsim: Directly use ida_alloc()/free()
          
 
---===============6038961533599108164==
+--===============8382211480673697506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654868758 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1654868757-cb1ee862b3830722919c57a0ddbf4d93136882c6
+pusher 7BF9099A 1654869006 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1654869005-54c4b2e33f220a8433d317bfbfb9c5b07c881b0b
 
-bd476c1306ea989d6d9eb65295572e98d93edeb6 3ed8c7d39cfef831fe508fc1308f146912fa72e6 refs/heads/char-misc-linus
+bc0130524cd9a0fda36a14986686a8041ef43fb7 987796ffdc40c15af9dea5c7124836c606ee8d1d refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjSxYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V8MP/1fhtFGGHnyVPFUR20+k
-QFOK7Su8ycKiSlKFnFrLYrQDqEfEZMbYbTTW5tQCkHCwfabUYJYYAKRN4G3ygk/k
-dno38BKHnIf0874tKCBbyzwYyCsh/CjcRv12QaGf0C9LfeuqrSGIrO+HCS+t3whq
-7ESjQGuN0QEx++Ko/OAKhkvd9XTO29i8mRUeAhvwTdtD7UtggtnV58t8i5hykoI9
-ZcYIHuQDrZ2EK849kQrbTSRoVOjtvTDuUaQrG8y47e7IJx2gZpx3qcG5cDDsxa9D
-zbol3rJj11k1yoQRiIrI2vM/x4CKpLxdvyw94JXlUPAiomhPQJiSz9RixmalVpea
-ZvyBGFOZI9ePO3apydB1vx7ojlCpHg92JqOlHeHJY+m1Mq9ghesNYyWp3opDMrBY
-5dz8iuHCMgp1roVMHEzZYIxYjNdlsgf5ME/3e6VhAYGqw3lOg/eAWDCP6tR+bcm1
-a6Qt/zcPaodp6jmrtkEmOuG5HeT0NWQjMje7asIYCQs1V1uhglJAoWWtXkDRJTur
-aF2iO6+w011AeS0qwsow0/BN72xHJMr8bAV02G58aeqmSlrI7x4IFlsXOXirqAoe
-kSzCamsjaxAf5K+hxkb1DLtjqHu/qLAHxEVeri4w2fdEOw0JXdxg1j0QwJQHyt3Z
-HPeY4zP2HwEhMdPWGOdZwbbC
-=b1gr
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmKjTA4ACgkQB8qZga/f
+l8TgwRAAjti5bMU4YEGOIFFHc/fJOxgGenqntIAFL58KckdHgF2/i3HERJWUT1S6
+fn2dLXSX2dZJi34NxdICo6QXti4QleZqRC3pQ2h4SvHDWc5PX3cem7WEnsogvh8V
+sYhNSbZF9hljJFN49MlUIaPvpfWcH6DOdI5v2TQmbRuIwC3tXk+GlBHHKu89hjRc
+3MPRFQPqgHlCfS0PHMGWZMx9Nqx7f/+8fCbkL6MWHQcK4HnUfLOTS+J9AsYc92eP
+Hs+BiAi9FGsXL5maRAhVDaCN88D6pTYuElpytBkQs6NJsMFc/uljk3SLiXW+llAK
+MpJHECmpmx278dJ10GRsahOvzFdgqdEmcvqAi+ltCbR5KJx9L/WTMxzMX/Vpzi8i
+FX4Ksvssz1VdHRv8PKN9DffM3VI6rvmdzlAjFvETJkf6DSldqX7grO2dAFxkjDGC
+JYT0ylbgNrYbDvDrUbciUlurGAaW/yh2q/TFd7fS4xmcQSLgRbQWbJToEtLoT8c9
+2HpFLyD8JkTTrHSxhpSb9ERUQxC7VsJYrzyIYDCR1TP6QpDC17vAu68jTD+a1nbI
+dZ2cnl2oFFQTmuIuqTqGyO4tig0s73am+GuRwWVmP2PK6IEqKvcGAVQ3X/ou9lG/
+GhPlc4JvC4yPzeQ8Vaa7hXaj8ilj3I3RcTTBFsy1SkTE43ZZHP0=
+=D0GL
 -----END PGP SIGNATURE-----
 
---===============6038961533599108164==--
+--===============8382211480673697506==--
