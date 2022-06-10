@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 10 Jun 2022 12:44:37 -0000
-Message-Id: <165486507718.15915.3572430969281730892@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 12:45:23 -0000
+Message-Id: <165486512330.17736.14143840648287295635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20220608_ranjani_sridharan_asoc_sof_ipc4_add_topology_control_and_pcm_ops
+  - ref: refs/heads/20220609_amadeuszx_slawinski_asoc_codecs_series_of_fixes_for_realtek_codecs_used_on_rvps
     old: 0000000000000000000000000000000000000000
-    new: a45a4d4390b7a562f8edc3518ba6cd2ad17be5bc
+    new: 1eb73102da280b28bc3899f694e673bf3e4d0afd
