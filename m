@@ -1,42 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============4620085612187261846=="
+Content-Type: multipart/mixed; boundary="===============6294240371469984305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 10 Jun 2022 08:56:35 -0000
-Message-Id: <165485139595.12196.4628443703247142606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 10 Jun 2022 09:05:18 -0000
+Message-Id: <165485191877.17863.14121723651996488661@gitolite.kernel.org>
 
---===============4620085612187261846==
+--===============6294240371469984305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/kvm-arm64/burn-the-flags
-    old: 1de474b579091a8ef129c6ef7b7293649cff39e0
-    new: 9f9a8d7393ecf5957621f5cb0d1187ce3a1b6530
-    log: revlist-1de474b57909-9f9a8d7393ec.txt
+  - ref: refs/heads/arm64-head-refactor-v4
+    old: b4edd8e99afa315e480f9344b4b23acf77b2b998
+    new: 471ce969846a9d03244edcd56df409ed17a3801a
+    log: revlist-b4edd8e99afa-471ce969846a.txt
 
---===============4620085612187261846==
+--===============6294240371469984305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1de474b57909-9f9a8d7393ec.txt
+Content-Disposition: attachment; filename=revlist-b4edd8e99afa-471ce969846a.txt
 
-699bb2e0c6f3796549dabac329501df7ffd99439 KVM: arm64: Move vcpu PC/Exception flags to the input flag set
-0004994a37977a95c05718e899063236b57fddf8 KVM: arm64: Move vcpu debug/SPE/TRBE flags to the input flag set
-97655b1b879013ca2367154d23d09851e674aa6d KVM: arm64: Move vcpu SVE/SME flags to the state flag set
-0aa24ca116e2f9ad1cf358dbbdfb03c5aace3980 KVM: arm64: Move vcpu ON_UNSUPPORTED_CPU flag to the state flag set
-60476db5fc5bbfb4a38b19424a73ca1c362f0878 KVM: arm64: Move vcpu WFIT flag to the state flag set
-84d19fdd72709e6f606fd1e8a66d1f5df3d7b96c KVM: arm64: Kill unused vcpu flags field
-f5b904915a1800dcded0bffa0c3cc7b67a989edd KVM: arm64: Convert vcpu sysregs_loaded_on_cpu to a state flag
-a633201dce7815a282b5f3f288e751db8aaebd26 KVM: arm64: Warn when PENDING_EXCEPTION and INCREMENT_PC are set together
-1f0a4923ba50242c2f624dc34ee1987f7910dd0e KVM: arm64: Add build-time sanity checks for flags
-2f4086b340345d45674411dfa50df76eb2ad53ca KVM: arm64: Reduce the size of the vcpu flag members
-8e6dd8a81a632e9caeaaef297b79355bea10eec7 KVM: arm64: Document why pause cannot be turned into a flag
-9f9a8d7393ecf5957621f5cb0d1187ce3a1b6530 KVM: arm64: Move the handling of !FP outside of the fast path
+3f006b9e350227d1c16806b4a9ed9ba455fd7302 arm64: kpti-ng: simplify page table traversal logic
+4a9cda4bac7d869aa71ab06efe5d0e7a3f97e025 arm64: mm: install KPTI nG mappings with MMU enabled
+628469550043b77ebb2a8a8819bb0d146d833d31 arm64: head: move kimage_vaddr variable into C file
+3e054fe54323038289c99a82b839d0c14ab5236b arm64: mm: make vabits_actual a build time constant if possible
+955bd55405c478fa17e2c5920b750128f60b3d90 arm64: head: move assignment of idmap_t0sz to C code
+1dc3d7e455278d280fe9d618a83e2ebe1e892fc0 arm64: head: drop idmap_ptrs_per_pgd
+00c9e504b9caa4b5289dc3aea4f76153d05a0ada arm64: head: simplify page table mapping macros (slightly)
+88b427bbfb751e197f0d2c32a858aea3521df732 arm64: head: switch to map_memory macro for the extended ID map
+852a1368ba992dd57cc7ae1c6fd001e7babd9677 arm64: head: split off idmap creation code
+d4727f1f5d58b6df2859168c5e75e181268017ad arm64: kernel: drop unnecessary PoC cache clean+invalidate
+b4e34211640fd0055adef61a3e2a67343dc34c67 arm64: head: pass ID map root table address to __enable_mmu()
+34fc342888a4943f32235a340b935229392d9213 arm64: mm: provide idmap pointer to cpu_replace_ttbr1()
+d7db2b9f37a522d408367dd2472d63b31408e093 arm64: head: add helper function to remap regions in early page tables
+8c90e9327d0fdbe1576cbff0a6f8de7873c93a0f arm64: head: cover entire kernel image in initial ID map
+13ec86ce2d9aa1d2e40c9241a7c17acd0a2cb721 arm64: head: use relative references to the RELA and RELR tables
+9cbe5ddc2da505711660494ef26cdba54a2668a1 arm64: head: create a temporary FDT mapping in the initial ID map
+150356b2e66e6112db8aae9f5999798cb5e70169 arm64: idreg-override: use early FDT mapping in ID map
+60dcf6d9d5384b7bc619a4b757fa3c2eac720b32 arm64: head: factor out TTBR1 assignment into a macro
+a0168e131adbf0d4a2daf60e5ed9fae568a9e3d8 arm64: head: populate kernel page tables with MMU and caches on
+9fc0ca83be505b0ce24dfd168adb5606d336745a arm64: head: record CPU boot mode after enabling the MMU
+22c77489349e65cd3fa982e657d083dfbd3408a8 arm64: kaslr: defer initialization to late initcall where permitted
+eb14d7faadf728d1cdb6efc53fe143898fc0a363 arm64: head: relocate kernel only a single time if KASLR is enabled
+867a97dd7f032c09562c0155520fd58e2b000849 arm64: setup: drop early FDT pointer helpers
+de39353cfcde2433402a5783403e9de956e611ac arm64: mm: move ro_after_init section into the data segment
+81102863c8118c2d5ec05030dadb64478f712b03 arm64: head: remap the kernel text/inittext region read-only
+7bc158a8e9e123fd3f0e4b30ac6155913b87fb73 mm: add arch hook to validate mmap() prot flags
+0e0517ffe1194a13ee4658efb25cc6b3fa06cc54 arm64: mm: add support for WXN memory translation attribute
+38ea6c6434ad5fcc83cb43b1c97272a095da0965 arm64: head: record the MMU state at primary entry
+9567cc9653363afdc1b28afa141064722498a83c arm64: head: avoid cache invalidation when entering with the MMU on
+8a60c9af4be8cbfe9174f435d04e7759c42ef2fe arm64: head: clean the ID map page to the PoC
+8ba93a6f1436eca0ffc753fc2280f611fee92203 arm64: efi/libstub: enter with the MMU on if executing in place
+7d13850e1110205082f1bd9176c161268a88f18f arm64: jump_label: use more precise asm constraints
+f67082c11db851c63132e8ada98e2831bd5fc398 arm64: kernel: switch to PIE code generation for relocatable kernels
+471ce969846a9d03244edcd56df409ed17a3801a arm64: kernel: move ID map out of .text mapping
 
---===============4620085612187261846==--
+--===============6294240371469984305==--
