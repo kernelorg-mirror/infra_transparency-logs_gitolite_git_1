@@ -1,72 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2520974877955035002=="
+Content-Type: multipart/mixed; boundary="===============1134328890901171524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Jun 2022 14:02:55 -0000
-Message-Id: <165486977568.3339.1414677553418209578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 10 Jun 2022 14:02:58 -0000
+Message-Id: <165486977892.3396.12477491871398557285@gitolite.kernel.org>
 
---===============2520974877955035002==
+--===============1134328890901171524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: c21b0837983d3b00c4f73927dae8441bf478087f
-    log: revlist-f2906aa86338-c21b0837983d.txt
+  - ref: refs/heads/next
+    old: e15f5e6fa6ca1b3baf087314b2541afa935d00e7
+    new: d38ea9579ce34dfe22378788e99f26eab31ea064
+    log: |
+         61d9c412d0416aa1f7914a732d424a9e8ff24c36 KVM: x86: Grab regs_dirty in local 'unsigned long'
+         dfe21e6bc05af433308bc1842da28a8fe28faaa4 KVM: x86: Harden _regs accesses to guard against buggy input
+         a5ba67b42f07952ec45755bbdd66d7c6e49f555c KVM: x86: Omit VCPU_REGS_RIP from emulator's _regs array
+         0cbc60d44c35b1070eb4070b499164d27d050576 KVM: x86: Use 16-bit fields to track dirty/valid emulator GPRs
+         b443183a25ab61840a12de92f8822849e017b9c8 KVM: x86: Reduce the number of emulator GPRs to '8' for 32-bit KVM
+         1cca2f8c501fa01e6c0d2aefbf97f8c3c89c0186 KVM: x86: Bug the VM if the emulator accesses a non-existent GPR
+         49a1431d3bea4092082b0082cd9f58f3ccdf57f4 KVM: x86: Bug the VM if the emulator generates a bogus exception vector
+         d38ea9579ce34dfe22378788e99f26eab31ea064 KVM: x86: Bug the VM on an out-of-bounds data read
+         
 
---===============2520974877955035002==
+--===============1134328890901171524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654869773 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1654869772-9e6453285152d6c37e8e20179d0a2c71421b5ecb
+pusher Paolo Bonzini <pbonzini@redhat.com> 1654869775 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1654869773-e125d97e37fdda3e7a1ff5a90a8ef5e0fb821497
 
-f2906aa863381afb0015a9eb7fefad885d4e5a56 c21b0837983d3b00c4f73927dae8441bf478087f refs/heads/driver-core-testing
+e15f5e6fa6ca1b3baf087314b2541afa935d00e7 d38ea9579ce34dfe22378788e99f26eab31ea064 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjTw0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cYAQAJZlstCEUhCX28kk9sdW
-H6joXWHIuZQJ9EYbrtkjOeLb7hzLxAloDpkxl66PLzykN890HfAscSQ1imtipPs8
-iCAflcZp6TpmJ5S8kVilFGH+kTzon03RzFzNfRXIfjgJCgkRk+BLH5WkqqQzB+m1
-qbB8orgzQ5dvPOY0asHnKrpSSq6dFm9aPfDuAzOi3qcWKvDDtaw08TVY+Fg3FJod
-1n2tvvMP5OvQ/TAUQes17DDCvTxQ+YnDZnMjMDS9IIICa9tYDYILTmlQKPnfTaGb
-pe1umZdiDP0y3OEtOJxI6YYrWniCgRmaLs1KM/w7i9IFfjHztkH8PJ2nZmVhnYuL
-6td5+L9g8ZqUXMjB6OIzJ4Bbg7r/hMpnvf0YLds+irBjmOKr6U5FbBIkgjrvbaUn
-PQZa7Sm/HzXmYV0By2CyHHtxHB9mkZ4VfWHJj2HHAxsvzWNaEZC0SZUN7uIAgqq8
-ueFdrHri5MTDomVTHmbpguq+zbrumqvcrr7EvdrWym1kaTaBka7rUYCaEpVWSgUU
-NVEH8aiQYHMuIaBxmz4IjZzHTRPCGHUAhOiraaf12ntzFL0plkBsF44oySrQgVaN
-qE1DF+LkWAgC/RaVWucQxlmycZ513FvPQVt1sjALQyqiGA24rV/MrDy0AOugLIB2
-lTx5OFq28eGkHilvpsmtamPz
-=kHt9
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmKjTxAUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroO4ugf9EBCc9UmIVZWFs356J/qdC0/boDH7
+W1VDOVfWba4U656IAiaLL4pr5SMaTDPn9f0yBHKn55PNTc/rYXF6RiM29TFaVHib
+O9YZDt+mQGobr58i3OlzzL568PQFRMdHMx/Cvfd0WL5fmAv0OJYUZt/u3r+Ns60y
+uR8hTpoNtzE/YYVdsFD+ErYcUQHYbT+wIiuitSyjz2Aq6fjVkyntpcWsKn6jwIGi
+E7G88DzgjYQ5IIC/6wJaC5uOKreDVbKQSFgQZmUkt7WDlfvzi2lty2zaTIP1woJq
+t02GISvxWTwOKsarCaD1+OxYH4dsyrwnk1Ndwro7jC6NUsiGzt558Q4AVA==
+=+7NT
 -----END PGP SIGNATURE-----
 
---===============2520974877955035002==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-c21b0837983d.txt
-
-5a46079a96451cfb15e4f5f01f73f7ba24ef851a PM: domains: Delete usage of driver_deferred_probe_check_state()
-24a026f85241a01bbcfe1b263caeeaa9a79bab40 pinctrl: devicetree: Delete usage of driver_deferred_probe_check_state()
-f8217275b57aa48d98cc42051c2aac34152718d6 net: mdio: Delete usage of driver_deferred_probe_check_state()
-2f8c3ae8288e4a4018330ed5c4e758b878d9c555 driver core: Add wait_for_init_devices_probe helper function
-dd429036e778a3d789e6f6df6d1684764048fb50 net: ipconfig: Relax fw_devlink if we need to mount a network rootfs
-f516d01b9df2782b9399c44fa1d21c3d09211f8a Revert "driver core: Set default deferred_probe_timeout back to 0."
-71066545b48e4259f89481199a0bbc7c35457738 driver core: Set fw_devlink.strict=1 by default
-b09796d528bbf06e3e10a4a8f78038719da7ebc6 iommu/of: Delete usage of driver_deferred_probe_check_state()
-9cbffc7a59561be950ecc675d19a3d2b45202b2b driver core: Delete driver_deferred_probe_check_state()
-82b070beae1ef55b0049768c8dc91d87565bb191 driver core: Introduce device_find_any_child() helper
-c21b0837983d3b00c4f73927dae8441bf478087f spi: Use device_find_any_child() instead of custom approach
-
---===============2520974877955035002==--
+--===============1134328890901171524==--
