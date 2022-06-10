@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 10 Jun 2022 04:41:51 -0000
-Message-Id: <165483611154.7211.6990627759485004147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 10 Jun 2022 04:56:05 -0000
+Message-Id: <165483696574.17088.13456654138645604270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/for-linus-5.19a-rc2-tag
-    old: 0000000000000000000000000000000000000000
-    new: f2e5b8104a4d772308fd6ddf0365d35d197a81b8
+  - ref: refs/heads/master
+    old: 825464e79db4aac936e0fdae62cdfb7546d0028f
+    new: b489a6e5871690735752f8875f411e4d0cd8e5df
+    log: |
+         b489a6e5871690735752f8875f411e4d0cd8e5df tls: Rename TLS_INFO_ZC_SENDFILE to TLS_INFO_ZC_TX
+         
