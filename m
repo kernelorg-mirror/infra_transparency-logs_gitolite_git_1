@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2205787725350168329=="
+Content-Type: multipart/mixed; boundary="===============0075677542082594925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 10 Jun 2022 07:11:44 -0000
-Message-Id: <165484510443.7388.510063693499726432@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 07:12:08 -0000
+Message-Id: <165484512889.7749.3704783519064569438@gitolite.kernel.org>
 
---===============2205787725350168329==
+--===============0075677542082594925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: da30e351882965df99455904c3c020d138899d9f
-    new: b9c5e272062708680d47df433bfbfe5299ad1a63
+    old: b9c5e272062708680d47df433bfbfe5299ad1a63
+    new: 991ebc730369c10f6ac36a62c8174276b3811de8
     log: |
-         857fe9e5efc09833fe1110e99d8baba954a86abb staging: r8188eu: add error handling of rtw_read8
-         fed9e604eeb6150847d9757f6b056c12912d468b staging: r8188eu: add error handling of rtw_read16
-         b9c5e272062708680d47df433bfbfe5299ad1a63 staging: r8188eu: add error handling of rtw_read32
+         991ebc730369c10f6ac36a62c8174276b3811de8 MAINTAINERS: add myself as r8188eu reviewer
          
 
---===============2205787725350168329==
+--===============0075677542082594925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654845101 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654845126 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1654845101-a60f5e469c6b9a2ccdd1dab135e54b8356e587da
+nonce 1654845125-30f56c18d11e16fc5b4f90e91384a42586eb6b6b
 
-da30e351882965df99455904c3c020d138899d9f b9c5e272062708680d47df433bfbfe5299ad1a63 refs/heads/staging-testing
+b9c5e272062708680d47df433bfbfe5299ad1a63 991ebc730369c10f6ac36a62c8174276b3811de8 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKi7q0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2FYQAJPA5XdgjkS66snOQJ+x
-rCVbUiXMcIerQhGzCF/Eo6VU4Lu5/2C4F4K6wsvqrRjMV7lUsXsNdIzJ7dLPtqM1
-ADs3oTlr9PbZzOYC9QNKEK785wJyksZ/Xl1wye5nP0KsfXiANvQbSXnG7mhNNJIM
-P9cJCAubTarYTzdUA6PYRGmHh9alC2kT8VC0uBnMvjt1bSqebNJwzkkR0vgFSywV
-kmSu4DuPt6RNnwNztNLGr5SIiwqemhrOTEbrT1xzkevf8S+6YMFMu833sHow/lDf
-x/fVrYuBnI5Lw9w432IQkeD2/J7Q4AN9tb3w71ISr75j53vU/NUqCqAUr0IMOXlz
-POOZC3Px2/hzuPo55C/NBljVo0MRnRtRVkrMARv9qPFbdGmk+nV16FWGVDR709ir
-T8J3i47/E5Z+w7HSN5LQuCIullo5vyBdghZ8c6WqW10y/rWn2/X2WaiEhlLUrk9r
-e0utPcLUj4qsUscsS/Q3b/ZZUseXfEt/9/cRfy17aUPZjCWkIXrEvMouKrpjxF4b
-5A3ZPPN37sEqktTRm3g3RSBwql/jTsX4Mrcuir7mRGTh+eFUqJ30HXmg2cnSK60g
-c0DZUe8Sg3tl+FQqxb+/sIj23E24qu70KocFJUuN3+FtjAWM7SM/s533qItyB/Uq
-LMf0qz55tMeUC6PjQLsTfJyT
-=+ttt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKi7sYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/mkP/1aywesdgumbYEJpky3O
+Fvl0V38vWZ5h1IYnpiHpDZZLELALELGty/mkCvfS4sQ1voNfcIw84PFvYsSmg2Mp
+b1GZ98W5qR8PPzZA/WgD9YUTfC8o6GN0mTlQ0p903JimhCoDzO+OOqEFJ/PU3+yt
+W5QnZDECDkyvQREHUplz+RSA2RFmUgHFUDOWAa13oICbD7AtmSmUD0QQWyfee4Z9
+S/NB/FuCRvyoBXvtCCHxav33BPa1KBL8DWp52/hSabnMYLp85u2xRChBrzfy2z/b
+XUQ7sZX2tGd312d0KZ6B+7Gb1w2FUMBQCOpefEk6I5JNqh/km0Vsx4TfxV1dKaUB
+HJsuXMNMPhS6V6n6J4K4r5oqsyyNAilEdFSSUmunWgiWXlezEq+cjsBlk+X1Dll1
+zeNGqNlSM5MG7l3yom52dglGbElSXHgHnnanoWXkEJYk9jdZD7FVJOi/JypIP9wB
+Y4EH4qLTqS6vMXHa+qcvl5mIPfHfRVUbbkq0MJXjEaYZKcqI20L/Ju4/eLRIVIzP
+/NzKu+fvSG4YLgLuXlh/0tvNGDXVtJWC8pGqUCn49lHs+ahVs5JF3uO3anoMeiKh
+LNyn3bjoOB5sC9bNRTcMvuGigC3SFsa0W6u06GVoFy6OEidi3P9fN8v5x16ixhbq
+wMUwwD+8Z4Aj/BYChFzMgLv/
+=F/7I
 -----END PGP SIGNATURE-----
 
---===============2205787725350168329==--
+--===============0075677542082594925==--
