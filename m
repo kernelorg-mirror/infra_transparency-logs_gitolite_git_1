@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8382211480673697506=="
+Content-Type: multipart/mixed; boundary="===============7936372608849412577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 10 Jun 2022 13:50:26 -0000
-Message-Id: <165486902656.28613.3765338414538759380@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 13:50:51 -0000
+Message-Id: <165486905163.28789.14976368915555300941@gitolite.kernel.org>
 
---===============8382211480673697506==
+--===============7936372608849412577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,37 @@ repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/main
-    old: bc0130524cd9a0fda36a14986686a8041ef43fb7
-    new: 987796ffdc40c15af9dea5c7124836c606ee8d1d
-    log: |
-         1bee7546f0f1b4796a58b6ccc9578f0945f0c95b wifi: virt_wifi: fix typo in comment
-         17472bc2c3d00e4ed72c3c7b9af0697edea02fff wifi: nl80211: fix typo in comment
-         23a5f0af6ff43195c6fd15d8ae59d019836a6046 wifi: mac80211: remove cipher scheme support
-         9fb00dfe90af4aac6b768ecaa4f03eb198938d0f wifi: mac80211: refactor some key code
-         987796ffdc40c15af9dea5c7124836c606ee8d1d wifi: mac80211_hwsim: Directly use ida_alloc()/free()
-         
+  - ref: refs/tags/wireless-next-2022-06-10
+    old: 0000000000000000000000000000000000000000
+    new: 1577613974120722b9eeb02de8ef05fcd2c4d902
 
---===============8382211480673697506==
+--===============7936372608849412577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1654869006 +0200
+pusher 7BF9099A 1654869033 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1654869005-54c4b2e33f220a8433d317bfbfb9c5b07c881b0b
+nonce 1654869032-5e5e451097cd9bc1276fe45c9e760a0a590b0745
 
-bc0130524cd9a0fda36a14986686a8041ef43fb7 987796ffdc40c15af9dea5c7124836c606ee8d1d refs/heads/main
+0000000000000000000000000000000000000000 1577613974120722b9eeb02de8ef05fcd2c4d902 refs/tags/wireless-next-2022-06-10
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmKjTA4ACgkQB8qZga/f
-l8TgwRAAjti5bMU4YEGOIFFHc/fJOxgGenqntIAFL58KckdHgF2/i3HERJWUT1S6
-fn2dLXSX2dZJi34NxdICo6QXti4QleZqRC3pQ2h4SvHDWc5PX3cem7WEnsogvh8V
-sYhNSbZF9hljJFN49MlUIaPvpfWcH6DOdI5v2TQmbRuIwC3tXk+GlBHHKu89hjRc
-3MPRFQPqgHlCfS0PHMGWZMx9Nqx7f/+8fCbkL6MWHQcK4HnUfLOTS+J9AsYc92eP
-Hs+BiAi9FGsXL5maRAhVDaCN88D6pTYuElpytBkQs6NJsMFc/uljk3SLiXW+llAK
-MpJHECmpmx278dJ10GRsahOvzFdgqdEmcvqAi+ltCbR5KJx9L/WTMxzMX/Vpzi8i
-FX4Ksvssz1VdHRv8PKN9DffM3VI6rvmdzlAjFvETJkf6DSldqX7grO2dAFxkjDGC
-JYT0ylbgNrYbDvDrUbciUlurGAaW/yh2q/TFd7fS4xmcQSLgRbQWbJToEtLoT8c9
-2HpFLyD8JkTTrHSxhpSb9ERUQxC7VsJYrzyIYDCR1TP6QpDC17vAu68jTD+a1nbI
-dZ2cnl2oFFQTmuIuqTqGyO4tig0s73am+GuRwWVmP2PK6IEqKvcGAVQ3X/ou9lG/
-GhPlc4JvC4yPzeQ8Vaa7hXaj8ilj3I3RcTTBFsy1SkTE43ZZHP0=
-=D0GL
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmKjTCkACgkQB8qZga/f
+l8T4KQ/+LeMVFXvWFA21a4DGPXhCLs21mjPcMa/zP0paoGNogJMBvg03VKb6bXNr
+S56380lu1qdu+UNKwiVLsVO0Iy4Fa8+TJ0DfqgxNCYx/KslfQ1nKcl7FGP8vqZQB
+LhpN0XRYiJPSQ/fhkHGGgEMbm/Kde9fCB8jzO0xI6yQwtn2MPhCL8H9eURf6J6Tp
+sA5VnRGt/xOqC1WmnCAAd6+SVr9XrHY3/TIW56G0oyN4MouIjHw4HIq/FqsxkKdC
+5tEfX/6CLDM0i/T7LZKtkKN14N2xPCOGKgUf89qpF72FTFOsEqzhFKfZezG1wrmD
+2v3ljb07ea86KkdqdJsy6Jhghpinnv5Zwpqxj+3e539V+WUkMgaGjPCWpMjqw72G
+l3HOXcpzlwJ/mp5OnMfo8HtyB2U5WfS3Bd7+Zpir2kCiX6j8j6KWXZDcpJ/xF33R
+3kreiciLZaO4WtuCrilN+stXrzrqjFH/ysujadGs/TdQdwxJNJ8GDmBALv2BilRI
+4xnJ5uwDmQdWsbppPDzmzjbKmkfY68fhOhJDUQM3+VrM3jM9LYCNxl1CTLhN2WQ8
+JLhuds8B1Xar0As5jqK4VQmq8rCe2Idco1WpFkLsll0u+g7wTQKhvkYDYGuRitCX
+5NcNGgKczNdNru4KkA16moYYbypCbnLEbal+LMrRXB4FFS0aivc=
+=fz1T
 -----END PGP SIGNATURE-----
 
---===============8382211480673697506==--
+--===============7936372608849412577==--
