@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 10 Jun 2022 17:53:58 -0000
-Message-Id: <165488363810.28043.14519085865789685773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 10 Jun 2022 17:57:23 -0000
+Message-Id: <165488384359.30594.14062587907486975496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/tags/v4.14.281-rt134
-    old: 0000000000000000000000000000000000000000
-    new: 42a7ca052d120929f11ad92ef763b055c118f4ae
+  - ref: refs/heads/review-hans
+    old: 15867c6162776a2f3b9d30efb44c8e086485e196
+    new: 170e6de1b6385e0235d3a58e5c7bbdff6e8adc6c
+    log: |
+         170e6de1b6385e0235d3a58e5c7bbdff6e8adc6c x86/PCI: Revert: "Clip only host bridge windows for E820 regions"
+         
