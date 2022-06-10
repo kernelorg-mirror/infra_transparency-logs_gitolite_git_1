@@ -1,55 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============5951594879667541502=="
+Content-Type: multipart/mixed; boundary="===============6032708761597365502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 10 Jun 2022 15:58:04 -0000
-Message-Id: <165487668437.14508.492820611523424462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 10 Jun 2022 15:58:16 -0000
+Message-Id: <165487669680.14639.2851837532082904387@gitolite.kernel.org>
 
---===============5951594879667541502==
+--===============6032708761597365502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.20
-    old: 0356163e5883e298b518cd16517be633824987f9
-    new: c349fad389c5916facead610d454250f67cfb20b
+  - ref: refs/heads/for-linus
+    old: 7a1c0b0cd56035a6bc3817dac47e574979672919
+    new: 2eecf31c46473377b854d168e30e1a046ada447e
     log: |
-         4a2f83b7f78092a6d9e98fb5573d8f4b79c56336 spi: atmel-quadspi: add runtime pm support
-         f11ec1cc46e38f0feac3721a03c21fa99167e329 spi: atmel-quadspi: use pm_ptr()
-         af7c2d4145b57c15d25a092cfb5a91708c72b541 spi: atmel-quadspi: align condition to parenthesis
-         a1f0161eadbd7941c09b5f4c6a210c390d2b86d6 spi: sifive: add PM callbacks to support suspend/resume
-         67b9d64139e13621d3ab8bb0daad7602e5fe0778 spi: Fix per-cpu stats access on 32 bit systems
-         c349fad389c5916facead610d454250f67cfb20b spi: atmel-quadspi: add runtime pm support
+         2eecf31c46473377b854d168e30e1a046ada447e Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: 1aa9d4c94cdb31ae2253766105820314ecb7c59d
+    new: 15f61ff7aaf8c5f00fd09331869bd05c98f65d0a
+    log: revlist-1aa9d4c94cdb-15f61ff7aaf8.txt
 
---===============5951594879667541502==
+--===============6032708761597365502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1aa9d4c94cdb-15f61ff7aaf8.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1654876682 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1654876682-a8b9d14327e81da59941519c97ceacc4f3b15eb7
+5babb012c847beb6c8c7108fd78f650b7a2c6054 ASoC: codecs: msm8916-wcd-digital: move gains from SX_TLV to S8_TLV
+2fbe0953732e06b471cdedbf6f615b84235580d8 ASoC: codecs: wcd9335: move gains from SX_TLV to S8_TLV
+a43b4394bb35391b74486a788be6634ed91e221a ASoC: codecs: rt274: Always init jack_detect_work
+3082afe097cc5d794c28a629f3492a0133ee4891 ASoC: codecs: rt286: Reorganize jack detect handling
+1eb73102da280b28bc3899f694e673bf3e4d0afd ASoC: codecs: rt298: Reorganize jack detect handling
+df4d27b19b892f464685ea45fa6132dd1a2b6864 ASoC: Introduce 'fixup_controls' card method
+145cb4e7a9ee12326f99948d8980ad258462b6c4 ASoC: SOF: debug: Clarify the IPC timeout handling path
+c7b6c95c3ef37d7a0b28e62391bccfefdabd7a18 ASoC: SOF: ipc3-dtrace: use pm_runtime_resume_and_get()
+1149ebb6ffc5f5556309c6703caf05af81496132 ASoC: codecs: Series of fixes for realtek codecs used on RVPs
+c5d41ca7b2567f55c5448da00cf5013b98ba14db ASoC: codecs: qualcomm move gain to S8_TLV
+2eecf31c46473377b854d168e30e1a046ada447e Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+15f61ff7aaf8c5f00fd09331869bd05c98f65d0a Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
-0356163e5883e298b518cd16517be633824987f9 c349fad389c5916facead610d454250f67cfb20b refs/heads/spi-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKjagsACgkQJNaLcl1U
-h9B1agf7B/QqY/G8pLZoyPwSZFlPH+zoJFsMRY07HGDUVWDR2qnHXX/1xxRDjKSj
-wPijfFq2gYw9FLFMzSUSh2jbCuRUsuBGkf5QPcK0A/MYWgU0i2U1GvcAbYLyoB2s
-GN/zWBHvMgAUlFyzTXRB8zNbmus40qWpxJhAGUzXzvZGIFhSDkWHqCF0TS6C3J8w
-6CYrd0LuftBg/ags2qflmh8uCeT2/JBkQMYGgFH8IAMh96j3VOPCpqDyzSD6UQXB
-pUv5T+E9xL6pKXSByy/fpg59lwlKYuQhk8OE3sxaJtptL2DsSi9+X9oI0DPODMPx
-JRhPPQStZPYS4SdR1J8sbhW0iOFyBw==
-=DuMc
------END PGP SIGNATURE-----
-
---===============5951594879667541502==--
+--===============6032708761597365502==--
