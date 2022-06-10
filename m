@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 10 Jun 2022 03:42:16 -0000
-Message-Id: <165483253680.32590.9552370485746258540@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 04:07:31 -0000
+Message-Id: <165483405173.16314.17573037691278329292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
   - ref: refs/heads/opp/clk
-    old: 3c6c953fd159e8e0a31b2b0ba71f6e783a183b81
-    new: f080a9b718b02d1113b308bad17959b16b2ec663
+    old: f080a9b718b02d1113b308bad17959b16b2ec663
+    new: 35edb40a1407906f266134fc84f012b07ff46ab0
     log: |
-         f080a9b718b02d1113b308bad17959b16b2ec663 OPP: Allow multiple clocks for a device
+         35edb40a1407906f266134fc84f012b07ff46ab0 OPP: Allow multiple clocks for a device
          
