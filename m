@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 10 Jun 2022 17:18:02 -0000
-Message-Id: <165488148290.2885.7116885848040072997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 10 Jun 2022 17:22:14 -0000
+Message-Id: <165488173474.5666.11311598956678998617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 2e990e63220bb01e2755b55b93878ce7c8cbe747
-    new: 78cdaf3f4257ab10a6cec308ed774e7c7f7e5f72
+  - ref: refs/heads/master
+    old: a846fce876ca014d41a811dc8d47d3c4ead1bf4a
+    new: 7b14eda63a48baf1aca82446a7e9587bfe1720ea
     log: |
-         78cdaf3f4257ab10a6cec308ed774e7c7f7e5f72 arm64: Add kasan_hw_tags_enable() prototype to silence sparse
+         25a72b9e9fb33ffa0326d1db9b28d74f52468208 cert-crypto: pragma false positive (-Wmaybe-uninitialized)
+         7b14eda63a48baf1aca82446a7e9587bfe1720ea missing: use PTRDIFF_MAX instead of -1
          
