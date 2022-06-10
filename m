@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8903261681222085544=="
+Content-Type: multipart/mixed; boundary="===============6604801256218361304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 10 Jun 2022 17:43:48 -0000
-Message-Id: <165488302839.21342.12034374493549829100@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 17:44:00 -0000
+Message-Id: <165488304066.21468.17872509436969465303@gitolite.kernel.org>
 
---===============8903261681222085544==
+--===============6604801256218361304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6647a3eb6256114ee647e826dcf4a32365b1359c
-    new: edadedb311c14664cb0f3e3acec54e332f3c8abf
-    log: revlist-6647a3eb6256-edadedb311c1.txt
+  - ref: refs/heads/5.20/scsi-queue
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397
+    log: revlist-f2906aa86338-3fd3a52ca672.txt
 
---===============8903261681222085544==
+--===============6604801256218361304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1654883019 -0400
+pusher 75C5DE3D 1654883031 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1654883018-e13bf286bae8d32c1bd13e4b24572949e9471858
+nonce 1654883031-ddc8314f36bdda8e7e1a751a605db6d935803839
 
-6647a3eb6256114ee647e826dcf4a32365b1359c edadedb311c14664cb0f3e3acec54e332f3c8abf refs/tags/mkp-scsi-queue
+f2906aa863381afb0015a9eb7fefad885d4e5a56 3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397 refs/heads/5.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKjgssACgkQ7ulgGnXF
-3j1M8RAAlcv6uI3zM5euiIuRSbj7evPez5CnCPR3SFIdpMCgT0Ps1/0JiYZ6V9D+
-LG6fEA1eAcgcsFHGuXfqlkdjUM2TvzvICBkdkj35Pb7WoEK1eAkjlLS81AJVr/2e
-DVGxxYgC8ixDDB9q2kc0IbN3bR0YK/KpDR8vUNu8FIheGxUL9ADr2At5qjWEqgGL
-fUxuoS4YtktRszNfX3pNo7lQEZB1ZdmB3F+5DANBoBmb2gDn8SL74U16XtieVM9+
-tHSkpwlIqUSvQG6GYN2/3O9nJUZBZXpoqNx4ae7bLwF93ZC2L/w7MJ+wPs8uO3nf
-vcceK0tFiDXmb/TW+RF5wcusZOMRygA0TMes0hRZ2fL+RCq/TVVvqnjC8Rh8cJVC
-E5mbHstycGRZg1ShKPbO8MT8mG+GxgxOW4Y38a+SjBsJutS2nTbbix7OMNjuOnA6
-mwJcoqDXKkcZdreMWnCvtKsw5HUOmXBUJ+nAe//5eVkzvKTN3d7Qkv+ij9p8dz++
-bxZ3hpq17Z7xRIJAXVGNu5AkMxbHOj6+HVMQSmyUOWMHaR6YcDq4qmXXdJS/ujLC
-qZwA3hx9kQ9jp7387axhynFHAfIGUFvOY/4KXvVYsqJ1Dwi4kGTffOgDPc3GoYHX
-KObApRFsPBBTNbncGPcxFn8uv8PuOJJr03IgIHHDpjK47p7fCSU=
-=o7Nz
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKjgtcACgkQ7ulgGnXF
+3j0Btg/8CPSyYTFqjOG8kk51HGwgqEY0KDiueLao+G2axMd9St53ppM0i0t4hUbg
+u9wmX5Mk4Hz6Fb+H5spC5txAAjMBuwfLT2eIYkTKS5aydnbkTjeyt9z+Un3inr3I
+pjjL2YuVdOVurhQ5XbfEb0G20rtQ5sTFz7f1uacWQkGTQkUpjcImf6KDsu2kpvPM
+zho7dD9axFA+HU/BG50rfeXH6U6xpOAfkyRkGS+3/T7jOe09R0ihBsTQAhLI2Ltl
+v8nHd9Bd9w7Gs9jJ6d4KNoD21XUfSS9VJ/++wPYDUG5W2+gbY5Ss0V9FPE4svdoU
+useRkF95Zyq9ZGqAYzlqf+6bclnsifnisQecZgw5mlUsmZitAhmD0jcMp91fXDts
+BSil4ti/1iroLdmP9fYVACXJtW8NcvVK31Aez0fNx3zSgdseMjhFD6S6B7NkKBTx
+pOYFs7xaAN53Y0uz2Vk6hX0Bz0kIkc3XBvOPGSqxkqeOMSZmSmsyAxgGyDHCKl16
+SKAIq4o8B8a3JElDL6Ndsd40kNBYT0ZUkNsAzGSuW6gD8wf3pOBOIa/Y7LIojCUd
+lDrPrCU7nFacbtL0EQu6iSem/+JQF/WMnivqTbSxkt82xRsR5B2uXrCKAItJ2MfT
+yIvoiHr59pl5JwmQY2P+esaFrqV/OyV09dFUZGVIr2gBClBU9Rw=
+=NVYS
 -----END PGP SIGNATURE-----
 
---===============8903261681222085544==
+--===============6604801256218361304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6647a3eb6256-edadedb311c1.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-3fd3a52ca672.txt
 
 9c40c36e75ffd49952cd4ead0672defc4b4dbdf7 scsi: qla2xxx: edif: Reduce Initiator-Initiator thrashing
 7a7b0b4865d3490f62d6ef1a3aa39fa2b47859a4 scsi: qla2xxx: edif: bsg refactor
@@ -72,4 +72,4 @@ a75fcb0912a549c6c1da8395f33271ce06e84acd scsi: target: iscsi: Extract auth funct
 a6e0d179764cb31b2981c85e6fd156adc777e4ed scsi: target: iscsi: Control authentication per ACL
 3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397 scsi: core: iscsi: Directly use ida_alloc()/ida_free()
 
---===============8903261681222085544==--
+--===============6604801256218361304==--
