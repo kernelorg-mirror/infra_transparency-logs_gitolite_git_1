@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4744849326795664921=="
+Content-Type: multipart/mixed; boundary="===============7582241124582885299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 10 Jun 2022 11:52:39 -0000
-Message-Id: <165486195955.14767.11933281502656931326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 10 Jun 2022 11:57:32 -0000
+Message-Id: <165486225205.17742.15131478692431358239@gitolite.kernel.org>
 
---===============4744849326795664921==
+--===============7582241124582885299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 499e13aac6c762e1e828172b0f0f5275651d6512
-    new: be03b0651ffd8bab69dfd574c6818b446c0753ce
+  - ref: refs/heads/usb-linus
+    old: 8bd6b8c4b1009d7d2662138d6bdc6fe58a9274c5
+    new: 802dcafc420af536fcde1b44ac51ca211f4ec673
     log: |
-         be03b0651ffd8bab69dfd574c6818b446c0753ce serial: 8250: Store to lsr_save_flags after lsr read
+         802dcafc420af536fcde1b44ac51ca211f4ec673 xhci: Fix null pointer dereference in resume if xhci has only one roothub
          
 
---===============4744849326795664921==
+--===============7582241124582885299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654861958 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1654861956-3eb0124570453164aa1de1113db022df6305ca26
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654862250 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1654862249-099b694ef47864bde9e8f04b599e29cd57c0e9ac
 
-499e13aac6c762e1e828172b0f0f5275651d6512 be03b0651ffd8bab69dfd574c6818b446c0753ce refs/heads/tty-linus
+8bd6b8c4b1009d7d2662138d6bdc6fe58a9274c5 802dcafc420af536fcde1b44ac51ca211f4ec673 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjMIYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9K0QAI3FluawWAR9b4Wqn0e6
-NMCbHcuF1aokwiIMCnevkIr9B/EQ8u1UzAZZ7ufrIGR23FxTMs2SCi4hpeNa6nK7
-Ui6q70Ab19qdQBTNtJUAAoXSQq26yRJmkXazQlx85YmjbLmwzFmBOsBmNQHtXty3
-wsROEdaCWBpw2wnurMDYnDCGL55Y6xW17YQLZ5P2jYCfyHbFoxeLCPkiPRIbtTWQ
-8C0yoh2z7mWgbwa4C7rBxPvNUVrARbH57278GU6RqRVr8PMaB3GAA+27wvD57lr4
-wd0oaVIYGMqSuBaBXzkQhh+z0fhdKxpW08sLr3pUzSZMeZfvAV7MxgqS6g3z5g0Q
-gEM4pEeEER3zT0+yUVPYtoP3/kdIXQ0cR/Y12g63YQNMHdPITxDiN0joMlIRdlmx
-GB/0CM4dXYHZeSgee1ZS8x1OvANkftFA+xCdHBacunYtpXNBSQhlB8UGPlRkOBa2
-beomcyaUPMuDTuysARa36V+JSh27OyDB8A8ptPjM+nzjptG7ptqMRukY/6vgrYe+
-gJOemeMFlKJkeovwnwgwfJzowlFUOMR0roOnLnbkSu/BYoCU/GVLlzvQHKYWxUcZ
-zGfiufvRjJ41ERPdzpFHnSQEhR2VNIGDQxiGGmZnViMdBdT0LajUBMsXvBSHcSZr
-AfSOEUI/s6ISysF+VWCl+uBz
-=at50
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjMaobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TaYP/jujmqpuPzUq1DwQR0Bf
+Qkh0cOqQqn6ZJXhmWcp0MDOvUANT+BVmZlXJzcoDX4cqJPq+LMirDN1IkKcYcr7v
+erAEO97ZdI2h/9yhkA3aKPaUZpDXAcc6F5+FCxs6SIMbFBHF87m7kv8yy3fJYAuO
+9uy4kxILCH8Ch6qTzp6k1hXri5qCn3djGgFa4cWq9iuT/CSgwofJyNU5+yjpqbd3
+/t/uBTrv5omiYAtPcqsx1jfSm6taTTXaiBi4V1oyvPVEVquT8LE6PJDsZfv9DnjP
+3L3LQ57vIvE4Pkm38RywySeLUvNl3OAQYB4Z9vOar6unXmhHfgZmH3dhW9mlRDdG
+d87afJtjP/9Y+Jf7bQ1RY8WvBfwQVzIBkmlTesy7hhhu21NLKCW6sV+OSd2S8TLK
+StE4Ljc/6uHv95BV9OBhQhtq4M6i/PSx5wP3b6zrOfX1vFE6UZp8v1/lw+Mslmtx
+nSfxAMaHMCwneiWB3GMQqETcitjwdd1NXVFrf5PcSV1KYezFrLlpKA6AZ9ImCxGo
+0g7wwHKeWvBV8UpOOJ5Z/FV+HyQHhJazeDS0SBGeYqVYR5CqOP4AU5aUCAv+lMaB
+qYh4D9YTY+Y9N5ah7UT9mROaDQGf2I5vW2Zam0rFT0BstIV12+/+0qBJGv0AuRWd
+oVyD9Weimmx/O4mgKNeRS2Ai
+=VEXR
 -----END PGP SIGNATURE-----
 
---===============4744849326795664921==--
+--===============7582241124582885299==--
