@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3640840215464981286=="
+Content-Type: multipart/mixed; boundary="===============1496286246432797319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 10 Jun 2022 15:57:46 -0000
-Message-Id: <165487666656.14180.11387767624337195297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 10 Jun 2022 15:57:52 -0000
+Message-Id: <165487667251.14287.15635499426960452204@gitolite.kernel.org>
 
---===============3640840215464981286==
+--===============1496286246432797319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 142d456204cf4dabe18be59e043d806440f609d4
     new: c5d41ca7b2567f55c5448da00cf5013b98ba14db
     log: |
@@ -32,28 +32,28 @@ changes:
          c5d41ca7b2567f55c5448da00cf5013b98ba14db ASoC: codecs: qualcomm move gain to S8_TLV
          
 
---===============3640840215464981286==
+--===============1496286246432797319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1654876664 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1654876664-144b0f51ce82dde2ca7d3d04d71a328631517764
+pusher C3F436CA30F5D8EB 1654876670 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1654876670-2688116ef7f076f197124194dadb161a24ebd91a
 
-142d456204cf4dabe18be59e043d806440f609d4 c5d41ca7b2567f55c5448da00cf5013b98ba14db refs/heads/for-5.20
+142d456204cf4dabe18be59e043d806440f609d4 c5d41ca7b2567f55c5448da00cf5013b98ba14db refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKjafkACgkQJNaLcl1U
-h9AxOAf/RgMJLzsKgI8+cNIw6xsch1TnxiOJzLiWud/L2Xb3ChiZQgp9pVzfrXZ5
-XCt0SjFtRwsAnuNsayke7L+HTskVXtPVOE9DbJUkpC9y+e2AQ9FxksiI/WFPLCIx
-YMKXIoSFfyfrHR5kwzG3JhKorq1UXz+ZxmW0bdn4f8UE5CFHVxeFu7nzfOktugCw
-VzMZUY0/qJZr+SvKnjeR4BUSbJL4am/+qcM2IJgnILZE3/QaDFqCfQm0nFLMTwc4
-NUPmXvRKGLk5cZf31drGncSkqajehNPo3v95bvFLcDhZqUgmDMYzDD6RY6Nx8qLm
-mcME6S07DWCNm0Br4FIh4+Gag5gFqQ==
-=QYCO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKjaf4ACgkQJNaLcl1U
+h9Bcywf/VIVa2s8dfLSEvR4OYlZdhvTJGJTf12Cv1rLO7PtBgHfe+ZdyQeZm1IsB
+GXX8bkni8LyNlhe3Yk2pcRIuwL4DKY2VwmkUewlC67AxwfdB7iuciS0BTYKtC0II
+gvwC5kF+8S1Nburp24xFeYlokMWwsiDJ65BEMyA5BCg/XqOu+sYMGNb3WgrZ7YUK
+V0N7Pg22/OpegdPmavDLQzH4u7U6KDv051KAfAnz6Ge4mFmNDXmj+UtgCHTrUPFq
+27MTSq1cQArBxRN8Ra5mdl30Sp8tdVPwUgQSc9b4aQBxgGCE1fdDJSoQ1X59vs0u
+1+n8F0LSgaKTyLd8exdHbXinhR4KSA==
+=Mkad
 -----END PGP SIGNATURE-----
 
---===============3640840215464981286==--
+--===============1496286246432797319==--
