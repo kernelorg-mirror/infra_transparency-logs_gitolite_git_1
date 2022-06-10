@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7119938970465808919=="
+Content-Type: multipart/mixed; boundary="===============4265483466489689653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 10 Jun 2022 10:22:42 -0000
-Message-Id: <165485656206.18297.2067319525149418082@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 10:25:20 -0000
+Message-Id: <165485672052.20606.13596769316326965575@gitolite.kernel.org>
 
---===============7119938970465808919==
+--===============4265483466489689653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 1360327d2022a334c7321c8fdeee24082025a575
-    new: 45812feb84f4ee00d2edf879904aa35af2cf7c3f
+    old: 45812feb84f4ee00d2edf879904aa35af2cf7c3f
+    new: 477122a1eec325621cefd62da8bd8ac20a66fb8e
     log: |
-         45812feb84f4ee00d2edf879904aa35af2cf7c3f usb: hub: port: add sysfs entry to switch port power
+         5413116ea2e1f963646146b4ae7a4b99c5714427 usb: typec: Separate USB Power Delivery from USB Type-C
+         8479deed1a7ae65893180f39503231110b6d54e8 usb: typec: USB Power Delivery helpers for ports and partners
+         477122a1eec325621cefd62da8bd8ac20a66fb8e usb: typec: tcpm: Register USB Power Delivery Capabilities
          
 
---===============7119938970465808919==
+--===============4265483466489689653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654856560 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654856718 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1654856559-c7f6db829b9174260e07f3afe96d1b8fe524e1ca
+nonce 1654856717-cf01a967d535808e4c9c11381d6cc2ce5fa63fc4
 
-1360327d2022a334c7321c8fdeee24082025a575 45812feb84f4ee00d2edf879904aa35af2cf7c3f refs/heads/usb-testing
+45812feb84f4ee00d2edf879904aa35af2cf7c3f 477122a1eec325621cefd62da8bd8ac20a66fb8e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjG3AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YX8QAKD40H2qPVk1L4xsxEWt
-gdI1cq/dCRcZsuj7X3nW2rKb19Q6FornJ4w9Ok5CD1+N4mrSopag3YFH1spyGSLO
-40yO8EPjRgYUHRr0IUeRZ4qxIilfS8W5Ptgya40rsv12XTotKfIQ0get8ThhB/T4
-2U8eGaCryxN70W9f9+LJEAf5buaolTdybtOrP7lhUghXM2Mwr9/WpUQFqFmMZqBu
-9i3Osr8kpW61QTytVNcs0DIJvW+hE+Sr3V7KzP0e+ehRP7diFH5yjf4WAF/VF0ix
-3fxlThALlNWOD16caclvoKyLRGT+yBCrDi5yZVOFDzq6NM+Ibz3G7soRZkF3B4xl
-UB5EEcUlvN8KWhjjQ5JrkxNQOuBFu6LIF8TJH/n9KWE7dO3ydhHRgdJrTqSF/vIZ
-C9x8ePCixB4AmZ/YhYsR8eEfgquxfr1HeFdd+53zRT9Zn/IlGsbSePms7smMZf2z
-a8mw31qE7K4oKagKrmQ6Snoh1w30mx02XtLZfF39lyB5D18uFHdm9Wnewg7Ir91P
-if2Py5IoO88OGiBn5B63eOicsgCKRnounBJ/8HVSZwLO1I+CQ5HaLOQ6ZTq1nFpv
-1yhMpl0canFm6J5GkG9rie0lqWOQJyHk0kIZ4BZXF4BTMUXb/jvdqwfx41bnGUCp
-qY6q8dC8D78dyjHzIXjcuczb
-=lBxq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjHA4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZYsQAM4e8s92UJZ7dvj9RfSq
+WcHr0n9NaxH49VM0kwpF34et109askNXg+v1OVJMgT5Ft4UY02CaiXzQw2UKln6J
+XAiYPIWsLaBKyh7b9uw3/lOCgxSmVTi52E7RqbtHb4T8eRNeFQ0V38mHuS0NxPaf
+PdgqT2KreamuUn0RckYLKBGGzguV3oKY9HTDYYx3vh26bdcOJaaNPeH7CSxaXkRC
+L+OQ7sm8rB9DGdZMAqdEM0jtFgJgo911geh5IHwmDImpTqPzc/X/KCUlh5E0YNlk
+7MM/lqdnPV6MmA6ipzIHwS05mZb6as5FYWy/gPaVXCwCN98NR0DvVMHDQICx+fvl
+Ep5acElW5FeGsLEgwwBhmrLdFypv6VDeV/4YFRTPBGYfdLp2D0CEeDe/cbbQEh4P
+HUdxP0VfMyXPW+lLGpkZ+TJ2G6hWGIFJFMUzdhWiRzKzsnP3zK2kV+NpKuIJeV+0
+XLs+5ZD7Q2pnEE/QOSjrhVTStfaUOp1EqYPfKgTJqJzUPNc4l36ERCHru8JWlZLu
+o+2/fsmjvqkmABAVSe9Oq4wtDI9iSeuABN6iwNrmYcuNKaWNGzeL/NLHOLz3EJWX
+dMIwSrFnNLeZASa0j6Bz1Gv+mPM7cHJ5AYhoHvwYQUaAQqJlPrvALqJ5G0WHDnkP
+w1u0lUFrzY8LHgdDZTkMGD/Q
+=oCYq
 -----END PGP SIGNATURE-----
 
---===============7119938970465808919==--
+--===============4265483466489689653==--
