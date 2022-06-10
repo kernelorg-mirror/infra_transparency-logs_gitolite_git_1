@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 10 Jun 2022 17:17:51 -0000
-Message-Id: <165488147106.2738.1339941076973782610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 10 Jun 2022 17:18:02 -0000
+Message-Id: <165488148290.2885.7116885848040072997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/next
-    old: cb4e34856b77ff52f2b18e0554d364b558f9b258
-    new: c9357195c5770029f0c65a5b76756dea5b767ff0
+  - ref: refs/heads/for-next/fixes
+    old: 2e990e63220bb01e2755b55b93878ce7c8cbe747
+    new: 78cdaf3f4257ab10a6cec308ed774e7c7f7e5f72
     log: |
-         11a72ae911d3d4eccfba8dbf21daca4ce5f1b6af dmaengine: apple-admac: Fix print format
-         2717d33841957a0f5fb65fd8b37f9c2321593864 dmaengine: dw: dmamux: Export the module device table
-         7811f2e7fd6a30d96eaa1fccf57b07694a8cad27 dmaengine: dw: dmamux: Fix build without CONFIG_OF
-         c9357195c5770029f0c65a5b76756dea5b767ff0 dmaengine: dw-edma: remove a macro conditional with similar branches
+         78cdaf3f4257ab10a6cec308ed774e7c7f7e5f72 arm64: Add kasan_hw_tags_enable() prototype to silence sparse
          
