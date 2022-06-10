@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 10 Jun 2022 17:22:14 -0000
-Message-Id: <165488173474.5666.11311598956678998617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 10 Jun 2022 17:23:27 -0000
+Message-Id: <165488180731.6113.8119402073546665276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: a846fce876ca014d41a811dc8d47d3c4ead1bf4a
-    new: 7b14eda63a48baf1aca82446a7e9587bfe1720ea
+  - ref: refs/heads/for-next/scmi
+    old: 4314f9f4f85832b5082f4e38b07b63b11baa538c
+    new: af4bf3dc2f06b082c01375c6abbc33d39bc72383
     log: |
-         25a72b9e9fb33ffa0326d1db9b28d74f52468208 cert-crypto: pragma false positive (-Wmaybe-uninitialized)
-         7b14eda63a48baf1aca82446a7e9587bfe1720ea missing: use PTRDIFF_MAX instead of -1
+         af4bf3dc2f06b082c01375c6abbc33d39bc72383 firmware: arm_scmi: Fix incorrect error propagation in scmi_voltage_descriptors_get
          
