@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3418255024640738748=="
+Content-Type: multipart/mixed; boundary="===============4744849326795664921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 10 Jun 2022 11:51:55 -0000
-Message-Id: <165486191510.14450.1095830149351832714@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 11:52:39 -0000
+Message-Id: <165486195955.14767.11933281502656931326@gitolite.kernel.org>
 
---===============3418255024640738748==
+--===============4744849326795664921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 84f2faa7852e1f55d89bb0c99b3a672b87b11f87
-    new: 65534736d9a5cab5340ae8819e1394b6325e8390
+  - ref: refs/heads/tty-linus
+    old: 499e13aac6c762e1e828172b0f0f5275651d6512
+    new: be03b0651ffd8bab69dfd574c6818b446c0753ce
     log: |
-         6bb6fa6908ebd3cb4e14cd4f0ce272ec885d2eb0 tty: Implement lookahead to process XON/XOFF timely
-         65534736d9a5cab5340ae8819e1394b6325e8390 tty: Use flow-control char function on closing path
+         be03b0651ffd8bab69dfd574c6818b446c0753ce serial: 8250: Store to lsr_save_flags after lsr read
          
 
---===============3418255024640738748==
+--===============4744849326795664921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654861913 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654861958 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1654861913-5b27be3b2d645a3999ae843c2b475e0d1b202877
+nonce 1654861956-3eb0124570453164aa1de1113db022df6305ca26
 
-84f2faa7852e1f55d89bb0c99b3a672b87b11f87 65534736d9a5cab5340ae8819e1394b6325e8390 refs/heads/tty-testing
+499e13aac6c762e1e828172b0f0f5275651d6512 be03b0651ffd8bab69dfd574c6818b446c0753ce refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjMFkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/7IP/2Rck1VWAVDVgyD6SfDb
-qzlNjVtzucqMfoB+O1Id6v5fHLPbPyPxMqOwm/Vu77lHjemM1xwqQQ2CTVkWnTkG
-U9cXX8rEpbSSn5WhEQO9zJqCHHBjWiI4spHy7hvvSiJK7IqORFoDML1Ffg2VqMgt
-LxEm7sF1UqYzi1b5v/qQp1FbffS2OD3Uhmdit93XVtaIeVKQ58HMO83RdYIiHz3f
-RwHAaYgBcbrWMpIFcfSvzega+DdEOgMRmENVCsAUKE0CAJ6cRJ/zdIIMRp3f/Lfd
-BF4QbjDmVl9xpG+1+Mdk2Y/FMQqb4Kkg5jkUxlAN+eOm8wXxrNJxlkmKQbo9HqbR
-R8EhD7EoimXGX0o8zUslkXFYE7P5bhYDq6wLzRWwTFYInoogtz8C6FF95VE7tFY2
-fcrjDVxL3YRJt+tKih+zQPxyh2mCQ6wDheA3yIDJ/ijAaSJloi/cIIUlXcK2SBzb
-6B2VLsY03VYUbcJZgupxihgcybbNRaB/tzpAG8lwYOET9DRV0MJRF/jGAVBZl2GP
-89joAZCNxQyqaEMRGT8Eo4fm9ZM/E38pTQoNiWprMJ70GMWrMtWxfBosFrd4U25J
-eRipyIWaCYxFVjYPuudWa0/1vrt+ASEFaU8FN9cdVUQYpl580SyeIStbg0PagpWo
-zN+32z8J2Jg4uuSeOXbDufln
-=y1aQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKjMIYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9K0QAI3FluawWAR9b4Wqn0e6
+NMCbHcuF1aokwiIMCnevkIr9B/EQ8u1UzAZZ7ufrIGR23FxTMs2SCi4hpeNa6nK7
+Ui6q70Ab19qdQBTNtJUAAoXSQq26yRJmkXazQlx85YmjbLmwzFmBOsBmNQHtXty3
+wsROEdaCWBpw2wnurMDYnDCGL55Y6xW17YQLZ5P2jYCfyHbFoxeLCPkiPRIbtTWQ
+8C0yoh2z7mWgbwa4C7rBxPvNUVrARbH57278GU6RqRVr8PMaB3GAA+27wvD57lr4
+wd0oaVIYGMqSuBaBXzkQhh+z0fhdKxpW08sLr3pUzSZMeZfvAV7MxgqS6g3z5g0Q
+gEM4pEeEER3zT0+yUVPYtoP3/kdIXQ0cR/Y12g63YQNMHdPITxDiN0joMlIRdlmx
+GB/0CM4dXYHZeSgee1ZS8x1OvANkftFA+xCdHBacunYtpXNBSQhlB8UGPlRkOBa2
+beomcyaUPMuDTuysARa36V+JSh27OyDB8A8ptPjM+nzjptG7ptqMRukY/6vgrYe+
+gJOemeMFlKJkeovwnwgwfJzowlFUOMR0roOnLnbkSu/BYoCU/GVLlzvQHKYWxUcZ
+zGfiufvRjJ41ERPdzpFHnSQEhR2VNIGDQxiGGmZnViMdBdT0LajUBMsXvBSHcSZr
+AfSOEUI/s6ISysF+VWCl+uBz
+=at50
 -----END PGP SIGNATURE-----
 
---===============3418255024640738748==--
+--===============4744849326795664921==--
