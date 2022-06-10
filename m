@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 10 Jun 2022 08:20:07 -0000
-Message-Id: <165484920736.21091.834620223718508509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 10 Jun 2022 08:23:08 -0000
+Message-Id: <165484938879.22075.8144694405578974845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 9e29aefda47fcb231e2cb7dbda342b3f1e058f6a
-    new: 76c4db9b37866c60306d39ed982cba56af15ff00
-    log: |
-         8b29fa207024dc295639f9ba52c28e45782e3baa OPP: Allow multiple clocks for a device
-         6afbc4c795216b31c200ae0c19072403a1caab2f OPP: Add key specific assert() method to key finding helpers
-         a62471a6205813e478c21edb405d62285ea6be6e OPP: Assert clk_count == 1 for single clk helpers
-         76c4db9b37866c60306d39ed982cba56af15ff00 OPP: Provide a simple implementation to configure multiple clocks
-         
+  - ref: refs/tags/irqchip-fixes-5.19-1
+    old: 0000000000000000000000000000000000000000
+    new: a5916170430aaffa351333fdbb10bf4b6c20f9ad
