@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5002117179270049483=="
+Content-Type: multipart/mixed; boundary="===============8093275235989866254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 10 Jun 2022 17:44:26 -0000
-Message-Id: <165488306663.21761.12721793907199307333@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 17:44:39 -0000
+Message-Id: <165488307916.21874.18269862185247802885@gitolite.kernel.org>
 
---===============5002117179270049483==
+--===============8093275235989866254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c478d9555b6962222fed630e8d751a7c9aac8b1c
-    new: 711650652d3a067b04260092667e4527506cc9ee
-    log: revlist-c478d9555b69-711650652d3a.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: 3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397
+    new: b9f50e3cfd13687279f2170ff6ef5d71f6c7db11
+    log: revlist-3fd3a52ca672-b9f50e3cfd13.txt
 
---===============5002117179270049483==
+--===============8093275235989866254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1654883057 -0400
+pusher 75C5DE3D 1654883070 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1654883056-692887621a5046fe22c7076c03636a8118a8d35b
+nonce 1654883069-7e11bdd8ec484dab322ec17659c5b083915dc327
 
-c478d9555b6962222fed630e8d751a7c9aac8b1c 711650652d3a067b04260092667e4527506cc9ee refs/tags/mkp-scsi-staging
+3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397 b9f50e3cfd13687279f2170ff6ef5d71f6c7db11 refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKjgvEACgkQ7ulgGnXF
-3j1KXg/6Ar+CSXkZ1mG3IYQJ0HiMZn2z1PomlTB+huixkYs4qJLeW+XXvZnY/dVT
-OgK+3OdqOSpN6v8c4lDOdYaEYD+e1YUXIPX1V2Z3fZpreHdQB6it7IBluAVvszbK
-K0rrgqaeW3aWCZbu3hclKb9pm3P60nSyWk6P1CDyoZQ2QnKk23IodjJL4EK+OryU
-m8zToU/55oPU3SY81T3/Yd4qevC0gQHNvig+vt3YiiyAZhwYmzMaBDQv39lHdpz3
-KwRX/ikwLIDD6wZI3y/EJEp7s7F+wlRTo2Ft7Wu9wyQKzNHl9PCpbLi5FOENQZzS
-gTBJDEceiWZHqPDeNP5PdVRtFT+dgV5HIN4fIOaLJqf0s47uvgrTkJYB9Edy3FUv
-ABsn2pe1VI/S8NDQA8pkuiBx53mlPUwkIQqXg7C1NqmbSksZvZ3ZhfOg76ybnAjc
-XMSkfwARbiuwl0+pSJO3kYvvu3VpSgU29xf+r95LGtijKteTVink6AlK4RuO/ZFu
-/RhKIG2yFgMy/HULBpdJcLCcyw5dLyQ0ipE2hCsWmta79F4FfrVFjoBdepvcmacU
-vCIqPCgAlrwgprk7AkkwacWNOJrqfhzcyMtLyavx2V7nINKQ1sHebmQMEUQYBVuA
-aPISgagDUEMjYtr23eQsEKjgiK6I9exVGosDG7gXxcTPAH7V4n8=
-=dyPW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKjgv4ACgkQ7ulgGnXF
+3j1Evg//eRcG8I5/tQEJLJxUcJy9Y1bcKC5HtDrRfh09pnsAdOMr5FVFSWyrvj/E
+q1sruiU5Z7BaUfdlxHghb5AJK2n2N2yUn5aA78P1+yfYHROHE09FR1+se99U6Gvs
+Z4T1pTsdF49TWorg/RUj4S9MkLKlRG1WmPcjy+YShsZZPLLP8ufUxXjU/zUXJ7tk
+WBNdeZhlIyttEd4gQfmk/aAFfkfG/UmmEgyLmm8gMaEV2edzEjMz92SpuMABZEdw
+shN9nnvCOOhBS11EE/rP6ZY9A4n4zkXUFtCSXlX1CfzNmMQ3vp5prkAZJx70Wo+f
+rvYv+5fpzhJx0IvtbHZQvoWyelYG1/zYRG7i6nUJntMY/XPeHkGTtqMi89WaY6xf
+JflJ/NsQ46YKwq4Ochikp+DiQv299r73XqJNN+yfLhBil30Md3V0xgpGt6Oebk8A
+uqHl3pzDRCkjiVFokyCodEzQdiiF2MXxeVLnxlgRpMroOQ802evuZXeuwiY19H/c
+7NxVtxzD8tV+XWVI8649QqudrspcsmJMpRjwkeWT84gLdsKl5mxwnAzrjPF6LwwN
+DqVdVTdvwAPQerZu1Gukp+Iu2H3L9eKz43ebAq2VtWYqm5AfFiKYdHgnv+aZIt8k
+Gma6TolbcA4KV36KolDgruu5f9na/KydC+bzkqinU3vOH73z/tI=
+=bRUO
 -----END PGP SIGNATURE-----
 
---===============5002117179270049483==
+--===============8093275235989866254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c478d9555b69-711650652d3a.txt
+Content-Disposition: attachment; filename=revlist-3fd3a52ca672-b9f50e3cfd13.txt
 
 63ab6cb582fad3757a03f466db671729b97f2df8 scsi: qla2xxx: edif: Fix I/O timeout due to over-subscription
 2b659ed67a12f39f56d8dcad9b5d5a74d67c01b3 scsi: qla2xxx: edif: Send LOGO for unexpected IKE message
@@ -83,4 +83,4 @@ a5f67dbeb05aaa4ab68b21c1cd730680f8ea677e scsi: ufs: core: Add UFSHCD_QUIRK_HIBER
 25adf069db8b3d178ebef3227f25fcdd1cca24b7 scsi: arm64: dts: renesas: r8a779f0: Add UFS node
 b9f50e3cfd13687279f2170ff6ef5d71f6c7db11 scsi: arm64: dts: renesas: r8a779f0: spider-cpu: Enable UFS device
 
---===============5002117179270049483==--
+--===============8093275235989866254==--
