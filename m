@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7077823165304257357=="
+Content-Type: multipart/mixed; boundary="===============4870148141687551302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 10 Jun 2022 06:55:57 -0000
-Message-Id: <165484415761.30333.14995460044711470344@gitolite.kernel.org>
+Date: Fri, 10 Jun 2022 07:02:30 -0000
+Message-Id: <165484455010.1439.8390506955179268365@gitolite.kernel.org>
 
---===============7077823165304257357==
+--===============4870148141687551302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 3e763d3dc62697733877ccb2d3c219dfd2404cd9
-    new: 18697b479330508491928a0d8593ba6c005591b7
+  - ref: refs/heads/staging-testing
+    old: 18697b479330508491928a0d8593ba6c005591b7
+    new: da30e351882965df99455904c3c020d138899d9f
     log: |
-         5e9c7546b2be9ac4d0881e23c2c30371f8d92cd9 staging: r8188eu: fix declaration to match 'foo *bar'
-         e2b925edc55aa79d2c72889de1d7edd11e1c06f3 staging: greybus: loopback: fix a spelling error.
-         18697b479330508491928a0d8593ba6c005591b7 staging: r8188eu: remove HW_VAR_SLOT_TIME from SetHwReg8188EU()
+         72aef4f60ff90984fe7aa8b09698120a73373d7f staging: olpc_dcon: Use backlight helper
+         455c5de922236dee1c008621c0401718a4657619 staging: r8188eu: Add blank line after declarations
+         66d653c37228cb328e9e7ecfa87e6b6b7650e56f staging: ftbft: Use backlight helper
+         da30e351882965df99455904c3c020d138899d9f staging: qlge: qlge_main.c: rewrite do-while loops into more compact for loops
          
 
---===============7077823165304257357==
+--===============4870148141687551302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654844157 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1654844548 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1654844156-2c2a917a405b9b2e8b69931fb0022553822fa0ed
+nonce 1654844547-0f9a9387c2ca4850bb7efa73f22cb188602f6f01
 
-3e763d3dc62697733877ccb2d3c219dfd2404cd9 18697b479330508491928a0d8593ba6c005591b7 refs/heads/staging-next
+18697b479330508491928a0d8593ba6c005591b7 da30e351882965df99455904c3c020d138899d9f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKi6v0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UdAQALuUw8dtcn0DjDsYjREV
-KxtrG1WLLEYsHLWS/s1O9QcSPlbs8RXputYwVylkuagE8hMNr1PQpRFJTQTkW149
-+EGw04AeTiLfCnaxgM7tKFRYIbeFbtgJdu9SBAf1jznoynR9nDp3Hha4TEHsSgyh
-sGWvBsFs731llWpGGeYR2MIeaslyzELvY/hKK279qB4rqqhcFX15umcZNMbfKB44
-eEwJF/FdgHvciqAxyrL/7ifZIGJgPQnzKi7rzkciukakiKap7T5i0uEXQs1oHOlG
-BNxCvZUIpKuHzKukebErXShqaVruwz8bY2wuhOYkek3yPcNyhrg49znE5JoRz5gj
-HX/9euqKTEx+xLHB6AlvoVY/ZtPfSVVuRRdOTLbQJZ9khfmGSX/ZuQOvwdMqEi4y
-H1NNdEknmFT98E9p6erp5zfZEUCvF1n0pLQN/BwM3IH5JAMBXk3OtneFO4TS00+A
-PYXbijEKjndDNhH8w165c+N8XuHeR3qNfirXN6EpPZaJxjsRBRQGTvCK/iGyd5Cq
-C7HViIZbTx9LWxdjxFRhODdgb03g641DlN6r/9ugEKuGf8RQohs45CJUgv9O38Nq
-1NFY6miRDwc70wjlN/WKDt12ijpsqTyzKe4s40LW3GvsL6Y+BrzlwMZibkCFZG12
-eZn3jXq7j8P7bjWtv/hGnUdL
-=HuvQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKi7IQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t5AP/3e5JzL/otJYUsKpO1kD
++UEFWc0BrHGOB8HaYOlo3jBImg2gLZ0C4dbkcGTYHVuUrlML8B4vCHvTuPTtocru
+F5J2L0orYYOdinOYPjW08X3oTvZsbNFb4Xma0cBlwvJYRre1QsM39KuDXyUNSMyt
+NMSHsrwsQNOKnxuiop+ICtc0/13bD+TR9x2GgaksVFdV2T5L7fzuVFtwL1Nnk3xq
+6pdhaXXTHZKvzj146kDKiC8CK8kZMhnzPV5/nFT7Yoit5aQ3LfUFClOBcy09LfSQ
+wG2GO0gqQNfxA21NhuDqSRv2+JK6RwEMfPhpUIEpuDtuyE6jJ8KRtjyw+lJgBfmn
+jdVboHTaNTT3AZCiG66jFBPhnzVZJA/822+QfEmC4ztMKGa35ANjMtgM3yEGvt6X
+6jT2HQSyUD5pqYnHci/qET8cK3tC9lMZwzrGll7JeLkdtqE7UVzCz+w/1SEYd0JO
+B/gq3Ra9V4q7vm3hW8lQXdKdYZOPNW0seJpjeoYZpBQF8kaaRCojUjR2h/F+Gjga
+azDOFDQmsHWetLQsY71pW0Q7Q8Z/8+4XPMJ+a9UY/Xzq0vTh3Kbx+yotO4+M8T0L
+JBjHYiNZ8S1OikX3urS3R2Fgjzutt1gCbAoSveL4efPO9Ul0GpEBwRyZ6yzXQ2+e
+mQJjOqLHN3UyzzIke1QwmLVe
+=dAGa
 -----END PGP SIGNATURE-----
 
---===============7077823165304257357==--
+--===============4870148141687551302==--
