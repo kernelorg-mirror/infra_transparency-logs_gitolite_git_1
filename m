@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 10 Jun 2022 19:51:01 -0000
-Message-Id: <165489066101.10900.11936562106484730264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 10 Jun 2022 19:55:45 -0000
+Message-Id: <165489094531.13878.87280746870815155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/master
-    old: 39b36f8e21f2760fdcbd553743cb50b78e76b277
-    new: c7640f83465c2b5a4f7dae7f9f47cfe27c0cf99a
+  - ref: refs/heads/fscache-fixes
+    old: 3c04b759c77c8fbb8305f09c72ea420e5850d087
+    new: 40a81101202300df7db273f77dda9fbe6271b1d2
     log: |
-         c7640f83465c2b5a4f7dae7f9f47cfe27c0cf99a monitor: fix integer comparison error (clang)
+         102d841055be8e6e4e24d58917ffc04958262c4d afs: Fix some checker issues
+         e81fb4198e27925b151aad1450e0fd607d6733f8 netfs: Further cleanups after struct netfs_inode wrapper introduced
+         40a81101202300df7db273f77dda9fbe6271b1d2 netfs: Rename the netfs_io_request cleanup op and give it an op pointer
          
