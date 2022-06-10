@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 10 Jun 2022 04:07:31 -0000
-Message-Id: <165483405173.16314.17573037691278329292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 10 Jun 2022 04:08:40 -0000
+Message-Id: <165483412053.16717.4697991887178136458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/opp/clk
-    old: f080a9b718b02d1113b308bad17959b16b2ec663
-    new: 35edb40a1407906f266134fc84f012b07ff46ab0
+  - ref: refs/heads/master
+    old: ab31e2f7e828df3d971cba6f12859edc69f149d5
+    new: 5ebc2b5a3e48dbe67a2d315979b096a1b4d1eb99
     log: |
-         35edb40a1407906f266134fc84f012b07ff46ab0 OPP: Allow multiple clocks for a device
+         5ebc2b5a3e48dbe67a2d315979b096a1b4d1eb99 device: Fix not deleting the folder after removing the device
          
