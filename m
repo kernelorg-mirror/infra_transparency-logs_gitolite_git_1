@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 11 Jun 2022 09:41:52 -0000
-Message-Id: <165494051211.9868.3710830217075949576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 11 Jun 2022 09:44:32 -0000
+Message-Id: <165494067292.11929.10770335053472414880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/experimental
-    old: b46f945d4398d3fa93f557de91ffc6584735d414
-    new: 795707ff3951f062bb4724f38783298eeeb025e1
+  - ref: refs/heads/arm64-scs-patching-v3
+    old: 9537792fe87cfbbfbecb00af0aed40b791c8be79
+    new: 0c8fd5623517ccfac56448a7a5eee5a84ab13bbc
     log: |
-         795707ff3951f062bb4724f38783298eeeb025e1 erofs-utils: fsck: support extracting special files
+         0c8fd5623517ccfac56448a7a5eee5a84ab13bbc arm64: implement dynamic shadow call stack for Clang
          
