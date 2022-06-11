@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Sat, 11 Jun 2022 11:19:27 -0000
-Message-Id: <165494636709.7324.9530832655868751687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 11 Jun 2022 11:41:25 -0000
+Message-Id: <165494768597.21442.11214690651221233592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/fs.idmapped.group.fix
-    old: 0000000000000000000000000000000000000000
-    new: d3bca5115c06ad07e2d7b7c663554eb57e9c5260
+  - ref: refs/heads/experimental
+    old: 795707ff3951f062bb4724f38783298eeeb025e1
+    new: b293b2f117061ab2e289eb84496e48eeff6c90cc
+    log: |
+         b293b2f117061ab2e289eb84496e48eeff6c90cc erofs-utils: update README
+         
