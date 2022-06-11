@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 11 Jun 2022 05:10:34 -0000
-Message-Id: <165492423428.15320.14914683442176998589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 11 Jun 2022 05:17:14 -0000
+Message-Id: <165492463459.20231.1112868545423164175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: e10b02ee5b6c95872064cf0a8e65f31951a31967
-    new: 68c51dd9926ec79a54372f914b89ffdd659f8abe
+    old: aa3398fb4b3f67d89688976098ad93721b6d7852
+    new: 145684d9f9d363dce08b1f02cb2ccf9ecb8b2851
     log: |
-         37530030c0b61396be81e38f2aa179c30fb1d216 drivers, ixgbe: export vf statistics
-         a413f2803d7c0cf23cfb8851522c8f37433d84cc igb: Remove duplicate defines
-         a66c4646901227d6e05af1b9fb2235ed265a190a e1000: Fix typos in comments
-         864f1f9e88b1efbe644fcfd1bbe158fe8af748d7 ixgb: Fix typos in comments
-         c2f1e80fd68b7ed8214d9a91ced0a1d9f6151726 ixgbe: Fix typos in comments
-         138f9f50eb18b8c4ffbbd2349ecfa03caab9cfd8 drivers/net/ethernet/intel: fix typos in comments
-         68c51dd9926ec79a54372f914b89ffdd659f8abe Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         c3238d36c3a2be0a29a9d848d6c51e1b14be6692 i40e: Fix adding ADQ filter to TC0
+         0bb050670ac90a167ecfa3f9590f92966c9a3677 i40e: Fix calculating the number of queue pairs
+         fd5855e6b1358e816710afee68a1d2bc685176ca i40e: Fix call trace in setup_tx_descriptors
+         645603844270b69175899268be68b871295764fe iavf: Fix issue with MAC address of VF shown as zero
+         145684d9f9d363dce08b1f02cb2ccf9ecb8b2851 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
