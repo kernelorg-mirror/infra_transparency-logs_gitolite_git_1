@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 11 Jun 2022 18:38:22 -0000
-Message-Id: <165497270242.29786.12627789304538201497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 11 Jun 2022 18:42:21 -0000
+Message-Id: <165497294112.32655.3979747014774537428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev
-    old: 170647d8c0c279259bbee6764e873619d3d104f2
-    new: 56be02a3141a205b43ee2dd42d73f54be8472aa8
+  - ref: refs/heads/master
+    old: 0885eacdc81f920c3e0554d5615e69a66504a28d
+    new: 1c27f1fc1549f0e470429f5497a76ad28a37f21a
     log: |
-         795707ff3951f062bb4724f38783298eeeb025e1 erofs-utils: fsck: support extracting special files
-         b293b2f117061ab2e289eb84496e48eeff6c90cc erofs-utils: update README
-         56be02a3141a205b43ee2dd42d73f54be8472aa8 erofs-utils: use EROFS_BLKSIZ unconditionally
+         1c27f1fc1549f0e470429f5497a76ad28a37f21a iov_iter: fix build issue due to possible type mis-match
          
