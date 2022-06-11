@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3218053601992072613=="
+Content-Type: multipart/mixed; boundary="===============5023527220544779835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Sat, 11 Jun 2022 19:21:53 -0000
-Message-Id: <165497531369.26501.17708849926566066894@gitolite.kernel.org>
+Date: Sat, 11 Jun 2022 19:22:01 -0000
+Message-Id: <165497532123.26625.15918962679833086547@gitolite.kernel.org>
 
---===============3218053601992072613==
+--===============5023527220544779835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: bf56a0917fd329d5adecfd405e681ff7ba1abb52
-    new: 6f0e1efc880ae979df45aa85e3336aac5e58d97a
-    log: revlist-bf56a0917fd3-6f0e1efc880a.txt
+  - ref: refs/heads/dev-queue
+    old: 322ae7bba64446d6b8da3d93d5ea937fddab935e
+    new: 0fc365a7f76ab5de55c39b2ce80be639a14fbf6d
+    log: revlist-322ae7bba644-0fc365a7f76a.txt
 
---===============3218053601992072613==
+--===============5023527220544779835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf56a0917fd3-6f0e1efc880a.txt
+Content-Disposition: attachment; filename=revlist-322ae7bba644-0fc365a7f76a.txt
 
 edbc7960bef7fd71ef1e44d0df15b864784b14c8 drm/bridge: ti-sn65dsi83: Handle dsi_lanes == 0 as invalid
 6e516faf04317db2c46cbec4e3b78b4653a5b109 drm/panfrost: Job should reference MMU not file_priv
@@ -179,5 +179,21 @@ c349ae5f831cb9817a45e4e36705d2f7d47c7bc3 Documentation: add description for net.
 e65775fdd389e4f47eb1972ef6372e20c6c2cc05 Documentation: add description for net.sctp.intl_enable
 249eddaf651fda7cb32e9ebae4c6d5904b390d81 Documentation: add description for net.sctp.ecn_enable
 6f0e1efc880ae979df45aa85e3336aac5e58d97a Merge branch 'documentation-add-description-for-a-couple-of-sctp-sysctl-options'
+30499926f032fe107796ab2c2278d190f5e882e5 ice: prevent low-core machines crashing on DCB config
+e75d787fcbdd98d7bfe402b23d109b24578cf63c ice: ignore protocol field in GTP offload
+30e32745277da3125b5f7c40ed20a7132111649c ice: Fix PTP TX timestamp offset calculation
+7f00ff5045d6512c7cc3bd4b41414408cf1b30ce i40e: Fix interface init with MSI interrupts (no MSI-X)
+eceff3d2143645b85437b117c9a3a250944a13c2 ice: Fix switchdev rules book keeping
+e2508a31ad33d3d466e58fa75c415497c413f0c6 igb: Make DMA faster when CPU is active on the PCIe link
+d775d541cfc1e9d3dc83734f4f002345f398b88d i40e: Fix dropped jumbo frames statistics
+0c77d0d413b173107e6ea6d7be2f6e039e2be5ce ice: Fix queue config fail handling
+b5e8fd3cf5a3588a342a8ec39aeeac56ec8b710e ice: Fix memory corruption in VF driver
+ff40379655bbc1d02c0ca7096e23ac8bd314d13c igc: Reinstate IGC_REMOVED logic and implement it properly
+c6b261e948522ef8d5b2ff94457ff06a472498d7 ice: ethtool: Prohibit improper channel config for DCB
+0a92a7adc9e2859a765feb0edacab8aff0a8c7b6 ice: Sync VLAN filtering features for DVM
+cb5ae91b5cf839b08244f347921c0455e01a592b ice: ethtool: advertise 1000M speeds properly
+9a055591799d72b5e9c173b07262a8c4958a92c1 i40e: Fix VF's MAC Address change on VM
+16beb15fb6a8d98b19d0b77e6931294b35d6459d ice: handle E822 generic device ID in PLDM header
+0fc365a7f76ab5de55c39b2ce80be639a14fbf6d ice: change devlink code to read NVM in blocks
 
---===============3218053601992072613==--
+--===============5023527220544779835==--
