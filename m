@@ -1,40 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7320333473737181618=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 11 Jun 2022 00:08:04 -0000
-Message-Id: <165490608466.15156.7479346101865006779@gitolite.kernel.org>
-
---===============7320333473737181618==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 11 Jun 2022 00:08:38 -0000
+Message-Id: <165490611862.15409.7298514697433418371@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: a32e7ea362356af8e89e67600432bad83d2325da
-    new: 90add6d418d02991380595bdbc307e05410af638
-    log: revlist-a32e7ea36235-90add6d418d0.txt
-
---===============7320333473737181618==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a32e7ea36235-90add6d418d0.txt
-
-29dec90a0f1d961b93f34f910e9319d8cb23edbd dm: fix bio_set allocation
-d5a37b19983725d2045588cfa3a4699f5b39ae26 block: remove bioset_init_from_src
-dddf30564054796696bcd4c462b232a5beacf72c dm: fix zoned locking imbalance due to needless check in clone_endio
-102d841055be8e6e4e24d58917ffc04958262c4d afs: Fix some checker issues
-e81fb4198e27925b151aad1450e0fd607d6733f8 netfs: Further cleanups after struct netfs_inode wrapper introduced
-40a81101202300df7db273f77dda9fbe6271b1d2 netfs: Rename the netfs_io_request cleanup op and give it an op pointer
-6c77676645ad42993e0a8bdb8dafa517851a352a iov_iter: Fix iter_xarray_get_pages{,_alloc}()
-b09891598557a0ef408d9a7605e72ed3c67c8c15 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-045fb9c2f5f42ea922053e9c7bfc4d882fade436 Merge branch 'fscache-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-90add6d418d02991380595bdbc307e05410af638 Merge tag 'for-5.19/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-
---===============7320333473737181618==--
+    old: 5c281b4e529cd5a73b32ac561d79f448d18dda6f
+    new: e10b02ee5b6c95872064cf0a8e65f31951a31967
+    log: |
+         e70f3c701276a8825414dc650c4f76141a8704b4 Revert "net: set SK_MEM_QUANTUM to 4096"
+         100fdd1faf50557558e2911af4be32e515cb8036 net: remove SK_MEM_QUANTUM and SK_MEM_QUANTUM_SHIFT
+         0defbb0af775ef037913786048d099bbe8b9a2c2 net: add per_cpu_fw_alloc field to struct proto
+         3cd3399dd7a84ada85cb839989cdf7310e302c7d net: implement per-cpu reserves for memory_allocated
+         7c80b038d23e1f4c7fcc311f43f83b8c60e7fb80 net: fix sk_wmem_schedule() and sk_rmem_schedule() errors
+         4890b686f4088c90432149bd6de567e621266fa2 net: keep sk->sk_forward_alloc as small as possible
+         0f2c2693988aeeb4c83a581fe58a28d526eecd39 net: unexport __sk_mem_{raise|reduce}_allocated
+         e10b02ee5b6c95872064cf0a8e65f31951a31967 Merge branch 'net-reduce-tcp_memory_allocated-inflation'
+         
