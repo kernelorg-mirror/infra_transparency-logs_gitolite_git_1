@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Sat, 11 Jun 2022 00:38:27 -0000
-Message-Id: <165490790751.2236.18381803277967645617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 11 Jun 2022 00:43:54 -0000
+Message-Id: <165490823470.6707.13614409016769883783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/linux-next
-    old: 00d1f546470d89e072dd3cda12b5c794341e7268
-    new: eacea844594ff338db06437806707313210d4865
+  - ref: refs/heads/master
+    old: 96b57070f5c852b8e88bba334003d243dacfdde6
+    new: 3c5b794b448e001f646d49f297503fc23d4c6210
     log: |
-         eacea844594ff338db06437806707313210d4865 um: virt-pci: set device ready in probe()
-         
-  - ref: refs/heads/vhost
-    old: 00d1f546470d89e072dd3cda12b5c794341e7268
-    new: eacea844594ff338db06437806707313210d4865
-    log: |
-         eacea844594ff338db06437806707313210d4865 um: virt-pci: set device ready in probe()
+         3c5b794b448e001f646d49f297503fc23d4c6210 Sat Jun 11 12:42:32 AM UTC 2022
          
