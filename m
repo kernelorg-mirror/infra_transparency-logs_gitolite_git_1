@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 11 Jun 2022 20:26:25 -0000
-Message-Id: <165497918539.3633.15317817409946441226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 11 Jun 2022 21:29:33 -0000
+Message-Id: <165498297303.10289.14984670077271390152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/pull-fixes
-    old: 57def54138d14632e6470ac7a9a9a84a8c324883
-    new: cdb1de7497f288f96051487f387fbab3fe189665
+  - ref: refs/heads/master
+    old: fe92833524e368e59bba9c57e00f7359f133667f
+    new: d5e9aeda81616150532b24277da2498ee52a2045
+    log: |
+         54a9c3a42d92d2b0d4e0f64214ebbbfcf7fbfda8 bpf: avoid grabbing spin_locks of all cpus when no free elems
+         89eda98428ce10f8df110d60aa934aa5c5170686 selftest/bpf/benchs: Add bpf_map benchmark
+         d5e9aeda81616150532b24277da2498ee52a2045 Merge branch 'Optimize performance of update hash-map when free is zero'
+         
