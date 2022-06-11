@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 11 Jun 2022 18:17:48 -0000
-Message-Id: <165497146893.17738.6232701055107637177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 11 Jun 2022 18:38:22 -0000
+Message-Id: <165497270242.29786.12627789304538201497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/testing
-    old: 8e3460e351d063ba81c3f50ed946dd825848d892
-    new: 20b4fa69eeaa2b6389ff83662a96c8f0f1f414ab
+  - ref: refs/heads/dev
+    old: 170647d8c0c279259bbee6764e873619d3d104f2
+    new: 56be02a3141a205b43ee2dd42d73f54be8472aa8
     log: |
-         2d229aea471d0e721c2bda1e9135fae814334866 iio:accel:kxsd9: Switch from CONFIG_PM guards to pm_ptr() etc
-         392100ba8f8f50f045bd6cd6ad8e1d1c3f872532 iio: humidity: hts221: Use EXPORT_SIMPLE_DEV_PM_OPS() to allow compiler to remove dead code.
-         8a754b6d8c393b0bcfd40c782cefec305403dd5e iio: humidity: hts221: Move symbol exports into IIO_HTS221 namespace
-         b87244fed5dc435287704dbc4dfcc343108ff50e iio: imu: lsm6dsx: Use new pm_sleep_ptr() and EXPORT_SIMPLE_DEV_PM_OPS()
-         20b4fa69eeaa2b6389ff83662a96c8f0f1f414ab iio: imu: lsm6dsx: Move exported symbols to the IIO_LSM6DSX namespace
+         795707ff3951f062bb4724f38783298eeeb025e1 erofs-utils: fsck: support extracting special files
+         b293b2f117061ab2e289eb84496e48eeff6c90cc erofs-utils: update README
+         56be02a3141a205b43ee2dd42d73f54be8472aa8 erofs-utils: use EROFS_BLKSIZ unconditionally
          
