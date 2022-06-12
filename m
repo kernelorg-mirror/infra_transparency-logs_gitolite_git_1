@@ -1,72 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============5081239433606354191=="
+Content-Type: multipart/mixed; boundary="===============8989812719173008629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 12 Jun 2022 04:47:14 -0000
-Message-Id: <165500923499.1875.10362732815671855626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 12 Jun 2022 04:53:07 -0000
+Message-Id: <165500958733.5161.2404671831175794670@gitolite.kernel.org>
 
---===============5081239433606354191==
+--===============8989812719173008629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: c21b0837983d3b00c4f73927dae8441bf478087f
-    log: revlist-f2906aa86338-c21b0837983d.txt
+  - ref: refs/heads/usb-testing
+    old: 477122a1eec325621cefd62da8bd8ac20a66fb8e
+    new: 0dde9a46a2cfa58c69b5667272c1a6edc8144505
+    log: revlist-477122a1eec3-0dde9a46a2cf.txt
 
---===============5081239433606354191==
+--===============8989812719173008629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655009234 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1655009234-ae4e077046e2726b4b70317d6c0727c347f14693
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655009585 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1655009585-0331059932b0f42e0105918e1399d0e41baf959a
 
-f2906aa863381afb0015a9eb7fefad885d4e5a56 c21b0837983d3b00c4f73927dae8441bf478087f refs/heads/driver-core-next
+477122a1eec325621cefd62da8bd8ac20a66fb8e 0dde9a46a2cfa58c69b5667272c1a6edc8144505 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKlb9IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+84kQAIrSsjTcgnS9UsIJAgW/
-Tthd9OsfZSE42r2qZUtKhakwxbE/+IAr6IJibAVNDAhZb6I2ScCL2FYvlWJ1Wh1a
-k+rgDnfjRXY3UEfKKoJjYPOafJ59FVYFO45eBq8ArCYlzQk4TIG9a4pakFwTtcdv
-Uhe7VKxRJGG9OzKEHSxVHQPc716zaAsrGnTiofeoZNrZBPyX7jlBPe8dITqjhM7I
-fdW3rbuRM1NTKvDFerYngQJ58lIbG4IMYKABI3RBZII97qvZA9YsjCMJOO15F/HD
-bgOIOT65pCd/9e3BW7Ou0FrM+/zV8ghOhWvXSjymYwMWxFNyhjVLDVRLxCwCgEJ7
-88X8lm1eFk+ERW99HmII1KxrN49MCfUT/5A3VApvWDB9k631qoI33xTQKKK/DbTi
-wDYoqk/SHgOf7jOF909XhACQmgl0HQEKSu8qP/58p4dUq9tLg306foUgWZsKQrgc
-BrUXpf19UEY5apqENKuqjMtn9B1vz7BDuvRyTPF76XGHOqbbAj8Z1j9faXAdNDlg
-OfMZg2CHMkvHR6XWqDUCRckzzTz9uKXVqFCxemI64evfH3adsT7XzrP/kdqHcWiK
-FshoA3fZeyITmEKz/fPvlx+k56Z/LH8sQGKL7DXLOF6Fpdkdo71/iQif9hO9u2iS
-khfGwhje1MYEcdkVTYRwst3D
-=MeBf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKlcTEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sD0P/AnI/gaMBU6k1bjjKvVI
+BZH+YlqHp3m8ZOAllV+9CsiIZZQD2zOimaNCK/wXpWafU3Mwy3jFnjXRM90Sk789
+PXl7pRxnXd70WZDxWQrwxDEnJ/rbqjAjV9/A+EM0PZ3/R4LjcJQS8dXdBib99O3H
+qRASx5D9onNzVmIhkLWiSxdu7KJLgxoYIj1wGf4EmZe3dBZpLnxV7scR7ZtZGvTR
+SvpkwYgHiaoxodWpvh0AcEkj6kx6NCx1oJEBGEKFYWSGf5Vd1yQGLuAiLUXuf4Rs
+5mSntFKIaNhTT4Re4706805KIQd6b883QPiViDnC7tJs/UX7glPRuCcD0zpjQDWp
+pZFoAvBsVIv6sY5AgyW1VorgGy+VXkJ6AG47Lbm6Ef2kEEcdD2C8MEUuMMwE/aOx
+dinBYEu6bUkenwhZbGU6vX6KkxAXKhbBskATgMHZbc6NMYFt69QkJifY3420MSOE
+gCWYM7hs34kCOTtB/ULeNdhIko6VtDK1Ka8owKZ2hIHjGJQqF6LV2I2UI94O+0BN
+ZH+iEhBk33gmJ43nwzD6YTgIcr3147cMLv34/oJrM9S9Uknmfvm67XvOzP5NlvQV
+nqGYBka8iuozuGWO73tj0q8czrCf7uFa/zIsq6pg1hJTyyMR/aLSXassJ+Xn9LQv
+Ro9oZHYZocEW506RkJH+9gbb
+=CL5L
 -----END PGP SIGNATURE-----
 
---===============5081239433606354191==
+--===============8989812719173008629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-c21b0837983d.txt
+Content-Disposition: attachment; filename=revlist-477122a1eec3-0dde9a46a2cf.txt
 
-5a46079a96451cfb15e4f5f01f73f7ba24ef851a PM: domains: Delete usage of driver_deferred_probe_check_state()
-24a026f85241a01bbcfe1b263caeeaa9a79bab40 pinctrl: devicetree: Delete usage of driver_deferred_probe_check_state()
-f8217275b57aa48d98cc42051c2aac34152718d6 net: mdio: Delete usage of driver_deferred_probe_check_state()
-2f8c3ae8288e4a4018330ed5c4e758b878d9c555 driver core: Add wait_for_init_devices_probe helper function
-dd429036e778a3d789e6f6df6d1684764048fb50 net: ipconfig: Relax fw_devlink if we need to mount a network rootfs
-f516d01b9df2782b9399c44fa1d21c3d09211f8a Revert "driver core: Set default deferred_probe_timeout back to 0."
-71066545b48e4259f89481199a0bbc7c35457738 driver core: Set fw_devlink.strict=1 by default
-b09796d528bbf06e3e10a4a8f78038719da7ebc6 iommu/of: Delete usage of driver_deferred_probe_check_state()
-9cbffc7a59561be950ecc675d19a3d2b45202b2b driver core: Delete driver_deferred_probe_check_state()
-82b070beae1ef55b0049768c8dc91d87565bb191 driver core: Introduce device_find_any_child() helper
-c21b0837983d3b00c4f73927dae8441bf478087f spi: Use device_find_any_child() instead of custom approach
+f061f43d7418cb62b8d073e221ec75d3f5b89e17 usb: hub: port: add sysfs entry to switch port power
+662a60102c122e44fdaf5c826f7f415eb57d48ad usb: typec: Separate USB Power Delivery from USB Type-C
+a7cff92f0635c794e2198a69a7ff4ecfe0decab9 usb: typec: USB Power Delivery helpers for ports and partners
+8203d26905eee083fbe76ec449f32953aa729193 usb: typec: tcpm: Register USB Power Delivery Capabilities
+ca80ca61863f70df1eb055bcccb302013d2d6308 usb: dwc3: Fix bare use of unsigned checkpatch warning
+d1b39dd5819a0ea5e09fb2c7f7bcb2e127cdbd89 usb: dwc3: Fix a repeated word checkpatch warning
+3085d1bd47f2bfdd0b34b8399011f2ed6292fe8c usb: dwc3: Fix typos in Kconfig
+e146caf303493c4f2458173d7f1598b76a9b1396 usb: Avoid extra usb SET_SEL requests when enabling link power management
+055276c1320564b0192b3af323b8cc67f9b665e1 usb: gadget: add Aspeed ast2600 udc driver
+2cee50bf459051d1b41d0deee25e930a788cb94e ARM: dts: aspeed: Add USB2.0 device controller node
+0dde9a46a2cfa58c69b5667272c1a6edc8144505 dt-bindings: usb: add documentation for aspeed udc
 
---===============5081239433606354191==--
+--===============8989812719173008629==--
