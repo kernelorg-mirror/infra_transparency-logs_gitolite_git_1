@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3261412394880880891=="
+Content-Type: multipart/mixed; boundary="===============5951937956809439404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 12 Jun 2022 17:27:02 -0000
-Message-Id: <165505482279.16456.13957492673282220365@gitolite.kernel.org>
+Date: Sun, 12 Jun 2022 17:27:13 -0000
+Message-Id: <165505483340.16604.16621830815021211272@gitolite.kernel.org>
 
---===============3261412394880880891==
+--===============5951937956809439404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 263efe85a4b618037e1003c9636562d6cbb5f9f3
-    new: 27f2533bcc6e909b85d3c1b738fa1f203ed8a835
-    log: revlist-263efe85a4b6-27f2533bcc6e.txt
+  - ref: refs/heads/mlx5-queue
+    old: 5cc08876cf23b0fdba5744386114bd82c282d81e
+    new: 84f05fbdd1f0d683e086976b151f35c66ffc2f3e
+    log: revlist-5cc08876cf23-84f05fbdd1f0.txt
 
---===============3261412394880880891==
+--===============5951937956809439404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-263efe85a4b6-27f2533bcc6e.txt
+Content-Disposition: attachment; filename=revlist-5cc08876cf23-84f05fbdd1f0.txt
 
-ea32366a8fc98cbabaf8ef1b9cc7618498cb34d4 staging: r8188eu: remove _drv_ defines from include/rtw_debug.h
-644ee3bff4ae56db4c4c92b4331f7f4ea4b2147e staging: rtl8712: add error handler in r8712_usbctrl_vendorreq()
-d1b57669732d09da7e13ef86d058dab0cd57f6e0 staging: rtl8712: fix uninit-value in usb_read8() and friends
-0458e5428e5e959d201a40ffe71d762a79ecedc4 staging: rtl8712: fix uninit-value in r871xu_drv_init()
-801626f71d6f822e0becbfaa8b26a41addea693a staging: r8188eu: fix warnings in rtw_p2p
-43ea9201795fb47dd48beaf64b3184bdfd481260 staging: r8188eu: fix warnings in rtw_pwrctrl
-455d5f02dc23f4e7a298b1f4acb5dc5457e08801 staging: r8188eu: fix warnings in rtw_wlan_util
-f94b47c6bde624d6c07f43054087607c52054a95 staging: r8188eu: add check for kzalloc
-464725a95d8a1cc4bb8d28e2d55f2af3ff3368d5 staging: r8188eu: Remove multiple assignments
-4d0cc9e0e53e9946d7b8dc58279c62dfa7a2191b staging: r8188eu: delete rtw_wx_read/write32()
-376d6b02cb08021c0d3679bb53a6d6bf0dac181c Merge tag 'thunderbolt-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-1bd8bb7d2dfc44509acf729e636523c3c2b729df xhci: Don't defer primary roothub registration if there is only one roothub
 26ae2c942b5702f2e43d36b2a4389cfb7d616b6a usb: isp1760: Fix out-of-bounds array access
 69a1c9a9b273271f2a2674bcc117336a9bb0a4b4 usb: Probe EHCI, OHCI controllers asynchronously
 9d778f0c5f95ca5aa2ff628ea281978697e8d89b usb: dwc3: Fix ep0 handling when getting reset while doing control transfer
@@ -1050,5 +1038,17 @@ e10b02ee5b6c95872064cf0a8e65f31951a31967 Merge branch 'net-reduce-tcp_memory_all
 68c51dd9926ec79a54372f914b89ffdd659f8abe Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 10e11aa241b688147e1b8ac908824fc058585154 ethernet: Remove vf rate limit check for drivers
 27f2533bcc6e909b85d3c1b738fa1f203ed8a835 nfp: flower: support to offload pedit of IPv6 flowinto fields
+0be6b92d6d2eddb7911a1f13a2ea80da471ee503 net/mlx5: Delete ipsec_fs header file as not used
+ce565eda382e8d386cc4b85600ae3c1082dc9980 net/mlx5: delete dead code in mlx5_esw_unlock()
+def829e79b9519265b9c1ec11464376258c1f280 net: Disable LRO feature if no RXCSUM
+25aa182c858b0c6e82597da4b68a27ca1547d3d1 net/mlx5: Add bits and fields to support enhanced CQE compression
+9ef95c97dfe5631f2a385488fe043a84b9bcbcc3 net/mlx5e: Support enhanced CQE compression
+26437129d66be0b132235c448c7a77f71d983678 net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+ce5745e5f649a8249cdee3902283132f3390629b net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+8b858100190b146e6db2af7c7c265be7ff54dbe9 net/mlx5: group fdb cleanup to single function
+3697ea4b7978bff5f50c1b28f3e3ed314f554d67 Merge branch 'patchq/323390' into mlx5-queue
+b1b24290d10082254411ea5ead552934c1b09787 net/mlx5: Remove not used MLX5_CAP_BITS_RW_MASK
+aa6865f036b06927f9a82df667f7a15930de94bc Merge branch 'patchq/496064' into mlx5-queue
+84f05fbdd1f0d683e086976b151f35c66ffc2f3e Merge branch 'patchq/499723' into mlx5-queue
 
---===============3261412394880880891==--
+--===============5951937956809439404==--
