@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 12 Jun 2022 21:36:28 -0000
-Message-Id: <165506978894.10847.7360630974103617235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 12 Jun 2022 22:58:12 -0000
+Message-Id: <165507469275.30233.14600530350650808997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 7d7965a38ff0f38907422e65666d920230ad6fd1
-    new: 29b234fe3b56703c6b1df98685fc026278bb661f
+  - ref: refs/heads/for-next
+    old: 7b63b6462ba54aa309823ec8d7b1adbc9954f6d9
+    new: e27728b91489bc8612b79bafa78b7a70ca4249d6
     log: |
-         b7416987f9dd89b5e9dbc45392fa4ba002451641 random: avoid checking crng_ready() twice in random_init()
-         f598e677d0c5b00eb02a793e735b528510a64187 random: mark bootloader randomness code as __init
-         29b234fe3b56703c6b1df98685fc026278bb661f random: account for arch randomness in bits
+         d040e81bec407057b6dea9dadfe5e15b9845b010 arm64: dts: rockchip: Add missing space around regulator-name on rk3368-orion-r68
+         e27728b91489bc8612b79bafa78b7a70ca4249d6 Merge branch 'v5.20-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v5.20-armsoc/dts64
+    old: 1526c3a09ecc3e3fc08495fe4a7ff82167354ca2
+    new: d040e81bec407057b6dea9dadfe5e15b9845b010
+    log: |
+         d040e81bec407057b6dea9dadfe5e15b9845b010 arm64: dts: rockchip: Add missing space around regulator-name on rk3368-orion-r68
          
