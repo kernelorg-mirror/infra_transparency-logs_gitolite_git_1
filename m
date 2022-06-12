@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sun, 12 Jun 2022 12:46:32 -0000
-Message-Id: <165503799223.29659.17515638899999575219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 12 Jun 2022 13:08:52 -0000
+Message-Id: <165503933261.10679.9483304653611164470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/platform-drivers-x86-v5.19-2
-    old: 0000000000000000000000000000000000000000
-    new: 68ba4dec7af4811aa817ffaa2f8213d91faa70e6
+  - ref: refs/heads/hwmon-next
+    old: 92b620bee45d583dbede6605c634f8545af6d0c3
+    new: 3f1bfd5e3df5f532430546a898d7cbf0023da3f2
+    log: |
+         6c9cba67f2e99867b2afd7aa65aa2b0bdac219b0 hwmon: (nct6775) Drop duplicate NULL check in ->init() and ->exit()
+         3f1bfd5e3df5f532430546a898d7cbf0023da3f2 hwmon: (dell-smm) Add Dell XPS 13 7390 to fan control whitelist
+         
