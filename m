@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 13 Jun 2022 07:39:23 -0000
-Message-Id: <165510596336.18991.6093507658987713028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 13 Jun 2022 07:39:49 -0000
+Message-Id: <165510598903.19222.11598954095666824729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/stm32-next
-    old: ea3414e1249ea35bc02debe28d4cbfeb6261657c
-    new: 91f1625a42946b9aa97f846f944a4cf2030d1844
+  - ref: refs/heads/master
+    old: 997952851843935024962b51fc36c61b3c2d1ed4
+    new: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
     log: |
-         91f1625a42946b9aa97f846f944a4cf2030d1844 ARM: dts: stm32: remove the IPCC "wakeup" IRQ on stm32mp151
+         b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
          
