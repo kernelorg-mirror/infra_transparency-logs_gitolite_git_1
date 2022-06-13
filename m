@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0222374031759294945=="
+Content-Type: multipart/mixed; boundary="===============6210098748408874002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Jun 2022 08:16:41 -0000
-Message-Id: <165510820191.15688.2099547902136679496@gitolite.kernel.org>
+Date: Mon, 13 Jun 2022 08:16:51 -0000
+Message-Id: <165510821126.15784.539893086908940245@gitolite.kernel.org>
 
---===============0222374031759294945==
+--===============6210098748408874002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 991d8d8142cad94f9c5c05db25e67fa83d6f772a
-    new: 113289b90f64c1335accff336874fc36dac150f1
-    log: revlist-991d8d8142ca-113289b90f64.txt
+  - ref: refs/heads/perf/core
+    old: 108ea7eb3e754be735a1c33d2713a19527fb2065
+    new: f0fe9f3c7abcc946a676dfb295478c50312523c2
+    log: revlist-108ea7eb3e75-f0fe9f3c7abc.txt
 
---===============0222374031759294945==
+--===============6210098748408874002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-991d8d8142ca-113289b90f64.txt
+Content-Disposition: attachment; filename=revlist-108ea7eb3e75-f0fe9f3c7abc.txt
 
+efc2efeba169ff37bbd425631985064365c614e0 xfs: move xfs_attr_use_log_assist usage out of libxfs
+e4931b824a6f36cae9cc5632709f015cfa748a25 tracing: Use trace_create_file() to simplify creation of tracefs entries
+2889c658b2fbc7ad4c5d541734fdc1d97b130753 ftrace: Deal with error return code of the ftrace_process_locs() function
+cb24693d94ceaf658944ad2e922203c0503775d2 tracing: Use strim() to remove whitespace instead of doing it manually
 99696a2592bca641eb88cc9a80c90e591afebd0f tracing: Fix potential double free in create_var_ref()
 b27f266f74fbda4ee36c2b2b04d15992860cf23b tracing: Fix return value of trace_pid_write()
 43994049180704fd1faf78623fabd9a5cd443708 kprobes: Fix build errors with CONFIG_KRETPROBES=n
@@ -1040,15 +1044,11 @@ e3b8e2de19e18e4297c0dd747d56ecdc4ff96928 Merge tag 'kbuild-fixes-v5.19' of git:/
 b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
-fcc014659aad4fdf19ae56d799457da5b0455458 sched/numa: Initialise numa_migrate_retry
-65c54155ce86a98fc72263563aa26044e870d8ea sched/numa: Do not swap tasks between nodes when spare capacity is available
-d9497193252242c0c145803ea1ad7223bfc3c378 sched/numa: Apply imbalance limitations consistently
-3cb66b39d3bb4e7dbf5889bd797eb398c887c01f sched/numa: Adjust imb_numa_nr to a better approximation of memory channels
-6720040a7fc3df11885f3e445e35f47e28d8afbe sched/fair: Consider CPU affinity when allowing NUMA imbalance in find_idlest_group()
-3141bf37269c2505363fbe7ec560fa87fdf0f0b5 sched/fair: optimize and simplify rq leaf_cfs_rq_list
-e88e21cac13daa476eeb1a0ae6ae4a82c301b64b sched/deadline: Use proc_douintvec_minmax() limit minimum value
-edd233b182a5ffe6a520ff48f0fdc3a25c98a5de sched: Allow newidle balancing to bail out of load_balance
-bdb55fc507906031fb9365715e6a2d3c09a671f8 sched: Fix the check of nr_running at queue wakelist
-113289b90f64c1335accff336874fc36dac150f1 sched: Remove the limitation of WF_ON_CPU on wakelist if wakee cpu is idle
+e60b7cb089f216a26d478f5ad8f811a1de65f382 x86/events/intel/ds: Enable large PEBS for PERF_SAMPLE_WEIGHT_TYPE
+39621c5808f5dda75d03dc4b2d4d2b13a5a1c34b perf/x86/amd/uncore: Use dynamic events array
+847f3268bb644ee852732f8e3b5748e4319244b7 perf/x86/amd/uncore: Use attr_update for format attributes
+16b48c3f5ed85b8017526b1acacf5115461b489a perf/x86/amd/uncore: Detect available DF counters
+c390241a93260b377c84ad9e7cd5242adf667aac perf/x86/amd/uncore: Add PerfMonV2 DF event format
+f0fe9f3c7abcc946a676dfb295478c50312523c2 perf/x86/amd/uncore: Add PerfMonV2 RDPMC assignments
 
---===============0222374031759294945==--
+--===============6210098748408874002==--
