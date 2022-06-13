@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8127189089410540075=="
+Content-Type: multipart/mixed; boundary="===============0222374031759294945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Jun 2022 08:16:32 -0000
-Message-Id: <165510819230.15537.1511706562096173645@gitolite.kernel.org>
+Date: Mon, 13 Jun 2022 08:16:41 -0000
+Message-Id: <165510820191.15688.2099547902136679496@gitolite.kernel.org>
 
---===============8127189089410540075==
+--===============0222374031759294945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 82f586f923e3ac6062bc7867717a7f8afc09e0ff
-    new: 04193d590b390ec7a0592630f46d559ec6564ba1
-    log: revlist-82f586f923e3-04193d590b39.txt
+  - ref: refs/heads/sched/core
+    old: 991d8d8142cad94f9c5c05db25e67fa83d6f772a
+    new: 113289b90f64c1335accff336874fc36dac150f1
+    log: revlist-991d8d8142ca-113289b90f64.txt
 
---===============8127189089410540075==
+--===============0222374031759294945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82f586f923e3-04193d590b39.txt
+Content-Disposition: attachment; filename=revlist-991d8d8142ca-113289b90f64.txt
 
-56486f307100e8fc66efa2ebd8a71941fa10bf6f xfs: assert in xfs_btree_del_cursor should take into account error
-86d40f1e49e9a909d25c35ba01bea80dbcd758cb xfs: purge dquots after inode walk fails during quotacheck
-a54f78def73d847cb060b18c4e4a3d1d26c9ca6d xfs: don't leak btree cursor when insrec fails after a split
-2723234923b3294dbcf6019c288c87465e927ed4 xfs: refactor buffer cancellation table allocation
-8db074bd84df5ccc88bff3f8f900f66f4b8349fa xfs: don't leak xfs_buf_cancel structures when recovery fails
-910bbdf2f4d7df46781bc9b723048f5ebed3d0d7 xfs: convert buf_cancel_table allocation to kmalloc_array
-374037966d661d62139a8b6fd33f42fc2038a1e6 xfs: don't log every time we clear the log incompat flags
-df5660cf63bbafb5a1250954b91d9ec26558536f xfs: implement per-mount warnings for scrub and shrink usage
-202865cc215d135762ea99abda7d87925b1cfc7a xfs: warn about LARP once per mount
-d9c61ccb3b09d8f892cccbf662ce0c870f8e4ade xfs: move xfs_attr_use_log_assist out of xfs_log.c
-efc2efeba169ff37bbd425631985064365c614e0 xfs: move xfs_attr_use_log_assist usage out of libxfs
-e4931b824a6f36cae9cc5632709f015cfa748a25 tracing: Use trace_create_file() to simplify creation of tracefs entries
-2889c658b2fbc7ad4c5d541734fdc1d97b130753 ftrace: Deal with error return code of the ftrace_process_locs() function
-cb24693d94ceaf658944ad2e922203c0503775d2 tracing: Use strim() to remove whitespace instead of doing it manually
 99696a2592bca641eb88cc9a80c90e591afebd0f tracing: Fix potential double free in create_var_ref()
 b27f266f74fbda4ee36c2b2b04d15992860cf23b tracing: Fix return value of trace_pid_write()
 43994049180704fd1faf78623fabd9a5cd443708 kprobes: Fix build errors with CONFIG_KRETPROBES=n
@@ -60,6 +46,10 @@ aef54851bf1d3e31f9c15e8134e859c2f343ceab x86/traceponit: Fix comment about irq v
 4548ad7287c45047b2c1d536e110e0cfaccde1c9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 b58cdd4388b1d8f5bee9f5a3897a7e780d1eaa48 net: lan966x: check devm_of_phy_get() for -EDEFER_PROBE
 a54ce3703613e41fe1d98060b62ec09a3984dc28 net: sched: fixed barrier to prevent skbuff sticking in qdisc backlog
+6d29d7fe4f0c1e81c39622cce45cd397b23dc48f Merge tag 'nfsd-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+090b39af591cdde897664dfa5d3d5b0c78a197fb Merge tag 'hardening-v5.19-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+780d8ce7162818cfe03e9a5e23b3af192a1d37bc Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+7e284070abe53d448517b80493863595af4ab5f0 Merge tag 'for-5.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 16aa835a25243114331fe816b3508120c5a88042 um: xterm: Make default terminal emulator configurable
 23a0cb8e3225122496bfa79172005c587c2d64bf kbuild: Fix include path in scripts/Makefile.modpost
 8d3a75078c83a26d2e637da4e8f95058a406f5e7 scripts/kallsyms: update usage message of the kallsyms program
@@ -258,6 +248,7 @@ d944e09ea839033476e43fe03db0121b7be5154e wifi: libertas: use variable-size data 
 9c6837311f437701b398bfaed963458aa292e9d7 wifi: iwlwifi: pcie: rename CAUSE macro
 7711fe713a4987695ac6c68c9f175cb2d1d06e83 wifi: rtw88: add a work to correct atomic scheduling warning of ::set_tim
 212e3b6b8734655ac4edca979915d002b16f915c ARM: configs: Enable more audio support for i.MX
+82f586f923e3ac6062bc7867717a7f8afc09e0ff sched/autogroup: Fix sysctl move
 9bfa7b36343c7d84370bc61c9ed774635b05e4eb ALSA: hda/realtek - Fix microphone noise on ASUS TUF B550M-PLUS
 9c76d723edd4f4d7d10b33e7e56f72ecbe6cee34 Merge tag 'optee-warning-for-v5.19' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/late
 b81c14ca14b631aa1abae32fb5ae75b5e9251012 blk-mq: do not update io_ticks with passthrough requests
@@ -1049,6 +1040,15 @@ e3b8e2de19e18e4297c0dd747d56ecdc4ff96928 Merge tag 'kbuild-fixes-v5.19' of git:/
 b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
-04193d590b390ec7a0592630f46d559ec6564ba1 sched: Fix balance_push() vs __sched_setscheduler()
+fcc014659aad4fdf19ae56d799457da5b0455458 sched/numa: Initialise numa_migrate_retry
+65c54155ce86a98fc72263563aa26044e870d8ea sched/numa: Do not swap tasks between nodes when spare capacity is available
+d9497193252242c0c145803ea1ad7223bfc3c378 sched/numa: Apply imbalance limitations consistently
+3cb66b39d3bb4e7dbf5889bd797eb398c887c01f sched/numa: Adjust imb_numa_nr to a better approximation of memory channels
+6720040a7fc3df11885f3e445e35f47e28d8afbe sched/fair: Consider CPU affinity when allowing NUMA imbalance in find_idlest_group()
+3141bf37269c2505363fbe7ec560fa87fdf0f0b5 sched/fair: optimize and simplify rq leaf_cfs_rq_list
+e88e21cac13daa476eeb1a0ae6ae4a82c301b64b sched/deadline: Use proc_douintvec_minmax() limit minimum value
+edd233b182a5ffe6a520ff48f0fdc3a25c98a5de sched: Allow newidle balancing to bail out of load_balance
+bdb55fc507906031fb9365715e6a2d3c09a671f8 sched: Fix the check of nr_running at queue wakelist
+113289b90f64c1335accff336874fc36dac150f1 sched: Remove the limitation of WF_ON_CPU on wakelist if wakee cpu is idle
 
---===============8127189089410540075==--
+--===============0222374031759294945==--
