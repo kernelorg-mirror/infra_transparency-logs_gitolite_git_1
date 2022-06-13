@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3209111141531490433=="
+Content-Type: multipart/mixed; boundary="===============6679672736871342853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 13 Jun 2022 19:26:10 -0000
-Message-Id: <165514837008.19207.17822378279629744529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Mon, 13 Jun 2022 19:30:00 -0000
+Message-Id: <165514860037.20545.13148730847192149749@gitolite.kernel.org>
 
---===============3209111141531490433==
+--===============6679672736871342853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/for-next
-    old: 4077c8c19c72184c97ca564fb5795c4caba867e5
-    new: 60a7e7840bc9498199d2a85c0d6a685ca1ba701d
-    log: revlist-4077c8c19c72-60a7e7840bc9.txt
+  - ref: refs/heads/ps3-queue
+    old: 59e9c0a51e2fdccccb1518764e4db06d9f34277a
+    new: 6bf645e745bdc7407c95de6db5d47d7f7db11ef1
+    log: revlist-59e9c0a51e2f-6bf645e745bd.txt
 
---===============3209111141531490433==
+--===============6679672736871342853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4077c8c19c72-60a7e7840bc9.txt
+Content-Disposition: attachment; filename=revlist-59e9c0a51e2f-6bf645e745bd.txt
 
 edbc7960bef7fd71ef1e44d0df15b864784b14c8 drm/bridge: ti-sn65dsi83: Handle dsi_lanes == 0 as invalid
 6e516faf04317db2c46cbec4e3b78b4653a5b109 drm/panfrost: Job should reference MMU not file_priv
@@ -363,112 +363,26 @@ e3b8e2de19e18e4297c0dd747d56ecdc4ff96928 Merge tag 'kbuild-fixes-v5.19' of git:/
 b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
-8f236b0e696de806827d3eaa6d1abface76d01bf btrfs: fix hang during unmount when block group reclaim task is running
-76bee978d9a47872499e53617501d3a60866d46a btrfs: fix typos in comments
-be1774011082eb5ae18a9c0ada23db3db8b8a8e9 btrfs: zoned: fix comment description for sb_write_pointer logic
-80a64ae3ece5781422dba2a53ef0f31967c756f7 btrfs: prevent remounting to v1 space cache for subpage mount
-165261977cb437e37bc42e13d8dec4de52ea9249 btrfs: use PAGE_ALIGNED instead of IS_ALIGNED
-fcf6c8738f3cfd5e6c4f3d5bb92db81ccaa0f026 btrfs: quit early if the fs has no RAID56 support for raid56 related checks
-968fe8ce00f3b2c9071aecacfc6bce27097a47db btrfs: introduce a data checksum checking helper
-e39d4f5418bea2f7725231cfc235bbb3b485d453 btrfs: remove duplicated parameters from submit_data_read_repair()
-fdd273f070d78659711677f1fc726e5146905cb1 btrfs: factor out a helper to end a single sector buffer I/O
-186174f697b8e62882b2cea09c5f13b1bd072e61 btrfs: refactor end_bio_extent_readpage code flow
-bb918fea2ab2f131dda7b0dcafb97835a809b526 btrfs: factor out a btrfs_csum_ptr helper
-44dda76d6730518b4bfbac507832b65a1e1a6d0c btrfs: add a helper to iterate through a btrfs_bio with sector sized chunks
-be6c51c101d9f30caff03747f8993a4636151358 btrfs: use btrfs_bio_for_each_sector in btrfs_check_read_dio_bio
-5329ff28bee8c24dbac12ee09f2705e18a3a4a13 btrfs: introduce btrfs_try_lock_balance
-07ce1835768cd88c3e2fecfa0268399bc371a0c0 btrfs: use btrfs_try_lock_balance in btrfs_ioctl_balance
-a01dc71ced5c8fda4377f120e218d3c3ba6da627 btrfs: use integrated bitmaps for btrfs_raid_bio::dbitmap and finish_pbitmap
-3487d62802d94c2ed06b56339066d823b00b7da0 btrfs: use integrated bitmaps for scrub_parity::dbitmap and ebitmap
-75d7c8fd92f2bc6efd7a14ed947342c75822ef3b btrfs: only write the sectors in the vertical stripe which has data stripes
-5df899df2c8604457a624708edb8ab1bfcb8bef9 btrfs: remove redundant calls to flush_dcache_page
-71bf8a4bbee4618ac3553cf77f2f459df5a6d024 btrfs: update stripe_sectors::uptodate in steal_rbio
-d4ca15fe2571d4ac0f2f93fc1b76ab17ef822792 btrfs: add trace event for submitted RAID56 bio
-b019dd5c798b96931fc6758ba18617530c8e33fd btrfs: balance btree dirty pages and delayed items after a rename
-89989b0f3f446ac5b242ef3a3a1c0dfa3d5837db btrfs: free the path earlier when creating a new inode
-23749f3977a3afd64c7e8313bf9806265be3f99b btrfs: balance btree dirty pages and delayed items after clone and dedupe
-9817259eed702df5bad3b94f801db8fbcf49d3b5 btrfs: add assertions when deleting batches of delayed items
-2d15380c52bec83074cd18861e665c6ebf7ee931 btrfs: deal with deletion errors when deleting delayed items
-de99ec18e3776a2826766ffe1b72e93ed7225cf4 btrfs: refactor the delayed item deletion entry point
-fdfc9f59f5c2b489fbda3185915b0eb246848da1 btrfs: improve batch deletion of delayed dir index items
-3a409be13d52a6503ed922b5a4bce5931c96ed43 btrfs: assert that delayed item is a dir index item when adding it
-f8ac02e42c2ff33797d38c733cdc87d821f9bdca btrfs: improve batch insertion of delayed dir index items
-5ccef44065e6833e16748ca156ff05db001a3bad btrfs: do not BUG_ON() on failure to reserve metadata for delayed item
-d36d9b5e21bb2b4a8dd22137eded3844efa425b5 btrfs: set delayed item type when initializing it
-10a730609f46933a68a6085bb2cd1c4e7fc5da48 btrfs: reduce amount of reserved metadata for delayed item insertion
-b591a9aa816caa0f0c2b14b524c2ffaf9848f7d9 btrfs: store chunk size in space-info struct
-f81c8254450332f799b97eefed9ce36b62f706d2 btrfs: sysfs: export chunk size in space infos
-91f76eca2c7ba744f994b919523ba4697bfc0af9 btrfs: sysfs: add force_chunk_alloc trigger to force allocation
-fd32aea8a389fb7cabe17d1af7fac2c4474e606c btrfs: send: remove unused send_ctx::{total,cmd}_send_size
-7db8bb597a18fbccdb3c479d806c5ab03d5f7f07 btrfs: send: explicitly number commands and attributes
-d5b658fe2028a02714e0da07fb00254c5d98e778 btrfs: send: add stream v2 definitions
-ed97a38b8238df704491743999b4068475845daa btrfs: send: write larger chunks when using stream v2
-0b1fb21d195ecd0af15d01660170c55e68e06706 btrfs: send: get send buffer pages for protocol v2
-c3a5d05b82290257bb6ba02849ac3e3bad7df6b2 btrfs: send: send compressed extents with encoded writes
-db512bd3d3e205a721b09510bea1998ee8768e53 btrfs: send: enable support for stream v2 and compressed writes
-c24d5dae30ba347add4a4aaa3efb15ab96de33be btrfs: move more work into btrfs_end_bioc
-c1b61f7ad53f8faa292ca365183565ba7cd752ac btrfs: simplify code flow in btrfs_submit_dio_bio
-a7eee032e6ea49b3a0e40786f750961429e33636 btrfs: split btrfs_submit_data_bio to read and write parts
-ca00a6ba1c013c7240bd1ea79456d65a8ce5a8d2 btrfs: defer I/O completion based on the btrfs_raid_bio
-52175c2561c22bc402a9b35f7ed82aed135d48fe btrfs: don't double-defer bio completions for compressed reads
-42f4e678a09ad6dbf9dfc9f9c954e07b61233359 btrfs: don't use btrfs_bio_wq_end_io for compressed writes
-86d72525f971bfe65a91973623047b35880bd459 btrfs: centralize setting REQ_META
-0609cf7ed02afe63a6734098286c34c81a04228c btrfs: remove btrfs_end_io_wq
-28630133b65d9a967938f8b349962c65145cefe1 btrfs: factor stripe submission logic out of btrfs_map_bio
-1ce47e0f55d3825c4c5ef0506985c866cc6a122c btrfs: do not allocate a btrfs_bio for low-level bios
-7e0e33fa288c2f608cdb6cd806265dcc36adb5d4 btrfs: replace kmap() with kmap_local_page() in inode.c
-6ede8485e544b52ac88897bbb1b54fd8e27d0ead btrfs: replace kmap() with kmap_local_page() in lzo.c
-25ca1b1ef673de661eb630e6200ff00956753e8f btrfs: add error messages to all unrecognized mount options
-638ab1768a6abb9b1280783e93a3de9a95f23af8 btrfs: remove redundant check in up check_setget_bounds
-a218f74698f6d8c965c95d449048a6485bf168b6 btrfs: don't use bio->bi_private to pass the inode to submit_one_bio
-26b320283837341eea4aecf2693dcbfc1c920f3d btrfs: merge end_write_bio and flush_write_bio
-f8a56b4cb3a7241568d5c44e3b7ab5fcaf433c38 btrfs: pass the btrfs_bio_ctrl to submit_one_bio
-c38a8e35d5624a63914300bc186f797b7404b157 btrfs: fix race between reflinking and ordered extent completion
-ef8d4469fa3ab766f6fab64b69e893431cf0daf4 btrfs: add missing inode updates on each iteration when replacing extents
-e11da1718aea3b274a2ba22490e5bb4190560ca6 btrfs: do not BUG_ON() on failure to migrate space when replacing extents
-edc36b77bb6349db1905c9a048c59a90041e6f61 btrfs: make btrfs_super_block::log_root_transid deprecated
-c2ea305306591074b776926f382ff08fd7332751 btrfs: reject log replay if there is unsupported RO compat flag
-69f43ca543392699edf569bd3730478b6d1b930c btrfs: stop looking at btrfs_bio->iter in index_one_bio
-f11fb29ade0fc81cd8d96b1ced7cae885c58e16a btrfs: split discard handling out of btrfs_map_block
-f94699aeb820c5db0e2186f2d96cd7f93be0da0a btrfs: sysfs: advertise zoned support among features
-02cd5a94c618b37d2418c11495ed3f251e34649d btrfs: zoned: prevent allocation from previous data relocation BG
-3d2747525741ba9618e50478c1d36979a05da3cc btrfs: zoned: fix critical section of relocation inode writeback
-1a849e1843bbbaa7c1f832fdea0b49a8dbe48f81 btrfs: add tracepoints for ordered extents
-1625a1fa959891cbdb82efa878deafc69d33fb00 btrfs: don't set lock_owner when locking extent buffer for reading
-24aa969eacdfe35f861a9997fe3c169dbba7bc68 btrfs: save the original bi_iter into btrfs_bio for buffered read
-0162f19cf8a1cd6ea53dffbc7b1f7ea3120eed91 btrfs: set ->file_offset in end_bio_extent_readpage
-26f2423b15ad5d5cd00957dc3cacb77260ae81f8 btrfs: factor out a btrfs_map_repair_bio helper
-78c10598e8b12b361f30adeee73ee324be88f2e6 btrfs: support read bios in btrfs_map_repair_bio
-5d55c9e722e527e9d514e8d5e400129fbc584161 btrfs: add new read repair infrastructure
-1360c8d7c0121bcda0fcf4ea1d21a4e102878bef btrfs: use the new read repair code for direct I/O
-2db3cc0933be6866270659943c24b2850d6c5f71 btrfs: use the new read repair code for buffered reads
-cecdbce1756087c0c350c3d0002a505d3cb0b33d btrfs: remove io_failure_record infrastructure completely
-329537e98ebdd3a67be9017d168bee71d7af4e26 btrfs: fold repair_io_failure into btrfs_repair_eb_io_failure
-792b1d3679d697c518bc71eaa917ec48669b202e btrfs: make the return value for log syncing consistent
-7ccc88843e469deb56eea4ee91d92bb42ed55a9d btrfs: fix deadlock with fsync+fiemap+full sync
-8039ee4e942e3e63dae6606cd061ba3a8ee8d47b btrfs: Replace kmap() with kmap_local_page() in zstd.c
-0e7ad48e365e2ab97625aae28c6818cc62a1af53 btrfs: open code rbtree search into split_state
-31942a14e3f09adf631c757f1ef5813066017138 btrfs: open code rbtree search in insert_state
-fce2c18e0899d42f6e439b351eac9cd24c27301d btrfs: lift start and end parameters to callers of insert_state
-880f783b26931cbaa96fcc03133905a9c657b0a7 btrfs: pass bits by value not pointer for extent_state helpers
-1bbb31979ea218e152480966568a602eeefc0909 btrfs: add fast path for extent_state insertion
-bae33d0096bb09b0bd9d4e01dae8cdeee4a1312f btrfs: remove node and parent parameters from insert_state
-f51cd1daa4bb15e1d33889cd74cb3cff6594f64a btrfs: open code inexact rbtree search in tree_search
-b5024591e80d86b819c1ffb9cfaa1e6399488d7a btrfs: make tree search for insert more generic and use it for tree_search
-92c273bf28013a5c97bbb775bf6a1ab5bd6eb25e btrfs: unify tree search helper returning prev and next nodes
-fe9b88cb728894b4a3709f8ef4e7a7c7f8a6349e btrfs: use preallocated page for super block write
-36f267e5a0248686cdcd64bc02f6357f6b001ad0 btrfs: call inode_to_path directly and drop indirection
-798a65c3ac3275d58529dc298c773a3508e38fe4 btrfs: simplify parameters of backref iterators
-27221d7b6b38fc7087b1a5a05382275190ddb473 btrfs: sink iterator parameter to btrfs_ioctl_logical_to_ino
-cd63223308ea6ee96697577b60dfbcba1f54b950 btrfs: remove unused typedefs get_extent_t and btrfs_work_func_t
-dd0a729a0b2a3994a307577bd00a8870cca9ddcb Merge branch 'misc-next' into for-next-next-v5.19-20220613
-d2b4a773808131d38645b68c8be2199ccecc7109 Merge branch 'ext/hch/sync-repair-v2' into for-next-next-v5.19-20220613
-0e8f0c3da43e8a953c4d6efc6e35c2bfe09d0112 Merge branch 'misc-5.19' into for-next-current-v5.18-20220613
-8f60f3a870ed2d3bae48d8d07541887cb6ad0070 Merge branch 'ext/josef/fsync-full-sync' into for-next-next-v5.19-20220613
-5854f8502289b5ee5fafe3256d8d179c2caa7bdb Merge branch 'ext/fabio/kmap-zstd' into for-next-next-v5.19-20220613
-7e07bb1db1891bc3322f5d9fa7cb916ece1af2f6 Merge branch 'dev/extent-io-tree-cleanups' into for-next-next-v5.19-20220613
-a8491e1ec8ab6e77935f44fa8a5eef67268be0fe Merge branch 'dev/no-func-pointers' into for-next-next-v5.19-20220613
-c33229849a6cfdb260fa2edda8c9d614b9585221 Merge branch 'for-next-current-v5.18-20220613' into for-next-20220613
-60a7e7840bc9498199d2a85c0d6a685ca1ba701d Merge branch 'for-next-next-v5.19-20220613' into for-next-20220613
+6fa2feb1c4f9645cbbb9252d44ebe908667014ea net/ps3_gelic: Add gelic_descr structures
+f1aacb91fa8a66f429d39204f4d7abe2da3f5cd5 net/ps3_gelic: Use local dev variable
+7401168d49549234f24248526baaca120d8f6e0f net/ps3_gelic: Format cleanups
+bcfeca507f505280dc3a1aa1991ffb117cbd8ac3 net/ps3_gelic: Add new macro BUG_ON_DEBUG
+86688735e36db48f8580b81d4831ac3612ebbfec net/ps3_gelic: Add vlan_id structure
+1e5cb4ea61d94e69ec5223cfc87d4f6c5ffec395 net/ps3_gelic: Cleanup debug code
+be7dbd13c638557b389ffa5420a52e8d3262e856 net/ps3_gelic: Add new routine gelic_unmap_link
+ad83b6d7d9f011e0096963006f226fcdd4bacd5f net/ps3_gelic: Rename no to descr_count
+efae271ea8e47aa4eec69fec8ae735a175485edb net/ps3_gelic: Add new routine gelic_work_to_card
+9418e7cf1a07bb267b936285478805b91bc278d2 net/ps3_gelic: Fix DMA mapping problems
+0cc034f45410d35a962a114d88a29f85f795f9d4 hvc_console: Allow backends to set I/O buffer size
+8d4952158b094af416f96f9ab911c5b7461d1fa5 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+d9bd6b015f124b70379137005b8b918f69dca15c ps3-debugging: Setup DABR register
+f2dc9f79f60dd1c084d550ea64ce7502e19755c3 ps3_defconfig: Cut down version
+b8e3d9385de8641e3aa551946c7b69dd22fafb79 powerpc/ps3: Refresh ps3_defconfig
+fc1686bf7459f4df0d99d3f9297de60082039199 local: Add ps3_nfs_defconfig
+bc262440532c2707b5a3ec0ad640ed7fb70e2a7f local: ps3_nfs_defconfig: Cut down version
+294100bfe2fab8a9af18d0a1b2f96b5f6c8f594e local: Refresh ps3_nfs_defconfig
+6328b73e592f25724379330a34397737432f9d03 local: Add ps3_petitboot_defconfig
+8c67b50b020fd7ac3420b460f6cf0b0516fd3194 local: Add ps3_petitboot_nfs_defconfig
+6bf645e745bdc7407c95de6db5d47d7f7db11ef1 local: ps3_petitboot_nfs_defconfig: ip=dhcp
 
---===============3209111141531490433==--
+--===============6679672736871342853==--
