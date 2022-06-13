@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 13 Jun 2022 17:06:33 -0000
-Message-Id: <165513999360.25423.13733906028628807413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 13 Jun 2022 17:11:14 -0000
+Message-Id: <165514027488.28369.1169222935050647562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next/kspp-fam1
-    old: 9ef205b8cbf786449c98b4cd9a207ec5707974db
-    new: 74bd75bc5bea3ab6ff94cb63075361ca22e1a8a0
+  - ref: refs/heads/master
+    old: 963c7a9704b8c4a5096a7b537020765be3a9f336
+    new: 0234854040dc09a27af72c252d277b3b837ee2d6
     log: |
-         74bd75bc5bea3ab6ff94cb63075361ca22e1a8a0 ASoC: Intel: Skylake: Replace one-element array with flexible-array member
+         0234854040dc09a27af72c252d277b3b837ee2d6 foo
          
