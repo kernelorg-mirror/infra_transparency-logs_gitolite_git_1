@@ -1,50 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8483484239263872309=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 13 Jun 2022 17:01:18 -0000
-Message-Id: <165513967880.22147.16660925338559843906@gitolite.kernel.org>
-
---===============8483484239263872309==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 13 Jun 2022 17:01:22 -0000
+Message-Id: <165513968232.22204.17792283214771222873@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 55e1c007e1bd3b30efac683f6d7eba6d4a13928d
-    new: 9f1c8677724a0e6a6ac7a74d2b0192a584df859d
+  - ref: refs/heads/master
+    old: ce3343a345055297ecbb798abb5b3834fa68b7f9
+    new: 963c7a9704b8c4a5096a7b537020765be3a9f336
     log: |
-         9f1c8677724a0e6a6ac7a74d2b0192a584df859d ASoC: hdmi-codec: Update to modern DAI terminology
+         a9602f88c8d014ee54d2176d5eac0c1cf2678671 foo
+         efc1df1e40c2815a6d7b621431490bd410a5ecde foo
+         43d5a9465aa24f7c847b1937157a2b44575105e1 Merge branch 'master' of gitolite.kernel.org:pub/scm/linux/kernel/git/akpm/25-new
+         48f81602f4c8cd61164290d77baf6b8f38eeb6d4 foo
+         963c7a9704b8c4a5096a7b537020765be3a9f336 foo
          
-
---===============8483484239263872309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1655139677 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1655139676-7caf3e67cbcb0ce053aff2e143ad2687eda809f6
-
-55e1c007e1bd3b30efac683f6d7eba6d4a13928d 9f1c8677724a0e6a6ac7a74d2b0192a584df859d refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKnbV0ACgkQJNaLcl1U
-h9AANQf9FOukcQGVEeEJ6oeVXJNyVmA5qNqb6ZpiLwFGlH1PQS+Z20E5y8LkN+oU
-OtUxehtIRlGbFTXZLGK7NfZZFG80ub1jTZxjY+9B+l6hJV1DSaNOjFKohyZL1W7c
-b/uxtbByIL0DX1a68Ub1uL/vyzVzfSgjGC0lPs5RLEqe3ZVGSvZYnNT4j5X1P8uG
-/6uzjB1QdTWqyweaF1VdqIuZ0LZU9f067J5Xc+yUJNGKeN9p2QZbip/eKLd5+D/g
-PHoXgDiH5aGXAKZhzLEiI86dhVx6nT5QagEK909vknvY1Wfz+MHtRMn1tuTmNs+z
-IDe1Hi5hA/U3oWdM4IBhkPcQHDnqlw==
-=my1n
------END PGP SIGNATURE-----
-
---===============8483484239263872309==--
