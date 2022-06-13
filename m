@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Jun 2022 12:52:32 -0000
-Message-Id: <165512475216.20826.16575420748179893780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Mon, 13 Jun 2022 13:08:45 -0000
+Message-Id: <165512572577.30198.664300413380743135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/v3_20220607_kyarlagadda_spi_tegra_quad_add_tegra_grace_features
+  - ref: refs/heads/renesas/s4/hscif
     old: 0000000000000000000000000000000000000000
-    new: 4f37809f4cdf0cdb8d4431e779f56d1f0dec3fb5
+    new: 0555a6aad1a2cfafaf6c780767c6ab2839dee0e8
