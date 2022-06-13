@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 13 Jun 2022 17:01:22 -0000
-Message-Id: <165513968232.22204.17792283214771222873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 13 Jun 2022 17:01:31 -0000
+Message-Id: <165513969124.22341.15369285013285407994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ce3343a345055297ecbb798abb5b3834fa68b7f9
-    new: 963c7a9704b8c4a5096a7b537020765be3a9f336
+  - ref: refs/heads/for-linus
+    old: 2b87cfb2caa6d0e1d4f907571d381248048c53ee
+    new: 85b9f01dfc819952dd1a3d9b7af6f66fb916dd13
     log: |
-         a9602f88c8d014ee54d2176d5eac0c1cf2678671 foo
-         efc1df1e40c2815a6d7b621431490bd410a5ecde foo
-         43d5a9465aa24f7c847b1937157a2b44575105e1 Merge branch 'master' of gitolite.kernel.org:pub/scm/linux/kernel/git/akpm/25-new
-         48f81602f4c8cd61164290d77baf6b8f38eeb6d4 foo
-         963c7a9704b8c4a5096a7b537020765be3a9f336 foo
+         85b9f01dfc819952dd1a3d9b7af6f66fb916dd13 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 265c053af7c522230e571fd4927c8bbe9a80f5c4
+    new: 5759944a3e5045e9815b98084d69557c5863a15b
+    log: |
+         9f1c8677724a0e6a6ac7a74d2b0192a584df859d ASoC: hdmi-codec: Update to modern DAI terminology
+         85b9f01dfc819952dd1a3d9b7af6f66fb916dd13 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         5759944a3e5045e9815b98084d69557c5863a15b Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
          
