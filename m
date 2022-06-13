@@ -1,26 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 13 Jun 2022 17:24:10 -0000
-Message-Id: <165514105046.5272.2457169106113415834@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1873250323900535074=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 13 Jun 2022 17:28:54 -0000
+Message-Id: <165514133466.8202.11095403228585046888@gitolite.kernel.org>
+
+--===============1873250323900535074==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 1d4e873c6fdc86d3b9a58819403d6850ab29c3d6
-    new: cf538f72e11d49e346358153dd7ebd6b4de3ae28
-    log: |
-         b76134178168b5104851b3c72d9b1092b7414ff9 spi: tegra210-quad: Multi-cs support
-         e23917822d3cb1f5270ab0d327da713cda72f8f2 spi: dt-bindings: split peripheral prods
-         4f37809f4cdf0cdb8d4431e779f56d1f0dec3fb5 spi: dt-bindings: Add compatible for Tegra241 QSPI
-         116679aef2f92d535ea8049ef2a610bc73f94660 spi: micro: fix unreasonable clk_prepare_enable() on error in mchp_corespi_probe()
-         845d3fd8a0aadf5dd97e6d345d3df4bf80099e69 spi: s3c64xx: set pointers to null using NULL rather than 0
-         41ecad2c3cce807abf32bff879cef5dfcacae363 spi: spidev_test: Warn when the mode is not the requested mode
-         35f2b9afc23b75e407caa70635851292056bff33 spi: tegra quad: Add Tegra Grace features
-         cf538f72e11d49e346358153dd7ebd6b4de3ae28 Merge remote-tracking branch 'spi/for-5.20' into spi-next
-         
+  - ref: refs/heads/net-mlx5
+    old: 6f0e1efc880ae979df45aa85e3336aac5e58d97a
+    new: 619c010a65391d06bc96e79fa0e7725790e5d1a9
+    log: revlist-6f0e1efc880a-619c010a6539.txt
+
+--===============1873250323900535074==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6f0e1efc880a-619c010a6539.txt
+
+9eda7d8bcbdb6909f202edeedff51948f1cad1e5 net: hns3: set port base vlan tbl_sta to false before removing old vlan
+283847e3ef6dbf79bf67083b5ce7b8033e8b6f34 net: hns3: don't push link state to VF if unalive
+cfd80687a5388e731b3db65ad6a557ede9b45905 net: hns3: modify the ring param print info
+e93530ae0e5d8fcf2d908933d206e0c93bc3c09b net: hns3: restore tm priority/qset to default settings when tc disabled
+71b215f36dca1a3d5d1c576b2099e6d7ea03047e net: hns3: fix PF rss size initialization bug
+12a3670887725df364cc3e030cf3bede6f13b364 net: hns3: fix tm port shapping of fibre port is incorrect after driver initialization
+a5b00f5b78b7adb9f6f37381da2a54db6d37cd11 Merge branch 'hns3-fixres'
+00be43a74ca262267ceb96c0c5e3f51d3a56342e net: axienet: make the 64b addresable DMA depends on 64b archectures
+b690f8df6497b654c2c871871e0a598e9750c0eb net: axienet: Use iowrite64 to write all 64b descriptor pointers
+a7ffce959cca257ea5a6d3ee9bfa2d7fb12bb9fa Merge branch 'axienet-fixes'
+5f7b84151a89f6f3a8d1db4db2bc4f5b270d66ee xilinx:  Fix build on x86.
+619c010a65391d06bc96e79fa0e7725790e5d1a9 octeontx2-vf: Add support for adaptive interrupt coalescing
+
+--===============1873250323900535074==--
