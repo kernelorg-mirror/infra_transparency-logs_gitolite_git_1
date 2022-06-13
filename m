@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 13 Jun 2022 16:11:42 -0000
-Message-Id: <165513670235.21098.9140293053197805330@gitolite.kernel.org>
+Date: Mon, 13 Jun 2022 16:12:34 -0000
+Message-Id: <165513675435.21696.6084802068893065662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-current
-    old: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
-    new: 97a4087a363888b818225d890c912a52a24b9f73
+    old: 97a4087a363888b818225d890c912a52a24b9f73
+    new: 30756cc1645080445c957192bc8a7af3b193d617
     log: |
-         97a4087a363888b818225d890c912a52a24b9f73 MAINTAINERS: add include/dt-bindings/gpio to GPIO SUBSYSTEM
+         30756cc1645080445c957192bc8a7af3b193d617 docs: driver-api: gpio: Fix filename mismatch
          
