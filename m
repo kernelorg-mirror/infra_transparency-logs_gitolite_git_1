@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 13 Jun 2022 13:24:39 -0000
-Message-Id: <165512667946.8412.8830460114224281251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 13 Jun 2022 13:29:30 -0000
+Message-Id: <165512697091.11405.10794357779338228431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 3f1bfd5e3df5f532430546a898d7cbf0023da3f2
-    new: 494bf37523fc28575aacd01b1bc02acbf1b4d4fa
+  - ref: refs/heads/master
+    old: 219160be496f7f9cd105c5708e37cf22ab4ce0c7
+    new: c04245328dd7e915e21ac6395ffd218616e22754
     log: |
-         494bf37523fc28575aacd01b1bc02acbf1b4d4fa hwmon: (dell-smm) Add Dell G5 5590 to DMI table
+         c04245328dd7e915e21ac6395ffd218616e22754 net: make __sys_accept4_file() static
          
