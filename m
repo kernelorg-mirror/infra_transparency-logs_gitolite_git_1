@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Jun 2022 14:07:58 -0000
-Message-Id: <165512927897.4617.18086583627746673470@gitolite.kernel.org>
+Date: Mon, 13 Jun 2022 14:08:29 -0000
+Message-Id: <165512930908.4872.1376474044838986909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileop85yz
-    old: ae6c5b67eddd108c55eccf739c804cbbe2e3f8dc
-    new: 65c1c99d96f160e3fead8c6ec67b669cbe62320f
+  - ref: refs/heads/filelFwHyN
+    old: f1ca5ec78235161caf7bae8ebeca5e430a4cd7b8
+    new: 9f1c8677724a0e6a6ac7a74d2b0192a584df859d
     log: |
-         65c1c99d96f160e3fead8c6ec67b669cbe62320f ASoC: wcd938x: Fix event generation for some controls
+         9f1c8677724a0e6a6ac7a74d2b0192a584df859d ASoC: hdmi-codec: Update to modern DAI terminology
          
