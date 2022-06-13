@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7212301413855374745=="
+Content-Type: multipart/mixed; boundary="===============2787128085798530425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 13 Jun 2022 17:13:02 -0000
-Message-Id: <165514038292.30393.7897562577804220359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 13 Jun 2022 17:13:15 -0000
+Message-Id: <165514039553.30625.10594936518269598522@gitolite.kernel.org>
 
---===============7212301413855374745==
+--===============2787128085798530425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 9f1c8677724a0e6a6ac7a74d2b0192a584df859d
-    new: 6062ecda5b427f2cf349a8a35674d17fc300e598
-    log: revlist-9f1c8677724a-6062ecda5b42.txt
+  - ref: refs/heads/for-linus
+    old: 85b9f01dfc819952dd1a3d9b7af6f66fb916dd13
+    new: 0cdeecd518dafe49542d7ff919405d5d537781ed
+    log: |
+         0cdeecd518dafe49542d7ff919405d5d537781ed Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 5759944a3e5045e9815b98084d69557c5863a15b
+    new: 376661a2b282008bb6a84498bbeab3edd2866720
+    log: revlist-5759944a3e50-376661a2b282.txt
 
---===============7212301413855374745==
+--===============2787128085798530425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1655140381 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1655140380-f0de337bf371843bb144d660ecc2998cf42008b1
-
-9f1c8677724a0e6a6ac7a74d2b0192a584df859d 6062ecda5b427f2cf349a8a35674d17fc300e598 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKncB0ACgkQJNaLcl1U
-h9DW9gf+KXZ/3ac1C6w5kIVLlmCC10G7r6mzUW+odIcAt5qPffOeozwqgOUVfNji
-Y+Vjpp8iGLfDGJByWPI1/OHdU/kmxRD4m4KO3JxolpbevP6Ppn0fx7KiQyFPTpen
-YgMdJGJuO5HhLGfIRpB9YERnELPgflA9RvNxvy8HEMqhVSyU1/GmNAecn8iA8bNn
-T9BzTGNG0cYNHNonS8pi+fnJGAEWDi87Vhm+WT3xk7AUIp+4LgYZQgbsrsXn4YjI
-yk/fg+CeHhCDw7zjJ3dUtNB4LYuf0SQpmgj+s5BeaeXg2Wkiq0Dm3JagfQklGZyr
-5fqqQn6YH8I6XoFHR3uEpABfpCA1/g==
-=7WaS
------END PGP SIGNATURE-----
-
---===============7212301413855374745==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f1c8677724a-6062ecda5b42.txt
+Content-Disposition: attachment; filename=revlist-5759944a3e50-376661a2b282.txt
 
 bd10cd5ec54616a488d0bda695f78694ad79f779 ASoC: SOF: Add topology tokens for IPC4
 90e891551fb4949daeb3df20d43e7da838ef89a3 ASoC: SOF: IPC4: Introduce topology ops
@@ -75,5 +56,7 @@ aa84ffb721587d134702a1932f2c8793e8709df4 ASoC: SOF: ipc4-topology: Add support f
 9e2b5d33fec938ea2518735f2b66313cab89bb61 AsoC: SOF: ipc4-topology: Add dai_get_clk op
 a45a4d4390b7a562f8edc3518ba6cd2ad17be5bc ASoC: SOF: IPC4: add sdw blob
 6062ecda5b427f2cf349a8a35674d17fc300e598 ASoC: SOF: IPC4: Add topology, control and PCM ops
+0cdeecd518dafe49542d7ff919405d5d537781ed Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+376661a2b282008bb6a84498bbeab3edd2866720 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============7212301413855374745==--
+--===============2787128085798530425==--
