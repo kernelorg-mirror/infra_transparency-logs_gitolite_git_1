@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7377099803234480519=="
+Content-Type: multipart/mixed; boundary="===============2529813333796102561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 13 Jun 2022 14:01:56 -0000
-Message-Id: <165512891678.1102.16443833806368853097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Mon, 13 Jun 2022 14:06:31 -0000
+Message-Id: <165512919175.3995.4087623603141216598@gitolite.kernel.org>
 
---===============7377099803234480519==
+--===============2529813333796102561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kernel-in-vmalloc-v5.19-rc1
-    old: 512fc95a58c7b2e91e267db91a4ec5a54afedd01
-    new: 62fa3e7c2288a1f8d5b9bb2c1f31cee3c26df806
-    log: revlist-512fc95a58c7-62fa3e7c2288.txt
+  - ref: refs/heads/testing
+    old: 6914df1891c27f83e538dab3f5aadd2842e89a7f
+    new: 9341351495789ad51317b32976d52984f169d2fb
+    log: |
+         a9cf02c6a671bc84a348cd5934627ff68d8d8d35 can: Break loopback loop on loopback documentation
+         173d349ba0b785305fde42a67ce66a63417e57da can: etas_es58x: replace es58x_device::rx_max_packet_size by usb_maxpacket()
+         e0e0cc54000e6f36a38c70778feb9d753cfb87e2 can: etas_es58x: fix signedness of USB RX and TX pipes
+         e909b43bddc0ff5db59e633398e35a25b9b2f0c1 Merge branch 'can-etas_es58x-cleanups-on-struct-es58x_device'
+         c878d518d7b628bc40cacfc9cee4a3db91a6a9ac dt-bindings: can: mpfs: document the mpfs CAN controller
+         38a71fc048955c5c9d8bd14351d0f8cbcfef4f5b riscv: dts: microchip: add mpfs's CAN controllers
+         9341351495789ad51317b32976d52984f169d2fb Merge branch 'document-polarfire-soc-can-controller'
+         
 
---===============7377099803234480519==
+--===============2529813333796102561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-512fc95a58c7-62fa3e7c2288.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e68a17031541f0ed5f750fdf6eb517149bd6614a m68k: Pass a pointer to virt_to_pfn() virt_to_page()
-3212cc250f2473c6787c05351994479812cac904 ARC: init: Pass a pointer to virt_to_pfn() in init
-ad6e8226ef7d0ce51f04f9f047bec24b85f079b3 riscv: mm: init: Pass a pointer to virt_to_page()
-ed4befbf783c06820e9d4620c7fd254a36d608fe asm-generic/page.h: Make virt_to_pfn() a static inline
-4d64c2e7aa85cea85838fd869099103c18c7e83f ARM: mm: Make virt_to_pfn() a static inline
-dee18ae5cfe6be4185b27c61e752cec29fa2f778 arm64: memory: Make virt_to_pfn() a static inline
-0f0daa96cb361123587b935229221c47a62c1000 ARC: mm: Make virt_to_pfn() a static inline
-2ac3c3aa040d03918125a99afb91d8080f263158 csky: Make virt_to_pfn() a static inline
-1b1e0dcf571b4754f9d5ea71f719c1498b8ab407 Hexagon: Make virt_to_pfn() a static inline
-4354d670b39738cc06a22c469fe5a8a2c1bef269 m68k/mm: Make virt_to_pfn() a static inline
-ff24dffbd3b9ca146bea98a2f4b76042e03267c9 microblaze: Make virt_to_pfn() a static inline
-6b66c8d79c00d65f2bdcef8f07b96c93385ff85f MIPS: Drop virt_to_phys define to self
-01bafd108d28c0c6cc30d296f9a5ae19ac264811 MIPS: Make virt_to_pfn() a static inline
-7cadf62908816f38a83ada3f4f6f01fdd349f8ca openrisc: Make virt_to_pfn() a static inline
-d2b930128c4dfdce5bd9470bf79277bd457df960 powerpc: Make virt_to_pfn() a static inline
-f93e0b31e1df9aabc93537c38e37d651a9bca194 riscv: Make virt_to_pfn() a real function
-076023b4e1de89ed461a35d814c392705b992bf7 s390/mm: Make virt_to_pfn() a static inline
-43ab4e5d6738273055dca21031e23b53b3721889 x86/xen: Make virt_to_pfn() a static inline
-2d1339b1500baa6333546cc723234c87b76efeb9 ARM: kasan: Support discontiguous memory ranges
-0a096d7a514af739ef12ec8f101f8b3df38cbe9a ARM: Compile the kernel into VMALLOC
-62fa3e7c2288a1f8d5b9bb2c1f31cee3c26df806 HACK: ARM: Make Vexpress compile into 0x80000000 without p2v
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1655129188 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1655129187-87041fe68b9796abece0312b5a62de003295af70
 
---===============7377099803234480519==--
+6914df1891c27f83e538dab3f5aadd2842e89a7f 9341351495789ad51317b32976d52984f169d2fb refs/heads/testing
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmKnRGQTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXbbrB/99LCKsL0Zt0ckWVwrG0hZB/6sfTyaA
+Jiy4UKh7qJQboWJWMm8tloqHuNtp5ev7bErjTf0K50yx0By+1iYAak+LU7pHt2nd
+yYVJdmNWTIuW0woW3l3U3EfkBsBb02c/h8Sq7esljeHc7JNB8vu/ozxQiz/oPC/r
+8thbr2EBluqBaBQnH83+Xr+B6QKB6c930K3LbOmqkD6sxGivw08hybJh835wyufP
+DTGzyltA9uAcCjoimCxPADxgkvYNZ3922CfhDQ1oK/pghO0mI+ThN7NqidNuAp8D
++fZN8MI+ySrEfGp51EYLU2q2qFEEbsMiXbEgCPQzayz5tz1iWSsj6p7D
+=GKUA
+-----END PGP SIGNATURE-----
+
+--===============2529813333796102561==--
