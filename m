@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2958107918913981697=="
+Content-Type: multipart/mixed; boundary="===============7472061819665330177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Jun 2022 17:20:05 -0000
-Message-Id: <165522720592.21981.11675881776774875193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 14 Jun 2022 17:20:13 -0000
+Message-Id: <165522721378.22110.10013998274562508778@gitolite.kernel.org>
 
---===============2958107918913981697==
+--===============7472061819665330177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: a150345aa758492e05d2934f318ce7c2566b1cfe
-    new: d919630fe77904931277e663c902582ea6f4e4cf
+  - ref: refs/heads/for-5.20
+    old: d38dc01a4e68133e11ae74af7585d2c4bbd5803d
+    new: d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc
     log: |
-         aa2a4b897132169fbc6d32932644b95875cf9c7f ASoC: ops: Fix boolean/integer detection for simple controls
-         d919630fe77904931277e663c902582ea6f4e4cf ASoC: cs35l45: Add endianness flag in snd_soc_component_driver
+         d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc spi: core: Fix error code in spi_register_controller()
          
 
---===============2958107918913981697==
+--===============7472061819665330177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1655227204 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1655227204-003ba1b5369c84f91aa1e648b6803ccd5889b8ab
+pusher C3F436CA30F5D8EB 1655227212 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1655227211-579a1589d20f94719d51fe2bb927df81942f4a0b
 
-a150345aa758492e05d2934f318ce7c2566b1cfe d919630fe77904931277e663c902582ea6f4e4cf refs/heads/asoc-5.20
+d38dc01a4e68133e11ae74af7585d2c4bbd5803d d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKow0QACgkQJNaLcl1U
-h9BQFwf6AiQxAbVjnFGKhrKxxY0luePYxvpTPwMVh7TxhicvHR+n+iKmIwTmNG8+
-L/dKF99vk1vrvxBTLdJeJ8v2KbBqmi/Vj9c5mpIiw4STp1E0HMPXWFPgo2UUBw9+
-0nEH7vYRHqQCqXNek/8tuJ4K4vqHxLWfBFj1fJJVzk3JrSLbeQmTi3CDHBo9dUdP
-4/40Tsg890FBATKP9OZmPXJxLX4cON3s3SRTSUBysfdOT1B29qugfRPbMt8rcTPn
-jhrJLWym/2C8P4PYcpq8ucHqEOV0G//6PDxGuJgpfiP/FLo6JVk5UpAgg5na4xot
-a/Lu9OobhB/z1Qz1VmNi2hBTZglNMw==
-=K9y2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKow0wACgkQJNaLcl1U
+h9AInQf+P55HlYd7whLiw4vfmFXNDLzqjeAYKhlGrhDiN16GBqFotmyYceI2W3T6
+3x2jtt7tkcUaedigvXdT2yrk0aeF/J0Pt0ledcn0HpStatBP+Sc3cpJEPVu/Wjy1
+Vd2TenBWauO2YOP880xX3ll10+M6VnLWbdniQaH6WeBBlYuy4V9XueAGUNrBPCy9
+4PtmTfN2yQQwYQ5mZYa3b9z5C4/l254Y1/Bb6U8qRX6ieDB87ETW7cOKIWr3yIMs
+gj4oHnarugpoSwmiaA8sAo6Jp7Cgw9k5y5e/7aImNUuxD9iJPozCF/BbS010aSxn
+Dw28GFj9sC1USSuhsxgtRosFMYdG7g==
+=Vtmd
 -----END PGP SIGNATURE-----
 
---===============2958107918913981697==--
+--===============7472061819665330177==--
