@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 14 Jun 2022 17:52:02 -0000
-Message-Id: <165522912293.11255.17884747578933178064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 14 Jun 2022 17:58:59 -0000
+Message-Id: <165522953961.14851.14242550627236411528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 24625f7d91fb86b91e14749633a7f022f5866116
-    new: 018ab4fabddd94f1c96f3b59e180691b9e88d5d8
+    old: 25db7adebf7df574785792ab1ac2c1c34c06abe5
+    new: 665e90c310f36709e511eaeb9d25f4e5523ae58c
     log: |
-         018ab4fabddd94f1c96f3b59e180691b9e88d5d8 netfs: fix up netfs_inode_init() docbook comment
+         665e90c310f36709e511eaeb9d25f4e5523ae58c Tue Jun 14 05:58:20 PM UTC 2022
          
