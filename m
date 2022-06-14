@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 14 Jun 2022 02:44:42 -0000
-Message-Id: <165517468281.20051.9922886422504705583@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 02:44:58 -0000
+Message-Id: <165517469897.20202.592134286453666722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
+  - ref: refs/heads/opp/clk
     old: e0b5a73a38590835ae8e046828b5abd1c55ff083
     new: ff64cce8a7cf52aa5c0d9fefdae2ac3b2bca60c8
     log: |
