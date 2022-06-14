@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 14 Jun 2022 10:07:04 -0000
-Message-Id: <165520122463.29559.10558634348134728066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 14 Jun 2022 10:12:07 -0000
+Message-Id: <165520152718.32756.10703564712764726559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 152374ba1368cd7bffa4107df02c84eff1f395cb
-    new: 71f7a4d5e7cd15ad24da1da3bc540f6d38fb66f6
+  - ref: refs/heads/testing
+    old: 20b4fa69eeaa2b6389ff83662a96c8f0f1f414ab
+    new: 9f59dbf1c471de25a772b8d2bb71d2b7233297d8
     log: |
-         8c91374b1a5fa3b04063761f9b7eeb1e80963d67 arm64: dts: fsl: ls1012a: fix Micron SPI NOR compatible
-         fd207b47278277dc7647e1d308db71ed2f4a12e5 arm64: dts: imx8mm: Add SNVS LPGPR
-         e56fdc60ac8fb65636ca69bc88fa5319b4cdb8c5 arm64: dts: imx8mp-evk: add regulator supply to CPU nodes
-         4a154e5ab9a2d7e8a0bf8ec3f031ce428ef79917 arm64: dts: fsl-ls10xx: use generic dma node name
-         33597c6257bfe2a84f7950481118ef9783f42f49 arm64: dts: fsl: adjust whitespace around '='
-         7a8de234ffb4c218e2d4e874cd4ddbf57b2d1d87 Merge branch 'imx/soc' into for-next
-         f567d0cc5a87c3727ca24645a064f030131ff148 Merge branch 'imx/bindings' into for-next
-         175261d01f08f388e6b937284e797fc2f2dbd6b4 Merge branch 'imx/dt' into for-next
-         da3de44ac9e0edff35f6cf04faf43bec520d36df Merge branch 'imx/dt64' into for-next
-         71f7a4d5e7cd15ad24da1da3bc540f6d38fb66f6 Merge branch 'imx/defconfig' into for-next
+         7334055996a008bb9751e2155dd8254e09459c7c iio: imu: st_lsm6dsx: Limit requested watermark value to hwfifo size
+         75cff03485926782944bc57bb8e588474f3a803d iio: at91-sama5d2: Limit requested watermark value to hwfifo size
+         c4fa900ff750aabf5cbe398069d6b95d18c274c3 iio: adc: sc27xx_adc: Re-use generic struct u32_fract
+         edf27af5132523f6780270c898177a54d0a7a969 iio: adc: meson_saradc: Don't attach managed resource to IIO device object
+         a71fb5f5f2fec005816beaef04b69e29b740b273 iio: adc: meson_saradc: Align messages to be with physical device prefix
+         0260a2be74f2ab33d19bca28a056b3f70cc4e965 iio: adc: meson_saradc: Convert to use dev_err_probe()
+         145d1af2b1d942f535e2653ad0ab855c035125b8 iio: adc: meson_saradc: Use devm_clk_get_optional()
+         fa1f701d79f59c0563d6ceb699f78daa7a12be51 iio: adc: meson_saradc: Use temporary variable for struct device
+         9f59dbf1c471de25a772b8d2bb71d2b7233297d8 iio: adc: meson_saradc: Use regmap_read_poll_timeout() for busy wait
          
