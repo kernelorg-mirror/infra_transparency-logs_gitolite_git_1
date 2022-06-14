@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7184455206589016364=="
+Content-Type: multipart/mixed; boundary="===============2329008239762559265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 14 Jun 2022 10:46:31 -0000
-Message-Id: <165520359160.24224.7813637274641847464@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 10:47:07 -0000
+Message-Id: <165520362701.24514.10906396569499040992@gitolite.kernel.org>
 
---===============7184455206589016364==
+--===============2329008239762559265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 9c50b2e70d55e088400b828d441b42254eae94b4
-    new: 10897f34309b3c7bc14698407436c82d11c07f47
-    log: revlist-9c50b2e70d55-10897f34309b.txt
+  - ref: refs/heads/testing
+    old: 97d045289d47f2d7aecc30c6fd3eb920a9b6f2dc
+    new: ecf6b59da028da4dff2122d1c2337a33922ccee9
+    log: revlist-97d045289d47-ecf6b59da028.txt
 
---===============7184455206589016364==
+--===============2329008239762559265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c50b2e70d55-10897f34309b.txt
+Content-Disposition: attachment; filename=revlist-97d045289d47-ecf6b59da028.txt
 
 7db52e252a2bf0074f513d2477f27248b7a96f96 iio: adc: lpc18xx_adc: Switch from of headers to mod_devicetable.h
 3b9b4357d5b241f4de08135c176b6da39fe82d6a iio: dac: ad5592r: Get rid of OF specifics
@@ -145,5 +145,39 @@ faa05ecb1349070d874810e161b653c2220e0006 iio: resolver: ad2s90: Fix alignment fo
 732f2cb2fbb51bd5bc03a114bd102ab3b2f537fe iio: temp: ltc2983: Fix alignment for DMA safety
 ecdef5b8317cdf18acb46223e087f04a226fa619 iio: temp: max31865: Fix alignment for DMA safety
 10897f34309b3c7bc14698407436c82d11c07f47 iio: temp: maxim_thermocouple: Fix alignment for DMA safety
+ae3babe1c4663c67041243c0cc01ed109a45d74c iio: adc: ad7606: explicitly add proper header files
+f3823017e16dffa88de64d542f30f9afbecc0527 iio: adc: ad7606_par: explicitly add proper header files
+34de6b50ddb6d2ad73fb70e156e5586266d5eef0 iio: adc: berlin2-adc: explicitly add proper header files
+848d190104086168ae8f5da605aa6171558b8f72 iio: adc: imx7d_adc: explicitly add proper header files
+c2bb705f45c610c956e80ef5255462ece072ebf9 iio: adc: imx8qxp-adc: explicitly add proper header files
+4738b57a6c123167f1af73bbe2fb762dde6ad001 iio: adc: ingenic-adc: explicitly add proper header files
+1fd4c0cd789d912ad18b05996e908301444383ed iio: adc: mp2629_adc: explicitly add proper header files
+e335cd347e6eb9cae6180a120e7c34ed70ccbede iio: adc: mt6360-adc: explicitly add proper header files
+074d68c1c0123e5f6c849f41c9af3026dc6c7b6d iio: adc: npcm_adc: explicitly add proper header files
+d428e68a26cf0ba92f92a2db063e5f2e32cf8e92 iio: adc: rzg2l_adc: explicitly add proper header files
+fb68441019dc649ccc69ee7744ac719fc4bac4c6 iio: common: cros_ec_lid_angle: explicitly add proper header files
+1f0350557b395054b8f32ffba8b5c8709f762f6b iio: common: cros_ec_sensors: explicitly add proper header files
+2a53b91c23f2afbacdd9cc05a98613a09d431b9b iio: dac: stm32-dac: explicitly add proper header files
+55ae407ae946b6766a50420f64c0a4021388b22d iio: dac: vf610_dac: explicitly add proper header files
+93018249a7315de5ab251751228a59f087a31d6c iio: humidity: hts221_buffer: explicitly add proper header files
+ca07e6bb4e5a3d544ff8fba7d7ad05462c6715c3 iio: light: cros_ec_light_prox: explicitly add proper header files
+ca27395f1b9511830a3a5c65a1ad444c2923cbc2 iio: pressure: cros_ec_baro: explicitly add proper header files
+f93d3a779272a319f767a85a9062ebf69ecf5311 iio: trigger: stm32-lptimer-trigger: explicitly add proper header files
+f5fa2e225e4a469665178f95b422236730687274 iio: core: drop of.h from iio.h
+b511d6bddcf4936c487198b61ee7d86ad07c1810 iio:accel:kxsd9: Switch from CONFIG_PM guards to pm_ptr() etc
+a1dab279ac3ef2ae620a40c13cf47f2b54198a2f iio: humidity: hts221: Use EXPORT_SIMPLE_DEV_PM_OPS() to allow compiler to remove dead code.
+458bd00ea79af80fa22057905facc9fff427e9f7 iio: humidity: hts221: Move symbol exports into IIO_HTS221 namespace
+5c506f9609ac5fdfd61afa3f52559f65711142ae iio: imu: lsm6dsx: Use new pm_sleep_ptr() and EXPORT_SIMPLE_DEV_PM_OPS()
+ad4be97f2997e81ff558972f7480fb81679139aa iio: imu: lsm6dsx: Move exported symbols to the IIO_LSM6DSX namespace
+ac7404abb6231fae6a5e59c5972337bd4a74a4bf iio: imu: st_lsm6dsx: Limit requested watermark value to hwfifo size
+d55de8dd245eff8ec45a90e6cf56625afccba1a8 iio: at91-sama5d2: Limit requested watermark value to hwfifo size
+fe17df866f29df20193f172840c33df0fe12f8fb iio: adc: sc27xx_adc: Re-use generic struct u32_fract
+6c131e2d9f55815cb1fbee19b09f994814138413 iio: adc: meson_saradc: Don't attach managed resource to IIO device object
+d4df5a8be1c488d85b125a4de72bf17f1917c391 iio: adc: meson_saradc: Align messages to be with physical device prefix
+24621ba1433654e33ea9e98c56710453ad044cd9 iio: adc: meson_saradc: Convert to use dev_err_probe()
+1392f79b4b136a8446cd7ebfb72b5abf525ae727 iio: adc: meson_saradc: Use devm_clk_get_optional()
+e716c8f74de673d63da8a6ca8257b9d1a7897dc9 iio: adc: meson_saradc: Use temporary variable for struct device
+8d6d093169580d0ba4485031e8be7ef147e106aa iio: adc: meson_saradc: Use regmap_read_poll_timeout() for busy wait
+ecf6b59da028da4dff2122d1c2337a33922ccee9 iio: Use octal permissions and DEVICE_ATTR_{RO,RW}.
 
---===============7184455206589016364==--
+--===============2329008239762559265==--
