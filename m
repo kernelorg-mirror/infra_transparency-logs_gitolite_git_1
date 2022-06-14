@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1057921340358397486=="
+Content-Type: multipart/mixed; boundary="===============1700308698272798821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Jun 2022 02:23:34 -0000
-Message-Id: <165517341458.5791.2726420796365543466@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 02:23:50 -0000
+Message-Id: <165517343072.5965.8354465644729310033@gitolite.kernel.org>
 
---===============1057921340358397486==
+--===============1700308698272798821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 711650652d3a067b04260092667e4527506cc9ee
-    new: 97fb285d4f2da6d5250dfc54bbef7b0879e8e22d
-    log: revlist-711650652d3a-97fb285d4f2d.txt
+  - ref: refs/heads/staging
+    old: b9f50e3cfd13687279f2170ff6ef5d71f6c7db11
+    new: defd530b0eab8cf0ac007b193120c5534b37f73d
+    log: revlist-b9f50e3cfd13-defd530b0eab.txt
 
---===============1057921340358397486==
+--===============1700308698272798821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655173405 -0400
+pusher 75C5DE3D 1655173421 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655173404-7dc70789e73790e55364c7be0c474bdea7d20a2a
+nonce 1655173420-4ba191c89372ddedfdfc3ab0a19b23253a4787cd
 
-711650652d3a067b04260092667e4527506cc9ee 97fb285d4f2da6d5250dfc54bbef7b0879e8e22d refs/tags/mkp-scsi-staging
+b9f50e3cfd13687279f2170ff6ef5d71f6c7db11 defd530b0eab8cf0ac007b193120c5534b37f73d refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8R0ACgkQ7ulgGnXF
-3j3QDA//VWXN74hAIOM/YBz19v1FXgiVwudz85AS5Sgupe6KeOyKX93L6r6H/XAk
-URHrudQwVQ/RQOKPKOVwI0twB7XkzbTkOY8LUfXZZzj0f0x5oGbvBollPJoALPIW
-8yNNhYvS2hkoMNI3pHh55yVjF3FLdzL/pcu/gsqcWhDognPMODg+obkApb4kabV+
-szJgQXVyq3ICwRuvXAsZa1pGez4S/vWiyr+YBu3NVBtxb3YEvb7/zs0Q0aVuu+G5
-gZy/Vtusu5Xub5nnWrQJ/A41e12ztQ+AgX6KEkVcgVx8beauG2mATYvrxKHSB377
-azaSH3Vj0UjqmcpN0tRaPsGtcf5Qo76Am1lPx9eagjqi5P7vrOc+61gp8wpjMVAe
-r+M7bsphq5S+kga3a1SS02jWwn6AbXMVovYo14qNA+SQ21wrmrw3eg73JLnA2Cm3
-TuQdUo7sBraiJcYQai0PdD01N7MI9gtEAxOKKfJ014DmZWawal58hFRZkG7IXp7S
-DRaTb4nwvOd4JBo91BFTO6WEilJeHV3rJPpOP9V1H2AowSDMQMsITOK5yuea7q21
-gcJCKz7r4SrAnJTbPMXdcFCCrKXTHfSLimaGtbYqrvmCAQVupW/ErO/lRmc/8zDh
-Ay/+VkndDUyFEMOKLpuXZX7nMXszRpvshe/bPw006lG3BrDfin0=
-=gA8w
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8S0ACgkQ7ulgGnXF
+3j3y6BAArZSCgnpCCErfLft+IPXhaSXoWnX8ZCFh1H10pTH9W5ulbOMpbZxSPfit
+QlHHV6ADVsM1kl6h3Sw0smKD5FzeRUoB4kDkLz++0fGW7mwc67s3jf6UgpvXeohQ
+Z08e4WGT338nu1h+anTm95b161etV6Rjy16NY/oR+RtExnj8bMaOfn3949ILqDaL
+Il/3qOSgUvG6vuCnY8jilc7HJB5dRgMjMN3z/IgE9OIOodgXXS7axhfqZFLZJnmg
+KSW41skaIZLnU4Bo+zGQZVwZPmf71pnAgx5fPhEX/OPHMKvNqogenjstRNVcf39L
+mPWRa5yCQXxDhoxygiSkEqrFIBWuKpGHSVoAnjCa2MWii7rfnh30zMIYQbQHVM6q
+fWuPwZqUNCCO8TG9HAAtegLK0yEA60nWLlWCrIqGPoKG1qP6b9fATPe2aKHRRYuZ
+LZGkh3c6pPfXIc8tSmVILqUuYR5hKp0VjnpZnM00NW8nzSp+bp0C+YM2LDUCAnTB
+0xIMGWg5kCFkAs2tLjWhv8jkDfsoUHjUKawRY1MDHDBZ1i2r2EyoM3H88ii8DTHx
+Gn7iJBIwu8InE2iPPG5G87S0DtnS/t+ewxsClRXLZeb+5ODPSta1q4QjP3t24Mp/
+UHcfKq7JN5WquoJ8D+lparyo0umnPm2/bU74BeMd0RoHrxaAEm8=
+=PReC
 -----END PGP SIGNATURE-----
 
---===============1057921340358397486==
+--===============1700308698272798821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-711650652d3a-97fb285d4f2d.txt
+Content-Disposition: attachment; filename=revlist-b9f50e3cfd13-defd530b0eab.txt
 
 ea83df8e3bd065037589f2db56fcdc70eb37ae5a scsi: dt-bindings: ufs: exynos-ufs: Add FSD compatible
 daa782a51ec83aee4a4235feeb60b1239c285d82 scsi: ufs: host: ufs-exynos: Add mphy apb clock mask
@@ -70,4 +70,4 @@ a42dc5b48af88ed3b9171aef7f64ca1fc10c799f scsi: arm64: dts: renesas: r8a779f0: sp
 b12727ac8a1a2d28c818a382dd791a499faf9ac0 scsi: lpfc: Use memset_startat() helper in lpfc_nvmet_xmt_fcp_op_cmp()
 defd530b0eab8cf0ac007b193120c5534b37f73d scsi: ufs: exynos: Constify driver data
 
---===============1057921340358397486==--
+--===============1700308698272798821==--
