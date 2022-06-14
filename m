@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Jun 2022 22:49:18 -0000
-Message-Id: <165524695877.10013.14600861266073300686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 14 Jun 2022 22:52:14 -0000
+Message-Id: <165524713407.12434.9457663519410869808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/x86/fpu
-    old: 018ab4fabddd94f1c96f3b59e180691b9e88d5d8
-    new: f08ef9057b7b110f44cd364744ba6b5f0115390f
+  - ref: refs/heads/rpmsg-next
+    old: abe13e9a561d6b3e82b21362c0d6dd3ecd8a5b13
+    new: 353d9214682e65c55cdffad8c82139a3321c5f13
     log: |
-         418bf5f906c33e83e76239748982dc3d2330cf30 x86/fpu: Add a helper to prepare AMX state for low-power CPU idle
-         f08ef9057b7b110f44cd364744ba6b5f0115390f intel_idle: Add a new flag to initialize the AMX state
+         353d9214682e65c55cdffad8c82139a3321c5f13 rpmsg: mtk_rpmsg: Fix circular locking dependency
          
