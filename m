@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7073706172422244008=="
+Content-Type: multipart/mixed; boundary="===============6080187093990917984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Jun 2022 02:22:44 -0000
-Message-Id: <165517336440.5251.5087528012556445802@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 02:22:57 -0000
+Message-Id: <165517337734.5396.9104627729308459055@gitolite.kernel.org>
 
---===============7073706172422244008==
+--===============6080187093990917984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,58 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 566d3c57eb526f32951af15866086e236ce1fc8a
-    new: f6eed15f3ea76596ccc689331e1cc850b999133b
-    log: |
-         f6eed15f3ea76596ccc689331e1cc850b999133b scsi: iscsi: Exclude zero from the endpoint ID range
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: edadedb311c14664cb0f3e3acec54e332f3c8abf
+    new: eb2e5be3597ab8232f04fb57b05ed74e619349e2
+    log: revlist-edadedb311c1-eb2e5be3597a.txt
 
---===============7073706172422244008==
+--===============6080187093990917984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655173355 -0400
+pusher 75C5DE3D 1655173368 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655173355-f54256d03323065d184726e2f7e154cbbc9f1a00
+nonce 1655173368-32be154035b8bd093adbb4fd4bef403c23b8db30
 
-566d3c57eb526f32951af15866086e236ce1fc8a f6eed15f3ea76596ccc689331e1cc850b999133b refs/heads/fixes
+edadedb311c14664cb0f3e3acec54e332f3c8abf eb2e5be3597ab8232f04fb57b05ed74e619349e2 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8OsACgkQ7ulgGnXF
-3j3e4g/2MmZXWMvOGB3fkMibj9bvvS9JILX8j2sJwr7b1LhaEW8owOToVCf5/W2X
-AjFBN5eKPdTdKHzI6vBOGCR3zCjihuI1Qyr8sDQNyN6jyH0CISA1lPRHwXVjKZ+h
-p1WrxRBrGAcmclqr7GxEkzjA5EJ1XxClVFJqA1WkkJJykD5x3vnyc5cIfguWkK4t
-KM8mQi6x8f2xb5YX3+HITZLV+UozKYAxY39FvjPh5v1akG7efiIWg2T2REC36yC9
-3riF+eYlChSAm9oysgBhhUhKBpwwK0gkDHmCFGY1ibLS8sTS8kTi7P0zBfCuLkeJ
-mHFQ143KVkDy/akC5mpKihyjrjZ83yJMm7hDoDkeldTv+JXcwaNHgwBb1YVG2Wxi
-+F5Z8jIB8qZ8hQQoZ+MZnU1dnX/14F6WSndn3dAL6LUqz1DWd/PCHpV89dE+ylM8
-F2XByI7++N+3ZOBaHKKwcgg4BDQwQNUmUU22PGuXkYIZjjzUFkDPF8jngqqgC2b3
-4sVvF13D7MSao3poLMUJM2ypB3mIKA8Mh8fRuIBigMM/tkz4PqAO+40ikx+nftRl
-u2YbZz+ijkaEyDeVQW8rI+BOq1a6b/Ka0na9eCUSdg23S9yoefU7y/NtettsQBaW
-/m0PVjAkn26kvRCwIfspOK61+uhrrvoBO9CwPnKrBAlXkq4YEQ==
-=jqqu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8PgACgkQ7ulgGnXF
+3j0g8g/6A2JuPwhC9SCVUfyXNzpgH/ySy78b3nc07u7zaBNWpbmroT2ZtxpQUvx1
+wT0cELArWPMrLpYz60JKf2KyGEl/RCtCPtwvJX0TSEuKfSzdgZ+IpkZN/K81+3l0
+sBs03KQUPHjmJ9NferM+Bhv/whbXp2riSBDwLwksz7+0b76cT5/ByQqLsp4KYw8l
+F+rnx0DQZpHnXFmNak64ETerN/6MXHrXRUfgJIdQJ0D5EGoTLd1ms9x9c0rKUleh
+5TKhWaMVbyDTpBN1F1nFmRCg1FVXYbrSwK7n7W7aNBS4MnlD37SVX8Qmg10y1Pee
+CErY3IEqDP7nXYmqhag+uKE5AVXcuNj2/E4rLo7AfobUWW81xDYWOHXT+9HpKV/8
+U1/p1hMj/sjZA9zDUEDcAyuYDlhwR/jAShowkBgAX/fDvBxWlGAs/lgWjITqaqKR
+M4rgTtY0erHQfviklOrut3HDwr4ksJJtCE+Tyji+deZ/1KOX9T1Qzi21iLvXsDFZ
+qkNdwPfRJ6+JZ1fVZ6MK3/oe0brWsd/9g5CpPec5Ce5Jctv1FV2+M8g2JW+TOgFn
+oXGfRAgq6Tvr7oq8gtglhT58SpQT0ox98Dcphezb5Un7csH/LgakoplYLTxRiAyO
+0SZhvtzkRAB+rtU7nOitXVvJba59frjUupBXkeQFvtW4haDG4FI=
+=4c8W
 -----END PGP SIGNATURE-----
 
---===============7073706172422244008==--
+--===============6080187093990917984==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-edadedb311c1-eb2e5be3597a.txt
+
+63ab6cb582fad3757a03f466db671729b97f2df8 scsi: qla2xxx: edif: Fix I/O timeout due to over-subscription
+2b659ed67a12f39f56d8dcad9b5d5a74d67c01b3 scsi: qla2xxx: edif: Send LOGO for unexpected IKE message
+0dbfce5255fe8d069a1a3b712a25b263264cfa58 scsi: qla2xxx: edif: Reduce disruption due to multiple app start
+24c796098f5395477f7f7ebf8e24f3f08a139f71 scsi: qla2xxx: edif: Fix no login after app start
+d7e2e4a68fc047a025afcd200e6b7e1fbc8b1999 scsi: qla2xxx: edif: Tear down session if keys have been removed
+a8fdfb0b39c2b31722c70bdf2272b949d5af4b7b scsi: qla2xxx: edif: Fix session thrash
+ec538eb838f334453b10e7e9b260f0c358018a37 scsi: qla2xxx: edif: Fix no logout on delete for N2N
+37be3f9d6993a721bc019f03c97ea0fe66319997 scsi: qla2xxx: edif: Reduce N2N thrashing at app_start time
+bcf536072f7475c65f21fd1681e94f99c04f9d15 scsi: qla2xxx: edif: Fix slow session teardown
+0f4d7d556125019287833e8b312b3b6f0a10e58a scsi: qla2xxx: Update version to 10.02.07.600-k
+c3752f44604f3bc4f3ce6e169fa32d16943ff70b scsi: libsas: Introduce struct smp_disc_resp
+44f2bfe9ef082f76184d4a048c995729d14ec45d scsi: libsas: Introduce struct smp_rg_resp
+3dafe0648ddd9c40666069e90b8a8a6162c452aa scsi: libsas: Introduce struct smp_rps_resp
+
+--===============6080187093990917984==--
