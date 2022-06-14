@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4907132745179861132=="
+Content-Type: multipart/mixed; boundary="===============1057921340358397486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Jun 2022 02:23:21 -0000
-Message-Id: <165517340128.5644.17105573483411509040@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 02:23:34 -0000
+Message-Id: <165517341458.5791.2726420796365543466@gitolite.kernel.org>
 
---===============4907132745179861132==
+--===============1057921340358397486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,58 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397
-    new: 3dafe0648ddd9c40666069e90b8a8a6162c452aa
-    log: revlist-3fd3a52ca672-3dafe0648ddd.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 711650652d3a067b04260092667e4527506cc9ee
+    new: 97fb285d4f2da6d5250dfc54bbef7b0879e8e22d
+    log: revlist-711650652d3a-97fb285d4f2d.txt
 
---===============4907132745179861132==
+--===============1057921340358397486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655173392 -0400
+pusher 75C5DE3D 1655173405 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655173392-dc9f6f244e6dc7f0d69cc929d0d04f8691e7c115
+nonce 1655173404-7dc70789e73790e55364c7be0c474bdea7d20a2a
 
-3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397 3dafe0648ddd9c40666069e90b8a8a6162c452aa refs/heads/queue
+711650652d3a067b04260092667e4527506cc9ee 97fb285d4f2da6d5250dfc54bbef7b0879e8e22d refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8RAACgkQ7ulgGnXF
-3j3SdA/+NYtmKxSy0JJosz/ZikMUxUm18udqT0QveILEpd2+/plDiqHLzR4GqIz4
-vFFw98MzieQBQKHmsSO4diZrR9GM0BhzTSN9NL7sSkU/n5YrLIwsqcxUfBbc9FU7
-8h2fVt92uNUYhHN/4VGGrDZDS/knHTYSbu+54VuKIdo9usiU8RpNujaLOyIdTHyC
-S9wRHCIQeh+gnrLmC4ppNVrBAxOzktWUA4Kj4fl0li0JnSBJtVXcGA0k6n1OfPA+
-84DlxTFhRVSUHzRzPqbTDBNQ/pHSLA8w6PwpsUOD3u4KcIX35/3ol4BXNh+9b7dM
-PITAu3UEnyt5BPVolXH8Pao+BGLLkUBQi9F2tRYpzIyvdb3aVK2J+SvE1e7d24xR
-xfEQ7zmudAlEeMu/hqlLakV/ZnQzxSCVxNY7tpCqymnh3XWBIpv2dmJls1mZ/Ou0
-i5sZPj9umAZ90pU642bcGThxVW+5EFD0C99PdKiEVuL3UP9UOlwp/IA+2qRtDd26
-mnLzWpYDfFgqme1X1sH8zNsf6kNnVcIzqo6z77sUOs6qx6Pa2NUpysR6Z96g1dca
-2H8AI3XLzuhkB7z1muSw73+SZZq9kzNV9anKM9bGoYAOcO1kgCXoY7oD0gS35ra6
-Roac1Jhc1elY78mFX6Tn4YzbYnsaiAq7lHVonmUlaWEGSNhlh6U=
-=KPF6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8R0ACgkQ7ulgGnXF
+3j3QDA//VWXN74hAIOM/YBz19v1FXgiVwudz85AS5Sgupe6KeOyKX93L6r6H/XAk
+URHrudQwVQ/RQOKPKOVwI0twB7XkzbTkOY8LUfXZZzj0f0x5oGbvBollPJoALPIW
+8yNNhYvS2hkoMNI3pHh55yVjF3FLdzL/pcu/gsqcWhDognPMODg+obkApb4kabV+
+szJgQXVyq3ICwRuvXAsZa1pGez4S/vWiyr+YBu3NVBtxb3YEvb7/zs0Q0aVuu+G5
+gZy/Vtusu5Xub5nnWrQJ/A41e12ztQ+AgX6KEkVcgVx8beauG2mATYvrxKHSB377
+azaSH3Vj0UjqmcpN0tRaPsGtcf5Qo76Am1lPx9eagjqi5P7vrOc+61gp8wpjMVAe
+r+M7bsphq5S+kga3a1SS02jWwn6AbXMVovYo14qNA+SQ21wrmrw3eg73JLnA2Cm3
+TuQdUo7sBraiJcYQai0PdD01N7MI9gtEAxOKKfJ014DmZWawal58hFRZkG7IXp7S
+DRaTb4nwvOd4JBo91BFTO6WEilJeHV3rJPpOP9V1H2AowSDMQMsITOK5yuea7q21
+gcJCKz7r4SrAnJTbPMXdcFCCrKXTHfSLimaGtbYqrvmCAQVupW/ErO/lRmc/8zDh
+Ay/+VkndDUyFEMOKLpuXZX7nMXszRpvshe/bPw006lG3BrDfin0=
+=gA8w
 -----END PGP SIGNATURE-----
 
---===============4907132745179861132==
+--===============1057921340358397486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fd3a52ca672-3dafe0648ddd.txt
+Content-Disposition: attachment; filename=revlist-711650652d3a-97fb285d4f2d.txt
 
-63ab6cb582fad3757a03f466db671729b97f2df8 scsi: qla2xxx: edif: Fix I/O timeout due to over-subscription
-2b659ed67a12f39f56d8dcad9b5d5a74d67c01b3 scsi: qla2xxx: edif: Send LOGO for unexpected IKE message
-0dbfce5255fe8d069a1a3b712a25b263264cfa58 scsi: qla2xxx: edif: Reduce disruption due to multiple app start
-24c796098f5395477f7f7ebf8e24f3f08a139f71 scsi: qla2xxx: edif: Fix no login after app start
-d7e2e4a68fc047a025afcd200e6b7e1fbc8b1999 scsi: qla2xxx: edif: Tear down session if keys have been removed
-a8fdfb0b39c2b31722c70bdf2272b949d5af4b7b scsi: qla2xxx: edif: Fix session thrash
-ec538eb838f334453b10e7e9b260f0c358018a37 scsi: qla2xxx: edif: Fix no logout on delete for N2N
-37be3f9d6993a721bc019f03c97ea0fe66319997 scsi: qla2xxx: edif: Reduce N2N thrashing at app_start time
-bcf536072f7475c65f21fd1681e94f99c04f9d15 scsi: qla2xxx: edif: Fix slow session teardown
-0f4d7d556125019287833e8b312b3b6f0a10e58a scsi: qla2xxx: Update version to 10.02.07.600-k
-c3752f44604f3bc4f3ce6e169fa32d16943ff70b scsi: libsas: Introduce struct smp_disc_resp
-44f2bfe9ef082f76184d4a048c995729d14ec45d scsi: libsas: Introduce struct smp_rg_resp
-3dafe0648ddd9c40666069e90b8a8a6162c452aa scsi: libsas: Introduce struct smp_rps_resp
+ea83df8e3bd065037589f2db56fcdc70eb37ae5a scsi: dt-bindings: ufs: exynos-ufs: Add FSD compatible
+daa782a51ec83aee4a4235feeb60b1239c285d82 scsi: ufs: host: ufs-exynos: Add mphy apb clock mask
+216f74e8059aa305a993da1c2d6e3ba2117979fa scsi: ufs: host: ufs-exynos: Add support for FSD UFS HCI
+7522c08d1e55a0305304611a9d1d5f0a3db210ec scsi: dt-bindings: ufs: Document Renesas R-Car UFS host controller
+6554400d6f66b9494a0c0f07712ab0a9d307eb01 scsi: ufs: core: Add UFSHCD_QUIRK_BROKEN_64BIT_ADDRESS
+2f11bbc2c7f37e3a6151ac548b1c0679cc90ea83 scsi: ufs: core: Add UFSHCD_QUIRK_HIBERN_FASTAUTO
+d69520288efd4908c543cc7414fb5877015eda2a scsi: ufs: ufs-renesas: Add support for Renesas R-Car UFS controller
+09c962fd4816f31ad428948c1dea3aea33f471e3 scsi: MAINTAINERS: Add maintainer for Renesas UFS driver
+fe3445325e52fe0ed95f8ede5d1b5f2e0a41b2ac scsi: arm64: dts: renesas: r8a779f0: Add UFS node
+a42dc5b48af88ed3b9171aef7f64ca1fc10c799f scsi: arm64: dts: renesas: r8a779f0: spider-cpu: Enable UFS device
+3d09a72dd04cb1e29557ecc187eecf3e5cba2482 scsi: target: iscsi: Fix NULL pointer dereference in iscsi_conn_auth_required()
+b12727ac8a1a2d28c818a382dd791a499faf9ac0 scsi: lpfc: Use memset_startat() helper in lpfc_nvmet_xmt_fcp_op_cmp()
+defd530b0eab8cf0ac007b193120c5534b37f73d scsi: ufs: exynos: Constify driver data
 
---===============4907132745179861132==--
+--===============1057921340358397486==--
