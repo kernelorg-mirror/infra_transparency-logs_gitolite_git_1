@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4742140196223809220=="
+Content-Type: multipart/mixed; boundary="===============1743423301483212144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 14 Jun 2022 11:29:17 -0000
-Message-Id: <165520615760.17828.15767854289701686472@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 11:30:16 -0000
+Message-Id: <165520621612.19690.11169006654004109839@gitolite.kernel.org>
 
---===============4742140196223809220==
+--===============1743423301483212144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,40 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: fdaf9a5840acaab18694a19e0eb0aa51162eeeed
     new: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
     log: revlist-fdaf9a5840ac-b13baccc3850.txt
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/tags/v5.19-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
 
---===============4742140196223809220==
+--===============1743423301483212144==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1655206154 +0200
+pusher Mickaël Salaün <mic@digikod.net> 1655206212 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1655206154-3c21e29e5d98a7116d0ed5ed0333eb55cd14805b
+nonce 1655206210-0007fd1d21c7f9950ae3ec3fe349b5c48f90a304
 
-fdaf9a5840acaab18694a19e0eb0aa51162eeeed b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 refs/heads/next
+fdaf9a5840acaab18694a19e0eb0aa51162eeeed b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 refs/heads/master
+0000000000000000000000000000000000000000 15fd1bd1e8b4c33f1f249d02d15aa043df52271c refs/tags/v5.19-rc1
+0000000000000000000000000000000000000000 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a refs/tags/v5.19-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYqhxChAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbS+i0BANVBLKjb7PVbE0c5jQZxqTkgPkmX7Ur39nXy
-A5BcSDlNAQDDCdinww280MzMIwsMDD2oiwYfIW8CfjYtI25bMsbfDw==
-=8A2j
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYqhxRBAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbS6TgBALswGKdW5eHBoQfg0GQL1C3ujVJP30F7xRL8
+JXwdGy0jAQD0cG+Q5QV/Fo2+dtiC1SV/OXzNjVuyf5JfsHgMUObyAA==
+=IqOZ
 -----END PGP SIGNATURE-----
 
---===============4742140196223809220==
+--===============1743423301483212144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1080,4 @@ b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of gi
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
 
---===============4742140196223809220==--
+--===============1743423301483212144==--
