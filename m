@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7176977496356828532=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Jun 2022 17:20:19 -0000
-Message-Id: <165522721940.22201.9646565399487842045@gitolite.kernel.org>
-
---===============7176977496356828532==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 14 Jun 2022 17:20:30 -0000
+Message-Id: <165522723094.22328.12955888585581710614@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.20
-    old: d38dc01a4e68133e11ae74af7585d2c4bbd5803d
-    new: d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc
+  - ref: refs/heads/for-linus
+    old: 3cddc2eac70c804fd9613623a33ae8f2cf283aed
+    new: 9b1d7d881721a257fa9bc56f5b931bbc0d7bc2ac
     log: |
-         d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc spi: core: Fix error code in spi_register_controller()
+         9b1d7d881721a257fa9bc56f5b931bbc0d7bc2ac Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
          
-
---===============7176977496356828532==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1655227218 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1655227217-77eeffdc2af6d6433b6019d05695588a43bbf24c
-
-d38dc01a4e68133e11ae74af7585d2c4bbd5803d d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc refs/heads/spi-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKow1IACgkQJNaLcl1U
-h9DFPwf/fnTk6y3c+vxWqhVlIKKlmtNga6LSnRX9ghLrOSBrpH1IhaoFFQpRQc4h
-xu2dHKxMH5tG7UzJ6lCLZK1VX5yb7xGcpRhTO3TOkgU7A312zxtD12fCm5/t1PZE
-RF18zQF6+WHP/unEwzDWMEiUHaUNAtNhUO7uFoSiSdkbiFCdrAGwQ2z9esJvDWJv
-qCEJv+2uNg1d9a6lJCImsvp1w2MZmWWobLq2fk+OoPS6KJTSTrY8lsIBGsZJ/Yiw
-K6FnR+4iyNxqOMSpifmFchtpiK0AJxOZTTCUNuBOgvBe1Z4TLAH4UhORWB25uw+Y
-P1pKxuc25EQHmsCuXO7QmE0dTLv5Jg==
-=9TnK
------END PGP SIGNATURE-----
-
---===============7176977496356828532==--
+  - ref: refs/heads/for-next
+    old: 736a0917b37b9b65cb1bbd85a7eb4735287c2f07
+    new: 44afd147a71c8c48435a94bd8bce9b9f352c6386
+    log: |
+         aa2a4b897132169fbc6d32932644b95875cf9c7f ASoC: ops: Fix boolean/integer detection for simple controls
+         d919630fe77904931277e663c902582ea6f4e4cf ASoC: cs35l45: Add endianness flag in snd_soc_component_driver
+         9b1d7d881721a257fa9bc56f5b931bbc0d7bc2ac Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         44afd147a71c8c48435a94bd8bce9b9f352c6386 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
+         
