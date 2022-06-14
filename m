@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6080187093990917984=="
+Content-Type: multipart/mixed; boundary="===============8364424946408885155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Jun 2022 02:22:57 -0000
-Message-Id: <165517337734.5396.9104627729308459055@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 02:23:09 -0000
+Message-Id: <165517338935.5504.7422516951344000684@gitolite.kernel.org>
 
---===============6080187093990917984==
+--===============8364424946408885155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: edadedb311c14664cb0f3e3acec54e332f3c8abf
-    new: eb2e5be3597ab8232f04fb57b05ed74e619349e2
-    log: revlist-edadedb311c1-eb2e5be3597a.txt
+  - ref: refs/heads/5.20/scsi-queue
+    old: 3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397
+    new: 3dafe0648ddd9c40666069e90b8a8a6162c452aa
+    log: revlist-3fd3a52ca672-3dafe0648ddd.txt
 
---===============6080187093990917984==
+--===============8364424946408885155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655173368 -0400
+pusher 75C5DE3D 1655173380 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655173368-32be154035b8bd093adbb4fd4bef403c23b8db30
+nonce 1655173380-1ebc1786a792c3af76eb848d93354dc8afd7d315
 
-edadedb311c14664cb0f3e3acec54e332f3c8abf eb2e5be3597ab8232f04fb57b05ed74e619349e2 refs/tags/mkp-scsi-queue
+3fd3a52ca672fea71ff6ebaded2e2ddbbfb3a397 3dafe0648ddd9c40666069e90b8a8a6162c452aa refs/heads/5.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8PgACgkQ7ulgGnXF
-3j0g8g/6A2JuPwhC9SCVUfyXNzpgH/ySy78b3nc07u7zaBNWpbmroT2ZtxpQUvx1
-wT0cELArWPMrLpYz60JKf2KyGEl/RCtCPtwvJX0TSEuKfSzdgZ+IpkZN/K81+3l0
-sBs03KQUPHjmJ9NferM+Bhv/whbXp2riSBDwLwksz7+0b76cT5/ByQqLsp4KYw8l
-F+rnx0DQZpHnXFmNak64ETerN/6MXHrXRUfgJIdQJ0D5EGoTLd1ms9x9c0rKUleh
-5TKhWaMVbyDTpBN1F1nFmRCg1FVXYbrSwK7n7W7aNBS4MnlD37SVX8Qmg10y1Pee
-CErY3IEqDP7nXYmqhag+uKE5AVXcuNj2/E4rLo7AfobUWW81xDYWOHXT+9HpKV/8
-U1/p1hMj/sjZA9zDUEDcAyuYDlhwR/jAShowkBgAX/fDvBxWlGAs/lgWjITqaqKR
-M4rgTtY0erHQfviklOrut3HDwr4ksJJtCE+Tyji+deZ/1KOX9T1Qzi21iLvXsDFZ
-qkNdwPfRJ6+JZ1fVZ6MK3/oe0brWsd/9g5CpPec5Ce5Jctv1FV2+M8g2JW+TOgFn
-oXGfRAgq6Tvr7oq8gtglhT58SpQT0ox98Dcphezb5Un7csH/LgakoplYLTxRiAyO
-0SZhvtzkRAB+rtU7nOitXVvJba59frjUupBXkeQFvtW4haDG4FI=
-=4c8W
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKn8QQACgkQ7ulgGnXF
+3j1Siw//RkGyTRiEOAmWs2M2y1DWzue4oxbmX12zrq8bQR8Ie2qK+skNhwoFFm+6
+8A+iSXIRzZnTL2fhRIkMevfc+euEOqLz7Jit2qs96H8knX8XJp6S/9roLj/vRJWV
+3+pOzeseFlH2kzAnpHmvw/DrnWOaF8Co0UABr3VUwvp8opzUnZdwRkFInxzfhVOS
+vgH4/KeBaRVZaGG4TSjCpFzRzk9hD91pTGu+c3J9g4WYk3325TwQDL7kxr8dJZfk
+ZmvZeO8DUDH7QPi0n98Hom6PWgHPpsIQ2HbnC7VuND/WUFfyt1lPcYH715NiYR89
+IIyQxMhsjM+Upx0Lq2P2vKW24GJMuKjytr63TdLvQ/OVm+D9O5w9kJjVoikq/rOg
+rzVf4fUhaTaqT2UoT90bQUE1TgLVnUuQfwkxRv0LAqJCiasVhb+I3cv5f25zG/sF
+WQB/JugEHy8h/rubYwdTYAmk+lW0CBMtHYjN0YhA8t/BZF7KZ42US/tu1cAJmdab
+eQ4zvKRHaTJp2oblUoXvPEvpLq78IKFBLaeOeOfBzKgicVhFAnivRE/NS9nKQVsm
+dCmfdQrN9Ya81ac292cdrJdue8LaIfuM8lzvH8ODtZuzMhWYq5WSxPVkvEigDRYb
+wrw8etDlla+mJZW0ZNxGsETLTJgb4KwReZYCwozcLmpnpRyaJR8=
+=QsOm
 -----END PGP SIGNATURE-----
 
---===============6080187093990917984==
+--===============8364424946408885155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edadedb311c1-eb2e5be3597a.txt
+Content-Disposition: attachment; filename=revlist-3fd3a52ca672-3dafe0648ddd.txt
 
 63ab6cb582fad3757a03f466db671729b97f2df8 scsi: qla2xxx: edif: Fix I/O timeout due to over-subscription
 2b659ed67a12f39f56d8dcad9b5d5a74d67c01b3 scsi: qla2xxx: edif: Send LOGO for unexpected IKE message
@@ -70,4 +70,4 @@ c3752f44604f3bc4f3ce6e169fa32d16943ff70b scsi: libsas: Introduce struct smp_disc
 44f2bfe9ef082f76184d4a048c995729d14ec45d scsi: libsas: Introduce struct smp_rg_resp
 3dafe0648ddd9c40666069e90b8a8a6162c452aa scsi: libsas: Introduce struct smp_rps_resp
 
---===============6080187093990917984==--
+--===============8364424946408885155==--
