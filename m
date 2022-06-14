@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 14 Jun 2022 00:06:23 -0000
-Message-Id: <165516518309.8950.417553318303287925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 14 Jun 2022 00:14:40 -0000
+Message-Id: <165516568046.14271.17615875141888161886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/dev-test
-    old: 6fb3ef9ad1f2329c485483a820fd197fa6b38e46
-    new: b133c2a8acb301652cdf98198f21b41e4c36c281
+  - ref: refs/heads/master
+    old: 26faead0f3c6e7608b89a51373f1455b91377fcb
+    new: b5f3adf9e1e40c7bdb76a9e433aa580f7eead740
     log: |
-         383f9d8bddd4c5a54f8f9e6e46cddb76e0e0b78c f2fs: do not skip updating inode when retrying to flush node page
-         b133c2a8acb301652cdf98198f21b41e4c36c281 f2fs: optimize error handling in redirty_blocks
+         e9aab3c9c90222cc478dfa86860322690af74309 configure: Support gcc 12
+         67ff4de3950daabcb0c4e14d273bb51075487285 configure: Fix libzbc detection on SUSE Linux
+         b5f3adf9e1e40c7bdb76a9e433aa580f7eead740 Merge branch 'master' of https://github.com/bvanassche/fio
          
