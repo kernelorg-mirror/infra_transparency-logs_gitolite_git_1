@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Tue, 14 Jun 2022 14:55:50 -0000
-Message-Id: <165521855034.19367.9321526458333611810@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2394752152025563571=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 14 Jun 2022 14:59:12 -0000
+Message-Id: <165521875249.20846.15951761565316287006@gitolite.kernel.org>
+
+--===============2394752152025563571==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 52c67fcdd6dadc4138ecad73e65599551804d445
-    new: 756a15f32338fdf0c562678694bc8991ad6afb90
+  - ref: refs/notes/signatures/tar
+    old: b41ebcdaead2bcdffb9780ceac8cb65a65c85fac
+    new: e328ea9f303e42e9e22eb4f292f5ede328c3143e
     log: |
-         1066ab83dbe9a4cc20f7db44a40aa2cbb9d5eed6 mdmon: Stop parsing duplicate options
-         20e114e334ed6ed3280c37a9a08fb95578393d1a Grow: block -n on external volumes.
-         de064c93e3819d72720e4fba6575265ba10e1553 Incremental: Fix possible memory and resource leaks
-         e702f392959d1c2ad2089e595b52235ed97b4e18 Mdmonitor: Fix segfault
-         f5ff2988761625b43eb15555993f2797af29f166 Mdmonitor: Improve logging method
-         626bc45396c4959f2c4685c2faa7c4f553f4efdf Fix possible NULL ptr dereferences and memory leaks
-         756a15f32338fdf0c562678694bc8991ad6afb90 imsm: Remove possibility for get_imsm_dev to return NULL
+         e328ea9f303e42e9e22eb4f292f5ede328c3143e Notes added by 'git notes add'
          
+
+--===============2394752152025563571==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655218751 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1655218750-efca4a58dfab218938f57e02b6657493ddf1b71f
+
+b41ebcdaead2bcdffb9780ceac8cb65a65c85fac e328ea9f303e42e9e22eb4f292f5ede328c3143e refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKooj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j6QQAIjof2JF4wrB87pO1Pda
+l5OdruNngDP6Vb4RnaK4EJay6dOjRitV8SYI5u/NYDfjJIrYC3HdLN41+GFUTiq+
+Na5PA+7pR1ot2wvfKIAgMMPZreou+V3dhpA7R+D7sfN65kvUu/Pk6Vk0WO5rT6PL
+0llgJY/zVt0oSSgqdc3NCb/CTQE02fVjwID3bHFmHY3Wbt6yYBa9eOb3EbkgM5nT
+HVwuxrKFd2JhdAk20LgG4kX9bk607s07mrFGhFVprUrrpKuzEeWj4z2WMumP2WB/
+mjD20z2DdgRMMcdr8fDjpZrsV8azhJzf1hBRKXKL6rLBgyeeT3KN55gLbASGH9Os
+fWbgN5dEAImNiL+xEfF4SIh3iwP4EJw3YK5G8RHcnHRqFyDgIzAhGJKfeMxeZFyz
+0VtEQkPwXHIGpdUGnHsjtJeSbQLhCjs33T4Pj0G+dnQ+jGiJTYXaJESPMABYsdxc
+5gd9Q8g8ksoYo50Yjq5J50IVOhOZ4ulkO+9flZZd/G26gAnB5GFg7xRMpQ6wOwML
+MjBXzhbSQCPUW/b48UB9YL6rlZ2kwt8sU3sBXLE5V6CoXWTcdkziZxEqYfw/MSz5
+S3PCq2A7ch6dUbbz55pP++MRWroPKzpvRTwU8B0NLAKdQ+Q2dPhVpzNwWpugtuRb
+1x2QVY/u0jQwsgkkP/j7WceB
+=/O2g
+-----END PGP SIGNATURE-----
+
+--===============2394752152025563571==--
