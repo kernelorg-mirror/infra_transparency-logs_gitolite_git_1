@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7472061819665330177=="
+Content-Type: multipart/mixed; boundary="===============7176977496356828532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 14 Jun 2022 17:20:13 -0000
-Message-Id: <165522721378.22110.10013998274562508778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Jun 2022 17:20:19 -0000
+Message-Id: <165522721940.22201.9646565399487842045@gitolite.kernel.org>
 
---===============7472061819665330177==
+--===============7176977496356828532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/spi-5.20
     old: d38dc01a4e68133e11ae74af7585d2c4bbd5803d
     new: d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc
     log: |
          d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc spi: core: Fix error code in spi_register_controller()
          
 
---===============7472061819665330177==
+--===============7176977496356828532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1655227212 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1655227211-579a1589d20f94719d51fe2bb927df81942f4a0b
+pusher C3F436CA30F5D8EB 1655227218 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1655227217-77eeffdc2af6d6433b6019d05695588a43bbf24c
 
-d38dc01a4e68133e11ae74af7585d2c4bbd5803d d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc refs/heads/for-5.20
+d38dc01a4e68133e11ae74af7585d2c4bbd5803d d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc refs/heads/spi-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKow0wACgkQJNaLcl1U
-h9AInQf+P55HlYd7whLiw4vfmFXNDLzqjeAYKhlGrhDiN16GBqFotmyYceI2W3T6
-3x2jtt7tkcUaedigvXdT2yrk0aeF/J0Pt0ledcn0HpStatBP+Sc3cpJEPVu/Wjy1
-Vd2TenBWauO2YOP880xX3ll10+M6VnLWbdniQaH6WeBBlYuy4V9XueAGUNrBPCy9
-4PtmTfN2yQQwYQ5mZYa3b9z5C4/l254Y1/Bb6U8qRX6ieDB87ETW7cOKIWr3yIMs
-gj4oHnarugpoSwmiaA8sAo6Jp7Cgw9k5y5e/7aImNUuxD9iJPozCF/BbS010aSxn
-Dw28GFj9sC1USSuhsxgtRosFMYdG7g==
-=Vtmd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKow1IACgkQJNaLcl1U
+h9DFPwf/fnTk6y3c+vxWqhVlIKKlmtNga6LSnRX9ghLrOSBrpH1IhaoFFQpRQc4h
+xu2dHKxMH5tG7UzJ6lCLZK1VX5yb7xGcpRhTO3TOkgU7A312zxtD12fCm5/t1PZE
+RF18zQF6+WHP/unEwzDWMEiUHaUNAtNhUO7uFoSiSdkbiFCdrAGwQ2z9esJvDWJv
+qCEJv+2uNg1d9a6lJCImsvp1w2MZmWWobLq2fk+OoPS6KJTSTrY8lsIBGsZJ/Yiw
+K6FnR+4iyNxqOMSpifmFchtpiK0AJxOZTTCUNuBOgvBe1Z4TLAH4UhORWB25uw+Y
+P1pKxuc25EQHmsCuXO7QmE0dTLv5Jg==
+=9TnK
 -----END PGP SIGNATURE-----
 
---===============7472061819665330177==--
+--===============7176977496356828532==--
