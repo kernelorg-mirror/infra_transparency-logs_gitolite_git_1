@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8087476650430955056=="
+Content-Type: multipart/mixed; boundary="===============5936661712207886015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 14 Jun 2022 16:13:06 -0000
-Message-Id: <165522318682.29454.17730266229608232713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 14 Jun 2022 16:16:33 -0000
+Message-Id: <165522339316.27454.593563501163483850@gitolite.kernel.org>
 
---===============8087476650430955056==
+--===============5936661712207886015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 54b6ce94da1101fa264b9eb79b816dbb19906cac
-    new: 74008c965241672e48492bfbcad9bd5fc364a726
-    log: |
-         74008c965241672e48492bfbcad9bd5fc364a726 Notes added by 'git notes add'
-         
+  - ref: refs/heads/for-next
+    old: 251c717d8ef7c27d353b1986a4fee87e9c7d0032
+    new: 5af20466495445da4cfa8d116ec32e39be96de60
+    log: revlist-251c717d8ef7-5af204664954.txt
 
---===============8087476650430955056==
+--===============5936661712207886015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-251c717d8ef7-5af204664954.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655223186 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1655223185-8e3dd953cba73ede2f59f60e256a4562b950863f
+da7ccbaa8f7df593bad7e8a32e1f00322f9bf8fc btrfs: call inode_to_path directly and drop indirection
+e4023bf6a3dfd4e04813434a400edbce73ea2f97 btrfs: simplify parameters of backref iterators
+71ca30a13d197508624f4e75a0d776646a80b8a6 btrfs: sink iterator parameter to btrfs_ioctl_logical_to_ino
+e5223ef7c3d8ba7069001ed090667a7ecae74eb2 btrfs: remove unused typedefs get_extent_t and btrfs_work_func_t
+6da99f85e7761e0ad0b3168d3ce01975b843a2b9 Merge branch 'misc-5.19' into for-next-current-v5.18-20220614
+1308ab610d1110486e6568381e28f49072193ef8 Merge branch 'misc-next' into for-next-next-v5.19-20220614
+67aecc7ebb44dcef3abea584c78235af4955654a Merge branch 'ext/qu/raid-journal-prep' into for-next-next-v5.19-20220614
+ef6bb60478facd5813b68fb33508039b5ac3b2cf Merge branch 'ext/fabio/kmap-zstd' into for-next-next-v5.19-20220614
+545636a8be77c7fd74e6f388ed826ca35ae59538 Merge branch 'dev/extent-io-tree-cleanups' into for-next-next-v5.19-20220614
+4a33e34683733780e6c1f06ada95b404e5df13e8 Merge branch 'dev/no-func-pointers' into for-next-next-v5.19-20220614
+99791fa8d6fa13115258fe057587f463d249e549 Merge branch 'for-next-current-v5.18-20220614' into for-next-20220614
+5af20466495445da4cfa8d116ec32e39be96de60 Merge branch 'for-next-next-v5.19-20220614' into for-next-20220614
 
-54b6ce94da1101fa264b9eb79b816dbb19906cac 74008c965241672e48492bfbcad9bd5fc364a726 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKos5IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FAgP/AnxkuLGe5AFY8cZs4lG
-8CUInOm/jf4rcW44R+cAKAfHKUzCnCuRX0QcWA5JNsGFuKPAXSLvWn3t2bReIyKC
-TytIIZ9X+2cwJBTpvfMD0IJtpDvOBR7GbZ9ATrZT2FlT9hcIDIiiM60fjcNgIvMk
-1pTN3GWJlP2/bW7FdKfBW674Ndmm24CPKONs8dYOW01qQiVK1DJhsvqQw5HC+/Sv
-zHwUoXuF6jWvfafxyArychb2PZyxSugf3v3uy9EuQbmAuJ1TGXiCZGg8qZbNe2zV
-o1u8Gb/Y6TuArZHFZGbzLt7cPl9jD28WbwQ76QWUtHc3xYa4toNL8Sg3iDYQs6wA
-P2VShqzqPJzUB2dR6H5ztVFC/m6DKpA0j8+TpkUAAZUzaBIDVDbOeZO6g1X6jNzB
-byuUJe3UhA0dTGYnVLJ0oKbr2xI2qMIo7ek5DFu27oXFoidc1JE1zZ1X78AdBdz7
-c8BnCHFTEJbkKYHRVAeSa0z2IIEdEh82rSop4esicr8K5olDEcvhxfuVrx/PuyJE
-zWd/rxIytmSu6JT65JwjZYfjeX7OICYgli3D0naKNvFiNOAwWyeuGKCHQEuwBGYB
-IIxVpZ51ztiGZmMxuCHDal8k/PL5qXo6nYSdlQpE5AWoNZnhMjMGBCe+QoS7bNcD
-0XC7xOQDdzT0Bu9pHFBuyeTl
-=tHHD
------END PGP SIGNATURE-----
-
---===============8087476650430955056==--
+--===============5936661712207886015==--
