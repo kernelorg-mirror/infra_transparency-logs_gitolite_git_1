@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9037761887617258473=="
+Content-Type: multipart/mixed; boundary="===============4742140196223809220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 14 Jun 2022 11:28:47 -0000
-Message-Id: <165520612789.17632.15529824043483379783@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 11:29:17 -0000
+Message-Id: <165520615760.17828.15767854289701686472@gitolite.kernel.org>
 
---===============9037761887617258473==
+--===============4742140196223809220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/landlock-wip
-    old: fabf7ad8a6d4b3b4d370e08ed5246b8a6f45d1c7
+  - ref: refs/heads/next
+    old: fdaf9a5840acaab18694a19e0eb0aa51162eeeed
     new: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
-    log: revlist-fabf7ad8a6d4-b13baccc3850.txt
+    log: revlist-fdaf9a5840ac-b13baccc3850.txt
 
---===============9037761887617258473==
+--===============4742140196223809220==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1655206115 +0200
+pusher Mickaël Salaün <mic@digikod.net> 1655206154 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1655206115-e8787159cc32ad598b140792a5858c4080834c00
+nonce 1655206154-3c21e29e5d98a7116d0ed5ed0333eb55cd14805b
 
-fabf7ad8a6d4b3b4d370e08ed5246b8a6f45d1c7 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 refs/heads/landlock-wip
+fdaf9a5840acaab18694a19e0eb0aa51162eeeed b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYqhw4xAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbSFwUA/ROw75zXzikHXJmPPFASyD+/1YnBokShRr93
-tnr1pxRDAQDujhubzVzMfi1uCozPTP/4cpf9hZk8bvD6BQnUr4SwDQ==
-=Yfv6
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYqhxChAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbS+i0BANVBLKjb7PVbE0c5jQZxqTkgPkmX7Ur39nXy
+A5BcSDlNAQDDCdinww280MzMIwsMDD2oiwYfIW8CfjYtI25bMsbfDw==
+=8A2j
 -----END PGP SIGNATURE-----
 
---===============9037761887617258473==
+--===============4742140196223809220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fabf7ad8a6d4-b13baccc3850.txt
+Content-Disposition: attachment; filename=revlist-fdaf9a5840ac-b13baccc3850.txt
 
 910bbdf2f4d7df46781bc9b723048f5ebed3d0d7 xfs: convert buf_cancel_table allocation to kmalloc_array
 7f50d4dfe816dd916a7cbf39039674825c2b388b Merge tag 'for-linus' of https://github.com/openrisc/linux
@@ -1072,4 +1072,4 @@ b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of gi
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
 
---===============9037761887617258473==--
+--===============4742140196223809220==--
