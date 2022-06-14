@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1912079123447326271=="
+Content-Type: multipart/mixed; boundary="===============4011221595939707073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 14 Jun 2022 18:37:27 -0000
-Message-Id: <165523184770.7690.4570485604113299641@gitolite.kernel.org>
+Date: Tue, 14 Jun 2022 18:37:29 -0000
+Message-Id: <165523184904.7785.18170872954016436220@gitolite.kernel.org>
 
---===============1912079123447326271==
+--===============4011221595939707073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 7ab67fdecd1fd954fa44d6c3f3003bb67a933c4d
-    new: 3a3ddc084a29f6b9346b3f7de410b1c5353cbcd0
-    log: revlist-7ab67fdecd1f-3a3ddc084a29.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 9d6e67bf50908cc661972969e8f073ec1d1bc97d
+    new: d05ea6389e7ee572e3cf5bc2438811c06b8f7bc3
+    log: revlist-9d6e67bf5090-d05ea6389e7e.txt
 
---===============1912079123447326271==
+--===============4011221595939707073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,47 +32,46 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655231846 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1655231846-b3d52cc86fe513a82861b0f0e16e5dfa3de1997a
 
-7ab67fdecd1fd954fa44d6c3f3003bb67a933c4d 3a3ddc084a29f6b9346b3f7de410b1c5353cbcd0 refs/heads/linux-4.19.y
+9d6e67bf50908cc661972969e8f073ec1d1bc97d d05ea6389e7ee572e3cf5bc2438811c06b8f7bc3 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKo1WYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GeYQAJgoJLJPEUKy7xs8/C5n
-O36CL+fnplqSIldiRQTWkhcSd4+tLPZnIZUD6eQ89AYk8e8OH+7WK3DPdzyRnByj
-APfXEWpJM6OTLkQ74r6xjruZ5wkyL4Z6v7S/ZPRDfJoRUMuwzecjCX/cNTMrvHHv
-NjrdqtcrpKovmS0SoKucXap1JwpTgum3kcP9JFg64TD2WW0VwCxML/R3QBcAvlRP
-a0X+A38RUv8qR+ru+DYJhK8441k4wbOuImZOdRRkTgGoBaNYdI5ANdAJcrLcBWLh
-KJIallFjPIwyT+dYCirB8najuQnj4+LuIVXyxH2YoZKkPLcg87u0GoWYvrjwJ1rV
-452UIFDY7N5HxUW58FL9JLZfPblmQ+MER0Lpd0uUJRJzwcPjNZYyM/nsSq4Pi0Qu
-EHD7/4AubEQhMZuL8I0pa9q0RxyW81fA+jIerP2vfd6ZCIq2pPdEL5RlMtjD44uo
-JeTkdHuuNYI4L0cHivpw9/a9zt6HE0cakzGxidC0lYOrJ+FpTipTAm5tPgdzvMWA
-ATcoH4n3a9/YA9/jMR2xvP9jAkj32du98hSd2kWBPF9MYp7TgH4rDEB5kZ9d56F9
-ivrwuV7v9cDvfuIKYZboOb6fi375NxEyP6420yZ43Xx6CHtJm5/vLNFBLQhoW/8x
-rB7X7VPrVFelMKQ0JXanLWTP
-=r4UN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKo1WcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H9UP/Amx8vG+pFG4qziDHNAi
+N/RQunGYORPKrKbLJlwuPLnjMF2E/LyCDJKcrvgOmewrJu58sMCL90zNMFixhrw4
+CmYuN8K2P3qmn1UvOqHn+xjfb3DGE0hQTddNLDah+fwcGRZO0kqj4QHwDET5Uwts
+laYPRH837rxrBIRj55xeekhSNr/iIeFDUa1K2+W3cp1Edj/WKPxMkOLklkJw7j96
+k+8jEaiaTFM/VpEFeRQeV3ebiKPjvPWO+s70fYGJggCcs8HR/8FhcKbKwg/DdVIg
+AeRiQJCLJt+vWrpiaYBQBo/Ifs2Tnzu7JKOc4qzLgOoCKsG6RGKdM8acfBcU0S3c
++dP1WVW0bLdaeQKFSEQgjLqXWPtsFvYb5PirL39N5KSxAEwQWy0vGqNDtflO3k3w
+ek+quRSfxgx+CmQixDJxZPVAZuN8jLopIfqyY/lE9MUZ/vfbDy9PzV690r8HB87j
+BmEoQh7Yw78KDsATNTX01cwr8zU/jNzYPwsNGMhvZlymnRHKWyqPb6F82oYEruU5
+XIhNfhjJ0n4eZG5W2xf4z/UeXkqhfQAzADL+1piNm5qdm51e1e7ho4bR/Gzmb9dR
+t0L7if/aVte2TUb8G5mGUQFB+xgqsBRBzZWYQUtbrJa6ajQILj0VnnEcFxl07sih
+Nz9uFp60GMyRtyhKJ7yfGsKk
+=oGpD
 -----END PGP SIGNATURE-----
 
---===============1912079123447326271==
+--===============4011221595939707073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ab67fdecd1f-3a3ddc084a29.txt
+Content-Disposition: attachment; filename=revlist-9d6e67bf5090-d05ea6389e7e.txt
 
-d056fd16e3c2919786a50578379139f1f13c6350 x86/cpu: Add Elkhart Lake to Intel family
-bce8f8d279990a4c645f5ef06a60ff9c4e291210 cpu/speculation: Add prototype for cpu_show_srbds()
-0cfebac2eabce84903d7eef393b3e4c7f1110646 x86/cpu: Add Jasper Lake to Intel family
-14eeb3d904d46ba826bff89ab7512c9eabc27f78 x86/cpu: Add Lakefield, Alder Lake and Rocket Lake models to the to Intel CPU family
-066160329f4b5fca69d893c4834599ffde32f36b x86/cpu: Add another Alder Lake CPU to the Intel family
-7bb5c51a8b441a3343b4a7bfc254aa614c22e0c7 Documentation: Add documentation for Processor MMIO Stale Data
-3f9647dd8521f7d87e3aa770e8297ef003896fdf x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
-9b90c4250f560b43764f02a17e823b8914c355ce x86/speculation: Add a common function for MD_CLEAR mitigation update
-e306edc18787a12f521cecdfead7102adea1d8d9 x86/speculation/mmio: Add mitigation for Processor MMIO Stale Data
-2a377d2e9cdce52dbd789a952cd9f53b96fbe68e x86/bugs: Group MDS, TAA & Processor MMIO Stale Data mitigations
-46fd1ea9f32eee5b811445acbd98b9c72b477992 x86/speculation/mmio: Enable CPU Fill buffer clearing on idle
-ec3d6b5e9ea23ac48573c3172323be80beeb1676 x86/speculation/mmio: Add sysfs reporting for Processor MMIO Stale Data
-4821a2df21ad20e984c7f0c5cb3a1f682d99946a x86/speculation/srbds: Update SRBDS mitigation selection
-89d481c2288843809c3f3dad3769be89810fb7de x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
-eb94011db900a34f03da50a03e55b26cec2d442f KVM: x86/speculation: Disable Fill buffer clear within guests
-715e415aaef2c8cf574f9197c9d31840b02641d3 x86/speculation/mmio: Print SMT warning
-3a3ddc084a29f6b9346b3f7de410b1c5353cbcd0 Linux 4.19.248-rc1
+bfdb76f53a021aa4bd7d65d13d6ec8606245f40b cpu/speculation: Add prototype for cpu_show_srbds()
+4cf81c4de16253ff9e8b6464087e776692722a48 x86/cpu: Add Jasper Lake to Intel family
+bef886d29f5399556a378fcc1634bde8a2d879ed x86/cpu: Add Lakefield, Alder Lake and Rocket Lake models to the to Intel CPU family
+4d8a20f76d7a3d89620f03b0f1aa2caf855892eb x86/cpu: Add another Alder Lake CPU to the Intel family
+4f573d88e540308e9c869da7dcacfc640ab1b3c1 Documentation: Add documentation for Processor MMIO Stale Data
+0b9f472d45f9260c143c2fad04eeddc588fdfe92 x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
+acfffbcd3a139c41cca8388800b810fcf2a0576a x86/speculation: Add a common function for MD_CLEAR mitigation update
+ff68f84f104e329f996db994203a9b8450ed10fd x86/speculation/mmio: Add mitigation for Processor MMIO Stale Data
+8384dcd49d7094be7d8d18ebaf1e63d62d18e2f0 x86/bugs: Group MDS, TAA & Processor MMIO Stale Data mitigations
+36a4b84a9456cb3e68ed09c92757febe60a5a62c x86/speculation/mmio: Enable CPU Fill buffer clearing on idle
+ab61d26c2adb411cd7fb6182e170266eac3e3728 x86/speculation/mmio: Add sysfs reporting for Processor MMIO Stale Data
+e49304685d895c5f833204cedd3321b60ea0427b x86/speculation/srbds: Update SRBDS mitigation selection
+4d1b17dabd8916bd7735eedfefe0a539a294cfb6 x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
+2ec732c3b140615ed5c968f575e618a6c71fa8cd KVM: x86/speculation: Disable Fill buffer clear within guests
+00aadf6698e316b911f2ddcaf2cc056bca9feb08 x86/speculation/mmio: Print SMT warning
+d05ea6389e7ee572e3cf5bc2438811c06b8f7bc3 Linux 5.4.199-rc1
 
---===============1912079123447326271==--
+--===============4011221595939707073==--
