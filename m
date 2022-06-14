@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1447757567004804571=="
+Content-Type: multipart/mixed; boundary="===============3281186284924755273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 14 Jun 2022 12:07:14 -0000
-Message-Id: <165520843411.10559.18103840809764374255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 14 Jun 2022 12:58:10 -0000
+Message-Id: <165521149063.10591.17452902920874394056@gitolite.kernel.org>
 
---===============1447757567004804571==
+--===============3281186284924755273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-5.10.y-landlock
+  - ref: refs/heads/for-5.20/optimizations
     old: 0000000000000000000000000000000000000000
-    new: 7da02a72e59365b059a925a0d1b7f7f17c8bf297
+    new: def3fa941a5cde93a17863a39a88952755d37c8d
 
---===============1447757567004804571==
-Content-Type: text/plain; charset="utf-8"
+--===============3281186284924755273==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1655208426 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1655208426-a7832843f43aa55fe04b77ef6fe18eab8eaa2204
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1655211489 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1655211488-965d7c9cfe0407daf31372bf447fc7fe84164009
 
-0000000000000000000000000000000000000000 7da02a72e59365b059a925a0d1b7f7f17c8bf297 refs/heads/linux-5.10.y-landlock
+0000000000000000000000000000000000000000 def3fa941a5cde93a17863a39a88952755d37c8d refs/heads/for-5.20/optimizations
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYqh56hAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbS2yEA/RXU7OucNMUCmt0svsyF4tjPfqViWRR3NgYt
-kJsrQhWvAP9zY+I/ShfhDxiOjgMZXp70Zt39JaZYw6joka8JpXUqAg==
-=lrOk
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmKoheEACgkQ4CHKc/GJ
+qRBZXQgAvPGuHgYOrZj2eyAsuXMRSclqULgEXXeiIyO6FyGzmnVDw/EXQ/Awl02B
+cvXeFrLSyF3gZohTYt98ZSN6uAJ0gaAbI99YdkH4eS3j+GbDvCxbZ5MQRO7GNLto
+FErIfOTz7ftWs9lbUyYIsSn+K6C8yhjhou44WWbC2+v7acVClaxgKHLhUEXOszlb
+HcSftUVHlDDUWAtfA9tnIDmaiRkccdGrFiQJz+Ba3RQzXHaBjEOQgLlnao22MZHp
+Hkq95fSP7wzDebbHmp07JuQXJzP7EH0oM4DSzgUaOprCo/tgcNKqaZXPOgX5T0yH
+nnTnKfp7UyokUNMJZChMUdNQSZpvlA==
+=6M34
 -----END PGP SIGNATURE-----
 
---===============1447757567004804571==--
+--===============3281186284924755273==--
