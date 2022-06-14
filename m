@@ -1,16 +1,70 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 14 Jun 2022 14:03:57 -0000
-Message-Id: <165521543773.20811.10872283441786678885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Tue, 14 Jun 2022 14:05:51 -0000
+Message-Id: <165521555129.22862.3482333085921659685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/svc_driver_updates_for_v5.20_v2
+  - ref: refs/tags/drm-fixes-2022-03-04
     old: 0000000000000000000000000000000000000000
-    new: c854acaf80afd7d46de0b8548ae3cb683d2cedfb
+    new: f49b9280ba01873bbca7a3bab4eaf2a2751370e9
+  - ref: refs/tags/drm-fixes-2022-03-11
+    old: 0000000000000000000000000000000000000000
+    new: e820ecd289cc2e18b198a4ad18b0c0e1342b0bd7
+  - ref: refs/tags/drm-fixes-2022-03-12
+    old: 0000000000000000000000000000000000000000
+    new: 6be7b81acb7f2f87f28dacc07b1e336db0327e02
+  - ref: refs/tags/drm-fixes-2022-03-18
+    old: 0000000000000000000000000000000000000000
+    new: 94c736f883bc09fcd7e86b2b10e303dc9d885634
+  - ref: refs/tags/drm-fixes-2022-04-08
+    old: 0000000000000000000000000000000000000000
+    new: 792670c406109e0e933cc28a20de0e1de5f690f6
+  - ref: refs/tags/drm-fixes-2022-04-15
+    old: 0000000000000000000000000000000000000000
+    new: 24c62f63e808243e4f4935aed6ac3dbda68c36b7
+  - ref: refs/tags/drm-fixes-2022-04-22
+    old: 0000000000000000000000000000000000000000
+    new: a717353f1925709d3786425ad04790a27a6b2474
+  - ref: refs/tags/drm-fixes-2022-04-23
+    old: 0000000000000000000000000000000000000000
+    new: bb397219228ee56427d71f3f8be568ec878580c0
+  - ref: refs/tags/drm-fixes-2022-04-29
+    old: 0000000000000000000000000000000000000000
+    new: 7521aea13e1f29e60c22132e6145c46409356d9c
+  - ref: refs/tags/drm-fixes-2022-05-06
+    old: 0000000000000000000000000000000000000000
+    new: 403f669a9a2aef090374d8cd95eb40c6cdf433ee
+  - ref: refs/tags/drm-fixes-2022-05-13
+    old: 0000000000000000000000000000000000000000
+    new: 51ee1687d2bbf12112e8420a3dacf3bedb91fe7b
+  - ref: refs/tags/drm-fixes-2022-05-14
+    old: 0000000000000000000000000000000000000000
+    new: 9294abe3fe0f3d3b1f464c3eed9c5800e762ad4c
+  - ref: refs/tags/drm-fixes-2022-05-21
+    old: 0000000000000000000000000000000000000000
+    new: 3ebd6f242e0c1421e840c3e01904086b328fd2ca
+  - ref: refs/tags/drm-fixes-2022-06-10
+    old: 0000000000000000000000000000000000000000
+    new: 57ef9f88bada77f16b46914de00c5fa589b2d910
+  - ref: refs/tags/drm-next-2022-03-24
+    old: 0000000000000000000000000000000000000000
+    new: e868bffb4164302d3ce50663b607801ede213277
+  - ref: refs/tags/drm-next-2022-03-25
+    old: 0000000000000000000000000000000000000000
+    new: aaf9a45f486782c34f7300379f3fb1aad1a7bb92
+  - ref: refs/tags/drm-next-2022-05-25
+    old: 0000000000000000000000000000000000000000
+    new: ce70178646918fcbbe5aaa0bf82b89575526fc8a
+  - ref: refs/tags/drm-next-2022-06-03-1
+    old: 0000000000000000000000000000000000000000
+    new: f104b5ce0a437de87feaa44506d2f5bd0b36e7ac
+  - ref: refs/tags/exynos-drm-fixes-v5.19.rc3
+    old: 0000000000000000000000000000000000000000
+    new: 971bf155ea0472522f7e8d10bd8e75a1570ef720
