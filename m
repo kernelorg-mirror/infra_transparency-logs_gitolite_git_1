@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0224309520802322000=="
+Content-Type: multipart/mixed; boundary="===============5324484377810698753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 15 Jun 2022 17:31:12 -0000
-Message-Id: <165531427230.18878.2527556940541864970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 15 Jun 2022 17:31:27 -0000
+Message-Id: <165531428751.19045.4305857609966236890@gitolite.kernel.org>
 
---===============0224309520802322000==
+--===============5324484377810698753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next
-    old: 1d85e9a71c7b177232b1576a6a09e0ceb7460782
-    new: bdc997a769ee6121d7d1f88ab0fc105916de0650
-    log: revlist-1d85e9a71c7b-bdc997a769ee.txt
+  - ref: refs/heads/net-mlx5
+    old: 619c010a65391d06bc96e79fa0e7725790e5d1a9
+    new: 219b51a6f040fa5367adadd7d58c4dda0896a01d
+    log: revlist-619c010a6539-219b51a6f040.txt
 
---===============0224309520802322000==
+--===============5324484377810698753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d85e9a71c7b-bdc997a769ee.txt
+Content-Disposition: attachment; filename=revlist-619c010a6539-219b51a6f040.txt
 
-5757ce11aa38f2283703cf678c055b8b6cf538c6 mmc: debugfs: Fix file release memory leak
-f541b792424ae52f3023f1050301e22558712c43 dt-bindings: mmc: renesas,sdhi: R-Car V3U is R-Car Gen4
-2c02c2451f76e65bb9edf9fb2e7b056219b9d9d4 dt-bindings: mmc: renesas,sdhi: Add R-Car Gen4 clock requirements
-c4938d5a6a549a9c18de2cc3d63195d18244af41 mmc: mmci: Fix typo in comment
-8fe87198d4defb585086c8136b2d08be62d06e05 mmc: sdhci-brcmstb: Initialize base_clk to NULL in sdhci_brcmstb_probe()
-89bcd9a64b849380ef57e3032b307574e48db524 mmc: mediatek: wait dma stop bit reset to 0
-c8bf202614ec030ef06b65f99e850af16d85ed73 Merge branch 'fixes' into next
-e1c619d12661c9b4c34388bb326fcab6e763b938 mmc: dw_mmc: exynos: Obviously always return success in remove callback
-af9c1566752d1b8b1898415130af20e3e3abbb4f mmc: dw_mmc: hi3789cv200: Obviously always return success in remove callback
-a3f05b2e30a35cc5c8550064aa371f6c5d369751 mmc: dw_mmc: rockchip: Obviously always return success in remove callback
-c36f2482a1cc5f7a4c56b0cf5b187d0b5ef24e79 mmc: sdhci-of-arasan: Obviously always return success in remove callback
-382fd8393fd9b3eca7a9d577cb94930e490613cb mmc: sdhci-st: Obviously always return success in remove callback
-78fe993ae7143ff307d4ada26ade60fb7bbe9b02 mmc: host: Improve I/O read/write performance for GL9763E
-bdc997a769ee6121d7d1f88ab0fc105916de0650 mmc: core: Do not evaluate HS400 capabilities if bus has no MMC capability
+884c65e4daf3eab8730b2bbd5abc5a2c0403b3f3 amd-xgbe: Use platform_irq_count()
+9cc8ea99bf7ae6f5a5a305bb14a6f1e3f18f5f54 docs: networking: phy: Fix a typo
+4b7a632ac4e7101ceefee8484d5c2ca505d347b3 mlxsw: spectrum_cnt: Reorder counter pools
+71a579f0d3777a704355e6f1572dfba92a9b58b2 ice: Fix PTP TX timestamp offset calculation
+9542ef4fba8c73e176b8aa18a8adf04aecb889e5 ice: Sync VLAN filtering features for DVM
+be2af71496a54a7195ac62caba6fab49cfe5006c ice: Fix queue config fail handling
+efe41860008e57fb6b69855b4b93fdf34bc42798 ice: Fix memory corruption in VF driver
+d7dd6eccfbc95ac47a12396f84e7e1b361db654b net: bgmac: Fix an erroneous kfree() in bgmac_remove()
+56315b6bf7fc63d2b26c37869d2753f765849bd6 ARM: dts: at91: ksz9477_evb: fix port/phy validation
+b60377de779052bf00b34a62f0bae03c92b88776 MAINTAINERS: add include/dt-bindings/net to NETWORKING DRIVERS
+371de1aa000dd5265a32ed934792a306ec873d6e Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+36a15e1cb134c0395261ba1940762703f778438c net: usb: ax88179_178a needs FLAG_SEND_ZLP
+219b51a6f040fa5367adadd7d58c4dda0896a01d net: ax25: Fix deadlock caused by skb_recv_datagram in ax25_recvmsg
 
---===============0224309520802322000==--
+--===============5324484377810698753==--
