@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7399941065451982236=="
+Content-Type: multipart/mixed; boundary="===============3944555726976427419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Wed, 15 Jun 2022 14:20:36 -0000
-Message-Id: <165530283645.21521.421752101209397862@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 14:20:45 -0000
+Message-Id: <165530284570.21639.322011586512922059@gitolite.kernel.org>
 
---===============7399941065451982236==
+--===============3944555726976427419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/misc
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
-    log: revlist-f2906aa86338-b13baccc3850.txt
+  - ref: refs/heads/perf
+    old: f1501ecc7b6256e65d3e5ce28406a2f56eff78e8
+    new: 9168234b0d7aefc74a9dc2fd0bdc3c7d13b94e28
+    log: revlist-f1501ecc7b62-9168234b0d7a.txt
 
---===============7399941065451982236==
+--===============3944555726976427419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-b13baccc3850.txt
+Content-Disposition: attachment; filename=revlist-f1501ecc7b62-9168234b0d7a.txt
 
 edbc7960bef7fd71ef1e44d0df15b864784b14c8 drm/bridge: ti-sn65dsi83: Handle dsi_lanes == 0 as invalid
 6e516faf04317db2c46cbec4e3b78b4653a5b109 drm/panfrost: Job should reference MMU not file_priv
@@ -363,5 +363,18 @@ e3b8e2de19e18e4297c0dd747d56ecdc4ff96928 Merge tag 'kbuild-fixes-v5.19' of git:/
 b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
+a2355229e52e3f7cd0fff8defe931b4879cd7277 perf: Allow restricted kernel breakpoints on user addresses
+9db2064939fffcc67886bf6fa119cc3ba6dd46f4 perf/hw_breakpoint: Add KUnit test for constraints accounting
+79ae158a2441af9161d63c1bc59f8878513bff0c perf/hw_breakpoint: Clean up headers
+1ebb83f54a32091c717e719a0fc0c3e6c5210340 perf/hw_breakpoint: Optimize list of per-task breakpoints
+23d224ad1bd02c7936dea4a6f2f64b6c7165a0e1 perf/hw_breakpoint: Mark data __ro_after_init
+8d731641ccf95cb58cfcf5906545a4b365ed1871 perf/hw_breakpoint: Optimize constant number of breakpoint slots
+edd183f7552d45aa109b42885f90f439a6f0d930 perf/hw_breakpoint: Make hw_breakpoint_weight() inlinable
+58132ba4ad294e63edcb23266afca629ba5427eb perf/hw_breakpoint: Remove useless code related to flexible breakpoints
+9bc725d6ad80d2635a6f16c2fa422b295852e834 powerpc/hw_breakpoint: Avoid relying on caller synchronization
+36d30de12998fd7f4e30fdb1bda3a3dbb1142d91 perf/hw_breakpoint: Reduce contention with large number of tasks
+346dadafb4ff93503e753c5816eab7e855fc321b perf/hw_breakpoint: Introduce bp_slots_histogram
+f2a8a604807ba4fcce475c398aa367a9beb914e0 perf/hw_breakpoint: Optimize max_bp_pinned_slots() for CPU-independent task targets
+9168234b0d7aefc74a9dc2fd0bdc3c7d13b94e28 perf/hw_breakpoint: Optimize toggle_bp_slot() for CPU-independent task targets
 
---===============7399941065451982236==--
+--===============3944555726976427419==--
