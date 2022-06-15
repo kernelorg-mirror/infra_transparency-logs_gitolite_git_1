@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4305481338215263403=="
+Content-Type: multipart/mixed; boundary="===============1123807075849846666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 15 Jun 2022 09:52:32 -0000
-Message-Id: <165528675240.12387.4199351036342614270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 15 Jun 2022 10:15:30 -0000
+Message-Id: <165528813064.27959.8718411851701887668@gitolite.kernel.org>
 
---===============4305481338215263403==
+--===============1123807075849846666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 39b360102f3ac6b12cafac9db25762071eb0418c
-    new: 695d7fbc2941de2307792c33b13b666f21bfbf70
-    log: revlist-39b360102f3a-695d7fbc2941.txt
+  - ref: refs/heads/next
+    old: 75ed63d919400b803691a0c757ee23c6f767a625
+    new: 902c2d91582c7ff0cb5f57ffb3766656f9b910c6
+    log: revlist-75ed63d91940-902c2d91582c.txt
 
---===============4305481338215263403==
+--===============1123807075849846666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39b360102f3a-695d7fbc2941.txt
+Content-Disposition: attachment; filename=revlist-75ed63d91940-902c2d91582c.txt
 
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
 d36f6ed761b53933b0b4126486c10d3da7751e7f ext4: fix bug_on in __es_tree_search
@@ -540,7 +540,6 @@ c55b2b983b0fa012942c3eb16384b2b722caa810 nbd: fix race between nbd_alloc_config(
 9d004b2f4fea97cde123e7f1939b80e77bf2e695 Merge tag 'cxl-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 0a19bab54ef44348aa5edfc2b8ff47f63a45ae15 MAINTAINERS: Update Xen maintainership
 2ef4bb24ff39ae4af89b80bcc5d516f55368e8ae pcmcia: Use platform_get_irq() to get the interrupt
-630f972d76d6460235e84e1aa034ee06f9c8c3a9 riscv: read-only pages should not be writable
 e225c9a5a74b12e9ef8516f30a3db2c7eb866ee1 net/smc: fixes for converting from "struct smc_cdc_tx_pend **" to "struct smc_wr_tx_pend_priv *"
 2f1de254a25bee55600287e2eb2cc12ea389c129 net: phy: Directly use ida_alloc()/free()
 11825765291a93d8e7f44230da67b9f607c777bf tcp: fix tcp_mtup_probe_success vs wrong snd_cwnd
@@ -775,9 +774,6 @@ e0ffcf3fe18e0310221461c08969edec2cc7628c s390/stack: add union to reflect kvm st
 28cbc2d4c54c09a427b18a1604740efb6b2cc2d6 regulator: mt6315-regulator: fix invalid allowed mode
 e6652a8ef3e64d953168a95878fe29b934ad78ac net: ping6: Fix ping -6 with interface name
 86360030cc5117596626bef1d937277cd2bebe05 net/sched: act_api: fix error code in tcf_ct_flow_table_fill_tuple_ipv6()
-ca209f8b5f61b74782dd4275ebc7173d92cb4905 efi: x86: Fix config name for setting the NX-compatibility flag in the PE header
-31f1a0edff78c43e8a3bd3692af0db1b25c21b17 efi/x86: libstub: Make DXE calls mixed mode safe
-75ed63d919400b803691a0c757ee23c6f767a625 efi: clean up Kconfig dependencies on CONFIG_EFI
 31cb50b5590fe911077b8463ad01144fac8fa4f3 kbuild: check static EXPORT_SYMBOL* by script instead of modpost
 cd968b97c49214e6557381bddddacbd0e0fb696e kbuild: make built-in.a rule robust against too long argument error
 c6031b1dbbbfec03891bf1baefa2e0803d705601 kbuild: make *.mod rule robust against too long argument error
@@ -1049,6 +1045,10 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 815b196c7057356e7ffa9ce97892cb5fd5de17e0 Merge tag 'mm-hotfixes-stable-2022-06-05' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
-695d7fbc2941de2307792c33b13b666f21bfbf70 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
+6365a1935c5151455812e96d8de434c551dc0d98 efi: Make code to find mirrored memory ranges generic
+14d9a675fd0d414b7ca3d47d2ff70fbda4f6cfc2 mm: Ratelimited mirrored memory related warning messages
+abd62377c0064302df680ab33f4c05290ba24af8 mm: Limit warning message in vmemmap_verify() to once
+c0b978fedff685c9fdf91a46a6f026ac49d99591 arm64: mm: Only remove nomap flag for initrd
+902c2d91582c7ff0cb5f57ffb3766656f9b910c6 memblock: Disable mirror feature if kernelcore is not specified
 
---===============4305481338215263403==--
+--===============1123807075849846666==--
