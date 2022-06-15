@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 15 Jun 2022 14:42:52 -0000
-Message-Id: <165530417240.3618.4843958634422696404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Wed, 15 Jun 2022 15:01:20 -0000
+Message-Id: <165530528081.15283.1809404728980061210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-next
-    old: b37be6d2f45753db105b4ae299295d314f9c795e
-    new: 6c55e6cce170ac99f33cbdbabde2c0c36d1051f2
+  - ref: refs/heads/socfpga_updates_for_v5.20
+    old: 85d616dd19ac93a7a77b2b43f21f83233774fe27
+    new: 2b59af8cd4de6dd9e667af2d045488c29226655b
     log: |
-         842fec058171db8f58a6073502a625372dddd96a HID: nintendo: Set phys property of input device based on HID phys
-         6c55e6cce170ac99f33cbdbabde2c0c36d1051f2 Merge branch 'for-5.20/nintendo' into for-next
+         9194a384083b2f368f51bd7505740c56ffa990ae dt-bindings: altera: document Stratix 10 SWVP compatibles
+         2b59af8cd4de6dd9e667af2d045488c29226655b arm64: dts: Add support for Stratix 10 Software Virtual Platform
          
-  - ref: refs/heads/for-5.20/nintendo
-    old: 0000000000000000000000000000000000000000
-    new: 842fec058171db8f58a6073502a625372dddd96a
