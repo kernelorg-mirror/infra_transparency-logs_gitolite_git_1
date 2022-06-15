@@ -1,84 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============0404426645546745690=="
+Content-Type: multipart/mixed; boundary="===============7188762789388019168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 15 Jun 2022 19:12:26 -0000
-Message-Id: <165532034669.19661.9012361953102071979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 15 Jun 2022 19:39:21 -0000
+Message-Id: <165532196113.4050.12038422718987697737@gitolite.kernel.org>
 
---===============0404426645546745690==
+--===============7188762789388019168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/dev
-    old: 950e6b1fb9be0dfe504ca60c38d26d93db8b00ed
-    new: e607cc3860162967a0c7391ad030bd6e7a8e270b
-    log: revlist-950e6b1fb9be-e607cc386016.txt
+  - ref: refs/heads/for-next
+    old: 5af20466495445da4cfa8d116ec32e39be96de60
+    new: 9685dd451a3f468e16a792ebf209a0f4e4b97c8e
+    log: revlist-5af204664954-9685dd451a3f.txt
 
---===============0404426645546745690==
+--===============7188762789388019168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-950e6b1fb9be-e607cc386016.txt
+Content-Disposition: attachment; filename=revlist-5af204664954-9685dd451a3f.txt
 
-fb57aeace771b9412b3b5b41b960d0d9447ddb02 rcu: Handle failure of memory allocation functions
-c0c00bd181ed05d7bbc9d330c0f91a4a5183b732 torture: Flush printk() buffers before powering off
-473a8229dded66085029e6961d1b40a529e1fec4 refscale: Convert test_lock spinlock to raw_spinlock
-9f08eb03f8811c8b1b6149f92293940ca8b1f574 rcu-tasks: Merge state into .b.need_qs and atomically update
-54a697fd1b7da480bdbc495d4a4552152439053e rcu-tasks: Remove rcu_tasks_trace_postgp() wait for counter
-fabb927edc2d69693dbf0b4fef971eba4e3e92d0 rcu-tasks: Make trc_read_check_handler() fetch ->trc_reader_nesting only once
-2e98fc5fdf921761ab08f8265ef8142d3deccb83 rcu-tasks: Idle tasks on offline CPUs are in quiescent states
-393e38db5547a4b4435473de75ca7ce3d45843b3 rcu-tasks: Handle idle tasks for recently offlined CPUs
-17edb91590e33b4c22d597459549b588c42d28c6 rcu-tasks: RCU Tasks Trace grace-period kthread has implicit QS
-d51dfe516908fb41f5dec9bd44762f4925b1a3cf rcu-tasks: Make rcu_note_context_switch() unconditionally call rcu_tasks_qs()
-2c5dfb443e7bb29a2374520dd1a05951f650e1fa rcu-tasks: Simplify trc_inspect_reader() QS logic
-ecadb4044ad0e61d542a56d39bb22265a68fdbc3 rcu-tasks: Add slow-IPI indicator to RCU Tasks Trace stall warnings
-6a1903b7e9d37929b55a73686e6a746d46656d53 rcu-tasks: Flag offline CPUs in RCU Tasks Trace stall warnings
-b3dddea16aa8366dd181005fd552f04b6eb507d1 rcu-tasks: Make RCU Tasks Trace stall warnings print full .b.need_qs field
-8269ecfe6b4b8ab50c429217bdfc105198924596 rcu-tasks: Make RCU Tasks Trace stall warning handle idle offline tasks
-87f4045f1b970e8712ab641204153e0eab31416f rcu-tasks: Add data structures for lightweight grace periods
-c0369858703c2c290d6d375e2c8be21f4b7589ae rcu-tasks: Track blocked RCU Tasks Trace readers
-a5743021758cb283fa922f657893548bf0477670 rcu-tasks: Untrack blocked RCU Tasks Trace at reader end
-6fbc55ef97e4e10e8f7d85b8b47f02d07ab52368 rcu-tasks: Add blocked-task indicator to RCU Tasks Trace stall warnings
-fc3776ed3e96283a7af30b279a27b2743a848ddf rcu-tasks: Move rcu_tasks_trace_pertask() before rcu_tasks_trace_pregp_step()
-f28e20516d680fb15f48a9e1a3532500e1033609 rcu-tasks: Avoid rcu_tasks_trace_pertask() duplicate list additions
-3bb6da6458f087e6f21c1fc42d045aaaebc8b0f4 rcu-tasks: Scan running tasks for RCU Tasks Trace readers
-c282c5a0a69e0621374a33ae344f465479c991b6 rcu-tasks: Pull in tasks blocked within RCU Tasks Trace readers
-38c970e499de03521ab1db59f009d8c3bc4c5362 rcu-tasks: Stop RCU Tasks Trace from scanning idle tasks
-ba42bc3d08603ec1f87dbd9457d489accfe44d6f rcu-tasks: Stop RCU Tasks Trace from scanning full tasks list
-68c892e73c9f852732d8a241442d08379cc1dcbe rcu-tasks: Maintain a count of tasks blocking RCU Tasks Trace grace period
-f43015d30b4d7ca9d649b5c744c9c7823bd5fe85 rcu-tasks: Eliminate RCU Tasks Trace IPIs to online CPUs
-9083362aecd703491d427bba69598c23b84e3c19 rcu-tasks: Disable and enable CPU hotplug in same function
-0e8bb27c812a9a858bb591df80a65901b6b68750 rcu-tasks: Update comments
-ccfc2f5fe1181112abfd2b39ca3496d7f27acfb4 rcu-tasks: Be more patient for RCU Tasks boot-time testing
-dc42422361d2ac3fecf51724ff605fd1f823debf srcu: Block less aggressively for expedited grace periods
-f514da32aaa6688cfae82e697e22f3297a18ea7b rcu-tasks: Use delayed_work to delay rcu_tasks_verify_self_tests()
-9cbe5ab88a80df8a2d93c093fdfe683eae875cd1 rcu/nocb: Avoid polling when myrdp->nocb_head_rdp list is empty
-2501583a3d5f158cfe0ef18ee7e1d4d78071f2b5 context_tracking: Remove unused context_tracking_in_user()
-5c7b0ea18f4c91c12138a49accc859b790309135 context_tracking: Add a note about noinstr VS unsafe context tracking functions
-70d5abf183be3f1b88600914421e20a7727ce926 context_tracking: Rename __context_tracking_enter/exit() to __ct_user_enter/exit()
-6e1e7a74f9fe28a2839f7693bb14be415b20d5c1 context_tracking: Rename context_tracking_user_enter/exit() to user_enter/exit_callable()
-53601aea6ecca3dd70ea22c84bc86c1864787b4b context_tracking: Rename context_tracking_enter/exit() to ct_user_enter/exit()
-3411b048286a9642f85ec72c8df35174872deb72 context_tracking: Rename context_tracking_cpu_set() to ct_cpu_track_user()
-bd83e0ed11bb39a98b709a78b4348c6d3f5a3c45 context_tracking: Split user tracking Kconfig
-89b2abe73feae3db1ef31dfdd9c8642c6b996691 context_tracking: Take idle eqs entrypoints over RCU
-b2fe1ddc18d2bd25d7a9afd920a5557650d6325f context_tracking: Take IRQ eqs entrypoints over RCU
-e22bc8b4012bd498e4511ddc70363cb7fd6bebb6 context_tracking: Take NMI eqs entrypoints over RCU
-13f55c11af0c293bae6802ff1aa21331a1102907 rcu/context-tracking: Remove rcu_irq_enter/exit()
-a8842d33de56d3517f2791b17c2ee79781f70b91 rcu/context_tracking: Move dynticks counter to context tracking
-cd7c0a73fc66892325bd81583dde217d03d22265 rcu/context_tracking: Move dynticks_nesting to context tracking
-03757a111ba47e44b7d01f0389036c6a687daf17 rcu/context_tracking: Move dynticks_nmi_nesting to context tracking
-f767be09d1c8c6fa2637bf20bd5ce267438e712e rcu/context-tracking: Move deferred nocb resched to context tracking
-e831208f84a3b3d3662a616652fd5278f7ead3e3 rcu/context-tracking: Move RCU-dynticks internal functions to context_tracking
-6b830d5412c3449808375686bcc4a64dc8f8f5a7 rcu/context-tracking: Remove unused and/or unecessary middle functions
-404c2fc92762bcec44498fa495311688aca588cb context_tracking: Convert state to atomic_t
-402d3676e93f14380ac25c1d961634a21786f84d rcu/context_tracking: Merge dynticks counter and context tracking states
-8f957ff7b1429bbe3b532135e0a26f7921f6489b MAINTAINERS: Add Paul as context tracking maintainer
-e607cc3860162967a0c7391ad030bd6e7a8e270b context_tracking: Interrupts always disabled for ct_idle_exit()
+c5c169d04a6e6ce79af92722fd194b39d4c2c9b3 btrfs: fix race between reflinking and ordered extent completion
+cac09e378a8e86befd4e5a87ae610043d4375c54 btrfs: add missing inode updates on each iteration when replacing extents
+8587a6570320ce0d7acd433c22ff9949f859e00a btrfs: do not BUG_ON() on failure to migrate space when replacing extents
+1b505059de41fa9df1ba1a9c987ed1413e27f956 btrfs: make btrfs_super_block::log_root_transid deprecated
+5406069c99a2d58cdfc99dc4d0f673dc2799862a btrfs: reject log replay if there is unsupported RO compat flag
+41586a390eb8367e303fb34d2474d38ca91757b2 btrfs: stop looking at btrfs_bio->iter in index_one_bio
+8cc2aecc3db75dad886a63cb18bfae93957fa4b3 btrfs: split discard handling out of btrfs_map_block
+16829b7091845628a4f1573054b1ef0b044a2eee btrfs: sysfs: advertise zoned support among features
+cb5d52129662cfd0e434f1b4eac75447c0be1d28 btrfs: zoned: prevent allocation from previous data relocation BG
+b4f865c5dbc2ba6664d44fe1063970ee927f1da6 btrfs: zoned: fix critical section of relocation inode writeback
+89a3dbb6b623d4c0c7f776cb51a98d2331fff704 btrfs: add tracepoints for ordered extents
+d46f52fc8afe3cced9ad6f869205484aa94973ca btrfs: don't set lock_owner when locking extent buffer for reading
+0d227daa5cfe69a585a9b7c6a3f3263cbafb064e btrfs: tree-log: make the return value for log syncing consistent
+8e619a1ba7253c31471c698fe867a7d5a2407cae btrfs: fix deadlock with fsync+fiemap+transaction commit
+e4dcded3b5ee6e2a5180210add1df595ee470e44 Documentation: update btrfs list of features and link to readthedocs.io
+3e1963035b27a4624282165a148f92d8bc4eee51 btrfs: raid56: avoid double for loop inside finish_rmw()
+6e70260a8e4c4ae5c65adf50e60ae0e6d1025593 btrfs: raid56: avoid double for loop inside __raid56_parity_recover()
+1bf6a0b7d351339d1db34e0143f7dacea1d8a2fd btrfs: raid56: avoid double for loop inside alloc_rbio_essential_pages()
+bee29ab481e962621b8bd34216df805869f6bc11 btrfs: raid56: avoid double for loop inside raid56_rmw_stripe()
+86d0a15b00832849841f58040b5992f908e7e329 btrfs: raid56: avoid double for loop inside raid56_parity_scrub_stripe()
+ab2386739b1c0a3b02e8cfe73106b4442fda3d59 btrfs: open code rbtree search in split_state
+0057ba5a220e81027595a474bcde9720a7278f72 btrfs: open code rbtree search in insert_state
+09e556ddea9c44086725df8aaf2b2a00f8304b8a btrfs: lift start and end parameters to callers of insert_state
+620818fa5cb292a9495074acd48a36f127a49bcc btrfs: pass bits by value not by pointer for extent_state helpers
+ae48c04876a256f95c268b4df04eb4da2374df72 btrfs: add fast path for extent_state insertion
+a686c33c97541228d080e137c5e6aa0b5c4a998a btrfs: remove node and parent parameters from insert_state
+bc67dfb60ebec7645f8918338f2779d97da36c4f btrfs: open code inexact rbtree search in tree_search
+be76b6c4be4078098ec61a6068d02c1273adf11e btrfs: make tree search for insert more generic and use it for tree_search
+5e6ed00c4b417a3d5f877098c6e8097c7e7a0344 btrfs: unify tree search helper returning prev and next nodes
+017245ef8c0d3e4716f29b473f5e74b1a5ecbefc btrfs: remove parameter dev_extent_len from scrub_stripe()
+832eb6e404286065b8c891c05d7dbc83b34bb0e9 btrfs: use btrfs_chunk_max_errors() to replace tolerance calculation
+5405ee5bca3bbfbefeff998245bd27fd7a3cc535 btrfs: use btrfs_raid_array to calculate number of parity stripes
+6cd22d8d28953a254d4ea26cdd9dde5c842dc4bf btrfs: use ncopies from btrfs_raid_array in btrfs_num_copies()
+493d16cd793ec837381ebb42e0a612ccc078fc10 btrfs: call inode_to_path directly and drop indirection
+af30868b726f6335d78c828bd42e2565171a0085 btrfs: simplify parameters of backref iterators
+99dcde0eaac767305366aa2e723d42d8a9340370 btrfs: sink iterator parameter to btrfs_ioctl_logical_to_ino
+bed5d797ab6d6268564a0c5353d2e41b87a28a6e btrfs: remove unused typedefs get_extent_t and btrfs_work_func_t
+034400c18ce19922f88c1be10e9001afcc6d9450 btrfs: reset block group chunk force if we have to wait
+55bc1b4598a319f2bc8d558caf81244c2a15de3b btrfs: Add the capability of getting commit stats in BTRFS
+e665ec2ab6e1ae36c840f1f1e13b206848dafb0f btrfs: Expose the BTRFS commit stats through sysfs
+3d8cfc2c3ec7b897bd58c234779cf9fa219a1992 btrfs: send: add OTIME as utimes attribute for proto 2+ by default
+20adc3e8f39ad4ce68795b6d3f9847f45ccd931a highmem: Make kunmap_{local,atomic}() take pointers to const void
+d5f29a9cda71e9ee9390613eff592ca94471b390 btrfs: replace kmap() with kmap_local_page() in zstd.c
+263eea31df458f6eac4a4cd58d89a3d39720ac4b btrfs: send: add new command FILEATTR for file attributes
+e061c77f4adbf2298966a6ee51d49f8bc92957dd btrfs: send: drop __KERNEL__ ifdef from send.h
+3d4754958468256645fe5f4499b39cad054c6aac btrfs: send: simplify includes
+b6013ca88dd9eeb0f7ba32c0cf903f0eade53183 btrfs: send: remove old TODO regarding ERESTARTSYS
+593f85561631eaef83684b4654c6dcce02ce03be btrfs: send: use boolean types for current inode status
+3da35c953c6b089d7553230a594f028cf9264074 Merge branch 'misc-next' into for-next-next-v5.19-20220615
+57216e418849b597b84bc0f7e68ddeedacf71ec1 Merge branch 'ext/josef/reset-wait' into for-next-next-v5.19-20220615
+dac8136cf61d3cc52b198ea2275cdee357504c1d Merge branch 'misc-5.19' into for-next-current-v5.18-20220615
+afb833966081179c21aa4424137e7ae81e378f91 Merge branch 'ext/ioannis/sysfs-stats' into for-next-next-v5.19-20220615
+6dab7762b3358325aeff5accddf9e691a98b200e Merge branch 'dev/kmap-all' into for-next-next-v5.19-20220615
+e32ce2e20f6fe44658d5365b50de99b981fda95e Merge branch 'dev/send-v2-my-updates-to-send' into for-next-next-v5.19-20220615
+d97cec057135670f0a2be6f168da873514ed58c6 Merge branch 'for-next-current-v5.18-20220615' into for-next-20220615
+9685dd451a3f468e16a792ebf209a0f4e4b97c8e Merge branch 'for-next-next-v5.19-20220615' into for-next-20220615
 
---===============0404426645546745690==--
+--===============7188762789388019168==--
