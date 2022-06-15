@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Wed, 15 Jun 2022 08:59:10 -0000
-Message-Id: <165528355000.26425.9550466039934754483@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 08:59:31 -0000
+Message-Id: <165528357152.26626.8245780335429048181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
 user: brauner
 changes:
   - ref: refs/heads/fs.idmapped.group.fix
-    old: d43a69a20bfe39276004aacab9a32267f3cc0035
-    new: 77227c527a5468456deec4c81269be101adbb015
+    old: 77227c527a5468456deec4c81269be101adbb015
+    new: 8219e07e22ff3e28164b5837b0c61c50bc682c0a
     log: |
-         77227c527a5468456deec4c81269be101adbb015 generic/692: test group ownership change
+         8219e07e22ff3e28164b5837b0c61c50bc682c0a generic/692: test group ownership change
          
