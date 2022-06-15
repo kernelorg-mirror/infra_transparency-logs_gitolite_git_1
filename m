@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3211532340467965451=="
+Content-Type: multipart/mixed; boundary="===============8824468673125531394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jun 2022 06:12:59 -0000
-Message-Id: <165527357920.14978.1074813221908793113@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 06:13:17 -0000
+Message-Id: <165527359778.15240.9657782149281215277@gitolite.kernel.org>
 
---===============3211532340467965451==
+--===============8824468673125531394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 23e79f6c076085abbdde6e03efcba2e92084a872
     new: ba955417e39a5821c077bb1e7476ef21b7f91701
     log: revlist-23e79f6c0760-ba955417e39a.txt
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
 
---===============3211532340467965451==
+--===============8824468673125531394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ a98a915d6eeb7e6b45b66dde73ed53c7790fe2f9 Merge branch into tip/master: 'sched/co
 f94754f970b68fd6c286690f5d5fb0521e7eeeac Merge branch into tip/master: 'x86/fpu'
 ba955417e39a5821c077bb1e7476ef21b7f91701 Merge branch into tip/master: 'x86/mm'
 
---===============3211532340467965451==--
+--===============8824468673125531394==--
