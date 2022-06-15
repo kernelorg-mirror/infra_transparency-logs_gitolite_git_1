@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7336739252683287600=="
+Content-Type: multipart/mixed; boundary="===============6228939819435236084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 15 Jun 2022 04:43:30 -0000
-Message-Id: <165526821078.20615.3621654894895177406@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 04:44:31 -0000
+Message-Id: <165526827184.21028.12790279429922674063@gitolite.kernel.org>
 
---===============7336739252683287600==
+--===============6228939819435236084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,76 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main-5.15.y
-    old: 2bc0a6e4a9cf80c235545f883b3d1dad4d08fbb7
-    new: a33572259794c65ece5bcded98d8e8e15b3f8924
-    log: revlist-2bc0a6e4a9cf-a33572259794.txt
+  - ref: refs/heads/main-5.10.y
+    old: 356f509de06d69d7d192aa70c4168858c6302ffb
+    new: d83285966741a86e947bbd3846973bf83ec9455a
+    log: revlist-356f509de06d-d83285966741.txt
 
---===============7336739252683287600==
+--===============6228939819435236084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bc0a6e4a9cf-a33572259794.txt
+Content-Disposition: attachment; filename=revlist-356f509de06d-d83285966741.txt
 
-7e0b23abee385bf61a94ff77de4c825ccb14e9b5 extraversion
-6e0a9245381bda66e2985d24efc38947aa3edff3 mm: thp: consolidate mapcount logic on THP split
-9e900359b5917f4b87e724eb1c10bab72d5d2d7f mm: thp: make the THP mapcount atomic with a seqlock
-434f18620049a864045629b638f206072014246b mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-2cb9b5d8dc25c7ee5764fdc06571ea48e4130dae mm: thp: introduce page_trans_huge_anon_shared
-2629f9fbaafcc6722bd7ad87759bf1b0fc2533e6 mm: gup: COR: copy-on-read fault
-fbd0b91f9a1ea17e35d59e4ed004feb2dc6d4af3 mm: gup: gup_must_unshare()
-0088cfbf8130d60e5421c34122df779119e38f96 mm: gup: gup_must_unshare() use can_read_pin_swap_page()
-63c27cd29f6b24e5d00ae32ffc67b6f92f3e5532 mm: gup: activate GUP unsharing with COR
-28ace9134645c80f23d3e1d197283bdfb618d9f4 mm: gup: FOLL_NOUNSHARE: optimize follow_page
-c216942ee2bc0e1e83e707f770b2243870cb3269 mm: hugetlbfs: COR: copy-on-read fault
-a7889d697b4ebc3bf130b20ce4307ba06141009b mm: hugetlbfs: FOLL_FAULT_UNSHARE
-150ac29e9655c5af33cf26db9b5a5c40b8f5c05b mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
-f9f2f41803c411feec440dfbc5105f4ee9e7c6d5 mm: COW: skip the page lock in the COW copy path
-1a563946308b690f59ec2e5c50d16a48b8fb42ed mm: thp: replace the page lock with the seqlock for the THP mapcount
-08d42b01b9a7621f166d00da1bf6cd25c496e6ea mm: COW: restore full accuracy in page reuse
-1e84654c7f1ae18fb483245412da80a7dc8a7997 mm: COW/COR: de-dup the lock page locking
-ea25d784a5507b46aea6c09fff42e906ba86c881 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-0658fee83d953bd0c7b94e070bc977a47cdbf407 mm: gup: FOLL_MM_SYNC: enable COR on PageKsm
-7a29a3c54ef36c7c42cddd30df2a1395de1b8c94 mm: gup: FOLL_MM_SYNC: handle FOLL_MM_SYNC in can_read_pin_swap_page()
-38e4b969dbe9df510e1aaab8bfe51e4f9fe8e758 mm: gup: FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-ac1cf7e75d1df633ad9b47c9b3763e70b3a27c50 mm: gup: document FOLL_MM_SYNC
-ef2cddccfca2c171ce6253a02ca0cf70b5394164 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-c25502bc2e6e40d87d9a73feca9a1665eb720f48 mm: cacheline alignment for page_table_lock and mmap_lock
-12f66cb52ca0519c6195be74f2e050794c774b1e mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
-668addf57b30a8de746a0f347132bf0f4a394d22 mm: thp: optimize total_mapcount() with head_compound_mapcount
-76f047579aa376ef6cb4e903f51cae61d7ec6f7f mm: thp: cleanup and optimize compound_nr
-9d4171b4c24ba02d4d52addc7be542b0045ee742 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-cb0660828ce72afc05044988bdf4b7e23eecda33 mm: mm_take_all_locks: add cond_resched()
-78995659a546db3eb92947189bd7011eea15bdf4 x86: restore the write back cache of reserved RAM in iounmap()
-1cca95d9645387385e184f2dcec18a9120a57e72 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-0e1b5fb3e342417056f4ea177b7478e4d83d8eed x86: deduplicate the spectre_v2_user documentation
-1d6219e6fa333970d7d11a25c1df8ea5dc950fc6 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-5838ea712d7612f454eb0b3ea9f76a6b5745d2a5 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-414ea616daee32612e4306834b3ba7049da22210 x86: atomic_set needs WRITE_ONCE
-7f3421acba97bfd65e0ad31640ab33a64f8c645a sched/fair: skip select_idle_sibling() in presence of sync wakeups
-d5ceef04fc57f95347383e5155960134378e284c mm/userfaultfd: provide unmasked address on page-fault
-720a07a7821c4bf4a4a9a5bfd6317d81bc1f5f70 userfaultfd: UFFDIO_REMAP: rmap preparation
-9069316871c3cc43878ffdee4e51b3a64472027a userfaultfd: UFFDIO_REMAP uABI
-7f9be63b600b1b00a6fa975c086f11cbfa7a7afb mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-47cd4c5d0956399f8bcc0530b7b0b2b40da14399 arm64: select CPUMASK_OFFSTACK if NUMA
-dca71dcda0c3a087cfccbc9e91668b6e65ce0e36 arm64: tlb: skip tlbi broadcast
-284b4bb49fc93dfffdbbc6384c9737157728ae02 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-84ba8bab05bb5a85ea31569d059ff8f8ef460c09 KSM: improve reuse_swap_page for CONFIG_SWAP=n
-1615383394efc5da029a928eece6486f54dc642d randprotect: KSM: add batch random generator helper
-f8c19cb16a50209a55a1edd1c75694683c9ccd10 randprotect: KSM: only attempt to merge with KSM pages if the payload doesn't change
-1479b627919ee38d188b130450a0dcc405e4552c randprotect: KSM: eliminate the KSM COW side channel
-c8469b961bf44cc1c6c7dbfb3959e2df699a6679 randprotect: KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
-b98882395bd1557e04c89f21315f587097e33b5f randprotect: KSM: add working set estimation based on the pgtable young bit
-6254c36d669be2ef84b287ab40a262ef64b6ea77 randprotect: KSM: break_ksm: use the COR fault
-a003ce199fbd03eca7bc90b9c7435b484a0fe50b randprotect: mm: THP: preserved young bit in the THP split
-d9410b5fa6fc033dfcb07d8a3dcb06c50b6b5eda mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy
-2b2da67dbf8cb173385ccc4ed867f24559bb3968 mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy v5
-37dac79b9dbf0469b17f1518dc1fb6324492c319 mm/rmap: fix missing swap_free() in try_to_unmap() after arch_unmap_one() failed
-a33572259794c65ece5bcded98d8e8e15b3f8924 Merge remote-tracking branch 'gitlab/main-5.15.y' into main-5.15.y
+dfb6ffc0c2f24b40b6ecb27df8d8770e4f67520b extraversion
+2a840a3597ad150b3b9a5f752fcbde17b3f3f8ed sched/fair: skip select_idle_sibling() in presence of sync wakeups
+e7f0b619e7e8d945f0b7b53d22b36e2edf5e7d13 mm: thp: consolidate mapcount logic on THP split
+c93ede1781e2118c3baec04b1a2d0a4788dbcd9f mm: thp: make the THP mapcount atomic with a seqlock
+87a8197393ff5c0ac9c770675580b571486dca81 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+432e880db57bd28eab675f07c38576f611ad2782 mm: thp: introduce page_trans_huge_anon_shared
+fecb356d21e4b8516469724f45246c6b137aa3b6 mm: gup: COR: copy-on-read fault
+c27b7f76696e4071fd663e8753dab965d95fa0f4 mm: gup: gup_must_unshare()
+99db20880a47a371c1456eac9b5ae2900d2041da mm: gup: gup_must_unshare() use can_read_pin_swap_page()
+cc08879032b5a14da51ab2fa1eef0ad21dd9a351 mm: gup: activate GUP unsharing with COR
+a892e3076715862213ab0ae87b695cd091a66ef4 mm: gup: FOLL_NOUNSHARE: optimize follow_page
+4be9dab49b6a911b4113b84344557bca21a2cccc mm: hugetlbfs: COR: copy-on-read fault
+66a120228da5600cca7163cc9e5d6b4f829d9c60 mm: hugetlbfs: FOLL_FAULT_UNSHARE
+8aea7fcaf782d97f31428f413e5f78a2a6a0f123 mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
+494c9ce92807d7da119076902e6145b04207ad8d mm: COW: skip the page lock in the COW copy path
+f4c153219d10e74caf9029c1bc022c5f0deb632e mm: thp: replace the page lock with the seqlock for the THP mapcount
+6a06f18f4f0855ea2b3148ca89d33ba8431d4797 mm: COW: restore full accuracy in page reuse
+fad9b7c937b4cc719f4e7a2c957cdf45c239f72f mm: COW/COR: de-dup the lock page locking
+f9149c1f4e5ce08f16c87c8d34e2aec7b5813193 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+3732070ef58f4ad5a5ed892e57c33a03e35e118f mm: gup: FOLL_MM_SYNC: enable COR on PageKsm
+3bbc7f93ec7b2323ef581cef521da8daa3baf646 mm: gup: FOLL_MM_SYNC: handle FOLL_MM_SYNC in can_read_pin_swap_page()
+2370cebc7859e50e3774c585f21a81565d10b348 mm: gup: FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+96cd72bdfcc90eee0b936434a69451e7c7193b09 mm: gup: document FOLL_MM_SYNC
+eec0dc015f4e3507511b90a0971ece9597900ecd mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+c67ee9f59aaec811d9193fc59201cfda537a6f03 mm: cacheline alignment for page_table_lock and mmap_lock
+8613edab7ebaf273c730da95b59bc4e62ca7dfe0 mm: gup: allow FOLL_PIN to scale in SMP
+abe43f31029e7c086c900252c7599689ada88959 mm: gup: pack has_pinned in MMF_HAS_PINNED
+dc67f47dd538f81fa34611d644f46df7611ff555 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+c948cee09fa82c115d0eee4f5bd8a92e03f863d1 mm: thp: optimize total_mapcount() with head_compound_mapcount
+774a893b06b846b0a97844c6c7c42aeea88e6259 mm: thp: cleanup and optimize compound_nr
+74e231e4db1b0a4d3c6ccaaaaf9abebed66092d9 mm: proc: Invalidate TLB after clearing soft-dirty page state
+441d950564e1a891f5c06490a4a4a31f62da4471 mm: thp: consolidate policy_nodemask call
+a5c691a467f5b8fa8a4fdb344ff2715439373e83 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+67cc9a8f26003d1ec9a0a23cc28f5e003ede5fb9 mm: mm_take_all_locks: add cond_resched()
+b660b22c074eb6367ff9df46128a804a6fedf9db x86: restore the write back cache of reserved RAM in iounmap()
+add1672ee6a73179653afea4f40739c9ceee4fcf x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+5864719564607d037f7eb711cb82da316c231c66 x86: deduplicate the spectre_v2_user documentation
+50d657e7627158ce7da0450bcbc0887a5c040eed x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+4d35e6dbc57ef0b949c0cbb10f4e547faf4ab9ee x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+a92b0a3ca3ad985bcdf787b26430ac74e180810e x86: atomic_set needs WRITE_ONCE
+e02c4c8a8e886eb13a1ea235f501e0da6a701315 mm/userfaultfd: provide unmasked address on page-fault
+19fe39f846b05d6ab4378d362e6d7cba6b7ab321 userfaultfd: UFFDIO_REMAP: rmap preparation
+a63863356552801ec921e8e5b7603bf6e43c9bc4 userfaultfd: UFFDIO_REMAP uABI
+8335d8e7d841edb2abdbbc8ff61fce64a4838648 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+140c17d8703cdc6e9d9cb94ef44daca485329730 arm64: select CPUMASK_OFFSTACK if NUMA
+0740e9b298b9f55e6aa3a5222f138ebe4895fa46 arm64: tlb: skip tlbi broadcast
+53de12bb2ef11d61d72f75adce98a7b67d223edd mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+d006dd186ad6a305e66aed081deed2e7fe5dafd8 KSM: improve reuse_swap_page for CONFIG_SWAP=n
+4d6a050ccfd68a4b30f5347a4bb46f601e24f9e1 randprotect: KSM: add batch random generator helper
+eb64bd109cf6e366dd9c9ea4821b32a566d21a75 randprotect: KSM: only attempt to merge with KSM pages if the payload doesn't change
+203bfbe086cd0d91195278d93fab8cb8b159c48d randprotect: KSM: eliminate the KSM COW side channel
+9644337efbcbbd8e3b31c6baedbea23cf45e753a randprotect: KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
+8089ffeac6f160fa5c78b0e92c4d57e28990f915 randprotect: KSM: add working set estimation based on the pgtable young bit
+aa41ab11daa93140d888788964cd04eef09c1fb4 randprotect: KSM: break_ksm: use the COR fault
+7f0553be80119f80fd4e98ce17f15865314b4c5b randprotect: mm: THP: preserved young bit in the THP split
+0bd66b6e04e2fa4d452ac05eba018cced2a09e25 mm: Fix invalid page pointer returned with FOLL_PIN gups
+6e8eaa6f509481fb2b92b1d797892aacc8cfafa9 mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy
+91142f720f4f432acfb6b085fff64cd8707fe9e6 mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy v5
+5969184d54120434ee1041b0ca7e6292de3fb040 mm/rmap: fix missing swap_free() in try_to_unmap() after arch_unmap_one() failed
+d83285966741a86e947bbd3846973bf83ec9455a Merge remote-tracking branch 'gitlab/main-5.10.y' into main-5.10.y
 
---===============7336739252683287600==--
+--===============6228939819435236084==--
