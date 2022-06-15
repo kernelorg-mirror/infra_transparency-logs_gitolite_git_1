@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0245563620830721824=="
+Content-Type: multipart/mixed; boundary="===============6423556740211137768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 15 Jun 2022 05:24:29 -0000
-Message-Id: <165527066983.14193.15808155905357453178@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 05:25:36 -0000
+Message-Id: <165527073639.16012.1509788765634229612@gitolite.kernel.org>
 
---===============0245563620830721824==
+--===============6423556740211137768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: ff64cce8a7cf52aa5c0d9fefdae2ac3b2bca60c8
-    new: 82437291c96896a7dfec11a7fce35a0c6b77f84f
-    log: revlist-ff64cce8a7cf-82437291c968.txt
+  - ref: refs/heads/opp/ceil
+    old: d1149529c895714dfb39658bf56f5819d792fefc
+    new: 2f1b6df9097351090fd5ea3418b96db30b264661
+    log: revlist-d1149529c895-2f1b6df90973.txt
 
---===============0245563620830721824==
+--===============6423556740211137768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff64cce8a7cf-82437291c968.txt
+Content-Disposition: attachment; filename=revlist-d1149529c895-2f1b6df90973.txt
 
 493d995d95647008a472ffa5a22b1a81f56fdeb1 OPP: Add dev_pm_opp_set_config() and friends
 e410327c0f0ed4688d95f43f7948b981fd9dea75 cpufreq: dt: Migrate to dev_pm_opp_set_config()
@@ -66,13 +66,5 @@ c634e02f0888a48fee1c61de4d0f1e0a333d844b OPP: Add generic key finding helpers
 fc4e995d77f04e33ca333a77f581138b50af46ea OPP: Use generic key finding helpers for freq key
 18c948fbf2f7d6d110b8c435e01b5f4be9cb7ec0 OPP: Use generic key finding helpers for level key
 2f1b6df9097351090fd5ea3418b96db30b264661 OPP: Use generic key finding helpers for bandwidth key
-814792a7542f917b6275b01884094a4f4e3de547 OPP: Use consistent names for OPP table instances
-4996d01186014fe74d18f31367784a7cedc4512f OPP: Remove rate_not_available parameter to _opp_add()
-00d776d33da9180c280e130ce79848f0708f14b6 OPP: Reuse _opp_compare_key() in _opp_add_static_v2()
-29d9cbea7a20bf43a38441cf33f0548839cd62db OPP: Make dev_pm_opp_set_opp() independent of frequency
-d0f61915a06887a68f4fe1db80bf5a69ce7f6506 OPP: Allow multiple clocks for a device
-d0dc1a23ba50acbe7abbdd9dc9f47857fb1bb971 OPP: Add key specific assert() method to key finding helpers
-d6f69438fabacd1b5098cc7db57e3926d675ed19 OPP: Assert clk_count == 1 for single clk helpers
-82437291c96896a7dfec11a7fce35a0c6b77f84f OPP: Provide a simple implementation to configure multiple clocks
 
---===============0245563620830721824==--
+--===============6423556740211137768==--
