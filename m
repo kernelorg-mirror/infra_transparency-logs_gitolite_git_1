@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7393596663496898474=="
+Content-Type: multipart/mixed; boundary="===============1335905694209542974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 15 Jun 2022 15:15:42 -0000
-Message-Id: <165530614271.25761.12949900284987633409@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 15:15:54 -0000
+Message-Id: <165530615487.25878.768944584318461799@gitolite.kernel.org>
 
---===============7393596663496898474==
+--===============1335905694209542974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,73 +15,80 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: ac6888ac5a11c0a47d1f1da4b7809c0c595fdc5d
-    new: ec41c6d82056cbbd7ec8f44eed6d86fea50acf4e
-    log: |
-         ec41c6d82056cbbd7ec8f44eed6d86fea50acf4e hwmon: (asus-ec-sensors) add missing comma in board name list.
-         
-  - ref: refs/heads/master
-    old: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
-    new: 31c6caf381923e4e8ec4c7e8f6f1df82fa690134
-    log: revlist-b13baccc3850-31c6caf38192.txt
+  - ref: refs/heads/hwmon-next
+    old: 494bf37523fc28575aacd01b1bc02acbf1b4d4fa
+    new: ad9542b26754d1624658a69610588839aa39453c
+    log: revlist-494bf37523fc-ad9542b26754.txt
 
---===============7393596663496898474==
+--===============1335905694209542974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b13baccc3850-31c6caf38192.txt
+Content-Disposition: attachment; filename=revlist-494bf37523fc-ad9542b26754.txt
 
-4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
-51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
-f52ea6c26953fed339aa4eae717ee5c2133c7ff2 x86/speculation: Add a common function for MD_CLEAR mitigation update
-8cb861e9e3c9a55099ad3d08e1a3b653d29c33ca x86/speculation/mmio: Add mitigation for Processor MMIO Stale Data
-e5925fb867290ee924fcf2fe3ca887b792714366 x86/bugs: Group MDS, TAA & Processor MMIO Stale Data mitigations
-99a83db5a605137424e1efe29dc0573d6a5b6316 x86/speculation/mmio: Enable CPU Fill buffer clearing on idle
-8d50cdf8b8341770bc6367bce40c0c1bb0e1d5b3 x86/speculation/mmio: Add sysfs reporting for Processor MMIO Stale Data
-22cac9c677c95f3ac5c9244f8ca0afdc7c8afb19 x86/speculation/srbds: Update SRBDS mitigation selection
-a992b8a4682f119ae035a01b40d4d0665c4a2875 x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
-027bbb884be006b05d9c577d6401686053aa789e KVM: x86/speculation: Disable Fill buffer clear within guests
-1dc6ff02c8bf77d71b9b5d11cbc9df77cfb28626 x86/speculation/mmio: Print SMT warning
-d52d165d67c5aa26c8c89909003c94a66492d23d KVM: arm64: Always start with clearing SVE flag on load
-039f49c4cafb785504c678f28664d088e0108d35 KVM: arm64: Always start with clearing SME flag on load
-e3fe65e0d3671ee5ae8a2723e429ee4830a7c89c KVM: arm64: Fix inconsistent indenting
-2cdea19a34c2340b3aa69508804efe4e3750fcec KVM: arm64: Don't read a HW interrupt pending state in user context
-98432ccdec9f178ba041e1e5f9f32dbd71576504 KVM: arm64: Replace vgic_v3_uaccess_read_pending with vgic_uaccess_read_pending
-efedd01de475e126e43a07d0b1221bb65e497163 KVM: arm64: Warn if accessing timer pending state outside of vcpu context
-ea6c1213217dec65a8f9f396752b4d8bbcf226ea RISC-V: KVM: fix typos in comments
-1a12b25274b9e54b0d2d59e21620f8cf13b268cb MAINTAINERS: Limit KVM RISC-V entry to existing selftests
-ae187fec75aa670a551d9662f83e3947d3f02a69 KVM: arm64: Return error from kvm_arch_init_vm() on allocation failure
-fa7a17214488ef7df347dcd1a5594f69ea17f4dc KVM: arm64: Handle all ID registers trapped for a protected VM
-cde5042adf11b0a30a6ce0ec3d071afcf8d2efaf KVM: arm64: Ignore 'kvm-arm.mode=protected' when using VHE
-112f3bab41113dc53b4f35e9034b2208245bc002 KVM: arm64: Extend comment in has_vhe()
-5879c97f37022ff22a3f13174c24fcf2807fdbc0 KVM: arm64: Remove redundant hyp_assert_lock_held() assertions
-bcbfb588cf323929ac46767dd14e392016bbce04 KVM: arm64: Drop stale comment
-66da65005aa819e0b8d3a08f5ec1491b7690cb67 Merge tag 'kvm-riscv-fixes-5.19-1' of https://github.com/kvm-riscv/linux into HEAD
-76599a4761432a9f0a39f7d64f851b2deb57bdab Merge tag 'kvmarm-fixes-5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-d2263de1372a452cb64666990043b8be5c40b2a1 KVM: x86/mmu: Set memory encryption "value", not "mask", in shadow PDPTRs
-a9603ae0e4ee6e7de0184801d4abe5925f43b49c KVM: x86: document AVIC/APICv inhibit reasons
-3743c2f0251743b8ae968329708bbbeefff244cf KVM: x86: inhibit APICv/AVIC on changes to APIC ID or APIC base
-f5f9089f76ddc882b915c5d78e4beeb48dcabd1b KVM: x86: SVM: remove avic's broken code that updated APIC ID
-603ccef42ce9f07840cf4c0448f3261413460b07 KVM: x86: SVM: fix avic_kick_target_vcpus_fast
-66c768d30e64e1280520f34dbef83419f55f3459 KVM: x86: disable preemption while updating apicv inhibition
-18869f26df1a11ed11031dfb7392bc7d774062e8 KVM: x86: disable preemption around the call to kvm_arch_vcpu_{un|}blocking
-ba8ec273240a7a67819b5957c8d06a267ec54db7 KVM: x86: SVM: drop preempt-safe wrappers for avic_vcpu_load/put
-e3cdaab5ff022874e65df80ae8b8382ccc0a4fe0 KVM: x86: SVM: fix nested PAUSE filtering when L0 intercepts PAUSE
-4ee602e78d706e740a48be9b6ddb239df4a113b5 KVM: selftests: Replace x86_page_size with PG_LEVEL_XX
-c5a0ccec4cb4edde8e5b7e369dbe4d169b111e42 KVM: selftests: Add option to create 2M and 1G EPT mappings
-b8ca01ea19068b54938ebb4ebc06814a89dee8ea KVM: selftests: Drop stale function parameter comment for nested_map()
-ce690e9c17d27486af879defc506679cbbb14777 KVM: selftests: Refactor nested_map() to specify target level
-b6c086d04c0a1ba356145cdba5b46bd6cea2b9bd KVM: selftests: Move VMX_EPT_VPID_CAP_AD_BITS to vmx.h
-c363d95986b1b930947305e2372665141721d15f KVM: selftests: Add a helper to check EPT/VPID capabilities
-acf57736e755ba5c467fc6fa85e4a0750cc36150 KVM: selftests: Drop unnecessary rule for STATIC_LIBS
-cdc979dae265cc77a035b736f78f58e4c7309bb2 KVM: selftests: Link selftests directly with lib object files
-cf97d5e99f69f876dc310ea21b5f97c3a493a18a KVM: selftests: Clean up LIBKVM files in Makefile
-71d489661904fcc3ec31b343acd5c0dac84b5410 KVM: selftests: Add option to run dirty_log_perf_test vCPUs in L2
-e0f3f46e42064a51573914766897b4ab95d943e3 KVM: selftests: Restrict test region to 48-bit physical addresses when using nested
-8e8afafb0b5571b7cb10b529dc60cadb7241bed4 Merge tag 'x86-bugs-2022-06-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24625f7d91fb86b91e14749633a7f022f5866116 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-018ab4fabddd94f1c96f3b59e180691b9e88d5d8 netfs: fix up netfs_inode_init() docbook comment
-31c6caf381923e4e8ec4c7e8f6f1df82fa690134 ARM: 9207/1: amba: fix refcount underflow if amba_device_add() fails
+ec41c6d82056cbbd7ec8f44eed6d86fea50acf4e hwmon: (asus-ec-sensors) add missing comma in board name list.
+07158b8bc5e049ad41c1d00084d1b9d29d95e8d5 hwmon: (pmbus) Move pec attribute to I2C device
+7adeb3090abe60597fcdcb0362ccb3580f81446a hwmon: (lm90) Generate sysfs and udev events for all alarms
+4a5a29a398048971c798c3ab904679b7d886e3e8 hwmon: (lm90) Rework alarm/status handling
+4ac93b6201ad131dfa8a42f3d88cff40d7212e00 hwmon: (lm90) Reorder include files in alphabetical order
+39c851508a51b69109c82821d0b944e5f85ceed9 hwmon: (lm90) Reorder chip enumeration to be in alphabetical order
+82ed82ae76ac9556b66e0b4bfd76232f7faf8a5c hwmon: (lm90) Use BIT macro
+aff754b9cbc3f84b895fa7c45454c47ddd407fa6 hwmon: (lm90) Move status register bit shifts to compile time
+813d13b4dda7c55e4866155b718d54cb826d0cef hwmon: (lm90) Stop using R_/W_ register prefix
+bce98991876d8d67d3f33b63b8a72b8c7476c568 hwmon: (lm90) Improve PEC support
+d8b4848eb63c1f1f3b69e0e13bb76631fcfe15e3 hwmon: (lm90) Add partial PEC support for ADT7461
+7e3af6361a10264cfa2c736aba05081916462eb3 hwmon: (lm90) Enable full PEC support for ADT7461A
+dc817e5800b2c1b77ebb33d5e019ec52a5abd784 hwmon: (lm90) Add support for unsigned and signed temperatures
+ed011c8c3441c4bcc8fc1b8172c0d3969c7654d9 hwmon: (lm90) Only re-read registers if volatile
+873b6f4de0f753f024525fdc14d2cd372c423023 hwmon: (lm90) Support multiple temperature resolutions
+2ac5ba05f24eccda176031de5ac8d1f8357b8d7b hwmon: (lm90) Use single flag to indicate extended temperature support
+a59b92d9ab47f79c4a86aa80ca0a3bd5242991c0 hwmon: (lm90) Rework detect function
+56ea9eda93d59bcfb5a7ca8e2b5027cf5109d72a hwmon: (lm90) Add support for additional chip revision of NCT1008
+44e0789fa6466194f5c0d7f62e29411897247943 hwmon: (lm90) Fix/Add detection of G781-1
+fe13dace55c514e446522c0506f5bc8c5382f153 hwmon: (lm90) Add flag to indicate 'alarms' attribute support
+9a872e13211f4a26c6c4d17373689c4a10d7c599 hwmon: (lm90) Add explicit support for MAX6648/MAX6692
+5ea1fcb4bd76854042bee8e9c9cb65a2ea2e726e hwmon: (lm90) Add support for ADT7481, ADT7482, and ADT7483
+bb0f561c2d9bfb07530638d82a2ab2d8b7902694 hwmon: (lm90) Strengthen chip detection for ADM1032, ADT7461(A), and NCT1008
+b2702e734c8c69d76f8406fd1ed13815738ddff7 hwmon: (lm90) Add support for MAX6690
+5bd034b31eb8a1bf37076dcb43a8c3c3c4c89739 hwmon: (lm90) Add flag to indicate support for minimum temperature limits
+66aefdaac743c39cee56ac78d57474933a313f4e hwmon: (lm90) Add flag to indicate conversion rate support
+4d7abb614782d498fa582a64e262a69209b37f01 hwmon: (lm90) Add support for MAX6642
+27b204efa9e5eef3d191d24d75e471da1859be23 hwmon: (lm90) Let lm90_read16() handle 8-bit read operations
+2a917cf291ba55948d454adbe1468809827722d6 hwmon: (lm90) Introduce 16-bit register write function
+a154bf19307de94e7b143bfdb560ca63e3d2cb15 hwmon: (lm90) Support MAX1617 and LM84
+349192b3078779ef833d530db562673bc005e702 hwmon: (lm90) Add support for ADM1021, ADM1021A, and ADM1023
+7bae5fe72fe0fc3ffd4691d7485baa73447580b4 hwmon: (lm90) Add remaining chips supported by adm1021 driver
+9ce7d3ed5a5e5f4685dd9ffa7546f9d2e7b7c067 hwmon: (lm90) Combine lm86 and lm90 configuration
+c88011db35379d56e84290bc21864852610d6eab hwmon: (lm90) Add explicit support for NCT210
+820f442993ba14c043df961bc6b75b122e80fd6f hwmon: (lm90) Add support for ON Semiconductor NCT214 and NCT72
+038d4724b5a3cefb6f18499332dff8eecbd13085 hwmon: (lm90) Add support for ON Semiconductor NCT218
+bd5d892c52a2224ce8dd72fd7481dbaf8bc6a790 hwmon: (lm90) Add support for ADT7421
+a0186860094a7b720086fe3e7f2436b9202162af hwmon: (lm90) Only disable alerts if not already disabled
+e646ee47fefff14424eaaaa4f7b669d58cce4110 hwmon: (lm90) Add explicit support for ADM1020
+9f313afb784f4b91ec835a4592345d8093560d7e hwmon: (lm90) Add support and detection of Philips/NXP NE1618
+c1464eb49876304d80c158216c25dfbfbb5207cd hwmon: (lm90) Add table with supported Analog/ONSEMI devices
+47d0e51052ffe946f9911f4f9b197dec1e712938 hwmon: (lm90) Support temp_samples attribute
+93a8600bf2e3ed11ff231cd89f11b4f9c01b0bf8 hwmon: (pmbus) Add IEEE 754 half precision support to PMBus core
+443ddaeb0b59ca4bed5cb7732640cc6800c5c587 dt-bindings: trivial-devices: Add lt7182s
+79e32df964d87ffaf2a37a5a228b168684856697 hwmon: (pmbus) Add support for Analog Devices LT7182S
+a18372436f0fe4495e53061dafd18db325177b35 hwmon: (f71882fg) Add support for F71858AD (0x0903)
+d4aa6bfab944eb348637892a3caf9ee0d735a92b hwmon: (lm75) Replace kernel.h with the necessary inclusions
+ded82c29b90550f755e3fb52c63a85c2991099ca hwmon: (sch56xx-common) Add DMI override table
+41a6026d1989ecb20a7e97ff31ad166c7a3bcac7 hwmon: (asus-ec-sensors) add support for Strix Z690-a D4
+e347e8decf82a3f0190afb5cc14b5cc4f477c33e hwmon: (pmbus) add a function to check the presence of a block register
+8f08d6ad0998600c8c30be6c52cacc16b3619e77 hwmon: (pmbus) add MFR_* registers to debugfs
+3b97195700ac0120a7ee1cfb7ae373bec49767e3 hwmon: Allow to compile ASB100 and FSCHMD on !X86
+cf30df706e4feba361c5b26b3de610d3cfb126f8 dt-bindings: hwmon: Add compatible string for ADT7481 in lm90
+f73294a3e20bed40554f6a03f1e7a1804209e899 dt-bindings: hwmon: Allow specifying channels for lm90
+0098998fbb9e94cd354620b4b55cf57d732c3cdd hwmon: (lm90) Add compatible entry for adt7481
+b2e25de149edc763b69fa9d66410eac6b582298a hwmon: (lm90) Define maximum number of channels that are supported
+df104ee24c6127dc922fc1d8187ed09fd6d8c298 hwmon: (lm90) Read the channel's label from device-tree
+b44f6c1c3db9b285e696e3f44ad1eeeb7ec94197 hwmon: (occ) Delete unnecessary NULL check
+7904f86e72a612b5f8b475b4d98b6525ad139b55 hwmon: (lm90) Add support for 2nd remote channel's offset register
+a83e24dadbd0f86e202691f8c052635d61e1981c hwmon: (lm90) Read the channel's temperature offset from device-tree
+dd6a3bacd60f9ad3fad0adf1ce06cdd5ca73e829 hwmon: (pmbus) fix build error unused-function
+d987ed28dab23ec1b6a22f3782ce3064c6304a4c hwmon: (nct6775) Drop duplicate NULL check in ->init() and ->exit()
+a731d66c5fe30b5a0b17d993fc4adbe2cef5003a hwmon: (dell-smm) Add Dell XPS 13 7390 to fan control whitelist
+ad9542b26754d1624658a69610588839aa39453c hwmon: (dell-smm) Add Dell G5 5590 to DMI table
 
---===============7393596663496898474==--
+--===============1335905694209542974==--
