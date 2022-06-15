@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4804878465495415403=="
+Content-Type: multipart/mixed; boundary="===============1733193355152106369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 15 Jun 2022 05:26:02 -0000
-Message-Id: <165527076239.16210.17731441603976170594@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 05:27:14 -0000
+Message-Id: <165527083403.16696.2044068403306003478@gitolite.kernel.org>
 
---===============4804878465495415403==
+--===============1733193355152106369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/config-regulators
-    old: 00ef02b3ab3591b6658c9a1d8113473fb05512ab
-    new: b89d716e7912cc639a53653f6173658800e6a33e
-    log: revlist-00ef02b3ab35-b89d716e7912.txt
+  - ref: refs/heads/opp/config
+    old: 811c0002fc44aad6eed32b792ae5a226f5fe9b72
+    new: ea82177b9e494b1ce24aa6617fd21dcc0d5d419e
+    log: revlist-811c0002fc44-ea82177b9e49.txt
 
---===============4804878465495415403==
+--===============1733193355152106369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00ef02b3ab35-b89d716e7912.txt
+Content-Disposition: attachment; filename=revlist-811c0002fc44-ea82177b9e49.txt
 
 493d995d95647008a472ffa5a22b1a81f56fdeb1 OPP: Add dev_pm_opp_set_config() and friends
 e410327c0f0ed4688d95f43f7948b981fd9dea75 cpufreq: dt: Migrate to dev_pm_opp_set_config()
@@ -56,10 +56,5 @@ b6bd9f81e793fa30e930c779e0a41c281efe772b OPP: Remove dev_pm_opp_register_set_opp
 f74e7fa63f7552fb8ff120fcfc3f9694936e4da1 OPP: Remove dev_pm_opp_attach_genpd() and friends
 4e7b3fa4e28acd115ea3ce27f1783f1b33c9abcb OPP: Remove dev_pm_opp_set_prop_name() and friends
 ea82177b9e494b1ce24aa6617fd21dcc0d5d419e OPP: Rearrange dev_pm_opp_set_config() and friends
-08d58e7e8d1365d7f5f6d29fc0b15d19d9fb2ef1 OPP: Add support for config_regulators() helper
-c6a1c413021303cbbe6b4f5065b6637caa34728c OPP: Make _generic_set_opp_regulator() a config_regulators() interface
-43573fd759c8a915594c59a50fe9a609ad206a3d OPP: Add dev_pm_opp_get_supplies()
-f5c9e71ce44b40d913ba8dbbff978434370e9111 OPP: ti: Migrate to config_regulators()
-b89d716e7912cc639a53653f6173658800e6a33e OPP: Remove custom OPP helper support
 
---===============4804878465495415403==--
+--===============1733193355152106369==--
