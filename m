@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6423556740211137768=="
+Content-Type: multipart/mixed; boundary="===============4804878465495415403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 15 Jun 2022 05:25:36 -0000
-Message-Id: <165527073639.16012.1509788765634229612@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 05:26:02 -0000
+Message-Id: <165527076239.16210.17731441603976170594@gitolite.kernel.org>
 
---===============6423556740211137768==
+--===============4804878465495415403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/ceil
-    old: d1149529c895714dfb39658bf56f5819d792fefc
-    new: 2f1b6df9097351090fd5ea3418b96db30b264661
-    log: revlist-d1149529c895-2f1b6df90973.txt
+  - ref: refs/heads/opp/config-regulators
+    old: 00ef02b3ab3591b6658c9a1d8113473fb05512ab
+    new: b89d716e7912cc639a53653f6173658800e6a33e
+    log: revlist-00ef02b3ab35-b89d716e7912.txt
 
---===============6423556740211137768==
+--===============4804878465495415403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1149529c895-2f1b6df90973.txt
+Content-Disposition: attachment; filename=revlist-00ef02b3ab35-b89d716e7912.txt
 
 493d995d95647008a472ffa5a22b1a81f56fdeb1 OPP: Add dev_pm_opp_set_config() and friends
 e410327c0f0ed4688d95f43f7948b981fd9dea75 cpufreq: dt: Migrate to dev_pm_opp_set_config()
@@ -61,10 +61,5 @@ c6a1c413021303cbbe6b4f5065b6637caa34728c OPP: Make _generic_set_opp_regulator() 
 43573fd759c8a915594c59a50fe9a609ad206a3d OPP: Add dev_pm_opp_get_supplies()
 f5c9e71ce44b40d913ba8dbbff978434370e9111 OPP: ti: Migrate to config_regulators()
 b89d716e7912cc639a53653f6173658800e6a33e OPP: Remove custom OPP helper support
-86c153cdb591a66bac946710070caeb29ba20c2b OPP: Remove dev_pm_opp_find_freq_ceil_by_volt()
-c634e02f0888a48fee1c61de4d0f1e0a333d844b OPP: Add generic key finding helpers
-fc4e995d77f04e33ca333a77f581138b50af46ea OPP: Use generic key finding helpers for freq key
-18c948fbf2f7d6d110b8c435e01b5f4be9cb7ec0 OPP: Use generic key finding helpers for level key
-2f1b6df9097351090fd5ea3418b96db30b264661 OPP: Use generic key finding helpers for bandwidth key
 
---===============6423556740211137768==--
+--===============4804878465495415403==--
