@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1015312156460547493=="
+Content-Type: multipart/mixed; boundary="===============2364568354301954995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 15 Jun 2022 17:35:49 -0000
-Message-Id: <165531454985.22430.16619572394577168190@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 17:35:58 -0000
+Message-Id: <165531455829.22569.2125608231599136468@gitolite.kernel.org>
 
---===============1015312156460547493==
+--===============2364568354301954995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: c04245328dd7e915e21ac6395ffd218616e22754
-    new: fbb89d02e33a8c8f522d75882f5f19c65b722b46
-    log: revlist-c04245328dd7-fbb89d02e33a.txt
+  - ref: refs/heads/mlx5-queue
+    old: a4588a5f699050c7f1121d8117f7dac7de031b3e
+    new: fc1a3093eb1296eff9076d0a4ccf688d53ad1a2c
+    log: revlist-a4588a5f6990-fc1a3093eb12.txt
 
---===============1015312156460547493==
+--===============2364568354301954995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c04245328dd7-fbb89d02e33a.txt
+Content-Disposition: attachment; filename=revlist-a4588a5f6990-fc1a3093eb12.txt
 
 795e10b450a88b2943a241a5eaa6e86ae4f47694 net/mlx5: Introduce header-modify-pattern ICM properties
 667658364b2056f344a2769280b939a5e45610be net/mlx5: Manage ICM of type modify-header pattern
@@ -64,5 +64,13 @@ fe63ec97e394aaff1d5af1da7f052e785470162c i40e: add xdp frags support to ndo_xdp_
 49ae83fc4fd027a4b4cf56bd2c94c7814ec4baff net: don't check skb_count twice
 c63c615e22ebb4cd29f4e7352c82ca1a7e76e00a bcm63xx_enet: switch to napi_build_skb() to reuse skbuff_heads
 fbb89d02e33a8c8f522d75882f5f19c65b722b46 net: sparx5: Allow mdb entries to both CPU and ports
+2080046cfff2aada416ce49e649b986745c068bd net/mlx5: Delete ipsec_fs header file as not used
+5b3d4a50e3a551caafd9d22cba67850ad573454d net/mlx5: delete dead code in mlx5_esw_unlock()
+098fc9b1bac2532085603eb462c78d4a3dbdab9d net: Disable LRO feature if no RXCSUM
+85617cfc4a2997eb0e71c89b999a6547ec1b09be net/mlx5e: Support enhanced CQE compression
+b2d07e82bdda2842f5dc693933d8bcd61238587e net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+f8deb041c497fa69bff1c1e61c0d9941c5384db2 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+fadd716bab18b177f5a9e34e14413e2fa54397ed Merge branch 'patchq/323390' into mlx5-queue
+fc1a3093eb1296eff9076d0a4ccf688d53ad1a2c Merge branch 'patchq/496064' into mlx5-queue
 
---===============1015312156460547493==--
+--===============2364568354301954995==--
