@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 15 Jun 2022 21:30:21 -0000
-Message-Id: <165532862166.13237.237489118519632792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 15 Jun 2022 21:42:55 -0000
+Message-Id: <165532937547.21437.13079897047729515565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: b5f3adf9e1e40c7bdb76a9e433aa580f7eead740
-    new: 2b82135e42fc5872338ee16e16d317b16abfe308
+    old: 075dc95ec4d1c11ad1cac0b1d3cd6e7b4fc234d3
+    new: 715fa79522d1ceb6a5d04d31936a0c64fed18e1f
     log: |
-         d46b4565dfdaddbfdd91976a57b2564aa7a52f62 ioengines: add helper for trims with async ioengines
-         4e7e78980ff32627e12b48d72496b701dd200a42 ioengines: don't record issue_time if ioengines already do it
-         13ddd98b2a70c55657f952096785ccc64479f0eb HOWTO: improve description of latency measures
-         39f56400f63e43fbe33e391d52f24eb6c79d0098 ioengines: update last_issue if we set issue_time
-         2b82135e42fc5872338ee16e16d317b16abfe308 ioengines: clean up latency accounting for 3 ioengines
+         715fa79522d1ceb6a5d04d31936a0c64fed18e1f Wed Jun 15 09:42:17 PM UTC 2022
          
