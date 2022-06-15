@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4581068837210596013=="
+Content-Type: multipart/mixed; boundary="===============4058766491095670431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 15 Jun 2022 15:47:55 -0000
-Message-Id: <165530807546.14304.10233391973506132138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 15 Jun 2022 15:48:33 -0000
+Message-Id: <165530811334.14592.4885127178446779708@gitolite.kernel.org>
 
---===============4581068837210596013==
+--===============4058766491095670431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/dm-5.19
-    old: dddf30564054796696bcd4c462b232a5beacf72c
-    new: 16882ed70f173381e3327722011125a336c3a35e
-    log: revlist-dddf30564054-16882ed70f17.txt
+  - ref: refs/heads/arm64/ftrace/minimal-regs
+    old: af5fc6cb45868cc8936ef696e964089019826fb2
+    new: 852b52abfba815708e1fd9b364d9a6ed852a5399
+    log: revlist-af5fc6cb4586-852b52abfba8.txt
 
---===============4581068837210596013==
+--===============4058766491095670431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dddf30564054-16882ed70f17.txt
+Content-Disposition: attachment; filename=revlist-af5fc6cb4586-852b52abfba8.txt
 
 edbc7960bef7fd71ef1e44d0df15b864784b14c8 drm/bridge: ti-sn65dsi83: Handle dsi_lanes == 0 as invalid
 6e516faf04317db2c46cbec4e3b78b4653a5b109 drm/panfrost: Job should reference MMU not file_priv
@@ -242,6 +242,8 @@ a3d52ac7750025b5a1f99eb1ccea0e31b58bf7bb arm64/sme: Fix tests for 0b1111 value I
 f539316fe8106b4f4b4e95c1e70a31b545523b03 arm64/sme: Fix SVE/SME typo in ABI documentation
 f93431c86b631bbca5614c66f966bf3ddb3c2803 ipv6: Fix signed integer overflow in __ip6_append_data
 f638a84afef3dfe10554c51820c16e39a278c915 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
+29dec90a0f1d961b93f34f910e9319d8cb23edbd dm: fix bio_set allocation
+d5a37b19983725d2045588cfa3a4699f5b39ae26 block: remove bioset_init_from_src
 a6958951ebe7db60e84b2437ee53aa4843028726 au1000_eth: stop using virt_to_bus()
 ed872f92fd0946ba30f2acd05fc57e29cac29cd2 MAINTAINERS: adjust MELLANOX ETHERNET INNOVA DRIVERS to TLS support removal
 4d995c1b9d49ee657e879745aa5e445f031c0dba Revert "net/mlx5e: Allow relaxed ordering over VFs"
@@ -326,6 +328,7 @@ d56fd98612aef73f85ec0c44e86fe04a9d3325ee certs: Convert spaces in certs/Makefile
 1bc27dec7ea5ac01f126734b723acc5f3cbe5713 Merge tag 'pm-5.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 aa3398fb4b3f67d89688976098ad93721b6d7852 Merge tag 'devicetree-fixes-for-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 a4c934d74e408cb5ea5209b5fdf6184e3e250b1b platform/mellanox: Spelling s/platfom/platform/
+dddf30564054796696bcd4c462b232a5beacf72c dm: fix zoned locking imbalance due to needless check in clone_endio
 a32e7ea362356af8e89e67600432bad83d2325da Merge tag 'folio-5.19a' of git://git.infradead.org/users/willy/pagecache
 102d841055be8e6e4e24d58917ffc04958262c4d afs: Fix some checker issues
 e81fb4198e27925b151aad1450e0fd607d6733f8 netfs: Further cleanups after struct netfs_inode wrapper introduced
@@ -360,6 +363,11 @@ e3b8e2de19e18e4297c0dd747d56ecdc4ff96928 Merge tag 'kbuild-fixes-v5.19' of git:/
 b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
-16882ed70f173381e3327722011125a336c3a35e dm: fix race in dm_start_io_acct
+40573fed51389154a8d4ea78941eb62a8376ee5a arm64: ftrace: fix branch range checks
+614c7bd8e8cbfeef0670b5907553efebdba7a031 arm64: ftrace: consistently handle PLTs.
+be1ef2a56ea288248128f351bc78a7d64cb57796 arm64: ftrace: remove redundant label
+62c83ffaa809942864b671394873ab9a45d3689d ftrace: abstract DYNAMIC_FTRACE_WITH_ARGS accesses
+9460286753bd2b63fd59ff9b4e623f083dcba424 ftrace: pass fregs to arch_ftrace_set_direct_caller()
+852b52abfba815708e1fd9b364d9a6ed852a5399 WIP: arm64/ftrace: move from REGS to ARGS
 
---===============4581068837210596013==--
+--===============4058766491095670431==--
