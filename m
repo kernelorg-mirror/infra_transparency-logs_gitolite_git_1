@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Wed, 15 Jun 2022 09:03:47 -0000
-Message-Id: <165528382728.29743.16577797390972457585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 15 Jun 2022 09:06:46 -0000
+Message-Id: <165528400676.32236.10521226379692870666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/fs.idmapped.group.fix
-    old: ffb3e79de46985508dd20ef68a26531ebb074124
-    new: 7db42ed4c2fdce4658c23a11ddc6c66c818a87d1
-    log: |
-         7db42ed4c2fdce4658c23a11ddc6c66c818a87d1 generic/692: test group ownership change
-         
+  - ref: refs/heads/jd/openrisc
+    old: 0000000000000000000000000000000000000000
+    new: e4a5ca7566860b0b785e8efb039afca77e6117e0
