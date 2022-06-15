@@ -1,45 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jun 2022 07:12:37 -0000
-Message-Id: <165527715757.20066.12581959017943083341@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1196538456760709095=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 15 Jun 2022 07:25:53 -0000
+Message-Id: <165527795303.29718.1051736666162253092@gitolite.kernel.org>
+
+--===============1196538456760709095==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/auto-latest
-    old: ba955417e39a5821c077bb1e7476ef21b7f91701
-    new: 84bf7291902acff4b946fc591c499fc3eb88ce47
+  - ref: refs/heads/for-5.20/cleanup
+    old: 76f6e5cf11f05f24f9f9cdbdde28fe012ce44939
+    new: c5e6eb3433a2cd99bb733f84dab1e59bf0395b97
     log: |
-         b4ddffb20202fa962e89da0e18fbe0136174d23c Merge branch into tip/master: 'irq/urgent'
-         6c46260216d007c119bc9f1c6af6bd7afbeeabd6 Merge branch into tip/master: 'locking/urgent'
-         65ea7328c17cb4f469d06dbf86cfc7e31311d263 Merge branch into tip/master: 'objtool/urgent'
-         083bea06c5d93c8156c5af0e4c4db15f87be7712 Merge branch into tip/master: 'sched/urgent'
-         fd9cac6fa80092100481c7685e67af049d6f9043 Merge branch into tip/master: 'x86/urgent'
-         0ae236f66b89c55b5a58f28adb2ac0afec5488f0 Merge branch into tip/master: 'irq/core'
-         eb4b041039c9ab762170567c69888d3c29a55cfb Merge branch into tip/master: 'perf/core'
-         c269784469f1846e5e8b11784c408fa706f535fd Merge branch into tip/master: 'sched/core'
-         ccab6438e5e896302d2c70cf2d19e3fbea21ef23 Merge branch into tip/master: 'x86/cpu'
-         eeccfec778fdf707eccde5be916480cbb6d52cfc Merge branch into tip/master: 'x86/fpu'
-         84bf7291902acff4b946fc591c499fc3eb88ce47 Merge branch into tip/master: 'x86/mm'
+         c5e6eb3433a2cd99bb733f84dab1e59bf0395b97 mm/slub: Simplify __kmem_cache_alias()
          
-  - ref: refs/heads/master
-    old: ba955417e39a5821c077bb1e7476ef21b7f91701
-    new: 84bf7291902acff4b946fc591c499fc3eb88ce47
-    log: |
-         b4ddffb20202fa962e89da0e18fbe0136174d23c Merge branch into tip/master: 'irq/urgent'
-         6c46260216d007c119bc9f1c6af6bd7afbeeabd6 Merge branch into tip/master: 'locking/urgent'
-         65ea7328c17cb4f469d06dbf86cfc7e31311d263 Merge branch into tip/master: 'objtool/urgent'
-         083bea06c5d93c8156c5af0e4c4db15f87be7712 Merge branch into tip/master: 'sched/urgent'
-         fd9cac6fa80092100481c7685e67af049d6f9043 Merge branch into tip/master: 'x86/urgent'
-         0ae236f66b89c55b5a58f28adb2ac0afec5488f0 Merge branch into tip/master: 'irq/core'
-         eb4b041039c9ab762170567c69888d3c29a55cfb Merge branch into tip/master: 'perf/core'
-         c269784469f1846e5e8b11784c408fa706f535fd Merge branch into tip/master: 'sched/core'
-         ccab6438e5e896302d2c70cf2d19e3fbea21ef23 Merge branch into tip/master: 'x86/cpu'
-         eeccfec778fdf707eccde5be916480cbb6d52cfc Merge branch into tip/master: 'x86/fpu'
-         84bf7291902acff4b946fc591c499fc3eb88ce47 Merge branch into tip/master: 'x86/mm'
-         
+
+--===============1196538456760709095==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1655277951 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1655277951-bb21c0afc22327a077c64ca6c49510530411df8f
+
+76f6e5cf11f05f24f9f9cdbdde28fe012ce44939 c5e6eb3433a2cd99bb733f84dab1e59bf0395b97 refs/heads/for-5.20/cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmKpiX8ACgkQ4CHKc/GJ
+qRClJgf/U9xD23HtTb4TNjIy7pR+5nZhW8B1q21N+hKz5ifj31mGldTRpvUty4vS
+wS6PL2dWbDNHA+DUFdzWVdKAKkmPG6cG0yetFUqtBejdDE8wf204U56J2HoAFboG
+REi8/k11xZBVBItXntnF+5Lc20C07vMsXExJJpTVz4JhUJzRuPTINMCtnqXdFvSL
+7fee5zUdU+Bj9h5RmJsxEubsbb00495p0ki4OAhFSO5l/kk3RCGiLZqObymQCwwK
+ycLuoKEDm7u9bBftqduURPvaOqhR2lX8Y1CgwLCQdKAuI4ffEW8ebVHLT+wYpf3a
+6qPHGjnrYESAFsI5toQ78eyu2I8GfA==
+=m6SK
+-----END PGP SIGNATURE-----
+
+--===============1196538456760709095==--
