@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 15 Jun 2022 16:49:13 -0000
-Message-Id: <165531175308.21907.5229648122070869430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 15 Jun 2022 16:53:29 -0000
+Message-Id: <165531200961.24761.7235516037022887988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: d55663695b602fbff3ee9f9cb45669a996ffeda2
-    new: bc414de7f7ff23d433daa7b805c71bc966dacd4e
+  - ref: refs/heads/dev
+    old: c2e919d20e80adffad28e7898f157003a924c2da
+    new: 9f3b1322b441fa8d4ce6a94648ef02cd3a57faef
     log: |
-         ea675664952f96dc51f09e0059e20a00a3456051 printk: Block console kthreads when direct printing will be required
-         58cb0ea08474d2b745d71c204f548b9a41e7c71f printk: Wait for the global console lock when the system is going down
-         bc414de7f7ff23d433daa7b805c71bc966dacd4e Merge branch 'rework/kthreads' into for-next
+         f8ed39ad779fbc5d37d08e83643384fc06e4bae4 f2fs: fix iostat related lock protection
+         ebf40fd2201e8c3c4eaaf866a3332a5f2a21bca3 f2fs: use the updated test_dummy_encryption helper functions
+         503bbcc92f0baba2a59b0a6cb4f12cf5d7141978 f2fs: run GCs synchronously given user requests
+         27ef61f3bf3d15caa3f4ceef60163da3f143787d f2fs: do not skip updating inode when retrying to flush node page
+         9f3b1322b441fa8d4ce6a94648ef02cd3a57faef f2fs: optimize error handling in redirty_blocks
          
