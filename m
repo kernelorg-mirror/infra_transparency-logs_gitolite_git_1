@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3434110798145191058=="
+Content-Type: multipart/mixed; boundary="===============0245563620830721824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 15 Jun 2022 05:24:20 -0000
-Message-Id: <165527066072.14068.425148905324543225@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 05:24:29 -0000
+Message-Id: <165527066983.14193.15808155905357453178@gitolite.kernel.org>
 
---===============3434110798145191058==
+--===============0245563620830721824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/clk
+  - ref: refs/heads/opp/linux-next
     old: ff64cce8a7cf52aa5c0d9fefdae2ac3b2bca60c8
     new: 82437291c96896a7dfec11a7fce35a0c6b77f84f
     log: revlist-ff64cce8a7cf-82437291c968.txt
 
---===============3434110798145191058==
+--===============0245563620830721824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ d0dc1a23ba50acbe7abbdd9dc9f47857fb1bb971 OPP: Add key specific assert() method t
 d6f69438fabacd1b5098cc7db57e3926d675ed19 OPP: Assert clk_count == 1 for single clk helpers
 82437291c96896a7dfec11a7fce35a0c6b77f84f OPP: Provide a simple implementation to configure multiple clocks
 
---===============3434110798145191058==--
+--===============0245563620830721824==--
