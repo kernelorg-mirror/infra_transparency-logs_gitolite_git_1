@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4665658006410840164=="
+Content-Type: multipart/mixed; boundary="===============4581068837210596013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 15 Jun 2022 15:47:46 -0000
-Message-Id: <165530806695.14198.1064160050061166209@gitolite.kernel.org>
+Date: Wed, 15 Jun 2022 15:47:55 -0000
+Message-Id: <165530807546.14304.10233391973506132138@gitolite.kernel.org>
 
---===============4665658006410840164==
+--===============4581068837210596013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-5.19
     old: dddf30564054796696bcd4c462b232a5beacf72c
     new: 16882ed70f173381e3327722011125a336c3a35e
     log: revlist-dddf30564054-16882ed70f17.txt
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
 
---===============4665658006410840164==
+--===============4581068837210596013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -365,4 +362,4 @@ b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of gi
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
 16882ed70f173381e3327722011125a336c3a35e dm: fix race in dm_start_io_acct
 
---===============4665658006410840164==--
+--===============4581068837210596013==--
