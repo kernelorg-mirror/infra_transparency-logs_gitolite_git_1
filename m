@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 15 Jun 2022 16:43:54 -0000
-Message-Id: <165531143494.18628.5791053198381048230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Wed, 15 Jun 2022 16:48:29 -0000
+Message-Id: <165531170921.21596.14520639736934693202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: a9e941d4986261332365292ffabf7f71383a9eef
-    new: 8f4b4af6dba4356366f4441797c51a0f25a62b64
+  - ref: refs/heads/rework/kthreads
+    old: 809631e2bff5aba056df75cc4e43127dbd0278c9
+    new: 58cb0ea08474d2b745d71c204f548b9a41e7c71f
     log: |
-         ed55ffb31421684abe409dde38e4682eb207437a man/io_uring_setup.2: fix typo
-         8f4b4af6dba4356366f4441797c51a0f25a62b64 Merge branch 'master' of https://github.com/CarterLi/liburing
+         ea675664952f96dc51f09e0059e20a00a3456051 printk: Block console kthreads when direct printing will be required
+         58cb0ea08474d2b745d71c204f548b9a41e7c71f printk: Wait for the global console lock when the system is going down
          
