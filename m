@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 16 Jun 2022 08:54:26 -0000
-Message-Id: <165536966677.4710.2917223674705905543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Thu, 16 Jun 2022 08:56:41 -0000
+Message-Id: <165536980151.6888.3546865201687352296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 158e71bb69e368b8b33e8b7c4ac8c111da0c1ae2
-    new: d56e336e8444970964b6e8d1bd4536f505256c41
+  - ref: refs/heads/for_next
+    old: 46b6418e26c7c26f98ff9c2c2310bce5ae2aa4dd
+    new: 4bca7e80b6455772b4bf3f536dcbc19aac424d6a
     log: |
-         fc008bdbf1cd02e36bbfe53ea006b258335d908e RDMA/core: Add an rb_tree that stores cm_ids sorted by ifindex and remote IP
-         925d046e7e52c71c3531199ce137e141807ef740 RDMA/core: Add a netevent notifier to cma
-         d56e336e8444970964b6e8d1bd4536f505256c41 RDMA/usnic: Use device_iommu_capable()
+         27cfa258951a465e3eae63ee1e715e902cd45578 ext2: fix fs corruption when trying to remove a non-empty directory with IO error
+         4bca7e80b6455772b4bf3f536dcbc19aac424d6a init: Initialize noop_backing_dev_info early
          
