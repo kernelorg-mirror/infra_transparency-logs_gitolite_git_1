@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 16 Jun 2022 22:40:26 -0000
-Message-Id: <165541922659.23851.2363831419983670285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Thu, 16 Jun 2022 22:41:57 -0000
+Message-Id: <165541931755.24542.14785921262359463934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/fixes
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: a7c1c97fb1e64b0825a2ee892d60da6fd22d3b47
+  - ref: refs/heads/next
+    old: ce4b461ba2c1247e0508995ff250f156b5310441
+    new: f7a03501b090f8c5f9ecb08420cda0b168667004
     log: |
-         5e757deddd918edb8cb2fdb56eb79656ffc6dade riscv: dts: microchip: re-add pdma to mpfs device tree
-         a7c1c97fb1e64b0825a2ee892d60da6fd22d3b47 Merge tag 'dt-fixes-for-palmer-5.19-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/conor/linux into fixes
+         5dc8638872ef0deeae1371a9e2d551920870f76a MAINTAINERS: idxd driver maintainer update
+         f7a03501b090f8c5f9ecb08420cda0b168667004 dmaengine: stm32-mdma: Remove dead code in stm32_mdma_irq_handler()
          
