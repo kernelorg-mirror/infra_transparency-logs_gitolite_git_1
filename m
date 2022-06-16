@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 16 Jun 2022 22:21:56 -0000
-Message-Id: <165541811657.12369.16903630684538212520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 16 Jun 2022 22:29:29 -0000
+Message-Id: <165541856978.16142.8063602486770068947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/mm-everything-2022-06-16-22-02
-    old: 0000000000000000000000000000000000000000
-    new: e8559cee578ab7165507b476f8a6e71f2566ecf3
+  - ref: refs/heads/todo
+    old: c90c6ce5940334c2666eea39829606e03e243a8e
+    new: d958ad873b6259e43e9d3ccb9aff91392e0a5f43
+    log: |
+         d958ad873b6259e43e9d3ccb9aff91392e0a5f43 What's cooking (2022/06 #05)
+         
