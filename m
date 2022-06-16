@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 16 Jun 2022 13:14:58 -0000
-Message-Id: <165538529870.5693.16541333035134964776@gitolite.kernel.org>
+Date: Thu, 16 Jun 2022 13:16:43 -0000
+Message-Id: <165538540381.7896.195379707576550567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,52 +12,54 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 90b13bda8fa935bc45cb1f6cdd4b8dde84c2576a
-    new: 93341d15780f3d94c4d8f36598b8bc0119b7da24
+    old: 93341d15780f3d94c4d8f36598b8bc0119b7da24
+    new: fc6c1d97826be86f986319d4aac26bb04eeaea02
     log: |
-         93341d15780f3d94c4d8f36598b8bc0119b7da24 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         fc6c1d97826be86f986319d4aac26bb04eeaea02 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
          
   - ref: refs/heads/queue/4.19
-    old: ff2c7d23ab3ac160466d52d601816f1a59857869
-    new: c71085e1e28060dfad73733c379e2f6c351fd5d7
+    old: c71085e1e28060dfad73733c379e2f6c351fd5d7
+    new: acfa8eedfa543e0ee160ca68849826c77ae8bd70
     log: |
-         c71085e1e28060dfad73733c379e2f6c351fd5d7 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         acfa8eedfa543e0ee160ca68849826c77ae8bd70 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
          
   - ref: refs/heads/queue/4.9
-    old: 442f93587e1b4b9f895ad24fc2c8c0b4393a8464
-    new: 6c9fa02e99d0ad0669c35c310d99ff5124ec397b
+    old: 6c9fa02e99d0ad0669c35c310d99ff5124ec397b
+    new: b55f148110cf9b64cb23ababc8f4c16dee250f06
     log: |
-         6c9fa02e99d0ad0669c35c310d99ff5124ec397b 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         b55f148110cf9b64cb23ababc8f4c16dee250f06 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
          
   - ref: refs/heads/queue/5.10
-    old: 4f0112e1cc34a8291df37685a834a116e3bc7026
-    new: 6ec01e5ef5c3519479607f53ee52ffd7ebbd425f
+    old: 6ec01e5ef5c3519479607f53ee52ffd7ebbd425f
+    new: 41f3c97f021b89e377cf6d4f151239cb18bb532f
     log: |
-         24d75db7c50f805a98d6585787b284485a828727 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-         dbd553b9b2c8964804484702bc04cf6e8f234ffb nfsd: Replace use of rwsem with errseq_t
-         9a5053496f61d6f67499663c07f51d99f3dfaab1 bpf: Fix incorrect memory charge cost calculation in stack_map_alloc()
-         6ec01e5ef5c3519479607f53ee52ffd7ebbd425f arm64: dts: imx8mm-beacon: Enable RTS-CTS on UART3
+         bd0fd06bbb560de1246291db2ddef1876ffa5849 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         9ee605f6754ed006a69d8208fe0e7fcaa54a2b84 nfsd: Replace use of rwsem with errseq_t
+         a18275fa8035d05e72fa9294167a764747a07062 bpf: Fix incorrect memory charge cost calculation in stack_map_alloc()
+         41f3c97f021b89e377cf6d4f151239cb18bb532f arm64: dts: imx8mm-beacon: Enable RTS-CTS on UART3
          
   - ref: refs/heads/queue/5.15
-    old: d119c0b15de2757a6bdd11b7e252755d0624fdda
-    new: ef9dd313c0ff9709b476f9dc1b9f96739a495f6b
+    old: ef9dd313c0ff9709b476f9dc1b9f96739a495f6b
+    new: 342289db2727ad6e1e756a4b09e645614fbe23a2
     log: |
-         130c891ead0c9e0efc87aa433123a07d0fc889da Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
-         8e3019ac19093d728d6974470b27974b7fb91fc9 nfsd: Replace use of rwsem with errseq_t
-         6386133df1a147379cb193f1c323e61ffb530f84 arm64: dts: imx8mm-beacon: Enable RTS-CTS on UART3
-         ef9dd313c0ff9709b476f9dc1b9f96739a495f6b arm64: dts: imx8mn-beacon: Enable RTS-CTS on UART3
+         6015e329d37274b12ed0f37fbfe33b9f192aa170 Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
+         d7bab336f3df799a51100869f616e8d0b537e7e3 nfsd: Replace use of rwsem with errseq_t
+         8968afa0d16e420ddb9b6d8fe01d18ce089ef3c4 arm64: dts: imx8mm-beacon: Enable RTS-CTS on UART3
+         342289db2727ad6e1e756a4b09e645614fbe23a2 arm64: dts: imx8mn-beacon: Enable RTS-CTS on UART3
          
   - ref: refs/heads/queue/5.18
-    old: ccdb73677a9799661e463961ee8c7dd3cc60bbaa
-    new: daa8176ba2c09320fa7d9a88289e8e09c898ca71
+    old: daa8176ba2c09320fa7d9a88289e8e09c898ca71
+    new: 0dd78ea23ca64b3ac537118a4df5a79571511e5a
     log: |
-         daa8176ba2c09320fa7d9a88289e8e09c898ca71 Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
+         cbd9afb1093d1bb96c5c2740fbcb876954601ce4 Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
+         0558e1f1adaf5f3b030290a932d2f89c0494f9ae arm64: dts: imx8mm-beacon: Enable RTS-CTS on UART3
+         0dd78ea23ca64b3ac537118a4df5a79571511e5a arm64: dts: imx8mn-beacon: Enable RTS-CTS on UART3
          
   - ref: refs/heads/queue/5.4
-    old: a4e590b0d0a2e475658231690cfd7523e0348440
-    new: 34e97df16fc6011a92b040f67b24992a4cd5f294
+    old: 34e97df16fc6011a92b040f67b24992a4cd5f294
+    new: 73e9657500ac4ae768b0c171d23e00eb153d111f
     log: |
-         64da7a8db61fc00db2223c52a565b0b079e3c5d0 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-         7e1928a67d0709d05ffac8773aec91ba7de6cc57 bpf: Fix incorrect memory charge cost calculation in stack_map_alloc()
-         34e97df16fc6011a92b040f67b24992a4cd5f294 nfc: st21nfca: fix incorrect sizing calculations in EVT_TRANSACTION
+         d95faab2794db507d7fbc639a210a1e3dcd60e28 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         c7bf2e457ee5c894ffdc7a36d0396cbcc75ca2b6 bpf: Fix incorrect memory charge cost calculation in stack_map_alloc()
+         73e9657500ac4ae768b0c171d23e00eb153d111f nfc: st21nfca: fix incorrect sizing calculations in EVT_TRANSACTION
          
