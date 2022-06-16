@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 16 Jun 2022 23:03:57 -0000
-Message-Id: <165542063752.6646.3049616799449338243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 16 Jun 2022 23:06:41 -0000
+Message-Id: <165542080141.8960.7951512143857697162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 89793a61d8e7fcd6c161180d692201fcf2b2b48d
-    new: 73448ae6204faa636292ae0d7ba8b2f6eb48179d
+  - ref: refs/heads/fixes
+    old: 3084a4ec7f9bb1ec90036cfd01b1abadc5dd4fb2
+    new: 9b4d5c01eb234f66a15a746b1c73e10209edb199
     log: |
-         21f356f990262329bc387910355833378524fe9f riscv: fix dependency for t-head errata
-         237c0ee4742b6462cb41cdb3fda1ca55011e4aaf riscv: drop cpufeature_apply_feature tracking variable
-         924cbb8cbe3460ea192e6243017ceb0ceb255b1b riscv: Improve description for RISCV_ISA_SVPBMT Kconfig symbol
-         b684001a5eb79d9bf36f655547bc226dedc8bc03 riscv: make patch-function pointer more generic in cpu_manufacturer_info struct
-         1771c8c9e65a20128f93df107353a5f4cb91546a riscv: remove usage of function-pointers from cpufeatures and t-head errata
-         73448ae6204faa636292ae0d7ba8b2f6eb48179d RISC-V: Some Svpbmt fixes and cleanups
+         9b4d5c01eb234f66a15a746b1c73e10209edb199 selftests: make use of GUP_TEST_FILE macro
          
