@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5989137469666217529=="
+Content-Type: multipart/mixed; boundary="===============7956837105870752727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 16 Jun 2022 11:04:18 -0000
-Message-Id: <165537745845.4975.17459875228121630057@gitolite.kernel.org>
+Date: Thu, 16 Jun 2022 11:04:21 -0000
+Message-Id: <165537746177.5040.11708979869266727965@gitolite.kernel.org>
 
---===============5989137469666217529==
+--===============7956837105870752727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 1ccc597f801cbecffcaed7f2d1f620ec48f6f8df
-    new: 84bae26850e3b384a45f0f9a5f8b3b5983afacd8
-    log: revlist-1ccc597f801c-84bae26850e3.txt
+  - ref: refs/tags/v4.14.284
+    old: 0000000000000000000000000000000000000000
+    new: d6b472c8438e878e0cb576247fe8851c34d1c21e
 
---===============5989137469666217529==
+--===============7956837105870752727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655377457 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655377461 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1655377456-c3f6f9c3168caa2481f3ba644bdba839170992fc
+nonce 1655377459-f0961a31931d59aae0c6678691b54d1062a781b0
 
-1ccc597f801cbecffcaed7f2d1f620ec48f6f8df 84bae26850e3b384a45f0f9a5f8b3b5983afacd8 refs/heads/linux-4.14.y
+0000000000000000000000000000000000000000 d6b472c8438e878e0cb576247fe8851c34d1c21e refs/tags/v4.14.284
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrDjEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HEwP/AjJ9WtHmlt+jXYRtWWB
-/G8jBGbbyrCbftQa2h73yy8ax8wOMRSEr3/eFmyb3Cgs49/FcecMFMFx/erv4oAG
-8unOjpe/CbVRlZ1y1vNTdSIMGkDVBRneB81MQGs8ns/7gjsWIE/1cAWChuwt3Pq3
-H8aCbvwqMLwwjMR0cIWK4VFup7/ZHuJaeAAq8uPVQmoE1SHNEzk0PuQ6+n0Swq/4
-6njpkPnNRdS9yJZQRD19UqpzcIy9sRRGL82ZXrQhkfHNx+blmQsR6laqy7h4NxwO
-jG9Ee1UcMKjNd1hb0Hk8on4jeAKynplF9bGzJ36ApqoE1XWRydxbM5jXwqv8739Y
-/2EfVAylVNZQWlnWLbVeG0NH5osJmkwbFM+iET6ZvF05Q0pfDBEvxRVNtstio0Bm
-kzfdPiExWjMhDOV/5KM6rQAuF+01bn/jvpbasxLxN9hizSd9FRn8u94dI+8db2FJ
-YQT82ylDs0zJkn4Hx/73rGqj5nrcRTONxo+LPK0Ib+i5OUz2Y6nNOT7RjIBwYQW3
-XaD+MNhPuMHGcNYBqCwBf7vAK19dwc5Z7fikF8PbPqd29QuttjbcCSC0OE/leOgc
-fcghp81SSolU6A1e8O/37cxq4Eb/3KeeqUsiet/CLmOh4yPJDFs9mafCZ+FhgfL/
-nP27Qjat9JKyYsA1tnNK0Scx
-=i4q9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrDjUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YE4P/1OhmEkM/22BW8XmMG92
+uslK1CuHa27C46996dB1/h/qR+RJ9tvbI+H8mReEWluhkr98WF0kKTE6FJQlRsQo
+vgt8zuxNUnjykTSohq8hTZT4pEH8q6BPwIu5M8SUkRN5JChxUhY7nAZSy34LHEvI
+2Xb/atcMnBQodMVAiT9fNHAmv28IMWrOpHUQl7fHwem4EHgA1pE2BlIDGqZTLQHi
++BBmxvLQCllUFDmAbAvSyOWEvk3F/awADq9qfNp3D4xxtlyZ7yXpkBpUKEJuEuP1
+spMHyTahoNLeYZ7gc4Sfx5dHCvMm9rxDvAh1jOODw54d7oigC+IRnSfTkFs9i4d7
+WT7L6VCYw3w1T1KhLIz9IgriXYC++4DHeqbiz1hVWUWuw3Pk0N3UakX+JnrjO0jt
+xs59QFl1HyokCmvY4r7dOrOs7UFvSkhPLSIkylmcDJ+LmxOBWtz0we1hwYcnsPxY
+847a6Gj+jcpTN6wjTIMuy0IRsiUI4EMdUnR21lAhbutAyuGv9xrZ5P/0JpsI4XbU
+3x/an/Rsqm71NJchoJIwmmxda/V8W35jAQJ73l9a0sPeprDnipSS2e9cVpNJT5wh
+pnqb0YlH3q/I9kfWVe/2g9xr2mwQXsGPucyN08AbMxFT+JeuxSPXxViIPSEBh1K9
+yjGAC6yErfhJobRANQ7LBDsO
+=zKPt
 -----END PGP SIGNATURE-----
 
---===============5989137469666217529==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ccc597f801c-84bae26850e3.txt
-
-ec8a6a1e9326df9d24639886cbaa612875fd3f7e x86/cpu: Add Elkhart Lake to Intel family
-008649ae554de1de4a76a7597a4a77ee83c45519 cpu/speculation: Add prototype for cpu_show_srbds()
-1924964677a5647460be4cf944a9cba2088f77da x86/cpu: Add Jasper Lake to Intel family
-619d3a91cbc531f1a7654f5849ef5bdcd9c1f43a x86/cpu: Add Cannonlake to Intel family
-60eef5eb55be54164dfe64e8cad821d1dc14c834 x86/CPU: Add Icelake model number
-1f7e53f72153ae51c4709833e7f37b82bc689d06 x86/CPU: Add more Icelake model numbers
-cd92e864b4c2d4a09daeb5342d8ec8d799d35b10 x86/cpu: Add Comet Lake to the Intel CPU models header
-cfc27e496bd9bd976cee4f1c5593e3e87d17f134 x86/cpu: Add Lakefield, Alder Lake and Rocket Lake models to the to Intel CPU family
-5437104b14dc2509755f5fcc811f6fdfcd5e9501 x86/cpu: Add another Alder Lake CPU to the Intel family
-62cf367c5fd1af75e005495ddcacde0f5eab85f0 Documentation: Add documentation for Processor MMIO Stale Data
-c00f2194c05c30a5f2f6a38d1555a8c6a9694cff x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
-ba0a1237c5ef0479d8799f9435ba04c4e022bbd8 x86/speculation: Add a common function for MD_CLEAR mitigation update
-d6087dda37d3ffa3c8efe6385757d73d9ed173c5 x86/speculation/mmio: Add mitigation for Processor MMIO Stale Data
-87e9881d5ad3d06cb8278062ecdafb4a5b5f423b x86/bugs: Group MDS, TAA & Processor MMIO Stale Data mitigations
-e0fccc13ebe3ed1205f69d119d49789ef039c1fd x86/speculation/mmio: Enable CPU Fill buffer clearing on idle
-ae620928044d93e1ab9b785e931854ee033e52c7 x86/speculation/mmio: Add sysfs reporting for Processor MMIO Stale Data
-ed4fa7697ca4039eed5142c983c5905e46039c36 x86/speculation/srbds: Update SRBDS mitigation selection
-532c3a51316b6b1fdc6cb01926e2d139ef7e25da x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
-ac87ab4460f35b5064b2b9db1be146def2941fee KVM: x86/speculation: Disable Fill buffer clear within guests
-66b7fb8b6de97d02255611eb83a0a64d88f01710 x86/speculation/mmio: Print SMT warning
-84bae26850e3b384a45f0f9a5f8b3b5983afacd8 Linux 4.14.284
-
---===============5989137469666217529==--
+--===============7956837105870752727==--
