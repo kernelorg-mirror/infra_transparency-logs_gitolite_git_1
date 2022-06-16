@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 16 Jun 2022 19:04:32 -0000
-Message-Id: <165540627238.10855.13340215588187946085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/sbc
+Date: Thu, 16 Jun 2022 19:26:12 -0000
+Message-Id: <165540757220.25999.7930962812618594433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/bluetooth/sbc
+user: vudentz
 changes:
-  - ref: refs/tags/selinux-pr-20220616
-    old: 0000000000000000000000000000000000000000
-    new: 3e7234b6c7b35f84792a6be03228a9331b8458b4
+  - ref: refs/heads/master
+    old: 909a9bdf7ab143e1f0baaf9736baebd3cd79aacf
+    new: 13d85b14cd56e8ee78fc40ef712175d9bf8c58f7
+    log: |
+         13d85b14cd56e8ee78fc40ef712175d9bf8c58f7 sbcenc: Fix build warnings
+         
