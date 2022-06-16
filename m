@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 16 Jun 2022 11:15:01 -0000
-Message-Id: <165537810118.8740.14140392843640498111@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6809178340873254794=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Jun 2022 11:19:11 -0000
+Message-Id: <165537835120.11629.705843073714828807@gitolite.kernel.org>
+
+--===============6809178340873254794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 0a6d2c147bed3db0860da162971cd90c16f78155
-    new: 02375363e547752cb9f1248142d5069795dd9aa7
+  - ref: refs/heads/master
+    old: de435005d0b72d977013b32a579543cdbf05bb07
+    new: 08dceabdb6304647c5db65b0346c1b6969a2bddc
     log: |
-         02375363e547752cb9f1248142d5069795dd9aa7 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         08dceabdb6304647c5db65b0346c1b6969a2bddc Linux 4.19.248
          
-  - ref: refs/heads/for-next
-    old: 63cddf7cc93edcf182f50900fb18af70fe4af3ea
-    new: bef6ea5cbd4fea4f507218d45fb14efab75eb881
-    log: |
-         7acf970a6fbb3c10bb5979d0dc3ed42b161daf15 ASoC: SOF: ipc4-topology: Fix error code in sof_ipc4_volume_put()
-         1ec0c91f6d6b21703c17d5e89f32d52feac5887e ASoC: Intel: Skylake: remove redundant re-assignments to pointer array
-         2964e31cdda03fdff3b7c2f4f043e788e607987f ASoC: SOF: Intel: IPC4: enable IMR boot
-         02375363e547752cb9f1248142d5069795dd9aa7 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         bef6ea5cbd4fea4f507218d45fb14efab75eb881 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
-         
+
+--===============6809178340873254794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655378350 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1655378349-4374395b04d203bb4dd641ceec765b7d2b72e622
+
+de435005d0b72d977013b32a579543cdbf05bb07 08dceabdb6304647c5db65b0346c1b6969a2bddc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrEa4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++c8QAM9MPvJKtlhpm8Ecjj06
+c24/rPlRo4h33osnYSUamLHDZ0JdOtJp/x5DQGLAorN8zRUqpxcU5wVMitiz8AS1
+bzYceK/UNmWUD9qcY12An6SzYC3E+5eemRBYM6595LgwByzJO29qUKv5xINWQIBj
+uPyz3qcWSAxqzV6AdBv6wBOBct21gWFnx8/b6+D1SrrO+q8YKOE2JYVWMPDPH1JM
+262H2CGBgbIIyRaVPN+URmmyFjqmj4kajOAjLthswoR3up5o1ynebkq7Pl5YAiYw
+lvU61TOMRkXnwAZ0zgzZrZMGJ15uj3Jj8GT0O2IDcgxjz7Li5gRd7oVpeVZarUbe
+DZC2bddz6gFKSM4qLiBzGMC4FHClLAwl+pi2eFThLNKW1y6SXAAilU/rIMJle+44
+C5aQZW9YB2SB0yQl1QshyK1gstl/SL9iSmBVVq4ZD3YurH7rfrqUZrzVa/RYYQsq
+gcQaDTxrE3FcABxhpvUsKGsTOqYd797JnQD+NFgcb+u/6RCfGV2uk+Sc0l0fsAlJ
+nf9H3eDKM73ag+h1N1u6a7yGa9c+4QRUN0EdoPRX6WCN2bS37GOCR9mt3PtxkXuI
+YA2raCZYz4A0hWJzwntVwwq4jQbCwVV8QIcsOOwp885m7TNCdJBdqdAmUw1qrhJa
+iL8zgTEon+/b/dLJd/3Rr5wI
+=nDHn
+-----END PGP SIGNATURE-----
+
+--===============6809178340873254794==--
