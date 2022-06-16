@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 16 Jun 2022 00:38:53 -0000
-Message-Id: <165533993307.4595.1111601304519165700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 16 Jun 2022 00:46:38 -0000
+Message-Id: <165534039853.11257.8312041445481408829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 2b82135e42fc5872338ee16e16d317b16abfe308
-    new: e4d384755e4831cf5bbaa97e0c5b79a3598efbc4
+    old: f2fe9206c6b10b6e7996957c3f4618c0ec81aced
+    new: ef956995b8a82101626a7d907156fa4ac4b4f2f6
     log: |
-         2fe71558c9718e88f6a1f243f2de0560e0c44aa0 Init file_cache to invalid (maj, min)
-         e4d384755e4831cf5bbaa97e0c5b79a3598efbc4 Merge branch 'master' of https://github.com/useche/fio
+         ef956995b8a82101626a7d907156fa4ac4b4f2f6 HACKING: update to use new mailing list
          
