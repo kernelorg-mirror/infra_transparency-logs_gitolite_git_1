@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 16 Jun 2022 14:46:50 -0000
-Message-Id: <165539081035.1533.5809353260930466702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 16 Jun 2022 15:18:54 -0000
+Message-Id: <165539273426.21193.801111504014435441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: 2c5947cffd81ac8181346efacdca3c777ab330ba
-    new: 06781a5026350cde699d2d10c9914a25c1524f45
+  - ref: refs/heads/dt-for-next
+    old: 294b2111ff1027a942c362d523b847d73d91b70c
+    new: 3f8ccf5f1a8c349364055b73caf1bb0314229976
     log: |
-         06781a5026350cde699d2d10c9914a25c1524f45 mtd: rawnand: gpmi: Fix setting busy timeout setting
+         3f8ccf5f1a8c349364055b73caf1bb0314229976 riscv: dts: microchip: remove spi-max-frequency property
          
