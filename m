@@ -1,57 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 16 Jun 2022 13:10:10 -0000
-Message-Id: <165538501094.2341.7690927612032096443@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0929253710433819556=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Jun 2022 13:12:49 -0000
+Message-Id: <165538516912.4461.7114848877887746076@gitolite.kernel.org>
+
+--===============0929253710433819556==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 3db7b914609ed90a6a23f9d2c5dc7454992b5369
-    new: 90b13bda8fa935bc45cb1f6cdd4b8dde84c2576a
+  - ref: refs/heads/master
+    old: 1c3f626555c2f9cfa8ee56e027c591fd399c871c
+    new: 21eaf8f4a1d317b9f2a77a2b5702323053305d62
     log: |
-         90b13bda8fa935bc45cb1f6cdd4b8dde84c2576a 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         21eaf8f4a1d317b9f2a77a2b5702323053305d62 5.4-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 1d34a093b1458a355beacb82893ac7d48179dfa0
-    new: ff2c7d23ab3ac160466d52d601816f1a59857869
-    log: |
-         ff2c7d23ab3ac160466d52d601816f1a59857869 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-         
-  - ref: refs/heads/queue/4.9
-    old: 2ee930a46a1a6996c90b935a4ec69d399c00aac2
-    new: 442f93587e1b4b9f895ad24fc2c8c0b4393a8464
-    log: |
-         442f93587e1b4b9f895ad24fc2c8c0b4393a8464 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-         
-  - ref: refs/heads/queue/5.10
-    old: e0489e7c8d1bc576a160db177a5703c1633b2c59
-    new: 4f0112e1cc34a8291df37685a834a116e3bc7026
-    log: |
-         2fc5f6ee5ea60fabe42063f6103c0c8b0126ea24 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-         4f0112e1cc34a8291df37685a834a116e3bc7026 nfsd: Replace use of rwsem with errseq_t
-         
-  - ref: refs/heads/queue/5.15
-    old: e1dd58c995daf8b632344b61df9d3cbed26454dc
-    new: d119c0b15de2757a6bdd11b7e252755d0624fdda
-    log: |
-         b4aade239cbaa6a2f6ed347044b229f2f767de8e Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
-         d119c0b15de2757a6bdd11b7e252755d0624fdda nfsd: Replace use of rwsem with errseq_t
-         
-  - ref: refs/heads/queue/5.18
-    old: 71563d69a8ec34d41857aca6040e90d54f566ee4
-    new: ccdb73677a9799661e463961ee8c7dd3cc60bbaa
-    log: |
-         ccdb73677a9799661e463961ee8c7dd3cc60bbaa Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
-         
-  - ref: refs/heads/queue/5.4
-    old: 99c191f45647ffd095b25ee51f56a5029a96c599
-    new: a4e590b0d0a2e475658231690cfd7523e0348440
-    log: |
-         a4e590b0d0a2e475658231690cfd7523e0348440 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-         
+
+--===============0929253710433819556==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655385168 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1655385167-495d1fd0646cfe89a00b0df9ae11b9b5368d7ff6
+
+1c3f626555c2f9cfa8ee56e027c591fd399c871c 21eaf8f4a1d317b9f2a77a2b5702323053305d62 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrLFAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cEwQAIoYHjQRG/uEX5j/lXrk
+G4Ra9n0q3d3wlmRBzGJTe0gG32Oz6q0jSbEg86Ic0tM2PMuj5KIa2pam7aj/5/mj
+MjdIaX8Khooe+cMxIutVkB3PHdVRF73JlXevN6E7qN5TPiKzi+WwKGCPGwfrhcyY
+WqToMtSAm1CaA4ewInz5CPQa7ColHrkPbZ3X0y5dxhBfQ036L6d4Ub55zeqB3KKv
+hXMTkp42GNvAzF5ldgdm/uohv7319hsj4uyAMvYply82Ds50BBA+JCPxuPbHKce4
+E38y7IkHOy9wDrNrozOsKjlCNQJ8A3iYnwhtEQz+0HTOU57aYVnfAfLSu1hB0Rtq
+CXwYCGrLRfORj2lVnqzeGRyT3rgheIC5Ckw4Gmo9bC95OOOqbb6/wRDZGaEEAxjm
+JBGPKlbKjgvYJETcVFnAxn8CaFJXvB/xlYyqlpAMJoVtA50UplyVjxazGEw08kA+
+LlA9ssiEjmkiz6j+hTV2EvsIA4ftWe7MMGxLKzQYAFg+hFJF8gFt4eoxCTU4LNZ3
+PTpGrSlTxYLd/V1LXfIOVJgbGg4bah6tqRcS03MfnPlPyMwvRREGNglA0cFz+7DJ
+17hNnvk5ztsCKI8ilw8sVBJiKcAcY2Xo0uL82BOc6vpLUSpuiyf7Jez+dis8e1Yi
+2eUT19ubKh5f9NiiD39LMRm/
+=WhnM
+-----END PGP SIGNATURE-----
+
+--===============0929253710433819556==--
