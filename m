@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2515346471685760299=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Jun 2022 13:08:09 -0000
-Message-Id: <165538488943.32535.3316886445974169856@gitolite.kernel.org>
-
---===============2515346471685760299==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 16 Jun 2022 13:10:10 -0000
+Message-Id: <165538501094.2341.7690927612032096443@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 9dc4abcd87e9fa49b53c54f88d42368f80cfdf78
-    new: 1c3f626555c2f9cfa8ee56e027c591fd399c871c
+  - ref: refs/heads/queue/4.14
+    old: 3db7b914609ed90a6a23f9d2c5dc7454992b5369
+    new: 90b13bda8fa935bc45cb1f6cdd4b8dde84c2576a
     log: |
-         1c3f626555c2f9cfa8ee56e027c591fd399c871c 5.18-stable patches
+         90b13bda8fa935bc45cb1f6cdd4b8dde84c2576a 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
          
-
---===============2515346471685760299==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655384888 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1655384887-6aa2a047503966ce2c597f45607f556129f0867a
-
-9dc4abcd87e9fa49b53c54f88d42368f80cfdf78 1c3f626555c2f9cfa8ee56e027c591fd399c871c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrKzgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jMkQANNdyuUlR2bnG2G0VWaR
-WuAezI//nYCkCHgxiw9sG+a18vs5QcmRDuqipyekX3XVIYejGbcwxshBUcs1IpfO
-ITUzv3/RMWxXA7hPYS+DtvzBCv0ZzfDs/ZjTvXRroEOrO+1+Q1sNZcGpB1E9XaIt
-b/PJTvrJfARdJynXjs/c4XdnNuep/zl1hCoBgG5LkzeIUsB3zdfKiYyiQY/r8qON
-D0O+O2c+/GM3jwgVFZfJp9fpaeeNyGA+mOYC17phJg6NU2vZGtU15/QOK3mp0cc4
-MO4z/niIiCu90kEPOD65SF+LHAOwydRpmlPP21W0wSx3USvILseGpyWlYdtxCuEn
-7SMa0e32539ypyFm3ylDoT4tJRJUyJOQ0+NKF7MxNxhyE3m5zZNwPOHr9gW8d6oy
-ao/P/G8AG8yylgW5Fwcr74vt5AwfBrkezjj1L+PzUKIQO/KC/fatLNtfvqiKmPTh
-opPnob0hQufhcyohftcWNUOhC8lwGcSyIqrROgDAprpNmdEgj9ck/ipR8asWOh9w
-taMXoMG4GAz9xwfFL7q6bfjjjQ6YScf6sIuls9Q6gUBjqc0o3Xvp+dSsNPUSDF2s
-lkJZDDxHuGnwsQEeZYuRLddSNpQVVE7fiv4OGFR7g7fKCsPZRw3YVfxEy73GO4Zl
-kVyTdjDymXBdSX+jqtHvKyLr
-=4ObF
------END PGP SIGNATURE-----
-
---===============2515346471685760299==--
+  - ref: refs/heads/queue/4.19
+    old: 1d34a093b1458a355beacb82893ac7d48179dfa0
+    new: ff2c7d23ab3ac160466d52d601816f1a59857869
+    log: |
+         ff2c7d23ab3ac160466d52d601816f1a59857869 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         
+  - ref: refs/heads/queue/4.9
+    old: 2ee930a46a1a6996c90b935a4ec69d399c00aac2
+    new: 442f93587e1b4b9f895ad24fc2c8c0b4393a8464
+    log: |
+         442f93587e1b4b9f895ad24fc2c8c0b4393a8464 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         
+  - ref: refs/heads/queue/5.10
+    old: e0489e7c8d1bc576a160db177a5703c1633b2c59
+    new: 4f0112e1cc34a8291df37685a834a116e3bc7026
+    log: |
+         2fc5f6ee5ea60fabe42063f6103c0c8b0126ea24 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         4f0112e1cc34a8291df37685a834a116e3bc7026 nfsd: Replace use of rwsem with errseq_t
+         
+  - ref: refs/heads/queue/5.15
+    old: e1dd58c995daf8b632344b61df9d3cbed26454dc
+    new: d119c0b15de2757a6bdd11b7e252755d0624fdda
+    log: |
+         b4aade239cbaa6a2f6ed347044b229f2f767de8e Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
+         d119c0b15de2757a6bdd11b7e252755d0624fdda nfsd: Replace use of rwsem with errseq_t
+         
+  - ref: refs/heads/queue/5.18
+    old: 71563d69a8ec34d41857aca6040e90d54f566ee4
+    new: ccdb73677a9799661e463961ee8c7dd3cc60bbaa
+    log: |
+         ccdb73677a9799661e463961ee8c7dd3cc60bbaa Revert "drm/amd/display: Fix DCN3 B0 DP Alt Mapping"
+         
+  - ref: refs/heads/queue/5.4
+    old: 99c191f45647ffd095b25ee51f56a5029a96c599
+    new: a4e590b0d0a2e475658231690cfd7523e0348440
+    log: |
+         a4e590b0d0a2e475658231690cfd7523e0348440 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+         
