@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2118432477674365701=="
+Content-Type: multipart/mixed; boundary="===============2269818201625581648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Thu, 16 Jun 2022 16:00:18 -0000
-Message-Id: <165539521865.17414.1029454007044835055@gitolite.kernel.org>
+Date: Thu, 16 Jun 2022 16:01:10 -0000
+Message-Id: <165539527048.17732.8090863544477532163@gitolite.kernel.org>
 
---===============2118432477674365701==
+--===============2269818201625581648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: cf7f3f4fa9e57b8e9f594823e77e6cbb0ce2b254
     new: c196175acdd3ab06114bde2955971bc7282f2b85
     log: revlist-cf7f3f4fa9e5-c196175acdd3.txt
 
---===============2118432477674365701==
+--===============2269818201625581648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ebb4f1eb9360036be5ea70de82c5703ca0e64d43 clk: imx93: Correct the edma1's parent 
 f300cb7fccf69ba1835b983c76d70deb818ad194 clk: imx: clk-fracn-gppll: correct rdiv
 c196175acdd3ab06114bde2955971bc7282f2b85 clk: imx: clk-fracn-gppll: Add more freq config for video pll
 
---===============2118432477674365701==--
+--===============2269818201625581648==--
