@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1858161378735005491=="
+Content-Type: multipart/mixed; boundary="===============1313669310193144625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 16 Jun 2022 11:33:09 -0000
-Message-Id: <165537918948.13864.15269877478409299191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 16 Jun 2022 11:42:15 -0000
+Message-Id: <165537973569.14132.12325615118888111484@gitolite.kernel.org>
 
---===============1858161378735005491==
+--===============1313669310193144625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 7756eaae83b3fa4b0206dd9069a7015f6e3fa3c9
-    new: a7d7afdf45a75d66e72f3919d1f083113dfa2dfe
+  - ref: refs/heads/for-5.20
+    old: d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc
+    new: 2081ad1467469b649fc9f9226b235977a7bf9402
     log: |
-         a7d7afdf45a75d66e72f3919d1f083113dfa2dfe Notes added by 'git notes add'
+         2081ad1467469b649fc9f9226b235977a7bf9402 spi: microchip-core: fix passing zero to PTR_ERR warning
          
 
---===============1858161378735005491==
+--===============1313669310193144625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655379188 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1655379187-f59ad925132eee76787caa01acda2376483db628
+pusher C3F436CA30F5D8EB 1655379734 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1655379733-1058b6dad2206fccfbee4a557841194ef294bf93
 
-7756eaae83b3fa4b0206dd9069a7015f6e3fa3c9 a7d7afdf45a75d66e72f3919d1f083113dfa2dfe refs/notes/signatures/tar
+d52b095b6cb4dca3bdbc144e7098abdbbd45e9bc 2081ad1467469b649fc9f9226b235977a7bf9402 refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrFPQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYIP/3BPPBXvujvVyuXL3Pyt
-v0Y6lV0YgD8A9KYcvPSkoM/HB12ZEs4s1gqiBOWs/y+qIibJexH/1lWsyMyhnFQU
-MlrFCsbCIxF7sq9Ge0nKJZXouIOG9rQwqjq1xqGg2QfTOQm4W3bzlAH+LbuE1Ajx
-0BojrLcjsIZNsCkUEhL0Z2dzdcA6o3teRoW/F/E9+HQdkAOhQUOI1+yyuUsHNIk+
-ue2Esj3Seo9MGxMiMTEnJaNzEvNFpRUuWon+LUSvKqGJfjKVSoBx7AAdmjqdWVYZ
-qV2rDTlew10WrirYmnTZko7Cn3m6CsoW56uqQScFuKWLdtvRMGm+6XhWQ2Qda4dy
-G30evUw96PP2EAlJ9eyACnpYPxuYoywyQq+vbW/aIRi3KJetbwOezcGeokrN46H0
-Ceytk+Xi6fxQbAlw5iyuTjoe75IKPvqzSaoBaeG/0VX9Bfnn5jNKXFqfTDC9VmCi
-EqcnAmrdkcYVF/5+lirAVW2VMR6+tHqVmb0nSBM7iI+2zfriw3x5A67GYF2wxfco
-YitV6/NPDDLg6eOB3YRjktUqCstZJFPtJEe1c123uGLZVnB8UnlHYRkOwUdJnSEG
-07jWDbv96KVRcYPidO9WKxEhDl0chtlT+YPtERmklNHeTMQfLW9oMu9mwJQuNGvQ
-IoOolQRLedVpotejSTI1BATM
-=RQP/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKrFxYACgkQJNaLcl1U
+h9D/ZAf9FM36vBBYKcT62G1UNDd8DhcR+YQlr3TarLR2PtmE9H5KQUhFN0jqvLIr
+I6GgsrmWXnuUdsxQspBL6/CREyHPzuBQ0MWFntmZ7vXbN2yvqzpEtBlOm4qRRXlC
+L+pLQYLKX8lQZw2kyOPjFSL0mFNTBwModLFl3GDXu6O98+gyUZPKUfVK8AvZg8Q1
+YmJKI5ODknA61zfP2EKG2scmz+u8scxXtINjHr+XOl/6amU9x8/tdMKRAWlyJehu
+OXESznq1HDBrwe2ZM6zPsF3GcL+JxMBgDumNqCtewTEkIzU6yt06mwlyRAW0inw9
+9hGbdgZUPkV473Zd61/WbnH1nr9vNw==
+=RGKV
 -----END PGP SIGNATURE-----
 
---===============1858161378735005491==--
+--===============1313669310193144625==--
