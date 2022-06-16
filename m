@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 16 Jun 2022 19:48:10 -0000
-Message-Id: <165540889088.8225.14460168259891376034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 16 Jun 2022 19:48:35 -0000
+Message-Id: <165540891516.8390.2398017340885702787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/dm-5.19
-    old: 10eb3a0d517fcc83eeea4242c149461205675eb4
-    new: 25e74e46c06a71568e039c751394e9fbbd4ca8ec
+  - ref: refs/heads/wip-statx
+    old: 85cd0ecc4575269da4a9740153ce9233444b002e
+    new: 390f9fcb417474d4f46e98d0592b44808994c40c
     log: |
-         4e9ba07da3d0ae5f8d9735e9f0253f2ba85f4bf3 dm: fix use-after-free in dm_put_live_table_bio
-         11199f406eb341e765fff4275d434dee9e13f525 dm: fix narrow race for REQ_NOWAIT bios being issued despite no support
-         25e74e46c06a71568e039c751394e9fbbd4ca8ec dm mirror log: round up region bitmap size to BITS_PER_LONG
+         3dd6e35cd3f5b35ef0f059220302d60f898c0879 statx: add direct I/O alignment information
+         a5f11705e93030def56bd321e68d6a5b99538449 vfs: support STATX_DIOALIGN on block devices
+         14b0f7b3fa371c071e9da538059dc99d6143a329 fscrypt: change fscrypt_dio_supported() to prepare for STATX_DIOALIGN
+         13130da0952e10c6b47bc02e002a4d68afd7d905 ext4: support STATX_DIOALIGN
+         fbee54eeeeeeb2e8728335ba2e9a8db16f562bf5 f2fs: move f2fs_force_buffered_io() into file.c
+         1df10702e2a834f99b80089488fbd6b2c0065a1a f2fs: don't allow DIO reads but not DIO writes
+         024052da474816e989a6f4b2ffe8769e591f181d f2fs: simplify f2fs_force_buffered_io()
+         390f9fcb417474d4f46e98d0592b44808994c40c f2fs: support STATX_DIOALIGN
          
