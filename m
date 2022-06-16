@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5908863262758458806=="
+Content-Type: multipart/mixed; boundary="===============7172478833509249348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 16 Jun 2022 11:31:50 -0000
-Message-Id: <165537911099.12973.7588172340131722861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 16 Jun 2022 11:32:04 -0000
+Message-Id: <165537912496.13163.13004576691308879179@gitolite.kernel.org>
 
---===============5908863262758458806==
+--===============7172478833509249348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: fe4e668d7a5d59c37dafc656721bbdbed284cb92
-    new: 7756eaae83b3fa4b0206dd9069a7015f6e3fa3c9
-    log: |
-         7756eaae83b3fa4b0206dd9069a7015f6e3fa3c9 Notes added by 'git notes add'
-         
+  - ref: refs/heads/queue/5.18
+    old: e81967ef900f5f794313b5b28613e8b7cf3fb48d
+    new: 89c594de01d531cb58302a4b989b38c56505df8e
+    log: revlist-e81967ef900f-89c594de01d5.txt
 
---===============5908863262758458806==
+--===============7172478833509249348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e81967ef900f-89c594de01d5.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655379109 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1655379108-73735584521f934cf02f396b1c6fe7fb952b3196
+5592042e93c50a2e67c7a8722c12dbe1aa768adb Documentation: Add documentation for Processor MMIO Stale Data
+063084ee7f4f2c81a43ab99f6b8ec0b06f22873f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
+0a0a9284ae73bde75dcf0ec4a0002cc9018c4719 x86/speculation: Add a common function for MD_CLEAR mitigation update
+b901c3cf1f662b44b7a858a4e1bd235f48d203ec x86/speculation/mmio: Add mitigation for Processor MMIO Stale Data
+5281ae44188c8784ef05d04932d8e68b77f63f5e x86/bugs: Group MDS, TAA & Processor MMIO Stale Data mitigations
+d3969f1801309727df547c21dce8a50c9e65e661 x86/speculation/mmio: Enable CPU Fill buffer clearing on idle
+7cfafd93d052218b9b267068209b09b255ce6877 x86/speculation/mmio: Add sysfs reporting for Processor MMIO Stale Data
+89a212a0d2115906130091e3d4771b6b8aeeaecd x86/speculation/srbds: Update SRBDS mitigation selection
+d4ca10cfa839cd22719777a2b89f0959210a3886 x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
+2389d1d5e960d8cac5bdfc820e2b336e592a4a0d KVM: x86/speculation: Disable Fill buffer clear within guests
+89c594de01d531cb58302a4b989b38c56505df8e x86/speculation/mmio: Print SMT warning
 
-fe4e668d7a5d59c37dafc656721bbdbed284cb92 7756eaae83b3fa4b0206dd9069a7015f6e3fa3c9 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrFKUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e6UP/2MRylat56BTB1y3D3l7
-MOXAoJb0SJ6tux11Sl3CMRSRpLQ39QEwedlbYE5C2kC8c2H8/K4Zv66T7ps7i3RU
-eEBKX+RS9JTQuBXmJ2u7cMlYWpC4tUfBWRyn+viOu/MNKdnX0KjIubiipiW+85wJ
-DRHwZotuGl5pqMSbim4fRZt9r9j47pGQAgL3ZaPjZKas1cE1Fvo5l0DfMMSY3pT+
-jiLEdyFdzqhKwXazTa5Gu2iVh6v18U7IKOq9Hk5LiBcAmdMPyvVVwu9bKXDMajAm
-cfajcgvYdgCD+Z9xLcK8lAVgsk/rnBfHZlNXpomTAVNpDKQK7dORX8vtHKBY4Qqe
-88SlaQlR3/fPZTDQG37Aijdenlwp7z+hMB2k25CTS32Hzk1OyNa3K8hykGL0qtcY
-GsV2WHNMGYLKA0u0fswbdfu0tBc0dwLKdAYlPrfF7nNlkNuFLSe7dtFTuhQsvbLC
-PhnvRItzWj+e+fAAhTj2+Y4ExxOxSxuJLihZ8FUsF/hwjmxBfM0YSFc4b2MzyhQ2
-32A1W7YFEglkLS/8taGh/LF6N4+7F9eyH2pQ6+Ck1gOt9kbZPcRs+I+jhA5JzEqT
-DaZvO5LlPi2wnAQN85/kcF3j6iaazrRasiA8n31zz/I56VgER7kf187W8v0QHhGj
-BOWTK2RPleO1vtNKqi2kVNsv
-=KHpt
------END PGP SIGNATURE-----
-
---===============5908863262758458806==--
+--===============7172478833509249348==--
