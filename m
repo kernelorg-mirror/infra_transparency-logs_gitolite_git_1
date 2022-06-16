@@ -1,57 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2565543757659015692=="
+Content-Type: multipart/mixed; boundary="===============1447407245499281607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 16 Jun 2022 13:21:59 -0000
-Message-Id: <165538571938.11169.17023699133061811592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 16 Jun 2022 13:22:05 -0000
+Message-Id: <165538572599.11287.9912400197079274580@gitolite.kernel.org>
 
---===============2565543757659015692==
+--===============1447407245499281607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
     log: revlist-f2906aa86338-b13baccc3850.txt
-  - ref: refs/heads/rdma-next
-    old: d945b15a1fc6f05619e2fa2f7b05c41b1e945959
-    new: b460c52e3ac5b1cf5261902f3987c8ee6ae0fcfd
-    log: revlist-d945b15a1fc6-b460c52e3ac5.txt
-  - ref: refs/heads/rdma-rc
-    old: b556cefa8acc44912418f09ea663cb3d2b39fe05
-    new: b66aedf06ecd670e9e6e88ba763494c138c4f337
-    log: |
-         b66aedf06ecd670e9e6e88ba763494c138c4f337 mm: Re-allow pinning of zero pfns
-         
-  - ref: refs/heads/testing/rdma-next
-    old: 67ea692091d25216b476687049702035a2f1dd04
-    new: f58d67519ce9485da50450d23cb950f5ad84a6a6
-    log: revlist-67ea692091d2-f58d67519ce9.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 505b9e13d60c4ca5d390b49b87df3a944b8facc0
-    new: e54d6b01b833556bcd358fae09067dffc3c4eaa9
-    log: revlist-505b9e13d60c-e54d6b01b833.txt
-  - ref: refs/tags/mlx-next
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 158e71bb69e368b8b33e8b7c4ac8c111da0c1ae2
-    log: |
-         650126a890902a47304e9326a85b603c96f0c980 RDMA/hfi1: Fix typo in comment
-         158e71bb69e368b8b33e8b7c4ac8c111da0c1ae2 RDMA/mlx5: Add a umr recovery flow
-         
-  - ref: refs/tags/mlx-rc
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 118f767413ada4eef7825fbd4af7c0866f883441
-    log: |
-         118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
-         
+  - ref: refs/heads/queue-next
+    old: a0f9862c72b2ebab9faea419d5caad6d69d034a1
+    new: 240536aa6a966bb9699d033bdb044c2b169e6692
+    log: revlist-a0f9862c72b2-240536aa6a96.txt
+  - ref: refs/heads/queue-rc
+    old: a8e8555b66c377135d9f34187ac45099a87f920a
+    new: 78424a1553304b19b2b9b328acc62b7e36b59040
+    log: revlist-a8e8555b66c3-78424a155330.txt
 
---===============2565543757659015692==
+--===============1447407245499281607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -395,37 +372,11 @@ b0cb8db39636f7d79caadf98a90e9367b4d9aabc Merge tag 'wq-for-5.19-rc1-fixes' of gi
 997952851843935024962b51fc36c61b3c2d1ed4 Merge tag 'platform-drivers-x86-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
 
---===============2565543757659015692==
+--===============1447407245499281607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d945b15a1fc6-b460c52e3ac5.txt
-
-fc008bdbf1cd02e36bbfe53ea006b258335d908e RDMA/core: Add an rb_tree that stores cm_ids sorted by ifindex and remote IP
-925d046e7e52c71c3531199ce137e141807ef740 RDMA/core: Add a netevent notifier to cma
-d56e336e8444970964b6e8d1bd4536f505256c41 RDMA/usnic: Use device_iommu_capable()
-ad69d71155fef91e0f43165ec54da82e77f1732e rxe: fix xa_alloc_cycle() error return value check again
-95b850cb535962f4f3834469b5e174dff51f8a54 net/sched: Don't print dump stack in event of transmission timeout
-b09a394bbd53caa66a89aa26514dfcca8335d7f1 RDMA/mlx5: Replace ent->lock with xa_lock
-5b21c81606be1f594891d7a4ede92c7921fdde53 RDMA/mlx5: Replace cache list with Xarray
-6be1821db6cbdd1558b5aa8d919d8a9c911477db RDMA/mlx5: Store the number of in_use cache mkeys instead of total_mrs
-375b4825292b2571958083adbfdddec09da5dcac RDMA/mlx5: Store in the cache mkeys instead of mrs
-8fb2a1cf859d50d0400b7b845c1d1cde88dbe37b RDMA/mlx5: Rename the mkey cache variables and functions
-869e3962fefdb90711ee219c7d29cdedc9458f3c RDMA/core: Introduce peer memory interface
-97b6750e730dd2769eb52b492f62994c786a1fa9 net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
-fc9533110c162a3ade8fa1c554c3ee055e323d17 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-80afead2aa6225fa258f1681dafe4168260834af RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-4cddc6b1c237bd47e1fdbfc84565d6fe0b8aa77b net/mlx5: Introduce header-modify-pattern ICM properties
-3f803f597672e0972ab42fc85cf0922b0d0cbf52 net/mlx5: Manage ICM of type modify-header pattern
-965a2f085e7b560de93d9b230f4a06f83effeeb6 RDMA/mlx5: Support handling of modify-header pattern ICM area
-b9b419b97042d54b07c21b0296b6a66b041f1b75 net/mlx5: Introduce ifc bits for migratable
-b460c52e3ac5b1cf5261902f3987c8ee6ae0fcfd vfio/mlx5: Set VF as migratable
-
---===============2565543757659015692==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67ea692091d2-f58d67519ce9.txt
+Content-Disposition: attachment; filename=revlist-a0f9862c72b2-240536aa6a96.txt
 
 edbc7960bef7fd71ef1e44d0df15b864784b14c8 drm/bridge: ti-sn65dsi83: Handle dsi_lanes == 0 as invalid
 6e516faf04317db2c46cbec4e3b78b4653a5b109 drm/panfrost: Job should reference MMU not file_priv
@@ -439,8 +390,6 @@ a1b29ba2f2c171b9bea73be993bfdf0a62d37d15 powerpc/kasan: Silence KASAN warnings i
 aeca8a3295022bcec46697f16e098140423d8463 ASoC: nau8822: Add operation for internal PLL off and on
 ef8d89b83bf453ea9cc3c4873a84b50ff334f797 ASoC: qcom: lpass-platform: Update VMA access permissions in mmap callback
 a051246b786af7e4a9d9219cc7038a6e8a411531 mmc: block: Fix CQE recovery reset success
-282e5f8fe907dc3f2fbf9f2103b0e62ffc3a68a5 netfilter: nat: really support inet nat without l3 address
-ab5e5c062f67c5ae8cd07f0632ffa62dc0e7d169 netfilter: nf_tables: use kfree_rcu(ptr, rcu) to release hooks in clean_net path
 479260419fa4cb30e3e5d935a857fbdf0ffdd854 dt-bindings: mmc: Fix unevaluatedProperties warnings in examples
 4b81dd2cc6f4f4e8cea0ed6ee8d5193a8ae14a72 drm/amd/display: Read Golden Settings Table from VBIOS
 0ec744084793db817990424cc3cc9da63f665f3f drm/amd/display: revert Blank eDP on disable/enable drv
@@ -461,13 +410,11 @@ fd843d03418ead2bba369159bb19b60e9d4b7b1e drm/amd/display: remove stale config gu
 fa582c6f3684ac0098a9d02ddf0ed52a02b37127 drm/amdkfd: Use mmget_not_zero in MMU notifier
 e19f8fa6ce1ca9b8b934ba7d2e8f34c95abc6e60 dma-debug: make things less spammy under memory pressure
 e15db62bc5648ab459a570862f654e787c498faf swiotlb: fix setting ->force_bounce
-b6d9014a3335194590abdd2a2471ef5147a67645 netfilter: nf_tables: delete flowtable hooks via transaction list
 3e8635fb2e072672cbc650989ffedf8300ad67fb powerpc/kasan: Force thread size increase with KASAN
 d69a155555c9d57463b788c400f6b452d976bacd ASoC: Intel: cirrus-common: fix incorrect channel mapping
 b6c71c66b0ad8f2b59d9bc08c7a5079b110bec01 NFSD: Fix potential use-after-free in nfsd_file_put()
 f012e95b377c73c0283f009823c633104dedb337 SUNRPC: Trap RDMA segment overflows
 587b9bfe0668bc997e51af9526a0c7c084d4660f kernel/reboot: Use static handler for register_platform_power_off()
-2c9e4559773c261900c674a86b8e455911675d71 netfilter: nf_tables: always initialize flowtable hook list in transaction
 8bf5aabf524eec61013e506f764a0b2652dc5665 ASoC: cs42l52: Fix TLV scales for mixer controls
 5005a2345825eb8346546d99bfe669f73111b5c5 ASoC: cs35l36: Update digital volume TLV
 7fbd6dd68127927e844912a16741016d432a0737 ASoC: cs53l30: Correct number of volume levels on SX controls
@@ -519,11 +466,8 @@ add413a1d966d8458571a2571881903d234a9f8e dt-bindings: Add xen,grant-dma IOMMU de
 1ca55d50e50c74747a7b8846dac306fbe5ac4cf5 xen/grant-dma-iommu: Introduce stub IOMMU driver
 625ab90ecdf7770bda7ae21c4d5c938aa9b43bb4 xen/grant-dma-ops: Retrieve the ID of backend's domain for DT devices
 fea981610c25173e6e5d63ccd4fce49739663ab0 arm/xen: Assign xen-grant DMA ops for xen-grant DMA devices
-c271cc9febaaa1bcbc0842d1ee30466aa6148ea8 netfilter: nf_tables: release new hooks on unsupported flowtable flags
-9dd732e0bdf538b1b76dc7c157e2b5e560ff30d3 netfilter: nf_tables: memleak flow rule from commit path
 efb75df105e82f076a85b9f2d81410428bcb55fc ALSA: usb-audio: Skip generic sync EP parse for secondary EP
 e0469d6581aecb0e34e2ec64f39f88e6985cc52f ALSA: usb-audio: Set up (implicit) sync for Saffire 6
-c76acfb7e19dcc3a0964e0563770b1d11b8d4540 net: phy: dp83867: retrigger SGMII AN when link change
 e0b5c5984d4810733b7c24a3d16c904fffc086d2 dt-bindings: mfd: bd9571mwv: update rohm,bd9571mwv.yaml reference
 7e40381d8a33e41e347cea5bdd000091653000c6 dt-bindings: interrupt-controller: update brcm,l2-intc.yaml reference
 71a834b7f744fab6ae83dc1bfc22030b5baa5dd5 dt-bindings: arm: update vexpress-config.yaml references
@@ -533,23 +477,14 @@ e0b5c5984d4810733b7c24a3d16c904fffc086d2 dt-bindings: mfd: bd9571mwv: update roh
 e5f580e72498ef634ae293c8d4ba7184f5191c74 MAINTAINERS: update dongwoon,dw9807-vcm.yaml reference
 09fed02c20a659e15c9b47a52e8cf2dffa41cda9 MAINTAINERS: update snps,axs10x-reset.yaml reference
 a2d2bfc9d56513684260b6aab26a2e0b56b09d92 MAINTAINERS: rectify entries for ARM DRM DRIVERS after dt conversion
-3a41c64d9c1185a2f3a184015e2a9b78bfc99c71 netfilter: nf_tables: bail out early if hardware offload is not supported
 ca871659ec1606d33b1e76de8d4cf924cf627e34 drm/bridge: analogix_dp: Support PSR-exit to disable transition
 e54a4424925a27ed94dff046db3ce5caf4b1e748 drm/atomic: Force bridge self-refresh-exit on CRTC switch
-f55a07074fdd38cab8c097ac5bd397d68eff733c amt: fix wrong usage of pskb_may_pull()
-d16207f92a4a823c48b4ea953ad51f4483456768 amt: fix possible null-ptr-deref in amt_rcv()
-d7970039d87c926bb648982e920cb9851c19f3e1 amt: fix wrong type string definition
-41bdb8a0cc4722d7e00606a49b35921652821cea Merge branch 'amt-fix-several-bugs-in-amt_rcv'
-b8d91399775c55162073bb2aca061ec42e3d4bc1 net: ethernet: bgmac: Fix refcount leak in bcma_mdio_mii_register
 8ea21823aa584b55ba4b861307093b78054b0c1b cifs: return errors during session setup during reconnects
 e71e60cd74df9386c3f684c54888f2367050b831 Merge tag 'dma-mapping-5.19-2022-06-06' of git://git.infradead.org/users/hch/dma-mapping
 2e45f2185283a2d927ef2cdbdc246cd65740c8df ALSA: hda: MTL: add HD Audio PCI ID and HDMI codec vendor ID
 dbac14a5a05ff8e1ce7c0da0e1f520ce39ec62ea xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
 77991645952c21962a095910c51fe0f73d35bf91 crc-itu-t: fix typo in CRC ITU-T polynomial comment
 d5ea7544c32ba27c2c5826248e4ff58bd50a2518 ALSA: hda/conexant - Fix loopback issue with CX20632
-5e74a4b3ec1816e3bbfd715d46ae29d2508079cb stmmac: intel: Fix an error handling path in intel_eth_pci_probe()
-662a80946ce13633ae90a55379f1346c10f0c432 af_unix: Fix a data-race in unix_dgram_peer_wake_me().
-cf67838c4422eab826679b076dad99f96152b4de selftests net: fix bpf build error
 53ee5d7b4523019a1bc1f3d41235234d1f3f5ada Merge tag 'asoc-fix-v5.19-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 e8bc2427018826e02add7b0ed0fc625a60390ae5 KVM: Don't null dereference ops->destroy
 3e684903a8574ffc9475fdf13c4780a7adb506ad entry/kvm: Exit to user mode when TIF_NOTIFY_SIGNAL is set
@@ -577,7 +512,6 @@ c42e65664390be7c1ef3838cd84956d3a2739d60 Input: bcm5974 - set missing URB_NO_TRA
 6ab2e51898cd4343bbdf8587af8ce8fbabddbcb5 Input: soc_button_array - also add Lenovo Yoga Tablet2 1051F to dmi_use_low_level_irq
 f7a447eda2120ab8988b0f8c708c1fd3bd4d3729 Merge tag 'mmc-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 9886142c7a2226439c1e3f7d9b69f9c7094c3ef6 Merge tag 'input-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-91ffb0893291ff80cb3695f87e397533abc26823 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
 cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
 44ba9786b67345dc4e5eabe537c9ef2bfd889888 scsi: lpfc: Correct BDE type for XMIT_SEQ64_WQE in lpfc_ct_reject_event()
@@ -597,8 +531,6 @@ ec1e8adcbdf661c57c395bca342945f4f815add7 scsi: pmcraid: Fix missing resource cle
 5c95fe8b02011c3b69173e0d86aff6d4c2798601 LoongArch: Remove MIPS comment about cycle counter
 c745dfc541e78428ba3986f1d17fe1dfdaca8184 libata: fix reading concurrent positioning ranges log
 6d11acd452fd885ef6ace184c9c70bc863a8c72f libata: fix translation of concurrent positioning ranges
-0737e018a05e2aa352828c52bdeed3b02cff2930 net: dsa: lantiq_gswip: Fix refcount leak in gswip_gphy_fw_list
-f5826c8c9d57210a17031af5527056eefdc2b7eb net/mlx4_en: Fix wrong return value on ioctl EEPROM query failure
 a2a513be7139b279f1b5b2cee59c6c4950c34346 zonefs: fix handling of explicit_open option on mount
 96eca145cb51f4e0132a3ea8066dfc6fdf75f24a zonefs: Do not ignore explicit_open with active zone limit
 54aa83c90198e68eee8b0850c749bc70efb548da KVM: x86: do not set st->preempted when going back to user space
@@ -640,23 +572,11 @@ a956a11ee669d069047525c8ec897b4c21a9cda1 drm/amdkfd:Fix fw version for 10.3.6
 90d871b3b9bb7ef8f835d6b53095f01b9c74b7b3 SUNRPC: Clean up xdr_commit_encode()
 bd07a64176a2be03f5195c64943063fd119f9f21 SUNRPC: Clean up xdr_get_next_encode_buffer()
 da9e94fe000e11f21d3d6f66012fe5c6379bd93c SUNRPC: Remove pointer type casts from xdr_get_next_encode_buffer()
-35b42dce619701f1300fb8498dae82c9bb1f0263 net: mdio: unexport __init-annotated mdio_bus_init()
-4a388f08d8784af48f352193d2b72aaf167a57a1 net: xfrm: unexport __init-annotated xfrm4_protocol_init()
-5801f064e35181c71857a80ff18af4dbec3c5f5c net: ipv6: unexport __init-annotated seg6_hmac_init()
-653926f6938d0dbfa44ee66c3d3cf0df3c08b583 Merge branch 'net-unexport-some-symbols-that-are-annotated-__init'
 6e2b347d42e54282e4c6cfa08272db462b178f7f Merge v5.19-rc1 into drm-misc-fixes
-77e5fe8f176a525523ae091d6fd0fbb8834c156d nfc: st21nfca: fix incorrect validating logic in EVT_TRANSACTION
-996419e0594abb311fb958553809f24f38e7abbe nfc: st21nfca: fix memory leaks in EVT_TRANSACTION handling
-f2e19b36593caed4c977c2f55aeba7408aeb2132 nfc: st21nfca: fix incorrect sizing calculations in EVT_TRANSACTION
-e44c8f4080ca264b5aac3183a321538662b0950b Merge branch 'split-nfc-st21nfca-refactor-evt_transaction-into-3'
-8a4d480702b71184fabcf379b80bf7539716752e nfc: nfcmrvl: Fix memory leak in nfcmrvl_play_deferred
 a3d52ac7750025b5a1f99eb1ccea0e31b58bf7bb arm64/sme: Fix tests for 0b1111 value ID registers
 f539316fe8106b4f4b4e95c1e70a31b545523b03 arm64/sme: Fix SVE/SME typo in ABI documentation
-f93431c86b631bbca5614c66f966bf3ddb3c2803 ipv6: Fix signed integer overflow in __ip6_append_data
-f638a84afef3dfe10554c51820c16e39a278c915 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
 29dec90a0f1d961b93f34f910e9319d8cb23edbd dm: fix bio_set allocation
 d5a37b19983725d2045588cfa3a4699f5b39ae26 block: remove bioset_init_from_src
-a6958951ebe7db60e84b2437ee53aa4843028726 au1000_eth: stop using virt_to_bus()
 ed872f92fd0946ba30f2acd05fc57e29cac29cd2 MAINTAINERS: adjust MELLANOX ETHERNET INNOVA DRIVERS to TLS support removal
 4d995c1b9d49ee657e879745aa5e445f031c0dba Revert "net/mlx5e: Allow relaxed ordering over VFs"
 15ef9efa855cf405fadd78272e1e5d04e09a1cf3 net/mlx5e: CT: Fix cleanup of CT before cleanup of TC ct rules
@@ -800,12 +720,13 @@ e54d6b01b833556bcd358fae09067dffc3c4eaa9 TMP: fix compilation error
 853342dbf42649e14479c6688d2b4a3332af6b5b Merge branch 'rdma-next' into testing/rdma-next
 b3af7dcbac30ee7d9ad927b4a60b5ceb5d94c6f6 Merge remote-tracking branch 'rdma/hmm' into testing/rdma-next
 f58d67519ce9485da50450d23cb950f5ad84a6a6 Merge branch 'xfrm-next' into testing/rdma-next
+240536aa6a966bb9699d033bdb044c2b169e6692 Merge branch 'testing/rdma-next' into queue-next
 
---===============2565543757659015692==
+--===============1447407245499281607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-505b9e13d60c-e54d6b01b833.txt
+Content-Disposition: attachment; filename=revlist-a8e8555b66c3-78424a155330.txt
 
 edbc7960bef7fd71ef1e44d0df15b864784b14c8 drm/bridge: ti-sn65dsi83: Handle dsi_lanes == 0 as invalid
 6e516faf04317db2c46cbec4e3b78b4653a5b109 drm/panfrost: Job should reference MMU not file_priv
@@ -1147,5 +1068,6 @@ b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 Linux 5.19-rc2
 b66aedf06ecd670e9e6e88ba763494c138c4f337 mm: Re-allow pinning of zero pfns
 fe09f8c34cb00376d5f42636af7aaad1f829f4c8 Merge branch 'master' into testing/rdma-rc
 e54d6b01b833556bcd358fae09067dffc3c4eaa9 TMP: fix compilation error
+78424a1553304b19b2b9b328acc62b7e36b59040 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2565543757659015692==--
+--===============1447407245499281607==--
