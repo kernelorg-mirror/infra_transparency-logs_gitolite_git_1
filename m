@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7172478833509249348=="
+Content-Type: multipart/mixed; boundary="===============5705133844816358695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 16 Jun 2022 11:32:04 -0000
-Message-Id: <165537912496.13163.13004576691308879179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Jun 2022 11:32:25 -0000
+Message-Id: <165537914534.13303.2595576181073212010@gitolite.kernel.org>
 
---===============7172478833509249348==
+--===============5705133844816358695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.18
-    old: e81967ef900f5f794313b5b28613e8b7cf3fb48d
-    new: 89c594de01d531cb58302a4b989b38c56505df8e
-    log: revlist-e81967ef900f-89c594de01d5.txt
+  - ref: refs/heads/master
+    old: f5636894268c1f513e8bae61255b2cd255473640
+    new: fae3bd24703775d5c32fa11ae69561810b9045f4
+    log: |
+         fae3bd24703775d5c32fa11ae69561810b9045f4 Linux 5.18.5
+         
 
---===============7172478833509249348==
+--===============5705133844816358695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e81967ef900f-89c594de01d5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5592042e93c50a2e67c7a8722c12dbe1aa768adb Documentation: Add documentation for Processor MMIO Stale Data
-063084ee7f4f2c81a43ab99f6b8ec0b06f22873f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
-0a0a9284ae73bde75dcf0ec4a0002cc9018c4719 x86/speculation: Add a common function for MD_CLEAR mitigation update
-b901c3cf1f662b44b7a858a4e1bd235f48d203ec x86/speculation/mmio: Add mitigation for Processor MMIO Stale Data
-5281ae44188c8784ef05d04932d8e68b77f63f5e x86/bugs: Group MDS, TAA & Processor MMIO Stale Data mitigations
-d3969f1801309727df547c21dce8a50c9e65e661 x86/speculation/mmio: Enable CPU Fill buffer clearing on idle
-7cfafd93d052218b9b267068209b09b255ce6877 x86/speculation/mmio: Add sysfs reporting for Processor MMIO Stale Data
-89a212a0d2115906130091e3d4771b6b8aeeaecd x86/speculation/srbds: Update SRBDS mitigation selection
-d4ca10cfa839cd22719777a2b89f0959210a3886 x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
-2389d1d5e960d8cac5bdfc820e2b336e592a4a0d KVM: x86/speculation: Disable Fill buffer clear within guests
-89c594de01d531cb58302a4b989b38c56505df8e x86/speculation/mmio: Print SMT warning
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655379144 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1655379143-d1303820ad69e1c3f285ee75a6081f44b50e55dc
 
---===============7172478833509249348==--
+f5636894268c1f513e8bae61255b2cd255473640 fae3bd24703775d5c32fa11ae69561810b9045f4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKrFMgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aK4QAMOoBAf7BftyiAZub/Ja
+6s3EC1FSlnFBnaJkarGWmW5P0HJdkcTDuhxu0GS/V5ddwwC2OJiHjPwQDJU6VMu3
+wfqVIv98iFKpLdNWfbV+UlUswOdK+QcNFZMnNhexTjw5Fyo9LZEyt3QV8yaY7WBj
+wu+JXLfF5fc9aqat4glIOJ+MKulGUUMFDu5P3LvfcsGiRJt52Hc3ZtgB12i5vusr
+zQjbxjfc6jmobWGX/7bFdXN+THX2UXiWHJuPWQwNcPxZXK8Lu+BbxiQA2XnbvD8n
+LVBH9ldrPFMDDC/BfClhbsascA8BRWTirUXcl07TNCnA6ksfFIZIEhH0GONOcYFz
+ztuf9qpZM2Nlck6v/CTcjBEo7nFFjN9sRh6JgVcxARwaQn7FOUciBLuPH6jvtQx8
+4VZPrNq+fMT4vYLmreKAa0fYAe8CguB+ACAtRY0OM8i0Yd1tqIq3ULmfJs66Y8Oa
+LD9aBFsAlqGNpWsCH8Jg7Kfz0GGUX0quQg/RT75JIFEzsjFnkW5pcRKBPNJttnf5
+/zUmLSghzYwIzvZ9GltIDHz99Pr0UoRT+wwfxM2jD4Kz+v6WiFAEXcIxsErdQyG7
+4Mfk+NI7FBu9QspbJH5sxCdZElhgP0ANbEAWmK+19xFCjyHsU/UNvRs5f8HQKqx1
+QZ3coU8Rlzv3JHFW9fZ7LMt/
+=IwH3
+-----END PGP SIGNATURE-----
+
+--===============5705133844816358695==--
