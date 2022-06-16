@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 16 Jun 2022 15:50:03 -0000
-Message-Id: <165539460326.10559.10163049905453475019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Thu, 16 Jun 2022 15:53:08 -0000
+Message-Id: <165539478891.11990.4406936869542679176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/io_uring-5.19
-    old: a76c0b31eef50fdb8b21d53a6d050f59241fb88e
-    new: 32fc810b364f3dd30930c594e461ffa1761fef39
+  - ref: refs/heads/master
+    old: 8be20c9f4f7fa2888eb1e60811e4c761cad9a870
+    new: b704c9df363fe842bfbaff1e821f7fd692be27f9
     log: |
-         32fc810b364f3dd30930c594e461ffa1761fef39 io_uring: do not use prio task_work_add in uring_cmd
+         837af2f647a98d054deec9efcbf9c69ea04359e1 trace-cmd library: Fail if tracecmd_init_data() fails
+         4bf754dae1d925e9fa31e22838d7b9231eddf680 trace-cmd library: Fix reading of temp file used to decompress
+         b704c9df363fe842bfbaff1e821f7fd692be27f9 trace-cmd record: Verify that splice works before using it
          
