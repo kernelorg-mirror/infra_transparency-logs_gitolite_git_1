@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 17 Jun 2022 08:50:33 -0000
-Message-Id: <165545583355.5828.3063838073617269243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 17 Jun 2022 08:50:40 -0000
+Message-Id: <165545584082.5952.7422533148982520270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/v5.19-next/soc
-    old: 1c9faace10172e965012e0fb2d2061f95f8ff0e3
-    new: 0bbb09b2af9dd24377341899538d3e452c4f7936
+  - ref: refs/heads/fixes
+    old: 8507e0b6edb3ac24cdf86f7cfba74eaeee00bf27
+    new: cbc6d44867a24130ee528c20cffcbc28b3e09693
     log: |
-         d969f2171eaf1ee8a28f57e41664c5f488e43890 dt-bindings: soc: mediatek: add mtk svs dt-bindings
-         681a02e9500073cd8b9c25a04f06166254b5a879 soc: mediatek: SVS: introduce MTK SVS engine
-         6c69271926e9aca9254bf844b976958dfa0089c7 soc: mediatek: SVS: add monitor mode
-         13f1bbcfb5822fcaacfc652017b57b79ffcacefa soc: mediatek: SVS: add debug commands
-         5ed6605f9040a9a9421a66ce1693539757d54c06 dt-bindings: soc: mediatek: add mt8192 svs dt-bindings
-         0bbb09b2af9dd24377341899538d3e452c4f7936 soc: mediatek: SVS: add mt8192 SVS GPU driver
+         56961c6331463cce2d84d0f973177a517fb33a82 KVM: arm64: Prevent kmemleak from accessing pKVM memory
+         cbc6d44867a24130ee528c20cffcbc28b3e09693 KVM: arm64: Add Oliver as a reviewer
          
