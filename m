@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 17 Jun 2022 23:22:39 -0000
-Message-Id: <165550815954.12369.14393511104275681148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 17 Jun 2022 23:50:05 -0000
+Message-Id: <165550980588.31032.14951951160526360333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/seen
-    old: dfb9677cfdf056343c5b230a0bafc90703e5b859
-    new: cbb3d888ab372b3f184d8fde1a7d835e659d4e2e
+  - ref: refs/heads/for-5.20/io_uring-iter
+    old: 7f1a5754d148b082c49191e8a2446e639c098900
+    new: 01151f19582bd083a7cf406bd43a5f46b6cd1d51
     log: |
-         a3ba4fa715c67329736c9483f4b3fdab99cee50f setup: fix function name in a BUG() message
-         cbb3d888ab372b3f184d8fde1a7d835e659d4e2e Merge branch 'cr/setup-bug-typo' into seen
+         01151f19582bd083a7cf406bd43a5f46b6cd1d51 io_uring: use ubuf for single range imports for read/write
          
