@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 17 Jun 2022 11:48:24 -0000
-Message-Id: <165546650479.6599.12212537154832270798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 17 Jun 2022 11:50:02 -0000
+Message-Id: <165546660289.7832.17178770784833969655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 224410df38d03a572a3b5cd3000906fb1294ce4e
-    new: 7f56e4129f1c951acc1a5f6f1efa8cf8b85d0075
+  - ref: refs/heads/for-5.20/io_uring
+    old: de4873338bd3e284abffa7c28b3b653244fb655c
+    new: 0efaf0d19e9e1271f2275393e62f709907cd40e2
     log: |
-         7f56e4129f1c951acc1a5f6f1efa8cf8b85d0075 libmount: remove support for writable /etc/mtab
+         0efaf0d19e9e1271f2275393e62f709907cd40e2 io_uring: kbuf: add comments for some tricky code
+         
+  - ref: refs/heads/for-next
+    old: 1ef890b6ae9eafa93ca564b18d18adaf2ea80bdb
+    new: 9aeb2d3d23db39fb7c6d3b03ee32ae981039ef16
+    log: |
+         0efaf0d19e9e1271f2275393e62f709907cd40e2 io_uring: kbuf: add comments for some tricky code
+         9aeb2d3d23db39fb7c6d3b03ee32ae981039ef16 Merge branch 'for-5.20/io_uring' into for-next
          
