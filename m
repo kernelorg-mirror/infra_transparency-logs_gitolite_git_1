@@ -1,61 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============8485095488884341469=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 17 Jun 2022 00:09:18 -0000
-Message-Id: <165542455884.16554.6196055389223681684@gitolite.kernel.org>
-
---===============8485095488884341469==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 17 Jun 2022 00:50:04 -0000
+Message-Id: <165542700401.12165.1495198364199914256@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/clk-next
-    old: 882eb549a76ca6a5f0a665cc61b3f18852c1abbb
-    new: 71b8138dea9a3fd5675bfe293bd87b2817e3d115
-    log: revlist-882eb549a76c-71b8138dea9a.txt
-  - ref: refs/heads/clk-ti-dt
-    old: 0000000000000000000000000000000000000000
-    new: 255584b138343d4a28c6d25bd82d04b09460d672
-  - ref: refs/heads/clk-devm-enable
-    old: 0000000000000000000000000000000000000000
-    new: 68bde8b2e3112d2f1ac52cbf078905f902950146
-
---===============8485095488884341469==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-882eb549a76c-71b8138dea9a.txt
-
-b348c26c28a96d15f832974c5b54a3d6bbe4e7d8 clk: mediatek: reset: Add reset.h
-edabcf71d100fd433a0fc2d0c97057c446c33b2a clk: mediatek: reset: Fix written reset bit offset
-086bcb50b4350eb959812290f5a8676ae940ab70 clk: mediatek: reset: Refine and reorder functions in reset.c
-114257572a0e0d93f770894b9824793901d1fae7 clk: mediatek: reset: Extract common drivers to update function
-370bf62869695003c2994d3d98769ccde6b26083 clk: mediatek: reset: Merge and revise reset register function
-2d2a2900588cabe2ff3abd552d1683e5f1ce398b clk: mediatek: reset: Revise structure to control reset register
-723e367114dec95abe8bba4118c4c7c3542a463f clk: mediatek: reset: Support nonsequence base offsets of reset registers
-322989ddf7c478a9cbbb51da0d4b51825a47735d clk: mediatek: reset: Support inuput argument index mode
-7d10ae3797e1aea48d7635685d3b9c3bdf2bc56e clk: mediatek: reset: Change return type for clock reset register function
-761bc64003e38119ce4687424ef56de3976fe26c clk: mediatek: reset: Add new register reset function with device
-b27a604a5793100e17b4979df08fcc238cac4c9c clk: mediatek: reset: Add reset support for simple probe
-4d352eb91a42bf62a6560d7926bc5cdc98d010eb dt-bindings: arm: mediatek: Add #reset-cells property for MT8192/MT8195
-fb91526b5fb04133799bc708661b467226caa032 dt-bindings: reset: mediatek: Add infra_ao reset index for MT8192/MT8195
-a0bc8ae5a0d7c79e376f400d989698194c6af7a1 clk: mediatek: reset: Add infra_ao reset support for MT8192/MT8195
-5ea61b478f30c7083fc9048934220f20a3089782 dt-bindings: reset: mediatek: Add infra_ao reset index for MT8186
-2336db647f3140b2f24379d117a120c544e8760c dt-bindings: arm: mediatek: Add #reset-cells property for MT8186
-3b3ec201f381d6cbd6caaa8bf6c37b74f2288bbc clk: mediatek: reset: Add infra_ao reset support for MT8186
-d6acc1d49dd5343ed198484ab3e721fee10846c2 Merge branch 'clk-mtk' into clk-next
-af89cd45603483135bdd238fcb3fa871155a0ae1 clk: Improve documentation for devm_clk_get() and its optional variant
-abae8e57e49aa75f6db76aa866c775721523908f clk: generalize devm_clk_get() a bit
-7ef9651e9792b08eb310c6beb202cbc947f43cab clk: Provide new devm_clk helpers for prepared and enabled clocks
-68bde8b2e3112d2f1ac52cbf078905f902950146 clk: meson: axg-audio: Don't duplicate devm_clk_get_enabled()
-733dc1aaf4f07789b1a9a8488a610547bc4edcba Merge branch 'clk-devm-enable' into clk-next
-255584b138343d4a28c6d25bd82d04b09460d672 clk: ti: Stop using legacy clkctrl names for omap4 and 5
-71b8138dea9a3fd5675bfe293bd87b2817e3d115 Merge branch 'clk-ti-dt' into clk-next
-
---===============8485095488884341469==--
+  - ref: refs/heads/fixes
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 9293ee00cc1c4a49325f7694563dd15591652897
+    log: |
+         9293ee00cc1c4a49325f7694563dd15591652897 phy: ti: tusb1210: Don't check for write errors when powering on
+         
+  - ref: refs/heads/next
+    old: e991c2ee65e9e42da9c1cf599b4c3ddcf536e715
+    new: 18b3eb79b1cfc41cf4aeb5f789d27fa2e82b835f
+    log: |
+         c667d9c630cc19a0c99bb3e98e7067923bbffc42 dt-bindings: phy: List supplies for qcom,edp-phy
+         63f4676dd879d72f33e5f1ea1bc166411af2cbea dt-bindings: phy: Add FSD UFS PHY bindings
+         e313216b52813a9c51cad0bf406b60d3248b268f phy: samsung-ufs: move cdr offset to drvdata
+         f1b2d06de11209771c8d8cfb68a5e48d4ef6146f phy: samsung-ufs: add support for FSD ufs phy driver
+         5cda442dc032d8b17babdc304a38db3ce4a58ca8 dt-bindings: phy: renesas: usb3-phy: Spelling s/funcional/functional/
+         4daa43e92eaeb2c1df3ad8274b81601305875ced phy: ti: phy-j721e-wiz: use OF data for device specific data
+         fbbf71f3740939c44dfb5411e2daf3bf0d8e8f41 phy: qcom-qmp: fix msm8996 PCIe PHY support
+         5bef2838f1a058c1198aac47d08f7e74f3708017 phy: qcom-qmp: fix PCIe PHY support
+         18b3eb79b1cfc41cf4aeb5f789d27fa2e82b835f MAINTAINERS: add include/dt-bindings/phy to GENERIC PHY FRAMEWORK
+         
