@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 17 Jun 2022 10:35:47 -0000
-Message-Id: <165546214718.23228.15065883312325354196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 17 Jun 2022 10:38:01 -0000
+Message-Id: <165546228127.23995.1517630871114492398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/uvc-powerline-v7
-    old: 0000000000000000000000000000000000000000
-    new: dc8df14d548366ad45910ddd3c1a6decd7db7593
+  - ref: refs/heads/master
+    old: 9b7fd1670a94a57d974795acebde843a5c1a354e
+    new: cc26c2661fefea215f41edb665193324a5f99021
+    log: |
+         cc26c2661fefea215f41edb665193324a5f99021 net: fix data-race in dev_isalive()
+         
