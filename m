@@ -1,33 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Fri, 17 Jun 2022 00:50:04 -0000
-Message-Id: <165542700401.12165.1495198364199914256@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8830519094944546292=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Fri, 17 Jun 2022 01:21:33 -0000
+Message-Id: <165542889348.4403.11621366115402641716@gitolite.kernel.org>
+
+--===============8830519094944546292==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/fixes
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 9293ee00cc1c4a49325f7694563dd15591652897
-    log: |
-         9293ee00cc1c4a49325f7694563dd15591652897 phy: ti: tusb1210: Don't check for write errors when powering on
-         
-  - ref: refs/heads/next
-    old: e991c2ee65e9e42da9c1cf599b4c3ddcf536e715
-    new: 18b3eb79b1cfc41cf4aeb5f789d27fa2e82b835f
-    log: |
-         c667d9c630cc19a0c99bb3e98e7067923bbffc42 dt-bindings: phy: List supplies for qcom,edp-phy
-         63f4676dd879d72f33e5f1ea1bc166411af2cbea dt-bindings: phy: Add FSD UFS PHY bindings
-         e313216b52813a9c51cad0bf406b60d3248b268f phy: samsung-ufs: move cdr offset to drvdata
-         f1b2d06de11209771c8d8cfb68a5e48d4ef6146f phy: samsung-ufs: add support for FSD ufs phy driver
-         5cda442dc032d8b17babdc304a38db3ce4a58ca8 dt-bindings: phy: renesas: usb3-phy: Spelling s/funcional/functional/
-         4daa43e92eaeb2c1df3ad8274b81601305875ced phy: ti: phy-j721e-wiz: use OF data for device specific data
-         fbbf71f3740939c44dfb5411e2daf3bf0d8e8f41 phy: qcom-qmp: fix msm8996 PCIe PHY support
-         5bef2838f1a058c1198aac47d08f7e74f3708017 phy: qcom-qmp: fix PCIe PHY support
-         18b3eb79b1cfc41cf4aeb5f789d27fa2e82b835f MAINTAINERS: add include/dt-bindings/phy to GENERIC PHY FRAMEWORK
-         
+  - ref: refs/heads/main
+    old: b5ade32b014f6bb59165a9e16d2f64c1555ec204
+    new: 7d7c605392112cc1b16c3cf3950a5cb5778a7c12
+    log: revlist-b5ade32b014f-7d7c60539211.txt
+
+--===============8830519094944546292==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b5ade32b014f-7d7c60539211.txt
+
+62b9747ee3253b2fbde62e08d179c4c68f1f1d63 randprotect: KSM: add batch random generator helper
+ac209cc16f65be83f19a26caa35aafe97b6bd85c randprotect: KSM: only attempt to merge with KSM pages if the payload doesn't change
+0e709c1d5dcef2f0a8c35e5a5db3d570bcb52570 randprotect: KSM: eliminate the KSM COW side channel
+d807d1d23366f21bc94234bd76faa1be8785b5db randprotect: KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
+cde746e90ef7d9a15fc3460f31ee97a25f772305 randprotect: mm: THP: preserved young bit in the THP split
+bed612fa30ec4881a072ee3df4b8149d592c49e2 randprotect: KSM: re-enable mmu_notifier_change_pte during wrprotect
+be8899e246f6abf4436c6276254787c21c3ec100 randprotect: KSM: add working set estimation based on the pgtable young bit
+fa54f088e2aa7bd94c088eada4cad4561896b00f randprotect: KVM: micro-optimize mmu notifier change_pte
+6f6a1e073ad9e7b7f8a44b6c8b7172e57f21521f randprotect: KSM: break_ksm: use the COR fault
+621cb2f5b7d7b6f88611b4493de97b20cb2e1dfd mm: Fix invalid page pointer returned with FOLL_PIN gups
+4e9d0dd89a40dec1efa5acbccdceae018f8edb1d mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy v4
+02b22f451121626644ff728ddf2719e90ce1d842 mm/rmap: fix missing swap_free() in try_to_unmap() after arch_unmap_one() failed
+7d7c605392112cc1b16c3cf3950a5cb5778a7c12 Merge remote-tracking branch 'gitlab/main' into main
+
+--===============8830519094944546292==--
