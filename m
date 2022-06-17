@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7681295597466425628=="
+Content-Type: multipart/mixed; boundary="===============2398208006121279323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 17 Jun 2022 16:29:29 -0000
-Message-Id: <165548336959.29644.13493346643592062727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 17 Jun 2022 16:29:43 -0000
+Message-Id: <165548338325.29826.2926788093752263860@gitolite.kernel.org>
 
---===============7681295597466425628==
+--===============2398208006121279323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 2964e31cdda03fdff3b7c2f4f043e788e607987f
-    new: ba46bd04a4218defa2b35d84983e915e166f1572
-    log: revlist-2964e31cdda0-ba46bd04a421.txt
+  - ref: refs/heads/for-linus
+    old: 02375363e547752cb9f1248142d5069795dd9aa7
+    new: 85d9ff34c2e70cba0a4c7814df12041f1d3835a6
+    log: |
+         85d9ff34c2e70cba0a4c7814df12041f1d3835a6 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: bef6ea5cbd4fea4f507218d45fb14efab75eb881
+    new: b20aae687d4a3d7483e0510a85c886ee19d17dd0
+    log: revlist-bef6ea5cbd4f-b20aae687d4a.txt
 
---===============7681295597466425628==
+--===============2398208006121279323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1655483367 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1655483367-2318e47aed49ac3ef874340fe73458336e8d1538
-
-2964e31cdda03fdff3b7c2f4f043e788e607987f ba46bd04a4218defa2b35d84983e915e166f1572 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKsq+cACgkQJNaLcl1U
-h9CKRwf6Ap1vcyi0cJNxs/KU7leOTVIGrsPa4xJxA65XQaVSeq73FG8RXNe3X3TD
-SMs8I3fNLTo84Iwlth9yq5Fer4UBfhXUpcigvAVbhVjY0L7FNGIdeCoDOp2TADff
-won6sg3tFRt3CRWRH2XJzhClhnlfhx5WKNR8AG05tv/4FbPsIfr6ABWWN/PkkVzS
-zhGOpcOI50/ndMJ/u5mXkCBdDvB8jQfwq84lXjRREFsjvrM/S2SrvlVQCqXfCc3v
-+0mUuLa4MxB6bWHllUzdgjz4Yrur7o82LtC4VlQZzv/Z0v6QvXqSpKvdCbgwUb/+
-kkwSwaRYvUyQiOT2ZIRNClxDGU26xA==
-=VSLl
------END PGP SIGNATURE-----
-
---===============7681295597466425628==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2964e31cdda0-ba46bd04a421.txt
+Content-Disposition: attachment; filename=revlist-bef6ea5cbd4f-b20aae687d4a.txt
 
 e1ab67be68e900a6585277ca442ca7f67dffb3bd ASoC: cs4270: update kernel-doc
 7c619b306285588725573d975fd44607d13438cf ASoC: sunxi: sun4i-i2s: update kernel-doc
@@ -83,5 +64,7 @@ d2d19cb6ed13eb54dd6c958f3808a23820c3ebba ASoC: Intel: boards: sof_sdw: remove us
 bdb94f002eb915a11333b396092870583919754f ASoC: SOF/Intel: remove __func__ from dev_dbg()
 8b409f754b148491792251df290b15c78b6814f3 ASoC: minor kernel-doc corrections
 ba46bd04a4218defa2b35d84983e915e166f1572 ASoC: Intel: Chromebooks: remap jack pins
+85d9ff34c2e70cba0a4c7814df12041f1d3835a6 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+b20aae687d4a3d7483e0510a85c886ee19d17dd0 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============7681295597466425628==--
+--===============2398208006121279323==--
