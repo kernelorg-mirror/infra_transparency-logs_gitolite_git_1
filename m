@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 17 Jun 2022 23:50:05 -0000
-Message-Id: <165550980588.31032.14951951160526360333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Fri, 17 Jun 2022 23:55:23 -0000
+Message-Id: <165551012351.1736.1302643594161353347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/for-5.20/io_uring-iter
-    old: 7f1a5754d148b082c49191e8a2446e639c098900
-    new: 01151f19582bd083a7cf406bd43a5f46b6cd1d51
-    log: |
-         01151f19582bd083a7cf406bd43a5f46b6cd1d51 io_uring: use ubuf for single range imports for read/write
-         
+  - ref: refs/heads/uvc-powerline-v8
+    old: 0000000000000000000000000000000000000000
+    new: 1251466c8706c44c5e60ae00608736f2d75e4192
