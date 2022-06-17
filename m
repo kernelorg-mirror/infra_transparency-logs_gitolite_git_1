@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 17 Jun 2022 15:12:36 -0000
-Message-Id: <165547875632.11694.15509687089465823773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Fri, 17 Jun 2022 15:19:48 -0000
+Message-Id: <165547918819.16473.10019125333228034097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/master
-    old: 0de6563995e356b1ec7f3c33e9d6d188c6ea457e
-    new: 1cc81bf988d9806ecfc35559ad5a9bcb8abe28c2
+  - ref: refs/heads/next
+    old: 7ec58378a985618909ffae18e4ac0de2ae625f33
+    new: 34b9715b7caee2e2b7d74bb4230f2be2c2765c0a
     log: |
-         1cc81bf988d9806ecfc35559ad5a9bcb8abe28c2 ssize_t.3type: tfix
+         34b9715b7caee2e2b7d74bb4230f2be2c2765c0a thunderbolt: Fix typo in comment
          
