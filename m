@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 17 Jun 2022 19:14:29 -0000
-Message-Id: <165549326973.12318.13095978986919469436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 17 Jun 2022 19:15:11 -0000
+Message-Id: <165549331120.14104.4157912744251749588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: e88a0757ab303ab27c7a092740b2382ae57740c9
-    new: 032a3d147356386b57c644c7a4dc6644da609a1a
+  - ref: refs/heads/dt/next
+    old: ee774c40fa32e3b2642bb2533bc54662ea8445c2
+    new: cfda05c1ddb8b375562b54dc86276cdc42d48297
     log: |
-         032a3d147356386b57c644c7a4dc6644da609a1a station: Move netconfig_reset() to common path
+         e291506242b134ce81817865ecb15955fd1e5d0e dt-bindings: display: Add Arm virtual platforms display
+         bb9a3cc77aa153650d2c431c5be27ec78fadf401 dt-bindings: perf: Convert Arm CCN to DT schema
+         67fcaf28772027350e7aa60006b620c1d4b0be6e dt-bindings: vexpress-sysreg: Add deprecated GPIO provider properties
+         cfda05c1ddb8b375562b54dc86276cdc42d48297 dt-bindings: vexpress-sysreg: Allow for no child nodes
          
