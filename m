@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6927761931562257561=="
+Content-Type: multipart/mixed; boundary="===============3172720890534791985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Jun 2022 02:19:39 -0000
-Message-Id: <165543237963.9517.13351993915341310107@gitolite.kernel.org>
+Date: Fri, 17 Jun 2022 02:19:52 -0000
+Message-Id: <165543239227.9666.3528865126807199246@gitolite.kernel.org>
 
---===============6927761931562257561==
+--===============3172720890534791985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 97fb285d4f2da6d5250dfc54bbef7b0879e8e22d
-    new: 24615c4efbe06cbc458d0b87b30e651066d510de
-    log: revlist-97fb285d4f2d-24615c4efbe0.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: defd530b0eab8cf0ac007b193120c5534b37f73d
+    new: 6a33ed506416a74aea3071a72192fb06a3cc82df
+    log: revlist-defd530b0eab-6a33ed506416.txt
 
---===============6927761931562257561==
+--===============3172720890534791985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655432370 -0400
+pusher 75C5DE3D 1655432383 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655432369-fbd15bc0b535f3b02fd875f8a883e3cfe05c4e20
+nonce 1655432382-c5f609a494d5618b74a742ea5e983ff4adf2515c
 
-97fb285d4f2da6d5250dfc54bbef7b0879e8e22d 24615c4efbe06cbc458d0b87b30e651066d510de refs/tags/mkp-scsi-staging
+defd530b0eab8cf0ac007b193120c5534b37f73d 6a33ed506416a74aea3071a72192fb06a3cc82df refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKr5LIACgkQ7ulgGnXF
-3j08khAAmculBhnY8iQZlWjr8mgMFlET43t73yw4HcRU3pMEwnoOX2pdFVj+wyQQ
-6D7l5+7vxMfqqppIPbGu8gVpiJ7GgaT3dNw68nsxQ/Y4z9nrU2JayiNt7vgrfQGK
-rQUv/rePkFWd6Nq+LMB2318wXFl+2PBi2fygwel1DRnV/ft8liMNQcYDrUAUStDU
-ydrHdushQpxDgCUEWmfNU9sI9+BZQIoi1OmxcuuhPAps1Dcy6PV3x7Nij3iIBPhO
-/NOimvE3wXcZQBmqCQpqC2H4eVJn/q99fm3z3DzgYIqbFB5I0/5PQ+wGKGW3JUll
-HH9iiyAey732H9OIcR4Y+7+too0HGKH6VqazEMa9hE7AFA17BSrp1+wWcY56WKDd
-zVyl/VBxCUSjOhLQ7CHDK97U+asmEocyAhKgxq59QjOV7C1i0m1z+BZnICk98qq3
-j8v4ZgonbfbnvRWM38jZa2Re4oh7JC/FMM5TemvJZQq4LWpgSutg9pxF/Bmokcxw
-WYAYmuseclXvR3L6Xv7T37uzuFQtzMW/Ta43FqOQqhYiwGwUkBAy+Z4MuAwQxaxm
-xZEl5dTWKPeJ0ifRrA7jVlGm2cO6hNJYGplQ7sJqrrppSNaTo78OqrHz1MWgJyxh
-+sNOXR38YsRdmph+ltbRc+LquS59DCW6IpswBpSUpzbuuoe+nKE=
-=Jdnr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKr5L8ACgkQ7ulgGnXF
+3j3owBAAtPJsS5hG9MWVH1c3mJccOKAbVoR5sVPzIy22Ss1L62amRhKiiYgQYBz/
+dlgxI6pq9a5gZP5HyCRG9dMzfd8hea7bgtXQxOJLGJzkqc2bRTTbcRuSff8IxfGu
+q3joICOQPEGOZnuGE/2jfhtTNJNyDzAeeQqkhQHU6xYnXiuHDU6AL7lr3QL6yqUG
+Kgx8aBjTisVnppzQp/yGN7VazSrHoHWPyujNE4SWemrcbAMsv6odN5Csh5YyGDAT
+71Yrwsh9gkFV8k9aebV85qhMvNeedMO7UHeNoMsgrsaI9h2ESWoxNYX+zFio7NKY
+r5A+UxPNyzsVZMaBgEpi48hXsX2PFOy6+YFXET+uzvCQHzVbvhECZTbMP+2a9RKg
+bA63UUefknJp1+J/ZECC7XTxSXDjGlGrQtGqQta0sNAghdkHgawQNTOy6uf3LuV5
+36u9JSgzLAxSB3T1gHB3FEw5rVJb39GzmlywqyjW81mItN4Y7qEymk0rlyVjSssE
+/eTfjyOrGhXxyHXUGBlXtfjicPlauI6/U2/KfUV3u1OEY/9NKZPGLa0ETtjZ/976
+ZiY4qh9LKow6p3vYFepfbIePz42amW+9SzjFqICdTGKxqeF10AHSGbT1cyGLTtps
+1y6iMXc5kF0HSRtBrMeoSndWbHTO6xnaJP07Lzs3Bp+1OXFJnF8=
+=tMCi
 -----END PGP SIGNATURE-----
 
---===============6927761931562257561==
+--===============3172720890534791985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97fb285d4f2d-24615c4efbe0.txt
+Content-Disposition: attachment; filename=revlist-defd530b0eab-6a33ed506416.txt
 
 35bf020bd8ab41849871645d8fa83c86cddfe7eb scsi: target: iscsi: Fix NULL pointer dereference in iscsi_conn_auth_required()
 e733f8a894e606023ebbf9f31683c66d9e84e794 scsi: lpfc: Use memset_startat() helper in lpfc_nvmet_xmt_fcp_op_cmp()
@@ -91,4 +91,4 @@ ece418d0291117e3fc700f10e7fa9187010e38a0 scsi: ufs: ufs-mediatek: Support multip
 cb142b6d2f60ef7f676acf2dc84257ed05dfd7bd scsi: ufs: ufs-mediatek: Disable unused VCCQx power rails
 6a33ed506416a74aea3071a72192fb06a3cc82df scsi: iscsi: Make iscsi_unregister_transport() return void
 
---===============6927761931562257561==--
+--===============3172720890534791985==--
