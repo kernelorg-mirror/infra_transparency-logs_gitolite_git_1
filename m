@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 17 Jun 2022 08:19:46 -0000
-Message-Id: <165545398688.17179.12080055954350851366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 17 Jun 2022 08:19:48 -0000
+Message-Id: <165545398840.17251.4877602192731692813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/renesas-clk
-    old: fc9e01676cc4eae0a66a8b5ee60cda68537718b6
-    new: 080bcd8d5997b1a615e17cab02bd9d16d1d4fbf3
+  - ref: refs/heads/fixes
+    old: bcbfb588cf323929ac46767dd14e392016bbce04
+    new: 8507e0b6edb3ac24cdf86f7cfba74eaeee00bf27
     log: |
-         d5c10876c76f6110a968c4afa065ef09a8630868 clk: renesas: r8a779f0: Add Z0 and Z1 clock support
-         b7f64eaee5a345fe0c454f939252b46a26b47434 clk: renesas: r8a779f0: Add PCIe clocks
-         080bcd8d5997b1a615e17cab02bd9d16d1d4fbf3 clk: renesas: r8a779f0: Add HSCIF clocks
-         
-  - ref: refs/heads/renesas-clk-for-v5.20
-    old: fc9e01676cc4eae0a66a8b5ee60cda68537718b6
-    new: 080bcd8d5997b1a615e17cab02bd9d16d1d4fbf3
-    log: |
-         d5c10876c76f6110a968c4afa065ef09a8630868 clk: renesas: r8a779f0: Add Z0 and Z1 clock support
-         b7f64eaee5a345fe0c454f939252b46a26b47434 clk: renesas: r8a779f0: Add PCIe clocks
-         080bcd8d5997b1a615e17cab02bd9d16d1d4fbf3 clk: renesas: r8a779f0: Add HSCIF clocks
+         9e5afa8a537f742bccc2cd91bc0bef4b6483ee98 KVM: arm64: Prevent kmemleak from accessing pKVM memory
+         8507e0b6edb3ac24cdf86f7cfba74eaeee00bf27 KVM: arm64: Add Oliver as a reviewer
          
