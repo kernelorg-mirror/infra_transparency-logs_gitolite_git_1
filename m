@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1068309152256002771=="
+Content-Type: multipart/mixed; boundary="===============4441363318640398023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 17 Jun 2022 08:00:02 -0000
-Message-Id: <165545280211.3678.11938935092582541236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 17 Jun 2022 08:08:27 -0000
+Message-Id: <165545330777.8818.12498959150892079984@gitolite.kernel.org>
 
---===============1068309152256002771==
+--===============4441363318640398023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/char-misc-5.19-rc3
+  - ref: refs/tags/staging-5.19-rc3
     old: 0000000000000000000000000000000000000000
-    new: ab4a5313cace89bd9750d2a61641e744ed768fb3
+    new: 6f8e1238de71dc3e81c9bcf0e40a44db7112ca4f
 
---===============1068309152256002771==
+--===============4441363318640398023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655452798 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1655452798-3d482868e7150c4e262a681d39991a3051498847
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655453306 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1655453306-cbe477c16e890c238d883ffe0c8713fb13bb3b89
 
-0000000000000000000000000000000000000000 ab4a5313cace89bd9750d2a61641e744ed768fb3 refs/tags/char-misc-5.19-rc3
+0000000000000000000000000000000000000000 6f8e1238de71dc3e81c9bcf0e40a44db7112ca4f refs/tags/staging-5.19-rc3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKsNH4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2IAP/RngsgmlOcEFItgq+Gd8
-ZW1k0ueP1tvKzZLTT3QMW+o4i7lY1UojZWuSqvaCZ0NeyjR0au96XsO6/Wtk6jzl
-ft6rt7R3o+fWmoUKVx3MDX/MVkOJTZVOlbC9wawz2VbladsPzwr1Q4C7mfGE3oCJ
-Kd/3w9uvqogK2SlqS9tc74yptrBwpTYnvTxRuQeFMqLjD/OrU8aX4LdHcxEr0ieP
-fD44LXEuy60OuYENti0vKTm4P3fQD2RoHVyea/Gy/m9X/kEC6FeVLfBEh/H7FTWL
-aajmHuRN89hpm176b6nUVCR2yjBQpblbEqmaPscDDS4MXVrzoJvSb6CUgW5nXQ6p
-dkhcDniRBCnzw2RL5IyXaIKoNh74VV4OA5JQ1BuVavgzM9mFJ/BFv6PakFGSlAUE
-arydWkewrvsxG9kKz5qw3E9J4nWb4pb5vtRsF4tCd91ti4pzm0vMe6Nt9e2kH9M9
-lOa1iCxdQ9lfnS23zELgCW2FHGIRx6KJB3BxEoNPLXwOBspxxiNiVKpM6gZIO37C
-LAZ3/gzetg9WSKURX8uBjiiTW9y0vqwUr3IIeVNX6X2QHT3sR681y77WMzQ2XV7j
-9WXq2jgLtzDTIvbHIAJsCzvsM3jRDQJHNwkhgI1V/ML24rBA1FJVSJbGC86ck3wt
-aeWSPRcZweP7pkiS3ULMfasS
-=Crcl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKsNnobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O9cP/RtDVwIRht6cc4qUjzow
+asWzUG/qOgRYsPhJPViddYjkMvBBRhC7UnW617z/tNsDmKHJrBfXRNm6PDZNyiRR
++MBMLeYpcNEXGLEdS4NlIaP1R5jayrBLkIRi3bpyFj14KhkN99dN9KkFXabHejcu
+h3HsgRoBPJKVktJ1/kxkXWaRDwDYCvs1/sAyMi23RoDP4kc2qpR9N1lGuj/3FReA
+9KDSkmfY9Lg712iighu+iWWZLKr/c5nY7Cv/RrxQHF3tzmEsHg2htpCtO3lb4kmT
+Gzn0OHta3KZhkLMCP5Rzwi+wucs/TjqnPTWzJRa1NibeKPPNa7qj99RciK4wK3gB
+XsEUvPQRc+3nPMaONGdGz3ubbM+OsxKsChpq9hjYK4udl9WTu8kSFwxmnA1qlHqY
+5LWqIKQcF07vVAHHLGnna4RrGSJhqPFvUYiRSSVwO5yZ0ALiIfjpyYgPh6ElDMBQ
+YlcmyToaZXBWNEOJU4FRBSCcLt3/TlRL+TUlnCfKcPezaJpd2bTtITE4JyHR+Ek3
+gDuTHoXzKIuKWTpIbmveTC5d0n3FZloh6nh0WgO7Y+2N6Hr3Q95cG6JXic7Rm9qA
+Ii0Co1RmED/rJRRQF6+Sr4ES4J1mlPm3w1Nu4xWkqs9Tn7uVHadpnYpxHN2DRHWK
+FiuXly5mf9Eg2YICp0Bbej7h
+=ehpy
 -----END PGP SIGNATURE-----
 
---===============1068309152256002771==--
+--===============4441363318640398023==--
