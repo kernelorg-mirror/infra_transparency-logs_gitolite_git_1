@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 17 Jun 2022 11:22:28 -0000
-Message-Id: <165546494818.21798.7955578205283708132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 17 Jun 2022 11:22:36 -0000
+Message-Id: <165546495616.21891.9946595564793915014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/alx/main
-    old: 40cb2368e54e81339c4d1b557d91bd7160496d24
-    new: 757307ae356664f6e0ba5f0fa71748483b775208
+  - ref: refs/heads/master
+    old: 2b04495e21cdb9b45c28c6aeb2da560184de20a3
+    new: b4a028c4d031c27704ad73b1195ca69a1206941e
     log: |
-         6c809df77b359bb3a9e06f32547e0aed155408be iovec.3type: Add new page documenting 'struct iovec'
-         cb3366169531510bcc7d445e15df68396291a05d Various pages: Defer definition of iovec to iovec(3type)
-         757307ae356664f6e0ba5f0fa71748483b775208 process_madvise.2: wfix
+         b4a028c4d031c27704ad73b1195ca69a1206941e ipv4: ping: fix bind address validity check
          
