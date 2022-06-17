@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Fri, 17 Jun 2022 14:36:38 -0000
-Message-Id: <165547659804.19873.4717417810757993642@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3191696650202302027=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 17 Jun 2022 14:37:36 -0000
+Message-Id: <165547665642.20277.8959821807647003646@gitolite.kernel.org>
+
+--===============3191696650202302027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: d7ebcd18cb599ec395d68a655cfa83db47ecb0d4
-    new: 2d1fa9b0b08bb841fde9136c249f632eb04a1e00
+  - ref: refs/heads/master
+    old: 797fc250c7dd64550f2283bdc749eda7555e3fa3
+    new: b7ac0605e148a8d8808eeddd2e03e0ca6822cb5c
     log: |
-         2d1fa9b0b08bb841fde9136c249f632eb04a1e00 xhci: Keep interrupt disabled in initialization until host is running.
+         b7ac0605e148a8d8808eeddd2e03e0ca6822cb5c Add ability to exit before git-merge is invoked
          
+
+--===============3191696650202302027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1655476656 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1655476656-52c1a327cda6b41713f70c03df2fd54ec7f7559f
+
+797fc250c7dd64550f2283bdc749eda7555e3fa3 b7ac0605e148a8d8808eeddd2e03e0ca6822cb5c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHQEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYqyRsAAKCRC2xBzjVmSZ
+bJQrAP9mHaZmL//wsRFfwsU441t/cyrOQXZLuX9Y8lbV+YTI4wD3RPw/eYAWmHkJ
+Q6RwR4KlG/8UvccM37Kcr2WmQs8nAQ==
+=Egzt
+-----END PGP SIGNATURE-----
+
+--===============3191696650202302027==--
