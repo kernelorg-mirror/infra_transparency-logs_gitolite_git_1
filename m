@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 17 Jun 2022 19:36:45 -0000
-Message-Id: <165549460515.27232.8945186164868877315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Fri, 17 Jun 2022 19:37:18 -0000
+Message-Id: <165549463805.27497.11239971609741579139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/tags/pci-v5.19-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: 52b797f74460f0b35fea1b08aa1ceb8e7e1d0ecc
+  - ref: refs/heads/devfreq-fixes
+    old: 56b6afa35bb3385f627bca119cc15b2d51447ec3
+    new: 5b30286664fd485c3bd5c7d9b1cc7b08f821eec9
+    log: |
+         d101ae9b6f2c9c929bb9b577b1b3149ebc9ecca2 PM / devfreq: Fix cpufreq passive unregister erroring on PROBE_DEFER
+         5b30286664fd485c3bd5c7d9b1cc7b08f821eec9 PM / devfreq: passive: Use HZ_PER_KHZ macro in units.h
+         
