@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 17 Jun 2022 11:37:14 -0000
-Message-Id: <165546583482.31381.17992133252908250659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 17 Jun 2022 11:48:24 -0000
+Message-Id: <165546650479.6599.12212537154832270798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 05135505a4a90bbe2e882685a7edc7906ed5b491
-    new: 540ca1c11016ed50940e3f6f555a986356578646
+    old: 224410df38d03a572a3b5cd3000906fb1294ce4e
+    new: 7f56e4129f1c951acc1a5f6f1efa8cf8b85d0075
     log: |
-         203abdf5f0bf78a58d59f3f4a4e8561cb76b10f4 Revert "test/nop: kill cqe32 test code"
-         540ca1c11016ed50940e3f6f555a986356578646 tests: fix and improve nop tests
+         7f56e4129f1c951acc1a5f6f1efa8cf8b85d0075 libmount: remove support for writable /etc/mtab
          
