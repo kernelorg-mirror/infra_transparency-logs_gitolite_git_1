@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 17 Jun 2022 20:50:32 -0000
-Message-Id: <165549903252.11711.16060780438604334137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 17 Jun 2022 20:50:47 -0000
+Message-Id: <165549904754.11856.1262639708393118373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/poll-test.2022.06.16a
-    old: 0000000000000000000000000000000000000000
-    new: 3c94474d4e33e5031523e68f73b044201ef225b5
+  - ref: refs/heads/master
+    old: e9608bebbf25925eaf17432e626e86ccd4583182
+    new: 1535d019d2b75652cdd036d02f2add5dff6b5fc3
+    log: |
+         1535d019d2b75652cdd036d02f2add5dff6b5fc3 Fri Jun 17 08:50:07 PM UTC 2022
+         
