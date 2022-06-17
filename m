@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8142070451609690655=="
+Content-Type: multipart/mixed; boundary="===============6110645178300049195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Jun 2022 02:18:24 -0000
-Message-Id: <165543230462.8682.11383834674293537997@gitolite.kernel.org>
+Date: Fri, 17 Jun 2022 02:18:36 -0000
+Message-Id: <165543231668.8836.5984996909664908027@gitolite.kernel.org>
 
---===============8142070451609690655==
+--===============6110645178300049195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 3ae7573b01e9e5276190b163ce81c4314c33ecaf
-    new: 77e1477c831e068688bd98131f1675c3ff271ce2
+  - ref: refs/heads/5.19/scsi-fixes
+    old: f6eed15f3ea76596ccc689331e1cc850b999133b
+    new: aeaadcde1a60138bceb65de3cdaeec78170b4459
     log: |
          da8badd7d3583f447eac2ab65a332f2d773deca1 scsi: ufs: Simplify ufshcd_clear_cmd()
          d1a7644648b7cdacaf8d1013a4285001911e9bc8 scsi: ufs: Support clearing multiple commands at once
@@ -28,33 +28,33 @@ changes:
          aeaadcde1a60138bceb65de3cdaeec78170b4459 scsi: ibmvfc: Store vhost pointer during subcrq allocation
          
 
---===============8142070451609690655==
+--===============6110645178300049195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655432295 -0400
+pusher 75C5DE3D 1655432307 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655432294-15f37a96900e825ff474e1f0305e92156b109bcb
+nonce 1655432307-a816b13c10549ea245b4bce61d6b75a4122dfc00
 
-3ae7573b01e9e5276190b163ce81c4314c33ecaf 77e1477c831e068688bd98131f1675c3ff271ce2 refs/tags/mkp-scsi-fixes
+f6eed15f3ea76596ccc689331e1cc850b999133b aeaadcde1a60138bceb65de3cdaeec78170b4459 refs/heads/5.19/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKr5GcACgkQ7ulgGnXF
-3j0XZg/6AlO+N8fTiDvmnFqZRWh5wr63YAsQ7Jqhn5NIkJLypsoTeLTZBGXEcyCC
-tV7laWHnFsSsWdsJ6GKZEd/xNu3ijMAT2JNyQW+UuJOwU5uG+aa9R174twGJqtCH
-Gfzi9w+iAPDdixNscyfTlpq6BpI/IkycLjMgMPDJqWmZh4BFofjkUIwc1j/Yd4f0
-xGbyf4/U4avNbyQlDRujlIXOS3gi74Ks0qLkfMW3bCoH4EiZ+zFhyH4AIh0z7kgz
-XP1RexdJ15UdFaupOdMJZpjIEAtXxEW6DH5K1ARY9/7hyqwKDv/RFQsSoawhV9lV
-HrEDxZEoirZdaJ4EEbiryO++w6EhFq/vPT+pAgFbSqYmLSSoXsqL7dcyfpQhhdkn
-Tl+weCxq978pjmEU6VRZHfl1chU0FhQEvBBXTalJ4717m84bXLnmsH3eW+HbAt6X
-SvVao9H0UN8LVI8xwONl+dH6G/ET5wNlLA1D8IfJAB/anrzSnO895fD418tevhPD
-Z/fwcup1tIbkvtrTQ1y6d4no9Ypvqihukhv6bt4ATrz7ccw+bZpTLIVFMwa0/7vo
-xt1L8sA9IkQKaA2eKHfMKnx615KDkPMSJy6mm7TSCM+l+qZOGdaPKR1iysb3nO02
-FSmlfMhmkqIuBpqKi86dlZE7Kg2ai0LJnNsRiNuNfWt4wOLIzaU=
-=RnEH
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKr5HMACgkQ7ulgGnXF
+3j3Wrg/6AsaOlUc8/dXyMCHkg4aTgLiFYNW9/q5qz6sEiRipQG+sHjUlXfDkkj77
+IvfZUM/LOmv4/3KqR3KnnbfCkAzzDa8taZBwvmTkp894adkb8Ikv9L9l9n2TEqtu
+kBvLrkDtWFKTqPLHh8PkB1ctBUMWMnyKFJy97gohomxXsot3Dtn9L/GLsvC+wd+p
+DTNSn9D7rfL0SivfTVlVYnghKAXH9TFoaB6wNmdYUdC/watvmwFOoqrgR5pvGmkT
+NB1kNPU9hmeMWVUi/Hd4BgGFDZY+CFgeW8jW9XZwDCAj1f4rfrHpZ52UaPxDq5tm
+czpaqkBpixjprnqK/m6Q+Q/x5mR/edFFJ0r2QAL28cP0QcFBnbZeh9ZdaPddlecI
+VZvbuvaKrx0dz2L26hIG7iNS5DlILC2GkAnh2bN5izo5vV1Yq7O8NxLTu2XY9gBu
+LM46TbCg/T0TLa/0nl/xKEeA5GoXwdXaUu4ltpu7O836y4eGdK1BZLWdIZriqwZ3
+vEDXOSvVRvqg65M+n0RR/uUSPeJF8JDtun8iOBCITKqM0SmKpTMAVAQVPG2BrQ86
+3v44z1jTJNnTHVGpUGLeRCiweTI0LUO/GO1CKQW7xSwHdn8tKkVv5STsaEDg8EB5
+ZWSadB1wS6TfPpDlmCKtRn6WmHgsZOg9w1wViHMd2om5Ty9+yrU=
+=ytvd
 -----END PGP SIGNATURE-----
 
---===============8142070451609690655==--
+--===============6110645178300049195==--
