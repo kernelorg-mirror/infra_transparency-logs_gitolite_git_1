@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3703201842230846417=="
+Content-Type: multipart/mixed; boundary="===============5165497795016734035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 18 Jun 2022 05:21:36 -0000
-Message-Id: <165552969652.17909.9526123570182926893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sat, 18 Jun 2022 05:22:57 -0000
+Message-Id: <165552977771.18433.6759205064027166900@gitolite.kernel.org>
 
---===============3703201842230846417==
+--===============5165497795016734035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/tags/mlx-next
     old: 158e71bb69e368b8b33e8b7c4ac8c111da0c1ae2
     new: 686141bc02f2d1b668a12d32b5e02c7987228aff
     log: revlist-158e71bb69e3-686141bc02f2.txt
 
---===============3703201842230846417==
+--===============5165497795016734035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ d56e336e8444970964b6e8d1bd4536f505256c41 RDMA/usnic: Use device_iommu_capable()
 1a685940e6200e9def6e34bbaa19dd31dc5aeaf8 RDMA/rxe: fix xa_alloc_cycle() error return value check again
 686141bc02f2d1b668a12d32b5e02c7987228aff Merge branch 'mlx5-next' into wip/leon-for-next
 
---===============3703201842230846417==--
+--===============5165497795016734035==--
