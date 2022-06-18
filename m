@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sat, 18 Jun 2022 14:10:05 -0000
-Message-Id: <165556140546.12314.847797117807869703@gitolite.kernel.org>
+Date: Sat, 18 Jun 2022 14:18:28 -0000
+Message-Id: <165556190860.17750.5284000034719166907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/devfreq-fixes
-    old: e26012d64f159a83e575c38e2e6a979ac0638d94
-    new: b5f2cec47cfc763a82c665c49609bc93cc452d91
+    old: b5f2cec47cfc763a82c665c49609bc93cc452d91
+    new: de99a8fc080e2844f9f8d6a4fb5a3cc3f9d259ce
     log: |
-         b5f2cec47cfc763a82c665c49609bc93cc452d91 devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
+         de99a8fc080e2844f9f8d6a4fb5a3cc3f9d259ce PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
          
