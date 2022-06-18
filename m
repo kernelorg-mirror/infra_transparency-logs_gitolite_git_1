@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4244109061455307596=="
+Content-Type: multipart/mixed; boundary="===============5948068719792824865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 18 Jun 2022 22:40:07 -0000
-Message-Id: <165559200720.14636.8321879954640721520@gitolite.kernel.org>
+Date: Sat, 18 Jun 2022 22:40:13 -0000
+Message-Id: <165559201334.14761.12488949411727898562@gitolite.kernel.org>
 
---===============4244109061455307596==
+--===============5948068719792824865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f5be22c64bd6ee6c1cb0b34f4ff748d43879cd4c
     new: dbca1596bbb08318f5e3b3b99f8ca0a0d3830a65
     log: revlist-f5be22c64bd6-dbca1596bbb0.txt
 
---===============4244109061455307596==
+--===============5948068719792824865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f691b4d87edfd3fb37ad589d38cf858f47c6e050 atm: iphase: Fix typo in comment
 f0623340fd2cab724e3c54ac026d1414325f375d ax25: use GFP_KERNEL in ax25_dev_device_up()
 dbca1596bbb08318f5e3b3b99f8ca0a0d3830a65 ping: convert to RCU lookups, get rid of rwlock
 
---===============4244109061455307596==--
+--===============5948068719792824865==--
