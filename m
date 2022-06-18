@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 18 Jun 2022 11:01:14 -0000
-Message-Id: <165555007470.20759.5950566309667260287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 18 Jun 2022 11:12:08 -0000
+Message-Id: <165555072875.27176.14562686932393728603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/irq/gsi-multi-domain
-    old: a3fdc06a53cbcc0e6b77863aae9a7b01a0848fd0
-    new: 3e6b87ea49473d0eb384f42e76d584a1495a538c
+  - ref: refs/heads/for-kernelci
+    old: 471ce969846a9d03244edcd56df409ed17a3801a
+    new: d03d1c3da4b510d1cac09725fdad126ce7046ce5
     log: |
-         3e6b87ea49473d0eb384f42e76d584a1495a538c ACPI: irq: Allow acpi_gsi_to_irq() to have an arch-specific fallback
+         f4d7b91a82aab48992e6053e20541eb28888fa70 selftests/kexec: remove broken EFI_VARS secure boot fallback check
+         847e8ac699669b259e3b0b976d45ad5e46b36c3a efi: remove deprecated 'efivars' sysfs interface
+         ee0c31b80eacefee0fc27f9d0b52667b79aa2921 efi: avoid efivars layer when loading SSDTs from variables
+         bb693a559700e73c5467658aa51c41e7f29d2089 Input: applespi - avoid efivars API and invoke EFI services directly
+         7765d69c24e747519d231c6b314d6221b21071e9 iwlwifi: Switch to proper EFI variable store interface
+         d03d1c3da4b510d1cac09725fdad126ce7046ce5 brcmfmac: Switch to appropriate helper to load EFI variable contents
          
