@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 18 Jun 2022 03:12:59 -0000
-Message-Id: <165552197975.31504.8934780156752508551@gitolite.kernel.org>
+Date: Sat, 18 Jun 2022 03:14:34 -0000
+Message-Id: <165552207451.32150.16699552206766876919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9fb424c4c29df0d7f39b686d4037cbc7e06ed7b5
-    new: 7a49f2193063b7db60a964fc26774275a4c964cd
+    old: 7a49f2193063b7db60a964fc26774275a4c964cd
+    new: 382f99c442b36b4bb76b2fbeabde99b54583085f
     log: |
-         7a49f2193063b7db60a964fc26774275a4c964cd net: dsa: ar9331: fix potential dead lock on mdio access
+         382f99c442b36b4bb76b2fbeabde99b54583085f nfp: add support for .get_pauseparam()
          
