@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 18 Jun 2022 17:50:03 -0000
-Message-Id: <165557460354.24562.14066703479847492341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 18 Jun 2022 17:56:12 -0000
+Message-Id: <165557497245.28004.8283245143371968885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-5.20/io_uring-cancel
-    old: a4c6cbdd11065c119304916ea8f3be1e53b93d7e
-    new: c96865d6b624236f64b285734357c704a8fbf10c
+  - ref: refs/heads/master
+    old: 7c71de59169731184c3248fdbc41df4e0a6cade1
+    new: 287ebfe37093af7d54d9feb2ce95a5a3170d2363
     log: |
-         c96865d6b624236f64b285734357c704a8fbf10c io_uring: add sync cancelation API through io_uring_register()
+         287ebfe37093af7d54d9feb2ce95a5a3170d2363 foo
          
