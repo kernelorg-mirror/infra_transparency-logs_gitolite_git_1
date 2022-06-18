@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 18 Jun 2022 03:34:35 -0000
-Message-Id: <165552327543.12337.4582839628301920306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 18 Jun 2022 04:37:15 -0000
+Message-Id: <165552703532.21189.16271439877223912240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: a3bb7b63813f674fb62bac321cdd897cc62de094
-    new: a2b1a5d40bd12b44322c2ccd40bb0ec1699708b6
+  - ref: refs/heads/dev
+    old: 571252796c089880b804835f6cfc9c3da3ae8c4f
+    new: 6a69e757b6a65bb81f1f7d12083668dddd3ba930
     log: |
-         a2b1a5d40bd12b44322c2ccd40bb0ec1699708b6 net/sched: sch_netem: Fix arithmetic in netem_dump() for 32-bit platforms
+         cb58562318cf1fa7ad7c2c4c8d8e847c7942df66 rcu: Fix rcu_read_unlock_strict() strict QS reporting
+         c09ca10d879bae4a8df842dbe8d6bd8b87830633 rcu/nocb: Choose the right rcuog/rcuop kthreads to output
+         6a69e757b6a65bb81f1f7d12083668dddd3ba930 rcu: Avoid reporting strict QSes from NMI context
          
