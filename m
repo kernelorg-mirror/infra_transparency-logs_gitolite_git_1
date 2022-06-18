@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4689650607419089695=="
+Content-Type: multipart/mixed; boundary="===============2448911739521760660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/git/git
-Date: Fri, 17 Jun 2022 23:58:37 -0000
-Message-Id: <165551031777.2806.5272477896976454699@gitolite.kernel.org>
+Date: Sat, 18 Jun 2022 00:43:31 -0000
+Message-Id: <165551301170.32182.17846589732642940175@gitolite.kernel.org>
 
---===============4689650607419089695==
+--===============2448911739521760660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,56 +15,75 @@ service: git-receive-pack
 repo: pub/scm/git/git
 user: junio
 changes:
-  - ref: refs/heads/next
-    old: 88d4d7bc0ef3988d29a01306cfbe5dbc563cb410
-    new: 8834ffe0ab92dabda3fabd6fa2160ac02869765c
+  - ref: refs/heads/main
+    old: b4eda05d58ca3e4808d3d86ab5826c77995a06f7
+    new: 5b71c59bc3b9365075e2a175aa7b6f2b0c84ce44
     log: |
          6b11e3d52e919cce91011f4f9025e6f4b61375f2 git-compat-util: allow root to access both SUDO_UID and root owned
-         a3ba4fa715c67329736c9483f4b3fdab99cee50f setup: fix function name in a BUG() message
-         518afcbc48f4314bcfb72371410281e4d6e494fd Merge branch 'cb/path-owner-check-with-sudo-plus' into next
-         8834ffe0ab92dabda3fabd6fa2160ac02869765c Merge branch 'cr/setup-bug-typo' into next
+         694c0cc0fb531b17750ac6e81920054f193f8eb8 Merge branch 'cb/path-owner-check-with-sudo-plus'
+         5b71c59bc3b9365075e2a175aa7b6f2b0c84ce44 Git 2.37-rc1
+         
+  - ref: refs/heads/master
+    old: b4eda05d58ca3e4808d3d86ab5826c77995a06f7
+    new: 5b71c59bc3b9365075e2a175aa7b6f2b0c84ce44
+    log: |
+         6b11e3d52e919cce91011f4f9025e6f4b61375f2 git-compat-util: allow root to access both SUDO_UID and root owned
+         694c0cc0fb531b17750ac6e81920054f193f8eb8 Merge branch 'cb/path-owner-check-with-sudo-plus'
+         5b71c59bc3b9365075e2a175aa7b6f2b0c84ce44 Git 2.37-rc1
+         
+  - ref: refs/heads/next
+    old: 8834ffe0ab92dabda3fabd6fa2160ac02869765c
+    new: 763f9739486ebf52dadb6c56742daf07e738829f
+    log: |
+         694c0cc0fb531b17750ac6e81920054f193f8eb8 Merge branch 'cb/path-owner-check-with-sudo-plus'
+         5b71c59bc3b9365075e2a175aa7b6f2b0c84ce44 Git 2.37-rc1
+         763f9739486ebf52dadb6c56742daf07e738829f Sync with Git 2.37-rc1
          
   - ref: refs/heads/seen
-    old: cbb3d888ab372b3f184d8fde1a7d835e659d4e2e
-    new: 819e8fd4863cee09782a0aa3eda21a6dc7512ff7
-    log: revlist-cbb3d888ab37-819e8fd4863c.txt
+    old: 819e8fd4863cee09782a0aa3eda21a6dc7512ff7
+    new: 5b1908ef2c3a3e9fa618afaaa956470ff68217b9
+    log: revlist-819e8fd4863c-5b1908ef2c3a.txt
+  - ref: refs/tags/v2.37.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c2b5f3472e50f61d3624f3e0788c1080cd0b5e81
 
---===============4689650607419089695==
+--===============2448911739521760660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbb3d888ab37-819e8fd4863c.txt
+Content-Disposition: attachment; filename=revlist-819e8fd4863c-5b1908ef2c3a.txt
 
-b55d47281f8adb97c171ba1afae077cfc4b05715 Merge branch 'cb/path-owner-check-with-sudo-plus' into jch
-2258842173d84fcd3275e90ced07c58ebc517159 Merge branch 'ac/bitmap-format-doc' into jch
-ad66a66bb6a0976cfbfadd05272508e4f2705e88 Merge branch 'jk/optim-promisor-object-enumeration' into jch
-ad9c5b36766b8c6c8cd7fbcd55477d8d511f90a2 Merge branch 'jp/prompt-clear-before-upstream-mark' into jch
-2c20878989ef1032364e7a3d6845ef0f741e56cd Merge branch 'jc/resolve-undo' into jch
-2a739fdcc58f185208b38c65b74ae975996b72d3 Merge branch 'ds/branch-checked-out' into jch
-f0117b59ee8178e2fc839c148b4b5e641b6b663e Merge branch 'rs/archive-with-internal-gzip' into jch
-eb83aea741c495e107a3d6e95ee9ddacc9999176 Merge branch 'cr/setup-bug-typo' into jch
-0c0ae49cc13d67746582a671a2f63c9c662f24c3 ### match next
-bb7ca7e6cb15880d5f00c0534d23e7d444a87c4b Merge branch 'jk/remote-show-with-negative-refspecs' into jch
-699d68f520e3f824c31f7599f197993e86aeceba Merge branch 'zk/push-use-bitmaps' into jch
-32ad2e18636e0cefc4efb58c80d20a3ab025e604 Merge branch 'ro/mktree-allow-missing-fix' into jch
-c653296669c16e393f99aa0e158f36273c1cf376 Merge branch 'hx/unpack-streaming' into jch
-1f7d09f90c93caa1725fbcf3462b9d4e7b7c709b Merge branch 'en/merge-tree' into jch
-216ecc72cc015223e989e7ed2151898487ae6643 Merge branch 'bc/stash-export' into jch
-37a828181669552cd8937f1834ca64e179168a8b Merge branch 'ab/build-gitweb' into jch
-10f29086db5e573e8a6b5e5247f3615afc4f3d73 Merge branch 'ds/bundle-uri-more' into jch
-017b296ec074fac88c314cd9e1ad7a76dc661de4 Merge branch 'tb/show-ref-count' into jch
-d8c7193eb1f5f3633abe150d772e8e34cef7393d Merge branch 'jc/apply-icase-tests' into jch
-61ecdca0e59451f0e50dc806a02a586b2c1b9bac Merge branch 'pb/diff-doc-raw-format' into jch
-86f987c50f7bc888d10b87b12b54c0482a1a22e4 Merge branch 'tl/pack-bitmap-trace' into jch
-5c0f2d1f1abfb7fa8b51799941f988b83aef7b85 Merge branch 'js/commit-graph-parsing-without-repo-settings' into jch
-6ea6515830f477a33bbf70910d5ba098f94eedb7 Merge branch 'ar/send-email-confirm-by-default' into seen
-8bcc919aa2818fe61f26feaf2c2bea4565c07d48 Merge branch 'cw/remote-object-info' into seen
-3572f0f2292426ff6c4a389a3cfe84b6ab062270 Merge branch 'gc/bare-repo-discovery' into seen
-911216dcfd3643a69e4f5ca0262a83e6c0176004 Merge branch 'gg/worktree-from-the-above' into seen
-9ac2d021ccff969b50372ca4aaf46f9616686c01 Merge branch 'js/bisect-in-c' into seen
-ecfec4904c198017f79a5007b75d4d8a447a9878 Merge branch 'gc/submodule-update' into seen
-9ff6ba7581981453d340fa24ad776aef5fdbce46 Merge branch 'jt/connected-show-missing-from-which-side' into seen
-5c2c53c022f0149cf5e07f563a5d0fa3b2304bf1 Merge branch 'll/curl-accept-language' into seen
-819e8fd4863cee09782a0aa3eda21a6dc7512ff7 Merge branch 'ab/test-without-templates' into seen
+694c0cc0fb531b17750ac6e81920054f193f8eb8 Merge branch 'cb/path-owner-check-with-sudo-plus'
+5b71c59bc3b9365075e2a175aa7b6f2b0c84ce44 Git 2.37-rc1
+c48214066dead0dbe171333fe2c4e591e68ae73b Merge branch 'ac/bitmap-format-doc' into jch
+fa214674b82beec824ec808d6c5a7919cc05123b Merge branch 'jk/optim-promisor-object-enumeration' into jch
+0d7c0a9c40d0acece099877f07a30f7149590c1d Merge branch 'jp/prompt-clear-before-upstream-mark' into jch
+ddcf2bee18ea9859a1b932e9f7e289ea03085d7d Merge branch 'jc/resolve-undo' into jch
+0841696d3ea6ceb73c5618fb31d553ae60c2e570 Merge branch 'ds/branch-checked-out' into jch
+b3ee7f5e73df717db05f1d1c7b9364c6d214ecc0 Merge branch 'rs/archive-with-internal-gzip' into jch
+c0ef9f733cb51bac00613722ab03178c427c3c19 Merge branch 'cr/setup-bug-typo' into jch
+58b6bfb55c7ac926609fb1e412cda450f40b77eb ### match next
+65c0b137a1bd93e6211a74cf33a924f384c7fd79 Merge branch 'jk/remote-show-with-negative-refspecs' into jch
+2d65c0e44dec7446f594e2b82bfd85a90b0edd00 Merge branch 'zk/push-use-bitmaps' into jch
+6ae7ec4ffc751b455c18772d2caeb01a2d1fcb97 Merge branch 'ro/mktree-allow-missing-fix' into jch
+cc98957f89b4afb5e34bc3380c954a959612d53b Merge branch 'hx/unpack-streaming' into jch
+f55af784062e29ab92ba15abcfcfcb06765260da Merge branch 'en/merge-tree' into jch
+ddc5c679cf713e5e3459c6c4b101bbcaafed043e Merge branch 'bc/stash-export' into jch
+49d1fa39f5f3a0701cb39198c6c26c2f6c7c8c9d Merge branch 'ab/build-gitweb' into jch
+841b17a1ea39e4d1e4078d97b3cdee21138ee75d Merge branch 'ds/bundle-uri-more' into jch
+8030820c89c1e8a259ea8eb213724dace79a2449 Merge branch 'tb/show-ref-count' into jch
+d944da99b6b7808aec3902ac90be432b045baab0 Merge branch 'jc/apply-icase-tests' into jch
+110d173f1464ac3f9be9414c81a2b81bdff0c144 Merge branch 'pb/diff-doc-raw-format' into jch
+b7ce3c196a2cc3c6ae7d3a272717ceab55f5491d Merge branch 'tl/pack-bitmap-trace' into jch
+1ae6a61a9aa94348bad7b945f8063a8c73c19500 Merge branch 'js/commit-graph-parsing-without-repo-settings' into jch
+7942dbe7f360e15c6d39ab6e919845671c13ef45 Merge branch 'ar/send-email-confirm-by-default' into seen
+581c10f657e7effe3456d9b16e1aec662ec27f91 Merge branch 'cw/remote-object-info' into seen
+51ecdcf5a7f3ec388dce2fd24c9f6ae9e09bd7f9 Merge branch 'gc/bare-repo-discovery' into seen
+12a3dd3f4f9a9b2cf6863dec1f4ba781a6df4d4a Merge branch 'gg/worktree-from-the-above' into seen
+f922520be95749c647579479700b7b8d1d05b8f5 Merge branch 'js/bisect-in-c' into seen
+179f971d10509de564808de6de75db1594dce021 Merge branch 'gc/submodule-update' into seen
+772f22737e08af5fe17cee3913dd8bea8fd96594 Merge branch 'jt/connected-show-missing-from-which-side' into seen
+5a065e5fc33f0a534b991660d2a1afa7b6f312a5 Merge branch 'll/curl-accept-language' into seen
+5b1908ef2c3a3e9fa618afaaa956470ff68217b9 Merge branch 'ab/test-without-templates' into seen
 
---===============4689650607419089695==--
+--===============2448911739521760660==--
