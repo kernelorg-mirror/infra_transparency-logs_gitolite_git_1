@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 18 Jun 2022 13:50:03 -0000
-Message-Id: <165556020352.432.16184374610528994505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Sat, 18 Jun 2022 14:10:05 -0000
+Message-Id: <165556140546.12314.847797117807869703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/for-5.20/io_uring-iter
-    old: 01151f19582bd083a7cf406bd43a5f46b6cd1d51
-    new: 8a0a032ba7c0b734b8f8174257cd8ea90f441fc6
+  - ref: refs/heads/devfreq-fixes
+    old: e26012d64f159a83e575c38e2e6a979ac0638d94
+    new: b5f2cec47cfc763a82c665c49609bc93cc452d91
     log: |
-         c19f792d757f7135c4639c426b48f01c56aa98ac iov_iter: import single segments iovecs as ITER_UBUF
-         8a0a032ba7c0b734b8f8174257cd8ea90f441fc6 iov_iter: fix bad parenthesis placement for iter_type check
+         b5f2cec47cfc763a82c665c49609bc93cc452d91 devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
          
