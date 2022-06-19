@@ -1,49 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Sun, 19 Jun 2022 07:28:13 -0000
-Message-Id: <165562369339.29199.12675266590974986993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-logs
+Date: Sun, 19 Jun 2022 07:30:02 -0000
+Message-Id: <165562380274.31291.5263111633765190891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: ggreenman
+repo: pub/scm/devel/sparse/sparse-logs
+user: lucvoo
 changes:
-  - ref: refs/heads/chromeos-4.4__release/core71-49
-    old: 0000000000000000000000000000000000000000
-    new: f7288ab7c20827f2e470c864f9cfbc6c7a5f1fd3
-  - ref: refs/tags/chromeos-4.4__release/core71-2022-06-19
-    old: 0000000000000000000000000000000000000000
-    new: f7288ab7c20827f2e470c864f9cfbc6c7a5f1fd3
-  - ref: refs/heads/chromeos-4.14__release/core71-49
-    old: 0000000000000000000000000000000000000000
-    new: f13a9dae0160c2f0e6504090de06f4f7a79b5d18
-  - ref: refs/tags/chromeos-4.14__release/core71-2022-06-19
-    old: 0000000000000000000000000000000000000000
-    new: f13a9dae0160c2f0e6504090de06f4f7a79b5d18
-  - ref: refs/heads/chromeos-4.19__release/core71-49
-    old: 0000000000000000000000000000000000000000
-    new: 567e624e9e8191100b92d91d3a8cb2f12fc1f85a
-  - ref: refs/tags/chromeos-4.19__release/core71-2022-06-19
-    old: 0000000000000000000000000000000000000000
-    new: 567e624e9e8191100b92d91d3a8cb2f12fc1f85a
-  - ref: refs/heads/chromeos-5.4__release/core71-49
-    old: 0000000000000000000000000000000000000000
-    new: 8b3758803aac272cb52c5d0dc1facd3684fd7bae
-  - ref: refs/tags/chromeos-5.4__release/core71-2022-06-19
-    old: 0000000000000000000000000000000000000000
-    new: 8b3758803aac272cb52c5d0dc1facd3684fd7bae
-  - ref: refs/heads/chromeos-5.10__release/core71-49
-    old: 0000000000000000000000000000000000000000
-    new: 9354c4e478aca3881497cfad7a59cb92d1109b2f
-  - ref: refs/tags/chromeos-5.10__release/core71-2022-06-19
-    old: 0000000000000000000000000000000000000000
-    new: 9354c4e478aca3881497cfad7a59cb92d1109b2f
-  - ref: refs/heads/chromeos-5.15__release/core71-49
-    old: 0000000000000000000000000000000000000000
-    new: e6a35a0b0da06320af424e1e3586a8868d430998
-  - ref: refs/tags/chromeos-5.15__release/core71-2022-06-19
-    old: 0000000000000000000000000000000000000000
-    new: e6a35a0b0da06320af424e1e3586a8868d430998
+  - ref: refs/heads/klogs
+    old: 88f74718f4b506617873eee9b6b763a928c09204
+    new: bdac0192d55e4e94d01bce1d83839e6894e085ac
+    log: |
+         610fedec621ec4b4e7e12178834e6843cd73637f v5.16
+         d4fbbd1dfb1ed94c7fbdab89e3876ca752d71936 v5.17
+         8bda7420d7adce9e0533a9e05962286cc176fe8c v5.18
+         d814d889a2c5d5ce832d5c6a2c314856cf1668e4 v5.19
+         8902a3c2237e9f0ec0f5a3f10200cc8e028c683a arm64
+         bdac0192d55e4e94d01bce1d83839e6894e085ac ppc64
+         
