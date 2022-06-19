@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6088283951136564164=="
+Content-Type: multipart/mixed; boundary="===============1723965290087295306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 19 Jun 2022 17:35:22 -0000
-Message-Id: <165566012200.11826.6171433236625488155@gitolite.kernel.org>
+Date: Sun, 19 Jun 2022 17:36:46 -0000
+Message-Id: <165566020671.12322.12734053567560206838@gitolite.kernel.org>
 
---===============6088283951136564164==
+--===============1723965290087295306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 219b51a6f040fa5367adadd7d58c4dda0896a01d
     new: 9926de7315be3d606cc011a305ad9adb9e8e14c9
     log: revlist-219b51a6f040-9926de7315be.txt
 
---===============6088283951136564164==
+--===============1723965290087295306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -215,4 +215,4 @@ a2b1a5d40bd12b44322c2ccd40bb0ec1699708b6 net/sched: sch_netem: Fix arithmetic in
 8fc74d18639a2402ca52b177e990428e26ea881f drivers/net/ethernet/neterion/vxge: Fix a use-after-free bug in vxge-main.c
 9926de7315be3d606cc011a305ad9adb9e8e14c9 net: phy: at803x: fix NULL pointer dereference on AR9331 PHY
 
---===============6088283951136564164==--
+--===============1723965290087295306==--
