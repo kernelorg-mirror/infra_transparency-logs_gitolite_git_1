@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7270462979717089772=="
+Content-Type: multipart/mixed; boundary="===============0434059596218393012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sun, 19 Jun 2022 11:40:57 -0000
-Message-Id: <165563885748.10525.6175516303848725074@gitolite.kernel.org>
+Date: Sun, 19 Jun 2022 11:42:34 -0000
+Message-Id: <165563895457.11412.10256927880294145524@gitolite.kernel.org>
 
---===============7270462979717089772==
+--===============0434059596218393012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 5cd6adc62818c613bef3fdcf48d5c1473e617e9f
-    new: 5f5d0c2535b5647380e595a159f5f3781208dae6
-    log: revlist-5cd6adc62818-5f5d0c2535b5.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 52de9431d314a28c4aa66d8f81144c9958c11168
+    new: e29d8378caa8e876b6216f748499e1c0065a26cc
+    log: revlist-52de9431d314-e29d8378caa8.txt
 
---===============7270462979717089772==
+--===============0434059596218393012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cd6adc62818-5f5d0c2535b5.txt
+Content-Disposition: attachment; filename=revlist-52de9431d314-e29d8378caa8.txt
 
 929d46ff6e73780261380d1de2e33ae00dcec00c ptrace: Check PTRACE_O_SUSPEND_SECCOMP permission on PTRACE_SEIZE
 86fed754c5ea084751b011af36779add17560724 xen/blkfront: don't use gnttab_query_foreign_access() for mapped status
@@ -45,5 +45,6 @@ c21c708b6d711f1aca419342dd50eac0a36e9dd8 x86/speculation: Update link to AMD spe
 d0edcbbac0803a689eac5e8038d32d7a7374f9f3 x86/speculation: Warn about Spectre v2 LFENCE mitigation
 bd00e9a2d5b812daa1b6aeba33c8a79ef86ee95a x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
 5f5d0c2535b5647380e595a159f5f3781208dae6 x86/speculation, objtool: Annotate indirect calls/jumps for objtool
+e29d8378caa8e876b6216f748499e1c0065a26cc Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
 
---===============7270462979717089772==--
+--===============0434059596218393012==--
