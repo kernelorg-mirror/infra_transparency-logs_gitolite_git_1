@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 19 Jun 2022 22:38:57 -0000
-Message-Id: <165567833790.11389.12648987552036520324@gitolite.kernel.org>
+Date: Sun, 19 Jun 2022 22:42:57 -0000
+Message-Id: <165567857757.15373.10965037852613364428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 2e16e0e9222642bbc20bf0b6bfb30fba0df45341
-    new: dfe31cae0c75b31ed0b44df13f36fc02688458fc
+    old: dfe31cae0c75b31ed0b44df13f36fc02688458fc
+    new: a1d6bf1ea911278ca5bcbdfc4df12b40f350d74d
     log: |
-         dfe31cae0c75b31ed0b44df13f36fc02688458fc aiocb.3type, lconv.3type: .TH: tfix
+         a1d6bf1ea911278ca5bcbdfc4df12b40f350d74d aiocb.3type, lconv.3type: NAME: Remove 'struct' keyword
          
