@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 19 Jun 2022 15:36:47 -0000
-Message-Id: <165565300718.32604.17296405685744319068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Sun, 19 Jun 2022 16:11:49 -0000
+Message-Id: <165565510938.22304.12114706722761124760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/master
-    old: 8de4b3611000929e8e7301ea8264d8b04943ecfa
-    new: ef1152b1acc945f435a49495544ae93e85e46e65
+  - ref: refs/heads/main
+    old: bfffaf1360916a5acc80c96008cb70b038476e00
+    new: 6f97e9c9337b9c083ea0719b633622bcfef5d77b
     log: |
-         ef1152b1acc945f435a49495544ae93e85e46e65 Sun Jun 19 03:35:55 PM UTC 2022
+         6f97e9c9337b9c083ea0719b633622bcfef5d77b vdpa: Add support for reading vdpa device statistics
+         
+  - ref: refs/heads/master
+    old: bfffaf1360916a5acc80c96008cb70b038476e00
+    new: 6f97e9c9337b9c083ea0719b633622bcfef5d77b
+    log: |
+         6f97e9c9337b9c083ea0719b633622bcfef5d77b vdpa: Add support for reading vdpa device statistics
          
