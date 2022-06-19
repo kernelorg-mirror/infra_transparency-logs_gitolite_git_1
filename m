@@ -1,50 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============0434059596218393012=="
+Content-Type: multipart/mixed; boundary="===============5969285838982603677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sun, 19 Jun 2022 11:42:34 -0000
-Message-Id: <165563895457.11412.10256927880294145524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Sun, 19 Jun 2022 11:52:58 -0000
+Message-Id: <165563957830.18615.3130527007231153024@gitolite.kernel.org>
 
---===============0434059596218393012==
+--===============5969285838982603677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y-cip
-    old: 52de9431d314a28c4aa66d8f81144c9958c11168
-    new: e29d8378caa8e876b6216f748499e1c0065a26cc
-    log: revlist-52de9431d314-e29d8378caa8.txt
+  - ref: refs/heads/fixes
+    old: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
+    new: 7bc08056a6dabc3a1442216daf527edf61ac24b6
+    log: |
+         6cf06c17e94f26c290fd3370a5c36514ae15ac43 powerpc/mm: Move CMA reservations after initmem_init()
+         20a9689b3607456d92c6fb764501f6a95950b098 powerpc/microwatt: wire up rng during setup_arch()
+         e561e472a3d441753bd012333b057f48fef1045b powerpc/pseries: wire up rng during setup_arch()
+         ec6d0dde71d760aa60316f8d1c9a1b0d99213529 powerpc: Enable execve syscall exit tracepoint
+         7bc08056a6dabc3a1442216daf527edf61ac24b6 powerpc/rtas: Allow ibm,platform-dump RTAS call with null buffer address
+         
+  - ref: refs/heads/master
+    old: 4b35035bcf80ddb47c0112c4fbd84a63a2836a18
+    new: 354c6e071be986a44b956f7b57f1884244431048
+    log: revlist-4b35035bcf80-354c6e071be9.txt
+  - ref: refs/heads/next-test
+    old: 028de148fa5a5465ed75d39ea79ad8ebd1b35e2f
+    new: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
 
---===============0434059596218393012==
+--===============5969285838982603677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52de9431d314-e29d8378caa8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-929d46ff6e73780261380d1de2e33ae00dcec00c ptrace: Check PTRACE_O_SUSPEND_SECCOMP permission on PTRACE_SEIZE
-86fed754c5ea084751b011af36779add17560724 xen/blkfront: don't use gnttab_query_foreign_access() for mapped status
-57e42dd4d78e855afa94f5da7717b85c5bc1f187 x86, modpost: Replace last remnants of RETPOLINE with CONFIG_RETPOLINE
-4423bb812e30593898afc383e4af52ffb4e50339 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-272782816fdeddc03dcc8e04f5450d2f53c47acb x86/speculation: Add RETPOLINE_AMD support to the inline asm CALL_NOSPEC variant
-a9ae9cc968eb4cd7bf1df254ab957d22d917eb38 x86/retpoline: Make CONFIG_RETPOLINE depend on compiler support
-1bb9e0e0e19e6005046fb3d8bfb159cdce1f7045 x86/retpoline: Remove minimal retpoline support
-ed353e44295cff25940e5c06a29e37258ce380a1 Documentation: Add section about CPU vulnerabilities for Spectre
-21e0245b032cbf3477a62757ee00a060b61736e9 Documentation: Add swapgs description to the Spectre v1 documentation
-573e2c109b4b01b9284e97fd9294b7372b8d3831 Documentation: refer to config RANDOMIZE_BASE for kernel address-space randomization
-2e77bea6b5f7187acae74f88bc6f84a01536c70a x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-ea976952568b63aab55e9f22103d5511bba9ab3b x86/speculation: Add eIBRS + Retpoline options
-923d70aa104f99f968a734c4e94a3b6dd622af2e Documentation/hw-vuln: Update spectre doc
-c133859af90546ffea63c6f91c4ca469d60b2ff8 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-bdf93f8e72fcf50e1467857a24b422c94107d321 x86/speculation: Use generic retpoline by default on AMD
-c21c708b6d711f1aca419342dd50eac0a36e9dd8 x86/speculation: Update link to AMD speculation whitepaper
-d0edcbbac0803a689eac5e8038d32d7a7374f9f3 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-bd00e9a2d5b812daa1b6aeba33c8a79ef86ee95a x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-5f5d0c2535b5647380e595a159f5f3781208dae6 x86/speculation, objtool: Annotate indirect calls/jumps for objtool
-e29d8378caa8e876b6216f748499e1c0065a26cc Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1655639556 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1655639555-f98629132cf39a6283db44fc19af9dc8d27b6dc9
 
---===============0434059596218393012==--
+b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 7bc08056a6dabc3a1442216daf527edf61ac24b6 refs/heads/fixes
+4b35035bcf80ddb47c0112c4fbd84a63a2836a18 354c6e071be986a44b956f7b57f1884244431048 refs/heads/master
+028de148fa5a5465ed75d39ea79ad8ebd1b35e2f b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmKvDgQTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgGcID/45OeFMy3rgCOSut7kx58ASyw6Wmf2G
+RgPZvneuekWhABe8JgHnKBDs18DBcMrzSwV/XIi0otDDXbqHIf1a4LghhGNA8kpT
+0S9WTOjSTWW6eAZ8FeB3FUiKdXDwsTSsSo7xoMxgv0lfU1XPAKVtBrVL7UvNx5Ui
+RjVmxlasmxeeyl99M86e0AZalNZlMVStqY7vRVVlRo/py/spd/fG0JzFqLHf9Zz8
+qloawzlbiJVsBTFNnnV5ojhgSxcs2lbgrzzPkkjSruG4wYtOSzAAB9iAdyTFy4cc
+1gEtqlIryGWpScDFDY+K1oZUsCqCfaxX2+nIZmwP7p9tZBOta6ttR1Gbiq4DGRFV
+5gjzROJzsqRzQUndexvFzIcVYLAEi75iEmDjFFs/Mou2YU1dZXcjlDpQw2P+YX29
+fJDvNdRGlauqWsVsFPnZ9tuwiN/6tyd2zs5UoL826z/Op9B27WUCK9Pe+wCE+kUi
+LqniYOButd4lJsBtWfXIRKmVGSi7bFQ/lLnyI+ABM19UG6ylVADoqczRJTwF37r2
+DErP7WKl0D1vYQzSwuv+RkJLmoajo1bF7Isqr9dByd5myG6JDsotcava6A0i1nf4
+ppnttLJeKEwPuN0LP5ejHr3o2oRyOOyt0BvOitaM1FW+v2GQ4WN3xR5y8eV7mLJI
+R7sugNFjUPY3Cg==
+=ONSi
+-----END PGP SIGNATURE-----
+
+--===============5969285838982603677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4b35035bcf80-354c6e071be9.txt
+
+4f5bf12732fd78e225fc62b7c5c84d9032f8048a fs: fix jbd2_journal_try_to_free_buffers() kernel-doc comment
+48e02e6113825db81e4aacc035933c0d0e4e68ce ext4: fix incorrect comment in ext4_bio_write_page()
+3103084afcf2341e12b0ee2c7b2ed570164f44a2 ext4, doc: remove unnecessary escaping
+15baa7dcadf1c4f0b4f752dc054191855ff2d78e ext4: fix warning when submitting superblock in ext4_commit_super()
+8d5459c11f548131ce48b2fbf45cccc5c382558f ext4: improve write performance with disabled delalloc
+7c05eae8db9296e28b5dd34deec1ca5ef96d0f08 smb3: add trace point for SMB2_set_eof
+5d24968f5b7e00bae564b1646c3b9e0e3750aabe cifs: when a channel is not found for server, log its connection id
+9b6641dd95a0c441b277dd72ba22fed8d61f76ad ext4: fix super block checksum incorrect after mount
+4efd9f0d120c55b08852ee5605dbb02a77089a5d ext4: use kmemdup() to replace kmalloc + memcpy
+85456054e10b0247920b00422d27365e689d9f4a ext4: fix up test_dummy_encryption handling for new mount API
+a08f789d2ab5242c07e716baf9a835725046be89 ext4: fix bug_on ext4_mb_use_inode_pa
+cf4ff938b47fc5c00b0ccce53a3b50eca9b32281 ext4: correct the judgment of BUG in ext4_mb_normalize_request
+bc75a6eb856cb1507fa907bf6c1eda91b3fef52f ext4: make variable "count" signed
+b55c3cd102a6f48b90e61c44f7f3dda8c290c694 ext4: add reserved GDT blocks check
+1f3ddff3755915a2b38de92d53508594de432d3d ext4: fix a doubled word "need" in a comment
+ace2045ed56f9b00beb4cd23c76a5b6cae69f2fe Merge tag '5.19-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+354c6e071be986a44b956f7b57f1884244431048 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+
+--===============5969285838982603677==--
