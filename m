@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 19 Jun 2022 17:56:27 -0000
-Message-Id: <165566138760.25582.10606432559624775251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sun, 19 Jun 2022 18:04:38 -0000
+Message-Id: <165566187840.29666.4419125924392951531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 3c3f4b604d4cd1518a50b5b76e62b42e6803a6df
-    new: 26061fbd337fbcfb6255def88ef4f0573c090702
+    old: e4d384755e4831cf5bbaa97e0c5b79a3598efbc4
+    new: d4bf5e6193b97c5e5490fdb93b069d149a38777c
     log: |
-         26061fbd337fbcfb6255def88ef4f0573c090702 Makefile: SHELL: Use a portable bash
+         d4bf5e6193b97c5e5490fdb93b069d149a38777c gettime: fix whitespace damage
          
