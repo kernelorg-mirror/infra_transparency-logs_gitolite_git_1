@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3411599919508960505=="
+Content-Type: multipart/mixed; boundary="===============7270462979717089772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sun, 19 Jun 2022 11:39:29 -0000
-Message-Id: <165563876915.8567.4938249678330878402@gitolite.kernel.org>
+Date: Sun, 19 Jun 2022 11:40:57 -0000
+Message-Id: <165563885748.10525.6175516303848725074@gitolite.kernel.org>
 
---===============3411599919508960505==
+--===============7270462979717089772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: 261cd03588766fa201c7b95fe724959ccdb687e6
+  - ref: refs/heads/linux-4.4.y-st
+    old: 5cd6adc62818c613bef3fdcf48d5c1473e617e9f
     new: 5f5d0c2535b5647380e595a159f5f3781208dae6
-    log: revlist-261cd0358876-5f5d0c2535b5.txt
+    log: revlist-5cd6adc62818-5f5d0c2535b5.txt
 
---===============3411599919508960505==
+--===============7270462979717089772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-261cd0358876-5f5d0c2535b5.txt
+Content-Disposition: attachment; filename=revlist-5cd6adc62818-5f5d0c2535b5.txt
 
 929d46ff6e73780261380d1de2e33ae00dcec00c ptrace: Check PTRACE_O_SUSPEND_SECCOMP permission on PTRACE_SEIZE
 86fed754c5ea084751b011af36779add17560724 xen/blkfront: don't use gnttab_query_foreign_access() for mapped status
@@ -46,4 +46,4 @@ d0edcbbac0803a689eac5e8038d32d7a7374f9f3 x86/speculation: Warn about Spectre v2 
 bd00e9a2d5b812daa1b6aeba33c8a79ef86ee95a x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
 5f5d0c2535b5647380e595a159f5f3781208dae6 x86/speculation, objtool: Annotate indirect calls/jumps for objtool
 
---===============3411599919508960505==--
+--===============7270462979717089772==--
