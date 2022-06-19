@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Sun, 19 Jun 2022 19:50:54 -0000
-Message-Id: <165566825455.2490.11990367328776432111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 19 Jun 2022 20:29:20 -0000
+Message-Id: <165567056099.25559.5923882864207914073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/erofs/folios
-    old: aa469ce66cad4244dc24bba3ee1b4d1e5191cbbe
-    new: 44a1ffa3f0627895e8e932d55d429cecbdcee34d
+  - ref: refs/heads/master
+    old: 05c6ca8512f2722f57743d653bb68cf2a273a55a
+    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
     log: |
-         dd08bc0e6edde27f636215fef8b489fb92be1eb6 erofs: introduce `z_erofs_parse_out_bvecs()'
-         2b061b68a68c5844dc82a752b92cabaa02408a28 erofs: introduce bufvec to store decompressed buffers
-         9b37030cb282035ef5eaa045bc1018e84d107ba6 erofs: drop the old pagevec approach
-         e5a21abcb9ebc22d2bd04bd97f8e416eccd547a4 erofs: introduce `z_erofs_parse_in_bvecs'
-         78093ca48d9e3bf3197dfb3feaf20ef1b3a49be4 erofs: switch compressed_pages[] to bufvec
-         fa94217c84c3f8a964f74ebb4346ae4dd200825c erofs: rework online page handling
-         36a2294ff20660e889efd86652496f2a01358acc erofs: get rid of `enum z_erofs_page_type'
-         44a1ffa3f0627895e8e932d55d429cecbdcee34d erofs: clean up `enum z_erofs_collectmode'
+         a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
          
+  - ref: refs/tags/v5.19-rc3
+    old: 0000000000000000000000000000000000000000
+    new: afdb472867d4677930236a864496939f496de1b9
