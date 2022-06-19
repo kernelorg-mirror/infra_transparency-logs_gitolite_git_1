@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2326336162823236381=="
+Content-Type: multipart/mixed; boundary="===============7740429193814803000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 19 Jun 2022 18:08:25 -0000
-Message-Id: <165566210571.32430.10453495456593836965@gitolite.kernel.org>
+Date: Sun, 19 Jun 2022 18:08:35 -0000
+Message-Id: <165566211543.32532.15958224899597278875@gitolite.kernel.org>
 
---===============2326336162823236381==
+--===============7740429193814803000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 5dcb50c009c9f8ec1cfca6a81a05c0060a5bbf68
-    new: 9776fe0f424b7d11af953b52322961845e2b5763
-    log: revlist-5dcb50c009c9-9776fe0f424b.txt
+  - ref: refs/heads/mlx5-queue
+    old: 4a3059c346d93356aa04fa8ae4ad93828a6eef19
+    new: 8c907dec24fe7ca91da5f771051f79600e2d881d
+    log: revlist-4a3059c346d9-8c907dec24fe.txt
 
---===============2326336162823236381==
+--===============7740429193814803000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dcb50c009c9-9776fe0f424b.txt
+Content-Disposition: attachment; filename=revlist-4a3059c346d9-8c907dec24fe.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -369,5 +369,11 @@ e62dbaff4bc2540393cfc31a7438ed833da7c43c net: phy: marvell: use mii_bmcr_encode_
 a278bfb242982b91db7b742852b0d33c3168a479 net: emac: Fix typo in a comment
 dd33c5932e5547364146bab2314a2f39f2559a6d sfc: Fix typo in comment
 9776fe0f424b7d11af953b52322961845e2b5763 sfc/siena: Fix typo in comment
+ef637cef8734b07c172188b365027b14d8b7ed34 net/mlx5: Delete ipsec_fs header file as not used
+8c0679adfd8d0874f583888be1c392b2274f0c29 net/mlx5: delete dead code in mlx5_esw_unlock()
+3bb7848704bc9b20c17080040d2d4fd63526b3c7 net: Disable LRO feature if no RXCSUM
+f165eda058af450b1dcf99d5d4b68c3a04353932 net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+f86b595c4e6830b0ea74b2552533975a15df0b0c net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+8c907dec24fe7ca91da5f771051f79600e2d881d Merge branch 'patchq/496064' into mlx5-queue
 
---===============2326336162823236381==--
+--===============7740429193814803000==--
