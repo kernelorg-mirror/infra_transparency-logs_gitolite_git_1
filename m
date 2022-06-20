@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4813941199267089047=="
+Content-Type: multipart/mixed; boundary="===============8066971827277965983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 20 Jun 2022 12:47:48 -0000
-Message-Id: <165572926837.6185.11486246547699209576@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 12:47:49 -0000
+Message-Id: <165572926930.6246.11330713019225863728@gitolite.kernel.org>
 
---===============4813941199267089047==
+--===============8066971827277965983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,274 +16,273 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 443198a40a05df0998200bbc4e56c3efd1b66046
-    new: 0ecf242ba51224789558d6880285398da8c35484
-    log: revlist-443198a40a05-0ecf242ba512.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 7ca32c3cc5da4b3c7a15e2f71a5aa64303cb1b06
+    new: c68bb5c7d26a776d27329893aac58340cb536420
+    log: revlist-7ca32c3cc5da-c68bb5c7d26a.txt
 
---===============4813941199267089047==
+--===============8066971827277965983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655729265 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655729266 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1655729263-de748d254b1ca8ff4a932ef757e7f55af937943e
+nonce 1655729264-6d9c9e50f4a8f1a648ef4a658873d1e6a3ab7148
 
-443198a40a05df0998200bbc4e56c3efd1b66046 0ecf242ba51224789558d6880285398da8c35484 refs/heads/linux-4.14.y
+7ca32c3cc5da4b3c7a15e2f71a5aa64303cb1b06 c68bb5c7d26a776d27329893aac58340cb536420 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwbHEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AjAP/2EJmg/7rLtOI0qqd5Bi
-WbSZztauCQqEYnDWpZdQnPkkAH4VaF4cE1Q7LxJOsYanuvv3Cvfe850mSfN+FsEQ
-t4PP1HaLatRcr9bvHT3YIZQkeXPgMVwLv0BI8yB5xW2EcFE+1U7hqFJyl0mqMF+j
-DsWxno4atoMUJHzf6Sg7KkGVZ6BMklXBEaArfYekiFA59MPoSWpoLASrd6DW/tnn
-coItHmVM+uGJeT2JKCBCXHcw5mGcy66O1nhqcd1CO2ogRUsz9BBC+j3UEw3SFmhx
-Td5hrdLpWkVKInUPgK7hMneAmbpfcAh0v5COYQhVw74rdsgo3jKtpxHP/HllFRKx
-TwMnUIvgdYhYqag6+va03mwckVQlHa3U/4Wi5pM9QojeFyaqsrRkx8yxelP1wriI
-vvCJpe+OAe6hkcO0irsz2PneM77yIwW71g+Iz/1l5bLVQcMlSlO0kNop4MfhuVN/
-B7fUvUFhBJ6rQkrGOWlNut2PvGb40Hsb5POZkYpES3ZqZQjEvZuXFouK4oPM9NRq
-pjwIBiiqjtj9LvdF4SMD4gXulDIYYI6dUItgFMaRIY5nyxMmRH8+d+aoa8G00CLu
-QZjQYiA/oAmnVJ9v+v4lmRGR5rUalklY3yY1RxkHTyjVIf4IjzlJfywD5zLqwryD
-4T2K7vTehTHaXwbMiCNUgwBd
-=rphs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwbHIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ko0P/RESJ2gxb5BmLsU+nIe7
+xlmA7xX3Rpbx1Vv4xYmDeg5DGTm1qINELKXZZ5n9U+kdJKpH2xjft36zpwDtgftg
+2jeSKE5gCeSDVfOFwM0tqUHxHI25dRUoyxvB0cRFgS4MEimsqVLu9stTCmc2xsMU
+OP+TAcgYWDvppU6y9aQcgH4WlQSRqBKBFa67ED7eIrUDA/C0yGGl28rodAp0iQ/W
+AO8em/foeAqzwf7a0I6IK7co902e572/3AMzK/OMBEbNXbty4fa5Yv7RWfBkHYp0
+rhCq6HJ0KuVROf/9aVCQF4iw8fArhPRj1pKTYhrseUFtBcbFiySZ6rviSs6YcEEt
+vc6NB7M9HB42LBvI+OkeLpsc35OrMzyDbsIpuwROyfB4fix1Ok53m36yq4pwmNrD
+IGCKxBUOqo+07wfG5i5/cfhAfFIeYJ0jIPsnJEgqKqtG5v7bLu+seId5eQp8Ov/u
+TFqozOa1OqRrUEfL5lHbK5KhAIhjCi28hcjG+Hzxf2cODyqvzSIliZo/t99veYZh
+7QZkxglu/1lvv6J7YW3PBUKaPHxk26xcJFXOHwddMYrDS6wGIougaiqx82bx9Qw1
+FNNPcKMKUxS2DvXXMrqE/1EIEFmjvbOLIDS6W7r7MhhK0qxGhLMJgKvKSPYkcm/O
+QwzGnlU2ZFRhgbnebqLUs2am
+=5na7
 -----END PGP SIGNATURE-----
 
---===============4813941199267089047==
+--===============8066971827277965983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-443198a40a05-0ecf242ba512.txt
+Content-Disposition: attachment; filename=revlist-7ca32c3cc5da-c68bb5c7d26a.txt
 
-1be2bc62080c187a1abaef9dbe4055143aeb7967 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
-733c9be8b068d9f8faf0783328c00186eb19264c crypto: chacha20 - Fix keystream alignment for chacha20_block()
-1ffc2fa78ee969ebc424f427ec96a52af98156a9 random: always fill buffer in get_random_bytes_wait
-bdc4bce62f1e7c163c308c94dcf8591269f9e02f random: optimize add_interrupt_randomness
-ffc853ffa275806f06bdfa761c24871918df840a drivers/char/random.c: remove unused dont_count_entropy
-8f11a1080025258b5d311c48e87eb3de8fbad508 random: Fix whitespace pre random-bytes work
-0ec8e7baf8c5dc363e4945823c4f440cf5c06390 random: Return nbytes filled from hw RNG
-92fc3b3d18bbacf935203783f303ff28fb35c9e9 random: add a config option to trust the CPU's hwrng
-4060a44e3b14ab5003f229f80bb2edcb5779771d random: remove preempt disabled region
-1f54a3182315ab95cf096b6fd8e8b2469d5c6f13 random: Make crng state queryable
-6fa32fb82d86047666c4a6c2041cbe910bb086eb random: make CPU trust a boot parameter
-8a879f094c9cb3630a166f54b832c34e3048b9cf drivers/char/random.c: constify poolinfo_table
-5af4f20dd20f6c3a114ebbdbe423a53291ee7c63 drivers/char/random.c: remove unused stuct poolinfo::poolbits
-7831160e8c000ea31d40b23990789569b9fe9176 drivers/char/random.c: make primary_crng static
-fbb2d42d880d8607f2ad66a4257d6e729619d8cc random: only read from /dev/random after its pool has received 128 bits
-f7ed9f1d3743d0ccee8f3010ad5056c0c0802058 random: move rand_initialize() earlier
-d2472b42134f6da369b6bdc5974d2171797b9487 random: document get_random_int() family
-664508ec009afaa85f7fe11a96dc7b31360267d8 latent_entropy: avoid build error when plugin cflags are not set
-36257e154464ea9b978ee367c40e8573c48694e0 random: fix soft lockup when trying to read from an uninitialized blocking pool
-b8b6695eb9924f3d7d32d268fd07cdbdd69a4886 random: Support freezable kthreads in add_hwgenerator_randomness()
-6b4530bc41fe964c1d10f94c632baac7448626a2 fdt: add support for rng-seed
-193a947050ae468ff41efc5c171ed449969a8b6e random: Use wait_event_freezable() in add_hwgenerator_randomness()
-f1cecd716962ce09a968da5a05ec4b40a6083288 char/random: Add a newline at the end of the file
-5f82e9788726cb35f37fb28cb480e0c8e99acd96 Revert "hwrng: core - Freeze khwrng thread during suspend"
-28241b9d607e746a9c5710c7718c8dbd5451301e crypto: Deduplicate le32_to_cpu_array() and cpu_to_le32_array()
-0d4952e665bf6fce5498d064d43e15a5819140a4 crypto: blake2s - generic C library implementation and selftest
-54614af20414388993655d2c5426bdc59317aa19 lib/crypto: blake2s: move hmac construction into wireguard
-6b9797cd31fe727f69077310f1c8bf8e8bf74cdf lib/crypto: sha1: re-roll loops to reduce code size
-ad13e1d9fb4deb65b4abbdb0caeb7b9d425a6d50 random: Don't wake crng_init_wait when crng_init == 1
-7fc2062a80a04e5f06cdaaa138ea435e12027b0b random: Add a urandom_read_nowait() for random APIs that don't warn
-2af33ec8a1ac560ba218ef495c45e016f08e5633 random: add GRND_INSECURE to return best-effort non-cryptographic bytes
-1d3b0db7980dcc1c7ed4dc911686c1944f98c0e0 random: ignore GRND_RANDOM in getentropy(2)
-eed184fb87f334e36f04de3bd39e4c66e69b4dbe random: make /dev/random be almost like /dev/urandom
-f17601a4edb3bd2572e4ec7843f930d515dcd458 char/random: silence a lockdep splat with printk()
-1e81056184abf59166fc73201cbd703231850757 random: fix crash on multiple early calls to add_bootloader_randomness()
-7cf6ef93d4069a658cdb1fa9610e2a2af7707352 random: remove the blocking pool
-bb31575c14ecf3302fbdc5eb515cce6e4b0904cd random: delete code to pull data into pools
-f3196c5e097287ecef5e035f1fd62e04e50c91f3 random: remove kernel.random.read_wakeup_threshold
-eb4f5f010fc9cd1d9273a9fc7d66b4f0a4ce92b2 random: remove unnecessary unlikely()
-ff54db0aa18c4aaaa613c175068579d347c152d7 random: convert to ENTROPY_BITS for better code readability
-af2aaa7d7633f4351a7fc99b8faac6885d0e3c67 random: Add and use pr_fmt()
-bb2fb1224ce86c02400d24d11b6f54ac9987d531 random: fix typo in add_timer_randomness()
-d0b7ccfd81f2f27ed62679d61bdc56c27bb23b9b random: remove some dead code of poolinfo
-09bd0573cf37f9a5f7ec703b63c43a6c0a47066a random: split primary/secondary crng init paths
-b2ffffefee608f8c1f49cf0222db7c3a6ea1b1cd random: avoid warnings for !CONFIG_NUMA builds
-a5cd0919822efdb96f47e1c46b5d21b9e644541e x86: Remove arch_has_random, arch_has_random_seed
-73ea5dae191a52e93d5bbf88a9b659e2d81f8204 powerpc: Remove arch_has_random, arch_has_random_seed
-5fcfe809cbf4e6513ad90d44e15188302f10456b s390: Remove arch_has_random, arch_has_random_seed
-300903d3650b4ca65cc99b23c86556ad0a0ff348 linux/random.h: Remove arch_has_random, arch_has_random_seed
-dc45db5be6c305eb2f75078f6a65398c94b2ceef linux/random.h: Use false with bool
-ba288ec9baa3707fe010609b6d9f143162480e73 linux/random.h: Mark CONFIG_ARCH_RANDOM functions __must_check
-174411f7bfe4d0138e84a83b36904713b86f0c20 powerpc: Use bool in archrandom.h
-cdfce61bdf2e8e66e29a996ae4d418b5a4eb9701 random: add arch_get_random_*long_early()
-badeb540b8db5b929aba1a4be594e721224bc5ae random: avoid arch_get_random_seed_long() when collecting IRQ randomness
-f77d556b8e93721159cfec4b52221cafc05bd6a7 random: remove dead code left over from blocking pool
-949deb7290bfae60a7fa89358bfbcc419f227426 MAINTAINERS: co-maintain random.c
-5065cf0f7294a8c9d67bfb1c605847c0e6d1ff4a crypto: blake2s - include <linux/bug.h> instead of <asm/bug.h>
-45f7f6f83b5702e7aba4ba306cc1547ffa4fac18 crypto: blake2s - adjust include guard naming
-8f886caf15417f3c6008b4834cb0822b985455f5 random: document add_hwgenerator_randomness() with other input functions
-19c13c508b1807a0be5f6be3b701158efd7b7a5c random: remove unused irq_flags argument from add_interrupt_randomness()
-8ae7bc866070be43fcde91bcbed00027cd755fe5 random: use BLAKE2s instead of SHA1 in extraction
-41afa2fc0a2757a3a1d8f78eba82070646bb71cd random: do not sign extend bytes for rotation when mixing
-342db9af94b079de9ef1162fdbb1ca8b68486714 random: do not re-init if crng_reseed completes before primary init
-0a9cdc6010a29f490c7f973947b4c6fb84e8f12a random: mix bootloader randomness into pool
-d54735d7deb08847c195a318d8aceff42f403ff2 random: harmonize "crng init done" messages
-8088a092b8d186f5f831fc6f1f135665be4559a2 random: use IS_ENABLED(CONFIG_NUMA) instead of ifdefs
-1909b06ce86f3bdb2654ef6c7dda43387d204b85 random: initialize ChaCha20 constants with correct endianness
-a5e2c42f07bfb4aef720ede2a7a9f7391d08d5d0 random: early initialization of ChaCha constants
-0b9f0fc46aacfee264a01b0e1ea3ad35bea85362 random: avoid superfluous call to RDRAND in CRNG extraction
-ec4ceace925711d81d76a10abbb800cda256391f random: don't reset crng_init_cnt on urandom_read()
-f7bdfb447d707e86787c8d231d507fc1fb6f1d01 random: fix typo in comments
-6ee8137e01a869a94e444b1c4eafe5aff9df1a7b random: cleanup poolinfo abstraction
-ed808cff73a91c056e04279107a67a462d59ee62 crypto: chacha20 - Fix chacha20_block() keystream alignment (again)
-ce699f0b0041c5439042fbce300933ec9deed9e6 random: cleanup integer types
-9fdfdbbca8564516ff6148476ca34fb1811f5997 random: remove incomplete last_data logic
-52bd24cb2d02285acfa9aaa66c5042028ad67294 random: remove unused extract_entropy() reserved argument
-80e726b85fdf4838c32d76bbbe3fe8f83936e255 random: try to actively add entropy rather than passively wait for it
-2c7fcf98cf26d1589fbb26472eb928fd7eb62d4b random: rather than entropy_store abstraction, use global
-ed134279351c35c147c71d6d598ded7690ea4abf random: remove unused OUTPUT_POOL constants
-2f1f5a63e0518e1ed9191e0ad9bcbd14eb991cc9 random: de-duplicate INPUT_POOL constants
-d5a803e0b5aa9471a1a33bc732fa9b232251ca7f random: prepend remaining pool constants with POOL_
-3e3632dedf215192a86b1ee4d5e06facdbb8494e random: cleanup fractional entropy shift constants
-0999888f4bf211a71ded2517b5880a6c1244681f random: access input_pool_data directly rather than through pointer
-3bec589bcc378ad10be864860c41b2ed84c324ac random: simplify arithmetic function flow in account()
-786d6aeb8bf085950e821ae6c859288342223456 random: continually use hwgenerator randomness
-ec90563f13675af7a43aa319dc8e3edff4f1df4a random: access primary_pool directly rather than through pointer
-f112dac9e13697cc032fe02ad76e6a60938c645b random: only call crng_finalize_init() for primary_crng
-b9f8a989cc22a529a42054ace88cb530502aabf0 random: use computational hash for entropy extraction
-9ddc7d38568587a0e0c193e93a98f761b542a2ee random: simplify entropy debiting
-2a41366e9d1e5c528854e00b7874c7bd37a0dded random: use linear min-entropy accumulation crediting
-f5a535ac5ce1e8e70b6e7f619b3eb7e6d3f6d90e random: always wake up entropy writers after extraction
-723703caf5948f4c370a78b7a885327ecbceb560 random: make credit_entropy_bits() always safe
-a9287aef873a575f94fbb30b637f08f6a586b34a random: remove use_input_pool parameter from crng_reseed()
-26f50a7d4fedf6f5b3cfc8a976ae57bbbc5c4d06 random: remove batched entropy locking
-18c693b13a4caa4f2485b41a3b8faeeda6a55b28 random: fix locking in crng_fast_load()
-8b9ddb0d9b72496299dc154de04a2fe63924268a random: use RDSEED instead of RDRAND in entropy extraction
-efafc596f866d34cb6403fd7f775147c9fc4dad7 random: inline leaves of rand_initialize()
-0b79cd6feb2773b42991cac38e8edf9c7ce69cf0 random: ensure early RDSEED goes through mixer on init
-8f00c9ae03a13bc09e114439f9ccb8aa56627b53 random: do not xor RDRAND when writing into /dev/random
-a35efc9f070046855ea33231eb3d5e90e6b05dae random: absorb fast pool into input pool after fast load
-35656fa57dd523945ac92738c22193b4bd5de9d4 random: use hash function for crng_slow_load()
-401ce4644eb89a0e99909dd5940a2674474f95a2 random: remove outdated INT_MAX >> 6 check in urandom_read()
-b5154e89dd1eb0e517c4d8d89c5a4e6e73a1db56 random: zero buffer after reading entropy from userspace
-cac1b353e03656fc25e9eb933b837366588c27a8 random: tie batched entropy generation to base_crng generation
-93928fb1ad7c900c62240225303a590aa2325533 random: remove ifdef'd out interrupt bench
-cc10c5da052611b2a6d8b0ebc302efd690a8904b random: remove unused tracepoints
-ba480be87b06d8ab06437b417e68b0bc5b594c61 random: add proper SPDX header
-9fbc7e767366f084bff0684ecd420b007fdc1e0b random: deobfuscate irq u32/u64 contributions
-5ac3c61a2954afaefb024e50c13fe5bb407b5c22 random: introduce drain_entropy() helper to declutter crng_reseed()
-67cc6a49ef4a711b80178b58f8128fc97ccab56e random: remove useless header comment
-92dfb73c29790313de9dd5ee1c9e4dbc2d9d02e5 random: remove whitespace and reorder includes
-a8f253599ec4d3498fe2c57e072093527221422c random: group initialization wait functions
-738ac34f75ebe95ef6b02977b5df0529547b77ac random: group entropy extraction functions
-0645148a57c79fce164eb1c69fd257509a8acbc1 random: group entropy collection functions
-e11a13fc59a84ffdbe364f3cbefa99f77f08fc3f random: group userspace read/write functions
-42b2969e2c341e1e5a1d471d9942f244bdb0ccd0 random: group sysctl functions
-fd4658cba10dcee19c861ef1e134a3600a987d32 random: rewrite header introductory comment
-8c481be28cfcd5be8828c863f16b755941c2be41 random: defer fast pool mixing to worker
-afa886f9dedcee04a646e5eda938c8c1e8ec07e9 random: do not take pool spinlock at boot
-7da6dae2b4060951f57bd3106eecc29c0fa43389 random: unify early init crng load accounting
-f642ecd4c2e7a61b36b80cc51c67128ec1e4b98b random: check for crng_init == 0 in add_device_randomness()
-5bec4311fd754dc225d8c52094773b1741e4590e random: pull add_hwgenerator_randomness() declaration into random.h
-890344cf055a701ddacdaae31cee309b3c35f6c5 random: clear fast pool, crng, and batches in cpuhp bring up
-cf8914230008c3b06d0afacc6a8bdb418f6fff2b random: round-robin registers as ulong, not u32
-969c00dfbd4e926cf7963a3f7169e44e735ebcf1 random: only wake up writers after zap if threshold was passed
-5c06c05dd842e7c500e75191e2241e56627aae47 random: cleanup UUID handling
-63912ca80ddb2a70d78de0810a0db6c46d16caac random: unify cycles_t and jiffies usage and types
-d28bb60fc13beb0a72c9d86157135f9758d11ce7 random: do crng pre-init loading in worker rather than irq
-9fbba2162802038566a55f4efdd9da171e9cb8fb random: give sysctl_random_min_urandom_seed a more sensible value
-745dcac36e0e0e9827ca19451517aaa2bae91d79 random: don't let 644 read-only sysctls be written to
-5853375f2a1fa8e7a925099e6224612c78f43c11 random: replace custom notifier chain with standard one
-a645d17b6d068678d9333e87a7730d00cd07d034 random: use SipHash as interrupt entropy accumulator
-f3901008aad7beaadeb40359d4e472023170cb61 random: make consistent usage of crng_ready()
-7e92fe4e0e41da386a37776c7b1fa9621d5e660e random: reseed more often immediately after booting
-4b11d354d617851bf65665b706bce199fe7843bd random: check for signal and try earlier when generating entropy
-884daa7d7b2a2de3dcab7993bc5de1c086ff22eb random: skip fast_init if hwrng provides large chunk of entropy
-95351689819a5022d415c02901e66321effe0a12 random: treat bootloader trust toggle the same way as cpu trust toggle
-3a75e9d2acadeec008a243502e8d011d6f8ad6df random: re-add removed comment about get_random_{u32,u64} reseeding
-3ccfa8b3fd03664bab8ece2a6e4cc9626d1d8452 random: mix build-time latent entropy into pool at init
-c336783539cfd0db170be439753229fe0210b504 random: do not split fast init input in add_hwgenerator_randomness()
-259fee30d6d268ae91a6d8ff7d614624dbd11a5b random: do not allow user to keep crng key around on stack
-eb8cabd676e267abc701d4b95e5a67a65439c6a1 random: check for signal_pending() outside of need_resched() check
-0ab073cabeccc6250540c48c768760fcedb625ee random: check for signals every PAGE_SIZE chunk of /dev/[u]random
-c53c5be7a651d8d0a364e6d33cbe02ecf55d57e7 random: make random_get_entropy() return an unsigned long
-b7ab4efbfd7a871ee3a10d07d33bb2c3c715d47b random: document crng_fast_key_erasure() destination possibility
-c8a647ef920c351b69e436ba5bfb05234f516901 random: fix sysctl documentation nits
-725b22f503d62fc3f142224e4c237eb6c3eb993c init: call time_init() before rand_initialize()
-05ffcdb52f3b1e5a6372f9bdadf4282f23968430 ia64: define get_cycles macro for arch-override
-6adec5f703a901a16e2cf8c7dbadf58ba9104d69 s390: define get_cycles macro for arch-override
-f7b6411563ee7b5150a418c50083e4ccfa5f0738 parisc: define get_cycles macro for arch-override
-12473043d186d2651adfd300ea1b122182a6613a alpha: define get_cycles macro for arch-override
-107ef29f654f1873f1b3259f615e25f5bb8f6d17 powerpc: define get_cycles macro for arch-override
-21aff156da6ac72037fe11f155110d2dec699321 timekeeping: Add raw clock fallback for random_get_entropy()
-99a445560834749f2f18d59c85b43df69fde5c61 m68k: use fallback for random_get_entropy() instead of zero
-107d7a77ee6795ff0adb702d9e9a7036ac605769 mips: use fallback for random_get_entropy() instead of just c0 random
-3ebdf34513a819924ac0259174a7a157878c9e49 arm: use fallback for random_get_entropy() instead of zero
-aa7adf05eda37d20c6954ae95190780f03714eb2 nios2: use fallback for random_get_entropy() instead of zero
-0a3ff5317984850de0e9f2560a92fde05c7fa996 x86/tsc: Use fallback for random_get_entropy() instead of zero
-83193effca6a77b462d0d04af4fc4661b326e4e1 um: use fallback for random_get_entropy() instead of zero
-0752433de9c80b14c3c4bb036f5dd0c51c7b8bd4 sparc: use fallback for random_get_entropy() instead of zero
-58ba028cdb045a4e36b338e86a46c1ee1cef68d6 xtensa: use fallback for random_get_entropy() instead of zero
-4e48b798554cbe7e9ade90903a3cb43f23f205c7 random: insist on random_get_entropy() existing in order to simplify
-48e467755bfddd7dd5649de7ab6077059e929506 random: do not use batches when !crng_ready()
-7da2d72f14db246dd8b08675e644ecf20ef5902a random: do not pretend to handle premature next security model
-ac67e1c4ceb9ec8d76308f49b6eaa9763326dc4d random: order timer entropy functions below interrupt functions
-70ff9255377f90c9a8cc262cc0aeb8d615202bd5 random: do not use input pool from hard IRQs
-335de5f1b5231f6aebe01638649611e66d8066d5 random: help compiler out with fast_mix() by using simpler arguments
-8104a1546039b8d840c26306ebfd140b45d7b9d7 siphash: use one source of truth for siphash permutations
-44d7ada878b5e8887100621f47a89134b87e22b3 random: use symbolic constants for crng_init states
-1051728729822275c1d98a82a115861daf8c06e1 random: avoid initializing twice in credit race
-255df4213f34f331f688773f72d47f424f00819c random: remove ratelimiting for in-kernel unseeded randomness
-fa7043ca7ac07db7573ee16aabb9e8a5a9d9a7ca random: use proper jiffies comparison macro
-beca2e0e696805d2502e4ec85fb1b886fa94768a random: handle latent entropy and command line from random_init()
-5889330c84566024024c27ba6db45b771698ce41 random: credit architectural init the exact amount
-ad708d0ed18200198f6852d288358b882d0798d7 random: use static branch for crng_ready()
-a95616cc6258f70e7b7b424d24ebddda3fe71b7b random: remove extern from functions in header
-1669bf90b517d612b0d8e45820876d7c613fe709 random: use proper return types on get_random_{int,long}_wait()
-5d64af6ddf036a8f5d3818a3da95e7b7026f8bf9 random: move initialization functions out of hot pages
-d2e3675e2534d2dd4a9cdc29109960246b0dfdf4 random: move randomize_page() into mm where it belongs
-6be16183b472a60a627f7e8df177d7197a51e2a9 random: convert to using fops->write_iter()
-57e13552d1188e0d82ec304a84db11f7b5b6ed62 random: wire up fops->splice_{read,write}_iter()
-645f51c567b8f906c2f2df84d8e20ba9b4b6472d random: check for signals after page of pool writes
-4cfb9fc58c0f9b8560da58ef2e85a16e59b98ff0 Revert "random: use static branch for crng_ready()"
-b0df05b10067223d16f209494ec69580948d47b3 crypto: drbg - add FIPS 140-2 CTRNG for noise source
-d0610b4afa33419aedf2b1a33aced4f8ea0efd29 crypto: drbg - always seeded with SP800-90B compliant noise source
-e9aa7789ba548524d9606661c6f12e42a0349ff0 crypto: drbg - prepare for more fine-grained tracking of seeding state
-a2eb9f0545ba7a78a9fffcdaadeabbd06b627a95 crypto: drbg - track whether DRBG was seeded with !rng_is_initialized()
-880cbd4505de93356b1ea738be1337a970cf55b7 crypto: drbg - move dynamic ->reseed_threshold adjustments to __drbg_seed()
-561726aec5a7ceb435c47b17bf1120d98a96e186 crypto: drbg - always try to free Jitter RNG instance
-82dd0c192534243a9d9fd3553169a5ceb34afccd crypto: drbg - make reseeding from get_random_bytes() synchronous
-87dc4e0c9bb36407417491b5a1bb3abfbe2b9721 random: avoid checking crng_ready() twice in random_init()
-824f56d05e6bd04f6bc252fbc6b2664a47554032 random: mark bootloader randomness code as __init
-1f8cea6be20d8105d7496de965f5bf63195863d8 random: account for arch randomness in bits
-1c6cf75a537b21836943b37826d88c09c81abaf8 ASoC: cs42l52: Fix TLV scales for mixer controls
-b8d6e54d89fcc76c330770199298edbe0e2508fd ASoC: cs53l30: Correct number of volume levels on SX controls
-e02b09b07a001df75783ed4ee79c7503b26b76cb ASoC: cs42l52: Correct TLV for Bypass Volume
-079dc64c363a1347e90c13799efb922ab9f4ec9b ASoC: cs42l56: Correct typo in minimum level for SX volume controls
-9c19a857df7c1f9e4cfb5f7e1e9e9d66dd0bf372 ata: libata-core: fix NULL pointer deref in ata_host_alloc_pinfo()
-12c3c0edf61a9c887419111af2a34550c92b4f00 ASoC: wm8962: Fix suspend while playing music
-e3ccf4e76edb7e999323083a0f348fe44b864f6a scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
-0af0600e18e199d5c11405d24e7b443757c355e0 scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
-e30eace8f7a504a854d34962b1958f545fe4d05d scsi: ipr: Fix missing/incorrect resource cleanup in error case
-9b7f3b3ec48ec0c1864855b500dea642f847689c scsi: pmcraid: Fix missing resource cleanup in error case
-24606a4ae23f5526357c66e5e4abc77e42bb9117 virtio-mmio: fix missing put_device() when vm_cmdline_parent registration failed
-647a6f7d342f58e365f96846e8ebc557dce1dff5 nfc: nfcmrvl: Fix memory leak in nfcmrvl_play_deferred
-6c1e268cfbd571c9867f478241a0cdbecfe019bd ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
-6fab2fbfaf6645c5ba3ae794f675d927a67d55a9 net: ethernet: mtk_eth_soc: fix misuse of mem alloc interface netdev[napi]_alloc_frag
-1e5f56622410bc00a6163f9e9d399aab4165126f random: credit cpu and bootloader seeds by default
-f9da6448514efec8d4bbb6196b39fccdb7556d39 pNFS: Don't keep retrying if the server replied NFS4ERR_LAYOUTUNAVAILABLE
-fa29a859eb3857789386700d686f51e4c3482a77 i40e: Fix call trace in setup_tx_descriptors
-c3c41e085026a7ea624ae02de8ee6f62725fce82 tty: goldfish: Fix free_irq() on remove
-1664ff0b686636370dc3e46852d20499a63ceb4a misc: atmel-ssc: Fix IRQ check in ssc_probe
-d20ba9ee10faa6e73741c1bca3d159a63037322d net: bgmac: Fix an erroneous kfree() in bgmac_remove()
-14fa0abc8429becf855842aba1b33395c86858dc arm64: ftrace: fix branch range checks
-3eea56ef500f996870e08cd7f21223dbb082eaa9 certs/blacklist_hashes.c: fix const confusion in certs blacklist
-e2b3d26e486dff31c296fac582a5d21ad884b375 irqchip/gic/realview: Fix refcount leak in realview_gic_of_init
-38872d604b4b65d72f8678e52a801c7349610f78 comedi: vmk80xx: fix expression for tx buffer size
-58bbf24b69472ef96cfc75ee626ccfbe9c1c263f USB: serial: option: add support for Cinterion MV31 with new baseline
-20553a484e085435160951caf7f6a10f00d5af8e USB: serial: io_ti: add Agilent E5805A support
-95a186883bc8946f787a5e590a686cc26a09564f usb: dwc2: Fix memory leak in dwc2_hcd_init
-43c0d8400b13070e81c846d58153c4afb2e17389 usb: gadget: lpc32xx_udc: Fix refcount leak in lpc32xx_udc_probe
-74ef7f65ef1de352c7468f43ad23be565b537176 serial: 8250: Store to lsr_save_flags after lsr read
-b74781b35c916519e58dcaf66cbb6804ca27310a dm mirror log: round up region bitmap size to BITS_PER_LONG
-bfb57d979ee26197df0d87c56def8e68bdb2bc4b ext4: fix bug_on ext4_mb_use_inode_pa
-3b9edb2390b1e153343e86ffdfe5ac38181b96f8 ext4: make variable "count" signed
-43ae82136d2708fe416343a8b5d6c1e9a642180b ext4: add reserved GDT blocks check
-e94ed38da895136f49477af957df0527d117547c virtio-pci: Remove wrong address verification in vp_del_vqs()
-0ecf242ba51224789558d6880285398da8c35484 Linux 4.14.285-rc1
+0e15de14b7572a405855506aa8e7391a1c0e8d87 9p: missing chunk of "fs/9p: Don't update file type when updating file attributes"
+620915d90fbf2d7f93c4ff023e1dfffe8e02fc20 drivers/char/random.c: constify poolinfo_table
+8465ef2a793426393b0eed63abc4f7b14cab3971 drivers/char/random.c: remove unused stuct poolinfo::poolbits
+2758e501fbcb6f9de9fc355eca7885341fca7ef0 drivers/char/random.c: make primary_crng static
+24e33ce332c440329b6041a19d3751224896b1b3 random: only read from /dev/random after its pool has received 128 bits
+d4369f2beaa2c97fe6cd1ec248eaac79fbfbddce random: move rand_initialize() earlier
+e52ddf590619148079b4a2d265e60b24936f0aa3 random: document get_random_int() family
+0787b3401f999d998696796bc7f8cd6405023c6d latent_entropy: avoid build error when plugin cflags are not set
+8a2e2a33d57cf65775a093f5836606a94e8a7f43 random: fix soft lockup when trying to read from an uninitialized blocking pool
+b67a5a8703eef44d9deee4ef35bfde999961aebc random: Support freezable kthreads in add_hwgenerator_randomness()
+a91d980095e7285d7f82b7dd985e4750685f6183 fdt: add support for rng-seed
+e924daa0b0cdbf7809593f74dd9990eda8b5c80f random: Use wait_event_freezable() in add_hwgenerator_randomness()
+50af3e404558606e769ff7b6eee40648bae9d393 char/random: Add a newline at the end of the file
+28ec9ce8804b698af390596a687ee24d7456c967 Revert "hwrng: core - Freeze khwrng thread during suspend"
+75e9aff9fae30407290dabe0c9008a3b0cbd66ed crypto: blake2s - generic C library implementation and selftest
+c26f72e150f4661a352f20fdbbbc6ce86fd4b235 lib/crypto: blake2s: move hmac construction into wireguard
+ac541c2b8072f0a74e2b9d01acc497d3bf9b2ef8 lib/crypto: sha1: re-roll loops to reduce code size
+ae00f07b71e29d6ee82821debf5d218c0160d8e2 random: Don't wake crng_init_wait when crng_init == 1
+b227b2db2f99834f4a3e29805e57e996562f5e2d random: Add a urandom_read_nowait() for random APIs that don't warn
+5031ae335309df342bd72f78e28d2637f3cf70ec random: add GRND_INSECURE to return best-effort non-cryptographic bytes
+c2d04c9607aa5d5ecc25ecf6c49f2464673b5a75 random: ignore GRND_RANDOM in getentropy(2)
+697c96fa332620a5441461926140ba3c72b90491 random: make /dev/random be almost like /dev/urandom
+adc6e81be8997395ffc26c27c010b0837c8356c3 char/random: silence a lockdep splat with printk()
+b969a28816b445daf4f14ada4bc52a826e332b26 random: fix crash on multiple early calls to add_bootloader_randomness()
+fc5033c7b3778eedc80de1332a38261ce0629923 random: remove the blocking pool
+5fbf9d9d084aaeedb8400d4b2368238480050618 random: delete code to pull data into pools
+843bd821958d10458b3c2864a08438a458d6632b random: remove kernel.random.read_wakeup_threshold
+012fc08e9ff30a72736fdcdf25e2274d5a977d41 random: remove unnecessary unlikely()
+c0981d426fe50dc72a73b03f318ff10af3cc720d random: convert to ENTROPY_BITS for better code readability
+328912071a5c9f0cbc41f81818d113db2391573e random: Add and use pr_fmt()
+67e2a919d7c2bdc792d3a8d91f5103c647addd88 random: fix typo in add_timer_randomness()
+aef200738604807b71a2ff434de90c30a0a29ad9 random: remove some dead code of poolinfo
+eeaae1e0c939e3ca149728e942dc52f12b73aa4c random: split primary/secondary crng init paths
+babccc2fc80447e0cdca954ef79e5f35f048e758 random: avoid warnings for !CONFIG_NUMA builds
+8695a7e1d12fb1e23e591348576368a190859807 x86: Remove arch_has_random, arch_has_random_seed
+cc074a243d2f1ed91cf9c995f6d1f78566dc2645 powerpc: Remove arch_has_random, arch_has_random_seed
+9f50b5f5e544fcfb275a9342f66eb105b355eb7b s390: Remove arch_has_random, arch_has_random_seed
+6ddb9f2a5bc0a1c84a174b83704e577fce8feae2 linux/random.h: Remove arch_has_random, arch_has_random_seed
+b5dc33e2a5150b7a600d530a49982c812696d3c7 linux/random.h: Use false with bool
+8c7877e9c2ca9bdef2762c334398a6ae413da8ca linux/random.h: Mark CONFIG_ARCH_RANDOM functions __must_check
+a221666f2d294512984cddbeed8214f5ae67fbc0 powerpc: Use bool in archrandom.h
+c1df3483098c506da5a65a564994d8fd57d7c034 random: add arch_get_random_*long_early()
+8597e46fba9176942b271314fbc080a4aad70e6f random: avoid arch_get_random_seed_long() when collecting IRQ randomness
+ab17a54e2de75c860180cb2bef9b0a6bee8ca833 random: remove dead code left over from blocking pool
+0451f040ee7178617ada1c17d80c8c61d10f2a0a MAINTAINERS: co-maintain random.c
+332477fa7e30a259c26391f64bbd82107338e36f crypto: blake2s - include <linux/bug.h> instead of <asm/bug.h>
+d4c30c3a7c0d21a4336c7eb33d2e6593b0670a63 crypto: blake2s - adjust include guard naming
+f449078e64bc546a9d28e24d483a9293b1eb4374 random: document add_hwgenerator_randomness() with other input functions
+b1c76d0bb40239a1448b2ac2e9dacc1bbd71f5a2 random: remove unused irq_flags argument from add_interrupt_randomness()
+7da6eac7c0fd40b84e60670d564b5fad536af64c random: use BLAKE2s instead of SHA1 in extraction
+ec58c957a38e182d094fbeae5e1493e609bdfee6 random: do not sign extend bytes for rotation when mixing
+ab05a7e8556c24e81a1f11c3afc7c7c289e9a443 random: do not re-init if crng_reseed completes before primary init
+703ddf29ec14296cde25efa0d09b0495cd2dadb0 random: mix bootloader randomness into pool
+88cc8fcb1f1cedb5c68554f112156c48d724ff8d random: harmonize "crng init done" messages
+17d97623240f375ed7df681a5271f6997f7e094d random: use IS_ENABLED(CONFIG_NUMA) instead of ifdefs
+dc4ba6b4dd2384ad375a9e2bd0a2ec1290ca61a1 random: initialize ChaCha20 constants with correct endianness
+bd5f7c15724f57872c5514f873ffd7378434ca33 random: early initialization of ChaCha constants
+ad9699ff944bd4655881350921b610b20ae12968 random: avoid superfluous call to RDRAND in CRNG extraction
+a86313d268587e90ca84137368f974ec015ad103 random: don't reset crng_init_cnt on urandom_read()
+bdce1d94f3b51d8b705016ac5cb8d7a6ac477d29 random: fix typo in comments
+3273762e61a03a74fc634b74162677865f125bd3 random: cleanup poolinfo abstraction
+db612d404d84dbe0b22d6a99cdd8c4f301bc05aa random: cleanup integer types
+90c04d4a470d88978d5c9b9777e43122344c5928 random: remove incomplete last_data logic
+48c4e196f1e74ad698bc11c29df2b01395af087b random: remove unused extract_entropy() reserved argument
+5a96d1c4efbdfff41d08ffe12e848b856059597a random: rather than entropy_store abstraction, use global
+f33dbb6e018f18e78eb907ca1e21faa12e03ac7d random: remove unused OUTPUT_POOL constants
+b33986ec7866b55b8d21b6ed593cd84d77f40534 random: de-duplicate INPUT_POOL constants
+792f0d2a805719fcafe7a6b942c0202dc6a803df random: prepend remaining pool constants with POOL_
+bc6855fc453dd63ec74aab10a148ee27a77bbfc6 random: cleanup fractional entropy shift constants
+48d05085540bfaca755373af9550f2e82f87b391 random: access input_pool_data directly rather than through pointer
+1f6450b870e535f674b45fb4c233e3e7452ceef4 random: simplify arithmetic function flow in account()
+e81bc90fd86fbdc7d15b8db29651424957bd2fe8 random: continually use hwgenerator randomness
+f2be1cb38a97da213193abfa16964787c55dd58c random: access primary_pool directly rather than through pointer
+c4b8f41b950a44fe132729d35d884285c0593b9d random: only call crng_finalize_init() for primary_crng
+6e0c591865358567d43524e66cfb56c796ff64dc random: use computational hash for entropy extraction
+ff615d9a9ba9eb3f413718b319b06e2736c503de random: simplify entropy debiting
+76561a57795493ca7d80a6359113783ac059cf90 random: use linear min-entropy accumulation crediting
+24afbfd38e278336ccb53cbc8d65cbeb64e08531 random: always wake up entropy writers after extraction
+0cdc689e0365cc8df317f586e93312259dbbf9dd random: make credit_entropy_bits() always safe
+4a7e9bf25062ab441f80a62035d6445640d68746 random: remove use_input_pool parameter from crng_reseed()
+7b33bfdf696dcbde8f0436f7e4bbe5c731fe4469 random: remove batched entropy locking
+f129dc6c92fb5247e1fe1dac409ae2f33c1b7f33 random: fix locking in crng_fast_load()
+1b56b4f1e7d478933f005c63227b80c63c2a5090 random: use RDSEED instead of RDRAND in entropy extraction
+b0051de06fed4fcd89974575c02d037215bfa443 random: inline leaves of rand_initialize()
+d4ce5bf3752750b9acb6dd549847ef5e2920b1a4 random: ensure early RDSEED goes through mixer on init
+9abc28379d6c64fce42198ad212856d1e314f738 random: do not xor RDRAND when writing into /dev/random
+abccc8d1c1e7cdf6ef635a471114ffc89801c9b8 random: absorb fast pool into input pool after fast load
+d9dbf25283f7c529c31c3fd8d679b4ea05e24161 random: use hash function for crng_slow_load()
+461474091b7e59af6a2d06d928f2afc100f0992d random: remove outdated INT_MAX >> 6 check in urandom_read()
+e7ad7b22af6435c04104ae34960b878f2fa54aaf random: zero buffer after reading entropy from userspace
+a5c3da6ed0bb8aad1ec469d7fb9b4062f04c7873 random: tie batched entropy generation to base_crng generation
+aece0b2ee35eb8c722c5526b0a4e96bf80ca4be5 random: remove ifdef'd out interrupt bench
+c4f51f60847ff5a0675c56330da565001961ef2a random: remove unused tracepoints
+de3c9c72e23d55b5994cefcb22a474189d3ec774 random: add proper SPDX header
+dbb45f945faea81e77eb42c919c95412cbed8533 random: deobfuscate irq u32/u64 contributions
+8a85be6b044cf3a816afe93bcc09b0c2c4988992 random: introduce drain_entropy() helper to declutter crng_reseed()
+1e71d0ea258e96e2c5eead25447e806d5193a522 random: remove useless header comment
+5ebbbab7aac3b388417efbfe7374fc39e2235e67 random: remove whitespace and reorder includes
+517a2ad5c5266016ca03c6a5e4ef95ef05585347 random: group initialization wait functions
+01e42cd26f917d04ea5e716b19cd3bc6b700d4d7 random: group entropy extraction functions
+c20f5bb7188adb416d48ca5c614175567ba6b547 random: group entropy collection functions
+d294986cca90671f8c4603782c8cc6fae7f2010f random: group userspace read/write functions
+dc7904a4a9e9470a9bdc7e22b6d0fcfd870eb837 random: group sysctl functions
+3940c264cc7658e29661593c7dedee72173b33ac random: rewrite header introductory comment
+e30cf4e5ea466bceccdafa36fd223470b21aef14 random: defer fast pool mixing to worker
+a7a6d13d8de352675ac4192834fa46cb557360d2 random: do not take pool spinlock at boot
+3b3abf75436a2fd86eb6b29de9acbd9e25d03ef5 random: unify early init crng load accounting
+c8d4e869fc33c18d200f1c661fc120f214434a93 random: check for crng_init == 0 in add_device_randomness()
+369ded8749a66b34a4bc22d48fe44bdb55297bd0 random: pull add_hwgenerator_randomness() declaration into random.h
+9ca0584111f766acfac8f066b78dac8559b36e7d random: clear fast pool, crng, and batches in cpuhp bring up
+2305513a23dd90a55fd49c491612ca6883cdd200 random: round-robin registers as ulong, not u32
+a73c7b0bc84ddd05cdfeeef976b371864d6c84bb random: only wake up writers after zap if threshold was passed
+5f4038deb501f3f43c098a8d76fff9a1efa5d7c1 random: cleanup UUID handling
+31018b8dd884b3e07ac38fb048f561adfef1d07f random: unify cycles_t and jiffies usage and types
+5f1fa3feb99176812e952d127b6e6bca74cae384 random: do crng pre-init loading in worker rather than irq
+b7de29c8ef54b150ab805d760d43179f61adaf4c random: give sysctl_random_min_urandom_seed a more sensible value
+6b9b6273da9e1bc1986442c6851f00914084d8bb random: don't let 644 read-only sysctls be written to
+59010c22c2bb1cee3adf2af6b95c8b3e37bafa4f random: replace custom notifier chain with standard one
+4d0ee13e39ce2d7b59eb80b695a898054723121d random: use SipHash as interrupt entropy accumulator
+d455690aef8107570b4390542fd4e23e8710636e random: make consistent usage of crng_ready()
+4786270090957ace3d660405c8c0d4da7744fd2a random: reseed more often immediately after booting
+6e9665f7b211a109ba83ac9f8af7e57dfb68b28e random: check for signal and try earlier when generating entropy
+c71fc0c34e830841974e40251026add0a70ba7b3 random: skip fast_init if hwrng provides large chunk of entropy
+159813e7ad47c00bc9b483c8f55b883269eb13f1 random: treat bootloader trust toggle the same way as cpu trust toggle
+bcfc0e4f80e349950235d0495d04eacf06135434 random: re-add removed comment about get_random_{u32,u64} reseeding
+04d50d8531c4296d8f01340f5780daa3bd21f073 random: mix build-time latent entropy into pool at init
+e0fe201afb6565823ba9581126acfedc025730c7 random: do not split fast init input in add_hwgenerator_randomness()
+d0c46dd095b4bfff02d6f7c5adf2376786f67222 random: do not allow user to keep crng key around on stack
+b07a04d78dcdaa1fed89e9f2d64e00c0440ecd17 random: check for signal_pending() outside of need_resched() check
+6693dcdd3a6e1fd5379997ff264dee91679f66ed random: check for signals every PAGE_SIZE chunk of /dev/[u]random
+03023030c0fde3c7570af451f677f8cd9f4e1462 random: make random_get_entropy() return an unsigned long
+46844f8cbf0f19f25bf656a54e7458e8159c2dd0 random: document crng_fast_key_erasure() destination possibility
+dc2cb232a1cab06b73902047605ae04fbf77d702 random: fix sysctl documentation nits
+ad04633f6af4e98027f4a30eb40d0e1feb57cb55 init: call time_init() before rand_initialize()
+95bf880ddd39896ee3947c843df4a3698f9f6cf0 ia64: define get_cycles macro for arch-override
+65378418491c774d09f1c0d72ef2b517171f584a s390: define get_cycles macro for arch-override
+4efa5d62b6ab5993aae38372a6bee616c033297b parisc: define get_cycles macro for arch-override
+e0c59ca1671d21a460d6558441ffab98970fd8db alpha: define get_cycles macro for arch-override
+cb49b58acb17079e8ebd8bfe1baf751fc4a9a330 powerpc: define get_cycles macro for arch-override
+cf3b117954d1c4be36eef597ab9ec6dd638fde5e timekeeping: Add raw clock fallback for random_get_entropy()
+6faeafcddb16d066e2d1e3a5d48e4d0000fd2592 m68k: use fallback for random_get_entropy() instead of zero
+e702a14f0ce214278e0bbc53715172f9fc702b90 mips: use fallback for random_get_entropy() instead of just c0 random
+816e094d9e4d575ef4899d734adde9ab5056da2e arm: use fallback for random_get_entropy() instead of zero
+c4e8a6a8cbef5a9d97f2f7a156bca134ef5fda70 nios2: use fallback for random_get_entropy() instead of zero
+31f03e20792bfb167609d6a6550108263ea96d3a x86/tsc: Use fallback for random_get_entropy() instead of zero
+4270693730e7fb81bd32c4323bbb6fd0934c0ec5 um: use fallback for random_get_entropy() instead of zero
+e4087a11435381f0b8b65b312d7a284de1123b73 sparc: use fallback for random_get_entropy() instead of zero
+080b0a9d5824b56e144b5c73fde7276f7f7a327c xtensa: use fallback for random_get_entropy() instead of zero
+f56cdf1556b61da2994bbc6056b4458c65e45247 random: insist on random_get_entropy() existing in order to simplify
+e7e0698c58af8246d2575db072bb3907b2cf6469 random: do not use batches when !crng_ready()
+721ad01073edcbf603d76b3da4ae53a1422466b1 random: do not pretend to handle premature next security model
+6510106a156c468ef180659ced87eeb80516b3ae random: order timer entropy functions below interrupt functions
+e00af19d500e9b9fd89b097d423af0c50a082577 random: do not use input pool from hard IRQs
+bb06978bc626a27b5ee6a141fba293094786a8c2 random: help compiler out with fast_mix() by using simpler arguments
+cf38ad5c5ca5f3afd6cb6fc981359c3dd679d102 siphash: use one source of truth for siphash permutations
+3a8fa2022ce5a6c1649b68c98d51a0eff785d493 random: use symbolic constants for crng_init states
+76f729c5839d96b346265fd4bcbe98a9e7ce3a45 random: avoid initializing twice in credit race
+527d57a7f104aca6ec684f7d80744c76f10bdf97 random: remove ratelimiting for in-kernel unseeded randomness
+fc2af8352d5add4d87e07b84d285d3a23cf8d704 random: use proper jiffies comparison macro
+7ae2d461015c638547e5317f0c2f1015497910f5 random: handle latent entropy and command line from random_init()
+ce0654503326fdd83555d106f38ceba5ad0c7786 random: credit architectural init the exact amount
+ac2485f76568dcbf4bc4af968b27a01c21723a0f random: use static branch for crng_ready()
+6a24a4b7a5393de0f4166ca51aee527e001aa2b0 random: remove extern from functions in header
+42abb1bb86a67c26cfd6b84e8ff6ba09804b2d71 random: use proper return types on get_random_{int,long}_wait()
+cb7ad64a8a1a0a70d9de37fd278c352235a81491 random: move initialization functions out of hot pages
+8984207aa3a29d30ee05e16c25b3e721055ed31e random: move randomize_page() into mm where it belongs
+5e08911dbdff7b478527fa5741d59b718dfb9ed1 random: convert to using fops->write_iter()
+f6d14689d8d44692a1f79884558c0b392267be98 random: wire up fops->splice_{read,write}_iter()
+f7f81b4d8174e08a4f93039a7d314e384ac88973 random: check for signals after page of pool writes
+16696819b1a417361cfbac84c56ddef512dc7564 Revert "random: use static branch for crng_ready()"
+2a310b15f6cc2a4d1f68f0019637ff41c89d04b8 crypto: drbg - add FIPS 140-2 CTRNG for noise source
+d45e404edf49ef6acf0c011cbb0f25490058ef58 crypto: drbg - always seeded with SP800-90B compliant noise source
+8d59fb602e49afb308dc0857793cbff7e6cc12c5 crypto: drbg - prepare for more fine-grained tracking of seeding state
+a0f81103d698275b4362514e17b3777a59fbe6ed crypto: drbg - track whether DRBG was seeded with !rng_is_initialized()
+e2869d64b353ddec2881342f091771a978500fd8 crypto: drbg - move dynamic ->reseed_threshold adjustments to __drbg_seed()
+72bb2a8d1221c82bf9ef55849e2f204a46a19790 crypto: drbg - always try to free Jitter RNG instance
+95141f47796d4f2807a5bf9a92cf1a16b7f53543 crypto: drbg - make reseeding from get_random_bytes() synchronous
+c04000961f7891375ddb8b5b52ea4aaa80f96267 random: avoid checking crng_ready() twice in random_init()
+6af2cfcf22c3eb274729079e54efc0cd737d06fe random: mark bootloader randomness code as __init
+62d0c16e59510edd4924ea4e28555f6602419620 random: account for arch randomness in bits
+19d788678deed19f7d264daa0cc285e067b9ba94 powerpc/kasan: Silence KASAN warnings in __get_wchan()
+547a95c243006f26b1b4e5ec07c06392602c6b4d ASoC: cs42l52: Fix TLV scales for mixer controls
+6c8d8bd1578b15ef0e33d3352550cfc6280ea835 ASoC: cs53l30: Correct number of volume levels on SX controls
+5e18959482efd8e20fa5fac1d08c82e0c43c2d6a ASoC: cs42l52: Correct TLV for Bypass Volume
+a1d72069671fc26d6c94aa1835779d0bad1d7b8e ASoC: cs42l56: Correct typo in minimum level for SX volume controls
+03a4005dfacbc389a2f43b72b7bd6efbca9d02e4 ata: libata-core: fix NULL pointer deref in ata_host_alloc_pinfo()
+d77f949534cb15c492324c535f6cfa5bfbbe024b ASoC: wm8962: Fix suspend while playing music
+1d000fb9e8dad36894b0c1e239fd1d572fdc4029 ASoC: es8328: Fix event generation for deemphasis control
+3d278a3d5f86b52d87f857520e01c173144ef096 ASoC: wm_adsp: Fix event generation for wm_adsp_fw_put()
+d4df435ce12e9352e15342753e9a0a3c1cb81e01 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
+efd41809594dd643f8e2da3c678379dec0447eb8 scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
+8dfd1c877d39bf4609835c59d9e8b2b9c841f176 scsi: ipr: Fix missing/incorrect resource cleanup in error case
+62d5379ed8c981aedb85527ff2810215b10293b8 scsi: pmcraid: Fix missing resource cleanup in error case
+10e847bcbc0ecf8b9798e26b83742e2f9a97f2fd virtio-mmio: fix missing put_device() when vm_cmdline_parent registration failed
+d8aa937ae20a915d0eea0a3986977b0364428325 nfc: nfcmrvl: Fix memory leak in nfcmrvl_play_deferred
+1ec482d54669c2a51cc70c4e5d8f4023826f6085 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
+fc87539d46a44bdf3c2be8e40d1482a6c056d0e8 net: ethernet: mtk_eth_soc: fix misuse of mem alloc interface netdev[napi]_alloc_frag
+d157e198b7272bf6bd0eb83af746c53dc142395c netfs: gcc-12: temporarily disable '-Wattribute-warning' for now
+5fc7f3639a2a520a5836253d1a78510f6d8224f4 random: credit cpu and bootloader seeds by default
+ad601ba51b4f23c8537155d01bd3764e1d288b7d pNFS: Don't keep retrying if the server replied NFS4ERR_LAYOUTUNAVAILABLE
+03149f87f00e8a4465d9c5e9986006427a36f12a i40e: Fix adding ADQ filter to TC0
+69fef10a46a4d51d2c2da426a6e3601b42019bc9 i40e: Fix call trace in setup_tx_descriptors
+e73a739b63d2545300420f9bac3f1594e58b49fa tty: goldfish: Fix free_irq() on remove
+2caa72c151515966af4122697be6d10b7f0824d9 misc: atmel-ssc: Fix IRQ check in ssc_probe
+6467ca048fae0d0bcf54928295ffc7e597c963c5 mlxsw: spectrum_cnt: Reorder counter pools
+0d2717d3786e8a34d584622f0eafcf13a80cff36 net: bgmac: Fix an erroneous kfree() in bgmac_remove()
+e3ff5d9e63e780b464be39766a06b4534852f746 arm64: ftrace: fix branch range checks
+26d1d571fc7d48b2cce9f807d46dc0f3c84bb949 certs/blacklist_hashes.c: fix const confusion in certs blacklist
+b7e745cab2e700d3c334da23c36c4f65c647cf96 faddr2line: Fix overlapping text section failures, the sequel
+074262e1abc4767cb2f116e99f5611a31c6f02a8 irqchip/gic/realview: Fix refcount leak in realview_gic_of_init
+94ac9418dc5d9a5b7686f48d430cc8fc0a23ddcb irqchip/gic-v3: Fix refcount leak in gic_populate_ppi_partitions
+8860b077f724cee1a6a005fbe074ce00294bb7ad comedi: vmk80xx: fix expression for tx buffer size
+2d977f7717f5588eab344ef35bd76bba63852b6a USB: serial: option: add support for Cinterion MV31 with new baseline
+0e51320269f8dad39ecfbb8c3f906f8802ae5f63 USB: serial: io_ti: add Agilent E5805A support
+9f8b89a0bb0c07299c14e14f7d93af599abedd1e usb: dwc2: Fix memory leak in dwc2_hcd_init
+c67aae0993e6c3a08631c10f9aa5ea0d2f035cce usb: gadget: lpc32xx_udc: Fix refcount leak in lpc32xx_udc_probe
+77dc09ed27c3ea791ba4dadd3fdf30085297e560 serial: 8250: Store to lsr_save_flags after lsr read
+4e6640dee24798b06348aff4d0fb8bca6711474f dm mirror log: round up region bitmap size to BITS_PER_LONG
+79b4fe2b80c0418a67b335001666fb077c2ed47e ext4: fix bug_on ext4_mb_use_inode_pa
+d274cbdcf91d62d00f515fc264fe33ecb21c5416 ext4: make variable "count" signed
+472d59d177a2939f9129d1da1c6a72a35c638dcc ext4: add reserved GDT blocks check
+f689f176808776f7980168b56f05360747c8601e virtio-pci: Remove wrong address verification in vp_del_vqs()
+0493cbbfcdf4ad97da95f92c3b9a3f918d49f5fa net: openvswitch: fix misuse of the cached connection on tuple changes
+8a74860177c9df9e3b89b4ef4b263c0cf6164764 net: openvswitch: fix leak of nested actions
+166256b79a06b4cafbf5e6549a957fe34f61a2a2 RISC-V: fix barrier() use in <vdso/processor.h>
+b7dd195db0ca40789c06b5002020a801bc70c17f powerpc/mm: Switch obsolete dssall to .long
+c68bb5c7d26a776d27329893aac58340cb536420 Linux 4.19.249-rc1
 
---===============4813941199267089047==--
+--===============8066971827277965983==--
