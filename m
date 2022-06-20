@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1565008361997963993=="
+Content-Type: multipart/mixed; boundary="===============0764215173508814354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 20 Jun 2022 15:17:19 -0000
-Message-Id: <165573823931.6813.1806754995409219044@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 15:17:34 -0000
+Message-Id: <165573825413.6966.10716146109149844469@gitolite.kernel.org>
 
---===============1565008361997963993==
+--===============0764215173508814354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: ec41c6d82056cbbd7ec8f44eed6d86fea50acf4e
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-ec41c6d82056-a111daf0c53a.txt
+  - ref: refs/heads/hwmon-next
+    old: ad9542b26754d1624658a69610588839aa39453c
+    new: 2c8a4c3d425745cf28d5ca84e2a71468b1c32493
+    log: revlist-ad9542b26754-2c8a4c3d4257.txt
 
---===============1565008361997963993==
+--===============0764215173508814354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec41c6d82056-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-ad9542b26754-2c8a4c3d4257.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -663,5 +663,72 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+1369e0e621b6c8100d2b972e478114fb3e747327 hwmon: (pmbus) Move pec attribute to I2C device
+6d40e357f63211f1e2e7a89f233448fae09a26ce hwmon: (lm90) Generate sysfs and udev events for all alarms
+e182cf579f0f88cade67776c5471c4e32859f0c7 hwmon: (lm90) Rework alarm/status handling
+5d1c1f7b423545c7163a0c30d782e9d2dc80f304 hwmon: (lm90) Reorder include files in alphabetical order
+c36d1ab18d07069fd0748e19ef2bac7eb4ce908c hwmon: (lm90) Reorder chip enumeration to be in alphabetical order
+d940537c1353da1d062c5cd7dbed5db6bac8ede3 hwmon: (lm90) Use BIT macro
+b532998b5855165b2018349c05e86805168318e5 hwmon: (lm90) Move status register bit shifts to compile time
+1a37896e94488edb9b39d874c67e73a302b63590 hwmon: (lm90) Stop using R_/W_ register prefix
+2fa0c986c84730679af1a9e507ccaae5da5c18ee hwmon: (lm90) Improve PEC support
+cae5c039055335e4bac663833961e095493a156b hwmon: (lm90) Add partial PEC support for ADT7461
+8b0e9dd284db13efbbf42a7235d767e0b3be4f7c hwmon: (lm90) Enable full PEC support for ADT7461A
+f8456e71c6ccb97323fae6c73de8de699844bb90 hwmon: (lm90) Add support for unsigned and signed temperatures
+ebad6377aa378324a7d90ab2beeae57593cb14a9 hwmon: (lm90) Only re-read registers if volatile
+3b87b3b053543389659159548fe4d7dc6a275388 hwmon: (lm90) Support multiple temperature resolutions
+0ab31f6a9796f9a873376987439495e35b4ca5ef hwmon: (lm90) Use single flag to indicate extended temperature support
+e3799d896013209c5de37eea52fc5a4fb582c3ac hwmon: (lm90) Rework detect function
+2386c1e6d4660759c25b0428a202285a66ed85ec hwmon: (lm90) Add support for additional chip revision of NCT1008
+42ed2a1bceba2d64524f9e6c8b1ce9806df52ed2 hwmon: (lm90) Fix/Add detection of G781-1
+d84bf17c686e891e6ccb53e265a6842e0eadb877 hwmon: (lm90) Add flag to indicate 'alarms' attribute support
+e1fa606f8be2f3b76663309c8dd860130b8434ca hwmon: (lm90) Add explicit support for MAX6648/MAX6692
+f5c2615a60da58b7b99c209e65a6ea24766318de hwmon: (lm90) Add support for ADT7481, ADT7482, and ADT7483
+2286f7aa6f57dbe04a4f53845387b12825899394 hwmon: (lm90) Strengthen chip detection for ADM1032, ADT7461(A), and NCT1008
+45aa8a47c90075241029355a6ad03eb4419c54a2 hwmon: (lm90) Add support for MAX6690
+97ba9319a6a63ae6d28c19e43859289bdfa53e33 hwmon: (lm90) Add flag to indicate support for minimum temperature limits
+7f03b0a314ec6a2864e4f4839cffb0e5fd7a49ae hwmon: (lm90) Add flag to indicate conversion rate support
+debf45a59f9969d1f1b0f55ae8782118609d75af hwmon: (lm90) Add support for MAX6642
+ce6b4a48e04c680c7aefd6621532b8747d4dade8 hwmon: (lm90) Let lm90_read16() handle 8-bit read operations
+04eb8e032ffd8d6aa26104490f690690bc269bb5 hwmon: (lm90) Introduce 16-bit register write function
+6a5c2b84306889734acd63d21c1e2fd38542c4f5 hwmon: (lm90) Support MAX1617 and LM84
+c982e13231a8369a67dbf207b3ed77d14c56cc80 hwmon: (lm90) Add support for ADM1021, ADM1021A, and ADM1023
+e60619222d3de1f8b1a43b82501058757445ea0e hwmon: (lm90) Add remaining chips supported by adm1021 driver
+222a8621956d37f23e4a5de772092d64b4bcae61 hwmon: (lm90) Combine lm86 and lm90 configuration
+cfbf431d1f778663622783f5880c770c1772fefa hwmon: (lm90) Add explicit support for NCT210
+37743a09b39089b094fb86b579a3fb85d74eedc0 hwmon: (lm90) Add support for ON Semiconductor NCT214 and NCT72
+32834ce4dbb4d48c5b46ce2877570811b567aa25 hwmon: (lm90) Add support for ON Semiconductor NCT218
+a5896b62e03091648cd4386df1046e10aa507c5e hwmon: (lm90) Add support for ADT7421
+f53b79f39b4dc18e0fb552eee788266a04e988f8 hwmon: (lm90) Only disable alerts if not already disabled
+585a5cfa9657ac881d605c799a27c3d725544813 hwmon: (lm90) Add explicit support for ADM1020
+43764925230fa0d7efcd1d90764a013942265d59 hwmon: (lm90) Add support and detection of Philips/NXP NE1618
+156ed568a502c396e3350389fd66ad6b3b08c244 hwmon: (lm90) Add table with supported Analog/ONSEMI devices
+545a18648e5ddcd6cf13f4a8b517a675a5097931 hwmon: (lm90) Support temp_samples attribute
+fdf4358f353bd34d444a5d1bf307b56f954ddf33 hwmon: (pmbus) Add IEEE 754 half precision support to PMBus core
+721e1ee46fcfdeed8db30a407cf7339344cd1a2c dt-bindings: trivial-devices: Add lt7182s
+f6fdd050ea196cd0d3a60177fa1b7413f8be2f2e hwmon: (pmbus) Add support for Analog Devices LT7182S
+1a3423a15dfedc3dab650fed4a9af9ec31d7d544 hwmon: (f71882fg) Add support for F71858AD (0x0903)
+41e7a05d1ee73e7ea42476d1c946426f794ae372 hwmon: (lm75) Replace kernel.h with the necessary inclusions
+20603c01e49f03b41335660095426cb29928f2b3 hwmon: (sch56xx-common) Add DMI override table
+245a8c2bdd90ed446e6120c8938907bc2956308f hwmon: (asus-ec-sensors) add support for Strix Z690-a D4
+9cbb237147dc22d679d84a8674da316ae0acbe43 hwmon: (pmbus) add a function to check the presence of a block register
+033bf8e373663be19ce1e806234a3b0020624d7f hwmon: (pmbus) add MFR_* registers to debugfs
+3b002836cd21c4d91872f171124b0cd854aca6f0 hwmon: Allow to compile ASB100 and FSCHMD on !X86
+3bb417b63edcef2f1f61c3c82670f5ffd1faf4c5 dt-bindings: hwmon: Add compatible string for ADT7481 in lm90
+a6191ebb41eb53d2c5e00baeeaaca8dc76343a28 dt-bindings: hwmon: Allow specifying channels for lm90
+c7c30ed29d252feb6a212a8aa7ad205f78c8d03b hwmon: (lm90) Add compatible entry for adt7481
+5259edd90932038b8607e21b598b083acef57f52 hwmon: (lm90) Define maximum number of channels that are supported
+e5f61aeab862e232312a8cf0affeaed25bb9fe5a hwmon: (lm90) Read the channel's label from device-tree
+0ebca8acf120cf87a747ef26f20f81d3caac3680 hwmon: (occ) Delete unnecessary NULL check
+9470e12f991b416e12e46d0cd8e4666f9137e36d hwmon: (lm90) Add support for 2nd remote channel's offset register
+e329aa93653bf7dd76d2b3ee4b7c174b6d7619fc hwmon: (lm90) Read the channel's temperature offset from device-tree
+6a715623697616b77193f0892353733f95567370 hwmon: (pmbus) fix build error unused-function
+3be3a88c83f1bd735adf3a5fb8a05fd30ec4971f hwmon: (nct6775) Drop duplicate NULL check in ->init() and ->exit()
+f043dc8ce309d295f49f36d8e3d01869e7f05b88 hwmon: (dell-smm) Add Dell XPS 13 7390 to fan control whitelist
+60169ffdee501b7b49bdff62ebbfd062c77b0c33 hwmon: (dell-smm) Add Dell G5 5590 to DMI table
+1a0741d8fa95cdd595672838ad63eec2cf545af4 hwmon: (gsc-hwmon) Add missing of_node_put()
+93b6dbea8d75fa3f7eb528968f7270ea7fc3057e hwmon: (pmbus) Introduce and use cached vout margins
+56d56e90f57419bbf3b63a918ca35e9779c05ed1 hwmon: (pmbus) Add list_voltage to pmbus ops
+2c8a4c3d425745cf28d5ca84e2a71468b1c32493 hwmon: (pmbus/ltc2978) Set voltage resolution
 
---===============1565008361997963993==--
+--===============0764215173508814354==--
