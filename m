@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============9218359863480758811=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 20 Jun 2022 07:36:47 -0000
-Message-Id: <165571060732.9038.11397156729629480475@gitolite.kernel.org>
-
---===============9218359863480758811==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 20 Jun 2022 07:37:08 -0000
+Message-Id: <165571062884.9216.14118233400768807352@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-
---===============9218359863480758811==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655710606 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1655710605-4591827b31486c47fb33069a7687eb74c62d58d1
-
-0000000000000000000000000000000000000000 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a refs/tags/v5.19-rc2
-0000000000000000000000000000000000000000 afdb472867d4677930236a864496939f496de1b9 refs/tags/v5.19-rc3
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwI44bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lYUP/2Df32Xt0RXdexM6Ywwl
-hdOn4PhcrpV19XpeDx53G8WtHflIY4VDMMo5J+5Fh7BPOAbrAqH7PWRndhGyfz2M
-rSEKR+I22QhJtU2tHRq6kkvSKXzlY4H7YSklxylxbuUntyIA5GeAlUk/9lTswv65
-hxIwoM/RiCpfMrD3sdwMNJsoYuNBYRm+7d94JUT+64igJSFnInnQws1FEM6ErFLW
-GTbUdAz+u6trM+uemAYBRBe8lTiE76xbIlSC0QPuN2xy/Drm4giBYI5kpKRyyJWJ
-aAvtfD9juYm112/dfCcSI/l0uOMj6RuVLvLJ0nxdUiymxZvYDPR5EH6BpcmEG3q8
-dzgsUWSoV1xoQzT2qaXaCvP7GF0+s9HfwcBgmLWLdg5BkaqpKWsJTU1jPDTIRyTf
-Q5N1FPskkVOc/aciuOVRW63k+wshtWMQ9YbPGINWmB1H9DgIPT85TLWvNZRTIV1c
-6ruI2qZnL70V5zHCYNVDv6CHvLct3m5aVXJOfueBsytygLjEhxtmrMsdn974Qh3q
-yncClbvYRjGlBe0DPg9mU8ZDVom2BNF1Gx4AAFcDf+TwBPwENNtzMK9QpzUu0Mbc
-+pvwXC+OpuHMxIRpj5xgDj2PSbtX8xmF95pl0SY1Zr+3nRofHe412Mk5N7ZaXVBz
-D+trjzWzUOWCCGbJ9Mcgm8vr
-=l/mx
------END PGP SIGNATURE-----
-
---===============9218359863480758811==--
+  - ref: refs/heads/for-linus
+    old: d49951219b0249d3eff49e4f02e0de82357bc8a0
+    new: 9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b
+    log: |
+         9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b ALSA: memalloc: Drop x86-specific hack for WC allocations
+         
+  - ref: refs/heads/for-next
+    old: f777316e52e14059a6a1df45cbf39a93ac49a593
+    new: 3809db6430bf6a725d234e6eec9a6f6be6b8c1ea
+    log: |
+         cd76175a2b204911a3cddef36b99e56945b6938c ALSA: rawmidi: Make internal functions local static
+         f1d40433352e5d4babd59c0dd50b5f9414073ddb ALSA: rawmidi: Move lock to snd_rawmidi_substream
+         94b98194b62e3fe3f27129d8e4b1f3fd7c5e972b ALSA: rawmidi: Take open_mutex around parameter changes
+         463a20fd3481de33c2746f050b4e3f2e6db8017f ALSA: rawmidi: Check stream state at exported functions
+         3809db6430bf6a725d234e6eec9a6f6be6b8c1ea ALSA: rawmidi: Take buffer refcount while draining output
+         
+  - ref: refs/heads/master
+    old: 0990c19a940a5f84b71cb0e78d4540b846a4a80e
+    new: a28edbf38a326f47ea19441bc327eb0d2892fbe9
+    log: |
+         9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b ALSA: memalloc: Drop x86-specific hack for WC allocations
+         7c4e196eb29c6d440308342296a9b28b48b80fec Merge branch 'for-linus'
+         cd76175a2b204911a3cddef36b99e56945b6938c ALSA: rawmidi: Make internal functions local static
+         f1d40433352e5d4babd59c0dd50b5f9414073ddb ALSA: rawmidi: Move lock to snd_rawmidi_substream
+         94b98194b62e3fe3f27129d8e4b1f3fd7c5e972b ALSA: rawmidi: Take open_mutex around parameter changes
+         463a20fd3481de33c2746f050b4e3f2e6db8017f ALSA: rawmidi: Check stream state at exported functions
+         3809db6430bf6a725d234e6eec9a6f6be6b8c1ea ALSA: rawmidi: Take buffer refcount while draining output
+         a28edbf38a326f47ea19441bc327eb0d2892fbe9 Merge branch 'for-next'
+         
