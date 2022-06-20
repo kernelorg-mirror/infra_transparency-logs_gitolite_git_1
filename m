@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 20 Jun 2022 10:29:21 -0000
-Message-Id: <165572096178.6626.7619376331778762851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 20 Jun 2022 10:36:43 -0000
+Message-Id: <165572140330.11881.621918115150764210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/usb-linus
-    old: 7ab1f07c91d2a589d7fd81e5029804b2a19ba2d1
-    new: 342fc0c3b345525da21112bd0478a0dc741598ea
-    log: |
-         342fc0c3b345525da21112bd0478a0dc741598ea USB: serial: option: add Telit LE910Cx 0x1250 composition
-         
+  - ref: refs/heads/20220616_javierm_remap_some_fixes_for_bulk_read_write_callbacks_in_regmap_config_support
+    old: 0000000000000000000000000000000000000000
+    new: 1db43c8ad90ce07311a3ef9af7ace758d79224f9
