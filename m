@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7435852386314900715=="
+Content-Type: multipart/mixed; boundary="===============6081342682221705496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 20 Jun 2022 12:07:06 -0000
-Message-Id: <165572682611.8730.7067940179106995535@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 12:07:35 -0000
+Message-Id: <165572685518.8972.5716462723320966434@gitolite.kernel.org>
 
---===============7435852386314900715==
+--===============6081342682221705496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: dbca1596bbb08318f5e3b3b99f8ca0a0d3830a65
     new: 43312915b5ba20741617dd2119e835205fa8580c
     log: revlist-dbca1596bbb0-43312915b5ba.txt
 
---===============7435852386314900715==
+--===============6081342682221705496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ b3820922651a678ef50b2247fb80dcd01c82534e mlxsw: reg: Add support for VLAN RIF as
 57452d767feaeab405de3bff0d240c3ac84bfe0d skmsg: Get rid of skb_clone()
 43312915b5ba20741617dd2119e835205fa8580c skmsg: Get rid of unncessary memset()
 
---===============7435852386314900715==--
+--===============6081342682221705496==--
