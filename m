@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 20 Jun 2022 09:15:03 -0000
-Message-Id: <165571650340.7880.4937935440983879727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Mon, 20 Jun 2022 09:16:29 -0000
+Message-Id: <165571658903.8383.3182356770431797432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 313c502fa3b3494159cb8f18d4a6444d06c5c9a5
-    new: 69135c572d1f84261a6de2a1268513a7e71753e2
+  - ref: refs/heads/usb-linus
+    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+    new: 7ab1f07c91d2a589d7fd81e5029804b2a19ba2d1
     log: |
-         301bd140ed0b24f0da660874c7e8a47dad8c8222 erspan: do not assume transport header is always set
-         69135c572d1f84261a6de2a1268513a7e71753e2 net/tls: fix tls_sk_proto_close executed repeatedly
+         7ab1f07c91d2a589d7fd81e5029804b2a19ba2d1 USB: serial: option: add Telit LE910Cx 0x1250 composition
          
