@@ -1,46 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3296479956438435452=="
+Content-Type: multipart/mixed; boundary="===============3971148166412888687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 20 Jun 2022 19:45:43 -0000
-Message-Id: <165575434322.21058.5701375366400368766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 20 Jun 2022 20:01:27 -0000
+Message-Id: <165575528764.30311.10372439561005802503@gitolite.kernel.org>
 
---===============3296479956438435452==
+--===============3971148166412888687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/togreg
-    old: 9cf0b618599487f456ef5596dd30b5c162291e3c
-    new: 88cb99daa2b57360d295f2e8642edb740a9bca71
-    log: revlist-9cf0b6185994-88cb99daa2b5.txt
+  - ref: refs/heads/for-kernelci
+    old: d03d1c3da4b510d1cac09725fdad126ce7046ce5
+    new: f51a4cf21aeb5f981799be9ffc2111729dd0f15e
+    log: revlist-d03d1c3da4b5-f51a4cf21aeb.txt
 
---===============3296479956438435452==
+--===============3971148166412888687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cf0b6185994-88cb99daa2b5.txt
+Content-Disposition: attachment; filename=revlist-d03d1c3da4b5-f51a4cf21aeb.txt
 
-9a2139c2912ea64e288749c21452930dc752d4fd spmi: add a helper to look up an SPMI device from a device node
-e9c11c6e3a0e93903f5a13f8d2f97ae1bba512e1 mfd: qcom-spmi-pmic: expose the PMIC revid information to clients
-d23c3c085a95fddae5143823b7d5a81419e6f497 mfd: qcom-spmi-pmic: read fab id on supported PMICs
-7ea58c951ab3867e5d5ffc5033c326d366f3bdbb dt-bindings: iio: adc: document qcom-spmi-rradc
-72c7df8505cbb6da8bb23bdd29e70ce5f30add88 iio: adc: qcom-spmi-rradc: introduce round robin adc
-0691cd473715b293cf7295743c31536f75b4a849 Merge branch 'immutable-qcom-spmi-rradc' into togreg
-4a08069461ac9822855116d24fbf11d5fb223cd1 iio: trigger: warn about non-registered iio trigger getting attempt
-76faa32077b0340382881b66ce6beaefd9d9da97 iio: light: tsl2563: Replace flush_scheduled_work() with cancel_delayed_work_sync().
-dbacf752cde2c0e719ce97783b579a45a9730833 iio:light:tsl2563: Replace cancel_delayed_work() with cancel_delayed_work_sync().
-072c7d3438888ca424e9d44e11f5d870749ba052 iio: accel: mma7660: Drop wrong use of ACPI_PTR()
-f7108bcb34661a81cdcadf3f6118e025a0e14b4c iio: dac: stm32-dac: Replace open coded str_enable_disable()
-7f467484730c94311b651ca819abb61899d10fe8 iio: gyro: bmg160: Fix typo in comment
-4e1c59f3ffd50a3b786051cdc1cb5cdfaaed29d3 dt-bindings: iio/accel: Fix adi,adxl345/6 example I2C address
-0b685f435769bec6fe766da3c911a51b3afa9993 MAINTAINERS: add include/dt-bindings/iio to IIO SUBSYSTEM AND DRIVERS
-82c89365733e28f39ef4a4d479c124f9f1e63671 proximity: vl53l0x: Make VDD regulator actually optional
-88cb99daa2b57360d295f2e8642edb740a9bca71 iio: adc: stm32-adc: Use generic_handle_domain_irq()
+6365a1935c5151455812e96d8de434c551dc0d98 efi: Make code to find mirrored memory ranges generic
+14d9a675fd0d414b7ca3d47d2ff70fbda4f6cfc2 mm: Ratelimited mirrored memory related warning messages
+abd62377c0064302df680ab33f4c05290ba24af8 mm: Limit warning message in vmemmap_verify() to once
+c0b978fedff685c9fdf91a46a6f026ac49d99591 arm64: mm: Only remove nomap flag for initrd
+902c2d91582c7ff0cb5f57ffb3766656f9b910c6 memblock: Disable mirror feature if kernelcore is not specified
+db01ea882bf601252dad57242655da17fd9ad2f5 efi: Correct comment on efi_memmap_alloc
+3881ee0b1edce0ece72d24b7c74f46b73bd6dcba efi: avoid efivars layer when loading SSDTs from variables
+416581e486798cbe3e2b3306faee7d7e9bf3c3d4 efi: efibc: avoid efivar API for setting variables
+38d4f74bc14847491d07bd745dc4a2c274f4987d media: atomisp_gmin_platform: stop abusing efivar API
+0c4bad7f47c4e5ff82c82fbdd4f4ab3105b98fc9 iwlwifi: Switch to proper EFI variable store interface
+98e152c19b66cfe44e1924d2554626a25758f1ea brcmfmac: Switch to appropriate helper to load EFI variable contents
+f8750c9b3b5db45ecf2db23d19d5d42dc172b3e1 Input: applespi - avoid efivars API and invoke EFI services directly
+4f017c61417a50ddf0eb7e56428887b17161d522 efi: add thin efivar wrapper around EFI get/set variable interface
+8fd27d77730ed5e5584bed86f147dd32f63964fc efi: pstore: omit efivars caching EFI varstore access layer
+178b43666a507d852150f2d63c077194badf29ca efi: remove deprecated 'efivars' sysfs interface
+3e30df2db740fc92b8e216b6db31f1a2401fb7cb efi: vars: Don't drop lock in the middle of efivar_init()
+26e7ff96b4c44b851a74273287ecf7db5aa2df27 efi: vars: Export varsize helpers
+f51a4cf21aeb5f981799be9ffc2111729dd0f15e efi: vars: move efivar caching layer into efivarfs
 
---===============3296479956438435452==--
+--===============3971148166412888687==--
