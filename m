@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5809767030699050584=="
+Content-Type: multipart/mixed; boundary="===============1399653464078504836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 20 Jun 2022 07:36:34 -0000
-Message-Id: <165571059425.8795.11525805045528122359@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 07:36:39 -0000
+Message-Id: <165571059971.8856.4794596596811603161@gitolite.kernel.org>
 
---===============5809767030699050584==
+--===============1399653464078504836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: be03b0651ffd8bab69dfd574c6818b446c0753ce
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-be03b0651ffd-a111daf0c53a.txt
+  - ref: refs/heads/tty-next
+    old: 65534736d9a5cab5340ae8819e1394b6325e8390
+    new: df36f3e3fbb76d30d623a1623e31e3ce9c2fa750
+    log: revlist-65534736d9a5-df36f3e3fbb7.txt
 
---===============5809767030699050584==
+--===============1399653464078504836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655710593 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655710597 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1655710592-ff35184a055f84ea77cbf1053369affac28dad91
+nonce 1655710597-08bb663be3251e34f26d8bb03b2e436d654b7a61
 
-be03b0651ffd8bab69dfd574c6818b446c0753ce a111daf0c53ae91e71fd2bfe7497862d14132e3e refs/heads/tty-linus
+65534736d9a5cab5340ae8819e1394b6325e8390 df36f3e3fbb76d30d623a1623e31e3ce9c2fa750 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwI4EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yNgP/1PCDBTqc1zvOjQ4ExQr
-z8BKGPlbaJZsVQahwp+t684EWiyTgG1T4+ZKaL7gTGDS1BQGtewdF4J3FfZEMo0m
-mO1iSYxfSHQACva8sPhfpQMiA73JnS+owvgasthLUurzI8i5CZ0xTlgBVq2JvrQD
-PajhIEPSqgMnsctZKUw6RvfycGKoCpcGX/ZthOg6jg5l1rZ/ATjQ1JAiROhLRb0w
-p7cBTE3MPOmkg6lOstCbXfjymBEJJtf3R5SRCP4L0w3fQfbEffQpAbPerX9lIIqM
-0W8dECH624Jx9bqLG+c9Tn553zWeQGVN6tAwSwnV6J8GMOgytUn0sL+WBBbpZZKb
-Z5ZTvW4p10pu0mTa2JlsA4FHVO1yMpBIZCI47T3ZG6wzXS0ctkwszL9cdW2vzA4v
-NVUhnMYPJPgnyVOjk56nfoY+gVJ0KOYRVDA9CEO4i4HEbh8AFQzqhA6ng79/lGAB
-/sOP/ikxpA7dcZQ1S9n7tBEX6dWeetaUmof63DXzFBM1WS5tmwQEy3bkFjd1ILVN
-c9BSdzcVfHMD0LMWABsOvEexQ8W8ru0OdLk4L3yiD63znqrz52KjIYYYLgR9NqUk
-bz4IlvyH5beruI7vxsp35/JsWWfJ1R5k8Nyz41ii54Xrgi2SbshGcmM6Qcb+HPkl
-UdUI9SNPc4xRI8HlGF0lTdyZ
-=XYlK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwI4YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HT8P/2Gw+RI8vyh0POze7Qw0
+p/B0Rxztru6JQkKbYn1bVX7xvcBLfglLBv7LNphk/aVZnA0vTmvLHxwJZZrH2rhj
+2gibALIvV/ltimxseNBP3UhHGdU+5NpFSsS0AtKdQiLErq7dkGSY5jTGYB/OhwUk
+kv8mGtTg+RcBsn45OW2gfv7Efvo6yBQ5aR3OnHWhjE3IgXNbXXHJci3d3/xUp4FG
+KFdaSYVioPRAud3GsCMCv97lmVVwsxRBDJ7aL6QAZO86h0RdAs3DYLYgird4PHvw
+2bTu4lkVpw1wslNUUwkv+dfXyiPTc3DERen21wFNWB7qteoaE/VRV9u4dAZKTZP2
+wX8pVy/IXkRofh9WCwDq5/o8KwBW/NPt0+hmbrKaont0WZ+jf6nj43planPaXb5M
+rmoSYeIpZGG5He0TdnthNad64m/QtEofdUJve6E7ND5WV6a0zfFiMxiVRMwUJPyr
+ykaettIs4t4sCI/UgW6hDhvILRyUjIm0W1CivZGW2VzT50qsc1wFHC+AOP5EgiwB
+N9kriNy18rXrlBx6M4C0pC2GhaTBbz8S5aZZSUlR+VLidjQ03t+/7yIGZkXJUdL1
+0/TX8BrTEqtHhvghF3fRt4BuHkPITMemOIGyDrk4KlqpnqBvvnJ5cJj/GNXV70lT
+zaVn+4HOArKZItH0atB7Q5y+
+=xXRz
 -----END PGP SIGNATURE-----
 
---===============5809767030699050584==
+--===============1399653464078504836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be03b0651ffd-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-65534736d9a5-df36f3e3fbb7.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -432,6 +432,11 @@ b337af3a4d6147000b7ca6b3438bf5c820849b37 usb: gadget: u_ether: fix regression in
 846bb97e131d7938847963cca00657c995b1fce1 random: credit cpu and bootloader seeds by default
 e052a478a7daeca67664f7addd308ff51dd40654 random: remove rng_has_arch_random()
 81b0d0e4f811553cbe2d58c8a495c124fb626432 drm/ttm: fix missing NULL check in ttm_device_swapout
+e74024b2eccbb784824a0f9feaeaaa3b47514b79 tty: n_gsm: Debug output allocation must use GFP_ATOMIC
+cfab87c2c2715763dc7e43d9968bdaa01cde4bc3 serial: core: Introduce callback for start_rx and do stop_rx in suspend only if this callback implementation is present.
+654a8d6c93e77ecff2256ca3ab2cd98967821f0a tty: serial: qcom-geni-serial: Implement start_rx callback
+499e13aac6c762e1e828172b0f0f5275651d6512 tty: goldfish: Fix free_irq() on remove
+be03b0651ffd8bab69dfd574c6818b446c0753ce serial: 8250: Store to lsr_save_flags after lsr read
 802dcafc420af536fcde1b44ac51ca211f4ec673 xhci: Fix null pointer dereference in resume if xhci has only one roothub
 77006f6edc0e0f58617eb25e53731f78641e820d gpio: dwapb: Don't print error on -EPROBE_DEFER
 fb1f16d74e263baa4ad11e31e28b68f144aa55ed usb: gadget: f_fs: change ep->status safe in ffs_epfile_io()
@@ -692,5 +697,6 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+df36f3e3fbb76d30d623a1623e31e3ce9c2fa750 Merge tag 'v5.19-rc3' into tty-next
 
---===============5809767030699050584==--
+--===============1399653464078504836==--
