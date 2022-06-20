@@ -1,47 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0170550318191767758=="
+Content-Type: multipart/mixed; boundary="===============8306175966771688649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 20 Jun 2022 13:05:12 -0000
-Message-Id: <165573031247.18392.847315023324375903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 20 Jun 2022 13:06:32 -0000
+Message-Id: <165573039256.18844.14387473871024964829@gitolite.kernel.org>
 
---===============0170550318191767758==
+--===============8306175966771688649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: e4ff6dbc2fc755b6609a5c8f192e5fedffd25c45
-    new: 6b6ead0677a7a86645d47f473fde6c13acf04c0f
-    log: revlist-e4ff6dbc2fc7-6b6ead0677a7.txt
+  - ref: refs/heads/for-5.19
+    old: 57b06e9711a5ed5accd04b301da0f27f04aa21d3
+    new: ad9894ac6cc1c1f7c36451d508d69f6ba677834a
+    log: |
+         44f362c2cc6dd0c5e3cb499c4fb4ed45b63a6196 ASoC: rockchip: i2s: switch BCLK to GPIO
+         ad9894ac6cc1c1f7c36451d508d69f6ba677834a MAINTAINERS: update ASoC Qualcomm maintainer email-id
+         
 
---===============0170550318191767758==
+--===============8306175966771688649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4ff6dbc2fc7-6b6ead0677a7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-292d3a01deade8df8f728e21c66c172085888a2b habanalabs/gaudi: collect undefined opcode error info
-fa82fe98e8f98eff68eaa224244ee6d55d8ef07d habanalabs: expose undefined opcode status via info ioctl
-514f91726a8db2526fcf78958adf5852b63d160f habanalabs/gaudi: invoke device reset from one code block
-0b8dc6efee47b7cac7bff279170af4bcefeb08e3 habanalabs/gaudi: send device reset notification
-7ed854fb48d6a225c138134829f3839d0d75c490 habanalabs: send an event notification when CS timeout occurs
-36ab092ff99dfa18677c1070eff57f25c527296b habanalabs: avoid unnecessary error print
-ae1380530e8c3349fac2e54e4cade040d7b43025 habanalabs/gaudi: fix incorrect MME offset calculation
-c395b50e716d24309609e96eb7e2fe588a469dde habanalabs: add validity check for cq counter offset
-de9b569ac39f08c907f9f9e32bba6d634cf20ce5 habanalabs/gaudi: fix shift out of bounds
-48565ac07a6b0e957f472ed9c90d29253dc2f8cc habanalabs: fix NULL dereference on cs timeout
-297c6fdcb2903c4af47d4496ac3dd7ed060c9f82 habanalabs: remove unused get_dma_desc_list_size
-355a515b634c4105310c0a15042030bd78e9738a habanalabs/gaudi: notify user process on device unavailable
-9ee86d4464249ef9b052bfa81a8cea0180312fb0 habanalabs: add critical indication in sram ecc
-90babb804cc55afa4329172aaac3ece3c51fcc6a habanalabs: check fence pointer before use
-c811633f8f5c74796ac9b45f63c51c21c4ea84c6 habanalabs: print pointer with correct modifier
-3bfc205aaf7686cb1175f26f49ac0c6a109c6c2c habanalabs: use kvcalloc when possible
-6b6ead0677a7a86645d47f473fde6c13acf04c0f habanalabs: fix comment style
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1655730391 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1655730390-25e8c33905746f49d051d288fc857f88d2fd84bf
 
---===============0170550318191767758==--
+57b06e9711a5ed5accd04b301da0f27f04aa21d3 ad9894ac6cc1c1f7c36451d508d69f6ba677834a refs/heads/for-5.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKwcNcACgkQJNaLcl1U
+h9ANdAf/S3YUHErrtaTQZtke0DSyVUfHFJPa+hqsXcMqCVrKmqKqBgGElJhebaPK
+aFDlCXt3RsbGMsnXKByZSFAI79lt+7/Jrs5YPZaXyGwl6ajzyvmF5fsqANroD0CY
+9yOMWoec7xKzheAOTmChM6U/Qz8nqg9MQf+ce4niIfc4nJPK4/IwC9vG4gpbTQuw
+xTlVtxJIOi9E4AFdKHkmMJjQCNq7VNL/Eq6l7i5pe2jW6ypsWgOrXZZPZeJQWT4Q
+4d55+2QQdQxoObju+AHsfsr3AX7CKwqgV6ez7WB609SkwgeI/+dm9OR4BHE8Poa9
+lO4s4hRDAwdZft8+UtHflLc1wcKThw==
+=Ggp2
+-----END PGP SIGNATURE-----
+
+--===============8306175966771688649==--
