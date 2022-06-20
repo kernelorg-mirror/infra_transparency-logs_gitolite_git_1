@@ -1,106 +1,159 @@
-Content-Type: multipart/mixed; boundary="===============0296701999042293129=="
+Content-Type: multipart/mixed; boundary="===============3416431701516697204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 20 Jun 2022 14:04:26 -0000
-Message-Id: <165573386677.23350.7263785917551126016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Mon, 20 Jun 2022 14:26:19 -0000
+Message-Id: <165573517976.6090.7160100937795276742@gitolite.kernel.org>
 
---===============0296701999042293129==
+--===============3416431701516697204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ef06e68290b2b1b674950da276d6f7724e0b9874
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-ef06e68290b2-a111daf0c53a.txt
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
+  - ref: refs/heads/next
+    old: fcba483e82462830dd368951c0df03a95676f34d
+    new: e20918f6d11253d62b110e8d16b17cc9bf82d832
+    log: revlist-fcba483e8246-e20918f6d112.txt
+  - ref: refs/heads/queue
+    old: 8baacf67c76c560fed954ac972b63e6e59a6fba0
+    new: e20918f6d11253d62b110e8d16b17cc9bf82d832
+    log: revlist-8baacf67c76c-e20918f6d112.txt
 
---===============0296701999042293129==
+--===============3416431701516697204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef06e68290b2-a111daf0c53a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fe44fb23d6ccde4c914c44ef74ab8d9d9ba02bea pNFS: Don't keep retrying if the server replied NFS4ERR_LAYOUTUNAVAILABLE
-880265c77ac415090090d1fe72a188fee71cb458 pNFS: Avoid a live lock condition in pnfs_update_layout()
-c2f75a43f5ae48b9babeb5b82c9f23fe18d3d144 objtool: Fix obsolete reference to CONFIG_X86_SMAP
-dcea997beed694cbd8705100ca1a6eb0d886de69 faddr2line: Fix overlapping text section failures, the sequel
-7b6c7a877cc616bc7dc9cd39646fe454acbed48b x86/ftrace: Remove OBJECT_FILES_NON_STANDARD usage
-304791255a2dc1c9be7e7c8a6cbdb31b6847b0e5 sunrpc: set cl_max_connect when cloning an rpc_clnt
-8c4811e7a5a60443139369a623ca504bad9e3675 MAINTAINERS: Update Synopsys DesignWare I2C to Supported
-6ba12b56b9b844b83ed54fb7ed59fb0eb41e4045 i2c: npcm7xx: Add check for platform_driver_register
-668a9fe5c6a1bcac6b65d5e9b91a9eca86f782a3 genirq: PM: Use runtime PM for chained interrupts
-b84dc7f0e3646d480b6972c5f25586215c5f33e2 irqchip/xilinx: Remove microblaze+zynq dependency
-f4b98e314888cc51486421bcf6d52852452ea48b irqchip/gic/realview: Fix refcount leak in realview_gic_of_init
-b1ac803f47cb1615468f35cf1ccb553c52087301 irqchip/apple-aic: Fix refcount leak in build_fiq_affinity
-3d45670fab3c25a7452721e4588cc95c51cda134 irqchip/apple-aic: Fix refcount leak in aic_of_ic_init
-ec8401a429ffee34ccf38cebf3443f8d5ae6cb0d irqchip/gic-v3: Fix error handling in gic_populate_ppi_partitions
-fa1ad9d4cc47ca2470cd904ad4519f05d7e43a2b irqchip/gic-v3: Fix refcount leak in gic_populate_ppi_partitions
-eff4780f83d0ae3e5b6c02ff5d999dc4c1c5c8ce irqchip/realtek-rtl: Fix refcount leak in map_interrupts
-df089e6f07e3c94cb7a330dc74f5041db800009c dt-bindings: interrupt-controller/uniphier-aidet: Add bindings for NX1 SoC
-e3f056a7aafabe4ac3ad4b7465ba821b44a7e639 irqchip/uniphier-aidet: Add compatible string for NX1 SoC
-6fac824f40987a54a08dfbcc36145869d02e45b1 irqchip/loongson-liointc: Use architecture register to get coreid
-242439f7e279d86b3f73b5de724bc67b2f8aeb07 comedi: vmk80xx: fix expression for tx buffer size
-bd476c1306ea989d6d9eb65295572e98d93edeb6 misc: rtsx: Fix clang -Wsometimes-uninitialized in rts5261_init_from_hw()
-9f4639373e6756e1ccf0029f861f1061db3c3616 mei: me: set internal pg flag to off on hardware reset
-68553650bc9c57c7e530c84e5b2945e9dfe1a560 mei: hbm: drop capability response on early shutdown
-3ed8c7d39cfef831fe508fc1308f146912fa72e6 mei: me: add raptor lake point S DID
-928ea98252ad75118950941683893cf904541da9 bus: fsl-mc-bus: fix KASAN use-after-free in fsl_mc_bus_remove()
-6872fcac7158c3b3728a2ec1ea771ade0e61ddd5 Merge tag 'irqchip-fixes-5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-e32683c6f7d22ba624e0bfc58b02cf3348bdca63 x86/mm: Fix RESERVE_BRK() for older binutils
-04193d590b390ec7a0592630f46d559ec6564ba1 sched: Fix balance_push() vs __sched_setscheduler()
-4051a81774d6d8e28192742c26999d6f29bc0e68 locking/lockdep: Use sched_clock() for random numbers
-6e21408774da49b34fbe258d161e6329a43fcbe8 MAINTAINERS: add include/dt-bindings/i2c to I2C SUBSYSTEM HOST DRIVERS
-5edc99f0c5b753eb34defad1cdb164824056a487 MAINTAINERS: core DT include belongs to core
-27071b5cbca59d8e8f8750c199a6cbf8c9799963 i2c: designware: Use standard optional ref clock implementation
-de87b603b0919e31578c8fa312a3541f1fb37e1c i2c: mediatek: Fix an error handling path in mtk_i2c_probe()
-60428d8bc27f52e8f1540f98e1b6ef0156d43f0d x86/tdx: Fix early #VE handling
-cdd85786f4b3b9273e4376e69aa95a2d71722764 x86/tdx: Clarify RIP adjustments in #VE handler
-5ee3d10f84d0a32fc11a55c70c204b6d81fd9ef6 NFSv4: Add FMODE_CAN_ODIRECT after successful open of a NFS4.x file
-c3230283e2819a69dad2cf7a63143fde8bab8b5c printk: Block console kthreads when direct printing will be required
-b87f02307d3cfbda768520f0687c51ca77e14fc3 printk: Wait for the global console lock when the system is going down
-f4288f01820e2d57722d21874c1fda661003c9b9 xfs: fix TOCTOU race involving the new logged xattrs control knob
-10930b254d5be1cb4350fb7a456ccd5ea7e3cbd9 xfs: fix variable state usage
-e89ab76d7e2564c65986add3d634cc5cf5bacf14 xfs: preserve DIFLAG2_NREXT64 when setting other inode attributes
-4f5bf12732fd78e225fc62b7c5c84d9032f8048a fs: fix jbd2_journal_try_to_free_buffers() kernel-doc comment
-48e02e6113825db81e4aacc035933c0d0e4e68ce ext4: fix incorrect comment in ext4_bio_write_page()
-3103084afcf2341e12b0ee2c7b2ed570164f44a2 ext4, doc: remove unnecessary escaping
-15baa7dcadf1c4f0b4f752dc054191855ff2d78e ext4: fix warning when submitting superblock in ext4_commit_super()
-8d5459c11f548131ce48b2fbf45cccc5c382558f ext4: improve write performance with disabled delalloc
-7c05eae8db9296e28b5dd34deec1ca5ef96d0f08 smb3: add trace point for SMB2_set_eof
-38335cc5ffafa111210ad6bbe5a63a87db38ee68 Merge branch 'rework/kthreads' into for-linus
-a2b36ffbf5b6ec301e61249c8b09e610bc80772f x86/PCI: Revert "x86/PCI: Clip only host bridge windows for E820 regions"
-93d17c1c8c1cc987aad378d5266d99e46efca43c Merge tag 'printk-for-5.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-32efdbffff280b304bb2cd48844ee4166078e69c Merge tag 'pci-v5.19-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
-4b35035bcf80ddb47c0112c4fbd84a63a2836a18 Merge tag 'nfs-for-5.19-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-1e7769653b06b56b7ea7d56911d2d5b2957750cd x86/tdx: Handle load_unaligned_zeropad() page-cross to a shared page
-5d24968f5b7e00bae564b1646c3b9e0e3750aabe cifs: when a channel is not found for server, log its connection id
-9b6641dd95a0c441b277dd72ba22fed8d61f76ad ext4: fix super block checksum incorrect after mount
-4efd9f0d120c55b08852ee5605dbb02a77089a5d ext4: use kmemdup() to replace kmalloc + memcpy
-85456054e10b0247920b00422d27365e689d9f4a ext4: fix up test_dummy_encryption handling for new mount API
-a08f789d2ab5242c07e716baf9a835725046be89 ext4: fix bug_on ext4_mb_use_inode_pa
-cf4ff938b47fc5c00b0ccce53a3b50eca9b32281 ext4: correct the judgment of BUG in ext4_mb_normalize_request
-bc75a6eb856cb1507fa907bf6c1eda91b3fef52f ext4: make variable "count" signed
-b55c3cd102a6f48b90e61c44f7f3dda8c290c694 ext4: add reserved GDT blocks check
-1f3ddff3755915a2b38de92d53508594de432d3d ext4: fix a doubled word "need" in a comment
-ace2045ed56f9b00beb4cd23c76a5b6cae69f2fe Merge tag '5.19-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-354c6e071be986a44b956f7b57f1884244431048 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-063232b6c46ef81a952362647541d897e806ec5d Merge tag 'xfs-5.19-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-ee4eb6eeaf1468f2524cceef92906a378dd3df7e Merge tag 'i2c-for-5.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-36da9f5fb6e3a0a88ba28e5a7cc7d5449641a286 Merge tag 'irq-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4afb65156a79c59fbdbc10abb0bf06ff83f73e23 Merge tag 'locking-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-727c3991dfdb3ff104e33307e287692ef01daec9 Merge tag 'sched-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1655735171 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1655735151-1cd6a95e7a56e91d47d5328c03fd8579c149ec37
 
---===============0296701999042293129==--
+fcba483e82462830dd368951c0df03a95676f34d e20918f6d11253d62b110e8d16b17cc9bf82d832 refs/heads/next
+8baacf67c76c560fed954ac972b63e6e59a6fba0 e20918f6d11253d62b110e8d16b17cc9bf82d832 refs/heads/queue
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmKwg4MUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNEvQgAkijmxt25ikS3AAkyWM1PedlWWOES
+ZdXeH6/K3npCtfMi8Un+hKE0VRxV4ft9rEhX3SNsPoNbtCyXrTzRhGA95fhgWvbL
+O5j4tzpC8KNqT0zmQpv1FZ7dTXzX6EbJYknzMHASTyr0yoXcToilCX1prHy1N0xf
+3NTVkQY5fIBzgzA2/5nLnTpGCezbYapR8ag17lMEtN5und7LLfHVWevIjUStx4Nx
+tMt3yXQ9NkazZSshrc5rDG8CsrVD3HHzHm+tftRNyYi+br+WPdv60B2JThUKenS8
+3kEcKKvnUe0zYbvESRhL0nKglGk9ad+pKDQklvStQP4LIAr7nyVnkWq0Fw==
+=mc+Y
+-----END PGP SIGNATURE-----
+
+--===============3416431701516697204==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fcba483e8246-e20918f6d112.txt
+
+b3b7c6a6e80d8347a4a5a13a25fa314800f2cbbe KVM: selftests: kvm_binary_stats_test: Fix index expressions
+4f48e2e737451365bc81c3b6283036a9079bcc24 KVM: selftests: Add a missing apostrophe in comment to show ownership
+ad125f309850b9cf2ba4f39729c5cc827595fac4 KVM: selftests: Call a dummy helper in VM/vCPU ioctls() to enforce type
+96f113c40d2882ac9b5e4fcac9e48c32eb030aa3 KVM: selftests: Drop a duplicate TEST_ASSERT() in vm_nr_pages_required()
+9393cb13fa5d4c1ef2f1c3086af1c2cc03389bad KVM: selftests: Use kvm_has_cap(), not kvm_check_cap(), where possible
+1cb67e25f9a844425f85e592c7ffb8428800a796 KVM: selftests: Remove the mismatched parameter comments
+5bdae49fc2f689b5f896b54bd9230425d3643dab KVM: SEV: fix misplaced closing parenthesis
+e5380f6d7586ea3ef3a55d8cf19ceffacea31392 KVM: SVM: Hide SEV migration lockdep goo behind CONFIG_PROVE_LOCKING
+37f80a7c9987ff5f0a1e023dbbda2ad6b47431f7 KVM: s390: selftests: Fix memop extension capability check
+fc10020ac9ece7aacea87753beafc0fbd49e8c58 KVM: X86/MMU: Remove unused PT32_DIR_BASE_ADDR_MASK from mmu.c
+f24b44e48d267092dd79dba1288dc73ac414447e KVM: Rename ack_flush() to ack_kick()
+024c3c3304ca36c23ee400b507fb59ae2e2db7fa KVM: X86/MMU: Remove useless mmu_topup_memory_caches() in kvm_mmu_pte_write()
+78c7d9001be704b7d13083333354c6ddf6e32fce KVM: X86/SVM: Use root_level in svm_load_mmu_pgd()
+007a369fba3c120d9a343bb2e8f04cf64c988183 KVM: x86/mmu: Drop unused CMPXCHG macro from paging_tmpl.h
+d895f28ed6da96d7b922bd79977e2b732b103a99 KVM: VMX: Skip filter updates for MSRs that KVM is already intercepting
+aee98a6838d52d5cca14610d228893e9208f4ed1 KVM: x86/mmu: Use try_cmpxchg64 in tdp_mmu_set_spte_atomic
+0ac304de73b37b66793d6cc1ad3a03886aa79791 KVM: VMX: Use try_cmpxchg64 in pi_try_set_control
+2db2f46fdfc25691f3e90224e78bc5b2fc23dcd7 KVM: x86/mmu: Use try_cmpxchg64 in fast_pf_fix_direct_spte
+fa578398a0ba2c079fa1170da21fa5baae0cedb2 KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+764643a6be07445308e492a528197044c801b3ba KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+5d76b1f8c79309c0b60c8db5f16774f1691945a7 KVM: nVMX: Rename nested.vmcs01_* fields to nested.pre_vmenter_*
+308a4fffeb361af90f17837c1bcace3139d1f677 KVM: nVMX: Save BNDCFGS to vmcs12 iff relevant controls are exposed to L1
+913d6c9b8fe48f0836c00e359fb1ea39089d25e9 KVM: nVMX: Update vmcs12 on BNDCFGS write, not at vmcs02=>vmcs12 sync
+ec1d7e6ab9ff15d9ff7b3628a4320907544675e1 KVM: SVM: Drop unused AVIC / kvm_x86_ops declarations
+d39850f57d2102c6b46feb21237bc23bc42de4f7 KVM: x86: Drop @vcpu parameter from kvm_x86_ops.hwapic_isr_update()
+ae801e1303e939ad5ebd9f390bdcc57275ada33b KVM: x86: Check for in-kernel xAPIC when querying APICv for directed yield
+ce0a58f4756c14d7646cfdf279dbaada9d7712a0 KVM: x86: Move "apicv_active" into "struct kvm_lapic"
+b8e1b9626746209c980ce3fbf9ec3fc86910873d KVM: x86: Use lapic_in_kernel() to query in-kernel APIC in APICv helper
+1ae20e0b975caf8ff51511a89cce5e28ec3e4d70 KVM: VMX: Refactor 32-bit PSE PT creation to avoid using MMU macro
+b3fcdb04a98035f55f7ba9e3c87d3c4eb2f95b4b KVM: x86/mmu: Bury 32-bit PSE paging helpers in paging_tmpl.h
+42c88ff893f06b6ab4eaeb2c37e513edf8c1943b KVM: x86/mmu: Dedup macros for computing various page table masks
+2ca3129e8045b18eb15431b485d40c028fe8fb00 KVM: x86/mmu: Use separate namespaces for guest PTEs and shadow PTEs
+f6b8ea6d43640ebfd1aeaa1faf1016d0bff7b8a0 KVM: x86/mmu: Use common macros to compute 32/64-bit paging masks
+f7384b8866b0b07f249130aa8b63135687626c5c KVM: x86/mmu: Truncate paging32's PT_BASE_ADDR_MASK to 32 bits
+70e41c31bc7776b262cd9f524df3dfc2b5869a0a KVM: x86/mmu: Use common logic for computing the 32/64-bit base PA mask
+28b85ae06f64bf1c1adea68a2fbb31dc40cc060e KVM: Drop bogus "pfn != 0" guard from kvm_release_pfn()
+a1040b0d42acf69bb4f6dbdc54c2dcd78eea1de5 KVM: Don't set Accessed/Dirty bits for ZERO_PAGE
+8e1c69149f27189cff93a0cfe9402e576d89ce29 KVM: Avoid pfn_to_page() and vice versa when releasing pages
+fe1911aa443ed774df46607970bed58d9769db41 KVM: nVMX: Use kvm_vcpu_map() to get/pin vmcs12's APIC-access page
+6573a6910ce46ece35c1aa4bd38b70884553cd21 KVM: Don't WARN if kvm_pfn_to_page() encounters a "reserved" pfn
+b1624f99aa8fedafcabf1b92fa51ed88dde14acb KVM: Remove kvm_vcpu_gfn_to_page() and kvm_vcpu_gpa_to_page()
+284dc49307738d2a897fd375431f741213cd0f27 KVM: Take a 'struct page', not a pfn in kvm_is_zone_device_page()
+b14b2690c50e02145bb867dfcde8845eb17aa8a4 KVM: Rename/refactor kvm_is_reserved_pfn() to kvm_pfn_to_refcounted_page()
+5d49f08c2e08c1f0de1bb0f2e1307ec969451729 KVM: x86/mmu: Shove refcounted page dependency into host_pfn_mapping_level()
+943dfea8f166d62657057170dbe8667ec96247ca KVM: Do not zero initialize 'pfn' in hva_to_pfn()
+e20918f6d11253d62b110e8d16b17cc9bf82d832 x86: kvm: remove NULL check before kfree
+
+--===============3416431701516697204==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8baacf67c76c-e20918f6d112.txt
+
+b3b7c6a6e80d8347a4a5a13a25fa314800f2cbbe KVM: selftests: kvm_binary_stats_test: Fix index expressions
+4f48e2e737451365bc81c3b6283036a9079bcc24 KVM: selftests: Add a missing apostrophe in comment to show ownership
+ad125f309850b9cf2ba4f39729c5cc827595fac4 KVM: selftests: Call a dummy helper in VM/vCPU ioctls() to enforce type
+96f113c40d2882ac9b5e4fcac9e48c32eb030aa3 KVM: selftests: Drop a duplicate TEST_ASSERT() in vm_nr_pages_required()
+9393cb13fa5d4c1ef2f1c3086af1c2cc03389bad KVM: selftests: Use kvm_has_cap(), not kvm_check_cap(), where possible
+1cb67e25f9a844425f85e592c7ffb8428800a796 KVM: selftests: Remove the mismatched parameter comments
+5bdae49fc2f689b5f896b54bd9230425d3643dab KVM: SEV: fix misplaced closing parenthesis
+e5380f6d7586ea3ef3a55d8cf19ceffacea31392 KVM: SVM: Hide SEV migration lockdep goo behind CONFIG_PROVE_LOCKING
+37f80a7c9987ff5f0a1e023dbbda2ad6b47431f7 KVM: s390: selftests: Fix memop extension capability check
+fc10020ac9ece7aacea87753beafc0fbd49e8c58 KVM: X86/MMU: Remove unused PT32_DIR_BASE_ADDR_MASK from mmu.c
+f24b44e48d267092dd79dba1288dc73ac414447e KVM: Rename ack_flush() to ack_kick()
+024c3c3304ca36c23ee400b507fb59ae2e2db7fa KVM: X86/MMU: Remove useless mmu_topup_memory_caches() in kvm_mmu_pte_write()
+78c7d9001be704b7d13083333354c6ddf6e32fce KVM: X86/SVM: Use root_level in svm_load_mmu_pgd()
+007a369fba3c120d9a343bb2e8f04cf64c988183 KVM: x86/mmu: Drop unused CMPXCHG macro from paging_tmpl.h
+d895f28ed6da96d7b922bd79977e2b732b103a99 KVM: VMX: Skip filter updates for MSRs that KVM is already intercepting
+aee98a6838d52d5cca14610d228893e9208f4ed1 KVM: x86/mmu: Use try_cmpxchg64 in tdp_mmu_set_spte_atomic
+0ac304de73b37b66793d6cc1ad3a03886aa79791 KVM: VMX: Use try_cmpxchg64 in pi_try_set_control
+2db2f46fdfc25691f3e90224e78bc5b2fc23dcd7 KVM: x86/mmu: Use try_cmpxchg64 in fast_pf_fix_direct_spte
+fa578398a0ba2c079fa1170da21fa5baae0cedb2 KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+764643a6be07445308e492a528197044c801b3ba KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+5d76b1f8c79309c0b60c8db5f16774f1691945a7 KVM: nVMX: Rename nested.vmcs01_* fields to nested.pre_vmenter_*
+308a4fffeb361af90f17837c1bcace3139d1f677 KVM: nVMX: Save BNDCFGS to vmcs12 iff relevant controls are exposed to L1
+913d6c9b8fe48f0836c00e359fb1ea39089d25e9 KVM: nVMX: Update vmcs12 on BNDCFGS write, not at vmcs02=>vmcs12 sync
+ec1d7e6ab9ff15d9ff7b3628a4320907544675e1 KVM: SVM: Drop unused AVIC / kvm_x86_ops declarations
+d39850f57d2102c6b46feb21237bc23bc42de4f7 KVM: x86: Drop @vcpu parameter from kvm_x86_ops.hwapic_isr_update()
+ae801e1303e939ad5ebd9f390bdcc57275ada33b KVM: x86: Check for in-kernel xAPIC when querying APICv for directed yield
+ce0a58f4756c14d7646cfdf279dbaada9d7712a0 KVM: x86: Move "apicv_active" into "struct kvm_lapic"
+b8e1b9626746209c980ce3fbf9ec3fc86910873d KVM: x86: Use lapic_in_kernel() to query in-kernel APIC in APICv helper
+1ae20e0b975caf8ff51511a89cce5e28ec3e4d70 KVM: VMX: Refactor 32-bit PSE PT creation to avoid using MMU macro
+b3fcdb04a98035f55f7ba9e3c87d3c4eb2f95b4b KVM: x86/mmu: Bury 32-bit PSE paging helpers in paging_tmpl.h
+42c88ff893f06b6ab4eaeb2c37e513edf8c1943b KVM: x86/mmu: Dedup macros for computing various page table masks
+2ca3129e8045b18eb15431b485d40c028fe8fb00 KVM: x86/mmu: Use separate namespaces for guest PTEs and shadow PTEs
+f6b8ea6d43640ebfd1aeaa1faf1016d0bff7b8a0 KVM: x86/mmu: Use common macros to compute 32/64-bit paging masks
+f7384b8866b0b07f249130aa8b63135687626c5c KVM: x86/mmu: Truncate paging32's PT_BASE_ADDR_MASK to 32 bits
+70e41c31bc7776b262cd9f524df3dfc2b5869a0a KVM: x86/mmu: Use common logic for computing the 32/64-bit base PA mask
+28b85ae06f64bf1c1adea68a2fbb31dc40cc060e KVM: Drop bogus "pfn != 0" guard from kvm_release_pfn()
+a1040b0d42acf69bb4f6dbdc54c2dcd78eea1de5 KVM: Don't set Accessed/Dirty bits for ZERO_PAGE
+8e1c69149f27189cff93a0cfe9402e576d89ce29 KVM: Avoid pfn_to_page() and vice versa when releasing pages
+fe1911aa443ed774df46607970bed58d9769db41 KVM: nVMX: Use kvm_vcpu_map() to get/pin vmcs12's APIC-access page
+6573a6910ce46ece35c1aa4bd38b70884553cd21 KVM: Don't WARN if kvm_pfn_to_page() encounters a "reserved" pfn
+b1624f99aa8fedafcabf1b92fa51ed88dde14acb KVM: Remove kvm_vcpu_gfn_to_page() and kvm_vcpu_gpa_to_page()
+284dc49307738d2a897fd375431f741213cd0f27 KVM: Take a 'struct page', not a pfn in kvm_is_zone_device_page()
+b14b2690c50e02145bb867dfcde8845eb17aa8a4 KVM: Rename/refactor kvm_is_reserved_pfn() to kvm_pfn_to_refcounted_page()
+5d49f08c2e08c1f0de1bb0f2e1307ec969451729 KVM: x86/mmu: Shove refcounted page dependency into host_pfn_mapping_level()
+943dfea8f166d62657057170dbe8667ec96247ca KVM: Do not zero initialize 'pfn' in hva_to_pfn()
+e20918f6d11253d62b110e8d16b17cc9bf82d832 x86: kvm: remove NULL check before kfree
+
+--===============3416431701516697204==--
