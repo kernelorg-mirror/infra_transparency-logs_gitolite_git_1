@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5048555602366760477=="
+Content-Type: multipart/mixed; boundary="===============8910851071144449120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 20 Jun 2022 08:01:34 -0000
-Message-Id: <165571209419.21829.897703340216815347@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 08:05:22 -0000
+Message-Id: <165571232225.24475.14901933566413440473@gitolite.kernel.org>
 
---===============5048555602366760477==
+--===============8910851071144449120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 012e6068801ced67856ffa867e9093733f56b2f4
-    new: 6e9e4acd8a0611193fa9fabf4dd53c48c0122b2a
+    old: 6e9e4acd8a0611193fa9fabf4dd53c48c0122b2a
+    new: aa64e956f4bde5f41c8302d990f8b4222e035c8d
     log: |
-         6e9e4acd8a0611193fa9fabf4dd53c48c0122b2a staging: sm750fb: fix CamelCase function parameter
+         e0c718411cbb259d47d9d824d173b6770e7a3ee5 staging: vchiq: provide testing instructions
+         aa64e956f4bde5f41c8302d990f8b4222e035c8d staging: rtl8723bs: remove trailing whitespace
          
 
---===============5048555602366760477==
+--===============8910851071144449120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655712093 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655712320 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1655712092-51bf964fd02330809c930f0095fb556cbc458a7f
+nonce 1655712319-bf58b36482e7c8887df7ffcb29033d39d05cc448
 
-012e6068801ced67856ffa867e9093733f56b2f4 6e9e4acd8a0611193fa9fabf4dd53c48c0122b2a refs/heads/staging-testing
+6e9e4acd8a0611193fa9fabf4dd53c48c0122b2a aa64e956f4bde5f41c8302d990f8b4222e035c8d refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwKV0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dHsP/ihOu60Df7O+jUPrHTmD
-DjBmqovGR1dFpxcxgBUKdOijOpzdqNWlAq/P2qw3grCum+r29fkmb91m6TGlzrGH
-YymMzUhPSYzplF35mu6FQJ9lcPFbeNcvkjMGSZLq1Aq+vujpkbw17J/209rZFNGs
-3Kb2AOXqxyMULe0AF4Co/y17RfyVwysG2FpyB/W77U/et0xpc9fBjpiWusrLV7M4
-0vDWo5TqpE3V6TkmGKlySwXdyuD0uQguymUSUKYJSq7xWgvRmRusgnhuLnQe9X96
-i+OnCH96O29wWJ+kxRi99ng1txN7/j1DCWBsryQWUlpYzybTCioFIbaU02t3J0sO
-Y+/1B0KL/+JE4E+LjkjI4NMIJ54UntuMHLRt4j9Of3i6bKfS21+0mjhjjwrjC5yy
-4QfEFqxv8VcRv9QMDeYIC5dCnLCf+PmjbDDS6gB5ilxgWyupkj0PUoSTbmr7K0cM
-2BfYuec62ywgB6oOyqGrErqc9zD3OB7Ow38uQPNAS3kSTKU3XFNDttr3sXXZ7Clh
-YzaHTNjtMqYxQ5UsUnKnFNdh69lGYkwn+ouQ975DBoTrm/K7GO3H2IyVud8/m1DS
-CwRY+10VRDoZVj3NOlUAnybpTCfKano2DO2yqU4sRoVjSJE+g0g4lk96b5fsvFM5
-wG+2pq8tCJKM2xBttpI3JCrm
-=9+8X
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwKkAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CUgP/3xgjK2S4/6LA6sRuPSD
+C2Fa2hBzVZGuSBo/jQscH66QKC3QUIcszgQJBpWXBbxoYQs35G1DKv+KJfOKS+Et
+U/SwoEWonTi+oj13yYl7/+dMdbE6cQe4lvzPrvFf1DIV+tYqpB1o3V069uPzunvj
+5ZIeeYs51GHzhTXqJhw7PrW+YN1Q0tmiAvRg9ioFaR2qXCG6XvFDDACjQ5/fKKJR
+wreXcHWHizlZ2NWA7z1kKiOydjxxV/wyzMU8lO/37yK7c1JFfaPn9Yqr3PNipG8l
+xe6uPg7a+XGmyMJvz2tH8WMSU9kxvS7Pf+WV8riLC9lqbXroQSt3RTz8Ls4IYEOJ
+FiFSRbRgvFeNUAYEzoZ9/3QRb97WbFfNQjeB/MpO3kL2ZHAToI3q5++4dOUacmBU
+GiAwBg57cQiLo2hk8alSOWdm7OGQ3QPZQnAdUK+dOQSG0+Y/IOrkXAfNJL73QhKy
+nXZym+kvFQLLdhO/sqsV59jfUqm2bm4I4ULVqwqwZSOcbG59926oedowUF+GxnUk
+l15At/lmTZpAKll8sQ2/WrIBnTKWJRyOXGhY3m4qa0ql/dGERLE1Lm5V1wo3UsX3
+rOgJqVhQwvcfljmKMJIlvi0u9exo/88xG5lBIEnioF7t+yjCUEo+hnCKE6q81awm
+X+aPq5T7WA5C23WgU6Wma3SL
+=pxOA
 -----END PGP SIGNATURE-----
 
---===============5048555602366760477==--
+--===============8910851071144449120==--
