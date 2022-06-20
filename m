@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7748329160345668626=="
+Content-Type: multipart/mixed; boundary="===============2018823881620949350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 20 Jun 2022 06:17:21 -0000
-Message-Id: <165570584138.21875.5365892132725865815@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 06:17:25 -0000
+Message-Id: <165570584555.21942.13520079881630301707@gitolite.kernel.org>
 
---===============7748329160345668626==
+--===============2018823881620949350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 928ea98252ad75118950941683893cf904541da9
+  - ref: refs/heads/char-misc-next
+    old: 0a35780c755ccec097d15c6b4ff8b246a89f1689
     new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-928ea98252ad-a111daf0c53a.txt
+    log: revlist-0a35780c755c-a111daf0c53a.txt
 
---===============7748329160345668626==
+--===============2018823881620949350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655705840 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655705844 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1655705839-d5437eb696e40a329ce1cc024b99bbeb559250cd
+nonce 1655705844-b9d5af879efac391bb1eb5dfbc07ca9741e81c60
 
-928ea98252ad75118950941683893cf904541da9 a111daf0c53ae91e71fd2bfe7497862d14132e3e refs/heads/char-misc-linus
+0a35780c755ccec097d15c6b4ff8b246a89f1689 a111daf0c53ae91e71fd2bfe7497862d14132e3e refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwEPAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lMQP/iLSLC+BbrC/Fsbxy1Ky
-1ZA+2IqTKIW3uevOYafBKAh0stiEchhkhr2BwsXaN1SIr6j2rhgSUBKGh3kbKSsG
-naK2/loUDCcWl1HKFh377GZ+iI/cyoejaWCpwlnkghLsTbFy7780iedcasYs4/Ln
-1sIbkfwFj3rhIFthpWKeELRYugINcMcQG/QeLgboOD5zqJcDm2GLkoW6ljZXyspE
-fqVzqVfXCKTrvS62VX0Z5ZMLdYp4Kam3e6KlXv0BHXf48xGmEVeOi/MO7ySFMih/
-Wo2VsnP+cOb4Is9nVo+fby5PtFMBo3AMsNONXuhLlByLa0Km38Sj/IU73/U1LzSY
-niPnE9MCX4zcyJlPi7JGlJ9WJgFPLlTyg0Mt/mqIVOmKflL2kC/vaVm+Va4Q0jcu
-RGnmzT3gXUNfcAjECCiVqHSojNWu1B6rT6+bFvtLRFatalwFSCifiDMKsxnEBQ3k
-GRIYFEsHqQq9kfq8xbDcNnVZPm1qQlnbA3paMV0IjGqhHcYkoO7jhZ6M71OD5dD+
-V/WsRAncgQoUtxGnkVKPuln2HKgXhpOOEuD8SouAFypT4ZZkNbgRD7mWMH5v6RfZ
-0+PuMcJYwcvFExY9oJqcX2SU64ddQYpcW6GdtWFMnrF386L4dWrgdGr3JdxehWCw
-b2e4+dP9L5oFWaYhR1dof2Rx
-=yRpt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwEPUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DxwQAIt05bh17Fd6Tfb8tYYz
+qbA50ZL7OChl8ncB3TIQ6tvRI129hRHR5cLKMqfjxwbNc9law5Lb/2S603qpgEHq
+hChFxsH4ojf+Q3/aFMORE2qt9YapB+lJ2Hzulv7JncKmI7OluRgGP1HhYOKn3cqB
+519CCfbdcsh0Lzu9XaFH5CFmMwrQqSD7E0Syy8yhCF+XuucqV+/NsE+ySASWrcAm
+4Krt/Wsy3lQiK6AmFc4bFbfpYalEMFLjxIEspyKhlYyLYfRfde1vCQSlLYJp6IuG
+63Ui9wKD1Y+I2GwaAbvFdBHJ27E9uBI7vSjKshLDP5b3sx1sxJP9asw2wVZPKX9p
+Y/I5LSiDyOjkfRnJ3Nbcuro68ZEq2/g/zvLqNx+piilb2o+djai0yRp9etNlXLul
+AZtR+iBUZAQVXmGvHBFgvE6xM1ps2ijCYU3MV+u3zyZDPHei3gRvptcPcEMbKw0h
+kpF0ZaNSrWamhK6x7ufPwy/SQglWU/yXUXGjJ/9u4R4TSVjNZEjeki7KCiityWFV
+01T9rUIS5vx6rHNhA4Sg5q3WfmLZY1eu7Qjjh/Og5gEhd1aJ23rBSwRlNqyh7UCh
+2ebkEg4HBnKKaec3hkZj5ilc8sMFe1oE3FYGp5mRL/5K9PG/oGUsK6GJjKf0t57+
+e5sgCZRKihxbKlzIZe64lOpn
+=0eXi
 -----END PGP SIGNATURE-----
 
---===============7748329160345668626==
+--===============2018823881620949350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-928ea98252ad-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-0a35780c755c-a111daf0c53a.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -441,10 +441,13 @@ be03b0651ffd8bab69dfd574c6818b446c0753ce serial: 8250: Store to lsr_save_flags a
 77006f6edc0e0f58617eb25e53731f78641e820d gpio: dwapb: Don't print error on -EPROBE_DEFER
 fb1f16d74e263baa4ad11e31e28b68f144aa55ed usb: gadget: f_fs: change ep->status safe in ffs_epfile_io()
 0698f0209d8032e8869525aeb68f65ee7fde12ad usb: gadget: f_fs: change ep->ep safe in ffs_epfile_io()
-6497e7776441e0567c02b9c12b133d2ba51918df char: lp: remove redundant initialization of err
-1c245358ce0b13669f6d1625f7a4e05c41f28980 misc: atmel-ssc: Fix IRQ check in ssc_probe
+242439f7e279d86b3f73b5de724bc67b2f8aeb07 comedi: vmk80xx: fix expression for tx buffer size
+bd476c1306ea989d6d9eb65295572e98d93edeb6 misc: rtsx: Fix clang -Wsometimes-uninitialized in rts5261_init_from_hw()
 cd756dafd86ee3a4969906086f3c2537e0c6d9d0 staging: Also remove the Unisys visorbus.h
-0a35780c755ccec097d15c6b4ff8b246a89f1689 eeprom: at25: Split reads into chunks and cap write size
+9f4639373e6756e1ccf0029f861f1061db3c3616 mei: me: set internal pg flag to off on hardware reset
+68553650bc9c57c7e530c84e5b2945e9dfe1a560 mei: hbm: drop capability response on early shutdown
+3ed8c7d39cfef831fe508fc1308f146912fa72e6 mei: me: add raptor lake point S DID
+928ea98252ad75118950941683893cf904541da9 bus: fsl-mc-bus: fix KASAN use-after-free in fsl_mc_bus_remove()
 ce253b8573ce3de1278513395f07118650a49e39 arm64/sysreg: Fix typo in Enum element regex
 bb314511b6dc0f863d6fb31ebae912ee96af7805 arm64/fpsimd: Fix typo in comment
 2e990e63220bb01e2755b55b93878ce7c8cbe747 arm64/sme: Fix EFI save/restore
@@ -692,4 +695,4 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
 
---===============7748329160345668626==--
+--===============2018823881620949350==--
