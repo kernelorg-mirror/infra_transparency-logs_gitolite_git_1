@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8703717852635873860=="
+Content-Type: multipart/mixed; boundary="===============6085139713138624939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 20 Jun 2022 07:21:28 -0000
-Message-Id: <165570968835.31379.9530389694565525032@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 07:21:41 -0000
+Message-Id: <165570970121.31528.3684682493771072120@gitolite.kernel.org>
 
---===============8703717852635873860==
+--===============6085139713138624939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 158f7585bfcea4aae0ad4128d032a80fec550df1
+  - ref: refs/heads/master
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-158f7585bfce-a111daf0c53a.txt
+    log: revlist-f2906aa86338-a111daf0c53a.txt
 
---===============8703717852635873860==
+--===============6085139713138624939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-158f7585bfce-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-a111daf0c53a.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -309,12 +309,14 @@ acb0055e187334554398a381a16de72f1a3d47bb virtio: Fix all occurences of the "the 
 477277c7fd43d48ae68cbdcaa7c0f82024a87421 drm/ast: Support multiple outputs
 7219b824e3bc56f9cf074c1929009c0c8690d899 Merge tag 'intel-gpio-v5.19-2' of gitolite.kernel.org:pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
 b6c8cd80ace30f308aeec0ecf946f55dec60cc68 watchdog: gxp: Add missing MODULE_LICENSE
+908e698f2149c3d6a67d9ae15c75545a3f392559 USB: serial: io_ti: add Agilent E5805A support
 ae187fec75aa670a551d9662f83e3947d3f02a69 KVM: arm64: Return error from kvm_arch_init_vm() on allocation failure
 fa7a17214488ef7df347dcd1a5594f69ea17f4dc KVM: arm64: Handle all ID registers trapped for a protected VM
 cde5042adf11b0a30a6ce0ec3d071afcf8d2efaf KVM: arm64: Ignore 'kvm-arm.mode=protected' when using VHE
 112f3bab41113dc53b4f35e9034b2208245bc002 KVM: arm64: Extend comment in has_vhe()
 5879c97f37022ff22a3f13174c24fcf2807fdbc0 KVM: arm64: Remove redundant hyp_assert_lock_held() assertions
 bcbfb588cf323929ac46767dd14e392016bbce04 KVM: arm64: Drop stale comment
+158f7585bfcea4aae0ad4128d032a80fec550df1 USB: serial: option: add support for Cinterion MV31 with new baseline
 8e1278444446fc97778a5e5c99bca1ce0bbc5ec9 powerpc/32: Fix overread/overwrite of thread_struct via ptrace
 66da65005aa819e0b8d3a08f5ec1491b7690cb67 Merge tag 'kvm-riscv-fixes-5.19-1' of https://github.com/kvm-riscv/linux into HEAD
 4527d47bb63a134c4483a1a478d0ff5874b466c7 drm/atomic: fix warning of unused variable
@@ -665,4 +667,4 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
 
---===============8703717852635873860==--
+--===============6085139713138624939==--
