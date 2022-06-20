@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 20 Jun 2022 04:42:33 -0000
-Message-Id: <165570015381.25119.4312026458721086123@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 04:42:41 -0000
+Message-Id: <165570016182.25282.17740789378670554305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/fixes
+  - ref: refs/heads/cpufreq/arm/linux-next
     old: d79958f34d7a411adff33620cc1dbf1a929a86b8
     new: c40bffd189af8cb9cc97cd19eee153f2d1666157
     log: |
