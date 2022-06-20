@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6085139713138624939=="
+Content-Type: multipart/mixed; boundary="===============0789015574185785823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 20 Jun 2022 07:21:41 -0000
-Message-Id: <165570970121.31528.3684682493771072120@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 07:21:49 -0000
+Message-Id: <165570970960.31615.4204692807092636047@gitolite.kernel.org>
 
---===============6085139713138624939==
+--===============0789015574185785823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
     log: revlist-f2906aa86338-a111daf0c53a.txt
 
---===============6085139713138624939==
+--===============0789015574185785823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -667,4 +667,4 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
 
---===============6085139713138624939==--
+--===============0789015574185785823==--
