@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3787584344351938282=="
+Content-Type: multipart/mixed; boundary="===============5503401118044162663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 20 Jun 2022 12:17:26 -0000
-Message-Id: <165572744687.16624.3925413671557816156@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 12:17:34 -0000
+Message-Id: <165572745492.16731.17383596293735579410@gitolite.kernel.org>
 
---===============3787584344351938282==
+--===============5503401118044162663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: cdfc26066459ab63a810c262f558f5a5219a0e1e
-    new: eef88bc9476168e519fe7e9514b8be3f1cda787f
-    log: revlist-cdfc26066459-eef88bc94761.txt
+  - ref: refs/heads/for-next
+    old: a02227d13bb82addd0efc1fefc5c6946453f0a0d
+    new: bcc94f9a2581a035befd86cde7c4b80855203fec
+    log: |
+         efae7404e16a897fba089f83e132229e96825d83 m68k: virt: Kconfig minor fixes
+         c4738fa76cba0ed81aab86a78e00506a89ae211c m68k: mac: Fix typos in comments
+         bcc94f9a2581a035befd86cde7c4b80855203fec m68k: sun3: Use __func__ to get function's name in an output message
+         
+  - ref: refs/heads/for-v5.20
+    old: a02227d13bb82addd0efc1fefc5c6946453f0a0d
+    new: bcc94f9a2581a035befd86cde7c4b80855203fec
+    log: |
+         efae7404e16a897fba089f83e132229e96825d83 m68k: virt: Kconfig minor fixes
+         c4738fa76cba0ed81aab86a78e00506a89ae211c m68k: mac: Fix typos in comments
+         bcc94f9a2581a035befd86cde7c4b80855203fec m68k: sun3: Use __func__ to get function's name in an output message
+         
+  - ref: refs/heads/m68k-queue
+    old: d04e7b388e23ef53f30b3e4e1830e4219c73ccdc
+    new: 350e87b1c7dd570a9ca19b647e1cb21509fa5e79
+    log: revlist-d04e7b388e23-350e87b1c7dd.txt
 
---===============3787584344351938282==
+--===============5503401118044162663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdfc26066459-eef88bc94761.txt
+Content-Disposition: attachment; filename=revlist-d04e7b388e23-350e87b1c7dd.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -329,7 +345,11 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
-2bfd52accdaf6b77433044d517bf4ff1277e6422 Merge tag 'v5.19-rc3'
-eef88bc9476168e519fe7e9514b8be3f1cda787f m68k: sun3: Use __func__ to get function's name in an output message
+c30edccd2200a6b85656b8f3fd9b14c4f2e3d745 m68k: virt: Kconfig minor fixes
+28303bb21476981ffeb4f45865152f034f113dfa m68k: mac: Fix typos in comments
+0a660466a7a07d3c6af721a96a546733ab0b6b1c m68k: sun3: Use __func__ to get function's name in an output message
+0e8c6ee81eb26ae59a53968e44930082e68bcf90 m68k: atari: usb: Add ISP1160 USB host controller support
+656ce68e781702ba7a9a21379032d025e463584c m68k: atari: Update Kconfig.bus help text
+350e87b1c7dd570a9ca19b647e1cb21509fa5e79 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3787584344351938282==--
+--===============5503401118044162663==--
