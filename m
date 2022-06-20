@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 20 Jun 2022 15:50:03 -0000
-Message-Id: <165574020384.29178.7741709244825129911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 20 Jun 2022 15:51:46 -0000
+Message-Id: <165574030658.29783.7068365413400163246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-5.20/io_uring
-    old: d0093035a00357ff45bc52ed8f2c40c40e1de8c5
-    new: 094abe8fbccb0d79bef982c67eb7372e92452c0e
+  - ref: refs/heads/20220616_javierm_remap_some_fixes_for_bulk_read_write_callbacks_in_regmap_config_support
+    old: 1db43c8ad90ce07311a3ef9af7ace758d79224f9
+    new: 2a166929bc0a3ae754365dabc455039fd1be82ca
     log: |
-         094abe8fbccb0d79bef982c67eb7372e92452c0e io_uring: optimize io_uring_task layout
-         
-  - ref: refs/heads/for-next
-    old: 7a60464d7e72d7c01386b46680fffb071f58e0c6
-    new: 0815f42d4c39ccdbac4ae279e538db4bfed0915a
-    log: |
-         094abe8fbccb0d79bef982c67eb7372e92452c0e io_uring: optimize io_uring_task layout
-         0815f42d4c39ccdbac4ae279e538db4bfed0915a Merge branch 'for-5.20/io_uring' into for-next
+         ea50e2a1540fd94e6439a961daae595f65e574fb regmap: Re-introduce bulk read support check in regmap_bulk_read()
+         c42e99a3f93b4ca15720fdfd7aa8f6141dcc2a58 regmap: Make regmap_noinc_read() return -ENOTSUPP if map->read isn't set
+         2a166929bc0a3ae754365dabc455039fd1be82ca regmap: Wire up regmap_config provided bulk write in missed functions
          
