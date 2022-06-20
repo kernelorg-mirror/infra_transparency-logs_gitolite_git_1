@@ -1,42 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 20 Jun 2022 07:37:08 -0000
-Message-Id: <165571062884.9216.14118233400768807352@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1165532163113497693=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 20 Jun 2022 07:41:01 -0000
+Message-Id: <165571086121.11946.15416659854452432388@gitolite.kernel.org>
+
+--===============1165532163113497693==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: d49951219b0249d3eff49e4f02e0de82357bc8a0
-    new: 9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b
-    log: |
-         9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b ALSA: memalloc: Drop x86-specific hack for WC allocations
-         
-  - ref: refs/heads/for-next
-    old: f777316e52e14059a6a1df45cbf39a93ac49a593
-    new: 3809db6430bf6a725d234e6eec9a6f6be6b8c1ea
-    log: |
-         cd76175a2b204911a3cddef36b99e56945b6938c ALSA: rawmidi: Make internal functions local static
-         f1d40433352e5d4babd59c0dd50b5f9414073ddb ALSA: rawmidi: Move lock to snd_rawmidi_substream
-         94b98194b62e3fe3f27129d8e4b1f3fd7c5e972b ALSA: rawmidi: Take open_mutex around parameter changes
-         463a20fd3481de33c2746f050b4e3f2e6db8017f ALSA: rawmidi: Check stream state at exported functions
-         3809db6430bf6a725d234e6eec9a6f6be6b8c1ea ALSA: rawmidi: Take buffer refcount while draining output
-         
-  - ref: refs/heads/master
-    old: 0990c19a940a5f84b71cb0e78d4540b846a4a80e
-    new: a28edbf38a326f47ea19441bc327eb0d2892fbe9
-    log: |
-         9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b ALSA: memalloc: Drop x86-specific hack for WC allocations
-         7c4e196eb29c6d440308342296a9b28b48b80fec Merge branch 'for-linus'
-         cd76175a2b204911a3cddef36b99e56945b6938c ALSA: rawmidi: Make internal functions local static
-         f1d40433352e5d4babd59c0dd50b5f9414073ddb ALSA: rawmidi: Move lock to snd_rawmidi_substream
-         94b98194b62e3fe3f27129d8e4b1f3fd7c5e972b ALSA: rawmidi: Take open_mutex around parameter changes
-         463a20fd3481de33c2746f050b4e3f2e6db8017f ALSA: rawmidi: Check stream state at exported functions
-         3809db6430bf6a725d234e6eec9a6f6be6b8c1ea ALSA: rawmidi: Take buffer refcount while draining output
-         a28edbf38a326f47ea19441bc327eb0d2892fbe9 Merge branch 'for-next'
-         
+  - ref: refs/tags/usb-5.19-rc1
+    old: eb6a1936dbe4ddd8d2ff31e1e7ab9f829c46249a
+    new: 0000000000000000000000000000000000000000
+
+--===============1165532163113497693==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655710860 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1655710860-97bdaca066182b30110d546dd00f5aefb74bf378
+
+eb6a1936dbe4ddd8d2ff31e1e7ab9f829c46249a 0000000000000000000000000000000000000000 refs/tags/usb-5.19-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwJIwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4icQAMttq5u/VJJGkItOqver
+/fAJv22dyaOw/Oqn3DeHqjKaWyPJ7yP6138fnsUfAGgQA3Mp39Yr1mc80mfFzCRR
+OcHLJe4iquJlZa/eNyrI5f9jMEVmyKt9/gmbUzfSDuE6isgebJziXTtWneqf3+rg
+hONAhS/kxMhnfv5iPCXRELYjIsRuYW7GmXIr+L66E2wVHPOu1FMBx8skdNoI+zQ3
+OoCXJ3xOob7dWAoKWYgJ3Q2noI6VGZ1b47sdl5zz7Fq9qi8vwzV2MLXacQtpBemx
+tOQGbMr+4NybKjAJQO5HCXUckcJZCPJjOTIbG6K8fJOZL/NcaZQHdUU7VaQu6Fp2
+UUuWnyhlJlO+d96hQiubqGx+YitzTww6YqLKI6vFWoGgO0c72FOhJPLp4llD+gi8
+q50pTJrItrPIyBGFxgc8jjjuR9VoAorkZb7E4GCgZ6HzDsY45z1StrM25hZIBJlc
+Mul0fZCYuULp+BckDS2HQo4/27i9KIEsTthfIL9O/N7y1ks46qzWgjNGtziSzree
+DkBunrjU8K/tCp64bEyZzW6z6k+v82cJ3fHaMSkxfaepMJcJoFmNqw9aWFAkybBN
+/a4SPYBc6iVUl5SxZEIT+2MFuxly4WRy+9mZYrNQkOEjU5MJw89ulsGl+LaaURPJ
+Z1AqtGRkBYJrQWsuOAMd3ut1
+=NyRV
+-----END PGP SIGNATURE-----
+
+--===============1165532163113497693==--
