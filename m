@@ -1,48 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============3971148166412888687=="
+Content-Type: multipart/mixed; boundary="===============8028161520694785045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 20 Jun 2022 20:01:27 -0000
-Message-Id: <165575528764.30311.10372439561005802503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 20 Jun 2022 21:22:34 -0000
+Message-Id: <165576015413.16943.1338068134742836415@gitolite.kernel.org>
 
---===============3971148166412888687==
+--===============8028161520694785045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-kernelci
-    old: d03d1c3da4b510d1cac09725fdad126ce7046ce5
-    new: f51a4cf21aeb5f981799be9ffc2111729dd0f15e
-    log: revlist-d03d1c3da4b5-f51a4cf21aeb.txt
+  - ref: refs/heads/tmp.perf/urgent
+    old: 140cd9ec8fdddc0e2d1684e6b69bcd05efbc9549
+    new: 5f299a5a0483042acd9235fc0b98533d8770560c
+    log: revlist-140cd9ec8fdd-5f299a5a0483.txt
 
---===============3971148166412888687==
+--===============8028161520694785045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d03d1c3da4b5-f51a4cf21aeb.txt
+Content-Disposition: attachment; filename=revlist-140cd9ec8fdd-5f299a5a0483.txt
 
-6365a1935c5151455812e96d8de434c551dc0d98 efi: Make code to find mirrored memory ranges generic
-14d9a675fd0d414b7ca3d47d2ff70fbda4f6cfc2 mm: Ratelimited mirrored memory related warning messages
-abd62377c0064302df680ab33f4c05290ba24af8 mm: Limit warning message in vmemmap_verify() to once
-c0b978fedff685c9fdf91a46a6f026ac49d99591 arm64: mm: Only remove nomap flag for initrd
-902c2d91582c7ff0cb5f57ffb3766656f9b910c6 memblock: Disable mirror feature if kernelcore is not specified
-db01ea882bf601252dad57242655da17fd9ad2f5 efi: Correct comment on efi_memmap_alloc
-3881ee0b1edce0ece72d24b7c74f46b73bd6dcba efi: avoid efivars layer when loading SSDTs from variables
-416581e486798cbe3e2b3306faee7d7e9bf3c3d4 efi: efibc: avoid efivar API for setting variables
-38d4f74bc14847491d07bd745dc4a2c274f4987d media: atomisp_gmin_platform: stop abusing efivar API
-0c4bad7f47c4e5ff82c82fbdd4f4ab3105b98fc9 iwlwifi: Switch to proper EFI variable store interface
-98e152c19b66cfe44e1924d2554626a25758f1ea brcmfmac: Switch to appropriate helper to load EFI variable contents
-f8750c9b3b5db45ecf2db23d19d5d42dc172b3e1 Input: applespi - avoid efivars API and invoke EFI services directly
-4f017c61417a50ddf0eb7e56428887b17161d522 efi: add thin efivar wrapper around EFI get/set variable interface
-8fd27d77730ed5e5584bed86f147dd32f63964fc efi: pstore: omit efivars caching EFI varstore access layer
-178b43666a507d852150f2d63c077194badf29ca efi: remove deprecated 'efivars' sysfs interface
-3e30df2db740fc92b8e216b6db31f1a2401fb7cb efi: vars: Don't drop lock in the middle of efivar_init()
-26e7ff96b4c44b851a74273287ecf7db5aa2df27 efi: vars: Export varsize helpers
-f51a4cf21aeb5f981799be9ffc2111729dd0f15e efi: vars: move efivar caching layer into efivarfs
+c2f75a43f5ae48b9babeb5b82c9f23fe18d3d144 objtool: Fix obsolete reference to CONFIG_X86_SMAP
+dcea997beed694cbd8705100ca1a6eb0d886de69 faddr2line: Fix overlapping text section failures, the sequel
+7b6c7a877cc616bc7dc9cd39646fe454acbed48b x86/ftrace: Remove OBJECT_FILES_NON_STANDARD usage
+8c4811e7a5a60443139369a623ca504bad9e3675 MAINTAINERS: Update Synopsys DesignWare I2C to Supported
+6ba12b56b9b844b83ed54fb7ed59fb0eb41e4045 i2c: npcm7xx: Add check for platform_driver_register
+668a9fe5c6a1bcac6b65d5e9b91a9eca86f782a3 genirq: PM: Use runtime PM for chained interrupts
+b84dc7f0e3646d480b6972c5f25586215c5f33e2 irqchip/xilinx: Remove microblaze+zynq dependency
+f4b98e314888cc51486421bcf6d52852452ea48b irqchip/gic/realview: Fix refcount leak in realview_gic_of_init
+b1ac803f47cb1615468f35cf1ccb553c52087301 irqchip/apple-aic: Fix refcount leak in build_fiq_affinity
+3d45670fab3c25a7452721e4588cc95c51cda134 irqchip/apple-aic: Fix refcount leak in aic_of_ic_init
+ec8401a429ffee34ccf38cebf3443f8d5ae6cb0d irqchip/gic-v3: Fix error handling in gic_populate_ppi_partitions
+fa1ad9d4cc47ca2470cd904ad4519f05d7e43a2b irqchip/gic-v3: Fix refcount leak in gic_populate_ppi_partitions
+eff4780f83d0ae3e5b6c02ff5d999dc4c1c5c8ce irqchip/realtek-rtl: Fix refcount leak in map_interrupts
+df089e6f07e3c94cb7a330dc74f5041db800009c dt-bindings: interrupt-controller/uniphier-aidet: Add bindings for NX1 SoC
+e3f056a7aafabe4ac3ad4b7465ba821b44a7e639 irqchip/uniphier-aidet: Add compatible string for NX1 SoC
+6fac824f40987a54a08dfbcc36145869d02e45b1 irqchip/loongson-liointc: Use architecture register to get coreid
+242439f7e279d86b3f73b5de724bc67b2f8aeb07 comedi: vmk80xx: fix expression for tx buffer size
+bd476c1306ea989d6d9eb65295572e98d93edeb6 misc: rtsx: Fix clang -Wsometimes-uninitialized in rts5261_init_from_hw()
+9f4639373e6756e1ccf0029f861f1061db3c3616 mei: me: set internal pg flag to off on hardware reset
+68553650bc9c57c7e530c84e5b2945e9dfe1a560 mei: hbm: drop capability response on early shutdown
+3ed8c7d39cfef831fe508fc1308f146912fa72e6 mei: me: add raptor lake point S DID
+928ea98252ad75118950941683893cf904541da9 bus: fsl-mc-bus: fix KASAN use-after-free in fsl_mc_bus_remove()
+566d3c57eb526f32951af15866086e236ce1fc8a scsi: scsi_debug: Fix zone transition to full condition
+6872fcac7158c3b3728a2ec1ea771ade0e61ddd5 Merge tag 'irqchip-fixes-5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
+e32683c6f7d22ba624e0bfc58b02cf3348bdca63 x86/mm: Fix RESERVE_BRK() for older binutils
+04193d590b390ec7a0592630f46d559ec6564ba1 sched: Fix balance_push() vs __sched_setscheduler()
+4051a81774d6d8e28192742c26999d6f29bc0e68 locking/lockdep: Use sched_clock() for random numbers
+6e21408774da49b34fbe258d161e6329a43fcbe8 MAINTAINERS: add include/dt-bindings/i2c to I2C SUBSYSTEM HOST DRIVERS
+5edc99f0c5b753eb34defad1cdb164824056a487 MAINTAINERS: core DT include belongs to core
+27071b5cbca59d8e8f8750c199a6cbf8c9799963 i2c: designware: Use standard optional ref clock implementation
+c4cf6785599b8126ea29160800fec5f1db0a6a30 mm/slub: Move the stackdepot related allocation out of IRQ-off section.
+eeaa345e128515135ccb864c04482180c08e3259 mm/slub: add missing TID updates on slab deactivation
+f6eed15f3ea76596ccc689331e1cc850b999133b scsi: iscsi: Exclude zero from the endpoint ID range
+de87b603b0919e31578c8fa312a3541f1fb37e1c i2c: mediatek: Fix an error handling path in mtk_i2c_probe()
+60428d8bc27f52e8f1540f98e1b6ef0156d43f0d x86/tdx: Fix early #VE handling
+cdd85786f4b3b9273e4376e69aa95a2d71722764 x86/tdx: Clarify RIP adjustments in #VE handler
+f4288f01820e2d57722d21874c1fda661003c9b9 xfs: fix TOCTOU race involving the new logged xattrs control knob
+10930b254d5be1cb4350fb7a456ccd5ea7e3cbd9 xfs: fix variable state usage
+e89ab76d7e2564c65986add3d634cc5cf5bacf14 xfs: preserve DIFLAG2_NREXT64 when setting other inode attributes
+da8badd7d3583f447eac2ab65a332f2d773deca1 scsi: ufs: Simplify ufshcd_clear_cmd()
+d1a7644648b7cdacaf8d1013a4285001911e9bc8 scsi: ufs: Support clearing multiple commands at once
+2acd76e7b8596e307fcec8fc6bc5fe5ab174749a scsi: ufs: Fix a race between the interrupt handler and the reset handler
+1d3e0980782fbafaf93285779fd3905e4f866802 scsi: storvsc: Correct reporting of Hyper-V I/O size limits
+72ea7fe0db73d65c7d977208842d8ade9b823de9 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
+aeaadcde1a60138bceb65de3cdaeec78170b4459 scsi: ibmvfc: Store vhost pointer during subcrq allocation
+1e7769653b06b56b7ea7d56911d2d5b2957750cd x86/tdx: Handle load_unaligned_zeropad() page-cross to a shared page
+063232b6c46ef81a952362647541d897e806ec5d Merge tag 'xfs-5.19-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+ee4eb6eeaf1468f2524cceef92906a378dd3df7e Merge tag 'i2c-for-5.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+36da9f5fb6e3a0a88ba28e5a7cc7d5449641a286 Merge tag 'irq-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4afb65156a79c59fbdbc10abb0bf06ff83f73e23 Merge tag 'locking-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+727c3991dfdb3ff104e33307e287692ef01daec9 Merge tag 'sched-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+05b252cccb2e5c3f56119d25de684b4f810ba40a udmabuf: add back sanity check
+59b785fe2abbe21267516799f6c584cf4fe5f08b Merge tag 'slab-for-5.19-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+c5b3a0946bbe050502c3faef2d4ff02b0da11bd1 Merge tag 'perf-tools-fixes-for-v5.19-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+78ca55889a549a9a194c6ec666836329b774ab6d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+13af83854b6051241e4718a4d30806d00db36415 perf inject: Fix missing free in copy_kcore_dir()
+59ed6c7e83240221bd7c3e10c816bd57d4cfe48a tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
+5f299a5a0483042acd9235fc0b98533d8770560c tools headers cpufeatures: Sync with the kernel sources
 
---===============3971148166412888687==--
+--===============8028161520694785045==--
