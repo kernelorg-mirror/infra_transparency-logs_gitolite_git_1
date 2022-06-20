@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 20 Jun 2022 18:12:53 -0000
-Message-Id: <165574877370.25029.15657466386397937931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 20 Jun 2022 18:16:11 -0000
+Message-Id: <165574897185.27827.1764845787871463524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 267173cbf4a6b37599e644098c756e7e4b771fe9
-    new: a09d2d00af53b43c6f11e6ab3cb58443c2cac8a7
-    log: |
-         a09d2d00af53b43c6f11e6ab3cb58443c2cac8a7 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-         
+  - ref: refs/tags/damon/next-2022-06-20-18-16-on-v5.19-rc2-mm-unstable
+    old: 0000000000000000000000000000000000000000
+    new: ad04bffc0875eca194a3e03992ba609821f79f66
