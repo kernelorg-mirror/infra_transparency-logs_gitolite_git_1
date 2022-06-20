@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2201874882154102610=="
+Content-Type: multipart/mixed; boundary="===============0055413991738024240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 20 Jun 2022 07:00:46 -0000
-Message-Id: <165570844693.17291.12295485772868617299@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 07:00:50 -0000
+Message-Id: <165570845090.17374.16293029415795524483@gitolite.kernel.org>
 
---===============2201874882154102610==
+--===============0055413991738024240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+  - ref: refs/heads/staging-linus
+    old: cd756dafd86ee3a4969906086f3c2537e0c6d9d0
     new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-f2906aa86338-a111daf0c53a.txt
+    log: revlist-cd756dafd86e-a111daf0c53a.txt
 
---===============2201874882154102610==
+--===============0055413991738024240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655708446 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655708450 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1655708445-faf39fc8e28b5a52dd154e80d41f16e2dbed28f1
+nonce 1655708449-0603eac0f213bd178cfe377b7e94fdbd069f684a
 
-f2906aa863381afb0015a9eb7fefad885d4e5a56 a111daf0c53ae91e71fd2bfe7497862d14132e3e refs/heads/main
+cd756dafd86ee3a4969906086f3c2537e0c6d9d0 a111daf0c53ae91e71fd2bfe7497862d14132e3e refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwGx4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rdAQANQcvbFql4bAcg0i/pc+
-Q9i+7vQcsNiUv9uAfV0BuYqO1YGcT+u90PaWDe94/nLuzRr3P0m6QZ4C95ye4sbb
-g9JkvYYaLVp5RhKpT0+vb8XMGf8TtGKfaoiyce6W3e2khiiDefPoutYaNriGfNua
-YvyWsyTsw7naZk7Ah6C7nMFiZiJc0DPsIyYQVMWzZ75rqSBP8pE32kOsHsP/nuBo
-Bzf1GNtJB1Ki74tNU6NJiYMJtFUkG3bKbezHNdvhgVcEHMOyB0dTYPXgTRNytA+4
-KFomdLdU7QB3DC8UE8v+1wBlzxhtLX6H1AWRcpZExcYWSBcpyUUjMPSQBPXFu7lk
-kMkJONnUmPlfUcvW6Ud58O6itSnCZ4rTbPnxF43EN3pIbQqx/z6BLE7IvUDoVTt1
-EkMujQAu6fk5MkdsV6+arasr3WMIamIspo9D+5oUd82kwIJY+uqgutUmkWrbNTPu
-0tQK+pl0G3mj+z4btudju0eG/w9oKO4CRMEGcJAsmko9otpkHfXiRcK/C8mNZM3I
-PLXGFBpHpIfmSmvXaAaG4pW142+PlKUMGBPTaFbkTiuhoOInfLR/srCNvnE44nZY
-Su2ZRjyrzKpkqhkO8scxp4CCPt2Z44fJ1ZaNZgDTUoyOGBcwS1gjH5Tu8ob16btu
-6iRiM6xeApwKSsr1AOAL1eDE
-=3bcM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwGyIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nTkQAJZaSkIXXwQbqZ8Eay/Q
+6JyFaCzvBorf+DKhCjwYigYy/qYFG3D7Stt3JMxxusCdO1JhRnbA1UI3T8HTe0vf
+btPq9WhMpIg5xsbVxrCWOC3xpjuwBYT2lOi/3URQh7Wpg28IfxM60libwgB+zZf0
+rPxGkinRgOAFf7ayHa+31dhO5NF3Y4gt7/HBSrGF4/wOJEtG6GUD2Mf3TZ9HOy8Z
+5S34aqq9D5hjMYSCpcbIrTYqdUtv71PaxKMQT/bjzSfdL0LXHjW+TjOXUSTPnsM9
+sxA1877K3tRY5hcYBGa+eAiMxz6PwNJdptj44IkGoAA4oOkqrIafbKWCEvO5prc1
+TE8JhQQN+1gyBgbkCOVrvug6nFGJRLAt2VRNuG/bQTHHweZRCot6V0R0uiCB5qs1
+BibKzYLW1rqJINUvZ+VBoMA6nLB6T0qxpzRaqxN9hBmucMLesY4YjgR/yXqjgCBd
+bAp0XAEuZ4ABtBGUynPqcTKc+lK7TUzSoBd7lb7WPHT+4UvaFB3y7sdSiEmiABez
+61cMPBTKM6d9HVJ2JN9OfEChORxSM5J6nDx3Om5+JG17xF6d4FIxuisuRZDEfUxi
+m270rroPchT9MLsHtNq16QVSWWUM/oifWP/YUAYxrizd6U76Nsim45Mg+dky31YX
+nLCcjD8w1+OShL9BDFvaPoKq
+=++HJ
 -----END PGP SIGNATURE-----
 
---===============2201874882154102610==
+--===============0055413991738024240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-cd756dafd86e-a111daf0c53a.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -129,8 +129,6 @@ bf476fe22aa1851bab4728e0c49025a6a0bea307 ata: libata-core: fix NULL pointer dere
 10d6bdf532902be1d8aa5900b3c03c5671612aa2 ata: pata_octeon_cf: Fix refcount leak in octeon_cf_probe
 c36ee7dab7749f7be21f7a72392744490b2a9a2b cifs: fix reconnect on smb3 mount types
 2130a790ca49763f724ec45cf93b9dd765e2023e kernel: add platform_has() infrastructure
-5b7419ae1d208cab1e2826d473d8dab045aa75c7 staging: r8188eu: fix rtw_alloc_hwxmits error detection for now
-96f0a54e8e65a765b3a4ad4b53751581f23279f3 staging: r8188eu: Fix warning of array overflow in ioctl_linux.c
 3f9dfbebdc48cebfbda738f6f3d1dbf6d7232f90 virtio: replace arch_has_restricted_virtio_memory_access()
 9bf22421dc8a69cade3c994771637e9693ff0216 arm/xen: Introduce xen_setup_dma_ops()
 02a9e681a3f7998074f39ec265080bf934871530 xen/grants: support allocating consecutive grants
@@ -413,8 +411,6 @@ a0b843340dae704e17c1ddfad0f85c583c36757f nfp: flower: restructure flow-key for g
 cd3ff99b93f777ec9fd2844fbcd67ebc3350bb64 Merge branch 'nfp-fixes-for-v5-19'
 a3bd2102e464202b58d57390a538d96f57ffc361 net: seg6: fix seg6_lookup_any_nexthop() to handle VRFs using flowi_l3mdev
 bf56a0917fd329d5adecfd405e681ff7ba1abb52 Merge tag 'mlx5-fixes-2022-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-de0952f267ffe9d4ecbfeab7c476f7e29e028b3e staging: olpc_dcon: mark driver as broken
-67ea0a2adbf667cd6da4965fbcfd0da741035084 staging: rtl8723bs: Allocate full pwep structure
 6fac824f40987a54a08dfbcc36145869d02e45b1 irqchip/loongson-liointc: Use architecture register to get coreid
 1d9e615f1ab34c690d25b8742abe423219e5d3af Merge tag 'usb-serial-5.19-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 656c5ba50b7172a0ea25dc1b37606bd51d01fe8d Drivers: hv: vmbus: Release cpu lock in error case
@@ -445,7 +441,6 @@ fb1f16d74e263baa4ad11e31e28b68f144aa55ed usb: gadget: f_fs: change ep->status sa
 bd476c1306ea989d6d9eb65295572e98d93edeb6 misc: rtsx: Fix clang -Wsometimes-uninitialized in rts5261_init_from_hw()
 6497e7776441e0567c02b9c12b133d2ba51918df char: lp: remove redundant initialization of err
 1c245358ce0b13669f6d1625f7a4e05c41f28980 misc: atmel-ssc: Fix IRQ check in ssc_probe
-cd756dafd86ee3a4969906086f3c2537e0c6d9d0 staging: Also remove the Unisys visorbus.h
 9f4639373e6756e1ccf0029f861f1061db3c3616 mei: me: set internal pg flag to off on hardware reset
 68553650bc9c57c7e530c84e5b2945e9dfe1a560 mei: hbm: drop capability response on early shutdown
 3ed8c7d39cfef831fe508fc1308f146912fa72e6 mei: me: add raptor lake point S DID
@@ -698,4 +693,4 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
 
---===============2201874882154102610==--
+--===============0055413991738024240==--
