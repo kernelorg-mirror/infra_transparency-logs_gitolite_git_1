@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Mon, 20 Jun 2022 16:13:14 -0000
-Message-Id: <165574159402.11737.8948539903861416555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/sbc
+Date: Mon, 20 Jun 2022 16:20:50 -0000
+Message-Id: <165574205062.16981.6329104607212726061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/bluetooth/sbc
+user: holtmann
 changes:
-  - ref: refs/heads/fs.idmapped.kmntuid
-    old: 87c12d8fb5f2d77b2d80bb3b8ecb3956e0f8ed67
-    new: 3ae9f887148dda3610e1e3c18683da49f9406176
+  - ref: refs/heads/master
+    old: b12ae44620303fcc234151cb84ee0eb474a3b2b3
+    new: 8dc5d5ba381512ad5b1afa45c63ec6b0a3833244
     log: |
-         01fcd04dfa9a1574ca2370625544f70218f90fa7 fs: add two type safe mapping helpers
-         9e085d07aa3213e70d2d6459452a2cc0ef74137d fs: use mount types in iattr
-         8413d37be69c0f313d31c0db3c95272a675741ca fs: introduce tiny iattr ownership update helpers
-         3525c7a5d7da960a75ba9c13aca8da6c2de6c3e7 fs: port to iattr ownership update helpers
-         30cfba3016c5732e7f8f3a3926d393cf8149baaf quota: port quota helpers mount ids
-         a1a531f6c300879e5de780cdda9d066aaae737fd security: pass down mount idmapping to setattr hook
-         3ae9f887148dda3610e1e3c18683da49f9406176 attr: port attribute changes to new types
+         9f2e1916b6f28db3a263697f2dabb3c1a0f04ad6 build: Switch to using tar.xz packaging
+         08d5df2b60d47532b7dfba1a91714a3fa20dd4a1 build: Update to support Libtool >= 2.2
+         eafca3c6b9cac98896d4d54923b5a420a2bde11d build: Update library revision number
+         8dc5d5ba381512ad5b1afa45c63ec6b0a3833244 Release 2.0
          
