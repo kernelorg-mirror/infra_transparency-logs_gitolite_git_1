@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8301037702364842148=="
+Content-Type: multipart/mixed; boundary="===============3393449619446237621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 20 Jun 2022 07:42:19 -0000
-Message-Id: <165571093936.12721.15573042796734686223@gitolite.kernel.org>
+Date: Mon, 20 Jun 2022 07:42:25 -0000
+Message-Id: <165571094549.12833.206992578626017552@gitolite.kernel.org>
 
---===============8301037702364842148==
+--===============3393449619446237621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 0698f0209d8032e8869525aeb68f65ee7fde12ad
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-0698f0209d80-a111daf0c53a.txt
+  - ref: refs/heads/usb-next
+    old: 235a6d80f021d9c3bb5652fb6b19d092a7339248
+    new: 22fe2b36493f195b3f705043877f6c1456f1fd90
+    log: revlist-235a6d80f021-22fe2b36493f.txt
 
---===============8301037702364842148==
+--===============3393449619446237621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655710938 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655710942 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655710938-074c9276dbfb3cc9d799fa2beef592fb203f5588
+nonce 1655710942-4fba5b36959569f792cbf3061ce4b664ee914689
 
-0698f0209d8032e8869525aeb68f65ee7fde12ad a111daf0c53ae91e71fd2bfe7497862d14132e3e refs/heads/usb-linus
+235a6d80f021d9c3bb5652fb6b19d092a7339248 22fe2b36493f195b3f705043877f6c1456f1fd90 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwJNobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KBUP/0m0X9tJCdKmVVoU/VYp
-KT29T/mcHHgUYm7d7WYJfAYrWAllytZiNb6B8fh4QLxTwxmypVfTrhast5UbSyj9
-Mi3ExD6vIF8VxIae/OytRXhvPiKek5EwYoOGfR8d+F/jluFGO7PzYOza3Ag85/pq
-dsg0mZ33JEKvW71muhU66BDzX6DbgvPa6ZTsjGVstbibUQBB+QSRzru8t6QwDuxt
-CTa4P+YDw46jes26xDtU/Wse0u7DdVJkL1uFIbVHwbFaBgnCje2Imw3TnG7aveLR
-9/Oqlosyb83F3hWJzZ9KjOG8+AR1cQl1fn7jiyuJWwS+sm6oahKcoJPCD4OZfqYM
-sv6+tKfge7V6vFLLd33iLF8xZ30iejOjbyJVwYEUFPV6WHyuD6oSoLj4ocs72Zr5
-O5j7AWmL086MdWcTfHz0T2YeJUOJZYWHWaBiKCvwa+Qb8ajHpcu53irNxSnWv+Z6
-wf9qF8FR9G9+2v6vFvnkFzup5cE0olf1dwYJphw5d+FRKvU/8ARMXBUAj8ut7BIm
-embL9dNOaifp/4cptFupMZT9vJ3l1TSYt7gbTs4x6alSzsLg9Qob1sn45FvPx+VH
-CiAsw9HV4VjOoDI9tzoEra7pMFxn9zFJf0Mut4P0G8mOlrMtIXlX3041HWlJijnf
-ZBInes4ONgnZeL65o2Ru0iLD
-=jaUZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKwJN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ANEQALiHuZwon0f9TTMftjQO
+SHMJBM30CuzqrdvIFikWCrLqkFCl2DgDTRm+Po7uDUx5fx1sxeWVr2IBPPtiZp05
+xErCvj529yFlXmZu6ZkJW3WM7mcknTSqRKyHSJD0zCPT2mz1KAwRP4cbLRBU70q0
+WV3CDm3BjOrzUNNoOHOq10GbVKzVItQ6UZFe1oSnfpAd1fbMW2KIgfrBSNNxZ5/i
+66XukiA/JWRZNbAO4Zomwj+BKVDo4hAJJk2diR7t/TG8mNeb3+HX7bgFgBizWFVS
+nyPjN/swlJdvlf7PFcImiXSjJ2S2Ni+adIn+ToL8OZaBcz9P082nJ8Fb1RzOyBCd
+9O6MujSo+FhH35fJNv4KzrlUWgTe1NJNcORNWEyaivVev9TfBuPE1I2Gfu4xbjpb
+uGzlKcmMhUmTyiPrRxv/e+aYGlFubqvmkeSE8qfYDXmh/rAbj2iq1/a+BIfIN5H7
+YgAxl34WcJJ6nJ3a8Uf967P3QVvALMKLBFpKiH+ZD3UVBKJZRTALW1WN3O1BjmPL
+26xz26ByPABgkS3dpnyxOpKvF7riKYI37X+R5WALUJyuES/2h9PxZSLF/0pPZtVJ
+9hb34nPlw0t8lTO15H0sOr3pGk8mmJ78IrzOpfdjzfNNs2UX0je/BbFJKwrQ7jKP
+IIehZg131WM9/FuDj4IIqwB9
+=7MVu
 -----END PGP SIGNATURE-----
 
---===============8301037702364842148==
+--===============3393449619446237621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0698f0209d80-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-235a6d80f021-22fe2b36493f.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -340,12 +340,14 @@ acb0055e187334554398a381a16de72f1a3d47bb virtio: Fix all occurences of the "the 
 477277c7fd43d48ae68cbdcaa7c0f82024a87421 drm/ast: Support multiple outputs
 7219b824e3bc56f9cf074c1929009c0c8690d899 Merge tag 'intel-gpio-v5.19-2' of gitolite.kernel.org:pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
 b6c8cd80ace30f308aeec0ecf946f55dec60cc68 watchdog: gxp: Add missing MODULE_LICENSE
+908e698f2149c3d6a67d9ae15c75545a3f392559 USB: serial: io_ti: add Agilent E5805A support
 ae187fec75aa670a551d9662f83e3947d3f02a69 KVM: arm64: Return error from kvm_arch_init_vm() on allocation failure
 fa7a17214488ef7df347dcd1a5594f69ea17f4dc KVM: arm64: Handle all ID registers trapped for a protected VM
 cde5042adf11b0a30a6ce0ec3d071afcf8d2efaf KVM: arm64: Ignore 'kvm-arm.mode=protected' when using VHE
 112f3bab41113dc53b4f35e9034b2208245bc002 KVM: arm64: Extend comment in has_vhe()
 5879c97f37022ff22a3f13174c24fcf2807fdbc0 KVM: arm64: Remove redundant hyp_assert_lock_held() assertions
 bcbfb588cf323929ac46767dd14e392016bbce04 KVM: arm64: Drop stale comment
+158f7585bfcea4aae0ad4128d032a80fec550df1 USB: serial: option: add support for Cinterion MV31 with new baseline
 8e1278444446fc97778a5e5c99bca1ce0bbc5ec9 powerpc/32: Fix overread/overwrite of thread_struct via ptrace
 66da65005aa819e0b8d3a08f5ec1491b7690cb67 Merge tag 'kvm-riscv-fixes-5.19-1' of https://github.com/kvm-riscv/linux into HEAD
 4527d47bb63a134c4483a1a478d0ff5874b466c7 drm/atomic: fix warning of unused variable
@@ -414,8 +416,16 @@ bf56a0917fd329d5adecfd405e681ff7ba1abb52 Merge tag 'mlx5-fixes-2022-06-08' of gi
 de0952f267ffe9d4ecbfeab7c476f7e29e028b3e staging: olpc_dcon: mark driver as broken
 67ea0a2adbf667cd6da4965fbcfd0da741035084 staging: rtl8723bs: Allocate full pwep structure
 6fac824f40987a54a08dfbcc36145869d02e45b1 irqchip/loongson-liointc: Use architecture register to get coreid
+1d9e615f1ab34c690d25b8742abe423219e5d3af Merge tag 'usb-serial-5.19-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 656c5ba50b7172a0ea25dc1b37606bd51d01fe8d Drivers: hv: vmbus: Release cpu lock in error case
 9b29b6b20376ab64e1b043df6301d8a92378e631 random: avoid checking crng_ready() twice in random_init()
+9c1e916960c1192e746bf615e4dae25423473a64 usb: dwc3: gadget: Fix IN endpoint max packet size allocation
+7ddda2614d62ef7fdef7fd85f5151cdf665b22d8 usb: dwc3: pci: Restore line lost in merge conflict resolution
+3755278f078460b021cd0384562977bf2039a57a usb: dwc2: Fix memory leak in dwc2_hcd_init
+4757c9ade34178b351580133771f510b5ffcf9c8 usb: gadget: lpc32xx_udc: Fix refcount leak in lpc32xx_udc_probe
+b337af3a4d6147000b7ca6b3438bf5c820849b37 usb: gadget: u_ether: fix regression in setting fixed MAC address
+5c7578c39c3fffe85b7d15ca1cf8cf7ac38ec0c1 usb: cdnsp: Fixed setting last_trb incorrectly
+8bd6b8c4b1009d7d2662138d6bdc6fe58a9274c5 USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
 39e0f991a62ed5efabd20711a7b6e7da92603170 random: mark bootloader randomness code as __init
 77fc95f8c0dc9e1f8e620ec14d2fb65028fb7adc random: account for arch randomness in bits
 60e5b2886b92afa9e7af56bba7f5fa5f057e1e97 random: do not use jump labels before they are initialized
@@ -427,7 +437,10 @@ cfab87c2c2715763dc7e43d9968bdaa01cde4bc3 serial: core: Introduce callback for st
 654a8d6c93e77ecff2256ca3ab2cd98967821f0a tty: serial: qcom-geni-serial: Implement start_rx callback
 499e13aac6c762e1e828172b0f0f5275651d6512 tty: goldfish: Fix free_irq() on remove
 be03b0651ffd8bab69dfd574c6818b446c0753ce serial: 8250: Store to lsr_save_flags after lsr read
+802dcafc420af536fcde1b44ac51ca211f4ec673 xhci: Fix null pointer dereference in resume if xhci has only one roothub
 77006f6edc0e0f58617eb25e53731f78641e820d gpio: dwapb: Don't print error on -EPROBE_DEFER
+fb1f16d74e263baa4ad11e31e28b68f144aa55ed usb: gadget: f_fs: change ep->status safe in ffs_epfile_io()
+0698f0209d8032e8869525aeb68f65ee7fde12ad usb: gadget: f_fs: change ep->ep safe in ffs_epfile_io()
 242439f7e279d86b3f73b5de724bc67b2f8aeb07 comedi: vmk80xx: fix expression for tx buffer size
 bd476c1306ea989d6d9eb65295572e98d93edeb6 misc: rtsx: Fix clang -Wsometimes-uninitialized in rts5261_init_from_hw()
 6497e7776441e0567c02b9c12b133d2ba51918df char: lp: remove redundant initialization of err
@@ -684,5 +697,6 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+22fe2b36493f195b3f705043877f6c1456f1fd90 Merge v5.19-rc3 into usb-next
 
---===============8301037702364842148==--
+--===============3393449619446237621==--
