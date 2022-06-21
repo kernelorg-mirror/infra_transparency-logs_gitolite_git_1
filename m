@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9086436134893699060=="
+Content-Type: multipart/mixed; boundary="===============4679741748815334507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Jun 2022 14:29:29 -0000
-Message-Id: <165582176997.23807.1824054309780609654@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 14:30:22 -0000
+Message-Id: <165582182229.25719.12968942287026308888@gitolite.kernel.org>
 
---===============9086436134893699060==
+--===============4679741748815334507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: fb119dcb97f43cf2a6164094209a08e7e6cd6f08
-    new: 485394c63f47df18eb7498608d5fc9041c19ec13
+  - ref: refs/heads/usb-testing
+    old: 485394c63f47df18eb7498608d5fc9041c19ec13
+    new: 3d393f0303b5120aa8c98a8ee70535ea9604ef20
     log: |
-         485394c63f47df18eb7498608d5fc9041c19ec13 MAINTAINERS: Repair file entry in ASPEED USB UDC DRIVER
+         3d393f0303b5120aa8c98a8ee70535ea9604ef20 usb: gadget: aspeed_udc: fix missing spin_unlock_irqrestore in ast_udc_ep_queue
          
 
---===============9086436134893699060==
+--===============4679741748815334507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655821769 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655821821 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655821769-083a9cb73055bab5ee6b12df3e78f641c92a2b76
+nonce 1655821820-9ef652847e8df300de2c3b5c416d32bb571372d3
 
-fb119dcb97f43cf2a6164094209a08e7e6cd6f08 485394c63f47df18eb7498608d5fc9041c19ec13 refs/heads/usb-next
+485394c63f47df18eb7498608d5fc9041c19ec13 3d393f0303b5120aa8c98a8ee70535ea9604ef20 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1ckbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wy8P/0F2eLpxrFNofZthgcIB
-YKVHq1f/07JuAQOmrtYpiJ5DJcpxdkmxCFt0amHTSFPerIiBi7459sF1CL0r+Osn
-JdROfKCjKEp5lEMVFJzG4aYWktIX7n6hrbQKlM3DaUYtXUhN9l4KjQ3woh3S0AYe
-JVpAELqDeAHbD/su3gzZXN1wg9Cgfq+6lsH501IhDjl7Bo/JfoKkqJPZCYk9mbMs
-fB/7g/fp8LHszkbV14HBVLZW9+W25+DMNMZ1A7tkSF5m6NBkYKY1WOQPBxOPVlSx
-s9zsbCDiX3cRN4x1SeYBCfD3tLInx4zo+OyzcYGYr+dqcpQ8BeZxocSNXRubUWWE
-flKHCeiIDemzI5RCkq0BvPTVPsROSCPhsrM50XCoYCEQQppFG54s+5DMHNX1BsKW
-AyYwaDkRyV9+tUeEjL0wGnIfUquKi+sFnvVEVTxJSBaKPYup3u2Lb+n3h8gNOKvJ
-eSOjZYwoCbWV+By23EXg7DDq0tPfFYxSxASKp2oaPKpY2Nr6xO9DW2yvVE0Uz6ML
-lGu0LwHl79yCnA6wKDYbMpSHCsW9xUiT4VD+VVkxDPHGds38/PS5qedOEVDN7Hj1
-Yo3SS8+ySu4UWFKEBPmM6LnQ2gt50lozTP/pXbYNUX/OWfZ4DFAn25WyOX0RInC0
-wMM4FvTBHq2ONntzfPv0Mu2S
-=5pZ0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1f0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0L0QAMefq+KQL02wPCgCCIsU
+gd9JZmDKhesWSxs+dXnRF4uBO8PFVNqEKH1aSaKikkdmjEgQUNPsCoRKjZAAmxK4
+oUnbF3T3T4M58qM/WJrwhcBnnoy5y14bpRIgM7wG3VVzRqri9jjnF0p0pQnyrnh3
+oLnQBCDNW/vNzqd+RKBhyzrg1o+3OsEfKtfdOPs1jqtAYSlUx4xa9txgFQ/qW79w
+qzLpxNRKCfLK7MERlBA1MklZoSrFR6GXe5Mf3KGxAoZrQmovtILOaMIxq8opdnx+
+MmVZOp2wVY2LFHsfltPOzB31qeBDvi0RFq9qJvlYGkw2qqxp0a7bdEzoKtNP8Ct/
+Xd6Ik88FnnlWn1hsQwy6eR9xzMf+SJIOS74vEFHnt/RL4VjhGAcL1Lfi/ofCZ59D
+0jVyGBjx0GJ+tzXz73g1gdf4FQC72/pUjKFyGKfLfxaPUs+S63ZgEJmH6k/0uL+W
+pvc3WUpEJbT+Kh6uV1bxhH2edZubGTZUTVW7jI12pTREmTejpxFzMwkFzfPwJmgK
+s9+syOR7sWbr/T1z1pB7t9GWDzRBntHcCeTjZXrGwbobAzMS/6B1E9l6S10T+h/I
+KlnUAhcZc1VvtgMa89F4g5juzFD4WtYNUvo4Imxhl2sw0dBqZdBlijDgATe2yi2e
+P14g6GXYtHjfcokacJxrrrG0
+=urMU
 -----END PGP SIGNATURE-----
 
---===============9086436134893699060==--
+--===============4679741748815334507==--
