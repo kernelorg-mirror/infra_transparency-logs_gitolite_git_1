@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3121793346217103285=="
+Content-Type: multipart/mixed; boundary="===============1621350192979986142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 21 Jun 2022 15:22:34 -0000
-Message-Id: <165582495429.28871.5366058952205597065@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 15:22:40 -0000
+Message-Id: <165582496046.28948.5457472133521769862@gitolite.kernel.org>
 
---===============3121793346217103285==
+--===============1621350192979986142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b4a028c4d031c27704ad73b1195ca69a1206941e
-    new: 69135c572d1f84261a6de2a1268513a7e71753e2
-    log: revlist-b4a028c4d031-69135c572d1f.txt
+  - ref: refs/heads/dev-queue
+    old: e1a9d2dfe995cd06447174255ab54b06ec7ce1f7
+    new: c5c08d7582d958b4a598c9ca38dd9e45cbed4aea
+    log: revlist-e1a9d2dfe995-c5c08d7582d9.txt
 
---===============3121793346217103285==
+--===============1621350192979986142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4a028c4d031-69135c572d1f.txt
+Content-Disposition: attachment; filename=revlist-e1a9d2dfe995-c5c08d7582d9.txt
 
 a6e944f25cdbe6b82275402b8bc9a55ad7aac10b xsk: Fix generic transmit when completion queue reservation fails
 3046a827316c0e55fc563b4fb78c93b9ca5c7c37 bpf: Fix request_sock leak in sk lookup helpers
@@ -49,5 +49,22 @@ a2b1a5d40bd12b44322c2ccd40bb0ec1699708b6 net/sched: sch_netem: Fix arithmetic in
 313c502fa3b3494159cb8f18d4a6444d06c5c9a5 ipv4: fix bind address validity regression tests
 301bd140ed0b24f0da660874c7e8a47dad8c8222 erspan: do not assume transport header is always set
 69135c572d1f84261a6de2a1268513a7e71753e2 net/tls: fix tls_sk_proto_close executed repeatedly
+da47edc15390a74bf02efdbb3a22db0e03bf659b ice: prevent low-core machines crashing on DCB config
+b1b377f7b0f38354a9ebc99c0a627944b143208f ice: ignore protocol field in GTP offload
+ecc12dd1950b8fa9a4a3d2cf341a5507349c9c05 i40e: Fix interface init with MSI interrupts (no MSI-X)
+d4acd32458d68a6d54d92c5ed5424524a1371481 ice: Fix switchdev rules book keeping
+20cdc25b379671cb01b5b42dd9a838d5416bb8bf igb: Make DMA faster when CPU is active on the PCIe link
+4d12e144ef7dd182557ada16596980ef12950fc1 i40e: Fix dropped jumbo frames statistics
+f9470ec9e54e991e9ba5b05386c8aabb3db6a711 igc: Reinstate IGC_REMOVED logic and implement it properly
+dbe48f3afde94bcb24a73abb95de119b360085b3 ice: ethtool: Prohibit improper channel config for DCB
+dbb76bbdf94860a5490e97abf1bbf1c638203b46 ice: ethtool: advertise 1000M speeds properly
+0eacb16de75cfaedce8f1f0523e58fc93d68dd0f i40e: Fix VF's MAC Address change on VM
+a08e64cca9ae5c0d555429b0968625bf041279eb ice: handle E822 generic device ID in PLDM header
+f7e6ee00a0c767feaf001ec832d62b3d2e0ae1a9 ice: change devlink code to read NVM in blocks
+9bdfb79c79f6f706545c0c5be694378ab22d9a9d iavf: Fix VLAN_V2 addition/rejection
+feb48c7e992217a49f2726ab581ac8b9ca595c57 iavf: Fix max_rate limiting
+143630cc0a021aec229a96f50dde68cdc3aa275b iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+4d6055a4c41d13360153ad66c1256b4aa8191dcf ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+c5c08d7582d958b4a598c9ca38dd9e45cbed4aea iavf: Fix missing state logs
 
---===============3121793346217103285==--
+--===============1621350192979986142==--
