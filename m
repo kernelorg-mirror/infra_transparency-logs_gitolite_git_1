@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Tue, 21 Jun 2022 13:27:47 -0000
-Message-Id: <165581806799.15044.12318076760364304614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Tue, 21 Jun 2022 13:28:05 -0000
+Message-Id: <165581808500.15224.8766615036011627991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
 changes:
-  - ref: refs/heads/fs.idmapped.kmntuid
-    old: 7eeeb8504c0b903b74c82ab42bc51e1e70cd493a
-    new: cba21bc1171f94f2eb1fc56a51f3d8b8bccdefa7
+  - ref: refs/meta/cgit
+    old: 7d0e3cb2132b800debbe5ed58449dcd198579a4c
+    new: 3b1829ff53de7cc8ad3590754da7570d23211a85
     log: |
-         cba21bc1171f94f2eb1fc56a51f3d8b8bccdefa7 attr: port attribute changes to new types
+         3b1829ff53de7cc8ad3590754da7570d23211a85 Correct description/title
          
