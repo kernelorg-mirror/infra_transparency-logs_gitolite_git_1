@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4230909144940037996=="
+Content-Type: multipart/mixed; boundary="===============5398682985323702191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Jun 2022 14:31:25 -0000
-Message-Id: <165582188515.26257.13992190974352573110@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 14:36:35 -0000
+Message-Id: <165582219597.29367.13352438548284220649@gitolite.kernel.org>
 
---===============4230909144940037996==
+--===============5398682985323702191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c09b1f372e746aeeb61ef8ffe0fea3970fd9273e
-    new: 44830e11ae9e56120e9d8edba447d0d0c44bfbbc
+    old: 44830e11ae9e56120e9d8edba447d0d0c44bfbbc
+    new: 4a691b8c157a339e35ec71e432edf17a358215e7
     log: |
-         e2900f7466ddf013686520f2d23c3a9d50a6a516 usb: gadget: ast2600: Fix a couple of spelling mistakes
-         44830e11ae9e56120e9d8edba447d0d0c44bfbbc usb: gadget: Remove unnecessary print function dev_err()
+         7a96b6ea90a439f73e42b640eef2386c2c644570 usb: musb: Add support for PolarFire SoC's musb controller
+         4a691b8c157a339e35ec71e432edf17a358215e7 MAINTAINERS: add musb to PolarFire SoC entry
          
 
---===============4230909144940037996==
+--===============5398682985323702191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655821883 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655822194 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655821883-e5966f96f5fad096fa58a1a33b497d72180be585
+nonce 1655822193-4aa67767591a36484aa0d92f77a5cca4db339d26
 
-c09b1f372e746aeeb61ef8ffe0fea3970fd9273e 44830e11ae9e56120e9d8edba447d0d0c44bfbbc refs/heads/usb-testing
+44830e11ae9e56120e9d8edba447d0d0c44bfbbc 4a691b8c157a339e35ec71e432edf17a358215e7 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1jsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X7UQAMeMqjTNMCRGp7i3gBAM
-a6RoWntkf2fPGBp+5Wq+gXE2PAwX6Zy80Qbvn/6Hr8r2lRYO0GqQTo6ipHizLA8F
-kQabwZSziSTEofXRnFgrvz3BhYguFT7ImPb5h/v38r859BeKdBwXiQotoHhxYZ58
-c7dD0qoE93Jbn3HLoqTDFLoqtAc7evJycshmtG61ewWPoW00/Yb6WfGsi9GkpeQS
-OT3eERLeupnXV/MYSS6iQ0iNwubyX3AVBA5m3tldpLMeWXEsbx2fjDFkeBnBYYao
-ieTXQmy5DlJhAz2IMyV0s3r8OFmvS53dobhBmqd7Aa5wa9mjrPzOc2HoZDlkGQqM
-sg1ZXNui+no2nhEv42EWgmiAlwq2G6z+nrgU6cYpJF+A60aU/FPCKw/CaCiEzl1j
-ZiDcAgXaalTD5Y1r3udkoBNUS+2EtFZh3dduyR0Sr9fkr4Y2hJj88xPUajAB9PCM
-PH40PPSmX+yL6CyDEBKvkYDgpu5p1umqPO1kal87g9d+RYvHQxPpTtxGQt/0uOde
-QRtNCKxUuXPVznIb7yGeKonQVnAUM7B1fRGfjkZjRZBAy5L6MMFz1WGu8e+OA++E
-4o41qBR0iiKb11Pt27qvYwLSvodLW08U6fMp65xLCzrKGEH34utvv58arMCTBk9B
-S2t1atTZdC4DqwWIMmWgoGHh
-=HwZM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx13IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qAEQAMY8uPQRtZ12qBAJE3/G
+Z8NWDCzPf9JUSxvEW7nobWgkyxKegFi1vsbE5tuNLMekDFiY7S7U2MOLqpJl6Cvp
+AsS5AOOjUBL0njwfTCd1hRR3B6MRkBag+M+t1DpGbugGWcu0VWrMfOP2/IKeJMOO
+qZSO1w7sjceLJVi7oVs9boh4y7Xi2KqqXQWPbhsxlqyy10F5a/2hUz8/4lJkeSt2
+848Gh6WQ6sv0LplbUM1wIuKI6qfiU4LfKDWJqKrkrqWKChDHqxUzDQFCwSyDkoLz
+3ohMBW5xQiYkk0SNM1bwxaqeLCurwcvIuf0lQKKv9tBYW/JXoFmMOk5hYHEYsSk1
++PCKmzdiRA8dt1oHKcHOSFAE6OCwBMqaueFdLkb95XKieBdRCE/k2qbICxgTEc09
+Tbnjy4sPMNxO76CY0lrFp4/+xrlUjjiCHdRHXhx64Ti5JL+JPjTr+NbxZorRG2iM
+XKP+++3+AcoEyuT7pR7RkfdYcmNuelrV5VIcsv2tN1iwT1hDSyy29IoOZENFy6cB
+SZVJbWnczu+KhPHSeTZ1x/BhZUq90sKZUGbXDt2V+pKUfs1sejBsb2Mw67ZlO4wo
+eVO3kQSlm6BKIyMhRSis/23WXiu8tbAko+oQIOlzl2r79nWP/pA8P7YHChLR5Gb2
+CsXHioYMoDdU6NOb5rvl0Nv/
+=oH8A
 -----END PGP SIGNATURE-----
 
---===============4230909144940037996==--
+--===============5398682985323702191==--
