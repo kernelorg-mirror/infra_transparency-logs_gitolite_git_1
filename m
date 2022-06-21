@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2477990083194322841=="
+Content-Type: multipart/mixed; boundary="===============4792053541299906761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Jun 2022 15:27:44 -0000
-Message-Id: <165582526436.32200.2845102712032111601@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 15:27:52 -0000
+Message-Id: <165582527218.32293.1078368591568170370@gitolite.kernel.org>
 
---===============2477990083194322841==
+--===============4792053541299906761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 4875d94c69d5a4836c4225b51429d277c297aae8
-    new: 8720bd951b8e8515ffd995c7631790fdabaa9265
-    log: revlist-4875d94c69d5-8720bd951b8e.txt
+  - ref: refs/heads/dev-queue
+    old: 371e59d265551fff92ab0a29503a6454b99ba22f
+    new: c83ff79653778dd92ff156f1ef42051fa06fba81
+    log: revlist-371e59d26555-c83ff7965377.txt
 
---===============2477990083194322841==
+--===============4792053541299906761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4875d94c69d5-8720bd951b8e.txt
+Content-Disposition: attachment; filename=revlist-371e59d26555-c83ff7965377.txt
 
 21f1481a8db4caae4f935ef37aa29e5b3ceebc56 xdp: Directly use ida_alloc()/free() APIs
 2cd008522707a59bf38c1f45d5c654eddbb86c20 bpf: Unify data extension operation of jited_ksyms and jited_linfo
@@ -157,5 +157,35 @@ e593df51ffe8ad7d29c8bd6cd2bd614ad1f88005 net: dsa: microchip: get P_STP_CTRL in 
 e587be759e6e4f5a257d1f2bd7f2883a6397a6e8 net: dsa: microchip: update fdb add/del/dump in ksz_common
 1fe94f542e66b5de526233762ed528e7d3b66ff9 net: dsa: microchip: move get_phy_flags & mtu to ksz_common
 8720bd951b8e8515ffd995c7631790fdabaa9265 Merge branch 'net-dsa-microchip-common-spi-probe-for-the-ksz-series-switches-part-1'
+0eb644358bccc2c5359f3f9d05d842aed0209d87 ice: Add support for double vlan in switchdev
+72f3596e3f8c42fa2317eb0c2409daf3cce617a1 ice: Add support for vlan tpid filters in switchdev
+b77c13f89d282151ea82c0d573ca8d7db4b0c82f ice: switch: dynamically add vlan headers to a dummy packets
+7589a505ecd138c2368d2afccd1c177807e91bf2 ice: prevent low-core machines crashing on DCB config
+c9a58e6395025cba91b4af79ca29a02328e7576a ice: ignore protocol field in GTP offload
+f4a9f88818c9ece0a62879216989a77df75188ec e1000e: Enable GPT clock before sending message to CSME
+951590035a0f0e95e27b0200672c910d2156f4fc Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+498728a4512d74cbfdbcd5bde7be61d19fcbc71a intel/i40e: delete if NULL check before dev_kfree_skb
+ca6bcdd93b9d2fb3dfa86a07a29d86c1d911878c i40e: Add support for ethtool -s <interface> speed <speed in Mb>
+941bc1b003438a1d9077627baf06897bfac55f40 ice: use eth_broadcast_addr() to set broadcast address
+72b068107b3bfc3a536ce46e2e2953cb58088f81 i40e: Remove unnecessary synchronize_irq() before free_irq()
+7ac260bb90448629ace60bc93afd0fdedd80b545 i40e: Fix interface init with MSI interrupts (no MSI-X)
+47f159dabca4cd4d2eac88ccb403902a163109d2 ice: Fix switchdev rules book keeping
+ffe6ccb5be9e71f5a6b5ed635a4c5c8ff291cd4e igb: Make DMA faster when CPU is active on the PCIe link
+46ac11966b16c20bde5d6e111d33e0551946ef5e i40e: Fix dropped jumbo frames statistics
+96ecf5a9e4391168b9189d642f0dc6a6f0ee5fba igc: Reinstate IGC_REMOVED logic and implement it properly
+59a03dad2b905bc442cbd1c14c35eeb66cff63f2 ice: ethtool: Prohibit improper channel config for DCB
+190a1bfa3098e718e257602640a2e584b986d9a5 ice: ethtool: advertise 1000M speeds properly
+79a61e556e022a178473520bde180e8009b7ae9f ice: add support for Auto FEC with FEC disabled
+bf84009e1dd1da4b186988ca2bfa743d53926bc1 i40e: Fix VF's MAC Address change on VM
+dff0d3cc2acccac7358a62c3046bd58aabad0297 ice: handle E822 generic device ID in PLDM header
+c0f1202b0e5af1cd279962c986cba89d0b97fe72 ice: change devlink code to read NVM in blocks
+7e6e8dd8acb1f9be72436ec3705e6e0f2b1c025b i40e: Refactor tc mqprio checks
+4c4ce11a58025bf4eebeeddf1f01ba824d457adb iavf: Fix VLAN_V2 addition/rejection
+14806a626f14f5d5ff76e3636e278ed6a1c0cd85 iavf: Fix max_rate limiting
+b2a323e10729ae589f402c62bb0b39d80d7ab3bf iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+23ffda29442aacdd615640fe6af2adae0d498a52 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+1b15413867fdd8a0f218fe7df9f6b4fd041893d9 iavf: Fix missing state logs
+849d9bfa415275378200bb0b60b0ad6a3ed503f5 igb: add xdp frags support to ndo_xdp_xmit
+c83ff79653778dd92ff156f1ef42051fa06fba81 ice: Remove unnecessary NULL check before dev_put
 
---===============2477990083194322841==--
+--===============4792053541299906761==--
