@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 21 Jun 2022 12:05:55 -0000
-Message-Id: <165581315561.25087.4289870461387397521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Tue, 21 Jun 2022 12:15:37 -0000
+Message-Id: <165581373721.32409.10718778814738371918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/for-linus
-    old: c7807b27d510e5aa53c8a120cfc02c33c24ebb5f
-    new: 36a38c53b4ee51b90566f8f44a613601eb31a10e
+  - ref: refs/heads/fs.idmapped.kmntuid
+    old: 90120a3aac3ef0151c675da2b5436296bc3c3f29
+    new: cf638d54da725164189d57013b7b7b436c143b79
     log: |
-         36a38c53b4ee51b90566f8f44a613601eb31a10e ALSA: hda: Fix discovery of i915 graphics PCI device
-         
-  - ref: refs/heads/master
-    old: a9794f68e037676bd56a2343722dbe94832eae09
-    new: 71aff039e01d86c1db21c6df76ddb6758b34c8aa
-    log: |
-         36a38c53b4ee51b90566f8f44a613601eb31a10e ALSA: hda: Fix discovery of i915 graphics PCI device
-         71aff039e01d86c1db21c6df76ddb6758b34c8aa Merge branch 'for-linus'
+         cf638d54da725164189d57013b7b7b436c143b79 attr: port attribute changes to new types
          
