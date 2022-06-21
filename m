@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 21 Jun 2022 15:31:07 -0000
-Message-Id: <165582546721.2621.17610573144920713294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Tue, 21 Jun 2022 15:36:54 -0000
+Message-Id: <165582581411.6112.9122940934967765897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
   - ref: refs/heads/dev
-    old: a9d35a128e394ef4650369eba1f875e85312c42a
-    new: 82c7863ed95d0914f02c7c8c011200a763bc6725
+    old: 0d70b7301654b417fc8b16616673d78f33ee9046
+    new: 1d39b044b5d0c56c52a1713ca9c7481fd01202a4
+    log: |
+         1d39b044b5d0c56c52a1713ca9c7481fd01202a4 f2fs_io: add dsync option for write
+         
