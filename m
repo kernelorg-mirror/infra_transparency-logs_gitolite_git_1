@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0102404811772937151=="
+Content-Type: multipart/mixed; boundary="===============8868846758098339110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Jun 2022 14:37:46 -0000
-Message-Id: <165582226661.29960.9380795051681114891@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 14:38:47 -0000
+Message-Id: <165582232727.30358.12163439372431005787@gitolite.kernel.org>
 
---===============0102404811772937151==
+--===============8868846758098339110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: afbd04e66e5d16ca3c7ea2e3c56eca25558eacf3
-    new: d9be8d5c5b032e5383ff5c404ff4155e9c705429
+    old: d9be8d5c5b032e5383ff5c404ff4155e9c705429
+    new: a37599ebfb656c2af4ca119de556eba29b6926d6
     log: |
-         098c4d43b91a269e89f60331a26a3f3b914677ed dt-bindings: usb: dwc3: Add wakeup-source property support
-         649f5c842ba3acfe6a06a36229759f328e98508a usb: dwc3: core: Host wake up support from system suspend
-         360e8230516de94d74d30c64f0cdcf228b8e8b67 usb: dwc3: qcom: Add helper functions to enable,disable wake irqs
-         6895ea55c385c9afdd2aec1eef27ec24917a112f usb: dwc3: qcom: Configure wakeup interrupts during suspend
-         d9be8d5c5b032e5383ff5c404ff4155e9c705429 usb: dwc3: qcom: Keep power domain on to retain controller status
+         144a96f7f96e412c3367f51cf2c57f52e3f1110d usb: typec: mux: Allow muxes to specify mode-switch
+         a37599ebfb656c2af4ca119de556eba29b6926d6 usb: typec: mux: Add CONFIG guards for functions
          
 
---===============0102404811772937151==
+--===============8868846758098339110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655822265 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655822325 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655822264-043f60666865eacfa7a6fb5fd75daa466fc9ae34
+nonce 1655822325-57219bc0af377f4fef8895c9d710495eb1d80ee9
 
-afbd04e66e5d16ca3c7ea2e3c56eca25558eacf3 d9be8d5c5b032e5383ff5c404ff4155e9c705429 refs/heads/usb-testing
+d9be8d5c5b032e5383ff5c404ff4155e9c705429 a37599ebfb656c2af4ca119de556eba29b6926d6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx17kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GLcP/i2rqYOPjl7y6N1ojnhA
-8rcMw/N/dz+AjoqqbQKQDasys5wB0bv+wtJvQ3pOhkXGDgbbRuGPqCB+9PhI5AEE
-Oiqm9PXNHZcrM3kDiV0IemJPu6GJiv8exsh2KMiP92k9LNGqikGY8rmZQCBdQnkQ
-7y089iQEY0J6wyIi8Y23iNz1+1iYXKlYQPitNOC+AxdIZowNzH0TKS1+ASkc/EyA
-nvLy6FqOEZ8zoopxEOKozfQoMrREgdSWcK8jNh2A6/KWPK9waXtXJTKAPeYcqUlm
-N969A+WnjaEpaRUz56YgcwPT2u8dIlhrlMiy6wNmt9Ggns6xX6xtB04SGbM2Bs1j
-IxFaa4iDJEthGHfTecYonjS0XQLWH7V5HAm8vhaZ/sQtns7+AXLItsa/LChNb4AV
-3EbTfrP7LT15FT/f7Uq2hbqKGpxUJhkVCcwIC/Bu94lMzmg/HMo2t6d5N2AOGy0z
-StoI/4jZssG0SpuQtUylzdhQ1xXBjFpimWA3rv8/2aAi7wyrwDD6egM5odUgeWZ5
-DWIRyMxBFOSu/FLmwPY4uDwp3EgQWAUX6LQDuFygel9k5kYuw2igUmG2Qsj8A4tP
-BH11Z89Wf/129l47GQTC7A31DaWM7rfhSKY8nvkKlft3iN8JYLTdqZ/HF5dnoS15
-twwpoy69aqoXDUE2QUEMDXo3
-=LgqW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1/UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jMwP/3j4IupB2Ilx8kX93KYt
+TkwcaFDBoNcHqMHaNZzujIa3zOdO7xLOCK7slyFp/U4jeAXH5+ZP26vAnilMeFPI
+SSiAkFsFqeGXgjBF831re9w9MrHtAgkachd7CkrJEEc63sn82PlLZmT+ZzLPJwVf
+0eFC3mlIN6XUxC33KARWDAeLVlJtkulfjRu0xM+MuAsVWRR+zewW3FwCo4gLYLye
+1OKVgSG31lS/i3qs8rdHrCNqSfTLrXF8PjLE9MV464WoFBhmwzCJuryycIloLiA3
+HFAz5SppZ3icMeeeeTmIe8SS5CL7gbrYW11/UYRXTTqddIfAJwW8tpJYWIZJTCE9
+tC+bEmovEGasTsXuuKJV0dPokmnXl2qBPPdIr3w5Kif6cmL/FGxSq4czM8dK+bbQ
+etpXkwwAAEhTa4hS6qD6YfC5y1U5mckBsW2Gtc2upuBWZBk0ykNrnkF/gcF2h9yK
+DbRhkhV0Zw7OugDDgozVBCyq3sPtt6pWIPkKYpPFBa4aZ+ZNpXxrSp2HMcAbieS0
+WBU/joHuQyUAtcSfFGfE9dxlfwkv9aODOU+ykKeQR0R6OEabSs8ds3bi08fW0jHi
+1DzVLuFMMx8l+bF4KnzNZi77SJWJUJJkSgPrbt+p5/dhC5eA/N6r/RJisjiu8oSY
+7Zr54xZ8jrHAPzW+zVrMH5FH
+=Bg0u
 -----END PGP SIGNATURE-----
 
---===============0102404811772937151==--
+--===============8868846758098339110==--
