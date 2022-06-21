@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 21 Jun 2022 16:46:55 -0000
-Message-Id: <165583001511.19898.171100350637034452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 21 Jun 2022 16:53:00 -0000
+Message-Id: <165583038093.23286.2793902057650144629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/dev-test
-    old: a9d35a128e394ef4650369eba1f875e85312c42a
-    new: 0dd33698be0ff60a8b4e8460ab759d0c8fac7208
+  - ref: refs/heads/master
+    old: b40b414ec8d971be0b2f6485c3a039b0fa7f078c
+    new: d4609a5d8c70d21b4a3f801cf896a3c16c613fe1
     log: |
-         13796d66edf9a4679f5b975e7181241ee5edfaae f2fs: handle decompress only post processing in softirq
-         0dd33698be0ff60a8b4e8460ab759d0c8fac7208 f2fs: remove redundant code for gc condition
+         95acd8817e66d031d2e6ee7def3f1e1874819317 bpf, x64: Add predicate for bpf2bpf with tailcalls support in JIT
+         d4609a5d8c70d21b4a3f801cf896a3c16c613fe1 bpf, arm64: Keep tail call count across bpf2bpf calls
          
