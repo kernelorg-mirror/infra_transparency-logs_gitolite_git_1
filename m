@@ -1,43 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6471067337544329666=="
+Content-Type: multipart/mixed; boundary="===============1117323838809726404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 21 Jun 2022 18:14:36 -0000
-Message-Id: <165583527646.11363.13144611789746969768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 21 Jun 2022 18:26:55 -0000
+Message-Id: <165583601578.19495.9946517437704091255@gitolite.kernel.org>
 
---===============6471067337544329666==
+--===============1117323838809726404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev-queue
-    old: c5c08d7582d958b4a598c9ca38dd9e45cbed4aea
-    new: 3f1412c503c2719cf445161c5ebd69ef507a0e17
-    log: revlist-c5c08d7582d9-3f1412c503c2.txt
+  - ref: refs/heads/master
+    old: 78ca55889a549a9a194c6ec666836329b774ab6d
+    new: ca1fdab7fd27eb069df1384b2850dcd0c2bebe8d
+    log: revlist-78ca55889a54-ca1fdab7fd27.txt
 
---===============6471067337544329666==
+--===============1117323838809726404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5c08d7582d9-3f1412c503c2.txt
+Content-Disposition: attachment; filename=revlist-78ca55889a54-ca1fdab7fd27.txt
 
-7a35af0b150d2cb70d687e1d456a08345a3d1663 i40e: Fix VF's MAC Address change on VM
-de9d1aed0e6c60da18a86c28b3e25f51e200eb42 ice: handle E822 generic device ID in PLDM header
-5a9f06bd2349eda00fce25c85955637b47d673d4 ice: change devlink code to read NVM in blocks
-87b4cdbc7f7a2a07749b5e1a870c3c7b8ddb6c11 iavf: Fix VLAN_V2 addition/rejection
-80a53c30f9c66771843c8381a1b3dbd6173f82fc iavf: Fix max_rate limiting
-671332e5dd3a9ef759626fefb95f9488019e05a0 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
-45d09f654a71088cc3a37cc78c24e6f8ddc4f5b2 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-358aef84ed08fb9cbc582948b5b4ff1cf0222dbd iavf: Fix missing state logs
-0fcd39c9dd1ce9c464812a34a2d6bc4d90c92cfe iavf: Fix reset error handling
-880ed10a4ef7fec4b6c4418b28a97596507a6b94 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-d1f4dc18444305ca1d14bdfc6fad29ffc5d2415e iavf: Fix adminq error handling
-3acc6d57bb11606cb08486e53b58d3bcc7c22c4f iavf: Fix 'tc qdisc show' listing too many queues
-3f1412c503c2719cf445161c5ebd69ef507a0e17 ice: ethtool: advertise 1000M speeds properly
+31e70e527806c546a72262f2fc3d982ee23c42d3 btrfs: fix hang during unmount when block group reclaim task is running
+0591f04036218d572d54349ea8c7914ad9c82b2b btrfs: prevent remounting to v1 space cache for subpage mount
+e3a4167c880cf889f66887a152799df4d609dd21 btrfs: add error messages to all unrecognized mount options
+60050ffe3d770dd1df5b641aa48f49d07a54bd84 certs: Move load_certificate_list() to be with the asymmetric keys code
+3cde3174eb910513d32a9ec8a9b95ea59be833df certs: Add FIPS selftests
+34705a57e7df97d161324263c103c4d4d120dfe7 efi: sysfb_efi: remove unnecessary <asm/efi.h> include
+aa6d1ed107eba26f49933216cffe797253914132 efi/x86: libstub: Fix typo in __efi64_argmap* name
+cb78d1b5efffe4cf97e16766329dd7358aed3deb afs: Fix dynamic root getattr
+ff872b76b3d89a09a997cc45c133e4a3ddc12f90 Merge tag 'for-5.19-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+0273fd423b2fe10af96ff713273137c63a7736c0 Merge tag 'certs-20220621' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+ca1fdab7fd27eb069df1384b2850dcd0c2bebe8d Merge tag 'efi-urgent-for-v5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 
---===============6471067337544329666==--
+--===============1117323838809726404==--
