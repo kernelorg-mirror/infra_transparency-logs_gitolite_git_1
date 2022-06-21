@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4679741748815334507=="
+Content-Type: multipart/mixed; boundary="===============7881936213313175756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Jun 2022 14:30:22 -0000
-Message-Id: <165582182229.25719.12968942287026308888@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 14:30:48 -0000
+Message-Id: <165582184881.25998.15859212495482171413@gitolite.kernel.org>
 
---===============4679741748815334507==
+--===============7881936213313175756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 485394c63f47df18eb7498608d5fc9041c19ec13
-    new: 3d393f0303b5120aa8c98a8ee70535ea9604ef20
+    old: 3d393f0303b5120aa8c98a8ee70535ea9604ef20
+    new: c09b1f372e746aeeb61ef8ffe0fea3970fd9273e
     log: |
-         3d393f0303b5120aa8c98a8ee70535ea9604ef20 usb: gadget: aspeed_udc: fix missing spin_unlock_irqrestore in ast_udc_ep_queue
+         c09b1f372e746aeeb61ef8ffe0fea3970fd9273e usb: gadget: aspeed_udc: cleanup loop in ast_dma_descriptor_setup()
          
 
---===============4679741748815334507==
+--===============7881936213313175756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655821821 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655821847 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655821820-9ef652847e8df300de2c3b5c416d32bb571372d3
+nonce 1655821847-a50a2e61b07364a3c6023fdb4b03ae5a3964ac85
 
-485394c63f47df18eb7498608d5fc9041c19ec13 3d393f0303b5120aa8c98a8ee70535ea9604ef20 refs/heads/usb-testing
+3d393f0303b5120aa8c98a8ee70535ea9604ef20 c09b1f372e746aeeb61ef8ffe0fea3970fd9273e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1f0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0L0QAMefq+KQL02wPCgCCIsU
-gd9JZmDKhesWSxs+dXnRF4uBO8PFVNqEKH1aSaKikkdmjEgQUNPsCoRKjZAAmxK4
-oUnbF3T3T4M58qM/WJrwhcBnnoy5y14bpRIgM7wG3VVzRqri9jjnF0p0pQnyrnh3
-oLnQBCDNW/vNzqd+RKBhyzrg1o+3OsEfKtfdOPs1jqtAYSlUx4xa9txgFQ/qW79w
-qzLpxNRKCfLK7MERlBA1MklZoSrFR6GXe5Mf3KGxAoZrQmovtILOaMIxq8opdnx+
-MmVZOp2wVY2LFHsfltPOzB31qeBDvi0RFq9qJvlYGkw2qqxp0a7bdEzoKtNP8Ct/
-Xd6Ik88FnnlWn1hsQwy6eR9xzMf+SJIOS74vEFHnt/RL4VjhGAcL1Lfi/ofCZ59D
-0jVyGBjx0GJ+tzXz73g1gdf4FQC72/pUjKFyGKfLfxaPUs+S63ZgEJmH6k/0uL+W
-pvc3WUpEJbT+Kh6uV1bxhH2edZubGTZUTVW7jI12pTREmTejpxFzMwkFzfPwJmgK
-s9+syOR7sWbr/T1z1pB7t9GWDzRBntHcCeTjZXrGwbobAzMS/6B1E9l6S10T+h/I
-KlnUAhcZc1VvtgMa89F4g5juzFD4WtYNUvo4Imxhl2sw0dBqZdBlijDgATe2yi2e
-P14g6GXYtHjfcokacJxrrrG0
-=urMU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1hcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+di0P/1Xbvlt8HX8DAaBunTw0
+w/S8M6uLVFR2OrqyBNAT+rPdAJpsgorhSOC5syNYQtKQdDRBStax7nfSCT7/h/i1
+SKtf9QY0V94q8qGQqC146qJ/mnTJgW34p3UthPp5DVnZnhmizXO7UISnNE6qf4p3
+3tD3/6f4963fohM19cBTXZy10UqwioZy9XCNCD7vZJk4cV6UKlHO/J8lIOiQmO4n
+1IUjKMLU48EZItCYhUiTq94i3MSN4XgJjrIPO6qQimeBcgBASYZlSFpgzVnaUTx+
+n99DfKbXc6qiScy6fBsZpCr21H8bu58HHOGmdmsBjmz4W9U6g3mE2JFCOtZaDjqV
+FdH8qRNbMzpdCfJiwtcldntVF4J4hKmKrAPkKNH4iNdvCAMng7RnW5b+45lEBZ4H
+k/ou9VCnCJmOP36nV6H/B6+SlTQ7oRauag6RH3NWwHqwXPeiPWLavCIS2RSfRXSP
+Bs/6EfBpuocnvqofOSBbBMKdyqLmM1Pfsw/6mzGNnmbEN5gp6DFtFIrvKC0gQNQ6
+PqsqPrYd+rI7vdTwALBYNRijxTtwUKLsdD1yHtCQ/g1hNvuHD4j6blgeBCTspyCH
+auCkPfLEMzPs4u2+I9iNyUfosdQikNvumCY3/ayjV4DwoMY+IDGgfHf1XgfsPcNn
+B8oUnxoR2BQ4oOX2V/mQ8IMF
+=B05v
 -----END PGP SIGNATURE-----
 
---===============4679741748815334507==--
+--===============7881936213313175756==--
