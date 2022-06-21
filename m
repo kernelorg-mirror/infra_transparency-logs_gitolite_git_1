@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0317825069269007512=="
+Content-Type: multipart/mixed; boundary="===============5079228680223340935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Jun 2022 08:50:29 -0000
-Message-Id: <165580142960.10529.11026260262933881364@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 08:51:40 -0000
+Message-Id: <165580150028.10932.16549792322380505159@gitolite.kernel.org>
 
---===============0317825069269007512==
+--===============5079228680223340935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 22fe2b36493f195b3f705043877f6c1456f1fd90
-    new: fb119dcb97f43cf2a6164094209a08e7e6cd6f08
+  - ref: refs/heads/usb-linus
+    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+    new: f2d8c2606825317b77db1f9ba0fc26ef26160b30
     log: |
-         fb119dcb97f43cf2a6164094209a08e7e6cd6f08 Revert "usb: dwc3: Remove the checks of -ENOSYS"
+         dbab764ed5e987306480f827775876b99b81429e MAINTAINERS: add include/dt-bindings/usb to USB SUBSYSTEM
+         f2d8c2606825317b77db1f9ba0fc26ef26160b30 usb: gadget: Fix non-unique driver names in raw-gadget driver
          
 
---===============0317825069269007512==
+--===============5079228680223340935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655801429 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655801496 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655801427-5222bac1a5c3c70ddb1fd401378ad27b3793eaa9
+nonce 1655801494-141f7305c779cb9a1e35d67adf4c71a97576ec0e
 
-22fe2b36493f195b3f705043877f6c1456f1fd90 fb119dcb97f43cf2a6164094209a08e7e6cd6f08 refs/heads/usb-next
+a111daf0c53ae91e71fd2bfe7497862d14132e3e f2d8c2606825317b77db1f9ba0fc26ef26160b30 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKxhlUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PX0P/A8K7RJlSkQNdbV8+ire
-xpLj3qdeJXZ96k7btfFWvPFqSPvSs4nRGpEm7AZmwWyVHSogFGM2RHwh8LhS/rx0
-6fjJx2uFW1BicIFUwIpeVA8tu5x3z09FHnmSt/vlwi9pmrN7olNH5HuqAAokJloH
-oXHq3Y207BfGu6n0dUXbsmZFygI41Z9wD78KWVWB7+h6IP1UtG6Ti0H1fb2OJmut
-ZywefcjC+etOZL1tvy1S7RciAi0Cpk9fQH6Aoq+hJTso3Vsm+x5EbzPntyjuLhEz
-AyKrBjx7qMMVywVCshRp4pM6xeQkXUPOufc8D5ERHRsF+/49fiMSaq1MNr8V0R8t
-/DgQirqH6tZp2h3DH7I50mMQQYTsa9miHfs/BXwo82YCJudcW/U6b71y39L4vNqH
-j7yDtKL17mcwzM4oXLo96YiABdrJBL4/N/fONJ38t9OyGKkRlQhSb+AkUqefPSaA
-PByjmi2cdjnZ7u5x2I9az+HTgyDjIBeSNzpAbvAPonsTklv9qzvFQueVbLJDYZpk
-vWBZaGnV6DNjYSzQ157iTmLrgFPCd5sLc09q2fM1EYEZFp95/3+WrW46+tfU2OZD
-rsFH+UOQcxrGmY6//VOqOUHQD2KQqcjXveOFLLUt+sJfdYYDx/iPlw9NrN1oJ5bv
-02EcbZ2yuHhzL4olsqxtNDtt
-=hjln
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKxhpgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1iIQAIUwE3A5GTSqhDZLpxDI
+pYwNueu60k8VtJqvDk9azaBGo8FoXTSgMRxYKCUhPomf3xAjjJD26bpBUQOGSHDS
+qEOCOwtMv31KV3BgVqsEdMwOcohccFp1skF/3YZdAFUvPOShwFkZ28qcibjQHG3W
+hkJz0IDv11zgXv9pWoSC3Czw0/F/XD7Cin13cqMSW9THMWgTjf4Uw9wEc/Ud4UjB
+UcVUwx25wvL3k9NftozfwR3NyHolWTFHWhsZGLeqJsX8jjilK2wLFwCn4iSmGRbw
+/ywIpJkBvwxbcNplsghPI/IFdjEpRBanMVYExb+NMXrUgn6a5MMMu3yf4I+sPRMY
+e1kygp0hbkuSmkmSPdA7xW4W9Mb20c6fwjSfxxvc7dNcZR1gLzF4mM7kXHiNP6KN
+E0vMvlP4WJEEnXJBNzEM1Z37gQ1vtP3IAyuFfJLQTYwycV+ezGdAz/lbUcHv5Zks
+0mKpCkWqADRdRV8o5799gSivRndXgKCse28/Vvr+XrWBXnFsg32iRIENQ+ysMRl+
+8Ie9cdnTlIPwK5p0h0CLjF2ooBCmpx2VoNK8B6zcIUBIkWVHBvfowhSUjM1jwbyd
+GK59wUW82/kmdZAuG68bmZKPzrKqs3eg/0GPiMdj0yDvg43utxo6JI+mUKxCffdl
+ga/HGVwScm5L7IAx8CLFX8y7
+=ZKvO
 -----END PGP SIGNATURE-----
 
---===============0317825069269007512==--
+--===============5079228680223340935==--
