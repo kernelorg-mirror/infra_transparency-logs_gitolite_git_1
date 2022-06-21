@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Tue, 21 Jun 2022 02:52:46 -0000
-Message-Id: <165577996684.6408.17053522655298234301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Tue, 21 Jun 2022 04:36:03 -0000
+Message-Id: <165578616347.8536.1238090096739593703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/master
-    old: cbe2fd8bde23a0d313b05ef4141a2bc1f7b186db
-    new: 3b4b532e7c82bb17dbe50cf30ff933554ebf28cb
-    log: |
-         3b4b532e7c82bb17dbe50cf30ff933554ebf28cb setup-buildchroot: install meson and python3-setuptools in the build chroot
-         
+  - ref: refs/tags/fpga-for-5.20-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2c878b7e9d8fc01549341b0fde59eca27a4d37ce
