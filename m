@@ -1,52 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============4456163255070696807=="
+Content-Type: multipart/mixed; boundary="===============1348349574307109541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 21 Jun 2022 22:00:46 -0000
-Message-Id: <165584884646.29340.16419025276633877607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 21 Jun 2022 22:02:08 -0000
+Message-Id: <165584892810.29840.99534803570434893@gitolite.kernel.org>
 
---===============4456163255070696807==
+--===============1348349574307109541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/work.iov_iter_get_pages
-    old: e484320242e2a7ba7670cf6b6c50bc18d71bbda5
-    new: a2a7ea71b10083f1b6250f653c448f863d9212c6
-    log: revlist-e484320242e2-a2a7ea71b100.txt
+  - ref: refs/heads/master
+    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+    new: ca1fdab7fd27eb069df1384b2850dcd0c2bebe8d
+    log: revlist-a111daf0c53a-ca1fdab7fd27.txt
 
---===============4456163255070696807==
+--===============1348349574307109541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e484320242e2-a2a7ea71b100.txt
+Content-Disposition: attachment; filename=revlist-a111daf0c53a-ca1fdab7fd27.txt
 
-f1fe4ec7c0040d958f53c8f20154c40145a92264 iov_iter_get_pages{,_alloc}(): cap the maxsize with MAX_RW_COUNT
-9cd7929650f870eb37e039ef9246b45451d2753f iov_iter_get_pages_alloc(): lift freeing pages array on failure exits into wrapper
-660fa930730de0523e7972251e87e3cb48dc310d iov_iter_get_pages(): sanity-check arguments
-633392eef96a982d63c15faddf47b6c714f96f35 unify pipe_get_pages() and pipe_get_pages_alloc()
-10c47ac6f95a48ae85f7634bb4c20b0fe5bf964e unify xarray_get_pages() and xarray_get_pages_alloc()
-acc5f8cff3b32eda890479bc126f919258af3bab unify the rest of iov_iter_get_pages()/iov_iter_get_pages_alloc() guts
-6841dc660927f90521f71eb3b7799d67debc6ac3 ITER_XARRAY: don't open-code DIV_ROUND_UP()
-bf7702ef22c1641b1ea31b10230622ac59ecbf47 iov_iter: lift dealing with maxpages out of first_{iovec,bvec}_segment()
-15a910d9e6c3e61d8d5ac681a5b1007de8019949 iov_iter: first_{iovec,bvec}_segment() - simplify a bit
-810c64baa781245fff25e906dac2278e94ef1e2f iov_iter: massage calling conventions for first_{iovec,bvec}_segment()
-c585aa136a65d5e3c45b3d82d2f2108bd341f96f found_iovec_segment(): just return address
-28bd4ea5d2bf15914b21c60b70ba088908ca2e39 fold __pipe_get_pages() into pipe_get_pages()
-3a3b4eb14ba46cff5d2cbecce8898478dc5651e0 iov_iter: saner helper for page array allocation
-eae7bf19143375aa38f54bd8523647fd9365b83e iov_iter: advancing variants of iov_iter_get_pages{,_alloc}()
-5bcfaa83a6ae55bc6a358005acd4cb29b3169b68 block: convert to advancing variants of iov_iter_get_pages{,_alloc}()
-8db7e158dc8b1b2aca1a1b33cda0ac91b12b29c5 iter_to_pipe(): switch to advancing variant of iov_iter_get_pages()
-2c84f7ebd70d188f71e7b5b3948612274706f42b af_alg_make_sg(): switch to advancing variant of iov_iter_get_pages()
-0c43c0493b4406814666ea175273a0c0de45616d 9p: convert to advancing variant of iov_iter_get_pages_alloc()
-ef65b7b112b344fd8a4f36434da7ee5ed32d70a0 ceph: switch the last caller of iov_iter_get_pages_alloc()
-221976dde0b1cce11d9f8af3148ba147ec859c5f get rid of non-advancing variants
-d8115c2f911696d202ba377c54421dc7c055de56 pipe_get_pages(): switch to append_pipe()
-a2a7ea71b10083f1b6250f653c448f863d9212c6 expand those iov_iter_advance()...
+31e70e527806c546a72262f2fc3d982ee23c42d3 btrfs: fix hang during unmount when block group reclaim task is running
+0591f04036218d572d54349ea8c7914ad9c82b2b btrfs: prevent remounting to v1 space cache for subpage mount
+e3a4167c880cf889f66887a152799df4d609dd21 btrfs: add error messages to all unrecognized mount options
+566d3c57eb526f32951af15866086e236ce1fc8a scsi: scsi_debug: Fix zone transition to full condition
+c4cf6785599b8126ea29160800fec5f1db0a6a30 mm/slub: Move the stackdepot related allocation out of IRQ-off section.
+eeaa345e128515135ccb864c04482180c08e3259 mm/slub: add missing TID updates on slab deactivation
+f6eed15f3ea76596ccc689331e1cc850b999133b scsi: iscsi: Exclude zero from the endpoint ID range
+da8badd7d3583f447eac2ab65a332f2d773deca1 scsi: ufs: Simplify ufshcd_clear_cmd()
+d1a7644648b7cdacaf8d1013a4285001911e9bc8 scsi: ufs: Support clearing multiple commands at once
+2acd76e7b8596e307fcec8fc6bc5fe5ab174749a scsi: ufs: Fix a race between the interrupt handler and the reset handler
+1d3e0980782fbafaf93285779fd3905e4f866802 scsi: storvsc: Correct reporting of Hyper-V I/O size limits
+72ea7fe0db73d65c7d977208842d8ade9b823de9 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
+aeaadcde1a60138bceb65de3cdaeec78170b4459 scsi: ibmvfc: Store vhost pointer during subcrq allocation
+1d98cdf7fa2bc6e8063c0a692a1c091d8ebe3a75 perf unwind: Fix uninitialized variable
+ec906102e5b7d3393cfe83e606b48cf0c1fcb122 perf test: Fix "perf stat CSV output linter" test on s390
+94725994cfd768b9ee1bd06f15c252694b1e9b89 libperf evsel: Open shouldn't leak fd on failure
+cc2145526c9889e3dbddc210c21bc3a080b2a29f perf test: Fix variable length array undefined behavior in bp_account
+67e7d771580e9f365e75e1cc3690401526cfbb29 perf beauty: Update copy of linux/socket.h with the kernel sources
+72dcae8efd42699bbfd55e1ef187310c4e2e5dcb perf test: Record only user callchains on the "Check Arm64 callgraphs are complete in fp mode" test
+b236371421df57b93fc49c4b9d0e53bd1aab2b2e perf test topology: Use !strncmp(right platform) to fix guest PPC comparision check
+e5287e6dd3b07e28e6bca5e33a3813a5e83bbc4c perf expr: Allow exponents on floating point values
+51ba539f5bdb5a8cc7b1dedd5e73ac54564a7602 perf arm-spe: Don't set data source if it's not a memory operation
+2e323f360a7b635a4df6faea616b80c188e68991 tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
+37402d5d061ba914a12d16ee8dda6d6964b4819d tools headers arm64: Sync arm64's cputype.h with the kernel sources
+c788ef61ef2ae51dc9cbd589e118f827585c156f perf metrics: Ensure at least 1 id per metric
+140cd9ec8fdddc0e2d1684e6b69bcd05efbc9549 tools headers UAPI: Sync linux/prctl.h with the kernel sources
+05b252cccb2e5c3f56119d25de684b4f810ba40a udmabuf: add back sanity check
+59b785fe2abbe21267516799f6c584cf4fe5f08b Merge tag 'slab-for-5.19-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+c5b3a0946bbe050502c3faef2d4ff02b0da11bd1 Merge tag 'perf-tools-fixes-for-v5.19-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+78ca55889a549a9a194c6ec666836329b774ab6d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+60050ffe3d770dd1df5b641aa48f49d07a54bd84 certs: Move load_certificate_list() to be with the asymmetric keys code
+3cde3174eb910513d32a9ec8a9b95ea59be833df certs: Add FIPS selftests
+34705a57e7df97d161324263c103c4d4d120dfe7 efi: sysfb_efi: remove unnecessary <asm/efi.h> include
+aa6d1ed107eba26f49933216cffe797253914132 efi/x86: libstub: Fix typo in __efi64_argmap* name
+cb78d1b5efffe4cf97e16766329dd7358aed3deb afs: Fix dynamic root getattr
+ff872b76b3d89a09a997cc45c133e4a3ddc12f90 Merge tag 'for-5.19-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+0273fd423b2fe10af96ff713273137c63a7736c0 Merge tag 'certs-20220621' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+ca1fdab7fd27eb069df1384b2850dcd0c2bebe8d Merge tag 'efi-urgent-for-v5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 
---===============4456163255070696807==--
+--===============1348349574307109541==--
