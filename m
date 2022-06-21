@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Tue, 21 Jun 2022 11:47:51 -0000
-Message-Id: <165581207133.13445.18311823381819110899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Tue, 21 Jun 2022 11:56:46 -0000
+Message-Id: <165581260637.19123.17470939602492005590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
+repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
-  - ref: refs/heads/fs.idmapped.group.fix
-    old: ba31299884d71879ba35c455eb564c69ba94aede
-    new: ecd36617f9f2a091f1bc802a83e81f1d7b8c4d07
+  - ref: refs/heads/fs.idmapped.kmntuid
+    old: 2ecd366efc5a1e74bdb36c4d92f54ba0a4cf4d17
+    new: ce1564a78de47582009bf859b4f32e8717c69ee1
     log: |
-         085faee2742cba049e6def9ee137c39accfd61de xfs: corrupted xattr should not block removexattr
-         e937e23d202173d112cfe7621d8b860f691ce42d common/filter: filter out extra mount error output
-         3493b8dc8b3de08470d09d71ca074f885d4c8b0b btrfs/220: zoned: skip nodatacow mount option for zoned btrfs
-         5bb78c56ef591936d4cf54b40cf56a43616e29f9 xfs/270: Fix ro mount failure when nrext64 option is enabled
-         63b956a156eae4dea6ee9637aa10b6cf1553dc87 common/xfs: Add helper to check if nrext64 option is supported
-         9b448f06fe21d34b256375abf5b12cbf7febe5ff xfs: Verify that the correct inode extent counters are updated with/without nrext64
-         0882b0913eae6fd6d2010323da1dde0ff96bf7d4 xfs: Verify correctness of upgrading an fs to support large extent counters
-         ecd36617f9f2a091f1bc802a83e81f1d7b8c4d07 generic/692: test group ownership change
+         46b848f2a5a82b669186a3635be7f5615e727fb8 quota: port quota helpers mount ids
+         911c3ccd3ab593bce669936d9e0a675d6328faba security: pass down mount idmapping to setattr hook
+         ce1564a78de47582009bf859b4f32e8717c69ee1 attr: port attribute changes to new types
          
