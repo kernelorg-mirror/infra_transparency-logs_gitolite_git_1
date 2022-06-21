@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3706215065589849481=="
+Content-Type: multipart/mixed; boundary="===============0060947636023896094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 21 Jun 2022 13:29:24 -0000
-Message-Id: <165581816434.15745.12687622362477163803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Jun 2022 13:39:30 -0000
+Message-Id: <165581877030.22064.15934558224302153273@gitolite.kernel.org>
 
---===============3706215065589849481==
+--===============0060947636023896094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 00bb2920cf6a6ed14100822f0e7feaf5e53a9795
     new: 8720bd951b8e8515ffd995c7631790fdabaa9265
     log: revlist-00bb2920cf6a-8720bd951b8e.txt
 
---===============3706215065589849481==
+--===============0060947636023896094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e587be759e6e4f5a257d1f2bd7f2883a6397a6e8 net: dsa: microchip: update fdb add/del
 1fe94f542e66b5de526233762ed528e7d3b66ff9 net: dsa: microchip: move get_phy_flags & mtu to ksz_common
 8720bd951b8e8515ffd995c7631790fdabaa9265 Merge branch 'net-dsa-microchip-common-spi-probe-for-the-ksz-series-switches-part-1'
 
---===============3706215065589849481==--
+--===============0060947636023896094==--
