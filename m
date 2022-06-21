@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8868846758098339110=="
+Content-Type: multipart/mixed; boundary="===============5442053191116031636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 21 Jun 2022 14:38:47 -0000
-Message-Id: <165582232727.30358.12163439372431005787@gitolite.kernel.org>
+Date: Tue, 21 Jun 2022 14:39:13 -0000
+Message-Id: <165582235315.30576.18261322357802510227@gitolite.kernel.org>
 
---===============8868846758098339110==
+--===============5442053191116031636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d9be8d5c5b032e5383ff5c404ff4155e9c705429
-    new: a37599ebfb656c2af4ca119de556eba29b6926d6
+    old: a37599ebfb656c2af4ca119de556eba29b6926d6
+    new: 9d6d5303c39b8bc182475b22f45504106a07f086
     log: |
-         144a96f7f96e412c3367f51cf2c57f52e3f1110d usb: typec: mux: Allow muxes to specify mode-switch
-         a37599ebfb656c2af4ca119de556eba29b6926d6 usb: typec: mux: Add CONFIG guards for functions
+         40a959d7042bb7711e404ad2318b30e9f92c6b9b usb: host: ohci-ppc-of: Fix refcount leak bug
+         9d6d5303c39b8bc182475b22f45504106a07f086 usb: renesas: Fix refcount leak bug
          
 
---===============8868846758098339110==
+--===============5442053191116031636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655822325 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655822352 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655822325-57219bc0af377f4fef8895c9d710495eb1d80ee9
+nonce 1655822351-dbd0f94e5601c4fce36d9f210cceec78c30fef59
 
-d9be8d5c5b032e5383ff5c404ff4155e9c705429 a37599ebfb656c2af4ca119de556eba29b6926d6 refs/heads/usb-testing
+a37599ebfb656c2af4ca119de556eba29b6926d6 9d6d5303c39b8bc182475b22f45504106a07f086 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx1/UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jMwP/3j4IupB2Ilx8kX93KYt
-TkwcaFDBoNcHqMHaNZzujIa3zOdO7xLOCK7slyFp/U4jeAXH5+ZP26vAnilMeFPI
-SSiAkFsFqeGXgjBF831re9w9MrHtAgkachd7CkrJEEc63sn82PlLZmT+ZzLPJwVf
-0eFC3mlIN6XUxC33KARWDAeLVlJtkulfjRu0xM+MuAsVWRR+zewW3FwCo4gLYLye
-1OKVgSG31lS/i3qs8rdHrCNqSfTLrXF8PjLE9MV464WoFBhmwzCJuryycIloLiA3
-HFAz5SppZ3icMeeeeTmIe8SS5CL7gbrYW11/UYRXTTqddIfAJwW8tpJYWIZJTCE9
-tC+bEmovEGasTsXuuKJV0dPokmnXl2qBPPdIr3w5Kif6cmL/FGxSq4czM8dK+bbQ
-etpXkwwAAEhTa4hS6qD6YfC5y1U5mckBsW2Gtc2upuBWZBk0ykNrnkF/gcF2h9yK
-DbRhkhV0Zw7OugDDgozVBCyq3sPtt6pWIPkKYpPFBa4aZ+ZNpXxrSp2HMcAbieS0
-WBU/joHuQyUAtcSfFGfE9dxlfwkv9aODOU+ykKeQR0R6OEabSs8ds3bi08fW0jHi
-1DzVLuFMMx8l+bF4KnzNZi77SJWJUJJkSgPrbt+p5/dhC5eA/N6r/RJisjiu8oSY
-7Zr54xZ8jrHAPzW+zVrMH5FH
-=Bg0u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKx2BAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E3cQALbMm9b8uImRVZDPa6/L
+/xv3oqiGk5L273ZjsMzhhGz3gtZfR/uFzD05s4IUZZOu3qBZ8ze7v+Ubw/J1UXtp
+9x1cleUB5TFuMkunmRsn2kDmP7WOKXHKNIk2vmLFnqT6D8gtCKFdlDtZpOkUQhsX
+PP292wOUSLA3zSuKDwCXkReGFC7yLOwJ+uRTpgKecTx6rFD/d7B67hEA6ZRgtF/2
+QrkMfB0Q/2DTV34RM+jv6iNWmeoGHDo1rEBGA+BalqaZ2cm37kasPhmDlB+9Qggs
+joU5p9TglL822kB7ZPq6yV4iqE7CDqOTKkwWNJdZq3YNn7eUsIp3AzMm0UiirTzu
+ykWO+hhmhD/Lpq62Bp+7Az1MI2H+Z8iwH0dYRA7mIk++Mm24tEUx4miFXiMxFKl0
+hr5ZjFu/04ztt68wHfRTanE6p9lvMBxmweJ8UArPLcqy9Gms+9RGJdf/sfXUmw15
+lool/TXNvhEOItoZPGd2jINK9rgJK/NGeXq0qW6pecQ0nFQUPwh3HpYULEgBAZlM
+yHSP4wcFt6mmHslHxjXPuyGtZqkd2/eB+2RcMkHY/ZAHP3H97LMMS6sEOYtDXDH7
+ChzZmdK6bGPGT0aeDVBxo3s5FXmmTn7fa/k1SmftxBes439Z8mapMUxBSU2tYVLJ
+tLAFBeIsIIqDUEovIhyxNbDA
+=iBkf
 -----END PGP SIGNATURE-----
 
---===============8868846758098339110==--
+--===============5442053191116031636==--
