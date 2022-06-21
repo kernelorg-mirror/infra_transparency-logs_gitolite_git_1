@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Tue, 21 Jun 2022 15:02:23 -0000
-Message-Id: <165582374329.14947.909433850185399829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Tue, 21 Jun 2022 15:05:44 -0000
+Message-Id: <165582394442.17516.1412100341093436795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/review-andy
-    old: e55b9e0998c626a5b4c13ab38097068df10cec5c
-    new: b65bb2c148913c4020d06c9798e5e1bc18105f4f
+  - ref: refs/heads/keys-fixes
+    old: 8dea6c86f1eed1f423e8be0c8f4877e22325e5e2
+    new: 3cde3174eb910513d32a9ec8a9b95ea59be833df
     log: |
-         d3bb436deb78478bde129a322ca2f6e75716f4de gpio: pch: Use dev_err_probe()
-         b65bb2c148913c4020d06c9798e5e1bc18105f4f gpio: pch: Change PCI device macros
+         60050ffe3d770dd1df5b641aa48f49d07a54bd84 certs: Move load_certificate_list() to be with the asymmetric keys code
+         3cde3174eb910513d32a9ec8a9b95ea59be833df certs: Add FIPS selftests
          
