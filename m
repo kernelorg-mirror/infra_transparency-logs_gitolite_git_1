@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Tue, 21 Jun 2022 11:45:32 -0000
-Message-Id: <165581193213.12667.14956636843860180612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
+Date: Tue, 21 Jun 2022 11:47:51 -0000
+Message-Id: <165581207133.13445.18311823381819110899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
+repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
 user: brauner
 changes:
-  - ref: refs/heads/fs.idmapped.kmntuid
-    old: 80abbb93884bf2975105a90f0f31178ecd81bc10
-    new: 2ecd366efc5a1e74bdb36c4d92f54ba0a4cf4d17
+  - ref: refs/heads/fs.idmapped.group.fix
+    old: ba31299884d71879ba35c455eb564c69ba94aede
+    new: ecd36617f9f2a091f1bc802a83e81f1d7b8c4d07
     log: |
-         c26064d079387c7a26a546ce6640023f25d2dfdb mnt_idmapping: add vfs{g,u}id_t
-         85211047f0645edfbe849c1a603f30912d93bfcc fs: add two type safe mapping helpers
-         f4be400e681be51936a1ed4639225d62a42513f5 fs: use mount types in iattr
-         eb681f5f67ee2fffa0c3c701feec41b04746598e fs: introduce tiny iattr ownership update helpers
-         05c28cd5f571366b0309e104a340ce5ab68e716f fs: port to iattr ownership update helpers
-         56ab751e38ad911a653064544408abc7c6a6c21b quota: port quota helpers mount ids
-         0d81ada72f40d6d2d4412f5d639ec1806eadaf1a security: pass down mount idmapping to setattr hook
-         2ecd366efc5a1e74bdb36c4d92f54ba0a4cf4d17 attr: port attribute changes to new types
+         085faee2742cba049e6def9ee137c39accfd61de xfs: corrupted xattr should not block removexattr
+         e937e23d202173d112cfe7621d8b860f691ce42d common/filter: filter out extra mount error output
+         3493b8dc8b3de08470d09d71ca074f885d4c8b0b btrfs/220: zoned: skip nodatacow mount option for zoned btrfs
+         5bb78c56ef591936d4cf54b40cf56a43616e29f9 xfs/270: Fix ro mount failure when nrext64 option is enabled
+         63b956a156eae4dea6ee9637aa10b6cf1553dc87 common/xfs: Add helper to check if nrext64 option is supported
+         9b448f06fe21d34b256375abf5b12cbf7febe5ff xfs: Verify that the correct inode extent counters are updated with/without nrext64
+         0882b0913eae6fd6d2010323da1dde0ff96bf7d4 xfs: Verify correctness of upgrading an fs to support large extent counters
+         ecd36617f9f2a091f1bc802a83e81f1d7b8c4d07 generic/692: test group ownership change
          
