@@ -1,72 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2580419933362322828=="
+Content-Type: multipart/mixed; boundary="===============3961256960135815468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 22 Jun 2022 17:28:45 -0000
-Message-Id: <165591892553.15421.14278213171203801227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 22 Jun 2022 17:29:55 -0000
+Message-Id: <165591899594.15934.16203021247732330683@gitolite.kernel.org>
 
---===============2580419933362322828==
+--===============3961256960135815468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 6b183919f7051294dc5fc331bb608d5d7f29f5da
-    new: 55e77abab2eebabf99820c2b2b3f6cdce0adbcf3
-    log: revlist-6b183919f705-55e77abab2ee.txt
+  - ref: refs/heads/for-linus
+    old: e6fc5297c7b0bde471ce233a185372171cb131a6
+    new: 8966a2d8ebefe5d5357da716167dcd8011953770
+    log: |
+         8966a2d8ebefe5d5357da716167dcd8011953770 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: cd08da60db989fe04eb8dfc25021f468d0346477
+    new: 332787fa90a41ce9cefe0c30316a8efa12c1cfa5
+    log: revlist-cd08da60db98-332787fa90a4.txt
 
---===============2580419933362322828==
+--===============3961256960135815468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cd08da60db98-332787fa90a4.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1655918923 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1655918923-7974c511c893c3167f55d92ab49e04e7b283ab3d
-
-6b183919f7051294dc5fc331bb608d5d7f29f5da 55e77abab2eebabf99820c2b2b3f6cdce0adbcf3 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmKzUUsACgkQJNaLcl1U
-h9BW/wf+LDkArYy/h1pwI7XAgL9+suXZNf+W+0ISKG3M4N0QMew8Ak36OksGr20i
-Dilfwxjc015UefrY+5AHHM9sz/XrpFVBRB7k0kQcnviz8utN3nXQ6Tkj8WlLL8Ol
-TqFiRP1vWo8zlHpWRgCnx23ZVrJ8TUmkTSVC5GwG+7TrhiqHiMLV86KL6lfSaqq/
-idZo+XZ5WzAyo/h4EykDyNCXCtzVyxIsbCkQOyMx1Rv3g+oQ7cLWkR/MXnHGYXIP
-gKJ2R7ncL4L8KyoDtfsEAt8SXLmqkMfilrk81r4oqNFSJRd47zxP+uTEyJ5G1bzQ
-FWDSG657OkCM06UtiOF0yK4NgGao9A==
-=41kF
------END PGP SIGNATURE-----
-
---===============2580419933362322828==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b183919f705-55e77abab2ee.txt
-
-62257638170eee07926c9df5a4c9059ec69a3734 ASoC: SOF: mediatek: Fix error code in probe
-6639990dbb25257eeb3df4d03e38e7d26c2484ab ASoC: SOF: pm: add explicit behavior for ACPI S1 and S2
-7a5974e035a6d496797547e4b469bc88938343c2 ASoC: SOF: pm: add definitions for S4 and S5 states
-58ecb11eab44dd5d64e35664ac4d62fecb6328f4 ASoC: SOF: Intel: disable IMR boot when resuming from ACPI S4 and S5 states
-a37a9224d0500f0cf5bf13cb225163c21b29e0f6 ASoC: SOF: Intel: hda: Fix compressed stream position tracking
-57b06e9711a5ed5accd04b301da0f27f04aa21d3 ASoC: SOF: Intel: fix resume from hibernate
-5ac01e023a1b0492e159ad2f6734e0a350c1b6b6 regmap: Re-introduce bulk read support check in regmap_bulk_read()
-f6e5c3850d1174bf3ca53457d64e6665f48c9041 regmap: Make regmap_noinc_read() return -ENOTSUPP if map->read isn't set
-1db43c8ad90ce07311a3ef9af7ace758d79224f9 regmap: Wire up regmap_config provided bulk write in missed functions
-44f362c2cc6dd0c5e3cb499c4fb4ed45b63a6196 ASoC: rockchip: i2s: switch BCLK to GPIO
-ad9894ac6cc1c1f7c36451d508d69f6ba677834a MAINTAINERS: update ASoC Qualcomm maintainer email-id
-1a9451bef2058c6343c45d467443c9a5bfc69917 remap: Some fixes for bulk read/write callbacks in regmap_config support
-81d74ddae83fbd85c9006835f36c362114127a7a ASoC: wm_adsp: Fix event for preloader
-630cc5983740d784a1a6458f9dc2112c43fe0931 ASoC: wm5110: Fix DRE control
-87912e97a1678d62877aab353ecfd201bc92b372 ASoC: cs35l41: Correct some control names
-f69a10f84cb5ff0b1c6aef0e19e866bbe53ec7ea ASoC: rt711-sdca: fix kernel NULL pointer dereference when IO error
 8c77cf26a82e751ce827614664faf40243058d5d ASoC: rockchip: i2s: switch BCLK to GPIO
 d92c3d13e7650a324edcfb4ed934baaecd287bbf ASoC: dt-bindings: rockchip: Document pinctrl-names for i2s
 644ed467c773ae7649cb54c9709aabc6f2984850 ASoC: Merge fixes
@@ -79,5 +44,7 @@ acaeb8c62fd1b2b57be1523b8d5b1d64a1a9dc38 ASoC: SOF: mediatek: Align mt8186 clock
 c3b5fd7fbb698496461f280728b456d9927f22af ASoC: rockchip: i2s: Fix crash on missing pinctrl
 13d272d51bc1b8ca519ec2cecac102bda3530b88 Add MT8186 ADSP dt-binding
 55e77abab2eebabf99820c2b2b3f6cdce0adbcf3 ASoC: rockchip: i2s: switch BCLK to GPIO
+8966a2d8ebefe5d5357da716167dcd8011953770 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+332787fa90a41ce9cefe0c30316a8efa12c1cfa5 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============2580419933362322828==--
+--===============3961256960135815468==--
