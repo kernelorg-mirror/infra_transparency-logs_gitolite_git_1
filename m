@@ -1,57 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8231563453821556475=="
+Content-Type: multipart/mixed; boundary="===============4440035275935660441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 22 Jun 2022 09:30:27 -0000
-Message-Id: <165589022775.25664.12821595334087571842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 22 Jun 2022 09:33:28 -0000
+Message-Id: <165589040849.26946.9274531387585074029@gitolite.kernel.org>
 
---===============8231563453821556475==
+--===============4440035275935660441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 2c8845fe9342b8801185b4c1b9261c532901fafd
-    new: 105f3fd2f789e001ba449d4020e168ea2b5b64aa
+  - ref: refs/heads/staging-testing
+    old: 6ad9232a99e0a390b2959f3a8180a8ae5703d140
+    new: 8821931e614d8ff2f58a4b06b3f2fecc66a462b8
     log: |
-         9dbdac024d4d9f3fc234399cb8c1f1cc6d2bcb2d staging: octeon-usb: move driver out of staging
-         105f3fd2f789e001ba449d4020e168ea2b5b64aa Merge branch 'staging-octeon' of gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging into usb-next
+         04b3b6ae8be7603b22b0404f4ac81bd1f439be8b staging: r8188eu: Fixed a function declaration coding style issue
+         dd875fb747998b704ab76a8bc8b24f25b1ec3370 staging: r8188eu: Fixed two brace coding style issues
+         3ff13c76b04046cafce36625c619abca73e627f0 staging: r8188eu: Fixed two whitespace coding style issues
+         c99c8bc93844c7eb2b167d26dce4a9d18be96f45 staging: r8188eu: Fixed comment style
+         8821931e614d8ff2f58a4b06b3f2fecc66a462b8 staging: r8188eu: Fixed some blank line coding style issues
          
 
---===============8231563453821556475==
+--===============4440035275935660441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655890227 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655890226-bbb21fc53f2396b2dbe212077825e7680108ba4f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655890407 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1655890406-0bc7333b271008e43ab7b7880ad5e6b754c68c7a
 
-2c8845fe9342b8801185b4c1b9261c532901fafd 105f3fd2f789e001ba449d4020e168ea2b5b64aa refs/heads/usb-next
+6ad9232a99e0a390b2959f3a8180a8ae5703d140 8821931e614d8ff2f58a4b06b3f2fecc66a462b8 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKy4TMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aooP/3wYe03WEa4ZX+crYZsQ
-PChGVcJJRJwXiKY+6+GpZmePjfGBIdzQxR1XM/hgV4gvJsS0uJggOkIM+I9YALHC
-r6MTFLI4y2PYEuMRgILN25gTcZaQWJ/RkXIuiKepkJHn7akq51MnnJLqVpLzI03J
-q1+xTnyDWwgZ+hBcqxL2nZgY/rmx3RmJxYfXlWXdmsJvbqgBN1HGl0SEVuBhxSeM
-E8Y58wgArkAvBhpUYh8eVVh6dgPfsLqfXwbh2NutX5JXzPEdLLvAkr/WBjQu/X5p
-wd8kmXwNH9yNwCphSjqvCpJDJZQ7IrB2KHqcm4lFJYU1fgk66guuAVQNlJIPTVyQ
-UGPIPTdV6I6tCNF4EJN2aWGSRfHPqISBvklDjQ0L35+d3CpdbYy9zUy6hCYIoOJg
-7SxEc5ShcAb0nSYR/yD8sTtTKt5a6/vZYYqVGZFJg45bbo8Vey4yZeiFbH7DRX5u
-/yx2bVy+tUYbm12UN7ny9oASpOz8WAVlksrj8VxYPqj5wfxz0YbxpxElrcfeemjp
-h8LUJPIa5aZqCUc3EoTfZefE0X8F6oL6FiItQibncnhkdDUuUSjpGaYaSavUbmpQ
-Rd64QAOEKkX9VaWYZ9glR6t8gqgnDVwLA3r5pnWlZcS5BoUPt0Dt0qvW2rUsG6g9
-oVPNLAqJEhkESHXAm6SzzkF3
-=PEi7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKy4ecbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m+8QAKnY+mO4YKef84H37Hc4
+SwHthHTBCFT/nF/Qm+yZAW5EOS/AgFn4/1BXlytWVOgWuWFCFliKsnacdpb/RiuG
+6hkKDd9+NrT6o507PJUHkXOZB8kWXCsW5S3PGqhHkgT6wSKbqyg88ChBZj2kF8L+
+DDjNfXr8FT0olB9ie0MyEqhINilan/WeUXRW+XGMp5SSwcH4kmu34Zl/lSmez3QU
+avv+5I57aTppWg+Efo+z38YPafSdVyrcj8pSaIb88FeV3gYqXJ2nUvlcKaXsTTXP
+iOhgvLqg7QAWZEbNHbJAhobJGHtrtDOki00bjLDG07iAjH65m/UWjFU9cqcRys1v
+RO65AJY4LgR5pASfXhQmWBJScuiQnUihLQ/+o8z+77oCaz2Gn/9Pdmw9WkXNQI/w
+uoyap1ChArYF8zQF5LHcDu+syCR4IzG+VEgPyyXUr6oDfDFfRiOwNqqbXby33dzC
+hvRorXwOZTSvYf4y8Nn9OdBW4ePY5uL8qaKRFXTFmtMDSWuj+ziamhrEJ6iYLahh
+ic/VJ0pzCkag1UGxqb7TN101JRCypK12IpgKY2npwB6cXojgPxdmsKMaKduS4ElI
+zUUaElY5ZYzWm+gjVDoFda3pJLYbrrjCPXcTgLVO4ozHs/04GnVTpWZ/U2i4QBQ1
+8uGYYeCVfdNopwSrlMjAZ8Lw
+=8fEV
 -----END PGP SIGNATURE-----
 
---===============8231563453821556475==--
+--===============4440035275935660441==--
