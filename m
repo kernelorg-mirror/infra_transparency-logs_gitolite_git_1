@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 22 Jun 2022 10:53:40 -0000
-Message-Id: <165589522076.29215.11325271662078970047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 22 Jun 2022 11:04:59 -0000
+Message-Id: <165589589990.3199.12808165443401355477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/review-hans
-    old: 5cc6b70b656e1cf0b7306ca95137e969ff32ea06
-    new: 491af49da5f26a254f3ad4f00b0c6d4a08c75328
+  - ref: refs/heads/v5.19-next/dts64
+    old: 0be021f900d332d2610900fb22e0408023bbd078
+    new: 4459a59807cfebd9f013175010fa4e53514ade61
     log: |
-         491af49da5f26a254f3ad4f00b0c6d4a08c75328 platform/x86: thinkpad_acpi: Fix a memory leak of EFCH MMIO resource
+         a30cc07f9e321e5b9ed26b3f14ee9637fd39b753 arm64: dts: mediatek: Add infra #reset-cells property for MT8192
+         4459a59807cfebd9f013175010fa4e53514ade61 arm64: dts: mediatek: Add infra #reset-cells property for MT8195
          
