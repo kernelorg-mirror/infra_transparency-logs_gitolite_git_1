@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 22 Jun 2022 13:53:07 -0000
-Message-Id: <165590598790.5091.14325645339887302267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 22 Jun 2022 14:00:16 -0000
+Message-Id: <165590641633.10254.10848735423603727899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/tags/sound-5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: d627fcc408f7af5ce79e280bac8f805c5dfa08b4
+  - ref: refs/heads/v5.19-next/dts64
+    old: 4459a59807cfebd9f013175010fa4e53514ade61
+    new: a5b87cdc1b73d685ea8c472b7187ceb399b1d90b
+    log: |
+         a5b87cdc1b73d685ea8c472b7187ceb399b1d90b arm64: dts: mediatek: Replace 'enable-sdio-wakeup'
+         
