@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Wed, 22 Jun 2022 10:13:35 -0000
-Message-Id: <165589281597.2697.12241517761514205191@gitolite.kernel.org>
+Date: Wed, 22 Jun 2022 10:13:49 -0000
+Message-Id: <165589282955.2830.3103816972860288131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
-  - ref: refs/heads/next/dt-bindings
+  - ref: refs/heads/for-next
     old: f9702486c77ba74f65859098e3d8e4bdb2e8a745
     new: 881010ed2796649c90833c76750a3da196308b81
     log: |
