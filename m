@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 22 Jun 2022 06:11:51 -0000
-Message-Id: <165587831147.26384.1378285011740039927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 22 Jun 2022 06:19:45 -0000
+Message-Id: <165587878596.31519.2083396434137393398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/opp/clk
-    old: 82437291c96896a7dfec11a7fce35a0c6b77f84f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 71560e12863ff1b133e421ef7dd25d20c8d83acc
+    new: b8b3277ba387fb245e68faa880a73967ac70c3cf
+    log: |
+         b8b3277ba387fb245e68faa880a73967ac70c3cf tools/mgmt-tester: Add test case for scan response data is not updating
+         
