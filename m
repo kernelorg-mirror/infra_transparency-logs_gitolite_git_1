@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 22 Jun 2022 18:20:36 -0000
-Message-Id: <165592203608.18486.3805958458260916252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Wed, 22 Jun 2022 18:32:53 -0000
+Message-Id: <165592277302.25123.11523545241012363866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: b8b3277ba387fb245e68faa880a73967ac70c3cf
-    new: 7f92f75e88b66ba73db5a676c35c704e213dcd70
+  - ref: refs/heads/dev-test
+    old: 96eccf68c646b5f05f1bd85f2d3a41dfe140fc30
+    new: 5b99829602cbb9bdbd6fcf79935b0adcdd742f4e
     log: |
-         e4fd2dc5aa959ba430ee0038e4d135e1a7530ad4 client/player: Enable acquiring multiple transports
-         33c96ca658fd7a0d358dd714decf465ff17ee043 client/player: Fixes errors found by scan-build
-         7f92f75e88b66ba73db5a676c35c704e213dcd70 client/advertising: Fixes errors found by scan-build
+         5b99829602cbb9bdbd6fcf79935b0adcdd742f4e resize.f2fs: add option to manually specify new overprovision
          
