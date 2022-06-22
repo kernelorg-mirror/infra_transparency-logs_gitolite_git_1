@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7100607568480240471=="
+Content-Type: multipart/mixed; boundary="===============2775262515069964583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Jun 2022 02:09:11 -0000
-Message-Id: <165586375181.30742.3621953896341308864@gitolite.kernel.org>
+Date: Wed, 22 Jun 2022 02:09:27 -0000
+Message-Id: <165586376751.30890.6521564101635145328@gitolite.kernel.org>
 
---===============7100607568480240471==
+--===============2775262515069964583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,74 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: dcad25cb2500d2fe1f9a9222ecb316f431e2e1c9
-    new: 6a33ed506416a74aea3071a72192fb06a3cc82df
-    log: revlist-dcad25cb2500-6a33ed506416.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 24615c4efbe06cbc458d0b87b30e651066d510de
+    new: 577bcea4f71cc97a2127625a8c6f0bc693275c26
+    log: revlist-24615c4efbe0-577bcea4f71c.txt
 
---===============7100607568480240471==
+--===============2775262515069964583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655863742 -0400
+pusher 75C5DE3D 1655863757 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655863742-d92ddf11ab569f460a2e992d9e3915e11e981a3e
+nonce 1655863757-725f0971036db4e80d6be4e57eca71a3f86e3541
 
-dcad25cb2500d2fe1f9a9222ecb316f431e2e1c9 6a33ed506416a74aea3071a72192fb06a3cc82df refs/heads/queue
+24615c4efbe06cbc458d0b87b30e651066d510de 577bcea4f71cc97a2127625a8c6f0bc693275c26 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKyeb4ACgkQ7ulgGnXF
-3j2TTg//Zv/e4sGUO4m+uvLg4LFwqKtHZGxsM9Gp9FG+z9MxMVJW9RJTSSEq6bvm
-pblKjL2ixhwzclj2bvSOetbl+JOr7y3fcd2QEShEFfYfak7pzCEqEo17Uw5ygNAK
-Z41GKHQSTb5B1Uvfet08DGNFIrjmm6ItsIKiiA6kT91rwPnTvA1u1NBYftnPECAF
-2l19DmOf6L22T+KGBe+cUJrLxTUvvxhyNCVcmFIPJnphGsrDKp3e1giYmL7sIuMi
-SezcSOASuHHI6prTL5oEwEzLhiKjPmkI33cGnbaZwNJi2AQkiqeQ/cHW0kGn+xze
-yw98B+Ada3OZs2rQqZuuDWPTV8p9h1Qe9NvzUeP884ckasgyo8rhMl2kTCCsxt3O
-BoOnsQHQedkeJd2BQuwwst3smxvj3APUfbYiCIcBNs7Jxb8u2sfq9pOpSTBFGsD+
-mItv9JErCsXKlX6P3KL2Jnsh7egkjkOE+hjv1sbxFnR67QMDuESTDJ1MX2vBJkjY
-gsgD2njmLH77lYU4f24UROqdXu/HrumauXho+FWWj2sWMXqsR8RFKF3DOjV+1pB9
-U14ZKV+JosHSSXAwpmIzDS5uwkSV2RNpugKBOvVIIjyxhgcVsK5RXB5Ln4Hr/SiL
-6byDyM2k5Srw7QL+3V8AHHcd8vHtUVssuMwDNqirx/j55Cpm+Ic=
-=kwX8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKyec0ACgkQ7ulgGnXF
+3j29whAAtNFgD/Dc6DfW5ciiuBOIy7yhEKEM6uTCDvF+BdwXKCBvUjcTSTV6IQWE
+03tj+zLcgyPeHwJcdguYIeG/krJ/2Nu8D2Rv2xBojakFMEdOYP+/ByT+FLAiRaVt
+bS4a6I4+LCPN3BhmodD5NjXGVVXWTV3mkfdwxNVJv4ZJK0QIGpjuxMDBQuOQbCLd
+X9ZLZgXBqyYbbm5RiUVUTabrKiLxqN4pTBJ2vStiqY/GJBnltraayBfy5tPwC9Hc
+vrTGi6GZNO7GFuk4KoggzBbaY78G8uKBQs1dYnf+au1AGx7NJonc1+Q7Sq0jxozF
+61COOpPW1wkAFzu3HgzB8ey5t00ARUElwX1aQNEe4XBuD8oiYhlDBYsIgoo0U+W0
+3jJwmEuW99iH3RW98qgJ0e2QLp4FR7arwzVJWeUXbyUDnkzQCFKc8ORlASoLajKo
+TrgkciEk+XZS5CC8tjVZRnpvpc1yBoQ7bXHacKmepZNDFPfQE8w5BcNLdU898dNL
+oeFvOivDLX+Jm5JzDrXZ7UYpP0m3q4JVbHqx/lBxrXTePMvD/900vduLmCNDdUrv
+2PVjVlKmKNR96az2IoLVK1pbCHR44b7v3g8DxqKE+P5Pq/meBK/imi6eE8dC/Gn9
+GETY0cJaqXzOE2NuJ7cAfdn4zKrstFf6jq2kKJtdI6ZKyqXtcWU=
+=HwVa
 -----END PGP SIGNATURE-----
 
---===============7100607568480240471==
+--===============2775262515069964583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcad25cb2500-6a33ed506416.txt
+Content-Disposition: attachment; filename=revlist-24615c4efbe0-577bcea4f71c.txt
 
-35a7e9dbff9a25b1fd03a0a93dd1b69459e0c14e scsi: pm8001: Rework shost initial values
-98132d842d4d1ca64c829eb968ff1df53b37aead scsi: pm8001: Set up tags before using them
-940f5efa63161642b32b8dd82c17089b8ada7cbb scsi: pm8001: Use non-atomic bitmap ops for tag alloc + free
-42f22fe36d51a621a065352898e369bd7983107f scsi: pm8001: Expose hardware queues for pm80xx
-6c6806abd5bbb0e0ed4797cf1ef0c7ff1962ebac scsi: ufs: host: ufs-exynos: Remove unused defines
-cb2bf7c6e544d2df3a683d6012ac15a5276ef911 scsi: ufs: host: ufs-exynos: Use already existing definition
-c0d93b12f31c31748ca5d3349777c70f1e2a8228 scsi: ufs: Rearrange addresses in increasing order
-65080c51fde468465e3547d72e4a593b1361c0f4 scsi: iscsi: Prefer xmit of DataOut over new commands
-bff4873c709085e09d0ffae0c25b8e65256e3205 scsi: qla2xxx: Fix excessive I/O error messages by default
-476da8faa336f104cb5183ff51615335d1ff5d1f scsi: qla2xxx: Add a new v2 dport diagnostic feature
-d3117c83ba316b3200d9f2fe900f2b9a5525a25c scsi: qla2xxx: Wind down adapter after PCIe error
-5304673bdb1635e27555bd636fd5d6956f1cd552 scsi: qla2xxx: Turn off multi-queue for 8G adapters
-c39587bc0abaf16593f7abcdf8aeec3c038c7d52 scsi: qla2xxx: Fix crash due to stale SRB access around I/O timeouts
-58d1c124cd79ea686b512043c5bd515590b2ed95 scsi: qla2xxx: Fix losing FCP-2 targets during port perturbation tests
-118b0c863c8f5629cc5271fc24d72d926e0715d9 scsi: qla2xxx: Fix losing target when it reappears during delete
-f12d2d130efc49464ef0666789bfeb9073162743 scsi: qla2xxx: Add debug prints in the device remove path
-2416ccd3815ba1613e10a6da0a24ef21acfe5633 scsi: qla2xxx: Fix losing FCP-2 targets on long port disable with I/Os
-f260694e6463b63ae550aad25ddefe94cb1904da scsi: qla2xxx: Fix erroneous mailbox timeout after PCI error injection
-4de0d18da901bd271d9e4f13415c4a6eedee0591 scsi: qla2xxx: Update version to 10.02.07.700-k
-fc53683b45b053d94a660c417fd3d63cabc43b6f scsi: ufs: Export ufshcd_uic_change_pwr_mode()
-d81c4c6f71704348f7ea3191672ac98435831db9 scsi: ufs: Fix ADAPT logic for HS-G5
-3f9b6cec12e2d2b3bdf69d47979b7877985c55e0 scsi: ufs: ufs-mediatek: Introduce workaround for power mode change
-3fd23b8dfb54d9b74eba6dfdd3225db3ac116785 scsi: ufs: ufs-mediatek: Fix the timing of configuring device regulators
-005ffdf09cd3a3b96c071f5439e5ad389158e5a6 scsi: ufs: ufs-mediatek: Prevent device regulators setting LPM incorrectly
-0836cc252a5206d7308b91030f7eac186fa73c35 scsi: ufs: ufs-mediatek: Support low-power mode for VCCQ
-bc602ae977f3e6d47cd4c9c7aebc431019206712 scsi: ufs: ufs-mediatek: Support flexible parameters for SMC calls
-42b1928360a32e28296c2188742c907f83b9824a scsi: ufs: ufs-mediatek: Support low-power mode for parents of VCCQx
-1d6f9decb60a23cde2e0fbe0f89d5fc6d462ddd5 scsi: ufs: Export regulator functions
-ece418d0291117e3fc700f10e7fa9187010e38a0 scsi: ufs: ufs-mediatek: Support multiple VCC sources
-cb142b6d2f60ef7f676acf2dc84257ed05dfd7bd scsi: ufs: ufs-mediatek: Disable unused VCCQx power rails
-6a33ed506416a74aea3071a72192fb06a3cc82df scsi: iscsi: Make iscsi_unregister_transport() return void
+f54912b228a8df6c0133e31bc75628677bb8c6e5 scsi: ufs: ufs-mediatek: Fix build error and type mismatch
+c577ab7ba5f3bf9062db8a58b6e89d4fe370447e scsi: iscsi: Fix HW conn removal use after free
+3328333b47f4163504267440ec0a36087a407a5f scsi: iscsi: Allow iscsi_if_stop_conn() to be called from kernel
+da2f132d00d93ba015286b5e8fdcd85cf0346339 scsi: iscsi: Clean up bound endpoints during shutdown
+bb42856bfd54fda1cbc7c470fcf5db1596938f4f scsi: iscsi: Add helper to remove a session from the kernel
+7bf01eb0d4f9b31c41aebb431169e7ce22a65ff7 scsi: qedi: Use QEDI_MODE_NORMAL for error handling
+31500e902759322ba3c64b60dabae2704e738df8 scsi: iscsi: Fix session removal on shutdown
+4b9f8ce4d5e823e42944c5a0a4842b0f936365ad scsi: iscsi: Rename iscsi_conn_queue_work()
+8af809966c0b34cfacd8da9a412689b8e9910354 scsi: iscsi: Add recv workqueue helpers
+f1d269765ee29da56b32818b7a08054484ed89f2 scsi: iscsi: Run recv path from workqueue
+f93a722fa7b33204e91cd49f72803629f18053f4 scsi: iscsi_tcp: Tell net when there's more data
+9b89153680f65ba5d9229e8082a9eeed7adbd360 scsi: iscsi_tcp: Drop target_alloc use
+533ac412fdb4cbc8ce282b1ee1991e03b2717625 scsi: iscsi: Remove unneeded task state check
+e1c6a7ec14290a0e371b09300685638f9009f2ab scsi: iscsi: Remove iscsi_get_task back_lock requirement
+6d626150d6d1c14f2f3d4f907fd0d4381f2c0d35 scsi: iscsi: Try to avoid taking back_lock in xmit path
+6e637b723d8277cac4d347ea671ab798b70d8fc9 scsi: libiscsi: Improve conn_send_pdu API
+873cdda193fc501d20e4cf644e4415c463091f4d scsi: core: bsg: Remove usage of the deprecated ida_simple_xxx() API
+13d2d3428768c63259b6bf1d0940fc0c5cc866d7 scsi: mpt3sas: Fix typo in comment
+efef34cb4545d55c9ac9ccd501a6ce562e737736 scsi: mpt3sas: Fix whitespace and spelling mistake
+e1397bc6adde78be2edf409bbdb25343560da0fe scsi: hisi_sas: Align comments
+950d2867c1fb87a90e2f42c35d548e22733d4e0e scsi: message: fusion: Drop redundant "the"
+b73b14300e9fe759494bb8484782b9f334f3d1eb scsi: target: Remove duplicate "the"
+ebd676ff3b3f9a2db8d23a91eb3216fef8ce4568 scsi: aacraid: Remove redundant "the"
+82ede9c19839079e7953a47895729852a440080c scsi: ufs: core: Fix typos in error messages
+e448c8508d74ac7d9654e9f7957fb8ffda376eb1 scsi: snic: Remove redundant "on"
+bc98b503b111b92d1f51005b393615eaf689231f scsi: sym53c8xx_2: Remove redundant "with"
+cc06af0bbc21bcee40d57e3ee569d3a09741dafd scsi: trace: Print driver_tag and scheduler_tag in SCSI trace
+90c3ca3f247d1a95fc47232e9f0aef114becd605 scsi: mpt3sas: Remove flush_scheduled_work() call
+e34cc16a8042488efad86f121c94dcda5cd6f0c4 scsi: MAINTAINERS: Update cxgb3i and cxgb4i maintainer
 
---===============7100607568480240471==--
+--===============2775262515069964583==--
