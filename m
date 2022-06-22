@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 22 Jun 2022 16:28:48 -0000
-Message-Id: <165591532815.9599.5253336566059384735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 22 Jun 2022 16:43:33 -0000
+Message-Id: <165591621346.19754.11052999010615310665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/mhi-next
-    old: 48a23ec6ff2b2a5effe8d3ae5f17fc6b7f35df65
-    new: b7ce716254315dffcfce60e149ddd022c8a60345
+  - ref: refs/heads/for-next
+    old: 73448ae6204faa636292ae0d7ba8b2f6eb48179d
+    new: bb356ddb78b257f0807affb86306c5002f803024
     log: |
-         178329d4d635fb1848cc7ca1803dee5a634cde0d bus: mhi: host: pci_generic: Add support for Quectel EM120 FCCL modem
-         b7ce716254315dffcfce60e149ddd022c8a60345 bus: mhi: host: pci_generic: Add Cinterion MV31-W with new baseline
+         bb356ddb78b257f0807affb86306c5002f803024 RISC-V: PCI: Avoid handing out address 0 to devices
          
