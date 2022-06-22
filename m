@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5785624758587319965=="
+Content-Type: multipart/mixed; boundary="===============1810060752450099914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Wed, 22 Jun 2022 08:54:38 -0000
-Message-Id: <165588807800.1277.2830584844658063309@gitolite.kernel.org>
+Date: Wed, 22 Jun 2022 08:55:01 -0000
+Message-Id: <165588810181.1628.15954775103888033614@gitolite.kernel.org>
 
---===============5785624758587319965==
+--===============1810060752450099914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 2d1fa9b0b08bb841fde9136c249f632eb04a1e00
-    new: 5a3493a4e8739da5d707e4b085f7314f8b73a64c
-    log: revlist-2d1fa9b0b08b-5a3493a4e873.txt
+  - ref: refs/heads/for-usb-next
+    old: 6c2b753bd1c3f216422b8dadff758612d96b55ed
+    new: f9cabfa7a96b80ed31bfafc8547f8fd254ba0767
+    log: revlist-6c2b753bd1c3-f9cabfa7a96b.txt
 
---===============5785624758587319965==
+--===============1810060752450099914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d1fa9b0b08b-5a3493a4e873.txt
+Content-Disposition: attachment; filename=revlist-6c2b753bd1c3-f9cabfa7a96b.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -666,8 +666,6 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
-99f599aa8e056a4f71574391d0900115bd2914ca xhci: Keep interrupt disabled in initialization until host is running.
-dbd97bf8ae2dbb6e934e2f2686df3f64714c257f xhci-pci: Allow host runtime PM as default for Intel Meteor Lake xHCI
-5a3493a4e8739da5d707e4b085f7314f8b73a64c xhci: turn off port power in shutdown
+f9cabfa7a96b80ed31bfafc8547f8fd254ba0767 usb: host: xhci: use snprintf() in xhci_decode_trb()
 
---===============5785624758587319965==--
+--===============1810060752450099914==--
