@@ -1,62 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3544641825300668757=="
+Content-Type: multipart/mixed; boundary="===============1480340292608400631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 22 Jun 2022 11:58:42 -0000
-Message-Id: <165589912207.6430.9596050728174911468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 22 Jun 2022 11:59:29 -0000
+Message-Id: <165589916922.6738.3606502616093831276@gitolite.kernel.org>
 
---===============3544641825300668757==
+--===============1480340292608400631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 8975caf68dc87282428bf18ea25e2389d6e8931f
-    new: 1c48f35a824755c6ef6b78fdd303ad13e3103618
-    log: revlist-8975caf68dc8-1c48f35a8247.txt
-  - ref: refs/heads/next/dt
-    old: 8b86f733c0e512f92e43a9db1559498ef64d244e
-    new: 82cd16902a51773cfc0ee05bbd1ab470db5181ab
-    log: revlist-8b86f733c0e5-82cd16902a51.txt
+  - ref: refs/heads/master
+    old: a80d8fb70cc7864fd09e5e177627ee38d3a8fbdd
+    new: ffd3018bf7764f139e4378f303e6a97cf6b3687c
+    log: revlist-a80d8fb70cc7-ffd3018bf776.txt
 
---===============3544641825300668757==
+--===============1480340292608400631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8975caf68dc8-1c48f35a8247.txt
+Content-Disposition: attachment; filename=revlist-a80d8fb70cc7-ffd3018bf776.txt
 
-efbf2c262c89f78f99fd781c77b7305fac23c3c7 ARM: dts: exynos: align aat1290 flash LED node with bindings in Galaxy S3
-ebadc8a63645f7923dc63154ad8d290313f03101 ARM: dts: exynos: add function and color to aat1290 flash LED node in Galaxy S3
-f64bbfca314663886575b6fde16a5ba9afcda0fb ARM: dts: exynos: add function to LED node in Origen 4210
-ff4275fa0737f2312880d6fb0a4f582a73342465 ARM: dts: exynos: add function to LED nodes in Tiny4412
-a149eb5f1b118afe27a5b08d71c0abd2572be0a0 ARM: dts: exynos: add function and color to LED nodes in Itop Elite
-3e8368fdcee3c9072a41946f4a92517b5bfacb03 ARM: dts: exynos: add function and color to LED node in Odroid U3
-bcad13fca717a56cddb334eb131edba92c6b5494 ARM: dts: exynos: add function and color to LED nodes in Odroid X/X2
-f0945faa4a1a23d288ca8b92abab10d5145f33a1 ARM: dts: exynos: add function and color to LED node in Odroid HC1
-99f6b77f74c88ac1bc4c81e089dd0cbbf882aea6 ARM: dts: exynos: add function and color to LED node in Odroid XU4
-82cd16902a51773cfc0ee05bbd1ab470db5181ab ARM: dts: exynos: add function and color to LED nodes in Odroid XU/XU3
-1c48f35a824755c6ef6b78fdd303ad13e3103618 Merge branch 'next/dt' into for-next
+22aae52076cd727f28f7dcdc362bf62c3658cf82 mlxsw: Remove lag_vid_valid indication
+21c795f8494a152dbff86c50fe216e610a77bb0f mlxsw: spectrum_switchdev: Pass 'struct mlxsw_sp' to mlxsw_sp_bridge_mdb_mc_enable_sync()
+6e66d2e4b3a20655262569ec394f79a2eee87028 mlxsw: spectrum_switchdev: Do not set 'multicast_enabled' twice
+a6f43b1dad800d816d62dc478e68eb5230a9465c mlxsw: spectrum_switchdev: Simplify mlxsw_sp_port_mc_disabled_set()
+c96a9919c79e61e791c561a9c9c2ce56371866a1 mlxsw: spectrum_switchdev: Add error path in mlxsw_sp_port_mc_disabled_set()
+fd66f5184c28dd07ae7efeb2fa9a93c9c85ba66c mlxsw: spectrum_switchdev: Convert mlxsw_sp_mc_write_mdb_entry() to return int
+0100f840750ceac7c5774b4afca3b145d5631340 mlxsw: spectrum_switchdev: Handle error in mlxsw_sp_bridge_mdb_mc_enable_sync()
+70b34c77f1273f4940f1bc5c3b7d15ee8297073f mlxsw: Add enumerator for 'config_profile.flood_mode'
+89df3c6261f271c550f120b5ccf4d9c5132e870c mlxsw: cmd: Increase 'config_profile.flood_mode' length
+6131d9630d986495fc660a64c0df5fd648569a1b mlxsw: pci: Query resources before and after issuing 'CONFIG_PROFILE' command
+736bf371d2d460c9ded1073e8490be1d294ee177 mlxsw: spectrum_fid: Save 'fid_offset' as part of FID structure
+784763e59225c3baf7d97fbcda5bc7bb0dc77380 mlxsw: spectrum_fid: Use 'fid->fid_offset' when setting VNI
+048fcbb71a0e4d8a30b7bd0a497cd032b25d1186 mlxsw: spectrum_fid: Implement missing operations for rFID and dummy FID
+ffd3018bf7764f139e4378f303e6a97cf6b3687c Merge branch 'mlxsw-unified-bridge-conversion-part-2'
 
---===============3544641825300668757==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b86f733c0e5-82cd16902a51.txt
-
-efbf2c262c89f78f99fd781c77b7305fac23c3c7 ARM: dts: exynos: align aat1290 flash LED node with bindings in Galaxy S3
-ebadc8a63645f7923dc63154ad8d290313f03101 ARM: dts: exynos: add function and color to aat1290 flash LED node in Galaxy S3
-f64bbfca314663886575b6fde16a5ba9afcda0fb ARM: dts: exynos: add function to LED node in Origen 4210
-ff4275fa0737f2312880d6fb0a4f582a73342465 ARM: dts: exynos: add function to LED nodes in Tiny4412
-a149eb5f1b118afe27a5b08d71c0abd2572be0a0 ARM: dts: exynos: add function and color to LED nodes in Itop Elite
-3e8368fdcee3c9072a41946f4a92517b5bfacb03 ARM: dts: exynos: add function and color to LED node in Odroid U3
-bcad13fca717a56cddb334eb131edba92c6b5494 ARM: dts: exynos: add function and color to LED nodes in Odroid X/X2
-f0945faa4a1a23d288ca8b92abab10d5145f33a1 ARM: dts: exynos: add function and color to LED node in Odroid HC1
-99f6b77f74c88ac1bc4c81e089dd0cbbf882aea6 ARM: dts: exynos: add function and color to LED node in Odroid XU4
-82cd16902a51773cfc0ee05bbd1ab470db5181ab ARM: dts: exynos: add function and color to LED nodes in Odroid XU/XU3
-
---===============3544641825300668757==--
+--===============1480340292608400631==--
