@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7586703864081817397=="
+Content-Type: multipart/mixed; boundary="===============0839898285065775186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 22 Jun 2022 09:29:55 -0000
-Message-Id: <165589019588.23749.15951030989347821786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 22 Jun 2022 09:30:02 -0000
+Message-Id: <165589020274.24300.9354253872150304851@gitolite.kernel.org>
 
---===============7586703864081817397==
+--===============0839898285065775186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 263929afa4d674b2f1ab92801ff29a133171f757
-    new: 6ad9232a99e0a390b2959f3a8180a8ae5703d140
+  - ref: refs/heads/usb-testing
+    old: 2c8845fe9342b8801185b4c1b9261c532901fafd
+    new: 105f3fd2f789e001ba449d4020e168ea2b5b64aa
     log: |
          9dbdac024d4d9f3fc234399cb8c1f1cc6d2bcb2d staging: octeon-usb: move driver out of staging
-         6ad9232a99e0a390b2959f3a8180a8ae5703d140 Merge branch 'staging-octeon' of gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging into staging-next
+         105f3fd2f789e001ba449d4020e168ea2b5b64aa Merge branch 'staging-octeon' of gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging into usb-next
          
 
---===============7586703864081817397==
+--===============0839898285065775186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655890194 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1655890194-33d90728c3a07e83d2538220d955e5f5b8f86905
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655890201 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1655890201-8a2d2c00a202c7acc4158d680d0e6afe93953092
 
-263929afa4d674b2f1ab92801ff29a133171f757 6ad9232a99e0a390b2959f3a8180a8ae5703d140 refs/heads/staging-testing
+2c8845fe9342b8801185b4c1b9261c532901fafd 105f3fd2f789e001ba449d4020e168ea2b5b64aa refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKy4RIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DJEP/1CUvJkbWZ/DE4otcsxX
-a7EaY12W24yziRkEgT9C0TnYbtkKufjTo2+9RaIih5WR5sBSb41bjX1OMhSyzrQ3
-41ftLnmt9ALVfBdShfTWWzWri4eIE0k7LXNA1Dld7U/O2v8xzWEoylC++ahx5Wi6
-QIktuPKuqmRu11R6/AiQAl851ihL8YWEiZEuOwsqHK84q2UA6Y73j48XUgszn6XV
-2Nq7A2sMs8qNZuztVvXrFUz1XuCbd3++GbVY6a88qAKp9U034uTCNzQe+a2VrjDp
-kyW4mnP4++TtmadyxwVeVOnF9P9rlDyUOfhtLscx7nyCU0L1d6HQ/8nev2cVtUzJ
-0IzrCTBsEJMngLST5ydIu+vcwvOUK8KVic+CnC8vMg8Q59jhOsKPzTNdKhPZTSz3
-zZAkxKOCt8y0rBvn3Mj5xHeyyGJ6JV5lndzNXBZNRlgCXPZkfTDlu91Fy00NbZAx
-0Rk2/zVYb+9z1gSBQo2mRW1x4tZ9b73Wb92fNyEITBghbCzKQL4Zy93o1N7vemHW
-cqkD1WEIjrvDQTpra5RgJnQCPQPlaDETAfHCKdtr1l6K1O00pCTxC4U3FbdJAFf3
-7j1ppwdPAJi0zZux1P87YAAGzRwt100xi8AzK0FyJe1epJPb6qlrAcHbAbuuJW68
-l02hVfzWqyxvv/xmKFxEKUui
-=ouNd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKy4RkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wVAQAMjwzcoR134rZBUg12ne
+suLTZuwxysLUoo0fHSL9iC99tFTzcBEI7mvzWGLAF7XMtM7jZj1oz0BblFtNGkdn
+A9+V3NsRVKWI7I5KkOsAIAhTD98P21XOBhDW8Md8h1W9DchZwmFhwfV5cEDSBAOZ
+yVdfzAYqgMz7WPXFwdnkfgVhAJugznpHj1fEuFyfRKMp7MgJWlMyLl344htIQZLw
+D3j1QTdejTrbE+0b512lj2WK8eu8oayKbfYFWhmsHJ7asJ2Fb11d0W2Aio0XuwyY
+PmsbEakMcQ9Nh0QpYICZLrtAz82BMIOQoZN7liBfkLts+DagunbiXpEy/lgkeBXn
+wCoTOs5q8H3BSeVFXXdewXW1BV3ENOhVgS3K/M8mD6zt8DahpdNun1qy5NBrhybA
+hyEb3QnTLEsj6DxLysblI2zuvieJw+WTRlfyf31o+5W4zRBTulLWfCCmyggIyPZO
+gi4Y9B1GSN16pjVmWirz6fiv4p4H4BPOoVvnuXb0jSJAY5zs+S1G/5SnKxXb0Ayf
+2/69fmhK5ULxu3q4tKqu3DqH/8TtRqCfQwI6Dw3V+svF0guYxT6i0H24tBUz71DU
+mwoX1e3ER9rf7X24KNVr+gN/FKReDYqmrhEgKIXU3vF5cMou8hyzadBGm+YMJ8vi
+VqqXYGI3Rm0zj7goWzg4u15y
+=IheD
 -----END PGP SIGNATURE-----
 
---===============7586703864081817397==--
+--===============0839898285065775186==--
