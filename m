@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 22 Jun 2022 20:00:36 -0000
-Message-Id: <165592803617.19454.11469980073913821187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Wed, 22 Jun 2022 20:01:27 -0000
+Message-Id: <165592808757.19824.14404634328882996445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 01b24ac400c8a9200fe8d3a54d2e23a25affda4c
-    new: 2899de52b3dd45ce86b46a214aaef46c4cc74597
+  - ref: refs/heads/extcon-next
+    old: 51bd0abd873d1fcd0a57e1be761371057af686db
+    new: b291ecae1aec79232304781b62f3bd7c1a03c295
     log: |
-         2899de52b3dd45ce86b46a214aaef46c4cc74597 foo
+         df2cc16d293f58771b7592f0cdd96a32eb03228d extcon: Remove extraneous space before a debug message
+         b291ecae1aec79232304781b62f3bd7c1a03c295 extcon: Drop unexpected word "the" in the comments
          
