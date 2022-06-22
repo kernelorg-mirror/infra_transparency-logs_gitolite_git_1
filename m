@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2775262515069964583=="
+Content-Type: multipart/mixed; boundary="===============4666224644972945785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Jun 2022 02:09:27 -0000
-Message-Id: <165586376751.30890.6521564101635145328@gitolite.kernel.org>
+Date: Wed, 22 Jun 2022 02:09:40 -0000
+Message-Id: <165586378085.31046.1960803816675460654@gitolite.kernel.org>
 
---===============2775262515069964583==
+--===============4666224644972945785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 24615c4efbe06cbc458d0b87b30e651066d510de
-    new: 577bcea4f71cc97a2127625a8c6f0bc693275c26
-    log: revlist-24615c4efbe0-577bcea4f71c.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: 6a33ed506416a74aea3071a72192fb06a3cc82df
+    new: e34cc16a8042488efad86f121c94dcda5cd6f0c4
+    log: revlist-6a33ed506416-e34cc16a8042.txt
 
---===============2775262515069964583==
+--===============4666224644972945785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1655863757 -0400
+pusher 75C5DE3D 1655863771 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1655863757-725f0971036db4e80d6be4e57eca71a3f86e3541
+nonce 1655863771-35343b98e3e5bf508230050b6d87c20e5c7d9de2
 
-24615c4efbe06cbc458d0b87b30e651066d510de 577bcea4f71cc97a2127625a8c6f0bc693275c26 refs/tags/mkp-scsi-staging
+6a33ed506416a74aea3071a72192fb06a3cc82df e34cc16a8042488efad86f121c94dcda5cd6f0c4 refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKyec0ACgkQ7ulgGnXF
-3j29whAAtNFgD/Dc6DfW5ciiuBOIy7yhEKEM6uTCDvF+BdwXKCBvUjcTSTV6IQWE
-03tj+zLcgyPeHwJcdguYIeG/krJ/2Nu8D2Rv2xBojakFMEdOYP+/ByT+FLAiRaVt
-bS4a6I4+LCPN3BhmodD5NjXGVVXWTV3mkfdwxNVJv4ZJK0QIGpjuxMDBQuOQbCLd
-X9ZLZgXBqyYbbm5RiUVUTabrKiLxqN4pTBJ2vStiqY/GJBnltraayBfy5tPwC9Hc
-vrTGi6GZNO7GFuk4KoggzBbaY78G8uKBQs1dYnf+au1AGx7NJonc1+Q7Sq0jxozF
-61COOpPW1wkAFzu3HgzB8ey5t00ARUElwX1aQNEe4XBuD8oiYhlDBYsIgoo0U+W0
-3jJwmEuW99iH3RW98qgJ0e2QLp4FR7arwzVJWeUXbyUDnkzQCFKc8ORlASoLajKo
-TrgkciEk+XZS5CC8tjVZRnpvpc1yBoQ7bXHacKmepZNDFPfQE8w5BcNLdU898dNL
-oeFvOivDLX+Jm5JzDrXZ7UYpP0m3q4JVbHqx/lBxrXTePMvD/900vduLmCNDdUrv
-2PVjVlKmKNR96az2IoLVK1pbCHR44b7v3g8DxqKE+P5Pq/meBK/imi6eE8dC/Gn9
-GETY0cJaqXzOE2NuJ7cAfdn4zKrstFf6jq2kKJtdI6ZKyqXtcWU=
-=HwVa
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmKyedsACgkQ7ulgGnXF
+3j0gnQ/8DON0SRqXDET6IOWtzwwR3LqWLgr2G8WZ7z9yrvoD6PpiEVtaeCXxx8TY
+QpjAY7hXmkVx9EQEGq3LnazezUyZP14X8fSdNAWlQWpJCJ/MxyPAMgU21PH4Pe14
++3i1BTzKRJ++0Cz0+A9nGGX8J6OL4n1H6TadT6ESyy1NXhXBmfg7sKtVrT2evhgc
+bdwUhzokNV7RLAutMmNjxs4GpKDeuyYdEs0qSixutOA+J0ziaP9qdMOdKlJH9h61
+h1SCqURVnaragUSQIoklyX19pdSr3UfZ2tq4cT9Ki7SMB/2li1xSL1HmzsMLXcwv
+NoDBZM1qZgmr0xSvPO5gvjNmKIFZL90Yqe2Ndndkjnh/xY08UqtNvkfYYEebEEIw
+aaf+R8Zz3NXDu2dB7PFkaZmVmoeLug+OxEC2oJ8fzXY89OjL4OzHK2p4uTa9LVrR
+kyqIp7SAM93WGsOOS/pmQhNpxgugQgyn+EWZTVHeUp75E6ysxC77PAFF6p3ilV+c
+Q4IJFSao+6zzQSbhYsGJq/2FmeBT/JSNjWiqeqxsPXEtgz7qzrqKbLtzu4loYGn/
+fGA7+za5j9UHKvFoRBmTsY0myBsqC3zSlZo3xR0vQBJKICtQqgcQDwyKlvIS8y8B
+gIr5aJ8ei1R2Vm2L+pjVKZ0VcJPw90/CQ8DrWVQImmNvXfPs9D8=
+=VF0y
 -----END PGP SIGNATURE-----
 
---===============2775262515069964583==
+--===============4666224644972945785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24615c4efbe0-577bcea4f71c.txt
+Content-Disposition: attachment; filename=revlist-6a33ed506416-e34cc16a8042.txt
 
 f54912b228a8df6c0133e31bc75628677bb8c6e5 scsi: ufs: ufs-mediatek: Fix build error and type mismatch
 c577ab7ba5f3bf9062db8a58b6e89d4fe370447e scsi: iscsi: Fix HW conn removal use after free
@@ -86,4 +86,4 @@ cc06af0bbc21bcee40d57e3ee569d3a09741dafd scsi: trace: Print driver_tag and sched
 90c3ca3f247d1a95fc47232e9f0aef114becd605 scsi: mpt3sas: Remove flush_scheduled_work() call
 e34cc16a8042488efad86f121c94dcda5cd6f0c4 scsi: MAINTAINERS: Update cxgb3i and cxgb4i maintainer
 
---===============2775262515069964583==--
+--===============4666224644972945785==--
