@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5353160857969346239=="
+Content-Type: multipart/mixed; boundary="===============7586703864081817397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 22 Jun 2022 09:14:44 -0000
-Message-Id: <165588928489.14794.5410527788181387756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 22 Jun 2022 09:29:55 -0000
+Message-Id: <165589019588.23749.15951030989347821786@gitolite.kernel.org>
 
---===============5353160857969346239==
+--===============7586703864081817397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: c21b0837983d3b00c4f73927dae8441bf478087f
-    new: a52ed4866d2b90dd5e4ae9dabd453f3ed8fa3cbc
+  - ref: refs/heads/staging-testing
+    old: 263929afa4d674b2f1ab92801ff29a133171f757
+    new: 6ad9232a99e0a390b2959f3a8180a8ae5703d140
     log: |
-         77515ebaf01920e2db49e04672ef669a7c2907f2 devcoredump: remove the useless gfp_t parameter in dev_coredumpv and dev_coredumpm
-         a52ed4866d2b90dd5e4ae9dabd453f3ed8fa3cbc mwifiex: fix sleep in atomic context bugs caused by dev_coredumpv
+         9dbdac024d4d9f3fc234399cb8c1f1cc6d2bcb2d staging: octeon-usb: move driver out of staging
+         6ad9232a99e0a390b2959f3a8180a8ae5703d140 Merge branch 'staging-octeon' of gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging into staging-next
          
 
---===============5353160857969346239==
+--===============7586703864081817397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655889284 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1655889283-e79d912b177faadf31b115b4cab5ce3a9f94507a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655890194 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1655890194-33d90728c3a07e83d2538220d955e5f5b8f86905
 
-c21b0837983d3b00c4f73927dae8441bf478087f a52ed4866d2b90dd5e4ae9dabd453f3ed8fa3cbc refs/heads/driver-core-next
+263929afa4d674b2f1ab92801ff29a133171f757 6ad9232a99e0a390b2959f3a8180a8ae5703d140 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKy3YQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bdAP/2202sow1pXxU16k0Wtc
-MtiRFijMIel4U8lGQ7aI8WU31QD3F+A5gvy0cEW/o3uF9TbBLHl96Gvb696ImZxG
-YwCbIdQZFGovCqaRnbEPI5vm7E112IK64LJHqN3BK2BtkB9PTQ9HPWEW9/36DyGH
-x+6CdI/NFRRMbS01RyR85diaYsJbK+JZjWlIM5QfqkV8HYQpybRAx8EGkkMqZj4H
-wxiL/lTTT5MnmZ2q0E7zs6/78icb5vVZ1+eohzra5HXISkfwUy/nL1sk0PoARpN0
-96c6Puy7ZCj74PhAp0YflsEQPfTr6XK3GlVlEE0J5O6Que3ureKb1vGwtbMquSf1
-fctKRpfdUdRPtJeX0eHyoMA42LO/spQcE5G64if6HRN5ZrlENdsmIYHCZaOt7mPZ
-iZdhsGwOeNaQJ5tGEmxzhVbE8cr2vIl+oNnQufiraJTSpu1aPh5nw/yLA5chlluG
-bdVV6oixr5vnEwybeH357GUA87XyrYYUm9cqxiTRtPuNBf9dkfN4UC5OFnHx5VnF
-G4F/KlKfQHh/Mv48UCYT9U0WXjb4Ylz3C6oQ+aIdBfBLsFExz8og6RFg4u4i026l
-nnF7IurdzlaYVNTHqk4sNLFXBQBPv1h5g2Lse5nSx1wvbB7yBi/JDhBX+S/DkNey
-hHNvp5n6pVQBd58Lw3ZW8kPK
-=SWZS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKy4RIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DJEP/1CUvJkbWZ/DE4otcsxX
+a7EaY12W24yziRkEgT9C0TnYbtkKufjTo2+9RaIih5WR5sBSb41bjX1OMhSyzrQ3
+41ftLnmt9ALVfBdShfTWWzWri4eIE0k7LXNA1Dld7U/O2v8xzWEoylC++ahx5Wi6
+QIktuPKuqmRu11R6/AiQAl851ihL8YWEiZEuOwsqHK84q2UA6Y73j48XUgszn6XV
+2Nq7A2sMs8qNZuztVvXrFUz1XuCbd3++GbVY6a88qAKp9U034uTCNzQe+a2VrjDp
+kyW4mnP4++TtmadyxwVeVOnF9P9rlDyUOfhtLscx7nyCU0L1d6HQ/8nev2cVtUzJ
+0IzrCTBsEJMngLST5ydIu+vcwvOUK8KVic+CnC8vMg8Q59jhOsKPzTNdKhPZTSz3
+zZAkxKOCt8y0rBvn3Mj5xHeyyGJ6JV5lndzNXBZNRlgCXPZkfTDlu91Fy00NbZAx
+0Rk2/zVYb+9z1gSBQo2mRW1x4tZ9b73Wb92fNyEITBghbCzKQL4Zy93o1N7vemHW
+cqkD1WEIjrvDQTpra5RgJnQCPQPlaDETAfHCKdtr1l6K1O00pCTxC4U3FbdJAFf3
+7j1ppwdPAJi0zZux1P87YAAGzRwt100xi8AzK0FyJe1epJPb6qlrAcHbAbuuJW68
+l02hVfzWqyxvv/xmKFxEKUui
+=ouNd
 -----END PGP SIGNATURE-----
 
---===============5353160857969346239==--
+--===============7586703864081817397==--
