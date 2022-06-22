@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Wed, 22 Jun 2022 18:53:31 -0000
-Message-Id: <165592401182.6699.9510509732818920874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 22 Jun 2022 19:14:09 -0000
+Message-Id: <165592524983.20789.3868617724243258066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/erofs/folios
-    old: 44a1ffa3f0627895e8e932d55d429cecbdcee34d
-    new: 679fc33ac297c7e3a7a1134ddbb6281c304c9f93
+  - ref: refs/heads/master
+    old: 3abc3ae553c7ed73365b385b9a4cffc5176aae45
+    new: de5c208d533a46a074eb46ea17f672cc005a7269
     log: |
-         230fd74ecfae1ebdffb9549ff2db41abdfa4a7bb erofs: introduce `z_erofs_parse_out_bvecs()'
-         b348d0fd9bf94fc6953afeae18c88fa67ac31638 erofs: introduce bufvec to store decompressed buffers
-         ad3cbbbb98b1bfc9c7ebf233b6dc5db6ed7b30c2 erofs: drop the old pagevec approach
-         a94045919d725a515059bbc00eca41d3e9d10912 erofs: introduce `z_erofs_parse_in_bvecs'
-         7922837c31b2c47193173a2b4dc06dd2dbf07fe3 erofs: switch compressed_pages[] to bufvec
-         2e3caa2f40e18358f86b109495a0cdec453547df erofs: rework online page handling
-         e6a85d7eb1c095d89933ab7e5ddac3ccfd5480a8 erofs: get rid of `enum z_erofs_page_type'
-         679fc33ac297c7e3a7a1134ddbb6281c304c9f93 erofs: clean up `enum z_erofs_collectmode'
+         795285ef242543bb636556b7225f20adb7d3795c selftests: Fix clang cross compilation
+         12a29115be72dfc72372af9ded4bc4ae7113a729 selftests dma: fix compile error for dma_map_benchmark
+         3084a4ec7f9bb1ec90036cfd01b1abadc5dd4fb2 selftests: vm: Fix resource leak when return error
+         9b4d5c01eb234f66a15a746b1c73e10209edb199 selftests: make use of GUP_TEST_FILE macro
+         de5c208d533a46a074eb46ea17f672cc005a7269 Merge tag 'linux-kselftest-fixes-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
          
