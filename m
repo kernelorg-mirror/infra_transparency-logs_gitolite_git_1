@@ -1,33 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 22 Jun 2022 08:07:11 -0000
-Message-Id: <165588523181.3247.11429300009457997310@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0938773261773676842=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Wed, 22 Jun 2022 08:14:51 -0000
+Message-Id: <165588569162.8369.13645211423123307230@gitolite.kernel.org>
+
+--===============0938773261773676842==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: bf4e96644efcba4a760a60b1dcd24462c2ff2486
-    new: 6c4cb29ed5d4676c7280e89167732460670649b8
-    log: |
-         9a2f272b5f665ac945bc06f7b2e7cdf1cd974cce arm64: dts: qcom: add missing AOSS QMP compatible fallback
-         2559f68b5991be168785a16a53f582862cf0063c arm64: dts: qcom: correct SPMI WLED register range encoding
-         ed07c2af405fd6f7508997a3b55a74e1d16f467c ARM: dts: qcom: use dedicated QFPROM compatibles
-         d7b50df0b8d12fc0742be4170054f0c87bedac91 ARM: dts: qcom: cleanup QFPROM nodes
-         439e49349c146c0965bd6c9e214c2b703119108f ARM: dts: qcom: apq8064: add unit addresses to QFPROM regions
-         8d57e5b8203c46cd5ec96cb2202dd5878ae453b0 arm64: dts: qcom: use dedicated QFPROM compatibles
-         b4e7bcc945c6b8f3131460b94e28ff4bed23f847 arm64: dts: qcom: sdm630: correct QFPROM byte offsets
-         101e9482ac4f2c10c3fd21823650708c6209d2c5 Merge branch 'for-v5.20/qcom-dts-cleanup' into for-next
-         6c4cb29ed5d4676c7280e89167732460670649b8 Merge branch 'for-v5.20/qcom-dts64-cleanup' into for-next
-         
-  - ref: refs/heads/for-v5.20/qcom-dts-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 439e49349c146c0965bd6c9e214c2b703119108f
-  - ref: refs/heads/for-v5.20/qcom-dts64-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: b4e7bcc945c6b8f3131460b94e28ff4bed23f847
+  - ref: refs/heads/next/dt-bindings
+    old: ba52039325826b3f2bddd00972f3f61fbe7d9f0e
+    new: f9702486c77ba74f65859098e3d8e4bdb2e8a745
+    log: revlist-ba5203932582-f9702486c77b.txt
+
+--===============0938773261773676842==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ba5203932582-f9702486c77b.txt
+
+5c7b9a89c60ce728f61ecd8f2ae043deceb1fe66 dt-bindings: arm: qcom: fix Alcatel OneTouch Idol 3 compatibles
+0c8195fca687db26cd00df27c9df1830bddf72b0 dt-bindings: arm: qcom: fix Longcheer L8150 compatibles
+4de2601759e545625413284051e32124df3cbad4 dt-bindings: arm: qcom: fix MSM8916 MTP compatibles
+317e5467957b1f69df2235f247ffdabbc85dd01b dt-bindings: arm: qcom: fix MSM8994 boards compatibles
+496bb1347265130412739e752db77349e35e2ec2 dt-bindings: arm: qcom: add missing MSM8916 board compatibles
+215ad5a02e6c60fef7460c6936bf9996989f4969 dt-bindings: arm: qcom: add missing MSM8994 board compatibles
+4c74aef40300efb7e3cb7fcae62969ac63d349bc dt-bindings: arm: qcom: add missing SM8150 board compatibles
+197b6d70cf9e166e93450c155ceac6cc63ee908b dt-bindings: arm: qcom: add missing SM8250 board compatibles
+33a34cefdfaab7410cb5e280ae8e4318e3d79e8a dt-bindings: arm: qcom: add missing SM8350 board compatibles
+de0f2f0d6f35a583aaade4c290d9e8c3e03970b3 dt-bindings: vendor-prefixes: add Shift GmbH
+a47214e3fde968d4b251b5de8eb16c32f2b0262e dt-bindings: arm: qcom: add missing MSM8998 board compatibles
+581704606d4ec5b8e6749b7abc200795e845a0a2 dt-bindings: arm: qcom: add missing MSM8992 board compatibles
+1ceefa2a55ce7d9e4b8901b22e981f8965f9c4e3 dt-bindings: arm: qcom: add missing QCS404 board compatibles
+4fc3efba32057a76155449a2713ff242109a65a0 dt-bindings: arm: qcom: add missing SDM630 board compatibles
+7e86c41be0bebd01e2f0c87cd5b00c5746ab4089 dt-bindings: arm: qcom: add missing SDM636 board compatibles
+1facf9135a1b846c7f4e8db044b425b81a7bffff dt-bindings: arm: qcom: add missing SDM845 board compatibles
+103a90f68bf1f30b46de5c08c19c9f8e97530024 dt-bindings: arm: qcom: add missing SM6125 board compatibles
+f9702486c77ba74f65859098e3d8e4bdb2e8a745 dt-bindings: arm: qcom: add missing SM6350 board compatibles
+
+--===============0938773261773676842==--
