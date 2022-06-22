@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 22 Jun 2022 20:37:07 -0000
-Message-Id: <165593022787.10664.9762285245847014173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 22 Jun 2022 20:52:04 -0000
+Message-Id: <165593112419.20930.691925882020749945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 2899de52b3dd45ce86b46a214aaef46c4cc74597
-    new: e76ed7e9540e650b40962213c62e4fd06d3c211e
+    old: 3dbe68f4251dbdcab8abe3746001590abc939d27
+    new: b8740541c14bc856040b0b982e70ccea097c80bd
     log: |
-         451de7be9d5d445a87efef0564d744367cc18d78 foo
-         e76ed7e9540e650b40962213c62e4fd06d3c211e foo
+         b8740541c14bc856040b0b982e70ccea097c80bd netconfig: Add getters for DNS addresses and domain names
          
