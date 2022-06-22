@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3392025281865511682=="
+Content-Type: multipart/mixed; boundary="===============9001052447565712631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Wed, 22 Jun 2022 13:39:03 -0000
-Message-Id: <165590514357.27170.6117898615699536783@gitolite.kernel.org>
+Date: Wed, 22 Jun 2022 13:39:36 -0000
+Message-Id: <165590517697.27428.4513733931459067706@gitolite.kernel.org>
 
---===============3392025281865511682==
+--===============9001052447565712631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
 user: zx2c4
 changes:
-  - ref: refs/heads/backport-5.4.y
-    old: 4bec9f1b8fea460774e788382d8178220bd864d9
-    new: 7e592e76ecb4b70bf0102b71ca69aa3bcae953f0
-    log: revlist-4bec9f1b8fea-7e592e76ecb4.txt
+  - ref: refs/heads/gregkh/stable-5.4.y
+    old: 01565c91b789a1612051e735a65f11096a6f08e8
+    new: f0c280af0ec7c79cf043594974206d87c3c46524
+    log: revlist-01565c91b789-f0c280af0ec7.txt
 
---===============3392025281865511682==
+--===============9001052447565712631==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4bec9f1b8fea-7e592e76ecb4.txt
+Content-Disposition: attachment; filename=revlist-01565c91b789-f0c280af0ec7.txt
 
 f668da98ad838977129260c426b8cd390553c5c0 MIPS: Use address-of operator on section symbols
 e6ff94d31c53c5e5ae7d909d44cbc55ecfe725ad block: drbd: drbd_nl: Make conversion to 'enum drbd_ret_code' explicit
@@ -862,164 +862,5 @@ ef6f9ce0a79aa23b10fc5f3b3cab3814a25aac40 net: openvswitch: fix leak of nested ac
 1a48a41f14222177365fd3cf2049705f39281eaa riscv: Less inefficient gcc tishift helpers (and export their symbols)
 ab8dff4b716ea338131b91b679573845a0c4a02b powerpc/mm: Switch obsolete dssall to .long
 f0c280af0ec7c79cf043594974206d87c3c46524 Linux 5.4.200
-cda18b777ddea56bbe086e44d7396d275c110fd7 crypto: lib - tidy up lib/crypto Kconfig and Makefile
-a2fbb7b917877e6cfd292ac6df9bc9f1bc8ee023 crypto: chacha - move existing library code into lib/crypto
-08ad7334811184d731ed13948205c79156307091 crypto: x86/chacha - depend on generic chacha library instead of crypto driver
-a6de005923d2821ceb991ad26f49be1a3b88f705 crypto: x86/chacha - expose SIMD ChaCha routine as library function
-48d685da90a93bb5664b39d7ca27ecd88e0f2e91 crypto: arm64/chacha - depend on generic chacha library instead of crypto driver
-00eca1fe81fbc5693ecac227eef8fbeba2d2b599 crypto: arm64/chacha - expose arm64 ChaCha routine as library function
-0a4934bb04fa73a37f96eefd70f929f0e55ce025 crypto: arm/chacha - import Eric Biggers's scalar accelerated ChaCha code
-1129192158da0e6aa692ab402435889735ed2a39 crypto: arm/chacha - remove dependency on generic ChaCha driver
-e548261dc27ec3da78d5f4ba2eb3a601432f26d0 crypto: arm/chacha - expose ARM ChaCha routine as library function
-783936ec6f29704cb6a1c78bf47e9b48fc8bad1e crypto: mips/chacha - import 32r2 ChaCha code from Zinc
-6f9350184864c79a8928083c54cfb6da53cee532 crypto: mips/chacha - wire up accelerated 32r2 code from Zinc
-6d16a9b9eb1be6289f682f2e9e884a0211c97e4c crypto: chacha - unexport chacha_generic routines
-4e077facacc816362574fb62b399cf4df6179407 crypto: poly1305 - move core routines into a separate library
-0015e769ca6daa1bfe8db9ad76b5722ed7dd2c70 crypto: x86/poly1305 - unify Poly1305 state struct with generic code
-7f2bcbf7d88829749a7cb100197b35b0a942fe8c crypto: poly1305 - expose init/update/final library interface
-83315fe433d469a0e05a58da60f64cbeeed3be84 crypto: x86/poly1305 - depend on generic library not generic shash
-70a3ae2244ffe29a8ee2f66ab75d75a867723e51 crypto: x86/poly1305 - expose existing driver as poly1305 library
-1e1e0dc059feea32eaf01b5be133b835a97d3be3 crypto: arm64/poly1305 - incorporate OpenSSL/CRYPTOGAMS NEON implementation
-658f8eef81bb2d00851aa65bdb96af9eecc6de9c crypto: arm/poly1305 - incorporate OpenSSL/CRYPTOGAMS NEON implementation
-6ece4896be77648d3034ba8896eac406d995243c crypto: mips/poly1305 - incorporate OpenSSL/CRYPTOGAMS optimized implementation
-9ba594dab99e9d2d51f3296ef3889e449a56aa41 crypto: blake2s - generic C library implementation and selftest
-79399debc7161a43c972efc8ed1c21d4cc0a0913 crypto: testmgr - add test cases for Blake2s
-8fcd3af2284168f63d1ad8f866592357f876f6d7 crypto: blake2s - implement generic shash driver
-61516f7c69213fcb2b88ea0888266edf7ed1ac4e crypto: blake2s - x86_64 SIMD implementation
-ae9a373adae149b44392e328debbd24d1865119b crypto: curve25519 - generic C library implementations
-cc6e13a6fa340e2825bdc1acd172b04a5a44255c crypto: curve25519 - add kpp selftest
-b727527c6ec59a77b41a3032cf77720aef15a124 crypto: curve25519 - implement generic KPP driver
-66d738b8cb8766d144235699813f3125fd857bf5 crypto: lib/curve25519 - work around Clang stack spilling issue
-bcf90b50ac9dfcf7a41a82cdc2d409f7a0cebc5a crypto: curve25519 - x86_64 library and KPP implementations
-e1d76799e34b85fc4f48beb9e24a11ed93d6961d crypto: arm/curve25519 - import Bernstein and Schwabe's Curve25519 ARM implementation
-000dd26b6bcc806ad75e03a12685d263bf690187 crypto: arm/curve25519 - wire up NEON implementation
-6b5c784e88118a7628ad7ed5bd5c6d9ae45518cf crypto: chacha20poly1305 - import construction and selftest from Zinc
-0818fb3d833d12a5f839126f3c68acac137d671e crypto: lib/chacha20poly1305 - reimplement crypt_from_sg() routine
-caf8fe8e5bcc1f1b7ce82c36ddb7f077bb078511 crypto: chacha_generic - remove unnecessary setkey() functions
-f9b66be9e711adffcfc21e35543dd47690b7ed9e crypto: x86/chacha - only unregister algorithms if registered
-c142ac05bf62a34dc41ba00692e839cab95282be crypto: lib/chacha20poly1305 - use chacha20_crypt()
-ec05f6020f2d719a13f39d546ef5122dd3745397 crypto: arch - conditionalize crypto api in arch glue for lib code
-a3fa2112ec2e1832f5128cd087fc7e8794e55c73 crypto: chacha - fix warning message in header file
-e78249231c1a24e5b75a294903dc293682333756 crypto: arm/curve25519 - add arch-specific key generation function
-a4a290b7e22035ddd59b2311551dc465dd0f8a85 crypto: lib/curve25519 - re-add selftests
-4ab021c26bd4045210e683d9ae69c374f5740dbb crypto: poly1305 - add new 32 and 64-bit generic versions
-8a91036cf76846eee6bd4e3ea95d1b13c901dd90 crypto: x86/poly1305 - import unmodified cryptogams implementation
-d2f1e969675cddd837d7cad84d1bda6968ee8f08 crypto: x86/poly1305 - wire up faster implementations for kernel
-4a01ce854e4cc70db326e809910258cc056c3ba8 crypto: {arm,arm64,mips}/poly1305 - remove redundant non-reduction from emit
-ae663c5aa32e03de923de30cb51cd30454689b52 crypto: curve25519 - Fix selftest build error
-d1a767ea084e418dcafc565a13ea7bfcca6de195 crypto: x86/poly1305 - fix .gitignore typo
-e5998fa902639c331ee737950e11f3caedeff735 crypto: chacha20poly1305 - add back missing test vectors and test chunking
-6f221784668f8f4f2f5b432abde31856aa27f665 crypto: x86/poly1305 - emit does base conversion itself
-7e12f79e5bc8e4c39ea9cdb15e24066e92644f49 crypto: arm/chacha - fix build failured when kernel mode NEON is disabled
-18a0bb1832e3876ea6db1478474636a956e44693 crypto: Kconfig - allow tests to be disabled when manager is disabled
-4e26286892603679cd92e5f789041445939d150c crypto: chacha20poly1305 - prevent integer overflow on large input
-7115d66aabaa935c3dcf7f6b675540ee04c6b6eb crypto: x86/curve25519 - support assemblers with no adx support
-8247a1f25a0fd707b467ec8b8b9ff3135ce392d8 crypto: arm64/chacha - correctly walk through blocks
-a08b45112fa8d591e8afaab7e50fbea4fe9ce616 crypto: x86/curve25519 - replace with formally verified implementation
-202969111f7f1ccf1eb1425660a6c78137746ec8 crypto: x86/curve25519 - leave r12 as spare register
-74c75d48abc708195b37c7e8afc2179ce4ee4628 crypto: arm[64]/poly1305 - add artifact to .gitignore files
-1dc56b4298ae6011c1b2b2ff51978e0e09e06d6c crypto: arch/lib - limit simd usage to 4k chunks
-86113bb7e1898a2966fb1c59a1878538cb676e23 crypto: lib/chacha20poly1305 - Add missing function declaration
-7e0e2956d77838c82999827264d535c6561744b8 crypto: x86/chacha-sse3 - use unaligned loads for state array
-391a80477ce979706353b62950d25b124c5bc8b9 crypto: x86/curve25519 - Remove unused carry variables
-b977ed0dfddcf780261cdc561130e7144514ef82 crypto: arm/curve25519 - include <linux/scatterlist.h>
-bf5e5f544ed24abed6d421934a92f1375ba24c26 crypto: arm/poly1305 - Add prototype for poly1305_blocks_neon
-170c3d1cabf5e608d36ffda4c4755d2b94d0c887 crypto: curve25519-x86_64 - Use XORL r32,32
-4bc44ee42e3e400700c45ce8e3a25b7003062301 crypto: poly1305-x86_64 - Use XORL r32,32
-a70692586d83445accac471ff97efa118061a850 crypto: x86/poly1305 - Remove assignments with no effect
-9be52f4de2736dabe46402c6379ca4d2112fc4f4 crypto: x86/poly1305 - add back a needed assignment
-2d3bdd76d22bd1428f316de030054d2b59edcff5 crypto: Kconfig - CRYPTO_MANAGER_EXTRA_TESTS requires the manager
-8063adfee72e62a697167b016b6adf4cfefe879b crypto: arm/chacha-neon - optimize for non-block size multiples
-dab2cda2a80672d1b34538c32094907a2ea085e7 crypto: arm64/chacha - simplify tail block handling
-1540207cbd931de2302baea96af34911d54ed152 crypto: lib/chacha20poly1305 - define empty module exit function
-b5943e16c1ecbe64c5477958f1c885e96f4ac5a6 crypto: arm/chacha-neon - add missing counter increment
-fd3457961b113fe9159806d9274c58d8d5c970e5 net: WireGuard secure network tunnel
-aa5744aadda630a5b2a9224ed0b28893ec6927c6 wireguard: selftests: import harness makefile for test suite
-2b1eaab061aaa468802bc7f23362fa0dbdc793e3 wireguard: Kconfig: select parent dependency for crypto
-c96cc624c742dc966da21d27cd301f8fbe6d7e89 wireguard: global: fix spelling mistakes in comments
-6a5f1e4c96c270a505acbe788ba015043d7199ab wireguard: main: remove unused include <linux/version.h>
-959ec1e28704b9291749497f49dede5203eb1689 wireguard: allowedips: use kfree_rcu() instead of call_rcu()
-b051512623771b916641f520b3c4c6d04e56166d wireguard: selftests: remove ancient kernel compatibility code
-d465ba2c8e24b16b0938591606c3e25a7978830c wireguard: queueing: do not account for pfmemalloc when clearing skb header
-820b2f3dae1d586d052e935f38019c8676e9bbc4 wireguard: socket: mark skbs as not on list when receiving via gro
-f9f020b6d7c39dd5b231b259cb9042cfd6181a2f wireguard: allowedips: fix use-after-free in root_remove_peer_lists
-e8833377306ba2826bf82b022893a1e83443e5e9 wireguard: noise: reject peers with low order public keys
-4dc5bfb662712ec8cfd2b5adc74cca97e62b7225 wireguard: selftests: ensure non-addition of peers with failed precomputation
-8b2d645f96d40502dbd37b96f9223bef3e44256d wireguard: selftests: tie socket waiting to target pid
-0d6c19a11ee9e504760bd3f51d1ac8c8a32d0d2d wireguard: device: use icmp_ndo_send helper
-31b1c4ed17e2bd0e75d125fcbf184f4fd93ebaf4 wireguard: selftests: reduce complexity and fix make races
-b5ca509e6a1abb2cfd7606c34b7607d31f389700 wireguard: receive: reset last_under_load to zero
-5f0cafb4db2c00e5eb8addea84b29764a42e5de8 wireguard: send: account for mtu=0 devices
-d5b050b522f978eaf849e33f5e49848f95bf5553 wireguard: socket: remove extra call to synchronize_net
-58298b8846e944b6a82294dc790deee9b816f6e2 wireguard: selftests: remove duplicated include <sys/types.h>
-df3f5c08da7a165d8f374291905060ad5a7ebf2c wireguard: queueing: account for skb->protocol==0
-26b485da4110afa8e4e161979c0b05dd381d549d wireguard: receive: remove dead code from default packet type case
-549e8ab1d9ca6c61737e152a826842260d30ed13 wireguard: noise: error out precomputed DH during handshake rather than config
-64dab27dd9a0c3e6e2dfb42038cd71563057a67e wireguard: send: remove errant newline from packet_encrypt_worker
-f70cd35b986e572dd54ffed3cefe2ddc13a23916 wireguard: queueing: cleanup ptr_ring in error path of packet_queue_init
-c7e8e88bb4d025e17b4e7bc6a1e5c488b72d1959 wireguard: receive: use tunnel helpers for decapsulating ECN markings
-799f5220b421d95db4f72d93bd2fd6b9978afb2d wireguard: selftests: use normal kernel stack size on ppc64
-478811ba6f6a134c7e80dc691a5e624e5a05ac29 wireguard: socket: remove errant restriction on looping to self
-97d9cbcb80447546f715def0e4d5b6711b44ad67 wireguard: send/receive: cond_resched() when processing worker ringbuffers
-4815282c1fa4a5deecb92bde4e6dd71249725f3b wireguard: selftests: initalize ipv6 members to NULL to squelch clang warning
-cf0c5d4035a395851cfc142c5d0676f6d21e3102 wireguard: send/receive: use explicit unlikely branch instead of implicit coalescing
-1d84244f8912b3fd857ada4fc67784d8ce3c4d4d wireguard: selftests: use newer iproute2 for gcc-10
-420d1964c8065e8cb3ec7d2b77440c0f41d8fa96 wireguard: noise: read preshared key while taking lock
-09c2cc23fadb5dc1275bfa711660330273c90f2a wireguard: queueing: preserve flow hash across packet scrubbing
-4bd4807e33d1baab26a5b71ddbf887f3b0a4ac7f wireguard: noise: separate receive counter from send counter
-48ba4bd727fb2cf0c58367b09eb87d34e60317c3 wireguard: noise: do not assign initiation time in if condition
-ef75e95b8d486517b4982053eb74f21b9eac986f wireguard: device: avoid circular netns references
-f7476712f5665f4fa322ee28e01cfd9640cb7a27 wireguard: receive: account for napi_gro_receive never returning GRO_DROP
-82e86664d35ce12fb7f9f0426b4cd5bc71de8305 net: ip_tunnel: add header_ops for layer 3 devices
-884c72076bd1ff9df8ba8837d7988dc4767f6b50 wireguard: implement header_ops->parse_protocol for AF_PACKET
-a4a56b5687ac178943100b1e63bf4820cb623edc wireguard: queueing: make use of ip_tunnel_parse_protocol
-ea94e627d919da14aa83c31130e23364dc5e5157 netlink: consistently use NLA_POLICY_EXACT_LEN()
-96842fab64526e71e7a102891f78645b644b9dbc netlink: consistently use NLA_POLICY_MIN_LEN()
-b50b4e0500bbfcbc5bd6569014f41cf45ec1de1a wireguard: noise: take lock when removing handshake entry from table
-a442aa8fdf6eb580118baf28d9b84e12c0b19517 wireguard: peerlookup: take lock before checking hash in replace operation
-0d804714bc06bd62c08033c9aaade2dda47e1ae2 wireguard: selftests: check that route_me_harder packets use the right sk
-645b9e0fa3b25bbf757dd0b85273f5948686c581 wireguard: avoid double unlikely() notation when using IS_ERR()
-f2be42de510186116111c9f7ffc139197f0055ba wireguard: socket: remove bogus __be32 annotation
-4f7b88570012b9dd907635bb3934a7c7125b67f2 wireguard: selftests: test multiple parallel streams
-dbed7b3c995b7b4184fb08dd50a1b5227f731267 wireguard: peer: put frequently used members above cache lines
-74ffbc2d8418f6b3ed674d0baf1103c1b7ad231d wireguard: device: do not generate ICMP for non-IP packets
-3f5e88cd6e05025cc8b5cf8541725e65812673e4 wireguard: queueing: get rid of per-peer ring buffers
-73e0c5af9051e667bf9741b46c4a02964b0e33ab wireguard: kconfig: use arm chacha even with no neon
-2cfd6f3bf1f0dad70c9f0eab9656c4527fa9b461 crypto: mips/poly1305 - enable for all MIPS processors
-017a47165de1d941553344a4a9aa65755a1f076b crypto: mips: add poly1305-core.S to .gitignore
-05aa8e9f1709bdf775ae2d6b5cdcd80f432973a2 crypto: poly1305 - fix poly1305_core_setkey() declaration
-9709e5ed9418299384cff297806f991b1e7e58a6 wireguard: selftests: remove old conntrack kconfig value
-cf4ec152ba09fc426559510933fd8480c3d2f6dc wireguard: selftests: make sure rp_filter is disabled on vethc
-d42f338a3c1b80b81da434bb558c7e7e32e94368 wireguard: do not use -O3
-51186a0c6355b6d394fb2e6245304dca58d42bd9 wireguard: use synchronize_net rather than synchronize_rcu
-e0306606215c5599e55b4f8cdb69637c50299774 wireguard: peer: allocate in kmem_cache
-e67a38fd9226aa8a7fbad198b67ba051ac1a48b4 wireguard: allowedips: initialize list head in selftest
-f54971562a7b05ef71cdd8ed4bc716894bf82fbb wireguard: allowedips: remove nodes in O(1)
-d929f15394169977ec17104f3b91862b83ec28bc wireguard: allowedips: allocate nodes in kmem_cache
-9e7f28c264618cf8295dcc345bdc3f65bc6b4e08 wireguard: allowedips: free empty intermediate nodes when removing single node
-8a75abedbe1fa910bf81011ab71ef2e4258c847b crypto: x86/curve25519 - fix cpu feature checking logic in mod_exit
-bdef29e330e576dc2b79017d212453b1e4d07460 wireguard: allowedips: add missing __rcu annotation to satisfy sparse
-5fda0ffa2cfe05012b9c42c92ed6eeccd02e18aa wireguard: selftests: increase default dmesg log size
-fd4ccc5123bd5a62b5edc9a2528b9acdd0da0e99 wireguard: selftests: actually test for routing loops
-c28378546bca85b333042c62f30f9001badb26e0 wireguard: main: rename 'mod_init' & 'mod_exit' functions to be module-specific
-c140fd0568d2e9430fde1532407c1a700450ac43 wireguard: selftests: rename DEBUG_PI_LIST to DEBUG_PLIST
-649b86acbea1bfd2df5c0c9a4c2a3785b0b003c1 wireguard: device: reset peer src endpoint when netns exits
-987fcc8bf7ffbc71019b2800baedd91643aeb6a0 wireguard: receive: use ring buffer for incoming handshakes
-e730af2b0505efaa094d819ac82ce632fabcbc83 wireguard: receive: drop handshakes if queue lock is contended
-38293d987bbfd971e11887756ae79d880e4300b0 wireguard: ratelimiter: use kvcalloc() instead of kvzalloc()
-78f1620a71f7fa2313cb92f83d115250a12d602f crypto: x86/curve25519 - use in/out register constraints more precisely
-44494a6fdf756033b7461012834e1e877f07cafe lib/crypto: blake2s: move hmac construction into wireguard
-8bc900fead7625da042c9c18d2f7924e1b0f1786 wireguard: queueing: use CFI-safe ptr_ring cleanup function
-401f7738e800f61ab836b0d4290fd602e48ef40a wireguard: selftests: simplify RNG seeding
-ef8d219d6e21c7c7b9d38484db16c5f3ff3788d1 wireguard: socket: free skb in send6 when ipv6 is disabled
-a2103491fb79c22e9d392db98531f89e4987d1c0 wireguard: socket: ignore v6 endpoints when ipv6 is disabled
-b898292667202c4aa7df25069d35d331e408680e wireguard: selftests: enable ACPI for SMP
-3e696292d2ca7772df25212395f0c2ad8a2885fb wireguard: device: check for metadata_dst with skb_valid_dst()
-a81f1f9c62a31c73173e68bd1186db27a3cf6d0d wireguard: selftests: make routing loop test non-fatal
-7dddcebbed08b973a073fb812b5413f74730fff1 wireguard: selftests: limit parallelism to $(nproc) tests at once
-b1af910b6b272c542d389804416fc349f79c4ee1 wireguard: selftests: use newer toolchains to fill out architectures
-b5d4478e6bd389013423d9575bb58a24bc15ef34 wireguard: selftests: restore support for ccache
-6498596911c156cf99f0393defeddf4eba53092d wireguard: selftests: bump package deps
-7e592e76ecb4b70bf0102b71ca69aa3bcae953f0 wireguard: selftests: set panic_on_warn=1 from cmdline
 
---===============3392025281865511682==--
+--===============9001052447565712631==--
