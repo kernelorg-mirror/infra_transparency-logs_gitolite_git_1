@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0938773261773676842=="
+Content-Type: multipart/mixed; boundary="===============8910440893426682424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Wed, 22 Jun 2022 08:14:51 -0000
-Message-Id: <165588569162.8369.13645211423123307230@gitolite.kernel.org>
+Date: Wed, 22 Jun 2022 08:15:04 -0000
+Message-Id: <165588570419.10016.15942915356452204845@gitolite.kernel.org>
 
---===============0938773261773676842==
+--===============8910440893426682424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
-  - ref: refs/heads/next/dt-bindings
+  - ref: refs/heads/for-next
     old: ba52039325826b3f2bddd00972f3f61fbe7d9f0e
     new: f9702486c77ba74f65859098e3d8e4bdb2e8a745
     log: revlist-ba5203932582-f9702486c77b.txt
 
---===============0938773261773676842==
+--===============8910440893426682424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ a47214e3fde968d4b251b5de8eb16c32f2b0262e dt-bindings: arm: qcom: add missing MSM
 103a90f68bf1f30b46de5c08c19c9f8e97530024 dt-bindings: arm: qcom: add missing SM6125 board compatibles
 f9702486c77ba74f65859098e3d8e4bdb2e8a745 dt-bindings: arm: qcom: add missing SM6350 board compatibles
 
---===============0938773261773676842==--
+--===============8910440893426682424==--
