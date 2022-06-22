@@ -1,57 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2166593902984712816=="
+Content-Type: multipart/mixed; boundary="===============8103498580681607406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 22 Jun 2022 05:57:20 -0000
-Message-Id: <165587744060.17243.10570935889907473126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 22 Jun 2022 06:10:35 -0000
+Message-Id: <165587823522.25683.4092676295940435115@gitolite.kernel.org>
 
---===============2166593902984712816==
+--===============8103498580681607406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/staging-next
-    old: 4175971d0effb00f01c48a2990f51c1f1503be98
-    new: 263929afa4d674b2f1ab92801ff29a133171f757
-    log: |
-         908b130df51e04f317d5413f5bf31ebbf1a9e205 staging: r8188eu: replace N_BYTE_ALIGMENT with ALIGN
-         263929afa4d674b2f1ab92801ff29a133171f757 staging: r8188eu: remove basic_types.h
-         
+  - ref: refs/heads/opp/linux-next
+    old: 27aaff9d8e89875714c11b3554d5a2d83a69a070
+    new: 0a8fd40524a8ab862863a63a3652f4200c3023b3
+    log: revlist-27aaff9d8e89-0a8fd40524a8.txt
 
---===============2166593902984712816==
+--===============8103498580681607406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-27aaff9d8e89-0a8fd40524a8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655877440 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1655877438-80bc2155212d7708c9a84ce9ffab14024602e827
+efe0727401231fa017b3b1e3374925d32930b9e1 OPP: Add generic key finding helpers and use them for freq APIs
+0b3848d22267b9a84167ee50abab3b8b9ee98547 OPP: Use generic key finding helpers for level key
+0a5cb80d4216bc20ddb4f182719cc51c2ebc0c31 OPP: Use generic key finding helpers for bandwidth key
+56eb798a466d47d2ff877e170ecc60d67d32c138 OPP: Use consistent names for OPP table instances
+58e015111f69441bcc349584742e9375dd6c5edc OPP: Remove rate_not_available parameter to _opp_add()
+925295a8792b6af57284e98034e6f65429069f27 OPP: Reuse _opp_compare_key() in _opp_add_static_v2()
+c10bf326f3e4bf9400fe6fe49bf670f647fd0989 OPP: Make dev_pm_opp_set_opp() independent of frequency
+4768927c458b16765719b3a12eb2445a8987639f OPP: Allow multiple clocks for a device
+1e396af8dde9e346a88cc2ee49802e226c5fae83 OPP: Add key specific assert() method to key finding helpers
+1e2d1c4298e63652f5feb263a70ed9ddfc828eab OPP: Assert clk_count == 1 for single clk helpers
+0a8fd40524a8ab862863a63a3652f4200c3023b3 OPP: Provide a simple implementation to configure multiple clocks
 
-4175971d0effb00f01c48a2990f51c1f1503be98 263929afa4d674b2f1ab92801ff29a133171f757 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmKyr0AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IA4P/Rva7DcKlVFn67nbkL7W
-8UGIVa+iiuMEPRQ4T6YWA4qiSrOv1lahZSAEtbPOK3PuCWDj61XNsXQnRnPx2Ral
-YQiByhOlFY11IAlWwUGZMs0+4sxDtg/d1hJ3VfNRD2Fy7WwQ4r7avZGV8YpyXzbo
-EYZIf2iWiyuDcx37xloQ6fHAUCDQhaZ34M9SZ0Upys2zhAjOJJRxEvZBVpC/ITQX
-x6nMzhfTdfelTw2ISgenZOaWTnytXivsHMZZOM7a/zlcuG+0jBwhAse6GIp2yf0N
-yE/U2mPR0E2pXDrShNZ2jBGLIpNCYQtmqfjgd6rs6MZftSEE0DBi5sIth4hh42bJ
-LpLl1QhCJTzOn7fnJBt82aRjmjuIaxMW5VyOSuXOXmuSyuZeR44Df9w7CEXcJPat
-JbQpxRVyeNDlh8vCPlu5VlI5HhNTlTR4Ka05G4oqsw3wfs5az2o47BvkhIGBDE98
-PigSq/qqTmsZzvKQEoVQLNiocS2ni3WmGbOe0pbGpHr5qnhXTZJNHsvMdrgSmHR1
-VMZ2fp9YY7tDcQZDAOGLHfw/JV+XB9MC28hOHzquCxeWlhKTQXl7mSZxqKPBFrii
-qc2PnJ6quogsu1xqQb59jv9Fmdp5aPiOCB+3634e/MN/+oiQZIVfhe6qbMnjBAvh
-cJ2VlJIzjAiFGGLkqFnXhJPL
-=fSNo
------END PGP SIGNATURE-----
-
---===============2166593902984712816==--
+--===============8103498580681607406==--
