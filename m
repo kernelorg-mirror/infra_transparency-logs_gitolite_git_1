@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 22 Jun 2022 18:07:24 -0000
-Message-Id: <165592124450.8780.10049591324209983154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 22 Jun 2022 18:20:36 -0000
+Message-Id: <165592203608.18486.3805958458260916252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 877fe9d49b74e5f84346f9df34e2c7f8086dbceb
-    new: 1e70212e031528918066a631c9fdccda93a1ffaa
+    old: b8b3277ba387fb245e68faa880a73967ac70c3cf
+    new: 7f92f75e88b66ba73db5a676c35c704e213dcd70
     log: |
-         1e70212e031528918066a631c9fdccda93a1ffaa hinic: Replace memcpy() with direct assignment
+         e4fd2dc5aa959ba430ee0038e4d135e1a7530ad4 client/player: Enable acquiring multiple transports
+         33c96ca658fd7a0d358dd714decf465ff17ee043 client/player: Fixes errors found by scan-build
+         7f92f75e88b66ba73db5a676c35c704e213dcd70 client/advertising: Fixes errors found by scan-build
          
