@@ -1,68 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============8187534124230369581=="
+Content-Type: multipart/mixed; boundary="===============7359421213227255996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 23 Jun 2022 15:09:07 -0000
-Message-Id: <165599694765.4794.596366743318877835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 23 Jun 2022 15:21:40 -0000
+Message-Id: <165599770099.14378.18164075578832574253@gitolite.kernel.org>
 
---===============8187534124230369581==
+--===============7359421213227255996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3f1412c503c2719cf445161c5ebd69ef507a0e17
-    new: 635492cde541e359fd9be8923db41b8b196b0616
-    log: revlist-3f1412c503c2-635492cde541.txt
+  - ref: refs/heads/master
+    old: 8720bd951b8e8515ffd995c7631790fdabaa9265
+    new: ccb9bc1dfa444e3541622ccfff135e83d2a569d1
+    log: revlist-8720bd951b8e-ccb9bc1dfa44.txt
 
---===============8187534124230369581==
+--===============7359421213227255996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f1412c503c2-635492cde541.txt
+Content-Disposition: attachment; filename=revlist-8720bd951b8e-ccb9bc1dfa44.txt
 
-b1fd94e704571f98b21027340eecf821b2bdffba netfilter: use get_random_u32 instead of prandom
-394e771684f7a2cd4e154647bff50084c31bc7cf netfilter: cttimeout: fix slab-out-of-bounds read typo in cttimeout_net_exit
-5d79d8af8dec58bf709b3124d09d9572edd9c617 selftests: netfilter: correct PKTGEN_SCRIPT_PATHS in nft_concat_range.sh
-574a5b85dc3b9ab672ff3fba0ee020f927960648 netfilter: nf_dup_netdev: do not push mac header a second time
-fcd53c51d03709bc429822086f1e9b3e88904284 netfilter: nf_dup_netdev: add and use recursion counter
-d4ea6f6373ef56d1d795a24f1f5874f4a6019199 ice: ignore protocol field in GTP offload
-3578dc90013b1fa20da996cdadd8515802716132 ice: Fix switchdev rules book keeping
-c3d184c83ff4b80167e34edfc3d21df424bf27ff ice: ethtool: advertise 1000M speeds properly
-a632b2a4c920ce5af29410fb091f7ee6d2e77dc6 ice: ethtool: Prohibit improper channel config for DCB
-2642cc6c3bbe0900ba15bab078fd15ad8baccbc5 net: phy: smsc: Disable Energy Detect Power-Down in interrupt mode
-53664d51d3510e1d4092e539c5928fc9951f63b0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-877fe9d49b74e5f84346f9df34e2c7f8086dbceb Revert "drivers/net/ethernet/neterion/vxge: Fix a use-after-free bug in vxge-main.c"
-1e70212e031528918066a631c9fdccda93a1ffaa hinic: Replace memcpy() with direct assignment
-13f28c2cf0701eaf3b251a57b46bca0fe17248ca MAINTAINERS: Add a maintainer for OCP Time Card
-386228c694bf1e7a7688e44412cb33500b0ac585 net: dsa: qca8k: reset cpu port on MTU change
-85467f7da18992311deafdbf32a8d163cb1e98d7 net: dsa: qca8k: reduce mgmt ethernet timeout
-4e0effd9007ea0be31f7488611eb3824b4541554 igb: Make DMA faster when CPU is active on the PCIe link
-448ad88f8011af77e0960fd011039e525fcb7cde Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-8af52fe9fd3bf5e7478da99193c0632276e1dfce virtio_net: fix xdp_rxq_info bug after suspend/resume
-1b205d948fbb06a7613d87dcea0ff5fd8a08ed91 Revert "net/tls: fix tls_sk_proto_close executed repeatedly"
-e34a07c0ae3906f97eb18df50902e2a01c1015b6 sock: redo the psock vs ULP protection check
-12378a5a75e33f34f8586706eb61cca9e6d4690c net: openvswitch: fix parsing of nw_proto for IPv6 fragments
-4f8910e94e0f8d8c83ca622d75969837654434de ice: prevent low-core machines crashing on DCB config
-c44250290357499a63116466c059e9265581bd41 i40e: Fix interface init with MSI interrupts (no MSI-X)
-956832f1c73b004527a85d35d651cb698dfc6490 i40e: Fix dropped jumbo frames statistics
-4eb349eb3ae2e5273a7aae662019e3ea2e7bc738 igc: Reinstate IGC_REMOVED logic and implement it properly
-81604dabeafe4d687adbb164f80e3a376c7f1a99 i40e: Fix VF's MAC Address change on VM
-f8c81746a46154e10e54ebe557414a5b40b3ccd0 ice: handle E822 generic device ID in PLDM header
-bf13990616131a34fdbfe1a645dfe98e380330e8 ice: change devlink code to read NVM in blocks
-c9c35a74de3549a0498ca042b69c80450be05f5a iavf: Fix VLAN_V2 addition/rejection
-187e13ded1e4edc8f090006e06bf5dd3641dd75d iavf: Fix max_rate limiting
-d9f57497eca02edf9d4334d0447c7d9fb7550d0f iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
-db0d2f6bffdb4b241b41e16553905b55d0190b96 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-5e4e0ad559f8c40feba2942add36325bc805a946 iavf: Fix missing state logs
-dd3e027e22523588456f6c97512644c6b72861f4 iavf: Fix reset error handling
-e6676ecff4ea6410aac297ea28250d3d13469ac3 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-ae8aa7436071743b5fc14d266f2c047d290e5cf5 iavf: Fix adminq error handling
-635492cde541e359fd9be8923db41b8b196b0616 iavf: Fix 'tc qdisc show' listing too many queues
+7f72d923149c6355285fbd315c3d81e50993cc31 i40e: Add support for ethtool -s <interface> speed <speed in Mb>
+3e0fcb782a9ff02afcf426b5c84fbeccbdb50fae i40e: Remove unnecessary synchronize_irq() before free_irq()
+56878d49cc26c6587b35515fe621087e26e75e64 intel/i40e: delete if NULL check before dev_kfree_skb
+b1f01b4bd7ad7f642d896cb9d6f82ec34043b612 net: phy: smsc: Deduplicate interrupt acknowledgement upon phy_init_hw()
+a80d8fb70cc7864fd09e5e177627ee38d3a8fbdd net: phy: dp83td510: add SQI support
+22aae52076cd727f28f7dcdc362bf62c3658cf82 mlxsw: Remove lag_vid_valid indication
+21c795f8494a152dbff86c50fe216e610a77bb0f mlxsw: spectrum_switchdev: Pass 'struct mlxsw_sp' to mlxsw_sp_bridge_mdb_mc_enable_sync()
+6e66d2e4b3a20655262569ec394f79a2eee87028 mlxsw: spectrum_switchdev: Do not set 'multicast_enabled' twice
+a6f43b1dad800d816d62dc478e68eb5230a9465c mlxsw: spectrum_switchdev: Simplify mlxsw_sp_port_mc_disabled_set()
+c96a9919c79e61e791c561a9c9c2ce56371866a1 mlxsw: spectrum_switchdev: Add error path in mlxsw_sp_port_mc_disabled_set()
+fd66f5184c28dd07ae7efeb2fa9a93c9c85ba66c mlxsw: spectrum_switchdev: Convert mlxsw_sp_mc_write_mdb_entry() to return int
+0100f840750ceac7c5774b4afca3b145d5631340 mlxsw: spectrum_switchdev: Handle error in mlxsw_sp_bridge_mdb_mc_enable_sync()
+70b34c77f1273f4940f1bc5c3b7d15ee8297073f mlxsw: Add enumerator for 'config_profile.flood_mode'
+89df3c6261f271c550f120b5ccf4d9c5132e870c mlxsw: cmd: Increase 'config_profile.flood_mode' length
+6131d9630d986495fc660a64c0df5fd648569a1b mlxsw: pci: Query resources before and after issuing 'CONFIG_PROFILE' command
+736bf371d2d460c9ded1073e8490be1d294ee177 mlxsw: spectrum_fid: Save 'fid_offset' as part of FID structure
+784763e59225c3baf7d97fbcda5bc7bb0dc77380 mlxsw: spectrum_fid: Use 'fid->fid_offset' when setting VNI
+048fcbb71a0e4d8a30b7bd0a497cd032b25d1186 mlxsw: spectrum_fid: Implement missing operations for rFID and dummy FID
+ffd3018bf7764f139e4378f303e6a97cf6b3687c Merge branch 'mlxsw-unified-bridge-conversion-part-2'
+340c3d337119ea177a98338be2e3bc62ee87ac80 af_unix: Clean up some sock_net() uses.
+f302d180c6d430ea99643b9b2b3407aedaa36703 af_unix: Include the whole hash table size in UNIX_HASH_SIZE.
+b6e811383062f88212082714db849127fa95142c af_unix: Define a per-netns hash table.
+79b05beaa5c340e1649dc7462e056ae33b916131 af_unix: Acquire/Release per-netns hash table's locks.
+cf2f225e2653734e66e91c09e1cbe004bfd3d4a7 af_unix: Put a socket into a per-netns hash table.
+2f7ca90a0188b57a54d3b1159eb7874427a7e07a af_unix: Remove unix_table_locks.
+6dd4142fb5a9d253301132061657b5108d59f673 Merge branch 'af_unix-per-netns-socket-hash'
+d13a3205a7175d673d5080ddf155dc69aad6085c amt: remove unnecessary (void*) conversions
+f0d2ef7f92dc0b36b9d33227a67da8dc3be32088 cxgb4vf: remove unexpected word "the"
+7c0d97e4b6960a97112ad6966a9db5ec2800b6f9 net: ipa: remove unexpected word "the"
+d4667f96f485af809f3f9383d9eadb2650355522 isdn: mISDN: hfcsusb: drop unexpected word "the" in the comments
+a8236dfd8104bc7ba67daec95e32e2c1e18440d1 net: pcs: lynx: use mdiodev accessors
+12cf1b89a66828719b2135891b65bd5d03eedea9 net: phy: Add support for AQR113C EPHY
+c4fceb46add65481ef0dfb79cad24c3c269b4cad raw: remove unused variables from raw6_icmp_error()
+85763435d5b5ed91ce670d87862012a632b54014 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+ccb9bc1dfa444e3541622ccfff135e83d2a569d1 nfp: add 'ethtool --identify' support
 
---===============8187534124230369581==--
+--===============7359421213227255996==--
