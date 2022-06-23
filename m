@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Thu, 23 Jun 2022 16:45:12 -0000
-Message-Id: <165600271216.10268.12376907561626248779@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 16:51:01 -0000
+Message-Id: <165600306189.13613.11834424388822866746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/utils/tuna/tuna
 user: jkacur
 changes:
   - ref: refs/heads/main
-    old: 681304a9a57a9c2b05fcc2cc372e3d921b5ff415
-    new: d02ed73a8bc0b80d7f7eb61fd24c89497c9cacad
+    old: d02ed73a8bc0b80d7f7eb61fd24c89497c9cacad
+    new: c5f281de84f3cd8fcb5514e510b7c063972b8f8b
     log: |
-         d02ed73a8bc0b80d7f7eb61fd24c89497c9cacad tuna: Add missing command line options to man page
+         c5f281de84f3cd8fcb5514e510b7c063972b8f8b tuna: release 0.18
          
