@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7751250811822231071=="
+Content-Type: multipart/mixed; boundary="===============7181249869647046561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Jun 2022 16:43:40 -0000
-Message-Id: <165600262047.7911.6727076217057969022@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 16:43:41 -0000
+Message-Id: <165600262148.7966.3792078448986865999@gitolite.kernel.org>
 
---===============7751250811822231071==
+--===============7181249869647046561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,58 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 7119d4fdfdd36590d4247bd9dcab4b18fb592de8
-    new: 99120abeed34b4814d3c0b4443283075bb65646c
-    log: revlist-7119d4fdfdd3-99120abeed34.txt
+  - ref: refs/heads/linux-5.18.y
+    old: 2638b107943e8f36d34e919c917b40600a8bd51a
+    new: 1fbbb68b1ca97c9e8393fe69df86b23e79f81d05
+    log: revlist-2638b107943e-1fbbb68b1ca9.txt
 
---===============7751250811822231071==
+--===============7181249869647046561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656002619 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656002620 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1656002608-96990438947fc8ef7fb48a48a26a0b07cdd14776
 
-7119d4fdfdd36590d4247bd9dcab4b18fb592de8 99120abeed34b4814d3c0b4443283075bb65646c refs/heads/linux-5.10.y
+2638b107943e8f36d34e919c917b40600a8bd51a 1fbbb68b1ca97c9e8393fe69df86b23e79f81d05 refs/heads/linux-5.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0mDsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j4EQAI7OGvTRaaFqH3VQOJ/e
-7PsJcyE2zXSQMuqfV5lnSu8gMZ0/G4dvJKKuAgo1tK+WN5FmxEzTJTmV4QRI1YXV
-ngB9204D/TazLphV8PcZbxDC/wHu161tcbNX2IJLoBQNL5pl1flKtXOI/l1EoUtq
-uu6xl+Ss95IC8DkkeKOcogNQ7SgvusugyYfZc/1VJJq+UkjuJmQF93VekgyCv+Du
-G6aNAETPBsu1cStazAQIu8S6/W0je/NX925C1hU/8GewDAbvg3JtMEDAjyBkBYVs
-E+OEj9GeclfB4V81qSe6rAYLFW7NvcIRgn7gcvH4QDSntJ+6vJ+5vfmOVvJhHjVR
-qYi6EgqIhwoVaZaaaqOIiAsW/jZAKXfHqgynbuVaorB30dLC0ttZY0CPVfFEMCbN
-LLbeZQoVqUjdZAjMJhey7p7KE/bULWdguiarvG/MYciGdV0iHfyEKoNKR3RqHEIA
-c8Qqvh06+ATU3EuIydk9lHHpxVPWj6QIEaLXsQbyjTJUB7ZlQqxwv4maQwULzR76
-2ObMmr/wNXVy/iQPwB8cLgWQpRWnSuJnP1aO7K9HxIrBVc7tYdZgoeO5KnVWndKV
-m74EYNwdTjE38jIx9oG09PFKxAPN5nDMyvD0inM9ojNvf87hxJERDkLSgxa1fglg
-OZFanA2zeO5c1kq2elKqEzCo
-=Yxd+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0mDwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KDgQAMtbYIMCTf5LN4X7FBjm
+YOpuvId8hiN2y+La6jjiCKiSUeh40l8xZeJEHBvkgBq0Z88p3xHsEaV0mUO3gG7+
+VmSCmnjtaVAt/n9WVRuTdL1bjZrDDAR4sMkuDAq4LMN7u9Ri/3bkLAkVxGptl5YX
+KXcUuFrir2hEy/3sa/jGU5ZmwmsO3s7NwzRxydZZz3rN7q+F2qffZtq1uSvV3CBD
+KfU3JWJ/Y9ocO86SVHeMoWEUoEzsQIJgnD1NhL0Y0huQZkppoAzUquKrSpQN4zey
+CsRR/hicJSMZHdaxn6rMYzZgcLC+tbGAxdOG7fadu3L4bDXq4M6tbj8+lKq9ZTU9
+/8DumvdYralCakWRK4e6j5BND3WS5hA1bzE9tMVnJsnekcoQAehAFhUsh6y3aSZQ
+NVbkWyl/e5BqhCQGLn9LDfHg6oanNlmCB7vGPjoBu4DSPICWIurhfvIk+jUUOIY0
+CpJ+kt2F8B0juUR1Bfchzcgt1u+1nHKlHNuofrV6iqJLbv+mrYARhmsVFEhkT5EY
+4RZ7cz7DzK6ceZt0XVVoB+VaoTvxlT3O7inCqOT6svuio/KJcUuAR6yVa0o2ccTs
+136SOp6ZmR8LF66ZW75SifaXN4YxAmbFcrSekWorAMHB0Zmyyr7ca6WUtmaus8C5
+hyPzZJe4imf7Bx0zTKGOjZlZ
+=hk0g
 -----END PGP SIGNATURE-----
 
---===============7751250811822231071==
+--===============7181249869647046561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7119d4fdfdd3-99120abeed34.txt
+Content-Disposition: attachment; filename=revlist-2638b107943e-1fbbb68b1ca9.txt
 
-74b21047df17ff70abc1cab09c334f0da35749da s390/mm: use non-quiescing sske for KVM switch to keyed guest
-fdcf936c39116174e08d2e0a88a62d85893737e6 zonefs: fix zonefs_iomap_begin() for reads
-8b70c37442323a6a475fa5e0c22b4a8c860cc367 usb: gadget: u_ether: fix regression in setting fixed MAC address
-a462c07b79a140c6b0cec74c99510a7b65fff6c3 tcp: add some entropy in __inet_hash_connect()
-fff8629ff3fc4c0fc77dfa3402bd9be43ce9284e tcp: use different parts of the port_offset for index and offset
-d73dbdccd56b48396d695e626c9362e0099a29d3 tcp: add small random increments to the source port
-9fb82a01a9dbc5a1a1267bcb514dd1979122e9a0 tcp: dynamically allocate the perturb table used by source ports
-e5998c3654371057bec2a99511702bb15506f39b tcp: increase source port perturb table to 2^16
-872f90d1c3ea736d42dd8d54193b1a5c753853ac tcp: drop the hash_32() part from the index calculation
-2b0ba490d4196d76529d686a5aa87c9c3708af18 serial: core: Initialize rs485 RTS polarity already on probe
-497004d874cda43fe88e4ee45d9bc51df42750d7 arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
-99120abeed34b4814d3c0b4443283075bb65646c Linux 5.10.125-rc1
+7d854464fc643833c5ad37acece1d275a8fef830 s390/mm: use non-quiescing sske for KVM switch to keyed guest
+ae9d56ce04439cb6b4965c7b2b9b36c15cefa5b1 zonefs: fix zonefs_iomap_begin() for reads
+7e2012cf2230a65021c61fe54581f216118ed029 wifi: rtlwifi: remove always-true condition pointed out by GCC 12
+bc78f0b9e2295fe27a25daed6a54d8a9f6c2cf9b eth: sun: cassini: remove dead code
+1e2cd5b2776683f50eabc2c1f110e2b0b3cb18be net: wwan: iosm: remove pointless null check
+2de87a03e0fa644aa559ed66933e602aace02849 x86/boot: Wrap literal addresses in absolute_pointer()
+7b938172c892cc5832a83d61f61deeb440dd8562 fsnotify: introduce mark type iterator
+000e5452a700d1e35036907ccd9f274158b9ed4c fsnotify: consistent behavior for parent not watching children
+6434c3c9373437cb44dfa342907a67a1416cc37d bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
+ccd461cf0d9528f8883e5830a43138b3a7bca890 selftests/bpf: Add selftest for calling global functions from freplace
+b3ea9454f74cef628b73f8f25923f627371b8e1a dt-bindings: nvmem: sfp: Add clock properties
+1fbbb68b1ca97c9e8393fe69df86b23e79f81d05 Linux 5.18.7-rc1
 
---===============7751250811822231071==--
+--===============7181249869647046561==--
