@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4867354001068967349=="
+Content-Type: multipart/mixed; boundary="===============4169767462077292101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 23 Jun 2022 14:26:22 -0000
-Message-Id: <165599438266.9690.12610325448197644300@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 14:27:43 -0000
+Message-Id: <165599446362.10204.8772145286768290848@gitolite.kernel.org>
 
---===============4867354001068967349==
+--===============4169767462077292101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 9ef165406308515dcf2e3f6e97b39a1c56d86db5
-    new: 2bdc2bcd9a759613d6340c4a0b7f5d3b7a1a71a2
+    old: 2bdc2bcd9a759613d6340c4a0b7f5d3b7a1a71a2
+    new: 8ffdc53a60049f3930afe161dc51c67959c8d83d
     log: |
-         342fc0c3b345525da21112bd0478a0dc741598ea USB: serial: option: add Telit LE910Cx 0x1250 composition
-         ae60aac59a9ad8ab64a4b07de509a534a75b6bac USB: serial: pl2303: add support for more HXN (G) types
-         33b29dbb39bcbd0a96e440646396bbf670b914fa USB: serial: option: add Quectel EM05-G modem
-         15b694e96c31807d8515aacfa687a1e8a4fbbadc USB: serial: option: add Quectel RM500K module support
-         2bdc2bcd9a759613d6340c4a0b7f5d3b7a1a71a2 Merge tag 'usb-serial-5.19-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         a808925075fb750804a60ff0710614466c396db4 xhci: Keep interrupt disabled in initialization until host is running.
+         83810f84ecf11dfc5a9414a8b762c3501b328185 xhci: turn off port power in shutdown
+         7516da47a349e74de623243a27f9b8a91446bf4f xhci-pci: Allow host runtime PM as default for Intel Raptor Lake xHCI
+         8ffdc53a60049f3930afe161dc51c67959c8d83d xhci-pci: Allow host runtime PM as default for Intel Meteor Lake xHCI
          
 
---===============4867354001068967349==
+--===============4169767462077292101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655994381 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655994462 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1655994381-626afd3d99e3445e729a598be54edb81f34bd702
+nonce 1655994461-5b43dd524c3850658b243e5aad68f43e1e7dd255
 
-9ef165406308515dcf2e3f6e97b39a1c56d86db5 2bdc2bcd9a759613d6340c4a0b7f5d3b7a1a71a2 refs/heads/usb-linus
+2bdc2bcd9a759613d6340c4a0b7f5d3b7a1a71a2 8ffdc53a60049f3930afe161dc51c67959c8d83d refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0eA0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P6UP/1M66FsAU3sVmDvKrpcs
-TKDXyfTFRdFnpUHbTY2kf9caQcA+o1CcXfcxEUW3J7iWVB0aa3VlbkO7TqZBf0B0
-/lN59DQK4vwZet66kdnHAjfVVdJF3wgZKqM7J//KQhRKVc+PmV6mZj3QKluvqDsq
-uvnLceZ35oaKCKD30PjCev91YvCNqeodGKf4r90EMWp3ywjDmg3G+tl/Q1aYGXWJ
-ZwhcRyYUh/Z8m6IiTXXYKQPE/qUJvZg6gzqY1cL2wG4XlQDiuE9hOC+Bx0KmYw1f
-+wKaJjOdDlX0Q1+5b2q++7yEQQzAk/ehXUSkq/b2xAf82LhzHhF8oC2zBK7sUoda
-P3cJlvKGvc1VXHwYUAeojZlN2U9tnO3uJROeVNu1itpesi1sb4wF7GQV8m/PsDb4
-7a3J4jLDhO3Fw+a6wDDLj/PTvCD+Kn66Wi18RIufmM13yc9Xp8aJae5chTOt9vUO
-IbATOBxDDi3JAjLWbA7cjkFBzZbjMx7VfWm2aB5yf4ZChpAxTPSa0XlAgSx92UXg
-LzAlxS8vKBF3zwH29bGo00oXG0wRq+AyJXehG8pKQtRusYHcmaTfuQd52rnK2rx7
-QcX95YRDen8yQsmi9Cf7Ar/kAq3JMFWk19JbW92WDlZ2jJ3cXVBiOBbYPkdyTcFM
-+GJ4Kg5/5rNtJkQGXPqGls1u
-=ccGs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0eF4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jm8QAKtjkNIG66FQFfsK0M9j
+YST4YHZ4DR+rzj6dpBivy0qgh9aD3LN6xqbkj4IZXFKVfTa8ry2Nevw2dJEE/Zai
+SCHYoQCZqDsL94L+i4o7CxlLJVo4asK5EzyUIqJduPYJJJLBld2cAMbJMTV8j2ru
+6faqDdD8Zyu39V/OVem06f6O2rS+kJrCAJW+ql1EBWYhy3Uy6zsR8PaMUskZwgiV
+BW05p79HEkT5FO5z24rLI3AyY3Etyv+C/2IKyT1pRsUKjEc3h4S3Ie6M2jW1AUxs
+gvJg7bdDjJoqAO2KL11tLOe6GTQNN5jPMv9au0W2mMawfKuawrwTkLJkZCuObWM3
+JLmdbPJw2jKl7c5Xni9Ejh/ZumzliPg/ceCKXrVq/xfWHipxVkNolNw0ukJXrMpz
+VO53q9eZ1W/iB+G+VE6TrlpJWQ9/LN5WHsYKc9xL7AM1w4LKqLIZX+HIli2wIa1A
+ymQ7Nu4XyrBLskU7EoM6b/ZLoqENdTmMzpA7AqJ7uWu6FrACz/ER6SNP+XfNtnSG
+UuCGzDwS5dUTNtdMyMl62xl8Nk3M96oHm7SF8JBKF+pvXGjRp2ioBHMvmNG/g0dh
+3DXYXwAfDijYZMRBGXwOMEh0dFScYMmSH4oTRIQerdc7EMJVmZcQpkVJxAqkHprk
+Z8HV4xvT77qU231wQscrRBYS
+=CshL
 -----END PGP SIGNATURE-----
 
---===============4867354001068967349==--
+--===============4169767462077292101==--
