@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8679912249691032053=="
+Content-Type: multipart/mixed; boundary="===============8191351492524590114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 23 Jun 2022 05:28:01 -0000
-Message-Id: <165596208108.1623.5925002595927115748@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 05:29:02 -0000
+Message-Id: <165596214286.2062.2305246220524707704@gitolite.kernel.org>
 
---===============8679912249691032053==
+--===============8191351492524590114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,66 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/next
-    old: 34e37b4c432cd0f1842b352fde4b8878b4166888
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-34e37b4c432c-a111daf0c53a.txt
+  - ref: refs/heads/preview
+    old: 9c642abd8b31d895f34186bd72b7360083b58492
+    new: b2d4fd5c97b59f622e6c45ac51020cdcd66bb022
+    log: revlist-9c642abd8b31-b2d4fd5c97b5.txt
 
---===============8679912249691032053==
+--===============8191351492524590114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34e37b4c432c-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-9c642abd8b31-b2d4fd5c97b5.txt
 
-0078ad905dc8eada34461312a0060b0904c57e2d net/vdpa: Use readers/writers semaphore instead of vdpa_dev_mutex
-a6a51adc6e8aafebfe0c4beb80e99694ea562b40 net/vdpa: Use readers/writers semaphore instead of cf_mutex
-1892a3d425bf525ac98d6d3534035e6ed2bfab50 vdpa/mlx5: Add support for reading descriptor statistics
-759ae7f9bf1e6b7f5c9c197d7207e2be1dfd74b1 vdpa/mlx5: Use readers/writers semaphore instead of mutex
-4e0400525691d0e676dbe002641f9a61261f1e1b virtio-blk: support polling I/O
-0e9911fa768f32f30e5678512ea405d99a7a9fef virtio-blk: support mq_ops->queue_rqs()
-35c51e093d956f6d058e193711c8d424817a44a9 virtio_ring: remove unnecessary to_vvq call in vring hot path
-b4b4ff73ef047556e81694174bb8561457f25eeb virtio_ring: add unlikely annotation for free descs check
-175d493c3c3e09a3abaa843068fae0f0ad42c47e vhost: move the backend feature bits to vhost_types.h
-ea239a67461a34839e2172ead3043295a9173389 virtio-vdpa: don't set callback if virtio doesn't need it
-ae967246d0997a684093ffc06a14999292ad9276 vhost-vdpa: passing iotlb to IOMMU mapping helpers
-0b7ee47c5f36634926def0142a515eafedc8a779 vhost-vdpa: switch to use vhost-vdpa specific IOTLB
-d4821902e43453b85b31329441a9f6ac071228a8 vdpa: introduce virtqueue groups
-db9adcbf4286ad1c1fca091a870db6e49bb0df07 vdpa: multiple address spaces support
-46d554b1bcd19133401d2d5c0728b85e7bfd1358 vdpa: introduce config operations for associating ASID to a virtqueue group
-1cb108994c6830cc6a6e066ad7d9a22ef59fa167 vhost_iotlb: split out IOTLB initialization
-91233ad711866f4e375742d84ef3ed6aab9daa96 vhost: support ASID in IOTLB API
-3d5698793897a2b9c0060d899881d1a0591630d5 vhost-vdpa: introduce asid based IOTLB
-3ace88bd37436abc84906312146fe5158a469142 vhost-vdpa: introduce uAPI to get the number of virtqueue groups
-a0c95f201170bd559737d3cdc8a950aea62f29c6 vhost-vdpa: introduce uAPI to get the number of address spaces
-2d1fcb7758e49fd9caf150f3c70804b95b2ce80c vhost-vdpa: uAPI to get virtqueue group id
-84d7c8fd3aade2fe79313003ed06ede431ec2a6d vhost-vdpa: introduce uAPI to set group ASID
-aaca8373c4b1e010b8d748fc99d929de1bf860b8 vhost-vdpa: support ASID based IOTLB API
-05b6976212d4cffde60ff53716c40809ebdf4aee vdpa_sim: advertise VIRTIO_NET_F_MTU
-ec103d983bb56037a147dcdd9798cfa4fcdab126 vdpa_sim: factor out buffer completion logic
-cfe226892913a448e83e7a19db93862baa3cb99c vdpa_sim: filter destination mac address
-bda324fd037a6b0d44da5699574ce741ca161bc4 vdpasim: control virtqueue support
-7a836a2aba09479c8e71fa43249eecc4af945f61 virtio: pci: Fix an error handling path in vp_modern_probe()
-7e415282b41bf0d15c6e0fe268f822d9b083f2f7 virtio-pci: Remove wrong address verification in vp_del_vqs()
-6fd763d155860eb7ea3a93c8b3bf926940ffa3fb virtio-crypto: change code style
-0756ad15b1fef287d4d8fa11bc36ea77a5c42e4a virtio-crypto: use private buffer for control request
-977231e8d45657871a86fe3c7bed94921d04e447 virtio-crypto: wait ctrl queue instead of busy polling
-a36bd0ad9fbf69d0d711b1c105954ce8d6cc144a virtio-crypto: adjust dst_len at ops callback
-4e0d352af04cf4e019d3e45229eaaff9e8ffb33d virtio-crypto: enable retry for virtio-crypto-dev
-3153234097f6a0d06981565eb3eec3cb37dea8f8 virtio: Replace unsigned with unsigned int
-0619eda83d905a9e8eedfb5699d6f520f901281c virtio: Replace long long int with long long
-ffbda8e9df10d1784d5427ec199e7d8308e3763f vdpa/vp_vdpa : add vdpa tool support in vp_vdpa
-ac33f84ba5ffcc6c8a4c3ee98c92f722feb64f43 vDPA/ifcvf: fix uninitialized config_vector warning
-242436973831aa97e8ce19533c6c912ea8def31b vdpasim: allow to enable a vq repeatedly
-2536b2ca15418c517e3629cc3dd757f811ce52b2 virtio: use virtio_device_ready() in virtio_device_restore()
-0aa96837c3ded5de58782a07b88176f2f1d01404 virtio: use virtio_reset_device() when possible
-48b69959a8559db5df78661d9c6d5138c2f20871 virtio: introduce config op to synchronize vring callbacks
-48b3dd24382139a239a43bca7c1c632438d1dfb2 virtio-pci: implement synchronize_cbs()
-9e9b2893284fa0681ab5c0632d02214385a174c3 virtio-mmio: implement synchronize_cbs()
-3a232277c1ac6df70552129a9722abc6ab250128 virtio-ccw: implement synchronize_cbs()
-be83f04d2529e8dc4273efdd1ccf7b7502741071 virtio: allow to unbreak virtqueue
-8b4ec69d7e098a7ddf832e1e7840de53ed474c77 virtio: harden vring IRQ
-619e9e14ba3c97a80776c0b5a68a01caa41dd148 virtio: use WARN_ON() to warning illegal status value
-4f58afd6eb177a75dec61c65fdc72db31db93c82 virtio: Directly use ida_alloc()/free()
 1f97b9785076d32fbabb8fa23889f9969c84118d vdpasim: Off by one in vdpasim_set_group_asid()
 f4a8686ec7a34f940d36784872036fbacb1b4623 vhost-vdpa: return -EFAULT on copy_to_user() failure
 6fcf224c379f07c73fb972007c93db8c05d930d7 vhost: get rid of vhost_poll_flush() wrapper
@@ -1050,5 +1001,54 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+f6f0dab5efe4fcabe726f9218a0b3000fee0fa8a MAINTAINERS: Update Ben's email address
+db9a3a35d31ea337331f0e6e07e04bcd52642894 cxl: Fix cleanup of port devices on failure to probe driver.
+8ae3cebc1704b9a3ab8398dc7820c37183026bbc cxl/core: Use is_endpoint_decoder
+8a66487506161dbc1d22fd154d2de0244e232040 cxl/mbox: Use __le32 in get,set_lsa mailbox structures
+86eb63d8aea67435d8436f4d42ad633533a51554 tools/testing/cxl: Fix cxl_hdm_decode_init() calling convention
+4f0daee882f9c7b9eda7a011e1ee81c5fce94223 cxl/port: Keep port->uport valid for the entire life of a port
+55edeb66cb6d74f846742aa8ceb120a8f0b9994a cxl/hdm: Use local hdm variable
+96b97c2adb8f7257e23a0bde614346f7a1d1499c cxl/core: Rename ->decoder_range ->hpa_range
+1fa64789cccd0945345ef7df0de77a517763915f cxl/core: Drop ->platform_res attribute for root decoders
+e1c24e2ea01761d94bd327816c688aea7502db29 cxl/core: Drop is_cxl_decoder()
+53480378688f13e6b71761d61659c9019c42b752 cxl: Introduce cxl_to_{ways,granularity}
+039b0279d5b4c75ff45dc513c1f5de434e7a5782 cxl/core: Define a 'struct cxl_switch_decoder'
+c199166c49d5425239af8ac639af7c2b54a999a0 cxl/acpi: Track CXL resources in iomem_resource
+43d16d6bddc23f2b3a479664b2c70f8587c3465d cxl/core: Define a 'struct cxl_root_decoder' for tracking CXL window resources
+0113f331737533f4f90e20ac55c32f8bffdba52b cxl/core: Define a 'struct cxl_endpoint_decoder' for tracking DPA resources
+f8677830afd8e16462921cc2026134f56a26ef4c cxl/mem: Convert partition-info to resources
+f6ce9d5611e398b6cb74b4c0f58c5e04d71c75e5 cxl/hdm: Require all decoders to be enumerated
+0a2c2b8e6a5efef3d334cb9bd223275e96fff224 cxl/hdm: Enumerate allocated DPA
+0539b996726194d7857e83cf54425b416e7193e0 cxl/Documentation: List attribute permissions
+e24577cbdf166826d4b3f9d48883e28e17db8659 cxl/hdm: Add 'mode' attribute to decoder objects
+48943d052f1decb59b928f8d6a0ba05ac8bb906e cxl/hdm: Track next decoder to allocate
+980e010afd0091fb07e9dff0a744acd87ba46ec2 cxl/hdm: Add support for allocating DPA to an endpoint decoder
+593a4554e8ae90ad35463b947e138455577ff4b4 cxl/debug: Move debugfs init to cxl_core_init()
+6c414b116a0e79e7feab1744980cc03b8ce3c3e6 cxl/mem: Add a debugfs version of 'iomem' for DPA, 'dpamem'
+36fd03590c3721427e228650b86eb4168a7e7566 tools/testing/cxl: Move cxl_test resources to the top of memory
+04530af000a38d1d49471dfb7cb216029940efc8 tools/testing/cxl: Expand CFMWS windows
+28a6714462f4c742571cdcbb0a5d76c83ad4ec9f tools/testing/cxl: Add partition support
+0a989165caf872b02b8e488556994aac6b1be456 tools/testing/cxl: Fix decoder default state
+0aacd6d6328ae2fa289346558eb38c79e8395bff cxl/port: Record dport in endpoint references
+991a3143b066b6fd8425b58f6394f6e7ab55ce39 cxl/port: Record parent dport when adding ports
+61a45cc02b7298df47dfa2a49a9ff98c2d25f98b cxl/port: Move 'cxl_ep' references to an xarray per port
+9a0029d60c776f603c4514b9240c04b8516e4312 cxl/port: Move dport tracking to an xarray
+07f0a4e65dcada6a59a3d594d52b86af7e4bc837 cxl/port: Cache CXL host bridge data
+85c72e861c9070439d61f8efea20c78ea9b4b2d4 cxl/hdm: Add sysfs attributes for interleave ways + granularity
+c5693daa3aaa61c0238ed5a5478407b4ebab3ca6 cxl/hdm: Initialize decoder type for memory expander devices
+3b66891c78fd386c5f08730bd5b7cd33339a1e66 cxl/mem: Enumerate port targets before adding endpoints
+6f2443c3ffee6675ef14a4b1256400a9c8a652ca resource: Introduce alloc_free_mem_region()
+e4b2a6ac46c3288f73b88e0aa69afd2a815930d7 cxl/region: Add region creation support
+3c76c446e172dc2830aeafea750d8e167f075661 cxl/region: Add a 'uuid' attribute
+e1d0c12dff707a0e5dc88830eb9afd44cb6e1b7e cxl/region: Add interleave ways attribute
+96ec07f789bf8a52f5c00d3310d9b7ec4c701738 cxl/region: Allocate host physical address (HPA) capacity to new regions
+26b65f41272efb6f9c691f56f02fe4159985d187 cxl/region: Enable the assignment of endpoint decoders to regions
+0efa7f8c6357b4a745f2ee5d9998760525d472c8 cxl/acpi: Add a host-bridge index lookup mechanism
+e7087942d399ea320cc240261d0cece5be29e068 cxl/region: Attach endpoint decoders
+d7b154aa217a8e0f6ae06686eb1ecb050f168c1c cxl/region: Program target lists
+56406e79baa7cc432d4178f9071746a5ca1eaab2 cxl/hdm: Commit decoder state to hardware
+feed7426434db705269ed645f6380e4e2784a77d cxl/region: Add region driver boiler plate
+ba1049a2526bb236008baf7c9b057585d30a1501 cxl/pmem: Fix offline_nvdimm_bus() to offline by bridge
+b2d4fd5c97b59f622e6c45ac51020cdcd66bb022 cxl/region: Introduce cxl_pmem_region objects
 
---===============8679912249691032053==--
+--===============8191351492524590114==--
