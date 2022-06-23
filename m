@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3848037394867643331=="
+Content-Type: multipart/mixed; boundary="===============9201007711785506234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 23 Jun 2022 15:30:15 -0000
-Message-Id: <165599821528.20091.17853155015170245485@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 15:30:39 -0000
+Message-Id: <165599823940.20309.10864604068336438465@gitolite.kernel.org>
 
---===============3848037394867643331==
+--===============9201007711785506234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/fixes
     old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-f2906aa86338-a111daf0c53a.txt
+    new: 21e876448792af2dd5261338907c72bdf37fa056
+    log: revlist-f2906aa86338-21e876448792.txt
 
---===============3848037394867643331==
+--===============9201007711785506234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-21e876448792.txt
 
 4419470191386456e0b8ed4eb06a70b0021798a6 Documentation: Add documentation for Processor MMIO Stale Data
 51802186158c74a0304f51ab963e7c2b3a2b046f x86/speculation/mmio: Enumerate Processor MMIO Stale Data bug
@@ -666,5 +666,10 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+cc02e6e21aa5f2ac0defe8c15e5a9d024da6e73d s390/crash: add missing iterator advance in copy_oldmem_page()
+af2debd58bd769e38f538143f0d332e15d753396 s390/crash: make copy_oldmem_page() return number of bytes copied
+be857b7f77d130dbbd47c91fc35198b040f35865 s390/cpumf: Handle events cycles and instructions identical
+541a496644512ebed429b33f19a3fadfb19c6ee7 s390/pai: Prevent invalid event number for pai_crypto PMU
+21e876448792af2dd5261338907c72bdf37fa056 s390/pai: Fix multiple concurrent event installation
 
---===============3848037394867643331==--
+--===============9201007711785506234==--
