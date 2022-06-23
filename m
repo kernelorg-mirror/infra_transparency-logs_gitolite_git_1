@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 23 Jun 2022 23:47:46 -0000
-Message-Id: <165602806651.28859.11955273836898100925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 23 Jun 2022 23:50:26 -0000
+Message-Id: <165602822668.31273.6651892925048270413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/fs.idmapped.vfsuid
-    old: 2d17f0e44c121c1e2605165e99037ccf29a7cd6e
-    new: fc643cb39fc6ed2e92906e3b19db2e7acbdb9c65
+  - ref: refs/heads/master
+    old: d7136483c357531742a3ece42a99f4098a4b9e55
+    new: 16739cb4e61150712be961ccca1390c586a49631
     log: |
-         fc643cb39fc6ed2e92906e3b19db2e7acbdb9c65 attr: port attribute changes to new types
+         16739cb4e61150712be961ccca1390c586a49631 eap: Fix EAP-Success handling
          
