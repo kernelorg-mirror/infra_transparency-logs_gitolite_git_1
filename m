@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 22 Jun 2022 23:59:00 -0000
-Message-Id: <165594234013.10323.12481937031578334855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 23 Jun 2022 00:06:21 -0000
+Message-Id: <165594278183.15557.5645802714826987418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: d43ec1b014c4b37bc3ecbff0b2f0cea56638489c
-    new: d7136483c357531742a3ece42a99f4098a4b9e55
+    old: e76ed7e9540e650b40962213c62e4fd06d3c211e
+    new: 105037ef60048a546ba184f1d556c002056033b1
     log: |
-         d7136483c357531742a3ece42a99f4098a4b9e55 auto-t: fix timing issue in testEncryptedProfiles
+         30aed64bfc8a521c290db1d2e3d6274372cbc339 foo
+         105037ef60048a546ba184f1d556c002056033b1 Merge branch 'master' of gitolite.kernel.org:pub/scm/linux/kernel/git/akpm/25-new
          
