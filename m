@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1496716183767423790=="
+Content-Type: multipart/mixed; boundary="===============7751250811822231071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 Jun 2022 16:43:32 -0000
-Message-Id: <165600261265.7796.14812995707688799760@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 16:43:40 -0000
+Message-Id: <165600262047.7911.6727076217057969022@gitolite.kernel.org>
 
---===============1496716183767423790==
+--===============7751250811822231071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,58 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: a814aa24673909f9dc7ab22d90d58cef07910c97
-    new: add0aacf730e0bba8de6382b896a9a55b022cb59
-    log: |
-         a1f41a58df4bfb4aece8118586a25784b5dc585b s390/mm: use non-quiescing sske for KVM switch to keyed guest
-         11fc263a355d56ccde9e9d1be4c4c621799507ef drm/amd/display: Don't reinitialize DMCUB on s0ix resume
-         c6c94560e0fde372934b76b035209e6f71565076 net: mana: Add handling of CQE_RX_TRUNCATED
-         0482736a1212564bbe3618e863ea7fe555936eb0 zonefs: fix zonefs_iomap_begin() for reads
-         44f039f3c0aa408052b0e0c49531ce57b602b724 usb: gadget: u_ether: fix regression in setting fixed MAC address
-         f12111bca38604d5fce489a36cdaaa33aa6e7222 bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
-         27824a7e91ead7fe8e2ba6e358322d0b0722ab71 selftests/bpf: Add selftest for calling global functions from freplace
-         4af30cd5ca661febad81dd3a06f183440cee18b2 serial: core: Initialize rs485 RTS polarity already on probe
-         346d231d5fcbb5384a280b66094c245941ed207d arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
-         add0aacf730e0bba8de6382b896a9a55b022cb59 Linux 5.15.50-rc1
-         
+  - ref: refs/heads/linux-5.10.y
+    old: 7119d4fdfdd36590d4247bd9dcab4b18fb592de8
+    new: 99120abeed34b4814d3c0b4443283075bb65646c
+    log: revlist-7119d4fdfdd3-99120abeed34.txt
 
---===============1496716183767423790==
+--===============7751250811822231071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656002611 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656002619 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1656002608-96990438947fc8ef7fb48a48a26a0b07cdd14776
 
-a814aa24673909f9dc7ab22d90d58cef07910c97 add0aacf730e0bba8de6382b896a9a55b022cb59 refs/heads/linux-5.15.y
+7119d4fdfdd36590d4247bd9dcab4b18fb592de8 99120abeed34b4814d3c0b4443283075bb65646c refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0mDMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3gUQAMO5s9aXPmXYT9Gy/xan
-n3XgAtu/hjkFdgwzl0bm35+vgKgvk8og31ZC6DpPxlsTgpiuJD5hhtJWkfHXmVI/
-cgiazhiU3+eFhToZdvUez6kOGG0lwCxeDX+W9+ddesiO+CUJMB0gc/RS796hpoNI
-yUNhX+PTe9B+Fcvd1cNayIJeeZrB16S6LdNNtBVGn7fcjRyVnARJJ97VQEKlVUnp
-roCMFbns9xKGYiJ6aWcUrj2itFjFqTQsm2+WREdzWQzJG/E+azTsqT52y4MALjJd
-LGPjEnU730kDaiNWFumNjxwxuL3dVSIKAI7n3VhpQJTFzUW7XrwnBEEW+hdjB98M
-eVo8xzGY1D9BbO55T2UIaSOn56fqcjtQLUWMaYalcF1rM9JEVvFLDaR/D1JomL29
-IOQ95f1XJJHIt2TjeRpj1ZW4rmsNfIKJCDxZ5P03xTauEjdn1a3I4aWDtLNXbwoa
-bBDAF49ZQnQiC2mlIHgnhrLWETFHiS8ffR0n+lwNhAQXMcKgcNqKMTFtVUZnY1u0
-EjB1Ugp4qqb0QR0AlRh2ntMTIMIumWGfzmmeSCnNTtCgGbQRp40KkhtOC650agCE
-UqYcga4yN/dzR8aWKuLpPyDHQ1KbRGPuAfu7HsFqL868ISL6vPIJ5IuAeETqRUoc
-JGMFOOgq4Eagn6QnkdCMU3lG
-=NM3L
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0mDsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j4EQAI7OGvTRaaFqH3VQOJ/e
+7PsJcyE2zXSQMuqfV5lnSu8gMZ0/G4dvJKKuAgo1tK+WN5FmxEzTJTmV4QRI1YXV
+ngB9204D/TazLphV8PcZbxDC/wHu161tcbNX2IJLoBQNL5pl1flKtXOI/l1EoUtq
+uu6xl+Ss95IC8DkkeKOcogNQ7SgvusugyYfZc/1VJJq+UkjuJmQF93VekgyCv+Du
+G6aNAETPBsu1cStazAQIu8S6/W0je/NX925C1hU/8GewDAbvg3JtMEDAjyBkBYVs
+E+OEj9GeclfB4V81qSe6rAYLFW7NvcIRgn7gcvH4QDSntJ+6vJ+5vfmOVvJhHjVR
+qYi6EgqIhwoVaZaaaqOIiAsW/jZAKXfHqgynbuVaorB30dLC0ttZY0CPVfFEMCbN
+LLbeZQoVqUjdZAjMJhey7p7KE/bULWdguiarvG/MYciGdV0iHfyEKoNKR3RqHEIA
+c8Qqvh06+ATU3EuIydk9lHHpxVPWj6QIEaLXsQbyjTJUB7ZlQqxwv4maQwULzR76
+2ObMmr/wNXVy/iQPwB8cLgWQpRWnSuJnP1aO7K9HxIrBVc7tYdZgoeO5KnVWndKV
+m74EYNwdTjE38jIx9oG09PFKxAPN5nDMyvD0inM9ojNvf87hxJERDkLSgxa1fglg
+OZFanA2zeO5c1kq2elKqEzCo
+=Yxd+
 -----END PGP SIGNATURE-----
 
---===============1496716183767423790==--
+--===============7751250811822231071==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7119d4fdfdd3-99120abeed34.txt
+
+74b21047df17ff70abc1cab09c334f0da35749da s390/mm: use non-quiescing sske for KVM switch to keyed guest
+fdcf936c39116174e08d2e0a88a62d85893737e6 zonefs: fix zonefs_iomap_begin() for reads
+8b70c37442323a6a475fa5e0c22b4a8c860cc367 usb: gadget: u_ether: fix regression in setting fixed MAC address
+a462c07b79a140c6b0cec74c99510a7b65fff6c3 tcp: add some entropy in __inet_hash_connect()
+fff8629ff3fc4c0fc77dfa3402bd9be43ce9284e tcp: use different parts of the port_offset for index and offset
+d73dbdccd56b48396d695e626c9362e0099a29d3 tcp: add small random increments to the source port
+9fb82a01a9dbc5a1a1267bcb514dd1979122e9a0 tcp: dynamically allocate the perturb table used by source ports
+e5998c3654371057bec2a99511702bb15506f39b tcp: increase source port perturb table to 2^16
+872f90d1c3ea736d42dd8d54193b1a5c753853ac tcp: drop the hash_32() part from the index calculation
+2b0ba490d4196d76529d686a5aa87c9c3708af18 serial: core: Initialize rs485 RTS polarity already on probe
+497004d874cda43fe88e4ee45d9bc51df42750d7 arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
+99120abeed34b4814d3c0b4443283075bb65646c Linux 5.10.125-rc1
+
+--===============7751250811822231071==--
