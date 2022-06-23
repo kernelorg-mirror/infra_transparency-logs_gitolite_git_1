@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0801228882945588014=="
+Content-Type: multipart/mixed; boundary="===============7561496667283810082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 23 Jun 2022 13:23:18 -0000
-Message-Id: <165599059889.32526.11119173869625745069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 23 Jun 2022 13:23:24 -0000
+Message-Id: <165599060486.32661.15666996540735363114@gitolite.kernel.org>
 
---===============0801228882945588014==
+--===============7561496667283810082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/regulator-5.20
     old: 8c92d9221d47ea97534888e2975ecd54896718d8
     new: c0216c0e68f736d20ac02bbaaaf4a216c10e53af
     log: |
          c0216c0e68f736d20ac02bbaaaf4a216c10e53af regulator: rt5120: Add PMIC regulator support
          
 
---===============0801228882945588014==
+--===============7561496667283810082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1655990597 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1655990597-23f38a2bebd10b8dc7a077cd8f264e2c01322fcb
+pusher C3F436CA30F5D8EB 1655990603 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1655990603-68ca235b9d38f5cb11351938494be3d6b02dd17f
 
-8c92d9221d47ea97534888e2975ecd54896718d8 c0216c0e68f736d20ac02bbaaaf4a216c10e53af refs/heads/for-5.20
+8c92d9221d47ea97534888e2975ecd54896718d8 c0216c0e68f736d20ac02bbaaaf4a216c10e53af refs/heads/regulator-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK0aUUACgkQJNaLcl1U
-h9BZ8Qf+NrADPfXfT+8i6Jgvjo4APhIdrqbqjXuvKY/IA9WaeUmFphMpq4XxMKc0
-WW02YJUsh+QeXP8KwXZq0QpnoKrzBKxtK4VNSWAWbQSYovOu75tLYuq27kK96fLn
-qk5Gbab5DpC4mzeMPi4JLCvTxYyfV68070SzaQQxxE2hf7oy1kxrKGN4Cxc83jcX
-Fs0otC7S+rDi18OfJUIbQMOCImZSDvN8+6Zzf2u1KUFO5sMgpKj6vypBUr52g43f
-+lAmDvAtljHz0NiKvclwgpPt85/fZ9FSbvJjYB3v383wzCWIqCvg82Rc9KeZMjGy
-IZg6Qr8wGPDYc2Ynvfo7lF7AanEpPA==
-=ZAaW
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK0aUsACgkQJNaLcl1U
+h9ATUwf2OrH1NZKWHsr/dEQJBvWlXRzYmJWbIR3GE8kjET/FzqaNsHB30XFPefGg
+syCqqv5OhcM9gtqJcK6q8NPRquAXf5nVN28vsGsEt8gCorccT1pLsdvzRUcmmCeq
+vYxir7smxxMkRnUSHl0P3hmgfLWJ/9v+FWkCsESpI7gkjf5uIsPuKcYKWjW5GjSi
+cIn6fE6QPn/wycgQgFk/jIOy95np6iPJK1S9Cf1lwow8gC/6Gk2gObp7ByTpYYWa
+bhQd7H6hKzt+3YyuVRTkb/gBYuJ3VU4GofE+8Wx3pL7+Y1RffZ9TPSi7tGMcun/b
+85BiVHKi4x6aZum+frEBM+bW5Bx5
+=oJl0
 -----END PGP SIGNATURE-----
 
---===============0801228882945588014==--
+--===============7561496667283810082==--
