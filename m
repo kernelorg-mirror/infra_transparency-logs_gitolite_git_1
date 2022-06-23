@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4587998721608852820=="
+Content-Type: multipart/mixed; boundary="===============1891603151887160210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Thu, 23 Jun 2022 04:52:09 -0000
-Message-Id: <165595992945.11575.8075195090387773341@gitolite.kernel.org>
+Date: Thu, 23 Jun 2022 04:52:14 -0000
+Message-Id: <165595993410.11685.10945904996577691380@gitolite.kernel.org>
 
---===============4587998721608852820==
+--===============1891603151887160210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dennis/percpu
 user: dennis
 changes:
-  - ref: refs/heads/master
-    old: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/for-next
+    old: 4e1f82dce05b644d6886d5b3656446d8ec50db20
     new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-312310928417-a111daf0c53a.txt
+    log: revlist-4e1f82dce05b-a111daf0c53a.txt
 
---===============4587998721608852820==
+--===============1891603151887160210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-4e1f82dce05b-a111daf0c53a.txt
 
 0078ad905dc8eada34461312a0060b0904c57e2d net/vdpa: Use readers/writers semaphore instead of vdpa_dev_mutex
 a6a51adc6e8aafebfe0c4beb80e99694ea562b40 net/vdpa: Use readers/writers semaphore instead of cf_mutex
@@ -1051,4 +1051,4 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
 
---===============4587998721608852820==--
+--===============1891603151887160210==--
