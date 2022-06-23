@@ -1,38 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 23 Jun 2022 09:14:22 -0000
-Message-Id: <165597566242.17842.16067971750476368460@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2647725930343717959=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 23 Jun 2022 09:42:14 -0000
+Message-Id: <165597733482.16746.13641006315238141750@gitolite.kernel.org>
+
+--===============2647725930343717959==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rxrpc-multiqueue
-    old: 83e1620a43190584ecbc51e8afc8b94a7b14286c
-    new: 698886f4b66499ccf0dab4b464bca52f39f4bd58
+  - ref: refs/heads/staging-next
+    old: 6ad9232a99e0a390b2959f3a8180a8ae5703d140
+    new: 8821931e614d8ff2f58a4b06b3f2fecc66a462b8
     log: |
-         397314931492d19b2e56e22cd0ddbb5e5e64ad1e rxrpc: Allow the call to interact with to be preselected
-         95c8a28ac864dadc1361d73e4c0dacf58cd96b3a rxrpc: Implement sendfile() support
-         bda208d76b44626bd3d6bdd47dfaaac547dd5c36 rxrpc: Use selected call in recvmsg()
-         ceb5a489e9c0249928f91f44f5150618b0fba563 rxrpc: Implement splice-read for rxrpc calls
-         698886f4b66499ccf0dab4b464bca52f39f4bd58 rxrpc: Set call security params in sendmsg() cmsg
+         04b3b6ae8be7603b22b0404f4ac81bd1f439be8b staging: r8188eu: Fixed a function declaration coding style issue
+         dd875fb747998b704ab76a8bc8b24f25b1ec3370 staging: r8188eu: Fixed two brace coding style issues
+         3ff13c76b04046cafce36625c619abca73e627f0 staging: r8188eu: Fixed two whitespace coding style issues
+         c99c8bc93844c7eb2b167d26dce4a9d18be96f45 staging: r8188eu: Fixed comment style
+         8821931e614d8ff2f58a4b06b3f2fecc66a462b8 staging: r8188eu: Fixed some blank line coding style issues
          
-  - ref: refs/remotes/linus/master
-    old: ca1fdab7fd27eb069df1384b2850dcd0c2bebe8d
-    new: de5c208d533a46a074eb46ea17f672cc005a7269
-    log: |
-         795285ef242543bb636556b7225f20adb7d3795c selftests: Fix clang cross compilation
-         beca774fc51a9ba8abbc869cf0c3d965ff17cd24 9p: fix fid refcount leak in v9fs_vfs_atomic_open_dotl
-         e5690f263208c5abce7451370b7786eb25b405eb 9p: fix fid refcount leak in v9fs_vfs_get_link
-         2a3dcbccd64ba35c045fac92272ff981c4cbef44 9p: Fix refcounting during full path walks for fid lookups
-         12a29115be72dfc72372af9ded4bc4ae7113a729 selftests dma: fix compile error for dma_map_benchmark
-         3084a4ec7f9bb1ec90036cfd01b1abadc5dd4fb2 selftests: vm: Fix resource leak when return error
-         b0017602fdf6bd3f344dd49eaee8b6ffeed6dbac 9p: fix EBADF errors in cached mode
-         9b4d5c01eb234f66a15a746b1c73e10209edb199 selftests: make use of GUP_TEST_FILE macro
-         3abc3ae553c7ed73365b385b9a4cffc5176aae45 Merge tag '9p-for-5.19-rc4' of https://github.com/martinetd/linux
-         de5c208d533a46a074eb46ea17f672cc005a7269 Merge tag 'linux-kselftest-fixes-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         
+
+--===============2647725930343717959==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1655977331 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1655977328-dbffdd4451abc53e5d93b249a734ab5caf13b315
+
+6ad9232a99e0a390b2959f3a8180a8ae5703d140 8821931e614d8ff2f58a4b06b3f2fecc66a462b8 refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK0NXMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6CAP/0n+NYOBb8TxrE46VUex
+AblbuIYdJ4eeSj7mcVAn23YML2rWRe+bASstZHnevxkalL05DaiHFt5iPmN4OR1u
+CiJkd8BhYl2EKvJm+r0eLe8Hd8JxvMbdRhAQLm8WUGCQlRpt+bypWcdTJ6BrBgT6
+7wH9E5DI2mSaQXC4s4lmZ/zVSJWJqy2ts32dTLtsg2qn9JrwbTvPM71uMpe7pfLI
+vjXpUV7WLnLaP6S8uowSXJKYmz+YSvXcv7fR0uvAAVdSv0+/wWFcucdK1PTuy2sa
+zwxwZiyO/7hqhf+r37enfNtSlWRfiK/0D8MA7f8PkQNLIaeT6VmOwVld7UcRnINX
+YVgvLDvOj/7ZUnNiIyefIPjmBkr6YTW/eTcU0vhPJDTB6WTXyu2TOhYyX09yjmqQ
+6o7QhdbEYT+Eau7ye2c8NNhmu2cSR1xgledVwmoQMFDWN2ltLxL71CBAv2H9XXt9
+5XNL9NYclGe8GA0zO3VfFsj7GG4vlX03NiGEljS6xI52jJ2hX/yN0SjZO+X/+3hl
++bzw4zPnwdTPFtGQ1SJm/mM5fUVvEe6in7KHnzF/8A257JgPK4PfiyFHic1MEaIx
+/xgZ0qvU2Ehl8n1tGTYBSzL0GBuTM5vd0HURvIFq+so50MKZqS7OSNiIvPcU2aMu
+nQjgrAp/w94QWy/lBxhlPE1x
+=v1+9
+-----END PGP SIGNATURE-----
+
+--===============2647725930343717959==--
