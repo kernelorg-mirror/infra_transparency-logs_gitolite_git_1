@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Jun 2022 08:36:58 -0000
-Message-Id: <165597341815.25983.15414983068992362662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Thu, 23 Jun 2022 08:41:11 -0000
+Message-Id: <165597367127.28799.8953815681909517758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/master
-    old: 8af52fe9fd3bf5e7478da99193c0632276e1dfce
-    new: e34a07c0ae3906f97eb18df50902e2a01c1015b6
+  - ref: refs/heads/for-usb-linus
+    old: 5a3493a4e8739da5d707e4b085f7314f8b73a64c
+    new: 97d7c417e7bc0173a1dfaf6a848e2a329da8c3dd
     log: |
-         1b205d948fbb06a7613d87dcea0ff5fd8a08ed91 Revert "net/tls: fix tls_sk_proto_close executed repeatedly"
-         e34a07c0ae3906f97eb18df50902e2a01c1015b6 sock: redo the psock vs ULP protection check
+         fc4f62c385d1e89f41dfb64e3976362595c3b4ce xhci: turn off port power in shutdown
+         242b7821d77e7389ba211f5d6e1e65d001f1d1ee xhci-pci: Allow host runtime PM as default for Intel Raptor Lake xHCI
+         97d7c417e7bc0173a1dfaf6a848e2a329da8c3dd xhci-pci: Allow host runtime PM as default for Intel Meteor Lake xHCI
          
