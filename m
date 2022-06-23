@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1891603151887160210=="
+Content-Type: multipart/mixed; boundary="===============6021762367588443351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Thu, 23 Jun 2022 04:52:14 -0000
-Message-Id: <165595993410.11685.10945904996577691380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 23 Jun 2022 05:26:54 -0000
+Message-Id: <165596201457.1161.1318132671590887016@gitolite.kernel.org>
 
---===============1891603151887160210==
+--===============6021762367588443351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dennis/percpu
-user: dennis
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/for-next
-    old: 4e1f82dce05b644d6886d5b3656446d8ec50db20
-    new: a111daf0c53ae91e71fd2bfe7497862d14132e3e
-    log: revlist-4e1f82dce05b-a111daf0c53a.txt
+  - ref: refs/heads/pending
+    old: 34e37b4c432cd0f1842b352fde4b8878b4166888
+    new: 8a66487506161dbc1d22fd154d2de0244e232040
+    log: revlist-34e37b4c432c-8a6648750616.txt
 
---===============1891603151887160210==
+--===============6021762367588443351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e1f82dce05b-a111daf0c53a.txt
+Content-Disposition: attachment; filename=revlist-34e37b4c432c-8a6648750616.txt
 
-0078ad905dc8eada34461312a0060b0904c57e2d net/vdpa: Use readers/writers semaphore instead of vdpa_dev_mutex
-a6a51adc6e8aafebfe0c4beb80e99694ea562b40 net/vdpa: Use readers/writers semaphore instead of cf_mutex
-1892a3d425bf525ac98d6d3534035e6ed2bfab50 vdpa/mlx5: Add support for reading descriptor statistics
-759ae7f9bf1e6b7f5c9c197d7207e2be1dfd74b1 vdpa/mlx5: Use readers/writers semaphore instead of mutex
 4e0400525691d0e676dbe002641f9a61261f1e1b virtio-blk: support polling I/O
 0e9911fa768f32f30e5678512ea405d99a7a9fef virtio-blk: support mq_ops->queue_rqs()
 35c51e093d956f6d058e193711c8d424817a44a9 virtio_ring: remove unnecessary to_vvq call in vring hot path
@@ -1050,5 +1046,9 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
+f6f0dab5efe4fcabe726f9218a0b3000fee0fa8a MAINTAINERS: Update Ben's email address
+db9a3a35d31ea337331f0e6e07e04bcd52642894 cxl: Fix cleanup of port devices on failure to probe driver.
+8ae3cebc1704b9a3ab8398dc7820c37183026bbc cxl/core: Use is_endpoint_decoder
+8a66487506161dbc1d22fd154d2de0244e232040 cxl/mbox: Use __le32 in get,set_lsa mailbox structures
 
---===============1891603151887160210==--
+--===============6021762367588443351==--
