@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2816329474025729701=="
+Content-Type: multipart/mixed; boundary="===============2142104526440479022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 24 Jun 2022 10:58:48 -0000
-Message-Id: <165606832863.2837.5843876997783121833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 24 Jun 2022 10:58:56 -0000
+Message-Id: <165606833645.2965.15970218831103884901@gitolite.kernel.org>
 
---===============2816329474025729701==
+--===============2142104526440479022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 4d6c2b46d81765e920007f76185a8d1fb5e41ca3
     new: 53c9fac844775880ba1253efc7fa810bf82b9cb2
     log: revlist-4d6c2b46d817-53c9fac84477.txt
 
---===============2816329474025729701==
+--===============2142104526440479022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656068326 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1656068325-43771b1c52a1e9cc2c8319c683193e6b46b55496
+pusher C3F436CA30F5D8EB 1656068334 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1656068333-90cc2de6a23ef98d9a10dab363255abc17bf1d85
 
-4d6c2b46d81765e920007f76185a8d1fb5e41ca3 53c9fac844775880ba1253efc7fa810bf82b9cb2 refs/heads/for-5.20
+4d6c2b46d81765e920007f76185a8d1fb5e41ca3 53c9fac844775880ba1253efc7fa810bf82b9cb2 refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK1mOYACgkQJNaLcl1U
-h9Dd5Af8Cdfczrj3pnOhggmG0dlUECeXdq1/33TaOLwkHSSkzACpSoOvZGSxHhCG
-4ud266MRp3BZ3G8J704VVfb7MN7ynhV9+xXXLm6XdSQAO9Vs4v8eOSr4V8gtnYWA
-bMq0ySJsVgDlGb94SgHRxOJyfqlPgilm3V+oAwGcwN2ouDMoYXpsXfHjBEs2dqkK
-Gg9/5+UijiBwP0jqIFRvYqkeTwPvBKYnlGqt81NEGjGM2tJtMu0mSWIDPcW4x6J+
-k81t+SoOyTFRJCeKz0qBmbjlJ5UV6r4k8pnLHNukQN5Ct2rClTE4z76TojUqai1O
-MJm3NYc7Qni6uiG210/HR/vF8mHdaw==
-=cHOK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK1mO4ACgkQJNaLcl1U
+h9CKvwf8DRe7baMIPFAV+8YcMXSbrkNEZsCwmJRpUHrAVpL/07e3rz99VLlxP5wB
+JXZHO3KPhWpyUetB7YmguD2MgHRSEUUB0OrCsFrCaefJ/6c6lBVh/owtm9SLqR1G
+A92E3GQcqRhMca83hGqQDSLGFX7piwX8zj2fSrSUj+Hn2WoL/+04R1uzDm1c6P53
+y2XOQ/a/FsgVlZX7fcfNxvvMFnM7kCtTj2VirXq2dPo3dK8mVHOBzqOAmHf3Uf6/
+z6YZq65TRTZ/wu7WJuJv0d1VO0eDaNwsBjmsnKAt8UdAsT1h/VsrcXmxZoWOBNS9
+E8xrGml6+lAzokrJWvzLdOE49V/OVw==
+=5Lkw
 -----END PGP SIGNATURE-----
 
---===============2816329474025729701==
+--===============2142104526440479022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ a69615e81709da0ff1f035886e8b3faf6125cd22 ASoC: Intel: hsw_rt5640: Reword driver 
 e7f68863545163ec75b6bc3cc48fe888c28e0ec6 ASoC: Intel: bdw_rt286: Remove FE DAI ops
 53c9fac844775880ba1253efc7fa810bf82b9cb2 ASoC: Intel: haswell and broadwell boards update
 
---===============2816329474025729701==--
+--===============2142104526440479022==--
