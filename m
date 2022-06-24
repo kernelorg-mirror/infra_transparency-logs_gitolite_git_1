@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Fri, 24 Jun 2022 17:24:41 -0000
-Message-Id: <165609148190.27231.1524112674138917327@gitolite.kernel.org>
+Date: Fri, 24 Jun 2022 17:27:01 -0000
+Message-Id: <165609162154.29484.4555833912887674442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,11 @@ repo: pub/scm/linux/kernel/git/zx2c4/linux
 user: zx2c4
 changes:
   - ref: refs/heads/splice-llseek
-    old: 1457f42f8fd03c0ef6ad620061f291e6ff20d253
-    new: b5d7e9c8ef348a79f624d25b62fef86c545137f5
+    old: b5d7e9c8ef348a79f624d25b62fef86c545137f5
+    new: 7eb11c055259a0b21264bf15ad03b9ac75827019
     log: |
-         6a3fd80ff1dba59a5b86024ed83e8757712bd0a9 fs: do not set no_llseek in fops
-         9eb2c9114b068c5829aee5ddb6708350452c15fe fs: clear or set FMODE_LSEEK based on llseek function
-         659da0dc57a002a7275f39715c45c0756a295a67 fs: check FMODE_LSEEK to control internal pipe splicing
-         d43f7c35f0d272534ef8da0240a8091ee10ac52a dma-buf: remove useless FMODE_LSEEK flag
-         b5d7e9c8ef348a79f624d25b62fef86c545137f5 vfio: do not set FMODE_LSEEK flag
+         83b0e2990603665b4abf9e621efb18a062767719 fs: clear or set FMODE_LSEEK based on llseek function
+         71617eb9236a3ccc03a4f1fa2635b0ed4ba89c48 fs: check FMODE_LSEEK to control internal pipe splicing
+         df2116b2e7e92dae0eae4edc2d0e35e41a2bdeb7 dma-buf: remove useless FMODE_LSEEK flag
+         7eb11c055259a0b21264bf15ad03b9ac75827019 vfio: do not set FMODE_LSEEK flag
          
