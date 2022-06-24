@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 24 Jun 2022 20:30:16 -0000
-Message-Id: <165610261607.21229.6337720765141206882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 24 Jun 2022 20:36:47 -0000
+Message-Id: <165610300761.24750.14651289746788138161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 1760abb742247869ac06cee18289f0a36d4d973b
-    new: 790820180cf3566d739d08d65e0d695e55eda381
+    old: 41188e9e9defa1678abbf860ad7f6dd1ba48ad1c
+    new: 780d3d5a24bbdd48cb43f35afb6f5b7544cdf45a
     log: |
-         ae9c429fcb30ccd4e5f7904e6e70edb6a1dbefce defer/whichtochoose: Use parnotes for footnote in tabularx
-         790820180cf3566d739d08d65e0d695e55eda381 defer/whichtochoose: Fix trivial typos
+         b168852eb8eff57b63e72e3bc584bda3d2cb9577 perf tools: Rework prologue generation code
+         780d3d5a24bbdd48cb43f35afb6f5b7544cdf45a Merge branch 'perf tools: Fix prologue generation'
          
