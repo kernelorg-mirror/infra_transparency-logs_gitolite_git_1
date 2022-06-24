@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Fri, 24 Jun 2022 18:13:34 -0000
-Message-Id: <165609441465.27954.14938945920092682542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 24 Jun 2022 18:21:59 -0000
+Message-Id: <165609491916.1127.3630668101834046597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9a7df595bbe360132cb37c8b39aa1fd9ac24b43f
-    new: 70f1ff4291b0388adca1f4c91918ce1175e8b360
+    old: cbdabaecb1f64ac0b2c033a7c9b7daa43c242c82
+    new: b4cbd7a9339f396a991a9a056c4b57a35a4cbd96
     log: |
-         70f1ff4291b0388adca1f4c91918ce1175e8b360 mdadm: block update=ppl for non raid456 levels
+         b4cbd7a9339f396a991a9a056c4b57a35a4cbd96 net: lan743x: Use correct variable in lan743x_sgmii_config()
          
