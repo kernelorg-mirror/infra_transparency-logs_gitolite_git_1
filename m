@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3649904280618420986=="
+Content-Type: multipart/mixed; boundary="===============4887333236158199724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 24 Jun 2022 08:53:57 -0000
-Message-Id: <165606083736.4878.3581237298966811459@gitolite.kernel.org>
+Date: Fri, 24 Jun 2022 08:59:00 -0000
+Message-Id: <165606114098.7937.5885370464733334930@gitolite.kernel.org>
 
---===============3649904280618420986==
+--===============4887333236158199724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,53 +16,41 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: e20918f6d11253d62b110e8d16b17cc9bf82d832
+  - ref: refs/heads/queue
+    old: 4284f0063c48fc3734b0bedb023702c4d606732f
     new: 4b88b1a518b337de1252b8180519ca4c00015c9e
-    log: revlist-e20918f6d112-4b88b1a518b3.txt
+    log: revlist-4284f0063c48-4b88b1a518b3.txt
 
---===============3649904280618420986==
+--===============4887333236158199724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1656060834 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1656061138 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1656060828-c2dd2396e3881662e1fa5fbc8ba290a746ae95d9
+nonce 1656061134-919c477aa5da0b6736eea8a01b82371afeedae6c
 
-e20918f6d11253d62b110e8d16b17cc9bf82d832 4b88b1a518b337de1252b8180519ca4c00015c9e refs/heads/next
+4284f0063c48fc3734b0bedb023702c4d606732f 4b88b1a518b337de1252b8180519ca4c00015c9e refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmK1e6IUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMBPQf/Yn9sUsNyakr/5///ztMykjzUWqi8
-AGEEAm+3t/DIHUkCG7xerbTQu3Je9RSdpCiQiUoxKDBm9klS/B97gXbtTJT0PGoi
-xTd+Dn1REYG6ejXjz5fjijrV6EnhA/oS/Vd8ot/jFwQv9fwbqWWQAg/iwU+75EHw
-R/WOeIU0XBwGRxIs7PRXNdIb68dkJa3R50DFZNfrw72/q1lk4j4Lnhln8axBRahx
-ms0xv/qF2cY/2hEnEkjZBbSSSztHhucTQvNV3B9A1yoA00e197FvclrQDtMxcyvY
-0ntxVurgOOvQozTkPV97O5SQsclU8fT/06Rb11WWczn2ZpsqXSPMEr56tA==
-=rj7i
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmK1fNMUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOhpwf+NfeoJCUBt8wH2cWXHfnZhBch8S0J
+WV8u5Vgw422PI81n8BPnv9C5ZIIm/ZIsX/p1ll8ugpn+tFVlM8tnnnN8Vq5YbK9b
+Rl1hp+CGPOl79hm7c+fCaoRpgFWDNav7Cd6GBsrIrUfB+X/tANC3J6XrpQWi/jci
+lnep1D2WxwG/Zi4mwn6ruQUGZUtmDN8zilLbOxAcit5G1S99er7xfjYLHtvSakMj
+pd0DXGo3vfGOhNIP+GV5s+CHY6tQy9gU8vjhxaBDhE/LYQRq4pkxZsqHeuRAAjiS
+m1/DsBXLqCWvkeRbUON3ekjpYdtuHAJaFzuag2FvUHDw9fTYs+tbW/CzmA==
+=Mthr
 -----END PGP SIGNATURE-----
 
---===============3649904280618420986==
+--===============4887333236158199724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e20918f6d112-4b88b1a518b3.txt
+Content-Disposition: attachment; filename=revlist-4284f0063c48-4b88b1a518b3.txt
 
-9fc222967a39d6be96dabb942cc94e4f07ca049c KVM: x86: Give host userspace full control of MSR_IA32_MISC_ENABLES
-0f4a7185270c4879fa40b33d7e07b6ac38353b34 KVM: VMX: Give host userspace full control of MSR_IA32_PERF_CAPABILITIES
-5d4283df5a0fc8299fba9443c33d219939eccc2d Revert "KVM: x86/pmu: Accept 0 for absent PMU MSRs when host-initiated if !enable_pmu"
-545feb96c052809dab5ec04b95f976acca9f9364 Revert "KVM: x86: always allow host-initiated writes to PMU MSRs"
-3f7999b988bde6c50cb7b20d6c742d6512d1f0bd KVM: VMX: Use vcpu_get_perf_capabilities() to get guest-visible value
-157fc497b54fd1dfcdedbca6199adca4bf5ee6ff KVM: x86: Ignore benign host accesses to "unsupported" PEBS and BTS MSRs
-ff81a90f45ce6b818167c590f7625b3b573defc9 KVM: x86: Ignore benign host writes to "unsupported" F15H_PERF_CTL MSRs
-bfbcc81bb82cbbad8bf4e40cea274f42b50674e2 KVM: x86: Add a quirk for KVM's "MONITOR/MWAIT are NOPs!" behavior
-3b23054cd3f5106aed31ccf71a7bc14518a768eb KVM: selftests: Add x86-64 support for exception fixup
-9f88d062c3db13164a0d2007b88e1e430f523a06 KVM: selftests: Mostly fix broken Hyper-V Features test
-cc5851c6be864c5772944e32df3da322fe3ad415 KVM: selftests: Use exception fixup for #UD/#GP Hyper-V MSR/hcall tests
-2325d4dd7321cd569f996c5d091f4f83efb25693 KVM: selftests: Add MONITOR/MWAIT quirk test
 fcd48a213f0ac45c2187b09e19d4849e14cb59f8 KVM: selftests: Remove dynamic memory allocation for stats header
 32faa0647cea46ffda9095c3a8c95b315e139f0f KVM: selftests: Read binary stats header in lib
 4d0a059415708ec0f221616f187853176d2fbebc KVM: selftests: Read binary stats desc in lib
@@ -106,4 +94,4 @@ aebc3ca19063d68b76bcaaca81558d4f180c61b0 KVM: x86: Enable CMCI capability by def
 eede2065cacce2e04110bc6e45e9dc8e843c571b KVM: selftests: Add a self test for CMCI and UCNA emulations.
 4b88b1a518b337de1252b8180519ca4c00015c9e KVM: selftests: Enhance handling WRMSR ICR register in x2APIC mode
 
---===============3649904280618420986==--
+--===============4887333236158199724==--
