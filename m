@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Fri, 24 Jun 2022 17:27:01 -0000
-Message-Id: <165609162154.29484.4555833912887674442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Fri, 24 Jun 2022 17:29:15 -0000
+Message-Id: <165609175511.30242.13937314425189537178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/splice-llseek
-    old: b5d7e9c8ef348a79f624d25b62fef86c545137f5
-    new: 7eb11c055259a0b21264bf15ad03b9ac75827019
+  - ref: refs/heads/rtc-next
+    old: 00ecf473dea2c3039ea3d21f3f701b94d1f5712f
+    new: 377e781eea94f8770b35c30664bc4d1751bc0645
     log: |
-         83b0e2990603665b4abf9e621efb18a062767719 fs: clear or set FMODE_LSEEK based on llseek function
-         71617eb9236a3ccc03a4f1fa2635b0ed4ba89c48 fs: check FMODE_LSEEK to control internal pipe splicing
-         df2116b2e7e92dae0eae4edc2d0e35e41a2bdeb7 dma-buf: remove useless FMODE_LSEEK flag
-         7eb11c055259a0b21264bf15ad03b9ac75827019 vfio: do not set FMODE_LSEEK flag
+         a1eeb751f1cf9b6722f7b165556612d5a59264fc rtc: isl1208: do not advertise update interrupt feature if no interrupt specified
+         d7d93cee8f90e1756587eed7b763f8d1da673987 rtc: Replace flush_scheduled_work() with flush_work().
+         377e781eea94f8770b35c30664bc4d1751bc0645 rtc: Remove unused rtc_dev_exit().
          
