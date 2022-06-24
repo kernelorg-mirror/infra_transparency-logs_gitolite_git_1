@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 24 Jun 2022 23:16:11 -0000
-Message-Id: <165611257198.859.4469107775580713644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 24 Jun 2022 23:24:31 -0000
+Message-Id: <165611307119.4912.2939662868265764984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/gpio-fixes-for-v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 92f9c2d153205473503658d57f3fa2a237f93f6a
+  - ref: refs/heads/master
+    old: 5d04b0b634bb4739f421a1a1a62d666a69cefb10
+    new: 1da9e27415bfc54db25c8374331aaf5321185a1d
+    log: |
+         6ce1df88b1f31f0e19372afe127cf5678d63c559 net/funeth: Support UDP segmentation offload
+         1da9e27415bfc54db25c8374331aaf5321185a1d tc-testing: gitignore, delete plugins directory
+         
