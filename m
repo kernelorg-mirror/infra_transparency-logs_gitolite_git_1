@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1237829778304771878=="
+Content-Type: multipart/mixed; boundary="===============1502467799053345888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 24 Jun 2022 15:26:36 -0000
-Message-Id: <165608439658.12421.9938779931683180901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 24 Jun 2022 15:26:45 -0000
+Message-Id: <165608440551.12547.10328972442434815336@gitolite.kernel.org>
 
---===============1237829778304771878==
+--===============1502467799053345888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: 2544e936ab2fc030f6d8bfcc5a7ae3ebb9c6dc39
     new: 980555e95f7cabdc9c80a07107622b097ba23703
     log: revlist-2544e936ab2f-980555e95f7c.txt
 
---===============1237829778304771878==
+--===============1502467799053345888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ c6a5f22f9b4fd5f21414be690ce34046d9712f05 ASoC: cs35l41: Correct some control nam
 e3cabbef3db8269207a6b8808f510137669f8deb ASoC: madera: Fix event generation for OUT1 demux
 980555e95f7cabdc9c80a07107622b097ba23703 ASoC: madera: Fix event generation for rate controls
 
---===============1237829778304771878==--
+--===============1502467799053345888==--
