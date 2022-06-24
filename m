@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4853760019568202405=="
+Content-Type: multipart/mixed; boundary="===============5974344475430865632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 24 Jun 2022 15:52:52 -0000
-Message-Id: <165608597248.29740.7059096237368058023@gitolite.kernel.org>
+Date: Fri, 24 Jun 2022 15:53:01 -0000
+Message-Id: <165608598140.29880.13601666575729801559@gitolite.kernel.org>
 
---===============4853760019568202405==
+--===============5974344475430865632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: 9886142c7a2226439c1e3f7d9b69f9c7094c3ef6
     new: 52f28b7bac75da9b8508f17438c9a8d83ab48e5d
     log: revlist-9886142c7a22-52f28b7bac75.txt
 
---===============4853760019568202405==
+--===============5974344475430865632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -782,4 +782,4 @@ f42c0ce573df79d1b8bd169008c994dcdd43585a perf record: Always get text_poke event
 3812d2987733c5a00e103be4e23d63ec9342043a perf record: Add finished init event
 52f28b7bac75da9b8508f17438c9a8d83ab48e5d perf script: Add some missing event dumps
 
---===============4853760019568202405==--
+--===============5974344475430865632==--
