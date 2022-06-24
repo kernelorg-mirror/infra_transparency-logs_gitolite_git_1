@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4886281516807923483=="
+Content-Type: multipart/mixed; boundary="===============3250356301276904757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 24 Jun 2022 07:57:07 -0000
-Message-Id: <165605742736.32443.17318066804860521092@gitolite.kernel.org>
+Date: Fri, 24 Jun 2022 07:57:30 -0000
+Message-Id: <165605745048.32654.7531555158728692206@gitolite.kernel.org>
 
---===============4886281516807923483==
+--===============3250356301276904757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: aa87c769aa1ab26de12cca849e7913b908a52707
-    new: 10df409666464b2432bc9b8154eeb1e4b7f193ae
-    log: revlist-aa87c769aa1a-10df40966646.txt
+    new: 2ecab2ee56ba146b8f962fba74e9f12797ca7b7a
+    log: revlist-aa87c769aa1a-2ecab2ee56ba.txt
+  - ref: refs/heads/master
+    old: 10df409666464b2432bc9b8154eeb1e4b7f193ae
+    new: 2ecab2ee56ba146b8f962fba74e9f12797ca7b7a
+    log: |
+         a5049c58ff35cba65f068ac4fea9cfec95b55021 Merge branch into tip/master: 'irq/core'
+         9f8284fc6df7c51e67076d050e754a7e888ff017 Merge branch into tip/master: 'perf/core'
+         120e420fa18d2fad083baae8f88f6c01ac781077 Merge branch into tip/master: 'sched/core'
+         7916ee87836b09d29f3985ac4d0977c9f3513bb2 Merge branch into tip/master: 'x86/cpu'
+         c434483433639a555e2ca3b74d394e7757b2bf04 Merge branch into tip/master: 'x86/fpu'
+         7dc1e3f54fa7114dbeae04ecf09604f6beb95aeb Merge branch into tip/master: 'x86/misc'
+         f209357d6d48e7de3222f517d104bd4b938c2aa2 Merge branch into tip/master: 'x86/mm'
+         2ecab2ee56ba146b8f962fba74e9f12797ca7b7a Merge branch into tip/master: 'x86/vmware'
+         
 
---===============4886281516807923483==
+--===============3250356301276904757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa87c769aa1a-10df40966646.txt
+Content-Disposition: attachment; filename=revlist-aa87c769aa1a-2ecab2ee56ba.txt
 
 b1fd94e704571f98b21027340eecf821b2bdffba netfilter: use get_random_u32 instead of prandom
 b2e6b3d9bbb0a59ba7c710cc06e44cc548301f5f ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
@@ -124,6 +137,13 @@ b653db77350c7307a513b81856fe53e94cf42446 mm: Clear page->private when splitting 
 fa1796a835fc24eb8fb5d794512ec299dcd9f3fd Merge tag 'trace-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 ba461afbef604f58e05676ca38c2a599f073f296 Merge tag 'random-5.19-rc4-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 92f20ff72066d8d7e2ffb655c2236259ac9d1c5d Merge tag 'pm-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-10df409666464b2432bc9b8154eeb1e4b7f193ae Merge branch 'linus'
+a5049c58ff35cba65f068ac4fea9cfec95b55021 Merge branch into tip/master: 'irq/core'
+9f8284fc6df7c51e67076d050e754a7e888ff017 Merge branch into tip/master: 'perf/core'
+120e420fa18d2fad083baae8f88f6c01ac781077 Merge branch into tip/master: 'sched/core'
+7916ee87836b09d29f3985ac4d0977c9f3513bb2 Merge branch into tip/master: 'x86/cpu'
+c434483433639a555e2ca3b74d394e7757b2bf04 Merge branch into tip/master: 'x86/fpu'
+7dc1e3f54fa7114dbeae04ecf09604f6beb95aeb Merge branch into tip/master: 'x86/misc'
+f209357d6d48e7de3222f517d104bd4b938c2aa2 Merge branch into tip/master: 'x86/mm'
+2ecab2ee56ba146b8f962fba74e9f12797ca7b7a Merge branch into tip/master: 'x86/vmware'
 
---===============4886281516807923483==--
+--===============3250356301276904757==--
