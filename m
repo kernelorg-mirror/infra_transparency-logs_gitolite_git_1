@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 24 Jun 2022 17:39:02 -0000
-Message-Id: <165609234212.3883.4228605700481093183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Fri, 24 Jun 2022 17:42:18 -0000
+Message-Id: <165609253848.6582.85956125347681934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/rtc-next
-    old: 377e781eea94f8770b35c30664bc4d1751bc0645
-    new: 4e4a13cc302ec6ea9b04422a02ebfd422e9eb9a8
+  - ref: refs/heads/rproc-next
+    old: 61afafe8b938bc74841cf4b1a73dd08b9d287c5a
+    new: 1404acbb7f68dc0a708091240e75efa5e09b0894
     log: |
-         4e4a13cc302ec6ea9b04422a02ebfd422e9eb9a8 rtc: use simple i2c probe
+         e61c451476e61450f6771ce03bbc01210a09be16 dma-mapping: Add dma_release_coherent_memory to DMA API
+         1404acbb7f68dc0a708091240e75efa5e09b0894 remoteproc: Fix dma_mem leak after rproc_shutdown
          
