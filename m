@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Fri, 24 Jun 2022 16:47:15 -0000
-Message-Id: <165608923532.2476.10473607125968568477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Fri, 24 Jun 2022 16:49:47 -0000
+Message-Id: <165608938779.3330.14310277774961830681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/zx2c4/linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 3b4b532e7c82bb17dbe50cf30ff933554ebf28cb
-    new: aeadf0d4e54f74103075f5ef146871d9d054fcfa
+  - ref: refs/heads/splice-llseek
+    old: fc35602238bc9236d1e7ddb800bdfba7c2dd6031
+    new: 613089b6c0f5f7aab2366b5b1d33795d093b4555
     log: |
-         8548bd11e6f61a5f201fc18f71de8ec91702e63d test-appliance: don't use the noload mount option for ext4/nojournal
-         aeadf0d4e54f74103075f5ef146871d9d054fcfa {kvm,gce}-xfstests: fix the --update-xfstests-tar option
+         613089b6c0f5f7aab2366b5b1d33795d093b4555 vfio: do not set FMODE_LSEEK flag
          
