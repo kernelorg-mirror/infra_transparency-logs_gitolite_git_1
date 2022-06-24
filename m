@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Fri, 24 Jun 2022 13:20:15 -0000
-Message-Id: <165607681550.31476.16381755658736278084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Fri, 24 Jun 2022 13:28:30 -0000
+Message-Id: <165607731098.3043.2012172465474787833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: f642417ed7e6958408677e2bd8a4b2aa5965b907
-    new: 7c76881921f0a3888ff932bb21f392d1fe279eb3
+  - ref: refs/heads/stable
+    old: 2e7d7a655afda7aa2e98bd3b58a02b33bbd0b671
+    new: 994004808771f2c944e1537b1fb688675290baa6
     log: |
-         7c76881921f0a3888ff932bb21f392d1fe279eb3 po: update pl.po (from translationproject.org)
-         
-  - ref: refs/heads/master
-    old: f642417ed7e6958408677e2bd8a4b2aa5965b907
-    new: 7c76881921f0a3888ff932bb21f392d1fe279eb3
-    log: |
-         7c76881921f0a3888ff932bb21f392d1fe279eb3 po: update pl.po (from translationproject.org)
+         994004808771f2c944e1537b1fb688675290baa6 wireguard: selftests: always call kernel makefile
          
