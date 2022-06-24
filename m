@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============2142104526440479022=="
+Content-Type: multipart/mixed; boundary="===============2333525005480010454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Jun 2022 10:58:56 -0000
-Message-Id: <165606833645.2965.15970218831103884901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 24 Jun 2022 10:59:14 -0000
+Message-Id: <165606835453.3116.924034445881878931@gitolite.kernel.org>
 
---===============2142104526440479022==
+--===============2333525005480010454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 4d6c2b46d81765e920007f76185a8d1fb5e41ca3
-    new: 53c9fac844775880ba1253efc7fa810bf82b9cb2
-    log: revlist-4d6c2b46d817-53c9fac84477.txt
+  - ref: refs/heads/for-linus
+    old: af907b313f13912c9d78987ed9ef30bf805ab96f
+    new: 8732b00718b395e501d7fe4d45cf9a4e29034c72
+    log: |
+         8732b00718b395e501d7fe4d45cf9a4e29034c72 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 09c5dcd20b38f29a1a455ccd18ec35025f837abe
+    new: 4d2b7c76d96532b784f75785f40dff569f7faeac
+    log: revlist-09c5dcd20b38-4d2b7c76d965.txt
 
---===============2142104526440479022==
+--===============2333525005480010454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1656068334 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1656068333-90cc2de6a23ef98d9a10dab363255abc17bf1d85
-
-4d6c2b46d81765e920007f76185a8d1fb5e41ca3 53c9fac844775880ba1253efc7fa810bf82b9cb2 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK1mO4ACgkQJNaLcl1U
-h9CKvwf8DRe7baMIPFAV+8YcMXSbrkNEZsCwmJRpUHrAVpL/07e3rz99VLlxP5wB
-JXZHO3KPhWpyUetB7YmguD2MgHRSEUUB0OrCsFrCaefJ/6c6lBVh/owtm9SLqR1G
-A92E3GQcqRhMca83hGqQDSLGFX7piwX8zj2fSrSUj+Hn2WoL/+04R1uzDm1c6P53
-y2XOQ/a/FsgVlZX7fcfNxvvMFnM7kCtTj2VirXq2dPo3dK8mVHOBzqOAmHf3Uf6/
-z6YZq65TRTZ/wu7WJuJv0d1VO0eDaNwsBjmsnKAt8UdAsT1h/VsrcXmxZoWOBNS9
-E8xrGml6+lAzokrJWvzLdOE49V/OVw==
-=5Lkw
------END PGP SIGNATURE-----
-
---===============2142104526440479022==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d6c2b46d817-53c9fac84477.txt
+Content-Disposition: attachment; filename=revlist-09c5dcd20b38-4d2b7c76d965.txt
 
 8b99e24de3fae72ff5ef38832b94b1e41059eeed ASoC: Intel: Rename haswell source file to hsw_rt5640
 675002b6ca9132445e340bd106297d584e44fc9a ASoC: Intel: hsw_rt5640: Reword prefixes of all driver members
@@ -68,5 +49,7 @@ a69615e81709da0ff1f035886e8b3faf6125cd22 ASoC: Intel: hsw_rt5640: Reword driver 
 8fe4709962d74a19c0c1dfc877ba600101340c62 ASoC: Intel: bdw_rt286: Improve codec_init() quality
 e7f68863545163ec75b6bc3cc48fe888c28e0ec6 ASoC: Intel: bdw_rt286: Remove FE DAI ops
 53c9fac844775880ba1253efc7fa810bf82b9cb2 ASoC: Intel: haswell and broadwell boards update
+8732b00718b395e501d7fe4d45cf9a4e29034c72 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+4d2b7c76d96532b784f75785f40dff569f7faeac Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============2142104526440479022==--
+--===============2333525005480010454==--
