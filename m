@@ -1,29 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 24 Jun 2022 19:16:35 -0000
-Message-Id: <165609819596.6014.23786105520209541@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7744095493389640967=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Fri, 24 Jun 2022 19:25:02 -0000
+Message-Id: <165609870252.10482.14828652690220719234@gitolite.kernel.org>
+
+--===============7744095493389640967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/hmm
-    old: 457c42326fb93093fd614a0e0c6a8157b78937b3
-    new: efa0855c5b846c25e7cda02159ee35647ab6530e
-    log: |
-         542457651a130ea585f76db6bb23c8d0b3d2e62c RDMA: Add ERDMA to rdma_driver_id definition
-         619836eb6c0b3b9c50600d743672c8d1367df971 RDMA/erdma: Add the hardware related definitions
-         2aa1177929b6aa0ce06acc123ee6751ce5755ece RDMA/erdma: Add main include file
-         94a7343c726c71e930b7c06d08cb6b7d9da22f44 RDMA/erdma: Add cmdq implementation
-         0a7647faaca5c07e552a401534d1df3bdd2c6dba RDMA/erdma: Add event queue implementation
-         487e15e5ab56fd5f384c81d8f2ef8a6143b2257c RDMA/erdma: Add verbs header file
-         acb6ad390ab6f5cef823eed06daeea0fc475ac95 RDMA/erdma: Add verbs implementation
-         285b4faa8253bf289e5c7625b5a057a012f3feb0 RDMA/erdma: Add connection management (CM) support
-         b657490ee5bae6ca08a7af6571e78688bb395902 RDMA/erdma: Add the erdma module
-         2272d8bd5b7411ec7a55fedc66ef3182b11289f7 RDMA/erdma: Add the ABI definitions
-         efa0855c5b846c25e7cda02159ee35647ab6530e RDMA/erdma: Add driver to kernel build environment
-         
+  - ref: refs/heads/rtc-next
+    old: 4e4a13cc302ec6ea9b04422a02ebfd422e9eb9a8
+    new: 1bdb08c180e8556d3d4cef844ea0f0bae79bb95d
+    log: revlist-4e4a13cc302e-1bdb08c180e8.txt
+
+--===============7744095493389640967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4e4a13cc302e-1bdb08c180e8.txt
+
+d2a632a8a11756197deb1341bbb09c09abaf20ce rtc: mc146818-lib: reduce RTC_UIP polling period
+8c798e1ec185431a57403a908c379eea1b6bc751 rtc: rv8803: factor out existing register initialization to function
+f8176e0bb83ff8dcc6d9fa8595a0966e631d2ba7 rtc: rv8803: initialize registers on post-probe voltage loss
+c27fee16fab17bc5d62b643285e7cd76a6c49d95 rtc: rv8803: re-initialize all Epson RX8803 registers on voltage loss
+139682400a2ac549ed717eac3a09759a1762366d dt-bindings: rtc: mediatek: add mt6358 and mt6366 compatible
+2023c5c8fe2e85ec7491d5a470fcca48f8144c02 rtc: isl1208: do not advertise update interrupt feature if no interrupt specified
+162b05524ed30586bd2a7ede1f0392c3d1ed2d6e rtc: Replace flush_scheduled_work() with flush_work().
+33740c7f94f948767578e852e6f256038a56803d rtc: Remove unused rtc_dev_exit().
+3f4a3322477ccc13fc6a2b15c2f6a4d0376f5ff2 rtc: use simple i2c probe
+0b31d703598dc1993867597bbd45e87d824fc427 rtc: Add driver for Microchip PolarFire SoC
+1bdb08c180e8556d3d4cef844ea0f0bae79bb95d MAINTAINERS: add PolarFire SoC's RTC
+
+--===============7744095493389640967==--
