@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 24 Jun 2022 09:12:20 -0000
-Message-Id: <165606194057.16888.13837041141128025971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Fri, 24 Jun 2022 09:12:21 -0000
+Message-Id: <165606194101.16931.1874210555883921094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: abfed87e2a12bd246047d78c01d81eb9529f1d06
-    new: 87d044096ea62f1f230e8c4679ee8abf03266f64
+  - ref: refs/heads/linux-next
+    old: 0c07bca14b10952b48273567f05e3a4120ee426f
+    new: 84a2a3bdb3d109925d0f0b1b8a92dc5122a482cf
     log: |
-         87d044096ea62f1f230e8c4679ee8abf03266f64 crypto: ccp - Fix device IRQ counting by using platform_irq_count()
+         84a2a3bdb3d109925d0f0b1b8a92dc5122a482cf vringh: iterate on iotlb_translate to handle large translations
          
-  - ref: refs/tags/v5.19-p3
-    old: 0000000000000000000000000000000000000000
-    new: 47148cb61c4162d9808cb2b048892ad0463fcda6
+  - ref: refs/heads/vhost
+    old: 0c07bca14b10952b48273567f05e3a4120ee426f
+    new: 84a2a3bdb3d109925d0f0b1b8a92dc5122a482cf
+    log: |
+         84a2a3bdb3d109925d0f0b1b8a92dc5122a482cf vringh: iterate on iotlb_translate to handle large translations
+         
