@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Fri, 24 Jun 2022 07:27:29 -0000
-Message-Id: <165605564946.12200.11932437950287237755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Fri, 24 Jun 2022 07:38:25 -0000
+Message-Id: <165605630544.18514.13178962541249877996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/mhi-next
-    old: b7ce716254315dffcfce60e149ddd022c8a60345
-    new: 1227d2a20cd7319fb45c62fab4b252600e0308bf
+  - ref: refs/heads/exynos-drm-fixes
+    old: 1e9124df8be0a43e4e9a10c5d1140d6ca8e50132
+    new: a267d2a1a3e66927e4ee952a6a06e0448267abd4
     log: |
-         1227d2a20cd7319fb45c62fab4b252600e0308bf bus: mhi: host: Move IRQ allocation to controller registration phase
+         a267d2a1a3e66927e4ee952a6a06e0448267abd4 drm/exynos: replace drm_detect_hdmi_monitor() with drm_display_info.is_hdmi
          
