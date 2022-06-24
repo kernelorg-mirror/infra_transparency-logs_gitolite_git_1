@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 24 Jun 2022 23:43:06 -0000
-Message-Id: <165611418602.17869.8768237467854037826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 24 Jun 2022 23:57:52 -0000
+Message-Id: <165611507204.26939.11365615451719201010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 3b9bc84d311104906d2b4995a9a02d7b7ddab2db
-    new: 8cc683833726912498130a0130fc3bd0d169ef59
+  - ref: refs/heads/wip/jgg-for-next
+    old: fd46ef3d8247958921cb9f2a86cced130bbae60e
+    new: 80a14dd4c37f94300bc9375592b54f98c6ad7b8e
     log: |
-         c96614eeab663646f57f67aa591e015abd8bd0ba net: dp83822: disable false carrier interrupt
-         0e597e2affb90d6ea48df6890d882924acf71e19 net: dp83822: disable rx error interrupt
-         8cc683833726912498130a0130fc3bd0d169ef59 Merge branch 'net-dp83822-fix-interrupt-floods'
+         80a14dd4c37f94300bc9375592b54f98c6ad7b8e RDMA/rxe: Remove useless pkt parameters
          
