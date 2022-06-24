@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Fri, 24 Jun 2022 19:33:57 -0000
-Message-Id: <165609923717.15946.10185168121337682920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Fri, 24 Jun 2022 19:35:38 -0000
+Message-Id: <165609933813.17958.3383443265933231262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/next
-    old: 09248df31b4794e1ba1e3d3d9d8d91804f3e392c
-    new: 0f24debbb84758c45ad34bd6f7f0665f632bd66f
+  - ref: refs/heads/rtc-next
+    old: 1bdb08c180e8556d3d4cef844ea0f0bae79bb95d
+    new: b09d633575e54e98e1362bd5c36cd9571cb71d8a
     log: |
-         0f24debbb84758c45ad34bd6f7f0665f632bd66f fs: dlm: move kref_put assert for lkb structs
+         fa1f8e6ac455b20955f107023916eef946674cb8 dt-bindings: rtc: qcom-pm8xxx-rtc: Update the maintainers section
+         5e665cf1f0c52163de5517bfb9258390e63772b2 dt-bindings: rtc: Add TI K3 RTC description
+         b09d633575e54e98e1362bd5c36cd9571cb71d8a rtc: Introduce ti-k3-rtc
          
