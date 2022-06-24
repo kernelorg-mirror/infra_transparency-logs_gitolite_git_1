@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Jun 2022 15:27:55 -0000
-Message-Id: <165608447519.13079.1928042062532760465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Fri, 24 Jun 2022 15:38:49 -0000
+Message-Id: <165608512934.19354.15137169998559924073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: 980555e95f7cabdc9c80a07107622b097ba23703
-    new: e112c42eb3b7225dd722493e9be8ce286c8a5af0
+  - ref: refs/heads/habanalabs-next
+    old: 017e3ff96a073e3921e8de803775eddd0e9fcb8d
+    new: d6083e6c83840b7369d6ad7d0cd8732680fe1b47
     log: |
-         b688a7629c425d7916f9bde7fce8f7da2f852ceb regmap: Re-introduce bulk read support check in regmap_bulk_read()
-         147b5fffc2cfa00956552f32e64c060d10d84010 regmap: Make regmap_noinc_read() return -ENOTSUPP if map->read isn't set
-         419386b6299a01bcea20c2244dbaca4585c2ae33 regmap: Wire up regmap_config provided bulk write in missed functions
-         bf2aebccddef890c4385d1ef19f9fee62d51bcc2 ASoC: sgtl5000: Fix noise on shutdown/remove
-         e112c42eb3b7225dd722493e9be8ce286c8a5af0 ASoC: audio_graph_card2: Fix port numbers in example
+         0e5cf90d6389a379ba919b19a3413a69f46717b1 habanalabs: refactor dma asic-specific functions
+         d6083e6c83840b7369d6ad7d0cd8732680fe1b47 habanalabs: page size can only be a power of 2
          
