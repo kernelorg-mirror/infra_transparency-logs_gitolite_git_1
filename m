@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 24 Jun 2022 03:45:50 -0000
-Message-Id: <165604235012.28030.10041478214071158569@gitolite.kernel.org>
+Date: Fri, 24 Jun 2022 03:49:03 -0000
+Message-Id: <165604254355.29137.1179101027422021301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 399bd66e219e331976fe6fa6ab81a023c0c97870
-    new: 16d584d2fc8f4ea36203af45a76becd7093586f1
+    old: 16d584d2fc8f4ea36203af45a76becd7093586f1
+    new: 7c97bc0128b2eecc703106112679a69d446d1a12
     log: |
-         16d584d2fc8f4ea36203af45a76becd7093586f1 net/dsa/hirschmann: Add missing of_node_get() in hellcreek_led_setup()
+         7c97bc0128b2eecc703106112679a69d446d1a12 net: dsa: bcm_sf2: force pause link settings
          
