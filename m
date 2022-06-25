@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0000130217549155733=="
+Content-Type: multipart/mixed; boundary="===============2567978473575699990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 25 Jun 2022 07:40:49 -0000
-Message-Id: <165614284936.2500.11016864503064698364@gitolite.kernel.org>
+Date: Sat, 25 Jun 2022 07:41:16 -0000
+Message-Id: <165614287636.2738.7740742830024794311@gitolite.kernel.org>
 
---===============0000130217549155733==
+--===============2567978473575699990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 2ecab2ee56ba146b8f962fba74e9f12797ca7b7a
-    new: 5fc47985a993039cf0a655e957eb2bfd446942ed
-    log: revlist-2ecab2ee56ba-5fc47985a993.txt
+    new: 7089155b2877a54e33d4ab21eb68c28568aea2fe
+    log: revlist-2ecab2ee56ba-7089155b2877.txt
+  - ref: refs/heads/master
+    old: 5fc47985a993039cf0a655e957eb2bfd446942ed
+    new: 7089155b2877a54e33d4ab21eb68c28568aea2fe
+    log: |
+         b63c94f25976120373078c1af6dc8d8434fbc5b1 Merge branch into tip/master: 'irq/core'
+         7777248f857a29211f541f0bf5c8fe4e4e6d8769 Merge branch into tip/master: 'perf/core'
+         f1d86ac09d85db494961b6388d64c4b35ea02e5c Merge branch into tip/master: 'sched/core'
+         cd2bb9aabc38854d4bcec0b77a1677bf864a03be Merge branch into tip/master: 'x86/cpu'
+         c293dcb197dcf696af032e2735279c7e55957271 Merge branch into tip/master: 'x86/fpu'
+         69abc22c3beb8404b36d431664dd0a6bd768db4c Merge branch into tip/master: 'x86/misc'
+         14aea3a3915342967a36ef6b4f727962c0119d1d Merge branch into tip/master: 'x86/mm'
+         7089155b2877a54e33d4ab21eb68c28568aea2fe Merge branch into tip/master: 'x86/vmware'
+         
 
---===============0000130217549155733==
+--===============2567978473575699990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ecab2ee56ba-5fc47985a993.txt
+Content-Disposition: attachment; filename=revlist-2ecab2ee56ba-7089155b2877.txt
 
 af0f2a8cc3977e08e79a096f0c2c7a5be29b130b Merge tag 'msm-next-5.19-fixes-06-01' of https://gitlab.freedesktop.org/abhinavk/msm into msm-fixes-staging
 036d20726c30267724416e966c9f92db07de8081 drm/msm: Ensure mmap offset is initialized
@@ -159,6 +172,13 @@ bed051817cb38eda5f80201956a2500b4e88cd14 Merge tag 'regulator-fix-v5.19-rc3' of 
 4039974f3b39abcdc1b7662489157914fd6613bf Merge tag 'spi-fix-v5.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6a0a17e6c6d1091ada18d43afd87fb26a82a9823 Merge tag 'mtd/fixes-for-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 8c23f235a6a8ae43abea215812eb9d8cf4dd165e Merge tag 'gpio-fixes-for-v5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-5fc47985a993039cf0a655e957eb2bfd446942ed Merge branch 'linus'
+b63c94f25976120373078c1af6dc8d8434fbc5b1 Merge branch into tip/master: 'irq/core'
+7777248f857a29211f541f0bf5c8fe4e4e6d8769 Merge branch into tip/master: 'perf/core'
+f1d86ac09d85db494961b6388d64c4b35ea02e5c Merge branch into tip/master: 'sched/core'
+cd2bb9aabc38854d4bcec0b77a1677bf864a03be Merge branch into tip/master: 'x86/cpu'
+c293dcb197dcf696af032e2735279c7e55957271 Merge branch into tip/master: 'x86/fpu'
+69abc22c3beb8404b36d431664dd0a6bd768db4c Merge branch into tip/master: 'x86/misc'
+14aea3a3915342967a36ef6b4f727962c0119d1d Merge branch into tip/master: 'x86/mm'
+7089155b2877a54e33d4ab21eb68c28568aea2fe Merge branch into tip/master: 'x86/vmware'
 
---===============0000130217549155733==--
+--===============2567978473575699990==--
