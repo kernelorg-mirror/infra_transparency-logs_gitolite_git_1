@@ -1,56 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============3133420783509638035=="
+Content-Type: multipart/mixed; boundary="===============1540690240842736063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 25 Jun 2022 10:46:35 -0000
-Message-Id: <165615399584.1295.1047828318026997581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 25 Jun 2022 10:47:43 -0000
+Message-Id: <165615406334.1755.17338705659932570228@gitolite.kernel.org>
 
---===============3133420783509638035==
+--===============1540690240842736063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0736d6d37075dcc4f1a3bded728c523468024ef2
-    new: 57ea1f5f16f067104b69fdab8c102929c9a5d510
+  - ref: refs/heads/queue/5.10
+    old: b2a0f5512f872da40133fe402d40b3b21639bd5a
+    new: 1ba81a42b7f615531159405eee90e648ef2dfb90
+    log: revlist-b2a0f5512f87-1ba81a42b7f6.txt
+  - ref: refs/heads/queue/5.15
+    old: 92c6162588b811460f6de86be00ae16cc54b1358
+    new: 6def134cfb4e742601bf3cb1c35bfa6849fc1bfd
     log: |
-         57ea1f5f16f067104b69fdab8c102929c9a5d510 Notes added by 'git notes add'
+         0d437cc05f360f77fddc8ea787693fea1ae373e9 s390/mm: use non-quiescing sske for KVM switch to keyed guest
+         65a911668210149c541f628773a48ac3b96c3046 drm/amd/display: Don't reinitialize DMCUB on s0ix resume
+         190e7b8b1c4cb840eeec598c2dac674d2c756d99 net: mana: Add handling of CQE_RX_TRUNCATED
+         1022b22d84f8ed3c9c7c38d989c0755ca9a13828 zonefs: fix zonefs_iomap_begin() for reads
+         c95434e912c34fdda0edd5a15f87ae057856e7b8 usb: gadget: u_ether: fix regression in setting fixed MAC address
+         b79a28d97cfa947decd25e029be86489a003cced bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
+         126e12373427cc755c1e3c6616b35563566b4adc selftests/bpf: Add selftest for calling global functions from freplace
+         7c75d09a6e0da6395df95d1d8d174c964f115e41 serial: core: Initialize rs485 RTS polarity already on probe
+         6def134cfb4e742601bf3cb1c35bfa6849fc1bfd arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
          
+  - ref: refs/heads/queue/5.18
+    old: d864a4cfcf9e79bb40fac079d5e6a774e39f47cc
+    new: f0982f91cbd6786e7051da58ac7692dff01c537f
+    log: revlist-d864a4cfcf9e-f0982f91cbd6.txt
 
---===============3133420783509638035==
+--===============1540690240842736063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b2a0f5512f87-1ba81a42b7f6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656153995 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1656153990-ea6c58a279bae91b85cf5c48c88860c8dba851c3
+b2fa2021d830c2f8d949da7037e9e722aa3bdffd s390/mm: use non-quiescing sske for KVM switch to keyed guest
+72e892d1bf32fa115af5650cdde271a0b64feb13 zonefs: fix zonefs_iomap_begin() for reads
+a3d544635790500d24e51050e6934f26f89b7092 usb: gadget: u_ether: fix regression in setting fixed MAC address
+27060e4a4da6bf4d1921f0936d0e814b4c82b979 tcp: add some entropy in __inet_hash_connect()
+97a8e3ddd5aee676ce49fe4551af7c76750e6ba5 tcp: use different parts of the port_offset for index and offset
+af8c707d1d3205f52015525021b2b704b206e0d4 tcp: add small random increments to the source port
+8c4b3d0e3b1e7e3db1fe66d1b97955c3529dc8d3 tcp: dynamically allocate the perturb table used by source ports
+bd072967646152680664503e71dcaf626cef9f74 tcp: increase source port perturb table to 2^16
+07f5cc07cd176631f69e95650981235b8f7318b1 tcp: drop the hash_32() part from the index calculation
+7cb4b556a675b593cf04708d1ec7d2ce5e791679 serial: core: Initialize rs485 RTS polarity already on probe
+1ba81a42b7f615531159405eee90e648ef2dfb90 arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
 
-0736d6d37075dcc4f1a3bded728c523468024ef2 57ea1f5f16f067104b69fdab8c102929c9a5d510 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
+--===============1540690240842736063==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d864a4cfcf9e-f0982f91cbd6.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK254sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4e8P/AhSfaBOg2oAAqWPkT+y
-yBmKnxzObQcGQ2CjYigKft5zvbrdnOrTCFJJD+A5dEryoMRuQowZOqldzzvKzFPx
-S0my/bfTrXFHM38/T6N9XItPf5Q3HPxprlVuyW4DbIf0xg/M46C4TBnyij9Ol4NE
-hxyFvbb9u6g+9GJoAHR1gPGIRDYfAUG3PszbvVX3z8L305DdVfy+t30bIgxPLQ2Q
-/x9SdI7ul1fHhjm8ZFJyWfvHdKTnClOcxKgQCpHBEkq8I87+22HTMkcO2WRaSeYf
-bcE0OGW6Cth3M5uNk+AP4RvitVn4xFM+cRjjEPpw2XjLPpIQcicpCQPYjrRWErO9
-WuHwmZAK2SY5lADZ3Nskvo62tP8+SnJmh/TJM++XYFcL/LV+xkEHDGww5eD1Elsv
-GcrHLWKTDLECezm0Z7WGcdamycU9pS28d213pzDHPcD2+SEBfL1FNf+0nuv6Km7l
-rz51MduXd0li9oA9DCOzz+rBW668v9AcT/S0a4TiRr6aBECg1FNE3w/fIgJJKpBV
-KruQtYMchpwuMIBvNxdCUz5HEfD9C6iyZCjYaUK46naKoXdbL17FVggd+irXPI2P
-84LxmUqmgwVHEqKRoPmxoZRfbslVuncq6H2uF1PricuV7rrq4O5ccRWIwJ4UWfIC
-A+R0Q1nRkHAXkqC0Ot/jjjR5
-=ZKB4
------END PGP SIGNATURE-----
+f3274878223b53e3d71c291a844e4175eac37449 s390/mm: use non-quiescing sske for KVM switch to keyed guest
+8b4d69580f8e962b450a65ef0fd98ec066b26e10 zonefs: fix zonefs_iomap_begin() for reads
+69caf80cc0a26a90ee1a78c321eb6555719bf207 wifi: rtlwifi: remove always-true condition pointed out by GCC 12
+6556c7a4d752dd2f8405d11035bab540bd52cfc7 eth: sun: cassini: remove dead code
+7c13493c3e09cb23c8df383603600caf8d74ab02 net: wwan: iosm: remove pointless null check
+6fdc025ab0ae3b939ee3664f169735086119bc2e x86/boot: Wrap literal addresses in absolute_pointer()
+4613c4895e481d4055a318498b43cace06390d62 fsnotify: introduce mark type iterator
+093013c1440ef35e4103da5b05d4567d10ef3ce0 fsnotify: consistent behavior for parent not watching children
+1bfa7e841f21309cc28825fdd2d5e97e6af689c6 bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
+b92e1cc0ed0d2f3f4a3934530356575d2fdacf62 selftests/bpf: Add selftest for calling global functions from freplace
+f0982f91cbd6786e7051da58ac7692dff01c537f dt-bindings: nvmem: sfp: Add clock properties
 
---===============3133420783509638035==--
+--===============1540690240842736063==--
