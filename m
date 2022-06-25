@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3926379520997307352=="
+Content-Type: multipart/mixed; boundary="===============7511001363119703370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 25 Jun 2022 13:19:55 -0000
-Message-Id: <165616319525.32105.11043695049489084057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 25 Jun 2022 13:27:09 -0000
+Message-Id: <165616362917.31850.13973719686547824077@gitolite.kernel.org>
 
---===============3926379520997307352==
+--===============7511001363119703370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.18
-    old: 03117d7e5e1e0bcca5d99c1c5e11401d1fade84d
-    new: 941e19dcea462fbcda153cf8a9b298317a878695
-    log: revlist-03117d7e5e1e-941e19dcea46.txt
+  - ref: refs/heads/master
+    old: 6e6aa177a4a00c371fa189c61a011e11080543e8
+    new: 4fa36a9e4c6d0369ac41a7dbb27548e5a6c73fea
+    log: |
+         4fa36a9e4c6d0369ac41a7dbb27548e5a6c73fea empty series files for 4.9, 4.14, and 4.19
+         
 
---===============3926379520997307352==
+--===============7511001363119703370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03117d7e5e1e-941e19dcea46.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-12980c8d7a79e571059eed4c1fcfffdfbff51a75 s390/mm: use non-quiescing sske for KVM switch to keyed guest
-dd330da4ffe06080cfa48b4cd6bbb081cfbc5702 zonefs: fix zonefs_iomap_begin() for reads
-112a63e35cc12c00836c4bcf4ab81cdb0c8dd206 wifi: rtlwifi: remove always-true condition pointed out by GCC 12
-3a18a7f7430a834a678c5821e31d536ea4b06bbc eth: sun: cassini: remove dead code
-72fb3a6a2105e4b1b29a0404c49fb7ec27d17784 net: wwan: iosm: remove pointless null check
-7bcb0375d6f66b259d86fbda5871e19999ec1745 x86/boot: Wrap literal addresses in absolute_pointer()
-e6f6d2c3afb36780d3fcdc0ab15cfffe547897d7 fsnotify: introduce mark type iterator
-94e6f06fff173cf91fc8a0606df439f55caf980d fsnotify: consistent behavior for parent not watching children
-b2dc21b53cd12a9f3caf1e47d7b4a2ea1377e847 bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
-f246b75e4e110d245f1191b6dbed8e5b3fea2131 selftests/bpf: Add selftest for calling global functions from freplace
-8ea8240baf14efc571568e8a2a5dc79c5a949f73 dt-bindings: nvmem: sfp: Add clock properties
-941e19dcea462fbcda153cf8a9b298317a878695 io_uring: use original request task for inflight tracking
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656163627 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1656163626-7294fd1bb87811161437517ca55888122b12f94b
 
---===============3926379520997307352==--
+6e6aa177a4a00c371fa189c61a011e11080543e8 4fa36a9e4c6d0369ac41a7dbb27548e5a6c73fea refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK3DSsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4WgQAIVWxVDUptlIAF7me3eu
+EV8MGDBDOLBdsQfjTsFxZwoeHQ0zEwbVoev8d08usFhqA+hzrZ8vsOj51yeBbMSA
+R8HkNOchQYCoxwf7YGKLuoNuqtTsAh9xgYyhw0fVI54R6TzXIasnJ9lUaUf7UuVo
++2P3lHb3hqZ/gy/a3/DLd7/U1+ChWYzPcyc16I6St04y5yKsLwOjbH7gxjaSn7C2
+SyH4qquOHcEw8S+XYcGmA+WAT0mpJI+GgU9oqlaW8IHyVhEzyVqK8s2OyUMmn20c
+ajq6yS+0hNRdXOpKCdJ4b7L5JZy91tg+OcyFuy7cOFKx7VIOOdBOjs6F1FjrLYRO
+Ix+R+v5FyIYq+p7+6TtNGisP7kQGiledv+I3ChZ3VocykKNXB63vopUM3F+c+OPr
+m5cgz1seSzIsbqZbCRA+dVW+Mus1ohgiRRuV6PWsC0v+VnEMFDTqOCl8d0KZ84Uk
+zUUFsvln/DhaQACWgpEcU6AYuK0YyBRVpa8AlsACkAoTrLeZnAOKxCJXkjPESKPG
++kk22PBK+NVlpSdyaSuSV+97h2OIrpgarqxSdcuJJe0UfowtNY0/OtMjzJhC0pYM
+mRQoPb6qI7Xde3MJ32BxRtjMC6a6HyTcaQkC2YJHZ6PRZ6ukWe7jVrGj7eFTzXvf
+FLras/iX9swtjGGt9xNyy97q
+=fGBf
+-----END PGP SIGNATURE-----
+
+--===============7511001363119703370==--
