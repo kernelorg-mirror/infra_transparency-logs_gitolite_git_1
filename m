@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0791481633285528904=="
+Content-Type: multipart/mixed; boundary="===============3926379520997307352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 25 Jun 2022 13:19:53 -0000
-Message-Id: <165616319378.31999.17560190676842663943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 25 Jun 2022 13:19:55 -0000
+Message-Id: <165616319525.32105.11043695049489084057@gitolite.kernel.org>
 
---===============0791481633285528904==
+--===============3926379520997307352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e82cea3797b7f780d342e853ac1add80ba12f612
-    new: 554704e747dc7032aeff0951fbb008db53c989ba
-    log: |
-         554704e747dc7032aeff0951fbb008db53c989ba Notes added by 'git notes add'
-         
+  - ref: refs/heads/queue/5.18
+    old: 03117d7e5e1e0bcca5d99c1c5e11401d1fade84d
+    new: 941e19dcea462fbcda153cf8a9b298317a878695
+    log: revlist-03117d7e5e1e-941e19dcea46.txt
 
---===============0791481633285528904==
+--===============3926379520997307352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-03117d7e5e1e-941e19dcea46.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656163193 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1656163191-5f872e15bf735831cb18b922ae6b22562dfd0b9a
+12980c8d7a79e571059eed4c1fcfffdfbff51a75 s390/mm: use non-quiescing sske for KVM switch to keyed guest
+dd330da4ffe06080cfa48b4cd6bbb081cfbc5702 zonefs: fix zonefs_iomap_begin() for reads
+112a63e35cc12c00836c4bcf4ab81cdb0c8dd206 wifi: rtlwifi: remove always-true condition pointed out by GCC 12
+3a18a7f7430a834a678c5821e31d536ea4b06bbc eth: sun: cassini: remove dead code
+72fb3a6a2105e4b1b29a0404c49fb7ec27d17784 net: wwan: iosm: remove pointless null check
+7bcb0375d6f66b259d86fbda5871e19999ec1745 x86/boot: Wrap literal addresses in absolute_pointer()
+e6f6d2c3afb36780d3fcdc0ab15cfffe547897d7 fsnotify: introduce mark type iterator
+94e6f06fff173cf91fc8a0606df439f55caf980d fsnotify: consistent behavior for parent not watching children
+b2dc21b53cd12a9f3caf1e47d7b4a2ea1377e847 bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
+f246b75e4e110d245f1191b6dbed8e5b3fea2131 selftests/bpf: Add selftest for calling global functions from freplace
+8ea8240baf14efc571568e8a2a5dc79c5a949f73 dt-bindings: nvmem: sfp: Add clock properties
+941e19dcea462fbcda153cf8a9b298317a878695 io_uring: use original request task for inflight tracking
 
-e82cea3797b7f780d342e853ac1add80ba12f612 554704e747dc7032aeff0951fbb008db53c989ba refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK3C3kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pyIP/Rh2zRk5mfhZ6HsBIPrn
-td7PqgDdc9Q8/xvLuhdiEcHlS/FVAiv3AJg15tKyXFRgaNe+rWw56THUWoyXtXnW
-Ue1Q6XxABHXOzrTdwZioEQqd9oZsAHt1x3HH221UJ79xYySgcilHiLhtVxKTKdJS
-YNSiPdjrcjAcZNNG2tvQzvUWGz4cRmGYKzKKXB7/UrbNipJAvTsXeoMX69jr4WKH
-TPkTBpF3loBzS0UPo0LwI2ZpqhvWkz8rOLXlJUIopcQ6aAewnlmqXBfAyFhQuaix
-aLWwLj4aoQWr27GN+SRx1YeQ3tupjAftnYaWKjSFkOaIQ0rvoYfqFRqyjQ9tk2jH
-Yd/vgQQrEB/8d5OJg2XnLbKUbKBV9mYwECwWMZbqzbClQeuafTyRt9nuE6bzGO7G
-GiYvwJDRJSvktQ3+0Tj0qVXyIazpf1Y2tbrjYuCxKVBQeKXSjc+HxHoisM8zgPOe
-1WCjQO9tpPXitoqG7fpJyrHcZj5+6mw6UK2KudtmOdskKOyYvT/Ibe2TF5YjLuFC
-CeYqlZOrP/8gxw/rNu1sqVNYJcmyQio56hauZJ2aOh8ohTlHCk03kW0Bci0gbDWx
-1Ne+pPI1OfE54VpSMHZmdKGISDNGO0d8TszOpaTFl0CafuIpEtXHfLB6CXwlH4at
-1BXGoCnNxSbovh3S1S3eOiIT
-=kecx
------END PGP SIGNATURE-----
-
---===============0791481633285528904==--
+--===============3926379520997307352==--
