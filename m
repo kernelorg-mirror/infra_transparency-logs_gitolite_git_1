@@ -1,77 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============1540690240842736063=="
+Content-Type: multipart/mixed; boundary="===============6915730127323816908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 25 Jun 2022 10:47:43 -0000
-Message-Id: <165615406334.1755.17338705659932570228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Sat, 25 Jun 2022 11:22:58 -0000
+Message-Id: <165615617892.19998.2207828600911555209@gitolite.kernel.org>
 
---===============1540690240842736063==
+--===============6915730127323816908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/queue/5.10
-    old: b2a0f5512f872da40133fe402d40b3b21639bd5a
-    new: 1ba81a42b7f615531159405eee90e648ef2dfb90
-    log: revlist-b2a0f5512f87-1ba81a42b7f6.txt
-  - ref: refs/heads/queue/5.15
-    old: 92c6162588b811460f6de86be00ae16cc54b1358
-    new: 6def134cfb4e742601bf3cb1c35bfa6849fc1bfd
-    log: |
-         0d437cc05f360f77fddc8ea787693fea1ae373e9 s390/mm: use non-quiescing sske for KVM switch to keyed guest
-         65a911668210149c541f628773a48ac3b96c3046 drm/amd/display: Don't reinitialize DMCUB on s0ix resume
-         190e7b8b1c4cb840eeec598c2dac674d2c756d99 net: mana: Add handling of CQE_RX_TRUNCATED
-         1022b22d84f8ed3c9c7c38d989c0755ca9a13828 zonefs: fix zonefs_iomap_begin() for reads
-         c95434e912c34fdda0edd5a15f87ae057856e7b8 usb: gadget: u_ether: fix regression in setting fixed MAC address
-         b79a28d97cfa947decd25e029be86489a003cced bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
-         126e12373427cc755c1e3c6616b35563566b4adc selftests/bpf: Add selftest for calling global functions from freplace
-         7c75d09a6e0da6395df95d1d8d174c964f115e41 serial: core: Initialize rs485 RTS polarity already on probe
-         6def134cfb4e742601bf3cb1c35bfa6849fc1bfd arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
-         
-  - ref: refs/heads/queue/5.18
-    old: d864a4cfcf9e79bb40fac079d5e6a774e39f47cc
-    new: f0982f91cbd6786e7051da58ac7692dff01c537f
-    log: revlist-d864a4cfcf9e-f0982f91cbd6.txt
+  - ref: refs/heads/master
+    old: 6914df1891c27f83e538dab3f5aadd2842e89a7f
+    new: c3d396120d68c40cdf2a2da70eff3bf8806f0ff5
+    log: revlist-6914df1891c2-c3d396120d68.txt
 
---===============1540690240842736063==
+--===============6915730127323816908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2a0f5512f87-1ba81a42b7f6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b2fa2021d830c2f8d949da7037e9e722aa3bdffd s390/mm: use non-quiescing sske for KVM switch to keyed guest
-72e892d1bf32fa115af5650cdde271a0b64feb13 zonefs: fix zonefs_iomap_begin() for reads
-a3d544635790500d24e51050e6934f26f89b7092 usb: gadget: u_ether: fix regression in setting fixed MAC address
-27060e4a4da6bf4d1921f0936d0e814b4c82b979 tcp: add some entropy in __inet_hash_connect()
-97a8e3ddd5aee676ce49fe4551af7c76750e6ba5 tcp: use different parts of the port_offset for index and offset
-af8c707d1d3205f52015525021b2b704b206e0d4 tcp: add small random increments to the source port
-8c4b3d0e3b1e7e3db1fe66d1b97955c3529dc8d3 tcp: dynamically allocate the perturb table used by source ports
-bd072967646152680664503e71dcaf626cef9f74 tcp: increase source port perturb table to 2^16
-07f5cc07cd176631f69e95650981235b8f7318b1 tcp: drop the hash_32() part from the index calculation
-7cb4b556a675b593cf04708d1ec7d2ce5e791679 serial: core: Initialize rs485 RTS polarity already on probe
-1ba81a42b7f615531159405eee90e648ef2dfb90 arm64: mm: Don't invalidate FROM_DEVICE buffers at start of DMA transfer
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656156173 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1656156172-01a384f5f8f8be96c22561ac38c4338c13dab073
 
---===============1540690240842736063==
+6914df1891c27f83e538dab3f5aadd2842e89a7f c3d396120d68c40cdf2a2da70eff3bf8806f0ff5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmK28A4THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXUcfB/4rHGEjg2rS0Z5PWS1/R5UL8a+2KNbC
+we43XiIEHPJkUl8diJB98skW8eHMlnUCprwlKqyfA9cT7M/9pXUjcVVvzEnpDIaE
+VLFr9/P5/8JJ+h+/+8p4v1LA2o1CnF1SMtvaBwRBiOvX3thjrpd5fpD+6ueQltbN
+0DR6GXGZO8Ped48lxfxLUiricNVsky9ZuCZZSZpUHWTrJyXXlZRZeaG7QY5dy9JS
+n+Qq7eZ9hDrKs0o9JMm/1vUxhyjzCjOGDTU8v7GfqY9KoBDY4/8UDg6ClmTR4UzV
+D+l3f/0u96dgRyJZrOnKTeu6ffDADgmxh3T2MK7cW63J+Xa4PXsTkKlB
+=5yhd
+-----END PGP SIGNATURE-----
+
+--===============6915730127323816908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d864a4cfcf9e-f0982f91cbd6.txt
+Content-Disposition: attachment; filename=revlist-6914df1891c2-c3d396120d68.txt
 
-f3274878223b53e3d71c291a844e4175eac37449 s390/mm: use non-quiescing sske for KVM switch to keyed guest
-8b4d69580f8e962b450a65ef0fd98ec066b26e10 zonefs: fix zonefs_iomap_begin() for reads
-69caf80cc0a26a90ee1a78c321eb6555719bf207 wifi: rtlwifi: remove always-true condition pointed out by GCC 12
-6556c7a4d752dd2f8405d11035bab540bd52cfc7 eth: sun: cassini: remove dead code
-7c13493c3e09cb23c8df383603600caf8d74ab02 net: wwan: iosm: remove pointless null check
-6fdc025ab0ae3b939ee3664f169735086119bc2e x86/boot: Wrap literal addresses in absolute_pointer()
-4613c4895e481d4055a318498b43cace06390d62 fsnotify: introduce mark type iterator
-093013c1440ef35e4103da5b05d4567d10ef3ce0 fsnotify: consistent behavior for parent not watching children
-1bfa7e841f21309cc28825fdd2d5e97e6af689c6 bpf: Fix calling global functions from BPF_PROG_TYPE_EXT programs
-b92e1cc0ed0d2f3f4a3934530356575d2fdacf62 selftests/bpf: Add selftest for calling global functions from freplace
-f0982f91cbd6786e7051da58ac7692dff01c537f dt-bindings: nvmem: sfp: Add clock properties
+a9cf02c6a671bc84a348cd5934627ff68d8d8d35 can: Break loopback loop on loopback documentation
+173d349ba0b785305fde42a67ce66a63417e57da can: etas_es58x: replace es58x_device::rx_max_packet_size by usb_maxpacket()
+e0e0cc54000e6f36a38c70778feb9d753cfb87e2 can: etas_es58x: fix signedness of USB RX and TX pipes
+e909b43bddc0ff5db59e633398e35a25b9b2f0c1 Merge branch 'can-etas_es58x-cleanups-on-struct-es58x_device'
+c878d518d7b628bc40cacfc9cee4a3db91a6a9ac dt-bindings: can: mpfs: document the mpfs CAN controller
+38a71fc048955c5c9d8bd14351d0f8cbcfef4f5b riscv: dts: microchip: add mpfs's CAN controllers
+9341351495789ad51317b32976d52984f169d2fb Merge branch 'document-polarfire-soc-can-controller'
+ec30c109391c5eac9b1d689a61e4bfed88148947 can: netlink: allow configuring of fixed data bit rates without need for do_set_data_bittiming callback
+5e910bdedc84c1f196863cebdf27c1806449c27c can/esd_usb2: Rename esd_usb2.c to esd_usb.c
+f4a45ef328a2e3b751f9cf0f6bb25786a4d05d15 can/esd_usb: Add an entry to the MAINTAINERS file
+4d54977fe3f43dde2d7a28679fc259b7a593b1bb can/esd_usb: Rename all terms USB2 to USB
+2244610050c8eaa02a696dbe2966ce584eda8a6b can/esd_usb: Fixed some checkpatch.pl warnings
+ce87c0f1b8592e4f934bac16c44a801b7cfa7123 can/esd_usb: Update to copyright, M_AUTHOR and M_DESCRIPTION
+c3d396120d68c40cdf2a2da70eff3bf8806f0ff5 Merge branch 'preparation-for-supporting-esd-CAN-USB-3'
 
---===============1540690240842736063==--
+--===============6915730127323816908==--
