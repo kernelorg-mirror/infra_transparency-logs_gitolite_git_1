@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0476251305031786521=="
+Content-Type: multipart/mixed; boundary="===============0671187548732812442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Sat, 25 Jun 2022 19:11:44 -0000
-Message-Id: <165618430414.27299.4499225198646147007@gitolite.kernel.org>
+Date: Sat, 25 Jun 2022 19:12:09 -0000
+Message-Id: <165618432902.27673.16559260980259227695@gitolite.kernel.org>
 
---===============0476251305031786521==
+--===============0671187548732812442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 0840a7914caa14315a3191178a9f72c742477860
-    log: revlist-f2906aa86338-0840a7914caa.txt
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
+  - ref: refs/heads/dev
+    old: 82c7863ed95d0914f02c7c8c011200a763bc6725
+    new: 10f3adb9c255f15e8dea5f697581445f8b7e46df
+    log: revlist-82c7863ed95d-10f3adb9c255.txt
 
---===============0476251305031786521==
+--===============0671187548732812442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-0840a7914caa.txt
+Content-Disposition: attachment; filename=revlist-82c7863ed95d-10f3adb9c255.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -828,8 +822,6 @@ bf745142cc0a3e1723f9207fb0c073c88464b7b4 iio: accel: mma8452: ignore the return 
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
 534d2eaf1970274150596fdd2bf552721e65d6b2 random: schedule mix_interrupt_randomness() less often
 c01d4d0a82b71857be7449380338bc53dde2da92 random: quiet urandom warning ratelimit suppression message
-4cde00d50707c2ef6647b9b96b2cb40b6eb24397 f2fs: attach inline_data after setting compression
-61803e984307c767a96d85f3b61ca50e1705fc67 f2fs: fix iostat related lock protection
 9243fc4cd28c8bdddd7fe0abd5bbec3c4fdf5052 block: remove queue from struct blk_independent_access_range
 9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b ALSA: memalloc: Drop x86-specific hack for WC allocations
 315f7e15c261167ea71c1a4cce2a18ca30e990ea Merge tag 'iio-fixes-for-5.19a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
@@ -879,7 +871,6 @@ eb9e9bc4fa5fb489c92ec588b3fb35f042ba6d86 mips/pic32/pic32mzda: Fix refcount leak
 60050ffe3d770dd1df5b641aa48f49d07a54bd84 certs: Move load_certificate_list() to be with the asymmetric keys code
 3cde3174eb910513d32a9ec8a9b95ea59be833df certs: Add FIPS selftests
 db30dc1a5226eb74d52f748989e9a06451333678 mips: dts: ingenic: Add TCU clock to x1000/x1830 tcu device node
-82c7863ed95d0914f02c7c8c011200a763bc6725 f2fs: do not count ENOENT for error case
 34705a57e7df97d161324263c103c4d4d120dfe7 efi: sysfb_efi: remove unnecessary <asm/efi.h> include
 aa6d1ed107eba26f49933216cffe797253914132 efi/x86: libstub: Fix typo in __efi64_argmap* name
 cb78d1b5efffe4cf97e16766329dd7358aed3deb afs: Fix dynamic root getattr
@@ -1008,5 +999,13 @@ ea18d434781105ce61ff3ef7f74c9e51812f0580 LoongArch: Make compute_return_era() re
 cb84318baa063ffd11d4c5eec5c429c85855504a Merge tag 'loongarch-fixes-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 c24eb8d6a5b2da4cbef6a053f58ea9818c6dd659 Merge tag 'usb-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 0840a7914caa14315a3191178a9f72c742477860 Merge tag 'char-misc-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+c5bca38d2edc8a8030a8f1b99115480046c5bd7d f2fs: use the updated test_dummy_encryption helper functions
+55d2834b09dbbd03abe6e673e28e31db6dca2737 f2fs: run GCs synchronously given user requests
+e52fd1c743b55259101b05035377ab16b50f35c1 f2fs: do not skip updating inode when retrying to flush node page
+a2fe09e7dacaf2159f74df5f9d5d35f2a69609ca f2fs: optimize error handling in redirty_blocks
+9b77e3dc3e20b5664c082c844d549dcc41d3359f f2fs: initialize page_array_entry slab only if compression feature is on
+e7a0035ff8a5bd4fabe710571351cc7de09aeac5 f2fs: introduce memory mode
+9a5042fa67f134550c11a1eb6e02a5d234ac3d16 f2fs: handle decompress only post processing in softirq
+10f3adb9c255f15e8dea5f697581445f8b7e46df f2fs: remove redundant code for gc condition
 
---===============0476251305031786521==--
+--===============0671187548732812442==--
