@@ -1,60 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7912021404676908916=="
+Content-Type: multipart/mixed; boundary="===============6021248112978680304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 25 Jun 2022 08:54:20 -0000
-Message-Id: <165614726006.17339.10449331056474457757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Sat, 25 Jun 2022 08:55:25 -0000
+Message-Id: <165614732546.19208.2013927717708279904@gitolite.kernel.org>
 
---===============7912021404676908916==
+--===============6021248112978680304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 105f3fd2f789e001ba449d4020e168ea2b5b64aa
-    new: 508aeb54e4f0225f4ff3da9b7ec8ac44ce30aad8
+  - ref: refs/heads/queue
+    old: db209369d48eab1e2c724d90c606752d398ae334
+    new: b9b71f43683ae9d76b0989249607bbe8c9eb6c5c
     log: |
-         21cdd6a0e8441461e549f0c25af9696c6c4de22c usb: musb: mpfs: Fix error codes in probe()
-         db638c6500abaffb8f7770b2a69c40d003d54ae1 usb: dwc2: gadget: remove D+ pull-up while no vbus with usb-role-switch
-         2958d494b7577037a257461bae0bfe723f192910 usb: dwc2: drop unexpected word "the" in the comments
-         d46b4343e13246ab1d2b057b972657886e2a5f14 usb: max-3421: drop unexpected word "the" in the comments
-         508aeb54e4f0225f4ff3da9b7ec8ac44ce30aad8 usb: gadget: u_ether: Remove duplicated include in u_ether.c
+         72ae5822b81a6686c4b4d526ccdd7b7f5f0f9b97 KVM: x86/mmu: Use "unsigned int", not "u32", for SPTEs' @access info
+         b9b71f43683ae9d76b0989249607bbe8c9eb6c5c KVM: x86/mmu: Buffer nested MMU split_desc_cache only by default capacity
          
 
---===============7912021404676908916==
+--===============6021248112978680304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656147259 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1656147258-bfdcdf88083ea8debb1ccae6f8b2d334e74007f3
+pusher Paolo Bonzini <pbonzini@redhat.com> 1656147321 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1656147320-9fd8876dc64a42ba74d02a1ed4d6424e90780f04
 
-105f3fd2f789e001ba449d4020e168ea2b5b64aa 508aeb54e4f0225f4ff3da9b7ec8ac44ce30aad8 refs/heads/usb-next
+db209369d48eab1e2c724d90c606752d398ae334 b9b71f43683ae9d76b0989249607bbe8c9eb6c5c refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK2zTsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zh4QAIhICtOX3vSU08m4e8kK
-qN9hF38fPoGu5NJopSQy52/XX8caqPPvxgxzZdHLPl+65ItA2bVwmJmTtfPUhYpg
-T5IFHhk6glMZl5Yh1Vbt2hhWfMCzGCCc/4dAKqUpNQWEbPubSbUN23CBl09Ycxdq
-aUdhtMbXgww2bVOENQ1N5mExYxv45nfaJmGuCDqq21dnbCco3yhqZ3FeE50D1/+L
-q6sueMSGV0mOtqeZdCVvBVkCI/6LFcISxoFRHC84K4JqLxlyTWEUHfDzPvkNsPad
-edE+9+yh2wAfNwby6TnYyocJITkZ4pblPn3842fzIR/zNsXHq0gDC7oZTKVnmAyo
-SxkeTjYPmQqqyEa7Bd9HZmPgou7tzJLJlajoeqlsaaBtTzmJ9HIRpjoEv3MQqsOJ
-WrKkC8IvClcevPJaAneD/1ZrKBWuRZlQkJxxeo8D9N+JBoLrmvqt0zZOeuB6WmKP
-vYxf2PstB/+9TAwYN5xHrPt5HmpRuWgoKMxeaFP51b4SY1C5f/xeNycpQPimr9Yy
-JlPJrBMq2nNSpuaBV1GyPqXRG9f9gMT/JtQ5+FdaEhqSLvwTysCmIwvCrzrNgCfs
-rNGPNAyWHW6o1wbt0GF4B9IK8ny5Pv794VUuKDddwF9XHRDn6LpWnnzeJ1pS8zAL
-KslE8MDqvxGEi/wZuX0/yz7L
-=laS2
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmK2zXkUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMQPgf/eWBNdobRfP+jed8Ye2Z3Uga4v5IT
+UWwAso1TOHhFXEiPOFASofgUxcEoRBuIxujCYf1M5BmQvnR9rvdfzrHDSRTxh/cM
+Oh1gRPmWaXNempKtR5Wrqi69JdNWyl9gJOH/Ebd+WI9trsULZyn9G2Z++H2MTQAn
+XIbvo2nm+HMNddrkiVqfLnnQ39lWTKK8A+oc8oSuBIXSwUsL/ut4ltuHJHdy0d8x
+32GK0LZZcqanfcN/vcLy+GimxAEt/gV5jxT6a4Wjx/P/Ta3eoIo+EYK/NMQAlPjB
+pyzE5VrdBmL6JQVDenc6AYVbCWoxdJi5h1+j53YJsZ5WlOEStCtLV8kp6w==
+=PX3b
 -----END PGP SIGNATURE-----
 
---===============7912021404676908916==--
+--===============6021248112978680304==--
