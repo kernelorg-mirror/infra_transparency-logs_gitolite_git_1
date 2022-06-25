@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3658205026192808002=="
+Content-Type: multipart/mixed; boundary="===============0831943851637347339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 25 Jun 2022 14:52:47 -0000
-Message-Id: <165616876790.22678.11324304151823958002@gitolite.kernel.org>
+Date: Sat, 25 Jun 2022 14:54:52 -0000
+Message-Id: <165616889295.23477.5731034130378367965@gitolite.kernel.org>
 
---===============3658205026192808002==
+--===============0831943851637347339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,167 +16,176 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: af5f6b4e8b57b0635f68c550bcf461c4031d87fd
-    new: 4237929d30320cb197e7e82ca36862a5687e8b98
+    old: 4237929d30320cb197e7e82ca36862a5687e8b98
+    new: ed01c0195011a9f92ec90df0c50c599da6ee957a
     log: |
-         4ca5845cf3e722645d8a2eb01d34631b148e091a vt: drop old FONT ioctls
-         6f6cef9345418b9fb1d3079292bae4528e570ded random: schedule mix_interrupt_randomness() less often
-         8e9ac8d0943de3cf7857d9e297908ca0e15a7df0 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-         4237929d30320cb197e7e82ca36862a5687e8b98 dm era: commit metadata in postsuspend after worker stops
+         4b6fd5aec8f668c1a1b21a0c63764b2e15288a5d vt: drop old FONT ioctls
+         311be6edb645a479101fb7344ba56db8c0a93293 random: schedule mix_interrupt_randomness() less often
+         68ecbd489ea769b451202573d1574309f6620aac ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+         ca741ad8beef39beff8072a5b57e43a6706d7aa1 dm era: commit metadata in postsuspend after worker stops
+         ed01c0195011a9f92ec90df0c50c599da6ee957a random: quiet urandom warning ratelimit suppression message
          
   - ref: refs/heads/queue/4.19
-    old: afc96383f9cf86698f8d7081aa090db701776d52
-    new: 858191c72492795d054b0018f3b2001d37e2eb42
+    old: 858191c72492795d054b0018f3b2001d37e2eb42
+    new: 9a1623669a06096ee3a4fbf53a853edf6533ede5
     log: |
-         a5e72f8de2271554ae4d6b8689522d71149b3a17 vt: drop old FONT ioctls
-         83c6068f99155c8bad64e7cb920378f6fbaa7ffc random: schedule mix_interrupt_randomness() less often
-         64233f4227ebc51cf8fed06cb68b6a78f56745f5 ALSA: hda/via: Fix missing beep setup
-         26c69577d681b08d2487e987adbd3a8b4adc0867 ALSA: hda/conexant: Fix missing beep setup
-         dc3acb0f9ccd9b9f2b03f98aa6b67907b3925889 ALSA: hda/realtek: Add quirk for Clevo PD70PNT
-         adb9530d1ea5117bd6190b19d0b4eee500a6b247 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-         858191c72492795d054b0018f3b2001d37e2eb42 dm era: commit metadata in postsuspend after worker stops
+         f6c46342f9786df7c494324c746bf6beabbc9136 vt: drop old FONT ioctls
+         739d128204c36421dfb099d30f4349bf0f34cf44 random: schedule mix_interrupt_randomness() less often
+         c801177bb6773c541850d20f94077867cd5da82d ALSA: hda/via: Fix missing beep setup
+         118f224dbb2924c7c92e20ae48ff2ef7b6bfdf13 ALSA: hda/conexant: Fix missing beep setup
+         22b74a0a29b58df8da4fa05861b7aea35f89141c ALSA: hda/realtek: Add quirk for Clevo PD70PNT
+         801151019d1b48ccb5bb2d3c4307d25f35b1c76b ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+         6bec7b4ee3ef3b676c13600bf278f71448968343 dm era: commit metadata in postsuspend after worker stops
+         9a1623669a06096ee3a4fbf53a853edf6533ede5 random: quiet urandom warning ratelimit suppression message
          
   - ref: refs/heads/queue/4.9
-    old: dc6a8c1926d783428c105b5ebb75509c47d374b0
-    new: db7c59e34d678d7456407b97c91e32c966c77b05
+    old: db7c59e34d678d7456407b97c91e32c966c77b05
+    new: 32ddafa2f78c57e867452f82a7b6781d8e80e4fd
     log: |
-         df67f57d1341c5f3301b6c8b68d24f2cdb7de77a vt: drop old FONT ioctls
-         669b6f726ceb9dc77fd2c29696c5fbde00dc3eb7 random: schedule mix_interrupt_randomness() less often
-         1a7a4e0a7a841da5049f83aff00c0caa1d12541f ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-         db7c59e34d678d7456407b97c91e32c966c77b05 dm era: commit metadata in postsuspend after worker stops
+         3bee0ba08b361e76d9106b41d81004eae36dc4c0 vt: drop old FONT ioctls
+         7efe092b17d42cf306b53492522a8cefa6464eb5 random: schedule mix_interrupt_randomness() less often
+         0c07f081622b198775e8c8ceebde8d74b3099240 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+         b163078249a80d8d3fb7976737b87f6d7d528e37 dm era: commit metadata in postsuspend after worker stops
+         32ddafa2f78c57e867452f82a7b6781d8e80e4fd random: quiet urandom warning ratelimit suppression message
          
   - ref: refs/heads/queue/5.10
-    old: 227d7023836f9b48df80026d1038374080179a14
-    new: b89c6424c9d0bff610b2da7a7bd6335f3aab09de
-    log: revlist-227d7023836f-b89c6424c9d0.txt
+    old: b89c6424c9d0bff610b2da7a7bd6335f3aab09de
+    new: 49a53a26dd2a21d67d557a91f17fa446e0b68afc
+    log: revlist-b89c6424c9d0-49a53a26dd2a.txt
   - ref: refs/heads/queue/5.15
-    old: d800e58029f9a7cdd45cbe519786596a13454820
-    new: b5f1b947d76c1d37882776140dec14486266e3c0
-    log: revlist-d800e58029f9-b5f1b947d76c.txt
+    old: b5f1b947d76c1d37882776140dec14486266e3c0
+    new: 748c8924f303b0f435022a765e69fc6c3741666a
+    log: revlist-b5f1b947d76c-748c8924f303.txt
   - ref: refs/heads/queue/5.18
-    old: 7e29a854d1c4c1ac16f2073cea9ddf2cdfb196d4
-    new: f47b41773fadba1a455d89b7c58ba53b70252c9c
-    log: revlist-7e29a854d1c4-f47b41773fad.txt
+    old: f47b41773fadba1a455d89b7c58ba53b70252c9c
+    new: 326cef5f6d88371384e6af1bdeab2ac16b36b3e5
+    log: revlist-f47b41773fad-326cef5f6d88.txt
   - ref: refs/heads/queue/5.4
-    old: 9bc3f83a9976e308b652a22303801ff30b7e1e9e
-    new: 7b22c3d38dc648ab3b6937e289d2552b68a87bd9
-    log: revlist-9bc3f83a9976-7b22c3d38dc6.txt
+    old: 7b22c3d38dc648ab3b6937e289d2552b68a87bd9
+    new: 8cf94cbd8051595d765780718b868119ffe78fd9
+    log: revlist-7b22c3d38dc6-8cf94cbd8051.txt
 
---===============3658205026192808002==
+--===============0831943851637347339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-227d7023836f-b89c6424c9d0.txt
+Content-Disposition: attachment; filename=revlist-b89c6424c9d0-49a53a26dd2a.txt
 
-e6513c5229998fcee029662f767b2c47793476cb vt: drop old FONT ioctls
-66e058712b8509cdabbb8ef8725aff13b01556a1 random: schedule mix_interrupt_randomness() less often
-bb72f582a09ee2de2a79e4986b26f02450e52241 random: quiet urandom warning ratelimit suppression message
-9860fe6d37ed9391cea89a14ced3e28a6f2dd985 ALSA: hda/via: Fix missing beep setup
-c462d25eee7cf70a559b6ee6c731ec0acf878b98 ALSA: hda/conexant: Fix missing beep setup
-bb0f81c5fc2daa58e42503edfd477b60542c9cd9 ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
-720b02a81a7f53b11fb555bd531b70c4647d135a ALSA: hda/realtek - ALC897 headset MIC no sound
-80b56d789cc2e0ebda072135afdb1538ac13b470 ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
-d2eb4a55773c8ffb4ffef1316592a64a5cd217fc ALSA: hda/realtek: Add quirk for Clevo PD70PNT
-da9c7c392e1b5087b73ee00c9ef0f2fbcd3aa42d ALSA: hda/realtek: Add quirk for Clevo NS50PU
-d0b9ca7309e006899dfc0714de097fa1984e1046 net: openvswitch: fix parsing of nw_proto for IPv6 fragments
-2cbc427a8ebfda85dd6e7f6c284aee59a9f82c2b btrfs: add error messages to all unrecognized mount options
-0c8338590918b4c68fbb9eb94600c1f3df92b8ce mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
-d46d411fc17ddcd7d9a1bc41018d98cbb34c10e2 mtd: rawnand: gpmi: Fix setting busy timeout setting
-c8bbf6f3ee7c917404823e389cc4ca61f6eb3073 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-23c78c56976b992a8a2b0cd8e5e32014c0e14fa7 dm era: commit metadata in postsuspend after worker stops
-b89c6424c9d0bff610b2da7a7bd6335f3aab09de dm mirror log: clear log bits up to BITS_PER_LONG boundary
+34cb377adb9a5b2bf22401b466dc03b0332bce06 vt: drop old FONT ioctls
+19b42f755641718ff8a413ac55c66f2a7cc90fd9 random: schedule mix_interrupt_randomness() less often
+5e1d5340b4abc07fe6b0fa7ca063870482d9e0db random: quiet urandom warning ratelimit suppression message
+0a750b8974229122a4d0f5336f19eee60ece6dd2 ALSA: hda/via: Fix missing beep setup
+d5fba1b8b7fa74788838395ed9290ad3c8b0d680 ALSA: hda/conexant: Fix missing beep setup
+88b754241ad3f7cbb08ad6057724a86af45ea3e2 ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
+1a38180a5c05c50fc839064964610cfd31a6bb47 ALSA: hda/realtek - ALC897 headset MIC no sound
+086e8b743bcb5f8febc231d5347f20f10bad006f ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
+cfd220921cb167aa3946a04fadf1836de936578d ALSA: hda/realtek: Add quirk for Clevo PD70PNT
+b53b788f0f778585300d78bac9719a1382b29f49 ALSA: hda/realtek: Add quirk for Clevo NS50PU
+c8accd3c04f34d186364ec8346ce6457f4b860d6 net: openvswitch: fix parsing of nw_proto for IPv6 fragments
+54097ff1337d92ea0da9d5933536cd6395e0dc3f btrfs: add error messages to all unrecognized mount options
+0b10f89319685517f10e54c881f38d909fbe95d7 mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
+05d6873072783cca7deba1fd8f7cc633611b0333 mtd: rawnand: gpmi: Fix setting busy timeout setting
+a0e32376401596ea590ae8af024e6d888dc03b02 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+0f533b55973b4ba652c7ab31c67c83634314ba2a dm era: commit metadata in postsuspend after worker stops
+49a53a26dd2a21d67d557a91f17fa446e0b68afc dm mirror log: clear log bits up to BITS_PER_LONG boundary
 
---===============3658205026192808002==
+--===============0831943851637347339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d800e58029f9-b5f1b947d76c.txt
+Content-Disposition: attachment; filename=revlist-b5f1b947d76c-748c8924f303.txt
 
-b3eb8e6b8b6add32ea08ccaa00393623e86cd432 random: schedule mix_interrupt_randomness() less often
-ed9f1aacf7d64fa4af24fd6fac0155e879802643 random: quiet urandom warning ratelimit suppression message
-006f8c089cfe93ddea10e3274c7d7e106cbf5535 ALSA: hda/via: Fix missing beep setup
-bba453a4623a665f80d0a55a45a43aa0e61d0389 ALSA: hda/conexant: Fix missing beep setup
-318ed148dfbbb65e6c0e22377e2de9637ac29ee5 ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
-44816ec5f879c5227fff7bd108d88fa467344e01 ALSA: hda/realtek - ALC897 headset MIC no sound
-c3d249f016a2c34d3f5942c4df66b6e92b0a64f2 ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
-6407cb075a747da1f662bee2114db7f6896514d3 ALSA: hda/realtek: Add quirk for Clevo PD70PNT
-fc3a562b95bc80e24eadf923dd9eaae65754277a ALSA: hda/realtek: Add quirk for Clevo NS50PU
-763a0abcbd4045ea3a149dd27f8685094aaa9e09 net: openvswitch: fix parsing of nw_proto for IPv6 fragments
-36a1e5b012ec49a07b94861635ea2f0da29fad42 9p: Fix refcounting during full path walks for fid lookups
-7c60c21f4a561099267d23035b938e3856a5ad90 9p: fix fid refcount leak in v9fs_vfs_atomic_open_dotl
-0b4e155efdfab755d7fd0b3aeee282e8185c9d28 9p: fix fid refcount leak in v9fs_vfs_get_link
-2dfe086c4eda2714a6a07573b72f263c72e677bd btrfs: fix hang during unmount when block group reclaim task is running
-441c7bd229ee93ad986e8a3044593361987df01c btrfs: prevent remounting to v1 space cache for subpage mount
-32956051c9e1bf1da9353997559f30c16c434d46 btrfs: add error messages to all unrecognized mount options
-45a319c914e7621eca221f2336377329df3c491a scsi: ibmvfc: Store vhost pointer during subcrq allocation
-74bed3962441f6272c725cacd4e79dde7012d0a4 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
-6d9f5f5987897d246a4dcbfeb14ee92c060cd5ab mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
-4f69df66bb83e4fca3caf15977314eb9d9a06169 mmc: mediatek: wait dma stop bit reset to 0
-7eee2b95ee844d433c853bf3e4717c4dce9abe7d xen/gntdev: Avoid blocking in unmap_grant_pages()
-5ab3e1cfea7aff5d8205105cfea3e3e3ba299499 MAINTAINERS: Add new IOMMU development mailing list
-fa9bb7e40363176a6b1502602a2907e093709d7b mtd: rawnand: gpmi: Fix setting busy timeout setting
-6cf73720a60c1c2804080c66b4c21ad74188b4ad ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-57a72891aabb18a0bf0bdc441f13b340d5cedddf dm era: commit metadata in postsuspend after worker stops
-7e23efb7a3c37c9b6cc708c9dac43d28f9bebad9 dm mirror log: clear log bits up to BITS_PER_LONG boundary
-17e4c6cfd981e74c6fa94f67698d415b15fffdd5 tracing/kprobes: Check whether get_kretprobe() returns NULL in kretprobe_dispatcher()
-b5f1b947d76c1d37882776140dec14486266e3c0 drm/i915: Implement w/a 22010492432 for adl-s
+7fbce330920e43419f039d946ea1146243d4a792 random: schedule mix_interrupt_randomness() less often
+a5d0b5d2a06fe547a2d644a1eb2e2e5aa356b42d random: quiet urandom warning ratelimit suppression message
+4376107503da49c0d45190bf6e7e82ae8965a5fc ALSA: hda/via: Fix missing beep setup
+73b4b50cc3516def85af5eccdfaf485eb013a732 ALSA: hda/conexant: Fix missing beep setup
+bfee72435c63dc9760fcedb64712eebf9ab275f8 ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
+94ed2c763ff254faad29b357bd951748cec9f93b ALSA: hda/realtek - ALC897 headset MIC no sound
+9f0bc85dcd76fb4f953afa34983f81502225b6df ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
+1786cd9729145ddd599d99094a3b13b5bdb06282 ALSA: hda/realtek: Add quirk for Clevo PD70PNT
+8709072761bacea89a483328e39fbcf59fc0951f ALSA: hda/realtek: Add quirk for Clevo NS50PU
+9a57179e72fb38b200881231b1afcb4d04086e3b net: openvswitch: fix parsing of nw_proto for IPv6 fragments
+61a42183880433f5052e84a5feeff828532d95c7 9p: Fix refcounting during full path walks for fid lookups
+598d199247207aa7a229b01edfd99d723b8f28bf 9p: fix fid refcount leak in v9fs_vfs_atomic_open_dotl
+5642e61c08de636f586a11385839752834c986c4 9p: fix fid refcount leak in v9fs_vfs_get_link
+269efb4e8f43c8c0e776b31cf39571b313372c05 btrfs: fix hang during unmount when block group reclaim task is running
+054bd2755f9e01cf4ffa172107ad2a8316d5167e btrfs: prevent remounting to v1 space cache for subpage mount
+afda8a608f8f614a679a2893c71c369cd994a488 btrfs: add error messages to all unrecognized mount options
+09dea323f6101e4e251ce0890a489706a25163d0 scsi: ibmvfc: Store vhost pointer during subcrq allocation
+ac9ce636fa6bf5d15d6c70706cba336dc879dbf5 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
+d135b6d6d509f0029ebe96eec28ddee03aa982ba mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
+085066797a1abcc03302181c246156ddbd85d6dd mmc: mediatek: wait dma stop bit reset to 0
+7dda72ce779776a81c108bdd9384941837b511b8 xen/gntdev: Avoid blocking in unmap_grant_pages()
+968075a42a90db21f22e8e5d0323d38d9e5cae10 MAINTAINERS: Add new IOMMU development mailing list
+6c7107cf952de5803cbeeb1d11513a32d8f080b0 mtd: rawnand: gpmi: Fix setting busy timeout setting
+d08abf13aed499813e131d2bf72a5824644d9401 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+a04957f73ba92d5079fe675ffdaee51db995a146 dm era: commit metadata in postsuspend after worker stops
+707614e7742c9ca7b8e56b3cf8482546fd64b91d dm mirror log: clear log bits up to BITS_PER_LONG boundary
+645a6105338ba9ea9acb2ad419990c21b22c375c tracing/kprobes: Check whether get_kretprobe() returns NULL in kretprobe_dispatcher()
+748c8924f303b0f435022a765e69fc6c3741666a drm/i915: Implement w/a 22010492432 for adl-s
 
---===============3658205026192808002==
+--===============0831943851637347339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e29a854d1c4-f47b41773fad.txt
+Content-Disposition: attachment; filename=revlist-f47b41773fad-326cef5f6d88.txt
 
-6776bcdfd29ad40f6656df487245d5a395e899a0 random: schedule mix_interrupt_randomness() less often
-19b80ccf63b5f2392dc801dd78483da405b9f8d7 random: quiet urandom warning ratelimit suppression message
-a590a3014d7a1dd1e28a09f640d96c5d17f4b9e9 ALSA: memalloc: Drop x86-specific hack for WC allocations
-8bc4c8fcaa164524df13e1cd635f1c22b1fd4eee ALSA: hda/via: Fix missing beep setup
-7f95d6a7e6d4c68b660e4c857dc9b048aeb2a4e0 ALSA: hda: Fix discovery of i915 graphics PCI device
-7d152381dec40523652bbd29a691f5a61d17560b ALSA: hda/conexant: Fix missing beep setup
-094dc4e4341fa1d23f5845f9544ed7a28f2b5306 ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
-2bf5296df6ddac7b5cb61884bdce57878c49120c ALSA: hda/realtek - ALC897 headset MIC no sound
-5e995597eebbf200cc9824a68b6a7fc7ed2aa591 ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
-5cd922c01f716be71e87ce42df6ced6666fcad9c ALSA: hda/realtek: Add quirk for Clevo PD70PNT
-02c7a9915e7b3817c63eb91ea6aacebf09f107a5 ALSA: hda/realtek: Add quirk for Clevo NS50PU
-5bb5615c7c4d6f84e6fc61718befa8335c256e29 net: openvswitch: fix parsing of nw_proto for IPv6 fragments
-b1133c56a2569160db4b5a72da71a19463eaec6f ipv4: ping: fix bind address validity check
-80b8707b4e72aa901b23f709afc86ea4908cb80b 9p: Fix refcounting during full path walks for fid lookups
-e60f2edae017b0d5faeeb640f66c9bd17713b21b 9p: fix fid refcount leak in v9fs_vfs_atomic_open_dotl
-3f4dc856d4eb2b2f2a6f18492ca7d19968e44247 9p: fix fid refcount leak in v9fs_vfs_get_link
-8e0fab8971f8ee0308c7196bee33d0199478ae15 9p: fix EBADF errors in cached mode
-ebc42b7f8da7997224278c3e1aad87523be1a15b btrfs: fix hang during unmount when block group reclaim task is running
-26bbec41b5894872b83f6d8b75faec5b3fd4ef1d btrfs: prevent remounting to v1 space cache for subpage mount
-7e82a6212dce42d7e00d17f3fdf4056b95156736 btrfs: add error messages to all unrecognized mount options
-b701dedbb1efe21b26de8d1886c461eb484d4e1a scsi: ibmvfc: Store vhost pointer during subcrq allocation
-38a63539704c93e1dc5821e15456b9ad1372e345 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
-2b56ab2318b8d88d8b5d87cd2f75c914df2c99c6 mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
-25427b901350fe9b3829b26be5e89c5099f163c2 mmc: mediatek: wait dma stop bit reset to 0
-cd02836b0bfe416c8162335ec569a8f880998472 xen/gntdev: Avoid blocking in unmap_grant_pages()
-5ddc49661ece86370e2f37174d0ae6cf1aa47cc6 MAINTAINERS: Add new IOMMU development mailing list
-3c25401eb9b176e193cff5dbe4999032c40d5df7 mtd: rawnand: gpmi: Fix setting busy timeout setting
-9adb3805f605b3b4ff36ae020bdd5af825c8e9ae ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-556165d3276acd228ed5cc1867621ff38bbe7a93 dm era: commit metadata in postsuspend after worker stops
-5a0ffebf8f09198cf440b9999285d73057da22cd dm: do not return early from dm_io_complete if BLK_STS_AGAIN without polling
-c7fc2f3121d8ca8619bb3a82ecbeffc7ee732cc5 dm mirror log: clear log bits up to BITS_PER_LONG boundary
-f47b41773fadba1a455d89b7c58ba53b70252c9c tracing/kprobes: Check whether get_kretprobe() returns NULL in kretprobe_dispatcher()
+7ea95a36e18034c40f6520bfcec500d241a53c65 random: schedule mix_interrupt_randomness() less often
+d531fe01a3447489a675c4050d2b90ffabd2aae8 random: quiet urandom warning ratelimit suppression message
+7e645ba3dc57e66874cd13588f1cd9c4408623ed ALSA: memalloc: Drop x86-specific hack for WC allocations
+07f2c867617aa180079879ad87c398bfe3a8db31 ALSA: hda/via: Fix missing beep setup
+3d09fa7c00e421aa6965635231fecde8c50bb2d1 ALSA: hda: Fix discovery of i915 graphics PCI device
+ae893bddff4a4da96ea6158c5926cc567157050e ALSA: hda/conexant: Fix missing beep setup
+ab0085436ed6629c322fe5a3a1c17d88da939c8a ALSA: hda/realtek: Add mute LED quirk for HP Omen laptop
+eb056a684a246e7c2984840ef87a99d7b7bb2ad3 ALSA: hda/realtek - ALC897 headset MIC no sound
+a71154c3561e3bf000726c6f6dbb0ad75955eee3 ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
+64a34a023dc89980d18c6ec37b80df6cca7a38fb ALSA: hda/realtek: Add quirk for Clevo PD70PNT
+a370980335f644f3a34e5e32776b8f2b16b7ce32 ALSA: hda/realtek: Add quirk for Clevo NS50PU
+9b53295b7d1c983f820a9a531e3632b4d0e50c4f net: openvswitch: fix parsing of nw_proto for IPv6 fragments
+ed817eb7aaa6846d02f2c7c3fb36f37dc0a2e855 ipv4: ping: fix bind address validity check
+aef4b07416f457d21991f56203561f5d6adb2bed 9p: Fix refcounting during full path walks for fid lookups
+b031e6cba762b7df5a6294ff6d9e6beb38100c79 9p: fix fid refcount leak in v9fs_vfs_atomic_open_dotl
+07ba1bd9e1a2d0431077581d63a982f23f5d90a9 9p: fix fid refcount leak in v9fs_vfs_get_link
+1dc090d02f77c54b8f4cba7bb1d05f4e004734cf 9p: fix EBADF errors in cached mode
+52ff0668164753d0b2b0b6addf0cbfafd7566d2d btrfs: fix hang during unmount when block group reclaim task is running
+96df3859d36006ba8cdda6f0103256c5ad6028e1 btrfs: prevent remounting to v1 space cache for subpage mount
+234c46414522fe874a7dddb2488503827282762a btrfs: add error messages to all unrecognized mount options
+f6768d9e35a2f1019f5d094f03d63f342ad30c9c scsi: ibmvfc: Store vhost pointer during subcrq allocation
+a8d26df0b292b6be33a131fd52512b05850cdea1 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
+d770403f23261e1cde81db45977234f78de4cfc5 mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
+f3dafca1ed891cca3ad784ee9d0e1635ec187c70 mmc: mediatek: wait dma stop bit reset to 0
+f895ab862d8c45cacfe80441436a01130eeae0b8 xen/gntdev: Avoid blocking in unmap_grant_pages()
+9b413a393f241be872d8221072a12c598c5b8c95 MAINTAINERS: Add new IOMMU development mailing list
+777800130bd4775b6a7a7984a94343a85d3cf303 mtd: rawnand: gpmi: Fix setting busy timeout setting
+f50e00dc98f3bfe41ef4d8330f8f4dbc8b874f56 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+df68d652eef7fc8b36e04f08ecea98d2d4237e1c dm era: commit metadata in postsuspend after worker stops
+c92d77510b6884859855222ffab14223765d4564 dm: do not return early from dm_io_complete if BLK_STS_AGAIN without polling
+88f74c4b3f336663d01a76810daeeee199dcdb13 dm mirror log: clear log bits up to BITS_PER_LONG boundary
+10440eb1c7760f631e008642e385b832cca8c961 tracing/kprobes: Check whether get_kretprobe() returns NULL in kretprobe_dispatcher()
+cb2e7deee3947aa09c1638f8d94816a18d049e27 filemap: Handle sibling entries in filemap_get_read_batch()
+00e9d6b021a4e116fae47969808f49434241e8fb mm/slub: add missing TID updates on slab deactivation
+fb89d3930f567923e0faa4184fd95b394fef48b0 drm/i915: Implement w/a 22010492432 for adl-s
+f8e055d97ef773e875eba7309378f669c97a975d amd/display/dc: Fix COLOR_ENCODING and COLOR_RANGE doing nothing for DCN20+
+326cef5f6d88371384e6af1bdeab2ac16b36b3e5 drm/amd/display: Fix typo in override_lane_settings
 
---===============3658205026192808002==
+--===============0831943851637347339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bc3f83a9976-7b22c3d38dc6.txt
+Content-Disposition: attachment; filename=revlist-7b22c3d38dc6-8cf94cbd8051.txt
 
-65a3048c58a4eb4359be668e8eec961d9bb88e25 vt: drop old FONT ioctls
-80b1c879e4fae55a0a91dc061d5d59b33c5af746 random: schedule mix_interrupt_randomness() less often
-b5d383854e6e90fdf86d2b103824f56d49a080f9 ALSA: hda/via: Fix missing beep setup
-e3e5b291ac006d223c63a31e8b38c14ae5764f68 ALSA: hda/conexant: Fix missing beep setup
-3af250ed45c64a22a8c6e8fa5a02db06a3c81977 ALSA: hda/realtek - ALC897 headset MIC no sound
-c19a63d17b54a2c7c477706e7815b87f086c876c ALSA: hda/realtek: Add quirk for Clevo PD70PNT
-bc8c3356c877f2b5f92552656f5b06aa7aea2e92 net: openvswitch: fix parsing of nw_proto for IPv6 fragments
-94f481199a1b098682d302de49b71202d2e98adb mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
-3b050fe74fc778b4673bcbfe91f1248b857463ae mtd: rawnand: gpmi: Fix setting busy timeout setting
-4020bb2996f807010795ff9898bbbaebab3b7cf1 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-bb90b3d1ba33a66547956eb62e932c933c9af203 dm era: commit metadata in postsuspend after worker stops
-7b22c3d38dc648ab3b6937e289d2552b68a87bd9 dm mirror log: clear log bits up to BITS_PER_LONG boundary
+ed74b7341ab482b166e9f04a369f8e0f87c824fd vt: drop old FONT ioctls
+2751b20ea1f4cf0bc94b42a5a5eafb5126ea929b random: schedule mix_interrupt_randomness() less often
+e8516c2eed20ab54b1fa6ada7e63af87809007d9 ALSA: hda/via: Fix missing beep setup
+f4746cfbdd5eeb6b030c0509a1163f87da24fd14 ALSA: hda/conexant: Fix missing beep setup
+01b3bc37fe2695e4b33d65bbcdf1ef314f3cd45e ALSA: hda/realtek - ALC897 headset MIC no sound
+89ad5fab02fffac22f0cad5ec37e959dc5a9d3a9 ALSA: hda/realtek: Add quirk for Clevo PD70PNT
+bfca21a652ca4af769609429437f1a085051fb57 net: openvswitch: fix parsing of nw_proto for IPv6 fragments
+44000ae33ac403e0f07565d62e4fcae8cb6ed3fa mmc: sdhci-pci-o2micro: Fix card detect by dealing with debouncing
+df6062608035131dc669c7ad36d23cb42a7145d1 mtd: rawnand: gpmi: Fix setting busy timeout setting
+c0fd3b9c6884e0fd9e889674b1f148216d112914 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+05eb48f2bcd853141c5f88fb98fcc625259156aa dm era: commit metadata in postsuspend after worker stops
+97b39f708764a58249ea8bcf14d931d66df1ebcb dm mirror log: clear log bits up to BITS_PER_LONG boundary
+8cf94cbd8051595d765780718b868119ffe78fd9 random: quiet urandom warning ratelimit suppression message
 
---===============3658205026192808002==--
+--===============0831943851637347339==--
