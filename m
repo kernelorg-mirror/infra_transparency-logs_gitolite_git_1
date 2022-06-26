@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3800142257429566041=="
+Content-Type: multipart/mixed; boundary="===============2122244885307934118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 26 Jun 2022 17:35:02 -0000
-Message-Id: <165626490281.2949.15920092065881397658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sun, 26 Jun 2022 17:41:08 -0000
+Message-Id: <165626526825.6489.6606460071531606502@gitolite.kernel.org>
 
---===============3800142257429566041==
+--===============2122244885307934118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 0840a7914caa14315a3191178a9f72c742477860
     new: 82708bb1eb9ebc2d1e296f2c919685761f2fa8dd
     log: revlist-0840a7914caa-82708bb1eb9e.txt
 
---===============3800142257429566041==
+--===============2122244885307934118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ be129fab66f284c239251ec5b6e30c6e903d8881 Merge tag 'for-5.19/fbdev-2' of git://g
 c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26' of git://git.infradead.org/users/hch/dma-mapping
 82708bb1eb9ebc2d1e296f2c919685761f2fa8dd Merge tag 'for-5.19-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============3800142257429566041==--
+--===============2122244885307934118==--
