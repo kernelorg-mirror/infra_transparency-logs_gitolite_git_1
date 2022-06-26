@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 26 Jun 2022 10:45:26 -0000
-Message-Id: <165624032623.28978.8022582522300755523@gitolite.kernel.org>
+Date: Sun, 26 Jun 2022 10:50:06 -0000
+Message-Id: <165624060663.31937.9133752372661750115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 8ffab564419fd222795ef5c156ed2f69c18d7c4a
-    new: 6ec493e4b610ff032ed9b121fb6b9df3910fcd98
+    old: 6ec493e4b610ff032ed9b121fb6b9df3910fcd98
+    new: ae19b92ca54febc45bb0e5e416c46161af6bfd4c
     log: |
-         bd90c0fb16771469d21890e8371ccaab4fde6397 arm: dts: stih407-family: Harmonize DWC USB3 DT nodes name
-         6ec493e4b610ff032ed9b121fb6b9df3910fcd98 Merge branch 'for-v5.20/dts-cleanup' into for-next
+         fcf036a017b251d362559cf7eb0bb6e614ccf842 arm64: dts: apm: Harmonize DWC USB3 DT nodes name
+         ae19b92ca54febc45bb0e5e416c46161af6bfd4c Merge branch 'for-v5.20/qcom-dts64-cleanup' into for-next
          
-  - ref: refs/heads/for-v5.20/dts-cleanup
-    old: 986fd5fe55cb369c34a1dc65b1469aac536a6d50
-    new: bd90c0fb16771469d21890e8371ccaab4fde6397
+  - ref: refs/heads/for-v5.20/qcom-dts64-cleanup
+    old: 4fb4a39fdbc8bd0aa35de0970d26cbc6c5abf946
+    new: fcf036a017b251d362559cf7eb0bb6e614ccf842
     log: |
-         bd90c0fb16771469d21890e8371ccaab4fde6397 arm: dts: stih407-family: Harmonize DWC USB3 DT nodes name
+         fcf036a017b251d362559cf7eb0bb6e614ccf842 arm64: dts: apm: Harmonize DWC USB3 DT nodes name
          
