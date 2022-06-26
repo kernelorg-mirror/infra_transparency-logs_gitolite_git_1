@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 26 Jun 2022 11:00:35 -0000
-Message-Id: <165624123529.5745.7660796737209435383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sun, 26 Jun 2022 12:44:10 -0000
+Message-Id: <165624745023.7212.10403216425957584688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/gaudi2
-    old: d48ebf17e63e10648d07f9316ff8735a04d1c82f
-    new: a2323e3df86145a75a8c48d2f948d5e4cad5c447
-    log: |
-         a2323e3df86145a75a8c48d2f948d5e4cad5c447 uapi: habanalabs: add gaudi2 defines
-         
+  - ref: refs/heads/parisc-5.19-3
+    old: 0000000000000000000000000000000000000000
+    new: 0a1355db36718178becd2bfe728a023933d73123
