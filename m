@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Sun, 26 Jun 2022 07:23:58 -0000
-Message-Id: <165622823804.11758.1819245844487709251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 26 Jun 2022 08:23:28 -0000
+Message-Id: <165623180840.17579.7959834767647762988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
   - ref: refs/heads/master
-    old: 1b87ea9ccaf0993e53a6ed817359a4e1edf6862f
-    new: db26ac7f6a9c01f3df3d0c73325c9d1730e2bed0
+    old: 568ac9fffeb6afec03e5d6c9936617232fd7fc6d
+    new: 0882b0913eae6fd6d2010323da1dde0ff96bf7d4
     log: |
-         db26ac7f6a9c01f3df3d0c73325c9d1730e2bed0 kexec-tools: mips: Pass initrd parameter via cmdline
+         085faee2742cba049e6def9ee137c39accfd61de xfs: corrupted xattr should not block removexattr
+         e937e23d202173d112cfe7621d8b860f691ce42d common/filter: filter out extra mount error output
+         3493b8dc8b3de08470d09d71ca074f885d4c8b0b btrfs/220: zoned: skip nodatacow mount option for zoned btrfs
+         5bb78c56ef591936d4cf54b40cf56a43616e29f9 xfs/270: Fix ro mount failure when nrext64 option is enabled
+         63b956a156eae4dea6ee9637aa10b6cf1553dc87 common/xfs: Add helper to check if nrext64 option is supported
+         9b448f06fe21d34b256375abf5b12cbf7febe5ff xfs: Verify that the correct inode extent counters are updated with/without nrext64
+         0882b0913eae6fd6d2010323da1dde0ff96bf7d4 xfs: Verify correctness of upgrading an fs to support large extent counters
          
