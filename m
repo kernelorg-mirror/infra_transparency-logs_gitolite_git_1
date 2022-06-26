@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Sun, 26 Jun 2022 19:49:38 -0000
-Message-Id: <165627297893.26623.10324931954377978683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sun, 26 Jun 2022 20:38:21 -0000
+Message-Id: <165627590157.25553.3125699588108601250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2022-06-26
-    old: 0000000000000000000000000000000000000000
-    new: 10083d3bd8ea774dbdd937518de83dd0848055c6
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
+  - ref: refs/heads/master
+    old: dda4848a9911120a903bef6284fb88286f4464c9
+    new: 732bf609b670631731765a585a68d14ed3fdc9b7
+    log: |
+         732bf609b670631731765a585a68d14ed3fdc9b7 test/io_uring_register: kill old memfd test
+         
