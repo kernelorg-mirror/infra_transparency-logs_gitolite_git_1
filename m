@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Sun, 26 Jun 2022 00:48:53 -0000
-Message-Id: <165620453352.19694.10396283660825879609@gitolite.kernel.org>
+Date: Sun, 26 Jun 2022 00:50:33 -0000
+Message-Id: <165620463383.21788.726815226008392020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
-  - ref: refs/heads/fs.idmapped.vfsuid
+  - ref: refs/heads/for-next
     old: fc643cb39fc6ed2e92906e3b19db2e7acbdb9c65
     new: 7bc52709ba4c8238eeefff55c729378b743fc307
     log: |
