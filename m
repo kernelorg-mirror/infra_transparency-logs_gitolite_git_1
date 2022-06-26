@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 26 Jun 2022 14:32:17 -0000
-Message-Id: <165625393757.11491.6363680645345603192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 26 Jun 2022 14:45:18 -0000
+Message-Id: <165625471872.21507.3818675999675797788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
-  - ref: refs/tags/for-5.19/parisc-3
+  - ref: refs/heads/fbdev-5.19-2
     old: 0000000000000000000000000000000000000000
-    new: 9719e8a1b4b2a152ad41a19910741537f7f775c4
+    new: cb5177336ecb07fe1c6804306fe8efc827643c64
