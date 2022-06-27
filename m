@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3273121837623996980=="
+Content-Type: multipart/mixed; boundary="===============6405298129875316690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Mon, 27 Jun 2022 18:36:46 -0000
-Message-Id: <165635500603.11570.921647713921145312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 27 Jun 2022 18:37:40 -0000
+Message-Id: <165635506066.11958.17038384265083513398@gitolite.kernel.org>
 
---===============3273121837623996980==
+--===============6405298129875316690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
+repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/erofs/folios
-    old: 679fc33ac297c7e3a7a1134ddbb6281c304c9f93
-    new: c52a3bdfa586a273c06258f8724e9008b9d12844
-    log: revlist-679fc33ac297-c52a3bdfa586.txt
+  - ref: refs/heads/master
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 03c765b0e3b4cb5063276b086c76f7a612856a9a
+    log: revlist-f2906aa86338-03c765b0e3b4.txt
 
---===============3273121837623996980==
+--===============6405298129875316690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-679fc33ac297-c52a3bdfa586.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-03c765b0e3b4.txt
 
+a734510fa8b4e61e6a37176f0da01f4c55fa52de ata: libata: drop 'sas_last_tag'
+bf476fe22aa1851bab4728e0c49025a6a0bea307 ata: libata-core: fix NULL pointer deref in ata_host_alloc_pinfo()
+10d6bdf532902be1d8aa5900b3c03c5671612aa2 ata: pata_octeon_cf: Fix refcount leak in octeon_cf_probe
+c36ee7dab7749f7be21f7a72392744490b2a9a2b cifs: fix reconnect on smb3 mount types
+2130a790ca49763f724ec45cf93b9dd765e2023e kernel: add platform_has() infrastructure
+5b7419ae1d208cab1e2826d473d8dab045aa75c7 staging: r8188eu: fix rtw_alloc_hwxmits error detection for now
+96f0a54e8e65a765b3a4ad4b53751581f23279f3 staging: r8188eu: Fix warning of array overflow in ioctl_linux.c
+3f9dfbebdc48cebfbda738f6f3d1dbf6d7232f90 virtio: replace arch_has_restricted_virtio_memory_access()
+9bf22421dc8a69cade3c994771637e9693ff0216 arm/xen: Introduce xen_setup_dma_ops()
+02a9e681a3f7998074f39ec265080bf934871530 xen/grants: support allocating consecutive grants
 d6aca3504c7ded5f4f46957e3685b9344d9743dd xen/grant-dma-ops: Add option to restrict memory access under Xen
 2aab03b86766a27f99a0b24f63e1730faac128d0 fs: Fix syntax errors in comments
 10e14073107dd0b6d97d9516a02845a8e501c2c9 writeback: Fix inode->i_io_list not be protected by inode->i_lock error
@@ -1040,15 +1050,5 @@ c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26'
 413c1f14919b3efee05eb79d2e913663e964abda Merge tag 'mm-hotfixes-stable-2022-06-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 1709b887397cb371ed149560a48d24b232c53ccd Merge tag 'soc-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 03c765b0e3b4cb5063276b086c76f7a612856a9a Linux 5.19-rc4
-d0718752a877ae294e7d4543d5b7a44f9f06e147 erofs: get rid of unneeded argument `inode' and `map'
-69eb36b1d7a40c0ebb9d138d07cab8ade173bb23 erofs: clean up z_erofs_collector_begin()
-3d62335492fbae5c739068923cda16c15ab2566e erofs: introduce `z_erofs_parse_out_bvecs()'
-1aebe27117f10489d741c7e7e6c3389ad14c4dec erofs: introduce bufvec to store decompressed buffers
-e9480ff06efd292a3cfaee4c2fd68fc2dfbbd5df erofs: drop the old pagevec approach
-943910b98eeb10d601c90afcde3c5fac8d10cde1 erofs: introduce `z_erofs_parse_in_bvecs'
-51b08a65feaec3169ee5a75aeab7e4379ac56073 erofs: switch compressed_pages[] to bufvec
-294b7b5079ca670227b0f066686b2ab2a701a0f5 erofs: rework online page handling
-4beba304bc9124e88052363e3b70d9b030b267d6 erofs: get rid of `enum z_erofs_page_type'
-c52a3bdfa586a273c06258f8724e9008b9d12844 erofs: clean up `enum z_erofs_collectmode'
 
---===============3273121837623996980==--
+--===============6405298129875316690==--
