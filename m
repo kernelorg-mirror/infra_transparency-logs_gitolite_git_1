@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6975274417068365872=="
+Content-Type: multipart/mixed; boundary="===============5501291804638631187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 27 Jun 2022 12:35:24 -0000
-Message-Id: <165633332406.27077.11419498224404469987@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 12:36:29 -0000
+Message-Id: <165633338996.27501.16249881643639499639@gitolite.kernel.org>
 
---===============6975274417068365872==
+--===============5501291804638631187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: d4b06172861bfcb390fc196bf616f60e95665e7d
-    new: f9008285bb69e4713918a665250ab2d356b731ba
+    old: f9008285bb69e4713918a665250ab2d356b731ba
+    new: d24d7bb2cd947676f9b71fb944d045e09b8b282f
     log: |
-         ab24a01b276508dc884761bcb8e2759c36702377 tty: Add closing marker into comment in tty_ldisc.h
-         f9008285bb69e4713918a665250ab2d356b731ba serial: Drop timeout from uart_port
+         eb01611056cf835cf2c1cc1a800bfff9386c82ea drivers: tty: serial: Add missing of_node_put() in serial-tegra.c
+         d24d7bb2cd947676f9b71fb944d045e09b8b282f tty: serial: Fix refcount leak bug in ucc_uart.c
          
 
---===============6975274417068365872==
+--===============5501291804638631187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656333322 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656333388 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1656333321-cfd83c8d594acf426ce0c7be77d85245d8045d61
+nonce 1656333387-91c9db43f98a1a4c694bcb07d79090c0f4cbdb52
 
-d4b06172861bfcb390fc196bf616f60e95665e7d f9008285bb69e4713918a665250ab2d356b731ba refs/heads/tty-testing
+f9008285bb69e4713918a665250ab2d356b731ba d24d7bb2cd947676f9b71fb944d045e09b8b282f refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5pAobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mgQP/19dn3FHBkuc7r7Bcs+t
-yepma4aZyPHT8fGW+0C+SCh0r5gacHWWuHG1RioyiCo1pMQUpZzGMmx/SxIC5h3q
-7X3iAL09npC5l6NuDth7ehfjRgZdwQLVvc/JNSa2krxLJIdaTedapzksVnNo5sTP
-/fjOqt/WqHxdCyI/oPfQGwvFHgnxSCJooY0/I4e4xPPm8060WBx3wnrHxUB7KGOl
-zinpzIYnQuqCBYIXvt/wTkTi5MLX2RG88klcarjNnNkIE6b/aL9kEGrs5O5hoyJN
-/tX3Rz5k7xJ0BM77mYdByiRnmTdfTxoxWvKXjjkM3foWlVH+Z0O2+qYmGMRZ3mEz
-FQshl2+lkPqwGGhhaU+7Yqik73MzJduk8tjO5y0Nab//iNXumaxRcKLdqim4U7m6
-xrUl4Pg8jTO25Qr2mVcj9V50lZCDm7jbVa8jeesBHiRC26KcfdqpyZI3Vq/Z50me
-SMBDhROVROiJZZsmOF7n5wxXj+SRGVxqVr0VoPtL9mZ9WsAHE57arRNmvuCXqx1e
-+k2Jf9IQjPipwEOQTju/iCZYKYRo/X6W9ooE0sc/sIpwlYCTMmJ0F538xDWVQZQO
-kbn76u0CR6Y4I8rsa/qM6KJ8yN2F6eQ9JS9GsNx4Os6lD0tzjGH495+S3lUSgN8r
-7unuKEvFrS0SKMW9V3V3AGE8
-=IuHU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5pEwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fCAQAIZk6tAQDWlGu62wwAi5
+/FOFdfKpf1znIXKqfyY8aZgpcwl+dlUsuLWtwR+5n7xl+gDImRQfB5qExe2S/C68
+how3GHhMEt1fy4SWqVHk00RTrshWgqi23MHVYo/M7X1vJ30e94HQ4m8KbJhbIfUo
+b1kPnGuGtO1yWG77fz/2Hv8jMCa095uQmCITd9HuwXx0C47tWuiPs8OC7B5n23FH
+Cr2rxAel+oc6/L7mpicNpyNOVTf3W/80eUajxE1dulYUrA50zAMTmlYqqGxjlj4u
+e1e87lCIxG2L39NVZ8NypNvfyLZRLJFWdgLH6tceczeHPzMwlI+h2oE90GswKGFs
+UALki+omx5nvsncFOxcGl8Pud7ZmKghUhixND3kskg3EnndEmr1DC3DzsS6TB2Ri
+eyIDXoG5IwbgHYOl+w6GTYpSCzoELlaJNpqtHD3flmKK+l6mModvLUZXhsVulIMu
+uJm3e2H3o1ZTAzjJyjmtCoMWnntWtpsiMuPuK5TO5pNRoRl9/tVlbZAXLk8N5vEv
+fzM52ka6Jy5A2mz1AKWeSZQ4IeKOZ9AbBiXOiosKMP8GsJT9LqXKwEYXT6FXwdJb
+upF3UIsDzqCGL8BJVJy/8G8/4P4RJMOUdDD/diseYnbrU2BoW37hkJyG0UKK+Nmu
+N6i+gVgPgVGMwsWvhPtz8Bf+
+=UE3i
 -----END PGP SIGNATURE-----
 
---===============6975274417068365872==--
+--===============5501291804638631187==--
