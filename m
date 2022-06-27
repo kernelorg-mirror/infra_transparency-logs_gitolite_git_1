@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2630021620504370577=="
+Content-Type: multipart/mixed; boundary="===============0966666013029527898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 27 Jun 2022 14:45:03 -0000
-Message-Id: <165634110383.18796.1150361742201727860@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 14:47:12 -0000
+Message-Id: <165634123261.19544.8355302441806993090@gitolite.kernel.org>
 
---===============2630021620504370577==
+--===============0966666013029527898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 70fe758352cafdee72a7b13bf9db065f9613ced8
-    new: dcab8da13ff4886aab26348b925d20dca4f12bac
+    old: dcab8da13ff4886aab26348b925d20dca4f12bac
+    new: 1d25b84e444ad66313c473407979ea9cd33deb3f
     log: |
-         dcab8da13ff4886aab26348b925d20dca4f12bac kernfs/file.c: remove redundant error return counter assignment
+         086c00c71fc8d47db6983f419a45f9ee167de03f kernfs: make ->attr.open RCU protected.
+         b8f35fa1188b84035c59d4842826c4e93a1b1c9f kernfs: Change kernfs_notify_list to llist.
+         41448c614815965d1cdfa720df34257b84afbb9d kernfs: Introduce interface to access global kernfs_open_file_mutex.
+         1d25b84e444ad66313c473407979ea9cd33deb3f kernfs: Replace global kernfs_open_file_mutex with hashed mutexes.
          
 
---===============2630021620504370577==
+--===============0966666013029527898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656341102 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656341230 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1656341101-55b4037f7b26f0f8864e4084e7491b6cfdba4561
+nonce 1656341229-6f4b4ca735a3ccfa32aaa6624b18cfcbc242a835
 
-70fe758352cafdee72a7b13bf9db065f9613ced8 dcab8da13ff4886aab26348b925d20dca4f12bac refs/heads/driver-core-testing
+dcab8da13ff4886aab26348b925d20dca4f12bac 1d25b84e444ad66313c473407979ea9cd33deb3f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5wm4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZWMP/ibS/WHv4FnfqElX6Y3U
-HZhWXOgGB+qUmDs9XSh9ulkqg0iAeqTxNqzC1ekPQn/5AMyJ3xEhxm8PJHnnOZNM
-iRLdaTA5UG4Zqk+7Ajr4Ld9p8S+O/QJ7UVxMzCoDTK0zUJB4aG2NNfNA9Q/LjeHb
-XzKh6aq5FJ9F7mflmVtHPIanQQJ303ADnOd23nR/17xWSmY/2HqmHYFfza2fFbOE
-9ZXz1lOHpsIPAPdIb+RM7kLHup3RTE8Irrc+WP4EAWJgTCRYcuntGZfFEj6n+9GG
-kca0adg7G+FXer7bYsfOnFuVdFkJFv9WUHw+NnunAxcCB8XCUEjS/U4FGlRvFFSs
-sAT3E733eZtROjBWTwck8VxbGBnmNdruU9BVG4VgQCOMx22Ini5rvzroHqoRSsFa
-wEwWhzUmbURhOjxGpjv5XLiTuR2AwicAVA2hvMMGbuUJzFb9HCLnNDX6s/LW1jeT
-/gPSPs12s34r5opPymcOvGxOXM5jWlSCJDLaPkWSAkLqFOlMwK40bGuq6QGvT+wn
-w9ybNCDHHeWEx/Fl0hrV1T1c5YqwS71IcuEl786iwf15wXGOX53HnkRrnepgE06S
-QNQ/O6IfMJD4UcdK/l8JIcK4SpDvjZVlVwn/MpU0sFT4SQaRcR2zzYrPV8QEHuVI
-owdoEbOYxmFEEnDsXLXxnUyx
-=07gJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5wu4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jv0QAIdxan7WvV/TZGOKfHFD
+iMXTJ+ZE1U/1F8PADnYIVT8e5WFuekO8ILPbZ6XBvllyImMyf1k4xp8zyIZ4d0f3
+lYo9Np4Z3QsO6P9GaC/eXzTKhy86fGTjhHIe5fTSI/NILB66jO5F8vtNhHe1/jKb
+ETgFIYdf2bsqILbLUUwY+iVMgfdK1Qhau6tBFSSYB+EKwDGgfUQlg90crXZNBuaZ
+FKJnIc1J69KXCFYkCkozHcTPmHJ9EdBDfN4zXZlMOWtysBtmAur8Lp6UhnQGpYvn
+80NZtkbZ6r4cbfY5WmEbqId0AifkcMdNWcLlRErcg60uvEFW4gKYTq/DLqEU0EA7
+fWFN4xcHoQQ9FbDqvV9I+SNLzscIRKr3YQc0jkiDz5wJ3RU85sh3ANHoMGmBqf6R
+xyMHjej2N7UxPkkp43JEkIES3LyQzl2JwyoQTsK+sHWdDDfhjJj2pjFpGnHQihBT
+VOJDV+MvuD2zrSa0xzkjZ0j9hQ+mnD93qP41fas6GocShtVCB8dmhFWGhfzwHZZ1
+V0/BMi5UPDFpgg5i2m4b6Dz+pypHHRYBM1VxdkSaCx4aNYtRXYvhXgN7FRUtZHiB
+q/OF0Z6F4xFABXnnRgYCYeim+Du0LR5PaO4mamLjEfkcH5nOpl9EAwYFfHK0U38T
+eghP5WCIW/HA09boXrmXuJjL
+=7bU7
 -----END PGP SIGNATURE-----
 
---===============2630021620504370577==--
+--===============0966666013029527898==--
