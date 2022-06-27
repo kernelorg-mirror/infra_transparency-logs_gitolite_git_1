@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5455372376677380007=="
+Content-Type: multipart/mixed; boundary="===============6281931333808549379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 27 Jun 2022 08:04:17 -0000
-Message-Id: <165631705760.19107.10780067190820462226@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 08:04:24 -0000
+Message-Id: <165631706422.19219.3384534581106900625@gitolite.kernel.org>
 
---===============5455372376677380007==
+--===============6281931333808549379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: b24346a240b36cfc4df194d145463874985aa29b
-    new: 03c765b0e3b4cb5063276b086c76f7a612856a9a
-    log: revlist-b24346a240b3-03c765b0e3b4.txt
+  - ref: refs/heads/usb-next
+    old: 508aeb54e4f0225f4ff3da9b7ec8ac44ce30aad8
+    new: e6aa42f93751e4d9ac8505b7ac57acd5506bdec9
+    log: revlist-508aeb54e4f0-e6aa42f93751.txt
 
---===============5455372376677380007==
+--===============6281931333808549379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656317056 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656317061 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1656317055-64b8e3c1b17e737003c588ff838226a9441cf1bb
+nonce 1656317060-b2552f5c238abe6418fde5dbd3225ce69bbfe5b8
 
-b24346a240b36cfc4df194d145463874985aa29b 03c765b0e3b4cb5063276b086c76f7a612856a9a refs/heads/usb-linus
+508aeb54e4f0225f4ff3da9b7ec8ac44ce30aad8 e6aa42f93751e4d9ac8505b7ac57acd5506bdec9 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5ZIEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HAMQAMW0HQfurDSZsjAsyKFy
-goCU8/uf8RSSHYvFJmjouZGjjjK0+QSSdRc07InDAMMe/PBfX2kk7PE4m5O+Z3CX
-gpWaka5Jq5+bjp16n69B8++k1ngpha3Vdi7sHW5BFHyoFvLxKAMXxW7aCW7MIDV7
-oRKd7J1Llerv4Kc6xcvATQSPLlh7MJl32rJXYWl3ziQyWDy+uj72/MQWczps/xLv
-CZE5xI+EGeSNhdaRz5I6F7557n7EvkWPm/Er7vPQtiCWzGVQBNgmNsWmI9vPPkzE
-nZQJzi3pwpp644lDfzXRsG4gYenYP4c/5WXoKaTBc9bSlMP+a60godQzBdqg9Zmi
-XfKChN2EO8cD6ZT0eIbR/BkzmTNyHUasjEqFZ2gJROUb7j+9Or55T72K8NZo2kGI
-sHBYw7t81wwLTt1AS0hvEOCuRQyW1l/IFhuhw2/B6aSLWGU2nnKKVBm4hk23WyMR
-+XrYb2N06Leu4EfPVtPRCH6WZD203VNnrSWpP9mn7cfy37WTaosbFJRUhJG44/iA
-L5w9CWvcak4oS/+3ZNlcPN/6shseIMK0jCAMdgMpcQPbgm9VpwsywxJWGZjMps2q
-Yz92JGtIEHTxSJmjj4xCekH2Q+9rgshqMw6a7IFB65yo6kLRjtNDIYC/Lnfdfl/9
-yMVKyC36nyzpHCCG2obT+StP
-=eUr5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5ZIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JCoP/0gu3PW7Rwrgs12ndXjN
+rvR00cyEjEO1staTyf1H8grVEEjKLpKARxdzxsNAV6wA2wEwqPGhBnxqw99cfo3j
+hpBKF2lwHrPfh3mZD7LmoDs8j37IGJh/aTV4k1q5b26ILK8TvffExOkYtNWRiCE8
+OUWFsdtaV/Bjf2vPAKDuTj9PBpCErOO1+xDtZOSYFmsKpF2AHpZCE5FuFGYhqjyK
+PQWc5qIWDZ1zXZhN/xl4y2piCv3LbW1WD54xUCsoi0kAVfBYi39NBxovYWBrjb9c
+Xt8nT3dwFhGWdTCzto1ACf0NYz+eEwmUlYts7KlZeebWLCE342OfOI9rt2qPTXXj
+VL3nFRHHICGDXFXzDag8cwXoLojSYflUUz1aTngbZRcCG8ef7yTs4nSG/4zOEXZZ
+EQdJeCLmOtwULGT+4/kcDSIXFGoiz3QPemLAHVXf9seUwel23ksBRUYd5ZiKlLUX
+VECOlbYKo0HGLHgZDnm7yuCVbCBkaK0LEgQaOmXPIWfdXKvNXTv1Gxa+W4Dc9cyy
+F3AzWGN7oH0+FTH0SrkLwu7e7+e/eozeqn/JoTzqIkAAjFmQO7MolSmzRkCMmnZc
+m9MbPNrPwJy46GSzGWKOHSE51fJQ0tADNtMiQiBjN7cTmPr5r4S+IsZYSSTQR0Aa
+/xDzvmPoQBdJQtUF29iDRd3i
+=wK26
 -----END PGP SIGNATURE-----
 
---===============5455372376677380007==
+--===============6281931333808549379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b24346a240b3-03c765b0e3b4.txt
+Content-Disposition: attachment; filename=revlist-508aeb54e4f0-e6aa42f93751.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -283,6 +283,7 @@ c01d4d0a82b71857be7449380338bc53dde2da92 random: quiet urandom warning ratelimit
 a2d9b75b19dc8863f0845ffb401d33b2286d0aa1 xtensa: change '.bss' to '.section .bss'
 13bd259b64bb58ae130923ada42ebc19bf3f2fa2 drm/i915: Implement w/a 22010492432 for adl-s
 3828296ad6242c25d2679d32a377b8e07c6b08c0 drm/i915/fdinfo: Don't show engine classes not present
+342fc0c3b345525da21112bd0478a0dc741598ea USB: serial: option: add Telit LE910Cx 0x1250 composition
 419bc8f681a0dc63588cee693b6d45e7caa6006c spi: rockchip: Unmask IRQ at the final to avoid preemption
 5faa0bc69102f3a4c605581564c367be5eb94dfa ALSA: hda/conexant: Fix missing beep setup
 c7807b27d510e5aa53c8a120cfc02c33c24ebb5f ALSA: hda/via: Fix missing beep setup
@@ -309,6 +310,8 @@ cb995f4eeba9d268fd4b56c2423ad6c1d1ea1b82 filemap: Handle sibling entries in file
 5d79d8af8dec58bf709b3124d09d9572edd9c617 selftests: netfilter: correct PKTGEN_SCRIPT_PATHS in nft_concat_range.sh
 574a5b85dc3b9ab672ff3fba0ee020f927960648 netfilter: nf_dup_netdev: do not push mac header a second time
 fcd53c51d03709bc429822086f1e9b3e88904284 netfilter: nf_dup_netdev: add and use recursion counter
+dbab764ed5e987306480f827775876b99b81429e MAINTAINERS: add include/dt-bindings/usb to USB SUBSYSTEM
+f2d8c2606825317b77db1f9ba0fc26ef26160b30 usb: gadget: Fix non-unique driver names in raw-gadget driver
 36a38c53b4ee51b90566f8f44a613601eb31a10e ALSA: hda: Fix discovery of i915 graphics PCI device
 d4597898ba7b9d467b94a9aafd65ec408a75041f btrfs: fix race between reflinking and ordered extent completion
 983d8209c6803345c9958f4cc358d1155f93a099 btrfs: add missing inode updates on each iteration when replacing extents
@@ -320,6 +323,10 @@ bf7ba8ee759b7b7a34787ddd8dc3f190a3d7fa24 btrfs: fix deadlock with fsync+fiemap+t
 037e127452b973f45b34c1e88a1af183e652e657 Documentation: update btrfs list of features and link to readthedocs.io
 b60cac14bb3c88cff2a7088d9095b01a80938c41 io_uring: fix merge error in checking send/recv addr2 flags
 aacf2f9f382c91df73f33317e28a4c34c8038986 io_uring: fix req->apoll_events
+0f074c1c95ea496dc91279b6c4b9845a337517fa dt-bindings: usb: ohci: Increase the number of PHYs
+9faa1c8f92f33daad9db96944139de225cefa199 dt-bindings: usb: ehci: Increase the number of PHYs
+96163f835e65f8c9897487fac965819f0651d671 usb: gadget: uvc: fix list double add in uvcg_video_pump
+9ef165406308515dcf2e3f6e97b39a1c56d86db5 usb: typec: wcove: Drop wrong dependency to INTEL_SOC_PMIC
 f9710c357e5bbf64d7ce45ba0bc75a52222491c1 xen-blkfront: Handle NULL gendisk
 ecb6237fa397b7b810d798ad19322eca466dbab1 x86/xen: Remove undefined behavior in setup_features()
 ca6969013d13282b42cb5edcc13db731a08e0ad8 drm/xen: Add missing VM_DONTEXPAND flag in mmap callback
@@ -354,6 +361,8 @@ c487a5ad48831afa6784b368ec40d0ee50f2fe1b io_uring: fail links when poll fails
 c0737fa9a5a5cf5a053bcc983f72d58919b997c6 io_uring: fix double poll leak on repolling
 2642cc6c3bbe0900ba15bab078fd15ad8baccbc5 net: phy: smsc: Disable Energy Detect Power-Down in interrupt mode
 53664d51d3510e1d4092e539c5928fc9951f63b0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+ae60aac59a9ad8ab64a4b07de509a534a75b6bac USB: serial: pl2303: add support for more HXN (G) types
+33b29dbb39bcbd0a96e440646396bbf670b914fa USB: serial: option: add Quectel EM05-G modem
 5f940e528da6bce52a86fbdf881b76f60240aeaf drm/vc4: hdmi: Fixed possible integer overflow
 f5aa16807aa4f99293044944590dde81364f434f drm/sun4i: Add DMA mask and segment size
 f3eac426657d985b97c92fa5f7ae1d43f04721f3 powerpc/powernv: wire up rng during setup_arch
@@ -387,6 +396,7 @@ b54034a73baf9fe31fb3f218c17bd5308a27a1ca cifs: during reconnect, update interfac
 1b205d948fbb06a7613d87dcea0ff5fd8a08ed91 Revert "net/tls: fix tls_sk_proto_close executed repeatedly"
 e34a07c0ae3906f97eb18df50902e2a01c1015b6 sock: redo the psock vs ULP protection check
 12378a5a75e33f34f8586706eb61cca9e6d4690c net: openvswitch: fix parsing of nw_proto for IPv6 fragments
+15b694e96c31807d8515aacfa687a1e8a4fbbadc USB: serial: option: add Quectel RM500K module support
 41f38043f884c66af4114a7109cf540d6222f450 nvme: add a bogus subsystem NQN quirk for Micron MTFDKBA2T0TFH
 23c9cd56007e90b2c2317c5eab6ab12921b4314a nvme: fix the CRIMS and CRWMS definitions to match the spec
 e6487833182a8a0187f0292aca542fc163ccd03e nvme: move the Samsung X5 quirk entry to the core quirks
@@ -397,8 +407,13 @@ ca2a3343d69741dae4df2dbb954fb806d9a835de block: remove WARN_ON() from bd_link_di
 e531485a0a0e0a06644de1b639502471415d5e12 Merge tag 'nvme-5.19-2022-06-23' of git://git.infradead.org/nvme into block-5.19
 f410c3e000a3ced328b2c4c8bb6d121ff5572dde Merge tag 'mmc-v5.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 399bd66e219e331976fe6fa6ab81a023c0c97870 Merge tag 'net-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+2bdc2bcd9a759613d6340c4a0b7f5d3b7a1a71a2 Merge tag 'usb-serial-5.19-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 9e2f6498efbbc880d7caa7935839e682b64fe5a6 selftests: KVM: Handle compiler optimizations in ucall
 922d4578cfd017da67f545bfd07331bda86f795d Merge tag 'kvmarm-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+a808925075fb750804a60ff0710614466c396db4 xhci: Keep interrupt disabled in initialization until host is running.
+83810f84ecf11dfc5a9414a8b762c3501b328185 xhci: turn off port power in shutdown
+7516da47a349e74de623243a27f9b8a91446bf4f xhci-pci: Allow host runtime PM as default for Intel Raptor Lake xHCI
+8ffdc53a60049f3930afe161dc51c67959c8d83d xhci-pci: Allow host runtime PM as default for Intel Meteor Lake xHCI
 9ca766eaea2e87b8b773bff04ee56c055cb76d4e gpio: winbond: Fix error code in winbond_gpio_get()
 e70b64a3f28b9f54602ae3e706b1dc1338de3df7 io_uring: move io_uring_get_opcode out of TP_printk
 c1c2a15c2b5379ea8e44dcdcc298e3de42076ba0 gpio: grgpio: Fix device removing
@@ -433,6 +448,8 @@ b0d473185ba887c798ed0cd6f5abf4075363baa4 gpio: mxs: Fix header comment
 1e9124df8be0a43e4e9a10c5d1140d6ca8e50132 Merge tag 'drm-msm-fixes-2022-06-20' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 ebdec859faa8cfbfef9f6c1f83d79dd6c8f4ab8c KVM: x86/svm: add __GFP_ACCOUNT to __sev_dbg_{en,de}crypt_user()
 6defa24d3b12bbd418bc8526dea1cbc605265c06 KVM: SEV: Init target VMCBs in sev_migrate_from
+90bc2af24638659da56397ff835f3c95a948f991 USB: gadget: Fix double-free bug in raw_gadget driver
+b24346a240b36cfc4df194d145463874985aa29b usb: chipidea: udc: check request status before setting device address
 c242507c1b895646b4a25060df13b6214805759f MAINTAINERS: Add new IOMMU development mailing list
 8da33fd11c05b7c64ef6456970f2fce61851806e cifs: avoid deadlocks while updating iface
 17b1362d49191625440ca2c195959ce0b37ec296 MAINTAINERS: Update email address
@@ -497,5 +514,6 @@ c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26'
 413c1f14919b3efee05eb79d2e913663e964abda Merge tag 'mm-hotfixes-stable-2022-06-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 1709b887397cb371ed149560a48d24b232c53ccd Merge tag 'soc-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 03c765b0e3b4cb5063276b086c76f7a612856a9a Linux 5.19-rc4
+e6aa42f93751e4d9ac8505b7ac57acd5506bdec9 Merge 5.19-rc4 into usb-next
 
---===============5455372376677380007==--
+--===============6281931333808549379==--
