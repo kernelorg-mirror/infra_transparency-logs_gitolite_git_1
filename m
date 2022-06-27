@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 27 Jun 2022 20:48:31 -0000
-Message-Id: <165636291186.5433.12071196835684069601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 27 Jun 2022 21:01:02 -0000
+Message-Id: <165636366256.13880.2891585621977196764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 773314fdafad94f8ffa84b92a182689ba4d36745
-    new: 2fef74a6fb9d73cd7ae4c8be3a91cc12abf264db
+  - ref: refs/heads/dev
+    old: 29dc4a37468641e2a9fca7f8c41c4d30f3c659a9
+    new: d55d1bd30905dc78f02a7e4f27be33e30adc9b11
     log: |
-         17eb28660a03fca969b2a781505088d281860d91 foo
-         2fef74a6fb9d73cd7ae4c8be3a91cc12abf264db foo
+         d55d1bd30905dc78f02a7e4f27be33e30adc9b11 rcu/kfree: Fix kfree_rcu_shrink_count() return value
          
