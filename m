@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 27 Jun 2022 15:48:19 -0000
-Message-Id: <165634489923.27442.9216393860195674767@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3327973043121299822=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Mon, 27 Jun 2022 15:51:48 -0000
+Message-Id: <165634510812.30094.8549031351869135282@gitolite.kernel.org>
+
+--===============3327973043121299822==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/gaudi2
-    old: 9c5e57883f27e7dda1c6f538440c5b1dc4a74bd3
-    new: 271056a60899f1a355ef2acc551c5c005a66fbed
+  - ref: refs/heads/master
+    old: f057cb93e1094eceeedf86ce906aa90616541674
+    new: ead2b92216c135152f28f9847b52479fe279edf8
     log: |
-         6c2a8011d57ec48c37c774d446388136a29544e0 habanalabs: add gaudi2 asic-specific code
-         c233424aa9d6cd56bdc1cbc18c322d01eee02be0 habanalabs: add unsupported functions
-         64228296f267040ff7b10e64a8888a760e5f6eef habanalabs: initialize new asic properties
-         939cd6232b28ce1a18fe8a4d7331de386ccc317b habanalabs: add generic security module
-         b28eb0fbce6e26c4ea734ba91192be4fd33beaf3 habanalabs/gaudi2: add gaudi2 security module
-         2c5a4e845231111a882e0d8bf11462b35d6dac02 habanalabs/gaudi2: add gaudi2 profiler module
-         f400826833beb163189dcd1855e068ff5fc2a581 habanalabs: add gaudi2 wait-for-CS support
-         2ef0967dbed7a20e19f9dd8c37b56c32c800b6ff habanalabs: add gaudi2 MMU support
-         271056a60899f1a355ef2acc551c5c005a66fbed habanalabs/gaudi2: add tpm attestation info uapi
+         ead2b92216c135152f28f9847b52479fe279edf8 Add support to write out as maildir
          
+
+--===============3327973043121299822==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1656345107 -0400
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
+nonce 1656345107-699f5507eb0c1cced7dacb2367a99fcbf5f07530
+
+f057cb93e1094eceeedf86ce906aa90616541674 ead2b92216c135152f28f9847b52479fe279edf8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYrnSEwAKCRC2xBzjVmSZ
+bBFcAQDxMGnLiUHSN94w+JeezpEDvrK2Iq18AsOPhuM6P4t/rwEAw5j/j6MW0/Sb
+TkqX+tSWdqDsGaf9BZpRZwC0hD4TZQ8=
+=3ADU
+-----END PGP SIGNATURE-----
+
+--===============3327973043121299822==--
