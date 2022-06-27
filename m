@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7456333607112873617=="
+Content-Type: multipart/mixed; boundary="===============3430332944951277909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 27 Jun 2022 11:03:08 -0000
-Message-Id: <165632778879.27207.6252047587774121760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 27 Jun 2022 11:04:35 -0000
+Message-Id: <165632787500.27788.10302150105627221529@gitolite.kernel.org>
 
---===============7456333607112873617==
+--===============3430332944951277909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: ad996194ee5bbb55d202acc00c1787d08af8b229
-    new: 948440dbdf1c13205825f335e9cf18210b69ee78
-    log: |
-         948440dbdf1c13205825f335e9cf18210b69ee78 5.18-stable patches
-         
+    old: 90eeee21c69aa805709376ad8282e68b5bd65c34
+    new: dcbddb95364a9da6483c2b801f595497a6347996
+    log: revlist-90eeee21c69a-dcbddb95364a.txt
 
---===============7456333607112873617==
+--===============3430332944951277909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-90eeee21c69a-dcbddb95364a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656327788 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1656327786-80e390cad7d210648da5b35c7ba81f84aa010589
+679b347e00f920b01c4a6c542ca4c23ae2abf10e lsfd: fix memory leak related to ENDPOINTS field
+395f3baed6df1eb736c872ecaa3aa2f05c5dc111 lsns: fix the memory leak.
+689cdacffa6d9ebf3c27dd0813027fb02f9742ec Improve is_dm_leaf performance Read from `/holders` instead of `/slaves` to determine whether the device is a leaf node, eliminating a scan across all block devices in the system.
+2ccf0d4a59cc0f7dd5b087e671e285e54a02b775 add padding to dates in issue file
+5c64ca96f4ae13ef9921e8bcd9b30486a92482a9 lsns: (man) add ip-netns to "SEE ALSO" section
+52596c8e7dd8bf3e2dca259d6645053a1b4fc599 Merge branch 'lsfd--fix-ipc-memleak' of https://github.com/masatake/util-linux
+33a48f44361d7d468566f80b5ff797c60a01bae6 Merge branch 'master' of https://github.com/lishengyu/util-linux
+2761c8e15b6ddc02007272bcd225fee76604a499 Merge branch 'dm_leaf_holders' of https://github.com/wjordan/util-linux
+d12e166daaa160e8d9c81b64dcd616d7672bfaf1 libblkid: simplify 'leaf' detection
+c8c5716a031948304f53e2449ce441704297ae11 Merge branch 'bobbyboy5069-date-pad' of https://github.com/bobbyboy5069/util-linux
+dcbddb95364a9da6483c2b801f595497a6347996 Merge branch 'lsns-man-see-also' of https://github.com/masatake/util-linux
 
-ad996194ee5bbb55d202acc00c1787d08af8b229 948440dbdf1c13205825f335e9cf18210b69ee78 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5jmwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E34P/j6cByQ//rmWpJguf+4U
-OJioRKRn5GkzigM52JtsIcjvy1w/XnooBlmhxFZyqO7xnyBRBpT5rG4yIHhLZoCH
-HWFllPi9uC4kunMGbIHwlgRSJf/ITycpiaEeKOuwgu7U+6sgjoSOuf7feeY/YVl0
-0M2GtwsKsIt2+/UghXGOvdcd626sj8iphb7yO4YrPNx7i9lNuG9raNlUn5Bh1Xb2
-WSK5jKCvU/IuSH0UOLclMbkaMc7PSDT0IMgmiC+eP8kWt9Um2uuLtpzlJE35AXga
-RGQMaRaKBeb01CxCoTN0/cLqDWNctt5mOUUCCtKLWN8lnBt1cZ5UhM/yWiY7P8xK
-ewwXOo9d4fQieh+WrDcsD2+2u+L2HwhlJ3X7FBE/mGLXhBSCRsLaTtw0jGcYPaR9
-SPj2LqTnxTOjdqGfIfe8469zZKga+KA+WLK1BfSCu21hogR3DlgsmZUtLWBYDu8h
-A4hYxsZ0VWsVMo0O0EavqPC5jiIpFINMmKGyPUg8gVOKdfo0mUhiS6R6FW8GHP59
-NAjs+RqmhtkbW0wB2h1S9aFkN/2DZACZaBl1oaHtKhUCRupYJG6iJnuU22IrWI0Z
-V9mBjmuYn62ogLvLjW0P3Pymih+Yc9Pnqk+G6T4izOl9Cy8ZEoepcAhN+TV1CeHR
-YxBPrHHIC/4jOh1dIRiSxipY
-=u6cQ
------END PGP SIGNATURE-----
-
---===============7456333607112873617==--
+--===============3430332944951277909==--
