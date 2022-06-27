@@ -1,47 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1833227866202584822=="
+Content-Type: multipart/mixed; boundary="===============2460285032875539249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 27 Jun 2022 07:29:20 -0000
-Message-Id: <165631496027.31132.2954450784263248093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 27 Jun 2022 07:29:27 -0000
+Message-Id: <165631496768.31270.8892394458529067502@gitolite.kernel.org>
 
---===============1833227866202584822==
+--===============2460285032875539249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: b13baccc3850ca8b8cccbf8ed9912dbaa0fdf7f3
     new: 03c765b0e3b4cb5063276b086c76f7a612856a9a
     log: revlist-b13baccc3850-03c765b0e3b4.txt
-  - ref: refs/heads/rdma-next
-    old: b460c52e3ac5b1cf5261902f3987c8ee6ae0fcfd
-    new: 4c5e55dc3ba3198c29cd666fda412b463b3a7579
-    log: revlist-b460c52e3ac5-4c5e55dc3ba3.txt
-  - ref: refs/heads/rdma-rc
-    old: b66aedf06ecd670e9e6e88ba763494c138c4f337
-    new: 73446b2bdb175c6f9b7266489aafc23072b331e4
-    log: |
-         2990f223ffa7bb25422956b9f79f9176a5b38346 RDMA/cm: Fix memory leak in ib_cm_insert_listen
-         2651d3d9c18811c29aff4cd78dbc49bf55e2dfc0 RDMA/cma: Limit join multicast to UD QP type only
-         f1b0f2e74aeb521286378a9233e38fba89d94b84 RDMA/mlx5: Use the proper number of ports
-         73446b2bdb175c6f9b7266489aafc23072b331e4 mm: Re-allow pinning of zero pfns
-         
-  - ref: refs/heads/testing/rdma-next
-    old: f58d67519ce9485da50450d23cb950f5ad84a6a6
-    new: 7e6903bf39620645de544876a8b3cfe4d61d73e1
-    log: revlist-f58d67519ce9-7e6903bf3962.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: e54d6b01b833556bcd358fae09067dffc3c4eaa9
-    new: 5f19f16fcc7e72e504184272f3d1e49fc1567766
-    log: revlist-e54d6b01b833-5f19f16fcc7e.txt
+  - ref: refs/heads/queue-next
+    old: 240536aa6a966bb9699d033bdb044c2b169e6692
+    new: 3d134b02c72eddb54e0d7bbf733a2a4ccf4d90b4
+    log: revlist-240536aa6a96-3d134b02c72e.txt
+  - ref: refs/heads/queue-rc
+    old: 78424a1553304b19b2b9b328acc62b7e36b59040
+    new: 8f12e4cf91ed5adfd558158c4d03bd4583e2a4d6
+    log: revlist-78424a155330-8f12e4cf91ed.txt
 
---===============1833227866202584822==
+--===============2460285032875539249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -808,44 +795,11 @@ c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26'
 1709b887397cb371ed149560a48d24b232c53ccd Merge tag 'soc-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 03c765b0e3b4cb5063276b086c76f7a612856a9a Linux 5.19-rc4
 
---===============1833227866202584822==
+--===============2460285032875539249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b460c52e3ac5-4c5e55dc3ba3.txt
-
-795e10b450a88b2943a241a5eaa6e86ae4f47694 net/mlx5: Introduce header-modify-pattern ICM properties
-667658364b2056f344a2769280b939a5e45610be net/mlx5: Manage ICM of type modify-header pattern
-a6492af3805ae3d9fe872545aa4797971b4e2a33 RDMA/mlx5: Support handling of modify-header pattern ICM area
-f5d23ee137e51b4e5cd5d263b144d5e6719f6e52 net/mlx5: Add IFC bits and enums for flow meter
-3e94e61bd44d90070dcda53b647fdc826097ef26 net/mlx5: Add HW definitions of vport debug counters
-91707779a481aab9c7f1d7a5ea3033ce87dc4fd6 net/mlx5: Add support EXECUTE_ASO action for flow entry
-684f062c979dd11dd7c2b46c2def189859a29392 net/mlx5: group fdb cleanup to single function
-d107ba1f7c067b08eb4b8ca7c51187fb7c4d97f2 net/mlx5: Remove not used MLX5_CAP_BITS_RW_MASK
-cdcdce948d64139aea1c6dfea4b04f5c8ad2784e net/mlx5: Add bits and fields to support enhanced CQE compression
-1a685940e6200e9def6e34bbaa19dd31dc5aeaf8 RDMA/rxe: fix xa_alloc_cycle() error return value check again
-686141bc02f2d1b668a12d32b5e02c7987228aff Merge branch 'mlx5-next' into wip/leon-for-next
-b259867be27cab399cdc32b28ddaa86a877f382b IB/iser: Drain the entire QP during destruction flow
-fd46ef3d8247958921cb9f2a86cced130bbae60e RDMA: Correct duplicated words in comments
-80a14dd4c37f94300bc9375592b54f98c6ad7b8e RDMA/rxe: Remove useless pkt parameters
-73ee762c17ed24904efcec638cda63cb65f3d793 net/sched: Don't print dump stack in event of transmission timeout
-7dbfb57394853f44e96b569a1e896d34b154bcbe RDMA/mlx5: Replace ent->lock with xa_lock
-7b23377710901768c4b78202c7617391876db1f1 RDMA/mlx5: Replace cache list with Xarray
-0cb550a6f472366b5bddf017c5292823fd537330 RDMA/mlx5: Store the number of in_use cache mkeys instead of total_mrs
-8a5b80aede64b8dfff5010d609f162e3be9fb9a1 RDMA/mlx5: Store in the cache mkeys instead of mrs
-991ae58e1f887aa34a100a3212dceae575d59655 RDMA/mlx5: Rename the mkey cache variables and functions
-51d332a2ac7e3b01a49165305ff8393c7f10b321 RDMA/core: Introduce peer memory interface
-16c6079edac0bb9f84f69078cb9a34969bdabc47 net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
-336f5f364225bf1987a6d8dbad74e42ed1c3f1b8 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-1b550bcf27c2f7098e95033d2e3254ed9f808123 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-5ff3d0cd7363934e8d53ba3a7b57feedf752ad2a net/mlx5: Introduce ifc bits for migratable
-4c5e55dc3ba3198c29cd666fda412b463b3a7579 vfio/mlx5: Set VF as migratable
-
---===============1833227866202584822==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f58d67519ce9-7e6903bf3962.txt
+Content-Disposition: attachment; filename=revlist-240536aa6a96-3d134b02c72e.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -1653,12 +1607,13 @@ f1b0f2e74aeb521286378a9233e38fba89d94b84 RDMA/mlx5: Use the proper number of por
 5f05c5e87a73ffaae5a2e368e88d1df8455d1dc2 Merge branch 'rdma-next' into testing/rdma-next
 628abba8977c6282b95944e44200c9b086937fd4 Merge remote-tracking branch 'rdma/hmm' into testing/rdma-next
 7e6903bf39620645de544876a8b3cfe4d61d73e1 Merge branch 'xfrm-next' into testing/rdma-next
+3d134b02c72eddb54e0d7bbf733a2a4ccf4d90b4 Merge branch 'testing/rdma-next' into queue-next
 
---===============1833227866202584822==
+--===============2460285032875539249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e54d6b01b833-5f19f16fcc7e.txt
+Content-Disposition: attachment; filename=revlist-78424a155330-8f12e4cf91ed.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -2426,5 +2381,6 @@ f1b0f2e74aeb521286378a9233e38fba89d94b84 RDMA/mlx5: Use the proper number of por
 73446b2bdb175c6f9b7266489aafc23072b331e4 mm: Re-allow pinning of zero pfns
 49c70f9b47fb573d32ad4dcefc2b94b07d152df0 Merge branch 'master' into testing/rdma-rc
 5f19f16fcc7e72e504184272f3d1e49fc1567766 TMP: fix compilation error
+8f12e4cf91ed5adfd558158c4d03bd4583e2a4d6 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1833227866202584822==--
+--===============2460285032875539249==--
