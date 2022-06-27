@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-Date: Mon, 27 Jun 2022 18:22:59 -0000
-Message-Id: <165635417972.2361.11470402130698927605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 27 Jun 2022 18:25:18 -0000
+Message-Id: <165635431882.4629.1968541158857094608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-user: nsaenz
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/nohz-full-rt-sched-fix
-    old: 0a77b7c2ae1363b64a1dede32e1109177e2b697f
-    new: 6d038b5fadaf0853b19a9c02fbd7504441d6084d
+  - ref: refs/heads/master
+    old: 125c9b195c00a0e8f7bbbfffaba7609e8afa40b6
+    new: b878be31aeb9034209f920bc787fee5a9872a15a
     log: |
-         6d038b5fadaf0853b19a9c02fbd7504441d6084d nohz/full, sched/rt: Fix missed tick-reenabling bug in dequeue_task_rt
+         b878be31aeb9034209f920bc787fee5a9872a15a autotests: In testNetconfig verify routes from RIOs
          
