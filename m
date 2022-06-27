@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3674611051382523788=="
+Content-Type: multipart/mixed; boundary="===============7792876047125841352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 27 Jun 2022 07:24:55 -0000
-Message-Id: <165631469505.32370.17539206556281371314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 27 Jun 2022 07:28:34 -0000
+Message-Id: <165631491486.30782.13739426528155299590@gitolite.kernel.org>
 
---===============3674611051382523788==
+--===============7792876047125841352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
+  - ref: refs/heads/master
+    old: f41284249a47f0c367cc55f65ebef4cd661b8ec4
+    new: 910ab438d45522fc9c6c995b33c26ee54ad55449
+    log: |
+         50999d7ad520fcd81490a006ea0b8ec941b77db4 move 5.10 queue out of the way for a minute...
+         7e79d15c1b696f57e5fa0ddbdcc26f7d0cc7cef8 add empty 5.10 series file
+         910ab438d45522fc9c6c995b33c26ee54ad55449 5.10-stable patches
+         
 
---===============3674611051382523788==
+--===============7792876047125841352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656314694 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1656314691-b0912e8c77bba29006883387d562975d6d809fe8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656314911 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1656314910-cfec2cae3c1f417164b55c8a0cef0d75c6b05eab
 
-0000000000000000000000000000000000000000 b9442c86eac959e20abb900442e6cc31d2d775d4 refs/tags/v5.19-rc4
+f41284249a47f0c367cc55f65ebef4cd661b8ec4 910ab438d45522fc9c6c995b33c26ee54ad55449 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5W0YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3q0P/0MrGSnY6Pa3vsoqWA8k
-15+WPsL4Nr481whsduntZTo9vnZN0/WMaLaz3xtNdinKDoWjGXix533sCznDcuPP
-s6BaRLqWr4d7gh3Qox8xzKWtwc+fqFCvbqGqsBYnjXfLrwtmcB2Vie55CCgBiyJL
-Ie8gKjB0ymr+uymG2i0/HmV6V47Hk4PihxHiY/HKH8AVNfrC624OTsQnPNCGPZTb
-QNCeeCNQ9uiCz2GymmSMhzWi349+8tvr/UyQhlpYsLPiYiyWm9hFlCbL13jamMiG
-tJuPg7Uog3e3r2c8xgrOe7EhTv26Czr1D6Vh07wu3Qw4zOaLklkchqRfh11mT5Dk
-pdnHg4n4vEAWwt9vZbBqRPpaLl0d9mvNElzst7dHKlI0mafvjZrMYx/r8Gnfat1W
-JU/Q6O2ez8BOJZ97fEbruslp5GUS8jXm6vUvgyng/69xD7cQeKR0pekw3Hiskgvq
-H5YeRuXxOH5dXv8/yFOUd54xP3DbucVGEZNSDEo/ITB0rDPjXUK6GvRhY637J2Ny
-cNmSFNVYfP+M5/LIQ0olNetZgdd0GcAspaCyEOOzByqxpJI/15xRT0cvCeC4Xv9q
-mZjnuNw/rVd9ssoNm3ewvFJC4Fq6GTU32+Vaf5f4g7vi0uV7teziNtfnecBk2nVG
-BX7EE/So0nWxcmy3PDa6UimF
-=W94q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5XB8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aa8QAKgdnbigTyr3PDus0qQ2
+dwuAzNh5iABcKL+qZsAT7HKGYV2tjS/yd7f8WoSLpIsuO2AIDww6rCSC6a3boeqI
+OVlNuL8qEHug2PfWGa9YK3n4HHarO3yYB5ApHW0IcbG9lWi+1kZ2pGxgPnC1nOcd
+NseS6rxrBlMEl3+FRLpB9EiE2S7wpgXJtD4WLi35lT2uAOtefk+kdGm9YHfGG7m1
+q8kpup6JPAIV5X8CM7OtSF0iTrfcrJxkxXG215uyVlaCzX6zCZG7qoC7ezSnlKlV
+FEr7+Sbf5ktAr2nrFvmRDx9GSqwElUmnrYPSH0AEyrn6V76hgx/BtAWXWYe+oZKM
+MlJJMFkWvD1pQl9y7Et2cZiSN5HuEJTlxo3+xhjzrekZKd0IZ4YnSKMmL3hKaYA3
+DDkMjTuQiuLDh3ZcNCZ3k8Fx/qtqpJO4+ZIBxegK4exsCLenXbOREv7+VaXaPzbe
+8ky+ttOg5LIu67hoRw1CCsjIlZ94sIrqbd1arpT1epW2wXf1r9t8Lm0gaHElS5HU
+95Z4tUDOGTQyG4gPYfYAfCKOFhpL9GZeZonZjkv19l/Q8Rvz9XwiXLE7sLp5FISD
+ppTH1Cjx78QrNVxF45CMR/gQ9XJsYaafGXLX7C0peYc2WcvJtVNRzKaDYUtm6EwI
+xPgdXcOiIM2BoElCgv3dB3dx
+=mcf6
 -----END PGP SIGNATURE-----
 
---===============3674611051382523788==--
+--===============7792876047125841352==--
