@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0456386555692915504=="
+Content-Type: multipart/mixed; boundary="===============6864671623475996257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 27 Jun 2022 09:25:32 -0000
-Message-Id: <165632193215.12491.4443197837656177982@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 09:30:49 -0000
+Message-Id: <165632224911.15683.17488065409117448326@gitolite.kernel.org>
 
---===============0456386555692915504==
+--===============6864671623475996257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 2f2e4f74aec026c860dbe7e03dd789352d2a8d1f
-    new: 9f02e40bdd6325c953dbecdc7a2e9d6b34c43aa4
-    log: revlist-2f2e4f74aec0-9f02e40bdd63.txt
+  - ref: refs/heads/gaudi2
+    old: f5cb5482372add20da6f3788ace5f89cfaab358c
+    new: 4d8ea7a91faf96234d386a3c454a31fa54585f10
+    log: revlist-f5cb5482372a-4d8ea7a91faf.txt
 
---===============0456386555692915504==
+--===============6864671623475996257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f2e4f74aec0-9f02e40bdd63.txt
+Content-Disposition: attachment; filename=revlist-f5cb5482372a-4d8ea7a91faf.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -538,5 +538,13 @@ dd6052f65b7f974542a790c302dc8e6d255a4856 habanalabs: page size can only be a pow
 a0766ca65152626bb667e0b7227f1106a9ca4270 habanalabs/gaudi: enable error interrupt on ARB WDT
 8d4aa81e27cfd4d9911a640cd957eb8b40812a70 habanalabs: remove dead code from free_device_memory()
 9f02e40bdd6325c953dbecdc7a2e9d6b34c43aa4 habanalabs: communicate supported page sizes to user
+59131401c0793992fd749a868309348f7de23673 habanalabs/gaudi2: add asic registers header files
+4c2777c00f75356e02452d53d452f8dee3320c36 uapi: habanalabs: add gaudi2 defines
+45c7075ebe94090709af1561b25d00219be402ac habanalabs: add gaudi2 asic-specific code
+6b207189d67cd4ddaa6ad3808431cfce007a2245 habanalabs: add unsupported functions
+18967af1567bde97ce9dcfa0488558250f726a4e habanalabs: initialize new asic properties
+2f041bd64a0a7ea1e5c33c136c9a88fa64c16fd5 habanalabs: add generic security module
+ab844f1f277748649a8ba654ea04f7747d1c1761 habanalabs/gaudi2: add gaudi2 security module
+4d8ea7a91faf96234d386a3c454a31fa54585f10 habanalabs/gaudi2: add gaudi2 profiler module
 
---===============0456386555692915504==--
+--===============6864671623475996257==--
