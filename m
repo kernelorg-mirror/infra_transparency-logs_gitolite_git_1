@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 27 Jun 2022 08:24:54 -0000
-Message-Id: <165631829467.1668.5342698077479332670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 27 Jun 2022 08:25:07 -0000
+Message-Id: <165631830789.3230.5053443820994967066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/bluetooth/bluez
+user: janc
 changes:
-  - ref: refs/tags/dt-cleanup-5.20
-    old: 0000000000000000000000000000000000000000
-    new: 9d6b31ec33dc6ec45e7085b69e225339012cc4b2
-  - ref: refs/tags/dt64-cleanup-5.20
-    old: 0000000000000000000000000000000000000000
-    new: 5eb573ec846c94840628497cb5c7aee41ae305b1
+  - ref: refs/heads/master
+    old: 65f7faf5a3d0dcd63c14467a3a2bda317287e330
+    new: 1d6cfb8e625a944010956714c1802bc1e1fc6c4f
+    log: |
+         1d6cfb8e625a944010956714c1802bc1e1fc6c4f monitor: Fix crash when using RTT backend
+         
