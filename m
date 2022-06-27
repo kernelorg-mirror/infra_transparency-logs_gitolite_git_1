@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2598657229452747619=="
+Content-Type: multipart/mixed; boundary="===============6122252902011436470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Jun 2022 14:43:08 -0000
-Message-Id: <165634098858.16086.3734613953505612399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 27 Jun 2022 14:43:25 -0000
+Message-Id: <165634100537.16553.14588561112722056096@gitolite.kernel.org>
 
---===============2598657229452747619==
+--===============6122252902011436470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 44fd1917314e9d4f53dd95dd65df1c152f503d3a
-    new: afa8fe4cc40e197c99fc650113bb96d26091648a
+  - ref: refs/heads/driver-core-testing
+    old: 31c779f293b343577690c01369a5019ca6ec5de9
+    new: 1d248d2302da5b96e06281a52056eeafec0d2e11
     log: |
-         afa8fe4cc40e197c99fc650113bb96d26091648a Docs/ABI/testing: Add VDUSE sysfs interface ABI document
+         1d248d2302da5b96e06281a52056eeafec0d2e11 ABI: testing/sysfs-devices-system-cpu: remove duplicated core_id
          
 
---===============2598657229452747619==
+--===============6122252902011436470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656340986 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1656340985-99777fd9e896edf07ffc26fd57a746222cae0463
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656341004 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1656341003-13e7361afc2f7e215f33fb929df40fd97ad68440
 
-44fd1917314e9d4f53dd95dd65df1c152f503d3a afa8fe4cc40e197c99fc650113bb96d26091648a refs/heads/char-misc-testing
+31c779f293b343577690c01369a5019ca6ec5de9 1d248d2302da5b96e06281a52056eeafec0d2e11 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5wfobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bl0QAIqXbyGdvY4GK1wu6G7K
-FWcCxDbhqdy57usIsZwZcwIF6LRBItW7F3J1ttfbe5UE2RIaTpku2mLOzZ9kANA5
-7+nsMXED05eg1qUqNOd+r6RtK7J6Zu+TPUZ/nxHY+JyuecJGu8ElXvnmGVLCEeBb
-UbU5nsyToNeacAiIbN9k/9e8OOPk89Mp79T9vEIiKi8V0MEez1MTQDJpqY727FAg
-drgGKiSZVADOOv7TkL4w1v11f8a/zQ9XBS/h/xDlBYRdntp6RYTgqfeSqNpliLfE
-YdQvAJvcZzk/zKABcDpqbXoxIld8XFVQRFMgTcJblVu6DBItak0sBcHdO4miWogD
-yoCaP0EHT/xqN9MtUn3/OuPOai7lHNdG/8+zAAQp1tDJ2z30ZGYkA79U9MxDA9uw
-JCpOXnp6JIBPsZ9vlk8YqE58WMKAOr2c0IKkc2U3zOXDGLeOtX5Flx1hyOIS/dsg
-RHHNw8mTRnbZJEa5IUOy9qqS0hvnbau+YOut/gkqkizNW0/xn7bpJCTWnu4KMpHJ
-If0h2KaepECGil9/Bus436MHTfC3NdK3fxGi1Huz1ycga2gk4XJt/lopUM16L9/j
-jBfg1gswSaT75+BxNrG0pN9puHcAbocqLNdEkNXB+hLz0RQSz4LaolXEhiiw0+/j
-NzovenTt0Y+LvyRJHedysGcb
-=e6ru
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5wgwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VU0P/AtPQaxqZvSk9+Y8Dl9L
+B+GC98yJGSyxsTJSeWq5aZhPf0bZqiuw3JGx6kOloxcOOUxPepof7xI5MpY/9Dte
+YYLpCdlE9flJuwlAGz+oX4ixeok/p3giLvvUUDgjrShf5kl2/qXxb1f0UU9bdaGl
+5BSP6J2QGUcVa92tjmidxBUxJpAcjpWXpYgRh8h5dkR39HJCizDmWXVeTP9dRSfs
+ItSKEGDdeCzk0UuP63YDnYuM0nswmVOyzK+dKdmbuW7KkPmXNwqWvnd1BYbbijeI
+1XOoyHZSPUr+xTyXiLvKgBPqzuEn4w64Z9hwg4ubytcRrrpJGZOZux37rmT2ijuN
+XgrqBMNdEUwGmFvNjuKJnZEIw00ivwUIK8bcrhVaQT+FD1/v9cNmu6JbN3cJSLkc
+7KofPWIW48kglgOZCs7hK34JDVH18rqZzr+A2WZbD3N7hciDJuUiONqTSqilAuDE
+zE3YUQMiE44tfSpN7KS8vA2drWlhJNeqfYxW2VAAxbX3sgNJgleKw930L9fKDqJG
+px2kGR1Kt4UczKQQ+Yv21Bbqwb83Q37I45zf5A/AETcEXBHHr6KDl8KJmfUZfqro
+tLpjb2Berr5xpESdhvz350nBGSpZJaKrW61rXdGWG4ZhozgKpTsqtFuk1n+TSXUn
+yx5Dk97k1mEePQY59S6GzqcH
+=0/OB
 -----END PGP SIGNATURE-----
 
---===============2598657229452747619==--
+--===============6122252902011436470==--
