@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3859239785312978907=="
+Content-Type: multipart/mixed; boundary="===============1593380860051130597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 27 Jun 2022 11:15:53 -0000
-Message-Id: <165632855392.5528.12200352192910037242@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 11:17:04 -0000
+Message-Id: <165632862490.5998.6758654325621134220@gitolite.kernel.org>
 
---===============3859239785312978907==
+--===============1593380860051130597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: eef88bc9476168e519fe7e9514b8be3f1cda787f
-    new: a830f02404586b01d275f62e128c57fe15a2b7e1
-    log: revlist-eef88bc94761-a830f0240458.txt
+  - ref: refs/heads/m68k-queue
+    old: 350e87b1c7dd570a9ca19b647e1cb21509fa5e79
+    new: da9b8ed36858dd0fe0872e72b63047b267bce90a
+    log: revlist-350e87b1c7dd-da9b8ed36858.txt
 
---===============3859239785312978907==
+--===============1593380860051130597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eef88bc94761-a830f0240458.txt
+Content-Disposition: attachment; filename=revlist-350e87b1c7dd-da9b8ed36858.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -483,6 +483,11 @@ c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26'
 413c1f14919b3efee05eb79d2e913663e964abda Merge tag 'mm-hotfixes-stable-2022-06-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 1709b887397cb371ed149560a48d24b232c53ccd Merge tag 'soc-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 03c765b0e3b4cb5063276b086c76f7a612856a9a Linux 5.19-rc4
-a830f02404586b01d275f62e128c57fe15a2b7e1 Merge tag 'v5.19-rc4'
+53b684b0961b042e5c4067cbfe9ec6713e458c93 m68k: virt: Kconfig minor fixes
+7ab46fae167a8abcc44cd5addd998a641643a185 m68k: mac: Fix typos in comments
+89219dfb662b2e0f6cff97792d11086dac841b12 m68k: sun3: Use __func__ to get function's name in an output message
+05557882335cdca5d223e49da6679a516b979882 m68k: atari: usb: Add ISP1160 USB host controller support
+145e2d279e1d8a44f2e0b2a0d0144ae5269b1353 m68k: atari: Update Kconfig.bus help text
+da9b8ed36858dd0fe0872e72b63047b267bce90a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3859239785312978907==--
+--===============1593380860051130597==--
