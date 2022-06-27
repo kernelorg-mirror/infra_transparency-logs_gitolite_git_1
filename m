@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5596796088815138956=="
+Content-Type: multipart/mixed; boundary="===============5874020012854946598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Jun 2022 08:02:43 -0000
-Message-Id: <165631696310.18160.18302491846420372165@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 08:02:47 -0000
+Message-Id: <165631696768.18250.1452407559834624069@gitolite.kernel.org>
 
---===============5596796088815138956==
+--===============5874020012854946598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+  - ref: refs/heads/char-misc-linus
+    old: 315f7e15c261167ea71c1a4cce2a18ca30e990ea
     new: 03c765b0e3b4cb5063276b086c76f7a612856a9a
-    log: revlist-a111daf0c53a-03c765b0e3b4.txt
+    log: revlist-315f7e15c261-03c765b0e3b4.txt
 
---===============5596796088815138956==
+--===============5874020012854946598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656316962 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656316967 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1656316961-6e0806da51a85844e5325a2ec3561b4f7a9c1ca7
+nonce 1656316966-0b4f3e55c430a38f992e458b2d841475092b3833
 
-a111daf0c53ae91e71fd2bfe7497862d14132e3e 03c765b0e3b4cb5063276b086c76f7a612856a9a refs/heads/main
+315f7e15c261167ea71c1a4cce2a18ca30e990ea 03c765b0e3b4cb5063276b086c76f7a612856a9a refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5ZCIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tDQP/RCpy3+0MJfelyFfCJUI
-6+rwAYW5Kg6xKdWat82VhfytUJtCjuGujv4p57Lm71tRrEkCx3I1QprJwKnINL6y
-kS3fUYB9gYV0j4Jm+qPRA1DDSgBTC1vfm1eCSkYTCSHx6kTDUJa+otSVOoXktpaX
-QW6diZkmPeSec3RjMeqqfUAdrOTR+Qw8yBuz1rcynEfMGU7KjplrPJYKu6UWZ9GM
-HsbfmPRZLzRVB0ddGxJCXQkXUsHzgk72Tu/8zC/p7Uk5F7SyXv/WACDvza8vFbbq
-sk9iNpWfynQjJo9YFZ1PeJhHTqts01yuF5QCLa5TgCtW2l+F8MewYaQuSZwEmr+X
-whT23PIN+2W5QmVygrzxhAH+Yljx5+bY0aHhr66W583u2HZ6/+MGOOZUAGVaquRI
-ls/++cvPsDL8Rk0lX1zCAgXMGd99hXYCdD0AxfKekhJO9Nv3vr44jlnJWtHZRm/4
-aKLNGwmD3oOJEQZcrWLDOuBXfY51L5wiG9EYcPOwwSUMYFnI2eOdqm0m6pNO5+5v
-6bHe5gy8FWJj9iV0wN1NCpxjBlASUdTji7GD24H3C3zhJpMiNlZlrArdQR0MTmz+
-6uvDQfrhNsgfVNx0+sFsbc/jnMYFW7447eNwcaI5FLUIOzh9ioXorgiWNWbHVGcJ
-MmRibCTkj2Pin4aUebnstlzB
-=XULd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5ZCcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gooQAMdLFYrFiT1J6H/EgZ3Q
+Pw4ITjyY4nradQAYXYiYL9ow2gY2JUK3HPqqxSUXcdSPBoeJeahx2IxDbQry9z29
+zxm3GdQM4LlUo2t+SDnfKIVUMQ70Elu+pNSBlHbgHJbM0/BXzh/Jm9T4ixREmwW1
+y/OKCw0OrYLrHD662WAwKZd31Dljd5K53Rm0V8xC8mfamx3yV3qgKF3r8M5uOxQS
+ouODs74CmnWAvH/uO3bRHNjp3c8W0tQWLHhDx2E54LhptLL52ZoHbd2q3lfst8fg
+d5heSmyeNI+gI0bb4z6nVRSu3mOcezR/s3zUxhBY57TI51D05tbkQvcKIAj3qwaA
+H6cNkjtwk47w5BJ+m1bAJaGCBxdZhDOaExhdYNTBCJVe1KDklTvt2pcv1sAUHmnL
+p+f0qNOzKH1endVt43Ft6b6b16imGBDJuTJSMVC/ZQlBKdDb5N5FVq/ITdk8MT0E
+oZjjf5sOlKDB9pUOhni3BOYtr7UtjxFOzYmJVWzsIlozNIZHRnBAPzmaZBWmRJfC
+AozBAp7qYw4n9LtbNs6hb9TIfMKib6yb77dzp60RASWZnXoJzhZ8LohkKEw2itBh
+R9JcjjpnbLOZSmPthuqe6KW+X1yv2ZF84XIZuCmaL47YbRV4hETjDkGkW/Zid8RS
+wvxAf9vge9v9XoyQRK80qKNt
+=aMRR
 -----END PGP SIGNATURE-----
 
---===============5596796088815138956==
+--===============5874020012854946598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a111daf0c53a-03c765b0e3b4.txt
+Content-Disposition: attachment; filename=revlist-315f7e15c261-03c765b0e3b4.txt
 
-fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
-048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
-bb52d3691db8cf24cea049235223f3599778f264 iio: magnetometer: yas530: Fix memchr_inv() misuse
-f8ef475aa069cd72e9e7bdb2d60dc6a89e2bafad iio: adc: xilinx-ams: fix return error variable
 af0f2a8cc3977e08e79a096f0c2c7a5be29b130b Merge tag 'msm-next-5.19-fixes-06-01' of https://gitlab.freedesktop.org/abhinavk/msm into msm-fixes-staging
 036d20726c30267724416e966c9f92db07de8081 drm/msm: Ensure mmap offset is initialized
 f84d83d8165570380f55f4ce578bfb131a9266c5 arm64: dts: exynos: Correct UART clocks on Exynos7885
@@ -245,28 +241,6 @@ e5287e6dd3b07e28e6bca5e33a3813a5e83bbc4c perf expr: Allow exponents on floating 
 c788ef61ef2ae51dc9cbd589e118f827585c156f perf metrics: Ensure at least 1 id per metric
 140cd9ec8fdddc0e2d1684e6b69bcd05efbc9549 tools headers UAPI: Sync linux/prctl.h with the kernel sources
 be33d52ef5b4bdfec04cfdad39368c343bac97a3 drm: panel-orientation-quirks: Add quirk for Aya Neo Next
-6f6bd7591945c679b7f595119ea997b19f5794db iio: freq: admv1014: Fix warning about dubious x & !y and improve readability
-b2f5ad97645e1deb5ca9bcb7090084b92cae35d2 iio: gyro: mpu3050: Fix the error handling in mpu3050_power_up()
-78601726d4a59a291acc5a52da1d3a0a6831e4e8 iio: trigger: sysfs: fix use-after-free on remove
-d836715f588ea15f905f607c27bc693587058db4 iio: adc: rzg2l_adc: add missing fwnode_handle_put() in rzg2l_adc_parse_properties()
-47dcf770abc793f347a65a24c24d550c936f08b0 iio: adc: ti-ads131e08: add missing fwnode_handle_put() in ads131e08_alloc_channels()
-d2214cca4d3eadc74eac9e30301ec7cad5355f00 iio: adc: stm32: Fix ADCs iteration in irq handler
-99bded02dae5e1e2312813506c41dc8db2fb656c iio: adc: stm32: Fix IRQs on STM32F4 by removing custom spurious IRQs message
-8a2b6b5687984a010ed094b4f436a2f091987758 iio: adc: aspeed: Fix refcount leak in aspeed_adc_set_trim_data
-9decacd8b3a432316d61c4366f302e63384cb08d iio: afe: rescale: Fix boolean logic bug
-e5f3205b04d7f95a2ef43bce4b454a7f264d6923 iio:accel:bma180: rearrange iio trigger get and register
-ed302925d708f2f97ae5e9fd6c56c16bb34f6629 iio:accel:kxcjk-1013: rearrange iio trigger get and register
-9354c224c9b4f55847a0de3e968cba2ebf15af3b iio:accel:mxc4005: rearrange iio trigger get and register
-d710359c0b445e8c03e24f19ae2fb79ce7282260 iio:chemical:ccs811: rearrange iio trigger get and register
-10b9c2c33ac706face458feab8965f11743c98c0 iio:humidity:hts221: rearrange iio trigger get and register
-7a2f6f61e8ee016b75e1b1dd62fbd03e6d6db37d iio: test: fix missing MODULE_LICENSE for IIO_RESCALE=m
-ada7b0c0dedafd7d059115adf49e48acba3153a8 iio: adc: adi-axi-adc: Fix refcount leak in adi_axi_adc_attach_client
-f1a633b15cd5371a2a83f02c513984e51132dd68 iio: adc: vf610: fix conversion mode sysfs node name
-106b391e1b859100a3f38f0ad874236e9be06bde iio: imu: inv_icm42600: Fix broken icm42600 (chip id 0 value)
-bc05f30fc24705cd023f38659303376eaa5767df iio: adc: stm32: fix vrefint wrong calibration value handling
-990539486e7e311fb5dab1bf4d85d1a8973ae644 iio: adc: stm32: fix maximum clock rate for stm32mp15x
-bf745142cc0a3e1723f9207fb0c073c88464b7b4 iio: accel: mma8452: ignore the return value of reset operation
-70171ed6dc53d2f580166d47f5b66cf51a6d0092 iio:proximity:sx9324: Check ret value of device_property_read_u32_array()
 534d2eaf1970274150596fdd2bf552721e65d6b2 random: schedule mix_interrupt_randomness() less often
 c01d4d0a82b71857be7449380338bc53dde2da92 random: quiet urandom warning ratelimit suppression message
 4cde00d50707c2ef6647b9b96b2cb40b6eb24397 f2fs: attach inline_data after setting compression
@@ -275,7 +249,6 @@ c01d4d0a82b71857be7449380338bc53dde2da92 random: quiet urandom warning ratelimit
 291810be4227564403807e663f3ec8d3b3d6ba34 Documentation/llvm: Update Supported Arch table
 9243fc4cd28c8bdddd7fe0abd5bbec3c4fdf5052 block: remove queue from struct blk_independent_access_range
 9882d63bea14c8b3ed2c9360b9ab9f0e2f64ae2b ALSA: memalloc: Drop x86-specific hack for WC allocations
-315f7e15c261167ea71c1a4cce2a18ca30e990ea Merge tag 'iio-fixes-for-5.19a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 313c502fa3b3494159cb8f18d4a6444d06c5c9a5 ipv4: fix bind address validity regression tests
 301bd140ed0b24f0da660874c7e8a47dad8c8222 erspan: do not assume transport header is always set
 69135c572d1f84261a6de2a1268513a7e71753e2 net/tls: fix tls_sk_proto_close executed repeatedly
@@ -515,4 +488,4 @@ c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26'
 1709b887397cb371ed149560a48d24b232c53ccd Merge tag 'soc-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 03c765b0e3b4cb5063276b086c76f7a612856a9a Linux 5.19-rc4
 
---===============5596796088815138956==--
+--===============5874020012854946598==--
