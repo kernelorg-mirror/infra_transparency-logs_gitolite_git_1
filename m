@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1918618879042523857=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 27 Jun 2022 08:51:18 -0000
-Message-Id: <165631987817.20816.3755954526226968218@gitolite.kernel.org>
-
---===============1918618879042523857==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Mon, 27 Jun 2022 08:52:43 -0000
+Message-Id: <165631996329.21366.4570592589058358137@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/master
-    old: f3b3f77c84f8b735bcc1a73392794bffc955b7fb
-    new: 50cecf4f6edd197d18c156ce81dee4582a58be91
+  - ref: refs/heads/for-next
+    old: 71eaf1887203d0a59c92fd9dd3436b8d8489d68c
+    new: 0c356b3c1158eff408ae6646d14196fabef8b466
     log: |
-         50cecf4f6edd197d18c156ce81dee4582a58be91 5.18-stable patches
+         76260bd63800dbbc7552357094cfc483bcb5aad4 dt-bindings: arm: mediatek: Add mt8186 pericfg compatible
+         84e8bdee85a2660225a44592708d39fa0a6abcb9 dt-bindings: arm: Add compatible for MediaTek MT8186
+         bb8a55a89a393145fc9280d3db6f800e8d03c95b arm64: dts: Add MediaTek SoC MT8186 dts and evaluation board and Makefile
+         a825d72f74a318b479da7b79ba5e1611ccfc511f soc: mediatek: fix missing clk_disable_unprepare() on err in svs_resume()
+         8f0b1ddf19840099244d584e983b2c523873c222 Merge branch 'v5.19-next/dts64' into for-next
+         0c356b3c1158eff408ae6646d14196fabef8b466 Merge branch 'v5.19-next/soc' into for-next
          
-
---===============1918618879042523857==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656319877 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1656319876-4a285be74055d8ff278156c425a51f4d0b4aad84
-
-f3b3f77c84f8b735bcc1a73392794bffc955b7fb 50cecf4f6edd197d18c156ce81dee4582a58be91 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5b4UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GSoQALGgtgp37jCmxi/PqUOH
-yrxlkU5ruph6JaTitugP7VWnGVMhvmES1WSedg3Y8UY6nQCnNq6dVkvn1FpOXy+o
-lczcT7osq8HAYLHGPthJz+XdDDGkgIAYygz6qaNbx9RMITIEkIbcl6ROeDflIVEM
-gygsFKJaQn1CSbEzzoSu0bywgufJhlN961seevbkPrDnRmWbMjGXMRefH4ytC1FR
-vmtRDgJsziTLEKuIVeKwGE9ncK7XnI0JS9GFrnS9sIdcFf8AQZqGWHcpaG5G6Yae
-/fUcW4gNPDcmazLxUYJDOH81a50OQPt65QCXFj+B5rLzKrTF0MW2WdlsAexHA6Rn
-9MAAP/SN0sok9WYOdlUYZAxvBlz1kEOlXRhh1UyzcgwWMZ+WJNjtgr+Te4+m0wkT
-XuMH0OJfieFY6zClUnQPjU7WC8wO7xdrzHII0iihNXc1vt0+QAuAH64bjkFY7lUs
-GjHiwN+ZvmFNrT767uJDbq4KGVGpr7jcYg71br+znA/9VcilN9k1EWln0TJemv+9
-KJm6M9Q7RSv7R8n31vcYBZufWsdoW1ZMLUod5gNK0qaKDDEKfT8Q3AyxC6sbBroV
-rjDVviAE27XD69DXL95xtMa3sONpyKzdZCXbYGjVaz1iJVQhIgZ9Pnwj/1HX0HHY
-5K+1larWPYZCOAhjBvHPMvJL
-=Li62
------END PGP SIGNATURE-----
-
---===============1918618879042523857==--
