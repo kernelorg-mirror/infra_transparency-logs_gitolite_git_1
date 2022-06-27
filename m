@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============2958312608790031682=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 27 Jun 2022 19:07:52 -0000
-Message-Id: <165635687228.31895.12551290380759823089@gitolite.kernel.org>
-
---===============2958312608790031682==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
+Date: Mon, 27 Jun 2022 19:14:04 -0000
+Message-Id: <165635724498.4617.450035767822422004@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dborkman/pw
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 4fc120c971eff987ed15e4387c18426d837d6dbd
-    new: 049b039de40fac19d02770b9fd31cfc4fe25bd5c
+    old: eb7118d83bbfb284704eb632aa35d7492d74c01b
+    new: 958ca3c1b471aab95e32c1e095d836206e845aa1
     log: |
-         049b039de40fac19d02770b9fd31cfc4fe25bd5c Remove "b4 attest" subcommand
+         336fff47c3d1775eed52e2ad1dc6e318eec92d69 pw-pull: Wait for conflict resolution
+         b7b90ddea0a9df8d9c322538bb028abf1efd306b pw-apply: Propagate Tested-by tags
+         958ca3c1b471aab95e32c1e095d836206e845aa1 pw-apply: Trim hyphens
          
-
---===============2958312608790031682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1656356871 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1656356871-83fe745cfdcb0abe55918c7d22f138f96e80ac1f
-
-4fc120c971eff987ed15e4387c18426d837d6dbd 049b039de40fac19d02770b9fd31cfc4fe25bd5c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYroABwAKCRC2xBzjVmSZ
-bOUPAQDTEV+j6PP/hMkiUbBGE8y/gjWMil6/xdCxE/zXDo/D5wEApB7jS8mlVIXH
-66oX3Hz5n0Ia+lyx0AWftN/UhtVV1As=
-=sfxP
------END PGP SIGNATURE-----
-
---===============2958312608790031682==--
