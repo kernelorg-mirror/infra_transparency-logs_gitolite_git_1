@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Mon, 27 Jun 2022 06:22:49 -0000
-Message-Id: <165631096925.24543.18291351310305662490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 27 Jun 2022 06:39:32 -0000
+Message-Id: <165631197236.1701.15549758722917558784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: ea3c8adfd39a5f6137482daca21058132ec5ee8d
-    new: 6f7ab21645694b01e45bae8d8740004f53736c82
+  - ref: refs/heads/fscrypt-pending
+    old: 7170f1a283035516faeef66b063e1706a49703ed
+    new: 81f2a2fe8fb12c52f734a8cc39033ddfe3c7a988
     log: |
-         07bf5e1520ebf520a65f350a99d6a7f28c482ab5 depmod: Fix writing over array length
-         6f7ab21645694b01e45bae8d8740004f53736c82 modprobe: re-use modname variable
+         02cb1032555daa3e6abcf3433acf6a9d8967b52a fscrypt: stop using PG_error to track error status
+         81f2a2fe8fb12c52f734a8cc39033ddfe3c7a988 fsverity: stop using PG_error to track error status
          
