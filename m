@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5501291804638631187=="
+Content-Type: multipart/mixed; boundary="===============7089635882145701884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 27 Jun 2022 12:36:29 -0000
-Message-Id: <165633338996.27501.16249881643639499639@gitolite.kernel.org>
+Date: Mon, 27 Jun 2022 12:37:04 -0000
+Message-Id: <165633342474.27753.11882347590591755501@gitolite.kernel.org>
 
---===============5501291804638631187==
+--===============7089635882145701884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: f9008285bb69e4713918a665250ab2d356b731ba
-    new: d24d7bb2cd947676f9b71fb944d045e09b8b282f
+    old: d24d7bb2cd947676f9b71fb944d045e09b8b282f
+    new: b28be5d06d337423836b96a29afd53047a3d290f
     log: |
-         eb01611056cf835cf2c1cc1a800bfff9386c82ea drivers: tty: serial: Add missing of_node_put() in serial-tegra.c
-         d24d7bb2cd947676f9b71fb944d045e09b8b282f tty: serial: Fix refcount leak bug in ucc_uart.c
+         599fc76a5a00a3351caf06f96fc8a7e1bf67d9ea dt-bindings: serial: renesas,hscif: Document r8a779f0 bindings
+         b28be5d06d337423836b96a29afd53047a3d290f MAINTAINERS: Update DW 8250 UART maintainership
          
 
---===============5501291804638631187==
+--===============7089635882145701884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656333388 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656333422 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1656333387-91c9db43f98a1a4c694bcb07d79090c0f4cbdb52
+nonce 1656333421-e9b9970f79b2a131799f0815ef8b4d1ad0156d41
 
-f9008285bb69e4713918a665250ab2d356b731ba d24d7bb2cd947676f9b71fb944d045e09b8b282f refs/heads/tty-testing
+d24d7bb2cd947676f9b71fb944d045e09b8b282f b28be5d06d337423836b96a29afd53047a3d290f refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5pEwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fCAQAIZk6tAQDWlGu62wwAi5
-/FOFdfKpf1znIXKqfyY8aZgpcwl+dlUsuLWtwR+5n7xl+gDImRQfB5qExe2S/C68
-how3GHhMEt1fy4SWqVHk00RTrshWgqi23MHVYo/M7X1vJ30e94HQ4m8KbJhbIfUo
-b1kPnGuGtO1yWG77fz/2Hv8jMCa095uQmCITd9HuwXx0C47tWuiPs8OC7B5n23FH
-Cr2rxAel+oc6/L7mpicNpyNOVTf3W/80eUajxE1dulYUrA50zAMTmlYqqGxjlj4u
-e1e87lCIxG2L39NVZ8NypNvfyLZRLJFWdgLH6tceczeHPzMwlI+h2oE90GswKGFs
-UALki+omx5nvsncFOxcGl8Pud7ZmKghUhixND3kskg3EnndEmr1DC3DzsS6TB2Ri
-eyIDXoG5IwbgHYOl+w6GTYpSCzoELlaJNpqtHD3flmKK+l6mModvLUZXhsVulIMu
-uJm3e2H3o1ZTAzjJyjmtCoMWnntWtpsiMuPuK5TO5pNRoRl9/tVlbZAXLk8N5vEv
-fzM52ka6Jy5A2mz1AKWeSZQ4IeKOZ9AbBiXOiosKMP8GsJT9LqXKwEYXT6FXwdJb
-upF3UIsDzqCGL8BJVJy/8G8/4P4RJMOUdDD/diseYnbrU2BoW37hkJyG0UKK+Nmu
-N6i+gVgPgVGMwsWvhPtz8Bf+
-=UE3i
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK5pG4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TYIQAM827oWUQM+eKMSHXCfs
+4sB5n7JClji8n8tNEk9Lm36sWE3jj1NjlVwUMywGzIg1geBFdVAdJEaUL2hlaE7s
+Tt+fRRm325HQUXs1scKtBtil582S7sH1biP0XDqSjusKV4pyOazG8T2hI0F7G5Xa
+cK2kNRn0vXietpHWlbADoV1b7dOXvsuJM3OEYqT2coui97EOddzNhmqbAZri8zcu
+EHiCxp1IVvrKKe1xYWaoI/9MTH8vIh3gl87KngAp1XhwSJ6OCUwdsjIFgPeFOOq8
+/zP5PXGg261Tp1XtDTvpDcN+agXLMA9y9Diwb4hzxZQ5LEqWVu/KnCnXUb3v0Qu7
+eYRglsZ6cGtCM+JI02KH83ZpLuzZHxKg75s+R3CsIvsM7ctdYKt0db5U5wpfbqC7
+dmFVZIEPFWZltwbVIsNgPYKTdaAE0NtH/SZ2c5i+VbvC9dahBF3TF6EhaXqGygsh
+QvifScBxd+TtsjIE2clp9vGGbvnq0a6pQVMcTXR4erUfrzYyTApLXKeA470D+WWh
+C5rK/OkMA7zae6tqNSmtxgQHQ6d2UI4+j2MSsFKarenAHaopkmTicXf2s0Y2Hcc3
+KNvYsddCAkcycV6ACRX/+2KxlfOIqym2qulMD5AOG+b29r4gJ27YVIpz1vtid1sW
+JP47fhVQPnpO92duSgB1Oh24
+=lvCo
 -----END PGP SIGNATURE-----
 
---===============5501291804638631187==--
+--===============7089635882145701884==--
