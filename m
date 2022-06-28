@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 28 Jun 2022 22:51:34 -0000
-Message-Id: <165645669473.18602.12056331346910077940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 28 Jun 2022 22:57:33 -0000
+Message-Id: <165645705345.21932.13331863210295557160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b878be31aeb9034209f920bc787fee5a9872a15a
-    new: e0613311c2d1f50e7241eb36acf075c66a0bf64f
+  - ref: refs/heads/dev-queue
+    old: f37f3aba9d93b967d54ccbfccf8adc95403447fa
+    new: 150f35e9f315a29faf7919e337cefa5392b83664
     log: |
-         e0613311c2d1f50e7241eb36acf075c66a0bf64f client: fix crash from unknown properties
+         807ff73ff2f0a413e8c5df5e1a88b0191c32280a iavf: Fix handling of dummy receive descriptors
+         500ae7dfc7f392613848a8e2c6e1e969742483ce intel: remove unused macros
+         971d077cd2ee322829904d0e8e586d0bdde097b7 igc: Lift TAPRIO schedule restriction
+         150f35e9f315a29faf7919e337cefa5392b83664 ping: fix ipv6 ping socket flow labels
          
