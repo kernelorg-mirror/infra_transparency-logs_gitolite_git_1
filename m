@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7758154548727912590=="
+Content-Type: multipart/mixed; boundary="===============8525237999713783041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 28 Jun 2022 11:34:39 -0000
-Message-Id: <165641607976.22614.14803666595258504689@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 11:34:55 -0000
+Message-Id: <165641609579.22785.4324971487196772969@gitolite.kernel.org>
 
---===============7758154548727912590==
+--===============8525237999713783041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 6a33ed506416a74aea3071a72192fb06a3cc82df
-    new: e34cc16a8042488efad86f121c94dcda5cd6f0c4
-    log: revlist-6a33ed506416-e34cc16a8042.txt
+  - ref: refs/heads/for-next
+    old: 32ec3929dcd0bbda48e691c4f546a50445b7b908
+    new: 1b72be9c36566d2c8607d626465a82dd600b1819
+    log: revlist-32ec3929dcd0-1b72be9c3656.txt
 
---===============7758154548727912590==
+--===============8525237999713783041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a33ed506416-e34cc16a8042.txt
+Content-Disposition: attachment; filename=revlist-32ec3929dcd0-1b72be9c3656.txt
 
 f54912b228a8df6c0133e31bc75628677bb8c6e5 scsi: ufs: ufs-mediatek: Fix build error and type mismatch
 c577ab7ba5f3bf9062db8a58b6e89d4fe370447e scsi: iscsi: Fix HW conn removal use after free
@@ -55,5 +55,8 @@ bc98b503b111b92d1f51005b393615eaf689231f scsi: sym53c8xx_2: Remove redundant "wi
 cc06af0bbc21bcee40d57e3ee569d3a09741dafd scsi: trace: Print driver_tag and scheduler_tag in SCSI trace
 90c3ca3f247d1a95fc47232e9f0aef114becd605 scsi: mpt3sas: Remove flush_scheduled_work() call
 e34cc16a8042488efad86f121c94dcda5cd6f0c4 scsi: MAINTAINERS: Update cxgb3i and cxgb4i maintainer
+fce54ed027577517df1e74b7d54dc2b1bd536887 scsi: hisi_sas: Limit max hw sectors for v3 HW
+df6055e35cbc3b9d7ebbf8b7450a81f2613ecb45 Merge branch 'fixes' into for-next
+1b72be9c36566d2c8607d626465a82dd600b1819 Merge branch 'misc' into for-next
 
---===============7758154548727912590==--
+--===============8525237999713783041==--
