@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 28 Jun 2022 18:02:12 -0000
-Message-Id: <165643933250.20732.2526940904203389826@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 18:30:43 -0000
+Message-Id: <165644104396.7200.16192163101316830666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
   - ref: refs/heads/next
-    old: b4e6b71ff492274ba5bc702a4e16e1788b37afcb
-    new: 25a6b912b49cea9a5a1b60611631d4e43c69d383
+    old: 25a6b912b49cea9a5a1b60611631d4e43c69d383
+    new: dc977c0c9ac244db8ce1871e0a4f3c1a25d38e84
     log: |
-         1df4d1724baafa55e9803414ebcdf1ca702bc958 drivers: fix typo in firmware/efi/memmap.c
-         162dca8deedf9fe77dca99723731d552e6ebb40b efi: Simplify arch_efi_call_virt() macro
-         25a6b912b49cea9a5a1b60611631d4e43c69d383 Merge branch 'efivars-cleanup' into efi/next
+         8add9a3a2243166f8f60fc20e876caaf30a333f7 efi: Simplify arch_efi_call_virt() macro
+         dc977c0c9ac244db8ce1871e0a4f3c1a25d38e84 Merge branch 'efivars-cleanup' into efi/next
          
