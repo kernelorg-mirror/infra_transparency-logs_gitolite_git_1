@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3678580626285362270=="
+Content-Type: multipart/mixed; boundary="===============0563822406625473020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 28 Jun 2022 03:24:56 -0000
-Message-Id: <165638669690.10606.11266773765293313082@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 03:25:10 -0000
+Message-Id: <165638671046.12230.10247416436003963552@gitolite.kernel.org>
 
---===============3678580626285362270==
+--===============0563822406625473020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 577bcea4f71cc97a2127625a8c6f0bc693275c26
-    new: 79a988f61e0fe3f3cab4a36c2bf1e7137e690d1b
-    log: revlist-577bcea4f71c-79a988f61e0f.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: e34cc16a8042488efad86f121c94dcda5cd6f0c4
+    new: bcec04b3cce4c498ef0d416a3a2aaf0369578151
+    log: revlist-e34cc16a8042-bcec04b3cce4.txt
 
---===============3678580626285362270==
+--===============0563822406625473020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1656386687 -0400
+pusher 75C5DE3D 1656386701 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1656386687-676fddb9ef1a473d2c289ab6600fd1803195869b
+nonce 1656386701-646a34c62ce33da46b74995e73438669eef03ae4
 
-577bcea4f71cc97a2127625a8c6f0bc693275c26 79a988f61e0fe3f3cab4a36c2bf1e7137e690d1b refs/tags/mkp-scsi-staging
+e34cc16a8042488efad86f121c94dcda5cd6f0c4 bcec04b3cce4c498ef0d416a3a2aaf0369578151 refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmK6dH8ACgkQ7ulgGnXF
-3j089hAAmDntQg1EdsgpO3lxkx/Z6runnPPfNrMEEugpRz7IgSwgJTWW6jZy2BQH
-C96s6wHm3UFg4ON9fOgOmbICcdczUlakFfOG5tXvDCEwp4XtCzaDVFZf/YklmwLk
-bUBTSDezmTw+2HI31AfKVWN3WEovHK0YTNWYbAdqZPfp+elZVm7LxWVA+3+HOqaY
-veftVXvsowYudsPGeCW2A7H9nH1JaCEyDQzDfbrUz89hb7J59ikq/WacZwVs8Nju
-Q9ZwUd10kvg+g4jM28tuc9EGesD2rprH3tZWiaYwOJCCjcCZpQ1lSXpqgmdxtiZ0
-sbyAxv0qLfZdCpmZt1+ImglJSKFVE+UuZiXYqvcZ3Ic2ORBoTYKAM8UK1bNU26v2
-RCSjkLEiaGu1XFuKZ0DrXgvJ9weY3QSjLh9YIES4W3DrZhTaRiQNKIFLTThIwpL3
-Xk9otZNuu3werKoz2uENFAMA8QBC7PGNFtsyjL/qoLxJiNgiKllLqc0MOme3Vlwc
-f966yaLowVL6ttyreJF89O7lipT0rP2k2KpNwqajn5czaP7mH22xNwlFmRDDKXyN
-VMvbgboxbFpf3jOBwmjBPufTKFS0pvihenX6JVD3XKp9kS1WW+b6pE1Xm1B1Phya
-ftSyuZX3e08VED/2Wx5zuxcWpdHMpoi045/H2N/yaVGr9iIuBFk=
-=wML1
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmK6dI0ACgkQ7ulgGnXF
+3j0lRg/5AZ0k/cxyxOizXZfuiLfqq3bwhX5sI5ZZCNYJ4vvB/tS8BNokFTKLa5sj
+UGmPEqf6BNLgifutZUXPTXGtAIhwPkGl6p29gLllNyVCr4r3/P67T7Zv0SeEVF5p
+mDKPXSgkNsgjG+9EQClQ03Z2JUzU//ULtABESGhyUPkoYEUWNDS7BMiU4P7oekwg
+Vo5jztImF2KXPBTb2ZZNrDQJaRxx1KxRp28i/3wwpevUobwdABtXQeCETIEE8Tdl
+2fSUX+nmIIcmOSGiNNIcaXLmEBFiePWVLdCoQSKpsQpa7V7eokr0nz0qFdtN1Aka
+EaJgQY6+IDwh60qzfEKm33EwSOlBLU8jTwFDg2OH66SkOq8yTG7WBJszOTpQoR3s
+lBkOzQ66bj/mBkn4Q3OcqyQmGgVTBcdCALbHTRRV0+mHJDiYG3uoRgV9i+vHBo1L
+0EJ/s35THOdS4ViC0SC7Yb+BznM605hiHLHQfpLsZfSPjoQYCx81Ugpdlce02nlR
+OTETfOR65M90sMNjeccmQ4VATdYnL8i04diQRcpFCPQviNr2c30lN2o8Uj760EYQ
+ylOQmbqHHKJg1vuxFv1zTwzkN1WAJuB6VdZsgybzgGKMSvvEH/crBa1ntEM6qP6H
+HA0hPtT+H1KZhO/a5ppa0Zu4OmAC5EPKbrYYRhGMEHx3XI1mvkY=
+=qnBz
 -----END PGP SIGNATURE-----
 
---===============3678580626285362270==
+--===============0563822406625473020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-577bcea4f71c-79a988f61e0f.txt
+Content-Disposition: attachment; filename=revlist-e34cc16a8042-bcec04b3cce4.txt
 
 a48aac5dfc1bab0ed601e05a9447f675b17db91c scsi: ufs: ufshcd-pltfrm: Constify pointed data
 35d11ec239e0996291b140a61a677210ff854f11 scsi: ufs: ufshcd: Constify pointed data
@@ -71,4 +71,4 @@ c64c487d953331df239cf866d178612796e59f93 scsi: ufs: ufs-mediatek: Support perfor
 df1ea242e3d702342fd0c7c1a7b9ed6838645a05 scsi: ufs: ufs-mediatek: Fix invalid access to vccqx
 bcec04b3cce4c498ef0d416a3a2aaf0369578151 scsi: ufs: ufs-qcom: Remove unneeded code
 
---===============3678580626285362270==--
+--===============0563822406625473020==--
