@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0271003585361980612=="
+Content-Type: multipart/mixed; boundary="===============7473808583013144935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 28 Jun 2022 12:49:06 -0000
-Message-Id: <165642054674.7892.2988170226272209943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 28 Jun 2022 12:49:44 -0000
+Message-Id: <165642058451.8184.16009615488269384230@gitolite.kernel.org>
 
---===============0271003585361980612==
+--===============7473808583013144935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 778964f2fdf05e5d2e6ca9bc3f450b3db454ba9c
     new: d521bc0a0f7cdd56b646e6283d5f7296eb16793d
     log: revlist-778964f2fdf0-d521bc0a0f7c.txt
 
---===============0271003585361980612==
+--===============7473808583013144935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ bb1bba35f50a4cae858ff4891f4c6698cf5b50b0 mlxsw: spectrum: Initialize PGT table
 fe94df6dc6225e034cca71a917c2fa3302e7b2c8 mlxsw: spectrum_fid: Configure flooding entries using PGT APIs
 d521bc0a0f7cdd56b646e6283d5f7296eb16793d Merge branch 'mlxsw-unified-bridge-conversion-part-4-6'
 
---===============0271003585361980612==--
+--===============7473808583013144935==--
