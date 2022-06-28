@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2117558483181623805=="
+Content-Type: multipart/mixed; boundary="===============4690342957492998179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 28 Jun 2022 03:23:36 -0000
-Message-Id: <165638661673.9747.9182533320251218298@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 03:23:49 -0000
+Message-Id: <165638662952.9899.15288212461567898299@gitolite.kernel.org>
 
---===============2117558483181623805==
+--===============4690342957492998179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 77e1477c831e068688bd98131f1675c3ff271ce2
-    new: dd0276e830de0d500a40182f125745dd11c9a7bc
+  - ref: refs/heads/5.19/scsi-fixes
+    old: aeaadcde1a60138bceb65de3cdaeec78170b4459
+    new: fce54ed027577517df1e74b7d54dc2b1bd536887
     log: |
          fce54ed027577517df1e74b7d54dc2b1bd536887 scsi: hisi_sas: Limit max hw sectors for v3 HW
          
 
---===============2117558483181623805==
+--===============4690342957492998179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1656386602 -0400
+pusher 75C5DE3D 1656386620 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1656386601-44c0198074cb2b23c5b6e2e326325cda82d27b95
+nonce 1656386620-5465e345927af17f421848eccd387a5686410f86
 
-77e1477c831e068688bd98131f1675c3ff271ce2 dd0276e830de0d500a40182f125745dd11c9a7bc refs/tags/mkp-scsi-fixes
+aeaadcde1a60138bceb65de3cdaeec78170b4459 fce54ed027577517df1e74b7d54dc2b1bd536887 refs/heads/5.19/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmK6dCoACgkQ7ulgGnXF
-3j3fzQ//QeGnHmc+WxwXlB000HPdqPe5SirpSh4a4cpRjZv5h/kFcSHrmuRIBTZ6
-BcsDts0QmU+Caj1Zyj7qeEsbpeYlb2AtVUUs9YZbrvmOJMpxZmqKG1K4Z9XKoBCD
-h44PezQ5d+iN9wxNmpCDS4k4ulpUY6sbnBIzy4tvso/9Cj3l8HrCzmwB4oFwD/kt
-R00GvnbkD2CAR6y3IxjaFy3iltpxR3suAkgSsCCBJSmklxukc0mvIUBmLtsWBzDE
-8uU2X/vDnCQ3XHjM4ZZijRe/k/CaNPe5vXOpeqMkcsZEBCzlUFMgXZIuWTFwdRfp
-KaSflmqF8SOV8b2aTz5zpC8nrplDdWkBB0jtQbjX0p9Qm/L+fXPSmfeYCJR9sxCF
-vx3t9F2e33iywuTcq1koP9LoBETnOnT7ighIR6AiTh60BZqHgVcIWJ7ASmdZUiW6
-VNqbiVlgwSpPEo6k9pzUKh/kYmjPVfAF6g6rJ24wP/cY+Xnqdbjx2OfmkABkmojf
-o+yKiIhKJ/N7Z6PVE316KuoNIvZA5nAu6EAvbmZHt8eLAP8Khts/GNjvuro1Lmu0
-orftaefUK8teaX4MkRtQpwyhHotA54E8qHoJGVDK+R7NR7Xs0hChTNZIM0ATW6Cc
-p126T+0+tZVzNc2vDSTHUO9hA7SRvPvegEspP6rpeC5C8YXwUgE=
-=wVRS
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmK6dDwACgkQ7ulgGnXF
+3j0A+Q/8CgRcr/JmlgrGnKR4ehWtc1onNPtLwwUYbKnzSqDaoa97Seb6e4w7L8CH
+LqLJ6NtMFSrrgDhRrboiyTnup7umKqObjUjlup6+vrwMgwtk7BjrE8SAxnsEJpoe
+WtGTIgEv+JbJ2Jb55Er+E4ppGm4uIlOXeo7pSZfh4NKGW1lWDDfQQzs4p3J4GIBt
+ynza3BcrvgaF2yiyB0y01nRKn0rDXApi2fClX6nHPfQVi4Em8WdK7NxvRyh4tiuF
+00mX/aPG876uhlWmUu9SU01FmlYyqvhjKMGyIcrpBhZfcW8vdQ6uGSydNXyWNi3S
+uQg45H6lhO8qxImieAPUEsoO1ybCSSraPZSvhvIWIoBLg+BuEP+bTQvz/oUFpJ/O
+FDe2jmqoOv2s55X32GOXzLIIZnA99cynhoGPoek9w4FsgP9Fvp3asM5G/CkBFOcX
+/TVbPuSPDFn2fUMOzzgs4KT9JVIKZdCgUy3jXpJt9ExQfNTywJiMA3GH0K6jxJms
+k417LhfSDvx/Ha6wlQJWeOQVAylniz8p298ZTNWbYa5UfKzWqdbUnEHLyLMPXQy1
+fJyBFUzofK6VB4MZuFpm4Vy4N2tlN7gbIUUIzCaFqQGDCqgjcXd5SpkZdYYtCQHg
+tN7lNoYmRrvjaOVPZgcYBiTN80wWMqBTEW5zrbFIRAPXJaKxWVQ=
+=ghRF
 -----END PGP SIGNATURE-----
 
---===============2117558483181623805==--
+--===============4690342957492998179==--
