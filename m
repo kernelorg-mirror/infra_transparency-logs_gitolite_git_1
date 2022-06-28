@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9188917605382324895=="
+Content-Type: multipart/mixed; boundary="===============8641647430246140549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 28 Jun 2022 22:05:54 -0000
-Message-Id: <165645395448.19885.11588783287296271639@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 22:07:03 -0000
+Message-Id: <165645402380.20295.915786213396091859@gitolite.kernel.org>
 
---===============9188917605382324895==
+--===============8641647430246140549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.iov_iter_get_pages
-    old: d3756bbccca4f729989f2e01218bd9d6e73cc91c
-    new: 5208849178352e1febd7aae945fb9cd746f304b2
-    log: revlist-d3756bbccca4-520884917835.txt
+  - ref: refs/heads/experimental.iov_iter
+    old: c1f42e58f7d3fe922f8a1a167095ada7964ec930
+    new: 80e64c791ee94c076408937ecfa3d6b6a6b02a77
+    log: revlist-c1f42e58f7d3-80e64c791ee9.txt
 
---===============9188917605382324895==
+--===============8641647430246140549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3756bbccca4-520884917835.txt
+Content-Disposition: attachment; filename=revlist-c1f42e58f7d3-80e64c791ee9.txt
 
 59bb69c67cf1475a04cd5629d9c4f6dbbcba5e4a copy_page_{to,from}_iter(): switch iovec variants to generic
 b1ee44abdd425d8d32ecb95d7fa6d4f4e3bb4455 new iov_iter flavour - ITER_UBUF
@@ -64,5 +64,7 @@ c90af98d132ea3b0b37cf420708d5a3d2d06f29a ceph: switch the last caller of iov_ite
 2299e625555c268b7f6da7cdfc57ad1e9b1e1bde get rid of non-advancing variants
 8fbd431a5da8fcb6d6260999d137581a1b79e5c1 pipe_get_pages(): switch to append_pipe()
 5208849178352e1febd7aae945fb9cd746f304b2 expand those iov_iter_advance()...
+be940ac032c9c71ab4f2b7a60a73474cf0e2e57a copy_page_to_iter(): don't split high-order page in case of ITER_PIPE
+80e64c791ee94c076408937ecfa3d6b6a6b02a77 hugetlbfs: copy_page_to_iter() can deal with compound pages
 
---===============9188917605382324895==--
+--===============8641647430246140549==--
