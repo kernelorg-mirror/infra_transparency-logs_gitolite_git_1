@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7879680239760938303=="
+Content-Type: multipart/mixed; boundary="===============7831098826973499325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Jun 2022 13:25:01 -0000
-Message-Id: <165642270124.31985.16274476255745109849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Jun 2022 13:25:06 -0000
+Message-Id: <165642270687.1089.12295603704207916901@gitolite.kernel.org>
 
---===============7879680239760938303==
+--===============7831098826973499325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 6ed91f5b10e80c72d8381a673ad26fbfdbf73017
     new: 2a2ef688b1b03eea3a5b020d9bef50d015f619be
     log: |
          2a2ef688b1b03eea3a5b020d9bef50d015f619be ASoC: qcom: lpass: Fix apq8016 compat string to match yaml
          
 
---===============7879680239760938303==
+--===============7831098826973499325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656422699 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1656422699-c8afac5bb9f271b8a70d00dc2264f6d3aafa532f
+pusher C3F436CA30F5D8EB 1656422705 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1656422705-2ac0203ccf4d59e5cc7a03e0359f0e109db6a3c7
 
-6ed91f5b10e80c72d8381a673ad26fbfdbf73017 2a2ef688b1b03eea3a5b020d9bef50d015f619be refs/heads/for-5.20
+6ed91f5b10e80c72d8381a673ad26fbfdbf73017 2a2ef688b1b03eea3a5b020d9bef50d015f619be refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK7ASsACgkQJNaLcl1U
-h9BxFgf+La8HCv57nGLa/HM7HTgtJGV2z3gzzh30U5gBZI+yJPHxQbU8vr8OYFMh
-nDP/fPEhNyKVTyS9FAsgDFFNNqc3IyC3jVZdmcuyrCl02Y3Ubjrpv7AEWK3FV3eJ
-7ci8S+q2w/6QrN/tqSNpcMBQyoGY6lqFpLbG8+C8jBhgDyLDet6fPBmcIe9pETr/
-zgfx2hGwDHrE+nlBVUsuml7ym7lB3cISynWm1XYICM5qf0Ag4lhT0YymxnulDZRn
-AD9nHmY0YyMLwpOz40Y3FCjkEDrcMCJJvWl7LNY5Q3eM9qCB6q25WhodBcW7oVI6
-NVEWQPF6Z4P0YYfIDhCaPvHkH6ECoA==
-=hK2b
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK7ATEACgkQJNaLcl1U
+h9Azagf/aypiP0sVofBIwZolJ3G0fUcjLLhODLNuAC70QviGWMgWsv8LrI50jXhj
+6MZeFWbKWnlGb6YyWH8kIcd4jsBW9tim6x+q0p78LAn4+2BT2z6tvcRvkpoqGIyT
+VJLOfX/PqjwVMneAWER1kOBQSiRlgY9+0RBiEVAn0nd5RqRvVEcoLh+4zEBlardf
+W/39ehCr+aythepN5iKRbam9ZIpjDB4vq7M2U4EheVy/4d6mw0BZA5eviduZZv0C
+rrt7XYXp7QFqMkd/m/jHkSUZIwTU2XbhCQjW7ETBl/I1HdfjSry5JeXVrDjuUknA
+eW1RNEbv4wnKAmVOURajJM5BKoFEpA==
+=w8Ao
 -----END PGP SIGNATURE-----
 
---===============7879680239760938303==--
+--===============7831098826973499325==--
