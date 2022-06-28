@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 28 Jun 2022 12:19:45 -0000
-Message-Id: <165641878594.20273.15981270323786486581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Tue, 28 Jun 2022 12:19:53 -0000
+Message-Id: <165641879364.20359.7113885595464607713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/fileSuVBRD
-    old: 0000000000000000000000000000000000000000
-    new: 0e584d46218e3b9dc12a98e18e81a0cd3e0d5419
+  - ref: refs/heads/stable
+    old: 031c8a28c5663feb3804c68c4b2c294825ab43b6
+    new: a913f377cf1dbe90786e99ca3661e57a382c4541
+    log: |
+         0d33a7c51eccb94612024a31151a0d12b690cb87 irqchip: or1k-pic: Undefine mask_ack for level triggered hardware
+         a913f377cf1dbe90786e99ca3661e57a382c4541 wireguard: selftests: support OpenRISC
+         
