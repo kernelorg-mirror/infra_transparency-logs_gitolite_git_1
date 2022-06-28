@@ -1,90 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============9215559393661417759=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 28 Jun 2022 20:18:44 -0000
-Message-Id: <165644752494.13557.13349072018976308716@gitolite.kernel.org>
-
---===============9215559393661417759==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 28 Jun 2022 20:20:56 -0000
+Message-Id: <165644765619.15778.15847764151622318958@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: 84c1f807d2a837f35375e07cc9570ae26bb85643
-    new: 7b3d521dce2732de91ab73078c04ed9ad7b8beb1
-    log: revlist-84c1f807d2a8-7b3d521dce27.txt
-
---===============9215559393661417759==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84c1f807d2a8-7b3d521dce27.txt
-
-5fb779558f1c97e2bf2794cb59553e569c38e2f9 arm64: dts: qcom: msm8992-*: Fix vdd_lvs1_2-supply typo
-0e3e654696074b304302c7cc2a67314b7875f1ae arm64: dts: qcom: align OPP table names with DT schema
-255a47e745674dbbda9250ae0ad1f78a49179988 clk: qcom: gcc-sm6350: Drop extra semicolon
-458ebdbb8e5d596a462d8125cec74142ff5dfa97 arm64: dts: qcom: timer should use only 32-bit size
-11c83450ff1157d31acbbff4d236d9787929c4c5 arm64: dts: qcom: sdm845: Rename camss vdda-supply to vdda-phy-supply
-f424d754212ae976dcbea997d5699fe508b737d9 arm64: dts: qcom: sdm845: Add camss vdda-pll-supply
-fcfbfe373d41b4728ffec075f8f91b6572a88c27 clk: qcom: clk-hfpll: use poll_timeout macro
-df83d2c9e72910416f650ade1e07cc314ff02731 clk: qcom: clk-krait: unlock spin after mux completion
-898d0d6483a9360f1968e0a900465c1fa152a4a9 clk: qcom: clk-krait: add apq/ipq8064 errata workaround
-12541f687e4994774cbb4158e5fe3ecd6c639bdf arm64: dts: qcom: msm8998*: Fix TLMM and pin nodes
-ce383e80782e9b416d5022dc692fc80306358372 arm64: dts: qcom: msm8998-clamshell: Clean up the DT
-16901ba567d789557b90871e23504a2118c35216 arm64: dts: qcom: msm8998-laptops: Clean up DTs
-4efbec42c050e9e59171822a3829c9a364e88611 arm64: dts: qcom: msm8998-yoshino-lilac: Disable LVS1
-6dad36ebe1cb219615ead56692cea816d144c645 arm64: dts: qcom: msm8998-yoshino: Add USB extcon
-016928c052a75bef4ef66d844f0000058429e18c arm64: dts: qcom: msm8998-yoshino: Remove simple-bus compatible from clocks{}
-b448501c2e770aad1c09abadec2045c35eb08f36 arm64: dts: qcom: msm8998-yoshino/oneplus: Use pm8005_regulators label
-bc0e82fbb25b32b5c69bef017ebd3e79b85883d4 arm64: dts: qcom: msm8998-oneplus: Apply style fixes
-20bba6b73264e7a7f1743676d7942e25d3a2131d arm64: dts: qcom: msm8998-fxtec: Use "okay" instead of "ok"
-392b73cb816094348abb7e3ff1288b5786b4ee16 arm64: dts: qcom: msm8998*: Keep MMCC & MMSS_SMMU enabled by default
-d582c02012d2a07251339bf0762223dbc6bb2955 arm64: dts: qcom: msm8998-oneplus: Add clocks & GDSC to simplefb
-5d393f14d4de41ff30ccad78129d96606eca827c arm64: dts: qcom: msm8998*: Clean up #includes
-d0eaf4122c9eb6a7536bf1a607c0570ca82daa99 arm64: dts: qcom: msm8998-fxtec: Decouple from 8998 MTP
-3ae6156e2f414f0ba2bf860e4173bbd366d5e101 arm64: dts: qcom: msm8998-mtp: Merge and fix up the DT
-bb9bb4123abe2f35db02ad3073cc85a8cdc32ff5 arm64: dts: qcom: msm8996-tone: Drop cont_splash_mem region
-a743dff7acc4a4c613e6853a8748430946f941a4 arm64: dts: qcom: msm8996-tone: Rule out PM(I)8994 variants
-68333a42fcf53f20aa09567f8b57216438cdd2f6 arm64: dts: qcom: msm8996: Add SDHCI resets
-e378b965330d99e8622eb369021d0dac01591046 ARM: dts: qcom: sdx65: Add Shared memory manager support
-b456b5e7d1df276a4e1050680eec86ccb99d8a82 ARM: dts: qcom: sdx65: Add interconnect nodes
-fbb6447deba87dc409e274d9d6d90d9c79851fb7 ARM: dts: qcom: sdx65: Add USB3 and PHY support
-eeaec4f2b926ffcb35a9c1c4af549ac9f7a6ce56 ARM: dts: qcom: sdx65-mtp: Enable USB3 and PHY support
-ab11b74d87ddadb1e6e6d8dc36f3145a26158ef2 ARM: dts: qcom: sdx65: Add QPIC BAM support
-0ec15b6f7621c2e5ded3d3d1a67361da1895c26b ARM: dts: qcom: sdx65: Add QPIC NAND support
-eae61fddd64861fc496a7786b02449abe8188145 ARM: dts: qcom: sdx65-mtp: Enable QPIC BAM support
-59e73f67e14b95eddbbff2f009c98a55cef47f8a ARM: dts: qcom: sdx65-mtp: Enable QPIC NAND support
-b427679adcddf9d56b28175d435fc7ec4d4c99ef ARM: dts: qcom: sdx65: Add CPUFreq support
-7f928c735880ed20e4d7670416aa7877b47a47d1 ARM: dts: qcom: sdx65: Add modem SMP2P node
-69117a2abfe0b02c6828979e8a6f9b039908b42a ARM: dts: qcom: sdx65: Add IMEM and PIL info region
-261e09b4e3fb847b9a1e99538e31fdfdc2d1ee90 ARM: dts: qcom: sdx65: Add SCM node
-a3ae01ed96e7efc2525125c36dc8e34186f0d7bc ARM: dts: qcom: sdx65: Add Modem remoteproc node
-aae0f5314f95df66962acfcce23158e2a047b03c ARM: dts: qcom: sdx65-mtp: Enable modem
-df6d7b86f4885d370886a44339017e32c80556e7 ARM: dts: qcom: sdx65: Add pshold support
-2ea6af6cc1f58f828180cf6124febbde47a10bad dt-bindings: firmware: scm: Add compatible for SDX65
-39eebfce4bdb88f53959d570ab9c8956bb9f0988 ARM: dts: qcom: sdx65: Add Watchdog support
-4148a9eeb15152865d60b0913d96beb7ca166f9a arm64: dts: qcom: sdm845-akatsuki: Round down l22a regulator voltage
-ff36bed5dc24ba25d4ff9882d3cdb37d31ceeaf4 arm64: dts: qcom: align PMIC GPIO pin configuration with DT schema
-019102a912c61961afb85f575f24272551d367ca arm64: dts: qcom: add fallback compatible to PMIC GPIOs
-9f454375bc3e4f1acfa5b1f97721637c7a165986 arm64: dts: qcom: apq8096-db820c: add PM8994 pin function
-761a8fe4f3dbe1f840fa9eb6890ed035f5b23a43 arm64: dts: qcom: msm8994-msft-lumia-octagon: add PM8994 pin properties
-4fcdaf4b0320f93d0ccb4d36b795ed258fb07b27 ARM: dts: qcom: align PMIC GPIO pin configuration with DT schema
-dc590cdc31f636ea15658f1206c3e380a53fb78e ARM: dts: qcom: mdm9615: add missing PMIC GPIO reg
-255889f4baf51e887c83333d82ac8470a11246e4 ARM: dts: qcom: pmx65: add fallback compatible to PMIC GPIO
-eea939a0da869e00f40e41182edbcd911ee11fd4 ARM: dts: qcom: add missing gpio-ranges in PMIC GPIOs
-e8881372ccc6ff5a86bddeb4ebc248ff892d2ffc arm64: dts: qcom: sdm630: order clocks according to bindings
-7908dcc8be2db90c9d9bbcbd5fb021f935b76b26 arm64: dts: qcom: sdm630: order regs according to bindings
-cb0b68537713208824af74f2b1dbae22e8e52f82 arm64: dts: qcom: sdm630: order interrupts according to bindings
-d62cac46b0184b8730c68b01359a33769fee821b dt-bindings: clock: qcom,gcc-sdm845: add parent power domain
-fe72f9bce137055fb744d4f8a91baa234ec07baa soc: qcom: cmd-db: replace strscpy_pad() with strncpy()
-b07bfd8ebe31b0a39184cba522fdae433b6cd0ad arm64: dts: qcom: add missing gpio-ranges in PMIC GPIOs
-a984d5d191527108a934cb9da2a15b07ea05a8ea arm64: dts: qcom: correct interrupt controller on PM8916 and PMS405
-7b3d521dce2732de91ab73078c04ed9ad7b8beb1 Merge branches 'arm64-fixes-for-5.19', 'arm64-for-5.20', 'clk-for-5.20', 'dts-for-5.20' and 'drivers-for-5.20' into for-next
-
---===============9215559393661417759==--
+  - ref: refs/heads/fixes
+    old: aacb455dfe01b7a24a792a2fbe7a04112ce8321d
+    new: 9ab762a84b8094540c18a170e5ddd6488632c456
+    log: |
+         42504af775361ca2330a2bfde496a5ebc5655c86 platform/x86: thinkpad-acpi: profile capabilities as integer
+         bce6243f767f7da88aa4674d5d678f9f156eaba9 platform/x86: thinkpad_acpi: do not use PSC mode on Intel platforms
+         9ab762a84b8094540c18a170e5ddd6488632c456 platform/x86: hp-wmi: Ignore Sanitization Mode event
+         
