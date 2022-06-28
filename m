@@ -1,44 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============5297087385734358325=="
+Content-Type: multipart/mixed; boundary="===============5229625341372963246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 28 Jun 2022 13:50:03 -0000
-Message-Id: <165642420337.17770.2857923457951957144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 28 Jun 2022 14:03:22 -0000
+Message-Id: <165642500273.24884.4463267399004116509@gitolite.kernel.org>
 
---===============5297087385734358325==
+--===============5229625341372963246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 03c765b0e3b4cb5063276b086c76f7a612856a9a
-    new: 941e3e7912696b9fbe3586083a7c2e102cee7a87
-    log: revlist-03c765b0e3b4-941e3e791269.txt
+  - ref: refs/heads/usb-testing
+    old: ebc4969ae125e65fdb563f66f4bfa7aec95f7eb4
+    new: 849f35422319a46c2a52289e2d5c85eb3346a921
+    log: revlist-ebc4969ae125-849f35422319.txt
 
---===============5297087385734358325==
+--===============5229625341372963246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03c765b0e3b4-941e3e791269.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-40f2f3e94178d45e4ee6078effba2dfc76f6f5ba vdpa/mlx5: Update Control VQ callback information
-ace9252446ec615cd79a5f77d90edb25c0b9d024 vdpa/mlx5: Initialize CVQ vringh only once
-0e0348ac3f0a6e6606f1aa5acb1803ada913aa3d vduse: Tie vduse mgmtdev and its device
-a7722890fdfb2aaeb6b02d68bb0f1e411e58d539 virtio_ring : keep used_wrap_counter in vq->last_used_idx
-03d9571706942fa653a4975709820596d13563c7 virtio: Remove unnecessary variable assignments
-c346dae4f3fbce51bbd4f2ec5e8c6f9b91e93163 virtio: disable notification hardening by default
-50c0ada627f56c92f5953a8bf9158b045ad026a1 virtio-net: fix race between ndo_open() and virtio_device_ready()
-11a37eb66812ce6a06b79223ad530eb0e1d7294d caif_virtio: fix race between virtio_device_ready() and ndo_open()
-ed7ac37fde33ccd84e4bd2b9363c191f925364c7 virtio_mmio: Add missing PM calls to freeze/restore
-e0c2ce8217955537dd5434baeba061f209797119 virtio_mmio: Restore guest page size on resume
-037d4305569aacaa018a617771dccbb81cc60257 vhost-vdpa: call vhost_vdpa_cleanup during the release
-c7cc29aaebf9eaa543b4c70801e0ecef1101b3c8 virtio_ring: make vring_create_virtqueue_split prettier
-2390095113e98fc52fffe35c5206d30d9efe3f78 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
-941e3e7912696b9fbe3586083a7c2e102cee7a87 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656425001 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1656425000-2abb0f7de05f539ca891915fe196be019dce3630
 
---===============5297087385734358325==--
+ebc4969ae125e65fdb563f66f4bfa7aec95f7eb4 849f35422319a46c2a52289e2d5c85eb3346a921 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK7CikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gIEP/jiuIVr5Tta64v3kGEBd
+Uk03r/tEf6UGcYU7a3ghVJnoUFQpZMwvBxTv586IdvQKGB7aBcSPaZFUpeGG74+8
+EijxeLd8Tl0gddjJxrC/nTEwnMd68gqOSxlX3SeXcirhD9MPJoSDZlfTGS8AROuS
+MNJkeo3+8ourcyY4bEkYboPgmkJddLSENEjnAxmKV616chITv3Jj5ouQeq4hH9Pt
+0WMKqDAKnlDUCRhovQk9sgMhv5AEvA6mOXun7ndikhiAUxGl/ibyrlvVieh2oVvK
+4ODsRBQ9JZsTq2aiOSjtXOws4UM2r8wmpxrHCjEeOjxkWmsrRZppWjQI+hcBmtBX
+6uFZ5z3JDRG/uRx8woyq5ayLuQGbryDsHRtYKsl3OO0KeKuhkPBvVEtVXgRI0cC2
+mRJLClt6Vj7/pvH0W4w3LPQa/bB8/VYA7nY29llja5BnQ0C8oKFe2JD7nG57fXMn
+qsJFxLpD5ybUubSOSIS/ZSCqwBiyAQG22geV9OFqYkoKU996orDV5l0fgxvcHGzP
+U5e2U/uiQeX3/214r9R+VyPnkP15TxInhZl7GVueEPs9IGkRu5KOX37hU91vkhW5
+hfbeE8UCB1MQbU9EcE+wabPvcvpwfqerD0SDhthLfX3vyh+W55CjBqe8DtMbsXeV
+7RzvYGqL2ayMf8+qW4Wcy2lP
+=I5VV
+-----END PGP SIGNATURE-----
+
+--===============5229625341372963246==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ebc4969ae125-849f35422319.txt
+
+990f4b85d7d9bb954a24ada7145947dec501fe3d thunderbolt: Silently ignore CLx enabling in case CLx is not supported
+418a5a3d6596f62424b24192b642d959d4c73d25 thunderbolt: CLx disable before system suspend only if previously enabled
+b4e08d5d08192699e68ffa796bd2c3ab58af5730 thunderbolt: Fix typos in CLx enabling
+5fd6b9a5cbe63fea4c490fee8af34144a139a266 thunderbolt: Change downstream router's TMU rate in both TMU uni/bidir mode
+b017a46d486cd4113b1856f3fd611f54cd0f9c03 thunderbolt: Add CL1 support for USB4 and Titan Ridge routers
+3084b48fa13931400f316e2b9ffdd98b8ba6600e thunderbolt: Change TMU mode to HiFi uni-directional once DisplayPort tunneled
+e173b7d46c0413f004450bfc48f45bfc0f0f2fc2 thunderbolt: Fix some kernel-doc comments
+7ec58378a985618909ffae18e4ac0de2ae625f33 thunderbolt: Add support for Intel Raptor Lake
+34b9715b7caee2e2b7d74bb4230f2be2c2765c0a thunderbolt: Fix typo in comment
+849f35422319a46c2a52289e2d5c85eb3346a921 Merge tag 'thunderbolt-for-v5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+
+--===============5229625341372963246==--
