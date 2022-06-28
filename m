@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Tue, 28 Jun 2022 22:43:40 -0000
-Message-Id: <165645622062.13075.2457975974834380087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 28 Jun 2022 22:51:34 -0000
+Message-Id: <165645669473.18602.12056331346910077940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/rdma
-user: jkirsher
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 686141bc02f2d1b668a12d32b5e02c7987228aff
-    new: 80a14dd4c37f94300bc9375592b54f98c6ad7b8e
+  - ref: refs/heads/master
+    old: b878be31aeb9034209f920bc787fee5a9872a15a
+    new: e0613311c2d1f50e7241eb36acf075c66a0bf64f
     log: |
-         b259867be27cab399cdc32b28ddaa86a877f382b IB/iser: Drain the entire QP during destruction flow
-         fd46ef3d8247958921cb9f2a86cced130bbae60e RDMA: Correct duplicated words in comments
-         80a14dd4c37f94300bc9375592b54f98c6ad7b8e RDMA/rxe: Remove useless pkt parameters
+         e0613311c2d1f50e7241eb36acf075c66a0bf64f client: fix crash from unknown properties
          
