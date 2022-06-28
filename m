@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Tue, 28 Jun 2022 14:23:42 -0000
-Message-Id: <165642622234.6680.10804628318941805121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 28 Jun 2022 14:36:18 -0000
+Message-Id: <165642697852.15041.6105378445175456931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: e20fb6d6f1a357afe5ae7ba63d5bb340e0041156
-    new: 1c31a46c707eb473f2f92d54166f6becc6204aea
-    log: |
-         1c31a46c707eb473f2f92d54166f6becc6204aea rteval: update version number to v3.4
-         
+  - ref: refs/heads/netfs-linked-list
+    old: 0000000000000000000000000000000000000000
+    new: d35a2461e039c9131e97bb125eac59a0f04e9161
