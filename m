@@ -1,45 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2002030064126761959=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 28 Jun 2022 12:21:49 -0000
-Message-Id: <165641890998.22764.16751967195599929195@gitolite.kernel.org>
-
---===============2002030064126761959==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 28 Jun 2022 12:42:51 -0000
+Message-Id: <165642017174.3878.11374512051023333190@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: bfaf3ad4b700ec82f2a39bd90a1fd787f50ad2d4
-    new: c140edd6f3f2a319dc607cc55d492e2240b14b22
-    log: revlist-bfaf3ad4b700-c140edd6f3f2.txt
-
---===============2002030064126761959==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfaf3ad4b700-c140edd6f3f2.txt
-
-1115b13ea27a8c2cc0ffab105392c6db098ab694 net: Disable LRO feature if no RXCSUM
-18ef8aaf43cb621f74e03e6868af719d886ea8c2 net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
-322e2ab5c01d1146e7f961198eb807db6082b551 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
-849209e4b74273adeab691ba10fc4f6e170ef35f net/mlx5e: Support enhanced CQE compression
-43e5fb78680e013d101b6f7a5137b8f27d84c966 net/tls: Perform immediate device ctx cleanup when possible
-da692bc43accb31f6cb22d90e98f2abaf4b9ab7d net/tls: Multi-threaded calls to TX tls_dev_del
-b658616232f837dddff3368a32ad37eece3dc424 net/mlx5e: kTLS, Introduce TLS-specific create TIS
-1277f26595f7719cc321cc6bcd0439717bc7f79f net/mlx5e: kTLS, Take stats out of OOO handler
-a8f1dbbac277c02db8e9f221ea2727e1a7899469 net/mlx5e: kTLS, Recycle objects of device-offloaded TLS TX connections
-9c748377dee34cc7375c15d4cf643b11431d5559 net/mlx5e: kTLS, Dynamically re-size TX recycling pool
-2d92c7de5f24bb1baeb62d452e1db48631b9a224 net/mlx5e: Expose rx_oversize_pkts_buffer counter
-86b73698ab109067eff1bfa974ab33aacb6d75d9 Merge branch 'patchq/496064' into mlx5-queue
-fb3f31279e604e9fd72bdf19b03d9b1a257a8fac Merge branch 'patchq/323390' into mlx5-queue
-cf1a08e41eff2d07320058e84b4a1d53bc64530e Merge branch 'patchq/474284' into mlx5-queue
-c140edd6f3f2a319dc607cc55d492e2240b14b22 Merge branch 'patchq/516865' into mlx5-queue
-
---===============2002030064126761959==--
+  - ref: refs/heads/habanalabs-next
+    old: 1ce6016e0b58645bdfd958f2361e5cd5bc779b26
+    new: f645d04ce63b73c46a8839a621e34a28f1b2a7ba
+    log: |
+         4065ab303c50c6ed2e58beb37debeacb3648a4ec habanalabs/gaudi2: add asic registers header files
+         7ee60b533cc9b0f15c732a457ac97a10e205f0bd uapi: habanalabs: add gaudi2 defines
+         399d54aa6e06be6ec27839801287a27c53f60481 habanalabs: add gaudi2 asic-specific code
+         cd3bcd9cf300540c552073cb27a2363b09be084f habanalabs: add unsupported functions
+         48e91ca7bbcc6415a9d6c5df519b6e11f82ec10c habanalabs: initialize new asic properties
+         a539c56b4fead9ebd6d53bc27138d35dc4d56b67 habanalabs: remove obsolete device variables used for testing
+         4b6c7ea61267b2e7d9126848021d8ac4d8bbff18 habanalabs: add generic security module
+         c8701b33eb9488759c54effaa9d0b61e2f528fff habanalabs/gaudi2: add gaudi2 security module
+         3879a7ba28a6120cc7f2098847cfdc8c4a357b6c habanalabs/gaudi2: add gaudi2 profiler module
+         6aaebac2fd3989746eece3f271c6db4ca82a158f habanalabs: add gaudi2 wait-for-CS support
+         374bb7eeacb91bc4e53fc429c17d1d55c0e1fc6b habanalabs: add gaudi2 MMU support
+         f645d04ce63b73c46a8839a621e34a28f1b2a7ba habanalabs: enable gaudi2 code in driver
+         
