@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 28 Jun 2022 23:38:00 -0000
-Message-Id: <165645948067.15356.17153086910351497959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 28 Jun 2022 23:47:48 -0000
+Message-Id: <165646006830.22715.7724422617992241742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/pci/ctrl/vmd
-    old: 46d2398c3bc0afaf736c38ccc87cb0e93aa9f29a
-    new: 57a128acaba023048585233e7dada9972c2a6b4c
+  - ref: refs/heads/dev
+    old: 10f3adb9c255f15e8dea5f697581445f8b7e46df
+    new: 785c1904b28d928a0b7c84e05e624434746ecd0c
     log: |
-         57a128acaba023048585233e7dada9972c2a6b4c PCI: vmd: Add DID 8086:7D0B and 8086:AD0B for Intel MTL SKUs
+         7859e97f62202e81129a0d667153b463fad6513e f2fs: do not skip updating inode when retrying to flush node page
+         a4a0e16dbf77582c4f58ab472229dd071b5c4260 f2fs: optimize error handling in redirty_blocks
+         29be7ec3df7a3ed95584d39aa4014df0cd056991 f2fs: initialize page_array_entry slab only if compression feature is on
+         e7145cc274e9a4f03dcba4bd8c69e018ba0a3d1b f2fs: introduce memory mode
+         34c8217a23df7d498202409368c33cbeb4452c7d f2fs: handle decompress only post processing in softirq
+         56f97d2a954012cf4c25154d9d425eac97143758 f2fs: remove redundant code for gc condition
+         8245b017033284827312b35f86584f59a0f04da5 f2fs: enforce single zone capacity
+         7a2413f4eefd43838c7914815d386dc114d33ce4 f2fs: adjust zone capacity when considering valid block count
+         785c1904b28d928a0b7c84e05e624434746ecd0c f2fs: add a sysfs entry to show zone capacity
          
