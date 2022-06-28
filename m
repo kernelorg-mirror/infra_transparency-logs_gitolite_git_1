@@ -1,22 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 28 Jun 2022 08:12:32 -0000
-Message-Id: <165640395256.6132.244420863675306486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Tue, 28 Jun 2022 08:31:26 -0000
+Message-Id: <165640508650.18869.13963373542937792825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
 changes:
-  - ref: refs/heads/cpufreq/cppc
-    old: 0ba5f8a8896faeae48331483fddaf8919151630e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/cpufreq/em
-    old: 8158488baa1ea1aebd09c8d256db7420051d05ac
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/opp/fixes
-    old: 19526d092ceb32d619fce73fe0bdca4370890124
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 8ebbcd3cef3a2c00767368b64d83e1f281ddcbbd
+    new: ad0d6ea39195e609d90b483d819f6f690ba8a7cc
+    log: |
+         062529700fdb843eee921961eb3cbc6a51419491 dt-bindings: cpufreq: qcom-cpufreq-nvmem: fix board compatible in example
+         ad0d6ea39195e609d90b483d819f6f690ba8a7cc Merge branch 'for-v5.20/dt-bindings-qcom' into next/dt-bindings
+         
+  - ref: refs/heads/for-v5.20/dt-bindings-qcom
+    old: f9702486c77ba74f65859098e3d8e4bdb2e8a745
+    new: 062529700fdb843eee921961eb3cbc6a51419491
+    log: |
+         062529700fdb843eee921961eb3cbc6a51419491 dt-bindings: cpufreq: qcom-cpufreq-nvmem: fix board compatible in example
+         
+  - ref: refs/heads/next/dt-bindings
+    old: 8ebbcd3cef3a2c00767368b64d83e1f281ddcbbd
+    new: ad0d6ea39195e609d90b483d819f6f690ba8a7cc
+    log: |
+         062529700fdb843eee921961eb3cbc6a51419491 dt-bindings: cpufreq: qcom-cpufreq-nvmem: fix board compatible in example
+         ad0d6ea39195e609d90b483d819f6f690ba8a7cc Merge branch 'for-v5.20/dt-bindings-qcom' into next/dt-bindings
+         
