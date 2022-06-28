@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4425166467294417490=="
+Content-Type: multipart/mixed; boundary="===============0854475814131080972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 28 Jun 2022 22:04:58 -0000
-Message-Id: <165645389835.17887.8379588217013337769@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 22:05:08 -0000
+Message-Id: <165645390898.19460.16304784163987694396@gitolite.kernel.org>
 
---===============4425166467294417490==
+--===============0854475814131080972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.iov_iter_get_pages-advance
-    old: bc7ea8a8293e7b92259d8e21253584496daf85d6
-    new: 2299e625555c268b7f6da7cdfc57ad1e9b1e1bde
-    log: revlist-bc7ea8a8293e-2299e625555c.txt
+  - ref: refs/heads/work.unify_iov_iter_get_pages
+    old: 3a3b4eb14ba46cff5d2cbecce8898478dc5651e0
+    new: 62644eb1697f947d7e31c493a326155ad36dd263
+    log: revlist-3a3b4eb14ba4-62644eb1697f.txt
 
---===============4425166467294417490==
+--===============0854475814131080972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc7ea8a8293e-2299e625555c.txt
+Content-Disposition: attachment; filename=revlist-3a3b4eb14ba4-62644eb1697f.txt
 
 59bb69c67cf1475a04cd5629d9c4f6dbbcba5e4a copy_page_{to,from}_iter(): switch iovec variants to generic
 b1ee44abdd425d8d32ecb95d7fa6d4f4e3bb4455 new iov_iter flavour - ITER_UBUF
@@ -55,12 +55,5 @@ c2d83273cf411966a52d4d5292026e27b5640dcc unify pipe_get_pages() and pipe_get_pag
 5187e9f1fa6e316a4234883cbc4de89dc8cb3230 first_iovec_segment(): just return address
 641855ce086fafdd02e5466d215d5668b9f59746 fold __pipe_get_pages() into pipe_get_pages()
 62644eb1697f947d7e31c493a326155ad36dd263 iov_iter: saner helper for page array allocation
-19b5bf0f0d4cecab88def9cea7e85886f1213083 iov_iter: advancing variants of iov_iter_get_pages{,_alloc}()
-9ed6e3270f5247543b8391413026a5c3c53a9708 block: convert to advancing variants of iov_iter_get_pages{,_alloc}()
-5d29eb53c9c46bee9009f29214c740b34d1d9693 iter_to_pipe(): switch to advancing variant of iov_iter_get_pages()
-9ad035c09fb24ac2fe189542b40a505e7276bdbb af_alg_make_sg(): switch to advancing variant of iov_iter_get_pages()
-6c0af4807d96acc519eac0529fd09dd50dfea73c 9p: convert to advancing variant of iov_iter_get_pages_alloc()
-c90af98d132ea3b0b37cf420708d5a3d2d06f29a ceph: switch the last caller of iov_iter_get_pages_alloc()
-2299e625555c268b7f6da7cdfc57ad1e9b1e1bde get rid of non-advancing variants
 
---===============4425166467294417490==--
+--===============0854475814131080972==--
