@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 28 Jun 2022 18:41:31 -0000
-Message-Id: <165644169148.13644.16167981325916310202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 28 Jun 2022 19:26:59 -0000
+Message-Id: <165644441925.11261.17962806772140780781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 2990f223ffa7bb25422956b9f79f9176a5b38346
-    new: 0fe3dbbefb74a8575f61d7801b08dbc50523d60d
+  - ref: refs/heads/for-next/kspp
+    old: 7f62ad1aedf6048a3d0354a9838415f97bb5ec14
+    new: 94dfc73e7cf4a31da66b8843f0b9283ddd6b8381
     log: |
-         0fe3dbbefb74a8575f61d7801b08dbc50523d60d linux/dim: Fix divide by 0 in RDMA DIM
+         94dfc73e7cf4a31da66b8843f0b9283ddd6b8381 treewide: uapi: Replace zero-length arrays with flexible-array members
          
