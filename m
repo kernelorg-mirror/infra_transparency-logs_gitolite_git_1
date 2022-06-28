@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 28 Jun 2022 05:07:34 -0000
-Message-Id: <165639285479.13811.14628769565346067920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 28 Jun 2022 05:39:04 -0000
+Message-Id: <165639474462.1132.9130826337242800371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: cce13b82cf97b26919144e01c49fbf3da61c9d6c
-    new: ce95ab775f8d8e89a038c0e5611a7381a2ef8e43
+    old: 0fcae3c8b1b32d79cb4bbf841023757358fb0413
+    new: 7c2c57263af41cfd8b5022274e6801542831bb69
     log: |
-         4bbfed9112ca9da88ac83d5ffe62c988f7169e9f octeon_ep: use bitwise AND
-         6b9f1d46fdada756294d2d5f04df613478386d34 MAINTAINERS: nfc: drop Charles Gorand from NXP-NCI
-         805206e66fab4ba1e0ebd19402006d62cd1d4902 net: asix: fix "can't send until first packet is send" issue
-         ce95ab775f8d8e89a038c0e5611a7381a2ef8e43 net: usb: asix: do not force pause frames support
+         e3b64a7a5af3f451d4dba607260fb7f997797fc4 net: axienet: Modify function description
+         e3e2bad76a50e2c0bf0628bd1454ff9e63e8810f agere: fix repeated words in comments
+         7eddba1644c900a81ef964b5355fadde12c269be amd/xgbe: fix repeated words in comments
+         63769819079d87dc322fefaf981589e227de2978 net: atlantic:fix repeated words in comments
+         be80141108bc043c71f5fffdfefa75b1e3e6f441 nfp: support vepa mode in HW bridge
+         15137daef7b0d7981ce81b28a64abfe3df2455fb nfp: add support for 'ethtool -t DEVNAME' command
+         5ef28832c585155655cb7464dd35abe99170f403 Merge branch 'nfp-add-vepa-and-adapter-selftest-support'
+         7c2c57263af41cfd8b5022274e6801542831bb69 hinic: Use the bitmap API when applicable
          
