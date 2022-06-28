@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0854475814131080972=="
+Content-Type: multipart/mixed; boundary="===============1706138073916119746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 28 Jun 2022 22:05:08 -0000
-Message-Id: <165645390898.19460.16304784163987694396@gitolite.kernel.org>
+Date: Tue, 28 Jun 2022 22:05:18 -0000
+Message-Id: <165645391859.19600.2411758402389323263@gitolite.kernel.org>
 
---===============0854475814131080972==
+--===============1706138073916119746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.unify_iov_iter_get_pages
-    old: 3a3b4eb14ba46cff5d2cbecce8898478dc5651e0
-    new: 62644eb1697f947d7e31c493a326155ad36dd263
-    log: revlist-3a3b4eb14ba4-62644eb1697f.txt
+  - ref: refs/heads/work.ITER_PIPE
+    old: e584838dc75976524147f6fb70570580a204baab
+    new: 36a3e87e21ccb4b5c136475f0375b6146886d8d1
+    log: revlist-e584838dc759-36a3e87e21cc.txt
 
---===============0854475814131080972==
+--===============1706138073916119746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a3b4eb14ba4-62644eb1697f.txt
+Content-Disposition: attachment; filename=revlist-e584838dc759-36a3e87e21cc.txt
 
 59bb69c67cf1475a04cd5629d9c4f6dbbcba5e4a copy_page_{to,from}_iter(): switch iovec variants to generic
 b1ee44abdd425d8d32ecb95d7fa6d4f4e3bb4455 new iov_iter flavour - ITER_UBUF
@@ -42,18 +42,5 @@ b0b852f637d4d7c55296dbf25d04f47c95e6bf41 ITER_PIPE: fold push_pipe() into __pipe
 a6bd7dc7e4967042bb26d2c999986c3fe429acd8 ITER_PIPE: clean iov_iter_revert()
 2d6fb9a52ff83f32ca13242221c69adedc64c311 ITER_PIPE: cache the type of last buffer
 36a3e87e21ccb4b5c136475f0375b6146886d8d1 ITER_PIPE: fold data_start() and pipe_space_for_user() together
-7938e0e2bac046fadd69aa78ba67149710cb4001 iov_iter_get_pages{,_alloc}(): cap the maxsize with MAX_RW_COUNT
-9b4d0ade34d66c285be99c3f558948f003861b2e iov_iter_get_pages_alloc(): lift freeing pages array on failure exits into wrapper
-3715b962ef5c43ecad8158dcde922aef6bff7f2f iov_iter_get_pages(): sanity-check arguments
-c2d83273cf411966a52d4d5292026e27b5640dcc unify pipe_get_pages() and pipe_get_pages_alloc()
-8bb00174b2b3af752181ea50f402d901a14bf5dd unify xarray_get_pages() and xarray_get_pages_alloc()
-29eddd615181c4a9c43975c3517ab8b2ba91a753 unify the rest of iov_iter_get_pages()/iov_iter_get_pages_alloc() guts
-4993ea4ec366c9310bc39f7f299fe9311229d8f7 ITER_XARRAY: don't open-code DIV_ROUND_UP()
-06dc1c0fc4b9e2abcdefcc1fd9accad1a7c0fd51 iov_iter: lift dealing with maxpages out of first_{iovec,bvec}_segment()
-85d22747d25ae10e2274703e31d15908b32670a6 iov_iter: first_{iovec,bvec}_segment() - simplify a bit
-0f2962ac3300cff13c600c52b018b71690107982 iov_iter: massage calling conventions for first_{iovec,bvec}_segment()
-5187e9f1fa6e316a4234883cbc4de89dc8cb3230 first_iovec_segment(): just return address
-641855ce086fafdd02e5466d215d5668b9f59746 fold __pipe_get_pages() into pipe_get_pages()
-62644eb1697f947d7e31c493a326155ad36dd263 iov_iter: saner helper for page array allocation
 
---===============0854475814131080972==--
+--===============1706138073916119746==--
