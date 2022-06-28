@@ -1,78 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============3505247370250696919=="
+Content-Type: multipart/mixed; boundary="===============0941283713114508066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 28 Jun 2022 10:30:27 -0000
-Message-Id: <165641222762.13932.14126152299094961325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 28 Jun 2022 10:30:34 -0000
+Message-Id: <165641223426.14018.3684227541890278332@gitolite.kernel.org>
 
---===============3505247370250696919==
+--===============0941283713114508066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 77c77f03fef76848c3a1f26e12bdc9268c79d9c3
-    new: 6ed91f5b10e80c72d8381a673ad26fbfdbf73017
-    log: revlist-77c77f03fef7-6ed91f5b10e8.txt
+  - ref: refs/heads/for-5.20
+    old: 145cfc3840e5931a789a8e2e76af841ab4cad44b
+    new: 152f2494ac16d17c111cf982d2ad75c6a82d9da8
+    log: revlist-145cfc3840e5-152f2494ac16.txt
 
---===============3505247370250696919==
+--===============0941283713114508066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656412225 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1656412225-188e5b868fed431c85e93ad3ce08375c9bd7daee
+pusher C3F436CA30F5D8EB 1656412232 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1656412232-7adec7631a085ecabe1d6bfb94bab325b81ba7b6
 
-77c77f03fef76848c3a1f26e12bdc9268c79d9c3 6ed91f5b10e80c72d8381a673ad26fbfdbf73017 refs/heads/asoc-5.20
+145cfc3840e5931a789a8e2e76af841ab4cad44b 152f2494ac16d17c111cf982d2ad75c6a82d9da8 refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK62EIACgkQJNaLcl1U
-h9A5Gwf/YZB8nHVTChrNnP5Ym1b00GmSAE9YdOeHgWWcPkIoXu/CFSWf5PIDapZs
-P+8Hw9v+rq59uUtv+kE6yY9H+BoMxE/JGgWib6pY8bfKQwRXcZji5D1HHmpUIfzQ
-B9XnNM5DeplMkbEC0exzQ067xfAmUI6O1+hz6oVLdoHjtxJofftuKqF7ZlbtH7jX
-zETC0DA/CRovSRGUdnBXh3tBLZfA5Ec0V4yQq1eZZ59HQmXyAco7pycDyE2lzGQO
-QZ1rRW9q/vtkOWfxfJPqXmbRHqDx3yyvL+M1mdHaV0iKl1OcpJ7Nvw2bgvtr0sC9
-dYZ9VnPUn1Cl2UvzXzNEv6lpaHbCqA==
-=buRt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK62EgACgkQJNaLcl1U
+h9Ac5Qf/Vln1DXAsvhKdn9pXPVpLj0ddx4OlCKfVztvh3onwCM27CyDHlLvC6Xz2
+ljXrm5EsTbLkjJOZ5zrGZvla1javoYz1UFaraX4mHgQUQ6vmrjr+D5ej9YR2qYG4
+foFXm9duT0rbOkbfNE8dh8inFf/v6aJHz4IE9wBQLgKSHvB/lIHT0mY0GvyHcqCr
+UPoSJEFJOunFAcIHiduTYp4J+jhuFdhw2v+ATDaIoCg1/2ar1Hwt8ICgqRTvpl7L
+Qmengl2uJopplLGpNGv1+Ux4Va7HN0LCZKXez5J9eIqJQOZYslsq0f/4IZHZeOcG
+m8/ZCiT8X/KbMhUJC7fZD0cLDgel8w==
+=I8+x
 -----END PGP SIGNATURE-----
 
---===============3505247370250696919==
+--===============0941283713114508066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77c77f03fef7-6ed91f5b10e8.txt
+Content-Disposition: attachment; filename=revlist-145cfc3840e5-152f2494ac16.txt
 
-82102a24c930986aedc572f89b437cd9e4d44d7e ASoC: Intel: catpt: use pm_runtime_resume_and_get()
-7213170a9515109322f75c08b5268d8e9cdad8e4 ASoC: Intel: skylake: skl-pcm: use pm_runtime_resume_and_get()
-ddea4bbf287b6028eaa15a185d0693856956ecf2 ASoC: wcd-mbhc-v2: use pm_runtime_resume_and_get()
-9a1a28610a1c49bf93777d017aa3fe121eef944e ASoC: wsa881x: use pm_runtime_resume_and_get()
-8c8a13e83c29472044d733dfb1fced2ccd025d35 ASoC: rockchip: i2s_tdm: use pm_runtime_resume_and_get()
-37cb8a58013fc6ca2febaed355f6559012699542 ASoC: fsl: fsl_sai: use pm_runtime_resume_and_get()
-57d714535051b1baca9ffd92e79fbda1fae3177a ASoC: img: img-i2s-out: use pm_runtime_resume_and_get()
-76a6f4537650e6d2211f34661de35630487c7c64 ASoC: rockchip: pdm: use pm_runtime_resume_and_get()
-05b71fb2a5014d2430ff6c5678db021c67afa9ec ASoC: tas2552: use pm_runtime_resume_and_get()
-cecc81d6a5deb094bdbc6a1d7f2c014ba9b71cf8 ASoC: ti: davinci-mcasp: use pm_runtime_resume_and_get()
-c111c2ddb3fdfca06bb5c7a56db7f97d6d9ea640 ASoC: fsl_sai: Add PDM daifmt support
-4665770407de8af3b24250cec2209eaf58546f8a ASoC: fsl_sai: Add DSD bit format support
-0d11bab8ef3e5540dfba111947dbd8dcfb813150 ASoC: fsl_sai: Add support for more sample rates
-b4ee8a913e617a2d0f19226225bc025c8640bf34 ASoc: fsl_sai: Add pinctrl operation for PDM and DSD
-cd640ca20095ed3b9306981f0064313a54fd4568 ASoC: fsl_sai: Make res a member of struct fsl_sai
-6b878ac2711056dd07c712caf89f58449cf5a592 ASoC: dt-bindings: fsl-sai: Add new property to configure dataline
-e3f4e5b1a3e654d518155b37c7b2084cbce9d1a7 ASoC: fsl_sai: Configure dataline/FIFO information from dts property
-17a1ffc7bc4d5b4657d0f3fe5c01778d8fcab9a3 ASoC: samsung: s3c-i2s-v2: Allow build for unsupported hardware
-3e4bac7cf06e46225322f264e7387efe6ddd457e ASoC: samsung: s3c24xx-i2s: Drop unneeded gpio.h include
-f43ff8038e8289ca811b5b89e8cc15083dafe5c4 ASoC: samsung: Enable compile test
-bd10b0dafdcf0ec1677cad70101e1f97b9e28f2e ASoC: samsung: h1940_uda1380: include proepr GPIO consumer header
-1e0ec034dbcbc3ec2e6a4bdd6a0fbab8766d3ecd ASoC: use pm_runtime_resume_and_get() when possible
-6ed91f5b10e80c72d8381a673ad26fbfdbf73017 Add PDM/DSD/dataline configuration support
+1714582a3a087eda8786d5a1b32b2ec86ca8a303 spi: Move ctlr->cur_msg_prepared to struct spi_message
+ae7d2346dc89ae89a6e0aabe6037591a11e593c0 spi: Don't use the message queue if possible in spi_sync
+c1038165fbbf83967f29b3bb38872faa780b3a72 spi: Lock controller idling transition inside the io_mutex
+8711a2ab51dd47b2bcb3880403add25dd7fc7c13 spi: __spi_pump_messages: Consolidate spin_unlocks to goto target
+d5256cce1f50ff4c8fad6b8eb7b4ec9e47d38925 spi: Remove check for controller idling in spi sync path
+049d6ccc4da8d34f382949ebec6d4fb318a9c7c0 spi: Remove check for idling in __spi_pump_messages()
+66a221593cb26dd6aabba63bcd18173f4e69c7ab spi: Remove the now unused ctlr->idling flag
+1a9cafcb57b70fc1439d4a5cb28963122568967a spi: Remove unneeded READ_ONCE for ctlr->busy flag
+72c5c59b659d54d0c824d0333a211f373316361d spi: Set ctlr->cur_msg also in the sync transfer case
+69fa95905d40846756d22402690ddf5361a9d13b spi: Ensure the io_mutex is held until spi_finalize_current_message()
+dc3029056b02414c29b6627e3dd7b16624725ae9 spi: opportunistically skip ctlr->cur_msg_completion
+917e43de2a56d9b82576f1cc94748261f1988458 spi: synquacer: Add missing clk_disable_unprepare()
+82295bc0d192d7e35e0568b18ca66da2c3058fd5 spi: s3c64xx: move dma_release_channel to unprepare
+152f2494ac16d17c111cf982d2ad75c6a82d9da8 Optimize spi_sync path
 
---===============3505247370250696919==--
+--===============0941283713114508066==--
