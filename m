@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3067542277128556469=="
+Content-Type: multipart/mixed; boundary="===============2257911005151775889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 29 Jun 2022 14:05:23 -0000
-Message-Id: <165651152368.4602.8450949702669945005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 Jun 2022 14:05:29 -0000
+Message-Id: <165651152978.4728.9478661680468999529@gitolite.kernel.org>
 
---===============3067542277128556469==
+--===============2257911005151775889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 5f78e1fb7a3ed1acc355145536ddd54f183b635d
     new: d6910eaa6fc71c0307e16b310a07cdb347d26d7d
     log: |
@@ -27,28 +27,28 @@ changes:
          d6910eaa6fc71c0307e16b310a07cdb347d26d7d ASoC: rockchip: i2s: Remove unwanted dma settings in rockchip_i2s_probe
          
 
---===============3067542277128556469==
+--===============2257911005151775889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656511522 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1656511521-388dea57f6dd4ca92af766861dcb729a288ab085
+pusher C3F436CA30F5D8EB 1656511528 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1656511527-a915cc25e4df8b5f654864623d895862a4e492cb
 
-5f78e1fb7a3ed1acc355145536ddd54f183b635d d6910eaa6fc71c0307e16b310a07cdb347d26d7d refs/heads/for-5.20
+5f78e1fb7a3ed1acc355145536ddd54f183b635d d6910eaa6fc71c0307e16b310a07cdb347d26d7d refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8XCIACgkQJNaLcl1U
-h9C32wf/SWATVKh/y1r00GIIVClS2EKI8SQsKfLVVMC86BvmEOBJbJc2JB0TthX1
-hjQOhUhrOq92KeCu0RIMdALozthapxoUwOneP7YdxWKEmvu2ZWHquDhdn/RC9pVM
-ky3nK/von8IMvN00ia1vy/g7ysxwd1iYj6d0QqYRI7sIaT1ZsOCojiwd8q8Tl6gJ
-+6S4Liek19+5zmgAc+HY5wF0FJ2sc9w7eCBcv+Ilb6P6n3j72M3SSut7y/GCl2UQ
-8g4BU9wJK3uJr9Ev8hi0CSYBsFYRVAyWxyB8ezdCIr5zOvul/HaBXfU+uQGbM0M/
-CIUnWSF9V+kfhO4d/v7UXs52rg/i/A==
-=0yVM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8XCgACgkQJNaLcl1U
+h9AGPgf/UOG4t4Afp+QZRG59k9KAmZMKjJFIvXPc+8iAWW3p6UoC5hQyysAm3MEq
+NX48EktPBQXmluSVTgA/9GeKEBwncNqDz1VkXPDur+ef1cDRxbSlhNm1CTBGACcx
+zmo3RIRfC+f/ZH9OShLhWADOzRA0rUM2HRQ/rwmQxoQc1M2ePDCdgATfcZq87h6E
+ICe4Qly4DGKpML2hshEgnbvp98X9KU0m0zvCQiNybOi6yFNfEYFZUJCiDNhxxij6
+zWTo6hw5gRwm2LTVoKc2GOt/UBSjaHOTE+QY3tHhZK25aa3F285jLywsGHBZ+rrF
+CAbuUfrLfW9ad1C5doWHnO7xTAZzsA==
+=T9zf
 -----END PGP SIGNATURE-----
 
---===============3067542277128556469==--
+--===============2257911005151775889==--
