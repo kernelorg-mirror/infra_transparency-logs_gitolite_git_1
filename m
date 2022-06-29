@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 29 Jun 2022 09:33:32 -0000
-Message-Id: <165649521244.2638.10109223647234201506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 29 Jun 2022 09:54:45 -0000
+Message-Id: <165649648534.30123.12611084741915593601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/for-next/boot
-    old: 7559d9f97581654fbd0c3fa21878b6d043bbe439
-    new: bdbcd22d491212c266589892f0818c65a2bc4704
+  - ref: refs/heads/next
+    old: dc94f89ae68fba71f0423dde3c9956f4d9c47e5d
+    new: 156c5a072a2c422136994505cf4066683968cef4
     log: |
-         fbf6ad5efe95665c188248b6abee94f4bf296604 arm64: lds: use PROVIDE instead of conditional definitions
-         bdbcd22d491212c266589892f0818c65a2bc4704 arm64: head: remove __PHYS_OFFSET
-         
-  - ref: refs/heads/for-next/sme
-    old: df07443f477a7ebd36c2f21705419979b9865c9f
-    new: 4139320d19e61093cfcd3fa1936c091f717fd3cf
-    log: |
-         4139320d19e61093cfcd3fa1936c091f717fd3cf arm64/fpsimd: Remove duplicate SYS_SVCR read
+         3d5697f95e492899d0bf813cbab2af03dde77fa2 KVM: arm64: nvhe: Rename confusing obj-y
+         40c56bd8e1aea7929a09f1d4d68ac3221bb142c4 KVM: arm64: nvhe: Add intermediates to 'targets' instead of extra-y
+         156c5a072a2c422136994505cf4066683968cef4 Merge branch kvm-arm64/misc-5.20 into kvmarm-master/next
          
