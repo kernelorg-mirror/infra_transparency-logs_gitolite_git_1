@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7865165086985571461=="
+Content-Type: multipart/mixed; boundary="===============8273518657193185108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 29 Jun 2022 16:37:22 -0000
-Message-Id: <165652064273.8487.17902180130533161977@gitolite.kernel.org>
+Date: Wed, 29 Jun 2022 16:37:31 -0000
+Message-Id: <165652065170.8631.6308710720817586446@gitolite.kernel.org>
 
---===============7865165086985571461==
+--===============8273518657193185108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d521bc0a0f7cdd56b646e6283d5f7296eb16793d
-    new: 702e70143291b09e6245deb8ab904d1c18ed4f47
-    log: revlist-d521bc0a0f7c-702e70143291.txt
+  - ref: refs/heads/dev-queue
+    old: 150f35e9f315a29faf7919e337cefa5392b83664
+    new: a3f37717b0b479dffa856f737bc067df359b0684
+    log: revlist-150f35e9f315-a3f37717b0b4.txt
 
---===============7865165086985571461==
+--===============8273518657193185108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d521bc0a0f7c-702e70143291.txt
+Content-Disposition: attachment; filename=revlist-150f35e9f315-a3f37717b0b4.txt
 
 849d5aa3a1d833d0b3a18c2d5b816e23003cfe55 af_unix: Do not call kmemdup() for init_net's sysctl table.
 f03c8a1e33ce5f28851b8077a5a417a2d0600c2f net/funeth: Support for ethtool -m
@@ -78,5 +78,45 @@ a02579df160e2fb64764064182bc3c205d812aa4 net: dsa: microchip: change the size of
 9bacb93bcfb83ab0e939ce9185f8ba910fb6adb0 nfp: flower: fix comment typos and formatting
 04cfbc1d89d4cc73b5b328e3bacf24d43e9aa4b7 selftests: forwarding: ethtool_extended_state: Convert to busywait
 702e70143291b09e6245deb8ab904d1c18ed4f47 net: prestera: acl: add support for 'egress' rules
+d890db238a6dda0fab0a18afe00ac5c95cfbd782 ice: Add support for double vlan in switchdev
+8db1fb917dc8e40900013c8f427a499db8cc6095 ice: Add support for vlan tpid filters in switchdev
+a6199c0fed9d5fe585383985840272ef15b5cf94 ice: switch: dynamically add vlan headers to a dummy packets
+d07de0b20791644510398d01bc960de528649480 ice: prevent low-core machines crashing on DCB config
+cb2a6a707fb9d9b01bbc251614f95a24b1564978 e1000e: Enable GPT clock before sending message to CSME
+24ed60dd58f96fa2efea4ae1354d0672ad062541 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+6ed17d854d928366cb643beee558140c770338cf ice: use eth_broadcast_addr() to set broadcast address
+0de450418c18901f45266628c0294a5f5b98b5fb i40e: Fix interface init with MSI interrupts (no MSI-X)
+f6e50a3c4b8ecbfa1c7eae59a73042981a69f1f3 i40e: Fix dropped jumbo frames statistics
+08f241d6340ce5a362cb62ab233e1d6d3f2c1e91 igc: Reinstate IGC_REMOVED logic and implement it properly
+816669ba271c263222b326799bc190972a94c429 ice: add support for Auto FEC with FEC disabled
+aac33ae4fe377139a317683b96c08267c927a9ea i40e: Fix VF's MAC Address change on VM
+8bd724fd4abd3d7ab32a5d2b389f60e40b456efe ice: handle E822 generic device ID in PLDM header
+76589dca523db474acc900933311d046095e0c41 ice: change devlink code to read NVM in blocks
+1eef2cb8eebd673b0116d4ab360510d48e55f136 i40e: Refactor tc mqprio checks
+2d32a01d6bfbb77facf76ad11440aee774aec2f2 iavf: Fix VLAN_V2 addition/rejection
+0ebe418f2a0722d3f32d551d8148ba7b3c2fde5b iavf: Fix max_rate limiting
+3886ce69fc8ecbf6cc427cecb719e31b413392c3 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+2491394061d6c8ee8a65043d46e6d2469c23d620 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+44b02bb99f0f93ce2a48960564d64139a2ca35f8 iavf: Fix missing state logs
+bb6cd9c8b25691bd10bac53ddfdc82548f66b934 igb: add xdp frags support to ndo_xdp_xmit
+a0e9ddccb4fb38f282046d5505c57f746193d0b2 ice: Remove unnecessary NULL check before dev_put
+33bbf54cfd712031d8dababa8d818e194aab839b iavf: Fix reset error handling
+19924322d2dc63c7b1bad481bf8d45d47ebe8e00 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+eebd31c60f4330f922184b9892b00a556d27ab7e iavf: Fix adminq error handling
+7ffbfe38ed86f7eb8ef56005c7df3c300a05a35c iavf: Fix 'tc qdisc show' listing too many queues
+038d0e67aa03d641e8d88db3c8ca7c251f313490 ixgbe: remove unexpected word "the"
+bfd651d7c2dd41549def2ceba8e014d995cb2df8 fm10k: remove unexpected word "the"
+75ea70699e9217ea0749ffdd257fa72dcf45bff9 igb: remove unexpected word "the"
+9f3c56495ef62c024e1b44f35245e6a76c5b2c5f iavf: validate dest MAC and VLAN from tc-filter code path
+ffb1f71820c44d4f2a09bc4a25333e3503627803 iavf: enable tc filter configuration only if hw-tc-offload is on
+d0f08938c3095a9098a1a3d1c683972673266378 i40e: Fix erroneous adapter reinitialization during recovery process
+689de3d37fdfa07cd24c9c00d019df8a4240ac6c iavf: Check for duplicate TC flower filter before parsing
+4a4baea920d24d242f50bcd61380ccfb05aa32e4 ixgbe: drop unexpected word 'for' in comments
+98da69d6724aa3509fe11f9cfb979f20048fcecc ice: add i2c write command
+9d6dd0a39db1d50ec434b2e14c866b854f85ca6f ice: add write functionality for GNSS TTY
+c1ca7f3768379a8d7289c159a43579d5440349fe iavf: Fix handling of dummy receive descriptors
+c97c2e2c7553d38a065a6ff26924d43f6b390872 intel: remove unused macros
+e6487bc3533dca26d1fbd322be1c3a1fb518d2bf igc: Lift TAPRIO schedule restriction
+a3f37717b0b479dffa856f737bc067df359b0684 ping: fix ipv6 ping socket flow labels
 
---===============7865165086985571461==--
+--===============8273518657193185108==--
