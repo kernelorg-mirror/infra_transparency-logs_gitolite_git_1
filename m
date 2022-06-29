@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1420070405161069418=="
+Content-Type: multipart/mixed; boundary="===============0100202185656228127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 29 Jun 2022 21:12:50 -0000
-Message-Id: <165653717023.2721.17283086185550389720@gitolite.kernel.org>
+Date: Wed, 29 Jun 2022 21:12:54 -0000
+Message-Id: <165653717497.2846.15541258846992290395@gitolite.kernel.org>
 
---===============1420070405161069418==
+--===============0100202185656228127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dt/next
     old: 2d5a64707aa0c97c1aa5533234afd4aa1d99040c
     new: ef314d213dd57af1454b32fdd332223f41d03833
     log: revlist-2d5a64707aa0-ef314d213dd5.txt
 
---===============1420070405161069418==
+--===============0100202185656228127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ c3c09e393a5e25fb2fd30b62f3c689e92b4343c4 dt-bindings: nvme: apple,nvme-ans: Drop
 0b9431c8221cfe73d06f6b9cd37b813fa52be8ce dt-bindings: display: arm,malidp: remove bogus RQOS property
 ef314d213dd57af1454b32fdd332223f41d03833 Merge branch 'dt/linus' into dt/next
 
---===============1420070405161069418==--
+--===============0100202185656228127==--
