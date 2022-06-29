@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0386873006772355709=="
+Content-Type: multipart/mixed; boundary="===============3556097285720073685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 29 Jun 2022 11:32:09 -0000
-Message-Id: <165650232975.30753.11798758619188193439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 29 Jun 2022 11:32:15 -0000
+Message-Id: <165650233581.30834.7934999500029627824@gitolite.kernel.org>
 
---===============0386873006772355709==
+--===============3556097285720073685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 2decbb052766f81cb5681433c98bf7585b307c45
-    new: 09acffb1a1e4dd0266b2d5755452a4148a409452
-    log: revlist-2decbb052766-09acffb1a1e4.txt
+  - ref: refs/heads/queue-next
+    old: e9770b57bba5a1127412b4ff33db18adebb9909f
+    new: 5434d2889061c196d26a00a09a948c0e5404fbaa
+    log: revlist-e9770b57bba5-5434d2889061.txt
 
---===============0386873006772355709==
+--===============3556097285720073685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2decbb052766-09acffb1a1e4.txt
+Content-Disposition: attachment; filename=revlist-e9770b57bba5-5434d2889061.txt
 
 78c8560948ebfda5476ec0e2cfcf8c7ce81e1d5d net/mlx5e: Fix mqprio_rl handling on devlink reload
 03234805d62bad7810ad948dbe8097fc2e0f49e3 net/mlx5: TC, allow offload from uplink to other PF's VF
@@ -57,5 +57,6 @@ a46e6cde830307a294e6fb1c728936c18c4b4aeb net/mlx5e: kTLS, Recycle objects of dev
 944ea9c853682961cb5002a58cdb00144762894a Merge branch 'mlx5-queue' into net-next
 e50593404c2e43b4e4ac564c3542476fee2d27a3 Merge branch 'mlx4-for-net' into net-next
 09acffb1a1e4dd0266b2d5755452a4148a409452 Merge branch 'mlx5-for-net' into net-next
+5434d2889061c196d26a00a09a948c0e5404fbaa Merge branch 'net-next' into queue-next
 
---===============0386873006772355709==--
+--===============3556097285720073685==--
