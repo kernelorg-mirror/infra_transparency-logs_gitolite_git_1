@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7663658892881563368=="
+Content-Type: multipart/mixed; boundary="===============1415924904292949800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 29 Jun 2022 02:26:20 -0000
-Message-Id: <165646958062.30986.3515812578619661012@gitolite.kernel.org>
+Date: Wed, 29 Jun 2022 02:26:39 -0000
+Message-Id: <165646959911.31134.17612210899957955139@gitolite.kernel.org>
 
---===============7663658892881563368==
+--===============1415924904292949800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: b3cd00dabd8b786da644a1733aced6adb531e3fb
-    new: 53b4bba5895a055357d95ee507248dd2574bf974
-    log: revlist-b3cd00dabd8b-53b4bba5895a.txt
+  - ref: refs/heads/next
+    old: 27b5b22d252c6d71a2a37a4bdf18d0be6d25ee5a
+    new: 941e3e7912696b9fbe3586083a7c2e102cee7a87
+    log: revlist-27b5b22d252c-941e3e791269.txt
 
---===============7663658892881563368==
+--===============1415924904292949800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3cd00dabd8b-53b4bba5895a.txt
+Content-Disposition: attachment; filename=revlist-27b5b22d252c-941e3e791269.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -746,10 +746,5 @@ e0c2ce8217955537dd5434baeba061f209797119 virtio_mmio: Restore guest page size on
 c7cc29aaebf9eaa543b4c70801e0ecef1101b3c8 virtio_ring: make vring_create_virtqueue_split prettier
 2390095113e98fc52fffe35c5206d30d9efe3f78 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
 941e3e7912696b9fbe3586083a7c2e102cee7a87 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-a9e9fdb429eb13af5e4d6b0dbf471e6e869627ca tpm: Add upgrade/reduced mode support for TPM1.2 modules
-0df805dbd76bac63af02cafaecedbbbca6186a57 dt-bindings: trivial-devices: Add Infineon SLB9673 TPM
-335e91a53a467bd08342281f1f480f37601a6745 tpm: Add tpm_tis_verify_crc to the tpm_tis_phy_ops protocol layer
-88f3b0f519c068ad29c92e965239a7900a2deea3 tpm: Add tpm_tis_i2c backend for tpm_tis_core
-53b4bba5895a055357d95ee507248dd2574bf974 X.509: Support parsing certificate using SM2 algorithm
 
---===============7663658892881563368==--
+--===============1415924904292949800==--
