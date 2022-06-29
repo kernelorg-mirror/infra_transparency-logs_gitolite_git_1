@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 29 Jun 2022 14:43:59 -0000
-Message-Id: <165651383919.30937.7990032925784671074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 29 Jun 2022 14:50:03 -0000
+Message-Id: <165651420385.3452.4436524699946684428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: b41702b2d0b700f4c4296207023e9b542966002b
-    new: 889a7e9a97f263ed496fc0455cefee74e22e469c
+  - ref: refs/heads/for-5.20/block
+    old: 8682b92e5ab852b93739a0f2b261fff4c733be57
+    new: b9a1c179bdfa133d28ab8b7d30631b0accdc2057
     log: |
-         ffb7bcd3b27e86fa7bdbabf4488060064ec9d00d spi: s3c64xx: support loopback mode
-         bfcd27dcb7b93bd1f3b89d03d8b90207876d635f spi: s3c64xx: support custom value of internal clock divider
-         11d50d853dceb2df8d28bf772d3e928c1c5b137a spi: s3c64xx: add spi port configuration for Exynos Auto v9 SoC
-         9dbeef8ad5f8e7d2cab7b888853b4abe9db87ffd spi: s3c64xx: define exynosautov9 compatible
-         0dbc49476ac7226130c79119f3f0d88e964880c0 spi support for Exynos Auto v9 SoC
-         889a7e9a97f263ed496fc0455cefee74e22e469c Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         b9a1c179bdfa133d28ab8b7d30631b0accdc2057 block: remove "select BLK_RQ_IO_DATA_LEN" from BLK_CGROUP_IOCOST dependency
+         
+  - ref: refs/heads/for-next
+    old: 4920ee3cb84843bdb9426c6f85cec53bd91b5572
+    new: e0f639e05406ad8731fc31b29a428cf4369ddbd7
+    log: |
+         b9a1c179bdfa133d28ab8b7d30631b0accdc2057 block: remove "select BLK_RQ_IO_DATA_LEN" from BLK_CGROUP_IOCOST dependency
+         e0f639e05406ad8731fc31b29a428cf4369ddbd7 Merge branch 'for-5.20/block' into for-next
          
