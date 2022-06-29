@@ -1,53 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============2001511352876098561=="
+Content-Type: multipart/mixed; boundary="===============9149474546375859086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 29 Jun 2022 14:43:25 -0000
-Message-Id: <165651380520.30472.3935686849939861785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 29 Jun 2022 14:43:31 -0000
+Message-Id: <165651381127.30573.11727148726179842459@gitolite.kernel.org>
 
---===============2001511352876098561==
+--===============9149474546375859086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: d6910eaa6fc71c0307e16b310a07cdb347d26d7d
-    new: 7ed186642e6218671e27e2a36c86a70c1fba9ef9
+  - ref: refs/heads/for-5.20
+    old: 3f977c574dfd344bea562e9d28a17de90c46e95a
+    new: 0dbc49476ac7226130c79119f3f0d88e964880c0
     log: |
-         16e2f8a4e9d5e4c7653ee774d9377d602070b16e ASoC: dt-bindings: Add WSA883x bindings
-         43b8c7dc85a14f36048a27bb6c627fd49144a8d1 ASoC: codecs: add wsa883x amplifier support
-         a7b028e4252bc1e8b5646657fd45a68792826c23 MAINTAINERS: add ASoC Qualcomm codecs
-         7ed186642e6218671e27e2a36c86a70c1fba9ef9 ASoC: codecs: add WSA883x support
+         ffb7bcd3b27e86fa7bdbabf4488060064ec9d00d spi: s3c64xx: support loopback mode
+         bfcd27dcb7b93bd1f3b89d03d8b90207876d635f spi: s3c64xx: support custom value of internal clock divider
+         11d50d853dceb2df8d28bf772d3e928c1c5b137a spi: s3c64xx: add spi port configuration for Exynos Auto v9 SoC
+         9dbeef8ad5f8e7d2cab7b888853b4abe9db87ffd spi: s3c64xx: define exynosautov9 compatible
+         0dbc49476ac7226130c79119f3f0d88e964880c0 spi support for Exynos Auto v9 SoC
          
 
---===============2001511352876098561==
+--===============9149474546375859086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656513803 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1656513803-f4acda30704e536e5e552676f4329e9f0e978c36
+pusher C3F436CA30F5D8EB 1656513809 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1656513809-f9d3b87d98d74738c2820ac10fd1183d0901d3c9
 
-d6910eaa6fc71c0307e16b310a07cdb347d26d7d 7ed186642e6218671e27e2a36c86a70c1fba9ef9 refs/heads/asoc-5.20
+3f977c574dfd344bea562e9d28a17de90c46e95a 0dbc49476ac7226130c79119f3f0d88e964880c0 refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8ZQsACgkQJNaLcl1U
-h9DXvQf/RxLzSxBVt6uLh1wGSoa7Ea5HBDPf83/jkgVvM8daYVylIKU1wD9sMh3w
-XX2WQAEUoL5sYmTBIUwywAcen008PmD2Bo6OtsU3CZLG/9LUwZlpVRpM9ZuX5LEU
-Mx4F+KD0z2ibKa7gBUBF4hfvmC2M2y9cZ88oW15WkLsUBHsNUrZO1UDR0Nqj2j2L
-yMQD3YxzB6t2fRZv+dT+P9KVYXXXVT/x1/pW4ycz+71ybaPWuampfJUmLqbcxoUo
-eMLt2FMl6DuI7FfEMXXh4MjsT09ADhX9qHjBz5mhLLAmk/n+t0xeNxeAZvlhqKqb
-rvtRvLzZcmm7xYlIrWGSbYIDXFq0pQ==
-=TWHH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8ZREACgkQJNaLcl1U
+h9CQjAf+M8ZfhIyMXF9qv5ngLweHnYcTnTiEbkWhzlYrmPktHaZUdrVRWlDe0nXo
+5QdBlZGtJ/TE3q8ANWr8duetcuH1jBmJ8Hzt6e7lg6QN23YLe7hssFJt+LYUGcO+
+L9/xHbWTLALRFa5WxwCUYx4V5xE+54hJCz20ksflaMp0xPNWuALpL5rkyjwkX60u
+f/vOnoSgrpwnIui3etX+vmXOSXQ6r7yisayqYtcM9haxCghztp8hNbh5i16xyCJU
+Y5FFoAu3HVDZRCJQKub1IPVqhehStlq2TU7kQUA1akpoJ0NJYs/i+yB3gWmB+03H
+I1NYfKn23aJ+nT0izLQHnScZJw3C9g==
+=X5z2
 -----END PGP SIGNATURE-----
 
---===============2001511352876098561==--
+--===============9149474546375859086==--
