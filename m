@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8696419297911663954=="
+Content-Type: multipart/mixed; boundary="===============1255880803938127912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 29 Jun 2022 07:21:46 -0000
-Message-Id: <165648730641.18734.1138731102122943929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 29 Jun 2022 07:22:01 -0000
+Message-Id: <165648732121.18912.16051636841975676459@gitolite.kernel.org>
 
---===============8696419297911663954==
+--===============1255880803938127912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: cb71b93c2dc36d18a8b05245973328d018272cdf
     new: c4ef528bd006febc7de444d9775b28706d924f78
     log: revlist-cb71b93c2dc3-c4ef528bd006.txt
-  - ref: refs/tags/next-20220329
-    old: cce22102c921f3bdc6225421ed1ddea10410f242
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220629
     old: 0000000000000000000000000000000000000000
     new: 00594ba11018c629d1b9bc3976b66c2036b61987
 
---===============8696419297911663954==
+--===============1255880803938127912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1054,4 @@ d5650b284d6b2ac7fe20ecd14e3fab1d1c6d7800 Merge branch 'bitmap-for-next' of https
 56f3a1f85842ba7e750a22cda8f6bfeb4c35b065 Revert "pinctrl: qcom: sc7280: Add clock optional check for ADSP bypass targets"
 c4ef528bd006febc7de444d9775b28706d924f78 Add linux-next specific files for 20220629
 
---===============8696419297911663954==--
+--===============1255880803938127912==--
