@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 29 Jun 2022 17:02:17 -0000
-Message-Id: <165652213782.26295.16079022930720276610@gitolite.kernel.org>
+Date: Wed, 29 Jun 2022 17:04:04 -0000
+Message-Id: <165652224479.26933.12488649802234748731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,9 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: afc070ea1a07dea5c1c3e37565493e227ad6049f
-    new: 5d0eb89cf43288ca97b1b10932db70d51f09d231
+    old: 5d0eb89cf43288ca97b1b10932db70d51f09d231
+    new: b3dc18ff6b47adb9ee8e789d030ce5f3ec71667c
     log: |
-         7fdc74da940ddf8f2eb0dd1202cbfbfe08342cbb ACPI: processor: Split out thermal initialization from ACPI PSS
-         7832a6b16e7ca9b94894b341b4777c86e7af91de ACPI: bus: Drop redundant check in acpi_device_remove()
-         99eeb9d57bfcf2f39bc59759b1c90ff380e762fc ACPI: bus: Drop driver member of struct acpi_device
-         e414207d12f38bc42222037dbcdbe6b4649418d6 ACPI: processor: Drop leftover acpi_processor_get_limit_info() declaration
-         68435ce846ad1f5a55aeb78ed9d5c65b843512de Merge branch 'acpi-processor' into bleeding-edge
-         5d0eb89cf43288ca97b1b10932db70d51f09d231 Merge branch 'acpi-bus' into bleeding-edge
+         038275d227841d4978ceceb397b584b4b39f2b50 ACPI: video: Drop X86 dependency from Kconfig
+         b3dc18ff6b47adb9ee8e789d030ce5f3ec71667c Merge branch 'acpi-video' into bleeding-edge
          
