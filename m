@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9149474546375859086=="
+Content-Type: multipart/mixed; boundary="===============7557590286139005014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 29 Jun 2022 14:43:31 -0000
-Message-Id: <165651381127.30573.11727148726179842459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 Jun 2022 14:43:37 -0000
+Message-Id: <165651381711.30652.1539104356066379757@gitolite.kernel.org>
 
---===============9149474546375859086==
+--===============7557590286139005014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/spi-5.20
     old: 3f977c574dfd344bea562e9d28a17de90c46e95a
     new: 0dbc49476ac7226130c79119f3f0d88e964880c0
     log: |
@@ -27,28 +27,28 @@ changes:
          0dbc49476ac7226130c79119f3f0d88e964880c0 spi support for Exynos Auto v9 SoC
          
 
---===============9149474546375859086==
+--===============7557590286139005014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656513809 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1656513809-f9d3b87d98d74738c2820ac10fd1183d0901d3c9
+pusher C3F436CA30F5D8EB 1656513815 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1656513815-be097d2cc8428945722562632b0d0ea958cd8dc3
 
-3f977c574dfd344bea562e9d28a17de90c46e95a 0dbc49476ac7226130c79119f3f0d88e964880c0 refs/heads/for-5.20
+3f977c574dfd344bea562e9d28a17de90c46e95a 0dbc49476ac7226130c79119f3f0d88e964880c0 refs/heads/spi-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8ZREACgkQJNaLcl1U
-h9CQjAf+M8ZfhIyMXF9qv5ngLweHnYcTnTiEbkWhzlYrmPktHaZUdrVRWlDe0nXo
-5QdBlZGtJ/TE3q8ANWr8duetcuH1jBmJ8Hzt6e7lg6QN23YLe7hssFJt+LYUGcO+
-L9/xHbWTLALRFa5WxwCUYx4V5xE+54hJCz20ksflaMp0xPNWuALpL5rkyjwkX60u
-f/vOnoSgrpwnIui3etX+vmXOSXQ6r7yisayqYtcM9haxCghztp8hNbh5i16xyCJU
-Y5FFoAu3HVDZRCJQKub1IPVqhehStlq2TU7kQUA1akpoJ0NJYs/i+yB3gWmB+03H
-I1NYfKn23aJ+nT0izLQHnScZJw3C9g==
-=X5z2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8ZRcACgkQJNaLcl1U
+h9B3awf+Kxzw95wVtvvTV6bMx9ZEyQyBmU5GV2jWcltasznCWEUcXUiRU0xukzuf
+kcNfHUGlCLtTKInz5yVDM/fJleXhI5SlJFZb6o6OYshraWlXUiJV2ofVpt82fHUh
+vbVFl59WxmKHyNXhwp8VlsJpPSQZ/vFd87JF9sxiVKdL6pt/Kp5BCCe0Vs++eD8L
+TMUgSWg/9yH/QzNM1o/SKrMul2DzHAZZZfdIqnitkI3aDzGKj4D2Em0y4L7r18nd
+DxbROP+bjf+dp5alW3bzBYOzG0gaolDLqbw+AzYVu2yjuRZWM4TeDV/lExf/84dk
+zDDgNVZWdxX3LM0FndSjp3Dk91jOtg==
+=3ryR
 -----END PGP SIGNATURE-----
 
---===============9149474546375859086==--
+--===============7557590286139005014==--
