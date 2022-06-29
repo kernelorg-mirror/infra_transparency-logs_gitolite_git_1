@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 29 Jun 2022 10:52:31 -0000
-Message-Id: <165649995138.4572.11530839092332652227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 29 Jun 2022 10:58:06 -0000
+Message-Id: <165650028628.7804.924981342404795684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-next/juno
-    old: a0bf153f26444aeb4511bf593c2d0cd6c5df204e
-    new: 156c90415b5c96b49a1ce59e48a702445a340229
-    log: |
-         156c90415b5c96b49a1ce59e48a702445a340229 arm64: dts: juno: Add cache-level property to L2 caches
-         
+  - ref: refs/tags/platform-drivers-x86-v5.19-3
+    old: 0000000000000000000000000000000000000000
+    new: 89528bdcd646f3907e29e64af1c4d947c6886691
