@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Wed, 29 Jun 2022 07:12:02 -0000
-Message-Id: <165648672295.15566.666684817798555640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 29 Jun 2022 07:18:29 -0000
+Message-Id: <165648710950.15889.16098831898450449100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 2b98ed888614d9633296a16a677107c556c4fa94
-    new: edc7f3a2d3e1bed358c64ff0ba9276c2610eac02
+  - ref: refs/heads/ath12k-bringup
+    old: 0033f53f76c80130ad434fc3ea899a40b0442b11
+    new: b77706771a58ec0ac8d7e3025d507518eb0784f9
     log: |
-         202040cbc77cde5a64c247b4226f264e05299f28 Keep only one readme
-         edc7f3a2d3e1bed358c64ff0ba9276c2610eac02 README: Update optional dependencies
+         b77706771a58ec0ac8d7e3025d507518eb0784f9 ath12k: Avoid false DEADLOCK warning reported by lockdep
          
