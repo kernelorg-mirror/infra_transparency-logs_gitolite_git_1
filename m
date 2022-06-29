@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Wed, 29 Jun 2022 11:17:07 -0000
-Message-Id: <165650142789.21495.8335374568022702573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 29 Jun 2022 11:17:26 -0000
+Message-Id: <165650144610.21694.5030035008034490535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/for-next
-    old: 9adf24a40978c19f57f44572b292b38938da7686
-    new: fc04dafd263d8c0b0251b63d47f35b29373d50f2
+  - ref: refs/heads/for-5.20
+    old: 26b4d53da95d0110be9a210a57fb5d0001d117de
+    new: 77c7b1645bf41cd8e989bd315c3efc73d36f4c4b
     log: |
-         fc04dafd263d8c0b0251b63d47f35b29373d50f2 mnt_idmapping: use new helpers in mapped_fs{g,u}id()
+         77c7b1645bf41cd8e989bd315c3efc73d36f4c4b ata: pata_cs5535: Fix W=1 warnings
          
