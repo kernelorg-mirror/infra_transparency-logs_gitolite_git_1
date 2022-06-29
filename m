@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 29 Jun 2022 04:24:30 -0000
-Message-Id: <165647667000.10898.17880653512646905709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 29 Jun 2022 04:30:02 -0000
+Message-Id: <165647700263.15394.7452634310458270135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: adabdd8f6acabc0c3fdbba2e7f5a2edd9c5ef22d
-    new: 53ad46169fe2996fe1b623ba6c9c4fa33847876f
+    old: 849d5aa3a1d833d0b3a18c2d5b816e23003cfe55
+    new: af9784d007d8382e71fb841c06ab5ef6aa2540fc
     log: |
-         53ad46169fe2996fe1b623ba6c9c4fa33847876f net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+         f03c8a1e33ce5f28851b8077a5a417a2d0600c2f net/funeth: Support for ethtool -m
+         af9784d007d8382e71fb841c06ab5ef6aa2540fc tcp: diag: add support for TIME_WAIT sockets to tcp_abort()
          
