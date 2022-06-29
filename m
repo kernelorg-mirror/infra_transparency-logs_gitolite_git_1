@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0913807276999250681=="
+Content-Type: multipart/mixed; boundary="===============3795151839937640880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 29 Jun 2022 16:13:36 -0000
-Message-Id: <165651921676.25119.16218352112447231944@gitolite.kernel.org>
+Date: Wed, 29 Jun 2022 16:15:12 -0000
+Message-Id: <165651931268.27268.3466005662050958137@gitolite.kernel.org>
 
---===============0913807276999250681==
+--===============3795151839937640880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/arch_topology
-    old: f32b11f7a2ab279aeae03bfa40eb87c449af0db1
-    new: e964a6f910430da79ad1e511c951bdccfb317e2f
-    log: revlist-f32b11f7a2ab-e964a6f91043.txt
+  - ref: refs/heads/for-linux-next
+    old: c4a6a8f7baf98e4667ade0ab07cccf793c1e314a
+    new: 52b05417609478a6769f0d8cdf560740d051e4e4
+    log: revlist-c4a6a8f7baf9-52b054176094.txt
 
---===============0913807276999250681==
+--===============3795151839937640880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f32b11f7a2ab-e964a6f91043.txt
+Content-Disposition: attachment; filename=revlist-c4a6a8f7baf9-52b054176094.txt
 
-40f2f3e94178d45e4ee6078effba2dfc76f6f5ba vdpa/mlx5: Update Control VQ callback information
-ace9252446ec615cd79a5f77d90edb25c0b9d024 vdpa/mlx5: Initialize CVQ vringh only once
-0e0348ac3f0a6e6606f1aa5acb1803ada913aa3d vduse: Tie vduse mgmtdev and its device
-a7722890fdfb2aaeb6b02d68bb0f1e411e58d539 virtio_ring : keep used_wrap_counter in vq->last_used_idx
-03d9571706942fa653a4975709820596d13563c7 virtio: Remove unnecessary variable assignments
-c346dae4f3fbce51bbd4f2ec5e8c6f9b91e93163 virtio: disable notification hardening by default
-50c0ada627f56c92f5953a8bf9158b045ad026a1 virtio-net: fix race between ndo_open() and virtio_device_ready()
-11a37eb66812ce6a06b79223ad530eb0e1d7294d caif_virtio: fix race between virtio_device_ready() and ndo_open()
-ed7ac37fde33ccd84e4bd2b9363c191f925364c7 virtio_mmio: Add missing PM calls to freeze/restore
-e0c2ce8217955537dd5434baeba061f209797119 virtio_mmio: Restore guest page size on resume
-037d4305569aacaa018a617771dccbb81cc60257 vhost-vdpa: call vhost_vdpa_cleanup during the release
-c7cc29aaebf9eaa543b4c70801e0ecef1101b3c8 virtio_ring: make vring_create_virtqueue_split prettier
-2390095113e98fc52fffe35c5206d30d9efe3f78 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
-941e3e7912696b9fbe3586083a7c2e102cee7a87 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 df8e8470931e7b8b7abdc25b639c6d6e05b6364a ACPI: PPTT: Use table offset as fw_token instead of virtual address
 7dd3e2c93ba3ffd603f67858f563cb372fbb5013 cacheinfo: Use of_cpu_device_node_get instead cpu_dev->of_node
 c3b99036623f2053f71b48732332259a53fe4786 cacheinfo: Add helper to access any cache index for a given CPU
@@ -60,5 +46,8 @@ de37b7c7961ff77c55bab469ebc314974f1662eb arch_topology: Check for non-negative v
 68fb21b1125daad1b226d73151e4879203237aae arch_topology: Add support for parsing sockets in /cpu-map
 1559a4f8b4c2c54633bdca47bb285b9933f3806a arch_topology: Warn that topology for nested clusters is not supported
 e964a6f910430da79ad1e511c951bdccfb317e2f ACPI: Remove the unused find_acpi_cpu_cache_topology()
+93f97b9d56c72ba7b509e85bfdec964f0f29053e Merge tag 'scmi-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+f7f3f9cf4ccd1ef542d44cd7e5c827797d1e7955 Merge branch 'for-next/juno' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+52b05417609478a6769f0d8cdf560740d051e4e4 Merge branch 'arch_topology' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============0913807276999250681==--
+--===============3795151839937640880==--
