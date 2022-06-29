@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6599259072177278809=="
+Content-Type: multipart/mixed; boundary="===============4325802746444103311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Wed, 29 Jun 2022 20:36:57 -0000
-Message-Id: <165653501720.9418.17519934013351833114@gitolite.kernel.org>
+Date: Wed, 29 Jun 2022 20:37:46 -0000
+Message-Id: <165653506646.9770.57549766112286761@gitolite.kernel.org>
 
---===============6599259072177278809==
+--===============4325802746444103311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
 user: markgross
 changes:
-  - ref: refs/heads/v4.9-rt
-    old: 7863b5e2b83da42278b52f4a991e7d96b8e0f1b3
-    new: 83a5ef191b83520d6ba5e7b6a3e867fefbb18133
-    log: revlist-7863b5e2b83d-83a5ef191b83.txt
+  - ref: refs/heads/v4.9-rt-rebase
+    old: 4ba21d219e662423ef63540bb8042f46dccb4200
+    new: 031611fdf1bb010d288cdc04ef6f0f205ecd83f5
+    log: revlist-4ba21d219e66-031611fdf1bb.txt
 
---===============6599259072177278809==
+--===============4325802746444103311==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7863b5e2b83d-83a5ef191b83.txt
+Content-Disposition: attachment; filename=revlist-4ba21d219e66-031611fdf1bb.txt
 
-9fa8a14439281cb467a9bf7bdb8795e52bf2293c Linux 4.9.312-rt194
 0dd02ff72c6daf4e7800fb5dd1109fbacdde97dc floppy: disable FDRAWCMD by default
 08303170ab96990f2149d8923a17188fda7ad818 Revert "net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link"
 08cf860b84ff15d405f62d6d23ba3b7d194abb2e lightnvm: disable the subsystem
@@ -351,8 +350,354 @@ b7efb3a62fffa509e21d076aa2e75331c79fe36d x86/speculation/mmio: Reuse SRBDS mitig
 da06c60d1dfef826512068d09aed3b6a70b5e5c9 KVM: x86/speculation: Disable Fill buffer clear within guests
 71078b82164e36c893dc0764866e3783b1988fb4 x86/speculation/mmio: Print SMT warning
 5697207f95e4757b740122c53354855b380057dd Linux 4.9.319
-58a584ee59b228f6df1e6707f48cba26be21f92d signal: Prevent double-free of user struct
-ce886de04b8fbdd3901807dc9339ca77afba1ed0 Merge tag 'v4.9.319' into v4.9-rt
-83a5ef191b83520d6ba5e7b6a3e867fefbb18133 Linux 4.9.319-rt195
+16f06480590f9767cf667342c335ca21cdbc3a8f timer: make the base lock raw
+9b5ebe6c3294fbbfb424a5e90780921737ef1835 lockdep: Handle statically initialized PER_CPU locks proper
+6686937b639adfd79f143e62eadfceeba3a5f902 lockdep: Fix compilation error for !CONFIG_MODULES and !CONFIG_SMP
+cdd9e86c0f585f92e0f6f66ce86ecc0a5bbf82c8 lockdep: Fix per-cpu static objects
+c8b92847d11f2693701831997ce9bcdcfc4d3a4b rtmutex: Deboost before waking up the top waiter
+3c24ab64f1a5f38e09101a2bc5d0d9f2fa67e656 sched/rtmutex/deadline: Fix a PI crash for deadline tasks
+8df4c71dfb77f39e7fda88ab618754c17d69927f sched/deadline/rtmutex: Dont miss the dl_runtime/dl_period update
+fc695941ee19f69ded62751f71f0b4d9afd899f7 rtmutex: Clean up
+7f4377b9a92cbee630747c775d44bdff71a3a53b sched/rtmutex: Refactor rt_mutex_setprio()
+2e594eaafdde1720a52c20d0fbd1fed4be94e231 sched,tracing: Update trace_sched_pi_setprio()
+04c17c11c70e5996145a4e27a5f86ca93760b467 rtmutex: Fix more prio comparisons
+309de47389b64f2ac897a9110f9e6d15bd615380 rtmutex: Plug preempt count leak in rt_mutex_futex_unlock()
+757f8a5ef99af61d7e1bd1b272a08a6fe402edd1 futex: Fix small (and harmless looking) inconsistencies
+f21a67c9c49cc4d67d690a6dca03613b709333a6 futex: Clarify mark_wake_futex memory barrier usage
+c2641dd45b6b8e5ba20d5b9e03d3f82aa12bc829 MAINTAINERS: Add FUTEX SUBSYSTEM
+57d2e62d952d020064f27bc71a6cb4bfa6159492 arm: at91: do not disable/enable clocks in a row
+46abc8e50a0aaa20a35e3246b64b489d0e6547c5 ARM: smp: Move clear_tasks_mm_cpumask() call to __cpu_die()
+e04620b003a0f0864ef7fccf76c8bbca52363462 rtmutex: Handle non enqueued waiters gracefully
+a3af710f4d9d123ad421f837f8300743e1422f23 fs/dcache: include wait.h
+3a112fb9f4f222668b206c13667b61b630ac8888 rbtree: include rcu.h because we use it
+aa64c92e3f7d51bbe63414b02e72883cc558e8ff fs/dcache: init in_lookup_hashtable
+a6913e2f39621dbfbb3ae3801449afa1e403ffd4 iommu/iova: don't disable preempt around this_cpu_ptr()
+d7db74fc23a7e1882685b30af90e8c14d4a8bb3d iommu/vt-d: don't disable preemption while accessing deferred_flush()
+1788dd9b478a954d71c405e444e433e569a9492a x86/apic: get rid of "warning: 'acpi_ioapic_lock' defined but not used"
+d7a9fe458e98d6929d2d475d2f630ca83734f1b0 rxrpc: remove unused static variables
+ed65aa39753d216467534dcd456051509e49ae64 rcu: update: make RCU_EXPEDITE_BOOT default
+fa3acd3bee0f21ae10c35956169e3e76f5136ccf locking/percpu-rwsem: use swait for the wating writer
+935932e7dc5737c2ac32f1507d956e3ee7ce6f01 pinctrl: qcom: Use raw spinlock variants
+1c4866fd9aa076bfbd0c3210e468488ae8ce30c0 x86/mm/cpa: avoid wbinvd() for PREEMPT
+04b649e121fe5f22207c869d780fd80e2928f4b7 NFSv4: replace seqcount_t with a seqlock_t
+62fc8ce0b74d644d82c916c25633a620674f4643 sparc64: use generic rwsem spinlocks rt
+948c32bf833a933c7b03a46227022faa9cdc9017 kernel/SRCU: provide a static initializer
+9e93aa083f4e8056140a8a704989c0cfdf8b408f block: Shorten interrupt disabled regions
+39c97a9f45bccf48e958b275183eba05ecc70828 timekeeping: Split jiffies seqlock
+fca376025c0b51d1e0fee1e45d0cd25c86e6d3ac tracing: Account for preempt off in preempt_schedule()
+37bd2af6499d9c015ee645f8e09b9a5409813aec signal: Revert ptrace preempt magic
+740b7829673997a564533f544f2625265f72c445 arm: Convert arm boot_lock to raw
+3e235b3184442f80a506f585fc2329a91d000054 posix-timers: Prevent broadcast signals
+3abcd11d2ab3d2c522c354c4d6a8190d4c94362b signals: Allow rt tasks to cache one sigqueue struct
+f416ff8bca535e51b89d260b806c8df338eeb88a drivers: random: Reduce preempt disabled region
+eb944d5e780a889698f3cefcfbf81520c25b059a ARM: AT91: PIT: Remove irq handler when clock event is unused
+73dcfd94f40fbaf5496a4b53846010d4ad5a1835 clockevents/drivers/timer-atmel-pit: fix double free_irq
+18ae65fdd889e32286196ce0d8ebaf029fdf1b7e clocksource: TCLIB: Allow higher clock rates for clock events
+dc693e0fd19d715afba5f78dda780c5846ee9f27 suspend: Prevent might sleep splats
+8deb902b2c672fd3707145fbe8318ff3911f8316 net-flip-lock-dep-thingy.patch
+f5f42420534e4aa1aeec60a478da680806c4aa0a net: sched: Use msleep() instead of yield()
+1d7a887e5b5e381415e704bed25adf90c53a7088 latencyhist: disable jump-labels
+9c8bd8e3c9c44e101714a92db2c0d0bd18e24a5d tracing: Add latency histograms
+55eb18bfc6e842357788b9c8dae49a90fc31cf95 latency_hist: Update sched_wakeup probe
+50b463a1a27f3dd235941d17e912bd441da2291a trace/latency-hist: Consider new argument when probing the sched_switch tracer
+4ff9f1d9c9594c9d6c7ce03606d6db446122de6b trace: Use rcuidle version for preemptoff_hist trace point
+98f8557a4651bc883381e315c80e4e2d578ed9aa printk: Add a printk kill switch
+de2b2e4e28474dc64dacbd3af28ebef818c8d452 printk: Add "force_early_printk" boot param to help with debugging
+c0011d3bc1e5cc559d97fdc268678b9d02c6ce63 rt: Provide PREEMPT_RT_BASE config switch
+55f02510d6ea035493a1f2b727910ac4af99f6d1 kconfig: Disable config options which are not RT compatible
+e349ddf2a3dc9c26a3024b72e5ac2bb675b0d922 kconfig: Add PREEMPT_RT_FULL
+d1f108bb34785c28bd7309c86f429547affe79f1 bug: BUG_ON/WARN_ON variants dependend on RT/!RT
+39c971ec4d3161c9f9d5a6d0352224907963f38f iommu/amd: Use WARN_ON_NORT in __attach_device()
+8d3f7b6e298ed9dadd934c0380926bca55ffb6c0 rt: local_irq_* variants depending on RT/!RT
+f4c7da38c0814c68b71da5569b9eaca983076be0 preempt: Provide preempt_*_(no)rt variants
+46e6c910a595eb77654eaf22ff8d4084df60b3bf Intrduce migrate_disable() + cpu_light()
+d93e739552c5c90ed43bb61eb7e797efe850f0b2 futex: workaround migrate_disable/enable in different context
+6bc8a097ad24aa3ba927ba5e133d11197a1c7517 rt: Add local irq locks
+36666130df16b2b1bf6713174bb1b8df2e6df00e locallock: add local_lock_on()
+8194209015434172d173c87ab1c4404352e3f6ef ata: Do not disable interrupts in ide code for preempt-rt
+63911654e7efaf6c5d6bfe5990aceac8995f64c0 ide: Do not disable interrupts for PREEMPT-RT
+545aca013e986935366dc1828d04df1a48b46ea1 infiniband: Mellanox IB driver patch use _nort() primitives
+f15cde1622c57bd3ab6df2aa103dc3fa252014bc input: gameport: Do not disable interrupts on PREEMPT_RT
+8c1b1b0e66b8cbd74545f769073b4c1da7a87b8f core: Do not disable interrupts on RT in kernel/users.c
+7bb39ea451e355c66f0a4c444b242e8e120e9460 usb: Use _nort in giveback function
+2668623acacbe52fde575997038b9fd24f1ac5b4 mm/scatterlist: Do not disable irqs on RT
+8151b0d9ed057e33d36e86da2e5ab9907c8bb97d mm/workingset: Do not protect workingset_shadow_nodes with irq off
+18321f3a1153089218fa25fdcbf0449327407f3e signal: Make __lock_task_sighand() RT aware
+8c2ec35af43eeea0b7ac0a3a4f0c7367f2416be9 signal/x86: Delay calling signals in atomic
+d04b93115e5dc88d0eef2b24a8f1c2a7d669fbc3 x86/signal: delay calling signals on 32bit
+06f606eba77f578b1773ee18eb9a5f0d5be98973 net/wireless: Use WARN_ON_NORT()
+736d225071ba83f9672c9646341f129e26849d60 buffer_head: Replace bh_uptodate_lock for -rt
+4ded4ebecccdb386a53af73d5759c108029fdc6d fs: jbd/jbd2: Make state lock and journal head lock rt safe
+6b7cb65d7a118c3266f1e00517ca614b76e95885 list_bl: Make list head locking RT safe
+6255f7dee69a877f6113f9099fde9a049566eb06 list_bl: fixup bogus lockdep warning
+0d866d241d10542f2f4ce469051e1f6edf21de1a genirq: Disable irqpoll on -rt
+30521bcd1a9308a89a24bf12777be40805208e39 genirq: Force interrupt thread on RT
+bed8dc02cd6e93f4b367fe13184f45e281143e70 drivers/net: vortex fix locking issues
+ab75a3f1329f093df43ee04c4a4b471825065850 mm: page_alloc: rt-friendly per-cpu pages
+575b782bb4f374df0306db18bfae1d5ceec4c42e mm: page_alloc: Reduce lock sections further
+f2708f3b221553baab5df94ec3ae490d22a025d1 mm/swap: Convert to percpu locked
+4f9822ecff7213ed06ccfe3f5d6478589d6e7426 mm: perform lru_add_drain_all() remotely
+da79649aa31045e497d1e80efb923de739fef693 mm/vmstat: Protect per cpu variables with preempt disable on RT
+ba96f93102abb8e0479e285f4025ecd594b30234 ARM: Initialize split page table locks for vector page
+3a8aa0d5297a21144c5156ac2bcb9526a0d13c60 mm: bounce: Use local_irq_save_nort
+a1dc57c9ac958170d39e386e9a103a83aff3e287 mm: Allow only slub on RT
+7118cddfdb5d95360ebedfebb21181ed4a51c700 mm: Enable SLUB for RT
+5b2c1ee99da4eff3ff729252b9e86872affc1870 slub: Enable irqs for __GFP_WAIT
+cdd8ebf7ee4b86099eea5b61219ff14a1487b5dd slub: Disable SLUB_CPU_PARTIAL
+344aba83352518709d55d9871b8d66e022a2135c mm: page_alloc: Use local_lock_on() instead of plain spinlock
+d3789e7bef331aa7011e6d852575f023d5126881 mm/memcontrol: Don't call schedule_work_on in preemption disabled context
+573206cf93fbbe9fc222bff4d6227587552ddb80 mm/memcontrol: Replace local_irq_disable with local locks
+055a03e88d778f985347b69c1fd2955a63a7397c mm/memcontrol: mem_cgroup_migrate() - replace another local_irq_disable() w. local_lock_irq()
+15c012e598716bc0cf6e99690b8c677da687e344 mm: backing-dev: don't disable IRQs in wb_congested_put()
+fe6a7d3d6e76358ead54951e352c1afddcf2f006 mm/zsmalloc: copy with get_cpu_var() and locking
+32ddfbba950b2ef5310569a6e27102318db72474 radix-tree: use local locks
+a7cc5b9cd9118d32438d2eaed2e283032285ee9d panic: skip get_random_bytes for RT_FULL in init_oops_id
+f30b957502b7ccc603246fa6a6e0e3b7c0f93634 timers: Prepare for full preemption
+cb7b4c55caa46a9c421f8fa3e1f15858c5521776 timer: delay waking softirqs from the jiffy tick
+adeb7f527dd7518f0b4a322d0b8cd2208dec34e8 hrtimers: Prepare full preemption
+a4021a60e753e72498846dafc8a50167af1b7c48 hrtimer: enfore 64byte alignment
+225d730231b71101335c37ebab0d508ceb704dce hrtimer: Fixup hrtimer callback changes for preempt-rt
+aa682914da63046c9453731562774274276ba568 sched/deadline: dl_task_timer has to be irqsafe
+b47f3c02290f0f3167f8f4e0e73aa3209ebc50dc timer-fd: Prevent live lock
+805ca6d594f3b9179a0111568b9d2085643bcbf5 tick/broadcast: Make broadcast hrtimer irqsafe
+66b841b1d6710d9a2b77955151760fe5a59a398e timer/hrtimer: check properly for a running timer
+6b1db7623c97f3a8b22a8130798b7239c1b263ac posix-timers: Thread posix-cpu-timers on -rt
+b80b4793855419149ba40f271fda8f79105c0110 sched: Move task_struct cleanup to RCU
+271b127c82b93eb9c3ec168c1891da68edde0941 sched: Limit the number of task migrations per batch
+9b9912185c1a1f62842b1577312a4829e855b4c8 sched: Move mmdrop to RCU on RT
+1a587db3bbb6fc0e513168abd9686f305f519c33 kernel/sched: move stack + kprobe clean up to __put_task_struct()
+8c3cf3a5982e86ffba12ef7fb43023636b0ae155 sched: Add saved_state for tasks blocked on sleeping locks
+f9bfd9b215b1b11d39bce742312eb052ef68f710 sched: Prevent task state corruption by spurious lock wakeup
+83000ce1b7815ad32bdd01962bf9315f45661046 sched: Remove TASK_ALL
+5d3df607816758b807a4ff5470a8f4ef48fa4681 sched: Do not account rcu_preempt_depth on RT in might_sleep()
+293a93c4e2c2ac8d6902037eee3da361c64f24f3 sched: Take RT softirq semantics into account in cond_resched()
+ddb36968a8f41bca1195da4905f9c3c701cd542b sched: Use the proper LOCK_OFFSET for cond_resched()
+38d40983c0c1c4653745d7cad50d1fda2d33a360 sched: Disable TTWU_QUEUE on RT
+49dee0515fa45d85a24584f496c97a3ae8c0f44f sched: Disable CONFIG_RT_GROUP_SCHED on RT
+d251b075d578baf955cd5d775bbebae8ad33a7a3 sched: ttwu: Return success when only changing the saved_state value
+a95cb75ad18c2598b4df387cfca83a7063a5a91a sched/workqueue: Only wake up idle workers if not blocked on sleeping spin lock
+1cf4778e5c873871ea9708331a65e487ff731ffd stop_machine: convert stop_machine_run() to PREEMPT_RT
+27499eeb01670c2d9694f0fe862d71cca6ee5052 stop_machine: Use raw spinlocks
+e91761b132a4e89beaa3726ab5d70c80ef16dcd7 hotplug: Lightweight get online cpus
+c7eddac8286b175cfd99fd6c5e8c976783de6982 hotplug: sync_unplug: No "\n" in task name
+7c989c0548daf1b9b5ac0a1d3c4ade4381600ff8 hotplug: Reread hotplug_pcp on pin_current_cpu() retry
+bcbcb854cf798463869dfbf5d74b7e7abd07d1db trace: Add migrate-disabled counter to tracing output
+8ab2149e9ad8b6c985fdb320f52366bebc01ca80 hotplug: Use migrate disable on unplug
+c5350cbbe3b37a21397b41c0372404b515c18396 lockdep: Make it RT aware
+ef6dd3246c73e7449ffe8270b58c1766fd98958c locking: Disable spin on owner for RT
+687bba9797ddca85ae64b2fc5951f46c9ebfd9a4 tasklet: Prevent tasklets from going into infinite spin in RT
+783175103d107ca7dc3e356e92e74ad02e5a79d1 softirq: Check preemption after reenabling interrupts
+a4fa51efbf01685b3eb65ed48cc8430782b640b7 softirq: Disable softirq stacks for RT
+82cfb422ec45c2157ad51ca7fb89e37f6cd6b8c2 softirq: Split softirq locks
+deeee52dc9859695d1ef56ea9f57c34bc21486ca kernel: softirq: unlock with irqs on
+ccca7cb4d0b82fd2e6457f7c0831f4bf5f56c30e kernel: migrate_disable() do fastpath in atomic & irqs-off
+3d042ddbcdef72dcfd630e6290c621434065455d genirq: Allow disabling of softirq processing in irq thread context
+59234ef277f9e0d6b092b6dc0e58a90b168b0388 softirq: split timer softirqs out of ksoftirqd
+8adfdad14fc1037d0c9217e862ab7121be2f4967 softirq: wake the timer softirq if needed
+a0a707e2c2c42aeeee5962ba41fcbc047971aa18 rtmutex: trylock is okay on -RT
+a17b11e65d9dde55786f62653b47e09200a08e83 gpu: don't check for the lock owner.
+3e48c67eed0b62dd9ee6cc58b6cdb1188909dc28 fs/nfs: turn rmdir_sem into a semaphore
+36b43ced44145d1abe31a265a56d63073a0d2614 rtmutex: Handle the various new futex race conditions
+3043a379eac92408227b23c9880cfd3a99122645 futex: Fix bug on when a requeued RT task times out
+78ad191ed08f1fc04634f9a4ce4197055ad15713 futex: Ensure lock/unlock symetry versus pi_lock and hash bucket lock
+5d69958a9cb255a003bb63766ae5e42a8165ac94 pid.h: include atomic.h
+f3ace3d78bd02e324ca5914d8c3b12155564f76f arm: include definition for cpumask_t
+56944ae028ca999d8b49625bb007c77d21e58b99 locking: locktorture: Do NOT include rwlock.h directly
+d08776c2be199a79f35f8a9c56eda6fe2c5d68d5 rtmutex: Add rtmutex_lock_killable()
+c25e40e99ffea64e490dfd3c9bb135d7441096d8 rtmutex: Make lock_killable work
+d80e1294489f7a7d7a1d224a006723736103a738 spinlock: Split the lock types header
+fba1a45d146095365f98728344c17c515a08612e rtmutex: Avoid include hell
+6db5e8e81df0f257687746588929ab17f5fde884 rbtree: don't include the rcu header
+4b9e1215bdc24406f19d45949c268b24b448b9d0 rt: Add the preempt-rt lock replacement APIs
+0897dd3e8c1fc5847b0b44acfe64162c5e2574cd rt: Drop mutex_disable() on !DEBUG configs and the GPL suffix from export symbol
+ca47f1e554450a027b704b003e931bfced5cf04e kernel/locking: use an exclusive wait_q for sleepers
+a4b5853b11dedf0053f22a8b9db3350a36243778 rtmutex: Add RT aware ww locks
+e53d63cb2aeaa1808d4755e78e8e07bd71c15855 rtmutex: Provide rt_mutex_lock_state()
+29fd284ebe358ffcbcd3cb67074f647c4a6f7fbb rtmutex: Provide locked slowpath
+e894ec7bf781470c9d47613a7e2cf282dc421153 futex/rtmutex: Cure RT double blocking issue
+17e974b7bb2470727b496ce078f9df934ae9b331 rwsem/rt: Lift single reader restriction
+8e2e87f8c1c265b05a103f79f68fd5a356d8f9d0 ptrace: fix ptrace vs tasklist_lock race
+4d7fef652cdb33e5b63e1de8b9567fd6f7559282 rcu: Frob softirq test
+6525d8a713b0acb0f5906e09a2f61aa5a843427f rcu: Merge RCU-bh into RCU-preempt
+94f84b34b1cc4e575e99a4ab5516862121122872 rcu: Make ksoftirqd do RCU quiescent states
+5bb24f54786f59c02e5e88e5334cecdc2ee8a753 rcutree/rcu_bh_qs: Disable irq while calling rcu_preempt_qs()
+493bf250d299e3b181443384c283956a378caffa tty/serial/omap: Make the locking RT aware
+12839afca4e7145cdb6fe0e14795c4de331d7699 tty/serial/pl011: Make the locking work on RT
+b095175c72f8fda13aca3eef1e3a9f8642853c61 rt: Improve the serial console PASS_LIMIT
+5b88258d3fd797dc6af36afde1c2504b5dd370fc tty: serial: 8250: don't take the trylock during oops
+450267c5e0f80e22360b9cf2e00ff9bd174668c5 wait.h: include atomic.h
+692ad662c77ed9970467862bdd399668f6c079b6 work-simple: Simple work queue implemenation
+feb8b6962b19c094c6e5706890306fd8ff0ee8fa completion: Use simple wait queues
+ccf872b93937c710ba2d0acfe9d158f27b41cea3 fs/aio: simple simple work
+20e819c53358de2e43c1a20eb5382b87665f14e7 genirq: Do not invoke the affinity callback via a workqueue on RT
+3657d180a64aaaf3bc669ada0a5253b41693a43e hrtimer: Move schedule_work call to helper thread
+cbb0836fc17c24e364798dcc675c06cd2bb66a0e locking/percpu-rwsem: Remove preempt_disable variants
+74d64a7bd7675007df798f8a92f0a03695d3cd3e fs: namespace preemption fix
+8fa804c52574f33dfea0a89042308965cc743e84 mm: Protect activate_mm() by preempt_[disable&enable]_rt()
+d649713a426b71e72bea71ffa10ebebf38aff90d block: Turn off warning which is bogus on RT
+62f3e215bd3322b18966c51be704e90d5dc2098b fs: ntfs: disable interrupt only on !RT
+723578ebd1857bab9615876dd178d6268ccbfbda fs: jbd2: pull your plug when waiting for space
+d72ea4628067e202830d31981eb4813229966c0e x86: Convert mce timer to hrtimer
+2ebd655dc623a0e05fa3a35b65284a6e05d2a134 x86/mce: use swait queue for mce wakeups
+c567bac5ab7b801a793f005386bce299f6983bdb x86: stackprotector: Avoid random pool on rt
+968fae7987b69495396514058358e81b443c0be1 x86: Use generic rwsem_spinlocks on -rt
+7ebd523d5361a9cf176df38772a7bd3db2dfac28 x86: UV: raw_spinlock conversion
+2d8d800c09c792a19c593e5c9a4d20c9a035e84d thermal: Defer thermal wakups to threads
+bdff6f266b2a34cca58d24539385024d0f477a81 fs/epoll: Do not disable preemption on RT
+d5e54f94bf36b9ed55dce87bb5ade57b907dddbf mm/vmalloc: Another preempt disable region which sucks
+ada705db1f8a43e73698d4a3167968ae9ca99c8b block: mq: use cpu_light()
+c3da730a748688a00c495b7bdde33d213cb58119 block/mq: do not invoke preempt_disable()
+fa994c5d73acd68ea10852f343a7fc6a9a19e56d block/mq: don't complete requests via IPI
+8f76e1d6e81b65f417ddced57a3b527162ff6a03 md: raid5: Make raid5_percpu handling RT aware
+877eb468a2f98a2bd70768a65ec2fb5190f929ac rt: Introduce cpu_chill()
+91051fc8a7291038babaaa7222e9c08e19975f6a cpu_chill: Add a UNINTERRUPTIBLE hrtimer_nanosleep
+54ab4d0b5d3d454ad93ffac54aa27d82528855c0 block: blk-mq: Use swait
+7cac8772338e41a572bd519cfd352e1ffe3f3b4b block: Use cpu_chill() for retry loops
+47ca06fff40ec87e09cb0261f588f68a6ff82a91 fs: dcache: Use cpu_chill() in trylock loops
+5645d6847ad03d9d402032ebd57d89548939cae9 net: Use cpu_chill() instead of cpu_relax()
+e02ce86f81af9406c58f1619ac524f14030a199d fs/dcache: use swait_queue instead of waitqueue
+2bbf21d9873904191f80a90d00f875eec3723661 workqueue: Use normal rcu
+5031abfb77d45b29649735db6b4587e7d15c24c0 workqueue: Use local irq lock instead of irq disable regions
+32717a649508254a23e2d25f7aae57aee2241c73 workqueue: Prevent workqueue versus ata-piix livelock
+5942f46430a85bad3da38c4ee404a9505f28413d sched: Distangle worker accounting from rqlock
+07a1392d2af8dffe0b6982a22badcb6926668337 idr: Use local lock instead of preempt enable/disable
+930eee37e6448d0453a799ba05de9fae7b077671 percpu_ida: Use local locks
+33180e48dde9a3c9ccb57193e0a96b3f34e3bef8 debugobjects: Make RT aware
+d3e44a2183f45b4a71f663c9fcd5b3e12a220226 jump-label: disable if stop_machine() is used
+c88337de511b56f40bd0e68ce3d1fdef72ea2ef3 seqlock: Prevent rt starvation
+eaed567433d625a2e1396b63a587995a04eb72b0 sunrpc: Make svc_xprt_do_enqueue() use get_cpu_light()
+bd5132a986c68bba3f9a37c73bb6b5f9b5b8dc8d net: Use skbufhead with raw lock
+b73514dc99c07519abf6da789b3585c7c4a5d986 net/core/cpuhotplug: Drain input_pkt_queue lockless
+5d8036a19d786ed76adc40b3008a3209dc6e85bc net: move xmit_recursion to per-task variable on -RT
+5edfbffc75c18400e9a0987369c9615825e60895 net: provide a way to delegate processing a softirq to ksoftirqd
+48269fef608e5cb8f130c3c710b8a3d7988b5147 net: dev: always take qdisc's busylock in __dev_xmit_skb()
+3e143964e826d343f785ade813c7f5d6c994a69a net/Qdisc: use a seqlock instead seqcount
+c2f218a5d41758ed98922db86b3a7566a3db1f70 net: add back the missing serialization in ip_send_unicast_reply()
+cc5a064972086f8bac35ea11821c7e8013b6c96e net: add a lock around icmp_sk()
+1adbba157d420de77bf456748b5750a431932c07 net: Have __napi_schedule_irqoff() disable interrupts on RT
+ec5ce6b6df367be819cd6262c95e20df438cbd80 net: sysrq via icmp
+96437d4cccfb4a7063851f3c9d2f48642a21f005 irqwork: push most work into softirq context
+f97396ab8c6a0a7c95666cce8771964fbb23ebc0 irqwork: Move irq safe work to irq context
+f2d38a4828c3f4d5acca9239f0b088040145b617 snd/pcm: fix snd_pcm_stream_lock*() irqs_disabled() splats
+21c4b8700e8ba9e5f021bb5f8b5993371a5100f1 printk: Make rt aware
+94198babfa80338f4e07569260f5cacdbf6b385b kernel/printk: Don't try to print from IRQ/NMI region
+71848928e2efb7c891376ebbf94011875e375b8a printk: Drop the logbuf_lock more often
+624da9e7b143f64a93f60b9f75ec388352fad7b4 powerpc: Use generic rwsem on RT
+ca603077048328227bd456e9a5e213870e43768c powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT_FULL
+4a6c89249fe1ed5ef6456834465f723316356dd6 powerpc: ps3/device-init.c - adapt to completions using swait vs wait
+810226a645f95d01bd9f01b7460a5c811f8e8ec0 ARM: at91: tclib: Default to tclib timer for RT
+c952d19dcb9574f86cc4dedb0be6e6bc89684e6a ARM: enable irq in translation/section permission fault handlers
+fdb5abd96f5bf717a191420d0425589585f1a265 genirq: update irq_set_irqchip_state documentation
+194c7746efc94a2a489f5b38e1390cdda945045c KVM: arm/arm64: downgrade preempt_disable()d region to migrate_disable()
+ef17c98a1efa77f49c9b92180d7e618e1156dea1 arm64/xen: Make XEN depend on !RT
+3f8a7c593044e5bb75bb70f3bc0b6fe38e5edf9d kgdb/serial: Short term workaround
+a1e66d805eede7e4dc3a3d68476e5fb4e9c8ce61 sysfs: Add /sys/kernel/realtime entry
+8a7960d9b18785540c04205922cb1d989480decd powerpc: Disable highmem on RT
+2e111cbdad64ae084953b0456f508e961d19640a mips: Disable highmem on RT
+9b92dfba741ef733550caa1f1b34d467712f118f mm, rt: kmap_atomic scheduling
+58008eb922d7981fafcb39c1552d47e1d53312b6 mm: rt: Fix generic kmap_atomic for RT
+0a1c8b15144060a70365a8217f8a3a1364f6df29 x86/highmem: Add a "already used pte" check
+2f09802d7848d7c2f4b2908bb37aaaad902947fa arm/highmem: Flush tlb on unmap
+6fca4bf9ae39a20a958a1be96a96cafc4e078b8b arm: Enable highmem for rt
+f9ec13de569c859997ccd00cf4ecab7e26c952be ipc/sem: Rework semaphore wakeups
+3783dd9ac9e3912ac83ab82eafa793aac1da91e1 x86: kvm Require const tsc for RT
+6164a553be8f6ce1da3fd784d2e251894fa071c1 KVM: lapic: mark LAPIC timer handler as irqsafe
+c2aa50c57a8a1d75e8aae4ab39e339f186b876a3 scsi/fcoe: Make RT aware.
+4aa31350b6462c44ba0d6a541ab8f7d4ff50e719 sas-ata/isci: dont't disable interrupts in qc_issue handler
+d18f243e8d5263ded4be6e9a3e61c56773ca6b6f x86: crypto: Reduce preempt disabled regions
+c1f9ae600300ff146ea195fbab10bdf5dce331c9 crypto: Reduce preempt disabled regions, more algos
+d320a6fc3714e81e3f6b1c4dd6eef67f92ed164f dm: Make rt aware
+94d66a27888aa0cf51f7627c998f9cedf26f1cf1 acpi/rt: Convert acpi_gbl_hardware lock back to a raw_spinlock_t
+3347b26175ae47c0027f9aba8b67b2a1d11373f1 cpumask: Disable CONFIG_CPUMASK_OFFSTACK for RT
+c2a55da09b1e8eaacf88ada5145a2657c90eb6d5 random: Make it work on rt
+c3884ad8b7793f9ec0375dc0c52243545f505a1f random: avoid preempt_disable()ed section
+3dc2ddd822f97024bd54522032e8a8ff9f772caf cpu: Make hotplug.lock a "sleeping" spinlock on RT
+5f1637a8199cb1b3d5a36d72baeb46f9e0db0a1b cpu/rt: Rework cpu down for PREEMPT_RT
+3efa54be9939d0740e582c1fe2f2f0e531ea4102 cpu hotplug: Document why PREEMPT_RT uses a spinlock
+bf13688a53bce7faf668537f866f7911c21e92c4 kernel/cpu: fix cpu down problem if kthread's cpu is going down
+8066d0cbfbfb3fd4c74f370079739669547e8622 kernel/hotplug: restore original cpu mask oncpu/down
+603fae011198a760380b1134203305bbcefd9d8a cpu_down: move migrate_enable() back
+3dc3e6a688a7866418152f8904f1fe7cf00dc5ff hotplug: Use set_cpus_allowed_ptr() in sync_unplug_thread()
+eb7751d165d83eabeb3404dbf8a51fed2ee2ec1b rt/locking: Reenable migration accross schedule
+da5a70953964491d4cef5ae1e4f42af9e33a4f81 scsi: qla2xxx: Use local_irq_save_nort() in qla2x00_poll
+8f840a9fdf9cf8df9030934e88c7fbfcc1d610dd net: Remove preemption disabling in netif_rx()
+a7da2c73c793713aebc321c649f9c5388b97cc74 net: Another local_irq_disable/kmalloc headache
+3ba48c4d8c5b9e143a594774cc362186ef5f62cb net/core: protect users of napi_alloc_cache against reentrance
+e6d25525050a6616dd83b7012fb50988e8eb43e5 net: netfilter: Serialize xt_write_recseq sections on RT
+edd0a99c8977ece61f84df157f2f3f9a2bda15c0 crypto: Convert crypto notifier chain to SRCU
+f031766a18c55855e3a1b9676069ae80e61f0493 lockdep: selftest: Only do hardirq context test for raw spinlock
+114a6536c1509b3b76ed45d22be328565d253035 lockdep: selftest: fix warnings due to missing PREEMPT_RT conditionals
+64f205878c5b4fc595cb708b4a672d947a3e6ca0 perf: Make swevent hrtimer run in irq instead of softirq
+df4c52b18fdf57addf93b757d366f3cc7b66c579 kernel/perf: mark perf_cpu_context's timer as irqsafe
+5bf8e9ba163a2bf924c103e894075e0839d320ab rcu: Disable RCU_FAST_NO_HZ on RT
+dec037db474602e5f1f19d211c916afa74b5ea6c rcu: Eliminate softirq processing from rcutree
+f29a3587c9c1deb90663fcf9533dfc851bf0ae54 rcu: make RCU_BOOST default on RT
+193ac9f09dcf526ed722e67f56c6fcffb1843411 rcu: enable rcu_normal_after_boot by default for RT
+61ed0e1faba4acf2f4b7634000c9d8e21e920655 sched: Add support for lazy preemption
+82e92c63beca40200811bf5ba2285e90660ae8c7 ftrace: Fix trace header alignment
+497cc8e26a0b0d6d887bdd62092bc76fd0fb602f x86: Support for lazy preemption
+8e4eee07479d5e8363a4aa0f702c4387d7c26d1f arm: Add support for lazy preemption
+304483a39e292fcef2b0f483d5f824a37b155fbf powerpc: Add support for lazy preemption
+1037a4652b87aa1d5445765a71de833fe3c0377d arch/arm64: Add lazy preempt support
+1b41ed9bff6ac5b09ae4bb477b204b9c0e7fe22c sched/migrate disable: handle updated task-mask mg-dis section
+377fdf3ebfae24418076cc803e8d67b455c4d3a7 leds: trigger: disable CPU trigger on -RT
+a6cfc810f4370a0764714b179b90ee62582e830d mmci: Remove bogus local_irq_save()
+243212048eba6507503c8e1d0f85a18e4c9a61c8 cpufreq: drop K8's driver from beeing selected
+700d9ae7ab37c213097b6e10072741b567017572 connector/cn_proc: Protect send_msg() with a local lock on RT
+1784b30651a596881dfdceafe7be75fc21192de2 drivers/block/zram: Replace bit spinlocks with rtmutex for -rt
+fce0e8621931a95588f7b0e44b8a74585bddb190 drivers/zram: Don't disable preemption in zcomp_stream_get/put()
+2750801c1eaebb7446f1c21d34d1307ea52e5183 drm/i915: drop trace_i915_gem_ring_dispatch on rt
+0621ff96522ad0e0fdb166d07ee7e61ddb6d3a06 i915: bogus warning from i915 when running on PREEMPT_RT
+139962ad6f7d283c7d97064984d7a07089e0c3b6 drm,radeon,i915: Use preempt_disable/enable_rt() where recommended
+e045309d1a7c959ac5d17ac3970590e4f9e69563 drm,i915: Use local_lock/unlock_irq() in intel_pipe_update_start/end()
+8ffd5fa89a2c582d5e136753c2bb2e57763bb5ba cgroups: use simple wait in css_release()
+5b14d60e8d62fc2c3828d55196fff620de4bbde9 memcontrol: Prevent scheduling while atomic in cgroup code
+97f1fe449685c914c1c9e4bfbdae9b0e51b0a778 cpuset: Convert callback_lock to raw_spinlock_t
+5d420b48b67dd5af1b54cf07b7ae65312cb6cb90 rt,ntp: Move call to schedule_delayed_work() to helper thread
+911ff5315ad52fcbd224826c284fc1ccfc2d2ed5 md: disable bcache
+f38279ade7c07f97dafdb0d1f533a0a6041168dd workqueue: Prevent deadlock/stall on RT
+4b653afa2c762a260f04a6f9f982c50d805b9314 Add localversion for -RT release
+4f9028fd095f0e295bc0652159f32874a2d21c92 drivers/zram: fix zcomp_stream_get() smp_processor_id() use in preemptible code
+e8ae8992f90645e7fd2d1442d00a1910340723b6 fs/dcache: disable preemption on i_dir_seq's write side
+4cf6225cd2ffbed2b75abab84ea91f63a9b2f8a3 tpm_tis: fix stall after iowrite*()s
+db1353bfbf0b82b38c25824b7baea6a09a16b6cb fs: convert two more BH_Uptodate_Lock related bitspinlocks
+7e1deff9eb5b6855f9a9be7e4a2e46a0a0c9a602 locking/rt-mutex: fix deadlock in device mapper / block-IO
+8e7c2a7e9f05c2228a2dedb60bb97f3d21d8bc17 md/raid5: do not disable interrupts
+616eaf761134d5b4777eeae3c547f50a9a06463e Revert "memcontrol: Prevent scheduling while atomic in cgroup code"
+95c6c7d21ae3273962f6f41eed1115f79549eac9 Revert "fs: jbd2: pull your plug when waiting for space"
+49fb38efdd7e5d6cb37de9315b52b3156c46d34d rtmutex: Fix lock stealing logic
+4121008dc7352decf309e67eb5bfe33c5adb5c6d cpu_pm: replace raw_notifier to atomic_notifier
+c1b15d734d86b2a6ecff402fbe636b5b8ebbee4f PM / CPU: replace raw_notifier with atomic_notifier (fixup)
+cf6b1f30da92739a105945d10221be60f0694755 kernel/hrtimer: migrate deferred timer on CPU down
+87b7c6a5116746d772fac46918654933a02fdd09 net: take the tcp_sk_lock lock with BH disabled
+0373db5aa631faa063617bda687a0862035709d6 kernel/hrtimer: don't wakeup a process while holding the hrtimer base lock
+97b924d2803cf482e84090ce1c9f89b6ccc92e6c kernel/hrtimer/hotplug: don't wake ktimersoftd while holding the hrtimer base lock
+d2835d5846a0ae6e5482e48d9d979009e0d93af9 Bluetooth: avoid recursive locking in hci_send_to_channel()
+d6923c910f6ca8c0a2fb5bd88580d7b2ba831603 iommu/amd: Use raw_cpu_ptr() instead of get_cpu_ptr() for ->flush_queue
+b532ea955fe0fc61fc5545056fda9b5e442e2167 rt/locking: allow recursive local_trylock()
+797b1cb1df046b30530887bd837a76b7be945ce0 locking/rtmutex: don't drop the wait_lock twice
+c66726fbce80c2f6061aa7f15d5e08601c6ef164 net: use trylock in icmp_sk
+a996484871593702e05b286255b9774b3d25ee40 rtmutex: Make rt_mutex_futex_unlock() safe for irq-off callsites
+b7d9fda6b42e6d106238aeeee4a3e6281935ffd6 rcu: Do not include rtmutex_common.h unconditionally
+55b7f743cfb18bb52934b017514f444090c6378a rcu: Suppress lockdep false-positive ->boost_mtx complaints
+08722d1be73666631b08669103147f4a0f1337da sched, tracing: Fix trace_sched_pi_setprio() for deboosting
+267b9413ad65c349641e2b74ecb7de93f8a5e63b crypto: limit more FPU-enabled sections
+f62f4df22716644b7c4dc42c9326db9f60cdf902 arm*: disable NEON in kernel mode
+6e79bed462c4cf1074b48d68d9b6aac39aaab024 mm/slub: close possible memory-leak in kmem_cache_alloc_bulk()
+5a02f7fedd4a556bca67767cd217fcf904574e2f locking: add types.h
+1c77cf3d1fbbb8793a5152b21fe4addf9f7a2e3d net: use task_struct instead of CPU number as the queue owner on -RT
+2ac846d283d5dcfcaf9061f5cc6ee0c979fd8224 Revert "rt,ntp: Move call to schedule_delayed_work() to helper thread"
+587281ef9f1e9d38a65f7c978d4c5ea57263ba3a Revert "block: blk-mq: Use swait"
+90f717f93ced693d1907ae75326fce8bff3614f8 block: blk-mq: move blk_queue_usage_counter_release() into process context
+ae95460e90fd6020423198f91d77e75ee22d3505 alarmtimer: Prevent live lock in alarm_cancel()
+c62c8d81b5b554fec23154cd3c074fe7c7c78b9e posix-timers: move the rcu head out of the union
+6dd76facab8264c256f6c209441e9d7583d48ac2 locallock: provide {get,put}_locked_ptr() variants
+b7069501034aaa5ea4fae2c478b2ea48e42bdc57 squashfs: make use of local lock in multi_cpu decompressor
+55a742fb795e363711280bac5f8c40bcd5301136 seqlock: provide the same ordering semantics as mainline
+a8b8d264ef4dcd02cc7cbaa3e40d5a1123ac2940 genirq: Do not call cancel_work on old_notify->work on PREEMPT_RT
+e00ae2a8bfa03328db086342389e476dbe06ea1a ptrace: fix ptrace_unfreeze_traced() race with rt-lock
+a006d3c8777c1fb1d1031b647b142ec3a8b124a7 Linux 4.9.312-rt193 REBASE
+04474416538a68dceabc0489435f072207a9fed1 signal: Prevent double-free of user struct
+031611fdf1bb010d288cdc04ef6f0f205ecd83f5 Linux 4.9.319-rt195 REBASE
 
---===============6599259072177278809==--
+--===============4325802746444103311==--
