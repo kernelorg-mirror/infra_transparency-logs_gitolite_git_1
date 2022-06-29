@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3983225849360029211=="
+Content-Type: multipart/mixed; boundary="===============7809110671615214818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 29 Jun 2022 16:23:24 -0000
-Message-Id: <165651980476.31870.5567453295837116217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 29 Jun 2022 16:23:40 -0000
+Message-Id: <165651982007.32053.6389860384851075106@gitolite.kernel.org>
 
---===============3983225849360029211==
+--===============7809110671615214818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 7ed186642e6218671e27e2a36c86a70c1fba9ef9
-    new: fc34ece41f7183d522d15dc4189d8df6e8e23737
-    log: revlist-7ed186642e62-fc34ece41f71.txt
+  - ref: refs/heads/for-linus
+    old: 06aacb23cf770bfd42770842a99d67c69f9bd41e
+    new: 1a3dd80cbeb49fb60639c9aefab7c73898e81f7b
+    log: |
+         1a3dd80cbeb49fb60639c9aefab7c73898e81f7b Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 35daea6153525f51d2c91a5b5a7f0f5558c6abd1
+    new: 79b204da5f2ede7fa4f982a5fba013b0060698d4
+    log: revlist-35daea615352-79b204da5f2e.txt
 
---===============3983225849360029211==
+--===============7809110671615214818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1656519801 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1656519801-3b48aa43172b5af80c37d28cb401afa5dbbff990
-
-7ed186642e6218671e27e2a36c86a70c1fba9ef9 fc34ece41f7183d522d15dc4189d8df6e8e23737 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8fHkACgkQJNaLcl1U
-h9CzMAf/QGBxZJGvThB6EZ5kH/cIdamj3FPOX9p9G4zxh+1SuilmK8woQme6y+0a
-JAXSQevOc2xaBLNYKOipMR/yO4TqOcV9HIkTwJq8iy8LJ4bgb0ogoNEr1HOD4mIH
-uo9wMq0v0ZEQ0x7WttaNeWhD10BLuAAMFua293i3bzcOd423Wv18DKQSI62BfJaw
-MXiAl917EIC0jq/RuUHEvXmhXU9ld2exEhnwOpwTa0IK7tjU/WTY3baIE43uC7US
-0eu1dac8/jCaPNcO5l8ZLjzuhsZfV6D3L/fXVXv89GY0sXAZ86JtcmypAa8n8aJ+
-qmk3ZE1Wou6JcwPRWJIw8lbvaUqavQ==
-=YiV/
------END PGP SIGNATURE-----
-
---===============3983225849360029211==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ed186642e62-fc34ece41f71.txt
+Content-Disposition: attachment; filename=revlist-35daea615352-79b204da5f2e.txt
 
 1c348f748b4dd7711c5564a8fce0842529498dff ASoC: soc-component: Add legacy_dai_naming flag
 ca68202098a4416501cc9b5d68a54de22d754766 soundwire: intel: Migrate to new style legacy DAI naming flag
@@ -148,5 +129,7 @@ c06fb318493a059ac2c47937761d048f9ab1b542 ASoC: tscs42xx: Remove now redundant no
 4a7a283a41dad608ce32c4ed623cc2caf68150c4 ASoC: zl38060: Remove now redundant non_legacy_dai_naming flag
 01936221278c5af60d82b8e78ca74caa491c0d31 ASoC: soc-component: Remove non_legacy_dai_naming flag
 fc34ece41f7183d522d15dc4189d8df6e8e23737 ASoC: Refactor non_legacy_dai_naming flag
+1a3dd80cbeb49fb60639c9aefab7c73898e81f7b Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+79b204da5f2ede7fa4f982a5fba013b0060698d4 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============3983225849360029211==--
+--===============7809110671615214818==--
