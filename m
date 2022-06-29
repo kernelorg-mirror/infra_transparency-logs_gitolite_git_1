@@ -1,28 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 29 Jun 2022 15:50:04 -0000
-Message-Id: <165651780434.10167.15000571381200766498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 29 Jun 2022 15:50:32 -0000
+Message-Id: <165651783277.10420.14181758843641081567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/for-5.20/block
-    old: b9a1c179bdfa133d28ab8b7d30631b0accdc2057
-    new: 22d0c4080fe49299640d9d6c43154c49794c2825
-    log: |
-         6a27d28c81bc5843de2490688a04ee5baa6615e7 block: move ->ia_ranges from the request_queue to the gendisk
-         22d0c4080fe49299640d9d6c43154c49794c2825 block: simplify disk_set_independent_access_ranges
-         
   - ref: refs/heads/for-next
-    old: e0f639e05406ad8731fc31b29a428cf4369ddbd7
-    new: a79d581929a9b84638aaba78abe1f289e2f53a03
+    old: f94e08b602d45ec8ea69fb0aa1c85b712a6a4558
+    new: 8944c6fb8add384154b784a90ceca88a51a8c364
     log: |
-         6a27d28c81bc5843de2490688a04ee5baa6615e7 block: move ->ia_ranges from the request_queue to the gendisk
-         22d0c4080fe49299640d9d6c43154c49794c2825 block: simplify disk_set_independent_access_ranges
-         a79d581929a9b84638aaba78abe1f289e2f53a03 Merge branch 'for-5.20/block' into for-next
+         7be3bd8856fba99f8b25b9c223250e42292c312e xfs: empty xattr leaf header blocks are not corruption
+         e53bcffad0326c1ef4b4baec4262b5343e420c44 xfs: don't hold xattr leaf buffers across transaction rolls
+         8944c6fb8add384154b784a90ceca88a51a8c364 xfs: dont treat rt extents beyond EOF as eofblocks to be cleared
          
+  - ref: refs/heads/xfs-5.19-fixes
+    old: f94e08b602d45ec8ea69fb0aa1c85b712a6a4558
+    new: 8944c6fb8add384154b784a90ceca88a51a8c364
+    log: |
+         7be3bd8856fba99f8b25b9c223250e42292c312e xfs: empty xattr leaf header blocks are not corruption
+         e53bcffad0326c1ef4b4baec4262b5343e420c44 xfs: don't hold xattr leaf buffers across transaction rolls
+         8944c6fb8add384154b784a90ceca88a51a8c364 xfs: dont treat rt extents beyond EOF as eofblocks to be cleared
+         
+  - ref: refs/tags/xfs-5.19-fixes-3
+    old: 0000000000000000000000000000000000000000
+    new: 7563903d05a6961d7c51add3e3966fed24cb3845
