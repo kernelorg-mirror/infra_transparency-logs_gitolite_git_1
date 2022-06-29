@@ -1,54 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7557590286139005014=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 29 Jun 2022 14:43:37 -0000
-Message-Id: <165651381711.30652.1539104356066379757@gitolite.kernel.org>
-
---===============7557590286139005014==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 29 Jun 2022 14:43:49 -0000
+Message-Id: <165651382900.30804.17468659019978219464@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.20
-    old: 3f977c574dfd344bea562e9d28a17de90c46e95a
-    new: 0dbc49476ac7226130c79119f3f0d88e964880c0
+  - ref: refs/heads/for-linus
+    old: f34355f4bbb9153a8ca2b2bc0fced0140d5795d8
+    new: 06aacb23cf770bfd42770842a99d67c69f9bd41e
     log: |
-         ffb7bcd3b27e86fa7bdbabf4488060064ec9d00d spi: s3c64xx: support loopback mode
-         bfcd27dcb7b93bd1f3b89d03d8b90207876d635f spi: s3c64xx: support custom value of internal clock divider
-         11d50d853dceb2df8d28bf772d3e928c1c5b137a spi: s3c64xx: add spi port configuration for Exynos Auto v9 SoC
-         9dbeef8ad5f8e7d2cab7b888853b4abe9db87ffd spi: s3c64xx: define exynosautov9 compatible
-         0dbc49476ac7226130c79119f3f0d88e964880c0 spi support for Exynos Auto v9 SoC
+         06aacb23cf770bfd42770842a99d67c69f9bd41e Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
          
-
---===============7557590286139005014==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1656513815 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1656513815-be097d2cc8428945722562632b0d0ea958cd8dc3
-
-3f977c574dfd344bea562e9d28a17de90c46e95a 0dbc49476ac7226130c79119f3f0d88e964880c0 refs/heads/spi-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK8ZRcACgkQJNaLcl1U
-h9B3awf+Kxzw95wVtvvTV6bMx9ZEyQyBmU5GV2jWcltasznCWEUcXUiRU0xukzuf
-kcNfHUGlCLtTKInz5yVDM/fJleXhI5SlJFZb6o6OYshraWlXUiJV2ofVpt82fHUh
-vbVFl59WxmKHyNXhwp8VlsJpPSQZ/vFd87JF9sxiVKdL6pt/Kp5BCCe0Vs++eD8L
-TMUgSWg/9yH/QzNM1o/SKrMul2DzHAZZZfdIqnitkI3aDzGKj4D2Em0y4L7r18nd
-DxbROP+bjf+dp5alW3bzBYOzG0gaolDLqbw+AzYVu2yjuRZWM4TeDV/lExf/84dk
-zDDgNVZWdxX3LM0FndSjp3Dk91jOtg==
-=3ryR
------END PGP SIGNATURE-----
-
---===============7557590286139005014==--
+  - ref: refs/heads/for-next
+    old: 520eff02fb5847aa8057ca1d542c9d3cf1f40d49
+    new: 35daea6153525f51d2c91a5b5a7f0f5558c6abd1
+    log: |
+         16e2f8a4e9d5e4c7653ee774d9377d602070b16e ASoC: dt-bindings: Add WSA883x bindings
+         43b8c7dc85a14f36048a27bb6c627fd49144a8d1 ASoC: codecs: add wsa883x amplifier support
+         a7b028e4252bc1e8b5646657fd45a68792826c23 MAINTAINERS: add ASoC Qualcomm codecs
+         7ed186642e6218671e27e2a36c86a70c1fba9ef9 ASoC: codecs: add WSA883x support
+         06aacb23cf770bfd42770842a99d67c69f9bd41e Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         35daea6153525f51d2c91a5b5a7f0f5558c6abd1 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
+         
