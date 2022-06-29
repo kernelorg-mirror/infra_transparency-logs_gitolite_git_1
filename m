@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 29 Jun 2022 18:11:57 -0000
-Message-Id: <165652631737.7593.4427887847760419424@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8212336072526153830=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
+Date: Wed, 29 Jun 2022 18:26:53 -0000
+Message-Id: <165652721341.18015.11925198343730126724@gitolite.kernel.org>
+
+--===============8212336072526153830==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+user: jkirsher
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 28812d5e8dafcac4d43f3fff144737f6338b57cc
-    new: c3f9bbf32bb1f4d992f3e5c2f0af83b7cab55411
-    log: |
-         dd5e555400305bcc9bf1f063d7206656c4c68e96 Documentation: ACPI: Update links and references to DSD related docs
-         5ac3ff9dc47cd1dd724f2625ce299461a5815e3f Merge branch 'acpi-docs' into bleeding-edge
-         4b7ef7b05afcde44142225c184bf43a0cd9e2178 ACPI: PM: save NVS memory for Lenovo G40-45
-         bfed9965c48880f108d5840ea36eee27697d8631 Merge branch 'acpi-pm' into bleeding-edge
-         c3481b6b75b4797657838f44028fd28226ab48e0 ACPI: APEI: Better fix to avoid spamming the console with old error logs
-         c3f9bbf32bb1f4d992f3e5c2f0af83b7cab55411 Merge branch 'acpi-apei' into bleeding-edge
-         
+  - ref: refs/heads/master
+    old: ab84db251c04d38b8dc7ee86e13d4050bedb1c88
+    new: 9577fc5fdc8b07b891709af6453545db405e24ad
+    log: revlist-ab84db251c04-9577fc5fdc8b.txt
+
+--===============8212336072526153830==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ab84db251c04-9577fc5fdc8b.txt
+
+0c1f78a49af721490a5ad70b73e8b4d382465dae mptcp: fix error mibs accounting
+31bf11de146c3f8892093ff39f8f9b3069d6a852 mptcp: introduce MAPPING_BAD_CSUM
+76a13b315709b5b65a7b65caf9ede9a8a38d8930 mptcp: invoke MP_FAIL response when needed
+d51991e2e31477853e5b9c1005ac617707077286 mptcp: fix shutdown vs fallback race
+f745a3ebdfb9041d3a55e66eb345895cd8ecc90c mptcp: consistent map handling on failure
+6aeed9045071f2252ff4e98fc13d1e304f33e5b0 mptcp: fix race on unaccepted mptcp sockets
+42fb6cddec3b306c9f6ef136b6438e0de1836431 selftests: mptcp: more stable diag tests
+06e445f740c1a0fe5d16b3dff8a4ef18e124e54e mptcp: fix conflict with <netinet/in.h>
+fd37c2ecb21f7aee04ccca5f561469f07d00063c selftests: mptcp: Initialize variables to quiet gcc 12 warnings
+bce3bb30b266a12fa32d4f08bdaf59a03887f802 Merge branch 'mptcp-fixes-for-5-19'
+adabdd8f6acabc0c3fdbba2e7f5a2edd9c5ef22d ipv6/sit: fix ipip6_tunnel_get_prl return value
+53ad46169fe2996fe1b623ba6c9c4fa33847876f net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+5a478a653b4cca148d5c89832f007ec0809d7e6d nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+00aff3590fc0a73bddd3b743863c14e76fd35c0c net: tipc: fix possible refcount leak in tipc_sk_create()
+eddd95b9423946aaacb55cac6a9b2cea8ab944fc NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+9577fc5fdc8b07b891709af6453545db405e24ad NFC: nxp-nci: don't print header length mismatch on i2c error
+
+--===============8212336072526153830==--
