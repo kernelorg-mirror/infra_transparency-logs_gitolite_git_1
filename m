@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0323381479078274950=="
+Content-Type: multipart/mixed; boundary="===============7752794961065441622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 30 Jun 2022 17:10:48 -0000
-Message-Id: <165660904838.18553.10816453725947305222@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 17:13:56 -0000
+Message-Id: <165660923678.20956.482014205823573087@gitolite.kernel.org>
 
---===============0323381479078274950==
+--===============7752794961065441622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/iomap-for-next
-    old: e9c3a8e820ed0eeb2be05072f29f80d1b79f053b
-    new: f8189d5d5fbf082786fb91c549f5127f23daec09
-    log: revlist-e9c3a8e820ed-f8189d5d5fbf.txt
-  - ref: refs/heads/iomap-5.20-merge
-    old: 0000000000000000000000000000000000000000
-    new: f8189d5d5fbf082786fb91c549f5127f23daec09
-  - ref: refs/tags/iomap-5.20-merge-1
-    old: 0000000000000000000000000000000000000000
-    new: 1f74fe0917feaf962a359dd5db4c1c0025ea955b
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
+  - ref: refs/heads/whatamess
+    old: 62e38550da29f7506ac05e3b46535ba51f525ed6
+    new: 5ac23ac20156db5427799d4a11afb0ed4dce1532
+    log: revlist-62e38550da29-5ac23ac20156.txt
 
---===============0323381479078274950==
+--===============7752794961065441622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9c3a8e820ed-f8189d5d5fbf.txt
+Content-Disposition: attachment; filename=revlist-62e38550da29-5ac23ac20156.txt
 
-c36ee7dab7749f7be21f7a72392744490b2a9a2b cifs: fix reconnect on smb3 mount types
-2130a790ca49763f724ec45cf93b9dd765e2023e kernel: add platform_has() infrastructure
-5b7419ae1d208cab1e2826d473d8dab045aa75c7 staging: r8188eu: fix rtw_alloc_hwxmits error detection for now
-96f0a54e8e65a765b3a4ad4b53751581f23279f3 staging: r8188eu: Fix warning of array overflow in ioctl_linux.c
-3f9dfbebdc48cebfbda738f6f3d1dbf6d7232f90 virtio: replace arch_has_restricted_virtio_memory_access()
-9bf22421dc8a69cade3c994771637e9693ff0216 arm/xen: Introduce xen_setup_dma_ops()
-02a9e681a3f7998074f39ec265080bf934871530 xen/grants: support allocating consecutive grants
-d6aca3504c7ded5f4f46957e3685b9344d9743dd xen/grant-dma-ops: Add option to restrict memory access under Xen
-2aab03b86766a27f99a0b24f63e1730faac128d0 fs: Fix syntax errors in comments
-10e14073107dd0b6d97d9516a02845a8e501c2c9 writeback: Fix inode->i_io_list not be protected by inode->i_lock error
 85743a847caeab696dafc4ce1a7e1e2b7e29a0f6 ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo Yoga DuetITL 2021
 537e11cdc7a6b3ce94fa25ed41306193df9677b7 quota: Prevent memory allocation recursion while holding dq_lock
 f84d83d8165570380f55f4ce578bfb131a9266c5 arm64: dts: exynos: Correct UART clocks on Exynos7885
@@ -986,6 +964,8 @@ fa1796a835fc24eb8fb5d794512ec299dcd9f3fd Merge tag 'trace-v5.19-rc1' of git://gi
 ba461afbef604f58e05676ca38c2a599f073f296 Merge tag 'random-5.19-rc4-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 92f20ff72066d8d7e2ffb655c2236259ac9d1c5d Merge tag 'pm-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c7e1c443584ddd7facffca00e9e23b0d084e5bb3 gpio: Fix kernel-doc comments to nested union
+7cf2b0f9611b9971d663e1fc3206eeda3b902922 xfs: bound maximum wait time for inodegc work
+5e672cd69f0a534a445df4372141fd0d1d00901d xfs: introduce xfs_inodegc_push()
 b0d473185ba887c798ed0cd6f5abf4075363baa4 gpio: mxs: Fix header comment
 382cf35f2508ddf444f4d5af33c5860620add29a Merge tag 'amd-drm-fixes-5.19-2022-06-22' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 0a86b0db38d848e5e3928707cca55ed664a53eb4 Merge tag 'drm-misc-fixes-2022-06-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
@@ -1059,8 +1039,16 @@ c898c67db6d7de1b1e7970cd16c45eaa46bd231b Merge tag 'dma-mapping-5.19-2022-06-26'
 413c1f14919b3efee05eb79d2e913663e964abda Merge tag 'mm-hotfixes-stable-2022-06-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 1709b887397cb371ed149560a48d24b232c53ccd Merge tag 'soc-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 03c765b0e3b4cb5063276b086c76f7a612856a9a Linux 5.19-rc4
+ca76a761ea2497a250988fd67f12fd93524e611e xfs: factor out the common lock flags assert
+82af88063961da9425924d9aec3fb67a4ebade3e xfs: use invalidate_lock to check the state of mmap_lock
+b822ea17fd15659b92cb86c48d018c9e43d0fd98 xfs: always free xattri_leaf_bp when cancelling a deferred op
+f94e08b602d45ec8ea69fb0aa1c85b712a6a4558 xfs: clean up the end of xfs_attri_item_recover
+7be3bd8856fba99f8b25b9c223250e42292c312e xfs: empty xattr leaf header blocks are not corruption
+e53bcffad0326c1ef4b4baec4262b5343e420c44 xfs: don't hold xattr leaf buffers across transaction rolls
+8944c6fb8add384154b784a90ceca88a51a8c364 xfs: dont treat rt extents beyond EOF as eofblocks to be cleared
 d58562ca6c992fc5577838d010c8a37401c2a831 iomap: skip pages past eof in iomap_do_writepage()
 98eb8d95025bd96d78fa4d27fb9e1e8d162c7227 iomap: set did_zero to true when zeroing successfully
 f8189d5d5fbf082786fb91c549f5127f23daec09 dax: set did_zero to true when zeroing successfully
+5ac23ac20156db5427799d4a11afb0ed4dce1532 Merged korg/for-next at Thu Jun 30 10:13:41 PDT 2022.
 
---===============0323381479078274950==--
+--===============7752794961065441622==--
