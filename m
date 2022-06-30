@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Jun 2022 03:50:37 -0000
-Message-Id: <165656103722.13634.8103738045500295162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Jun 2022 03:56:30 -0000
+Message-Id: <165656139069.17054.11389675971541976844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: e65af5403e462ccd7dff6a045a886c64da598c2e
-    new: 4e43e64d0f1332fcc503babad4dc31aead7131ca
+    old: 2a832912dba29f30f8df58b682ab0535c89682b5
+    new: 74fd304f2395e574a21cd06912f860771c82ee88
     log: |
-         1758bde2e4aa5ff188d53e7d9d388bbb7e12eebb net: phy: Don't trigger state machine while in suspend
-         fa152f626b24ec2ca3489100d8c5c0a0bce4e2ef net: phy: ax88772a: fix lost pause advertisement configuration
-         4e43e64d0f1332fcc503babad4dc31aead7131ca ipv6: fix lockdep splat in in6_dump_addrs()
+         3eb4a4c3442c0642feaf466ecf6fe3cfb4af2c43 net: switchdev: add reminder near struct switchdev_notifier_fdb_info
+         74fd304f2395e574a21cd06912f860771c82ee88 ipv6: remove redundant store to value after addition
          
