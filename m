@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0295212966917313167=="
+Content-Type: multipart/mixed; boundary="===============7283456271412610301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 30 Jun 2022 15:09:00 -0000
-Message-Id: <165660174018.542.1816774654691590727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 30 Jun 2022 15:09:40 -0000
+Message-Id: <165660178008.860.7991493186428251746@gitolite.kernel.org>
 
---===============0295212966917313167==
+--===============7283456271412610301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: f287f971e2569827fe9fb3a8d55a37703a13cf29
-    new: 9636047ffafcf5988946c05f0ebd7e0b2114aa74
+  - ref: refs/heads/for-5.20
+    old: 53447365ccb442bbd3dfffc2d7fd96203770dfb6
+    new: f3762ddfa24068cf67bc395cb80a7928306ad1ef
     log: |
-         9636047ffafcf5988946c05f0ebd7e0b2114aa74 tty: serial: samsung_tty: support more than 4 uart ports
+         586fb2641371cf7f23a401ab1c79b17e3ec457f4 ASoC: soc-core.c: fixup snd_soc_of_get_dai_link_cpus()
+         9cc69528188a4e3eb24370f6c05a92791ac249ba ASoC: soc-core.c: share code for snd_soc_of_get_dai_link_cpus/codecs()
+         cdb09e6231433b65e31c40fbe298099db6513a7f ASoC: codecs: wsa883x: add control, dapm widgets and map
+         871325d800ed532ba5874257f04bb4ae75125bc4 ASoC: samsung: change neo1973_audio from a global to static
+         e8010efc7b83038d1c18abe1b8d171e3c7d4ed92 ASoC: wm_adsp: Minor clean and redundant code removal
+         d8d6253b36f55d199590ef908712fe52bb39ee97 ASoC: tegra: delete a semicolon
+         f3762ddfa24068cf67bc395cb80a7928306ad1ef ASoC: soc-core.c: fixup snd_soc_of_get_dai_link_cpus()
          
 
---===============0295212966917313167==
+--===============7283456271412610301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656601738 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1656601738-86fe97da83bebfd09170c1d128e52724ef2718b8
+pusher C3F436CA30F5D8EB 1656601778 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1656601777-6ce496378f97bfe48c5cfb46fd2dfa9d0ab291ad
 
-f287f971e2569827fe9fb3a8d55a37703a13cf29 9636047ffafcf5988946c05f0ebd7e0b2114aa74 refs/heads/tty-testing
+53447365ccb442bbd3dfffc2d7fd96203770dfb6 f3762ddfa24068cf67bc395cb80a7928306ad1ef refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK9vIobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v2cP/1m02HLoWEnLkygC/2Bc
-nVjCjURGUg+/nyWKBh6YXmpwkWexiIFena18LijsosPxYJ5XeEYzYIXZ3m7OYNya
-buid9+jb43DM94apDqkvKvOOL/duR0I7ghfDa6KDs/E/4WOGVaw1deVoVgX394Qv
-11xCFefPdTTZDVIUfftfyt2VaYW3Ai3fXkWWNFAS5feD+CWQNZ1SMUEC0QgPkUmd
-Y2rrrPzdCERGE2cIqcSea9unffHtPJRyY6jcVb1cT7BloJGa6M/GdTKmBFKe4Umv
-M6Gtf77MesjpHAxIKKY/PWl+Q0muWhWuBIIrgIr+fxzwzcjSypjqoae+FFZzAe0q
-Qd17e/ipv2zXCjoBqJFxkmem4aphyphR/xaIt6iwKR/Ad6qCqxzdH3We+zxCZSI9
-CAHjc1ek049ot1XLH35Rj2PUp0XVVOMwOJ0X55Bjs35tU7qwCYXx3oIa+rLeS6yV
-BNQ5jeDctaiPfQqkzL/c1C0VTBCog8pm+ND9RcD9NSPLo7uNz2FELcTJR9AgBz00
-Q4ptg4GCAxMuoBA2oaNtjMxWyoCy0cYy9ZXBcVS4UAZ+VoKw12ymNieLOnct13d+
-aII/Cx58QC6xEK65oGMVXjq0POWgikbWjiJBcbjrmyxNe9zGNa/er4H+13ESc1ng
-Cw/4uxA6ZIsiZ4GdTUKAzCGC
-=BZso
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK9vLIACgkQJNaLcl1U
+h9AebQf9Hh5agplFUBzctNPnF5Fo4QBesdzeDBa6ZI9V+CoruMk3UmZp9QQHsfd0
+h2qR7jxhMFBn25cInKsry4z6HbQ0InEaCVD22xx3Yq0Wlrnyf6raA2qIlqPZVDoa
+TGYHFuQ7pxtyAKNqupAYn1wL45xmDMyv749yMp8M5rC4BpyO6Ugc4hQWDG4vjv3c
+/AU94ZN0vzxt2Hh5vlVYd4+GrDhBkg1PvkKI9Ce1kxGiYHcUoeXzxT67a9ZIoH6t
+zkOJPCb3VsINEaaE347FoRROlowYxJDRLRom3tU0S4QGgnjpYV8SQWWDtbug2RoA
+7H6yoZb3dpGjsMXzcFBOMXpPfnut2g==
+=tFhB
 -----END PGP SIGNATURE-----
 
---===============0295212966917313167==--
+--===============7283456271412610301==--
