@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1826733651240275961=="
+Content-Type: multipart/mixed; boundary="===============4325728788373323055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 30 Jun 2022 13:32:36 -0000
-Message-Id: <165659595646.805.2188942982260528237@gitolite.kernel.org>
+Message-Id: <165659595673.834.6621784731111274278@gitolite.kernel.org>
 
---===============1826733651240275961==
+--===============4325728788373323055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 4ffa4be5a14beeb008bd2b4fbc681222bfec90c7
-    new: 32e4012394718d2eabab7e19b3c5787f5d3cd368
-    log: revlist-4ffa4be5a14b-32e401239471.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 9ef3ad40a81ff6b8b65ed870588b230f38812f2a
+    new: 9e421f18b3874909b6cc412c2b93d30ed881c3c8
+    log: revlist-9ef3ad40a81f-9e421f18b387.txt
 
---===============1826733651240275961==
+--===============4325728788373323055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,60 +32,47 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656595955 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1656595952-84431429d96548e49848f50516bff2d96e9156f0
 
-4ffa4be5a14beeb008bd2b4fbc681222bfec90c7 32e4012394718d2eabab7e19b3c5787f5d3cd368 refs/heads/linux-4.9.y
+9ef3ad40a81ff6b8b65ed870588b230f38812f2a 9e421f18b3874909b6cc412c2b93d30ed881c3c8 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK9pfMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1N8P/RMtAdvqxq1TIiRCap11
-BgXYFBOpS5q+/Mpl7Jj523Hx1tHbyTSpHKDGjMPAXjV1Sh5XdNc/+92aAxTVlmox
-raWd8txx1gCr6yLTa7buRRpRSP6IcDe0A7+QBVk2UuBFl3lLstK+Ay+6NQ2v2E7E
-G29FbafYZvJEc5K2qmmOZobMC5+YpfujiyGeeXFgZLNxcVkZx7AOPDCO4W3V0s6O
-ctL95I4pmqqqZUE6QZP8qZwV+DkSjGRYHrGnu/JazO8ZYe5I33O6y29j2vIwhZZR
-+9adNqOVjpoCUqk93b5X1A5pK9l9tVpQ91lgDw1QnBfUn3gcCft1+GR35dBeBndT
-SHzCUvBGGOFg79xpoCvywPSe3UTfmMdWrNn4Tepae5lhIBBTmnf4gk6W5Sb/ti1C
-gGJDXLNeRa6OmFiNpGjqfceDJ/fObGFgsXQetHKCntpYsJm52+bXO7rvbcViQLt4
-7+2SE6un5AClAXfhZ5U8EbbRIQJSLgOSJWOvSQtYbms/AH4UYj6n4mbR9wMAv4lm
-rP2Ze7rIFUF4lL321dH3QJoDbCxIRKzVht0kR4tSrvgP+8jOq8pO3NgDvQu8arrJ
-XuO+ZGbHSvYtkHA+b5/+PWIn3+8ihkJpFypZfTChB+YPsXZ2VYz3EYHVAaVQ0tLD
-cVxXkBPYgLWlfkp/PsSihOoZ
-=MrS6
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+624QALnL4JPTWUJyaHOSzHnO
+yJvulF6UgknvSs+t0rFzJPwdf1yebvhPNbR3QdJQ46wUJMHASTJiadshLvhNExUS
+bxjEmh52Bh9GHqvGx6DO854qZCJH33/qHiqKuc5mWYOGV2XficfKEPjUL8Pv89Hk
+mxbJmuk6Q114ksMy3FzJCKD0sMlq7QMuAMYhmsNAT74yS1mJmPYN2bHGbgxfjulY
+vDEZ3oLUNIjO+yMVozDg3KlVs7C+tdrZfdHV0GvVECt/hOJRFN880WXRgar23swU
+q1iVAVRdKkRxrUmfH7ii2M/1MDYy9cBg6Qb94RMeQedfi5O93rZs7uqBj9m4drl5
+3hYUwMGBXlnkE0MdBU92Fy3pY5h5TUnf/j2L1pAoG1DYoCs3BqIBiUK17GgIeRnY
+KNyOmEdIuE5i8ASpWz1zRT3Lvm1KyzAHIGunGN6VnuRssbDVAbDG970K90lGcrIm
+Y4RSTHK9gztLDqxB1Y1KTk1byc7fApCwdBhdyA46I7KqUFazZ1Fa15CQHANKRRBc
+3NUdhHQv2xvr/tNKrrPWDOnkEjlbXY8SWMdgdheD5SmZmVnNXF+zAMuVqHIpf90g
+W88j9q6RqyqvZVD6g5syN555DlokaOD3yV5G73X4geS41saUr+Xvj0QPRNtOmpQ9
+a8cZbWcTH+ITUpzjg3PqAupl
+=35k3
 -----END PGP SIGNATURE-----
 
---===============1826733651240275961==
+--===============4325728788373323055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ffa4be5a14b-32e401239471.txt
+Content-Disposition: attachment; filename=revlist-9ef3ad40a81f-9e421f18b387.txt
 
-1bc37d125fa3c806813955d041367a0daa3e3bf1 vt: drop old FONT ioctls
-ab21f3ff45499297aaedbbbc7b36dfdad2ff21bc random: schedule mix_interrupt_randomness() less often
-9c3393f73e2578a7992e261ed31a77acef1efe97 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-ea066dce0ed53cf1c426e0beec611bbff007ba30 dm era: commit metadata in postsuspend after worker stops
-67a17453b3a2b82d711ab3bc77209b96da1f687b random: quiet urandom warning ratelimit suppression message
-c782068077026f98e1e1ed51840486cbf5130636 USB: serial: option: add Telit LE910Cx 0x1250 composition
-4f60b9968f5c996c415149569aa17fe7ee60e788 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
-823dec02d9de7c866b266be036a752a86fc61a52 x86/xen: Remove undefined behavior in setup_features()
-3b53f685b16b66681d5daf49263b9c5d8045591d MIPS: Remove repetitive increase irq_err_count
-a8dee2bd548b2adf2bd7b87d1450dacaf910a7ab igb: Make DMA faster when CPU is active on the PCIe link
-be1dec031cf7df9154d1331a2974c8827b2b3f9d iio: adc: vf610: fix conversion mode sysfs node name
-eb7b51682a63aaa9bbc5812036a71b33613aa385 usb: chipidea: udc: check request status before setting device address
-54c3e3e26a3cfce02865e4bb5957a8b7ada76011 iio:accel:bma180: rearrange iio trigger get and register
-6eca3524e6d0c3dbe3b1e20bf5910283a3bde3a9 iio: accel: mma8452: ignore the return value of reset operation
-1ff8ac43be0f5f5bb28fe2d7ff8a2cc5352467f6 iio: trigger: sysfs: fix use-after-free on remove
-ee6fde24bbee73eb7e1141348f107b998f0d9699 xtensa: xtfpga: Fix refcount leak bug in setup
-aaa82455f6fd52d4eadbc2e608a57c66882616cb xtensa: Fix refcount leak bug in time.c
-bf5149036359357582fe9896e029a9bbfbc3e543 powerpc: Enable execve syscall exit tracepoint
-e8d0693eb93317f35b9f581402ccb9f9c8c6daa5 ARM: dts: imx6qdl: correct PU regulator ramp delay
-69ceb7fec3d7b4321290ea336eca679cb562cd0f ARM: exynos: Fix refcount leak in exynos_map_pmu
-4f89cc2b0744d045c2c6aac2dd3d6b147e2a6ec8 ARM: Fix refcount leak in axxia_boot_secondary
-df7b39492bad57cbd667aff5fbd852c402687481 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
-11f921b37e911430cf09f5dfa5209a4a68e0b115 modpost: fix section mismatch check for exported init/exit sections
-8def738a342968ba2e997172a28f118059889c51 powerpc/pseries: wire up rng during setup_arch()
-03f9c07fec4050b71f7398759e28da2ae32d4bf2 drm: remove drm_fb_helper_modinit
-dd157863bfcdcf0a8a2e84623559e0a2aefe81ec xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
-e552355658d20dd56f0bc48f9d9e163204287d06 fdt: Update CRC check for rng-seed
-c7bcc06210d76eaa4eab599106aa1d54e118a4e5 kexec_file: drop weak attribute from arch_kexec_apply_relocations[_add]
-829f812d6a1fd28fa836b58cd1b800553fb745a5 swiotlb: skip swiotlb_bounce when orig_addr is zero
-32e4012394718d2eabab7e19b3c5787f5d3cd368 Linux 4.9.321-rc1
+19ced6ffaeb384db93ba1f1ed74102f611890a3c drm: remove drm_fb_helper_modinit
+0e07b72e18508b8a05f2f9657171f5a0928a7f68 clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
+f9ff2b1e33922c92a300ef94b7a3c6d9d88a7fce powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
+83f10ed92e23ff75939c4b4923954d8446a1f381 kexec_file: drop weak attribute from arch_kexec_apply_relocations[_add]
+54316b7d0717482fde0056e40e7350d8f0fbb314 net: mscc: ocelot: allow unregistered IP multicast flooding
+ef46f6de5343e6d10dc57b9d89dc05d14784a10b ARM: 8989/1: use .fpu assembler directives instead of assembler arguments
+b00a919be47c2108af185cd36eaf92ac741e1b92 ARM: 8990/1: use VFP assembler mnemonics in register load/store macros
+d94d657241c92ef9bc5304ce16b6155626a4e1fa ARM: 8971/1: replace the sole use of a symbol with its definition
+74a232816d2479f4794a8d8b5ca1d8c563706920 crypto: arm/sha256-neon - avoid ADRL pseudo instruction
+d6ae1c11e1bb929c790e48775621187e387335d6 crypto: arm/sha512-neon - avoid ADRL pseudo instruction
+f176dde85faabe47d21d919a787045b23582f0b3 ARM: 8933/1: replace Sun/Solaris style flag on section directive
+7aa15dcd3c3ffbe7584a3175cb97f7bc49398192 ARM: 8929/1: use APSR_nzcv instead of r15 as mrc operand
+0fcb145d30727084ea4acbf94f20edad73c22066 ARM: OMAP2+: drop unnecessary adrl
+2c166085a5c12cfe5b22fd6064960535fe12c8e7 ARM: 9029/1: Make iwmmxt.S support Clang's integrated assembler
+57137f4b2f62f6ddd326a66d78b517807f2c72f2 crypto: arm - use Kconfig based compiler checks for crypto opcodes
+f71d0fcc4182d899a7727eb6824268a326d1c9a2 crypto: arm/ghash-ce - define fpu before fpu registers are referenced
+9e421f18b3874909b6cc412c2b93d30ed881c3c8 Linux 5.4.203-rc1
 
---===============1826733651240275961==--
+--===============4325728788373323055==--
