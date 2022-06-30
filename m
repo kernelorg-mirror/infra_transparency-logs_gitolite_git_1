@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 30 Jun 2022 14:17:31 -0000
-Message-Id: <165659865113.587.5181154022676457544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 30 Jun 2022 14:18:49 -0000
+Message-Id: <165659872978.1064.17176114439405032994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 9816029e9cc3addfac0eaad8d94e777596be1073
-    new: 2ab6630e17140533375793ed5cb1fb093439233b
+  - ref: refs/heads/master
+    old: b0cbd6154a9a3964490cafa0a9444be626271bd9
+    new: 6d304871e3ef4c339c06aa9b4ab55b6c77642884
     log: |
-         c191543e99fc03a36ccf7869392957a7182e0ada spi: spi.c: White-space fix in __spi_pump_messages()
-         95c8222f0e52b09b7607616274e7cae84d519a9b spi: spi.c: Fix comment style
-         31d4c1bdf157421b26d51f61a4da95dd20d171e2 spi: spi.c: Remove redundant else block
-         10365cad180273dee6c5e3b3e29f951ca8e92b53 Fix some coding style issues
-         2ab6630e17140533375793ed5cb1fb093439233b Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         27b3f70553432114b3d26f4d9c72cf02f38b84ee bpftool: Add feature list (prog/map/link/attach types, helpers)
+         6d304871e3ef4c339c06aa9b4ab55b6c77642884 bpftool: Use feature list in bash completion
          
