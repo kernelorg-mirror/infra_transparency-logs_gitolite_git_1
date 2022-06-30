@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Thu, 30 Jun 2022 06:54:24 -0000
-Message-Id: <165657206435.6420.4031847085466793318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 30 Jun 2022 07:04:17 -0000
+Message-Id: <165657265708.12659.12937538088371415146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 86b032eb6841928c998fe4a23092a1a1c4d72ce1
+  - ref: refs/heads/master
+    old: c91217918b3252e24e16abc62b44b6a3e13fe225
+    new: 8cdb31d149fb347d71ed266437eadf8df1ab4eb5
+    log: |
+         8cdb31d149fb347d71ed266437eadf8df1ab4eb5 Add Makalu/Makalu-ELP (A715/X3)
+         
