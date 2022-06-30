@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 30 Jun 2022 16:34:59 -0000
-Message-Id: <165660689953.25419.16126741445182154428@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 16:35:24 -0000
+Message-Id: <165660692491.27094.5962687778864026208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 21e876448792af2dd5261338907c72bdf37fa056
     new: 2b599394e020398e4a1456f9c8d9ba5c9bb86e33
     log: |
