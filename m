@@ -1,33 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 30 Jun 2022 15:09:58 -0000
-Message-Id: <165660179885.1110.8688593395847246907@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8809085222379336872=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 30 Jun 2022 15:10:31 -0000
+Message-Id: <165660183127.2838.11926286307736456118@gitolite.kernel.org>
+
+--===============8809085222379336872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: b543c85e9db2b29e58af97ff4703c914cf4c2a6e
-    new: 63ae4e674719a5a4c826a8b7d1d878af0c7f42ba
+  - ref: refs/heads/tty-testing
+    old: 9636047ffafcf5988946c05f0ebd7e0b2114aa74
+    new: 65e20e8cbbccaf0968474d27420c3a5170a5a5b8
     log: |
-         63ae4e674719a5a4c826a8b7d1d878af0c7f42ba Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         72a43046b61a3fe7164a622224bcdfc3cf6b795d tty: serial: samsung_tty: loopback mode support
+         137b2d985928890557f8e73cf7e53677637b7af8 serial: 8250_port: Fix spelling mistake
+         b9491b2e45d71eb64245560e208897af95ffbf95 serial: 8250_dw: Take port lock while accessing LSR
+         65e20e8cbbccaf0968474d27420c3a5170a5a5b8 earlycon: prevent multiple register_console()
          
-  - ref: refs/heads/for-next
-    old: 0910bad93a5b04fbdef5eab09ba3f139a64e71b3
-    new: 020e9073784f4d49ce0e3023b0b1b9cc600a6992
-    log: |
-         586fb2641371cf7f23a401ab1c79b17e3ec457f4 ASoC: soc-core.c: fixup snd_soc_of_get_dai_link_cpus()
-         9cc69528188a4e3eb24370f6c05a92791ac249ba ASoC: soc-core.c: share code for snd_soc_of_get_dai_link_cpus/codecs()
-         cdb09e6231433b65e31c40fbe298099db6513a7f ASoC: codecs: wsa883x: add control, dapm widgets and map
-         871325d800ed532ba5874257f04bb4ae75125bc4 ASoC: samsung: change neo1973_audio from a global to static
-         e8010efc7b83038d1c18abe1b8d171e3c7d4ed92 ASoC: wm_adsp: Minor clean and redundant code removal
-         d8d6253b36f55d199590ef908712fe52bb39ee97 ASoC: tegra: delete a semicolon
-         f3762ddfa24068cf67bc395cb80a7928306ad1ef ASoC: soc-core.c: fixup snd_soc_of_get_dai_link_cpus()
-         63ae4e674719a5a4c826a8b7d1d878af0c7f42ba Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         020e9073784f4d49ce0e3023b0b1b9cc600a6992 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
-         
+
+--===============8809085222379336872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656601829 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1656601828-5e86a0117f2591a2f8f050251c32d80f5f7c3546
+
+9636047ffafcf5988946c05f0ebd7e0b2114aa74 65e20e8cbbccaf0968474d27420c3a5170a5a5b8 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK9vOUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qVwQAIEXfZRLQ2Y0ogLDKlb/
+7M1vjaXgM3tyoWiZQTg+vrPwkdHjLiaH7a+0XwqUtEKTcQR1yvb2jwYQtl2mDRk9
+mPQEtvmdhMMrlyPh88W+L4vPyq5xQQ/ZkYS4udQtGajPhKzgyL4rm1vQMFhqIJE9
+ARudcPuWMOTPTrdfdu8RCJmeVU+iNGGX+l7kFbt5f0IdRQzrGu/ByRPcNdughUdg
+Hv9S3WdOTow5fV1k+MlAYxDJst2Hd6ZAfiddjUfNkmstIKQOlphKtLZuhIGFVgRa
+WNv1Vtnm1dQrCB+YK/aVXtuEu19GCORfexeacYBrUHB0YD3y3UVubClyKMPs4zLj
+Ka9UWw4GwY5msrRdOWGddJioQcFZJx6NR29orKe3t2dorH79OqZh2hrl84mYxmvl
+DOF8WNAl/U3uNPvUbzVZpQusggZNTXgXa6S/1TlyNSxpK+FFMBJLf9lSJFbyW1UB
+ZuLISdoQQi5XUal/61Huw83r+tsbjZS3lZp8mLLq/MYzOKHQM0Toc0gz8CNGYJ3F
+rDm95qEOEi9pC4hfGrZUM+ziyh4eGqgzRt6GoO69BdHZxBR+kjsvCZJGFDiewlgm
+gdTebNbk9zVSUZv7okFXRi46JRKAotMf/2pjUoM5ZkBH1PDLWNT1KRGIw1OTzs7r
+g6fly5a+LEBo5SLyK++jQnfO
+=zcU2
+-----END PGP SIGNATURE-----
+
+--===============8809085222379336872==--
