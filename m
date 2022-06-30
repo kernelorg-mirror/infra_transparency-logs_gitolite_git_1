@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8795248891948674423=="
+Content-Type: multipart/mixed; boundary="===============4563984432908303231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Jun 2022 21:19:31 -0000
-Message-Id: <165662397126.19746.8541600488233791804@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 21:31:43 -0000
+Message-Id: <165662470373.27962.9990632706635800202@gitolite.kernel.org>
 
---===============8795248891948674423==
+--===============4563984432908303231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: a4da4913a04de89b75ff874e5962deee2b8be177
-    new: afa646299a282c5e621242c2db8c95c0ccb57d0e
-    log: revlist-a4da4913a04d-afa646299a28.txt
+  - ref: refs/heads/1GbE
+    old: 95073d08154a27b1d0a84bcf6210e67c3b4d8c08
+    new: 173e468c717c4f422e3785d6bc95a85c456faece
+    log: revlist-95073d08154a-173e468c717c.txt
 
---===============8795248891948674423==
+--===============4563984432908303231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4da4913a04d-afa646299a28.txt
+Content-Disposition: attachment; filename=revlist-95073d08154a-173e468c717c.txt
 
-f93431c86b631bbca5614c66f966bf3ddb3c2803 ipv6: Fix signed integer overflow in __ip6_append_data
-f638a84afef3dfe10554c51820c16e39a278c915 ipv6: Fix signed integer overflow in l2tp_ip6_sendmsg
-29dec90a0f1d961b93f34f910e9319d8cb23edbd dm: fix bio_set allocation
-d5a37b19983725d2045588cfa3a4699f5b39ae26 block: remove bioset_init_from_src
-a6958951ebe7db60e84b2437ee53aa4843028726 au1000_eth: stop using virt_to_bus()
-ed872f92fd0946ba30f2acd05fc57e29cac29cd2 MAINTAINERS: adjust MELLANOX ETHERNET INNOVA DRIVERS to TLS support removal
-4d995c1b9d49ee657e879745aa5e445f031c0dba Revert "net/mlx5e: Allow relaxed ordering over VFs"
-15ef9efa855cf405fadd78272e1e5d04e09a1cf3 net/mlx5e: CT: Fix cleanup of CT before cleanup of TC ct rules
-3008e6a0049361e731b803c60fe8f3ab44e1d73f net/mlx5: E-Switch, pair only capable devices
-8bf94e6414c9481bfa28269022688ab445d0081d net/mlx5: Rearm the FW tracer after each tracer event
 8fa5e7b20e01042b14f8cd684d2da9b638460c74 net/mlx5: fs, fail conflicting actions
 431d071286524bd4f9ba2e46b1be87b479220174 drm/amdgpu/mes: only invalid/prime icache when finish loading both pipe MES FWs.
 8c4811e7a5a60443139369a623ca504bad9e3675 MAINTAINERS: Update Synopsys DesignWare I2C to Supported
@@ -1045,10 +1035,20 @@ d19b4c52f7c99fdc5198a6f5885ba818245966cd atheros/atl1c:fix repeated words in com
 c381d02b2fd5f82d2207db1b9b25ff60d0d9c27c sysctl: add proc_dointvec_ms_jiffies_minmax
 211da42eaa45db7b0edfde187dd88a85fbd466b5 net, neigh: introduce interval_probe_time_ms for periodic probe
 bf48c3fae6d78d6418f62bd3259cd62dd16f83ec Merge branch 'net-neigh-introduce-interval_probe_time-for-periodic-probe'
-06bca7c2685a9ab129ede0272de00d92c40347ac ice: Add support for double VLAN in switchdev
-ea71b967a50785fed7129aaf0e7cb201944c01e7 ice: Add support for VLAN TPID filters in switchdev
-263957263a0008508b34425dd69722e01e2e4554 ice: switch: dynamically add VLAN headers to dummy packets
-0ca85829903f1d4849f2fb463d86ea04d679c98f ice: use eth_broadcast_addr() to set broadcast address
-afa646299a282c5e621242c2db8c95c0ccb57d0e ice: Remove unnecessary NULL check before dev_put
+fda35af9759552cd8da6c127725d8ef0c751a6e3 intel: remove unused macros
+4fb8cfedd8fcd6110f6d52650c7f47336d6813d7 ixgbe: remove unexpected word "the"
+a5f976580238375a52463db064819543d253f751 fm10k: remove unexpected word "the"
+4d5173c6f6ebb103bd0fd6ed91ab8a7af9f9ff7e igb: remove unexpected word "the"
+eb6683b622c5a580adb5cca4f3f759669c7bd49c ixgbe: drop unexpected word 'for' in comments
+38f0430e1658529dd26ca9889ea7b546cbed5e48 intel/e1000:fix repeated words in comments
+e2ef1c2d9a14bcc351bd5fc3b36cf91e987dd38d intel/e1000e:fix repeated words in comments
+17527829dfb6f9688969b987374d60edbf7406c6 intel/fm10k:fix repeated words in comments
+09f85edd98e27ccd95382de10a3be09a2056ec16 intel/i40e:fix repeated words in comments
+afdc8a54e29778df05be620890d8037fa587e6df intel/iavf:fix repeated words in comments
+7cdb8cc82ffbf8d1a524d633ca270cd621cfd653 intel/igb:fix repeated words in comments
+1ca33bf983f306a4ca250831a93b86a11f7552d4 intel/igbvf:fix repeated words in comments
+1e401f7680c9a23e33675a1654fa3f93334e7ac9 intel/igc:fix repeated words in comments
+8bfb7869ec3760f3d81f0d0900431a750cd0642b intel/ixgbevf:fix repeated words in comments
+173e468c717c4f422e3785d6bc95a85c456faece intel/ice:fix repeated words in comments
 
---===============8795248891948674423==--
+--===============4563984432908303231==--
