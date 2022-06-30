@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7502303748555458966=="
+Content-Type: multipart/mixed; boundary="===============4705121168375346459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 30 Jun 2022 11:58:12 -0000
-Message-Id: <165659029286.479.3489161214810095044@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 12:00:23 -0000
+Message-Id: <165659042394.2914.6620953346266772236@gitolite.kernel.org>
 
---===============7502303748555458966==
+--===============4705121168375346459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,219 +16,221 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 407656228c935b729a53c66164825b760d4364d4
-    new: 9e312d6b2643a360bc87ec79089bd80a0e44845d
-    log: revlist-407656228c93-9e312d6b2643.txt
+    old: 9e312d6b2643a360bc87ec79089bd80a0e44845d
+    new: e1f9c925562b1c722cba208512427dfa63048d4d
+    log: revlist-9e312d6b2643-e1f9c925562b.txt
   - ref: refs/heads/queue/4.19
-    old: 50c8ef5c22a1059a374f3ff2dfb4143f01039344
-    new: 6f64d779055cfb57777bd84336cfb6ea19287ff6
-    log: revlist-50c8ef5c22a1-6f64d779055c.txt
+    old: 6f64d779055cfb57777bd84336cfb6ea19287ff6
+    new: 3ee96f52acea156adfab9fd7afe44f490cc11582
+    log: revlist-6f64d779055c-3ee96f52acea.txt
   - ref: refs/heads/queue/4.9
-    old: 3363919f90c2d51fb584462df2008aa786e67cd1
-    new: 1aa40781196eda322abe6dad8a5490009d09489f
-    log: revlist-3363919f90c2-1aa40781196e.txt
+    old: 1aa40781196eda322abe6dad8a5490009d09489f
+    new: a52185bb95bbde243cc4656206b32711a5539726
+    log: revlist-1aa40781196e-a52185bb95bb.txt
   - ref: refs/heads/queue/5.10
-    old: 4092face293911a77551ae9c1abcd45742e10a33
-    new: 922784e6ab6e3603cdf4978a7a2114bcc2513cec
-    log: revlist-4092face2939-922784e6ab6e.txt
+    old: 922784e6ab6e3603cdf4978a7a2114bcc2513cec
+    new: d1eabeb319138e7f7c01584c19df4718e96e9c5c
+    log: revlist-922784e6ab6e-d1eabeb31913.txt
   - ref: refs/heads/queue/5.15
-    old: 2cc3bd4095e734c0758db35b585cfb9f275c7b1c
-    new: bd3247403c8f4033102dc040216d20c662c8000b
-    log: revlist-2cc3bd4095e7-bd3247403c8f.txt
+    old: bd3247403c8f4033102dc040216d20c662c8000b
+    new: 68f01e4aead26ebe202478fbd55784a4b31374e6
+    log: revlist-bd3247403c8f-68f01e4aead2.txt
   - ref: refs/heads/queue/5.18
-    old: b7b0014d7206fed034d9a376fa69f81b4589023d
-    new: 30274b919fb1b4d5334bf1ca3756f698566cf553
+    old: 30274b919fb1b4d5334bf1ca3756f698566cf553
+    new: eafb343dbae13578d44dc02d051aa50bb31517e8
     log: |
-         0c609c74f1b6fe724f7af2d450baa8ec599e9872 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
-         0b8ae734b0bb5af18626f1444e96b1e658a72708 clocksource/drivers/ixp4xx: Drop boardfile probe path
-         516b92b3c058297be93192a636a65409027aba99 bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
-         9dae4d8f4bf7deb0a41466748768d51277d893c5 hinic: Replace memcpy() with direct assignment
-         30274b919fb1b4d5334bf1ca3756f698566cf553 powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
+         1e1afb4d079eca30cc999e16baa8e3b2f35ccc5c tick/nohz: unexport __init-annotated tick_nohz_full_setup()
+         7b2b57175df19eabde1eff7dd0f444c035514007 clocksource/drivers/ixp4xx: Drop boardfile probe path
+         8de9d9d0972fb5aa6fe13a3252ff315a20e22e5f bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
+         8ef88d3ec3f3061ce8dd67eddbb6557ca73c4f6e hinic: Replace memcpy() with direct assignment
+         eafb343dbae13578d44dc02d051aa50bb31517e8 powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
          
   - ref: refs/heads/queue/5.4
-    old: cc2b2ed3fd1f1e2e4db8db2e25d1daf8a8b95b9c
-    new: 4990d7a37cae3aeea4034a858f058dc1ad8ee4d0
+    old: 4990d7a37cae3aeea4034a858f058dc1ad8ee4d0
+    new: eb984d2994a6441594509ccfbc382f233bc31aba
     log: |
-         36d6f91d912c5231e623bc2e4ea310230a9c5c53 drm: remove drm_fb_helper_modinit
-         2a4c0934f2b0ea388cb2264a74dc93dc5e5d1ffb clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
-         6ed28d4632dfa86b84e97935e9bcade718f05de9 powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
-         4990d7a37cae3aeea4034a858f058dc1ad8ee4d0 xen/gntdev: Avoid blocking in unmap_grant_pages()
+         54f7b5842de8af52268c79c1e91bc619df33741e drm: remove drm_fb_helper_modinit
+         da8f35b936e0997ad2b63686b745e59828c0fe8f clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
+         58f6e04b15e88c0f893f5d72e01f0f0f60f6fb68 powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
+         eb984d2994a6441594509ccfbc382f233bc31aba xen/gntdev: Avoid blocking in unmap_grant_pages()
          
 
---===============7502303748555458966==
+--===============4705121168375346459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-407656228c93-9e312d6b2643.txt
+Content-Disposition: attachment; filename=revlist-9e312d6b2643-e1f9c925562b.txt
 
-dbeebb14d9907ffd20d016d2372188f98f861319 vt: drop old FONT ioctls
-0c6e442758b2050ecb7a54cbfffe6a4261c30388 random: schedule mix_interrupt_randomness() less often
-c6a61bd0e139fb6f080c057d26e92fdad453e1d3 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-ca4bf577a3ce0dd489f690f97591c2246b66a61c dm era: commit metadata in postsuspend after worker stops
-5a8a50278916bce8ce73e592ce208509d31e0622 random: quiet urandom warning ratelimit suppression message
-b2d7200417031e1be5d9733f7ae248632e96074d USB: serial: option: add Telit LE910Cx 0x1250 composition
-87bdd2179c5d7b96056561dfc7f5ba6d6468c8e6 USB: serial: option: add Quectel EM05-G modem
-a040da8cabd516889da8414cbd26d2dff73639e8 USB: serial: option: add Quectel RM500K module support
-1df73e67f1e716360c9441c7b64358d84252c71b bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
-a56d3bf30b5a4ec30b3d124022c0b7f791c75d36 x86/xen: Remove undefined behavior in setup_features()
-658e317498108d2f884fc8ad53c60d33b9318297 MIPS: Remove repetitive increase irq_err_count
-2e4e489359ab786914b0c97a7262cee44456cd34 igb: Make DMA faster when CPU is active on the PCIe link
-519af93994a58f3efadb9e431922af6a9483e42e iio: adc: vf610: fix conversion mode sysfs node name
-b24f37f2db79996759abb80daeac9de2e0dc7637 usb: chipidea: udc: check request status before setting device address
-ea546d78e7993418441e2475f9bff292332820ff iio:accel:bma180: rearrange iio trigger get and register
-ca31bcf97c7251cdde4c65fac8abd133dc98bacb iio: accel: mma8452: ignore the return value of reset operation
-ecbd30671d99517d71f2a03e73b969403d895fcb iio: gyro: mpu3050: Fix the error handling in mpu3050_power_up()
-e4951357dd8dd03afd661ee30f198e9295846087 iio: trigger: sysfs: fix use-after-free on remove
-b12af134dfb84a193860cdfd06809826b4287001 iio: adc: axp288: Override TS pin bias current for some models
-4c9e1aec300ea2c43497c2ebd7deec55564a3439 xtensa: xtfpga: Fix refcount leak bug in setup
-32b5916d8930306116e43e69a891897af6f3d8df xtensa: Fix refcount leak bug in time.c
-d21ac06a4d9d23d07fbd28f1ef1750ca541a4ce8 powerpc: Enable execve syscall exit tracepoint
-537d80e7572d4a71ed0e867aa01fbdfb1c7aec6d powerpc/rtas: Allow ibm,platform-dump RTAS call with null buffer address
-590060052d3e1e3bf9f810380173c5d1d31c4fa4 powerpc/powernv: wire up rng during setup_arch
-b9bd7648335a8afe68093674912d635ec76710e2 ARM: dts: imx6qdl: correct PU regulator ramp delay
-4102d38078a036ac2382f68151fc9bdf4eb607d3 ARM: exynos: Fix refcount leak in exynos_map_pmu
-abf0e4d44a67d741acd40ada1ff69d9219ae3bf1 ARM: Fix refcount leak in axxia_boot_secondary
-3c6e7fb3c876daf4f5ee532fef61e72bb08ed7d3 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
-33d5223d4c36dee28c2b7b675e54d6194bef9420 modpost: fix section mismatch check for exported init/exit sections
-057680bec9313861c42eef98b08bcba2d8c95a19 powerpc/pseries: wire up rng during setup_arch()
-f6d89fe1d70f7c03205a52be3a11d2e7b2f528db drm: remove drm_fb_helper_modinit
-1081d65016fd1c99a127fde153539c28d44f2310 xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
-9e312d6b2643a360bc87ec79089bd80a0e44845d xen/gntdev: Avoid blocking in unmap_grant_pages()
+5e79f3a96e98b976395580b5702df4d457b50455 vt: drop old FONT ioctls
+e953853a50b2e483a880dc8daa52a0a4da0037fc random: schedule mix_interrupt_randomness() less often
+a540f1c3d2cd6faf4f4fe8818c4515ef98c3b7d2 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+3a6006b0d839ab65e7e63d5fdefbb75057f2dc47 dm era: commit metadata in postsuspend after worker stops
+bfe2d66612d0a78a1507a0d5d8088568246653c6 random: quiet urandom warning ratelimit suppression message
+c0319c75c48a4e89c656d80f45d5eef2ec7d61ad USB: serial: option: add Telit LE910Cx 0x1250 composition
+b617f31e80a028f6626126410056268fb3f1643c USB: serial: option: add Quectel EM05-G modem
+4c403edbed0ab2ddb43a85f83a3f2f2174a7c536 USB: serial: option: add Quectel RM500K module support
+4fd9e2e1b9322be25d33af6f3688f82352621677 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
+30b9838d185c23bef4356654fe2a070c3113f8c2 x86/xen: Remove undefined behavior in setup_features()
+768fc45bf49d8b3caa1ec0a835626724266022ac MIPS: Remove repetitive increase irq_err_count
+4dd2cd84ccb2f038604f10a15b37c5fc9d52ac5e igb: Make DMA faster when CPU is active on the PCIe link
+56d6c3f8737eccd72e51d5cd7b5d88cd5a82ba63 iio: adc: vf610: fix conversion mode sysfs node name
+048b4489eb9e9650d0609e72c7f5517f18887bcf usb: chipidea: udc: check request status before setting device address
+46f02b3dfaa24282f997e41b0bba4eee2b5fe2f9 iio:accel:bma180: rearrange iio trigger get and register
+bc3920914b595b1403e388e51cfcb2df410cfd6a iio: accel: mma8452: ignore the return value of reset operation
+7a0abc1affec7d6222650cf40af3b19b2a7dec2d iio: gyro: mpu3050: Fix the error handling in mpu3050_power_up()
+e553ed8a93be8f7a6125a1baedcc35bbe9780a68 iio: trigger: sysfs: fix use-after-free on remove
+74009953df2733fb3a5c67fe38c85709f00ffb87 iio: adc: axp288: Override TS pin bias current for some models
+15a441d0716e3d8eae37806ef4c1077a3a1421c7 xtensa: xtfpga: Fix refcount leak bug in setup
+7ad5209fcb5fe84657004f337caa8530dcb700ac xtensa: Fix refcount leak bug in time.c
+454847b71cb504ee4f316b80e1382023e6f8e2d8 powerpc: Enable execve syscall exit tracepoint
+c0bc9b0d6401804428d44fcced96697e28b4530c powerpc/rtas: Allow ibm,platform-dump RTAS call with null buffer address
+b9fe5eff5e1f64d18649a6f762b965e13b2a2690 powerpc/powernv: wire up rng during setup_arch
+8e65c6003e14c83d7ac3c5cc6f4f737a2b31c1e4 ARM: dts: imx6qdl: correct PU regulator ramp delay
+a6cc3dbeaa5d71363b20527a023d9752ae17fe70 ARM: exynos: Fix refcount leak in exynos_map_pmu
+bf63ef83c4187da7de82fe08ddf62af4219ad3f7 ARM: Fix refcount leak in axxia_boot_secondary
+5d670864437322dfb1e0598fcb644ff6fb2b1e0d ARM: cns3xxx: Fix refcount leak in cns3xxx_init
+3278becc19d23cd5864cc1cf1f25fc66a569751b modpost: fix section mismatch check for exported init/exit sections
+4e19bee43a12b88f2f97fe28cb729bbf2ab99f0b powerpc/pseries: wire up rng during setup_arch()
+472a9db74b571e184ce3c9c8461e7e5e9458103b drm: remove drm_fb_helper_modinit
+931d4706132fbfd76c710c423ec7f34121906fba xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
+e1f9c925562b1c722cba208512427dfa63048d4d xen/gntdev: Avoid blocking in unmap_grant_pages()
 
---===============7502303748555458966==
+--===============4705121168375346459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50c8ef5c22a1-6f64d779055c.txt
+Content-Disposition: attachment; filename=revlist-6f64d779055c-3ee96f52acea.txt
 
-3f478efa18af290906a45f9ea3b6287fa20e299b vt: drop old FONT ioctls
-1505857d1e6c57c2e93d4734aa64570c5fef4c26 random: schedule mix_interrupt_randomness() less often
-0d6a625b6145d075a09c8da8a5f60b158bdadd3a ALSA: hda/via: Fix missing beep setup
-9001a1bfaca60b94683b292d8003b41f2b5dcb70 ALSA: hda/conexant: Fix missing beep setup
-dffe74f45909b25522bbe7ee8ddadad2c295fad7 ALSA: hda/realtek: Add quirk for Clevo PD70PNT
-a9558a47c104c30f314c8a23c35f5741be890a45 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-73b99128208e6f2eebe264749f03329fa1147b92 dm era: commit metadata in postsuspend after worker stops
-13f534a71548397ae4d367b6938fcfa193edacac random: quiet urandom warning ratelimit suppression message
-9da436ae1fcfd9c779f6514a75be769cc1c251cb USB: serial: option: add Telit LE910Cx 0x1250 composition
-3b964ed327525258ee9dfb73324a14d967f01539 USB: serial: option: add Quectel EM05-G modem
-8cb8474d253890dbb68b4fb4bfaa921f18281d5c USB: serial: option: add Quectel RM500K module support
-0bb4e8a2292f5a01bf54c9828d30033faeec14e4 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
-cf017f571a05f5ca9b0f6b00925c2c42da71b2d7 net/sched: sch_netem: Fix arithmetic in netem_dump() for 32-bit platforms
-0321930bd92f24fa63c4a4d743617d0226ebf867 erspan: do not assume transport header is always set
-d63f8c0ad9e78131496a10f35e402fdb8df3d0a1 x86/xen: Remove undefined behavior in setup_features()
-559ada5cdad5d3abf6d3ddd0b28ca38f76ec923d MIPS: Remove repetitive increase irq_err_count
-f31bc877f2d2e54f4f659590f0e17d6be428fec3 afs: Fix dynamic root getattr
-69b458defa4cfe5a4de6e465d002be971bb3e3cc igb: Make DMA faster when CPU is active on the PCIe link
-9784da0d10b58a4dc4320ac0fdcc43309949a26f virtio_net: fix xdp_rxq_info bug after suspend/resume
-1ff88fb35b32cf8a35f059f86e751933c07fbfdf gpio: winbond: Fix error code in winbond_gpio_get()
-914718cd579c4899e86200f0edc08769d3f68ff4 iio: adc: vf610: fix conversion mode sysfs node name
-b741157a1736b84c354c8faef3b6daf5245ec601 xhci: turn off port power in shutdown
-c7c45d86ba0e5c8e5f30dfae1054a2603569a53b usb: chipidea: udc: check request status before setting device address
-d5fa36d7a92c704a90901979bc86c7d4943e7c6d iio:chemical:ccs811: rearrange iio trigger get and register
-52a181ef1d1e2da08b5bfc7b874b1b4a3b6885b4 iio:accel:bma180: rearrange iio trigger get and register
-8bbd4e32c8c6e332daa973f26262578211d06574 iio: accel: mma8452: ignore the return value of reset operation
-ab46322a45efd5b0cf2437b4a8e5c26262803ad0 iio: gyro: mpu3050: Fix the error handling in mpu3050_power_up()
-104153232cbc1081a7ed9ff639af9f69ab645560 iio: trigger: sysfs: fix use-after-free on remove
-4d26c78223b93fc05a9d154b2ce812fb61739642 iio: adc: axp288: Override TS pin bias current for some models
-8bcd98cc9c6af7502b3eebdd0153be62453b402a xtensa: xtfpga: Fix refcount leak bug in setup
-33c6eb3e605f32af6708ef3df97232acc1fdad99 xtensa: Fix refcount leak bug in time.c
-00e23dc2b0389005afd78ec07e065229513ec540 powerpc: Enable execve syscall exit tracepoint
-ca93b838a4d090d52aa017471d06ca8789ff7cca powerpc/rtas: Allow ibm,platform-dump RTAS call with null buffer address
-59bd84aaafe6e9c255ee85489f3a6ad412d73b0e powerpc/powernv: wire up rng during setup_arch
-6eb53b4256ddb360017b8ce013ca9556c66637c4 ARM: dts: imx6qdl: correct PU regulator ramp delay
-f719a0917c1e943950b7ec635c4315ef0a2c6bf6 ARM: exynos: Fix refcount leak in exynos_map_pmu
-12204186f1a19d138dd15a4abbdebb161e1d96f0 soc: bcm: brcmstb: pm: pm-arm: Fix refcount leak in brcmstb_pm_probe
-c6d3a4af46f0069778ac2169652e8c6c549b7b44 ARM: Fix refcount leak in axxia_boot_secondary
-0e6c2c489460ff33bba7ae950e2f6eb0c4ff6f15 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
-e7e2c1ee59fde5229b04ce07c58da6c8f0363cb2 modpost: fix section mismatch check for exported init/exit sections
-f01cbe49721b4aab3d1bf08cc24ebc08f05d0843 kbuild: link vmlinux only once for CONFIG_TRIM_UNUSED_KSYMS (2nd attempt)
-4812a3bd9fd7c1ddae2e1e06c0d8f2dd0d20e874 powerpc/pseries: wire up rng during setup_arch()
-77ee24090bd967dd3c762f991b9627c13b67ba3d drm: remove drm_fb_helper_modinit
-fc18059fa440fd5e502c7dd999f4e824f390ed70 xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
-6f64d779055cfb57777bd84336cfb6ea19287ff6 xen/gntdev: Avoid blocking in unmap_grant_pages()
+025ea3e1d892dbc22a674059674a8fd897b23639 vt: drop old FONT ioctls
+f21a96d019c3b4b1ff8123cf6541e26cb53096e3 random: schedule mix_interrupt_randomness() less often
+cf56433b89e548935b8d19ec76b6769db05a61aa ALSA: hda/via: Fix missing beep setup
+0cd60f2e033a559e47204c8265a8f2c05db28e92 ALSA: hda/conexant: Fix missing beep setup
+3fd5a5ed0f660328f404e1c3aa5a379228ef9364 ALSA: hda/realtek: Add quirk for Clevo PD70PNT
+dab6c921d1e2088f352e3fb499db60ad2d1aa51f ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+fe15215b76079fc17c0c0c1b125d906c5e0140da dm era: commit metadata in postsuspend after worker stops
+ead9b313f16e33c2587eb295a3ab3bb0df95bd25 random: quiet urandom warning ratelimit suppression message
+f1668e0b665fb0ee86701e7cdd7703cb1e423ef9 USB: serial: option: add Telit LE910Cx 0x1250 composition
+9b881ff783c59865441a8953ee806aefea04959c USB: serial: option: add Quectel EM05-G modem
+8d8c1e957c3b8095b4f347ab8daf14e20b6aaf93 USB: serial: option: add Quectel RM500K module support
+89aa48232e6992347b408ce459c17a32a84d26c2 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
+9942a6dd938a21934254744a36a22c15122491f7 net/sched: sch_netem: Fix arithmetic in netem_dump() for 32-bit platforms
+ea13fb7103d49049e3932a85f9f270d1bf82330e erspan: do not assume transport header is always set
+fd615cc422268df2ae34d40910479b1d3cd5c185 x86/xen: Remove undefined behavior in setup_features()
+f684c72ce739e7fef4f5bca4b294d81363df658e MIPS: Remove repetitive increase irq_err_count
+aecfe86157542272a95c6c13dc949a6af7193f41 afs: Fix dynamic root getattr
+72d19204981e2c16abac5de4db3ed6cf712dc1de igb: Make DMA faster when CPU is active on the PCIe link
+3d8e31ebc7fbd0c20cd0a40d31db3e51fe1fdcd7 virtio_net: fix xdp_rxq_info bug after suspend/resume
+7711a85a4382512769237ee0341ac2ca933d8284 gpio: winbond: Fix error code in winbond_gpio_get()
+56c1fff8b5045063472dafcafbad6e1b3292db52 iio: adc: vf610: fix conversion mode sysfs node name
+f94482a103fd41b3f24a2e6515e1698f3c8fec98 xhci: turn off port power in shutdown
+7c990f300f89dbebc66d2323ea203e4ed5740bc0 usb: chipidea: udc: check request status before setting device address
+f0b5a0e4994e2d459f29c232a99688203cae47c7 iio:chemical:ccs811: rearrange iio trigger get and register
+638ffe88251eae9fcccac37c5dd99bdff5dcb530 iio:accel:bma180: rearrange iio trigger get and register
+719db28b38950cf82bcf338d8b2dc8ef63e4997a iio: accel: mma8452: ignore the return value of reset operation
+003383b55ea83fd52cbab842a1480c24ac8e604b iio: gyro: mpu3050: Fix the error handling in mpu3050_power_up()
+860726ffb37c4c6ef8de55fd53753f5fcd16d293 iio: trigger: sysfs: fix use-after-free on remove
+b6464786378a8431f66147bb5b3eb3419152cd36 iio: adc: axp288: Override TS pin bias current for some models
+d4abe1cc7cf914ca17f2a083dd82b278b6745f51 xtensa: xtfpga: Fix refcount leak bug in setup
+be26dee71957658eb16c6f593560f55071d5dc3e xtensa: Fix refcount leak bug in time.c
+ce337f200b4a30070bf845273ab78fba68144276 powerpc: Enable execve syscall exit tracepoint
+86da80d987403479fd954f24d81628e73b001631 powerpc/rtas: Allow ibm,platform-dump RTAS call with null buffer address
+0057c5c297007aef891a81d5d219b7b48c3b52c7 powerpc/powernv: wire up rng during setup_arch
+06333abe081ebef4c90011acf111b712b3ff68b1 ARM: dts: imx6qdl: correct PU regulator ramp delay
+04b0199dfebd2ded71e897e11eb3a92db6524eb5 ARM: exynos: Fix refcount leak in exynos_map_pmu
+8592ba81ad71b0a4248c24671714f43243fd0083 soc: bcm: brcmstb: pm: pm-arm: Fix refcount leak in brcmstb_pm_probe
+7f60650b7e2347666dabe79716f51b3b5ab9b227 ARM: Fix refcount leak in axxia_boot_secondary
+36df01ca33f8a77ab8aac3fc79479d4758881ba8 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
+be360063ac129c45c175a2974b338135fc50731b modpost: fix section mismatch check for exported init/exit sections
+2601cacd97f66699b36e7c0463ca25d8196b12e0 kbuild: link vmlinux only once for CONFIG_TRIM_UNUSED_KSYMS (2nd attempt)
+68cbf0832fbd750bb0f1d47f500165e8b4f3281e powerpc/pseries: wire up rng during setup_arch()
+9de3bd789f895c7c98cbd4fd0d6ecd7b19d8a5bf drm: remove drm_fb_helper_modinit
+5034de57fa772b6ec5a76866e61531461d5c6fcd xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
+3ee96f52acea156adfab9fd7afe44f490cc11582 xen/gntdev: Avoid blocking in unmap_grant_pages()
 
---===============7502303748555458966==
+--===============4705121168375346459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3363919f90c2-1aa40781196e.txt
+Content-Disposition: attachment; filename=revlist-1aa40781196e-a52185bb95bb.txt
 
-0b622a350606aa2eb310074c0f3e7c9d18f893b9 vt: drop old FONT ioctls
-c4c794b032a4a696072cb5a37b42f93a4def7c58 random: schedule mix_interrupt_randomness() less often
-681d6cb64b01e473023a09c3903afb7252070ba5 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
-934710ccc77571e707ec81038b5cff3bfe3a15f4 dm era: commit metadata in postsuspend after worker stops
-34bc77d17360bf92c2cf426e97cb7fcc65803aee random: quiet urandom warning ratelimit suppression message
-ec334393d20d651ea9a573a4e6e3d20d70bb6a5f USB: serial: option: add Telit LE910Cx 0x1250 composition
-05569c36f037ffc4c7165eab921197eedbd213d6 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
-67f145feacd6f610c2d1b83e6f7faed0b9a5e37d x86/xen: Remove undefined behavior in setup_features()
-797778ecfc73f36789496608c9dbcda3e93b8d8c MIPS: Remove repetitive increase irq_err_count
-3d1411771fb975113a2f2b9738cf0e352f715489 igb: Make DMA faster when CPU is active on the PCIe link
-376f6dfc5f2fff9270b0553d628611d8a42a64a7 iio: adc: vf610: fix conversion mode sysfs node name
-3cdf966181734bfbeb0a4e97c3e08618bd2f6961 usb: chipidea: udc: check request status before setting device address
-3a7916c6a2926d84adc4c891054d822b6cc9ed77 iio:accel:bma180: rearrange iio trigger get and register
-ad6087d923601c746469116855689f901355e62b iio: accel: mma8452: ignore the return value of reset operation
-ba9301d067f1f9f68d55fd0cbfb502fbd5bc5b03 iio: trigger: sysfs: fix use-after-free on remove
-c117db151ffe4483360a341e35896655847dbb49 xtensa: xtfpga: Fix refcount leak bug in setup
-c19736836389c0a7df007908355c9917edbfd38e xtensa: Fix refcount leak bug in time.c
-dabb91eae94934235569f838197adc640f03b082 powerpc: Enable execve syscall exit tracepoint
-8d3745fd1cd4e702f0bb745029c943d396047644 ARM: dts: imx6qdl: correct PU regulator ramp delay
-dc8859ff65e5935bd9e1ee4518e85fbc538df542 ARM: exynos: Fix refcount leak in exynos_map_pmu
-69aefa3117e4f6b7578cecee334b789cf3893738 ARM: Fix refcount leak in axxia_boot_secondary
-52185eafb978e5eb39fc79242c4737510d4a4114 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
-9643fb1be1665d15bfc7ceefd262b348ebd6b8de modpost: fix section mismatch check for exported init/exit sections
-eddfc9ddf8fe7ba9e339bd7f387f96010eca8403 powerpc/pseries: wire up rng during setup_arch()
-664b97cc0270787fa44303c51d28ce3b8c090d16 drm: remove drm_fb_helper_modinit
-d66c2b91c03d6e29f8a2d8fc178021de7a919811 xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
-1aa40781196eda322abe6dad8a5490009d09489f xen/gntdev: Avoid blocking in unmap_grant_pages()
+5e670f082ce3e2f4f1273c706e2f5b5c757e2adf vt: drop old FONT ioctls
+6fd651a8b57c703b103e92dc4ed0f4ec817ab67e random: schedule mix_interrupt_randomness() less often
+9e53d9d57bba36f3d86cea8b0e717d144baccce6 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+343bb090d058607d0b34e9511ba24a3837426989 dm era: commit metadata in postsuspend after worker stops
+e5e5a0596cf933edc97b20f4c655c693022e0730 random: quiet urandom warning ratelimit suppression message
+b675ae45c0cbfd1124a4a7a65bbeffa3021facc8 USB: serial: option: add Telit LE910Cx 0x1250 composition
+bcaed8387bd7cac3e2676b6b76ecf2e49c203493 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
+d8834cc18e482408f362a620e3fd9084d7c8737e x86/xen: Remove undefined behavior in setup_features()
+a5cf8977a554def5578f66014dce2674e4e62497 MIPS: Remove repetitive increase irq_err_count
+fa1d0b1501f0bf02afa0a71c6cc48a254e027026 igb: Make DMA faster when CPU is active on the PCIe link
+2b43e775297bc690730baeddc6bfc987fda539ac iio: adc: vf610: fix conversion mode sysfs node name
+a6173eab937380a18ad9d04b0da95bd75ded2d63 usb: chipidea: udc: check request status before setting device address
+c5c0e6cab90e02f415c40e88128a82f7718c14d7 iio:accel:bma180: rearrange iio trigger get and register
+00f19d4f4f8490d747ee26cdd4abbd02f577b9d0 iio: accel: mma8452: ignore the return value of reset operation
+05de30fa87381d0aaf2f42c851c05504fa52a7d1 iio: trigger: sysfs: fix use-after-free on remove
+3a936023820b1df8af3679d43279cf16b2e233ad xtensa: xtfpga: Fix refcount leak bug in setup
+39772ec943b8c2182b1b0e396c730a7daccdbc06 xtensa: Fix refcount leak bug in time.c
+ce9a2a05808cc6bbd2ae3cda4a482a46856fdf7c powerpc: Enable execve syscall exit tracepoint
+dfbf4bdc986cb6c395653283c1092c6814bc55ec ARM: dts: imx6qdl: correct PU regulator ramp delay
+40d65543f2a06053582753a7041d1aeb2ad0a1fa ARM: exynos: Fix refcount leak in exynos_map_pmu
+65d90dfef031df69e5fbf3c61d708e7a79c3c1a1 ARM: Fix refcount leak in axxia_boot_secondary
+762bffe14f33131b548fde2017681a9a185f3075 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
+176525f17ecbe6ccf01bd0adc8a0cac2b2e0b4ed modpost: fix section mismatch check for exported init/exit sections
+92a33300b97b094a27cdb99d2f84f6e07bace0ff powerpc/pseries: wire up rng during setup_arch()
+cd250ddaed6d7e9626bef994c13fab161125bb93 drm: remove drm_fb_helper_modinit
+6d27a5c6439daccf7d88cdf545d6f148f040d126 xen: unexport __init-annotated xen_xlate_map_ballooned_pages()
+a52185bb95bbde243cc4656206b32711a5539726 xen/gntdev: Avoid blocking in unmap_grant_pages()
 
---===============7502303748555458966==
+--===============4705121168375346459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4092face2939-922784e6ab6e.txt
+Content-Disposition: attachment; filename=revlist-922784e6ab6e-d1eabeb31913.txt
 
-74192e7ec72b7a305f0631f1f9d35839bcf2be0d MAINTAINERS: add Amir as xfs maintainer for 5.10.y
-181c1460b96f1432c3eb65ce656936198f8630f4 drm: remove drm_fb_helper_modinit
-a846c1541e13584674700a5c9540cdbf7f3bdcb1 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
-0fd9835086700e00c9246ec1b0d6f0295f08bcca clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
-6fc0ded4b18f497a1f45997e2dccd7dc0baf6b41 bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
-8cd54503c8c9845119ce3a180d3e166600268185 xfs: use kmem_cache_free() for kmem_cache objects
-99e4dd80281c5468dc5f3e9c183246e383c33365 xfs: punch out data fork delalloc blocks on COW writeback failure
-5fe3261c7e4023713830b70eddc2e39ab497d5ac xfs: Fix the free logic of state in xfs_attr_node_hasname
-9ef2805465e1de848efcb0401dccd129d26daeee xfs: remove all COW fork extents when remounting readonly
-3ea53c3febd54d35f1fa99eb63164cb922cccd9e xfs: check sb_meta_uuid for dabuf buffer recovery
-4b11c76483d08f79ad61b4dca6dbd724f7fe2c7a powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
-922784e6ab6e3603cdf4978a7a2114bcc2513cec xen/gntdev: Avoid blocking in unmap_grant_pages()
+e38f7669e11163481ab59e103a2c31e86567e825 MAINTAINERS: add Amir as xfs maintainer for 5.10.y
+d70488fcfa07cdd9b60786a097d6dca3d07657f1 drm: remove drm_fb_helper_modinit
+f3c9eedd00c35f15b7d173c6168e85ee7df08878 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
+efed3450cad8c0f3791898389c8d3d297f9f3d2b clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
+e0837dd292695c7865b6be430271635ede12220d bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
+0ed4679df72cad05a24b48152612c6a5ff5fcb7d xfs: use kmem_cache_free() for kmem_cache objects
+13402a50f0e77fe01d15cac4bd2413249a240399 xfs: punch out data fork delalloc blocks on COW writeback failure
+a7d53bca043400d944734606cd1ef0971f8dd1ef xfs: Fix the free logic of state in xfs_attr_node_hasname
+f86fb0cb9e77a58df443cde38d73dd032ac4b3d7 xfs: remove all COW fork extents when remounting readonly
+b813e7efc89199615970ca3c02473fde92c4ed17 xfs: check sb_meta_uuid for dabuf buffer recovery
+d6bb38e5d4f2a51c211fa940ca500ff03841244e powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
+d1eabeb319138e7f7c01584c19df4718e96e9c5c xen/gntdev: Avoid blocking in unmap_grant_pages()
 
---===============7502303748555458966==
+--===============4705121168375346459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cc3bd4095e7-bd3247403c8f.txt
+Content-Disposition: attachment; filename=revlist-bd3247403c8f-68f01e4aead2.txt
 
-9351feb7bbaf3ff6ad8dc8da5984afd9772770e2 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
-752b9c022578186598f746db7668f7bf290e65e8 clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
-de141c8b17bd6473a51538dff5c2600e9f8e9e47 x86, kvm: use proper ASM macros for kvm_vcpu_is_preempted
-ed7373c4260085817f8c9d9808fdce3495b7b48a bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
-8b64a79ab3a874a9e47cf0e0ebfc3e3ca1c57ef9 xfs: use kmem_cache_free() for kmem_cache objects
-e7cd50f11c193616edacbf740a87f366004749e8 xfs: punch out data fork delalloc blocks on COW writeback failure
-a17c034a46a5322812279df5067725c582095cd4 xfs: Fix the free logic of state in xfs_attr_node_hasname
-c5eae58f63e6f34e2c3e97e54f03ed5f78a8d13c xfs: remove all COW fork extents when remounting readonly
-2d584acabc0d6597d65a37769d5c834943360f9a xfs: check sb_meta_uuid for dabuf buffer recovery
-dc8db8f66a7b410c8df3d008357c30741be99ada xfs: prevent UAF in xfs_log_item_in_current_chkpt
-1ae72e1db17315abb6f7355e066b42c9ea0c4874 xfs: only bother with sync_filesystem during readonly remount
-369f9e54aac7736a9ef3214d2b746c52fb82c02b powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
-70ea77e5d2a5660c3f550a11dc7b4b7a8196d1f7 fs: add is_idmapped_mnt() helper
-09ee9cb5333eef42666c4ef0a4cb935564016b08 fs: move mapping helpers
-430fb8518feff9128827913e4e69c048cad6421f fs: tweak fsuidgid_has_mapping()
-7a2540dd3b9cdcff68f19d526d4e1ac64c4d63d5 fs: account for filesystem mappings
-705f2d31456eb48bd06e5aaf7bea936f79fc9afd docs: update mapping documentation
-513edff91b88d11594e1cf26a3062ebd59720c8b fs: use low-level mapping helpers
-d999f42f500591054f238bdfd405bdb142889e1c fs: remove unused low-level mapping helpers
-3799a4fd628c9b4e598aca55de528cffa8a1f037 fs: port higher-level mapping helpers
-5772701a8b3453f9d0730e606fe9838c106ec86a fs: add i_user_ns() helper
-9170033c7277250095e34483152d3593a2e15194 fs: support mapped mounts of mapped filesystems
-17c3fc13c172389eb271c4b61ddffb12959729b4 fs: fix acl translation
-bd3247403c8f4033102dc040216d20c662c8000b fs: account for group membership
+e3eaa66192836cbff464ceb6085095017623eabd tick/nohz: unexport __init-annotated tick_nohz_full_setup()
+47c75e5bbbdaafa0a127fccbb98bcb21f8419e4a clocksource/drivers/ixp4xx: remove __init from ixp4xx_timer_setup()
+6db83764be0edd1f2126ef854609cc67218489cd x86, kvm: use proper ASM macros for kvm_vcpu_is_preempted
+5b81eefc764446b6739e0eb99e2c1b016cfcd974 bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
+5440f7f3110401f980e6d86b012420ed87ad6a4a xfs: use kmem_cache_free() for kmem_cache objects
+66e06f2e2b9fc3840c05aead461963e4e0e02a8a xfs: punch out data fork delalloc blocks on COW writeback failure
+40a7ee037ea17ba2fdaf96270cca9dbd2a3348bd xfs: Fix the free logic of state in xfs_attr_node_hasname
+6c76437fc9460380a2b7a018b84e17e68954fd69 xfs: remove all COW fork extents when remounting readonly
+074bf12660a66f79fa6af87ae387aa1db3d6f4dd xfs: check sb_meta_uuid for dabuf buffer recovery
+051cbf15cbf158254776a62696b4a4c85feb5cbc xfs: prevent UAF in xfs_log_item_in_current_chkpt
+43d00388c2e0624f2e1f7f8b07e647ea00a15496 xfs: only bother with sync_filesystem during readonly remount
+a87881e5297e729e4411feedc7b06f25012b5ceb powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
+f9907a49f8bea0ce25fad67ee1249fcdbfb47f0f fs: add is_idmapped_mnt() helper
+583dcc58b327599b1a6c707fd34d81f808949b2f fs: move mapping helpers
+76d5437f91ada8015fab274696113c369850fafa fs: tweak fsuidgid_has_mapping()
+1f54263b8a95815373ad8ae4860523871cf0ffa2 fs: account for filesystem mappings
+686bf92d15c85d7a298a9b39e9f1aae5868e2cb3 docs: update mapping documentation
+5f702d8d9d759332866b1f1d32986bb791106645 fs: use low-level mapping helpers
+baa75b237e7402a2bd9daacb6711e92c103e9b4c fs: remove unused low-level mapping helpers
+19ca59d8200bc29beca6f46866b0ac961009e2ac fs: port higher-level mapping helpers
+9d499aca301f2acf41a4b157db44bd9fa0e73a68 fs: add i_user_ns() helper
+81f79c3d456b7895f412202eee3ea1dac114c256 fs: support mapped mounts of mapped filesystems
+7cbe5fc36704594a62376dd89773f040de7293d1 fs: fix acl translation
+94e6619dec7fa03b65337ccbf4bf2a678e54c2d6 fs: account for group membership
+a4e375f970e049188f03517f289a7633a256f2ee rtw88: 8821c: support RFE type4 wifi NIC
+68f01e4aead26ebe202478fbd55784a4b31374e6 rtw88: rtw8821c: enable rfe 6 devices
 
---===============7502303748555458966==--
+--===============4705121168375346459==--
