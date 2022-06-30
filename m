@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 30 Jun 2022 13:44:24 -0000
-Message-Id: <165659666490.10032.7440416410258432217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 30 Jun 2022 13:58:52 -0000
+Message-Id: <165659753299.18967.5927301705490631629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-next
-    old: 72a728428fccbaa5c5fcb27694f7dc2e28179219
-    new: 9816029e9cc3addfac0eaad8d94e777596be1073
+  - ref: refs/heads/wip/jgg-for-next
+    old: 80a14dd4c37f94300bc9375592b54f98c6ad7b8e
+    new: e5d12406b94a4d0bb63cb4d78e568c6d9fadacfd
     log: |
-         3190d4be3764fd847d57e26197158940e89272ae spi: pxa2xx: Add support for Intel Meteor Lake-P
-         9816029e9cc3addfac0eaad8d94e777596be1073 Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         46225425ebe79ca0c9316cf4e662b6ab142fbfc2 RDMA/rxe: Stop lookup of partially built objects
+         e5d12406b94a4d0bb63cb4d78e568c6d9fadacfd RDMA/rxe: Convert read side locking to rcu
          
