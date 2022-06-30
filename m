@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8455391777757202091=="
+Content-Type: multipart/mixed; boundary="===============7693958791246119662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 30 Jun 2022 02:11:44 -0000
-Message-Id: <165655510418.10628.6707779220440900849@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 02:13:08 -0000
+Message-Id: <165655518815.12484.12929469793435601090@gitolite.kernel.org>
 
---===============8455391777757202091==
+--===============7693958791246119662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 9926de7315be3d606cc011a305ad9adb9e8e14c9
     new: 9577fc5fdc8b07b891709af6453545db405e24ad
     log: revlist-9926de7315be-9577fc5fdc8b.txt
 
---===============8455391777757202091==
+--===============7693958791246119662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -368,4 +368,4 @@ adabdd8f6acabc0c3fdbba2e7f5a2edd9c5ef22d ipv6/sit: fix ipip6_tunnel_get_prl retu
 eddd95b9423946aaacb55cac6a9b2cea8ab944fc NFC: nxp-nci: Don't issue a zero length i2c_master_read()
 9577fc5fdc8b07b891709af6453545db405e24ad NFC: nxp-nci: don't print header length mismatch on i2c error
 
---===============8455391777757202091==--
+--===============7693958791246119662==--
