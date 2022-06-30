@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 29 Jun 2022 23:49:34 -0000
-Message-Id: <165654657473.8521.6109487158205762962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 30 Jun 2022 00:06:09 -0000
+Message-Id: <165654756997.19637.2396380123045726445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 332bd0778775d0cf105c4b9e03e460b590749916
-    new: 617b365872a247480e9dcd50a32c8d1806b21861
-    log: |
-         1ebc2cec0b7dd8dad0812449110803bd875ac816 dm raid: fix KASAN warning in raid5_remove_disk
-         617b365872a247480e9dcd50a32c8d1806b21861 dm raid: fix KASAN warning in raid5_add_disks
-         
+  - ref: refs/heads/ctxt.2022.06.29a
+    old: 0000000000000000000000000000000000000000
+    new: f956f2db2cac281f3f7b3429a2ea191cc940ef8b
