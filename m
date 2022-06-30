@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 30 Jun 2022 09:56:47 -0000
-Message-Id: <165658300742.14422.13124125809656797283@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 09:57:19 -0000
+Message-Id: <165658303911.14644.5323990166343805957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileGfJ7YZ
+  - ref: refs/heads/20220622_kuninori_morimoto_gx_asoc_soc_core_c_fixup_snd_soc_of_get_dai_link_cpus
     old: 0000000000000000000000000000000000000000
-    new: cabcd219cee142a0f55516d2e257c8833cbd14f6
+    new: 9cc69528188a4e3eb24370f6c05a92791ac249ba
