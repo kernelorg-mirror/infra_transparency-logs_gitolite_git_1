@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0324067733218802682=="
+Content-Type: multipart/mixed; boundary="===============0230814750275378459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 30 Jun 2022 17:26:52 -0000
-Message-Id: <165661001210.29466.5571810126024047481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 30 Jun 2022 17:27:09 -0000
+Message-Id: <165661002903.29634.1558178310796545190@gitolite.kernel.org>
 
---===============0324067733218802682==
+--===============0230814750275378459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.20
+  - ref: refs/heads/for-next
     old: a5201d42e2f8a8e8062103170027840ee372742f
     new: e129e413814720fe3ad3cdc74cfc32245cdbe972
     log: revlist-a5201d42e2f8-e129e4138147.txt
 
---===============0324067733218802682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1656610010 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1656610010-5b277852a901a7a1b3232053ac7b698bfd154b8f
-
-a5201d42e2f8a8e8062103170027840ee372742f e129e413814720fe3ad3cdc74cfc32245cdbe972 refs/heads/regmap-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK93NoACgkQJNaLcl1U
-h9AWIQf/URqoFQoKXdF9BJdFiShX+DCoJ3WtoANbvJfIn2ba0gIhpfcjE5V1HrRN
-SNmcPl/9hxIbzpamfZKzbrRcgVRsjsE1wsaVrg8gS7JQXGUXYkRLmQ7O1Qhbai/V
-N419HVljlWTPavBM5qidur/rsG1RRxIsQ/k3czphgoXRTMuvfK/ucFU0HtabIg6b
-40bCkAdYGHUXF9XiegnCtcY/0+sKxWZcrr5PONFy2Ilt3TRXpqITI7eH7vsZJf1z
-jtbauw2gDhpfLsEtRczAWSqPUnNvO737rRo82cXYkDHe0yNOiU5bC9QX70XbVRZF
-W1IprTkBGBMcKyLZ27im+JQ2VhMcoQ==
-=fR7x
------END PGP SIGNATURE-----
-
---===============0324067733218802682==
+--===============0230814750275378459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +40,4 @@ bdf9b86cd3adbbcf590ab82b74ab8554534c9b6e regmap-irq: Add get_irq_reg() callback
 48e014ee9a61e8f4700987b82f7cb1dc3c89fa76 regmap-irq: Deprecate the not_fixed_stride flag
 e129e413814720fe3ad3cdc74cfc32245cdbe972 regmap-irq cleanups and refactoring
 
---===============0324067733218802682==--
+--===============0230814750275378459==--
