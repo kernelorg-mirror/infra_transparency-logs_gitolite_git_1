@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8648964106936797922=="
+Content-Type: multipart/mixed; boundary="===============4387432964575130274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 30 Jun 2022 13:42:56 -0000
-Message-Id: <165659657623.9026.18442688743382207903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 30 Jun 2022 13:43:43 -0000
+Message-Id: <165659662347.9423.10685723728140810844@gitolite.kernel.org>
 
---===============8648964106936797922==
+--===============4387432964575130274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 3b91edd624ab1ab694deef513a45eb9e9d49d75f
-    new: 1ce69c35b86038dd11d3a6115a04501c5b89a940
+  - ref: refs/heads/for-5.19
+    old: cabcd219cee142a0f55516d2e257c8833cbd14f6
+    new: 0063ae55ccd2ade509be828762addcfccee52c4c
     log: |
-         1ce69c35b86038dd11d3a6115a04501c5b89a940 usb: host: xhci: use snprintf() in xhci_decode_trb()
+         0063ae55ccd2ade509be828762addcfccee52c4c ASoC: qdsp6: fix potential memory leak in q6apm_get_audioreach_graph()
          
 
---===============8648964106936797922==
+--===============4387432964575130274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656596574 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1656596574-a2d3c48fb83981bf1b691a82d7596cf870b6bdfc
+pusher C3F436CA30F5D8EB 1656596622 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1656596621-4907cc7c3f521aa034ced131f26a938941b3206a
 
-3b91edd624ab1ab694deef513a45eb9e9d49d75f 1ce69c35b86038dd11d3a6115a04501c5b89a940 refs/heads/usb-testing
+cabcd219cee142a0f55516d2e257c8833cbd14f6 0063ae55ccd2ade509be828762addcfccee52c4c refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK9qF4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G+8P/3L3vqHgJ7rpQ1NRj0xn
-vnjKVHOjxaad3D5yT62LvJ6oIXuKbU69XP1CTu8wBpUL4o5b4wwC8Hz3albmB+N+
-q4C7ojZUSnvOlyKJM1+mzYP5O0m8ETIEaJFKxtDH9hKUPJUg4hpGR1lGv29WHZab
-bmNQjMMLhEWO68B4CzN4ReGw9ql/Z8hZAONiMmxbl1qv5x+w1di+wZ+rqOL4XWyi
-SGR5/39StMW1AFokZK8Xbnq0A2/0B6bb+VjBgAQKw6ciUW61ZahHKGdozTsjqoB7
-N9b4DRrrnwaPnuUbwC8uxdchGEWMEXzz6tnPJeZy3H61fCwT2gAYuiO22nzaSNSp
-zTJADchbuODJjsbtmLa6fHf6OoV45wtG6sSshqimQ6tAhNL6ZT5lshSt0P/keSK9
-Jo7tW+iJ3LvqYbbIlXdW0AEjNhlkzIv1BBBtfUFltccI2PYHTujDSTURwQ9BZ6jO
-90gGo6p8veRMsV4Qi4AvE5u2xq+EhhrM8HswFi/DnUZTTZNVOfukJbQkBM2yK3oZ
-pl+gWjCga35p4wtXgMA5uTXNWsvSC/f07vhY81NdP3Wi4yMNSBSAoiYfuACBvgww
-V7cMWAPrheA5wIHd5kttqk2hrTkTG7dDFN9Lk07vFpBFhxYrCeH0+NI2H8828znm
-A9YGUc7WKUl13PH4+AUbdUpg
-=BduL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK9qI4ACgkQJNaLcl1U
+h9AV5Qf/VrKWNZet7cON+xiQHpUDzxmCQi39dEYWcIq/lic4n+Qz3tgUwx756vT9
+JjiLD/VE8iDM/CrIRKi6skkVJBSRoLVEuaD+EK4lozOfR5/7IFglCvDamKngw5uT
+6DjpOnlHC2O0/XM/eGsYW/Bli2QY0c7bNnG/hsau0GmWZRQJ0XQ1/A7MRcOjOk6d
+uNexrPiQ4y+U1fZjE8SPWNjKFMy9Bujw9fZYra2+04LrYK7q85qZcPsIKc0s71I4
+V9uiVEHq1jtY4pIZhDmh4PxEzI7b+/5s82aK7QutOmglmY+wzvXGpV/2w/bGr+Ir
+zKSdobpx6WZ+lFA5BLmpB9cuYrR6jg==
+=wSfp
 -----END PGP SIGNATURE-----
 
---===============8648964106936797922==--
+--===============4387432964575130274==--
