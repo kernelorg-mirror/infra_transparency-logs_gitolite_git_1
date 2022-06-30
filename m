@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1863207007818208260=="
+Content-Type: multipart/mixed; boundary="===============4933891991486308930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 30 Jun 2022 09:08:14 -0000
-Message-Id: <165658009468.30950.5775247471387491864@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 09:08:49 -0000
+Message-Id: <165658012957.31225.18190903658219438737@gitolite.kernel.org>
 
---===============1863207007818208260==
+--===============4933891991486308930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
+  - ref: refs/heads/linux-4.4.y-st
     old: 5f5d0c2535b5647380e595a159f5f3781208dae6
     new: 82ae2b380f4c3b0e5af8f3292386fcd952d87f5b
     log: revlist-5f5d0c2535b5-82ae2b380f4c.txt
 
---===============1863207007818208260==
+--===============4933891991486308930==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -195,4 +195,4 @@ c67db127a680b245f736844aab2c40560bcb8e8a mtd: cfi_cmdset_0002: Move and rename c
 b276e2cb8c904fe377fc402c9715d5bd120e2cb1 mtd: cfi_cmdset_0002: Use chip_ready() for write on S29GL064N
 82ae2b380f4c3b0e5af8f3292386fcd952d87f5b tcp: fix tcp_mtup_probe_success vs wrong snd_cwnd
 
---===============1863207007818208260==--
+--===============4933891991486308930==--
