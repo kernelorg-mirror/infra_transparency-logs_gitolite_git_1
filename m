@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7912749433552052513=="
+Content-Type: multipart/mixed; boundary="===============7415199318691535608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 30 Jun 2022 02:35:14 -0000
-Message-Id: <165655651429.27216.12056347747238560647@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 02:35:23 -0000
+Message-Id: <165655652361.27342.1638512862991549401@gitolite.kernel.org>
 
---===============7912749433552052513==
+--===============7415199318691535608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9776fe0f424b7d11af953b52322961845e2b5763
-    new: 702e70143291b09e6245deb8ab904d1c18ed4f47
-    log: revlist-9776fe0f424b-702e70143291.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8b5a47bb97c733ed4408546122b0d25bc6a99700
+    new: a6378b10fa9ccb85fa29e4e811a2679da3e026c1
+    log: revlist-8b5a47bb97c7-a6378b10fa9c.txt
 
---===============7912749433552052513==
+--===============7415199318691535608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9776fe0f424b-702e70143291.txt
+Content-Disposition: attachment; filename=revlist-8b5a47bb97c7-a6378b10fa9c.txt
 
 5b7419ae1d208cab1e2826d473d8dab045aa75c7 staging: r8188eu: fix rtw_alloc_hwxmits error detection for now
 96f0a54e8e65a765b3a4ad4b53751581f23279f3 staging: r8188eu: Fix warning of array overflow in ioctl_linux.c
@@ -615,5 +615,25 @@ a02579df160e2fb64764064182bc3c205d812aa4 net: dsa: microchip: change the size of
 9bacb93bcfb83ab0e939ce9185f8ba910fb6adb0 nfp: flower: fix comment typos and formatting
 04cfbc1d89d4cc73b5b328e3bacf24d43e9aa4b7 selftests: forwarding: ethtool_extended_state: Convert to busywait
 702e70143291b09e6245deb8ab904d1c18ed4f47 net: prestera: acl: add support for 'egress' rules
+cb192bc207b2167b5396cb118c6c7fb27bdb3c29 net/mlx5: Delete ipsec_fs header file as not used
+d41a609c51316b17d34b4dcbc3a43810c3cecd0e net/mlx5: delete dead code in mlx5_esw_unlock()
+68f59e0ac6fe8f83b6fac9267e3165c84ea27064 net: Disable LRO feature if no RXCSUM
+2eb8bef7bc60bf6653d347f1922f1d0153dce3a9 net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+3abffa6ac069ff31a022d6d872c063ece3b0aff8 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+189f2a130e59aa8675bbb783099e8b5580b7dbab net/mlx5e: Support enhanced CQE compression
+fdb5255abd61c6318ed9d3bd41f3c808d0fda0ad net/tls: Perform immediate device ctx cleanup when possible
+2711448ae6a7afc5a9d426e3fb2828cc3a7da132 net/tls: Multi-threaded calls to TX tls_dev_del
+f194dc7fc67a1733f18a900c570501aeea57c69a net/mlx5e: kTLS, Introduce TLS-specific create TIS
+e7ed19e5da3c53c6dea992732d325909e9f7df47 net/mlx5e: kTLS, Take stats out of OOO handler
+52eaebc879282155546b7b95821a3d391d11ee12 net/mlx5e: kTLS, Recycle objects of device-offloaded TLS TX connections
+ca244161bef831394a99cc0946d6d092aac6c0d8 net/mlx5e: kTLS, Dynamically re-size TX recycling pool
+df7ae0d22400706f96093b52152fba46c9c649f4 sched/topology: Expose sched_numa_find_closest
+63c300345c8b5a71c7b1cb801f43f3ebfe3fd469 net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+e29545e3273f53a7c42444770b4d37233baeec1d net/mlx5e: Move params kernel log print to probe function
+b571fc234e7c13f4e8d60a526891fcb67499156b Merge branch 'patchq/496064' into mlx5-queue
+ba8d68d8a4a70f711ecde796d05feca0c04e5e40 Merge branch 'patchq/323390' into mlx5-queue
+dc331d54b7b9defd27950402d3da2d5aeb6a31a2 Merge branch 'patchq/474284' into mlx5-queue
+f279af34da43e2c9e3d340ea7c4ba9422a71ccb0 Merge branch 'patchq/364346' into mlx5-queue
+a6378b10fa9ccb85fa29e4e811a2679da3e026c1 Merge branch 'patchq/505590' into mlx5-queue
 
---===============7912749433552052513==--
+--===============7415199318691535608==--
