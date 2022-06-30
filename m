@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6277101685663694827=="
+Content-Type: multipart/mixed; boundary="===============0305086225315316141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 30 Jun 2022 12:48:09 -0000
-Message-Id: <165659328909.3126.1825699783661759010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 Jun 2022 12:48:16 -0000
+Message-Id: <165659329601.3205.6849707495668623118@gitolite.kernel.org>
 
---===============6277101685663694827==
+--===============0305086225315316141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: db7bc2741a2aca91b9a4df1bb03e4997a0e90807
     new: cabcd219cee142a0f55516d2e257c8833cbd14f6
     log: |
@@ -27,28 +27,28 @@ changes:
          cabcd219cee142a0f55516d2e257c8833cbd14f6 ASoC: tas2764: Fix amp gain register offset & default
          
 
---===============6277101685663694827==
+--===============0305086225315316141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656593287 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1656593287-da389b0df9d6c0bfd97ae9883364af29a12e0f1d
+pusher C3F436CA30F5D8EB 1656593294 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1656593294-bf489be7c7431fcbe28f481877b604baef6876d4
 
-db7bc2741a2aca91b9a4df1bb03e4997a0e90807 cabcd219cee142a0f55516d2e257c8833cbd14f6 refs/heads/for-5.19
+db7bc2741a2aca91b9a4df1bb03e4997a0e90807 cabcd219cee142a0f55516d2e257c8833cbd14f6 refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK9m4cACgkQJNaLcl1U
-h9DdRAf/eKaWqf6LtCNz0Yqr68sJkQmcDU8CsfWLytq9nzCHH3HCJRu71oBZ8ITJ
-7+SipicNTFAAxn1e5+sHXQH6IpMNakFmvUZtlKRd9Y1Smz5rQ7bjT7gqkuV3HlJq
-o2oXRTB5YAjH3QlTzCqyx/pe8BsQPKQdbfYpySSfWqRbDLZ6WTfOI4WJvjeP9VpK
-5GJk9utDYF0VhBPAoO37kt4+IGsbYEVx6jVif9usPZi8BurfeXt9aZQIOWZfwiO8
-tNJalHDLS15nBKI8v7FxlzRol8R3fFo4lyKQXim/zvYK0qE4mn1OMNfLFsAP3JYW
-PogJOqMhme+ZzLXsjse3Dqe/uvfuog==
-=OGKQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK9m44ACgkQJNaLcl1U
+h9Dm0wf+IaZKtRHwLNVqDtS4r8KRZeclzXyUxIUau0Y0d+WaBRXFDBRbrFqM4VQk
+DbZ+VgKUG4B4rUeZNaweIrF7DnSbfyWGsnWvSHkspjbSnRSAoIfYqnL5wox0ZMrb
+WupiLZbqov52CpQZCKkzdz2TRrbnK5OAtfXSCvIy7zObmRiFAdD3EMimDxvllf1p
+4VgBe018mHdb6R0PydEws+ZaAjMAW17WkfLSGUUyTW+aAOmW1hp/qV+jbUIokZcb
+6YYwFys5yR5keK6fIayfAnHDYswGlXNJRE2WduCrNhkmA13ey67ceQ+2oveR09iq
+e5/TPBlPGEazw0iU1wrAWncHK1Xe6Q==
+=PzPd
 -----END PGP SIGNATURE-----
 
---===============6277101685663694827==--
+--===============0305086225315316141==--
