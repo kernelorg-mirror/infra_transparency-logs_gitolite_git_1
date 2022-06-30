@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8809085222379336872=="
+Content-Type: multipart/mixed; boundary="===============7993412907402360211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 30 Jun 2022 15:10:31 -0000
-Message-Id: <165660183127.2838.11926286307736456118@gitolite.kernel.org>
+Date: Thu, 30 Jun 2022 15:11:27 -0000
+Message-Id: <165660188737.3229.729092787448380803@gitolite.kernel.org>
 
---===============8809085222379336872==
+--===============7993412907402360211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 9636047ffafcf5988946c05f0ebd7e0b2114aa74
-    new: 65e20e8cbbccaf0968474d27420c3a5170a5a5b8
+    old: 65e20e8cbbccaf0968474d27420c3a5170a5a5b8
+    new: e9f9736679566cfa4158a40820cd50a46e601349
     log: |
-         72a43046b61a3fe7164a622224bcdfc3cf6b795d tty: serial: samsung_tty: loopback mode support
-         137b2d985928890557f8e73cf7e53677637b7af8 serial: 8250_port: Fix spelling mistake
-         b9491b2e45d71eb64245560e208897af95ffbf95 serial: 8250_dw: Take port lock while accessing LSR
-         65e20e8cbbccaf0968474d27420c3a5170a5a5b8 earlycon: prevent multiple register_console()
+         6343ecd76c828951fbe55e7d5b29e1923655aed9 serial: 8250_dw: Sort headers alphabetically
+         808313bc2182ab60761eed82d2c345883fbc65a7 serial: 8250_dw: Drop PM ifdeffery
+         e9f9736679566cfa4158a40820cd50a46e601349 8250_dwlib: Convert bitops to newer form
          
 
---===============8809085222379336872==
+--===============7993412907402360211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656601829 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656601886 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1656601828-5e86a0117f2591a2f8f050251c32d80f5f7c3546
+nonce 1656601885-c402b4767608160c4816c58a4e49e4f3e3be2c2d
 
-9636047ffafcf5988946c05f0ebd7e0b2114aa74 65e20e8cbbccaf0968474d27420c3a5170a5a5b8 refs/heads/tty-testing
+65e20e8cbbccaf0968474d27420c3a5170a5a5b8 e9f9736679566cfa4158a40820cd50a46e601349 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK9vOUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qVwQAIEXfZRLQ2Y0ogLDKlb/
-7M1vjaXgM3tyoWiZQTg+vrPwkdHjLiaH7a+0XwqUtEKTcQR1yvb2jwYQtl2mDRk9
-mPQEtvmdhMMrlyPh88W+L4vPyq5xQQ/ZkYS4udQtGajPhKzgyL4rm1vQMFhqIJE9
-ARudcPuWMOTPTrdfdu8RCJmeVU+iNGGX+l7kFbt5f0IdRQzrGu/ByRPcNdughUdg
-Hv9S3WdOTow5fV1k+MlAYxDJst2Hd6ZAfiddjUfNkmstIKQOlphKtLZuhIGFVgRa
-WNv1Vtnm1dQrCB+YK/aVXtuEu19GCORfexeacYBrUHB0YD3y3UVubClyKMPs4zLj
-Ka9UWw4GwY5msrRdOWGddJioQcFZJx6NR29orKe3t2dorH79OqZh2hrl84mYxmvl
-DOF8WNAl/U3uNPvUbzVZpQusggZNTXgXa6S/1TlyNSxpK+FFMBJLf9lSJFbyW1UB
-ZuLISdoQQi5XUal/61Huw83r+tsbjZS3lZp8mLLq/MYzOKHQM0Toc0gz8CNGYJ3F
-rDm95qEOEi9pC4hfGrZUM+ziyh4eGqgzRt6GoO69BdHZxBR+kjsvCZJGFDiewlgm
-gdTebNbk9zVSUZv7okFXRi46JRKAotMf/2pjUoM5ZkBH1PDLWNT1KRGIw1OTzs7r
-g6fly5a+LEBo5SLyK++jQnfO
-=zcU2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK9vR4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5n0P/1riSv1BV6jLGGFlQFa9
+G1wn9b5AM0a66j/115kxzaeysostsreW/jSoEm2VusEAbM4by7k9od3MmpYZj/VI
+8Ao80ozdW0Uz+d2sBRimXUpj5xU/fY2BG6qSHXnKAWV8i9vRh4l1x4UHYhJlIpM5
+pvhUaJloQaknCj39r7Lb9DJsk7ixJjN8gTHV5nYSh2QtjdE0Tsd4k/fiidStZwAC
+CDKkJ/LfgkNM3tI3A+HOPVRvw57NJj+SX6P8ePB7dkImscmBqtKwGLowaIYR77fv
+k2PTv6+uOXVgrSEk9kvlMvg2DkzK5NdRdDpugF1kWE1O56dysBz/bMUJAz3uAUmK
+ZM6RVUT11nZcXzD5SzqPKmYsRvM1Z+6GIBXPDMaw5icRgNSMU6Q9SOiO96LVASAt
+zFzwa5DbkS5//OtHd0GM9xG1bFN7C1OkpoOdVO6Qb6YWVask3i451QxHwz6l3bWn
+sObrEwcVEnfmFLHszBrd1VC0Imj/uBbfNIRxkU2CizqlmX53iTlyASCrwG4/f2Bo
+1qMrPl1/kFLUEfCPNCY8YHW+1HCuVdvZcf1JNHimet3PyEtrwOf60kzX/KBsjODT
+oDmZT+VVSeR+3TsH0Ipsc4juHGvtf8URwDKucOH+3bM7NAIxuUQKeRj2g+JjW0WR
+e8wCW6+eY5YMNjiHV4Yzy1Us
+=gIbo
 -----END PGP SIGNATURE-----
 
---===============8809085222379336872==--
+--===============7993412907402360211==--
