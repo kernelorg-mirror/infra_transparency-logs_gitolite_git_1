@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 30 Jun 2022 14:19:01 -0000
-Message-Id: <165659874149.1207.7584385197463214621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 30 Jun 2022 14:48:00 -0000
+Message-Id: <165660048068.20471.10321763958695645150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-next
-    old: b0cbd6154a9a3964490cafa0a9444be626271bd9
-    new: 6d304871e3ef4c339c06aa9b4ab55b6c77642884
+  - ref: refs/heads/master
+    old: edc7f3a2d3e1bed358c64ff0ba9276c2610eac02
+    new: f609cb5185acb0955d66795cb297e9fe9d83405a
     log: |
-         27b3f70553432114b3d26f4d9c72cf02f38b84ee bpftool: Add feature list (prog/map/link/attach types, helpers)
-         6d304871e3ef4c339c06aa9b4ab55b6c77642884 bpftool: Use feature list in bash completion
+         f609cb5185acb0955d66795cb297e9fe9d83405a libkmod: Support SM3 hash algorithm
          
