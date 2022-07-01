@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3385810704820681076=="
+Content-Type: multipart/mixed; boundary="===============0200226900158195337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 01 Jul 2022 07:57:28 -0000
-Message-Id: <165666224873.22369.13406399784907912586@gitolite.kernel.org>
+Date: Fri, 01 Jul 2022 07:59:13 -0000
+Message-Id: <165666235350.22967.6147562453905757888@gitolite.kernel.org>
 
---===============3385810704820681076==
+--===============0200226900158195337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: df8d0a55047b57074ac69db795a9775b3abe364e
-    new: 3355a12760deceb09e1888c5b9ad1f89bf86939b
+  - ref: refs/heads/staging-linus
+    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+    new: ee6c6e7342471d468096a16bee9f89b5a6c1e39d
     log: |
-         c87d8e90bccb835184749621d990f7626c3daf31 staging: r8188eu: drop return value from receive_disconnect
-         d61da1d7a1bf9f6483ec15e9dd3b1023bf293264 staging: r8188eu: remove HW_VAR_H2C_MEDIA_STATUS_RPT from SetHwReg8188EU()
-         3355a12760deceb09e1888c5b9ad1f89bf86939b staging: r8188eu: remove unneeded semicolon
+         ee6c6e7342471d468096a16bee9f89b5a6c1e39d staging/wlan-ng: get the correct struct hfa384x in work callback
          
 
---===============3385810704820681076==
+--===============0200226900158195337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656662244 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656662352 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1656662243-9a517da48787f318dbe01049c89afa0f85bd0f17
+nonce 1656662351-d1d9c0eb5964a831f69ca98e2756897ad58ff86e
 
-df8d0a55047b57074ac69db795a9775b3abe364e 3355a12760deceb09e1888c5b9ad1f89bf86939b refs/heads/staging-testing
+a111daf0c53ae91e71fd2bfe7497862d14132e3e ee6c6e7342471d468096a16bee9f89b5a6c1e39d refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+qOQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lgQQAKpz/Pif7AsUU7+nCfuw
-7DHmOM73TEyfj1mP+MlOMeJdjT/eWRnJu5rVp0dnTUYLrh9UPh0K5SveHh47Opro
-ZnDNLogw4l5sIAH6ecf6yHqTCRLoYJfcM0jfy7g0UkZQ+JDPXWkUhQyNsKO6RDhY
-3EoEaTggUL4jmoqsCjJwbluXj2K1Il+DjrU2y5GF/VsEJN7E8la5/hWXyGMWFG9m
-I15DjGlON7voYW9pxmwXiKCmc9mHfsdi5XSELVhKk7PkuQy4VtXSZv3+PBMsx4ZR
-vB+sH9aFAipUJM9PJ8ABZU2rvzgMLNIHomKAcurgOYE1koWtYWQyIZTnZXAVvUma
-xoU0l5L4ZxPf0TlaJeSPSaU3YSOwQoFJJa6s/BwUfHLIXOM/i8/8B1pIZrhlfek3
-Rfc1bCnu/qLV6ldv7ucxfkZRg1NOV/U02n5qrtCFS2mpPhw9LQ8hRupNNTH1LKwX
-gYo7n664H/eRl5stfZWHuVqx408imLFK4sOON13/sXwsZse+0qHzGtUvkipRRAxO
-Edm7SF5RLO8erSEFTYPZ/+WMJg91xW5qbhVnbR+BPOJC/j2INZJDMiRQVItCNheh
-0o/DWlXfE/MNaEJldad8Zvxp2IhYXAbinORM9YJCVwCtkC+TcmcdQ/gOg1EToT+q
-WyYb2Oo+Zfg3PnGw8tb3fbqr
-=85P3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+qVAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bBoP+gLJRaeTz0irhkHqjlL4
+5AqN8Ka8Rq87RQTdSl+wNPro9II5EYHuXCgE3queqzv6lXsJHPI/RGascU8pNxwu
+JPIcOnu+hRg/GpiG4c959C6+9mVPUa0YaWqDHmgB9jeKHA1H8oda1c+V1GGXtO6I
+9BdVw6y+0bIAbqsSkqR6s1zbKPB2iTDkiQVgH2ktDZeOIWz8VhiIRmYCNobrBx0z
+mmBl9f7sG4VsXgRn1MRthyL8B3gdc5zPMw2+4UuprriRo+pzId6ZuRSpG0UUxjQk
+rRJIXctZb+04sa9LevhA2/h+4G18wmsSDJfA2br49nH8BPEmyPjQRnIegPMVZJEj
+SRASMzjJohPQuMY5DAijupVWRjErZoIf0dyXQU9VGpg8MYMpSAqQbXVwOtrHpbAz
+I0vq/5ASKvoJHUQwdqNs1ZzCg0fCYyTz/8w1+ehIGMFh1jEPrq9SSbjNGU3BxBwg
+4SVP4MtLwvuAqumjkwbwlpGuYKrErkMfCPN0X7ujDyrIeOAGkXgDYLs1K4NVeWmF
+JhFo7l7GPkkEyUf6FUrZ1dffiyMPYeH2fGiCw6fi0XDdvKwRVT7m3V0vC20Hvq89
+kf4aZeVItMI3+5PIORTqbU2ocbTou9e8TuM8qpUW+5JifDCv004eioi+aYLrNw/3
+F7h97lYdOAW8aiLdWiCxMGab
+=LWyn
 -----END PGP SIGNATURE-----
 
---===============3385810704820681076==--
+--===============0200226900158195337==--
