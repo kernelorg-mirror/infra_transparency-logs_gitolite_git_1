@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 01 Jul 2022 12:50:40 -0000
-Message-Id: <165667984068.3863.10643490858714519527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 01 Jul 2022 12:52:45 -0000
+Message-Id: <165667996555.4563.6712025608908397210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 71560d98e7f18eb316a17cf12dc139eacb5b490f
-    new: 8dfeee9dc52cb979cf520f6b345e7baa6b29ecb4
+    old: c7b1267b1c64925ef0c036ffb303057884481c53
+    new: dbdd9a28e1406ab8218a69e60f10a168b968c81d
     log: |
-         8dfeee9dc52cb979cf520f6b345e7baa6b29ecb4 net: usb: Fix typo in code
+         dbdd9a28e1406ab8218a69e60f10a168b968c81d net/cmsg_sender: Remove a semicolon
          
