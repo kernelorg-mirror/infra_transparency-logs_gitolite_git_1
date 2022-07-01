@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2736552407652609910=="
+Content-Type: multipart/mixed; boundary="===============9106340038332281608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 01 Jul 2022 16:37:34 -0000
-Message-Id: <165669345408.18782.9760076793048228008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 01 Jul 2022 16:39:52 -0000
+Message-Id: <165669359281.19532.1491155280351146263@gitolite.kernel.org>
 
---===============2736552407652609910==
+--===============9106340038332281608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev-queue
-    old: 9d7f023b5b958ded4bb3958212148dc6be9be266
-    new: 57465dfc385d298ab85eb335049055eddd3b283f
-    log: revlist-9d7f023b5b95-57465dfc385d.txt
+  - ref: refs/heads/net-mlx5
+    old: 9577fc5fdc8b07b891709af6453545db405e24ad
+    new: 8dfeee9dc52cb979cf520f6b345e7baa6b29ecb4
+    log: revlist-9577fc5fdc8b-8dfeee9dc52c.txt
 
---===============2736552407652609910==
+--===============9106340038332281608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d7f023b5b95-57465dfc385d.txt
+Content-Disposition: attachment; filename=revlist-9577fc5fdc8b-8dfeee9dc52c.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -389,6 +389,9 @@ e0c2ce8217955537dd5434baeba061f209797119 virtio_mmio: Restore guest page size on
 c7cc29aaebf9eaa543b4c70801e0ecef1101b3c8 virtio_ring: make vring_create_virtqueue_split prettier
 a27a1e35f5c87463ba7c12d5b7d7cbafbefc9213 platform/x86: ideapad-laptop: Add allow_v4_dytc module parameter
 8853e8ce9b576e0a3aad8381e19a117964d445fa platform/x86: ideapad-laptop: Add Ideapad 5 15ITL05 to ideapad_dytc_v4_allow_table[]
+05907f10e235680cc7fb196810e4ad3215d5e648 netfilter: nft_dynset: restore set element counter when failing to update
+e34b9ed96ce3b06c79bf884009b16961ca478f87 netfilter: nf_tables: avoid skb access on nf_stolen
+c2577862eeb0be94f151f2f1fff662b028061b00 netfilter: br_netfilter: do not skip all hooks with 0 priority
 2390095113e98fc52fffe35c5206d30d9efe3f78 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
 941e3e7912696b9fbe3586083a7c2e102cee7a87 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 8698e3bab4dd7968666e84e111d0bfd17c040e77 fanotify: refine the validation checks on non-dir inode mask
@@ -404,31 +407,29 @@ bce6243f767f7da88aa4674d5d678f9f156eaba9 platform/x86: thinkpad_acpi: do not use
 9ab762a84b8094540c18a170e5ddd6488632c456 platform/x86: hp-wmi: Ignore Sanitization Mode event
 732f30694325ab586a4d90412ace81e50dfe448e Merge tag '5.19-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 d9b2ba67917c18822c6a09af41c32fa161f1606b Merge tag 'platform-drivers-x86-v5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+236d59292efab107fb7b83f34c78ed2b10ed8e6d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+7b92aa9e613508cbaa29dd35bf27db4c35628b10 selftests net: fix kselftest net fatal error
+e65af5403e462ccd7dff6a045a886c64da598c2e usbnet: fix memory allocation in helpers
+1758bde2e4aa5ff188d53e7d9d388bbb7e12eebb net: phy: Don't trigger state machine while in suspend
+fa152f626b24ec2ca3489100d8c5c0a0bce4e2ef net: phy: ax88772a: fix lost pause advertisement configuration
+4e43e64d0f1332fcc503babad4dc31aead7131ca ipv6: fix lockdep splat in in6_dump_addrs()
+050133e1aa2cb49bb17be847d48a4431598ef562 net: bonding: fix use-after-free after 802.3ad slave unbind
+f8ebb3ac881b17712e1d5967c97ab1806b16d3d6 net: usb: ax88179_178a: Fix packet receiving
+9cc02ede696272c5271a401e4f27c262359bc2f6 net: rose: fix UAF bugs caused by timer handler
+665030fd0c1ed9f505932e6e73e7a2c788787a0a mlxsw: spectrum_router: Fix rollback in tunnel next hop init
+0a18d802d65cf662644fd1d369c86d84a5630652 net: sfp: fix memory leak in sfp_probe()
 f5da5ddf81ad0bfb91fa5e7d087e2ad96f26b7b7 Merge tag 'v5.19-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 9fb3bb25d15326464e2183a5eb4b1ea8725d560c Merge tag 'fsnotify_for_v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 1a0e93df1e107dc766fdf86ae88076efd9f376e6 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+9c5de246c1dbe785268fc2e83c88624b92e4ec93 net: sparx5: mdb add/del handle non-sparx5 devices
+ff1fa2081d173b01cebe2fbf0a2d0f1cee9ce4b5 net: tun: avoid disabling NAPI twice
+839b92fede7ba308f1a475aa00fea55f63b7fccf selftest: tun: add test for NAPI dismantle
+58bf4db695287c4bb2a5fc9fc12c78fdd4c36894 net: dsa: felix: fix race between reading PSFP stats and port stats
 1adb1563e7b7ec659379a18e607e8bc3522d8a78 i40e: Fix dropped jumbo frames statistics
 fed0d9f13266a22ce1fc9a97521ef9cdc6271a23 i40e: Fix VF's MAC Address change on VM
 868f9f2f8e004bfe0d3935b1976f625b2924893b vfs: fix copy_file_range() regression in cross-fs copies
 5e8379351dbde61ea383e514f0f9ecb2c047cf4e Merge tag 'net-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 71560d98e7f18eb316a17cf12dc139eacb5b490f Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 8dfeee9dc52cb979cf520f6b345e7baa6b29ecb4 net: usb: Fix typo in code
-01323d38cef5230fca2a520baba1ed64fbf4a2d0 ice: prevent low-core machines crashing on DCB config
-0847a357692d375e40bd1bc8bd8c119331e0b6f8 i40e: Fix interface init with MSI interrupts (no MSI-X)
-2800e9c471e2610638a6d137fbc571eaf6222998 igc: Reinstate IGC_REMOVED logic and implement it properly
-41edad58d3a88d82e479ab2bc3466c087044d77d ice: handle E822 generic device ID in PLDM header
-2de4faf9d952101f8398f1fb2e473d3807fc6ae2 ice: change devlink code to read NVM in blocks
-fe9eeec7875298794172e923b8fcabea983ddf77 iavf: Fix VLAN_V2 addition/rejection
-2f18b2acf81d1b5cc6b246800147667cbfc509d0 iavf: Fix max_rate limiting
-a8ccdce2df2521a29502fb341aa65c3cc5854b08 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
-a0bde561b5ed010d8bffce557f66c8576afbd958 iavf: Fix missing state logs
-31fd3fbb97e6ceb8befa38f60bdbe73d347857a3 iavf: Fix 'tc qdisc show' listing too many queues
-3774799d5d28b4fb354129ca5c1ad48e68166e3e iavf: validate dest MAC and VLAN from tc-filter code path
-629fc5b0d73e0e727926be636e35a7d2c2768749 iavf: enable tc filter configuration only if hw-tc-offload is on
-1b42e30ab10151b5e2d729ca7fa03e2acd2e0a54 i40e: Fix erroneous adapter reinitialization during recovery process
-d755e1b49d2ad2c935dbbdd7c78bf4d5599f83b9 iavf: Fix reset error handling
-aced2604d57c47ab3e1038d321b54df39ae03189 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-7e85b2407720db2fbdd0555685b1010ef73dbf2b iavf: Fix adminq error handling
-57465dfc385d298ab85eb335049055eddd3b283f iavf: Fix handling of dummy receive descriptors
 
---===============2736552407652609910==--
+--===============9106340038332281608==--
