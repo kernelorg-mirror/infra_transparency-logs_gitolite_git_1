@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 01 Jul 2022 14:12:09 -0000
-Message-Id: <165668472910.19637.10035701970168933665@gitolite.kernel.org>
+Date: Fri, 01 Jul 2022 14:13:23 -0000
+Message-Id: <165668480392.21206.11577270090337329416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/renesas/dt-bindings
+  - ref: refs/heads/socfpga/dt
     old: 0000000000000000000000000000000000000000
-    new: 774fecc7ece1d5b7c604402ac2daede14825a467
+    new: 357513c052e10945427dd341bdf7a7ee5bf065a9
