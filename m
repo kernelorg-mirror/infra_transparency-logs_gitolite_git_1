@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 01 Jul 2022 05:53:36 -0000
-Message-Id: <165665481631.5247.13200746480772858266@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1680880761583725765=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 01 Jul 2022 06:21:15 -0000
+Message-Id: <165665647560.23856.5700113204008853164@gitolite.kernel.org>
+
+--===============1680880761583725765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5a24389457ba82e8ce176e0325f5a1b79ed5be14
-    new: 087b79854b9bf8cff3f7b4dd2a25380aac6858a4
+  - ref: refs/heads/usb-next
+    old: 3b91edd624ab1ab694deef513a45eb9e9d49d75f
+    new: 1ce69c35b86038dd11d3a6115a04501c5b89a940
     log: |
-         c7e5c423cb59caddbf296717af484dcbacd76a3f net: gianfar: add support for software TX timestamping
-         1c9017e44af2eee94b1001af18c401ae440ad77c net: dsa: felix: keep reference on entire tc-taprio config
-         d68a373bfbf4c0bbe5ea2a420d7a79b28fef1921 net: dsa: felix: keep QSYS_TAG_CONFIG_INIT_GATE_STATE(0xFF) out of rmw
-         55a515b1f5a97df5704a1788fe97a4a740be2b9e net: dsa: felix: drop oversized frames with tc-taprio instead of hanging the port
-         837ced3a1a5d8bb1a637dd584711f31ae6b54d93 time64.h: consolidate uses of PSEC_PER_NSEC
-         087b79854b9bf8cff3f7b4dd2a25380aac6858a4 Merge branch 'prevent-permanently-closed-tc-taprio-gates-from-blocking-a-felix-dsa-switch-port'
+         1ce69c35b86038dd11d3a6115a04501c5b89a940 usb: host: xhci: use snprintf() in xhci_decode_trb()
          
+
+--===============1680880761583725765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656656475 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1656656474-7c3ec905af7b178134c0f102b4194ba3616e798a
+
+3b91edd624ab1ab694deef513a45eb9e9d49d75f 1ce69c35b86038dd11d3a6115a04501c5b89a940 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+klsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3q8P/0eupRlYgsMINrBOC3FP
+k+eN3rGeE/G0GDwyyiGitu2naNLQE81gRIvjwiuvx1/9sZToAkJtKnVEDCndb0f/
+4UbDOPQKCybZ7nLNzUqBqcsqf4JREVqhuBrxRtJp8rh9sNh4aQp0O5SmA39D9JL1
+MRsO4jqI4xW0W1F+tJBL2saaTXAu+KJm+TeL/NJvcGH+FfE7qwJWl+TOUcwvQ5Kq
+mwA2XtKyLgE6ys7K4hbStVf4ZN+rAkGwk+FnPy8oUkUamBLra8QxEKThmm0uiqU1
+XhH2p8dVD85Tg6EeLzINpYHkyDXrDUQwhN+foHG+XKTVwflxmXrz8IyH7iiPEuuv
+AgO5+oI+snwXV2CjzWAC9o5pS0TSyXN7bPkaIt4oN4P/k6phTpclQbxlj3ykzmgs
+0UhL8YRIVL4QaHfQTxEBrvgPWK13OScNw3B0vNg/rAdfXnmo9l+cUnfHfLW0B066
++3nojKyHwbbcJnwbRv4vIt8XyT3eXUZeFh+ZGc6gvnZIQ18ngqZBl6QAuE9Jy/I1
+CJF5QCN5HVJPPy4Y8S2Z/8Hymwa3s3g5NAIPQeDYSTAKCiA8S2fY5ptfVc3GdAjN
+AvatTCdpH4VovUS2lki8MxKxZkS5AkUHJBXEtJYd3y0snlh1YIQNdZjT+jwdmQNv
+ZGCuXgNP+xf+e8nXH7226rZF
+=W/hn
+-----END PGP SIGNATURE-----
+
+--===============1680880761583725765==--
