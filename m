@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Fri, 01 Jul 2022 23:48:07 -0000
-Message-Id: <165671928727.16317.5557506911254959208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 01 Jul 2022 23:51:11 -0000
+Message-Id: <165671947138.18856.15560933763219912308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/main
-    old: 024103923a5c826e40c993be4ee2ada5536cb66a
-    new: 6bf5abef42b2a8040cd935aa701d1ffb83f889a2
-    log: |
-         6bf5abef42b2a8040cd935aa701d1ffb83f889a2 uapi: update mptcp.h
-         
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
