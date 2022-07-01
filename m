@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 01 Jul 2022 23:51:11 -0000
-Message-Id: <165671947138.18856.15560933763219912308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 01 Jul 2022 23:55:46 -0000
+Message-Id: <165671974689.21805.6917401292724405381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/heads/master
+    old: 0a20592393f98a6f578ceab2b2a18e94aae6cd39
+    new: f30d2833aa9ca957f58886b9fe50790e4c3c4412
+    log: |
+         f30d2833aa9ca957f58886b9fe50790e4c3c4412 foo
+         
