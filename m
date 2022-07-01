@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 01 Jul 2022 07:05:57 -0000
-Message-Id: <165665915759.21278.13831609957265312624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 01 Jul 2022 07:06:52 -0000
+Message-Id: <165665921282.21620.4687258561897047596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 96b80fcd2705fc50ebe1f7f3ce204e861b3099ab
-    new: 0f3bf633fa835b1d4f53a98ab6b1b5df6e246353
+  - ref: refs/heads/renesas-pinctrl
+    old: 5dbccf2753bf0211720c5b1a785ae9ae5bcd88a4
+    new: 29a99eb2215a2bf56c9e8ffa6fbeddc41f8bbf2e
     log: |
-         0f3bf633fa835b1d4f53a98ab6b1b5df6e246353 parisc: Fix vDSO signal breakage on 32-bit kernel
+         34e3b69b1edc966f0f4dcdd880afba3a2dad8c09 dt-bindings: pinctrl: Add DT bindings for Renesas RZ/V2M pinctrl
+         29a99eb2215a2bf56c9e8ffa6fbeddc41f8bbf2e pinctrl: renesas: Add RZ/V2M pin and gpio controller driver
+         
+  - ref: refs/heads/renesas-pinctrl-for-v5.20
+    old: 5dbccf2753bf0211720c5b1a785ae9ae5bcd88a4
+    new: 29a99eb2215a2bf56c9e8ffa6fbeddc41f8bbf2e
+    log: |
+         34e3b69b1edc966f0f4dcdd880afba3a2dad8c09 dt-bindings: pinctrl: Add DT bindings for Renesas RZ/V2M pinctrl
+         29a99eb2215a2bf56c9e8ffa6fbeddc41f8bbf2e pinctrl: renesas: Add RZ/V2M pin and gpio controller driver
          
