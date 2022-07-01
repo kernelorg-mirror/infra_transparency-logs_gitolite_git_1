@@ -1,53 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2230058566026534243=="
+Content-Type: multipart/mixed; boundary="===============6017706946759347054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 01 Jul 2022 18:02:03 -0000
-Message-Id: <165669852311.11362.4520261193813391794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Fri, 01 Jul 2022 18:09:00 -0000
+Message-Id: <165669894043.15036.4575724709020188192@gitolite.kernel.org>
 
---===============2230058566026534243==
+--===============6017706946759347054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/zx2c4/linux
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: a175eca0f3d747599f1fdfac04cc9195b71ec996
-    new: 8300d380309a47b4f960379667278bcfa4d901e1
-    log: revlist-a175eca0f3d7-8300d380309a.txt
+    old: 9e9e8beae10c8a2e6358904aa0d6e2c88d3fb0a2
+    new: 5104649615557dbd1461b9bc1cdfe308a68f2035
+    log: revlist-9e9e8beae10c-510464961555.txt
 
---===============2230058566026534243==
+--===============6017706946759347054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a175eca0f3d7-8300d380309a.txt
+Content-Disposition: attachment; filename=revlist-9e9e8beae10c-510464961555.txt
 
-a1ea0857b59757733d58908dd55bf4b722ee574f clk: stm32: rcc_reset: Fix missing spin_lock_init()
-a79e69c8714f416bd324952d06d1dd7bce3f35bf MAINTAINERS: add include/dt-bindings/clock to COMMON CLK FRAMEWORK
-fbb564a557809466c171b95f8d593a0972450ff2 lib/sbitmap: Fix invalid loop in __sbitmap_queue_get_batch()
-332bd0778775d0cf105c4b9e03e460b590749916 dm raid: fix accesses beyond end of raid member array
-fce54ed027577517df1e74b7d54dc2b1bd536887 scsi: hisi_sas: Limit max hw sectors for v3 HW
-ed0691cf55140ce0f3fb100225645d902cce904b nvmet-tcp: fix regression in data_digest calculation
-41d07df7de841bfbc32725ce21d933ad358f2844 nvme-tcp: always fail a request when sending it failed
-1629de0e0373e04d68e88e6d9d3071fbf70b7ea8 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
-f7f70f4aa09dc43d7455c060143e86a017c30548 nvme: fix regression when disconnect a recovering ctrl
-32788beb103f7f71e0192dce701f387070914651 ata: pata_cs5535: Fix W=1 warnings
-1ebc2cec0b7dd8dad0812449110803bd875ac816 dm raid: fix KASAN warning in raid5_remove_disk
-617b365872a247480e9dcd50a32c8d1806b21861 dm raid: fix KASAN warning in raid5_add_disks
-34ad61514c4c3657df21a058f9961c3bb2f84ff2 nvmet: add a clear_ids attribute for passthru targets
-e1c70d79346356bb1ede3f79436df80917845ab9 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA IM2P33F8ABR1
-29c1ac230e6056b26846c66881802b581a78ad72 io_uring: keep sendrecv flags in ioprio
-09007af2b627f0f195c6c53c4829b285cc3990ec io_uring: fix provided buffer import
-f3163d8567adbfebe574fb22c647ce5b829c5971 Merge tag 'nvme-5.19-2022-06-30' of git://git.infradead.org/nvme into block-5.19
-9650910d05a31d62f562f90ca15ece685a4c1b9c Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-690685ffcdcec3975f45eafe3dcf4bff29aa1676 Merge tag 'ata-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-067c227379c0ec96cb19ed9aacea6b1281982368 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-d516e221e2fb88cd31c7ea29d743045efc4e69dd Merge tag 'block-5.19-2022-07-01' of git://git.kernel.dk/linux-block
-0a35d1622d5cd7693d75b7124913c75a7e3fabd0 Merge tag 'io_uring-5.19-2022-07-01' of git://git.kernel.dk/linux-block
-8300d380309a47b4f960379667278bcfa4d901e1 Merge tag 'for-5.19/dm-fixes-5' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+c3c595b0dd3c546a91a1897c78a2ea3d3af4528e wireguard: selftests: support OpenRISC
+b42c362bdd279ae96fa5c2c05e4a77ab08780df5 wireguard: selftests: set fake real time in init
+43b75079218aed9866f18a99c38affa72d389503 wireguard: selftests: use virt machine on m68k
+e9c3b856a07063a766eb79c4b737bf75c291fc1f wireguard: selftests: always call kernel makefile
+b9414162000bd6aad89dbc0e333f2a4ffacbea73 wireguard: selftests: use microvm on x86
+d6d8e1a68493488391c0f5c7d838a1bdc089d07d usercopy: use unsigned long instead of uintptr_t
+738363492496fd3aa70c7a21cbfb6e091ff5a03f s390/archrandom: simplify back to earlier design and initialize earlier
+1d1bb217712176c6806e3c143c9f0ef715940b74 dt-bindings: chosen: remove
+e41877693f4689c722f2746ce0b5b672074207fd signal: break out of wait loops on kthread_stop()
+5ab25f82be2b27083e21d171d2cac95e30ff8f2e ath9k: let sleep be interrupted when unregistering hwrng
+52d04686910ebd2de4e64a172e0ca78159071efc powerpc/powernv: delay rng of node creation until later in boot
+ca02e396ba1e18ab76eff5816c2bfa6060cece80 powerpc/powernv: rename remaining rng powernv_ functions to pnv_
+275135ad215d0684b2111a757f09edc91c2c2442 powerpc/kvm: don't crash on missing rng, and use darn
+90f465e33e352adf9bc53535ba4fcec1edf4dfa8 m68k: virt: use RNG seed from bootinfo block
+c19e4a72e3f6ab56b431d94ad8e99138ec9a14eb timekeeping: contribute wall clock to rng on time change
+86364a632de88a346acccedb443db9561ea5efd0 kexecer
+5104649615557dbd1461b9bc1cdfe308a68f2035 x86/setup: Allow passing RNG seeds via e820 setup table
 
---===============2230058566026534243==--
+--===============6017706946759347054==--
