@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7563163477839720730=="
+Content-Type: multipart/mixed; boundary="===============8473271466749820548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 01 Jul 2022 17:15:15 -0000
-Message-Id: <165669571566.13595.5095850350470654661@gitolite.kernel.org>
+Date: Fri, 01 Jul 2022 17:15:25 -0000
+Message-Id: <165669572508.13748.4590179852043525945@gitolite.kernel.org>
 
---===============7563163477839720730==
+--===============8473271466749820548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 702e70143291b09e6245deb8ab904d1c18ed4f47
-    new: dbdd9a28e1406ab8218a69e60f10a168b968c81d
-    log: revlist-702e70143291-dbdd9a28e140.txt
+  - ref: refs/heads/mlx5-queue
+    old: f41f1a0ceb4dacb741fddd7686f92ad8cebb075d
+    new: b25eea2f6cec52dcf1ea0c5ed23a057b6dbcfdc4
+    log: revlist-f41f1a0ceb4d-b25eea2f6cec.txt
 
---===============7563163477839720730==
+--===============8473271466749820548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-702e70143291-dbdd9a28e140.txt
+Content-Disposition: attachment; filename=revlist-f41f1a0ceb4d-b25eea2f6cec.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -534,5 +534,27 @@ e918c137db4083e59866d2aaa603887cbd9969bf net: remove SK_RECLAIM_THRESHOLD and SK
 7fa2d1707d4102a5b3dcd3f49b235015f4d66955 cdc-eem: always use BIT
 c7b1267b1c64925ef0c036ffb303057884481c53 nfp: support VF rate limit with NFDK
 dbdd9a28e1406ab8218a69e60f10a168b968c81d net/cmsg_sender: Remove a semicolon
+c7ebdab976da001badb49c2ae1761b46cb35c33e net/mlx5: Delete ipsec_fs header file as not used
+64143675c7f830f09b0fcebfe4d7345ca96369a3 net/mlx5: delete dead code in mlx5_esw_unlock()
+fa454256f90a9ea104e8fa199d9debdc415c1990 net: Disable LRO feature if no RXCSUM
+d2a6eb49419d20fdcd98b7da35c75c52a015b419 net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+6aa1c54ccf14c34ae000c19df404f6b667090560 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+ac5cc0990cb9856df1c9ca47f94467e2b17aa698 net/mlx5e: Support enhanced CQE compression
+0c2d979fb508d30aff3ebd2a4a6c828ffb655e8b net/tls: Perform immediate device ctx cleanup when possible
+62a74fcbde0bf73b74d99d4864f595c92a9c5720 net/tls: Multi-threaded calls to TX tls_dev_del
+8e0a6e9db59a51b1762a7fdba2dd8c270ae4c2bc net/mlx5e: kTLS, Introduce TLS-specific create TIS
+6e39db80acfd16f9f686a21742357bb013b5f209 net/mlx5e: kTLS, Take stats out of OOO handler
+6ddbbb4ee38f46b4a121472c723bb7a7db560bcc net/mlx5e: kTLS, Recycle objects of device-offloaded TLS TX connections
+b701bea809c892163f011b4c4ceddb6ed7b8dde1 net/mlx5e: kTLS, Dynamically re-size TX recycling pool
+fe1e45e86f23a0cfe144aa793cf6f2603cc8a152 net/mlx5e: Move params kernel log print to probe function
+68ee0a5dfbe5711f7302cb0a224b9bc86565167a sched/topology: Expose sched_numa_find_closest
+1d36200f421e8ef22cd82c43910cc5ba48ce6907 net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+ff949dfe9bd4fd51076a23176df2b9fbf0204765 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+1c818d7094d0be5689b1c417b8621bf39023c0f6 Merge branch 'patchq/496064' into mlx5-queue
+3c58678295be6e0368e536d491c1b9176dac60c1 Merge branch 'patchq/323390' into mlx5-queue
+2afcf638510c7d0ce4ae9b659f004460e53e3251 Merge branch 'patchq/474284' into mlx5-queue
+72a6fdd4b53966c088f7a6e4a4518817b7518159 Merge branch 'patchq/505590' into mlx5-queue
+b363b464de5dac2b1d35ad3823aedf43fb93649e Merge branch 'patchq/364346' into mlx5-queue
+b25eea2f6cec52dcf1ea0c5ed23a057b6dbcfdc4 Merge branch 'patchq/516865' into mlx5-queue
 
---===============7563163477839720730==--
+--===============8473271466749820548==--
