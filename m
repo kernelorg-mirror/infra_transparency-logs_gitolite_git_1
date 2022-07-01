@@ -1,42 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3911693986381782236=="
+Content-Type: multipart/mixed; boundary="===============6096357471094411388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 01 Jul 2022 10:30:01 -0000
-Message-Id: <165667140116.6330.3355513010946940407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 01 Jul 2022 10:30:36 -0000
+Message-Id: <165667143698.8134.14465357348667859188@gitolite.kernel.org>
 
---===============3911693986381782236==
+--===============6096357471094411388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 087b79854b9bf8cff3f7b4dd2a25380aac6858a4
-    new: 456bfd9dc8a11213f665a28d49010ee1d31547c4
-    log: revlist-087b79854b9b-456bfd9dc8a1.txt
+  - ref: refs/heads/for-5.20
+    old: 10365cad180273dee6c5e3b3e29f951ca8e92b53
+    new: 8b037cabc4966b010c44a76e05a43d276318bc49
+    log: |
+         8b037cabc4966b010c44a76e05a43d276318bc49 spi: dt-bindings: dw-apb-ssi: update spi-{r,t}x-bus-width
+         
 
---===============3911693986381782236==
+--===============6096357471094411388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-087b79854b9b-456bfd9dc8a1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-06bca7c2685a9ab129ede0272de00d92c40347ac ice: Add support for double VLAN in switchdev
-ea71b967a50785fed7129aaf0e7cb201944c01e7 ice: Add support for VLAN TPID filters in switchdev
-263957263a0008508b34425dd69722e01e2e4554 ice: switch: dynamically add VLAN headers to dummy packets
-0ca85829903f1d4849f2fb463d86ea04d679c98f ice: use eth_broadcast_addr() to set broadcast address
-afa646299a282c5e621242c2db8c95c0ccb57d0e ice: Remove unnecessary NULL check before dev_put
-36704239c8fe725468a09061fecf9af09ccf43ac marvell/octeontx2/af: fix repeated words in comments
-1c3997b1cdb0e65829c8fb175656a8c8e7735956 ethernet/marvell: fix repeated words in comments
-627838275a5494b9dac5437ad9347a3981ea1505 mellanox/mlxsw: fix repeated words in comments
-951c62709cd8ce485e19c3bedbbd38743a77aa32 ethernet/natsemi: fix repeated words in comments
-f9f108f6d985573b2370abf70818d9d03bd7179e ethernet/neterion: fix repeated words in comments
-023e79db59ad9df54b81a1657af5a10c45de27d3 neterion/vxge: fix repeated words in comments
-456bfd9dc8a11213f665a28d49010ee1d31547c4 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/nex t-queue
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1656671435 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1656671435-007f15fc59988c6a7b5756b3f5c8dc7e5f65a9ea
 
---===============3911693986381782236==--
+10365cad180273dee6c5e3b3e29f951ca8e92b53 8b037cabc4966b010c44a76e05a43d276318bc49 refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmK+zMsACgkQJNaLcl1U
+h9CTbAf/Zg6F5I0EpiI+QjoMsjhxiZWbL13LPIjz2GNIt3OIAGXFttVoMzudw0NC
+0O+y/M559ehkt1UGPWJusndDwGqGZDn2kIiYStY90qceXQlAVD/lm38zXGWDKcrl
++PFX38YKR7YvOYaNnsyIu26n7T8y1j706SkeoSVZqB3Kyuh8cFiEQHSfX0GXWUHx
+uL94DjBm+urRaN6CZMrBqYDxjq4uTrI8mM7qo1BB1KDXzK4cE/Xb9EsOCIeitI/1
+THYQWVZvptLYD/rPSsd/FPGUlz5OkLPt/pcPYmN+XJM6iFuztnKh/3snf9xyPkZl
+pQuxfmWXaM2Wrltnx+CjBeelV3f2Lw==
+=2wpL
+-----END PGP SIGNATURE-----
+
+--===============6096357471094411388==--
