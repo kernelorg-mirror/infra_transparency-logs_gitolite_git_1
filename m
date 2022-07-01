@@ -1,56 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============1680880761583725765=="
+Content-Type: multipart/mixed; boundary="===============4808063054214749356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 01 Jul 2022 06:21:15 -0000
-Message-Id: <165665647560.23856.5700113204008853164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 01 Jul 2022 06:23:53 -0000
+Message-Id: <165665663389.24694.12378943345246064516@gitolite.kernel.org>
 
---===============1680880761583725765==
+--===============4808063054214749356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 3b91edd624ab1ab694deef513a45eb9e9d49d75f
-    new: 1ce69c35b86038dd11d3a6115a04501c5b89a940
+  - ref: refs/heads/tty-next
+    old: f287f971e2569827fe9fb3a8d55a37703a13cf29
+    new: c8177f90b7c618042e8dd19c87307cf29a7dc275
     log: |
-         1ce69c35b86038dd11d3a6115a04501c5b89a940 usb: host: xhci: use snprintf() in xhci_decode_trb()
+         9636047ffafcf5988946c05f0ebd7e0b2114aa74 tty: serial: samsung_tty: support more than 4 uart ports
+         72a43046b61a3fe7164a622224bcdfc3cf6b795d tty: serial: samsung_tty: loopback mode support
+         137b2d985928890557f8e73cf7e53677637b7af8 serial: 8250_port: Fix spelling mistake
+         b9491b2e45d71eb64245560e208897af95ffbf95 serial: 8250_dw: Take port lock while accessing LSR
+         65e20e8cbbccaf0968474d27420c3a5170a5a5b8 earlycon: prevent multiple register_console()
+         6343ecd76c828951fbe55e7d5b29e1923655aed9 serial: 8250_dw: Sort headers alphabetically
+         808313bc2182ab60761eed82d2c345883fbc65a7 serial: 8250_dw: Drop PM ifdeffery
+         e9f9736679566cfa4158a40820cd50a46e601349 8250_dwlib: Convert bitops to newer form
+         309f7beddf053bd0560b07f3251ac64a5872ecf9 serial: 8250_dw: Use dw8250_serial_out() in dw8250_serial_out38x()
+         c8177f90b7c618042e8dd19c87307cf29a7dc275 dt-bindings: serial: 8250: Add npcm845 compatible string
          
 
---===============1680880761583725765==
+--===============4808063054214749356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656656475 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1656656474-7c3ec905af7b178134c0f102b4194ba3616e798a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656656633 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1656656632-fa1d38d116e5b7008ac433f74ea53a76e6eb8353
 
-3b91edd624ab1ab694deef513a45eb9e9d49d75f 1ce69c35b86038dd11d3a6115a04501c5b89a940 refs/heads/usb-next
+f287f971e2569827fe9fb3a8d55a37703a13cf29 c8177f90b7c618042e8dd19c87307cf29a7dc275 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+klsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3q8P/0eupRlYgsMINrBOC3FP
-k+eN3rGeE/G0GDwyyiGitu2naNLQE81gRIvjwiuvx1/9sZToAkJtKnVEDCndb0f/
-4UbDOPQKCybZ7nLNzUqBqcsqf4JREVqhuBrxRtJp8rh9sNh4aQp0O5SmA39D9JL1
-MRsO4jqI4xW0W1F+tJBL2saaTXAu+KJm+TeL/NJvcGH+FfE7qwJWl+TOUcwvQ5Kq
-mwA2XtKyLgE6ys7K4hbStVf4ZN+rAkGwk+FnPy8oUkUamBLra8QxEKThmm0uiqU1
-XhH2p8dVD85Tg6EeLzINpYHkyDXrDUQwhN+foHG+XKTVwflxmXrz8IyH7iiPEuuv
-AgO5+oI+snwXV2CjzWAC9o5pS0TSyXN7bPkaIt4oN4P/k6phTpclQbxlj3ykzmgs
-0UhL8YRIVL4QaHfQTxEBrvgPWK13OScNw3B0vNg/rAdfXnmo9l+cUnfHfLW0B066
-+3nojKyHwbbcJnwbRv4vIt8XyT3eXUZeFh+ZGc6gvnZIQ18ngqZBl6QAuE9Jy/I1
-CJF5QCN5HVJPPy4Y8S2Z/8Hymwa3s3g5NAIPQeDYSTAKCiA8S2fY5ptfVc3GdAjN
-AvatTCdpH4VovUS2lki8MxKxZkS5AkUHJBXEtJYd3y0snlh1YIQNdZjT+jwdmQNv
-ZGCuXgNP+xf+e8nXH7226rZF
-=W/hn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+kvkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YI4QAKCTHslnovmWqx75eG46
+62xD89mnzhQF9fsv5eqcG3uQxJmJTO6vUgvYvmkeKqPCS7p8VvP0CTyoeVcqpXCt
+NEN0dqYBMV+iqkeRxViAAWXwzyGAsT2U8ppzuLwtI2P3IYHowj7B1I/qrma084Ry
+2U0bCzJd44JTh7jROKY2ZBhEh4GM8jy9Q93FkPszrHKLqru4DL/pyQ6TcI2lJ2ou
+8A+qUu9rX+/rbnxtX26FKB6iNy+cyMgV+kF2BFOTKA2+a6aGLQwjhn7gYzVdpZYw
+7Y0cvxiVqqwyJJ0k4aoojIHAFp55DlAD4pDiTIDEeV7iMB6oD+Z4gjsOQOk8pUJl
+Pl+zzrtFnkVoDB+Yi96Kpoq4hdobj871TSnkUlZSNDDTZFirQT74Ot9HCTbfTd8Z
+03WinhaJ12HgFYTBGWqDOQAgbYmzkv5gl4S+6pMidQnpaRkmBNdgQ49EgwX2xU0B
+bm6gqxyNVZDsGg/NINOqwyhCfhAkyTmXluGdY9lx42cm+0vod1SlnysuAcc9ZYyj
+Bw7rxoRIcJi+sz8ybQNAPkXYBVQVtbtccy91XEQ+o5DnMFn6X3qlNBPSKz0YsC0W
+bvtdCAr3z80FqtipWZ3mjAVwOEiE9Z3NY0lrTyDIfLb2TRYFls6BIIHwmLjhyeU+
+xW7sRYwCS/aymTbX4txuq3Qu
+=FaTw
 -----END PGP SIGNATURE-----
 
---===============1680880761583725765==--
+--===============4808063054214749356==--
