@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5929634937061512546=="
+Content-Type: multipart/mixed; boundary="===============0220974962277368321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 01 Jul 2022 20:33:16 -0000
-Message-Id: <165670759690.15450.14801889995253370292@gitolite.kernel.org>
+Date: Fri, 01 Jul 2022 20:34:27 -0000
+Message-Id: <165670766756.15902.11686942191784475818@gitolite.kernel.org>
 
---===============5929634937061512546==
+--===============0220974962277368321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 7f058112873e86ca760f2d2b0e1ccc2ab111f418
-    new: f99d621133ef48c9ace6416e864ffacba1cb2bc8
-    log: revlist-7f058112873e-f99d621133ef.txt
-  - ref: refs/heads/arm/dt
-    old: 0000000000000000000000000000000000000000
-    new: a57cbe02c058410b8d9adc801761ca5d1297785e
-  - ref: refs/heads/arm/defconfig
-    old: 0000000000000000000000000000000000000000
-    new: 89a24d7d85bd4b5899d5a4bb63e56a30e5984300
-  - ref: refs/heads/arm/drivers
-    old: 0000000000000000000000000000000000000000
-    new: aa61fa3e36cf9298ac647e2f10298839413a9403
+  - ref: refs/heads/for-next
+    old: 3949559bf346b6bd7cab90f4f8384c2c0badd0b3
+    new: 070f292974c2bb872ceed83c6d4f447f1893b165
+    log: revlist-3949559bf346-070f292974c2.txt
 
---===============5929634937061512546==
+--===============0220974962277368321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f058112873e-f99d621133ef.txt
+Content-Disposition: attachment; filename=revlist-3949559bf346-070f292974c2.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -49,11 +40,28 @@ e5925fb867290ee924fcf2fe3ca887b792714366 x86/bugs: Group MDS, TAA & Processor MM
 22cac9c677c95f3ac5c9244f8ca0afdc7c8afb19 x86/speculation/srbds: Update SRBDS mitigation selection
 a992b8a4682f119ae035a01b40d4d0665c4a2875 x86/speculation/mmio: Reuse SRBDS mitigation for SBDS
 027bbb884be006b05d9c577d6401686053aa789e KVM: x86/speculation: Disable Fill buffer clear within guests
+a2106f38077e78afcb4bf98fdda3e162118cfb3d meson-mx-socinfo: Fix refcount leak in meson_mx_socinfo_init
 1dc6ff02c8bf77d71b9b5d11cbc9df77cfb28626 x86/speculation/mmio: Print SMT warning
 af0f2a8cc3977e08e79a096f0c2c7a5be29b130b Merge tag 'msm-next-5.19-fixes-06-01' of https://gitlab.freedesktop.org/abhinavk/msm into msm-fixes-staging
 036d20726c30267724416e966c9f92db07de8081 drm/msm: Ensure mmap offset is initialized
 5b7419ae1d208cab1e2826d473d8dab045aa75c7 staging: r8188eu: fix rtw_alloc_hwxmits error detection for now
 96f0a54e8e65a765b3a4ad4b53751581f23279f3 staging: r8188eu: Fix warning of array overflow in ioctl_linux.c
+6c52573bf4c3a0f6e7142264fb36b31ae2c3707a ARM: dts: exynos: add panel and backlight to p4note
+9a71e89d0f9ebbca4f7b234a7f90f96224d04ec8 arm64: dts: renesas: r9a07g043: Add ADC node
+7512af9f78dedea7e04225f665dad6750df7d095 arm64: dts: renesas: beacon: Fix regulator node names
+5cf12ac9493ae2603e5ba27c1040a88c7b26dd28 arm64: dts: renesas: Rename numbered regulators
+4872ca1f92b0545cd0898cf43fe0576fc7c7a1c7 arm64: dts: renesas: r9a09g011: Add ethernet nodes
+dc24257124dba514164bd708dc1f4ca07538da00 arm64: dts: renesas: rzv2mevk2: Enable ethernet
+5355559555b98cd2f0b96b2c4e56c32356f90cc1 arm64: dts: fsd: Add cpu cache information
+95099951557c9eb2f180d6bcb9885eecaca97d24 dt-bindings: soc: add samsung,boot-mode definitions
+694d04a1d5449d948e438af1fd1d610d356bacc3 arm64: dts: exynos: add syscon reboot/reboot_mode support in ExynosAutov9
+d742e8e2912131ee2df1fe217a6c9e6ee8337b4a arm64: dts: exynos: add watchdog in ExynosAutov9
+f84d83d8165570380f55f4ce578bfb131a9266c5 arm64: dts: exynos: Correct UART clocks on Exynos7885
+c75f5c9e11cf71e77c5cb8f0e082e5ee1e71545a arm64: dts: fsd: add ufs device node
+c4c79525042a4a7df96b73477feaf232fe44ae81 ARM: exynos: Fix refcount leak in exynos_map_pmu
+67c7fc6cd915d809be4de2eed323aa5f2205c52f memory: omap-gpmc: OMAP_GPMC should depend on ARCH_OMAP2PLUS || ARCH_KEYSTONE || ARCH_K3
+038ae37c510fd57cbc543ac82db1e7b23b28557a memory: mtk-smi: add missing put_device() call in mtk_smi_device_link_common
+1332661e09304b7b8e84e5edc11811ba08d12abe memory: samsung: exynos5422-dmc: Fix refcount leak in of_get_dram_timings
 21b511ddee09a78909035ec47a6a594349fe3296 spi: spi-cadence: Fix SPI CS gets toggling sporadically
 7b40322f7183a92c4303457528ae7cda571c60b9 spi: cadence: Detect transmit FIFO depth
 2283679f4c468df367830b7eb8f22d48a6940e19 spi: spi-mem: Fix spi_mem_poll_status()
@@ -65,6 +73,19 @@ fe44fb23d6ccde4c914c44ef74ab8d9d9ba02bea pNFS: Don't keep retrying if the server
 c2f75a43f5ae48b9babeb5b82c9f23fe18d3d144 objtool: Fix obsolete reference to CONFIG_X86_SMAP
 dcea997beed694cbd8705100ca1a6eb0d886de69 faddr2line: Fix overlapping text section failures, the sequel
 7b6c7a877cc616bc7dc9cd39646fe454acbed48b x86/ftrace: Remove OBJECT_FILES_NON_STANDARD usage
+6f8c75ad5a1550257d60883eef6d5e97f6268022 arm64: dts: exynos: adjust whitespace around '='
+3b0a91e586dc92da738af9eb35352d5897b8b279 ARM: dts: exynos: adjust whitespace around '='
+283d046406c22409d45b3ab31a4c93fe94b66349 arm64: dts: exynos: adjust DT style of ufs nodes in ExynosAutov9
+2164784a4b2700d1929854b5ec6b2169ff449814 arm64: dts: exynos: align MMC node name with dtschema
+a07cadf80c85a3ee6a1688fafb71b8c5cabfa904 ARM: dts: exynos: align MMC node name with dtschema
+729abb9b376efef58d4d5b77f1ce06ce197f459e ARM: dts: s3c2410: use local header for pinctrl register values
+d180a6af35843160ef2a80ea6f45ef336f19298e ARM: dts: s3c64xx: use local header for pinctrl register values
+088b2b856fb2f063c3dfa3676c69221bd98f4da3 ARM: dts: s5pv210: use local header for pinctrl register values
+f7b462646e81238ff278f731384832582229feab ARM: dts: exynos: use local header for pinctrl register values
+3d501682329a433843d26116fe13a4bbad963104 arm64: dts: exynos: use local header for pinctrl register values
+5621638cf014ff3b0afc4ac581df02772013e6df arm64: dts: fsd: use local header for pinctrl register values
+fddb7928464d05f3d46852a801aa9ec57be5e74f arm64: dts: exynos: add secondary ufs devices in ExynosAutov9
+5c4a99cf5d254e12295de5d9077f6594966679f4 arm64: dts: exynos: enable secondary ufs devices ExynosAutov9 SADK
 1d0811b03eb30b2f0793acaa96c6ce90b8b9c87a parisc/stifb: Fix fb_is_primary_device() only available with CONFIG_FB_STI
 5e3f89ad8e0cbd75aa3479e9ceb96d9e1c5585b8 dt-bindings: hwmon: ti,tmp401: Drop 'items' from 'ti,n-factor' property
 ac6888ac5a11c0a47d1f1da4b7809c0c595fdc5d hwmon: (occ) Lock mutex in shutdown to prevent race with occ_active
@@ -135,6 +156,11 @@ fa1ad9d4cc47ca2470cd904ad4519f05d7e43a2b irqchip/gic-v3: Fix refcount leak in gi
 eff4780f83d0ae3e5b6c02ff5d999dc4c1c5c8ce irqchip/realtek-rtl: Fix refcount leak in map_interrupts
 df089e6f07e3c94cb7a330dc74f5041db800009c dt-bindings: interrupt-controller/uniphier-aidet: Add bindings for NX1 SoC
 e3f056a7aafabe4ac3ad4b7465ba821b44a7e639 irqchip/uniphier-aidet: Add compatible string for NX1 SoC
+c110f7a94015a8da24520c5f460dc461ffc30a34 ARM: dts: meson: adjust whitespace around '='
+ad414ddf9de096b77027d90f1e2090e653a24306 arm64: dts: amlogic: adjust whitespace around '='
+c46952d2ad4e8eafa917298aca6e3614251025cf arm64: dts: meson: add reset controller for Meson-S4 SoC
+4956be9944d1fb23107f27bad8a2cca0fa167443 arm64: dts: amlogic: correct gpio-keys properties
+4fd9afd894ebe5831dbd737e6ca7b6de14da7fda arm64: dts: amlogic: align gpio-key node names with dtschema
 34d2cd3fccced12b958b8848e3eff0ee4296764c ARM: meson: Fix refcount leak in meson_smp_prepare_cpus
 de0952f267ffe9d4ecbfeab7c476f7e29e028b3e staging: olpc_dcon: mark driver as broken
 67ea0a2adbf667cd6da4965fbcfd0da741035084 staging: rtl8723bs: Allocate full pwep structure
@@ -180,10 +206,15 @@ abfed87e2a12bd246047d78c01d81eb9529f1d06 crypto: memneq - move into lib/
 6872fcac7158c3b3728a2ec1ea771ade0e61ddd5 Merge tag 'irqchip-fixes-5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
 e32683c6f7d22ba624e0bfc58b02cf3348bdca63 x86/mm: Fix RESERVE_BRK() for older binutils
 04193d590b390ec7a0592630f46d559ec6564ba1 sched: Fix balance_push() vs __sched_setscheduler()
+b7bfbbbf72fcf95c9a58d6ad0e905de539fba025 arm64: dts: meson: add gpio-fan control to GS-King-X
 4051a81774d6d8e28192742c26999d6f29bc0e68 locking/lockdep: Use sched_clock() for random numbers
 b0380bf6dad4601d92025841e2b7a135d566c6e3 io_uring: fix races with file table unregister
 d11d31fc5d8a96f707facee0babdcffaafa38de2 io_uring: fix races with buffer table unregister
 05b538c1765f8d14a71ccf5f85258dcbeaf189f7 io_uring: fix not locked access to fixed buf table
+36e2da11254d17366cb2140d9f0d53756398daa4 ARM: shmobile: defconfig: Refresh for v5.19-rc1
+7e1ab5a8a3b51c9d819246987a4710a759c3cc67 arm64: defconfig: Enable R8A779G0 SoC
+bccceabb92ce8eb78bbf2de08308e2cc2761a2e5 soc: renesas: r8a779a0-sysc: Fix A2DP1 and A2CV[2357] PDR values
+4f5bc54d28ecd0739c99dc71ed93c2ebb5d9ba32 soc: renesas: rcar-sysc: Optimize rcar_sysc_area struct sizes
 c9b576d0c7bf55aeae1a736da7974fa202c4394d drm/i915/reset: Fix error_state_read ptr + offset use
 6e3f3c239ee547c5b55a85f467c92a6ba7eee83a drm/i915/gt: Fix memory leaks in per-gt sysfs
 842d9346b2fdda4d2fb8ccb5b87faef1ac01ab51 drm/i915: Individualize fences before adding to dma_resv obj
@@ -241,6 +272,13 @@ f6eed15f3ea76596ccc689331e1cc850b999133b scsi: iscsi: Exclude zero from the endp
 8e8afafb0b5571b7cb10b529dc60cadb7241bed4 Merge tag 'x86-bugs-2022-06-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a6e944f25cdbe6b82275402b8bc9a55ad7aac10b xsk: Fix generic transmit when completion queue reservation fails
 24625f7d91fb86b91e14749633a7f022f5866116 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+7e0ed53b074ce8331b5fd7941408fe0c0ca784b1 ARM: dts: socfpga: Change Mercury+ AA1 dts to dtsi
+cfdb455d1a54b257c5f2740738055f746efe9dea ARM: dts: socfpga: Move sdmmc-ecc node to Arria 10 dts
+162552fa8844586332cbc8d65c1b30e6e2f90f5a ARM: dts: socfpga: Add atsha204a node to Mercury+ AA1 dts
+15596df74e589fa68347928b152ed208eb1b41b1 ARM: dts: socfpga: Add Google Chameleon v3 devicetree
+cd271f0468037dcfc863e341b85746c3e3684f76 dt-bindings: altera: Add Chameleon v3 board
+a2a4ee550704901aa148b57a55cb73cc1e8ae9b1 arm64: dts: intel: socfpga_agilex: use defined GIC interrupt type for ECC
+85d616dd19ac93a7a77b2b43f21f83233774fe27 arm64: dts: altera: adjust whitespace around '='
 71a579f0d3777a704355e6f1572dfba92a9b58b2 ice: Fix PTP TX timestamp offset calculation
 9542ef4fba8c73e176b8aa18a8adf04aecb889e5 ice: Sync VLAN filtering features for DVM
 be2af71496a54a7195ac62caba6fab49cfe5006c ice: Fix queue config fail handling
@@ -273,6 +311,8 @@ c5595975b53a487bf329eeba65b5c5f34605a4c0 io_uring: make io_fill_cqe_aux honour C
 219b51a6f040fa5367adadd7d58c4dda0896a01d net: ax25: Fix deadlock caused by skb_recv_datagram in ax25_recvmsg
 933b5f9f98da29af646b51b36a0753692908ef64 tools/kvm_stat: fix display of error when multiple processes are found
 3046a827316c0e55fc563b4fb78c93b9ca5c7c37 bpf: Fix request_sock leak in sk lookup helpers
+9194a384083b2f368f51bd7505740c56ffa990ae dt-bindings: altera: document Stratix 10 SWVP compatibles
+2b59af8cd4de6dd9e667af2d045488c29226655b arm64: dts: Add support for Stratix 10 Software Virtual Platform
 27d8fa207835fa5c7cd6f969c6cc94d1123951ee Revert "arm64: Initialize jump labels before setup_machine_fdt()"
 ec41c6d82056cbbd7ec8f44eed6d86fea50acf4e hwmon: (asus-ec-sensors) add missing comma in board name list.
 3eefdf9d1e406f3da47470b2854347009ffcb6fa arm64: ftrace: fix branch range checks
@@ -299,6 +339,8 @@ b87f02307d3cfbda768520f0687c51ca77e14fc3 printk: Wait for the global console loc
 b4d329c451a299323b26039df97b32896fb46abc drm/msm/gem: Drop early returns in close/purge vma
 30306f6194cadcc29c77f6ddcd416a75bf5c0232 Merge tag 'hardening-v5.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 ef79c396c664be99d0c5660dc75fe863c1e20315 audit: free module name
+97a9495efbdc5184930a75d36ca845d578e3ee1b ARM: dts: exynos: align gpio-key node names with dtschema
+8b86f733c0e512f92e43a9db1559498ef64d244e ARM: dts: s5pv210: align gpio-key node names with dtschema
 cad140d00899e7a9cb6fe93b282051df589e671c selinux: free contexts previously transferred in selinux_add_opt()
 f4288f01820e2d57722d21874c1fda661003c9b9 xfs: fix TOCTOU race involving the new logged xattrs control knob
 10930b254d5be1cb4350fb7a456ccd5ea7e3cbd9 xfs: fix variable state usage
@@ -338,9 +380,28 @@ ff672c67ee7635ca1e28fb13729e8ef0d1f08ce5 bpf, x86: Fix tail call count offset ca
 12a29115be72dfc72372af9ded4bc4ae7113a729 selftests dma: fix compile error for dma_map_benchmark
 3084a4ec7f9bb1ec90036cfd01b1abadc5dd4fb2 selftests: vm: Fix resource leak when return error
 14dc7a18abbe4176f5626c13c333670da8e06aa1 block: Fix handling of offline queues in blk_mq_alloc_request_hctx()
+4580f60b2337aa9f1da5a493adc5d609fe126185 ARM: dts: pxa: adjust whitespace around '='
+94d0a03297615cad2d40b0f02ceab902a7339062 ARM: dts: aspeed: adjust whitespace around '='
+bc5187b427ddbfefd533178c7af6af9fa3a0490d ARM: dts: at91: adjust whitespace around '='
+06e00a512d0a09760bef10621d4cdefc26777fad ARM: dts: axm: adjust whitespace around '='
+194f47c31ab6c37e4557eb60b382704296c10925 ARM: dts: spear: adjust whitespace around '='
+b3b0f459c2490e63106a86a3dfd3610d16184bfa ARM: dts: alpine: adjust whitespace around '='
+4f2ff3feab43d81e1627b02b8a0ad9938dcbdc99 ARM: dts: ecx: adjust whitespace around '='
+468aaf56bd5fbd65686320121a6bcf6970ec3b10 ARM: dts: lpc: adjust whitespace around '='
+f30528c6b08a4e4b8e6a36ef10c1e7bc918bf6f0 ARM: dts: nuvoton: adjust whitespace around '='
+282a4b9ee9ec8cf8c5e516d127b065318a376289 ARM: dts: ste: adjust whitespace around '='
+53f2ade4b0a36a38c3c29134586857d6db6f6dcb ARM: dts: sti: adjust whitespace around '='
+b03f15ee9881310cacfab1db0967598f88bfbb4d ARM: dts: sd: adjust whitespace around '='
 5fd7a84a09e640016fe106dd3e992f5210e23dc7 blk-mq: protect q->elevator by ->sysfs_lock in blk_mq_elv_switch_none
 4d337cebcb1c27d9b48c48b9a98e939d4552d584 blk-mq: avoid to touch q->elevator without any protection
 6cfeadbff3f8905f2854735ebb88e581402c16c4 blk-mq: don't clear flush_rq from tags->rqs[]
+dec1c62e91ba268ab2a6e339d4d7a59287d5eba1 arm64: dts: amd: adjust whitespace around '='
+d57cc3b903db4524c556325008071a7223690083 arm64: dts: apm: adjust whitespace around '='
+b88d11f84da6dd41dbbd4e20a889182aba634b95 arm64: dts: lg: adjust whitespace around '='
+8c1be9336e9ae3e5e421f04143cf5967f5436364 arm64: dts: marvell: adjust whitespace around '='
+11357f103f2e641e2744d527886ff248dbef13d8 arm64: dts: hisilicon: adjust whitespace around '='
+f028328f60bd33cbdc4b65dac2efa98ed6ca26b7 arm64: dts: sprd: adjust whitespace around '='
+09f4933a4fd9ebe333726dd139bd330843d40f28 arm64: dts: microchip: adjust whitespace around '='
 b0017602fdf6bd3f344dd49eaee8b6ffeed6dbac 9p: fix EBADF errors in cached mode
 a7c1c97fb1e64b0825a2ee892d60da6fd22d3b47 Merge tag 'dt-fixes-for-palmer-5.19-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/conor/linux into fixes
 21f356f990262329bc387910355833378524fe9f riscv: fix dependency for t-head errata
@@ -388,7 +449,31 @@ eb5fb0325698d05f0bf78d322de82c451a3685a2 bpf: Force cookies array to follow symb
 a4a8b2eea49037c1e9aa79654558b6db8cb9d121 Merge branch 'bpf: Fix cookie values for kprobe multi'
 9b7fd1670a94a57d974795acebde843a5c1a354e phy: aquantia: Fix AN when higher speeds than 1G are not advertised
 47700948a4abb4a5ae13ef943ff682a7f327547a Merge tag 'drm-fixes-2022-06-17' of git://anongit.freedesktop.org/drm/drm
+774fecc7ece1d5b7c604402ac2daede14825a467 dt-bindings: soc: renesas: Move renesas,prr from arm to soc
 540a92bfe6dab7310b9df2e488ba247d784d0163 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
+5a3ad6f466fe7a187cbf4889d80a48606181c367 arm64: dts: renesas: r8a779f0: Add thermal support
+76f9a56152026c91adc33a6c1e49e8f5c0b80720 arm64: dts: renesas: Adjust whitespace around '='
+fd869e63b6ba16caf010cce5932bfd33dd680daa arm64: dts: renesas: r8a779f0: Add IPMMU nodes
+3a9747f0512409d366692caf5f05d5f0f5ab9d15 arm64: dts: renesas: r8a779f0: Add iommus to DMAC nodes
+5235d551779d2850d95ff1de762c69187fdf8dd5 arm64: dts: renesas: r8a779f0: Add UFS node
+290cedeca6fa315c54e056b7bdd3fdd99e5303eb arm64: dts: renesas: rzg2l-smarc: Use proper bool operator
+9e8322dcf5f677cfc65d982546fb3aa6fa8b399a ARM: dts: r9a06g032-rzn1d400-db: Enable rtc0
+d18529a4c12f66d83daac78045ea54063bd43257 soc: amlogic: Fix refcount leak in meson-secure-pwrc.c
+650fd1d058a161a953f4034acae32471d4b94493 arm64: dts: renesas: r8a779a0: Update to R-Car Gen4 compatible values
+06279f82da68882b83524385834eeacf1993724f arm64: dts: renesas: r8a779a0: Add CPU0 core clock
+ffeca49a8ba9aa39439d30b7bb51f453706b6a0d arm64: dts: renesas: r8a779f0: Add L3 cache controller
+2dcb78d2266c0a8790cc92af3cd08dadee3d7c27 arm64: dts: renesas: r8a779f0: Add secondary CA55 CPU cores
+9bc7cd07aadedaa388636fe15966bea5e3f91ea7 arm64: dts: renesas: r8a779f0: Add CPUIdle support
+e5fba0bc8240eb3f255e1f2cd5c74ecd29363791 arm64: dts: renesas: r8a779f0: Add CPU core clocks
+ea25b1836f57e91e2432b315727fc3f3b8c92872 arm64: dts: renesas: rzg2ul-smarc: Enable RSPI1 on carrier board
+52271d32348e22e5a7ce4fc80015ffb06a4ebf20 arm64: dts: renesas: rzg2ul-smarc-som: Enable ADC on SMARC platform
+86aefa0d8dfa6dd488e2810461f714dd2794b0ee arm64: dts: renesas: Add missing space after remote-endpoint
+c62872a6893ffdc38890b00d98d6bab2fce81d2f arm64: dts: renesas: r8a779f0: Add DMA properties to SCIF3
+01a787f78bfd156d61b1844155f1dc4910e446c0 arm64: dts: renesas: r8a779f0: Add HSCIF nodes
+40753144256b63b4e3fb9d80874605dda16ad713 arm64: dts: renesas: r8a779f0: Add SCIF nodes
+1614c8624a48b9c9161b2071e9e727bf5a1817ef arm64: dts: renesas: spider-cpu: Enable SCIF0 on second connector
+62e8a53431145e06e503b71625a34eaa87b72b2c arm64: dts: renesas: Fix thermal-sensors on single-zone sensors
+3c7742a45c170430001c5a1767d9dd76686dc14d ARM: dts: rza2mevb: Fix LED node names
 dda8ad0aa8af937feb5113952fb7886c74315010 firewire: cdev: fix potential leak of kernel stack due to uninitialized value
 2328fe7a98db3b9d46c41def169e7915dda4b9a9 firewire: convert sysfs sprintf/snprintf family to sysfs_emit
 33fa35db8917118929edacc7fdeebdcde26a6803 ALSA: hda: intel-dspcfg: use SOF for UpExtreme and UpExtreme11 boards
@@ -438,6 +523,7 @@ c0f3bb4054ef036e5f67e27f2e3cad9e6512cf00 rethook: Reject getting a rethook if RC
 4b35035bcf80ddb47c0112c4fbd84a63a2836a18 Merge tag 'nfs-for-5.19-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 394e771684f7a2cd4e154647bff50084c31bc7cf netfilter: cttimeout: fix slab-out-of-bounds read typo in cttimeout_net_exit
 cc72b72073ac982a954d3b43519ca1c28f03c27c tracing/kprobes: Check whether get_kretprobe() returns NULL in kretprobe_dispatcher()
+b9b6d4c925604b70d007feb4c77b8cc4c038d2da ARM: dts: bcm2711-rpi-400: Fix GPIO line names
 1e7769653b06b56b7ea7d56911d2d5b2957750cd x86/tdx: Handle load_unaligned_zeropad() page-cross to a shared page
 f4b0d318097e45cbac5e14976f8bb56aa2cef504 tracing: Simplify conditional compilation code in tracing_set_tracer()
 93a8c044b9a3711d594702daea9fbe2292c73a42 tracefs: Fix syntax errors in comments
@@ -447,6 +533,8 @@ f4b0d318097e45cbac5e14976f8bb56aa2cef504 tracing: Simplify conditional compilati
 e561e472a3d441753bd012333b057f48fef1045b powerpc/pseries: wire up rng during setup_arch()
 ec6d0dde71d760aa60316f8d1c9a1b0d99213529 powerpc: Enable execve syscall exit tracepoint
 7bc08056a6dabc3a1442216daf527edf61ac24b6 powerpc/rtas: Allow ibm,platform-dump RTAS call with null buffer address
+856216b70a41ff3f8c866b627546afa01567b389 arm64: dts: ti: k3-j721s2: Fix overlapping GICD memory region
+0c0af88f3f318e73237f7fadd02d0bf2b6c996bb arm64: dts: ti: k3-am64-main: Remove support for HS400 speed mode
 582573f1b23df1cf7458e665e2aa3acd0551fd2c Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 3f6a57ee8544ec3982f8a3cbcbf4aea7d47eb9ec igb: fix a use-after-free issue in igb_clean_tx_ring
 7a9214f3d88cfdb099f3896e102a306b316d8707 bonding: ARP monitor spams NETDEV_NOTIFY_PEERS notifiers
@@ -541,6 +629,15 @@ a2d9b75b19dc8863f0845ffb401d33b2286d0aa1 xtensa: change '.bss' to '.section .bss
 419bc8f681a0dc63588cee693b6d45e7caa6006c spi: rockchip: Unmask IRQ at the final to avoid preemption
 5faa0bc69102f3a4c605581564c367be5eb94dfa ALSA: hda/conexant: Fix missing beep setup
 c7807b27d510e5aa53c8a120cfc02c33c24ebb5f ALSA: hda/via: Fix missing beep setup
+2453119fe6eed92ae88baac14ed28425a2b9f95e arm64: dts: apm: correct gpio-keys properties
+ea559c81b61603d4044df6f826f10a832c42c98c arm64: dts: broadcom: align gpio-key node names with dtschema
+111b4da2c2fc2551ecfe466616089e1223dc7ac1 arm64: dts: hisilicon: align gpio-key node names with dtschema
+717b3096da2ea205c6f31b4c2cd4485671d6ac79 arm64: dts: hisilicon: correct gpio-keys properties
+523b53bb750d91148222297c3857bbde7c7483a8 ARM: dts: animeo: align gpio-key node names with dtschema
+91503e5a3b5aee6ac7240d1f03abe69253c14de9 ARM: dts: animeo: correct gpio-keys properties
+cd268e309c29e9a8b15a47f684d848c1d57fe150 dt-bindings: clock: Add bindings for Exynos7885 CMU_FSYS
+e756e932a3a16418cd8bad757b028bfb337b4a51 dt-bindings: clock: Add indices for Exynos7885 TREX clocks
+ced37411d7f597129fecc0c3ca2324f44e33f4c8 arm64: dts: exynos: Add internal eMMC support to jackpotlte
 fc378794a2f7a19cf26010dc33b89ba608d4c70f video: fbdev: skeletonfb: Fix syntax errors in comments
 25c9a15fb7bbfafb94dd3b4e3165c18b8e1bd039 video: fbdev: intelfb: Use aperture size from pci_resource_len
 d36a869e0d0e56439365ed6d836480c480470e88 video: fbdev: intelfb: Initialize value of stolen size
@@ -620,8 +717,21 @@ ae60aac59a9ad8ab64a4b07de509a534a75b6bac USB: serial: pl2303: add support for mo
 5f940e528da6bce52a86fbdf881b76f60240aeaf drm/vc4: hdmi: Fixed possible integer overflow
 f5aa16807aa4f99293044944590dde81364f434f drm/sun4i: Add DMA mask and segment size
 f3eac426657d985b97c92fa5f7ae1d43f04721f3 powerpc/powernv: wire up rng during setup_arch
+30b276fca5c0644f3cb17bceb1bd6a626c670184 ARM: dts: ast2500-evb: fix board compatible
+aa5e06208500a0db41473caebdee5a2e81d5a277 ARM: dts: ast2600-evb: fix board compatible
+33c39140cc298e0d4e36083cb9a665a837773a60 ARM: dts: ast2600-evb-a1: fix board compatible
 485037ae9a095491beb7f893c909a76cc4f9d1e7 regmap-irq: Fix a bug in regmap_irq_enable() for type_in_mask chips
 3f05010f243be06478a9b11cfce0ce994f5a0890 regmap-irq: Fix offset/index mismatch in read_sub_irq_data()
+efbf2c262c89f78f99fd781c77b7305fac23c3c7 ARM: dts: exynos: align aat1290 flash LED node with bindings in Galaxy S3
+ebadc8a63645f7923dc63154ad8d290313f03101 ARM: dts: exynos: add function and color to aat1290 flash LED node in Galaxy S3
+f64bbfca314663886575b6fde16a5ba9afcda0fb ARM: dts: exynos: add function to LED node in Origen 4210
+ff4275fa0737f2312880d6fb0a4f582a73342465 ARM: dts: exynos: add function to LED nodes in Tiny4412
+a149eb5f1b118afe27a5b08d71c0abd2572be0a0 ARM: dts: exynos: add function and color to LED nodes in Itop Elite
+3e8368fdcee3c9072a41946f4a92517b5bfacb03 ARM: dts: exynos: add function and color to LED node in Odroid U3
+bcad13fca717a56cddb334eb131edba92c6b5494 ARM: dts: exynos: add function and color to LED nodes in Odroid X/X2
+f0945faa4a1a23d288ca8b92abab10d5145f33a1 ARM: dts: exynos: add function and color to LED node in Odroid HC1
+99f6b77f74c88ac1bc4c81e089dd0cbbf882aea6 ARM: dts: exynos: add function and color to LED node in Odroid XU4
+82cd16902a51773cfc0ee05bbd1ab470db5181ab ARM: dts: exynos: add function and color to LED nodes in Odroid XU/XU3
 877fe9d49b74e5f84346f9df34e2c7f8086dbceb Revert "drivers/net/ethernet/neterion/vxge: Fix a use-after-free bug in vxge-main.c"
 3abc3ae553c7ed73365b385b9a4cffc5176aae45 Merge tag '9p-for-5.19-rc4' of https://github.com/martinetd/linux
 9f7d09fe23a0112c08d2326d9116fccb5a912660 iommu/ipmmu-vmsa: Fix compatible for rcar-gen4
@@ -700,12 +810,22 @@ b0d473185ba887c798ed0cd6f5abf4075363baa4 gpio: mxs: Fix header comment
 0a86b0db38d848e5e3928707cca55ed664a53eb4 Merge tag 'drm-misc-fixes-2022-06-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 08d27daaaa9e215ce9c78a35a94fc4fa7a434d3a Merge tag 'drm-intel-fixes-2022-06-22' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 1e9124df8be0a43e4e9a10c5d1140d6ca8e50132 Merge tag 'drm-msm-fixes-2022-06-20' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+1a4f20cab6411c6e73dd22d28b6595b728cc2829 Merge branch 'for-v5.20/exynos7885-emmc-clk' into next/dt64
 ebdec859faa8cfbfef9f6c1f83d79dd6c8f4ab8c KVM: x86/svm: add __GFP_ACCOUNT to __sev_dbg_{en,de}crypt_user()
 6defa24d3b12bbd418bc8526dea1cbc605265c06 KVM: SEV: Init target VMCBs in sev_migrate_from
 90bc2af24638659da56397ff835f3c95a948f991 USB: gadget: Fix double-free bug in raw_gadget driver
 b24346a240b36cfc4df194d145463874985aa29b usb: chipidea: udc: check request status before setting device address
 c242507c1b895646b4a25060df13b6214805759f MAINTAINERS: Add new IOMMU development mailing list
 8da33fd11c05b7c64ef6456970f2fce61851806e cifs: avoid deadlocks while updating iface
+17b1362d49191625440ca2c195959ce0b37ec296 MAINTAINERS: Update email address
+1ba904b6b16e08de5aed7c1349838d9cd0d178c5 ARM: cns3xxx: Fix refcount leak in cns3xxx_init
+2c629dd2d14fd7f64a553f809eda6d0b3a4f615a arm: mach-spear: Add missing of_node_put() in time.c
+db6b92459f598d0a02b3a33aab9d995f0378e476 Merge tag 'ti-k3-dt-fixes-for-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/fixes
+b262b3b571bc58775e7a115d94b0fcd1b1636c34 Merge tag 'arm-soc/for-5.19/devicetree-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
+416e95a4798e0504492f2645265f61e5dd0c0bcd Merge tag 'samsung-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/fixes
+60192dd85c3ca24fe0a66be939bba68c13f440aa Merge tag 'memory-controller-drv-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/fixes
+7f058112873e86ca760f2d2b0e1ccc2ab111f418 ARM: dts: aspeed: nuvia: rename vendor nuvia to qcom
+986fd5fe55cb369c34a1dc65b1469aac536a6d50 ARM: dts: lpc18xx: Harmonize EHCI/OHCI DT nodes name
 9d882352bac8f2ff3753d691e2dc65fcaf738729 Merge tag 'printk-for-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 598f2404879336277a4320ac5000394b873e049a Merge tag 'io_uring-5.19-2022-06-24' of git://git.kernel.dk/linux-block
 a237cfd6b7469d6f5eeaa45f30128ab78b5281a5 Merge tag 'block-5.19-2022-06-24' of git://git.kernel.dk/linux-block
@@ -713,6 +833,7 @@ a237cfd6b7469d6f5eeaa45f30128ab78b5281a5 Merge tag 'block-5.19-2022-06-24' of gi
 cbe232ab07ab7a1c7743c94c53d0e0d50c3d1b88 Merge tag 'for-5.19/dm-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 af3a6d1018f02c6dc8388f1f3785a559c7ab5961 cifs: update cifs_ses::ip_addr after failover
 38bc4ac431684498126f9baa3a530e5a132f0173 Merge tag 'drm-fixes-2022-06-24' of git://anongit.freedesktop.org/drm/drm
+357513c052e10945427dd341bdf7a7ee5bf065a9 arm64: dts: altera: socfpga_stratix10: move clocks out of soc node
 e946554905c1d04da2a094ce4fdf47708f570bef Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 2c39d612aa5f34d63d264598692a7e6cd4fb34eb Merge tag 'for-linus-5.19a-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 f6e9d01468087e41c0905a60bba6a451882dd3b8 Merge tag 's390-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -776,6 +897,9 @@ e266c155bd88e95f9b86379d6b0add6ac6e5452e arm64: dts: imx8mp-phyboard-pollux-rdk:
 bae4de618efe1c41d34aa2e6cef8b08e46256667 arm64: dts: imx8mp-phyboard-pollux-rdk: correct eqos pad settings
 242d8ee9111171a6e68249aaff62643c513be6ec arm64: dts: imx8mp-phyboard-pollux-rdk: correct i2c2 & mmc settings
 8630354f42bef90f51e003a7ce62b69aceb735ca arm64: dts: imx8mp-icore-mx8mp-edim2.2: correct pad settings
+87ccc38e2f8e55853ddfe633d9934bc7ca74b21c arm64: dts: apm: Harmonize DWC USB3 DT nodes name
+3120910a099bcd8411ba92b7397fa9f4409278bd ARM: dts: stih407-family: Harmonize DWC USB3 DT nodes name
+2f7a7f941d770c03942fefe1d91ce954cb329c7e Merge branch 'for-v5.20/aspeed-dts-cleanup' into for-v5.20/dts-cleanup
 75c8f430d8596cf16634337fec8aec50e7b0feed firmware: arm_scmi: Fix response size warning for OPTEE transport
 4ce7e51dc712f8a006ce6abcc49f788c79287c03 firmware: arm_scmi: Remove usage of the deprecated ida_simple_xxx API
 ddc980da8043779119acaca106c6d9b445c9b65b ARM: at91: pm: use proper compatible for sama5d2's rtc
@@ -788,7 +912,25 @@ f2cbbc3f926316ccf8ef9363d8a60c1110afc1c7 ARM: dts: at91: sam9x60ek: fix eeprom c
 620f83b8326ce9706b1118334f0257ae028ce045 soc: ixp4xx/npe: Fix unused match warning
 a38dbb4f2028f4b9418855239a4c82466ecb935b Merge tag 'at91-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
 1f66f63c7312ee085dc989b3c5fa4b3d09fe9d52 Merge tag 'imx-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+7949803d384738ddba6f2c92db8635eb74f0434d Merge tag 'samsung-dt-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
+813b0808907511ea30a7c648a52ccf625b4d5f6d Merge tag 'samsung-dt64-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
+4505bb959ad210eaa5200477d1c06408c9e3063a Merge tag 'renesas-arm-dt-for-v5.20-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/dt
+6c0534397d871741e6f1cef3401d49b94209c3c4 Merge tag 'renesas-dt-bindings-for-v5.20-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/dt
+3966af40559dd690ff42fdea8f40c1f647579d49 Merge tag 'socfpga_dts_updates_for_v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/dt
+5d16aa7458a4b1c5f9d939f3e25353ade733d053 Merge tag 'dt64-cleanup-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
+7ccd1f6dcec04231dab8ee0ab87e340cd43d647e Merge tag 'dt-cleanup-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
+d5444cc4cbbe52332b655e356fc9a9dad43de925 Merge tag 'amlogic-arm-dt-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/dt
+a57cbe02c058410b8d9adc801761ca5d1297785e Merge tag 'amlogic-arm64-dt-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/dt
+92a1691b9db8d5191009e833f104551d3438496c Merge tag 'renesas-drivers-for-v5.20-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/drivers
+aa61fa3e36cf9298ac647e2f10298839413a9403 Merge tag 'amlogic-drivers-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/drivers
+89a24d7d85bd4b5899d5a4bb63e56a30e5984300 Merge tag 'renesas-arm-defconfig-for-v5.20-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/defconfig
 d95ce66d4cc3b088308821de185cb372097fec84 Merge tag 'scmi-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+5ff40f095aa00112a1c7d531f7e938580683441d Merge branch 'arm/fixes' into for-next
+80d1225e5008634c496fef9913ed98b23a8a714d Merge branch 'arm/drivers' into for-next
+57f5ecc638794f3df0fa5584281783803fc60970 Merge branch 'arm/dt' into for-next
+2ee11c6097b4e11f339d9d7b0863527a3b280c37 Merge branch 'arm/defconfig' into for-next
 f99d621133ef48c9ace6416e864ffacba1cb2bc8 Merge tag 'amlogic-arm-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
+d4d67c81e1a1532e46cf95ff94b22027eb68b11b Merge branch 'arm/fixes' into for-next
+070f292974c2bb872ceed83c6d4f447f1893b165 soc: document merges
 
---===============5929634937061512546==--
+--===============0220974962277368321==--
