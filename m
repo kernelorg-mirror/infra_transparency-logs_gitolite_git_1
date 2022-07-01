@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 01 Jul 2022 19:18:52 -0000
-Message-Id: <165670313292.30713.2668495007887120546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 01 Jul 2022 19:34:05 -0000
+Message-Id: <165670404590.7484.9652100733846550717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: d0f67adb790698017030365e90e9e394de7cac7c
-    new: b336ad598a3bbeddfdb71d86349b9d4024bddefe
+    old: a80b524090b494b98fd9ad8e35e6c8a84b59ab8c
+    new: d2a440d0dd2ae47ebbf45a3c72ced8670cfcb8c3
     log: |
-         1bbb2809040a1f9c7c53c9f06c21aa83275ed27b hwmon: (occ) Prevent power cap command overwriting poll response
-         f0aa153b6ce8018a052d9c05dc1b8483ac3a0f1a hwmon: (pmbus/ucd9200) fix typos in comments
-         d0e51022a025ca5350fafb8e413a6fe5d4baf833 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
-         b336ad598a3bbeddfdb71d86349b9d4024bddefe Merge tag 'hwmon-for-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+         d2a440d0dd2ae47ebbf45a3c72ced8670cfcb8c3 Fri Jul  1 07:33:25 PM UTC 2022
          
