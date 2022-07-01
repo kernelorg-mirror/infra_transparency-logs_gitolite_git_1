@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7400502948373023832=="
+Content-Type: multipart/mixed; boundary="===============6369549685373100883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 01 Jul 2022 15:33:57 -0000
-Message-Id: <165668963738.9095.16435069335375804740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 01 Jul 2022 15:35:06 -0000
+Message-Id: <165668970630.10980.13498268152560794167@gitolite.kernel.org>
 
---===============7400502948373023832==
+--===============6369549685373100883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 8f20c83d457450548c98c040da85fd9df53f84e2
-    new: 64143675c7f830f09b0fcebfe4d7345ca96369a3
-    log: revlist-8f20c83d4574-64143675c7f8.txt
+  - ref: refs/heads/master
+    old: b7d78b46d5e8dc77c656c13885d31e931923b915
+    new: dbdd9a28e1406ab8218a69e60f10a168b968c81d
+    log: revlist-b7d78b46d5e8-dbdd9a28e140.txt
 
---===============7400502948373023832==
+--===============6369549685373100883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f20c83d4574-64143675c7f8.txt
+Content-Disposition: attachment; filename=revlist-b7d78b46d5e8-dbdd9a28e140.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -480,7 +480,6 @@ afdc8a54e29778df05be620890d8037fa587e6df intel/iavf:fix repeated words in commen
 ff1fa2081d173b01cebe2fbf0a2d0f1cee9ce4b5 net: tun: avoid disabling NAPI twice
 839b92fede7ba308f1a475aa00fea55f63b7fccf selftest: tun: add test for NAPI dismantle
 58bf4db695287c4bb2a5fc9fc12c78fdd4c36894 net: dsa: felix: fix race between reading PSFP stats and port stats
-b7d78b46d5e8dc77c656c13885d31e931923b915 net: phylink: fix NULL pl->pcs dereference during phylink_pcs_poll_start
 06bca7c2685a9ab129ede0272de00d92c40347ac ice: Add support for double VLAN in switchdev
 ea71b967a50785fed7129aaf0e7cb201944c01e7 ice: Add support for VLAN TPID filters in switchdev
 263957263a0008508b34425dd69722e01e2e4554 ice: switch: dynamically add VLAN headers to dummy packets
@@ -520,7 +519,5 @@ e918c137db4083e59866d2aaa603887cbd9969bf net: remove SK_RECLAIM_THRESHOLD and SK
 7fa2d1707d4102a5b3dcd3f49b235015f4d66955 cdc-eem: always use BIT
 c7b1267b1c64925ef0c036ffb303057884481c53 nfp: support VF rate limit with NFDK
 dbdd9a28e1406ab8218a69e60f10a168b968c81d net/cmsg_sender: Remove a semicolon
-c7ebdab976da001badb49c2ae1761b46cb35c33e net/mlx5: Delete ipsec_fs header file as not used
-64143675c7f830f09b0fcebfe4d7345ca96369a3 net/mlx5: delete dead code in mlx5_esw_unlock()
 
---===============7400502948373023832==--
+--===============6369549685373100883==--
