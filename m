@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 01 Jul 2022 15:19:45 -0000
-Message-Id: <165668878589.32151.2386746561926701052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 01 Jul 2022 15:21:30 -0000
+Message-Id: <165668889019.1843.12628841333791644088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 80d868dacad5561a36ce92cfad5853a13431bc3f
-    new: 77b3521cae0f405e64e7cc3782675a4bd0768ff6
+  - ref: refs/heads/master
+    old: 4bd98af1f295b62227a6bc7f94649eb663c0b9c1
+    new: a501e4dccf9323044469e48475762f876478ab52
     log: |
-         fce54ed027577517df1e74b7d54dc2b1bd536887 scsi: hisi_sas: Limit max hw sectors for v3 HW
+         ae663f5cb0341db25b1dc97d3882ce7dad46afae dhcp: Set lease->bound_time before emitting event
+         91c066f3600afbe40a62d346b413fee22e49c89a useful: Add a cleanup handler for fd variables
+         3a1537c102495fe0d129fd0dcb89e1aeab370141 netconfig: Restore net.ipv6.conf...disable_ipv6 on stop
+         a501e4dccf9323044469e48475762f876478ab52 netconfig: Fix leaking domain name string
          
