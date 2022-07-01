@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 01 Jul 2022 15:21:30 -0000
-Message-Id: <165668889019.1843.12628841333791644088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Fri, 01 Jul 2022 15:22:07 -0000
+Message-Id: <165668892705.2092.4457009046388737392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
   - ref: refs/heads/master
-    old: 4bd98af1f295b62227a6bc7f94649eb663c0b9c1
-    new: a501e4dccf9323044469e48475762f876478ab52
+    old: 0808b1410098e16a6af25d7aed359fb3d59d13c0
+    new: 4591cc0b9e74bd549f846e55551cdaa01a27f425
     log: |
-         ae663f5cb0341db25b1dc97d3882ce7dad46afae dhcp: Set lease->bound_time before emitting event
-         91c066f3600afbe40a62d346b413fee22e49c89a useful: Add a cleanup handler for fd variables
-         3a1537c102495fe0d129fd0dcb89e1aeab370141 netconfig: Restore net.ipv6.conf...disable_ipv6 on stop
-         a501e4dccf9323044469e48475762f876478ab52 netconfig: Fix leaking domain name string
+         4591cc0b9e74bd549f846e55551cdaa01a27f425 Add missing dependencies for cputype include files
          
+  - ref: refs/tags/v184
+    old: 0000000000000000000000000000000000000000
+    new: 4591cc0b9e74bd549f846e55551cdaa01a27f425
