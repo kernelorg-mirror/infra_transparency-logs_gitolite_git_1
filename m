@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8465544007471437069=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 01 Jul 2022 08:41:42 -0000
-Message-Id: <165666490268.19229.13306800510549497519@gitolite.kernel.org>
-
---===============8465544007471437069==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Fri, 01 Jul 2022 08:44:24 -0000
+Message-Id: <165666506447.21760.16873183923707159132@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/zx2c4/linux
+user: zx2c4
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 80fc671bcc0173836e9032b0c698ea74c13b9d7c
-    new: 1045a06724f322ed61f1ffb994427c7bdbe64647
+  - ref: refs/heads/master
+    old: a898d950c28b297568417061b2003f504a7af109
+    new: 9e9e8beae10c8a2e6358904aa0d6e2c88d3fb0a2
     log: |
-         261e224d6a5c43e2bb8a07b7662f9b4ec425cfec pm/sleep: Add PM_USERSPACE_AUTOSLEEP Kconfig
-         1045a06724f322ed61f1ffb994427c7bdbe64647 remove CONFIG_ANDROID
+         2e7070b9a982f432eec5d37b0a6cac683f9b2da6 wireguard: selftests: support OpenRISC
+         2fb312440850bfba100d0015df286b0063da5dcf wireguard: selftests: set fake real time in init
+         9c0f6d2f8479c1abba454f07234510228614880b wireguard: selftests: use virt machine on m68k
+         9962a2933118b7cb47c3bf95a0ad5a88787d7e2e wireguard: selftests: always call kernel makefile
+         971a33b93324d70ac5879f2cd56a4de7ab7d4249 wireguard: selftests: use microvm on x86
+         dc16e593a680f49dfcecfcd8f2c3adfa8649fb19 x86/setup: Allow passing RNG seeds via e820 setup table
+         8156152b954cebfe755d6d92fa55b64a34029a88 powerpc/powernv: delay rng of node creation until later in boot
+         fd97d0b0497c0058576048b03a78fbd3a83344e6 powerpc/powernv: rename remaining rng powernv_ functions to pnv_
+         9e9e8beae10c8a2e6358904aa0d6e2c88d3fb0a2 powerpc/kvm: don't crash on missing rng, and use darn
          
-
---===============8465544007471437069==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656664901 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1656664900-fa949ea62a8cb8aea35b2a962390386bff997498
-
-80fc671bcc0173836e9032b0c698ea74c13b9d7c 1045a06724f322ed61f1ffb994427c7bdbe64647 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+s0UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l0UP/0ZY3fKl3qo6tbXboJMx
-Ix8662AbnnNgIeINiV0cudTsXa3/tmiWnjIOXZfLwcajl5lbJut8Ix0l5KHx0aVo
-AXnKedJoka0CwBV0ybDoppJz3YpbnI91d1PtZK2AI4CgfYCon8cv2Dn3FT0zZ3Tu
-uyT/AY7xSpUOgKXcmHxWcOlaE2cKWPhv3hKsE7/dXYZkC+dmjmT984ijewEPHVOx
-Wqd+RmYYAVMxITqn0PiNY1UBzU187vQNA6cWFI2pRJ9RU9tVB3GWbaGxLadfENbV
-/UFVGh0ayrzC19YwVtFgchQ5r1wZnAYIts7tRzjFurdj+JWOGUCdV23hGLu8iUrQ
-5KGStqWkSV30N6C2ToYtKfPrEii6FIOk77OV1Wdl6Eivd5CN/dtIfANZk4c5nprl
-/u+8eA8rVjGe7N7U3RipunY555ygp8TBoy5Q4ACeuj6EqNzW6gIEaF0wUpD7jz+i
-flIU9ucBNCUxrphd7ytnIWKM/JyDiC+iHqqhpsP0LwE0jFeUlHrPS0kqxBme2Etk
-IVy4N/eFI0vqXVNpwzopSEyJHi1XfeGmQte38yGqVZy3Uk3skQgaS89OnwnC0bu6
-TivWAWCxEMuNx63d2JCoOtqEeWAf8F2YsoIFppBB3iRfoMFxGnS9NR3ABX1ddtin
-DnWpWQ1imy9N7sNt4hEx0no+
-=EqQd
------END PGP SIGNATURE-----
-
---===============8465544007471437069==--
