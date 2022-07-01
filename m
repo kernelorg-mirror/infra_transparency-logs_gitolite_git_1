@@ -1,26 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 01 Jul 2022 07:50:44 -0000
-Message-Id: <165666184421.18770.2488572892834669923@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3385810704820681076=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 01 Jul 2022 07:57:28 -0000
+Message-Id: <165666224873.22369.13406399784907912586@gitolite.kernel.org>
+
+--===============3385810704820681076==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: be21b57b9f5048bdbbb01f2e85ad147502d0f498
-    new: 0cf4a34c762040fce4480ded01c3f6b917f9ab05
+  - ref: refs/heads/staging-testing
+    old: df8d0a55047b57074ac69db795a9775b3abe364e
+    new: 3355a12760deceb09e1888c5b9ad1f89bf86939b
     log: |
-         951b8d8aa735f9d684eb9f565752e952788f9ce7 ath12k: remove experimental warning
-         3ce28201cd66f5e7b81b1d6406b1b935372a2cf4 ath12k: dp: convert a message about TCL bank to a debug message
-         c57c7548d18e090e2a8ecaa60003e4ef854baa03 ath12k: don't warn about unhandled htt events
-         a8e4a317305475d8155525ce0fe04935f0ebb164 ath12k: wmi: remove unused uapsd definitions
-         312af69d6f295775a2787b48dad0297094c5d985 ath12k: fix macro argument reuse
-         d983fea9f7943e4afc84f3549577515855365138 ath12k: avoid precendence issues in macros
-         e4574ef39876c908130b7f5e411f7fe337cf6e11 ath12k: pci: fix header argument usage
-         0cf4a34c762040fce4480ded01c3f6b917f9ab05 ath12k: convert hw_params to a const pointer
+         c87d8e90bccb835184749621d990f7626c3daf31 staging: r8188eu: drop return value from receive_disconnect
+         d61da1d7a1bf9f6483ec15e9dd3b1023bf293264 staging: r8188eu: remove HW_VAR_H2C_MEDIA_STATUS_RPT from SetHwReg8188EU()
+         3355a12760deceb09e1888c5b9ad1f89bf86939b staging: r8188eu: remove unneeded semicolon
          
+
+--===============3385810704820681076==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656662244 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1656662243-9a517da48787f318dbe01049c89afa0f85bd0f17
+
+df8d0a55047b57074ac69db795a9775b3abe364e 3355a12760deceb09e1888c5b9ad1f89bf86939b refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmK+qOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lgQQAKpz/Pif7AsUU7+nCfuw
+7DHmOM73TEyfj1mP+MlOMeJdjT/eWRnJu5rVp0dnTUYLrh9UPh0K5SveHh47Opro
+ZnDNLogw4l5sIAH6ecf6yHqTCRLoYJfcM0jfy7g0UkZQ+JDPXWkUhQyNsKO6RDhY
+3EoEaTggUL4jmoqsCjJwbluXj2K1Il+DjrU2y5GF/VsEJN7E8la5/hWXyGMWFG9m
+I15DjGlON7voYW9pxmwXiKCmc9mHfsdi5XSELVhKk7PkuQy4VtXSZv3+PBMsx4ZR
+vB+sH9aFAipUJM9PJ8ABZU2rvzgMLNIHomKAcurgOYE1koWtYWQyIZTnZXAVvUma
+xoU0l5L4ZxPf0TlaJeSPSaU3YSOwQoFJJa6s/BwUfHLIXOM/i8/8B1pIZrhlfek3
+Rfc1bCnu/qLV6ldv7ucxfkZRg1NOV/U02n5qrtCFS2mpPhw9LQ8hRupNNTH1LKwX
+gYo7n664H/eRl5stfZWHuVqx408imLFK4sOON13/sXwsZse+0qHzGtUvkipRRAxO
+Edm7SF5RLO8erSEFTYPZ/+WMJg91xW5qbhVnbR+BPOJC/j2INZJDMiRQVItCNheh
+0o/DWlXfE/MNaEJldad8Zvxp2IhYXAbinORM9YJCVwCtkC+TcmcdQ/gOg1EToT+q
+WyYb2Oo+Zfg3PnGw8tb3fbqr
+=85P3
+-----END PGP SIGNATURE-----
+
+--===============3385810704820681076==--
