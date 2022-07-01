@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Fri, 01 Jul 2022 13:09:07 -0000
-Message-Id: <165668094790.14230.15210292726321248470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 01 Jul 2022 13:14:32 -0000
+Message-Id: <165668127260.18777.2624632416110589186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/dio_fixes
-    old: be749080375e29208d349048568d5d4d3ca09dc6
-    new: 9bb05964caf3cdceb8aa0cd89723f83332c52b69
+  - ref: refs/heads/master
+    old: 7a255ae77216237a4ce83ddea595aa4e0a812f46
+    new: b0d93b44641a83c28014ca38001e85bf6dc8501e
     log: |
-         9bb05964caf3cdceb8aa0cd89723f83332c52b69 btrfs: fault in pages for dio reads/writes in a more controlled way
+         b0d93b44641a83c28014ca38001e85bf6dc8501e selftests/bpf: Skip lsm_cgroup when we don't have trampolines
          
