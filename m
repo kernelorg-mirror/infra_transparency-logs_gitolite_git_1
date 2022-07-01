@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Fri, 01 Jul 2022 18:09:34 -0000
-Message-Id: <165669897455.15295.919218903753251141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 01 Jul 2022 18:12:30 -0000
+Message-Id: <165669915065.18085.3389683232138504447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 5104649615557dbd1461b9bc1cdfe308a68f2035
-    new: 59a0723d536ddb3a31475b3fb398d6a1026675ee
+  - ref: refs/heads/block-fixes
+    old: 863965bb7e52997851af3a107ec3e4d8c7050cbd
+    new: 5e3e9769404de54734c110b2040bdb93593e0f1b
     log: |
-         59a0723d536ddb3a31475b3fb398d6a1026675ee x86/setup: Allow passing RNG seeds via e820 setup table
+         5e3e9769404de54734c110b2040bdb93593e0f1b __bio_iov_iter_get_pages(): make sure we don't leak page refs on failure
          
