@@ -1,62 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1678023709554262233=="
+Content-Type: multipart/mixed; boundary="===============6222352918361995298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 02 Jul 2022 09:00:44 -0000
-Message-Id: <165675244431.19689.10462985227016878870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 02 Jul 2022 09:02:52 -0000
+Message-Id: <165675257273.20413.1900177919437735721@gitolite.kernel.org>
 
---===============1678023709554262233==
+--===============6222352918361995298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: afa8fe4cc40e197c99fc650113bb96d26091648a
-    new: 1045a06724f322ed61f1ffb994427c7bdbe64647
+  - ref: refs/heads/staging-next
+    old: df8d0a55047b57074ac69db795a9775b3abe364e
+    new: 3355a12760deceb09e1888c5b9ad1f89bf86939b
     log: |
-         3e753ecc5d6f2e69f991a776920fdd4a867bc4d0 misc: rtsx_pcr: Fix a typo
-         2af23d20bea6b6dfae3e9b76238cb4631fbc193d MAINTAINERS: update Android driver maintainers
-         85df46465bbb95cf15197ef627ba8d0ee2cf2eba bus: mvebu-mbus: Fix spelling mistake
-         d60be533a0033c2cb9e36c0a1ee4b3080ed4eef2 scripts/tags.sh: Include tools directory in tags generation
-         80fc671bcc0173836e9032b0c698ea74c13b9d7c uacce: Handle parent device removal or parent driver module rmmod
-         261e224d6a5c43e2bb8a07b7662f9b4ec425cfec pm/sleep: Add PM_USERSPACE_AUTOSLEEP Kconfig
-         1045a06724f322ed61f1ffb994427c7bdbe64647 remove CONFIG_ANDROID
+         c87d8e90bccb835184749621d990f7626c3daf31 staging: r8188eu: drop return value from receive_disconnect
+         d61da1d7a1bf9f6483ec15e9dd3b1023bf293264 staging: r8188eu: remove HW_VAR_H2C_MEDIA_STATUS_RPT from SetHwReg8188EU()
+         3355a12760deceb09e1888c5b9ad1f89bf86939b staging: r8188eu: remove unneeded semicolon
          
 
---===============1678023709554262233==
+--===============6222352918361995298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656752443 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1656752443-9dfa695a614a76cb80cd18e99b7a07ed7664ab81
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656752571 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1656752571-2b9fbc932ccd3d1e4ffb432606dd9b5d0fcdd0e6
 
-afa8fe4cc40e197c99fc650113bb96d26091648a 1045a06724f322ed61f1ffb994427c7bdbe64647 refs/heads/char-misc-next
+df8d0a55047b57074ac69db795a9775b3abe364e 3355a12760deceb09e1888c5b9ad1f89bf86939b refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLACTsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KJMQAKBSigjmIUkxgNp0XSys
-jj1tCiyZPzoV9s/K9JrKv4jAKYkWZ5wuS4wc6vBHXA5OHWG1oU6KIJVpLehtLZKB
-2DfQfbWl8lSIqwQ1vulUCUo9qGhM6HhA3K6aHSENAnWaunJnxH8Ko/GY/27PZGsA
-kSj47Ba1RqdNop8QjeTXvOO1qnvyf0mx1qAfiTeS4DHOF2/Eu21e83oxp/Hras7g
-gIaf7KG8yrKMvyCQc3QLX5lbk7U7OZlaWJguipw2vcz1ms8I15Epq1pIwUBNaHGU
-66BDxr5yAIv6DYXoC3ypBVNFw5y39fJVGlexgz31D8IG7Jvw6ZwWBQzG7g9EYh1a
-otKK4asGqZtr7fUHamEgPjM7OJzKlJndz9IYu1WXV+JQG5T3MY265HHL/qIXbyLd
-XDZdM8JDvqfqMzp8V40OS1E/3hTKdVsQbJK6Jb2OuM6FAyNmiKXNeW9VUxOuhhOB
-ZqUNGu8RDEqqG6dWNmA3rHf98SwwbvJTPAReyfDlgvH+B3W/TlSQ/knipfxrj2G+
-SAcWG02MyYZv+q94KFy4ItfFs0dycC/kUr1CQNDecfeyuuznJcWcdiMG+yQJoFFd
-iDsmlHGqO9F3EX3NRtgBRGehsaJ8CnDgMX9iI6psD23dSzf7LqC1/1WPLdKMUJdZ
-paDnDX9xr5e9Ha5mmqbRfSHU
-=iyR7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLACbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3wEP/j99O5I3+/XfXC4F4+8j
+r1r0wLrYqHEOIkP2r/S2rfWzOFrwkGJdBapraKsyYbzsT6WgcCNumPy4MKni49Rd
+h/2La/HbObsTg0eVEc7y3fIi9C4Wbs+XzMWyBBnZfnQJMdjuqDAIQUhDlZYczsXf
+QvQ8XgYJxqRFghAxsVBfJ+pUQ4h07AXlFjrXJ5Zi29ZwLjpOb4fscBks+TXkne/3
+blBsMi2iaECcU0e46YvhQW5X7QAD6SWeVYAoKaDak7QXdmcyRkYgOwrLmGOtlkZ/
+Peil+wa8PAN7cLqRJqfU5K7Nr/V2oN2PZ7UAM8dhMMm5rrp5q3eIK6URl7lVh9GP
+rTMwRs3kOEjy525YNUUnbVIUBPgVzc7bwYqZUuMfl1nMAFwLy4CR/LWBUuy10uqD
+3Pc4dHXDTzaHZNhHWhq3I4TBj9C6+aCo5Pb/f5TfMIHyXk6bVQzwzIHHVvOsNssq
+Ob1vJi8qnA4pP3TMiIyOzW6UQOaRmBwQVjIQ2nqQYN8DvyZtgpZeQK6rVb4JvI5A
+u6dZR9Po7jZv4KqPc7M+278DeGJRTzICC4kxPATGs+FGMONXHAPgAe6Lt6eNGbkH
+Ec3p9Y9VTydsaYVI7BqZ+6+i1y6iIByEdCmbXg1ulC5P+m/Rc6L0EtqXOU8jXbfF
+ahUpP5ZMRMaHocpLQ9m4/9yo
+=Ajqj
 -----END PGP SIGNATURE-----
 
---===============1678023709554262233==--
+--===============6222352918361995298==--
