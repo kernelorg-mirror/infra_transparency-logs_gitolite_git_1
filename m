@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 02 Jul 2022 18:16:12 -0000
-Message-Id: <165678577256.10453.4193963579993078961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 02 Jul 2022 18:20:57 -0000
+Message-Id: <165678605749.13450.17219703516619910327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 678a616a32ae8e7a2ea2b805fefd4782a5beefe4
-    new: 2a64de1a43d3f2ab908a353d8e26bd574cbacf6b
+  - ref: refs/heads/master
+    old: 1f3ba3a2dcabdb5a70b9ec96403333a7e888e3a6
+    new: 0218c3982dc50ce7a6162c1ab60c261c7295c61c
     log: |
-         6bd7cf0f46f30b96a8e7a4fa6d764e64196908d7 fbcon: Disallow setting font bigger than screen size
-         17cfaf55a45b3d19cb909c057d2b8121b8e4608d fbcon: Prevent that screen size is smaller than font size
-         f17c68aa76ef31f3e491270c67b1044cbb38adda fbmem: Prevent invalid virtual screen sizes in fb_set_var()
-         2a64de1a43d3f2ab908a353d8e26bd574cbacf6b fbcon: Use fbcon_info_from_console() in fbcon_modechange_possible()
+         0218c3982dc50ce7a6162c1ab60c261c7295c61c Sat Jul  2 06:20:13 PM UTC 2022
          
