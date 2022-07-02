@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5449993784553220510=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 02 Jul 2022 14:56:02 -0000
-Message-Id: <165677376224.17107.11513661924303463499@gitolite.kernel.org>
-
---===============5449993784553220510==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 02 Jul 2022 15:34:07 -0000
+Message-Id: <165677604742.4042.2309054836380735053@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 184b2dca3b90b4596522abc9574ce70437417db0
-    new: 464f9a0834bb3b2328d5d9e2fffcbccbc887d22f
+  - ref: refs/heads/net-next-mlx5
+    old: 64143675c7f830f09b0fcebfe4d7345ca96369a3
+    new: 8c117f1d35401d51b5e43ac9b7ba4e2cb1cafadd
     log: |
-         464f9a0834bb3b2328d5d9e2fffcbccbc887d22f Notes added by 'git notes add'
+         b14056914357beee6a84f6ff1b9195f4659fab9d octeontx2-af: fix operand size in bitwise operation
+         90c74f4d90ad769fc84e0b91a08b5514d83aa683 net: pcs: rzn1-miic: update speed only if interface is changed
+         1d7f94cdd8f0975ce7aa35b21f4c381bd4123681 usbnet: remove vestiges of debug macros
+         c31788832f87c79a1795d776c03f2f60abe62c1c ethernet/sun: fix repeated words in comments
+         93d663c7e5a40357867067d396f56d18cc54270c stmicro/stmmac: fix repeated words in comments
+         abf1efb6ae78961aa5e1154959e60eeb57c095de samsung/sxgbe: fix repeated words in comments
+         04740c53cac4bf93b5233a0d774d7f39620378e1 qlogic/qed: fix repeated words in comments
+         ad30d6e61a8e9bce202bb55069572b8605f487c9 net/mlx5: Delete ipsec_fs header file as not used
+         8c117f1d35401d51b5e43ac9b7ba4e2cb1cafadd net/mlx5: delete dead code in mlx5_esw_unlock()
          
-
---===============5449993784553220510==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656773761 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1656773760-4b2bcb80c416c49bbf26e08cb6a1ac1d1dabe036
-
-184b2dca3b90b4596522abc9574ce70437417db0 464f9a0834bb3b2328d5d9e2fffcbccbc887d22f refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLAXIEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c7YP/j5vwsesNYalB4O4V+zF
-2WjHR5uAp4ESw9ss8fTGcWOO82N4fliuMUrV6l5i7JgGkL6aWNfv0L+B2rF0l2DY
-SG3rdxIhXXRJDMnMl+q3RLJ89CrW0XUleIsy62koMJUgZACXXpm6theK83tzOkaS
-QqMVP2almIBZKlXboBP46QgP2zuviybphX4xFFfkYuJonCPc6RT/Ta+GxTuWiI1g
-KSNmmVigz6erW6kkuKOeW7MU1rT0OBVNqAKu8KRBfKJjsjmGLX6Z2eyYj02jXAuc
-i2OhBkSJzV24FP7Kc9VxRrWtuFyzDsw3YZT4Nx5LcI3LPhszvpK5EhC+cEqvpmG8
-BxFgKsiMwZ3GIPdUr8ydJpg41HUF/kpBYMDDeD6l6pnNyPvwF6qY8d7BFlbClZYa
-ohNfROmc2ABV/k5a3FkYGOyeo1iP86b3QcO4kuJ/yD3aqgyGmKynNP0u8yvbIZy9
-wYyU7q4aExlLNH99h9S+bObH5SLd1zhoC/a+6TC5y5GEn/BUmnJF49qdyhXaAU1a
-9UTiQzABXHKs78oA5Ta/rrqY0Q+pBBzM3JSfwXgR2sPrgGar8Ye1xwwE6p86/e/Z
-N3AeyKwpVp0W/45iiojXxKUtDGR1CxK3a3tsrJupfK7e4ZfhlgEyxiGTxMuxUqFZ
-MDDB2J42l+1uZPAfg0RobhEy
-=A4AQ
------END PGP SIGNATURE-----
-
---===============5449993784553220510==--
