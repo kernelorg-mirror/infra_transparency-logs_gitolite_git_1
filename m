@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4278517786100542248=="
+Content-Type: multipart/mixed; boundary="===============5462808065983445193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 02 Jul 2022 14:55:45 -0000
-Message-Id: <165677374598.16884.17956850387431290391@gitolite.kernel.org>
+Date: Sat, 02 Jul 2022 14:55:48 -0000
+Message-Id: <165677374840.16962.2739890357920074944@gitolite.kernel.org>
 
---===============4278517786100542248==
+--===============5462808065983445193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.18.y
-    old: 2437f53721bcd154d50224acee23e7dbb8d8c62b
-    new: 64ef7e725db41552c219a155ab8c1f6caf2e7cb4
-    log: |
-         ea32b27e2f8c58c92bff5ecba7fcf64b97707089 tick/nohz: unexport __init-annotated tick_nohz_full_setup()
-         3ecbe7846818615f282c45565a56754ceaf1eb3a clocksource/drivers/ixp4xx: Drop boardfile probe path
-         0909f524e83eb497f23495553d0cebaf385dd79b bcache: memset on stack variables in bch_btree_check() and bch_sectors_dirty_init()
-         cfc89a378751d6a731af5aec73ad4a8e77f84b78 hinic: Replace memcpy() with direct assignment
-         90055509b30a654258e8172bd244612961537488 powerpc/ftrace: Remove ftrace init tramp once kernel init is complete
-         63493188ab3ad10a39349a576e5137fab5731223 io_uring: fix not locked access to fixed buf table
-         64ef7e725db41552c219a155ab8c1f6caf2e7cb4 Linux 5.18.9
-         
+  - ref: refs/tags/v5.18.9
+    old: 0000000000000000000000000000000000000000
+    new: 1e48d0113f9cdbf947b3ea19f528dd10b3ca68d7
 
---===============4278517786100542248==
+--===============5462808065983445193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656773744 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656773747 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1656773743-d8a29eb4b26b1fadaef56dc058eefb6b3ac6c6ca
+nonce 1656773747-2ec3ee43856a0182380ea976f319c8655b53922f
 
-2437f53721bcd154d50224acee23e7dbb8d8c62b 64ef7e725db41552c219a155ab8c1f6caf2e7cb4 refs/heads/linux-5.18.y
+0000000000000000000000000000000000000000 1e48d0113f9cdbf947b3ea19f528dd10b3ca68d7 refs/tags/v5.18.9
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLAXHAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fmwP/jf+frL8L0ESVeSM88/3
-xpPHj1z/+9DHJOKdKHjdjTQ93n+AambtNZbmeNO7zGhaZQajzyN/Ekro89/WKkpP
-R6MVmDEMlt24jZ7+HczQBGGLHxCTv17tTB6G9OCNJ5zGR9/9mkyIYHtSJOjL72Uj
-/7hwlcpYRAyuYavHxrqxqZ4PZa9O5qxlhkWSkmtYFVxooVySfNPps6nambBkgIBa
-yIkIuK+JlO6BtFI3dGm+3l24DgVgk6bkdpSAMMXD1LSdSZsOT3GVrGNm2c8Jqmr6
-iUpJtVsdQTYTTaH6vodp+Tb0yaTWTl1O/7KUzEjGpByjS3iurCMmDvmIoCq2pQZ4
-LNvWBOXIaFIOY4XcaJ0OseesTeNhY2OCvlrb/UedmTWzKkz1GHN3PZ+KwU7GZYoe
-R4iGiCPdwQ1EFdtCu4TtJq4ViV4gV1Cc3iRk9otMyPh5q9/unaWvmJkYnn88iuFe
-2NlTQl1xidcVJhNygFMi9Y+FVz+30msEpcllijzU5mYj6SZjmOsHtpMS+lPJ/3sU
-nQLOo+WYuaEEU6nxLvhX2XMFj+AIEtNjFGMNH6vHgRMjvjd73kHz5aiAwoPHfhUi
-hIebqLmev5Qx0874swXyPhzD781CEG7rDKxSwMfp7LYT6+9sKMTTwP91uV6Lw7Pe
-qAiM2J4z2r2LLn/0PU55ByOQ
-=kZwv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLAXHMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1/gP/3nPxli2MSxU/v61doqO
+ckye4mZRyvszfCmEzfzlv3zFUHY+TowaPLMwX7Slhbm1WKMMEH0812UMrpnKkqTr
+UHSZ6EH0Nhj/I0BbnMLJ4aeWnAudyyWRiVstq9pt/S3zyhXjw7NLuRqwprN8X3F7
+CEJAUrkfbbl1Y9TODXa8aaCYx89/ObuZBvPdPOUfgLObHB91dhuKD36CGBd4jvFf
+Og2dXBL1DhtN2+J+V4Uz+39odKJSrzjPwnSZ+ifajm+SvLKphwZokn/tSPEvdxgQ
+xgMe8RVC297qhoGo75XVyQtavAJ9Afig5GqROBWF8LwkGBynhqRQ2oWpMqR3mQ/t
+2LsA/I23+phb9d0PEmBSel9G7Fwo2qm3Yfh4Jcq0+xXQAf0qHvBUce3jYgCeFc/1
+TMTxDFqaQCHyLe6mnYbyFT+ynicXTenHf4R2vY6+bEcBZ+5Vn2aq4IWfyzD5j9FC
+cbrjzmjS0YFLjjJbAKKWgtM85OcH+6Urg13W24TBnMjeMtdbgKHwZg1OrjBUJvPN
+6hhd/pptZFj4W6+BEJsFJzdeijue1BaPjDFadmM17JX7pMXjg2MwQQzw3KTxWdpx
+04o/QTVzzDjvThZTAyQ4sE8MqnzYki+ybyVvPXlL8nAaBi2+9g4v7sqLiDTtjc8T
+NzGvJhY0JdOH9DfiR5PRpRDh
+=YBw1
 -----END PGP SIGNATURE-----
 
---===============4278517786100542248==--
+--===============5462808065983445193==--
