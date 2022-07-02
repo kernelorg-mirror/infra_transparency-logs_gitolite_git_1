@@ -1,58 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============6222352918361995298=="
+Content-Type: multipart/mixed; boundary="===============8803778821990310934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 02 Jul 2022 09:02:52 -0000
-Message-Id: <165675257273.20413.1900177919437735721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 02 Jul 2022 09:06:51 -0000
+Message-Id: <165675281133.23164.15544834494129951854@gitolite.kernel.org>
 
---===============6222352918361995298==
+--===============8803778821990310934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: df8d0a55047b57074ac69db795a9775b3abe364e
-    new: 3355a12760deceb09e1888c5b9ad1f89bf86939b
+  - ref: refs/heads/tty-next
+    old: c8177f90b7c618042e8dd19c87307cf29a7dc275
+    new: 7349660438603ed19282e75949561406531785a5
     log: |
-         c87d8e90bccb835184749621d990f7626c3daf31 staging: r8188eu: drop return value from receive_disconnect
-         d61da1d7a1bf9f6483ec15e9dd3b1023bf293264 staging: r8188eu: remove HW_VAR_H2C_MEDIA_STATUS_RPT from SetHwReg8188EU()
-         3355a12760deceb09e1888c5b9ad1f89bf86939b staging: r8188eu: remove unneeded semicolon
+         ac77f0077c3265197d378158c85a55eee6d21508 tty: n_gsm: fix user open not possible at responder until initiator open
+         01aecd917114577c423f07cec0d186ad007d76fc tty: n_gsm: fix tty registration before control channel open
+         556fc8ac06513cced381588d6d58c184d95cc4fe tty: n_gsm: fix wrong queuing behavior in gsm_dlci_data_output()
+         c568f7086c6e771c77aad13d727c70ef70e07243 tty: n_gsm: fix missing timer to handle stalled links
+         bec0224816d19abe4fe503586d16d51890540615 tty: n_gsm: fix non flow control frames during mux flow off
+         4fae831b3a71fc5a44cc5c7d0b8c1267ee7659f5 tty: n_gsm: fix packet re-transmission without open control channel
+         32dd59f96924f45e33bc79854f7a00679c0fa28e tty: n_gsm: fix race condition in gsmld_write()
+         0af021678d5d30c31f5a6b631f404ead3575212a tty: n_gsm: fix deadlock and link starvation in outgoing data path
+         7349660438603ed19282e75949561406531785a5 tty: n_gsm: fix resource allocation order in gsm_activate_mux()
          
 
---===============6222352918361995298==
+--===============8803778821990310934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656752571 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1656752571-2b9fbc932ccd3d1e4ffb432606dd9b5d0fcdd0e6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656752810 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1656752809-304b7b230cc911c2cf631e4a0d8ddd9e003b9591
 
-df8d0a55047b57074ac69db795a9775b3abe364e 3355a12760deceb09e1888c5b9ad1f89bf86939b refs/heads/staging-next
+c8177f90b7c618042e8dd19c87307cf29a7dc275 7349660438603ed19282e75949561406531785a5 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLACbwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3wEP/j99O5I3+/XfXC4F4+8j
-r1r0wLrYqHEOIkP2r/S2rfWzOFrwkGJdBapraKsyYbzsT6WgcCNumPy4MKni49Rd
-h/2La/HbObsTg0eVEc7y3fIi9C4Wbs+XzMWyBBnZfnQJMdjuqDAIQUhDlZYczsXf
-QvQ8XgYJxqRFghAxsVBfJ+pUQ4h07AXlFjrXJ5Zi29ZwLjpOb4fscBks+TXkne/3
-blBsMi2iaECcU0e46YvhQW5X7QAD6SWeVYAoKaDak7QXdmcyRkYgOwrLmGOtlkZ/
-Peil+wa8PAN7cLqRJqfU5K7Nr/V2oN2PZ7UAM8dhMMm5rrp5q3eIK6URl7lVh9GP
-rTMwRs3kOEjy525YNUUnbVIUBPgVzc7bwYqZUuMfl1nMAFwLy4CR/LWBUuy10uqD
-3Pc4dHXDTzaHZNhHWhq3I4TBj9C6+aCo5Pb/f5TfMIHyXk6bVQzwzIHHVvOsNssq
-Ob1vJi8qnA4pP3TMiIyOzW6UQOaRmBwQVjIQ2nqQYN8DvyZtgpZeQK6rVb4JvI5A
-u6dZR9Po7jZv4KqPc7M+278DeGJRTzICC4kxPATGs+FGMONXHAPgAe6Lt6eNGbkH
-Ec3p9Y9VTydsaYVI7BqZ+6+i1y6iIByEdCmbXg1ulC5P+m/Rc6L0EtqXOU8jXbfF
-ahUpP5ZMRMaHocpLQ9m4/9yo
-=Ajqj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLACqobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QJQQALYo6hoC+381jOYLWxQw
+VF5OwaHonX+714NTRzt/S4UtnH6nIioVuozVBzMuxdmzzmHR3BOmo1y3eW0T8NVO
+XsUTKPFHuP64x4RViikLpliYHuhP/1uxZ2odps9II3Rke9gj2524Q6p1BZYVap89
+sZhfiv6cEbAvMCeCzDDB+7JkPUYpvYAyDQPSqTFGAHhvP81/6zwaZuA6/jC3rFSd
+t3jai3a/0hkFD6tTDSyRAz+1H5s9853IS9MUYw4p+Df5KCB8x4pnOeoaDCay0TMq
+lIyvAaSFKYTq6vne36Oa6vLkJzq676XBJbKDkjU8rFBf2rHpLdSJDYXlcTmfZv1g
+EeLhE/v7xBf2my3zg7hLG7TLMKk86hCz1LE+uMgCsACkUk6aEwwHsaYXazFPSY97
+v23bCC87pa+M9/Q5sxq8FPqYTcp1ih8edk5ewbpdkPh8JGhxnmAtVKffOZbWh/fx
+5mfPeJSK+H6bipa9dr43NLqxf94Uz7+Vz4JW3AWMn2NSqXUP6I6cjE4N9etGebd7
+2FHywHv5TOCkBRUWH28KXxJ6baZbCvIHSTIEc0ptOPITBH8Ho1EN1tZq3sWRSLK+
+zvV59uYIjV+nJeSSbkdepWfd6CrXuV+kUMhbBpicb2pT+rpWpI3YyMNiUxmc4Juz
+I2BKo4uhfxON/52JdOwjMclZ
+=SIKQ
 -----END PGP SIGNATURE-----
 
---===============6222352918361995298==--
+--===============8803778821990310934==--
