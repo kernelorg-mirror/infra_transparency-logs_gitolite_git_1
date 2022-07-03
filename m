@@ -1,48 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5375924499917247708=="
+Content-Type: multipart/mixed; boundary="===============7118431247426253844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 03 Jul 2022 11:37:11 -0000
-Message-Id: <165684823138.17924.4713896850831621243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 03 Jul 2022 12:03:07 -0000
+Message-Id: <165684978714.2265.18324824457993004777@gitolite.kernel.org>
 
---===============5375924499917247708==
+--===============7118431247426253844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: c67289e064cacda22ace61b8079a4e3f0e4aa520
-    new: a48e789dd2633bdeb6552dfdfedd0435f9c2f897
-    log: revlist-c67289e064ca-a48e789dd263.txt
+  - ref: refs/heads/mlx5-queue
+    old: 7259683256b7aebc479210dec87e6c37a957ce26
+    new: 44ce0c322423e7d7123a461259c3c71251a69ec0
+    log: revlist-7259683256b7-44ce0c322423.txt
 
---===============5375924499917247708==
+--===============7118431247426253844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c67289e064ca-a48e789dd263.txt
+Content-Disposition: attachment; filename=revlist-7259683256b7-44ce0c322423.txt
 
-713eb3c1261a1f89e35bdf233265aa5a2c46e9b2 tty: Add N_CAN327 line discipline ID for ELM327 based CAN driver
-43da2f07622f41376c7ddab8f73dc2b1d3ab9715 can: can327: CAN/ldisc driver for ELM327 based OBD-II adapters
-9f0109685f075880283934b274ad6f2ef313c21e Merge branch 'can327-CAN-ldisc-driver-for-ELM327-based-OBD-II-adapters'
-50f2944009a25bb39a09f2f7bab64a73ce928bef can: ctucanfd: ctucan_interrupt(): fix typo
-3cd864901bc5d5aa2bd38533dcd63d2bf2387030 can: slcan: use the BIT() helper
-da6788ea025c62343fec81f92409012d82096a09 can: slcan: use netdev helpers to print out messages
-92a31782c8487e496a9f1b2be3995e5c9c9a3265 can: slcan: use the alloc_can_skb() helper
-036bff2800cbcf8217dd0bc93d8421b5b8f72476 can: netlink: dump bitrate 0 if can_priv::bittiming.bitrate is -1U
-c4e54b063f42f20a6b3ad1ffa61c574e631e0216 can: slcan: use CAN network device driver API
-52f9ac85b8766d16021775f2c1bb85a903a582ff can: slcan: allow to send commands to the adapter
-dca796299462579dad380413783588192b0c3433 can: slcan: set bitrate by CAN device driver API
-5bac315be7eb6a7442d390c6b99e7ff5cb61f848 can: slcan: send the open/close commands to the adapter
-98b12064591d635db86da4957b547067dc6897cc can: slcan: move driver into separate sub directory
-4de0e8efa052b1f0b3dae9e7c1538163cad216e7 can: slcan: add ethtool support to reset adapter errors
-b32ff4668544e1333b694fcc7812b2d7397b4d6a can: slcan: extend the protocol with error info
-0a9cdcf098a4a52b1a44b522022d1466a2d2680d can: slcan: extend the protocol with CAN state info
-0ebd5529d2ddab76a46681991d350b82c62ef13e Merge branch 'can-slcan-extend-supported-features'
-a48e789dd2633bdeb6552dfdfedd0435f9c2f897 Merge tag 'linux-can-next-for-5.20-20220703' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+6a533b28613f4da59f08d661970f3a3a41908f28 net: Disable LRO feature if no RXCSUM
+d290e9aa7e95b233411ba37c850da0a13ab4b71e net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+ca88414dd3b34534156a9664671e7d0c43e2da98 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+e6a718332c4fd228e558d0768af9d281e25a3c24 net/mlx5e: Support enhanced CQE compression
+fddad9fc1066140b76b1f51ec9441f5fa915e69a net/tls: Perform immediate device ctx cleanup when possible
+f57caf35b2618ff741adfd897a7a89e76d4f1052 net/tls: Multi-threaded calls to TX tls_dev_del
+34544cb627013b1112e9287f13c70dc3d89de67e net/mlx5e: kTLS, Introduce TLS-specific create TIS
+a095391d855d40154f9b3b5f98f39418f225f29d net/mlx5e: kTLS, Take stats out of OOO handler
+bbf43cfc71623868f0233b85114804a37dfa66ac net/mlx5e: kTLS, Recycle objects of device-offloaded TLS TX connections
+74c5e473855d4bfb0c6b27a36b582cffe1ba5ee1 net/mlx5e: kTLS, Dynamically re-size TX recycling pool
+fb4419e72148ea495ff83342f73ffb27fda7cb18 net/mlx5e: Move params kernel log print to probe function
+9a074f619bf46768597c19554118796d4e140d77 sched/topology: Expose sched_numa_find_closest
+4f7078e46a9b7ff61d6fcb51e8f068c374aa5095 net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+70e036d6594d961b522dfa5451b41fe67d408cf7 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+24ececb8bc17bb673c7e87bee8b71014e44d91b2 net/mlx5e: HTB, reduce visibility of htb functions
+7a3db316446e132d0a052aa34c76405ca8e14e89 net/mlx5e: HTB, move ids to selq_params struct
+600cee60a5884b12bd68c0c10cbbbe576073bd45 net/mlx5e: HTB, move section comment to the right place
+0475326bff70b33d4048d6b908181c2d56e5be56 net/mlx5e: HTB, move stats and max_sqs to priv
+1a9cf623078439b4e758da0265c4296713ab6a15 net/mlx5e: HTB, hide and dynamically allocate mlx5e_htb structure
+0421f872dda3625c21b6ecb78bd11ca8949a7b0f net/mlx5e: HTB, remove priv from htb function calls
+634fe3a7a3ee4f16d96f8210ea950cd48a4c6260 net/mlx5e: HTB, change functions name to follow convention
+85ed600f1e9134091e7404a1e4bc70ce908603fd net/mlx5e: HTB, move htb functions to a new file
+5a41a642637a2be36dc325bd64fedf4ad6b0e571 Merge branch 'patchq/496064' into mlx5-queue
+575d01f040fcf0580a109ea99a6c486827c9b4f3 Merge branch 'patchq/323390' into mlx5-queue
+4097aa3c8a63ab8141a071569442cee52885b373 Merge branch 'patchq/474284' into mlx5-queue
+bd48eb60a352b113f39b26783a4820daf9ece262 Merge branch 'patchq/505590' into mlx5-queue
+6ebd097f585a2437fc286935eaeec2ad89b148a9 Merge branch 'patchq/364346' into mlx5-queue
+1a464f62ced55ddc1e1efb423204a1ed5bb3833d Merge branch 'patchq/516865' into mlx5-queue
+44ce0c322423e7d7123a461259c3c71251a69ec0 Merge branch 'patchq/501243' into mlx5-queue
 
---===============5375924499917247708==--
+--===============7118431247426253844==--
