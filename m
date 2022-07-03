@@ -1,82 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============8933254574463266852=="
+Content-Type: multipart/mixed; boundary="===============0712277779252857711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 03 Jul 2022 07:58:06 -0000
-Message-Id: <165683508689.29138.16023456011891950023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Sun, 03 Jul 2022 09:54:23 -0000
+Message-Id: <165684206373.16207.17212413676780156747@gitolite.kernel.org>
 
---===============8933254574463266852==
+--===============0712277779252857711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
   - ref: refs/heads/master
-    old: 089866061428ec9bf67221247c936792078c41a4
-    new: 69cb6c6556ad89620547318439d6be8bb1629a5a
-    log: revlist-089866061428-69cb6c6556ad.txt
+    old: 9f0109685f075880283934b274ad6f2ef313c21e
+    new: 0ebd5529d2ddab76a46681991d350b82c62ef13e
+    log: revlist-9f0109685f07-0ebd5529d2dd.txt
 
---===============8933254574463266852==
+--===============0712277779252857711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656835084 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1656835083-c5605a98820c47bb40be08a226f7d1fddf7fa818
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656842059 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1656842058-ef583cbd9c58c70b556451a573f90dc701e33cef
 
-089866061428ec9bf67221247c936792078c41a4 69cb6c6556ad89620547318439d6be8bb1629a5a refs/heads/master
+9f0109685f075880283934b274ad6f2ef313c21e 0ebd5529d2ddab76a46681991d350b82c62ef13e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLBTAwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8d8P+wQoZ7vmu75RuuyQbAxs
-NccYet2mV45GyNdhwK37oa2RLFAFkjouO2KCuleSGi+GUkcPwHxYeicoMSNZPisB
-/8gPoqCO5mnXhKC4RJNcLFavJXnq3xY8J8uATtSrjBT6EKnB+T1/QGNBR5lcd/G5
-qjv/wxTtCSyxfYy7Ghcvgu2CjVR7uq1T9rZfgkyGJVHxUmBFBPxo+BO6aPB+9F1Q
-QSwC8iw9JF+aEanuR/WjNgRsIqqlCXLU8LWhhB+p0+pYRxre4hHBAL79lvg3faSw
-uX7wawEVS7eKkcqkP4tTcJtSYwgLj1fINkRlaW8IYaqOqEqkhgBvhc8hvSSqnpFn
-iR2w/eG4UJ0zmiyyq5JiMQkbJPAdY041kM+DBxLu0PtwTeKfMSWvCjRUvrOF7Xq8
-6V0ypjqKeJpuPa35EoqqvH4+lx5DmYO6d20ht8MXR9YYoSvF6RvYU66jVk9I93Iv
-sH9TyH5K40vLE8hmsow5trGmnBaH6Z/Kbt6VHcmICqQ2SDvfnHRD3XR4bX2Kce4U
-8cgzwqUErSwSn2oml/RR8Y9AZR/V+i3fsmFWUl4QFoeOv3+wdmlscXBjc/MjIiv0
-jDhNAYuRUeR6Quyq+ttS7H+d2GLPvA0FlRRZPzbNuM1Inh8MpCSP6JsvKGhWt0Nz
-PkEhsKm2cL903vSCGlhdEpBx
-=gFDl
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLBZ0sTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXUUSB/4omkwEGIGCb3ShqybyY44ykfF8bUI6
+8ZzsEyobuF6ZECV4l78EhheUcdP7wuq3R6SQLcdu8KZXd02AMm274vxrLUzHccK/
+48UjWWENSLBNLTPFsjsyNjDBNaejRf5MBHLPqpFQqIsY60ilxJIiwlUgJDWvCDkx
+VRloRq8FeBVwRYTHRmagTNK69a+nFpHMjtRBsS5XwpaRO7Ft/bWxw2ci9YQ2mJsl
+l3HfIS9UI5iwF1HdAVT5IljU5Cl2e7Tnw1vzP0RyIxRghFTNxQEqPk4d9NGb1yi8
+R6kLRV7ZBkwsnTTDJm//Uxrzeo1SiNiZYugsAl/sDym6Ab1uwX3KUHs/
+=XxaC
 -----END PGP SIGNATURE-----
 
---===============8933254574463266852==
+--===============0712277779252857711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-089866061428-69cb6c6556ad.txt
+Content-Disposition: attachment; filename=revlist-9f0109685f07-0ebd5529d2dd.txt
 
-19fc5bb93c6bbdce8292b4d7eed04e2fa118d2fe powerpc/xive/spapr: correct bitmap allocation size
-986481618023e18e187646b0fff05a3c337531cb powerpc/book3e: Fix PUD allocation size in map_kernel_page()
-6886da5f49e6d86aad76807a93f3eef5e4f01b10 powerpc/prom_init: Fix kernel config grep
-8a9ffb8c857c2c99403bd6483a5a005fed5c0773 NFSD: restore EINVAL error translation in nfsd_commit()
-96b80fcd2705fc50ebe1f7f3ce204e861b3099ab parisc/unaligned: Fix emulate_ldw() breakage
-d6838ec44b4513280a3f43fcc402e246d543fb53 perf offcpu: Fix build failure on old kernels
-49c692b7dfc9b6c06a1dc11359a8780575b16d4a perf offcpu: Accept allowed sample types only
-117c49505b5918388157321c68c6e5a58b67f649 tools kvm headers arm64: Update KVM headers from the kernel sources
-579d6c6d77a7b55d74db8a506d5fc0c77fb1a5e1 perf bpf: 8 byte align bpil data
-7fe718fb8f3f543da1f04ca08bf652dd2afb55f8 tools headers UAPI: Sync linux/kvm.h with the kernel sources
-b21bd5a4b130f8370861478d2880985daace5913 powerpc/bpf: Fix use of user_pt_regs in uapi
-ac790d09885d36143076e7e02825c541e8eee899 powerpc/memhotplug: Add add_pages override for PPC
-a23dd544debcda4ee4a549ec7de59e85c3c8345c SUNRPC: Fix READ_PLUS crasher
-5eb502b2e1ae1ab052cdf6bdd7615217e8517360 perf unwind: Fix unitialized 'offset' variable on aarch64
-363afa3aef24f5e08df6a539f5dc3aae4cddcc1a perf synthetic-events: Don't sort the task scan result from /proc
-ff898552fb32d255517fb0676f9fa500664c484d perf synthetic-events: Ignore dead threads during event synthesis
-5411de073362300d99bb35d46d77d656760e4606 Merge tag 'powerpc-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-bb7c51268776941b7533374caabcaaed302b91e0 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-bit kernel
-34074da5424c08542d197396757cc3194ef754b4 Merge tag 'for-5.19/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-69cb6c6556ad89620547318439d6be8bb1629a5a Merge tag 'nfsd-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+50f2944009a25bb39a09f2f7bab64a73ce928bef can: ctucanfd: ctucan_interrupt(): fix typo
+3cd864901bc5d5aa2bd38533dcd63d2bf2387030 can: slcan: use the BIT() helper
+da6788ea025c62343fec81f92409012d82096a09 can: slcan: use netdev helpers to print out messages
+92a31782c8487e496a9f1b2be3995e5c9c9a3265 can: slcan: use the alloc_can_skb() helper
+036bff2800cbcf8217dd0bc93d8421b5b8f72476 can: netlink: dump bitrate 0 if can_priv::bittiming.bitrate is -1U
+c4e54b063f42f20a6b3ad1ffa61c574e631e0216 can: slcan: use CAN network device driver API
+52f9ac85b8766d16021775f2c1bb85a903a582ff can: slcan: allow to send commands to the adapter
+dca796299462579dad380413783588192b0c3433 can: slcan: set bitrate by CAN device driver API
+5bac315be7eb6a7442d390c6b99e7ff5cb61f848 can: slcan: send the open/close commands to the adapter
+98b12064591d635db86da4957b547067dc6897cc can: slcan: move driver into separate sub directory
+4de0e8efa052b1f0b3dae9e7c1538163cad216e7 can: slcan: add ethtool support to reset adapter errors
+b32ff4668544e1333b694fcc7812b2d7397b4d6a can: slcan: extend the protocol with error info
+0a9cdcf098a4a52b1a44b522022d1466a2d2680d can: slcan: extend the protocol with CAN state info
+0ebd5529d2ddab76a46681991d350b82c62ef13e Merge branch 'can-slcan-extend-supported-features'
 
---===============8933254574463266852==--
+--===============0712277779252857711==--
