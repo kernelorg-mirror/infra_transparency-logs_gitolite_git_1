@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2122448289133767764=="
+Content-Type: multipart/mixed; boundary="===============0962929418468236551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 03 Jul 2022 18:42:41 -0000
-Message-Id: <165687376140.5019.12398043656991612966@gitolite.kernel.org>
+Date: Sun, 03 Jul 2022 18:46:46 -0000
+Message-Id: <165687400618.8247.7168073800323367414@gitolite.kernel.org>
 
---===============2122448289133767764==
+--===============0962929418468236551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 04740c53cac4bf93b5233a0d774d7f39620378e1
     new: d0bf1fe6454e976e39bc1524b9159fa2c0fcf321
     log: revlist-04740c53cac4-d0bf1fe6454e.txt
 
---===============2122448289133767764==
+--===============0962929418468236551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ c67289e064cacda22ace61b8079a4e3f0e4aa520 Merge tag 'mlx5-updates-2022-06-29' of 
 a48e789dd2633bdeb6552dfdfedd0435f9c2f897 Merge tag 'linux-can-next-for-5.20-20220703' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 d0bf1fe6454e976e39bc1524b9159fa2c0fcf321 net: usb: Remove unnecessary '0' values from hasdata
 
---===============2122448289133767764==--
+--===============0962929418468236551==--
