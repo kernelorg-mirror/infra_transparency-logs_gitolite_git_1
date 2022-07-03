@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0962929418468236551=="
+Content-Type: multipart/mixed; boundary="===============0070955357675407625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 03 Jul 2022 18:46:46 -0000
-Message-Id: <165687400618.8247.7168073800323367414@gitolite.kernel.org>
+Date: Sun, 03 Jul 2022 18:46:55 -0000
+Message-Id: <165687401571.8394.9934433008243703057@gitolite.kernel.org>
 
---===============0962929418468236551==
+--===============0070955357675407625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 04740c53cac4bf93b5233a0d774d7f39620378e1
-    new: d0bf1fe6454e976e39bc1524b9159fa2c0fcf321
-    log: revlist-04740c53cac4-d0bf1fe6454e.txt
+  - ref: refs/heads/mlx5-queue
+    old: 1d5534a3a2529cca3f6326a83ffc3efe9fc5f2ee
+    new: 4db37fde7a9d8ef6a536728574fd615cea575dde
+    log: revlist-1d5534a3a252-4db37fde7a9d.txt
 
---===============0962929418468236551==
+--===============0070955357675407625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04740c53cac4-d0bf1fe6454e.txt
+Content-Disposition: attachment; filename=revlist-1d5534a3a252-4db37fde7a9d.txt
 
 713eb3c1261a1f89e35bdf233265aa5a2c46e9b2 tty: Add N_CAN327 line discipline ID for ELM327 based CAN driver
 43da2f07622f41376c7ddab8f73dc2b1d3ab9715 can: can327: CAN/ldisc driver for ELM327 based OBD-II adapters
@@ -79,5 +79,34 @@ b32ff4668544e1333b694fcc7812b2d7397b4d6a can: slcan: extend the protocol with er
 c67289e064cacda22ace61b8079a4e3f0e4aa520 Merge tag 'mlx5-updates-2022-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 a48e789dd2633bdeb6552dfdfedd0435f9c2f897 Merge tag 'linux-can-next-for-5.20-20220703' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 d0bf1fe6454e976e39bc1524b9159fa2c0fcf321 net: usb: Remove unnecessary '0' values from hasdata
+e8393177a6321ab03b0c3f630e7fb6767db2fd3c net: Disable LRO feature if no RXCSUM
+67b4d5cf8cf28f2dc3812e84dbc2239e96f91161 net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+9802c3eff33f5aed8d2b1569a200a47ee6f48525 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+4811600f0c5b3f081619c0f048545b5007bfd1a4 net/mlx5e: Support enhanced CQE compression
+837e5237f2d24fd640cfdf8ea6969ec35dbed013 net/tls: Perform immediate device ctx cleanup when possible
+06ed0daf1282e1d97de50259e39004c54bfc8910 net/tls: Multi-threaded calls to TX tls_dev_del
+2a58d8ee4b426d07f6417ea7976f867d30db9b90 net/mlx5e: kTLS, Introduce TLS-specific create TIS
+96fb354b01962bd3c55b5b3b359aa50b8657c4fe net/mlx5e: kTLS, Take stats out of OOO handler
+0d4a23d2fc8523e0e5e18360ed32e4564d856370 net/mlx5e: kTLS, Recycle objects of device-offloaded TLS TX connections
+afc653647a230148c5d81adb9d236ece13b35238 net/mlx5e: kTLS, Dynamically re-size TX recycling pool
+88c608d9b3dac00d6dbc3a1842a1078b6ab14c7c net/mlx5e: Move params kernel log print to probe function
+32fc9cf954a6c4189af273d16ff4a2a2ee5f4a38 sched/topology: Expose sched_numa_find_closest
+65553d8b2dfdb1185626083886b3b19f9ae29692 net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+b097d053cebdc83c16b8b6db19657f23a092bd42 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+f63e065f061c8e41f4508049ca3518833607b720 net/mlx5e: HTB, reduce visibility of htb functions
+db1e879edf22bfe5bf1510a4bf64dc88b23f5661 net/mlx5e: HTB, move ids to selq_params struct
+169c6ca0ffb35614ea5285b64f607d60d154d074 net/mlx5e: HTB, move section comment to the right place
+548b5fb1109c5798e05f3135894b9dc3a088d320 net/mlx5e: HTB, move stats and max_sqs to priv
+dcba79f57b4b3fbc81ab2d69c622f07e0a0e1b8e net/mlx5e: HTB, hide and dynamically allocate mlx5e_htb structure
+f5121e4aac03cf687de6fac9dbf00ff58728ca0a net/mlx5e: HTB, remove priv from htb function calls
+5510c26213682d1b616cc3af306de8ab383d47e2 net/mlx5e: HTB, change functions name to follow convention
+a061dbc9b86334616389f907d0efaea732388084 Merge branch 'patchq/496064' into mlx5-queue
+1d329e843eda5ce9d24fda7dda8df42ba9853131 net/mlx5e: HTB, move htb functions to a new file
+4a4bcf1685745bfc767da0b60453abba2b47dd79 Merge branch 'patchq/323390' into mlx5-queue
+abe5f06931f2d7bb2d696cd6c908ee2747016b7e Merge branch 'patchq/474284' into mlx5-queue
+87b47435c0c0537ce58c31221a95d4a9afdbc237 Merge branch 'patchq/505590' into mlx5-queue
+5e2e28a9a97beffa33aa6bb9f5db8b6f4e68a373 Merge branch 'patchq/364346' into mlx5-queue
+18510335af37a0ded15bbb39f2bad4508a458f9d Merge branch 'patchq/516865' into mlx5-queue
+4db37fde7a9d8ef6a536728574fd615cea575dde Merge branch 'patchq/501243' into mlx5-queue
 
---===============0962929418468236551==--
+--===============0070955357675407625==--
