@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sun, 03 Jul 2022 13:54:21 -0000
-Message-Id: <165685646136.9696.3488581047647837109@gitolite.kernel.org>
+Date: Sun, 03 Jul 2022 13:54:28 -0000
+Message-Id: <165685646868.9813.14515313205133676689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/fbcon-fix
-    old: c407c516e9f0b193c8b3ea0bf8f71e775dca38e1
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 00d9330109290dee51be8898a3367dd2d6db33ec
