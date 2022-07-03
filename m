@@ -1,47 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5162331878483064619=="
+Content-Type: multipart/mixed; boundary="===============3243724081088337637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 03 Jul 2022 15:35:18 -0000
-Message-Id: <165686251851.12838.5506614243887353023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Sun, 03 Jul 2022 15:41:42 -0000
+Message-Id: <165686290217.16330.2053328348138550766@gitolite.kernel.org>
 
---===============5162331878483064619==
+--===============3243724081088337637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/auto-latest
-    old: f4fadf62be8da2e6d2d23519f21e17d0ff773113
-    new: 3c1ec304a1bc621ae646b1425975210f9594218c
-    log: revlist-f4fadf62be8d-3c1ec304a1bc.txt
-  - ref: refs/heads/master
-    old: 775b9cc1d1f95feaf897bce27c7c397b234025f3
-    new: 3c1ec304a1bc621ae646b1425975210f9594218c
-    log: |
-         7ba66b6221e36956c051e143274cb6155cff29b7 Merge branch into tip/master: 'x86/urgent'
-         92262869c2335443ff47ad75e680d266b2ad1662 Merge branch into tip/master: 'irq/core'
-         368910a0246136aaf31cedfdf6eb1706767aba60 Merge branch into tip/master: 'locking/core'
-         d53be3c89c0098e8b4efd0b226c163fb5ac7a650 Merge branch into tip/master: 'perf/core'
-         9ae5c45d69350d1867a14bcfb5b340900d7f690b Merge branch into tip/master: 'ras/core'
-         3a4a70f102f620c58ea2fda5db208265c17d94ed Merge branch into tip/master: 'sched/core'
-         5349b5fc67f16e70106387dbac49a817580b64e1 Merge branch into tip/master: 'x86/cpu'
-         75f6e5cae652b3cc467a06f3484f8e70627afb19 Merge branch into tip/master: 'x86/fpu'
-         55a870db0e5adfb17cd54eb075d34ac39a3cf3fd Merge branch into tip/master: 'x86/kdump'
-         c43009b6570fb414dccdd51f118251e1313caeb0 Merge branch into tip/master: 'x86/misc'
-         6e61033ae23d6058c90ac8e9edfebc2ec09c4ec4 Merge branch into tip/master: 'x86/mm'
-         3c1ec304a1bc621ae646b1425975210f9594218c Merge branch into tip/master: 'x86/vmware'
-         
+  - ref: refs/heads/for-linux-next
+    old: 212a46eb38cfa1c96600b3a195e2e77d9e4682ff
+    new: 72e9c485687815367c4136e08f3dc98cd7eb14f0
+    log: revlist-212a46eb38cf-72e9c4856878.txt
 
---===============5162331878483064619==
+--===============3243724081088337637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4fadf62be8d-3c1ec304a1bc.txt
+Content-Disposition: attachment; filename=revlist-212a46eb38cf-72e9c4856878.txt
 
 118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
 a1ea0857b59757733d58908dd55bf4b722ee574f clk: stm32: rcc_reset: Fix missing spin_lock_init()
@@ -93,13 +76,6 @@ cce13b82cf97b26919144e01c49fbf3da61c9d6c Merge branch 'notify-user-space-if-any-
 805206e66fab4ba1e0ebd19402006d62cd1d4902 net: asix: fix "can't send until first packet is send" issue
 ce95ab775f8d8e89a038c0e5611a7381a2ef8e43 net: usb: asix: do not force pause frames support
 3b0dc529f56b5f2328244130683210be98f16f7f ipv6: take care of disable_policy when restoring routes
-d05b43059dfa115037cd37bc276a8316391def28 sched/fair: Provide u64 read for 32-bits arch helper
-e2f3e35f1f5a4dccddf352cea534542544c9b867 sched/fair: Decay task PELT values during wakeup migration
-bb4479994945e9170534389a7762eb56149320ac sched, drivers: Remove max param from effective_cpu_util()/sched_cpu_util()
-ec4fc801a02d96180c597238fe87141471b70971 sched/fair: Rename select_idle_mask to select_rq_mask
-9b340131a4bcf6d0a282a2bdcd8ca268a74da709 sched/fair: Use the same cpumask per-PD throughout find_energy_efficient_cpu()
-3e8c6c9aac42ced4ca705714b6dd34cf4d305cf0 sched/fair: Remove task_util from effective utilization in feec()
-b812fc9768e0048582c8e18d7b66559c1758dde1 sched/fair: Remove the energy margin in feec()
 4ff5a9b6d95f3524bf6d27147df497eb21968300 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
 668a7a12ded7077d4fd7ad1305667e559907e5bb cpufreq: qcom-hw: Don't do lmh things without a throttle interrupt
 ccd7567d4b6cf187fdfa55f003a9e461ee629e36 cpufreq: pmac32-cpufreq: Fix refcount leak bug
@@ -197,10 +173,6 @@ a23dd544debcda4ee4a549ec7de59e85c3c8345c SUNRPC: Fix READ_PLUS crasher
 5e8379351dbde61ea383e514f0f9ecb2c047cf4e Merge tag 'net-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b8f0009bc9edf9186b20ae2a9e442ef0af93040e Merge tag 'drm-misc-fixes-2022-06-30' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 a175eca0f3d747599f1fdfac04cc9195b71ec996 Merge tag 'drm-fixes-2022-07-01' of git://anongit.freedesktop.org/drm/drm
-96e8fc5818686d4a1591bb6907e7fdb64ef29884 x86/xen: Use clear_bss() for Xen PV guests
-38fa5479b41376dc9d7f57e71c83514285a25ca0 x86: Clear .brk area at early boot
-7e09ac27f43b382f5fe9bb7c7f4c465ece1f8a23 x86: Fix .brk attribute in linker script
-b69a2afd5afce9bf6d56e349d6ab592c916e20f2 x86/kexec: Carry forward IMA measurement log on kexec
 9650910d05a31d62f562f90ca15ece685a4c1b9c Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 410982303772993a86bb7a9cfa7ece34522b2636 arm64: hugetlb: Restore TLB invalidation for BBM on contiguous ptes
 690685ffcdcec3975f45eafe3dcf4bff29aa1676 Merge tag 'ata-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
@@ -226,17 +198,45 @@ bb7c51268776941b7533374caabcaaed302b91e0 Merge tag 'perf-tools-fixes-for-v5.19-2
 aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-bit kernel
 34074da5424c08542d197396757cc3194ef754b4 Merge tag 'for-5.19/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 69cb6c6556ad89620547318439d6be8bb1629a5a Merge tag 'nfsd-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-7ba66b6221e36956c051e143274cb6155cff29b7 Merge branch into tip/master: 'x86/urgent'
-92262869c2335443ff47ad75e680d266b2ad1662 Merge branch into tip/master: 'irq/core'
-368910a0246136aaf31cedfdf6eb1706767aba60 Merge branch into tip/master: 'locking/core'
-d53be3c89c0098e8b4efd0b226c163fb5ac7a650 Merge branch into tip/master: 'perf/core'
-9ae5c45d69350d1867a14bcfb5b340900d7f690b Merge branch into tip/master: 'ras/core'
-3a4a70f102f620c58ea2fda5db208265c17d94ed Merge branch into tip/master: 'sched/core'
-5349b5fc67f16e70106387dbac49a817580b64e1 Merge branch into tip/master: 'x86/cpu'
-75f6e5cae652b3cc467a06f3484f8e70627afb19 Merge branch into tip/master: 'x86/fpu'
-55a870db0e5adfb17cd54eb075d34ac39a3cf3fd Merge branch into tip/master: 'x86/kdump'
-c43009b6570fb414dccdd51f118251e1313caeb0 Merge branch into tip/master: 'x86/misc'
-6e61033ae23d6058c90ac8e9edfebc2ec09c4ec4 Merge branch into tip/master: 'x86/mm'
-3c1ec304a1bc621ae646b1425975210f9594218c Merge branch into tip/master: 'x86/vmware'
+12c3d370629da252be9b2eb158b1770dbd5f3539 firmware: arm_scpi: Ensure scpi_info is not assigned if the probe fails
+cafaa1abfa2eb1020c0bc36668463cfe080ad29c include: trace: Add SCMI full message tracing
+8a387966e69d4f7656f483c2375db71b038a678f firmware: arm_scmi: Use new SCMI full message tracing
+5ae320454637154e30fc25fdef71e6209b86150e firmware: arm_scmi: Support only one single SystemPower device
+b148e309d4091abe085f234723083f8a18cc268b firmware: arm_scmi: Add SCMIv3.1 SystemPower extensions
+c4628d14bb79d346324c218ad9c596c6abb5109f firmware: arm_scmi: Add devm_protocol_acquire helper
+677549e14ee6c07932668150eebe16150e84f7c5 firmware: arm_scmi: Add SCMI System Power Control driver
+d334ef0a8744f766313dad7bff1637e9fc820a05 dt-bindings: firmware: arm,scmi: Add powercap protocol
+753c191a5216aef49028e8ad3bfe73aa6fee61d3 firmware: arm_scmi: Add SCMIv3.1 Powercap protocol basic support
+88cc9600969065659f838b8bbb96c4c2f4796fe9 firmware: arm_scmi: Generalize FastChannel support
+6bb719751af672f6bcc7b0c8548ca795ba36615c firmware: arm_scmi: Add SCMIv3.1 Powercap FastChannels support
+8b1d6d6ba2817710efe6b13d6f092a0e77dee172 firmware: arm_scmi: Make use of FastChannels configurable
+4fdd08ed5b597b2e2e985dacb95ad9771ec9ece9 include: trace: Add SCMI FastChannel tracing
+f9bef3497872ae1e984d36b11c471cabac9edea2 firmware: arm_scmi: Use FastChannel tracing
+56a2f1ef7444a143544e9d3d4b9a3f91a3920074 firmware: arm_scmi: Add scmi_driver optional setup/teardown callbacks
+bc2dde42aad738d7ad8efff32e6278a0718934c5 powercap: arm_scmi: Add SCMI Powercap based driver
+fd2c21683299266091cce708ab709542423fb803 ACPI: PPTT: Use table offset as fw_token instead of virtual address
+0530b4590ca21f4163ab230ef5a4ca6961c28589 cacheinfo: Use of_cpu_device_node_get instead cpu_dev->of_node
+a90029f17e92b16d3e226d2c32d4f6154a1da7df cacheinfo: Add helper to access any cache index for a given CPU
+51d1e1f1407b00c70c74f73e78fb293d9ddfde51 cacheinfo: Move cache_leaves_are_shared out of CONFIG_OF
+d65fcbb587eb5ac5b44384498996aa52380af3cb cacheinfo: Add support to check if last level cache(LLC) is valid or shared
+b2a5e141d52c5eeafbacac8d2b9eb69084425687 cacheinfo: Allow early detection and population of cache attributes
+19406bdd18666a7c8b0ddc85794823a13e0c7d5f cacheinfo: Use cache identifiers to check if the caches are shared if available
+83da5fcefe875d28a57ea2cc6e534cdbd114ee29 cacheinfo: Align checks in cache_shared_cpu_map_{setup,remove} for readability
+ec372c52211108849431dc4e44d57ef6ef106024 arch_topology: Add support to parse and detect cache attributes
+5707feb4b7d273bd6e7fc40ab31e139ccf66ce39 arch_topology: Use the last level cache information from the cacheinfo
+ef482fa98a725f9bf81de28714ebfe6c53e624dd arm64: topology: Remove redundant setting of llc_id in CPU topology
+c282ea5cf134262400fa03778a2d0db1159fbd3d arch_topology: Drop LLC identifier stash from the CPU topology
+c166249611d04ab64bac8d6d0d17d72194ea5025 arch_topology: Set thread sibling cpumask only within the cluster
+949b2655e24988f8d51ec41f601ad645db5d3971 arch_topology: Check for non-negative value rather than -1 for IDs validity
+d69e573610af71b07636d4c22ae7c2ef682b12c5 arch_topology: Avoid parsing through all the CPUs once a outlier CPU is found
+155bc4cf540ba88eab3e94a9f8b2a219d849caeb arch_topology: Don't set cluster identifier as physical package identifier
+d88c5d7d3766ef73e2b3f777b37e056093d571bf arch_topology: Limit span of cpu_clustergroup_mask()
+731870bd36073e27d7b4062c870f07ddc559f423 arch_topology: Set cluster identifier in each core/thread from /cpu-map
+2d8fc1214b63e20bad7281ae9a2931b55d897187 arch_topology: Add support for parsing sockets in /cpu-map
+8e017a1b72e737c1100a1c4c91b3d09ce0addfe3 arch_topology: Warn that topology for nested clusters is not supported
+b4a43a10a03f931c4620f80d83a28953304f009a ACPI: Remove the unused find_acpi_cpu_cache_topology()
+e586de9a69de44f53db9b7a9def88d35fe1dd31d Merge branch 'for-next/juno' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+df089f6a43343fc5eef96242c00fc7d8a1443ba4 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+72e9c485687815367c4136e08f3dc98cd7eb14f0 Merge branch 'for-next/arch_topology' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============5162331878483064619==--
+--===============3243724081088337637==--
