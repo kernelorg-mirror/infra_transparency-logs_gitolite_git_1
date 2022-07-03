@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3962764045429344431=="
+Content-Type: multipart/mixed; boundary="===============3019405863285638349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 03 Jul 2022 15:12:49 -0000
-Message-Id: <165686116958.29997.5918577359017627387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Sun, 03 Jul 2022 15:14:46 -0000
+Message-Id: <165686128666.30807.13612268310895146863@gitolite.kernel.org>
 
---===============3962764045429344431==
+--===============3019405863285638349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: f4fadf62be8da2e6d2d23519f21e17d0ff773113
-    new: 775b9cc1d1f95feaf897bce27c7c397b234025f3
-    log: revlist-f4fadf62be8d-775b9cc1d1f9.txt
+  - ref: refs/heads/arch_topology
+    old: ae85abf284e7366f22f229e3317c7210231cdee1
+    new: 8a2fb38a121ad53098434ee258f081b06f5fc7a7
+    log: revlist-ae85abf284e7-8a2fb38a121a.txt
 
---===============3962764045429344431==
+--===============3019405863285638349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4fadf62be8d-775b9cc1d1f9.txt
+Content-Disposition: attachment; filename=revlist-ae85abf284e7-8a2fb38a121a.txt
 
 118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
 a1ea0857b59757733d58908dd55bf4b722ee574f clk: stm32: rcc_reset: Fix missing spin_lock_init()
@@ -76,13 +76,6 @@ cce13b82cf97b26919144e01c49fbf3da61c9d6c Merge branch 'notify-user-space-if-any-
 805206e66fab4ba1e0ebd19402006d62cd1d4902 net: asix: fix "can't send until first packet is send" issue
 ce95ab775f8d8e89a038c0e5611a7381a2ef8e43 net: usb: asix: do not force pause frames support
 3b0dc529f56b5f2328244130683210be98f16f7f ipv6: take care of disable_policy when restoring routes
-d05b43059dfa115037cd37bc276a8316391def28 sched/fair: Provide u64 read for 32-bits arch helper
-e2f3e35f1f5a4dccddf352cea534542544c9b867 sched/fair: Decay task PELT values during wakeup migration
-bb4479994945e9170534389a7762eb56149320ac sched, drivers: Remove max param from effective_cpu_util()/sched_cpu_util()
-ec4fc801a02d96180c597238fe87141471b70971 sched/fair: Rename select_idle_mask to select_rq_mask
-9b340131a4bcf6d0a282a2bdcd8ca268a74da709 sched/fair: Use the same cpumask per-PD throughout find_energy_efficient_cpu()
-3e8c6c9aac42ced4ca705714b6dd34cf4d305cf0 sched/fair: Remove task_util from effective utilization in feec()
-b812fc9768e0048582c8e18d7b66559c1758dde1 sched/fair: Remove the energy margin in feec()
 4ff5a9b6d95f3524bf6d27147df497eb21968300 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
 668a7a12ded7077d4fd7ad1305667e559907e5bb cpufreq: qcom-hw: Don't do lmh things without a throttle interrupt
 ccd7567d4b6cf187fdfa55f003a9e461ee629e36 cpufreq: pmac32-cpufreq: Fix refcount leak bug
@@ -180,10 +173,6 @@ a23dd544debcda4ee4a549ec7de59e85c3c8345c SUNRPC: Fix READ_PLUS crasher
 5e8379351dbde61ea383e514f0f9ecb2c047cf4e Merge tag 'net-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b8f0009bc9edf9186b20ae2a9e442ef0af93040e Merge tag 'drm-misc-fixes-2022-06-30' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 a175eca0f3d747599f1fdfac04cc9195b71ec996 Merge tag 'drm-fixes-2022-07-01' of git://anongit.freedesktop.org/drm/drm
-96e8fc5818686d4a1591bb6907e7fdb64ef29884 x86/xen: Use clear_bss() for Xen PV guests
-38fa5479b41376dc9d7f57e71c83514285a25ca0 x86: Clear .brk area at early boot
-7e09ac27f43b382f5fe9bb7c7f4c465ece1f8a23 x86: Fix .brk attribute in linker script
-b69a2afd5afce9bf6d56e349d6ab592c916e20f2 x86/kexec: Carry forward IMA measurement log on kexec
 9650910d05a31d62f562f90ca15ece685a4c1b9c Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 410982303772993a86bb7a9cfa7ece34522b2636 arm64: hugetlb: Restore TLB invalidation for BBM on contiguous ptes
 690685ffcdcec3975f45eafe3dcf4bff29aa1676 Merge tag 'ata-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
@@ -209,9 +198,26 @@ bb7c51268776941b7533374caabcaaed302b91e0 Merge tag 'perf-tools-fixes-for-v5.19-2
 aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-bit kernel
 34074da5424c08542d197396757cc3194ef754b4 Merge tag 'for-5.19/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 69cb6c6556ad89620547318439d6be8bb1629a5a Merge tag 'nfsd-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-3abac8a1bdc891267d600f467ffdcf19b285410e Merge branch 'linus'
-d4e7ac8f93f4ed4270c91dcbef06f22bc3272b58 Merge branch into tip/master: 'x86/urgent'
-cec04fe79d781ad6fb85251107919b8072ef42d1 Merge branch into tip/master: 'sched/core'
-775b9cc1d1f95feaf897bce27c7c397b234025f3 Merge branch into tip/master: 'x86/kdump'
+afe52251e12546faa0cb1190750a296000b7eba9 ACPI: PPTT: Use table offset as fw_token instead of virtual address
+ed2b865d52b30813348c465b86f1e33a336cc849 cacheinfo: Use of_cpu_device_node_get instead cpu_dev->of_node
+3c65475756b459b55073d57519939120786b269f cacheinfo: Add helper to access any cache index for a given CPU
+224e394763dd77cb333258a5d5d0390ec0739df7 cacheinfo: Move cache_leaves_are_shared out of CONFIG_OF
+ccc625eb479711540e221e64aeffb3fb7763d09d cacheinfo: Add support to check if last level cache(LLC) is valid or shared
+803ab8f3c776ede6d84900bcdc08466e655447de cacheinfo: Allow early detection and population of cache attributes
+b704b45fdb0e51819ecf5913f1c771f029731b96 cacheinfo: Use cache identifiers to check if the caches are shared if available
+d717329c90b3718d829b29fb4b7ff03ff95d974d cacheinfo: Align checks in cache_shared_cpu_map_{setup,remove} for readability
+36480a18a7e42cb01df472693c302080c9ef766b arch_topology: Add support to parse and detect cache attributes
+1174ddd5b61293fe3513e4b743911ca22bf295f9 arch_topology: Use the last level cache information from the cacheinfo
+34833c1a768c6b4f229b6251ee099b205850ca6f arm64: topology: Remove redundant setting of llc_id in CPU topology
+05bdd3aa40b25378693e6e970dc6c60cc1fe8fd8 arch_topology: Drop LLC identifier stash from the CPU topology
+9cb436c9c97c6bad4961c621ac4e919dfe214824 arch_topology: Set thread sibling cpumask only within the cluster
+50434f945a8904bb43a02e5d51e4d25d88b8acf5 arch_topology: Check for non-negative value rather than -1 for IDs validity
+ad4905ade38c0c824bff4fcb0f3d3eefa8b8fb3b arch_topology: Avoid parsing through all the CPUs once a outlier CPU is found
+8fc79bc0d51f693cb0402f76343f78c4e9d53a53 arch_topology: Don't set cluster identifier as physical package identifier
+a02bf8c63be5555ac1dec04278950944496ea248 arch_topology: Limit span of cpu_clustergroup_mask()
+527f7e2b0a87db17d198ce69be9a8ba4f193af65 arch_topology: Set cluster identifier in each core/thread from /cpu-map
+49f0faabbf7131c83786ea44a00aeb37f92c71d6 arch_topology: Add support for parsing sockets in /cpu-map
+24f2a7189a0f777f06a544549777fb399de09db3 arch_topology: Warn that topology for nested clusters is not supported
+8a2fb38a121ad53098434ee258f081b06f5fc7a7 ACPI: Remove the unused find_acpi_cpu_cache_topology()
 
---===============3962764045429344431==--
+--===============3019405863285638349==--
