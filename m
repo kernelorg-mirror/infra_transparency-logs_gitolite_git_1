@@ -1,171 +1,125 @@
-Content-Type: multipart/mixed; boundary="===============6476654134809876482=="
+Content-Type: multipart/mixed; boundary="===============5858161366609420079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sun, 03 Jul 2022 03:55:40 -0000
-Message-Id: <165682054064.1297.9803725596461695750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sun, 03 Jul 2022 05:26:52 -0000
+Message-Id: <165682601263.29091.4490224160564811170@gitolite.kernel.org>
 
---===============6476654134809876482==
+--===============5858161366609420079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 7b3d521dce2732de91ab73078c04ed9ad7b8beb1
-    new: d014f94632601ba1eedf3bcec6a7237419b2241e
-    log: revlist-7b3d521dce27-d014f9463260.txt
+  - ref: refs/heads/main
+    old: e4a4b31577c7419497ac30cebe30d755b97752c5
+    new: 30cc8d0f147546d4dd77bf497f4dec51e7265bd8
+    log: |
+         4788e8b25692a8ae1a005554d3ad12f8ee4ee29e add --interactive: allow `update` to stage deleted files
+         0f0bc2124b25476504e7215dc2af92d5748ad327 Merge branch 'js/add-i-delete'
+         30cc8d0f147546d4dd77bf497f4dec51e7265bd8 A regression fix for 2.37
+         
+  - ref: refs/heads/master
+    old: e4a4b31577c7419497ac30cebe30d755b97752c5
+    new: 30cc8d0f147546d4dd77bf497f4dec51e7265bd8
+    log: |
+         4788e8b25692a8ae1a005554d3ad12f8ee4ee29e add --interactive: allow `update` to stage deleted files
+         0f0bc2124b25476504e7215dc2af92d5748ad327 Merge branch 'js/add-i-delete'
+         30cc8d0f147546d4dd77bf497f4dec51e7265bd8 A regression fix for 2.37
+         
+  - ref: refs/heads/next
+    old: 8ac04bfd244e0d302aaeb6ab241eb092dcf6a733
+    new: fa4c666c2df9373d10e8e19e7de4bd9da389033d
+    log: revlist-8ac04bfd244e-fa4c666c2df9.txt
+  - ref: refs/heads/seen
+    old: 3df86c6a86706b44703adb25c865c583224ea0be
+    new: ebc1198150fa384ffbc96a3cee97a79b267b9ccd
+    log: revlist-3df86c6a8670-ebc1198150fa.txt
 
---===============6476654134809876482==
+--===============5858161366609420079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b3d521dce27-d014f9463260.txt
+Content-Disposition: attachment; filename=revlist-8ac04bfd244e-fa4c666c2df9.txt
 
-79d8e016fddfe0315c4b682a891b446ec748a6e5 arm64: dts: qcom: sdm630: disable dsi0/dsi0_phy by default
-7d8ee8e5db53b99cb522dd5126dc80fa5726aa07 arm64: dts: qcom: sdm660: disable dsi1/dsi1_phy by default
-1c047919763b4548381d1ab3320af1df66ab83df arm64: dts: qcom: sdm630: disable GPU by default
-924bbd8dd60e094344711c3526a5b308d71dc008 arm64: dts: qcom: sdm630: fix the qusb2phy ref clock
-696dea7e1c3a568b125baee98bbf6b8db09a7afb arm64: dts: qcom: sdm630: rename qusb2phy to qusb2phy0
-8b6da22e6a44b597a0a4e2d60d81303090b6d24e arm64: dts: qcom: sdm630: add second (HS) USB host support
-3cd1c4f41d64a40ea6bc4575ae28e37542123d77 arm64: dts: qcom: sdm630: fix gpu's interconnect path
-3a04cec9cba393abfe70fc62e523f381c9baec2e arm64: dts: qcom: sdm636-sony-xperia-ganges-mermaid: correct sdc2 pinconf
-5e9bc1ba7ace0793b62e612eb48b7774a13e7f74 arm64: dts: qcom: sdm660: move SDHC2 card detect pinconf to board files
-bbd5a68919081d2fea6b0a6d6ab4c34effbf2847 dt-bindings: arm: qcom: document sda660 SoC and ifc6560 board
-7f045132bc23904fa962d9e1574dca521b9d47ec dt-bindings: firmware: qcom-scm: Add interconnects property
-65b7ebda5028615f7ee7628759e05da5db7f0d25 firmware: qcom_scm: Add bw voting support to the SCM interface
-9410fb940114444f37a0b787bd84077b61d76bf6 clk: qcom: gcc-sc8280xp: use phy-mux clock for PCIe
-eb9e93937756a05787977875830c0dc482cb57e0 ARM: dts: qcom: replace gcc PXO with pxo_board fixed clock
-aaed15efce65c20951f573955e10b51c24ca6e4d ARM: dts: qcom: use dedicated QFPROM compatibles
-10193ad6d487e0abdc73c704306ebe8d15d4ab74 ARM: dts: qcom: cleanup QFPROM nodes
-7b7e501f7a7293db0f66d27f0f3f191502faaad9 ARM: dts: qcom: apq8064: add unit addresses to QFPROM regions
-7afef282d7453ded3b31f71771a31b34dda51aff ARM: dts: qcom: ipq4019: fix Micron SPI NOR compatible
-31b2edcab4d153145354c4333a6be5209e185598 ARM: dts: qcom: adjust whitespace around '='
-9c17baaa97c89379cbd89e36115b7fb6aba43518 ARM: dts: qcom: align gpio-key node names with dtschema
-07e7fcf1714c5f9930ad27613fea940aedba68da clk: qcom: gcc-msm8939: Add missing SYSTEM_MM_NOC_BFDCD_CLK_SRC
-63d42708320d6d2ca9ed505123d50ff4a542c36f clk: qcom: gcc-msm8939: Fix bimc_ddr_clk_src rcgr base address
-dd363e2f7196278e7a30f509a0e8a841cb763b14 clk: qcom: gcc-msm8939: Add missing system_mm_noc_bfdcd_clk_src
-05eed0990927aa9634682fec58660e30f7b7ae30 clk: qcom: gcc-msm8939: Point MM peripherals to system_mm_noc clock
-4c377e7b1156dbcb301587e3851d31db50ede07b arm64: defconfig: enable Qualcomm LPG leds driver
-34279d6e3f32c7b2dd1192d8ba3e1d28b6ac775e arm64: dts: qcom: sdm660: Add initial Inforce IFC6560 board support
-4c9fb8e89849db0f12fbfd4ad6a6ce036251a200 arm64: dts: qcom: sm8450: Add interconnect requirements for SCM
-05b90d240409240cbc40c2eb4a0f2b206a513e13 dt-bindings: arm: qcom: Document additional sc8280xp devices
-36a7b63f069630e854beb305e99c151cddd3b8e5 dt-bindings: mailbox: qcom-ipcc: Add NSP1 client
-152d1faf1e2f32cfb1956c7e5e42e8cb2c95ff18 arm64: dts: qcom: add SC8280XP platform
-ca41ec1b30434636c56c5600b24a8d964d359d9c clk: qcom: ipq8074: fix NSS core PLL-s
-3401ea2856ef84f39b75f0dc5ebcaeda81cb90ec clk: qcom: ipq8074: SW workaround for UBI32 PLL lock
-0e9e61a2815b5cd34f1b495b2d72e8127ce9b794 clk: qcom: ipq8074: fix NSS port frequency tables
-90e6d290603df6387c95c114cc8154862c3e7515 dt-bindings: clock: qcom: ipq8074: add PPE crypto clock
-74521205b64030b1321ccc04372729cfd2800996 clk: qcom: ipq8074: add PPE crypto clock
-2bd357e698207e2e65db03007e4be65bf9d6a7b3 clk: qcom: ipq8074: set BRANCH_HALT_DELAY flag for UBI clocks
-2c930dc1e34f08d32ccf1b2baf01dec56b41ab05 dt-bindings: clocks: qcom,gcc-ipq8074: support power domains
-99e7e16445c41e44a6f678a376d55d277289b60d dt-bindings: soc: qcom,wcnss: remove unneeded ref for names
-74622e401e2109a9aacce0b9698bbcd2307db17a dt-bindings: clock: qcom: ipq8074: add USB GDSCs
-c87969d2187035cea3152ee8ca4b9f44afe77d9c Merge branch '20220515210048.483898-8-robimarko@gmail.com' into clk-for-5.20
-8add990ace3db767c2dab59113fbdf137d237529 clk: qcom: ipq8074: add USB GDSCs
-1bf7305e79aab095196131bdc87a97796e0e3fac clk: qcom: ipq8074: dont disable gcc_sleep_clk_src
-4eb1560259de4fd5f89ec5e7faf5d4c6a83bae9c ARM: dts: qcom: msm8974: Add BAM DMUX Ethernet/IP device
-103dd2338bbff567bce7acd00fc5a09c806b38ec clk: qcom: camcc-sdm845: Fix topology around titan_top power domain
-f8acf01a6a4f84baf05181e24bd48def4ba23f5b clk: qcom: camcc-sm8250: Fix topology around titan_top power domain
-ab1489017aa7a9f02e24bee73cf9ec8079cd3909 ARM: dts: qcom-msm8974: fix irq type on blsp2_uart1
-ae500b351ab0006d933d804a2b7507fe1e98cecc ARM: dts: qcom: sdx55: Fix the IRQ trigger type for UART
-92a563fcf14b3093226fb36f12e9b5cf630c5a5d soc: qcom: ocmem: Fix refcount leak in of_get_ocmem
-a3e7259f9ebe04054dc202b9b9f887abf3e4b12a soc: qcom: llcc: Fix syntax errors in comments
-e6e0951414a314e7db3e9e24fd924b3e15515288 soc: qcom: aoss: Fix refcount leak in qmp_cooling_devices_register
-03110b46c99bb0c712f46bec660b1c3f674ce100 ARM: dts: qcom: msm8974: re-add missing pinctrl
-b8f9cae583c46ef6df0e643ec0022084d39769e7 ARM: dts: qcom: apq8060-dragonboard: add function and color to LED nodes
-966d7e9c35cf3a759b51a490308ca5d83727569f ARM: dts: qcom: apq8060-ifc6410: add color to LED node
-47e889d3d9a7da9542fd5d6f76c2b1ab2d22fcaa ARM: dts: qcom: ipq4018-ap120c-ac: add function and color to LED nodes
-445c44e25342564326384640453d26d1655ebc44 ARM: dts: qcom: ipq8064-rb3011: add color to LED node
-69b1142baeab4e1603a94b5e8c1676ecc911c9b5 ARM: dts: qcom: ipq8064: add function to LED nodes
-230b5edaa34b81d0f1de675ff17d8777f9f2d02b ARM: dts: qcom: use generic sram as name for imem and ocmem nodes
-626a60292a8eb345df71b40ecaea54395ca8e618 ARM: dts: qcom: apq8064-asus-nexus7: add dedicated IMEM compatible
-f19be941efd19b6c68eef87a2d4a1942e4ebd493 ARM: dts: qcom: msm8974: add dedicated IMEM compatible
-def2565bc66da3e9643f71b2be5f8e707cbdebd0 ARM: dts: qcom: sdx55: add dedicated IMEM and syscon compatibles
-7a16ea7f3a5ec0f30b146b058c273b7a9c8ceadf ARM: dts: qcom: msm8974: add required ranges to OCMEM
-e2759fa0676c9a32bbddb9aff955b54bb35066ad ARM: dts: qcom: pm8841: add required thermal-sensor-cells
-6ac2799c3096dc2fe6d65026efa8a6cf212976bd ARM: dts: qcom: apq8064-ifc6410: drop hdmi-mux-supply
-fe5651cc8e33b5fcdc351e36cd0cd4bff2f6192f ARM: dts: qcom: apq8064: drop phy-names from HDMI device node
-bdafb609c3bb848d710ad9cd4debd2ee9d6a4049 clk: qcom: clk-rcg2: Fail Duty-Cycle configuration if MND divider is not enabled.
-d0696770cef35a1fd16ea2167e2198c18aa6fbfe clk: qcom: clk-rcg2: Make sure to not write d=0 to the NMD register
-bf8bb8eaccf4e68d79743da631f61252753ca7cd clk: qcom: gcc-msm8916: Add rates to the GP clocks
-974db040c5190b5e925883600d023a9ecce8a840 arm64: defconfig: Enable qcom ss & hs usb phy
-3d1188df789f777306756aeb201c8709eef6b627 arm64: defconfig: Enable qcom interconnect drivers
-ccd3517faf18330c051068f07dd8ef79853238c7 arm64: dts: qcom: sc8280xp: Add reference device
-519183af39b2cac56614c14f5e710f8caa0bc32a arm64: dts: qcom: add SA8540P and ADP
-32c231385ed437bd088d67ce7f505e1784a26430 arm64: dts: qcom: sc8280xp: add Lenovo Thinkpad X13s devicetree
-9c54f1711fc2516faf1f8d31217462184157b429 arm64: dts: qcom: sc7280: Rename sar sensor labels
-e0ff30b23de99f55197692fcb11bee9ba4f2c559 arm64: dts: qcom: sc7180: Add wormdingler dts files
-c77a3d4a2bfa0957121ec7050e68bfcc73932a52 arm64: dts: qcom: sc7180: Add quackingstick dts files
-9520fef900494dd202fda5d2b3cfc2cfcb674ad9 arm64: dts: qcom: sc7180: Add mrbland dts files
-fb69f6adaf88a70beb671852bc2842cb79c31059 arm64: dts: qcom: sc7180: Add pazquel dts files
-6afcee78b4a495ed970ef3c5104f91ed649d478a arm64: dts: qcom: sc7180: Add kingoftown dts files
-6ba93ba9f63fbc44c3a6af7fe6f2536d009cfd5a arm64: dts: qcom: add missing AOSS QMP compatible fallback
-d66b1d2e4afc0c8a9eb267740825240b67f6b1d1 arm64: dts: qcom: correct SPMI WLED register range encoding
-b2eab35be13d4537eb9f0e23846f2ab400bf63dd arm64: dts: qcom: use dedicated QFPROM compatibles
-74b0fbd6048f8f4caaed712ceeca52c6034e9ad6 arm64: dts: qcom: sdm630: correct QFPROM byte offsets
-693b6207fc7fbfe81aa9759ef82c3953245641d9 arm64: dts: qcom: ipq6018-cp01-c1: fix Micron SPI NOR compatible
-6dfe4e195271a59f396d414c5fae299eefa5d3da arm64: dts: qcom: msm8998-mtp: correct board compatible
-372cf591acbca3bd9a729742ea4c81d7f99f1b6e arm64: dts: qcom: adjust whitespace around '='
-b08f5cbd69dcd25f5ab2a0798fe3836a97a9d7c6 arm64: dts: qcom: align gpio-key node names with dtschema
-5a4b0b853a2914403746b0a1decab695202ff242 arm64: dts: qcom: correct gpio-keys properties
-9d8840f6ee426b6dfcb65bdf39e2898652e2b1e5 arm64: dts: qcom: sdm630-sony-xperia-nile: drop unneeded status from gpio-keys
-3cfe94d660a8ebc19e78ea0a4781d7e9a1054c65 arm64: dts: qcom: align led node names with dtschema
-efe9185c4e213680b7089931d0b7fc2a3416fe51 arm64: dts: qcom: pm8150b: add Light Pulse Generator device node
-3e48f7428c1e8a4cf2477489d6d0e400c41df28f arm64: dts: qcom: pm8150l: add Light Pulse Generator device node
-bf3708c6734a4bc8e9c538fa586d798c4768bf3f arm64: dts: qcom: qrb5165-rb5: declare tri-led user leds
-2cac6baf0249cdd3748128f3196c2d203b06a4af arm64: dts: qcom: qcs404: fix default pinctrl settings for blsp1_spi1
-fc41893fe8289967d0aaffab25d8bb96334cc676 arm64: dts: qcom: pm660l: Add LPG node
-dd764e1a42367c93d1e8e3f9e1ce08752a6dbac2 arm64: dts: qcom: sdm630-nile: Add RGB status LED on the PM660L LPG
-96bb736f05d156a1d616a48a82239dfbde46c597 arm64: dts: qcom: Fix sdhci node names - use 'mmc@'
-40940823cb582acc13f5fda5688a5287893b3281 arm64: dts: qcom: sdm630: Fix 'interconnect-names' for sdhci nodes
-4ff12270dbbe245cf92c0247bcc1a2bfbc03639c arm64: dts: qcom: Fix ordering of 'clocks' & 'clock-names' for sdhci nodes
-afcbe252e9c19161e4d4c95f33faaf592f1de086 arm64: dts: qcom: Fix 'reg-names' for sdhci nodes
-877460f6a466f14327fca950c4a1ec17fac5280e Merge branch '20220515210048.483898-8-robimarko@gmail.com' into arm64-for-5.20
-8bbda511a3d93be7b24b666dc0820cdbea4fbf37 arm64: dts: qcom: ipq8074: add USB power domains
-ddc35664a38e31034c3519de71c2dea52005bc2a arm64: dts: qcom: Remove unused 'vdda-max-microamp' & 'vdda-pll-max-microamp' properties
-f0b255b4f012055ab12137ecc1b68dfe12b06107 arm64: dts: qcom: ipq6018: add label to remoteproc node
-dc74f89e3281f9ea5669831db05d56db0555ced2 arm64: dts: qcom: sdm630: remove unneeded address/size cells in glink-edge
-140488b46b96aed232fc5e911a4455ec6e441177 arm64: dts: qcom: sm8350: remove duplicated glink-edge interrupt
-c372baf317f4e10e67b81594cc38607549557a93 arm64: dts: qcom: sm8450: remove duplicated glink-edge interrupt
-a0cdc83fa89b3a53cf03ecd338832392be0dd4b3 arm64: dts: qcom: sc7280: Add proxy interconnect requirements for modem
-642f13c32087c29ed907866c7e6765d472e8f457 arm64: dts: qcom: msm8998-xperia: Introduce ToF sensor support
-5458d6f2827cd30218570f266b8d238417461f2f arm64: dts: qcom: msm8916: Fix typo in pronto remoteproc node
-20402c94721a05fe3e581c1bfb88f0b45452766c arm64: dts: qcom: sm8450: Fix the IRQ trigger type for remoteproc nodes
-a102644dccfe3c0e91d517d3cad2b846e793eddb arm64: dts: qcom: sdm845*: replace i2s reg with constant
-7858ef3cfba2e123835b1b561deb9357afbfae29 arm64: dts: qcom: sm8250: use constants for audio clocks
-f82c48d468521cd9d1a31797c6f9e6cac6f7c1b3 arm64: dts: qcom: ipq6018: correct QUP peripheral labels
-bb856fdf07f666686439b2c186fbb80a41e93277 dt-bindings: arm: qcom: Document xiaomi,natrium board
-13e75fe786a16c35bccc5e9d8890224fd38ad733 arm64: dts: qcom: msm8996-xiaomi-natrium: Add support for Xiaomi Mi 5s Plus
-12cfafe7b78876133474f4b3e44e0464a94f61b0 arm64: dts: qcom: sm8450: rename interconnect nodes
-e2eedde448a9be6202fd9965aef29d4b6607ee67 arm64: dts: qcom: sm8350: Move qup-opp-tables out of soc node
-191c85b852c122e9282797ae3ce2a36083f1e9a9 arm64: dts: qcom: sm8250: Move qup-opp-table out of soc node
-a072128b881e24c3711a41143ef9866208da0fe1 arm64: dts: qcom: apq8016-sbc: add function and color to LED nodes
-984a8c90c158affd8cf3bb3b5666cad436e3ca7b arm64: dts: qcom: qrb5165-rb5: add function and color to LED nodes
-09143dd2cbd6d0b14fa18fcbabb12b8f78e88a1a arm64: dts: qcom: sc7180-trogdor: add function to LED node
-b7428806b4345c5cce056756570ce68b4fdbcc57 arm64: dts: qcom: sc7280-herobrine: add function to LED node
-0cdfa122a5ee39dc7b979f3e224f9f2b71c94660 arm64: dts: qcom: sdm845-db845c: add function and color to LED nodes
-bed0855657afebbcdd9d8a29546c550848452cf1 arm64: dts: qcom: use generic sram as name for imem and ocmem nodes
-b2b86a2d89c26de048e44d3be439d9b2b1cb7ce5 arm64: dts: qcom: qcs404: add dedicated IMEM and syscon compatibles
-c220f33e03a0cc4136ef205513b2266faf025e2e arm64: dts: qcom: sc7180: add dedicated IMEM and syscon compatibles
-2ffe4f99cbdd0639fc9a1254d39abd7b9dbe075e arm64: dts: qcom: sc7280: add simple-mfd to IMEM
-616ab047bec7c47d881751bc537d3d6f6ae0c6d0 arm64: dts: qcom: sdm630: add dedicated IMEM and syscon compatibles
-7cc60f6c09f49f0d8f8fa3083e7ff4fddec39ec0 arm64: dts: qcom: sdm845: add dedicated IMEM and syscon compatibles
-07f3c7a11dadbead580b6d6e7d86bcc87119fe74 arm64: dts: qcom: msm8994: add required ranges to OCMEM
-917a6de1b0a0d55c67533c5d3827ddd4388b14a5 arm64: dts: qcom: msm8996: drop phy-names from HDMI device node
-7618a2de8121d5723c0fd68a381877c8f2e31826 arm64: dts: qcom: msm8916-samsung-a2015: Add touchscreen pinctrl
-213d7368723709cf4567488e63dd667802378202 arm64: dts: qcom: sm8250: Enable per-process page tables.
-2e4ae611ab73d8e35d6059fc30cb4da4cd568d4c arm64: dts: qcom: add mdp_clk clock to the MDSS device
-2752bb7d9b58accbaa15bcfc50de0e41e84990d5 arm64: dts: qcom: msm8996: add second DSI interface
-93d7cf2ee59fe6f4484d2833e18d8d4a12b9767e arm64: dts: qcom: msm8916: add xo clocks to rpmcc and a53pll
-b39961659ffc3c3a9e3d0d43b0476547b5f35d49 arm64: dts: qcom: ipq8074: fix NAND node name
-a10b760b7402563661fa305882b181a75a1d4894 arm64: dts: qcom: sc7180-trogdor: Split out keyboard node and describe detachables
-817c2f3519745749e60ea35d9be676819bb2fe6a Merge tag 'qcom-arm64-fixes-for-5.19' into arm64-for-5.20
-2477d81901a23ad80045798edbeb7f91b5ff6143 ARM: dts: qcom: Fix sdhci node names - use 'mmc@'
-d014f94632601ba1eedf3bcec6a7237419b2241e Merge branches 'arm64-for-5.20', 'arm64-defconfig-for-5.20', 'clk-for-5.20', 'dts-for-5.20', 'dts-fixes-for-5.19' and 'drivers-for-5.20' into for-next
+7922a17d4da969c70d9382206244b6be0a7a3475 diff-format.txt: dst can be 0* SHA-1 when path is deleted, too
+3b396c899f946604328d863154c4c988e1d777c1 diff-format.txt: correct misleading wording
+1971510c357507efe8baaac538a68b4aba78217e diff-index.txt: update raw output format in examples
+e3d1be4237b831b517a54c70ae3c4ec3840345a4 combine-diff: abort if --ignore-matching-lines is given
+cfb19ae05f4565bc9d0a0cb3a23a3d2ab9fb8fab combine-diff: abort if --output is given
+5fd9d1738e0f2a38e30141faf18f566d4c6e9c05 revisions.txt: escape "..." to avoid asciidoc horizontal ellipsis
+85845580d982bb18c80c13d57680918a39338576 vscode: improve tab size and wrapping
+0f0bc2124b25476504e7215dc2af92d5748ad327 Merge branch 'js/add-i-delete'
+30cc8d0f147546d4dd77bf497f4dec51e7265bd8 A regression fix for 2.37
+0fe8b80a3e07b399d4f9156044c46873002476cc Merge branch 'rs/combine-diff-with-incompatible-options' into next
+e25dbe8cfbf80cd07a6a32846b4d276f1bdf034e Merge branch 'jk/revisions-doc-markup-fix' into next
+198480cbc6eabc1e46a8e8bcddf8d008fc7c6c2e Merge branch 'pb/diff-doc-raw-format' into next
+fcbd2e7aca335c42619fc87ac745d84dd710347a Merge branch 'ds/vscode-settings' into next
+fa4c666c2df9373d10e8e19e7de4bd9da389033d Sync with 'master'
 
---===============6476654134809876482==--
+--===============5858161366609420079==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3df86c6a8670-ebc1198150fa.txt
+
+0f0bc2124b25476504e7215dc2af92d5748ad327 Merge branch 'js/add-i-delete'
+30cc8d0f147546d4dd77bf497f4dec51e7265bd8 A regression fix for 2.37
+e75bbe11104a8cae165c1ca64e7f56aa0f5eb3bc Merge branch 'ac/bitmap-format-doc' into jch
+e91dbe2587ae9971276e23594b6ac25804514880 Merge branch 'jk/optim-promisor-object-enumeration' into jch
+9cc1445a0157ab28fb9bdb688e235bb8769d0359 Merge branch 'jc/resolve-undo' into jch
+9b1f563d39e769ad86b34110d40b1b438e6929d3 Merge branch 'ds/branch-checked-out' into jch
+1a0d8c2d415b20a24764db42e785c3d0cdf8c61e Merge branch 'rs/archive-with-internal-gzip' into jch
+08813ae28c6ecfd747d9a72f4885d52d9089a7d2 Merge branch 'cr/setup-bug-typo' into jch
+7b3e2af6194635bb514a153aae11d19bd733e171 Merge branch 'rs/combine-diff-with-incompatible-options' into jch
+7625d6712b29c4c4c8eb3b04ed3d0105b3a9a605 Merge branch 'jk/revisions-doc-markup-fix' into jch
+041924ecab65cac98f7498e127e5d872511fda73 Merge branch 'pb/diff-doc-raw-format' into jch
+0d85e97bb0312b48687a775b3a97cc9117dca79d Merge branch 'ds/vscode-settings' into jch
+8d037bc5d4b8bdedb8cb565498f0aac4b898bfaf ### match next
+bef5334163817c8f2cd2023d7f3d740784729b29 Merge branch 'en/t6429-test-must-be-empty-fix' into jch
+5e0fce2ec9fa6a794f414986fcd3c82c64c0256e Merge branch 'tb/pack-objects-remove-pahole-comment' into jch
+0afb58541efd3b8312b54124948d571723030daf Merge branch 'ds/t5510-brokequote' into jch
+01e83dee766f78e232834a893de96cff6be415d5 Merge branch 'ab/test-quoting-fix' into jch
+6ce17da034da367a8e397ea213e20ae942a2f4d0 Merge branch 'll/ls-files-tests-update' into jch
+84bff457c84f4f4170fdac715ef5ece99a7cd870 ###
+d1395a5de6de0fd7eae878c5e410b4e1c5a0c923 Merge branch 'gg/worktree-from-the-above' into jch
+8298985b018a5d939983669e778daf127d6510c1 Merge branch 'en/merge-tree' into jch
+540845cf863aa8c450400e84c215321fcc9b1158 Merge branch 'ro/mktree-allow-missing-fix' into jch
+e108a9b18ba7ea7d3be7d2fa8e41aff0eef54ea7 Merge branch 'jk/remote-show-with-negative-refspecs' into jch
+b25c61169f01086ab398d0fc83031335320e2d6a Merge branch 'zk/push-use-bitmaps' into jch
+96e7cd7d850dbb2d1f07842cb59d44c6c45e34f4 Merge branch 'hx/unpack-streaming' into jch
+6fe2a8a2674a0e5186e323a95968342a72b49499 Merge branch 'dr/i18n-die-warn-error-usage' into jch
+5698ff5911812ac73957e669f1bad04380808d6e Merge branch 'cl/grep-max-count' into jch
+cbe32b923c58347b444c5d09ea74682afc3c6311 Merge branch 'tk/rev-parse-doc-clarify-at-u' into jch
+2a5fe9dfea3e4a75d7b11549db6ed7a7218857e6 Merge branch 'ab/leakfix' into jch
+bd8f9494823a1b6110307e706a67d995d132d769 Merge branch 'ab/test-tool-leakfix' into jch
+c50641259cad72f9ee1e40b4ddf53fdb6edb8fb6 Merge branch 'sy/mv-out-of-cone' into jch
+7b09acd2756fddf8a268c0a016809e05ce458e6e Merge branch 'ds/git-rebase-doc-markup' into jch
+7db62e5c0c97cb782c7d6c266b7cde19f5ef4c83 Merge branch 'ab/submodule-cleanup' into jch
+3a5c6712176b538709639da7db423d1fc62e7886 Merge branch 'hx/lookup-commit-in-graph-fix' into jch
+d47e255b4446b1312db52bac107a8156ab9f6985 ###
+2e7553054fa1a57d588b8dc06c2eb319ed477ecc Merge branch 'ab/build-gitweb' into jch
+dfdcf69b2de91277d12177c1abf212a8414f1ff1 Merge branch 'ds/rebase-update-ref' into jch
+c472cad9beb6987eeb7d99adc38389a09244543b Merge branch 'gc/bare-repo-discovery' into jch
+d2a3e70feae089ca52918aec296547fbf25fb18d Merge branch 'ab/test-without-templates' into jch
+a2d6d7232590197b00c7c860a3f279e22f6db6db Merge branch 'en/merge-dual-dir-renames-fix' into jch
+8355113e89e1d467fca513f0e6379a5915869c2f Merge branch 'gc/submodule-use-super-prefix' into jch
+6c0e007d37c2b0caf5ca96c32ba4743d9d4f15e5 Merge branch 'bc/stash-export' into jch
+0e3090a8530d07b4d70103703b2eb7706964cbdf Merge branch 'ds/bundle-uri-more' into jch
+e1cdfcaf45fa276812cf67c7449575594b98fee7 Merge branch 'tb/show-ref-count' into jch
+1b2de399abf4441579ecde4c67ad5cc2321ae1fe Merge branch 'js/commit-graph-parsing-without-repo-settings' into jch
+17129f936d1fe14ef5997e8038cb5b4661a3a5c1 Merge branch 'tk/apply-case-insensitive' into seen
+376c16673bd643f358bfcc748938ce8f90aa55fd Merge branch 'zh/ls-files-format' into seen
+c4971fc3c02d0c079ec326aa5bd612cb25820802 Merge branch 'en/merge-restore-to-pristine' into seen
+90944a79feb375c7bb01946fcf1f12f0ffe8e21b Merge branch 'ar/send-email-confirm-by-default' into seen
+bd9da99800632072ce69ffbdd755e0403c93ed3e Merge branch 'cw/remote-object-info' into seen
+32b8916b4d28fcf92ffdf2d143a832022b2590cc Merge branch 'js/bisect-in-c' into seen
+8e241215a2839aefdcb498f76e78aba991c1e118 Merge branch 'jt/connected-show-missing-from-which-side' into seen
+dba9a48d3c58c5fd0b9615cd99e76c652b32c433 Merge branch 'll/curl-accept-language' into seen
+ebc1198150fa384ffbc96a3cee97a79b267b9ccd Merge branch 'pw/xdiff-alloc' into seen
+
+--===============5858161366609420079==--
