@@ -1,47 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3250312599650848200=="
+Content-Type: multipart/mixed; boundary="===============4346807039070357174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Sun, 03 Jul 2022 09:55:22 -0000
-Message-Id: <165684212289.18059.10572045432732914311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 03 Jul 2022 11:28:11 -0000
+Message-Id: <165684769132.12086.5363020341446063496@gitolite.kernel.org>
 
---===============3250312599650848200==
+--===============4346807039070357174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/tags/linux-can-next-for-5.20-20220703
-    old: 0000000000000000000000000000000000000000
-    new: 0ca9ddec6230d230b8fd978b8777ff49a76d696e
+  - ref: refs/heads/master
+    old: 8e60a041e4782189486bab8e0f542325b8f4b7d5
+    new: c67289e064cacda22ace61b8079a4e3f0e4aa520
+    log: revlist-8e60a041e478-c67289e064ca.txt
 
---===============3250312599650848200==
+--===============4346807039070357174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8e60a041e478-c67289e064ca.txt
 
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656842119 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1656842119-a51fbf7956d98b3812c1f8391ad7822d10a82174
+9de64ae8160df782de011dc6f1ddb63cdafbb939 net/mlx5: Delete ipsec_fs header file as not used
+8e755f7a8cef6c3b64c5bdac2c8a3d6efb9f916c net/mlx5: delete dead code in mlx5_esw_unlock()
+ea5872dd6b052dc0dcb4974b314ffac739c535c4 net/mlx5: E-switch, Introduce flag to indicate if vport acl namespace is created
+fbd43b7259bc699e540ef8e7eb81631d57618a2e net/mlx5: E-switch, Introduce flag to indicate if fdb table is created
+f019679ea5f2ab650c3348a79e7d9c3625f62899 net/mlx5: E-switch, Remove dependency between sriov and eswitch mode
+b6f2846afc0c3dafd58452a74a51499734d9f451 net/mlx5: E-switch: Change eswitch mode only via devlink command
+cdd04f4d4d71cbf93d0d9abe63bc838f47c467fa net/mlx5: Add support to create SQ and CQ for ASO
+c491ded04325b92fa1cc4af678154cb02fec0ae4 net/mlx5: Implement interfaces to control ASO SQ and CQ
+74e6b2a87433db3034e3b0e2a97706510e960892 net/mlx5e: Prepare for flow meter offload if hardware supports it
+6ddac26cf7633766e4e59d513d81f6fd5afa6fcd net/mlx5e: Add support to modify hardware flow meter parameters
+b8acfd4f21e2d4f41964af0e0a2b24cbbc24440a net/mlx5e: Get or put meter by the index of tc police action
+17c5da03879b97da91968e3db58c19e1679e457c net/mlx5e: Add generic macros to use metadata register mapping
+06fe52a476599f309b230e0f0f8e17ec68b49ae9 net/mlx5e: Add post meter table for flow metering
+03a92a938dc7f3357410b23aae8cef8a8dc81390 net/mlx5e: Add flow_action to parse state
+a8d52b024d6d39bb1c3caf8f2b4cf7ca94b4e2ec net/mlx5e: TC, Support offloading police action
+c67289e064cacda22ace61b8079a4e3f0e4aa520 Merge tag 'mlx5-updates-2022-06-29' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
-0000000000000000000000000000000000000000 0ca9ddec6230d230b8fd978b8777ff49a76d696e refs/tags/linux-can-next-for-5.20-20220703
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLBZ4cTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXY35B/9nqmaRWFwH2UseHR5L/Y0nA9nn+Fl1
-6NvZGtbyTHdh+R2eOKEX4JmmMt/p79MV+TsrVbacIgAKR+OP/sy3f2uAq/IWebql
-3NotPsfEFFD2vKTKuTUkHBoDKu8P32r7ndSHVUrWZEvx6YZPl8U7noZGF7ENTdvu
-Bcp56Bm6aKyYcnHeEh3vK8jbI8y1Tp7lVtfOeEHEw7exHOh9enhNJciLvVlY1L09
-htg5vAqNw2YKjUkGRSlpRDuJXb/OLBsIerrK075iy03Ra+/ptGkLuhqaVGvXWgiE
-s5kX2amgzKevpY88HAljOJOGy0k13ysbcnf/I4Zmdy5fUh6fGN70uwjd
-=+vdE
------END PGP SIGNATURE-----
-
---===============3250312599650848200==--
+--===============4346807039070357174==--
