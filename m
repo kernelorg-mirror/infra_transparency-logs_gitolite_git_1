@@ -1,51 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4951474092145864261=="
+Content-Type: multipart/mixed; boundary="===============5938674193743181167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 04 Jul 2022 10:38:21 -0000
-Message-Id: <165693110198.32044.13937612155086750154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Mon, 04 Jul 2022 10:48:03 -0000
+Message-Id: <165693168317.7308.16845512043755453160@gitolite.kernel.org>
 
---===============4951474092145864261==
+--===============5938674193743181167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/arch_topology
-    old: bc2ac1bb7482c1c6cdbb89b65c43180a04518d96
-    new: cbe078e1779852aef78f280bb1ec3408b02a13f9
-    log: revlist-bc2ac1bb7482-cbe078e17798.txt
+  - ref: refs/tags/linux-can-fixes-for-5.19-20220704
+    old: e897b3dc5adf50b98a455bb92e265a8998d98ca4
+    new: efc041b8eadd9abfcbd9f39489c8863239b64c9f
+    log: |
+         49f274c72357d2d74cba70b172cf369768909707 can: kvaser_usb: replace run-time checks with struct kvaser_usb_driver_info
+         e6c80e601053ffdac5709f11ff3ec1e19ed05f7b can: kvaser_usb: kvaser_usb_leaf: fix CAN clock frequency regression
+         b3b6df2c56d80b8c6740433cff5f016668b8de70 can: kvaser_usb: kvaser_usb_leaf: fix bittiming limits
+         406cc9cdb3e8d644b15e8028948f091b82abdbca can: mcp251xfd: mcp251xfd_regmap_crc_read(): improve workaround handling for mcp2517fd
+         e3d4ee7d5f7f5256dfe89219afcc7a2d553b731f can: mcp251xfd: mcp251xfd_regmap_crc_read(): update workaround broken CRC on TBC register
+         d5a972f561a003e302e4267340c57e8fbd096fa4 can: mcp251xfd: mcp251xfd_stop(): add missing hrtimer_cancel()
+         0ff32bfa0e794ccc3601de7158b522bf736fa63c can: mcp251xfd: mcp251xfd_register_get_dev_id(): use correct length to read dev_id
+         5d7547e2e87eaa6131c70e3bbf3c67c66b3fc8b9 can: mcp251xfd: mcp251xfd_register_get_dev_id(): fix endianness conversion
+         
 
---===============4951474092145864261==
+--===============5938674193743181167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc2ac1bb7482-cbe078e17798.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fae12ba27b0cefd05d562f5da46cce6af6154ac6 ACPI: PPTT: Use table offset as fw_token instead of virtual address
-f8aa2b9efda1ced4777929a67d1835b3c2aca962 cacheinfo: Use of_cpu_device_node_get instead cpu_dev->of_node
-4257ea6dea6fae0e9ba1d83d1d477f61c3e269e8 cacheinfo: Add helper to access any cache index for a given CPU
-10acfab132de6b8aba2eed2bf0a03ca5acda7ff1 cacheinfo: Move cache_leaves_are_shared out of CONFIG_OF
-867f33d373974eedbbd295d0d18ecbab63d673ef cacheinfo: Add support to check if last level cache(LLC) is valid or shared
-9bbe691c347ac5ebc123f284fb526325e32d60ea cacheinfo: Allow early detection and population of cache attributes
-5a7fe60d8f105e78d1f76a42613a9538bb0a525e cacheinfo: Use cache identifiers to check if the caches are shared if available
-c292b1076e749a9031ee596a15ba5a1c957b792d cacheinfo: Align checks in cache_shared_cpu_map_{setup,remove} for readability
-008c7764981a91e034cb21f3b00083ce3d40d95d arch_topology: Add support to parse and detect cache attributes
-c97e6f618d921055b1e84c0adb882f18e43a4a92 arch_topology: Use the last level cache information from the cacheinfo
-ec7bc5f2f9fdda3a6bae40551aafb873d06a3eb6 arm64: topology: Remove redundant setting of llc_id in CPU topology
-189bb61181aa961609fd194f2431caf3f2f004da arch_topology: Drop LLC identifier stash from the CPU topology
-99534924b62d6c320a914fe9fbcab05bcca6b7c1 arch_topology: Set thread sibling cpumask only within the cluster
-bc400e7156c3e5c8cf0a6435b8b9ec29cd9ce0fb arch_topology: Check for non-negative value rather than -1 for IDs validity
-656b6bdbc4d00e945ee4f4c6ccfcd0fb62e5ebaf arch_topology: Avoid parsing through all the CPUs once a outlier CPU is found
-da91db2a11b6607d497edd3bb400720de3c83133 arch_topology: Don't set cluster identifier as physical package identifier
-92038e28e884a46308f7a8bb0a4e6bc3be71343b arch_topology: Limit span of cpu_clustergroup_mask()
-b54f7d84e2c3a3362eb5b24fc12c63cfd97c48bb arch_topology: Set cluster identifier in each core/thread from /cpu-map
-6086d19db9b07ad5bdcd723a431ff6a64cfd7006 arch_topology: Add support for parsing sockets in /cpu-map
-5052b25f967d0307f0c84f4a24e40568d8222664 arch_topology: Warn that topology for nested clusters is not supported
-cbe078e1779852aef78f280bb1ec3408b02a13f9 ACPI: Remove the unused find_acpi_cpu_cache_topology()
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656931679 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1656931679-41bf30da7818040558d691281fad63c6108774a8
 
---===============4951474092145864261==--
+e897b3dc5adf50b98a455bb92e265a8998d98ca4 efc041b8eadd9abfcbd9f39489c8863239b64c9f refs/tags/linux-can-fixes-for-5.19-20220704
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLCxV8THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXdGuB/9ViVN3ODEOXPpFhL0ZYYqpiV/xH/ZF
+rc1bBHkKhQNrcim5977JDd2+yBLxSM1tiE3GmF9fyozSRmxqDnqHXEilHCZXt8He
+My0FBIT4XpO+TaT5mdgdVmUc9eUd4p2pv5JC5e4WovBz6VmgpUJjmPtn8Z5nhgOX
+175ONceKR9WiSDw9pwZKLDAfXaR10EXEzp1KBuh7GWip9npPJxCgZlp3bOlP9Ah/
+OOVRxBbc3igWz4OvBphltShlXacUkWkXuvhjfEo6jkHJk6/YHudhkLJ45FMvd0r1
+6gbxLyr60VSRLWvCdHA/3vgOuxJ6jhhjR3nLtEN5/rTcAUw3dmNtq99g
+=3kLk
+-----END PGP SIGNATURE-----
+
+--===============5938674193743181167==--
