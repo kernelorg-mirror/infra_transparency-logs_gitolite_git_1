@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8714015267877475641=="
+Content-Type: multipart/mixed; boundary="===============5404385499867797542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 04 Jul 2022 14:47:43 -0000
-Message-Id: <165694606346.11158.13049486609024308938@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 14:47:56 -0000
+Message-Id: <165694607662.11309.3843881116721547278@gitolite.kernel.org>
 
---===============8714015267877475641==
+--===============5404385499867797542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
     new: 88084a3df1672e131ddc1b4e39eeacfd39864acf
     log: revlist-a111daf0c53a-88084a3df167.txt
 
---===============8714015267877475641==
+--===============5404385499867797542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -706,4 +706,4 @@ aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-
 b8d5109f50969ead9d49c3e8bd78ec1f82e548e3 lockref: remove unused 'lockref_get_or_lock()' function
 88084a3df1672e131ddc1b4e39eeacfd39864acf Linux 5.19-rc5
 
---===============8714015267877475641==--
+--===============5404385499867797542==--
