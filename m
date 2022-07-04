@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8019752400634466502=="
+Content-Type: multipart/mixed; boundary="===============3059575230564164777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 04 Jul 2022 07:11:37 -0000
-Message-Id: <165691869751.7072.7153278231230474763@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 07:12:40 -0000
+Message-Id: <165691876094.8765.9155408673282707381@gitolite.kernel.org>
 
---===============8019752400634466502==
+--===============3059575230564164777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/atorgue/stm32
 user: atorgue
 changes:
-  - ref: refs/heads/stm32-fixes
+  - ref: refs/heads/stm32-dt-for-v5.19-fixes
     old: 779a1e6596a1f88e2a8d88544bb704babd35921f
     new: 1d0c1aadf1fd9f3de95d1532b3651e8634546e71
     log: revlist-779a1e6596a1-1d0c1aadf1fd.txt
 
---===============8019752400634466502==
+--===============3059575230564164777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cfd7ea394cd3b70ba4d9d87ee7b88e37459036b0 ARM: dts: stm32: DSI should use LSE SCM
 bf74181e75c93a1b2b000ebf3c8b4c8c17cd59da ARM: dts: stm32: delete fixed clock node on STM32MP15-SCMI
 1d0c1aadf1fd9f3de95d1532b3651e8634546e71 ARM: dts: stm32: add missing usbh clock and fix clk order on stm32mp15
 
---===============8019752400634466502==--
+--===============3059575230564164777==--
