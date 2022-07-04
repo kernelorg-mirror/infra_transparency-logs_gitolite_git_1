@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 04 Jul 2022 09:40:28 -0000
-Message-Id: <165692762870.14352.8502221749611372147@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 09:45:17 -0000
+Message-Id: <165692791791.30874.5755063010635964639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 39bfb3c12d792181de0cf3306be1ea03664a1b05
-    new: 5ee4bba272d171e797c1b3c7b5ff889c3a2f0ec9
+    old: 5ee4bba272d171e797c1b3c7b5ff889c3a2f0ec9
+    new: fd4b96c44aba86c4bacda2a93f57429ffd835284
     log: |
-         7b960c967f2aa01ab8f45c5a0bd78e754cffdeee usbnet: smsc95xx: Fix deadlock on runtime resume
-         3147242980c5f849978b424cf79dda4fef20716f usbnet: smsc95xx: Clean up nopm handling
-         03b3df43ce1f64b2ec6ef8cbcf2006f3938643b2 usbnet: smsc95xx: Clean up unnecessary BUG_ON() upon register access
-         5ee4bba272d171e797c1b3c7b5ff889c3a2f0ec9 Merge branch 'smsc95xx-deadlock'
+         67d2656b48f108bcf8819f05374c68cfedda3133 nfp: support RX VLAN ctag/stag strip
+         d80702ff12576682b8bce121600f687535716e7d nfp: support TX VLAN ctag insert
+         fd4b96c44aba86c4bacda2a93f57429ffd835284 Merge branch 'nfp-vlan-strip-and-insert'
          
