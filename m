@@ -1,46 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2851000906736559419=="
+Content-Type: multipart/mixed; boundary="===============8960565382826244945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Mon, 04 Jul 2022 08:53:00 -0000
-Message-Id: <165692478026.13520.17557345619787942252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 04 Jul 2022 09:05:33 -0000
+Message-Id: <165692553301.21939.9782561425875533389@gitolite.kernel.org>
 
---===============2851000906736559419==
+--===============8960565382826244945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: f355c11bc0f2bd140459bef1c31e362eec4a7041
-    new: e0d1c4b1c0a80d4ae9f9bfcc15d048629f096928
-    log: revlist-f355c11bc0f2-e0d1c4b1c0a8.txt
+  - ref: refs/heads/master
+    old: d0bf1fe6454e976e39bc1524b9159fa2c0fcf321
+    new: 798661c73672797549ba95a8a3da432d32b67178
+    log: revlist-d0bf1fe6454e-798661c73672.txt
 
---===============2851000906736559419==
+--===============8960565382826244945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f355c11bc0f2-e0d1c4b1c0a8.txt
+Content-Disposition: attachment; filename=revlist-d0bf1fe6454e-798661c73672.txt
 
-f468c62d3058b902d67b04930582f508be33379c dt-bindings: mfd: Add mp2733 compatible
-64b7aa5942ef88023b9310cba68d0ff2d1dee40b mfd: twl: Remove platform data support
-54d2193c2614dc238033c2a40d3cf429157ba59a mfd: pm8008: Remove driver data structure pm8008_data
-8007d7cf9e0368503d66af1ad44cdf3109ccd056 dt-bindings: mfd: qcom-pm8xxx: Update the maintainers section
-724cb4a8652ef9c182eb3f63438defdbc055d606 dt-bindings: mfd: mt6397: Add compatibles for MT6331 RTC and keys
-57f72555fdee45d4e9288a1cecebe3a42a31a0db dt-bindings: mfd: Add bindings for AXP192 MFD device
-8c7d8aa029a3cac42a468cd458adde840d2c5a06 mfd: axp20x: Add support for AXP192
-4230501709ec3f07274e9368caa22f0cd2dc261f mfd: dln2: Automatically detect and fill endpoint pointers
-e99989a7820f2c1cbc1505697a9e48afdc16cc02 mfd: tc6393xb: Make disable callback return void
-78c524025afefc62732be9aca890f86b10474d3f mfd: intel_soc_pmic_chtwc: Use dev_err_probe()
-440243d25e95d1fc899459c8810c869cf351dfc0 mfd: intel_soc_pmic_chtwc: Switch from __maybe_unused to pm_sleep_ptr() etc
-88887964dbbad6f9a749d20c52360608317a0055 dt-bindings: mfd: Add i.MX8qm/qxp Control and Status Registers module binding
-3b7c4fa51dfe531b1dda2da2efc99ae39955a2de mfd: db8500-prcmu: Drop duplicated word "the" in the comments
-0782092083f5c5e3d9d7c6707ebaf6afbe35a27a mfd: ipaq-micro: Fix spelling mistake of "receive{d}"
-2b53440e8857a6f75101cd48409246680ce20d8a mfd: axp20x: Add AXP221/AXP223/AXP809 GPIO cells
-e0d1c4b1c0a80d4ae9f9bfcc15d048629f096928 mfd: mt6397: Add basic support for MT6331+MT6332 PMIC
+53d7ae53d8071fa1270c208a730d6cf205a50533 mlxsw: Configure egress VID for unicast FDB entries
+8cfc7f7707c1812d879e942ddc45b25bf088c0b4 mlxsw: spectrum_fid: Configure VNI to FID classification
+fea20547d5b50017e1a0525e6788bd3db22f5ca3 mlxsw: Configure ingress RIF classification
+d4b464d20bc122699a7258cb44158d83d7fdc0ec mlxsw: spectrum_fid: Configure layer 3 egress VID classification
+2c3ae763eb703760a5388015582c10fd62d6ea18 mlxsw: spectrum_router: Do not configure VID for sub-port RIFs
+058de325a4fbbdfbaf111d31a28918c3fd92e096 mlxsw: Configure egress FID classification after routing
+662761d8987dc232e85fc35b529f80e01fd4fc71 mlxsw: Add support for VLAN RIFs
+d4324e3194c78a304cc86ffb4f79fef2fdadf599 mlxsw: Add new FID families for unified bridge model
+bf73904f5fba7c92c0c11ebe8cf91788354bf068 mlxsw: Add support for 802.1Q FID family
+e9cf8990faea42a0809b9f1e618effd6fd836e8a mlxsw: Add ubridge to config profile
+77b7f83d5c2594c5dbdd217aec03bd2265c0f11c mlxsw: Enable unified bridge model
+8928fd47782c77c81c9219dfce08e8c768f6c111 mlxsw: spectrum_fid: Remove flood_index() from FID operation structure
+88840d697f6e01de885f012fb9b21b9c26743346 mlxsw: spectrum_fid: Remove '_ub_' indication from structures and defines
+798661c73672797549ba95a8a3da432d32b67178 Merge branch 'mlxsw-unified-bridge-conversion-part-6'
 
---===============2851000906736559419==--
+--===============8960565382826244945==--
