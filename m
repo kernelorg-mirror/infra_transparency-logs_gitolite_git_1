@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 04 Jul 2022 09:45:21 -0000
-Message-Id: <165692792125.30935.424969502096785398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 04 Jul 2022 09:52:47 -0000
+Message-Id: <165692836788.2370.18149597775679141606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 0cf4a34c762040fce4480ded01c3f6b917f9ab05
-    new: 5ae49b66763e1f1c7a53b44ba11c36c22619a69c
+  - ref: refs/heads/master
+    old: 0a5f43bb115dcb531f773d48123781eb76ce2493
+    new: c099f165f196f1f2470fcb505e32b68697a448bd
     log: |
-         70c03473e8d504fea27b0816511945a1a871550e ath12k: print hardware name and version during initialization
-         5e5cd71319d04711b37cc137ea31cd8fa8e7671f ath12k: Fix kernel-doc issues
-         518d15b5bdb6d60f9b2fad71c4111d9c3a9f5311 ath12k: qmi: Add debug message for allocated memory segment addresses and sizes
-         730b46ab0396eaef0d4b3e39f1983f32ce0c69b4 ath12k: Fix an error handling path in ath12k_core_fetch_board_data_api_n()
-         07285332c753575454277f7e480464469ba331bd ath12k: Remove redundant assignment to variable fw_size
-         5ae49b66763e1f1c7a53b44ba11c36c22619a69c ath12k: remove QCA6390 in comments
+         0040f438bb1b3a5d95e02d315c86ebff51580e07 environ.7: align PWD with the standard
+         4ff750a222f29e9b4657f2568892d7b0e7c3521e updwtmp.3: Add #define GNU_SOURCE for updwtmpx
+         b82b3d4077c54a6b31a63c53a874b806baaed0ce getmntent.3: wfix
+         7580780ebc1edf97760f66a857c17fdd9fff3e9c getdate.3: EXAMPLES: Fix comment.
+         f5e3b67eeb1e5e9d1a4247ae6785dae1dc3c911c fanotify.7, fanotify_init.2: Document FAN_REPORT_TARGET_FID
+         c099f165f196f1f2470fcb505e32b68697a448bd fanotify.7, fanotify_init.2, fanotify_mark.2: Document FAN_RENAME
          
