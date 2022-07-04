@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0753028368320048990=="
+Content-Type: multipart/mixed; boundary="===============7843865065455730981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 04 Jul 2022 13:30:34 -0000
-Message-Id: <165694143441.22680.16500114925836779801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 04 Jul 2022 13:30:39 -0000
+Message-Id: <165694143979.22806.9245550780800083409@gitolite.kernel.org>
 
---===============0753028368320048990==
+--===============7843865065455730981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linux-next
-    old: fc1e24c9be875825e6bd85f97cdd4c9ac6f0912e
-    new: e90e3e31adf037a6007181e786201694fbe71692
-    log: revlist-fc1e24c9be87-e90e3e31adf0.txt
+  - ref: refs/heads/master
+    old: 3a5efa9d3d0c3c35979accbd1fd8433eaae28150
+    new: 66ba50095703240529928d0b269ab7865fbfb73d
+    log: |
+         66ba50095703240529928d0b269ab7865fbfb73d 5.10-stable patches
+         
 
---===============0753028368320048990==
+--===============7843865065455730981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc1e24c9be87-e90e3e31adf0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-689640efc0a2c4e07e6f88affe6d42cd40cc3f85 firmware: arm_scpi: Ensure scpi_info is not assigned if the probe fails
-2bd0467074f078372ac2c979c56dc94228c90fbf include: trace: Add SCMI full message tracing
-b60e088682b74eca03f322a3b099a234b8f2fb1d firmware: arm_scmi: Use new SCMI full message tracing
-a0db3962fb33564017b067255c20828632145c36 firmware: arm_scmi: Support only one single system power device
-7097f29819bb70374dfae9f705e548a720f16f94 firmware: arm_scmi: Add SCMI v3.1 System Power extensions
-d91079995fa62720e11a39c08b932f2f9a8cbfae firmware: arm_scmi: Add devm_protocol_acquire helper
-2c4b97fee94acd4a4eb2a6943584055a14e14830 firmware: arm_scmi: Add SCMI System Power Control driver
-451d8457bc9d193611993909644724117a8d1e8f dt-bindings: firmware: arm,scmi: Add support for powercap protocol
-0316f99c4780b0a5fd60b7f136c64cb1af8d5fc3 firmware: arm_scmi: Add SCMI v3.1 powercap protocol basic support
-6f9ea4dabd2d8831b470660a83fa09966933f850 firmware: arm_scmi: Generalize the fast channel support
-855aa26e5f56d415b71d3f8d86ef0cc51b2166a3 firmware: arm_scmi: Add SCMI v3.1 powercap fast channels support
-e699eb9b4f1b98be08197d699e5c34a8b576b26f include: trace: Add SCMI fast channel tracing
-b27d04d5a51c28322cadb18d8d2ff5d0fb892fff firmware: arm_scmi: Use fast channel tracing
-31afdd34f2b9e1f33018baa4f279e2b2a91f5afa powercap: arm_scmi: Add SCMI powercap based driver
-8f29a4b80e8220ae72cb80d67e694feb0af10d4c Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-e90e3e31adf037a6007181e786201694fbe71692 Merge branch 'for-next/arch_topology' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656941439 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1656941437-35d497ff213892f1106dbb5bd900fc76c638f936
 
---===============0753028368320048990==--
+3a5efa9d3d0c3c35979accbd1fd8433eaae28150 66ba50095703240529928d0b269ab7865fbfb73d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLC638bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VVcQALpF0/eCTNIq1uRmxm5a
+deUvEgP1BtRS2RfJuav+BiFpO1nav3vZLnYVzxRq+iMKJ6D4e0g23VNVA8Qd6Q2F
+rXERFxVWNYQeluUjSTB9bGotKyhtNJhDmHHlCVj9KADMqSi7XNp8HaELl4PHxMVM
+8Vu3iHrCMUiJ9VRzS6PLcPbdI5fKGamvOWxKNs5JeP8bxx50awRf0YiusbRkBkzu
+qJBv4+9xBgew5uB473UyIovOFmV4JAhL197b74Atr2dK/ob0E+HVv24JMKcBVc0D
+qLBlHUYoRLDofycvXS97SxF/Qr24y9cH7eDUJokSqenHjlghg+cKI1S61pJ7lN3v
+0LuA7eLX1cwJ3+qS398cea8aZeZRF75oklILK9G/WFiYxc6qN82ByfbdUKGvfkdm
+yDE0NoB/cwV5k+nOZohuKuXK05BRjlsWQybc0ZruEwPCqngJs8yX91LvAUyShr8r
+p5PshzQrjksrdaEJEKToovhS9fm2LC90DveO6+T4oZ1cmtB4Dy5YZYUMZdyjA54l
+6n2T2rc+jBDq3FCnnhtT9QcEpTMnnOEngSguD0iSzzrr4nma9P/++Cycx053+Yqi
+trIkd2PS5w0kLRTAtTMh9poxVmwYrBDG8TleNQRAFe1o8RjI1JgjrzT6XLONbf6J
+u/biVUIIzyixTYUQMWutea1v
+=nLJ0
+-----END PGP SIGNATURE-----
+
+--===============7843865065455730981==--
