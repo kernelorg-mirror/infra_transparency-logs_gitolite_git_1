@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5938674193743181167=="
+Content-Type: multipart/mixed; boundary="===============0073362970570831021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 04 Jul 2022 10:48:03 -0000
-Message-Id: <165693168317.7308.16845512043755453160@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 10:48:20 -0000
+Message-Id: <165693170005.7464.6304218368449621871@gitolite.kernel.org>
 
---===============5938674193743181167==
+--===============0073362970570831021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/linux-can-fixes-for-5.19-20220704
-    old: e897b3dc5adf50b98a455bb92e265a8998d98ca4
-    new: efc041b8eadd9abfcbd9f39489c8863239b64c9f
+  - ref: refs/heads/testing
+    old: ffa08b1e3db0b61aafc1b80c477b7dc560ad3960
+    new: 5d7547e2e87eaa6131c70e3bbf3c67c66b3fc8b9
     log: |
          49f274c72357d2d74cba70b172cf369768909707 can: kvaser_usb: replace run-time checks with struct kvaser_usb_driver_info
          e6c80e601053ffdac5709f11ff3ec1e19ed05f7b can: kvaser_usb: kvaser_usb_leaf: fix CAN clock frequency regression
@@ -30,28 +30,28 @@ changes:
          5d7547e2e87eaa6131c70e3bbf3c67c66b3fc8b9 can: mcp251xfd: mcp251xfd_register_get_dev_id(): fix endianness conversion
          
 
---===============5938674193743181167==
+--===============0073362970570831021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656931679 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656931695 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1656931679-41bf30da7818040558d691281fad63c6108774a8
+nonce 1656931694-da42c287ac07eaac433127b868988038743e94e7
 
-e897b3dc5adf50b98a455bb92e265a8998d98ca4 efc041b8eadd9abfcbd9f39489c8863239b64c9f refs/tags/linux-can-fixes-for-5.19-20220704
+ffa08b1e3db0b61aafc1b80c477b7dc560ad3960 5d7547e2e87eaa6131c70e3bbf3c67c66b3fc8b9 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLCxV8THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXdGuB/9ViVN3ODEOXPpFhL0ZYYqpiV/xH/ZF
-rc1bBHkKhQNrcim5977JDd2+yBLxSM1tiE3GmF9fyozSRmxqDnqHXEilHCZXt8He
-My0FBIT4XpO+TaT5mdgdVmUc9eUd4p2pv5JC5e4WovBz6VmgpUJjmPtn8Z5nhgOX
-175ONceKR9WiSDw9pwZKLDAfXaR10EXEzp1KBuh7GWip9npPJxCgZlp3bOlP9Ah/
-OOVRxBbc3igWz4OvBphltShlXacUkWkXuvhjfEo6jkHJk6/YHudhkLJ45FMvd0r1
-6gbxLyr60VSRLWvCdHA/3vgOuxJ6jhhjR3nLtEN5/rTcAUw3dmNtq99g
-=3kLk
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLCxW8THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXZBbCACqEdqkSBif0QVUYDTyaCDv/sCJ9WUR
+n7Rz6RQgR/lQo9qmyY+dFRLhrpfUASJVjkz4he6WO7Necm/buQeLPF5xpnrgXIp3
+V7riTtY9qYxBSQ8tYhATvURr2AX8RqzNGf/b1R7pPQt79sVNbHi7AqOiVZ3d+9pF
+FEIR4CTeD1AnTnORrpfyjASggRJuajyF9xeK7U8sjpW9yadmjuyhtMCWaAbZcixJ
+7RQpw9m5YQTQzSavGDbhDkzfsKXPJ5xYNhbrgSzIVISmPWq+yC0og8g5Bt+biYh4
+peMVLca4w1UK/NThufp8QeNFsHSVk6yrSU9tM8LK7aPapkG9EmgolzCY
+=phtn
 -----END PGP SIGNATURE-----
 
---===============5938674193743181167==--
+--===============0073362970570831021==--
