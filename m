@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5070762945377095647=="
+Content-Type: multipart/mixed; boundary="===============8714015267877475641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 04 Jul 2022 14:47:32 -0000
-Message-Id: <165694605260.11035.3896989705449723658@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 14:47:43 -0000
+Message-Id: <165694606346.11158.13049486609024308938@gitolite.kernel.org>
 
---===============5070762945377095647==
+--===============8714015267877475641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 3748d2185ac4c2c6f80989672253aad909ecaf95
+  - ref: refs/heads/master
+    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
     new: 88084a3df1672e131ddc1b4e39eeacfd39864acf
-    log: revlist-3748d2185ac4-88084a3df167.txt
+    log: revlist-a111daf0c53a-88084a3df167.txt
 
---===============5070762945377095647==
+--===============8714015267877475641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3748d2185ac4-88084a3df167.txt
+Content-Disposition: attachment; filename=revlist-a111daf0c53a-88084a3df167.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -304,8 +304,16 @@ aacf2f9f382c91df73f33317e28a4c34c8038986 io_uring: fix req->apoll_events
 f9710c357e5bbf64d7ce45ba0bc75a52222491c1 xen-blkfront: Handle NULL gendisk
 ecb6237fa397b7b810d798ad19322eca466dbab1 x86/xen: Remove undefined behavior in setup_features()
 ca6969013d13282b42cb5edcc13db731a08e0ad8 drm/xen: Add missing VM_DONTEXPAND flag in mmap callback
+c81aba8fde2aee4f5778ebab3a1d51bd2ef48e4c MIPS: Remove repetitive increase irq_err_count
+4becf6417bbdc293734a590fe4ed38437bbcea2c arch: mips: generic: Add missing of_node_put() in board-ranchu.c
+608d94cb84c42585058d692f2fe5d327f8868cdb mips: mti-malta: Fix refcount leak in malta-time.c
+48ca54e39173d1ed4c4dc8cf045484014bb26eaf mips: ralink: Fix refcount leak in of.c
+72a2af539fff975caadd9a4db3f99963569bd9c9 mips: lantiq: falcon: Fix refcount leak bug in sysctrl
+76695592711ef1e215cc24ed3e1cd857d7fc3098 mips: lantiq: xway: Fix refcount leak bug in sysctrl
+eb9e9bc4fa5fb489c92ec588b3fb35f042ba6d86 mips/pic32/pic32mzda: Fix refcount leak bugs
 60050ffe3d770dd1df5b641aa48f49d07a54bd84 certs: Move load_certificate_list() to be with the asymmetric keys code
 3cde3174eb910513d32a9ec8a9b95ea59be833df certs: Add FIPS selftests
+db30dc1a5226eb74d52f748989e9a06451333678 mips: dts: ingenic: Add TCU clock to x1000/x1830 tcu device node
 82c7863ed95d0914f02c7c8c011200a763bc6725 f2fs: do not count ENOENT for error case
 34705a57e7df97d161324263c103c4d4d120dfe7 efi: sysfb_efi: remove unnecessary <asm/efi.h> include
 aa6d1ed107eba26f49933216cffe797253914132 efi/x86: libstub: Fix typo in __efi64_argmap* name
@@ -319,6 +327,7 @@ ca1fdab7fd27eb069df1384b2850dcd0c2bebe8d Merge tag 'efi-urgent-for-v5.19-1' of g
 d4ea6f6373ef56d1d795a24f1f5874f4a6019199 ice: ignore protocol field in GTP offload
 202773260023b56e868d09d13d3a417028f1ff5b PM: hibernate: Use kernel_can_power_off()
 3578dc90013b1fa20da996cdadd8515802716132 ice: Fix switchdev rules book keeping
+3748d2185ac4c2c6f80989672253aad909ecaf95 mips: lantiq: Add missing of_node_put() in irq.c
 c3d184c83ff4b80167e34edfc3d21df424bf27ff ice: ethtool: advertise 1000M speeds properly
 a632b2a4c920ce5af29410fb091f7ee6d2e77dc6 ice: ethtool: Prohibit improper channel config for DCB
 c487a5ad48831afa6784b368ec40d0ee50f2fe1b io_uring: fail links when poll fails
@@ -697,4 +706,4 @@ aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-
 b8d5109f50969ead9d49c3e8bd78ec1f82e548e3 lockref: remove unused 'lockref_get_or_lock()' function
 88084a3df1672e131ddc1b4e39eeacfd39864acf Linux 5.19-rc5
 
---===============5070762945377095647==--
+--===============8714015267877475641==--
