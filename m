@@ -1,62 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3230061497507928250=="
+Content-Type: multipart/mixed; boundary="===============5344045894082371111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 04 Jul 2022 11:51:43 -0000
-Message-Id: <165693550316.19015.7659997413233537874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Mon, 04 Jul 2022 11:52:04 -0000
+Message-Id: <165693552442.19219.10445793235067269988@gitolite.kernel.org>
 
---===============3230061497507928250==
+--===============5344045894082371111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: c4398e574aa1f44bd8fbe08afdb25e4598a9bd39
-    new: 99fcef656a5a2917fc7800f8c2fa31eb2a967558
-    log: revlist-c4398e574aa1-99fcef656a5a.txt
+  - ref: refs/tags/v5.19-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
 
---===============3230061497507928250==
+--===============5344045894082371111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4398e574aa1-99fcef656a5a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9730e011004b7526e79c6f409f5147fb235b414a OPP: Make dev_pm_opp_set_regulators() accept NULL terminated list
-e8782ca6693ec5c80ece890cef99a36221cc28bd OPP: Add dev_pm_opp_set_config() and friends
-4623510dc596f65502c44f2879c9cc5dd650dbd3 cpufreq: qcom-nvmem: Migrate to dev_pm_opp_set_config()
-0b24496df4a70225c777726ffe2540cf83a3c079 cpufreq: sti: Migrate to dev_pm_opp_set_config()
-d8d5cfc5ef503c0ab3b5af62d5723eeb9fec62b7 cpufreq: ti: Migrate to dev_pm_opp_set_config()
-734af371b2523219c719111be72d932dc3fd7eb9 drm/lima: Migrate to dev_pm_opp_set_config()
-2f93b66f785b91c720aacd3cdb152fbf1e375141 soc/tegra: Add comment over devm_pm_opp_set_clkname()
-640201fa0191b27902f92db1cbbda1c74c7befb8 soc/tegra: Migrate to dev_pm_opp_set_config()
-57b3f53e71550be92e28f4e2fa619f93bb5f3d78 OPP: Migrate set-regulators API to use set-config helpers
-a181aca1ac7ebcf526d717cbda1964cdc2898903 OPP: Migrate set-supported-hw API to use set-config helpers
-0ae7b982b4c87940a01d78200295f7bc66cb67f7 OPP: Migrate set-clk-name API to use set-config helpers
-7274b73c609073e40461467a6d6cc211ef772bb0 OPP: Migrate set-opp-helper API to use set-config helpers
-e83f3c8bb94b822fddbf331c2a6938765b7b43f5 OPP: Migrate attach-genpd API to use set-config helpers
-bbd8f1e7508a9c66028ea1d80fd86924256fdb64 OPP: Migrate set-prop-name helper API to use set-config helpers
-c342cccd065a5959eb1784f5bade87e6796f11c0 OPP: Add support for config_regulators() helper
-bccf9cb87d654ce05d4725416d64f9652f53e5d0 OPP: Make _generic_set_opp_regulator() a config_regulators() interface
-e149ff64602f4aba95547add0e96dbf947b5cfdb OPP: Add dev_pm_opp_get_supplies()
-9f7e72d6329095dcd2561a12e91b91b1851f5b7d OPP: ti: Migrate to dev_pm_opp_set_config_regulators()
-20faa4894af53aa1a5dd8371236a978e3965862e OPP: Remove custom OPP helper support
-fcdce20597168e70788628d03b94ea95ce75b455 OPP: Remove dev_pm_opp_find_freq_ceil_by_volt()
-b36bc4b8daf25eb6aa210ffd1b1ddbd1f8073564 OPP: Add generic key finding helpers and use them for freq APIs
-a722247dfba0e0b9b622b0a49c4f1255702a9a93 OPP: Use generic key finding helpers for level key
-3a972c3fde6b6271be1efff23b659becdc7153f7 OPP: Use generic key finding helpers for bandwidth key
-aee331f9d6312df1b75e0471ae5f499f172d5f09 OPP: Use consistent names for OPP table instances
-58e3b368a9178c3074fec11066a97be250fa3a5a OPP: Remove rate_not_available parameter to _opp_add()
-4588b31bc2ab3b5949f170f2f56793eaae9c7a1d OPP: Reuse _opp_compare_key() in _opp_add_static_v2()
-141949c38efa26bc937b6e7f8c311e7c8a27d341 OPP: Make dev_pm_opp_set_opp() independent of frequency
-33d1cda90d6734ecaf317de8a2a874e159b99f84 dt-bindings: opp: accept array of frequencies
-c64c6778f168f84e65fcedc2ca5b996fa8c8e1bd OPP: Allow multiple clocks for a device
-571d955063cd1bcc03b7a75960e773c8a48862f0 OPP: Add key specific assert() method to key finding helpers
-5062f9978afa23fa83051b674b4d76e23fb2381a OPP: Assert clk_count == 1 for single clk helpers
-99fcef656a5a2917fc7800f8c2fa31eb2a967558 OPP: Provide a simple implementation to configure multiple clocks
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1656935522 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1656935519-b4ca3512a3bf4a07593456be9ee6912bcb49431b
 
---===============3230061497507928250==--
+0000000000000000000000000000000000000000 2235bc49f8edfaafc6269344aa80e6400931a4af refs/tags/v5.19-rc5
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmLC1GITHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgFHvD/0UwB6qoHs10BYoTBwzWFN0Bm+y9Bva
+Mlw/3T4gvquzNOQA0Zf2y68HgcrTOdGsE132XViGLzRfu0R20IggYDZRj3akQYnL
+SNNzBX3RPZWreWc6w15OzB3l5q5dkhzPU5sJbDuRXaVzlcZlra4/YTEsVvp4PVlU
+FB+CUT1oSZ3yROadi6W8wxvyOVvSfuWR4SCuKSXJnKwoi+5wL1EvXc0Zcv7O/fKv
+E/xxMlUP3Man7XY8AOAj5zQOJNHHpdZ4fBIfu/4bBA9urzhNoQKU8jf628wXbQWc
+Ry1644XeRXEYIGTOXINDhv0U27x4iiWnMmdP9mjBRpWcBF8chxoe/OQp1WLUELhw
+m7xl26qZGA849pKdhHukaaZCjqVspr8pLY/OiQtI/x9i2lZuAh0UAT5Sg/2rcjmD
+sDteq28T/EulGlM2DdCIj4lnVhTRiDLp5GK5+KnZb6PiRG3DgZHvA3WPBxboFZ4e
+0K80vj02D/95xs1YFomxGCdhTatzYi9KiZXvkPqODcOxNx1xxR6rSERY8e0n2nTa
+QAfo58j6D5pC/xRQ1X/bOnx3A1JRkk4VBjxOcDl3gneJ+Bd7HICCvDItHZrETK6a
+AQL5fLddfTL4IRIJWSMEm0z9P1s28a6Q+BPzQhGKHpYzrZPhu7boRnUP1gcSTSLu
+TrCOqn8ujzjKVA==
+=hddq
+-----END PGP SIGNATURE-----
+
+--===============5344045894082371111==--
