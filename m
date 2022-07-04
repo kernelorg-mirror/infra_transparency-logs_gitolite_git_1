@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3516976275383636044=="
+Content-Type: multipart/mixed; boundary="===============0090075469564824010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 04 Jul 2022 08:14:18 -0000
-Message-Id: <165692245880.19351.7474755004254507910@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 08:14:39 -0000
+Message-Id: <165692247909.19547.6733492685147796272@gitolite.kernel.org>
 
---===============3516976275383636044==
+--===============0090075469564824010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: f0da93cbaf7af868e34d611d555f4067b748ecdf
-    new: 2ac96c800dd18e7fc08589d5f5962710db6c927c
-    log: revlist-f0da93cbaf7a-2ac96c800dd1.txt
+  - ref: refs/heads/review-hans
+    old: 2ac96c800dd18e7fc08589d5f5962710db6c927c
+    new: 530ef2a6e81c74c19f918713e519e85652e53a83
+    log: revlist-2ac96c800dd1-530ef2a6e81c.txt
 
---===============3516976275383636044==
+--===============0090075469564824010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0da93cbaf7a-2ac96c800dd1.txt
+Content-Disposition: attachment; filename=revlist-2ac96c800dd1-530ef2a6e81c.txt
 
-1ccd59066246188a0ecb5ba816e223294d73aa26 platform/x86: ideapad-laptop: Add allow_v4_dytc module parameter
-7dbd3af50aad93a1e97c0d2a7b544a64e0a0a6b0 platform/x86: ideapad-laptop: Add Ideapad 5 15ITL05 to ideapad_dytc_v4_allow_table[]
-3888bb741177718177c49a6b1b7c174b5b18c1be ACPI: video: Change how we determine if brightness key-presses are handled
-758babb511d883cd2aa784d48a362d92119ade99 platform/x86: panasonic-laptop: de-obfuscate button codes
-9cfebda442f73a5810d03c635645193634ba85e7 platform/x86: panasonic-laptop: sort includes alphabetically
-cb1f7d49736e05862c7d7df1c97676bb42c75e5c platform/x86: panasonic-laptop: revert "Resolve hotkey double trigger bug"
-027f88453dbf34cafce1c31e93c216665cdd71d2 platform/x86: panasonic-laptop: don't report duplicate brightness key-presses
-5e24e1eca1f2a3aed924e44606134a9381c3ccb9 platform/x86: panasonic-laptop: filter out duplicate volume up/down/mute keypresses
-4da4742236ce74b92590bc65184eb10826a12006 platform/x86: panasonic-laptop: Use acpi_video_get_backlight_type()
-57a3487eefa598bdcc15df6dd3991b7ea843fb53 platform/x86: thinkpad_acpi: do not use PSC mode on Intel platforms
-2ac96c800dd18e7fc08589d5f5962710db6c927c platform/x86: hp-wmi: Ignore Sanitization Mode event
+eb003bf3ba221bb3d21d1fdcddaa36c158fd2d8f platform/surface: aggregator: Add helper macros for requests with argument and return value
+9f794056db5bb1e1add83ed553b6aec57298358c platform/surface: Add KIP/POS tablet-mode switch driver
+f9eb5c4babed86197000a12068245b40fd639747 platform/surface: aggregator_registry: Add support for tablet mode switch on Surface Pro 8
+70e85eb071a118c13b690df595bd8129e9fbbe79 platform/surface: aggregator_registry: Add support for tablet mode switch on Surface Laptop Studio
+4a4ab610b8ae912c28a4fd28442ef24ed7a1a5bd platform/surface: aggregator: Move device registry helper functions to core module
+993a9e2aca6e6432695082d689353a03662d18d1 platform/surface: aggregator: Move subsystem hub drivers to their own module
+221756e61b7cc3d7f47f57fb4f371242aa4ccb1d platform/surface: Update copyright year of various drivers
+9a1aac8a96dc014bec49806a7a964bf2fdbd315f platform/x86: ISST: PUNIT device mapping with Sub-NUMA clustering
+f21c179e1206e88d187d517d97d270c6492d4673 platform/x86/intel/vsec: Rework early hardware code
+99de05043e77cdecc34c09e4fabffdc6d9147c80 platform/x86/intel/vsec: Add support for Raptor Lake
+ba7e421eee0f98fb2f6aedc83bc5231df64556a1 platform/x86/intel/pmt: telemetry: Fix fixed region handling
+1039bb2698ab299a1fc30a4fc2df237867c089e0 platform/x86/intel/vsec: Add PCI error recovery support to Intel PMT
+0f52752973e8a6daf88c485462ff765dd81492de platform/x86/amd/pmc: Add new acpi id for PMC controller
+530ef2a6e81c74c19f918713e519e85652e53a83 platform/x86/amd/pmc: Add new platform support
 
---===============3516976275383636044==--
+--===============0090075469564824010==--
