@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3466149796096959888=="
+Content-Type: multipart/mixed; boundary="===============0515896671878258398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 04 Jul 2022 15:56:19 -0000
-Message-Id: <165695017906.26358.11005519959803336970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 04 Jul 2022 15:56:24 -0000
+Message-Id: <165695018494.26481.3300819150214050591@gitolite.kernel.org>
 
---===============3466149796096959888==
+--===============0515896671878258398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 68f26639dc40b5d6aca201f3e250a1538e68eae6
     new: acf981f94edca13c85fa24dd8511cdc6bd4c98ed
     log: |
@@ -30,28 +30,28 @@ changes:
          acf981f94edca13c85fa24dd8511cdc6bd4c98ed ASoC: tegra20_ac97: Fix missing error code in tegra20_ac97_platform_probe()
          
 
---===============3466149796096959888==
+--===============0515896671878258398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1656950177 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1656950177-944f86914020f7b6a8da7fccbbe35a876053d851
+pusher C3F436CA30F5D8EB 1656950183 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1656950182-63557cb489cc397b212926c8ceb5f872fd05e08c
 
-68f26639dc40b5d6aca201f3e250a1538e68eae6 acf981f94edca13c85fa24dd8511cdc6bd4c98ed refs/heads/for-5.20
+68f26639dc40b5d6aca201f3e250a1538e68eae6 acf981f94edca13c85fa24dd8511cdc6bd4c98ed refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLDDaEACgkQJNaLcl1U
-h9BIdwf/U3VmEh6MBmrwJlmeeRmrFb6CfQMq1tB6zm0owT2PXyg92QvAGgWO2ONN
-wTCSDAGd1oxww0eXSA2BdJ6vSRYgJdFi2RD4+AmcDDhLb8V7+Z8tLIWwddUB1hDy
-NfH2LztWi74N3gBXoKPOMftWT9a9oMJNIpPp+f3/8Dd/GN+rioZJXDhvmIdz7Dmc
-W+r+HR1rwU4lH5hMWVKqLf38owDTN4dMajHfcdNPgnvTn8lAQXD/QpSC1/oxwA1x
-LuuOkAr77te0NorzIuOmNkzpf0w6uRyUNQVBYCjLq5GpX/3FKOH75dg6/TkQMIp0
-NzcOivPwA/39QnC9u7AJAdRkIVq+Yw==
-=svY9
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLDDacACgkQJNaLcl1U
+h9DSNgf/Sle57eDJSguLd0sRyqLy8VUbD2QqJkDRaY1lfdCoiVdCKg0V4T3TPkyJ
+4Orszxt/cm6ATnRSL2/fWX15+i0d9xiyDW/o7EUVkgfj9DOpJbJnWN/AyUvrN3j+
+WGOHGQ+kgXTHVX1oTd94y308RdVz5SntAy3VFNnVFIIKCbhzLNp0W+WLApJM+IN/
+Zt5VRLt03qVmylDvmdmd84URVpT3vCwygeFYzigclDGERIHlKLfjxptc11mEVyKv
+dG9ZnWSz5DhQVPTt2ZpVWYL6h6xVI9idMPyfFZitCNFz9sCJQNiEUxdvoSneUijn
+zz9HH/wDvLhO6u8ZNOEv48W3JgtFeg==
+=LdF3
 -----END PGP SIGNATURE-----
 
---===============3466149796096959888==--
+--===============0515896671878258398==--
