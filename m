@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9081358645909398810=="
+Content-Type: multipart/mixed; boundary="===============0934162789035376551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 04 Jul 2022 11:05:24 -0000
-Message-Id: <165693272475.19287.14295061624693022533@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 11:05:32 -0000
+Message-Id: <165693273239.19386.4475646418880065366@gitolite.kernel.org>
 
---===============9081358645909398810==
+--===============0934162789035376551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2b844322fc78614e246a4bc593b774123b81400c
-    new: d2779a74cef1c7b681dc477ac40d6eb4f8d176f1
+    old: d2779a74cef1c7b681dc477ac40d6eb4f8d176f1
+    new: 8b376f8cbf2e327df7e0e8cd270d79f8923a839a
     log: |
-         d2779a74cef1c7b681dc477ac40d6eb4f8d176f1 5.4-stable patches
+         8b376f8cbf2e327df7e0e8cd270d79f8923a839a 5.10-stable patches
          
 
---===============9081358645909398810==
+--===============0934162789035376551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656932724 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1656932731 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1656932723-f9274807b8294e92ad3d2c2c385415665b72386c
+nonce 1656932730-c1fe54e962a1a72200e1f586644b96cbd9e99c8f
 
-2b844322fc78614e246a4bc593b774123b81400c d2779a74cef1c7b681dc477ac40d6eb4f8d176f1 refs/heads/master
+d2779a74cef1c7b681dc477ac40d6eb4f8d176f1 8b376f8cbf2e327df7e0e8cd270d79f8923a839a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLCyXQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EokQALHRH08bxHAyH7kPWoQz
-rTQo1yAjGYgZpc8hZQu+zo+cg1E1sdqX0lIUjtvzymcr5rDQASSkSEfMhOcNSyDv
-GMA1r36vyo1ZKKb6N1VZwea2m9E7vfrbJVTNipDSESTkMTzN8/vds28AidK/4gI2
-VNCSNGkL15sK/91fUrVREjw15cppdTueQZSUfqH4dqS4dEteyBjWaAqFGPoYuJw2
-L2bnkvapVEqC1Cb+ZC7XKU94f97HTbLtqwv473xybpMlIcKE2OxclTjfQfJRBMrq
-iADXD22Zz5Cp3vCxxQM2YfzVsHxYZTqp8mGPVtNHUMrpVGqeFZnmxos2D9f11nfC
-cE2dLuvrjmQQnwv1qxAjMIDa1vZYrCfm6HK3AecQ1AUWTcEoWNNXp/uHslisUami
-2YrIJOxncOAuecyYIa5as43C5keLygM+xllgWqdww9JmEUmj05BQuApC3NlCS9rz
-XLIXDJpRAHRpyLexbc03AwqgEPk5FKV0pR0ki+93r0hErsRwF1ihSI+iOUdbqKDG
-d+demAyqFr2FG4SQgeCe3t/KnGE4Xawf5J9wVk+enbAakJtXnVn9Mmetxdxb9G/A
-u/HF4ET44X2A1kv00voe4Q+DpKhHVfOXkN7jDd+8kmoja891ukUq5vGkM5RvD+3D
-UzwYD2MsYWorlLf8pWo/SEFt
-=PpY5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLCyXsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gmQQALLRmOwMDnnNSSb6lDTd
+JRbYHWX31QsrI6matSAGMgx/ys6IuB7c6jQd/TgqyRscGCeVSpLZ8PXmSlYm90Uk
+lToImPof6H1z5xJVo6NwupXAg3ybtuwXytfZnNVfXZFa/MgdizJnqyYH+WL+idgb
+yvj2xlyfeebZBiMxxJyDCG5FQCtXHnAMkjH1c0Ra4tCw6betHAXbeBKEkCplVD4d
+epzVhWTOBAMs+Xxq+hrskmHoSaCX62d053JtJnNJMvzg1J6h4+jxFzp1WuCQy4As
+V3JE5U4WQ184T4MPd3RxwqHB8ja/XNIyjSoGJL90P+h/NqZ8LFkHTUr3GEv+2Byq
+s9rVocpkkgSGn2LBBH2x6R8zUQB9dKAQkXijGbi/phZq6xqjO5S4hyVcrE6HnNAF
+GYPMNQ+EQxX6yU21Z8x9kuIaEx+goAp8a1cMtTnVnFPmitGW4jbhcWdXNreqP+G3
+e/DHYIUOLAsez9Wmv4YboqadHc6RTnYgpbCJDJxSyZ1OXJdmq+rdb9WMPwWzk3LA
+VL9j63P8z7L4m42KhDr7/XTCI48zQt2TWhSXHXNHY9BHCfbkE8Tn/8WE4fBXIiHV
+d4rx1OLWksOFSELYw/pU5miOcpMgz6g6F+akfYTDHA9Dob0F49dbeFAnX4ykqYrb
+F3u0gP1FmsRknA3YolccfMyA
+=/Q9o
 -----END PGP SIGNATURE-----
 
---===============9081358645909398810==--
+--===============0934162789035376551==--
