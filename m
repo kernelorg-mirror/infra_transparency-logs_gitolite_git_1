@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3166133702820462177=="
+Content-Type: multipart/mixed; boundary="===============8750022299762249431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 04 Jul 2022 17:38:40 -0000
-Message-Id: <165695632077.29778.6903073983062197963@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 17:38:45 -0000
+Message-Id: <165695632563.29846.17133690088717282975@gitolite.kernel.org>
 
---===============3166133702820462177==
+--===============8750022299762249431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: bcc94f9a2581a035befd86cde7c4b80855203fec
-    new: 4977636d44b8d02cab7d04616283005b733477d7
-    log: |
-         4977636d44b8d02cab7d04616283005b733477d7 m68k: q40: Align '*' in comments
-         
-  - ref: refs/heads/for-v5.20
-    old: bcc94f9a2581a035befd86cde7c4b80855203fec
-    new: 4977636d44b8d02cab7d04616283005b733477d7
-    log: |
-         4977636d44b8d02cab7d04616283005b733477d7 m68k: q40: Align '*' in comments
-         
-  - ref: refs/heads/master
-    old: a830f02404586b01d275f62e128c57fe15a2b7e1
-    new: dd9ab4734e4802b64911299764b9834f0296166b
-    log: revlist-a830f0240458-dd9ab4734e48.txt
+  - ref: refs/heads/m68k-queue
+    old: da9b8ed36858dd0fe0872e72b63047b267bce90a
+    new: f63956ac8f48f5fdbec94ce32090c06b7164d59f
+    log: revlist-da9b8ed36858-f63956ac8f48.txt
 
---===============3166133702820462177==
+--===============8750022299762249431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a830f0240458-dd9ab4734e48.txt
+Content-Disposition: attachment; filename=revlist-da9b8ed36858-f63956ac8f48.txt
 
 118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
 a1ea0857b59757733d58908dd55bf4b722ee574f clk: stm32: rcc_reset: Fix missing spin_lock_init()
@@ -260,7 +248,12 @@ aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-
 4a557a5d1a6145ea586dc9b17a9b4e5190c9c017 sparse: introduce conditional lock acquire function attribute
 b8d5109f50969ead9d49c3e8bd78ec1f82e548e3 lockref: remove unused 'lockref_get_or_lock()' function
 88084a3df1672e131ddc1b4e39eeacfd39864acf Linux 5.19-rc5
-baad07d494001c114c1e25f3c1515082027421e0 Merge tag 'v5.19-rc5'
-dd9ab4734e4802b64911299764b9834f0296166b m68k: q40: Align '*' in comments
+8fd65884f55f280ef506e3348ebcdb040641bf02 m68k: virt: Kconfig minor fixes
+f36ddbb5709727e56144192381acdf00fea72eb3 m68k: mac: Fix typos in comments
+b260e497c83763682808fad5e923a9941f5ed38b m68k: sun3: Use __func__ to get function's name in an output message
+4da7a1590036a14b31e8e435552c61a31d91712b m68k: q40: Align '*' in comments
+948e15a568b28c2c39d7f3cb05a6bc2fda0881a2 m68k: atari: usb: Add ISP1160 USB host controller support
+177074176e1e1838a45bbaa2f5977559d8ae23b4 m68k: atari: Update Kconfig.bus help text
+f63956ac8f48f5fdbec94ce32090c06b7164d59f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3166133702820462177==--
+--===============8750022299762249431==--
