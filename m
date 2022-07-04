@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5292448548252817052=="
+Content-Type: multipart/mixed; boundary="===============0427145513072322457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 04 Jul 2022 10:03:51 -0000
-Message-Id: <165692903182.9048.208507898176644702@gitolite.kernel.org>
+Date: Mon, 04 Jul 2022 10:03:59 -0000
+Message-Id: <165692903963.9177.17172616660108330870@gitolite.kernel.org>
 
---===============5292448548252817052==
+--===============0427145513072322457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 58f9d52ff689a262bec7f5713c07f5a79e115168
-    new: 280e3a857d96f9ca8e24632788e1e7a0fec4e9f7
-    log: revlist-58f9d52ff689-280e3a857d96.txt
+  - ref: refs/heads/testing
+    old: d6da7881020f9b37edb80ada12ce9b50b9232dc1
+    new: ffa08b1e3db0b61aafc1b80c477b7dc560ad3960
+    log: revlist-d6da7881020f-ffa08b1e3db0.txt
 
---===============5292448548252817052==
+--===============0427145513072322457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656929028 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1656929035 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1656929025-b446be6b1778fb87144cb10a9e2f965c1459ab42
+nonce 1656929035-26056ee6e4c13091e5c296fba5782b9532efdb64
 
-58f9d52ff689a262bec7f5713c07f5a79e115168 280e3a857d96f9ca8e24632788e1e7a0fec4e9f7 refs/heads/master
+d6da7881020f9b37edb80ada12ce9b50b9232dc1 ffa08b1e3db0b61aafc1b80c477b7dc560ad3960 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLCuwQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXQPjB/45MY4RbCqUh2yLg/52u9Gg+h35lHE9
-y6c3wG80ZoeQ9/thTKstvlM6eaGt1Eq4CBA75XXZu8hUqhaYjovGEWfmwqdl96vy
-bS9ESwJMeUuubfMm4+FHDs6+tbG2a9iR/PU4n0x/qpbGp9cMfaN1+fRQanUxz9Zc
-pCuKaAXYihm41HLR+MXUQCsRf/ymh/36Ufum/jW4VvSgIeU0rxRgp/AEJYJUaiGS
-ssQiu2mKPAD0SOpwwxvOosk6OBR1dnsYtfpfJTsS3ptvMiSRW6GdR6GWsv2K4FTn
-jktLvAteS3qsFqhpie0cwNUATR38kLn9YfERWjbHtmV9Zr1A1gtyXMwu
-=R1Pv
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLCuwsTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXZb9B/wIMxZauQ6K9q2QyZ6oj7ebPZ0pcsHc
+9RBmUhO2HPJCxjguMv2GKDEBZ4C2Ilzk19N/mKTMCnZ+DePywMNXB7e8sCUbPOE1
+MxpEC0WlmUMGMUacyl+ii7kHjkZ+Uapy5UlOB5PEhq85h0Iy2oEIfoxGrLu5D7jO
+AbtWK8+Xrcd3ZPble5axfE4eDgpM0LFgjx4lM1pJe61jhIB0IMuKZfFn0lsQOnzT
+fDwAJq2XOAg5gRPA+ZlR3OmnbQ09k2e2TUs7JswyzBsksZOK2cLEQgL4f80pZe95
+o4PtLV4Meh993xDuwM4+24xe2vyPNT+kl1N/7M9MhD/mZifdXt3vqsc+
+=mWKu
 -----END PGP SIGNATURE-----
 
---===============5292448548252817052==
+--===============0427145513072322457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58f9d52ff689-280e3a857d96.txt
+Content-Disposition: attachment; filename=revlist-d6da7881020f-ffa08b1e3db0.txt
 
-8b8ce2b90af1bea3d7b24e250832fcc3c7e687ea Revert "drm/amd/display: Pass the new context into disable OTG WA"
-b3f9234e106c9ca4dd0fab3cebbdc8ac74504f97 drm/amdgpu: Add MODE register to wave debug info in gfx11
-c42e65664390be7c1ef3838cd84956d3a2739d60 Input: bcm5974 - set missing URB_NO_TRANSFER_DMA_MAP urb flag
-6ab2e51898cd4343bbdf8587af8ce8fbabddbcb5 Input: soc_button_array - also add Lenovo Yoga Tablet2 1051F to dmi_use_low_level_irq
-f7a447eda2120ab8988b0f8c708c1fd3bd4d3729 Merge tag 'mmc-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-9886142c7a2226439c1e3f7d9b69f9c7094c3ef6 Merge tag 'input-for-v5.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-91ffb0893291ff80cb3695f87e397533abc26823 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
-cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
-44ba9786b67345dc4e5eabe537c9ef2bfd889888 scsi: lpfc: Correct BDE type for XMIT_SEQ64_WQE in lpfc_ct_reject_event()
-24e1f056677eefe834d5dcf61905cce857ca4b19 scsi: lpfc: Resolve some cleanup issues following abort path refactoring
-e27f05147bff21408c1b8410ad8e90cd286e7952 scsi: lpfc: Resolve some cleanup issues following SLI path refactoring
-6f808bd78e8296b4ded813b7182988d57e1f6176 scsi: lpfc: Address NULL pointer dereference after starget_to_rport()
-b1b3440f437b75fb2a9b0cfe58df461e40eca474 scsi: lpfc: Resolve NULL ptr dereference after an ELS LOGO is aborted
-336d63615466b4c06b9401c987813fd19bdde39b scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
 ea7bd1f393311e823716a232e9d8857fb64eb105 scsi: lpfc: Add more logging of cmd and cqe information for aborted NVMe cmds
 2e7e9c0c1ec05f18d320ecc8a31eec59d2af1af9 scsi: lpfc: Allow reduced polling rate for nvme_admin_async_event cmd completion
 1af48fffd7ffe280e0c225659d826fd5ae802a08 scsi: lpfc: Update lpfc version to 14.2.0.4
@@ -1075,5 +1060,20 @@ d28b25a62a47a8c8aa19bd543863aab6717e68c9 selftests/net: fix section name when us
 7e6bc1f6cabcd30aba0b11219d8e01b952eacbb6 netfilter: nf_tables: stricter validation of element data
 9827a0e6e23bf43003cd3d5b7fb11baf59a35e1e netfilter: nft_set_pipapo: release elements in clone from abort path
 280e3a857d96f9ca8e24632788e1e7a0fec4e9f7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+f1b4e32aca0811aa011c76e5d6cf2fa19224b386 can: bcm: use call_rcu() instead of costly synchronize_rcu()
+c6da4590fe819dfe28a4f8037a8dc1e056542fb4 Revert "can: xilinx_can: Limit CANFD brp to 2"
+374e11f1bde91545674233459e5a0416ba842b69 can: rcar_canfd: Fix data transmission failed on R-Car V3U
+2bda24ef95c0311ab93bda00db40486acf30bd0a can: gs_usb: gs_usb_open/close(): fix memory leak
+562fed945ea482833667f85496eeda766d511386 can: grcan: grcan_probe(): remove extra of_node_get()
+5b12933de4e76ec164031c18ce8e0904abf530d7 can: m_can: m_can_chip_config(): actually enable internal timestamping
+4c3333693f07313f5f0145a922f14a7d3c0f4f21 can: m_can: m_can_{read_fifo,echo_tx_event}(): shift timestamp to full 32 bits
+3938b722409df53d1fb3ba40ab087032c6a66e56 can: kvaser_usb: Replace run-time checks with struct kvaser_usb_driver_info
+11ea58050acd099c662995d1e232498254cd8b56 can: kvaser_usb: kvaser_usb_leaf: Fix CAN clock frequency regression
+172e978cb76750dfae8d7878710fbea9045ceb04 can: kvaser_usb: kvaser_usb_leaf: Fix bittiming limits
+079a29f77baca092c789293076703e85e4b6b752 can: mcp251xfd: mcp251xfd_regmap_crc_read(): improve workaround handling for mcp2517fd
+0ff0a65c9e6539bf1ce107df98c169d171cac767 can: mcp251xfd: mcp251xfd_regmap_crc_read(): update workaround broken CRC on TBC register
+7aa31f38b0741a6c5f548e9bb7fe6d61e59e862e can: mcp251xfd: mcp251xfd_stop(): add missing hrtimer_cancel()
+e736812871ccea01a3e8e0d93bda5dd873f9eb0b can: mcp251xfd: mcp251xfd_register_get_dev_id(): use correct length to read dev_id
+ffa08b1e3db0b61aafc1b80c477b7dc560ad3960 can: mcp251xfd: mcp251xfd_register_get_dev_id(): fix endianness conversion
 
---===============5292448548252817052==--
+--===============0427145513072322457==--
