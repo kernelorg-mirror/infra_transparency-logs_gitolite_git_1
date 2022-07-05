@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 05 Jul 2022 22:57:12 -0000
-Message-Id: <165706183217.21506.228046021766740088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Tue, 05 Jul 2022 22:57:21 -0000
+Message-Id: <165706184112.21605.7506160659487547497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 3359619a6ea5bb53c5b259c83791a1e14c5aa125
-    new: f05643a0f60bf67c09a5276b81258b845b0c73b4
-    log: |
-         f05643a0f60bf67c09a5276b81258b845b0c73b4 eth: remove neterion/vxge
-         
+  - ref: refs/tags/mm-everything-2022-07-05-22-57
+    old: 0000000000000000000000000000000000000000
+    new: a768c489255bb1c4b81dbab41b095eec17e87fa7
+  - ref: refs/tags/v5.19-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
