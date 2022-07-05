@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Tue, 05 Jul 2022 00:48:14 -0000
-Message-Id: <165698209430.20269.8538860815080500962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 05 Jul 2022 00:52:45 -0000
+Message-Id: <165698236574.23234.15312065668222681122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/stable
-    old: 5f78ecc1e3f6d9317bc6d697b03a4e7b8a33229a
-    new: 1b4ab028730cd00c144eaa51160865504b780961
+  - ref: refs/heads/imx/fixes
+    old: 8630354f42bef90f51e003a7ce62b69aceb735ca
+    new: 5f51b885b8772ceba359591e34c524d5e3a87c58
     log: |
-         c3c4beaf5a65c29f5199341b92b014e7d955c7c3 wireguard: selftests: use microvm on x86
-         1b4ab028730cd00c144eaa51160865504b780961 wireguard: Kconfig: select CRYPTO_CHACHA_S390
+         2229114e0db0822d3ed18891db15cb2f44cad2a3 arm64: dts: ls1028a: Update SFP binding to include clock
+         5f51b885b8772ceba359591e34c524d5e3a87c58 ARM: dts: imx6qdl-ts7970: Fix ngpio typo and count
          
