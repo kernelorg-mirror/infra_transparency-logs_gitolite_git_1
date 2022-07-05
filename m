@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 05 Jul 2022 10:03:51 -0000
-Message-Id: <165701543160.17565.8491898964536245668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
+Date: Tue, 05 Jul 2022 10:05:48 -0000
+Message-Id: <165701554816.19696.1237901744912710112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/pabeni/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/stm32-dt-for-v5.20-1
-    old: 0000000000000000000000000000000000000000
-    new: 6469cac3592003e20a41751aee3753712931f306
+  - ref: refs/heads/main
+    old: a94afe18ac3b4cae88a50a1e5de6bfe9989f06b0
+    new: 55ae465222d0296e81f707c2b9447e715b59b9ac
+    log: |
+         55ae465222d0296e81f707c2b9447e715b59b9ac net/mlx5: fix 32bit build
+         
