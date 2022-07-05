@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6945004127487096841=="
+Content-Type: multipart/mixed; boundary="===============6991086586711484065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 05 Jul 2022 23:53:13 -0000
-Message-Id: <165706519325.25500.3990105933412763676@gitolite.kernel.org>
+Date: Tue, 05 Jul 2022 23:58:32 -0000
+Message-Id: <165706551297.28667.1634248216465007832@gitolite.kernel.org>
 
---===============6945004127487096841==
+--===============6991086586711484065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/helgaas/pci
 user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: cc4c6f2810fcab3ef27834213f76c261c312a83c
-    new: 703288485be744094d2c54a344c58e27f4b0b824
-    log: revlist-cc4c6f2810fc-703288485be7.txt
+  - ref: refs/heads/pci/ctrl/dwc
+    old: 27235cd867cf7cd17e8d2384430dc54703419ffc
+    new: 899317f01001d824acb5720a17c9f05b22cedd7e
+    log: revlist-27235cd867cf-899317f01001.txt
 
---===============6945004127487096841==
+--===============6991086586711484065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc4c6f2810fc-703288485be7.txt
+Content-Disposition: attachment; filename=revlist-27235cd867cf-899317f01001.txt
 
-5a0e4529d9aee8ce348f628ad476c9ddb6cf457d dmaengine: dw-edma: Remove unused irq field in struct dw_edma_chip
-203184571388a988283543f0fd7da1a0da7c3f91 dmaengine: dw-edma: Detach the private data and chip info structures
-e51b3048116a6e10b96bd5298cbcb209b6d729cd dmaengine: dw-edma: Change rg_region to reg_base in struct dw_edma_chip
-6951ee96c649f6e963b98c11b2b1a92697d3c45c dmaengine: dw-edma: Rename wr(rd)_ch_cnt to ll_wr(rd)_cnt in struct dw_edma_chip
-794a0f7b6f5ccbcb3bbb504b90d980bf2240d110 dmaengine: dw-edma: Drop dma_slave_config.direction field usage
-c1e33979171da63cf47e56243ccb8ba82363c7d3 dmaengine: dw-edma: Fix eDMA Rd/Wr-channels and DMA-direction semantics
-d6b03171f9fc8127b3a7adfd4e74ee5d4dae5d14 dmaengine: dw-edma: Add support for chip-specific flags
-fff86dfbbf8295aa1d883772708223fd5008d29f PCI: endpoint: Enable DMA tests for endpoints with DMA capabilities
-f6fc07bb1e2bcfa37e3212657dae8dd8cacdf72a Merge branch 'pci/endpoint'
-f132fd6dffb74df6523835a2375a920286ecef34 Merge branch 'pci/err'
-3510b5055f1c308432215dc8346caaa296e96bd8 Merge branch 'pci/virtualization'
-75dd27691bff9918d6f2d2a643579c0269ac410c Merge branch 'pci/ctrl/aardvark'
-5d07c8075e9deb94b4641105f2446b327ad4477d Merge branch 'pci/ctrl/brcmstb'
-0177f4335af57ced59dd7938549839bcc54df5df Merge branch 'pci/ctrl/dwc'
-1237e6c9fc72741113bce82e17ed9eb6f855ef1d Merge branch 'pci/ctrl/dwc-edma'
-8a1ba5b8bb90fb6ee216b1c19b26498419009c7c Merge branch 'pci/ctrl/mediatek'
-0da9aadd691c05df8d6b26185111ec4f7c08addc Merge branch 'pci/ctrl/mediatek-gen3'
-dd116ec3f851ac2084d2cbc8752b13897bf88f57 Merge branch 'pci/ctrl/microchip'
-3e4bd3d0d7eacbe66d9dcac71100103a6b1355ba Merge branch 'pci/ctrl/rcar-gen2'
-8ea35b939b37e4d56a891255153a7030f2580265 Merge branch 'pci/ctrl/switchtec'
-ffcf67c406aa57aefa64c8906aab793b1a6162ce Merge branch 'pci/ctrl/tegra194'
-703288485be744094d2c54a344c58e27f4b0b824 Merge branch 'pci/ctrl/vmd'
+b87fec0692e722963fa950cf04e17a9bd7f77039 PCI: dwc: Stop link on host_ init errors and de-initialization
+ad6dad94110f3f763af9f14b5453e31cd0d13447 PCI: dwc: Add unroll iATU space support to dw_pcie_disable_atu()
+c3a51ada34e503960c93912a112b210cbef8ddf6 PCI: dwc: Disable outbound windows only for controllers using iATU
+9e706ca22e4bca49f5522237b05f14be3a406278 PCI: dwc: Set INCREASE_REGION_SIZE flag based on limit address
+083a72306dc269b80a0540837727ba48e8a49b4e PCI: dwc: Deallocate EPC memory on dw_pcie_ep_init() errors
+3ff09b99be4b6ba6dd9019ca288fe7b27a1a8752 PCI: dwc: Always enable CDM check if "snps,enable-cdm-check" exists
+a2353cb464a56541c3a8b0498e43146a842b0202 PCI: dwc: Add braces to multi-line if-else statements
+e01d4e1412162567c3d779f17f4d23c634602b7e PCI: dwc: Add newlines to log messages
+4ceb375202c1580a3dbd96447303b8577b86bb11 PCI: dwc: Simplify unrolled iATU detection
+c081b93dc91856666798ac872b95b0cd80c645d1 PCI: dwc: Convert dw_pcie_link_up() to use dw_pcie_readl_dbi()
+c8de3d80a8d5d847c36c9cc5e2dd3fd5da2e1a82 PCI: dwc: Organize local variable usage
+8e0cf110685065635d30b446fd4deebea254c700 PCI: dwc: Reuse local pointer to the resource data
+94aadf9ea10ce0c75f2cd47d27ba1512c2bcdb04 PCI: dwc: Add start_link/stop_link inlines
+b8aab8c7c42af28f7114c3d1b6dd52c7bc623138 PCI: dwc: Move io_cfg_atu_shared to struct pcie_port
+f6672ed27c0a660fa608d23aeb0ed2ef62db20b2 PCI: dwc: Rename struct pcie_port to dw_pcie_rp
+a38e7eadb57be4a647cde67a0b1e2fcd988d6481 PCI: dwc-plat: Simplify dw_plat_pcie_probe() return values
+4585bf72cafa8df183635185cfd01eb30f90138c PCI: dwc-plat: Drop unused regmap pointer
+9029c9f42a97801d72357626a9917c570ed18694 PCI: dwc-plat: Drop dw_plat_pcie_of_match[] forward declaration
+899317f01001d824acb5720a17c9f05b22cedd7e PCI: dwc: Fix MSI msi_msg DMA mapping
 
---===============6945004127487096841==--
+--===============6991086586711484065==--
