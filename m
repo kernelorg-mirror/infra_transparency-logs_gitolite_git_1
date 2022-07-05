@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1357699180713587642=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 05 Jul 2022 16:32:49 -0000
-Message-Id: <165703876996.23700.1933717989300712820@gitolite.kernel.org>
-
---===============1357699180713587642==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 05 Jul 2022 16:34:38 -0000
+Message-Id: <165703887856.24367.1372918829090851064@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 4136c827edf78e8f425ffd563ed093292cc3a7ec
-    new: 1273704b57c21ed5bb1c8bf9c042c31ed9d930e7
+  - ref: refs/heads/main
+    old: 0b78c4c21b4afa232884b634f48eca7e23fa96e6
+    new: f5f02da57e5401c8571b1a759e857697f2fb0302
     log: |
-         1273704b57c21ed5bb1c8bf9c042c31ed9d930e7 drop mptcp selftest patches from 5.10.y
+         890dc2b695eea0625693dcd49151a6154714caa7 brocade: drop old unsupported firmware revs
+         e0781f5d74e49ae1a64453b5126537ece5aa58b9 Drop ATM Ambassador devices firmware
+         ce925ef2463c19ac0a1eb4eb5b817b78d12dff54 Drop Computone IntelliPort Plus serial firmware
+         660d61bdf9691ddefbb3e2b3dd3fc2606ecf6779 Drop Intel WiMax firmware
+         4c80006177e0e52a21f49b8c084551b9118b56bf Drop TDA7706 radio firmware
+         f3f58522e8d1a9b64a6354f4aa617908368e2127 drop Token Ring network firmwares
+         003dd65e782ed261b9eb13b6c7db6b5ff04ad100 Remove old Broadcom Everest (bnx2x) v4/5 firmware
+         98750ceb57b0c9a0ff90871ffc20f4bca45d84d4 bnx2: sort firmware names in filesystem order
+         9d6449c45dd7bc669698771079a06781611cd506 bnx2: drop unsupported firmwares
+         f5f02da57e5401c8571b1a759e857697f2fb0302 bnx2: Drop unsupported Broadcom NetXtremeII firmware
          
-
---===============1357699180713587642==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657038766 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1657038766-b9b72cee1b3b593f01366ac999304146538ae45e
-
-4136c827edf78e8f425ffd563ed093292cc3a7ec 1273704b57c21ed5bb1c8bf9c042c31ed9d930e7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLEZ64bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TdoP/iW5XwwkjuDBl1t+UDF5
-7whdoW1RuQsaXZ5J1gv0BLKw2vFjTXc67Uzcdpy0gAC4byar2bctuBTng5nNfRNP
-qy9qZZ23vRV8B7ac/iyM6eYTyZufuwypHXy3Dk7Xl7zd3Nyya6oZ9Vh2PDrrbrsz
-q0Y/e8D2IgL7ViVwNBeA7kfc/ciGWRiEVDysG1P73/X2ojCW8jpCKhbE6IFeZoNf
-DpLgyiiDGoRK2TRSBaB1Lao0ISQZ8LJMvzFYCKhtCMy2YPB+iXdd7v1YYhiJpz02
-mdCn2V2NFELjVzooVSA+Gv1T9aSulct50BJPjnMM3o4CiuqTMBRp6gKNUJFOyTLR
-FwPub6rW85WpofU52F25yWU4QpFL1haryzwMw+DfLF6lmxQNVu0jW+pEq43E9wks
-QSNBHlBlmZzgPUv5bpncsDWGyfbCd8EDQfA7m+SeQFjYP6ovePJk2E5SH9CF+z6g
-845hPB6lK8k838mwwdt9TtvpmEV5ouxhP6ukaQyVOxS1EAp1XBDFu0cvE1OxNpdH
-dmiH4RsqVuHrC12GtQLB8gh41C6hAWyl2Jqk9JbjnRT2UaoR8U8QBKxVGnvpIXUQ
-xT4iJF9qU9x4wVUa5FC3JD3PXUE/5DZH3h4A+6fLpohsH2MOidUKmjJ6MJE3No8z
-icU16UqRG8p2q0IWTZDgIgNC
-=BMbv
------END PGP SIGNATURE-----
-
---===============1357699180713587642==--
