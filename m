@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 05 Jul 2022 09:59:54 -0000
-Message-Id: <165701519475.14749.5553428879246343400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 05 Jul 2022 10:03:51 -0000
+Message-Id: <165701543160.17565.8491898964536245668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/for-next
-    old: 990a6194f7e16cc23334892287f32899e241b1a9
-    new: cfb5a2dbf1413a0086e987d99ad591b91fc9cf5c
-    log: |
-         cfb5a2dbf1413a0086e987d99ad591b91fc9cf5c bpf, samples: Remove AF_XDP samples
-         
+  - ref: refs/tags/stm32-dt-for-v5.20-1
+    old: 0000000000000000000000000000000000000000
+    new: 6469cac3592003e20a41751aee3753712931f306
