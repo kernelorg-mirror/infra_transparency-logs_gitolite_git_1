@@ -1,26 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 05 Jul 2022 14:50:03 -0000
-Message-Id: <165703260357.18717.11532007077795288267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 05 Jul 2022 14:53:15 -0000
+Message-Id: <165703279590.19885.1936251750772194944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-5.20/io_uring
-    old: d641b3a4a25e8c471d0240dcb6c78efebd12f366
-    new: abbbc92e2a398a6f8d50ed39f8a9efbd87edfdff
-    log: |
-         abbbc92e2a398a6f8d50ed39f8a9efbd87edfdff io_uring: disable multishot recvmsg
-         
   - ref: refs/heads/for-next
-    old: e57e3978bf4090fdd43474b0f94fc4602faccd39
-    new: 2f536e97e151175c080fce28e60c60546a3bc068
+    old: c71531007ef0fe5cd64a8aa9b86bdb53ccef1504
+    new: 61c606a43b6c74556e35acc645c7a1b6a67c2af9
     log: |
-         abbbc92e2a398a6f8d50ed39f8a9efbd87edfdff io_uring: disable multishot recvmsg
-         2f536e97e151175c080fce28e60c60546a3bc068 Merge branch 'for-5.20/io_uring' into for-next
+         65123b899818b1adf7388b3583624e0f1d8d6858 ALSA: hda/cs8409: change cs8409_fixups v.pins initializers to static
+         61c606a43b6c74556e35acc645c7a1b6a67c2af9 ALSA: usb-audio: Add endianness annotations
+         
+  - ref: refs/heads/master
+    old: 2ef9868fff184a6246d2f71190be108a71aa2faa
+    new: da06603818c940e937db3fa0a559c35764ec124f
+    log: |
+         65123b899818b1adf7388b3583624e0f1d8d6858 ALSA: hda/cs8409: change cs8409_fixups v.pins initializers to static
+         2368b962e7c2cd13fdc54411524fe5d71398c47c Merge branch 'for-next'
+         61c606a43b6c74556e35acc645c7a1b6a67c2af9 ALSA: usb-audio: Add endianness annotations
+         da06603818c940e937db3fa0a559c35764ec124f Merge branch 'for-next'
          
