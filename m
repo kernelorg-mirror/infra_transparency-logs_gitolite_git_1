@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1286691072493954201=="
+Content-Type: multipart/mixed; boundary="===============4999210692486709275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 05 Jul 2022 09:03:47 -0000
-Message-Id: <165701182779.28238.4235546954280482724@gitolite.kernel.org>
+Date: Tue, 05 Jul 2022 09:07:27 -0000
+Message-Id: <165701204758.30932.2112858871216122779@gitolite.kernel.org>
 
---===============1286691072493954201==
+--===============4999210692486709275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: 386d0503c1eb04d11ec241789439334f1c2c3b72
+  - ref: refs/heads/at91-soc
+    old: 46a65cd376f9f754149be33b32244cabcf376982
     new: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    log: revlist-386d0503c1eb-f2906aa86338.txt
+    log: revlist-46a65cd376f9-f2906aa86338.txt
 
---===============1286691072493954201==
+--===============4999210692486709275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-386d0503c1eb-f2906aa86338.txt
+Content-Disposition: attachment; filename=revlist-46a65cd376f9-f2906aa86338.txt
 
 46c116b920ebec58031f0a78c5ea9599b0d2a371 ext4: verify dir block before splitting it
 3ba733f879c2a88910744647e41edeefbc0d92b2 ext4: avoid cycles in directory h-tree
@@ -1051,4 +1051,4 @@ e17fee8976c3d2ccf9add6d6c8912a37b025d840 Merge tag 'mm-nonmm-stable-2022-06-05' 
 6684cf42906ff5f44580e16a1f898e89c19aabd5 Merge tag 'pull-work.fd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f2906aa863381afb0015a9eb7fefad885d4e5a56 Linux 5.19-rc1
 
---===============1286691072493954201==--
+--===============4999210692486709275==--
