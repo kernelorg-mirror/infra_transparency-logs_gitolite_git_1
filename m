@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 05 Jul 2022 08:24:32 -0000
-Message-Id: <165700947240.2231.5129429878337352105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 05 Jul 2022 08:35:22 -0000
+Message-Id: <165701012243.10129.16259571412047772704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: cbb13c3d6e3fd568746799dedc2946a52ff7e25d
-    new: 0af9772bc4c189e29557a0e1f3af22918f51ccaa
+  - ref: refs/heads/stm32-next
+    old: 775c229299590b761eed7901b2e667ebf536ef0e
+    new: 4b43ff02d2a4b809a2e8cfa628a54f9e39a87381
     log: |
-         0af9772bc4c189e29557a0e1f3af22918f51ccaa habanalabs: initialize variable explicitly
+         59cd3db262102232a19105bbe1e18bbfab152bda ARM: dts: stm32: Add alternate pinmux for DCMI pins
+         98aa0ceb72d43f4b5838fb6ea1ef4a972afe3eda ARM: dts: stm32: Add alternate pinmux for RCC pin
+         4b43ff02d2a4b809a2e8cfa628a54f9e39a87381 ARM: dts: stm32: Add ST MIPID02 bindings to AV96
          
