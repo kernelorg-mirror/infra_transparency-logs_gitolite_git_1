@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0536886941729817459=="
+Content-Type: multipart/mixed; boundary="===============0679157686057550885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 05 Jul 2022 06:05:50 -0000
-Message-Id: <165700115053.7940.11033324905349233890@gitolite.kernel.org>
+Date: Tue, 05 Jul 2022 06:08:47 -0000
+Message-Id: <165700132775.9069.15191954595886810373@gitolite.kernel.org>
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,408 +16,424 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 5819279d557d81aa49823874aca324fe4a58b0a4
-    new: 06b5ede75d8638d429163dc2b32d92ce03d9d389
-    log: revlist-5819279d557d-06b5ede75d86.txt
+    old: 06b5ede75d8638d429163dc2b32d92ce03d9d389
+    new: b554de51cb5d16d41c5709ff15276d2a3b6a790c
+    log: revlist-06b5ede75d86-b554de51cb5d.txt
   - ref: refs/heads/queue/4.19
-    old: 6dbc8ab098f4eeac7a8d38dde8ae13a963b70c0b
-    new: 9a095e03e1302f33d80007c6c4efcf3d858c6dfc
-    log: revlist-6dbc8ab098f4-9a095e03e130.txt
+    old: 9a095e03e1302f33d80007c6c4efcf3d858c6dfc
+    new: 235af90e5dc6a0f6fa899be90fe5d9c0cdfbe6b8
+    log: revlist-9a095e03e130-235af90e5dc6.txt
   - ref: refs/heads/queue/4.9
-    old: 8f3ff4015ff9f063f1d1a156658e7b9e7d2f1359
-    new: 3d61d169ebad7b89dbf20c3a30166b04d4b7d2db
-    log: revlist-8f3ff4015ff9-3d61d169ebad.txt
+    old: 3d61d169ebad7b89dbf20c3a30166b04d4b7d2db
+    new: feb800c966e40c5f48fd74c4c0f6378693924743
+    log: revlist-3d61d169ebad-feb800c966e4.txt
   - ref: refs/heads/queue/5.10
-    old: 657aa6e06005f5f10251ce276d1daa3e188e30d4
-    new: 0145361af810cb255ce351f372497594e71c45fb
-    log: revlist-657aa6e06005-0145361af810.txt
+    old: 0145361af810cb255ce351f372497594e71c45fb
+    new: f759534aeab400f55b9f5d9f92d4d01804c67c02
+    log: revlist-0145361af810-f759534aeab4.txt
   - ref: refs/heads/queue/5.15
-    old: 6a7a53776dc4cc59c25e05899dd24609d1e3196a
-    new: 4c1fc7750d0d5f22eb0cb8e3a42cbb127c0bc06e
-    log: revlist-6a7a53776dc4-4c1fc7750d0d.txt
+    old: 4c1fc7750d0d5f22eb0cb8e3a42cbb127c0bc06e
+    new: 3ac41116b0dd136792b0f894ff7016907c534be4
+    log: revlist-4c1fc7750d0d-3ac41116b0dd.txt
   - ref: refs/heads/queue/5.18
-    old: c1bf08420e702e68118a57d31786090fa6e76763
-    new: d848045fb378d69b40600cc440f9557a7db084e1
-    log: revlist-c1bf08420e70-d848045fb378.txt
+    old: d848045fb378d69b40600cc440f9557a7db084e1
+    new: 91cfa3d0b94d30b8149caed803650ec2d8babdaf
+    log: revlist-d848045fb378-91cfa3d0b94d.txt
   - ref: refs/heads/queue/5.4
-    old: afd55c81b97563231fa62692932e860a587a8b23
-    new: 9a96094dca7d000b858de232ea6cb00592297c48
-    log: revlist-afd55c81b975-9a96094dca7d.txt
+    old: 9a96094dca7d000b858de232ea6cb00592297c48
+    new: cda4e6cc76e234af2e2e356e54912775e9029515
+    log: revlist-9a96094dca7d-cda4e6cc76e2.txt
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5819279d557d-06b5ede75d86.txt
+Content-Disposition: attachment; filename=revlist-06b5ede75d86-b554de51cb5d.txt
 
-4af643f4bf87f1771064b3c549541ee4ecd8c36f nvdimm: Fix badblocks clear off-by-one error
-eed46bee68c364bbc48c7bf23b90b21ea838d344 dm raid: fix accesses beyond end of raid member array
-8e1694633a65f83b2972a2177ad1e05158905670 dm raid: fix KASAN warning in raid5_add_disks
-41af0cd575e8e7385ae1c808995beac8cb7ce4c0 s390/archrandom: simplify back to earlier design and initialize earlier
-c616da575efde7e362330cafec72bb0add6ad3c0 SUNRPC: Fix READ_PLUS crasher
-e9c69ab0efd8f644f4a9dacd7dfef1a36eec78bb net: rose: fix UAF bugs caused by timer handler
-f419a829df95a58c9c0348f8eda960f809ceb0fa net: usb: ax88179_178a: Fix packet receiving
-5e55269a1a647ad864d0dc8e927de70b108dd4e6 RDMA/qedr: Fix reporting QP timeout attribute
-83d5ec5a1311fbcd46d7313c42ad62998441f92e usbnet: fix memory allocation in helpers
-84d27cd52bf73b21797de334d779d356690ee17f net: ipv6: unexport __init-annotated seg6_hmac_net_init()
-85a1fe027cbb75f623af425f7b3874d21dffb859 caif_virtio: fix race between virtio_device_ready() and ndo_open()
-e009c0d5a4835c7ca9df0cd8f7846a7b8fbd1f42 netfilter: nft_dynset: restore set element counter when failing to update
-ce9252ec0244963530ea0493bb3354f52f19ff5d net: bonding: fix possible NULL deref in rlb code
-1acdf647dd7b8996b1f3311d9f1ac753670447fa net: bonding: fix use-after-free after 802.3ad slave unbind
-edf76c856338dd5bfb4099c6e379e2f48051a219 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-fc10af7cd52966355ee893460054f04d519854e3 NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-23fa8205a1a891f185b2f1153e8d0e5f0767d7c3 xen/gntdev: Avoid blocking in unmap_grant_pages()
-2d2cfaf6785c030f34eb8896a9b4ff9c157f92a2 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
-927a558d530b89034be764e8a3e99abac8e3d4b3 net: dsa: bcm_sf2: force pause link settings
-ee26507be622a437a9f30bac4826a1781cced74a sit: use min
-06b5ede75d8638d429163dc2b32d92ce03d9d389 ipv6/sit: fix ipip6_tunnel_get_prl return value
+270fa60395f9aa220ac1a42f5ed34be553a48434 nvdimm: Fix badblocks clear off-by-one error
+f6be2734da6fe410b87958d6c1bb25cb4d6a2295 dm raid: fix accesses beyond end of raid member array
+0594e202f51e01ac3d5a3a7962e17093f2e9757d dm raid: fix KASAN warning in raid5_add_disks
+0d195e04b2d8fc548855de73c1237613decf4e08 s390/archrandom: simplify back to earlier design and initialize earlier
+8d4c653b48bd7e124dde98dd2939590115d099b3 SUNRPC: Fix READ_PLUS crasher
+3e8884d329f2b8cd1e61b91a1db18b320ce2c232 net: rose: fix UAF bugs caused by timer handler
+06efcb242e614f379ea3f0032b759b92853d5f74 net: usb: ax88179_178a: Fix packet receiving
+c50b3c8113ac6a16abacae0ac97664c28c19b15f RDMA/qedr: Fix reporting QP timeout attribute
+b4778218d5bbded9746a0638106a2083882435bb usbnet: fix memory allocation in helpers
+7faa80dacd706ee051c802819f85b902b9a3db6a net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+708cfd6c24156035a3327b4d1257421db0c27dd3 caif_virtio: fix race between virtio_device_ready() and ndo_open()
+712bfa88644f3678daa7f57131e8ff3bc3aa0493 netfilter: nft_dynset: restore set element counter when failing to update
+3ae7c6e5c110b99222cec916a37957a34ad86357 net: bonding: fix possible NULL deref in rlb code
+032c6c9b9ea74a5ecc514af326e0e72d9de4b359 net: bonding: fix use-after-free after 802.3ad slave unbind
+b9f9e2d573d539973df3f518bcb8c89968dd8522 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+3fe2ac34d6b6113faa22f85e5d2f53941229d0dc NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+afe9d166df5326767c50d7894a5b25bbb678a710 xen/gntdev: Avoid blocking in unmap_grant_pages()
+182d75ba56954908d13b9e6a3f05676103287837 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+45eaa06f6b58f57af937e98bf491669e31fb0646 net: dsa: bcm_sf2: force pause link settings
+c77eb95b03c192809a6a38152265bf8c0e0b19ce sit: use min
+b554de51cb5d16d41c5709ff15276d2a3b6a790c ipv6/sit: fix ipip6_tunnel_get_prl return value
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dbc8ab098f4-9a095e03e130.txt
+Content-Disposition: attachment; filename=revlist-9a095e03e130-235af90e5dc6.txt
 
-bff53df108f8863ce6d6afd972e2ac234d696fff nvdimm: Fix badblocks clear off-by-one error
-8eea6225eb149dab751a9044c38ee48438f9ddcf dm raid: fix accesses beyond end of raid member array
-28e9a989a3f2ae2e4ea8e5d4e672bc23c1dded4a dm raid: fix KASAN warning in raid5_add_disks
-6b529430c597640d9e3ce222a356ab78abb33f8d s390/archrandom: simplify back to earlier design and initialize earlier
-62008bcdce7b6387aaa4082999798ca922934d46 SUNRPC: Fix READ_PLUS crasher
-94a0d038580ae2eec747a09d683a0323d9128eaa net: rose: fix UAF bugs caused by timer handler
-ce0d0d0b014e5a4939890e0c26e6e6498e6dfc9b net: usb: ax88179_178a: Fix packet receiving
-b2f0dc1ce0c1b7f4f091df9168920837370c2b89 virtio-net: fix race between ndo_open() and virtio_device_ready()
-f55d01321ef494af3e497a0cd32e2a8f42484866 selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
-b36267ce4c6b2ad2500ef0dd97de748877e8faad net: tun: unlink NAPI from device on destruction
-103e794d046f9a41d7627ac94f49cb1abfa56ab9 net: tun: stop NAPI when detaching queues
-89c20eecefaddcd24f833662d6d148ecc5574968 RDMA/qedr: Fix reporting QP timeout attribute
-64f71f72f8b5dbe639977279f84db96e69901897 usbnet: fix memory allocation in helpers
-c5896a66ea73b98ece48e3c7ee892814c588ba7f net: ipv6: unexport __init-annotated seg6_hmac_net_init()
-c0ae68d5ff56bebbc4167622031f1f40728cf988 caif_virtio: fix race between virtio_device_ready() and ndo_open()
-87977ea8b2ede2f10a04028b397c6433abdc3709 netfilter: nft_dynset: restore set element counter when failing to update
-9d2f01028e32204db7b601417280e385107e305d net: bonding: fix possible NULL deref in rlb code
-a4d02b1fd9cfab1aa98f4a1c822d8c6d534dfe25 net: bonding: fix use-after-free after 802.3ad slave unbind
-ff5cce6e4dd9b1ed1e6b2b0564c7625878a4a84f nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-bab261eb9b253712599fe0a10e9663900d9a990a NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-90b3ce92da613cdd886add21d4ea83bc355069f8 net: tun: avoid disabling NAPI twice
-0cdf8567d81f506aa6623c3d308b5ca9ec4cee12 xen/gntdev: Avoid blocking in unmap_grant_pages()
-921e237c7ee0de9acb24bffb2f9895323f43df86 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
-7748cd3eaf4d1a9d420aedb12e0581371e1201fa net: dsa: bcm_sf2: force pause link settings
-0a8d0876af338b215e9ffa6a9a2571ff66ad4e1b sit: use min
-9a095e03e1302f33d80007c6c4efcf3d858c6dfc ipv6/sit: fix ipip6_tunnel_get_prl return value
+db260b4c612407541f1d7c44f572865f824088b1 nvdimm: Fix badblocks clear off-by-one error
+223958f6c2f6972572b9bd1227a1530af88effbb dm raid: fix accesses beyond end of raid member array
+80b66ab29dc5e51f9e7a7c87a352db8cb26c908b dm raid: fix KASAN warning in raid5_add_disks
+5473c5a107c14ddf0cbceef1aa19bbe8497fefd6 s390/archrandom: simplify back to earlier design and initialize earlier
+3462ae828c89532a49eeaded1818aa699c687dbe SUNRPC: Fix READ_PLUS crasher
+61f3883cfa908a8e4deb61b31ff82cea1576e6b1 net: rose: fix UAF bugs caused by timer handler
+7998f3c99c6c534a2397cc9b803455f707e9d4cc net: usb: ax88179_178a: Fix packet receiving
+707498beb375ed168ed72846b7d07d3b84034654 virtio-net: fix race between ndo_open() and virtio_device_ready()
+b08c58d7a71c8e00edc6ceef27eb1b61415504ba selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
+648a7eccb1f0cb0d4195eb6262503dc0d28e7892 net: tun: unlink NAPI from device on destruction
+d4540a5124d22b2cf88f8f74c4e520797e563548 net: tun: stop NAPI when detaching queues
+f7533ec5d6c88ef252610d5c20380690b0cf3e97 RDMA/qedr: Fix reporting QP timeout attribute
+a422333a41a042a356e5ef55b0e45fa03eb68ba2 usbnet: fix memory allocation in helpers
+c1921b082e923da5c0979a83a5a8aa35c4ae53ba net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+5479f7fb5a29da4ab8a24dc7bdd7d61f12fd5fc8 caif_virtio: fix race between virtio_device_ready() and ndo_open()
+03a087de702fa755b29ff2b91c4547284c7f4a45 netfilter: nft_dynset: restore set element counter when failing to update
+d71213344585c1e3ac7866bd32b43c23e9f8ab3a net: bonding: fix possible NULL deref in rlb code
+f4601c4590bee531815d21503b04c4c8f94f37db net: bonding: fix use-after-free after 802.3ad slave unbind
+342782e02fc2bc7dec08899597e209f8cf639455 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+4968386c94e09c46903240db4ffc13572d3d6310 NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+40e804be48d9fdb58af652f9b5c96c905defbaab net: tun: avoid disabling NAPI twice
+eaee1a2ae916222607b0a13523a961adbe5f120b xen/gntdev: Avoid blocking in unmap_grant_pages()
+0b7581dc19da2c7b5f6a0afa1bb9dbb061a91a00 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+40dbb7c36867594797baa1bd90c2caa9f29ea62e net: dsa: bcm_sf2: force pause link settings
+84deb63f4bb8fca912938dd5dce6c24b231c53ae sit: use min
+235af90e5dc6a0f6fa899be90fe5d9c0cdfbe6b8 ipv6/sit: fix ipip6_tunnel_get_prl return value
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f3ff4015ff9-3d61d169ebad.txt
+Content-Disposition: attachment; filename=revlist-3d61d169ebad-feb800c966e4.txt
 
-fb477911c63a46fbe7cae09388e34ad315098ce9 dm raid: fix KASAN warning in raid5_add_disks
-659419f9ffcf3cf6690685ad7b87e03824936fa7 SUNRPC: Fix READ_PLUS crasher
-dc7a73bbc6b16865d1201b2876f81f53b79c4c91 net: rose: fix UAF bugs caused by timer handler
-d672d5dfe53691b453c258234dd0b1e9a9ec29cb net: usb: ax88179_178a: Fix packet receiving
-37de829de1f40a331c0501e6cc980b94c7e5de22 usbnet: make sure no NULL pointer is passed through
-6a4e2d871d2698ad0059236852b7043a6800ae73 usbnet: fix memory allocation in helpers
-0512a1529329b0a7476080b9f9906d4db56900d8 powerpc/powernv: wire up rng during setup_arch
-93d3f71cbfc05247ee24b6e3460058a44773b4e0 caif_virtio: fix race between virtio_device_ready() and ndo_open()
-f442a1669a4013e4f46a6031c80403b92769573a netfilter: nft_dynset: restore set element counter when failing to update
-f8c9710daa1f5cfe7c92210b4e50221a4f372a09 net: bonding: fix possible NULL deref in rlb code
-efb726bd060db94b117be5fc1c619a8956cf5f9d net: bonding: fix use-after-free after 802.3ad slave unbind
-e319693415722c5952cfd04371cefec998eea8d1 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-b010c3ae19802393e5db2856cb47154b7f812c7b NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-9b05cea343c7bc2204023ddaa6829e0097d1ec43 xen/gntdev: Avoid blocking in unmap_grant_pages()
-964b2d9148b17a5d6214cadfa7868550117266cf hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
-084b34f38cb483a490e15086fd87f302a1063540 net: dsa: bcm_sf2: force pause link settings
-719c1241361f3e93b9ddb8a3c8d33f9e30da7e75 sit: use min
-3d61d169ebad7b89dbf20c3a30166b04d4b7d2db ipv6/sit: fix ipip6_tunnel_get_prl return value
+14470ce4dfa85c3bc6e6a014ecd540bdb5289ca2 dm raid: fix KASAN warning in raid5_add_disks
+ac91c314c09849d6272a0c6550370fd768edf521 SUNRPC: Fix READ_PLUS crasher
+37549b128e0c75eea81d39e34673c5dab0d6f97a net: rose: fix UAF bugs caused by timer handler
+c6ae99a397f9d4b6e563c6431a4517a5258b14b4 net: usb: ax88179_178a: Fix packet receiving
+c52d366b351f62864dd2b96e2faefddc00241ebf usbnet: make sure no NULL pointer is passed through
+fb2e237e7d247738acf63dd13731ffa4a429e53e usbnet: fix memory allocation in helpers
+7d2b20e16cc731d82b8a25902c83545ee2c931ad powerpc/powernv: wire up rng during setup_arch
+69672e481ceda3af468a0f8fb6d0d0f5b85dfdb8 caif_virtio: fix race between virtio_device_ready() and ndo_open()
+a40f07339904951b0abf2489fa0e5c7a88b43436 netfilter: nft_dynset: restore set element counter when failing to update
+9f01c83cc711db6a6b9047427d85874b1ff2c2ff net: bonding: fix possible NULL deref in rlb code
+9abb657ece3578d94845b217bf88a39b60f7d7d0 net: bonding: fix use-after-free after 802.3ad slave unbind
+cc2ef302c48c77c690f49d7e50e3feaf2a5a176c nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+d92e9b35f27bb47222b0a1faf70c70df6632ebbe NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+7ef20e63742f484597ddd218a4a7efd4be62e672 xen/gntdev: Avoid blocking in unmap_grant_pages()
+a94963f2412713f09bafe74ca430f4eaa58d22e3 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+0a837bdff73b60ce8acaee84e907f5fdcbbc5dc9 net: dsa: bcm_sf2: force pause link settings
+6d2486a0d21f74cbfc8d80a03ed70b91f64ff9fa sit: use min
+feb800c966e40c5f48fd74c4c0f6378693924743 ipv6/sit: fix ipip6_tunnel_get_prl return value
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-657aa6e06005-0145361af810.txt
+Content-Disposition: attachment; filename=revlist-0145361af810-f759534aeab4.txt
 
-5e72e7a4402d5814a01b3c384577b89ce09b9b1c drm/amdgpu: To flush tlb for MMHUB of RAVEN series
-0376487e045f6dc468c4916ad2abbd0b0fb3a77f ipv6: take care of disable_policy when restoring routes
-bf02ba4238975e45bb45d022aee1e11c416ce05d nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
-897182995f7321f9f80c9507390b1f251ba3516a nvdimm: Fix badblocks clear off-by-one error
-50d5b8e2141924f2d3c1b0d424541b6620f07a62 powerpc/prom_init: Fix kernel config grep
-bcfbc78a836c0fef92088944e20d2dca3083b96c powerpc/book3e: Fix PUD allocation size in map_kernel_page()
-af8cd9b4571ad4ebfe6df143277eb70b6b1b7794 powerpc/bpf: Fix use of user_pt_regs in uapi
-a3b4a23deb44179b9a03c258d47f34d5573f1920 dm raid: fix accesses beyond end of raid member array
-9b0dc48079c8385afbb2f5ac2fa24a32e969ca93 dm raid: fix KASAN warning in raid5_add_disks
-7b9a406e7db73ea1136192d19e093a997718ae89 s390/archrandom: simplify back to earlier design and initialize earlier
-6813d7bc2ff7922e437d9f7e167d0c3d74878c01 SUNRPC: Fix READ_PLUS crasher
-50b5610545943c75823672ef9141eb5ce432e7c2 net: rose: fix UAF bugs caused by timer handler
-05814dcf68f99251bfea59604a149dd3c3fb0329 net: usb: ax88179_178a: Fix packet receiving
-b037f2e2feccf9f24c031a38a1ab6a5cd8b4d372 virtio-net: fix race between ndo_open() and virtio_device_ready()
-308b801566a151ca125fd01175c041e3858ff954 selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
-91948306170eb6167ec349f02b0d0c612206ca63 net: dsa: bcm_sf2: force pause link settings
-f45ad0d2ebf1b41521197b445d8993d9515a17ea net: tun: unlink NAPI from device on destruction
-8f4abb419963bf3398af775e5edb44a9bc510e52 net: tun: stop NAPI when detaching queues
-5bcc261aa9d6191f604d8d24a85564d68c4284ed net: dp83822: disable false carrier interrupt
-0fea9eafa034952cf8482099c1af0d4dfe5cb2ba net: dp83822: disable rx error interrupt
-982d8160a59d2b3cdb976fbaf928383ea11965c0 RDMA/qedr: Fix reporting QP timeout attribute
-04d50f93f9e034f6adfd64663f1001c25216bc61 RDMA/cm: Fix memory leak in ib_cm_insert_listen
-166737ad5172a1df17310e7dd1b7f6862ec95d7d linux/dim: Fix divide by 0 in RDMA DIM
-619217ab96a38995a5a3b2fe8bda4915368c5d4f usbnet: fix memory allocation in helpers
-b237338b78a87d8fd91402d14bcd01ba2d292b23 net: ipv6: unexport __init-annotated seg6_hmac_net_init()
-010dfcff0f7d2ec72e8e113f56d648ad7bbe856d NFSD: restore EINVAL error translation in nfsd_commit()
-b5003eaacaedb407e234145538af20e696fc1197 caif_virtio: fix race between virtio_device_ready() and ndo_open()
-fa4d1701d7f2b85968d51e9037873b109fb7538d PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
-ffc55316608bec2147ec2c754251f13357d553da s390: remove unneeded 'select BUILD_BIN2C'
-df3c12e56734b246a9ac84a2e9d6745087f96e64 netfilter: nft_dynset: restore set element counter when failing to update
-6369f6572e94be8d16728fb02060be1dd3133ed8 net/sched: act_api: Notify user space if any actions were flushed before error
-6924d66e5afe579467ab471dd21c74d91291ef31 net: bonding: fix possible NULL deref in rlb code
-3cc3acc9c866a6bd268f59e5bb2c04f6049db0f1 net: bonding: fix use-after-free after 802.3ad slave unbind
-6743fb11bc7f5ba54e7015b4d9cd51c181ea7387 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-05f70ddad720c8adae6e62001d388877503670d1 NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-31ab0f5ae3c095682db70bfaad79872b85bff81e tipc: move bc link creation back to tipc_node_create
-7813f0ea8a2feaea2042924fb940d52610c789b8 epic100: fix use after free on rmmod
-d879c2685220cb3f94be1e9ba304f32bd5840daa io_uring: ensure that send/sendmsg and recv/recvmsg check sqe->ioprio
-6823662b1360d8f3357f5f0e191928f19d423d4d tunnels: do not assume mac header is set in skb_tunnel_check_pmtu()
-96f032a8ef67585eea93e185b47c8febf4331c69 net: tun: avoid disabling NAPI twice
-04f868c20e55151a423a2c8a974665490378f20e xfs: use current->journal_info for detecting transaction recursion
-191eac77d25942b9fc30741d43bf5f5871f6e216 xfs: rename variable mp to parsing_mp
-b09a771df7309bcc95c4c458ca6ed0075c22320c xfs: Skip repetitive warnings about mount options
-c97ef3d9e307c1e33164ad307cadde683e042598 xfs: ensure xfs_errortag_random_default matches XFS_ERRTAG_MAX
-a06da05a9a2be41fc4134cf487cab79786b70495 xfs: fix xfs_trans slab cache name
-4a889d31d6e33929f17071fa9ee59f7f0ef0eda9 xfs: update superblock counters correctly for !lazysbcount
-0ce891ee7baa30a06ed6e0ccd91523457b6b5d5f xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
-ad7bb4aae2951438eb32eb93d2bfec32153192a7 tcp: add a missing nf_reset_ct() in 3WHS handling
-c9dab60c0c7328d4e584eb319bc8c11f80d487ec xen/gntdev: Avoid blocking in unmap_grant_pages()
-4c8a874fbf15e8f84e16a0769215de66dcb1b092 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
-4bbf6dfb3b187356f15efea8bdbca925737bc199 selftests: mptcp: add ADD_ADDR timeout test case
-e95181a1c307b099cab32175725f2dfd5d89703e selftests: mptcp: add link failure test case
-237260c5bf7b87f6535032ff823d8f036ff2f4da selftests: mptcp: add ADD_ADDR IPv6 test cases
-5fa2ec59600c2ac46541d42f40c5f2de23d578cd selftests: mptcp: launch mptcp_connect with timeout
-86e10e258456ebf021332858e33acc6abb35fec5 selftests: mptcp: fix diag instability
-69bb66b6969c00d40fae75bb2096ff524d78a577 selftests: mptcp: more stable diag tests
-db36c92b18db3c01ac85dd0ccaf411918cd92cb4 sit: use min
-d9f5a4b30178dce03b53ee84881d281767940663 ipv6/sit: fix ipip6_tunnel_get_prl return value
-0145361af810cb255ce351f372497594e71c45fb hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+52c517df8f600f2e03de2afbeeb4d7712cdb4907 drm/amdgpu: To flush tlb for MMHUB of RAVEN series
+af854191c022af2093eddb24cbb4c84f3d52d6e9 ipv6: take care of disable_policy when restoring routes
+ceb98fa767d984e7e83b4888bea5a39749c800e5 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
+be49f035057c9f6f670577cd216af03dfef038b6 nvdimm: Fix badblocks clear off-by-one error
+54e5f9e6e3b1793813783946f5a4660793e77632 powerpc/prom_init: Fix kernel config grep
+542d6dcb2ed4fab0514a748a4d4f42d356e83d59 powerpc/book3e: Fix PUD allocation size in map_kernel_page()
+af7d5bb86bf3436558c3a281611e2bc243039fcd powerpc/bpf: Fix use of user_pt_regs in uapi
+12f7e2be374be344cee250dc2f5f2969aaedbad4 dm raid: fix accesses beyond end of raid member array
+d6098468e411274192f98aecab72d1478a04e870 dm raid: fix KASAN warning in raid5_add_disks
+847abf5ff66bc6f9915ed53d30d01b1c69a34270 s390/archrandom: simplify back to earlier design and initialize earlier
+b1fd53c57e7353db4690bfcd4aa7fd3d8b3cee24 SUNRPC: Fix READ_PLUS crasher
+e8abe9d8995b1a856d2d13ba6598401d18d0e539 net: rose: fix UAF bugs caused by timer handler
+ac873a2fde0c45487e1c386f11e412c274a04705 net: usb: ax88179_178a: Fix packet receiving
+d43ddee623a281b86e7b49f03f5ea3275ceee678 virtio-net: fix race between ndo_open() and virtio_device_ready()
+e223ef116c702d2a804ff83acaf2494be80b8f08 selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
+78558f33fb17156c8a9fd9b88262c64a76066d18 net: dsa: bcm_sf2: force pause link settings
+6337de862c80dcd9abab4c3697b4e0631259eeed net: tun: unlink NAPI from device on destruction
+75d2424051b01db5106f349b80668b9e35a61dc5 net: tun: stop NAPI when detaching queues
+11351db797f23146989d93c527de21aac98e3df4 net: dp83822: disable false carrier interrupt
+c819856d2e6f0774edfe53c9c5363cc42a264809 net: dp83822: disable rx error interrupt
+3500f3aff28d05e342f9ae3b24c63c7552c776c9 RDMA/qedr: Fix reporting QP timeout attribute
+e3e8c1a93d979aa3694494fa81b5f291fd8b4057 RDMA/cm: Fix memory leak in ib_cm_insert_listen
+d38a9c5230e0351de5941dc49362833953c13b84 linux/dim: Fix divide by 0 in RDMA DIM
+bd7cd55f8600f9fcf1fea2ecfe2d5113496dc0e8 usbnet: fix memory allocation in helpers
+f5719f177e41a23a45bd314723eb4b632b088230 net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+9d4d18661d35d282b9083c7228b1f6171d7f1cf9 NFSD: restore EINVAL error translation in nfsd_commit()
+900661b9e1754cc32daf517620c91b2add5c362a caif_virtio: fix race between virtio_device_ready() and ndo_open()
+1793708964e77d9b967bbed681731cc59753c348 PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
+be3916859d5388cd24fefbf5c7634374e028e14d s390: remove unneeded 'select BUILD_BIN2C'
+5a26fa0e634068d569ae7b15074fbf2de37b15bd netfilter: nft_dynset: restore set element counter when failing to update
+e4271fa36ff48c6043066dcf9ad26610da4d21be net/sched: act_api: Notify user space if any actions were flushed before error
+d1a1c4532915553312b7a8a8f25f83af287cdf6c net: bonding: fix possible NULL deref in rlb code
+cdff641282b39ead52db4c9e55c65fd7d4e5e178 net: bonding: fix use-after-free after 802.3ad slave unbind
+98967f9194a36f53cc896b00aa88fc0ac6733cd8 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+cab0c1dc4183b375af2f3868e146f25b7397bf57 NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+8acff6d233f39c0f7f12a8a785b67ca1c8569616 tipc: move bc link creation back to tipc_node_create
+1ef5f6efe44da780bdf585628a85e36e0f4a89a8 epic100: fix use after free on rmmod
+d9cec35ebc658d19cebb9605543d88ed378ef129 io_uring: ensure that send/sendmsg and recv/recvmsg check sqe->ioprio
+a5e8c0345430d1effdb937187ea0e943cc1350ee tunnels: do not assume mac header is set in skb_tunnel_check_pmtu()
+d785ad158f6e1708850feabfebbeed2365089595 net: tun: avoid disabling NAPI twice
+224f4c16d62fc19ce572b629622fa0213602e0e2 xfs: use current->journal_info for detecting transaction recursion
+ad1274c7926003983b87e128d31ebc6030f04564 xfs: rename variable mp to parsing_mp
+fa527d0c756b7ee358283fca9fcc001952f999d6 xfs: Skip repetitive warnings about mount options
+31cdc92758f6c982b47c68ca9ad03674d73d2209 xfs: ensure xfs_errortag_random_default matches XFS_ERRTAG_MAX
+eb6fd135a0df711f3f4b09610c82d424adfada8c xfs: fix xfs_trans slab cache name
+eb38fe1ca370fcdef100725b4adf356bae1ee9da xfs: update superblock counters correctly for !lazysbcount
+3e2d795f420b9f0b3e1917cd04fa5dce80c7347a xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
+b58f95eaf06e4a2deff0ff8ca8a1b576c8bd0b32 tcp: add a missing nf_reset_ct() in 3WHS handling
+06405f3d289e41e999393ed4636d795ccdb9fa90 xen/gntdev: Avoid blocking in unmap_grant_pages()
+ca455e71f00302b789021c81df6c67184c355210 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
+ca8e239bd583cc2f2c0353bedebebb06467cb030 selftests: mptcp: add ADD_ADDR timeout test case
+30104d0214b0554be9f35d60d55e2382d7122849 selftests: mptcp: add link failure test case
+5548301c7100f8bef432cd0f8bc77171c8298357 selftests: mptcp: add ADD_ADDR IPv6 test cases
+01619d615bfa175ca91bb5517a1b185396019557 selftests: mptcp: launch mptcp_connect with timeout
+49c01cbb874fc198a4cd04ee72f69087251a7e35 selftests: mptcp: fix diag instability
+c3a86f8445a676d185b0dfc29a299d83b3e0acde selftests: mptcp: more stable diag tests
+477ec8a63b740c3dee3fc1d7cfc505e0e3332cd1 sit: use min
+5afabe38e21e91819957bd5588a3dd358814ed6b ipv6/sit: fix ipip6_tunnel_get_prl return value
+f759534aeab400f55b9f5d9f92d4d01804c67c02 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a7a53776dc4-4c1fc7750d0d.txt
+Content-Disposition: attachment; filename=revlist-4c1fc7750d0d-3ac41116b0dd.txt
 
-4fe6fac9b251ab7aa5091d67d97e7ec4d7d42d74 Revert "drm/amdgpu/display: set vblank_disable_immediate for DC"
-730c8198f4530f96e66ed4e93eb5bbb62a4d6b45 drm/amdgpu: To flush tlb for MMHUB of RAVEN series
-5e8e4b31ae6f0e51cdccf94b2eb7644dc03c0ed7 ksmbd: set the range of bytes to zero without extending file size in FSCTL_ZERO_DATA
-298070b27e0ee41f91d51a90c7ace484225f8034 ksmbd: check invalid FileOffset and BeyondFinalZero in FSCTL_ZERO_DATA
-982a5a7242b2aebbdc7e17c2d07762c50d0849e5 ksmbd: use vfs_llseek instead of dereferencing NULL
-21587a070ca523fe4d33125cee0ba8f84a17dc46 ipv6: take care of disable_policy when restoring routes
-27b0259ccbb71ab7ce7a74334d8d7acf421ad321 net: phy: Don't trigger state machine while in suspend
-4647bbc484bef8731835395dcc45bc584515cdb6 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
-63ad42b6b599549ea5701ee78868c9be9cf9f64d nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA IM2P33F8ABR1
-af1ff6a87adf22f96d7fa0c3e463004e2d097eb2 nvdimm: Fix badblocks clear off-by-one error
-19dfa65bb9481669e43b84cff11ea437be70bc97 powerpc/prom_init: Fix kernel config grep
-fda2af6ead84f9bc3bfdacdf83cfe619f2fad624 powerpc/book3e: Fix PUD allocation size in map_kernel_page()
-799806c391881db5c9f415985ac43662fe05220f powerpc/bpf: Fix use of user_pt_regs in uapi
-152b4047e44162ee4dc6fe8746569316057f6f30 dm raid: fix accesses beyond end of raid member array
-b423460aeb5093ec827e0a68d5b3c5748a1b4f15 dm raid: fix KASAN warning in raid5_add_disks
-85295c19554d998c69f4c6b7ac5c5c17094fedef s390/archrandom: simplify back to earlier design and initialize earlier
-48a72a61f293f9acfcf201439fb022a967a89d89 SUNRPC: Fix READ_PLUS crasher
-64b2c819eed3808fa64e12fb6a21f990f9147cd0 net: rose: fix UAF bugs caused by timer handler
-3cb43d2b9b16bf0b9ae9270cd17d90d716d1b8f9 net: usb: ax88179_178a: Fix packet receiving
-bd55f6c28de49d399ab142ecf73d2de7d69ff1d7 virtio-net: fix race between ndo_open() and virtio_device_ready()
-06da54aecd9636eb99beeb46b7e0292b09938307 selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
-2c77c05a67458ebf3c3432c3f183e7ba27358e33 net: dsa: bcm_sf2: force pause link settings
-bcc429d7e3739e08f851bec726a22b4f50b8e1d6 net: tun: unlink NAPI from device on destruction
-6c523b9bb1f1788fbb5c3e7b8d18d22a88972969 net: tun: stop NAPI when detaching queues
-3f761feb2e187bada6e715a5ccb78b31e92a6d89 net: dp83822: disable false carrier interrupt
-d08683a671928b6cee746036d85de6e76da091fb net: dp83822: disable rx error interrupt
-006ff72b80eb41d463604a377250da1fa0442a4b RDMA/qedr: Fix reporting QP timeout attribute
-3cce9b7ca3837accf4bb6381a987ad19fe9ac35a RDMA/cm: Fix memory leak in ib_cm_insert_listen
-ad2f5900fedb2a7ca1cb1fe38ca4c7a7132e0d69 linux/dim: Fix divide by 0 in RDMA DIM
-fc182ac2cb601fbafea70b4809745916d9daacf7 net: usb: asix: do not force pause frames support
-3e757fe0021349600085dd64f46404b4e85e5dee usbnet: fix memory allocation in helpers
-8844cdb0e3e8d0299e31de0b4a68e80ba305c931 selftests: mptcp: more stable diag tests
-c7af6ad5e6bc11c13bc460d0718f0673a19566a6 net: ipv6: unexport __init-annotated seg6_hmac_net_init()
-7345d979127724836d13973bf6d976228d72a095 NFSD: restore EINVAL error translation in nfsd_commit()
-bff7a84dd5df6cd26ae3449b8ae816bb4d61f680 vfs: fix copy_file_range() regression in cross-fs copies
-c52d638f8014cd20338e2610c1708862870029d6 caif_virtio: fix race between virtio_device_ready() and ndo_open()
-2d6193085fcee65aa5e8036a1794f09e766b5db6 PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
-52c0b8e5f3ede8f0f79fedfc5ada1be89ec6a600 vdpa/mlx5: Update Control VQ callback information
-bb8fb2e75ca8d85d3b4c1778655656592bf74727 s390: remove unneeded 'select BUILD_BIN2C'
-65d79e18e8f068b5391d40e5619be4ebee25d9fa netfilter: nft_dynset: restore set element counter when failing to update
-e2d4e0d2935fae4b1634e9b7acdda7bd16b37cc1 net/dsa/hirschmann: Add missing of_node_get() in hellcreek_led_setup()
-bb1a547bef29fac17a610f87113f99ba122e816c net/sched: act_api: Notify user space if any actions were flushed before error
-2aa31b44cb07996cc955be8b2c2af28ed669f996 net: asix: fix "can't send until first packet is send" issue
-89e9694fa3c5bce074623ea8cd80540531876cde net: bonding: fix possible NULL deref in rlb code
-0593739db384115a3339cde5e4097a6c181284a8 net: phy: ax88772a: fix lost pause advertisement configuration
-6fa8f9b763595c65fcb8689ff4e5e231284f7c40 net: bonding: fix use-after-free after 802.3ad slave unbind
-8b8119c5ec32b61c8c934a1b4ab766c81ac35f5e powerpc/memhotplug: Add add_pages override for PPC
-489159a2a9465be2b85e4323b3f78de6dc7b7ca5 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-6afaed967566a60ac5bc00a76bbedeffe501724a NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-720a846458bf732c2d67a771d127bcf17aeec374 tipc: move bc link creation back to tipc_node_create
-ce5836024f6b8c0fa36daea5f7be082044e231c2 epic100: fix use after free on rmmod
-b458d3e22ca284f09cd9f64a300333b7db90fcd2 io_uring: ensure that send/sendmsg and recv/recvmsg check sqe->ioprio
-f2c7518421e08d54b740a66177df4b45d819e77e ACPI: video: Change how we determine if brightness key-presses are handled
-d0feb8789711915910448bf7650c8d42a3b85cb0 tunnels: do not assume mac header is set in skb_tunnel_check_pmtu()
-ee223dc88fa8575346f24d3f0207323f1790da81 ipv6/sit: fix ipip6_tunnel_get_prl return value
-df4ed2fa3a68d8861da71c8fa61e8e6ca03bc68b ipv6: fix lockdep splat in in6_dump_addrs()
-7ff8ace9d6cb78093029d32dc1e1273b2dd4c0e1 mlxsw: spectrum_router: Fix rollback in tunnel next hop init
-c11449339ed55f13e3bb466472d05325025e7132 net: tun: avoid disabling NAPI twice
-58c9488aec271d80c0f8ce2bf34b123fcbb7c14e MAINTAINERS: add Leah as xfs maintainer for 5.15.y
-a7ffd023d5417e5a78b19d24654ff50d4c458672 tcp: add a missing nf_reset_ct() in 3WHS handling
-74aa69bc7c4116b9d3aa1893cf791251ad5a9192 selftests/bpf: Add test_verifier support to fixup kfunc call insns
-e485f77dde40117c3d6d00999f9fd9c459bdf7e2 net: fix IFF_TX_SKB_NO_LINEAR definition
-550ba2b68fd1dbe11bf947ca78c657c00dcd0b47 drm/i915/gem: add missing else
-a3919f0373fcb4dca8c457356ca23c7ec5e4492b drm/msm/gem: Fix error return on fence id alloc fail
-d525ebf9ab4ca677c58d88babdcbb9167cb3c854 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
-749d362c3b664f52951e944dba14db4a94c74aac platform/x86: panasonic-laptop: de-obfuscate button codes
-11076e13b9701b6797f14d462d1e24798c2b32b2 platform/x86: panasonic-laptop: sort includes alphabetically
-7be6582dc8dfb4dc3c4eab7d42ca123e88d75b72 platform/x86: panasonic-laptop: revert "Resolve hotkey double trigger bug"
-8e4e962abac33ffe355a7c3b75a5a909a5486974 platform/x86: panasonic-laptop: don't report duplicate brightness key-presses
-73532d238845aed748c3260237d4294ce6605943 platform/x86: panasonic-laptop: filter out duplicate volume up/down/mute keypresses
-b269a2a434b2c92ce267c4c571c342372f4be474 drm/fourcc: fix integer type usage in uapi header
-00ba2d5bb1db51336a06a49e6170d9e36f78a234 hwmon: (occ) Remove sequence numbering and checksum calculation
-9d2cb460c0980ec3a3985bc94ac60a98be175d68 hwmon: (occ) Prevent power cap command overwriting poll response
-4c1fc7750d0d5f22eb0cb8e3a42cbb127c0bc06e hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+f1e305e4764a159a90ba7c6130fc99403a95fc52 Revert "drm/amdgpu/display: set vblank_disable_immediate for DC"
+761970896c4f43216e2f4d32b172d340a9d6ebe5 drm/amdgpu: To flush tlb for MMHUB of RAVEN series
+8daf2b156920720edc496eae5a8d7213624609cc ksmbd: set the range of bytes to zero without extending file size in FSCTL_ZERO_DATA
+18eab164e84fa45c8ff76e5c883e92ccf1fd79d7 ksmbd: check invalid FileOffset and BeyondFinalZero in FSCTL_ZERO_DATA
+841dbf09793eae15ff4ae341e09765365be00c61 ksmbd: use vfs_llseek instead of dereferencing NULL
+635c5587cd369caace483fab7672678a912c97da ipv6: take care of disable_policy when restoring routes
+ec54db03532a79cd5dd357f1307b5e0b6c56ad6b net: phy: Don't trigger state machine while in suspend
+030b40213b70f886d6153fe26163198a9ff280ff nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
+bb597120e7f0dd7b204e634226e8f29ce1a1a982 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA IM2P33F8ABR1
+47d16e428a0cac6288b12dba904520c691a0d6a8 nvdimm: Fix badblocks clear off-by-one error
+e021f0ac9b9a3a0514c2d9794ed6150935535418 powerpc/prom_init: Fix kernel config grep
+5191e43f562b4fa4a2cf89ff80e66367fa89fdf8 powerpc/book3e: Fix PUD allocation size in map_kernel_page()
+4e450724ffbcd0abdcac808e9d98cb2bb7e923e5 powerpc/bpf: Fix use of user_pt_regs in uapi
+3691d57239f234fec1d9c33becbebf0ece9335bd dm raid: fix accesses beyond end of raid member array
+9840d1cc63456fa5490364f788c54d5372dc0bf8 dm raid: fix KASAN warning in raid5_add_disks
+3d67b5d1a8a9370ea72d27216c67ebaf841cbac9 s390/archrandom: simplify back to earlier design and initialize earlier
+8d125add64753db80421749f373d1eb74a65ee57 SUNRPC: Fix READ_PLUS crasher
+6fd2215e8775b5c3facc670f5625bd2f70eb56e0 net: rose: fix UAF bugs caused by timer handler
+b6ba503606d2816e9600a63af295af7540042cea net: usb: ax88179_178a: Fix packet receiving
+c4006d774b30cf5d2c6f9b120e0e6fa7f1b355f3 virtio-net: fix race between ndo_open() and virtio_device_ready()
+1fe3737228512873e7f61309fd76b81ed772f4da selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
+83861760cc54b86df237f29fb740a6283bed7bfc net: dsa: bcm_sf2: force pause link settings
+0eb1c2b795428e19d784adeeef1f85477f72e8b8 net: tun: unlink NAPI from device on destruction
+27f6aae077f2d4ad2ceafedb6dd286a062d341e2 net: tun: stop NAPI when detaching queues
+946634b8c8d4444589e5cdfc8e8571da7188c348 net: dp83822: disable false carrier interrupt
+a4784ae59516bbe7be79f417ef1f32dddd032a36 net: dp83822: disable rx error interrupt
+bc3ed39d482b15eb6e1c72391da65c48e7f82698 RDMA/qedr: Fix reporting QP timeout attribute
+e4bd670daec85a94a9e263e345c4dfc9cd56bc41 RDMA/cm: Fix memory leak in ib_cm_insert_listen
+d2b8c155c2d26d7a493dbd3a21f6be7415fb81d2 linux/dim: Fix divide by 0 in RDMA DIM
+3a579cbc50c30a615e5c871a63db172f99087655 net: usb: asix: do not force pause frames support
+7adecd56bc14f88d69d932cef3a4bc8f40056ccd usbnet: fix memory allocation in helpers
+7bae3df7aaae9c2822490394e70e684bf3fe2708 selftests: mptcp: more stable diag tests
+122dec0b5bd0d453591e334f2ccdf26599652ef0 net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+0e0a990de7abf561a46e9183e0f36cfb86818d2d NFSD: restore EINVAL error translation in nfsd_commit()
+ed2b3c0c07f460424baefe16a5d93e7b5cbd7f2f vfs: fix copy_file_range() regression in cross-fs copies
+4d1eb78e1db283790a26dedcea23ca3103eb168e caif_virtio: fix race between virtio_device_ready() and ndo_open()
+255300cf1fadffea52df30dd55bebb6e396fdbdd PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
+dc4ef9a6f7861bc60c4dfa0959b1e8bcdf8464bc vdpa/mlx5: Update Control VQ callback information
+83ae836da5118dc4171be70a768b13dc1f088a75 s390: remove unneeded 'select BUILD_BIN2C'
+33265d069d85ee9fb8a4e1d631eb992493441c90 netfilter: nft_dynset: restore set element counter when failing to update
+713f2600835ede160b4762162863e560e5ae24c7 net/dsa/hirschmann: Add missing of_node_get() in hellcreek_led_setup()
+0e5c927fe0d6e5443357876f0cad68a7b8357d2d net/sched: act_api: Notify user space if any actions were flushed before error
+da8cf1bf1184b0b188dfcd8e2eeafd8bec385ed5 net: asix: fix "can't send until first packet is send" issue
+40de332d494f15ebebc8b6bde022dfe37fdbe1c7 net: bonding: fix possible NULL deref in rlb code
+091adc7fa2c626c4a776f98f02d84c42d29857d3 net: phy: ax88772a: fix lost pause advertisement configuration
+73842a54bb629304e0cd218eef5178a5c8bfb514 net: bonding: fix use-after-free after 802.3ad slave unbind
+477dbcb6bf2d595a0ddf682b883ac103cee17b91 powerpc/memhotplug: Add add_pages override for PPC
+969bd0a9e4e36a50bb8d03ab171973e051a2e289 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+858dd93883195207b28fa7b292b20e414a8b47f1 NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+f51eafaf4c62f43ab6a4bcf32360dd9eb1548fd5 tipc: move bc link creation back to tipc_node_create
+efdda33f04cb5497cdc992dd2e8be2dbc161f4b2 epic100: fix use after free on rmmod
+a54f81d555df2963f704a37140d4af14abd6a986 io_uring: ensure that send/sendmsg and recv/recvmsg check sqe->ioprio
+e041aa8d1edc2ecd6efab66d7a5e3ce13a9bce19 ACPI: video: Change how we determine if brightness key-presses are handled
+60f5036ec529131a5fa90e32339be969945c6401 tunnels: do not assume mac header is set in skb_tunnel_check_pmtu()
+e8041855615c003d2dfe7fa458539fb264615e44 ipv6/sit: fix ipip6_tunnel_get_prl return value
+3d53932bf6de92a316c9e0c5599b5659814ab98a ipv6: fix lockdep splat in in6_dump_addrs()
+f2b9b7bfe1ed45b1a33e6b4d394ad577e14b1ff6 mlxsw: spectrum_router: Fix rollback in tunnel next hop init
+6ff4140733ecfc9a48b37c90f45717286ca7f9a1 net: tun: avoid disabling NAPI twice
+dff3605fe2969eeb8f2fea4b708416d63e71061b MAINTAINERS: add Leah as xfs maintainer for 5.15.y
+e0d21ac094bc2a2b5cf036f491a51ff7533fd986 tcp: add a missing nf_reset_ct() in 3WHS handling
+c85a7605bbba219702bbcfdf586c2df1822ed7cd selftests/bpf: Add test_verifier support to fixup kfunc call insns
+e9a900190f03ec78eb5e43b027240bc179535093 selftests/rseq: remove ARRAY_SIZE define from individual tests
+5a221f7d7e5880589f31680a7ada3e60e90b9b31 selftests/rseq: introduce own copy of rseq uapi header
+7c35cd2c197b4a0a39a43615663db987822bd756 selftests/rseq: Remove useless assignment to cpu variable
+5655388ca130b19b5ca66558895b4c01c6842713 selftests/rseq: Remove volatile from __rseq_abi
+159b6e41c5f8b64914780ce22e5d5be3ea366a1f selftests/rseq: Introduce rseq_get_abi() helper
+c8f8a0c046d6c66a0c9fafdea072cf55a80ec3f7 selftests/rseq: Introduce thread pointer getters
+93c1c657ce059db3b5f6bb05c52b2995becc098e selftests/rseq: Uplift rseq selftests for compatibility with glibc-2.35
+47cf29283a42ec1386e973cfd7d8106a8c4aaa5c selftests/rseq: Fix ppc32: wrong rseq_cs 32-bit field pointer on big endian
+a877e83441ac6a28df16e134939fc19e5f0a439b selftests/rseq: Fix ppc32 missing instruction selection "u" and "x" for load/store
+e65edf0ac302d20c90d509f2a16ff794e576353e selftests/rseq: Fix ppc32 offsets by using long rather than off_t
+73a82a2c1784e860c3f9d2cd383e6c6ded3e60e8 selftests/rseq: Fix warnings about #if checks of undefined tokens
+9a0e5817b566b6d3a66251d872943adf62a67fa2 selftests/rseq: Remove arm/mips asm goto compiler work-around
+32a1ae9750b4c2694a593c66f1a64c5f7c50fa06 selftests/rseq: Fix: work-around asm goto compiler bugs
+31861472989d4442c60929f349686f308367dcd5 selftests/rseq: x86-64: use %fs segment selector for accessing rseq thread area
+0c83baf078df0f3dc5708fc366d2b3d281afc139 selftests/rseq: x86-32: use %gs segment selector for accessing rseq thread area
+a88aca60908afd088e1bbae8c56dcdda28e93d09 selftests/rseq: Change type of rseq_offset to ptrdiff_t
+08a3e473342bdb1522cb770f96a82fa05f50d17f net: fix IFF_TX_SKB_NO_LINEAR definition
+1c88c76c2b9239d8c813173da35c6e36ebd42c91 drm/i915/gem: add missing else
+e89da780d1996b9ce357e6725b838892da413dfe drm/msm/gem: Fix error return on fence id alloc fail
+c5e055981986ade4019f2263306f59f1c2447697 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
+7e5558d5f974584c9364df4dee1dc215a45dc4ed platform/x86: panasonic-laptop: de-obfuscate button codes
+ef8edd725343284fc5d11bbe1371204ea6f0c246 platform/x86: panasonic-laptop: sort includes alphabetically
+e8c62cfba3b908aa2d672c9234341337ee9b3f5a platform/x86: panasonic-laptop: revert "Resolve hotkey double trigger bug"
+f58e8554e12db2d6270f8b227082aaf5f7914d34 platform/x86: panasonic-laptop: don't report duplicate brightness key-presses
+407ecf1e5ed95e609937dec25d07996ef1aa7f75 platform/x86: panasonic-laptop: filter out duplicate volume up/down/mute keypresses
+9b05e1f24bbe6788adbc66fa77bec7af8f97f11c drm/fourcc: fix integer type usage in uapi header
+7a8267592de56380befaa7fc56c97776b7b223d1 hwmon: (occ) Remove sequence numbering and checksum calculation
+b90a583cb4f758269dfdb2029041fff6c1c6c0c5 hwmon: (occ) Prevent power cap command overwriting poll response
+3ac41116b0dd136792b0f894ff7016907c534be4 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1bf08420e70-d848045fb378.txt
+Content-Disposition: attachment; filename=revlist-d848045fb378-91cfa3d0b94d.txt
 
-e3547dc2cb703791961caed82a24d1e034cd3656 drm/amdgpu: fix adev variable used in amdgpu_device_gpu_recover()
-3cd2848a4d1aea195f773640fb55b00929c330dd Revert "drm/amdgpu/display: set vblank_disable_immediate for DC"
-d80d2106481916e6018ae08f543768d897d64c11 drm/amdgpu: To flush tlb for MMHUB of RAVEN series
-964c6d2b6f3a9a6346d02482d99eef0bc656a333 ksmbd: set the range of bytes to zero without extending file size in FSCTL_ZERO_DATA
-b11646ae1cc9215911fe0050d00bbb3c7b3d8fad ksmbd: check invalid FileOffset and BeyondFinalZero in FSCTL_ZERO_DATA
-f23309358f69d65fe7e9fadc4ebf530b5ac31cec ksmbd: use vfs_llseek instead of dereferencing NULL
-ae11efa192206f6e487cd43fd6666ec22a007fb8 ipv6: take care of disable_policy when restoring routes
-5fc554be904d7fadc492e6108af778825cbe2434 net: phy: Don't trigger state machine while in suspend
-c4bad9308c6773feb596c213302c27d3d39840f0 s390/archrandom: simplify back to earlier design and initialize earlier
-34518c20d27ed19c974b3c1d374cbce97ac4764f nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
-4275314e21e0576b61d715923081440e7493b444 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA IM2P33F8ABR1
-0a73865531e7997ddd3bc488cfb1d5c4b7c82bf8 nvdimm: Fix badblocks clear off-by-one error
-7620ac41c6c86a3a19287f22787919c29669745d ceph: wait on async create before checking caps for syncfs
-c76c8d0c521ce2f1bcef2e82ea09cc2e4601db4c parisc: Fix vDSO signal breakage on 32-bit kernel
-4c24dcca87da140275d13daef85b0a83d7d2f6e1 parisc/unaligned: Fix emulate_ldw() breakage
-2e34c2c2c302b0736f3b14f2f073665875204cd8 powerpc/prom_init: Fix kernel config grep
-52c6a7adca7aa5dfe43d154709c0fc5d3fd7b5a6 powerpc/book3e: Fix PUD allocation size in map_kernel_page()
-ca33675d156018c77e1dddb2dd4c3cee2c9b6a2e powerpc/bpf: Fix use of user_pt_regs in uapi
-8a5d95f6b73fba2e458872eae2f40e99a3dabd16 cpufreq: amd-pstate: Add resume and suspend callbacks
-767e5b417879cc3a659a00a3fe24c6b83a86c30d dm raid: fix accesses beyond end of raid member array
-ede113f1bcea972f343fd780cb15511620baf399 dm raid: fix KASAN warning in raid5_add_disks
-bc4f7af0c9ef14bf27b7499710bede978f4b8f11 SUNRPC: Fix READ_PLUS crasher
-13a1b7cc9fb32c7f933b4b56ac62fefda9a02565 net: rose: fix UAF bugs caused by timer handler
-c53b90b14aed2002afdddd097446ee94c149802f net: usb: ax88179_178a: Fix packet receiving
-19a2901066696b38332ff075a8e2310311582a6f virtio-net: fix race between ndo_open() and virtio_device_ready()
-78bb05818c3293153b3054366d358b0ed3d4810b selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
-2a8e90c78c809cbcce5be57333fcdd0aff4207fd net: dsa: bcm_sf2: force pause link settings
-5148e4e5efccd77beccbafcecdf7d9f75978e064 net: tun: unlink NAPI from device on destruction
-61074018eac10f710e63df6f87a40e90e2aec4ff net: tun: stop NAPI when detaching queues
-7321122c5717f81216c9d46f270a8411a433d8cf net: fix IFF_TX_SKB_NO_LINEAR definition
-18bcfcc32250836ba777e9648060a5eb9c0f565b net: dp83822: disable false carrier interrupt
-40f681813344217e279002d185ffde7cbcf16698 net: dp83822: disable rx error interrupt
-3cd1602d6e71ec261cddb4702a18a76beaa4fd90 RDMA/qedr: Fix reporting QP timeout attribute
-8afe1b0b35ae7ee87c72caf42aea2c5686701c78 RDMA/cm: Fix memory leak in ib_cm_insert_listen
-adb667565349cd80717a321599970a520c85b9a1 linux/dim: Fix divide by 0 in RDMA DIM
-f64f3e139ca9e0b515fbe41008579a3216d5dc70 net: usb: asix: do not force pause frames support
-3c30ca087f070155f395bff086cd03577b2cdeee usbnet: fix memory allocation in helpers
-84501616d7989950795fba515df459a92a67c00c mptcp: fix race on unaccepted mptcp sockets
-1c2bcf63b989bcf4e83c2561e18ba57a1b0a775c selftests: mptcp: more stable diag tests
-5d0cdbe7884d20ece85746cd7b6d2e814e91e0a5 mptcp: fix conflict with <netinet/in.h>
-fcdb5981cfc8fce04a89e9a86df353ceb4467ff8 selftests: mptcp: Initialize variables to quiet gcc 12 warnings
-5fe23be0780691cf9aef3b95bd22678da15750af hwmon: (occ) Prevent power cap command overwriting poll response
-495a2c2e776c6007def86cafe740b7ae01bcd29f net: ipv6: unexport __init-annotated seg6_hmac_net_init()
-78838acccecafb4a0117daa6f0e2d0076be0a3e6 NFS: restore module put when manager exits.
-84b4e69933b70b45f60e1449d5f82b96b753670c NFSD: restore EINVAL error translation in nfsd_commit()
-8f26cd771bc081835d192a0213898d1a74c694b6 NFSv4: Add an fattr allocation to _nfs4_discover_trunking()
-19f6c61ff70118663b78b258d1b8b26d0fca4334 vfs: fix copy_file_range() regression in cross-fs copies
-e598485612a9e122175a3fcf7d47fa73d240b36c caif_virtio: fix race between virtio_device_ready() and ndo_open()
-c8f5a14e83f23f88de71610252c263b7e2f8ea71 io_uring: ensure that send/sendmsg and recv/recvmsg check sqe->ioprio
-9d62e4268eca2e28c4272426b33ed7135cf6726b PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
-22a326a17c9459ec9b20a3176c3587f781adbf42 lib/sbitmap: Fix invalid loop in __sbitmap_queue_get_batch()
-b3d64eb2879b6e9ccf8b354f58a1c89ba8e7be71 vdpa/mlx5: Update Control VQ callback information
-bccdf62a1998edac2f345a9b4762329d5fe03a13 s390: remove unneeded 'select BUILD_BIN2C'
-a355b3953748b12cf166e29b918ffde56d91163d netfilter: nft_dynset: restore set element counter when failing to update
-26ae7efc2679b340d45df36c8b5d8cc9b2c4f515 net/dsa/hirschmann: Add missing of_node_get() in hellcreek_led_setup()
-d183a71d1668668d55269af5553187657044d99a net/sched: act_api: Notify user space if any actions were flushed before error
-b42c75eb3e8283a86a3c07ace4a15f72107fd2c1 net: asix: fix "can't send until first packet is send" issue
-fc1f8dc7bcb895be181cbefb9c8883247cdc2a34 net: bonding: fix possible NULL deref in rlb code
-79f989605f0dd2109bc5af293dbf8e07d6e11589 net: phy: ax88772a: fix lost pause advertisement configuration
-03ebcd15a683f904c67d247d463c97de5d697835 selftests net: fix kselftest net fatal error
-8e0f085433cf353218db2a0cdcc7ee142e31943b net: bonding: fix use-after-free after 802.3ad slave unbind
-596cac76d25817e114a363716ba895ce246f83a7 net: dsa: felix: fix race between reading PSFP stats and port stats
-21c0c8c88a150516674cff2429d0b4e5a61025e8 powerpc/memhotplug: Add add_pages override for PPC
-eba69ad54412d3d9206815e48afe729120beb1cf platform/x86: thinkpad_acpi: Fix a memory leak of EFCH MMIO resource
-64c15cdcea1c706047be3699fefebca80d1dcab1 platform/x86: ideapad-laptop: Add Ideapad 5 15ITL05 to ideapad_dytc_v4_allow_table[]
-a353ba160972f735737fec108ddf2a2309d096de nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-5b5ccbcce5cbbe1f35c4f21782d874fe2d47e5f2 NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-3f35d4e2ed3ee867df4109f2200064c854aad5b1 tipc: move bc link creation back to tipc_node_create
-43bd4a484fd14a92fa580705261bbd23446548bd epic100: fix use after free on rmmod
-9288489713033381b5f51c07fb71d5d207ee8886 cpufreq: qcom-hw: Don't do lmh things without a throttle interrupt
-90d40323e8f42bd1b380e648649f117579dd9917 tcp: add a missing nf_reset_ct() in 3WHS handling
-737496fb6ffa705acb479b1682d91fe8405fc6f0 nvmet-tcp: fix regression in data_digest calculation
-07077b4eafedd59525377c287ae5ebe600ce4a9f ACPI: video: Change how we determine if brightness key-presses are handled
-bb55f3cb4ed125737bbf472eacfe2694235476b3 tunnels: do not assume mac header is set in skb_tunnel_check_pmtu()
-72818fd7ecabacc8ee8c9a2f9fe0a744d4481dc8 fanotify: refine the validation checks on non-dir inode mask
-5ee15b7f7193cdb4600b34c2ccf9a1c6aa191b0b nvmet: add a clear_ids attribute for passthru targets
-0cc5fbbe87c53740d2293564b3c974136b023619 ipv6/sit: fix ipip6_tunnel_get_prl return value
-8edbfdf7af97d8f2a2c9445daf18f11f2ab958af ipv6: fix lockdep splat in in6_dump_addrs()
-735bbe8609b42d0c0c394dfecc1542ef7cbd9e80 mlxsw: spectrum_router: Fix rollback in tunnel next hop init
-6524dade61b019a100ebcd26309b2a3a9d03f1de net: tun: avoid disabling NAPI twice
-49d906e0089492141834228f2240e6c2d0a024aa cifs: fix minor compile warning
-420bb419659de5256c08d3104655a4b5d73460da drm/msm/dpu: Increment vsync_cnt before waking up userspace
-308012501dc7bddcb9d627986322f8796c11cff1 platform/x86: ideapad-laptop: Add allow_v4_dytc module parameter
-799fd64bf0a18044e2439592e816998c6f07aba1 drm/i915/gem: add missing else
-c060960afeabbc715f49383b5315b505dd647bfc drm/i915/dgfx: Disable d3cold at gfx root port
-58e380448951645c0c697504286ec54d1df04ad5 drm/msm/gem: Fix error return on fence id alloc fail
-6d35eb859fdadc91ea67766d4249a0edcf7350f0 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
-0df11db8b49360eb18dec7c8794537517fe96bd9 platform/x86: panasonic-laptop: de-obfuscate button codes
-983010040ef24b3f26bce104bf6a0e3fb39fa7ab platform/x86: panasonic-laptop: sort includes alphabetically
-63bf404f34926850d9ec61921e49b8cd76de7db1 platform/x86: panasonic-laptop: revert "Resolve hotkey double trigger bug"
-3a4eb37f33b163df71c10ebfc02e86b7eca0d562 platform/x86: panasonic-laptop: don't report duplicate brightness key-presses
-6775001ba3748c43fa8946b0da99cad75565ee4d platform/x86: panasonic-laptop: filter out duplicate volume up/down/mute keypresses
-8e847c77a32519cce83a94d2cf2d61c01e788eb0 drm/fourcc: fix integer type usage in uapi header
-9b359ced39ad251f00a7dc647cdb6e67555c560c net: sparx5: Add handling of host MDB entries
-3c52472a95124e49e90ef75c50f14ec0165ec4a9 net: sparx5: mdb add/del handle non-sparx5 devices
-d848045fb378d69b40600cc440f9557a7db084e1 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+2e6ffeab497214fc76a7b936c82026e0890a528f drm/amdgpu: fix adev variable used in amdgpu_device_gpu_recover()
+9d103e6141598b13c6e6668b3d46a66161237b6d Revert "drm/amdgpu/display: set vblank_disable_immediate for DC"
+10a51df9bbc6f220a1e308efe341585d27ec6bb4 drm/amdgpu: To flush tlb for MMHUB of RAVEN series
+27b07933e1e563cad8f961879e9b2818a0ece5be ksmbd: set the range of bytes to zero without extending file size in FSCTL_ZERO_DATA
+2330b2dd36713fdbd90ae4c297d68afae1a6dc5e ksmbd: check invalid FileOffset and BeyondFinalZero in FSCTL_ZERO_DATA
+db481d5edaca042ec312df8330b26ff84309594f ksmbd: use vfs_llseek instead of dereferencing NULL
+fc9457f47c548506df51f2e9c11fdb699e310a5d ipv6: take care of disable_policy when restoring routes
+1614f8e6cef23f077f3601d436c273913f24bb1a net: phy: Don't trigger state machine while in suspend
+f398ec848c17a7f410581764b8c9e5ea84630767 s390/archrandom: simplify back to earlier design and initialize earlier
+5043a43c4f738e8d480784d51022f517f34b680b nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA XPG SX6000LNP (AKA SPECTRIX S40G)
+7bd3cd3ece4ccf0250c7b520a247d0c703720c5c nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA IM2P33F8ABR1
+178393e00db592370cf659c6a6c546e29cdde5a1 nvdimm: Fix badblocks clear off-by-one error
+33de02208de2a71295bdfec4c7a107edae84facf ceph: wait on async create before checking caps for syncfs
+2747f0b13c1b92bda27c496c5c77bd3c823a8312 parisc: Fix vDSO signal breakage on 32-bit kernel
+01c8db32739db2caa2ae4a4dded34cf55d925380 parisc/unaligned: Fix emulate_ldw() breakage
+ea1795ccf1df9a66e78eb8ba2714f5781eecce6b powerpc/prom_init: Fix kernel config grep
+20ba78b76875d52ca672f3ffddcc22e4fb3a5a9f powerpc/book3e: Fix PUD allocation size in map_kernel_page()
+2841d7a1b52e810b9143268daadca38ded3ad22f powerpc/bpf: Fix use of user_pt_regs in uapi
+58e3677288f4f093c4a37e1c0e48051973cb711e cpufreq: amd-pstate: Add resume and suspend callbacks
+0022c5189493c264fbd41f926c41f6ff09c6bba4 dm raid: fix accesses beyond end of raid member array
+45ced2af887ae61efbb663ba71540d1d49df27b2 dm raid: fix KASAN warning in raid5_add_disks
+8155c1f33e1f235db91ef514ed37c0f20396acc4 SUNRPC: Fix READ_PLUS crasher
+cbe9da109936dfbb6f3f4325aa2c96974aecddea net: rose: fix UAF bugs caused by timer handler
+b8a4ac8c0c81e2e50f9e6f26b80108f251dc17e3 net: usb: ax88179_178a: Fix packet receiving
+07f16a770a8fd4b5e41287cc0020ba36ca6222d9 virtio-net: fix race between ndo_open() and virtio_device_ready()
+6d2cbb306b0125a5fd107bc75f98d2e92965448f selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
+c79187e580df7d4c4db4ec99a50fce1139366e7d net: dsa: bcm_sf2: force pause link settings
+f929680146e227642ac3cf06f5789089c5888ba4 net: tun: unlink NAPI from device on destruction
+a4c2d8e74dc48edfbee3f51a711988934f7506ae net: tun: stop NAPI when detaching queues
+7dba74415d5a0aede4d362dd4908405b81a2ec99 net: fix IFF_TX_SKB_NO_LINEAR definition
+7916ae5739916803d1758ad25ed69c243684da25 net: dp83822: disable false carrier interrupt
+5ab1cd2cc655d3a139d3147f6d90e4e78656e668 net: dp83822: disable rx error interrupt
+8328a46fc100b10722423c5cbd0ccf23abb5853f RDMA/qedr: Fix reporting QP timeout attribute
+dad0e4431039f1c13b418502707998d7b2c5bd52 RDMA/cm: Fix memory leak in ib_cm_insert_listen
+4ec16b377dba71d572f7cb527c5f6b2a270912fb linux/dim: Fix divide by 0 in RDMA DIM
+67a43196694ceb9f439baa05c83b8b1eed5abbaf net: usb: asix: do not force pause frames support
+4ee0439b52eb3b3ea0b03c8efd5da7af41650b6b usbnet: fix memory allocation in helpers
+736eddc8c7c03f454dd9324bbfcb8b3410b55a8b mptcp: fix race on unaccepted mptcp sockets
+0f34e3634b8d91d89e4ce364df03e3e945e9ec87 selftests: mptcp: more stable diag tests
+e217dfed78ecf13fa33a4aaf68dff3306fc4a546 mptcp: fix conflict with <netinet/in.h>
+ec19589b6813607696c0cc82a8c8ac248afc787d selftests: mptcp: Initialize variables to quiet gcc 12 warnings
+8db761e16bbe8246a5801883e5f46a374efc1711 hwmon: (occ) Prevent power cap command overwriting poll response
+592ed6a3d7e45847d5498152212238df0d9b581d net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+ff9ff1b9a73ba4aff1be45266ef56f1ff5b64c0d NFS: restore module put when manager exits.
+f19f660358a97d78355bd42dd8788eb53221668c NFSD: restore EINVAL error translation in nfsd_commit()
+36f619a16dd9267aa3ad8e6aa9564836d111b5b5 NFSv4: Add an fattr allocation to _nfs4_discover_trunking()
+026112ba7593544e0a86a606099b41106b090aa8 vfs: fix copy_file_range() regression in cross-fs copies
+b259ae86b29e9d05845d1f9243a95642e4d60677 caif_virtio: fix race between virtio_device_ready() and ndo_open()
+b4e0ca46974a36f7030e8871ece5c58b8bbc9ade io_uring: ensure that send/sendmsg and recv/recvmsg check sqe->ioprio
+37d80d995a6f888351c75a0fd30d202e3dc517af PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
+b95cfebd1421ca915196aef2406bdbb2519e792a lib/sbitmap: Fix invalid loop in __sbitmap_queue_get_batch()
+4795274ec6de54716c7db8e1f36953ea2243e784 vdpa/mlx5: Update Control VQ callback information
+a6b9468851553d6e2e8758e9450f8e294d8cbe95 s390: remove unneeded 'select BUILD_BIN2C'
+7e4956a640124df330bfbb3f68d4b2ade0374923 netfilter: nft_dynset: restore set element counter when failing to update
+a66f2fd9b0e6a3475124f7dc2cffb7dc06e954ca net/dsa/hirschmann: Add missing of_node_get() in hellcreek_led_setup()
+a3ecc930fe0555af318e862401f4ed57f0b0007b net/sched: act_api: Notify user space if any actions were flushed before error
+c51819b81bc5eac75351b43bdfa3dd50a5710c93 net: asix: fix "can't send until first packet is send" issue
+3aae436c9f556c79ba9a542e37734f3e913d86f9 net: bonding: fix possible NULL deref in rlb code
+ac1ef2ec194a1f9e470fdfb749969a9af4679946 net: phy: ax88772a: fix lost pause advertisement configuration
+326972530c008a33c0d6d05fe2a6ae834330a869 selftests net: fix kselftest net fatal error
+695a9c26d645c30eb982ac787f1a210edbb0e01d net: bonding: fix use-after-free after 802.3ad slave unbind
+33889f7c6a847819357d33728b218ab31e01cb87 net: dsa: felix: fix race between reading PSFP stats and port stats
+c0e4627dea2000b4c7021fd53f6920bac42fa42c powerpc/memhotplug: Add add_pages override for PPC
+abe9f76bca22a9b37913a082ee9d6271556a176b platform/x86: thinkpad_acpi: Fix a memory leak of EFCH MMIO resource
+f2fe101c263b65eab4a71015a65823bff9262064 platform/x86: ideapad-laptop: Add Ideapad 5 15ITL05 to ideapad_dytc_v4_allow_table[]
+4382163a1efe5e6fb6bf4208f5bdbcfb91991b33 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+19a9d271edf22f2dcac985c7228d814b69be2d5f NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+99ce4f9071cc3f50755b1baf080ba6de873dc874 tipc: move bc link creation back to tipc_node_create
+99ac4f54334d077b289d4f3388ad8f6b1b8ff539 epic100: fix use after free on rmmod
+f6ec3cb389ab1b2140200ac6ffec5ea931ad84d1 cpufreq: qcom-hw: Don't do lmh things without a throttle interrupt
+2ad8799cba9073b83e626a72c97310f211df07c2 tcp: add a missing nf_reset_ct() in 3WHS handling
+dd53a17a8a320bcde439d653935421e2deb48dea nvmet-tcp: fix regression in data_digest calculation
+3e0d8d32c28e29687bb8f8e8d872d26ea38d5f59 ACPI: video: Change how we determine if brightness key-presses are handled
+8e1ad7ff934e8d6b2b4d17c6fb9e2e98edddff31 tunnels: do not assume mac header is set in skb_tunnel_check_pmtu()
+92711c990f12afa6dfa2d205357f6568281e1f92 fanotify: refine the validation checks on non-dir inode mask
+091b36d031f02d83b5f33bd515d64614e9fa4154 nvmet: add a clear_ids attribute for passthru targets
+d390a72a4efa8eff65d195057d49fce0bc0ca24e ipv6/sit: fix ipip6_tunnel_get_prl return value
+e2f4cb1cc37f79aea291b80a1f7a0dc8fb65ec7a ipv6: fix lockdep splat in in6_dump_addrs()
+053db535b0fdc2700943c55d3d19b0d07c489598 mlxsw: spectrum_router: Fix rollback in tunnel next hop init
+e160c9a5304e8878ad783c5a42b91e2da50afa0a net: tun: avoid disabling NAPI twice
+056368e07a756d5080d4bb1777edcf0fadf964c3 cifs: fix minor compile warning
+163769225daac33940b2ae55ff9a33dc94007f35 drm/msm/dpu: Increment vsync_cnt before waking up userspace
+8a0567714efef24c0a54b76ac9a9f626b74be413 platform/x86: ideapad-laptop: Add allow_v4_dytc module parameter
+92341cf84c98184bd0ea8eef72286c6afb5330d0 drm/i915/gem: add missing else
+da18b30ba9021100d3ebfe1e056f4aac615fa24b drm/i915/dgfx: Disable d3cold at gfx root port
+23d4681a127f9ca69d4fdd321788ea567f748a98 drm/msm/gem: Fix error return on fence id alloc fail
+06f6ba986484da1349140552149e50ed1db3f369 drivers: cpufreq: Add missing of_node_put() in qoriq-cpufreq.c
+4a7a063cf819bd3b70b85a4f5635c24d53b8ef89 platform/x86: panasonic-laptop: de-obfuscate button codes
+168e920d532bccc6a58b4e0420ed99c3ea390e65 platform/x86: panasonic-laptop: sort includes alphabetically
+fa1208303603482efd496caee745ccb2c2010b1c platform/x86: panasonic-laptop: revert "Resolve hotkey double trigger bug"
+d2998982cf3428b4b21f431e1da592651c84aa06 platform/x86: panasonic-laptop: don't report duplicate brightness key-presses
+43d3a7461c046d4a25951ff4d1ad69bb0ec7d7a9 platform/x86: panasonic-laptop: filter out duplicate volume up/down/mute keypresses
+96d7f569ded1953edf0a05dbf38681a3cc182e05 drm/fourcc: fix integer type usage in uapi header
+6df6d417d83b2cb42e386ccf41f28b3314d76139 net: sparx5: Add handling of host MDB entries
+df9a3531fa2dcf3456fa903c5483a5ee65224caa net: sparx5: mdb add/del handle non-sparx5 devices
+91cfa3d0b94d30b8149caed803650ec2d8babdaf hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
 
---===============0536886941729817459==
+--===============0679157686057550885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afd55c81b975-9a96094dca7d.txt
+Content-Disposition: attachment; filename=revlist-9a96094dca7d-cda4e6cc76e2.txt
 
-7e925028e9ff65d0fbffe3e65a91ec266833c12d ipv6: take care of disable_policy when restoring routes
-29c3d08858d6b246e1257cf2d4faf95c1f3a5287 nvdimm: Fix badblocks clear off-by-one error
-03b6026e4eed8c380f59f776df3069ad316586d6 powerpc/prom_init: Fix kernel config grep
-eb47a6b87581fad888dd2c925c9ac16ac14bdada powerpc/bpf: Fix use of user_pt_regs in uapi
-e1839061ed49f580a2e205112fd1a6e8b59a0d6d dm raid: fix accesses beyond end of raid member array
-7059216dd2ceba3193acd5edb3c38b5ba056a702 dm raid: fix KASAN warning in raid5_add_disks
-d7eaa437114b93071ecf64fc4c045f046bede413 s390/archrandom: simplify back to earlier design and initialize earlier
-852e2187022abf143a85f068439825aec4d01dc1 SUNRPC: Fix READ_PLUS crasher
-c6dbcfaec2150cd371f85cad97d6602753257015 net: rose: fix UAF bugs caused by timer handler
-42dd36e57e877c32a789ff9d874c57a3447de1c7 net: usb: ax88179_178a: Fix packet receiving
-20229d883a0a1c26b48bb2ae64efe3e410e61c72 virtio-net: fix race between ndo_open() and virtio_device_ready()
-d748859f3728c4fcd7a9c3fd2835e4aa0e2fe9fa selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
-7d2a5d4280b2aa78532f66bd09787bf4b700bbd0 net: tun: unlink NAPI from device on destruction
-506f6c4d0387dd6e1eae2c749b7915af31a0620c net: tun: stop NAPI when detaching queues
-4634653819cfff760b2202fe2dc82d8ec256db22 RDMA/qedr: Fix reporting QP timeout attribute
-34f4368faee9b2c6c61dcea8ae18e725a1934fae linux/dim: Fix divide by 0 in RDMA DIM
-d59cb43f142362c50c9a1287216a873d0b7cf4b4 usbnet: fix memory allocation in helpers
-9501a9422454f85cc7f7b8a1cad09901555cdd1c net: ipv6: unexport __init-annotated seg6_hmac_net_init()
-a11850e67201c7098d7beec01298024dc9ec33bc caif_virtio: fix race between virtio_device_ready() and ndo_open()
-480ac65c6e9ddc37c18651c72d4ee43cbeb17a46 PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
-bd198f8546a904c933fd275d87b81f24c4b36847 s390: remove unneeded 'select BUILD_BIN2C'
-790d7e9c96123d512a3ce0c51ae02720c362f1bb netfilter: nft_dynset: restore set element counter when failing to update
-9b9efb03f2b9cae38752017c6e7249e6a1c2cbe7 net/sched: act_api: Notify user space if any actions were flushed before error
-738b1c819aca50490e85805d07237db421b87738 net: bonding: fix possible NULL deref in rlb code
-fa2a666445f45c50fb97c2b4ede586ceb8154adf net: bonding: fix use-after-free after 802.3ad slave unbind
-a025f7a53d22d2355c96801542be9fbb11cc0df1 nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
-2b9cdd35dbffd2e4d4e40c506c7d3a1e36c2bddc NFC: nxp-nci: Don't issue a zero length i2c_master_read()
-e82ef3b7b39f2301d7856ceaf61e4218a55fa105 net: tun: avoid disabling NAPI twice
-8cc39e3ee6cb835398c87bf8a473da251ea31de2 xen/gntdev: Avoid blocking in unmap_grant_pages()
-1590322f17305539a2af91aee1810cf91a20631a hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
-7408856a2178be84a110f79c81f4dcadcb8ac5e1 net: dsa: bcm_sf2: force pause link settings
-8f07506108d12362e21f1e29fa8a91bd1ea71f12 sit: use min
-9a96094dca7d000b858de232ea6cb00592297c48 ipv6/sit: fix ipip6_tunnel_get_prl return value
+17b5d4d3266bea0714e34344b40d1c825222d014 ipv6: take care of disable_policy when restoring routes
+d2df353dcfec91411a4df7347724d0e989a32188 nvdimm: Fix badblocks clear off-by-one error
+d01103071c1b5e559335584d449cb29011eaa091 powerpc/prom_init: Fix kernel config grep
+0417f4ea8890152707a506a36fd72818dc23f32f powerpc/bpf: Fix use of user_pt_regs in uapi
+56caeb757b11fa225ec3fdd33adaa9120de7f058 dm raid: fix accesses beyond end of raid member array
+ea514ec34ef1c50f584bd10fc5c8d1ab6078505e dm raid: fix KASAN warning in raid5_add_disks
+1ac8b4bab756880a4fb9e002fded518e5a402ad6 s390/archrandom: simplify back to earlier design and initialize earlier
+869a43b8bb944838901405fd47b103f13ace29c5 SUNRPC: Fix READ_PLUS crasher
+a896fde091b17809b1b2ee2f5bb0aa8d7c223d8b net: rose: fix UAF bugs caused by timer handler
+16bac9ea029484cc991fc86fdc090a69447ee57a net: usb: ax88179_178a: Fix packet receiving
+f9ad12df865f831ab2d5e9aeb02a1c627a9dfa0c virtio-net: fix race between ndo_open() and virtio_device_ready()
+f479b9cca985d85f0ed2124acaaf5a1fa8a74c0c selftests/net: pass ipv6_args to udpgso_bench's IPv6 TCP test
+0f28da7fa7dbfe2e16e0588530dd2cf56fad2b97 net: tun: unlink NAPI from device on destruction
+e30dbb58e5d7f7df1803f39f766ae6875016073f net: tun: stop NAPI when detaching queues
+43114a8a620339dbd99f8a9ffd3f82149383adf3 RDMA/qedr: Fix reporting QP timeout attribute
+ad701d537475948988f0ae091f0f97a4898c8b47 linux/dim: Fix divide by 0 in RDMA DIM
+7187f6f257f3e413720442a4039a5ff39e878c86 usbnet: fix memory allocation in helpers
+53805608b6bd22a847b66ab438ff26559ba22bf9 net: ipv6: unexport __init-annotated seg6_hmac_net_init()
+03ddf90a74defb4d9ccb12f7f1f4c3d3d50d45ae caif_virtio: fix race between virtio_device_ready() and ndo_open()
+12b349ac39b5ff311cfaa9d7bf562038ef057102 PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
+e7f5b5cd9bcc435d90189b21ef7debbb54636765 s390: remove unneeded 'select BUILD_BIN2C'
+1ffc988f22c9eff5b401c645a9ff0b2ee1391cda netfilter: nft_dynset: restore set element counter when failing to update
+c790521904edcf1a93610d1f5c1ae32e7dfc9227 net/sched: act_api: Notify user space if any actions were flushed before error
+9bcb3a10edefba66522237fc81ff3f72d09bd4f7 net: bonding: fix possible NULL deref in rlb code
+c6369fb610ff69b5ed54e5f3d794053c3eef6c91 net: bonding: fix use-after-free after 802.3ad slave unbind
+e57272a7ff5ca008547c2628bf3f61e7b1b46b8d nfc: nfcmrvl: Fix irq_of_parse_and_map() return value
+988089f2dc07828d057da7c775b060add06b553f NFC: nxp-nci: Don't issue a zero length i2c_master_read()
+993464e89ded4aee139e8adee6b4bc3daa0a57c8 net: tun: avoid disabling NAPI twice
+6c1c50b5def8375dcbf92745264947c37ebcc21e xen/gntdev: Avoid blocking in unmap_grant_pages()
+238b8c52950f0ec6e1afcf66144572396971f787 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
+97d818d07d5ab08313ab656a4765d1a25b9cf28a net: dsa: bcm_sf2: force pause link settings
+90a8c818c68929ae9caadc8303e7266dfb28f8b0 sit: use min
+cda4e6cc76e234af2e2e356e54912775e9029515 ipv6/sit: fix ipip6_tunnel_get_prl return value
 
---===============0536886941729817459==--
+--===============0679157686057550885==--
