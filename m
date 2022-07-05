@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 05 Jul 2022 14:35:00 -0000
-Message-Id: <165703170080.5659.17012291585993256955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 05 Jul 2022 14:38:46 -0000
+Message-Id: <165703192696.8532.8685110882652567042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 935b5c199249cdfb6c1812a328cb69e2873b8c11
-    new: 6044ee416bfaf394f6856a6a512ed93f7a0b6ae1
+  - ref: refs/heads/master
+    old: 41f9e992d11e0fde0406b706afce31f6926e13de
+    new: 7e9db7fa5fc06c3f396e244e4863938e648bcb2d
     log: |
-         6044ee416bfaf394f6856a6a512ed93f7a0b6ae1 ath12k: Don't warn on failing to configure monitor ring
+         7e9db7fa5fc06c3f396e244e4863938e648bcb2d fix test_buf_select_pipe on older kernels
          
