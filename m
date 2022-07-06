@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0670594634952007039=="
+Content-Type: multipart/mixed; boundary="===============0934809579323372470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 06 Jul 2022 11:07:07 -0000
-Message-Id: <165710562742.743.6421222352726754663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 06 Jul 2022 11:07:42 -0000
+Message-Id: <165710566231.1049.2736593074063079500@gitolite.kernel.org>
 
---===============0670594634952007039==
+--===============0934809579323372470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: f4ba35b79bd0104f00e8e21e400b980bfaa2f17e
-    new: 676c6cc50d588528b9f30a81dd7aba16248da28c
-    log: revlist-f4ba35b79bd0-676c6cc50d58.txt
+  - ref: refs/heads/for-linus
+    old: f8582e321c52f87d552a10867aaacb88de3aeb64
+    new: 0991735f49b0da78fd726a683c1d203ae2e73f00
+    log: |
+         0991735f49b0da78fd726a683c1d203ae2e73f00 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: c5cc013954363711d9cd0bb4fb6a71dc91285f04
+    new: b182f4804a456b4ffdef1da14aef92c8d4cfda4a
+    log: revlist-c5cc01395436-b182f4804a45.txt
 
---===============0670594634952007039==
+--===============0934809579323372470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1657105625 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657105625-256fc67e3c9f2f356c2ac6eedc371e39cdbfa504
-
-f4ba35b79bd0104f00e8e21e400b980bfaa2f17e 676c6cc50d588528b9f30a81dd7aba16248da28c refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFbNkACgkQJNaLcl1U
-h9CdWgf/ZX1vIXAJlibYY1ESPvKrH66hq21MCYv6Xl43qqyPsa1jUTBb0J9lbpzz
-Kn7iZSfKDiSUooqjO4KI3dtERPRJznEuLy5FpJGTw7835BOMute2gKyzV3QgIFX2
-bLzioByzEeMYUWMQh2+EzKAhkv2Wy447oQBLKky3qzuyy89hzb7JNiy2kZ2aLQZp
-Z6m9Lsyg0wfnR3bQBzTCaHAuKH3ecTyYWtt3GlmJEUd0LIAbxUt2jF5wcVafr2Qc
-AK1iLn4IjUo+5j2LaGmHA+CGsUvOPwD8j37477HEkik9Uml2uo4b8WvSxAGbNC2a
-dVIoG1zb7S7j6rXTBz+OBduLWuW71A==
-=2AI0
------END PGP SIGNATURE-----
-
---===============0670594634952007039==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4ba35b79bd0-676c6cc50d58.txt
+Content-Disposition: attachment; filename=revlist-c5cc01395436-b182f4804a45.txt
 
 7bad8125549cda14d9ccf97d7d76f7ef6ac9d206 ASoC: fsl_utils: Add function to handle PLL clock source
 34dcdebecf2f05e1b275e1da8352f8e4c1aab6f6 ASoC: fsl_spdif: Add support for PLL switch at runtime.
@@ -72,5 +53,7 @@ fb617612fd8e017720d7fe907b22b4bb44027948 ASoC: tegra: tegra20_das: Drop write-on
 65b6851d243ff54cbd4adfb887a8af9d04b7f286 ASoC: SOF: Intel: byt: remove duplicating driver data retrieval
 945c7683c52ac39e8def05cf826632b52044874a Add support of two Audio PLL source
 676c6cc50d588528b9f30a81dd7aba16248da28c I2S driver changes for Jadeite platform
+0991735f49b0da78fd726a683c1d203ae2e73f00 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+b182f4804a456b4ffdef1da14aef92c8d4cfda4a Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============0670594634952007039==--
+--===============0934809579323372470==--
