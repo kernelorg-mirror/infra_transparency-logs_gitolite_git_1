@@ -1,28 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 06 Jul 2022 06:48:37 -0000
-Message-Id: <165709011736.11622.11325262935902382446@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5410377685301678100=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 06 Jul 2022 07:06:24 -0000
+Message-Id: <165709118489.23085.16605099411199423024@gitolite.kernel.org>
+
+--===============5410377685301678100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 6044ee416bfaf394f6856a6a512ed93f7a0b6ae1
-    new: 3a5232728e3f1751da5d1dcff5aac947bde2955e
-    log: |
-         02460bb5987624cd1e3853deab5f4d48d32d7df3 ath12k: remove unused struct ath12k_skb_cb::eid
-         cbcbb06c8e3579b4bb56f6fac4ddb2a8b226f42f ath12k: convert all C++ style // comments
-         fc1c089c5dc9a740fbabf5bacde1816f0ce2d746 ath12k: remove inline functions from .c files
-         30a58de98841784e010170782f2f6ed0a700551a ath12k: fix interface combinations to work without AP mode
-         e70d8092982f8afac58cab09261f4939be2ee36a ath12k: disable AP mode on WCN7850
-         f4a25f29815e7e4372fbee6926c2aff7d7f23ed9 ath12k: remove unused bdf_addr from ath12k_hw_params
-         725645b3bfc8681b5814c13ec34d7e01392f1366 ath12k: cleanup ath12k_hw_params
-         e6dc0d3f216545cdb666e34df3eeee6838995c09 ath12k: remove struct ath12k_hw_params::fix_l1ss
-         8b31a6dc1f4200f0cbca0917516c0312377c8f0e ath12k: hw: add qdss_config
-         3a5232728e3f1751da5d1dcff5aac947bde2955e ath12k: remove unused ath12k_dp_tx_htt_h2t_vdev_stats_ol_req()
-         
+  - ref: refs/heads/kvm-arm64/sysreg-cleanup-5.20
+    old: 2caf75563cc635ac75b46258a7d4df474b02bd40
+    new: 5491ce692056c4330bcb0438e9c3a2c2052d2139
+    log: revlist-2caf75563cc6-5491ce692056.txt
+
+--===============5410377685301678100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2caf75563cc6-5491ce692056.txt
+
+2d5f2e1fdf01298ccd0e5b73326b0be3a9b7ae1b KVM: arm64: Consolidate sysreg userspace accesses
+f94827038e15e10f8a8e2bae1465ed53c20f1931 KVM: arm64: Get rid of reg_from/to_user()
+8d0d38d1fc41d9873a06f59356b0f813d7cbc2e7 KVM: arm64: vgic-v3: Simplify vgic_v3_has_cpu_sysregs_attr()
+1bbf7a85fcdb6613147231b80ed126a48bb69001 KVM: arm64: vgic-v3: Push user access into vgic_v3_cpu_sysregs_uaccess()
+9c53338393bd08eb906acffa1495c80c75168ce4 KVM: arm64: vgic-v3: Make the userspace accessors use sysreg API
+899a64455c657208d64483ca087d642954ec4bf9 KVM: arm64: vgic-v3: Convert userspace accessors over to FIELD_GET/FIELD_PREP
+b65f0a2938e9df24b15855fd35be9e13eab30452 KVM: arm64: vgic-v3: Use u32 to manage the line level from userspace
+8a73cd437cbeb17dba2f13e3da89bdbfb22878ba KVM: arm64: vgic-v3: Consolidate userspace access for MMIO registers
+7cb84bd213f0788da28aac4b6790e9c86a8e2f9b KVM: arm64: vgic-v2: Consolidate userspace access for MMIO registers
+e9fb9b4805546214d078d22393200edcc2728bf9 KVM: arm64: vgic: Use {get,put}_user() instead of copy_{from.to}_user
+20ed964dd343c2549015135f8e906dec14f85781 KVM: arm64: vgic-v2: Add helper for legacy dist/cpuif base address setting
+0c5f19ff8cb0c7b86cd4df8decce4f51eb98ae0b KVM: arm64: vgic: Consolidate userspace access for base address setting
+9a9c2c74bd68c1231a71c49256644cdbe0c35970 KVM: arm64: Get rid of find_reg_by_id()
+b02cc1fb2e9b34a69acef2551b163e98bc439307 KVM: arm64: Descope kvm_arm_sys_reg_{get,set}_reg()
+5491ce692056c4330bcb0438e9c3a2c2052d2139 KVM: arm64: Get rid or outdated comments
+
+--===============5410377685301678100==--
