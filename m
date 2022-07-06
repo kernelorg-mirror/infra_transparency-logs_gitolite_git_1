@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4578848815940018961=="
+Content-Type: multipart/mixed; boundary="===============4457526749210435012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 06 Jul 2022 10:15:58 -0000
-Message-Id: <165710255843.32491.11137963094992238424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 06 Jul 2022 10:16:04 -0000
+Message-Id: <165710256458.32585.9250773187422257659@gitolite.kernel.org>
 
---===============4578848815940018961==
+--===============4457526749210435012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: ca687e8c7e1f5b6b07e84db592bfbef3670d8ead
-    new: d2f02b1f9936f5f4757c89e40df8f7541eaa8051
+  - ref: refs/heads/for-5.20
+    old: e129e413814720fe3ad3cdc74cfc32245cdbe972
+    new: 773d09b4c3acafd35f8b6e90848a39cedc03c52b
     log: |
-         35981d51fe5a3310a8c895cf0daf1809f143b8ac ASoC: Intel: Skylake: Correct the ssp rate discovery in skl_get_ssp_clks()
-         564025b9fe472a7a62895c55a66edd2abeea88a1 ASoC: Intel: Skylake: Correct the handling of fmt_config flexible array
-         d2f02b1f9936f5f4757c89e40df8f7541eaa8051 ASoC: Intel: Skylake: Fixes for skl_get_ssp_clks()
+         773d09b4c3acafd35f8b6e90848a39cedc03c52b regmap-irq: Fix bug in regmap_irq_get_irq_reg_linear()
          
 
---===============4578848815940018961==
+--===============4457526749210435012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657102557 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657102556-29dcb9eda8b626887c3839dbb17e10039239eeb8
+pusher C3F436CA30F5D8EB 1657102563 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1657102562-7b45e5bff6a0fee9331f0a7318ec16871484cf56
 
-ca687e8c7e1f5b6b07e84db592bfbef3670d8ead d2f02b1f9936f5f4757c89e40df8f7541eaa8051 refs/heads/asoc-5.19
+e129e413814720fe3ad3cdc74cfc32245cdbe972 773d09b4c3acafd35f8b6e90848a39cedc03c52b refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFYN0ACgkQJNaLcl1U
-h9AEBwf/QRW1osm9mZ0fo3e0VNdOih2Zo66LF7J9+o2ofhN0MO8yYoC24fJ6rciF
-pD+RvUOAd7I6sByMF9iHP/xb4yWVEzjlDU6/Zf2S6ijIHvQWy4YSgPMpK9908Qe8
-hETM39NiuT1eWwvtVX846Gs5rhc+ZBrUg5qfRj6TKuwy0rZ4tJlQtuQQUiD1U8xa
-H/JM7Y36dB892Bh0rBTMhb957x7eQX123dgb9hhM6JFqX1sjNV+FZKmJhmzwfFcz
-skYnj0O8F0fsUocrx3l5yDLYWvfeYfYm+EfbdfQFJaezKDIwjUpkffne2LcN/2Ln
-BbiXlW4KP2CLaTwSA6rnAOVNOyGYZQ==
-=b++w
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFYOMACgkQJNaLcl1U
+h9C/Lgf+ItYGtmalMTSuLzMs5jtlOTG4KJM2MIheSEdBaiTUQ/+d3dGLyipQWjgx
+6zfTW0VVPtf9uiIysqhpKI0l+geUE0BMu48irJarGlz9m69AM+ktWXfRHvpIx+tu
+SUKcIMvfkFSATeTMrP0egahTVM+mWndYWKDFEO6LpJt+pucFvGlG7x64jEeKeGpf
+XiHmNO23NumEEwFvOVMJ4APrUuu7BQ2akYEjIkJpOkqNNsuX86EP0ZTjCcN37W7e
+AM5kdzi17wKJQnrt+8iruTg8P75aJpYro4tetU2nKBOXS+0xA5E/31fP4DwfiXUd
+kJP5nq/DowcKIv2TcXesERZxyoXEdA==
+=ugxP
 -----END PGP SIGNATURE-----
 
---===============4578848815940018961==--
+--===============4457526749210435012==--
