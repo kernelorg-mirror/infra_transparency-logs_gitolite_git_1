@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5445818195026496913=="
+Content-Type: multipart/mixed; boundary="===============0670594634952007039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 06 Jul 2022 11:07:01 -0000
-Message-Id: <165710562145.656.7072392235712665638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 06 Jul 2022 11:07:07 -0000
+Message-Id: <165710562742.743.6421222352726754663@gitolite.kernel.org>
 
---===============5445818195026496913==
+--===============0670594634952007039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: f4ba35b79bd0104f00e8e21e400b980bfaa2f17e
     new: 676c6cc50d588528b9f30a81dd7aba16248da28c
     log: revlist-f4ba35b79bd0-676c6cc50d58.txt
 
---===============5445818195026496913==
+--===============0670594634952007039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657105619 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1657105619-a2d519788b3d033e5e1e044ebdfb8e0c4389ed68
+pusher C3F436CA30F5D8EB 1657105625 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1657105625-256fc67e3c9f2f356c2ac6eedc371e39cdbfa504
 
-f4ba35b79bd0104f00e8e21e400b980bfaa2f17e 676c6cc50d588528b9f30a81dd7aba16248da28c refs/heads/for-5.20
+f4ba35b79bd0104f00e8e21e400b980bfaa2f17e 676c6cc50d588528b9f30a81dd7aba16248da28c refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFbNMACgkQJNaLcl1U
-h9C8lwf+JAUhKquOKuBdEXnVd+iGYv/e/aG8NraLFAgoN11hkOPQS/RuCvbtqAvM
-ioPAcag3Jgpzwxp6NFgH2iu0oy2KG0BFO/qpyikMuUVO5CnnszbfPHP6X1ljoqYH
-Qfi0/geKd9Gw5AAM0pHjMNruEny4l0NoLwbjPTdde4HPISqoRUvU2S2fA4l06zQk
-8pK8Ftydkp7bea5y+oofIu9tT8RxQjzzdXcZnSIw8dLZ84MtjFH1zkf+AIjjR9bc
-PZJdcvo2ivOwIcEYBlCy7QdJfOk4xf3xWiRPawOXzKCQyHo63sRuItCEOG9C7V2J
-rF+t1jHcHcAC00KnNZsF5ONoHTqqRA==
-=7ygS
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFbNkACgkQJNaLcl1U
+h9CdWgf/ZX1vIXAJlibYY1ESPvKrH66hq21MCYv6Xl43qqyPsa1jUTBb0J9lbpzz
+Kn7iZSfKDiSUooqjO4KI3dtERPRJznEuLy5FpJGTw7835BOMute2gKyzV3QgIFX2
+bLzioByzEeMYUWMQh2+EzKAhkv2Wy447oQBLKky3qzuyy89hzb7JNiy2kZ2aLQZp
+Z6m9Lsyg0wfnR3bQBzTCaHAuKH3ecTyYWtt3GlmJEUd0LIAbxUt2jF5wcVafr2Qc
+AK1iLn4IjUo+5j2LaGmHA+CGsUvOPwD8j37477HEkik9Uml2uo4b8WvSxAGbNC2a
+dVIoG1zb7S7j6rXTBz+OBduLWuW71A==
+=2AI0
 -----END PGP SIGNATURE-----
 
---===============5445818195026496913==
+--===============0670594634952007039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ fb617612fd8e017720d7fe907b22b4bb44027948 ASoC: tegra: tegra20_das: Drop write-on
 945c7683c52ac39e8def05cf826632b52044874a Add support of two Audio PLL source
 676c6cc50d588528b9f30a81dd7aba16248da28c I2S driver changes for Jadeite platform
 
---===============5445818195026496913==--
+--===============0670594634952007039==--
