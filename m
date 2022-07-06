@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 06 Jul 2022 16:06:01 -0000
-Message-Id: <165712356133.5671.2578658339099934705@gitolite.kernel.org>
+Date: Wed, 06 Jul 2022 16:24:51 -0000
+Message-Id: <165712469135.17171.389288366177425132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,19 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 97d180dedc98ffa5769d783a48138123bef8a664
-    new: 1279f60783fea54bdb9f4ba3c778eaa301dbdf37
+    old: 1279f60783fea54bdb9f4ba3c778eaa301dbdf37
+    new: 5642cb8ce0f10369d110a384f1e2be56d9f49e00
     log: |
-         30e1f7bb96a918b6551ff5f97dd9f144aa04386d dt-bindings: samsung: document preferred compatible naming
-         1279f60783fea54bdb9f4ba3c778eaa301dbdf37 Merge branch 'next/dt' into for-next
+         38aed2e0aa406de6dda64515cc3937976a27038e dt-bindings: soc: samsung: exynos-pmu: cleanup assigned clocks
+         61bebc2902901cc2f1cac496dc81be38ca74d7d4 dt-bindings: soc: samsung: exynos-pmu: use abolute ref paths
+         3e27bf719303b1b19edd37bd04e9e586c73f6511 dt-bindings: soc: samsung: exynos-pmu: add reboot-mode
+         5642cb8ce0f10369d110a384f1e2be56d9f49e00 Merge branch 'next/dt' into for-next
          
   - ref: refs/heads/next/dt
-    old: 6a82ef85c4a4de42214e0c5a79242d54436541c3
-    new: 30e1f7bb96a918b6551ff5f97dd9f144aa04386d
+    old: 30e1f7bb96a918b6551ff5f97dd9f144aa04386d
+    new: 3e27bf719303b1b19edd37bd04e9e586c73f6511
     log: |
-         30e1f7bb96a918b6551ff5f97dd9f144aa04386d dt-bindings: samsung: document preferred compatible naming
+         38aed2e0aa406de6dda64515cc3937976a27038e dt-bindings: soc: samsung: exynos-pmu: cleanup assigned clocks
+         61bebc2902901cc2f1cac496dc81be38ca74d7d4 dt-bindings: soc: samsung: exynos-pmu: use abolute ref paths
+         3e27bf719303b1b19edd37bd04e9e586c73f6511 dt-bindings: soc: samsung: exynos-pmu: add reboot-mode
          
