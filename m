@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 06 Jul 2022 14:53:16 -0000
-Message-Id: <165711919620.22391.6870113586006127167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 06 Jul 2022 15:03:22 -0000
+Message-Id: <165711980255.28512.7780518397347143580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: eb91d2e7518243653bc3704c2e2eea6e59fd6833
-    new: d86c1568910e7079e6ceb875d653e44293409194
-    log: |
-         d86c1568910e7079e6ceb875d653e44293409194 drm/mediatek: dpi: Add dp_intf support
-         
+  - ref: refs/heads/fbcon-fix
+    old: 00d9330109290dee51be8898a3367dd2d6db33ec
+    new: 0000000000000000000000000000000000000000
