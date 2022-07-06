@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 06 Jul 2022 20:24:31 -0000
-Message-Id: <165713907142.13803.1475583652134539234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 06 Jul 2022 20:33:31 -0000
+Message-Id: <165713961170.19624.16126721494275897347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/pci/endpoint
-    old: a3b36f4ba4da8b7548ef89626465b2c05a711711
-    new: 1bc2b7bfba6e2f64edf5e246f3af2967261f6c3d
+  - ref: refs/heads/dt/next
+    old: e35330f879cf5d202ef5e13005b3505f07373614
+    new: 128a16b9704bc844fd0374b12eea16b563a7738a
     log: |
-         1bc2b7bfba6e2f64edf5e246f3af2967261f6c3d PCI: endpoint: Don't stop controller when unbinding endpoint function
+         560045a46a071417f1c80d9cf1fd40e274cef5e8 dt-bindings: hwinfo: group Chip ID-like devices
+         128a16b9704bc844fd0374b12eea16b563a7738a dt-bindings: hwinfo: samsung,s5pv210-chipid: add S5PV210 ChipID
          
