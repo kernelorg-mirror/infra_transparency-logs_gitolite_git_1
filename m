@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 06 Jul 2022 16:24:51 -0000
-Message-Id: <165712469135.17171.389288366177425132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 06 Jul 2022 16:26:50 -0000
+Message-Id: <165712481012.19346.6208147279874590217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: 1279f60783fea54bdb9f4ba3c778eaa301dbdf37
-    new: 5642cb8ce0f10369d110a384f1e2be56d9f49e00
+    old: 18562f96c16e355a4b7b0c5166a7d3cf38745937
+    new: 2140d0fb3c5536325443e6923cbeaf9d879ff57b
     log: |
-         38aed2e0aa406de6dda64515cc3937976a27038e dt-bindings: soc: samsung: exynos-pmu: cleanup assigned clocks
-         61bebc2902901cc2f1cac496dc81be38ca74d7d4 dt-bindings: soc: samsung: exynos-pmu: use abolute ref paths
-         3e27bf719303b1b19edd37bd04e9e586c73f6511 dt-bindings: soc: samsung: exynos-pmu: add reboot-mode
-         5642cb8ce0f10369d110a384f1e2be56d9f49e00 Merge branch 'next/dt' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: 30e1f7bb96a918b6551ff5f97dd9f144aa04386d
-    new: 3e27bf719303b1b19edd37bd04e9e586c73f6511
-    log: |
-         38aed2e0aa406de6dda64515cc3937976a27038e dt-bindings: soc: samsung: exynos-pmu: cleanup assigned clocks
-         61bebc2902901cc2f1cac496dc81be38ca74d7d4 dt-bindings: soc: samsung: exynos-pmu: use abolute ref paths
-         3e27bf719303b1b19edd37bd04e9e586c73f6511 dt-bindings: soc: samsung: exynos-pmu: add reboot-mode
+         8dad08175239ff22054fa87b720d1170c5e49cf0 dm verity: fix checkpatch close brace error
+         d9fcaa364808783a6295bbe3b9218020bd6a9b88 dm cache: fix typo in 2 comment blocks
+         9d9c998299bd9ff31dbc2413ae6345cdea81f9c7 dm raid: remove redundant "the" in parse_raid_params() comment
+         1e077c0b22590dee367da53e62bb42e95f16197d dm snapshot: fix typo in snapshot_map() comment
+         2140d0fb3c5536325443e6923cbeaf9d879ff57b docs: device-mapper: add a blank line at writecache.rst
          
