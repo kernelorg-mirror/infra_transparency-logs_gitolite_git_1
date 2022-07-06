@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Jul 2022 23:21:53 -0000
-Message-Id: <165714971381.3584.5761542404292442648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 06 Jul 2022 23:32:15 -0000
+Message-Id: <165715033554.9827.9214938725921625073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: 7c8121af1bfe29feedfa4fcb3154886660ecbe3a
-    new: f44294e84fa2be2055d88ff685c8411992de5ee5
+  - ref: refs/heads/master
+    old: 88646725187456fad6f17552e96c50c93bd361dc
+    new: 81b33a55ffd7540b54ebba64138712a1c3b5cb71
     log: |
-         f44294e84fa2be2055d88ff685c8411992de5ee5 bpf: Make non-preallocated allocation low priority
+         81b33a55ffd7540b54ebba64138712a1c3b5cb71 statx.2: correctly document STATX_ALL
          
