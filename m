@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 06 Jul 2022 23:20:15 -0000
-Message-Id: <165714961579.2952.17111546675209685742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 06 Jul 2022 23:21:48 -0000
+Message-Id: <165714970831.3506.14828491569181091863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/mlx5-updates-2022-07-06
-    old: 0000000000000000000000000000000000000000
-    new: 1fb7efff00395f194214c25cc4ed1815f8444d35
+  - ref: refs/heads/master
+    old: 7c8121af1bfe29feedfa4fcb3154886660ecbe3a
+    new: f44294e84fa2be2055d88ff685c8411992de5ee5
+    log: |
+         f44294e84fa2be2055d88ff685c8411992de5ee5 bpf: Make non-preallocated allocation low priority
+         
