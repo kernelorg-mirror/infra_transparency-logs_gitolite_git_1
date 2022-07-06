@@ -1,46 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 06 Jul 2022 13:44:17 -0000
-Message-Id: <165711505737.8716.177357740599006962@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4214103681874895654=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 06 Jul 2022 14:09:05 -0000
+Message-Id: <165711654566.23652.10580618419751949460@gitolite.kernel.org>
+
+--===============4214103681874895654==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 7a713b029862c784eaf30793456b1c83240675e5
-    new: f97e5813664c9631f3890f316cc9c8da611719ea
+  - ref: refs/heads/for-5.20
+    old: 676c6cc50d588528b9f30a81dd7aba16248da28c
+    new: f1fd46e068f52893608469df98d4608672e3e45f
     log: |
-         04257c45d44e6590e7fdd8c32c816b77f679cc0b Merge branches 'acpi-cppc', 'acpi-tables' and 'acpi-pm' into linux-next
-         f97e5813664c9631f3890f316cc9c8da611719ea Merge branches 'pm-sleep' and 'powercap' into linux-next
+         c0fabd12a8570cb932f13d9388f3d887ad44369b ASoC: imx-card: Fix DSD/PDM mclk frequency
+         f1fd46e068f52893608469df98d4608672e3e45f ASoC: Intel: avs: Fix i2s_test card name initialization
          
-  - ref: refs/heads/linux-next
-    old: 3bc028d913bd352d8ba9e4b371e7e1303457bfe3
-    new: f97e5813664c9631f3890f316cc9c8da611719ea
-    log: |
-         3dcb861dbc6ab101838a1548b1efddd00ca3c3ec ACPI: VIOT: Fix ACS setup
-         7feec7430edddb87c24b0a86b08a03d0b496a755 ACPI: CPPC: Only probe for _CPC if CPPC v2 is acked
-         8b356e536e69f3a4d6778ae9f0858a1beadabb1f ACPI: CPPC: Don't require _OSC if X86_FEATURE_CPPC is supported
-         ed470febf837dfb117601f0df058dcab02c8c570 ACPI: PM: s2idle: Add support for upcoming AMD uPEP HID AMDI008
-         09d3154a6f0f0bb5b604832095804780f3684b96 PM: wakeup: Unify device_init_wakeup() for PM_SLEEP and !PM_SLEEP
-         2755714656d0f2f41adfe231f3865e72da2cbe39 powercap: intel_rapl: Add support for RAPTORLAKE_P
-         04257c45d44e6590e7fdd8c32c816b77f679cc0b Merge branches 'acpi-cppc', 'acpi-tables' and 'acpi-pm' into linux-next
-         f97e5813664c9631f3890f316cc9c8da611719ea Merge branches 'pm-sleep' and 'powercap' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 3bc028d913bd352d8ba9e4b371e7e1303457bfe3
-    new: f97e5813664c9631f3890f316cc9c8da611719ea
-    log: |
-         3dcb861dbc6ab101838a1548b1efddd00ca3c3ec ACPI: VIOT: Fix ACS setup
-         7feec7430edddb87c24b0a86b08a03d0b496a755 ACPI: CPPC: Only probe for _CPC if CPPC v2 is acked
-         8b356e536e69f3a4d6778ae9f0858a1beadabb1f ACPI: CPPC: Don't require _OSC if X86_FEATURE_CPPC is supported
-         ed470febf837dfb117601f0df058dcab02c8c570 ACPI: PM: s2idle: Add support for upcoming AMD uPEP HID AMDI008
-         09d3154a6f0f0bb5b604832095804780f3684b96 PM: wakeup: Unify device_init_wakeup() for PM_SLEEP and !PM_SLEEP
-         2755714656d0f2f41adfe231f3865e72da2cbe39 powercap: intel_rapl: Add support for RAPTORLAKE_P
-         04257c45d44e6590e7fdd8c32c816b77f679cc0b Merge branches 'acpi-cppc', 'acpi-tables' and 'acpi-pm' into linux-next
-         f97e5813664c9631f3890f316cc9c8da611719ea Merge branches 'pm-sleep' and 'powercap' into linux-next
-         
+
+--===============4214103681874895654==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1657116544 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1657116543-4fa3a808493553cbd880350e57bc198bf80465c3
+
+676c6cc50d588528b9f30a81dd7aba16248da28c f1fd46e068f52893608469df98d4608672e3e45f refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFl4AACgkQJNaLcl1U
+h9BR5wf/ZlVj9dVSrQGwp71AkTfwhKH5W9evAVC13lp2VHlw64YZWBmsm1Z+POzD
+s5wk3AfggfsxtadiD/lZTVzFAHwr8/GLw3OyS8zKJ4OfAqEZebnOy4/d+1vnq4wJ
+YUEjigKiZzqxFzD6fLnClVa8dla5fdKBb6ekbRRCffT384efvMOT1xXTbS0i8S8l
+tfAmtRtJk7Gp02/N7/o0kNKoeX+3Y1euUgSfrx6i6p4/08MSWEPmkjveA+2d69e9
+i/YF6udPw7ExmaLLyHkDnUqAcRbrvZ/ehffkMKVP0/VsZ5ucFnqwS+N/GCHvxCD6
+L9akLENUgHwF0QmidtzWCy3zt76suA==
+=QJE0
+-----END PGP SIGNATURE-----
+
+--===============4214103681874895654==--
