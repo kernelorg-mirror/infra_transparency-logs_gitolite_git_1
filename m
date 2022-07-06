@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 06 Jul 2022 23:32:15 -0000
-Message-Id: <165715033554.9827.9214938725921625073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 06 Jul 2022 23:33:15 -0000
+Message-Id: <165715039537.10218.2254035484013167812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 88646725187456fad6f17552e96c50c93bd361dc
-    new: 81b33a55ffd7540b54ebba64138712a1c3b5cb71
+    old: a6a87c36165e6791eeaed88025cde270536c3198
+    new: c4bcc1b99b8b8acdfe673e4701a9c2acb6b8b2fb
     log: |
-         81b33a55ffd7540b54ebba64138712a1c3b5cb71 statx.2: correctly document STATX_ALL
+         c4bcc1b99b8b8acdfe673e4701a9c2acb6b8b2fb Input: goodix - switch use of acpi_gpio_get_*_resource() APIs
+         
+  - ref: refs/heads/next
+    old: a6a87c36165e6791eeaed88025cde270536c3198
+    new: c4bcc1b99b8b8acdfe673e4701a9c2acb6b8b2fb
+    log: |
+         c4bcc1b99b8b8acdfe673e4701a9c2acb6b8b2fb Input: goodix - switch use of acpi_gpio_get_*_resource() APIs
          
