@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4608010581582972749=="
+Content-Type: multipart/mixed; boundary="===============6163835505698834769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 06 Jul 2022 10:16:10 -0000
-Message-Id: <165710257048.32726.9158010274748398488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 06 Jul 2022 10:16:16 -0000
+Message-Id: <165710257643.368.11334555913663588937@gitolite.kernel.org>
 
---===============4608010581582972749==
+--===============6163835505698834769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.20
-    old: e129e413814720fe3ad3cdc74cfc32245cdbe972
-    new: 773d09b4c3acafd35f8b6e90848a39cedc03c52b
+  - ref: refs/heads/for-5.20
+    old: 3dbee7f9e9e005e3bd7b5e35c8a5bab4fc27bd48
+    new: d08412328e4ff4928a60438e62e34e67f687a740
     log: |
-         773d09b4c3acafd35f8b6e90848a39cedc03c52b regmap-irq: Fix bug in regmap_irq_get_irq_reg_linear()
+         38493f008deb435577361d4c4cdd69f7bb30f4b9 regulator: max597x: Add support for max597x regulator
+         d08412328e4ff4928a60438e62e34e67f687a740 regulator: Fix parameter declaration and spelling mistake.
          
 
---===============4608010581582972749==
+--===============6163835505698834769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657102569 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657102568-3d7dac54e33b0b7e59be1cb854cfb4264ed0371f
+pusher C3F436CA30F5D8EB 1657102575 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1657102574-03214608b9b2ea29239f76a93220dcbe4d374797
 
-e129e413814720fe3ad3cdc74cfc32245cdbe972 773d09b4c3acafd35f8b6e90848a39cedc03c52b refs/heads/regmap-5.20
+3dbee7f9e9e005e3bd7b5e35c8a5bab4fc27bd48 d08412328e4ff4928a60438e62e34e67f687a740 refs/heads/for-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFYOkACgkQJNaLcl1U
-h9DUiwf/Q+FfnhJYEuI6HZ8LMTPnQIKCMTEbHkoovjhMnwG6+L+OGvydQXlWphoz
-sILpF/RSYno+5e82MmSMuxmtmRfF/eZB1vrjSwsZne2b0R4PEqNuIKzmawGbqIZd
-2AwStdLkwaLQwDlWXn24YQlgJjrA4icaKCgwXpkwhDhihKCFZMJ2XW+9GTRJ9Nz1
-nS3ITWgiBf/RU1rM8WHd5WtDLukbrvYBHH4K9nT9ujzLmmgl9DpGhm8vqS6iUOQr
-yJ0LBy6fzPXagexRMakLIKLeJwrYGcoRFPWKbGsYron5KEVhnV4dKvPcGy6Om58s
-5g7je47occBYOwV/xk2rtre1i7UYMQ==
-=kolI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLFYO8ACgkQJNaLcl1U
+h9C2IQf9Gf+64WjjTaZ5KDLWVWiXgl+cH+6J7L0UDJQ8lrwFVpMbXG6hQ1gVT9ru
+f+uuWYlVRmhUERlRHhux2UuArdz2TEhxdnNHNMebxpzW4Jl1fXViHZgHv6jMw3B1
+Q8GsTDFDzsXkqJjA88YlyyKxFF/hp87cg6BNmoORv2o0ALc0pntt8hICxsPYy7hu
+Bxrj3CzjVcn4FHrY+qBM596nT/noawXKaI5q9QumP2rSRSije3ltIAShMgDd/EMD
+NbyEVsivPuDdS427h9BfIORcdwVnEYvtdBqdtHBN8wUF/3nNwHOZx34gnM1shqzJ
+xsAu5FYkcTg8RNwJcFG23ptWUTCKlA==
+=+b3Y
 -----END PGP SIGNATURE-----
 
---===============4608010581582972749==--
+--===============6163835505698834769==--
