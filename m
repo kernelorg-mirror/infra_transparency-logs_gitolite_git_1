@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Jul 2022 04:24:02 -0000
-Message-Id: <165708144254.13827.3528307513055514621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Wed, 06 Jul 2022 04:37:29 -0000
+Message-Id: <165708224947.22394.15528694511505359777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: f6b9f6d57e5c765b5ff358af1d7749df5e30334c
-    new: e4adceef5b0e75f000754254047af59c65295ac4
+  - ref: refs/heads/next
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 244c5ec0fa61fec7f2c39828528496e740e5f4d1
     log: |
-         8094029330a2f03fb406ecff80671cf27ce28d42 libbpf: Cleanup the legacy kprobe_event on failed add/attach_event()
-         5666fc997ccb93859ea1d4437936c64c6d75c060 libbpf: Fix wrong variable used in perf_event_uprobe_open_legacy()
-         2655144fb49bae26eae038c6d056f824a7db2726 libbpf: Cleanup the legacy uprobe_event on failed add/attach_event()
-         e4adceef5b0e75f000754254047af59c65295ac4 Merge branch 'cleanup the legacy probe_event on failed scenario'
+         37a0ca7e5cdf175a1a820adb3adba904612fed46 soundwire: qcom: Add flag for software clock gating check
+         50a1e7db288e9776a032ca8c46879261626e0f17 soundwire: qcom: Enable software clock gating requirement flag
+         244c5ec0fa61fec7f2c39828528496e740e5f4d1 soundwire: bus_type: fix remove and shutdown support
          
