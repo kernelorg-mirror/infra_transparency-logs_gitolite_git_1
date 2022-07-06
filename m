@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 06 Jul 2022 01:25:43 -0000
-Message-Id: <165707074308.26993.5476581810960236176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 06 Jul 2022 01:52:59 -0000
+Message-Id: <165707237997.11766.8295733288996762291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 26c12725b462a4d39a8494554c9713d6fb86f6bd
-    new: e6fa930f73a15238f3cb0c204e2f786c919b815c
+    old: 10ed11ab6399813eb652137db9c378433c28a95c
+    new: 7e40e16e38ba58858b0056ef9ea34459fc80dc52
     log: |
-         e6fa930f73a15238f3cb0c204e2f786c919b815c net: lan966x: hardcode the number of external ports
+         7e40e16e38ba58858b0056ef9ea34459fc80dc52 net: asix: change the type of asix_set_sw/hw_mii to static
          
