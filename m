@@ -1,22 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Wed, 06 Jul 2022 19:53:20 -0000
-Message-Id: <165713720041.25507.16138254087879525009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 06 Jul 2022 20:15:54 -0000
+Message-Id: <165713855478.9675.258141229093035211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/erofs/advancedpcl
-    old: 4402718100a3d10627049bb2283d4fd5a2d6f619
-    new: 8a9b5712cd61b3a9d6fce11ffa44759559cb1a3f
+  - ref: refs/heads/i2c/for-mergewindow
+    old: e4c72c06c367758a14f227c847f9d623f1994ecf
+    new: 24fff66f1f26d618d3b16c36603c10175e3d660f
     log: |
-         15dedc08a122aa0f0e59195ce34011e0d7dd0a72 erofs: introduce struct z_erofs_decompress_backend
-         ab74bb120d2fc9db15176650442eb70a7eb93a31 erofs: try to leave (de)compressed_pages on-stack if possible
-         4f41cb23f555b801ff276e137fa420942ce03a57 erofs: introduce
-         8a9b5712cd61b3a9d6fce11ffa44759559cb1a3f erofs: introduce multi-reference pclusters
+         d4ae0222f6bb749cd5badb89e20d25e7da15b1b7 dt-bindings: i2c: nomadik: Drop unused voltage supply from example
+         faa60f188cc3fc9d2900196b0ae96c4781225036 dt-bindings: i2c: nomadik: Add power domain to binding
+         24fff66f1f26d618d3b16c36603c10175e3d660f i2c: i801: Add support for Intel Meteor Lake-P
+         
+  - ref: refs/heads/i2c/for-next
+    old: d893259cd9f91b5bd272d400f706af244bae879b
+    new: 790a1d064e6b34813dca81223285a3051a6b7c57
+    log: |
+         d4ae0222f6bb749cd5badb89e20d25e7da15b1b7 dt-bindings: i2c: nomadik: Drop unused voltage supply from example
+         faa60f188cc3fc9d2900196b0ae96c4781225036 dt-bindings: i2c: nomadik: Add power domain to binding
+         24fff66f1f26d618d3b16c36603c10175e3d660f i2c: i801: Add support for Intel Meteor Lake-P
+         790a1d064e6b34813dca81223285a3051a6b7c57 Merge branch 'i2c/for-mergewindow' into i2c/for-next
          
