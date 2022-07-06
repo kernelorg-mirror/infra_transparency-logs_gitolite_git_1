@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Wed, 06 Jul 2022 10:48:50 -0000
-Message-Id: <165710453056.21382.16122738846771960064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 06 Jul 2022 10:51:57 -0000
+Message-Id: <165710471763.23909.9685931147943279381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/fs.idmapped.overlay.acl.fix
-    old: 4f9f3bb7659cd8deba5814e134ab6a48843c61c2
-    new: becdb713b7647e0f7aa353e14c64c84abe9037fe
+  - ref: refs/heads/master
+    old: 03c765b0e3b4cb5063276b086c76f7a612856a9a
+    new: b06ae5cc5acfc776074b6fa7580a3e33fd999734
     log: |
-         becdb713b7647e0f7aa353e14c64c84abe9037fe acl: report correct ownership in some ovl use-cases
+         b06ae5cc5acfc776074b6fa7580a3e33fd999734 random: remove CONFIG_ARCH_RANDOM
          
