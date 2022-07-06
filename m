@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 06 Jul 2022 11:41:38 -0000
-Message-Id: <165710769804.23318.5538687937988783217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 06 Jul 2022 11:42:02 -0000
+Message-Id: <165710772251.23713.9523621254681551008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: b06ae5cc5acfc776074b6fa7580a3e33fd999734
-    new: 380860e7527823bb0ee89e4c9d0cdef24cffd8a3
-    log: |
-         380860e7527823bb0ee89e4c9d0cdef24cffd8a3 random: remove CONFIG_ARCH_RANDOM
-         
+  - ref: refs/heads/rockchip/dt
+    old: 0000000000000000000000000000000000000000
+    new: e5a3cbe8b45b0a436a39cc969b7bcc8353248018
