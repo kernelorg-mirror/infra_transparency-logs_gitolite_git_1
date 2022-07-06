@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3273228132311466729=="
+Content-Type: multipart/mixed; boundary="===============5201630380872349429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 06 Jul 2022 08:34:44 -0000
-Message-Id: <165709648416.15353.14231457535635415918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 06 Jul 2022 08:34:54 -0000
+Message-Id: <165709649417.15481.8158145271836402822@gitolite.kernel.org>
 
---===============3273228132311466729==
+--===============5201630380872349429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 2a2aa3f05338270aecbe2492fda910d6c17e0102
     new: 088b9c375534d905a4d337c78db3b3bfbb52c4a0
     log: revlist-2a2aa3f05338-088b9c375534.txt
-  - ref: refs/heads/stable
-    old: c1084b6c5620a743f86947caca66d90f24060f56
-    new: e35e5b6f695d241ffb1d223207da58a1fbcdff4b
-    log: |
-         2f446ffe9d737e9a844b97887919c4fda18246e7 xen/blkfront: fix leaking data in shared pages
-         307c8de2b02344805ebead3440d8feed28f2f010 xen/netfront: fix leaking data in shared pages
-         4491001c2e0fa69efbb748c96ec96b100a5cdb7e xen/netfront: force data bouncing when backend is untrusted
-         2400617da7eebf9167d71a46122828bc479d64c9 xen/blkfront: force data bouncing when backend is untrusted
-         f63c2c2032c2e3caad9add3b82cc6e91c376fd26 xen-netfront: restore __skb_queue_tail() positioning in xennet_get_responses()
-         b75cd218274e01d026dc5240e86fdeb44bbed0c8 xen/arm: Fix race in RB-tree based P2M accounting
-         e35e5b6f695d241ffb1d223207da58a1fbcdff4b Merge tag 'xsa-5.19-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-         
-  - ref: refs/tags/next-20220406
-    old: dcdbc12e74c8b8921a40c97e461b20614b0b45ab
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220706
     old: 0000000000000000000000000000000000000000
     new: 3f7276cd7c27f9c181a44ffcfbfb84f093d5e629
 
---===============3273228132311466729==
+--===============5201630380872349429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -983,4 +968,4 @@ a1218e905e385e477ed3132843e2882d7024a370 Merge branch 'mm-stable' of git://git.k
 d44f23facad5f5509543218338003165ebd2de2a Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 088b9c375534d905a4d337c78db3b3bfbb52c4a0 Add linux-next specific files for 20220706
 
---===============3273228132311466729==--
+--===============5201630380872349429==--
