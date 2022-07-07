@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 07 Jul 2022 10:19:25 -0000
-Message-Id: <165718916516.1412.5683625677533626830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 07 Jul 2022 10:30:40 -0000
+Message-Id: <165718984056.9336.9790193819645884553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 8af3a0b23818af59971f538bf258c15e1033ea55
-    new: c8e27a4a5136e7230f9e4ffcf132705bf56864cc
-    log: |
-         c8e27a4a5136e7230f9e4ffcf132705bf56864cc gpiolib: cdev: fix null pointer dereference in linereq_free()
-         
+  - ref: refs/heads/for-next/mte
+    old: 0000000000000000000000000000000000000000
+    new: 20794545c14692094a882d2221c251c4573e6adf
