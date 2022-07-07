@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 07 Jul 2022 13:57:10 -0000
-Message-Id: <165720223009.17306.11305829586014246884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Thu, 07 Jul 2022 14:11:24 -0000
+Message-Id: <165720308442.26209.5143243272324810362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 3a5232728e3f1751da5d1dcff5aac947bde2955e
-    new: 6813eb18dee376635d6183b43d3d5177841ba914
+  - ref: refs/heads/for-next
+    old: 931c273b9fab92ad3f95ca842321d30a3b0e58ab
+    new: 5281655db0e1f6a5898c4c26815eb816eead2699
     log: |
-         667fc06887bf53015db786dbc00dc579ef72d04b ath12k: Convert FIELD_GET() to u32_get_bits()
-         cfa4e9777ed34ddbb3a1acadf25a8603b7f22bd3 ath12k: Replace FIELD_GET() to u32_get_bits() in htc.c, mac.c and pci.c
-         6813eb18dee376635d6183b43d3d5177841ba914 ath12k: Fix 'cast to pointer from integer' compiler warnings
+         63859d711a13c7dd96f499b921793363db1a76dd arm64: dts: mediatek: mt8183-kukui: Assign sram supply to mfg_async pd
+         13bde169c6fe0ff7a527927a838eb732d6b14f37 soc: mediatek: mtk-pm-domains: Allow probing vreg supply on two MFGs
+         c749d676a33d99ee4c40d69ac2bf280270d890ad soc: mediatek: SVS: Use DEFINE_SIMPLE_DEV_PM_OPS for svs_pm_ops
+         59240d1ffc8c3c86f3359243f7c32e4e51d7c178 Merge branch 'v5.19-next/dts64' into for-next
+         5281655db0e1f6a5898c4c26815eb816eead2699 Merge branch 'v5.19-next/soc' into for-next
          
