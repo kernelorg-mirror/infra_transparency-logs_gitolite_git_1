@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3282139706254785305=="
+Content-Type: multipart/mixed; boundary="===============2030023851419363034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 07 Jul 2022 17:23:45 -0000
-Message-Id: <165721462535.9274.8800219416926425709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 07 Jul 2022 17:23:50 -0000
+Message-Id: <165721463092.9373.4576251306453145840@gitolite.kernel.org>
 
---===============3282139706254785305==
+--===============2030023851419363034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: 8523e2e107e0b7930fa35d2a5f21af526ed02f22
     new: fc976f5629afb4160ee77798b14a693eac903ffd
     log: revlist-8523e2e107e0-fc976f5629af.txt
 
---===============3282139706254785305==
+--===============2030023851419363034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ c7dab6745f4288af1e45d3809bf86a3778301616 ASoC: Intel: sof_rt5682: fix out-of-bou
 219af251bd1694bce1f627d238347d2eaf13de61 ASoC: Intel: Skylake: Correct the ssp rate discovery in skl_get_ssp_clks()
 fc976f5629afb4160ee77798b14a693eac903ffd ASoC: Intel: Skylake: Correct the handling of fmt_config flexible array
 
---===============3282139706254785305==--
+--===============2030023851419363034==--
