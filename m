@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2155349940641948098=="
+Content-Type: multipart/mixed; boundary="===============3813279699824203183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 07 Jul 2022 08:25:17 -0000
-Message-Id: <165718231711.9829.4040607038295138863@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 08:29:46 -0000
+Message-Id: <165718258648.11286.11491243270454885890@gitolite.kernel.org>
 
---===============2155349940641948098==
+--===============3813279699824203183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/dt
-    old: 72e76dc2f93b5b8f6e5421e44fe251ace89ffe9f
-    new: 999462d336492e04e427158fac04c92ade465bc9
-    log: revlist-72e76dc2f93b-999462d33649.txt
+  - ref: refs/heads/for-next
+    old: 3cf613f45558279edb995b413af034772ae1a234
+    new: 477e0cf4de3d2f54d54f5936a9120557c0458bc5
+    log: revlist-3cf613f45558-477e0cf4de3d.txt
 
---===============2155349940641948098==
+--===============3813279699824203183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72e76dc2f93b-999462d33649.txt
+Content-Disposition: attachment; filename=revlist-3cf613f45558-477e0cf4de3d.txt
 
 c805b77caba9e49d43321112f272508d2b1acd25 ARM: dts: exynos: align SDHCI node name with dtschema
 1923e58045471c7226eeab34762e2f821c2c31b7 ARM: dts: s3c24xx: align SDHCI node name with dtschema
@@ -41,5 +41,7 @@ aae10d2bc56fd5c4e9741b98f220e56ca88bf7ca arm64: dts: exynosautov9: prepare usi0 
 3e27bf719303b1b19edd37bd04e9e586c73f6511 dt-bindings: soc: samsung: exynos-pmu: add reboot-mode
 8873d6b8779195b877ebd2bc05794aec089302eb Merge tag 'samsung-dt-5.20-2' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
 999462d336492e04e427158fac04c92ade465bc9 Merge tag 'samsung-dt64-5.20-2' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
+ea5393d2d2cad4265238ba1faaed1a2cd0c2fbda Merge branch 'arm/dt' into for-next
+477e0cf4de3d2f54d54f5936a9120557c0458bc5 soc: document merges
 
---===============2155349940641948098==--
+--===============3813279699824203183==--
