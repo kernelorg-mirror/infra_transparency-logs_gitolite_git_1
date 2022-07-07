@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3430129356212407900=="
+Content-Type: multipart/mixed; boundary="===============3102960818491682601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 07 Jul 2022 21:46:45 -0000
-Message-Id: <165723040514.18274.4662402027127275216@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 21:46:59 -0000
+Message-Id: <165723041940.18461.17948325729023624404@gitolite.kernel.org>
 
---===============3430129356212407900==
+--===============3102960818491682601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 79a988f61e0fe3f3cab4a36c2bf1e7137e690d1b
-    new: c3714cca6aae0265aacf243bb3571b95878696f5
-    log: revlist-79a988f61e0f-c3714cca6aae.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: bcec04b3cce4c498ef0d416a3a2aaf0369578151
+    new: 9821106213c826f9c3dbccb617ce76f8981c8aba
+    log: revlist-bcec04b3cce4-9821106213c8.txt
 
---===============3430129356212407900==
+--===============3102960818491682601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1657230395 -0400
+pusher 75C5DE3D 1657230410 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1657230394-26394a85dcd44d9c69f62c2d52a267e6f5857803
+nonce 1657230409-4d0b10d298f6f3e159078f02ca17e35e3ce1335a
 
-79a988f61e0fe3f3cab4a36c2bf1e7137e690d1b c3714cca6aae0265aacf243bb3571b95878696f5 refs/tags/mkp-scsi-staging
+bcec04b3cce4c498ef0d416a3a2aaf0369578151 9821106213c826f9c3dbccb617ce76f8981c8aba refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLHVDsACgkQ7ulgGnXF
-3j0nIBAAo1Sb0nhUtE043UWeUehXKFFrsr9E8zRiPF4UGHNtvoyp/lL7lo8uuIBz
-/LTEJrzbs7A1Avqzdm068Q5K7N+q5Pkn8r4xgDpxOt/YxT5I6hZDqQ0JYItwfoSP
-dEy4Y4XyNg+MoJkFhBMPCPXdeEuJnPXPJ3IozfZHs2AG+owqd1KBRuYZbfHY1tyy
-/ofFmIPbLYmjmd0Uwt1vNVsyRmzO4YoKSKaNiLb8R5z2wZ4A8b+PsrazcFvEZZKD
-IUOyr/KpHFUM2xKGv36ZXhkhHjbi78Eu454gX24iuRyk8ZO67gYoOwyRwqZ5V5Kx
-oa4Q7JeMPWDcpHAr8T4f0BhVwLMzu20/Jf42ryVaaQregB+onSBfCqbt9F1KHszR
-QyanU/PybuBYR+8owYov2QZSzJIXJOF1+g19UhIAW6yekMlTdN2lcZqktvKrzPCv
-za0lR07YVikjwbO8gCaHl6jTv1pNbGwwl3y6VJOWEuQYTc2NyKNt2MKmKxpa9Bza
-dKuIg5i1aTgO/d/fTZWTEmC4l7iLLQPTlkSTdmatqI/Yn7ViG0BqwEAnEYtb15Nd
-R7xH+J+5VOP0QTw8RkfhAG0TcakmlfP8bCwMvY/kKPOAq8MxWEB7wCWGyovMA7Ut
-bzFYg0y3/VCFx635rv5LHucWeR1I2YTT+Q6MGfjxt/tLOfU+I3E=
-=T+K8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLHVEoACgkQ7ulgGnXF
+3j0+JA//X08PQn8CE0WVvGC4MjaWbNHOFqvzQpOwmZvZ5P51DsFb/OdPT98CqtIA
+/L6NEptSbLoOXztpUC8YJzjwMJpfvb8Q0duIiMj07sQtmLScY/nSj65GE9hNGwH5
+gcOWU4EazSWp9Ghrm4FfKl+A16iiBYjZ+HnXxwmuogZgHU1GB4rRSisKY5vAk33a
+FwXTAXk1LsYOe4ELfiLS5B9U8wqUTVbgNWlYQc66Fn/u4S0HnDetyPgaUNoMR7Na
+sBcnSB3Xv7q5xozvKSxHuYBycEkbWNS84cDhAUYol2+c5lZRPZ7nOVnmIWySRbrt
+8oczeYEdkvpXTBUvF57Ufqrto7LR5kJOfBiuDqSg6HDqsDXRQZk0UlXVdRPJXgwZ
+h5t7/BWcDUrK5yOBoESyl+a8lhkeuDDKzVltAbs+oC/JGKCNeojqhuei8DFyQAYV
+bSFYtH1SECKhYLykpoSfkCMrswStz4I+WejuUKuPlwIKGktv7E/zt03s/xJ3zeJA
+QgWZedc7bZGR19SgAhNPy5rzYeGDTN0zlf5I6xl7dghgHCvWfHzzO0PLWFkjO42K
+9zTUu9Oo5POg8KOhgQ0fnkrdvWupdmnEVFr+Z+DCOkSQxOHlNdk24csSNDUhVlaT
+dkYOe+SyJD1juLkM9//m5NrKz1SP4H4uPxX/zn6Sk3NSBOch6NI=
+=burn
 -----END PGP SIGNATURE-----
 
---===============3430129356212407900==
+--===============3102960818491682601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79a988f61e0f-c3714cca6aae.txt
+Content-Disposition: attachment; filename=revlist-bcec04b3cce4-9821106213c8.txt
 
 f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
 cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
@@ -112,4 +112,4 @@ b3d11f195cbbe665c100b964f6837984b4226cd1 scsi: lpfc: Copyright updates for 14.2.
 b9787bdfdba5ab0e558e3d142b1c2f6a54cbf6b1 scsi: zfcp: Declare zfcp_sdev_attrs as static
 9821106213c826f9c3dbccb617ce76f8981c8aba scsi: zfcp: Drop redundant "the" in the comments
 
---===============3430129356212407900==--
+--===============3102960818491682601==--
