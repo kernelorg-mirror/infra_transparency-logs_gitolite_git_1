@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3642054944658704912=="
+Content-Type: multipart/mixed; boundary="===============5952363452384956749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 07 Jul 2022 02:45:40 -0000
-Message-Id: <165716194082.13682.11944273927429495355@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 02:45:42 -0000
+Message-Id: <165716194255.13741.7549746850900031094@gitolite.kernel.org>
 
---===============3642054944658704912==
+--===============5952363452384956749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.20
-    old: 713aa4efbcba0e60df5a56369a93ed362e220c6b
-    new: 02d99d4cfe0984ea05edfbcbae2c9660a05f7b11
-    log: revlist-713aa4efbcba-02d99d4cfe09.txt
+  - ref: refs/heads/for-next
+    old: a2271e79a2996d8779d77b3be3ff1026fbc0c50b
+    new: dbfdf0c540852bf6f504e1d50b19552bcc63dbf9
+    log: revlist-a2271e79a299-dbfdf0c54085.txt
 
---===============3642054944658704912==
+--===============5952363452384956749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-713aa4efbcba-02d99d4cfe09.txt
+Content-Disposition: attachment; filename=revlist-a2271e79a299-dbfdf0c54085.txt
 
 21857088fa274750608e25b44ededa6199fac4a5 Revert "arm64: dts: qcom: Fix 'reg-names' for sdhci nodes"
 531c738fb36069d60aff267a0b25533a35d59fd0 arm64: dts: qcom: sc7280: drop PCIe PHY clock index
@@ -39,5 +39,6 @@ be18bc7bd9e82e2d08095d9ed0d9978dcb707e7c arm64: dts: qcom: sm8250: drop UFS PHY 
 e30d9f1e58c0f860b8a740c63527106146f0f3fd arm64: dts: qcom: sm8450: drop UFS PHY clock-cells
 3a5da59af38d77088aa5226208cca0beb9125485 arm64: dts: qcom: msm8996: use non-empty ranges for PCIe PHYs
 02d99d4cfe0984ea05edfbcbae2c9660a05f7b11 arm64: dts: qcom: msm8996: clean up PCIe PHY node
+dbfdf0c540852bf6f504e1d50b19552bcc63dbf9 Merge branches 'arm64-for-5.20', 'arm64-defconfig-for-5.20', 'clk-for-5.20', 'dts-for-5.20', 'dts-fixes-for-5.19' and 'drivers-for-5.20' into for-next
 
---===============3642054944658704912==--
+--===============5952363452384956749==--
