@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4231499632038710392=="
+Content-Type: multipart/mixed; boundary="===============0326422863797017952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 07 Jul 2022 15:33:00 -0000
-Message-Id: <165720798078.15859.16351138584552161610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 07 Jul 2022 15:33:56 -0000
+Message-Id: <165720803617.16251.15798913625282830001@gitolite.kernel.org>
 
---===============4231499632038710392==
+--===============0326422863797017952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 71d70c7bb3a8bcfc485027b47c2a45b980bc30d9
-    new: 6430b609346377228cd75dee3425f7a18690ed37
-    log: |
-         6430b609346377228cd75dee3425f7a18690ed37 Notes added by 'git notes add'
-         
+  - ref: refs/heads/net-next-mlx5
+    old: 1cd50503ef98cc76bc782c684d793b4de37819dc
+    new: ae91db4e95ee9f8ce9c4b1b6b66b7ada811580b0
+    log: revlist-1cd50503ef98-ae91db4e95ee.txt
 
---===============4231499632038710392==
+--===============0326422863797017952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1cd50503ef98-ae91db4e95ee.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657207979 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1657207979-ee29edda1a3f1b793d8d32820b144f59b114a626
+67dffd3db98570af8ff54c934f7d14664c0d182a net: hinic: fix bug that ethtool get wrong stats
+98f9fcdee35add80505b6c73f72de5f750d5c03c net: hinic: avoid kernel hung in hinic_get_stats64()
+cd355d0bc60df51266d228c0f69570cdcfa1e6ba Merge branch 'hinic-dev_get_stats-fixes'
+69d7d257cd35c9d36c93019f87de6c9f8b514119 Revert "Merge branch 'octeontx2-af-next'"
+6ca4b3932114def81fc35b2580fa0378a7ed6f09 net: dsa: b53: remove unnecessary spi_set_drvdata()
+820aceb53c7558386e8028ca56144b25fe20b010 sfc/siena: Use the bitmap API to allocate bitmaps
+ee4c0c5d2593d5f694447f4053076cdc23e606c9 sfc: falcon: Use the bitmap API to allocate bitmaps
+45262522d0027269dbece119f1cb89e25f5de965 bnxt: Use the bitmap API to allocate bitmaps
+76d3c114706f438d5d2593401574c457849bd90c cnic: Use the bitmap API to allocate bitmaps
+291dbea16c711d31b6b3b26b8475116110a7b7b3 qed: Use the bitmap API to allocate bitmaps
+7ed5f2454acf8ebc126ff4d541832e8d2c28c0a0 qed: Use bitmap_empty()
+cf21b355ccb39b0de0b6a7362532bb5584c84a80 af_unix: Optimise hash table layout.
+ae91db4e95ee9f8ce9c4b1b6b66b7ada811580b0 gpio: vf610: fix compilation error
 
-71d70c7bb3a8bcfc485027b47c2a45b980bc30d9 6430b609346377228cd75dee3425f7a18690ed37 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLG/KwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c68QAJdcyrGFkPdA7+rD1y63
-4c2+t3yXRQTLyuCgiXLrRo9QKcLtis4PuI9JKLDe0SUhy7t9cm7MaZ1cj0I7oFMk
-3o2hUedSGu+THkUMkrAo0vKSSlh87YN4V8FhTx3NXf2cjGR9jp595DfF8UPiZ6jk
-Y8XQFB4gTSrALyaArgDsLacLaaRO2mDI+tLusp/QV3vZz3ULQXBSm4HJLDzr3Tp3
-m3IBfK1fvp6Ew+PP/hZBkV5RdxxXpjPfzu1Mm5axS68QoTE9PS4jMGuALdgLtsKj
-YuLVTyHhstRhnglaRajugr3lVtpBZYtGOTmwkFL2Hlb+lKToDQdxR5t2q8BMYJNs
-XPZJUDEin/D/CcGyOIIujTi3xhPsyP6LgbNqJt8n5I7ywSk5o26cNzZFmI3GN8bZ
-Gz3dZs1gJKqrPlqvUdi0nZLeUfFSIfcZ0C/BQvnIOqd15WH+nAxuY46MAA+9sMqR
-SMiFjrzG13badklXFncCkuuMEXQSTKzwPYHEw0uHrDcCt0RBxMA5MA/1GWpCfatG
-mnSNtfUcu/3rGnmIquySHW/BPey1ulFIgr9DSQ9vNSHJhQFffkaUMRM9Nj+kZcgS
-/FZhjcPOG14wstJ7TyonFnf0eNVs3dSH+aENYmB6I3n/PlxnYXzSbTx5rpzNb4L/
-SUNXEjM6pc+z2UiHYPGvDFup
-=yyuK
------END PGP SIGNATURE-----
-
---===============4231499632038710392==--
+--===============0326422863797017952==--
