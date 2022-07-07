@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 07 Jul 2022 11:39:11 -0000
-Message-Id: <165719395123.21381.11004312423557371609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 07 Jul 2022 11:52:38 -0000
+Message-Id: <165719475863.31327.18291410854160337507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/x86/urgent
-    old: b57feed2cc2622ae14b2fa62f19e973e5e0a60cf
-    new: 38e0e4d04d4187c63d6b511396faae7db6a3cd9e
+  - ref: refs/heads/master
+    old: 3cfba7d39b66eff4307218fefd8bb34bb1621f83
+    new: aff94adda7d94f79d184db1a524c5a79119c8a28
     log: |
-         38e0e4d04d4187c63d6b511396faae7db6a3cd9e x86/ibt, objtool: Don't discard text references from tracepoint section
+         aff94adda7d94f79d184db1a524c5a79119c8a28 lscpu: keep bogomips locale output locale sensitive
          
