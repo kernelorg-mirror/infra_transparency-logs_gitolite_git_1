@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 07 Jul 2022 16:52:26 -0000
-Message-Id: <165721274608.21272.5970614797943830817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 07 Jul 2022 16:54:48 -0000
+Message-Id: <165721288833.22070.10154490817758638592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 018ab4fabddd94f1c96f3b59e180691b9e88d5d8
-    new: 9de76f41ea2188f2784f48352f9278819d249afc
-    log: |
-         9de76f41ea2188f2784f48352f9278819d249afc x86/mm: Refer to the intended config STRICT_DEVMEM in a comment
-         
+  - ref: refs/tags/asoc-fix-v5.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 34b60c108f1a6dc899d55f1fb825515e500834e5
