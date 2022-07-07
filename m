@@ -1,41 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4801450050432758985=="
+Content-Type: multipart/mixed; boundary="===============5933315246498683809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 07 Jul 2022 13:41:59 -0000
-Message-Id: <165720131972.6688.4673883224135597130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 07 Jul 2022 13:53:26 -0000
+Message-Id: <165720200675.14478.2865004495597468327@gitolite.kernel.org>
 
---===============4801450050432758985==
+--===============5933315246498683809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 913b6fd2e15792a2d2d20331735d6d391f109d0a
-    new: c6a669485125145afd22230df6e0e6c37f19ad41
-    log: revlist-913b6fd2e157-c6a669485125.txt
+  - ref: refs/heads/for-5.20
+    old: e57297fc0915e2f95de26d18ad8ab6f17c068658
+    new: dfec073fc9bf53e009ab399322471be9ec807ff6
+    log: |
+         ab34403db24233e603338b70deb9a84093c88397 ASoC: amd: fix ACPI dependency compile errors and warnings
+         98356c89d44dac838dfbab02975645d828de3099 ASoC: jz4740-i2s: Remove Open Firmware dependency
+         8a7691010992886290b340a1ba943067c2e70f85 ASoC: jz4740-i2s: Refactor DMA channel setup
+         dfec073fc9bf53e009ab399322471be9ec807ff6 ASoC: cleanups and improvements for jz4740-i2s
+         
 
---===============4801450050432758985==
+--===============5933315246498683809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-913b6fd2e157-c6a669485125.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0e01d176d5788f66dc64a7e61119edb56eb08339 hwspinlock: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
-8f69d59b05f9d07e8799ad1ae6c20d4d79134643 dt-bindings: remoteproc: remove unneeded ref for names
-3bf96d4620cadacf68207b0760e5f7cb09d52374 dt-bindings: remoteproc: qcom,adsp: add interconnects
-d2403ee73d20a11380b01d3efa4f2fdcd7bc0cbb dt-bindings: remoteproc: qcom,adsp: simplify interrupts
-13b1adc11dde480e2582407a41f4f8b0e5f301a6 dt-bindings: remoteproc: qcom,adsp: simplify SM8150 power domains
-c47b3b3959f2775bbc6fe74714cd41ba5d5bdce9 dt-bindings: remoteproc: qcom,adsp: use GIC_SPI defines in example
-ae9d475a10066823d21a1a93f81524851c4441a7 dt-bindings: remoteproc: qcom,glink-edge: define re-usable schema for glink-edge
-385fad1303afb89ab08412d56fc28c15bb551b26 dt-bindings: remoteproc: qcom,smd-edge: define re-usable schema for smd-edge
-bed0adac1ded4cb486ba19a3a7e730fbd9a1c9c6 remoteproc: qcom: wcnss: Fix handling of IRQs
-672478cf34729d6da2d8c0bf851663bc326739ef dt-bindings: remoteproc: qcom: q6v5: fix example
-c6a669485125145afd22230df6e0e6c37f19ad41 Merge branches 'rpmsg-next', 'rproc-next' and 'hwspinlock-next' into for-next
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1657202004 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1657202003-1f37c10d98bbffdeff0125848c4eba67b4d471dd
 
---===============4801450050432758985==--
+e57297fc0915e2f95de26d18ad8ab6f17c068658 dfec073fc9bf53e009ab399322471be9ec807ff6 refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLG5VQACgkQJNaLcl1U
+h9CbZwf/Y33O3oi3gFzfXtklv9SUYVqgc0LylvmWG7KZHJGRR3s+IMd33eKF48gf
+O8YWF/Zq+ApkUhR3bL4JsXupHoU1YSwULuPy7Br7Knduhczgte365n3dnUX1H/lI
+rrBybILWTm052TzaJN+SGPBfKM2hmbdy68VHRZOtj7jboKQSkZeiw9yNahiF3lnm
+WWnVErT2VD664f+VUa9chBaJ7joIJ1OSPqTZw8AN2+rVGWZM2QpYrzxJIgY6Yx/6
+7lftPd90jGqq0n+FDB2WQocq/AN8Mc9NiafOK6tvu9tzXJB/Dtit3EVPDaz+vS8L
+x+0mqoENEuQid7CoTNLzuueAbXdCIA==
+=B0si
+-----END PGP SIGNATURE-----
+
+--===============5933315246498683809==--
