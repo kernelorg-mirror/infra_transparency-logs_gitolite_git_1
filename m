@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Thu, 07 Jul 2022 15:20:22 -0000
-Message-Id: <165720722253.8024.9557126500907615277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 07 Jul 2022 15:20:31 -0000
+Message-Id: <165720723134.8170.10564879455375008474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
   - ref: refs/heads/for-next/perf
