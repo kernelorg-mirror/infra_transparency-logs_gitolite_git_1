@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 07 Jul 2022 15:20:31 -0000
-Message-Id: <165720723134.8170.10564879455375008474@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 15:24:53 -0000
+Message-Id: <165720749326.9594.11547039542988601666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/for-next/perf
-    old: 66637ab137b44914356a9dc7a9b3f8ebcf0b0695
-    new: aaaee7b55c9e58410abcef6e3e2fd80e4135d02e
+  - ref: refs/heads/for-next/core
+    old: b31f932090da32764e5c550a493e25982be4fa01
+    new: 83a71d2db5ef0bf162eeb439a3c87fff7a5be485
     log: |
-         aaaee7b55c9e58410abcef6e3e2fd80e4135d02e docs: perf: Include hns3-pmu.rst in toctree to fix 'htmldocs' WARNING
+         ed0a6d1d973e9763989b44913ae1bd2a5d5d5777 mm: kasan: Ensure the tags are visible before the tag in page->flags
+         70c248aca9e7efa85a6664d5ab56c17c326c958f mm: kasan: Skip unpoisoning of user pages
+         6d05141a393071e104bf5be5ad4d0c79c6dff343 mm: kasan: Skip page unpoisoning only if __GFP_SKIP_KASAN_UNPOISON
+         20794545c14692094a882d2221c251c4573e6adf arm64: kasan: Revert "arm64: mte: reset the page tag in page->flags"
+         83a71d2db5ef0bf162eeb439a3c87fff7a5be485 Merge branch 'for-next/mte' into for-next/core
          
