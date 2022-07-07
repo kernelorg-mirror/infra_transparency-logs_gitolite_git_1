@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Thu, 07 Jul 2022 17:46:17 -0000
-Message-Id: <165721597722.25232.9899493045758555112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 07 Jul 2022 17:52:41 -0000
+Message-Id: <165721636137.28814.14609824120729380424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/tags/erofs/advancedpcl_20220707
-    old: 0000000000000000000000000000000000000000
-    new: 177d8f6d0207e45a27d693e04fec1b1acc9c6abf
+  - ref: refs/heads/x86/boot
+    old: 2faaa8f3ef16d794ecb28f9a7d9dca25cff98bb3
+    new: 8a33d96bd178d5f49cc5c1898e4cda08e221d2db
