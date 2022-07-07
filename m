@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Thu, 07 Jul 2022 10:41:33 -0000
-Message-Id: <165719049309.15856.11883262826132637452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 07 Jul 2022 11:02:15 -0000
+Message-Id: <165719173570.29797.6541410727768380977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/v5.19-next/soc
-    old: abe4a1c5a80be15842cb6df07372b88e47393c71
-    new: c749d676a33d99ee4c40d69ac2bf280270d890ad
+  - ref: refs/heads/master
+    old: ad10652dddf5bc1d54c4a95cfaae4ef61bc0069c
+    new: 3cfba7d39b66eff4307218fefd8bb34bb1621f83
     log: |
-         13bde169c6fe0ff7a527927a838eb732d6b14f37 soc: mediatek: mtk-pm-domains: Allow probing vreg supply on two MFGs
-         c749d676a33d99ee4c40d69ac2bf280270d890ad soc: mediatek: SVS: Use DEFINE_SIMPLE_DEV_PM_OPS for svs_pm_ops
+         3cfba7d39b66eff4307218fefd8bb34bb1621f83 libuuid: Implement continuous clock handling for time based UUIDs
          
