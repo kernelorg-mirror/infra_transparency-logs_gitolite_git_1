@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3931339671917976130=="
+Content-Type: multipart/mixed; boundary="===============6296039091966092340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 07 Jul 2022 21:45:48 -0000
-Message-Id: <165723034835.17688.4460202106494423294@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 21:46:02 -0000
+Message-Id: <165723036237.17826.2115118144633635214@gitolite.kernel.org>
 
---===============3931339671917976130==
+--===============6296039091966092340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,59 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: fce54ed027577517df1e74b7d54dc2b1bd536887
-    new: ccd3f449052449a917a3e577d8ba0368f43b8f29
-    log: |
-         ccd3f449052449a917a3e577d8ba0368f43b8f29 scsi: target: Fix WRITE_SAME No Data Buffer crash
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 5678c74c52fca33bec613c9400d05677fa09fef0
+    new: 97a32e5d4a93bc70eb17c30df6f333e6fc81c820
+    log: revlist-5678c74c52fc-97a32e5d4a93.txt
 
---===============3931339671917976130==
+--===============6296039091966092340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1657230339 -0400
+pusher 75C5DE3D 1657230353 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1657230338-34e486cc1071b3d54596d67bacdbe67156ef33de
+nonce 1657230352-7d4e9391f20514a60a8ab2da0e5a0bb0aadd4635
 
-fce54ed027577517df1e74b7d54dc2b1bd536887 ccd3f449052449a917a3e577d8ba0368f43b8f29 refs/heads/fixes
+5678c74c52fca33bec613c9400d05677fa09fef0 97a32e5d4a93bc70eb17c30df6f333e6fc81c820 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLHVAMACgkQ7ulgGnXF
-3j2zixAAn+Shz+J9pULt84Ci1YU9Jdvapu18G7JcEIAeWu92Maynd4IjIhaxODZB
-z0h0W0DbCpDt0qxl7MOOElTFnCjoJiJ3n+//z2mCq4giaxzwJUgqd3RRpGyx2JYH
-HivmKkhvsVOMlwodxv+3ZFQ6E5L81UcTSjCuLq+g0GtaIVJ5yLn62A0OaOnXOZwi
-DJOwYo/JV7MrRrReQk1El8OfyYmAwz8D4GRUEK7K/ntcy7HFKroRuXG7DmLAS/2y
-O66kTCRvSKFjN4qs4fTiWO5+CxXCO8P8fN1EeIn3jcFqaRfykSnpyCLVgggej7iJ
-0X2ku61qcVCqJD7fYDOKUanvk+xEqptbYQqgipdcSrBTTdzAQGMU1pUMxH5FUzqH
-lIMiE2KHPxo2TSJppX45Jn8AhkX3Dgy86bq4iOwEYJMamTwCGPFXXp+EwfK1W89b
-atsyUcwm4V/57LK1E8fXyim1GYUgXF15e9TI7mokpCZmii0dS9vFWeSLAGyYJEBJ
-ENdxvl83Oi97uWtx25gm+Dg0+IXPrkQ/vzG8IxCyOpJaQU4OG16dCZaBYcTtOGyV
-r1OhZOm4xNa1UzANg4DACSmMjxh8MO5Esa2/KcMMrSLEn1UDuoRaKAsvSLmupM4Q
-xMGvvLLg2/iiMbmS67r8d5E113y438kjq7zeh+CGJwdRHUsqA+c=
-=QdOt
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLHVBEACgkQ7ulgGnXF
+3j3i6A/+I+mDRizuegwtNcmnTtRAJp0OMYzOXD52J5B6KKiEjvLuKvTv34/i+VXH
+lR0dDGsOjyPhP/c7br6QC8ZAGlgPvryETZbgA9/bSkkVLmqhBjInMfkMGs5iFNSN
+DrZ3vzNxk2eOKMKFtAsU3q1yRejhkLWuoDnfrWPcYukD69uZ5GscdZ9hwGMyIQrL
+9O8DbSHTwkkw8YxHfL1HVVOpiEUMVrIm2GyqIuwvoUVvFzRnDiDTKaR/BjzGOzLH
+AcrkRMhRhSQDoQocI6j7clnBJpn0KyM9IO5PAGPgQut09myIgI13xhh0gp0E35iQ
+CjtIIwvEjWC8oS8+FxYo+5e0Mz3kDaOUz4BBrgccjXvhZUTmLjRw6nXU4RqPeRD8
+L0SRtPuPYG1hXKWfnYnaLasdiTCRTEa18bWQZKPbH59r04LJgFphA7hAYsvb5IBr
+rcobwXdUCpXzceOjgu/izH5rWqxQNf6cIaH/2vjiuj9EE9rO7OjfvRmPmpgpkc8B
+UPubRs9skMSXAmnEGpZgW8bqSq07QW0nP1wgX821s8HCOqAOB+NwLf/mRzPPmQiw
+gpzvZvYnYeZU7bSjdhpZOTsdAiJCRaDwo/1ucQg65y/hywCB93jvWeM3/s+DBfN3
+aUVUxDkGP2YTvuSwzG/bbEajt9HiM5VagYjnM+RfpEZ3iiDxN00=
+=VVJj
 -----END PGP SIGNATURE-----
 
---===============3931339671917976130==--
+--===============6296039091966092340==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5678c74c52fc-97a32e5d4a93.txt
+
+a48aac5dfc1bab0ed601e05a9447f675b17db91c scsi: ufs: ufshcd-pltfrm: Constify pointed data
+35d11ec239e0996291b140a61a677210ff854f11 scsi: ufs: ufshcd: Constify pointed data
+07f0c8aff55156e0ef671fdc87bb44207cfc4f56 scsi: fcoe: Remove redundant assignment to variable 'wlen'
+9f7c2232e131b1de2ee4abadfce5d8f010e223c6 scsi: BusLogic: Remove bus_to_virt()
+b04e75a4a8a81887386a0d2dbf605a48e779d2a0 scsi: dpt_i2o: Remove obsolete driver
+e7bf1d50063ce0dcae84ddbd27531a3ecec59e28 scsi: ufs: ufs-mediatek: Fix build warnings
+981b4ac04c2f7c24724d3b3a62c3d0c2fc9adcb7 scsi: ufs: ufs-mediatek: Always add delays for VCC operations
+2bae03a6ac985fe80a7a228af3bcc2d5dbe43381 scsi: ufs: ufs-mediatek: Prevent host hang by setting CLK_CG early
+f53f19135765780f93dd0c9506a138d1b27ffd0e scsi: ufs: ufs-mediatek: Add stage information for ref-clk control
+4918694ccd6974f3ec8eeda3f34ace0ce480153e scsi: ufs: ufs-mediatek: Disable reset confirm feature by UniPro
+2cf5cb2bb13140ecc0f01ebc8844ee8b5203293f scsi: ufs: ufs-mediatek: Support host power control
+c64c487d953331df239cf866d178612796e59f93 scsi: ufs: ufs-mediatek: Support performance boosting
+df1ea242e3d702342fd0c7c1a7b9ed6838645a05 scsi: ufs: ufs-mediatek: Fix invalid access to vccqx
+bcec04b3cce4c498ef0d416a3a2aaf0369578151 scsi: ufs: ufs-qcom: Remove unneeded code
+
+--===============6296039091966092340==--
