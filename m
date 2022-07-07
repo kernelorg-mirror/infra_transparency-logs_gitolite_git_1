@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4342295072164407116=="
+Content-Type: multipart/mixed; boundary="===============3430129356212407900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 07 Jul 2022 21:46:28 -0000
-Message-Id: <165723038891.18127.8881960018929704348@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 21:46:45 -0000
+Message-Id: <165723040514.18274.4662402027127275216@gitolite.kernel.org>
 
---===============4342295072164407116==
+--===============3430129356212407900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,100 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e34cc16a8042488efad86f121c94dcda5cd6f0c4
-    new: bcec04b3cce4c498ef0d416a3a2aaf0369578151
-    log: revlist-e34cc16a8042-bcec04b3cce4.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 79a988f61e0fe3f3cab4a36c2bf1e7137e690d1b
+    new: c3714cca6aae0265aacf243bb3571b95878696f5
+    log: revlist-79a988f61e0f-c3714cca6aae.txt
 
---===============4342295072164407116==
+--===============3430129356212407900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1657230379 -0400
+pusher 75C5DE3D 1657230395 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1657230379-629ff68f69098b70b94af28db06cf7af6c99e0da
+nonce 1657230394-26394a85dcd44d9c69f62c2d52a267e6f5857803
 
-e34cc16a8042488efad86f121c94dcda5cd6f0c4 bcec04b3cce4c498ef0d416a3a2aaf0369578151 refs/heads/queue
+79a988f61e0fe3f3cab4a36c2bf1e7137e690d1b c3714cca6aae0265aacf243bb3571b95878696f5 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLHVCsACgkQ7ulgGnXF
-3j3eEg//fIkCH46PS8mYGzhn+c7uO7vD1j/6c4B5U4I0avqNc89Zu0cJPmeuCPLK
-lYC/oPEnH4kMSXcPtdkd3DKw05M9oEO7JB0nDP1i81dlBqevsaCiCdKiaGIqFBg2
-G0AUSDf+RSYRxponIe3Ao1buRKyBukAMznX3yD8HyHikvM82YYwLHsxfajQ9DixS
-46umgce6znRDdC5luJelf0gGrdLWoFaTwuPGDzGKBHrvx10MBwlZjs1JkS//AcyB
-cuiPNIeMnc2E7uWuUqh21KtfUmnVHo00zirRBTYWon27R/diKGKjovR0bV1mOag7
-i66QFCjeLAcq6QFYzoIkTiOSUAz7AD9aLtuii4k9ZzBtPzG2q6Tm24nWQx2KZEGW
-Ib7nAseJC979vMgovWTtdRbl3eo4MB8dSiaDCiKeK/1EQJ77PxBWavFEUYnV0lb1
-ToCMWKi5VrMsu8Y8wpHezFSUYxqeOAK4BzFFdasBYnHa21TuaVVE++C9lhaUQpO1
-pEA5jZzNAnIdEQ0tKhdHxmQafUnuMCwvWO5GBxhv1HCqcoW0yKfDuoEY82wZH6n2
-+7L9F4kIR/nfFqrOlhKidXhoZLD5ShDbuNNfY43qwCzPsKccUNZzTfIuo9DmWI1D
-CLhC1jJm3zMQdPzL9SbuDQ3lDJNtEdmysafTMjqWMAO9sIZIFbQ=
-=927O
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLHVDsACgkQ7ulgGnXF
+3j0nIBAAo1Sb0nhUtE043UWeUehXKFFrsr9E8zRiPF4UGHNtvoyp/lL7lo8uuIBz
+/LTEJrzbs7A1Avqzdm068Q5K7N+q5Pkn8r4xgDpxOt/YxT5I6hZDqQ0JYItwfoSP
+dEy4Y4XyNg+MoJkFhBMPCPXdeEuJnPXPJ3IozfZHs2AG+owqd1KBRuYZbfHY1tyy
+/ofFmIPbLYmjmd0Uwt1vNVsyRmzO4YoKSKaNiLb8R5z2wZ4A8b+PsrazcFvEZZKD
+IUOyr/KpHFUM2xKGv36ZXhkhHjbi78Eu454gX24iuRyk8ZO67gYoOwyRwqZ5V5Kx
+oa4Q7JeMPWDcpHAr8T4f0BhVwLMzu20/Jf42ryVaaQregB+onSBfCqbt9F1KHszR
+QyanU/PybuBYR+8owYov2QZSzJIXJOF1+g19UhIAW6yekMlTdN2lcZqktvKrzPCv
+za0lR07YVikjwbO8gCaHl6jTv1pNbGwwl3y6VJOWEuQYTc2NyKNt2MKmKxpa9Bza
+dKuIg5i1aTgO/d/fTZWTEmC4l7iLLQPTlkSTdmatqI/Yn7ViG0BqwEAnEYtb15Nd
+R7xH+J+5VOP0QTw8RkfhAG0TcakmlfP8bCwMvY/kKPOAq8MxWEB7wCWGyovMA7Ut
+bzFYg0y3/VCFx635rv5LHucWeR1I2YTT+Q6MGfjxt/tLOfU+I3E=
+=T+K8
 -----END PGP SIGNATURE-----
 
---===============4342295072164407116==
+--===============3430129356212407900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e34cc16a8042-bcec04b3cce4.txt
+Content-Disposition: attachment; filename=revlist-79a988f61e0f-c3714cca6aae.txt
 
-a48aac5dfc1bab0ed601e05a9447f675b17db91c scsi: ufs: ufshcd-pltfrm: Constify pointed data
-35d11ec239e0996291b140a61a677210ff854f11 scsi: ufs: ufshcd: Constify pointed data
-07f0c8aff55156e0ef671fdc87bb44207cfc4f56 scsi: fcoe: Remove redundant assignment to variable 'wlen'
-9f7c2232e131b1de2ee4abadfce5d8f010e223c6 scsi: BusLogic: Remove bus_to_virt()
-b04e75a4a8a81887386a0d2dbf605a48e779d2a0 scsi: dpt_i2o: Remove obsolete driver
-e7bf1d50063ce0dcae84ddbd27531a3ecec59e28 scsi: ufs: ufs-mediatek: Fix build warnings
-981b4ac04c2f7c24724d3b3a62c3d0c2fc9adcb7 scsi: ufs: ufs-mediatek: Always add delays for VCC operations
-2bae03a6ac985fe80a7a228af3bcc2d5dbe43381 scsi: ufs: ufs-mediatek: Prevent host hang by setting CLK_CG early
-f53f19135765780f93dd0c9506a138d1b27ffd0e scsi: ufs: ufs-mediatek: Add stage information for ref-clk control
-4918694ccd6974f3ec8eeda3f34ace0ce480153e scsi: ufs: ufs-mediatek: Disable reset confirm feature by UniPro
-2cf5cb2bb13140ecc0f01ebc8844ee8b5203293f scsi: ufs: ufs-mediatek: Support host power control
-c64c487d953331df239cf866d178612796e59f93 scsi: ufs: ufs-mediatek: Support performance boosting
-df1ea242e3d702342fd0c7c1a7b9ed6838645a05 scsi: ufs: ufs-mediatek: Fix invalid access to vccqx
-bcec04b3cce4c498ef0d416a3a2aaf0369578151 scsi: ufs: ufs-qcom: Remove unneeded code
+f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
+cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
+44ba9786b67345dc4e5eabe537c9ef2bfd889888 scsi: lpfc: Correct BDE type for XMIT_SEQ64_WQE in lpfc_ct_reject_event()
+24e1f056677eefe834d5dcf61905cce857ca4b19 scsi: lpfc: Resolve some cleanup issues following abort path refactoring
+e27f05147bff21408c1b8410ad8e90cd286e7952 scsi: lpfc: Resolve some cleanup issues following SLI path refactoring
+6f808bd78e8296b4ded813b7182988d57e1f6176 scsi: lpfc: Address NULL pointer dereference after starget_to_rport()
+b1b3440f437b75fb2a9b0cfe58df461e40eca474 scsi: lpfc: Resolve NULL ptr dereference after an ELS LOGO is aborted
+336d63615466b4c06b9401c987813fd19bdde39b scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
+ea7bd1f393311e823716a232e9d8857fb64eb105 scsi: lpfc: Add more logging of cmd and cqe information for aborted NVMe cmds
+2e7e9c0c1ec05f18d320ecc8a31eec59d2af1af9 scsi: lpfc: Allow reduced polling rate for nvme_admin_async_event cmd completion
+1af48fffd7ffe280e0c225659d826fd5ae802a08 scsi: lpfc: Update lpfc version to 14.2.0.4
+120f1d95efb1cdb6fe023c84e38ba06d8f78cd03 scsi: mpt3sas: Fix out-of-bounds compiler warning
+d64c491911322af1dcada98e5b9ee0d87e8c8fee scsi: ipr: Fix missing/incorrect resource cleanup in error case
+ec1e8adcbdf661c57c395bca342945f4f815add7 scsi: pmcraid: Fix missing resource cleanup in error case
+566d3c57eb526f32951af15866086e236ce1fc8a scsi: scsi_debug: Fix zone transition to full condition
+f6eed15f3ea76596ccc689331e1cc850b999133b scsi: iscsi: Exclude zero from the endpoint ID range
+da8badd7d3583f447eac2ab65a332f2d773deca1 scsi: ufs: Simplify ufshcd_clear_cmd()
+d1a7644648b7cdacaf8d1013a4285001911e9bc8 scsi: ufs: Support clearing multiple commands at once
+2acd76e7b8596e307fcec8fc6bc5fe5ab174749a scsi: ufs: Fix a race between the interrupt handler and the reset handler
+1d3e0980782fbafaf93285779fd3905e4f866802 scsi: storvsc: Correct reporting of Hyper-V I/O size limits
+72ea7fe0db73d65c7d977208842d8ade9b823de9 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
+aeaadcde1a60138bceb65de3cdaeec78170b4459 scsi: ibmvfc: Store vhost pointer during subcrq allocation
+fce54ed027577517df1e74b7d54dc2b1bd536887 scsi: hisi_sas: Limit max hw sectors for v3 HW
+7c33e477bd883f79cccec418980cb8f7f2d50347 scsi: qla2xxx: Check correct variable in qla24xx_async_gffid()
+465191d6526a8ea21ef9f5533aad24b8f531b879 scsi: mpi3mr: Enable shared host tagset
+d29ea7b71621f42a9580f1c65f3b822dfd593137 scsi: mpi3mr: Increase cmd_per_lun to 128
+036d8903f03b662bbdce5e32525bd2931b14c420 scsi: target: Remove incorrect zero blocks WRITE_SAME check
+6b206a5a8c2912c3c2174c5afc2f6e798d6ad212 scsi: target: Add callout to configure UNMAP settings
+d7c382c51d0379f38eee270db575018094826c73 scsi: target: Add iblock configure_unmap callout
+33efaaf6e24b68c15e08a12477c8610b5e1334d7 scsi: target: Add file configure_unmap callout
+34bd1dcacf0dd86ab8c35f703bc237723fee354c scsi: target: Detect UNMAP support post configuration
+a2417db3679cffa67fbdc6c175cf68ffc86b8ac3 scsi: core: Shorten long warning messages
+e214806d52b808ee744672f3ebae8817e760ad65 scsi: a3000: Convert m68k WD33C93 drivers to DMA API
+479accbbb8398a31e716d40d4d6ccce089f3de86 scsi: a2091: Convert m68k WD33C93 drivers to DMA API
+158da6bcae7a66e631bbec458f35ea3bd0ac5d71 scsi: gvp11: Convert m68k WD33C93 drivers to DMA API
+acd1a2786c568ee7c254eda9c60eabc401d13c04 scsi: megaraid_sas: Clean up some inconsistent indenting
+90552cd2d1f962478f1bb426c686540cbd145bec scsi: core: Move the definition of SCSI_QUEUE_DELAY
+88f1669019bd62b3009a3cebf772fbaaa21b9f38 scsi: sd: Rework asynchronous resume support
+11e50ed239b5b7f383874dd737283ae93f62ece3 Merge branch '5.19/scsi-fixes' into 5.20/scsi-staging
+4ecc9b0271a7623deabcbe8fcb39f065701d8f74 scsi: lpfc: Fix uninitialized cqe field in lpfc_nvme_cancel_iocb()
+f8191d40aa612981ce897e66cda6a88db8df17bb scsi: lpfc: Prevent buffer overflow crashes in debugfs with malformed user input
+35251b4d79db4ca2efeb63d6bc8fc463aa867156 scsi: lpfc: Set PU field when providing D_ID in XMIT_ELS_RSP64_CX iocb
+0948a9c5386095baae4012190a6b65aba684a907 scsi: lpfc: Remove extra atomic_inc on cmd_pending in queuecommand after VMID
+2f67dc7970bce3529edce93a0a14234d88b3fcd5 scsi: lpfc: Fix possible memory leak when failing to issue CMF WQE
+43e19a96a7895f5588ffc6bf9768f362ae3af70e scsi: lpfc: Fix attempted FA-PWWN usage after feature disable
+ea92e173dc55460f1b9e71df5ceac951c506d214 scsi: lpfc: Fix lost NVMe paths during LIF bounce stress test
+ffc566411aded3c12c63e1310fb23830e9608c59 scsi: lpfc: Revert RSCN_MEMENTO workaround for misbehaved configuration
+b21c9deb1479bcbeea8b06c490a815690c7c86e9 scsi: lpfc: Refactor lpfc_nvmet_prep_abort_wqe() into lpfc_sli_prep_abort_xri()
+7f86d2b84708752f7667f9d7b9e370125d2004e8 scsi: lpfc: Remove Menlo/Hornet related code
+71faf8d30fdb7c0ea88caa785e97ed697f048f14 scsi: lpfc: Update lpfc version to 14.2.0.5
+b3d11f195cbbe665c100b964f6837984b4226cd1 scsi: lpfc: Copyright updates for 14.2.0.5 patches
+1466b3bc456a04c2eecb639d303b91ca8ef02c33 scsi: ufs: ufs-pci: Enable WriteBooster capability on ADL
+174e909b5435d3f840067f36c4915a618d44b6bb scsi: ufs: Skip last hci reset to get valid register values
+b9787bdfdba5ab0e558e3d142b1c2f6a54cbf6b1 scsi: zfcp: Declare zfcp_sdev_attrs as static
+9821106213c826f9c3dbccb617ce76f8981c8aba scsi: zfcp: Drop redundant "the" in the comments
 
---===============4342295072164407116==--
+--===============3430129356212407900==--
