@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 07 Jul 2022 14:56:14 -0000
-Message-Id: <165720577421.24334.1853016171376243527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 07 Jul 2022 15:20:22 -0000
+Message-Id: <165720722253.8024.9557126500907615277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/for-next
-    old: d08412328e4ff4928a60438e62e34e67f687a740
-    new: 79152fc74ff664e2912abe17f21c42d7c49c90c9
+  - ref: refs/heads/for-next/perf
+    old: 66637ab137b44914356a9dc7a9b3f8ebcf0b0695
+    new: aaaee7b55c9e58410abcef6e3e2fd80e4135d02e
     log: |
-         79152fc74ff664e2912abe17f21c42d7c49c90c9 regulator: Fix MFD_MAX597X dependency
+         aaaee7b55c9e58410abcef6e3e2fd80e4135d02e docs: perf: Include hns3-pmu.rst in toctree to fix 'htmldocs' WARNING
          
