@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 07 Jul 2022 15:47:02 -0000
-Message-Id: <165720882214.18499.6820798010794878824@gitolite.kernel.org>
+Date: Thu, 07 Jul 2022 15:49:58 -0000
+Message-Id: <165720899831.19465.17545529973894551055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,16 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: 2140d0fb3c5536325443e6923cbeaf9d879ff57b
-    new: cc2edf95e782b05b11a954014ca4973ab1791a60
+    old: cc2edf95e782b05b11a954014ca4973ab1791a60
+    new: 22e864b98ca287da5bede339f238993bb686e3db
     log: |
-         61cbe7888d0376cd8828b52c5bca56987c6d6cfa dm: add dm_bio_rewind() API to DM core
-         774552ae9917c136a46309b6c4ef0d33411ff760 dm: add two stage requeue mechanism
-         d2dbd5d36119f79614326a94c51ca046bf4da1b0 dm table: remove dm_table_get_num_targets() wrapper
-         301618babd7338a3f017ba391057089b4665b022 dm table: audit all dm_table_get_target() callers
-         df528af08aa8dc50cc8cc11bc136863d4abaec10 dm table: rename dm_target variable in dm_table_add_target()
-         c8245e254a10ef73ca560ca85da585906d001f65 dm verity: fix checkpatch close brace error
-         564b26e775a5726c36a67d4dda50a73c1318239c dm cache: fix typo in 2 comment blocks
-         257325ebc8ac75df4964fc487548e34f3d2357db dm raid: remove redundant "the" in parse_raid_params() comment
-         1e9041378a6388218d71638379481f324603e76b dm snapshot: fix typo in snapshot_map() comment
-         cc2edf95e782b05b11a954014ca4973ab1791a60 docs: device-mapper: add a blank line at writecache.rst
+         8b211aaccb915bbf4f4a68f1910c4de701df393b dm: add two stage requeue mechanism
+         2aec377a29250b942f14d3c16d49783da3e9df11 dm table: remove dm_table_get_num_targets() wrapper
+         564b5c5476cdb71b717340897b2b50f9c45df158 dm table: audit all dm_table_get_target() callers
+         899ab445a467ee3bb0d52fc845b0dba14cc6c316 dm table: rename dm_target variable in dm_table_add_target()
+         20e6fc85621c32bbe53d110bf0ecabdaa15acd2e dm verity: fix checkpatch close brace error
+         5c29e784738c25be0f4ab188a88bf47697ca28fb dm cache: fix typo in 2 comment blocks
+         ce92fc4b8bc077b562ca945adbde0bca21caefb3 dm raid: remove redundant "the" in parse_raid_params() comment
+         962c6296f05418bcb48a4577d8bbfce9a1139543 dm snapshot: fix typo in snapshot_map() comment
+         22e864b98ca287da5bede339f238993bb686e3db docs: device-mapper: add a blank line at writecache.rst
          
