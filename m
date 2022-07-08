@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7253371441361900281=="
+Content-Type: multipart/mixed; boundary="===============5660669795513636692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 08 Jul 2022 14:25:09 -0000
-Message-Id: <165729030997.12032.5215416763042142759@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 14:26:53 -0000
+Message-Id: <165729041377.12580.8815025484231177371@gitolite.kernel.org>
 
---===============7253371441361900281==
+--===============5660669795513636692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 73eb7624ddd95fdc2243bdbea3e8403b649cbf1e
+  - ref: refs/heads/ath12k-bringup-extras
+    old: b77706771a58ec0ac8d7e3025d507518eb0784f9
     new: 1864645005a3616b57f99e1578cff64cf0be93c0
-    log: revlist-73eb7624ddd9-1864645005a3.txt
+    log: revlist-b77706771a58-1864645005a3.txt
 
---===============7253371441361900281==
+--===============5660669795513636692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73eb7624ddd9-1864645005a3.txt
+Content-Disposition: attachment; filename=revlist-b77706771a58-1864645005a3.txt
 
 0ac4827f78c7ffe8eef074bc010e7e34bc22f533 ath9k: fix use-after-free in ath9k_hif_usb_rx_cb
 d7fc76039b74ad37b7056d5607b05d7cb31a5404 ath9k: htc: clean up statistics macros
@@ -94,6 +94,27 @@ c4756d5de72e549fdaa32a1fab12ae776fca5be7 wifi: rtw89: fix long RX latency in low
 37c6abc374d1f1e0dd2e9fcc5a789886a63c894a wifi: rtw89: pci: fix PCI doesn't reclaim TX BD properly
 47324ab67af7f8e128688c13bd05a23c496bf661 wifi: rtw89: disable invalid phy reports for all ICs
 683a4647a7a3044868cfdc14c117525091b9fa0c wifi: rtw89: 8852a: rfk: fix div 0 exception
+a88b9cc26384fe52c2974f007905d91671667a55 ath12k: Remove device tree reference in driver
+c59035684b090accc2b6832b4ca8cda0f986a337 ath12k: fix rxdma2host ring cleanup
+ea8fdbfeca9542d663be7b4ec723c83ba3d0707d ath12k: re-enable ht_cap/vht_cap for 5 GHz band for WCN7850
+8c609a7ac30c2940e208a1a6cb8517dcf8d2cd11 ath12k: copy capability of 6 GHz band under WMI_HOST_WLAN_5G_CAP for WCN7850
+8209fda4a491db26b2fba15d4fd0b8b1489ff3b2 ath12k: calculate the correct NSS of peer for HE capabilities
+19f291093ed0d0d6db35a7ff957f263138a22c54 ath12k: Remove bus params
+4749ec091525bd2fb0c19cf3c7aeb2bf19d6a0b9 ath12k: rename defines with the appropriate prefix
+ca5fa52854a86b3de10214a817466c1282d1c9f0 ath12k: code cleanup in dp_mon header file
+240e6fa5d8946cc7fa1b3d8346705086ad11649e ath12k: fix comments using wrong style
+9f98a79a871525d5346a1e7bae4ec69de9cdb2c0 ath12k: Rename qcn92xx to qcn9274
+461042fec40a1e444a301207d0e29a1a0d2697c5 ath12k: remove unneeded EXPORT_SYMBOL
+4b25d15ae42d46a0329c5e90f0a85f861f61bb93 ath12k: remove unused define
+be21b57b9f5048bdbbb01f2e85ad147502d0f498 ath12k: Remove mesh interface type for QCN9274
+951b8d8aa735f9d684eb9f565752e952788f9ce7 ath12k: remove experimental warning
+3ce28201cd66f5e7b81b1d6406b1b935372a2cf4 ath12k: dp: convert a message about TCL bank to a debug message
+c57c7548d18e090e2a8ecaa60003e4ef854baa03 ath12k: don't warn about unhandled htt events
+a8e4a317305475d8155525ce0fe04935f0ebb164 ath12k: wmi: remove unused uapsd definitions
+312af69d6f295775a2787b48dad0297094c5d985 ath12k: fix macro argument reuse
+d983fea9f7943e4afc84f3549577515855365138 ath12k: avoid precendence issues in macros
+e4574ef39876c908130b7f5e411f7fe337cf6e11 ath12k: pci: fix header argument usage
+0cf4a34c762040fce4480ded01c3f6b917f9ab05 ath12k: convert hw_params to a const pointer
 6708be40047789aa3587a3866b782d5cda7b2a31 wifi: ieee80211: s1g action frames are not robust
 2d8b08fef0af23aa2fe7f1a1719ac5b11478042f wifi: cfg80211: fix kernel-doc warnings all over the file
 82757b792be7a549460137b2dbfb9d48003a072a wifi: mac80211: add a missing comma at kernel-doc markup
@@ -115,9 +136,50 @@ c2653990d5729a445296d6d04395be5dea8e282e wifi: nl80211: acquire wdev mutex earli
 d6f671c8a339d5b655acfacb8be6918c744fbabf wifi: cfg80211: remove chandef check in cfg80211_cac_event()
 ecad3b0b99bff7247a11f8c7cb19ac9b0cb28b09 wifi: cfg80211: Increase akm_suites array size in cfg80211_crypto_settings
 8bc65d38ee466897a264c9e336fe21058818b1b1 wifi: nl80211: retrieve EHT related elements in AP mode
+70c03473e8d504fea27b0816511945a1a871550e ath12k: print hardware name and version during initialization
+5e5cd71319d04711b37cc137ea31cd8fa8e7671f ath12k: Fix kernel-doc issues
+518d15b5bdb6d60f9b2fad71c4111d9c3a9f5311 ath12k: qmi: Add debug message for allocated memory segment addresses and sizes
+730b46ab0396eaef0d4b3e39f1983f32ce0c69b4 ath12k: Fix an error handling path in ath12k_core_fetch_board_data_api_n()
+07285332c753575454277f7e480464469ba331bd ath12k: Remove redundant assignment to variable fw_size
+5ae49b66763e1f1c7a53b44ba11c36c22619a69c ath12k: remove QCA6390 in comments
+d743acfe9028415396b48bd645e084f1bfedef11 ath12k: move hw_params to hw.c
+121ea24fb9c5493b9d8435492ada041627ab429a ath12k: hw: make all const variables static
+79250079948e8eee0257285d7a469656378c33fc ath12k: mhi: move config to hw_params
+2eb0751dcc366bcc63b00aa7592be66e9f022c3e ath12k: wmi: move wmi init function pointers to hw_params
+935b5c199249cdfb6c1812a328cb69e2873b8c11 ath12k: hal: move ops to hw_params
+6044ee416bfaf394f6856a6a512ed93f7a0b6ae1 ath12k: Don't warn on failing to configure monitor ring
+02460bb5987624cd1e3853deab5f4d48d32d7df3 ath12k: remove unused struct ath12k_skb_cb::eid
+cbcbb06c8e3579b4bb56f6fac4ddb2a8b226f42f ath12k: convert all C++ style // comments
+fc1c089c5dc9a740fbabf5bacde1816f0ce2d746 ath12k: remove inline functions from .c files
+30a58de98841784e010170782f2f6ed0a700551a ath12k: fix interface combinations to work without AP mode
+e70d8092982f8afac58cab09261f4939be2ee36a ath12k: disable AP mode on WCN7850
+f4a25f29815e7e4372fbee6926c2aff7d7f23ed9 ath12k: remove unused bdf_addr from ath12k_hw_params
+725645b3bfc8681b5814c13ec34d7e01392f1366 ath12k: cleanup ath12k_hw_params
+e6dc0d3f216545cdb666e34df3eeee6838995c09 ath12k: remove struct ath12k_hw_params::fix_l1ss
+8b31a6dc1f4200f0cbca0917516c0312377c8f0e ath12k: hw: add qdss_config
+3a5232728e3f1751da5d1dcff5aac947bde2955e ath12k: remove unused ath12k_dp_tx_htt_h2t_vdev_stats_ol_req()
+667fc06887bf53015db786dbc00dc579ef72d04b ath12k: Convert FIELD_GET() to u32_get_bits()
+cfa4e9777ed34ddbb3a1acadf25a8603b7f22bd3 ath12k: Replace FIELD_GET() to u32_get_bits() in htc.c, mac.c and pci.c
+6813eb18dee376635d6183b43d3d5177841ba914 ath12k: Fix 'cast to pointer from integer' compiler warnings
+bb22b95c8a04c3c82ae8ccf366b7c260d7ccccf8 ath12k: rename functions and macros related to dp_rx tid handling
+4bb2fdbd952880a6831498d71ff98e04c738cc96 ath12k: remove local functions from dp_rx.h
+56f030deedb2dbf682bb8f28e4e1638a74c786b9 ath12k: prefix 'ath12k_dp_rx' to all dp_rx macro and functions
+0758cb74ccf4e3db9d8492d601f2a1ea764763c4 ath12k: hal: Convert FIELD_GET() to u32_get_bits()
+d38305e7482e5a36289be8b3a6df2a7c71424280 ath12k: hal_rx: Convert FIELD_GET() to u32_get_bits()
+70e67450033ec7e336df815a72de69c7bdc58385 ath12k: wmi: convert FIELD_GET() to u32_get_bits()
+b097f9508b4852a8b1d15e492e58dc62057eec03 ath12k: wmi: implement ath12k_wmi_tlv_hdr()
+c58ab7e345f32a0cf48f205098d21ed7dbf13891 ath12k: wmi: implement ath12k_wmi_create_tlv_header()
+808b0385a8017cd705e92bba883ae3d6700b263d ath12k: ath12k_wmi_send_thermal_mitigation_param_cmd(): use sizeof(*foo)
+ce6be87e021ad300f01e3d57570c652366f4764c ath12k: wmi: convert FIELD_PREP()
+c6526037af8e46651ee419e46aed3a6f692bd603 ath12k: wmi: remove unused structures
+6ddcb374f7193570b03db4cf9263affe37024393 ath12k: struct wmi_init_cmd_param: remove unnecessary tlv_header
+caad8c29a26148b796478ed1bf6580c47c188064 ath12k: wmi: convert tlv_header to __le32
+90caa5b06b553e5d289f4e441c3a9bf8a35af8c1 ath12k: wmi: convert struct wmi_cmd_hdr to __le32
+f07a4ee12c35527c79de14963f7ccfbbcfa10ad2 ath12k: wmi: replace WMI_SCAN_SET_DWELL_MODE() with u32_encode_bits()
+73eb7624ddd95fdc2243bdbea3e8403b649cbf1e ath12k: wmi: convert commands to __le32
 7d1e59a35ffaffcf9bf9c6cde19b7adedeb52045 ath11k: Fix typo in comments
 d1954e3e1b66422a7b8fcc0d75054897262f9514 ath9k: remove unexpected words "the" in comments
 38b6c01a6b34719b66aa58490fd258974ae2f8e8 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
 1864645005a3616b57f99e1578cff64cf0be93c0 Merge ath-next into ath12k-bringup
 
---===============7253371441361900281==--
+--===============5660669795513636692==--
