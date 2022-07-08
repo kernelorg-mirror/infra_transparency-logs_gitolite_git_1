@@ -1,23 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Fri, 08 Jul 2022 19:45:27 -0000
-Message-Id: <165730952723.31745.16067398220685386056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Fri, 08 Jul 2022 19:52:57 -0000
+Message-Id: <165730997774.3157.3727637643945643320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/master
-    old: eead01261322cb8b2fa14867f4047be58b6d4d20
-    new: dac020e766dc5134147826bb0fb311ba2d01ee6d
-    log: |
-         dacbf23e744fb07603fdb44b9c6fd7d69af38cdb trace-cmd: Fix description of a field in trace-cmd.dat.v7.5.txt doc
-         c716d2b4610ae86904d0658f11c0c1d34b1f5850 trace-cmd: Move clock_context_init() out of pthreads
-         528ff5f6c798d49015bbe500a555d971831371a0 trace-cmd: Have tracecmd_write_guest_time_shift() handle NULL tsync
-         741dd08b6abd7c902f19e64b76b130241372d826 trace-cmd: Do not use KVM debug vcpu directories as the CPU mapping
-         dac020e766dc5134147826bb0fb311ba2d01ee6d trace-cmd: Have the pid to vcpu mappings know about sparse maps
-         
+  - ref: refs/tags/dlm-5.20
+    old: 0000000000000000000000000000000000000000
+    new: 2cc6b6e9ba61769163cc1e3fbfaeafc5599069d5
+  - ref: refs/tags/v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
+  - ref: refs/tags/v5.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
+  - ref: refs/tags/v5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89a9eba652fe348461301ef785c3e274bc491879
+  - ref: refs/tags/v5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
+  - ref: refs/tags/v5.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
+  - ref: refs/tags/v5.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
+  - ref: refs/tags/v5.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
+  - ref: refs/tags/v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
+  - ref: refs/tags/v5.19-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
+  - ref: refs/tags/v5.19-rc3
+    old: 0000000000000000000000000000000000000000
+    new: afdb472867d4677930236a864496939f496de1b9
