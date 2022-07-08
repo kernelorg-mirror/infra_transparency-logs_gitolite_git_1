@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 08 Jul 2022 06:09:45 -0000
-Message-Id: <165726058521.26795.14214249533939471241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 08 Jul 2022 07:14:15 -0000
+Message-Id: <165726445532.4833.11815714529116712040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/fixes
-    old: 3e1d6913691f359a044e8c88f001a875aafbff3b
-    new: dc5cb7a833e83a0d51373ba7d96e2ed8e1890944
-    log: |
-         dc5cb7a833e83a0d51373ba7d96e2ed8e1890944 riscv: don't warn for sifive erratas in modules
-         
+  - ref: refs/heads/zynq/soc
+    old: 0000000000000000000000000000000000000000
+    new: d1ff2559cef0f6f8d97fba6337b28adb10689e16
