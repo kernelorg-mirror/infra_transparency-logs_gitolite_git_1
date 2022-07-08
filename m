@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Fri, 08 Jul 2022 14:47:38 -0000
-Message-Id: <165729165856.27458.16662998849155739226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 08 Jul 2022 14:48:14 -0000
+Message-Id: <165729169480.27750.17346137314852693785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/main
-    old: 4692d35e4142e5df606d3a8c0d959eea6b9a18e0
-    new: ca4a6293da23ad0fd708ea1fecb2d465a9ea6093
+  - ref: refs/heads/at91-fixes
+    old: 91d60e259c0f58c855f88f3fe5b7909aec563525
+    new: 2fdf15b50a46e366740df4cccbe2343269b4ff55
     log: |
-         ca4a6293da23ad0fd708ea1fecb2d465a9ea6093 rt-tests: Change to version v2.4
+         86c43ea071ae9988b52fd0f654de439da4b5c20a ARM: dts: kswitch-d10: use open drain mode for coma-mode pins
+         2fdf15b50a46e366740df4cccbe2343269b4ff55 ARM: dts: at91: sama5d2: Fix typo in i2s1 node
          
-  - ref: refs/tags/v2.4
-    old: 0000000000000000000000000000000000000000
-    new: 3c444d587ba98c4c81b0536d9d990bae5bfc85b2
