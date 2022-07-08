@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 08 Jul 2022 12:27:39 -0000
-Message-Id: <165728325914.29536.16560343487295925140@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 12:27:55 -0000
+Message-Id: <165728327520.29682.17481190625913911320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20220701_kuninori_morimoto_gx_asoc_audio_graph_card2_c_make_codec2codec_settings_optional
+  - ref: refs/heads/fileBU2SDi
     old: 0000000000000000000000000000000000000000
-    new: 16b7ba9c0f53032e2a9365f3de89b66426b5716c
+    new: 0ca3d2ba1dfd110bf5e0b25ebeb8f1e1587598fb
