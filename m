@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 08 Jul 2022 07:33:14 -0000
-Message-Id: <165726559458.16859.5827057646366520021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 08 Jul 2022 07:35:47 -0000
+Message-Id: <165726574780.19161.17198764167368391273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/for-5.19/fbdev-3
+  - ref: refs/heads/zynq/soc-64
     old: 0000000000000000000000000000000000000000
-    new: 7c68675d4c468212dd1c171e8f2a02ee87a6220f
+    new: acd6510dd7ab3664b69eb99e37c4fd6325a7d442
