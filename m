@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 08 Jul 2022 00:18:52 -0000
-Message-Id: <165723953275.20329.17608231444819256146@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 00:25:41 -0000
+Message-Id: <165723994120.25421.16816002814700678074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: ef4ab3ba4e4f99b1f3af3a7b74815f59394d822e
-    new: 029c1c2059e9c4b38f97a06204cdecd10cfbeb8a
+    old: 029c1c2059e9c4b38f97a06204cdecd10cfbeb8a
+    new: 0680e20af5fbf41df8a11b11bd9a7c25b2ca0746
     log: |
-         029c1c2059e9c4b38f97a06204cdecd10cfbeb8a net: stmmac: dwc-qos: Disable split header for Tegra194
+         0680e20af5fbf41df8a11b11bd9a7c25b2ca0746 net: ethernet: ti: am65-cpsw: Fix devlink port register sequence
          
