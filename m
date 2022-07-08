@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 08 Jul 2022 00:08:48 -0000
-Message-Id: <165723892866.12535.4279248043548824084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 08 Jul 2022 00:10:53 -0000
+Message-Id: <165723905308.14672.4932339481689470675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: f5d1f6d63c9a1f52a2f6f5f489afcaae92e47f53
-    new: 2635d2a8d4664b665bc12e15eee88e9b1b40ae7b
+  - ref: refs/heads/master
+    old: 0326195f523a549e0a9d7fd44c70b26fd7265090
+    new: 59018468b63116ddfb1fd25dd2b232808d2fd2b2
     log: |
-         96938258b1978331448df02952c9f00d8672ec7c RDMA/rxe: Remove unnecessary include statement
-         2635d2a8d4664b665bc12e15eee88e9b1b40ae7b IB: Fix spelling of 'writable'
+         59018468b63116ddfb1fd25dd2b232808d2fd2b2 bpf: Add flags arg to bpf_dynptr_read and bpf_dynptr_write APIs
          
