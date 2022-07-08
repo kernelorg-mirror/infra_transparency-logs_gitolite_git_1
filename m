@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1383224273225716148=="
+Content-Type: multipart/mixed; boundary="===============1800397608565220025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 08 Jul 2022 20:46:37 -0000
-Message-Id: <165731319738.6999.13639042259428150643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 08 Jul 2022 20:46:43 -0000
+Message-Id: <165731320330.7125.13704868333057441807@gitolite.kernel.org>
 
---===============1383224273225716148==
+--===============1800397608565220025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
-    old: 050237e6b0bea0fafbf7d3d57e717c6fa1e4e819
+  - ref: refs/heads/asoc-5.20
+    old: dfec073fc9bf53e009ab399322471be9ec807ff6
     new: 7d596d9bb2ae4d0a7a59199792c13ea02f0d2c76
-    log: revlist-050237e6b0be-7d596d9bb2ae.txt
+    log: revlist-dfec073fc9bf-7d596d9bb2ae.txt
 
---===============1383224273225716148==
+--===============1800397608565220025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657313195 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1657313195-326ec236bd92c51a02ea9def61da51b211312d7a
+pusher C3F436CA30F5D8EB 1657313201 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1657313201-f6ed895ab18648dcfb6c6ad99bd3786be9934660
 
-050237e6b0bea0fafbf7d3d57e717c6fa1e4e819 7d596d9bb2ae4d0a7a59199792c13ea02f0d2c76 refs/heads/for-5.20
+dfec073fc9bf53e009ab399322471be9ec807ff6 7d596d9bb2ae4d0a7a59199792c13ea02f0d2c76 refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLIl6sACgkQJNaLcl1U
-h9BvmQf/aCsnzsaqe48rpRBlggApptGTAP6fDqtCDss+FlH1IWR/EBSXAVhE3s7X
-ynmsQht0a0s1cuGxJR1R5l5Pe8pJyh0tkqOXYHrotOH4JcP9wLCZ6KvsnrvjqXys
-D175U9D4SAZ3A6VTduL0vUqRfC/sFag+Gu6zH/JFdzVjxLBHGpPCt1rkBjOB2yYr
-ZbTBdgOkGVzV0EIewYWp9iMxYaoIJqH5QNnFT4eCGIiehSCHLLp2xQ9sqH2sLFZl
-NqXRJqAch88E3fXi0TI3kzrKVT4i2WkhBxqI2rdCWHHWjva+a4G8v8uRxmr88m83
-CWkVo94JvXvTieTjAaGz06dD5pD42g==
-=QvXh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLIl7EACgkQJNaLcl1U
+h9CESwf/Yeai+cuJZJFl2pDpi6g/H6WIwvruLjUMkooSS9E0oPyQrc+7EZA27HlX
+1pC0kYrkpdv46k5DAwW5pkSqZe1gjJl/4y+Cf5oOWjB/5yFsrmATn5lYt4P1co4l
+aWh/GL0q3FUa9WOGZ4X1RdMDcMN7Uhe51TaTbEENz7hlMO7eOuoVfKE6IOwzBjXj
+YzSwQysswBEOJXbOzppX9jsOtJKZTsKgHQ98pBeIvwA7SR+k9s18NVJ6EPoMHMvv
+P9zkQx/f9NuMAobo+4P/azaiLJ/QkwwAkWyPaZ3CBTkTX0pAtMNvT50k6JBmMZUq
+XT0aFZJY4LJtxVbpwbhcgB3LzdJq1w==
+=joL1
 -----END PGP SIGNATURE-----
 
---===============1383224273225716148==
+--===============1800397608565220025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-050237e6b0be-7d596d9bb2ae.txt
+Content-Disposition: attachment; filename=revlist-dfec073fc9bf-7d596d9bb2ae.txt
 
+050237e6b0bea0fafbf7d3d57e717c6fa1e4e819 ASoC: fsl_utils: Don't use plain integer as NULL pointer
 817a62108dfacebd548e38451bf0e7eee023e97f ASoC: audio-graph-card2.c: use of_property_read_u32() for rate
 c2ff7f15a4ef74b8cb6d425dfa8d8b928f193a80 ASoC: audio-graph-card2.c: make Codec2Codec settings optional
 6976ed0137d98c2ec0f11af8a01716e9f3af873d ASoC: audio-graph-card2.c: remove pre-alloced Codec2Codec space
@@ -70,4 +71,4 @@ cd486d37493357369ec1d8f130d93806418def84 ASoC: Intel: sof_cs42l42: add adl_mx983
 bf02bb4d3b68792d24258b4dbb5676a3ae1cfaff ASoC: Intel: sof_cs42l42: adding support for ADL configuration and BT offload
 7d596d9bb2ae4d0a7a59199792c13ea02f0d2c76 ASoC: audio-graph-card2.c: make Codec2Codec settings optional
 
---===============1383224273225716148==--
+--===============1800397608565220025==--
