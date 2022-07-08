@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8933327535163663073=="
+Content-Type: multipart/mixed; boundary="===============7429593854932551373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 08 Jul 2022 12:59:07 -0000
-Message-Id: <165728514719.18182.2588214561925911278@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 13:00:46 -0000
+Message-Id: <165728524698.20310.10646618426583779814@gitolite.kernel.org>
 
---===============8933327535163663073==
+--===============7429593854932551373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5812175389e258141c5e9f8eadc1ed226f67bc11
-    new: bb160ee61c04fe96f3cc0088ef1907214861dccc
+  - ref: refs/heads/usb-testing
+    old: 5ea5746dfa051eaca6c79a598ff7dc4ec911cada
+    new: 8affe37c525d800a2628c4ecfaed13b77dc5634a
     log: |
-         6fb9e1d94789e8ee5a258a23bc588693f743fd6c usb: typec: add missing uevent when partner support PD
-         3d0dc539029b09fbd125444c16b11a8ed10b9d0f usb: gadget: uvc: fix changing interface name via configfs
-         bb160ee61c04fe96f3cc0088ef1907214861dccc drivers/usb/host/ehci-fsl: Fix interrupt setup in host mode.
+         23385cec5f354794dadced7f28c31da7ae3eb54c usb: dwc3: gadget: refactor dwc3_repare_one_trb
+         8affe37c525d800a2628c4ecfaed13b77dc5634a usb: dwc3: gadget: fix high speed multiplier setting
          
 
---===============8933327535163663073==
+--===============7429593854932551373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657285145 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657285245 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657285144-8a78adfa57ca2b08ad4a5a615a58861a1a3a74ad
+nonce 1657285244-2c4c8d09a7981e5243046149dc595650dcd8ba10
 
-5812175389e258141c5e9f8eadc1ed226f67bc11 bb160ee61c04fe96f3cc0088ef1907214861dccc refs/heads/usb-linus
+5ea5746dfa051eaca6c79a598ff7dc4ec911cada 8affe37c525d800a2628c4ecfaed13b77dc5634a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIKhkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hMcP/2wRvHs9KsRhYqY6acDV
-72XI2HqT8iI4C9ru/I3fT4g+xSh7H9pgGFCGb4FoIsE9rU7W9C0rWCaHQeHsM54q
-U3ToNGXJ/yhMUASBaK394jRn5iALo/Bv8usrx423hjwhZa9P8Z3vXbaF2Eo+eHFz
-fP4lI8Z9TjjLpylRCVRhdaL8qlIJQO9STDjT5KDVLImLW4OYklpSBZx+bFHIPvaI
-8FU/cMSLGMPCRDuu+dr7FYIb8YVRNHKO0cGTHb8gpGF2+yDb7OAOht2ONUZjOsqn
-L6yEOlQDkVgTHReNsP5TOpDkwl3KfE+YBjX8uQFYM8p3ogXar6UZm5F2+T0v2Orr
-zYgfflhis2qcvyn7cSO8xPzHsfVyl/ncrqK179gQtoZIp3fRyKzxEJLSOlu5/4It
-i/OsamhswhE97q/xsuXlcnOAl34wQ0Vn1xXTvMMf9LZhF/XcoLHYN5HkrdICK/YD
-2Itc0vkQlWu5nV3x7znRVU7ZtTvZGPDJbeN5g1S/IPYiCILUHfM9dkBxval8xqXl
-YTZ9vWmCgIHMtY47a28umpeu1EKdp+EDLQ9z6iVC21x7Kf/HCv8mFR2tIDEd21C7
-y4AFzTagauwaULsWNyvYnqpIibVorQr9+36n5pRbjWEKbKIIFF5nurmcSOZGNhDK
-C1GGAe4CYqYesm4LHGHxa+Bp
-=f3IZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIKn0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VRQQAIr72Z1jc4xIH/W1bMga
+9KPwBfP3HxtnxVNGkEaaE85in5WKagGJIbA3FpeUB1FWmew1s+LAgLHuqwzXAcvT
+iq+9eV/OwbOTZdw6yebQIJIMmblUZ1RkvCWZizDIWHYNbc5Yx0f6iEjbhGopIEF4
+uanRzBWbOxqBY8/Z6Z2sKYLCodeW/L+A4h6I8yhet8HfEK1wXawoMZLiHmlcMQNu
+E2PDbm+ThsXc9Z759gFFDc1CJKsMZylh3UbRqoeiJnjZaSu9/kXm/qekjhESyBq9
+Phwb25LrysxnB40x4soRWlzhLRMk0gftYFyGHDslP9+bAa187HKuOBng2cti+yjE
+cq0mVHy0FgEipYI3yzDSwoHL+sxk6fb7pzawW6LnbcFZj9Xzz6jtbHn+faOv7zI9
+Om/da4qfcyT4Gse7MDihkLop7AmGhRIOIziRkvnfv6RRVDreiKPeSc2aetGWtdWm
+dQna45pEM7N04zUW+7D2uHi69pC3Lx7bL3kogKGBYdxwNyuSrRxIAYC1B060ESmx
+intHg3oakKVMSj6Pmis2a6N0tO5cvBC6TwjzcMODk4FgtACpJUO7crB9cAER+mbY
+nP7o+x6GOs37eCYqzK0tGQh982EMSgxpjZUezkBAVYPbIfksugso+47zw0LXyUuU
+xkS0EMCs1I0/wZ+PmXKEpBLF
+=eqFt
 -----END PGP SIGNATURE-----
 
---===============8933327535163663073==--
+--===============7429593854932551373==--
