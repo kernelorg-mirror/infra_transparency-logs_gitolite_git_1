@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5097538115824799583=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Fri, 08 Jul 2022 05:44:15 -0000
-Message-Id: <165725905582.11341.17691565592474564437@gitolite.kernel.org>
-
---===============5097538115824799583==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 08 Jul 2022 05:49:28 -0000
+Message-Id: <165725936801.14518.15013233779900575969@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/md-next
-    old: ff4ec5f79108cf82fe7168547c76fe754c4ade0a
-    new: e3ce2720dc12b8cc9ac5057007b12ac34dfdb58b
-    log: revlist-ff4ec5f79108-e3ce2720dc12.txt
-
---===============5097538115824799583==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff4ec5f79108-e3ce2720dc12.txt
-
-d01051ed365d95dfd5dec100a2b22e0c0cb8912d Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.20/drivers
-aa516a92584eabad397f0a47597b20754521c876 block: null_blk: Use the bitmap API to allocate bitmaps
-43a20e93310ec218550dcdda0ae79dcd91dbd880 rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-953d0c1b1d29c75221ae2d14a0f937f2e0f90592 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-e8d5be284d3089aa5c3d957e53f71d2eca72b574 rnbd-clt: kill read_only from struct rnbd_clt_dev
-7e6c34c6ca2282ea1a9c3a2d06db3e3578f272dd rnbd-clt: reduce the size of struct rnbd_clt_dev
-50aff97483b6afe4a9796154e9f6a5ca0a4f55c2 rnbd-clt: adjust the layout of struct rnbd_clt_dev
-ffa41a71702493b9145a5ae4f4b1b8a4bab1b8f7 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-59498516e707ed6b6a5c01ae28fc816382d9698f rnbd-clt: pass sector_t type for resize capacity
-3b56590b1715b998cb5c73a5bd2e9d340ccb42dc rnbd-clt: make rnbd_clt_change_capacity return void
-61a1920cda0f7a10d3525848953b65ad2e208cd1 md/raid5: Fix sectors_to_do bitmap overflow in raid5_make_request()
-e3ce2720dc12b8cc9ac5057007b12ac34dfdb58b md/raid5: Convert prepare_to_wait() to wait_woken() api
-
---===============5097538115824799583==--
+  - ref: refs/heads/next
+    old: c1ab64aaacd61be70af26c711aa08345ff84f166
+    new: 08fd292fdffcf5fbca6301ff43aa1ad3cf9d69da
+    log: |
+         8d5bb683d50a80edaf8a6db9bfa28864914f5947 phy: samsung-ufs: convert phy clk usage to clk_bulk API
+         4e123efa45671ab9255aa4c4d990eb26a0e2ab94 phy: samsung-ufs: ufs: change phy on/off control
+         085009f9b27243d6f2b6910a877f868553e75d84 phy: cadence: Sierra: Remove unused `regmap` field from state struct
+         b26baa53003d34c389565596d53f57712e723ce0 phy: cadence-torrent: Remove unused `regmap` field from state struct
+         b79a950cc1d221673f0e8d11bf98e6af090d69a8 dt-bindings: vendor-prefixes: Add prefix for Mixel, Inc.
+         4a902a02bb8dbc08ae762db0fad0c0e2fff75ca2 dt-bindings: phy: Add Freescale i.MX8qm Mixel LVDS PHY binding
+         06ff622d61d2ff0d06ae964627a8928e5243efc2 phy: freescale: Add i.MX8qm Mixel LVDS PHY support
+         08fd292fdffcf5fbca6301ff43aa1ad3cf9d69da phy: phy-mtk-dp: change mtk_dp_phy_driver to static
+         
