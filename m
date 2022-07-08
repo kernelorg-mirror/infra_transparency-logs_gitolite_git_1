@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3705804958881021457=="
+Content-Type: multipart/mixed; boundary="===============8079191243341525014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 08 Jul 2022 13:36:25 -0000
-Message-Id: <165728738545.10917.6423356128848028691@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 13:36:47 -0000
+Message-Id: <165728740745.11087.6883610521295768941@gitolite.kernel.org>
 
---===============3705804958881021457==
+--===============8079191243341525014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 2fd26970cf66bd52dc42843c46968040caa8c9a1
     new: 2c8f7ef4b3c4ac67a876b2a9fe7b6a1128265104
     log: revlist-2fd26970cf66-2c8f7ef4b3c4.txt
 
---===============3705804958881021457==
+--===============8079191243341525014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657287382 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657287406 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1657287381-86af5b22db40b868fb3cde19b05f290b62b52487
+nonce 1657287406-5d6ce2a6f38293275c5b3dc3c94ca71ff77009e3
 
-2fd26970cf66bd52dc42843c46968040caa8c9a1 2c8f7ef4b3c4ac67a876b2a9fe7b6a1128265104 refs/heads/driver-core-testing
+2fd26970cf66bd52dc42843c46968040caa8c9a1 2c8f7ef4b3c4ac67a876b2a9fe7b6a1128265104 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIMtYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jYoP/R01p4mknA8XAbs60mFt
-bp0V14lb7TxY9vkqFWPqd7klZLaU3RFwP+ohcmLqoY/1M3TuF3l+jERejVC+wR1w
-s11FUcNmaiZGMZZagPo7AdMHI+rBqH+kIQCb9PeW4wrYvvhqcSM5QmeUMwrMJYVv
-VI9ta096tyT6RD5RReJssZiIdlLChL4IQEXrFpp/6uN6ftcXVYyWFV9yt17HBTVF
-CgGaiebe3zSRAsQSef3r2WOFiRuusWl1Z7nB2sQUNw/P0q58m39aPD69QaSq9Qgw
-8KxaDM84aVDYVYQDEWdDP7RRfWXeylXewkSEe+jWTHpRWs9bVy8zZBStAAiNh6w1
-AUKnH21FzRU3StfC8inThL5AtMj832ifBBWWFSuMa8GvAsGV06xMMayJlQMZzqtp
-L2x1SVY5Y4cA3kYk0pfRVq1EyaISdZ5LQwlWn6SRZ/DiackQvgKzRnBTpm0k85M7
-Otqic75heFWgIdMO7Gz6AS/4gDBLFr6NKTRvSrKp0uVqejOss+5YHmZ2vArI9dJC
-KM1jyqkW4kNCKZvCsHafZE5WMVHeA9xS3vuXJwQjRS8ZxuTqBN918PSXXycSJz9D
-Nyb5Couv3g6W0FvLa311qQesyO3Fi1sLsCdrcJQxvRoYZZwWSfWI4jyF+iMT9WTB
-0a9/mUDC9+NLCyxY2fSCg2jE
-=VNh/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIMu4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hvUQAIIWp952sOkPTwryi+O2
+9huNOJfsN6Db7UAjn7/yJRkGTg+TI69aLbRjp5xqx6/BFZm/UprmO/iRuUJzbAyo
+gBWo2p2AGayWliiXQCZGQaDs/VXmc+Vesrqo/imDgNy8AHZYKAv1MkwmIVDDgjdz
+EA7zMw7ydByOCWqGZ86dUMSXz9kah/wxo1j5ybh1D9jbLMlgjmZl4x66ESwjxTed
+JEEo5CVgtWzYCUD2ya+Z2hsCcfnZ4WsAxtOP6MULEkWLazvpZ7vqWsYDMCztiZQM
+6GB3RVR5O9DGsWb1dncY2a+rYa6kJXefsxCZ/QIZqfJoGVRHt1i8TYzcMCDrFn1T
+qSRGVNDuFQNb3cEmqDarweGoTIPQ1VfnwJvoSHqiR31A2WMvy0oMJnidf4Sj9LNI
+uXPOm8InAVBcMHONzoOGxwQ5qK0xThs8DvjER0y8itT4f5fyJvnOB1x6Sx7MZsNm
+Bn/EsewbRSrezZxwCyskHSBquVHIaxOiToCyBOF60wNgoVyKFmOpD4v+7NDzzYfi
+dCRoZgMzxvJj5edzQv7tDCNKM1QukYeEOCE73IGJ6qKJNJZQONuRgM7l1iyGIMfe
+v9pGkfkHr+tJvMa1akEP4SJjeHoU/sr31lnqnhv8G/CxZJb1jZHhnrvZRGLLnZUC
+s1M+UsgsMiaRDqtA5hwcbLpR
+=8Z5V
 -----END PGP SIGNATURE-----
 
---===============3705804958881021457==
+--===============8079191243341525014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ dea8c0b40fb500be29f4649cf01202e42a8a54f8 arch_topology: Add support for parsing 
 7128af87c7f1c30cd6cebe0b012cc25872c689e2 ACPI: Remove the unused find_acpi_cpu_cache_topology()
 2c8f7ef4b3c4ac67a876b2a9fe7b6a1128265104 Merge tag 'arch-cache-topo-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into driver-core-next
 
---===============3705804958881021457==--
+--===============8079191243341525014==--
