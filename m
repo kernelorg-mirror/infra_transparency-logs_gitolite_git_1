@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 08 Jul 2022 07:47:59 -0000
-Message-Id: <165726647973.27910.7508549716905968177@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 07:48:17 -0000
+Message-Id: <165726649756.28071.8390543633727201546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/arm64_enable_prmt
-    old: c94a31888cc1c91915d6ab3ead92dcb7a34bb711
+  - ref: refs/heads/for-next/ffa
+    old: f3f3bdbd58cea4fdd088075fdc8864fc47ecd419
     new: 0000000000000000000000000000000000000000
