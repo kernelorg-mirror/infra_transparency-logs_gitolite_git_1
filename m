@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6642615569594072075=="
+Content-Type: multipart/mixed; boundary="===============8933327535163663073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 08 Jul 2022 12:54:58 -0000
-Message-Id: <165728489822.15417.1108522120323758114@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 12:59:07 -0000
+Message-Id: <165728514719.18182.2588214561925911278@gitolite.kernel.org>
 
---===============6642615569594072075==
+--===============8933327535163663073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 3a6bf4a08142826698121bef16b244dcf50a6431
-    new: 5ea5746dfa051eaca6c79a598ff7dc4ec911cada
+  - ref: refs/heads/usb-linus
+    old: 5812175389e258141c5e9f8eadc1ed226f67bc11
+    new: bb160ee61c04fe96f3cc0088ef1907214861dccc
     log: |
-         b067fc284667ccbcfdb6c990568a3cfd8b73bb8a tools: usb: testusb: Add wireless speed reporting
-         7fbcd99ebc0b9df7f4a9bbcfbf3e71c6bfddf9cc tools: usb: testusb: Add super speed reporting
-         5ea5746dfa051eaca6c79a598ff7dc4ec911cada tools: usb: testusb: Add super-plus speed reporting
+         6fb9e1d94789e8ee5a258a23bc588693f743fd6c usb: typec: add missing uevent when partner support PD
+         3d0dc539029b09fbd125444c16b11a8ed10b9d0f usb: gadget: uvc: fix changing interface name via configfs
+         bb160ee61c04fe96f3cc0088ef1907214861dccc drivers/usb/host/ehci-fsl: Fix interrupt setup in host mode.
          
 
---===============6642615569594072075==
+--===============8933327535163663073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657284896 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657285145 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657284896-b1ba083e8c3bc23d148b945af1dcb7debd2c397e
+nonce 1657285144-8a78adfa57ca2b08ad4a5a615a58861a1a3a74ad
 
-3a6bf4a08142826698121bef16b244dcf50a6431 5ea5746dfa051eaca6c79a598ff7dc4ec911cada refs/heads/usb-testing
+5812175389e258141c5e9f8eadc1ed226f67bc11 bb160ee61c04fe96f3cc0088ef1907214861dccc refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIKSAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+900QAKvPTUnxlZL6aK2YI4UG
-+TjsdaYT3TOKBbvYVK0gy86LTCe+W6LTNAQJMavv8wOQLozFUbZo5bziHBerElFD
-9qnn12jYUhGKJ+2xOTUZ2TMxyQvezBm0+9+Tvsy0Zke9KwMsnzGAZhzj7uqRnuoK
-8kEUYsj1b0z6lg52BH8C9srpueBj/Bi3ilReE6a0pW5io+HYmBIOmD5Zs8RcK/yO
-FMW5/9SCcI8Rokh9vDLPbinhHSsNTmXXqNYAm3/lZpYbZENqAN1crm+z4ercrpwD
-Wjh/DDGJU0WpyI21cIfUSQM96P/g5CiLSYK/mECU0mnN7zgPBKMsZq7vzah/RS+X
-JmJoEpDQtEgTk5OO1XmDl7TUolQEWEfxW7fhfSUHOr55JZXj91x8ByYIKno1y8OZ
-1vr2f4G/0PzuD4vQC9hlGu96MdAWS/EnJXl8OxGhdzZtv60YCv4x0qic//RWoOyl
-CNJhJSlBYetVXClWaFAt2Jzu/05BcRVzFrhsxF39vBpihu8nUnoHBsYMHN8d6veG
-rJAmS2Cdr4in6I9fmYBCTa1f7oUIG9yJiJ//0B8jELwdzNVGzxXrj7nx49alR9ON
-YD6QwXoAxFDSWPWQLqH67aL1wj3luwQh/1DksJXQogYTbce6RIxS7+Nay6T0cv7u
-ncUBo5p9NWLX+Ef4Fj75cyNt
-=Lav0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIKhkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hMcP/2wRvHs9KsRhYqY6acDV
+72XI2HqT8iI4C9ru/I3fT4g+xSh7H9pgGFCGb4FoIsE9rU7W9C0rWCaHQeHsM54q
+U3ToNGXJ/yhMUASBaK394jRn5iALo/Bv8usrx423hjwhZa9P8Z3vXbaF2Eo+eHFz
+fP4lI8Z9TjjLpylRCVRhdaL8qlIJQO9STDjT5KDVLImLW4OYklpSBZx+bFHIPvaI
+8FU/cMSLGMPCRDuu+dr7FYIb8YVRNHKO0cGTHb8gpGF2+yDb7OAOht2ONUZjOsqn
+L6yEOlQDkVgTHReNsP5TOpDkwl3KfE+YBjX8uQFYM8p3ogXar6UZm5F2+T0v2Orr
+zYgfflhis2qcvyn7cSO8xPzHsfVyl/ncrqK179gQtoZIp3fRyKzxEJLSOlu5/4It
+i/OsamhswhE97q/xsuXlcnOAl34wQ0Vn1xXTvMMf9LZhF/XcoLHYN5HkrdICK/YD
+2Itc0vkQlWu5nV3x7znRVU7ZtTvZGPDJbeN5g1S/IPYiCILUHfM9dkBxval8xqXl
+YTZ9vWmCgIHMtY47a28umpeu1EKdp+EDLQ9z6iVC21x7Kf/HCv8mFR2tIDEd21C7
+y4AFzTagauwaULsWNyvYnqpIibVorQr9+36n5pRbjWEKbKIIFF5nurmcSOZGNhDK
+C1GGAe4CYqYesm4LHGHxa+Bp
+=f3IZ
 -----END PGP SIGNATURE-----
 
---===============6642615569594072075==--
+--===============8933327535163663073==--
