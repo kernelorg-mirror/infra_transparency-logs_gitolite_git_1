@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 08 Jul 2022 23:17:00 -0000
-Message-Id: <165732222058.9667.2282540461324404808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 08 Jul 2022 23:21:45 -0000
+Message-Id: <165732250547.12686.14151654708355187671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 525496a030de4ae64bb9e1d6bfc88eec6f5fe6e2
-    new: e5524c2a1fc4002a52e16236659e779767617a4f
+  - ref: refs/heads/todo
+    old: 8f2441c521622b8cc3517f0996abce55b072d949
+    new: 341c4206c65df54d9901018f01b699e685767c48
     log: |
-         bf17455b9cbd4b10bf30d39c047307e1d774fb1a fscache: Fix if condition in fscache_wait_on_volume_collision()
-         5c4588aea6675b69e328d468c5b6be5127e19a79 fscache: Introduce fscache_cookie_is_dropped()
-         65aa5f6fd8a12e0a343aaf1815949a79a49e3f35 cachefiles: narrow the scope of flushed requests when releasing fd
-         85e4ea1049c70fb99de5c6057e835d151fb647da fscache: Fix invalidation/lookup race
-         e5524c2a1fc4002a52e16236659e779767617a4f Merge tag 'fscache-fixes-20220708' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+         c251ee53e7c2ba0e76a48d6a20b94f23d431fb98 What's cooking (2022/07 #01)
+         e16743dc55bb15040a57f56fd07082eddf793378 Meta/Make: prepare for nettle SHA256
+         341c4206c65df54d9901018f01b699e685767c48 What's cooking (2022/07 #02)
          
