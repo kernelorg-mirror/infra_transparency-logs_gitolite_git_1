@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 08 Jul 2022 22:11:42 -0000
-Message-Id: <165731830237.29560.6175015095619436822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 08 Jul 2022 22:12:27 -0000
+Message-Id: <165731834789.30163.4463262301877906046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: 2b4ad13e89bc96d2325c128ffd4a437ff12d3c67
-    new: 88cea4e18ed430aa1187063450236fc00408eaac
+  - ref: refs/heads/master
+    old: d1a6edecc1fddfb6ef92c8f720631d2c02bf2744
+    new: 18410251f66aee7e82234073ce6656ca20a732a9
     log: |
-         3c7753e959706f39e1ee183ef8dcde3b4cfbb4c7 tools/memory-model: Clarify LKMM's limitations in litmus-tests.txt
-         88cea4e18ed430aa1187063450236fc00408eaac rcu: Make tiny RCU support leak callbacks for debug-object errors
+         18410251f66aee7e82234073ce6656ca20a732a9 libbpf: Disable SEC pragma macro on GCC
          
