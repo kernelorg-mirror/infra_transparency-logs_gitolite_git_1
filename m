@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Jul 2022 01:21:08 -0000
-Message-Id: <165724326864.2631.15151695457782049811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Fri, 08 Jul 2022 01:32:50 -0000
+Message-Id: <165724397085.9247.1429576795605720323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: d810d367ec40a1031173a447bd0146cf48e98733
-    new: a2b6111b55f3d1b8d303e986db9d761571793aba
+  - ref: refs/heads/stable
+    old: 07266d066301b97ad56a693f81b29b7ced429b27
+    new: 83f35419ea9d11d35a09f0254bfc8fb60d3e5324
     log: |
-         a2b6111b55f3d1b8d303e986db9d761571793aba net: l2tp: fix clang -Wformat warning
+         83f35419ea9d11d35a09f0254bfc8fb60d3e5324 wireguard: selftests: delay in ratelimit test rather than sleep
          
