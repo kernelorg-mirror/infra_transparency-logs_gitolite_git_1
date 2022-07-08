@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 08 Jul 2022 14:34:04 -0000
-Message-Id: <165729084491.16364.13544366683317880489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 08 Jul 2022 14:39:05 -0000
+Message-Id: <165729114530.19413.12160389830164668040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 44f36ddb2b7fd80557c7c6ab091bda15ddfa3750
-    new: 22c32f6fcf0643403f51f5b67df9de033d4c4008
+  - ref: refs/heads/main
+    old: f5f02da57e5401c8571b1a759e857697f2fb0302
+    new: be7798e0cf106bfa10c3e9bdffe5c15e6b0d7ae9
     log: |
-         22c32f6fcf0643403f51f5b67df9de033d4c4008 gpiolib: of: Use device_match_of_node() helper
+         be7798e0cf106bfa10c3e9bdffe5c15e6b0d7ae9 Correct WHENCE entry for wfx firmware
          
