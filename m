@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4091442491597166970=="
+Content-Type: multipart/mixed; boundary="===============5898620647110987075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 08 Jul 2022 12:26:11 -0000
-Message-Id: <165728317159.28763.5043978930123883493@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 12:26:44 -0000
+Message-Id: <165728320411.28991.4932757923389112827@gitolite.kernel.org>
 
---===============4091442491597166970==
+--===============5898620647110987075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 3355a12760deceb09e1888c5b9ad1f89bf86939b
-    new: a27e2eb5e9febf16c503423424a67289a4eb03c3
+    old: a27e2eb5e9febf16c503423424a67289a4eb03c3
+    new: e0e91965a10b79ca26a315eb283509b9de90f6eb
     log: |
-         177a561e0bebe81444473d5d779d163bd53bc949 Staging: rtl8192e: Refactored rtllib_modes
-         2393ef09cad85a0563a7d30ea7a560a7af58f26c Staging: rtl8192e: Avoid multiple assignments
-         907d2772f75168d2f39087c8c77195c16d3e019d Staging: rtl8192e: Remove unnecessary parentheses
-         58f364ecb13ecece3a84d6517b6be4a4672db655 Staging: rtl8192e: Added braces around else
-         ea32f580e853ca28709474f786134b574bbeacbf Staging: rtl8192e: Remove unnecessary blank line
-         a27e2eb5e9febf16c503423424a67289a4eb03c3 Staging: rtl8192e: Added spaces around '+'
+         05710750974cff9c3a5b06beeb5ab3cbe64b95a3 staging: r8188eu: remove HW_VAR_AMPDU_FACTOR from SetHwReg8188EU()
+         e0e91965a10b79ca26a315eb283509b9de90f6eb staging: r8188eu: make ffaddr2pipehdl() static
          
 
---===============4091442491597166970==
+--===============5898620647110987075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657283167 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657283202 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1657283167-f8a3870b8dfc496fee181bee629fb611134ad5af
+nonce 1657283202-782cb76015def535887132c72da0b48e91d44d73
 
-3355a12760deceb09e1888c5b9ad1f89bf86939b a27e2eb5e9febf16c503423424a67289a4eb03c3 refs/heads/staging-testing
+a27e2eb5e9febf16c503423424a67289a4eb03c3 e0e91965a10b79ca26a315eb283509b9de90f6eb refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIIl8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3DYP/22XvUrBVi6AFFxJo1Zq
-24V/F+Ln4obqwStK0PfSnnFKygChvNovWK5CVkpYNA+wZCqAYn9x4SXCv1yQ831D
-zqmo6s6aGPsveka71Td8t6TEeUi01EIAK++oasy9CmL5e2i2LCP/Bx7Dbkuzd3tK
-igrsG+i41tRWaM4Y8OImUIuK/WQ8K4naQ0JF6GqNQltJQ4SWXFyoljNy946VjLwV
-i4GXkUYwtPV3lbJyxDDVE8sHhbSGO2sx3fPNYtJvk0Rccoiqd1UCdweSGdw0/VJS
-1oYX+TYzEWpyt2JRNZBAY7WVNCr3eOcxQC4yBo+5jrBvCn6nS0Qo0/Swk9dnEW4O
-aJItPMZ9RC6Bblg+Iko1RSN8xw0zvP4FephdK05D0b4ju2gELWzjpQAG3gmmkO9o
-GitHxN7wXe5ftCXgIKadFNFlC5qfr6QsZXL61uu3IitL2reDTc0FSMf4pY/FYbAj
-b/HZMxocva1ymwQ2En16wmqZi5kjYvZ+L9ONIl3CoUdmwB3VuItOR4tRXW6DY/f4
-H8X9abmY0TZfVPVGyVeX3TjHvMpZ30dnxZyAwr27DzG33risGRt9j1X/pBpdT94h
-oh/vzo4t+hMz0iKlgOclbDqh1iiAd5TOwJGPJN+hsgOdLfRkeWqoX4lFbg7zy58G
-Rkdh/USkmytX02vUZy4o+QKK
-=Kkqj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIIoIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FFEQAJ5d71B/WxvHZC8b4UBx
+W45CmRauMa4PQgry2Cf1GFgcDhz5y4n+3f7DgPj5lXoWnXO2xZmd5gyCqhzn7O7u
+1zycVtrbRoeqTVY1uUxsZwROLxySdb8xLMz7gd1b2p9KnxmNiGqDwcVhlkhF/5Ud
+PoOH3reKp9i8rhjNg60AGdewGllhYmWmtG3M40CJjH07nPo6LaYsjss+j3oJ7gDy
+AMGtAs8APXeJr6A/qRDCvqF/wiQeRCk2DVQS9/Ctr0di5VGzsWW+oLlUceruq3Uk
+Eaeq5DyOeMfvjKWCJmDPHP2CUE55UFlJKhudHqgvGBvoMCPQE7C6y6GWOqdRJOyI
+PT4LRi6X6hi6VMoV01r4BuvHQ2WL/HTGGbNoSF2kDU5fbqQgUeeztLh8oeewxMjn
+tbdkKvfxm5lRwZGpOean//4BhE9fvk2CIvrgwQVd5YENIFxdHFPBcyPTem2R1NSs
+nmNlFIXS+QdJaTSRmeJP3Mlg/q2KfSYi1/6DON1OvT92CPFlfRmCI4K9fSABbpIg
+U3PNiisfyRiARC/HExkynj7tn97X86AGBRiIh6fTRSHK9hVmZ/3i2CjlZk/25XG4
+VM2nOrnGv52u8kYO1+MtEhsOPJ1lwCnPQZGQXb6mTXF0+k0Re7N6Ye4uGq5MpQvX
+s+cZg8ZVsYWJfA2xyNfR4ePV
+=Tsv2
 -----END PGP SIGNATURE-----
 
---===============4091442491597166970==--
+--===============5898620647110987075==--
