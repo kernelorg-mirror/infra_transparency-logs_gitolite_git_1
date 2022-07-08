@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 08 Jul 2022 22:35:37 -0000
-Message-Id: <165731973792.13675.11093749338984338177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 08 Jul 2022 22:46:43 -0000
+Message-Id: <165732040353.21651.4404264134661661029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/dev-test
-    old: dec0a44c82d0326b44229ec5425f853952c56f50
-    new: 448b5a1548d87c246c3d0c3df8480d3c6eb6c11a
-    log: |
-         2df7c4bd7c1d2bc5ece5e9ed19dbd386810c2a65 erofs: wake up all waiters after z_erofs_lzma_head ready
-         448b5a1548d87c246c3d0c3df8480d3c6eb6c11a erofs: avoid consecutive detection for Highmem memory
-         
+  - ref: refs/tags/ti-keystone-dt-for-v5.20
+    old: 0000000000000000000000000000000000000000
+    new: 6920c75acc6120af384f8f665ce2452a00837c3c
+  - ref: refs/tags/ti-k3-dt-for-v5.20
+    old: 0000000000000000000000000000000000000000
+    new: b0e6444b7a0498b9ae33d8bc74af677a5f600dc6
+  - ref: refs/tags/ti-driver-soc-for-v5.20
+    old: 0000000000000000000000000000000000000000
+    new: 8dcbf6df6a1ed9de3f7c39034f833126ac18941e
