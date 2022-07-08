@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3326282055841808910=="
+Content-Type: multipart/mixed; boundary="===============7754740729749836872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 08 Jul 2022 12:51:28 -0000
-Message-Id: <165728468849.14122.14006937615068286441@gitolite.kernel.org>
+Date: Fri, 08 Jul 2022 12:53:47 -0000
+Message-Id: <165728482702.14898.8819648667230657532@gitolite.kernel.org>
 
---===============3326282055841808910==
+--===============7754740729749836872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 04cb742d4d8f30dc2e83b46ac317eec09191c68e
-    new: 7963d4d710112bc457f99bdb56608211e561190e
+    old: 7963d4d710112bc457f99bdb56608211e561190e
+    new: 1742b765982cd6d9d5e76ba040598981d53e0a0f
     log: |
-         7963d4d710112bc457f99bdb56608211e561190e usb: typec: tcpci: move tcpci.h to include/linux/usb/
+         3cb7982207260e91cd7ba77120ba2e0613c8dbf2 usb: mtu3: print endpoint type as string
+         269f49ff381aade6cfd20deeae86a8af7ae35b5a usb: mtu3: add feature to disable device's usb3 port
+         683ff6e485f1d16fe3ad4f5fbd04af11ce917caf usb: mtu3: check capability of usb3 dual role
+         1742b765982cd6d9d5e76ba040598981d53e0a0f usb: mtu3: support function remote wakeup
          
 
---===============3326282055841808910==
+--===============7754740729749836872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657284686 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657284825 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657284686-1afdd5c6a80dd1d409c5e07e629023f67a5fb771
+nonce 1657284824-ba757279c6a5ae521de4ba6fbfdd7b3d7fa6cf07
 
-04cb742d4d8f30dc2e83b46ac317eec09191c68e 7963d4d710112bc457f99bdb56608211e561190e refs/heads/usb-testing
+7963d4d710112bc457f99bdb56608211e561190e 1742b765982cd6d9d5e76ba040598981d53e0a0f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIKE4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ix8QAIO3STMK1AQWKw5vRly1
-HZ8JkQlL1oyeBGxipV4KZ6T2RzZYVgMdbj++Qe8oz+E9ZGKpR2VllSmQG9y3boPi
-Xs3lvQFnxyjUI1yoHEXCLw6jG152uJFJgJqHX4htEPjbUN2VtgLJ02I/WsT2JEgO
-nOBoKjkiAeON+tdTJsbn9IQip8yNLnBZq+5qo8dLOLYe3MAxIkGFptxzia8KUsY4
-FC5CcxtP3M0Tv97ZK0xCacKB36rQr5wD6vwVnHe8lLxbzm6qoXcQOQAgbxIGm8ei
-ErVyvyFaCm2iJsJYkLRg9yCGkE8V9HnElIqZ+cPy7Ocit7dAuIGhWwRwVkAWzw2d
-Kp5KyRaukm0qpTlFkZHJYtYapfOdcG3qKlQ1eupfQ++f+DYtwFytOHBEY0jduUbV
-DtFlbboDPYs7s2/LHf/E2LyI68by7s3S1glvJz6AZAs9QxhG9psJipd7lHsra+z7
-BfCryS6QCy5eEgENMtux6oz/Z+P+x3Xs+FwK9o0FRmo5qJmpTHPjAI2f5lm/oLoT
-NFcUo0khNxCJI/Fftgmc+HYjevWDRqX6vfblIWF4zKaTgDAt6JWPD4jjXlaEvue1
-ub5ne1bUFpCC6gazfqtrnjc0HAdl/SSSZS9IaJ/AduNIHJbeIFen+YqbzgdowRVb
-btYMJb3/OfJN/T3+djaTUdbd
-=kiiQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLIKNkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LkkP/33UBt3//y+v2q9WZHKY
+yT6bt1L1poiXHQkbWWLQ3SN9wSo4RwHfDedZJtcu5OvJ190vSPySMQyPwED1M2m+
+RHtFTz20rFk9vbPnprtH+gkpXwQh6O331EnT6l8bF9i4CVaxaxj8Z/wA/VHkwXVk
+Hd4IIvIZzf03ZRmJ9oexR6wI4QYtvqXfE3w3nAZRkgAyVTT1WcCquIX3uPEN8fPJ
+xNWyFYcdMOU5i+TdwUAhBieaRlA7qIkDgfvANIeQL1WtBd3U3diFGII26NSF2hCU
+S5Tt0xSXUs46w1J73dvScQRZVkModS5CjCQlrCVB19HewAB+/GnIO8kdfSN/aPF/
+Xx1KwI04LNfG3VAVDBLW87UURiliYgRPrkYkT6jI+iiAREZqC/O4lEYF+0+QHU4i
+cYkjvUBdrvcwGQ7p0VhvtjhSPgQ2oQOdtHm2VdKvegMCZ/sToSBpTHhtwpbiUhXS
+yfW1SR9EsegHQ6kkXkI+yfG8hFyM1rHgpNMYLceUdqp1adR3OljPtOGv2e/r2U8C
+I3k/ZTAy2JLbIB6wZ/dQa6pLmMAjO/bttPIcpHWE5HHfaSSPlM1sQT6aHvWHmVKG
+jx2gnL7tNlGdoNef91jdZE8BEq/BLZEbS1fqO04HfAFk8KRfRCApWDnJ/mdRuRuA
+krF7y81f3slcMNmwoE84twld
+=0+C9
 -----END PGP SIGNATURE-----
 
---===============3326282055841808910==--
+--===============7754740729749836872==--
