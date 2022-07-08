@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 08 Jul 2022 17:27:24 -0000
-Message-Id: <165730124424.3146.8909946870881964765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Fri, 08 Jul 2022 17:27:37 -0000
+Message-Id: <165730125790.3255.11915219505162271431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/kunit
-    old: 1d202d1496a0be94100d8cbc2b658dcd980a3edf
-    new: 7b2379454b9a72fece618319acea8d33497d2299
-    log: |
-         53b466219f89782b5c3d96d21f8765d1eadcce4e kunit: tool: make --kunitconfig repeatable, blindly concat
-         6fc3a8636a7b0f7dbd6d0a4e450e765dc17518d4 kunit: tool: Enable virtio/PCI by default on UML
-         7b2379454b9a72fece618319acea8d33497d2299 kunit: test.h: fix a kernel-doc markup
-         
+  - ref: refs/tags/v5.19-next-soc
+    old: 0000000000000000000000000000000000000000
+    new: a69c4e0e15927b19ee7e36188c5f6a69b17451e7
+  - ref: refs/tags/v5.19-next-dts32
+    old: 0000000000000000000000000000000000000000
+    new: 1ea9991bcac332e6267ae463d4991c4bc1310b9d
+  - ref: refs/tags/v5.19-next-dts64
+    old: 0000000000000000000000000000000000000000
+    new: 4501a84e248cb1fa48c80e7c1696e483c7e17ee4
