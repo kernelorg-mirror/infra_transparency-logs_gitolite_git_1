@@ -1,78 +1,123 @@
-Content-Type: multipart/mixed; boundary="===============4845845601726041525=="
+Content-Type: multipart/mixed; boundary="===============7253371441361900281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 08 Jul 2022 14:21:21 -0000
-Message-Id: <165729008193.9290.5485354856895949175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 08 Jul 2022 14:25:09 -0000
+Message-Id: <165729030997.12032.5215416763042142759@gitolite.kernel.org>
 
---===============4845845601726041525==
+--===============7253371441361900281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/ceph-netfs-llist
-    old: e3b2b6bd7a7f34b8930892cf604fb53471c07c73
-    new: 9f0779afb93ccca0264752ddd800ced30efbb545
-    log: revlist-e3b2b6bd7a7f-9f0779afb93c.txt
+  - ref: refs/heads/ath12k-bringup
+    old: 73eb7624ddd95fdc2243bdbea3e8403b649cbf1e
+    new: 1864645005a3616b57f99e1578cff64cf0be93c0
+    log: revlist-73eb7624ddd9-1864645005a3.txt
 
---===============4845845601726041525==
+--===============7253371441361900281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3b2b6bd7a7f-9f0779afb93c.txt
+Content-Disposition: attachment; filename=revlist-73eb7624ddd9-1864645005a3.txt
 
-b0af788660145c19754695953b240c9eaa311df8 netfs: Implement truncation
-0f407ea10c79b91e3dcdcbdb5ec2b21805ffa613 fscache: return -ENOBUFS in fscache_begin_cache_operation if cookie is NULL
-c648731a51d2360031947a5f7a2925b85d014998 netfs: use INIT_WORK instead of setting fields manually
-e237ecdc44f74b59d00230cc4e6e8067a4bed176 netfs: add new buffered/direct exclusive locking scheme
-eb2c861d0010887c2ef53cbb0a99093a7e5b80b2 Fixes 2
-ce4670495468b797b0c5927fcb661bc0da48b9ab netfs: Add a struct to group modifications together and flushed in order
-370ef56603894a8933a072c8570cf1ce465a12a1 fs/dcache: export d_same_name() helper
-78f438cb5eebb791ea4de5e5cd10e409192eac46 ceph: wait the first reply of inflight async unlink
-893f2a63a8c6cdfc35f0423e71c67fbbafc7c43e libceph: drop last_piece flag from ceph_msg_data_cursor
-7578486f74bafe996f331adfc683bb8b34fd3f70 ceph: add session already open notify support
-f45c16312a0f089f108f6e11f789989afcc41e18 ceph: choose auth MDS for getxattr with the Xs caps
-79721f1ac4c5644579fd17576a060cc9e4cd3e86 libceph: add spinlock around osd->o_requests
-ced6ac6d544baacfa59211c556dd8f1b144e9f0a libceph: define struct ceph_sparse_extent and add some helpers
-988826a5a89dab5ece5ce96498d8625af243a903 libceph: add sparse read support to msgr2 crc state machine
-e1929ea21a315e7e07c04b48ac404390b32da568 libceph: add sparse read support to OSD client
-adfef4eea4d306d9b15e0056fa1605ed8f8f5054 libceph: support sparse reads on msgr2 secure codepath
-e2e98953a7f7320e1f0b42260883f2e74b6f2637 libceph: add sparse read support to msgr1
-e560369a0780b4a9aca0b50c2f234317e7123485 ceph: add new mount option to enable sparse reads
-9d1349dd53b1243ec981d7fa52ed2b648063957b ceph: preallocate inode for ops that may create one
-87e3cf0fe8a116c7f89d4d588696cdf879d48634 ceph: make ceph_msdc_build_path use ref-walk
-f8e4772c453085c7f5cf3c7905aea37d9e1bf919 ceph: prevent a client from exceeding the MDS maximum xattr size
-01f265cc4ad796a8a42ac53170a4d9461ed9db77 ceph: don't leak snap_rwsem in handle_cap_grant
-b36aaf6f156779a52618d8d5784fb9f2f2bf8654 ceph: fix the incorrect comment for the ceph_mds_caps struct
-209e4076a5090f23ce3cec1ad665816c7c6bce88 ceph: convert to generic_file_llseek
-0a7bcfd9186fe8e9ac490f9f20c73ae3f2eca7f5 ceph: call netfs_subreq_terminated with was_async == false
-b43107de6a2945dbb44ff94d927f637b760e60ec ceph: switch back to testing for NULL folio->private in ceph_dirty_folio
-1835912da8e133d3a5ca070a66e4662d0816c68a ceph: fix incorrect old_size length in ceph_mds_request_args
-548fc0c6f158f5de3f39187756200ed641a96424 ceph: make change_auth_cap_ses a global symbol
-fa5a39b4845d54c0037565045d4dcd495e63f25d ceph: update the auth cap when the async create req is forwarded
-1e2877026b3d2c696c6fba1732a2b7164de79b3b ceph: don't get the inline data for new creating files
-d4797ba233c4fdb5b016d7020b3e58dfcdc7d04f libceph: check pointer before assigned to "c->rules[]"
-edab746bfa424844bacb6c56bd39b65444770a72 libceph: print fsid and epoch with osd id
-0d059f16e9ff9da4400307774e992f789bf46f61 ceph: flush the dirty caps immediatelly when quota is approaching
-fedf814d341fc8094b2ef8bbb66ee471c2d179c8 ceph: make f_bsize always equal to f_frsize
-2ad66eac86dfc9ade3cb3e380998c97bc8109b4e libceph: clean up ceph_osdc_start_request prototype
-52a2c41c3200ae7e4f29bcbbd11d71cc5e91a46c ceph: don't truncate file in atomic_open
-5063ab8114d079fe649e197f666b816378245422 libceph: add new iov_iter-based ceph_msg_data_type and ceph_osd_data_type
-f64ed5ae1a2ef3c8ac7f1988aef48feaa37ca7b7 ceph: use osd_req_op_extent_osd_iter for netfs reads
-75931f6d0c9d2f76531bb3e90196d12600cbcccb ceph: remove useless check for the folio
-3d4ae7bbf12af2c1ee8f93df5d6ea3556bdfb6ca netfs: Add a write context
-adc47ba57fac4eee124900c83b9fda39fd53f267 Merge branch 'ceph/testing'
-2949a5923ddf6f6b1a7ff7e81da40f6dfdabe986 netfs: break cyclical module dependency
-e40276809683b6dc72a433a2d9f9e8f7fa3ddfa2 fscrypt: add fscrypt_{de|en}crypt_sglist
-d2a0f66e8b38dccb9773d756d5aad4827e66b0c6 ceph: new helper: ceph_get_latest_snapc
-81d83ee5ce979477ecc41c3f5808265dddf7eaf0 ceph: convert to netfs write helpers
-bb6322a9a650394241ac5f8537782a6904adf87a SQUASH: add prototype to header
-eae5d11669820d40454e0e922eff534bd2a6ebd9 netfs: add netfs_find_or_create_flush_group
-9f0779afb93ccca0264752ddd800ced30efbb545 SQUASH: add flush group support
+0ac4827f78c7ffe8eef074bc010e7e34bc22f533 ath9k: fix use-after-free in ath9k_hif_usb_rx_cb
+d7fc76039b74ad37b7056d5607b05d7cb31a5404 ath9k: htc: clean up statistics macros
+62ebaf2f9261cd2367ae928a39343fcdbfe9f877 ath6kl: avoid flush_scheduled_work() usage
+d7af63abde74b43e7739bad2c68055667b7f53a0 wcn36xx: Fix typo in comment
+92ea8df110b8ca92f9664ec7bd76dea109115348 wifi: mac80211: reject WEP or pairwise keys with key ID > 3
+7b0a0e3c3a88260b6fcb017e49f198463aa62ed1 wifi: cfg80211: do some rework towards MLO link APIs
+d0a9123ef548def5c8880e83e5df948eb5b55c62 wifi: mac80211: move some future per-link data to bss_conf
+f276e20b182dbfc069d192fda259d85feea71143 wifi: mac80211: move interface config to new struct
+bfd8403adddd09f32033a14bf25be398291e7881 wifi: mac80211: reorg some iface data structs for MLD
+7b7090b4c6a906cc7c3e2a460335f705b93f4506 wifi: mac80211: split bss_info_changed method
+8e14130d3faf7b6b0fc57b530bb601cd9d6a1dab wifi: mac80211: add per-link configuration pointer
+7fc83a2ba2d54780690d871d03d0d8e75868a803 wifi: mac80211: pass link ID where already present
+b4f85443c17c7edb49c82fc1d28d26860c8c850d wifi: mac80211: make channel context code MLO-aware
+2a5ccbeec0f226c3a1099aac74069d89ea119e01 wifi: mac80211: remove sta_info_tx_streams()
+246b39e4a1ba5ad77edfb2f28d147abc5e2bb0a7 wifi: mac80211: refactor some sta_info link handling
+ec7a04073d3b31c03a9ad00e0709ffd78b5cfd1b wifi: mac80211: use IEEE80211_MLD_MAX_NUM_LINKS
+762623a6a422198c6b39ea099cc8f80bae1767e9 wifi: mac80211: validate some driver features for MLO
+4b41b2ef9e0d044528062eddbf34589da95c01bc wifi: mac80211: refactor some link setup code
+afe0d181905ed03c2379fcb81d423704f59f8788 wifi: mac80211: add link_id to vht.c code for MLO
+2b4ad30946d3117819d9a78d58a99b7c3de3ee91 wifi: mac80211: add link_id to eht.c code for MLO
+6b41f832a26e41d82b751afc4bfc3ce8034d68d0 wifi: mac80211: HT: make ieee80211_ht_cap_ie_to_sta_ht_cap() MLO-aware
+e9aac179ad4526afa3190856b71aa41decb6dc6a wifi: mac80211: make some SMPS code MLD-aware
+40a27ea07949a022a083de28da99f8f472242e2e wifi: mac80211: make ieee80211_he_cap_ie_to_sta_he_cap() MLO-aware
+7ffc4b29d8b559764f763f32f6ae8f14c3919143 wifi: mac80211: correct link config data in tracing
+37a7d0dae3111c431b81959ca13cf5effdf9e929 wifi: mac80211: sort trace.h file
+e5c0ee01fedf2df42426ac4b3c45b4c5cd49de4a wifi: mac80211: status: look up band only where needed
+27f852de7e5c70f9172de6120e12d6c498069006 wifi: mac80211: tx: simplify chanctx_conf handling
+0f7594489a8ab154edb899e84f877def0b48fbd0 wifi: cfg80211: mlme: get BSS entry outside cfg80211_mlme_assoc()
+9ecff10e82a59541d407495c5ad170c6d19e0a98 wifi: nl80211: refactor BSS lookup in nl80211_associate()
+0f48b8b88aa9ed7b65d7cb55dbc57ec914ddada1 wifi: ieee80211: add definitions for multi-link element
+325839da9581ee3e881e9c318cbebbdd680cb101 wifi: cfg80211: simplify cfg80211_mlme_auth() prototype
+7a52107e441effadd850a7bf155c4719205ad6d7 wifi: mac80211_hwsim: split bss_info_changed to vif/link info_changed
+a503a9535eb83afcbdcba7696b4bc7a1e17f93f2 wifi: mac80211: ignore IEEE80211_CONF_CHANGE_SMPS in chanctx mode
+d648c23024bd01333acd2fd5e34bcde0ffb66b16 wifi: nl80211: support MLO in auth/assoc
+d8787ec6b4ef1857b827699eca6f5978d0aecd74 wifi: mac80211: add vif link addition/removal
+eef25a6679adb3cc73b611cf6c78386f54df0e0f wifi: mac80211: remove band from TX info in MLO
+69d41b5a9c9d8d24c0faeb376fc2f52fc810d855 wifi: mac80211: add MLO link ID to TX frame metadata
+cb71f1d136a635decf43c3b502ee34fb05640fcd wifi: mac80211: add sta link addition/removal
+c8a11ed5539f6df98d06259b5177975162b88510 wifi: cfg80211: sort trace.h
+f2a0290b2df2b0e65ab78b71c4a15e732afd4458 wifi: cfg80211: add optional link add/remove callbacks
+0d8c4a3c8688bd0bbc67b8a24b4e7a7344272c93 wifi: mac80211: implement add/del interface link callbacks
+d9f83f22a7913149fc8687b1cc54a28505d25990 wifi: mac80211: use link in start/stop ap
+ae7ba17b49b6707e62f31643dda25592c29482f8 wifi: mac80211: pass the link id in start/stop ap
+6e8912a503759bb8f1f01c5b761d0d45815fa6de wifi: mac80211: return a beacon for a specific link
+7e60096f6733350ccb9f55c8084cb421e1934f81 wifi: mac80211: move ieee80211_bssid_match() function
+ce6893e917862cae669af52a440d086f416c4cc6 wifi: mac80211: ethtool: use deflink for now
+c71420db653aba30a234d1e4cf86dde376e604fa wifi: mac80211: RCU-ify link STA pointers
+ba6ddab94fc63813ad582c55dd95ed596420d101 wifi: mac80211: maintain link-sta hash table
+630c7e4621763220d23789fbb036e0cf227e0b22 wifi: mac80211: set STA deflink addresses
+e57f8a489c294d83cc4e2c9cba1432f99fbf7fdd wifi: mac80211_hwsim: send a beacon per link
+ce08cd344a0027076b2f46b9e8988d08f6641252 wifi: nl80211: expose link information for interfaces
+dd374f84baecd76cbd12fc543c763ff78338d4ad wifi: nl80211: expose link ID for associated BSSes
+2fd0c671ece4083b467dd94614acccde779ea25f wifi: mac80211_hwsim: support creating MLO-capable radios
+245e5ebc6afaa2520439637d0ade8fd9db158610 wifi: mac80211_hwsim: print the link id
+efbabc11650040c64884ff3019b88c7bcc0ceb1d cfg80211: Indicate MLO connection info in connect and roam callbacks
+a8eb8e6f7159c7c20c0ddac428bde3d110890aa7 wifi: iwlegacy: 4965: fix potential off-by-one overflow in il4965_rs_fill_link_cmd()
+7312100d4e6400045486a07d2c0ebd0a6172f920 wifi: rtw89: allocate address CAM and MAC ID to TDLS peer
+445b6bc362f9aadef443b094625ef93087c7f755 wifi: rtw89: separate BSSID CAM operations
+39913cc88540e5bae07addd23ab3cc9459dfaea6 wifi: rtw89: allocate BSSID CAM per TDLS peer
+6a5a783a71cf47ad65ddf8904a71b43d303f2668 wifi: rtw89: support TDLS
+29363fb666bc8deee5acf27a3966f14ff63189d6 wifi: rtw89: fix potential TX stuck
+679955d5431344aef2faea0f4562d459894bbc13 wifi: rtw89: enable VO TX AMPDU
+ad663693c1bf148bdc84a29bcebfe9eb4dc812c4 wifi: rtw89: add UNEXP debug mask to keep monitor messages unexpected to happen frequently
+9a3a593cba9a6743022ab742c01b06280e8a288a wifi: rtw89: drop invalid TX rate report of legacy rate
+c4756d5de72e549fdaa32a1fab12ae776fca5be7 wifi: rtw89: fix long RX latency in low power mode
+37c6abc374d1f1e0dd2e9fcc5a789886a63c894a wifi: rtw89: pci: fix PCI doesn't reclaim TX BD properly
+47324ab67af7f8e128688c13bd05a23c496bf661 wifi: rtw89: disable invalid phy reports for all ICs
+683a4647a7a3044868cfdc14c117525091b9fa0c wifi: rtw89: 8852a: rfk: fix div 0 exception
+6708be40047789aa3587a3866b782d5cda7b2a31 wifi: ieee80211: s1g action frames are not robust
+2d8b08fef0af23aa2fe7f1a1719ac5b11478042f wifi: cfg80211: fix kernel-doc warnings all over the file
+82757b792be7a549460137b2dbfb9d48003a072a wifi: mac80211: add a missing comma at kernel-doc markup
+fe37f73d1109367d749e2771045ae28e0c1543a9 wifi: mac80211: sta_info: fix a missing kernel-doc struct element
+c8a9415e6ddef98a948f8c30d9ec2e749c0ccd9d wifi: cfg80211: remove redundant documentation
+7f884baae68adc85db55b97e3fc903a1f20bd1f9 wifi: mac80211: fix a kernel-doc complaint
+942741dabcb43236006f557178801ce2051e69f9 wifi: mac80211: switch airtime fairness back to deficit round-robin scheduling
+445452d438e2f40355e2ed1aa9894e7094237dc9 wifi: mac80211: make sta airtime deficit field s32 instead of s64
+9c1be3cde0046c7b06e69238a7af94039b3bed85 wifi: mac80211: consider aql_tx_pending when checking airtime deficit
+8ccc07028cb7aaa6ad313f24a9442c7796416e19 wifi: mac80211: keep recently active tx queues in scheduling list
+8e4bac0671054ba1ad2e3d41aa568ac55f51affd wifi: mac80211: add a per-PHY AQL limit to improve fairness
+3db2c5604f39e3760fa67ca8c8905c4b19339230 wifi: mac80211: add debugfs file to display per-phy AQL pending airtime
+c77bfab9237109d93162d9fce0d69f97aed5dc40 wifi: mac80211: only accumulate airtime deficit for active clients
+591e73ee3f737098723406bcfae43673add31881 wifi: mac80211: properly skip link info driver update
+77e7b6ba78edf817bddfa97fadb15a971992b1ee wifi: cfg80211: handle IBSS in channel switch
+206bbcf76121664e95a42e1c014c3fe168d07a3d wifi: nl80211: hold wdev mutex for tid config
+c2653990d5729a445296d6d04395be5dea8e282e wifi: nl80211: acquire wdev mutex earlier in start_ap
+31177127e067eb73d5ca46ce32a410e41333d42f wifi: nl80211: relax wdev mutex check in wdev_chandef()
+d6f671c8a339d5b655acfacb8be6918c744fbabf wifi: cfg80211: remove chandef check in cfg80211_cac_event()
+ecad3b0b99bff7247a11f8c7cb19ac9b0cb28b09 wifi: cfg80211: Increase akm_suites array size in cfg80211_crypto_settings
+8bc65d38ee466897a264c9e336fe21058818b1b1 wifi: nl80211: retrieve EHT related elements in AP mode
+7d1e59a35ffaffcf9bf9c6cde19b7adedeb52045 ath11k: Fix typo in comments
+d1954e3e1b66422a7b8fcc0d75054897262f9514 ath9k: remove unexpected words "the" in comments
+38b6c01a6b34719b66aa58490fd258974ae2f8e8 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
+1864645005a3616b57f99e1578cff64cf0be93c0 Merge ath-next into ath12k-bringup
 
---===============4845845601726041525==--
+--===============7253371441361900281==--
