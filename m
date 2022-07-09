@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 09 Jul 2022 19:24:16 -0000
-Message-Id: <165739465613.28323.8471592972975177931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sat, 09 Jul 2022 20:55:49 -0000
+Message-Id: <165740014951.23237.2652387533005953426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: 7000f267d767000411a3757db953a7fef2435edc
-    new: 8381e1fc6743d69015fe60fc767475a039feb009
+    old: 52288ccc0b341cc4ce2751accca467ee1cc67389
+    new: fc99e561503f03704f19aced9731096ea6f63d14
     log: |
-         8381e1fc6743d69015fe60fc767475a039feb009 Sat Jul  9 07:23:36 PM UTC 2022
+         fc99e561503f03704f19aced9731096ea6f63d14 Include more signatures in pgp.keys.asc.
          
