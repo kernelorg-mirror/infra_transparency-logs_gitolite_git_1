@@ -1,80 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============6077015905538234269=="
+Content-Type: multipart/mixed; boundary="===============0924502540482004039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 09 Jul 2022 08:02:11 -0000
-Message-Id: <165735373121.28780.7930943619086020919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 09 Jul 2022 08:02:26 -0000
+Message-Id: <165735374694.28952.10447063755970692303@gitolite.kernel.org>
 
---===============6077015905538234269==
+--===============0924502540482004039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 90557fa89d3e99286506593fd5180f699c41b152
-    new: 8affe37c525d800a2628c4ecfaed13b77dc5634a
-    log: revlist-90557fa89d3e-8affe37c525d.txt
+  - ref: refs/heads/staging-next
+    old: 3355a12760deceb09e1888c5b9ad1f89bf86939b
+    new: 2a1f94e45569b1cd9f002e65006f613c2a8360f2
+    log: revlist-3355a12760de-2a1f94e45569.txt
 
---===============6077015905538234269==
+--===============0924502540482004039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657353730 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657353730-fb7f6d1e99204ba71d0a4401d8b229610c25a903
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657353746 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1657353745-fd4e27545df20da61b6a0547aac36b8b23e4c204
 
-90557fa89d3e99286506593fd5180f699c41b152 8affe37c525d800a2628c4ecfaed13b77dc5634a refs/heads/usb-next
+3355a12760deceb09e1888c5b9ad1f89bf86939b 2a1f94e45569b1cd9f002e65006f613c2a8360f2 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLJNgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mVoP/RrSHnw72eItyEhfceOG
-tp08fFqfYOAXPKAZpS2MvK/ZUyZpcd6fAA8BUxquayjcqiCUo8SI2YM7PHOXqN3J
-VUzikMMWIkNRMBCU+6OndUtIlfkfb0YCqAJHzhEBlDfg/W2MG3RxTccPKnBux5/E
-aonCKmPXUoae0t+XfL2Kyjueaw4LaRW9l1LTVpLCt/AqNYJfN9tzSqBEjOf39VeY
-VfrNGkHBjU5xT4byXq8UN8n9RlVTV1DDyBsEzri5CDIgC+HzO1TNThe6wVtRlV1+
-aEqkB3AvCEbNC1dpdfnlFawK4KfhROKQwtjzvwFM1khFv+PqDr6fHOsMFD3z3ztM
-AfE4xP1hcj3V2exUVt3BhgI6C2aZ6DN9qM2ph2a0f29NqJuQZNqO8bYxxb8tO569
-09UUIWefklL9cqSTELT+YAoc+NBbCfKYZdiTj3RF5OcTIWLeNqqQIBJVBpq79qsH
-lOP1es88WSK3BP6zz3VnaTZObQChWPMOo1AsJmDn3y0nwqEmMTy9Zyxg195yV+QZ
-op4kcmQXU+0Z+hiqfDCA8A1Q6bH32daKvDIXNlw73ovCJ751iHyKfqeSmK1wRToE
-1xOuuvqgbuwtEUlK2PMFnSCHH2Z0pqRpOC4SEDF9HhB1DDI/Lk48MwqKzhqXPJlH
-sO4hqxu76mpwg0f9kPcBDEA4
-=aRfs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLJNhIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V/QQAMq9ufoIYW8ocX34btmK
+dIse1inJtmaEXhP49C46IR3PqqLjvaHhDOZm3kwnbyfnrhcBMtT7Lzop4BA//PFO
+gYBlolUEy4FMk65vGvD+WmDVimcwMV5XIbwfneIvfmCqJQOipYoKob87L/0f3mLo
+dh5XWJGt1CoEVNuyS1uaX2C/z6pjnbkr6Y6++YmBUUv9oCZsYYt9k4R5N0nMawKH
+KIFLPlb/0U1B+3iWwKpPHnJkLv9BpC6f4GACI0Q5lKBvjLqkUvkWYW4fAF2HkKJ1
+063XAJVaUD9AAnDHKYcNuOuXbiCJM0z5i/KqFK3SBcxOO6Wa6pm9Gzx3nuVrMcoe
+RVEIXHG8P8Mzi7AsarG6hOO6yMwBUNn6VukrXlOhwV0Cbs2cydJkJ24BoSnXtdof
+Tcvs5YH4KodC1n/g7gg36D7Vu/fcwaWRXdr0FXsnSZXxDCUxn1sfaFVni2iWeCVW
+qv0rjHEs4SqSuUAI9zhoSyMqhZTbH5BgU+c7qLO3sDu18hZUI72EqqiXi6DfWsVS
+d8z9cCgGXmFWQl176Yv9YoF8rF2zs5l5NueKcCrYsbiibVedy4KYnRIDr22OEk5M
+U0YIT8a8uqCVAn3yi+6Xz3NBOAGe2sKqGwVf39imFbWafvung9RLt5A0L2ZwgCG9
+ptARDHG4tgusllBR/ce7QVSn
+=4thq
 -----END PGP SIGNATURE-----
 
---===============6077015905538234269==
+--===============0924502540482004039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90557fa89d3e-8affe37c525d.txt
+Content-Disposition: attachment; filename=revlist-3355a12760de-2a1f94e45569.txt
 
-14a6043379e2132c11b815972c0e2201e68d7467 USB: gadget: udc: tracing: Do not open code __string() with __dynamic_array()
-e89676f65ef372fda6c392b3f99fcc7175b206e6 usb: gadget: udc: atmel: check rc of devm_gpiod_get_optional()
-1bd71816643a9e279c2a7b7a02c10de4a07bf9eb usb: gadget: udc: atmel: convert to platform driver
-2e1421d6ce321118dfff370e473ba8d290b2ecbd dt-bindings: usb: mtk-xhci: add compatible for mt8188
-04cb742d4d8f30dc2e83b46ac317eec09191c68e gadgetfs: ep_io - wait until IRQ finishes
-7963d4d710112bc457f99bdb56608211e561190e usb: typec: tcpci: move tcpci.h to include/linux/usb/
-3cb7982207260e91cd7ba77120ba2e0613c8dbf2 usb: mtu3: print endpoint type as string
-269f49ff381aade6cfd20deeae86a8af7ae35b5a usb: mtu3: add feature to disable device's usb3 port
-683ff6e485f1d16fe3ad4f5fbd04af11ce917caf usb: mtu3: check capability of usb3 dual role
-1742b765982cd6d9d5e76ba040598981d53e0a0f usb: mtu3: support function remote wakeup
-620e8e8ba6210003fa45081b63d90ef4f3a0637f of/platform: Add stubs for of_platform_device_create/destroy()
-dee6719e887b8c539f5d4d3d08c4468498182937 dt-bindings: usb: rts5411: Rename property 'companion-hub' to 'peer-hub'
-8bc063641cebf9d555e41d135db2b5035b521768 usb: misc: Add onboard_usb_hub driver
-3a6bf4a08142826698121bef16b244dcf50a6431 usb: core: hub: Create platform devices for onboard hubs in hub_probe()
-b067fc284667ccbcfdb6c990568a3cfd8b73bb8a tools: usb: testusb: Add wireless speed reporting
-7fbcd99ebc0b9df7f4a9bbcfbf3e71c6bfddf9cc tools: usb: testusb: Add super speed reporting
-5ea5746dfa051eaca6c79a598ff7dc4ec911cada tools: usb: testusb: Add super-plus speed reporting
-23385cec5f354794dadced7f28c31da7ae3eb54c usb: dwc3: gadget: refactor dwc3_repare_one_trb
-8affe37c525d800a2628c4ecfaed13b77dc5634a usb: dwc3: gadget: fix high speed multiplier setting
+177a561e0bebe81444473d5d779d163bd53bc949 Staging: rtl8192e: Refactored rtllib_modes
+2393ef09cad85a0563a7d30ea7a560a7af58f26c Staging: rtl8192e: Avoid multiple assignments
+907d2772f75168d2f39087c8c77195c16d3e019d Staging: rtl8192e: Remove unnecessary parentheses
+58f364ecb13ecece3a84d6517b6be4a4672db655 Staging: rtl8192e: Added braces around else
+ea32f580e853ca28709474f786134b574bbeacbf Staging: rtl8192e: Remove unnecessary blank line
+a27e2eb5e9febf16c503423424a67289a4eb03c3 Staging: rtl8192e: Added spaces around '+'
+05710750974cff9c3a5b06beeb5ab3cbe64b95a3 staging: r8188eu: remove HW_VAR_AMPDU_FACTOR from SetHwReg8188EU()
+e0e91965a10b79ca26a315eb283509b9de90f6eb staging: r8188eu: make ffaddr2pipehdl() static
+687a7264fca6dd8cd9cf0b84c9c16f88b0821575 staging: r8188eu: move pwr seq defines to HalPwrSeqCmd.c
+8be317cf61d8f07bde70ccda84fee5e6f502e7fa staging: r8188eu: support only us in PWR_CMD_DELAY
+38fbc32e83d6c09fe2f89cd1007f1a710393a7be staging: r8188eu: read pwr seq length, remove PWR_CMD_END
+4023f5f8449b9a23f95615aa2b5f5a0f46123ac3 staging: r8188eu: remove sdio definitions
+1681e6f4d773873506798151beae01c22d835e39 staging: r8188eu: mac addr len is unused
+a3e20d9046fcb087c621a2914e1d016eb20f5ab3 staging: r8188eu: Block comments use * on subsequent lines
+c45f5c02a00a636311045a5efef58a60501a862b staging: r8188eu: set bssid only once
+d6d0a11dd5b52de3286be5fa2298b2d72f09828f staging: r8188eu: don't set pattrib->dst again
+ff2833e3f8c842b9328306009579aeeea1a0a310 staging: r8188eu: don't set pattrib->ra again
+6afc29cb469678a7d8397acb83711beb1c12661e staging: r8188eu: don't set pattrib->ta again
+c82bf6a83e1b57d7783e39450ab899a31c0fff94 staging: r8188eu: remove a misleading comment
+234cf3971b15a140259e31ea4287143f56f2f3b0 staging: r8188eu: use ieee80211 helper to check for nullfunc frame
+60c85e23bed17b4e5074cb2695837244cecc827a staging: switch to netif_napi_add_weight()
+20cbfe17a486332e78bab01383cb2814f86d74ee staging: vt6655: Rename pbyEtherAddr to mac_addr
+06f737ef8f5365dacb0e9f39f41a4fe32e92a79a staging: vt6655: Rename MACvWriteBSSIDAddress
+41c8e56baeca9075f84a6155e7423ffadc28197e staging: vt6655: Rename MACvReadEtherAddress
+52fbed10b8eaaab5e90ddf8c7270f532e43b0c00 staging: vt6655: Move two macros to file where those are used
+5df564ca11ce575b7378810faee2fc4c01149f9c staging: vt6655: Convert macro vt6655_mac_write_bssid_addr to function
+7b5ec68ac1947929cc40e60d3748c1e6b6144682 staging: vt6655: Convert macro vt6655_mac_read_ether_addr to function
+8eaa8197bc2230760c7b53175049ff5595079319 staging: r8188eu: remove sta2sta_data_frame prototype
+3deb12ea54645a34ef326dc99d2d0c136b78f9c5 staging: r8188eu: pattrib addresses were already set by the caller
+385b35ab80b00444e94f30891a2468a7f284e4c7 staging: vt6655: Use loop in vt6655_mac_write_bssid_addr
+2a1f94e45569b1cd9f002e65006f613c2a8360f2 staging: vt6655: Use loop in vt6655_mac_read_ether_addr
 
---===============6077015905538234269==--
+--===============0924502540482004039==--
