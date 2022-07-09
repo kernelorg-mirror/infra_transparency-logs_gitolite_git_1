@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 09 Jul 2022 01:49:35 -0000
-Message-Id: <165733137556.10516.14396914870358204818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
+Date: Sat, 09 Jul 2022 02:03:43 -0000
+Message-Id: <165733222377.19363.4689898565584239224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jkirsher/firmware
+user: jkirsher
 changes:
-  - ref: refs/heads/rcu/next
-    old: 2b4ad13e89bc96d2325c128ffd4a437ff12d3c67
-    new: 88cea4e18ed430aa1187063450236fc00408eaac
+  - ref: refs/heads/master
+    old: f5f02da57e5401c8571b1a759e857697f2fb0302
+    new: be7798e0cf106bfa10c3e9bdffe5c15e6b0d7ae9
     log: |
-         3c7753e959706f39e1ee183ef8dcde3b4cfbb4c7 tools/memory-model: Clarify LKMM's limitations in litmus-tests.txt
-         88cea4e18ed430aa1187063450236fc00408eaac rcu: Make tiny RCU support leak callbacks for debug-object errors
+         be7798e0cf106bfa10c3e9bdffe5c15e6b0d7ae9 Correct WHENCE entry for wfx firmware
          
