@@ -1,21 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 09 Jul 2022 03:34:22 -0000
-Message-Id: <165733766272.14169.15495420152756186873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Sat, 09 Jul 2022 04:55:03 -0000
+Message-Id: <165734250325.4275.2615107292057979542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: 7c895ef88403bf970843c443a29e0385f65c3f39
-    new: 6676d7270ce254596ab1d4ae0de27b8e19705d44
+  - ref: refs/heads/for-linus
+    old: 12dc6adc49c9c491d830504e1e01b688ef789093
+    new: 3de93e6ed2df6521e3f68fb45eec0bb4fe1bb218
     log: |
-         437ac2592c09fcf27430db3ac878d2a566a58692 selftests: forwarding: Install local_termination.sh
-         cfbba7b46aef631445909ab4c35b98c16e36074b selftests: forwarding: Install no_forwarding.sh
-         6676d7270ce254596ab1d4ae0de27b8e19705d44 Merge branch 'selftests-forwarding-install-two-missing-tests'
+         3de93e6ed2df6521e3f68fb45eec0bb4fe1bb218 Input: goodix - call acpi_device_fix_up_power() in some cases
+         
+  - ref: refs/heads/master
+    old: 42d3f278d504de99edca345cd0543081d725943b
+    new: 94c8e8664ab6f781b2ba1258c3bb389131f5ebb4
+    log: |
+         94c8e8664ab6f781b2ba1258c3bb389131f5ebb4 Input: i8042 - add dritek quirk for Acer Aspire One AO532
+         
+  - ref: refs/heads/next
+    old: 42d3f278d504de99edca345cd0543081d725943b
+    new: 94c8e8664ab6f781b2ba1258c3bb389131f5ebb4
+    log: |
+         94c8e8664ab6f781b2ba1258c3bb389131f5ebb4 Input: i8042 - add dritek quirk for Acer Aspire One AO532
          
