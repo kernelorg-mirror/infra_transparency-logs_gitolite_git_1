@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 09 Jul 2022 02:42:31 -0000
-Message-Id: <165733455185.12459.15947871479403597153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sat, 09 Jul 2022 02:50:42 -0000
+Message-Id: <165733504261.19353.14611652720734341262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 67d7ebdeb2d5a058dd5079107505fffe7332b27a
-    new: 16bd188eae2dc9294859bec8d0ed7388a176659f
+  - ref: refs/heads/imx/bindings
+    old: 06d6022353cc52ba35a31fb18383b0e6a6079733
+    new: c03d7ab1a636fdf411a37bcb33ed4acd12e66fac
     log: |
-         2d91ecace6614cf6254001566292b808d7f70a91 strparser: pad sk_skb_cb to avoid straddling cachelines
-         50a07aa5316181e08fb80914fcf70229a827a2e0 tls: rx: always allocate max possible aad size for decrypt
-         b89fec54fd614ffa4b7567edfae8b9e56c07ff69 tls: rx: wrap decrypt params in a struct
-         03957d84055e59235c7d57c95a37617bd3aa5646 tls: rx: coalesce exit paths in tls_decrypt_sg()
-         5879031423089b2e19b769f30fc618af742264c3 tls: create an internal header
-         35560b7f06b8497e11880c53e845744f41de4820 tls: rx: make tls_wait_data() return an recvmsg retcode
-         16bd188eae2dc9294859bec8d0ed7388a176659f Merge branch 'tls-pad-strparser-internal-header-decrypt_ctx-etc'
+         c03d7ab1a636fdf411a37bcb33ed4acd12e66fac dt-bindings: arm: add TQMa8MPxL board
+         
+  - ref: refs/heads/imx/dt64
+    old: 3876f4829a5745dcd078488a79b47a07d80a5ef5
+    new: 418d1d840e42183ac7f4dbaf40eca316b90fdd53
+    log: |
+         418d1d840e42183ac7f4dbaf40eca316b90fdd53 arm64: dts: freescale: add initial device tree for TQMa8MPQL with i.MX8MP
          
