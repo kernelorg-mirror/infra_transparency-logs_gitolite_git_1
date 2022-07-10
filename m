@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4115821838467206104=="
+Content-Type: multipart/mixed; boundary="===============6781630300247367979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 10 Jul 2022 18:10:26 -0000
-Message-Id: <165747662665.20262.2277801185386313056@gitolite.kernel.org>
+Date: Sun, 10 Jul 2022 18:10:51 -0000
+Message-Id: <165747665181.20423.2558703591929531099@gitolite.kernel.org>
 
---===============4115821838467206104==
+--===============6781630300247367979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 24bdfdd2ec343c94adf38fb5bc699f12e543713b
     new: 0076cad30135f95bf9a144269906f9b7a4eb542c
     log: revlist-24bdfdd2ec34-0076cad30135.txt
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
 
---===============4115821838467206104==
+--===============6781630300247367979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1051,4 @@ b3ba206ce84d3d5c963ea670c94d4de1335b6516 ixp4xx_eth: Fall back to random MAC add
 877d4e3cedd18cd5a4cef7685b64af72f8322ac1 ixp4xx_eth: Set MAC address from device tree
 0076cad30135f95bf9a144269906f9b7a4eb542c Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============4115821838467206104==--
+--===============6781630300247367979==--
