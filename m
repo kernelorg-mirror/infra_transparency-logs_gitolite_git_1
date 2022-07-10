@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 10 Jul 2022 17:12:57 -0000
-Message-Id: <165747317770.15181.5308507136101954969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sun, 10 Jul 2022 17:22:05 -0000
+Message-Id: <165747372551.21014.15298119457386338657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 8381e1fc6743d69015fe60fc767475a039feb009
-    new: ebb58e0b605907fd53eae8e9b9c0712e3f70ac11
+  - ref: refs/heads/tip
+    old: 532de96923f9c8e0ec456c1b91499327579c2aba
+    new: 951f19160f11afa4072f16d16b91ad85d2439144
     log: |
-         ebb58e0b605907fd53eae8e9b9c0712e3f70ac11 Sun Jul 10 05:12:16 PM UTC 2022
+         1f144b5011a7c3ffdb85724d27a8e0893fd00bd3 x86/vmware: Use BIT() macro for shifting
+         6621de000f6c408da36eaf32d9c2000206e94ddd timekeeping: Contribute wall clock to rng on time change
+         b988c02aa02f0c8154f76d3aa543227d4fc19eb6 x86/boot: Fix the setup data types max limit
+         951f19160f11afa4072f16d16b91ad85d2439144 x86/setup: Use rng seeds from setup_data
          
