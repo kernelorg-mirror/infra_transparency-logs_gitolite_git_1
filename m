@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3965111047303831674=="
+Content-Type: multipart/mixed; boundary="===============5086603694358904935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 11 Jul 2022 18:55:38 -0000
-Message-Id: <165756573838.22341.1529494626944920373@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 18:58:17 -0000
+Message-Id: <165756589790.23263.1140487786881224636@gitolite.kernel.org>
 
---===============3965111047303831674==
+--===============5086603694358904935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 4682f21368352ce087e3a2f73e1e6d776c38f685
     new: 7e724422a7e9dfc8229ba90ee95aaafb902a788b
     log: revlist-4682f2136835-7e724422a7e9.txt
 
---===============3965111047303831674==
+--===============5086603694358904935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657565736 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657565897 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657565735-4bf05899a9c5af2075934ce525a9caea4a0446fa
+nonce 1657565896-10e1b0b21bd626729236b62e3b0f43928c3667c5
 
-4682f21368352ce087e3a2f73e1e6d776c38f685 7e724422a7e9dfc8229ba90ee95aaafb902a788b refs/heads/char-misc-testing
+4682f21368352ce087e3a2f73e1e6d776c38f685 7e724422a7e9dfc8229ba90ee95aaafb902a788b refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLMcigbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zU4P/i1NpgGAl47d9MJ3PNR4
-9d62SUs5zMN5EHlPe5BvUOyIgzIGUUB/6DT6ZwDlMlonK6lCMfNnJlh2AIz6OfG3
-GxMVYtrLZ7dftSEolg8rTde2cMg5ruu5Uw8/v+UQ0Dcd59fF+9rHrRVxBBYjEI2u
-LkGw4jjEvQL71wY5SYImv6zRUTjSSlXVMgdaKeenRzx4sNAGgFDEXsGFmy7w80QJ
-t4LYODIhCKM3M2mjxTvkUbf0z+Z/rPF2STywRwFaPT9lnVAcj6YNAbI0Ag1eu5Nx
-w0q3ddf0aWyQLhbM4uG4t/34UcrMCv8BWLGNhUzdBWONJ/1D5xx1HfHUF6tSlBnr
-pBamYDxbU+blp3l3yLbGAXFvD4rX7viVulY9DKGEXTExc/XiUsGxBlHAmhzGUUmr
-lSaj+1ow+p2dukP/ZDqZUyImgFBvmLn2b9jG0uCrfA2wvMhza2PPzke7F+RYqXGK
-qMtMocdb/pis0zCbqjE6MIEtjCGRu72ZzEx2wp1zG4UnLizDtNn0qka68DYD2+Ro
-zGEr35iTGM1WFBvJl9p1A59NPuDf9/PEz7rPfZ7bSBDohTno8Te2pAk0VA0/YdOW
-sgcTN9nGHz5/hbiEOzOyK05uDb4Iesc0jvkhzdoRlqNPI/g+fwJtfIiMluEbJMaS
-lcGakCVNTUDV12rFKgOBdTKk
-=iZQ7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLMcskbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7DQP/RGuv6Cg3ZyVgv59B3Kk
+FyKrdIwQLN+Odf7zu9/uph0uJd12FMokE96XM/SiiJqpzVMELUsAsHgVx32I13gi
+6LMYAyJDBaJ0JYmoSyDlQeXwaPsutnPWaoB+16iaMoOWq8vu1GjZ2mYBQZX/tANK
+sWVlsM8XDJnUyMCb4mPyYrmtch7Oqpn4jPA1tWRVE6xxBTt+jPeR6fzYnJDnj0qB
+ryzchBnqk7gc/6RQWHvaS8/sywp9raStQa3+oEsVdljHAiD9y9QM6YrV5dRpT1gI
+8lBJtW9xknr2uayqLKMolGuClIaD6t8TqTF/uDH6U2tQssURa1+ndJ5T59wUG43p
+YafuCe6U0fql0gym3/IGo7xSpDQ6wBCv+ebIj32AYIdJRcN8GpS0h/8N+30SR+oT
+dstnx0GqZIpMQ8MOtTWFI2xua2IKS7nD8ls1ppDTuNOFsnPkNa9lonkVsG7zPDNa
+VXFgf68sjpzBn+c3F91tuNoQDdubXRZipiUvjtrmV3L7MieuS5oT6eMoArPrSnRA
+M+rLPkEiTzvFuQIFyvoH/cdDv1ZFxIsZDmD5r8bpxIauz8UaDqKKaDFhVpPEojLH
+ImsOUwwPSbDRC2ky+5Hs2jelWtxHcrdb3VL/cu8bFnVhe/iqtsqZtIBsbXoOdOh2
+2lDwF8BSYZdqeR57Gg4dCY8k
+=ZFd8
 -----END PGP SIGNATURE-----
 
---===============3965111047303831674==
+--===============5086603694358904935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ bcc5834fba668f30a4e6d4d8c531af808c692f59 Documentation: coresight: Turn numbered
 4d45bc82df667ad9e9cb8361830e54fc1264e993 coresight: etm4x: avoid build failure with unrolled loops
 7e724422a7e9dfc8229ba90ee95aaafb902a788b Merge tag 'coresight-next-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 
---===============3965111047303831674==--
+--===============5086603694358904935==--
