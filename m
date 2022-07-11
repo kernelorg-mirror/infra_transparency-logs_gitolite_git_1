@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 11 Jul 2022 20:38:15 -0000
-Message-Id: <165757189583.25159.1751452216465240744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 11 Jul 2022 20:38:26 -0000
+Message-Id: <165757190635.25355.14281409258061536277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b3a3b0255797e1d395253366ba24a4cc6c8bdf9c
+  - ref: refs/heads/master
+    old: b205c1b4236b3db80fb9988aef991bae40828fb3
+    new: 10c8fd2f7a40d691062649307a2aba00dac5dbe6
+    log: |
+         10c8fd2f7a40d691062649307a2aba00dac5dbe6 bcm63xx: fix Tx cleanup when NAPI poll budget is zero
+         
