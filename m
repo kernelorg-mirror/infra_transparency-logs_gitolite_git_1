@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8579982962085950948=="
+Content-Type: multipart/mixed; boundary="===============6940513395843076954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 11 Jul 2022 03:16:39 -0000
-Message-Id: <165750939965.26423.9467582022161643789@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 03:18:20 -0000
+Message-Id: <165750950018.27047.3702305699238698283@gitolite.kernel.org>
 
---===============8579982962085950948==
+--===============6940513395843076954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: f5a4618587fb5c5eb5fec3dcce165ca8fd7d7f91
-    new: 32346491ddf24599decca06190ebca03ff9de7f8
-    log: revlist-f5a4618587fb-32346491ddf2.txt
+  - ref: refs/heads/kbuild
+    old: e1769fb8d04ed03f99c2270ec8ba1096e1586389
+    new: fadf028f0be9af6e5105a2e326199939537f28c2
+    log: revlist-e1769fb8d04e-fadf028f0be9.txt
 
---===============8579982962085950948==
+--===============6940513395843076954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5a4618587fb-32346491ddf2.txt
+Content-Disposition: attachment; filename=revlist-e1769fb8d04e-fadf028f0be9.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
@@ -226,6 +226,7 @@ aacb455dfe01b7a24a792a2fbe7a04112ce8321d platform/x86: panasonic-laptop: filter 
 bce6243f767f7da88aa4674d5d678f9f156eaba9 platform/x86: thinkpad_acpi: do not use PSC mode on Intel platforms
 9ab762a84b8094540c18a170e5ddd6488632c456 platform/x86: hp-wmi: Ignore Sanitization Mode event
 512d1999b8e94a5d43fba3afc73e774849674742 xsk: Clear page contiguity bit when unmapping pool
+a4ab14e1d8fe83cc1ed8910b788117ec2ed25179 gen_compile_commands: handle multiple lines per .mod file
 0c1f78a49af721490a5ad70b73e8b4d382465dae mptcp: fix error mibs accounting
 31bf11de146c3f8892093ff39f8f9b3069d6a852 mptcp: introduce MAPPING_BAD_CSUM
 76a13b315709b5b65a7b65caf9ede9a8a38d8930 mptcp: invoke MP_FAIL response when needed
@@ -512,6 +513,7 @@ de2a34771f5123270bc3842535ac91673116dd03 ptrace: fix clearing of JOBCTL_TRACED i
 84499c5d220a4f8fb0a35fa4673148525c81ea83 drm/aperture: Run fbdev removal before internal helpers
 b1c428b6c3684ee8ddf4137d68b3e8d51d2a700f Merge tag 'i2c-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 cb8a4beac39b90cd60abbf9fd639a3357274e469 x86/boot: Fix the setup data types max limit
+f5a4618587fb5c5eb5fec3dcce165ca8fd7d7f91 kbuild: remove unused cmd_none in scripts/Makefile.modinst
 74a0032b8524ee2bd4443128c0bf9775928680b0 Merge tag 'x86_urgent_for_v5.19_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b9b31cedb7064b16510251cf20ed44b05b71456 Merge tag 'irq_urgent_for_v5.19_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2fbd36dfae40cc90ba6a4761e0efff62e4d919fe Merge tag 'kbuild-fixes-v5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
@@ -522,5 +524,9 @@ b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git:/
 fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
+16950c52737ee221d99c238001c1624c3bde91d8 modpost: put get_secindex() call inside sec_name()
+06b8307368c8bffc9c0fb34862f0ad050999008c certs: move scripts/check-blacklist-hashes.awk to certs/
+6b8b1077a377ebc2ef52b56dc2d8883e2f5e29ea certs: unify blacklist_hashes.c and blacklist_nohashes.c
+fadf028f0be9af6e5105a2e326199939537f28c2 kbuild: remove sed command from cmd_ar_builtin
 
---===============8579982962085950948==--
+--===============6940513395843076954==--
