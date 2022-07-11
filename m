@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 11 Jul 2022 10:53:11 -0000
-Message-Id: <165753679174.18778.13533023821634006196@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 10:59:54 -0000
+Message-Id: <165753719403.22308.1797026400039161477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 72a0b329114b1caa8e69dfa7cdad1dd3c69b8602
-    new: 3c079a22db79cf2cdd1b13b41a5447790e08069a
+    old: 3c079a22db79cf2cdd1b13b41a5447790e08069a
+    new: e45955766b4300e7bbeeaa1c31e0001fe16383e7
     log: |
-         5c835bb142d4013c2ab24bff5ae9f6709a39cbcf mptcp: fix subflow traversal at disconnect time
-         3ddabc433670292492d217e0f3b5ce017c42da2c selftests: mptcp: validate userspace PM tests by default
-         3c079a22db79cf2cdd1b13b41a5447790e08069a Merge branch 'mptcp-fixes'
+         0ed8f619b412b52360ccdfaf997223ccd9319569 netfilter: conntrack: fix crash due to confirmed bit load reordering
+         7a847c00eeba9744353ecdfad253143b9115678a netfilter: nf_log: incorrect offset to network header
+         c39ba4de6b0a843bec5d46c2b6f2064428dada5e netfilter: nf_tables: replace BUG_ON by element length check
+         e45955766b4300e7bbeeaa1c31e0001fe16383e7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
          
