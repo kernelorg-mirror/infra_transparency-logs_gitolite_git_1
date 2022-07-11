@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 11 Jul 2022 09:16:20 -0000
-Message-Id: <165753098000.6588.11335129539716632139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Mon, 11 Jul 2022 09:22:04 -0000
+Message-Id: <165753132477.9950.13089421785145602717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: b4d49511de2d301a0568a7ab308b419ffa41d945
-    new: 5d796a6dbe0afc98ce0b2fcfd0df422737fcda8e
+  - ref: refs/heads/next
+    old: 6d18e79701d0a501db0349774523db68f4e97c1b
+    new: e307cb53f9829e9b1f5fd0cb3d6aa942ec6a5836
     log: |
-         ef6e5d61eb7a0a30f776a829274573094185d03d genirq: Allow irq_set_chip_handler_name_locked() to take a const irq_chip
-         5d796a6dbe0afc98ce0b2fcfd0df422737fcda8e Merge branch irq/misc-5.20 into irq/irqchip-next
+         e307cb53f9829e9b1f5fd0cb3d6aa942ec6a5836 Merge tag 'kvm-s390-pci-5.20' into kernelorgnext
          
