@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8017592905561737052=="
+Content-Type: multipart/mixed; boundary="===============0466514570962096851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 11 Jul 2022 18:44:42 -0000
-Message-Id: <165756508247.14319.7061728671070054692@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 18:46:05 -0000
+Message-Id: <165756516570.16323.1729377427073590206@gitolite.kernel.org>
 
---===============8017592905561737052==
+--===============0466514570962096851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 011f9a963361bef8fac75d337ac62967fd691a7e
-    new: ca94f6b656e1f75c02079f0730b8b35a58cdf5ca
-    log: revlist-011f9a963361-ca94f6b656e1.txt
+  - ref: refs/heads/net-mlx4
+    old: 029cc0963412c4f989d2731759ce4578f7e1a667
+    new: e45955766b4300e7bbeeaa1c31e0001fe16383e7
+    log: revlist-029cc0963412-e45955766b43.txt
 
---===============8017592905561737052==
+--===============0466514570962096851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-011f9a963361-ca94f6b656e1.txt
+Content-Disposition: attachment; filename=revlist-029cc0963412-e45955766b43.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
@@ -326,6 +326,5 @@ c39ba4de6b0a843bec5d46c2b6f2064428dada5e netfilter: nf_tables: replace BUG_ON by
 3ddabc433670292492d217e0f3b5ce017c42da2c selftests: mptcp: validate userspace PM tests by default
 3c079a22db79cf2cdd1b13b41a5447790e08069a Merge branch 'mptcp-fixes'
 e45955766b4300e7bbeeaa1c31e0001fe16383e7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-ca94f6b656e1f75c02079f0730b8b35a58cdf5ca gpio: vf610: fix compilation error
 
---===============8017592905561737052==--
+--===============0466514570962096851==--
