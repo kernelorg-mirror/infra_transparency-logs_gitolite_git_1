@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7336443138945515677=="
+Content-Type: multipart/mixed; boundary="===============4789899165878328869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 11 Jul 2022 00:04:06 -0000
-Message-Id: <165749784676.22518.16046486975579896562@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 00:04:19 -0000
+Message-Id: <165749785965.22665.6484348174227375473@gitolite.kernel.org>
 
---===============7336443138945515677==
+--===============4789899165878328869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 04cd2835afbeff0bd1bd11234d11a04496c38795
     new: 802349eb85a626feb6294ace9a2fb20d102519bf
     log: revlist-04cd2835afbe-802349eb85a6.txt
 
---===============7336443138945515677==
+--===============4789899165878328869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -521,4 +521,4 @@ fec88eeea7b0f221d630fe3cac1271ce2d9ab824 sign-file: Fix confusing error messages
 9c69021a91e5fdd746af0b3e748c7cdfc0fd60bd KEYS: asymmetric: enforce SM2 signature use pkey algo
 802349eb85a626feb6294ace9a2fb20d102519bf tpm: fix platform_no_drv_owner.cocci warning
 
---===============7336443138945515677==--
+--===============4789899165878328869==--
