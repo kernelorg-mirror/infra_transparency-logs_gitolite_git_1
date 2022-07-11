@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0510119252213528330=="
+Content-Type: multipart/mixed; boundary="===============8629695120878124890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 11 Jul 2022 16:01:01 -0000
-Message-Id: <165755526190.1723.16072561753316355362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Jul 2022 16:01:08 -0000
+Message-Id: <165755526816.1824.15918410190342846365@gitolite.kernel.org>
 
---===============0510119252213528330==
+--===============8629695120878124890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 61b23b6b7b03d49e40c599e807bd40fd4170b62b
     new: 8e26c518d300b356078f229e50e3f192005befca
     log: |
@@ -28,28 +28,28 @@ changes:
          8e26c518d300b356078f229e50e3f192005befca ASoC: codecs: Series of fixes for realtek codecs used on RVPs
          
 
---===============0510119252213528330==
+--===============8629695120878124890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657555260 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1657555260-81c66f2fee7898876a2de124fefa442c0a85bce8
+pusher C3F436CA30F5D8EB 1657555266 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1657555266-73c3a1f2cc5631f6be6f0e4e280dd256053ce501
 
-61b23b6b7b03d49e40c599e807bd40fd4170b62b 8e26c518d300b356078f229e50e3f192005befca refs/heads/for-5.20
+61b23b6b7b03d49e40c599e807bd40fd4170b62b 8e26c518d300b356078f229e50e3f192005befca refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLMSTwACgkQJNaLcl1U
-h9ANrwf+O06MMoErbpvB6Tj+r8qoQIHdP2zBdxy0sh50ohUJeSg2SbXgyqLp4eZ4
-/0x7Eg6J3VYvUzfDNmpXQt4QjiYyeFcCIXXLdzM7Gv/8M0d91AMtsBF4mHkxl70P
-jjPS4WVpzc3S0+6bf7lhQB+QanLSSwhd0wUFbioA3AMxVd2cyvqC91SRsXRk6+S+
-Zhn++2vnRXUzkom1HlohYpF3cOuS2CoQ3AwjZRo845apZj2QsxyOcIrryZJ+7O29
-pIdH0pLO7ZY+FGaHtxVXgJls/HfGZevvoTth+zi82JSLn/UB5wMaKtJy9iC/x6Nu
-RaONBfW2+VFrYgJ6bB69UgNWGOqLbA==
-=h9ZI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLMSUIACgkQJNaLcl1U
+h9AGrAf+OfcHkiscQmafoqWtZL3qi14D/GeA53oLwj8RpqpNXyzsu4egknQPEo6d
+5Hklh0XiUNLBhOVGDsaBFeyRHc86rvay0hzVfBUAITHLwCKfbSjVYMsAdLOQ9sAt
+DbCrh7zt30RA1+jqVpc4ADbdsl8nOjg1peu9SWsoSUZNWNLXh2/8Cyq/v1bPd94B
+G4FeugOgkJoe4CnyCGp71q6mifttIycmQ3QVMqmVwL8TIdP7TGINtW1IuiNMPWW4
+oe59er6kA7APwsA7MkGjL9skTI8f51qyRRqmaWnYeoTl9IUhnQtrXqnEHUE2sRd9
+bjkBmqwkpY9E/9+WoJp67sgCgHiNLA==
+=gRmz
 -----END PGP SIGNATURE-----
 
---===============0510119252213528330==--
+--===============8629695120878124890==--
