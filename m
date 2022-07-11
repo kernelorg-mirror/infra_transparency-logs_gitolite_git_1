@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 11 Jul 2022 13:54:28 -0000
-Message-Id: <165754766824.8724.11692122313346577204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 11 Jul 2022 13:55:23 -0000
+Message-Id: <165754772387.10529.4173115439180229389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 30568e0ed9366a810dfcf90a903ecfbff1a6196c
-    new: d6225c1550827077c0c0f9e1b8816b4f35cd5304
+    old: 696f28fa0c7eec22bdfade663d31b0f5c6385c77
+    new: a705a6b307adfa52ba6315df0b8d5964a3b898b2
     log: |
-         d6225c1550827077c0c0f9e1b8816b4f35cd5304 Update README.rst to specify secure protocols where possible
+         f642f8fd71bfc3a539f01e87d0512760ed406889 .github: Upgrade GitHub bot to Ubuntu 22.04 and gcc-11
+         bc5868374f371ad3c6b2257ca48ef9e260613c0a .github: Use `-O3` flag for GitHub bot
+         a705a6b307adfa52ba6315df0b8d5964a3b898b2 Merge tag 'github-bot-2022-07-11' of https://github.com/ammarfaizi2/liburing
          
