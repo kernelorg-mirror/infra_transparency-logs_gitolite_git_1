@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5563586213532155399=="
+Content-Type: multipart/mixed; boundary="===============0030361810047208490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 Jul 2022 21:14:03 -0000
-Message-Id: <165757404374.17900.2686427089503728159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 11 Jul 2022 21:14:18 -0000
+Message-Id: <165757405829.18072.15187948932339664242@gitolite.kernel.org>
 
---===============5563586213532155399==
+--===============0030361810047208490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 2551b6e89936f98406bce9c1d50110e3ff443f81
-    new: 388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2
-    log: revlist-2551b6e89936-388fe2b8a3a0.txt
+  - ref: refs/heads/for-linus
+    old: d01f5febeea08f9502f080b4b3c0618ffa347c69
+    new: e33836690925cb80d5b4e10cfe14790c9db35acc
+    log: |
+         e33836690925cb80d5b4e10cfe14790c9db35acc Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 76526c711b4a81c2e51213b7c1473c94318ca3a3
+    new: d26502a15d8d8f04a4a0914060f9b3e9a47c69f8
+    log: revlist-76526c711b4a-d26502a15d8d.txt
 
---===============5563586213532155399==
+--===============0030361810047208490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1657574042 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657574041-3c396b727cfa269d8e80514e8553fdb1bd31e0aa
-
-2551b6e89936f98406bce9c1d50110e3ff443f81 388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLMkpoACgkQJNaLcl1U
-h9CAtwf7BjR+ETe7kkumNnOtT14i/JSQg2rYXYtgAEHnFRetq1vA6Fb7QKq3GXou
-SoQGBsjENKrOKha2t7Clqr8cOeIkIyF5XWCxm4gLiq/0CmybTFsl3PrN80edm3sM
-wvmhkMrPM2B2p4MA+CqA2fFHxDeCxLyz489qWxIbOAoElIpbvxUBKuDt7nf4Rv0F
-NArWtFJbtm4G1b9RstW1DXQ+EI+CFD8RMZURMdoxn1kW6FP0gG5QDi0O2XqBf45w
-HIwcXjbNy0ecwHhHCbpjH2d/BEd8wkBgrDr2gQZVv/GdSHILEia7erknOHzh/62J
-iue+yU5UbFKI0AfZezfL5CC7CVGHaQ==
-=Q8rf
------END PGP SIGNATURE-----
-
---===============5563586213532155399==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2551b6e89936-388fe2b8a3a0.txt
+Content-Disposition: attachment; filename=revlist-76526c711b4a-d26502a15d8d.txt
 
 c50cea054e04769471d2f17a57fafd7c5dfe8df8 ASoC: Intel: avs: Register HDAudio ext-bus operations
 5f267aa4adad13f764e0b00926c349f8728fce77 ASoC: Intel: avs: Assign I2S gateway when parsing topology
@@ -64,5 +45,7 @@ a5bbbde2b81e41cea7fa1b38911e88da5febc2d5 ASoC: Intel: avs: Use helper function t
 8758ae88f0f4ade16e6a1b709eb5ea7271f62320 ASoC: Intel: avs: Lower UNLOAD_MULTIPLE_MODULES IPC timeout
 f1eea11523e4394d6670f10a51356e9b7c8567a8 ASoC: Intel: avs: Update AVS_FW_INIT_TIMEOUT_US declaration
 388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2 ASoC: Intel: avs: Updates and cleanups
+e33836690925cb80d5b4e10cfe14790c9db35acc Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+d26502a15d8d8f04a4a0914060f9b3e9a47c69f8 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============5563586213532155399==--
+--===============0030361810047208490==--
