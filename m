@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 11 Jul 2022 19:10:51 -0000
-Message-Id: <165756665120.32341.15847721841802110060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Mon, 11 Jul 2022 19:18:35 -0000
+Message-Id: <165756711546.5227.592602196309076389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 79152fc74ff664e2912abe17f21c42d7c49c90c9
-    new: 0682a771644365451b650f07c9606a925ab8fd52
+  - ref: refs/heads/pci/ctrl/qcom-pending
+    old: 47b4ec9d2e605c8dd54b43cb8b9d6bdb6333e8d4
+    new: 1a88605a3efd70bcd01aeb02494386f05f5dce8f
     log: |
-         bd9b7998b4816b3d604253a774d83b6736474283 dt-bindings: vendor-prefixes: add 9elements
-         df9c96b69a1d2629519a5d8a9dc4b39f775ebe2d regulator: add bindings for output-supply
-         34e5700e1e64077ede50eb60d04e7604dc4f508a regulator: output-supply: Add devicetree support
-         490a15324ce6d55b950fce0eb9e95c793fac0dff regulator: output-supply: Add Notification support
-         3fec90048d3757fa4cedb598ff93d1cae23860e4 regulator: max597x: Remove unused including <linux/version.h>
-         00f6ebbd0177a4cb15b353bbd4eaee6372fdbbc2 regulator: qcom_spmi: add support for HT_P150
-         3d04ae8e3e916bc298b674613565d5b26cf1054a regulator: qcom_spmi: add support for HT_P600
-         34ceb6a6ef87cda7629fd4ebe0074d9b5c7613d9 regulator: qcom_spmi: add support for PMP8074 regulators
-         0b3bbd7646b03920e81efa376dee08f5b288c05e regulator: qcom,spmi-regulator: Convert to dtschema
-         044750573903595765fa52ba9e1aadc397d591df regulator: qcom,spmi-regulator: add PMP8074 PMIC
-         0682a771644365451b650f07c9606a925ab8fd52 regulator: output-supply DT support
+         31f7db67ccf27a7416850496622eb3084413ee2a PCI: qcom: Enable clocks only after PARF_PHY setup for rev 2.1.0
+         052a3ff395da28dffc89bf9fc27f80241be77abb PCI: qcom: Move IPQ8074 DBI register accesses after phy_power_on()
+         cdb32283bcf202d0db512abb80794056d44e7e9f PCI: qcom: Move all DBI register accesses after phy_power_on()
+         416f7b4f3c1ec5e4e476449c2003c714b3558c7b PCI: qcom: Remove unnecessary pipe_clk handling
+         694b6a7c78166be9889e5a21fe85ad876f8ac7e4 PCI: dwc: Move GEN3_RELATED DBI definitions to common header
+         840ea1a38d7aae3b101eac9f62fbc0f665fc3630 PCI: qcom: Define slot capabilities using PCI_EXP_SLTCAP_*
+         7a68ccff88abbde242d6188b7a877029f3bc933a PCI: qcom: Add IPQ60xx support
+         1a88605a3efd70bcd01aeb02494386f05f5dce8f dt-bindings: PCI: qcom: Fix description typo
          
