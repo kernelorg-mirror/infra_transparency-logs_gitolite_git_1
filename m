@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0520322450588025261=="
+Content-Type: multipart/mixed; boundary="===============9082368319686461909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 11 Jul 2022 06:31:28 -0000
-Message-Id: <165752108804.23957.1396597304229651818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 11 Jul 2022 06:31:53 -0000
+Message-Id: <165752111312.24138.14617080012807070357@gitolite.kernel.org>
 
---===============0520322450588025261==
+--===============9082368319686461909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: b2e6d423563aed4c95d1d11f620154b2e2829507
-    new: 969c89f863831b26ccdad740096cd7e93ce30595
-    log: |
-         969c89f863831b26ccdad740096cd7e93ce30595 drop 2 5.15 drm patches that did not apply:
-         
+  - ref: refs/heads/habanalabs-next
+    old: d1979818679eed60c7303d6a315d02078ec3808c
+    new: 418f04dec9f1985b084b47381be0d41bb3d99584
+    log: revlist-d1979818679e-418f04dec9f1.txt
 
---===============0520322450588025261==
+--===============9082368319686461909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d1979818679e-418f04dec9f1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657521087 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1657521086-ea0a30fb8ad198c9588115b578df8ffa710d16fa
+31b278cfef6a93e4a1262ca5ceb3b6941280a3d3 habanalabs: fixes to the poll-timeout macros
+46e2477eee29726bd3511979fc8ec22577fb91e9 habanalabs: add a value field to hl_fw_send_pci_access_msg()
+dc179250c8f80184f258f684fb66a2594fde08eb habanalabs/gaudi2: configure virtual MSI-X doorbell interface
+7f447cf89e53aa3949d51f2b6b71d2ce318c95fb habanalabs/gaudi2: replace defines for reserved sob/mob with enums
+21b34d8db9c7486e9fa77b3aea8f0aae04e6a9ed habanalabs/gaudi2: modify CS completion CQ to use virtual MSI-X doorbell
+5861546a5fd0db915da86a500fefb1256411970d habanalabs/gaudi2: modify decoder to use virtual MSI-X doorbell
+218b3e5bd6470426ca369d83d1c238f241274919 habanalabs/gaudi2: map virtual MSI-X doorbell memory for user
+d0fb3096dc3f631696bcc6f0b7b8ef957434acc4 habanalabs: expose only valid debugfs nodes
+b4e54b6aec01e1718392371841a856c8b094ec06 habanalabs: fix update of is_in_soft_reset
+f3c12549f31a9c229abcf11a2a5b6703944ae284 habanalabs: add status of reset after device release
+f7eccf1298e04cf57565103f1db8201a60ce2a7a habanalabs: rename soft reset to compute reset
+418f04dec9f1985b084b47381be0d41bb3d99584 habanalabs: move h/w dirty message to debug
 
-b2e6d423563aed4c95d1d11f620154b2e2829507 969c89f863831b26ccdad740096cd7e93ce30595 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLLw78bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Iw4P/01LHBss/2mTRU34uDrh
-QQFMkAl+K0pWaRfWHbKvXPJGS/XQxHhIbAQyfUdU+2jyUHLQFQMexHSjvGPV3PtE
-kPeIYHodyZA3poRZzbKnb0DG02geEBvEJFVjYnFXBXKvmx2ksvRzSD0b96WawFTO
-JpSjegAuK2U/6hE3tdbWEtUPR4k+Bs+qX8d7Y+Xrdx8ssfDM8xYB3jBBDhehALJo
-hqP5UlGUvWp4h9vBwMKGNTfS0YYwMBMKyocm3AK4U5vvuwW0PM5rr1Ojs8iesfiz
-Onn93eLOMvwXebR6heQcX1l5kdNTilHXO2WXp7GG0Zn4yeTs0cveM+AoQTBKK7Fh
-kGn3uQg2muUGCIHx1NCye0mDitMczmO7SJ/q9dirl4RzDbMtmgICjxwrHt5ps+S0
-3CSih0kl1aLetkvciPEdj//hDZZtJR7N3eM3X7R2E3euVILLEMebHjadSujxdmQV
-yTNmE4xd3Zw+RPwd3fmgoynCEboTxUeEjIRNyUWS4u8H9+6CT7yEajJ9bDTawpXF
-pCIYGKLibbvEd3ZQyMUdPCnxKqvJrIRwTCA9rJNzac6xZ61Z8mrrPJqeqicMWglo
-vLpFwRd3fhxfeBUbj0mssEECaDmTkS0mO6A9Rtjb/wtKswt9manNG19cpMQZHtKB
-xhCX7neBUuvky1hyzcftw5At
-=QK+8
------END PGP SIGNATURE-----
-
---===============0520322450588025261==--
+--===============9082368319686461909==--
