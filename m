@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3815095540678305695=="
+Content-Type: multipart/mixed; boundary="===============4809700325523705864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 Jul 2022 14:55:35 -0000
-Message-Id: <165755133573.21867.1848895721944629802@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 14:55:41 -0000
+Message-Id: <165755134122.21992.8608147818629390354@gitolite.kernel.org>
 
---===============3815095540678305695==
+--===============4809700325523705864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: c2a6236024b786232e5247789a4c7acdabd1ffb1
-    new: f80261e4764b498bf0a6f0d69ee6e6720e49ab9d
-    log: |
-         03698ffcf0c4e1d1259385d7e7ce4e8ba759e87c m68k: mac: Remove forward declaration for mac_nmi_handler()
-         921e3be58f8170e73217a3778f7bc8801de39725 m68k: Add common forward declaration for show_registers()
-         f80261e4764b498bf0a6f0d69ee6e6720e49ab9d m68k: defconfig: Update defconfigs for v5.19-rc1
-         
-  - ref: refs/heads/for-v5.20
-    old: c2a6236024b786232e5247789a4c7acdabd1ffb1
-    new: f80261e4764b498bf0a6f0d69ee6e6720e49ab9d
-    log: |
-         03698ffcf0c4e1d1259385d7e7ce4e8ba759e87c m68k: mac: Remove forward declaration for mac_nmi_handler()
-         921e3be58f8170e73217a3778f7bc8801de39725 m68k: Add common forward declaration for show_registers()
-         f80261e4764b498bf0a6f0d69ee6e6720e49ab9d m68k: defconfig: Update defconfigs for v5.19-rc1
-         
-  - ref: refs/heads/master
-    old: c6d0096dd6be455badd4f0b3093f178227c92615
-    new: c74f6f033e9b10e89a71b4923b737412226cd24d
-    log: revlist-c6d0096dd6be-c74f6f033e9b.txt
+  - ref: refs/heads/m68k-queue
+    old: 6f59f79a79e019c89c024483c9cd0a924ef32a4a
+    new: 24a5374ac5fd4c21dddf6f29189f0a707bbc028b
+    log: revlist-6f59f79a79e0-24a5374ac5fd.txt
 
---===============3815095540678305695==
+--===============4809700325523705864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6d0096dd6be-c74f6f033e9b.txt
+Content-Disposition: attachment; filename=revlist-6f59f79a79e0-24a5374ac5fd.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
@@ -318,8 +302,21 @@ b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git:/
 fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
-1aeb784070120517a481f92b0f7676970135fead Merge tag 'v5.19-rc6'
-71818a79527ae048f951b87d06cdb2fcc79b6a1d m68k: mac: Remove forward declaration for mac_nmi_handler()
-c74f6f033e9b10e89a71b4923b737412226cd24d m68k: Add common forward declaration for show_registers()
+bd8507d7891ab9d2ecf5bd53066c323753ef1114 m68k: virt: Kconfig minor fixes
+e9d925308b8c0f8945e7046cabff34a76dfee133 m68k: mac: Fix typos in comments
+a1960487062fc67cb49efe8c7517974a18806ab2 m68k: sun3: Use __func__ to get function's name in an output message
+6547243aaf374719d2b1a96c9be14ccd130bbccb m68k: q40: Align '*' in comments
+aa9a867da0823eaa475b8ea1f2443b1e7106b8d7 m68k: Kconfig.cpu: Fix indentation and add endif comments
+3e7e248adfeb403f81e70a2879efea90e202e4df m68k: Kconfig.debug: Replace single quotes
+3fb4c410b0bed03b39857b87f9e17480767a30a7 m68k: Kconfig.machine: Add endif comment
+e2e57a0128c8c6fc909230b6ddbae6c217f0ade7 m68k: bitops: Change __fls to return and accept unsigned long
+8e7522da3c2207cc83d62bc5116691b6be6391db m68k: virt: Use RNG seed from bootinfo block
+5a2e830c3c454297282eb89b01b57aa3b9b1ff90 m68k: virt: Fix missing platform_device_unregister() on error in virt_platform_init()
+7d8cf8b6126b6ad4c970eea59010642d8a658a8c m68k: sun3: Fix spelling mistake
+90ee737c58aba9d91f62911024b75d3c35345c1b m68k: mac: Remove forward declaration for mac_nmi_handler()
+950c4c5dc397e06737d38c34a766a552047b7d3a m68k: Add common forward declaration for show_registers()
+669280b969678fbcb24619937fb15c2d7db71a9f m68k: atari: usb: Add ISP1160 USB host controller support
+14080792fe220251bdfc56453f13ec6d7d33b3b0 m68k: atari: Update Kconfig.bus help text
+24a5374ac5fd4c21dddf6f29189f0a707bbc028b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3815095540678305695==--
+--===============4809700325523705864==--
