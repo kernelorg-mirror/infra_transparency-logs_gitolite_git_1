@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0043214918390094478=="
+Content-Type: multipart/mixed; boundary="===============4485481690944198979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 11 Jul 2022 06:34:13 -0000
-Message-Id: <165752125377.25205.14736893045105165027@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 06:34:18 -0000
+Message-Id: <165752125839.25338.14302125421496935455@gitolite.kernel.org>
 
---===============0043214918390094478==
+--===============4485481690944198979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 03c765b0e3b4cb5063276b086c76f7a612856a9a
+  - ref: refs/heads/char-misc-linus
+    old: 2cd37c2e72449a7add6da1183d20a6247d6db111
     new: 32346491ddf24599decca06190ebca03ff9de7f8
-    log: revlist-03c765b0e3b4-32346491ddf2.txt
+    log: revlist-2cd37c2e7244-32346491ddf2.txt
 
---===============0043214918390094478==
+--===============4485481690944198979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657521253 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657521257 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657521252-7b5f988615ae5b20299fe7eed1cc7d0c2f3d0e7e
+nonce 1657521256-dfac603df4f8ae700f9a1d836e74ae41bad763e2
 
-03c765b0e3b4cb5063276b086c76f7a612856a9a 32346491ddf24599decca06190ebca03ff9de7f8 refs/heads/main
+2cd37c2e72449a7add6da1183d20a6247d6db111 32346491ddf24599decca06190ebca03ff9de7f8 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLLxGUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S5MP/26Ze9khrU2gqv6y//GO
-xQoZ9Qo3KqSyqEzJqElbQbUvNFmTyATUVhKpuCqBeYT+ZdzaR4dK5Z0ZNPMAEts/
-k8+ZflGqbQEjXTz6APINtAxLXmKKBTGet344ehAc0I5qxMqkRl5tprq9WtMLDgPY
-R3ILlGpSHr9EKnoSIsOvj+Le6gReqH+GTTZ04jbZIPUZOtzVV7Ss2o8FmWCkdqo6
-F55n64Nz098JQO1g4miFV4yHIfedPzkuttwb0C6DY35rIFJPs3HjfVt1tTU6irpu
-HtqddDI0ujWtO3++zXhbB4g6nrdP6NKDOx30TCT87/o7AjnLs/JywQKXUTwIealX
-ldEsNRTb8nEMOAEzdqg7yaT5rG6cl/6VVzC3fsVZgOMCsj3vspecerdDLpIp8o74
-8Ewu2IQAcNIMibarz3PnRq3qzE425ITbWrVko2nVDelUOxnQN68PkXlvxy74Jj7v
-Qhzh7KzJiLk+SpoQzs2qnOKSsYj6yUQeQvt1c0AS9kxNVmvoRykDYt6DPULPY9of
-b92GqpkqTiQm7g3EsY20uPDcP4O6IbI7lw/ywwiyobIUR9ZOFlYEwBVr41sCKMNd
-ZLcaecX2poW3JymEm3pvcv3Dr6gsuS4qtXWw/KYBXp6jADCUVYbDe1k+RbM2Xn6Z
-vx4MWbetu3Q0kvrkTHLeCZSD
-=iRIu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLLxGkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+98UQAIlDwxATI+jO38lZ4Q/h
+jQB1XqpeFNgxwhlCuSkAOhBDtWbkxVvY00gx0U5/dt1vCFKzrqgxM2lT5ds84YYO
+mUMgpAgBIRiwMJoWZcFzLyB7JW9u9OJH4qPVy11TGmZUg00pkwgcfgZTEk3/c22e
+Y/9vVVh2z0GNVHHGIVKlrhM0kO7P2/Oh0O+08j/k0eSy3NjaccbKYzhpFkYKItPS
+EmzIPtzPH3GTu+k1txEGaooyM23Qr2IganISq9YndPtwLmuo4Q9pPPQDwfxqm/P1
+2rl/bAd/bLPqZPk5QmjgCcFPxKmFLmvPRYRo453YhgP2NXAawnXeIXE+BnkpfKcR
+mNA9Gus+dO8eTX1/lsVhPfANEC10FZ0k6Wrs4m4HN5pkLVPwBbry7A+gbqjDhHLO
+W0UuX0v+d+pzGIWg3bDCWHn1DZQi3j7lfkp7s4eC/x1DyH9jczn+tP/Ii6LZ5a/i
+mlwsCYUkRdCkbU5Bg/1Jpohvr9QXMrVTrY4cywayCBNKYPd5hiurbXCJ1dcEnmXT
+G1HunUxYoeD+nAKnffXXBpF7bdY7BRSkamYhiHs/zieHLxVngkbwsuq0ylR3TO8J
+tBzdOrdijkeZuKaXPWJmitE/ziUQ6IyWIuY4V3uHdguqJFV1I/nTNguPumFPj6o8
+9c4FyK8pgzpiuLJ5o5KMmDjH
+=+Mlb
 -----END PGP SIGNATURE-----
 
---===============0043214918390094478==
+--===============4485481690944198979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03c765b0e3b4-32346491ddf2.txt
+Content-Disposition: attachment; filename=revlist-2cd37c2e7244-32346491ddf2.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 118f767413ada4eef7825fbd4af7c0866f883441 RDMA/qedr: Fix reporting QP timeout attribute
@@ -196,7 +196,6 @@ c7cc29aaebf9eaa543b4c70801e0ecef1101b3c8 virtio_ring: make vring_create_virtqueu
 5f701324c0fb6f9f5aaac3f8d1575321375f6d8f drm/vc4: perfmon: Fix variable dereferenced before check
 a27a1e35f5c87463ba7c12d5b7d7cbafbefc9213 platform/x86: ideapad-laptop: Add allow_v4_dytc module parameter
 8853e8ce9b576e0a3aad8381e19a117964d445fa platform/x86: ideapad-laptop: Add Ideapad 5 15ITL05 to ideapad_dytc_v4_allow_table[]
-19e506b317497a8c2b3ec2f12314d355d2f00ad0 eeprom: at25: Rework buggy read splitting
 8a9ffb8c857c2c99403bd6483a5a005fed5c0773 NFSD: restore EINVAL error translation in nfsd_commit()
 9efdd519d001ee3e761f6ff80d5eb123387421c1 drm/i915/gem: add missing else
 7d23a80dc9720a378707edc03a7275d5a372355f drm/i915/dgfx: Disable d3cold at gfx root port
@@ -352,8 +351,6 @@ a23dd544debcda4ee4a549ec7de59e85c3c8345c SUNRPC: Fix READ_PLUS crasher
 b8f0009bc9edf9186b20ae2a9e442ef0af93040e Merge tag 'drm-misc-fixes-2022-06-30' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 a175eca0f3d747599f1fdfac04cc9195b71ec996 Merge tag 'drm-fixes-2022-07-01' of git://anongit.freedesktop.org/drm/drm
 2f446ffe9d737e9a844b97887919c4fda18246e7 xen/blkfront: fix leaking data in shared pages
-eb7f8e28420372787933eec079735c35034bda7d misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-3776c78559853fd151be7c41e369fd076fb679d5 misc: rtsx_usb: use separate command and response buffers
 ee6c6e7342471d468096a16bee9f89b5a6c1e39d staging/wlan-ng: get the correct struct hfa384x in work callback
 307c8de2b02344805ebead3440d8feed28f2f010 xen/netfront: fix leaking data in shared pages
 4491001c2e0fa69efbb748c96ec96b100a5cdb7e xen/netfront: force data bouncing when backend is untrusted
@@ -405,7 +402,6 @@ d28b25a62a47a8c8aa19bd543863aab6717e68c9 selftests/net: fix section name when us
 5eb502b2e1ae1ab052cdf6bdd7615217e8517360 perf unwind: Fix unitialized 'offset' variable on aarch64
 363afa3aef24f5e08df6a539f5dc3aae4cddcc1a perf synthetic-events: Don't sort the task scan result from /proc
 ff898552fb32d255517fb0676f9fa500664c484d perf synthetic-events: Ignore dead threads during event synthesis
-2cd37c2e72449a7add6da1183d20a6247d6db111 misc: rtsx_usb: set return value in rsp_buf alloc err path
 3d5a2a396f19874b02196268a567a529ad5c7448 MAINTAINERS: add Wenjia as SMC maintainer
 5411de073362300d99bb35d46d77d656760e4606 Merge tag 'powerpc-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 bb7c51268776941b7533374caabcaaed302b91e0 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
@@ -556,4 +552,4 @@ fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
 
---===============0043214918390094478==--
+--===============4485481690944198979==--
