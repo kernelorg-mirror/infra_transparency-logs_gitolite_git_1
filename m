@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6940513395843076954=="
+Content-Type: multipart/mixed; boundary="===============5415331505827911751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 11 Jul 2022 03:18:20 -0000
-Message-Id: <165750950018.27047.3702305699238698283@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 03:18:29 -0000
+Message-Id: <165750950967.27174.6369362678318691516@gitolite.kernel.org>
 
---===============6940513395843076954==
+--===============5415331505827911751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: e1769fb8d04ed03f99c2270ec8ba1096e1586389
     new: fadf028f0be9af6e5105a2e326199939537f28c2
     log: revlist-e1769fb8d04e-fadf028f0be9.txt
 
---===============6940513395843076954==
+--===============5415331505827911751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -529,4 +529,4 @@ fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 6b8b1077a377ebc2ef52b56dc2d8883e2f5e29ea certs: unify blacklist_hashes.c and blacklist_nohashes.c
 fadf028f0be9af6e5105a2e326199939537f28c2 kbuild: remove sed command from cmd_ar_builtin
 
---===============6940513395843076954==--
+--===============5415331505827911751==--
