@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 11 Jul 2022 00:21:50 -0000
-Message-Id: <165749891000.2984.6578181593392472669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 11 Jul 2022 00:46:57 -0000
+Message-Id: <165750041733.19642.4072802918656381543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/block-5.19-2022-07-01
-    old: 0000000000000000000000000000000000000000
-    new: 61d25acb7e76f17eb737f37f7c6df61b3ce8f77c
-  - ref: refs/tags/block-5.19-2022-07-08
-    old: 0000000000000000000000000000000000000000
-    new: f08230cc4b1f99b69e8b4bdec930fe98478e1712
-  - ref: refs/tags/block-5.20-al
-    old: 0000000000000000000000000000000000000000
-    new: 43dc0d6a4e34ec231c00ca960c735561be5e1a28
-  - ref: refs/tags/io_uring-5.19-2022-07-01
-    old: 0000000000000000000000000000000000000000
-    new: 391a76ef151d3034690c2ed7f7e2aa3da697891b
-  - ref: refs/tags/io_uring-5.19-2022-07-08
-    old: 0000000000000000000000000000000000000000
-    new: 387f6a7ea1c488aea8184d5d380feaf9f970a066
-  - ref: refs/tags/io_uring-5.19-2022-07-09
-    old: 0000000000000000000000000000000000000000
-    new: d434e718b896932043666e99a0f9f5b6fe10fb29
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: f250ac6ca9d21a8e594dc04eda5eade7dc8255c0
+    new: 52fdd0882df76eea3ee222095e5859f382ab4b90
+    log: |
+         a73c86c8d182fc3f4a134e45ebd4e249e8c0cedf cpufreq: qcom-hw: Reset cancel_throttle when policy is re-enabled
+         2538256bfd478eaad3c79f33cfae7fc4e7ed8702 cpufreq: qcom-hw: Disable LMH irq when disabling policy
+         717d349bf1ac73bf80d4d406062c4c1fbb875e9a cpufreq: qcom-hw: Remove deprecated irq_set_affinity_hint() call
+         52fdd0882df76eea3ee222095e5859f382ab4b90 cpufreq: Change order of online() CB and policy->cpus modification
+         
