@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7838700379154242446=="
+Content-Type: multipart/mixed; boundary="===============0537239085099475384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 11 Jul 2022 19:59:52 -0000
-Message-Id: <165756959226.31909.8668286114960940589@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 20:00:02 -0000
+Message-Id: <165756960203.314.6239223524217986043@gitolite.kernel.org>
 
---===============7838700379154242446==
+--===============0537239085099475384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: ec53d77ae3d5405aa252a99cd2914c87296d9fb8
-    new: edb2c3476db9898a63fb5d0011ecaa43ebf46c9b
-    log: revlist-ec53d77ae3d5-edb2c3476db9.txt
+  - ref: refs/heads/mlx5-queue
+    old: 6521dc0c7f769abf4f46a007457c276975120cab
+    new: 0e95ad3474a9d44908ea554d56dd88fb2bcbb12c
+    log: revlist-6521dc0c7f76-0e95ad3474a9.txt
 
---===============7838700379154242446==
+--===============0537239085099475384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec53d77ae3d5-edb2c3476db9.txt
+Content-Disposition: attachment; filename=revlist-6521dc0c7f76-0e95ad3474a9.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
@@ -505,5 +505,59 @@ b3ba206ce84d3d5c963ea670c94d4de1335b6516 ixp4xx_eth: Fall back to random MAC add
 e22aa14866684f77b4f6b6cae98539e520ddb731 net: Find dst with sk's xfrm policy not ctl_sk
 1377a5b2d4bb99f4383de5459a33abaacb101432 ethernet/via: fix repeated words in comments
 edb2c3476db9898a63fb5d0011ecaa43ebf46c9b fddi/skfp: fix repeated words in comments
+fe94ff338ac23bc9b701183c2b39d8cc31a8b132 gpio: vf610: fix compilation error
+a52369645518c0b23a8d7b9764b0a6cd916dd41c net/mlx5e: Move the LRO-XSK check to mlx5e_fix_features
+3bf440152d06952f8eab391c4676415f11a25db7 net/mlx5e: Remove the duplicating check for striding RQ when enabling LRO
+74b87e6a599f5caaa60122ba9b0d28a9fdfcd3f3 net/mlx5e: Support enhanced CQE compression
+cc9b708ce6b6ca43f15345ae43fb37af05a3361d net/tls: Perform immediate device ctx cleanup when possible
+f6e3b3694c4c5bb039e51cbd98445bd96fff0dd8 net/tls: Multi-threaded calls to TX tls_dev_del
+23f7265f21ff7fa3f5c1ed6ca8b4acd8ee7bcb7c net/mlx5e: kTLS, Introduce TLS-specific create TIS
+5039249dbcdc10cbb5082c62e8aa8af8413abc43 net/mlx5e: kTLS, Take stats out of OOO handler
+047755fdf339bcad707b6296a8fbf6134c078f90 net/mlx5e: kTLS, Recycle objects of device-offloaded TLS TX connections
+4c7dd6e3af3c86a29ae7a885208c4309a55c2d6e net/mlx5e: kTLS, Dynamically re-size TX recycling pool
+f9aa4a4fd825818854c83a98bda753061da93f26 sched/topology: Expose sched_numa_find_closest
+a02823fc7b5eced403d7e75271cb6ebd62a542c3 net/mlx5e: Move params kernel log print to probe function
+e7439b0522eac93eba8b8698bfe7404ccd5566df net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+72cd1b46bc05f919d4ed237019afb9c73baf3c94 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+3689e9e0181b8d14748add768690cbe00fe8bf3a net/mlx5e: HTB, reduce visibility of htb functions
+9530f77dafc2f337c8162c59be70a0d0f6ab43d5 net/mlx5e: HTB, move ids to selq_params struct
+277f003fe84080d331a7396f359dd81fb5d6094e net/mlx5e: HTB, move section comment to the right place
+f83bcc7e7bfd4bf71f315280fc3fbe4e919fd737 net/mlx5e: HTB, move stats and max_sqs to priv
+8171c647822cf142d7455bf640a92f3e81eddc34 net/mlx5e: HTB, hide and dynamically allocate mlx5e_htb structure
+f60b99275404389ed517c96f3d3df9ad919ee50c net/mlx5e: HTB, remove priv from htb function calls
+371e8b083f00adf66cb72e0a2f7b83acf607e581 net/mlx5e: HTB, change functions name to follow convention
+aa2baad76fb719470943861638dd2e36bfb0071e net/mlx5e: HTB, move htb functions to a new file
+cf86adea86a24c798a6b097824f552c7301500b8 !!! W/A DO NOT SUBMIT !!! net/mlx5: Introduce ifc bits for migratable
+747f7583385f008ff75a2d21798f8f8191b34516 !!! W/A DO NOT SUBMIT !!! vfio/mlx5: Set VF as migratable
+2c09833fd7ba668b802f1b4724177aff8112ee4f net/mlx5: Introduce ifc bits for using software vhca id
+e95be24ca8f811761cc00c7196f2bce59b358eaf net/mlx5: Use software VHCA id when it's supported
+183da4eb9214cad9d263ef923dd1be9be3e21983 net/mlx5e: debugfs, Add num of in-use FW command interface slots
+ba7f8d3e30e49b62514b1cfdecac19f782a5859e net/mlx5: Expose vnic diagnostic counters for eswitch managed vports
+a1a045576f9492780a86231737c9f7b9a7d105e0 net/mlx5: Remove devl_unlock from mlx5_eswtich_mode_callback_enter
+8f8ba43f2dbbf74ce0073e24ff86e09910ca50a8 net/mlx5: Use devl_ API for rate nodes destroy
+27b68a5d064bb75f101a55ece64fc26ce55c6b44 devlink: Remove unused function devlink_rate_nodes_destroy
+c13e47340991e82ea99313a46f37c4123f47c7fb net/mlx5: Use devl_ API in mlx5_esw_offloads_devlink_port_register
+244a476710a1535bf3666788f0b6ff91437acc0a net/mlx5: Use devl_ API in mlx5_esw_devlink_sf_port_register
+c9bc87a678082b7f142a2b406c2fdfdae3b1d666 devlink: Remove unused functions devlink_rate_leaf_create/destroy
+23087a1ac9c04120cd7190432d9433c772a914d5 net/mlx5: Use devl_ API in mlx5e_devlink_port_register
+650bca476d269c6c3f159f9a56346484c0d9ace2 net/mlx5: Remove devl_unlock from mlx5_devlink_eswitch_mode_set
+c5761756037880164c5475565cafbdf211e90ace devlink: Hold the instance lock in port_new / port_del callbacks
+9e9df5f2fa3459707dc65c029981f19f0689abf6 net/mlx5: Bridge, refactor groups sizes and indices
+954cb9c0cf3a4292639730ed4ec67455cc120339 net/mlx5: Bridge, rename filter fg to vlan_filter
+74a9e04fab0fad6a330568c24f443b98287c7ee2 net/mlx5: Bridge, extract VLAN push/pop actions creation
+3f43d56aefc049ac9e9507002fb5a0556a5929f7 net/mlx5: Bridge, implement infrastructure for VLAN protocol change
+220c1ae2d5442b7f9274a58f8cfe436f032be8f3 net/mlx5: Bridge, implement QinQ support
+32aefd47c73e18f0076276e89773f15a392c8a8e Merge branch 'patchq/323390' into mlx5-queue
+4761c888200cd5b9b710e0ed4bf73ab22f476dc4 Merge branch 'patchq/474284' into mlx5-queue
+565ac623134dbde59d842e6910d5a183e6f6be1f Merge branch 'patchq/505590' into mlx5-queue
+03a220c38a47c2cb8887d3730c0f4f0c2dce5c2e Merge branch 'patchq/364346' into mlx5-queue
+6067d334a10c969ef3f78e24b106464b579ba607 Merge branch 'patchq/516865' into mlx5-queue
+6bd39f67d724bf0f9fa3c6b923262ee4a5d67b9a Merge branch 'patchq/501243' into mlx5-queue
+a5a3bd95d7512f95d5d289fc821bea356319c383 Merge branch 'patchq/518280' into mlx5-queue
+a83b954c94f57aaa376f9551f45e0347a96eb562 Merge branch 'patchq/515224' into mlx5-queue
+c9181558997e9561a4ca833de21f56f3afc872b7 Merge branch 'patchq/512097' into mlx5-queue
+058307b2a33478aeb87886ae2832aa10524cbd8b Merge branch 'patchq/508418' into mlx5-queue
+0d9c5ef54dd45974e0512f5c408744a6d2d4bafd Merge branch 'patchq/513639' into mlx5-queue
+0e95ad3474a9d44908ea554d56dd88fb2bcbb12c Merge branch 'patchq/511222' into mlx5-queue
 
---===============7838700379154242446==--
+--===============0537239085099475384==--
