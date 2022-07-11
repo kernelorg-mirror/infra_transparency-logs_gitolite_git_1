@@ -1,106 +1,125 @@
-Content-Type: multipart/mixed; boundary="===============2463021024073372678=="
+Content-Type: multipart/mixed; boundary="===============6221598172848760161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 11 Jul 2022 05:40:22 -0000
-Message-Id: <165751802219.23033.4782252032279843936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Mon, 11 Jul 2022 05:54:05 -0000
+Message-Id: <165751884527.31658.18216674417965716970@gitolite.kernel.org>
 
---===============2463021024073372678==
+--===============6221598172848760161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: a471da3100ef2e8feb8449d378a52e29dd1e9ae1
-    new: 32346491ddf24599decca06190ebca03ff9de7f8
-    log: revlist-a471da3100ef-32346491ddf2.txt
+  - ref: refs/heads/habanalabs-next
+    old: 0af9772bc4c189e29557a0e1f3af22918f51ccaa
+    new: 0a38ae18d487f0e58685758c1024ecc1c78fb09b
+    log: revlist-0af9772bc4c1-0a38ae18d487.txt
 
---===============2463021024073372678==
+--===============6221598172848760161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a471da3100ef-32346491ddf2.txt
+Content-Disposition: attachment; filename=revlist-0af9772bc4c1-0a38ae18d487.txt
 
-c132fe78ad7b4ce8b5d49a501a15c29d08eeb23a dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
-615a4bfc426e11dba05c2cf343f9ac752fb381d2 dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
-646728dff254f8070da5d2f82494a065d4287e26 dmaengine: Revert "dmaengine: add verification of DMA_INTERRUPT capability for dmatest"
-a7cd3cf0b2e5aaacfe5e02c472bd28e98e640be7 dmaengine: imx-sdma: Allow imx8m for imx7 FW revs
-4deb96e35c5c3ebfeb9cf567f3ba80fa54e2cec1 irqchip/gicv3: Handle resource request failure consistently
-f6f0dab5efe4fcabe726f9218a0b3000fee0fa8a MAINTAINERS: Update Ben's email address
-db9a3a35d31ea337331f0e6e07e04bcd52642894 cxl: Fix cleanup of port devices on failure to probe driver.
-8ae3cebc1704b9a3ab8398dc7820c37183026bbc cxl/core: Use is_endpoint_decoder
-8a66487506161dbc1d22fd154d2de0244e232040 cxl/mbox: Use __le32 in get,set_lsa mailbox structures
-f50974eee5c4a5de1e4f1a3d873099f170df25f8 memregion: Fix memregion_free() fallback definition
-19e506b317497a8c2b3ec2f12314d355d2f00ad0 eeprom: at25: Rework buggy read splitting
-a4ab14e1d8fe83cc1ed8910b788117ec2ed25179 gen_compile_commands: handle multiple lines per .mod file
-e35f5718903b093be4b1d3833aa8a32f864a3ef1 cxl/mbox: Fix missing variable payload checks in cmd size validation
-8ad59b397f86a4d8014966fdc0552095a0c4fb2b i2c: piix4: Fix a memory leak in the EFCH MMIO support
-eb7f8e28420372787933eec079735c35034bda7d misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-3776c78559853fd151be7c41e369fd076fb679d5 misc: rtsx_usb: use separate command and response buffers
-ee6c6e7342471d468096a16bee9f89b5a6c1e39d staging/wlan-ng: get the correct struct hfa384x in work callback
-96e8fc5818686d4a1591bb6907e7fdb64ef29884 x86/xen: Use clear_bss() for Xen PV guests
-38fa5479b41376dc9d7f57e71c83514285a25ca0 x86: Clear .brk area at early boot
-7e09ac27f43b382f5fe9bb7c7f4c465ece1f8a23 x86: Fix .brk attribute in linker script
-0ac9c3dd0d6fe293cd5044cfad10bec27d171e4e dmaengine: qcom: bam_dma: fix runtime PM underflow
-44c4237cf3436bda2b185ff728123651ad133f69 dmaengine: idxd: force wq context cleanup on device disable path
-49db68d45bdcad06e28a420d5d911e4178389666 dmaengine: dw-axi-dmac: Fix RMW on channel suspend register
-fd31000d58f41588fa10128278efdab8474f5ce8 irqchip/xilinx: Add explicit dependency on OF_ADDRESS
-1357d2a65601bc0afb221672d5a8f1649063a141 irqchip/apple-aic: Make symbol 'use_fast_ipi' static
-09f7b80fac3e588b282ad26aabd7336d7d293efd dmaengine: imx-sdma: only restart cyclic channel when enabled
-07358194badf73e267289b40b761f5dc56928eab PM: runtime: Redefine pm_runtime_release_supplier()
-887371066039011144b4a94af97d9328df6869a2 PM: runtime: Fix supplier device management during consumer probe
-2cd37c2e72449a7add6da1183d20a6247d6db111 misc: rtsx_usb: set return value in rsp_buf alloc err path
-887502826549caa7e4215fd9e628f48f14c0825a powerpc/powernv: delay rng platform device creation until later in boot
-3770d92bd5237d686e49da7b2fb86f53ee6ed259 dmaengine: at_xdma: handle errors of at_xdmac_alloc_desc() correctly
-8ffccd119a5908b240a26182be44c0ff3d1e3d85 dmaengine: idxd: Only call idxd_enable_system_pasid() if succeeded in enabling SVA feature
-8af3a0b23818af59971f538bf258c15e1033ea55 gpio: vf610: fix compilation error
-bf17455b9cbd4b10bf30d39c047307e1d774fb1a fscache: Fix if condition in fscache_wait_on_volume_collision()
-5c4588aea6675b69e328d468c5b6be5127e19a79 fscache: Introduce fscache_cookie_is_dropped()
-65aa5f6fd8a12e0a343aaf1815949a79a49e3f35 cachefiles: narrow the scope of flushed requests when releasing fd
-85e4ea1049c70fb99de5c6057e835d151fb647da fscache: Fix invalidation/lookup race
-7feec7430edddb87c24b0a86b08a03d0b496a755 ACPI: CPPC: Only probe for _CPC if CPPC v2 is acked
-8b356e536e69f3a4d6778ae9f0858a1beadabb1f ACPI: CPPC: Don't require _OSC if X86_FEATURE_CPPC is supported
-b64b3b2f1d81f83519582e1feee87d77f51f5f17 dmaengine: pl330: Fix lockdep warning about non-static key
-1dbe67b9faea0bc340cce894018076679c16cb71 dmaengine: lgm: Fix an error handling path in intel_ldma_probe()
-b57feed2cc2622ae14b2fa62f19e973e5e0a60cf x86/compressed/64: Add identity mappings for setup_data entries
-316f92a705a4c2bf4712135180d56f3cca09243a iommu/vt-d: Fix PCI bus rescan device hot add
-4140d77a022101376bbfa3ec3e3da5063455c60e iommu/vt-d: Fix RID2PASID setup/teardown failure
-607a48c78e6b427b0b684d24e61c19e846ad65d6 dt-bindings: dma: allwinner,sun50i-a64-dma: Fix min/max typo
-80f2a248a2f92c07873128808359756f72a0438b Merge tag 'irqchip-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-c8e27a4a5136e7230f9e4ffcf132705bf56864cc gpiolib: cdev: fix null pointer dereference in linereq_free()
-38e0e4d04d4187c63d6b511396faae7db6a3cd9e x86/ibt, objtool: Don't discard text references from tracepoint section
-c8934e4e348915caac54085c01fd9d04fa16134a PM / devfreq: exynos-bus: Fix NULL pointer dereference
-ba7c3507087aaf98bbeab04a62251bf63c6348c1 Merge tag 'devfreq-fixes-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-3501f0c663063513ad604fb1b3f06af637d3396d i2c: cadence: Unregister the clk notifier in error path
-c51b8f85c4157eb91c2f4ab34b0c52fea642e77c MAINTAINERS: Remove iommu@lists.linux-foundation.org
-fe7c758c07c4729a16f940eb1d77027ad032ab29 Merge branch 'pm-core'
-2b93fe647c0a901e00eba0adab84a6ecba3f25c4 Merge tag 'gpio-fixes-for-v5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-f5645edf6cffb97d976c6eef31fb536a09f114fd Merge tag 'iommu-fixes-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-483e4a1d83db1a6d339cd76f7966bf9e1748f752 Merge tag 'cxl-fixes-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-3784fad934c5bd68551f0af4252821697957a72a Merge tag 'pm-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-525496a030de4ae64bb9e1d6bfc88eec6f5fe6e2 Merge tag 'acpi-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e5524c2a1fc4002a52e16236659e779767617a4f Merge tag 'fscache-fixes-20220708' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-d785a773bed966a75ca1f11d108ae1897189975b io_uring: check that we have a file table when allocating update slots
-d9cdc3b12525c85b4a2a8b6f3f8f61d9f467ab9a Merge tag 'powerpc-5.19-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-de2a34771f5123270bc3842535ac91673116dd03 ptrace: fix clearing of JOBCTL_TRACED in ptrace_unfreeze_traced()
-84499c5d220a4f8fb0a35fa4673148525c81ea83 drm/aperture: Run fbdev removal before internal helpers
-b1c428b6c3684ee8ddf4137d68b3e8d51d2a700f Merge tag 'i2c-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-cb8a4beac39b90cd60abbf9fd639a3357274e469 x86/boot: Fix the setup data types max limit
-f5a4618587fb5c5eb5fec3dcce165ca8fd7d7f91 kbuild: remove unused cmd_none in scripts/Makefile.modinst
-74a0032b8524ee2bd4443128c0bf9775928680b0 Merge tag 'x86_urgent_for_v5.19_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2b9b31cedb7064b16510251cf20ed44b05b71456 Merge tag 'irq_urgent_for_v5.19_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2fbd36dfae40cc90ba6a4761e0efff62e4d919fe Merge tag 'kbuild-fixes-v5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-d9919d43cbf6790d2bc0c0a2743c51fc25f26919 Merge tag 'io_uring-5.19-2022-07-09' of git://git.kernel.dk/linux-block
-b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-5867f3b88bb54016c42cdde510c184255488a12b Merge tag 'staging-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-952c53cd357c71338a59d444933ed48a879229e1 Merge tag 'dmaengine-fix-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
-24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
-32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
+64c591661e4948257aac9b586394a25a7c64ec69 sgi-xp: Use the bitmap API to allocate bitmaps
+e5535ff173318775f2c52b7f072bb3abf03b5b0f virt: acrn: using for_each_set_bit to simplify the code
+086c28ab7c5699256aced0049aae9c42f1410313 intel_th: Fix a resource leak in an error handling path
+82f76a4a720791d889de775b5f7541d601efc8bd intel_th: msu-sink: Potential dereference of null pointer
+ac12ad3ccf6d386e64a9d6a890595a2509d24edd intel_th: msu: Fix vmalloced buffers
+802a9a0b1d91274ef10d9fe429b4cc1e8c200aef intel_th: pci: Add Meteor Lake-P support
+23e2de5826e2fc4dd43e08bab3a2ea1a5338b063 intel_th: pci: Add Raptor Lake-S PCH support
+ff46a601afc5a66a81c3945b83d0a2caeb88e8bc intel_th: pci: Add Raptor Lake-S CPU support
+ad8046594f85b5ddb250619f62b2b10de9b602ec drivers: slimbus: Directly use ida_alloc()/free()
+89e1ec7732fddd5a109fa098ed2a2516093cc6d7 slimbus: messaging: fix typos in comments
+ffff4913c7e22cc2bd5570df73e0e154bf111215 eeprom: idt_89hpesx: fix clang -Wformat warnings
+b7e241bbff24f9e106bf616408fd58bcedc44bae binder: fix redefinition of seq_file attributes
+4d5e3b06e1fc1428be14cd4ebe3b37c1bb34f95d dt-bindings: microchip-otpc: document Microchip OTPC
+98830350d3fc824c1ff5c338140fe20f041a5916 nvmem: microchip-otpc: add support
+38f91750d5cfe0d6973ed4886cc6b5ff425aae29 MAINTAINERS: rectify file pattern in MICROCHIP OTPC DRIVER
+9c5fc8e1ac24e3cecd217f75149f6b62619f2425 dt-bindings: nvmem: convert mtk-efuse.txt to YAML schema
+cf35ec15a1c2ec21446db16672be2b866590c221 dt-bindings: nvmem: mediatek: efuse: add support mt8183
+38b4c8a4708f9091dc547854e7bb0812e706c48b dt-bindings: nvmem: mediatek: efuse: add support for mt8186
+f5c97da8037b18d1256a58459fa96ed68e50fb41 nvmem: mtk-efuse: Simplify with devm_platform_get_and_ioremap_resource()
+58c94b10a3aa2f835d7c2bde7fcb1f54ae52ebbb habanalabs: fix double unlock on error in map_device_va()
+1a48275f1785370876b86a3b0ae7b56a7bcb79f4 habanalabs: Fix kernel-doc
+275eba32675e111bee8e1d0aacd48705b87d07c6 habanalabs: Fix kernel-doc
+137a317aa9b496ca34e042fd74efe2523c362761 habanalabs: add terminating NULL to attrs arrays
+46d4efc385ee2bb7ff6117b26bf1fc56d01e0b35 habanalabs: align ioctl uapi structures to 64-bit
+1799cc915c626f041315885e87e2622e6d89365e habanalabs/gaudi: move tpc assert raise into internal func
+0b3d3a9d8bee19791e58418e57791dfd3f1aa6f4 habanalabs: change the write flag name of error info structs
+d656cb7c6adf9d5b5b60253e11655e9c3ea859d0 habanalabs/gaudi: fix comment to reflect current code
+6788fe450c51a2bad4e34b3e65b784c29257e530 habanalabs: keep a record of completed CS outcomes
+7019c9092f51df18ea74040b0d15100f10f42a9f habanalabs: fix race between hl_get_compute_ctx() and hl_ctx_put()
+d943559a023250530c40af1c9bf50a8a18e17ca9 habanalabs/gaudi: collect undefined opcode error info
+1a175ebdaa3674573ffbb99e0d9fac0cfb646d8d habanalabs: expose undefined opcode status via info ioctl
+0021ba92759c889d12d312c7225e1c942058d65f habanalabs/gaudi: invoke device reset from one code block
+0fefa65e81a3ea3522d937a34e3df94540a80836 habanalabs/gaudi: send device reset notification
+08f0ee70c9c560addda03711b45c0bf36f2f86df habanalabs: send an event notification when CS timeout occurs
+a6bd451bd02aa8976624db018690bafee412bdc2 habanalabs: avoid unnecessary error print
+4edd9e3eb46f8bf057534327b38aed7af257ad92 habanalabs/gaudi: fix incorrect MME offset calculation
+c91115f0325d6a9dc2083b11fa434126903e740d habanalabs: add validity check for cq counter offset
+75853f76c537338bf0bd797cf5699611183a31ee habanalabs/gaudi: fix shift out of bounds
+68eac9093e5f1d6511a6d1349a47a5665142c10d habanalabs: fix NULL dereference on cs timeout
+107a76983bd761dd28d90d69b93666262447b463 habanalabs: remove unused get_dma_desc_list_size
+3e185e338b0533e8676ed0fa2fddb2f8bac0656c habanalabs/gaudi: notify user process on device unavailable
+0030179c41f392342e78f4d7b93ac11c9f2b7d26 habanalabs: add critical indication in sram ecc
+cbf9e506ccee6062b6dc1cc871e930d9daec9480 habanalabs: check fence pointer before use
+be56ac5dc05f827be6115e51345fab3191826e3f habanalabs: print pointer with correct modifier
+a56cbeadddb67873e0740f16937a05d6851ee42d habanalabs: use kvcalloc when possible
+f9dea29303a81f68b40d2981ff01855290e93046 habanalabs: fix comment style
+3dafb0d8b9503d667c8a0108899282a70b10ff63 habanalabs: move memory_scrub_val to hdev struct
+73fdb34e600ee2925a8863e6e9042a68deebb158 habanalabs/gaudi: fix warning: var might be used uninitialized
+af9854d800b53f901aa730b66a6cefaab5285670 habanalabs/gaudi: fix a race condition causing DMAR error
+dcd0ed2ecf0747b4457d1b151168cb1e127b634e habanalabs: print if firmware is secured during load
+4e8e52deec691bcf5993b5dd8c90c52dfb006d48 habanalabs: don't do memory scrubbing when unmapping
+a5d01ade65825eaa6b9ee42c27fd3be51fadde26 habanalabs: don't send addr and size to scrub_device_mem cb
+8a7ae1cac2d2103a91731d0e335e7f6c8b582b89 habanalabs/gaudi: use memory_scrub_val from debugfs
+ba776755065656460b73dbcdbbba42d4ee3923fb habanalabs: move call to scrub_device_mem after ctx_fini
+37ca18a2fcbdb603bc880606d1782fa4198a9422 habanalabs: set default value for memory_scrub
+c3cb0eb1b82935c410e0e2d7cba7ad9f7576e6f8 habanalabs/goya: move dma direction enum to uapi file
+ab97f9c70d657ef8cf318233c0a3482b6d138a80 habanalabs/gaudi: fix function name in comment
+79d3a9f42470bc21eb2c3d0bca0014d073e92d44 habanalabs/gaudi: use correct type in assignment
+d164703d14b75780c7559ecbf4caf72310d127a8 habanalabs/gaudi: mask constant value before cast
+5c7b398e21f07f978e990072a46f29400a60f9a5 habanalabs/gaudi: remove unused enum
+081935e528f166495e9e500fe279447d359a9c78 habanalabs: refactor dma asic-specific functions
+28b34c4f8d29b92428031af388b25fd4f168a646 habanalabs: page size can only be a power of 2
+c40efc81af40126a141e800c7e20dadd7e553c77 habanalabs/gaudi: enable error interrupt on ARB WDT
+fb3ad22d3d3cb5e88d4628b98a0f1cbcbebb6d2f habanalabs: remove dead code from free_device_memory()
+3c8b5210b375e86cd6ce9dcb4cbbeb7bc7f7c0c3 habanalabs: communicate supported page sizes to user
+1140009579ffdae0a1dd0ac8728fd11f734cd892 habanalabs/gaudi: replace hl_poll_timeout with while loop
+d0d0d7eec9fd1fe09b84a7e0e5e506d39e6588d8 habanalabs: use %pa to print pci bar size
+15a9c503f2386c61580fa4d31581a00d6dc3153b habanalabs: remove redundant argument in access_dev_mem APIs
+9759cc48ffe38a550bebb1fbba525a692596b441 habanalabs/gaudi2: add asic registers header files
+d4c5aef126b581cafe7074c1f9cc844d842beb8a uapi: habanalabs: add gaudi2 defines
+78c91c19e1c4aaba6a0e73830e7c4379be571896 habanalabs: add gaudi2 asic-specific code
+724eff294ac93e85d580669fbf8f52e0e36aad9e habanalabs: add unsupported functions
+575d286bd365f7610db45c245b86e5e22c67f130 habanalabs: initialize new asic properties
+9f0a65f7dfb313a57274372a50d721e657da6323 habanalabs: remove obsolete device variables used for testing
+b9116e09772d0edbc5ca3fe93e77caa507f41d40 habanalabs: add generic security module
+582eb27a817c509059e0a25def0a2e3a65287b16 habanalabs/gaudi2: add gaudi2 security module
+e064ab4d31a46989a68dae698c3990d6d5d45371 habanalabs/gaudi2: add gaudi2 profiler module
+a8e0b8a45f89a44db6e5e9854a09f550914278b1 habanalabs: add gaudi2 wait-for-CS support
+0fad47be1e74be1f8275eaed2c65b0b49c31500d habanalabs: add gaudi2 MMU support
+60fea60fff2a5b3656de7f1ec95f077f9c480b82 habanalabs: enable gaudi2 code in driver
+989b6b1e43cf22b12389d41330d94142d6da0da4 habanalabs/gaudi2: reset device upon critical ECC event
+5c4e8edc942b3aa370bd348ff981d8b2c4a1d1ba habanalabs: wait for preboot ready after hard reset
+c516a96947890365563c863f46a252a1e53d26dd habanalabs: naming refactor of user interrupt flow
+9e5774d1de55f550ce3accb19cd50947e1579ec0 habanalabs: add support for common decoder interrupts
+a7de19611ec8a0bc0f005990becd3225aaf62970 habanalabs: save f/w preboot minor version
+48049be715bed5c3d1ec5ee8cc6593b39688a6e5 habanalabs: allow detection of unsupported f/w packets
+b67fb27ea9143e8f5cd415870de850a1d0950390 habanalabs/gaudi2: remove unused variable
+d499459d2f4ab89997c4716441db52e1df978985 habanalabs/gaudi2: SM mask can only be 8-bit
+38d24551177c8efef3a407b0b2ec710ff5142470 habanalabs: do not set max power on a secured device
+5ec1dd17f12f0adebf3d062554ffd940cb145b82 habanalabs: don't declare tmp twice in same function
+83ff4138e1accdd1bdfb39d6a31062933dc16fef habanalabs: make sure variable is set before used
+53f6c3e0a58b9d21b49a107377cc8fcad09f46b8 habanalabs/gaudi2: remove unused defines
+39dd20cf4a726cfdefc6ae2342bda8065bd57b04 habanalabs: Use the bitmap API to allocate bitmaps
+c964bc484b200883ed0efafd31d795d998ccd6f0 habanalabs/gaudi2: use DIV_ROUND_UP_SECTOR_T instead of roundup
+0a38ae18d487f0e58685758c1024ecc1c78fb09b habanalabs: initialize variable explicitly
 
---===============2463021024073372678==--
+--===============6221598172848760161==--
