@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 11 Jul 2022 08:07:52 -0000
-Message-Id: <165752687217.22966.14263295785015763683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 11 Jul 2022 08:13:21 -0000
+Message-Id: <165752720111.27539.10572701641592073205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: f41b284a2c187c299f496f6fa1914ec986bdf0ee
-    new: 5e25c25aa2c08fb9a79476e029c0b1e3dcd70566
+  - ref: refs/heads/irq/renesas-irqc
+    old: db2e5f21a48edf1d1110d348add54bf22050643b
+    new: a152d3fff7b1fb1d9f916c6f47325debe1317f8d
     log: |
-         cf746bac6c5ba4577a9c7c528f351f56d0ebf4d6 esp6: Fix spelling mistake
-         5e25c25aa2c08fb9a79476e029c0b1e3dcd70566 xfrm: improve wording of comment above XFRM_OFFLOAD flags
+         a152d3fff7b1fb1d9f916c6f47325debe1317f8d gpio: thunderx: Don't directly include asm-generic/msi.h
          
