@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7377874862360654025=="
+Content-Type: multipart/mixed; boundary="===============1495851104174983717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Jul 2022 08:44:51 -0000
-Message-Id: <165752909101.16242.6250654534892053266@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 08:44:54 -0000
+Message-Id: <165752909425.16352.14015686385271369383@gitolite.kernel.org>
 
---===============7377874862360654025==
+--===============1495851104174983717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,85 +16,102 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 39409b97b462e055ca971257bdc466bb15e76de7
-    new: 62986f42a83eab8d04e90ac975fa58def5fb776a
-    log: revlist-39409b97b462-62986f42a83e.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 9c2bbcee2891268216770ce2dda9f70fb8e82340
+    new: f8a870d95626276e2f0d984600e1886282647694
+    log: revlist-9c2bbcee2891-f8a870d95626.txt
 
---===============7377874862360654025==
+--===============1495851104174983717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657529089 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657529092 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1657529088-93e49e44f3569c3f7e8122bea711bcfa5ffe640c
+nonce 1657529091-f9d5ca7b6786db6dea793bc1602677008857c345
 
-39409b97b462e055ca971257bdc466bb15e76de7 62986f42a83eab8d04e90ac975fa58def5fb776a refs/heads/linux-5.4.y
+9c2bbcee2891268216770ce2dda9f70fb8e82340 f8a870d95626276e2f0d984600e1886282647694 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLL4wEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3IoP/3vk+24lqMQdJMiiqO5Y
-C2ASJV5i+zlxAji1Ny8qCLX1AftJqcDyH9Uz3FVpcFcLqVAmCPHNI1mzJEMYmcXA
-XOfayghAmwV+hXwzvWTOep+SiCz/ut+FGfQGTtdBa00x46h1A3YFkFqrA3zLuLpm
-UqeQJppAd3rJVqpWVUp5AHmPag2rrkeXDt4B5Rwv5qAz02NhWemM+M6yo7fqw1nG
-+YekqjCjgTm8YLgTX/0vnzoMfW7XaerTeU7+s3hLWsSk2zxpprDIOYsqOJk7KikN
-1RW7DUzuJu9g+dNEVC9cAt9Te2JqGGNWoowDx77R3FhMObVEdtXi+TPYWbVT+C8s
-+M5mCoJKC7Lk1LeCHIT2TwxlUbWBSb5LEzv/mM261Do2jqDIvT67wWKftwth64qM
-bFooLkT49pFVgOqF9aDK1w1F+7DcKUBOUEToi+NP6Yw9hXSiUljaLxg8VzHHd/bS
-C094NKqhxRkm0kenymZOJzZb/TCIc1afLCC3KomMBfh6AN/vKI4/liiO3BT5KiOn
-TlN8B0OBQSEfN6xJQahJH8/Yr+r8zPhZCcYODt+4cbjA6VJHjNDhaG+9J+IQB3sC
-0LlNzacD7GtcO+YqBB4sTBpcAeOpa6vKk/p/UiMm5Yls+mbJ9EoRTAiA6LuqU7rf
-BeT3+nFHc8i6Bj9FFj+xoa31
-=A2pD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLL4wQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7j0P/iwrOqUJ25gmtfDX2AtI
+DTC4/3T00RB7yXThBflEqxY42vQYG/qvnQ+mg/ataSrW8DaC407Xi5NhFFSHGjUt
+hgC3geIdivJN9W8N6HyaeJ/ZfWgUlTUiipqtrfOP/ZZKBkHBcxIcV1KbH657jPj4
+t21Ut4U6sGiPvcimVzYv5pdGXGcs+Oby3B/YrCDG7ibijLU1PCPLYSd3lLtHwq7V
+MxvJsHo6v4K80UdctBKRBtG1NYVFLqYZIYr9eSoWBOMc4GutyAvtDDb3kbIvVz6X
+N84dhF363rLbnN2hBKGEFBMfQDMyqVdsY+GZSIBMc7/mlATEMNmhzCdAjuSlcMo5
+2EpLX4Ov1CoeKuEdUYzx8Y7mGJFDN3KZ7cvLlvhdmrvO+oZHMJmIhTPq0EDr7tvE
+GMDTjfbtYcOZNYPTIV15uApBf2g6ENg2efWIWtRsiAuMZXajd/xK7uviTBXJAvHP
+71TTZ594WHUk+b97Qk1RdLqiYG6nOzKIQAmQjdw6rNfJ1fHLt/bMH6dOI87J/Gqz
+gDLZT9BkK6+j7tASeciUz2JOG+RRrefpxjHAxKXToDunBgOKX85uFMwpQu1K01a4
+g4eqrIJOZ9NHs7KjBRzza3+SvF1yztuCb8IqvSgWOifX6uDhGWdZX/yMQBXthYvS
+VDIWSesifkfWSrYX5yuQz8K9
+=cGV8
 -----END PGP SIGNATURE-----
 
---===============7377874862360654025==
+--===============1495851104174983717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39409b97b462-62986f42a83e.txt
+Content-Disposition: attachment; filename=revlist-9c2bbcee2891-f8a870d95626.txt
 
-aee47ec62f52bc371a49dc3bb152effa364c7358 esp: limit skb_page_frag_refill use to a single page
-a5d7d82d8f08dc95d218230f955c7c254afed5d2 mm/slub: add missing TID updates on slab deactivation
-8ea0041fde36de5ecddb23418013cc656b0de8bc can: bcm: use call_rcu() instead of costly synchronize_rcu()
-3e7c78d5346bcc050439ab31cf2f48ece95390d3 can: grcan: grcan_probe(): remove extra of_node_get()
-6390869d5a99ca15bcc4cdea044d800804d0b902 can: gs_usb: gs_usb_open/close(): fix memory leak
-6dce8c8ed2cf3b470c9f8290da349a8ef6fbba27 usbnet: fix memory leak in error case
-3c6c04718c4e29b36abdf80dac5835e870b24725 net: rose: fix UAF bug caused by rose_t0timer_expiry
-e721be951b32c02527e4e6b7577536dd39ec131c iommu/vt-d: Fix PCI bus rescan device hot add
-af481ad17cd3d13dfd8b45c676e715048417d99c fbdev: fbmem: Fix logo center image dx issue
-86d0aabff7a2e9cb81dadf73a04b0c8ec761c31d fbmem: Check virtual screen sizes in fb_set_var()
-e172ea854052a95db97d991c9d2a7d3f034853b3 fbcon: Disallow setting font bigger than screen size
-719872d2d4cb1d54049c7763fb9ceec7d1e23999 fbcon: Prevent that screen size is smaller than font size
-f6a300111831aa85fa4849875a336da35109df16 video: of_display_timing.h: include errno.h
-98e47478e3f72fe14fe00d4033f56b24a0e7e572 powerpc/powernv: delay rng platform device creation until later in boot
-cec15022b40515ae6dd85a79939ddd2ba3b8f64b can: kvaser_usb: replace run-time checks with struct kvaser_usb_driver_info
-9135cfd411c273d6f05f0bd5c5e7a22eda3562ca can: kvaser_usb: kvaser_usb_leaf: fix CAN clock frequency regression
-8e8e901c17babccf51f44a7fb90766929f51be78 can: kvaser_usb: kvaser_usb_leaf: fix bittiming limits
-63593e44a1873bced8fc0af5fe69704928dc2727 xfs: remove incorrect ASSERT in xfs_rename
-1248742e09e7c215b36e0564542202f12fca19a2 ARM: meson: Fix refcount leak in meson_smp_prepare_cpus
-131c995aa98908381585f6f4614accabb1f6ed10 pinctrl: sunxi: a83t: Fix NAND function name for some pins
-963da0040a78b8458c333b34ed472fdea7c7554c pinctrl: sunxi: sunxi_pconf_set: use correct offset
-7b879475d5544cf21e429e6c07a1f1f18cc921ec ARM: at91: pm: use proper compatible for sama5d2's rtc
-a3517f3ea24a1f423f81ae030792edac41dbb6f6 ARM: at91: pm: use proper compatibles for sam9x60's rtc and rtt
-374bad296a151ad01b3a086a93392e87324405e0 ibmvnic: Properly dispose of all skbs during a failover.
-49d21c72d08fc7e5bae39709f69d3b854b9c38e0 selftests: forwarding: fix flood_unicast_test when h2 supports IFF_UNICAST_FLT
-4922d2b33720b25f2bf442d8fa81dad66b7a78f0 selftests: forwarding: fix learning_test when h1 supports IFF_UNICAST_FLT
-d140cde6de86f09b79597f126f7a2ab280355ad6 selftests: forwarding: fix error message in learning_test
-121218788213a3a01f93c1f3ecc7373f60e91c0c i2c: cadence: Unregister the clk notifier in error path
-4074afd00cd29e216beeca83571ce9faeccf2526 dmaengine: imx-sdma: Allow imx8m for imx7 FW revs
-de387a8ec2a0710c988e8afb4cc95ece9cc811df misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-6fe9f02b7c5a64bb08789f186918eff5acf76bc8 misc: rtsx_usb: use separate command and response buffers
-d55b10fe6918440e50f671811b60c8da893d2020 misc: rtsx_usb: set return value in rsp_buf alloc err path
-0356d006a7a4be73de2de90e4d4f4887a4f46379 dt-bindings: dma: allwinner,sun50i-a64-dma: Fix min/max typo
-e2c60a57511e6b5c183014359411fcfc304bb014 ida: don't use BUG_ON() for debugging
-802b0aaf63b4dfbd440d549c9c54e714f051afbc dmaengine: pl330: Fix lockdep warning about non-static key
-e6ae09ca8e8370f4ca407282de347c390daf4325 dmaengine: at_xdma: handle errors of at_xdmac_alloc_desc() correctly
-f96e9c60c8f2eef0f13026de7e4d11f8b296a06b dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
-cf723b220e08d1e62cc6e09657ea87a25eabae2d dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
-62986f42a83eab8d04e90ac975fa58def5fb776a Linux 5.4.205-rc1
+2e52b853038e90afc8eeba04463dc1b2b3b20b8c mm/slub: add missing TID updates on slab deactivation
+ada8c3e1b18f946a9acd22a8539efba8cc399891 ALSA: hda/realtek: Add quirk for Clevo L140PU
+65f7c6614497e8ae4981e8e3141cc660dd807468 can: bcm: use call_rcu() instead of costly synchronize_rcu()
+21de94f2a9425e39d40f02530818ee22a24ca49c can: grcan: grcan_probe(): remove extra of_node_get()
+82012de232fc3bcdc1c612c0af3617867e173305 can: gs_usb: gs_usb_open/close(): fix memory leak
+00b47212fa6ca54fb601225be09aca46ad6e80e5 bpf: Fix incorrect verifier simulation around jmp32's jeq/jne
+805346927b0f4da76b7bff35df9f36c924ebdb7a bpf: Fix insufficient bounds propagation from adjust_scalar_min_max_vals
+07d7fa288aee11c1959dfa11666bf1b680c81469 usbnet: fix memory leak in error case
+b0f8aa18be2a1b6fb3d5470a24904e7cc84e33db net: rose: fix UAF bug caused by rose_t0timer_expiry
+dc578adb1f2a1a73f474755200cd7ab0ad0f0ef8 netfilter: nft_set_pipapo: release elements in clone from abort path
+0ab393cffee94b8de8107482120af263dfc40ae0 netfilter: nf_tables: stricter validation of element data
+32a5918495c6fe0f48f6170dae0cc45973ff4e77 iommu/vt-d: Fix PCI bus rescan device hot add
+4d83c40b3e8f087a3b31a494de66f7fb1d884bc2 fbdev: fbmem: Fix logo center image dx issue
+e393444c21a0b8f23ff4e6c236c1662c993cd946 fbmem: Check virtual screen sizes in fb_set_var()
+c479875e8452f9012c8833db536160db1c44a62f fbcon: Disallow setting font bigger than screen size
+7431a203c7498a79787b3d25e5da2ab79fac51ab fbcon: Prevent that screen size is smaller than font size
+3e8c088b8d814c6ecfcc42cdb5fd7e62b9d561b2 PM: runtime: Redefine pm_runtime_release_supplier()
+3d80a494510b0d74413d692522d0ce98e9303e18 memregion: Fix memregion_free() fallback definition
+11d0cd1480c9390505ce46a557089eb054c2c4e0 video: of_display_timing.h: include errno.h
+23939f0a132e45090309f25404e85e41e7b96d43 powerpc/powernv: delay rng platform device creation until later in boot
+e0ff33733807bc7844f1a269d9ce5e074eb21d1f can: kvaser_usb: replace run-time checks with struct kvaser_usb_driver_info
+578a10416db66c7b3a7b8af6b02e51e5843d0d4d can: kvaser_usb: kvaser_usb_leaf: fix CAN clock frequency regression
+333eb339376ee7caf40780e2d42029f9d424d808 can: kvaser_usb: kvaser_usb_leaf: fix bittiming limits
+4c12003cad70c983bf248412e88f1c8330ce57ea xfs: remove incorrect ASSERT in xfs_rename
+a8b5310bc80e0a2e8acfab627ff3cd26acf129a2 ARM: meson: Fix refcount leak in meson_smp_prepare_cpus
+d0ded348a6174c80444701a0f7577fd764327635 pinctrl: sunxi: a83t: Fix NAND function name for some pins
+a3353dca6f4fe7e381f4c307d43aad46d92af12a arm64: dts: qcom: msm8994: Fix CPU6/7 reg values
+326a71dacbd44c7e3f59668315d1fb2440594610 arm64: dts: imx8mp-evk: correct mmc pad settings
+81d02efd5cca97e10b22824f4decd66c870c26ee arm64: dts: imx8mp-evk: correct the uart2 pinctl value
+42b05e5099880089c74dcc799b9689060b041e1e arm64: dts: imx8mp-evk: correct gpio-led pad settings
+091406fd73ca10e04f143a3691564859557bacbe arm64: dts: imx8mp-evk: correct I2C3 pad settings
+f6f2063fa425c54fc475a68b414076acbd8798dc pinctrl: sunxi: sunxi_pconf_set: use correct offset
+db27487e64360be0d25f2f21ada27c2099fae344 arm64: dts: qcom: msm8992-*: Fix vdd_lvs1_2-supply typo
+4fef9692ebd535adc0146545ed222b3ae182ebe1 ARM: at91: pm: use proper compatible for sama5d2's rtc
+340a20fdb72434066e7757b1d21406c91a32f2ec ARM: at91: pm: use proper compatibles for sam9x60's rtc and rtt
+40a10a2cd50b2d66b905aa4de67d606c112a7213 ARM: dts: at91: sam9x60ek: fix eeprom compatible and size
+253d33c8e2a69ff6863adef94f6aad77a20743c2 ARM: dts: at91: sama5d2_icp: fix eeprom compatibles
+2a21de77a0761bcb977496c01cbdb68497376d30 xsk: Clear page contiguity bit when unmapping pool
+5033dbbe41d269f59dc00d5ef328524a366a5b79 i40e: Fix dropped jumbo frames statistics
+97b126727acd1fdb5088fd2ef0de631c34cc899f ibmvnic: Properly dispose of all skbs during a failover.
+34e7b8b5b0b0dea63bb4a1a4e948a9179492bb10 selftests: forwarding: fix flood_unicast_test when h2 supports IFF_UNICAST_FLT
+a35899ddbe434f4491575d6a1aa9b865d6cd9f88 selftests: forwarding: fix learning_test when h1 supports IFF_UNICAST_FLT
+3f72b021685ad8feff2d716f6d3c11f1274987b7 selftests: forwarding: fix error message in learning_test
+7bc8b0a087738235323226af9fdf215872bc9538 r8169: fix accessing unset transport header
+3e512cac574e780fc8cab1adc1367793dd530262 i2c: cadence: Unregister the clk notifier in error path
+9eef209317de9a6896eb3da851bf3b3bdbf43365 dmaengine: imx-sdma: Allow imx8m for imx7 FW revs
+3df823f629197a8b05ea70f5f6c43d4d2488a46c misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
+2fa4a26cfa8be153434926e39a4c37c527fde87c misc: rtsx_usb: use separate command and response buffers
+0a367ab9d86ae1f23798c8c35f4da88964ae4797 misc: rtsx_usb: set return value in rsp_buf alloc err path
+84324b3df36aef20ab888f8c55f31429ed907d6f dt-bindings: dma: allwinner,sun50i-a64-dma: Fix min/max typo
+db5d9e2b6c93252a9246bcb29a9367f8cc6b2c8c ida: don't use BUG_ON() for debugging
+72be3f025d44e221c89a3bc14e0206070ea79085 dmaengine: pl330: Fix lockdep warning about non-static key
+6a4bd2250e915c91f00675e2b47f383ae7c63940 dmaengine: at_xdma: handle errors of at_xdmac_alloc_desc() correctly
+1e947611ee9269f7eb16f7474021b37486637a55 dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
+83383e234ed3ef1fbd61e24aa010b9502d66d5b4 dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
+f8a870d95626276e2f0d984600e1886282647694 Linux 5.10.130-rc1
 
---===============7377874862360654025==--
+--===============1495851104174983717==--
