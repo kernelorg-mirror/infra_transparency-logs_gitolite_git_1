@@ -1,76 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Mon, 11 Jul 2022 08:05:49 -0000
-Message-Id: <165752674939.22095.804205872818996089@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5020833752720019234=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 11 Jul 2022 08:06:38 -0000
+Message-Id: <165752679884.22423.12475445483593978649@gitolite.kernel.org>
+
+--===============5020833752720019234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/davinci-boards-delete-v5.20
-    old: 0000000000000000000000000000000000000000
-    new: f206ef33d3cac14746e376a8957da2438364b4c1
-  - ref: refs/tags/v5.17
-    old: 0000000000000000000000000000000000000000
-    new: f8e739787152143aacffc181562a29c049c2d658
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
-  - ref: refs/tags/v5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
-  - ref: refs/tags/v5.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
-  - ref: refs/tags/v5.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
+  - ref: refs/heads/staging-testing
+    old: 39c1b1af3ea744c1f353a44146c2eea2ad916c53
+    new: 3782d959986f75cdedca317323b00910b9069d89
+    log: |
+         6a0c054930d554ad8f8044ef1fc856d9da391c81 staging: rtl8192u: Fix sleep in atomic context bug in dm_fsync_timer_callback
+         ae9411408cf0263d08f8fe819380bb8ac90031af staging: r8188eu: remove HW_VAR_BASIC_RATE from SetHwReg8188EU()
+         7644e877bab56223505ed3361d7cb287c0f34152 staging: r8188eu: remove HW_VAR_DM_FUNC_OP from SetHwReg8188EU()
+         f18ab26f7714b26db3f044891b0872847e1c30da staging: r8188eu: remove HW_VAR_DM_FLAG from SetHwReg8188EU()
+         8ad697c3d7f89439fa203023a7d071f08f98157b staging: r8188eu: remove HW_VAR_DM_FUNC_RESET from SetHwReg8188EU()
+         3782d959986f75cdedca317323b00910b9069d89 staging: r8188eu: remove HW_VAR_DM_FUNC_CLR from SetHwReg8188EU()
+         
+
+--===============5020833752720019234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657526797 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1657526796-f9a7f48110f61e59ff60ac18e17951127718ca07
+
+39c1b1af3ea744c1f353a44146c2eea2ad916c53 3782d959986f75cdedca317323b00910b9069d89 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLL2g0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LkAP/3r3k8ghH2FgoMYe7Jp/
+v8nSrzv08eprikKBwyOsG7cJsXDynNUB8xsFATaDlGEQBp1+yzptjoxbjqpDqoes
+AVeLM4dynUQ5bltpqaGvGcZ6VnoCr3SN9SYJ4MEIbQ1eRx7owBUSlQsA83EqrfdM
+73lKucXGilmM36PUUYP/cM3+VlzEVodFxIyeU6RBpkJCFWUx9w3zhkyXMmk1V2sT
+hRnjPKmUEnXb0XUHkQ9Jx2Lsdbriq3HWTuxdAspakJxCcJjeZYV3ZHV8jzgDwwzI
+U4F7ophrnM9JywlwiFXsxor1wMFVP85aqe+/jOK6EKk/9PV/hBD0BoQyRKnIZ72D
+8ayBKUEHNtCg6rs/QVS9Q+lH/aAlM5f6RMhUw0nrE6ZrlnNPgNh+ZaoqHQYUERkf
+/HDk6j9N9lAHGQbsTGEUxDPixisze5gF2PpDTvc9skLLntxVaTbAbtqTZyDEINxp
+H3hhw3rplxgSHcajUwrjkXZeKVYM+RV1VB84kOyW+JbAFgoNR/YY+4LWoOCcpWls
+CSr0xb34WjTbWnFq9XWBm2XZQqXfZG3rjOVnkxJJ5txogIMggAgTlqX7P7GpNUan
+GSehmsp1FgFvhVuTnVJk3bm2xs/d5Jzl/4U3uGCd5OoktWrMeyqHLlEPIC7+VhiL
+KYjNlQeBLkTkLyzQ25x4gbiA
+=yerm
+-----END PGP SIGNATURE-----
+
+--===============5020833752720019234==--
