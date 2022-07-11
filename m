@@ -1,22 +1,17 @@
-Content-Type: multipart/mixed; boundary="===============7570996875106793849=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 Jul 2022 19:10:34 -0000
-Message-Id: <165756663460.32172.5772350092349018738@gitolite.kernel.org>
-
---===============7570996875106793849==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 11 Jul 2022 19:10:51 -0000
+Message-Id: <165756665120.32341.15847721841802110060@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.20
+  - ref: refs/heads/for-next
     old: 79152fc74ff664e2912abe17f21c42d7c49c90c9
     new: 0682a771644365451b650f07c9606a925ab8fd52
     log: |
@@ -32,29 +27,3 @@ changes:
          044750573903595765fa52ba9e1aadc397d591df regulator: qcom,spmi-regulator: add PMP8074 PMIC
          0682a771644365451b650f07c9606a925ab8fd52 regulator: output-supply DT support
          
-
---===============7570996875106793849==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1657566633 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657566632-f14281a0a85e829e25aa5e1897ec205e120bde60
-
-79152fc74ff664e2912abe17f21c42d7c49c90c9 0682a771644365451b650f07c9606a925ab8fd52 refs/heads/regulator-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLMdakACgkQJNaLcl1U
-h9C1ZQf9FI5JpPFDKvYfoXSgpHDCB6jNN8r85fyzuUnBumcQRbQAupf3BHUlP4oS
-B57Ow7vEJdSKyBFeQK4Z+/BXialVLJEBuy/kc8q1ppxw3IeTs52P4Ubclk+QS0+y
-yXsdZ77kqL7mYr+UeKVYMN2krtF5irvOiJK8DMmwCO7OmqTDKIaSR2jjWW9W3mul
-BzgL/kr11t5Yaf8Pikenq0vZqnfj6xQ25eHcDO6rW70exiEFMX+zdW9k4KthoDpk
-586d8CNwE0nYb4wNKrU9EMPZ8SA7ZI0Bc1ary/VEGoZf9iwJVX9/yIX/OSafuiBa
-9xFummUv6+EaKsgVSUskwRfn8mV63Q==
-=2q+B
------END PGP SIGNATURE-----
-
---===============7570996875106793849==--
