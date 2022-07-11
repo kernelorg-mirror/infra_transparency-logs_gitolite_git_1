@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2408940725367198173=="
+Content-Type: multipart/mixed; boundary="===============8117347858353116677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 11 Jul 2022 07:26:00 -0000
-Message-Id: <165752436040.26757.5582670595112483273@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 07:26:03 -0000
+Message-Id: <165752436392.26839.10575424673025445587@gitolite.kernel.org>
 
---===============2408940725367198173==
+--===============8117347858353116677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+  - ref: refs/heads/staging-linus
+    old: ee6c6e7342471d468096a16bee9f89b5a6c1e39d
     new: 32346491ddf24599decca06190ebca03ff9de7f8
-    log: revlist-a111daf0c53a-32346491ddf2.txt
+    log: revlist-ee6c6e734247-32346491ddf2.txt
 
---===============2408940725367198173==
+--===============8117347858353116677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657524359 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657524363 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1657524359-64d49b2781b1af57d94e1b7e56621902f3a1cb66
+nonce 1657524362-420c15a9d840500da8edeacd899c15104777b858
 
-a111daf0c53ae91e71fd2bfe7497862d14132e3e 32346491ddf24599decca06190ebca03ff9de7f8 refs/heads/main
+ee6c6e7342471d468096a16bee9f89b5a6c1e39d 32346491ddf24599decca06190ebca03ff9de7f8 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLL0IcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IM4P/jzkg9nqf9S61fi6RW/d
-Af9syDBQJxucZ7StrIi9l+kskem3Quanb/+SeHl/ZuhGPvk+R5yFv24rwHtCtBx9
-/lOalxixOfOgroI7SZBkek+ognmSLKyIaAqm81A9LJKO6fXz71UNnyUf+eQe/lyS
-VeSmZDaft3g7x5lwgJ8lwDthIEAXyccrKaa5ssXki+iMwS15D3BCPWf5821pOSHM
-Yr8wxyZ/qu+d8HuXNXvlYgZ556L4IZB1B5zPJ9ejd1qAIdcoGV1kg4QBJe6Uh07K
-WY5AgMImoCSCTJik3WDJ5UuJbcLDCfPcsqwxI5UvLFhIEnDK/Cpup4EqUzar/Ojk
-u7MdpNqyAHXtFeYCgxBu7x5QGicSarXJW6WGkuWDze5so+iFCAWTRUnNAEx6SD6l
-sep3QD7A8u4VOT64RiDOrgCkQQgXqF3YUlRi4OdfluGV1kzohjJPdXe4272D7FJv
-xEXyKliX8Lw07maLW97pmaHbBWwTGxn2SE/jvAHKr0ch4Er06ldVJLB0L70Z+LKU
-1S5wGe8b9juW15mKWm22Bbqv0eiJ51DZmGCMCwCSabMLk+4tM2wwevIiahl/AmCf
-A/uQCjaqN6TcLtGVSACQj8swGMiNah0AuKlXfvXAoxkpCDCXzL5POKfkn/VO7ghH
-My3dteeRrCcsGhjq1vy0IiK3
-=xP1R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLL0IsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1x8P/jVuJkdufP7I/YlB6ki7
+qKh+E+RmHkRAFfFPEtT2Quh1cEMBmNZnv+1rtJoJt6Gagj5rJ5lIgg8XjBGjfHrv
+rlrr+23omL1bYkNBMyZc1rUBfYoUf2srmuc0h91ffQBcirgtuylHPZtlISOXCqQ4
+k3MjZUV0CLx+D6ijnS9tq92x3F4YkK/jzcyy/L45sVvM8NwLMtNSJTLRSCPmJyjZ
+kiHmeRCilxcbN/kWeidEM7s51hkDoBD9dVtufH6cEog6Giq05AX3+Ilw8OfWCLz0
+skM/2QxBNuc9hyI1B4naZJhh+ueUXH4B4UnGGpW/yZJ6BknyUoJK6hz17ZaLKrY+
+C3UQpFn6FIZLAkXMbrTO9MFzfanwS4MtcbZ1NpqUVGEw5bxmoLpFTW6mCVqTxfri
+x+kvN6eu5DI0tv0ZNbErvCFDvIAKCQPf7M7uNXBW2Rl5lgfCztiU3dDZBWw8EoVL
+e/MDI3C/JErowzWIDcV40Flfzr9ErkFiLReO+bl3b/AGoad9rVlVSQRvtBJh1bXE
+8HvZD7s+aspXEpWUj9gvdm7R9YMW5TrUhZfRGJ0VKD5Hl42eRbPmBoGmPSRs+jtW
+zZK06zoyxJ2nV9vXVrE/cWJZmPnSqsJDyzbym2JhZ4l1wQOlUorxxPkNj7uAZqD4
+PliGRTo2DSai5eJhIGzvvISs
+=HolZ
 -----END PGP SIGNATURE-----
 
---===============2408940725367198173==
+--===============8117347858353116677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a111daf0c53a-32346491ddf2.txt
+Content-Disposition: attachment; filename=revlist-ee6c6e734247-32346491ddf2.txt
 
 fe18894930a025617114aa8ca0adbf94d5bffe89 iio: mma8452: fix probe fail when device tree compatible is used.
 048058399f19d43cf21de9f5d36cd8144337d004 iio: adc: axp288: Override TS pin bias current for some models
@@ -811,7 +811,6 @@ a175eca0f3d747599f1fdfac04cc9195b71ec996 Merge tag 'drm-fixes-2022-07-01' of git
 2f446ffe9d737e9a844b97887919c4fda18246e7 xen/blkfront: fix leaking data in shared pages
 eb7f8e28420372787933eec079735c35034bda7d misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
 3776c78559853fd151be7c41e369fd076fb679d5 misc: rtsx_usb: use separate command and response buffers
-ee6c6e7342471d468096a16bee9f89b5a6c1e39d staging/wlan-ng: get the correct struct hfa384x in work callback
 307c8de2b02344805ebead3440d8feed28f2f010 xen/netfront: fix leaking data in shared pages
 4491001c2e0fa69efbb748c96ec96b100a5cdb7e xen/netfront: force data bouncing when backend is untrusted
 2400617da7eebf9167d71a46122828bc479d64c9 xen/blkfront: force data bouncing when backend is untrusted
@@ -1013,4 +1012,4 @@ fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
 
---===============2408940725367198173==--
+--===============8117347858353116677==--
