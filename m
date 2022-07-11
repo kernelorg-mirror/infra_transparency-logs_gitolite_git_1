@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 11 Jul 2022 07:58:19 -0000
-Message-Id: <165752629982.16081.11090708500774473259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
+Date: Mon, 11 Jul 2022 08:04:04 -0000
+Message-Id: <165752664454.19515.3133745190819412460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/linusw/linux-gpio
+user: linusw
 changes:
-  - ref: refs/heads/next
-    old: 95d62cf646c332fe21d1a26480f0e2fb1c65b400
-    new: 6d18e79701d0a501db0349774523db68f4e97c1b
-    log: |
-         6d18e79701d0a501db0349774523db68f4e97c1b Merge tag 'kvm-s390-pci-5.20' into kernelorgnext
-         
+  - ref: refs/heads/discourage-sysfs
+    old: dec53bb0d67db8acbe8178f2646a8604771a4b28
+    new: 0000000000000000000000000000000000000000
