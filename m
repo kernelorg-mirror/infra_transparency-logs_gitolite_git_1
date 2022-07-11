@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 11 Jul 2022 09:32:12 -0000
-Message-Id: <165753193207.16461.1311241845930862138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 11 Jul 2022 09:42:13 -0000
+Message-Id: <165753253360.4011.5084458557506185031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: frankja
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/next
-    old: d41b5e0176a610152072d2ce7a83879fb07ea2fa
-    new: 1b6abe95b522b313569469498c8c648a5ee535ba
+  - ref: refs/heads/linux-next
+    old: dbe97cff7dd9f0f75c524afdd55ad46be3d15295
+    new: 166d3863231667c4f64dee72b77d1102cdfad11f
     log: |
-         b9df116cb7656c7e7f869cf9d05b54b3fb3f944b KVM: s390: drop unexpected word 'and' in the comments
-         1b6abe95b522b313569469498c8c648a5ee535ba s390: Add attestation query information
+         166d3863231667c4f64dee72b77d1102cdfad11f xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
          
