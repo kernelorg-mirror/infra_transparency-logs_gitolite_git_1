@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 11 Jul 2022 20:44:09 -0000
-Message-Id: <165757224985.30600.6179310628724149049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 11 Jul 2022 20:45:05 -0000
+Message-Id: <165757230563.32461.13005465248850295204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 6e44e0dc5806b614f1a683fc8d91f677f18bf2f4
-    new: 912cbf13a5445ca4a89d35b638795058dab61cce
+  - ref: refs/heads/master
+    old: a9a9d5bd75e2587b845c9e97b95dd28e976f164a
+    new: 22ad41d0145e297af9ba4b9fc6177767025ee4a3
     log: |
-         912cbf13a5445ca4a89d35b638795058dab61cce dt-bindings: mtd/partitions: Convert arm-firmware-suite to DT schema
+         22ad41d0145e297af9ba4b9fc6177767025ee4a3 foo
          
