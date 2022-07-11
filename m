@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4904748393638288055=="
+Content-Type: multipart/mixed; boundary="===============2355292483477437448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 11 Jul 2022 07:54:51 -0000
-Message-Id: <165752609103.13337.12778398595891474225@gitolite.kernel.org>
+Date: Mon, 11 Jul 2022 07:55:35 -0000
+Message-Id: <165752613587.15102.14140425326459219077@gitolite.kernel.org>
 
---===============4904748393638288055==
+--===============2355292483477437448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvms390/linux
 user: borntraeger
 changes:
-  - ref: refs/heads/pci
-    old: a25db9e809eca94795b7b030dcd08a9365a96bf8
-    new: 4ac34b94a5342544baa72ce09fc5e825a9d35070
-    log: revlist-a25db9e809ec-4ac34b94a534.txt
+  - ref: refs/tags/kvm-s390-pci-5.20
+    old: 1dc94a52685d4a3432d78b4ea763bacb23967a01
+    new: 047e7ed433e450303833930dee97fc0925325506
+    log: revlist-1dc94a52685d-047e7ed433e4.txt
 
---===============4904748393638288055==
+--===============2355292483477437448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a25db9e809ec-4ac34b94a534.txt
+Content-Disposition: attachment; filename=revlist-1dc94a52685d-047e7ed433e4.txt
 
 e3d27b62110c1ccea4d015f7c5c92f92150668db s390/sclp: detect the zPCI load/store interpretation facility
 9db153f4523069a89cab14ab9aa2438976f256fb s390/sclp: detect the AISII facility
@@ -48,4 +48,4 @@ ba6090ff8ae01b41288be87ed9f6bed3d8cf5961 vfio-pci/zdev: different maxstbl for in
 db1c875e0539518e3d5fe9876ef50975cf4476bb KVM: s390: add KVM_S390_ZPCI_OP to manage guest zPCI devices
 4ac34b94a5342544baa72ce09fc5e825a9d35070 MAINTAINERS: additional files related kvm s390 pci passthrough
 
---===============4904748393638288055==--
+--===============2355292483477437448==--
