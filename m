@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7233851204347255284=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 12 Jul 2022 16:09:17 -0000
-Message-Id: <165764215798.30691.9389002644932355975@gitolite.kernel.org>
-
---===============7233851204347255284==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Tue, 12 Jul 2022 16:09:20 -0000
+Message-Id: <165764216030.30749.13760257039212460091@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: db05bf19c3841c2327a755afeee046a53ef23897
-    new: 1f0aadeb642b128620306654b2b25b12c836a4b2
+  - ref: refs/heads/erofs/folios
+    old: e40ba101a3fbca1923ac61a065d9b73270c7c946
+    new: 6226ec13248e53674d5eb1ec80ce4942782aefe0
     log: |
-         1f0aadeb642b128620306654b2b25b12c836a4b2 5.18-stable patches
+         b75302206b6376eaf3fa2b7c1a4fb28e5cac09e2 erofs: get rid of unneeded `inode', `map' and `sb'
+         df06ebc7ebfaafb17fb91bee3db61f2d668959a6 erofs: clean up z_erofs_collector_begin()
+         e50e7f705596642408d45f024c151c5efe2bb217 erofs: introduce `z_erofs_parse_out_bvecs()'
+         1676d9fde17f706c1f71da4156f950decd8f5ebc erofs: introduce bufvec to store decompressed buffers
+         86ea7ba9d5d0cb57fec0da7997ebc8f4f12f6b0f erofs: drop the old pagevec approach
+         8dfe5e509b220accb3f77539ed56d061ede3fd49 erofs: introduce `z_erofs_parse_in_bvecs'
+         cebf5470eb77230b28391ea9dc8874f8006c88d4 erofs: switch compressed_pages[] to bufvec
+         2c967cf4d83bd4dd42adcceb2af6173e480ac0b3 erofs: rework online page handling
+         df4ec7dffbc0c3c234366254572820964f719f43 erofs: get rid of `enum z_erofs_page_type'
+         04405523c7c7581a84dda23f5e62deb5a05b2d62 erofs: clean up `enum z_erofs_collectmode'
+         6226ec13248e53674d5eb1ec80ce4942782aefe0 erofs: get rid of `z_pagemap_global'
          
-
---===============7233851204347255284==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657642156 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1657642155-6250c7d0365e19ffb74c7e19c2c13a395b27ea73
-
-db05bf19c3841c2327a755afeee046a53ef23897 1f0aadeb642b128620306654b2b25b12c836a4b2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNnKwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+790QAJ0Fb7gt1JPSklHfeVse
-WvC9Uod+zluqJ5M26lrnuA+UrTeSduz7Mbdm+JhIX4OYxdaT7rIKfNAJZY/5775n
-SlZxEYZp7jlH7YPOt6XFB7blzbNVD6jBAGJq47AqRxD4TXC9nb4szO34ylkUz8pi
-kouKk2DmHmDofSYiz4L02WKhYcUrB6PFcT0UpWs90ESSqdx6f+OoYqVTOVV/GVYD
-3ssPOcIAJpvn/1szs+yoVWltufzoOVklz/skwXmNWst8dImalj4wdgP9HAveHCn/
-wM9isDEffnx40owNw8k8fdi/o3ilpcDfdKY2SFFdMgwNdArvmpN21Nea9S3mMMHB
-JGsM2IRNpiMxaloOJ9ET34uZf8v3u7IPy9nDAA5/nTtKD2pKq79oQqBjzHrkEKFT
-r5SuMm39XOD91UxatrDbexoOB1F4sTUasxGuI1kGdzd62olcvhPZSqzsTiFl58f9
-3A01TnCXXcP8hmn8q38l5nH29VuifISDnTdGiKnCGCovF7zrXKCb3dXkB3O4McPM
-IlFAc5Dwm73Jc72aoBSZAEUx4w5i+ZQDSPpLSqGmQEKmvbnWge6ZsHuKPuqmcZm5
-6vGojsrc+sopNnOffQVRoDEafGX2a8x7Y1OGOdLYj8+fOiZjVxrtqTke/OVmq3cj
-qHli3lfNRJYMvi0q59JV7a3H
-=Plgt
------END PGP SIGNATURE-----
-
---===============7233851204347255284==--
