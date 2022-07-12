@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 12 Jul 2022 04:21:26 -0000
-Message-Id: <165759968682.15987.16538215216424971332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Tue, 12 Jul 2022 04:26:44 -0000
+Message-Id: <165760000498.19148.14395986573980874055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/for-next
-    old: 49705c4ab324654a7038fc843255140730477e04
-    new: f16214c102f0f64b2f3546e989498525bd7b7708
-    log: |
-         f16214c102f0f64b2f3546e989498525bd7b7708 bpf: Fix 'dubious one-bit signed bitfield' warnings
-         
+  - ref: refs/heads/apparmor-next
+    old: 6ff81169592ddd7ca76482467a8ae3d0c65a9104
+    new: e2f76ad7d2859e333609c775fda707f205d93fd8
