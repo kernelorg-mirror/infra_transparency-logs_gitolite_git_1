@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 12 Jul 2022 19:24:11 -0000
-Message-Id: <165765385117.31181.4359043327483495643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Tue, 12 Jul 2022 19:24:58 -0000
+Message-Id: <165765389817.31500.6870678283793671242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/fixes-v5.19-rc
-    old: f3d6945c7c7b3f76f696e250ee4fc9297f74f250
-    new: 6bb271a2855907792918d0a841fa159bb20ff7b1
+  - ref: refs/heads/pci/ctrl/imx6
+    old: d6396b72904868ed11ca9aaf6cfb425f161b4228
+    new: 6a71b8a999aea1314d56fbbdd919924e5ce6a8e7
     log: |
-         771d279f2431aabda958867083b1f185f2f2b3ab ima: force signature verification when CONFIG_KEXEC_SIG is configured
-         6bb271a2855907792918d0a841fa159bb20ff7b1 ima: Fix potential memory leak in ima_init_crypto()
+         b1dbd1a2f62cfee7a7b547f36113539652433998 PCI: imx6: Set PCIE_DBI_RO_WR_EN before writing DBI registers
+         6a71b8a999aea1314d56fbbdd919924e5ce6a8e7 PCI: imx6: Support more than Gen2 speed link mode
          
