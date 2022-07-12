@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 12 Jul 2022 19:51:24 -0000
-Message-Id: <165765548435.17623.6144762185055432307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 12 Jul 2022 20:04:45 -0000
+Message-Id: <165765628594.24687.17739876391282178991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/pci/ctrl/qcom-pending
-    old: 3a5a683f9820f3c533b7169125b5790b3527aaf9
-    new: 8f5e9de5606eea8665bb0852bb5ff706a5b03bce
+  - ref: refs/heads/master
+    old: bf909caec3902d174aea2ef3f4326e4715a56499
+    new: 0cc323d985f97d5fd9a4217c536585a65dae4888
     log: |
-         8f5e9de5606eea8665bb0852bb5ff706a5b03bce dt-bindings: PCI: qcom: Fix typo in condition guarding resets
+         0cc323d985f97d5fd9a4217c536585a65dae4888 Bluetooth: hci_sync: Fix resuming scan after suspend resume
          
