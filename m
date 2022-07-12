@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0592981901357182823=="
+Content-Type: multipart/mixed; boundary="===============0215441220648801624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Tue, 12 Jul 2022 17:38:02 -0000
-Message-Id: <165764748225.27166.3826290482972654708@gitolite.kernel.org>
+Date: Tue, 12 Jul 2022 17:39:08 -0000
+Message-Id: <165764754816.27581.6960739609617889898@gitolite.kernel.org>
 
---===============0592981901357182823==
+--===============0215441220648801624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
-  - ref: refs/tags/erofs/advancedpcl_20220712
-    old: cb7c1d9a560ac6256e460676f1c1592100715465
+  - ref: refs/heads/erofs/advancedpcl
+    old: 1f0299cc914da6500961ee9d0e6a483dd484ee4c
     new: bad8cf88855eab152f597d30d08a1e4fca2d5c68
-    log: revlist-cb7c1d9a560a-bad8cf88855e.txt
+    log: revlist-1f0299cc914d-bad8cf88855e.txt
 
---===============0592981901357182823==
+--===============0215441220648801624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb7c1d9a560a-bad8cf88855e.txt
+Content-Disposition: attachment; filename=revlist-1f0299cc914d-bad8cf88855e.txt
 
 7729afa6d4364200cfbf8b125d8c2de228f6ae84 erofs: get rid of unneeded `inode', `map' and `sb'
 a459116ebb3acba667c59a1f29e360622cd8382d erofs: clean up z_erofs_collector_begin()
@@ -43,4 +43,4 @@ b29e893be5e8ddb087d782df11d7690599554755 erofs: introduce z_erofs_do_decompresse
 ffdeb30ff39deb3f1c018eec25686b0493bc8c04 erofs: record the longest decompressed size in this round
 bad8cf88855eab152f597d30d08a1e4fca2d5c68 erofs: introduce multi-reference pclusters (fully-referenced)
 
---===============0592981901357182823==--
+--===============0215441220648801624==--
