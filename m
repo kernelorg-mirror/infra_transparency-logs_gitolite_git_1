@@ -1,26 +1,132 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 12 Jul 2022 14:13:17 -0000
-Message-Id: <165763519701.29785.2984175714709524176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 12 Jul 2022 14:17:37 -0000
+Message-Id: <165763545754.32729.6371661852375817802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 83f0edc23d38b0ad3344fdcdd3cc278d949d0a3b
-    new: 509e483819e8592224408885c4a046b7f403b439
+  - ref: refs/heads/main
+    old: 1a55b69a0f8028150a9c93455f24617bc7c8bd61
+    new: 56d4e9924e1c94cde574fc0e78277f6d85dad8a8
     log: |
-         341df98892778b937e6fc41d7a06de9552b16fcf OPP: Allow multiple clocks for a device
-         fa72bd0e1099339a92b800e584bd068ed43f5d3f OPP: Compare bandwidths for all paths in _opp_compare_key()
-         42a5575429ed6a041b3a68ff53981cea2cf0d9f9 OPP: Add key specific assert() method to key finding helpers
-         19d29b37227d3ddf0fb14e764115fb2a2288bfde OPP: Assert clk_count == 1 for single clk helpers
-         56ce8bfa9f7a7372235e25b1d6708da3ff34897b OPP: Provide a simple implementation to configure multiple clocks
-         67f9dd2cd43f6e40bc57450e5d454f3dcb7673a9 OPP: Allow config_clks helper for single clk case
-         65abcaf34462600606c1dbe6cd5b6b1b02789d75 PM / devfreq: tegra30: Register config_clks helper
-         509e483819e8592224408885c4a046b7f403b439 OPP: Remove dev{m}_pm_opp_of_add_table_noclk()
+         8493f6afd502bd5441080ac60603a23d6d14698e Change size of requirement version to 1 byte.
+         13f6dfa61f0ed07eb6849a77e406edcbb528c3de Add proper version data to reencryption verification digest.
+         af68e8a1dacab650740e2f2c10911fc1df5b1ca9 Check for multiple online reencrypt requirement flags.
+         a60fd0a81bae98a4064b2553a865ae1bc5e5c763 Do not fail LUKS2 validation by newer online-reencrypt requirement.
+         56d4e9924e1c94cde574fc0e78277f6d85dad8a8 Add LUKS2 reencryption mangle tests.
          
+  - ref: refs/heads/master
+    old: 1a55b69a0f8028150a9c93455f24617bc7c8bd61
+    new: 56d4e9924e1c94cde574fc0e78277f6d85dad8a8
+    log: |
+         8493f6afd502bd5441080ac60603a23d6d14698e Change size of requirement version to 1 byte.
+         13f6dfa61f0ed07eb6849a77e406edcbb528c3de Add proper version data to reencryption verification digest.
+         af68e8a1dacab650740e2f2c10911fc1df5b1ca9 Check for multiple online reencrypt requirement flags.
+         a60fd0a81bae98a4064b2553a865ae1bc5e5c763 Do not fail LUKS2 validation by newer online-reencrypt requirement.
+         56d4e9924e1c94cde574fc0e78277f6d85dad8a8 Add LUKS2 reencryption mangle tests.
+         
+  - ref: refs/heads/remove-dracut-files
+    old: 533b7e51e4fbeda61fd4d77737702e257846b271
+    new: 8b4a7c563ab5585c987deb95f8c67c8b30e6286b
+    log: |
+         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
+         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
+         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
+         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
+         8b4a7c563ab5585c987deb95f8c67c8b30e6286b Remove dracut plugin that is obsolete and will not work with current reencrypt code.
+         
+  - ref: refs/heads/wip-luks2
+    old: cf9078445cc0901f13c501086ae1bcaec142e30c
+    new: 300162adb74783203e91b3d3d4577e37344b2d04
+    log: |
+         385ed16ecb13e476baf68c68e1b0a5746a32f5bc Fix man makefile and make dist.
+         aef256c2c7d3d70e32957292c92ae850b817c369 Do not use block formatting in adoc.
+         d5498cca8fadf5077ee3e75243c9ea2211e97e21 Remove unused ifdef::ALL_OPTIONS in man.
+         99a450f94a5d7b2828b189945269cb054302586e Remove extra space causing formatting to be ignored.
+         2296185728197ff1a9818abb27130d6ebc158c6f Fix bad references in manual pages.
+         300162adb74783203e91b3d3d4577e37344b2d04 Add missing actions to arguments' descriptions.
+         
+  - ref: refs/merge-requests/298/merge
+    old: 314840b4c2b85b20378cd2fcb361817bd5ac6037
+    new: 37ee71dbcbfcf1191cfd8268a198bc3a2d07999d
+    log: |
+         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
+         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
+         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
+         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
+         37ee71dbcbfcf1191cfd8268a198bc3a2d07999d Merge branch 'fvault2' into 'main'
+         
+  - ref: refs/merge-requests/343/merge
+    old: 6a3b4e89a7ff46bbdd3a7e151dd7db23a16a4277
+    new: 6db07cacad571bc2e2ae18a130bc2e5eda4f13bf
+    log: |
+         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
+         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
+         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
+         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
+         6db07cacad571bc2e2ae18a130bc2e5eda4f13bf Merge branch 'fuzzing' into 'main'
+         
+  - ref: refs/merge-requests/365/merge
+    old: 3db271b15c0ea931c6a4467bace9a10455f37947
+    new: 6d566f67dc3416393aceb935163c1aeed497a1b3
+    log: |
+         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
+         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
+         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
+         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
+         6d566f67dc3416393aceb935163c1aeed497a1b3 Merge branch 'ignore-system-fips-file' into 'main'
+         
+  - ref: refs/merge-requests/371/head
+    old: 533b7e51e4fbeda61fd4d77737702e257846b271
+    new: 8b4a7c563ab5585c987deb95f8c67c8b30e6286b
+    log: |
+         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
+         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
+         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
+         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
+         8b4a7c563ab5585c987deb95f8c67c8b30e6286b Remove dracut plugin that is obsolete and will not work with current reencrypt code.
+         
+  - ref: refs/merge-requests/371/merge
+    old: 64772967ad9cc0d6e490e166bfee4b74b2486d15
+    new: 1f40a308328e1659b6551493c74723e9ba19e9b6
+    log: |
+         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
+         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
+         8493f6afd502bd5441080ac60603a23d6d14698e Change size of requirement version to 1 byte.
+         13f6dfa61f0ed07eb6849a77e406edcbb528c3de Add proper version data to reencryption verification digest.
+         af68e8a1dacab650740e2f2c10911fc1df5b1ca9 Check for multiple online reencrypt requirement flags.
+         a60fd0a81bae98a4064b2553a865ae1bc5e5c763 Do not fail LUKS2 validation by newer online-reencrypt requirement.
+         56d4e9924e1c94cde574fc0e78277f6d85dad8a8 Add LUKS2 reencryption mangle tests.
+         8b4a7c563ab5585c987deb95f8c67c8b30e6286b Remove dracut plugin that is obsolete and will not work with current reencrypt code.
+         1f40a308328e1659b6551493c74723e9ba19e9b6 Merge branch 'remove-dracut-files' into 'main'
+         
+  - ref: refs/merge-requests/372/head
+    old: 0000000000000000000000000000000000000000
+    new: 56d4e9924e1c94cde574fc0e78277f6d85dad8a8
+  - ref: refs/merge-requests/372/merge
+    old: 0000000000000000000000000000000000000000
+    new: 8b79456b1e54f113aa87f1ad551a6c4aa33a84c6
+  - ref: refs/merge-requests/373/head
+    old: 0000000000000000000000000000000000000000
+    new: 385ed16ecb13e476baf68c68e1b0a5746a32f5bc
+  - ref: refs/merge-requests/373/merge
+    old: 0000000000000000000000000000000000000000
+    new: ec28a15691f07f94467bf504fc1d778a38f2e082
+  - ref: refs/merge-requests/374/head
+    old: 0000000000000000000000000000000000000000
+    new: 99a450f94a5d7b2828b189945269cb054302586e
+  - ref: refs/merge-requests/374/merge
+    old: 0000000000000000000000000000000000000000
+    new: bd18dbb99f58f939984e1389a982098323d7f574
+  - ref: refs/merge-requests/375/head
+    old: 0000000000000000000000000000000000000000
+    new: 300162adb74783203e91b3d3d4577e37344b2d04
+  - ref: refs/merge-requests/375/merge
+    old: 0000000000000000000000000000000000000000
+    new: b57210098291e1b68bf029e2d28befc9774531f2
