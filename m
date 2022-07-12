@@ -1,56 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============2720275723716273939=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 12 Jul 2022 08:59:36 -0000
-Message-Id: <165761637652.32721.1584537924670824058@gitolite.kernel.org>
-
---===============2720275723716273939==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 12 Jul 2022 09:19:48 -0000
+Message-Id: <165761758886.13962.13656642135541268725@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 7e724422a7e9dfc8229ba90ee95aaafb902a788b
-    new: 3af0b1d34a07f89651b4a37295da34a3dd3f2e79
+  - ref: refs/heads/for-linus
+    old: d16d69bf5a25d91c6d8f3e29711be12551bf56cd
+    new: 841bdf85c226803a78a9319af9b2caa9bf3e2eda
     log: |
-         3af0b1d34a07f89651b4a37295da34a3dd3f2e79 drivers: mcb: directly use ida_alloc()/free()
+         841bdf85c226803a78a9319af9b2caa9bf3e2eda ALSA: hda - Add fixup for Dell Latitidue E5430
          
-
---===============2720275723716273939==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657616374 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657616373-cff799909ec52feed7c48421b033129b8d11008e
-
-7e724422a7e9dfc8229ba90ee95aaafb902a788b 3af0b1d34a07f89651b4a37295da34a3dd3f2e79 refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNN/YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6JsP/RCrK85JA4AoEDVFgEYq
-h9n4IFjjyzPKOg/1JLBxN9VXBUxWZ/7Wk8NLE2ORBn3ExAhQVj23fOvjU+cnqx7N
-MOs5b6Eo/mAuoaMO2ZACE3B4ijlWGZhrlmdAnrs1sB961r8j7P/6nfMChphkU/lD
-c5S2ifn6IYD8QlkEyrvxAOizsIS6vgE0kI2f4yGMY4uBMBVCA89s4tdckUuI5V+T
-iZ0qxGDEU+UdSjSttCBGHD2jKQdBUEgruBc2Ir+IuGLfQ0BAreGztrS39mGP+LoB
-fZwgqICzu5cZBIA/zTTrqTMg+Oyfii3zGEz8JGK7JIXu3yhPs+2h0B03roWbFLIH
-Tf2a/PbQe4lZcWfdoczHo+qXAfwUrl9szxeVt/oXoxwTxcyqaoWavEE4ywNTZ3BU
-yVXAQSODqFZ5w4NlObK5vnZ0iyZxQ52UTj6XhZ/PmZCN8WJMJ3IKI0dh3icTW6o4
-pyrj3APLHcm5V/9si27/ANnDUbiQ5Y6u6gDI4thwcPVn3+meJEiCCXzkTKui8lSE
-15t9ikv4UIIsqVeVDGF+cC1JxZw9a2bsfVbdmWQpT2QWRVsIQbJ3XF1uwbfIrXsP
-p6v1+ZCZnaqfT+733biF9OsptxDa141mvup+QjWKm//j1i/2h78Y1qcYD4YO31c4
-9Ck2V7cx7yQK3H1AKK3as+Hb
-=zbtJ
------END PGP SIGNATURE-----
-
---===============2720275723716273939==--
+  - ref: refs/heads/for-next
+    old: 0440741254ed27bd695d994f00358647c92ed832
+    new: e35cd6881dd56d5ad7711d23faab668268e17555
+    log: |
+         642999365da3b7cd5552ec758d6e1bb6f2f465d8 ALSA: hda: cs35l41: Fix comments wrt serial-multi-instantiate reference
+         e35cd6881dd56d5ad7711d23faab668268e17555 ALSA: hda: cs35l41: Improve dev_err_probe() messaging
+         
+  - ref: refs/heads/master
+    old: dab759ad9b13819056e8936119ac13d1899089ca
+    new: 348d445492c37057f27525c0ad086e8768cda8fc
+    log: |
+         841bdf85c226803a78a9319af9b2caa9bf3e2eda ALSA: hda - Add fixup for Dell Latitidue E5430
+         05ce9654474661d3f957b644fe7cbd056df655ec Merge branch 'for-linus'
+         642999365da3b7cd5552ec758d6e1bb6f2f465d8 ALSA: hda: cs35l41: Fix comments wrt serial-multi-instantiate reference
+         e35cd6881dd56d5ad7711d23faab668268e17555 ALSA: hda: cs35l41: Improve dev_err_probe() messaging
+         348d445492c37057f27525c0ad086e8768cda8fc Merge branch 'for-next'
+         
