@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7097049848855818659=="
+Content-Type: multipart/mixed; boundary="===============4824556121127798700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 12 Jul 2022 22:25:50 -0000
-Message-Id: <165766475027.21945.2061046548907021218@gitolite.kernel.org>
+Date: Tue, 12 Jul 2022 22:26:00 -0000
+Message-Id: <165766476020.22072.12968212362498491962@gitolite.kernel.org>
 
---===============7097049848855818659==
+--===============4824556121127798700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: edb2c3476db9898a63fb5d0011ecaa43ebf46c9b
-    new: 5022e221c98a609e0e5b0a73852c7e3d32f1c545
-    log: revlist-edb2c3476db9-5022e221c98a.txt
+  - ref: refs/heads/dev-queue
+    old: d62084383e48c8ef1f0f72e1bff0281170294ad3
+    new: 835a53836d412f5a5b9cd86d5e281c0b6dce1569
+    log: revlist-d62084383e48-835a53836d41.txt
 
---===============7097049848855818659==
+--===============4824556121127798700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edb2c3476db9-5022e221c98a.txt
+Content-Disposition: attachment; filename=revlist-d62084383e48-835a53836d41.txt
 
 56d9f5fd22462410bf509d11b026b269031321ac octeontx2-af: Use hashed field in MCAM key
 b747923afff8c605c658f12fc059ae8041cb0ed4 octeontx2-af: Exact match support
@@ -60,5 +60,51 @@ df539fc62b069ed2b2395d8d1c77f7758c5001a6 devlink: Remove unused functions devlin
 f0680ef0f9497f88b513dea1ae54664f0806ecfb devlink: Hold the instance lock in port_new / port_del callbacks
 bfc54866856ffe2cb82886337afdece7703f2415 Merge branch 'mlx5-devlink-mutex-removal-part-1'
 5022e221c98a609e0e5b0a73852c7e3d32f1c545 net: change the type of ip_route_input_rcu to static
+22095b11d033169b02b5f93342c712f4f8faaa39 ice: prevent low-core machines crashing on DCB config
+935a2e510d5e07facd9c1427fb43e7c0df90a7cb e1000e: Enable GPT clock before sending message to CSME
+d052f6cf8ac0e38e544dffb8a23682f9c225f72a Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+41d7c42c69178266014bfbae24b51938ff399086 i40e: Fix interface init with MSI interrupts (no MSI-X)
+e41ba09861a04b40a8670016984a4d1fff598f30 igc: Reinstate IGC_REMOVED logic and implement it properly
+5ee64951e65e841ebadc17a94e48349a6dc00957 ice: add support for Auto FEC with FEC disabled
+3535db3107a96db07d1a6cc49dc87e6a42d651ee ice: handle E822 generic device ID in PLDM header
+0fd2c1f0f06817f0a2c6609f3d82d36cff510c2c ice: change devlink code to read NVM in blocks
+47a28398acb38e20d2733c727ff8fd212c574b76 i40e: Refactor tc mqprio checks
+c10a26a9542e2028b790d26fbd4274057ae394cc iavf: Fix VLAN_V2 addition/rejection
+c80c2acc3413d8d71c0cae5c833e8d2e0e4615bd iavf: Fix max_rate limiting
+e2b41c73255f4f8dcdc5d9581462fbceefc8d627 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+13609bd0380a5f0c304a4b7302a3c4d0e8428bbc iavf: Fix missing state logs
+42704cbc68b9f222885d4eeead6f8c804c050d4b igb: add xdp frags support to ndo_xdp_xmit
+3ecbec80f8dd02c4362ca9a22a14e03af0146a36 iavf: Fix reset error handling
+9a8f9c8dee60286027f68f3ddeed6316fc962c97 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+30abbae67747106e31d6261372e080e54803ae28 iavf: Fix adminq error handling
+c561863cb73f23914c7cf56bd90cd6e6cc4ddd17 iavf: Fix 'tc qdisc show' listing too many queues
+cbcd48855ece0048544a4fcf1e0eb711e9d584c1 iavf: validate dest MAC and VLAN from tc-filter code path
+d3d3787e3247166b753d244e15bf0c3f52ba968d iavf: enable tc filter configuration only if hw-tc-offload is on
+7be59ac5aa931671c285d3baa45d3838bf66e7b2 i40e: Fix erroneous adapter reinitialization during recovery process
+b72b98df257ee115979e4a6b0d728f18ad8803cb iavf: Check for duplicate TC flower filter before parsing
+d9dc36ed9062a5e2dd76d3830ab4031cf00df83d ice: add i2c write command
+3ca2987b775f645010cd25fe5f2fc98ec62c9f18 ice: add write functionality for GNSS TTY
+1a4b784bfd844364cb1fd7ec9110ec68e3280abe iavf: Fix handling of dummy receive descriptors
+fbad14576c2f0da7e66a6d1b2371f381637f707a igc: Lift TAPRIO schedule restriction
+8d762ef3bf221866136302af6ac7d4fbc31820bd ping: fix ipv6 ping socket flow labels
+d4213adf5dac4d1b9b2e0515de4b8a1401aa62e0 ice: Add EXTTS feature to the feature bitmap
+ac2d8e4ad3eac4ff3aad57c41b3095feb98bdbb2 ice: Remove pci_aer_clear_nonfatal_status() call
+f2bc51fdd5d64cf14a45eeca7d7d03ed87c4caa9 ice: Fix max VLANs available for VF
+3630b6b2f74867c2fcfa9eeb31d74df45845ae6e ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+27c9a950c311f865d7ffb813aa81f7341e38b650 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+dec9f41cd7c33cbea10316b841614b1ce1d7e7a6 ice: do not setup vlan for loopback VSI
+d2e2595e38c9eb76b3acde97f358dec50dfdeca2 ice: Fix double VLAN error when entering promisc mode
+80ba9a45679a5d71e231e10661f2ceebc69c5ecf ice: Ignore -EEXIST when setting promisc mode
+4a8c0f6e41009b33cf26f97b3a9f9ddd18abd435 ice: Fix clearing of promisc mode with bridge over bond
+bba38c82e7c1e64082e1cb40e35459d80da054af ice: xsk: use Rx ring when picking NAPI context
+915c01133a39906e9e278486e099d8fa8b959c5e ice: Introduce enabling promiscuous mode on multiple VF's
+455f64fe51f1324e16c3f71a5502146de61785c7 ice: Fix promiscuous mode not turning off
+86a0c7feb986cafa1c5f0e6782b35d03c3ed92a3 ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
+17d1897a55ed6eb87b17c1ec7ab68e2094ac5fd2 igc: Remove MSI-X PBA Clear register
+8ed5ee3b60aa1d022683319c154dc871b3b1d1d8 ice: Add support for ip TTL & ToS offload
+94b39ba737ee7eea212f61321c133aec6e0f16e6 ice: compress branches in ice_set_features()
+b2005f325463f9421d5b987084ec74c0f1c37a4b ice: allow toggling loopback mode via ndo_set_features callback
+ee381b5250eee743a2d990cba9b19324bf0cfafd ice: Implement control of FCS/CRC stripping
+835a53836d412f5a5b9cd86d5e281c0b6dce1569 ice: Implement FCS/CRC and VLAN stripping co-existence policy
 
---===============7097049848855818659==--
+--===============4824556121127798700==--
