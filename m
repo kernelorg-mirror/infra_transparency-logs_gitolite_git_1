@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 12 Jul 2022 08:15:34 -0000
-Message-Id: <165761373432.5196.6650731310658740567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Tue, 12 Jul 2022 08:28:24 -0000
+Message-Id: <165761450492.12198.14401843661017603174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-next
-    old: a58f4c5f3f906332727aa7fa515fa0e9f40fc62a
-    new: 7ae7b9c5e47dbfd60d9f2c22e427c204e8c64943
+  - ref: refs/heads/devel
+    old: 5a65514c718527b95c0155fa24489916c16d42c3
+    new: e956483859c549ce53b364bc0eb914c282aed6e1
     log: |
-         876eb9370b8706974707d4e9e393d98de0a9b229 video: fbdev: atari: Simplify atafb_pan_display()
-         5a703712fc9e55a38fc8551d72a9021cd64ca3e1 video: fbdev: atari: Remove bogus FB_VMODE_YWRAP flags
-         f8a0aa1757d0917d3b966182539303900407d800 video: fbdev: atari: Fix inverse handling
-         013ab0ac4a89a558f61486c4f34e12ad09be9c6e video: fbdev: atari: Fix ext_setcolreg()
-         bafed90c5cc0a9fad2942d1cfd467cea25fc97f9 video: fbdev: atari: Remove unneeded casts from void *
-         7a637e6c974a60c989417d15b8be1d3d0383cf46 video: fbdev: atari: Remove unneeded casts to void *
-         6d6855c000d09497e27060ccc98cff11ca62ef69 video: fbdev: atari: Fix TT High video mode vertical refresh
-         2cfd4b16ef031ac6ba7987cc2ae3c1001120bd54 video: fbdev: atari: Fix VGA modes
-         7ae7b9c5e47dbfd60d9f2c22e427c204e8c64943 video: fbdev: atari: Remove unused definitions and variables
+         e956483859c549ce53b364bc0eb914c282aed6e1 pinctrl: qcom: spmi-gpio: Add pm8226 compatibility
+         
+  - ref: refs/heads/for-next
+    old: 1bc08c9bbf3e3aeea449bd93604f3b3fc8b9e9d2
+    new: 2ec1aa95dafb97290d1623ba0646e31b5dbe9e6a
+    log: |
+         e956483859c549ce53b364bc0eb914c282aed6e1 pinctrl: qcom: spmi-gpio: Add pm8226 compatibility
+         2ec1aa95dafb97290d1623ba0646e31b5dbe9e6a Merge branch 'devel' into for-next
          
