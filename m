@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0250842451704656610=="
+Content-Type: multipart/mixed; boundary="===============4818820425533603918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 12 Jul 2022 11:07:46 -0000
-Message-Id: <165762406616.2646.18171034023702162483@gitolite.kernel.org>
+Date: Tue, 12 Jul 2022 11:08:17 -0000
+Message-Id: <165762409788.2917.8731656040615392736@gitolite.kernel.org>
 
---===============0250842451704656610==
+--===============4818820425533603918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,70 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 89bcd9a64b849380ef57e3032b307574e48db524
-    new: 32346491ddf24599decca06190ebca03ff9de7f8
-    log: revlist-89bcd9a64b84-32346491ddf2.txt
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
+  - ref: refs/heads/next
+    old: fddbf585ab1fd77b9ff94459953cc88e125fc7eb
+    new: 4ec43b8797b817344cab8359e7734563a6bf3afc
+    log: revlist-fddbf585ab1f-4ec43b8797b8.txt
 
---===============0250842451704656610==
+--===============4818820425533603918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89bcd9a64b84-32346491ddf2.txt
+Content-Disposition: attachment; filename=revlist-fddbf585ab1f-4ec43b8797b8.txt
 
-7c7ff68daa93d8c4cdea482da4f2429c0398fcde ARM: Fix refcount leak in axxia_boot_secondary
-2d2cb31bd36b758e20c6922a9793df9ce41e9bc6 Merge tag 's32g2-fixes-5.19' of https://github.com/chesterlintw/linux-s32g into arm/fixes
-11bb764fbf51bc8c859484104553f3d627db8b1e Merge tag 'arm-soc/for-5.19/drivers-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
-965890425271b6a35a07b85384f4a6e4fc517322 Merge tag 'arm-soc/for-5.19/maintainers-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
-be5cddef05f519a321a543906f255ac247246074 bus: bt1-apb: Don't print error on -EPROBE_DEFER
-5e93207e962a6d23893ff4405f6c5d4396fb5934 bus: bt1-axi: Don't print error on -EPROBE_DEFER
-5c2b745173347ba21e3995d815f26925c91c517d drm/exynos: fix IS_ERR() vs NULL check in probe
-7d787184a18f0f84e996de8ff007e4395c1978ea drm/exynos: mic: Rework initialization
-4b7a632ac4e7101ceefee8484d5c2ca505d347b3 mlxsw: spectrum_cnt: Reorder counter pools
-8e8afafb0b5571b7cb10b529dc60cadb7241bed4 Merge tag 'x86-bugs-2022-06-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a6e944f25cdbe6b82275402b8bc9a55ad7aac10b xsk: Fix generic transmit when completion queue reservation fails
-24625f7d91fb86b91e14749633a7f022f5866116 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-71a579f0d3777a704355e6f1572dfba92a9b58b2 ice: Fix PTP TX timestamp offset calculation
-9542ef4fba8c73e176b8aa18a8adf04aecb889e5 ice: Sync VLAN filtering features for DVM
-be2af71496a54a7195ac62caba6fab49cfe5006c ice: Fix queue config fail handling
-efe41860008e57fb6b69855b4b93fdf34bc42798 ice: Fix memory corruption in VF driver
-8899ce4b2f7364a90e3b9cf332dfd9993c61f46c Revert "io_uring: support CQE32 for nop operation"
-aa165d6d2bb55f8b1bb5047fd634311681316fa2 Revert "io_uring: add buffer selection support to IORING_OP_NOP"
-d884b6498d2f022098502e106d5a45ab635f2e9a io_uring: remove IORING_CLOSE_FD_AND_FILE_SLOT
-c904e3acbab3fd97649cd4ab1ff7f1521ad3a255 drm/amdgpu: Fix GTT size reporting in amdgpu_ioctl
-4fd17f2ac0aa4e48823ac2ede5b050fb70300bf4 drm/amd/display: Cap OLED brightness per max frame-average luminance
-795285ef242543bb636556b7225f20adb7d3795c selftests: Fix clang cross compilation
-018ab4fabddd94f1c96f3b59e180691b9e88d5d8 netfs: fix up netfs_inode_init() docbook comment
-62b5e322fb6cc5a5a91fdeba0e4e57e75d9f4387 drm/msm: use for_each_sgtable_sg to iterate over scatterlist
-de87b603b0919e31578c8fa312a3541f1fb37e1c i2c: mediatek: Fix an error handling path in mtk_i2c_probe()
-d7dd6eccfbc95ac47a12396f84e7e1b361db654b net: bgmac: Fix an erroneous kfree() in bgmac_remove()
-beca774fc51a9ba8abbc869cf0c3d965ff17cd24 9p: fix fid refcount leak in v9fs_vfs_atomic_open_dotl
-e5690f263208c5abce7451370b7786eb25b405eb 9p: fix fid refcount leak in v9fs_vfs_get_link
-2a3dcbccd64ba35c045fac92272ff981c4cbef44 9p: Fix refcounting during full path walks for fid lookups
-56315b6bf7fc63d2b26c37869d2753f765849bd6 ARM: dts: at91: ksz9477_evb: fix port/phy validation
-56ec3e755bd1041d35bdec020a99b327697ee470 ALSA: hda/realtek: Apply fixup for Lenovo Yoga Duet 7 properly
-b60377de779052bf00b34a62f0bae03c92b88776 MAINTAINERS: add include/dt-bindings/net to NETWORKING DRIVERS
-371de1aa000dd5265a32ed934792a306ec873d6e Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-36a15e1cb134c0395261ba1940762703f778438c net: usb: ax88179_178a needs FLAG_SEND_ZLP
-91ef75a7db0d0855284b78d60d3fcec5c353ec5a io_uring: get rid of __io_fill_cqe{32}_req()
-f43de1f88841d59f27f761219b6550bd6ce3dcc1 io_uring: unite fill_cqe and the 32B version
-29ede2014c87576d2fc83680aa4c1d7403db0dfe io_uring: fill extra big cqe fields from req
-2caf9822f0507463168a9e83f93c75b3e3fac971 io_uring: fix ->extra{1,2} misuse
-cd94903d3ba50d7ae797c603f68996af8d1ba1a1 io_uring: remove __io_fill_cqe() helper
-c5595975b53a487bf329eeba65b5c5f34605a4c0 io_uring: make io_fill_cqe_aux honour CQE32
-219b51a6f040fa5367adadd7d58c4dda0896a01d net: ax25: Fix deadlock caused by skb_recv_datagram in ax25_recvmsg
-933b5f9f98da29af646b51b36a0753692908ef64 tools/kvm_stat: fix display of error when multiple processes are found
-84a85d3fef2e75b1fe9fc2af6f5267122555a1ed pinctrl: aspeed: Fix potential NULL dereference in aspeed_pinmux_set_mux()
-aaefa29270d9551b604165a08406543efa9d16f5 pinctrl: sunxi: a83t: Fix NAND function name for some pins
 3046a827316c0e55fc563b4fb78c93b9ca5c7c37 bpf: Fix request_sock leak in sk lookup helpers
 24d0af46d389d70de7d6465801ee1affe0629c88 Merge tag 'intel-pinctrl-v5.19-3' of gitolite.kernel.org:pub/scm/linux/kernel/git/pinctrl/intel into fixes
 27d8fa207835fa5c7cd6f969c6cc94d1123951ee Revert "arm64: Initialize jump labels before setup_machine_fdt()"
@@ -1059,5 +1006,49 @@ b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git:/
 fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
+70f832206fe72e9998b46363e8e59e89b0b757bc mmc: sdhci-of-dwcmshc: add reset call back for rockchip Socs
+86e1a8e1f9b555af342c53ae06284eeeab9a4263 mmc: sdhci-of-dwcmshc: rename rk3568 to rk35xx
+c6f361cba51c536e7a6af31973c6a4e5d7e4e2e4 mmc: sdhci-of-dwcmshc: add support for rk3588
+8574adf5222d786b747022c6edcbcdddf409a139 dt-bindings: mmc: sdhci-msm: Fix issues in yaml bindings
+2f8690ef64128bcbda24f0c426dff59835df7fbf dt-bindings: mmc: Add Broadcom optional sdio_freq clock
+97904a59855c7ac7c613085bc6bdc550d48524ff mmc: sdhci-brcmstb: Add ability to increase max clock rate for 72116b0
+b5899a3e2f783a27b268e38d37f9b24c71bddf45 mmc: sdhci-of-esdhc: Fix refcount leak in esdhc_signal_voltage_switch
+7dc65e3c0ef4b746a583b7c58f99873fddf5ccfa mmc: mxcmmc: Silence a clang warning
+f0c88b04f3c229b1d4e2defeeb7e399d171a38e6 mmc: mtk-sd: fix typo
+91f059c95c6a5dbc0907a5f871e7915a5e93c1f9 mmc: core: Capture eMMC and SD card errors
+efe8f5c9b5e118070f424205078ababc46fd130a mmc: sdhci: Capture eMMC and SD card errors
+7ae20fa3552a619694c2894b09e19332fe0d007f mmc: debugfs: Add debug fs entry for mmc driver
+fadf344e6d69a94efa17619120132516f56b582c mmc: debugfs: Add debug fs error state entry for mmc driver
+e5f7a3c64c0151da7080bebbe2940f00c3a4162e mmc: cqhci: Capture eMMC and SD card errors
+354c6d33ddfbda5b29063ffff54a965301e2e459 dt-bindings: mmc: samsung,exynos-dw-mshc: convert to dtschema
+ca812a4e8f7c438edb817b618fb38ceffdd9c04c dt-bindings: mmc: samsung,exynos-dw-mshc: document Exynos5420 SMU
+ffe18c0f7ced226ac07a4079ed504312418bfb6c dt-bindings: mmc: convert mmc-spi-slot to yaml
+7b651cc6de2470e112b3e792ba2e7775e1127c04 mmc: renesas_sdhi: add R-Car Gen4 fallback compatibility string
+3576c0b2709c8204a18371d5f8b44a724234ffe7 dt-bindings: mmc: renesas,sdhi: Document R-Car S4-8 and generic Gen4 support
+ba1de43768aa27865169af00ee0c2a4a165690b6 mmc: debugfs: Fix file release memory leak
+cae45c2d4fb3a9084954f14bf991500c49c970c9 dt-bindings: mmc: renesas,sdhi: R-Car V3U is R-Car Gen4
+0f6fe934a628b0ce0ba138697064fbc8802c21b1 dt-bindings: mmc: renesas,sdhi: Add R-Car Gen4 clock requirements
+f78bc9f2caa4e37fafa623faa8f5c683b4c4b35e mmc: mmci: Fix typo in comment
+c3c0ed75ffbff5c70667030b5139bbb75b0a30f5 mmc: sdhci-brcmstb: Initialize base_clk to NULL in sdhci_brcmstb_probe()
+68eab5176c71fe03ff37723a1c5cf20c26b06a99 mmc: dw_mmc: exynos: Obviously always return success in remove callback
+50699358222d004ad2b465c18b03d418b9b7fa90 mmc: dw_mmc: hi3789cv200: Obviously always return success in remove callback
+397605c2d02abdcaba00e830fee0ee70a88b9456 mmc: dw_mmc: rockchip: Obviously always return success in remove callback
+869f98756e55dbf4ec30e104f6ea1432e8f0bc19 mmc: sdhci-of-arasan: Obviously always return success in remove callback
+f6c3397dc67f8141f1a7931e891732351a27d3e1 mmc: sdhci-st: Obviously always return success in remove callback
+f9e5b33934cec24b8c024add5c5d65d2f93ade05 mmc: host: Improve I/O read/write performance for GL9763E
+6f34a4ee738b6965a08ba11a03666e7b524aec19 mmc: core: Do not evaluate HS400 capabilities if bus has no MMC capability
+1c5fd97373115b932afa72fbc5425560e0d1148f mmc: sdhci-pci-gli: Fix build error unused-function
+39c86b5c59a414cf2a94dbd6956a9a8e70188673 mmc: sdhci-of-esdhc: Fixup use of of_find_compatible_node()
+0dac1e498f8130fdacfdd5289e3a7ac87ec1b9ad mmc: renesas_sdhi: Get the reset handle early in the probe
+088604048b24846d1e79da4c2a73a6f3ad43edb4 mmc: renesas_sdhi: Fix typo's
+2e531bc3e0d86362fcd8a577b3278d9ef3cc2ba0 memstick/ms_block: Fix some incorrect memory allocation
+54eb7a55be6779c4d0c25eaf5056498a28595049 memstick/ms_block: Fix a memory leak
+aabf199c4eff56e8b36a4c2807c041d93b20c1e1 memstick/ms_block: Use the bitmap API when applicable
+2e586f8a5b0ed4a525014a692923ac96f6647816 mmc: tmio: avoid glitches when resetting
+f3daa7e6e2ae578778c72de785699942dbfeace4 dt-bindings: mmc: samsung,s3c6410-sdhci: convert to dtschema
+e427266460826bea21b70f9b2bb29decfb2c2620 mmc: core: Replace with already defined values for readability
+5987e6ded29d52e42fc7b06aa575c60a25eee38e mmc: sdhci-of-at91: fix set_uhs_signaling rewriting of MC1R
+95a4cf7172bc356f072df4eea4d8d307bdb38d86 dt-bindings: mmc: sdhci-msm: document resets
+4ec43b8797b817344cab8359e7734563a6bf3afc dt-bindings: mmc: Add compatible for MediaTek MT8188
 
---===============0250842451704656610==--
+--===============4818820425533603918==--
