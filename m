@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7541819024898169112=="
+Content-Type: multipart/mixed; boundary="===============8850939755968453352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Jul 2022 18:21:59 -0000
-Message-Id: <165765011959.22413.345242907325108269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 12 Jul 2022 18:22:13 -0000
+Message-Id: <165765013365.22569.5976149311108896640@gitolite.kernel.org>
 
---===============7541819024898169112==
+--===============8850939755968453352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: 67e1b7700cb9cb5ca0cbdb2137533568b427e541
-    new: 4e90651e52100ffb55828c0a6e4f1480eaa7b508
-    log: revlist-67e1b7700cb9-4e90651e5210.txt
+  - ref: refs/heads/for-linus
+    old: f55a6688fc540aff6dad293199a517f9e27835a8
+    new: d67c83a1b23214c7640ffbeee8eebadeb74316fe
+    log: |
+         d67c83a1b23214c7640ffbeee8eebadeb74316fe Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: bc1779a2d17c924916737e5c7885558fc368b611
+    new: f1416233aa125b29375bc2980e225e77b11d79f4
+    log: revlist-bc1779a2d17c-f1416233aa12.txt
 
---===============7541819024898169112==
+--===============8850939755968453352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1657650118 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657650117-77e52cc42078174200f5988ff453fde5d109da0d
-
-67e1b7700cb9cb5ca0cbdb2137533568b427e541 4e90651e52100ffb55828c0a6e4f1480eaa7b508 refs/heads/asoc-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLNu8YACgkQJNaLcl1U
-h9DYYQgAg5fCvrlzr9hXsg1tsR/C0gEJ5qv1BIGooT16JV2C/+lO5V9SnNm9w+NA
-meKcFXjaunCp9dqOv/FNvc6wN9uzjx6nxE6sePXJWoAKoREbjD+mnOGtcU9sy23n
-PXnZ7XSiMjga79HcLW/4Jjl0btFFcStI7e8f0moq5ZiEqjGvrisBTue8tqNhJ/b5
-2YGDGao2SgMQ8lpDdF8o2fzINyy27qgF0M5pIAHsauyIZ47jrB6tQqJRpUJ2JoK6
-zY8bqgPFxFj/OXkuBUHz90+REFg9V/vusD83a8/dva4K9P5BSoAL3m5uvgFb9SkS
-Zg0vEU2X70fwOZMuuP3dII7GNYXARg==
-=11q+
------END PGP SIGNATURE-----
-
---===============7541819024898169112==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67e1b7700cb9-4e90651e5210.txt
+Content-Disposition: attachment; filename=revlist-bc1779a2d17c-f1416233aa12.txt
 
 acacd9eefd0def5a83244d88e5483b5f38ee7287 ASoC: SOF: Intel: cnl: Do not process IPC reply before firmware boot
 499cc881b09c8283ab5e75b0d6d21cb427722161 ASoC: SOF: Intel: hda-ipc: Do not process IPC reply before firmware boot
@@ -67,5 +48,7 @@ d5bd47f3ca124058a8e87eae4508afeda2132611 ASoC: SOF: ipc3-topology: Prevent doubl
 501935dae855a469d7529500c450c550acc6e633 ASoC: SOF: Intel: Do not process IPC reply before firmware boot
 4457fbd66bdb93c739ce2404a97c510eaf65e244 Extend ipc stream parameters sent to DSP
 4e90651e52100ffb55828c0a6e4f1480eaa7b508 ASoC: SOF: Intel: hda: Correct Firmware State Register use
+d67c83a1b23214c7640ffbeee8eebadeb74316fe Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+f1416233aa125b29375bc2980e225e77b11d79f4 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
 
---===============7541819024898169112==--
+--===============8850939755968453352==--
