@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7519295230367090618=="
+Content-Type: multipart/mixed; boundary="===============6437930621727893576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 12 Jul 2022 17:54:21 -0000
-Message-Id: <165764846133.6045.2217801201540264475@gitolite.kernel.org>
+Date: Tue, 12 Jul 2022 17:54:33 -0000
+Message-Id: <165764847356.6229.8430535014556303140@gitolite.kernel.org>
 
---===============7519295230367090618==
+--===============6437930621727893576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,108 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 72d6154340a122052ef914485fa4176f1c50464d
-    new: 3536475e5ed1936c4fd53983097b80b506ab0215
-    log: revlist-72d6154340a1-3536475e5ed1.txt
+  - ref: refs/heads/linux-5.18.y
+    old: 677ac1f94f8a86558eb8813932ca6f68fce76323
+    new: 256ac4e6ffb9d3d274d0575a7f38ec2d9155238c
+    log: revlist-677ac1f94f8a-256ac4e6ffb9.txt
 
---===============7519295230367090618==
+--===============6437930621727893576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657648455 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657648469 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1657648451-1a420ffae11fe44af496d6433dddf6fe0cbdbe3c
+nonce 1657648467-fc200dba7d19b4b6332ad7b9bb4c7936531dd52b
 
-72d6154340a122052ef914485fa4176f1c50464d 3536475e5ed1936c4fd53983097b80b506ab0215 refs/heads/linux-4.19.y
+677ac1f94f8a86558eb8813932ca6f68fce76323 256ac4e6ffb9d3d274d0575a7f38ec2d9155238c refs/heads/linux-5.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNtUcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oVQP+gPOYfBrJLHv1HQ+bIBi
-+ug98jkICPZnoDYdkKSQCGqqASsD1G1+LO3Ya0YykBaaMFFHfEiqgwA0WtnP4PR1
-1Wkhwa9gGfiRql2TXUrF3QXxNFokaxE5En7xO2ua5ti+Ve+9PjnqDNvpIjsToNX5
-1vAxvglxc5Vc42VcPv0V6CwCLrUfIQTbQJ6x2y9dO+F6ZEx6W5SLD7OhFPk4ftRV
-vRt6K/ltWVOnFEt+2K6wBEcFFHGShnNSEePaxN6qFimNg09c1NSZxaflmEdLuUqg
-Fwfvmh1MZmT23gU6cPyvK2dMXSfam5TrLEoRlxWW7hREEiD2Z89L0KPS/D7pTCTq
-thqv5kujQGWT3wjEkrgGT+T/KQFR+2x4+mUjwMJWZelz9XWn07FiDzvKd+a6E+5u
-AtjHlbyOcoHSx8hEvUc7tvnA99SKxqVZ7iJ7w7pyv/XNTAeFMuEOZ3PpNNS1v5Fc
-rMTcLZnYOJESM30yKlJ8WRVElC8PeDIxqdx/qJy30FCH+GMww23Z2Lw2LfruUsNE
-CI2pXBe+Xot5NUTvA5h/I7JnTJjP7Yx5bFUbBfOwuW4Pe6RVeuA7bRRGdnrTj89e
-BMZ+PieSvcz8EJKed24eFMTNhfEK5B7p6yPlm8hMu7RPpYI69ySzsUScxj/Br3s9
-XogLNJkdhLt+wNa4fNTkEv6t
-=JMWW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNtVUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bLwP/1MLqysnOI5TpY6zYh5t
+c8OCmAQPbtMqt3MNH7cTaKGXYNzNhsmpsMxCQPA+XXTaX1Ut/dXuVizwm1FanwO3
+zl5/H3GY+y0toGZokbAA5k4l5tzHzixHQwKmUry3O8CijNPoEY5i4wAfbHV1cg1V
+XJGe/ofO56Zm3v/Lg29uhEVkaF9X8NZWZsfqxZY5hT70uA5dW+yGu2W2o3abvU6y
+CNMDGLABTJ5OZetMOU+M6avvPA1/GLUx05BvmAiftKJSx6g1B1L3BNFtvNFL/Ds1
+qi16xkITor6iBzcEwEHtb598JvfqwgC/KAY+y8SfrurCuL3BFcnOU+M7FzuVWwkt
+bKqR/z2OXfnMaUwAV/kPA29894nVk8A959ozO0r+osw2jEhgkdpz3IZLpneQL/l+
+nNGnUhZMQRgLV0xtERPZ7gH4u2CAHKLcsrNQRAOV4ISkcg7VD6FeLwUCK6w4bGUa
+sXNHWnRpkvLumn23cmUsATjyU5LOIcWdvwZKa+WBiFTibA9Tl9cBnAmktiDJE7Ba
+ZZW+cpIV9v4CLgq9oolMMHsr1bcXVNifz7jPgyj2iqoukFW1O8kE9ogLHfMqawri
+21OvMjfO2cYDNbF9rnrOUGqe3GyYFzSHhbagDrMu9oGZ1XHkFmxP5VfR0z6D3oT3
+o6ECdy4JJxFNui2I0xfz/Y/P
+=eVyk
 -----END PGP SIGNATURE-----
 
---===============7519295230367090618==
+--===============6437930621727893576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d6154340a1-3536475e5ed1.txt
+Content-Disposition: attachment; filename=revlist-677ac1f94f8a-256ac4e6ffb9.txt
 
-ef6f83df1209a7d9bd1c605a62457d4c00f9179e esp: limit skb_page_frag_refill use to a single page
-e2b2f0e2e34d71ae6c2a1114fd3c525930e84bc7 mm/slub: add missing TID updates on slab deactivation
-fbac09a3b8890003c0c55294c00709f3ae5501bb can: bcm: use call_rcu() instead of costly synchronize_rcu()
-effa1894e1bd744f9674e4aedaf8f6ed8db5eba3 can: grcan: grcan_probe(): remove extra of_node_get()
-d91492638b054f4a359621ef216242be5973ed6b can: gs_usb: gs_usb_open/close(): fix memory leak
-d5165e657987ff4ba0ace896d4376a3718a9fbc3 usbnet: fix memory leak in error case
-e426d15307c5e0fbb7cca75d7468553910be35ee net: rose: fix UAF bug caused by rose_t0timer_expiry
-d14cb7adac83dde28d930535855ef6e5ae9267ae iommu/vt-d: Fix PCI bus rescan device hot add
-eae522ed28fe1c00375a8a0081a97dce7996e4d8 fbcon: Disallow setting font bigger than screen size
-377ca648a129cce6420e9f226f65e6e62234cc08 video: of_display_timing.h: include errno.h
-8d7fb0239d091d6950d3074c2b0211e54cb2e467 powerpc/powernv: delay rng platform device creation until later in boot
-5e3121348beb1fd2bd8938675ac22014bc7c51c0 can: kvaser_usb: replace run-time checks with struct kvaser_usb_driver_info
-6f81973706bc9c828e7801df7c9b38eb7c8a9aa5 can: kvaser_usb: kvaser_usb_leaf: fix CAN clock frequency regression
-b62a5e19f6cc2902627ed569618fc7d00fb2b1e3 can: kvaser_usb: kvaser_usb_leaf: fix bittiming limits
-18aef352845096d7be4a7b42e173c1df21f3bb20 xfs: remove incorrect ASSERT in xfs_rename
-2e1bcd33478ef44e63a45457055060b5fe4118ad ARM: meson: Fix refcount leak in meson_smp_prepare_cpus
-fee803fe20b3e27b4a88a0ed2e70dccb86a65ab1 pinctrl: sunxi: a83t: Fix NAND function name for some pins
-59b2c62cd131f515a6043d310aa630c407677d10 ARM: at91: pm: use proper compatible for sama5d2's rtc
-37936ef7fcc7184dafe7ea60043e3a75e180143b ibmvnic: Properly dispose of all skbs during a failover.
-42f761f8809629993072c0567453dd34435ccbf7 selftests: forwarding: fix flood_unicast_test when h2 supports IFF_UNICAST_FLT
-5d7f2dc5a1e8d0bf4088a8169de396aace2c35d6 selftests: forwarding: fix learning_test when h1 supports IFF_UNICAST_FLT
-70652a44b4b6467304fc82a11e08325cc428b67e selftests: forwarding: fix error message in learning_test
-f14744632c6c762fbfee901b0d319ad53f3af85a i2c: cadence: Unregister the clk notifier in error path
-ccf417c7bf38405c1b504832eff65b29dd56719e misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-b901d017b77ad771a759460c1d671e7fcf4f3ff5 misc: rtsx_usb: use separate command and response buffers
-e9c3ceabd406c80d7b8c7813836b654b045fa0b3 misc: rtsx_usb: set return value in rsp_buf alloc err path
-33d2f83e3f2c1fdabb365d25bed3aa630041cbc0 ida: don't use BUG_ON() for debugging
-b7bfa6497a11948fe62f8c6fc296cc618c63f8e4 dmaengine: pl330: Fix lockdep warning about non-static key
-b33cae9975550f0c442dbad71eaa196db5493deb dmaengine: at_xdma: handle errors of at_xdmac_alloc_desc() correctly
-3bd66010398871807c1cebacee07d60ded1b1402 dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
-56346677efe43ca0c0c53c3cb2f93df33b07124c dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
-e8b2a9c3318357b7661c6075acdb723587def656 Linux 4.19.252
-3536475e5ed1936c4fd53983097b80b506ab0215 Linux 4.19.253-rc1
+5bff00f9617c6abbdf3c343581abd016903e2e6a x86/traps: Use pt_regs directly in fixup_bad_iret()
+30d1d10f57d7c9fd6bdaaa035801a70a969c01f4 x86/entry: Switch the stack after error_entry() returns
+fecd8043c66a53d1663e5ebf68eb96288b45f08a x86/entry: Move PUSH_AND_CLEAR_REGS out of error_entry()
+1a90f2dde629438e44582cde329c170c26d759c5 x86/entry: Don't call error_entry() for XENPV
+706b7fbfff54d33546e73f76d47ea3cff131fdb2 x86/entry: Remove skip_r11rcx
+69767e87f29213c3304f901a8e2d8a21fa4d42cb x86/kvm/vmx: Make noinstr clean
+d7a03b6fc111f62b918a1c590e2b31f42c102a29 x86/cpufeatures: Move RETPOLINE flags to word 11
+3875ef97987a7e79eeb5e5b11ea0916abdaad1b8 x86/retpoline: Cleanup some #ifdefery
+fad2f424e4504061e5b25c4ccfec21f4077d8c51 x86/retpoline: Swizzle retpoline thunk
+7bf412c3607a7717857705865fcab47ce247e89a x86/retpoline: Use -mfunction-return
+77a9af5084c4c3efcbadb21fa088c1e2c432e4ad x86: Undo return-thunk damage
+4920b40b938f47f45a5519c96cbb4c6688442dce x86,objtool: Create .return_sites
+3d9d82bcee77115dd8f737bb72896e06d4b74d9a objtool: skip non-text sections when adding return-thunk sites
+c1089f040c0bc51e085cab9a7fd7d9af8854d408 x86,static_call: Use alternative RET encoding
+6528430fcbf29ede9b5b6508d88d029bd5134999 x86/ftrace: Use alternative RET encoding
+73e35c9d4a4ed9e88f7b53d92dea22ee7b5f3bce x86/bpf: Use alternative RET encoding
+baa73589e70a8bd3bdec2d60f035a3884cf1c7ad x86/kvm: Fix SETcc emulation for return thunks
+6b8c26d7c4484975a7c077a029a5039fc4d1b494 x86/vsyscall_emu/64: Don't use RET in vsyscall emulation
+bbbb9bd2b434c2e3a8bd35ff26e9f1c9ad9ee87c x86/sev: Avoid using __x86_return_thunk
+4edaf98593ad42f1948f909844a8b613e9c3face x86: Use return-thunk in asm code
+2d2603d0143b0053d7d266956e130c3921a71dcf x86/entry: Avoid very early RET
+6dfe70036bc626379eb658da6f6b3a958fdee3ce objtool: Treat .text.__x86.* as noinstr
+3c1feb794a86905196de01005f7601ae1702c924 x86: Add magic AMD return-thunk
+ac80466c54b5a1742b8e11f7872886b0539665c0 x86/bugs: Report AMD retbleed vulnerability
+206b26c1e76230033f0f39a5f128c5c284ec3549 x86/bugs: Add AMD retbleed= boot parameter
+9da54432924f646248d7e3c19c38a9c54d8757b3 x86/bugs: Enable STIBP for JMP2RET
+b2486dee0efc68cb2ece43ec993f2a78d7ebe3cb x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
+dfd5b14bf0c8f208a6220970400de784192a453e x86/entry: Add kernel IBRS implementation
+fb343284390cc15d206f58cc39833d84564c7a39 x86/bugs: Optimize SPEC_CTRL MSR writes
+c957c55b3b8e3e97db57b64e11f065e464edfe8d x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
+e98544da46d5ae64925695aa7835dd9126e54f62 x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
+14dd3cd98f8b17a89bf64d239774d8621173fb89 x86/bugs: Report Intel retbleed vulnerability
+d68b9cce98e612c6a2fba3715ece6389e26b88e3 intel_idle: Disable IBRS during long idle
+1a0dae04ab4ebed3f5879931b5d330788590418b objtool: Update Retpoline validation
+27db2e71a0e2ea5bdda2be9589f9ddf0ccba635d x86/xen: Rename SYS* entry points
+cb111d6d4d271eb9c2c14808f3c1e9d2088161d4 x86/xen: Add UNTRAIN_RET
+d78b482ed84b21ac6cf86f5da81408c54d1a947e x86/bugs: Add retbleed=ibpb
+84991d035ef1e4ad65560afad054910d7903a55c x86/bugs: Do IBPB fallback check only once
+205cc0d8920dd658fd5df8c1ed82fb7353e6bd51 objtool: Add entry UNRET validation
+e93abd8329e028d976aef8a1a0d692a20bebbf8c x86/cpu/amd: Add Spectral Chicken
+b6a4fc2a3844cde5aac17cb00e3e2bcb2c37cc0e x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
+130104c8182574006b279f5f6f0c1da219995da8 x86/speculation: Fix firmware entry SPEC_CTRL handling
+009f2a9a628b8e531ddf6c3c00f637209df5cf45 x86/speculation: Fix SPEC_CTRL write on SMT state change
+01a0ca842bda1f162221ebc73ed6913099f080bf x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
+129a18f3d47e71e245bcc4cce6a5c9ee5c71a87d x86/speculation: Remove x86_spec_ctrl_mask
+c196855dc9501cfceb37e7371fab869a75e0b364 objtool: Re-add UNWIND_HINT_{SAVE_RESTORE}
+532e911b4b5d830adae16c1db7e50ba4204ebbc0 KVM: VMX: Flatten __vmx_vcpu_run()
+7e4dac4bf6fd4ee1264c63cc09d8deea120ebe91 KVM: VMX: Convert launched argument to flags
+01cb44a8065fb21f564ed7773f1998c80bae5ba9 KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
+d0911bef3b4acb5d1f31698a474e1540f022a305 KVM: VMX: Fix IBRS handling after vmexit
+b86bf0ac2cb635600bd02ac07d1451902cf75ec4 x86/speculation: Fill RSB on vmexit for IBRS
+c9803690122d46c403ea50261b9b94b6d99e1890 KVM: VMX: Prevent RSB underflow before vmenter
+7d1ae484b3b0729012d4d56185c576ece0a238d4 x86/common: Stamp out the stepping madness
+8c8afd54de3ed03243c9db8ef9999a129b7e2e74 x86/cpu/amd: Enumerate BTC_NO
+43a558b0acff8981319329dcf7870d1b4a82476d x86/retbleed: Add fine grained Kconfig knobs
+a10d0f31a47beb0d448b7acae63b1ca54577f780 x86/bugs: Add Cannon lake to RETBleed affected CPU list
+e20b8f183bb53e3a83585eaada27640b4a6ed336 x86/entry: Move PUSH_AND_CLEAR_REGS() back into error_entry
+9277f534449e77107c6bfb6f1ce4d5912cab4d5d x86/bugs: Do not enable IBPB-on-entry when IBPB is not supported
+dd96b0158b807f4d87dfb5ca1b27bca615355d52 x86/kexec: Disable RET on kexec
+63c80ef105d0a9ec98cdec7703fdd0677b6a627e x86/speculation: Disable RRSBA behavior
+6421e4e1c465f9132d146d78194bbdafd3ae0440 x86/static_call: Serialize __static_call_fixup() properly
+256ac4e6ffb9d3d274d0575a7f38ec2d9155238c Linux 5.18.12-rc1
 
---===============7519295230367090618==--
+--===============6437930621727893576==--
