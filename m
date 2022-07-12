@@ -1,45 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Tue, 12 Jul 2022 17:40:16 -0000
-Message-Id: <165764761611.29493.8933001919252154339@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3806040985237463665=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 12 Jul 2022 17:53:57 -0000
+Message-Id: <165764843700.5700.3315088680524636336@gitolite.kernel.org>
+
+--===============3806040985237463665==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/erofs/folios
-    old: 6226ec13248e53674d5eb1ec80ce4942782aefe0
-    new: 7bd79a3d46303fc06922ae2df7f4c7b54b6e6700
+  - ref: refs/heads/master
+    old: 1f0aadeb642b128620306654b2b25b12c836a4b2
+    new: 5d4bc2f901af340bc75bd84ac3efc0774fbf32f1
     log: |
-         7729afa6d4364200cfbf8b125d8c2de228f6ae84 erofs: get rid of unneeded `inode', `map' and `sb'
-         a459116ebb3acba667c59a1f29e360622cd8382d erofs: clean up z_erofs_collector_begin()
-         654fda4bbdefd4c43dc3eca085f8854b6663051b erofs: introduce `z_erofs_parse_out_bvecs()'
-         ca0a046e70c20a92063d49b314c8bcc06efa9a5c erofs: introduce bufvec to store decompressed buffers
-         ae1623c586bdfde453d533f78da8e2af5df3a3cf erofs: drop the old pagevec approach
-         0d35a715f884de99b7546fbbea2fe7f0d0c001cf erofs: introduce `z_erofs_parse_in_bvecs'
-         670ea2f3943cdeeff6514655ee02f5603be2b2ba erofs: switch compressed_pages[] to bufvec
-         ba0966a7d801fe75c284ad5e5c3791d028215188 erofs: rework online page handling
-         1e7632882872694debb26ecdf084d3f2f4a2341c erofs: get rid of `enum z_erofs_page_type'
-         8f57de90a1b8a6ea731c23fc0ed3393167b48170 erofs: clean up `enum z_erofs_collectmode'
-         7bd79a3d46303fc06922ae2df7f4c7b54b6e6700 erofs: get rid of `z_pagemap_global'
+         5d4bc2f901af340bc75bd84ac3efc0774fbf32f1 queue series files
          
-  - ref: refs/tags/erofs/folios_20220712
-    old: 6226ec13248e53674d5eb1ec80ce4942782aefe0
-    new: 7bd79a3d46303fc06922ae2df7f4c7b54b6e6700
-    log: |
-         7729afa6d4364200cfbf8b125d8c2de228f6ae84 erofs: get rid of unneeded `inode', `map' and `sb'
-         a459116ebb3acba667c59a1f29e360622cd8382d erofs: clean up z_erofs_collector_begin()
-         654fda4bbdefd4c43dc3eca085f8854b6663051b erofs: introduce `z_erofs_parse_out_bvecs()'
-         ca0a046e70c20a92063d49b314c8bcc06efa9a5c erofs: introduce bufvec to store decompressed buffers
-         ae1623c586bdfde453d533f78da8e2af5df3a3cf erofs: drop the old pagevec approach
-         0d35a715f884de99b7546fbbea2fe7f0d0c001cf erofs: introduce `z_erofs_parse_in_bvecs'
-         670ea2f3943cdeeff6514655ee02f5603be2b2ba erofs: switch compressed_pages[] to bufvec
-         ba0966a7d801fe75c284ad5e5c3791d028215188 erofs: rework online page handling
-         1e7632882872694debb26ecdf084d3f2f4a2341c erofs: get rid of `enum z_erofs_page_type'
-         8f57de90a1b8a6ea731c23fc0ed3393167b48170 erofs: clean up `enum z_erofs_collectmode'
-         7bd79a3d46303fc06922ae2df7f4c7b54b6e6700 erofs: get rid of `z_pagemap_global'
-         
+
+--===============3806040985237463665==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657648435 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1657648432-5cc16bd943eb43fe72892018034335e8b8c1e2a4
+
+1f0aadeb642b128620306654b2b25b12c836a4b2 5d4bc2f901af340bc75bd84ac3efc0774fbf32f1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNtTQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0XAQANYIhppSxGwtDApAsAwf
+NX1AsKNei2ZRphnhhv2to9+5zyp6rnSosgGQr0jETgMdpcOEWYgdRuvFC3dMHl16
+7QqKvFNpJgaOwPn8xYyRVTYQNEx0lXNmDhtsZPcjclx5qSsLcArG85NnTThwWqpM
+Ea5PeBfkdqRUbtkch81luxGeoQpV8koKoUB9bJVaWKyYtRBsRkrmsCxGRotylneA
+k1CPVUWqER+cMvXfZkwdPst0rGX4vTq3Rcv54RMV85pV2uaCeTeTN/ZvHSuF0IMc
+1a8ys5T9rkx+ob9wrm8ugwKju9kyfBSao9gZ7fU4vxmXy+m1vng3PIHJWwEjFpI2
+PF6TZgU8FOB86fOGAk8YlKOsNy2J7oDzraJbuYCR3MSh4fDlHz6OKMq3n7BAU9oY
+G26KP0JcApQeDnqHqJZ6hvq1lVqsc7qozP0Ua7uXQ2a8WCfuOOof2oLKH7+M7b1J
+Th4SiCcxiRlkGDq4FKCv21FZZ89OJtPji/SKmv3crPEk/1T27i0rvm17vqN/CJmp
+slpa3zSqVCer3+ke1s1kd84fFPvHmiKs28u70T0isbF/8bza30Qouehe1n/dg89k
+FeE66688tw0TrA4bhO2jaJt46jvctld1Viw7yT/atTbCKaXhF+yvOsJp+2e6E4Fi
+aSta5avklB8tguOCB4KG8HR6
+=57SG
+-----END PGP SIGNATURE-----
+
+--===============3806040985237463665==--
