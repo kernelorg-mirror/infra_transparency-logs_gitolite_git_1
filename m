@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 12 Jul 2022 17:08:55 -0000
-Message-Id: <165764573551.7689.7472387422215953880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 12 Jul 2022 17:12:48 -0000
+Message-Id: <165764596851.11731.2717252916862458701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-linus
-    old: 5b1a01c16292208be9a1ccc170c99c747df0c4c4
-    new: a77c46f2b4d48a81f36442ee0c2160baebf6c1a0
+  - ref: refs/heads/damon/next
+    old: 40d1ef717dd762939c0a8734fd901ee517b50334
+    new: 88a4d4aebe845f275ea200edcba003bf18bc25de
     log: |
-         a77c46f2b4d48a81f36442ee0c2160baebf6c1a0 MAINTAINERS: change the NXP FSPI driver maintainer.
-         
-  - ref: refs/heads/for-next
-    old: b46fc3ca9aaa53e8fa962c18b4fdc8ab2b40932c
-    new: a0197626fdd6afee2144f92e1078765c6ae2b091
-    log: |
-         a77c46f2b4d48a81f36442ee0c2160baebf6c1a0 MAINTAINERS: change the NXP FSPI driver maintainer.
-         a0197626fdd6afee2144f92e1078765c6ae2b091 Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         88a4d4aebe845f275ea200edcba003bf18bc25de xen-blkback: fix persistent grants negotiation
          
