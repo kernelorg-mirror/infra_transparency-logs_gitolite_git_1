@@ -1,192 +1,139 @@
-Content-Type: multipart/mixed; boundary="===============7298782077071074126=="
+Content-Type: multipart/mixed; boundary="===============3900615888891070899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 12 Jul 2022 17:54:47 -0000
-Message-Id: <165764848781.6477.3951559984206411122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 12 Jul 2022 17:57:25 -0000
+Message-Id: <165764864522.8960.6578005573296015920@gitolite.kernel.org>
 
---===============7298782077071074126==
+--===============3900615888891070899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: ddd1c2e5da58a405411535e05dcaff599c4e57d6
-    new: ba398a0e54049bb6a1c102245ae84103f103ff2c
-    log: revlist-ddd1c2e5da58-ba398a0e5404.txt
+  - ref: refs/heads/master
+    old: 5a29232d870d9e63fe5ff30b081be6ea7cc2465d
+    new: 72a8e05d4f66b5af7854df4490e3135168694b6b
+    log: revlist-5a29232d870d-72a8e05d4f66.txt
 
---===============7298782077071074126==
+--===============3900615888891070899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657648481 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1657648480-0e5d77046dac69518cf376b0ea28742686c31535
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657648642 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1657648640-f49d29889283fe453669b6b7be1502484d30f300
 
-ddd1c2e5da58a405411535e05dcaff599c4e57d6 ba398a0e54049bb6a1c102245ae84103f103ff2c refs/heads/linux-5.10.y
+5a29232d870d9e63fe5ff30b081be6ea7cc2465d 72a8e05d4f66b5af7854df4490e3135168694b6b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNtWEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hxkQAMRL2mEgs5E2M4LpSaYz
-x4oF8cqmG1ZOVSvk8E4os7v4PFtTqtJJRsxnX+BGoHzse3dxvhrDpSlFAycjn27Y
-pTLDTzEav18/yYBprSO5WK23Fg+hTDhMQodAiHlutf03sX5OcyVh0vyvE2OmgRpg
-qURsM/AXdJCqEw06Vm1uAACSRuvi0goTlWkAc1IhFNgkQ5Nlwj6dnFeI51liB6ZQ
-2xb03ybDuyDyponzy3F/FGf6pDPFjEmtdbX/V+dC/7WXNB/LzOWoaVeo3Su2ua7s
-iNtIFENtakavhyyz/NE0S1VRlv4bOYZbxqcgN0zMSsh01qipauyV1vllx9iUEPre
-H9DhbY4PQF9BLxWyVpzEpiD7rhvxiF7ujAf3JxQ0hnXoRFB9LZLb5mAmWgEHnUyZ
-hdgWUzc9asoj4Kh8Vs79W/ICRP6fa1NrNNWUXOCUVl1CPXz37s/J7XgSyEwmpPAF
-b7ter/l8gxWDnZ6g+S1nsHqJxif4Uto8duMQdm+fkRFjtRiZ3MStWIhvjmRTcEEe
-ZcqiahnxLRhnZFRln1XKHFNgu70GvxR3neaFmETecu/e6zpPcMWAa7ZmDCvLLNCS
-fqWiHenMLVoonjZ2WR+KuPe3uxSBp5vB6UjtSmwV+rqA498UXgToFA0oOWTmhEq8
-Csq7lWwhTa6Ommw8u/J5hr2N
-=OG5t
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNtgIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gpYQAI2uNGaZ/VsYK7PKsKFW
+PwJaBsHR9ffQwO9bZDovMbftyLqDWYGiaWDUbXPY1+ZAo6usH227rPMHWO7/Urxz
+HNYkRrQEDDZ2y2u5ipMOGfnS+nGqyP9VImqixQBiNH5FTPhA6kP0CucHycNs4ggS
+U5FrJjfr5LDdJnJzscJu21pDPoOeOwDNcEY64SRWlE0GfIE0P17XZJt1ZOzcM58K
+jXuRe2YaVB06YY49fs+sz53B17awbV91EvIxvNW0aLrSUCU5KrVOTuI+XwheC/W/
+27YHHTljlOomnvVxlk9MnCDn6uPJ20iHgmbX33sGNBsgE4UouaCtctSqbAjdBJLb
+9EOSqwQ6ukyXROQftSfNn6MZjyLYRez2vEmrU8UNPLvNXsx6awcRRE/O4HncDuss
+48w2sg3/M0hxV2JDJrdphdJIlzjWJ/5TJZeiHBwO8nifU3j/HeBqt9dObtEBhy92
+X4RzcuuisWkApZ0rTIp/lyF2H0l+LwXwfgSF76VHxVTdOhJmcVGgC0e7QJ92DADZ
+KMKIXY/uucyM6PgYoO1ANvfzk5emekpbM5fl/TL7a/0IL485qzN0e6T2XD91vcCg
+yOoC9eBPuCLX1xm+9SJ4uaHkinG+bDsakNmCzK4w4gwT3A7Q6T62LX0q6AHBq9C4
+Eh4LuMyTramHKAYV4lVeBKc/
+=v5z6
 -----END PGP SIGNATURE-----
 
---===============7298782077071074126==
+--===============3900615888891070899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ddd1c2e5da58-ba398a0e5404.txt
+Content-Disposition: attachment; filename=revlist-5a29232d870d-72a8e05d4f66.txt
 
-9ff61077933fd1ac42b1c1312229bd9f481a07b5 KVM/VMX: Use TEST %REG,%REG instead of CMP $0,%REG in vmenter.S
-76dfc0a5ba7d42f5760a7037debae60118df244f KVM/nVMX: Use __vmx_vcpu_run in nested_vmx_check_vmentry_hw
-8a30a332d4dd796e8a0c8e4d13141f2003dbf3e9 objtool: Refactor ORC section generation
-b006b7d9022303b31cd7b538fff288e1b319e0c9 objtool: Add 'alt_group' struct
-b9b7e63b3233da759963ec1464f21a835e4f77ee objtool: Support stack layout changes in alternatives
-13519d35465e28ad0aa04f28d1f10a58a4917345 objtool: Support retpoline jump detection for vmlinux.o
-d462305db7d3a1ae947163ffa66fafa5b503c521 objtool: Assume only ELF functions do sibling calls
-d7fc6f2cadb9a1e7b01e4138878fb2579156fe2b objtool: Combine UNWIND_HINT_RET_OFFSET and UNWIND_HINT_FUNC
-4b8ee261b2bc0006c67411051733df38a381c221 x86/xen: Support objtool validation in xen-asm.S
-bc8fd7f7edfd730f485ff75634184190a7b58b27 x86/xen: Support objtool vmlinux.o validation in xen-head.S
-efd97d2799d219612f7371ad7cbecd0cc248e360 x86/alternative: Merge include files
-35e7de4385c6c7df83af03f0cdde194bcbd5a97f x86/alternative: Support not-feature
-6d6db6abfcc607379108e9a6144019ca3e0ed041 x86/alternative: Support ALTERNATIVE_TERNARY
-a9d5c22d8e30a4da9a646bd7dc4c945d74faf801 x86/alternative: Use ALTERNATIVE_TERNARY() in _static_cpu_has()
-64d6217f74ec793cea193fb361c6f671f5ff598e x86/insn: Rename insn_decode() to insn_decode_from_regs()
-c994d4891f97c68f57e843a9179d1589d1874157 x86/insn: Add a __ignore_sync_check__ marker
-30202e65dd9d4cf1f2a8dc2483c944ffee096712 x86/insn: Add an insn_decode() API
-e329688a2addc0447cc893b6772bcc43181e2006 x86/insn-eval: Handle return values from the decoder
-9e2476fdef6217f365bf457786fd3e43dcdec5e5 x86/alternative: Use insn_decode()
-9cde2d524056763e7a08ee54130c4aa7af04603f x86: Add insn_decode_kernel()
-4254cea7bb57686981f1f6b836bdbaf43d677502 x86/alternatives: Optimize optimize_nops()
-c30a54f40dde8ef19a908f22acbce8a581ec1307 x86/retpoline: Simplify retpolines
-84283edb521f24c154dbfee037e3a6683a0cc5ec objtool: Correctly handle retpoline thunk calls
-b4b50336b9931544084f7da407fb67c2d23feb3b objtool: Handle per arch retpoline naming
-8fd2892fcd3149463f914662e950112362fe58ba objtool: Rework the elf_rebuild_reloc_section() logic
-2d480c0e632adbc6b726013513ff356efea63c22 objtool: Add elf_create_reloc() helper
-ee14ddde3c0a37069c239fb2d99618ac1fe56971 objtool: Create reloc sections implicitly
-34518c21927bea0e4aaf3e1ab113480fdfc48f2e objtool: Extract elf_strtab_concat()
-04ec940297527bbb6f06af70eea2cedb75c0b65e objtool: Extract elf_symbol_add()
-4968ff209506d955ee7a7b606102e462d8003449 objtool: Add elf_create_undef_symbol()
-5e8b1e09f97b0a5133d27824de59bbb93d9f794d objtool: Keep track of retpoline call sites
-1251bcb384ef52f3d5605960158fc019bcf2fbec objtool: Cache instruction relocs
-5810c74d264240b699f5ceebe41dabaa1c0e8d65 objtool: Skip magical retpoline .altinstr_replacement
-eb71c65a1b9dca1bb0247cac59d5840bac42b1a2 objtool/x86: Rewrite retpoline thunk calls
-761efe69b2471acc4452aba2624510d59a3a6b26 objtool: Support asm jump tables
-bbfdc685c57e49b1a0465dc8977ada18f0fbc45b x86/alternative: Optimize single-byte NOPs at an arbitrary position
-c7bd83e80e1d5cb18c36a7e7d749339084770c02 objtool: Fix .symtab_shndx handling for elf_create_undef_symbol()
-54ec803264dff61b421fcde7da3cc0c50808ed81 objtool: Only rewrite unconditional retpoline thunk calls
-c18208a96ea1c13901764da88ed8cc4a6d9afe91 objtool/x86: Ignore __x86_indirect_alt_* symbols
-9f01517345ff6059eac5ea2a7f7378c88d72a17d objtool: Don't make .altinstructions writable
-092d4453ba861f22f09cd227a7dfc65fd44b6b21 objtool: Teach get_alt_entry() about more relocation types
-a4572200e2b3c6fffc4395fd9a373403b40363e2 objtool: print out the symbol type when complaining about it
-0f30eac27d5a816f53bc0a79b9900afe223a2ced objtool: Remove reloc symbol type checks in get_alt_entry()
-bb8c620bf28dcc66800120a8a153a00d516b0224 objtool: Make .altinstructions section entry size consistent
-01b62ad1f3844f7c05c5de54347f204a602d572b objtool: Introduce CFI hash
-e77c55d0a8905a54154410e71a47c3c7cf8159dd objtool: Handle __sanitize_cov*() tail calls
-260457730161d5455d466fb3c9d8a7631d697d81 objtool: Classify symbols
-d82e11b877eb2f5ae0a102efc282c61c8c8f29db objtool: Explicitly avoid self modifying code in .altinstr_replacement
-146efd0d1e6e6d3403a634314fabbcd9a1078725 objtool,x86: Replace alternatives with .retpoline_sites
-745b917cb0e89ef56e638d3b75f412b779d4c62b x86/retpoline: Remove unused replacement symbols
-1d1c2fefe70b7214e825db35a8d814dcdc0f11be x86/asm: Fix register order
-29eeab94aa37793281a927171cb7545bbc3bdcb2 x86/asm: Fixup odd GEN-for-each-reg.h usage
-28fd5ba606ba0ad455d424d0df0b33897fcc779e x86/retpoline: Move the retpoline thunk declarations to nospec-branch.h
-cbcb56dd425f200847e46cb99c39beb4c63c1a17 x86/retpoline: Create a retpoline thunk array
-d78b688b72993fbb1725e0126bc94a91aa7ed22a x86/alternative: Implement .retpoline_sites support
-ab1c454e4ec58bc5cdf0c2f22134366d38f63a4d x86/alternative: Handle Jcc __x86_indirect_thunk_\reg
-a95a79ab9071ccf1ff19f50c6d9880a3a9a8ea67 x86/alternative: Try inline spectre_v2=retpoline,amd
-b29db3853f28d2a29ff2b803d3c6ce0ea01c4f8a x86/alternative: Add debug prints to apply_retpolines()
-8e0a46c4c68c428dc1848de931c65a03cf1993c6 bpf,x86: Simplify computing label offsets
-ce42f0cc9932e8b905c9581e40e799ee04bbde6d bpf,x86: Respect X86_FEATURE_RETPOLINE*
-8e26d93d4d3df5a4be8e076f17c0cc0458e37d20 x86/lib/atomic64_386_32: Rename things
-73fee952552a03a38891ff73c865249aeb31299e x86: Prepare asm files for straight-line-speculation
-33cd285f299441306dda693e5cd71aaf94bfd4ef x86: Prepare inline-asm for straight-line-speculation
-4e0e00ce59dd0cb164f6dd790c5ab625f770deb8 x86/alternative: Relax text_poke_bp() constraint
-a461cae0b986bffe0b8b15463a64c2f2a3b95efb objtool: Add straight-line-speculation validation
-3fd6cd2df121fb768e8f2ab6755113d24f173f56 x86: Add straight-line-speculation mitigation
-fbf31b05e4aa5c8a7648bf8caec350735c830bdf tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
-591ba52a0124c78124400d71bffca36dba1888a9 kvm/emulate: Fix SETcc emulation function offsets with SLS
-61c189bbdc8343cc2f2bdc84fc1a0af8a91982d5 objtool: Default ignore INT3 for unreachable
-d27e2e31b92c2977fe1feceadde1ba41b4b2d54e crypto: x86/poly1305 - Fixup SLS
-0b0739cd9443a138e6d705fbd6c2139e81b854d8 objtool: Fix SLS validation for kcov tail-call replacement
-53a7cd155daa27fe2b0ba8dfcb12395a265385b3 objtool: Fix code relocs vs weak symbols
-8e62601a63a10d762b7d1dfcb13a6c866756d2a9 objtool: Fix type of reloc::addend
-dd3a68b0d3ff3b042cd901712c9af1da134b5cf2 objtool: Fix symbol creation
-e769a314aeb1fd37e6a2da8175ea2f140c6d39fd x86/entry: Remove skip_r11rcx
-c6e287d3fa9fed2516552d68838bd77eaed0907f objtool: Fix objtool regression on x32 systems
-42228b4c9e71f31e6dbeee16d427e9ef0ad35694 x86/realmode: build with -D__DISABLE_EXPORTS
-d11f400a0179bb61dd51efbac1b10995c9647329 x86/kvm/vmx: Make noinstr clean
-0f35df568adfb5f87fd1a1d13e3635ece30c4ebd x86/cpufeatures: Move RETPOLINE flags to word 11
-1a82d1c90e65e938fbc4aa783b80768f157546f7 x86/retpoline: Cleanup some #ifdefery
-8e08d4ece2fb77c43a7d1ca3f1838228ba1faef7 x86/retpoline: Swizzle retpoline thunk
-8196ce330e721300d1e858b13a802c41bab69619 Makefile: Set retpoline cflags based on CONFIG_CC_IS_{CLANG,GCC}
-a1e328f16ecac9e44a4e2d9f3b5e6c4ee6fce81d x86/retpoline: Use -mfunction-return
-6ec8bdb5ee8ca96f51a1dbfea5e96bc45bdeb896 x86: Undo return-thunk damage
-d50f4b95758be80e55ce8965d11fb6ec1525a802 x86,objtool: Create .return_sites
-770f664c25a5cd48bf8841f3a5d32c3a93ede26b objtool: skip non-text sections when adding return-thunk sites
-88eb70c9309009497ac9c91b6660acf681fd8a3b x86,static_call: Use alternative RET encoding
-194d6bf4fb2ad1f253702739c6c297fe16a5a4c3 x86/ftrace: Use alternative RET encoding
-0045ffe0407d4809e3ca6a55453d556fdb9e4833 x86/bpf: Use alternative RET encoding
-148e4328176c34886c2ebc31fc14ccb4335fc1c7 x86/kvm: Fix SETcc emulation for return thunks
-e7020e50338f931f437126dd69fa036a00e808af x86/vsyscall_emu/64: Don't use RET in vsyscall emulation
-1d129716bffe4141b68446adaaa46c2057ed062a x86/sev: Avoid using __x86_return_thunk
-1746c2a43eb2c52c36a8f88b6c47538fbf962a70 x86: Use return-thunk in asm code
-818de9a3248e7948f5ec149e6d021bae0b408d72 objtool: Treat .text.__x86.* as noinstr
-66af61e9cf25357f029bbde113c22f96b031a9c8 x86: Add magic AMD return-thunk
-68953cb6eb2aedc72962718f3ad12999f2b377aa x86/bugs: Report AMD retbleed vulnerability
-ea70f4eaeb7f597cf8bb2dcbd00b0c59b728c359 x86/bugs: Add AMD retbleed= boot parameter
-914063c9837a32aaed517cd75b7bcbe8f2d48809 x86/bugs: Enable STIBP for JMP2RET
-6bbe640a77faf743e242fd1df49dc63c02268ebb x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
-eb0b7b89ef8b5eeb6cf1b72b38ee905d1de85cd5 x86/entry: Add kernel IBRS implementation
-95664c6cbd86d64c18caa349794f1243673e3ba0 x86/bugs: Optimize SPEC_CTRL MSR writes
-4f542baf85123d740fa06621d591f511818394dd x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
-26e046aa3fc8a774e73293b2de5c4442d47ac272 x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
-2c43b7608b755d0c2078dcc6b5b72849a3a60782 x86/bugs: Report Intel retbleed vulnerability
-bbbca28bd7e204d0d3f58af87f04a9c27dc36621 intel_idle: Disable IBRS during long idle
-8d970dd47797d2271b042c80acffcf56c4022658 objtool: Update Retpoline validation
-9dba9912841b60d514513ea1640a79f8ca0fa52a x86/xen: Rename SYS* entry points
-f3b208289ba96c3deb343e96dc2aac1c01d917c1 x86/bugs: Add retbleed=ibpb
-cfaa45cd818fc27d578858348c55376240f964b4 x86/bugs: Do IBPB fallback check only once
-39df8e8efc1702e20f93028788518b3efa253292 objtool: Add entry UNRET validation
-897b8e882a71833a0a0a01f4bf729b86a2ca7e9b x86/cpu/amd: Add Spectral Chicken
-d1a508ad3fe8e5e83371eda47ebf777abd901b9a x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
-f31ad508e2c8231a1dc94af2aeae4d851390fae1 x86/speculation: Fix firmware entry SPEC_CTRL handling
-6695eb41b9b9aba1e80ce692ad40db54300b7b69 x86/speculation: Fix SPEC_CTRL write on SMT state change
-ee94c547f68b7fcefef398691c5ae0f1c85c8142 x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
-9772df5efb5e53cc00f6972258d2f4a789f94534 x86/speculation: Remove x86_spec_ctrl_mask
-84c8f76677a7a778b9aaf801133f155df5034596 objtool: Re-add UNWIND_HINT_{SAVE_RESTORE}
-1e76c86315e0c074bf380a0fc9fdc21a71c2835b KVM: VMX: Flatten __vmx_vcpu_run()
-18bdb3dabbf0b68abe4a5ec1a666e645cfa685dc KVM: VMX: Convert launched argument to flags
-cc8841487a0c17c9476f6e4c30e672f3e9827e9d KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
-828bc758e0aff0fd44dcefefc2ca8592b7c0ec1e KVM: VMX: Fix IBRS handling after vmexit
-3f88eea7da981fdb8fd956addb3779716328681f x86/speculation: Fill RSB on vmexit for IBRS
-3c44bc3b38b1705c031bc3f5c15d790ddb45566e x86/common: Stamp out the stepping madness
-f4dd2b8f4fc611ef04ad08ddfcb6e6a156a5eaa5 x86/cpu/amd: Enumerate BTC_NO
-b34aca7cd9aa9d6e838796f32bf7a6764bc19b4a x86/retbleed: Add fine grained Kconfig knobs
-30fcf2ece1c2fabde7fe99682b24796a6a5abe18 x86/bugs: Add Cannon lake to RETBleed affected CPU list
-8f83cdc93296d62cdcced472f9d49477168a57bb x86/bugs: Do not enable IBPB-on-entry when IBPB is not supported
-5bfe48cfff4792fd64b41dec4b37e8e98a60dcb5 x86/kexec: Disable RET on kexec
-a30087db194d2119c5e8366d579580588761b0ef x86/speculation: Disable RRSBA behavior
-c9b8fd13f80921dc1ca554709b268497e3b1de97 x86/static_call: Serialize __static_call_fixup() properly
-ba398a0e54049bb6a1c102245ae84103f103ff2c Linux 5.10.131-rc1
+742ab6df974ae8384a2dd213db1a3a06cf6d8936 x86/kvm/vmx: Make noinstr clean
+a883d624aed463c84c22596006e5a96f5b44db31 x86/cpufeatures: Move RETPOLINE flags to word 11
+369ae6ffc41a3c1137cab697635a84d0cc7cdcea x86/retpoline: Cleanup some #ifdefery
+00e1533325fd1fb5459229fe37f235462649f668 x86/retpoline: Swizzle retpoline thunk
+0b53c374b9eff2255a386f1f1cfb9a928e52a5ae x86/retpoline: Use -mfunction-return
+15e67227c49a57837108acfe1c80570e1bd9f962 x86: Undo return-thunk damage
+d9e9d2300681d68a775c28de6aa6e5290ae17796 x86,objtool: Create .return_sites
+ee88d363d15617ff50ac24fab0ffec11113b2aeb x86,static_call: Use alternative RET encoding
+1f001e9da6bbf482311e45e48f53c2bd2179e59c x86/ftrace: Use alternative RET encoding
+d77cfe594ad50e0bf95d457e02ccd578791b2a15 x86/bpf: Use alternative RET encoding
+af2e140f34208a5dfb6b7a8ad2d56bda88f0524d x86/kvm: Fix SETcc emulation for return thunks
+15583e514eb16744b80be85dea0774ece153177d x86/vsyscall_emu/64: Don't use RET in vsyscall emulation
+0ee9073000e8791f8b134a8ded31bcc767f7f232 x86/sev: Avoid using __x86_return_thunk
+aa3d480315ba6c3025a60958e1981072ea37c3df x86: Use return-thunk in asm code
+7c81c0c9210c9bfab2bae76aab2999de5bad27db x86/entry: Avoid very early RET
+951ddecf435659553ed15a9214e153a3af43a9a1 objtool: Treat .text.__x86.* as noinstr
+a149180fbcf336e97ce4eb2cdc13672727feb94d x86: Add magic AMD return-thunk
+6b80b59b3555706508008f1f127b5412c89c7fd8 x86/bugs: Report AMD retbleed vulnerability
+7fbf47c7ce50b38a64576b150e7011ae73d54669 x86/bugs: Add AMD retbleed= boot parameter
+e8ec1b6e08a2102d8755ccb06fa26d540f26a2fa x86/bugs: Enable STIBP for JMP2RET
+caa0ff24d5d0e02abce5e65c3d2b7f20a6617be5 x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
+2dbb887e875b1de3ca8f40ddf26bcfe55798c609 x86/entry: Add kernel IBRS implementation
+c779bc1a9002fa474175b80e72b85c9bf628abb0 x86/bugs: Optimize SPEC_CTRL MSR writes
+7c693f54c873691a4b7da05c7e0f74e67745d144 x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
+166115c08a9b0b846b783088808a27d739be6e8d x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
+6ad0ad2bf8a67e27d1f9d006a1dabb0e1c360cc3 x86/bugs: Report Intel retbleed vulnerability
+bf5835bcdb9635c97f85120dba9bfa21e111130f intel_idle: Disable IBRS during long idle
+9bb2ec608a209018080ca262f771e6a9ff203b6f objtool: Update Retpoline validation
+b75b7f8ef1148be1b9321ffc2f6c19238904b438 x86/xen: Rename SYS* entry points
+d147553b64bad34d2f92cb7d8ba454ae95c3baac x86/xen: Add UNTRAIN_RET
+3ebc170068885b6fc7bedda6c667bb2c4d533159 x86/bugs: Add retbleed=ibpb
+0fe4aeea9c01baabecc8c3afc7889c809d939bc2 x86/bugs: Do IBPB fallback check only once
+a09a6e2399ba0595c3042b3164f3ca68a3cff33e objtool: Add entry UNRET validation
+d7caac991feeef1b871ee6988fd2c9725df09039 x86/cpu/amd: Add Spectral Chicken
+b2620facef4889fefcbf2e87284f34dcd4189bce x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
+e6aa13622ea8283cc699cac5d018cc40a2ba2010 x86/speculation: Fix firmware entry SPEC_CTRL handling
+56aa4d221f1ee2c3a49b45b800778ec6e0ab73c5 x86/speculation: Fix SPEC_CTRL write on SMT state change
+bbb69e8bee1bd882784947095ffb2bfe0f7c9470 x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
+acac5e98ef8d638a411cfa2ee676c87e1973f126 x86/speculation: Remove x86_spec_ctrl_mask
+8faea26e611189e933ea2281975ff4dc7c1106b6 objtool: Re-add UNWIND_HINT_{SAVE_RESTORE}
+8bd200d23ec42d66ccd517a72dd0b9cc6132d2fd KVM: VMX: Flatten __vmx_vcpu_run()
+bb06650634d3552c0f8557e9d16aa1a408040e28 KVM: VMX: Convert launched argument to flags
+fc02735b14fff8c6678b521d324ade27b1a3d4cf KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
+bea7e31a5caccb6fe8ed989c065072354f0ecb52 KVM: VMX: Fix IBRS handling after vmexit
+9756bba28470722dacb79ffce554336dd1f6a6cd x86/speculation: Fill RSB on vmexit for IBRS
+07853adc29a058c5fd143c14e5ac528448a72ed9 KVM: VMX: Prevent RSB underflow before vmenter
+7a05bc95ed1c5a59e47aaade9fb4083c27de9e62 x86/common: Stamp out the stepping madness
+26aae8ccbc1972233afd08fb3f368947c0314265 x86/cpu/amd: Enumerate BTC_NO
+f43b9876e857c739d407bc56df288b0ebe1a9164 x86/retbleed: Add fine grained Kconfig knobs
+144248515246e52a3706de1ee928af29a63794b8 drm: panel-orientation-quirks: Add quirk for the Lenovo Yoga Tablet 2 830
+bf43e4521ff3223a613f3a496991a22a4d78e04b drm/aperture: Run fbdev removal before internal helpers
+591129d3db266648823bb953ebbc28c92e059bf3 drm/bridge: fsl-ldb: Fix mode clock rate validation
+57ef278ef125e9188474a164f35dcffc69836d01 drm/bridge: fsl-ldb: Enable split mode for LVDS dual link
+1dbc790b4d416dacb124a6acd05f88a0bcf3be39 drm/bridge: fsl-ldb: Drop DE signal polarity inversion
+8490cad4dc4e2ee265ba9e12cd47bdfd6b9a3d34 drm/rockchip: Detach from ARM DMA domain in attach_device
+fb6e0637ab7ebd8e61fe24f4d663c4bae99cfa62 drm/panfrost: Put mapping instead of shmem obj on panfrost_mmu_map_fault_addr() error
+9fc33eaaa979d112d10fea729edcd2a2e21aa912 drm/panfrost: Fix shrinker list corruption by madvise IOCTL
+f9a89117fbdc63c0d4ab63a8f3596a72c245bcfe drm/amdgpu: keep fbdev buffers pinned during suspend
+3a4b1cc28fbdc2325b3e3ed7d8024995a75f9216 drm/amdgpu/display: disable prefer_shadow for generic fb helpers
+85144df9ff4652816448369de76897c57cbb1b93 drm/i915: fix a possible refcount leak in intel_dp_add_mst_connector()
+25c95bf494067f7bd1dfa8064ef964abe88cafc2 drm/i915/guc: ADL-N should use the same GuC FW as ADL-S
+12058077b2e963d16d2d673d46233a7f46add7c9 drm/i915: Fix vm use-after-free in vma destruction
+7c1aeba7bb977fe327fbc9682e9ccb36134cbf77 dma-buf: Fix one use-after-free of fence
+b68277f19e31a25312c4acccadb5cf1502e52e84 drm/ssd130x: Fix pre-charge period setting
+f54d45372c6ac9c993451de5e51312485f7d10bc x86/bugs: Add Cannon lake to RETBleed affected CPU list
+2c08b9b38f5b0f4a6c2d29be22b695e4ec4a556b x86/entry: Move PUSH_AND_CLEAR_REGS() back into error_entry
+2259da159fbe5dba8ac00b560cf00b6a6537fa18 x86/bugs: Do not enable IBPB-on-entry when IBPB is not supported
+4a47c6385bb4e0786826e75bd4555aba32953653 ovl: turn of SB_POSIXACL with idmapped layers temporarily
+697977d8415d61f3acbc4ee6d564c9dcf0309507 x86/kexec: Disable RET on kexec
+4ad3278df6fe2b0852b00d5757fc2ccd8e92c26e x86/speculation: Disable RRSBA behavior
+7de96365878f769f21eae8205fc58f7f61250745 Merge tag 'amd-drm-fixes-5.19-2022-07-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+42e0a87233e373e1c0d0831d342294b1ba103d23 Merge tag 'drm-intel-fixes-2022-07-07' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+3590b44b9434af1b9c81c3f40189087ed4fe3635 Merge tag 'drm-misc-fixes-2022-07-07-1' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
+ce114c866860aa9eae3f50974efc68241186ba60 Merge tag 'x86_bugs_retbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c27c753ea6fd1237f4f96abf8b623d7bab505513 x86/static_call: Serialize __static_call_fixup() properly
+0d8ba24e72b6ec45b1d62148c711bad54483b29a Merge tag 'x86_bugs_retbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+29851567d1aa8f0045170545d2e1a5d7a4057667 Merge tag 'drm-fixes-2022-07-12' of git://anongit.freedesktop.org/drm/drm
+72a8e05d4f66b5af7854df4490e3135168694b6b Merge tag 'ovl-fixes-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
 
---===============7298782077071074126==--
+--===============3900615888891070899==--
