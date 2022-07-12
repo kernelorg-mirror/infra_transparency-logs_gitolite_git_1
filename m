@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Tue, 12 Jul 2022 20:38:29 -0000
-Message-Id: <165765830927.14515.548002057240783384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 12 Jul 2022 20:50:03 -0000
+Message-Id: <165765900376.24130.94190564449277273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/ftrace/urgent
-    old: 0dca9c5ddbec2ad660570514a6670b8612caf2f6
-    new: 1e1fb420fe68d9d938db360fec700dfd230cc22a
+  - ref: refs/heads/for-5.20/block
+    old: f3ec5d11554778c24ac8915e847223ed71d104fc
+    new: 939f9dd040fe1063d884f8f0f89b037093fe2341
     log: |
-         7edc3945bdce9c39198a10d6129377a5c53559c2 tracing/histograms: Fix memory leak problem
-         495fcec8648cdfb483b5b9ab310f3839f07cb3b8 tracing: Fix sleeping while atomic in kdb ftdump
-         0a6d7d45414a77876e8e9a77e454af754cea3a60 ftrace: Be more specific about arch impact when function tracer is enabled
-         0bb7e14c8e15ad78b7300e7d89a615ea8b8c89a9 blk-iocost: tracing: atomic64_read(&ioc->vtime_rate) is assigned an extra semicolon
-         e3655dfa58053d614ca9601c36657b469402650f fprobe/samples: Make sample_probe static
-         1e1fb420fe68d9d938db360fec700dfd230cc22a samples: Use KSYM_NAME_LEN for kprobes
+         f4b1e27db49c8b985b116aa99481b4c6a4342ed4 block/rq_qos: Use atomic_try_cmpxchg in atomic_inc_below
+         939f9dd040fe1063d884f8f0f89b037093fe2341 block: Use try_cmpxchg in update_io_ticks
+         
+  - ref: refs/heads/for-next
+    old: 3fa92bb834a4171c699165c9fc03c502a1a4d520
+    new: 97f87b84481a82e2c33dab5d3552f64988bbcc59
+    log: |
+         f4b1e27db49c8b985b116aa99481b4c6a4342ed4 block/rq_qos: Use atomic_try_cmpxchg in atomic_inc_below
+         939f9dd040fe1063d884f8f0f89b037093fe2341 block: Use try_cmpxchg in update_io_ticks
+         97f87b84481a82e2c33dab5d3552f64988bbcc59 Merge branch 'for-5.20/block' into for-next
          
