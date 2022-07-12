@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 12 Jul 2022 21:50:02 -0000
-Message-Id: <165766260299.31353.8768273741423101383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 12 Jul 2022 22:09:27 -0000
+Message-Id: <165766376763.9721.6032674607489634858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-5.20/block
-    old: 939f9dd040fe1063d884f8f0f89b037093fe2341
-    new: 96388f57d2aad9836b2c589181fa1dbaba4066b4
+  - ref: refs/heads/dev-queue
+    old: 62d90f54ba4d9a513a3205fcf35ab07297aa8b3f
+    new: b027364beed35abaf800a236ab9906b70255dada
     log: |
-         aee8960c2eae12636040dbf0f04e135273b1612d blk-iolatency: Use atomic{,64}_try_cmpxchg
-         96388f57d2aad9836b2c589181fa1dbaba4066b4 blk-cgroup: Use atomic{,64}_try_cmpxchg
-         
-  - ref: refs/heads/for-next
-    old: 97f87b84481a82e2c33dab5d3552f64988bbcc59
-    new: 5ad3a1d30b369246727cac243ecad3cd324a0d17
-    log: |
-         aee8960c2eae12636040dbf0f04e135273b1612d blk-iolatency: Use atomic{,64}_try_cmpxchg
-         e9479ba901c7338ae473d7328a06adcf949bd77f Merge branch 'for-5.20/block' into for-next
-         96388f57d2aad9836b2c589181fa1dbaba4066b4 blk-cgroup: Use atomic{,64}_try_cmpxchg
-         5ad3a1d30b369246727cac243ecad3cd324a0d17 Merge branch 'for-5.20/block' into for-next
+         9b4e30e2ca481a747e3acfa45b284b83139728e7 ice: Fix max VLANs available for VF
+         f886d89fd56e075aae70a634f7b4678cea14e8a1 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+         ab16d8e7bbe19dafa53386b77bbe059d685419d3 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+         b3ba9c28e61e452ac4922939576f3ac54274a9a4 ice: do not setup vlan for loopback VSI
+         f4c9b7bc3a4b19c8e8685d928f18bafb3a4dcdd7 ice: Fix double VLAN error when entering promisc mode
+         c85a669477d2608a336d6fe13348e675b76ed1a6 ice: Ignore -EEXIST when setting promisc mode
+         ceb3d265dea39a38dcb7d8281d0816de0dac0af6 ice: Fix clearing of promisc mode with bridge over bond
+         b027364beed35abaf800a236ab9906b70255dada ice: xsk: use Rx ring when picking NAPI context
          
