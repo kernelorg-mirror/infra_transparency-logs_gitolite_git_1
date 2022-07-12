@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
-Date: Tue, 12 Jul 2022 13:21:09 -0000
-Message-Id: <165763206978.28131.3356523518067600820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 12 Jul 2022 13:23:42 -0000
+Message-Id: <165763222211.28992.5357543767132727385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/ovl-fixes-5.19-rc7
+  - ref: refs/heads/20220712_peter_ujfalusi_asoc_sof_intel_hda_dai_no_need_to_decouple_host_link_dma_twice
     old: 0000000000000000000000000000000000000000
-    new: 16b2723e7eeff547222356d0a07d2f76328f2be0
+    new: fbabebfb26a8130c10fd91cca687bac87944580d
