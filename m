@@ -1,26 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 12 Jul 2022 15:07:37 -0000
-Message-Id: <165763845754.21256.5537547965714667135@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4856690045437712778=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 12 Jul 2022 15:10:14 -0000
+Message-Id: <165763861464.23640.1423380157710000799@gitolite.kernel.org>
+
+--===============4856690045437712778==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 509e483819e8592224408885c4a046b7f403b439
-    new: 1e5fb38442ebaabb65057c2e58355ee36c2a178f
+  - ref: refs/heads/for-5.20
+    old: 388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2
+    new: 67e1b7700cb9cb5ca0cbdb2137533568b427e541
     log: |
-         2083da24eb56ce622332946800a67a7449d85fe5 OPP: Allow multiple clocks for a device
-         274c3e83e7d9bf4361fd30648f5c9414c806135c OPP: Compare bandwidths for all paths in _opp_compare_key()
-         e10a46443f767cc6be201a10c767745f0afc04ac OPP: Add key specific assert() method to key finding helpers
-         f123ea74511dfab70598cd584a11ad596454a689 OPP: Assert clk_count == 1 for single clk helpers
-         8174a3a613af1a911ab19da812824f7180b261f9 OPP: Provide a simple implementation to configure multiple clocks
-         2f71ae1a9e75a675dfc9da03f5e191e858d1126f OPP: Allow config_clks helper for single clk case
-         1b195626850d90663d17299bd378db30f23307e4 PM / devfreq: tegra30: Register config_clks helper
-         1e5fb38442ebaabb65057c2e58355ee36c2a178f OPP: Remove dev{m}_pm_opp_of_add_table_noclk()
+         57724db17a946476f11c1b1be9750bc0cf877adc ASoC: SOF: Intel: hda: Introduce skip_imr_boot flag
+         4ccf0949cd364811217a0e61754ff7e52cb4f0e4 ASoC: soc-pcm: demote warnings on non-atomic BE connection
+         98418a08a20d3a72e14d88ccb3a48d0bf961ab6a ASoC: SOF: topology: remove unused variable
+         67e1b7700cb9cb5ca0cbdb2137533568b427e541 ASoC: SOF: Intel: hda: Use cold/purge boot after firmware crash
          
+
+--===============4856690045437712778==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1657638613 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1657638612-1feb08dfd5dec98dbf86666ebe2fc905b734ef64
+
+388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2 67e1b7700cb9cb5ca0cbdb2137533568b427e541 refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLNjtUACgkQJNaLcl1U
+h9CGmgf7B0QseaeJ44hbguvv8ljflCZPKnBawGtTy5PF0EWtgSI6jyVXZP0YtV9y
+VrjFHOzrLH4nXcSl0xfwMbNj9ov1auhr74coQg6gzvlKyxAs/8YI0fC84aM+h/Dt
+bIRMoOhxOTea0+7mRbA/9A0RepeSp3Qm5XvX4j1DK5LnMPH5/ylnAby9211BNXku
+x9USazA1Kdurb9KNFCBpyMJklfuvgGKWJb7wlprewOyZlQwe4fKdUKQRrRRx/4Ok
+DHRux63m+5UfRz4wyp2TrjPLM+K4umSRPk6k2WAibHKPp7MS+J2o1fqRRK45mKWv
+u7Clx/Ka3o4kh+mfrfvm+yQ0m9jTig==
+=OMud
+-----END PGP SIGNATURE-----
+
+--===============4856690045437712778==--
