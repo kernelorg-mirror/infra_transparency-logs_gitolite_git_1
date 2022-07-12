@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4856690045437712778=="
+Content-Type: multipart/mixed; boundary="===============5487311399103358902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Jul 2022 15:10:14 -0000
-Message-Id: <165763861464.23640.1423380157710000799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Jul 2022 15:10:20 -0000
+Message-Id: <165763862099.23737.18087523949632434109@gitolite.kernel.org>
 
---===============4856690045437712778==
+--===============5487311399103358902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: 388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2
     new: 67e1b7700cb9cb5ca0cbdb2137533568b427e541
     log: |
@@ -26,28 +26,28 @@ changes:
          67e1b7700cb9cb5ca0cbdb2137533568b427e541 ASoC: SOF: Intel: hda: Use cold/purge boot after firmware crash
          
 
---===============4856690045437712778==
+--===============5487311399103358902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657638613 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1657638612-1feb08dfd5dec98dbf86666ebe2fc905b734ef64
+pusher C3F436CA30F5D8EB 1657638619 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1657638619-fb1e4d5330490d80fe3648369a183e3f20e3b9d5
 
-388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2 67e1b7700cb9cb5ca0cbdb2137533568b427e541 refs/heads/for-5.20
+388fe2b8a3a0f597b2680e8f1ef5324e1db76ed2 67e1b7700cb9cb5ca0cbdb2137533568b427e541 refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLNjtUACgkQJNaLcl1U
-h9CGmgf7B0QseaeJ44hbguvv8ljflCZPKnBawGtTy5PF0EWtgSI6jyVXZP0YtV9y
-VrjFHOzrLH4nXcSl0xfwMbNj9ov1auhr74coQg6gzvlKyxAs/8YI0fC84aM+h/Dt
-bIRMoOhxOTea0+7mRbA/9A0RepeSp3Qm5XvX4j1DK5LnMPH5/ylnAby9211BNXku
-x9USazA1Kdurb9KNFCBpyMJklfuvgGKWJb7wlprewOyZlQwe4fKdUKQRrRRx/4Ok
-DHRux63m+5UfRz4wyp2TrjPLM+K4umSRPk6k2WAibHKPp7MS+J2o1fqRRK45mKWv
-u7Clx/Ka3o4kh+mfrfvm+yQ0m9jTig==
-=OMud
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLNjtsACgkQJNaLcl1U
+h9BKjQf+L3FAdzjqq9jN+/tHOwjpPJA/zd+h5zmo+aYfaDZeTJakxO43JNqz8Kys
+n+TRGzG5phrBlrl4pupz4j+nSvjtE9cL7dNXV4D/o9h2dThiq3HkycNnMnOHX4ig
+xQGVqhepoRrhW3p0EAY3AeRELRwMfZ6VNMg/bH5SHX8xQgbML3u9szZLnOhtXbRB
+wSYyujhVsXbHpOxvrr/cvkAD5ZUoXUE0O256r+Kt0vybgHDKTAr/diwIKVxK0wrt
+TnwKC98rYdbupCj8yQsmKSIo14jzPh8qX84QKvSKbjOqiyp7Gi2ODD/8KWwy8onN
+1u09/5Q8YkTEr1I9Czs2f+Vz8IwlvQ==
+=Ft1U
 -----END PGP SIGNATURE-----
 
---===============4856690045437712778==--
+--===============5487311399103358902==--
