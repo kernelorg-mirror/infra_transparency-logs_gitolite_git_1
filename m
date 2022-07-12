@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1451568051296983011=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 12 Jul 2022 07:07:39 -0000
-Message-Id: <165760965974.23180.4432251321611900512@gitolite.kernel.org>
-
---===============1451568051296983011==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Tue, 12 Jul 2022 07:11:24 -0000
+Message-Id: <165760988493.25943.6465506352059818199@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 7e724422a7e9dfc8229ba90ee95aaafb902a788b
-    new: 3af0b1d34a07f89651b4a37295da34a3dd3f2e79
+  - ref: refs/heads/icc-next
+    old: 9f8c52f9a24b3973ddcddb06ad43f02602e9f7c8
+    new: a6339ac8a1048f316c95c3fcbe22497cfdcc8da0
     log: |
-         3af0b1d34a07f89651b4a37295da34a3dd3f2e79 drivers: mcb: directly use ida_alloc()/free()
+         76a748e2c1aa976d0c7fef872fa6ff93ce334a8a interconnect: qcom: msm8939: Use icc_sync_state
+         2be9e847070939c50d745e68815e673960586ac2 Merge branch 'icc-sm6350' into icc-next
+         5e47c7f85cc03edc4462eeccd39fa0f2d4c0aac9 Merge branch 'icc-imx8mp' into icc-next
+         751f4d14cdb47df3721d1a7431cc1d5a790f9302 interconnect: icc-rpm: Set destination bandwidth as well as source bandwidth
+         2c510f5bee760a83b1ce0790dcccb8301dd41ce8 dt-bindings: interconnect: Update property for icc-rpm path tag
+         cb4805b5a5e44063d2b194d97e705888eaf59005 interconnect: qcom: Move qcom_icc_xlate_extended() to a common file
+         ad510e4ed2a3b6f195c2aed6fe21a311440b489b interconnect: qcom: icc-rpm: Change to use qcom_icc_xlate_extended()
+         dcbce7b0a79cc5bc16759079090e1a3aa8dfea34 interconnect: qcom: icc-rpm: Support multiple buckets
+         e3305daad62c90068e755cdae36a86ac4f02af22 interconnect: qcom: icc-rpm: Set bandwidth and clock for bucket values
+         a6339ac8a1048f316c95c3fcbe22497cfdcc8da0 Merge branch 'icc-rpm' into icc-next
          
-
---===============1451568051296983011==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657609657 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657609655-59628bc997c11b1eaea0bab318bd09173d15b725
-
-7e724422a7e9dfc8229ba90ee95aaafb902a788b 3af0b1d34a07f89651b4a37295da34a3dd3f2e79 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNHbkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nfIQAKXf3W1AyQJNXFoPt6Ye
-wG2mB2gUToJbxYJGBD4I6NrK+tWWZs8wgWjbBxls7XdlU0QO6/moAzqN07FFjvI0
-rsmv5aTucWyJIGABNjq7q3jOISdAocvBYHDPZ1CeFKhhF3puwVrtEt/HRwTnW7az
-iiuT49fq74VMz/TO8QoLFqLjDPWxIWfcLqMxzgU7jrdJPFEsvIVvaTTZZW59ZAKh
-bWmrZTvdFUhSQoIiC7CKkbf99FqbxndZKn3eprf7YTfkelS7GVDN++TQO1c/B57X
-OCkYQYhLOB35f6/C45yqwP7pmNgDclMgSngZUWh0Z7TY46xbV21xjLMmhJWiU+OW
-I+QQ6s7KuOuvFMMsjwxUx74zkIWLa1DI0lTLrCxg3GSE3u6clgmtqVP91Ox5unRe
-6Y90s/CaPOcgjsHmRFhqHHsT5SKizWtU4J4lBOcqImmYjLx/lD3ObvLJAKwE7hgP
-GWd5wDTaHIcMeHFV3tlnIiX1wHkn5RtEgj0gLFJhTc+BpOSyPEEC6rQSY1N/JYEU
-gKgkpxR6yKRMKmx+FGI80+jOt5ijpoCf1mwwRp8kfUwOQdGBpKYL+Rv1IiCIF0Nt
-QBtK0uv+ZHMMMbUm0XX/zz1if3MDzCRxykbKkeoJs1AqDZ3CyCbBWtRMekh5SbhA
-WbW7L1lA3d8eqZiSFRwZETcY
-=PSy4
------END PGP SIGNATURE-----
-
---===============1451568051296983011==--
