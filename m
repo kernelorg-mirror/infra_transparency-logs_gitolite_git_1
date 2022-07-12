@@ -1,132 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 12 Jul 2022 14:17:37 -0000
-Message-Id: <165763545754.32729.6371661852375817802@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1322185339085844684=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 12 Jul 2022 14:20:04 -0000
+Message-Id: <165763560406.2649.5568222359324041994@gitolite.kernel.org>
+
+--===============1322185339085844684==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1a55b69a0f8028150a9c93455f24617bc7c8bd61
-    new: 56d4e9924e1c94cde574fc0e78277f6d85dad8a8
-    log: |
-         8493f6afd502bd5441080ac60603a23d6d14698e Change size of requirement version to 1 byte.
-         13f6dfa61f0ed07eb6849a77e406edcbb528c3de Add proper version data to reencryption verification digest.
-         af68e8a1dacab650740e2f2c10911fc1df5b1ca9 Check for multiple online reencrypt requirement flags.
-         a60fd0a81bae98a4064b2553a865ae1bc5e5c763 Do not fail LUKS2 validation by newer online-reencrypt requirement.
-         56d4e9924e1c94cde574fc0e78277f6d85dad8a8 Add LUKS2 reencryption mangle tests.
-         
   - ref: refs/heads/master
-    old: 1a55b69a0f8028150a9c93455f24617bc7c8bd61
-    new: 56d4e9924e1c94cde574fc0e78277f6d85dad8a8
+    old: 66d6f7d4cfbac2b10b631ce7e8fe9675b22f2845
+    new: 4c6ac7955d5ca505245395a1bfb9b36f63b1e06a
     log: |
-         8493f6afd502bd5441080ac60603a23d6d14698e Change size of requirement version to 1 byte.
-         13f6dfa61f0ed07eb6849a77e406edcbb528c3de Add proper version data to reencryption verification digest.
-         af68e8a1dacab650740e2f2c10911fc1df5b1ca9 Check for multiple online reencrypt requirement flags.
-         a60fd0a81bae98a4064b2553a865ae1bc5e5c763 Do not fail LUKS2 validation by newer online-reencrypt requirement.
-         56d4e9924e1c94cde574fc0e78277f6d85dad8a8 Add LUKS2 reencryption mangle tests.
+         4c6ac7955d5ca505245395a1bfb9b36f63b1e06a drop powerpc vdso patches from 5.15 queue
          
-  - ref: refs/heads/remove-dracut-files
-    old: 533b7e51e4fbeda61fd4d77737702e257846b271
-    new: 8b4a7c563ab5585c987deb95f8c67c8b30e6286b
-    log: |
-         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
-         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
-         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
-         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
-         8b4a7c563ab5585c987deb95f8c67c8b30e6286b Remove dracut plugin that is obsolete and will not work with current reencrypt code.
-         
-  - ref: refs/heads/wip-luks2
-    old: cf9078445cc0901f13c501086ae1bcaec142e30c
-    new: 300162adb74783203e91b3d3d4577e37344b2d04
-    log: |
-         385ed16ecb13e476baf68c68e1b0a5746a32f5bc Fix man makefile and make dist.
-         aef256c2c7d3d70e32957292c92ae850b817c369 Do not use block formatting in adoc.
-         d5498cca8fadf5077ee3e75243c9ea2211e97e21 Remove unused ifdef::ALL_OPTIONS in man.
-         99a450f94a5d7b2828b189945269cb054302586e Remove extra space causing formatting to be ignored.
-         2296185728197ff1a9818abb27130d6ebc158c6f Fix bad references in manual pages.
-         300162adb74783203e91b3d3d4577e37344b2d04 Add missing actions to arguments' descriptions.
-         
-  - ref: refs/merge-requests/298/merge
-    old: 314840b4c2b85b20378cd2fcb361817bd5ac6037
-    new: 37ee71dbcbfcf1191cfd8268a198bc3a2d07999d
-    log: |
-         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
-         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
-         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
-         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
-         37ee71dbcbfcf1191cfd8268a198bc3a2d07999d Merge branch 'fvault2' into 'main'
-         
-  - ref: refs/merge-requests/343/merge
-    old: 6a3b4e89a7ff46bbdd3a7e151dd7db23a16a4277
-    new: 6db07cacad571bc2e2ae18a130bc2e5eda4f13bf
-    log: |
-         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
-         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
-         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
-         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
-         6db07cacad571bc2e2ae18a130bc2e5eda4f13bf Merge branch 'fuzzing' into 'main'
-         
-  - ref: refs/merge-requests/365/merge
-    old: 3db271b15c0ea931c6a4467bace9a10455f37947
-    new: 6d566f67dc3416393aceb935163c1aeed497a1b3
-    log: |
-         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
-         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
-         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
-         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
-         6d566f67dc3416393aceb935163c1aeed497a1b3 Merge branch 'ignore-system-fips-file' into 'main'
-         
-  - ref: refs/merge-requests/371/head
-    old: 533b7e51e4fbeda61fd4d77737702e257846b271
-    new: 8b4a7c563ab5585c987deb95f8c67c8b30e6286b
-    log: |
-         4507ced868d5ccd9fe0bfe67deb69a20a1a1a557 Report failure if userspace cannot use specified cipher.
-         5904516122bce644611ccbb27303a1a1ea9471a3 Skip reencryption test if required ciphers are not available in userspace.
-         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
-         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
-         8b4a7c563ab5585c987deb95f8c67c8b30e6286b Remove dracut plugin that is obsolete and will not work with current reencrypt code.
-         
-  - ref: refs/merge-requests/371/merge
-    old: 64772967ad9cc0d6e490e166bfee4b74b2486d15
-    new: 1f40a308328e1659b6551493c74723e9ba19e9b6
-    log: |
-         914f6212510eadeb29007ca0339e7991abbdf617 Do not use uninitialized memory for cipher check.
-         1a55b69a0f8028150a9c93455f24617bc7c8bd61 Fix leak of dm target structure.
-         8493f6afd502bd5441080ac60603a23d6d14698e Change size of requirement version to 1 byte.
-         13f6dfa61f0ed07eb6849a77e406edcbb528c3de Add proper version data to reencryption verification digest.
-         af68e8a1dacab650740e2f2c10911fc1df5b1ca9 Check for multiple online reencrypt requirement flags.
-         a60fd0a81bae98a4064b2553a865ae1bc5e5c763 Do not fail LUKS2 validation by newer online-reencrypt requirement.
-         56d4e9924e1c94cde574fc0e78277f6d85dad8a8 Add LUKS2 reencryption mangle tests.
-         8b4a7c563ab5585c987deb95f8c67c8b30e6286b Remove dracut plugin that is obsolete and will not work with current reencrypt code.
-         1f40a308328e1659b6551493c74723e9ba19e9b6 Merge branch 'remove-dracut-files' into 'main'
-         
-  - ref: refs/merge-requests/372/head
-    old: 0000000000000000000000000000000000000000
-    new: 56d4e9924e1c94cde574fc0e78277f6d85dad8a8
-  - ref: refs/merge-requests/372/merge
-    old: 0000000000000000000000000000000000000000
-    new: 8b79456b1e54f113aa87f1ad551a6c4aa33a84c6
-  - ref: refs/merge-requests/373/head
-    old: 0000000000000000000000000000000000000000
-    new: 385ed16ecb13e476baf68c68e1b0a5746a32f5bc
-  - ref: refs/merge-requests/373/merge
-    old: 0000000000000000000000000000000000000000
-    new: ec28a15691f07f94467bf504fc1d778a38f2e082
-  - ref: refs/merge-requests/374/head
-    old: 0000000000000000000000000000000000000000
-    new: 99a450f94a5d7b2828b189945269cb054302586e
-  - ref: refs/merge-requests/374/merge
-    old: 0000000000000000000000000000000000000000
-    new: bd18dbb99f58f939984e1389a982098323d7f574
-  - ref: refs/merge-requests/375/head
-    old: 0000000000000000000000000000000000000000
-    new: 300162adb74783203e91b3d3d4577e37344b2d04
-  - ref: refs/merge-requests/375/merge
-    old: 0000000000000000000000000000000000000000
-    new: b57210098291e1b68bf029e2d28befc9774531f2
+
+--===============1322185339085844684==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657635598 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1657635598-6969f4b2a04035af3fd0677afbc246349b70acb7
+
+66d6f7d4cfbac2b10b631ce7e8fe9675b22f2845 4c6ac7955d5ca505245395a1bfb9b36f63b1e06a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLNgw4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++L0P/R40Mg71+BaRClHE5WLC
+5oVlxuDT+xP6SZR4Fts+W239GvTy8RdCAZUEHkFegdbqPZol6p2OYg8/y3wtLJJh
+gdMxJhoeNomF5hgnjeG9kDyX7rP2ALGTCw7Gh9MR+IVlL+oQOlVK16kqonZPEgsm
+A9FeUvxzfvO28ap7O963LcbSNG9iDv9jFHzYRMfkUFEuQL2QpgbXM3CxBUEzPiFM
+/3jt2JMxKSpU0406WauHlefF3HZWve6s9SSBOCEBtB40xMDmCbyQntZ+W/GtWLA0
+80ZjgYEl03IgL/S5l9UH0BFeGfbspvBzqDzVwbhMx748l+6VglGQ739VK18vqaV0
+K1MU8w47q2F25LRVBpvcOUncwggVe3u0wjCzDmnXDs0YwCeAPMnY8mzf8LUdhBeK
+YrCC45CjWwOGjBKa9cNxvP/fQtj2vmKuz2u2PAYkTKyDEBIyzCR+DaMKvcJ4cCZH
+/cvtRJDgyCZgP5xMSNuSM8yX4YgXg86wDtByXbmH8WVoRwBAM9udZ5qn20JaxK7h
+xAvvXRZEuDN7TStd6KSvW8BDUy5ESXl5Zyh6TITdotVuMsUDfjVT4HQW3JdK9ama
+qCToKY4Huph43J3opGtw6UrtsS+8w3RMRc5RxLl+lUYiRuX70/eruKbMlWqKslBh
+q+Bp6SF82pF1yHJ63zMqNWUg
+=X+/w
+-----END PGP SIGNATURE-----
+
+--===============1322185339085844684==--
