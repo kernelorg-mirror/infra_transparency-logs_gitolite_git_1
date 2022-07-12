@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 12 Jul 2022 19:29:13 -0000
-Message-Id: <165765415300.1890.13438728903360570316@gitolite.kernel.org>
+Date: Tue, 12 Jul 2022 19:30:40 -0000
+Message-Id: <165765424014.3953.7821078553186586465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
+  - ref: refs/heads/next-integrity
     old: e56ed3d80c69511a4af9db0b76e54e6763a63ef1
     new: 607e6609ce9aea41f59954afa38534713144fcb5
     log: |
