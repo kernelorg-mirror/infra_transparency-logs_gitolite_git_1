@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Tue, 12 Jul 2022 19:08:02 -0000
-Message-Id: <165765288270.20153.9917756794888003451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 12 Jul 2022 19:18:15 -0000
+Message-Id: <165765349525.27673.6740160417769306716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/modules-next
-    old: c76654e22da1e0cb830bd0eb5832072fb76df358
-    new: 73b4fc92f97d775da26d86d2732497be6c610ec6
+  - ref: refs/heads/ch/for-jason
+    old: 96fa452fbfe5f6cffbd9b0f90b849f96d01ac0ea
+    new: 05213f7d1f8c0c27b176bb695fbed7bf0e4c517b
     log: |
-         73b4fc92f97d775da26d86d2732497be6c610ec6 module: Move module's Kconfig items in kernel/module/
+         05213f7d1f8c0c27b176bb695fbed7bf0e4c517b git: update to v2.37.1
          
