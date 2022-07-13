@@ -1,40 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 13 Jul 2022 19:14:24 -0000
-Message-Id: <165773966441.11789.7191964146056431950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 13 Jul 2022 19:15:02 -0000
+Message-Id: <165773970269.12891.6821702237328182805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: e71c5921cc5005d866e7acd0b501faff1f548897
-    new: 524b6b1a1288721f687931cf457a3216ad14742a
+  - ref: refs/heads/main
+    old: 8eff391a66baacb071f9a6a1aee957221303de05
+    new: d96dcff883454d6d192b5563245a974f22304681
     log: |
-         06d9fb48a80ca6e5a682889096e767ac125aa1b4 thermal: intel: x86_pkg_temp_thermal: Drop duplicate 'is' from comment
-         6d44371fbd7a84b54320b156c51b3b9e4d98981d Merge branch 'thermal-intel' into linux-next
-         fbd74d16890b9f5d08ea69b5282b123c894f8860 ACPI: CPPC: Fix enabling CPPC on AMD systems with shared memory
-         524b6b1a1288721f687931cf457a3216ad14742a Merge branch 'acpi-cppc' into linux-next
+         4034c548c24e2cf1fbbe18e3edddc7b3608af927 Update LUKS2 on-disk description.
+         d96dcff883454d6d192b5563245a974f22304681 Set 2.5.0-rc1 version.
          
-  - ref: refs/heads/linux-next
-    old: e71c5921cc5005d866e7acd0b501faff1f548897
-    new: 524b6b1a1288721f687931cf457a3216ad14742a
+  - ref: refs/heads/master
+    old: 8eff391a66baacb071f9a6a1aee957221303de05
+    new: d96dcff883454d6d192b5563245a974f22304681
     log: |
-         06d9fb48a80ca6e5a682889096e767ac125aa1b4 thermal: intel: x86_pkg_temp_thermal: Drop duplicate 'is' from comment
-         6d44371fbd7a84b54320b156c51b3b9e4d98981d Merge branch 'thermal-intel' into linux-next
-         fbd74d16890b9f5d08ea69b5282b123c894f8860 ACPI: CPPC: Fix enabling CPPC on AMD systems with shared memory
-         524b6b1a1288721f687931cf457a3216ad14742a Merge branch 'acpi-cppc' into linux-next
-         
-  - ref: refs/heads/testing
-    old: e71c5921cc5005d866e7acd0b501faff1f548897
-    new: 524b6b1a1288721f687931cf457a3216ad14742a
-    log: |
-         06d9fb48a80ca6e5a682889096e767ac125aa1b4 thermal: intel: x86_pkg_temp_thermal: Drop duplicate 'is' from comment
-         6d44371fbd7a84b54320b156c51b3b9e4d98981d Merge branch 'thermal-intel' into linux-next
-         fbd74d16890b9f5d08ea69b5282b123c894f8860 ACPI: CPPC: Fix enabling CPPC on AMD systems with shared memory
-         524b6b1a1288721f687931cf457a3216ad14742a Merge branch 'acpi-cppc' into linux-next
+         4034c548c24e2cf1fbbe18e3edddc7b3608af927 Update LUKS2 on-disk description.
+         d96dcff883454d6d192b5563245a974f22304681 Set 2.5.0-rc1 version.
          
