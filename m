@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 13 Jul 2022 15:02:06 -0000
-Message-Id: <165772452655.12821.5182813341848867714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 13 Jul 2022 15:11:50 -0000
+Message-Id: <165772511077.18903.11097270212545789459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/pagecaller
-    old: de987a7312cd3e22d7d6985225db9839c3bd9818
-    new: 7b43af7f4b48c1abb6df811dbaa644a0c7800366
+  - ref: refs/heads/master
+    old: 5219560da3ec62b00a2ea9de1767e0f596219fd5
+    new: 197331e87a2767d587c1f209cead1374d9e58cf4
     log: |
-         f6fac56556ce94b11f22dbb2442c61a7ade81c59 mm: add pagecaller core function
-         4c94316bc3660946fd42ec2bc6220e0d78c0c83d mm: add pagecaller base trace point
-         7b43af7f4b48c1abb6df811dbaa644a0c7800366 mm: vmstat: add pagecaller information
+         ab7b1cb740026df11b7b23be3fd400521158836a random: cap jitter samples per bit to factor of HZ
+         ea877a553fffbc3ce6493ad29e51bdb5c0379fdf random: remove CONFIG_ARCH_RANDOM
+         197331e87a2767d587c1f209cead1374d9e58cf4 x86/rdrand: Remove "nordrand" flag in favor of "random.trust_cpu"
          
