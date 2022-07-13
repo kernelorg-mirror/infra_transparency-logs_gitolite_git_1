@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 13 Jul 2022 00:22:38 -0000
-Message-Id: <165767175843.782.8458749574079454645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Jul 2022 00:29:44 -0000
+Message-Id: <165767218459.4506.14497144364063670436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: e93633d8d00597b6684b701ed3451fe20df06917
-    new: c41e933b1837342b74b11ffbd8dde9408ee4a957
+    old: 5022e221c98a609e0e5b0a73852c7e3d32f1c545
+    new: d7d27304a91e1b89025b8b691c08e1e5fde98deb
     log: |
-         c41e933b1837342b74b11ffbd8dde9408ee4a957 Wed Jul 13 12:21:58 AM UTC 2022
+         70991f1e68589b2d26b0e0857da3629f4a658a4d dt-bindings: net: convert sff,sfp to dtschema
+         7ff7c9922859838afa8cff55d6046f698016f19a dt-bindings: net: sff,sfp: rename example dt nodes to be more generic
+         dfa2854cbf92831ef492bd848eb4c2b0834c332c arch: arm64: dts: lx2160a-clearfog-itx: rename the sfp GPIO properties
+         4ce223e5ef70844505aee9780a9153b8d7866158 arch: arm64: dts: marvell: rename the sfp GPIO properties
+         d7d27304a91e1b89025b8b691c08e1e5fde98deb Merge branch 'dt-bindings-net-convert-sff-sfp-to-dtschema'
          
