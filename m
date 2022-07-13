@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7541767883235428342=="
+Content-Type: multipart/mixed; boundary="===============1594385882203966724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 Jul 2022 14:19:20 -0000
-Message-Id: <165772196090.16311.8734279468491650078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Jul 2022 14:19:26 -0000
+Message-Id: <165772196688.16435.6378400721918633212@gitolite.kernel.org>
 
---===============7541767883235428342==
+--===============1594385882203966724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/spi-5.20
     old: cdb0cc9379f1b4fa5ea3e0492bacf8008f3f4e5a
     new: 1ed34d367bad6329d656c9b6808b16cec3bfe040
     log: |
@@ -28,28 +28,28 @@ changes:
          1ed34d367bad6329d656c9b6808b16cec3bfe040 spi: microchip-core: fix and cleanups
          
 
---===============7541767883235428342==
+--===============1594385882203966724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657721959 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1657721959-a56265f9df902deaa5486b238c90d783d0b9f461
+pusher C3F436CA30F5D8EB 1657721965 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1657721965-254cc4b49c1cf1c680e4c6d05e478bd6df9c6168
 
-cdb0cc9379f1b4fa5ea3e0492bacf8008f3f4e5a 1ed34d367bad6329d656c9b6808b16cec3bfe040 refs/heads/for-5.20
+cdb0cc9379f1b4fa5ea3e0492bacf8008f3f4e5a 1ed34d367bad6329d656c9b6808b16cec3bfe040 refs/heads/spi-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLO1GcACgkQJNaLcl1U
-h9C1gwf+IbuFCa/QATym6BPOiRm9M1g3XugIsoZ4T2B9bRZf1wT9FpRNUeBgwV+0
-aLw872bzvxoIBnqTYuP03drFkx3OxhCCvY4Hvr3Y+0Ntk9sx+HGpONPEXhh2MdF6
-VDtqtTqRtJNjtKKXdTGoWD99ZXofMQjfWpY1OUn1Y4VoCCk+aAhcoTXxNBBOY1ml
-MsRYNinkfJgGR638KrGcwSSwgdK5iSW/1n35AogZ85ETzhP0jQ9P/1IQhtqQX7fh
-i6a0eicdcocgioKLVLKC4yspMw3p9wOFIUKEGZMuMMo5fK8UOzUdMKVzqZrJL9lE
-dzC16EXy89AodEThP8UzkgxEhYTnpw==
-=4sPZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLO1G0ACgkQJNaLcl1U
+h9BYiwf9ENTpDrlz4OsxQP7ayUxYYhN0J7H8rRVHzLOR+xjTMfz49RXJKUhNAGMA
+yZlBsPr15Do2etQYmnV7b+44Qvu2Okzb7pjvHRz6B0ztftCapHNZLXkhBVy22XdR
+0P+bUjRq1e7GRPB8TorUjPIYGv3UD//zftcBFvOgomfWx7hRJQ8GxaoN+3WAATVc
+NFfKFkL5whXmzohEthTD+hXzW6nj+3rMei1qkNKrL0bbAIDi8CiAYu5SfjLPUgRR
+SAjROs3BNvvSTzzxpTFzgrfS3qGx/L/5+r6IGFylrQqne4L4a1+3ZjZfvInSfQ0v
+kKacck8nwR5QNO2/pub4uUCNC3JTrA==
+=wrUd
 -----END PGP SIGNATURE-----
 
---===============7541767883235428342==--
+--===============1594385882203966724==--
