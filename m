@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Wed, 13 Jul 2022 18:31:07 -0000
-Message-Id: <165773706737.18190.6131853211205145301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 13 Jul 2022 18:40:36 -0000
+Message-Id: <165773763631.24087.17692975505331900069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/stable
-    old: 2e93dacc22850cafdea305dc4613c5a68a4cc5b9
-    new: 8d220293fd79448dcfc03e76410eb65055b6787e
+  - ref: refs/heads/master
+    old: 5c56f4f768db7e7a8e35aa890dd017aedbd2ae96
+    new: 6ffdfef4b8b6b3a5ec59c736d6538b6ed965cf1d
     log: |
-         8d220293fd79448dcfc03e76410eb65055b6787e wireguard: ratelimiter: use hrtimer in selftest
+         37edff595adaaf6bf1d06153b12b056460f2ec4a foo
+         6ffdfef4b8b6b3a5ec59c736d6538b6ed965cf1d foo
          
