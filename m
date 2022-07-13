@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 13 Jul 2022 15:56:31 -0000
-Message-Id: <165772779198.17844.8860120841162212117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 13 Jul 2022 16:21:27 -0000
+Message-Id: <165772928788.1763.4536787487623313079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/hyperv-next
-    old: bf28462e20b56c1d7c8dbf82367cd43ffbc8a1f1
-    new: e237eed373cc3ce433e2222f9cfc85e50ad785d7
+  - ref: refs/heads/pci/ctrl/qcom-pending
+    old: 8f5e9de5606eea8665bb0852bb5ff706a5b03bce
+    new: e83fa30a2faadafea3878bad5c25443b5ddcdda8
     log: |
-         e237eed373cc3ce433e2222f9cfc85e50ad785d7 Drivers: hv: Create debugfs file with hyper-v balloon usage information
+         e83fa30a2faadafea3878bad5c25443b5ddcdda8 dt-bindings: PCI: qcom: Fix reset conditional
          
