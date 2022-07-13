@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 13 Jul 2022 02:32:39 -0000
-Message-Id: <165767955925.27709.12513487302751879730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 13 Jul 2022 03:05:50 -0000
+Message-Id: <165768155048.17287.6247762011259397246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 28aa004b62610576a64d08de24b741fbda67c693
-    new: be66c181264a47fb60e1064a9dd38447863c3478
-    log: |
-         e23f2d4af5ee05f0d192ef9343709dd6022dfb94 Revert "scripts/mod/modpost.c: permit '.cranges' secton for sh64 architecture."
-         be66c181264a47fb60e1064a9dd38447863c3478 kbuild: dummy-tools: avoid tmpdir leak in dummy gcc
-         
+  - ref: refs/tags/qcom-dts-fixes-for-5.19
+    old: 0000000000000000000000000000000000000000
+    new: 7182c74adb92cd4bbf499841accb65502ec193ac
