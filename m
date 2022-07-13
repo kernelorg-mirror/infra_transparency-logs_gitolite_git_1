@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Wed, 13 Jul 2022 13:25:39 -0000
-Message-Id: <165771873940.13627.18253587052644807172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 13 Jul 2022 13:29:50 -0000
+Message-Id: <165771899067.14938.4309077453307020674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: 5efab5cdf06b932ba7a53264b60f7d5c6ec87edf
-    new: c0da6efc74b47a4dd3e722dfb9e664a253bc597a
+  - ref: refs/heads/stable
+    old: f946964a9f79f8dcb5a6329265281eebfc23aee5
+    new: 723f864f1c31ba2b3de7b7e1288e7816258c8888
     log: |
-         c0da6efc74b47a4dd3e722dfb9e664a253bc597a KVM: s390: Add facility 197 to the allow list
+         723f864f1c31ba2b3de7b7e1288e7816258c8888 wireguard: ratelimiter: use hrtimer in selftest
          
