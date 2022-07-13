@@ -1,57 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============8899169992667405508=="
+Content-Type: multipart/mixed; boundary="===============4196451107681162043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 13 Jul 2022 18:16:23 -0000
-Message-Id: <165773618382.8541.15090478709165864414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 13 Jul 2022 18:22:09 -0000
+Message-Id: <165773652923.11972.6553190635949797349@gitolite.kernel.org>
 
---===============8899169992667405508==
+--===============4196451107681162043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/seen
-    old: 135e1ec09aa8a6fee8531bf79b30957208d3a943
-    new: 8204a7d95549fc05c513190e4d780ae4a571c154
-    log: revlist-135e1ec09aa8-8204a7d95549.txt
+  - ref: refs/heads/net-mlx5
+    old: ec32639c528e2db0b05704b42c20a03710ef1d8b
+    new: c21dc31b76a137eb09c1dc4481c116eb163da1e8
+    log: revlist-ec32639c528e-c21dc31b76a1.txt
 
---===============8899169992667405508==
+--===============4196451107681162043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-135e1ec09aa8-8204a7d95549.txt
+Content-Disposition: attachment; filename=revlist-ec32639c528e-c21dc31b76a1.txt
 
-69fe4856063a16916a5057ec54e3b3778dd7fe75 mergetool(vimdiff): allow paths to contain spaces again
-58c2094b7785a9cc852859ba499da0e89258fbf3 revision: improve commit_rewrite_person()
-b92228349e8a2b16131c292a0977135f3da2ba81 ident: move commit_rewrite_person() to ident.c
-0b38539be21fb498dbeeb641d964de80c4bd9e03 ident: rename commit_rewrite_person() to apply_mailmap_to_header()
-d0d563976e6a22f01579f965ef505369e25c7545 cat-file: add mailmap support
-8b0cb44539c31131ae8f97c1f78fe7a99ed0f27f t5318: demonstrate commit-graph generation v2 corruption
-ef5bf9fadf5f0b2721bd47cfdd20edb4fb918ebb commit-graph: introduce `repo_find_commit_pos_in_graph()`
-bdef4341470600f2e1302fd0c14b8b3ca9fb9020 commit-graph: fix corrupt upgrade from generation v1 to v2
-082a896737c1a398a04608004f243a28b66cb46a submodule merge: update conflict error message
-6416086ed25b4494688bdfc3430d1bab3ad9f4ef checkout: document bug where delayed checkout counts entries twice
-f339461169ed3002b48d0dc6f9469bb3845e47c0 checkout: show bug about failed entries being included in final report
-cfaf98c077ec3010a5420843490ab0ec7014269a checkout: fix two bugs on the final count of updated entries
-c387639769c88652da5c0e35b6c342937e665abf ls-files: introduce "--format" option
-2410985e0da34b51e28bc4be9d92fa4706358f3b Merge branch 'zh/ls-files-format' into jch
-f84d2c0d1c1a610b520dbf105b02899d961a91ad Merge branch 'sa/cat-file-mailmap' into jch
-c9a0646850f016c7e83eddeefa95df8fe524e650 Merge branch 'js/vimdiff-quotepath-fix' into jch
-78c32608857d8a9e4e322b4decb22f10c5995693 Merge branch 'tb/commit-graph-genv2-upgrade-fix' into jch
-801551ecafb84316aa539d46f11c64ef9722addf Merge branch 'mt/checkout-count-fix' into jch
-6d469f17297b7caf4edb3c6d1f3111e713a342ec Merge branch 'tk/apply-case-insensitive' into seen
-5da4a81672603f060ae2bcccc178e39ae7488cbf Merge branch 'en/merge-restore-to-pristine' into seen
-1beae654a880eb75e7f536c643a438b6fec24e58 Merge branch 'cw/remote-object-info' into seen
-837e822c4366c2372c4ea8d1c9437661a4a153e8 Merge branch 'js/bisect-in-c' into seen
-5f0cccc03beeb94830f5eed1c04c5717e1cb7611 Merge branch 'jt/connected-show-missing-from-which-side' into seen
-8c1a54eb33d68ccc05b33fed94fac66cc630cc31 Merge branch 'll/curl-accept-language' into seen
-c08de54eab4d1cbb565720edf1361a7483964eb4 Merge branch 'po/doc-add-renormalize' into seen
-102eb1fcd72eb149f437a38b71c5941a927a7d48 Merge branch 'po/glossary-around-traversal' into seen
-8204a7d95549fc05c513190e4d780ae4a571c154 Merge branch 'cw/submodule-merge-messages' into seen
+90f4b5499cdd94be3c1e856375ecd7d5f9c4cecc rtw88: 8821c: fix access const table of channel parameters
+f424b1a6e1b460c04018ed5508dd7dbae72e27ab dt-bindings: net: wireless: ath9k: Change Toke as maintainer
+c2b3a0759c76d67186199eb1d076fb55497eac98 dt-bindings: net: wireless: ath11k: change Kalle's email
+3f3558c8054f82950b6decf928738306f556edf3 wifi: mac80211_hwsim: set virtio device ready in probe()
+03895c8414d748747900ede2cb603d0ed3eeae1c wifi: mac80211: add gfp_t parameter to ieeee80211_obss_color_collision_notify
+a4926abb787e2ef3ee2997e6ca8844d859478647 wifi: mac80211: check skb_shared in ieee80211_8023_xmit()
+f856373e2f31ffd340e47e2b00027bd4070f74b3 wifi: mac80211: do not wake queues on a vif that is being stopped
+8d70f33ed7207e82e51d5a4436c8ba2268a83b14 wifi: cfg80211: Allow P2P client interface to indicate port authorization
+50e2ab39291947b6c6c7025cf01707c270fcde59 wifi: mac80211: fix queue selection for mesh/OCB interfaces
+c5b744d38c36a407a41e918602eec4d89730787b bnxt_en: reclaim max resources if sriov enable fails
+4279414bff8af9898e8c53ae6c5bc17f68ad67b7 bnxt_en: Fix bnxt_reinit_after_abort() code path
+619b9b1622c283cc5ca86f4c487db266a8f55dab bnxt_en: fix livepatch query
+53f8c2d37efb5b03b9527ad04332df3bb889f0fa bnxt_en: Fix and simplify XDP transmit path
+ddde5412fdaa5048bbca31529d46cb8da882870c bnxt_en: Fix bnxt_refclk_read()
+22b9c41a3fb8ef4624bcda312665937d2ba98aa7 Merge branch 'bnxt_en-5-bug-fixes'
+7dee5d7747a69aa2be41f04c6a7ecfe3ac8cdf18 sysctl: Fix data-races in proc_dou8vec_minmax().
+7d1025e559782b58824b36cb8ad547a69f2e4b31 sysctl: Fix data-races in proc_dointvec_ms_jiffies().
+6f605b57f3782114e330e108ce1903ede22ec675 tcp: Fix a data-race around sysctl_max_tw_buckets.
+bb7bb35a63b4812da8e3aff587773678e31d23e3 icmp: Fix a data-race around sysctl_icmp_echo_ignore_all.
+4a2f7083cc6cb72dade9a63699ca352fad26d1cd icmp: Fix data-races around sysctl_icmp_echo_enable_probe.
+66484bb98ed2dfa1dda37a32411483d8311ac269 icmp: Fix a data-race around sysctl_icmp_echo_ignore_broadcasts.
+b04f9b7e85c7d7aecbada620e8759a662af068d3 icmp: Fix a data-race around sysctl_icmp_ignore_bogus_error_responses.
+d2efabce81db7eed1c98fa1a3f203f0edd738ac3 icmp: Fix a data-race around sysctl_icmp_errors_use_inbound_ifaddr.
+2a4eb714841f288cf51c7d942d98af6a8c6e4b01 icmp: Fix a data-race around sysctl_icmp_ratelimit.
+1ebcb25ad6fc3d50fca87350acf451b9a66dd31e icmp: Fix a data-race around sysctl_icmp_ratemask.
+1dace014928e6e385363032d359a04dee9158af0 raw: Fix a data-race around sysctl_raw_l3mdev_accept.
+4785a66702f086cf2ea84bdbe6ec921f274bd9f2 tcp: Fix data-races around sysctl_tcp_ecn.
+12b8d9ca7e678abc48195294494f1815b555d658 tcp: Fix a data-race around sysctl_tcp_ecn_fallback.
+e49e4aff7ec19b2d0d0957ee30e93dade57dab9e ipv4: Fix data-races around sysctl_ip_dynaddr.
+bdf00bf24bef9be1ca641a6390fd5487873e0d2e nexthop: Fix data-races around nexthop_compat_mode.
+7d5424b26f17b74d94e73815718b424ad207a3e7 Merge branch 'net-sysctl-races'
+49b9f431ff0d845a36be0b3ede35ec324f2e5fee net: ftgmac100: Hold reference returned by of_get_child_by_name()
+23aa6d5088e3bd65de77c5c307237b9937f8b48a net: stmmac: fix leaks in probe
+67de8acdd375e6f0d4ee9aa5745b9f9b329980b7 Merge tag 'wireless-2022-07-13' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+057cc8c9005e23330e368afd18839ce3764dc0af r8152: fix accessing unset transport header
+b11e5f6a3a5c170d16c2cf0b1d8053bbf1f6b7de net: sunhme: output link status with a single print.
+c21dc31b76a137eb09c1dc4481c116eb163da1e8 gpio: vf610: fix compilation error
 
---===============8899169992667405508==--
+--===============4196451107681162043==--
