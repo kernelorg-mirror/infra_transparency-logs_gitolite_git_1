@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4196451107681162043=="
+Content-Type: multipart/mixed; boundary="===============8221537863873341484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 13 Jul 2022 18:22:09 -0000
-Message-Id: <165773652923.11972.6553190635949797349@gitolite.kernel.org>
+Date: Wed, 13 Jul 2022 18:24:17 -0000
+Message-Id: <165773665755.12689.5311403306993414882@gitolite.kernel.org>
 
---===============4196451107681162043==
+--===============8221537863873341484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: ec32639c528e2db0b05704b42c20a03710ef1d8b
-    new: c21dc31b76a137eb09c1dc4481c116eb163da1e8
-    log: revlist-ec32639c528e-c21dc31b76a1.txt
+  - ref: refs/heads/net-mlx4
+    old: f946964a9f79f8dcb5a6329265281eebfc23aee5
+    new: b11e5f6a3a5c170d16c2cf0b1d8053bbf1f6b7de
+    log: revlist-f946964a9f79-b11e5f6a3a5c.txt
 
---===============4196451107681162043==
+--===============8221537863873341484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec32639c528e-c21dc31b76a1.txt
+Content-Disposition: attachment; filename=revlist-f946964a9f79-b11e5f6a3a5c.txt
 
 90f4b5499cdd94be3c1e856375ecd7d5f9c4cecc rtw88: 8821c: fix access const table of channel parameters
 f424b1a6e1b460c04018ed5508dd7dbae72e27ab dt-bindings: net: wireless: ath9k: Change Toke as maintainer
@@ -62,6 +62,5 @@ bdf00bf24bef9be1ca641a6390fd5487873e0d2e nexthop: Fix data-races around nexthop_
 67de8acdd375e6f0d4ee9aa5745b9f9b329980b7 Merge tag 'wireless-2022-07-13' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 057cc8c9005e23330e368afd18839ce3764dc0af r8152: fix accessing unset transport header
 b11e5f6a3a5c170d16c2cf0b1d8053bbf1f6b7de net: sunhme: output link status with a single print.
-c21dc31b76a137eb09c1dc4481c116eb163da1e8 gpio: vf610: fix compilation error
 
---===============4196451107681162043==--
+--===============8221537863873341484==--
