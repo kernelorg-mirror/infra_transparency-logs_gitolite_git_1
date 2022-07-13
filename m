@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 Jul 2022 14:19:46 -0000
-Message-Id: <165772198609.16666.18377129606166832675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 13 Jul 2022 14:20:09 -0000
+Message-Id: <165772200932.18376.6168423254260478799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/for-next
-    old: a0197626fdd6afee2144f92e1078765c6ae2b091
-    new: 83ed60e0ed6b6f9460ef9939687b4adcb315fa1c
+  - ref: refs/heads/next-integrity
+    old: 607e6609ce9aea41f59954afa38534713144fcb5
+    new: c808a6ec7166105818e698be9ead396233eb91b8
     log: |
-         e82c6d62a1f2347cde69c169fcf37e4d26f89b98 spi: microchip-core: fix UAF in mchp_corespi_remove()
-         5d56d8974d1e5fa5d7d0761037377e03f6edcc66 spi: microchip-core: switch to use devm_spi_alloc_master()
-         cdeaf3a99a02b6f8566bcaacc9c3501c6cceda74 spi: microchip-core: switch to use dev_err_probe()
-         43cc5a0afe4184a7fafe1eba32b5a11bb69c9ce0 spi: Fix simplification of devm_spi_register_controller
-         7e9984d183bb1e99e766c5c2b950ff21f7f7b6c0 spi: tegra20-slink: fix UAF in tegra_slink_remove()
-         1ed34d367bad6329d656c9b6808b16cec3bfe040 spi: microchip-core: fix and cleanups
-         83ed60e0ed6b6f9460ef9939687b4adcb315fa1c Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         af16df54b89dee72df253abc5e7b5e8a6d16c11c ima: force signature verification when CONFIG_KEXEC_SIG is configured
+         067d2521874135267e681c19d42761c601d503d6 ima: Fix potential memory leak in ima_init_crypto()
+         c808a6ec7166105818e698be9ead396233eb91b8 evm: Use IS_ENABLED to initialize .enabled
          
