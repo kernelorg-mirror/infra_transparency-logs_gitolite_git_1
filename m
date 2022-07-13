@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 13 Jul 2022 14:20:09 -0000
-Message-Id: <165772200932.18376.6168423254260478799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Wed, 13 Jul 2022 14:22:39 -0000
+Message-Id: <165772215940.19208.3311886405165892322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/next-integrity
-    old: 607e6609ce9aea41f59954afa38534713144fcb5
-    new: c808a6ec7166105818e698be9ead396233eb91b8
+  - ref: refs/heads/for-greg/4.14-9
+    old: af02ccb7f3ab30966a742cc0f588d56e1eae1fb0
+    new: 65103ba16eacb922618140ced427a9a4d0fd9da9
     log: |
-         af16df54b89dee72df253abc5e7b5e8a6d16c11c ima: force signature verification when CONFIG_KEXEC_SIG is configured
-         067d2521874135267e681c19d42761c601d503d6 ima: Fix potential memory leak in ima_init_crypto()
-         c808a6ec7166105818e698be9ead396233eb91b8 evm: Use IS_ENABLED to initialize .enabled
+         bae1bb1faa183c291911980a5556ab931a239ccd irqchip: or1k-pic: Undefine mask_ack for level triggered hardware
+         9a83a57c71a2c451b7dab85cac37ac803fd83610 x86: Clear .brk area at early boot
+         65103ba16eacb922618140ced427a9a4d0fd9da9 signal handling: don't use BUG_ON() for debugging
+         
+  - ref: refs/heads/for-greg/5.4-9
+    old: 6c21a654fddbccb6d2c5444b3f09c955158169bc
+    new: cb6cbf7b76da5c8dd86673825a029979123f7626
+    log: |
+         cb6cbf7b76da5c8dd86673825a029979123f7626 signal handling: don't use BUG_ON() for debugging
          
