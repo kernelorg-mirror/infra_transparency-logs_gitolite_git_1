@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 13 Jul 2022 20:37:56 -0000
-Message-Id: <165774467689.32151.3641459794738100654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 13 Jul 2022 20:42:42 -0000
+Message-Id: <165774496211.2744.629991079236907777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/qcom-arm64-for-5.20
-    old: 0000000000000000000000000000000000000000
-    new: 241da1879e023055db846a532aaa13301f28d47a
+  - ref: refs/heads/master
+    old: 6ffdfef4b8b6b3a5ec59c736d6538b6ed965cf1d
+    new: 03a2675ffc7e2a66896cf2befbead2aa4b362703
+    log: |
+         03a2675ffc7e2a66896cf2befbead2aa4b362703 foo
+         
