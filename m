@@ -1,38 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 13 Jul 2022 11:42:57 -0000
-Message-Id: <165771257791.10254.4430957033651678526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Jul 2022 11:52:57 -0000
+Message-Id: <165771317715.16470.13522307361599212387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 33c1f401939c66858157c0665dc07ad9596cd1bd
-    new: 281dee6707a869e0f40cac81b6b65c703192aa9d
-    log: |
-         539311aa61a144088779f1354492bbf9ae1ac458 ALSA: compress: Enable kernel doc markers for some functions
-         4e2b70673f2b93ab8e037a2b89c15f146c1ae9b0 ALSA: pcm: Fix missing return value comments for kernel docs
-         5c121d6362d60198d9e37429f87e87d5477e3555 ALSA: dmaengine: Fix missing return value comments for kernel docs
-         b05d834ef8f8fbd90b1bacca909c1eeec02e3625 ALSA: compress: Fix kernel doc warnings
-         e8406ebc37d2efb7e473e469152f977235a742e1 ALSA: control: Fix missing return value comments for kernel docs
-         6eba99d4ce2487f2050b8787029cabfcfb748ee4 ALSA: memalloc: Fix missing return value comments for kernel docs
-         281dee6707a869e0f40cac81b6b65c703192aa9d ALSA: core: Fix missing return value comments for kernel docs
-         
   - ref: refs/heads/master
-    old: 9d7218dc7f4c2adf85328b9cc76b083c5f2f9f4a
-    new: 2498c911bee47f5bfadf233a15d22eaac681780b
+    old: dd517237c3197428336ec12637831e8473865874
+    new: 4fb56d8508ed1aa078ef1076c8df3c147f4d8421
     log: |
-         539311aa61a144088779f1354492bbf9ae1ac458 ALSA: compress: Enable kernel doc markers for some functions
-         4e2b70673f2b93ab8e037a2b89c15f146c1ae9b0 ALSA: pcm: Fix missing return value comments for kernel docs
-         5c121d6362d60198d9e37429f87e87d5477e3555 ALSA: dmaengine: Fix missing return value comments for kernel docs
-         b05d834ef8f8fbd90b1bacca909c1eeec02e3625 ALSA: compress: Fix kernel doc warnings
-         e8406ebc37d2efb7e473e469152f977235a742e1 ALSA: control: Fix missing return value comments for kernel docs
-         6eba99d4ce2487f2050b8787029cabfcfb748ee4 ALSA: memalloc: Fix missing return value comments for kernel docs
-         281dee6707a869e0f40cac81b6b65c703192aa9d ALSA: core: Fix missing return value comments for kernel docs
-         2498c911bee47f5bfadf233a15d22eaac681780b Merge branch 'for-next'
+         83d85bb069152b790caad905fa53e6d50cd3734d net: extract port range fields from fl_flow_key
+         551871bfc82c81a59f712313431f072e6d884acc net: prestera: add support for port range filters
+         4fb56d8508ed1aa078ef1076c8df3c147f4d8421 Merge branch 'prestera-port-range-filters'
          
