@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 13 Jul 2022 17:28:33 -0000
-Message-Id: <165773331342.10862.17613691475095139269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 13 Jul 2022 17:36:51 -0000
+Message-Id: <165773381168.16447.7836529932997678778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: pmalani
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-kernelci
-    old: b938897443251b6c3827f6db7aedcfef3df4391b
-    new: 5ffc0821f4df12a904643030172476b7f537508e
+  - ref: refs/heads/master
+    old: 22ad41d0145e297af9ba4b9fc6177767025ee4a3
+    new: 5c56f4f768db7e7a8e35aa890dd017aedbd2ae96
     log: |
-         ce838f7dc7957afb2846c3bc537db56e4c513390 platform/chrome: cros_ec_typec: Use dev_err_probe on port register fail
-         5ffc0821f4df12a904643030172476b7f537508e KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+         5c56f4f768db7e7a8e35aa890dd017aedbd2ae96 foo
          
