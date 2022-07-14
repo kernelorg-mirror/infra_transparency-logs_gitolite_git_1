@@ -1,59 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5836445272892132065=="
+Content-Type: multipart/mixed; boundary="===============1301247350034451058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 14 Jul 2022 22:28:10 -0000
-Message-Id: <165783769009.12976.17941062299809485522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 14 Jul 2022 23:12:55 -0000
+Message-Id: <165784037581.8158.10205768230877775885@gitolite.kernel.org>
 
---===============5836445272892132065==
+--===============1301247350034451058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/mld
-    old: 86c6c18f98e90ba4451c12c493e1f67f341a0289
-    new: ee037b2207cd4998c49505602d29216285d92764
-    log: |
-         1bc5a9820f4bcb81a7dfd88bee8a3dde7841d5c4 wifi: mac80211_hwsim: do rc update per link
-         2ee1ac2286fbfd490191d104e206085b7b182444 wifi: mac80211_hwsim: use MLO link ID for TX
-         6b7aa0ddb2b0411e2ccf00780c5a3f95373afa5d wifi: mac80211_hwsim: fix TX link selection
-         2117fb718be688aaf9ed8ba84db8404ada0a088e wifi: mac80211: add API to parse multi-link element
-         ee037b2207cd4998c49505602d29216285d92764 wifi: mac80211: support MLO authentication/association with one link
-         
+  - ref: refs/heads/pending
+    old: e35f5718903b093be4b1d3833aa8a32f864a3ef1
+    new: b060edfd8cdd52bc8648392500bf152a8dd6d4c5
+    log: revlist-e35f5718903b-b060edfd8cdd.txt
 
---===============5836445272892132065==
+--===============1301247350034451058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e35f5718903b-b060edfd8cdd.txt
 
-certificate version 0.1
-pusher 7BF9099A 1657837671 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1657837670-b927ba07a32d5b4ee9ebc7a11e3d922f722c6d69
+863fdccdc5ed1e187a30a4a103340be4569904c8 tools/testing/cxl: Fix cxl_hdm_decode_init() calling convention
+fe80f1ad593c84bf90299496b3f93ab998ba70ad cxl/port: Keep port->uport valid for the entire life of a port
+04ed37a2baf957620970b4049b0390089da5ec17 cxl/hdm: Use local hdm variable
+e8b7ea58abbd2335734e67cccbd992e4735366bd cxl/core: Rename ->decoder_range ->hpa_range
+e50fe01e1f2a4aba2275edee7d5c77ac87674ddb cxl/core: Drop ->platform_res attribute for root decoders
+885d3bed6de153bfeba40e4d25cc600bef8af1b8 cxl/core: Drop is_cxl_decoder()
+419af595b11891d632a31440b9ca5a3cdf93996d cxl: Introduce cxl_to_{ways,granularity}
+d3b75029f353c64e1e0e45ba5083cf8679d17f0a cxl/mem: Convert partition-info to resources
+14e473e1a7a97d1188f7fabd87c452b44f9801af cxl/hdm: Require all decoders to be enumerated
+86677a4e71070ffa4ee476ea119cd61d254a7af4 cxl/Documentation: List attribute permissions
+9b99ecf5a316f056d7139fa76198c8a2297846d1 cxl/debug: Move debugfs init to cxl_core_init()
+cc2a4878700b2467f36e03f581a0a877ae6a568d cxl/mem: Add a debugfs version of 'iomem' for DPA, 'dpamem'
+b2f3b74e1072ab7c03833f265bdb26dafa92e078 tools/testing/cxl: Move cxl_test resources to the top of memory
+855c90d30575f95c5a1fb72f9294a9f75dae20c2 tools/testing/cxl: Expand CFMWS windows
+e7ad1bf683295024e7a4e09e41015989a004a0f5 tools/testing/cxl: Add partition support
+08f8d040a11d539481b9aee7b482430561281a28 tools/testing/cxl: Fix decoder default state
+ee800010835db23c70acc01000f182955cab27a5 cxl/port: Cache CXL host bridge data
+9e9e44017db33a74177ffe91307b4c922fe2f094 cxl/hdm: Initialize decoder type for memory expander devices
+b060edfd8cdd52bc8648392500bf152a8dd6d4c5 cxl/pmem: Delete unused nvdimm attribute
 
-86c6c18f98e90ba4451c12c493e1f67f341a0289 ee037b2207cd4998c49505602d29216285d92764 refs/heads/mld
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmLQmGcACgkQB8qZga/f
-l8TOIg//T1FI5SmEU8h5EGFTCNgixJknza0ElSQYASEYAOYPAtcfZ8CiuHf55Xmz
-khg+3HyrGp8/J7sgkVw6x06KmWUMCltKH2w+yZag8tkQMLHeXRxMSDUns2Tr+vX+
-kaHdVtc+ixdRE3rMq/ahr6AFcbsC2EV0eX1GFngvMRSdI5ybQeFqXn+WGT5okXCk
-cz3RP8BPRyQhHnfKYe9RZazXQamHqyaCwBuk0mGu3ck5IUhyec4ZtRlCmtvoODcz
-6iQK+puDzP0FUzMOA39LoJK2YkQAniDk9d7nuTXHTwxgzH8zPTamXpZk9PO/WDPa
-aQkLkDT45uc8DtXknTRTFRbgILnvk3R+YkhMhntZYoV9ZAQ26zkSbtWewMrzMW5t
-kebol8np/yXrj7sBsmEVuAaFMpmVoj9lGnWTfgZckr83Ial04emAhlOsDtdnb1Zt
-itIhF/8rB0fyV3uXLMxHrRVysWHGikC3uWSHlKh13YQWOX3gHgaVOa0cs0NZ2zA3
-0qZTgADREXY7YtLDLemCfyexegUai2rsMMwrYG6dCNA+PzUnHp5/gA4E26Fgql7n
-HCeHQ9mYVr28/lDrMlDeI88EYD5T1jVtljN29PAxoK1NZ7Haw6xDQ81sWoPlWoQE
-9JOtL5BK1kKJ+7OyDE+mSc9dCecAj40dGCxY/nP8XY0pGf2/DhE=
-=ZPVn
------END PGP SIGNATURE-----
-
---===============5836445272892132065==--
+--===============1301247350034451058==--
