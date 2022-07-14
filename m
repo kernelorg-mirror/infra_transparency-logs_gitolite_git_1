@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0031335896340201811=="
+Content-Type: multipart/mixed; boundary="===============7091806176308135099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Jul 2022 04:13:11 -0000
-Message-Id: <165777199179.26388.18266910823238492315@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 04:13:25 -0000
+Message-Id: <165777200520.26543.11834234495828809558@gitolite.kernel.org>
 
---===============0031335896340201811==
+--===============7091806176308135099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c3714cca6aae0265aacf243bb3571b95878696f5
-    new: 2e3c617a3c00ef24784077646ec44d8c61e8b760
-    log: revlist-c3714cca6aae-2e3c617a3c00.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: 9821106213c826f9c3dbccb617ce76f8981c8aba
+    new: 039e231c6573c2384b4cfed16b62f39ccd6be51b
+    log: revlist-9821106213c8-039e231c6573.txt
 
---===============0031335896340201811==
+--===============7091806176308135099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1657771982 -0400
+pusher 75C5DE3D 1657771996 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1657771981-692bf8a08dff0894be7305be7d226d86ac7c8f2e
+nonce 1657771995-3dafcf77f95ff180ede7a6e966ff98652ff09014
 
-c3714cca6aae0265aacf243bb3571b95878696f5 2e3c617a3c00ef24784077646ec44d8c61e8b760 refs/tags/mkp-scsi-staging
+9821106213c826f9c3dbccb617ce76f8981c8aba 039e231c6573c2384b4cfed16b62f39ccd6be51b refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLPl84ACgkQ7ulgGnXF
-3j0aGw/2I/qF8m/EMj7vYt8UExHFkva0k61NFQNvWKC0yExlOyZg2pFh9XqYW4BF
-+H0tjeuJ/tHS5PdtbdPt4SVLjcps7W5LhB45jZRi7BfKHQ3kMIlz3o5JZl5QTt6x
-UD35JUmAKkGLSeetqZqOEQNpnWebAPT2UC6RQGw/fr1Di74JwjWeA7dgVfH+zlZW
-Y648yvz14Am2LyeBOA05Pg2oFD6XoKtnExcGuk50cWJNP/BePeGldZaya0c78khx
-gG7UXNtCn/cXoF+PGXEbjSTCZi9Wz1TgnBI0KQ3ZG4hzzr9gCuD3sFnQrr2jJr3J
-dBviCHGVQSpoG88TxjKO6ox3Gt2a9QCBUSPvsDV1CYrNnO1DcShULpwQHgyIqAba
-pnpOjkRY1LgJjIMvP/qJMwC/ihv2SQzi8jKTOqJlDqGv/NlH2Fk1Wzl9EP9SOhzQ
-NCwxrPcJS66kxF4xc72VLgmDYr11k/ewYrXxjwku6TUm9YJIM1MAnJgOVneZYkM4
-oNxH1ckNjH87FTrkYzE69aO3c1+4wHi+LyzlZdQvJmKZU3FVOKU/lyVc9+FaVeNj
-h0Sb9jBGYqa0yt8AQ1wad3rTs18Lp+HtfTGMUMDk+HdSf7Qg5i98hPL2gPt2/TIK
-WUkS0hmIeouQtuVqldW782Ddv+8tw0f7XdO9vTnp8tbwu53/zQ==
-=vfqc
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLPl9wACgkQ7ulgGnXF
+3j34Aw/+K1QcP0EGu0TWl0DArzXQJBz45W7V//5kfw3Ec2HP5/fn6tYCM76Q276r
+iP5vY9ZhQt7YkjJKmgHT6a3N7plHLDcB6lmehN4AQMUojvOO/NZE1Fb9QPGpRH+k
+/KentDFsSDtbHfX1Adj+zC+wpQQhxw+5mhOYuVHen4B8XfF/j4xiik347zBTZsYz
+XA6Mow+p1Tay0Xs1kcEYhcVW9ySuqGsI28T28aGEwv57wiDzKIQPf5mNQxKON+mO
+/Ya0+9VVSVKb860JEji3nVDcWkWnyGAESh/0dxCj5WhMUEQ5Zbm9vXAWdwNmpDUu
+T2gB2V07yzGJc3pxWKTlOV+q1MtIXzeBB8zuPB8bR0nWw25UIeo740pfm0ggjcMy
+uiP+CpPIFMzbuPslpTyOwMgScEt3uecu83cxFqkSQzF9s3gHCwk9zpYY7t2qAw/8
+uBORaVZcJG06YJnV7v1zb7Jx7hcLPy4dv4cBTV0FtLBVoAaRiUjnkDFZxf7+Vc71
+AQfKmmoBb1UD/WpC430DoCK1cVCwxKhnES30mohUzJ1rKihikGb/gaT8VVj/aCcr
+41Gv/ecVU8o9mth4LoGXezUH2RR5/6EH2nbBuX5HIFaxCFn2SHMXh5gIEoPOKT+B
+vrrwQQOwm4WhebMk3nm6OdgkeGERKBqd+JPT7U0aKywirNLPa8E=
+=osxj
 -----END PGP SIGNATURE-----
 
---===============0031335896340201811==
+--===============7091806176308135099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3714cca6aae-2e3c617a3c00.txt
+Content-Disposition: attachment; filename=revlist-9821106213c8-039e231c6573.txt
 
 3d73b200f9893d8f5ba5d105e8b69c8d16744fa2 scsi: ufs: ufs-exynos: Change ufs phy control sequence
 c641ffdb5904df0dc249ef3f2d753e2a684779c6 scsi: ufs: core: Remove UIC_HIBERN8_ENTER_RETRIES
@@ -85,4 +85,4 @@ c196bc4dce42bdcc2c69ec106d176f427c56003a scsi: mpi3mr: Reduce VD queue depth on 
 57ba0610410c83571df21ca919d05cd2d88c7d0d scsi: sd: Enable modern protocol features on more devices
 039e231c6573c2384b4cfed16b62f39ccd6be51b scsi: sd: Support multiple LBA ranges in an UNMAP command
 
---===============0031335896340201811==--
+--===============7091806176308135099==--
