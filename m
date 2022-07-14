@@ -1,42 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 14 Jul 2022 09:23:54 -0000
-Message-Id: <165779063485.21682.10543750997539666927@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0403877551840613402=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 14 Jul 2022 09:36:34 -0000
+Message-Id: <165779139414.30132.8222470349107244812@gitolite.kernel.org>
+
+--===============0403877551840613402==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 281dee6707a869e0f40cac81b6b65c703192aa9d
-    new: 63f4b99f0089a9719aa4441015fe30ff4b6f10e5
-    log: |
-         89422df9548002adfffb73799cebe4909cfc8902 ALSA: usb-audio: Use atomic_try_cmpxchg in ep_state_update
-         3233b978af23f11b4ad4f7f11a9a64bd05702b1f ALSA: hda: hda_cs_dsp_ctl: Add Library to support CS_DSP ALSA controls
-         e414b05e724f5fbae6e86d074d7668287a603b24 ALSA: hda: hda_cs_dsp_ctl: Add apis to write the controls directly
-         22d5cbd273a2ca90ba026ec82f0b9c3e984b0c1c ALSA: hda: cs35l41: Save codec object inside component struct
-         2e81e1fffd53ba108481f2f14388b628884efe61 ALSA: hda: cs35l41: Add initial DSP support and firmware loading
-         e99f3c7e3250dd895d2da506d0d910d641136d2c ALSA: hda: cs35l41: Save Subsystem ID inside CS35L41 Driver
-         eef375960210fdc1ec2786bddc91ff100444ffb8 ALSA: hda: cs35l41: Support reading subsystem id from ACPI
-         bb6eb621f522d1f76ee4593966d2863401892407 ALSA: hda: cs35l41: Support multiple load paths for firmware
-         63f4b99f0089a9719aa4441015fe30ff4b6f10e5 ALSA: hda: cs35l41: Support Speaker ID for laptops
-         
   - ref: refs/heads/master
-    old: 2498c911bee47f5bfadf233a15d22eaac681780b
-    new: 628dcea8232abf25da082f5f5fadd344908c871e
+    old: 5c50211be736c22f152d63e38880155061da508b
+    new: b26b52503f44696b10f3b8afe79cbf4e7a8679cd
     log: |
-         89422df9548002adfffb73799cebe4909cfc8902 ALSA: usb-audio: Use atomic_try_cmpxchg in ep_state_update
-         3233b978af23f11b4ad4f7f11a9a64bd05702b1f ALSA: hda: hda_cs_dsp_ctl: Add Library to support CS_DSP ALSA controls
-         e414b05e724f5fbae6e86d074d7668287a603b24 ALSA: hda: hda_cs_dsp_ctl: Add apis to write the controls directly
-         22d5cbd273a2ca90ba026ec82f0b9c3e984b0c1c ALSA: hda: cs35l41: Save codec object inside component struct
-         2e81e1fffd53ba108481f2f14388b628884efe61 ALSA: hda: cs35l41: Add initial DSP support and firmware loading
-         e99f3c7e3250dd895d2da506d0d910d641136d2c ALSA: hda: cs35l41: Save Subsystem ID inside CS35L41 Driver
-         eef375960210fdc1ec2786bddc91ff100444ffb8 ALSA: hda: cs35l41: Support reading subsystem id from ACPI
-         bb6eb621f522d1f76ee4593966d2863401892407 ALSA: hda: cs35l41: Support multiple load paths for firmware
-         63f4b99f0089a9719aa4441015fe30ff4b6f10e5 ALSA: hda: cs35l41: Support Speaker ID for laptops
-         628dcea8232abf25da082f5f5fadd344908c871e Merge branch 'for-next'
+         b26b52503f44696b10f3b8afe79cbf4e7a8679cd 5.10-stable patches
          
+
+--===============0403877551840613402==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657791393 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1657791391-35b320d3ca0495762bd802edb59a17cc9df93d8e
+
+5c50211be736c22f152d63e38880155061da508b b26b52503f44696b10f3b8afe79cbf4e7a8679cd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLP46EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+clUP/1KusKkSPyrX2Kgn3PgL
+Irvw0LDBaQ8/wfwN0zM6aqkRPEq8C8cXXPXeIByt5Ez1To4PVawYVeVTZbSFG3FT
+VDkF/g8KFqf5Aiq9vb9NbfapuxbGzsIu51nv3pl11tN7+8c0Taq28Dp0GXnaAjGS
+AqGbJxSa0A0+0Mhsyh027qxIwORNZxo5aABLNjH0TYIFF3xj+5LeLkqaq7DBtqJ0
+z7NmP44VXd2stAr4Y9arMKzL9csxKVQM5thlr7cTfkcorf+LRRO1s402K9gp0ajp
+/yJHh+MHi888jgA9vAjh/u4QP4/P9yuBxndpXd9SRdOU5rXQjBb4ceEr7d37Tj2x
+UsMzLLqBRDMc3nbuFAVqbX9wOL4t1SsKX/nKG9syjAMhjmHkSHgjDS+2AKNzNXmO
+hM8CrFuA3/K6ZEJNZCEEKuDYxGs2bumNoQ/ZoY0nrMmRZ0bJRznRpTDTLB2XBguB
+lKBmrPRh8/Z918HUAclifT2Mp22b7KATPJxM2DfswnK0utOBTHzKQZRsk3QVp/DP
+EEbJim5B2TuPjWjxx4gZNwM40NQIoIAOfI+qrSbx1Nc5N/j5WSTQ8r8hO41we0T4
+Xy9pX5dKScp1heLXB0DE9VzT691t5qf9qunwQg17QpeQKRFyL6fDXXvH+0MLGdOm
+r308TV+EBi0l7FM6OlciWv87
+=Wxri
+-----END PGP SIGNATURE-----
+
+--===============0403877551840613402==--
