@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 14 Jul 2022 10:39:30 -0000
-Message-Id: <165779517097.17177.3453315518795660561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 14 Jul 2022 10:54:51 -0000
+Message-Id: <165779609124.26749.15439509624076354842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 9b633670087ea7a683d2b47e18c2803657486ef1
-    new: b126047f43f11f61f1dd64802979765d71795dae
+    old: cc91b09b9ef8f8a9f29b4fdff5f65ab5700872e2
+    new: ada74c5539eba06cf8b47d068f92e0b3963a9a6e
     log: |
-         ad39bafda7369b241179da074005a08edcd77f27 xen-netfront: remove leftover call to xennet_tx_buf_gc()
-         06673c2102b3f0959302d65e07485ba3f2b94127 xen-netfront: re-order error checks in xennet_get_responses()
-         b126047f43f11f61f1dd64802979765d71795dae Merge branch 'xen-netfront-xsa-403-follow-on'
+         ada74c5539eba06cf8b47d068f92e0b3963a9a6e sfc: fix kernel panic when creating VF
          
