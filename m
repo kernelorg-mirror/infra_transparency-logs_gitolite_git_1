@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 14 Jul 2022 22:11:58 -0000
-Message-Id: <165783671833.3047.13678354756243949291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 14 Jul 2022 22:19:06 -0000
+Message-Id: <165783714637.6858.11551565891173799736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 9bd572ec7a66b56e1aed896217ff311d981cf575
-    new: db886979683a8360ced9b24ab1125ad0c4d2cf76
-    log: |
-         db886979683a8360ced9b24ab1125ad0c4d2cf76 x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
-         
+  - ref: refs/heads/joel.2022.07.14a
+    old: 0000000000000000000000000000000000000000
+    new: 37d0460c40e7e364151894260d483ade68b1de34
+  - ref: refs/tags/irq_urgent_for_v5.19_rc6
+    old: 0000000000000000000000000000000000000000
+    new: 6413619f4b6f0f7f81b7b980ef7febd861e69ab8
+  - ref: refs/tags/v5.19-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
+  - ref: refs/tags/x86_urgent_for_v5.19_rc6
+    old: 0000000000000000000000000000000000000000
+    new: bbabb023b4bf3626f9df7bc6ff06306f2ffaac5f
