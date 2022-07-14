@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 14 Jul 2022 21:58:37 -0000
-Message-Id: <165783591761.26621.10124053652110133774@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 21:58:51 -0000
+Message-Id: <165783593101.26768.4790591943384219567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
-  - ref: refs/heads/riscv-canan_dt_schema
-    old: 0ed048137fd982a78892a51721d9e7f6b281edbd
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/riscv-canaan_dt_schema
+    old: 0000000000000000000000000000000000000000
+    new: 0ed048137fd982a78892a51721d9e7f6b281edbd
