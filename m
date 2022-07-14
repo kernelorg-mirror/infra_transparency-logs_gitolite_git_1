@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 14 Jul 2022 15:45:19 -0000
-Message-Id: <165781351965.17695.11265027555256628645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 14 Jul 2022 15:45:25 -0000
+Message-Id: <165781352596.17804.12283231447327714585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/dt-for-palmer-v5.20-mw0
+  - ref: refs/heads/broadcom/dt64
     old: 0000000000000000000000000000000000000000
-    new: a1990c046e7b7fd67f201a547089ee86ad4961d4
+    new: a65ee523a9e41d0bf046cf0107e6bbf05d068af2
