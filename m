@@ -1,29 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 14 Jul 2022 15:46:15 -0000
-Message-Id: <165781357574.18126.8308170890698449211@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3961907410138279382=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Thu, 14 Jul 2022 15:46:40 -0000
+Message-Id: <165781360098.18357.3394819950276521029@gitolite.kernel.org>
+
+--===============3961907410138279382==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/patatt/patatt
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 748c17a656dfa1a9785a8b281601045c57ec4a9c
-    new: efb2b2097c62c7707ec4622c9e66115e6f703ad8
+  - ref: refs/heads/main
+    old: d1279c4ca7f29b6f98d784c7bf053c3b2ff11578
+    new: 0eb41be65707a1e156a59fd25ea9824c1a9e95ce
     log: |
-         1e347f861da8ddb17e1d1b3113cb6c188e0de3e5 ASoC: rockchip-i2s: Undo BCLK pinctrl changes
-         efb2b2097c62c7707ec4622c9e66115e6f703ad8 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         0eb41be65707a1e156a59fd25ea9824c1a9e95ce Make patatt more python API friendly
          
-  - ref: refs/heads/for-next
-    old: cdbc44f703cb0dec311a9b3ece5b435e00d02211
-    new: c9a866cf4a53ad1b5e42b43180c541bc48717098
-    log: |
-         1e347f861da8ddb17e1d1b3113cb6c188e0de3e5 ASoC: rockchip-i2s: Undo BCLK pinctrl changes
-         7fb72b7bf167a8047204d30e0e8affe6023363d9 ASoC: Merge up revert of v5.19 version of the rockchip BCLK management
-         efb2b2097c62c7707ec4622c9e66115e6f703ad8 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         c9a866cf4a53ad1b5e42b43180c541bc48717098 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
-         
+
+--===============3961907410138279382==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1657813600 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1657813600-8083f02c507e7e11bfad52b524fdec4bd87df181
+
+d1279c4ca7f29b6f98d784c7bf053c3b2ff11578 0eb41be65707a1e156a59fd25ea9824c1a9e95ce refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYtA6YAAKCRC2xBzjVmSZ
+bGLHAP96cYHYZl4AWOQuFZsFCqdp8dbqrTcnRYsKNdMY3vhmQgEA3EOm6cgTcR7c
+O5DTxd5twUh5D23nG525nJPwiZedJwo=
+=y2vb
+-----END PGP SIGNATURE-----
+
+--===============3961907410138279382==--
