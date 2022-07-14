@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 14 Jul 2022 19:49:04 -0000
-Message-Id: <165782814489.9345.14721696156818178224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 14 Jul 2022 19:55:09 -0000
+Message-Id: <165782850927.14289.12793545475549879416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/review-hans
-    old: fe16ecaa0e629ade1e1cc09781c7cc77e5d2c8bc
-    new: aeb47cb10aa4c2f794aa85e9fd3c9ff028455369
+  - ref: refs/heads/master
+    old: 0cc323d985f97d5fd9a4217c536585a65dae4888
+    new: b28a31ebc74fc72acbc9cb9d865c14000d420773
     log: |
-         e0e52a5cc6a589a918745e4667aaaaa564f73934 ACPI: video: Fix acpi_video_handles_brightness_key_presses()
-         aeb47cb10aa4c2f794aa85e9fd3c9ff028455369 MAINTAINERS: repair file entry in MICROSOFT SURFACE AGGREGATOR TABLET-MODE SWITCH
+         b28a31ebc74fc72acbc9cb9d865c14000d420773 Bluetooth: Collect kcov coverage from hci_rx_work
          
