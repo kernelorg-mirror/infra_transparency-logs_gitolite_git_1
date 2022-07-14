@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4403558422845895864=="
+Content-Type: multipart/mixed; boundary="===============0031335896340201811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Jul 2022 04:12:55 -0000
-Message-Id: <165777197581.26238.8620221386232817278@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 04:13:11 -0000
+Message-Id: <165777199179.26388.18266910823238492315@gitolite.kernel.org>
 
---===============4403558422845895864==
+--===============0031335896340201811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,100 +16,73 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: bcec04b3cce4c498ef0d416a3a2aaf0369578151
-    new: 9821106213c826f9c3dbccb617ce76f8981c8aba
-    log: revlist-bcec04b3cce4-9821106213c8.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: c3714cca6aae0265aacf243bb3571b95878696f5
+    new: 2e3c617a3c00ef24784077646ec44d8c61e8b760
+    log: revlist-c3714cca6aae-2e3c617a3c00.txt
 
---===============4403558422845895864==
+--===============0031335896340201811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1657771966 -0400
+pusher 75C5DE3D 1657771982 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1657771966-078f0f22a16234377c828df6441a781464673df8
+nonce 1657771981-692bf8a08dff0894be7305be7d226d86ac7c8f2e
 
-bcec04b3cce4c498ef0d416a3a2aaf0369578151 9821106213c826f9c3dbccb617ce76f8981c8aba refs/heads/queue
+c3714cca6aae0265aacf243bb3571b95878696f5 2e3c617a3c00ef24784077646ec44d8c61e8b760 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLPl74ACgkQ7ulgGnXF
-3j2O/A//Qa7vHnpzOFD5FCj1VqrowHgsr3tmoRWUhXoPoMTDMSvEKGzr+04/a2tx
-XYNNpZVsUbATpawBQK6T5kdkMnBhpJkNU4hLSRL5uL2nYTYEHUmWUubI6GlkGMuH
-dM/9PVA+aolMmgin2ex6V904cbv8aRiCSeSBwog5xSrU5vmY+/dwaI3nQs2HwgAO
-WCwqAPpjwV3Yk2rC5H6gQHZNQo6OvJcA51XD6ZhLhaD3DImCiZGFFcqrDy/EAzqq
-PUv3VMuekrEpLTDznv+UbAQ6pNEP9erCqILGQRDq448VcJ6qm4cmQQ52Adyfc8GJ
-NAOXDaNi/QOJofTVRO2GO1reHtmiSpsOA3SApCtUnncR/f1JW3R1h1D6oNnT4574
-F/e7WVtH88kxg2OiRghgVtxYe/wfn9xgcI/937qr9yffls1Bf3Egm/XNJeMYedXd
-y66S9wTKniSIjxLIedlsbtMChUQNQcpPeQjgD13t9BKftAcETR+TrakaQqXaI4SO
-mx5EPfHOr45kZVzOskGnMVmo5oi9gC7dmksbkJfV4yeCbLCJ7YwiyevEkGtv0Dfb
-bjuTFr0KyJvz/gGrdGuLl0wz0hhGHdem+gKJ7hQJt60pfl5bVyybEREJdz1ICJgV
-TtND4t7n3+HEGlJbv+Csf6zwq7W6xWN3iBKuq2suqn/a1Kac4E4=
-=yxz6
+iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLPl84ACgkQ7ulgGnXF
+3j0aGw/2I/qF8m/EMj7vYt8UExHFkva0k61NFQNvWKC0yExlOyZg2pFh9XqYW4BF
++H0tjeuJ/tHS5PdtbdPt4SVLjcps7W5LhB45jZRi7BfKHQ3kMIlz3o5JZl5QTt6x
+UD35JUmAKkGLSeetqZqOEQNpnWebAPT2UC6RQGw/fr1Di74JwjWeA7dgVfH+zlZW
+Y648yvz14Am2LyeBOA05Pg2oFD6XoKtnExcGuk50cWJNP/BePeGldZaya0c78khx
+gG7UXNtCn/cXoF+PGXEbjSTCZi9Wz1TgnBI0KQ3ZG4hzzr9gCuD3sFnQrr2jJr3J
+dBviCHGVQSpoG88TxjKO6ox3Gt2a9QCBUSPvsDV1CYrNnO1DcShULpwQHgyIqAba
+pnpOjkRY1LgJjIMvP/qJMwC/ihv2SQzi8jKTOqJlDqGv/NlH2Fk1Wzl9EP9SOhzQ
+NCwxrPcJS66kxF4xc72VLgmDYr11k/ewYrXxjwku6TUm9YJIM1MAnJgOVneZYkM4
+oNxH1ckNjH87FTrkYzE69aO3c1+4wHi+LyzlZdQvJmKZU3FVOKU/lyVc9+FaVeNj
+h0Sb9jBGYqa0yt8AQ1wad3rTs18Lp+HtfTGMUMDk+HdSf7Qg5i98hPL2gPt2/TIK
+WUkS0hmIeouQtuVqldW782Ddv+8tw0f7XdO9vTnp8tbwu53/zQ==
+=vfqc
 -----END PGP SIGNATURE-----
 
---===============4403558422845895864==
+--===============0031335896340201811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcec04b3cce4-9821106213c8.txt
+Content-Disposition: attachment; filename=revlist-c3714cca6aae-2e3c617a3c00.txt
 
-f92de9d110429e39929a49240d823251c2fe903e scsi: sd: Fix interpretation of VPD B9h length
-cf71d59c2eceadfcde0fb52e237990a0909880d7 scsi: vmw_pvscsi: Expand vcpuHint to 16 bits
-44ba9786b67345dc4e5eabe537c9ef2bfd889888 scsi: lpfc: Correct BDE type for XMIT_SEQ64_WQE in lpfc_ct_reject_event()
-24e1f056677eefe834d5dcf61905cce857ca4b19 scsi: lpfc: Resolve some cleanup issues following abort path refactoring
-e27f05147bff21408c1b8410ad8e90cd286e7952 scsi: lpfc: Resolve some cleanup issues following SLI path refactoring
-6f808bd78e8296b4ded813b7182988d57e1f6176 scsi: lpfc: Address NULL pointer dereference after starget_to_rport()
-b1b3440f437b75fb2a9b0cfe58df461e40eca474 scsi: lpfc: Resolve NULL ptr dereference after an ELS LOGO is aborted
-336d63615466b4c06b9401c987813fd19bdde39b scsi: lpfc: Fix port stuck in bypassed state after LIP in PT2PT topology
-ea7bd1f393311e823716a232e9d8857fb64eb105 scsi: lpfc: Add more logging of cmd and cqe information for aborted NVMe cmds
-2e7e9c0c1ec05f18d320ecc8a31eec59d2af1af9 scsi: lpfc: Allow reduced polling rate for nvme_admin_async_event cmd completion
-1af48fffd7ffe280e0c225659d826fd5ae802a08 scsi: lpfc: Update lpfc version to 14.2.0.4
-120f1d95efb1cdb6fe023c84e38ba06d8f78cd03 scsi: mpt3sas: Fix out-of-bounds compiler warning
-d64c491911322af1dcada98e5b9ee0d87e8c8fee scsi: ipr: Fix missing/incorrect resource cleanup in error case
-ec1e8adcbdf661c57c395bca342945f4f815add7 scsi: pmcraid: Fix missing resource cleanup in error case
-566d3c57eb526f32951af15866086e236ce1fc8a scsi: scsi_debug: Fix zone transition to full condition
-f6eed15f3ea76596ccc689331e1cc850b999133b scsi: iscsi: Exclude zero from the endpoint ID range
-da8badd7d3583f447eac2ab65a332f2d773deca1 scsi: ufs: Simplify ufshcd_clear_cmd()
-d1a7644648b7cdacaf8d1013a4285001911e9bc8 scsi: ufs: Support clearing multiple commands at once
-2acd76e7b8596e307fcec8fc6bc5fe5ab174749a scsi: ufs: Fix a race between the interrupt handler and the reset handler
-1d3e0980782fbafaf93285779fd3905e4f866802 scsi: storvsc: Correct reporting of Hyper-V I/O size limits
-72ea7fe0db73d65c7d977208842d8ade9b823de9 scsi: ibmvfc: Allocate/free queue resource only during probe/remove
-aeaadcde1a60138bceb65de3cdaeec78170b4459 scsi: ibmvfc: Store vhost pointer during subcrq allocation
-fce54ed027577517df1e74b7d54dc2b1bd536887 scsi: hisi_sas: Limit max hw sectors for v3 HW
-7c33e477bd883f79cccec418980cb8f7f2d50347 scsi: qla2xxx: Check correct variable in qla24xx_async_gffid()
-465191d6526a8ea21ef9f5533aad24b8f531b879 scsi: mpi3mr: Enable shared host tagset
-d29ea7b71621f42a9580f1c65f3b822dfd593137 scsi: mpi3mr: Increase cmd_per_lun to 128
-036d8903f03b662bbdce5e32525bd2931b14c420 scsi: target: Remove incorrect zero blocks WRITE_SAME check
-6b206a5a8c2912c3c2174c5afc2f6e798d6ad212 scsi: target: Add callout to configure UNMAP settings
-d7c382c51d0379f38eee270db575018094826c73 scsi: target: Add iblock configure_unmap callout
-33efaaf6e24b68c15e08a12477c8610b5e1334d7 scsi: target: Add file configure_unmap callout
-34bd1dcacf0dd86ab8c35f703bc237723fee354c scsi: target: Detect UNMAP support post configuration
-a2417db3679cffa67fbdc6c175cf68ffc86b8ac3 scsi: core: Shorten long warning messages
-e214806d52b808ee744672f3ebae8817e760ad65 scsi: a3000: Convert m68k WD33C93 drivers to DMA API
-479accbbb8398a31e716d40d4d6ccce089f3de86 scsi: a2091: Convert m68k WD33C93 drivers to DMA API
-158da6bcae7a66e631bbec458f35ea3bd0ac5d71 scsi: gvp11: Convert m68k WD33C93 drivers to DMA API
-acd1a2786c568ee7c254eda9c60eabc401d13c04 scsi: megaraid_sas: Clean up some inconsistent indenting
-90552cd2d1f962478f1bb426c686540cbd145bec scsi: core: Move the definition of SCSI_QUEUE_DELAY
-88f1669019bd62b3009a3cebf772fbaaa21b9f38 scsi: sd: Rework asynchronous resume support
-11e50ed239b5b7f383874dd737283ae93f62ece3 Merge branch '5.19/scsi-fixes' into 5.20/scsi-staging
-4ecc9b0271a7623deabcbe8fcb39f065701d8f74 scsi: lpfc: Fix uninitialized cqe field in lpfc_nvme_cancel_iocb()
-f8191d40aa612981ce897e66cda6a88db8df17bb scsi: lpfc: Prevent buffer overflow crashes in debugfs with malformed user input
-35251b4d79db4ca2efeb63d6bc8fc463aa867156 scsi: lpfc: Set PU field when providing D_ID in XMIT_ELS_RSP64_CX iocb
-0948a9c5386095baae4012190a6b65aba684a907 scsi: lpfc: Remove extra atomic_inc on cmd_pending in queuecommand after VMID
-2f67dc7970bce3529edce93a0a14234d88b3fcd5 scsi: lpfc: Fix possible memory leak when failing to issue CMF WQE
-43e19a96a7895f5588ffc6bf9768f362ae3af70e scsi: lpfc: Fix attempted FA-PWWN usage after feature disable
-ea92e173dc55460f1b9e71df5ceac951c506d214 scsi: lpfc: Fix lost NVMe paths during LIF bounce stress test
-ffc566411aded3c12c63e1310fb23830e9608c59 scsi: lpfc: Revert RSCN_MEMENTO workaround for misbehaved configuration
-b21c9deb1479bcbeea8b06c490a815690c7c86e9 scsi: lpfc: Refactor lpfc_nvmet_prep_abort_wqe() into lpfc_sli_prep_abort_xri()
-7f86d2b84708752f7667f9d7b9e370125d2004e8 scsi: lpfc: Remove Menlo/Hornet related code
-71faf8d30fdb7c0ea88caa785e97ed697f048f14 scsi: lpfc: Update lpfc version to 14.2.0.5
-b3d11f195cbbe665c100b964f6837984b4226cd1 scsi: lpfc: Copyright updates for 14.2.0.5 patches
-1466b3bc456a04c2eecb639d303b91ca8ef02c33 scsi: ufs: ufs-pci: Enable WriteBooster capability on ADL
-174e909b5435d3f840067f36c4915a618d44b6bb scsi: ufs: Skip last hci reset to get valid register values
-b9787bdfdba5ab0e558e3d142b1c2f6a54cbf6b1 scsi: zfcp: Declare zfcp_sdev_attrs as static
-9821106213c826f9c3dbccb617ce76f8981c8aba scsi: zfcp: Drop redundant "the" in the comments
+3d73b200f9893d8f5ba5d105e8b69c8d16744fa2 scsi: ufs: ufs-exynos: Change ufs phy control sequence
+c641ffdb5904df0dc249ef3f2d753e2a684779c6 scsi: ufs: core: Remove UIC_HIBERN8_ENTER_RETRIES
+f712e24c0b2e638481b439ee2f1f33d6938a6cb9 scsi: gvp11.c: Fix DMA mask calculation error
+aec95e3a8dedb626739efd3d7d6cb7110cab31b0 scsi: fnic: Refactor code in fnic probe to initialize SCSI layer
+4e7d26029ee7558badad4188ddb3a79566da69c0 scsi: smartpqi: Shorten drive visibility after removal
+1d393227fc76cf0887077d6752af0bb2288e5802 scsi: smartpqi: Add controller fw version to console log
+dab5378485f601174a297a069d040ffb92918bf5 scsi: smartpqi: Add PCI IDs for ramaxel controllers
+297bdc540f0e391568788f8ece3020653748a26f scsi: smartpqi: Close write read holes
+904f2bfda65e051906e79030b7cbfa2f5db3e5f4 scsi: smartpqi: Add driver support for multi-LUN devices
+331f7e998b20c406e8d3689b1c0d77c6325a5d4b scsi: smartpqi: Fix PCI control linkdown system hang
+44e68c4af5d2ce622527e0be28207956394891e2 scsi: smartpqi: Add PCI ID for Adaptec SmartHBA 2100-8i
+2a9c2ba2bc47d2df8791a1e32788c76cafa5584c scsi: smartpqi: Add PCI IDs for Lenovo controllers
+85b41834b0f43b3e5c079ea9ea9288b2568b8c60 scsi: smartpqi: Stop logging spurious PQI reset failures
+69695aeaa6621bc49cdd7a8e5a8d1042461e496e scsi: smartpqi: Fix DMA direction for RAID requests
+6ce3cfb365ebb2b93ee547318c6a108e62c740a1 scsi: smartpqi: Fix RAID map race condition
+cf15c3e734e8d25de7b4d9170f5a69ace633a583 scsi: smartpqi: Add module param to disable managed ints
+2d80f4054f7f901b8ad97358a9069616ac8524c7 scsi: smartpqi: Update deleting a LUN via sysfs
+6d567dfee0b7b4c66fb1f62d59a2e62e2709b453 scsi: smartpqi: Add ctrl ready timeout module parameter
+e4b73b3fa2b98187c9cbb1364d6849ca4b7d6c25 scsi: smartpqi: Update copyright to current year
+f54f85dfd757301791be8ce6fccc6f6604d82b40 scsi: smartpqi: Update version to 2.1.18-045
+fded192f13033676a5ed202cae187d2832fa0093 scsi: mpi3mr: Resource Based Metering
+c196bc4dce42bdcc2c69ec106d176f427c56003a scsi: mpi3mr: Reduce VD queue depth on detecting throttling
+3101bcf7eea56fd76c7cb11b518d6acc9a15a08a scsi: sg: Allow waiting for commands to complete on removed device
+5be0f08e9d95b0a1fe1e4fdf7dc1f1362c7fe2bb scsi: sd: Fix discard errors during revalidate
+1bd95bb98f83db65b86e0dbf74d4cf8547c8c612 scsi: sd: Move WRITE_ZEROES configuration to a separate function
+00a29760c26692e980c4b833160cce17ea666494 scsi: sd: Implement support for NDOB flag in WRITE SAME(16)
+57ba0610410c83571df21ca919d05cd2d88c7d0d scsi: sd: Enable modern protocol features on more devices
+039e231c6573c2384b4cfed16b62f39ccd6be51b scsi: sd: Support multiple LBA ranges in an UNMAP command
 
---===============4403558422845895864==--
+--===============0031335896340201811==--
