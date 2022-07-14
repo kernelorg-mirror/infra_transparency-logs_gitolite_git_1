@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9075541614996029455=="
+Content-Type: multipart/mixed; boundary="===============5787372982178113714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 14 Jul 2022 14:22:40 -0000
-Message-Id: <165780856030.28886.17898842433656759509@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 14:24:12 -0000
+Message-Id: <165780865206.29447.7976919361495204901@gitolite.kernel.org>
 
---===============9075541614996029455==
+--===============5787372982178113714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 7e50133234007f77d40c5ad871960a3171b362c3
-    new: 3486af89dd3c0b0bef194c4bccf17c31ef16b99f
+  - ref: refs/heads/usb-testing
+    old: ddc509e940baa5e3d8e2ea18c2b4ceaac31c502f
+    new: c5391a37dee1728c5dba2d5ef3b8c25e9d4d6a5e
     log: |
-         7c239a071d1f04b7137789810807b4108d475c72 USB: serial: ftdi_sio: add Belimo device ids
-         3486af89dd3c0b0bef194c4bccf17c31ef16b99f Merge tag 'usb-serial-5.19-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         ddaf8d96f93bccb3f2b1f4f156c098b272440004 usb: typec: Add support for retimers
+         f31a8702cd36f7908bdc3fa1ed7f95b56c10ed35 usb: typec: Add retimer handle to port
+         369ba25f39fadbfd29f6599d6e9234184014da0f usb: dwc3: Do not service EP0 and conndone events if soft disconnected
+         b7de3d165ca027c8d2d8153639d5f1b7f18b32f4 usb: dwc3: gadget: Force sending delayed status during soft disconnect
+         7ce83bb35e6d17730116bd4758efc36811e7b28c usb: dwc3: gadget: Adjust IRQ management during soft disconnect/connect
+         f21fba3b8c9c7d1b1c5605e5099f3c29565a6bcd usb: dwc3: Allow end transfer commands to be sent during soft disconnect
+         c5391a37dee1728c5dba2d5ef3b8c25e9d4d6a5e usb: dwc3: gadget: Increase DWC3 controller halt timeout
          
 
---===============9075541614996029455==
+--===============5787372982178113714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657808558 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657808650 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657808557-503957fa37cdee2e4fa01a5134d1fac17da1f1c9
+nonce 1657808649-4b30460e6282107ad299331fc03eb986bee0d4dc
 
-7e50133234007f77d40c5ad871960a3171b362c3 3486af89dd3c0b0bef194c4bccf17c31ef16b99f refs/heads/usb-linus
+ddc509e940baa5e3d8e2ea18c2b4ceaac31c502f c5391a37dee1728c5dba2d5ef3b8c25e9d4d6a5e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLQJq4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aqQP/1lonUszUYa4+IsL+/zs
-1ANJpStT/iygJtGtiaAgkmFPYqoj3qz0Vdr9YD5NLOcv5hadRk9TdxtlkgK34eYv
-dVIUdyDL7KdQ+3fPyiPAO67iDfzADfQQB2/vM3NMn44ZNM49a3EhMVcHavH8Y2aI
-SbZ0DPT9RL5RlYd6gLJuVpSCjULMm5uJ/BFkOXw2OuyfmzwMPxOWWZrvWA0nhfkD
-gB04FY18Vsc8rC5xdf7qEPUpAsvIGkP8gjUAffnLtaVZCDgSAlWrJ4zCkoR1gxsC
-tBesWEkiuZ/2gm+DqrUqNo5kVHL+uqfnCvqusSL+hKG/VHOt28ThTUXXc5kUDFjV
-L2ObfcYho10L7gHmZzKURyfglcry4ydjTDZvOGZfkMns0JzMQTn8hgXRy3fjddlY
-GNjTIEYThIcZaQTRwqkI6R4HdNNvMRjmLBkzqT5sB/v+yRAFh4zGBXt6MLDozjwg
-0n3j4bIJZ1Aiu7DiyrmKFGqxCt8LRrfIGr9CYIk/sHGk9/B0j3HzNKvHi5yVQadr
-/lIv6p+cjBGWULoGICBFuegTDYzmBvFh0twepU5f+h/NcUfKjUD6L6jtd5H5phIZ
-2AI/S/to45L0xY4ZdWWtznk/m+joDNAJDj9zcV/RBpWXablOmi8Da/VYft8laDVQ
-kmyJUqRnfp1DnbU7eqXa2n3z
-=Faur
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLQJwobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CTgP/0IzA+589EblEib9lKXX
+hgZrbj3exEJDJuYWTSkU+3T8uxUrJRX6AA5nTfDp+YIyTCRr8rCRIaLzLgr6inE2
+4sgq/rh79J8cfTIhiZWze7oxH81m8zs2fx9sqiOO3MChpN6hHBS/W1mHDAOnousQ
+DVNOm//89jKR/l/P6W1Xt2z1hqraHAWsg/gSjmtzSHSAmokJICQ5/Y+er26/JBzc
+74b8HZXcdWfgQaJBwQWjKkDHUAzVIMMqnmENNGLIMDUIe4+wVuTtfOmJBCyqfp9m
+ZGwlpwa3nFIf/+FDM5mK/n/DVhwkPcnFlA8tA4HR0rkBWs2nUmJVi1aj5WmG/oX4
+s6ArxEb9ADXYVL5cpzB+wSM9vwo476kQjH0FARnVHHOkUDN1lh60MaEtanUc5rAS
+wmIRaVS3Zi8LKPw+CU7DdcWr9PWp3MpJpe/+tMVTQQbyibeDlqS9GMil75p3JMz4
+iUmgguLR6QY8su6CkqzUYSlYC65jL7u6yxyVjNZGt7mXuOJf+C+NAH/InPEv+6sF
+5A+HQ5+K7UU2VFlYywf6bMKgp5cIGIh3SyLTll7oqOUtyaT2IIZph493a/M2HE+F
+vMM/orpSWjr7R2Y66FSk7BEYVgbuZCYChzIsepviZXVwuGRdDLTM+9lwYxnmA9Qi
+c30exYK3H3dOUbamUO9rJX4i
+=C9gK
 -----END PGP SIGNATURE-----
 
---===============9075541614996029455==--
+--===============5787372982178113714==--
