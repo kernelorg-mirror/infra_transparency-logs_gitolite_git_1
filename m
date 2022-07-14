@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2792945027139115037=="
+Content-Type: multipart/mixed; boundary="===============6322267913522715852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 14 Jul 2022 15:50:23 -0000
-Message-Id: <165781382395.21478.16554957112598420714@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 15:50:34 -0000
+Message-Id: <165781383444.21621.12466111863710069571@gitolite.kernel.org>
 
---===============2792945027139115037==
+--===============6322267913522715852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5022e221c98a609e0e5b0a73852c7e3d32f1c545
-    new: b126047f43f11f61f1dd64802979765d71795dae
-    log: revlist-5022e221c98a-b126047f43f1.txt
+  - ref: refs/heads/dev-queue
+    old: 835a53836d412f5a5b9cd86d5e281c0b6dce1569
+    new: 43c064d1dc6bee65497226c4662219411b8d21a4
+    log: revlist-835a53836d41-43c064d1dc6b.txt
 
---===============2792945027139115037==
+--===============6322267913522715852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5022e221c98a-b126047f43f1.txt
+Content-Disposition: attachment; filename=revlist-835a53836d41-43c064d1dc6b.txt
 
 fdb8fc34a6fbf8c7614f222cbe1176a0598f1941 ath11k: update missing MU-MIMO and OFDMA stats
 1ee6c5abebd3cacf2ac4378d0ed4f57fd4850421 ath10k: do not enforce interrupt trigger type
@@ -197,5 +197,49 @@ d86a153aca7ee754613313bdbdc8c3ae366108ea octeontx2-af: Remove duplicate include
 ad39bafda7369b241179da074005a08edcd77f27 xen-netfront: remove leftover call to xennet_tx_buf_gc()
 06673c2102b3f0959302d65e07485ba3f2b94127 xen-netfront: re-order error checks in xennet_get_responses()
 b126047f43f11f61f1dd64802979765d71795dae Merge branch 'xen-netfront-xsa-403-follow-on'
+2658393c8daf4ff22d4af8991704f530b9ac7c85 ice: prevent low-core machines crashing on DCB config
+3fabbf5cc22df4faaea3d25568d98ffb491b7fba e1000e: Enable GPT clock before sending message to CSME
+561c4d8b8577008daff282e653a2f5b895e96c72 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+b9f694ee9a6de2a13fe9a6e9960a32dd1dd2fed8 i40e: Fix interface init with MSI interrupts (no MSI-X)
+fd6f6972b861a32577540e90d57e47ec2fb9579d igc: Reinstate IGC_REMOVED logic and implement it properly
+892321c6474cb1830ab979dcc878b0cd69bbc437 ice: add support for Auto FEC with FEC disabled
+6638f17a67154580d6505938721e7c21175b5feb ice: handle E822 generic device ID in PLDM header
+7d8d25119ee3778fb89e4f9c3e8aae2cd5d10875 ice: change devlink code to read NVM in blocks
+fd73016bae6c950a8647a61baa0284522312e267 i40e: Refactor tc mqprio checks
+1dd9fbf8b1d32b4f677511d1ac07a8bb30980abb iavf: Fix VLAN_V2 addition/rejection
+140c7ba80d60f9420bc5b464a71549a728ff9e0e iavf: Fix max_rate limiting
+cce3227ededb2b0b69103d2f56a22a4d0df9a571 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+e565f7a4e8d879e42c4577f7c6ca7ee3a6955069 iavf: Fix missing state logs
+98d0bce931fc829c3f46ced77125a6c0e559efef iavf: Fix reset error handling
+93a354493ad59ab2ecda2b56a7bcdf94d3bad3a6 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+f8950cf1ce8d13b681b8dcee9e665d7219ff7137 iavf: Fix adminq error handling
+f8be161eda7ff9fe2b7ecc11bae2d0bea4c3cff2 iavf: Fix 'tc qdisc show' listing too many queues
+715a264c2acdc143a5d471c28bb198223b002462 iavf: validate dest MAC and VLAN from tc-filter code path
+2b8c32a0eebba06aa3cf3e3519620ff37debd9bd iavf: enable tc filter configuration only if hw-tc-offload is on
+0a1d10f96642b6ffdc58bddafd4301c02cdc3f1a i40e: Fix erroneous adapter reinitialization during recovery process
+b09e0e94e8ba97f1479bc9d0621c7d9f64adb09b iavf: Check for duplicate TC flower filter before parsing
+ce64f49e9b1cc6fd5a7b492ca65d435e9a928e7c ice: add i2c write command
+c2bb468e0790e3eca2d4d5c4d1befe80843b4a2e ice: add write functionality for GNSS TTY
+adb7e813aa6106a4b699e952ba3ccf6512b6f10e iavf: Fix handling of dummy receive descriptors
+0d04df972006840bd7024a1738b8a506d8e658c6 igc: Lift TAPRIO schedule restriction
+1eb0bd0888b071bd4dd44a254f62e2a9b8733e66 ice: Add EXTTS feature to the feature bitmap
+9d0d02ca6666a18f0aba5ed478055a7099acb4f3 ice: Remove pci_aer_clear_nonfatal_status() call
+5d2848cfa87efa6eff5272457ad98c9d1f0fa2a9 ice: Fix max VLANs available for VF
+acdee096ea9a21c0bb3b631f61ca4858c10a2267 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+b339e1babd7095b79d000d5e2fca689f0c20d01c ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+f8ec601dc33c2ccc2d3a245466ad15cdfe1e53ea ice: do not setup vlan for loopback VSI
+a2486dc2700b6a428b18d14f8220cd37a305f1f2 ice: Fix double VLAN error when entering promisc mode
+b73ebff07b98eaec6a9f202a7a6a17327414bfe6 ice: Ignore -EEXIST when setting promisc mode
+855d571f58d376f4a41235e58cb564931ef76696 ice: Fix clearing of promisc mode with bridge over bond
+5bb19b578f9969d69e16b94a9a1e6f09d33740f9 ice: xsk: use Rx ring when picking NAPI context
+3e0a3fe4a58255914fb5dd9204a3984784affe1c ice: Introduce enabling promiscuous mode on multiple VF's
+5d25efe5934314fd0ca29031bdd26e8e8fcbed52 ice: Fix promiscuous mode not turning off
+6e94955c21a60887083e7aa29c913abe1c02cbe1 ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
+23c4e9d8daafeb57f2ef0bcaa91bc60fad6beb6a igc: Remove MSI-X PBA Clear register
+acef81272f2a6580efc85ee1986f2567df8c9269 ice: Add support for ip TTL & ToS offload
+66dd65d90b56ddb7c089313c912746098c7cebe1 ice: compress branches in ice_set_features()
+c710ef53d9ab33d27f8f27929373dab68b376cd6 ice: allow toggling loopback mode via ndo_set_features callback
+66d7878ab644312843955c8539535bc1247a9e23 ice: Implement control of FCS/CRC stripping
+43c064d1dc6bee65497226c4662219411b8d21a4 ice: Implement FCS/CRC and VLAN stripping co-existence policy
 
---===============2792945027139115037==--
+--===============6322267913522715852==--
