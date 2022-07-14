@@ -1,89 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3669326653179462011=="
+Content-Type: multipart/mixed; boundary="===============8391781538352606709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 14 Jul 2022 17:09:42 -0000
-Message-Id: <165781858261.5461.2224765815679157935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Thu, 14 Jul 2022 17:09:45 -0000
+Message-Id: <165781858580.5535.18063834420615278127@gitolite.kernel.org>
 
---===============3669326653179462011==
+--===============8391781538352606709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/whatamess
-    old: bc39c0ce0d2aedfd6e0c16a12d79b3e8b4a71f3b
-    new: 4b7c702f013ae1a00fa3ecb6ad0e1f42ca98ae1c
-    log: revlist-bc39c0ce0d2a-4b7c702f013a.txt
+  - ref: refs/heads/pci/ctrl/imx6
+    old: 7d652ce95e70151edb5c14c64e73553afc2b7401
+    new: 0853b07fe88666bbcb0db3c62ad0ee3c5f7abb43
+    log: revlist-7d652ce95e70-0853b07fe886.txt
 
---===============3669326653179462011==
+--===============8391781538352606709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc39c0ce0d2a-4b7c702f013a.txt
+Content-Disposition: attachment; filename=revlist-7d652ce95e70-0853b07fe886.txt
 
-88591e7f06a42b241ca2a3e3e7067a8f17661947 xfs: use the CIL space used counter for emptiness checks
-12380d237b819bd6cf2183f10b55ab47cdaab5e6 xfs: lift init CIL reservation out of xc_cil_lock
-31151cc342dd9cc2c5a5954f3e7b2dcf2fb50f64 xfs: rework per-iclog header CIL reservation
-af1c2146a50b1ffe7e10cae1f7e64ab56b7f8c1f xfs: introduce per-cpu CIL tracking structure
-7c8ade212120085439eddc4cfddfa29d41c3f426 xfs: implement percpu cil space used calculation
-1dd2a2c18e314ad89200f8296c86dd4ecd53dea6 xfs: track CIL ticket reservation in percpu structure
-df7a4a2134b0a201c93e96efe4bb2be747f9da9f xfs: convert CIL busy extents to per-cpu
-016a23388cdcb2740deb1379dc408f21c84efb11 xfs: Add order IDs to log items in CIL
-c0fb4765c5086cfd00f1158f5f44e7e1906530ad xfs: convert CIL to unordered per cpu lists
-169248536a2b28e4228ba63772936c1ba979c9c0 xfs: convert log vector chain to use list heads
-4eb56069cb2835fafe569e27e746e6a4c9735186 xfs: move CIL ordering to the logvec chain
-1ccb0745a97fb8b38913b39b8ecb1aea39fdbcb0 xfs: avoid cil push lock if possible
-d9f68777b2515452828d97b521ff8e3517b42eb1 xfs: xlog_sync() manually adjusts grant head space
-51a117edff133a1ea8cb0fcbc599b8d5a34414e9 xfs: expanding delayed logging design with background material
-c6aee2481419b638a5257adbd3ffd33b11c59fa8 xfs: make last AG grow/shrink perag centric
-a95fee40e3d433d8fabff7c02e75f7c2c2e54400 xfs: kill xfs_ialloc_pagi_init()
-99b13c7f0bd35dd3cf2cacb61beb4557dc2b6f9b xfs: pass perag to xfs_ialloc_read_agi()
-76b47e528e3a27a3bf3b3f9153aad9435e03be8c xfs: kill xfs_alloc_pagf_init()
-08d3e84feeb8cb8e20d54f659446b98fe17913aa xfs: pass perag to xfs_alloc_read_agf()
-61021deb1faa5b2b913bf0ad76e2769276160b04 xfs: pass perag to xfs_read_agi
-fa044ae70c64343b07277256952d22a0dc05b319 xfs: pass perag to xfs_read_agf
-49f0d84ec1db5bd46dcf3796fc792fce74ff25a3 xfs: pass perag to xfs_alloc_get_freelist
-8c392eb27f7a98e403658d066e387c7b1c604f2b xfs: pass perag to xfs_alloc_put_freelist
-cec7bb7d58fa0e644f8cec46b081bf5427c1a0f8 xfs: pass perag to xfs_alloc_read_agfl
-0800169e3e2c97a033e8b7f3d1e6c689e0d71a19 xfs: Pre-calculate per-AG agbno geometry
-2d6ca8321c354e1cb6f6b1963c4f7bd053d2e272 xfs: Pre-calculate per-AG agino geometry
-3829c9a10fc7da40194ec9860df8c557c2b86ed8 xfs: replace xfs_ag_block_count() with perag accesses
-36029dee382a20cf515494376ce9f0d5949944eb xfs: make is_log_ag() a first class helper
-85c73bf726e41be276bcad3325d9a8aef10be289 xfs: rework xfs_buf_incore() API
-dd81dc05598c3028666d00709ef0810aa459bf8d Merge tag 'xfs-cil-scale-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeA
-fddb564f62aa6fd4c96a0c473526e2f86df95f4b Merge tag 'xfs-perag-conv-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeA
-70b589a37e1aba892c1e5d41957b0042f9eb031b xfs: add selinux labels to whiteout inodes
-0f38063d7a38015a47ca1488406bf21e0effe80e xfs: removed useless condition in function xfs_attr_node_get
-732436ef916b4f338d672ea56accfdb11e8d0732 xfs: convert XFS_IFORK_PTR to a static inline helper
-2ed5b09b3e8fc274ae8fecd6ab7c5106a364bed1 xfs: make inode attribute forks a permanent part of struct xfs_inode
-e45d7cb2356e6b59fe64da28324025cc6fcd3fbd xfs: use XFS_IFORK_Q to determine the presence of an xattr fork
-932b42c66cb5d0ca9800b128415b4ad6b1952b3e xfs: replace XFS_IFORK_Q with a proper predicate function
-c01147d929899f02a0a8b15e406d12784768ca72 xfs: replace inode fork size macros with functions
-04a98a036cf8b810dda172a9dcfcbd783bf63655 xfs: flush inode gc workqueue before clearing agi bucket
-a4454cd69c66bf3e3bbda352b049732f836fc6b2 xfs: factor the xfs_iunlink functions
-4fcc94d653270fcc7800dbaf3b11f78cb462b293 xfs: track the iunlink list pointer in the xfs_inode
-04755d2e5821b3afbaadd09fe5df58d04de36484 xfs: refactor xlog_recover_process_iunlinks()
-a83d5a8b1d946264e24299d6697bb03fe5198668 xfs: introduce xfs_iunlink_lookup
-2fd26cc07e9f8050e29bf314cbf1bcb64dbe088c xfs: double link the unlinked inode list
-5301f87013145a874cda4ae008b6fcc2b810a721 xfs: clean up xfs_iunlink_update_inode()
-062efdb0803adac3fad039d681789c5e01818bef xfs: combine iunlink inode update functions
-fad743d7cd8bd92d03c09e71f29eace860f50415 xfs: add log item precommit operation
-784eb7d8dd4163b82a19b914f76b2834a58a3e4c xfs: add in-memory iunlink log item
-de67dc575434dca8d60b1e181ed5dd296392ffce xfs: break up xfs_buf_find() into individual pieces
-348000804a0f4dea74219a927e081d6e7dee792f xfs: merge xfs_buf_find() and xfs_buf_get_map()
-d8d9bbb0ee6c79191b704d88c8ae712b89e0d2bb xfs: reduce the number of atomic when locking a buffer after lookup
-32dd4f9c506b1bf147c24cf05423cd893bc06e38 xfs: remove a superflous hash lookup when inserting new buffers
-298f342245066309189d8637ca7339d56840c3e1 xfs: lockless buffer lookup
-4613b17cc4789d6061041f9bd424180251fb6228 Merge tag 'xfs-iunlink-item-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeB
-35c5a09f5346e690df7ff2c9075853e340ee10b3 Merge tag 'xfs-buf-lockless-lookup-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeB
-6d200bdc017a420b23f70d15090e32ac87428dd5 Merge tag 'make-attr-fork-permanent-5.20_2022-07-14' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.20-mergeB
-95ff0363f3f6ae70c21a0f2b0603e54438e5988b xfs: fix use-after-free in xattr node block inactivation
-4cba45c1cbe34b0c082b6503f1b7dc165ec7459c Merged korg/iomap-for-next at Thu Jul 14 10:09:31 PDT 2022.
-4b7c702f013ae1a00fa3ecb6ad0e1f42ca98ae1c Merged korg/for-next at Thu Jul 14 10:09:32 PDT 2022.
+43c387e9fb6f5ea8cadfd5b0635153bcee2ef713 PCI: imx6: Move imx6_pcie_grp_offset(), imx6_pcie_configure_type() earlier
+52434116c88224cdbe27e1116bdf81aad53d114f PCI: imx6: Move PHY management functions together
+46f1451557f7a4dc44dd47a8a7d51f8db9493f66 PCI: imx6: Move imx6_pcie_enable_ref_clk() earlier
+051cb03d34209694386d97a87b7cb0babb7d2436 PCI: imx6: Move imx6_pcie_clk_disable() earlier
+727d4412481824e96561852e1288d01ef193fafe PCI: imx6: Factor out ref clock disable to match enable
+61fcb4fd2131dad0db7331e1af2998e8b4e32473 PCI: imx6: Collect clock enables in imx6_pcie_clk_enable()
+be07fca0ee483319b29310c686e8ba5a408c3144 PCI: imx6: Propagate .host_init() errors to caller
+bbc560898d42c722f0171c543db8fec92c6c3c05 PCI: imx6: Disable i.MX6QDL clock when disabling ref clocks
+ddce499c72763699a158d1f4809dc314471cf7d7 PCI: imx6: Call host init function directly in resume
+39068ce9db324fc346a212c262f577165f1808bb PCI: imx6: Turn off regulator when system is in suspend mode
+274ee9e15ea882e37f95b83260073a281bbc52b4 PCI: imx6: Move regulator enable out of imx6_pcie_deassert_core_reset()
+2ac51ef75e96bbaa856da411c510edfd8c5cb9a8 PCI: imx6: Mark the link down as non-fatal error
+df8e6fe16ebf160e5d83dc065d53124d53b867b5 PCI: imx6: Reduce resume time by only starting link if it was up before suspend
+67310a7968ddd7d5c5ce4a5a2d86d63e13da1688 PCI: imx6: Do not hide PHY driver callbacks and refine the error handling
+8925bce11635983c81ce173a5ad2e092c4422ea9 PCI: imx6: Disable clocks in reverse order of enable
+548b4ee79779f70383fd8e4409da3be8695f1bc0 PCI: imx6: Move the imx6_pcie_ltssm_disable() earlier
+5de4b75bfa1b768d557d946b201eb4448ea03e4a PCI: imx6: Reformat suspend callback to keep symmetric with resume
+3e20039786e3b1685eae4b88c736b9020399bc9a PCI: imx6: Set PCIE_DBI_RO_WR_EN before writing DBI registers
+0853b07fe88666bbcb0db3c62ad0ee3c5f7abb43 PCI: imx6: Support more than Gen2 speed link mode
 
---===============3669326653179462011==--
+--===============8391781538352606709==--
