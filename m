@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 14 Jul 2022 22:22:01 -0000
-Message-Id: <165783732185.9354.9635603483713293364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 14 Jul 2022 22:26:29 -0000
+Message-Id: <165783758919.12280.6660559351480228766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: a69fa692b094347e3a1dbcd9198d426f671dec0c
-    new: af998fd32c34f739002865b7288183e006c2ef53
+    old: 9bd572ec7a66b56e1aed896217ff311d981cf575
+    new: db886979683a8360ced9b24ab1125ad0c4d2cf76
     log: |
-         af998fd32c34f739002865b7288183e006c2ef53 main: Default device_privacy to true
+         db886979683a8360ced9b24ab1125ad0c4d2cf76 x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
          
