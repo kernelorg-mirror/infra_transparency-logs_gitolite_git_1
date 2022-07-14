@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5096073936281077395=="
+Content-Type: multipart/mixed; boundary="===============3669326653179462011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 14 Jul 2022 17:07:39 -0000
-Message-Id: <165781845974.4699.8725991342385878485@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 17:09:42 -0000
+Message-Id: <165781858261.5461.2224765815679157935@gitolite.kernel.org>
 
---===============5096073936281077395==
+--===============3669326653179462011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,50 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 0f38063d7a38015a47ca1488406bf21e0effe80e
-    new: 95ff0363f3f6ae70c21a0f2b0603e54438e5988b
-    log: revlist-0f38063d7a38-95ff0363f3f6.txt
-  - ref: refs/heads/xfs-5.20-merge
-    old: 0f38063d7a38015a47ca1488406bf21e0effe80e
-    new: 95ff0363f3f6ae70c21a0f2b0603e54438e5988b
-    log: revlist-0f38063d7a38-95ff0363f3f6.txt
-  - ref: refs/tags/xfs-5.20-merge-3
-    old: 0000000000000000000000000000000000000000
-    new: 42b9b9c0ad87c1cfac6e042842c89d2d99a2d177
+  - ref: refs/heads/whatamess
+    old: bc39c0ce0d2aedfd6e0c16a12d79b3e8b4a71f3b
+    new: 4b7c702f013ae1a00fa3ecb6ad0e1f42ca98ae1c
+    log: revlist-bc39c0ce0d2a-4b7c702f013a.txt
 
---===============5096073936281077395==
+--===============3669326653179462011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f38063d7a38-95ff0363f3f6.txt
+Content-Disposition: attachment; filename=revlist-bc39c0ce0d2a-4b7c702f013a.txt
 
+88591e7f06a42b241ca2a3e3e7067a8f17661947 xfs: use the CIL space used counter for emptiness checks
+12380d237b819bd6cf2183f10b55ab47cdaab5e6 xfs: lift init CIL reservation out of xc_cil_lock
+31151cc342dd9cc2c5a5954f3e7b2dcf2fb50f64 xfs: rework per-iclog header CIL reservation
+af1c2146a50b1ffe7e10cae1f7e64ab56b7f8c1f xfs: introduce per-cpu CIL tracking structure
+7c8ade212120085439eddc4cfddfa29d41c3f426 xfs: implement percpu cil space used calculation
+1dd2a2c18e314ad89200f8296c86dd4ecd53dea6 xfs: track CIL ticket reservation in percpu structure
+df7a4a2134b0a201c93e96efe4bb2be747f9da9f xfs: convert CIL busy extents to per-cpu
+016a23388cdcb2740deb1379dc408f21c84efb11 xfs: Add order IDs to log items in CIL
+c0fb4765c5086cfd00f1158f5f44e7e1906530ad xfs: convert CIL to unordered per cpu lists
+169248536a2b28e4228ba63772936c1ba979c9c0 xfs: convert log vector chain to use list heads
+4eb56069cb2835fafe569e27e746e6a4c9735186 xfs: move CIL ordering to the logvec chain
+1ccb0745a97fb8b38913b39b8ecb1aea39fdbcb0 xfs: avoid cil push lock if possible
+d9f68777b2515452828d97b521ff8e3517b42eb1 xfs: xlog_sync() manually adjusts grant head space
+51a117edff133a1ea8cb0fcbc599b8d5a34414e9 xfs: expanding delayed logging design with background material
+c6aee2481419b638a5257adbd3ffd33b11c59fa8 xfs: make last AG grow/shrink perag centric
+a95fee40e3d433d8fabff7c02e75f7c2c2e54400 xfs: kill xfs_ialloc_pagi_init()
+99b13c7f0bd35dd3cf2cacb61beb4557dc2b6f9b xfs: pass perag to xfs_ialloc_read_agi()
+76b47e528e3a27a3bf3b3f9153aad9435e03be8c xfs: kill xfs_alloc_pagf_init()
+08d3e84feeb8cb8e20d54f659446b98fe17913aa xfs: pass perag to xfs_alloc_read_agf()
+61021deb1faa5b2b913bf0ad76e2769276160b04 xfs: pass perag to xfs_read_agi
+fa044ae70c64343b07277256952d22a0dc05b319 xfs: pass perag to xfs_read_agf
+49f0d84ec1db5bd46dcf3796fc792fce74ff25a3 xfs: pass perag to xfs_alloc_get_freelist
+8c392eb27f7a98e403658d066e387c7b1c604f2b xfs: pass perag to xfs_alloc_put_freelist
+cec7bb7d58fa0e644f8cec46b081bf5427c1a0f8 xfs: pass perag to xfs_alloc_read_agfl
+0800169e3e2c97a033e8b7f3d1e6c689e0d71a19 xfs: Pre-calculate per-AG agbno geometry
+2d6ca8321c354e1cb6f6b1963c4f7bd053d2e272 xfs: Pre-calculate per-AG agino geometry
+3829c9a10fc7da40194ec9860df8c557c2b86ed8 xfs: replace xfs_ag_block_count() with perag accesses
+36029dee382a20cf515494376ce9f0d5949944eb xfs: make is_log_ag() a first class helper
 85c73bf726e41be276bcad3325d9a8aef10be289 xfs: rework xfs_buf_incore() API
+dd81dc05598c3028666d00709ef0810aa459bf8d Merge tag 'xfs-cil-scale-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeA
+fddb564f62aa6fd4c96a0c473526e2f86df95f4b Merge tag 'xfs-perag-conv-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeA
+70b589a37e1aba892c1e5d41957b0042f9eb031b xfs: add selinux labels to whiteout inodes
+0f38063d7a38015a47ca1488406bf21e0effe80e xfs: removed useless condition in function xfs_attr_node_get
 732436ef916b4f338d672ea56accfdb11e8d0732 xfs: convert XFS_IFORK_PTR to a static inline helper
 2ed5b09b3e8fc274ae8fecd6ab7c5106a364bed1 xfs: make inode attribute forks a permanent part of struct xfs_inode
 e45d7cb2356e6b59fe64da28324025cc6fcd3fbd xfs: use XFS_IFORK_Q to determine the presence of an xattr fork
@@ -58,5 +83,7 @@ d8d9bbb0ee6c79191b704d88c8ae712b89e0d2bb xfs: reduce the number of atomic when l
 35c5a09f5346e690df7ff2c9075853e340ee10b3 Merge tag 'xfs-buf-lockless-lookup-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/dgc/linux-xfs into xfs-5.20-mergeB
 6d200bdc017a420b23f70d15090e32ac87428dd5 Merge tag 'make-attr-fork-permanent-5.20_2022-07-14' of git://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-5.20-mergeB
 95ff0363f3f6ae70c21a0f2b0603e54438e5988b xfs: fix use-after-free in xattr node block inactivation
+4cba45c1cbe34b0c082b6503f1b7dc165ec7459c Merged korg/iomap-for-next at Thu Jul 14 10:09:31 PDT 2022.
+4b7c702f013ae1a00fa3ecb6ad0e1f42ca98ae1c Merged korg/for-next at Thu Jul 14 10:09:32 PDT 2022.
 
---===============5096073936281077395==--
+--===============3669326653179462011==--
