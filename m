@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5280569631829672279=="
+Content-Type: multipart/mixed; boundary="===============6566974742856768685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 14 Jul 2022 08:53:48 -0000
-Message-Id: <165778882898.6363.12851965982096665069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 14 Jul 2022 08:53:58 -0000
+Message-Id: <165778883855.6537.7509332016344396930@gitolite.kernel.org>
 
---===============5280569631829672279==
+--===============6566974742856768685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4662b7adea50bb62e993a67f611f3be625d3df0d
     new: 37b355fdaf31ee18bda9a93c2a438dc1cbf57ec9
     log: revlist-4662b7adea50-37b355fdaf31.txt
-  - ref: refs/heads/stable
-    old: 72a8e05d4f66b5af7854df4490e3135168694b6b
-    new: 4a57a8400075bc5287c5c877702c68aeae2a033d
-    log: revlist-72a8e05d4f66-4a57a8400075.txt
-  - ref: refs/tags/next-20220414
-    old: 26ca018d4211dd362d518ec7f982ec74eaf00186
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220714
     old: 0000000000000000000000000000000000000000
     new: 17acb966a786c6a934ee8fddf82539454b413746
 
---===============5280569631829672279==
+--===============6566974742856768685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,22 +1054,4 @@ c29c49b39715960cbb970854574a656d671f0329 Merge branch 'mm-stable' of git://git.k
 350b56c16531fd660879b2afb36dd3e225c4fe73 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 37b355fdaf31ee18bda9a93c2a438dc1cbf57ec9 Add linux-next specific files for 20220714
 
---===============5280569631829672279==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72a8e05d4f66-4a57a8400075.txt
-
-07fd5b6cdf3cc30bfde8fe0f644771688be04447 cgroup: Use separate src/dst nodes when preloading css_sets for migration
-7edc3945bdce9c39198a10d6129377a5c53559c2 tracing/histograms: Fix memory leak problem
-495fcec8648cdfb483b5b9ab310f3839f07cb3b8 tracing: Fix sleeping while atomic in kdb ftdump
-0a6d7d45414a77876e8e9a77e454af754cea3a60 ftrace: Be more specific about arch impact when function tracer is enabled
-0bb7e14c8e15ad78b7300e7d89a615ea8b8c89a9 blk-iocost: tracing: atomic64_read(&ioc->vtime_rate) is assigned an extra semicolon
-e3655dfa58053d614ca9601c36657b469402650f fprobe/samples: Make sample_probe static
-1e1fb420fe68d9d938db360fec700dfd230cc22a samples: Use KSYM_NAME_LEN for kprobes
-b047602d579b4fb028128a525f056bbdc890e7f0 Merge tag 'trace-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-5750676b64a561f7ec920d7c6ba130fc9c7378f3 fs/remap: constrain dedupe of EOF blocks
-d0b97f3891fb414bd1fd1cb3d83f0f6b9fd0d357 Merge tag 'cgroup-for-5.19-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-4a57a8400075bc5287c5c877702c68aeae2a033d vf/remap: return the amount of bytes actually deduplicated
-
---===============5280569631829672279==--
+--===============6566974742856768685==--
