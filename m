@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1147558304966497282=="
+Content-Type: multipart/mixed; boundary="===============1057842203576287838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Jul 2022 04:11:44 -0000
-Message-Id: <165777190412.25475.1404667848113970569@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 04:11:59 -0000
+Message-Id: <165777191949.25641.16106666943398869242@gitolite.kernel.org>
 
---===============1147558304966497282==
+--===============1057842203576287838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 78ee09b19a67d849cf66565648d8723c687c7a7d
-    new: 179b0087d6f0c7f8267cd5d0824ebbb359c78ce3
+  - ref: refs/heads/5.19/scsi-fixes
+    old: ccd3f449052449a917a3e577d8ba0368f43b8f29
+    new: 355bf2e036c954317ddc4a9618b4f7e38ea5a970
     log: |
          8312cd3a7b835ae3033a679e5f0014a40e7891c5 scsi: megaraid: Clear READ queue map's nr_queues
          2ae57c995003a7840cb6b5ec5f0c06193695321b scsi: ufs: core: Drop loglevel of WriteBoost message
@@ -27,33 +27,33 @@ changes:
          355bf2e036c954317ddc4a9618b4f7e38ea5a970 scsi: pm80xx: Set stopped phy's linkrate to Disabled
          
 
---===============1147558304966497282==
+--===============1057842203576287838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1657771887 -0400
+pusher 75C5DE3D 1657771909 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1657771887-cde9ac7a5f0d68a8a04089e0d3cf435e187b22ab
+nonce 1657771909-561572344ce7c1959cfa1f5705454829a6e7b69b
 
-78ee09b19a67d849cf66565648d8723c687c7a7d 179b0087d6f0c7f8267cd5d0824ebbb359c78ce3 refs/tags/mkp-scsi-fixes
+ccd3f449052449a917a3e577d8ba0368f43b8f29 355bf2e036c954317ddc4a9618b4f7e38ea5a970 refs/heads/5.19/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLPl28ACgkQ7ulgGnXF
-3j2kjw//Vxot78k3YrgOh7jrBEOQsAUYCnIITGKisy/kfqzE+NBdfNiL7YhJ3867
-VjDMV1Fg4jjZdX/SIfCYe84+Hg7WluEKd64EdHKU10mKWfo6WFsdR45mz4kbUvM5
-+9jCsHOh/xWsUphrVeQQviGp3T2/b6am9ANCHpyH3xiJyArbL+LSIpSyykNbM+Xi
-78wgXTqY8XICS57vRzkBOTZ2AclxhFW6wgc8mlYG4sJ1qDNU9lQbu42tDJ6WWDGF
-VmUaFn0A3FIOMlaC8TH2it5ooOpXIAFtQxO9EuMImHCfsPBYVml8XGJDjwERdICu
-9+7ZAYXZQ1MKGhXd2V4ZMs3Dc2FFw8PdcZWQFlwxoyOB85Qgcnwe+DnEtjPSXotn
-UQOOj18MioCCvv72DmUtrw22DyjEcMFHMo2ZUmFhPnIjNuseyhg1KU2n799+oHTS
-mTF0LmlspEArvT4NCNOK8BCI9i7fxHB5l2D3CuqQNxNAOofHtvDdKFoDIqZu1ZXb
-+oh5YfHMuqeGqhXAB1/XwfZLkczKB0+9EIE9EnnaQ+Vr8+G/rv7n9dW/Ce/k5Otk
-fRJ5h7GT6z7lUXgKP1Oy29iCiSYsriBdI9WqjDkR4XCmCUWpGnEyVN3KuY+DEfhP
-Xt8bTUx0mq2OktD9zqMSRkk59e3+WP6ONq/EVjWQ029RGgHb8FE=
-=jRmr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLPl4UACgkQ7ulgGnXF
+3j0pKw//dVMWLgMN9Lwlm49SbFazliGVRlKWAzTUNwNHisq1dzNgRT7wYR4ic5bS
+MmCKT+vruCqLlplvdbkpsYT8rkWDAsm4eRnpzTOyTvBAmhnZOSPh5JHOZxCJBq+o
+3PqgoF/jlgOarfX3vLjahqOY2lXNR+4dhHeUksW8KRrv8rRXD9vKFyNS8prP/GGN
+G0IIqcG9jNcBNRn1uL1W6Q46B1pLTOjFzISAxm+4z0oEg0nbCf1XY7jqYMTrjwTQ
+1TCtu1NdL3zKydeq6qC9wYR7zjdlnyHXvbrTukzBkqdZlcw9TRoyHcDTi7CdYUme
+8HhKOMV/YR3jBmFD5iYmLt/ImhOS7BsnS9A+RbmaBPGCMbONJvEQM3O+2ZgF9AQT
+HeJNcWwz5qIvU0N6bQgi8+3559nXZc0DujQcma3sr91LdisUJwT24qYz+tfJIurc
+7iG6pCVYC2EfHZLx+d/MTh4HB/z3OH4DvqeVz06YVpg4L2A05IyOMXsnFE1hbBjt
+Y4AYBX3v0AhOEAwuu4/2mgiUudx2tDMblIIZ46ODtIjwzljB9Q1MWnuL4XDuQg14
+a5va1HWRz8Cv/gAOa31vJlo8NTfVxv5Hqzu/mzN71IF6DXy34iRvi+mvVKqZsgZo
+PxLA7jLTG+FlgqjTSLiBeoe8Bd0VMloXn0X4L/lA12aD5Q0zePc=
+=c8eP
 -----END PGP SIGNATURE-----
 
---===============1147558304966497282==--
+--===============1057842203576287838==--
