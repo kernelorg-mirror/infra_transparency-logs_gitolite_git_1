@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1245609681694374353=="
+Content-Type: multipart/mixed; boundary="===============2090096749178630255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 14 Jul 2022 16:41:14 -0000
-Message-Id: <165781687459.20441.11948606308699634275@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 16:43:35 -0000
+Message-Id: <165781701506.21529.13474893452652468429@gitolite.kernel.org>
 
---===============1245609681694374353==
+--===============2090096749178630255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: 448b5a1548d87c246c3d0c3df8480d3c6eb6c11a
     new: 549afce1d1f4c0b04f36c56b79e5b4b318b2fef9
     log: revlist-448b5a1548d8-549afce1d1f4.txt
 
---===============1245609681694374353==
+--===============2090096749178630255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ ee6c5e3afd2d1de536a2f0a7e1608729b97fa0bc erofs: introduce struct z_erofs_decompr
 6ec0880d9aa357c21259a2386fb24bf4ec886b68 erofs: record the longest decompressed size in this round
 549afce1d1f4c0b04f36c56b79e5b4b318b2fef9 erofs: introduce multi-reference pclusters (fully-referenced)
 
---===============1245609681694374353==--
+--===============2090096749178630255==--
