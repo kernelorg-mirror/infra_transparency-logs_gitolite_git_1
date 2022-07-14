@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0331615634365170662=="
+Content-Type: multipart/mixed; boundary="===============6368946018469857330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 14 Jul 2022 14:54:06 -0000
-Message-Id: <165781044629.16707.2547317773491210916@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 14:54:41 -0000
+Message-Id: <165781048163.16977.8012072537628319104@gitolite.kernel.org>
 
---===============0331615634365170662==
+--===============6368946018469857330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 2a3c8f8a4494343f5942b780b3f6295307a07b6e
-    new: 3a15b45b5454da862376b5d69a4967f5c6fa1368
+    old: 3a15b45b5454da862376b5d69a4967f5c6fa1368
+    new: 6c93c6f3bad468ce4b8c843227d60fbeb02fd741
     log: |
-         71d46f1ff2212ced4852c7e77c5176382a1bdcec eeprom: idt_89hpesx: uninitialized data in idt_dbgfs_csr_write()
-         d618072d86fcc391b77ca0a1909b5f0bb8423f6e mei: me: fix clang -Wformat warning
-         4b00b176b3a3bcd4679487c23d333be02e533d93 cxl: Use the bitmap API to allocate bitmaps
-         3a15b45b5454da862376b5d69a4967f5c6fa1368 cxl: Fix a memory leak in an error handling path
+         952ae488b9492b40ea18b5de101afce69b965336 dt-bindings: vcpu_stall_detector: Add qemu,vcpu-stall-detector compatible
+         6c93c6f3bad468ce4b8c843227d60fbeb02fd741 misc: Add a mechanism to detect stalls on guest vCPUs
          
 
---===============0331615634365170662==
+--===============6368946018469857330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657810444 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657810480 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657810443-4f27acbd65ae6b8e0518ecbda60a853b254d45b3
+nonce 1657810479-197df6420bbd0b2e2cd2939669ca2635d3920a64
 
-2a3c8f8a4494343f5942b780b3f6295307a07b6e 3a15b45b5454da862376b5d69a4967f5c6fa1368 refs/heads/char-misc-testing
+3a15b45b5454da862376b5d69a4967f5c6fa1368 6c93c6f3bad468ce4b8c843227d60fbeb02fd741 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLQLgwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+44cQAJD8FGAd2aWoDpHjIO7E
-AuqN2ZVikESxVXlItWHG1RUmsJLUgR2Tpgu8LNXrqFl1z+m+KnOSSpJPzV+GUuKQ
-guxbaMqaH9TyI/K4ndLoVxgNFGxLdI2FcNVSV0eGWdXKcqbGGOPrUBChuqJKWhQs
-OlA9dcOACX3/SXqO+nj3wXADy27xygoGU9GjvbBGNHOMWTJuEDcK1U+m7cS7gQvt
-q9W6X9VTbvIjQVqTuhQQIl6FQPGa+nb4oKuo5fk55UDjRyi/CMeKIPNngEp6b27g
-6jMCZLOS/IP58JviJngkEVGWgMP3ZIU147iCn1uQN6m1dcc7lpHDyzisjqxcFSCz
-0qq53cBQoYsK+vVRWECj3oztMpolvZNdZsxQUk721013J5VDseq+p/KLXaUU61nj
-2mFTOKdSJhD8lgqwyR9IQM16cfXD8Hgt+/ioWffnKSGNHekHgVBN+48Zj4TpjaBo
-ElFGX/AM01smsZiepoRb8uUmzMsT9KX1SgZm1sY6m72XcI8g1BOpCYP11dUDvBhK
-9k/msgbeFBqXMKx2sDsiw5IA0Vi19NdBLtfl4/5ZZaLKFxZZLzX0vt/ouG2FYqCL
-la4h2AMCMF6U3qrfBSEpgDjghVSz+e5mR4lYXBcdzKFa95p44rploD1Tp+PBpz//
-o+ax5HiToLlMm0SY2MB4YGNH
-=FWEI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLQLjAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gEsP/0fBjycvCFmA1E1Dl9CF
+TcwYEqtEVftD1eJbMtrAorMCQ39d06hQjOyubunxD0T1KQTDrEBjRzCiuubkqsqV
+t64tIfKPol+bldjsW01+VqSz2aGz7rvfvsNodv34LjQ8HNBurMBW4UUxqNK2EZiF
+8hhRzQb5aFJPGAv6dlYnebmkR5Z3aNgg4/42SCqxbmp+OvtdqQDareB568fUZSEy
+j7pp2A+uoKs82H2jnSVU6CLUkHWczDjP/WeW9cQhp7ujQo6VyQhnjuTj7rGmMMQF
+iJ9d//6RRVBFGcu3EyTMJMJy5KHX0x1GjlH9Ca+eE0BpXbcKt1jfpttvElWc8JDu
+EQaNtUQ/jktEOoAIOXYXv2/LpedmnKYdUFBvUo0S/WXka/HwB3xreBFcTgo7jYn7
+A+67aNHzUoI39aHM1YNOSy24y4Y4ahtr6A72vrD2Pxlbd0gDYGrlcKOygqh3ufPk
+WyNAsmOj19CZyYfCZc3B+SRK9BV2KpUQoitEBxND6XlR9wrAMWyGCNmJnNuFhd15
+7QhPv5IFMZKeQ9APhq4+PxYiEFNQ+f6RNorlh7ZnAhJlA/90GMMFm6VoCjKgISQW
+Nz5rnBjikhuqk2H4S1/LpVAKH4swUDsGJRLVC7PE6BEtPRW72Hqmggelq5mcGB/R
+C4Jc5XdbWi17wDGMLUrSFkWm
+=DY+k
 -----END PGP SIGNATURE-----
 
---===============0331615634365170662==--
+--===============6368946018469857330==--
