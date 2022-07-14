@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3458377273211421019=="
+Content-Type: multipart/mixed; boundary="===============2832804630107311329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 14 Jul 2022 14:11:32 -0000
-Message-Id: <165780789223.21737.1134872748195924186@gitolite.kernel.org>
+Date: Thu, 14 Jul 2022 14:14:55 -0000
+Message-Id: <165780809513.22906.14845728744051981047@gitolite.kernel.org>
 
---===============3458377273211421019==
+--===============2832804630107311329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,56 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 8affe37c525d800a2628c4ecfaed13b77dc5634a
-    new: fe6d8a9c8e6456f8e7ba6b4ee528460beaf65a71
-    log: |
-         8097cf2fb3b2205257f1c76f4808e3398d66b6d9 usb: gadget: udc: amd5536 depends on HAS_DMA
-         421c8d9a20da92deed2dac227e7ebdee7eb3e88f usb: gadget: f_mass_storage: forced_eject attribute
-         aae7948d564c614c26eb896eb8be57879146240c Revert "dt-bindings: usb: mtk-xhci: Make all clocks required"
-         2d937c64e8bf3d9b11b1d62d37fbe97b3cd5dc8d usb: misc: onboard_hub: Fix 'missing prototype' warning
-         5e76ee96be8f7bbf9416a5edddc8c064e7e7c6ac usb: dwc3: ep0: Properly handle setup_packet_pending scenario in data stage
-         efa2bebf2a9fde638644d6fb0fb776345ac6fcc1 usb: ldusb: replace ternary operator with max_t()
-         220fafb4ed04187e9c17be4152da5a7f2ffbdd8c usb: aspeed-vhub: Fix refcount leak bug in ast_vhub_init_desc()
-         07903626d98853e605fe63e5ce149f1b7314bbea usb: dwc3: core: Do not perform GCTL_CORE_SOFTRESET during bootup
-         4af37191134dfce0f3525ad863e70586a48e6ab2 dt-bindings: usb: Add analogix anx7411 PD binding
-         fe6d8a9c8e6456f8e7ba6b4ee528460beaf65a71 usb: typec: anx7411: Add Analogix PD ANX7411 support
-         
+    old: fe6d8a9c8e6456f8e7ba6b4ee528460beaf65a71
+    new: ddc509e940baa5e3d8e2ea18c2b4ceaac31c502f
+    log: revlist-fe6d8a9c8e64-ddc509e940ba.txt
 
---===============3458377273211421019==
+--===============2832804630107311329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657807890 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657808093 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657807889-914842808c52a0cc515072c5fd03f6fde67c1582
+nonce 1657808092-4b917425813515648f3fecb6f09283356db8ae2f
 
-8affe37c525d800a2628c4ecfaed13b77dc5634a fe6d8a9c8e6456f8e7ba6b4ee528460beaf65a71 refs/heads/usb-testing
+fe6d8a9c8e6456f8e7ba6b4ee528460beaf65a71 ddc509e940baa5e3d8e2ea18c2b4ceaac31c502f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLQJBIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HjAQAMno26DYcxNIPgPYl+6f
-60sq07WK7AFAM8zWuIGhJVIcjrwj1zF5s3Yn2iGR/fSUz9d7crF1z+Ix7rBZo7hJ
-QnVeG3CVLFPwFSZjgdKmavmGM9Q4YcXAC27X27kmTRhgPN1HoO3QE0L7qL1R0MrF
-GhxdU5+g0gQQwE/Blhui5UoUkTfQ53QCyQUL6OIYUipplarNGqs/U5+r8WmwH9h6
-w+wsdOtyIAeR7aDijOB+ByYhDaf8ryDxJN+FRjoHgoDnqJuMkXmYKkXBVp/92K+B
-06SGeTvusHsZTYk63i/wpinKtWEXtiRIVWc5NhJlGCqcql8TunPlpc3Jh7VS2ShB
-/B557hLqhXhyXlR/o0hMheUBh5NrnYZlz/Ye8vmiN/1aZp6+Yt8/mS6kq9d9g4fI
-txfH8RgI5itRnd6WW5z4iR33kVYsrmSzP6vwDNfIJZq+uWnMdIGLim3UCFUp/V0R
-VamOHk7VQRojhQsKe2QKDUQ6F2l6B/cbuUcuP31qsTp9ArM7YzueK8EoPBE4Y3H7
-pg/Y2Kve7UD+XSHMs4r4srGNI6lphj9j632751UFao9ZonwRTVpUAaH4oJIvuClA
-orHzJ1BskF4UGoq5QdKbseJ6BaeJf+IaTiPYolAv49PwvOY95ruzGjLr9sA2yVyd
-M1x3iMZApwJSlxV4VOKy73ut
-=nnFW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLQJN0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BgcQAMaMOdvtT6coJ+bexw58
+Fks15LA8/9j1wncXAzQwv++ULTYuw/KJEOx63LbdidqO3DhdTDFHUuJcAZyDSxsm
+x05RDCWly2pEHc9ZjjQEjYfuy8I7zxVSDmLeQsl4iRwN2iEzEHeP3T0qHZ8rzLdu
+ec7u4ijnHRj49ydeUgv4afr+Dpjh1ZIosTmpq2snJBP63etU/1Ci2M61Aspzyhou
+2qHSNSQD9p8QffC9vauIGwOvzuVLkm148xrcHLjIrjJgCGVv+Fqz+RDr8QC/XiMC
+1Z9GibPy/MZ0MkBgbv9LCp2j0KakBbky6hOPqwQHVLrsSAAaV/gKgF+NmCwOl7RY
+q1RbsB4BHnEaZnxXybDUVi8k08+1EYNC6To+unwjnVKziZZI0qNbGJ/bYy83ITPo
+z2NFWP3/K8lPueyDjmTYDaEMKjxpgdUJMogzokQSH8y3AszRQ21Z8PBdSHvP2Bde
+VTI5IDKFZ7skNlhgHWISWITV599nVqD6f8bK5u1LXosTZ4twzIe8sqQF1Lis+PoA
+e1sAxz1rGMXxq9CH+jljnygpGbBmoiqS8AY0u50CoC3/K7fSPSWA7qrz3H+eaOkL
+OAPutyTs8LMx92L4EJZ86M9X7MVU8tyYxwArKtXbfpXkYbpBNY7n2iaY5yL35JJe
+cKBxerfMffhNUESberr/1Q25
+=OO/O
 -----END PGP SIGNATURE-----
 
---===============3458377273211421019==--
+--===============2832804630107311329==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fe6d8a9c8e64-ddc509e940ba.txt
+
+a5c7592366af3db61171007d103876c457cd5796 dt-bindings: usb: qcom,dwc3: add SC8280XP binding
+dd566faebe9f27659f2ec0135219f399bc6a2ec9 dt-bindings: usb: qcom,dwc3: refine interrupt requirements
+69bb3520db7cecbccc9e497fc568fa5465c9d43f usb: dwc3: qcom: fix missing optional irq warnings
+d0c2d4fc7cba09a3ac138babb7f5f43f3b5624f7 arm64: dts: qcom: sc7280: reorder USB interrupts
+6a118f385afdd8862804e101ec828f00b4e90fc5 usb: typec: Add support for retimers
+584f45bfea0fcd8ced6864aa9fe64e25562fdd78 usb: typec: Add retimer handle to port
+0e8c0633ac465bae9690e19f0e952ab835c9da23 usb: dwc3: Do not service EP0 and conndone events if soft disconnected
+959ec0beae00980f38c63beb407d32402aae2de5 usb: dwc3: gadget: Force sending delayed status during soft disconnect
+c7a75a3a3bf51ab55e372cd68636a9037de9257e usb: dwc3: gadget: Adjust IRQ management during soft disconnect/connect
+6955dd27876b8433a13e60bcef34d0912bc40965 usb: dwc3: Allow end transfer commands to be sent during soft disconnect
+ddc509e940baa5e3d8e2ea18c2b4ceaac31c502f usb: dwc3: gadget: Increase DWC3 controller halt timeout
+
+--===============2832804630107311329==--
