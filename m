@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 14 Jul 2022 18:07:09 -0000
-Message-Id: <165782202928.10587.15860950008569469175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 14 Jul 2022 18:14:00 -0000
+Message-Id: <165782244099.14214.6709780927471727831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 61c6f8c0a33275dbe341675050683e6b4d2d1137
-    new: 9009f55bc44e4cb6f94e8e3315e85ad5ed69a519
+  - ref: refs/heads/master
+    old: 95dc4789e9dbacb7b3913b1a6e0dfef80fabb74d
+    new: c2d1207cc310d41c0f5fe23ce36a13ffa84189d6
     log: |
-         9009f55bc44e4cb6f94e8e3315e85ad5ed69a519 riscv: config: enable SOC_STARFIVE in defconfig
+         c2d1207cc310d41c0f5fe23ce36a13ffa84189d6 liburing.h: style and size_t vs int cleanup
          
