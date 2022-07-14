@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 14 Jul 2022 10:08:01 -0000
-Message-Id: <165779328156.30819.16712945292886310348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 14 Jul 2022 10:31:44 -0000
+Message-Id: <165779470450.13246.491789777601617787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for_next
-    old: e252f2ed1c8c6c3884ab5dd34e003ed21f1fe6e0
-    new: 7fd0dbb80f46b122c3723ac8ad02a2d84468e342
+  - ref: refs/heads/master
+    old: f85daf0e725358be78dfd208dea5fd665d8cb901
+    new: e79b9473e9b59e83e23db9b7411c6080b5a6826d
     log: |
-         9888725d8a640d67abe6139e84ff41bafe89b11e fs/ext2: replace ternary operator with min_t()
-         7fd0dbb80f46b122c3723ac8ad02a2d84468e342 Merge ext2 min_t() cleanup from Jiangshan Yi.
+         e79b9473e9b59e83e23db9b7411c6080b5a6826d net: ipv4: fix clang -Wformat warnings
          
