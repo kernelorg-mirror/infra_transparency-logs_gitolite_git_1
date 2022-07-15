@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4281091378578148624=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 15 Jul 2022 13:14:04 -0000
-Message-Id: <165789084481.16785.12489606777919088978@gitolite.kernel.org>
-
---===============4281091378578148624==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Fri, 15 Jul 2022 13:30:17 -0000
+Message-Id: <165789181755.27878.975976228549946341@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/main
-    old: 81151ce462e533551f3284bfdb8e0f461c9220e6
-    new: bd363ee5330250b93cb1e0e16c1c54682fcbe595
+  - ref: refs/heads/lam
+    old: ca9762d59aa41bc0a580c2f7668038d31c991f59
+    new: 04e4a0d0c701f6d852000b26ce6c050409dcb85f
     log: |
-         8f5d9e68c90dd6b01afdfda6d9926c6ea4931c00 wifi: mac80211: remove stray printk
-         bd363ee5330250b93cb1e0e16c1c54682fcbe595 wifi: mac80211: mlme: set sta.mlo correctly
+         9b7148bacb9fed7162668fab63280af4178d5821 x86/mm: Handle LAM on context switch
+         1350251336001ff589434358bdf47294a2dc7b25 x86/uaccess: Provide untagged_addr() and remove tags before address check
+         0d58084c0290c27b229cd5da8c627b924a91255a x86/mm: Provide ARCH_GET_UNTAG_MASK and ARCH_ENABLE_TAGGED_ADDR
+         f1093c7f290cb9ee4db01d11d21bf6311bc5d6e9 x86: Expose untagging mask in /proc/$PID/arch_status
+         e79ed87545b1132b03fb14a3dc8cae0abcae764b selftests/x86/lam: Add malloc test cases for linear-address masking
+         4476b0869daded44aa99f5e7f18987a2315b5103 selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
+         a44512a12859e0015ba034900d328cb32e09f5d1 selftests/x86/lam: Add io_uring test cases for linear-address masking
+         72008b083e8721d2a6615438218ab7e856fe8cf9 selftests/x86/lam: Add inherit test cases for linear-address masking
+         db4d7fd3679ad079f49931b0d2338df0240262aa x86/mm: Extend LAM to support to LAM_U48
+         04e4a0d0c701f6d852000b26ce6c050409dcb85f selftests/x86/lam: Add tests cases for LAM_U48
          
-
---===============4281091378578148624==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1657890781 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1657890781-dd14586b9fb908eb127057df7222a8f72baf3e8a
-
-81151ce462e533551f3284bfdb8e0f461c9220e6 bd363ee5330250b93cb1e0e16c1c54682fcbe595 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmLRZ90ACgkQB8qZga/f
-l8R5khAAirqrR78ZjgVGqXbs8DptdAnGSJIwjl4dCPwvf46m8g+D85vAjRO3D6ag
-gSsIhOr8wbY4ydsFvGWNq3NfDkoa9oxLiMAJm48DAa4qvdhXDSwUs17ZC/iEHbjN
-NxTJzvufxV9OivxQTUu1i30G0QcLPWzO1xJmqME+tj/fkBxx3dyd6Zs8RFgudkUh
-KXSaO7VESTDBzvRPthiHws26zV3YZrkqiebedpoFSbXKA78U73MDDN3j+nDiOKgn
-ae3w8kaOdco0TakxLx7KD+N72Lbe9CiOFZ8pcNBK9AokleAzBoTLq/+81Ku1eG+S
-GnboRs/xMWJTtGqJyQvWVEzBapeL5bMvwxFVwfhR6pbeUOHQIjTaP+0ojxTsd6g5
-Wwm26VQd89AmcKIM568EfLxkMT6z1kxmWAaXun4NQNRypEy2WA8hanJPEZpavbjy
-HFd3KU2H+iWe7Z/jE/OjE4xqlV6KltN1NYLwsgc9G/OEOPJUgDUb49gf+h4+G2MQ
-jKEGcb+aOV33i2TA92QxEEtYrqzlF6/aTaLlIZwZHgLS2Zecfrm9gtbr3Ik1RAXD
-uGP3Wd06m4AfKGBPiwNgY23sE+m9Uv72AvD+6wjR1eAXAnQGup5uG0/4h2GpmdAH
-yaoXJboN3HEX2z5tqsj5Ur7+mPHK4WUTonp08wj3QTQdh2RTXEg=
-=t3Fr
------END PGP SIGNATURE-----
-
---===============4281091378578148624==--
