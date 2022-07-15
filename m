@@ -1,56 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3791447520594635647=="
+Content-Type: multipart/mixed; boundary="===============1418389899014290337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 15 Jul 2022 12:43:02 -0000
-Message-Id: <165788898215.28883.15715228261607986513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 15 Jul 2022 12:44:18 -0000
+Message-Id: <165788905875.29700.4153436895264172411@gitolite.kernel.org>
 
---===============3791447520594635647==
+--===============1418389899014290337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 41e21636528f7424a76252963cc4b90d30e014a7
-    new: 439fe9cd7b5386a2d73932ffd5e7e0997a7f5832
+  - ref: refs/heads/usb-testing
+    old: f31a8702cd36f7908bdc3fa1ed7f95b56c10ed35
+    new: c76d09da77d69d7f737540985912ad2bca654713
     log: |
-         439fe9cd7b5386a2d73932ffd5e7e0997a7f5832 4.19-stable patches
+         28a6ed8e39f77f6ac613ec9b7461aa75e85fa79a platform/chrome: Add Type-C mux set command definitions
+         e54369058f3da181fcc4c893f224a0c5a8a526b6 platform/chrome: cros_typec_switch: Add switch driver
+         34f375f0fdf67f8804142fa37a28e73426d4c1df platform/chrome: cros_typec_switch: Set EC retimer
+         bb53ad958012f5a8d88b3b7159c22b3b877601bb platform/chrome: cros_typec_switch: Add event check
+         f5434e30011e011b24852959365b7cbc61dd8c85 platform/chrome: cros_typec_switch: Register mode switches
+         66fe238a9bcc158f75ddecf976d1ce7efe20f713 platform/chrome: cros_ec_typec: Cleanup switch handle return paths
+         c76d09da77d69d7f737540985912ad2bca654713 platform/chrome: cros_ec_typec: Get retimer handle
          
 
---===============3791447520594635647==
+--===============1418389899014290337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657888981 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1657888979-4958c045e812a0c65e7dfc26a32573ab4398b501
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657889053 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1657889052-8ab754cb5c18330db0c3d68f6308d63f58ccf9d2
 
-41e21636528f7424a76252963cc4b90d30e014a7 439fe9cd7b5386a2d73932ffd5e7e0997a7f5832 refs/heads/master
+f31a8702cd36f7908bdc3fa1ed7f95b56c10ed35 c76d09da77d69d7f737540985912ad2bca654713 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRYNUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jLoP/2SP01HtmftmdXohl6IE
-KhlqpTw4GkHkra8PIuXanS4XXIkaSGTYGqbOLNIsmLqnBLdMf/yYzxFVBTrKzVOW
-q8YTxAr3AF9Hk14Mc9OVOFRVyyxXvp3P5KEpuL19SfYjNdbgEmaRxsUH6YFw7VYb
-gPPU4USJpsQ5kjd+0H0G5w9NU2T5UetCyeV2pvJ4AGl7nFZVm+W8Rtva1yRuXFm5
-PjFXJkwrbqSXWxOwUKxvUH0yQGCRdXS2up3tbvBkWICWm36bktpd1jf7a27h/7d7
-EonoY8PIH+7+8WdBVS1S3RZryJ7iqRhgVmmUfA9etdyQIQ4BKgdvDjoU3yu597oL
-t8pUqxs4wExMtRxmMOaGIbRSuYo34tIqNxjJMYLfdJfh5awTczK07xCHU8II2qs+
-ntxLOtgCbELhePAP4jE+BgYByMLcoJZklIf3UnodTIt5Pkrh72zbQlRiqDHIN0FZ
-WGo/v7MlSnUAj8iFlIbrohSLlCwYFuwa5JfzqZl9NATEBs6vT1kXO51iHKj/7qxp
-XLG2fUCKt1MBJQyNxFxjfcBmquLJhxkbOzbO06s5uhFF30YHpU4bcF/efE63PsFq
-1OEnk3WuRGqR30jwB0ZUX4HI6ye2aO+DwUlBbv+pDE4DmfHvV+R1j0stEkrh02Za
-8oEw1QXWTx30VFHSnQFR2IH9
-=PDe/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRYR0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ihQQAKGeEzXx+ycKhChOasfp
+31An0vGNleCVl699OoT67o+SwrV8TZJl+iJTXGQNhKAUK5lIT/tCOphIOpjT3wzk
+0r7LXjOVhnHMaAI1dtCC2HHJrO6qtgzee4EQi5jmUiAWfVKsJ4TsU29uAxKiZnGF
+Eg/k7D0AqE62GNjPwF3z3oWRpoa0tNaAoiq7FrwOW51cT5Yv6Nsf305QHipwwW6F
+ZMnhA3pmvfFoW72XIBqCoXbT49NJX8dUa0PeubZ37kWfpbLmHO+onbAh9IF/2SXm
+3JJWfyRV5SGHe7Hlde6R+ktpu+sVXjDKI5XKKlHqPUwheXkeTXbOJonBHd2Y2UMo
+FQvgm4O1kdyHQTRLYq7ksxxXGDgrzAIZ9la3nkb47/jO+0G/wy0JZ3UMsl/03w9W
+Qe0uB0SSYOhv8WWLXhZnsjVW+IUN83aUr1RqkCQwiT5ztPxE8qiy5Gh/OVeBwix1
+dKXEqFvSLt/CPRfH1eKCFSmlvg7GAlXBOqN7RZbFKaLmNJkm+sBhj6Jomfnw7oP7
+Y8wXEDBPtyaaeVMygb9A9U+gZCvS73XmGi5mUa7Fx2rQ7vmyqW8f9u0nwlU2TX4X
+RRmGP9pvBeePHFGyjjE1tWIBMO3MIu5M7gvt/Jl0/78kLK7tTJF1H2ldoWTcSpwu
+rtMPZsF+d60/GXMnD1N93Xu4
+=u082
 -----END PGP SIGNATURE-----
 
---===============3791447520594635647==--
+--===============1418389899014290337==--
