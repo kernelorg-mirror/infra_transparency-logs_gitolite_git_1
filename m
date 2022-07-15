@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3425844262361809097=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 15 Jul 2022 20:19:26 -0000
-Message-Id: <165791636678.25913.18177109614396715352@gitolite.kernel.org>
-
---===============3425844262361809097==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 15 Jul 2022 20:31:09 -0000
+Message-Id: <165791706997.2005.11761477456529526640@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 05523677e7574eec399c8842f7191e1df1638d50
-    new: a2f81bdad0c4a3cbc2dca4e78424030310219ba4
+  - ref: refs/heads/pci/ctrl/qcom
+    old: 5b0cd37128dd97477cf51d682f2064803dcdc6c8
+    new: 839fbdee4c080eb95567cbcf6366072a56d3a3cc
     log: |
-         a2f81bdad0c4a3cbc2dca4e78424030310219ba4 Initial implementation of b4 submit
+         7eb5768c26934cf1ca53ffc112f75c67be254211 PCI: qcom: Drop manual pipe_clk_src handling
+         996ab868d6302534c22d52075c71b97e4d70f519 PCI: dwc: Move GEN3_RELATED DBI definitions to common header
+         9a765805f62aa590fd4281740b4ef75425c0b12b PCI: qcom: Define slot capabilities using PCI_EXP_SLTCAP_*
+         0cf7c2efe8ac76bb6b90abc64bcf8df124509d7d PCI: qcom: Add IPQ60xx support
+         5b05eab58420d14ac579c487b2f381bc916fee46 dt-bindings: PCI: qcom: Fix description typo
+         839fbdee4c080eb95567cbcf6366072a56d3a3cc dt-bindings: PCI: qcom: Fix reset conditional
          
-
---===============3425844262361809097==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1657916366 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1657916366-61ff9a0d958a4199f78a717eaac96eb0e096f475
-
-05523677e7574eec399c8842f7191e1df1638d50 a2f81bdad0c4a3cbc2dca4e78424030310219ba4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYtHLzgAKCRC2xBzjVmSZ
-bN95AQDhTFSQj8qeIJY+EIq8fKxX7rlcXoa6JS9P5OKA7T8tdwD/S8c89IbhM4Zj
-IAJkMCLkwODExLqJkpl/GTbtyhIgIAk=
-=u182
------END PGP SIGNATURE-----
-
---===============3425844262361809097==--
