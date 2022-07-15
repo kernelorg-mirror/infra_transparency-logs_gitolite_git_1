@@ -1,60 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============7234946375506452943=="
+Content-Type: multipart/mixed; boundary="===============7447525286146692763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 15 Jul 2022 17:27:01 -0000
-Message-Id: <165790602187.15794.451713630338955626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 15 Jul 2022 17:31:48 -0000
+Message-Id: <165790630859.18929.6135014256696903666@gitolite.kernel.org>
 
---===============7234946375506452943==
+--===============7447525286146692763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 3f0dabb4090c13bddec8908984653c5559c2d44d
-    new: d5fc4d28186e2f29b0c300b02330ef39ba27d789
-    log: revlist-3f0dabb4090c-d5fc4d28186e.txt
+  - ref: refs/heads/nfsd-deleg-race
+    old: 003d0a72ca7218e99559cb26cf0cfc3aaba931f0
+    new: 7cae6bb40621afbf8307666d3510c1943a722ba9
+    log: revlist-003d0a72ca72-7cae6bb40621.txt
 
---===============7234946375506452943==
+--===============7447525286146692763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f0dabb4090c-d5fc4d28186e.txt
+Content-Disposition: attachment; filename=revlist-003d0a72ca72-7cae6bb40621.txt
 
-378b5b148f82d5f9edd49b9113b7f891f0b3fb8b btrfs: replace BTRFS_MAX_EXTENT_SIZE with fs_info->max_extent_size
-3e5dfb51108db9ca717b9ca230682362f26d74c2 btrfs: convert count_max_extents() to use fs_info->max_extent_size
-30cb84e25703ca7668161dc7ec8809e1808221ef btrfs: use fs_info->max_extent_size in get_extent_max_capacity()
-c1f6fd11358e22dd93da3ca58c3da3172dca2c33 btrfs: let can_allocate_chunk return error
-2fe4474d218b8720532c0b4a4ee4f5045f873bee btrfs: zoned: finish least available block group on data bg allocation
-abc471c82374afaed33c5401e211797e58ca47fb btrfs: zoned: introduce space_info->active_total_bytes
-b7f77e6e2b1764c5bb70df08d8abfa0a6a41f62f btrfs: zoned: disable metadata overcommit for zoned
-151cc6aec7ab1a3c7c9a2b8592390902d92f1599 btrfs: zoned: activate metadata block group on flush_space
-0e19a57a635cbc7bbe86e5d1368443f5a7c9167f btrfs: zoned: activate necessary block group
-6fa5f7ccfee1a2374a9e83633a282bd3b1a35334 btrfs: zoned: write out partially allocated region
-43e64495b16a3d3f05e4d9506a7b83bc90b5bcf9 btrfs: zoned: wait until zone is finished when allocation didn't progress
-7a0ef4e64a5cbd55e0e43b6e8812444f01d0370c btrfs: send: introduce recorded_ref_alloc and recorded_ref_free
-9d7cc67f1ec16928c0e086d400c2c61d63dd0fa5 btrfs: send: fix sending link commands for existing file paths
-7b2d3363e9fc822101d9071068ee65b6362eb494 btrfs: send: always use the rbtree based inode ref management infrastructure
-5b94ef3484a690b00918d1c836cbf2226eab4b2f btrfs: simplify error handling in btrfs_lookup_dentry
-929fb2360871b62040b8ccd7040cab597f479042 btrfs: repair all known bad mirrors
-3b51fa9bea8d0fdf99874e25bb55fa190f950a62 btrfs: simplify the pending I/O counting in struct compressed_bio
-6cd8760d96992e54cf88670dadb790a8748741ca btrfs: pass a btrfs_bio to btrfs_repair_one_sector
-a25162c6fcf56e3f81155543ec9c0ff1ce2d46b1 btrfs: remove the start argument to check_data_csum
-b923ecd0d0e564ed55fe2f3348aac1e73c5afe09 btrfs: fix repair of compressed extents
-7890721e3262cb88a0c7cb524f93a1619d136954 btrfs: don't call btrfs_page_set_checked in finish_compressed_bio_read
-fc7cbcd4890e297de5d6487e04344a99b39de9be Revert "btrfs: turn fs_roots_radix in btrfs_fs_info into an XArray"
-01cd390903e00c8f42ba0e84f25a70e3d613a15c Revert "btrfs: turn fs_info member buffer_radix into XArray"
-5b8418b84303d9a0a0f7f28d6eaed915247ebdc3 Revert "btrfs: turn name_cache radix tree into XArray in send_ctx"
-088aea3b97e0ae5a2a86f5d142ad10fec8a1b80f Revert "btrfs: turn delayed_nodes_tree into an XArray"
-2c775a56403cc8dd188eeff7d93f91c3aa385e88 Merge branch 'misc-next' into for-next-next-v5.19-20220715
-ec7e44a918ba6cd294e7ae4b6d6598b1df7e672f Merge branch 'misc-5.19' into for-next-current-v5.18-20220715
-1e640c5cfbde9ada23d7c2c45bce19fd6f6aab75 Merge branch 'ext/hch/repair-compressed-v3' into for-next-next-v5.19-20220715
-1d72de1d4e32a8572b76334dcd66c79b7bd35614 Merge branch 'for-next-current-v5.18-20220715' into for-next-20220715
-d5fc4d28186e2f29b0c300b02330ef39ba27d789 Merge branch 'for-next-next-v5.19-20220715' into for-next-20220715
+e7fc1645df8682386d777929b284040fe8dd51de NFSD: Demote a WARN to a pr_warn()
+b14a310c3063f10acc07463e149e2ee15ad6859c NFSD: Report filecache LRU size
+72215339dbf716172b1262412fa45fa71e5fb078 NFSD: Report count of calls to nfsd_file_acquire()
+d73ca34350b6a3425a8726b72e566df15afc31cf NFSD: Report count of freed filecache items
+e816f6819efd356d9b34952aff7980017ac135ca NFSD: Report average age of filecache items
+7fe45e3d1ef4f59678c819a90583b9b28613772c NFSD: Add nfsd_file_lru_dispose_list() helper
+1d7dc9a2d98b0ecd773ea34bb97f35d4a414281d NFSD: Refactor nfsd_file_gc()
+07f0da449a5694da17d548555c1be8bb8b422f3f NFSD: Refactor nfsd_file_lru_scan()
+1b945c63ff4aec7d27333627ff1cf04a37ec0984 NFSD: Report the number of items evicted by the LRU walk
+f1770b35dbcf097a0d9cf2d7a20e6ccb08110b44 NFSD: Record number of flush calls
+3b6adf8712332fc481d8f3701661189648b1387b NFSD: Zero counters when the filecache is re-initialized
+ca25621b4e92d99d2cf78d176252079bc214ecc3 NFSD: Hook up the filecache stat file
+b92fd9f3811ffafa4be6553c4dfb17b426f60e40 NFSD: WARN when freeing an item still linked via nf_lru
+aef52494bf835df1ba7381528168dce2dd8a2979 NFSD: Trace filecache LRU activity
+cfcf76531cdcacf182e1bccc592e3a6bbafd4cc1 NFSD: Leave open files out of the filecache LRU
+06501426d654f3584a7868e357b99b5c9b9e524b NFSD: Fix the filecache LRU shrinker
+6bff3712a988a4aa07151ecb87882968b4194946 NFSD: Never call nfsd_file_gc() in foreground paths
+754fba4158f34a64fc8ba8163c024ccc73d365fc NFSD: No longer record nf_hashval in the trace log
+e0077ef5244e564f8118f109c46794f0714b8fe3 NFSD: Remove lockdep assertion from unhash_and_release_locked()
+c5b6a385111b2deda1a42bf74124bc0f5cba26f6 NFSD: nfsd_file_unhash can compute hashval from nf->nf_inode
+919d7672c73118db7bf676c5e4521d436c8483d6 NFSD: Refactor __nfsd_file_close_inode()
+19d9f397336c327f7b6eeeb94174ed945310d215 NFSD: nfsd_file_hash_remove can compute hashval
+78b2fe80f17d38fc1d38760061c0a8adb5611039 NFSD: Remove nfsd_file::nf_hashval
+6903e404bba2eae57751456df4a23c49ec3145db NFSD: Replace the "init once" mechanism
+1c563f7df443ba2836033b41854bf8044a59e1f9 NFSD: Set up an rhashtable for the filecache
+4153afa0556912766f0eee1d186fab7cfa117c03 NFSD: Convert the filecache to use rhashtable
+fc2a8ad0d00142ba7fc1b485577ce14cb09b143b NFSD: Clean up unused code after rhashtable conversion
+c577e5addf1a6d137d413cf72d763bb01feb53ec NFSD: Separate tracepoints for acquire and create
+05ba21cf6a4777cddaa946bea2f234d736d34b71 NFSD: Move nfsd_file_trace_alloc() tracepoint
+cf1c28419a9b0a3c6dc7dfd8dbc8a211848fb69c NFSD: NFSv4 CLOSE should release an nfsd_file immediately
+434241065681a250ffe89d723b4b2462f052d4b4 NFSD: Ensure nf_inode is never dereferenced
+42a2f58230ae909da49190c06918779cab3c62ab NFSD: keep track of the number of v4 clients in the system
+05eaba9bd8c0658004f71e781568f55263da8a64 NFSD: limit the number of v4 clients to 1024 per 1GB of system memory
+16ca9af54d30be19ea0cbc4ae66b4cd3a8b04ca0 lockd: set owner when unlocking files
+dbcff2d46582123d83dfc8542c1eb8497c9056f4 lockd: fix nlm_close_files
+83083dda9de4987fd3f09a1d4e0e9cec53576b96 NFSD: drop rqstp arg to do_set_nfs4_acl()
+3d588a3cca589d3cea9862d18d850c1f0cd6055e NFSD: change nfsd_create() to unlock directory before returning.
+7644143d3259f48b8f1d41b1e4bb33d6894a17f2 NFSD: always drop directory lock in nfsd_unlink()
+ef954b92e276852ba83e5f3fe6e5e3b3924f5d90 NFSD: only call fh_unlock() once in nfsd_link()
+61be0275299056b769fba18805d134c123fa011d NFSD: reduce locking in nfsd_lookup()
+6b530878c96e632146596aa39d9ede9847c97531 NFSD: use explicit lock/unlock for directory ops
+2e30fa21cf3b665ba1e765d439d5f79f3fee08dd NFSD: use (un)lock_inode instead of fh_(un)lock for file operations
+e5175007611d6cf28e6c6e71b8adb6c43561279b NFSD: discard fh_locked flag and fh_lock/fh_unlock
+8de21cdda7041f63e56d336fec2012a6d1606eea SQUASH: nfsd: ensure we fill in pre-op-attrs in nfsd4_create_file
+8963e6c9acebc86dd1564162f0c1419c8564dda8 SQUASH: fix kerneldoc comment over nfsd_lookup
+d717d1deaf61b3af7e10e2c1fa47e5ba049a0710 nfsd: drop fh argument from alloc_init_deleg
+7cae6bb40621afbf8307666d3510c1943a722ba9 nfsd: vet the opened dentry after setting a delegation
 
---===============7234946375506452943==--
+--===============7447525286146692763==--
