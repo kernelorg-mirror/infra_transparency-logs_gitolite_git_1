@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6785175770268531211=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 15 Jul 2022 17:21:36 -0000
-Message-Id: <165790569619.12388.17742563100239491911@gitolite.kernel.org>
-
---===============6785175770268531211==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 15 Jul 2022 17:21:49 -0000
+Message-Id: <165790570948.12546.193561176421241011@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.20
-    old: 91de5eb17c100b3ab9192c36d99761e9da8536da
-    new: 66efb665cd5ad69b27dca8571bf89fc6b9c628a4
+  - ref: refs/heads/for-linus
+    old: 1535c9053e3d17fdb8e318965e3e767489616250
+    new: 8c25125009a186c153b4df4fe2566bfa702e34ff
     log: |
-         66efb665cd5ad69b27dca8571bf89fc6b9c628a4 regulator: of: Fix refcount leak bug in of_get_regulation_constraints()
+         8c25125009a186c153b4df4fe2566bfa702e34ff Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
          
-
---===============6785175770268531211==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1657905694 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1657905694-0f263920ae83c73e242fd0e5847ba3fb1d6f2ede
-
-91de5eb17c100b3ab9192c36d99761e9da8536da 66efb665cd5ad69b27dca8571bf89fc6b9c628a4 refs/heads/regulator-5.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLRoh4ACgkQJNaLcl1U
-h9D6MwgAgVrR7OB5bfTDTYuXdWLg2e9CrQGWkY76kIHsG5MxaTCDbr2G3xllRVMN
-WjxIsvTzI6YCBWnSIBGzFo1nw8rBIQeNv9k8gn/Lr96VAABv5i1WF5ZmBj1jKH+e
-1pjG8gxKdJJ53vDR+wic0LG62deZ0PuTWMPa+PtvSkvUG5T8i/cg5/x6ijKxKKEU
-LCNOKehYKrjdGRJcAgou380J/L1BETQjobEpeVpVy174H6WXCHia480hYAIGIp2J
-OhFIY4n6Lqd73DY2jH8VHnX/FRq8uzsyTQCQrc93sX/JywGmjOL7HiYHcxpxXo/c
-Vvvw5sIg4JFAplbEezOPuCgHj29OtQ==
-=T5U/
------END PGP SIGNATURE-----
-
---===============6785175770268531211==--
+  - ref: refs/heads/for-next
+    old: 41a98277c6f632d9d39d2b9439726457527f412d
+    new: 4de1f6a42ef6bf1ee26272a1cf871c86715c63ef
+    log: |
+         93064e15c8a3a8394319a11b8037666e4b7d653d ACPI: utils: Add api to read _SUB from ACPI
+         c1ad138822a1be95a7a7b122521c2415583a0c26 ASoC: cs35l41: Read System Name from ACPI _SUB to identify firmware
+         1c69bbc3c10821c9b3dbbfd35284addc2850371f Read _SUB from ACPI to be able to identify firmware
+         8c25125009a186c153b4df4fe2566bfa702e34ff Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
+         4de1f6a42ef6bf1ee26272a1cf871c86715c63ef Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
+         
