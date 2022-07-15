@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2928490043981131022=="
+Content-Type: multipart/mixed; boundary="===============7929370663511230186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 15 Jul 2022 08:13:31 -0000
-Message-Id: <165787281175.20889.13717976126326399976@gitolite.kernel.org>
+Date: Fri, 15 Jul 2022 08:13:35 -0000
+Message-Id: <165787281545.20953.605418399525724972@gitolite.kernel.org>
 
---===============2928490043981131022==
+--===============7929370663511230186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 843dae1756d9bddee21a96827784791fd97d484e
-    new: baefa2315cb1371486f6661a628e96fa3336f573
-    log: |
-         c80b15105a08dceffcbb0381f85696b46bce0d1b Revert "mtd: rawnand: gpmi: Fix setting busy timeout setting"
-         baefa2315cb1371486f6661a628e96fa3336f573 Linux 5.15.55
-         
+  - ref: refs/tags/v5.15.55
+    old: 0000000000000000000000000000000000000000
+    new: e4e743b14b3af6c301b0c813f9ee8d516af5b4cf
 
---===============2928490043981131022==
+--===============7929370663511230186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657872810 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657872814 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1657872808-b244530ac608fb09b70e76099481c4bd12782a0d
+nonce 1657872812-76721f9dddf47a5bb572288462682eaebfcdffa3
 
-843dae1756d9bddee21a96827784791fd97d484e baefa2315cb1371486f6661a628e96fa3336f573 refs/heads/linux-5.15.y
+0000000000000000000000000000000000000000 e4e743b14b3af6c301b0c813f9ee8d516af5b4cf refs/tags/v5.15.55
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRIaobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ILIQALWLitTCndyJECGVpVax
-0Nr8MSoB/fZrF+jaMOQfAw2ciFYA+CJbyImUvtC96wgLFbK3cqF7Op2Nhw4nuUOy
-tEqr2ZjFfpON+qhg3zPjbNA4EThWe7qTB1QJcwQFCo6uT9LdGeXQj0cPAc88C523
-W92GpzLCk93Ren7B3Ctf+K3quVsFOYfcbVY4T2uhPM2RMVlUI7jbsEci23C4te3h
-3bxAsUYVHCkrqFP/8F5H994HHaf4yftzWbixS4G7IMvMeoHAwdik574u0//aKKp9
-uZjhJnp04OBJZFfpJpQR98UQ4OAnPZ6401GqsK/EuFA+b1D0uxdOJmy1yD9jRPvh
-FJsNE3iQjIiespuFZkGnZvvYOgIsPW4AFBhfX0wPb+KlUZl0/RcgFaelv/uzNBhU
-qBwtGxLz3fhVC95Izf8HB6T5KORNxaPbk6bgbrKxNO3EuG3clPhUxI2YmBtjUalP
-dVLbhYfZLOENH8pQifwHXpAJRsA2FKXek2tIfDnzG50teEMXZbN1hkbC1g46i39H
-SP9pEX/nkq3HRnTMXo8CZ7ht1p8LBbjztlbrZmwXdTM8SRxJeujDdgaSe2bJdeW7
-YmqOFq+B4GNpd8EilOVKSuwARbhFJRXc47i2xqKvXee2etL/SXla6DBIjJ5NNPuJ
-aiD7RIbl2rckpMwDsYD65Y6h
-=Jpy5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRIa4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AYAQAKpNytUMzewu1+569wop
++t2drkMV6Ud7SDT8160hxgkU2YeGnZVD87EviW1QgDsgC7fhpknWtUh3sq08wU9W
+iLpXiF/x0lexVcAIfMDPYvVIEjWSVBtL5anrBaQRy+WCC3OQsxmSn883y3S2yvpg
+PNrqgGGuzClM8IKUFEGII1hULbHPPGf/WJJS+fujhbQXjAxsg5uab5LK5xWLZiRu
+7RwEhZ+Api42rmp8oSsh9XajFK20dFQDtwA+w8s0hbCmqlLV/AudKBC9wpIgawbx
+wa0Uc/0PMofbWgOCREF2QjdeL/psY5l9CRW3Hb4whgvFQOqMX1eXm7uIfsC68MS2
+ITW4N9vXnDMnSwpCF9ofXJkqndfZT9myLAWvSAyP/1rxj7TILC7pPsUEKPWKvGEQ
+nhK5Hq6AEnhcIVjwa2E27aVB6Ys0jCOULlYs09DdgwVQ1c6C0u9OZZYiKlVlXMGT
+xgffJpDkCkf+xnGjDe2qZwifPzRaEF+YtSADoMggkd8f1jWXTnEm/d5Y3LQJxEwg
+xW8rPjw+2sPv26fiRoRjE6TTzNFl7R9C2jTANu6PnWGFtRJR+IlJmtjDDLZOKiBB
+Q91JRm4IM0fQHhtUYKNlibq2hV7zS7JEimJT01sU5EZRC/sDAoSxJpjnFlYxhq6y
+tMnCJMeSE9AN72R0WFXHsaO4
+=Kucr
 -----END PGP SIGNATURE-----
 
---===============2928490043981131022==--
+--===============7929370663511230186==--
