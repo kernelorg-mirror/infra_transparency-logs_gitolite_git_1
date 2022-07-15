@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6885301133792655034=="
+Content-Type: multipart/mixed; boundary="===============0245631949287942070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Fri, 15 Jul 2022 02:40:29 -0000
-Message-Id: <165785282990.12641.10533044338559567675@gitolite.kernel.org>
+Date: Fri, 15 Jul 2022 02:42:32 -0000
+Message-Id: <165785295293.13364.2479262522995126046@gitolite.kernel.org>
 
---===============6885301133792655034==
+--===============0245631949287942070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 2aab129b26352cff9edd9b765c038d93efe6792f
-    new: 53f853d55e312a639eaa910154248ce06eb754ac
-    log: revlist-2aab129b2635-53f853d55e31.txt
+  - ref: refs/heads/devfreq-fixes
+    old: c8934e4e348915caac54085c01fd9d04fa16134a
+    new: 32346491ddf24599decca06190ebca03ff9de7f8
+    log: revlist-c8934e4e3489-32346491ddf2.txt
 
---===============6885301133792655034==
+--===============0245631949287942070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2aab129b2635-53f853d55e31.txt
+Content-Disposition: attachment; filename=revlist-c8934e4e3489-32346491ddf2.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
@@ -301,11 +301,5 @@ b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git:/
 fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
-3be51a3b1980347da7d51f66b1e8e8c538961f17 dt-bindings: interconnect: Add MediaTek CCI dt-bindings
-86d231b1db1be0666c2fc607f5025d63d7afc5f3 PM / devfreq: mediatek: Introduce MediaTek CCI devfreq driver
-e7fd2e6b9772e19f4da2a7c0c7c813758aee7a88 dt-bindings: interconnect: samsung,exynos-bus: convert to dtschema
-c9deb748683851737c5e4df623c3283c185cd8f0 PM / devfreq: shut up kernel-doc warnings
-2472934e36b51bbdf0a7cdd5e351910d9002c6ac PM / devfreq: imx-bus: use NULL to pass a null pointer rather than zero
-53f853d55e312a639eaa910154248ce06eb754ac PM / devfreq: tegra30: Add error message for devm_devfreq_add_device()
 
---===============6885301133792655034==--
+--===============0245631949287942070==--
