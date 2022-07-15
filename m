@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3121516455851311153=="
+Content-Type: multipart/mixed; boundary="===============1197786380543762555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 15 Jul 2022 18:32:49 -0000
-Message-Id: <165790996901.24503.6064283989732659226@gitolite.kernel.org>
+Date: Fri, 15 Jul 2022 18:33:01 -0000
+Message-Id: <165790998173.24654.17855144613897445362@gitolite.kernel.org>
 
---===============3121516455851311153==
+--===============1197786380543762555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/pm
-    old: fe7c758c07c4729a16f940eb1d77027ad032ab29
-    new: 5a5adb1528e59e8a4b23ffa7dda4849b61e97cf8
-    log: revlist-fe7c758c07c4-5a5adb1528e5.txt
-  - ref: refs/tags/pm-5.19-rc7
+  - ref: refs/heads/acpi
+    old: 8b356e536e69f3a4d6778ae9f0858a1beadabb1f
+    new: fbd74d16890b9f5d08ea69b5282b123c894f8860
+    log: revlist-8b356e536e69-fbd74d16890b.txt
+  - ref: refs/tags/acpi-5.19-rc7
     old: 0000000000000000000000000000000000000000
-    new: 78f408bcaedb5a6f986c6c390ec963f1dbe0581b
+    new: 09433c6431d708bfbb84f3b1a5fe2c2f5d7bab5e
 
---===============3121516455851311153==
+--===============1197786380543762555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe7c758c07c4-5a5adb1528e5.txt
+Content-Disposition: attachment; filename=revlist-8b356e536e69-fbd74d16890b.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
@@ -154,6 +154,8 @@ a38dbb4f2028f4b9418855239a4c82466ecb935b Merge tag 'at91-fixes-5.19' of git://gi
 fd31000d58f41588fa10128278efdab8474f5ce8 irqchip/xilinx: Add explicit dependency on OF_ADDRESS
 1357d2a65601bc0afb221672d5a8f1649063a141 irqchip/apple-aic: Make symbol 'use_fast_ipi' static
 09f7b80fac3e588b282ad26aabd7336d7d293efd dmaengine: imx-sdma: only restart cyclic channel when enabled
+07358194badf73e267289b40b761f5dc56928eab PM: runtime: Redefine pm_runtime_release_supplier()
+887371066039011144b4a94af97d9328df6869a2 PM: runtime: Fix supplier device management during consumer probe
 a12ca6277eca6aeeccf66e840c23a2b520e24c8f bpf: Fix incorrect verifier simulation around jmp32's jeq/jne
 3844d153a41adea718202c10ae91dc96b37453b5 bpf: Fix insufficient bounds propagation from adjust_scalar_min_max_vals
 73c4936f916de73fa3faec204a4deb37c25e18c1 bpf, selftests: Add verifier test case for imm=0,umin=0,umax=1 scalar
@@ -216,8 +218,6 @@ bf17455b9cbd4b10bf30d39c047307e1d774fb1a fscache: Fix if condition in fscache_wa
 85e4ea1049c70fb99de5c6057e835d151fb647da fscache: Fix invalidation/lookup race
 c5e58c4545a69677d078b4c813b5d10d3481be9c ALSA: cs46xx: Fix missing snd_card_free() call at probe error
 e35e5b6f695d241ffb1d223207da58a1fbcdff4b Merge tag 'xsa-5.19-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-7feec7430edddb87c24b0a86b08a03d0b496a755 ACPI: CPPC: Only probe for _CPC if CPPC v2 is acked
-8b356e536e69f3a4d6778ae9f0858a1beadabb1f ACPI: CPPC: Don't require _OSC if X86_FEATURE_CPPC is supported
 e36bea6e78ab2b6c9c7396972fee231eae551cfc Bluetooth: core: Fix deadlock on hci_power_on_sync.
 26c12725b462a4d39a8494554c9713d6fb86f6bd Merge tag 'for-net-2022-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 e6fa930f73a15238f3cb0c204e2f786c919b815c net: lan966x: hardcode the number of external ports
@@ -270,6 +270,8 @@ a382f8fee42ca10c9bfce0d2352d4153f931f5dc signal handling: don't use BUG_ON() for
 651a8536572ae0dcce608b3e6720ae844155a787 Merge tag 'pinctrl-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 ef4ab3ba4e4f99b1f3af3a7b74815f59394d822e Merge tag 'net-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e8a4e1c1bb697b1d9fc48f0e56dc0f50bc024bee Merge tag 'loongarch-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+c8934e4e348915caac54085c01fd9d04fa16134a PM / devfreq: exynos-bus: Fix NULL pointer dereference
+ba7c3507087aaf98bbeab04a62251bf63c6348c1 Merge tag 'devfreq-fixes-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
 3501f0c663063513ad604fb1b3f06af637d3396d i2c: cadence: Unregister the clk notifier in error path
 bdb2c48e4b38e6dbe82533b437468999ba3ae498 io_uring: explicit sqe padding for ioctl commands
 6b0de7d0f3285df849be2b3cc94fc3a0a31987bf Merge tag 'nvme-5.19-2022-07-07' of git://git.infradead.org/nvme into block-5.19
@@ -277,6 +279,7 @@ c51b8f85c4157eb91c2f4ab34b0c52fea642e77c MAINTAINERS: Remove iommu@lists.linux-f
 086ff84617185393a0bbf25830c4f36412a7d3f4 Merge tag 'for-5.19/fbdev-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 29837019d5ebb80a5f180af3107a0645c731a770 Merge tag 'io_uring-5.19-2022-07-08' of git://git.kernel.dk/linux-block
 a471da3100ef2e8feb8449d378a52e29dd1e9ae1 Merge tag 'block-5.19-2022-07-08' of git://git.kernel.dk/linux-block
+fe7c758c07c4729a16f940eb1d77027ad032ab29 Merge branch 'pm-core'
 2b93fe647c0a901e00eba0adab84a6ecba3f25c4 Merge tag 'gpio-fixes-for-v5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 f5645edf6cffb97d976c6eef31fb536a09f114fd Merge tag 'iommu-fixes-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
 483e4a1d83db1a6d339cd76f7966bf9e1748f752 Merge tag 'cxl-fixes-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
@@ -300,7 +303,6 @@ b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git:/
 fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
 32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
-d2394860b45c3c1484e4b0a5d09909a1e3f6569e cpufreq: mediatek: Handle sram regulator probe deferral
-5a5adb1528e59e8a4b23ffa7dda4849b61e97cf8 Merge tag 'cpufreq-arm-fixes-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+fbd74d16890b9f5d08ea69b5282b123c894f8860 ACPI: CPPC: Fix enabling CPPC on AMD systems with shared memory
 
---===============3121516455851311153==--
+--===============1197786380543762555==--
