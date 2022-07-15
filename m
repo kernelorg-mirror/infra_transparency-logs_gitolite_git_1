@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4116303511612620560=="
+Content-Type: multipart/mixed; boundary="===============1413339939578845448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Jul 2022 17:21:18 -0000
-Message-Id: <165790567851.12083.14325802925697275626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Jul 2022 17:21:24 -0000
+Message-Id: <165790568449.12213.9161094418870976476@gitolite.kernel.org>
 
---===============4116303511612620560==
+--===============1413339939578845448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: e1d1ffeda697dedf0859f963bc4180b5bb7bf150
     new: 1c69bbc3c10821c9b3dbbfd35284addc2850371f
     log: |
@@ -25,28 +25,28 @@ changes:
          1c69bbc3c10821c9b3dbbfd35284addc2850371f Read _SUB from ACPI to be able to identify firmware
          
 
---===============4116303511612620560==
+--===============1413339939578845448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1657905677 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1657905676-4dc54b225d94d0cf05b68da3decaeca3b2ca3e97
+pusher C3F436CA30F5D8EB 1657905683 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1657905682-cb4d3e7661083267374f70965a936113946f62c1
 
-e1d1ffeda697dedf0859f963bc4180b5bb7bf150 1c69bbc3c10821c9b3dbbfd35284addc2850371f refs/heads/for-5.20
+e1d1ffeda697dedf0859f963bc4180b5bb7bf150 1c69bbc3c10821c9b3dbbfd35284addc2850371f refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLRog0ACgkQJNaLcl1U
-h9Cvugf/cKGnTEspP7F2tFbOOOsR0taI+2AJVhAsVC8vBx5/KDSPF4Z93wzWNoDR
-gCo5YiBTVlJq0iBukLpkiR85EFg6tK3PX8OTUrK6afTiFzJze3NtQvFxKsViXySI
-cW3n0oXfV6aXZN2aHgkDKqI4QvqBaD6C78paiM86W+y6lI8OsPcJHqnuDjVxIEm6
-UCC+H199wZWUJlDP/5PFC7SafX7RigBc+Mtle+cdRVwaU2isnNGTYqsdit5nkWTu
-L2POx4tT6tHSe3mIm5XtTvX00gkVcwGAiPnTBkQRPJqERKNdOguocvGa+1oXJ0Ni
-gb2PoLOFi889Re5J3sTQp5kgD690qA==
-=ueNR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLRohMACgkQJNaLcl1U
+h9AS5wf/dTSGbu66hq8BJgncTYru1BZEY+F7NwGOx3uBcMQcZTm0dIaeJs9OUuQ5
+XfIE0HHDxyEl18+iRNB81UFvjzQ2YppwZo/OHJzN7GUe1ZTdpWGkBrQleqg67BDS
+26hu/G/RgIGSN/YDorkP1PIBybBQyutKWWVIccnMsKo1zB2rVIpkJ2ZXexF4Gagt
+E63R68zRFERJTrS7O2F1hNAgsm8EF/sn6UUpwW/KT9O8D7tLJAilYIWljq/NY1lV
+njMPdimDB8nSiwylJabG+7xFBzjdF95kQp9Fgoux46lDoVtTC3k1RGbbDlhzdUzx
+FK2HoPPaXrFP+TwwrOkHBE6zxCVlaQ==
+=R71C
 -----END PGP SIGNATURE-----
 
---===============4116303511612620560==--
+--===============1413339939578845448==--
