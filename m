@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Jul 2022 16:57:37 -0000
-Message-Id: <165790425775.29113.9521901171249987798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Fri, 15 Jul 2022 16:59:16 -0000
+Message-Id: <165790435671.29776.11978383672549159135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/for-next
-    old: 9c7c48d6a1e2eb5192ad5294c1c4dbd42a88e88b
-    new: a2a5580fcbf808e7c2310e4959b62f9d2157fdb6
+  - ref: refs/heads/main
+    old: 1c31a46c707eb473f2f92d54166f6becc6204aea
+    new: 887b5901fcc162279f6f32bd3b61914b9be377bd
     log: |
-         a2a5580fcbf808e7c2310e4959b62f9d2157fdb6 bpf: Fix check against plain integer v 'NULL'
+         887b5901fcc162279f6f32bd3b61914b9be377bd rteval: Add option for downloading kernel
          
