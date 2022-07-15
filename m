@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Fri, 15 Jul 2022 20:15:24 -0000
-Message-Id: <165791612460.24472.16668836161269572668@gitolite.kernel.org>
+Date: Fri, 15 Jul 2022 20:17:41 -0000
+Message-Id: <165791626168.25251.3730821217197482353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
-  - ref: refs/heads/fs.idmapped.overlay.acl
+  - ref: refs/heads/for-next
     old: f70417005a89482dc30136591bc8b06c95b35a16
     new: 7c4d37c269ac8bf834b47718386d02ae94d54633
     log: |
