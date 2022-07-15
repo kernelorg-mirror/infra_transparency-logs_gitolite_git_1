@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Jul 2022 05:35:49 -0000
-Message-Id: <165786334937.25018.10492838276639824088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 15 Jul 2022 05:55:27 -0000
+Message-Id: <165786452748.4699.9544572799274676480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/for-next
-    old: 96a233e600df351bcb06e3c20efe048855552926
-    new: 7fb27a56b9ebd8a77d9dd188e8a42bff99bc3443
-    log: |
-         7fb27a56b9ebd8a77d9dd188e8a42bff99bc3443 selftests/bpf: Do not attach kprobe_multi bench to bpf_dispatcher_xdp_func
-         
+  - ref: refs/tags/for-linus-5.19a-rc7-tag
+    old: 0000000000000000000000000000000000000000
+    new: db6152558ef6b8689b7e11bb0e8ca4589a87261a
