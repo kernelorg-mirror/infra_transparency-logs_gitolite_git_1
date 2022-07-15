@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 15 Jul 2022 03:17:52 -0000
-Message-Id: <165785507245.3092.8454708400464720030@gitolite.kernel.org>
+Date: Fri, 15 Jul 2022 03:24:34 -0000
+Message-Id: <165785547478.6827.5280066098060761528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/lkdtm
-    old: 91b11c81a070d7a1c75c467ccf6703b01cf78cfb
-    new: 130d52d71a0d72947900d753f3080c645718f26f
+    old: 130d52d71a0d72947900d753f3080c645718f26f
+    new: 52f6baa0ba22720e50aae086637b5b032fdea58a
     log: |
-         02ff8aeede4691f7008246cf110945e7e868c23e x86/alternative: Report missing return thunk details
-         20c6bda0124ce5da7f0036e1f55ca53ac45cdb59 objtool: move retpoline and unret annotations to objtool.h
-         130d52d71a0d72947900d753f3080c645718f26f lkdtm: Disable return thunks in rodata.c
+         3de4b3e1d8a80bfa2313cc293238e3882f0ec3d8 lkdtm: Disable return thunks in rodata.c
+         db8506e9c804471ebed777fba25cce08787a4ef3 x86/alternative: Report missing return thunk details
+         52f6baa0ba22720e50aae086637b5b032fdea58a objtool: move retpoline and unret annotations to objtool.h
          
