@@ -1,112 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============9020431335330980891=="
+Content-Type: multipart/mixed; boundary="===============1362802998831243593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 15 Jul 2022 20:44:29 -0000
-Message-Id: <165791786999.9473.17618825948178342165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 15 Jul 2022 20:55:41 -0000
+Message-Id: <165791854145.17519.10786561445056983788@gitolite.kernel.org>
 
---===============9020431335330980891==
+--===============1362802998831243593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
   - ref: refs/heads/next
-    old: d136c6c3e2da0bbbad3f32e94f35a819d46669de
-    new: 4dd4a117ecf0e90cdeac8c0e51a870de51791f4a
-    log: revlist-d136c6c3e2da-4dd4a117ecf0.txt
-  - ref: refs/heads/seen
-    old: c82335a866f9565b3a03ae6524597687d7e01c9d
-    new: 50bffc2eb2258ac5bc5e0891cf615f5e24c433e9
-    log: revlist-c82335a866f9-50bffc2eb225.txt
+    old: 946aac7af90b8dc15f9cbc5021eb0ccb91367b07
+    new: 57237f3713311710f009a4cd4cabe22c7a34850d
+    log: revlist-946aac7af90b-57237f371331.txt
 
---===============9020431335330980891==
+--===============1362802998831243593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d136c6c3e2da-4dd4a117ecf0.txt
+Content-Disposition: attachment; filename=revlist-946aac7af90b-57237f371331.txt
 
-7253f7ca9fdc5a19f2a9ee5867a20182e10551d6 tests: fix incorrect --write-junit-xml code
-ccc7b5148bdd9deb33f3cfa5a872a74634105021 mergetool(vimdiff): allow paths to contain spaces again
-df534dcbaafa74be9e922418712bede75676588b shortlog: use a stable sort
-5f5af3735dede73d6714311e20f17c7f77b1d907 Documentation/git-config.txt: add SCOPES section
-779ea9303a7de3d618f3b0e329ebb89529ab3285 Documentation: define protected configuration
-5b3c650777547f2274540a036da641651fb866b0 config: learn `git_protected_config()`
-6061601d9f1f1c95da5f9304c319218f7cc3ec75 safe.directory: use git_protected_config()
-8d1a7448206e11cdea657c35b04cc49db39be933 setup.c: create `safe.bareRepository`
-ae25974de301ba1809f2d7f0219fcdd86d18cc1f mingw: avoid mktemp() in mkstemp() implementation
-5206577852959878e77b7d8df99ce5837cec580e Merge branch 'gc/bare-repo-discovery' into next
-4273bbd4b4daca4f42147c4dca640394d4cedcbb Merge branch 'js/vimdiff-quotepath-fix' into next
-75e4efe678aa7ba4a3a611399bd90f4037487f85 Merge branch 'js/shortlog-sort-stably' into next
-196166f671a93d6b7eaf3415012125b4d865ee69 Merge branch 'js/ci-github-workflow-markup' into next
-4dd4a117ecf0e90cdeac8c0e51a870de51791f4a Merge branch 'rs/mingw-tighten-mkstemp' into next
+affac98a604ccf19c2a116a33a13ac8e6a781130 PCI: qcom: Remove unnecessary pipe_clk handling
+c86c8360959ec706576baf17237dec3004154d4b arm: ioremap: Fix pci_remap_iospace() when CONFIG_MMU unset
+7eb5768c26934cf1ca53ffc112f75c67be254211 PCI: qcom: Drop manual pipe_clk_src handling
+996ab868d6302534c22d52075c71b97e4d70f519 PCI: dwc: Move GEN3_RELATED DBI definitions to common header
+9a765805f62aa590fd4281740b4ef75425c0b12b PCI: qcom: Define slot capabilities using PCI_EXP_SLTCAP_*
+0cf7c2efe8ac76bb6b90abc64bcf8df124509d7d PCI: qcom: Add IPQ60xx support
+5b05eab58420d14ac579c487b2f381bc916fee46 dt-bindings: PCI: qcom: Fix description typo
+839fbdee4c080eb95567cbcf6366072a56d3a3cc dt-bindings: PCI: qcom: Fix reset conditional
+e05f33c3eb8b8269c3dfdd45e5065022b2e158d6 PCI: imx6: Move imx6_pcie_grp_offset(), imx6_pcie_configure_type() earlier
+8b2a017eaa432ae72bbbf98a3bc16547953342b5 PCI: imx6: Move PHY management functions together
+b805cf0a70d2089cf7ca49bdf2b2e274bf02c9d9 PCI: imx6: Move imx6_pcie_enable_ref_clk() earlier
+4b88d2da2b9d78510bd7e6ea86104b976a57aa05 PCI: imx6: Move imx6_pcie_clk_disable() earlier
+8a5834a6f94422dfa7a04f02dfa8b6a368163fe9 PCI: imx6: Factor out ref clock disable to match enable
+e3334dfafb2a0423ae9740d2b6c54fc0de5c61a5 PCI: imx6: Collect clock enables in imx6_pcie_clk_enable()
+a5bea9a09d089095ad3663f86256d62d0fd06b7c PCI: imx6: Propagate .host_init() errors to caller
+2b5b48d64a45b877474080d97df4d47e4a69374d PCI: imx6: Disable i.MX6QDL clock when disabling ref clocks
+67052832be7eede0b9bc2c56afa899a4f5f42152 PCI: imx6: Call host init function directly in resume
+41de2be1a14e414712c8b46745ca9460e435bb16 PCI: imx6: Turn off regulator when system is in suspend mode
+8e014add498a101897476ea0fa1c71b2ba4e2fbf PCI: imx6: Move regulator enable out of imx6_pcie_deassert_core_reset()
+38c00d4ae6717a43d33882aa54ac0049658bb050 PCI: imx6: Mark the link down as non-fatal error
+034a46afcb9ba790c39a52c2430c8b8e7efdf86f PCI: imx6: Reduce resume time by only starting link if it was up before suspend
+fc59b59e157bb007f6a6e6ee49523105366ea303 PCI: imx6: Do not hide PHY driver callbacks and refine the error handling
+5af501602ec7d58b8a759a591db1b17483acd4b1 PCI: imx6: Disable clocks in reverse order of enable
+1d193057de55e8560264a1671e0f276dc55ef650 PCI: imx6: Move the imx6_pcie_ltssm_disable() earlier
+25ae5434c3de67ae316e2663f5b277fe4560a8b6 PCI: imx6: Reformat suspend callback to keep symmetric with resume
+87f1cecb09ae80ebdab6e4e791a3849a4a0e57f8 PCI: imx6: Set PCIE_DBI_RO_WR_EN before writing DBI registers
+19f5e788ff02e7401740b73ae4e285bd5bc0ac05 PCI: imx6: Support more than Gen2 speed link mode
+2101f5de858401e7298b419eb3afde2175dd6ae7 Merge branch 'pci/aspm'
+a147dec94880a10505d3f48d5a328e3af0f03300 Merge branch 'pci/endpoint'
+d41898c3aee9b9e743b83b9c00a0d4bf8bcbe625 Merge branch 'pci/err'
+128ffbfea1c69d34116fec0d0f59b249ebe2c6df Merge branch 'pci/pm'
+516d42e23b74a5f22164ac9c5a4f6304f65e69ff Merge branch 'pci/virtualization'
+97d45c6074625cbe29f8baef97928152a402677f Merge branch 'pci/ctrl/aardvark'
+37150a2347cb025faaf57c5205935117d9b3c880 Merge branch 'pci/ctrl/dwc'
+50a5ae92e94f9ae88ce007fc6c1069f45c33febb Merge branch 'pci/ctrl/dwc-edma'
+1cf780ca993db19da8b36cc0909741170175496f Merge branch 'pci/ctrl/imx6'
+b69bb4e9ace0e7ad54e817aa31962c8b84072bb4 Merge branch 'pci/ctrl/iproc'
+c03af3766949ae1f05c4e1b50051b9582639a90f Merge branch 'pci/ctrl/mediatek'
+a85b28e422d78398a20116f370b2cce816131e32 Merge branch 'pci/ctrl/mediatek-gen3'
+72af5dcaeaaf179da96e9509930a1f699f7d6edc Merge branch 'pci/ctrl/microchip'
+cce717729a4e693368c55d28910c6db5f009a92e Merge branch 'pci/ctrl/qcom'
+5bd6863868ee8dc2ad330d08e166dc24512f3edb Merge branch 'pci/ctrl/rcar-gen2'
+d6997bde41ebb9b7ffc0c3dbf2bbf6e744011378 Merge branch 'pci/ctrl/switchtec'
+115f90b8e4b08b92c31435f2896167f6d3e7be65 Merge branch 'pci/ctrl/tegra194'
+1ad226935f6bfc13b51077934cd7fcc3c0bc926f Merge branch 'pci/ctrl/vmd'
+57237f3713311710f009a4cd4cabe22c7a34850d Merge branch 'pci/misc'
 
---===============9020431335330980891==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c82335a866f9-50bffc2eb225.txt
-
-342fbe296956b2ae94eb9d2e10b22872e6f5635b Documentation: remove use of whitelist
-a96b8219c64dc2b0a73ce65754d82e1d51701cdb t/*: avoid "whitelist"
-e6413ac87f3a108e07db2531c41947ca36424a05 *: avoid "whitelist"
-ae25974de301ba1809f2d7f0219fcdd86d18cc1f mingw: avoid mktemp() in mkstemp() implementation
-d6907749390a3eb267a2407b89df6c7b61b87656 cherry-pick doc: clarify no-rerere-autoupdate still allows rerere
-e039ca0a42d59d389bd592aadff83b693f40739f fetch-pack: write effective filter to trace2
-9d3becf6fd80fed1c5f55bdaed0b09117d00234d Merge branch 'fr/vimdiff-layout-fix' into jch
-5c72f934f042deda53fc15b6b9334544f0d72aa5 Merge branch 'jc/builtin-mv-move-array' into jch
-eeb2dc20c2b30469c08221e7c88fbea8114e253d Merge branch 'ab/leakfix' into jch
-2e10ebd4249bf7706a00229171ac85bb8403c101 Merge branch 'ab/test-tool-leakfix' into jch
-d6db5eadb22d0ba8b57b234bfbe7d6194ca67dd4 Merge branch 'ab/build-gitweb' into jch
-3c48a9a06874d9c42de73d8c10933c5d56b8be22 Merge branch 'ab/test-without-templates' into jch
-880742c3eb0558f285c0bf868335c14c7da63244 Merge branch 'en/merge-dual-dir-renames-fix' into jch
-36f8509c04e3cd454db052de3a21eb3afd4c20ac Merge branch 'gc/submodule-use-super-prefix' into jch
-73f89d5f8b2ea6e115066a4db0d486a21d81525d Merge branch 'ab/cocci-unused' into jch
-f7a8e99344261fe8fb84536163cb042e01031b50 Merge branch 'jd/gpg-interface-trust-level-string' into jch
-4450933011e210e104358b55eb28e693131e6d6e Merge branch 'kk/p4-client-name-encoding-fix' into jch
-d5512615d1a8d08494cb5891e7ee97866d39dbe4 Merge branch 'bc/nettle-sha256' into jch
-a0c1f1a255e3c9ca760e3ed057cf3a564141f9a5 Merge branch 'sg/multi-pack-index-parse-options-fix' into jch
-b5792bea9a97d851664d735bd029726eb1bd0424 Merge branch 'jc/resolve-undo' into jch
-780c32347da5d559afd46d9ce337681d52d194da Merge branch 'hx/lookup-commit-in-graph-fix' into jch
-63d7a3134e7732b709bd2779388e8577c067abfb Merge branch 'jk/clone-unborn-confusion' into jch
-04d8b78a035d0654ea74172852df1d061bf14a7d Merge branch 'jk/ref-filter-discard-commit-buffer' into jch
-3a9f8be7214cde5ff05385e598b01a3ddcf177f6 Merge branch 'rs/cocci-array-copy' into jch
-1d6d9a55d44c5803c7adbf367b0eb99ee2a39993 Merge branch 'jk/diff-files-cleanup-fix' into jch
-b161b47552f0acb5b69fea5cfb9d61a797dc953a Merge branch 'll/curl-accept-language' into jch
-7802e43eed35e379737fd31fea1c9eaf31c752f5 Merge branch 'gc/bare-repo-discovery' into jch
-236050e9a53b922d4b023053eb8e3e319e84c99e Merge branch 'js/vimdiff-quotepath-fix' into jch
-38423eebb3f60cf3de46dfa1a1fb481fbb9e85a6 Merge branch 'js/shortlog-sort-stably' into jch
-1dbb6f8d610996120f45be96d97d7bc6eca639e9 Merge branch 'js/ci-github-workflow-markup' into jch
-b33b8fd8628443d7443d783a71302a84c9d5fcdb Merge branch 'rs/mingw-tighten-mkstemp' into jch
-e62e47e01e4c13c3ebdc382813800bc1852ce955 ### match next
-d789df89e5dfa922a11e50245ca338b65d57a9be Merge branch 'js/commit-graph-parsing-without-repo-settings' into jch
-48b09f93eac67f005f824baf7fe9480944e74a8a Merge branch 'pw/xdiff-alloc' into jch
-8a4a749bf386612f23d059aeca6fdcca728febbe Merge branch 'ac/bitmap-lookup-table' into jch
-914f49d7756d97b21a2b9a4719a10725d5772686 Merge branch 'ds/rebase-update-ref' into jch
-0e63e367caac12bc03ec91afad04bdd12cbab005 Merge branch 'bc/stash-export' into jch
-556db28f28f42d2c1f4ce36ee85d235784f48ae2 Merge branch 'ds/bundle-uri-more' into jch
-f103875b20e0006e62d5b2a600309838cefdcd4d Merge branch 'tb/show-ref-count' into jch
-609adc6a93425a281b8fdf798df4ac1c8eb02459 ###
-fb9f5b44282a97384b1bd3591587b36dcef56dbf Merge branch 'tb/commit-graph-genv2-upgrade-fix' into jch
-20594b5e3abcace5e3a9e66fa7cbb26ba0978fcd Merge branch 'cw/submodule-merge-messages' into jch
-f31452c93f5d87d1b4eaf5289293663d0c1edcd6 Merge branch 'zh/ls-files-format' into jch
-2257dd9055ce72af1adb680a5e142b0269ba7891 Merge branch 'mt/checkout-count-fix' into jch
-68ff06a6e8c5bd138476df67dbaf9bb31778fdca Merge branch 'mb/doc-rerere-autoupdate' into jch
-f0d348e54b244cdd53145243b0e7a37c620983fc Merge branch 'jt/fetch-pack-trace2-filter-spec' into jch
-391eecbf60f54660fdff8a06a527c0eab50e6d52 Merge branch 'tk/apply-case-insensitive' into seen
-789109a4b3f84c563f2473e75405ac5d7439400f Merge branch 'en/merge-restore-to-pristine' into seen
-1dec38826ee80b2010e6f57f6dc0d8de5d18f6ae Merge branch 'cw/remote-object-info' into seen
-235df7238c5da8bc2ffcdcba1a5c26e0174c0234 Merge branch 'js/bisect-in-c' into seen
-3c7f2e31eaf40da2a289246b8b34ddeb1922600a Merge branch 'jt/connected-show-missing-from-which-side' into seen
-a20d8525b17471db60a1e3b696b22c3be2396ace Merge branch 'po/doc-add-renormalize' into seen
-4d0b26766dce19411e2b6df3ff60cd86a1b590fd Merge branch 'po/glossary-around-traversal' into seen
-722ee1b6c27d8c56e37757824a5d653090cbeac8 Merge branch 'ds/doc-wo-whitelist' into seen
-3b8697fff1088fbf4364c1383f1f41b3176b998f Merge branch 'js/safe-directory-plus' into seen
-358348f0a4a365181d6224abcaadc992b046f425 Merge branch 'mt/doc-config' into seen
-50bffc2eb2258ac5bc5e0891cf615f5e24c433e9 Merge branch 'sa/cat-file-mailmap' into seen
-
---===============9020431335330980891==--
+--===============1362802998831243593==--
