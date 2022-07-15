@@ -1,43 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Jul 2022 08:12:57 -0000
-Message-Id: <165787277700.20414.67763268972621054@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3400718750614722976=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 15 Jul 2022 08:12:59 -0000
+Message-Id: <165787277910.20473.14031959708898309030@gitolite.kernel.org>
+
+--===============3400718750614722976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.9
-    old: c3754bffc265a8f8a690074cccb221185115402b
-    new: 6dec578a5efe0c730861654b6dff1d72650b5002
+  - ref: refs/notes/signatures/tar
+    old: 845723e86138c79ac363b7e457acbb79c3c64169
+    new: c6bbc8e01b8ea10f01a395e47e2c9355f3a19677
     log: |
-         6dec578a5efe0c730861654b6dff1d72650b5002 arm64: entry: Restore tramp_map_kernel ISB
+         c6bbc8e01b8ea10f01a395e47e2c9355f3a19677 Notes added by 'git notes add'
          
-  - ref: refs/heads/queue/5.10
-    old: c7ddf4dfecb2c5c2dda4aaaa7e7c4d4d4f67154b
-    new: a11c457e0d09546ef75d00e995210da7516442e8
-    log: |
-         a11c457e0d09546ef75d00e995210da7516442e8 Revert "mtd: rawnand: gpmi: Fix setting busy timeout setting"
-         
-  - ref: refs/heads/queue/5.15
-    old: 06fc5c5586a19d3a32a3f1a7e7aaaecf1f809a7f
-    new: c521b0358f3c6f3b429f68179083e3d9870a20e3
-    log: |
-         c521b0358f3c6f3b429f68179083e3d9870a20e3 Revert "mtd: rawnand: gpmi: Fix setting busy timeout setting"
-         
-  - ref: refs/heads/queue/5.18
-    old: 26185cc2a775abe4732d834f00efaf3cbf151686
-    new: 57c3be09c0d04916d101b58e764ff41e69b03cf5
-    log: |
-         57c3be09c0d04916d101b58e764ff41e69b03cf5 Revert "mtd: rawnand: gpmi: Fix setting busy timeout setting"
-         
-  - ref: refs/heads/queue/5.4
-    old: 5d8735bdc9aaa3dbe7714855a2bdb6ed318f922e
-    new: e0a1e5ca52081c6163203f97b1b48517b0eee89e
-    log: |
-         e0a1e5ca52081c6163203f97b1b48517b0eee89e Revert "mtd: rawnand: gpmi: Fix setting busy timeout setting"
-         
+
+--===============3400718750614722976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657872778 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1657872776-424d62b59ae73afba3419eeaf8cfd4d9da27bf69
+
+845723e86138c79ac363b7e457acbb79c3c64169 c6bbc8e01b8ea10f01a395e47e2c9355f3a19677 refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRIYobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RMEQAIPRk9HKvDeWbViucNuJ
+hqcp3Qzk/5XPwASbnBW8CSKbexz4QwUyxYX29ncvIow1iFuEFIwlsjJHg/B/nu+7
+NG1VIoqNrCkoe8Qb6jw8pwyV3Bhxh79wXiKXHXrX9TgN6Tdaal8wW0KpxkkL7/qO
+1A/jl5F6/kwPYvJZ88ZwCrBM4tXaGZy2N9bf2AMgIAmh3uQ8qM5ZNm/UlqH1vR1X
+XTyqqgUGrI8hhcD8mb4nHRxiqDUtucLhcrZpR5BDjVVT46BC4QTipooXPa7bj4Yk
+HvSE7/256ECOzo89XtKrUtFnDsLLSEuvfL5wDVg5Lh5DCJIZk9rudqab/ztqXMfg
+iWkAa8DOOsanhR7BiNanXsdTXb1gD/HEqfuGczBOP33nds0+2byaX4O15stkpbt7
+dvo5pR+l1/EwWf8Rov6C15unzVcGDXTnfR/WmPGKHiEfCtnsi5LHJszw8DJ7zSVg
+E61HKmjkBeHr0wmRHXx6P0KuGM7VcvyD2a5/ApWr/hlkrvnQx09p54a4I2uuJsGi
+dffwbqDlL3Nx2ZUhlCipkxAsh61Xhb6wiqDILcko/M18FLV3byk6bCrRK+6af2Ne
+alSz/UocP7vlJ+e1TJWVgixsak/GISdc2hZbqB8FaPj+z0mQkHsRY0IHZREfXpTl
+1OZoZhCxUKAs5mlEZxIBDXHP
+=66Bg
+-----END PGP SIGNATURE-----
+
+--===============3400718750614722976==--
