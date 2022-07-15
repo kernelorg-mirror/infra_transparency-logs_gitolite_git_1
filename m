@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 15 Jul 2022 17:01:30 -0000
-Message-Id: <165790449009.32102.9977111939287544879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 15 Jul 2022 17:04:25 -0000
+Message-Id: <165790466535.670.17380232348837767306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 0593846ffc8d06eec492c897bc678b9ff1e4ed96
-    new: f2ccc1bf84ffffbfae8e0c0f23695893b1795303
-    log: |
-         f2ccc1bf84ffffbfae8e0c0f23695893b1795303 build: Require at least version 0.52 when building with external ELL
-         
+  - ref: refs/tags/riscv-for-linus-5.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 1da1d298db05ce5a0055b32e234e9279a9c268f3
