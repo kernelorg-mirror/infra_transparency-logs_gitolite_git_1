@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 15 Jul 2022 19:01:52 -0000
-Message-Id: <165791171209.11059.7980613779530866254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 15 Jul 2022 19:03:48 -0000
+Message-Id: <165791182841.11741.15105495573280801966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/next-integrity
-    old: 077c63ca4e722aa8d9a008f8e9aeaf3f13635e60
-    new: 1d212f9037b035e638d53834bfe8d3094ca1d04c
+  - ref: refs/heads/master
+    old: a2a5580fcbf808e7c2310e4959b62f9d2157fdb6
+    new: 8eab0a09a211735c2ffd0e481f7155e53c311dd9
     log: |
-         65d9a9a60fd71be964effb2e94747a6acb6e7015 kexec_file: drop weak attribute from functions
-         0738eceb6201691534df07e0928d0a6168a35787 kexec: drop weak attribute from functions
-         689a71493bd2f31c024f8c0395f85a1fd4b2138e kexec: clean up arch_kexec_kernel_verify_sig
-         c903dae8941deb55043ee46ded29e84e97cd84bb kexec, KEYS: make the code in bzImage64_verify_sig generic
-         0d519cadf75184a24313568e7f489a7fc9b1be3b arm64: kexec_file: use more system keyrings to verify kernel image signature
-         0828c4a39be57768b8788e8cbd0d84683ea757e5 kexec, KEYS, s390: Make use of built-in and secondary keyring for signature verification
-         1d212f9037b035e638d53834bfe8d3094ca1d04c Merge remote-tracking branch 'linux-integrity/kexec-keyrings' into next-integrity
+         2e4966288c1651c22202df80142ed84dbef817b5 samples: bpf: Fix cross-compiling error by using bootstrap bpftool
+         3a2a58c4479a6acd4421db41e1e1ffd804763a5a tools: runqslower: Build and use lightweight bootstrap version of bpftool
+         3848636b4a88f0706f9ce48d532163244abadd43 bpf: iterators: Build and use lightweight bootstrap version of bpftool
+         8eab0a09a211735c2ffd0e481f7155e53c311dd9 Merge branch 'Use lightweigt version of bpftool'
          
