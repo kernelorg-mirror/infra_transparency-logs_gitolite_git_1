@@ -1,62 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0711661526531461411=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 15 Jul 2022 12:45:04 -0000
-Message-Id: <165788910470.31632.18086772520870754388@gitolite.kernel.org>
-
---===============0711661526531461411==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 15 Jul 2022 12:45:52 -0000
+Message-Id: <165788915214.31992.6544606005354395367@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/usb-next
-    old: f31a8702cd36f7908bdc3fa1ed7f95b56c10ed35
-    new: c76d09da77d69d7f737540985912ad2bca654713
+  - ref: refs/heads/queue/4.14
+    old: 0c466ca19a613bc01f371376623cce9a997162f5
+    new: c0437264dfbed788265c03ea56f416c0c983887b
     log: |
-         28a6ed8e39f77f6ac613ec9b7461aa75e85fa79a platform/chrome: Add Type-C mux set command definitions
-         e54369058f3da181fcc4c893f224a0c5a8a526b6 platform/chrome: cros_typec_switch: Add switch driver
-         34f375f0fdf67f8804142fa37a28e73426d4c1df platform/chrome: cros_typec_switch: Set EC retimer
-         bb53ad958012f5a8d88b3b7159c22b3b877601bb platform/chrome: cros_typec_switch: Add event check
-         f5434e30011e011b24852959365b7cbc61dd8c85 platform/chrome: cros_typec_switch: Register mode switches
-         66fe238a9bcc158f75ddecf976d1ce7efe20f713 platform/chrome: cros_ec_typec: Cleanup switch handle return paths
-         c76d09da77d69d7f737540985912ad2bca654713 platform/chrome: cros_ec_typec: Get retimer handle
+         c0437264dfbed788265c03ea56f416c0c983887b ALSA: hda - Add fixup for Dell Latitidue E5430
          
-
---===============0711661526531461411==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657889104 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1657889103-2bd5d047e40cd7dc97c33203c45aae9f945e50f2
-
-f31a8702cd36f7908bdc3fa1ed7f95b56c10ed35 c76d09da77d69d7f737540985912ad2bca654713 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRYVAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qHsQANRVx2ZrqXNSSUU3WwTc
-5bgTBrH/Sz64cHxNRh168G+Up6106iUisseenr6LDGAZdyPr8VEsgunToLbGmEIA
-cpRcLDISx2A74DfvOYIKY+Mo6J6rfIDhYW0cXInj/xHJx3sVb9f85ODgh+sPu/vD
-chKNWzs2xolkPtco9r90GFdts5R3SH95q5OMYajwjTjebH9edI+wN7uNUF2zrpyh
-/o0+rKp7aBhzho4yGloRzpt9JmhNN+zsFFRsWEv4qTOZE4D+I1sDxA9SYx+4Q3MI
-wqiqqHH3k0KJZGYAwIdzCfqBI8jauDsCnj1Y4SEsfKDD3cCxyRS6CinSFMUnWRzf
-pwLDaH3hBZ7iMaKUbPsYg5Yurr2K8xBwJfvl77RfpphefD+/X0unfYY9TpqfT4Du
-pr7+jA0SMYRxYKOd9XKOmpzUkUehMejQ5PfLqJPEzbtWkF/1tpwg7VJ/FZbIrt/m
-/sNTjN/tMrJSbOd0y1rRhIhpGdupbX1VCLKFs8hb1JTpv6O/zl80WjGcR7at8JWY
-GdsvWoS6a0XBbNXOkK0j6mDiAoYI5igdm4BB6jeNfXAocrS58YXT00XT6Sllnvi4
-sS/yIFw0EtU5mvtj7wLGLC6JBSfkhJwCxJpO90U26Hf6g1qzgELrKtZer9HsbFgy
-9Xg6BjISB2ZQ7mkNz2/oQWBR
-=B1L3
------END PGP SIGNATURE-----
-
---===============0711661526531461411==--
+  - ref: refs/heads/queue/4.19
+    old: e8b2a9c3318357b7661c6075acdb723587def656
+    new: 81094ad8ef7adb6b7b086f60aaedb55cfbbef717
+    log: |
+         81094ad8ef7adb6b7b086f60aaedb55cfbbef717 ALSA: hda - Add fixup for Dell Latitidue E5430
+         
+  - ref: refs/heads/queue/4.9
+    old: ba9ffa9163fe84ef26639c8e7acee73c98530493
+    new: c3ee23dd4da0c502b90d22d97d7fdc43cf9e7234
+    log: |
+         0be2b3ab00f7f015331dd70b392b2d52969b30ed arm64: entry: Restore tramp_map_kernel ISB
+         c3ee23dd4da0c502b90d22d97d7fdc43cf9e7234 ALSA: hda - Add fixup for Dell Latitidue E5430
+         
+  - ref: refs/heads/queue/5.10
+    old: 4ce0747cfdde45a09fefaa74929b0f5cc1550e7e
+    new: d737f9899601ce70af7fc802866a0dc0d1be4a26
+    log: |
+         d737f9899601ce70af7fc802866a0dc0d1be4a26 ALSA: hda - Add fixup for Dell Latitidue E5430
+         
+  - ref: refs/heads/queue/5.18
+    old: 3ee5473e3475e88c9c290be777106592cebda0a1
+    new: 7b61f26728edf9fcd47c6344cf1ce2ec218e5b54
+    log: |
+         7b61f26728edf9fcd47c6344cf1ce2ec218e5b54 x86/xen: Use clear_bss() for Xen PV guests
+         
