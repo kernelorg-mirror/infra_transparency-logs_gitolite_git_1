@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 15 Jul 2022 18:41:03 -0000
-Message-Id: <165791046305.30226.13773766602976452546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Fri, 15 Jul 2022 18:51:13 -0000
+Message-Id: <165791107391.4307.6016227330359751460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: pmalani
 changes:
-  - ref: refs/heads/master
-    old: e38f996e26c5dcd8d76633a7c4987d64da3d3825
-    new: ac6d134444efaff99fdf06e2b155d71fe3cbf547
+  - ref: refs/heads/for-next
+    old: 3de7203115af2f3a76ffdb0c90a89ad99f4c4e04
+    new: ce838f7dc7957afb2846c3bc537db56e4c513390
     log: |
-         ac6d134444efaff99fdf06e2b155d71fe3cbf547 Fri Jul 15 06:39:57 PM UTC 2022
+         ce838f7dc7957afb2846c3bc537db56e4c513390 platform/chrome: cros_ec_typec: Use dev_err_probe on port register fail
          
