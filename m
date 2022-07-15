@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Fri, 15 Jul 2022 09:26:35 -0000
-Message-Id: <165787719531.22987.4051451789514551104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 15 Jul 2022 09:50:19 -0000
+Message-Id: <165787861927.19172.5016178656526749746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/main
-    old: db26ac7f6a9c01f3df3d0c73325c9d1730e2bed0
-    new: 6cd3e94813f71bc45756fd4e3ca3beec19039c40
-    log: |
-         6cd3e94813f71bc45756fd4e3ca3beec19039c40 i386: pass rng seed via setup_data
-         
-  - ref: refs/heads/master
-    old: db26ac7f6a9c01f3df3d0c73325c9d1730e2bed0
-    new: 6cd3e94813f71bc45756fd4e3ca3beec19039c40
-    log: |
-         6cd3e94813f71bc45756fd4e3ca3beec19039c40 i386: pass rng seed via setup_data
-         
+  - ref: refs/tags/icc-5.20-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 35e41a0a606ad49ecfa98202fb8527ae0569dbe3
