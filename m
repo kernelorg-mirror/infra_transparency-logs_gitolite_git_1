@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2842418119459575460=="
+Content-Type: multipart/mixed; boundary="===============1578414192944545152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 15 Jul 2022 08:12:27 -0000
-Message-Id: <165787274747.20010.3401259556183783550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 15 Jul 2022 08:12:37 -0000
+Message-Id: <165787275783.20117.13719133408229188754@gitolite.kernel.org>
 
---===============2842418119459575460==
+--===============1578414192944545152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.18.12
-    old: 0000000000000000000000000000000000000000
-    new: 33aab5fcbe46615f398d6c428fa65f88bc45203a
+  - ref: refs/heads/linux-5.18.y
+    old: d39cd8e451f0e1a61060db914b14967d7ac50490
+    new: c2e9702659dfc309dfda6116da48f200fe425aab
+    log: |
+         f8d01e0f004a73cf9d0e76daa69aea9556683d57 Revert "mtd: rawnand: gpmi: Fix setting busy timeout setting"
+         c2e9702659dfc309dfda6116da48f200fe425aab Linux 5.18.12
+         
 
---===============2842418119459575460==
+--===============1578414192944545152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657872746 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1657872745-dacaffb0dffa26be47b1dc2d8d338c71248de2af
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657872756 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1657872754-39ba2eb30cbcf5f0610a7b71163ac3ff7f1e8016
 
-0000000000000000000000000000000000000000 33aab5fcbe46615f398d6c428fa65f88bc45203a refs/tags/v5.18.12
+d39cd8e451f0e1a61060db914b14967d7ac50490 c2e9702659dfc309dfda6116da48f200fe425aab refs/heads/linux-5.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRIWobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tM0P/3meVzJiuQCMexvKzkSF
-HoOwXjtO1zm6QpRJMNBpqp1u5P1erh/GHIlrruldtBzmYwpujBp4MZdusKHX4kmB
-hSaLc9MixqkEY4shcNK87QP1pocQx9UaIdiExy9RK0Qm4PQsIiYV/HuWdC4JqEJn
-omtyDIm7YXT8DNn75fzWNchE42tQ2xsS51xWlXtY7wU9M3XpKmUcgYyw9/ehK7Vp
-ft9L3aIvFkFg1r7hXOYNhZy8MOoBr32s3oxOUzscdHIDQ3vkn3m+oy1SWBKKjgNS
-v9V1CiKqB9DQRcoNbEueucRKLoFBhUsEYDrylY4w3Gd699Vwzp8XcazjU1dCgWpM
-nRijP/Gdjn0aZunTc03C1EpmWFLYxTjPHtML5XYTbrdiA7uZ9NwyPvkKm/ewzFV2
-NsNDDGyDgFNn01D+S9+EqXU6cK8B65qEGKjyoLFm3D/2V6s2MJpAJf0kAIFYX/mn
-1sw22dl0QxvMGS5CgLAxDeJyvGAn6BBQwxe8OqrHnyYs2cTswmvUABBhXn676Pym
-6+S85UdOb/kfCRFAqk/OaMHjraV7/0flx0KnFBHnYlYT/yq6mFCTaOLAPAAf0EPx
-PJM4gSM6JftYNwdkPTMGWnt1xgsHnTG66HlA0nGabFYAiG243zOMp1Ppo85V7B82
-cjBiK67iMorVzaL4r9lyQsiV
-=lT3f
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLRIXQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OoIP/15yJV5sWiXR2ENklg9H
+Bfmnnqs/HLlcJEEHfNxgCJxIvsJC9BzOK5t+NDT+I8c9PQxYNHokv6KOCQE9KB0l
+AmXHcUgHPt1PWo92tu/Qz/2KofePHSlgRu6LwXXsYgNTHEQYy6/3hnwYeT7W1WtF
+B0Qn5EoHQq+U+Y0zCb2XZLrnXrsLHX/6VzVv3NGmYTfatLMGyEPln8WBibhHqt+D
+UYgRU9KakgLn58YZUmONs5TQu3oDqQd3crCOLQtm47bgemzyh+OqCDB3B0Cptq+K
+XXGBBOBNZsQyXLmnUDkU4fnLGzlP1dkLAQfa/5ONxPAb3fvg8hH9FLEtI+XmzIf5
+j+VbOtkIfnVWqyzNjILk/HzyczTQBYh1h3GiyqFT/goBPOoo7k+HHZQAJhOlvC5j
+zhmHPvaZ9nNrXG83eWXqL/xKfHGKp5j7mbVbVaNLqqgmxvZskqKNW842X1GWqrl7
+32FfQl7Q9+6Duv2F/cyOvoULqZMazN+gMYx3rw9SUmgEMwc1460/uUWb0iu/CI11
+ff5/e7ileNlErkVPom8ZlgGw0GWeRDA9sAoDaGNAslnuKPRVQallDL8w08hgY4qg
+BHKtmZBbvdmXrhYd6n/BCWFStVcmS2ygAE0XWmynliZs2ek8UzaBZkuodC/YfkHG
+JsGEfqo17em8z0VLe74FxSVY
+=AfsK
 -----END PGP SIGNATURE-----
 
---===============2842418119459575460==--
+--===============1578414192944545152==--
