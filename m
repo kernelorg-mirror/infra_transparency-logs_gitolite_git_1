@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 15 Jul 2022 11:33:13 -0000
-Message-Id: <165788479375.17560.2135986355808855040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 15 Jul 2022 11:35:49 -0000
+Message-Id: <165788494913.19925.5368569685422524206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 782d86fe44e38c0a02e92042fff2ce417d62c61a
-    new: 8f3184b951164131a8b35770f225082cc02008be
-    log: |
-         fa4b3ca60e8011d3046765b3de8d3f1ffc53af28 stmmac: dwmac-mediatek: fix clock issue
-         0d9a15913b871e03fdd3b3d90a2e665fb22f9bcf net: stmmac: fix pm runtime issue in stmmac_dvr_remove()
-         f4c7d8948e866918d61493264dbbd67e45ef2bda net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
-         8f3184b951164131a8b35770f225082cc02008be Merge branch 'stmmac-dwmac-mediatec-clock-fix'
-         
+  - ref: refs/heads/broadcom/dt64
+    old: 92c336e7ae2eb9e20c91738b0af9fdbeccb9d9e8
+    new: eab6bb0994b806525fc5e362e8b865f61c4a9e20
