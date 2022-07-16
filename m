@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8359797139034385493=="
+Content-Type: multipart/mixed; boundary="===============0772699074758562154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 16 Jul 2022 19:02:47 -0000
-Message-Id: <165799816734.5155.1126252084176655763@gitolite.kernel.org>
+Date: Sat, 16 Jul 2022 19:02:57 -0000
+Message-Id: <165799817776.5292.8009382583321760018@gitolite.kernel.org>
 
---===============8359797139034385493==
+--===============0772699074758562154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 6a605eb1d71ea8cec50bdf7151c772c599a5fb70
-    new: 2acd1022549e210edc4cfc9fc65b07b88751f0d9
-    log: revlist-6a605eb1d71e-2acd1022549e.txt
+  - ref: refs/heads/mlx5-queue
+    old: 92a49752a35e27c89bcf8701b76b6d9ec27c74e6
+    new: 1ad126247629e9a937d9c9bf6a128e3692e6f957
+    log: revlist-92a49752a35e-1ad126247629.txt
 
---===============8359797139034385493==
+--===============0772699074758562154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a605eb1d71e-2acd1022549e.txt
+Content-Disposition: attachment; filename=revlist-92a49752a35e-1ad126247629.txt
 
 c132fe78ad7b4ce8b5d49a501a15c29d08eeb23a dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
 615a4bfc426e11dba05c2cf343f9ac752fb381d2 dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
@@ -424,5 +424,51 @@ e68c5dcf0aacc48a23cedcb3ce81b8c60837f48c net: ipv4: new arp_accept option to acc
 aaa5f515b16b6b3e137779ffb4c9558bb58c1e75 net: ipv6: new accept_untracked_na option to accept na only if in-network
 0ea7b0a454ca1839acddc37c4cf802f0e0d5fb5f selftests: net: arp_ndisc_untracked_subnets: test for arp_accept and accept_untracked_na
 2acd1022549e210edc4cfc9fc65b07b88751f0d9 Merge branch 'net-ipv4-ipv6-new-option-to-accept-garp-untracked-na-only-if-in-network'
+14d2771092cf1f2ba85e352884bd77cbb9a02933 sched/topology: Expose sched_numa_find_closest
+e9d504238fc7ee60f2eb7c8d6e12b177b8a0fb8b net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+4f4170a30d0982682eea3274df3205d967180fa0 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+1153e82099119ba80efd46262aa43df93ca6830b net/mlx5e: HTB, reduce visibility of htb functions
+49a1b431b3a61746632daa95120d69d75cd5d2e5 net/mlx5e: HTB, move ids to selq_params struct
+38afa1b1ae46055190d07c735c5c459b7109630b net/mlx5e: HTB, move section comment to the right place
+1f035a0f08d7b45df54836372a5fabcf020c73c9 net/mlx5e: HTB, move stats and max_sqs to priv
+a8286d31d89deec25d19f898ebf3c08b5cd9fded net/mlx5e: HTB, hide and dynamically allocate mlx5e_htb structure
+a7b3b3ef079acc21e51a8d587c39682abfba753e net/mlx5e: HTB, remove priv from htb function calls
+e982949171a3f65e83ec905c2662b46bf6ff565a net/mlx5e: HTB, change functions name to follow convention
+d1876ecb5585fee22d312e8738f56b4a75697ec2 net/mlx5e: HTB, move htb functions to a new file
+531c051f70e6f2f5623dc167b3d4eca88e1a9610 !!! W/A DO NOT SUBMIT !!! net/mlx5: Introduce ifc bits for migratable
+261de9286c95ad6a8a9dbf720e440826ee54694b !!! W/A DO NOT SUBMIT !!! vfio/mlx5: Set VF as migratable
+bf99030db304f7f25e6e0178b609e6d15692bf44 net/mlx5e: Convert mlx5e_tc_table member of mlx5e_flow_steering to pointer
+0c08c7f7642804d6405506ca9bb49a2791fb8fd3 net/mlx5e: Make mlx5e_tc_table private
+1d7e32ac571b52ccce3ac96baf38b35191c33a2e net/mlx5e: Allocate VLAN and TC for featured profiles only
+491e8dad08e849147839da33f1e33898d255b80e net/mlx5e: Convert mlx5e_flow_steering member of mlx5e_priv to pointer
+eb7816bf67c9748ed85e43caee2638e6efe3e856 net/mlx5e: Report flow steering errors with mdev err report API
+73f5d160b49843f68423e6c606c4fe03fb6df73f net/mlx5e: Add mdev to flow_steering struct
+7f2554e0969f0e0544782416af09df82660f2838 net/mlx5e: Separate mlx5e_set_rx_mode_work and move caller to en_main
+37192b069c87662d2939beb975b3f7f050a4b9ae net/mlx5e: Split en_fs ndo's and move to en_main
+393cb19e48fd684883db60b5f29ab29adcd73f03 net/mlx5e: Move mlx5e_init_l2_addr to en_main
+4ec1a51128995bd4f9b98f37dccb9522cb952903 net/mlx5e: Introduce flow steering API
+071e46967fedf248224c99ba28405e9bbb032d89 net/mlx5e: Decouple fs_tt_redirect from en.h
+3cad01fd90c891b949d5eed761c2242a5febba69 net/mlx5e: Decouple fs_tcp from en.h
+4d872800c388145d2ffa9adc6f02c5f4c14bf4ad net/mlx5e: Drop priv argument of ptp function in en_fs
+f1b90a30aced48387a31f29950f5721c759679b1 net/mlx5e: Convert ethtool_steering member of flow_steering struct to pointer
+5e8df4c6cd3b3e77e5fa91cb2e02dd2267ff2b08 net/mlx5e: Directly get flow_steering struct as input when init/cleanup ethtool steering
+d5ba2a62916d3aeb6bdc53161ed453ad5a2365c7 net/mlx5e: Separate ethtool_steering from fs.h and make private
+7391ef5f3a45e9d2e75987cf72ed032b2620be96 net/mlx5e: Introduce flow steering debug macros
+429fb128994b5fe298eb3a46c1aaa16975d78e7c net/mlx5e: Make flow steering arfs independent of priv
+a93426cec3584aa17f87dcdac47bd9ddfeffb24c net/mlx5e: Make all ttc functions of en_fs get fs struct as argument
+b294790ead2447385cd89ff7b0ddc518489be7dc net/mlx5e: Completely eliminate priv from fs.h
+b41ae891119b11d0645865fde32f26efe88a659c net/mlx5: CT: Remove warning of ignore_flow_level support for non PF
+af777a3e88b5754147100e158214721a2d8fab38 net/mlx5: DR, Add dest table handle to action dump line
+0da606bdc828f396715bcf6014d4a01e1d08ef8b net/mlx5e: Fix mqprio_rl handling on devlink reload
+5ebfc2ffabad138a2a482fc3875c6ed594164028 net/mlx5e: Support enhanced CQE compression
+dbb29691fc25795ef1ec20a43c9c3ad8219a27f6 net/mlx5e: Move params kernel log print to probe function
+23dc9e579efaab355e142df2d5fdb199caec952e Merge branch 'patchq/516865' into mlx5-queue
+f35574369007dc647e801b68d80a61904fd14f39 Merge branch 'patchq/501243' into mlx5-queue
+44385c41899d06fb34293c3bd86f9c0d4d053e6f Merge branch 'patchq/518280' into mlx5-queue
+af8ebe41c4748d848dfd658a1530eab82c111be0 Merge branch 'patchq/467362' into mlx5-queue
+6b161860abd53a2a8a2a2121fcb763906797e931 Merge branch 'patchq/521485' into mlx5-queue
+2955f60792a5ad0fe3e70efe71d7f77bf8391ee3 Merge branch 'patchq/511611' into mlx5-queue
+9cab3e7c2b094a66af54f7d44267d7cb120b7d70 Merge branch 'patchq/501993' into mlx5-queue
+1ad126247629e9a937d9c9bf6a128e3692e6f957 Merge branch 'patchq/505590' into mlx5-queue
 
---===============8359797139034385493==--
+--===============0772699074758562154==--
