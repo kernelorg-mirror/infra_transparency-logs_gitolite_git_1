@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3822312471457863941=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Sat, 16 Jul 2022 12:58:29 -0000
-Message-Id: <165797630976.4820.7023125991987970321@gitolite.kernel.org>
-
---===============3822312471457863941==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 16 Jul 2022 13:20:36 -0000
+Message-Id: <165797763658.19618.14253217142832243412@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 2083cbc7628b59e160da9eeb0133f032bf33dec5
-    new: eef190d827f3a87a23a2fc79f08aa96a147d0fa0
+  - ref: refs/heads/work.lseek-2
+    old: 792c7a924571c7298d891cf1df6a828e83d35862
+    new: 868941b14441282ba08761b770fc6cad69d5bdb7
     log: |
-         eef190d827f3a87a23a2fc79f08aa96a147d0fa0 submit: fix signed-off-by logic in --update-trailers
+         e7478158e1378325907edfdd960eca98a1be405b fs: clear or set FMODE_LSEEK based on llseek function
+         4e3299eaddffd9d7d5b8bae28ad700bb775f02d0 fs: do not compare against ->llseek
+         c9eb2d427c1c428e4f4e29f1e635b9a83236c015 dma-buf: remove useless FMODE_LSEEK flag
+         54ef7a47f67de9e87022a5310d1e8332af3e2696 vfio: do not set FMODE_LSEEK flag
+         97ef77c52b789ec1411d360ed99dca1efe4b2c81 fs: check FMODE_LSEEK to control internal pipe splicing
+         868941b14441282ba08761b770fc6cad69d5bdb7 fs: remove no_llseek
          
-
---===============3822312471457863941==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1657976309 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1657976309-3dc775eef017f8999875b8094f9b7c30726045ba
-
-2083cbc7628b59e160da9eeb0133f032bf33dec5 eef190d827f3a87a23a2fc79f08aa96a147d0fa0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYtK19QAKCRC2xBzjVmSZ
-bP1UAP9cqypL/tqFhyZqewgbJL2GoE7lFHQqibvHelCyMMg/ggEA2k3x9/Buld7n
-yFeRTry8fIlPI2IIQ08MibnHlz+ERwE=
-=yBRl
------END PGP SIGNATURE-----
-
---===============3822312471457863941==--
