@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5471758449115326577=="
+Content-Type: multipart/mixed; boundary="===============1576801668410206401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 16 Jul 2022 17:49:51 -0000
-Message-Id: <165799379147.22403.2113033630965683931@gitolite.kernel.org>
+Date: Sat, 16 Jul 2022 17:51:02 -0000
+Message-Id: <165799386234.24379.17336142496495310432@gitolite.kernel.org>
 
---===============5471758449115326577==
+--===============1576801668410206401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: c21dc31b76a137eb09c1dc4481c116eb163da1e8
+  - ref: refs/heads/net-mlx4
+    old: b11e5f6a3a5c170d16c2cf0b1d8053bbf1f6b7de
     new: 11052589cf5c0bab3b4884d423d5f60c38fcf25d
-    log: revlist-c21dc31b76a1-11052589cf5c.txt
+    log: revlist-b11e5f6a3a5c-11052589cf5c.txt
 
---===============5471758449115326577==
+--===============1576801668410206401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c21dc31b76a1-11052589cf5c.txt
+Content-Disposition: attachment; filename=revlist-b11e5f6a3a5c-11052589cf5c.txt
 
 c132fe78ad7b4ce8b5d49a501a15c29d08eeb23a dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
 615a4bfc426e11dba05c2cf343f9ac752fb381d2 dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
@@ -336,4 +336,4 @@ a14bd7475452c51835dd5a0cee4c8fa48dd0b539 net: dsa: microchip: ksz_common: Fix re
 df254d4508f96f298be8aff08da4d7e33d8584a0 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 11052589cf5c0bab3b4884d423d5f60c38fcf25d tcp/udp: Make early_demux back namespacified.
 
---===============5471758449115326577==--
+--===============1576801668410206401==--
