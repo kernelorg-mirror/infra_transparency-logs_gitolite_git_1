@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Sat, 16 Jul 2022 18:36:06 -0000
-Message-Id: <165799656630.20754.10952742805637748839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 16 Jul 2022 18:39:14 -0000
+Message-Id: <165799675473.21861.1007945231241964564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/stable
-    old: 8dfbbedbff8d9044b1bb30ff17fb9f9ff87e9e88
-    new: a8c97cb4f3f038b991d340220a44e65ad5a1a8e7
+  - ref: refs/heads/master
+    old: ac6d134444efaff99fdf06e2b155d71fe3cbf547
+    new: acf5bb4eec5f65fe2ae1d3dfda3c79f5a501218a
     log: |
-         a8c97cb4f3f038b991d340220a44e65ad5a1a8e7 wireguard: ratelimiter: use hrtimer in selftest
+         acf5bb4eec5f65fe2ae1d3dfda3c79f5a501218a Sat Jul 16 06:38:34 PM UTC 2022
          
