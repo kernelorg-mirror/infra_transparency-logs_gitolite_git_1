@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 16 Jul 2022 12:54:24 -0000
-Message-Id: <165797606404.2006.3743787020359457749@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3822312471457863941=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Sat, 16 Jul 2022 12:58:29 -0000
+Message-Id: <165797630976.4820.7023125991987970321@gitolite.kernel.org>
+
+--===============3822312471457863941==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 77b3521cae0f405e64e7cc3782675a4bd0768ff6
-    new: 779a29d637ed8fd5b93d997675c5cc63709f9aa0
+  - ref: refs/heads/master
+    old: 2083cbc7628b59e160da9eeb0133f032bf33dec5
+    new: eef190d827f3a87a23a2fc79f08aa96a147d0fa0
     log: |
-         ccd3f449052449a917a3e577d8ba0368f43b8f29 scsi: target: Fix WRITE_SAME No Data Buffer crash
-         8312cd3a7b835ae3033a679e5f0014a40e7891c5 scsi: megaraid: Clear READ queue map's nr_queues
-         2ae57c995003a7840cb6b5ec5f0c06193695321b scsi: ufs: core: Drop loglevel of WriteBoost message
-         52a518019ca187227b786f8b8ee20869a97f3af4 scsi: ufs: core: Fix missing clk change notification on host reset
-         e78276cadb669d3e55cffe66bd166ff3c8572e38 scsi: pm80xx: Fix 'Unknown' max/min linkrate
-         355bf2e036c954317ddc4a9618b4f7e38ea5a970 scsi: pm80xx: Set stopped phy's linkrate to Disabled
+         eef190d827f3a87a23a2fc79f08aa96a147d0fa0 submit: fix signed-off-by logic in --update-trailers
          
+
+--===============3822312471457863941==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1657976309 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1657976309-3dc775eef017f8999875b8094f9b7c30726045ba
+
+2083cbc7628b59e160da9eeb0133f032bf33dec5 eef190d827f3a87a23a2fc79f08aa96a147d0fa0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYtK19QAKCRC2xBzjVmSZ
+bP1UAP9cqypL/tqFhyZqewgbJL2GoE7lFHQqibvHelCyMMg/ggEA2k3x9/Buld7n
+yFeRTry8fIlPI2IIQ08MibnHlz+ERwE=
+=yBRl
+-----END PGP SIGNATURE-----
+
+--===============3822312471457863941==--
