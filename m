@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3473741614573306288=="
+Content-Type: multipart/mixed; boundary="===============1309252301993130228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 16 Jul 2022 05:31:51 -0000
-Message-Id: <165794951150.10247.12279732397248939634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 16 Jul 2022 06:17:07 -0000
+Message-Id: <165795222754.5125.14182695929297050736@gitolite.kernel.org>
 
---===============3473741614573306288==
+--===============1309252301993130228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 6598a382bd34cce713d2dbe2aadd9496e7a7b643
-    new: e0e1824bf69e9a342eb4854cf10ce2ba4c840e36
+  - ref: refs/heads/tty-testing
+    old: 5095ca634f8b134cc202a5f5e4985d2b81f0ef0a
+    new: ceefa81e6e69b020997205e5c30a42d43aa5ae63
     log: |
-         387162479d8ba9a11cdb6277cd5df3b3ba6da1f3 extcon: fsa9480: Drop no-op remove function
-         2fb67280fd83f0f40ef4ae73aa1b9fbec075c13b extcon: Remove extraneous space before a debug message
-         97e1bb93e7211f5468d0ebc9007331b58a074461 extcon: Drop unexpected word "the" in the comments
-         d4f46c0e52d6ef309ba74830916fcb02b119ce0e extcon: sm5502: Drop useless mask_invert flag on irqchip
-         6d7151343520c9578a5bc087f01e63524f79c81a extcon: rt8973a: Drop useless mask_invert flag on irqchip
-         3a06ed80265fa62eecaf519d92f1633e4f9510c7 extcon: Add EXTCON_DISP_CVBS and EXTCON_DISP_EDP
-         e0e1824bf69e9a342eb4854cf10ce2ba4c840e36 Merge tag 'extcon-next-for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
+         ceefa81e6e69b020997205e5c30a42d43aa5ae63 serial: remove VR41XX serial driver
          
 
---===============3473741614573306288==
+--===============1309252301993130228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657949510 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657949509-9276094dd607b3021ddc1a4fe3e7d4e03b41c88a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657952225 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1657952225-81d6438adadf2e4748b3db6297277e9b018e61c6
 
-6598a382bd34cce713d2dbe2aadd9496e7a7b643 e0e1824bf69e9a342eb4854cf10ce2ba4c840e36 refs/heads/char-misc-next
+5095ca634f8b134cc202a5f5e4985d2b81f0ef0a ceefa81e6e69b020997205e5c30a42d43aa5ae63 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLSTUYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G0AQAI4X7CerH3tu+q3OZIzd
-/+q02dm2yVjVQuZK9H4quqOo8Z7VuQDNGmo5U8pbwr2PEsTSL1IFSuWW4ce7jwme
-21QAXxlgwnBV3OuB3R8lOMKtNhEF/rz2iUWidpoB6DLY+S04YFIIz0TBT8c2UoQN
-4oW6ZtH5punqcRuW0P0HzFnvPj+a/BXVCDcDEZ4yi+9kMhDRJmZA+Cpp8V8msu8m
-SHRSg0QJSDGJCee1EUAsBS1U4sEB2ATJJVfPDyJ/MIjKFxxKgMVOUkbmDQJpn+i7
-g8WfAKnk6aDxOAQfzzmZEXJgA0bsQ6gY/FYx+xIfkZ0zH2X6mET12EB8fWIDBW/P
-W5Cdk1bkJ0H6Z2HaR+z31QN29NKGQ2SVQC4KudA+UrWQELcCJUcTMoAd30li0TQw
-y5b0iNsSahifXW240/5cd6xJYhaWEwYD73bYDzKtDRXpwKfUEeMQ43X4ZJHVf3OJ
-lRXCRGUCpvmYcKNO3fK1Yi2oSiw5h7BbQfLoL2xer3lk/I0Gu827mqLNlIwwuTRd
-gUs7C8bZre4NuTAVpaK2Mv4c23hE1HPqhHKHv7PpBziEk88cQZ81Vc7sX99DRYU8
-mQh9QBbh0IAFny8wPL9cCq5SMOE0XXX7EEQyZd8f2hqcfY5L4yQCVylfPU8/HkR/
-usTzYAMdoBAYERAKRMmUqK31
-=4cXn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLSV+EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DNQQANLLRMRpBQMrJBHTQDMs
+vhZfBe2kXwFaMv+/sILrHkcKeWXjhmMf5giBVfIwgjJw8OVjuHBAs+IcvOjKpGWL
+sXoHxMNxXKWFYpsKAPL4qWK/vRmH2C4NHj1PB+0DuMnEAvSxxtZbZeZA99h9ckmT
+t00MsY4AmOPUDQDrYAn3i8Ac4VICSOf0jicVboVdUGxryCynpT0zgJXkx7jI9dC/
+wbo0c39KtseTCLDdgelVlrkchQOQU/+VlSrk6UQrogE1i+sBgIsiSEWwe0C8DGww
+8EfErhe3w9aVUh3lYlQL0zx5YBcwiq7/0AwLdzyOkQV0XoHICyQnbaAwS/jlg+Dd
+ja2ThlLl0rTL0R2TV+evMLThf13+5P9PKmKs2isI2iOlXG8YvgsC3DFUfMbyvWbx
+DEV6QTT7mKcBiIyXBR1typLAcUCy/MNjH/kS49TCPoeX/KS9gaw+9RZjQejEtsPV
+aMKvjRWLWRVxexADyiJOPA6x1K0oL9bhWd0cYCXtKViQkmZb9KePDcAYtgolS6sg
+PDeZ0/OcnqEPisYSyRXsP/wKp0AIejmESDHVIboDYXoKxln5A4PNV7HIlEs1fxxd
+lBDEm8Dt+uoLPqGuvhUrxXh2HygOhl21ZCvbh9++R7D3jCuV79qLtfRrzKy7DdE0
+d14szK8VYabNNEDw9zQWTgn5
+=A/Jd
 -----END PGP SIGNATURE-----
 
---===============3473741614573306288==--
+--===============1309252301993130228==--
