@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1735889574285271385=="
+Content-Type: multipart/mixed; boundary="===============5153830585753938330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 16 Jul 2022 05:23:37 -0000
-Message-Id: <165794901704.4403.7304745994416016040@gitolite.kernel.org>
+Date: Sat, 16 Jul 2022 05:24:27 -0000
+Message-Id: <165794906716.4804.8308014231685221288@gitolite.kernel.org>
 
---===============1735889574285271385==
+--===============5153830585753938330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: a8755e9bdd6a416331e286cc25cddbd93b2c064a
     new: 6598a382bd34cce713d2dbe2aadd9496e7a7b643
     log: revlist-a8755e9bdd6a-6598a382bd34.txt
 
---===============1735889574285271385==
+--===============5153830585753938330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657949014 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1657949066 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1657949014-09b2bb62ef3f3a66879c024ec1137bd88ef1b4ea
+nonce 1657949065-c2ce5648bc3aa408ebd4bc1061a98beffaeb3def
 
-a8755e9bdd6a416331e286cc25cddbd93b2c064a 6598a382bd34cce713d2dbe2aadd9496e7a7b643 refs/heads/char-misc-next
+a8755e9bdd6a416331e286cc25cddbd93b2c064a 6598a382bd34cce713d2dbe2aadd9496e7a7b643 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLSS1YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vwgQALyI87ZBFeGkYYri99TT
-kM1lWRzrTgz3MNv0biqnG7JtkqNvuLkdacKfw08akqCSyMUAn8GR3eumu9h4CshP
-U0VAbHoZjFdgDyf27kLEfohD2eD11JYcG189CvAuAUTUT+mUNU+KnGJMGf8+qDjf
-RCs+32d0+wsiw261DA3JiruDRh6y12h84CuaDblhhEYG0gHn+xQdxHLImZaEmDTm
-hxnZZimxqgid/s4S7Ko2IOZgrTCJbKCSu1BEJjDeypFXI9DA5J0D3/dEFuL4Y4qq
-6yyfuJ2njrHO+g93+IuRiKmncPLuyyn3UpW6v81Gb/HguUsSj1+dJN+zB4ukzpMl
-pm8zNDLJKsJLB0aL/TA6Ghb/p4JrRUsxcGi0GmqWUeu5e9n6IWw7iGkjiinA0Y/H
-4iyUeSp50lm3Ke4Hw10KXNdMegAYr2dzZzPlkQNCwg9t900pgK4hd+c5vt56rLtA
-UWGEzj1WptJoSILSCxgxyxNQ3uwjfW5rAOWmwio1Ghriyuqkm+2kToQbXS6z99O9
-49oTdBK6nOIngoSfeoO3AwwfyMCx8WVb/+bn7b/cfVYryXdhcGWakWIhm2uqKRyP
-2O4+Z5UKyfqvqixmXfB44fYWduEV/ja6sQYTaiCl+we39r3NHTxO4ZFmYEWCn0MT
-adT5HNDaA0K0Br/gDWxFU4DY
-=OOkT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLSS4obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XC4P/AieV2L90a2yN/nwZ248
+RL2NJM5Si8K4WiuwxI5WwCwwGUAZIMXJapzAu/O6ARV+3yypLF42asiTxObJLHs4
+ZQxcbAg2a7tFbmb8tos16FI6m7eIahFbB0teCRbV5FDLr+BFxS/tJ53M1suIrCqB
+H6OPvFLErBJs1bsgKZghV8t4oS3kBaNDORd0x6Nh08ryJBmXmvLahDdtOPL7U61y
+4VD4p2jQZrGVIEbvrON2TCNsB4PUX1OWo4QoXHE+1n2DZpdX0JQmJIkii0WE/NUV
+/kRGKGeT43w8WR0I7MWBR5Sw1jWupwdK2x/KyASj6SOLub1r/I2fi4Gb3wPqwjyw
+RUU5jDFNUJd83EOUPXoKM9lBm3vhlnLGDYoCw9gXrULh4UHizsrajleujmcxWfvX
+DW8nxxaWImJcMuLJYTN31VLoGcuycMeQMBE/Y9dGDi1dsRwkEJXwHP23ai4/tdGO
+6uCXIHBMDFkFVmgwu23xXVO6HXGKI8O/do4o6V5PTK7gFfExIFC8BZcO+f/hU2zs
+Oz/2XZ8ua7q8FSO8yqc2PAPPcGvEW8jr3KDYIXVW0PrV6mXoHtciWaaNYRaRYLRx
+BNOsBxYP8jPQWZCUAyLZ930vvZ5OX8JzoyK43bTta+CDDlCaBKjwEdjDyk0hVNJ3
+q+/okka6Y/OPsWvgllyxadYb
+=iq8f
 -----END PGP SIGNATURE-----
 
---===============1735889574285271385==
+--===============5153830585753938330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ c14ec5c93dc8f6e05abee962243bda9dc104567b interconnect: imx: Add platform driver 
 009c963eefa058384052d32d5b06fbc738195bdb Merge branch 'icc-rpm' into icc-next
 6598a382bd34cce713d2dbe2aadd9496e7a7b643 Merge tag 'icc-5.20-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 
---===============1735889574285271385==--
+--===============5153830585753938330==--
