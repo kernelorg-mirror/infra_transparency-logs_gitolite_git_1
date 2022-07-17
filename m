@@ -1,67 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5530199077504469324=="
+Content-Type: multipart/mixed; boundary="===============0111898609456743239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sun, 17 Jul 2022 14:57:52 -0000
-Message-Id: <165806987229.6777.5900415816885946646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 17 Jul 2022 15:05:44 -0000
+Message-Id: <165807034496.12297.8315575492265224761@gitolite.kernel.org>
 
---===============5530199077504469324==
+--===============0111898609456743239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/fix-localtests
-    old: 648a85ed3af42a343938c3f0fa24806c90a0b0d3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: fbcef71c410864bedaf7ea29779adcfba09eda39
-    new: 648a85ed3af42a343938c3f0fa24806c90a0b0d3
-    log: |
-         03eb8f860a084f56434e4695090d547194324e75 tests: check for differ existence in compat-test.
-         06dd06ea2741a9779c0e6af488ccd0b9e7613f81 tests: allow unit-wipe-test to run with local tests.
-         0e4857ee81120ae71761a28a968f13fecae8f0f3 unit-wipe-test: Make skip() exit with status 77.
-         32149e4ee792f3722cf2a6eaeb0e9c72ee5f39fc blockwise-compat: Make skip() exit with status 77.
-         dc5f284e4298be9a9eaedda3ca90c786f251eae3 blockwise-compat: Wait a bit so scsi_debug has a chance to fully initialize.
-         6578dac2f958ace00a99bf5e859c231f27fbbf23 Add blockwise-compat to Makefile.localtest's list of tests.
-         b37d04975ddeda156d4940749b7b565e3944fd4a Add compat-test-args to Makefile.localtest's list of tests.
-         289d5e589171f350b5adbdca005982f7e0d04f43 Add unit-utils-crypt-test to Makefile.localtest's list of tests.
-         8f3884e0d756d94c8a2ca45f4941052f56c085e6 Change default target for Makefile.localtest.
-         648a85ed3af42a343938c3f0fa24806c90a0b0d3 Unify use of tabulators in tests.
-         
   - ref: refs/heads/master
-    old: 8315ada3b0c649f8ba5ec7aaa7e1b9eee4e24263
-    new: 648a85ed3af42a343938c3f0fa24806c90a0b0d3
-    log: revlist-8315ada3b0c6-648a85ed3af4.txt
-  - ref: refs/merge-requests/366/merge
-    old: 3fd7729abeec1092e88537709bdaaef37fc2e350
-    new: 9e313f62ce1322ca1cadca86a94a9fd38933d415
-    log: |
-         8315ada3b0c649f8ba5ec7aaa7e1b9eee4e24263 Fix wipe unit test if direct-io not available.
-         fbcef71c410864bedaf7ea29779adcfba09eda39 Pass $(LDFLAGS) when building fake_token_path.so.
-         9e313f62ce1322ca1cadca86a94a9fd38933d415 Merge branch 'grahamc-main-patch-69312' into 'main'
-         
+    old: 972a278fe60c361eb8f37619f562f092e8786d7c
+    new: 2eccaca7b62b2836260c6fb22156a44e3d99a74a
+    log: revlist-972a278fe60c-2eccaca7b62b.txt
 
---===============5530199077504469324==
+--===============0111898609456743239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8315ada3b0c6-648a85ed3af4.txt
+Content-Disposition: attachment; filename=revlist-972a278fe60c-2eccaca7b62b.txt
 
-fbcef71c410864bedaf7ea29779adcfba09eda39 Pass $(LDFLAGS) when building fake_token_path.so.
-03eb8f860a084f56434e4695090d547194324e75 tests: check for differ existence in compat-test.
-06dd06ea2741a9779c0e6af488ccd0b9e7613f81 tests: allow unit-wipe-test to run with local tests.
-0e4857ee81120ae71761a28a968f13fecae8f0f3 unit-wipe-test: Make skip() exit with status 77.
-32149e4ee792f3722cf2a6eaeb0e9c72ee5f39fc blockwise-compat: Make skip() exit with status 77.
-dc5f284e4298be9a9eaedda3ca90c786f251eae3 blockwise-compat: Wait a bit so scsi_debug has a chance to fully initialize.
-6578dac2f958ace00a99bf5e859c231f27fbbf23 Add blockwise-compat to Makefile.localtest's list of tests.
-b37d04975ddeda156d4940749b7b565e3944fd4a Add compat-test-args to Makefile.localtest's list of tests.
-289d5e589171f350b5adbdca005982f7e0d04f43 Add unit-utils-crypt-test to Makefile.localtest's list of tests.
-8f3884e0d756d94c8a2ca45f4941052f56c085e6 Change default target for Makefile.localtest.
-648a85ed3af42a343938c3f0fa24806c90a0b0d3 Unify use of tabulators in tests.
+0f5de2f0532229752d923c769a5b202ae437523b power: supply: ab8500_fg: add missing destroy_workqueue in ab8500_fg_probe
+80192eff64eee9b3bc0594a47381937b94b9d65a power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+093d27bb6f2d1963f927ef59c9a2d37059175426 power: supply: core: Fix boundary conditions in interpolation
+039d4ed3428cf9c2052048d177880ebd02104764 Input: usbtouchscreen - add driver_info sanity check
+12dc6adc49c9c491d830504e1e01b688ef789093 Input: wm97xx - make .remove() obviously always return 0
+3de93e6ed2df6521e3f68fb45eec0bb4fe1bb218 Input: goodix - call acpi_device_fix_up_power() in some cases
+2a96271fb66c499e4a89d76a89d3d01170c10bef Input: document the units for resolution of size axes
+7329b071729645e243b6207e76bca2f4951c991b gpio: sim: fix the chip_name configfs item
+396df7005ba0f02646e96e05456a14b52e0f02f4 Merge tag 'for-v5.19-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+8ad4b6fa0f874ec8ec6e92a90116e3ab43cded6c Merge tag 'input-for-v5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+2eccaca7b62b2836260c6fb22156a44e3d99a74a Merge tag 'gpio-fixes-for-v5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============5530199077504469324==--
+--===============0111898609456743239==--
