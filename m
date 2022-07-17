@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1532186861672299308=="
+Content-Type: multipart/mixed; boundary="===============5907972871131192979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 17 Jul 2022 10:55:51 -0000
-Message-Id: <165805535196.20717.9291528253272779594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sun, 17 Jul 2022 10:56:52 -0000
+Message-Id: <165805541207.21238.12865827422203416974@gitolite.kernel.org>
 
---===============1532186861672299308==
+--===============5907972871131192979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/sysreg-cleanup-5.20
-    old: c27b9ef64a84ebd61332627532195152b5723c99
-    new: 4274d42716d87d5301fdf67eb799e7db08fe73de
-    log: revlist-c27b9ef64a84-4274d42716d8.txt
+  - ref: refs/heads/next
+    old: aeb7942b64ccab88140542a92a6ac3ac5726e053
+    new: ae98a4a989935bb8e1431565e2eb86d7a19c2309
+    log: revlist-aeb7942b64cc-ae98a4a98993.txt
 
---===============1532186861672299308==
+--===============5907972871131192979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c27b9ef64a84-4274d42716d8.txt
+Content-Disposition: attachment; filename=revlist-aeb7942b64cc-ae98a4a98993.txt
 
 da8d120fbafe1d3217d25ac45493538b37cff87c KVM: arm64: Add get_reg_by_id() as a sys_reg_desc retrieving helper
 1deeffb559663dc44e4b8a61fe7e271fe3b4b836 KVM: arm64: Reorder handling of invariant sysregs from userspace
@@ -46,5 +46,6 @@ d7df6f282db67677c06456fd29d47eda0ba060b9 KVM: arm64: vgic: Use {get,put}_user() 
 f6dddbb25572218d2e8ab93bfdad20cddeb99b5a KVM: arm64: Get rid of find_reg_by_id()
 c5332898dc35bbed7d3aa02b491e3388315ee481 KVM: arm64: Descope kvm_arm_sys_reg_{get,set}_reg()
 4274d42716d87d5301fdf67eb799e7db08fe73de KVM: arm64: Get rid or outdated comments
+ae98a4a989935bb8e1431565e2eb86d7a19c2309 Merge branch kvm-arm64/sysreg-cleanup-5.20 into kvmarm-master/next
 
---===============1532186861672299308==--
+--===============5907972871131192979==--
