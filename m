@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Sun, 17 Jul 2022 04:57:46 -0000
-Message-Id: <165803386648.14971.13871788884808174060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Sun, 17 Jul 2022 05:14:51 -0000
+Message-Id: <165803489187.24714.11453838445328563348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/tags/input-for-v5.19-rc6
+  - ref: refs/tags/mm-everything-2022-07-17-05-14
     old: 0000000000000000000000000000000000000000
-    new: 6e1567dadd98a631a3e5ded64e19c5933c6f9a34
+    new: 6eaa555f8133ec98a23da07bd630d2b69626b4b1
