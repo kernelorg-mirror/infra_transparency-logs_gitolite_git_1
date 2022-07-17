@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2092538224291193323=="
+Content-Type: multipart/mixed; boundary="===============7143061487807012916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Sun, 17 Jul 2022 21:51:01 -0000
-Message-Id: <165809466111.1856.2968280862068750347@gitolite.kernel.org>
+Date: Sun, 17 Jul 2022 21:51:11 -0000
+Message-Id: <165809467128.2011.17574762469676030562@gitolite.kernel.org>
 
---===============2092538224291193323==
+--===============7143061487807012916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/uml/linux
 user: rw
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/linux-next
     old: 2a4a62a14be1947fa945c5c11ebf67326381a568
     new: af3e16101cee95efaa72095fe06c15ec0b8eb195
     log: revlist-2a4a62a14be1-af3e16101cee.txt
 
---===============2092538224291193323==
+--===============7143061487807012916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dda520d07b95072a0b63f6c52a8eb566d08ea897 um: add "noreboot" command line option 
 8970d5c9f4a95db6efa9158814b953bfa0bf1f5b um: Replace to_phys() and to_virt() with less generic function names
 af3e16101cee95efaa72095fe06c15ec0b8eb195 um: include sys/types.h for size_t
 
---===============2092538224291193323==--
+--===============7143061487807012916==--
