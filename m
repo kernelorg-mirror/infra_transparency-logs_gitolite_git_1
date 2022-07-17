@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Sun, 17 Jul 2022 12:54:54 -0000
-Message-Id: <165806249470.28512.699566615591533192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Sun, 17 Jul 2022 14:43:33 -0000
+Message-Id: <165806901394.29853.7011057695272050922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/mips-next
-    old: 8a2b456665d1e797123669581524cbb095fb003b
-    new: 466ab2ea239bb85b9fd2613e3e3eb5f6c2811602
+  - ref: refs/heads/review-hans
+    old: 5c8b3f11565e64366d53295e8004edaa1fcf1ec9
+    new: 7a4a04f4e90d746928501a6d551de87d02c28323
     log: |
-         c059ee9d77f866dbe74bd75a42eb46443a31a08b MIPS: CFE: Add cfe_die()
-         466ab2ea239bb85b9fd2613e3e3eb5f6c2811602 MIPS: BMIPS: Utilize cfe_die() for invalid DTB
+         7a4a04f4e90d746928501a6d551de87d02c28323 platform/surface: tabletsw: Fix __le32 integer access
          
