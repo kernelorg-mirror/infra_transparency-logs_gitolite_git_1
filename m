@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5154509776340819142=="
+Content-Type: multipart/mixed; boundary="===============3979679238466213866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 17 Jul 2022 23:46:03 -0000
-Message-Id: <165810156377.7673.3896719647881387389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 17 Jul 2022 23:46:10 -0000
+Message-Id: <165810157042.7826.18110197412025658860@gitolite.kernel.org>
 
---===============5154509776340819142==
+--===============3979679238466213866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 4fa2d37e4e0df7d6cdf393d32bab59abc4f00c3e
-    new: bebc50fb232689e970b00dd8839d32fd42733a63
-    log: revlist-4fa2d37e4e0d-bebc50fb2326.txt
+  - ref: refs/heads/queue-next
+    old: 2f9577132f4be5763204ae2234696b7196a4d421
+    new: 380ff078c5ad43376c657cc343680d9509554380
+    log: revlist-2f9577132f4b-380ff078c5ad.txt
 
---===============5154509776340819142==
+--===============3979679238466213866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fa2d37e4e0d-bebc50fb2326.txt
+Content-Disposition: attachment; filename=revlist-2f9577132f4b-380ff078c5ad.txt
 
 40dbac2c4b99925577429918691972f7db23d608 IB/mlx5: Add support for 400G_8X lane speed
 153c9d295ae822fb965684f7a2a4cced8da4b7ec net/mlx5e: Remove WARN_ON when trying to offload an unsupported TLS cipher/version
@@ -76,5 +76,6 @@ a1dd1454b7dacd9d87ef613f70c03b2de6bc1122 Merge branch 'patchq/501993' into mlx5-
 9a9ce374083570f11498b96fc35f623744c36696 Merge branch 'mlx5-queue' into net-next
 eea33ae63e8bcf20108b96a25a1f66a64d950cd7 Merge branch 'mlx4-for-net' into net-next
 bebc50fb232689e970b00dd8839d32fd42733a63 Merge branch 'mlx5-for-net' into net-next
+380ff078c5ad43376c657cc343680d9509554380 Merge branch 'net-next' into queue-next
 
---===============5154509776340819142==--
+--===============3979679238466213866==--
