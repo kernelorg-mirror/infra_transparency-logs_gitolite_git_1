@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1216074394870033294=="
+Content-Type: multipart/mixed; boundary="===============9036882794907711292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 17 Jul 2022 15:42:55 -0000
-Message-Id: <165807257529.2258.682262675317769018@gitolite.kernel.org>
+Date: Sun, 17 Jul 2022 15:45:30 -0000
+Message-Id: <165807273049.4680.9830499109917803226@gitolite.kernel.org>
 
---===============1216074394870033294==
+--===============9036882794907711292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 868988ec0ce50712fec5de6a5418f547f6fe0e10
-    new: 3d3eb24d19996546eb862c7bd15563ea816f4272
-    log: revlist-868988ec0ce5-3d3eb24d1999.txt
+  - ref: refs/heads/net-next
+    old: fbb84e645ecffed83efc79743bce152dd7d122a8
+    new: 4fa2d37e4e0df7d6cdf393d32bab59abc4f00c3e
+    log: revlist-fbb84e645ecf-4fa2d37e4e0d.txt
 
---===============1216074394870033294==
+--===============9036882794907711292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-868988ec0ce5-3d3eb24d1999.txt
+Content-Disposition: attachment; filename=revlist-fbb84e645ecf-4fa2d37e4e0d.txt
 
+c138ea8773bb8c8a96daef33d5c70db86afc0fac IB/mlx5: Add support for 400G_8X lane speed
+de4abe8a5a579ca8c62e4e63d51e2860cb2e5cc4 net/mlx5e: Remove WARN_ON when trying to offload an unsupported TLS cipher/version
+3c5352ee7459f0cbb5a1da7d29d7b24001990a9d Merge branch 'patchq/521784' into mlx5-for-net
 fcc94b83d450e959e438d42f0995e1442382d402 sched/topology: Expose sched_numa_find_closest
 ba6ec680495e4d6193b65860d95cf77483ca4463 net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
 6ca0a2ac9e21e84aa0e9cd9bfaf0b26dd6abc579 net/mlx5e: Expose rx_oversize_pkts_buffer counter
@@ -70,5 +73,8 @@ c78e5c6bfa2d82955077c559b0fc5b20276a0fc9 Merge branch 'patchq/467362' into mlx5-
 aaee32b6431926cb6a873d21e7c3510484481828 Merge branch 'patchq/505590' into mlx5-queue
 13593090735379ac0395903111fc9eb6acee16de Merge branch 'patchq/501993' into mlx5-queue
 3d3eb24d19996546eb862c7bd15563ea816f4272 Merge branch 'patchq/521485' into mlx5-queue
+9b66f0264c267e2a51fc8cb30c3e09f59471a8fe Merge branch 'mlx5-queue' into net-next
+cc729430418ca4b04a8a07e92b6411decf93bdf6 Merge branch 'mlx4-for-net' into net-next
+4fa2d37e4e0df7d6cdf393d32bab59abc4f00c3e Merge branch 'mlx5-for-net' into net-next
 
---===============1216074394870033294==--
+--===============9036882794907711292==--
