@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 18 Jul 2022 19:32:42 -0000
-Message-Id: <165817276274.14732.12308655470086177029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Mon, 18 Jul 2022 19:33:40 -0000
+Message-Id: <165817282025.15122.18106843436586503250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
   - ref: refs/heads/master
-    old: f7ba9867c6ea8151a1d066fc74c10c02be4966f2
-    new: 32e9c11be35c606ab2a735b8cd1b33b2eab18a3d
+    old: fbdaa5ba6bd6955f7e7f9228e4d815cc5e43fe5b
+    new: d90fdb9138262e2c68e4305965348dc065f5c7a3
     log: |
-         32e9c11be35c606ab2a735b8cd1b33b2eab18a3d Mon Jul 18 07:32:02 PM UTC 2022
+         d90fdb9138262e2c68e4305965348dc065f5c7a3 net/ieee802154: fix repeated words in comments
          
