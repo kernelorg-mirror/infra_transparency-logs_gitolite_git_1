@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 18 Jul 2022 10:31:46 -0000
-Message-Id: <165814030694.29962.2949461372632568398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Mon, 18 Jul 2022 10:35:53 -0000
+Message-Id: <165814055389.32727.10939786171591866732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: da53af8cb9329797dfd12f9034adafc4a1e01620
-    new: 6e693a104207fbf5a22795c987e8964c0a1ffe2d
+  - ref: refs/heads/dev
+    old: a8ec0c177950b4488551db083ed5aa02e0193d76
+    new: bb69462d2ce5a922d20c62adbe34a06e9e0415de
     log: |
-         6e693a104207fbf5a22795c987e8964c0a1ffe2d atl1c: use netif_napi_add_tx() for Tx NAPI
+         bb69462d2ce5a922d20c62adbe34a06e9e0415de platform/chrome: cros_kbd_led_backlight: fix build warning
          
