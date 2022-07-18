@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4806315020932901203=="
+Content-Type: multipart/mixed; boundary="===============4600198659574396780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 18 Jul 2022 20:21:55 -0000
-Message-Id: <165817571594.12728.10974031853042282272@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 20:22:15 -0000
+Message-Id: <165817573586.12901.6794006074109255405@gitolite.kernel.org>
 
---===============4806315020932901203==
+--===============4600198659574396780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: c74f6f033e9b10e89a71b4923b737412226cd24d
-    new: 6f6ecd46902059f00e1191a5d2adc8cac066bbf1
-    log: revlist-c74f6f033e9b-6f6ecd469020.txt
+  - ref: refs/heads/m68k-queue
+    old: 24a5374ac5fd4c21dddf6f29189f0a707bbc028b
+    new: d863513c3bd537f1770970e79ab78560e5cf1c57
+    log: revlist-24a5374ac5fd-d863513c3bd5.txt
 
---===============4806315020932901203==
+--===============4600198659574396780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c74f6f033e9b-6f6ecd469020.txt
+Content-Disposition: attachment; filename=revlist-24a5374ac5fd-d863513c3bd5.txt
 
 16bc4d196b2a8960cac3bdfd4c98d72c44ab043b arm64: dts: rockchip: Fix ethernet on production Quartz64-B
 0f5de2f0532229752d923c769a5b202ae437523b power: supply: ab8500_fg: add missing destroy_workqueue in ab8500_fg_probe
@@ -474,6 +474,21 @@ ced7866db39fc5c59ee05e154d4abc0977a17f6b drm/i915/ttm: fix 32b build
 f7f4da303dd8946228860e78bd7f36c2cc47a636 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 55ea9bd666887ed4159df38d1494c204246cf2bc Merge tag 'drm-intel-fixes-2022-07-17' of git://anongit.freedesktop.org/drm/drm-intel
 ff6992735ade75aae3e35d16b17da1008d753d28 Linux 5.19-rc7
-6f6ecd46902059f00e1191a5d2adc8cac066bbf1 Merge tag 'v5.19-rc7'
+b11f19cfd048aeeff32cfc34424495e1a5e53003 m68k: virt: Kconfig minor fixes
+0adfd6216d33e80344830c6957eaf6eb09feea4d m68k: mac: Fix typos in comments
+77c1daaa01b1a0a33eb5803ada12797de01fa678 m68k: sun3: Use __func__ to get function's name in an output message
+c37a76676d277041262db8ade67173a359fdbf91 m68k: q40: Align '*' in comments
+e9962d36040f83779343843ceacdddc0d9f70c80 m68k: Kconfig.cpu: Fix indentation and add endif comments
+555411e3136cb4175457627a2fc25d7a1a3de661 m68k: Kconfig.debug: Replace single quotes
+d1e66546da42a86f977528394c19a26836684b7a m68k: Kconfig.machine: Add endif comment
+4838ea83a9619105674d63fc551f591a41cbbc87 m68k: bitops: Change __fls to return and accept unsigned long
+ff7c2bfc6f189a50137a99461b44d9ce2a9c4d33 m68k: virt: Use RNG seed from bootinfo block
+ea3d53625fb7e8884295b890d36c4fe3b3843203 m68k: virt: Fix missing platform_device_unregister() on error in virt_platform_init()
+b2b1e786d8786b92e00ed38f29dcbbc080e7ac5d m68k: sun3: Fix spelling mistake
+69c0552fd2c4d5fa4a161e48b77fdbf459606a05 m68k: mac: Remove forward declaration for mac_nmi_handler()
+f00c813831026a236b39a3fa9b7b36a99ed5fbe8 m68k: Add common forward declaration for show_registers()
+c3a8a76063994d4be912b85d9eb2e31b41362ca9 m68k: atari: usb: Add ISP1160 USB host controller support
+986874b950e621508fc41a6a4e139f5346c00700 m68k: atari: Update Kconfig.bus help text
+d863513c3bd537f1770970e79ab78560e5cf1c57 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4806315020932901203==--
+--===============4600198659574396780==--
