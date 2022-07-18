@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 18 Jul 2022 12:37:36 -0000
-Message-Id: <165814785648.12230.14618790513850291395@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 12:38:06 -0000
+Message-Id: <165814788641.12460.8161015329621491407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20220715_pierre_louis_bossart_asoc_sof_intel_updates_and_cleanups
+  - ref: refs/heads/fileXGTiGb
     old: 0000000000000000000000000000000000000000
-    new: 46fb6e051a845ec9d53387f4c088239cb945ac21
+    new: 5d375f1368a21521cad914c4a157a4190ae3f003
