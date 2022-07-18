@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1716406682273815100=="
+Content-Type: multipart/mixed; boundary="===============6845177041408279641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 18 Jul 2022 15:39:38 -0000
-Message-Id: <165815877866.29733.9061323763822355466@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 15:40:26 -0000
+Message-Id: <165815882672.31560.8376107495008342842@gitolite.kernel.org>
 
---===============1716406682273815100==
+--===============6845177041408279641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 11052589cf5c0bab3b4884d423d5f60c38fcf25d
     new: c32349f3257f329a01e776e02b577bf7af97f30b
     log: revlist-11052589cf5c-c32349f3257f.txt
 
---===============1716406682273815100==
+--===============6845177041408279641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ ea7006a7aaee54a8861e0bfd5cf6a8495fb998a7 docs: net: dsa: re-explain what port_fd
 7b02f40350f1b8011f724a052dcb0849cffa6c38 docs: net: dsa: mention that VLANs are now refcounted on shared ports
 c32349f3257f329a01e776e02b577bf7af97f30b Merge branch 'dsa-docs'
 
---===============1716406682273815100==--
+--===============6845177041408279641==--
