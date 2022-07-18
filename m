@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6206718295912700809=="
+Content-Type: multipart/mixed; boundary="===============5604412459577072974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 18 Jul 2022 06:41:03 -0000
-Message-Id: <165812646374.6707.14230322947339022147@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 06:41:14 -0000
+Message-Id: <165812647498.6856.11223282406115250971@gitolite.kernel.org>
 
---===============6206718295912700809==
+--===============5604412459577072974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,60 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+  - ref: refs/heads/tty-linus
+    old: a501ab75e7624d133a5a3c7ec010687c8b961d23
     new: ff6992735ade75aae3e35d16b17da1008d753d28
-    log: revlist-a111daf0c53a-ff6992735ade.txt
+    log: revlist-a501ab75e762-ff6992735ade.txt
 
---===============6206718295912700809==
+--===============5604412459577072974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658126462 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658126473 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1658126462-023597baace6faf4463ba6a28000e310e06e7a6d
+nonce 1658126470-37692051ff35cbe7264500d8ac123a36d85560ef
 
-a111daf0c53ae91e71fd2bfe7497862d14132e3e ff6992735ade75aae3e35d16b17da1008d753d28 refs/heads/main
+a501ab75e7624d133a5a3c7ec010687c8b961d23 ff6992735ade75aae3e35d16b17da1008d753d28 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLVAH4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q7IP/2+d52ymUhKK8cpPCh1Y
-vbQFEgYyhAnXtDLwHAcfmeR5c2mBkHNqv5xQucdhXt3BZcKqfHSKGAJIwjFWvws6
-H01uhETOcyZTpjsc/4S4QFXh088PwndvyBJMB956wlWoI4l6FmurBHQetvqmzIWj
-E2dskp3vX68YEjzAVNIRK4a9aVlG1n6b9jBfs6hrPL3jADBu7d/Pv2Jv93In9ElU
-cOgKSwsP4en7MDB2HEXyLrWIUVXEemy4PhN0T52emwW9pRDoX4DcYzvgtSLdgJJq
-RifLqFUE8PgnzG7y2RylJDPwsnLRs1tCh9+2aTHs5re4GbjYNK91gujUYwVQIcIU
-o3ITLGepo+rSRJGdYl1HxoFkK6E24p+ws4Ug72yuxdKNW51MacONEnqleS9RtTs9
-icOXpVXjPIK7PmU/DXNI1JwSCBLS2OB0O25AMMxfcrAFe2VIFFPKXi9GxuIxCq5q
-BobilCvVhNoM0K62+8BoNbK+PkhxWPDWefFrrWNfdcVDxiZskMXPhAGOnCIX3WDU
-fQN/7ik+aliQ8xbFD2pMAu9hb5pCGgcvJcpDDwtJ0wOKvvMiMtukK6FZab7oT9kx
-Kn22sDfOGAiSN1Faob3owZWsJYBkx5xpA3H0YpwkwBxIVCnhDq7zWfPVkndQUFQ+
-DfMlXTNtJrnIqhvu9H1fXbzt
-=OoM9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLVAIkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hfwP/ie7o0P6c+3sILHeJHwl
+Syq0pQxcpodlyhxKvEL/BJyGm6SuLyxka/ogiV3NYWgH6nTcd23LZ/q3SePXYS/t
+9wo00hADXGLKS5kIqDScYT1+q3r/vy+fLr8cAF14qpkCjOuuge1vXPt+Mk5rfzLI
+Y5SHqCdRgCm2flUXhXuCbY9TSv9likb0PpqUuBiaxxcOzrzBRxE7Cmgppap5mlKj
+H5dqvGeWtfRELnuFhvXpecgm/xprU1J2ef/JO+40SSj7ZZ62ANWS71M2GPPANKD1
+HnRXRMDC9iPIgWrqIS78uN0TS1K5gHJTpfHpZbZp7Im0oDVS8gvqTmJYO3i+9RxE
+d4xJ7Z7X0BrXcjQZavNgQI+tYKflqE4aCVSn4dkT+d5/gZtvekEvsj8kfTQyXMe8
+d8odztGTlL56bdcu1kkgLAsvYPS/lMHqfgexgZFQ2nN0Rl7pSAEuDaFI+AGbn5jT
+W2f+S6/SRcGdmoOBxEd74mg3vlwiHuCB1Exbg5ahfL7Y7r711MhFyggLsna7oj7G
++YH94C3zTULY4oeS+VkJi+trGIQfTjYpwHRpdxgUQ80j//PU5HY0TnxczA0drrCm
+0F6TzEtc5SZVO0lNSczGHBQDHxc6OM43Jfm7vkPQRQ4NST/hcY81pW1fjKIi+iKg
+1BKfVQQJvINhjAWdXmNKYRd6
+=X0ko
 -----END PGP SIGNATURE-----
 
---===============6206718295912700809==
+--===============5604412459577072974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a111daf0c53a-ff6992735ade.txt
+Content-Disposition: attachment; filename=revlist-a501ab75e762-ff6992735ade.txt
 
+b54034a73baf9fe31fb3f218c17bd5308a27a1ca cifs: during reconnect, update interface if necessary
+6e1c1c08cdf3d7d7b8c571c0f032a283af6ca024 cifs: periodically query network interfaces from server
+386228c694bf1e7a7688e44412cb33500b0ac585 net: dsa: qca8k: reset cpu port on MTU change
+85467f7da18992311deafdbf32a8d163cb1e98d7 net: dsa: qca8k: reduce mgmt ethernet timeout
+4e0effd9007ea0be31f7488611eb3824b4541554 igb: Make DMA faster when CPU is active on the PCIe link
+448ad88f8011af77e0960fd011039e525fcb7cde Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+8af52fe9fd3bf5e7478da99193c0632276e1dfce virtio_net: fix xdp_rxq_info bug after suspend/resume
+1b205d948fbb06a7613d87dcea0ff5fd8a08ed91 Revert "net/tls: fix tls_sk_proto_close executed repeatedly"
+e34a07c0ae3906f97eb18df50902e2a01c1015b6 sock: redo the psock vs ULP protection check
+12378a5a75e33f34f8586706eb61cca9e6d4690c net: openvswitch: fix parsing of nw_proto for IPv6 fragments
+15b694e96c31807d8515aacfa687a1e8a4fbbadc USB: serial: option: add Quectel RM500K module support
+41f38043f884c66af4114a7109cf540d6222f450 nvme: add a bogus subsystem NQN quirk for Micron MTFDKBA2T0TFH
+23c9cd56007e90b2c2317c5eab6ab12921b4314a nvme: fix the CRIMS and CRWMS definitions to match the spec
 e6487833182a8a0187f0292aca542fc163ccd03e nvme: move the Samsung X5 quirk entry to the core quirks
 3be4562584bba603f33863a00c1c32eecf772ee6 dma-direct: use the correct size for dma_set_encrypted()
 dbe97cff7dd9f0f75c524afdd55ad46be3d15295 xen/gntdev: Avoid blocking in unmap_grant_pages()
@@ -332,12 +345,7 @@ ed7ac37fde33ccd84e4bd2b9363c191f925364c7 virtio_mmio: Add missing PM calls to fr
 e0c2ce8217955537dd5434baeba061f209797119 virtio_mmio: Restore guest page size on resume
 037d4305569aacaa018a617771dccbb81cc60257 vhost-vdpa: call vhost_vdpa_cleanup during the release
 c7cc29aaebf9eaa543b4c70801e0ecef1101b3c8 virtio_ring: make vring_create_virtqueue_split prettier
-cd16044d7c38d76fe2f9b71a06619e9590e3e401 serial: 8250: dw: enable using pdata with ACPI
-f7e35e4bf1e8dc2c8cbd5e0955dc1bd58558dae0 tty: serial: samsung_tty: set dma burst_size to 1
-211565b100993c90b53bf40851eacaefc830cfe0 serial: pl011: UPSTAT_AUTORTS requires .throttle/unthrottle
-f8d6e9d3ca5c68e24dd485132a93d49abd444eaf serial: 8250: Fix __stop_tx() & DMA Tx restart races
 5f701324c0fb6f9f5aaac3f8d1575321375f6d8f drm/vc4: perfmon: Fix variable dereferenced before check
-ec5ad331680c96ef3dd30dc297b206988023b9e1 tty: Add N_CAN327 line discipline ID for ELM327 based CAN driver
 a27a1e35f5c87463ba7c12d5b7d7cbafbefc9213 platform/x86: ideapad-laptop: Add allow_v4_dytc module parameter
 8853e8ce9b576e0a3aad8381e19a117964d445fa platform/x86: ideapad-laptop: Add Ideapad 5 15ITL05 to ideapad_dytc_v4_allow_table[]
 19e506b317497a8c2b3ec2f12314d355d2f00ad0 eeprom: at25: Rework buggy read splitting
@@ -486,12 +494,6 @@ b9a56c113f907b19b91dc5c2383b0169831e15a4 s390/purgatory: hard-code obj-y in Make
 20159e287a031bd6a28429675ccc66b06372fa3c s390/purgatory: remove duplicated build rule of kexec-purgatory.o
 29c1ac230e6056b26846c66881802b581a78ad72 io_uring: keep sendrecv flags in ioprio
 589cb2c0b8daf4fd03e7012c00a52804769e7699 Merge tag 'devfreq-fixes-for-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-5c5f44e36217de5ead789ff25da71c31c2331c96 serial: stm32: Clear prev values before setting RTS delays
-6e690d54cfa802f939cefbd2fa2c91bd0b8bd1b6 serial: 8250: fix return error code in serial8250_request_std_resource()
-f9b11229b79c0fb2100b5bb4628a101b1d37fbf6 serial: 8250: Fix PM usage_count for console handover
-4f532c1e25319e42996ec18a1f473fd50c8e575d serial: mvebu-uart: correctly report configured baudrate value
-39cdb68c64d84e71a4a717000b6e5de208ee60cc vt: fix memory overlapping when deleting chars in the buffer
-b941e487152e0909ef43faacae6eeee266d9b378 serial: 8250: dw: Fix the macro RZN1_UART_xDMACR_8_WORD_BURST
 f5da5ddf81ad0bfb91fa5e7d087e2ad96f26b7b7 Merge tag 'v5.19-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 9fb3bb25d15326464e2183a5eb4b1ea8725d560c Merge tag 'fsnotify_for_v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 1a0e93df1e107dc766fdf86ae88076efd9f376e6 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
@@ -806,8 +808,6 @@ dd44f04b9214adb68ef5684ae87a81ba03632250 cipso: Fix data-races around sysctl.
 6fb9e1d94789e8ee5a258a23bc588693f743fd6c usb: typec: add missing uevent when partner support PD
 3d0dc539029b09fbd125444c16b11a8ed10b9d0f usb: gadget: uvc: fix changing interface name via configfs
 bb160ee61c04fe96f3cc0088ef1907214861dccc drivers/usb/host/ehci-fsl: Fix interrupt setup in host mode.
-716b10580283fda66f2b88140e3964f8a7f9da89 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-a501ab75e7624d133a5a3c7ec010687c8b961d23 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 4a47c6385bb4e0786826e75bd4555aba32953653 ovl: turn of SB_POSIXACL with idmapped layers temporarily
 2dc94f06127f306201b10617df54ea7f265bcce9 Merge tag 'tee-fixes-for-v5.19' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
 2fdf15b50a46e366740df4cccbe2343269b4ff55 ARM: dts: at91: sama5d2: Fix typo in i2s1 node
@@ -1082,4 +1082,4 @@ f7f4da303dd8946228860e78bd7f36c2cc47a636 Merge tag 'perf-tools-fixes-for-v5.19-2
 55ea9bd666887ed4159df38d1494c204246cf2bc Merge tag 'drm-intel-fixes-2022-07-17' of git://anongit.freedesktop.org/drm/drm-intel
 ff6992735ade75aae3e35d16b17da1008d753d28 Linux 5.19-rc7
 
---===============6206718295912700809==--
+--===============5604412459577072974==--
