@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8881579738626766886=="
+Content-Type: multipart/mixed; boundary="===============2388039377342908523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 18 Jul 2022 15:20:06 -0000
-Message-Id: <165815760688.18079.2735645897454760874@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 15:20:14 -0000
+Message-Id: <165815761441.18204.13443634867491117055@gitolite.kernel.org>
 
---===============8881579738626766886==
+--===============2388039377342908523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8f3184b951164131a8b35770f225082cc02008be
-    new: c32349f3257f329a01e776e02b577bf7af97f30b
-    log: revlist-8f3184b95116-c32349f3257f.txt
+  - ref: refs/heads/dev-queue
+    old: 891077ff1f600d050482ef3b58aed358a0bb3ca9
+    new: aff0bd4ab97d3327ee4cbd4a7a7bba6bb1085914
+    log: revlist-891077ff1f60-aff0bd4ab97d.txt
 
---===============8881579738626766886==
+--===============2388039377342908523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f3184b95116-c32349f3257f.txt
+Content-Disposition: attachment; filename=revlist-891077ff1f60-aff0bd4ab97d.txt
 
 b49feacbeffc7635cc6692cbcc6a1eae2c17da6f e1000e: Enable GPT clock before sending message to CSME
 6cfa45361d3eac31ba67d7d0bbef547151450106 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
@@ -68,5 +68,27 @@ ea7006a7aaee54a8861e0bfd5cf6a8495fb998a7 docs: net: dsa: re-explain what port_fd
 6ba1a4aa5974f8a47e6322cecc965e6357b58d80 docs: net: dsa: delete misinformation about -EOPNOTSUPP for FDB/MDB/VLAN
 7b02f40350f1b8011f724a052dcb0849cffa6c38 docs: net: dsa: mention that VLANs are now refcounted on shared ports
 c32349f3257f329a01e776e02b577bf7af97f30b Merge branch 'dsa-docs'
+7637628f0e6d2a1838ae15e358b51b8c60ef2289 ice: prevent low-core machines crashing on DCB config
+9d4a4f9f6ade55b5a36a58e502dec25eb0c0955c i40e: Fix interface init with MSI interrupts (no MSI-X)
+b49bcdc2f3068fe043b4ea64cf81267facf02b1b iavf: Fix VLAN_V2 addition/rejection
+bac34d7dd1e005c058050a6783122a65285a28f3 iavf: Fix max_rate limiting
+740d3882341f94dc5aa6150c13a4824713347160 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+382b291593b29aa9b6625233746ac9529d1ec2ed iavf: Fix missing state logs
+993f79d37882af397b098d4397af9f2a60cb5ebd iavf: Fix 'tc qdisc show' listing too many queues
+b9356e1f06ba9ddc146afc3ea71d0eb2985dc0ac iavf: validate dest MAC and VLAN from tc-filter code path
+185a1bb1c344b3cb6f42e0e714a28258a14da059 iavf: enable tc filter configuration only if hw-tc-offload is on
+2441ae50e00df3c820504e08109222125c19662b i40e: Fix erroneous adapter reinitialization during recovery process
+14d3eb509433ecb38d579bab4c5eff3f84dc60d3 iavf: Fix reset error handling
+9469a3555fc79a2b16f331f0ed787496aa53bdd6 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+f521e62ac09f5fb704a68652f26847e6b17711b3 iavf: Fix adminq error handling
+9531bd073c521aa0ea35a4b3e11352af2cbd0ebb iavf: Fix handling of dummy receive descriptors
+efcd97064e745d3e682251d4b8b1e1f8b468ed0b ice: Fix max VLANs available for VF
+d7a0595d670ae4152eccae55d751384c4e3ad203 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+0f1d4ca816693592b116eae47e3686b9249d99e8 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+5589515ea68123abdc8c06a09eacc12bc0957d8c ice: do not setup vlan for loopback VSI
+c396788666a1c3d84d498125b77bf00ece096eab ice: Fix double VLAN error when entering promisc mode
+73733c8a04669cf702e68556780b9a840c5ce2e8 ice: Ignore -EEXIST when setting promisc mode
+1ceaf4aeac0858a202def4fe52cb840c98576398 ice: Fix clearing of promisc mode with bridge over bond
+aff0bd4ab97d3327ee4cbd4a7a7bba6bb1085914 ice: xsk: use Rx ring when picking NAPI context
 
---===============8881579738626766886==--
+--===============2388039377342908523==--
