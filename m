@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============4720861257137954103=="
+Content-Type: multipart/mixed; boundary="===============4173083687451706109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 18 Jul 2022 15:34:47 -0000
-Message-Id: <165815848759.26138.1583082945853411637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 18 Jul 2022 15:36:34 -0000
+Message-Id: <165815859411.28218.16624578634927674593@gitolite.kernel.org>
 
---===============4720861257137954103==
+--===============4173083687451706109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 2acd1022549e210edc4cfc9fc65b07b88751f0d9
+  - ref: refs/heads/master
+    old: 459f326e995ce6f02f3dc79ca5bc4e2abe33d156
     new: 6e693a104207fbf5a22795c987e8964c0a1ffe2d
-    log: revlist-2acd1022549e-6e693a104207.txt
+    log: revlist-459f326e995c-6e693a104207.txt
 
---===============4720861257137954103==
+--===============4173083687451706109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2acd1022549e-6e693a104207.txt
+Content-Disposition: attachment; filename=revlist-459f326e995c-6e693a104207.txt
 
+e68c5dcf0aacc48a23cedcb3ce81b8c60837f48c net: ipv4: new arp_accept option to accept garp only if in-network
+aaa5f515b16b6b3e137779ffb4c9558bb58c1e75 net: ipv6: new accept_untracked_na option to accept na only if in-network
+0ea7b0a454ca1839acddc37c4cf802f0e0d5fb5f selftests: net: arp_ndisc_untracked_subnets: test for arp_accept and accept_untracked_na
+2acd1022549e210edc4cfc9fc65b07b88751f0d9 Merge branch 'net-ipv4-ipv6-new-option-to-accept-garp-untracked-na-only-if-in-network'
 6d52e2de6415b7a035b3e8dc4ccffd0da25bbfb9 net/smc: remove redundant dma sync ops
 0ef69e788411cba2af017db731a9fc62d255e9ac net/smc: optimize for smc_sndbuf_sync_sg_for_device and smc_rmb_sync_sg_for_cpu
 4bc5008e4387106215b50ae1a4ac2467455725ca net/smc: Introduce a sysctl for setting SMC-R buffer type
@@ -48,4 +52,4 @@ fd18d5f132bfcdb67a82b477ea9ddc6df6e6ce73 Merge branch 'tls-rx-avoid-skb_cow_data
 da53af8cb9329797dfd12f9034adafc4a1e01620 net: dsa: microchip: fix Clang -Wunused-const-variable warning on 'ksz_dt_ids'
 6e693a104207fbf5a22795c987e8964c0a1ffe2d atl1c: use netif_napi_add_tx() for Tx NAPI
 
---===============4720861257137954103==--
+--===============4173083687451706109==--
