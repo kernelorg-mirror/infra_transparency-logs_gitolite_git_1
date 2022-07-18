@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 18 Jul 2022 06:12:32 -0000
-Message-Id: <165812475221.24738.3210622697096309971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 18 Jul 2022 06:35:04 -0000
+Message-Id: <165812610419.6703.3730698141744905610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/dev
-    old: 4ae146eae159c3162892e289a620d8934a4ec1a4
-    new: a8ec0c177950b4488551db083ed5aa02e0193d76
+  - ref: refs/heads/at91-fixes
+    old: 2fdf15b50a46e366740df4cccbe2343269b4ff55
+    new: ef0324b6415db6742bd632dc0dfbb8fbc111473b
     log: |
-         a8ec0c177950b4488551db083ed5aa02e0193d76 platform/chrome: cros_kbd_led_backlight: fix build warning
+         ef0324b6415db6742bd632dc0dfbb8fbc111473b ARM: dts: lan966x: fix sys_clk frequency
          
