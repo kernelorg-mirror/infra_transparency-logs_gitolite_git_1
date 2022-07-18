@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 18 Jul 2022 16:35:05 -0000
-Message-Id: <165816210595.2249.399791156971139102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Mon, 18 Jul 2022 16:35:34 -0000
+Message-Id: <165816213469.2481.9699376907491880254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/testing
-    old: f31aaa96ca2fd920c42faa010f4fe1a8f0481e42
-    new: c7bb57e051d06a0241687e575a14d9e7edc26489
+  - ref: refs/heads/main
+    old: 6e2fb80439d522aa2cf39d306f4051a578bbd722
+    new: 325f706ba7087b0aee6d66160fc1305d172e1e83
     log: |
-         c7bb57e051d06a0241687e575a14d9e7edc26489 iio: Be consistent with allocation result tests.
+         291898c5ff881d0dc5d947031def0528101476cb uapi: add vdpa.h
+         325f706ba7087b0aee6d66160fc1305d172e1e83 uapi: add virtio_ring.h
          
