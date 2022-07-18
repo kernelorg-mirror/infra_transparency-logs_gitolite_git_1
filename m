@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4218722631932260597=="
+Content-Type: multipart/mixed; boundary="===============7683170593064189040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Jul 2022 15:55:20 -0000
-Message-Id: <165815972006.9418.5014223187521394324@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 15:55:50 -0000
+Message-Id: <165815975057.9670.153966638695220075@gitolite.kernel.org>
 
---===============4218722631932260597==
+--===============7683170593064189040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,117 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: e8b2a9c3318357b7661c6075acdb723587def656
-    new: 7e891ca4fbed75e8d86f1221c9b3f8151a0e847c
-    log: revlist-e8b2a9c33183-7e891ca4fbed.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 6584107915561f860b7b05dcca5c903dd62a308d
+    new: 1cdb21e73aae84f13cf9ef22c95eb2128b256d1e
+    log: revlist-658410791556-1cdb21e73aae.txt
 
---===============4218722631932260597==
+--===============7683170593064189040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658159716 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658159745 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1658159715-d3843724b67ca7337fbbcef8cb4fcc3b4a08c297
+nonce 1658159744-0fa4e7624f0f8250835126affba74d4dad68f5b1
 
-e8b2a9c3318357b7661c6075acdb723587def656 7e891ca4fbed75e8d86f1221c9b3f8151a0e847c refs/heads/linux-4.19.y
+6584107915561f860b7b05dcca5c903dd62a308d 1cdb21e73aae84f13cf9ef22c95eb2128b256d1e refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLVgmQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tPQQAL/g8rhrOHYT+K4W6Bfa
-Lnwis4ge2DcOYMzXFfu5gZBhYex8ZvK458ElM//stYKCyg2Ucy32v8AEYOU4hmj9
-AoO1AiJPj7DVM/bSVIiUx74qJAiVsSwottPgAJKSIDWeKHPztgm/89EKSin9/u6u
-bXaPkS/Qn18EV9ntYmRRx3Mw69+I9R0lNFv1gjKJlYAafwz/FVbHeUk/6BTIPq2/
-jjDV6tW6emOGZw1gu2LbBpBmexP8cLovvXAwBsATCXExsGRHoNM5lFeIdmvySJt/
-IMiGacRwlo5614ODieEPjH2yUgP8FOS89KAm45ipZCnfgT8p/gdLMxngy5VgYTSQ
-MZaCi75MJsSWNSTCViSva7gQqyIn/amIlmzdulORzNBCTZ6ZQe7gkuoeZ6jJ7zhe
-KARWQ+e1mfnBFdqaT/eStG83dGrELdS0Dcs68R+4wW/ZmHcJU7+vQq9THnz3yrRu
-vgqpwov28H0kiYxSCA1JwnTvWo0NhhJfqgAJIF5IRCdMEJ/d3RbCUdIkd87b+fSs
-gV/8xMqPNt6hBeB/OcPcgdzFfzljEncCXtsYjDj83fQ/02hzX9H4JKzrkLkzZcSN
-c3CMPpAb/Nb10/6NsVH4pJPNrBbZvHHJATpjfhT9pM0+GlCXiE10UiW3+z29Vyme
-Zc62JOEVnKnf4qqu/Ir6VYt/
-=8JTJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLVgoEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+flwQAI3ujRdcNu/CoAayaOZv
+Ian2/p7TlP3CRO2vTFHno7ZTycMsLSmtXdNM8/qo/4gplEKYfyE+eEHNInPtipt+
+Rr28UltE75tEI9sYrnmIrViTsSXNYiZTSB4rzp0HSZjtQ9m46kTUVHLS4GDlsrT3
+CTrepSlV7/dlYmbyrazx9U0qoBj5Y+xh4pFPj16PWgzZFXs7fiWn9Ju0OkL0hXrU
+DKj9Jx8qp+PYn3hszSQs9XoY4gb7BkRbf1qqCuAA1bWudVyNlH45FZPA1xGwn2Up
+kbZokG8b5O/SCuOsjE2vaTyftvICyPmKCkQ9Njlr/eWba2m/wyqcPpa/USUKmtyg
+n8S0o6CjPsok8M4uRnk7JXLTALJ8Mmz8VWpVTZFlq3hxLQYB5ThQWh1kgLUhvtIs
+Ds2ZodGmjbuJJdjjycQaDOj8mtspgm4xb5eEE+yHtcpR/sjhYsgMDMZGZrCvdz2p
+BMzqxiVSkop0Q61QCCgpfzbfGaQ+w32oV4ofbaUW0WZgkaewHKLWLRe/00TTKXPa
+vQ9bzZF6rHU/nL/Al25HYq7XtTLndRW0vrJFakMMb3Djksk4E8AqbW8EKkerfbuZ
+TvIboKyG1lDYFfTJYa1Bbaw58cGuMQhqOARgf86AuOdB8awq+j67vonuRW8b+wc8
+COwvTq7zM54k0YzpYtrcXWZi
+=VjH0
 -----END PGP SIGNATURE-----
 
---===============4218722631932260597==
+--===============7683170593064189040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8b2a9c33183-7e891ca4fbed.txt
+Content-Disposition: attachment; filename=revlist-658410791556-1cdb21e73aae.txt
 
-6b4fe29022a574163a7ebdd9de189fc6b3088086 ALSA: hda - Add fixup for Dell Latitidue E5430
-56292be0137cd5071104a8a39451c667aae69efa ALSA: hda/conexant: Apply quirk for another HP ProDesk 600 G3 model
-f4c174d12f62cd771e4e84d769d931a3b948ba25 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc221
-d72d2b3718d0cf7a7a0eea8ff23a8e29f6f51ac8 xen/netback: avoid entering xenvif_rx_next_skb() with an empty rx queue
-fe735cb99c6021d9edac8dcd71206f20ce72b40b tracing/histograms: Fix memory leak problem
-47d0c7852b570a1d9977aec4e8a473784c6d3339 net: sock: tracing: Fix sock_exceed_buf_limit not to dereference stale pointer
-9e3220fa1fb6c5cc582f4297e91376fb606ed3f7 ARM: 9213/1: Print message about disabled Spectre workarounds only once
-95948338b4d7177086756e6eff5e9b8c73c5343f ARM: 9214/1: alignment: advance IT state after emulating Thumb instruction
-ba1a1db031cac0ed84bbb3badddd29774e2f1574 cgroup: Use separate src/dst nodes when preloading css_sets for migration
-09032188139aa1fd14bc90434313cb7839cc854a nilfs2: fix incorrect masking of permission flags for symlinks
-7ac8fc812d28640b2a91b8f3d82446daaec5dbe1 ARM: dts: imx6qdl-ts7970: Fix ngpio typo and count
-cbac0b9fc11532264a735b56e79f0de959dc66a7 ARM: 9209/1: Spectre-BHB: avoid pr_info() every time a CPU comes out of idle
-a44035af3d19b4a70b54ccf2690addbdf211d169 ASoC: sgtl5000: Fix noise on shutdown/remove
-2c634c2d6c29d6faeb236f6b9923fd3ab1a82434 inetpeer: Fix data-races around sysctl.
-b03b1314f332da9d5eff0eab5cc3a7969828ed55 net: Fix data-races around sysctl_mem.
-4255315a9ca10b43bb67620e197625bcc0b2655b cipso: Fix data-races around sysctl.
-cbd3d12b113d1106001bb119b0b9815ef28a2cf2 icmp: Fix data-races around sysctl.
-ffa8e755a34f72f5902b31b02dc8dc12885c1d71 ARM: dts: sunxi: Fix SPI NOR campatible on Orange Pi Zero
-4badbcec52b8bf24d6bad47a169ace0622f123ff icmp: Fix a data-race around sysctl_icmp_ratelimit.
-82621c3d3c6bf66ecb8c44a36a3695953e1755ed icmp: Fix a data-race around sysctl_icmp_ratemask.
-43fd58ebebb5b84839817b1cbc286aa22cc6581c ipv4: Fix data-races around sysctl_ip_dynaddr.
-282844cc523108074f389df3117c3027ffc7a129 sfc: fix use after free when disabling sriov
-5ac692d40d64332f8de609260918c0f50af62e2e seg6: fix skb checksum evaluation in SRH encapsulation/insertion
-f6edb369cd7c4db2b431873e438145f9b3006921 seg6: fix skb checksum in SRv6 End.B6 and End.B6.Encaps behaviors
-2d5a7d668ba07236265af95b11a789121bc0ef90 seg6: bpf: fix skb checksum in bpf_push_seg6_encap()
-fb13ff88dfffba6a63a3090cf82e321ff97c20f1 sfc: fix kernel panic when creating VF
-10e4e50382f6d99e7bc7251ca98e9b585340cffa virtio_mmio: Add missing PM calls to freeze/restore
-30a8ac778284e11644673907e83d75c00f5e9782 virtio_mmio: Restore guest page size on resume
-ec67d879861ea39ca756b94cf278ecbceba6b713 netfilter: br_netfilter: do not skip all hooks with 0 priority
-20a75f598fa750de06360c0c71e26f995a99762f cpufreq: pmac32-cpufreq: Fix refcount leak bug
-8b5e91a8aeac8486c7fea01d9476cccc5b8c3f8f platform/x86: hp-wmi: Ignore Sanitization Mode event
-2fe046c70fcdbe1e2b1ebae273c8d1d5ecde11e4 net: tipc: fix possible refcount leak in tipc_sk_create()
-8c181d02ce68157fb3b391a5c5c028540c6d3f58 NFC: nxp-nci: don't print header length mismatch on i2c error
-6a433f67dbdf9245a63a29c76c4ebf718e708d8f net: sfp: fix memory leak in sfp_probe()
-fff3e8f6a61dccd46615eadb0b6eb59edffe22aa ASoC: ops: Fix off by one in range control validation
-91d59a308b0ec1328ae9d81e451c3729fd53fbe8 ASoC: wm5110: Fix DRE control
-631fc9fb3095100798b5d266e7fbf9f3658b17dc irqchip: or1k-pic: Undefine mask_ack for level triggered hardware
-9df5e8c53ebceae9cd0f60ab0fe2d15003f76d6f x86: Clear .brk area at early boot
-8bb452d98d8c5677c75f6e8e06e48a3247994d39 ARM: dts: stm32: use the correct clock source for CEC on stm32mp151
-930bff52c13636ff46546c4290fb5b316e31f7d0 signal handling: don't use BUG_ON() for debugging
-b054b7158c73e4be93c884a831df80c35d56b1bb USB: serial: ftdi_sio: add Belimo device ids
-740b7fd7100826efa53c97645ec15f64b29e08c0 usb: typec: add missing uevent when partner support PD
-7537ab7df2390dbe17ee00a4efeb3a00b020a50f usb: dwc3: gadget: Fix event pending check
-2caf2e61e5a9ed79a2d0a616382a9e8d1e54dd6d tty: serial: samsung_tty: set dma burst_size to 1
-628f175a81004ded47277ba65e57d31fc0f44d32 serial: 8250: fix return error code in serial8250_request_std_resource()
-323be2760020d42fb278e9ee48d87a094b7fdb7a serial: stm32: Clear prev values before setting RTS delays
-2242f0c074de6118cdc0e9b96c714637cdc28dbd serial: pl011: UPSTAT_AUTORTS requires .throttle/unthrottle
-7e891ca4fbed75e8d86f1221c9b3f8151a0e847c Linux 4.19.253-rc1
+0acbe32b2c8125f4224e2b8082184349f4d1b291 ALSA: hda - Add fixup for Dell Latitidue E5430
+ced962cae79a50c2e235c9cebe1f21bd1bf934d1 ALSA: hda/conexant: Apply quirk for another HP ProDesk 600 G3 model
+44386440953280f7522a3193b48593bd006e25f9 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+b4bbab674ff1a1d2b0185bfae0f64fa3ba4c1bce ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc221
+b61279d37da63e9a989f4dbd069796bdef431ce8 ALSA: hda/realtek - Enable the headset-mic on a Xiaomi's laptop
+ad733504d7310de5410a206adc0da8f1c6b55a0d xen/netback: avoid entering xenvif_rx_next_skb() with an empty rx queue
+4e9fd2eca087d55d68bb2ff0147e42a17fb6af9a tracing/histograms: Fix memory leak problem
+08f40450e62d7a5a7555f7aa34553ed399902fcd net: sock: tracing: Fix sock_exceed_buf_limit not to dereference stale pointer
+b77a3d1acdfd640667bef5e2f1c67a045f23c32b ip: fix dflt addr selection for connected nexthop
+eeaf4e843b3ee6dd118977cb91274c2b494c0b93 ARM: 9213/1: Print message about disabled Spectre workarounds only once
+755ebe59ccc55548d2d96452a6ec056838a0ed6e ARM: 9214/1: alignment: advance IT state after emulating Thumb instruction
+cfdcefdff532c44413153728ad7e9e924af9fc58 wifi: mac80211: fix queue selection for mesh/OCB interfaces
+740a9000d2487fa83df9dfb24cea0c2a60e9d964 cgroup: Use separate src/dst nodes when preloading css_sets for migration
+210bcc93c840aed033def85aa44ab2310d031fa9 drm/panfrost: Fix shrinker list corruption by madvise IOCTL
+bb442723d5aa2577f1b866a1a445076684bda610 nilfs2: fix incorrect masking of permission flags for symlinks
+e4d32625a92be79b40b31f4e94cac8fe07f3fb03 Revert "evm: Fix memleak in init_desc"
+cdf82ec77bd2d3537aeae3c6fb68175dff3bc498 sched/rt: Disable RT_RUNTIME_SHARE by default
+741955e9a897f8c446ba77635d9e03756b7f844d ext4: fix race condition between ext4_write and ext4_convert_inline_data
+b18c3a445e7993a9fa139b7e63661cd2e2dccd3f ARM: dts: imx6qdl-ts7970: Fix ngpio typo and count
+53f5931b437536036d59c510e4b6e7eb7d265f98 ARM: 9209/1: Spectre-BHB: avoid pr_info() every time a CPU comes out of idle
+d4ea69d9cc30df38200ada97d5ad8448fdac03ab ARM: 9210/1: Mark the FDT_FIXED sections as shareable
+5d12941fc45ed50aefef18e80fd7bd0d73925695 drm/i915: fix a possible refcount leak in intel_dp_add_mst_connector()
+f33df53d944e4ad6e8e5eda211f16588416beac6 ima: Fix a potential integer overflow in ima_appraise_measurement
+04550a89bf0c411406e918e341d5db752488bc8a ASoC: sgtl5000: Fix noise on shutdown/remove
+901dc9226da733a193ebfc84e316e72c10151347 net: stmmac: dwc-qos: Disable split header for Tegra194
+e8fa7e5b208c513a5de97d2e7d89e9596bacada2 inetpeer: Fix data-races around sysctl.
+50f6350b463fcd6fab7a96bd65b554b7c5020473 net: Fix data-races around sysctl_mem.
+aa7fb44887d0d5047a4e74b8813bce9c2e7f9a32 cipso: Fix data-races around sysctl.
+070085213ea327f6ca80883fef75a68cdd7e68bd icmp: Fix data-races around sysctl.
+0523d8bf61faf1c0d1841d8f7bdcf6223a37de91 ipv4: Fix a data-race around sysctl_fib_sync_mem.
+d2cd31eec59f855ab726fd439fe2214f4c956677 ARM: dts: at91: sama5d2: Fix typo in i2s1 node
+8b084f8c746369475d76d632bb925262dfdcfae5 ARM: dts: sunxi: Fix SPI NOR campatible on Orange Pi Zero
+399a676cd8f98d3ca3609e036df2900ebee7f3a8 drm/i915/gt: Serialize TLB invalidates with GT resets
+8c01929b458567cf4fa828f7a063e903042208aa icmp: Fix a data-race around sysctl_icmp_ratelimit.
+1a97621b1d90fe5ac2e995846368b33c0a3a7ae6 icmp: Fix a data-race around sysctl_icmp_ratemask.
+a8fa4cbabb4fda552a25a468982c5db6df3a2c9a raw: Fix a data-race around sysctl_raw_l3mdev_accept.
+b1bd133d27d4dd9d8abb8e474ae2d211129834f9 ipv4: Fix data-races around sysctl_ip_dynaddr.
+fe6356e1089f9ff382393f9fc3e87cabdb87fbde net: ftgmac100: Hold reference returned by of_get_child_by_name()
+dc24952e435bd9a6ddef3640baa22b14e9a1e172 sfc: fix use after free when disabling sriov
+83320a32da1b9eac95ff2ca00255f5074bf57552 seg6: fix skb checksum evaluation in SRH encapsulation/insertion
+f6de529cc6f9b4af2e5b74efae9c36c664088fc3 seg6: fix skb checksum in SRv6 End.B6 and End.B6.Encaps behaviors
+f301d2d8cc012c6007bcb2c382ee7887bcd33505 seg6: bpf: fix skb checksum in bpf_push_seg6_encap()
+6f18656d3461fe29dbebba3437c5e409add699d5 sfc: fix kernel panic when creating VF
+31d4078a872a569afaf51bb0a9c5286a9588eac6 mm: sysctl: fix missing numa_stat when !CONFIG_HUGETLB_PAGE
+2b1ac877180aaad95ff46c1a56a3aebea3f41e0e virtio_mmio: Add missing PM calls to freeze/restore
+ab4de6315f2c8854d7e55aa22068fce8073cc9b4 virtio_mmio: Restore guest page size on resume
+ae2955d88f76f0c3f2339a0ca9736965af5cac85 netfilter: br_netfilter: do not skip all hooks with 0 priority
+26e8f88d757248edb772d80e2948ec088c1f1fcd cpufreq: pmac32-cpufreq: Fix refcount leak bug
+c013e6a6412a98c8d701d42249d725b82b14805c platform/x86: hp-wmi: Ignore Sanitization Mode event
+88145acfc99c916031315ac14a5f333b20b137bf net: tipc: fix possible refcount leak in tipc_sk_create()
+30953cf61cffb666ec6aed64112d1b0b37a473a2 NFC: nxp-nci: don't print header length mismatch on i2c error
+0e031d6d4e1e4d0cb79852ab591d9ecc61deec16 nvme: fix regression when disconnect a recovering ctrl
+99720c2de918919510bbfb5d0cbd0a2749da2dd9 net: sfp: fix memory leak in sfp_probe()
+e157be636417bb0f393a264d22e2a995051adf73 ASoC: ops: Fix off by one in range control validation
+a4e650214378f9f3129c9e2494331354d691fa33 ASoC: wm5110: Fix DRE control
+b9e78e32580df311a72b2c0c1f114de0b437008d ASoC: cs47l15: Fix event generation for low power mux control
+78329c8e6c54b235c9664b6f445433df799d2e20 ASoC: madera: Fix event generation for OUT1 demux
+cc33c460240e50b81a230f20f374be9351685cd0 ASoC: madera: Fix event generation for rate controls
+da96611d08dcd4084ae22048708183bc210c8cc0 irqchip: or1k-pic: Undefine mask_ack for level triggered hardware
+25353feeb50c1ecc773bf3ed34adc4e28bdc2cd3 x86: Clear .brk area at early boot
+ed7dcbf048d89522d29ec9c630a8c9ddc079b52a soc: ixp4xx/npe: Fix unused match warning
+0a5be159680dd8cca41ab1a2f602d103adc1cb00 ARM: dts: stm32: use the correct clock source for CEC on stm32mp151
+9c6297ff69cad5f257fd0d86f40027a25bcacf4b signal handling: don't use BUG_ON() for debugging
+3cd6185772e633f6e8998c5544487bac53f6ff3e USB: serial: ftdi_sio: add Belimo device ids
+111621c8f8698ae578b34460db122eca9a76e83b usb: typec: add missing uevent when partner support PD
+b41918678d3e6a1b912ec086411df0c48a02fad2 usb: dwc3: gadget: Fix event pending check
+2b7527c570aff7bcd14fbfd375a073006ec6a81f tty: serial: samsung_tty: set dma burst_size to 1
+434a177b559dfdc1318634fe707e9ffa6c8caaf2 serial: 8250: fix return error code in serial8250_request_std_resource()
+da2d700050d2a34b8353d2a971cbb1e2c545e32b serial: stm32: Clear prev values before setting RTS delays
+df182a13a65b96eb5c43446f4a8006a9316ee444 serial: pl011: UPSTAT_AUTORTS requires .throttle/unthrottle
+1cdb21e73aae84f13cf9ef22c95eb2128b256d1e Linux 5.4.207-rc1
 
---===============4218722631932260597==--
+--===============7683170593064189040==--
