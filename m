@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 18 Jul 2022 01:13:22 -0000
-Message-Id: <165810680253.32579.7018110320763615910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 18 Jul 2022 01:29:57 -0000
+Message-Id: <165810779731.11409.7295579545041208202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/queue-rc
-    old: 02673073315bbf92f41d51364d8774ff274543ed
-    new: 3697902486259cc16d1f488d8cdfd12289526722
+  - ref: refs/heads/master
+    old: d57759d86814dcef696e5d29931f33cf57d8b146
+    new: d71d41222c298957730af07134deb615f83ca6e2
     log: |
-         40dbac2c4b99925577429918691972f7db23d608 IB/mlx5: Add support for 400G_8X lane speed
-         153c9d295ae822fb965684f7a2a4cced8da4b7ec net/mlx5e: Remove WARN_ON when trying to offload an unsupported TLS cipher/version
-         b03939032c5ce770ca365946df0583513598d80f Merge branch 'patchq/521784' into mlx5-for-net
-         c00aa93b1a14cd8bbf7606df10dcfb1f39a81491 Merge branch 'mlx5-for-net' into net-rc
-         3697902486259cc16d1f488d8cdfd12289526722 Merge branch 'net-rc' into queue-rc
+         e423352ec0c5194452e39cc5e02dbb9157c15c18 Fixes for 5.18
+         1ae7ede6684182b5ad8acbb139a4f32b357f61c8 Fixes for 5.15
+         9ebaa027d8b63554fb3551bf9842674ee2d71490 Fixes for 5.10
+         17872a8beec7d14380eb57e9109867c0af2f7425 Fixes for 5.4
+         0971c172f73d3d4bdfc26aecf33623eb4914bc4f Fixes for 4.19
+         677142adc9d3f8dc47514593b3745ff78e4f5bc7 Fixes for 4.14
+         d71d41222c298957730af07134deb615f83ca6e2 Fixes for 4.9
          
