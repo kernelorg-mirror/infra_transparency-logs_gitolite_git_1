@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 18 Jul 2022 16:35:34 -0000
-Message-Id: <165816213469.2481.9699376907491880254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
+Date: Mon, 18 Jul 2022 16:46:20 -0000
+Message-Id: <165816278068.9167.11538571332878639261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/kbusch/linux
+user: kbusch
 changes:
-  - ref: refs/heads/main
-    old: 6e2fb80439d522aa2cf39d306f4051a578bbd722
-    new: 325f706ba7087b0aee6d66160fc1305d172e1e83
-    log: |
-         291898c5ff881d0dc5d947031def0528101476cb uapi: add vdpa.h
-         325f706ba7087b0aee6d66160fc1305d172e1e83 uapi: add virtio_ring.h
-         
+  - ref: refs/heads/for-next
+    old: 0000000000000000000000000000000000000000
+    new: 8c38d1fa715ef4cd8c42a27cd252e66f99a440a3
