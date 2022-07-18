@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0169445301525808574=="
+Content-Type: multipart/mixed; boundary="===============5352671933895822520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 18 Jul 2022 22:56:20 -0000
-Message-Id: <165818498018.11293.16402916705374378696@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 22:56:22 -0000
+Message-Id: <165818498226.11369.1870295463433918618@gitolite.kernel.org>
 
---===============0169445301525808574==
+--===============5352671933895822520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 42c2b553da64e050c3bd6264f0ffe12f634808a8
-    new: 08333b911f01862e71e51b7065fb4baca3cd2e67
-    log: revlist-42c2b553da64-08333b911f01.txt
+  - ref: refs/heads/for-next
+    old: 3d97b16b1b52990c2862d45539a5026dca976927
+    new: 441b664035a2b88610b05cf59f8ae747ddd00fe6
+    log: revlist-3d97b16b1b52-441b664035a2.txt
 
---===============0169445301525808574==
+--===============5352671933895822520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42c2b553da64-08333b911f01.txt
+Content-Disposition: attachment; filename=revlist-3d97b16b1b52-441b664035a2.txt
 
+cdab30b44518513003607ecfc8a22de3dbbb78ed hwspinlock: qcom: Add support for mmio usage to sfpb-mutex
+766279a8f85df32345dbda03b102ca1ee3d5ddea rpmsg: qcom: glink: replace strncpy() with strscpy_pad()
+6c3ebc96ffefbc48297d7c2fd266e9cb78e6941e rpmsg: qcom: glink: remove unused name
+101042f4c0eb2daa331b4f7ce32c6d547114830a rpmsg: qcom: correct kerneldoc
+65382585f067d4256ba087934f30f85c9b6984de rpmsg: qcom_smd: Fix refcount leak in qcom_smd_parse_edge
+7113ac825371c17c15e2d0be79d850e5e16d3328 rpmsg: convert sysfs snprintf to sysfs_emit
 8672e79d98bc702084f65ef6d118333bd73f09a2 remoteproc: qcom: using pm_runtime_resume_and_get to simplify the code
 fc156629b23a21181e473e60341e3a78af25a1d4 remoteproc: qcom_q6v5_mss: map/unmap metadata region before/after use
 d0c11db55d9bded61e17846ccf9b47c75717deb3 remoteproc: qcom: correct kerneldoc
@@ -43,5 +49,6 @@ fd75c2d01a50d877b375786abbeb179564ea8ffc remoteproc: sysmon: Send sysmon state o
 60349fd52ecbb8b14545ff25aba2f2e230c4d618 remoteproc: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
 cab8300b5621a54aa25306ff800c27fa5a4632d7 remoteproc: Use unbounded workqueue for recovery work
 08333b911f01862e71e51b7065fb4baca3cd2e67 remoteproc: Directly use ida_alloc()/free()
+441b664035a2b88610b05cf59f8ae747ddd00fe6 Merge branches 'rpmsg-next', 'rproc-next' and 'hwspinlock-next' into for-next
 
---===============0169445301525808574==--
+--===============5352671933895822520==--
