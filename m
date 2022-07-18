@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6923709420150192736=="
+Content-Type: multipart/mixed; boundary="===============5531940358394687417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 18 Jul 2022 15:37:53 -0000
-Message-Id: <165815867319.28809.7457860039340743867@gitolite.kernel.org>
+Date: Mon, 18 Jul 2022 15:38:05 -0000
+Message-Id: <165815868517.28963.5543108347192012356@gitolite.kernel.org>
 
---===============6923709420150192736==
+--===============5531940358394687417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: fe2d26dc182fca1579147a54e9bd8584eb5664d2
-    new: 5813bed49d51e8da1a77653c65bce34b93d3d0c4
+    old: 5813bed49d51e8da1a77653c65bce34b93d3d0c4
+    new: e9dc3d0be1af637044f208d8507037ec57eea11e
     log: |
-         ddf3c342bebb2ef1107fe447d8c180b8501c7308 5.18-stable patches
-         92a857ee8502c4ab7f1097bdea28f3d05bda3cf7 Revert "dropped queue-5.18/acpi-video-fix-acpi_video_handles_brightness_key_pre.patch"
-         abeb00acafc9c81af52209bd36e58766012e61de 4.9-stable patches
-         660db29aacefdded5e6649c6486442d78db9e425 4.14-stable patches
-         5813bed49d51e8da1a77653c65bce34b93d3d0c4 4.19-stable patches
+         e9dc3d0be1af637044f208d8507037ec57eea11e 5.4-stable patches
          
 
---===============6923709420150192736==
+--===============5531940358394687417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658158672 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658158684 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1658158671-68f3a8270adc9a908317d3eda9db4bd4dc43fc34
+nonce 1658158683-1f25241425c946f5429c9f2dbc0f0e230debcbe4
 
-fe2d26dc182fca1579147a54e9bd8584eb5664d2 5813bed49d51e8da1a77653c65bce34b93d3d0c4 refs/heads/master
+5813bed49d51e8da1a77653c65bce34b93d3d0c4 e9dc3d0be1af637044f208d8507037ec57eea11e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLVflAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/awP+wUHqzCEIFAOTCStR4jD
-ol728847cU58HnP5CgcQsx2ay2BG2AvSO+W1p27Auiyp//rr70qF+bW81uyN4VDe
-8+ksU3VeSeIwgbluq5ZsLk+UjRhaX7FkBCpdic6pVeFZeiuMsLoOSFj9Mn5By+nG
-uE9JUqUmqeQTed9OVOp2C2FAzDmO2IUaADsEio9piMt8uTDLbeE3DSfTCBm1fD+R
-fos5tlnCC2MyFEabMxMN+nLTRIJ8xY5X1SlZoKmdNyesksnib/sp47mHneqfQlwX
-DHWybXPRR/3y46COQUt3OYLs6bZWtFEszfbKkkcTNMARAgf/+LEFEYOKaNkja7oo
-Q6Q3vqwKARSNUqq+nFOzBdXyUqJVpkFv7Uf+yRkZuiRiYD/H9k7kMKt7lLUIIx45
-T05WnxCzPrBspc/zp4S1fIkA21EAupPGv8xup0eIR/M1T/6Lnai9iotOdfjBfktY
-c3uDguRMYs+b4wmPf2AuQ0bgJdZNlfYTfsLwSg5Ux75+Eku8XyaWe9MhcWLX79Wj
-QOz5XfMqMsDZb8isaBYzzT1Hllt6yP+Chxz2bGimOAAVgJOLsRB0o0CIbTSgslg5
-uvLdXiHM0Yj/Lcj+UPXqQlIjA50bK4pKW14NERCrYm8fCr9JLq0x8QBDt2vFCUvp
-rqxEbE/FQ+EsfwbPnOt97KCw
-=SARd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLVflwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IGwP/1jbowjLZ3vXMAbrp4wU
+2lVLqr/XKUh7I8La4j4I5uCqXm2Yqgl6wpdiTNcz0JSW9AIifKLO2m45cdONWnwL
+iy0evUnm1BUp6eaFyKYp9PO993ljnA5B4hu1ETPM3/hDIkjnK48XFlVBEKcvBw0u
+8EljJ93uvKIB+tg0/SUXBB51FoL3RQJuBvcLjQJCbcce2BhK7p7B+ugWAyqXMrBD
+D2pCfIYDN0jD6dzMn5Mm3eEiowLhnd1+MUhrnQI6Y/3nE73dwj1ErqoJM3UkmoyT
+MT8SsihgFdKtACscxh84bmlpO1kVQlhCREc9NPTnq7hU6XM4vkIyEJw4TmKKUSFh
+vrXWPPafbyeh616o7xUixuMizq5iO92jZFRaFAlwX+345vr0s/Hwhx7HcLIGwVF/
+gsqUgnN5VRKPG9jlMV4iWuUCO1rIIl9IfqnJzUiUAdtiGlhCKNdUeHXbY4xM14zd
+qB8Z+rWCheVSVwKBsB9jn5w7NtG5bbPqVTU+GlVlfwIb7dMRpDqnNLnI7/WLdoCK
+dQ3EjGwKArUKRTsvlQvUvfRf9QpGEBOSGQYzJRBfsfVF4Yn7eV9vWwPUJ1c5DTk4
+sinr6kuUui4FaYn5BHYWq8LmjsXL39sLhMboWzw93SCmNzsDM9qCI3riZIjEr3W1
+D6hm8xosHlsp8YhgsAkbowgu
+=YNIa
 -----END PGP SIGNATURE-----
 
---===============6923709420150192736==--
+--===============5531940358394687417==--
