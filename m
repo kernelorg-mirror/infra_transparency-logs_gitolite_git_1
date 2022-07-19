@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 19 Jul 2022 16:58:31 -0000
-Message-Id: <165824991161.26165.17204130550055977486@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 17:04:30 -0000
+Message-Id: <165825027063.29670.12299834603281178441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: a1ac9fd6c6504aa1838930bbfae6217ab6b95945
-    new: bdb2bc7599298ebb677e40fc92b1fa9e69e05098
+  - ref: refs/heads/master
+    old: bdb2bc7599298ebb677e40fc92b1fa9e69e05098
+    new: e134601961fef4516df9413b270fb96ef6d034bc
     log: |
-         bdb2bc7599298ebb677e40fc92b1fa9e69e05098 bpf: fix bpf_skb_pull_data documentation
+         597fbc4682969361dd141aaa58b8cc73a80da85d libbpf: make RINGBUF map size adjustments more eagerly
+         e134601961fef4516df9413b270fb96ef6d034bc selftests/bpf: test eager BPF ringbuf size adjustment logic
          
