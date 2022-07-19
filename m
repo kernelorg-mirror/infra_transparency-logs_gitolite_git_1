@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6578976424399445931=="
+Content-Type: multipart/mixed; boundary="===============1129680005910446880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 19 Jul 2022 17:09:05 -0000
-Message-Id: <165825054533.32708.10016477059361177285@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 17:09:54 -0000
+Message-Id: <165825059477.645.9029284814317039792@gitolite.kernel.org>
 
---===============6578976424399445931==
+--===============1129680005910446880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.iov_iter
-    old: 30d98804b6364a686ae279b0af2a25164027abbf
-    new: 2bfcec2f8d2e2ff79802e15df7995d4200978aec
-    log: revlist-30d98804b636-2bfcec2f8d2e.txt
+  - ref: refs/heads/for-next
+    old: 6e0dd121ec1fa0a3212cf58dd8edeb785adc33cd
+    new: 52935d5f0f36ba454521c4316fe54dea11f1a147
+    log: revlist-6e0dd121ec1f-52935d5f0f36.txt
 
---===============6578976424399445931==
+--===============1129680005910446880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30d98804b636-2bfcec2f8d2e.txt
+Content-Disposition: attachment; filename=revlist-6e0dd121ec1f-52935d5f0f36.txt
 
 5a044eef1265581683530e75351c19e29ee33a11 block: ensure iov_iter advances for added pages
 ac3c48e32c047a3781d6bc28bb5013e4431350fd block: ensure bio_iov_add_page can't fail
@@ -59,5 +59,6 @@ e4215bdfdf9f88d75a2ee33ca2b4316000c6296d 9p: convert to advancing variant of iov
 eebc69788279ed71a538f3918d555b66f50ec10e get rid of non-advancing variants
 ea3636ccf8b23a70a51e42d3229f8da2b6b197d5 pipe_get_pages(): switch to append_pipe()
 2bfcec2f8d2e2ff79802e15df7995d4200978aec expand those iov_iter_advance()...
+52935d5f0f36ba454521c4316fe54dea11f1a147 Merge branches 'work.misc', 'work.iov_iter', 'work.namei' and 'work.lseek-2' into for-next
 
---===============6578976424399445931==--
+--===============1129680005910446880==--
