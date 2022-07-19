@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 19 Jul 2022 08:14:52 -0000
-Message-Id: <165821849234.5293.6299383184906594016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 19 Jul 2022 08:14:59 -0000
+Message-Id: <165821849999.5414.4398387280234835143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/testing
-    old: e5933cf48779064c417fa3a2f75bbef51ea4b137
-    new: 7aa68dcce0ab8f1211953799eaee282b301ee719
+  - ref: refs/heads/gpio/for-next
+    old: 272ddba004731503cb6c30f2336dd501eaf25955
+    new: 28ba057456412794198ba6c953aa2042147c2de5
     log: |
-         a63d28819ffc6f424137170f19d833a80eddbe47 iio: magnetometer: hmc5843: Remove duplicate 'the'
-         7aa68dcce0ab8f1211953799eaee282b301ee719 iio: proximity: sx9324: add empty line in front of bullet list
+         10fcd2f180bcbfb3392fcc98670baff81c61bcf2 gpio: 74xx-mmio: Make use of device properties
+         d3054ba1db6270e14245efa28dbd1cf10207d4f2 gpio: 74xx-mmio: Check MMIO_74XX_DIR_IN flag in mmio_74xx_dir_in()
+         28ba057456412794198ba6c953aa2042147c2de5 gpio: 74xx-mmio: use bits.h macros for all masks
          
