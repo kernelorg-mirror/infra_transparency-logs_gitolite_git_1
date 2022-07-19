@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2180431832817707151=="
+Content-Type: multipart/mixed; boundary="===============7745506192520976400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 19 Jul 2022 21:27:23 -0000
-Message-Id: <165826604301.2717.8885190317199158140@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 21:27:45 -0000
+Message-Id: <165826606574.2936.11454822026233345454@gitolite.kernel.org>
 
---===============2180431832817707151==
+--===============7745506192520976400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 9821106213c826f9c3dbccb617ce76f8981c8aba
-    new: 3455607fd7be10b449f5135c00dc306b85dc0d21
-    log: revlist-9821106213c8-3455607fd7be.txt
+  - ref: refs/heads/for-next
+    old: 9009b3dfd4a20f6bb31e8f40100392f19fc149a7
+    new: e7dfe3bc7687f72f0a891e5c9727660542aa1841
+    log: revlist-9009b3dfd4a2-e7dfe3bc7687.txt
 
---===============2180431832817707151==
+--===============7745506192520976400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9821106213c8-3455607fd7be.txt
+Content-Disposition: attachment; filename=revlist-9009b3dfd4a2-e7dfe3bc7687.txt
 
 3d73b200f9893d8f5ba5d105e8b69c8d16744fa2 scsi: ufs: ufs-exynos: Change ufs phy control sequence
 c641ffdb5904df0dc249ef3f2d753e2a684779c6 scsi: ufs: core: Remove UIC_HIBERN8_ENTER_RETRIES
@@ -57,5 +57,6 @@ c019cd656e717349ff22d0c41d6fbfc773f48c52 scsi: qla2xxx: edif: Fix dropped IKE me
 1ccad27716ecad1fd58c35e579bedb81fa5e1ad5 scsi: qla2xxx: Update manufacturer details
 6c20cc4885c5c11065a83c82dd8ce2074fe5c774 scsi: qla2xxx: Update version to 10.02.07.800-k
 3455607fd7be10b449f5135c00dc306b85dc0d21 scsi: sg: Allow waiting for commands to complete on removed device
+e7dfe3bc7687f72f0a891e5c9727660542aa1841 Merge branch 'misc' into for-next
 
---===============2180431832817707151==--
+--===============7745506192520976400==--
