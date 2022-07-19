@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 19 Jul 2022 01:55:01 -0000
-Message-Id: <165819570121.28507.603769528046819999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
+Date: Tue, 19 Jul 2022 02:27:19 -0000
+Message-Id: <165819763931.16998.169693491762864309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kbusch/linux
+user: kbusch
 changes:
-  - ref: refs/heads/master
-    old: 51e70c2d477e1ca8da3bf45b1d4c218d5756de1f
-    new: 3bf3f371d6abf552e634ae9fc2e3be7d1b40a9a1
+  - ref: refs/heads/dma-register
+    old: 50a6f6bb876e20cc10372a5b8315924a493f6bf7
+    new: 9de6909fed20955193275bbf9c75ccc85553b7d8
     log: |
-         3bf3f371d6abf552e634ae9fc2e3be7d1b40a9a1 foo
+         9de6909fed20955193275bbf9c75ccc85553b7d8 dma-prereg: add memory cleanup
          
