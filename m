@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
-Date: Tue, 19 Jul 2022 05:32:58 -0000
-Message-Id: <165820877800.3396.7383558077680077855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 19 Jul 2022 05:38:39 -0000
+Message-Id: <165820911939.6700.2818855404589358666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/mdadm
-user: colyli
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/20220719-testing
-    old: b36837cebc329a3716f569d89ee4f6299fa7b9f0
-    new: fba4917d00745f3e60a9b537f1c2ce7551c2f956
+  - ref: refs/heads/opp/linux-next
+    old: 1e5fb38442ebaabb65057c2e58355ee36c2a178f
+    new: 3466ea2cd6b66e4647a9af2381c0d0cd3d579354
     log: |
-         fba4917d00745f3e60a9b537f1c2ce7551c2f956 mdadm: enable Intel Alderlake RSTe configuration
+         ce736cf71b5ab8ad9b741dc7a4a07e41c27d1421 OPP: Don't drop opp_table->np reference while it is still in use
+         3466ea2cd6b66e4647a9af2381c0d0cd3d579354 OPP: Don't drop opp->np reference while it is still in use
          
