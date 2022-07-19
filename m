@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 19 Jul 2022 19:25:05 -0000
-Message-Id: <165825870505.23865.10359892453394127013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 19 Jul 2022 19:36:15 -0000
+Message-Id: <165825937599.30485.2485493032422696764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 4af67ef2b7b0091419c4de9cbceda13d4c64db63
-    new: 9c1c1a8d6a4f30eba9595da951d18db1685c03d8
+    old: c57a15d21c08889842145476be535e1adde7e939
+    new: 07a3b1d655b419bbce1d62d21096ae212ad81486
     log: |
-         9c1c1a8d6a4f30eba9595da951d18db1685c03d8 engines/http: silence openssl 3.0 deprecation warnings
+         5692dcf9a017a80a58e4bd18af1968a2c8e5b204 test-runner: allow infinite process wait
+         99773ea7e8d159b1bde1ad84a4f1da3d843078f3 test-runner: start dbus with --start
+         07a3b1d655b419bbce1d62d21096ae212ad81486 test-runner: automatically find PCI passthrough config
          
