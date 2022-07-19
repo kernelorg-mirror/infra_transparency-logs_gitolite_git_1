@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 19 Jul 2022 22:02:49 -0000
-Message-Id: <165826816947.25514.12828102963483960147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 19 Jul 2022 22:03:49 -0000
+Message-Id: <165826822902.25887.3423894646219397247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0c128c5d8932ccf1a80dfdd6e5a3bbb10d1bfed2
-    new: 5df0b26c484285e4dc6f187b7dd6fa5f32b4639d
+  - ref: refs/heads/master
+    old: 769e2695be4132fe0be4c964c9d8ea97c74d9a6a
+    new: 1f17708b47a99ca5bcad594a6f8d14cb016edfd2
     log: |
-         0fdfd62ba223793bb795008ee3e842981666a940 ice: Fix tunnel checksum offload with fragmented traffic
-         8825cce9a36bc324d091955a349951dc609460c5 iavf: Fix adminq error handling
-         f1205ba278645ede923725d9b993d6ad6e0dea88 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-         5df0b26c484285e4dc6f187b7dd6fa5f32b4639d iavf: Fix reset error handling
+         1f17708b47a99ca5bcad594a6f8d14cb016edfd2 sfc: update MCDI protocol headers
          
