@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 19 Jul 2022 08:34:16 -0000
-Message-Id: <165821965612.17703.16213754855212790604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 19 Jul 2022 08:42:40 -0000
+Message-Id: <165822016082.23301.222096687893600476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: aa2a1df3a2c85f855af7d54466ac10bd48645d63
-    new: 68691bad98eeb29342c3c4ac4abc90f9edef79bb
+  - ref: refs/heads/testing
+    old: 7aa68dcce0ab8f1211953799eaee282b301ee719
+    new: 06674fc7c003b9d0aa1d37fef7ab2c24802cc6ad
     log: |
-         b3be1e57f2631e7383d4bb837ca78ff41ecc55c9 IB/qib: Fix comment typo
-         68691bad98eeb29342c3c4ac4abc90f9edef79bb RDMA/rxe: Remove unused qp parameter
+         06ee60eb507f00fb3643876ec05318c63332dc88 iio: adc: max1027: unlock on error path in max1027_read_single_value()
+         5e1f91850365de55ca74945866c002fda8f00331 iio: fix iio_format_avail_range() printing for none IIO_VAL_INT
+         3cfb0e1d395a4323f325baaff58b8fe4a8ff9ecd iio: accel: sca3300: Extend the trigger buffer from 16 to 32 bytes
+         06674fc7c003b9d0aa1d37fef7ab2c24802cc6ad iio: light: isl29028: Fix the warning in isl29028_remove()
          
