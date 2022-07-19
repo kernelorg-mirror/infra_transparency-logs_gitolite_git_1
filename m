@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7480395024158431557=="
+Content-Type: multipart/mixed; boundary="===============5098522485896468600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Jul 2022 03:06:58 -0000
-Message-Id: <165820001813.9259.10518470618156599620@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 03:07:10 -0000
+Message-Id: <165820003087.9417.3423625135527724157@gitolite.kernel.org>
 
---===============7480395024158431557==
+--===============5098522485896468600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 9381a315165e3a718f8e8198cc8304809a9c91a2
-    new: 194664912ed4ffa5ecc36185ab9816830ab762d9
-    log: revlist-9381a315165e-194664912ed4.txt
+  - ref: refs/heads/5.20/scsi-queue
+    old: 9821106213c826f9c3dbccb617ce76f8981c8aba
+    new: 3455607fd7be10b449f5135c00dc306b85dc0d21
+    log: revlist-9821106213c8-3455607fd7be.txt
 
---===============7480395024158431557==
+--===============5098522485896468600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1658200002 -0400
+pusher 75C5DE3D 1658200021 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1658200001-570f021f54666a7774cb0890d4b600efc64b728f
+nonce 1658200021-38242f1e14d0f8fbeb923f5d3091841ad5e13bc2
 
-9381a315165e3a718f8e8198cc8304809a9c91a2 194664912ed4ffa5ecc36185ab9816830ab762d9 refs/tags/mkp-scsi-queue
+9821106213c826f9c3dbccb617ce76f8981c8aba 3455607fd7be10b449f5135c00dc306b85dc0d21 refs/heads/5.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLWH8IACgkQ7ulgGnXF
-3j0uig/+K2DpuFFJOwZPnJ2wOwA+4JyFIS0qylVgnpOMeBe30sOg+9XrbjycCaFr
-VysuIvc/tCcl1Omy3Vu7X4AuQI+lXlhc9YboB/AwNcit3N6rpB10cijbsYPxI0Cj
-zhs84kcjG65bqc2wmXBZCj4GOlmb9xk4GaGynVCZHlnbTQ6yIx++xVMDlNoljoIM
-FiC1Oloznb9eLo8N2uLJz3S4PNpX+dgQf/sjWimpudOWrEVTvVuGN6xU48w5Mf2b
-H/ouTEIYl/9zkY1pbDKTbiWCts70BDKU7Enh3yfHi3VnBJA9gay0FHtDlMtd1vcH
-7RFdppXI2PzO1neFnuZepSsGqza8zonOlHeByI1+QcNhTtljioeHNmJwBdKlUi09
-r/fp3QQ5m29mXbmcjOFoWnhS6S0s93g8CB0gYgnP0LyubFBvHk5ZbmANVfS6IWC2
-ZTvcjbJIoOenCSskewiBB1f07o5T3JY6uYgAeTxnkbIu2JdCm5BFTGU0fOHd023f
-8lBVxl2m+XvoNqaANx6rhnjBqlhnbjoJk75VBzeKfk5X0XhAW/dlaBgV8WBfiP4w
-fGX+8J49eppzfegYPH4ZeC6OA1uNAmbYqLnVXUx8k/fYdn3SQzh7mZaLjcsYOCcF
-hIxNNoLxpfIpGLdqytzHkODshJk0WFl2LXAt6npze4fUKMGrF9c=
-=TPXo
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLWH9UACgkQ7ulgGnXF
+3j04gRAAmTGmTjUReYNGiYA2MfXjqCbGB+4JnflgsYuMOzr1bPTvicAaw/Zvqac0
+3U0wbcura2Wo7tKjOz7uBszNG7Rc6LGz8Q/Ncwkq0uAPudufYYIY+Lb5VvZLKpAk
++1mZvgpSu6KoRarumKF/KrccNqejiGkkxZpghfm+HE0gJgPOtcHN2ILsoZ3IjVtL
+RaYu18DtyqdyCQDvgnVtdDo+aaUFuEhp5dbvTpfTgZX8wElwKl4gFm0Kuiclp6Iz
+2o9YWUgamEPxbwSjBFRGLYNNX4DCr+TPc7c502fPr1tV86iaLMS0OdkFzx1GYBr8
+bodAuZBlkHdnlUs/JCPCfkrgeXn9AE/Ct637GEzObJKjO46ZhKjrtIVYH37taeb0
+hNSkX80ZnVKpiJaaofwUQNydmX8OxvRHn8BHB6yYUNW8JOiI9MnrkBQGdHhvZ9vs
+Wg1DmvbHnhYPfxtIY7pCAkCpvUJU9k8sB1CoV95WALN1G1+aTZvh4sDW/27X8mpn
+/oCyd9Hp/RJcv+gFBKb5hozCGY00xcvTGKUvggfbmEcmZhU3V0JK4Nra1q8MK7wT
+KkPtnOh0V3fUIn/gr0O9GKxnK0qQbKzioRwQ9EZPD6BmIv2qeAe7V0qXvvGaJAjr
+vpz6fM0o9oKEJ04i9/689yl5YBJB0IMMSK6weDRXNmCpHtzZWq0=
+=P6J4
 -----END PGP SIGNATURE-----
 
---===============7480395024158431557==
+--===============5098522485896468600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9381a315165e-194664912ed4.txt
+Content-Disposition: attachment; filename=revlist-9821106213c8-3455607fd7be.txt
 
 3d73b200f9893d8f5ba5d105e8b69c8d16744fa2 scsi: ufs: ufs-exynos: Change ufs phy control sequence
 c641ffdb5904df0dc249ef3f2d753e2a684779c6 scsi: ufs: core: Remove UIC_HIBERN8_ENTER_RETRIES
@@ -88,4 +88,4 @@ c019cd656e717349ff22d0c41d6fbfc773f48c52 scsi: qla2xxx: edif: Fix dropped IKE me
 6c20cc4885c5c11065a83c82dd8ce2074fe5c774 scsi: qla2xxx: Update version to 10.02.07.800-k
 3455607fd7be10b449f5135c00dc306b85dc0d21 scsi: sg: Allow waiting for commands to complete on removed device
 
---===============7480395024158431557==--
+--===============5098522485896468600==--
