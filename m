@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Tue, 19 Jul 2022 07:51:25 -0000
-Message-Id: <165821708562.24219.18235282160537343851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 19 Jul 2022 07:55:42 -0000
+Message-Id: <165821734209.27125.16097315222118687473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/pending
-    old: bbb2cb56f08d95ecf2c7c047a33cc3dd64eb7fde
-    new: 29a9e9daa67e2b68bb2433c31fdbc82e86b5f0fe
+  - ref: refs/heads/spi-nor/next
+    old: 77d4ac6d38487c2ab2688335b2a904469f5b16a4
+    new: 92714596cdbe2ec1da739b674716633076916336
     log: |
-         29a9e9daa67e2b68bb2433c31fdbc82e86b5f0fe libcxl: Fix memory leakage in cxl_port_init()
+         92714596cdbe2ec1da739b674716633076916336 MAINTAINERS: Use my kernel.org email
          
