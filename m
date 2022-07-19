@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7973759864333235484=="
+Content-Type: multipart/mixed; boundary="===============0845406066223489722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Jul 2022 12:20:08 -0000
-Message-Id: <165823320815.12974.1172774951940504095@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 12:20:11 -0000
+Message-Id: <165823321191.13083.11082843578480049551@gitolite.kernel.org>
 
---===============7973759864333235484==
+--===============0845406066223489722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: e0e1824bf69e9a342eb4854cf10ce2ba4c840e36
     new: fe5fc9873af0956280905461607841d63fbe6f0e
     log: revlist-e0e1824bf69e-fe5fc9873af0.txt
 
---===============7973759864333235484==
+--===============0845406066223489722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658233205 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658233211 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1658233205-95eb3b17f7453fe55ef38adb378b43506000aeb2
+nonce 1658233210-cd8384caa86fff2632d43a3218608870106b1e3b
 
-e0e1824bf69e9a342eb4854cf10ce2ba4c840e36 fe5fc9873af0956280905461607841d63fbe6f0e refs/heads/char-misc-next
+e0e1824bf69e9a342eb4854cf10ce2ba4c840e36 fe5fc9873af0956280905461607841d63fbe6f0e refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLWoXUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IGwQAMpiZl8f7YQ88X3NkuuR
-xbd+W9I6PWRstE0K3rjOtFGU4nfA62pc9Ct5IWlCkyZd3trbSKBroRjb8T6Y1D3t
-KScFCbqjJIA9xKtU/H4ayx+a6RodVAGDlmWuXLut1+XdGX9bRGqZTWjvJgFSgpbh
-Eb9+owHwvlkAG9AHQlh7Mo04S8Vtfqu+GmbGojqs+ixMOZIfkdznxeMrkZ2/24UA
-EPU42j/RGNekCja10H9KkKP4/JDtIpDRJcyh/2/PiEbwSs0xmzM62tuMpW7uYcZZ
-NnCTxN+FhVyguUupXTtBs2qxB+qFn/t2S2cgLBPfesSPQbA3XXHFd/G4BCTC0xL/
-tIkHYz1bqEDi9nPl8QPYYI07a4UzSzkXa/pbcvhvNN/s8JX9/SdZAr1RvX6cPAlR
-12JnY1eOJ29XNpxO0N7s8QG/l+TBm4UH41Su6AGN2Evr7vl/IlI27M0LnMpmVXQo
-lk605/8Gi3oSLTq+cw1CXJN+tgYPg7u2onYAmaVvTCCQi660RV7GYhYQ6mq9yXLI
-FVg23MwgkNXlPx+Qt62YTmN6CC2F/8oSOT0iXQDJLtEskwen98J0KbUm4oOyFsL6
-J17YAj7Mcf0HR93uP2iF+uvI3GVUbsLi0ReD+ae882dJ1EPPSPjC0dkAqz9qfu0m
-ESsTy81kwXef3Vhrg+ruaeJP
-=QThW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLWoXsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YUAP/3riaGPp1ovkcQqJ2oeC
+2KSuCy+xF7F/WU2Ieatu+RAmJRJmT9t/ZnP6uzDM1bUTa+6WMtnw1iuzXwKoXNu6
+X63u1eb51yjEb5AMwWvtpmbUhp0aJBlrex3tkLwN4a9PLHk3hoExa0ySV9rJI+1Z
+de4QyNA8lk1fqIX9N4xseAlvKes6HuycV7UvPKmG/iF5F649rxat01evkjnYE0bX
+H4tsdl/H3NeJV5Zv+Wz/p4nEcOZEWVr6ybm8IM497c5uWfq3kkmNHpfBd1An07to
+2Awq0bDmJhtTM4m/828ZiztMeDeY3GoOjC/LCchuZSUfIkg1aKdtCugLIfcso4lG
+wD258qDdVPjR/RBclgnkPA1FjDBJZclSoVW39UAtXoR1raOPcqK3BMtw6h26afg8
+caAiXIFUDELXKMjumfqvyhLkUTUtSmrnf0lQMXUlcjL/VmFQV7h57TC52tJXzAnm
+6SbI3gdEcFKBNTtozFmKvGXSXshyDWSEAf2DwxG8NLsEA3rxXVUTQF18edLRUxc9
+znAizM4YqJ+bj8XDVy/bgXxGBMAeI0VQzkOXtXJjW72WdPlgOokHUeGXxwJmwvko
+yqmsRI7D9b4wV32O1KtpxcbxB7/JdDOfeWrCKilWdqm5ZiVkmHalie7X43aOQDGs
+QD91p4t3HwxB17uAtemLjkeA
+=fW8S
 -----END PGP SIGNATURE-----
 
---===============7973759864333235484==
+--===============0845406066223489722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -174,4 +174,4 @@ fd7d47484125c7d04578de9294faa7fec6e5df0a phy: rockchip-inno-usb2: Ignore OTG IRQ
 08680588d340eaad2d5028d6f24a055a118d4e7e dt-bindings: phy: mediatek: tphy: add compatible for mt8188
 fe5fc9873af0956280905461607841d63fbe6f0e Merge tag 'phy-for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
 
---===============7973759864333235484==--
+--===============0845406066223489722==--
