@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1806882032341140812=="
+Content-Type: multipart/mixed; boundary="===============2774847350341409709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 19 Jul 2022 09:55:50 -0000
-Message-Id: <165822455090.18473.7908963670387207320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 19 Jul 2022 09:56:00 -0000
+Message-Id: <165822456084.18628.8054449054161236591@gitolite.kernel.org>
 
---===============1806882032341140812==
+--===============2774847350341409709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 036ad6daa8f0fd357af7f50f9da58539eaa6f68c
     new: 3b87ed7ea4d598c81a03317a92dfbd59102224fd
     log: revlist-036ad6daa8f0-3b87ed7ea4d5.txt
-  - ref: refs/heads/stable
-    old: ff6992735ade75aae3e35d16b17da1008d753d28
-    new: 80e19f34c2887a8881084b7bb7480e9544d56b91
-    log: |
-         85ff37e302efdf173cff6d1a310c2f7f38f1d069 gpiolib: cdev: Fix kernel doc for struct line
-         80e19f34c2887a8881084b7bb7480e9544d56b91 Merge tag 'hte/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux
-         
-  - ref: refs/tags/next-20220419
-    old: bb226b9847aa568d0484d1f13b1269633278f802
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220719
     old: 0000000000000000000000000000000000000000
     new: 5a853f058bdebe00aab195c539690d7940ec4b22
 
---===============1806882032341140812==
+--===============2774847350341409709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ fa9ceffa292dbaf68250ae68d7305497301ba857 Merge branch 'next' of git://git.kernel
 175ab28760980ce24e1f970ead54646c343d22be Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 3b87ed7ea4d598c81a03317a92dfbd59102224fd Add linux-next specific files for 20220719
 
---===============1806882032341140812==--
+--===============2774847350341409709==--
