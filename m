@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 19 Jul 2022 22:15:22 -0000
-Message-Id: <165826892242.1671.14130785626716188453@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 22:15:26 -0000
+Message-Id: <165826892618.1783.17354312317958750731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/master
-    old: ff6992735ade75aae3e35d16b17da1008d753d28
-    new: ca85855bdcae8f84f1512e88b4c75009ea17ea2f
+  - ref: refs/heads/dt/next
+    old: 2aa0d4c881986b4d0eef35c2651cdc9f3c96d365
+    new: e76f4a6107ebe4af5405bb1b94d0e717a40fd306
     log: |
-         85ff37e302efdf173cff6d1a310c2f7f38f1d069 gpiolib: cdev: Fix kernel doc for struct line
-         5e8afb8792f3b6ae7ccf700f8c19225382636401 RDMA/irdma: Do not advertise 1GB page size for x722
-         cc0315564d6eec91c716d314b743321be24c70b3 RDMA/irdma: Fix sleep from invalid context BUG
-         80e19f34c2887a8881084b7bb7480e9544d56b91 Merge tag 'hte/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux
-         ca85855bdcae8f84f1512e88b4c75009ea17ea2f Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+         e385b0ba6a137f34953e746d70d543660c2de1a0 of: overlay: Move devicetree_corrupt() check up
+         e76f4a6107ebe4af5405bb1b94d0e717a40fd306 of: overlay: Simplify of_overlay_fdt_apply() tail
+         
+  - ref: refs/heads/for-next
+    old: 2aa0d4c881986b4d0eef35c2651cdc9f3c96d365
+    new: e76f4a6107ebe4af5405bb1b94d0e717a40fd306
+    log: |
+         e385b0ba6a137f34953e746d70d543660c2de1a0 of: overlay: Move devicetree_corrupt() check up
+         e76f4a6107ebe4af5405bb1b94d0e717a40fd306 of: overlay: Simplify of_overlay_fdt_apply() tail
          
