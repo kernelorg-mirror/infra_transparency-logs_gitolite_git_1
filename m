@@ -1,51 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============0471484145088729708=="
+Content-Type: multipart/mixed; boundary="===============0298179693621442536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 19 Jul 2022 18:12:06 -0000
-Message-Id: <165825432656.8782.17961738777193431931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 19 Jul 2022 18:16:29 -0000
+Message-Id: <165825458970.11782.6537832788813152694@gitolite.kernel.org>
 
---===============0471484145088729708==
+--===============0298179693621442536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 54ae2293921fc535ed38a0511bf2c96f7f28cf57
-    new: 66de314cd08fc4a7830333025d6a9c61ed12cd30
-    log: |
-         99bc096a0b8e341ba970506dae8802fb289761aa Merge branch 'acpi-cppc' into linux-next
-         66de314cd08fc4a7830333025d6a9c61ed12cd30 Merge branch 'pm-devfreq' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: cd720ad594e64894f94f2b011e281c9b85ac1cdd
-    new: 66de314cd08fc4a7830333025d6a9c61ed12cd30
-    log: revlist-cd720ad594e6-66de314cd08f.txt
-  - ref: refs/heads/testing
-    old: cd720ad594e64894f94f2b011e281c9b85ac1cdd
-    new: 66de314cd08fc4a7830333025d6a9c61ed12cd30
-    log: revlist-cd720ad594e6-66de314cd08f.txt
+  - ref: refs/heads/for-5.20
+    old: 09f852894553ac72e25a6b6012a1f5ff34be5be5
+    new: 16824dffcf616b829e4aca3a06f45c0ad743a99c
+    log: revlist-09f852894553-16824dffcf61.txt
 
---===============0471484145088729708==
+--===============0298179693621442536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd720ad594e6-66de314cd08f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3be51a3b1980347da7d51f66b1e8e8c538961f17 dt-bindings: interconnect: Add MediaTek CCI dt-bindings
-86d231b1db1be0666c2fc607f5025d63d7afc5f3 PM / devfreq: mediatek: Introduce MediaTek CCI devfreq driver
-e7fd2e6b9772e19f4da2a7c0c7c813758aee7a88 dt-bindings: interconnect: samsung,exynos-bus: convert to dtschema
-c9deb748683851737c5e4df623c3283c185cd8f0 PM / devfreq: shut up kernel-doc warnings
-2472934e36b51bbdf0a7cdd5e351910d9002c6ac PM / devfreq: imx-bus: use NULL to pass a null pointer rather than zero
-53f853d55e312a639eaa910154248ce06eb754ac PM / devfreq: tegra30: Add error message for devm_devfreq_add_device()
-b2111a01dc3c3ace57a44e1f2940866f7bbbce2f Merge tag 'devfreq-next-for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-09073396ea62d0a10b03f5661dcabfd8eca3f098 ACPI: CPPC: Don't require flexible address space if X86_FEATURE_CPPC is supported
-99bc096a0b8e341ba970506dae8802fb289761aa Merge branch 'acpi-cppc' into linux-next
-66de314cd08fc4a7830333025d6a9c61ed12cd30 Merge branch 'pm-devfreq' into linux-next
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1658254588 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1658254587-9973d573156f1ba126a4d7c2c7d7e478d32a47f4
 
---===============0471484145088729708==--
+09f852894553ac72e25a6b6012a1f5ff34be5be5 16824dffcf616b829e4aca3a06f45c0ad743a99c refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLW9PwACgkQJNaLcl1U
+h9CntAf/bdivYIP63nxlZ8ebtzEah7xZqcsoa8dZH9Qc5eoYMVcnGORn8yDoxekg
+ushO4nuhKTvl3f+1nDNX9znKWltnZ+L0SXDZgk0V386XSf9s+rhUbpTHRULdL7H+
++SFOMUztqDtWeFcZjCUNkPnC2yQkaz30BilkVZKsJgmWWPAWYqKOpreBlYlGbOGN
+8TMp8h365zHTr00RwieiIJp/defRHq7/c9T94jlxZsFqNAbx3j8FbmxsEfVGXcDD
+WeIhLqqSR4aD7FNDHC5572yrsLanBCrxSXr5Ayja4iVt5kHKI+NcIPkylMAjJ6Au
+LzEflJ6X1hOjbGd/z18JDP65ba13QA==
+=3s+f
+-----END PGP SIGNATURE-----
+
+--===============0298179693621442536==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09f852894553-16824dffcf61.txt
+
+740e5d8713e08607c280e1569374401461f3ed5b ASoC: SOF: Intel: MTL: remove redundant snd_sof_dsp_read() call
+711d0427c7134c5ba65b8f408888a0335e23ed23 ASoC: SOF: ipc4-topology: move ida allocate/free to widget_setup/free
+bdb803c8280ba4fd8b8c1cf9cb69f3555853f397 ASoC: SOF: ipc4-pcm: set pcm rate to dai setting
+b85f4fc40d56f69ee8e2ca99f202fb287bd767c9 ASoC: SOF: add ipc4 SRC module support
+dc6137a56a7227da6e0d4cff6dfb952173403e71 ASoC: SOF: ipc4-topology: set domain bit based on dp domain type
+b9cb044f35fd5d6fdff92a0be23b020372525fef ASoC: SOF: ipc3-loader: Print out the non matching ext_man magic number
+27b196c19c5a10abf1bf5a379c1a6154a1686ec4 ASoC: SOF: Intel: atom: don't keep a temporary string in fixup_tplg_name
+ef05eb575ed98f32d380a6ac8ecdc865b0f4e146 ASoC: SOF: Intel: hda: don't set fw_filename
+054d1fd1380a88e64fadee38771e311184db544a ASoC: SOF: Intel: hda: only fixup topology name if not set already
+bdcf7926fab202d37bfc8e17f1c8ed5d2e611404 ASoC: SOF: probes: rename assign/free callbacks as startup/shutdown
+321add801bcd186c6b5477c0857521e127dbf016 ASoC: SOF: Intel: hda-stream: test DMA buffer first in hw_params
+16824dffcf616b829e4aca3a06f45c0ad743a99c ASoC: SOF: Intel: updates and cleanups
+
+--===============0298179693621442536==--
