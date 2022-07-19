@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0774704575731348414=="
+Content-Type: multipart/mixed; boundary="===============7938504375871644467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Jul 2022 03:07:39 -0000
-Message-Id: <165820005927.9716.12457808415314056847@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 03:07:53 -0000
+Message-Id: <165820007357.9825.2349130796489068667@gitolite.kernel.org>
 
---===============0774704575731348414==
+--===============7938504375871644467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7a66e9527da39d38cb8745cdecec093c3756b1e0
-    new: 92e1f7b89cb935dfd3896e7c002c4286ac6c2d09
-    log: revlist-7a66e9527da3-92e1f7b89cb9.txt
+  - ref: refs/heads/5.20/scsi-staging
+    old: f095c3cd1b694a73a5de276dae919f05a8dd1811
+    new: 70f58e3e07e6cd81be1e83a8010534f73a3d7d5b
+    log: revlist-f095c3cd1b69-70f58e3e07e6.txt
 
---===============0774704575731348414==
+--===============7938504375871644467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1658200049 -0400
+pusher 75C5DE3D 1658200064 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1658200049-ec0b4a778f22633103479a0920f8d5effdc05633
+nonce 1658200063-1d6d3b3af327504c3aea784383c7886ceaac5d22
 
-7a66e9527da39d38cb8745cdecec093c3756b1e0 92e1f7b89cb935dfd3896e7c002c4286ac6c2d09 refs/tags/mkp-scsi-staging
+f095c3cd1b694a73a5de276dae919f05a8dd1811 70f58e3e07e6cd81be1e83a8010534f73a3d7d5b refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLWH/EACgkQ7ulgGnXF
-3j301BAAmE2m2GY+5EM4BRtCRpB7rknl1cyJcBQ69fknmJz+p7BM/T4KX9OIzd47
-qYTmC0Y9sGrWAHcmH6ZLcUBybaSRFNOpkc0YpFgjx15QkOmMPYjDcVXepa+QOVqI
-PbUlkgpIR0029M/I0qmthH38zIj8O5o8QLz6zpkHKpMSj56InjY+0PRURRRQODk0
-aAk3rBKGWXrjRSrJG49gAh2w/jCRpy8vuDWESc4g90tXzijFFtRgj9W4zNrmCOhs
-limBg29GvgCYpai+haGh1kAcHvcvrY369mvwYwAjspB0RX0m5XopISPb2aTOnucC
-WBxuJDQHENZK4yRRbneWc5UaBfze+UbZEZn5qW7yw4eFMFVCtjzhcUNDVO/xZm6M
-XTv/7XRoX+fWu4yQ+Czf+vcbCAs9TKMvdGbnFHmGlREgINgDGzZh/a5a0zLkbWf5
-s3dK0Omo6GZE4zlezJld2r6XZsc2YafGyoOVcWTA3MB1qpHGlW78rNuYvXIirQxR
-WJmcrsUomqfCEmEnoMyRziDBfBOay3DxEX9rBtGTgHtNOSdzdm965iMJ69FE7nwd
-+SO/yVQifokB+EtzjVi1hJhjdxWAK+LFCJGgZ4GNGUBXhoIltN9dAc5N/msZjQuR
-/KvXZkTJpg494lvUz+kevRRwReakr9TpqeUqGqkJlZD1HYidNZQ=
-=xCLE
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLWIAAACgkQ7ulgGnXF
+3j0c9hAAh1opV+fmGGWo7ufQILnUNSmOUFSlDZFNTWT4TET7h7l3OFJk5DyVv6Qw
+R5zeuvk4yjoBOQ9GHVmaU3xQlD1nWn/LKar8KToY1BdiWqZpKV0SOhWfKQAHjNqK
+WXkGZzJmJIVFBa1vkdfYLYvdGo8vDQBrrcBkXPFISCHbF6D3FjU0e7F/m0+6uotr
+h+obzbFf+BcI6Aj+FwvDKPsRRvmnsS8UE91wb5QMEF5Wb7afw0DOzxrboyEaBFeV
+FYwPbrqSTO4IZ7wHoam56cHXFpZb/Cm4hlO5XDDkS/HvVNJNgOZBwbusMweU5kJ6
+IosSOWHmWikxRPNQFER83O0R69YINP+OhhN8vaX3qF7oJKcHT+rOmI5Ocy/AXxeC
+tWOK/DcyULNMBjPuhUvnb1Kr2Ftd559jKiWq5bdATZrT1XfOxJgTCc9QlgZWTQ2q
+vzj9Fg7Lu0gBAvT8UNQTq3wzuAJTWST9ufH6AqofkNOZG+18hIEz9sAQywWyxLm3
+q/uWicMXpHF2XQauB1groWtRhjHs5qBi5YoM0uLbQ1XfuNoI4x9pRfH1OjDmNzoF
+yH20rXEQA6tFOB5QruMDNiaaE12p6/yBQjNhPULlRvROZmm77Fjsj6z4WjHO2XeA
+ttxwoLugPoYGlwb6VgbIN9OH9itqXRBF95mlfJl5T3ZFarorMJM=
+=4iw7
 -----END PGP SIGNATURE-----
 
---===============0774704575731348414==
+--===============7938504375871644467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a66e9527da3-92e1f7b89cb9.txt
+Content-Disposition: attachment; filename=revlist-f095c3cd1b69-70f58e3e07e6.txt
 
 5bc7b01c513a4a9b4cfe306e8d1720cfcfd3b8a3 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
 cf3b4fb655796674e605268bd4bfb47a47c8bce6 scsi: qla2xxx: Fix incorrect display of max frame size
@@ -84,4 +84,4 @@ ca452621b82916a81ea0f10f9f0158815f3365d0 scsi: ufs: core: Read device property f
 60936e2bb466381a65d7b196f8df68f1d464a384 scsi: sd: Enable modern protocol features on more devices
 70f58e3e07e6cd81be1e83a8010534f73a3d7d5b scsi: sd: Support multiple LBA ranges in an UNMAP command
 
---===============0774704575731348414==--
+--===============7938504375871644467==--
