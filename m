@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 19 Jul 2022 13:35:06 -0000
-Message-Id: <165823770697.28491.11047181306962348505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 19 Jul 2022 13:40:05 -0000
+Message-Id: <165823800515.31571.1701983252730686577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/mvebu/dt64
-    old: 0000000000000000000000000000000000000000
-    new: 8225663e0cd47a049267b9ef627d0b10f6bfc056
+  - ref: refs/heads/test
+    old: 292537119d2eabaefad2aa5130c70da6dc32edcf
+    new: 89132cbbfce9249a47730c3667c1896b2465d038
+    log: |
+         89132cbbfce9249a47730c3667c1896b2465d038 t/io_uring: display IOPS in millions if it gets large enough
+         
