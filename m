@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4830542495779346953=="
+Content-Type: multipart/mixed; boundary="===============3082177441303555023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
-Date: Tue, 19 Jul 2022 05:19:41 -0000
-Message-Id: <165820798156.26812.500884816423057837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 19 Jul 2022 05:20:53 -0000
+Message-Id: <165820805321.28687.4120415286643008820@gitolite.kernel.org>
 
---===============4830542495779346953==
+--===============3082177441303555023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/mdadm
-user: colyli
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/20220621-testing
-    old: d36eed20d9cc7d3a12411294036f156f52122240
-    new: 622e707d6a6964447836f9e8aeda8b566d3c6b50
-    log: revlist-d36eed20d9cc-622e707d6a69.txt
+  - ref: refs/heads/for-next
+    old: 2157f5caaed59128d70a1dd72f5ec809cad54407
+    new: 03905ac2852c577c9d863ed92fa6cc8ffabb2c7b
+    log: revlist-2157f5caaed5-03905ac2852c.txt
 
---===============4830542495779346953==
+--===============3082177441303555023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d36eed20d9cc-622e707d6a69.txt
+Content-Disposition: attachment; filename=revlist-2157f5caaed5-03905ac2852c.txt
 
-d459455bc37d0992254bd8ed044c4d5a2768014e Makefile: Don't build static build with everything and everything-test
-aedfe5ea2c7aa7ecf8e24497b59fd88ae8bca35a DDF: Cleanup validate_geometry_ddf_container()
-9a88865a2ac6414992cedfa8b5c35eb809402d44 DDF: Fix NULL pointer dereference in validate_geometry_ddf()
-c315ef8b2848d4583dd8bb6a8cc552e11e42a52a mdadm/Grow: Fix use after close bug by closing after fork
-14fee0f92dc98df2cf874d1cd5b07493877f28b1 monitor: Avoid segfault when calling NULL get_bad_blocks
-25ff7c3b02353147dd86b4dd8de1e4a67684e8d7 mdadm: Fix mdadm -r remove option regression
-2fdb14457c5b15ef2cc6e39b953f091ead86299b mdadm: Fix optional --write-behind parameter
-67835b69027bc633f7664d3bea7361204605197b tests/00raid0: add a test that validates raid0 with layout fails for 0.9
-5b0762c2e7ba5979095a8cf4efe71716202eff7a tests: fix raid0 tests for 0.90 metadata
-64c59d95ab607a2ba61d516818da96e5d985cc96 tests/04update-metadata: avoid passing chunk size to raid1
-688d8c936d84c532d72dc652643519df102e3826 tests/02lineargrow: clear the superblock at every iteration
-1158ee354e4014fd652fae0dbc3c94ab3718e9ef mdadm/test: Add a mode to repeat specified tests
-dec4292468db3dae1584c32874586b68b7fb8acc mdadm/test: Mark and ignore broken test failures
-3755c72de9484d7118c4710deea3fc23db349f2f tests: Add broken files for all broken tests
-e033d141d9631f90769eab734592ad648c888401 Grow: Split Grow_reshape into helper function
-faf3cdd94bd9b021c249c1be540549e581cf12bf mdadm: Don't open md device for CREATE and ASSEMBLE
-2759734fb6e558cb62d21694779b2fe42993e9a7 super1: report truncated device
-30a87c36805dff5f6465d9752efde4bbfdd89880 Assemble: check if device is container before scheduling force-clean update
-6f701b779e7e24ae65dfaf3c05164b32e9fbc4ce mdadm: replace container level checking with inline
-622e707d6a6964447836f9e8aeda8b566d3c6b50 mdadm: enable Intel Alderlake RSTe configuration
+137d264c6f63f5b57200b8becb00d7cc58163c05 RDMA/irdma: Add 2 level PBLE support for FMR
+26bf0190329891a034b69b72f98ca4c4aad3f66b RDMA/irdma: Add AE source to error log
+36a26d123919997c113ac0182f926b21ccc85855 RDMA/irdma: Make CQP invalid state error non-critical
+c8c7c0758101b393017614352b6f07be6b8e6396 RDMA/irdma: Make resource distribution algorithm more QP oriented
+8ecef7890b3aea78c8bbb501a4b5b8134367b821 RDMA/irdma: Fix a window for use-after-free
+82ab2b52654c43ba24a3f6603fec40874cc5a7e5 RDMA/irdma: Fix VLAN connection with wildcard address
+3a844596ed71b7c12ac602f6f6b7b0f17e4d6a90 RDMA/irdma: Fix setting of QP context err_rq_idx_valid field
+b577ea54ac0e7823d04151cb7c3a2ae24fae76a3 RDMA/qib: Use the bitmap API to allocate bitmaps
+e471eedd94d95a183ed57f5875ec1a476f1442a4 RDMA/rtrs-clt: Use the bitmap API to allocate bitmaps
+fc4114736f5a4d642ed9d2a2062b3701e0ffc991 RDMA/rtrs-clt: Use bitmap_empty()
+aeea6cc067525103301fb7a6ba5c861b631f2086 RDMA: remove useless condition in siw_create_cq()
+ed6e53820ee4f68ed927de17e5675ff2a07a47e2 RDMA/rtrs-srv: Fix modinfo output for stringify
+861703b4c76e645949b7a42bbcc48cf775fd45d4 RDMA/rtrs-clt: Use this_cpu_ API for stats
+f4e1357184a5759f97fa69adadf5206ad9e3edd2 RDMA/rtrs-srv: Use per-cpu variables for rdma stats
+c14adff285ad1bb8eefc5d8fc202ceb1f7e3a2f1 RDMA/rtrs-clt: Replace list_next_or_null_rr_rcu with an inline function
+46195de38abf196e5799bd02b3ae88faf084d161 RDMA/rtrs-srv: Do not use mempool for page allocation
+82319639cd6fe436be0bb6e9277ded13d14261c0 RDMA/irdma: Use the bitmap API to allocate bitmaps
+e39c600049d0822284da2cef3bd7ced40dc3524f RDMA/hfi1: Depend on !UML
+b3236a64ddd125a455ef5b5316c1b9051b732974 RDMA/qedr: Fix potential memory leak in __qedr_alloc_mr()
+f5c25465b4f7d3badcaa5bf4a6f82f5763865b19 RDMA/hns: Remove unused abnormal interrupt of type RAS
+d95e0a0c6c9602ff6bb90c1c20987b204493d8e1 RDMA/hns: Fix the wrong type of return value of the interrupt handler
+ecb4db5c3590aa956b4b2c352081a5b632d1f9f9 RDMA/hns: Fix incorrect clearing of interrupt status register
+75e4e716f7089558fda4ddc660fa8dbdec4eb1d3 RDMA/hns: Refactor the abnormal interrupt handler function
+2de949abd6a539fac4b2c89a560e4ae505b6fb52 RDMA/hns: Recover 1bit-ECC error of RAM on chip
+3056fc6c32e613b760422b94c7617ac9a24a4721 RDMA/siw: Fix duplicated reported IW_CM_EVENT_CONNECT_REPLY event
+37da51efe6eaa0560f46803c8c436a48a2084da7 RDMA/rxe: Fix BUG: KASAN: null-ptr-deref in rxe_qp_do_cleanup
+882736fb3b55a48908134d41aceeea8b0ef3385b RDMA/rxe: Add common rxe_prepare_res()
+548c56dd2e55005496160497b8f04595123bbd84 RDMA/rxe: Rename rxe_atomic_reply to atomic_reply
+03905ac2852c577c9d863ed92fa6cc8ffabb2c7b RDMA/rxe: Remove unused mask parameter
 
---===============4830542495779346953==--
+--===============3082177441303555023==--
