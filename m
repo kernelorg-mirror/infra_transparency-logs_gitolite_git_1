@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 19 Jul 2022 13:40:05 -0000
-Message-Id: <165823800515.31571.1701983252730686577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 19 Jul 2022 13:45:15 -0000
+Message-Id: <165823831584.2369.15306974032041631127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/test
-    old: 292537119d2eabaefad2aa5130c70da6dc32edcf
-    new: 89132cbbfce9249a47730c3667c1896b2465d038
-    log: |
-         89132cbbfce9249a47730c3667c1896b2465d038 t/io_uring: display IOPS in millions if it gets large enough
-         
+  - ref: refs/heads/nuvoton/newsoc
+    old: 0000000000000000000000000000000000000000
+    new: 45472f1e5348c7b755b4912f2f529ec81cea044b
