@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
-Date: Tue, 19 Jul 2022 02:27:19 -0000
-Message-Id: <165819763931.16998.169693491762864309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
+Date: Tue, 19 Jul 2022 02:53:43 -0000
+Message-Id: <165819922312.480.4333911704622191783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbusch/linux
-user: kbusch
+repo: pub/scm/linux/kernel/git/kuba/linux
+user: kuba
 changes:
-  - ref: refs/heads/dma-register
-    old: 50a6f6bb876e20cc10372a5b8315924a493f6bf7
-    new: 9de6909fed20955193275bbf9c75ccc85553b7d8
-    log: |
-         9de6909fed20955193275bbf9c75ccc85553b7d8 dma-prereg: add memory cleanup
-         
+  - ref: refs/heads/io_uring-zerocopy-send
+    old: 0000000000000000000000000000000000000000
+    new: 8641de8ad42c2955171650b26a093f328aa072ad
