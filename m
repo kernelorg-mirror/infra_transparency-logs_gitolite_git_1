@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4749491247021588258=="
+Content-Type: multipart/mixed; boundary="===============2553376401626359638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 19 Jul 2022 16:29:18 -0000
-Message-Id: <165824815888.6621.4806587046269677443@gitolite.kernel.org>
+Date: Tue, 19 Jul 2022 16:29:26 -0000
+Message-Id: <165824816604.6777.290176790801899865@gitolite.kernel.org>
 
---===============4749491247021588258==
+--===============2553376401626359638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c32349f3257f329a01e776e02b577bf7af97f30b
-    new: b3fcfc4f0c50a716487fd7ebd0e6b64a2db29d76
-    log: revlist-c32349f3257f-b3fcfc4f0c50.txt
+  - ref: refs/heads/dev-queue
+    old: 1e98ba7553c32af5b028d8f6053ca865919dfbb8
+    new: 0c128c5d8932ccf1a80dfdd6e5a3bbb10d1bfed2
+    log: revlist-1e98ba7553c3-0c128c5d8932.txt
 
---===============4749491247021588258==
+--===============2553376401626359638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c32349f3257f-b3fcfc4f0c50.txt
+Content-Disposition: attachment; filename=revlist-1e98ba7553c3-0c128c5d8932.txt
 
 45533a534a45cb12c20c81615d17306176cb1c57 net: lan966x: Fix taking rtnl_lock while holding spin_lock
 43243bb3195b0dc27741679471e23baed1efe98e net: lan966x: Fix usage of lan966x->mac_lock when entry is added
@@ -51,5 +51,23 @@ d7241f679a59cfe27f92cb5c6272cb429fb1f7ec be2net: Fix buffer overflow in be_get_m
 e882827d5b8942a27b4d28548aa27562a3a7e94c amt: drop unexpected multicast data
 989918482bbccbbce3ba2bb9156eb4c193319983 amt: do not use amt->nr_tunnels outside of lock
 b3fcfc4f0c50a716487fd7ebd0e6b64a2db29d76 Merge branch 'amt-fix-validation-and-synchronization-bugs'
+4b3a42596bf3f79b60efc3d0d4f44449a1092583 ice: prevent low-core machines crashing on DCB config
+b6b75b8d31105da936b3daf40498e8cb37b5125f i40e: Fix interface init with MSI interrupts (no MSI-X)
+6811bbe954457f1b458a6169546125cc69a925ef iavf: Fix VLAN_V2 addition/rejection
+dcc460cdaed05a9fcea76f8484506cac5c56945d iavf: Fix max_rate limiting
+af539dafbf7ed6b10523553a248a5441399f3a7a iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+d429dcb94bb850012d764ec3a97ccae32d9160fc iavf: Fix missing state logs
+7e42c81f0510d4f51143e018e7b685d2cfc6f920 iavf: Fix 'tc qdisc show' listing too many queues
+3b23e00cbf5e1aac949cc6379e288262c1f04375 iavf: validate dest MAC and VLAN from tc-filter code path
+f8840be0621ba00716e3a665a6bd192b56087fdb iavf: enable tc filter configuration only if hw-tc-offload is on
+849350f0f6ec6e17ed61b5fd8dbb060c6b7433da iavf: Fix handling of dummy receive descriptors
+2113c01648c251f76a372dbbd75004b19845519d ice: Fix max VLANs available for VF
+5a577b78cee99d26d7d73181c1c194b73cde2987 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+4bb080837e34e79bbdcab9a08f542c9bc6fe9f38 ice: do not setup vlan for loopback VSI
+512bc070439a529343161b997808fbb283a07753 ice: Fix double VLAN error when entering promisc mode
+96c31d9283125bf3f641b12aa69d2cd281e97415 ice: Ignore -EEXIST when setting promisc mode
+beb943a966caeb3364a3558e594f5157534f9fe6 ice: Fix clearing of promisc mode with bridge over bond
+12a7d9da418279ae52eab146a031f7f266be231d ice: xsk: use Rx ring when picking NAPI context
+0c128c5d8932ccf1a80dfdd6e5a3bbb10d1bfed2 ice: Fix VSI rebuild WARN_ON check for VF
 
---===============4749491247021588258==--
+--===============2553376401626359638==--
