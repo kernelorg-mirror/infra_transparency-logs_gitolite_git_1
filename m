@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 19 Jul 2022 17:53:23 -0000
-Message-Id: <165825320324.29161.12181765378022284847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 19 Jul 2022 17:57:36 -0000
+Message-Id: <165825345671.32037.12290568624732824692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 68691bad98eeb29342c3c4ac4abc90f9edef79bb
-    new: 0c6ab0ca9a662d4ca9742d97156bac0d3067d72d
+  - ref: refs/heads/md-next
+    old: f8584a43b407dc0b7277e722a4b7fbca9f4bee44
+    new: e6b0075be44e5d0431d4463d4feba2edba8e8d24
     log: |
-         f484da847a01936e1d087a80cc96e8254492527c net/mlx5: Expose the ability to point to any UID from shared UID
-         6c27c56cdc69608211617eea217e1a6cecccc675 net/mlx5: fs, expose flow table ID to users
-         b0bb369ee451323968b31392a86398f15a2ba183 net/mlx5: fs, allow flow table creation with a UID
-         43038d8418a386ffe8d8c8a7766cd90e9a7d6e86 Merge branch 'mlx5-next' into wip/leon-for-next
-         e74d2e4dfd0dd05e10c2e4b6d75ddb17e753b78a RDMA/mlx5: Refactor get flow table function
-         0c6ab0ca9a662d4ca9742d97156bac0d3067d72d RDMA/mlx5: Expose steering anchor to userspace
+         a3f2cc059b5708a9b29c264cf99620b0f03c5577 md: fix mddev->kobj lifetime
+         2be675e8bef924ec372e50460eb133c07f801ec9 md: fix error handling in md_alloc
+         0a30505e76295943382707382942ec7323d4100f md: implement ->free_disk
+         4f9adca20e57d2ce47c4363b840936bac8c7d5d4 md: rename md_free to md_kobj_release
+         27380eadf773a87723b2fcbe66c7b9c71a7ea023 md: factor out the rdev overlaps check from rdev_size_store
+         d283ce08f405b661992a0d10c20f6d023920da68 md: stop using for_each_mddev in md_do_sync
+         ad28078f0bdd4be9512222f51723c89df297997c md: stop using for_each_mddev in md_notify_reboot
+         09380d89d3b9bd2915239538d982ce80a8d9d485 md: stop using for_each_mddev in md_exit
+         221ad216459846c03ecd2ff19963f4cd69d286b3 md: only delete entries from all_mddevs when the disk is freed
+         e6b0075be44e5d0431d4463d4feba2edba8e8d24 md: simplify md_open
          
