@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 19 Jul 2022 09:26:19 -0000
-Message-Id: <165822277919.18650.7018494408215794687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 19 Jul 2022 09:30:40 -0000
+Message-Id: <165822304093.21616.8322580353103775781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: tudor.ambarus
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 92714596cdbe2ec1da739b674716633076916336
-    new: 90c517f435a9e469cceb7b1985ba92011c2e26aa
+  - ref: refs/heads/gpio/for-next
+    old: d042656a2170ce1b0d1a72d81a99bc93f0170358
+    new: c4371c56397340134c1827ab70dbf817dbb1b99b
     log: |
-         90c517f435a9e469cceb7b1985ba92011c2e26aa mtd: spi-nor: micron-st: Skip FSR reading if SPI controller does not support it
+         c4371c56397340134c1827ab70dbf817dbb1b99b gpio: remove VR41XX related gpio driver
          
