@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 20 Jul 2022 04:19:04 -0000
-Message-Id: <165829074481.2873.3109376341419445897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 20 Jul 2022 04:21:52 -0000
+Message-Id: <165829091220.5252.2569446160322189801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/dev
-    old: 7eca08190bb7c826d0f992b6cc62772058d005af
-    new: af4ac592f87f0ac39d1c27fcbe880d37f725b907
+  - ref: refs/heads/for-next
+    old: b49816611eaceb66a00c8b18e6d7bcee63eba86b
+    new: 8916c9054f940acbd735e33067e8a7e5a06f8834
     log: |
-         445f6160e4a2e7f2d20f673657596a331852bd15 platform/chrome: merge Kunit utils and test cases
-         af4ac592f87f0ac39d1c27fcbe880d37f725b907 platform/chrome: cros_kunit_util: add default value for `msg->result`
+         869d40bdfca05e67ac6979535c485ab2c8fccc63 riscv: cpu_ops_sbi: Add 64bit hartid support on RV64
+         c029e487e7c00e5594a4ae946952605db34e359b riscv: spinwait: Fix hartid variable type
+         62750eae410cf20b7d040395064bac547cfdf540 riscv: smp: Add 64bit hartid support on RV64
+         ad635e723e17379b192a5ba9c182e3eedfc24d16 riscv: cpu: Add 64bit hartid support on RV64
+         171549f829dfebf1f44ffa76d3191bdc032d4cdb riscv/efi_stub: Add 64bit boot-hartid support on RV64
+         8916c9054f940acbd735e33067e8a7e5a06f8834 RISC-V: Support for 64bit hartid on RV64 platforms
          
