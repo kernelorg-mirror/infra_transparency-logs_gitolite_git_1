@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2149742888426451044=="
+Content-Type: multipart/mixed; boundary="===============0054487734643562052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 20 Jul 2022 12:50:56 -0000
-Message-Id: <165832145666.6891.14099955357046783751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 20 Jul 2022 12:51:06 -0000
+Message-Id: <165832146640.7018.7254775977845562261@gitolite.kernel.org>
 
---===============2149742888426451044==
+--===============0054487734643562052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 3b87ed7ea4d598c81a03317a92dfbd59102224fd
     new: 4ee7eaa411ee24d07fa83d97ca03fa6725c40d04
     log: revlist-3b87ed7ea4d5-4ee7eaa411ee.txt
-  - ref: refs/heads/stable
-    old: 80e19f34c2887a8881084b7bb7480e9544d56b91
-    new: ca85855bdcae8f84f1512e88b4c75009ea17ea2f
-    log: |
-         5e8afb8792f3b6ae7ccf700f8c19225382636401 RDMA/irdma: Do not advertise 1GB page size for x722
-         cc0315564d6eec91c716d314b743321be24c70b3 RDMA/irdma: Fix sleep from invalid context BUG
-         ca85855bdcae8f84f1512e88b4c75009ea17ea2f Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-         
-  - ref: refs/tags/next-20220420
-    old: 41a07f3ab7a4ea34c97b4610c10a8ee8ffac1b45
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220720
     old: 0000000000000000000000000000000000000000
     new: e85a570a86d3fc5734a0c3525139ed6f2ba14df1
 
---===============2149742888426451044==
+--===============0054487734643562052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1006,4 +995,4 @@ ac571200aadeb615b6c79cc1e3236db44ba4660c fix up for "io_uring: sendzc with fixed
 2ce59e6758183b9dbde0b3a70e01fc5a0e1681b6 Revert "asm-generic: correct reference to GENERIC_LIB_DEVMEM_IS_ALLOWED"
 4ee7eaa411ee24d07fa83d97ca03fa6725c40d04 Add linux-next specific files for 20220720
 
---===============2149742888426451044==--
+--===============0054487734643562052==--
