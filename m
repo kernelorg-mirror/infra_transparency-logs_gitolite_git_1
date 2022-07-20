@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 20 Jul 2022 12:35:46 -0000
-Message-Id: <165832054676.29696.294701328895719106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 20 Jul 2022 12:46:47 -0000
+Message-Id: <165832120778.3923.10926740080529055713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: b8c768ccdd8338504fb78370747728d5002b1b5a
-    new: f63731e18e8d8350e05b0176e39a76639f6483c7
+  - ref: refs/heads/master
+    old: 23b628c715a54b78335a1e0479f21f4814264e17
+    new: 76831a4bb884a47c2cbd40550d8a1796663b82ec
     log: |
-         f63731e18e8d8350e05b0176e39a76639f6483c7 selftests: gpio: fix include path to kernel headers for out of tree builds
+         d3e46cf2466e62f286e7922abab32e10ecd93cd9 loff_t.3type, off64_t.3type, off_t.3type, system_data_types.7: Move off_t and off64_t to separate page, and document loff_t
+         76831a4bb884a47c2cbd40550d8a1796663b82ec id_t.3type: wfix
          
