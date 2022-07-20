@@ -1,39 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4973893160864556299=="
+Content-Type: multipart/mixed; boundary="===============1722880255813770341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Wed, 20 Jul 2022 19:44:22 -0000
-Message-Id: <165834626276.6467.6021155813140877031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 20 Jul 2022 19:44:43 -0000
+Message-Id: <165834628382.6708.2577755890021936899@gitolite.kernel.org>
 
---===============4973893160864556299==
+--===============1722880255813770341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/testme
-    old: 05261b16cce7258a0a12ea45fa09521d35c7e5ec
-    new: 4dd6229a3a99a483596414664fc2170243c5184d
-    log: revlist-05261b16cce7-4dd6229a3a99.txt
+  - ref: refs/heads/tmp.perf/core
+    old: 0d2997f750d1de394231bc22768dab94a5b5db2f
+    new: 41d0914d861e82b4eeec16dd0f6109c311cf4c7e
+    log: revlist-0d2997f750d1-41d0914d861e.txt
 
---===============4973893160864556299==
+--===============1722880255813770341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05261b16cce7-4dd6229a3a99.txt
+Content-Disposition: attachment; filename=revlist-0d2997f750d1-41d0914d861e.txt
 
-c28d76d360f9f7af1f910342bde27939873bc45e drm/msm/dpu: Increment vsync_cnt before waking up userspace
-0769d0a7ae3c26c0f2210578f83b3d1b30391601 drm/msm/dp: reset drm_dev to NULL at dp_display_unbind()
-eb174bd875ae504cdc1b5b209da288fffb1e5128 drm/msm/dpu: Fix variable dereferenced before check
-61b6e2e5321da281ab3c0c04e1962b3d000f6248 dm: fix BLK_STS_DM_REQUEUE handling when dm_io represents split bio
-90736eb3232d208ee048493f371075e4272e0944 dm mirror log: clear log bits up to BITS_PER_LONG boundary
-ba461afbef604f58e05676ca38c2a599f073f296 Merge tag 'random-5.19-rc4-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
-92f20ff72066d8d7e2ffb655c2236259ac9d1c5d Merge tag 'pm-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-b376471fb47d4905e72fe73e9eeed228f8f2f230 cpufreq: amd-pstate: Add resume and suspend callbacks
 c7e1c443584ddd7facffca00e9e23b0d084e5bb3 gpio: Fix kernel-doc comments to nested union
 7cf2b0f9611b9971d663e1fc3206eeda3b902922 xfs: bound maximum wait time for inodegc work
 5e672cd69f0a534a445df4372141fd0d1d00901d xfs: introduce xfs_inodegc_push()
@@ -696,37 +688,6 @@ fc976f5629afb4160ee77798b14a693eac903ffd ASoC: Intel: Skylake: Correct the handl
 a382f8fee42ca10c9bfce0d2352d4153f931f5dc signal handling: don't use BUG_ON() for debugging
 651a8536572ae0dcce608b3e6720ae844155a787 Merge tag 'pinctrl-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 ef4ab3ba4e4f99b1f3af3a7b74815f59394d822e Merge tag 'net-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-4c3f73584c0c0152b75dd6a090558ada39601159 x86/sgx: Add short descriptions to ENCLS wrappers
-0fb2126db8414e0206960febb3e4a116439c69dd x86/sgx: Add wrapper for SGX2 EMODPR function
-09b38d0b412dbf8922b3dc33103c1a1257519ab9 x86/sgx: Add wrapper for SGX2 EMODT function
-61416b294af02e4747554c0d1b28d436a4a537d2 x86/sgx: Add wrapper for SGX2 EAUG function
-b3fb517dc6020fec85c82171a909da10c6a6f90a x86/sgx: Support loading enclave page without VMA permissions check
-7f391752d4adac10cfc1e5d7a76bab0ab5c9c9d4 x86/sgx: Export sgx_encl_ewb_cpumask()
-bdaa8799f697daa059bf807da40a9444de94d7e3 x86/sgx: Rename sgx_encl_ewb_cpumask() as sgx_encl_cpumask()
-f89c2f9bf5a64f619de06ded4349dff5a35da860 x86/sgx: Move PTE zap code to new sgx_zap_enclave_ptes()
-c7c6a8a61b0066ba7e891783032dc2a7873c6dc7 x86/sgx: Make sgx_ipi_cb() available internally
-dda03e2c331b9fc7bbc8fc0de12a6d92d8c18661 x86/sgx: Create utility to validate user provided offset and length
-8cb7b502f31e6cc4c6ebe2c5eeaa90dcab418cf1 x86/sgx: Keep record of SGX page type
-3a5351415228d06c988a1e610e71d3889f707ac9 x86/sgx: Export sgx_encl_{grow,shrink}()
-8123073c4335fcd18ea5e049b85220f122ac1ca3 x86/sgx: Export sgx_encl_page_alloc()
-a76e7f1f18884a94998ca82862c0a4e6d0fd2933 x86/sgx: Support VA page allocation without reclaiming
-ff08530a5232aab3b610db44cdc5045d26421911 x86/sgx: Support restricting of enclave page permissions
-5a90d2c3f5ef87717e54572af8426aba6fdbdaa6 x86/sgx: Support adding of pages to an initialized enclave
-7b013e723a1f689077347b30778d8831b6d92969 x86/sgx: Tighten accessible memory range after enclave initialization
-45d546b8c109d69f6659d58b2ace005b2f07f557 x86/sgx: Support modifying SGX page type
-9849bb27152c18e8531424c0a8ef5f51ece40aea x86/sgx: Support complete page removal
-a0506b3b063641f0a05b2a4399442a38aad22291 x86/sgx: Free up EPC pages directly to support large page ranges
-629b5155d01b699e50ee63a3973402c64d0ac5d6 Documentation/x86: Introduce enclave runtime management section
-20404a808593a6812cb485bec16256e702ff94c3 selftests/sgx: Add test for EPCM permission changes
-7088c81f94733fd5d103f8975d5e1d1fad12f665 selftests/sgx: Add test for TCS page permission changes
-67f1f70a23d117628d5cfc78bcdf8eb9d2d04874 selftests/sgx: Test two different SGX2 EAUG flows
-7eb4370152beb2f1e25543088bce2e3f0621ab81 selftests/sgx: Introduce dynamic entry point
-b564982fda13be6314e49f2344e7c422565e34d3 selftests/sgx: Introduce TCS initialization enclave operation
-33c5aac3bf32c3ef120ad6d2eb5c65ab64a5fec4 selftests/sgx: Test complete changing of page type flow
-50b822e4b785948ed663c89c84e124fc8c099c9b selftests/sgx: Test faulty enclave behavior
-35c7e6dacb038e9311e98901d56bb1abd56f9ae0 selftests/sgx: Test invalid access to removed enclave page
-08ceab2c37d32f422f8d98540656ee5a416ba729 selftests/sgx: Test reclaiming of untouched page
-6507cce561b43b071999502103804e3dc1478e60 selftests/sgx: Page removal stress test
 e8a4e1c1bb697b1d9fc48f0e56dc0f50bc024bee Merge tag 'loongarch-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 0326195f523a549e0a9d7fd44c70b26fd7265090 bpf: Make sure mac_header was set before using it
 0ed8f619b412b52360ccdfaf997223ccd9319569 netfilter: conntrack: fix crash due to confirmed bit load reordering
@@ -774,7 +735,6 @@ a501ab75e7624d133a5a3c7ec010687c8b961d23 tty: use new tty_insert_flip_string_and
 4a47c6385bb4e0786826e75bd4555aba32953653 ovl: turn of SB_POSIXACL with idmapped layers temporarily
 2dc94f06127f306201b10617df54ea7f265bcce9 Merge tag 'tee-fixes-for-v5.19' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
 2fdf15b50a46e366740df4cccbe2343269b4ff55 ARM: dts: at91: sama5d2: Fix typo in i2s1 node
-e0a5915f1cca21da8ffc0563aea9fa1df5d16fb4 x86/sgx: Drop 'page_index' from sgx_backing
 a4527e1853f8ff6e0b7c2dadad6268bd38427a31 btrfs: return -EAGAIN for NOWAIT dio reads/writes on compressed and inline extents
 2963457829decf0c824a443238d251151ed18ff5 btrfs: zoned: fix a leaked bioc in read_zone_info
 b3a3b0255797e1d395253366ba24a4cc6c8bdf9c btrfs: zoned: drop optimization of zone finish
@@ -837,8 +797,6 @@ fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
 88573389aaa34640b9ecde15622c68e8737d8f8c riscv: Fix missing PAGE_PFN_MASK
 be82abe6a76ba8e76f25312566182b0f13c4fbf9 RISC-V: KVM: Fix SRCU deadlock caused by kvm_riscv_check_vcpu_requests()
 e87197fbd137c888fd6c871c72fe7e89445dd015 drm/i915/gvt: IS_ERR() vs NULL bug in intel_gvt_update_reg_whitelist()
-5e8afb8792f3b6ae7ccf700f8c19225382636401 RDMA/irdma: Do not advertise 1GB page size for x722
-cc0315564d6eec91c716d314b743321be24c70b3 RDMA/irdma: Fix sleep from invalid context BUG
 50e2ab39291947b6c6c7025cf01707c270fcde59 wifi: mac80211: fix queue selection for mesh/OCB interfaces
 166d3863231667c4f64dee72b77d1102cdfad11f xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
 5c835bb142d4013c2ab24bff5ae9f6709a39cbcf mptcp: fix subflow traversal at disconnect time
@@ -1047,8 +1005,50 @@ ced7866db39fc5c59ee05e154d4abc0977a17f6b drm/i915/ttm: fix 32b build
 f7f4da303dd8946228860e78bd7f36c2cc47a636 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 55ea9bd666887ed4159df38d1494c204246cf2bc Merge tag 'drm-intel-fixes-2022-07-17' of git://anongit.freedesktop.org/drm/drm-intel
 ff6992735ade75aae3e35d16b17da1008d753d28 Linux 5.19-rc7
-80e19f34c2887a8881084b7bb7480e9544d56b91 Merge tag 'hte/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux
-ca85855bdcae8f84f1512e88b4c75009ea17ea2f Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-4dd6229a3a99a483596414664fc2170243c5184d Merge remote-tracking branch 'origin/master' into test
+0698461ad2984892a47582a58eb235488d3aac7f Merge remote-tracking branch 'torvalds/master' into perf/core
+a6bd98c45d1aeec59493617b02a86de39d384535 perf buildid-list: Add a "-m" option to show kernel and modules build-ids
+68566a7cf56bf3148797c218ed45a9de078ef47c perf tools: Fix dso_id inode generation comparison
+163dac34d7a22b4fd980e4d00459a07090f8b9af perf tools: Export dsos__for_each_with_build_id()
+f8bcf1e223ad08a4f0d45369a749c58c9bcd5f3c perf ordered_events: Add ordered_events__last_flush_time()
+eddc6e3f6684597924f368cb564d7432b2f7d23e perf tools: Export perf_event__process_finished_round()
+0a64de04c94ad4285120bed0dfb382ea98d6d499 perf tools: Factor out evsel__id_hdr_size()
+1ee94463e9ac4721cfef27ffcd6f97ab026e3aac perf tools: Add perf_event__synthesize_id_sample()
+57190e38b00d25abba9631b8db53740fce4baced perf script: Add --dump-unsorted-raw-trace option
+15fe03621d9df90c23de7a2099b692e2da344cde perf buildid-cache: Add guestmount'd files to the build ID cache
+c1fd5b7d8aed8104d5189c3d55545d67f9149bb6 perf buildid-cache: Do not require purge files to also be in the file system
+b47bb18661eaed30790d70b7563a5220b3c59594 perf tools: Add machine_pid and vcpu to id_index
+ff7a78c210ed90bed915df55cc56876d4151c5ac perf session: Create guest machines from id_index
+797efbc523b37de29dc533a8561d34b97deb42e4 perf tools: Add guest_cpu to hypervisor threads
+3461b65da7d48c57080d40e6b545f1360f0b195b perf tools: Add machine_pid and vcpu to perf_sample
+635049099582e45be4720722919912ca113c823c perf session: Use sample->machine_pid to find guest machine
+e28fb159f1163e76811b9b9024564c33027d9a44 perf script: Add machine_pid and vcpu
+2273e46b98377f563628d694a1ad49b5d11afb43 perf dlfilter: Add machine_pid and vcpu
+7151c1d17820c0cfcda0c890f55a868cb4336afc perf auxtrace: Add machine_pid and vcpu to auxtrace_error
+6de306b7a5304e873fd6fc014121bd8f19ec418f perf script python: Add machine_pid and vcpu
+13a133b2550e062bb2710e9dd3d9a6b794e91053 perf script python: intel-pt-events: Add machine_pid and vcpu
+386e0d83d351a4461525b06b845ffcd58235381e perf tools: Remove also guest kcore_dir with host kcore_dir
+65691e9ff0c90109dd7d9d495d9528ad4c1b82d4 perf tools: Make has_kcore_dir() work also for guest kcore_dir
+a5367ecb5353fbf28bfd3979fc4f61ddebec80b1 perf tools: Automatically use guest kcore_dir if present
+10d34700223b14ed94a6399cf026142956f87965 perf tools: Add reallocarray_as_needed()
+97406a7e4fa6e5cad3be80cd2188d8fb50a6ec75 perf inject: Add support for injecting guest sideband events
+eef8e06eeba83f919f3e06bbaed548038ba3b2fa perf machine: Use realloc_array_as_needed() in machine__set_current_tid()
+f42bbbf2e9a50cacc6981f7f8514b33d56d054ba perf tools: Handle injected guest kernel mmap event
+f9de2f0fd35f23564c9ab5e8c5873e9087042b64 perf tools: Add perf_event__is_guest()
+7c0b20d13f329f916b742ea3edaf6a685efa5c72 perf intel-pt: Remove guest_machine_pid
+12374a16223aff68ba85727da0fa4297e6b9ee97 perf intel-pt: Add some more logging to intel_pt_walk_next_insn()
+0bb82cf518779721993053888d61d9f6f2f97de7 perf intel-pt: Track guest context switches
+7d1f65b5046f859df39bbdc66582120315134935 perf intel-pt: Disable sync switch with guest sideband
+71658de4dda8e0e1cffca03e859cd96485105e42 perf intel-pt: Determine guest thread from guest sideband
+61cd9135d09bd2e1d87bef7d8af37f00ce043312 perf intel-pt: Add machine_pid and vcpu to auxtrace_error
+98759cca8440ac157963352d3fe8cf93c0062df6 perf intel-pt: Use guest pid/tid etc in guest samples
+2f1d6b41e2f57621bea63025d846d4d6720837c8 perf intel-pt: Add documentation for tracing guest machine user space
+557cc18ee7dc80b1de0c9f60de65ade92d2a134f perf gtk: Only support --gtk if compiled in
+ee87a0841aa538ab7ad49cf5679ac5ea2682c909 perf python: Avoid deprecation warning on distutils
+63a4354ae75c1a708f13fe2cb4600347f8ebe9c3 perf scripting perl: Ignore some warnings to keep building with perl headers
+c69d33ebfae2501393368e88baa438572aa56144 perf probe: Fix duplicated 'the' in comment
+2c91cd88f58bca622591af14f7cbb939a7422827 perf cs-etm: Fix duplicated 'the' in comment
+87abe344cd280802f431998fabfd35d2d340ca90 perf test: Fix test case 83 ('perf stat CSV output linter') on s390
+f077c77699553ba57444178c5c2ebafdffc8ad95 perf build: Avoid defining _FORTIFY_SOURCE multiple times
+41d0914d861e82b4eeec16dd0f6109c311cf4c7e perf python: Ignore unused command line arguments when building with clang
 
---===============4973893160864556299==--
+--===============1722880255813770341==--
