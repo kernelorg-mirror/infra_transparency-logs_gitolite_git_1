@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1722880255813770341=="
+Content-Type: multipart/mixed; boundary="===============1108616188272076909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 20 Jul 2022 19:44:43 -0000
-Message-Id: <165834628382.6708.2577755890021936899@gitolite.kernel.org>
+Date: Wed, 20 Jul 2022 19:45:03 -0000
+Message-Id: <165834630327.7886.4973710234737753091@gitolite.kernel.org>
 
---===============1722880255813770341==
+--===============1108616188272076909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/perf/core
     old: 0d2997f750d1de394231bc22768dab94a5b5db2f
     new: 41d0914d861e82b4eeec16dd0f6109c311cf4c7e
     log: revlist-0d2997f750d1-41d0914d861e.txt
 
---===============1722880255813770341==
+--===============1108616188272076909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c69d33ebfae2501393368e88baa438572aa56144 perf probe: Fix duplicated 'the' in com
 f077c77699553ba57444178c5c2ebafdffc8ad95 perf build: Avoid defining _FORTIFY_SOURCE multiple times
 41d0914d861e82b4eeec16dd0f6109c311cf4c7e perf python: Ignore unused command line arguments when building with clang
 
---===============1722880255813770341==--
+--===============1108616188272076909==--
