@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6562745299367517505=="
+Content-Type: multipart/mixed; boundary="===============3189699423152654903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 20 Jul 2022 15:33:31 -0000
-Message-Id: <165833121188.10727.7834942578571533216@gitolite.kernel.org>
+Date: Wed, 20 Jul 2022 15:33:42 -0000
+Message-Id: <165833122205.10851.9505358440267550176@gitolite.kernel.org>
 
---===============6562745299367517505==
+--===============3189699423152654903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1f17708b47a99ca5bcad594a6f8d14cb016edfd2
-    new: 5fb859f79f4f49d9df16bac2b3a84a6fa3aaccf1
-    log: revlist-1f17708b47a9-5fb859f79f4f.txt
+  - ref: refs/heads/dev-queue
+    old: 717eef757c4e973b8d5e16f1d38b3f29f61d4fc9
+    new: b06dd6eb880ab4610782a015d8991da66df9530a
+    log: revlist-717eef757c4e-b06dd6eb880a.txt
 
---===============6562745299367517505==
+--===============3189699423152654903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f17708b47a9-5fb859f79f4f.txt
+Content-Disposition: attachment; filename=revlist-717eef757c4e-b06dd6eb880a.txt
 
 a5fd39464a4081ce11c801d7e20c4551ba7cb983 igc: Lift TAPRIO schedule restriction
 fb24f341c7b977ca4d5993034ea9c5de9763446a igc: Remove MSI-X PBA Clear register
@@ -80,5 +80,45 @@ e70a3263a7eed768d5f947b8f2aff8d2a79c9d97 can: error: specify the values of data[
 ffcdd1197da61fd86528e41ea7d5cdb043761087 vmxnet3: Implement ethtool's get_channels command
 52323ef75414d60b17f683076833eb55a6bffa2b net: marvell: prestera: add phylink support
 5fb859f79f4f49d9df16bac2b3a84a6fa3aaccf1 net: ipa: initialize ring indexes to 0
+7444abb3ba8b68d33a28a5334455e918c407f483 ice: prevent low-core machines crashing on DCB config
+f58ae3513bd1919c70837987c094d09572accf6d e1000e: Enable GPT clock before sending message to CSME
+f4ee74af24f4ce2e55b9d0de93ede13d9adcb3d1 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+b6872eb762a48bb700530aa658dde76b6b759f57 i40e: Fix interface init with MSI interrupts (no MSI-X)
+d51d1008c2985c332b2d1f632f4c72891495e29c igc: Reinstate IGC_REMOVED logic and implement it properly
+2a980abae61a492f5f4013f3ddbc1c0f183f9841 i40e: Refactor tc mqprio checks
+b4387f0ace74e01b3a248ada9cb62370393eeea5 iavf: Fix VLAN_V2 addition/rejection
+5d496899d40b50604f56950cc23ef8d533986f6a iavf: Fix max_rate limiting
+7c91883fed00da902bd91865ba435913be811b0d iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+c32c9672fbe4fc1d75bfbc4f31cd26732b66c807 iavf: Fix missing state logs
+64b29c4ce5c9dcc6fcaeba838199350f9673ae50 iavf: Fix 'tc qdisc show' listing too many queues
+a4db31054456e7f762e0b8ac5b04b08558d99dc0 iavf: validate dest MAC and VLAN from tc-filter code path
+0444a7d826d51dff638b1df1abbefb96fa24e764 iavf: enable tc filter configuration only if hw-tc-offload is on
+94cfe9a20a9eb9ee726a696d90b9bcd1b5307071 i40e: Fix erroneous adapter reinitialization during recovery process
+9969ec8e5687f8084b77177634619decfdd94f54 iavf: Check for duplicate TC flower filter before parsing
+cab3f8874d80b3be3109ab83e347ff58c5eeb51c ice: add i2c write command
+81762d63b13b8e421a72b4c85e8a6a9607529b1d ice: add write functionality for GNSS TTY
+f731e867a4443eb61ddb3679cf9b35e3991057a2 iavf: Fix handling of dummy receive descriptors
+e50099cb4b63f27101db3bdad464a4aa4e9c4d3b ice: Fix max VLANs available for VF
+1c51ae5c2743a483e14d68055afefab94eb2b75a ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+54d45d088168976754d11b94ed2eaccc93379b08 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+1bc47980d32849090ac1f84872734b7e07f2962e ice: do not setup vlan for loopback VSI
+2b62e4c9a2258f592da72e8657a25dca46ef8ca8 ice: Fix double VLAN error when entering promisc mode
+27e08f78f2518571eb340504140de573fd1d7b7f ice: Ignore -EEXIST when setting promisc mode
+9364533c1113c952f054c9ca29b18cce4cd103c7 ice: Fix clearing of promisc mode with bridge over bond
+2e76c9c93ad4566c1dd21084087d580ce9fd530d ice: xsk: use Rx ring when picking NAPI context
+0c81ed0366334886e0b6b2c64053875f304077db ice: Introduce enabling promiscuous mode on multiple VF's
+5e7dea76c18d8248beb5dd02b75a9b17bc05c9f2 ice: Fix promiscuous mode not turning off
+7bfe3c1f5ad162a8da8e55b91c5618b3d7ab2a43 ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
+3d5d07a66a7515582ab5df41698153d91b3152df ice: Add support for ip TTL & ToS offload
+4136040b9f978daa0dc559c2c426316b99f24a40 ice: compress branches in ice_set_features()
+1c2c76f8c2ee7a4ff05dd6e7c04d321fe9ee8f67 ice: allow toggling loopback mode via ndo_set_features callback
+f74dbc6235e005ad282c50ef529f679c8ef13c38 ice: Implement control of FCS/CRC stripping
+51ffaf52c9be0576903edb4c73f548dc634d7a37 ice: Implement FCS/CRC and VLAN stripping co-existence policy
+4048e20a97fff694e9d6791ddfd8f800480b432a ice: Fix VSI rebuild WARN_ON check for VF
+88a07677ff78e678d35c7fc5100504985f5cb9ba igc: add xdp frags support to ndo_xdp_xmit
+5482f9e6c2cf3e9b61f41e2fd71002be5c1f1b85 ice: Fix tunnel checksum offload with fragmented traffic
+461f9cb2d1a32c0fb9155f9ea41235060a2fe319 iavf: Fix adminq error handling
+27d0378bcc6490ebdec9bc8cc1093823e2ca7179 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+b06dd6eb880ab4610782a015d8991da66df9530a iavf: Fix reset error handling
 
---===============6562745299367517505==--
+--===============3189699423152654903==--
