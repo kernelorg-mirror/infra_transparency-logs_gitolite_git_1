@@ -1,21 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 20 Jul 2022 14:26:33 -0000
-Message-Id: <165832719397.665.4206223411846275610@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7738567710861211024=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 20 Jul 2022 14:32:22 -0000
+Message-Id: <165832754296.4050.12311552931013341927@gitolite.kernel.org>
+
+--===============7738567710861211024==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: a809e811e9a593f890d4710432f6c66b32214cc6
-    new: 9f1ed5c1a612ea2f75035d626121d6baadd9246f
+  - ref: refs/heads/master
+    old: 54fef1025358a087012142580436b2a494ca8665
+    new: f0fad6ec193c39626e90d01dcbb6541c66b9fdef
     log: |
-         c904cda04482d5ab545e5a82cee6084078ef9543 genirq: Use for_each_action_of_desc in actions_show()
-         0fa72ed05ebf15323047219e56bb7effbd2d506a Merge branch irq/loongarch into irq/irqchip-next
-         9f1ed5c1a612ea2f75035d626121d6baadd9246f Merge branch irq/misc-5.20 into irq/irqchip-next
+         45aaaf33f00e3d05456394775802d7551b20757c submit: compress tracking data in the header
+         f0fad6ec193c39626e90d01dcbb6541c66b9fdef ez: refactor based on initial feedback
          
+
+--===============7738567710861211024==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1658327542 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1658327542-75264b96a96d3ccdfc3bc93b2850a25afdc9f0c4
+
+54fef1025358a087012142580436b2a494ca8665 f0fad6ec193c39626e90d01dcbb6541c66b9fdef refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYtgR9gAKCRC2xBzjVmSZ
+bCvgAP4qjI6nqJRiJC4DOitM5/dVheR//n/wqxV5feqd/M33dwEAg1tVMc9Ct3Wl
+Y4Wwukwi9x5JLfhaIhxzbQ1Tq+R2gw4=
+=NKxS
+-----END PGP SIGNATURE-----
+
+--===============7738567710861211024==--
