@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5341965372150808686=="
+Content-Type: multipart/mixed; boundary="===============1234675659562926599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 20 Jul 2022 23:11:44 -0000
-Message-Id: <165835870464.7236.8268607519268688186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 20 Jul 2022 23:11:51 -0000
+Message-Id: <165835871118.7333.7476380252309145913@gitolite.kernel.org>
 
---===============5341965372150808686==
+--===============1234675659562926599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/asoc-5.20
     old: b87ee706b83eea9020772706aa47a9bf497f0366
     new: bc6d2e305b41140e787fc6c21feab878baed0aa4
     log: revlist-b87ee706b83e-bc6d2e305b41.txt
 
---===============5341965372150808686==
+--===============1234675659562926599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1658358702 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1658358702-36ddab881545350b47c621b3355fa3b43f52871f
+pusher C3F436CA30F5D8EB 1658358709 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1658358708-3155c3c76ebcd7bf40b19d741b441f2e9a50192b
 
-b87ee706b83eea9020772706aa47a9bf497f0366 bc6d2e305b41140e787fc6c21feab878baed0aa4 refs/heads/for-5.20
+b87ee706b83eea9020772706aa47a9bf497f0366 bc6d2e305b41140e787fc6c21feab878baed0aa4 refs/heads/asoc-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLYi64ACgkQJNaLcl1U
-h9CO6Qf/VfIc2Zd3z/aDGqbzltHvYtKU/IPiFLL6feMBOUS7JZpupP6Zb4exYpi1
-WklWROEOFy9roamtOlx4MRTzC5L8Bg7FcpoR2tmILZqG6pF0bx9M1Qfca+CaGU6P
-JMzNjSUZYvoSCQaApP5raLK2o32eA+ST8hn5YRHrsqq8gfTdNwFFmTGByzYgleiL
-9ZLs52ZTA6jfRn/O+O7sjITlYYHxduCx0QqcKmjTEaWyKjmcchZe26DNuZ4Ik0Kc
-ektwbvH0F6oZswFvuaEj0Hqq9jT7U88vmaFdy7wTCYTMl9xTLLWCZMPlgvnx82YG
-fNadQy2CrrJ6cD3nAITeG++iTg9eEw==
-=5iEh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLYi7UACgkQJNaLcl1U
+h9Boqwf/ZhP81DMFs+yh/fSmrFhJBHPYrlxVNmkaFmEhnAN8eLR+f+FuQAZO6Ol7
+B9Pp4Aob/VMQBPJEYtbv22QK5cg+nBlf44p3ovmJEIG8IHYDZopUBQxpR04ZZ/gV
+Ar9FUQysnEi4H/8kT5n/24wzYlAR2NrpEZdcf49RGk+GJ+ZKi9mtnjVcHq21zMjL
+xAvh7zN/pnJAO0AARUZl1+kghfQ0NZ1wG+jWxS5zST6+qW1bf4lSVF2KevXZLl03
+lg7x0EkemFtZq1G/Ha6Ev2GAZGagrDPlsq7zJz/I88bV3fDjBaNNfPZf5rADBGTw
+gwKDrsPcWa8BlhxPAd7QEjGgD/bJ3w==
+=ZJW9
 -----END PGP SIGNATURE-----
 
---===============5341965372150808686==
+--===============1234675659562926599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ f4d92d9757e6b0adf24d227e414dac867555c9e2 ASoC: Makefile: Fix simultaneous build 
 cd57272c4e686d4ad2d2e775a40a3eac9f96ec7c ASoC: jz4740-i2s: Remove unused 'mem' resource
 bc6d2e305b41140e787fc6c21feab878baed0aa4 ASoC: mediatek: Add support for MT8186 SoC
 
---===============5341965372150808686==--
+--===============1234675659562926599==--
