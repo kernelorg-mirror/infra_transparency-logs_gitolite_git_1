@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
-Date: Wed, 20 Jul 2022 17:19:55 -0000
-Message-Id: <165833759514.11145.14972939296366007365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 20 Jul 2022 17:26:03 -0000
+Message-Id: <165833796393.16074.11914135256422176430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbusch/linux
-user: kbusch
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/dma-preregister-v2
-    old: 8dfa3ab5609c16c53df2288ed36bbf4242c222a3
-    new: feb5537a8951f6e4d8260549adc9c7045bd725d8
+  - ref: refs/heads/x86/urgent
+    old: 908fc4c2abdb1835f303cf6827e66676568943e7
+    new: efc72a665a61fd48c462f5248a9e3dc991398ddd
     log: |
-         feb5537a8951f6e4d8260549adc9c7045bd725d8 nvme-pci: sync memory as needed
+         65cdf0d623bedf0e069bb64ed52e8bb20105e2ba x86/alternative: Report missing return thunk details
+         eb23b5ef9131e6d65011de349a4d25ef1b3d4314 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+         efc72a665a61fd48c462f5248a9e3dc991398ddd lkdtm: Disable return thunks in rodata.c
          
