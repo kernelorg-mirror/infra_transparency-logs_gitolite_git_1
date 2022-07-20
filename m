@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 20 Jul 2022 20:39:15 -0000
-Message-Id: <165834955526.9074.14892730789512247415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 20 Jul 2022 20:40:25 -0000
+Message-Id: <165834962527.11019.15156871994280554940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/testing/for-next-fam1
-    old: e5b2fb004c584fe93ddde56fff6e699416096298
-    new: 6000a0296e3d32c25e0e618f96a79ca511b4e5de
+  - ref: refs/heads/master
+    old: 76831a4bb884a47c2cbd40550d8a1796663b82ec
+    new: 88796fd76e5e5feff6d3110cdc8bf5ccb03870cf
     log: |
-         6000a0296e3d32c25e0e618f96a79ca511b4e5de ksmbd: Replace multiple one-element arrays with flexible-array members
+         88796fd76e5e5feff6d3110cdc8bf5ccb03870cf size_t.3type, system_data_types.7: Move size_t to a separate page
          
