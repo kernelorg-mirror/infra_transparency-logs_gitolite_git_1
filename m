@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 Jul 2022 18:37:34 -0000
-Message-Id: <165834225463.30412.18058098525457744397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 20 Jul 2022 18:37:37 -0000
+Message-Id: <165834225718.30476.16237975691670191550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-next
-    old: b77ffb30cfc5f58e957571d8541c6a7e3da19221
-    new: 9cb61fda8c71baaff423fe5be2e609100860fa78
+  - ref: refs/heads/master
+    old: 39636805cab2d46aa645f389f3fca8040afd4c4f
+    new: ebfa0043c96c7c7f645d0f96159bca988c873b6d
     log: |
-         9cb61fda8c71baaff423fe5be2e609100860fa78 bpf: Fix bpf_trampoline_{,un}link_cgroup_shim ifdef guards
+         59b7a5af8e8c22b20fc68eca48d7cfdc92501c1e Input: properly queue synthetic events
+         ebfa0043c96c7c7f645d0f96159bca988c873b6d Input: deactivate MT slots when inhibiting or suspending devices
+         
+  - ref: refs/heads/next
+    old: 39636805cab2d46aa645f389f3fca8040afd4c4f
+    new: ebfa0043c96c7c7f645d0f96159bca988c873b6d
+    log: |
+         59b7a5af8e8c22b20fc68eca48d7cfdc92501c1e Input: properly queue synthetic events
+         ebfa0043c96c7c7f645d0f96159bca988c873b6d Input: deactivate MT slots when inhibiting or suspending devices
          
