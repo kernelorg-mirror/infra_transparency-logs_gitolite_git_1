@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0417173291016920586=="
+Content-Type: multipart/mixed; boundary="===============8585283441429601275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 20 Jul 2022 19:40:09 -0000
-Message-Id: <165834600932.4902.14610269934789506291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 20 Jul 2022 19:42:38 -0000
+Message-Id: <165834615829.5683.16065864493909115827@gitolite.kernel.org>
 
---===============0417173291016920586==
+--===============8585283441429601275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f36be09f90d36ee67108c79dcba89d9fec6a779a
-    new: 5fcd0d8ae23a3d26f21bc191c32283a5ba0bdaf9
-    log: revlist-f36be09f90d3-5fcd0d8ae23a.txt
+  - ref: refs/heads/for-5.20
+    old: 16824dffcf616b829e4aca3a06f45c0ad743a99c
+    new: b87ee706b83eea9020772706aa47a9bf497f0366
+    log: |
+         a3b19e0c9cdd0ece48f34f68f922764f26435f73 ASoC: dt-bindings: atmel-classd: Convert to json-schema
+         ca0e30b19dbe5f23cf0abe047259a9e9495624c6 ASoC: dt-bindings: atmel-classd: PDMIC convert to json-schema
+         a6229b53194fda971213f7f0be00f3d6c70a79c2 ASoC: dt-bindings: sgtl5000: Add missing type to 'micbias-voltage-m-volts'
+         b87ee706b83eea9020772706aa47a9bf497f0366 ASoC: dt-bindings: atmel-classd: Convert to
+         
 
---===============0417173291016920586==
+--===============8585283441429601275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f36be09f90d3-5fcd0d8ae23a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-034921cdea1c4c491735c8eb344634c7b899d930 s390/vfio-ap: use new AP bus interface to search for queue devices
-260f3ea141382386e97611e7c2029bc013088ab1 s390/vfio-ap: move probe and remove callbacks to vfio_ap_ops.c
-11cb2419fafe67f5ab965e2958475bce43c1529a s390/vfio-ap: manage link between queue struct and matrix mdev
-49b0109fb399b78a424d76485194202f290bdece s390/vfio-ap: introduce shadow APCB
-48cae940c31d2407d860d87c41d5f9871c0521db s390/vfio-ap: refresh guest's APCB by filtering AP resources assigned to mdev
-e2126a73746ec6d5f519edf5bf33d76347a51ee9 s390/vfio-ap: allow assignment of unavailable AP queues to mdev device
-d0786556caa1a9b63a7bee321546c6cac1e84e96 s390/vfio-ap: rename matrix_dev->lock mutex to matrix_dev->mdevs_lock
-21195eb038bcb4c21daef761e8b18f3cc9f22020 s390/vfio-ap: introduce new mutex to control access to the KVM pointer
-b84eb8e05057f6f329e28f2563668340ea14184b s390/vfio-ap: use proper locking order when setting/clearing KVM pointer
-8ee13ad99337b0b6920e732d87c692d577335f15 s390/vfio-ap: prepare for dynamic update of guest's APCB on assign/unassign
-2c1ee8983aa377fef4f725162f4f3aa5f9575d4a s390/vfio-ap: prepare for dynamic update of guest's APCB on queue probe/remove
-51dc562af09dfb1a0d3cc806f64f0d72704647b5 s390/vfio-ap: allow hot plug/unplug of AP devices when assigned/unassigned
-09d31ff78793ff007ec3b0a26000fcf29ad4928b s390/vfio-ap: hot plug/unplug of AP devices when probed/removed
-70aeefe574cbf86528528832c615cae2701f2cf3 s390/vfio-ap: reset queues after adapter/domain unassignment
-3f85d1df26a9d9b0d1a5237c580e085c41d6bf50 s390/vfio-ap: implement in-use callback for vfio_ap driver
-f7f795c54d7117d06d002e06f9fca5baec3f293d s390/vfio-ap: sysfs attribute to display the guest's matrix
-eeb386aeb5b7c8d2dae6a3ba49255d8a97803182 s390/vfio-ap: handle config changed and scan complete notification
-cb269e0aba7c3faef65a3b5d3a5be8b053f191a0 s390/vfio-ap: update docs to include dynamic config support
-e32d3827f3d5b2844d041066b89843599c3e82b9 s390/Docs: new doc describing lock usage by the vfio_ap device driver
-693714b900cea5417d7b3a48891b961d40fb5c55 MAINTAINERS: pick up all vfio_ap docs for VFIO AP maintainers
-0a5f9b382c6131381f9f2ed64ae6fdd994328d0d s390/cpufeature: rework to allow more than only hwcap bits
-e2f39c9f547c88efd208f67a9ecacc1d78bf30a4 s390/cpufeature: allow for facility bits
-5fcd0d8ae23a3d26f21bc191c32283a5ba0bdaf9 s390/uvdevice: autoload module based on CPU facility
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1658346156 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1658346156-3e8b99d73fb25424f2f013142cfb500b7d7dae20
 
---===============0417173291016920586==--
+16824dffcf616b829e4aca3a06f45c0ad743a99c b87ee706b83eea9020772706aa47a9bf497f0366 refs/heads/for-5.20
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLYWqwACgkQJNaLcl1U
+h9Bb2Qf/YwV5up31deXk9TfBhVukMz5+6K7ZYplPjdgIS7V8rstbtzZw+uhror0j
+9ycljhHaVlm2c5vwRKMFsDMkU2Jt0n+9exX4QFx9fOPUtrohj3pp2lNjegs6bP1F
+JHc8EX/GTup/DA0uvc9cXmFxtCSk5BNrv/nJpmZwh0gOZ9JdE356T7UBbRXQBTge
+5j7KsNw4ioXZT/l0fd7Ns9u0nCwMu6ZFeaxKSeI6tIqCHbr4pF/7diDXcCaFxkjQ
+87aU9gzOaPBrI1T57TYgNr3io7wjii7HNVf/oG9V2/m1+ubIfyd/Ug1Xlc38z3Vq
+K861S59S7ryR5cxpqVrJRV8mvAwotA==
+=3c2b
+-----END PGP SIGNATURE-----
+
+--===============8585283441429601275==--
