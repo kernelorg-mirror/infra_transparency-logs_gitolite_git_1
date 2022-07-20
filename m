@@ -1,47 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============1957536439842866908=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 20 Jul 2022 07:51:20 -0000
-Message-Id: <165830348080.2869.2871900014147756578@gitolite.kernel.org>
-
---===============1957536439842866908==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
+Date: Wed, 20 Jul 2022 08:00:27 -0000
+Message-Id: <165830402779.8761.667126560390961671@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/dborkman/pw
+user: dborkman
 changes:
-  - ref: refs/tags/linux-can-next-for-5.20-20220720
-    old: 0000000000000000000000000000000000000000
-    new: 4f212dbcced978f330742b785c45eac6713ef40c
-
---===============1957536439842866908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1658303476 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1658303475-355d203d1c4892081a286cc676198cf72e7ed520
-
-0000000000000000000000000000000000000000 4f212dbcced978f330742b785c45eac6713ef40c refs/tags/linux-can-next-for-5.20-20220720
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLXs/QTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXVAvB/9FpdMYhNs5DURHpic08acGPJkQme0o
-9RuqBJowDkwN219Y+lV9tYNhi/wffTPvRzt6DxnnnpTpBnd/D1kE6dNq89MR3jvF
-cqUlBtG//0K0LX0jCid27/Ol99Dlj5B16OyN5tk14c+KHCTNEKPt/j7cwnuv8wi9
-Q7pV7/L6/K71PdHLquwgc7frRBhC3+eIcqqoK3L4gLqwPw9shS7+gIRuL9aovGbB
-s8bilV261Dv/ADYRE7IGD+krjgaQTy7ze7SYuI/UTtpLXOPwokChAxMcnsz42Q0n
-DM+Ns2DF4mP3PtfbIAvHfnzEmcB1jTyzktOV0psLkAfZJuAHOC8fKZuP
-=iScK
------END PGP SIGNATURE-----
-
---===============1957536439842866908==--
+  - ref: refs/heads/master
+    old: 22adabe8483b4e8a164f56c9cd901ec354b376e6
+    new: 815ced40d5c611dabb2a0ff258f8357e8b38384c
+    log: |
+         e5f3693a567dbbdafb614f8254e225fbb50abced pw-schedule: Use locale-independent date format for days
+         815ced40d5c611dabb2a0ff258f8357e8b38384c pw-schedule: Use locale-independent format for day of week
+         
