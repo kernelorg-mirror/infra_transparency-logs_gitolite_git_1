@@ -1,50 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8541499983164545993=="
+Content-Type: multipart/mixed; boundary="===============8093723136785804769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 20 Jul 2022 01:17:43 -0000
-Message-Id: <165827986308.21914.1987571777342988125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 20 Jul 2022 01:23:36 -0000
+Message-Id: <165828021617.25335.2649653395976104083@gitolite.kernel.org>
 
---===============8541499983164545993==
+--===============8093723136785804769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/dev
-    old: bb69462d2ce5a922d20c62adbe34a06e9e0415de
-    new: 7eca08190bb7c826d0f992b6cc62772058d005af
-    log: revlist-bb69462d2ce5-7eca08190bb7.txt
+  - ref: refs/heads/for-kernelci
+    old: c30628bce72fc72d64c6764aee770e59d727ede3
+    new: ad1e2226017a9e56e242029f834a2cfc14f6fa83
+    log: revlist-c30628bce72f-ad1e2226017a.txt
 
---===============8541499983164545993==
+--===============8093723136785804769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb69462d2ce5-7eca08190bb7.txt
+Content-Disposition: attachment; filename=revlist-c30628bce72f-ad1e2226017a.txt
 
-f62093a74faef3238cda0bccbf97404cd7a151cd platform/chrome: cros_ec_typec: Rename port altmode array
-0cc2cd7aa93951e54cf53919a89880cc1f0edf2c platform/chrome: cros_ec_typec: Register port altmodes
-4e60739ea8e3b9562110645d4c5923704a66f691 platform/chrome: cros_ec_proto: add "cros_ec_" prefix to send_command()
-f7425cd4021c4ceef0cf7a9d07db804f1a6c1520 platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_cmd_xfer()
-aa1064ccf222db9e3ac8abdb1fb2dc627490baff platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_send_command()
-bde2e3b2653ca9724c5ea9c1f3cf5e1adc0c5986 platform/chrome: cros_ec_proto: separate cros_ec_xfer_command()
-d95f9064e9f8ee28005af49d3002f5e42fd5bcbd platform/chrome: cros_ec_proto: separate cros_ec_wait_until_complete()
-4327902f252d725630836efd537753392660260f platform/chrome: cros_ec_proto: change Kunit expectation when timed out
-f449053b4ebe7280e3408277d0c5c718a4e07845 platform/chrome: cros_ec_proto: return -EAGAIN when retries timed out
-c07f67d1838f1d53f577ef8a729cbf07eaffbb5b platform/chrome: cros_ec_proto: add Kunit test for empty payload
-4fc0fa816cf119fd699e483d8f78e3cdab64606c platform/chrome: cros_ec_proto: return -EPROTO if empty payload
-9c9dab799a98a0f0a4809c4fdaf8d8b6bc9a3152 platform/chrome: cros_ec_proto: add Kunit tests for cmd_xfer_status
-162bb0ca15f604c52ad2d8c4d7316f54f16e1af0 platform/chrome: cros_ec_proto: add Kunit test for cros_ec_map_error()
-aa2f47d294502141d2f455d66156d03a939a31f6 platform/chrome: cros_ec_proto: add Kunit tests for get_next_event
-d0314adfce99b255efbe562bd308a1f610baa247 platform/chrome: cros_ec_proto: add Kunit tests for get_host_event
-60313e9beeb94227262053fcde53316a49be2737 platform/chrome: cros_ec_proto: add Kunit tests for check_features
-25cd5f7e22fefaf6b113d4cbcc109a3f945cc132 platform/chrome: cros_ec_proto: add Kunit tests for get_sensor_count
-93b5d4bb87750319897f36decd54eebcfd761d4b platform/chrome: cros_ec_proto: add Kunit test for cros_ec_cmd()
-750bf9e54f703801397007f9afc657c0edad9651 platform/chrome: cros_kbd_led_backlight: fix build warning
-7eca08190bb7c826d0f992b6cc62772058d005af platform/chrome: cros_kunit_util: add default value for `msg->result`
+d311664b90579c77c66bda18eb93affd4049b255 platform/chrome: cros_ec_proto: add "cros_ec_" prefix to send_command()
+82f4def2d8224b45d7348daa943e5fc9d9c7163b platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_cmd_xfer()
+da95f691311f1f364a482ac11db82dad42bc9742 platform/chrome: cros_ec_proto: add Kunit tests for cros_ec_send_command()
+810be30d27bdfe7923084a5550dfddeed28ac08b platform/chrome: cros_ec_proto: separate cros_ec_xfer_command()
+0aad9aff6a6450f7ea5e980add1b33d40e5bed52 platform/chrome: cros_ec_proto: separate cros_ec_wait_until_complete()
+00eb36d528729692d418e53c832971a798f85ceb platform/chrome: cros_ec_proto: change Kunit expectation when timed out
+7f95d2b68b9a4f6624438f2d7dbad01c157b92a6 platform/chrome: cros_ec_proto: return -EAGAIN when retries timed out
+82c9b7ed8c5c5cb4ba2650c240fcd31cbdcfa0b5 platform/chrome: cros_ec_proto: add Kunit test for empty payload
+3e1c715ea179201372384fad738680d524600985 platform/chrome: cros_ec_proto: return -EPROTO if empty payload
+74bed42fd5fa4d3ac9883b27b0d761564f3b9bf9 platform/chrome: cros_ec_proto: add Kunit tests for cmd_xfer_status
+1242688fc2f080530b6414ef5f1ae63fb548a6b0 platform/chrome: cros_ec_proto: add Kunit test for cros_ec_map_error()
+2b7ed927953f30eaae0e622c670dcddce3bd3aa4 platform/chrome: cros_ec_proto: add Kunit tests for get_next_event
+7cb1eb82642becd668665689c6eac2a639a81e1b platform/chrome: cros_ec_proto: add Kunit tests for get_host_event
+00238864435f97dc578cc8b2de7ecc95a1fca0b9 platform/chrome: cros_ec_proto: add Kunit tests for check_features
+33f0fdba6066b504ee0b5f1480b1f93b06050df6 platform/chrome: cros_ec_proto: add Kunit tests for get_sensor_count
+9399b2cb20702fde2a5f9c6aec9cd70d21d40a00 platform/chrome: cros_ec_proto: add Kunit test for cros_ec_cmd()
+7e76e4bc00999846c17604dc25486fffa542078d platform/chrome: cros_kbd_led_backlight: fix build warning
+ad1e2226017a9e56e242029f834a2cfc14f6fa83 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============8541499983164545993==--
+--===============8093723136785804769==--
