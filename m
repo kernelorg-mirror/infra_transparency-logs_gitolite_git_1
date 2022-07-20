@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4406931748475915864=="
+Content-Type: multipart/mixed; boundary="===============0659811947045662692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Wed, 20 Jul 2022 17:35:21 -0000
-Message-Id: <165833852150.23668.8287361032664720439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 20 Jul 2022 17:37:48 -0000
+Message-Id: <165833866819.24507.18412632566941357892@gitolite.kernel.org>
 
---===============4406931748475915864==
+--===============0659811947045662692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/cxl-security
-    old: 9520a22fdb791d3be2271fbc5974cd42dac7b68f
-    new: d4b76d089a420e87d75bc61388e01bf6be1c0f3e
-    log: revlist-9520a22fdb79-d4b76d089a42.txt
+  - ref: refs/heads/arm64-for-5.20
+    old: 360d9526761270f2497893946bb48de468a229cc
+    new: 31b3483aaa180b88f90861d5113c342442f3646f
+    log: revlist-360d95267612-31b3483aaa18.txt
+  - ref: refs/heads/drivers-for-5.20
+    old: 2bc7d3e08ec76f5ea88c552ae72ed8ea9bbdcc01
+    new: c23b7d4967892430674f03f97d5fbd2f37a6732a
+    log: |
+         52b23f12432ff0106e254115b63840ea1f79d657 dt-bindings: soc: qcom,rpmh-rsc: simplify qcom,tcs-config
+         fbbb1cd09f29462fd21f772a89628e0d65ebe1c5 dt-bindings: soc: qcom: aoss: document qcom,sm8450-aoss-qmp
+         c23b7d4967892430674f03f97d5fbd2f37a6732a dt-bindings: soc: qcom: qcom,smd-rpm: add power-controller
+         
 
---===============4406931748475915864==
+--===============0659811947045662692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9520a22fdb79-d4b76d089a42.txt
+Content-Disposition: attachment; filename=revlist-360d95267612-31b3483aaa18.txt
 
-24fd7bab23ab4a803634816d4b8c45da7874f1d3 tools/testing/cxl: Create context for cxl mock device
-33fb7ea84f344c8aeec6a77d486a073a24590901 tools/testing/cxl: Add "Get Security State" opcode support
-f00bc5bc700959b09fbc14124bd7a43141936e44 cxl/pmem: Add "Set Passphrase" security command support
-998efce6584c8ea4637b0c61ce20573c03b25de4 tools/testing/cxl: Add "Set Passphrase" opcode support
-04ffe7839169172330a5b3121c670f749c03ecb6 cxl/pmem: Add Disable Passphrase security command support
-91c16bdde6bdc7468de0c1a6e04126d0e0633c91 tools/testing/cxl: Add "Disable" security opcode support
-ad3af6fedfd4f284a6a7e6643a2421a53dcd8abe cxl/pmem: Add "Freeze Security State" security command support
-f741bb09f6496e0db7634bde4e3139396b000476 tools/testing/cxl: Add "Freeze Security State" security opcode support
-864f6c810b48062583b5733adf8604764c1fa847 x86: add an arch helper function to invalidate all cache for nvdimm
-99556ae02e2e532e642c2689815f5262e0ae9f81 cxl/pmem: Add "Unlock" security command support
-31fd1965c0403fdaac1d0bfc12a95f493c18539c tools/testing/cxl: Add "Unlock" security opcode support
-c5c0a747073867a711f1cd99e0d340f1e5299c5d cxl/pmem: Add "Passphrase Secure Erase" security command support
-bfd3c421cde029be803083d11cd424daca0fc394 tools/testing/cxl: Add "passphrase secure erase" opcode support
-72e63aa090098cf7f1fc4a84b34fc68c8cd842f5 nvdimm/cxl/pmem: Add support for master passphrase disable security command
-d4b76d089a420e87d75bc61388e01bf6be1c0f3e cxl/pmem: add id attribute to cxl based nvdimm
+944de5182f0269e72ffe0a8880c8dbeb30f473d8 dt-bindings: arm: qcom: fix Alcatel OneTouch Idol 3 compatibles
+25d203d0751ca191301bc578ba5d59fa401f1fbf dt-bindings: arm: qcom: fix Longcheer L8150 compatibles
+bb35fe1efbae4114bd288fae0f56070f563adcfc dt-bindings: arm: qcom: fix MSM8916 MTP compatibles
+c704bd373f58a84193eebe40bd271d6b73c138b0 dt-bindings: arm: qcom: fix MSM8994 boards compatibles
+fc4f8f6748e39a05a392f5cf60d772c00bcff913 dt-bindings: arm: qcom: add missing MSM8916 board compatibles
+940780880200c5b1dc48b0bd4f455c4fa50749af dt-bindings: arm: qcom: add missing MSM8994 board compatibles
+1ce0ff93d711f756bf906e110c45adf16f078ffe dt-bindings: arm: qcom: add missing SM8150 board compatibles
+c810f39aea90e29831585f190290bfd0ba63469f dt-bindings: arm: qcom: add missing SM8250 board compatibles
+baa36665348b9f8df2a4670afcbec86d3260a75e dt-bindings: arm: qcom: add missing SM8350 board compatibles
+82a547bb3ceeb2b948da161a7ac8cf45987d36ec dt-bindings: vendor-prefixes: add Shift GmbH
+8eb1b188caf70f3d15ed924a53dc0d74818524e8 dt-bindings: arm: qcom: add missing MSM8998 board compatibles
+02cb8d73c0d663cd7b38668963a92c743814d391 dt-bindings: arm: qcom: add missing MSM8992 board compatibles
+09b75a927ffd453a4bc25d88d4c4dca3b12eaf99 dt-bindings: arm: qcom: add missing QCS404 board compatibles
+0d45153fb9bb221480c27f637e56886bb387cb58 dt-bindings: arm: qcom: add missing SDM630 board compatibles
+ce23114d25dc68e3100057af31f6c4bfde138430 dt-bindings: arm: qcom: add missing SDM636 board compatibles
+33fae534d7b1420ea958955834cfa464c58e4305 dt-bindings: arm: qcom: add missing SDM845 board compatibles
+d3ddba6a25dc16f2679717cec773118fc8baf5fa dt-bindings: arm: qcom: add missing SM6125 board compatibles
+31b3483aaa180b88f90861d5113c342442f3646f dt-bindings: arm: qcom: add missing SM6350 board compatibles
 
---===============4406931748475915864==--
+--===============0659811947045662692==--
