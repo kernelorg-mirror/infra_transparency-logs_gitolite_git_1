@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0483072681081430985=="
+Content-Type: multipart/mixed; boundary="===============0040220030517178365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 20 Jul 2022 18:06:35 -0000
-Message-Id: <165834039547.10890.12416035254872191314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 20 Jul 2022 18:06:41 -0000
+Message-Id: <165834040110.11013.13334890314585846616@gitolite.kernel.org>
 
---===============0483072681081430985==
+--===============0040220030517178365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/spi-5.20
     old: a3fd35be0eda760610a63e179ad860189b890f0b
     new: 23089eb6294dba58b625e7f0ec52d374d894031d
     log: |
@@ -27,28 +27,28 @@ changes:
          23089eb6294dba58b625e7f0ec52d374d894031d spi: npcm-fiu: add Arbel NPCM8XX support
          
 
---===============0483072681081430985==
+--===============0040220030517178365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1658340394 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1658340393-467912369f3b6e03f1df36b9d841ec51db94a6f9
+pusher C3F436CA30F5D8EB 1658340399 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1658340399-a80dd398db46713e5634a8d536f2d89ee29ab666
 
-a3fd35be0eda760610a63e179ad860189b890f0b 23089eb6294dba58b625e7f0ec52d374d894031d refs/heads/for-5.20
+a3fd35be0eda760610a63e179ad860189b890f0b 23089eb6294dba58b625e7f0ec52d374d894031d refs/heads/spi-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLYRCoACgkQJNaLcl1U
-h9DBZAf/S9x6BRCPCuWt9yh9KLpx5jZI5yjr/QZp3nfV8xhyl2DFUGjR8ABeJJDl
-VHgA0Sl1ZzH9wzAHU+us2ZNtIRJ1G4XkFcCQU9coUG7fnvdKg/SxUE7pl7oJd8ww
-HWddXNCLy26dSXnWkBPjvaWfIllEz9nFpNcW/LB2DvTc+DFAtIiqD0xRY8EcZZbR
-9hibry/MqO9kd1hPoc1UM7llZjK280d/dXJ5r9ut4/31PlOXH6TJMumGklQf541b
-JvUkaD7Fa7reAC6oYw+jyuUXvCvyiBMXtzHPF/ghqsa/s5mZwc6tsFGGvF993cSK
-7xieO0imXFSNs2MwOwbpnAdEZlOeBA==
-=7zY0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLYRC8ACgkQJNaLcl1U
+h9DVigf/QinBkQgV2KVv+SortEo3tMT8TfAZbTB/ZBi7YyF8Wc4sV5To/qgV3B4H
+D5D/c6nzHCf2tfv4CArYRJbyErzjpuIMpHIrUZMmXTC9pA7EycvmQHJcqu5myPxR
+Bdkl98M0DKoSvsjXGT2dOB2fKcDpu+ZXvXlm5c6QhDPauS4k1kd6MqUWHyao7Z4Y
+P3ECjV/9WyfmdBzyNCNdacAirc5wx5AqjicOohGSgTNtNdRR2mEW4KeB7hCgfYuf
+JrCc1MEKe+pRELvXzdt5Nf46sSp5c/H6xg9KfU8yWTVNJbDvlybaczi8hjCZfbhZ
+2tYMlwpQvOEKtOnqPItksaBmgvA5KQ==
+=r5wc
 -----END PGP SIGNATURE-----
 
---===============0483072681081430985==--
+--===============0040220030517178365==--
