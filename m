@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7286850593852018354=="
+Content-Type: multipart/mixed; boundary="===============3553209668227753664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 20 Jul 2022 16:19:56 -0000
-Message-Id: <165833399612.6299.17795702556446605218@gitolite.kernel.org>
+Date: Wed, 20 Jul 2022 16:20:04 -0000
+Message-Id: <165833400407.7893.12838690939109752000@gitolite.kernel.org>
 
---===============7286850593852018354==
+--===============3553209668227753664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b3fcfc4f0c50a716487fd7ebd0e6b64a2db29d76
-    new: 44484fa8eedf1c6e8f23ba2675b266abdd170a6e
-    log: revlist-b3fcfc4f0c50-44484fa8eedf.txt
+  - ref: refs/heads/dev-queue
+    old: 5df0b26c484285e4dc6f187b7dd6fa5f32b4639d
+    new: 1b6cf9a276568243aa9e15944cbc02dcccfdc3b0
+    log: revlist-5df0b26c4842-1b6cf9a27656.txt
 
---===============7286850593852018354==
+--===============3553209668227753664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3fcfc4f0c50-44484fa8eedf.txt
+Content-Disposition: attachment; filename=revlist-5df0b26c4842-1b6cf9a27656.txt
 
 f85daf0e725358be78dfd208dea5fd665d8cb901 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
 e79b9473e9b59e83e23db9b7411c6080b5a6826d net: ipv4: fix clang -Wformat warnings
@@ -58,5 +58,23 @@ a11e5b3e7a59fde1a90b0eaeaa82320495cf8cae tcp: Fix data-races around sysctl_tcp_m
 c0f47c2822aadeb8b2829f3e4c3792f184c7be33 net/sched: cls_api: Fix flow action initialization
 e5ec6a2513383fe2ecc2ee3b5f51d97acbbcd4d8 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
 44484fa8eedf1c6e8f23ba2675b266abdd170a6e Merge tag 'linux-can-fixes-for-5.19-20220720' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+c24ff8ceb4615b9c876a6f5b114f5037159f2cdc ice: prevent low-core machines crashing on DCB config
+8c188ec7074342ac22cd6100a9905360bf1eebc3 i40e: Fix interface init with MSI interrupts (no MSI-X)
+d1f6c5bb1a348efce102ff5cfd1f0f37b48ab69e iavf: Fix max_rate limiting
+e8b8a2b66dfb30b53cb9d24648c2cad8783735cf iavf: Fix 'tc qdisc show' listing too many queues
+f890122aa58c24194b849d0979ae81f9fee7b7c8 iavf: validate dest MAC and VLAN from tc-filter code path
+a412e4fac1a8d0ce4b4f044abd344ebbd7f63cf6 iavf: enable tc filter configuration only if hw-tc-offload is on
+a66224ae6cc8d822853946cbcebfe54bd78efda9 ice: Fix max VLANs available for VF
+52656ddd869d2b9a5500ef0c917b4b2af41e16ed ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+21fce2bad110c21e1f2c13e01a647b956aadd321 ice: do not setup vlan for loopback VSI
+a576bcba1cd50c978417d6ef0c7fdaa2fa8384e6 ice: Fix double VLAN error when entering promisc mode
+05fcb1e4067e68576c729286d92672f7280f8300 ice: Ignore -EEXIST when setting promisc mode
+930a4a3687e6c40e3bd486bb819326b59bf070fe ice: Fix clearing of promisc mode with bridge over bond
+5c25b655e5a2bdca8d851ff7cc02b49fa3137479 ice: xsk: use Rx ring when picking NAPI context
+7c46d6cd19226f02cf8f9aca1b3183920dbfb434 ice: Fix VSI rebuild WARN_ON check for VF
+900c1349cd4dd6cc7a1c6b24ab1c0a1d4f32db30 ice: Fix tunnel checksum offload with fragmented traffic
+a246f0b59942208d5ae958faceef4d3f6dd0e14d iavf: Fix adminq error handling
+81653d34300963eb6fd0fddf77269231ff9e3df9 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+1b6cf9a276568243aa9e15944cbc02dcccfdc3b0 iavf: Fix reset error handling
 
---===============7286850593852018354==--
+--===============3553209668227753664==--
