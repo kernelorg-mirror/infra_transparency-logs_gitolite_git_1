@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4582620769596644174=="
+Content-Type: multipart/mixed; boundary="===============7841506317346426888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 20 Jul 2022 07:50:42 -0000
-Message-Id: <165830344279.2552.17560949622627153151@gitolite.kernel.org>
+Date: Wed, 20 Jul 2022 07:50:51 -0000
+Message-Id: <165830345173.2646.3917681950124562729@gitolite.kernel.org>
 
---===============4582620769596644174==
+--===============7841506317346426888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 7e8c182c36e2366b7402d3913bf717eac04e458d
-    new: 48ea8ea32dbf3231882e9bc0b297fe1400785219
-    log: revlist-7e8c182c36e2-48ea8ea32dbf.txt
+  - ref: refs/heads/testing
+    old: 1c0e78a287e3493e22bde8553d02f3b89177eaf7
+    new: d38644288babe8957e0db9cc76bdd2d9e00510de
+    log: revlist-1c0e78a287e3-d38644288bab.txt
 
---===============4582620769596644174==
+--===============7841506317346426888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1658303438 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1658303448 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1658303437-905b76838cf5954d1c306d0f076eb1e6657768b8
+nonce 1658303447-a026b4ae465cb5efe7b20fc16bc954260a805614
 
-7e8c182c36e2366b7402d3913bf717eac04e458d 48ea8ea32dbf3231882e9bc0b297fe1400785219 refs/heads/master
+1c0e78a287e3493e22bde8553d02f3b89177eaf7 d38644288babe8957e0db9cc76bdd2d9e00510de refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLXs84THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXZzyB/oDs341zYvUbYhJh/y588h0aYXCC5mc
-NunBOry/i4sxI6gGrNZmh4wwiehyioqwxqOsOIT0n87N0M/K62KsCZ+Gm+bZt+cj
-5WtdRvvlUGR7hYBI6JRqQ1TGyRO/dXSpC+BceZsleHM2gQetlp9EuHCffR1LjjmF
-jNo1oGqnuxFeIqQMr/0HgueoM1SLB6XscTAjdqtnAHY74nrdZiigBuEMLh4QDZDj
-BvWB/Oi7ShQI3gdodXEWl7RpZCUn10uaMPeS8EupNtdH0pAxhYhLgaTS0Omtd2Fd
-nm9/kUavQHFanVtFo37rfZWzcqrYLkNtaMCq+kLFHNaZro+PCb8a3i/J
-=TxB0
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLXs9gTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXYeqB/9blSll5/b/eMhKkokKrR152gkmJcpO
+UZTCFsMZouF8GWm3iQ6qq0GSoSKMmkeBEDTI/aky5Ht9JEscMTM9ZOHXFzqpxqCz
+ivq4SKSo8Pcez0cv8hUbZ5cClZ7NC2/debZxFAXBq4LgLRqb51Ase0aiDC+w45+T
+mUAd5NSiJYrBmtUPzwQBdGMqfl5G+EjqcLvJr2bLSG/dboSOcENlCeMk9M/UOANX
+nB9vhaBaoIHwtF2U4Ni/6FLQX20wJZ74oEVfxT/8677MTsLu6YgefjUjeoKn7O0+
+dktIhvrMNwT3g5jovEuv8hH4Egp/SSjVdnPYvQZLrnscbRandK64sh0T
+=y1MS
 -----END PGP SIGNATURE-----
 
---===============4582620769596644174==
+--===============7841506317346426888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e8c182c36e2-48ea8ea32dbf.txt
+Content-Disposition: attachment; filename=revlist-1c0e78a287e3-d38644288bab.txt
 
 ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb MAINTAINERS: Update Intel pin control to Supported
 073350da0aa2aead9df7927a1c1046ebf5cdd816 Merge tag 'v5.19-rc1' into asoc-5.19
@@ -371,6 +371,11 @@ a34b42f8690ce2b8360971ca5b886786ee1781af ARM: dts: stm32: fix pwr regulators ref
 cfd7ea394cd3b70ba4d9d87ee7b88e37459036b0 ARM: dts: stm32: DSI should use LSE SCMI clock on DK1/ED1 STM32 board
 bf74181e75c93a1b2b000ebf3c8b4c8c17cd59da ARM: dts: stm32: delete fixed clock node on STM32MP15-SCMI
 1d0c1aadf1fd9f3de95d1532b3651e8634546e71 ARM: dts: stm32: add missing usbh clock and fix clk order on stm32mp15
+02514a067fad6df27c4b21c316c1af93066af06e docs: netdev: document that patch series length limit
+a24875641143fce726529e6d550b313c53eb5821 docs: netdev: document reverse xmas tree
+5d407ca7389261c002c49068e4a11ed3bff0fc8e docs: netdev: add a cheat sheet for the rules
+ea1c3b77bc0b2a414496b3fe988f3abba33db288 Merge branch 'netdev-docs'
+1b18f09d31cfa7148df15a7d5c5e0e86f105f7d1 ibmvnic: Properly dispose of all skbs during a failover.
 887502826549caa7e4215fd9e628f48f14c0825a powerpc/powernv: delay rng platform device creation until later in boot
 bf43e4521ff3223a613f3a496991a22a4d78e04b drm/aperture: Run fbdev removal before internal helpers
 6e2c9105e0b743c92a157389d40f00b81bdd09fe ALSA: usb-audio: Add quirks for MacroSilicon MS2100/MS2106 devices
@@ -387,6 +392,7 @@ c0d1a7bd6574c8805184468c736e26dc416bebf0 Merge tag 'stm32-dt-for-v5.19-fixes-2' 
 fb6e0637ab7ebd8e61fe24f4d663c4bae99cfa62 drm/panfrost: Put mapping instead of shmem obj on panfrost_mmu_map_fault_addr() error
 9fc33eaaa979d112d10fea729edcd2a2e21aa912 drm/panfrost: Fix shrinker list corruption by madvise IOCTL
 c1084b6c5620a743f86947caca66d90f24060f56 Merge tag 'soc-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7e8c182c36e2366b7402d3913bf717eac04e458d Merge tag 'linux-can-fixes-for-5.19-20220704' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 b8e629b05f5d23f9649c901bef09fab8b0c2e4b9 selftests: forwarding: fix flood_unicast_test when h2 supports IFF_UNICAST_FLT
 1a635d3e1c80626237fdae47a5545b6655d8d81c selftests: forwarding: fix learning_test when h1 supports IFF_UNICAST_FLT
 83844aacab2015da1dba1df0cc61fc4b4c4e8076 selftests: forwarding: fix error message in learning_test
@@ -738,10 +744,6 @@ ea7006a7aaee54a8861e0bfd5cf6a8495fb998a7 docs: net: dsa: re-explain what port_fd
 6ba1a4aa5974f8a47e6322cecc965e6357b58d80 docs: net: dsa: delete misinformation about -EOPNOTSUPP for FDB/MDB/VLAN
 7b02f40350f1b8011f724a052dcb0849cffa6c38 docs: net: dsa: mention that VLANs are now refcounted on shared ports
 c32349f3257f329a01e776e02b577bf7af97f30b Merge branch 'dsa-docs'
-968996c070ef080ee7d6150faa98a4e562ce4625 iavf: Fix VLAN_V2 addition/rejection
-4635fd3a9d77581498f34ab9a7e4bcc211bf0a4c iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
-a9f49e0060301a9bfebeca76739158d0cf91cdf6 iavf: Fix handling of dummy receive descriptors
-d8fa2fd791a72087c1ce3336fbeefec4057c37c8 iavf: Fix missing state logs
 45533a534a45cb12c20c81615d17306176cb1c57 net: lan966x: Fix taking rtnl_lock while holding spin_lock
 43243bb3195b0dc27741679471e23baed1efe98e net: lan966x: Fix usage of lan966x->mac_lock when entry is added
 99343cfa4f7560abf933fff7ab3ea58a6905c917 net: lan966x: Fix usage of lan966x->mac_lock when entry is removed
@@ -755,21 +757,7 @@ f838a63369818faadec4ad1736cfbd20ab5da00e i40e: Fix erroneous adapter reinitializ
 1699b4d502eda3c7ea4070debad3ee570b5091b1 net: dsa: fix NULL pointer dereference in dsa_port_reset_vlan_filtering
 49a2f5c88e8f8a66d81e93ed034f00dee9fe9cf7 Merge branch 'fix-2-dsa-issues-with-vlan_filtering_is_global'
 da791bac104a3169b05b54270afe75daacba4641 net: stmmac: remove redunctant disable xPCS EEE call
-d7241f679a59cfe27f92cb5c6272cb429fb1f7ec be2net: Fix buffer overflow in be_get_module_eeprom
-855fe49984a8a3899f07ae1d149d46cd8d4acb52 net: dsa: sja1105: silent spi_device_id warnings
-1774559f07993e1cac33c2406e99049d4bdea6c8 net: dsa: vitesse-vsc73xx: silent spi_device_id warnings
-30e22a6ebca039572ce9bc10f1934f4eabfb5b7f amt: use workqueue for gateway side message handling
-9c343ea6185febe5f6b74f7f7b3757f3dd9c5af6 amt: remove unnecessary locks
-928f353cb8672f0d6078aad75eeec0ed33875b12 amt: use READ_ONCE() in amt module
-627f16931bf3cb20d50274d9341380ac2c3035fd amt: add missing regeneration nonce logic in request logic
-40185f359fbabaa61da754cc29d12f3a41e0a987 amt: drop unexpected advertisement message
-239d886601e38d948a28f3b2a1c9ce5f01bf75f2 amt: drop unexpected query message
-e882827d5b8942a27b4d28548aa27562a3a7e94c amt: drop unexpected multicast data
-989918482bbccbbce3ba2bb9156eb4c193319983 amt: do not use amt->nr_tunnels outside of lock
-b3fcfc4f0c50a716487fd7ebd0e6b64a2db29d76 Merge branch 'amt-fix-validation-and-synchronization-bugs'
-cdf0b86b250fd3c1c3e120c86583ea510c52e4ce r8152: fix a WOL issue
-53eb9b04560cc368b7874a7ef1ca7666741739e4 net: ethernet: mtk_ppe: fix possible NULL pointer dereference in mtk_flow_get_wdma_info
-c6b10de537b904fb70522d8cc4600c2f11246c93 Documentation: fix udp_wmem_min in ip-sysctl.rst
-48ea8ea32dbf3231882e9bc0b297fe1400785219 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+2c5abd866338445fd8af8e86b899330e761a3828 can: mcp251xfd: fix detection of mcp251863
+d38644288babe8957e0db9cc76bdd2d9e00510de can: rcar_canfd: Add missing of_node_put() in rcar_canfd_probe()
 
---===============4582620769596644174==--
+--===============7841506317346426888==--
