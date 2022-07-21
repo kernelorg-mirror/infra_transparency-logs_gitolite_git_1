@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 21 Jul 2022 17:38:57 -0000
-Message-Id: <165842513767.25177.3170154018281719377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Thu, 21 Jul 2022 17:48:07 -0000
+Message-Id: <165842568751.31141.1294179365677123841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dm-5.20
-    old: 0000000000000000000000000000000000000000
-    new: 7d903fc3ed5830d7550cab23b030278fafb81a84
+  - ref: refs/heads/pci/ctrl/loongson
+    old: b1c2a2fbe27427ec5764ab7aa32c7ca20561cdb1
+    new: 930c6074d7dd579f3d4e8b04548dd8cb0341de1d
+    log: |
+         930c6074d7dd579f3d4e8b04548dd8cb0341de1d PCI: loongson: Work around LS7A incorrect Interrupt Pin registers
+         
