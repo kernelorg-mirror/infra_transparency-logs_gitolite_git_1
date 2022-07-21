@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5164779529802747413=="
+Content-Type: multipart/mixed; boundary="===============6787199604149636799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 21 Jul 2022 17:14:41 -0000
-Message-Id: <165842368143.10262.10609897992434268336@gitolite.kernel.org>
+Date: Thu, 21 Jul 2022 17:14:51 -0000
+Message-Id: <165842369132.10369.15365145721954937271@gitolite.kernel.org>
 
---===============5164779529802747413==
+--===============6787199604149636799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 6e693a104207fbf5a22795c987e8964c0a1ffe2d
-    new: 5588d628027092e66195097bdf6835ddf64418b3
-    log: revlist-6e693a104207-5588d6280270.txt
+  - ref: refs/heads/mlx5-queue
+    old: c950f124dfe8f458d52064e935a611b897a2527e
+    new: 05b42d18ffac2819440e1649efa6a14246bedf13
+    log: revlist-c950f124dfe8-05b42d18ffac.txt
 
---===============5164779529802747413==
+--===============6787199604149636799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e693a104207-5588d6280270.txt
+Content-Disposition: attachment; filename=revlist-c950f124dfe8-05b42d18ffac.txt
 
 6be791561212684c7fef6c864aa542b4d3e9db36 netfilter: conntrack: use fallthrough to cleanup
 b8acd43148c067376f76faed9be138aa0e25414c netfilter: conntrack: use correct format characters
@@ -146,5 +146,39 @@ ec2ea5e06c67f85c6541a74b661722a176be086f net: ipa: list supported IPA versions i
 bf2200e8491b4b5558e70febd17ea83caddb6090 Merge branch 'net-ipa-move-configuration-data-files'
 266c0190aee3e92a00e90d88e7b15c846055acb0 net/cdc_ncm: Enable ZLP for DisplayLink ethernet devices
 5588d628027092e66195097bdf6835ddf64418b3 net/cdc_ncm: Increase NTB max RX/TX values to 64kb
+045711879fd5e0f950e6e249087ead6cfc6fa8b7 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+f38f1041edf7b7827fa2aa0a593987f11f22841e !!! W/A DO NOT SUBMIT !!! net/mlx5: Introduce ifc bits for migratable
+0a37ac1491def673556a06097cf6446061814d81 !!! W/A DO NOT SUBMIT !!! vfio/mlx5: Set VF as migratable
+a192b1eecb50034118713e3f123ea7a137d90aa9 net/mlx5e: Convert mlx5e_tc_table member of mlx5e_flow_steering to pointer
+469e19197112e3a02d97e0f59f45b8e8b5f63487 net/mlx5e: Make mlx5e_tc_table private
+f68e7faea53b1efc776730aa5eb57c4b73ab5dd0 net/mlx5e: Allocate VLAN and TC for featured profiles only
+43a8e19538f9d98f754b2b66a5913988c1e04f36 net/mlx5e: Convert mlx5e_flow_steering member of mlx5e_priv to pointer
+58d058880271565a2961349247f8edad3ef5bd59 net/mlx5e: Report flow steering errors with mdev err report API
+0eb76d6037118e166e48e8e3725f90f556c09c7a net/mlx5e: Add mdev to flow_steering struct
+2550af194d84a84d919be41a6c4c5863dfd56209 net/mlx5e: Separate mlx5e_set_rx_mode_work and move caller to en_main
+97595c4c540711a2e1d08f24cdafb83847153ce2 net/mlx5e: Split en_fs ndo's and move to en_main
+2a3a66f7de8c3d7943b2893be990c7ae751983e4 net/mlx5e: Move mlx5e_init_l2_addr to en_main
+9fef74ab47224885323f61b4216769ea1d352392 net/mlx5e: Introduce flow steering API
+d415fbe4e624f7b9a287e389407869966bdb77c6 net/mlx5e: Decouple fs_tt_redirect from en.h
+53d264a20a9d9e61a955d256f18f920fc78cc581 net/mlx5e: Decouple fs_tcp from en.h
+061414cc4cb7537517c6e49b9ad0bc5eff581e5d net/mlx5e: Drop priv argument of ptp function in en_fs
+c17d3f910f5b6544f0202577cef8dab7f9e1e7a2 net/mlx5e: Convert ethtool_steering member of flow_steering struct to pointer
+6576ae3ec7fc44a45ffa5cb18d8884b99c226147 net/mlx5e: Directly get flow_steering struct as input when init/cleanup ethtool steering
+af55fc2231f49f5b7b7c55543118c9ff8a8756af net/mlx5e: Separate ethtool_steering from fs.h and make private
+754dc22eeb1ce6ec7278b470dfd8ef3eda31c499 net/mlx5e: Introduce flow steering debug macros
+ad92bfb09e875d5067e4d349812526899d870b1a net/mlx5e: Make flow steering arfs independent of priv
+13ec70d50cd7decc2643479d442d8badff6c7095 net/mlx5e: Make all ttc functions of en_fs get fs struct as argument
+3b6e6873dab8531789f75569ac4fd6b1783beb5c net/mlx5e: Completely eliminate priv from fs.h
+5352205e6d07dbad6f853c4011bea5619ef71815 net/mlx5e: Support enhanced CQE compression
+30a5e9f30f5a7e4290e5c7caa3ae868d783f8ccc net/mlx5e: Move params kernel log print to probe function
+748406680a2d88f5f753c5aacdaba6cf2ad6f106 net/mlx5e: Fix wrong use of skb_tcp_all_headers() with encapsulation
+78c5f1fe1da824c233f0dee08873b3f7a9c46d80 sched/topology: Add NUMA-based CPUs spread API
+f02563f856866dc188694dcb9a6e22cb1748aadf net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+9600979ae6297299f19434834be0629d9214db21 Merge branch 'patchq/518280' into mlx5-queue
+25b343175365f6b6bbea2b108f90124e45bbc1fc enic: Use NUMA distances logic when setting affinity hints
+7247b120515e9ce446236ba71364de782ca40b24 Merge branch 'patchq/467362' into mlx5-queue
+9c9063e8104a5ec0efe219953778f010c64b029c Merge branch 'patchq/505590' into mlx5-queue
+177d5e20ae4fa201fba08e2b4393d5465ae2fb4d Merge branch 'patchq/522790' into mlx5-queue
+05b42d18ffac2819440e1649efa6a14246bedf13 Merge branch 'patchq/523508' into mlx5-queue
 
---===============5164779529802747413==--
+--===============6787199604149636799==--
