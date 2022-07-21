@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 21 Jul 2022 15:32:41 -0000
-Message-Id: <165841756138.11842.16657146155216992673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Thu, 21 Jul 2022 15:34:16 -0000
+Message-Id: <165841765639.12390.6858524923851280925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 4538e990a8c909bd0e7d3e5ecc0016a4e5f26b0c
-    new: 4aa1a8aefc3dc3875621c64cef0087968e57181d
+  - ref: refs/heads/pci/ctrl/pm-ops
+    old: eae9b2dae6ce00b1fef77ca09f25e912fb556763
+    new: 5f4053d43a941d0ae7844fd07da10080eb2fc41d
     log: |
-         4aa1a8aefc3dc3875621c64cef0087968e57181d Delete `src/syscall.c` and get back to use `__sys_io_uring*` functions
+         5f4053d43a941d0ae7844fd07da10080eb2fc41d PCI: Convert to new *_PM_OPS macros
          
