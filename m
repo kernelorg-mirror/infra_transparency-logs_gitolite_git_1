@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 21 Jul 2022 14:50:04 -0000
-Message-Id: <165841500437.18208.8465359967427550532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 21 Jul 2022 14:52:04 -0000
+Message-Id: <165841512426.18921.16126779832485126708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/io_uring-5.19
-    old: d785a773bed966a75ca1f11d108ae1897189975b
-    new: 934447a603b22d98f45a679115d8402e1efdd0f7
+  - ref: refs/heads/dev
+    old: cd084cb3db6e65535fd13f933a15747cdb6240c1
+    new: 95a67b8fbb2ea3670b3ad796b0a9e5227469521d
     log: |
-         ec8516f3b7c40ba7050e6b3a32467e9de451ecdf io_uring: fix free of unallocated buffer list
-         934447a603b22d98f45a679115d8402e1efdd0f7 io_uring: do not recycle buffer in READV
+         95a67b8fbb2ea3670b3ad796b0a9e5227469521d erofs: get rid of the leftover PAGE_SIZE in dir.c
+         
+  - ref: refs/heads/dev-test
+    old: cd084cb3db6e65535fd13f933a15747cdb6240c1
+    new: 95a67b8fbb2ea3670b3ad796b0a9e5227469521d
+    log: |
+         95a67b8fbb2ea3670b3ad796b0a9e5227469521d erofs: get rid of the leftover PAGE_SIZE in dir.c
          
