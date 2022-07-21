@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 21 Jul 2022 14:09:00 -0000
-Message-Id: <165841254092.24182.510042956389546397@gitolite.kernel.org>
+Date: Thu, 21 Jul 2022 14:12:03 -0000
+Message-Id: <165841272307.26691.13854411325393609973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 8042eca2fb8edc41c20c225cce6bfae143e055ed
-    new: 451a27a78d51973b01bfb5d3b1e0ec081d9161e1
+    old: 451a27a78d51973b01bfb5d3b1e0ec081d9161e1
+    new: 152ce59e464d41ac86152ad53b28641103a412a4
     log: |
-         451a27a78d51973b01bfb5d3b1e0ec081d9161e1 Many pages: Use man3type/ and man2type/ for type pages
+         152ce59e464d41ac86152ad53b28641103a412a4 Makefile: Remove unused variables
          
