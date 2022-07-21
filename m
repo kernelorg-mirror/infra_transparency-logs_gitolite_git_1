@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 21 Jul 2022 20:38:36 -0000
-Message-Id: <165843591685.29677.5992961071382964415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
+Date: Thu, 21 Jul 2022 20:39:03 -0000
+Message-Id: <165843594361.29915.5846014264405065508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/kbusch/linux
+user: kbusch
 changes:
-  - ref: refs/heads/for-linus
-    old: e1502ba41699736c578ba9d61ae6285d49f6921b
-    new: b620aa3a7be346f04ae7789b165937615c6ee8d3
+  - ref: refs/heads/dma-prereg-v3-wip
+    old: f903dfdd668e58c594fcb31bcb387ad824370992
+    new: 64afa6d1a7b7ebc7241612a47e23fd225dc605d2
     log: |
-         b620aa3a7be346f04ae7789b165937615c6ee8d3 spi: spi-rspi: Fix PIO fallback on RZ platforms
-         
-  - ref: refs/heads/for-next
-    old: 960f6d94ca4cc77dfd888fff5f78769912228467
-    new: 3857fb0303e8781863406a5fc5d73c04174b5069
-    log: |
-         b620aa3a7be346f04ae7789b165937615c6ee8d3 spi: spi-rspi: Fix PIO fallback on RZ platforms
-         3857fb0303e8781863406a5fc5d73c04174b5069 Merge remote-tracking branch 'spi/for-5.20' into spi-next
+         245d1349588e005b329e2f7f75e7d6c95f91f470 io_uring: wire up dma register tags
+         64afa6d1a7b7ebc7241612a47e23fd225dc605d2 nvme-pci: implement dma_map support
          
