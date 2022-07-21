@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 21 Jul 2022 15:26:06 -0000
-Message-Id: <165841716623.8158.13639968249387712382@gitolite.kernel.org>
+Date: Thu, 21 Jul 2022 15:32:41 -0000
+Message-Id: <165841756138.11842.16657146155216992673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 4e6eec8bdea906fe5341c97aef96986d605004e9
-    new: 4538e990a8c909bd0e7d3e5ecc0016a4e5f26b0c
+    old: 4538e990a8c909bd0e7d3e5ecc0016a4e5f26b0c
+    new: 4aa1a8aefc3dc3875621c64cef0087968e57181d
     log: |
-         ded2677991f3af247206f67f466111b3060006b7 add a test for bad buf_ring register
-         205f2e87471ef543b867fdea2140309507a2e1f7 Copy IORING_SETUP_SINGLE_ISSUER into io_uring.h
-         7591d1af4b5a16f4371c0bd907ef71575a837315 test: poll-mshot-overflow use proper return codes
-         4538e990a8c909bd0e7d3e5ecc0016a4e5f26b0c skip poll-mshot-overflow on old kernels
+         4aa1a8aefc3dc3875621c64cef0087968e57181d Delete `src/syscall.c` and get back to use `__sys_io_uring*` functions
          
