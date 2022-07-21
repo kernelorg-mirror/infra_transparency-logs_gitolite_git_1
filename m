@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8956588062326913328=="
+Content-Type: multipart/mixed; boundary="===============5395828491062475339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 21 Jul 2022 11:00:52 -0000
-Message-Id: <165840125232.5711.16444641441435321234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 21 Jul 2022 11:01:09 -0000
+Message-Id: <165840126927.5948.8630794626460908890@gitolite.kernel.org>
 
---===============8956588062326913328==
+--===============5395828491062475339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4ee7eaa411ee24d07fa83d97ca03fa6725c40d04
     new: a3fd3ca134d9485a0f9a7bdcffd7f8bae27f79d3
     log: revlist-4ee7eaa411ee-a3fd3ca134d9.txt
-  - ref: refs/heads/stable
-    old: ca85855bdcae8f84f1512e88b4c75009ea17ea2f
-    new: 353f7988dd8413c47718f7ca79c030b6fb62cfe5
-    log: |
-         543ce63b664e2c2f9533d089a4664b559c3e6b5b lockdown: Fix kexec lockdown bypass with ima policy
-         353f7988dd8413c47718f7ca79c030b6fb62cfe5 watchqueue: make sure to serialize 'wqueue->defunct' properly
-         
-  - ref: refs/tags/next-20220421
-    old: dfb50af4d70e21e74ae828493993c33b1a84cce0
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220721
     old: 0000000000000000000000000000000000000000
     new: 3797f840616fb6da936c15535abb80184e75d277
 
---===============8956588062326913328==
+--===============5395828491062475339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -871,4 +861,4 @@ ae2916a88a9af7d547ee1f9f6fcc8ec8acc5585d Merge branch 'mm-everything' of git://g
 8f0d7dba4b664b9a6592db605ea69768a984231a fix up for "mm/khugepaged: use minimal bits to store num page < HPAGE_PMD_NR"
 a3fd3ca134d9485a0f9a7bdcffd7f8bae27f79d3 Add linux-next specific files for 20220721
 
---===============8956588062326913328==--
+--===============5395828491062475339==--
