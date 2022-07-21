@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 21 Jul 2022 23:40:06 -0000
-Message-Id: <165844680631.21610.9413900104981654511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 21 Jul 2022 23:54:59 -0000
+Message-Id: <165844769907.30054.6455267559929053848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 2139619bcad7ac44cc8f6f749089120594056613
-    new: 3f1901110a89b0e2e13adb2ac8d1a7102879ea98
+  - ref: refs/heads/master
+    old: 6e0e846ee2ab01bc44254e6a0a6a6a0db1cba16d
+    new: 32d00f62db4e982edbee137109407636f71f79b6
     log: |
-         3f1901110a89b0e2e13adb2ac8d1a7102879ea98 RISC-V: Add fast call path of crash_kexec()
+         32d00f62db4e982edbee137109407636f71f79b6 net: ipa: fix build
          
