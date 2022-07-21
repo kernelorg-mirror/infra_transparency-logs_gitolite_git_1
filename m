@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5245923467716579864=="
+Content-Type: multipart/mixed; boundary="===============2944497539805486097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 21 Jul 2022 18:43:54 -0000
-Message-Id: <165842903461.2331.866849826089794071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Thu, 21 Jul 2022 18:45:23 -0000
+Message-Id: <165842912327.26981.15596050697294590975@gitolite.kernel.org>
 
---===============5245923467716579864==
+--===============2944497539805486097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 5ef462cbbf49c2172f360705639b0afafd143a87
-    new: 6f587efa20c848df450d2611faaeb897235de0e1
-    log: |
-         6f587efa20c848df450d2611faaeb897235de0e1 Notes added by 'git notes add'
-         
+  - ref: refs/heads/cxl-security
+    old: 84ab31bf7f54c5333040778262bfd95240ff4aa2
+    new: ca81c3b5144e213c92df248db8985f2ec6607a23
+    log: revlist-84ab31bf7f54-ca81c3b5144e.txt
 
---===============5245923467716579864==
+--===============2944497539805486097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-84ab31bf7f54-ca81c3b5144e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658429033 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1658429032-45a7e49174feadcfe3312595929187913566ac4d
+fcbefd0f597c3baeb916aca4f94bcbfca3571763 cxl/pmem: Introduce nvdimm_security_ops with ->get_flags() operation
+b79eac7a65742f83d441f23bb4bc8ab1bf49887f tools/testing/cxl: Add "Get Security State" opcode support
+5dce760e11e79cbf89dbc5bacb157e5c66dd06f1 cxl/pmem: Add "Set Passphrase" security command support
+5df26c76f566c33e0017c350465fda04d34eccf8 tools/testing/cxl: Add "Set Passphrase" opcode support
+6a299141fd67c72c201c12c0a577e9cdacb85830 cxl/pmem: Add Disable Passphrase security command support
+6b344c7aac2c8154353c555259381ac34cca52af tools/testing/cxl: Add "Disable" security opcode support
+4aac0070d1a6c80d289c7008666c7a38873aa832 cxl/pmem: Add "Freeze Security State" security command support
+248c307a071cefdb66dcbbe54066423a7452a9fe tools/testing/cxl: Add "Freeze Security State" security opcode support
+86257bb97c28b5c4c183ae2395db09e76fde198a x86: define flush_cache_all as global wbinvd
+abef64ac4e6fcd42bddc34994ee00ee33b7d6686 cxl/pmem: Add "Unlock" security command support
+d6eb7c7a59c1cff2eb0ca64b5410a95c02c2b265 tools/testing/cxl: Add "Unlock" security opcode support
+6d0464a727cb70c27e6a45867b2b26498b2a5914 cxl/pmem: Add "Passphrase Secure Erase" security command support
+0f6f80e0c511d978e5739aa3ef88c59a14e7f71a tools/testing/cxl: Add "passphrase secure erase" opcode support
+dd8bf96f3460deaf322b580b58df9f59d33ea99f nvdimm/cxl/pmem: Add support for master passphrase disable security command
+ca81c3b5144e213c92df248db8985f2ec6607a23 cxl/pmem: add id attribute to CXL based nvdimm
 
-5ef462cbbf49c2172f360705639b0afafd143a87 6f587efa20c848df450d2611faaeb897235de0e1 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLZnmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bPAP/RYGpiS+PPERfL+moSnZ
-2i0Qki7YSH5Pe572VeHKoqI5+UVPFR3onU5ZcWF9fC7XjTp8up6x9v710iRG/y20
-vPIsRww/t4h/GTL+n3jXjj75MTluZdfuIB2YNvGJrxfx4QOjSPVCbtGHinINQ9Wt
-/zjcQu7PM/58MVmRt4DgGRPo9b0t5M6Pbw7+kAppu6iRPaKSy1PE3qDxln3LptiW
-QUep/eLoRzh3hQH1E1aMyu/NjZIIS43AyN8egd+Rgi4W4kD/vGvS7x8ey7O6Wx7z
-dz2AwLG3t16cxVAwjAOErpLyN9zHvDKQ+Z07jCbB3476Xq59xuTjvk++Jp0kFS/H
-G3mpkng0v5Bd+98f7GCWxFgBkx3r2wPzAZHcnFnxHr4pYOZVxo/c4uuvtqgOqFep
-0jx6TfJFHs6M7dZJR4JEQtaKCJTytztnXMq5sqcHkBlYA4Jv7zAUR8fPaMJyEfuP
-syN4nP23YktvPaq0ZZ0Wod9JcSQQxRZ1I1ZM4F79jPJaw7QwBIq4EM07FMRVgIUJ
-KpV6wrpPc6AYX97OKpo7/IWA46GlNQPfoLGZnv3vROvzeosr/8m9Uw7NxT1rE1eR
-KhL8+c/8MREBcRVmQ5JfrNuz5zpFoWrCf/SwtQV3EyW0VF4+vxUb1N+QiZp4ucSA
-JRPCmIt4un03xEFmdiHQrAtT
-=3BeS
------END PGP SIGNATURE-----
-
---===============5245923467716579864==--
+--===============2944497539805486097==--
