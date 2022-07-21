@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8716011901560327405=="
+Content-Type: multipart/mixed; boundary="===============0797392088801922119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 21 Jul 2022 17:07:47 -0000
-Message-Id: <165842326779.6385.6295317730407565882@gitolite.kernel.org>
+Date: Thu, 21 Jul 2022 17:09:39 -0000
+Message-Id: <165842337963.7045.14467569831903353002@gitolite.kernel.org>
 
---===============8716011901560327405==
+--===============0797392088801922119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: c32349f3257f329a01e776e02b577bf7af97f30b
     new: 44484fa8eedf1c6e8f23ba2675b266abdd170a6e
     log: revlist-c32349f3257f-44484fa8eedf.txt
 
---===============8716011901560327405==
+--===============0797392088801922119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -84,4 +84,4 @@ c0f47c2822aadeb8b2829f3e4c3792f184c7be33 net/sched: cls_api: Fix flow action ini
 e5ec6a2513383fe2ecc2ee3b5f51d97acbbcd4d8 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
 44484fa8eedf1c6e8f23ba2675b266abdd170a6e Merge tag 'linux-can-fixes-for-5.19-20220720' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
---===============8716011901560327405==--
+--===============0797392088801922119==--
