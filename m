@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Thu, 21 Jul 2022 08:50:17 -0000
-Message-Id: <165839341744.9214.11236521618441924090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Thu, 21 Jul 2022 08:50:18 -0000
+Message-Id: <165839341876.9265.18155841823290867361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/for-kernelci
-    old: ad1e2226017a9e56e242029f834a2cfc14f6fa83
-    new: 088b8107e603c7561ae41ebe65d98d2981d4f122
-    log: |
-         f92dd1475b0644b4779eed6f937a1eebfb80d53d platform/chrome: merge Kunit utils and test cases
-         afef1e1a0223623d063a6df51dbc342c9517b948 platform/chrome: cros_kunit_util: add default value for `msg->result`
-         088b8107e603c7561ae41ebe65d98d2981d4f122 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
-         
+  - ref: refs/tags/at91-soc-5.20
+    old: 0000000000000000000000000000000000000000
+    new: 18fcb4b61004e91b34a34f79a2d8261313c4ad9b
