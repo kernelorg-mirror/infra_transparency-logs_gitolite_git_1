@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 21 Jul 2022 14:19:36 -0000
-Message-Id: <165841317612.30710.3514203649250438126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 21 Jul 2022 14:50:04 -0000
+Message-Id: <165841500437.18208.8465359967427550532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 5668b5e6cffd975632ee6c32802d7d877b98e9a4
-    new: 0eabb1396656f215a5333a9444158b17b0fd3247
+  - ref: refs/heads/io_uring-5.19
+    old: d785a773bed966a75ca1f11d108ae1897189975b
+    new: 934447a603b22d98f45a679115d8402e1efdd0f7
     log: |
-         09e893092e005a191c1103c00d04806b5fd2e886 hwmon: (aquacomputer_d5next) Add D5 Next fan control support
-         3b1ea71faccba3abbf71f9a2510c212e1783b6e1 hwmon: (aspeed-pwm-tacho) increase fan tach period (again)
-         0eabb1396656f215a5333a9444158b17b0fd3247 hwmon: (tps23861) fix byte order in current and voltage registers
+         ec8516f3b7c40ba7050e6b3a32467e9de451ecdf io_uring: fix free of unallocated buffer list
+         934447a603b22d98f45a679115d8402e1efdd0f7 io_uring: do not recycle buffer in READV
          
