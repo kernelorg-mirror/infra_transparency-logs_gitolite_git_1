@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 22 Jul 2022 15:36:40 -0000
-Message-Id: <165850420064.20574.1285119916098642998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 22 Jul 2022 15:50:04 -0000
+Message-Id: <165850500418.29175.15775728754838376002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
+  - ref: refs/heads/for-5.20/block
+    old: e94eb459d3e4604927ab4e08f81649fcea418318
+    new: 6d8c5afc9ab14595707ff25d971dde45728eba3e
+    log: |
+         fa9482e0b23d9abe7034becff59daeaba09146ff ublk_drv: fix error handling of ublk_add_dev
+         6d8c5afc9ab14595707ff25d971dde45728eba3e ublk_drv: make sure that correct flags(features) returned to userspace
+         
+  - ref: refs/heads/for-next
+    old: 03bcc540a43268fd363e14223cbc7b542860bdf9
+    new: 5ded4bebe8a1b8cade71b1cb1a1186cd164d6983
+    log: |
+         fa9482e0b23d9abe7034becff59daeaba09146ff ublk_drv: fix error handling of ublk_add_dev
+         6d8c5afc9ab14595707ff25d971dde45728eba3e ublk_drv: make sure that correct flags(features) returned to userspace
+         5ded4bebe8a1b8cade71b1cb1a1186cd164d6983 Merge branch 'for-5.20/block' into for-next
+         
