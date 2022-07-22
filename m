@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 22 Jul 2022 13:42:41 -0000
-Message-Id: <165849736130.13489.1332546690338212041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 22 Jul 2022 13:47:08 -0000
+Message-Id: <165849762808.16419.4026884584796594514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-next/juno
-    old: 0000000000000000000000000000000000000000
-    new: 1b0ab6dc49c15e094832f1af8d9fcdd1c4cfa6e0
+  - ref: refs/heads/dev-test
+    old: d0e5ad05996ec1f0813feb4a5058af50dd1a2a60
+    new: cc2a171372c68ee64916eb65a962b3aba9ea56ad
+    log: |
+         267f2492c8f71dac44399988b510f9bf6b074a51 erofs: introduce multi-reference pclusters (fully-referenced)
+         de8a801ab65ebb6135a72d95384d2bccea30318e erofs: get rid of erofs_prepare_dio() helper
+         cc2a171372c68ee64916eb65a962b3aba9ea56ad erofs: get rid of the leftover PAGE_SIZE in dir.c
+         
