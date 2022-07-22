@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 22 Jul 2022 21:53:32 -0000
-Message-Id: <165852681252.29428.17997783101891047954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Jul 2022 21:55:57 -0000
+Message-Id: <165852695771.31732.15629973081682782932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/affs
-    old: b77f898bab2e85d4486e725aeeff79e386df7e56
-    new: 615f444aff6b6f45ddc89be27553e877557791a5
+  - ref: refs/heads/master
+    old: 1b5995e370e4024e7bb7408247363e8e67f0393d
+    new: 3c47fb2f4c4df33881fa540e35e21415a6ecfbb5
     log: |
-         615f444aff6b6f45ddc89be27553e877557791a5 affs: use memcpy_to_page and remove replace kmap_atomic()
+         2829a267fca297983b9302fa2cb833757328c857 net: fix uninitialised msghdr->sg_from_iter
+         3c47fb2f4c4df33881fa540e35e21415a6ecfbb5 Merge branch 'io_uring-zerocopy-send' of git://git.kernel.org/pub/scm/linux/kernel/git/kuba/linux
          
