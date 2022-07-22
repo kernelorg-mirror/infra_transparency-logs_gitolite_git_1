@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7281079964293475322=="
+Content-Type: multipart/mixed; boundary="===============7762394575776722605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Jul 2022 17:58:58 -0000
-Message-Id: <165851273847.10853.11750389136864575358@gitolite.kernel.org>
+Date: Fri, 22 Jul 2022 17:59:08 -0000
+Message-Id: <165851274837.10958.16111058706290637441@gitolite.kernel.org>
 
---===============7281079964293475322==
+--===============7762394575776722605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 5588d628027092e66195097bdf6835ddf64418b3
-    new: 949d6b405e6160ae44baea39192d67b39cb7eeac
-    log: revlist-5588d6280270-949d6b405e61.txt
+  - ref: refs/heads/mlx5-queue
+    old: 05b42d18ffac2819440e1649efa6a14246bedf13
+    new: ed00b118bcd072a05fcb03e8e5fc90de53fb50c5
+    log: revlist-05b42d18ffac-ed00b118bcd0.txt
 
---===============7281079964293475322==
+--===============7762394575776722605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5588d6280270-949d6b405e61.txt
+Content-Disposition: attachment; filename=revlist-05b42d18ffac-ed00b118bcd0.txt
 
 f85daf0e725358be78dfd208dea5fd665d8cb901 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
 16bc4d196b2a8960cac3bdfd4c98d72c44ab043b arm64: dts: rockchip: Fix ethernet on production Quartz64-B
@@ -358,5 +358,39 @@ f72c38fad234759fe943cb2e40bf3d0f7de1d4d9 sfc: hook up ef100 representor TX
 84e7fc2591f72987b43da91b3fdb01a196204379 sfc: attach/detach EF100 representors along with their owning PF
 735dbc69ab719f5e3c84f7c669b5b3ad05f684bb Merge branch 'sfc-E100-VF-respresenters'
 949d6b405e6160ae44baea39192d67b39cb7eeac net: add missing includes and forward declarations under net/
+b0a7d097e789c6a63fc33f0f0fde0c48e03030d1 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+274ccfbf036b7e750d9efa776f35e31f536a1828 !!! W/A DO NOT SUBMIT !!! net/mlx5: Introduce ifc bits for migratable
+1db7ef342da08650bbb64dc77578ea7a09c95dcb !!! W/A DO NOT SUBMIT !!! vfio/mlx5: Set VF as migratable
+9dec651026161de56fd72057384ede3d9d310bdc net/mlx5e: Convert mlx5e_tc_table member of mlx5e_flow_steering to pointer
+dd4be9b8d1582007f2e1044404b4e5e646018126 net/mlx5e: Make mlx5e_tc_table private
+7e4d4aa9f0e3e84a1ca10e3bb3efb6895860ec79 net/mlx5e: Allocate VLAN and TC for featured profiles only
+fdac9e97b590b93645aa229849cf66fafa1d0e35 net/mlx5e: Convert mlx5e_flow_steering member of mlx5e_priv to pointer
+963b5d1eba0b14e8b06e877fbb70e3fa1be67ef8 net/mlx5e: Report flow steering errors with mdev err report API
+210e0436e948fb408851464a8f54a9570690ebd1 net/mlx5e: Add mdev to flow_steering struct
+fe3451fc413a2f88db4f5bcfed8396205f01a72b net/mlx5e: Separate mlx5e_set_rx_mode_work and move caller to en_main
+54e726cc7d03beee6c0b5bafa0c5fb2780f45d5e net/mlx5e: Split en_fs ndo's and move to en_main
+30eec5fb510cd2efb945b917288770ec6afc81dd net/mlx5e: Move mlx5e_init_l2_addr to en_main
+a659c081e4e05d3097b2e75f8207766e1bb1d26a net/mlx5e: Introduce flow steering API
+3dd06b1506aac07932e9e4bed6e2400d921da765 net/mlx5e: Decouple fs_tt_redirect from en.h
+7262f61e9941c01fe15ff017c92948bda6ec61db net/mlx5e: Decouple fs_tcp from en.h
+cdc39b5a21ede5c09e3e9b9c75d599064c19fd3d net/mlx5e: Drop priv argument of ptp function in en_fs
+8209b4d78516037e7acef03e3c0bbf4fde988a29 net/mlx5e: Convert ethtool_steering member of flow_steering struct to pointer
+2388d6e0924993488560bdc2022ecfab5c7af986 net/mlx5e: Directly get flow_steering struct as input when init/cleanup ethtool steering
+d3ca6139b8969bee9b53579a846b8789dd25eeb1 net/mlx5e: Separate ethtool_steering from fs.h and make private
+b2acf3a86d10c1f27e600db19c53579d3f22f7a5 net/mlx5e: Introduce flow steering debug macros
+797e9df8f4bec3fe0358c6cacf6d89ced0a44a4d net/mlx5e: Make flow steering arfs independent of priv
+b09b26fb9e842bc3a803a12f52b8180c20d5ab82 net/mlx5e: Make all ttc functions of en_fs get fs struct as argument
+bfa990387eade8a9f0547aed1af8e143af167e5c net/mlx5e: Completely eliminate priv from fs.h
+dcfe10a54829cc30ed9781d6520041a66cf6710f net/mlx5e: Support enhanced CQE compression
+df1fe26aace86bf5fcaa2c06fae31598ebd2e8b7 net/mlx5e: Move params kernel log print to probe function
+97fdd423425bda748abee32c8b3ac03d3e6ca665 net/mlx5e: Fix wrong use of skb_tcp_all_headers() with encapsulation
+4660806aec00e6322ced402983b3773046c177cc sched/topology: Add NUMA-based CPUs spread API
+460ae125c23b812c64d6957fdfc42e3778f577da net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+2a0192676560b47fbc762ffccef14d03d0a11eb0 enic: Use NUMA distances logic when setting affinity hints
+ad3b82948e5daae2cb9996d27fea0643b6c1e50a Merge branch 'patchq/518280' into mlx5-queue
+c73e01edd43e122421fbf0eedd4276933bbc075a Merge branch 'patchq/467362' into mlx5-queue
+4b1b9cb5dc8009272426018aa00a60b8b2cbb6c8 Merge branch 'patchq/505590' into mlx5-queue
+6b102e7b149c60b0bd028d1c6582e5d74b013f67 Merge branch 'patchq/522790' into mlx5-queue
+ed00b118bcd072a05fcb03e8e5fc90de53fb50c5 Merge branch 'patchq/523508' into mlx5-queue
 
---===============7281079964293475322==--
+--===============7762394575776722605==--
