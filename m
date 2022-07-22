@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
-Date: Fri, 22 Jul 2022 21:53:08 -0000
-Message-Id: <165852678827.29130.5855957493685244472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Jul 2022 21:53:20 -0000
+Message-Id: <165852680057.29272.15573909988826995243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuba/linux
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
-  - ref: refs/heads/io_uring-zerocopy-send
-    old: eb315a7d1396b1139fc7daea55f2d3191e8e7092
-    new: 2829a267fca297983b9302fa2cb833757328c857
+  - ref: refs/heads/master
+    old: 949d6b405e6160ae44baea39192d67b39cb7eeac
+    new: 1b5995e370e4024e7bb7408247363e8e67f0393d
     log: |
-         2829a267fca297983b9302fa2cb833757328c857 net: fix uninitialised msghdr->sg_from_iter
+         1b5995e370e4024e7bb7408247363e8e67f0393d mlxsw: core: Fix use-after-free calling devl_unlock() in mlxsw_core_bus_device_unregister()
          
