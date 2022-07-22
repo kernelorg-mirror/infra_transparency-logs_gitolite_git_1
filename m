@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 22 Jul 2022 15:20:50 -0000
-Message-Id: <165850325098.10578.5244852103488790346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 22 Jul 2022 15:21:32 -0000
+Message-Id: <165850329255.10911.2794236208280829155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 84f2a3c182d545261c36f94510134f5e9fb918f5
-    new: e086c37f876fd1f551e2b4f9be97d4a1923cd219
-    log: |
-         e086c37f876fd1f551e2b4f9be97d4a1923cd219 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-         
   - ref: refs/heads/master
-    old: 34f183e9ced5c791dde23152627b5c84d017f049
-    new: 2b816c3be4bd4036fb80206873d6b586d574a996
+    old: 3609e11ccce8a9bc1ce36a3191fa8e25dd762932
+    new: 02adcf497c9f4ca20175b291f8269faff4da958c
     log: |
-         e086c37f876fd1f551e2b4f9be97d4a1923cd219 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-         2b816c3be4bd4036fb80206873d6b586d574a996 Merge branch 'for-next'
+         8200139273363c9d30d6b2db187f33508b6cd49f examples: add a simple single-shot poll benchmark
+         bda30ea972839abdd1e7a0ecdef83e00ff9db7c8 tests: test IORING_SETUP_SINGLE_ISSUER
+         02adcf497c9f4ca20175b291f8269faff4da958c man/io_uring_setup.2: document IORING_SETUP_SINGLE_ISSUER
          
