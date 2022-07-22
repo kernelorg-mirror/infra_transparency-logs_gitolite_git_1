@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbusch/linux
-Date: Fri, 22 Jul 2022 01:46:59 -0000
-Message-Id: <165845441972.13464.6133517258716504926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Jul 2022 01:58:04 -0000
+Message-Id: <165845508429.20498.395384360946504024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbusch/linux
-user: kbusch
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dma-prereg-v3-wip
-    old: 7b981a9cb1de32a6e73fe14d2665e0a2fb5dcd3c
-    new: 4625fa7adf745334c0a2eb635121d587df797b29
+  - ref: refs/heads/master
+    old: 32d00f62db4e982edbee137109407636f71f79b6
+    new: b945804d993072e24138741ab67e28f6b09b2502
     log: |
-         4625fa7adf745334c0a2eb635121d587df797b29 nvme-pci: implement dma_map support
+         9950f11211331180269867aef848c7cf56861742 can: pch_can: pch_can_error(): initialize errc before using it
+         b945804d993072e24138741ab67e28f6b09b2502 Merge tag 'linux-can-next-for-5.20-20220721' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
          
