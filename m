@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 22 Jul 2022 13:05:38 -0000
-Message-Id: <165849513878.23862.8240901542524446695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 22 Jul 2022 13:27:49 -0000
+Message-Id: <165849646975.4303.3979046519760554352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/for-5.20/apple
-    old: a0a05054583fed17f522172e101594f1ff265463
-    new: 20afcc462579c0bd79a59ab2b87b82ffa833d118
+  - ref: refs/heads/features
+    old: 9aa938ddce81c045f627468b395714768945a90f
+    new: cfadf90e3995a3a7d20ec4e7954f412b358976fa
     log: |
-         20afcc462579c0bd79a59ab2b87b82ffa833d118 HID: apple: Add "GANSS" to the non-Apple list
-         
-  - ref: refs/heads/for-next
-    old: 0f0606ababb185afe1461ebd9abb95d797a5b952
-    new: 655eef8c2b008c845d7c921184b5c125addb3f4d
-    log: |
-         20afcc462579c0bd79a59ab2b87b82ffa833d118 HID: apple: Add "GANSS" to the non-Apple list
-         655eef8c2b008c845d7c921184b5c125addb3f4d Merge branch 'for-5.20/apple' into for-next
+         cc02e6e21aa5f2ac0defe8c15e5a9d024da6e73d s390/crash: add missing iterator advance in copy_oldmem_page()
+         af2debd58bd769e38f538143f0d332e15d753396 s390/crash: make copy_oldmem_page() return number of bytes copied
+         7190d84966b34de3892cd4eb8698a2229ceb8d82 s390/mm: remove unused tprot() function
+         86caa4b678956bc19567256dd8422f3978620897 s390/crash: remove redundant panic() on save area allocation failure
+         f6749da17a34eb08c9665f072ce7c812ff68aad2 s390/crash: fix incorrect number of bytes to copy to user space
+         9ffed254d938c9e99eb7761c7f739294c84e0367 s390/zcore: fix race when reading from hardware system area
+         d6da67378198e4caa37404f87851659553b936b9 s390/crash: move copy_to_user_real() to crash_dump.c
+         6d2e5a4a13da2e91a46a37cd00d23dba8613ad7b s390/crash: use static swap buffer for copy_to_user_real()
+         ebbc9570169147740aa39aee1d61b4cc5a631644 s390/crash: support multi-segment iterators
+         cfadf90e3995a3a7d20ec4e7954f412b358976fa Merge branch 'vmcore-iov_iter' into features
          
