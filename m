@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6344138074640167720=="
+Content-Type: multipart/mixed; boundary="===============5053437085173116935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 22 Jul 2022 16:17:17 -0000
-Message-Id: <165850663711.13576.18181396441547191323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 22 Jul 2022 16:39:56 -0000
+Message-Id: <165850799622.26385.13251001405164704758@gitolite.kernel.org>
 
---===============6344138074640167720==
+--===============5053437085173116935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev-queue
-    old: 32069d7417de88a30d17906c219c7cde762ce8b8
-    new: a9a361ffec890ac7eeb86cea6f19a1d1605aca9f
-    log: revlist-32069d7417de-a9a361ffec89.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 5588d628027092e66195097bdf6835ddf64418b3
+    new: 949d6b405e6160ae44baea39192d67b39cb7eeac
+    log: revlist-5588d6280270-949d6b405e61.txt
 
---===============6344138074640167720==
+--===============5053437085173116935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32069d7417de-a9a361ffec89.txt
+Content-Disposition: attachment; filename=revlist-5588d6280270-949d6b405e61.txt
 
 f85daf0e725358be78dfd208dea5fd665d8cb901 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
 16bc4d196b2a8960cac3bdfd4c98d72c44ab043b arm64: dts: rockchip: Fix ethernet on production Quartz64-B
@@ -358,38 +358,5 @@ f72c38fad234759fe943cb2e40bf3d0f7de1d4d9 sfc: hook up ef100 representor TX
 84e7fc2591f72987b43da91b3fdb01a196204379 sfc: attach/detach EF100 representors along with their owning PF
 735dbc69ab719f5e3c84f7c669b5b3ad05f684bb Merge branch 'sfc-E100-VF-respresenters'
 949d6b405e6160ae44baea39192d67b39cb7eeac net: add missing includes and forward declarations under net/
-dba4cf51bbb419374026b474062d25017979f26d ice: prevent low-core machines crashing on DCB config
-bd71e18fd399a7f0e4fd3c462add851717741dd6 i40e: Fix interface init with MSI interrupts (no MSI-X)
-8844cd9ae69abee003742ebbd245daeb07040a84 i40e: Refactor tc mqprio checks
-fd1cc5bd715db296581d40aee762a64aa138b401 iavf: Fix max_rate limiting
-9a9a5bb60b4ced4487850e76c8c5bc000605f359 iavf: Fix 'tc qdisc show' listing too many queues
-c5f461f05926fded768aa02f96c0bf2f1f4d756a iavf: validate dest MAC and VLAN from tc-filter code path
-4469fcb0746fc54a51769508daffccad8da09795 iavf: enable tc filter configuration only if hw-tc-offload is on
-1cd20b0017f7377333623ec0ca7fb3c81873f020 iavf: Check for duplicate TC flower filter before parsing
-51e9f17313f693057e9abe90f6c764879213f79e ice: add i2c write command
-77f54820f9712fe13c349fb4b64b72dca6dab8ab ice: add write functionality for GNSS TTY
-9ba8048deae382348cac693e6b5cc6fb515a45ca ice: Fix max VLANs available for VF
-0d99a541e4aeef642fc35313b0318c69e12d5c0a ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
-f3d7ca58c59d2fbd2bed2190ac1f7dec45d98063 ice: do not setup vlan for loopback VSI
-b9cfa6f4e67e7361e5cec8ac40e22dd26ef0d49c ice: Fix double VLAN error when entering promisc mode
-451448ea565be48b7e024c4df1e99b8ad7d5693e ice: Ignore -EEXIST when setting promisc mode
-5f6632c48fa04da7d1d0ffe267c64179653fc63c ice: Fix clearing of promisc mode with bridge over bond
-2777045e77df4e52b6b1fcc48836f4dc70c458b1 ice: xsk: use Rx ring when picking NAPI context
-0a5f70d7cfb071cba6cadbd7d622c439651f13f2 ice: Introduce enabling promiscuous mode on multiple VF's
-07901d516c7b4f00d3d7fa7510c3fec7b84db2e0 ice: Fix promiscuous mode not turning off
-f62014d95ba52563f514bc81652d1f52a102453c ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
-a5fa9b356e5c2595bb69c65a412ba6219d06a1d6 ice: Add support for ip TTL & ToS offload
-7dee5bec0011ab6176b6feb0351fbfed976aa753 ice: compress branches in ice_set_features()
-ca86ce3fe70dcdefed0d0b88967b3a2061de789a ice: allow toggling loopback mode via ndo_set_features callback
-6c6d6d3f793f4bb11113700754cceaf35f08d773 ice: Implement control of FCS/CRC stripping
-325b0bf7d781e53a4e7ef51a5004bb2cd33225a4 ice: Implement FCS/CRC and VLAN stripping co-existence policy
-a60a7af7a6c914624c25eb5038052bfddc8d757b ice: Fix VSI rebuild WARN_ON check for VF
-3049a89c1dc96a56a441c6ee90367171425f0e7e igc: add xdp frags support to ndo_xdp_xmit
-84f93efda2ae265d7cd5b9bc8604082558b56c8b ice: Fix tunnel checksum offload with fragmented traffic
-056ad15568d2a2116c635d7bb31ef54e6c87319d iavf: Fix adminq error handling
-c3c8f1da9fd55f4c8be672d5e55353a5a0cae419 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-6201eff5beac0eba272123d5852787f360e46c6c iavf: Fix reset error handling
-48a0e349e745a8c3886dd669941ce4a97e5aa4f3 ice: Fix VSIs unable to share unicast MAC
-a9a361ffec890ac7eeb86cea6f19a1d1605aca9f ixgbe: Manual AN-37 for troublesome link partners for X550 SFI
 
---===============6344138074640167720==--
+--===============5053437085173116935==--
