@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 22 Jul 2022 18:19:58 -0000
-Message-Id: <165851399810.23897.13879330426639106519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 22 Jul 2022 18:40:17 -0000
+Message-Id: <165851521710.5099.3026020520338607656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: e54b444b426df2ceabe23726ff43745eea8330b4
-    new: b575cab10d90295b8335d0733a0e075147bf0211
+  - ref: refs/heads/master
+    old: 18e6ae0eadd291bca0ae55f97b474ea86c0f5d9b
+    new: e64493fdae1a31efca34b4dc8fb39ccbfeb59272
     log: |
-         274104e9666c4768330a42cf59913969a53d4887 dm: Allow dm_call_pr to be used for path searches
-         920c05a24fd7e3e445b8145569978a4b24619488 dm: Start pr_reserve from the same starting path
-         341d022e93c1ae7c617fff25ad0a268bb62fa82c dm: Fix PR release handling for non All Registrants
-         b575cab10d90295b8335d0733a0e075147bf0211 dm: Start pr_preempt from the same starting path
+         e64493fdae1a31efca34b4dc8fb39ccbfeb59272 man-pages.7: The linker flag is not always necessary
          
