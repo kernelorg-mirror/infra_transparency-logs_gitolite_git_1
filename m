@@ -1,58 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1383277397805913694=="
+Content-Type: multipart/mixed; boundary="===============5187031085099026522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 22 Jul 2022 08:27:47 -0000
-Message-Id: <165847846755.3786.6557902618728830114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 22 Jul 2022 08:27:59 -0000
+Message-Id: <165847847999.3914.17471590678852982360@gitolite.kernel.org>
 
---===============1383277397805913694==
+--===============5187031085099026522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 7b877282dc052dc88154ee9b9b926b14eadc3174
-    new: b4dae548a26ad3e885d1c59838f5580db2043292
-    log: |
-         fa7e9668ff112f34357cf57246ab9688c3506dcb Notes added by 'git notes add'
-         cd2193a9af077c4c126aca1db6fda27a5acace3a Notes removed by 'git notes remove'
-         b4dae548a26ad3e885d1c59838f5580db2043292 Notes added by 'git notes add'
-         
+  - ref: refs/tags/v5.18.13
+    old: 0000000000000000000000000000000000000000
+    new: 011d6ac7feab574fe2bf1263cacf32aac3dab3ef
 
---===============1383277397805913694==
+--===============5187031085099026522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658478466 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1658478465-1c7511913506ea9951eb11ca6a223b4bc80d0409
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658478477 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1658478476-26214ef5383edb966498f7cf3e632a685d995198
 
-7b877282dc052dc88154ee9b9b926b14eadc3174 b4dae548a26ad3e885d1c59838f5580db2043292 refs/notes/signatures/tar
+0000000000000000000000000000000000000000 011d6ac7feab574fe2bf1263cacf32aac3dab3ef refs/tags/v5.18.13
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLaX4IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mlMQAMXZ6F06+Opm5YOMCgOP
-WMpOPP5lcRCN61DOwg7hQoyw/92PGGkF+Ascw4erkJOTeqljhzA9/gKmPJnuxA4E
-MS0ElNf4z6jYUxFODwEPVDkb91NOlS7xOUp/Mm27Yzph7xv56sV0bbwKGjOfJYH0
-q0nvYScG+Ca60MwQVxV4sAJ45F7M/n3DLGSt7bQppZf5AI6ATdgmiIHpZ45hxKew
-h1E8F5XrynRPPLFnHmukFnPIBz8Pm3pQCiapPVu+7twy8Ft9NtEOS0ZG6CJZ74++
-Z0nJ9jQ1NL+ehyw5RhkhaMlPt/Tl0TdD++HfQf+ZY82BnsoR1MuOYpeSq8EKT3jq
-boJZznN7Pf/579MlqG55BbtfYXyjya8gQuBi+bXPtYbEsEfYE7er/V5V0TCeYnJG
-c0XS9/VEx7PQc6FUKCO2MVcAAkF4+opiOvQStXi8gKnDMNzw5yffgRgqOZKC59YI
-x/oBreYkD5o0CrHpovOxrySl3mKjEgKJn4VDAaBXso8S5WB9GUcOwfXcR0nmVjUH
-tyUIMUTX1SYmXk7E8vYGOp3fdXC6KF2idizEcXHgBuUkDA8UEjz7zuRqf/V4jzx5
-AJroxAkkd1NTb9Y1bxiwJm3/wvgWap/uSodUNgZBygeIHhzXFtQcwX9ahHT8Dnyd
-DWxM9yh+owKouCVtFyQSaKsf
-=jU37
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLaX40bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++WAP/iWP3LV4IsCADurk22Ud
+bNDwSPyolOkVVdHengBeD5w7CipY5EY3JwHbcDpmBTtZKjtT5Ku5oGbUeIglhHVj
+xQC4Vkhs7aA/b+BxxG4CGXnjs24lKMPSUZkZzGSqOXk+uPkDgYXTcMK5f3v0DUEL
+j5PM+/SM2qMMF+aLmQUYKpi6CNB+nQmBC4I8Rui6haopY9yhJ+qxndqDzc/6XcuM
+ZBE8e3TZP4CgpG64FUnuu2S3S4Fapv4gLkEQvFBItq8VX6vjK7RzG69PTp7uhtX/
+K+j7bElp50VVO5Dj2wIlA2GFgJUrBj7Xet9y6TAb9zcGVGttLMV+ykmhX9vvqfo2
+NfSiPZbG1kQJoV41pAjO+SfuZ9w04b7tGw5RYl05+CD4TQWN1bbzX26l17bnUYl8
+Mmy7Q2EOya4+ca/3gFoyctH7WYoUwgcyjvz6fJK91sZ6+N8IRE2VVmYLNLzchMuz
+roMouXR9/WH16+8OMQrGXEpn/+8EwNbFUTWCGQVA9hkcrfEVBGoQxnKK/EqS7fxr
+nvPoL0Qky5ioFJNuJ/y2c9/zQ6iTcd2kl5KM426+hO0JlBCbKlwBoV1vXpif9zLa
+nqW9ynQ9j3S+eWEepo4BEqWsXB8hZB2hl4xf9+o8XHVoGO2qUuVhifWLKPLE5PC2
+n1AuE6ncXkE3ZjHiGJf5mUZG
+=eKvv
 -----END PGP SIGNATURE-----
 
---===============1383277397805913694==--
+--===============5187031085099026522==--
