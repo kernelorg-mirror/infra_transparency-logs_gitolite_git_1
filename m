@@ -1,30 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 22 Jul 2022 19:39:22 -0000
-Message-Id: <165851876260.9486.18318264034110499094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 22 Jul 2022 19:40:04 -0000
+Message-Id: <165851880490.11271.18434660855075892880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: 43463c02245ab160c147fc814b79b728ed0bf96c
-    new: 602649b72926200dab07402eab6200c2e944e60e
+  - ref: refs/heads/master
+    old: 02a36caa69f5675f7144fbeddb7a32e1d35ce0c7
+    new: dff32ddb97f2257975b6047474d665a5de7f7bbc
     log: |
-         602649b72926200dab07402eab6200c2e944e60e Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 05fc5690899171bacf2b204aa9b788673fc3af57
-    new: 3bfea5549f076a6a4469f2ad800e0c8639ceb694
-    log: |
-         dea997733575c5793ca77e166bbbf89097987eb4 firmware: cs_dsp: Add pre_stop callback
-         a4b976552f122ea851f556769874022cf097741e firmware: cs_dsp: Add memory chunk helpers
-         b340128432a2b8849cc34f9653d7c43c83102bbd ASoC: amd: vangogh: Use non-legacy DAI naming for cs35l41
-         1e744351bcb9c4cee81300de5a6097100d835386 ASoC: Intel: avs: Use lookup table to create modules
-         602649b72926200dab07402eab6200c2e944e60e Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         3bfea5549f076a6a4469f2ad800e0c8639ceb694 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
+         98ab12629c6a98fb53e28a4a70f53ce594cca858 configure: cleanups for nfs ioengine
+         fbd4ab3846b65d0a2455a24ca5c1613d0ec3158a engines/nfs: remove commit hook
+         dff32ddb97f2257975b6047474d665a5de7f7bbc ci: install libnfs for linux and macos builds
          
