@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 22 Jul 2022 12:13:13 -0000
-Message-Id: <165849199361.22360.4593504098884724125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 22 Jul 2022 12:21:49 -0000
+Message-Id: <165849250924.28165.2328620499194344831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/tags/sound-5.19-rc8
+  - ref: refs/tags/pinctrl-v5.19-3
     old: 0000000000000000000000000000000000000000
-    new: f91a56f9d9a9b3407c8767df4ee3031cfa0d675d
+    new: e5a50ed32cbe865d962c5c969072a84141ebcaa2
