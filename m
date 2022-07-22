@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1910309154954247215=="
+Content-Type: multipart/mixed; boundary="===============8638207000323002144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 22 Jul 2022 06:19:23 -0000
-Message-Id: <165847076388.20856.7858230960223349188@gitolite.kernel.org>
+Date: Fri, 22 Jul 2022 06:24:44 -0000
+Message-Id: <165847108499.24078.4138634610893000403@gitolite.kernel.org>
 
---===============1910309154954247215==
+--===============8638207000323002144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 68e77ffbfd06ae3ef8f2abf1c3b971383c866983
-    log: revlist-f2906aa86338-68e77ffbfd06.txt
+  - ref: refs/heads/dev
+    old: 204e6ceaa1035cb7b92b156517e88842ebb4c7ff
+    new: 69f030b0c2207bf765b2902f9556cb26e44de412
+    log: revlist-204e6ceaa103-69f030b0c220.txt
 
---===============1910309154954247215==
+--===============8638207000323002144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-68e77ffbfd06.txt
+Content-Disposition: attachment; filename=revlist-204e6ceaa103-69f030b0c220.txt
 
-e946554905c1d04da2a094ce4fdf47708f570bef Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 2c39d612aa5f34d63d264598692a7e6cd4fb34eb Merge tag 'for-linus-5.19a-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 f6e9d01468087e41c0905a60bba6a451882dd3b8 Merge tag 's390-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 70d605cbeecb408dd884b1f0cd3963eeeaac144c Merge tag 'riscv-for-linus-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
@@ -1050,5 +1049,6 @@ e5ec6a2513383fe2ecc2ee3b5f51d97acbbcd4d8 mlxsw: spectrum_router: Fix IPv4 nextho
 b67fbebd4cf980aecbcc750e1462128bffe8ae15 mmu_gather: Force tlb-flush VM_PFNMAP vmas
 7ca433dc6dedb2ec98dfc943f6db0c9b8996ed11 Merge tag 'net-5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 68e77ffbfd06ae3ef8f2abf1c3b971383c866983 Merge tag 'mtd/fixes-for-5.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+69f030b0c2207bf765b2902f9556cb26e44de412 exfat: reuse __exfat_write_inode() to update directory entry
 
---===============1910309154954247215==--
+--===============8638207000323002144==--
