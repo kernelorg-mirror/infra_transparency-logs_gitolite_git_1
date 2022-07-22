@@ -1,81 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============2672653895830447755=="
+Content-Type: multipart/mixed; boundary="===============6303938450505792715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 22 Jul 2022 17:10:38 -0000
-Message-Id: <165850983885.14140.15024653201156368080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 22 Jul 2022 17:12:43 -0000
+Message-Id: <165850996361.14888.1650328034408709986@gitolite.kernel.org>
 
---===============2672653895830447755==
+--===============6303938450505792715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/queue
-    old: 8031d87aa9953ddeb047a5356ebd0b240c30f233
-    new: 1a4d88a361af4f2e91861d632c6a1fe87a9665c2
-    log: revlist-8031d87aa995-1a4d88a361af.txt
+  - ref: refs/heads/next
+    old: 778aca71a6c0212a91ad22e8389345533e9bbcac
+    new: 5c6adada032d594bc0125b1f181561fc4ee3a969
+    log: revlist-778aca71a6c0-5c6adada032d.txt
+  - ref: refs/heads/pci/ctrl/dwc
+    old: 908903ae8701a0b73cfa71ef203feb6e9261dcf4
+    new: e92d4cc4be340a448ea25680838f9307e6f53878
+    log: |
+         41d42f3fabd0cd525c7565086b6c7f433cc5833e PCI: dwc: Correct msi_irq condition in dw_pcie_free_msi()
+         1335546d8280e1908b0b73171b8727d3c1d9b760 PCI: dwc: Split MSI IRQ parsing/allocation to a separate function
+         440ab4c286c51eb17c8df57f9e55f7be329fc6a4 PCI: dwc: Convert struct pcie_port.msi_irq to an array
+         ac71b483b3e9a85b81043c3a138cd0d4ef7334fb PCI: dwc: Handle MSIs routed to multiple GIC interrupts
+         e92d4cc4be340a448ea25680838f9307e6f53878 dt-bindings: PCI: qcom: Support additional MSI interrupts
+         
+  - ref: refs/heads/pci/ctrl/qcom
+    old: b5fd49cafbbe6b8ae94e58d239d9abbe0dbeb43c
+    new: e48db89fdc2db5e3cb27757eb37d84a122d101a4
+    log: |
+         4e4ad1bfefa8d148caf45b058f10bb7f3933f27b PCI: qcom: Drop unnecessary <linux/interrupt.h> include
+         e48db89fdc2db5e3cb27757eb37d84a122d101a4 PCI: qcom: Sort variants by Qcom IP rev
+         
 
---===============2672653895830447755==
+--===============6303938450505792715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-778aca71a6c0-5c6adada032d.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1658509835 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1658509832-a04d34b6cac0dff16e5ef6d58b02721880f21f88
+15a232408a8a525b6bb8f759419c38aa1bee50e8 PCI: fu740: Remove unnecessary include files
+67e87425023b4ec918875a77366ac8656ae56aa6 PCI: imx6: Convert to NOIRQ_SYSTEM_SLEEP_PM_OPS()
+24072ef213f5096e955d290dcc7542bdf1fe190a PCI: imx6: Move imx6_pcie_grp_offset(), imx6_pcie_configure_type() earlier
+9a7f8f81b542be1a3c21eb49f9e93eb9d298284b PCI: imx6: Move PHY management functions together
+b046f921d3b161c6635864a38105ee6c5fa74316 PCI: imx6: Move imx6_pcie_enable_ref_clk() earlier
+3af11bb318304f19d0e6c646a7625ce60db3eb4d PCI: imx6: Move imx6_pcie_clk_disable() earlier
+3aaa67fd4ca606f15df99a9a549a3e58b0534208 PCI: imx6: Factor out ref clock disable to match enable
+9d1ed731c65193afad735c8c1fad5121325a8243 PCI: imx6: Collect clock enables in imx6_pcie_clk_enable()
+ba785bab0f3840e86d417e6bb5eb9005e2974901 PCI: imx6: Propagate .host_init() errors to caller
+d2ec6cc0445b228082a2f62087865e45fe613ffc PCI: imx6: Disable i.MX6QDL clock when disabling ref clocks
+b02f36855e3e448277cb2db4a70f4c246d4e2218 PCI: imx6: Call host init function directly in resume
+4703cbf0e310b1d7b19cdb85d220780fef47c7e3 PCI: imx6: Turn off regulator when system is in suspend mode
+90ed85e0f67d707255495d1d3ddf0b3019145815 PCI: imx6: Move regulator enable out of imx6_pcie_deassert_core_reset()
+222c06e1e68ff3bc0f6f7a81c224544ca4fd7182 PCI: imx6: Mark the link down as non-fatal error
+27e48f89c5fc4d6f8c4ebdf53e68c90e9a558964 PCI: imx6: Reduce resume time by only starting link if it was up before suspend
+aca6bf55d9c87c6119c4b010c496dcd78077db60 PCI: imx6: Do not hide PHY driver callbacks and refine the error handling
+c731e2104579d19d9994e8b66051f6f3f5a15d99 PCI: imx6: Disable clocks in reverse order of enable
+a0d2a773b739398c4dd954819464c1234da6f75a PCI: imx6: Move the imx6_pcie_ltssm_disable() earlier
+f1f545738dd900cc48389b53d5cb46ff861d96fe PCI: imx6: Reformat suspend callback to keep symmetric with resume
+ac50198f774fc47c7b6168e802ce7a65aba11cba PCI: imx6: Set PCIE_DBI_RO_WR_EN before writing DBI registers
+2e76e6144b74c699dcb32baec9072fd35626e0aa PCI: imx6: Support more than Gen2 speed link mode
+5f4053d43a941d0ae7844fd07da10080eb2fc41d PCI: Convert to new *_PM_OPS macros
+930c6074d7dd579f3d4e8b04548dd8cb0341de1d PCI: loongson: Work around LS7A incorrect Interrupt Pin registers
+41b68c2d097e6ecbe19078218a68928ccbbc2a06 PCI: qcom: Add support for modular builds
+41d42f3fabd0cd525c7565086b6c7f433cc5833e PCI: dwc: Correct msi_irq condition in dw_pcie_free_msi()
+1335546d8280e1908b0b73171b8727d3c1d9b760 PCI: dwc: Split MSI IRQ parsing/allocation to a separate function
+440ab4c286c51eb17c8df57f9e55f7be329fc6a4 PCI: dwc: Convert struct pcie_port.msi_irq to an array
+ac71b483b3e9a85b81043c3a138cd0d4ef7334fb PCI: dwc: Handle MSIs routed to multiple GIC interrupts
+e92d4cc4be340a448ea25680838f9307e6f53878 dt-bindings: PCI: qcom: Support additional MSI interrupts
+4e4ad1bfefa8d148caf45b058f10bb7f3933f27b PCI: qcom: Drop unnecessary <linux/interrupt.h> include
+e48db89fdc2db5e3cb27757eb37d84a122d101a4 PCI: qcom: Sort variants by Qcom IP rev
+65c706dfdf65dbad0e18030952ef65ec959a8b02 Merge branch 'pci/aspm'
+49740daa04d15d6328f4d54c47f5ce28fa59d676 Merge branch 'pci/endpoint'
+fba64ae9f08ad016f922440ede86e3e6774c7265 Merge branch 'pci/err'
+42bb910772cf015700306781e642cbc52f49774f Merge branch 'pci/pm'
+e0dbbf49a1128c27f182407a05c67803a97a9018 Merge branch 'pci/virtualization'
+8ce5fc5e56473a1c0baca8c05c05643148aecd77 Merge branch 'pci/ctrl/aardvark'
+e9c33ea3037323e1ea5767fad52d9bafdd6b5b8b Merge branch 'pci/ctrl/dwc'
+5b6679cbfb06349cf0baab8575380b6b9246ef19 Merge branch 'pci/ctrl/dwc-edma'
+90d526264dd0e4d3c6cd0fa94e183aa20376a4ee Merge branch 'pci/ctrl/exynos'
+77c0765370c710ca8dd7053f2be6e2033bbba728 Merge branch 'pci/ctrl/fu740'
+9f52cc965605a91604cdf3c881ff35a32e359e23 Merge branch 'pci/ctrl/imx6'
+b2228f0921056df7c796b77b87e87c45d4d3183f Merge branch 'pci/ctrl/iproc'
+fdc394f80637ad146fa9f2d9eb38038d320994a1 Merge branch 'pci/ctrl/loongson'
+f2d4a135bed3c048e81cd91be4da1425f19edffe Merge branch 'pci/ctrl/mediatek'
+0558dde609a544a21e7591fefc62107e1dc4e8f7 Merge branch 'pci/ctrl/mediatek-gen3'
+a3ea7737ad689af824f3c82cafb9bb63d580ea8a Merge branch 'pci/ctrl/microchip'
+dff9d6696bb81ecc32e11b432c86bef007fc37c2 Merge branch 'pci/ctrl/qcom'
+d16bd31129347e0118c42dd064e7852c65093477 Merge branch 'pci/ctrl/rcar-gen2'
+1d4ae9c01676f02b79cf7141e29e26382a2bc457 Merge branch 'pci/ctrl/switchtec'
+90ca7995dee65b0f9aecd9a8e4263bf2055590b4 Merge branch 'pci/ctrl/tegra194'
+781b388a0222229c7d61166538c9c24be2387d0f Merge branch 'pci/ctrl/vmd'
+4996908a96c6ed22fdaa9f974226a45c07c0ca47 Merge branch 'pci/ctrl/pm-ops'
+5c6adada032d594bc0125b1f181561fc4ee3a969 Merge branch 'pci/misc'
 
-8031d87aa9953ddeb047a5356ebd0b240c30f233 1a4d88a361af4f2e91861d632c6a1fe87a9665c2 refs/heads/queue
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmLa2gsUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNX0gf/ea64+MgYWIRohla4AaJiYoWOQhHf
-U8qDfcaIRt2cBYfcAnTSwhZ/DdRO1b8ouidcdyHo2gA4XlJf2wKlXFxyseoTe84U
-zuXH6moRlxwwraRUQ3mzSKNePnndzbve0Cp51dFh5ucWC3LM6JWyZsnyTLXCA/qm
-6n9nSU+G0wkXpb+QGFSx84s9fCAGFSOe9P9LyAkV2jU8oX5p4E6ixMd68fu8RLSS
-Y/hb4qO+W6u7fv623wv8bTaGFRWlS/sxxkhaLNQ2BJXraL/QEwL4ccsuLHFqreys
-BLu24YcxEDk3GZ3wnA67lzgncFyYUnqFN17CrBbqrMPW7sXvSRIAbjpvVg==
-=PZI0
------END PGP SIGNATURE-----
-
---===============2672653895830447755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8031d87aa995-1a4d88a361af.txt
-
-056b99c2d1455443f427f2cbfa8b2967785921f6 KVM: nSVM: Pull CS.Base from actual VMCB12 for soft int/ex re-injection
-92857cfaedb042a10aa57d56627410cd72a20f8c KVM: x86/mmu: Return a u64 (the old SPTE) from mmu_spte_clear_track_bits()
-951e499e95b4528714959002d070b11d37181333 KVM: x86/mmu: Directly "destroy" PTE list when recycling rmaps
-9bbcc07cb5d32c636ef39410a788aec8a6c9fa79 KVM: x86/mmu: Drop the "p is for pointer" from rmap helpers
-d18fa4087570d3b03e2831d6fcf3fd04219f393a KVM: x86/mmu: Rename __kvm_zap_rmaps() to align with other nomenclature
-d9b6a7bb5edea8a6181364c4746f20dbe644779b KVM: x86/mmu: Rename rmap zap helpers to eliminate "unmap" wrapper
-cfc155e11d410cc4b50b39260bc2dec94225e137 KVM: x86/mmu: Rename pte_list_{destroy,remove}() to show they zap SPTEs
-5ebcdc632f2d503736e520c5cb747785a87ef3bf KVM: x86/mmu: Remove underscores from __pte_list_remove()
-f3d7c8aa6882a957973a18b71c6307925177b065 KVM: SVM: Fix x2APIC MSRs interception
-d954e41321d029a6ab322dc32f939f9e0e16baaa KVM: x86: Reject loading KVM if host.PAT[0] != WB
-ef9dd9bb373d199edb9e59c7f0ed07b6848bed77 KVM: x86: Drop unnecessary goto+label in kvm_arch_init()
-0cf55beed6dfba85b6ab45f534f49f648a35e645 KVM: x86/mmu: Add shadow mask for effective host MTRR memtype
-622ccb8e7907ea860debf410d73e72b3ed1c1a76 KVM: x86/mmu: Restrict mapping level based on guest MTRR iff they're used
-fe631a46409403616aa0c28c2c16cae7f7c92b1e KVM: x86/mmu: Don't require refcounted "struct page" to create huge SPTEs
-d6f7d763557289425c5330627bc1f13549322fd7 KVM: x86/mmu: Document the "rules" for using host_pfn_mapping_level()
-fc4b7acbd4dd410d57bb7cabdd026847dad23083 KVM: x86/mmu: Don't bottom out on leafs when zapping collapsible SPTEs
-d03ff504e5412bb4e0af5fe32c2ec67a41b4500a KVM: selftests: Add an option to run vCPUs while disabling dirty logging
-0074fe8ba60d285ac95979d8dedf3717430dc9f2 KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
-57bc45dcaef4984714dd56b6052875f5f82f8e55 KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
-18be3c94f4f37c38b23d469fe91b9ebb74f9c347 KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
-53d4a3862a5e51e892ae1eeb6b2a976be30a8399 KVM: nVMX: Rename handle_vm{on,off}() to handle_vmx{on,off}()
-8045c75c0d67a7fa9943032ae18c7c85176b169d KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
-6aea3a5d7c3586968b27f31078fdadf5333dff5b Revert "KVM: nVMX: Do not expose MPX VMX controls when guest MPX disabled"
-00590a3844086384b584eb9e7c8155baa6e33e49 Revert "KVM: nVMX: Expose load IA32_PERF_GLOBAL_CTRL VM-{Entry,Exit} control"
-fb7f95f32d384443c8e542f41a93378f0034b291 KVM: nVMX: Set UMIP bit CR4_FIXED1 MSR when emulating UMIP
-1a4d88a361af4f2e91861d632c6a1fe87a9665c2 KVM: selftests: Verify VMX MSRs can be restored to KVM-supported values
-
---===============2672653895830447755==--
+--===============6303938450505792715==--
