@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0755141097820941426=="
+Content-Type: multipart/mixed; boundary="===============3248447246723468412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 22 Jul 2022 19:32:26 -0000
-Message-Id: <165851834689.5455.3034360360485462454@gitolite.kernel.org>
+Date: Fri, 22 Jul 2022 19:32:34 -0000
+Message-Id: <165851835406.5554.6747699376261915447@gitolite.kernel.org>
 
---===============0755141097820941426==
+--===============3248447246723468412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
-    old: c97006046c791f82cb5ba3219ef4a511ec5f3932
+  - ref: refs/heads/preview
+    old: e10d0805ea6cc0be3252f2ce4c081162b35935a2
     new: b282b26d11c50d48b336fedb5f74b2eca3f7b94c
-    log: revlist-c97006046c79-b282b26d11c5.txt
+    log: revlist-e10d0805ea6c-b282b26d11c5.txt
 
---===============0755141097820941426==
+--===============3248447246723468412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c97006046c79-b282b26d11c5.txt
+Content-Disposition: attachment; filename=revlist-e10d0805ea6c-b282b26d11c5.txt
 
 6b625b2bb8ffc6e903a7891008bf423858bbffe6 Documentation/cxl: Use a double line break between entries
 e636479e2f1b611892783405a302221e4f069e4f cxl/core: Define a 'struct cxl_switch_decoder'
@@ -55,4 +55,4 @@ c22f2a413c66d6111d58629b88ae9827ebd3ebd8 cxl/region: Add region driver boiler pl
 e6b7fde2a4107c686ba1afc68ff6800eb84b989d cxl/pmem: Fix offline_nvdimm_bus() to offline by bridge
 b282b26d11c50d48b336fedb5f74b2eca3f7b94c cxl/region: Introduce cxl_pmem_region objects
 
---===============0755141097820941426==--
+--===============3248447246723468412==--
