@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8889751091278713836=="
+Content-Type: multipart/mixed; boundary="===============7081836442338282624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Jul 2022 17:52:36 -0000
-Message-Id: <165851235640.7220.12636016000033745086@gitolite.kernel.org>
+Date: Fri, 22 Jul 2022 17:54:22 -0000
+Message-Id: <165851246220.7833.7267336142704277579@gitolite.kernel.org>
 
---===============8889751091278713836==
+--===============7081836442338282624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 44484fa8eedf1c6e8f23ba2675b266abdd170a6e
     new: 8ee18e2a9e7b0e97730549f58dd618433c15811b
     log: revlist-44484fa8eedf-8ee18e2a9e7b.txt
 
---===============8889751091278713836==
+--===============7081836442338282624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -240,4 +240,4 @@ b20a7ca8cfa4dce01f848056fe6313b444b7dcf5 Merge branch 'sysctl-races-part-5'
 030f21ba2ab14c221ff31cf22a16c78963328f6f dt-bindings: net: fsl,fec: Add missing types to phy-reset-* properties
 8ee18e2a9e7b0e97730549f58dd618433c15811b caif: Fix bitmap data type in "struct caifsock"
 
---===============8889751091278713836==--
+--===============7081836442338282624==--
