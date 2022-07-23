@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7145531467675675261=="
+Content-Type: multipart/mixed; boundary="===============4218308178788322662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 23 Jul 2022 11:43:20 -0000
-Message-Id: <165857660081.24126.5813644653259903385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 23 Jul 2022 11:45:03 -0000
+Message-Id: <165857670367.26268.7182793922983514796@gitolite.kernel.org>
 
---===============7145531467675675261==
+--===============4218308178788322662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.18.y
-    old: 4142b06492bc82bde362db55d6f29b0e2e509091
-    new: 9aa5a042881d4a99657f82c774e9e15353ebeb2d
-    log: revlist-4142b06492bc-9aa5a042881d.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: 4704f70147e93f47ce5a22422b8ebc1ca6ba9b1d
+    new: 8160748bb79f115d51521eec024660f9c0e22a93
+    log: revlist-4704f70147e9-8160748bb79f.txt
 
---===============7145531467675675261==
+--===============4218308178788322662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658576600 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1658576598-54663f07688e9465297e027e6fd00feca695bbdc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658576702 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1658576701-d7f1df3e2198fae6131c437f94021cfd5a2b34ad
 
-4142b06492bc82bde362db55d6f29b0e2e509091 9aa5a042881d4a99657f82c774e9e15353ebeb2d refs/heads/linux-5.18.y
+4704f70147e93f47ce5a22422b8ebc1ca6ba9b1d 8160748bb79f115d51521eec024660f9c0e22a93 refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLb3tgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J78P/3r+HeW5Taoi1AgnicGR
-Nx8CmZo/jL5KyZxRO4VxlL7Uz7lHl5iszT5iXskHgvB2xydQcLBwhmQNs0PVYK+w
-lXztbZwsEPAcJQ4u2v/lUIC4shG+iKPerxbyHFco7Xpf6Nl/CjrL9ZPw+mq5Gms8
-SuiuPwF63BdDeZEzlyXoC2Ly/EE6ivDuQdyfB/JvIJmPcg+NZIHGpPJbNncrJc1b
-DnVbbbRkZwkJ0aLPARUPstdCoQy8e+1p5krK285o759l1VqlamyEtX1Pbz+ze254
-mhMGVrzz6NkzBqG6QUdXP+u9ckqDfPA4ULZPW8qA8IGjb++kWkBeba6Xv5mv+f/X
-OSnjhsefMy7zYp2JfL6wOX+DeEdPY9ZcFk/dLb13uq4HetNaBSZ0q3OsWXdB5DPU
-BU8tT7rJdjRb5jG2HpjPE1J1nU6SEzjoNiblw80ryQW/Pjw1+i5d6NpbML/5Nz+6
-ZzZ15fC3iX5s0T6YiWK/IaBV4YIKR6dZIBAOFYDfq+J1QpWvqyzGVxbsG+gnluMY
-BCB8aEjaQWMf2EH6y9rvnSgmxb8zmT7asw95Wdz7mnZP5DeKk+DBWqxl7RLDHgr9
-Naqb/mqSnvbpFMg7+nLPtZK51JhF4tqUpmSI5ff6783TpJJ/dwpIHXdhnif4XROC
-g1tPrkn/DF2Iyh2ZqIcWolbD
-=KU2y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLb3z4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mpEP/0PEd2SaZ9Nl5vLoeIF/
+4xns5TlaoqNOZ2egTDTUjateTyfFoKSWWa3HEmeu8Voo/Qr3Bz0R9KF4ZmEbjMNl
+gYHDqqoF/ZOgatujumwd1RUDPMnGY9nXoSyUm3doDP4udZdHA4kajQ9kdQ6pCN5f
+IX5ELf9mdA6XNkSQdEospAPkrB+W0DNJL12ZuPf53h/m5ezCG91/L/MWltD5PMGY
+AyHXNKUTh5rratxmRDGQdLqmHUnv0FPZUv3WtUkWHS8fRo241m4XEiiZo2hOm+kR
+wFw3BcHCt9hu6K1NMNzNvoClOchg0Q9R5kt5qNU7dypkwaizRhFUSBcPu3MKnNeF
+OzeAK8bOTlAP4ZhyRfWlNgxKDnxyBtKE8IZIVhdg7ham6WRz19H4XE4sDqK+VHj9
+0f0/uCFT6XsL6XV8le/+wUy02M3MhhmGB2zZohr9uarbBAPtVYLvVtil5/HBgtDF
+p0SyBCTBD9024Z38T4RY3FPT6fJgaiewncLj1WT61Fcq6Q3idIvVXinWKP+4XawU
+tMKU+ysDgkHs+9C2jRPOPtwNhpLMWVUgAjOhnbymvRVf/Yg7KFR5HOcfIZYjIqP3
+UHCotKzKvKYhLIaqWrFmKqkNELUQrD/RoWqAdGhh2b+iTOawCxWcPCaYXLxOqor8
+kih4vd/jtsYYFFugdexbWcl0
+=jgn+
 -----END PGP SIGNATURE-----
 
---===============7145531467675675261==
+--===============4218308178788322662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4142b06492bc-9aa5a042881d.txt
+Content-Disposition: attachment; filename=revlist-4704f70147e9-8160748bb79f.txt
 
 a1a70a37ddbbf59e2abb41d0d7a8735b54754a4b x86/traps: Use pt_regs directly in fixup_bad_iret()
 6089d278e9ebfb68d7f3612f63521786d3718c2c x86/entry: Switch the stack after error_entry() returns
@@ -128,5 +128,6 @@ d417d9d84a0406afa422a957d2b47f1e054f9912 x86/kvm: fix FASTOP_SIZE when return th
 deacf52d1acaf1d6038a3d450823134847c88ae4 x86/bugs: Remove apostrophe typo
 daf898ab0e75b8ae715adf84e0f1101775c569ef um: Add missing apply_returns()
 9aa5a042881d4a99657f82c774e9e15353ebeb2d Linux 5.18.14
+8160748bb79f115d51521eec024660f9c0e22a93 Merge v5.18.14
 
---===============7145531467675675261==--
+--===============4218308178788322662==--
