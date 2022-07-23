@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4068531183586666878=="
+Content-Type: multipart/mixed; boundary="===============1736524645896241781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 23 Jul 2022 14:56:44 -0000
-Message-Id: <165858820474.7008.1543233458496682813@gitolite.kernel.org>
+Date: Sat, 23 Jul 2022 14:58:31 -0000
+Message-Id: <165858831148.7753.10995101037101919258@gitolite.kernel.org>
 
---===============4068531183586666878==
+--===============1736524645896241781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,73 +15,84 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
-  - ref: refs/heads/queue/4.19
-    old: d1d20694285ee2a198cbd2fce16dc3b7c825196a
-    new: b3bc73d5047fa98fef6ed37c4e34a24c88785863
+  - ref: refs/heads/queue/4.14
+    old: 9c3bf9cf362ffbe802784ab907bee7a6445df1b9
+    new: 0dac15701b41b6da34289eb0c353d7506ef7d0e5
     log: |
-         b3bc73d5047fa98fef6ed37c4e34a24c88785863 riscv: add as-options for modules with assembly compontents
+         0dac15701b41b6da34289eb0c353d7506ef7d0e5 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+         
+  - ref: refs/heads/queue/4.19
+    old: b3bc73d5047fa98fef6ed37c4e34a24c88785863
+    new: c7370072807190424708be29ece784921b505530
+    log: |
+         a551592e4767b275f3c0d3bd4566b0136a694770 riscv: add as-options for modules with assembly compontents
+         c7370072807190424708be29ece784921b505530 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
          
   - ref: refs/heads/queue/4.9
-    old: 8f028cab563b893e4a16ddd6481645c4918786ae
-    new: c186b516f3b299c3546dfb1695e1440e58e929bd
+    old: c186b516f3b299c3546dfb1695e1440e58e929bd
+    new: e72f390e3e88c2ddb964c17a28e8e4c12331810d
     log: |
-         7e9806da5e7d88bf4c47a46f32da6389322a7053 security,selinux,smack: kill security_task_wait hook
-         c186b516f3b299c3546dfb1695e1440e58e929bd xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+         b915cf62d9b01857f53645258fe51a078bcf45fb security,selinux,smack: kill security_task_wait hook
+         e72f390e3e88c2ddb964c17a28e8e4c12331810d xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
          
   - ref: refs/heads/queue/5.10
-    old: 52371651ba5c9d3692d63c68886f25228ca32cd6
-    new: 4b09d49074eab32a8362294e27a96737deb45c92
+    old: 4b09d49074eab32a8362294e27a96737deb45c92
+    new: 6b9e08173c1f8d4c8bc3ef410a8276bba100f2ee
     log: |
-         41d927be0db7470b7125cffa04d5a45377d01031 pinctrl: stm32: fix optional IRQ support to gpios
-         288b3c70f2d83bf684f39234646a5c15321a1371 riscv: add as-options for modules with assembly compontents
-         9fca67b168a292004775a98c193a048f433af171 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-         47fae1385059756ab21e0e3d2789323485243516 lockdown: Fix kexec lockdown bypass with ima policy
-         4b09d49074eab32a8362294e27a96737deb45c92 io_uring: Use original task for req identity in io_identity_cow()
+         5c8b09ea78e51fdb87efec0950a1f785ade98d83 pinctrl: stm32: fix optional IRQ support to gpios
+         52e43d723e10e72d12a7a94d93eace41857e3c70 riscv: add as-options for modules with assembly compontents
+         3101b2dca004ba2f5a4442bddcdd0f245498ac8a mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+         5becf31e56419995fb7fa0e9f5c07fee326405b2 lockdown: Fix kexec lockdown bypass with ima policy
+         fa65ab8d49c181bfa664caccc403335c7d9adbdb io_uring: Use original task for req identity in io_identity_cow()
+         6b9e08173c1f8d4c8bc3ef410a8276bba100f2ee xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
          
   - ref: refs/heads/queue/5.15
-    old: c8decafe309c689e339ebc3bba78a1738ca15e83
-    new: 3818b261a50996099ea35344e2700bc6efc107c2
+    old: 3818b261a50996099ea35344e2700bc6efc107c2
+    new: 1b000594b70d9522ac8b49ca0a8ccffcd3ce1dff
     log: |
-         7f219b97b2a7ccdda10ab753500a257d9bce0772 pinctrl: stm32: fix optional IRQ support to gpios
-         5c4a32438fa2331e4cbe69dcff28e9abb621ecec riscv: add as-options for modules with assembly compontents
-         7bc9e82bd0fdb69dd2fec82eb4de90a2a9d9257e mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-         be122a0c91bd76da52e2fca94aa9d1ea2e2d864c lockdown: Fix kexec lockdown bypass with ima policy
-         ddf02247aedb65dd9c87c185b843edf08b544f6d drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
-         20270bcabdfa890b7c9178c09bb9b049e8442007 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
-         3818b261a50996099ea35344e2700bc6efc107c2 bus: mhi: host: pci_generic: add Telit FN990
+         b7e0ffced50c6f26258aeaa9f9eed90354db1a98 pinctrl: stm32: fix optional IRQ support to gpios
+         ecd8b0db83e29e2e2eb09221b0ce0e54f5742feb riscv: add as-options for modules with assembly compontents
+         1141513e13b76293415d5ce7f2dab2eb915ea98e mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+         a25432207dacd05affa12cb4b4c5b2d9c9ddfd5f lockdown: Fix kexec lockdown bypass with ima policy
+         6b95909b014ba0a4371fe64deee3d2a417a61e21 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
+         b288c34eba316c771c6cb6920fd73e98095bce16 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
+         f6b64b7630be506d6eee12d23f4ed2178d4bd8e0 bus: mhi: host: pci_generic: add Telit FN990
+         d017921beaf342b714311c2bca6d597186c44d43 Revert "selftest/vm: verify remap destination address in mremap_test"
+         1b000594b70d9522ac8b49ca0a8ccffcd3ce1dff Revert "selftest/vm: verify mmap addr in mremap_test"
          
   - ref: refs/heads/queue/5.18
-    old: b6e161cc35734700a6250b98d26c982879b7aa7b
-    new: 068429048465ef3de285365bca7409ba33ca7b5f
-    log: revlist-b6e161cc3573-068429048465.txt
+    old: 068429048465ef3de285365bca7409ba33ca7b5f
+    new: 36f064e188e88a62f7c246c1c92ce8229fdef896
+    log: revlist-068429048465-36f064e188e8.txt
   - ref: refs/heads/queue/5.4
-    old: 8d280ba54159b22308d139ff48e845ef44fa1a62
-    new: 6104d714a27731f0f613bc6a66e114606706eaf1
+    old: 6104d714a27731f0f613bc6a66e114606706eaf1
+    new: 26dda3be8b772677eef889d93c1a6418b2798a84
     log: |
-         7ce91411e659acc8b58c1dd7378ea669b7f0fa6a pinctrl: stm32: fix optional IRQ support to gpios
-         b3470c5bda98c3102f58277d6cc490f156e57117 riscv: add as-options for modules with assembly compontents
-         1ecc28568b132e718227f0f26caecc0b3a94e136 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-         6104d714a27731f0f613bc6a66e114606706eaf1 lockdown: Fix kexec lockdown bypass with ima policy
+         1b641c93e2f9694c9005bb604cc3c9f2ef78f0c3 pinctrl: stm32: fix optional IRQ support to gpios
+         ad1d15984b4eaee6c0d6e4af59530f5cd53a3f76 riscv: add as-options for modules with assembly compontents
+         ec90eef998896463e3144a4427fba342376277ea mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+         d8d6721254d960db9dcdd7820d62a0bef0576c8d lockdown: Fix kexec lockdown bypass with ima policy
+         26dda3be8b772677eef889d93c1a6418b2798a84 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
          
 
---===============4068531183586666878==
+--===============1736524645896241781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6e161cc3573-068429048465.txt
+Content-Disposition: attachment; filename=revlist-068429048465-36f064e188e8.txt
 
-4520e4ce1b70e5c45e35ad8333bbacf74735a252 pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
-65d282ef849434ab0b15557fe57b9d8b5024ee39 pinctrl: stm32: fix optional IRQ support to gpios
-87c02816826a3a68f2c04f8131a7141096f3dc60 riscv: add as-options for modules with assembly compontents
-ca57726cc4b7083497dcf61cb4fba2708c72ba91 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-87cc179464baa97c6f28a287fd57e53eb5478530 lockdown: Fix kexec lockdown bypass with ima policy
-26ecae15a876a62b95e6a468065936783374c2f3 mmc: sdhci-omap: Fix a lockdep warning for PM runtime init
-6e9adf19b2ee6477d8709b7390bc82d1bf80f003 mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
-237f8f2d52eff12027114fabe124da0c2ec23f81 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
-e4a3655855035ed0c6f7489b87c169e0b20a2949 drm/amd/display: Fix new dmub notification enabling in DM
-676c8db2a372a40a8b8d9784effdd8315654edb3 drm/scheduler: Don't kill jobs in interrupt context
-b8eed4ba084b65a97a18d3ffa956683b1addcd09 net: usb: ax88179_178a needs FLAG_SEND_ZLP
-de425b67dddc9a73d67405ff58c73df40aab2c0c bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
-068429048465ef3de285365bca7409ba33ca7b5f bus: mhi: host: pci_generic: add Telit FN990
+8c3bd776a2ab53dc33007a7d116beced690d9a25 pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
+456be4ca76141f39fb956883f2a2fca1ddcba499 pinctrl: stm32: fix optional IRQ support to gpios
+63daf425a26f0b6ef9e126c6ec3f0cbcc9d31198 riscv: add as-options for modules with assembly compontents
+8fdb84ed65386ff448e90938878b2c0add70f914 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+19dcd0ee1676284e298056f31697f1b459535c70 lockdown: Fix kexec lockdown bypass with ima policy
+3f8492b392240582b84de97f752b7db9fb49a9bc mmc: sdhci-omap: Fix a lockdep warning for PM runtime init
+5f6343bd688ff4ef3eac8b7350c1b62da5df5509 mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
+ee25cc91b0d3fc16baba4b6b09062051fd0d0d7e drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
+dd62f2b0c6c1cd56137b09252f5f3102df2d1cd2 drm/amd/display: Fix new dmub notification enabling in DM
+da7421a60b7503f9d1d0f627b56b54bcfe6b473d drm/scheduler: Don't kill jobs in interrupt context
+f9027868f31fb35abf55d71b809dd2299142a0a3 net: usb: ax88179_178a needs FLAG_SEND_ZLP
+efc0c1cbaad92467ea0b1c8a45dfdf7829bdf288 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
+36f064e188e88a62f7c246c1c92ce8229fdef896 bus: mhi: host: pci_generic: add Telit FN990
 
---===============4068531183586666878==--
+--===============1736524645896241781==--
