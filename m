@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8070625805696503858=="
+Content-Type: multipart/mixed; boundary="===============4108009490556432987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 23 Jul 2022 17:47:02 -0000
-Message-Id: <165859842218.15675.8711886744188155556@gitolite.kernel.org>
+Date: Sat, 23 Jul 2022 17:51:01 -0000
+Message-Id: <165859866127.18469.18325308178569817564@gitolite.kernel.org>
 
---===============8070625805696503858==
+--===============4108009490556432987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 949d6b405e6160ae44baea39192d67b39cb7eeac
     new: 502c6f8cedcce7889ccdefeb88ce36b39acd522f
     log: revlist-949d6b405e61-502c6f8cedcc.txt
 
---===============8070625805696503858==
+--===============4108009490556432987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -178,4 +178,4 @@ c4bf747c68892f165e8bf22da2a14dfa304bdaf7 net: usb: ax88179_178a: restore state o
 7074732c8faee201a245a6f983008a5789c0be33 ip_tunnels: allow VXLAN/GENEVE to inherit TOS/TTL from VLAN
 502c6f8cedcce7889ccdefeb88ce36b39acd522f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============8070625805696503858==--
+--===============4108009490556432987==--
