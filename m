@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3930609872759501952=="
+Content-Type: multipart/mixed; boundary="===============7324325183311525740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sat, 23 Jul 2022 07:06:59 -0000
-Message-Id: <165856001934.10017.3432291947784107271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sat, 23 Jul 2022 08:50:02 -0000
+Message-Id: <165856620235.6429.11922749917940190393@gitolite.kernel.org>
 
---===============3930609872759501952==
+--===============7324325183311525740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/urgent
-    old: aa6d1ed107eba26f49933216cffe797253914132
-    new: ca0d181c9ce5699fab00d84346d550d700f3061d
-    log: revlist-aa6d1ed107eb-ca0d181c9ce5.txt
+  - ref: refs/heads/edac-urgent
+    old: 5075cc5ccfc79be9e4e77a8a681d052f0d7c1122
+    new: f3b921f8d9d658771ead389f7b06c916e64da281
+    log: revlist-5075cc5ccfc7-f3b921f8d9d6.txt
 
---===============3930609872759501952==
+--===============7324325183311525740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa6d1ed107eb-ca0d181c9ce5.txt
+Content-Disposition: attachment; filename=revlist-5075cc5ccfc7-f3b921f8d9d6.txt
 
-3be4562584bba603f33863a00c1c32eecf772ee6 dma-direct: use the correct size for dma_set_encrypted()
-dbe97cff7dd9f0f75c524afdd55ad46be3d15295 xen/gntdev: Avoid blocking in unmap_grant_pages()
 ddfe80311b81a83d3fde7e59fddc6aa822a5188d Merge tag 'sound-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 ca2a3343d69741dae4df2dbb954fb806d9a835de block: remove WARN_ON() from bd_link_disk_holder
 e531485a0a0e0a06644de1b639502471415d5e12 Merge tag 'nvme-5.19-2022-06-23' of git://git.infradead.org/nvme into block-5.19
@@ -1049,6 +1047,8 @@ ced7866db39fc5c59ee05e154d4abc0977a17f6b drm/i915/ttm: fix 32b build
 f7f4da303dd8946228860e78bd7f36c2cc47a636 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 55ea9bd666887ed4159df38d1494c204246cf2bc Merge tag 'drm-intel-fixes-2022-07-17' of git://anongit.freedesktop.org/drm/drm-intel
 ff6992735ade75aae3e35d16b17da1008d753d28 Linux 5.19-rc7
-ca0d181c9ce5699fab00d84346d550d700f3061d efi/x86-mixed: leave RET unmitigated but move it into .rodata
+be76ceaf03bc04e74be5e28f608316b73c2b04ad EDAC/synopsys: Use the correct register to disable the error interrupt on v3 hw
+4bcffe941758ee17becb43af3b25487f848f6512 EDAC/synopsys: Re-enable the error interrupts on v3 hw
+f3b921f8d9d658771ead389f7b06c916e64da281 EDAC/ghes: Set the DIMM label unconditionally
 
---===============3930609872759501952==--
+--===============7324325183311525740==--
