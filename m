@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4107739468816331599=="
+Content-Type: multipart/mixed; boundary="===============0957428322152965618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 23 Jul 2022 19:03:04 -0000
-Message-Id: <165860298410.29543.12365815509300841329@gitolite.kernel.org>
+Date: Sat, 23 Jul 2022 19:03:30 -0000
+Message-Id: <165860301047.29742.9007686777185548394@gitolite.kernel.org>
 
---===============4107739468816331599==
+--===============0957428322152965618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: ea2babac63d40e59926dc5de4550dac94cc3c6d2
     new: 502c6f8cedcce7889ccdefeb88ce36b39acd522f
     log: revlist-ea2babac63d4-502c6f8cedcc.txt
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
 
---===============4107739468816331599==
+--===============0957428322152965618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ c4bf747c68892f165e8bf22da2a14dfa304bdaf7 net: usb: ax88179_178a: restore state o
 7074732c8faee201a245a6f983008a5789c0be33 ip_tunnels: allow VXLAN/GENEVE to inherit TOS/TTL from VLAN
 502c6f8cedcce7889ccdefeb88ce36b39acd522f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============4107739468816331599==--
+--===============0957428322152965618==--
