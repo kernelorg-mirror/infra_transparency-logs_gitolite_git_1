@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7324325183311525740=="
+Content-Type: multipart/mixed; boundary="===============3844308570590023250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sat, 23 Jul 2022 08:50:02 -0000
-Message-Id: <165856620235.6429.11922749917940190393@gitolite.kernel.org>
+Date: Sat, 23 Jul 2022 08:51:46 -0000
+Message-Id: <165856630652.8342.2489702835866601520@gitolite.kernel.org>
 
---===============7324325183311525740==
+--===============3844308570590023250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 5075cc5ccfc79be9e4e77a8a681d052f0d7c1122
+  - ref: refs/heads/edac-for-next
+    old: 92705c9f99563adb33a7e9ea72ed3d17971fc2bc
     new: f3b921f8d9d658771ead389f7b06c916e64da281
-    log: revlist-5075cc5ccfc7-f3b921f8d9d6.txt
+    log: revlist-92705c9f9956-f3b921f8d9d6.txt
 
---===============7324325183311525740==
+--===============3844308570590023250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5075cc5ccfc7-f3b921f8d9d6.txt
+Content-Disposition: attachment; filename=revlist-92705c9f9956-f3b921f8d9d6.txt
 
 ddfe80311b81a83d3fde7e59fddc6aa822a5188d Merge tag 'sound-5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 ca2a3343d69741dae4df2dbb954fb806d9a835de block: remove WARN_ON() from bd_link_disk_holder
@@ -1051,4 +1051,4 @@ be76ceaf03bc04e74be5e28f608316b73c2b04ad EDAC/synopsys: Use the correct register
 4bcffe941758ee17becb43af3b25487f848f6512 EDAC/synopsys: Re-enable the error interrupts on v3 hw
 f3b921f8d9d658771ead389f7b06c916e64da281 EDAC/ghes: Set the DIMM label unconditionally
 
---===============7324325183311525740==--
+--===============3844308570590023250==--
