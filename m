@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sun, 24 Jul 2022 10:09:12 -0000
-Message-Id: <165865735226.4587.1643475752222137669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 24 Jul 2022 10:56:19 -0000
+Message-Id: <165866017930.1562.10000663163491502094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: a5cf5180a5e30f017bd13df0633df957ef10eaae
-    new: 68074205ab3742472d639fcaef51a9ebdee5e6b7
+  - ref: refs/heads/irq/misc-5.20
+    old: c904cda04482d5ab545e5a82cee6084078ef9543
+    new: 71349cc85e5930dce78ed87084dee098eba24b59
     log: |
-         68074205ab3742472d639fcaef51a9ebdee5e6b7 Bring the tree up-to-date with 4.9.320, with exceptions of speculation workarounds and random rewrite.
+         71349cc85e5930dce78ed87084dee098eba24b59 irqchip/mips-gic: Check the return value of ioremap() in gic_of_init()
          
