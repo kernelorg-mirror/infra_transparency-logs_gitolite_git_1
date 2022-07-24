@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Sun, 24 Jul 2022 21:00:37 -0000
-Message-Id: <165869643743.14232.258681484548303006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 24 Jul 2022 21:07:02 -0000
+Message-Id: <165869682266.17740.5394248497680754812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: holtmann
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/5.65
-    old: 0000000000000000000000000000000000000000
-    new: 9ca140f9903bb330be5038790ede7e0427cea898
+  - ref: refs/heads/master
+    old: dc9fa57055099fc18409487fb1cb98d0bde1f52a
+    new: 3043cc72c1b8b6deb49a7953baa5af998c2a87d3
+    log: |
+         3043cc72c1b8b6deb49a7953baa5af998c2a87d3 Sun Jul 24 09:06:23 PM UTC 2022
+         
