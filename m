@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 24 Jul 2022 10:02:21 -0000
-Message-Id: <165865694109.696.5801644142845910447@gitolite.kernel.org>
+Date: Sun, 24 Jul 2022 10:04:46 -0000
+Message-Id: <165865708613.1527.5912256318473489629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: e8c79d98b73cb7d17b1504ba966cdaebc369c13e
-    new: 1183f0a06bbf75049a6a64699f6a7f560483c768
+  - ref: refs/heads/kbuild
+    old: 1183f0a06bbf75049a6a64699f6a7f560483c768
+    new: 728d4b7fc213b468aa8053a359ded5d6d4044e9b
     log: |
-         8922a3be79fce411aedeb1333b8784da1c6f8148 scripts: headers_install.sh: Update config leak ignore entries
-         c4c5f086ea04a10290bab8d6a9f2e046bf2d680d kconfig: shorten the temporary directory name for cc-option
-         1183f0a06bbf75049a6a64699f6a7f560483c768 kconfig: Qt5: tell the user which packages are required
+         613043ff0d632945514fca3dce4ea3d130505f21 modpost: drop executable ELF support
+         c483fb06e309459b7934289ee7b43736b39a05c1 modpost: use sym_get_data() to get module device_table data
+         728d4b7fc213b468aa8053a359ded5d6d4044e9b kconfig: Qt5: tell the user which packages are required
          
