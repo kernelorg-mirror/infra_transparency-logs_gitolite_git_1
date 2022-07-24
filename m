@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1234125741166507922=="
+Content-Type: multipart/mixed; boundary="===============4777851999126673841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 24 Jul 2022 20:50:37 -0000
-Message-Id: <165869583775.7884.269485640582527990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 24 Jul 2022 20:50:43 -0000
+Message-Id: <165869584399.8010.5100484295641801636@gitolite.kernel.org>
 
---===============1234125741166507922==
+--===============4777851999126673841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: c87d6d0cc66bb00e0635eedb1ac00869ba571912
-    new: efd29c9bbf438508908fd002bfa395a63c67f506
-    log: revlist-c87d6d0cc66b-efd29c9bbf43.txt
+  - ref: refs/heads/queue-next
+    old: 1102439255ea38eb6169b18f6dce799686142130
+    new: fccc1af3e0e9fe3460678c049846fec7c8793691
+    log: revlist-1102439255ea-fccc1af3e0e9.txt
 
---===============1234125741166507922==
+--===============4777851999126673841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c87d6d0cc66b-efd29c9bbf43.txt
+Content-Disposition: attachment; filename=revlist-1102439255ea-fccc1af3e0e9.txt
 
 6db1e3dcf8348f5844b6c2093e8de977b322a322 IB/mlx5: Add support for 400G_8X lane speed
 212e2f1bf0037e186ceea61b211a76206a940a1a net/mlx5e: Remove WARN_ON when trying to offload an unsupported TLS cipher/version
@@ -70,5 +70,7 @@ d547492d3c96fb72806b857f3b224bfcdc33dd56 Merge branch 'patchq/523508' into mlx5-
 2d1d53e07507b84fd34169078b2bb0ce6938b59f Merge branch 'mlx5-queue' into net-next
 2d40f3e49e46cab0f1248fdd84ed28d3f7813a51 Merge branch 'mlx4-for-net' into net-next
 efd29c9bbf438508908fd002bfa395a63c67f506 Merge branch 'mlx5-for-net' into net-next
+56723752d85914ec583d4d254889687649d4875e Merge branch 'net-next' into queue-next
+fccc1af3e0e9fe3460678c049846fec7c8793691 Merge branch 'testing/rdma-next' into queue-next
 
---===============1234125741166507922==--
+--===============4777851999126673841==--
