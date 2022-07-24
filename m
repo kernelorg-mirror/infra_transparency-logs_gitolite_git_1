@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 24 Jul 2022 10:04:55 -0000
-Message-Id: <165865709537.1661.5800742955263330819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Sun, 24 Jul 2022 10:05:09 -0000
+Message-Id: <165865710985.3289.18119445172439930427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/for-next
-    old: 1183f0a06bbf75049a6a64699f6a7f560483c768
-    new: 728d4b7fc213b468aa8053a359ded5d6d4044e9b
+  - ref: refs/heads/linux-4.4.y-st-rc
+    old: f55c1d79bab7e35851e050f5ebc87d82f9ed16ab
+    new: a5cf5180a5e30f017bd13df0633df957ef10eaae
     log: |
-         613043ff0d632945514fca3dce4ea3d130505f21 modpost: drop executable ELF support
-         c483fb06e309459b7934289ee7b43736b39a05c1 modpost: use sym_get_data() to get module device_table data
-         728d4b7fc213b468aa8053a359ded5d6d4044e9b kconfig: Qt5: tell the user which packages are required
+         10dbc91086441fe7e5861b0704b7ab67103e4d55 tcp: add some entropy in __inet_hash_connect()
+         d21ead6d506492fac46eeedc5f6539c8eb110d49 secure_seq: use the 64 bits of the siphash for port offset calculation
+         18fbed4b4b427428220a2fe7a34c2231d72cb6d9 tcp: use different parts of the port_offset for index and offset
+         033b4de3a03223c52e0e20b62d31714646606103 tcp: add small random increments to the source port
+         d7cdb286c9eea7b929da75f06d7d0800fef452e0 tcp: dynamically allocate the perturb table used by source ports
+         92decc8137fa51c7ab86edc2471ccebc8a9d76a2 tcp: increase source port perturb table to 2^16
+         a5cf5180a5e30f017bd13df0633df957ef10eaae tcp: drop the hash_32() part from the index calculation
          
