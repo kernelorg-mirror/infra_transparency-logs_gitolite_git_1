@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6236664411212395950=="
+Content-Type: multipart/mixed; boundary="===============5541957580333356166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Sun, 24 Jul 2022 18:45:55 -0000
-Message-Id: <165868835561.29122.16077166538198379714@gitolite.kernel.org>
+Date: Sun, 24 Jul 2022 18:46:02 -0000
+Message-Id: <165868836224.29206.7194306923144677706@gitolite.kernel.org>
 
---===============6236664411212395950==
+--===============5541957580333356166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: ff6992735ade75aae3e35d16b17da1008d753d28
+  - ref: refs/heads/for-linux-next
+    old: d95e624af5aba5346849b48bf5d391a4d7893324
     new: af2c9ac24019ece9281e606662e5c78fa67f5930
-    log: revlist-ff6992735ade-af2c9ac24019.txt
+    log: revlist-d95e624af5ab-af2c9ac24019.txt
 
---===============6236664411212395950==
+--===============5541957580333356166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff6992735ade-af2c9ac24019.txt
+Content-Disposition: attachment; filename=revlist-d95e624af5ab-af2c9ac24019.txt
 
 f85daf0e725358be78dfd208dea5fd665d8cb901 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
 85ff37e302efdf173cff6d1a310c2f7f38f1d069 gpiolib: cdev: Fix kernel doc for struct line
@@ -239,4 +239,4 @@ b648ab487f31bc4c38941bc770ea97fe394304bb x86/speculation: Make all RETbleed miti
 c2602a7ce0fc66318325df170a9ee275d7df5c2e Merge tag 'sched_urgent_for_v5.19_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 af2c9ac24019ece9281e606662e5c78fa67f5930 Merge tag 'perf_urgent_for_v5.19_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============6236664411212395950==--
+--===============5541957580333356166==--
