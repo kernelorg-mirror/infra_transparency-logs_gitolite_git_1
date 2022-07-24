@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 24 Jul 2022 20:06:24 -0000
-Message-Id: <165869318444.12923.2216465132023173807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 24 Jul 2022 20:29:14 -0000
+Message-Id: <165869455482.25788.8160892688728017578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 7f07f8627f9bd18783ad6796877aedd4aededc94
-    new: dc9fa57055099fc18409487fb1cb98d0bde1f52a
+    old: e90886291c7cd89577bf11729b205cc0ed42fbec
+    new: e0dccc3b76fb35bb257b4118367a883073d7390e
     log: |
-         dc9fa57055099fc18409487fb1cb98d0bde1f52a Sun Jul 24 08:05:45 PM UTC 2022
+         e0dccc3b76fb35bb257b4118367a883073d7390e Linux 5.19-rc8
          
+  - ref: refs/tags/v5.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: cb84a9aae2260636f12f10c7f60779eb69e82849
