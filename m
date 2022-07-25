@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 25 Jul 2022 15:38:55 -0000
-Message-Id: <165876353569.29173.7857893487378112163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 25 Jul 2022 15:46:38 -0000
+Message-Id: <165876399896.2132.17742138030313620907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 9fe9b252c7c022df8e503435e778f15c04dfa3bf
-    new: 6923397cb72230da9a0139418e2b1410ebb25834
+  - ref: refs/heads/master
+    old: 2ac803cda17fe6d894acadb6461bc41c0202cc4b
+    new: 30a20795d7e4f300c606c6a2aa0a4c9492882d1d
     log: |
-         bc2373a58aacb241bf135b9a7452a1499d0d457e perf tsc: Add arch TSC frequency information
-         1276ade6a5b6fac50ea43962af85ce6e444b4025 perf tsc: Add cpuinfo fall back for arch_get_tsc_freq()
-         6923397cb72230da9a0139418e2b1410ebb25834 perf test: Add test for #system_tsc_freq in metrics
+         b93c89af3c1e455ea29fa49b39d5a40f15bfbb2c io_uring.h: sync with kernel for zc send and notifiers
+         6642e33f2ea6b2376971d801dce3b7187fe42b21 liburing: add zc send and notif helpers
+         a71e6bbf1d8a72c24c2a7a5b1c211a7f69418452 tests: add tests for zerocopy send and notifications
+         c1d15e788b5fdd4779f6d986a06a494b23806755 examples: add a zerocopy send example
+         30a20795d7e4f300c606c6a2aa0a4c9492882d1d liburing: improve fallocate typecasting
          
