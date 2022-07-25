@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 25 Jul 2022 21:01:48 -0000
-Message-Id: <165878290835.3868.18327770075203433100@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4595269351738680223=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 25 Jul 2022 21:02:33 -0000
+Message-Id: <165878295369.4178.595292647765566955@gitolite.kernel.org>
+
+--===============4595269351738680223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 6923397cb72230da9a0139418e2b1410ebb25834
-    new: 1ab55323c5ef379e96ff6b225cd95e80fef4939a
+  - ref: refs/heads/master
+    old: c773196cfd5bd41e7112cbf74eba866efd723098
+    new: 78725ba63b2f48bd0f0a3f716908966773f36f8f
     log: |
-         fb87158bab32607669124b240a17125a0190647d perf lock: Add flags field in the lock_stat
-         f9c695a21103bb1665aaa87c7592ac17303fc160 perf lock: Add lock aggregation enum
-         528b9cab3b813a3b94a4af14845308f720eb13fd perf lock: Add 'contention' subcommand
-         79079f21f50a501f03ee237be6efaa0e533f9f87 perf lock: Add -k and -F options to 'contention' subcommand
-         1ab55323c5ef379e96ff6b225cd95e80fef4939a perf lock: Support -t option for 'contention' subcommand
+         78725ba63b2f48bd0f0a3f716908966773f36f8f ez-send: initial support for tagging sent revisions
          
+
+--===============4595269351738680223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1658782953 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1658782953-c003e3b1b2df6d51414b596740e7dab3c28bdbd2
+
+c773196cfd5bd41e7112cbf74eba866efd723098 78725ba63b2f48bd0f0a3f716908966773f36f8f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYt8E6QAKCRC2xBzjVmSZ
+bKK0AQDr1udn5IoaOA5S3GoXnG2H4K1kiAdGeX262fadXM9+RQD/Xt+CfFL6mr4k
+e4iWLXCIsyWCRdzy7FxZOOJxi5/OLAY=
+=0gAN
+-----END PGP SIGNATURE-----
+
+--===============4595269351738680223==--
