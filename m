@@ -1,27 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 25 Jul 2022 18:30:13 -0000
-Message-Id: <165877381390.8755.10074666526339210826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 25 Jul 2022 18:36:54 -0000
+Message-Id: <165877421442.12375.3602750835879367843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/seen
-    old: 13751c2bc16fbce4d782512dab8b031d1a79487a
-    new: af7ff8ea7ce7acb7cc9fb148b31d1929ca28d622
+  - ref: refs/heads/crypto-pending
+    old: 1267979117fdc42b411b49c39c0503b0f4ab01e2
+    new: fc4e1b2473f43475d475f9989715b2be174efadc
     log: |
-         14c4481d7d989f9781435c759eb3d6f7d596cb5e Merge branch 'ab/tech-docs-to-help' into seen
-         8c5874b08b7c18dddcce11f6d65320e773efba5e Merge branch 'tk/apply-case-insensitive' into seen
-         64a42b0933a3e478309c76d5f4521a66c147f6ed Merge branch 'cw/remote-object-info' into seen
-         1d774f32bd7611ef499040ad493d2846da944413 Merge branch 'jt/connected-show-missing-from-which-side' into seen
-         344ecf4f621c86b0034cecb9740557ff0bc95a18 Merge branch 'po/doc-add-renormalize' into seen
-         7e7225a292451603b5c15e8bc408fc89939d894c Merge branch 'po/glossary-around-traversal' into seen
-         431bbdbdc025424937aef15154955c5f0207cb20 Merge branch 'ab/leak-check' into seen
-         964cafafe717604cce77e1f8a4b3f790921fa857 Merge branch 'jc/string-list-cleanup' into seen
-         af7ff8ea7ce7acb7cc9fb148b31d1929ca28d622 Merge branch 'js/bisect-in-c' into seen
+         19cdbdb7cda0cb4948dfaab613d8b4f63c88a53e Documentation: qat: Use code block for qat sysfs example
+         1b466b8cbfd8321408bb0792b241a2b9222aed62 Documentation: qat: rewrite description
+         693b8755e1b1dd3c0bc22920a8bf2bd495688909 crypto: keembay-ocs-ecc - Drop if with an always false condition
+         4cbdecd02fd29eb69a376ffdac47aff441c4d19f crypto: rmd160 - fix Kconfig "its" grammar
+         824b94a88320eaa5e3e059b494e457ed25987a63 crypto: twofish - Fix comment typo
+         85796a9b7583a0b00ee9e69b932daafb41515a76 hwrng: via - Fix comment typo
+         647c952eac5d27569365e9407c96db3c6915e08f cyrpto: powerpc/aes - delete the rebundant word "block" in comments
+         9d2bb9a74b2877f100637d6ab5685bcd33c69d44 crypto: testmgr - some more fixes to RSA test vectors
+         b3bb9c3e259bdf09c95ced448fec4431c527502e crypto: lib - create utils module and move __crypto_memneq into it
+         b52100b0e57d8e5bbbd0f79fbf554fd76968d021 crypto: lib - move __crypto_xor into utils
+         fc4e1b2473f43475d475f9989715b2be174efadc crypto: lib - remove __HAVE_ARCH_CRYPTO_MEMNEQ
          
