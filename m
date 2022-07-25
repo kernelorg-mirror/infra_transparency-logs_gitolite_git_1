@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1199738560674003693=="
+Content-Type: multipart/mixed; boundary="===============1806163209039447009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 Jul 2022 08:54:25 -0000
-Message-Id: <165873926559.31753.13592283600585596725@gitolite.kernel.org>
+Date: Mon, 25 Jul 2022 08:54:53 -0000
+Message-Id: <165873929317.31958.11591310093307618978@gitolite.kernel.org>
 
---===============1199738560674003693==
+--===============1806163209039447009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6f6ecd46902059f00e1191a5d2adc8cac066bbf1
-    new: 503e5c2d112afc7ba1293f9b2a2b0af413828b28
-    log: revlist-6f6ecd469020-503e5c2d112a.txt
+  - ref: refs/heads/m68k-queue
+    old: d863513c3bd537f1770970e79ab78560e5cf1c57
+    new: bc5b41cb126ee0124a78ea3fa4795f170c548dfc
+    log: revlist-d863513c3bd5-bc5b41cb126e.txt
 
---===============1199738560674003693==
+--===============1806163209039447009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f6ecd469020-503e5c2d112a.txt
+Content-Disposition: attachment; filename=revlist-d863513c3bd5-bc5b41cb126e.txt
 
 f85daf0e725358be78dfd208dea5fd665d8cb901 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
 85ff37e302efdf173cff6d1a310c2f7f38f1d069 gpiolib: cdev: Fix kernel doc for struct line
@@ -240,6 +240,21 @@ c2602a7ce0fc66318325df170a9ee275d7df5c2e Merge tag 'sched_urgent_for_v5.19_rc8' 
 af2c9ac24019ece9281e606662e5c78fa67f5930 Merge tag 'perf_urgent_for_v5.19_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e90886291c7cd89577bf11729b205cc0ed42fbec certs: make system keyring depend on x509 parser
 e0dccc3b76fb35bb257b4118367a883073d7390e Linux 5.19-rc8
-503e5c2d112afc7ba1293f9b2a2b0af413828b28 Merge tag 'v5.19-rc8'
+8f03a4ee2bfbae6a2f0b8a577a1b4fb64810c34e m68k: virt: Kconfig minor fixes
+8556bf0528b4f9a71b75699fd8b37c133207d3f7 m68k: mac: Fix typos in comments
+292798ca27dbb585566b5dd3bac383034eab0058 m68k: sun3: Use __func__ to get function's name in an output message
+5a343a68b1e79e59f367ad3d1dc134de0740e1a4 m68k: q40: Align '*' in comments
+9c42d138eedacd7ef02ecb57fd41ba9931c1c8d0 m68k: Kconfig.cpu: Fix indentation and add endif comments
+89752200cecd86c0a28766b4d16d28539d6a51c2 m68k: Kconfig.debug: Replace single quotes
+81a84b2f9259ac4f5f68ad55f55de41de4e9e7e0 m68k: Kconfig.machine: Add endif comment
+158efd828389bc0e93996469554481c9bad7316b m68k: bitops: Change __fls to return and accept unsigned long
+9d7d2bf68343a5ceefaf47820eee76b5c47bea0b m68k: virt: Use RNG seed from bootinfo block
+985a436cdffc3ccd6f3f10584e93e6970e7ccbcb m68k: virt: Fix missing platform_device_unregister() on error in virt_platform_init()
+1f9e1ee5abe69dfbe3176ebd810fe95e6acb9218 m68k: sun3: Fix spelling mistake
+9fa3962622644162efb799726198b5c2f6ae3549 m68k: mac: Remove forward declaration for mac_nmi_handler()
+2b04612b8cb9756b73b6cc00c640e527f16c9c21 m68k: Add common forward declaration for show_registers()
+485a76e1f27d0e7b336cf44ee54c821dd8193b81 m68k: atari: usb: Add ISP1160 USB host controller support
+a66317d0e2e2a293e7183165eeeddc257c34628b m68k: atari: Update Kconfig.bus help text
+bc5b41cb126ee0124a78ea3fa4795f170c548dfc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1199738560674003693==--
+--===============1806163209039447009==--
