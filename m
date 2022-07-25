@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5267333511375121300=="
+Content-Type: multipart/mixed; boundary="===============8504151698319736741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 25 Jul 2022 18:20:05 -0000
-Message-Id: <165877320513.2200.9975196464306972825@gitolite.kernel.org>
+Date: Mon, 25 Jul 2022 18:22:04 -0000
+Message-Id: <165877332437.2901.2030961102985198874@gitolite.kernel.org>
 
---===============5267333511375121300==
+--===============8504151698319736741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 4d8f24eeedc58d5f87b650ddda73c16e8ba56559
     new: 9af0620de1e118666881376f6497d1785758b04c
     log: revlist-4d8f24eeedc5-9af0620de1e1.txt
 
---===============5267333511375121300==
+--===============8504151698319736741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ c7b205fbbf3cffa374721bb7623f7aa8c46074f1 net: macsec: fix potential resource lea
 96b9bd8c6d125490f9adfb57d387ef81a55a103e ipv4: Fix data-races around sysctl_fib_notify_on_flag_change.
 9af0620de1e118666881376f6497d1785758b04c Merge branch 'net-sysctl-races-part-6'
 
---===============5267333511375121300==--
+--===============8504151698319736741==--
