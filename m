@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 25 Jul 2022 09:42:27 -0000
-Message-Id: <165874214732.5651.9371402000812728650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 25 Jul 2022 09:45:08 -0000
+Message-Id: <165874230876.8101.3034749484661614221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-5.20/nintendo
-    old: 669abca7b767f0daa34f6b965a415f7a9045703e
-    new: 842fec058171db8f58a6073502a625372dddd96a
-  - ref: refs/heads/for-next
-    old: 9c9914cc509bccd7b134d33594e19b9411c12d4b
-    new: 7af32d156ad75cd88699b28a617857c74c933721
+  - ref: refs/heads/master
+    old: 502c6f8cedcce7889ccdefeb88ce36b39acd522f
+    new: 61aee772ebab2a0e9ba79b7ad9891260408fde72
     log: |
-         7af32d156ad75cd88699b28a617857c74c933721 Revert "HID: nintendo: Fix unused-const-variable compiler warning"
+         23233e577ef973c2c5d0dd757a0a4605e34ecb57 net: ethernet: mtk_eth_soc: rely on page_pool for single page buffers
+         7c26c20da5d420cde55618263be4aa2f6de53056 net: ethernet: mtk_eth_soc: add basic XDP support
+         916a6ee836d6b7b8ef1ed5f0515e256ca60e9968 net: ethernet: mtk_eth_soc: introduce xdp ethtool counters
+         5886d26fd25bbe26130e3e5f7474b9b3e98a3469 net: ethernet: mtk_eth_soc: add xmit XDP support
+         84b9cd389036d4a262d8cee794d56c04095358a7 net: ethernet: mtk_eth_soc: add support for page_pool_get_stats
+         61aee772ebab2a0e9ba79b7ad9891260408fde72 Merge branch 'mtk_eth_soc-xdp'
          
