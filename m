@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 25 Jul 2022 15:36:38 -0000
-Message-Id: <165876339860.28314.3990154072170244968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 25 Jul 2022 15:38:55 -0000
+Message-Id: <165876353569.29173.7857893487378112163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/arm/defconfig
-    old: abf73c76121d8417998356a1cccfccd17f5cfd11
-    new: 57d6ca98ba38d58463ad2139db79b6b1e38b0937
+  - ref: refs/heads/tmp.perf/core
+    old: 9fe9b252c7c022df8e503435e778f15c04dfa3bf
+    new: 6923397cb72230da9a0139418e2b1410ebb25834
     log: |
-         57d6ca98ba38d58463ad2139db79b6b1e38b0937 arm64: refresh defconfig file
+         bc2373a58aacb241bf135b9a7452a1499d0d457e perf tsc: Add arch TSC frequency information
+         1276ade6a5b6fac50ea43962af85ce6e444b4025 perf tsc: Add cpuinfo fall back for arch_get_tsc_freq()
+         6923397cb72230da9a0139418e2b1410ebb25834 perf test: Add test for #system_tsc_freq in metrics
          
