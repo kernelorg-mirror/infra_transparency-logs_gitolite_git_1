@@ -1,25 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 25 Jul 2022 16:03:01 -0000
-Message-Id: <165876498144.12103.10763923380630222861@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0956021568705173859=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 25 Jul 2022 16:06:29 -0000
+Message-Id: <165876518900.14715.117385019314045233@gitolite.kernel.org>
+
+--===============0956021568705173859==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 7cf57912a3793dda74ac65ec4e57e72710191f56
-    new: d281a5b3f02f89dbe59c60bbe5491c13534b8ecc
-    log: |
-         87d1edac403607bab93021afc48b05c234b3028a btrfs: Change the lockdep class of struct inode's invalidate_lock
-         e0e93d80ac38816d3f3c8841371559b494a75ad4 btrfs: Add a lockdep model for the ordered extents wait event
-         02516174d56f023d2802f93ef041d728fa1a7849 Merge branch 'misc-next' into for-next-next-v5.19-20220725
-         d45f51b3c84b522fb66d8d87ad31d42116faa401 Merge branch 'misc-5.19' into for-next-current-v5.18-20220725
-         9f02bee8f32388181259ba39c12912234f7c4c36 Merge branch 'ext/ioannis/lockdep' into for-next-next-v5.19-20220725
-         850e9aa22199f1baf2d2504a9cf5dabc0544ffda Merge branch 'for-next-current-v5.18-20220725' into for-next-20220725
-         d281a5b3f02f89dbe59c60bbe5491c13534b8ecc Merge branch 'for-next-next-v5.19-20220725' into for-next-20220725
-         
+  - ref: refs/heads/master
+    old: 8ee18e2a9e7b0e97730549f58dd618433c15811b
+    new: 9af0620de1e118666881376f6497d1785758b04c
+    log: revlist-8ee18e2a9e7b-9af0620de1e1.txt
+
+--===============0956021568705173859==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8ee18e2a9e7b-9af0620de1e1.txt
+
+4d8f24eeedc58d5f87b650ddda73c16e8ba56559 Revert "tcp: change pingpong threshold to 3"
+f6336724a4d4220c89a4ec38bca84b03b178b1a3 net/tls: Remove the context from the list in tls_device_down
+aa709da0e032cee7c202047ecd75f437bb0126ed Documentation: fix sctp_wmem in ip-sysctl.rst
+af35f95aca69a86058d480a63f4e096f0220905c nfp: bpf: Fix typo 'the the' in comment
+2540d3c99926c234718e058acdd956d7c614eddd net: ipa: Fix typo 'the the' in comment
+1aaa62c4838a140d0592935c51985158963d5971 s390/qeth: Fix typo 'the the' in comment
+f46040eeaf2e523a4096199fd93a11e794818009 macsec: fix NULL deref in macsec_add_rxsa
+3240eac4ff20e51b87600dbd586ed814daf313db macsec: fix error message in macsec_add_rxsa and _txsa
+b07a0e2044057f201d694ab474f5c42a02b6465b macsec: limit replay window size with XPN
+c630d1fe6219769049c87d1a6a0e9a6de55328a1 macsec: always read MACSEC_SA_ATTR_PN as a u64
+20a854616d384d3210d96fee248a3ea327bab810 Merge branch 'macsec-config-issues'
+c7b205fbbf3cffa374721bb7623f7aa8c46074f1 net: macsec: fix potential resource leak in macsec_add_rxsa() and macsec_add_txsa()
+3e7d18b9dca388940a19cae30bfc1f76dccd8c28 net: mld: fix reference count leak in mld_{query | report}_work()
+59bf6c65a09fff74215517aecffbbdcd67df76e3 tcp: Fix data-races around sk_pacing_rate.
+02739545951ad4c1215160db7fbf9b7a918d3c0b net: Fix data-races around sysctl_[rw]mem(_offset)?.
+4866b2b0f7672b6d760c4b8ece6fb56f965dcc8a tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.
+22396941a7f343d704738360f9ef0e6576489d43 tcp: Fix a data-race around sysctl_tcp_comp_sack_slack_ns.
+79f55473bfc8ac51bd6572929a679eeb4da22251 tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
+870e3a634b6a6cb1543b359007aca73fe6a03ac5 tcp: Fix data-races around sysctl_tcp_reflect_tos.
+96b9bd8c6d125490f9adfb57d387ef81a55a103e ipv4: Fix data-races around sysctl_fib_notify_on_flag_change.
+9af0620de1e118666881376f6497d1785758b04c Merge branch 'net-sysctl-races-part-6'
+
+--===============0956021568705173859==--
