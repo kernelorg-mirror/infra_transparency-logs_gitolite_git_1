@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 25 Jul 2022 23:54:51 -0000
-Message-Id: <165879329171.11203.1498311692256253477@gitolite.kernel.org>
+Date: Mon, 25 Jul 2022 23:55:00 -0000
+Message-Id: <165879330070.11327.3729229621724536805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.20
+  - ref: refs/heads/for-next
     old: d16f406acfc5c02234185105e5cc03a4cb4963bf
     new: a516ad2965e624289bba2b3d8c5698d132fab756
     log: |
@@ -23,9 +23,3 @@ changes:
          a0a392cf6009a7471506774b856fe917cf86e65d dm bufio: conditionally enable branching for DM_BUFIO_CLIENT_NO_SLEEP
          a516ad2965e624289bba2b3d8c5698d132fab756 dm verity: conditionally enable branching for "try_verify_in_tasklet"
          
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
