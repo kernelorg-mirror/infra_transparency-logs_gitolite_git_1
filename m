@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8358821476254256926=="
+Content-Type: multipart/mixed; boundary="===============9220286333674406532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 25 Jul 2022 20:26:02 -0000
-Message-Id: <165878076206.14123.9126034793678121657@gitolite.kernel.org>
+Date: Mon, 25 Jul 2022 20:26:08 -0000
+Message-Id: <165878076836.14200.16726303833130898763@gitolite.kernel.org>
 
---===============8358821476254256926==
+--===============9220286333674406532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/preview
+  - ref: refs/heads/pending
     old: b282b26d11c50d48b336fedb5f74b2eca3f7b94c
     new: fced298e41f3d671224b2c4cd330fef0339b8fab
     log: revlist-b282b26d11c5-fced298e41f3.txt
 
---===============8358821476254256926==
+--===============9220286333674406532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ cebe2e2429ffc42eddbbcdee21c78c8916603ef5 cxl/hdm: Commit decoder state to hardwa
 fe9702c61dd9e12e295814609c9bb3c1ee7cd65d cxl/pmem: Fix offline_nvdimm_bus() to offline by bridge
 fced298e41f3d671224b2c4cd330fef0339b8fab cxl/region: Introduce cxl_pmem_region objects
 
---===============8358821476254256926==--
+--===============9220286333674406532==--
