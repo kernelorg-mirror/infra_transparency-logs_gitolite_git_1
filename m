@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 25 Jul 2022 19:07:42 -0000
-Message-Id: <165877606201.31299.9325917999212415349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Mon, 25 Jul 2022 20:13:10 -0000
+Message-Id: <165877999074.5576.14725860384561655465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/main
-    old: 71178ae0ff0bbb898aed7d89c1c14e8de8315304
-    new: f8decf82af07591833f89004e9b72cc39c1b5c52
+  - ref: refs/heads/socfpga_updates_for_v5.20
+    old: 357513c052e10945427dd341bdf7a7ee5bf065a9
+    new: b3cbbb58632fa6f9cebf3f5c3ba210f11a3bdeb8
     log: |
-         f8decf82af07591833f89004e9b72cc39c1b5c52 bpf_glue: include errno.h
+         b3cbbb58632fa6f9cebf3f5c3ba210f11a3bdeb8 ARM: dts: add EMAC AXI settings for Cyclone5
          
