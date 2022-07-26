@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/crda
-Date: Tue, 26 Jul 2022 17:13:17 -0000
-Message-Id: <165885559775.18502.17498606804194382634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 26 Jul 2022 17:17:05 -0000
+Message-Id: <165885582528.21368.15298496438049815656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/crda
-user: mcgrof
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/tags/v4.15
-    old: 0000000000000000000000000000000000000000
-    new: 6aeea99ceeec85dd7a9202ee39c7f3b2a8f5195d
+  - ref: refs/heads/md-next
+    old: a23a50ee4b6215d4fc6ebdece70c3fee418464cb
+    new: 7a6f9e9cf1befa0a1578501966d3c9b0cae46727
+    log: |
+         7a6f9e9cf1befa0a1578501966d3c9b0cae46727 md-raid10: fix KASAN warning
+         
