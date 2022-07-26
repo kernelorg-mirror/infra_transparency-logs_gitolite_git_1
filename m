@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 26 Jul 2022 00:04:36 -0000
-Message-Id: <165879387632.17538.1577237231462767634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Tue, 26 Jul 2022 00:44:28 -0000
+Message-Id: <165879626882.9396.15545865868478864062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/for-next
-    old: 61743bda78d6d7b9e45cbe691d07dd9b8b2bc364
-    new: 96475847bd17970a47ea1c84cbba56e61529768b
+  - ref: refs/heads/cxl-security
+    old: f6da0b1a29d214ed658daac04d3e31fbb8d2efab
+    new: 7efc846ebe6ee7605c184d791cefcb3b81ca69ec
     log: |
-         fa9b59cc264f350c1e34ea784ac4c12fcee1aed1 dm bufio: Add DM_BUFIO_CLIENT_NO_SLEEP flag
-         b265cf51301ccd1b33ac5286e096e55d77565b06 dm verity: Add optional "try_verify_in_tasklet" feature
-         e1cd8472186331c9f88a84f53016da96a802f706 dm bufio: conditionally enable branching for DM_BUFIO_CLIENT_NO_SLEEP
-         96475847bd17970a47ea1c84cbba56e61529768b dm verity: conditionally enable branching for "try_verify_in_tasklet"
+         755dd47d7767ad27f16c4693604dc3f8957118fa cxl/pmem: add provider name to cxl pmem dimm attribute group
+         7efc846ebe6ee7605c184d791cefcb3b81ca69ec libnvdimm: Introduce CONFIG_NVDIMM_SECURITY_DEBUG flag
          
