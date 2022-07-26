@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 26 Jul 2022 20:19:57 -0000
-Message-Id: <165886679729.20096.5063710321574316617@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6184759809664921708=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 26 Jul 2022 20:33:51 -0000
+Message-Id: <165886763130.30599.9424177603169711245@gitolite.kernel.org>
+
+--===============6184759809664921708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/100GbE
-    old: b3bb3378b98f384f052c6de03d73dd0b07c82f07
-    new: cc019545a238518fa9da1e2a889f6e1bb1005a63
+  - ref: refs/heads/master
+    old: 13c24f6d7a2965d903bd357c384a7e4d814187a6
+    new: d1cc204a33fc4ae0c2c5b7e6fe6aef720454d239
     log: |
-         1e308c6fb7127371f48a0fb9770ea0b30a6b5698 ice: Fix max VLANs available for VF
-         01658aeeada6f93c2924af94d895ff28d559690c ice: Fix tunnel checksum offload with fragmented traffic
-         5c8e3c7ff3e7bd7b938659be704f75cc746b697f ice: Fix VSIs unable to share unicast MAC
-         283d736ff7c7e96ac5b32c6c0de40372f8eb171e ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
-         cc019545a238518fa9da1e2a889f6e1bb1005a63 ice: do not setup vlan for loopback VSI
+         d1cc204a33fc4ae0c2c5b7e6fe6aef720454d239 ez: another overhaul of commands and flags
          
+
+--===============6184759809664921708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1658867631 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1658867630-dab21f0a9063ea40018d555684b2e9fd5be205b4
+
+13c24f6d7a2965d903bd357c384a7e4d814187a6 d1cc204a33fc4ae0c2c5b7e6fe6aef720454d239 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYuBPrwAKCRC2xBzjVmSZ
+bIIyAPwKdUkcrgY2hlsMG9BmrOvRqiCauswuC3XAe3OhG4h3kAEA11oO3PiPTUjV
+Asn7b+q7eTQ6ADlu95WWZPDWIJa1Qwo=
+=e21a
+-----END PGP SIGNATURE-----
+
+--===============6184759809664921708==--
