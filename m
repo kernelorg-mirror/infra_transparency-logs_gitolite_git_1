@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9031743570661329702=="
+Content-Type: multipart/mixed; boundary="===============5051376418272521409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 26 Jul 2022 10:44:12 -0000
-Message-Id: <165883225294.6652.13783005506057923708@gitolite.kernel.org>
+Date: Tue, 26 Jul 2022 10:44:27 -0000
+Message-Id: <165883226773.6823.16348981021454734241@gitolite.kernel.org>
 
---===============9031743570661329702==
+--===============5051376418272521409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 502c6f8cedcce7889ccdefeb88ce36b39acd522f
     new: 1115169f47ae45eeb04c616c404492bc8268daa0
     log: revlist-502c6f8cedcc-1115169f47ae.txt
 
---===============9031743570661329702==
+--===============5051376418272521409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -333,4 +333,4 @@ ba39b344e9240a4a5fd4ab8178200b85cd1809da net: ethernet: stmicro: stmmac: generat
 b8fff748521c7178b9a7d32b5a34a81cec8396f3 bpf: Set flow flag to allow any source IP in bpf_tunnel_key
 1115169f47ae45eeb04c616c404492bc8268daa0 selftests/bpf: Don't assign outer source IP to host
 
---===============9031743570661329702==--
+--===============5051376418272521409==--
