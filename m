@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 26 Jul 2022 00:00:20 -0000
-Message-Id: <165879362085.16092.1567022586953591969@gitolite.kernel.org>
+Date: Tue, 26 Jul 2022 00:04:26 -0000
+Message-Id: <165879386625.17443.10494375408230649262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/dm-5.20
-    old: a516ad2965e624289bba2b3d8c5698d132fab756
-    new: 61743bda78d6d7b9e45cbe691d07dd9b8b2bc364
+    old: 61743bda78d6d7b9e45cbe691d07dd9b8b2bc364
+    new: 96475847bd17970a47ea1c84cbba56e61529768b
     log: |
-         cc94365993c2e7df544d4af21bb2ffd1311c3181 dm bufio: Add DM_BUFIO_CLIENT_NO_SLEEP flag
-         dd92c87766afd71ef70ea746d4c2ac444a676b74 dm verity: Add optional "try_verify_in_tasklet" feature
-         f11c987cee645c92e27abc30f0c8721945b9ed9f dm bufio: conditionally enable branching for DM_BUFIO_CLIENT_NO_SLEEP
-         61743bda78d6d7b9e45cbe691d07dd9b8b2bc364 dm verity: conditionally enable branching for "try_verify_in_tasklet"
+         fa9b59cc264f350c1e34ea784ac4c12fcee1aed1 dm bufio: Add DM_BUFIO_CLIENT_NO_SLEEP flag
+         b265cf51301ccd1b33ac5286e096e55d77565b06 dm verity: Add optional "try_verify_in_tasklet" feature
+         e1cd8472186331c9f88a84f53016da96a802f706 dm bufio: conditionally enable branching for DM_BUFIO_CLIENT_NO_SLEEP
+         96475847bd17970a47ea1c84cbba56e61529768b dm verity: conditionally enable branching for "try_verify_in_tasklet"
          
