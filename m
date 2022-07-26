@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 26 Jul 2022 08:34:11 -0000
-Message-Id: <165882445147.9726.8777693628159533861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 26 Jul 2022 08:34:22 -0000
+Message-Id: <165882446290.9825.10677855822014863761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: e818884c382e1baea28937f31d649d5d306d9285
-    new: 72008eeb439bccba8f3c4b38962580ff3cf2b9d3
+  - ref: refs/heads/rdma-next
+    old: ad7771c6d52432a5ff7d61d03a6543ac97ece483
+    new: e0cd3b449821a42dc636638282d1b1873fab58bb
     log: |
-         ea79c38798ef7314e37b045f9bb9283fa4019c1b parisc: check the return value of ioremap() in lba_driver_probe()
-         b3a32a6cfd5a8b6932a9c496a844d038c3dfb942 parisc: do not initialise statics to 0
-         72008eeb439bccba8f3c4b38962580ff3cf2b9d3 parisc: Drop zero variable initialisations in mm/init.c
+         123b90c14578b14ae96f7f7a0ec75c3bf0ae9210 RDMA/mlx5: Move function mlx5_core_query_ib_ppcnt() to mlx5_ib
+         e0cd3b449821a42dc636638282d1b1873fab58bb RDMA/mlx5: Set local port to one when accessing counters
          
