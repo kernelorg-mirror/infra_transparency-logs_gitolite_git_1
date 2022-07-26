@@ -1,54 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============6402660415440116680=="
+Content-Type: multipart/mixed; boundary="===============6203644088491009795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 26 Jul 2022 11:30:29 -0000
-Message-Id: <165883502918.4479.8555046158663787899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 26 Jul 2022 11:35:09 -0000
+Message-Id: <165883530950.7512.4951809276266797504@gitolite.kernel.org>
 
---===============6402660415440116680==
+--===============6203644088491009795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/for-linus
-    old: e182fa4d9013c231d52e7dd4f7320c0bedfce35f
-    new: 9dbe44960b590430e277e48936d7f3ea2b1db683
-    log: |
-         9dbe44960b590430e277e48936d7f3ea2b1db683 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: f76defdb2bfb2b7a951aa4ef2890211be129adca
-    new: 146cf393f4b2d886c0991ee3847d51e5e2ffbff2
-    log: revlist-f76defdb2bfb-146cf393f4b2.txt
+  - ref: refs/heads/linux-5.10.y-cip
+    old: 93db31b194040f61924e230fdae0266bd92c54cc
+    new: 21d9d56f4de5acd415b12aecf82f754e9e6065fb
+    log: revlist-93db31b19404-21d9d56f4de5.txt
 
---===============6402660415440116680==
+--===============6203644088491009795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f76defdb2bfb-146cf393f4b2.txt
+Content-Disposition: attachment; filename=revlist-93db31b19404-21d9d56f4de5.txt
 
-f20d5116b7f3d8d40e1248a59be89e667eaabd62 ASoC: mediatek: mt8186: fix Kconfig dependency
-e51699505042fb365df3a0ce68b850ccd9ad0108 ASoC: SOF: Intel: hda: add sanity check on SSP index reported by NHLT
-d95610a1832993c539be22f0ec3ea8e34a29acff ASoC: SOF: Add cont_update_posn to platform parameters
-af468aadf00485a2f5e804fe97db4731bc7a9c24 ASoC: SOF: dai-intel: add SOF_DAI_INTEL_SSP_CLKCTRL_MCLK_AON bit
-4e68eef41966771d0a109adaab2a632dbca2a983 ASoC: Intel: sof_sdw: add support for Dell SKU 0AF0
-2ec8b081d59f5c39eb262f09ebc9e81178d222be ASoC: Intel: soc-acpi: Add entry for sof_es8336 in ADL match table
-5e60f1cfb830342304200437121f440b72b54f54 ASoC: Intel: sof_es8336: Fix GPIO quirks set via module option
-751e77011f7a43a204bf2a5d02fbf5f8219bc531 ASoC: Intel: sof_es8336: ignore GpioInt when looking for speaker/headset GPIO lines
-86b1959a2ccb1cd3c91f99a6ad06dcd0940a2058 ASoC: Intel: sof_es8336: add support for HDMI_In capture
-fae93e3b952aeb0bad1a3d80ed9592cfc24aa8c6 ASoC: Intel: sof_es8336: reset the num_links during probe
-24913664b5103c3dd454081f79ba663ec18f65a1 ASoC: Intel: sof_es8336: remove hard-coded SSP selection
-1f6645b1ee792fcb5bd621af7845430cc0de1531 ASoC: Intel: sof_rt5682: Add support for mtl_mx98357_rt5682
-371a3f01fc1862c23fae35cb2c98ffb2eec143f1 ASoC: Intel: sof_rt5682: Perform quirk check first in card late probe
-5b56db90bbaf9d8581e5e6268727d8ad706555e4 ASoC: Intel: sof_nau8825: Move quirk check to the front in late probe
-4782b7cb6ff836b35342a75e217aa6821b1928f5 ASoC: SOF: minor updates for 5.20
-494afd7a3535ac963e02f6ee2320a6c90aef79b2 ASoC: Intel: machine driver updates for 5.20
-9dbe44960b590430e277e48936d7f3ea2b1db683 Merge remote-tracking branch 'asoc/for-5.18' into asoc-linus
-146cf393f4b2d886c0991ee3847d51e5e2ffbff2 Merge remote-tracking branch 'asoc/for-5.20' into asoc-next
+14f946c9139e62b74674ad53ea7c8848c08f2b87 soc: renesas: Consolidate product register handling
+e52461998880155b98c10a4788fc2ac620d1f82c dt-bindings: power: renesas,rzg2l-sysc: Document RZ/V2L SoC
+5664d96f345e96681e681b5756d39baa5f5fa53f soc: renesas: Identify RZ/V2L SoC
+46dadfaeea0b7d9bab23ef40d97759059cef6f7e soc: renesas: Add support for reading product revision for RZ/G2L family
+ef22d24a2e24d4877289ce7a4fd083611538241a soc: renesas: Kconfig: Explicitly select PM and PM_GENERIC_DOMAINS configs
+7a37afee89f629da3a0b154c31ca01e352a55068 soc: renesas: Kconfig: Introduce ARCH_RZG2L config option
+eb1153c4e6a1881212c0fb65aa307b863acad8e3 ASoC: sh: Make SND_SOC_RZ depend on ARCH_RZG2L
+c555bf14649c4e96883ca1b2fa6fd9b59fec2650 dt-bindings: dma: rz-dmac: Document RZ/V2L SoC
+80ea80b179c12d6b0c9a2162bb52296788424fae iio: adc: Kconfig: Make RZG2L_ADC depend on ARCH_RZG2L
+308f9e21b99a9708ed05e553a1cd7d44817413d4 dmaengine: sh: Kconfig: Add ARCH_R9A07G054 dependency for RZ_DMAC config option
+7095246dacb6537cf65321d24ef4cb1acc4f635c dmaengine: sh: Kconfig: Make RZ_DMAC depend on ARCH_RZG2L
+3a03a320b3066873f7f1109068443d406ab170ef reset: Kconfig: Make RESET_RZG2L_USBPHY_CTRL depend on ARCH_RZG2L
+5487eb49865add531c52b473687e1802cd717034 dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Add description for power-source property
+20f69a3ac825479cd2b9129d72acd985a10082fc ASoC: sh: rz-ssi: Drop SSIFSR_TDC and SSIFSR_RDC macros
+08c3f442acfe852f2fcfdc0107c2019db7393b97 ASoC: sh: rz-ssi: Propagate error codes returned from platform_get_irq_byname()
+e7187a4fbd4ef817be04553fd2e529d7f41ae87c ASoC: sh: rz-ssi: Release the DMA channels in rz_ssi_probe() error path
+516c5a6a1ad5c34c2f200137690dfde46a34166a iio: adc: rzg2l_adc: Remove unnecessary print function dev_err()
+ebe21262683e75fdbb92ec632aa0e35407b4c21c iio: adc: rzg2l_adc: Fix typo
+5ecb590237bba8e000e54d30fd3ed107cdbd4130 iio: adc: rzg2l_adc: add missing fwnode_handle_put() in rzg2l_adc_parse_properties()
+cecb05d9394331228485f647c4b94bdf1d9777c3 reset: renesas: Fix Runtime PM usage
+5358ba59f62c883055521c5c98d55ef41df53db2 reset: renesas: Check return value of reset_control_deassert()
+857f166f06686c010b0c017f61a3f27d4c0766bf i2c: riic: Simplify reset handling
+c6546c95a8e4b45788c1826efb0f9d8716411072 arm64: dts: renesas: Fix pin controller node names
+21d9d56f4de5acd415b12aecf82f754e9e6065fb arm64: dts: renesas: rzg2l-smarc: Move pinctrl definitions
 
---===============6402660415440116680==--
+--===============6203644088491009795==--
