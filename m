@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Tue, 26 Jul 2022 05:22:45 -0000
-Message-Id: <165881296570.23181.17422447825961730063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 26 Jul 2022 05:53:09 -0000
+Message-Id: <165881478938.8996.6380018489921311387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/md-next
-    old: a3fcf8e658af7296ac739a655af4a7cd906422cd
-    new: a23a50ee4b6215d4fc6ebdece70c3fee418464cb
+  - ref: refs/heads/master
+    old: 7615c3206b2a836f845a5add123d3583a954c9c3
+    new: d483b33dff01329c3714ab66bbd6636c1d09b8d6
     log: |
-         a23a50ee4b6215d4fc6ebdece70c3fee418464cb md-raid: destroy the bitmap after destroying the thread
+         d483b33dff01329c3714ab66bbd6636c1d09b8d6 foo
          
