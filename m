@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Tue, 26 Jul 2022 10:52:01 -0000
-Message-Id: <165883272161.12440.13865160423783913414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 26 Jul 2022 11:01:36 -0000
+Message-Id: <165883329610.18410.14971705701895303773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for_next
-    old: 7fd0dbb80f46b122c3723ac8ad02a2d84468e342
-    new: d861ed4b2954762338bab30f3aca4fcf1176f4c6
+  - ref: refs/heads/master
+    old: 58d8bcd47ecc55f1ab92320fe36c31ff4d83cc0c
+    new: 35d099da41967f114c6472b838e12014706c26e7
     log: |
-         bd6e21a9044ffc0d15cc362dcc10662e644a43bc fs/reiserfs/inode: remove dead code in _get_block_create_0()
-         d861ed4b2954762338bab30f3aca4fcf1176f4c6 Pull reiserfs removal of dead kmap handling.
+         5ec9c514d4a0e1749781c4c61485f9a69c212716 octeontx2-pf: cn10k: Fix egress ratelimit configuration
+         d351c90ce248601ce34fbc5ac817e3362b441b55 octeontx2-pf: Fix UDP/TCP src and dst port tc filters
+         35d099da41967f114c6472b838e12014706c26e7 Merge branch 'octeontx2-minor-tc-fixes'
          
