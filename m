@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Tue, 26 Jul 2022 00:44:28 -0000
-Message-Id: <165879626882.9396.15545865868478864062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 26 Jul 2022 01:02:38 -0000
+Message-Id: <165879735803.24558.8493456815085882994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/cxl-security
-    old: f6da0b1a29d214ed658daac04d3e31fbb8d2efab
-    new: 7efc846ebe6ee7605c184d791cefcb3b81ca69ec
+  - ref: refs/heads/master
+    old: 086f8246ed621bcc91d07e867fdbfae9382c1fbd
+    new: 5030a9a03f0107f645772450bcba521b2ec19a51
     log: |
-         755dd47d7767ad27f16c4693604dc3f8957118fa cxl/pmem: add provider name to cxl pmem dimm attribute group
-         7efc846ebe6ee7605c184d791cefcb3b81ca69ec libnvdimm: Introduce CONFIG_NVDIMM_SECURITY_DEBUG flag
+         5030a9a03f0107f645772450bcba521b2ec19a51 dt-bindings: net: fsl,fec: Add nvmem-cells / nvmem-cell-names properties
          
