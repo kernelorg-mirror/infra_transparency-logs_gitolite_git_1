@@ -1,25 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 26 Jul 2022 18:30:02 -0000
-Message-Id: <165886020206.7809.3868244827843087166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 26 Jul 2022 18:35:40 -0000
+Message-Id: <165886054053.12750.11427591151580854885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/dev-queue
-    old: c68d81d57e6e7a2852fb40fcdad0b485f3e42537
-    new: 4485e7c5bfbb29f687c5661f27de87d643fa2a24
-    log: |
-         1607ed522ae1de1498c8c810832ff381e8920f28 ice: xsk: use Rx ring when picking NAPI context
-         259ee4a34130db3822549c758a73ae6987f1591f ice: Fix VSI rebuild WARN_ON check for VF
-         cf068bdd7219ae58c54145e6d6734ef5b9797b9f ice: Fix tunnel checksum offload with fragmented traffic
-         47da422596c2430f9bffbd0e5bbdcce86bdf9b4c iavf: Fix adminq error handling
-         78bf4f1f38b313b847898b9e87f6553f7e8aa118 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-         ea7292b431fdb6133c567cb702d46679eb41a2ca iavf: Fix reset error handling
-         4485e7c5bfbb29f687c5661f27de87d643fa2a24 ice: Fix VSIs unable to share unicast MAC
-         
+  - ref: refs/tags/nolibc.2022.07.27a
+    old: 0000000000000000000000000000000000000000
+    new: afcd269abdebcab8b2ebb54183f162adfee83e46
+  - ref: refs/tags/perf_urgent_for_v5.19_rc8
+    old: 0000000000000000000000000000000000000000
+    new: 6b91d324a99ae9386f34cfb5b5078544c1b56b82
+  - ref: refs/tags/rcu.2022.07.26a
+    old: 0000000000000000000000000000000000000000
+    new: 881b9125adb84ec4722601ecc1493666cca6d982
+  - ref: refs/tags/sched_urgent_for_v5.19_rc8
+    old: 0000000000000000000000000000000000000000
+    new: 493c51ec59b715e8e873f856cc7879344e0dd04e
+  - ref: refs/tags/v5.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: cb84a9aae2260636f12f10c7f60779eb69e82849
+  - ref: refs/tags/x86_urgent_for_v5.19_rc8
+    old: 0000000000000000000000000000000000000000
+    new: d0bdd1e48aba62d2c038eaca7392a132a175a0ca
