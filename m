@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8073929207435567133=="
+Content-Type: multipart/mixed; boundary="===============3934180446141169683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 26 Jul 2022 17:52:39 -0000
-Message-Id: <165885795944.14333.6371654634581903188@gitolite.kernel.org>
+Date: Tue, 26 Jul 2022 17:53:10 -0000
+Message-Id: <165885799098.14564.1931197216793491187@gitolite.kernel.org>
 
---===============8073929207435567133==
+--===============3934180446141169683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: e79b9473e9b59e83e23db9b7411c6080b5a6826d
     new: 9b134b1694ec8926926ba6b7b80884ea829245a0
     log: revlist-e79b9473e9b5-9b134b1694ec.txt
 
---===============8073929207435567133==
+--===============3934180446141169683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b354eaeec8637d87003945439209251d76a2bb95 octeontx2-pf: cn10k: Fix egress ratelim
 33881ab73d6f6b4f0a2a89aece86dd60e6e507c6 Merge branch 'octeontx2-minor-tc-fixes'
 9b134b1694ec8926926ba6b7b80884ea829245a0 bridge: Do not send empty IFLA_AF_SPEC attribute
 
---===============8073929207435567133==--
+--===============3934180446141169683==--
