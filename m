@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4916113999681106808=="
+Content-Type: multipart/mixed; boundary="===============1797470916364809179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 26 Jul 2022 12:20:22 -0000
-Message-Id: <165883802230.2992.13978654657882957749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 26 Jul 2022 12:20:28 -0000
+Message-Id: <165883802821.3114.16983879699499445219@gitolite.kernel.org>
 
---===============4916113999681106808==
+--===============1797470916364809179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/spi-5.20
     old: 89fcdd53c2528b8f0ed34553aaf9826fe63848b5
     new: 233363aba72ac638dda6838f8e817c46d36c2431
     log: |
          233363aba72ac638dda6838f8e817c46d36c2431 spi/panel: dt-bindings: drop CPHA and CPOL from common properties
          
 
---===============4916113999681106808==
+--===============1797470916364809179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1658838020 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1658838020-31575562a7586210495efe891df8ddaf008d2b39
+pusher C3F436CA30F5D8EB 1658838026 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1658838026-22bd968c81e985a8b2fc0363d67a215c1ef721f4
 
-89fcdd53c2528b8f0ed34553aaf9826fe63848b5 233363aba72ac638dda6838f8e817c46d36c2431 refs/heads/for-5.20
+89fcdd53c2528b8f0ed34553aaf9826fe63848b5 233363aba72ac638dda6838f8e817c46d36c2431 refs/heads/spi-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLf3AUACgkQJNaLcl1U
-h9AkVAf+IPfK+qxJ8HZCvJU3Ss0iohSluSbdVWwOvpmDynIUKZ6WbYjuTwbfDqWg
-QzgJvu9u7sflGI048vL+EZQfZRvjnXb+d2HM40Pjz9VgHR2fvLN2mgOI+pqMR95v
-Agp7AFtWGMUiQ1b80HFj9MwBmRj2E/Sd1kzkExpCkObLfY0GXq+4v7bOE6wNAMF+
-cB/xxiz8/Otg9/kfCp5RmsgQPrJM29OT5+Kk4NzlOI9+GHyNxADU9mT9p9JOlvsy
-4VQXXHSEslwOWC8vD5VuFclxTqWgG/8PNW/7xv0Z+5DCV8Itv3+3/L5+D77qxNWK
-VSepUAHQ7W7s5HGdgwVILpBvvCRJCQ==
-=XfRi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLf3AoACgkQJNaLcl1U
+h9DzDAf9E0nA3Lmdbo1VjlNzYyjGd8UNP7T8VffdkIKKgqCNM85mJECjUTuxMp8M
+mwApNCWq8dYSpTa8x+Ew5flaURzqHzsXgyxh+p+VQu23bSYnVFnRkTst4Hg0IwkU
+eQNPLf+jAUnymF3H4CvyxEF++iQubrkLKjeeR1SqOam+8//G9+0tncK7ei2bHhgn
+SNE1p/qCFxykAYwJQtZLH3dzYp5Yo8Rswv3zQUZMo6K5kHztZnHDqE2X84C35115
+X4o5EMUOkEnFcwa80IcdcSSGfL+oIE+MpoumdY1WGdoIwNNXYHv6k7Cx/5l/FpZM
+LWlZAScvzcFAIAppkgjTVoCT6+QFUg==
+=1Jp0
 -----END PGP SIGNATURE-----
 
---===============4916113999681106808==--
+--===============1797470916364809179==--
