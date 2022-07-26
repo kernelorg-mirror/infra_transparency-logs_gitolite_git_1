@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3181521327648882226=="
+Content-Type: multipart/mixed; boundary="===============3670292167010738742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 26 Jul 2022 15:41:29 -0000
-Message-Id: <165885008985.19024.17201612966323173911@gitolite.kernel.org>
+Date: Tue, 26 Jul 2022 15:41:41 -0000
+Message-Id: <165885010163.19170.7006704034594419217@gitolite.kernel.org>
 
---===============3181521327648882226==
+--===============3670292167010738742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 086f8246ed621bcc91d07e867fdbfae9382c1fbd
-    new: 35d099da41967f114c6472b838e12014706c26e7
-    log: revlist-086f8246ed62-35d099da4196.txt
+  - ref: refs/heads/dev-queue
+    old: 5245eb4f3cf8ba1e9e0e6d58d810eceae9edc0c1
+    new: 19eae2c0ba4910b02970e17ecf2697cc0f79fac9
+    log: revlist-5245eb4f3cf8-19eae2c0ba49.txt
 
---===============3181521327648882226==
+--===============3670292167010738742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-086f8246ed62-35d099da4196.txt
+Content-Disposition: attachment; filename=revlist-5245eb4f3cf8-19eae2c0ba49.txt
 
 63907290faa916ffab1c8455141c79ca8e3a79bb mt76: mt7915: fix endianness in mt7915_rf_regval_get
 cffd93411575afd987788e2ec3cb8eaff70f0215 mt76: mt76x02u: fix possible memory leak in __mt76x02u_mcu_send_msg
@@ -296,5 +296,46 @@ ba39b344e9240a4a5fd4ab8178200b85cd1809da net: ethernet: stmicro: stmmac: generat
 5ec9c514d4a0e1749781c4c61485f9a69c212716 octeontx2-pf: cn10k: Fix egress ratelimit configuration
 d351c90ce248601ce34fbc5ac817e3362b441b55 octeontx2-pf: Fix UDP/TCP src and dst port tc filters
 35d099da41967f114c6472b838e12014706c26e7 Merge branch 'octeontx2-minor-tc-fixes'
+b8119e7a0c51527d11c42c27ba118775f27e3fc7 ice: prevent low-core machines crashing on DCB config
+5a4c571aea78a2da0a2b5ea3c3a8beb272d12a11 i40e: Fix interface init with MSI interrupts (no MSI-X)
+98b55dfd23416418e0d76233496fc9d6d6309931 iavf: Fix max_rate limiting
+2ebd9b0952131285efd93473e81db171a8e00311 iavf: Fix 'tc qdisc show' listing too many queues
+6443aab0466ca0f7e4238903ad7963b0797fed78 iavf: validate dest MAC and VLAN from tc-filter code path
+daa2c6756618301c5fabd99216977efbf5d468f9 iavf: enable tc filter configuration only if hw-tc-offload is on
+7458411eb7645cd62f8a8dd0bcf332e237de26ec ice: Fix max VLANs available for VF
+bf7bdd600668a094e42f5cada41649da7a49f4c9 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+1db99b2d830da49a0c5e841b99086917ff4aa0bf ice: do not setup vlan for loopback VSI
+ed9be399b739c64f8a373da1e5adff8397c1af55 ice: Fix double VLAN error when entering promisc mode
+1f2f7be96cde501fbc90fa7ef0fe2c514b5c5352 ice: Ignore -EEXIST when setting promisc mode
+e6247a9bf94d861b63b7416758cdfcb19f192037 ice: Fix clearing of promisc mode with bridge over bond
+c9c509c3c43b19d73c3994f2311f258ccbf72295 ice: xsk: use Rx ring when picking NAPI context
+53ba16d8890a7527f988ee3bf0e13cc3eb5f1665 ice: Introduce enabling promiscuous mode on multiple VF's
+39d5d046a6812d2cbd71e4639bee28327adf9307 ice: Fix promiscuous mode not turning off
+08b198d5e1fd39bfd1304f79e5e09cffbcb57ad4 ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
+aa7265dd31004b1692d70680e419842b64311b1d ice: Add support for ip TTL & ToS offload
+706e833cdf7b2e49f09c1549669db6e8ac0dedea ice: compress branches in ice_set_features()
+2c8ea9cccda793235436b0e4483bbce9314db54d ice: allow toggling loopback mode via ndo_set_features callback
+bb6b8930b08b17cd7cd93682172dcb29dbff6bee ice: Implement control of FCS/CRC stripping
+7bfdb65e0c2cd473cd2c07c81d1fd3c63580b8d2 ice: Implement FCS/CRC and VLAN stripping co-existence policy
+a746a2e6ad9ce66c84987ae35df7773c16380d55 ice: Fix VSI rebuild WARN_ON check for VF
+0ad3193211e0f86e5b34c90e45870f252cd3d0d0 igc: add xdp frags support to ndo_xdp_xmit
+3a61a127954e2d1146e582f27ba471b989c4929d ice: Fix tunnel checksum offload with fragmented traffic
+2f9a9083fc6e88362ca79da1c7f1d697f1408356 iavf: Fix adminq error handling
+affed02f244e15c476aa5467665f5e47c70e32b3 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+41b700aab3dd721eb37ba79ec359f077e1b0470e iavf: Fix reset error handling
+83e348b8e13423667cc532857bc12625bc3425db ice: Fix VSIs unable to share unicast MAC
+9daa685e66c2d23320cd44a150bc5c4dc9206509 ixgbe: Manual AN-37 for troublesome link partners for X550 SFI
+6141db0e18c99c8ab41a366dbbf34feb41bcecdf ice: implement adjfine with mul_u64_u64_div_u64
+4cc96b034db62058c568cd417abf1ba596445040 e1000e: remove unnecessary range check in e1000e_phc_adjfreq
+b09a1bf0931d8d106d6f2cbc45ed316da1cac03c e1000e: convert .adjfreq to .adjfine
+a8e27d38678266813765f834a5a68594152129ce i40e: use mul_u64_u64_div_u64 for PTP frequency calculation
+2130aa25a8a08b8de2aa82334e13ee029e6dec0b i40e: convert .adjfreq to .adjfine
+491004e891354309670ad258200446b422b24a08 ixgbe: convert .adjfreq to .adjfine
+ecd82808272ab1daeca2831f0ef81e37dd373745 igb: convert .adjfreq to .adjfine
+9daa2f0d169f19c26ccaf019434337a6ee462fb8 ice: Support 5 layer topology
+8565f9627f36bbb8b95fd3127c317cde53f37d57 ice: Adjust the VSI/Aggregator layers
+72725f2e031be59c7bd74f1c7289cdc9e17a08e1 ice: Enable switching default Tx scheduler topology
+b3d8aac99ce3ae6137cf25a41280bc9a961766b2 ice: Add txbalancing devlink param
+19eae2c0ba4910b02970e17ecf2697cc0f79fac9 ice: Document txbalancing parameter
 
---===============3181521327648882226==--
+--===============3670292167010738742==--
