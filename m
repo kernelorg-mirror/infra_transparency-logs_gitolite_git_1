@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0956014491345871160=="
+Content-Type: multipart/mixed; boundary="===============3679498936522169374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 27 Jul 2022 12:39:39 -0000
-Message-Id: <165892557949.11611.513587522799199362@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 12:40:12 -0000
+Message-Id: <165892561247.13428.6729646744569394137@gitolite.kernel.org>
 
---===============0956014491345871160==
+--===============3679498936522169374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a7dc438b5e446afcd1b3b6651da28271400722f2
-    new: 2d945194cce11ce2800949c8746bc3e788d89067
+    old: 2d945194cce11ce2800949c8746bc3e788d89067
+    new: 76e960597635ee80d7c713f606b0f6ac9228d98e
     log: |
-         b60fd9361b6e0041299e9e677603dd1df7c9677b dt-bindings: usb: typec: add bindings for stm32g0 controller
-         72849d4fcee7cc9e6b98637738b722f78502525d usb: typec: ucsi: stm32g0: add support for stm32g0 controller
-         2d945194cce11ce2800949c8746bc3e788d89067 usb: typec: ucsi: stm32g0: add bootloader support
+         817f9ee0dad570a6ba6a285f662de657760094cd dt-bindings: usb: generic-ehci: allow usb-hcd schema properties
+         43993626de00f8faea2cf4d54aaea8f607331fcf usb: misc: onboard-hub: add support for Microchip USB2514B USB 2.0 hub
+         0d0fb2b605c7512e67b328f3077d24ec5e4c5b38 ARM: dts: stm32: add support for USB2514B onboard hub on stm32mp15xx-dkx
+         76e960597635ee80d7c713f606b0f6ac9228d98e ARM: multi_v7_defconfig: enable USB onboard HUB driver
          
 
---===============0956014491345871160==
+--===============3679498936522169374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658925578 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658925610 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1658925577-aa0840fde480a8868a682b3ac196ae5a73f94e70
+nonce 1658925609-aac2d4cf3ffdff0c6c57d8051e015a6196a96545
 
-a7dc438b5e446afcd1b3b6651da28271400722f2 2d945194cce11ce2800949c8746bc3e788d89067 refs/heads/usb-testing
+2d945194cce11ce2800949c8746bc3e788d89067 76e960597635ee80d7c713f606b0f6ac9228d98e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhMgobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gXMP/3JUTiCUE/4rNTZMSc0V
-3hTNfiELvx+MPMgwo3zhev5PXj7yTs8d/OAhZQs1H0qKe0IgeLxhmC247WIGAOJO
-4yEZoOQ9yCp9pw/ci6AOvAYWeNFJ0NwWZfQCmPL2/qI0ZTTzgdSnCnXqz+C1Tnad
-8mbY2UMUk0JmbukzZpo+clftf9ImghNZDLwpbVqHfZ6Nl7D9lEibVHqQAs3aicfP
-4T9S2DC9/UQxoNM80ZFBS+sIg3MtX2dvsjAnnAcm1gMKK5oJE4g40ckzLKBMWwRQ
-HjVRaPnfacqbE2T9UflyT5JXagKN6XLDvPuYrUaD3QCR4uxkyxtAoAgMvR6Mz5gh
-T8OjCor8em4ZcWDs96FN1CnytHK+QmObZrfs+ijzehzIIWWaOUi2v5HXHvCiz3sI
-xYWr/Moz+tJmu7o6uGb5c3xfo8cEmfWgxyYk3AMtmMXNfQ6uV5wI2FNMyD9Q7S7I
-J3+CiKkbOKurPOvSAKUgixXRJnQEnqbmj6WLzaPHcB/JkbMvIsO2GS4Z3+CGH2zG
-99CpcHmKA79Z8iaKXItXKU8CyvhOVrfQCBEo0bTLsX8+Ek2f/JT7zg0w+9L1wQjG
-lobrN3AieD2ZjqMThb43NG3gwvHUZRj2a+P8TCt7PPQIbQmeK90vRQmZSenITt8e
-na/amvpCjH45ms5+oWgQMDex
-=wMNe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhMiobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fegQANJRzIn7lQSs4sAHC8Zg
+OrR79wwIByYNKGzXps5IdMd3W7dmSHZe7hsr+yiKs1WRKzsmuTFhvDe1kwpjiePu
+1x5/7vF/cfKddt0xdTugRoEKiRrR9dub0L6QGc3KFSXdj8JfgjTtxpRRkiMvM/Vb
+tIbh53mtaYRDUlPPsVFHoMhCHQB1LAjggAj+9ooHUjw2zgDtVyUKfq/qkv02Tn6m
+AooZ9ueyskcAx5gOxRDu7vNQSobuQywbjd1k+m6UKQeEtnJSfPMe11owtoqcyJSh
+5fhL7MqQER7IvT7JWMLqCLr0tqdf7w/yX0j5ptwVGhbTX2A21lsXv5mR0TJO63xl
+aOUgskzNWtU9rRXADLTggHKhj4TLNuaOoOnMnh5l58ZJkE2wEzKGi8o+It7EXc7t
+ezEHBrvbC/ua2JB5gALTEDQA/P0L3X1fOMcuocNvIl32uowWfGAWk0BnXQ3gpYtw
+rRsTJQT5yqdfqde/TtxlIRwHRXKiW/T3F3XIzWC+/Gf91Vpv0NLSdlCmbFZDxqhd
+uv/1Q+6oS1ajNc3ioUJzahMSO9ZeRMVDnSM95w2c4JhoK/cbp+tHy2FUNJy0DbJb
+TbgZf0H7HsH4RoRMXFrvlwyesUJZFFh9FeyQTHBOczzCqVAI84cAvj41joPurjMJ
+sicY1viiERVKC/oBCpU4/57a
+=9B4f
 -----END PGP SIGNATURE-----
 
---===============0956014491345871160==--
+--===============3679498936522169374==--
