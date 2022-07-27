@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6151298425400559680=="
+Content-Type: multipart/mixed; boundary="===============7293386285525073803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Jul 2022 03:15:34 -0000
-Message-Id: <165889173413.22414.8369351705253788996@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 03:15:48 -0000
+Message-Id: <165889174834.22567.5343532443855206000@gitolite.kernel.org>
 
---===============6151298425400559680==
+--===============7293386285525073803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 92e1f7b89cb935dfd3896e7c002c4286ac6c2d09
-    new: 9c5c45a12384cdce6fcd3f37ef9832f0d57e6dec
+  - ref: refs/heads/5.20/scsi-staging
+    old: 70f58e3e07e6cd81be1e83a8010534f73a3d7d5b
+    new: 8fcdc238ce1b492e1f57a73a2ce4131d63f45397
     log: |
          2f3b3200ac389d09135fa42ade45ff23de7ce605 scsi: ufs: dt-bindings: Add SC8280XP binding
          8f1f7d297bce50d9daea95ca67e1c10aea6c232c scsi: target: iscsi: Add support for extended CDB AHS
@@ -31,33 +31,33 @@ changes:
          8fcdc238ce1b492e1f57a73a2ce4131d63f45397 scsi: target: Remove XDWRITEREAD emulated support
          
 
---===============6151298425400559680==
+--===============7293386285525073803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1658891723 -0400
+pusher 75C5DE3D 1658891739 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1658891723-93e0a2468d9f51de147783af13beaed62993bb7a
+nonce 1658891738-10e030a4686406b2b0f76b549f0c541c14007024
 
-92e1f7b89cb935dfd3896e7c002c4286ac6c2d09 9c5c45a12384cdce6fcd3f37ef9832f0d57e6dec refs/tags/mkp-scsi-staging
+70f58e3e07e6cd81be1e83a8010534f73a3d7d5b 8fcdc238ce1b492e1f57a73a2ce4131d63f45397 refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLgrcsACgkQ7ulgGnXF
-3j2iVRAAiJl9BgQMbFxx4qGhfbFd7yO6nJIYrW8AquM+cbW1HH7lWTEmhCrdg0UF
-hbYKGOGt9HiIq8O4CwDM1/KBTK3nTfWLOY8CydhqCJcbUI9/6IGMUpBLWFZl/QNt
-J7U+K+wfqRTSXLUI658qkqvdSxg9tpxSgWo0/NG+jiQZERsgqWWVCUxOKULjWmLh
-k987ezMxiQf+ho4NVgUv+nJcxF9GMrHn0UCWv0mKKhsmvsc8Wyn00cYWbgGirZZR
-OXfl8uJx4VJvZnmM6uIEHVJf8fryL09+ZdULNR1ZPpZ+C+7i8RjYpz31tlNa9vgs
-0NRWnaRR3TKSaUB2Xb//qY5V0MF3K0nILH0fSMWp09kvlG2lHvNte57bqFDJcPdm
-qe/MQJSQDpas0NppVBmFjP84ryk6LFf+UoxcJVzhCGCgVeUS+fwMhyRUWk4Gf3Qb
-d1AV62Wjl1t/F2R4nVS7NQuL5vkAWtv3sAbaX6cT5IhlyaBanejFbkKEVbBGjSGE
-paHcLwtoiSt/cQPpMuzGtNVeHUT2fYX8MSJ4i2lPBgC4MA7YsAxZ2v65r082sv1B
-B795Sdlkm2/QEmfH9Mqvds2+SzIU9C6O8uBTrDZeJd8UGcb+COtwRJvl4h8YuwNN
-uvu+/6AhFJdQiN1rp61LzPEC29lBAXrAu2R/ohTjjMHNU92J9A0=
-=98ZD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLgrdsACgkQ7ulgGnXF
+3j2yUA//dZzOnoROMsufrsRAXy5LDoZzTf3ZV4Kfee653IK7FgewZ00DlJTU4ufR
+eBlHNdx+zsW1ZxAiBadjSZ/YQL7n+IWActZhwHjViX6ZyGvOvtbWE9IlVRa8/o15
+pDP2sobtz/ZrsEKcSwkKbGldwkCYfMu02v1fvLSyJHt9hgkcDwnuhMoSWDrJw4H/
+VSHh8hcVlR08z5LVo/+IxiENHPQ+JNpwVlOelcNSbBy78IeabyEZ5UghPPigoVPf
+l0vCSKVFYGhZPXDrv4eZ7K7OF1T25WkUUj5y6nBvRUlR6j+boymcsEPGOvn3xHsd
+iYYfO6MWNsvqNf4e1XLBQKdm8Igv1obJBmK7ys+zW6Ycy5bBiSBu3fVmdpquvhjk
+Gr1n0jBwHdyz2TyA3E6eJjOspsIfN2jCTa9hRmT/luOXxVcFmJ1Cb+omwwEFORGm
+g6XjdnIfMjHIHisIRWGfKzeUJPBsO47TCeDpiSer0K9xQr7fEZnrkaZEo85SO2o5
+y+2+Dm7d4Kfni/dGebVyXPF8CjKQOfXFUkZAEKS1HRO1aYghf4FTrocFeoAcPIB+
+Y51YDcMcJ1DqYw28GgMOk7aPqMGIBZSTI7RtA7/Uwc1h1HX6cMzCt+UPk1kz67M6
+B8QAEGTkCchJrSF1dihcpTYgWsi/edj26QXfyqJh7pcSjf5copA=
+=bqzR
 -----END PGP SIGNATURE-----
 
---===============6151298425400559680==--
+--===============7293386285525073803==--
