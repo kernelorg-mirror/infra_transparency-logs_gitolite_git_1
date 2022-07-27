@@ -1,53 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7868613553008200607=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 27 Jul 2022 11:16:24 -0000
-Message-Id: <165892058469.17717.11042933595306772490@gitolite.kernel.org>
-
---===============7868613553008200607==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 27 Jul 2022 11:23:24 -0000
+Message-Id: <165892100436.21612.18049656233730400351@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: a6e6231ac10a0e94ed298de8297574b8944f7bfa
-    new: 9d8dd3725f4032f94d9cf65304559e0780e04ad7
+  - ref: refs/heads/fixes-base
+    old: fce54ed027577517df1e74b7d54dc2b1bd536887
+    new: 355bf2e036c954317ddc4a9618b4f7e38ea5a970
     log: |
-         1851532fd39c674906f83b431650c73e065c4a77 can: slcan: export slcan_ethtool_ops and remove slcan_set_ethtool_ops()
-         0ccb3e0b0a001c9de1e039bef43040351df9b8aa can: c_can: export c_can_ethtool_ops and remove c_can_set_ethtool_ops()
-         b4b97079a49ec81fa2236fb2ebbba867fff5d4ba can: flexcan: export flexcan_ethtool_ops and remove flexcan_set_ethtool_ops()
-         9d8dd3725f4032f94d9cf65304559e0780e04ad7 Merge patch series "can: export export slcan_ethtool_ops and remove setter functions"
+         ccd3f449052449a917a3e577d8ba0368f43b8f29 scsi: target: Fix WRITE_SAME No Data Buffer crash
+         8312cd3a7b835ae3033a679e5f0014a40e7891c5 scsi: megaraid: Clear READ queue map's nr_queues
+         2ae57c995003a7840cb6b5ec5f0c06193695321b scsi: ufs: core: Drop loglevel of WriteBoost message
+         52a518019ca187227b786f8b8ee20869a97f3af4 scsi: ufs: core: Fix missing clk change notification on host reset
+         e78276cadb669d3e55cffe66bd166ff3c8572e38 scsi: pm80xx: Fix 'Unknown' max/min linkrate
+         355bf2e036c954317ddc4a9618b4f7e38ea5a970 scsi: pm80xx: Set stopped phy's linkrate to Disabled
          
-
---===============7868613553008200607==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1658920581 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1658920580-12808b6bb9e77334154d09b425eeee6001984eb7
-
-a6e6231ac10a0e94ed298de8297574b8944f7bfa 9d8dd3725f4032f94d9cf65304559e0780e04ad7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLhHoUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXbAQB/wK7RPrSKtJDEeVf/BhR1Ip9D0BuGD/
-oCy2atZE1fCbhhaQ/64JbvMsdicu+yVsJn05npV780Iq2bWT9TdFykDFYxBRpfJ6
-8VlETPGE0ZbUREOi4ZCvXA5CvEatNSzq+iEW05Hsron+GO9TyK1juztOILUpO1xJ
-GVbxoRuYbAEeg5B5yFvFxwF+f0YymWOx2gg1z4pJALqnfeV8RNw5XLBCpsx+ohWw
-lXpbLGXzdDmJgWrCJUGgwqG6ZtTNptG21FEWxX2HByL0zIMj0rUfBokU/ip4HpkY
-jwvEsGPQhbq/Tm/YV40b2b8f3IsrNrvDQRUcm0MxKRoAEOqYmjG1+mVZ
-=lfWf
------END PGP SIGNATURE-----
-
---===============7868613553008200607==--
