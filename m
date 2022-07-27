@@ -1,58 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0267821731193258117=="
+Content-Type: multipart/mixed; boundary="===============6638232369484717969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 27 Jul 2022 17:44:04 -0000
-Message-Id: <165894384422.2505.10632908726283866873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 27 Jul 2022 17:45:00 -0000
+Message-Id: <165894390011.2923.14396812040775087549@gitolite.kernel.org>
 
---===============0267821731193258117==
+--===============6638232369484717969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: ae98a4a989935bb8e1431565e2eb86d7a19c2309
-    new: 0982c8d859f8f7022b9fd44d421c7ec721bb41f9
-    log: revlist-ae98a4a98993-0982c8d859f8.txt
+  - ref: refs/heads/master
+    old: d1cc204a33fc4ae0c2c5b7e6fe6aef720454d239
+    new: 81e45945580d7c97dc22e798b2a9d73ffb61214c
+    log: |
+         9d64075f5902052a83a722306239ac8d033b84b3 ez: some cleanups and error handling for revision tagging
+         6db02ed5afacdc8f1ec1756702d1582b7bf24e9c ez: record cover strategy on branch creation/enrollment
+         81e45945580d7c97dc22e798b2a9d73ffb61214c ez: implement enrolling branches with commit strategy
+         
 
---===============0267821731193258117==
+--===============6638232369484717969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae98a4a98993-0982c8d859f8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-802b91118d11227b527153849ea761b280691373 arm64: kasan: do not instrument stacktrace.c
-446297b28a21244e4045026c4599d1b14a67e2ce arm64: stacktrace: use non-atomic __set_bit
-a019d8a2cc82a95880677fb0ec16d1d4e8647df7 arm64: Split unwind_init()
-82a592c13b0aeff94d84d54183dae0b26384c95f arm64: Copy the task argument to unwind_state
-6bf212c89c48458d8deef1c973678c62528dab04 arm64: stacktrace: Add shared header for common stack unwinding code
-15a59f19a015185bff90a68f601caec151dea4b4 arm64: stacktrace: Factor out on_accessible_stack_common()
-be63c647fd28d25484257f5f36a008db7d99991d arm64: stacktrace: Factor out unwind_next_common()
-5b1b08619f50422c3e43d1fd7af257595a9e4a67 arm64: stacktrace: Handle frame pointer from different address spaces
-f51e7146740514347d6c5526a2c393e224a19c0d arm64: stacktrace: Factor out common unwind()
-051ece6758cc10c2a6f1700ffe86d23fbb0b2553 arm64: stacktrace: Add description of stacktrace/common.h
-548ec3336f323db56260b312c232ab37285f0284 KVM: arm64: On stack overflow switch to hyp overflow_stack
-573e1e8275f7167ddd533c6e4e0f500f8be4d974 KVM: arm64: Stub implementation of non-protected nVHE HYP stack unwinder
-879e5ac7b2e4db05799a905b5a07fc9e5dedf651 KVM: arm64: Prepare non-protected nVHE hypervisor stacktrace
-db129d486ebdf4e3168282236f9d9008b42cac7e KVM: arm64: Implement non-protected nVHE hyp stack unwinder
-314a61dc31845c233e47c53db3fe6f34284034f4 KVM: arm64: Introduce hyp_dump_backtrace()
-72adac1bd234002a65cef738e0eebfd6c2ce2e30 KVM: arm64: Add PROTECTED_NVHE_STACKTRACE Kconfig
-6928bcc84bc4bd9a24a1cb1986418c3de76e1d99 KVM: arm64: Allocate shared pKVM hyp stacktrace buffers
-25aa73b6db1831527cd4f14bf0ddf8dceadec802 KVM: arm64: Stub implementation of pKVM HYP stack unwinder
-871c5d931417d3c0e1aa32c9e04da1dc74703843 KVM: arm64: Save protected-nVHE (pKVM) hyp stacktrace
-75e9459e48d4867caf549e388bd4faabe1dbcbd3 KVM: arm64: Implement protected nVHE hyp stack unwinder
-3a7e1b55aad45c0cf86bd4e2f212bb9a61905142 KVM: arm64: Introduce pkvm_dump_backtrace()
-03fe9cd05b9f38353208c23bd791dac47c912054 KVM: arm64: Move PROTECTED_NVHE_STACKTRACE around
-9f5fee05f6897d0fe0e3a44ade71bb85cd97b2ef KVM: arm64: Move nVHE stacktrace unwinding into its own compilation unit
-4e00532f37365967e9896966b1fe61888e659259 KVM: arm64: Make unwind()/on_accessible_stack() per-unwinder functions
-0e773da1e688a1425ef7deae58fa11c5c7e09533 KVM: arm64: Move nVHE-only helpers into kvm/stacktrace.c
-62ae21627aa96f6ef361981dd181c74dc7aa314c KVM: arm64: Don't open code ARRAY_SIZE()
-a4c750e2328a117dc9b19a2a61db0d4347902029 arm64: Update 'unwinder howto'
-0982c8d859f8f7022b9fd44d421c7ec721bb41f9 Merge branch kvm-arm64/nvhe-stacktrace into kvmarm-master/next
+certificate version 0.1
+pusher B6C41CE35664996C! 1658943899 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1658943899-9d4c7fa7a876c1dedcb256ce2ab518187cf416ad
 
---===============0267821731193258117==--
+d1cc204a33fc4ae0c2c5b7e6fe6aef720454d239 81e45945580d7c97dc22e798b2a9d73ffb61214c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHQEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYuF5mwAKCRC2xBzjVmSZ
+bGXGAQCbZ2fWvZMOEBChKty0ehPpLJc44yw4Gzfeh0GqJQe1UgD4iJNFBr+Zffdg
+CbdegpD9no1oy9gv6nCaxPAn6Y7YBw==
+=SVr3
+-----END PGP SIGNATURE-----
+
+--===============6638232369484717969==--
