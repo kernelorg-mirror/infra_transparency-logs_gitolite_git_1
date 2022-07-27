@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 27 Jul 2022 20:37:37 -0000
-Message-Id: <165895425792.28807.589354676970237792@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 21:13:33 -0000
+Message-Id: <165895641394.20610.2588961156922573582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: b4909252da9be56fe1e0a23c2c1908c5630525fa
-    new: aaf50b1969d7933a51ea421b11432a7fb90974e3
+  - ref: refs/heads/for-next/execve
+    old: 5036793d7dbd0b14aec51526441a50b01c7bf66d
+    new: 0ff95c390bc822d68ce2865f79a74634ecf9c8cd
     log: |
-         aaf50b1969d7933a51ea421b11432a7fb90974e3 kasan: test: Silence GCC 12 warnings
+         0ff95c390bc822d68ce2865f79a74634ecf9c8cd fs: Call kmap_local_page() in copy_string_kernel()
          
