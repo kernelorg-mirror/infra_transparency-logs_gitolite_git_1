@@ -1,48 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0969548363206546589=="
+Content-Type: multipart/mixed; boundary="===============7397660288867639999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 27 Jul 2022 18:03:30 -0000
-Message-Id: <165894501085.17401.2548874281734223656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 27 Jul 2022 18:03:32 -0000
+Message-Id: <165894501247.17462.3494844762137703241@gitolite.kernel.org>
 
---===============0969548363206546589==
+--===============7397660288867639999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev-queue
-    old: 4d052e68e059cad3d2bc8af5e1a17415c99217db
-    new: db3198487f533d14af5253cf6b0a934bd19148fd
-    log: revlist-4d052e68e059-db3198487f53.txt
+  - ref: refs/heads/net-mlx5
+    old: 9b134b1694ec8926926ba6b7b80884ea829245a0
+    new: 5a159128faff151b7fe5f4eb0f310b1e0a2d56bf
+    log: revlist-9b134b1694ec-5a159128faff.txt
 
---===============0969548363206546589==
+--===============7397660288867639999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d052e68e059-db3198487f53.txt
+Content-Disposition: attachment; filename=revlist-9b134b1694ec-5a159128faff.txt
 
-e62d2e110356093c034998e093675df83057e511 tcp: md5: fix IPv4-mapped support
-ccf9a84a192619d6b81f7fab71396a0411ecccb0 ice: prevent low-core machines crashing on DCB config
-ca5adf1e8f5d5804f42cc7be39cf35968e1f4e1d iavf: Fix max_rate limiting
-1f9f75f1c1efaddf0391c0f0eb785538ccfebe7c iavf: Fix 'tc qdisc show' listing too many queues
-ae76d59685d09f96fa9fd3fe3c0cde8ec6624043 iavf: validate dest MAC and VLAN from tc-filter code path
-46724080dba30be75c14f36b75c5ec0b2a67a54a iavf: enable tc filter configuration only if hw-tc-offload is on
-37dab274c299b8d7959b1fc8220a18db219d2a5a ice: Fix max VLANs available for VF
-b335cdab629311ceca639d6ddcc1a7c4b85a61b3 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
-3d904d2ed2306495ed8026fdfae9668a4c5a5c34 ice: do not setup vlan for loopback VSI
-78f3308d4ba0ef357b9181a89b86b492f76757ba ice: xsk: use Rx ring when picking NAPI context
-e21834fcb93bbfc0ab7e3d84d850a641883375ac ice: Fix VSI rebuild WARN_ON check for VF
-3050424588cd70536e3d975ab1d6994b97e68000 ice: Fix tunnel checksum offload with fragmented traffic
-f2bb419cc6d60afe4cc213e031bdafda6c918712 iavf: Fix adminq error handling
-a14ae9f8039f5fdae5883a2932a537bd638c4740 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-be5753645600a2530127167036ea74ca09a40ee8 iavf: Fix reset error handling
-1d451fffa7c4431121c0fa2add49bdf2d605daef ice: Fix VSIs unable to share unicast MAC
-5636f3ac3541ef101dd622186158218b326f8f81 ice: Fix call trace with null VSI during VF reset
-db3198487f533d14af5253cf6b0a934bd19148fd i40e: Fix tunnel checksum offload with fragmented traffic
+99a63d36cb3ed5ca3aa6fcb64cffbeaf3b0fb164 netfilter: nf_queue: do not allow packet truncation below transport header offset
+81ea010667417ef3f218dfd99b69769fe66c2b67 netfilter: nf_tables: add rescheduling points during loop detection walks
+47f4f510ad586032b85c89a0773fbb011d412425 netfilter: nft_queue: only allow supported familes and hooks
+aa40d5a43526cca9439a2b45fcfdcd016594dece wifi: mac80211: do not abuse fq.lock in ieee80211_do_stop()
+4b2f4e072fb2599b6a2e5e277f0d2b5705eaa630 Bluetooth: mgmt: Fix double free on error path
+ef61b6ea154464fefd8a6712d7a3b43b445c3d4a Bluetooth: Always set event mask on suspend
+d0be8347c623e0ac4202a1d4e0373882821f56b0 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+e53f5293973181e8f557a7fef9a47f131fc3d4f0 Merge tag 'for-net-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+e77ea97d2bd99b004e96c339ee22408c5475a52e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+b5177ed92bf6f9d90a2493ed51c1327e088be1df mptcp: Do not return EINPROGRESS when subflow creation succeeds
+5a159128faff151b7fe5f4eb0f310b1e0a2d56bf virtio-net: fix the race between refill work and close
 
---===============0969548363206546589==--
+--===============7397660288867639999==--
