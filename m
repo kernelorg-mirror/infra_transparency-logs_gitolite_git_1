@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2892732334780781554=="
+Content-Type: multipart/mixed; boundary="===============4557159765188274803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 27 Jul 2022 16:25:44 -0000
-Message-Id: <165893914461.13139.3345101280346794954@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 16:27:52 -0000
+Message-Id: <165893927245.13945.5730016266345041985@gitolite.kernel.org>
 
---===============2892732334780781554==
+--===============4557159765188274803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,72 +17,72 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.9.y
-    old: a4bdf4a266d492ad1cbb49ec789b78ffe7080e55
-    new: 247adcf47a928495e847f86886d4dba4a79a71c2
-    log: revlist-a4bdf4a266d4-247adcf47a92.txt
+    old: 247adcf47a928495e847f86886d4dba4a79a71c2
+    new: f3e4570fb8c30c0abe735f2a6b0601cb82660ecc
+    log: revlist-247adcf47a92-f3e4570fb8c3.txt
 
---===============2892732334780781554==
+--===============4557159765188274803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658939135 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658939270 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1658939134-6a9ab856d2b6f70e233716c62542070ae5c52605
+nonce 1658939269-48bc277491ff2a4e9e62060720f06bd338b44565
 
-a4bdf4a266d492ad1cbb49ec789b78ffe7080e55 247adcf47a928495e847f86886d4dba4a79a71c2 refs/heads/linux-4.9.y
+247adcf47a928495e847f86886d4dba4a79a71c2 f3e4570fb8c30c0abe735f2a6b0601cb82660ecc refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhZv8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mb4QANYoJgmuj54LxelzUFD+
-skfx7UCFEyznTAz21fLF5SSLkEaNLR0c8wL0jpdZJNZNMhNBd4jCPxBR0s3/2XJJ
-wKw0FXI71B9pEBSGkwYpyyOVcYffE+Bten7krezicrjCEW8tkiRP3FjVVVPW+ocj
-yH/p0dDG1SiV54HuoUW2fEqYJxZCWkvEeE+qvA91HlqQbqV800zKno2ZJtGyWVsb
-c+t4SBylULnyqfjoDAuzM5OGyByPE50QqBxeCxtM+5GSQM/KORI9TAOGnYGSRnj5
-FmXA1p+sdCJNZiPWK8nIX5zhCr9xHGFboR0ctY9cn/jBRCxHICvSHq0ko7sqdH2A
-VbiyqQqmLzlSY43aYBqNV9lyGC8uguTNVJuW4s+8cyt88Ao8fVeWmrd0jLCjjCLh
-LHLZHIgTJmJ+i/WDUr47AHaOA7tSvRuIa5E202pdUs8G1Q82DZiBzMUbqcROGsTH
-XhlvuXXRooci/5wEgP7/XIDwAx0WA7C5vuyHsR5ZwRFiX2X6bcZ8ekcLQYlG2BxW
-4TkUfUXtrdQGPLhvfrzT+fGsM7vfEYJFj9w9WGJD1+qvAQOTsN2U7bMGr8DZ+v+k
-ZcNe9UnEPCFbEMYJDJzwmB+tCiXPaZyhmwIYlCAU67Q2DlHjbg3v6mP1JpRnnPyK
-VetL8QAVT6WTktN6UZ7cUGfK
-=hHXW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhZ4YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ezgP/02MBxImhyBEZcjwckDx
+IhMOwHl4VKuTXcpm4OvatgBZnCRMBiBJWHQJHVERnDOrP8ElIsul0SBgSPaTo3zR
+bNg9mILzW/ww2SFntdEm7b364FwiEYq2JoEU3vBOlWtc5kbKEBcUXbbGjyqsW5Ox
+47J4KimA4I47RfeW+3+dL5kJRr78Ne/CrbvPmh8FwLt9c4o/rDD1+IgXf/eCrqdY
+rnjIj5qsRp4H8uQqKqH3zXceq9p8y955l7CMD9CQvtkisi0lxnCN+uTSlIkYwB9M
+kICkFmw5ZlhX2uzO95rR7ArNYPOhhWfOQ2gTLmWz/5sV1oRA5ukF0F4210G+9DGn
+IuCGGvDhql318+3cJQx60ZRtDZ6gJCTsbbW+Nuy289aEHQ4iAy7vJLFLMsTt/0/N
+DkUqfiHuAtbwhpXX5e1VE7bXYd/gYK0B5OCMpoURmIrodULd6vr9jEWsvQlt3sEO
+AX29rTgmAvrFzBWVdK1VMC0mTkDWJEBFllD3BSrVqsjmV6NiiNPm9k1cr48nRljB
+jiQ6k+P4CZAHmUCt8hx1a43fu16uwuFE5uZG7TJJ+fdcAMSgMa54ltRMHxa+aPwy
+wj5Gy7HJnON2Wr0Emj+gNN225oex6PfkAIWNOPZrZk3/7LGFsWfNdLxzgaWt5JdK
+dzu5MDPFVufsrpHSnQLKsbzT
+=LCqw
 -----END PGP SIGNATURE-----
 
---===============2892732334780781554==
+--===============4557159765188274803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4bdf4a266d4-247adcf47a92.txt
+Content-Disposition: attachment; filename=revlist-247adcf47a92-f3e4570fb8c3.txt
 
-db3b8c20dccc651c3176a55860fa222189045982 security,selinux,smack: kill security_task_wait hook
-6c7774b8335ca57dc926b1663a7c088772fb079e xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-6d23a200f3a277bcda78c5e475681c015ba51cdf misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-83b563e6988e20f37734bf2085a0a4985bdddcb6 misc: rtsx_usb: use separate command and response buffers
-350ec92f9548a0eea6ef82de66520408ba883577 misc: rtsx_usb: set return value in rsp_buf alloc err path
-1540e627d770a43e58139b1b3797f5a712600967 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-d0e426d57d75ee8f9a320c546e61625c7a1a0846 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-98ee5b929d24fca60c314cf6f998266fa2731460 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-5d9b106b560a2383d91088a5ae4b807383b0f7dd ip: Fix a data-race around sysctl_fwmark_reflect.
-5cbd411b9e22dd0579c791b318c715e455ebdd86 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-e20ce54041d14b1419ae379084c12a71d37614cf tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-f7cc9eed2dc1ae5425ec93fb2db1181c18da9fdd i2c: cadence: Change large transfer count reset logic to be unconditional
-c8a4e32463f8334cb3816edf40344429339dfd6d igmp: Fix data-races around sysctl_igmp_llm_reports.
-37f0b34af20777f9408f5e1bcdd7bbdc43e1f43b igmp: Fix a data-race around sysctl_igmp_max_memberships.
-0c304b0ef394dc1af5e1efa101b12f1d2541379e tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-f75e140aae901150939e484315c884f7f8626adc be2net: Fix buffer overflow in be_get_module_eeprom
-aa543f311a6de4e9fb769df227c96c1f2044d02d Revert "Revert "char/random: silence a lockdep splat with printk()""
-c5f6c57a9141a775af82b0354dd59395bd818dda mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-797916e0add2791c8f28b3d56fa8d42ec516ffff bpf: Make sure mac_header was set before using it
-73290b7d84300127d2d4779f53070d642ada6e16 ALSA: memalloc: Align buffer allocations in page size
-102354f067b03ec841443cbc3512401958a92de9 tty: drivers/tty/, stop using tty_schedule_flip()
-9dcd0a7af80f8087825c5a4b67ee4b9da99cb701 tty: the rest, stop using tty_schedule_flip()
-cf793f14edd33740cf6d35ae0712de7a68048a3b tty: drop tty_schedule_flip()
-2540c5b236fbe2716a3ac3f28cf6e76f462429c3 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-f8ab5d44dff113f02dd7a8cb06b15a14812c58df tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
-350f04991767251b36dc765f10a9def29567797e net: usb: ax88179_178a needs FLAG_SEND_ZLP
-247adcf47a928495e847f86886d4dba4a79a71c2 Linux 4.9.325-rc1
+956e76fe4c1c6decc5557fb6c3b5ddf98affda2b security,selinux,smack: kill security_task_wait hook
+8da9630d1d3f16b473723ee392fa60d98464614b xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+9b625f23ab07a2f0b697f27852890ec4f85405cc misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
+bbdbcc9f3cd8998e63db56dbb055923ad0412689 misc: rtsx_usb: use separate command and response buffers
+3fc4f1e8778bb20d76f1cd6f34f8d64dd862f2e8 misc: rtsx_usb: set return value in rsp_buf alloc err path
+8f9b96ce6f52f53faa5f6c2fb3d3ed8a9976246a xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+6bdd2fcf852d32f866ceae120c77445a042e8ad5 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+bafb290c4d78f2d61e0e8def1e32b8fc277e2d4f perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+bf21164f1c6f441e868ace1b40e04dcb5c858aee ip: Fix a data-race around sysctl_fwmark_reflect.
+e6070d915da017cd03c082d0da12e7d62f15053c tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+ae4ea69820fb678ce51bf06ef203b4e6d8ca9a2a tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+98db00a4b204f404115ec12ef08898e72e4cea4c i2c: cadence: Change large transfer count reset logic to be unconditional
+df6759474c670e59776aef9e23e8d6e3fae6b8e6 igmp: Fix data-races around sysctl_igmp_llm_reports.
+d68aae935c0649ce4d9fda2d4917dff7ca7d95ff igmp: Fix a data-race around sysctl_igmp_max_memberships.
+9fdf0cda5ffcdb2acf3d564fe3c9c10283cd122b tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+d6bc6b725df391359363b4b3f2cf5c50b96277b6 be2net: Fix buffer overflow in be_get_module_eeprom
+d09ebd334281d871b1a526c43308bbfcb450d0f2 Revert "Revert "char/random: silence a lockdep splat with printk()""
+879bbc1184cd342181fcdf8df475b8a6f6ecf916 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+7f3e5aa7ac2fc064e0bcd2e8562a5750021855f1 bpf: Make sure mac_header was set before using it
+fe4a9ac7e9628e8ccc1a56c780bcd8610994d178 ALSA: memalloc: Align buffer allocations in page size
+5259567acb7442746a45c925870d5e74f395a9f1 tty: drivers/tty/, stop using tty_schedule_flip()
+c0ae324a9b81e9f80b5a945eac93267cd8d95946 tty: the rest, stop using tty_schedule_flip()
+4a36d2966f60c88d801cb0df67780723ea2d6f43 tty: drop tty_schedule_flip()
+1aff38b240af2f8c49ef9de2d780bfb53c17910f tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+fda30062b21303d391202b481d29f4a8c02a7a6e tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+766f37657bd651112dd2828a9cbe8cd213ccb2c2 net: usb: ax88179_178a needs FLAG_SEND_ZLP
+f3e4570fb8c30c0abe735f2a6b0601cb82660ecc Linux 4.9.325-rc1
 
---===============2892732334780781554==--
+--===============4557159765188274803==--
