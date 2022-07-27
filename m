@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8798443161806517506=="
+Content-Type: multipart/mixed; boundary="===============7660445322427211540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 27 Jul 2022 14:38:38 -0000
-Message-Id: <165893271804.30398.4639225798567718400@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 14:38:46 -0000
+Message-Id: <165893272685.30532.14277598920213496102@gitolite.kernel.org>
 
---===============8798443161806517506==
+--===============7660445322427211540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,46 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e0dccc3b76fb35bb257b4118367a883073d7390e
-    new: 39c3c396f8131f3db454c80e0fcfcdc54ed9ec01
-    log: revlist-e0dccc3b76fb-39c3c396f813.txt
-  - ref: refs/heads/merge
-    old: e1b85275d37739ed5d9be41eab1116b759f83391
-    new: 7485dc1511cd16711cec686bd3ebfd80d327a9f6
-    log: |
-         7485dc1511cd16711cec686bd3ebfd80d327a9f6 powerpc/ci: Clang 44x build is broken
-         
-  - ref: refs/heads/next-test
+  - ref: refs/heads/next
     old: da4ef6d652fcefc0617ecd32f23154a28eef5e70
-    new: 50be92bd65cb6a6a017f71c49bb2d5a05196c063
-    log: revlist-da4ef6d652fc-50be92bd65cb.txt
+    new: d6b551b8f90cc92c7d3c09cf38c748efe305ecb4
+    log: revlist-da4ef6d652fc-d6b551b8f90c.txt
 
---===============8798443161806517506==
+--===============7660445322427211540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1658932696 +1000
+pusher Michael Ellerman <mpe@ellerman.id.au> 1658932724 +1000
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1658932695-1acfd84906baa5e33c4a5fc40f867aa0fbdbe07a
+nonce 1658932723-b0ac8c7ce716e5387f1dc7aefdad8b6960597087
 
-e0dccc3b76fb35bb257b4118367a883073d7390e 39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 refs/heads/master
-e1b85275d37739ed5d9be41eab1116b759f83391 7485dc1511cd16711cec686bd3ebfd80d327a9f6 refs/heads/merge
-da4ef6d652fcefc0617ecd32f23154a28eef5e70 50be92bd65cb6a6a017f71c49bb2d5a05196c063 refs/heads/next-test
+da4ef6d652fcefc0617ecd32f23154a28eef5e70 d6b551b8f90cc92c7d3c09cf38c748efe305ecb4 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmLhTdgTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgHV7D/9uCwq/wZuYTbNPu5fuuARAlf0OSkQQ
-lOyYvfsqa1nACW/4ZqJGz5UL5z8HajqfTrF1yrTHP4hyF5cPERbPSCQY12dyiDqN
-06gdNnBbxEPPHu4p/N883RJW5/lddfSLhzz+NsFVvh1S07bgonAO7jQt2fOPm4/Q
-jE6V+dANgKeZ+0ozn2LmOfTGR7ImIWNzIYqnZSnrrbSV5Oil+NxqhOXrCDqc5Na5
-LpywyZ3qxWrRQPeVRLSJqiMeh4E+KbTAUz2AhJ20Fx5s54WuH5kOkI3Ft8b/zoNQ
-k4aVTp4vzOr2Qrr0HQPgky4cRlij0qz6Dtnlml2hnqqadNQW6mEY0IYCmsMLlPt6
-Z54BoCkrUYbTe2WzeqztZ9CShmpJ/eh5aZFX8ebpxUUd6AS6dJy8pu8wPPkGmtu2
-PXAhy4h6KFKtf35FNpqTC0RI43l2+UlA2NaY2vAchevm1ULtMT6zlPlY7+IePJH+
-u2cFy7ovT9kdS6R6EBbm72G1y01p/ARy/FKLrcWLSCdhrxH1kYzq0Mq5aZxfFd5n
-PgSM4Ddd6xhLWhTE58hG9VLP1FqY7VDzE362AcXkUoqT1wBkWTs19+/ZRfdx2dHC
-Avnphl869aTN6xgsxIkC74s6ZTG9UDfqJ2FlGgK8lQ6NOMwL/i7Lj2Jroq+k476u
-IVDDxqKlemgyiw==
-=zw3l
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmLhTfQTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgH+WD/0X26rx1e7DMh5xV0PGnVYlkR8RTjkA
+F8Dngu+RO2JuEneEKfjVEGWCNJXATY9WBCcQ3ggHkPp3QG0Dw/zTAIVphnuwpeHa
+C0I/1i1tggPAoNxr49x8CaU31zdgkPrMWa0SvysgtK3RbdcUD/3kRuE3RVVvri4c
+7DFkttV4VOS1y7iOWDsemGpU1mVYQ55RTysRLR4tap29au+2uhfUoWvV8EwDHhrE
+L/b5GNzJ1EzPnlkQ3YeS4QtoBnGwcg2D13nhhDkeC3PzjaEqreSLHc0rU3iUPVbt
+hQ6HHRWFHvF1ullMqejCVFNBfqz8kQpqwsE+t864IxLn+isqN+Me9G8DRBQPBFNZ
+AHZoJtm/whgm8kyjmzG8V2Dk2pOZQga9TbJ2LyPPehxuCjV6jQJih8f+JMf0M0CL
+jz9gjxHQfHZftp49j7qkAXXFxiWzvui9U8vxnYrhoGA7ZLMbE6izX1PkyGVp+Wd5
+we/Z/el8m3L6OOpmDvNpCmicNSS63TlOobMAgZ0GI5Jovs1L4mMVPZVB/h549EpJ
+SJWi0Q6PsiMzC1ty26ijKQr+7e+XArtxQGO8Jac/XBw5QnGV+LjqnD9ugozzVl2n
+qMi/nxLEgTBX4VNlyHRHndLKCoaYT+1vaMtU6p1BJLs/NT99oapkXmFGOjWQvAJ3
+eZyCGqCFRY4JUg==
+=swwA
 -----END PGP SIGNATURE-----
 
---===============8798443161806517506==
+--===============7660445322427211540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0dccc3b76fb-39c3c396f813.txt
-
-07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
-0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
-f073c8335929a9746c19d4551aeb2d4d0dbef0d1 mailmap: update Seth Forshee's email address
-3fe2895cfecd03ac74977f32102b966b6589f481 mm: fix page leak with multiple threads mapping the same page
-f4f451a16dd1f478fdb966bcbb612c1e4ce6b962 mm: fix missing wake-up event for FSDAX pages
-c2cb0dcce9dd8b748b6ca8bb8d4a389f2e232307 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
-84ac013046ccc438af04b7acecd4d3ab84fe4bde secretmem: fix unhandled fault in truncate
-38c9c22a85aeed28d0831f230136e9cf6fa2ed44 ntfs: fix use-after-free in ntfs_ucsncmp()
-bdeb77bc2c405fa9f954c20269db175a0bd2793f fs: sendfile handles O_NONBLOCK of out_fd
-da9a298f5fad0dc615079a340da42928bc5b138e hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
-c80af0c250c8f8a3c978aa5aafbe9c39b336b813 Revert "ocfs2: mount shared volume without ha stack"
-918e75f77af7d2e049bb70469ec0a2c12782d96a s390/archrandom: prevent CPACF trng invocations in interrupt context
-cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_page_reuse()
-5de64d44968e4ae66ebdb0a2d08b443f189d3651 Merge tag 's390-5.19-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
-1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
-39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-
---===============8798443161806517506==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da4ef6d652fc-50be92bd65cb.txt
+Content-Disposition: attachment; filename=revlist-da4ef6d652fc-d6b551b8f90c.txt
 
 7c56a8733d0a2a4be2438a7512566e5ce552fccf watchdog: export lockup_detector_reconfigure
 f5e74e836097d1004077390717d4bd95d4a2c27a powerpc/watchdog: introduce a NMI watchdog's factor
@@ -123,30 +87,5 @@ de40303b54bc458d7df0d4b4ee1d296df7fe98c7 powerpc/ppc-opcode: Define and use PPC_
 ff27d9200a98757efc7c2cdf198904fd79cf4ffd powerpc/405: Fix build failure with GCC 12 (unrecognized opcode: `wrteei')
 2255411d1d0f0661d1e5acd5f6edf4e6652a345a powerpc/44x: Fix build failure with GCC 12 (unrecognized opcode: `wrteei')
 d6b551b8f90cc92c7d3c09cf38c748efe305ecb4 powerpc/64e: Fix build failure with GCC 12 (unrecognized opcode: `wrteei')
-91cddf83a40915cd5bf6fea12708d149397e889c video: fbdev: offb: Include missing linux/platform_device.h
-2a32ee17daf496b5b9dbc75fa0f152b328138a2c scsi: cxlflash: Include missing linux/irqdomain.h
-cd82b451b2a0b39aa1c869f22109d2639f893ab0 EDAC/mpc85xx: Include required of headers directly
-c0d2422900b86435b150bd39d21384d0bb9c2b3f powerpc: Remove asm/prom.h from asm/mpc52xx.h and asm/pci.h
-dc2053dd4a71531e89089c3ce416db1c5e0153ae powerpc: Finally remove unnecessary headers from asm/prom.h
-3bfa092a74c896b317f632b7f77904af2adff324 powerpc: Update reviewers
-d02f94efb71d6c136bbdf443071fdbfef8e506d1 powerpc/crash: save cpu register data in crash_smp_send_stop()
-0f9554e9321b8b9b5421869e5f18c45e5cb0bd7c pseries/iommu/ddw: Fix kdump to work in absence of ibm,dma-window
-dfce259d4de8008817ada0c79b35b0c2140f8f35 powerpc/ioda/iommu/debugfs: Generate unique debugfs entries
-7b9317b5020cde83dcbb3d4f1fa8ad2c919abdeb powerpc/iommu: Fix iommu_table_in_use for a small default DMA window case
-31fc30c7998496dc96cd69840f7e7b752313eda4 powerpc/pseries: define driver for Platform KeyStore
-97ca4fcf14db8170fe555f71e706e6eff7df3c13 powerpc/85xx: Fix description of MPC85xx and P1/P2 boards options
-8ae2f1055cccee6fa4c646e2b0feb97e74a93cf8 powerpc/pci: Prefer PCI domain assignment via DT 'linux,pci-domain' and alias
-735475190fcfd243edd12f5f3c4b2b2de7648b49 powerpc/85xx: P2020: Add law_trgt_if property to PCIe DT nodes
-4f6d5855bf127d0c5b108a4050c1e651abdb0901 powerpc/pseries/vas: Fix comment typo
-e9b43141e85b197480f46176e2ca309572b00e4c powerpc/sysdev: Fix comment typo
-1864b648a290faaf90e93c3834126d99923f6842 powerpc/platforms/83xx/suspend: Reorder to get rid of a forward declaration
-80b45d17e2a4425dae9bd172ab803844b3a191de powerpc/platforms/83xx/suspend: Prevent unloading the driver
-06947c94dd30b4c7799f93ede30d77b839a53876 powerpc/platforms/83xx/suspend: Remove write-only global variable
-032bce488b94482ab296040d6606be8e3fdf95b8 powerpc: make facility_unavailable_exception 64s
-abe54a2375f967f6e9b49466f7ad1125019885d4 powerpc/signal: Update comment for clarity
-5be5282b9b1101f34853ad3876c90ec6373bed98 selftests/powerpc: Fix matrix multiply assist test
-507a8b4ce7349fd37c0b1adc3b944dbcebc338c8 powerpc/powernv: Avoid crashing if rng is NULL
-b8c859562b9a147c5a7edb930541520e52f4ef0b powerpc/powernv/kvm: Use darn for H_RANDOM on Power9
-50be92bd65cb6a6a017f71c49bb2d5a05196c063 powerpc/powernv: rename remaining rng powernv_ functions to pnv_
 
---===============8798443161806517506==--
+--===============7660445322427211540==--
