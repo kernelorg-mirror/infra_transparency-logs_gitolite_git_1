@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6977073174886408741=="
+Content-Type: multipart/mixed; boundary="===============6083646768964348620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 27 Jul 2022 12:29:42 -0000
-Message-Id: <165892498289.4249.6942146375360530424@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 12:30:32 -0000
+Message-Id: <165892503229.6137.12114196486237919154@gitolite.kernel.org>
 
---===============6977073174886408741==
+--===============6083646768964348620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 23bb7b49597139d38f4da9392df28a24229697b6
-    new: d7de14d74d6551f0d097430f9893ce82ad17e5b8
+    old: d7de14d74d6551f0d097430f9893ce82ad17e5b8
+    new: 26c6c2f8a907c9e3a2f24990552a4d77235791e6
     log: |
-         d7de14d74d6551f0d097430f9893ce82ad17e5b8 usb: xhci_plat_remove: avoid NULL dereference
+         26c6c2f8a907c9e3a2f24990552a4d77235791e6 USB: HCD: Fix URB giveback issue in tasklet function
          
 
---===============6977073174886408741==
+--===============6083646768964348620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658924981 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658925030 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1658924980-eaeb903c9264d52e67dc10ddffc6d96447b52627
+nonce 1658925029-6431f45aaccded94476e4efe8bc788c447e1bd2a
 
-23bb7b49597139d38f4da9392df28a24229697b6 d7de14d74d6551f0d097430f9893ce82ad17e5b8 refs/heads/usb-testing
+d7de14d74d6551f0d097430f9893ce82ad17e5b8 26c6c2f8a907c9e3a2f24990552a4d77235791e6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhL7UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QwcP/1rIVO/NtTS1FpTYaoWQ
-qxBg3CMBhm6WKm9RJ0bDf7QPdG+9GKOUsBjbkROmOMjXhO/QlYa3vXslfBVVbZgu
-x4ZvgwkKmORBRWZZyKW46lNTsI63TijtOk5W/o/XBKBhrVJ8Nn0wglW9UVH7J4LW
-MtGCBWERzh7VTTflBX251OoJNLaeRh8WBR0CTb9AfWxE7X47CjhmFC0qKNLNpcxq
-r0FoTzgWxW5Yf0awUZkxbKythHkyhdI+SfD6oE9NW0XG/iWlLa/6GjcrIh78bixW
-YSJQCcxuAvC6gnDC8UV06TGzO3pY1vD8bKg0/yUDS4kuvE1PFO1Zg4Jklj6rUcMO
-8StM8h4ijwsliG2jmzrrhnGujCvhbRvqLUZkZDf06qOPSNoKgi/18fJ3LlevvfTK
-7lC3sk1rHNFtkacoCFQ6+igPZJ3DonXA7erS7KslI784Vhpmtgnm3fIJN1ePdcK3
-2qAQvrIYW/ptkvI0CwV1zJb2ddIhlw0agylqpXxsGUE0n0u4q8E7fhcZvJWFvk/z
-cDVcW+cd2B+SN+sxsstOatlRAmfJUgGhMSwNf+l23a729iZr+C08nhsSjp5paXT6
-Zr9Yc0evDjL704a6G9rha1HOwaAzZmTSVBpj8Bw7RUgj8oCud0gGKoOFSTmhXlJr
-xL5Kq7kR2gNK6Ey7b182AGaC
-=Imk7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhL+YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+shsQALhz4f734ZU2c8/rI+Rq
+ZfV8iOI/DE1CbBkxMXpJ5O49VU3LHaDvsK20A2xHn/4y0YrYuu+d40OvRxjMg8Wr
+HX3hvInApdgyvMuCzudpzd1mXc0jhe+bffRV5h+J1FQVfMIIM/V568RoTZ1R8Q4X
+/rHG2CfAXJRDGsf3fH6D9LtJdCh7AG2vboOVxfF6K2wNHRdc1LErtFLIKJvFZogB
+UMZ/HinyX1nfmKptGtqyydHglVHS3aIUuoc9MTM3OeDur28UvvYY3z7qCYF8VR20
+GMAlRYQ7tQ5ev8lnjfwm4z4MKZicrmXOkftJldFMJOoX7ifUhhR6kC5hmDgnxGdO
+Ay63cd9y7EJ+qVLEm5z0HyjU87MXiy7YOcxY+j0/JatTCKmzhnH9sfCYVtZF+9M+
+wxC5nkf4iM2LfrgVR4lOnf+7h8DYxfJncTjvWGMFPFp3t7hkqqNVC0JP2y7RXwR1
+HqycCCIK2H5/ztcNFIVYnf01VXhS+ZwguYVyPPPcJ5G4th9YEJPUTdB2SWBYJ5/f
+m7vixbhTr/7YsTKrr+134BuLAzvJUP6KkbR+ANIsZu28415D5rsp++R6I3sMk4Mr
+cceWf4naGBjaRz24bGLsTVvCP2K51anglFk1wyi8aL6n6LfoS5rn+yGg/y3f5mpn
+Px8U9PT14ra7S07qzGE4Pgud
+=fRdy
 -----END PGP SIGNATURE-----
 
---===============6977073174886408741==--
+--===============6083646768964348620==--
