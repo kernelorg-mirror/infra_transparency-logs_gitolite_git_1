@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 27 Jul 2022 11:49:27 -0000
-Message-Id: <165892256752.7207.8130714075948932735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 27 Jul 2022 12:03:30 -0000
+Message-Id: <165892341082.17929.6164572400427801117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/v3_20220727_claudiu_beznea_asoc_atmel_one_fix_and_one_cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 403fcb5118a0f4091001a537e76923031fb45eaf
+  - ref: refs/heads/perf/core
+    old: ccf170e9d8fdacfe435bbe3749c897c7d86d32f8
+    new: 326ecc15c61c349cd49d1700ff9e3e31c6fd1cd5
+    log: |
+         326ecc15c61c349cd49d1700ff9e3e31c6fd1cd5 perf/x86/ibs: Add new IBS register bits into header
+         
