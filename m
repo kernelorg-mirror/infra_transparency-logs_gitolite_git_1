@@ -1,28 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Wed, 27 Jul 2022 19:32:42 -0000
-Message-Id: <165895036265.16114.16215839077121108469@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6809308174426968472=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 27 Jul 2022 19:44:40 -0000
+Message-Id: <165895108076.23058.7333775255013905578@gitolite.kernel.org>
+
+--===============6809308174426968472==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
   - ref: refs/heads/master
-    old: effd7dc86a52efe9f1c713fc6a76415f39877bce
-    new: a35f074553736ab8edf026b61f72402ae80207e3
-    log: |
-         16718a115de7655e8d16f56533a682f9a8927d7b cert/key: Add support for EC based certificates
-         abb7a9eabc6dba2056d8a856a57c9e19cd75a278 unit: Add basic EC-DSA verification test
-         db27694d05db7e3f216759b3e7950526576d2d94 key: ECDSA data is given in x962 format
-         36167628f27d11b58bdc3cc23bd6efcad8b368a7 tls: Support peer certificates that use ECDSA
-         d305c9d776a86fab79fb3433bbe9ab9e3e3a3c75 tls: Add helper for DigitallySigned validation
-         908a71305f04ca28433c8533c139102c2b8693d7 tls: Add helper to find hash function by id
-         c2b2de95d96b75f1b587c07df591174bb79bfc76 tls-suites: Add ECDSA suites from RFC 8422
-         f8f2d442da56500987f230bfed1b9f420cfd3428 unit: Skip ECDSA cipher suite tests
-         1ff33745276002b871c50c82be8a44f98e5f36bd useful: Add maxsize()
-         a35f074553736ab8edf026b61f72402ae80207e3 tls: Do not set verify_data_length unless needed
-         
+    old: e0dccc3b76fb35bb257b4118367a883073d7390e
+    new: 39c3c396f8131f3db454c80e0fcfcdc54ed9ec01
+    log: revlist-e0dccc3b76fb-39c3c396f813.txt
+
+--===============6809308174426968472==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e0dccc3b76fb-39c3c396f813.txt
+
+07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
+0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
+f073c8335929a9746c19d4551aeb2d4d0dbef0d1 mailmap: update Seth Forshee's email address
+3fe2895cfecd03ac74977f32102b966b6589f481 mm: fix page leak with multiple threads mapping the same page
+f4f451a16dd1f478fdb966bcbb612c1e4ce6b962 mm: fix missing wake-up event for FSDAX pages
+c2cb0dcce9dd8b748b6ca8bb8d4a389f2e232307 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
+84ac013046ccc438af04b7acecd4d3ab84fe4bde secretmem: fix unhandled fault in truncate
+38c9c22a85aeed28d0831f230136e9cf6fa2ed44 ntfs: fix use-after-free in ntfs_ucsncmp()
+bdeb77bc2c405fa9f954c20269db175a0bd2793f fs: sendfile handles O_NONBLOCK of out_fd
+da9a298f5fad0dc615079a340da42928bc5b138e hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
+c80af0c250c8f8a3c978aa5aafbe9c39b336b813 Revert "ocfs2: mount shared volume without ha stack"
+918e75f77af7d2e049bb70469ec0a2c12782d96a s390/archrandom: prevent CPACF trng invocations in interrupt context
+cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_page_reuse()
+5de64d44968e4ae66ebdb0a2d08b443f189d3651 Merge tag 's390-5.19-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
+1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
+39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+
+--===============6809308174426968472==--
