@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2520733785915110759=="
+Content-Type: multipart/mixed; boundary="===============4301561625500986211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 27 Jul 2022 18:05:24 -0000
-Message-Id: <165894512424.19710.2389727312518468925@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 18:09:43 -0000
+Message-Id: <165894538332.21251.16508967824431866582@gitolite.kernel.org>
 
---===============2520733785915110759==
+--===============4301561625500986211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 35d099da41967f114c6472b838e12014706c26e7
     new: 5ffcba41de5579566f7d6933b96e8ca63335f790
     log: revlist-35d099da4196-5ffcba41de55.txt
 
---===============2520733785915110759==
+--===============4301561625500986211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ eb481b02bd182a96e22070895bf887277b82150f net/smc: Eliminate struct smc_ism_posit
 28ec53f3a830750f1b5ccf73cb13dae66ade1660 net/smc: Enable module load on netlink usage
 5ffcba41de5579566f7d6933b96e8ca63335f790 Merge branch 'smc-updates'
 
---===============2520733785915110759==--
+--===============4301561625500986211==--
