@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7921557143039161500=="
+Content-Type: multipart/mixed; boundary="===============6850340932114735796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 27 Jul 2022 15:15:44 -0000
-Message-Id: <165893494406.26990.5976327250939962521@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 15:15:56 -0000
+Message-Id: <165893495660.27142.6845301170182314427@gitolite.kernel.org>
 
---===============7921557143039161500==
+--===============6850340932114735796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,134 +16,152 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 546bc2c441040e526118f9351052d83fe4e28e7c
-    new: c4eed0ebb5d05f00dd309b956aae9c81ba088c11
-    log: revlist-546bc2c44104-c4eed0ebb5d0.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 88857bb322733b41136a494875b24dd3982f830c
+    new: 770bfb9299596df8cdb95b9663c9cf506a6dd56c
+    log: revlist-88857bb32273-770bfb929959.txt
 
---===============7921557143039161500==
+--===============6850340932114735796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658934939 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658934952 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1658934937-35a19070b64cb16bfc35e003aa83900f219ffd9d
+nonce 1658934950-d335ba89437bea74562f54f6adecda50f17fac76
 
-546bc2c441040e526118f9351052d83fe4e28e7c c4eed0ebb5d05f00dd309b956aae9c81ba088c11 refs/heads/linux-5.4.y
+88857bb322733b41136a494875b24dd3982f830c 770bfb9299596df8cdb95b9663c9cf506a6dd56c refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhVpwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c/kP/iecuwddoJbFEkSQZLVl
-sOuKeuyyQp9IsLirY/5zC/6fvY6QCVzNhcEUoxbDWrBZEitDFHpxVmK5IjO99JCJ
-LNZPZOvrgO8x4DAHgIEieUJjJZVBkxcXpWwnfkn05qOZCAtrXIXXHPGNnNYWeh/0
-Jfq7RCFZPuWNdnVSbHrfRSct/Ykt5YGJbb6ZG6YJvZDiM4Mt7EhQUi0d+nkht9Xe
-XGbfSYecbvjpjSr7RqaiY2tJBX+q6j8/GneSs/N0lGi/ZoC7aXQQNREmsy2b4wCL
-bHWFXdqBB9LCnfRS6fvC9AAQda80uiDsc88l2fgK/xxJ+XFJ4AqWhBMhtvykmEfu
-NnjZHbAWSa1eMX1I75jB5C6jSNqFr6NIGxRe0sPHXdZh7cFgY+Gy/y4nIgtuX+yW
-XsiC4sulJpmCb+jlHitkaGksrcLACrUMx3VwCp5PQEPmYUaqtQlioRp3paHPxNGs
-SULxfIOvMpBWUuAsfjW0n2SlJtDhVeujTk6Bo0y/NN4GbMEpAQVSPcYpKGNRkjow
-jZstN7tmKeObdPBoXkNtDINeXsEUEgaDPlYB1F9Ni9DRAp0q9uFrWG01FhLlibYn
-LN7zy8FW+t2LTXA/mUGq5k1tZZLsy4H11BMxZ87cPKEM92rJGnNWIOfFJnrryslr
-j3l/rIO4frl2W97AiHgpCMG7
-=uPzZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhVqgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YpcQAMtakc6dszp7dA8s56of
+h9IMYcl7y5o9d1ZTzSVEp0xnAh4HOseG0hU7NqpbR2aTXtFbxjsgQMwlvODu8Z9A
+5FP0R3R7oZ1Ze96YeKtwT1IXJmcqWWLmHcVQmcHKH/IDp3jrPbuK9G/AagrwQRjK
+OxBXiaV1zj7bvTQCcssYkktnL707CaHzHqk+zuZW+HI1giTeaV/eZdK1S45Z7Wj8
+nJeEyo1tFFiD3tvlCR7Qtn/v4E6YLILmnS5dAvJw3JbhKB3LBLlixVT/WGCiP0iL
+C3pzZ48E5Pb/dCZ8onC6DIpxpOt52UV2WS9jKYkyqKhA0NqBzeD0A5nEOH8xtt9h
+9EBeb/CqHbLpZ5e5Bmkzpzzq6AAv9EZMGhRRLJxrDvt3Kj6D/+42RJXzYmqi41TF
+k6injgjR8u3A21qzj8FAMDXmVG5Ich/hCU3KDdodu8Sx0lgYvU7wTWhI1FIt5wep
+fQEr0Id7X3foH59uDEeO5iv+rWtvcthnkr0Ru+EK1x4Hi0P5AeUcY/FCD11fYR2D
+jRcCYe0aW+oHkqB7VNkJBKQt9qfR9eKhEOM1RwYJW0wGEyBxd8vYXZjL3DBJ992y
+5k8HeCc5urK04YYto2imfc41nmq3lK1GjnEp5G0Crr9rfghiP0397s9UrH1X6ON5
+8DORoxXsppTIXj0JfHEpDA9+
+=9Syk
 -----END PGP SIGNATURE-----
 
---===============7921557143039161500==
+--===============6850340932114735796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-546bc2c44104-c4eed0ebb5d0.txt
+Content-Disposition: attachment; filename=revlist-88857bb32273-770bfb929959.txt
 
-9fd769e35fdf6ad2cc5b189d01c27716d7b8babe pinctrl: stm32: fix optional IRQ support to gpios
-2b2fc5e28d099b4f9735328cb8fe5f11a3c71a0a riscv: add as-options for modules with assembly compontents
-ade2bf2fc18814110bfdf74014192273957d7177 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-8b144e0dac41b91e7ec2af074076f1aad8159b4c lockdown: Fix kexec lockdown bypass with ima policy
-66a4c76fb06cb8161b4dafdcd2a4dd1f348af7d7 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-490fa2d2d533de9d6064b83127fa9ee1105eacec PCI: hv: Fix multi-MSI to allow more than one MSI vector
-d92458ec6722f8d0fbfbc191cf47d75d3165941d PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
-9fb8b4bb1de56de9f3ec86dbe956b123b5c4ec31 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
-05b01f459183f1bab0fcecd2f13fa7912b5aeb6d PCI: hv: Fix interrupt mapping for multi-MSI
-bce67e694dabd0ac00502eef05d778cf2cc16ed1 serial: mvebu-uart: correctly report configured baudrate value
-07e286d874f6a3883aa80fb1abd679e13d42b231 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-3a6e78a3ce0e9616f3493a9ab559bb28980d5e73 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-2e3ac0c64778d872ea243eba2baba46bc3cb342a pinctrl: ralink: Check for null return of devm_kcalloc
-a5a6a3667c14105936414167753ab141809058a1 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-93c0d93de149ec9d913aef800590a63cced27969 igc: Reinstate IGC_REMOVED logic and implement it properly
-1357b2d9616ffbcc24f77b15d279df29baf1627c ip: Fix data-races around sysctl_ip_no_pmtu_disc.
-f9e4e8b1c321337414383cbe9198b2228d5b9fb6 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-c2ad06bdfec6939abf96160403c49dab6b9caae9 ip: Fix data-races around sysctl_ip_nonlocal_bind.
-b6ae3190fb936d1f787f49162f9532fefa3e182e ip: Fix a data-race around sysctl_fwmark_reflect.
-8579f871d29d5000d79aac679c90ee2d87f20503 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-da76f079bd129410bb016e2d34403ab91c27268c tcp: Fix data-races around sysctl_tcp_mtu_probing.
-282e4210f929567065620c35050f4d4dcf6cf1f7 tcp: Fix data-races around sysctl_tcp_base_mss.
-92123a2977cd9704455c815bf80685f6748a86a1 tcp: Fix data-races around sysctl_tcp_min_snd_mss.
-0da9380d290038e0ec6c1f3c09cb61b6a9b3ca96 tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
-a08788738a7494315f56cf74135ce75f48283955 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-24ce7ac49d6a4f397fee964e90aa6f3fd5b7111b tcp: Fix a data-race around sysctl_tcp_probe_interval.
-604695874e059a13d851ffb4b3a44088ca3c0b22 i2c: cadence: Change large transfer count reset logic to be unconditional
-ee31ae9caf5c2ce93461139269ac7aa255f2f160 net: stmmac: fix dma queue left shift overflow issue
-e7da91d31209a654501d61c666709ba4c7373889 net/tls: Fix race in TLS device down flow
-1b0baece87589ac2bee339dca9b144097f69b98c igmp: Fix data-races around sysctl_igmp_llm_reports.
-fb0578e81d2bd5d258d6b3372d7d1551bd11ecb8 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-de94603c64766ecec925b9ab886bad2ab15dbaa6 tcp: Fix data-races around sysctl_tcp_syncookies.
-5558097a51fdce47d1504ada81d6d6fa43291de3 tcp: Fix data-races around sysctl_tcp_reordering.
-7fb6d070df7c7f41e3d593e10ce3d566b265d65c tcp: Fix data-races around some timeout sysctl knobs.
-7dc09ab46be95d0dda67378e33aa72a5ba7e1f72 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-b04089d9a26901b14e1714b02e549a280770ed90 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-bab1db33ed557bcff22aff572cad3b3f263f0263 tcp: Fix data-races around sysctl_max_syn_backlog.
-9d62df1cc4d1a5bd3059d2c1302646d5e3ef753c tcp: Fix data-races around sysctl_tcp_fastopen.
-e130b327058bd4677b0eb0f9bc1aa213e601b2f8 iavf: Fix handling of dummy receive descriptors
-b6f7da86bb507fa87499223e4af3a1db9edfb54d i40e: Fix erroneous adapter reinitialization during recovery process
-2f5988dd2a01fab8b6ffd98f84d6454cc16ed92f ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-3324b7bc8bffe20c9943e400deac6f20926d13cd gpio: pca953x: only use single read/write for No AI mode
-9fe45514d642e90c18b7a7b9fd1b233a13dd57e1 be2net: Fix buffer overflow in be_get_module_eeprom
-22a7cc8a579a4a7903d91e2d45dce3db3f1aa646 ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
-897a4baa55b5c6cf9abe86aed6a3a38093c29502 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
-3ddc3ea8cd330d271936c27d0f69f31f7a964437 tcp: Fix data-races around sysctl knobs related to SYN option.
-3c6c09489b83ea740d8110753ebcbd0f90edfbb5 tcp: Fix a data-race around sysctl_tcp_early_retrans.
-419b5c019e7b96a202a0974c57e3c193fe7317da tcp: Fix data-races around sysctl_tcp_recovery.
-02ada52c21fffb78e6df987dce3feaeda9893422 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-2b0bcf98b6685038da51ebcce939db34aa879d31 tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-3a7d53d96fc7ad252560bb14200fdd2c98276f32 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-449fa68f98bf0494be65405dff0160abd015620e tcp: Fix a data-race around sysctl_tcp_stdurg.
-493266374c4bac0fafd9756a5963f76e8bb8c404 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-beb50eeb666cd4fef5cd38e4dabc85b931d0f213 tcp: Fix data-races around sysctl_tcp_max_reordering.
-86b8287c8dfd58d76990f1808333a66b1d99ae11 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
-d2e11e576bcaac090edaa13be6d06d1eca7d8dda mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-41c8bf45e15dfe54a21da136b929770a5b88269f bpf: Make sure mac_header was set before using it
-7aa8b8da21b2e4a6439510df4745450c3bd0f681 dlm: fix pending remove if msg allocation fails
-16eb7101d354eb5eeb49094fd06f4008c6e46f74 ima: remove the IMA_TEMPLATE Kconfig option
-bf50fee594dff8d637160ce502084bf3c5c57bef locking/refcount: Define constants for saturation and max refcount values
-bf770b038edda589d82124baad2b1b46532c27ed locking/refcount: Ensure integer operands are treated as signed
-d27758a9b59fe18c8b107aa6ec97ca8f5ba6771c locking/refcount: Remove unused refcount_*_checked() variants
-a1bb3a4cd679e85be508796683f5131cef52cf22 locking/refcount: Move the bulk of the REFCOUNT_FULL implementation into the <linux/refcount.h> header
-48ee299d335cce38aadea45ba6b7fac2d493ca3e locking/refcount: Improve performance of generic REFCOUNT_FULL code
-71cb75ad810c4d708e48f8700960a2dafc81acf9 locking/refcount: Move saturation warnings out of line
-cfacba6c03ae0d3475624830aea7203880a4c5a4 locking/refcount: Consolidate REFCOUNT_{MAX,SATURATED} definitions
-2be0ac101b9dc864efea08a4df189c3b25d42020 locking/refcount: Consolidate implementations of refcount_t
-508807fe3e0396b5477f7850cc83b6444455ec47 x86: get rid of small constant size cases in raw_copy_{to,from}_user()
-fa4af7e683c4bbe65a618f20b9210c57b30de2c3 x86/uaccess: Implement macros for CMPXCHG on user addresses
-61c7685276b402d770de79e6c3136f1a44ee6dce mmap locking API: initial implementation as rwsem wrappers
-55d63ca715dc0ceb87fa67f8dafafd09b40cf729 x86/mce: Deduplicate exception handling
-81c459bf93b551b3b22696369780fb3ddda1d719 bitfield.h: Fix "type of reg too small for mask" test
-83c33d37ad08150dd168561a734330a9d635e712 ALSA: memalloc: Align buffer allocations in page size
-955a9a23f724213a54fb154270eb26fe2df1fef9 Bluetooth: Add bt_skb_sendmsg helper
-c638c5139c2da230f9ebe87d9faf36825a5b04c9 Bluetooth: Add bt_skb_sendmmsg helper
-db2731e8a54ec201a95585d487a02a9065c995c5 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
-4223a78185b1dd72f03ce1cd4a60b782d5df8fab Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
-e3ff6192c4fc2b89adf04893b58fdb2a7a711091 Bluetooth: Fix passing NULL to PTR_ERR
-874731217a9ed96f56c1748ed80d1e64e7d14a56 Bluetooth: SCO: Fix sco_send_frame returning skb->len
-d0b74c45e84b39df5ce764d9521cd7feb2a98627 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-36a8b5053735ec14701914c8242206bb4b41dc65 tty: drivers/tty/, stop using tty_schedule_flip()
-5c20c7d69684404e17a7c4f11db9427a8cc4cb1d tty: the rest, stop using tty_schedule_flip()
-9d5fbaac839fa0232f198d21fc86da14230e11e2 tty: drop tty_schedule_flip()
-d17ca0a23f273c3e9d5ab590c6cb36a8b008dd26 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-c72869f12cf171245671d812dfe8956795c62a3d tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
-c5962e1168ea77758812dda19c8fc70e4cc39516 net: usb: ax88179_178a needs FLAG_SEND_ZLP
-15e7b16795492ec0266eea3d3fb48a02b1646bf3 x86: drop bogus "cc" clobber from __try_cmpxchg_user_asm()
-c4eed0ebb5d05f00dd309b956aae9c81ba088c11 Linux 5.4.208-rc1
+c341c54c52fc17fdaa4bfefb8cceef5a379f8fa1 pinctrl: stm32: fix optional IRQ support to gpios
+73e57f1f5c7f6a2302ff405cd0da5d368714f2d3 riscv: add as-options for modules with assembly compontents
+7d8d421d3883701b06e8c363f0ba1fceb038e7c3 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+fa17ed6c097f619f203e367deb8d2ee3582c0518 lockdown: Fix kexec lockdown bypass with ima policy
+31d4205268115027120a5f66a9ebb325a66cfa54 io_uring: Use original task for req identity in io_identity_cow()
+da020f95f7db9fb781281613de391bb750cb57eb xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+5730c2593ba93dd4d1d6c39fa812a15cad4c87eb block: split bio_kmalloc from bio_alloc_bioset
+9bbf76141b0413854c8c84bcc47d048b4e2b437c block: fix bounce_clone_bio for passthrough bios
+3c04cf5d8d8bc7b244d8388ed961c00c4f00bfc4 docs: net: explain struct net_device lifetime
+99ccd27217cad05da288b847ddf960b5b38bc067 net: make free_netdev() more lenient with unregistering devices
+3e1bf4fb9ca1414cad76569889f190d1b3960e41 net: make sure devices go through netdev_wait_all_refs
+1ae973b65063abfd4609c2d508345f7814137b4b net: move net_set_todo inside rollback_registered()
+c46be7562ba684e78918bfe6f1d4e3f1d52e06b2 net: inline rollback_registered()
+964fc7abdad5d3ae1de4f5163aa574b323fa2e6d net: move rollback_registered_many()
+133a443059334d2dd6e72541ef5a74d47c02c095 net: inline rollback_registered_many()
+27ab69b224ff155e34e9b0f7bf66c4732d83b1c5 Revert "m68knommu: only set CONFIG_ISA_DMA_API for ColdFire sub-arch"
+061ba4ac022c811a07ad276c2d4bce46285c1d36 PCI: hv: Fix multi-MSI to allow more than one MSI vector
+c5386044cfa6e5ab654c97ad78445cd425387659 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
+0b602fb43d9ee0e4eceee9f157a95371c4b691ce PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
+1c1e29cb895371b7d391b776e25627b534dd1c9e PCI: hv: Fix interrupt mapping for multi-MSI
+d872071557d7972a3c7a7e66a5935b4ab4535328 serial: mvebu-uart: correctly report configured baudrate value
+7188bc14cdfe82bcfd567816da6b131a9bbc6b16 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+1aeadee74eaf14a4775b167d3ee8fbf216d7d63c power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+6810df8171a0f511958ec61370fec076b20f8159 pinctrl: ralink: Check for null return of devm_kcalloc
+1fe8fdde831a5020b99d3f9a5305792ca07b7f96 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+2efc93a7f02b854f833650404ee738fbfd379b69 drm/amdgpu/display: add quirk handling for stutter mode
+f1a2fb50c7a32ab481de2defce58ddb95519beb8 igc: Reinstate IGC_REMOVED logic and implement it properly
+e637fbca4119a39ab8ac8c3702caed6a8becbd81 ip: Fix data-races around sysctl_ip_no_pmtu_disc.
+7b45335b435925e7ac53fba9917e8de3c3776290 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
+53e6f9b5de16f63947a9b447d94efbc20e224c57 ip: Fix data-races around sysctl_ip_fwd_update_priority.
+ee67b790a03d4dea3cb346a33baf2f91e5619acb ip: Fix data-races around sysctl_ip_nonlocal_bind.
+551200db5173de9232297b8a86fc84deb11852ce ip: Fix a data-race around sysctl_ip_autobind_reuse.
+92ef1e4eec251322d470a22353b3f3cfd46e8946 ip: Fix a data-race around sysctl_fwmark_reflect.
+0cb7429599359beb1c9c237843bf832e7c58f267 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+86f4574e03e6698f180ba660fd6160778341137a tcp: Fix data-races around sysctl_tcp_mtu_probing.
+03f3d2625b21d9cfcf020d12f30e528460df2374 tcp: Fix data-races around sysctl_tcp_base_mss.
+7ee08439e97ee8ffb0e9b2fd373c5cd25741d903 tcp: Fix data-races around sysctl_tcp_min_snd_mss.
+670b25a1b2bba43d3a108f578b1cae1fc7158d9e tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
+465a8d023de720b981d2f6e423d19f068b228270 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+e57a9319a6696c6fb1bed0178207adcf3d7de62c tcp: Fix a data-race around sysctl_tcp_probe_interval.
+ec831f0b2298ba8b1cf4f930687c89485fb62b78 net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
+dbf91ed7b36c2be80640112adf6637a9e05de52e i2c: cadence: Change large transfer count reset logic to be unconditional
+edf7031619fbc41f4bbd0a408baee43e1291d085 net: stmmac: fix dma queue left shift overflow issue
+d54b706cf236463fdc8b779aee7a933b153f1afe net/tls: Fix race in TLS device down flow
+27497d01471df66794ddf526139a2effb8fd42de igmp: Fix data-races around sysctl_igmp_llm_reports.
+bf1ad9cf969e9fded3f5e9fbf0bfcbb4ef87cd66 igmp: Fix a data-race around sysctl_igmp_max_memberships.
+0bf279c0377d24c4b2944456a48f3dfe52a84d2b igmp: Fix data-races around sysctl_igmp_max_msf.
+06641ce47febf0cec42cb7c007936b4fc984b2ca tcp: Fix data-races around keepalive sysctl knobs.
+9e5c76a765a2e5cf80abaaf29d7b9c7f104b2799 tcp: Fix data-races around sysctl_tcp_syncookies.
+737c36d3e3219431c1c9e779c39e55d13b95fe8d tcp: Fix data-races around sysctl_tcp_reordering.
+24f7a780e4d846a93e9acff0052f0581bcba04fc tcp: Fix data-races around some timeout sysctl knobs.
+52e35944a88ca53f09cd34ae581c696dc4b8e571 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+971b7038c4951c4df05c569c6a75f44c8df02483 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
+8b7eb739c32c29a013b1711cb3da08cf460a387a tcp: Fix data-races around sysctl_max_syn_backlog.
+cfd67e688bec40eaee99aaabe584dd2a24f5f8ee tcp: Fix data-races around sysctl_tcp_fastopen.
+4891e34803cfb1696d438bbe2c6ec9c2f7f351f2 tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
+82ff5df1f1c440ffde0dca712a313819e95f97e6 iavf: Fix handling of dummy receive descriptors
+70d65de928a6b702b82aa5fb156f9558e8d65f29 i40e: Fix erroneous adapter reinitialization during recovery process
+733a48b84b9220ffb06b6af7eec71822fe48d3df ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+825afa280851bca819bf3a8b5188a3058e727ee3 gpio: pca953x: only use single read/write for No AI mode
+b0b94226549bda96e097107d6bf48683d26553bf gpio: pca953x: use the correct range when do regmap sync
+5d4b66605e6bcebc77685d1d6bbed675607147a2 gpio: pca953x: use the correct register address when regcache sync during init
+cd7b807684b092cec71b75a9f2d0899ce48a1f20 be2net: Fix buffer overflow in be_get_module_eeprom
+b7fbcf3fb4414001ab718f2b8b8dd4cdcb72c1b9 drm/imx/dcss: Add missing of_node_put() in fail path
+db3bc17e53be36404d618b06c0500e4ded063bbb ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
+e0f09cb1078ed06ba660f9cbe24b4efa142dcfff ip: Fix data-races around sysctl_ip_prot_sock.
+19ed8f3561c932b11ce30accd60d0af6c846e1cc udp: Fix a data-race around sysctl_udp_l3mdev_accept.
+24d209c43d52d5013acc4e031e60a25571454319 tcp: Fix data-races around sysctl knobs related to SYN option.
+b70dcee13fe958290bcf4544860d7a3790173a04 tcp: Fix a data-race around sysctl_tcp_early_retrans.
+d666733d09724bb55af42d97e8f688e670129da1 tcp: Fix data-races around sysctl_tcp_recovery.
+3564d4cc2d62fe0b1f0986d8ef0aff4ff95a440e tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
+3632ff421b1a2503c32eaa023991a55640c96341 tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
+bad973515db8e9bb992f70d636adb8f49276b0d9 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
+c4d90460961773c2456fddcf281d156a671751c0 tcp: Fix a data-race around sysctl_tcp_stdurg.
+cf44e267525a4526df02561a88f021cf67d104a3 tcp: Fix a data-race around sysctl_tcp_rfc1337.
+5ea7dff24f12cbd85ec0faddcc6e67ad4f5a3870 tcp: Fix data-races around sysctl_tcp_max_reordering.
+fcdcd572a7617f1b48972c15a12efb908530d9d7 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
+535372befa4d4dbcbddda1fa016ca74db8cfb93f KVM: Don't null dereference ops->destroy
+83dc73929efaffac2b67b4af7654cf98c4b025d5 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+e34a980b3a93bfb93be719e8e147c77cae723f06 bpf: Make sure mac_header was set before using it
+a013410a590e5aad10b8a20968fcb0b6ddc26edc sched/deadline: Fix BUG_ON condition for deboosted tasks
+c9736413091a27a719a4707eba6ab051fe16f8c5 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+19e3f9883f9f4c9204152a5e494091c6987e0dd0 dlm: fix pending remove if msg allocation fails
+53dbe723597f19e3e68a9774a6b521fb91a708b4 drm/imx/dcss: fix unused but set variable warnings
+a7fc41108d16b7adfb4d2f3b4ddaf1a751ce3e16 bitfield.h: Fix "type of reg too small for mask" test
+38edf01850d42f88cb6ff99c20c0a2e6813752df ALSA: memalloc: Align buffer allocations in page size
+9a5f9c89340f4c8490f63e485237b975b8edbd7c Bluetooth: Add bt_skb_sendmsg helper
+10b8db134af8da703bd22a36d8ed4a6ee546fa67 Bluetooth: Add bt_skb_sendmmsg helper
+ccf94573e929834718c83dc63656a8aecb31e294 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
+613f5e0098b35574e318d43797dc6245d98c901d Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
+35c58d575d6efe1a1e943f1862bfa057e1cebfd7 Bluetooth: Fix passing NULL to PTR_ERR
+48947108219cb844cfa44dfc7c66f61d231a9cc5 Bluetooth: SCO: Fix sco_send_frame returning skb->len
+9310822b44aac1262bf4cce1d56204e11b38c67c Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
+54b61812526d6e1fbc8ebc18dbca2fdf1b59aac2 x86/amd: Use IBPB for firmware calls
+84b7396463b5a031ec5d3e4b507c1dcfc1c86e71 x86/alternative: Report missing return thunk details
+9a303639a78b919f651f199f3fe6d0ede1cbf486 watchqueue: make sure to serialize 'wqueue->defunct' properly
+9cbb912ad5124eac3e5e85ea0c26835ce1648467 tty: drivers/tty/, stop using tty_schedule_flip()
+d11b91f5cde0750c17a6f873bfe9f2555de9cf56 tty: the rest, stop using tty_schedule_flip()
+b95d47aac686f1dc935ed7b11a25322d3ce4f818 tty: drop tty_schedule_flip()
+efe50021361bbe8aac1f707ef37db0efe2e0da43 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+474507374a21135e54f474a05d8646a09530900f tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+9bbebbd24b64374279aef773e63278d2d100206e net: usb: ax88179_178a needs FLAG_SEND_ZLP
+4e23eeaebde5f01ff61b38d2366ca9cee762e878 watch-queue: remove spurious double semicolon
+7894255a89eff28424ce27439d8def31bca7785c block: fix memory leak of bvec
+189da7b970a08ba6091cfabbbf09d4d5a218f455 block-crypto-fallback: use a bio_set for splitting bios
+770bfb9299596df8cdb95b9663c9cf506a6dd56c Linux 5.10.134-rc1
 
---===============7921557143039161500==--
+--===============6850340932114735796==--
