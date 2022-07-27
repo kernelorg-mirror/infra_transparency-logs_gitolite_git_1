@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 27 Jul 2022 19:56:21 -0000
-Message-Id: <165895178159.693.16359657076974341775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 27 Jul 2022 20:03:10 -0000
+Message-Id: <165895219033.4697.18280589932652977663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 14202eff214e1e941fefa0366d4c3bc4b1a0d500
-    new: 13474ba176c9649479db7cd2cef2210a4c9f3bbc
-    log: |
-         13474ba176c9649479db7cd2cef2210a4c9f3bbc Bluetooth: ISO: unlock on error path in iso_sock_setsockopt()
-         
+  - ref: refs/heads/pci/ctrl/qcom
+    old: e48db89fdc2db5e3cb27757eb37d84a122d101a4
+    new: 839fbdee4c080eb95567cbcf6366072a56d3a3cc
