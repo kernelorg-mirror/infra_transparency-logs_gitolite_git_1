@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 27 Jul 2022 03:27:58 -0000
-Message-Id: <165889247888.31350.6391318605458181324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 27 Jul 2022 03:41:05 -0000
+Message-Id: <165889326591.8050.13886337039079551394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: a7e555d4a184d7da72ed6df7d6741dc190b5ca5b
-    new: 060468f0ddbbd3396944ad234077e44af1841efc
+    old: fcd3929e7ad300d34cc29313108b641857a9467b
+    new: e148904d43134469153604af56f903780b8141a6
     log: |
-         060468f0ddbbd3396944ad234077e44af1841efc selftests: net: Fix typo 'the the' in comment
+         e148904d43134469153604af56f903780b8141a6 Wed Jul 27 03:40:23 AM UTC 2022
          
