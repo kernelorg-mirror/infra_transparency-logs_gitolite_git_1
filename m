@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7397660288867639999=="
+Content-Type: multipart/mixed; boundary="===============9036517665055771172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 27 Jul 2022 18:03:32 -0000
-Message-Id: <165894501247.17462.3494844762137703241@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 18:05:19 -0000
+Message-Id: <165894511964.19636.14543221692890496429@gitolite.kernel.org>
 
---===============7397660288867639999==
+--===============9036517665055771172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 9b134b1694ec8926926ba6b7b80884ea829245a0
     new: 5a159128faff151b7fe5f4eb0f310b1e0a2d56bf
     log: revlist-9b134b1694ec-5a159128faff.txt
 
---===============7397660288867639999==
+--===============9036517665055771172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ e77ea97d2bd99b004e96c339ee22408c5475a52e Merge git://git.kernel.org/pub/scm/linu
 b5177ed92bf6f9d90a2493ed51c1327e088be1df mptcp: Do not return EINPROGRESS when subflow creation succeeds
 5a159128faff151b7fe5f4eb0f310b1e0a2d56bf virtio-net: fix the race between refill work and close
 
---===============7397660288867639999==--
+--===============9036517665055771172==--
