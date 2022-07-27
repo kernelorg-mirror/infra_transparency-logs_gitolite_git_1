@@ -1,47 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============5845432798624449761=="
+Content-Type: multipart/mixed; boundary="===============8342077205735947484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 27 Jul 2022 13:45:02 -0000
-Message-Id: <165892950274.25815.5297714535166336412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 27 Jul 2022 13:45:19 -0000
+Message-Id: <165892951973.26297.4612217930768012304@gitolite.kernel.org>
 
---===============5845432798624449761==
+--===============8342077205735947484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e0dccc3b76fb35bb257b4118367a883073d7390e
-    new: 39c3c396f8131f3db454c80e0fcfcdc54ed9ec01
-    log: revlist-e0dccc3b76fb-39c3c396f813.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 1a29113ae1e08a08d0b37b1ce79e4d80f8dd551c
+    new: 19c76b9823f6faae5a239ce4feba1c8d25d9ee34
+    log: revlist-1a29113ae1e0-19c76b9823f6.txt
 
---===============5845432798624449761==
+--===============8342077205735947484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0dccc3b76fb-39c3c396f813.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
-0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
-f073c8335929a9746c19d4551aeb2d4d0dbef0d1 mailmap: update Seth Forshee's email address
-3fe2895cfecd03ac74977f32102b966b6589f481 mm: fix page leak with multiple threads mapping the same page
-f4f451a16dd1f478fdb966bcbb612c1e4ce6b962 mm: fix missing wake-up event for FSDAX pages
-c2cb0dcce9dd8b748b6ca8bb8d4a389f2e232307 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
-84ac013046ccc438af04b7acecd4d3ab84fe4bde secretmem: fix unhandled fault in truncate
-38c9c22a85aeed28d0831f230136e9cf6fa2ed44 ntfs: fix use-after-free in ntfs_ucsncmp()
-bdeb77bc2c405fa9f954c20269db175a0bd2793f fs: sendfile handles O_NONBLOCK of out_fd
-da9a298f5fad0dc615079a340da42928bc5b138e hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
-c80af0c250c8f8a3c978aa5aafbe9c39b336b813 Revert "ocfs2: mount shared volume without ha stack"
-918e75f77af7d2e049bb70469ec0a2c12782d96a s390/archrandom: prevent CPACF trng invocations in interrupt context
-cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_page_reuse()
-5de64d44968e4ae66ebdb0a2d08b443f189d3651 Merge tag 's390-5.19-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
-1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
-39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658929515 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1658929512-fe667aa49da207dabdfeeeec74e5ad351a165dab
 
---===============5845432798624449761==--
+1a29113ae1e08a08d0b37b1ce79e4d80f8dd551c 19c76b9823f6faae5a239ce4feba1c8d25d9ee34 refs/heads/linux-4.9.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhQWwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1sAQAM5u4QFagurgozysdORI
++8PlTUKyWUY59xTuYwxX3Wg7JarGZoqvLxiYm+BfLDA0mAIaKrStQPIl1UFxbRq8
+kUn25DsQV7zNaOEvYVpGsmhRLkxktdC62aphFjdoOXpvz6kzZigreZckwyHJ+Pzt
+M9wvVYNbRCtdhdKw0oyPrTOS01cwW8PxzDnjA0YktpCZ2hDkUqa3iaYlvaON/xVT
+ZV9lflFtZSQGWxpPqLc5HIZw5JKDBflomtFt0ylyVYuIyKKM+A1xqwjlDx1GY7jc
+S0wLls7VVyHjUYIafUwgoY+PQs1jyKfKaDCJbaJYUWv2JjwTMFriTTmoyeDDlDrC
+kcE0eqzFXTzn+Kkr83ly2FOzxMxTE2YXBPTPkGoSpfBvmST1ndX20hg4h9tdnxa3
+kxPNw27Q/OlIzx+syZ3g95GODy5MF+xou9iDF/GaIJdRKMyTS5EKImZKBucdaDwW
+J+zCtBLBMNgM1wAyoxaFJRMqjet5NqmbKC5/lt52mc6Dl5uG2JhWCkR10lVgM6eb
+Jnu/ric55GYOEIW7pWvtqUjYa90bbqGXrm+NXhIZ3S6KLlJCLg2rKutm20TGaCby
+AHmsqXlrSAF3xhUSD/vWXk+fUJEbmUPF3+E/nSXUZwEHszL7uxtKYsdNc4OTKBVD
+uQs8KK/Lm2FHP4UGtVE3aRSA
+=5OD5
+-----END PGP SIGNATURE-----
+
+--===============8342077205735947484==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1a29113ae1e0-19c76b9823f6.txt
+
+4566aaea531f38d095f0de96d63e312ff7fe3d50 security,selinux,smack: kill security_task_wait hook
+baec66fc15aa085fbe900570bba09906787b54fa xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+c11820436a71f76ffdebf6b9625c50241d2ca9e9 misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
+0f01be79892b9ebe6eb14fe0e83ee32598e7edce misc: rtsx_usb: use separate command and response buffers
+3c708a8a66ffa3bbd76e65aa7808c5aa01bc3bdb misc: rtsx_usb: set return value in rsp_buf alloc err path
+a16387f4cbf6c3ecbd96189f3261f7831fc0937d xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+9137f9b705edaaea916e1225e2cd8c5b5492cf2b power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+87e840d1122b174649a456d9c6ef5f3c9ca083eb perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+c06a49f06f2e522461490959b03af10e98f2647a ip: Fix a data-race around sysctl_fwmark_reflect.
+683d29e22171e21d7ed6b855bbd4bd5c00d773ee tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+d19857380a4159d3d8e2cf92b74d4497aa7e91e0 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+035aaf8a3e72fe6320e7566f9134d1a174fc5d83 i2c: cadence: Change large transfer count reset logic to be unconditional
+6bd33ce30edc15b428c19306cc47fcc320d9dbe5 igmp: Fix data-races around sysctl_igmp_llm_reports.
+ab6587f1b96e389bbabea967407b8d8e88c4eeac igmp: Fix a data-race around sysctl_igmp_max_memberships.
+f706009850f86b6d99485f2e5edfd8d8bf55deb5 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+a745ef2183aa62e9f56e3bdb23f6b276d59f6cca be2net: Fix buffer overflow in be_get_module_eeprom
+7431778e86bc49ce006997323d0b4170faafd5e5 Revert "Revert "char/random: silence a lockdep splat with printk()""
+6294a16a56e7fb2ff3afccdaef9b69131f4d8bb0 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+92f257f82b7a62049a84b9da41da7c8ef949350c bpf: Make sure mac_header was set before using it
+c2b4f0d4bc0127ab9bb69398098ed02c465a93b3 ALSA: memalloc: Align buffer allocations in page size
+ccf777dfb1179e3a1fab68015353502542781748 tty: drivers/tty/, stop using tty_schedule_flip()
+f0977c702da286104174e8b30930395b2539d1f9 tty: the rest, stop using tty_schedule_flip()
+568e909f10008bea2561956f55c7b82e51519553 tty: drop tty_schedule_flip()
+f20c0fd8558019e10cf7a5159d0a80c3b90e1a3b tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+30e7cad749c7eab09e476d0857da680258eabe4d tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+8a491699f355a516ba2a9c018171295bac0aa358 net: usb: ax88179_178a needs FLAG_SEND_ZLP
+19c76b9823f6faae5a239ce4feba1c8d25d9ee34 Linux 4.9.325-rc1
+
+--===============8342077205735947484==--
