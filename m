@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 27 Jul 2022 17:55:34 -0000
-Message-Id: <165894453449.12852.11347690135048462292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 27 Jul 2022 18:02:25 -0000
+Message-Id: <165894494523.16831.11151314527648394183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-5.20
-    old: 6a010a49b63ac8465851a79185d8deff966f8e1a
-    new: c808f4632349bda65b2ec41220f0a2035f780619
+  - ref: refs/heads/dev-queue
+    old: 4aac42f6917bc01317d46a907bd72f9ff1dfc2d0
+    new: d64d69b7b946c555abd9d67bdb864c503656df63
     log: |
-         c808f4632349bda65b2ec41220f0a2035f780619 cgroup: remove "no" prefixed mount options
-         
-  - ref: refs/heads/for-next
-    old: dfce5395b3a007a1a5c3a99a8523a4fc266d858a
-    new: 17b6a0395d23cb75a23f679382823e43b019730a
-    log: |
-         c808f4632349bda65b2ec41220f0a2035f780619 cgroup: remove "no" prefixed mount options
-         17b6a0395d23cb75a23f679382823e43b019730a Merge branch 'for-5.20' into for-next
+         61af410704fc5b8eeeec99d341b9b7c98b08ad80 i40e: Fix tunnel checksum offload with fragmented traffic
+         2d3914a1fc2aa82b315288c8cb4ba941e69900cd e1000e: Separate MTP board type from ADP
+         134b3fe895fa07de6f16e32f35e4b3015ce5b5b0 ice: Implement control of FCS/CRC stripping
+         2e9db3e2653dd4a900f95975659b0056b8967cd4 ice: Implement FCS/CRC and VLAN stripping co-existence policy
+         d64d69b7b946c555abd9d67bdb864c503656df63 ice: Remove ucast_shared
          
