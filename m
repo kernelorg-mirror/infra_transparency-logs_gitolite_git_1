@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6966442175848797816=="
+Content-Type: multipart/mixed; boundary="===============0149580422760497220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 27 Jul 2022 12:41:12 -0000
-Message-Id: <165892567254.13918.3560528354698848257@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 12:48:25 -0000
+Message-Id: <165892610599.18251.2991511053892719976@gitolite.kernel.org>
 
---===============6966442175848797816==
+--===============0149580422760497220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 76e960597635ee80d7c713f606b0f6ac9228d98e
-    new: 40e58a8a7ca6ac7f03a5fbfdbc0119fc0caaa072
+    old: 40e58a8a7ca6ac7f03a5fbfdbc0119fc0caaa072
+    new: e0c6b1f3d7574dea3bec7deb18578e896d2cfaa2
     log: |
-         40e58a8a7ca6ac7f03a5fbfdbc0119fc0caaa072 dt-bindings: usb: Add binding for TI USB8041 hub controller
+         e0c6b1f3d7574dea3bec7deb18578e896d2cfaa2 USB: usbsevseg: convert sysfs snprintf to sysfs_emit
          
 
---===============6966442175848797816==
+--===============0149580422760497220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658925670 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658926104 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1658925669-86e4199b04c45a7822ec3bdf86dc8e69ef7ae655
+nonce 1658926103-bdfed431283add40d29c4650a1d894b50386157b
 
-76e960597635ee80d7c713f606b0f6ac9228d98e 40e58a8a7ca6ac7f03a5fbfdbc0119fc0caaa072 refs/heads/usb-testing
+40e58a8a7ca6ac7f03a5fbfdbc0119fc0caaa072 e0c6b1f3d7574dea3bec7deb18578e896d2cfaa2 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhMmYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qzMQAMMjbLDUxlHtc+xfFD0j
-0W+7gYEDzGNdH72yhhTnqBmMLVW5jA1lboVjyv43GvvqdaDy0YTDNLzXvngwKGZV
-o6jcOi0gz67bSgWB01lkbEcC5Pg+edvc5nwCcOhId9L3U5NRpuqntLmxF2asKdEn
-3P4T/D+J0WmT5O9nhzUKc+l4mvbKpaKzd3WxzAvDSpWTvv3uKseMc7aB6gOSKsqq
-Odl4iHIjovlu9SalX89Gc59/4CZbVXC4Z6hmlkMV7zNe5BlFN115Ss+OxSLrIZwv
-OQhDvSrYyw/4vb/QFJOymEXl1eYegYAHjCF4ILfWD/a7XK9x7fasOQ9szKKFv146
-d0euqbe0KnyzzFbOWWz2fmEH+dn6CNzS+Fui4eB7pBpvHxzVcLKOstWF9Hap4CS5
-XAQ/iA9vNkIs41QlABZLUARGMuQPuZ6T/ky2xF083Wmz9kBVgIcrJL+g5uHF1xj7
-FdL7MDjEu4m7+Lr9E1PpNxtg47P+VuNEQdbTv3Dlm2X41OagYUZhZRGoOLBQAbg1
-xhHq50AyvYE7I8cKPcmG6B8Nn0ndXRiZEJg8xYRRTyJiVbAtv9tPLP3GC6CK4Sd0
-G7I+pzYZyL0G6P6qhZflKxJ97pGjlYROvk0J/x72ezcFXgCY5Pqvy9XaUW7xr2Dx
-8mzgueKrA5iPOnkzd8Yk3qiu
-=DgDv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLhNBgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P9EQAK+Augnwad0rpi4dd6U+
+5SPZq8swqzhJpycT1KHSABfF154vGr23m78f1Kzk7AaMRji5u1k0D76BGmymc7yo
+QeBcxl9XCj15RqsYXJtWvt1UUTsYoibcRXzAPv9d5VCpEvt5e3WudAibqKZn+jZS
+IdJXrNg5+Siu2W9av31PNcFN7VumTeeYwikOGdw+BXPuxBGDi/T/nGvk6JVP4jQv
+UYD9IdZiqwE2GsQpLWVFeGdExJm3HRBv8r44sdG/CrrotXpLK8/l4N68VT5kuNOb
+V5lovmfVq+kghRynuLvFnv8hznnb7aHCEPVUq5W2PNQNI+Xdzwtsvfs79whN72vp
+FrN8AW88ByuAaYiuIlzwuQk6COSYBXHd5tzEIWEPQmW32k28t+Pn7SZvb/Z0i6fi
+uTmcCCKO8Q82fMuuGYxgATJf04lZ61ZSNiwtkXPsyhu8h0akDvjZDchfYHYx+56e
+/pDuUXBBuDjpZEfadnv5FfbaqIVvz9toulDsZd2z671gJgRkV4OwjYS+8Sav501s
+BxGBJbLIiMiq6AHrWjpo4ud46Mdun6dXYa3v/mLMWrtf28KeakVoPaYeiwsTd90u
+ocEYjHiLrLYBNH+sdQHc0zOB0UMYJehjm8tgmS2mLTZiVUZwdXmnGeWDDo2Mq00O
+Ao/b4Ot4NhCdJULXt7of4ZyC
+=lWqJ
 -----END PGP SIGNATURE-----
 
---===============6966442175848797816==--
+--===============0149580422760497220==--
