@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2533273521943136458=="
+Content-Type: multipart/mixed; boundary="===============0856805685582997824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 27 Jul 2022 12:07:35 -0000
-Message-Id: <165892365583.21012.15722326750103458277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 27 Jul 2022 12:07:55 -0000
+Message-Id: <165892367572.21222.16527547637602358057@gitolite.kernel.org>
 
---===============2533273521943136458==
+--===============0856805685582997824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 058affafc65a74cf54499fb578b66ad0b18f939b
     new: 9250d2f72dc46a808b6aa23bf50dd670f1f52ddc
     log: revlist-058affafc65a-9250d2f72dc4.txt
-  - ref: refs/heads/stable
-    old: e0dccc3b76fb35bb257b4118367a883073d7390e
-    new: 5de64d44968e4ae66ebdb0a2d08b443f189d3651
-    log: |
-         918e75f77af7d2e049bb70469ec0a2c12782d96a s390/archrandom: prevent CPACF trng invocations in interrupt context
-         cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_page_reuse()
-         5de64d44968e4ae66ebdb0a2d08b443f189d3651 Merge tag 's390-5.19-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-         
-  - ref: refs/tags/next-20220427
-    old: 3aff17f6777f27af6634b33f5957e2658a4cdd0e
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220727
     old: 0000000000000000000000000000000000000000
     new: d3de9adc139e764586f1f30b7cc580df908e96aa
 
---===============2533273521943136458==
+--===============0856805685582997824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -650,4 +639,4 @@ a60a4f15da26bfd6b5e6c449ce8c0e6b3927b200 Merge branch 'mm-nonmm-stable' of git:/
 2d3e0d27d837813a7fc578241f03ffb200085578 Revert "drm/amdgpu: Re-enable DCN for 64-bit powerpc"
 9250d2f72dc46a808b6aa23bf50dd670f1f52ddc Add linux-next specific files for 20220727
 
---===============2533273521943136458==--
+--===============0856805685582997824==--
