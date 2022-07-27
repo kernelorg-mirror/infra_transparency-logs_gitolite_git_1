@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4301561625500986211=="
+Content-Type: multipart/mixed; boundary="===============8406264323334249643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 27 Jul 2022 18:09:43 -0000
-Message-Id: <165894538332.21251.16508967824431866582@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 18:09:52 -0000
+Message-Id: <165894539274.21363.12509729592424930848@gitolite.kernel.org>
 
---===============4301561625500986211==
+--===============8406264323334249643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,54 +15,50 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 35d099da41967f114c6472b838e12014706c26e7
-    new: 5ffcba41de5579566f7d6933b96e8ca63335f790
-    log: revlist-35d099da4196-5ffcba41de55.txt
+  - ref: refs/heads/mlx5-queue
+    old: 799cf27e3262d551bfbe9fc2bacb9f164ba9a48e
+    new: 7aacd68cc5953b31099b6ad9995f5947f710b5f1
+    log: revlist-799cf27e3262-7aacd68cc595.txt
 
---===============4301561625500986211==
+--===============8406264323334249643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35d099da4196-5ffcba41de55.txt
+Content-Disposition: attachment; filename=revlist-799cf27e3262-7aacd68cc595.txt
 
-30bab7cdb56da4819ff081ad658646f2df16c098 net: devlink: make sure that devlink_try_get() works with valid pointer during xarray iteration
-294c4f57cfe3303ee2f050d1728c76a401e573a7 net: devlink: move net check into devlinks_xa_for_each_registered_get()
-7b2d9a1a50ec3bedf067fe234a4a71196c89e826 net: devlink: introduce nested devlink entity for line card
-bd02fd76d1909637c95e8ef13e7fd1e748af910d mlxsw: core_linecards: Introduce per line card auxiliary device
-5ba325fec511fecdfcf3815695c275f6c0ba817b mlxsw: core_linecards: Expose HW revision and INI version
-4ea07cf638dbd6260664b69b0f69cc951934194d mlxsw: reg: Extend MDDQ by device_info
-4da0eb2a75eb14a474a94d9249255f97a9175a3c mlxsw: core_linecards: Probe active line cards for devices and expose FW version
-8f9b0513a950040e2e9414059854b9a2372c1fb7 mlxsw: reg: Add Management DownStream Device Tunneling Register
-3fc0c51905fb0f57d8f7093cc5efe45d8a9557ca mlxsw: core_linecards: Expose device PSID over device info
-9ca6a7a5f42de2ef330d6bc4243d850663d9acab mlxsw: core_linecards: Implement line card device flashing
-e96c8da380391cca7889a4fd4b09c8fbc14aeef8 selftests: mlxsw: Check line card info on provisioned line card
-949c84f05eb65b0a41f7f5c62ee9ffc5d8e39c89 selftests: mlxsw: Check line card info on activated line card
-4fd310c74432d19e8f58a4291b44db0ddebe7bf3 Merge branch 'implement-dev-info-and-dev-flash-for-line-cards'
-b92a13d488de2e87c869a4a6c0393d1f9eebe6dd tls: rx: wrap recv_pkt accesses in helpers
-dd47ed3620e693636b4d912db4810fe0c092eb2c tls: rx: factor SW handling out of tls_rx_one_record()
-b93f5700164dabc59f5c82857dbe571e0ccb2d35 tls: rx: don't free the output in case of zero-copy
-d4e5db6452211467f668521f5a3bd3c3928918e1 tls: rx: device: keep the zero copy status with offload
-3f92a64e44e5823a975cbf2c9f05ab1893fd4cb7 tcp: allow tls to decrypt directly from the tcp rcv queue
-8b3c59a7a0bed6fe365755ac211dcf94fdac81b4 tls: rx: device: add input CoW helper
-84c61fe1a75b4255df1e1e7c054c9e6d048da417 tls: rx: do not use the standard strparser
-48c022d1627295ef4c4a85f00caf002b59800f67 Merge branch 'tls-rx-decrypt-from-the-tcp-queue'
-a7e555d4a184d7da72ed6df7d6741dc190b5ca5b ip6mr: remove stray rcu_read_unlock() from ip6_mr_forward()
-060468f0ddbbd3396944ad234077e44af1841efc selftests: net: Fix typo 'the the' in comment
-46f80fa8981bcbb0ab522b34c919d0186a0cff02 net: dsa: microchip: add common gigabit set and get function
-aa5b8b73d4bd34618508165bc0e5b7eb4b7c2c20 net: dsa: microchip: add common ksz port xmii speed selection function
-8560664fd32aa055b3c128337356e32e8fc25b5a net: dsa: microchip: add common duplex and flow control function
-da8cd08520f3abac9ff288136b70ea991e1ec6ab net: dsa: microchip: add support for common phylink mac link up
-dc1c596edba5e656256c2d6e6922246c7803f2de net: dsa: microchip: lan937x: add support for configuing xMII register
-b19ac41faa3f9602f245d1ab679f7fa96d388320 net: dsa: microchip: apply rgmii tx and rx delay in phylink mac config
-0ab7f6bf1675b5ffbfcd6fffd13be8d98a4d5757 net: dsa: microchip: ksz9477: use common xmii function
-c476bede4b0f07a26c84e38b0bc34bdaca8135da net: dsa: microchip: ksz8795: use common xmii function
-f3d890f5f90ebadab82fbfce4bb80aefd97def34 net: dsa: microchip: add support for phylink mac config
-2f0f6b176e083b08667b22d52eaf56d8403ff6f4 Merge branch 'dsa-microchip-phylink-mac-config'
-eb481b02bd182a96e22070895bf887277b82150f net/smc: Eliminate struct smc_ism_position
-0a2f4f9893c83bd722bd55a903fb682da2eb24ba s390/ism: Cleanups
-8b2fed8e2712e8c23665df3c9e0fbabbb76e466c net/smc: Pass on DMBE bit mask in IRQ handler
-28ec53f3a830750f1b5ccf73cb13dae66ade1660 net/smc: Enable module load on netlink usage
-5ffcba41de5579566f7d6933b96e8ca63335f790 Merge branch 'smc-updates'
+b8025e9983eb03cbcc0d4f1c3f56e18d87da9faf !!! W/A DO NOT SUBMIT !!! net/mlx5: Introduce ifc bits for migratable
+ca24d290142d794d1dbe6bd666724926bae9977e !!! W/A DO NOT SUBMIT !!! vfio/mlx5: Set VF as migratable
+e68b96c162e00f6c5b7d07a28ea79bd281448934 net/mlx5e: Convert mlx5e_tc_table member of mlx5e_flow_steering to pointer
+deab7ec2e7743fa4af09364e0a93cbe6ac097725 net/mlx5e: Make mlx5e_tc_table private
+764f1212bfa726ffdb7fbedf232dbbb0f2c32737 net/mlx5e: Allocate VLAN and TC for featured profiles only
+7edb39090515dfc8bbb6f807f434d4161ed65534 net/mlx5e: Convert mlx5e_flow_steering member of mlx5e_priv to pointer
+7ddd9876a0bdc8c248e65334fec412484a22be71 net/mlx5e: Report flow steering errors with mdev err report API
+b9d5eb434e4b80554353ac8ee184f905a274190e net/mlx5e: Add mdev to flow_steering struct
+c8f4047aabba2bcd100cf27ce7af655acb46b777 net/mlx5e: Separate mlx5e_set_rx_mode_work and move caller to en_main
+f641bc94d7c0da2fa0a5c98d76043acfbafa31be net/mlx5e: Split en_fs ndo's and move to en_main
+68ad018a930bde4da6720a1cf104708f1fb84c75 net/mlx5e: Move mlx5e_init_l2_addr to en_main
+941297a00df19882d1df4ad48159978fcf3adb0e net/mlx5e: Introduce flow steering API
+1fb27f1451d76985d5772f9fbc6e76ffe3db7328 net/mlx5e: Decouple fs_tt_redirect from en.h
+8e0ea94a6886b6067a20ccdbd4035bf5e75af311 net/mlx5e: Decouple fs_tcp from en.h
+0bd587f4955869a169d8365186aeb0e67438da78 net/mlx5e: Drop priv argument of ptp function in en_fs
+328dd455358ea43e7b98b4b9ff3b05c0e95470fa net/mlx5e: Convert ethtool_steering member of flow_steering struct to pointer
+7b0b8dd9afc7f72819f38f761366fb97203ae6cd net/mlx5e: Directly get flow_steering struct as input when init/cleanup ethtool steering
+13918d947e82545813ae4feb721fe34e476fad71 net/mlx5e: Separate ethtool_steering from fs.h and make private
+5c5a7fb896c1fb1bb90449673c06ca954b348a2d net/mlx5e: Introduce flow steering debug macros
+094cc0231daf320a5e378f009deb291a231e2918 net/mlx5e: Make flow steering arfs independent of priv
+580fa852dbd6e62e864cf1d2be4ca56c62b54109 net/mlx5e: Make all ttc functions of en_fs get fs struct as argument
+c8526d4e26a69a69a738fb8219c53de13be19829 net/mlx5e: Completely eliminate priv from fs.h
+e992dfd3d363905c261508cd551af117762f3399 net/mlx5e: Support enhanced CQE compression
+651896e96f05337df6a5dd676e330117b04145ef net/mlx5e: Move params kernel log print to probe function
+48991ab448a46c1a9f057396c379dd6baf01db9b net/mlx5e: Fix wrong use of skb_tcp_all_headers() with encapsulation
+3103e146404ee1f145c3b110c587da71d869ec76 sched/topology: Add NUMA-based CPUs spread API
+795091a3ff680569d57fc33c5057be81c300fcfb net/mlx5e: Improve remote NUMA preferences used for the IRQ affinity hints
+ef82e4fcd9a2a759a8bde98184a399b616f81bcb enic: Use NUMA distances logic when setting affinity hints
+65bac29325f6043901c5b45d2056eb8970c4117a Merge branch 'patchq/467362' into mlx5-queue
+86f45d936393c163b9feb2741ae1517859cc74a5 Merge branch 'patchq/505590' into mlx5-queue
+03a96a396fb934edda59bd4ff2f07f2f97523ec1 net/mlx5e: Expose rx_oversize_pkts_buffer counter
+c6f821f101b1e597d308740d0bdab4bb47f98a3e Merge branch 'patchq/522790' into mlx5-queue
+5c1cc15d00672de9a5f58b3af5a27cca0356e01e Merge branch 'patchq/523508' into mlx5-queue
+7aacd68cc5953b31099b6ad9995f5947f710b5f1 Merge branch 'patchq/516865' into mlx5-queue
 
---===============4301561625500986211==--
+--===============8406264323334249643==--
