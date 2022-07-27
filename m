@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6826317378856985445=="
+Content-Type: multipart/mixed; boundary="===============8299978650763809521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 27 Jul 2022 23:01:39 -0000
-Message-Id: <165896289974.31181.5512928423000344405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 27 Jul 2022 23:01:45 -0000
+Message-Id: <165896290588.31307.5600481484236852943@gitolite.kernel.org>
 
---===============6826317378856985445==
+--===============8299978650763809521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.20
+  - ref: refs/heads/regulator-5.20
     old: 9cc0590ae351a354c51375a1ee22edc2e4931fd0
     new: efc93392960cb9c3534e7aed15481ca7bcfdf15c
     log: |
@@ -25,28 +25,28 @@ changes:
          efc93392960cb9c3534e7aed15481ca7bcfdf15c regulator: Consumer load management improvements
          
 
---===============6826317378856985445==
+--===============8299978650763809521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1658962898 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1658962897-b1a99011b6118967cc7c734e5f67fa13024a89e9
+pusher C3F436CA30F5D8EB 1658962904 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1658962904-1307bd79ca5ba11280586dc07f0c77d1d06b4c82
 
-9cc0590ae351a354c51375a1ee22edc2e4931fd0 efc93392960cb9c3534e7aed15481ca7bcfdf15c refs/heads/for-5.20
+9cc0590ae351a354c51375a1ee22edc2e4931fd0 efc93392960cb9c3534e7aed15481ca7bcfdf15c refs/heads/regulator-5.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLhw9IACgkQJNaLcl1U
-h9AZ4Qf/XtPEofgt961b0ZOaJeu67kBPGwI3RwunEYjBey/RMJbxyR4f467MUsDC
-fGrPAIBz4S5oo5NmFPm19yJz/fa190XrUJJs72LYHLo6OCn0uPgLPUnBP5QTMPud
-/iadAPd6dtYhfAnBkXpQV4wO+wBT2+jLQTBNVeoi1CuIFN9z94c73vkfpc57GtsU
-IZGWdeo7lymGRVpsWJuP3wnO5vfgnRNMywCoUamhW9BzDb0UKyMnp2dntPB5lbKO
-EwDM9yKUxCqms/qM+q30gWZfX8J/lAsQUwQhlPf8HvpNYiOFfqLGxccYbGq/sg6i
-B8drC8/Oqz18GpzwYDwPC1q+BvhDKQ==
-=sy+q
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmLhw9gACgkQJNaLcl1U
+h9DlLQf/cHFjOP5LcHCXnZlBFFbBpuaVV8+DAaJ2fRv142UuqSRcOlLlEYMTmmYj
+ktNZxLggjKM9WDMmAW1wdRH2Z5R6xBl9pLtvu1TmIZ5cZFgtMhOwyJ2x4ljHCkny
+3ROURRjyJHI+5x2+H9Y1OJB6H47GyitjbONbyPfhBpZ+YRYLE/M2xpKI2J0BPx43
+tliLGmNfApA3G/vD6Ng9++TQMlQmm2b7/sDsOM/zAqCVDoMl/4GY0BIeox+oGl7A
+VupTgkIoILBo7vDd0OLhIUs/WEUiMBaaSatFXpGe8zWndv2wA89YSRMlqxUJkTvh
+eh+xKoHZUO1kGrKwPRy5d9CIF4tDUA==
+=uyWL
 -----END PGP SIGNATURE-----
 
---===============6826317378856985445==--
+--===============8299978650763809521==--
