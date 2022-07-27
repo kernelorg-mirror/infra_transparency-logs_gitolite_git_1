@@ -1,59 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0793091127739876539=="
+Content-Type: multipart/mixed; boundary="===============0929891283656977281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 27 Jul 2022 06:45:47 -0000
-Message-Id: <165890434750.6163.16378005807315262201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 27 Jul 2022 06:46:44 -0000
+Message-Id: <165890440457.6578.8506775342382680836@gitolite.kernel.org>
 
---===============0793091127739876539==
+--===============0929891283656977281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/staging-testing
-    old: b9ad667059d72713729761fa3d9e087cfa065e52
-    new: 2b5002e2cc1483b6333d31e21902b78a1997909e
-    log: |
-         51ee8ea588bca025cb03b0caa922d78bdb8ba901 staging: r8188eu: remove OnAtim prototype
-         123b3b754e3fb4f3c8632eb88e32a36d356513eb staging: r8188eu: remove DoReserved prototype
-         47092381023050ab90c3f0603a587f798d37f194 staging: r8188eu: make dump_chip_info() static
-         2b5002e2cc1483b6333d31e21902b78a1997909e staging: r8188eu: convert rtw_pwr_wakeup to correct error code semantics
-         
+  - ref: refs/heads/master
+    old: 776db515ca7e2787800c105e58d36dfb11cde8d4
+    new: 9e033cf7dcabb8ca1db4cd9209ddecbf3ca5be44
+    log: revlist-776db515ca7e-9e033cf7dcab.txt
 
---===============0793091127739876539==
+--===============0929891283656977281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-776db515ca7e-9e033cf7dcab.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658904345 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1658904345-5263a720feaf7f5e7b8a906fcff6758d52233869
+07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
+0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
+f073c8335929a9746c19d4551aeb2d4d0dbef0d1 mailmap: update Seth Forshee's email address
+3fe2895cfecd03ac74977f32102b966b6589f481 mm: fix page leak with multiple threads mapping the same page
+f4f451a16dd1f478fdb966bcbb612c1e4ce6b962 mm: fix missing wake-up event for FSDAX pages
+c2cb0dcce9dd8b748b6ca8bb8d4a389f2e232307 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
+84ac013046ccc438af04b7acecd4d3ab84fe4bde secretmem: fix unhandled fault in truncate
+38c9c22a85aeed28d0831f230136e9cf6fa2ed44 ntfs: fix use-after-free in ntfs_ucsncmp()
+bdeb77bc2c405fa9f954c20269db175a0bd2793f fs: sendfile handles O_NONBLOCK of out_fd
+da9a298f5fad0dc615079a340da42928bc5b138e hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
+c80af0c250c8f8a3c978aa5aafbe9c39b336b813 Revert "ocfs2: mount shared volume without ha stack"
+918e75f77af7d2e049bb70469ec0a2c12782d96a s390/archrandom: prevent CPACF trng invocations in interrupt context
+cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_page_reuse()
+5de64d44968e4ae66ebdb0a2d08b443f189d3651 Merge tag 's390-5.19-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
+1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
+39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+9e033cf7dcabb8ca1db4cd9209ddecbf3ca5be44 Merge branch 'linus'
 
-b9ad667059d72713729761fa3d9e087cfa065e52 2b5002e2cc1483b6333d31e21902b78a1997909e refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLg3xobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rCIQAJuwdLoKIWha2GK5FToS
-T7mhRlcEDX5FmHJa0/xLkIRvv8lEF9oVHPZg+jtzOFiV9OE+WymXbmu52AAUm6Hk
-/8QuaWvZZUkMF1tWuMKRJ3NuVZeuFI8/4q0ptrFnwdPZRZZLWQbD2VUTYfhxAygJ
-L+I068NCA0H4olEtIpU1QSFSOd6UQ3Ao+0mAVRcXXMPSmh4oGpQu5BPt01teS5c+
-HX7oq8uLK/wvgyRE+ORd5D0uLKhg/H8+VUQvqaYZ+/QJk0alqYS3Ja3mMiH2ZlRp
-+R79QjOVNL0yMQ8qwplxzk5cmdCJYOUcFrQGYmeKzLsWPFsOQos8VcaOEHDxUY3r
-uv5qX5lu71b46KUiv+f7HcijYiSclrKWMgsmPFZmic3oswY8gMLlu15AAPaoeehr
-o2t0gnvW+KSQy9bl8/EHIJ8dATwsJka08vPtd7Q0zmhTS/KMe4/UT+fBEoBFOfwd
-0v8OjfSDNWES/iFR8vrTHwPafJrPQGS+IM0kXcBEsK7qZT8ZjuOl+T4rkh3GCtrg
-+IJhanUXcgbes5hDuuwye3SHzbHDzDPlxcEh6B5muUKsb8qo0WDSUAMMJUt+Ivei
-twkFhwipz/M2l+y3Eh5baRzPjYzs3VRh61M8Wj9VEWQD4+xC4Sh83c+tisIjsyv8
-Eg1qNaV61t05yrFspkrooGGj
-=HTem
------END PGP SIGNATURE-----
-
---===============0793091127739876539==--
+--===============0929891283656977281==--
