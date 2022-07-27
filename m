@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0929891283656977281=="
+Content-Type: multipart/mixed; boundary="===============6934036590246930913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 27 Jul 2022 06:46:44 -0000
-Message-Id: <165890440457.6578.8506775342382680836@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 06:47:10 -0000
+Message-Id: <165890443021.6780.16924917956210307938@gitolite.kernel.org>
 
---===============0929891283656977281==
+--===============6934036590246930913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 776db515ca7e2787800c105e58d36dfb11cde8d4
-    new: 9e033cf7dcabb8ca1db4cd9209ddecbf3ca5be44
-    log: revlist-776db515ca7e-9e033cf7dcab.txt
+    new: 2eac2b956b6d26d510a20ac11626072d2e8c1447
+    log: revlist-776db515ca7e-2eac2b956b6d.txt
+  - ref: refs/heads/master
+    old: 9e033cf7dcabb8ca1db4cd9209ddecbf3ca5be44
+    new: 2eac2b956b6d26d510a20ac11626072d2e8c1447
+    log: revlist-9e033cf7dcab-2eac2b956b6d.txt
 
---===============0929891283656977281==
+--===============6934036590246930913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-776db515ca7e-9e033cf7dcab.txt
+Content-Disposition: attachment; filename=revlist-776db515ca7e-2eac2b956b6d.txt
 
 07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
 0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
@@ -43,6 +47,42 @@ cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_
 d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
 1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
 39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-9e033cf7dcabb8ca1db4cd9209ddecbf3ca5be44 Merge branch 'linus'
+00d44dc8bd66907b793123130dd32ccf4a6a6bf1 Merge branch into tip/master: 'irq/core'
+038d71765d5a7121117c981d3d1821fdb18f3f2a Merge branch into tip/master: 'locking/core'
+5f8f615614b17f0013c326554120dc26f8bd734a Merge branch into tip/master: 'perf/core'
+392c0e3137996f115bcc85ba7515f2bbf666cd91 Merge branch into tip/master: 'ras/core'
+202801fab41182b97f7fa75e52602aa0bc14c6ed Merge branch into tip/master: 'sched/core'
+5ef3188aafbc0230d3a71d7536631e7869e76760 Merge branch into tip/master: 'x86/build'
+3f6439458e8b303b345ab17197cfa2b1289b6845 Merge branch into tip/master: 'x86/cleanups'
+cd1fe0e06c7c480e262ba78376610fc85bd801c3 Merge branch into tip/master: 'x86/core'
+4a5fa4b0a6c112e8edb6a7d3756ed500217125aa Merge branch into tip/master: 'x86/cpu'
+e83ad807402a2d5757a67a01a8d477f10f280b23 Merge branch into tip/master: 'x86/fpu'
+057426d888c501e787d1a85c308b4e9edc39857a Merge branch into tip/master: 'x86/kdump'
+ee95aee255397902093eeae7ddfa5b4c6369f465 Merge branch into tip/master: 'x86/misc'
+93d03c7b87f5f5bf73d47dc82b9bace089ed4d37 Merge branch into tip/master: 'x86/mm'
+10c16c0800769a83ba37cc79c23842c266cda72a Merge branch into tip/master: 'x86/sgx'
+2eac2b956b6d26d510a20ac11626072d2e8c1447 Merge branch into tip/master: 'x86/vmware'
 
---===============0929891283656977281==--
+--===============6934036590246930913==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9e033cf7dcab-2eac2b956b6d.txt
+
+00d44dc8bd66907b793123130dd32ccf4a6a6bf1 Merge branch into tip/master: 'irq/core'
+038d71765d5a7121117c981d3d1821fdb18f3f2a Merge branch into tip/master: 'locking/core'
+5f8f615614b17f0013c326554120dc26f8bd734a Merge branch into tip/master: 'perf/core'
+392c0e3137996f115bcc85ba7515f2bbf666cd91 Merge branch into tip/master: 'ras/core'
+202801fab41182b97f7fa75e52602aa0bc14c6ed Merge branch into tip/master: 'sched/core'
+5ef3188aafbc0230d3a71d7536631e7869e76760 Merge branch into tip/master: 'x86/build'
+3f6439458e8b303b345ab17197cfa2b1289b6845 Merge branch into tip/master: 'x86/cleanups'
+cd1fe0e06c7c480e262ba78376610fc85bd801c3 Merge branch into tip/master: 'x86/core'
+4a5fa4b0a6c112e8edb6a7d3756ed500217125aa Merge branch into tip/master: 'x86/cpu'
+e83ad807402a2d5757a67a01a8d477f10f280b23 Merge branch into tip/master: 'x86/fpu'
+057426d888c501e787d1a85c308b4e9edc39857a Merge branch into tip/master: 'x86/kdump'
+ee95aee255397902093eeae7ddfa5b4c6369f465 Merge branch into tip/master: 'x86/misc'
+93d03c7b87f5f5bf73d47dc82b9bace089ed4d37 Merge branch into tip/master: 'x86/mm'
+10c16c0800769a83ba37cc79c23842c266cda72a Merge branch into tip/master: 'x86/sgx'
+2eac2b956b6d26d510a20ac11626072d2e8c1447 Merge branch into tip/master: 'x86/vmware'
+
+--===============6934036590246930913==--
