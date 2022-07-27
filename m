@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5839857974955526389=="
+Content-Type: multipart/mixed; boundary="===============7612634070885018178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 27 Jul 2022 10:06:26 -0000
-Message-Id: <165891638625.31670.16166295439909394493@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 10:10:26 -0000
+Message-Id: <165891662694.2453.2596516471470065366@gitolite.kernel.org>
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,725 +16,730 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 3571eb1152ddcde8baa3306e5fece32406e9807b
-    new: 48910c867a3ea67431731e2b01e66fcc051f0839
-    log: revlist-3571eb1152dd-48910c867a3e.txt
+    old: 48910c867a3ea67431731e2b01e66fcc051f0839
+    new: a88901810f02d29ea201be4e78da34a95288d0d2
+    log: revlist-48910c867a3e-a88901810f02.txt
   - ref: refs/heads/queue/4.19
-    old: 4dd043b62f81fde2180229f6129509ed63fff62c
-    new: 25e928a5f849ce92847fcc2c80a5dcdec07abc33
-    log: revlist-4dd043b62f81-25e928a5f849.txt
+    old: 25e928a5f849ce92847fcc2c80a5dcdec07abc33
+    new: ff0a9c10ca51ae3e1b4a490c7c080b215431b910
+    log: revlist-25e928a5f849-ff0a9c10ca51.txt
   - ref: refs/heads/queue/4.9
-    old: 13a1bc6e6dc782f576e3060e6a008e32f12d5cb2
-    new: dcc21f48b38f86635dd02520cfbd5e01c4235de2
-    log: revlist-13a1bc6e6dc7-dcc21f48b38f.txt
+    old: dcc21f48b38f86635dd02520cfbd5e01c4235de2
+    new: 6d637b437b3657b5e603fd7065f71c7ec9724892
+    log: revlist-dcc21f48b38f-6d637b437b36.txt
   - ref: refs/heads/queue/5.10
-    old: 907417827c0bf0877d362f0c47eadbede5d28cb9
-    new: 8abbb05737e37b2c1069cdbffbdbd78697496011
-    log: revlist-907417827c0b-8abbb05737e3.txt
+    old: 8abbb05737e37b2c1069cdbffbdbd78697496011
+    new: 443f598f0b35dc615517f617cfadfe38114e1e30
+    log: revlist-8abbb05737e3-443f598f0b35.txt
   - ref: refs/heads/queue/5.15
-    old: f65c5a2260337458381853b09125f8e129a7d38f
-    new: 9b798a06ba5ad9c83c2a6d0ff88a1b78499ce152
-    log: revlist-f65c5a226033-9b798a06ba5a.txt
+    old: 9b798a06ba5ad9c83c2a6d0ff88a1b78499ce152
+    new: 045950c56afa1e57d905f84aab883dc2892de618
+    log: revlist-9b798a06ba5a-045950c56afa.txt
   - ref: refs/heads/queue/5.18
-    old: 001b5a2d1731be01484b0fdb21ffbd28626018a0
-    new: f23476f93254f80ce9fcc7be15e69e2f7b61bc88
-    log: revlist-001b5a2d1731-f23476f93254.txt
+    old: f23476f93254f80ce9fcc7be15e69e2f7b61bc88
+    new: a899f7c7616b209ac59eae952a857f068faabe92
+    log: revlist-f23476f93254-a899f7c7616b.txt
   - ref: refs/heads/queue/5.4
-    old: 2d60aa045bf6d012ca0ac87900ca171daecfc881
-    new: 6fa09712cba7e1d703471bc022080555ea4d6cfb
-    log: revlist-2d60aa045bf6-6fa09712cba7.txt
+    old: 6fa09712cba7e1d703471bc022080555ea4d6cfb
+    new: 4911e9b5cda82bb046541a8c09b17bcfbc1baf78
+    log: revlist-6fa09712cba7-4911e9b5cda8.txt
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3571eb1152dd-48910c867a3e.txt
+Content-Disposition: attachment; filename=revlist-48910c867a3e-a88901810f02.txt
 
-65551789f0453b6691769efbcc9ff6ada593c487 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-55bf293bcb7bb59f4a6a74ca12d8788f650b2ef7 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-3d138902858d59700db13bc4004eb26203a216a8 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-d353ed7367a050ec438b7a4e774b1c54a991f0ae perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-a7984a713c424278264d4b93cf2b0234ef05144b ip: Fix a data-race around sysctl_fwmark_reflect.
-89fd2e120bb81aaf71e88776d6015bb4c9d06514 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-4a5bc1c35b6a595aeb7342b87fd4872b1be1d6f6 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-bf47aaa8fd1cb016c43be2a202e85cdcde422f3b tcp: Fix a data-race around sysctl_tcp_probe_interval.
-09b78e70b379748f87ef2b1ad9b9bd10c0ffcbc6 i2c: cadence: Change large transfer count reset logic to be unconditional
-324844ceb59e276a7ee0efc332fb9387715595aa net: stmmac: fix dma queue left shift overflow issue
-65a12ffbd3c505ea08ca035c759811ba2fdd152e igmp: Fix data-races around sysctl_igmp_llm_reports.
-8527be727355b59825ec607ff9e610dec37f7d75 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-f8d6d09757b3cfa27aff0baf6570b62e7d79c939 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-0ae87900637a8c1c20ad52666899c5cb43d54a9a be2net: Fix buffer overflow in be_get_module_eeprom
-db19bfe60c4f854256ea7463241c3fc874d27a1a Revert "Revert "char/random: silence a lockdep splat with printk()""
-f0bc5d061ceddc07c3946a2b2d3dc4c9e308108c mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-ddd8c3b7b8c23ee2a630e548576040b099a17160 bpf: Make sure mac_header was set before using it
-0b771db726c16a6b6f8e8dbc1b9bf24e7bac6ed5 drm/tilcdc: Remove obsolete crtc_mode_valid() hack
-eb010f316aff86ea7d88f937a8eafe79ac2bdff9 tilcdc: tilcdc_external: fix an incorrect NULL check on list iterator
-4471afac23282b8d7c48b640f248c4357265d3d1 ALSA: memalloc: Align buffer allocations in page size
-2c0249aab375c7b2fea2944480e989d2a71f9249 Bluetooth: Add bt_skb_sendmsg helper
-ac65c69a58e531ba4974cdb864c480970b748714 Bluetooth: Add bt_skb_sendmmsg helper
-d0e8cd6443751baf567fd5b2ad80d275bf7bf3c0 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
-8ee3bd221cefbb3bbebf94cab0bc961a81699636 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
-16ea7fe94465d3b18ad0ffa3f702a902f28c2d6d Bluetooth: Fix passing NULL to PTR_ERR
-8bafc17e86cdcfbc8dfb8909898386e76ac3bdac Bluetooth: SCO: Fix sco_send_frame returning skb->len
-4a5fd0641481d385bf3acb99c5671690152ad731 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-123e55d0cbe315d4e191d56904fe8d001f0383a5 tty: drivers/tty/, stop using tty_schedule_flip()
-df78f6ed2a97b38a1f499e0a586d0e79fd7fff7c tty: the rest, stop using tty_schedule_flip()
-bc739ff061fd214e334243dc04a6216d17152659 tty: drop tty_schedule_flip()
-5e1e88e480d09a88818dc4ed53d29fd69c296e85 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-48910c867a3ea67431731e2b01e66fcc051f0839 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+b505d8082960e565f67acc51c7f803987e7d7735 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+7ffa491cacbbec3e444254c25a528c0620a2901e xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+92e01f2483fbafde3e693ee009f115adacd19fe7 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+303ae9ee2d0f4f4ade147c733953591fde0b7246 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+7c6127bd24281e2591fe6f12d70b25aedb54e9eb ip: Fix a data-race around sysctl_fwmark_reflect.
+79b1c69b4b5d97c778290d57f75d7a117eaa7457 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+4b9fd1d5359feba9d72e46185033bab0b7c3159c tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+8420b25ab4709a412a58523e9a90e99158027304 tcp: Fix a data-race around sysctl_tcp_probe_interval.
+70dcb85c906e251cd0a0c718d158323df4ea446a i2c: cadence: Change large transfer count reset logic to be unconditional
+087b8219e59f03306543b3a1925abf62b20ad057 net: stmmac: fix dma queue left shift overflow issue
+1ae854e2850851087685e6a6bbe46d43275c089f igmp: Fix data-races around sysctl_igmp_llm_reports.
+34a3daddaa7746be2386c873191be0080d7d6d51 igmp: Fix a data-race around sysctl_igmp_max_memberships.
+d70c865eca8758a1ecfaf192ad431d425863f963 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+cecec49db1fccc064c5a0f48320f145b0f6cde7c be2net: Fix buffer overflow in be_get_module_eeprom
+49531f7b764376af5e77ebce243e59358cf7d272 Revert "Revert "char/random: silence a lockdep splat with printk()""
+9eaa2488acd626432111253eaedb096244e043e5 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+8354a0454200c78d0b586a0b0d4bd47dfdd9c209 bpf: Make sure mac_header was set before using it
+f17b0ba3f03db0a63829db35153865998ce246f0 drm/tilcdc: Remove obsolete crtc_mode_valid() hack
+c5a1c3eaafa722443eece70e07151aacaa94560f tilcdc: tilcdc_external: fix an incorrect NULL check on list iterator
+f0e1aa8dc7b721fbfb5732b5cccfa9b85c2a2ab8 ALSA: memalloc: Align buffer allocations in page size
+b01891f1a860c9bf4e3742e535e8a1c581f73c7e Bluetooth: Add bt_skb_sendmsg helper
+e05a528a2031b552116277f820ebfcae0daf296c Bluetooth: Add bt_skb_sendmmsg helper
+c3b6c9f84802cf49954980211eb4e611358a1f4a Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
+8d27323a6ea7eeaf5e4a182cb4be99d8a044bbbe Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
+2bb181bcb87d925d1124a4141a167d9e34083685 Bluetooth: Fix passing NULL to PTR_ERR
+28869bfa3c54ef143160b744d888ccafe3941c84 Bluetooth: SCO: Fix sco_send_frame returning skb->len
+7b6700a9f4d1b02121856215228607868e4b8ae8 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
+1391a020a79e812b947e907081c798dca5458e0d tty: drivers/tty/, stop using tty_schedule_flip()
+36e074538b8d36fccba1c1e8dddc34dd209d370d tty: the rest, stop using tty_schedule_flip()
+4ed8f99a3729c2d5b4d34d6b80d9202902098d79 tty: drop tty_schedule_flip()
+f643fbea70f799d9291b0a9a638ad061eb082091 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+a88901810f02d29ea201be4e78da34a95288d0d2 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dd043b62f81-25e928a5f849.txt
+Content-Disposition: attachment; filename=revlist-25e928a5f849-ff0a9c10ca51.txt
 
-d72ae6d99cb239f2dee412999843435aeb26bef5 riscv: add as-options for modules with assembly compontents
-f57273fb0bef37ed26f4cd2274b9d899ad10c324 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-0be39f8e1bb8e803ee3edbdb6aec1249d6a49bc1 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-b1316f305957e09cf7e61c576cac1cd493e2d1be power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-9ae8f2f9147483393ba1efdfe6bd7d227aca30a2 pinctrl: ralink: Check for null return of devm_kcalloc
-af43000e8a576dc73661a8ac7fc01a880fd42f0a perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-a6a0c28e7a04a22731aeae82d255fd6576907dff ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-2a4e5d4c5adf38352be977cb2f1e34a94787cb3e ip: Fix data-races around sysctl_ip_nonlocal_bind.
-9b85ea3f4bd57c2c3aaf86421c8014ea8d6b00fc ip: Fix a data-race around sysctl_fwmark_reflect.
-863c1fc4e24dbe7963b516f3bfeac5685ab8c251 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-b75db6b77b3bae2b28785654487823cd8d5df8b9 tcp: Fix data-races around sysctl_tcp_mtu_probing.
-3a716d2290242956674f13303e5a2ed72abddca7 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-249414f67b32ae0598dee09cbfc3a73eee17d881 tcp: Fix a data-race around sysctl_tcp_probe_interval.
-35f7f5b513a73f35512d411f1b44de6536d7ec14 i2c: cadence: Change large transfer count reset logic to be unconditional
-591ccbd3f85262c0ada4239ab08407b1881a1bdb net: stmmac: fix dma queue left shift overflow issue
-fdbe0d53e534d85bc3effd99eb056cc340ab642c net/tls: Fix race in TLS device down flow
-45f8580b683b8cefcf0a76232a82a49f3edccd2c igmp: Fix data-races around sysctl_igmp_llm_reports.
-d19718ed589aad849adafb8258c8eadbcbe802f8 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-606068aa524a43a65e21599bab215bc30f3cdd8c tcp: Fix data-races around sysctl_tcp_reordering.
-e1bd9fef7bcc738a14dfe414cb05bb91d3da286e tcp: Fix data-races around some timeout sysctl knobs.
-bdddcf66f887da47b801b6a97551b552aae723f4 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-d42e0394d13d4a7ddc8b135150dc893ebdba70e0 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-44c9abba239ad404fceb8342035f9bf273cd9ae7 tcp: Fix data-races around sysctl_tcp_fastopen.
-f1f45a7e35557529b4488dc0f4d6029ddc27fd82 be2net: Fix buffer overflow in be_get_module_eeprom
-6edc8b1cf548a61ecbf055f4f141aa411fb38e16 tcp: Fix a data-race around sysctl_tcp_early_retrans.
-2ff98ae3dd8e56f29568e2404f364bc0b4cf3c98 tcp: Fix data-races around sysctl_tcp_recovery.
-572cf4bf7c7ad13092f197db75722ca86168cf45 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-85cb865bd8605c1adae1ba9b2c0459681c95f294 tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-8c7cae8260556aa4a6e611f684ec546508639a31 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-b0920280cab3a978a64e3636305e3188c74281b7 tcp: Fix a data-race around sysctl_tcp_stdurg.
-cd98987d312eaf78e2d83f3c7138dca90aece175 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-ff92c863d0202149afc20e9c98e4585ace5abfca tcp: Fix data-races around sysctl_tcp_max_reordering.
-b37335d3ae572c63503bb3affdba21d2514a4f87 Revert "Revert "char/random: silence a lockdep splat with printk()""
-001cc12ea9cedb41697e72b7aede7f7443ed652a mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-770ced27a6718f2a7946c1b9934cfbdbc3334590 bpf: Make sure mac_header was set before using it
-9e9213ba0f3ab8a38f763be392c8e931f1a7cf10 drm/tilcdc: Remove obsolete crtc_mode_valid() hack
-450696e686ada68a5b9e2f0960860d2d10266040 tilcdc: tilcdc_external: fix an incorrect NULL check on list iterator
-9c44eb2f43828d1debc01e1212343a83ecdb9823 HID: multitouch: simplify the application retrieval
-2a4ba27fae9c82cc2473cf37cec5270397f299bb HID: multitouch: Lenovo X1 Tablet Gen3 trackpoint and buttons
-b3a76f828de6180af39d91bdb59ef1f469a4bbcc HID: multitouch: add support for the Smart Tech panel
-7ac7baf5a95b8f18c5a32fd49868c29f4352f9d4 HID: add ALWAYS_POLL quirk to lenovo pixart mouse
-e0b074ff413622b74e43ebfe8c4cf49f98be4032 dlm: fix pending remove if msg allocation fails
-c64d44a371cc043a546533e9df2c654ef92b7c1d ima: remove the IMA_TEMPLATE Kconfig option
-fb0770dadbf0e6e4c763c2f07336748b3ebeba26 ALSA: memalloc: Align buffer allocations in page size
-114baff585624ada402bf1abd94bd208e950eaa3 Bluetooth: Add bt_skb_sendmsg helper
-19e9d7449f7ee853e450a544f2a313e6f43653a8 Bluetooth: Add bt_skb_sendmmsg helper
-94a25d8362927e58d3a99b273695f52817be11a7 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
-8752266dcd050359221d71c504e3527f65d9aa4c Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
-f24d7041e2c2f530ef621f34ce9271fafc230ee2 Bluetooth: Fix passing NULL to PTR_ERR
-963b4c7e04cc2b097a782573e9101901551527df Bluetooth: SCO: Fix sco_send_frame returning skb->len
-ce29dc3a5b938231d673ccbca083e1599cbb5d46 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-88438775cf3a38bff5eaa47d80fb2cd459fb0ef8 serial: mvebu-uart: correctly report configured baudrate value
-28aa24ec01159fa4d446368a089a7e0dff703818 tty: drivers/tty/, stop using tty_schedule_flip()
-33d1f87fa054fb63b5c4ee0e39027b26e01e1fd8 tty: the rest, stop using tty_schedule_flip()
-417c135eb73c7d73b4a9d1948ef6e78d665a4964 tty: drop tty_schedule_flip()
-190950fc82ec3c88fd724b8f6e72bcb90281a168 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-25e928a5f849ce92847fcc2c80a5dcdec07abc33 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+9b07075d5af7266bced711a6d194e499a9207578 riscv: add as-options for modules with assembly compontents
+941e19128351acddd2b6eb724959da69defaee59 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+3ccb355d93c14c6ebbd31f3ddc744339dadd9a33 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+d8595efa713f370820fa873b76d442b73b41a95a power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+118eacc200b1b21bbabfc8697264e76163e5e807 pinctrl: ralink: Check for null return of devm_kcalloc
+2da89797daee3accaf56fbed7e4526269a94d150 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+d7d8feaf256825b7bc8ea0de84f06f3b7b6f38e3 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
+d4dc6c5ea2eb02f449a674419e7f3b0d40d46dd4 ip: Fix data-races around sysctl_ip_nonlocal_bind.
+fce037cfe236acfc2c78ed2be16e9974b4c8dd0a ip: Fix a data-race around sysctl_fwmark_reflect.
+aa3b93cd8eb77a1a16e5a4d7540401f5109b10f0 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+b17b7cac7f8a4df77bfe4506231cd14612380ca9 tcp: Fix data-races around sysctl_tcp_mtu_probing.
+361ad89d89cf4e985b799bd07c6d47769f98bfcb tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+feee8b23dcba0750ca3d7a3f7a73e8cd78cfb699 tcp: Fix a data-race around sysctl_tcp_probe_interval.
+6227243ec762af210f4c94ae7db46b21174a6a14 i2c: cadence: Change large transfer count reset logic to be unconditional
+f4349ca0c3b79ff580ecd1633368da570841e13c net: stmmac: fix dma queue left shift overflow issue
+c311311012aa1f3b0802ac40ad46637d2f050e95 net/tls: Fix race in TLS device down flow
+dd6d46f7755727672fb15473902aced337ba7264 igmp: Fix data-races around sysctl_igmp_llm_reports.
+03f315f17e48036b5f1066c6582aeea916788872 igmp: Fix a data-race around sysctl_igmp_max_memberships.
+f0f3ed732ae3a9accc7ac6041799d6d852c9c6ae tcp: Fix data-races around sysctl_tcp_reordering.
+2ead0a0858ede151702a5634623c301e54cda3cd tcp: Fix data-races around some timeout sysctl knobs.
+380fce4fe8a90ecdb9ec263feb0b1e9d7120dbdd tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+52e4b4ba275a3dbfdde17b47f8e0e81a3596fe68 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
+42a3974e4ed7afcf5f3571b43a5b5295d555c720 tcp: Fix data-races around sysctl_tcp_fastopen.
+594143b7b48f78fb759da9a363ee7abaa882fdf5 be2net: Fix buffer overflow in be_get_module_eeprom
+e7d78c75f9b85562d26a0ee97e9387a2f42e25d9 tcp: Fix a data-race around sysctl_tcp_early_retrans.
+b97716b4eaa69e02f54f57b6fd759f01648bc890 tcp: Fix data-races around sysctl_tcp_recovery.
+2a1da454c785ec986c4295b1b09ff3e4dd8ea43b tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
+fbbd86024c1530193ac5f323cb61125a2eb60513 tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
+2a2708fabceb8e05a50ae1233eec2f7b5ff57863 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
+d40e1042cf629861bb58f7f3a4f0fb63696def79 tcp: Fix a data-race around sysctl_tcp_stdurg.
+f19da3eef43cb970d2195762d7bc0975bd513cdd tcp: Fix a data-race around sysctl_tcp_rfc1337.
+e375d36e4b74970e5403638599d2eef3de47f92c tcp: Fix data-races around sysctl_tcp_max_reordering.
+5e6c8a9880e024707cef8fd4efef161f60abe754 Revert "Revert "char/random: silence a lockdep splat with printk()""
+f6b29b21fb6f19bb82951f38524ed1563ea8e3df mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+ec69f2af4fe655ace6f68f7928c253b4836fcbcf bpf: Make sure mac_header was set before using it
+608708e4dcb4177807557e36e738eeacb8fa97a9 drm/tilcdc: Remove obsolete crtc_mode_valid() hack
+b8b74b5670c9a08adce0b93143475a1dd81d6ee8 tilcdc: tilcdc_external: fix an incorrect NULL check on list iterator
+728cf0f323d9487fed6d54891b4deea55d3a2d48 HID: multitouch: simplify the application retrieval
+b6cf478014103cf5265b60c7895e03f00062b6f7 HID: multitouch: Lenovo X1 Tablet Gen3 trackpoint and buttons
+c098918b1d974f8118d60e059bf3b6438b84300c HID: multitouch: add support for the Smart Tech panel
+ab56c7e0ae0af71d54ba4ded64da689b308289ac HID: add ALWAYS_POLL quirk to lenovo pixart mouse
+df43f0d12cc3cacf25e15226931a4a623f06e1d1 dlm: fix pending remove if msg allocation fails
+16738eafd67d82078c9d2c810919f4c30e7b46b3 ima: remove the IMA_TEMPLATE Kconfig option
+e473af0e17dcdf31bed82e709b2d5182172f997f ALSA: memalloc: Align buffer allocations in page size
+ce74ca67d1e361874e4b645c13765ceb34c1b2fe Bluetooth: Add bt_skb_sendmsg helper
+0018e0a9a27273a3f3af396d67c1b229459aa833 Bluetooth: Add bt_skb_sendmmsg helper
+7b01a6d7406289ea6ffc203753cbb40e12ae2b35 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
+0b6c8a0ee83b0ce7a4a0c2197f09378fe2316df5 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
+0081a70a38aea77e96197a2c9e6659b9707625d4 Bluetooth: Fix passing NULL to PTR_ERR
+3b7a6e77c60c7b361e250083a6854ce34da4e74d Bluetooth: SCO: Fix sco_send_frame returning skb->len
+b521e81044532caccd41a26ea84d66b919090de4 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
+f22bcaba89fc66d07142f17a3094db0d76554060 serial: mvebu-uart: correctly report configured baudrate value
+4bdb69090872b8474fdbd0428ac8bcf4e74f4ae1 tty: drivers/tty/, stop using tty_schedule_flip()
+59411f676746bca77a0b428198076ececbca8d18 tty: the rest, stop using tty_schedule_flip()
+2c7734ec7df6795e62583de2eb163fe05d615a5b tty: drop tty_schedule_flip()
+2ac83df8fda86a9a6d3a77363a8ee82bc9561513 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+ff0a9c10ca51ae3e1b4a490c7c080b215431b910 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13a1bc6e6dc7-dcc21f48b38f.txt
+Content-Disposition: attachment; filename=revlist-dcc21f48b38f-6d637b437b36.txt
 
-10ebd038d90b7ad12d9de3627cc4b9c882eb6959 security,selinux,smack: kill security_task_wait hook
-0c545792e46f4310fdf7a972876795e892dc7276 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-7a53771a69cc52393df04bd96dce0e9176526f01 misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-266eda7602d5103b0d6fda69860bf3ca6c0d5ae9 misc: rtsx_usb: use separate command and response buffers
-d7920047ca82ad25f491aeffe82689fbddf19f35 misc: rtsx_usb: set return value in rsp_buf alloc err path
-4d51fed07e7c42cc84c2d9c30f8bf2e9b3d28542 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-32a7e8b72bb58ed1f20780bca2ea76cfbc5f6a10 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-22144b1eee74ecadb051d503cfd45d25d1b090f0 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-75cfbd177f0828f2f23284ef18d86ae1b4e711ef ip: Fix a data-race around sysctl_fwmark_reflect.
-022463e93023cc6b69d9970d15a3f1038a1d1360 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-5533907a1c502ae10250717b576e8e6664571715 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-933276a8928915977eb193a4649c9bc2ca375924 i2c: cadence: Change large transfer count reset logic to be unconditional
-10ca3099fbaf5d4571557e81becdd901ad51d609 igmp: Fix data-races around sysctl_igmp_llm_reports.
-5be48d9887e9a5937d5df34c493631ca351543f5 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-ad2cf71f1c1a9f88852284b7eb1d07048747f647 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-348a77f4df673ee8bc60f69259369c6d0607436c be2net: Fix buffer overflow in be_get_module_eeprom
-c52f6cd4b5aa8d4aee29c70c8929fd69ef6b099d Revert "Revert "char/random: silence a lockdep splat with printk()""
-8bb2f5861b39cc2619354071d09f67474c97a52d mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-906ce0649545b7ab7878a160f04b3da75ae3c562 bpf: Make sure mac_header was set before using it
-dcc21f48b38f86635dd02520cfbd5e01c4235de2 ALSA: memalloc: Align buffer allocations in page size
+bc880d393d775e773d5bbcb8dc358ef2f1d34f77 security,selinux,smack: kill security_task_wait hook
+1185453b4e2eb3873c6294084d93e5ebe56ff686 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+f014474a6355c393a92a4cc912e4885bf1e9ea90 misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
+787234b8706dbbac78cf1b6c7a0e173387ef10d0 misc: rtsx_usb: use separate command and response buffers
+637a8c7c46b83c9bc58ab5d33d1b42be2f02d505 misc: rtsx_usb: set return value in rsp_buf alloc err path
+e300f40d99e4897941faadd134074acaaf912396 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+f2eedd38b602a32434de55b7bf7d2dfd3ba93e6b power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+5e41f201fe31ab9898794d115d2e1b5febc3be8f perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+49a9fc3adc6e169ec0c5f74d97fddf2c0ae0686b ip: Fix a data-race around sysctl_fwmark_reflect.
+0507a810ba8efb048b8dee814fba472aa303423d tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+ab18e1aed88dbc4fda98248356a3b64aa240c32f tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+8d677824c38fe7cc322e8d19ec260211ce39237f i2c: cadence: Change large transfer count reset logic to be unconditional
+59dc52e9aa662855829fe5edae2506cf4808ca6c igmp: Fix data-races around sysctl_igmp_llm_reports.
+156b93adacd1563f8da28ab78e8e0e963fe8e9cb igmp: Fix a data-race around sysctl_igmp_max_memberships.
+b06004f04f8792c0967230cc1dfe1febccb3f3bb tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+1bc37acd4c01074ea12fd5b4d022e508146f747b be2net: Fix buffer overflow in be_get_module_eeprom
+83f9b59d8ed6605698d7a7a23b284b470d2a911a Revert "Revert "char/random: silence a lockdep splat with printk()""
+fd4ca9555e91e55505b24bd9f73af7eac37c53a1 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+103569d83847544e71bf4f8879bb6e2d630524c1 bpf: Make sure mac_header was set before using it
+7030c2d34f7597869d8710fca0c8646b3a0991d2 ALSA: memalloc: Align buffer allocations in page size
+c27efed55aafcc3054b8d8f1751226d157984d66 tty: drivers/tty/, stop using tty_schedule_flip()
+b743001826d1d95d6043ccbfca4823d0fc21620b tty: the rest, stop using tty_schedule_flip()
+57505994c95258221c3c3c5e1d18d818497d5f30 tty: drop tty_schedule_flip()
+d338bb14f70f25e9e5782773395a67fcdb2cfad3 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+6d637b437b3657b5e603fd7065f71c7ec9724892 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-907417827c0b-8abbb05737e3.txt
+Content-Disposition: attachment; filename=revlist-8abbb05737e3-443f598f0b35.txt
 
-b3925f93d2381f26f27ab549f4bc889b52556c47 pinctrl: stm32: fix optional IRQ support to gpios
-8be1c7a7bf2caeebefece87215d86b71ebfd612f riscv: add as-options for modules with assembly compontents
-33f23da6739e0c2b517979212afc406ea46d872a mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-72eaf05df03e8ec9bbbe3d30d4fa4300da142786 lockdown: Fix kexec lockdown bypass with ima policy
-d100663f0ef89f77cae9e5b432c52aa36085ecef io_uring: Use original task for req identity in io_identity_cow()
-66b20e7a5e40ab8caa4d9f863b883aa00fdaa1d9 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-2cac1accbec3849e132f2faf29862f9b2fcbb50c block: split bio_kmalloc from bio_alloc_bioset
-14eaaab283827518675baa1d4c5684785aae329c block: fix bounce_clone_bio for passthrough bios
-9b59863fa323d84a415155de70806c9be4823c6a docs: net: explain struct net_device lifetime
-8674a923d75372f63f748d238503d00c577e8019 net: make free_netdev() more lenient with unregistering devices
-f5aaf3c0bad7f92be687d8310ca4e9e08b2a1e40 net: make sure devices go through netdev_wait_all_refs
-346fd5dd93f411beb6a0affbfa33ca036b5affa3 net: move net_set_todo inside rollback_registered()
-764e0dca23c100ce16f2aa677e7ed6ae10ed06f4 net: inline rollback_registered()
-05c352884898e53c8b900f45be1a7bd3c0a2650d net: move rollback_registered_many()
-be8aec3acce8633795b19c23917b6978131bae60 net: inline rollback_registered_many()
-f3c687667a8a291e6885b6b00955e30044ff4b83 Revert "m68knommu: only set CONFIG_ISA_DMA_API for ColdFire sub-arch"
-d078f094d98302cd111f95acc77bb71f1d1a1289 PCI: hv: Fix multi-MSI to allow more than one MSI vector
-13f35465a2bc7bba05fb96db8a306f3f94f20192 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
-39f53e6715bbdb17cc0514e5b670828279db1108 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
-f88e2e10a74d7d598ee69ae6cd367c31ce9c1e5c PCI: hv: Fix interrupt mapping for multi-MSI
-160fed2630e5e5adeb5dfbb5190aa93cd792d9e1 serial: mvebu-uart: correctly report configured baudrate value
-0889b1901287e81ff762fa0811bd1951475f9edf xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-8a84e9111211d85f52b9ecaef924b6bb3a3c742d power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-b7731e85573209f7c24535b03bbc818214729634 pinctrl: ralink: Check for null return of devm_kcalloc
-1696101b17725228251846f955747f2a89d364f9 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-0bb1b55e648eae2e069b862f21f015c24942cf26 drm/amdgpu/display: add quirk handling for stutter mode
-10e6e3a41f5419a2e4749dda42be143d82e36dbd igc: Reinstate IGC_REMOVED logic and implement it properly
-af4f8dd9494b2eaa087282e0927cbab1d7b77fd8 ip: Fix data-races around sysctl_ip_no_pmtu_disc.
-777dcb67ef854ecb1786a1c19ee3ceb16696d9a3 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-ddf99b3716e70b8d767d41b3f4008835dd451358 ip: Fix data-races around sysctl_ip_fwd_update_priority.
-cc4770daaaf0a9ed1fbae18d21c9b1dfa6670dd8 ip: Fix data-races around sysctl_ip_nonlocal_bind.
-be699f67881f23213b0bbf8dec2287012ef7760d ip: Fix a data-race around sysctl_ip_autobind_reuse.
-108780c672a9eb80831c234ac21d7105b25714ad ip: Fix a data-race around sysctl_fwmark_reflect.
-9f21de4380b9851cdb66b7ae195789dc26596251 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-dde954f7cb50ce0d3513ef0162ca704d2d9bf315 tcp: Fix data-races around sysctl_tcp_mtu_probing.
-cbf94cb5540f96c4e080d32b9ac158c47233f24a tcp: Fix data-races around sysctl_tcp_base_mss.
-8b1e88d9f8693c934dcfb8372f1034f6cb36672d tcp: Fix data-races around sysctl_tcp_min_snd_mss.
-2330447bfddacb0cb89e532c1b5e0ea7a10fb377 tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
-6b5df5e53f6eec0a41a2ebb9115dc8d02d7a29bb tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-804e4ebcd53a007f61b509912a9ded239394c795 tcp: Fix a data-race around sysctl_tcp_probe_interval.
-5a781832cd9732b5e6048f5eee2c7e3b5db4607b net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
-9bbc373e1f30b632226cb472f444a792e452ce02 i2c: cadence: Change large transfer count reset logic to be unconditional
-bb6bb46d4485c13948018f625680f2af29ce46d4 net: stmmac: fix dma queue left shift overflow issue
-34521a1510af18d238bdaaf301492522fe1e69a5 net/tls: Fix race in TLS device down flow
-0e6257a7d4a0321c3b66aa6aeea9975fd9d1d39b igmp: Fix data-races around sysctl_igmp_llm_reports.
-46f682b2b57d12abad61ae5d884210c4836eaf35 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-765d812429bce972683e4e6402b3c2449061351c igmp: Fix data-races around sysctl_igmp_max_msf.
-a0250e3e92c83d8e8a55e869080977513b0ca97b tcp: Fix data-races around keepalive sysctl knobs.
-79e64f418e825dd4b9f41d277857d07be823b7c0 tcp: Fix data-races around sysctl_tcp_syncookies.
-84778109b0a267f52b0a89fb084865e06ca3a131 tcp: Fix data-races around sysctl_tcp_reordering.
-1cbc00bc7581cc75c7b32fedb56ccf325b0444bd tcp: Fix data-races around some timeout sysctl knobs.
-0c0f943c23374d66f36e339f6d588dcc19c1f844 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-3bff897a39607a9f3a2dce6852963160d1781a77 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-454d392960de6afe186b7bd70ef7ac54bf9f11c1 tcp: Fix data-races around sysctl_max_syn_backlog.
-9130c29a582f6cd2e8322eb98fdf0e029c55ce65 tcp: Fix data-races around sysctl_tcp_fastopen.
-5ae4b9ee5ea58774e1fa3ff1c10c3ef6629c71f8 tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
-6150d9b3097325b50ecd02a503405e7263ac39ca iavf: Fix handling of dummy receive descriptors
-381971babdfd894fde79f97ea6ef606b9fb7a9f5 i40e: Fix erroneous adapter reinitialization during recovery process
-85353b0bdfd54d216ea11cd75c15d1df2d886452 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-2a63a49d36fe544b7cb93d962b3c6eec03f88648 gpio: pca953x: only use single read/write for No AI mode
-22cfd423385c3bb1cb8ec0ea09aebee06c5fd22e gpio: pca953x: use the correct range when do regmap sync
-dbdaa19cc6caaa04572d5d8c296f4dbaf9547536 gpio: pca953x: use the correct register address when regcache sync during init
-7a388a939a4742daa81a8c8f30761d4ae97959d9 be2net: Fix buffer overflow in be_get_module_eeprom
-850577603c31eb6c7985d53b649a012c6abd8e36 drm/imx/dcss: Add missing of_node_put() in fail path
-b809c7957d1c0fa1d175ca6f7e3360c45801308d ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
-e8a63ecd5d3e116e8bddf7f36705c9ad0259bebf ip: Fix data-races around sysctl_ip_prot_sock.
-c0b1c28556efcab118eeb8c745e81b4a06ae9748 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
-6813025c4ff345bdb481ed22ed9aa0cc048ad51a tcp: Fix data-races around sysctl knobs related to SYN option.
-6679506cf8269a8d49a83380ef03f2bc739a22ec tcp: Fix a data-race around sysctl_tcp_early_retrans.
-db5e6aef75dafc44f297cf73f4f69496cdd18ee0 tcp: Fix data-races around sysctl_tcp_recovery.
-a208e900f71788c530bca5db25ea62d83a02bdcf tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-b496a61ee76d267e7653589ba41639cc4d56b58f tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-28743c8adcce1055d27d39d4d813584be310787b tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-37c37df045adc413f6eb8f0fe8563df9f3136237 tcp: Fix a data-race around sysctl_tcp_stdurg.
-6d1b6c3092b2147db35a5190c29484f3ccf60ca5 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-8f36641564569a9296bfd9dbe96bc6dba9ad3b82 tcp: Fix data-races around sysctl_tcp_max_reordering.
-36cd1bb19e91b968208f9f305bd84e58b12f1fb2 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
-09ef85a17928ab033cbb2948584fe3cd75ee730c KVM: Don't null dereference ops->destroy
-6e05bca47104d0333f96e346fb2d2df758760d88 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-40e5493006da5af185d72fd42c9974ab6c3d2d75 bpf: Make sure mac_header was set before using it
-d254d47cc9828f26016351f929a7afd328a27117 sched/deadline: Fix BUG_ON condition for deboosted tasks
-f20881d8964dc2992145725d5d62d6b672296abf x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
-f020271e05a40bdac48a990d63b1c92becdc2162 dlm: fix pending remove if msg allocation fails
-3e38f41281ae3cc50b201021d4cb60a2bbd91c20 drm/imx/dcss: fix unused but set variable warnings
-665e3c1fbe459ee70490c5786871c4d004b24b9a bitfield.h: Fix "type of reg too small for mask" test
-a51bbf2f477cb1ff27c3341241c824800bfcbaf3 ALSA: memalloc: Align buffer allocations in page size
-690df19648a0c4ec9beb48e20ce8521995a23b2c Bluetooth: Add bt_skb_sendmsg helper
-e4c5f2a1adca4f8c0ffbace4f578c027c62fe0df Bluetooth: Add bt_skb_sendmmsg helper
-e42c2cfe722f99c94e79b7d2ec211f8e5a55a6eb Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
-0db7af39a922dab366dc6bf2e84cb7dc73bb1f34 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
-d2a7cf9e0ecbd5db407551732ef3b7126998bdf2 Bluetooth: Fix passing NULL to PTR_ERR
-74165e0f3b5d3881226077bd640e6805975640bb Bluetooth: SCO: Fix sco_send_frame returning skb->len
-7aff6ddb5fb72467259f95812b8cf55838073232 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-9235a820bfd70a3d2cdb0cbff8c7b368d5c7e453 x86/amd: Use IBPB for firmware calls
-90ad84298616c8de1da4b50ec146550e0e9fc3e2 x86/alternative: Report missing return thunk details
-31676caabffe88f7b5baef3366fc66cc1b9d7daf watchqueue: make sure to serialize 'wqueue->defunct' properly
-d91ba4308632ce2fc7a080458d3c5c887d45ef9a tty: drivers/tty/, stop using tty_schedule_flip()
-161cde973644f10a91d76936696de65cfcd9f456 tty: the rest, stop using tty_schedule_flip()
-1835f97607a325c50ab7be0916bb822b69163b79 tty: drop tty_schedule_flip()
-956f8ecf4e6c90ecb35f733968b8301d0468b5ba tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-8abbb05737e37b2c1069cdbffbdbd78697496011 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+5d1bce910aa2bc8656a4f9efd1f8300cb270809c pinctrl: stm32: fix optional IRQ support to gpios
+3ab3626665a0352cb7b7a23be8c199580127498c riscv: add as-options for modules with assembly compontents
+b5c296d4d998118024c81e5b6ff41314e9470af4 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+a0435c091f972f9694fdd243b82ba00c96aba393 lockdown: Fix kexec lockdown bypass with ima policy
+5c16d9e2fe7a33f68b224f52c84eadeee4d07094 io_uring: Use original task for req identity in io_identity_cow()
+57d3dbe9752c8c80e57b1eb2c8778617f0cee72d xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+8031eae11f9eb3107af35ca99304730c797494d0 block: split bio_kmalloc from bio_alloc_bioset
+43c1cecdb46f2a55b8c1b6b097437d8404bb31da block: fix bounce_clone_bio for passthrough bios
+31d77ae00f4100ca4aaebebd62e4023d5c7524ca docs: net: explain struct net_device lifetime
+245bc3ed33e98a3bd951b6faed6178e68efb6205 net: make free_netdev() more lenient with unregistering devices
+719c644fa570f49aeeb34308689acdaf19cbf903 net: make sure devices go through netdev_wait_all_refs
+4ebfe14187eb99607142ff34b86210c53890018c net: move net_set_todo inside rollback_registered()
+0856a3c7feeff2e9a98a4687428664186bcd3c0f net: inline rollback_registered()
+591fc0a32011644b39569077c659e6b8fbd25a01 net: move rollback_registered_many()
+3d7889d43ab720214e1214d304868248162d86a7 net: inline rollback_registered_many()
+1c2cae29046aad2ab6de21f89e7bad6f0f058c5c Revert "m68knommu: only set CONFIG_ISA_DMA_API for ColdFire sub-arch"
+45fd3b48420eb44a2bfd81f5e40c1406f9766c80 PCI: hv: Fix multi-MSI to allow more than one MSI vector
+d418741ff7dec8dbf13a72716e3b278eb893df40 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
+17be8c7d3780540d1a16fee3d22ee5839e59d4dd PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
+62904ce2a36adb9d4ac021c5dbd31ddeaac28dbe PCI: hv: Fix interrupt mapping for multi-MSI
+f24833b7700e62ec2cfc9387614f2be8efcd04c6 serial: mvebu-uart: correctly report configured baudrate value
+2f8f0a269fc34057f9c7c188b9ec764716dd8401 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+b6afd6fe6d613bd2d962b21f7ba9df8f753d5bed power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+e53690f0b8693b8be8f5d0dfca8ffc2857b04a7f pinctrl: ralink: Check for null return of devm_kcalloc
+20c6d555b62777f44f2e17e5d679004499f54692 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+4f55faf76801205ea20a95668b2481a024e8d79b drm/amdgpu/display: add quirk handling for stutter mode
+9b7ccd723f82a4d382f0276bc56fe15e7e433623 igc: Reinstate IGC_REMOVED logic and implement it properly
+381cf9fa1299f318daf987a9b0a9f8880261209b ip: Fix data-races around sysctl_ip_no_pmtu_disc.
+411936f28602165cdff78f2b218bb088ae0ccbc5 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
+805b3a36f544f6a6289025ae31727998e1a4a52a ip: Fix data-races around sysctl_ip_fwd_update_priority.
+fd3d7e0e246a8117203161967f97fb921021a1fc ip: Fix data-races around sysctl_ip_nonlocal_bind.
+885fffe88a7104105d5179806115d7491985d5c2 ip: Fix a data-race around sysctl_ip_autobind_reuse.
+a37c5605855e022cb7b70a8931ce9e9870887305 ip: Fix a data-race around sysctl_fwmark_reflect.
+b5424f8b7eabf0e25e33f346be9a9534197dcf47 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+2f6c068f8768fd9a5b5d276cf9a13bdcb93ee41f tcp: Fix data-races around sysctl_tcp_mtu_probing.
+229b697a43e6fd166d71613812cd5136b9fc4910 tcp: Fix data-races around sysctl_tcp_base_mss.
+04f40a6bfdb4abbf039d48c7590a57e2e3fef7da tcp: Fix data-races around sysctl_tcp_min_snd_mss.
+d68e4e561b63fdc37d05552bbb7b080b10080332 tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
+aad9610dcaa497f82b18c32f93e7c562a8a9e9d0 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+9ea4a3ccf515646946e394656317461908e0dfe9 tcp: Fix a data-race around sysctl_tcp_probe_interval.
+2dfba7a95293f8ed142502964cf964178e57322f net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
+601e9bf3d4a2b9b6b16f58c76436980230c44e0e i2c: cadence: Change large transfer count reset logic to be unconditional
+1ba493196048df0b9f0e32007ef9fd19dbc8d90b net: stmmac: fix dma queue left shift overflow issue
+8e7d7ff4c60e345521de50e5f6120f68916441d4 net/tls: Fix race in TLS device down flow
+909bcd3b919d439e3e4040abb4552c10d5bde650 igmp: Fix data-races around sysctl_igmp_llm_reports.
+762785f8f62493b6b6c62262ddc2a7b805260e9d igmp: Fix a data-race around sysctl_igmp_max_memberships.
+0c229cc2895430f98758051227ec2bd9ce4ac771 igmp: Fix data-races around sysctl_igmp_max_msf.
+3ff091dc780388b75d7c114da4d269544a6f50b3 tcp: Fix data-races around keepalive sysctl knobs.
+970a8f631d869930b15652659e7befc4a0d26440 tcp: Fix data-races around sysctl_tcp_syncookies.
+3b05a7d670e42d605d33a84b74fd6a038115ebaa tcp: Fix data-races around sysctl_tcp_reordering.
+1b983fdf9bf4e63703737626580647b28f0b6606 tcp: Fix data-races around some timeout sysctl knobs.
+a307315c57a0753782972cefc75a3ef1aa4ba90b tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+f5fdcc22da93e8736fcf2bc1f302569e02226ffa tcp: Fix a data-race around sysctl_tcp_tw_reuse.
+305a42b0b5c97c3d9854d96db70812ed44410a6f tcp: Fix data-races around sysctl_max_syn_backlog.
+9f8d089b09e5ca94778c0f04e6987fba00158b94 tcp: Fix data-races around sysctl_tcp_fastopen.
+f0b6e293ba1aac2f69983efc2ace438350a68324 tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
+888a43538b8940dcee363ab0950578cc3d5330ac iavf: Fix handling of dummy receive descriptors
+744fb5c546d75e33989a93009ab3900d691f138a i40e: Fix erroneous adapter reinitialization during recovery process
+6261a537e5af8603556f326c87880ddd6c77b90f ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+fe9b143028f5b9343d6bd8eea2d81cfa1c0b97a1 gpio: pca953x: only use single read/write for No AI mode
+ccf376e03f5741a47b7a99d94986c93dbd16b2db gpio: pca953x: use the correct range when do regmap sync
+da1b05b4cadfbb18906271574f2299bc5b3a18a5 gpio: pca953x: use the correct register address when regcache sync during init
+e196b3bafe3cbdd3aa0b9ec5af3abadc95438f57 be2net: Fix buffer overflow in be_get_module_eeprom
+f6ebce795382e1314968d3085e6a8c5fe97af5ed drm/imx/dcss: Add missing of_node_put() in fail path
+a059abfaf7c49e8de815843c2070d404656a0f72 ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
+9302cfe2a9a9256018d5ffc5d90208e0758eba62 ip: Fix data-races around sysctl_ip_prot_sock.
+81f286a7257fe8e937288616f898bb5b84a059f2 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
+c392f6d6c90e1f3b0f60df0afa8a70b3b6938854 tcp: Fix data-races around sysctl knobs related to SYN option.
+0c25aaf7108022749ed675110935e89e7496fa98 tcp: Fix a data-race around sysctl_tcp_early_retrans.
+96f09e18a5be909a55867b483dfe97d935fb4fc6 tcp: Fix data-races around sysctl_tcp_recovery.
+4de11b1593e438a7f38651e5deb50f07c712353f tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
+c66aae1a43ed3a2d7b55d982e675003cd7c5a6bd tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
+23816f8ec5fb4967dc2643c7f5149c380b92a304 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
+bf286edb2bc14792f53994486c206ba6276b7459 tcp: Fix a data-race around sysctl_tcp_stdurg.
+a3c7bf38e0abe1839f37ea288d225d1315515d0c tcp: Fix a data-race around sysctl_tcp_rfc1337.
+c8045e24f7c0a0894e3f25fca842c565f9d2ea04 tcp: Fix data-races around sysctl_tcp_max_reordering.
+5f4a1423a08b0f5a806cd7647dcb278d9a5c8a27 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
+cc59e8b096911b13b5750ef725d63b8d2d61e42b KVM: Don't null dereference ops->destroy
+b60a895c82c25e9fc8e2b7c0c8a07d74f508fa7e mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+e120dccb97b2d34ed38a32842affe038d315c929 bpf: Make sure mac_header was set before using it
+e3a668812191c43273a4ec9ac1a74112e59fe3d8 sched/deadline: Fix BUG_ON condition for deboosted tasks
+1b71302e1af6443a8dc514a6b1456ef93cdcaef5 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+fac66c54463cfdcb03c111d56954a8368dd38c2e dlm: fix pending remove if msg allocation fails
+6981065911b355cc2cfc282d503b8fb463f18020 drm/imx/dcss: fix unused but set variable warnings
+69563fbafb11b97d6fd26b02c8fa71bfa1cd8139 bitfield.h: Fix "type of reg too small for mask" test
+b3de7da65e6ec75800682a288590a8f6ceb7ef47 ALSA: memalloc: Align buffer allocations in page size
+7308f659dd96dbfa3c44b7e77732e44bae7be23c Bluetooth: Add bt_skb_sendmsg helper
+a8bdd1ca20fc21e6c61e7e6f98dbf41cb0ab7079 Bluetooth: Add bt_skb_sendmmsg helper
+637f330eabb30c499497601380dbb3c33e74fce7 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
+47c5e6f0a11cb294d905e7e859744bc4d9b39033 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
+5cdce6cf849e6e40257688f21470b6cc970c1b4b Bluetooth: Fix passing NULL to PTR_ERR
+d95a01946c58faf562c3347a802f98f133d5f242 Bluetooth: SCO: Fix sco_send_frame returning skb->len
+786977b37170818567570803e1c793dbce1cc0fe Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
+81d9639e7a721dbe38f91574a0a19d8752d6532e x86/amd: Use IBPB for firmware calls
+800c308291adcf23cb2587b408829ccf965a6544 x86/alternative: Report missing return thunk details
+2a8bb8e3396508438d8f0a93e027ba5a0a4c1379 watchqueue: make sure to serialize 'wqueue->defunct' properly
+ad9ff52d928421e933c14091de10edea2183e6ad tty: drivers/tty/, stop using tty_schedule_flip()
+2bb6d6a40a9a6f997c90fd8b17ad873389264f1c tty: the rest, stop using tty_schedule_flip()
+5ac36b30fe5e0f3da027eaf28b878208b5d3bf45 tty: drop tty_schedule_flip()
+f84857ff921e670b19437802efa370dbd40bb643 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+443f598f0b35dc615517f617cfadfe38114e1e30 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f65c5a226033-9b798a06ba5a.txt
+Content-Disposition: attachment; filename=revlist-9b798a06ba5a-045950c56afa.txt
 
-0debc33f71e89dd59a172d87cfb6a5a91cf36e24 pinctrl: stm32: fix optional IRQ support to gpios
-d6e1eaa1384f19e83aed72b111358eb04d5c283f riscv: add as-options for modules with assembly compontents
-6f19d08b6ba468bd26ba85627a0c6a2aab064b0c mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-46025c315b13bdec093f93f73a74d855f99e6345 lockdown: Fix kexec lockdown bypass with ima policy
-b8089936f26c0022eb66758a3b61d01044dd63b1 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
-79e5c444db3fdfe932fe8d927f4f04024c47af3b bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
-4e007eb11f11a8c5d0fa48b57d3d5bba851de700 bus: mhi: host: pci_generic: add Telit FN990
-fee52061d818a5e375d9f0d71da1b54dba7e896b Revert "selftest/vm: verify remap destination address in mremap_test"
-94ca654a7a71a2529a56c9a85772d2defa10fca3 Revert "selftest/vm: verify mmap addr in mremap_test"
-629e8f80e38e956a2838d56311d2cc6fff6a8997 PCI: hv: Fix multi-MSI to allow more than one MSI vector
-b8ef9f84234f3661a63944d9273a00d6eb73c1c8 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
-a9be5d6114f92f92f6de1df65a701381b02b3829 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
-3410c2571fb51ee12a6d34309de83bdee972c407 PCI: hv: Fix interrupt mapping for multi-MSI
-1167492a488a39a1895669d70fbd5a2d6529a0f5 serial: mvebu-uart: correctly report configured baudrate value
-dc18e6c4352e78abf17db67eb0238e172f183ca7 batman-adv: Use netif_rx_any_context() any.
-d6163955b550408ab022ff7f9f4599368b343962 Revert "mt76: mt7921: Fix the error handling path of mt7921_pci_probe()"
-0ff1cff63a019fda8d5f1e6ef3350fd8479c7d92 Revert "mt76: mt7921e: fix possible probe failure after reboot"
-76a2f8756dcec5b7ca72bb2bfe2cff5500acb7e6 mt76: mt7921: use physical addr to unify register access
-786482db146847dcaebfcf073a3b93b4913ec86b mt76: mt7921e: fix possible probe failure after reboot
-d69024432032bc6fd5fe65403458247e9788e4fe mt76: mt7921: Fix the error handling path of mt7921_pci_probe()
-ffa0b21e510e389fb2c4073c84301ed10be6bc51 xfs: fix maxlevels comparisons in the btree staging code
-5fb54d8ad4d4573c62cde1f20380e15bdb0dcd41 xfs: fold perag loop iteration logic into helper function
-5ee7468cedf96643ff471eb004561251e3970fa4 xfs: rename the next_agno perag iteration variable
-13b9df365a65ff130ef790b2662ab8ee5237839a xfs: terminate perag iteration reliably on agcount
-c60e9984fb360f8d56a0073d61b43baa7c8cbebd xfs: fix perag reference leak on iteration race with growfs
-c9b355f795cfc9f681f9f2c90767663c8201ca81 xfs: prevent a WARN_ONCE() in xfs_ioc_attr_list()
-b0d5f2821ae16e8175a857d73fb1485f373794a0 r8152: fix a WOL issue
-3771344c386531d97c4638b4f1ea2f569268f50f ip: Fix data-races around sysctl_ip_default_ttl.
-e15cda7ad53c0047c09787e8e2a5ddace8dc8921 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-a1200e0fcee9fcd65bc965f34bf8c33821bf20ec power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-4a167b55958c59ea9a7a0bc4125c011f2de7444e RDMA/irdma: Do not advertise 1GB page size for x722
-e81b660e33573241a7122678b927ced4ab65fc67 RDMA/irdma: Fix sleep from invalid context BUG
-e7d1496295d3f43085023fb9c6983f3b5515e0c3 pinctrl: ralink: rename MT7628(an) functions to MT76X8
-31ac5460e9a433558a2fa228ee4dc86951ff17ab pinctrl: ralink: rename pinctrl-rt2880 to pinctrl-ralink
-ac9b480ddc3cee9e19fe064aaca0abcaddcf4490 pinctrl: ralink: Check for null return of devm_kcalloc
-979d0f10c8f9f4a2c70d6e87a64afe499dd3ce63 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-6e9cd8673a4edb9809beb632b19c945cdab08883 ipv4/tcp: do not use per netns ctl sockets
-c45b10d1aaba68683e9b525062299d6fb5e7186a net: tun: split run_ebpf_filter() and pskb_trim() into different "if statement"
-acf3173e38a0492940fe171247ca04723ef848d5 mm/pagealloc: sysctl: change watermark_scale_factor max limit to 30%
-e4132b47544ccc6fddaa86fa2e591e1fe02cfc5d sysctl: move some boundary constants from sysctl.c to sysctl_vals
-9abec3fff31281ad8ecbcd8790e51221c1cde8e6 tcp: Fix data-races around sysctl_tcp_ecn.
-f5c566d12a9822857494e797c162fb57ab90af9d drm/amd/display: Support for DMUB HPD interrupt handling
-9c34b56ba125b969523adb1a53b63dba963cdc2d drm/amd/display: Add option to defer works of hpd_rx_irq
-fe775d410dace22ceaddfa76aed7c2a2ca00ab98 drm/amd/display: Fork thread to offload work of hpd_rx_irq
-35c350dcab17d8180211ed2861aede2cb6f2336c drm/amdgpu/display: add quirk handling for stutter mode
-16bb60b2da3144188ea4e9b4cd2e36b7aca6f2bc drm/amd/display: Ignore First MST Sideband Message Return Error
-1cc67ce17546a855c15e92d336e02f6eff983ba7 scsi: megaraid: Clear READ queue map's nr_queues
-52db5f77a50752fcb676ac03ad0dd44f70dc7d87 scsi: ufs: core: Drop loglevel of WriteBoost message
-7fb0dc7533def3c78660de6711057d4504df7f87 nvme: check for duplicate identifiers earlier
-8309f8e65e166889280dee8508927b39e722f994 nvme: fix block device naming collision
-216e063eec71dd8a22c492251c93016b4cd13f25 e1000e: Enable GPT clock before sending message to CSME
-2949228ccd7a0a2b228482902692fcae8d3130cf Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
-473e5c5db65f60bd55d9ee5df5ab9c5c45d862c0 igc: Reinstate IGC_REMOVED logic and implement it properly
-d85f695bc3a13f1d6d45d728b7a12422e5b6be3e ip: Fix data-races around sysctl_ip_no_pmtu_disc.
-3da4f9089068a669e6938614ea296ea688c60950 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-118a0565336d5eee9878334ec96740ab0cf439a9 ip: Fix data-races around sysctl_ip_fwd_update_priority.
-874e5eb0b1923c16107c792630ec547e8bd1e55f ip: Fix data-races around sysctl_ip_nonlocal_bind.
-475f534e2619dbbf6b6c6678203ff84f4a679bf6 ip: Fix a data-race around sysctl_ip_autobind_reuse.
-7942e85187aa32bcdba159fef8499e94225233af ip: Fix a data-race around sysctl_fwmark_reflect.
-15381f166302d8e5c82ad64db86dac55dd6d64f0 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-56709b31d5c912f7a52681afb1cba680ee4d84ad tcp: sk->sk_bound_dev_if once in inet_request_bound_dev_if()
-f1d5c41dd802ca8d4c1314c72068e23dbb4518e9 tcp: Fix data-races around sysctl_tcp_l3mdev_accept.
-7c604eebeee0c851f4260da7a45b66b5c230b40f tcp: Fix data-races around sysctl_tcp_mtu_probing.
-e92ecf19b3d6a73450a8aeef9c5d79b40d2d0d56 tcp: Fix data-races around sysctl_tcp_base_mss.
-61ea6cad162f5121a837fe7ba6adf5c35012b16b tcp: Fix data-races around sysctl_tcp_min_snd_mss.
-4f9b9c7a38cb4709e4372b774c99ddad3e12a72b tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
-7eefc76101b49c9d16623ec1d5bab226a61de80e tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-82a593d78018fb8eb4eb00775c2b7ebfc27005ec tcp: Fix a data-race around sysctl_tcp_probe_interval.
-d249c10b214caf88ae01a661fbefbf7a1186a846 net: stmmac: fix pm runtime issue in stmmac_dvr_remove()
-b1fa96fb8881151489e949e5e967d2e678e6ba10 net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
-4efb92dbb96122fbf872a15561e633d957c0570a mtd: rawnand: gpmi: validate controller clock rate
-d0ce426cbb9a6583f54097f384f0dfbb03e978b5 mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
-d2a22c5194cafd7f7ec346f2a6145b2492c973a1 net: dsa: microchip: ksz_common: Fix refcount leak bug
-7a7180539e80ea16b99350dd1a7b1e0137d8b4fd net: skb: introduce kfree_skb_reason()
-efb08663025c3f3edea71f1de39acccf025c6af6 net: skb: use kfree_skb_reason() in tcp_v4_rcv()
-370d80d1fb57c3019ef8e8f620afbd66b7dd7dbc net: skb: use kfree_skb_reason() in __udp4_lib_rcv()
-bf12fece635b711e54f4760911c3811bcb7d79a8 net: socket: rename SKB_DROP_REASON_SOCKET_FILTER
-cfd56186410505656dee4a2fe127ec9e44823c04 net: skb_drop_reason: add document for drop reasons
-6c7885e8a89df659e04eadf89708930a3e6b7410 net: netfilter: use kfree_drop_reason() for NF_DROP
-0d85697f55aeb617982c331365fcd1e1fb265e6e net: ipv4: use kfree_skb_reason() in ip_rcv_core()
-7ebf57519098002052e9cb34fcb0dcad2238359c net: ipv4: use kfree_skb_reason() in ip_rcv_finish_core()
-67583d391b4142e8075c6cfd0a70260bdd437611 i2c: mlxcpld: Fix register setting for 400KHz frequency
-4fd6be7ebe0cf616534917ba14d9f93d0d1228ec i2c: cadence: Change large transfer count reset logic to be unconditional
-c65dd7705d24a2ea4fefd0b7e1d8505dd8577c3b perf tests: Fix Convert perf time to TSC test for hybrid
-8f715c938b7b3e91a8b83c8a340f6f7bbeb1721d net: stmmac: fix dma queue left shift overflow issue
-089226ddf5a6a8137ceed8e7f61a0ee16a578e87 net/tls: Fix race in TLS device down flow
-851069c51e0a09d78338069ebaad01ce70246ce2 igmp: Fix data-races around sysctl_igmp_llm_reports.
-b574db24bcb6fc4b8eb3c7e760f29e23f121702c igmp: Fix a data-race around sysctl_igmp_max_memberships.
-e0cdbdb11587caa0b3be75074b5853269a0806ad igmp: Fix data-races around sysctl_igmp_max_msf.
-9bd64a0c90ae4f61345a7a8fff85332c657ff259 tcp: Fix data-races around keepalive sysctl knobs.
-94cfcf0ef41961fbb83bb88109d97da4169a326e tcp: Fix data-races around sysctl_tcp_syn(ack)?_retries.
-5f692fca7aaa034862aebad44fe53478f37ed964 tcp: Fix data-races around sysctl_tcp_syncookies.
-b2d779b13e460d62d719e6e64116dea617a1a41f tcp: Fix data-races around sysctl_tcp_migrate_req.
-bc720a8503d89e5edcf02980cf2c4eb13f0d6e83 tcp: Fix data-races around sysctl_tcp_reordering.
-241ace8d6ab89c810f8fe84912f3e901c61c9b53 tcp: Fix data-races around some timeout sysctl knobs.
-de525dce0bc73d751f2cd014f491666c198d31a9 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-490fe85aff71e3296723289758fe178297e49570 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-0dda772007395441f609c8a254a83d005f569cc6 tcp: Fix data-races around sysctl_max_syn_backlog.
-295c414d71d3a5219fc341b7c929157a34e431ff tcp: Fix data-races around sysctl_tcp_fastopen.
-8e943a6b88a977804413e26dff15962f2ffa252c tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
-db0a55b3bc95183a74701708c745ac44a0d7ac99 iavf: Fix handling of dummy receive descriptors
-df759721896e821599841f9fd00c1c26cb77d520 pinctrl: armada-37xx: Use temporary variable for struct device
-a7e901323367a1548232fdc6ef2e220b665d9ce6 pinctrl: armada-37xx: Make use of the devm_platform_ioremap_resource()
-8de75fcaa21dc9ca29f43aba69dff14a0d46c6f3 pinctrl: armada-37xx: Convert to use dev_err_probe()
-885bbdd3c0751b999a75ab85ab198999e90ae23a pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
-859d9b17d559fc89e4b2b51828357d069fbc957d i40e: Fix erroneous adapter reinitialization during recovery process
-45dc7cca69ac79c265fb98cf12e4e3b5d815c1c5 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-c1d82ea78226c43d643daacff9e5421a043f2533 net: stmmac: remove redunctant disable xPCS EEE call
-559b6ee6cf982d618505b5cd5fd83e36b3b46919 gpio: pca953x: only use single read/write for No AI mode
-bfe04c06b8d16ac23d76c9ab1316f9864d53024b gpio: pca953x: use the correct range when do regmap sync
-6235eb598e7cb0edca97ed0c04ed5b947f48b1fb gpio: pca953x: use the correct register address when regcache sync during init
-7e6fabbba069cdf66f9c99fc91f941e93a1cc3ac be2net: Fix buffer overflow in be_get_module_eeprom
-0d417345309f1a549591743e6f5d1bc3ca808001 net: dsa: sja1105: silent spi_device_id warnings
-deffecf4fb9e625ae683f8fb3a00973b1c3d8db1 net: dsa: vitesse-vsc73xx: silent spi_device_id warnings
-137bbfe2fa39675d3d348e5c569e81d965304f62 drm/imx/dcss: Add missing of_node_put() in fail path
-398f74c36c1b5dc9bb89f51c2804e077f6cff40f ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
-f928877734e34af8c55ffddd9bf81531c771aada ipv4: Fix data-races around sysctl_fib_multipath_hash_policy.
-39b1129e1c7a23f566ff5344de341bb4db025b68 ipv4: Fix data-races around sysctl_fib_multipath_hash_fields.
-266cc1aa2b2cfc2b95eb02572bd524e2117ddb86 ip: Fix data-races around sysctl_ip_prot_sock.
-d262d87c4ccc5eae64ef939038697118dc9a7400 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
-d7aaf9f0b6428e40445db8b03517d1f835e97928 tcp: Fix data-races around sysctl knobs related to SYN option.
-adb3daf64c9b5735c91da4f65e55b0ab3ac98bd9 tcp: Fix a data-race around sysctl_tcp_early_retrans.
-f2cb4265ef2feb1ba684faa291b52e6aa1b84129 tcp: Fix data-races around sysctl_tcp_recovery.
-2c37fa38d70d1b76a89e70c6724b0172873f6b27 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-731752d2c7b026f6e0e1ce22200dcb63ebabca3e tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-476562c05abfd388f5a3b9d086626a60bd2e4cb2 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-184fdf15f02040276c0297bdab654cdcb5a1e590 tcp: Fix a data-race around sysctl_tcp_stdurg.
-a1bedb61932f24ace82234832eeebc77d6f07247 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-ac002b7b388d03a2156836b20ef7e5ccb670dcf2 tcp: Fix a data-race around sysctl_tcp_abort_on_overflow.
-95dd3b9925dad10b2fcb956085fff0fd04a0bef9 tcp: Fix data-races around sysctl_tcp_max_reordering.
-28472a03031d226884a2b686c9cfb3cd88f745dd gpio: gpio-xilinx: Fix integer overflow
-71eac70c01b2e2ead67201f7ad97bcec7745515e KVM: selftests: Fix target thread to be migrated in rseq_test
-abd98c426f8b7debf0e993481d8a936152cd223d spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
-0d49ee26554edf1cc5af39b47355da30fea2b409 KVM: Don't null dereference ops->destroy
-f293f22861848bc7ba89ead3e7e10555c5166afa mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-e992dd82cd36551c5cac5a5b853c17a4697f5c81 bpf: Make sure mac_header was set before using it
-00fcf559795118488dcfd61c096859e916ec44f2 sched/deadline: Fix BUG_ON condition for deboosted tasks
-62fa17330540d989c55fde97e95afa4e0903a59c x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
-2b4f0349b2927a37f97e67e60822a24c0d3e4388 dlm: fix pending remove if msg allocation fails
-a80a7b6fb3c53502c9324f1998cdbbde9c3daad2 x86/uaccess: Implement macros for CMPXCHG on user addresses
-be3a312281d527e42940a1090c8996106146de60 x86/uaccess: Implement macros for CMPXCHG on user addresses
-c5a69efb47e40697f4817d366df5b5432efb629b x86/extable: Tidy up redundant handler functions
-bc2f7b73d1ab962cd74f8c8f5d70cbeb400f2959 x86/extable: Get rid of redundant macros
-3db50fa6824c6bc18a8a922a890c94f4314f5371 x86/mce: Deduplicate exception handling
-9822f6c2973e3f86ceb6548267f6e833d0161e18 x86/extable: Rework the exception table mechanics
-c81a0a282eb3353a0def9d35dee08c1693bef011 x86/extable: Provide EX_TYPE_DEFAULT_MCE_SAFE and EX_TYPE_FAULT_MCE_SAFE
-48b51044b6bb964028121d4547e27b7aed4bf5ad bitfield.h: Fix "type of reg too small for mask" test
-6c073c06e49baf900ad3b71bccebbd8037d0f742 x86/entry_32: Remove .fixup usage
-b40b1dafdd0c4e2c8f5e99b38c6a7fb4e5c0c058 x86/extable: Extend extable functionality
-c94d386894091c63684524a681ca4e586d3f8220 x86/msr: Remove .fixup usage
-bb3a69338f0cea5f15bdf175c054f99f886c27ed x86/futex: Remove .fixup usage
-78567ce6f165dbb2a9fdf799c011c6158d111d3d KVM: x86: Use __try_cmpxchg_user() to emulate atomic accesses
-e593ec7d6a79c6bfab01b03ab6d7fe9eeb9fc305 xhci: dbc: refactor xhci_dbc_init()
-9523ea8cd9ad37bcf155a7be4b5037701602d523 xhci: dbc: create and remove dbc structure in dbgtty driver.
-a50a9d34c6df1dba1970e8777cc70c7872fdf433 xhci: dbc: Rename xhci_dbc_init and xhci_dbc_exit
-6a361e7d1af240f3a8d36143191dad7a8b4cb371 xhci: Set HCD flag to defer primary roothub registration
-4f44b33e460877774592e1252fc5e92028d0369a mt76: fix use-after-free by removing a non-RCU wcid pointer
-3abfb8a8b64cfa83edf63eba35bde275fb3ce475 iwlwifi: fw: uefi: add missing include guards
-32ffbe34142e941cd5595750566a614211750d46 crypto: qat - set to zero DH parameters before free
-611eb26a3910176a69106533d1f6ed2fc7d2735b crypto: qat - use pre-allocated buffers in datapath
-a7969e3e54bfcd2aefc11ce552d1833935b30bb7 crypto: qat - refactor submission logic
-7940747fd3e27c9c17bf116683ed87b4086755f4 crypto: qat - add backlog mechanism
-bfb68bafdeb9517f5922acbae58379d70e4a2be1 crypto: qat - fix memory leak in RSA
-305360976cb82dbe9bc8bc327f99269a64454244 crypto: qat - remove dma_free_coherent() for RSA
-8e3e274b6ca00f3227878f01d122b06f6d166dd9 crypto: qat - remove dma_free_coherent() for DH
-87b999d3feae539cf181250498fd04caf292fb00 crypto: qat - add param check for RSA
-651962ff868c517f8d409d6c57dcdcdc4a65acc0 crypto: qat - add param check for DH
-43196b11efdf89bd25575e659b84020a283967df crypto: qat - re-enable registration of algorithms
-9bd73d8f818c5da92da0773ded8169c7ebd6eb55 exfat: fix referencing wrong parent directory information after renaming
-cc6f8324357b5fb2e419c283c706eb446d8a751a tracing: Have event format check not flag %p* on __get_dynamic_array()
-cbd9d74a42fcfc2d25c43e6751e1d54c25f4222a tracing: Place trace_pid_list logic into abstract functions
-3606889c56c212f9ef47191dc243adbeb8c71289 tracing: Fix return value of trace_pid_write()
-7e90fa125ab6a3ad47e523f447fdd1e28a9beb4a um: virtio_uml: Allow probing from devicetree
-18f18e2df65bbcc69688b0957aabddee655ed188 um: virtio_uml: Fix broken device handling in time-travel
-1e49b9966a1819a5322adac444fca863198d9568 x86/uaccess: Implement macros for CMPXCHG on user addresses
-1ec971eaaf0039e5323f6fec7d6b027b2f910169 Bluetooth: Add bt_skb_sendmsg helper
-cb744d9c3394d641fbb84476b934d52fdc5ab930 Bluetooth: Add bt_skb_sendmmsg helper
-cec45cb79f13b14a84c28e9492f0a94c331c8864 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
-320078da0fbbad31d4af3fbb0e1e8dc0a54d27e6 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
-6b2b2b863f343a409f21114695b25a8ce0a561cc Bluetooth: Fix passing NULL to PTR_ERR
-23f239b3695b49bb6f8292f3d8a62ac79098f950 Bluetooth: SCO: Fix sco_send_frame returning skb->len
-e939c3a0b417850c56e3f3344784fd62fdf2d571 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-36bd26cd7b1e53479d1848e94a908cfb3a9bf7d4 exfat: use updated exfat_chain directly during renaming
-f46b13ba97513b8c7500a296988aee0bebdbea66 drm/amd/display: Reset DMCUB before HW init
-3cbf35d81c42608bdca33752b5cc24ec3b1321d8 drm/amd/display: Optimize bandwidth on following fast update
-9276f3201cd4d0e4d1bf737d72df8d07b5e3bd79 drm/amd/display: Fix surface optimization regression on Carrizo
-f867446f6fa0393ef5a88b07f5477e4d4a23108e x86/amd: Use IBPB for firmware calls
-3f37ce059091b9272440cd392a53d46c51d7d45a x86/alternative: Report missing return thunk details
-219a539de025166b50fb0d427e581745a67ba870 watchqueue: make sure to serialize 'wqueue->defunct' properly
-81a82750b9ba91f5318e033a2abdd13a0296d3a0 tty: drivers/tty/, stop using tty_schedule_flip()
-67e6c5eb6f772a5e02315a41d26435facd8d008a tty: the rest, stop using tty_schedule_flip()
-364846586cfa64930c2a0df76997e61393184198 tty: drop tty_schedule_flip()
-f768d406ce2fcc35622f56b34b359d870d1a2a41 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-9b798a06ba5ad9c83c2a6d0ff88a1b78499ce152 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+dbde4ada07e264e8055c666bdb48b1aa0c68adc0 pinctrl: stm32: fix optional IRQ support to gpios
+16e5481b0d01c20868d20835f4abfb344705e184 riscv: add as-options for modules with assembly compontents
+5252b46375ce7a7a721fdad44dbec911197b025d mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+1d30563e3123b52131ad27574180c6c43cc22b25 lockdown: Fix kexec lockdown bypass with ima policy
+403d48bbe508c1933d61f739e7bb80171375aad3 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
+3e3c3427fb5ae58b119d9171feb2a75f3613942f bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
+686aa0fce1300757f43d65e895a165eeae316945 bus: mhi: host: pci_generic: add Telit FN990
+c32d35c594d2412af4a3e5e89d47bc1f23e4c2bb Revert "selftest/vm: verify remap destination address in mremap_test"
+e67e823360ee31a79fb54ad0872b421d33b641f6 Revert "selftest/vm: verify mmap addr in mremap_test"
+73bcc78359e0e1d6ce3815b3547626e1bcb630e7 PCI: hv: Fix multi-MSI to allow more than one MSI vector
+807efb724365dd1ee4a53925e0be430f3a2dee05 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
+2a509a48d3b213ea7a506484d23c0cdffb60d130 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
+e06ccbeb56411fcb5bcf5ddae8c089ee2674a958 PCI: hv: Fix interrupt mapping for multi-MSI
+322c3781fa05cfb84f66b01d0592f986373a9eee serial: mvebu-uart: correctly report configured baudrate value
+a715cbfe7fe50d78afa51f3998b66a6cf66ada22 batman-adv: Use netif_rx_any_context() any.
+8e669f3cb57d8045460cc0a5aa8e2a9c0670dd1a Revert "mt76: mt7921: Fix the error handling path of mt7921_pci_probe()"
+38cc5062dd87245502003dd271f27ad56c7f1a5f Revert "mt76: mt7921e: fix possible probe failure after reboot"
+d387abb03a1c43fa2d51630fcc79af36e08a4dff mt76: mt7921: use physical addr to unify register access
+35f203908716c55f504a3800aa853ff72304a2e8 mt76: mt7921e: fix possible probe failure after reboot
+56ba87e67c8911512680eb72e75822dc7686552f mt76: mt7921: Fix the error handling path of mt7921_pci_probe()
+aa858b23803a2ac4dc8ec20c0d763f9fd17dd781 xfs: fix maxlevels comparisons in the btree staging code
+dfcab227a91b25df688a5bda2c31ca2879eebffc xfs: fold perag loop iteration logic into helper function
+5849c85d2484346ac1a11ab443e393c5e0a1780d xfs: rename the next_agno perag iteration variable
+89a993ab7283b85f4a2d77134f03e0a1436af6f9 xfs: terminate perag iteration reliably on agcount
+9a9a3f25d95a58b165b1615a8bdc4cb552e24e67 xfs: fix perag reference leak on iteration race with growfs
+af139f3945cfab2e1d559d5f13d9bdc6a5f15761 xfs: prevent a WARN_ONCE() in xfs_ioc_attr_list()
+03215cf62e4978e7f0cbd51b6c5bec2a21cf2f62 r8152: fix a WOL issue
+56e33778e18835a904dc3589cdaf4219ccabec72 ip: Fix data-races around sysctl_ip_default_ttl.
+336f66d468cea7b12f4f658ed31fb726fc2a3ddc xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+bae9c1e1cfe373bdf6f5b0f1156873dea83cc304 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+f6f85d0c3efa7bb726b4348a0c9e4a6a3a89886d RDMA/irdma: Do not advertise 1GB page size for x722
+24af64dcc3e1dbbbdd3ec303526833b09e78ef1f RDMA/irdma: Fix sleep from invalid context BUG
+bbe4c5592756bcea7ca75f0f39bab65964e28aa2 pinctrl: ralink: rename MT7628(an) functions to MT76X8
+4007cddb48472d3b6b42c583db56a790ff9a9582 pinctrl: ralink: rename pinctrl-rt2880 to pinctrl-ralink
+c9457da784b5d9edc554ca74184413d774841346 pinctrl: ralink: Check for null return of devm_kcalloc
+9d5b18313426796eb895443bff409414b9e9a8bb perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+8d41605fc9cc0d3d0378017fc68c777e453126aa ipv4/tcp: do not use per netns ctl sockets
+ecd645e5a2e76b4b814834477c7efd72fc57e81d net: tun: split run_ebpf_filter() and pskb_trim() into different "if statement"
+ea597a72c6f9f2ee717b25ab455460946f607aef mm/pagealloc: sysctl: change watermark_scale_factor max limit to 30%
+dd6fcf1c7fe90ba00b0a4f28e224f21025bf8482 sysctl: move some boundary constants from sysctl.c to sysctl_vals
+a739d2b3f999322de7e086666e6738ebb35dd77d tcp: Fix data-races around sysctl_tcp_ecn.
+ff04441c7b27c941e91044f03007357cd6c0465d drm/amd/display: Support for DMUB HPD interrupt handling
+2bfd86a11b825bd3605c48356bfaafd05e167cef drm/amd/display: Add option to defer works of hpd_rx_irq
+a151207350e89b181ddc4e2e94160c662c018afc drm/amd/display: Fork thread to offload work of hpd_rx_irq
+159a372edb8210ae58c099079b5c3ee235b3bfd8 drm/amdgpu/display: add quirk handling for stutter mode
+e02eac4c4956f34bbe2daa2f0fa785c3652b4e6e drm/amd/display: Ignore First MST Sideband Message Return Error
+9c0f7bdf8585207a6eecd1bfd64a462627a0b999 scsi: megaraid: Clear READ queue map's nr_queues
+bd86b09f4e13ea09339d77134fcdaaabe26ccf5a scsi: ufs: core: Drop loglevel of WriteBoost message
+dccef855f516bcd94797453b60f6e73e64a35a43 nvme: check for duplicate identifiers earlier
+7bc1d4ada11c82266f0e431183bda295f2f1a3f6 nvme: fix block device naming collision
+276c65d658c6afa88391d7e610115e8d6b6b819f e1000e: Enable GPT clock before sending message to CSME
+cc52ebc0e0a6674019f64f559cafb4ec088e96b4 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+f46a18d2e65655f225c24604db56016b8008225f igc: Reinstate IGC_REMOVED logic and implement it properly
+e0d13f571fdc59c8ceab93b9c6280c025e31d474 ip: Fix data-races around sysctl_ip_no_pmtu_disc.
+2ba80844c8f3a46ec908047dcdf0b1925a203893 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
+43d1ce229cc87a654480c426edfafd79dd53106a ip: Fix data-races around sysctl_ip_fwd_update_priority.
+2daef9e5e13c7c84d9edb827eec9db68da3d3676 ip: Fix data-races around sysctl_ip_nonlocal_bind.
+4eb4688811855dd0cf37e3c1ea51ae336c96e2d2 ip: Fix a data-race around sysctl_ip_autobind_reuse.
+631cb2406d0ecb7537e350dca6d1f26fa002179c ip: Fix a data-race around sysctl_fwmark_reflect.
+33b156bce09be64c562c1e4331de349de3a07fe3 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+793e4125355ce55c93857c742db36de2105e810d tcp: sk->sk_bound_dev_if once in inet_request_bound_dev_if()
+6c2e3ad16b8767435d3c2078690875db3a1d955f tcp: Fix data-races around sysctl_tcp_l3mdev_accept.
+aa62f4e5cf4ad1746710d2d82fbf199704ca732d tcp: Fix data-races around sysctl_tcp_mtu_probing.
+311efef7df572f8fce97355b218c8ae6a9d3045e tcp: Fix data-races around sysctl_tcp_base_mss.
+d51cd067d9b5dfa6679307cc18be3d2b92f84098 tcp: Fix data-races around sysctl_tcp_min_snd_mss.
+789349d2f4ceb9c486e6a80b10be9f35aec33e77 tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
+d1e8906e7d69c876d6b282fb00ff69004065f023 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+368a08e637e1ba3381147661a674b1202746f385 tcp: Fix a data-race around sysctl_tcp_probe_interval.
+0d54bf33463feaf86aa44b88be485cb617eb6b19 net: stmmac: fix pm runtime issue in stmmac_dvr_remove()
+18738be8e3f6799ef4997f24b74eea8a49ebddc4 net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
+03e0dcbd0652eefae605d45ceed5fcf372cc17f6 mtd: rawnand: gpmi: validate controller clock rate
+2670f804950d18c55db1bfae2f13dc2c2ca7dd1b mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
+5dd79753c6c4077b835f31daca83dbb4dbe599e1 net: dsa: microchip: ksz_common: Fix refcount leak bug
+90685c18f5c5cc80b6919c1e34ece221c96c5336 net: skb: introduce kfree_skb_reason()
+be0c91416b33c10413a7b08caaff95e755451cca net: skb: use kfree_skb_reason() in tcp_v4_rcv()
+15eaeb61bcde6ff7ba3ed1ecf80e568e56b3e261 net: skb: use kfree_skb_reason() in __udp4_lib_rcv()
+9536da4df1491a33747807b92547dc2b31cf6923 net: socket: rename SKB_DROP_REASON_SOCKET_FILTER
+55b35db9e05bfb534b7ae8bd9159486ada09d88b net: skb_drop_reason: add document for drop reasons
+7b1b308170fe95be0a2086baa43c1fc7ba917350 net: netfilter: use kfree_drop_reason() for NF_DROP
+0ad0b57d8b5bcf7fae2a43cab5b7801876061774 net: ipv4: use kfree_skb_reason() in ip_rcv_core()
+fcfd0d7a5cfd581d37a0e02345ac71c6224f80f6 net: ipv4: use kfree_skb_reason() in ip_rcv_finish_core()
+27496d8be1e0941627cc74fbf6467b0034a3b07f i2c: mlxcpld: Fix register setting for 400KHz frequency
+53a0cb7ae4a7dadf4d0720366a17f9ef720f642c i2c: cadence: Change large transfer count reset logic to be unconditional
+bd6a9e10afa207dca5457263c1cc7f645a4b66f0 perf tests: Fix Convert perf time to TSC test for hybrid
+7c1cede0dc161686623a5809026a67da06de538e net: stmmac: fix dma queue left shift overflow issue
+5039d05bd6162dbdccc4e5d33d18b08dff1d23d7 net/tls: Fix race in TLS device down flow
+0d7f579299ad5ffd4611d72c29268a0090b3fd6e igmp: Fix data-races around sysctl_igmp_llm_reports.
+b849c19442cbb1abff08059d8c3e24bd4bf4daca igmp: Fix a data-race around sysctl_igmp_max_memberships.
+8e68e4f68f9c158a180e449ac40202df59a95a42 igmp: Fix data-races around sysctl_igmp_max_msf.
+890837cefaca47c9612f4c324cc4a42fad0b39cc tcp: Fix data-races around keepalive sysctl knobs.
+604f3308c0f8dab024cf509972f070c6bcb5ebb5 tcp: Fix data-races around sysctl_tcp_syn(ack)?_retries.
+f0aeafc1c7f3145c0585508ac6e24cf96caa3853 tcp: Fix data-races around sysctl_tcp_syncookies.
+af0f6784a7190e73b1e54303cc7ad718f0055341 tcp: Fix data-races around sysctl_tcp_migrate_req.
+df16b30ec404b86a8c9cb7bc2b2eaa2a38ef3f72 tcp: Fix data-races around sysctl_tcp_reordering.
+cc884f664d7c38791db11601affb5441988a6f9f tcp: Fix data-races around some timeout sysctl knobs.
+56a341df858cd4a232628f548fac4ff05358d0f7 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+06889af498af5dff56a5b33f0319b8cd23f0463a tcp: Fix a data-race around sysctl_tcp_tw_reuse.
+78803557a4d906ee734ea1f372e15650f6200638 tcp: Fix data-races around sysctl_max_syn_backlog.
+05214b9964588b874d27c6f86c4e60c047c45c26 tcp: Fix data-races around sysctl_tcp_fastopen.
+306d2be4cd5a29f64ca7e061c448682170f33a5e tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
+e47b4dc674de139b80cc30ac52ec9e6ec48473b4 iavf: Fix handling of dummy receive descriptors
+396120123256400c91a4bb32f399f80658ce2bb4 pinctrl: armada-37xx: Use temporary variable for struct device
+6e1c30f21e08437da83c8fd748f1944559163c2e pinctrl: armada-37xx: Make use of the devm_platform_ioremap_resource()
+ecefe7ca2f7549268ba4b77f58ea9c1e947599f1 pinctrl: armada-37xx: Convert to use dev_err_probe()
+e3c942a9603266b57bdce28063d90e2085fe609b pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
+d4b1e0817d5a0bf161cba722390d87a34f25ff02 i40e: Fix erroneous adapter reinitialization during recovery process
+075644b5a4c2ac216937765e001c077b601564e1 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+8a0c766a8bd7d063850a7ed136ee2381be541b07 net: stmmac: remove redunctant disable xPCS EEE call
+3f56118c8455a48085f15f2b066ae663906e6b90 gpio: pca953x: only use single read/write for No AI mode
+29b8b1625e33b6b20b3252ed066bc69552b5b68d gpio: pca953x: use the correct range when do regmap sync
+4052d0cb72bd8dfdb96883fb27e890530bd71670 gpio: pca953x: use the correct register address when regcache sync during init
+44f7d8f1190a5660cb218d93be5d8615ef91c1a7 be2net: Fix buffer overflow in be_get_module_eeprom
+667db7ca00fe270922a0508fe67d56efb8c83ae3 net: dsa: sja1105: silent spi_device_id warnings
+c60a2611ac949ca431ffb7ee18ce8d2236c597b6 net: dsa: vitesse-vsc73xx: silent spi_device_id warnings
+c420acf3dd1ef8081d5ff2d58d887891dde97e7f drm/imx/dcss: Add missing of_node_put() in fail path
+836a645a0fe64233881099d2aa4a7d2a2a3d4498 ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
+a3ddde9e4282d9c2cc12c317bd7c4514d3d39263 ipv4: Fix data-races around sysctl_fib_multipath_hash_policy.
+dba5d299ef9f571fc7df5af1ac6c9eae5b8928a9 ipv4: Fix data-races around sysctl_fib_multipath_hash_fields.
+6912b0c7cd1c0b2d9b86b8d08c614c96da9f770b ip: Fix data-races around sysctl_ip_prot_sock.
+e1fe0ded3146bcfdde070ed560d2a0aa865fe386 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
+5d52855fffe5423a4082c72dc376a5c908b234ff tcp: Fix data-races around sysctl knobs related to SYN option.
+8763f2db56d6e44867d3c3174fc58d04fe90c1c3 tcp: Fix a data-race around sysctl_tcp_early_retrans.
+a965b0c7ab1787af091a2edc81249dd387c5e84f tcp: Fix data-races around sysctl_tcp_recovery.
+a46d7e7d16e741a30b08e680fe996440fd71802e tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
+15f423bac18e95efe213cbc928f3c06d8ab0221d tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
+ec9f9c7f9c7409af92bc5d1ae23f943c110df4cc tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
+506fd026b5111a58869b5a4e38dde9d6a18a59fb tcp: Fix a data-race around sysctl_tcp_stdurg.
+e6bd10369c83f9459b51e3c33ea1a0e0140d5824 tcp: Fix a data-race around sysctl_tcp_rfc1337.
+0d5282feaa53465470ff615f0518caa7bb3e2f71 tcp: Fix a data-race around sysctl_tcp_abort_on_overflow.
+cebec9ab8918e003f56f9fe6140e7544384b4de1 tcp: Fix data-races around sysctl_tcp_max_reordering.
+5e11b8bd4acf64c0e96f95ee8f0d2728eba33fdb gpio: gpio-xilinx: Fix integer overflow
+f710eccf6cc94f28cc9c972d66d6f7f37a07194b KVM: selftests: Fix target thread to be migrated in rseq_test
+7db1a155492aeeb490bf7b141eb510d1c2f11e33 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
+b8294f116d145994f505e71c21901717512e4c44 KVM: Don't null dereference ops->destroy
+445e57cdf3c38f5d378fe32e2fec4eb6e85c113c mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+faba0359d8d501fec4729ce8f9241a0254ac1859 bpf: Make sure mac_header was set before using it
+9be11ac767a64b2acdde30770e007a192eb0e558 sched/deadline: Fix BUG_ON condition for deboosted tasks
+d99f8948735d251cbf44e6b726487b8594c04e85 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+98e9620d44409a638b41b1abd5000c700482af4d dlm: fix pending remove if msg allocation fails
+f64032a9ba87fa6f654e7933ee7206be7a7c11fb x86/uaccess: Implement macros for CMPXCHG on user addresses
+d988face619bbcd41c2a89866fc1ba6188b2a74d x86/uaccess: Implement macros for CMPXCHG on user addresses
+6e6d7d59882f98159d857d6f0699d3372905198d x86/extable: Tidy up redundant handler functions
+bbd28c4b31728936ed4054213f6f19bd458dd94f x86/extable: Get rid of redundant macros
+595c4be5b9aed10a43a5df79f73e43f61c47b090 x86/mce: Deduplicate exception handling
+a4574f12243728c44d79638fd984e893b026490e x86/extable: Rework the exception table mechanics
+544827b476f91af05eacdb69bed13a70d5d711e5 x86/extable: Provide EX_TYPE_DEFAULT_MCE_SAFE and EX_TYPE_FAULT_MCE_SAFE
+3b84e877656d96d97c0adfb428230315acdc9be0 bitfield.h: Fix "type of reg too small for mask" test
+2c5ccdebd45b6987282563a0dbd060de0a11721d x86/entry_32: Remove .fixup usage
+b706cca21b3fe2af4de5d4c9acd5b4521842f9a8 x86/extable: Extend extable functionality
+66ebfd69ada5824791f204d6dfdf32c0271e5b85 x86/msr: Remove .fixup usage
+d2544237cf048497fdddbcf2817a1561c0a33465 x86/futex: Remove .fixup usage
+05aa5bd4d3a7cf1f6fa401ec71ceb8a8a9c6309d KVM: x86: Use __try_cmpxchg_user() to emulate atomic accesses
+a14de16d82a962e444cbd16391d7803ca9992dd0 xhci: dbc: refactor xhci_dbc_init()
+de42e8d606edc09289305cdf88ec7ff58833ab70 xhci: dbc: create and remove dbc structure in dbgtty driver.
+b15b01b2efa269b50f291e39137f1e1e97d8f1c1 xhci: dbc: Rename xhci_dbc_init and xhci_dbc_exit
+3d3ec55f2528b57e2702630dad1b8987161bc627 xhci: Set HCD flag to defer primary roothub registration
+ac2e1f6ffd0f9332f4873e6f55235c29d0ebe99b mt76: fix use-after-free by removing a non-RCU wcid pointer
+d0c23f8d20cb6711036e0a807e7eb7fa450aac1b iwlwifi: fw: uefi: add missing include guards
+f5008e4433d72e980a72b79cb0bea1c79fb2a48d crypto: qat - set to zero DH parameters before free
+ada972fd6931f0b4ab8dbc546c07430e3f330ce8 crypto: qat - use pre-allocated buffers in datapath
+2190ad1c674e3951b5ba50f8b33ae4900362bd38 crypto: qat - refactor submission logic
+aee6befff3dc303f2b0bc1e6b9ef5337593cd968 crypto: qat - add backlog mechanism
+9ea714233e7f2d81a209b79b5f74cb61638444f8 crypto: qat - fix memory leak in RSA
+3722b16182362ee84181b1e8ff212c704ebd69b6 crypto: qat - remove dma_free_coherent() for RSA
+ffb65b7a9683ec5e64eb2ca35e961557dffbdecf crypto: qat - remove dma_free_coherent() for DH
+9a51784efee86050a13ad085304d63d884f1db95 crypto: qat - add param check for RSA
+144de44e67ca89b148d2ca75fe73c6c7062f4c31 crypto: qat - add param check for DH
+70e3127ce19e87309991f076f9e3e0e996d49e4c crypto: qat - re-enable registration of algorithms
+dd569bff620a62b85a43c589afe558128b02f810 exfat: fix referencing wrong parent directory information after renaming
+29b0ed71f67ac764c567cad0fefd61cef88a8814 tracing: Have event format check not flag %p* on __get_dynamic_array()
+be4e57414d36a49253b05165517755e0929fe473 tracing: Place trace_pid_list logic into abstract functions
+8beb1049e8088e32d5a22421a2fd89b32dd353c9 tracing: Fix return value of trace_pid_write()
+7290ba1fbc77a33ccc93a242b98a2419f10b52d9 um: virtio_uml: Allow probing from devicetree
+b6f9f922ec1ca16cc8ca3b043d8de8531c58daa7 um: virtio_uml: Fix broken device handling in time-travel
+6a8f64333ed2dc9bf3e220be8309fa534db2f8b4 x86/uaccess: Implement macros for CMPXCHG on user addresses
+c570be8d0f128f0ec5500b3742589eba5e2eed60 Bluetooth: Add bt_skb_sendmsg helper
+b16983831c39126cf317cb8cc2b44039c11b459e Bluetooth: Add bt_skb_sendmmsg helper
+62eb8b2c37f73696e1dacd82e3f6f8f30ca04666 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
+409b6c071c772a6fa0048c2ae604b5a8c0456692 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
+935073c602a213a11f4961d304ee5159d0556895 Bluetooth: Fix passing NULL to PTR_ERR
+1e19d778dfc427c09512badf530aed41ca5987e0 Bluetooth: SCO: Fix sco_send_frame returning skb->len
+7b1d122c72333f84da18468d11e374861cb970ee Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
+ded69179208578ec0f0eae42a904ceb73c32ad36 exfat: use updated exfat_chain directly during renaming
+c2a0ecfe0ade898d3960a5d5ebf14c5dbcc2dbbf drm/amd/display: Reset DMCUB before HW init
+809f944919e7305f5711b7c33d8420f216559c7a drm/amd/display: Optimize bandwidth on following fast update
+d9ed546fc087ec39ca0e237b98d2c279d25f5492 drm/amd/display: Fix surface optimization regression on Carrizo
+0db5ff9ac060aed088ff8450bbb5f9c3bfeea486 x86/amd: Use IBPB for firmware calls
+b814530e3ac1854aec8901262302836047519f7b x86/alternative: Report missing return thunk details
+e22ae9b6a2e6c269ea45fe6de719cdba1c4b9aa5 watchqueue: make sure to serialize 'wqueue->defunct' properly
+3b2baeac92c1e354956e1d9a5ad937675627369b tty: drivers/tty/, stop using tty_schedule_flip()
+8bc98709bd0363c7d2e01f3dd6998549caf4f7ae tty: the rest, stop using tty_schedule_flip()
+534963d32389c4795c29dbc94a43134709d8e8c0 tty: drop tty_schedule_flip()
+ff61ea28111139541756d1f89155a6309cfad140 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+045950c56afa1e57d905f84aab883dc2892de618 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-001b5a2d1731-f23476f93254.txt
+Content-Disposition: attachment; filename=revlist-f23476f93254-a899f7c7616b.txt
 
-cb329c113224af0cd301e5ad39ce41e92dc520d0 pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
-8ad1ee9b18e5042ca323858826f090dd3d4d2976 pinctrl: stm32: fix optional IRQ support to gpios
-20ec652c2917d7d9773d00af6f93a788df4ee2f6 riscv: add as-options for modules with assembly compontents
-e67431a93e6bbede03a813f04047d3c09acd6c34 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-14b2474a6be1aaf44b37da8f4e819f7644c3f85a lockdown: Fix kexec lockdown bypass with ima policy
-7705507bbfddb530fba99dd812285bf665a19a74 mmc: sdhci-omap: Fix a lockdep warning for PM runtime init
-115cfc4f0c242163123fa4966f807eff5ff04218 mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
-5ab17c37bca1da98da93b537a9f623352cb66374 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
-8656efc6c161f4d9f02b27459cac518dc9aba069 drm/amd/display: Fix new dmub notification enabling in DM
-dcb37b2f6b0046a5f50338dc02ee834659ab6dca drm/scheduler: Don't kill jobs in interrupt context
-a673d78430349c2e9d5f3f1cac8a3fe144274053 net: usb: ax88179_178a needs FLAG_SEND_ZLP
-10375628d1fb63d8c0c13c0cad33746fcdecde3e bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
-7310e7486db08fbc0d6c54da35df098eadd6fba5 bus: mhi: host: pci_generic: add Telit FN990
-0b6ef4ed169e70abe486598b14c1dd727325d893 PCI: hv: Fix multi-MSI to allow more than one MSI vector
-ad2173ac8b15e57963b74985d6929964575c52d3 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
-702bf72a3211a28f670112a88f316548ae1a99c2 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
-bcd5bc83ab0081493d2ec9bfffa714acbfa43d5d PCI: hv: Fix interrupt mapping for multi-MSI
-c89a3b01adf0d4ff800ca6e98dce617e45c078b5 r8152: fix a WOL issue
-f1eeeae621ae32b9e91b5a3a1f59252860fdae0a ip: Fix data-races around sysctl_ip_default_ttl.
-354bda6cd8fa451f1cb229504b2448cfebeb6e26 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-6587e8f55df4676166aea5a718daeb7e3c417b98 power: supply: ab8500_fg: add missing destroy_workqueue in ab8500_fg_probe
-7f0358c76eaf0c36d7e524075cc75b82c5a10a87 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-33a813d957a98c2cd7cf0278b014426c3a8af98b RDMA/irdma: Do not advertise 1GB page size for x722
-c6ee217cdc0c6a1ebb91564ffed893346da6e5d1 RDMA/irdma: Fix sleep from invalid context BUG
-42fc8d1dec0875ca9b0ed9cbb8160c6146ba1b59 pinctrl: ralink: rename MT7628(an) functions to MT76X8
-780c993e54530bce58e6109e64195e679d3f59b2 pinctrl: ralink: rename pinctrl-rt2880 to pinctrl-ralink
-37e48e21cb2e7bae66fad873feae7ce9483a96d5 pinctrl: ralink: Check for null return of devm_kcalloc
-46c598efd4edae0868ab5596b0e40d6cb349a260 pinctrl: sunplus: Add check for kcalloc
-1a66990b1510cfa9d0ad543eb02b34b669b0424b perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-65d70d298f87a97cc0726259cd9018a13848a5aa e1000e: Enable GPT clock before sending message to CSME
-9b327e922fa420d5396897ed00d41ebfaee65c8e Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
-28a1caeaded4bcdb90b3d90b4a81c60b0d43129e igc: Reinstate IGC_REMOVED logic and implement it properly
-d3cb3ee1a23f130b19f930df1a5d36ebf72f7b48 ip: Fix data-races around sysctl_ip_no_pmtu_disc.
-412bb2d340e39f9373f7e1410db5eac092dc4083 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-a7cf32210cad5dd6a3476b99fbd1037260eec965 ip: Fix data-races around sysctl_ip_fwd_update_priority.
-0a493d7a9cb79e485cec8cda6304d66afd036688 ip: Fix data-races around sysctl_ip_nonlocal_bind.
-42ecb190b84cfd50c39e261cdff4b1516ce678a6 ip: Fix a data-race around sysctl_ip_autobind_reuse.
-1f97e3ddf05fd1eab4a540060e64eb169c1521f1 ip: Fix a data-race around sysctl_fwmark_reflect.
-2c18d2a87c75e2ac6165bfa1aa9722a52af5757b tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-86d49e2fd60110baf79e86631cfedc9f1a1c16ea tcp: sk->sk_bound_dev_if once in inet_request_bound_dev_if()
-50e29f9cf2a6b0b18f624f872edcd4312a395d1d tcp: Fix data-races around sysctl_tcp_l3mdev_accept.
-52c902b21e03a154855d05460783aa46a964ff25 tcp: Fix data-races around sysctl_tcp_mtu_probing.
-302bfa495719f4b1c9e8e651e330e07c19675da5 tcp: Fix data-races around sysctl_tcp_base_mss.
-60b408541824f36d1dca75e1fe733231e56c6a2f tcp: Fix data-races around sysctl_tcp_min_snd_mss.
-2175201ce12ca9be18eacd6571562a2b4e350f97 tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
-425d52f0409c460a25a4bab0754b37393b6b3541 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-8314b0cf1b0b939f510759196da2faebab7f3598 tcp: Fix a data-race around sysctl_tcp_probe_interval.
-b52f5f6d9fd2dece037295e052e679becd0c5842 stmmac: dwmac-mediatek: fix clock issue
-0f0b3a2a47d9becfc2408fc33f6745fdc009138d net: stmmac: fix pm runtime issue in stmmac_dvr_remove()
-a8823d5f0b168d4559bc5a176c85093ca21f9ebd net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
-49037af9fff31881552030e5a176a7e3b3ef3816 net: dsa: microchip: ksz_common: Fix refcount leak bug
-5a2e1d8bfe46e6278cf8912d862d3fb7d7223e46 tcp/udp: Make early_demux back namespacified.
-791ef59f0acdc294890a3ae79bc887043f2b9ca5 i2c: mlxcpld: Fix register setting for 400KHz frequency
-746661746d9a822549b8dbf3f5b6e4215f931728 i2c: cadence: Change large transfer count reset logic to be unconditional
-bd80f18f09286bfe2254a88b1acb6c861b959a56 perf tests: Stop Convert perf time to TSC test opening events twice
-50b8f70e49615a4e744226dc412436f39fd20989 perf tests: Fix Convert perf time to TSC test for hybrid
-608922447a8b964ea523a7639f4f8cbcda28311a pinctrl: ocelot: Fix pincfg for lan966x
-032ce925039c0f255727cb16fec3272eea723219 pinctrl: ocelot: Fix pincfg
-e2fcfa1d29c3a5550b631c9d433c5340c95f88f6 net: stmmac: fix dma queue left shift overflow issue
-37a00710f1c14e2793debcfd5e7e49f2946793f9 net/tls: Fix race in TLS device down flow
-dd66ac12db6db64136c3a004ebff4dc7c0629172 net: prestera: acl: use proper mask for port selector
-96213050874b753989675098f3b1c0f3d4e6350f igmp: Fix data-races around sysctl_igmp_llm_reports.
-676f78ba2749f188d58bf01e0400ac7296b448db igmp: Fix a data-race around sysctl_igmp_max_memberships.
-ef57bff446dfc41517dc11e04eb9e88079272c2f igmp: Fix data-races around sysctl_igmp_max_msf.
-4fff9f1a765e77793afb21c25f87eadd438c5b96 igmp: Fix data-races around sysctl_igmp_qrv.
-99ff7ac0cec9c4e9495c03e78e509b428b02bbe7 tcp: Fix data-races around keepalive sysctl knobs.
-e261544c54df120b1f2835f3c6cad69f0553474d tcp: Fix data-races around sysctl_tcp_syn(ack)?_retries.
-09f60d0b9d1ab2625978ad7c748a4d6f67b57084 tcp: Fix data-races around sysctl_tcp_syncookies.
-d5f9480d556c2cf348af13a3c7f28713c64e2d3a tcp: Fix data-races around sysctl_tcp_migrate_req.
-9958b9d7de69b1f0400aa78287703ba00af87d61 tcp: Fix data-races around sysctl_tcp_reordering.
-46d91eb14f955ec4f5066733b944a58270d8e74f tcp: Fix data-races around some timeout sysctl knobs.
-c8aeb59a876a2813b8f269bb4ca17cc8d02a4e34 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-05abb0e6492335e6475f21746b6522ac0038e564 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-f346ce28fce04f4f4b600c283da0c7c7de145628 tcp: Fix data-races around sysctl_max_syn_backlog.
-9d9f5c02eae5aeb865aa1f4d67be2ab9bdb451e2 tcp: Fix data-races around sysctl_tcp_fastopen.
-93fed3964df03fa5fe8314468bcfa91f8933bd59 tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
-6a04d74c1cd2f8ec2e752d77a8c1924ef1ac3385 iavf: Fix VLAN_V2 addition/rejection
-3810178cb33854b4e55d3c2b6b550fe96349769b iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
-2d1521819389a62e417042f06d8829a687199356 iavf: Fix handling of dummy receive descriptors
-aa395d6f46614ec88f09b68a04025fbe60f2fc24 iavf: Fix missing state logs
-8b5364eed698c529cf07e615f64d95ca597e3466 ACPI: CPPC: Don't require flexible address space if X86_FEATURE_CPPC is supported
-44b7081d67fe84717627a5b368fe93737f13dd32 pinctrl: armada-37xx: Reuse GPIO fwnode in armada_37xx_irqchip_register()
-14e31ede1faf3f696a7e22c6e4d0a4fcf9bac645 pinctrl: armada-37xx: make irq_lock a raw spinlock to avoid invalid wait context
-44e414868be29a6d098f9489c08019816699f160 net: lan966x: Fix taking rtnl_lock while holding spin_lock
-91e6868685a2b82906256bbb1050fc5a905d6fae net: lan966x: Fix usage of lan966x->mac_lock when entry is added
-3a1a9cded1e495d8ca162e75468d6e080b037edc net: lan966x: Fix usage of lan966x->mac_lock when entry is removed
-326c28f189a0f410f256a174fbe0032ece0822b1 net: lan966x: Fix usage of lan966x->mac_lock inside lan966x_mac_irq_handler
-86295616fb572146076071dc7d6c0d4bf7ddc92e net: lan966x: Fix usage of lan966x->mac_lock when used by FDB
-8d8bbcb585bc67faf134ea655b001a66b0020d5b i40e: Fix erroneous adapter reinitialization during recovery process
-caea1edac0b8e6b29aa5f4a660307c9d8fd94d1d ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-c72acb8cfb5cb35984f15a592e557f32814a312b net: dsa: fix dsa_port_vlan_filtering when global
-06b8954154f44dc62a9c5d2fc84cfa7444338964 net: dsa: move reset of VLAN filtering to dsa_port_switchdev_unsync_attrs
-d660bdf70188da0ef4c693841420a0b3f8b1c05c net: dsa: fix NULL pointer dereference in dsa_port_reset_vlan_filtering
-3343cc02601ef23cd40d057ce3f4bb4a134f0f86 net: stmmac: remove redunctant disable xPCS EEE call
-3a1459b37d40d54e5e01e90ffcd76488420493c8 gpio: pca953x: only use single read/write for No AI mode
-2bd8cb45b884a374f32a1f009d3c1201e4e774ca gpio: pca953x: use the correct range when do regmap sync
-bd50608e9208c04a50aa1c7d9eed6ee7d6015902 gpio: pca953x: use the correct register address when regcache sync during init
-1371c689eeaa373f96d572d8ea12bb6b79f1ba9c be2net: Fix buffer overflow in be_get_module_eeprom
-913f25722e2bb6fa68a84b5071f3602b3bdbb89d net: dsa: sja1105: silent spi_device_id warnings
-61146a1d71f41a77f96672747be7809f3553d197 net: dsa: vitesse-vsc73xx: silent spi_device_id warnings
-83723608bd6a293bfe395564290750a5dbc0b823 amt: use workqueue for gateway side message handling
-b680e77167f20ddf9f3659d31f83ed13be8924e6 amt: remove unnecessary locks
-944970e919ac9c60e23e511ed4a79ce7e695ee19 amt: use READ_ONCE() in amt module
-8f3e4b7c32334c33c6dd2a1ed4a9f5dcb57d2ea3 amt: add missing regeneration nonce logic in request logic
-f9bfce68bda3884f400adeedfaf7a7ee2de71baa amt: drop unexpected advertisement message
-2425dab43afd7a3a495474cbda5d8e64da00d7ee amt: drop unexpected query message
-a09857ddcf019635bae245ca799061ebb1363d97 amt: drop unexpected multicast data
-fde234483e3130ee6bcec4ebf6063daf62ced0d2 amt: do not use amt->nr_tunnels outside of lock
-1a80e20856685e8e3bb64aac9658a9309fc78593 drm/panel-edp: Fix variable typo when saving hpd absent delay from DT
-0dfeccae3084a5d2708996966cb438ce8b253e6e drm/imx/dcss: Add missing of_node_put() in fail path
-2be505a203cab8f07e01a7dc810f297d6a6118aa can: rcar_canfd: Add missing of_node_put() in rcar_canfd_probe()
-0efd729267e685faf373d66063d001352f0cfde1 ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
-9926c6d142bfd02e2e5ce4f9f2cf51d675453c37 ipv4: Fix data-races around sysctl_fib_multipath_hash_policy.
-e8046a9551a8883bb87ad820ca7b4547177ea1bc ipv4: Fix data-races around sysctl_fib_multipath_hash_fields.
-72afed27a4674e8d304b7cfa389fed4d5dc581ec ip: Fix data-races around sysctl_ip_prot_sock.
-a8a5390b7067639a3d07254921a7bf360928075c udp: Fix a data-race around sysctl_udp_l3mdev_accept.
-6657d8acd02edaa10fe647e55ed81360abb66de6 tcp: Fix data-races around sysctl knobs related to SYN option.
-dc53ba0e3753feed2c1241f2497ad29f22cf6970 tcp: Fix a data-race around sysctl_tcp_early_retrans.
-50bcfeafb0ffa894cab91d0b7e61d09ed607270a tcp: Fix data-races around sysctl_tcp_recovery.
-6c931c85844e806b6d5134d084d6f75e96b50187 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-7db2f0b4d848536ee1a49a35785944efcfefafab tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-fd00b90299e4978e42fcd7e7559360140adef7dc tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-4bc1c5e5510405625ce65eddd9489f65ff857290 tcp: Fix a data-race around sysctl_tcp_stdurg.
-712e084f5a0b041cefc25af57c3f8eec81dfdc81 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-e5f90cffc266b6c863964faaabd63598fbcbf44e tcp: Fix a data-race around sysctl_tcp_abort_on_overflow.
-9fdc70da02962f9739718b3b4433f1bc5e2a23ef tcp: Fix data-races around sysctl_tcp_max_reordering.
-11d69957e0087a3ef92fe15091db42baf4a1f821 net/sched: cls_api: Fix flow action initialization
-a09a989e223e051d6c7a95276b13c008cd2ffe44 selftests: gpio: fix include path to kernel headers for out of tree builds
-53b163c4feef74891dfad6c49bf4f68d22b1de04 gpio: gpio-xilinx: Fix integer overflow
-d4217ebcd2768b1d53f8fdae69b874c7288e6ce9 KVM: selftests: Fix target thread to be migrated in rseq_test
-38df1e597c11dd0c9427898eb31dc512b07cd52e spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
-69657235b79115f00d543cab3e4037848316bcaa KVM: Don't null dereference ops->destroy
-688713110d8ceab95da7bc1f988be9eb5e155259 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-58cba8a4bdbec0a8ca8e42bdb28d49ff01e75cd4 bpf: Make sure mac_header was set before using it
-85215593cc2df2df6bf5abf82c185373adb446bf sched/deadline: Fix BUG_ON condition for deboosted tasks
-680a41ba5e2e9dc3b12a624e9a17e996a6707179 perf/x86/intel/lbr: Fix unchecked MSR access error on HSW
-06c984b5e334f2cbd4beccc3a1146bfe9ea9e984 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
-9f8e03c3b553253e1d8f79c895503594793893ba clk: lan966x: Fix the lan966x clock gate register address
-02a715e9a9199a31b4bc20d1159cbe8eb9dcd8e3 dlm: fix pending remove if msg allocation fails
-2a92c2b4eb8d9268b9b5b84a36b67122e346e6d5 crypto: qat - set to zero DH parameters before free
-3ac235f4c4e164bfc4073bc2b9981c86a56bb611 crypto: qat - use pre-allocated buffers in datapath
-127c763ccae69a7f4c4a728d97a37b7cfc75567f crypto: qat - refactor submission logic
-9b5f8a5cf4fcf92e6f4fef0ca6c15f099d26025c crypto: qat - add backlog mechanism
-2435a86f8fb75e3f8518b1d06be20bfc103b4237 crypto: qat - fix memory leak in RSA
-62ec0d98015c46332a5e107bf260e6fffb9735d0 crypto: qat - remove dma_free_coherent() for RSA
-1703b56b18285a93c0bdb122b32d0100840fd4ee crypto: qat - remove dma_free_coherent() for DH
-99f2ad18e4a9426c47499cd4fcb8799a9023bb74 crypto: qat - add param check for RSA
-631ebc74c268043114735b5b4f94c8448bd9cc7b crypto: qat - add param check for DH
-f4b220cf32349abc9e65f1a78320b37c01b1d0e9 crypto: qat - re-enable registration of algorithms
-85e842d247208b10011073f2bf7c24e49681cc83 exfat: fix referencing wrong parent directory information after renaming
-453cb6ec8182b12b79be8a8f6eae9b9626e8e1b3 exfat: use updated exfat_chain directly during renaming
-4b36a6a386cc72e57c4b97274525de38d60974d2 x86/amd: Use IBPB for firmware calls
-0de8643a3f5902c2ac3cd11f2620dd4ba75b19b6 x86/alternative: Report missing return thunk details
-f23476f93254f80ce9fcc7be15e69e2f7b61bc88 watchqueue: make sure to serialize 'wqueue->defunct' properly
+9b583d24c12074edccea8838e9a9b1a14214eecf pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
+4e39f34473e31890c8aaaf924071b6bbe25a4ddd pinctrl: stm32: fix optional IRQ support to gpios
+3a396fc8bac03a16cd8c248380cd588603ff527d riscv: add as-options for modules with assembly compontents
+3481bf191ad368d46d12dd883c9ce2f3588139b0 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+a9e4b6469ed7eeddf825907c064d28c456ed321b lockdown: Fix kexec lockdown bypass with ima policy
+b7dd128ffa5c3cf4efa4104024bb30561359549d mmc: sdhci-omap: Fix a lockdep warning for PM runtime init
+7a8a01244fad617a4115e09c604267e3d0709b90 mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
+e28e73ce61e2eed50d5bfc10333dff73129b2824 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
+403c4ec340553bfd75a69eafcc1bd3847a056bca drm/amd/display: Fix new dmub notification enabling in DM
+3c896c7d74ece8e8294d31c959a89db7a5c7e7d3 drm/scheduler: Don't kill jobs in interrupt context
+cd2c40df7cd1d7ecfa1317f888f1b733971aa274 net: usb: ax88179_178a needs FLAG_SEND_ZLP
+b3ad9202baa54700625f204d2c0aed6c16dcbfb8 bus: mhi: host: pci_generic: add Telit FN980 v1 hardware revision
+914e110d2bf176a2f188ee93cb17bcd10f0b8066 bus: mhi: host: pci_generic: add Telit FN990
+ec7875da5f7e6bce0c8c240e8045d84a6a9e17e7 PCI: hv: Fix multi-MSI to allow more than one MSI vector
+62f89fa128ba0c2c7826d6ed6cdd224fa44d2f60 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
+c889072ff1a49d42c13b4aac454c6e5ab839a645 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
+d038c792a7d14bd8e1155606fbb9988d463f9529 PCI: hv: Fix interrupt mapping for multi-MSI
+4937bfebaf7b55228e08efbc7de583ca298352ed r8152: fix a WOL issue
+94622b1099dc54d3987febc52ee79a79d0a8e7a6 ip: Fix data-races around sysctl_ip_default_ttl.
+bf0e1e22e89b62e94278a186d6545f17e72f4a5d xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+ed10cc70e2577671e7e22506647429d51ef29263 power: supply: ab8500_fg: add missing destroy_workqueue in ab8500_fg_probe
+7327f18b725be1f4ff91cdf3b9b85201fd154da8 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+ae0d7314c20b7298a3081714a8d9432ac6d79bfa RDMA/irdma: Do not advertise 1GB page size for x722
+79057340c53c9b65ebaa320187163d60e3eae6d0 RDMA/irdma: Fix sleep from invalid context BUG
+7b9407710b664798db81081ffe5b683552f5e157 pinctrl: ralink: rename MT7628(an) functions to MT76X8
+ceec454b77515c817086b9e4e7f48f95e6cd6f8d pinctrl: ralink: rename pinctrl-rt2880 to pinctrl-ralink
+e91a3c1446a9a7242d7f2fcc663fb7dcd32463a3 pinctrl: ralink: Check for null return of devm_kcalloc
+ca9213123299bb4de43bad5845cd11a854f4e89f pinctrl: sunplus: Add check for kcalloc
+a3113f56e141795646b19cc1f64b26fe9412eb80 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+a2577ced438b252d83752476d21b8df1fa0f1cd7 e1000e: Enable GPT clock before sending message to CSME
+fe22f053d950f66faacfa148967b472306066a45 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
+b4cda614f580dcea0b45988f748a3aa299355c8d igc: Reinstate IGC_REMOVED logic and implement it properly
+e203a031a86833a1c52a7488b7ef450d18156f3e ip: Fix data-races around sysctl_ip_no_pmtu_disc.
+4e8fc592a5327dbf9a523b50b811e1433b83917f ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
+c37ff93dc4135ab890038b2b7dbfa7c4d1f1b4e4 ip: Fix data-races around sysctl_ip_fwd_update_priority.
+4877431ee8ae14706020a48d25e0e50f2228fc15 ip: Fix data-races around sysctl_ip_nonlocal_bind.
+95cd41a0a6f39c306ce2d21350b7a9a841872bfb ip: Fix a data-race around sysctl_ip_autobind_reuse.
+9400cde72b2f54f1eed4ad65e5cdeb4bc888bef4 ip: Fix a data-race around sysctl_fwmark_reflect.
+b725ee69de926f7f9fa83c0a9875f372381782e5 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+178ef78b436ab6a332c103452a3fd1c97ec2a959 tcp: sk->sk_bound_dev_if once in inet_request_bound_dev_if()
+00d2ebf94712d56ba5c85b062c7a1e178a8a2f11 tcp: Fix data-races around sysctl_tcp_l3mdev_accept.
+3bae912a8c50b30d90d1eeddb67dc080923cffbc tcp: Fix data-races around sysctl_tcp_mtu_probing.
+b0848f85accc2e91b2b073807dd34bcd901afb19 tcp: Fix data-races around sysctl_tcp_base_mss.
+2f5c6325703b1cf7de74a43b773d8688da8cfa0c tcp: Fix data-races around sysctl_tcp_min_snd_mss.
+d19ed31a00d77bb60e7246979b590b19f153442a tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
+b8a81cd08c1728b410c186be1bb08f5d065ba8e9 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+c20a9076218e52a732003e2bdcb1450506d29588 tcp: Fix a data-race around sysctl_tcp_probe_interval.
+9df3be942f954dd2f0771ab958e1d29d86cd3fb1 stmmac: dwmac-mediatek: fix clock issue
+5a2c1297d6ed4ef289e5aee6d38d3e4538ef6f60 net: stmmac: fix pm runtime issue in stmmac_dvr_remove()
+4445c094b2e6f17fce20b36cc25b3e701ada4133 net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
+217c349524433a31ac89ce45f662cb5b9110787c net: dsa: microchip: ksz_common: Fix refcount leak bug
+f40defe035c8d833152eb81be6d0ab348bacf208 tcp/udp: Make early_demux back namespacified.
+79d5d917d86ffa4e965ed4b784494cbd4490c019 i2c: mlxcpld: Fix register setting for 400KHz frequency
+f6a19e87d6e5719109fc1a57ad942105d970d86c i2c: cadence: Change large transfer count reset logic to be unconditional
+30b51cee5b57f0580e7dc071dc57767bdc8b6501 perf tests: Stop Convert perf time to TSC test opening events twice
+ca6a015c09256a1dc448098c3e5d80b0502c2904 perf tests: Fix Convert perf time to TSC test for hybrid
+72a311374cd9156dd2ff66d0fae81701d74edc08 pinctrl: ocelot: Fix pincfg for lan966x
+88f10f2378b33114b6b0ae360ec8cc22427e56b8 pinctrl: ocelot: Fix pincfg
+6c9c8bed9fa4c28e363ba981b30a725520f2578c net: stmmac: fix dma queue left shift overflow issue
+208a7cbd0f15f3c107dae28194484ab77d08f542 net/tls: Fix race in TLS device down flow
+e5514960deed1d30711d2b94fe50da4e6763d490 net: prestera: acl: use proper mask for port selector
+f0ea9ff599faa5d44eaf0598d93bf4bee913449c igmp: Fix data-races around sysctl_igmp_llm_reports.
+ba64b90986daac5dde9d320968c67ee99fa4d932 igmp: Fix a data-race around sysctl_igmp_max_memberships.
+2e71114ebaa2239a2156b285b59509f9719a1746 igmp: Fix data-races around sysctl_igmp_max_msf.
+c7990d258015ceb9a804c68b6685b1aff5763f03 igmp: Fix data-races around sysctl_igmp_qrv.
+ad523c1afe9901706c535e1ec6f455409f0fd221 tcp: Fix data-races around keepalive sysctl knobs.
+1367575acf30a5964ea892fc9ab346f8237304a5 tcp: Fix data-races around sysctl_tcp_syn(ack)?_retries.
+5b310a9c6d3a4c4a218594f29ee0d4dec4bf4c52 tcp: Fix data-races around sysctl_tcp_syncookies.
+85bba766ac60a6adfb2edda11ecc3aa955ad7768 tcp: Fix data-races around sysctl_tcp_migrate_req.
+6de488d94404635205f82293da6ad4fe6430e6cc tcp: Fix data-races around sysctl_tcp_reordering.
+c5732d4f1ac1dfda1a3fde48ae6bcf0054ff6c86 tcp: Fix data-races around some timeout sysctl knobs.
+563ff6c0d8e52b2464a81ac8b64f9df98a2d89a2 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+021cb15cebc03789077379ea02d8723f006c7914 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
+55430009c49bacfcef593914ad5a98de0fd6d57b tcp: Fix data-races around sysctl_max_syn_backlog.
+86402e5a18614bb2b8d8157f63ff9394fa965678 tcp: Fix data-races around sysctl_tcp_fastopen.
+f965183c63f0839dc2bc20723d80fe75a6927788 tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
+267aba67bc13d8021ee1e4eb10ca2ae98c494b44 iavf: Fix VLAN_V2 addition/rejection
+c87dc603f3eb96256fc0ddc167e37c205482e126 iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
+bfebcc717fb486e8576ae6f68ca4ffe60649887d iavf: Fix handling of dummy receive descriptors
+5080da35b01ccc1a971aa942049d9edf717d74fc iavf: Fix missing state logs
+182c23d0c0c7d688d2ac37b9108d517634f5d269 ACPI: CPPC: Don't require flexible address space if X86_FEATURE_CPPC is supported
+1ff073f6e09624f4bc42e274cb03d31136ee9dfd pinctrl: armada-37xx: Reuse GPIO fwnode in armada_37xx_irqchip_register()
+0a5d9fc0bd20c4a3fa5c6f7adcbb49c223c2754e pinctrl: armada-37xx: make irq_lock a raw spinlock to avoid invalid wait context
+001f4dcac1096f694db01005529dd856f7b8cc61 net: lan966x: Fix taking rtnl_lock while holding spin_lock
+6464ee0fd4de5ce41bbff6cabaa60b010f0ace3e net: lan966x: Fix usage of lan966x->mac_lock when entry is added
+127f882542aa07d61961aa7e31ed95ef933d61dc net: lan966x: Fix usage of lan966x->mac_lock when entry is removed
+b70ecaef9478d1a32008c76d2acdaae7b6973b34 net: lan966x: Fix usage of lan966x->mac_lock inside lan966x_mac_irq_handler
+9f47c5c94f24e09740569883dacbefe896fa85db net: lan966x: Fix usage of lan966x->mac_lock when used by FDB
+b35aabda895c8919cd189794b4ce829f4c4443a1 i40e: Fix erroneous adapter reinitialization during recovery process
+951a0b8f1ed1972abd09905d2926ce9790a9ebea ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+0510599fc9489410ccd49a46fad74f560664badd net: dsa: fix dsa_port_vlan_filtering when global
+11584868ad739fa2a4bbde5d071579e8cb435259 net: dsa: move reset of VLAN filtering to dsa_port_switchdev_unsync_attrs
+1c06a0e02f2605440a6ccc0635883ddfea11cf27 net: dsa: fix NULL pointer dereference in dsa_port_reset_vlan_filtering
+62563b91bd72bbb14d4ee0deb66baae5db904fe4 net: stmmac: remove redunctant disable xPCS EEE call
+28783ac458266eec476787bf5d46b4753708cf0d gpio: pca953x: only use single read/write for No AI mode
+23720c43f69b43315025cac2e356ccf72b8f639e gpio: pca953x: use the correct range when do regmap sync
+bebfc96b143d2d348bf2233502b1b71904b6382e gpio: pca953x: use the correct register address when regcache sync during init
+8098f8870360cf0e62bb4c33777b321077100f2b be2net: Fix buffer overflow in be_get_module_eeprom
+f1b53846d5123314b6eb9f5bd960b35f23a4d585 net: dsa: sja1105: silent spi_device_id warnings
+1f8478ea457addb07c45fd2c8d6e8b5633c89034 net: dsa: vitesse-vsc73xx: silent spi_device_id warnings
+fd4671c03e006329d62bcd57bc9f6c4480239a9b amt: use workqueue for gateway side message handling
+4418d820187571ec638a5f87c23b6ad4e16da393 amt: remove unnecessary locks
+a00fe36fed97b81aec208ca9e3844d7bd0083bb1 amt: use READ_ONCE() in amt module
+1bf4286ea29a4fbc2549dad4e0507e7bab629942 amt: add missing regeneration nonce logic in request logic
+3cd9a52afea8d2a679f41b74d88c678dde1f5838 amt: drop unexpected advertisement message
+62668628b0960bccf699eb1ff9c0bd969e947937 amt: drop unexpected query message
+fb613e891b1753f4ff33f58fe8e5f92e9e9290ee amt: drop unexpected multicast data
+332c93ad64213099cbbf2cadecc0d46f1d21d089 amt: do not use amt->nr_tunnels outside of lock
+31f59624c39c4002ccd2278216b32ea481e90169 drm/panel-edp: Fix variable typo when saving hpd absent delay from DT
+71a6715a976a6d8d7c2cf63780eab5681691672b drm/imx/dcss: Add missing of_node_put() in fail path
+4995fcb4dbc3b03b98fd722e3eb8d8aa3b1c9360 can: rcar_canfd: Add missing of_node_put() in rcar_canfd_probe()
+0508f7a86f464386ff4085f7f8e20591fbc4374f ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
+6e581d5851b04d4c4c244f744c69bc34c52bdb60 ipv4: Fix data-races around sysctl_fib_multipath_hash_policy.
+6057e70a778c10adfe7bfe41cebe6bd11fbabfae ipv4: Fix data-races around sysctl_fib_multipath_hash_fields.
+10f0017d114af47f6ed73cf32edbabe0ae95d496 ip: Fix data-races around sysctl_ip_prot_sock.
+91ebd65fa183f3e90782dfc8d89e2b7003224157 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
+fced12793d4fd945ee2b887214fde40358b7f171 tcp: Fix data-races around sysctl knobs related to SYN option.
+21ef5377ba1fdcc2e49229dbc3ef551039f17525 tcp: Fix a data-race around sysctl_tcp_early_retrans.
+e2009dd6c684e0bf3bf0e69ad433db7332f667ae tcp: Fix data-races around sysctl_tcp_recovery.
+7d2d5b70034ca36c86f136a69f75f66c5625c750 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
+5e1a4b158f06f6f373eaf61cefed4a0a1ce5de0d tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
+6aef8ab64f19188800dba4e749e4ea9f91e8c9db tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
+3172d461e3a973859f09739e8db8b5931620b50b tcp: Fix a data-race around sysctl_tcp_stdurg.
+b9ac5ca91162c92779388ed98bae54da70135eb7 tcp: Fix a data-race around sysctl_tcp_rfc1337.
+cc77b3352c949e8071680c22659432d31009c952 tcp: Fix a data-race around sysctl_tcp_abort_on_overflow.
+4cc08e16007323ec3abc02ab96ed74016d213715 tcp: Fix data-races around sysctl_tcp_max_reordering.
+1baffe9aaa678a455a8a9b3834440c467531c038 net/sched: cls_api: Fix flow action initialization
+76f847efb60306e959c945314e89f3c1a50b56ed selftests: gpio: fix include path to kernel headers for out of tree builds
+64139dcd3b4629e7e5766026a90c76ad45246e02 gpio: gpio-xilinx: Fix integer overflow
+ab0702a80999c71b3152a7a12e0dd9228d62d535 KVM: selftests: Fix target thread to be migrated in rseq_test
+ef2b84f03d0545a84bef7dc07aa830675e5fcc7a spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
+6644992e059cfe4193470584d26b09fd610fba92 KVM: Don't null dereference ops->destroy
+525e3f78749cb8f32f149cdd1c1698230937043c mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+8db58da1ed01334ca899e23df9213c28fc15717b bpf: Make sure mac_header was set before using it
+1603a98f28685c19aaa691f738468d12c6672c6b sched/deadline: Fix BUG_ON condition for deboosted tasks
+32ad976e3fe34f791aa55f8cc59b06b0a8b634fa perf/x86/intel/lbr: Fix unchecked MSR access error on HSW
+4ba68c124241b22472924dcd652a6f35d002125a x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+f5b0cf072ec37480fbe10948e23b5bc054681e06 clk: lan966x: Fix the lan966x clock gate register address
+546095a88756a1d50f793d4da681356145bac58c dlm: fix pending remove if msg allocation fails
+2ddb38565e29ac3d07bd82bc10c8ad24ea9f6a07 crypto: qat - set to zero DH parameters before free
+5f538c48ef44befd4c55b467dc2815558db8442d crypto: qat - use pre-allocated buffers in datapath
+dbe52b91071aa487e5b8ac1c6b6d1025abd3f27e crypto: qat - refactor submission logic
+11e93bc523b7d3b90caefdd46479befaf5810736 crypto: qat - add backlog mechanism
+18725d3b31a0818b3fdc0254091f24ea6f201c1e crypto: qat - fix memory leak in RSA
+c5da2efb65249b099ca0763bf5b027c13f5cf865 crypto: qat - remove dma_free_coherent() for RSA
+f7b5f53960edda310a57fca92c5bd3a19cdae9dc crypto: qat - remove dma_free_coherent() for DH
+99596e7f595b68d585ce38e32c159c5c89d5ff05 crypto: qat - add param check for RSA
+4c4c03504f2c6c99b5b442462397ee913f6638a1 crypto: qat - add param check for DH
+cf4fff7288861cd7dab6bda6dbffa2247c6a08ea crypto: qat - re-enable registration of algorithms
+1b0d50d92c70224da17c08103be8fba87674cfda exfat: fix referencing wrong parent directory information after renaming
+edb9d8ecf41d6add3a63f15d4a641577d2b0bb06 exfat: use updated exfat_chain directly during renaming
+1b3661a828192eb9e56a1ced493298bee5059079 x86/amd: Use IBPB for firmware calls
+49afdc335fae16eeffdb6bd7a5a5d09d0050652f x86/alternative: Report missing return thunk details
+a899f7c7616b209ac59eae952a857f068faabe92 watchqueue: make sure to serialize 'wqueue->defunct' properly
 
---===============5839857974955526389==
+--===============7612634070885018178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d60aa045bf6-6fa09712cba7.txt
+Content-Disposition: attachment; filename=revlist-6fa09712cba7-4911e9b5cda8.txt
 
-16fbd746a0fab4ce121d42a92684bc1b053769bf pinctrl: stm32: fix optional IRQ support to gpios
-99bbc3b4f08e407273cd12db2c30d8f29e49cb71 riscv: add as-options for modules with assembly compontents
-177103588d27a7b233ec97c3145f80cca819acda mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-048a1a965f08a67b750634f4b02e58a481ccacaa lockdown: Fix kexec lockdown bypass with ima policy
-b30cc572cb3081362a669e6eccbc292d2290d37c xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-3a622ab998e8c965924edb4fa8bd34413be7ad95 PCI: hv: Fix multi-MSI to allow more than one MSI vector
-a101508811599d04a8fc7e5d351cdd0f65122155 PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
-dc71b655cb4fe876fa334d61d7984d830a31a5a7 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
-bfa0207d08b16a4cef7cdc8e08573fc6fd046cfd PCI: hv: Fix interrupt mapping for multi-MSI
-aefb15520bdcc9566fa1baca3ed7f3648ed95b55 serial: mvebu-uart: correctly report configured baudrate value
-62e170305a615289b9d37810e888a24ade04ae34 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
-d3e29c4e1a697911e67dd1bb3de4a7c248813217 power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
-6c7fe1c079902a723555e21e0555b507d4f13753 pinctrl: ralink: Check for null return of devm_kcalloc
-38ea7ba61c3253465acc441ab7eac7cd81b32fb1 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-1942a1e9ed03fa4524a51aefeb7f9f372ef7ee19 igc: Reinstate IGC_REMOVED logic and implement it properly
-b4ae47b832f7989f190bf45ecb335643d349dcfb ip: Fix data-races around sysctl_ip_no_pmtu_disc.
-e6db149d8968c53feabbbd07ec82700e372d708a ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-4a282e0d5d7a8ddd755aa37837927c4f26863f62 ip: Fix data-races around sysctl_ip_nonlocal_bind.
-3bb251ed58f86bdba3784c75d16df22be36d3c12 ip: Fix a data-race around sysctl_fwmark_reflect.
-72bc54252d12c4af37f3b8e4c3527fc13c60d396 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-27e7facef960c7e402ce3e403c5ddc7206f869de tcp: Fix data-races around sysctl_tcp_mtu_probing.
-9327b91c73eb2ccee8707f86cf633ad96043bf2c tcp: Fix data-races around sysctl_tcp_base_mss.
-260188dee270030542948c0303a5b4afd75f7cf0 tcp: Fix data-races around sysctl_tcp_min_snd_mss.
-d4fcdf5a57b58e24d91aa87d973e019c8d1cdb9f tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
-84472174f205dc847f21e1a864b28d6506da2315 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-270112b8f75cea81806dd75fc65795b3649f3154 tcp: Fix a data-race around sysctl_tcp_probe_interval.
-e5a24751c4fd81065ea199e2b21e2fe8e9a606ee i2c: cadence: Change large transfer count reset logic to be unconditional
-9a22d6dbdaf0a7d71b9c45e1a64d28a47102021e net: stmmac: fix dma queue left shift overflow issue
-b03892f6d38421aa4002df3577b03133f447a22c net/tls: Fix race in TLS device down flow
-836ac962f8e0e4c8d8d5f6a1bbce442416e03a40 igmp: Fix data-races around sysctl_igmp_llm_reports.
-bf1aaca86bfa9b45c1b0f85bf8b5241b899076a6 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-023cf34457e5f5b61b8363db0a058ce800a401de tcp: Fix data-races around sysctl_tcp_syncookies.
-8876e550fc7e3a36a1df289f4aff48d9a68661e2 tcp: Fix data-races around sysctl_tcp_reordering.
-5c09829755f4ed4bc988a9bb3e0d0bff81e1c525 tcp: Fix data-races around some timeout sysctl knobs.
-177b852a43094318e1617ccc6d84fb3cc1c59394 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-ffc353110a4dc9072232e1e86d7a1fa57ac45d88 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-a64f9d939c5bd333eda177e14e882fc4ce709bb6 tcp: Fix data-races around sysctl_max_syn_backlog.
-1bb4efe9277c95be2d2942f7631fd5abd8ab5e33 tcp: Fix data-races around sysctl_tcp_fastopen.
-0420e0725718635c5dfbc6b8031db7ec97dee692 iavf: Fix handling of dummy receive descriptors
-146f177a9af4e17cb031c9c80242b79500fb9279 i40e: Fix erroneous adapter reinitialization during recovery process
-9b02509c3f160391f19c680bf8c5b737ce609af4 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-689a91f7092e13f9d9be286f312eb16cbe8f65d5 gpio: pca953x: only use single read/write for No AI mode
-ddb0922ebc904a49fd5c2b7ce5f4a2bc7202dd74 be2net: Fix buffer overflow in be_get_module_eeprom
-cdf090802a754786b0a0b9f522e4d703e193df33 ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
-4677c5a22b6a067d16f12113e8eecbf712e84ea7 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
-5652dc0d0408ceba577d452bea9b78538f2d63c4 tcp: Fix data-races around sysctl knobs related to SYN option.
-cb5a2d381bb6251dc07e31668398a811168dc640 tcp: Fix a data-race around sysctl_tcp_early_retrans.
-1d1f9b540784f8f1480c561eebd5ec9894d409c9 tcp: Fix data-races around sysctl_tcp_recovery.
-88f404b844c0f7127b0fb3b39385856f98e7d5a9 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-aa2d8d0d2570c479e029f49d9abbf453f5fec08a tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-17dcf0223d9a2b78d090709f597495f9855b82db tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-43381b7e77267da753c6c86482f6032631d40250 tcp: Fix a data-race around sysctl_tcp_stdurg.
-fbba5717d15d7620ee44439b355576c498ea4913 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-63545d601e04a69c2cb5969a87331f41fd00306c tcp: Fix data-races around sysctl_tcp_max_reordering.
-3f1a04491320937f5e5ea6dca1a34d58eb325082 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
-f949e4bdac245dfd4fb0bfe50d86915a38b14539 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
-4b6076c7279f32df6b749bcc238f87c5cd721a61 bpf: Make sure mac_header was set before using it
-463a9d06894597515da1cb65bea7f7e609f5df1e dlm: fix pending remove if msg allocation fails
-a4aed24f7cd733d0578a091e6c5fbb9753d6a382 ima: remove the IMA_TEMPLATE Kconfig option
-ad8e1643f4225eaccf7906858a001e9091459592 locking/refcount: Define constants for saturation and max refcount values
-3cc6bc4e7835c6919d6e0d28210873cc1406b199 locking/refcount: Ensure integer operands are treated as signed
-577700dec2445eaf1def7f448e059bd4c7cc7a10 locking/refcount: Remove unused refcount_*_checked() variants
-b866a4ae993c9749ac74aedd2f8b738f6eecc13b locking/refcount: Move the bulk of the REFCOUNT_FULL implementation into the <linux/refcount.h> header
-c7c1d88d51efcd82d3c9d0773cfffa8d26a4e5a4 locking/refcount: Improve performance of generic REFCOUNT_FULL code
-c0b0f88f89c3378872091b6c30896a6871133e12 locking/refcount: Move saturation warnings out of line
-39d6f1b0ea1a88d15f69eee55000480e67e2b5cb locking/refcount: Consolidate REFCOUNT_{MAX,SATURATED} definitions
-fd9ef55e90e3498f1b7fdc57044a0199b3a99596 locking/refcount: Consolidate implementations of refcount_t
-79028ff36a9d7b37ac08a85f7e5f7bf0a991a828 x86: get rid of small constant size cases in raw_copy_{to,from}_user()
-fe77a5ee3d688e0a7bd6cf7fde0c21701e24c1c9 x86/uaccess: Implement macros for CMPXCHG on user addresses
-d095a0d851aa544ee49fd09f3e8d681807b8cfdb x86/uaccess: Implement macros for CMPXCHG on user addresses
-63feafcafbf950d32045817950e18b6ef59f566e mmap locking API: initial implementation as rwsem wrappers
-306f51112a853e558c88e5deac9825ddc38baf1d x86/mce: Deduplicate exception handling
-8340382bffbcccc3adfb3cb217f753899b8006e1 bitfield.h: Fix "type of reg too small for mask" test
-8534c2729ffa43e9be729a64a893f4d6a8c8de80 ALSA: memalloc: Align buffer allocations in page size
-0b713eb21905f31c79b51abe196364c47053488f Bluetooth: Add bt_skb_sendmsg helper
-8cd71bd6b4d545de0316a18769cb18451b94495d Bluetooth: Add bt_skb_sendmmsg helper
-1415601efa6059968f5ef5364c5a7c6b5b7e2b77 Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
-6b95e4370ea4f1e5f3067d45caa2cd35a1dfbcbe Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
-34c3f3d74cdd5f0bf0a0248d2e0ce520e4a63904 Bluetooth: Fix passing NULL to PTR_ERR
-81d5f1c71a9d2109bff739e74a85ed11a3dcb6e6 Bluetooth: SCO: Fix sco_send_frame returning skb->len
-ecc8aee294253a83e593521cd887eff72f2c4c3f Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-fc3767e8e714bc54b903a349df5434cb91eaa709 tty: drivers/tty/, stop using tty_schedule_flip()
-39c00be50ebe2577953111bb9f8e9a931ffdf3db tty: the rest, stop using tty_schedule_flip()
-fd90961fee3910ad4fda8875979eafb92a2cee49 tty: drop tty_schedule_flip()
-93d748601b52b640f2a573b9400a25ce4cc47773 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-6fa09712cba7e1d703471bc022080555ea4d6cfb tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
+b62508223f1c62c8d0f8492371c5a27715712863 pinctrl: stm32: fix optional IRQ support to gpios
+e808dd4856a9f10948c035d8745e2255ea68f9c2 riscv: add as-options for modules with assembly compontents
+4b7048ec72130f3bf798ee10cb15038d3a28cba8 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
+63a31496f643bba79840d8fa5b7ae88bd132a32e lockdown: Fix kexec lockdown bypass with ima policy
+7561ba8e59987b2d401221bc5df5cefcd4f458a5 xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
+732e6bb4f03d8bbf95ad5092cfd25f6951f460fb PCI: hv: Fix multi-MSI to allow more than one MSI vector
+8650623a2283b4d069c236427dc4bb54e76b46fc PCI: hv: Fix hv_arch_irq_unmask() for multi-MSI
+f5292fc46745c87e0f5a52fe198068c4ec4a3c76 PCI: hv: Reuse existing IRTE allocation in compose_msi_msg()
+4843e21dd574db113fc1cdb9ba2a73195557a8e1 PCI: hv: Fix interrupt mapping for multi-MSI
+f6f018b07cb542fb526c25dcd2883ebd9b348de7 serial: mvebu-uart: correctly report configured baudrate value
+197e40cbb5a7f801c85ec5238917f0dd9745c9a7 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
+d508e454681f7a888c662360cf4362422cfc626e power/reset: arm-versatile: Fix refcount leak in versatile_reboot_probe
+48769320681c4408aaebeee436ce5b9a436cae5d pinctrl: ralink: Check for null return of devm_kcalloc
+56de90a8f0773ea2f4fb9df90042041f2c5eadd2 perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
+d1af86b76854337010bc43784a155b82623bf635 igc: Reinstate IGC_REMOVED logic and implement it properly
+08e1cbe60f47692cc6f657447524eee01d4f64f9 ip: Fix data-races around sysctl_ip_no_pmtu_disc.
+fc1324284679385e407e14b4b78b6cded4843e30 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
+2621848fa546f39343be29bcdd1c72f303945782 ip: Fix data-races around sysctl_ip_nonlocal_bind.
+74f5482341a4dc0b5cbb078030f1b978d48d1942 ip: Fix a data-race around sysctl_fwmark_reflect.
+ff1ae15a8eb190da60aebe46e85e822e3b9e3bc4 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
+ce2e952cc88bbd30dd3841cc150e541565925f13 tcp: Fix data-races around sysctl_tcp_mtu_probing.
+8035905dfc3dcd559a430f0b55ddc884edf54c68 tcp: Fix data-races around sysctl_tcp_base_mss.
+ad8aba24c82d0ad7c956eb8648157f6e1b441e5e tcp: Fix data-races around sysctl_tcp_min_snd_mss.
+3bfc1f5e1075b542adf9b289fb1ac68f5d981f5b tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
+05d3c1487ab212cb0bf6845e5745b0b3d31ff097 tcp: Fix a data-race around sysctl_tcp_probe_threshold.
+67caa686842b51395356a309206657334fb62011 tcp: Fix a data-race around sysctl_tcp_probe_interval.
+fcf820aa3d3bb4be9fb59244eb5ceb8bb0718114 i2c: cadence: Change large transfer count reset logic to be unconditional
+c11cb4492f7772b0240608c4de91e6f85bc7b4b0 net: stmmac: fix dma queue left shift overflow issue
+59df4f25f1da2ee60ef546f008d236d2def9a80f net/tls: Fix race in TLS device down flow
+a7a2982dc498540a99a8786b3ef1a5791d4d8216 igmp: Fix data-races around sysctl_igmp_llm_reports.
+ad03239b0f9bfe61fbf83f43a7beaa684453d4dd igmp: Fix a data-race around sysctl_igmp_max_memberships.
+ff57fdbc6d4f056343fd4640984136a508e06496 tcp: Fix data-races around sysctl_tcp_syncookies.
+f438ca4b3646b2312ca74b18d490e02fdaabd375 tcp: Fix data-races around sysctl_tcp_reordering.
+81de17e32d7c2c7fa56880e4ea2efcd65894264c tcp: Fix data-races around some timeout sysctl knobs.
+8b7ff2eabcbb85dbdcd92718238e8a0d1d30833e tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
+3e7490cc5285123173fc2a817f9311e195017e3a tcp: Fix a data-race around sysctl_tcp_tw_reuse.
+03a5204344c324cc1001ec636294c827bc3d692d tcp: Fix data-races around sysctl_max_syn_backlog.
+8e4e89843606c307610515a70584f6777fe663e4 tcp: Fix data-races around sysctl_tcp_fastopen.
+c3307c1e33366c479041e8d987542de138bed959 iavf: Fix handling of dummy receive descriptors
+a0c9a4744d35a9c602f6af61ba1f859c6fccd844 i40e: Fix erroneous adapter reinitialization during recovery process
+c1283bf13256391a7b37f300c694c79af140a529 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+db94c966e3b598b8f591d6356d1fb7447f716991 gpio: pca953x: only use single read/write for No AI mode
+3631767f87fd0c2d2a029e686cec01872033e047 be2net: Fix buffer overflow in be_get_module_eeprom
+500ed82ac754417142aa92df05297727572a370c ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
+35e8b7a8c8a48b1fdac3a745ec8020daaa11b38b udp: Fix a data-race around sysctl_udp_l3mdev_accept.
+d7c640c54a40e7e77893ee6b21da6d30608df090 tcp: Fix data-races around sysctl knobs related to SYN option.
+37fcb48ab44d70ad6c4327921ed68d78efcd778a tcp: Fix a data-race around sysctl_tcp_early_retrans.
+0cdc9d21749c3ce7d65381f92b8dd05a129e59f6 tcp: Fix data-races around sysctl_tcp_recovery.
+49f972803930e34b05a2cf6ad62a3d44c0ae05c5 tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
+5d876e1c63c82f7142330026ba0adeec7b655528 tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
+e8120b6fc98320205046ad72f35124a8a34d57cc tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
+643e9e5d0e8447fd7b8205e4060dfc1f721ebee1 tcp: Fix a data-race around sysctl_tcp_stdurg.
+85c126b08045095e2ef475aeb33852a8c5071b66 tcp: Fix a data-race around sysctl_tcp_rfc1337.
+020e7024f11bfac7f69bd7b4a0d7019137a5a620 tcp: Fix data-races around sysctl_tcp_max_reordering.
+b2fd19a79dd72e4323cbf3c4f5ba8cabbc053917 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
+dd1d0ae54569ec765864501481dc6c7b20423c26 mm/mempolicy: fix uninit-value in mpol_rebind_policy()
+bc216ef50fc851cca3a1cfe852df4dc9a368c5ba bpf: Make sure mac_header was set before using it
+b79fdcb73450264ece908743e8fa1bfb9314fd46 dlm: fix pending remove if msg allocation fails
+30f7a417054b5d5040d3397a8d27e40fb96453e0 ima: remove the IMA_TEMPLATE Kconfig option
+e850be033661382944440a5fbe011d1c8662ef79 locking/refcount: Define constants for saturation and max refcount values
+52c0b99038e1a2a7e1dab60a3fcc753ce0e963f1 locking/refcount: Ensure integer operands are treated as signed
+b28e6fcdd26db3637ee61d26d9fff82eb6b1e7e2 locking/refcount: Remove unused refcount_*_checked() variants
+c1c60557054867545523d5592beac2b39b79042c locking/refcount: Move the bulk of the REFCOUNT_FULL implementation into the <linux/refcount.h> header
+63bf471d5e6679d4fe74e2da54d88a25ad4e14fa locking/refcount: Improve performance of generic REFCOUNT_FULL code
+379c025931a883511bdb29018983c98a74c60f2b locking/refcount: Move saturation warnings out of line
+6cfba96625a0cc8819942033f9b72f3b4a785bc5 locking/refcount: Consolidate REFCOUNT_{MAX,SATURATED} definitions
+3274206c44c3da33e7bb06c491f635373af3e483 locking/refcount: Consolidate implementations of refcount_t
+ccc7c6fb3454b557b3d299f5995af51341713e7c x86: get rid of small constant size cases in raw_copy_{to,from}_user()
+5a9ee743d4d96cd46603dcda4c6ca5336ce0eb7e x86/uaccess: Implement macros for CMPXCHG on user addresses
+54c26c404aca45ade042da357da65d24f88de76d x86/uaccess: Implement macros for CMPXCHG on user addresses
+aa691c35b183d26104c74e2c0727d18947a001c9 mmap locking API: initial implementation as rwsem wrappers
+915e29c4b31029656b1d7987974fb57e79b004cc x86/mce: Deduplicate exception handling
+c69a2cfdeed5c0241706e375c5c9a448d05dde67 bitfield.h: Fix "type of reg too small for mask" test
+58529e68145fe1bdf11e7315ec1077899d27081d ALSA: memalloc: Align buffer allocations in page size
+540dee269b3d91b9e4123490cb79e7ec147d6e54 Bluetooth: Add bt_skb_sendmsg helper
+64dc3dd4d12e4c859be57e1914c73926bf92b228 Bluetooth: Add bt_skb_sendmmsg helper
+5cd2c01716b63f000423ae0a5c5a52b4f35c940c Bluetooth: SCO: Replace use of memcpy_from_msg with bt_skb_sendmsg
+c6138f45a3de7d4f207e1c81a3941a2e20387748 Bluetooth: RFCOMM: Replace use of memcpy_from_msg with bt_skb_sendmmsg
+df9f1d4fce769e5788fa8941c22c3fef399038d3 Bluetooth: Fix passing NULL to PTR_ERR
+a8ff1176b86b28898e0f46bd02ad35a58be60d74 Bluetooth: SCO: Fix sco_send_frame returning skb->len
+6d18a3bfa3a87d4251a210968d58d95f5aa1cbe4 Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
+322542ae4d673af36bc39865bdc035d40986b7c1 tty: drivers/tty/, stop using tty_schedule_flip()
+d99d2ef0a92da237b4fcf38b71c996f862fc0fb9 tty: the rest, stop using tty_schedule_flip()
+c1296677bd3eda54d60e1ecae0c4578a3dd4a7b7 tty: drop tty_schedule_flip()
+317a74cfbc9f0688324e49f1feaa7ba41a7541ba tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
+4911e9b5cda82bb046541a8c09b17bcfbc1baf78 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 
---===============5839857974955526389==--
+--===============7612634070885018178==--
