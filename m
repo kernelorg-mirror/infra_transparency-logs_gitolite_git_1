@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3167243761474967517=="
+Content-Type: multipart/mixed; boundary="===============0989856600875848079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 27 Jul 2022 19:10:49 -0000
-Message-Id: <165894904903.1070.1658442640306962653@gitolite.kernel.org>
+Date: Wed, 27 Jul 2022 19:12:32 -0000
+Message-Id: <165894915292.1802.11967090511898479812@gitolite.kernel.org>
 
---===============3167243761474967517==
+--===============0989856600875848079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: e1d3373352077f3be9cc1c8adb5fd59d0aa96e7a
-    new: c09327d5673e5fb3695e41d2c2f05b907abb8996
-    log: revlist-e1d337335207-c09327d5673e.txt
+  - ref: refs/heads/for-next/seccomp
+    old: 73a8dbafd31adc3f35a8e04e80f81e991df355d3
+    new: 3ce4b78f73e8e00fb86bad67ee7f6fe12019707e
+    log: revlist-73a8dbafd31a-3ce4b78f73e8.txt
 
---===============3167243761474967517==
+--===============0989856600875848079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1d337335207-c09327d5673e.txt
+Content-Disposition: attachment; filename=revlist-73a8dbafd31a-3ce4b78f73e8.txt
 
+a6a51adc6e8aafebfe0c4beb80e99694ea562b40 net/vdpa: Use readers/writers semaphore instead of cf_mutex
+1892a3d425bf525ac98d6d3534035e6ed2bfab50 vdpa/mlx5: Add support for reading descriptor statistics
+759ae7f9bf1e6b7f5c9c197d7207e2be1dfd74b1 vdpa/mlx5: Use readers/writers semaphore instead of mutex
+4e0400525691d0e676dbe002641f9a61261f1e1b virtio-blk: support polling I/O
+0e9911fa768f32f30e5678512ea405d99a7a9fef virtio-blk: support mq_ops->queue_rqs()
+35c51e093d956f6d058e193711c8d424817a44a9 virtio_ring: remove unnecessary to_vvq call in vring hot path
+b4b4ff73ef047556e81694174bb8561457f25eeb virtio_ring: add unlikely annotation for free descs check
 175d493c3c3e09a3abaa843068fae0f0ad42c47e vhost: move the backend feature bits to vhost_types.h
 ea239a67461a34839e2172ead3043295a9173389 virtio-vdpa: don't set callback if virtio doesn't need it
 ae967246d0997a684093ffc06a14999292ad9276 vhost-vdpa: passing iotlb to IOMMU mapping helpers
@@ -1042,13 +1049,6 @@ bc94632ceb4b4af47b2c86f8f11177884821fb94 Merge tag 'char-misc-5.19-rc3-take2' of
 5d770f11a1623eef83894b60686fb328794ccd23 Merge tag 'objtool-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 05c6ca8512f2722f57743d653bb68cf2a273a55a Merge tag 'x86-urgent-2022-06-19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a111daf0c53ae91e71fd2bfe7497862d14132e3e Linux 5.19-rc3
-170b2c350cfcb6f74074e44dd9f916787546db0d usercopy: use unsigned long instead of uintptr_t
-437bd3a0acff903e8a159e94c8e04d15c0ef8b4e MAINTAINERS: Add a general "kernel hardening" section
-6a022dd29f2cefbac4895a34e2e1f14b2d12d819 lib: overflow: Do not define 64-bit tests on 32-bit
-375561bd6195a31bf4c109732bd538cb97a941f4 stack: Declare {randomize_,}kstack_offset to fix Sparse warnings
-b6c1c5745ccc68ac5d57c7ffb51ea25a86d0e97b dm: Add verity helpers for LoadPin
-3f805f8cc23ba35679dd01446929292911c2b469 LoadPin: Enable loading from trusted dm-verity devices
-231af4709018a8e4f20e511da4b6506346d662d3 dm: verity-loadpin: Use CONFIG_SECURITY_LOADPIN_VERITY for conditional compilation
-c09327d5673e5fb3695e41d2c2f05b907abb8996 x86: mm: refer to the intended config STRICT_DEVMEM in a comment
+3ce4b78f73e8e00fb86bad67ee7f6fe12019707e selftests/seccomp: Fix compile warning when CC=clang
 
---===============3167243761474967517==--
+--===============0989856600875848079==--
