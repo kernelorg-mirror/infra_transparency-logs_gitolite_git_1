@@ -1,45 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3022613884296079946=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Thu, 28 Jul 2022 17:28:52 -0000
-Message-Id: <165902933268.2352.1283108373644716992@gitolite.kernel.org>
-
---===============3022613884296079946==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 28 Jul 2022 17:37:10 -0000
+Message-Id: <165902983001.8286.11629775208410300426@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 394b517585da9fbb2eea2f2103ff47d37321e976
-    new: 14fdbcd60bceb92c1ce3ee6125c27627411b3eb6
-    log: revlist-394b517585da-14fdbcd60bce.txt
-
---===============3022613884296079946==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-394b517585da-14fdbcd60bce.txt
-
-d8f4eaf8b167880db4469f7eda95b80dfefdf4bd pwm: sifive: Simplify offset calculation for PWMCMP registers
-d7d2b21ce70029904a125ccf838de57cf0fe20f8 pwm: sifive: Fold pwm_sifive_enable() into its only caller
-997d95f594140ea0fccd2e238a7ea713bc497b85 pwm: sifive: Reduce time the controller lock is held
-0252c8e2e3fa59d13eb30b91b72e7c9749b8e608 pwm: sifive: Enable clk only after period check in .apply()
-d696494120debf4654d17e3b794056dba2e3ef86 pwm: sifive: Simplify clk handling
-ca50f4cd953919af6b843f163ae5a06a9ac4ba9c pwm: sifive: Ensure the clk is enabled exactly once per running PWM
-404a0d3bfc71212ea8f28e0a92420aa5ffff6092 pwm: sifive: Shut down hardware only after pwmchip_remove() completed
-f006a9ff82dcf40fb9b1a5aac31beaba5b247ee5 dt-bindings: pwm: Document clk based PWM controller
-3f732b1235a211653520c5a78c7b6ef200f5b484 pwm: Add clock based PWM output driver
-ee63fc10a4e90f1221e655f3dfcb4fb082229b41 dt-bindings: pwm: mediatek: Add compatible string for MT8195
-d01a31ca1274fbd5ce5857bb46df796da17ed343 MAINTAINERS: Add include/dt-bindings/pwm to PWM SUBSYSTEM
-4c5ab2d4f78a237bf0a2d9dca3ef70868dad72a4 MAINTAINERS: Remove myself as PWM maintainer
-eb6a9e3ce9cc9a99bc8999cd3631958738c7b7be pwm: twl-led: Document some limitations and link to the reference manual
-acfcb611babbdf37c31654f189099c101ca5eba7 pwm: lpc18xx: Convert to use dev_err_probe()
-14fdbcd60bceb92c1ce3ee6125c27627411b3eb6 pwm: lpc18xx: Fix period handling
-
---===============3022613884296079946==--
+  - ref: refs/heads/dm-5.20
+    old: cab3b1fb66e48eb67f23ac8b04ef0110139d642d
+    new: db9195e52f85d74d8bfd221bbf241fd848cecb94
+    log: |
+         0445442dfed24a26244e00e697f30b095965411b dm raid: fix crash if md_handle_request() splits bio
+         973c12a7f3376193f81f830639a2cb07632142d0 dm integrity: flush journal on suspend
+         23aa49897c75f03c0eacc366701e13715db452bb dm: return early from dm_pr_call() if DM device is suspended
+         05cb7c1569ef06471d2b8d033765200f5cbc819d dm: Allow dm_call_pr to be used for path searches
+         d25569b105bc39516b92827a29a34dc2dc71449d dm: Start pr_reserve from the same starting path
+         ed8e3cfc3bb92c35980db36196f8ee461baf3cd0 dm: Fix PR release handling for non All Registrants
+         14f0d2571146771c95b62cf0f5df0427e11b47f2 dm: Start pr_preempt from the same starting path
+         08f0a022692c803be618ccf1d9681f2829934fcc dm raid: fix address sanitizer warning in raid_status
+         db9195e52f85d74d8bfd221bbf241fd848cecb94 dm raid: fix address sanitizer warning in raid_resume
+         
