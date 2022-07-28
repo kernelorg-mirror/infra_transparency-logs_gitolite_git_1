@@ -1,147 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3336300401201754443=="
+Content-Type: multipart/mixed; boundary="===============4803321773382147244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 28 Jul 2022 11:56:56 -0000
-Message-Id: <165900941696.29392.4177800070626743850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 28 Jul 2022 12:01:35 -0000
+Message-Id: <165900969541.32679.8529867803728049998@gitolite.kernel.org>
 
---===============3336300401201754443==
+--===============4803321773382147244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 39c3c396f8131f3db454c80e0fcfcdc54ed9ec01
-    new: 6e7765cb477a9753670d4351d14de93f1e9dbbd4
-    log: |
-         ef0324b6415db6742bd632dc0dfbb8fbc111473b ARM: dts: lan966x: fix sys_clk frequency
-         7849f5cf7639cd1125a3546a31675af4ab54278f mailmap: update Baolin Wang's email
-         9b31e60800d8fa69027baf9ec7f03a0c5b145079 tools: Fixed MIPS builds due to struct flock re-definition
-         430d31bb2e6031f82fe2f2fe15500dde2ac5f8a6 Merge tag 'at91-fixes-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-         e2a619ca0b38f2114347b7078b8a67d72d457a3d asm-generic: remove a broken and needless ifdef conditional
-         c5cdb9286913aa5a5ebb81bcca0c17df3b0e2c79 ARM: pxa2xx: Fix GPIO descriptor tables
-         9d8a8616ee47f478a9f78ab97f55c3fbf71bb5f0 Merge tag 'soc-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-         6e7765cb477a9753670d4351d14de93f1e9dbbd4 Merge tag 'asm-generic-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-         
-  - ref: refs/heads/next
-    old: d6b551b8f90cc92c7d3c09cf38c748efe305ecb4
-    new: f4a0318f278d98d9492916722e85f258c2221f88
-    log: revlist-d6b551b8f90c-f4a0318f278d.txt
-  - ref: refs/heads/next-test
-    old: 50be92bd65cb6a6a017f71c49bb2d5a05196c063
-    new: f4a0318f278d98d9492916722e85f258c2221f88
-    log: revlist-50be92bd65cb-f4a0318f278d.txt
+  - ref: refs/heads/rdma-next
+    old: e0cd3b449821a42dc636638282d1b1873fab58bb
+    new: 11e4f4940a8aa7d7819c9dae86236716c3cb306a
+    log: revlist-e0cd3b449821-11e4f4940a8a.txt
 
---===============3336300401201754443==
+--===============4803321773382147244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e0cd3b449821-11e4f4940a8a.txt
 
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1659009402 +1000
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1659009401-7f7d16ff8f27dd329017b825b4d67c78e1fc51d8
+c1885d3f17a4147d27ed53963f57c62535aedc1f Revert "RDMA/rxe: Create duplicate mapping tables for FMRs"
+7fa3a543531c3bf54a69004b1326fb33fc02879f net/sched: Don't print dump stack in event of transmission timeout
+bcb2a04eef7345eb502a1681b327e4f869eddd01 RDMA/mlx5: Replace ent->lock with xa_lock
+0f1d30edb570431db348e6fabd6a4723d05b83fd RDMA/mlx5: Replace cache list with Xarray
+e4c18de1f1cbb1b896638c6a83cba3903c92161c RDMA/mlx5: Store the number of in_use cache mkeys instead of total_mrs
+ad05ca50e57f2fb6336ddde8ff3cf7329ca0f33f RDMA/mlx5: Store in the cache mkeys instead of mrs
+7d0b092f76d97db25ba6555f720b78d5a705bd89 RDMA/mlx5: Rename the mkey cache variables and functions
+ffe8d84aac313c1ae4e3abde5657fb4938a58d36 RDMA/core: Introduce peer memory interface
+ea1a0f3010b1a57da0eabeec0964fbfc8f49aae6 net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
+d26bcc6a61d748aaa91b9addb9f2ab964a19069a RDMA/mlx5: Handling dct common resource destruction upon firmware failure
+edea69723bcf4f118be869fcdf4f90694701a5aa RDMA/mlx5: Return the firmware result upon destroying QP/RQ
+d2674ca660e9ab0ed71f9cd7cb428adac2ab6400 RDMA/mlx5: Use the proper number of ports
+ddba75c106c008f4c71c8248ad9c782e7a68631a vfio/mlx5: Protect mlx5vf_disable_fds() upon close device
+915249b547e808b3a5c8ef3d1ce85647d8a132b8 vfio: Split migration ops from main device ops
+f598478284fe5c99b8518d390d632cbeeaabe3f3 net/mlx5: Introduce ifc bits for page tracker
+25058b5fc880ba5f4b30df83677a78b99c695a08 net/mlx5: Query ADV_VIRTUALIZATION capabilities
+9cd43a583e38537732bd599d58d874e1ca68caf0 vfio: Introduce DMA logging uAPIs
+abb54988de109304daa13240e49cf65eec42c635 vfio: Move vfio.c to vfio_main.c
+04086c8e75cf9aa5d89e5066e09e1100198d18b0 vfio: Add an IOVA bitmap support
+f7fc56a2b8691aa04071d535abcff2198026273e vfio: Introduce the DMA logging feature support
+05a68adae9d769e4251a760aa71763a7688cb4bc vfio/mlx5: Init QP based resources for dirty tracking
+0525b085a61faae3b97e156037c8cad8f46ad132 vfio/mlx5: Create and destroy page tracker object
+41292ebfc3f6f42c1d91c744c6c9167a6a4175cd vfio/mlx5: Report dirty pages from tracker
+063864aaab5d671752c440f8d99d0e3e97d12adc vfio/mlx5: Manage error scenarios on tracker
+5859509c611acbf81da64028a8a1ca91c74e6428 vfio/mlx5: Set the driver DMA logging callbacks
+26ec208a894611a7d33aa82358b399fe290e98cf net/mlx5: Introduce ifc bits for migratable
+04eeb8182fb1f1ddf2f09291b7c3dc4e43ba1c08 vfio/mlx5: Set VF as migratable
+c6befced549b994644a58cccca9c2784e27b99f1 RDMA/mlx5: Don't compare mkey tags in DEVX indirect mkey
+6b12171abd87740a7dfa47b504717e488357d037 net/mlx5: E-Switch, pair only capable devices
+1ab2d87301c86835541b495fc16a2c5e2e90b8dd RDMA/mlx5: Add missing check for return value in get namespace flow
+6a61f735efe3a89a9f4f42c79954eec37e9a2c82 RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
+efd074a66c4faf82395a68f8a702a5c350e06b93 RDMA/mlx5: Move function mlx5_core_query_ib_ppcnt() to mlx5_ib
+11e4f4940a8aa7d7819c9dae86236716c3cb306a RDMA/mlx5: Set local port to one when accessing counters
 
-39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 6e7765cb477a9753670d4351d14de93f1e9dbbd4 refs/heads/master
-d6b551b8f90cc92c7d3c09cf38c748efe305ecb4 f4a0318f278d98d9492916722e85f258c2221f88 refs/heads/next
-50be92bd65cb6a6a017f71c49bb2d5a05196c063 f4a0318f278d98d9492916722e85f258c2221f88 refs/heads/next-test
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmLieXoTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgC8LD/9x1E0FPIiQ6lEK98Ph5wZm0qNvdYS7
-nF27DtkjjAR7hZ6D5CfBle6soDVFyqPy+mOsqjEEYw7mCPuokpGIX8LFpXdQOjvD
-8vj6HFAMMEGS4LNcL5IZCUhNPKebbBaAcXW40BkEaZhdg/+F1Pp9ezDyqe54YlU3
-b5Si04bq7DcP0G4sh9nQHCb7bEHJ/G6sl+GdV2p8/Sq5CX+4PQFcmx7u7u1NOy4Y
-/3ROzE8Zc4/MHiShHvApDgY7zsug9vHKgsgFTZ2L20LZOrs7+En/DGnnO3UH9K0E
-VMJyxTCs51Yk68ZSSehgeEJjQ4YOmKFTTccvyVc8VuJZCJzIwOyB98pEOupZB4PD
-0j0DDDmfLNGwcXjmOmoaZ+pDQtxEC6lIgu0d5aslDqAAaAK3/WLBIVkcXs84E/Ve
-tejCgq0PO7IQ7X97lC+aFaPzpjA/DDGuJt8dDXPlXHA+6AD676UfVIzj6CpNT6aO
-vjB969/1EJCO1LUxvD9R0fCP0DMvgAjoE3xq1sFOkMUa9Fq4p1sXl+hfwyy0Mtml
-7wZvgxNYpnbA/PAJ8ZL2ekBjzYfsrmtEGtC+IQWPeECfsAJP3QmACpLEP7BUnVXd
-82DVgJ0l1COaXVqDxmNMvF/sbtCMQJdBrypuN0fxcsyonOzC92JTSgl+O3vBCYTK
-dN2mQfwCqYCKAg==
-=5oTE
------END PGP SIGNATURE-----
-
---===============3336300401201754443==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6b551b8f90c-f4a0318f278d.txt
-
-4515862b66d3bdaf681cade1c72f047c93d94d01 docs: powerpc: fix indentation warnings
-0595a216920cb035030c73cec3ab9fe413ef1d77 docs: powerpc: use different label name for elf_hwcaps.rst
-a05aae92f84ba6d2705f6dac206ef5dcf097ea96 docs: powerpc: add elf_hwcaps to table of contents
-ebef8abc963b9e537c0a0d619dd8faf1b8f2b183 video: fbdev: offb: Include missing linux/platform_device.h
-61657dcd528b75cd196adaf56890124c13953c8d scsi: cxlflash: Include missing linux/irqdomain.h
-4177ab2283dcd98735572ebda56b9d479dc1d7f2 EDAC/mpc85xx: Include required of headers directly
-4d5c5bad51935482437528f7fa4dffdcb3330d8b powerpc: Remove asm/prom.h from asm/mpc52xx.h and asm/pci.h
-36afe68714d45edf34430d28e3dc787425ad8b22 powerpc: Finally remove unnecessary headers from asm/prom.h
-51ac6d4ceaa4f2e878c1aa399135f2514a6acc24 powerpc: Update reviewers
-c7255058b5430b5c42932383bd8887d591e7973a powerpc/crash: save cpu register data in crash_smp_send_stop()
-b1fc44eaa9ba31e28c4125d6b9205a3582b47b5d pseries/iommu/ddw: Fix kdump to work in absence of ibm,dma-window
-d73b46c3c1449bf27f793b9d9ee86ed70c7a7163 powerpc/ioda/iommu/debugfs: Generate unique debugfs entries
-d80f6de9d601c30b53c17f00cb7cfe3169f2ddad powerpc/iommu: Fix iommu_table_in_use for a small default DMA window case
-2454a7af0f2a42918aa972147a0bec38e6656cd8 powerpc/pseries: define driver for Platform KeyStore
-d20c96deb3e2c1cedc47d2be9fc110ffed81b1af powerpc/85xx: Fix description of MPC85xx and P1/P2 boards options
-0fe1e96fef0a5c53b4c0d1500d356f3906000f81 powerpc/pci: Prefer PCI domain assignment via DT 'linux,pci-domain' and alias
-1f00b5ab992c122c51bc37662b3b4df5963462f3 powerpc/85xx: P2020: Add law_trgt_if property to PCIe DT nodes
-901a30cf5f765a26f1308701d9df9e7f3d0023a5 powerpc/pseries/vas: Fix comment typo
-738f9dca0df3bb630e6f06a19573ab4e31bd443a powerpc/sysdev: Fix comment typo
-fde345e4d39a4f16697a8060564fff1dbac05035 powerpc/platforms/83xx/suspend: Reorder to get rid of a forward declaration
-ccc1439b924bca5d5a5d81cf6b0d4b10b321282e powerpc/platforms/83xx/suspend: Prevent unloading the driver
-95b002e4e47a36d88deec70808ef36674fb33cf5 powerpc/platforms/83xx/suspend: Remove write-only global variable
-fcdb758ce113c5d1b2b7034a058a9c472e42415e powerpc: make facility_unavailable_exception 64s
-e4787e71ae2de3f60bc04fe09d1be4ef628b6c68 powerpc/signal: Update comment for clarity
-cd1e64935f79e31d666172c52c951ca97152b783 selftests/powerpc: Fix matrix multiply assist test
-90b5d4fe0b3ba7f589c6723c6bfb559d9e83956a powerpc/powernv: Avoid crashing if rng is NULL
-7ef3d06f1bc4a5e62273726f3dc2bd258ae1c71f powerpc/powernv/kvm: Use darn for H_RANDOM on Power9
-978030f054ff97d9079b35f0178e2013918fb316 powerpc/powernv: rename remaining rng powernv_ functions to pnv_
-1547db7d1f4481c1f3ec731f3edc724ef3026ede powerpc: Move system_call_exception() to syscall.c
-f4a0318f278d98d9492916722e85f258c2221f88 powerpc: add support for syscall stack randomization
-
---===============3336300401201754443==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50be92bd65cb-f4a0318f278d.txt
-
-4515862b66d3bdaf681cade1c72f047c93d94d01 docs: powerpc: fix indentation warnings
-0595a216920cb035030c73cec3ab9fe413ef1d77 docs: powerpc: use different label name for elf_hwcaps.rst
-a05aae92f84ba6d2705f6dac206ef5dcf097ea96 docs: powerpc: add elf_hwcaps to table of contents
-ebef8abc963b9e537c0a0d619dd8faf1b8f2b183 video: fbdev: offb: Include missing linux/platform_device.h
-61657dcd528b75cd196adaf56890124c13953c8d scsi: cxlflash: Include missing linux/irqdomain.h
-4177ab2283dcd98735572ebda56b9d479dc1d7f2 EDAC/mpc85xx: Include required of headers directly
-4d5c5bad51935482437528f7fa4dffdcb3330d8b powerpc: Remove asm/prom.h from asm/mpc52xx.h and asm/pci.h
-36afe68714d45edf34430d28e3dc787425ad8b22 powerpc: Finally remove unnecessary headers from asm/prom.h
-51ac6d4ceaa4f2e878c1aa399135f2514a6acc24 powerpc: Update reviewers
-c7255058b5430b5c42932383bd8887d591e7973a powerpc/crash: save cpu register data in crash_smp_send_stop()
-b1fc44eaa9ba31e28c4125d6b9205a3582b47b5d pseries/iommu/ddw: Fix kdump to work in absence of ibm,dma-window
-d73b46c3c1449bf27f793b9d9ee86ed70c7a7163 powerpc/ioda/iommu/debugfs: Generate unique debugfs entries
-d80f6de9d601c30b53c17f00cb7cfe3169f2ddad powerpc/iommu: Fix iommu_table_in_use for a small default DMA window case
-2454a7af0f2a42918aa972147a0bec38e6656cd8 powerpc/pseries: define driver for Platform KeyStore
-d20c96deb3e2c1cedc47d2be9fc110ffed81b1af powerpc/85xx: Fix description of MPC85xx and P1/P2 boards options
-0fe1e96fef0a5c53b4c0d1500d356f3906000f81 powerpc/pci: Prefer PCI domain assignment via DT 'linux,pci-domain' and alias
-1f00b5ab992c122c51bc37662b3b4df5963462f3 powerpc/85xx: P2020: Add law_trgt_if property to PCIe DT nodes
-901a30cf5f765a26f1308701d9df9e7f3d0023a5 powerpc/pseries/vas: Fix comment typo
-738f9dca0df3bb630e6f06a19573ab4e31bd443a powerpc/sysdev: Fix comment typo
-fde345e4d39a4f16697a8060564fff1dbac05035 powerpc/platforms/83xx/suspend: Reorder to get rid of a forward declaration
-ccc1439b924bca5d5a5d81cf6b0d4b10b321282e powerpc/platforms/83xx/suspend: Prevent unloading the driver
-95b002e4e47a36d88deec70808ef36674fb33cf5 powerpc/platforms/83xx/suspend: Remove write-only global variable
-fcdb758ce113c5d1b2b7034a058a9c472e42415e powerpc: make facility_unavailable_exception 64s
-e4787e71ae2de3f60bc04fe09d1be4ef628b6c68 powerpc/signal: Update comment for clarity
-cd1e64935f79e31d666172c52c951ca97152b783 selftests/powerpc: Fix matrix multiply assist test
-90b5d4fe0b3ba7f589c6723c6bfb559d9e83956a powerpc/powernv: Avoid crashing if rng is NULL
-7ef3d06f1bc4a5e62273726f3dc2bd258ae1c71f powerpc/powernv/kvm: Use darn for H_RANDOM on Power9
-978030f054ff97d9079b35f0178e2013918fb316 powerpc/powernv: rename remaining rng powernv_ functions to pnv_
-1547db7d1f4481c1f3ec731f3edc724ef3026ede powerpc: Move system_call_exception() to syscall.c
-f4a0318f278d98d9492916722e85f258c2221f88 powerpc: add support for syscall stack randomization
-
---===============3336300401201754443==--
+--===============4803321773382147244==--
