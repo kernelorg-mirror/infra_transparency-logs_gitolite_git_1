@@ -1,63 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============9002207321722988050=="
+Content-Type: multipart/mixed; boundary="===============0253766505438738422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Thu, 28 Jul 2022 10:07:48 -0000
-Message-Id: <165900286878.17375.6594777458318876772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Thu, 28 Jul 2022 10:07:53 -0000
+Message-Id: <165900287389.17461.8885557605045348738@gitolite.kernel.org>
 
---===============9002207321722988050==
+--===============0253766505438738422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
+  - ref: refs/heads/master
+    old: 7c862ee928adfa0c2652b8acaa50e97b99716da3
+    new: 12a18d79dc14c80b358dbd26461614b97f2ea4a6
+    log: revlist-7c862ee928ad-12a18d79dc14.txt
 
---===============9002207321722988050==
-Content-Type: text/plain; charset="utf-8"
+--===============0253766505438738422==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1659002866 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1659002865-801bf2666e985e860d3a6437a7580e2a76035b92
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1659002870 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1659002870-f28f862b2189455941e0741b591f28742ad18939
 
-0000000000000000000000000000000000000000 afdb472867d4677930236a864496939f496de1b9 refs/tags/v5.19-rc3
-0000000000000000000000000000000000000000 b9442c86eac959e20abb900442e6cc31d2d775d4 refs/tags/v5.19-rc4
-0000000000000000000000000000000000000000 2235bc49f8edfaafc6269344aa80e6400931a4af refs/tags/v5.19-rc5
-0000000000000000000000000000000000000000 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f refs/tags/v5.19-rc6
-0000000000000000000000000000000000000000 99023ab67a130976ddcfb7cfb5ca01358045768f refs/tags/v5.19-rc7
-0000000000000000000000000000000000000000 cb84a9aae2260636f12f10c7f60779eb69e82849 refs/tags/v5.19-rc8
+7c862ee928adfa0c2652b8acaa50e97b99716da3 12a18d79dc14c80b358dbd26461614b97f2ea4a6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYuJf8hAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbSySMA+wc6K+/XA9I/O5J8lL/odkQryVyecfS+EhZy
-wb0hH1I6AQCQuJ2McHeqt3cKfPFHMRGST9yacWUg+M2q4Q1RCeN3Bw==
-=tAJj
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLiX/YTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXWlbCACqAYJ/Kw+9XGLXXG5Qp3g0CSFgumQH
+UJ/JfK4cWzKcW6u/24TdqnCQAyw5Db4ZMoNJZyUOu0DFOyGbnTUZnWamBvdDPPH5
+5CdoLHncOSyA04CpPcTyPBwiqWg05o7df5FRyElLwkgGJviJdOOu3gWt5YsnuSu9
+tgZHTF11GiSNZMAxJ6Hu4n5nGvpnLcDOhvR8JvLsoIAskD+rtUyd7lMKFNq74Ijs
+onve1244Ez3bh/jQptcbWZk6hzebwn8IStFrswDEnANlK/VegS64CXQvfRC4P3cG
+/jqIbOFzvJPd0tZWLcmuREhBGjka18MTROFcOi06AD6dO7sI96XWnhff
+=wTVq
 -----END PGP SIGNATURE-----
 
---===============9002207321722988050==--
+--===============0253766505438738422==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7c862ee928ad-12a18d79dc14.txt
+
+303066fc5a4916cfc777d360391a95fb8eb8a527 can: can327: add software tx timestamps
+221d14bd3d2e9acc3a33cfcf8f66485d592e5038 can: janz-ican3: add software tx timestamp
+6153a7ea650ff1249d703d09a3351c3f77f1fbfa can: slcan: add software tx timestamps
+6a37a28b1864c447a20a1609f90f3e2dfaff0705 can: v(x)can: add software tx timestamps
+409c188c57cdb5cb1dfcac79e72b5169f0463fe4 can: tree-wide: advertise software timestamping capabilities
+8bdd1112edcd3edce2843e03826204a84a61042d can: dev: add hardware TX timestamp
+7fb48d25b5ce3bc488dbb019bf1736248181de9a can: dev: add generic function can_ethtool_op_get_ts_info_hwts()
+90f942c5a6d775bad1be33ba214755314105da4a can: dev: add generic function can_eth_ioctl_hwts()
+b1f6b93e678fb0ce2cecb0032709fc17c6526299 can: mcp251xfd: advertise timestamping capabilities and add ioctl support
+1d46efa0008a6d73dad40e78a2b3fa6d3cfb74e4 can: etas_es58x: advertise timestamping capabilities and add ioctl support
+fa5cc7e115d7b7e0a55ba347070984553a952bf0 can: kvaser_pciefd: advertise timestamping capabilities and add ioctl support
+1d5eeda23f361827ef6fe459732f0573dce22670 can: kvaser_usb: advertise timestamping capabilities and add ioctl support
+8ba09bfa2b08802e023519e91798ea83c32f2c2f can: peak_canfd: advertise timestamping capabilities and add ioctl support
+bedd94835a352ba4ec352c7a7ad13f41861590dd can: peak_usb: advertise timestamping capabilities and add ioctl support
+12a18d79dc14c80b358dbd26461614b97f2ea4a6 Merge patch series "can: add ethtool support and reporting of timestamping capabilities"
+
+--===============0253766505438738422==--
