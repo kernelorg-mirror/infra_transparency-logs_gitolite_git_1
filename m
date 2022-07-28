@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3415759423472849154=="
+Content-Type: multipart/mixed; boundary="===============6973868560824674955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 28 Jul 2022 10:59:04 -0000
-Message-Id: <165900594452.20570.11876062781631076564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 28 Jul 2022 10:59:15 -0000
+Message-Id: <165900595541.20728.2142316944150557447@gitolite.kernel.org>
 
---===============3415759423472849154==
+--===============6973868560824674955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 9250d2f72dc46a808b6aa23bf50dd670f1f52ddc
     new: 7c5e07b73ff3011c9b82d4a3286a3362b951ad2b
     log: revlist-9250d2f72dc4-7c5e07b73ff3.txt
-  - ref: refs/heads/stable
-    old: 5de64d44968e4ae66ebdb0a2d08b443f189d3651
-    new: 6e7765cb477a9753670d4351d14de93f1e9dbbd4
-    log: revlist-5de64d44968e-6e7765cb477a.txt
-  - ref: refs/tags/next-20220428
-    old: d749103408826cc3fad94af68b9e61d565c0dfa6
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220728
     old: 0000000000000000000000000000000000000000
     new: 81eabbb1d2f7117c1f4174e998c6ca76afb230c9
 
---===============3415759423472849154==
+--===============6973868560824674955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -632,33 +625,4 @@ d7643392ca9cc31daefc56a1ce18215552df983e Merge branch 'mm-nonmm-stable' of git:/
 59c7190722bf003435cd32a5199053f0d06eb693 fix up for "dm: Add verity helpers for LoadPin"
 7c5e07b73ff3011c9b82d4a3286a3362b951ad2b Add linux-next specific files for 20220728
 
---===============3415759423472849154==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5de64d44968e-6e7765cb477a.txt
-
-ef0324b6415db6742bd632dc0dfbb8fbc111473b ARM: dts: lan966x: fix sys_clk frequency
-07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
-0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
-f073c8335929a9746c19d4551aeb2d4d0dbef0d1 mailmap: update Seth Forshee's email address
-3fe2895cfecd03ac74977f32102b966b6589f481 mm: fix page leak with multiple threads mapping the same page
-f4f451a16dd1f478fdb966bcbb612c1e4ce6b962 mm: fix missing wake-up event for FSDAX pages
-c2cb0dcce9dd8b748b6ca8bb8d4a389f2e232307 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
-84ac013046ccc438af04b7acecd4d3ab84fe4bde secretmem: fix unhandled fault in truncate
-38c9c22a85aeed28d0831f230136e9cf6fa2ed44 ntfs: fix use-after-free in ntfs_ucsncmp()
-bdeb77bc2c405fa9f954c20269db175a0bd2793f fs: sendfile handles O_NONBLOCK of out_fd
-da9a298f5fad0dc615079a340da42928bc5b138e hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
-c80af0c250c8f8a3c978aa5aafbe9c39b336b813 Revert "ocfs2: mount shared volume without ha stack"
-7849f5cf7639cd1125a3546a31675af4ab54278f mailmap: update Baolin Wang's email
-9b31e60800d8fa69027baf9ec7f03a0c5b145079 tools: Fixed MIPS builds due to struct flock re-definition
-430d31bb2e6031f82fe2f2fe15500dde2ac5f8a6 Merge tag 'at91-fixes-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-e2a619ca0b38f2114347b7078b8a67d72d457a3d asm-generic: remove a broken and needless ifdef conditional
-c5cdb9286913aa5a5ebb81bcca0c17df3b0e2c79 ARM: pxa2xx: Fix GPIO descriptor tables
-d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
-1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
-39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-9d8a8616ee47f478a9f78ab97f55c3fbf71bb5f0 Merge tag 'soc-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6e7765cb477a9753670d4351d14de93f1e9dbbd4 Merge tag 'asm-generic-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-
---===============3415759423472849154==--
+--===============6973868560824674955==--
