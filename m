@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 28 Jul 2022 22:15:08 -0000
-Message-Id: <165904650805.8515.10751675324963655576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Thu, 28 Jul 2022 22:21:13 -0000
+Message-Id: <165904687399.12253.10402492526066962555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/tags/socfpga_updates_for_v5.20_part2
-    old: 0000000000000000000000000000000000000000
-    new: 1c52a75b821da9b941a4338e10970d7f6d379122
+  - ref: refs/heads/main
+    old: 4cb0bec3744ac4f8d21de0e769f170e4059c6b9e
+    new: 48803fded26ce7fdc4beae469a5e278122fc3356
+    log: |
+         48803fded26ce7fdc4beae469a5e278122fc3356 Import ppp_defs.h uapi file from point of last kernel headers sync
+         
+  - ref: refs/heads/master
+    old: 4cb0bec3744ac4f8d21de0e769f170e4059c6b9e
+    new: 48803fded26ce7fdc4beae469a5e278122fc3356
+    log: |
+         48803fded26ce7fdc4beae469a5e278122fc3356 Import ppp_defs.h uapi file from point of last kernel headers sync
+         
