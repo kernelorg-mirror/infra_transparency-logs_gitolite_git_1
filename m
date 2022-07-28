@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 28 Jul 2022 13:09:12 -0000
-Message-Id: <165901375201.13898.10430258440990589120@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6773466226593332282=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Thu, 28 Jul 2022 13:16:37 -0000
+Message-Id: <165901419703.19432.11050896078279556052@gitolite.kernel.org>
+
+--===============6773466226593332282==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1842b2a74f4e914cb094019d0f339baeffa3023b
-    new: 840d0a5d38f3f63ea7b3741c3e201485c6671015
+  - ref: refs/heads/tmp-net
+    old: 8f4104b3dc59e7f110c9b83cdf034d010a2d006f
+    new: 7d6cf40a6f81adf607ad3cc17aaa11e256beeea4
     log: |
-         7fc6c1e89f1b83f2bb80a974a40126d10ab95d46 configure: check for nvme uring command support
-         893b9d13b7571eb99d124c0804c48e331b4dbe3b io_uring.h: sync sqe entry with 5.20 io_uring
-         612101cc61063eed06d5bd232b1ab7a43732f227 nvme: add nvme opcodes, structures and helper functions
-         b593422fd0d624b6d1a59d0cc5a674dfdf22db6e test: add io_uring passthrough test
-         ba10a0e0b3039aab43352f08631845f25aa2b225 test/io_uring_passthrough: add test case for poll IO
-         840d0a5d38f3f63ea7b3741c3e201485c6671015 test/io_uring_passthrough: cleanups
+         7d6cf40a6f81adf607ad3cc17aaa11e256beeea4 PATCH: Improve handling of ruleset access masks
          
+
+--===============6773466226593332282==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mickaël Salaün <mic@digikod.net> 1659014191 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
+nonce 1659014191-6eaad9b7effd2c44b2dd89ac6a048c413fa59fb2
+
+8f4104b3dc59e7f110c9b83cdf034d010a2d006f 7d6cf40a6f81adf607ad3cc17aaa11e256beeea4 refs/heads/tmp-net
+-----BEGIN PGP SIGNATURE-----
+
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYuKMLxAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSfqkBAL35N+ruqRFDvvEwoE4ktvplMBlK9URSLZsw
+p7d/fDeCAP9qFA6ikD2d6O/XBTeTMyTi5TuF7taxl7MdSmPNNq3GCg==
+=Ge3C
+-----END PGP SIGNATURE-----
+
+--===============6773466226593332282==--
