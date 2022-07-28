@@ -1,19 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 28 Jul 2022 18:32:22 -0000
-Message-Id: <165903314295.15189.11614225875308685797@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5962488516665440621=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 28 Jul 2022 18:38:14 -0000
+Message-Id: <165903349498.18759.3134834345830768783@gitolite.kernel.org>
+
+--===============5962488516665440621==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/review-hans
-    old: f046d13750b759f090cae13e47cab06b023a700b
-    new: c9d959fc32a5f9312282817052d8986614f2dc08
-    log: |
-         c9d959fc32a5f9312282817052d8986614f2dc08 platform/x86: pmc_atom: Match all Lex BayTrail boards with critclk_systems DMI table
-         
+  - ref: refs/heads/mlx4-queue
+    old: 5ffcba41de5579566f7d6933b96e8ca63335f790
+    new: 623cd87006983935de6c2ad8e2d50e68f1b7d6e7
+    log: revlist-5ffcba41de55-623cd8700698.txt
+
+--===============5962488516665440621==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ffcba41de55-623cd8700698.txt
+
+46126db9c86110e5fc1e369b9bb89735ddefdae4 flow_dissector: Add PPPoE dissectors
+5008750eff5d4af8a3aed4a7567c4cfb2b3cb156 net/sched: flower: Add PPPoE filter
+6a21b0856daaf9b7f63225f5b449ddee170c6f0a flow_offload: Introduce flow_match_pppoe
+cd8efeeed16e8ecf30071583865f3f468db9e854 ice: Add support for PPPoE hardware offload
+a482d47d33ac06295840e1e2ec3806713ccc04f3 net/sched: sch_cbq: change the type of cbq_set_lss to void
+a683dc5c148aeda51384a780945c0affda74f20c dt-bindings: net: hirschmann,hellcreek: use absolute path to other schema
+2bb88b2c4f7334bd91c734f3983492a133250edb net: devlink: remove redundant net_eq() check from sb_pool_get_dumpit()
+cc1049ccee20df870f2394c4d5d5fa8cabc4d0af net: dsa: mv88e6xxx: fix speed setting for CPU/DSA ports
+4158e38967975f14c3e6fb0e04df90e32061d463 Revert "Merge branch 'octeontx2-minor-tc-fixes'"
+5f10376b6bc1e2773f56977980ab08c9e4fa91a7 add missing includes and forward declarations to networking includes under linux/
+7d85e9cb405e00bb6583dc1f821eae905711382d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+afa950b8adc91c9bacf66c5987fa912bf971188f dt-bindings: net: cdns,macb: use correct xlnx prefix for Xilinx
+623cd87006983935de6c2ad8e2d50e68f1b7d6e7 net: cdns,macb: use correct xlnx prefix for Xilinx
+
+--===============5962488516665440621==--
