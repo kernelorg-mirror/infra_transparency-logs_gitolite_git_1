@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6274019643524710075=="
+Content-Type: multipart/mixed; boundary="===============5739059976522679346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 28 Jul 2022 21:29:29 -0000
-Message-Id: <165904376937.8937.16368822416195610374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 28 Jul 2022 21:29:34 -0000
+Message-Id: <165904377439.9025.16770133784060962920@gitolite.kernel.org>
 
---===============6274019643524710075==
+--===============5739059976522679346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 4650712e18a3839e60317704eeeb69c711fc8508
-    new: 78daef217c2ca63fc27e003dbd0c04a810feff92
-    log: revlist-4650712e18a3-78daef217c2c.txt
+  - ref: refs/heads/queue-rc
+    old: bf04cb8c5c9765477dc4028c9541f8fde4372443
+    new: 7bdac9b9be6d6ef1adbb6018daea9185e614c69e
+    log: revlist-bf04cb8c5c97-7bdac9b9be6d.txt
 
---===============6274019643524710075==
+--===============5739059976522679346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4650712e18a3-78daef217c2c.txt
+Content-Disposition: attachment; filename=revlist-bf04cb8c5c97-7bdac9b9be6d.txt
 
 1e308c6fb7127371f48a0fb9770ea0b30a6b5698 ice: Fix max VLANs available for VF
 01658aeeada6f93c2924af94d895ff28d559690c ice: Fix tunnel checksum offload with fragmented traffic
@@ -41,5 +41,7 @@ bf84719df765f1a832a770f3cd0cdc8bee20c91f Merge branch '100GbE' of git://git.kern
 a40e584a92015be6016e45f540f6303d7f63194c net/mlx5e: Remove WARN_ON when trying to offload an unsupported TLS cipher/version
 e137fb8a295422119567ec30d2d1d084bcff5e5e Merge branch 'patchq/521784' into mlx5-for-net
 78daef217c2ca63fc27e003dbd0c04a810feff92 Merge branch 'mlx5-for-net' into net-rc
+c3ce5e2d3fc478189d0cd2063b68d34cac928e71 Merge branch 'net-rc' into queue-rc
+7bdac9b9be6d6ef1adbb6018daea9185e614c69e Merge branch 'testing/rdma-rc' into queue-rc
 
---===============6274019643524710075==--
+--===============5739059976522679346==--
