@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2973676194208080856=="
+Content-Type: multipart/mixed; boundary="===============6580062932691327700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 28 Jul 2022 14:33:18 -0000
-Message-Id: <165901879834.8564.12246456738070695135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 28 Jul 2022 14:33:53 -0000
+Message-Id: <165901883374.8818.10529573029958946278@gitolite.kernel.org>
 
---===============2973676194208080856==
+--===============6580062932691327700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: b18ee4a44e3ff21936d35a9b215cfd6cd5f3af9a
-    new: f2d57765b79857264fb0ddc52679d661b60ecc21
+  - ref: refs/heads/tty-testing
+    old: 9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f
+    new: 014482b667d3550d7a610c5f11b6351fe47eb39a
     log: |
-         f2d57765b79857264fb0ddc52679d661b60ecc21 firmware_loader: Replace kmap() with kmap_local_page()
+         014482b667d3550d7a610c5f11b6351fe47eb39a tty: amiserial: Fix comment typo
          
 
---===============2973676194208080856==
+--===============6580062932691327700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659018796 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1659018796-5c86924fc091b32b176b3787fde22c8c1e46f636
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659018832 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1659018831-87948089d3094793826abc046abf154a2fb6e712
 
-b18ee4a44e3ff21936d35a9b215cfd6cd5f3af9a f2d57765b79857264fb0ddc52679d661b60ecc21 refs/heads/driver-core-testing
+9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f 014482b667d3550d7a610c5f11b6351fe47eb39a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLiniwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+St0QAMzLjwMr1rlOiNZsn15z
-eEyMme33iTV7F26uzgCP37WHOl+aq74RtgPtctNq48jHmUVNNPHJJ7Q0tfqRGG8Z
-k44cXbgD22b3py0pXj+t47P0ivPb/0xMnzFVq9/NrvWR/1NxreMfpxIKxbLh8DXb
-yLlCAcljIzaZhQ2+wKA5UtQWryNaEzv3ULuRtAYk0O6N/M/MZBwyngTAF04c03md
-Sgfq1wIEF1wvmPze2ag/Ia3j2OlsUluwej4P+SVQsFoL+Xw+L9SkCz4YoaV5rNXn
-fgozAsX3GJc55zrV+zqLsRcYwxNrwAUm1cy1HlethwzlOnTgyiUjK8qa43+Q/YYw
-XQgJL4pbx6qz0x6DNO45wN7GSWyKfIftrxQpwUscUaJsVZ1yKHceNWb9xM/SCmAZ
-eswCCSJO8+b3knoTH6CJF/CbNuwsgewvYG3iKuUVtF9tKXTZepCUab6vn4kc9r2W
-j2yISWTDtV9uK6eTstt3AcZWJfGPvgzUB+9UoNLFm/J0K2bi/7r4Pgj2hstKQgda
-F3DhMXHgwmAyCfNBj7CwP9T0EP8wH1XlVbdakTZiyZt1ue+y4WnGNzqT8nU2r8TH
-5ceYV3gsugAeclfAlel/Wu6Y7hCSqR/Al/aL4wScyP+ZSFLxdmjFm1QoX6QMQwEl
-9Bl24ZBY2NgdzFDSMRaGUcHO
-=AreT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLinlAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/vEP/130Tz/7XbCqvxNhctnX
+Wo3xrGbxY66jZJwvGTa7jIgvKL9tkJilErnv6SfRYa24ZPfN4k/S4bwDcEQY0shc
+S6xzaYKWP5t8IBAVxhgXfPal0o4EfnwjcyUsfajYtx5Matx1PcrKjUxzA6XHB9Sv
+2i++nznXqjmeozSaqIgTg95tIRSbzChAzcwRBLI7QHkgOHn8gSbReFsUJryYtFkM
+FPEedvASmJicyOkuCwLnFi/TuoYFRrv7+eTZM7O8sm6wnC52QX2QjYVA9I0jY3iV
+cB7FVXYGfDAaxYcMM7KvZCJ/fq9qOtE+ZR+Zo+hWXpjP3dW1LgsOKTJFxGg01IXG
+egSYQ59lmI6V9r7fPDYMzK0rSqC6hBtCz7S6gCdPqk1/1qrqYWQZzUuTybhg/jm7
+GHoDFyroy8MKnalb4kf8PyJYiJtOcTVvDol1QtYWmj26LVVjOEk/B41KGzwa1KIl
+eJ0oP8kL7xaDAxqMB74TQJwT7+x+UkLIs/hoUkErAofV7ItBBq+GCKm7pVfSKRia
+nZV4ccpquol095infJTyBNrz8/OMqPHyvGm1WOlpkBfBXmHEwdIaYzJfhxIZ4DDU
+n9k8KkZjyBg6VC4crTmN2W1bAUIays5jEXyGo9MsAdkru/eujFcXGzwNGivbdLqT
+DsJCzQq9M+6+CRUU+DTHXw8p
+=4S2s
 -----END PGP SIGNATURE-----
 
---===============2973676194208080856==--
+--===============6580062932691327700==--
