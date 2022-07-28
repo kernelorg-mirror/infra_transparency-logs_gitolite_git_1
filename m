@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 28 Jul 2022 18:07:58 -0000
-Message-Id: <165903167871.29530.10127516896116083955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 28 Jul 2022 18:12:37 -0000
+Message-Id: <165903195787.32633.18143677569664561239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 51a83391d77bb0f7ff0aef06ca4c7f5aa9e80b4c
-    new: 4d3d3a1b244fd54629a6b7047f39a7bbc8d11910
+  - ref: refs/heads/review-hans
+    old: b5070120df92113bfa8909d491b3414310281afd
+    new: f046d13750b759f090cae13e47cab06b023a700b
     log: |
-         e27326009a3d247b831eda38878c777f6f4eb3d1 net: ping6: Fix memleak in ipv6_renew_options().
-         85f0173df35e5462d89947135a6a5599c6c3ef6f ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
-         4d3d3a1b244fd54629a6b7047f39a7bbc8d11910 stmmac: dwmac-mediatek: fix resource leak in probe
+         d9f74d98bbec978edbf860f729b531281ba0d8ff tools/power/x86/intel-speed-select: Fix off by one check
+         c55ae10230a719020d8ad5a221cbe347d5225157 tools/power/x86/intel-speed-select: Remove unneeded semicolon
+         7842efa5e194122ba2d2795102c70db00906024e platform/x86: sony-laptop: Remove useless comparisons in sony_pic_read_possible_resource()
+         f046d13750b759f090cae13e47cab06b023a700b platform/x86: pmc_atom: Match all Lex BayTrail boards with critclk_systems DMI table
          
