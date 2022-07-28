@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 28 Jul 2022 01:32:09 -0000
-Message-Id: <165897192990.10137.8227514422115333474@gitolite.kernel.org>
+Date: Thu, 28 Jul 2022 01:39:32 -0000
+Message-Id: <165897237289.14136.18177011543336824005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 5ffcba41de5579566f7d6933b96e8ca63335f790
-    new: a482d47d33ac06295840e1e2ec3806713ccc04f3
+    old: a482d47d33ac06295840e1e2ec3806713ccc04f3
+    new: a683dc5c148aeda51384a780945c0affda74f20c
     log: |
-         a482d47d33ac06295840e1e2ec3806713ccc04f3 net/sched: sch_cbq: change the type of cbq_set_lss to void
+         a683dc5c148aeda51384a780945c0affda74f20c dt-bindings: net: hirschmann,hellcreek: use absolute path to other schema
          
