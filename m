@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7621067540053944268=="
+Content-Type: multipart/mixed; boundary="===============0289244473930003214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 28 Jul 2022 21:07:22 -0000
-Message-Id: <165904244221.25559.3617954649615098276@gitolite.kernel.org>
+Date: Thu, 28 Jul 2022 21:09:49 -0000
+Message-Id: <165904258949.26785.6926230002524002999@gitolite.kernel.org>
 
---===============7621067540053944268==
+--===============0289244473930003214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 49460b80d7d4f52c3de9f00032e3a1525d38d738
-    new: 761edf1cc65e5fabac60cba21be90ff7ddfb67da
+    old: 761edf1cc65e5fabac60cba21be90ff7ddfb67da
+    new: fe10a6b240621608de49dc4445a02b79c5611f15
     log: |
-         761edf1cc65e5fabac60cba21be90ff7ddfb67da ez: minor fixes to logic and output
+         fe10a6b240621608de49dc4445a02b79c5611f15 ez: fix regression when running b4 trailers
          
 
---===============7621067540053944268==
+--===============0289244473930003214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1659042441 -0400
+pusher B6C41CE35664996C! 1659042589 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1659042441-6739b1d631d5284ab1627104e9d3c80f51b111d8
+nonce 1659042589-5ef1414845e7af8e3a34c81efcd2b1401da74d65
 
-49460b80d7d4f52c3de9f00032e3a1525d38d738 761edf1cc65e5fabac60cba21be90ff7ddfb67da refs/heads/master
+761edf1cc65e5fabac60cba21be90ff7ddfb67da fe10a6b240621608de49dc4445a02b79c5611f15 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYuL6iQAKCRC2xBzjVmSZ
-bGKcAQC1qE8jWKTRwWbNMjaMfvO3uXFeLxt+UHAQJ7IKoz3LLAEAorrSQ2Kxq+Ft
-Z5EV+rlmtkMpIt4tbJyr8JQ574i10gk=
-=k656
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYuL7HQAKCRC2xBzjVmSZ
+bPRLAP9CqJYO+dm95nJVjWg2A+oeMfb92XqWTK/fw3/E0xBewQEAwKXufle/91VN
+jQOI27042PwiWplHet8jkbLrtwUEJww=
+=Bcl/
 -----END PGP SIGNATURE-----
 
---===============7621067540053944268==--
+--===============0289244473930003214==--
