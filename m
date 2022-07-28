@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0289244473930003214=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 28 Jul 2022 21:09:49 -0000
-Message-Id: <165904258949.26785.6926230002524002999@gitolite.kernel.org>
-
---===============0289244473930003214==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 28 Jul 2022 21:18:46 -0000
+Message-Id: <165904312682.816.13331041353785975278@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 761edf1cc65e5fabac60cba21be90ff7ddfb67da
-    new: fe10a6b240621608de49dc4445a02b79c5611f15
+  - ref: refs/heads/dev-queue
+    old: a415ee84ae8fc30ac0edd63605d9bc10f0d4d365
+    new: f47c47ea98914a5b42c41f49d654d968db33cd74
     log: |
-         fe10a6b240621608de49dc4445a02b79c5611f15 ez: fix regression when running b4 trailers
+         eddcc73dda47103a571f2ec276534c3e18ed4577 ice: set tx_tstamps when creating new Tx rings via ethtool
+         a7e701912eaa9439cae3a43335aaf96154800b50 ice: initialize cached_phctime when creating Rx rings
+         54e0e3bb11d9d1d656d424568636742ebe7797d6 ice: track Tx timestamp stats similar to other Intel drivers
+         a8ee466fcb96247d8afb5b42e319a64ae5cef686 ice: track and warn when PHC update is late
+         4471c99b876854a1f0ad828c9c9fab5c8badfb2d ice: re-arrange some static functions in ice_ptp.c
+         f47c47ea98914a5b42c41f49d654d968db33cd74 ice: introduce ice_ptp_reset_cached_phctime function
          
-
---===============0289244473930003214==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1659042589 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1659042589-5ef1414845e7af8e3a34c81efcd2b1401da74d65
-
-761edf1cc65e5fabac60cba21be90ff7ddfb67da fe10a6b240621608de49dc4445a02b79c5611f15 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYuL7HQAKCRC2xBzjVmSZ
-bPRLAP9CqJYO+dm95nJVjWg2A+oeMfb92XqWTK/fw3/E0xBewQEAwKXufle/91VN
-jQOI27042PwiWplHet8jkbLrtwUEJww=
-=Bcl/
------END PGP SIGNATURE-----
-
---===============0289244473930003214==--
