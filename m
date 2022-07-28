@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3812302247318409500=="
+Content-Type: multipart/mixed; boundary="===============5363181727238818352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 28 Jul 2022 08:28:39 -0000
-Message-Id: <165899691999.31779.10015644364043963001@gitolite.kernel.org>
+Date: Thu, 28 Jul 2022 08:29:51 -0000
+Message-Id: <165899699129.32274.5159773954912889839@gitolite.kernel.org>
 
---===============3812302247318409500==
+--===============5363181727238818352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: d36c7ffe1b881da5ebcdca2850885e905f7cd77e
+  - ref: refs/heads/ath12k-bringup-extras
+    old: 1864645005a3616b57f99e1578cff64cf0be93c0
     new: ef7197996efe871c1d0cf1a5e3908bffeb288e32
-    log: revlist-d36c7ffe1b88-ef7197996efe.txt
+    log: revlist-1864645005a3-ef7197996efe.txt
 
---===============3812302247318409500==
+--===============5363181727238818352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d36c7ffe1b88-ef7197996efe.txt
+Content-Disposition: attachment; filename=revlist-1864645005a3-ef7197996efe.txt
 
-263957263a0008508b34425dd69722e01e2e4554 ice: switch: dynamically add VLAN headers to dummy packets
-0ca85829903f1d4849f2fb463d86ea04d679c98f ice: use eth_broadcast_addr() to set broadcast address
-afa646299a282c5e621242c2db8c95c0ccb57d0e ice: Remove unnecessary NULL check before dev_put
-173e468c717c4f422e3785d6bc95a85c456faece intel/ice:fix repeated words in comments
-a23dd544debcda4ee4a549ec7de59e85c3c8345c SUNRPC: Fix READ_PLUS crasher
-7a255ae77216237a4ce83ddea595aa4e0a812f46 bpftool: Show also the name of type BPF_OBJ_LINK
-868f9f2f8e004bfe0d3935b1976f625b2924893b vfs: fix copy_file_range() regression in cross-fs copies
-5e8379351dbde61ea383e514f0f9ecb2c047cf4e Merge tag 'net-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b8f0009bc9edf9186b20ae2a9e442ef0af93040e Merge tag 'drm-misc-fixes-2022-06-30' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-0d8730f07c822a351a624462918c7109cdc7f402 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-a175eca0f3d747599f1fdfac04cc9195b71ec996 Merge tag 'drm-fixes-2022-07-01' of git://anongit.freedesktop.org/drm/drm
 1cebc3ca4aba41d4bf05453c6b2a0a0475eb49e4 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 8dcc8ab805b77d41d8f205190b9ae179211fb26c atheros/atl1e:fix repeated words in comments
 4c2d6acd765f380adcd296fe0a166b40e4b66a61 ethernet/emulex:fix repeated words in comments
@@ -1049,6 +1038,17 @@ fa28981b35128132aeb69a0a2ea2ff1c49bea6d9 wifi: mac80211: fix link data leak
 867f4eeee862d6568a0f142d6a38f8bb724ff80e wifi: ath11k: Fix register write failure on QCN9074
 169ede1f594809d1f0f46d95c071d672dbfc0eb1 Revert "ath11k: add support for hardware rfkill for QCA6390"
 d578e0af3a003736f6c440188b156483d451b329 wifi: wil6210: debugfs: fix uninitialized variable use in `wil_write_file_wmi()`
+56a8fcc42ecda02cc28ac5c2d847baa80f812154 ath12k: convert FIELD_PREP() to u32_encode_bits() in dp_mon.c, dbring.c
+87336468a6f830ccc752e2856aaceb0a86533b5d ath12k: dp: Convert FIELD_PREP to u32_encode_bits for dp.c
+ccbc39fead5662ba995602ed713ef753e642ada8 ath12k: convert FIELD_PREP to u32_encode_bits() in mac.c
+f4f54531a84c4c118ca56a7fd1de6c53a2166053 ath12k: convert FIELD_PREP to u32_encode_bits in htc.c
+d326d3e2b97fd072e54146ac9912dcbab7f110ae ath12k: convert FIELD_PREP to u32_encode_bits in hal.c
+8cd465a6e4ab3830e35719329f574c29adc628c0 ath12k: convert FIELD_PREP to u32_encode_bits in dp_rx.c
+0e3edbc097c02e45636139946baca00aee432fa6 ath12k: convert FIELD_PREP to u32_encode_bits in dp_tx.c
+61db1365acb08e45c6150c9676ae450812d1c3a3 ath12k: convert FIELD_PREP to u32_encode_bits in hal_rx.c
+f82353055f2f781129f48403337176688457f4ae ath12k:convert FIELD_PREP to u32_encode_bits in hal_tx.c
+7fdbf22fe75f7b76ee9f7e32e2c221f33a904252 ath12k: remove TODO comments on hw cookie conversion
+d36c7ffe1b881da5ebcdca2850885e905f7cd77e ath12k: Prevent typecasting while fetching ring entry
 ef7197996efe871c1d0cf1a5e3908bffeb288e32 Merge ath-next into ath12k-bringup
 
---===============3812302247318409500==--
+--===============5363181727238818352==--
