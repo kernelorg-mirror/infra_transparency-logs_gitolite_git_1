@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6580062932691327700=="
+Content-Type: multipart/mixed; boundary="===============4797508959011072556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 28 Jul 2022 14:33:53 -0000
-Message-Id: <165901883374.8818.10529573029958946278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 28 Jul 2022 14:46:34 -0000
+Message-Id: <165901959447.17559.1505546437943288418@gitolite.kernel.org>
 
---===============6580062932691327700==
+--===============4797508959011072556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f
-    new: 014482b667d3550d7a610c5f11b6351fe47eb39a
+  - ref: refs/heads/master
+    old: 3ffce7fc35a6dcfefbefd856972ce09bedc60478
+    new: 7662ae4d97c621a0704955830b78a8f4b79c185f
     log: |
-         014482b667d3550d7a610c5f11b6351fe47eb39a tty: amiserial: Fix comment typo
+         7662ae4d97c621a0704955830b78a8f4b79c185f drop some 5.10 block patches that broke btrfs
          
 
---===============6580062932691327700==
+--===============4797508959011072556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659018832 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1659018831-87948089d3094793826abc046abf154a2fb6e712
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659019590 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1659019588-2f3c8b2cfeabb769f2f276e202809a66f91bc628
 
-9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f 014482b667d3550d7a610c5f11b6351fe47eb39a refs/heads/tty-testing
+3ffce7fc35a6dcfefbefd856972ce09bedc60478 7662ae4d97c621a0704955830b78a8f4b79c185f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLinlAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/vEP/130Tz/7XbCqvxNhctnX
-Wo3xrGbxY66jZJwvGTa7jIgvKL9tkJilErnv6SfRYa24ZPfN4k/S4bwDcEQY0shc
-S6xzaYKWP5t8IBAVxhgXfPal0o4EfnwjcyUsfajYtx5Matx1PcrKjUxzA6XHB9Sv
-2i++nznXqjmeozSaqIgTg95tIRSbzChAzcwRBLI7QHkgOHn8gSbReFsUJryYtFkM
-FPEedvASmJicyOkuCwLnFi/TuoYFRrv7+eTZM7O8sm6wnC52QX2QjYVA9I0jY3iV
-cB7FVXYGfDAaxYcMM7KvZCJ/fq9qOtE+ZR+Zo+hWXpjP3dW1LgsOKTJFxGg01IXG
-egSYQ59lmI6V9r7fPDYMzK0rSqC6hBtCz7S6gCdPqk1/1qrqYWQZzUuTybhg/jm7
-GHoDFyroy8MKnalb4kf8PyJYiJtOcTVvDol1QtYWmj26LVVjOEk/B41KGzwa1KIl
-eJ0oP8kL7xaDAxqMB74TQJwT7+x+UkLIs/hoUkErAofV7ItBBq+GCKm7pVfSKRia
-nZV4ccpquol095infJTyBNrz8/OMqPHyvGm1WOlpkBfBXmHEwdIaYzJfhxIZ4DDU
-n9k8KkZjyBg6VC4crTmN2W1bAUIays5jEXyGo9MsAdkru/eujFcXGzwNGivbdLqT
-DsJCzQq9M+6+CRUU+DTHXw8p
-=4S2s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLioUcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3bYP/3rr1uYtWPBRUoLjy86k
+kh7PqpV4OeTlTqczV1uz0APFf1QedojCo0yrq9GBteBGDi7y+dUD4VXP7SnsxnWq
+99vGxtF5DlgPBizfvn0w59vhRTWn/NM47IzHlrfeRlDp97OsYp+EPx9t3YIiSdZi
+hSg6sDzON1Lj2rH0ggAoFjFs4sNYC0YlIg7I7mRxef8rrH2PflSFy1ryhla6BTdJ
+DLs4MOYWvAUzwa3OWsNiZ5eKq/PD2P8tQG9gOBa3LvjsEpkFn3bZSI/BQ8SocczS
+1eZj2fQsx8EiTM1+mW98xZ6Lxdjt9pevzpzsZkTjWH16LpTFgbEDCr9zXdbyov69
+voGvpcsDBeFMb1F7vo+W4Q6rBaOerTMGwwabVEowEJQRCJkzR+1fH8LdH8Mh/XB9
+ji2no3R8CccoJIehWaCjgJYprzsZNCNgQWkXXO4bBXHchvnokJbSzI3E4E41r1L6
+OJU7Xh4Nqy6UVav9JHE+QkSszfiIXFecFn9mFmvpqtxPi9bDHAUYP8+ry2XYKHMH
+ULZK89wqYNWCNH9nqziNUdxW8kBB2+1p8KZupBtw4byHxOyAHqzX3OHEHcyAlF7t
+PO5bW20T+AWBWGNRwVZD4ajX5anCdF+OB9EEzKgqrjvwKa9/pJtgHXgSYZ/yIRuw
+XHVeUvMExluR5C1weQMLn4A7
+=q4P+
 -----END PGP SIGNATURE-----
 
---===============6580062932691327700==--
+--===============4797508959011072556==--
