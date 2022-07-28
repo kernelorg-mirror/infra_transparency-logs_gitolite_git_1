@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8295318202730305592=="
+Content-Type: multipart/mixed; boundary="===============9193154041032543471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 28 Jul 2022 08:36:55 -0000
-Message-Id: <165899741521.5488.4683312922325088122@gitolite.kernel.org>
+Date: Thu, 28 Jul 2022 08:38:04 -0000
+Message-Id: <165899748432.5998.15868057097842113276@gitolite.kernel.org>
 
---===============8295318202730305592==
+--===============9193154041032543471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: af77c56aa35325daa2bc2bed5c2ebf169be61b86
-    new: 0f42d7f23fd9be143de73eb040c2806a75db8853
+    old: 0f42d7f23fd9be143de73eb040c2806a75db8853
+    new: 9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f
     log: |
-         b9f1736e475dba0d6da48fdcb831248ab1597886 serial: 8250_bcm2835aux: Add missing clk_disable_unprepare()
-         c474c775716edd46a51bf8161142bbd1545f8733 tty: serial: qcom-geni-serial: Fix get_clk_div_rate() which otherwise could return a sub-optimal clock rate.
-         070298c84e5b924c688a4d08c3a9193175cdffd8 serial: fsl_lpuart: zero out parity bit in CS7 mode
-         c7039ce904c0f80253a1171d10353e7832c3e4b3 serial: stm32: make info structs static to avoid sparse warnings
-         707f816f25590c20e056b3bd4a17ce69b03fe856 tty: serial: fsl_lpuart: correct the count of break characters
-         a7209541239e5dd44d981289e5f9059222d40fd1 serial: mvebu-uart: uart2 error bits clearing
-         0f42d7f23fd9be143de73eb040c2806a75db8853 dt-bindings: serial: snps-dw-apb-uart: Document Rockchip RV1126
+         e60a7233684aa8bbe9090537720fe6a1e901d823 Documentation: serial: move uart_ops documentation to the struct
+         c4bd17a6ddf3b92bf9d7939ae251570ace14bb52 Documentation: serial: dedup kernel-doc for uart functions
+         27940abd555228fdda39a40081ae02450c500f35 Documentation: serial: move GPIO kernel-doc to the functions
+         d34d7c4b774dac1d4be440207ab9e347f599dd30 Documentation: serial: link uart_ops properly
+         987233b342b950653d21c5e3e5b78689c995c869 tty: serial: serial_core, reformat kernel-doc for functions
+         9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f tty: serial: document uart_get_console()
          
 
---===============8295318202730305592==
+--===============9193154041032543471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658997413 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1658997481 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1658997413-69bb0e97dc54535ac552ae4c4132bf6de6e8b762
+nonce 1658997481-7c6efe1f7f080edcbb18caa4c15ce51ec817dd20
 
-af77c56aa35325daa2bc2bed5c2ebf169be61b86 0f42d7f23fd9be143de73eb040c2806a75db8853 refs/heads/tty-testing
+0f42d7f23fd9be143de73eb040c2806a75db8853 9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLiSqUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kr8QALshyAK4b9Pw4YuJV08i
-s7CBv/TmtBldSKj2uOqes2IHHjcOOHkmK6yjT4U80abW3w/ceAPiveRqZsGgjrN1
-b4YtvRFndf/3E6GQn+F/WBPqjsBR28lpRGqWj/HJHzp2H4fkXJgmoLxarjOQn30u
-GDGaYwWOLBcPf+vJKWQnf8bNecwUpeJZhHbLOGqdBJ6BZg2ksRXm67IR5IICrDZ0
-Kwt4tahA+SGs1DcFC5WxqppRnFm3PmMfIeVaiiAp4mu0iJaOm84/5sWdIIC67dnt
-ZOe4GASiQa91uPF7bWZ5toR37osZKUXPanX4lfpJ/SZmxQv4tpDFXLmjA36atWw2
-8tSz9ohib+Dd2/60KCCJaQWJGOswJLzUPgo3JKlzD3NdnRj79T/3sBH6oJfI+7lf
-w1k5sVtkskrzfmS5mX0gytpYVb6xbYJphQO/77e+Rj1QDzBkb0Y7zpqrYh0rGAA3
-ftTQgPWNOOzTlTBYieccUgUtBnpMi4vHmazmad24v6cb1aQX+gxWKP/qOY5bsjQ6
-c70VYLV2rfXxucPBkSL6QzBKT0FGkwHGbh3bNm5uymY/GE2Rgv2v4d3UaJ3YTnYs
-QPtH5SNyHNEqgtxXAySnAXkjE3G5UiIbH+4RpgJYpnTf3pFfbehA4KVrnkEqReMQ
-NLzghkU8PlchKKSpRumY6cxH
-=BHsU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLiSukbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EDoQAJr+uf7GU/jPKiv+2AEC
+Eh0UIhrguFpx7+CQB91t8wjgM4UKJVb/WPsqPtKY9BSkA16qcXW1hed8xUQa4gc/
+9z16L77mb9iG74gRYzq1h8pVeFHuTcuCN8HwotN2Xyy7KbBTxxK4r+xBJWqRSopQ
+bG+iXar8eVoO2CNz/BA2aTHvV6TetYbEFWrk2D0TvFTjMYkkMJmT2GrX3EVBUHTA
+ujofsPhU9AEf9/Xu/iRnXRh5VRzyEH5uR7t0QvHWNhps67oFdoUmgiz7UBlobHc+
+mitXajPL3Y4rnyhnmY0AXRf/ptB/OwNB1kJNsS1+CqZ4G9WQg2CXz+Ac+cz4vDfb
+x+Sqho7Cv/e8ifJcalgVVQPlu15BCKqDYNmhubp0uesv/zs+hBSNrwBUnNcD+UJf
+JYvxXD78nAYQa+jzODFckbcgfF8R2efqxrRQkr3VyUbi+mgtAOawVSLWYdNpBd/w
+Y8k3VxJZZ+hYUBdG5vizM43Gb/6Q6CeMZy33B/5ticg/3K6fOLmqbT/6SQ1ie4rb
+trqKRJhzh0cHP7wnB/WUOur+TE7F35a1NlO7FxtdAtoVHL/zilTfXSskU4pt770b
+Et2X2nGwnWJ4nZ2CbpIYlZwg4HcIq3gIkAtejs0ESuwXEVUWNSxeNWQIp4zk47te
+O6sEE8HPKm3vjyOEFOPYtoEF
+=YLbB
 -----END PGP SIGNATURE-----
 
---===============8295318202730305592==--
+--===============9193154041032543471==--
