@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4873274290323329441=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 29 Jul 2022 14:12:07 -0000
-Message-Id: <165910392759.5366.8806170950168344814@gitolite.kernel.org>
-
---===============4873274290323329441==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 29 Jul 2022 14:15:27 -0000
+Message-Id: <165910412786.8113.9226492459494660605@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/driver-core-next
-    old: f2d57765b79857264fb0ddc52679d661b60ecc21
-    new: 273aaa24369cb8d0f246bb16f7122b91a1ef5188
+  - ref: refs/heads/devel
+    old: 840ba17f74f376bf4542a9a818e019cd60a8517f
+    new: f4526ae80dbdef7078ab2aae30dfc70bbc0098c6
     log: |
-         273aaa24369cb8d0f246bb16f7122b91a1ef5188 docs: embargoed-hardware-issues: fix invalid AMD contact email
+         2064b662e8881b20ebfa481956c6de78bef99f24 dt-bindings: pinctrl: Add DT schema for SM6375 TLMM
+         f1a5013f9193989bc0b4f58f78fc3f5cdda324e4 pinctrl: qcom: Add SM6375 TLMM driver
+         c3e4fa4b4eb10bb12b330118fa5a6bacadeecfc6 pinctrl: mvebu: Missing a blank line after declarations.
+         e79368b15d7735cbc1dff86bb414847d697487c5 dt-bindings: pinctrl: st,stm32: Correct 'resets' property name
+         53dd4188a8c56cd2abd1973327d3e1b070300b17 pinctrl: at91: Fix typo 'the the' in comment
+         dc24b7530dff6d2c1f92ba75e10f335eebc48ccc pinctrl: amd: Fix newline declaration in debugfs output
+         e8129a076a509c7e8eae04b78715ac8648c4e63e pinctrl: amd: Use unicode for debugfs output
+         45f74532278dd3914b821e0994e72d27544bcaa5 ARM: dts: imxrt1170-pinfunc: Add pinctrl binding header
+         f174b668fea48162e18641a8404d10a1fded4559 dt-bindings: pinctrl: mt8186: Add gpio-line-names property
+         f4526ae80dbdef7078ab2aae30dfc70bbc0098c6 dt-bindings: pinctrl: mt8186: Add and use drive-strength-microamp
          
-
---===============4873274290323329441==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659103927 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1659103926-e70d7130bd4971f9edf6349fbc9b6ed01e2069ff
-
-f2d57765b79857264fb0ddc52679d661b60ecc21 273aaa24369cb8d0f246bb16f7122b91a1ef5188 refs/heads/driver-core-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLj6rcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hQsQAMQaQVRrPTF/CjeimmFx
-V04rt4VhKRqqpiAfXWEQ1HdmTDN+xfOlCLfXvL9XXxaxM1To32ETeCJbOCp0euY6
-jl8M5bCQhkstHS9pPeWxzGqpNakoghWqKCYP6tuKvfnlvyaQULU1QJYrtr1BIpgV
-290COdzVYBnQRNQx59ZC/80iQRWaEIZ7vE42XadaLmoz2ATsNjAvv3Er8cIvZjJC
-XC6RJodGvjOWSoJpAw02ZkEPuyDAIGRt1BuwHwkbzkTVxc4tzTmK7i4nv+Ds/ir6
-2jzgmbSyAxhmC2XXGV/5I3mScMG0L0e7gUmx/d9Aq7mMSuPx3l1ITLgZ8L7MHsDC
-q4kIO6S8S33tLZjY1P2NcgghjrEv91/Yc5qbBjqDLVPXSwXjp3I0lufvlPIVMUcN
-9O1GxpVHLE1do/fIpZR2cmAoFoGuzf/UxKJ5OAheDD2fZwoQomzYFC3djdbpwjiQ
-BeWRmQscvSCs84Nmz/FyPFvSsLLSBcFSygjV8cHwdsDYTLJwhR+PmVP1ICR5jGNk
-w3LVah1ISeSJX5Cs0NO2NnqTcAruw4Kv0Rb1L8pDk+IPmODLpVZsvxXFQpRKi7j5
-1qM2ZsZTBu8kxU9+bni1RRdYRxGZiuzuQ8yzaeGmlqPaoEjQ0Xgm5/SaA305Gs56
-cgR9ODW7ljekHSzos/W53sDr
-=mWO1
------END PGP SIGNATURE-----
-
---===============4873274290323329441==--
+  - ref: refs/heads/for-next
+    old: 1a24a177564af5336325fc5b610292efb134d27b
+    new: 247255e6106d71a00ee661858e01af7d43124a59
+    log: |
+         2064b662e8881b20ebfa481956c6de78bef99f24 dt-bindings: pinctrl: Add DT schema for SM6375 TLMM
+         f1a5013f9193989bc0b4f58f78fc3f5cdda324e4 pinctrl: qcom: Add SM6375 TLMM driver
+         c3e4fa4b4eb10bb12b330118fa5a6bacadeecfc6 pinctrl: mvebu: Missing a blank line after declarations.
+         e79368b15d7735cbc1dff86bb414847d697487c5 dt-bindings: pinctrl: st,stm32: Correct 'resets' property name
+         53dd4188a8c56cd2abd1973327d3e1b070300b17 pinctrl: at91: Fix typo 'the the' in comment
+         dc24b7530dff6d2c1f92ba75e10f335eebc48ccc pinctrl: amd: Fix newline declaration in debugfs output
+         e8129a076a509c7e8eae04b78715ac8648c4e63e pinctrl: amd: Use unicode for debugfs output
+         45f74532278dd3914b821e0994e72d27544bcaa5 ARM: dts: imxrt1170-pinfunc: Add pinctrl binding header
+         f174b668fea48162e18641a8404d10a1fded4559 dt-bindings: pinctrl: mt8186: Add gpio-line-names property
+         f4526ae80dbdef7078ab2aae30dfc70bbc0098c6 dt-bindings: pinctrl: mt8186: Add and use drive-strength-microamp
+         247255e6106d71a00ee661858e01af7d43124a59 Merge branch 'devel' into for-next
+         
