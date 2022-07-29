@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 29 Jul 2022 17:05:09 -0000
-Message-Id: <165911430956.12436.7278059261694072274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 29 Jul 2022 17:08:07 -0000
+Message-Id: <165911448797.13482.6261252628182025750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 10cce72e4937a7699e6fb5d1480ef65b45a9e73a
-    new: 4294be06650f0221019c1b7d254415b4ec1a2d77
-    log: |
-         4294be06650f0221019c1b7d254415b4ec1a2d77 nfsd: eliminate the NFSD_FILE_BREAK_* flags
-         
+  - ref: refs/heads/dt2
+    old: 20d57b19a86b9c0c178acc044f9ce4550a680ef5
+    new: 0000000000000000000000000000000000000000
