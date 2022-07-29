@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 29 Jul 2022 13:07:15 -0000
-Message-Id: <165910003517.24482.17093065310427533682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 29 Jul 2022 13:11:10 -0000
+Message-Id: <165910027065.27615.16854569099409553623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 9b134b1694ec8926926ba6b7b80884ea829245a0
-    new: 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe
+    old: 5fa2ecb53656c9fdcbd5a21972906e3da33cb504
+    new: 5f836211c0370eeeafea48053f2f5f45a29ab3f3
     log: |
-         9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
+         5c7dacc3e2cb6cb92db3f96727b95d65dbc11161 sysexits.h.3head: Move header page to a new man3head section
+         5f836211c0370eeeafea48053f2f5f45a29ab3f3 Makefile, install-man.mk: Support man3head, and remove support for man0
          
