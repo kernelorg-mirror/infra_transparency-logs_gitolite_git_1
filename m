@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 29 Jul 2022 03:01:50 -0000
-Message-Id: <165906371025.15791.11201017922061497116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 29 Jul 2022 03:36:49 -0000
+Message-Id: <165906580993.7374.11954217457521343044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev
-    old: 57262d2c56b8c67c5d29a2e81b740a8d26174dc3
-    new: 1ad092bb7d4ab4111f27181317c7d9863d624172
+  - ref: refs/heads/master
+    old: 33ea1340bafe1f394e5bf96fceef73e9771d066b
+    new: 6e2c0490769ef8a95b61304389116ccc85c53e12
     log: |
-         159838da386d759fd2f0d842628d361485cef9bc rcutorture: Make "srcud" option also test polled grace-period API
-         0c1495f19d4bc7ae69bbd3e54437eba36fe08c2d doc: Call out queue_rcu_work() for blocking RCU callbacks
-         7de5002caa470d2ff2a4cebd4309f607031659cd doc: Use rcu_barrier() to rate-limit RCU callbacks
-         6c1eec5c5bc223fc1028f1b7878ffc0bb142645e rcu: Add full-sized polling for get_completed*() and poll_state*()
-         1ad092bb7d4ab4111f27181317c7d9863d624172 rcu: Add full-sized polling for get_state()
+         a7a47a5dfa9a9692a41764ee9ab4054f12924a42 drm/i915/reset: Add additional steps for Wa_22011802037 for execlist backend
+         f16a2f593d0095e82e6b7f9d776f869c8ab45952 Merge tag 'drm-intel-fixes-2022-07-28-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+         6e2c0490769ef8a95b61304389116ccc85c53e12 Merge tag 'drm-fixes-2022-07-29' of git://anongit.freedesktop.org/drm/drm
          
