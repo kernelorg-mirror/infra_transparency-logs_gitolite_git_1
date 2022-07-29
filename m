@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 29 Jul 2022 03:36:49 -0000
-Message-Id: <165906580993.7374.11954217457521343044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 29 Jul 2022 03:50:13 -0000
+Message-Id: <165906661312.16428.8620896191459054110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 33ea1340bafe1f394e5bf96fceef73e9771d066b
-    new: 6e2c0490769ef8a95b61304389116ccc85c53e12
+    old: 6d4c0060bb37c74adc311dd0337882713bc18987
+    new: 33a50eb95eb16918e84f610a26697e8b9235a22a
     log: |
-         a7a47a5dfa9a9692a41764ee9ab4054f12924a42 drm/i915/reset: Add additional steps for Wa_22011802037 for execlist backend
-         f16a2f593d0095e82e6b7f9d776f869c8ab45952 Merge tag 'drm-intel-fixes-2022-07-28-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-         6e2c0490769ef8a95b61304389116ccc85c53e12 Merge tag 'drm-fixes-2022-07-29' of git://anongit.freedesktop.org/drm/drm
+         33a50eb95eb16918e84f610a26697e8b9235a22a Fri Jul 29 03:49:33 AM UTC 2022
          
