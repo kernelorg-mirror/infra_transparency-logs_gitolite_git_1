@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 29 Jul 2022 21:59:06 -0000
-Message-Id: <165913194656.22897.9393515175552456047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 29 Jul 2022 22:07:57 -0000
+Message-Id: <165913247734.28920.6782641074324521524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 2bb9461e5e0851e5edd9feefb3f84775c90b65b1
-    new: 3bf7ed55708dde7dd893e4f0c838d0bd47ff58d4
+    old: 3b317abc71598bda8ff9a9c483ad8ae167b18382
+    new: d0b80a9edb1a029ff913e81b47540e57ad034329
     log: |
-         3bf7ed55708dde7dd893e4f0c838d0bd47ff58d4 Fri Jul 29 09:58:25 PM UTC 2022
+         d0b80a9edb1a029ff913e81b47540e57ad034329 netdevsim: Avoid allocation warnings triggered from user space
          
