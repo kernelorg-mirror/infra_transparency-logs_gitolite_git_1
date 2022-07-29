@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 29 Jul 2022 21:32:59 -0000
-Message-Id: <165913037990.5065.16448956264822402102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 29 Jul 2022 21:38:23 -0000
+Message-Id: <165913070344.8381.11780162305806594157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 639de43ef0dda165441af400ecb372e16b7f9354
-    new: dc81f8d1e8ea3f5dfa88919cb834a135a6a536b8
-    log: |
-         dc81f8d1e8ea3f5dfa88919cb834a135a6a536b8 bpf: Fix test_progs -j error with fentry/fexit tests
-         
+  - ref: refs/tags/hwmon-for-v5.20
+    old: 0000000000000000000000000000000000000000
+    new: 10dc7d0cfe713b3fc533e0bcae925b90d48a9984
