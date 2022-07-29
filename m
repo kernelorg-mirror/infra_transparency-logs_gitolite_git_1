@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3314480431679235455=="
+Content-Type: multipart/mixed; boundary="===============4529721369759410020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 29 Jul 2022 19:17:02 -0000
-Message-Id: <165912222252.6528.15012152434230407780@gitolite.kernel.org>
+Date: Fri, 29 Jul 2022 19:17:09 -0000
+Message-Id: <165912222958.6627.4424679723213867944@gitolite.kernel.org>
 
---===============3314480431679235455==
+--===============4529721369759410020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: 9a241805673ec0a826b7ddf84b00f4e03adb0a5e
     new: bb83c99d3d0aa2f51ba0b2abd7115002620118e6
     log: revlist-9a241805673e-bb83c99d3d0a.txt
 
---===============3314480431679235455==
+--===============4529721369759410020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -142,4 +142,4 @@ e4d8b09d671f0ee92d36c48b65d2f34affcdd531 Merge tag 'riscv-for-linus-5.19-rc9' of
 4b20426d044163df0ff9d868e9767ca9e65dd36c Merge tag 'wq-for-5.19-rc8-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 bb83c99d3d0aa2f51ba0b2abd7115002620118e6 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============3314480431679235455==--
+--===============4529721369759410020==--
