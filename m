@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7154970418479991201=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 29 Jul 2022 15:20:42 -0000
-Message-Id: <165910804275.12742.4733241153602747719@gitolite.kernel.org>
-
---===============7154970418479991201==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 29 Jul 2022 15:21:05 -0000
+Message-Id: <165910806592.12956.5141327242322182039@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 094eee2c58f8772e4665465751886ee531ffcdae
-    new: dc1cd80b8a649144575560989e755cc5f2b450fa
+  - ref: refs/heads/bleeding-edge
+    old: 584787d16c07afa9d691dd2ee09a630b874d725e
+    new: cdc0483fc2c29900e450b597ef890ac3d74ca0fb
     log: |
-         dc1cd80b8a649144575560989e755cc5f2b450fa Notes added by 'git notes add'
+         f611b33af2a88f4179b130d4bf7c482271ce1c81 Merge back cpuidle material for 5.20.
+         2d5383365e3bd595f98a236946572c18fa7c782f cpuidle: Add cpu_idle_miss trace event
+         aaf138fdd74c859f215d0693708498b6ca7226e3 Merge branches 'acpi-pci' and 'acpi-properties' into linux-next
+         cdc0483fc2c29900e450b597ef890ac3d74ca0fb Merge branch 'pm-cpuidle-next' into bleeding-edge
          
-
---===============7154970418479991201==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659108041 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1659108040-4cac6e985aeca2cbb3e93c6f24cbeb4d07dd562f
-
-094eee2c58f8772e4665465751886ee531ffcdae dc1cd80b8a649144575560989e755cc5f2b450fa refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLj+skbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+saMQAMS+gFGC9h4OOOTmBRVN
-+13JdR3oY9BgstX/eWMc5LVPBKY6fLslz1Lw1i0VSXoGm7U5F2OsYn/pLTiAF7dt
-X8tqReu/H3bZt6tuT/nkAegkD7qN7CEnLChRUlkey7N5r6e5w/JiyHrFiCkTxzls
-/oYpOCN4l/RH8VXMukBb5ciImro/beMEBD7NP1w/jtGINJF2IUOi2Ww+KShp0o+0
-aECoWDqrAttxxuIj3f4giOtKcFB8JiRATyrURtEPKm4oJgVQYKP3Hmd1VkSyn5aK
-jmQj65rdZcrgXkOQXzvtc8HaiLDSl0d9Q72sm9zj5GZtsVk7GY5WzzBNdfTOpD/8
-mVOSd/i7g6sF/ccPNcPwMueKtK6man0jXFwNTZ2r0cKrEMs5nVdphp3C+thyYaIv
-JCFB+p+eWonp26fXj336y3HS5yWUGTEcvVPCumkYS0l1AAFaI/l5yyxWBrPfB617
-Xn+lVBeX///O1KN1L1ELqxAt1DDFJiOfs211UEObk7EIbkQoKacclh9P3JvyZ8h2
-2R0D3rPU+KyJ1CeuxmI8mdFUR4hqoXLrgACoeMLjot/fJ9NYSxeuQqIJrBRXFD8+
-khNjm/92NupeBiMsdoH0bJ9qbg+F+rAMb2TS88JgQL64KbtDNEvhjG21OgUliVUP
-pZltwCjxRRGZ4fWsBMvIYwtf
-=W11c
------END PGP SIGNATURE-----
-
---===============7154970418479991201==--
+  - ref: refs/heads/linux-next
+    old: e240a33f1bc480e5ff7a39d07ab3ba0c8ed34df8
+    new: aaf138fdd74c859f215d0693708498b6ca7226e3
+    log: |
+         85140ef275f577f64e8a2c5789447222dfc14fc4 ACPI: property: Return type of acpi_add_nondev_subnodes() should be bool
+         1d52f10917a751f90e269a0ed9b6cca60dbe0300 ACPI: property: Tie data nodes to acpi handles
+         5ee772883af5ed2dfe17e8af2b09d7003344be6c ACPI: property: Use acpi_object_type consistently in property ref parsing
+         1aef25d9d1edbcf5b9af4611448d931d0752377c ACPI: property: Move property ref argument parsing into a new function
+         88af7bbdea37af59a43072243b358753189fd7a5 ACPI: property: Switch node property referencing from ifs to a switch
+         923044133367c8d72662938da0ea531bbdb39799 ACPI: property: Unify integer value reading functions
+         103e10c69c611efabccf57d799c4b191d53ee765 ACPI: property: Add support for parsing buffer property UUID
+         369af6bf2c28f9f57438e82f953f6351cf2a94cd ACPI: property: Read buffer properties as integers
+         2c65e312bc6bb6e175c16a17db8ec86d2dcd1608 ACPI/PCI: Remove useless NULL pointer checks
+         aaf138fdd74c859f215d0693708498b6ca7226e3 Merge branches 'acpi-pci' and 'acpi-properties' into linux-next
+         
+  - ref: refs/heads/testing
+    old: e240a33f1bc480e5ff7a39d07ab3ba0c8ed34df8
+    new: aaf138fdd74c859f215d0693708498b6ca7226e3
+    log: |
+         85140ef275f577f64e8a2c5789447222dfc14fc4 ACPI: property: Return type of acpi_add_nondev_subnodes() should be bool
+         1d52f10917a751f90e269a0ed9b6cca60dbe0300 ACPI: property: Tie data nodes to acpi handles
+         5ee772883af5ed2dfe17e8af2b09d7003344be6c ACPI: property: Use acpi_object_type consistently in property ref parsing
+         1aef25d9d1edbcf5b9af4611448d931d0752377c ACPI: property: Move property ref argument parsing into a new function
+         88af7bbdea37af59a43072243b358753189fd7a5 ACPI: property: Switch node property referencing from ifs to a switch
+         923044133367c8d72662938da0ea531bbdb39799 ACPI: property: Unify integer value reading functions
+         103e10c69c611efabccf57d799c4b191d53ee765 ACPI: property: Add support for parsing buffer property UUID
+         369af6bf2c28f9f57438e82f953f6351cf2a94cd ACPI: property: Read buffer properties as integers
+         2c65e312bc6bb6e175c16a17db8ec86d2dcd1608 ACPI/PCI: Remove useless NULL pointer checks
+         aaf138fdd74c859f215d0693708498b6ca7226e3 Merge branches 'acpi-pci' and 'acpi-properties' into linux-next
+         
