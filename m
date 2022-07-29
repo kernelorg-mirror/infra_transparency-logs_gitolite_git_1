@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Jul 2022 04:49:49 -0000
-Message-Id: <165907018976.24648.2502405488045807450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 29 Jul 2022 04:51:46 -0000
+Message-Id: <165907030689.26868.15681668274957172386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 272ac32f566e3f925b20c231a2b30f6893aa258a
-    new: efe3e6b5aeefaabed9ad5dcb3682b581bf34c187
+  - ref: refs/heads/for-next/kspp
+    old: aaf50b1969d7933a51ea421b11432a7fb90974e3
+    new: 27603a606fda0806d7c08914bc976931aa42020e
     log: |
-         efe3e6b5aeefaabed9ad5dcb3682b581bf34c187 net: usb: delete extra space and tab in blank line
+         27603a606fda0806d7c08914bc976931aa42020e dm: verity-loadpin: Drop use of dm_table_get_num_targets()
          
