@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 29 Jul 2022 20:55:10 -0000
-Message-Id: <165912811008.12086.712320789702261016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Fri, 29 Jul 2022 21:00:13 -0000
+Message-Id: <165912841380.15569.9590035358766707886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/x86/fineibt
-    old: 0000000000000000000000000000000000000000
-    new: 9455553a36276149c4ce677f4b2ec41722040bfb
+  - ref: refs/heads/for-next
+    old: 3eb8fccc244bfb41a7961969e4db280d44911226
+    new: c5c7502e960d9128eae1a5663fb62506d8685ac3
+    log: |
+         c5c7502e960d9128eae1a5663fb62506d8685ac3 video: fbdev: imxfb: fix return value check in imxfb_probe()
+         
