@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 29 Jul 2022 21:53:56 -0000
-Message-Id: <165913163629.18314.394811597434733607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 29 Jul 2022 21:59:06 -0000
+Message-Id: <165913194656.22897.9393515175552456047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: dc81f8d1e8ea3f5dfa88919cb834a135a6a536b8
-    new: 3b317abc71598bda8ff9a9c483ad8ae167b18382
+  - ref: refs/heads/master
+    old: 2bb9461e5e0851e5edd9feefb3f84775c90b65b1
+    new: 3bf7ed55708dde7dd893e4f0c838d0bd47ff58d4
     log: |
-         3b317abc71598bda8ff9a9c483ad8ae167b18382 bpf: Fix NULL pointer dereference when registering bpf trampoline
+         3bf7ed55708dde7dd893e4f0c838d0bd47ff58d4 Fri Jul 29 09:58:25 PM UTC 2022
          
