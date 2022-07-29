@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Fri, 29 Jul 2022 14:24:46 -0000
-Message-Id: <165910468666.13162.2035361276562821653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 29 Jul 2022 14:35:30 -0000
+Message-Id: <165910533054.22441.12572811162160096190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/mhi-next
-    old: 9df125af0822d3e2bde7508e9536d67ab541a166
-    new: bb3c64f6a017d4410010329d12fb36c633985425
+  - ref: refs/heads/nfsd-next
+    old: 40fc6b3d009c40f6bef584d6a12d85b63a8062d2
+    new: 6650a710bf616683bf5d9220e9d94667d5db32ab
     log: |
-         2ebb36ea41a7aaabacd03a48292ca91ed0306453 bus: mhi: ep: Check dev_set_name() return value
-         bb3c64f6a017d4410010329d12fb36c633985425 bus: mhi: host: Fix up null pointer access in mhi_irq_handler
+         1b5539ff92b957b5a23da9d716cc03403ae4b793 nfsd: print nf pointer in some tracepoints
+         6650a710bf616683bf5d9220e9d94667d5db32ab nfsd: fix handling of NFSD_FILE_BREAK_*
          
