@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7786589659967947145=="
+Content-Type: multipart/mixed; boundary="===============3488900597057725667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 29 Jul 2022 15:58:41 -0000
-Message-Id: <165911032143.28934.5333165433790114313@gitolite.kernel.org>
+Date: Fri, 29 Jul 2022 15:58:50 -0000
+Message-Id: <165911033097.29043.7363913581395954001@gitolite.kernel.org>
 
---===============7786589659967947145==
+--===============3488900597057725667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 4b335e1e0d6f8fa91dac615a44b123c9f26e93d3
     new: 9a241805673ec0a826b7ddf84b00f4e03adb0a5e
     log: revlist-4b335e1e0d6f-9a241805673e.txt
 
---===============7786589659967947145==
+--===============3488900597057725667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -287,4 +287,4 @@ b226521923aee7051f4b24df9be5bf07d53f0a2b perf scripts python: Let script to be p
 882528d2e77687c3ef26abb9c490f77a9c1f6e1a perf symbol: Skip symbols if SHF_ALLOC flag is not set
 9a241805673ec0a826b7ddf84b00f4e03adb0a5e perf bpf: Remove undefined behavior from bpf_perf_object__next()
 
---===============7786589659967947145==--
+--===============3488900597057725667==--
