@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 29 Jul 2022 05:28:25 -0000
-Message-Id: <165907250527.20664.4737704239182760091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 29 Jul 2022 06:01:56 -0000
+Message-Id: <165907451632.11596.7131436422625341019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/clk-fixes
-    old: 25c2a075eb6a3031813b6051bd10dfc22c36a2a4
-    new: 8dc592c41f38735306d1f1dc0b183601379c6d94
+  - ref: refs/heads/dt2
+    old: 3040f2365025b5118e09efe006abb3e23cdff646
+    new: 20d57b19a86b9c0c178acc044f9ce4550a680ef5
     log: |
-         8dc592c41f38735306d1f1dc0b183601379c6d94 clk: sunxi-ng: Fix H6 RTC clock definition
-         
-  - ref: refs/heads/clk-next
-    old: b293bc9286ee21824e93f0fcfed3b78fdfee01e6
-    new: dd3d7f0b10cd0f4bd14eb747294935e63569715f
-    log: |
-         8dc592c41f38735306d1f1dc0b183601379c6d94 clk: sunxi-ng: Fix H6 RTC clock definition
-         dd3d7f0b10cd0f4bd14eb747294935e63569715f Merge branch 'clk-fixes' into clk-next
+         5ab04b48726b5a42abc6b5628c68626325c91a29 dt-bindings: remove the dead code in cmd_mk_schema
+         20d57b19a86b9c0c178acc044f9ce4550a680ef5 dt-bindings: fix wrong use of if_changed_rule
          
