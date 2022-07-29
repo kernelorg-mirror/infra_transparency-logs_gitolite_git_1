@@ -1,56 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============5726225035137412710=="
+Content-Type: multipart/mixed; boundary="===============3621575939685733193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 29 Jul 2022 07:33:53 -0000
-Message-Id: <165908003321.9062.11579616910846533540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 29 Jul 2022 08:06:35 -0000
+Message-Id: <165908199529.31685.4737546382969955594@gitolite.kernel.org>
 
---===============5726225035137412710==
+--===============3621575939685733193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: c528bbb7dc062c707f6064eec1bccafb8490758f
-    new: f3a76018dd55d8ddcd28cb47049f46ae5c0ce557
-    log: |
-         f3a76018dd55d8ddcd28cb47049f46ae5c0ce557 staging: r8188eu: remove initializer from ret in rtw_pwr_wakeup
-         
+  - ref: refs/heads/tty-next
+    old: af77c56aa35325daa2bc2bed5c2ebf169be61b86
+    new: 014482b667d3550d7a610c5f11b6351fe47eb39a
+    log: revlist-af77c56aa353-014482b667d3.txt
 
---===============5726225035137412710==
+--===============3621575939685733193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659080032 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1659080032-d46b7fadfa21f142eb157a077bee4e904d7d12c8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659081994 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1659081994-8af3f0e5f60a8d638a827e80f672e7150d9b7ad0
 
-c528bbb7dc062c707f6064eec1bccafb8490758f f3a76018dd55d8ddcd28cb47049f46ae5c0ce557 refs/heads/staging-next
+af77c56aa35325daa2bc2bed5c2ebf169be61b86 014482b667d3550d7a610c5f11b6351fe47eb39a refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLjjWAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WlIP/1VjsFWspmoMXrXzEz3f
-N0J1ydGt/LXFhNddZSorAhCvEI8XwvLFv81xVN99xDGNRmav7mgxzp6pCoYPdrRp
-1f9qCPQ8nd0Sn0VBE4zYh5qBeqRlw8jmOewdcHLuRIOSEwGPSK6kVxpqRKDR69N8
-sEWl4/nqrsuW29rh6X3nEw5J8LdhS0JoB/sx55Pt4e/f3Gar+gZnBwW+mBmQDzM2
-vrHSdiOPA9z0p+Ttpw7N5zeWV5nr5K4lS0Lo9j8Rn3hrUMwYl+VPxWi89QC2WDpQ
-FtxPc8hRwhkSuNLrXvOvgetpyb/e/wbgNOp5ilIbrpvp2qJyyK5sUdqzUF2X0hYZ
-+okywCv/xRMv3X7TpmwP/UaFHLytnmVB2Crydglcv9Raq73KhOyIRQZfQo2TlZ3G
-X50aMzMxAomFAcc7RvgbuaypOuV0OChju3Qts4/zWF40WEBw6JfDCs/yH3Wu2z+o
-zbdl1yaFndmwcrLcCwRVoSrYSPxdrN0vnYdxUU0XlXajcJ31pjVMNXfnjr9YWEE/
-6LZFmuAaHJlTunUxix/JR1X97eIk38lfzSSheY5JrKQp2sb0XftZYV3v0Bv4mCPm
-LltY6HCm5XmHAj86fgCsWce08Q4RzKsjTkFKzyqTMf/ZmWcZmiaNT8rNX61fgpZf
-+QI6iTpo3QFPJkVLYIeH2Fk0
-=1KJF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLjlQobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ezAP/0ZecMcZLsbIunPcFdHg
+M+cH3CiKFUmEDVCjz9LovCQVto8ULEQ5e+QrQnsCSJjKGdO3gG/GoGFJ5H7411EG
+GnoQ3OgVkOlBujrtsKI+VVXzEf5cEa/WbLDs9wBbGkqTikfQMuEEzGrAG1kCzVVw
+QSDW3KV9P5FSfQVS16ECMLzPg0Nnf5jFFTqsVvLwN/zzfr8iBRxQDaCc7mllN856
+kkdObgfvuzB1dYg3/UT3cnPiyXZbFejkcNm7lj0dE7uLqvlPjxJ1Pj6Hz/JDyFSW
+Ww9G2P31BhpYEqhOW+/SxaAkvu2U98GQ1TpXd9JpZl/CGkXzfldA7leuMwLoln5J
+xEEFN2lfBTqnEFIEwLp5HDbfY59iyyBpG4zAnhaOkI9+qGQ/8z6s4TU1l/+xe8IJ
+kfKUgxD5CRtvuMG6ayZFH1RYSNgFf5M7KRBAn9epXNMhErwOdCYPr0tjiYriiv/F
+3jlNYl4/TlCgU5sHAtsGI2iVdMPRTOOg2V1nDKxLOY2KFnYvQJWRBvctNdEi1JMV
+Qhvb95h5SlPEwzywV+MmrJ3HfOQ3gHhy2iXKl4jnctsbibH2I3o87uwxpMtkctkg
+JgyS0jx+b4DLmcSpx91xSlrBR7yi8U66BrUs0nMya1Omag6mW69PLoCMtF5aqKps
+bYJEdlwUf1o+2qEhgE80pcG9
+=wMEQ
 -----END PGP SIGNATURE-----
 
---===============5726225035137412710==--
+--===============3621575939685733193==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-af77c56aa353-014482b667d3.txt
+
+b9f1736e475dba0d6da48fdcb831248ab1597886 serial: 8250_bcm2835aux: Add missing clk_disable_unprepare()
+c474c775716edd46a51bf8161142bbd1545f8733 tty: serial: qcom-geni-serial: Fix get_clk_div_rate() which otherwise could return a sub-optimal clock rate.
+070298c84e5b924c688a4d08c3a9193175cdffd8 serial: fsl_lpuart: zero out parity bit in CS7 mode
+c7039ce904c0f80253a1171d10353e7832c3e4b3 serial: stm32: make info structs static to avoid sparse warnings
+707f816f25590c20e056b3bd4a17ce69b03fe856 tty: serial: fsl_lpuart: correct the count of break characters
+a7209541239e5dd44d981289e5f9059222d40fd1 serial: mvebu-uart: uart2 error bits clearing
+0f42d7f23fd9be143de73eb040c2806a75db8853 dt-bindings: serial: snps-dw-apb-uart: Document Rockchip RV1126
+e60a7233684aa8bbe9090537720fe6a1e901d823 Documentation: serial: move uart_ops documentation to the struct
+c4bd17a6ddf3b92bf9d7939ae251570ace14bb52 Documentation: serial: dedup kernel-doc for uart functions
+27940abd555228fdda39a40081ae02450c500f35 Documentation: serial: move GPIO kernel-doc to the functions
+d34d7c4b774dac1d4be440207ab9e347f599dd30 Documentation: serial: link uart_ops properly
+987233b342b950653d21c5e3e5b78689c995c869 tty: serial: serial_core, reformat kernel-doc for functions
+9e5f399f5c9f62e537735f2f8e42bd2f7c255c1f tty: serial: document uart_get_console()
+014482b667d3550d7a610c5f11b6351fe47eb39a tty: amiserial: Fix comment typo
+
+--===============3621575939685733193==--
