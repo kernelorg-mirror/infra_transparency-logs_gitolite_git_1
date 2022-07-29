@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 29 Jul 2022 19:29:02 -0000
-Message-Id: <165912294269.15924.18341247027088171502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Fri, 29 Jul 2022 19:35:53 -0000
+Message-Id: <165912335317.21288.1263259490930070189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/tags/mm-everything-2022-07-29-19-35
     old: 0000000000000000000000000000000000000000
-    new: 35610745d71df567297bb40c5e4263cda38dddd5
+    new: 3c733e7e382ad72597bfee353013f8b606b172e0
