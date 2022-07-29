@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 29 Jul 2022 21:00:13 -0000
-Message-Id: <165912841380.15569.9590035358766707886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Fri, 29 Jul 2022 21:19:42 -0000
+Message-Id: <165912958264.26840.5189894873451863946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-next
-    old: 3eb8fccc244bfb41a7961969e4db280d44911226
-    new: c5c7502e960d9128eae1a5663fb62506d8685ac3
-    log: |
-         c5c7502e960d9128eae1a5663fb62506d8685ac3 video: fbdev: imxfb: fix return value check in imxfb_probe()
-         
+  - ref: refs/heads/fpga_bitstream_authentication_v1
+    old: 0000000000000000000000000000000000000000
+    new: ca78bb31cfc6bfb55b00f429a0fe72cf58a8b785
