@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6999609423702111031=="
+Content-Type: multipart/mixed; boundary="===============3314480431679235455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 29 Jul 2022 19:16:01 -0000
-Message-Id: <165912216141.6119.14241293218368062990@gitolite.kernel.org>
+Date: Fri, 29 Jul 2022 19:17:02 -0000
+Message-Id: <165912222252.6528.15012152434230407780@gitolite.kernel.org>
 
---===============6999609423702111031==
+--===============3314480431679235455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 9a0b36266f7a83912592052035b84f13b12e30da
-    new: 5dec8a15311f4f47e1ac632daa4656b36cd06a60
-    log: revlist-9a0b36266f7a-5dec8a15311f.txt
+  - ref: refs/heads/tmp.perf/urgent
+    old: 9a241805673ec0a826b7ddf84b00f4e03adb0a5e
+    new: bb83c99d3d0aa2f51ba0b2abd7115002620118e6
+    log: revlist-9a241805673e-bb83c99d3d0a.txt
 
---===============6999609423702111031==
+--===============3314480431679235455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a0b36266f7a-5dec8a15311f.txt
+Content-Disposition: attachment; filename=revlist-9a241805673e-bb83c99d3d0a.txt
 
 ef0324b6415db6742bd632dc0dfbb8fbc111473b ARM: dts: lan966x: fix sys_clk frequency
 be640317a1d0b9cf42fedb2debc2887a7cfa38de powerpc/64s: Disable stack variable initialisation for prom_init
@@ -103,11 +103,6 @@ e53f5293973181e8f557a7fef9a47f131fc3d4f0 Merge tag 'for-net-2022-07-26' of git:/
 e77ea97d2bd99b004e96c339ee22408c5475a52e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 b5177ed92bf6f9d90a2493ed51c1327e088be1df mptcp: Do not return EINPROGRESS when subflow creation succeeds
 5a159128faff151b7fe5f4eb0f310b1e0a2d56bf virtio-net: fix the race between refill work and close
-553de6e1157df63fc6cdfe4573e04c8edcbe68f2 tools headers cpufeatures: Sync with the kernel sources
-b226521923aee7051f4b24df9be5bf07d53f0a2b perf scripts python: Let script to be python2 compliant
-2d86612aacb7805f72873691a2644d7279ed0630 perf symbol: Correct address for bss symbols
-882528d2e77687c3ef26abb9c490f77a9c1f6e1a perf symbol: Skip symbols if SHF_ALLOC flag is not set
-9a241805673ec0a826b7ddf84b00f4e03adb0a5e perf bpf: Remove undefined behavior from bpf_perf_object__next()
 9d8a8616ee47f478a9f78ab97f55c3fbf71bb5f0 Merge tag 'soc-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 6e7765cb477a9753670d4351d14de93f1e9dbbd4 Merge tag 'asm-generic-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 e62d2e110356093c034998e093675df83057e511 tcp: md5: fix IPv4-mapped support
@@ -146,6 +141,5 @@ e4d8b09d671f0ee92d36c48b65d2f34affcdd531 Merge tag 'riscv-for-linus-5.19-rc9' of
 506e6dfb0f1131f104df66ccae1197bdf8f1b6b0 Merge tag 'pm-5.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4b20426d044163df0ff9d868e9767ca9e65dd36c Merge tag 'wq-for-5.19-rc8-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 bb83c99d3d0aa2f51ba0b2abd7115002620118e6 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-5dec8a15311f4f47e1ac632daa4656b36cd06a60 Merge remote-tracking branch 'torvalds/master' into perf/core
 
---===============6999609423702111031==--
+--===============3314480431679235455==--
