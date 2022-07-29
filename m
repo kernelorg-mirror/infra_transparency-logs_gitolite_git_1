@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 29 Jul 2022 10:59:44 -0000
-Message-Id: <165909238425.1245.11342837904250965200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 29 Jul 2022 11:06:25 -0000
+Message-Id: <165909278598.6634.9818422945598232821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 3113c7f3b8173a725016481f0efaec74417283e6
-    new: 5fa2ecb53656c9fdcbd5a21972906e3da33cb504
+    old: d7c4c9e075f8cc6d88d277bc24e5d99297f03c06
+    new: 944fd1aeacb627fa617f85f8e5a34f7ae8ea4d8e
     log: |
-         5fa2ecb53656c9fdcbd5a21972906e3da33cb504 getrlimit.2: RLIMIT_NPROC also ignored for ruid 0
+         944fd1aeacb627fa617f85f8e5a34f7ae8ea4d8e net: allow unbound socket for packets in VRF when tcp_l3mdev_accept set
          
