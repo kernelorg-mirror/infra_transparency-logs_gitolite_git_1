@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8580688478433706323=="
+Content-Type: multipart/mixed; boundary="===============5547084433437832259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 30 Jul 2022 17:16:09 -0000
-Message-Id: <165920136992.22697.9494882070735583962@gitolite.kernel.org>
+Date: Sat, 30 Jul 2022 17:16:27 -0000
+Message-Id: <165920138733.22898.7911184820193995322@gitolite.kernel.org>
 
---===============8580688478433706323==
+--===============5547084433437832259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 46a6e351fe60703e646217bf28d595cf9dbd3f3e
     new: 7dea20f2fecbde5df321d6d9d0b7765be6edc28c
     log: revlist-46a6e351fe60-7dea20f2fecb.txt
 
---===============8580688478433706323==
+--===============5547084433437832259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e3b746a384fc2f3b7b4a8c9aad5024130a975c43 scripts: headers_install.sh: Update con
 abe864b8e19adf33b48997de8bc1a8f095390ade modpost: use sym_get_data() to get module device_table data
 7dea20f2fecbde5df321d6d9d0b7765be6edc28c kconfig: Qt5: tell the user which packages are required
 
---===============8580688478433706323==--
+--===============5547084433437832259==--
