@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 30 Jul 2022 17:23:19 -0000
-Message-Id: <165920179942.26890.3692761258056888279@gitolite.kernel.org>
+Date: Sat, 30 Jul 2022 17:27:30 -0000
+Message-Id: <165920205016.31179.7777740620437584685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: 7dea20f2fecbde5df321d6d9d0b7765be6edc28c
-    new: e5c2e8be507a1c2048b6899673296e6ac549abd8
+  - ref: refs/heads/kbuild
+    old: e5c2e8be507a1c2048b6899673296e6ac549abd8
+    new: ebd9902724a993ee0cde62f0b862c39128b0a8b0
     log: |
-         ee47620367d5b5ee6a1934888bf1ae46576be757 kbuild: add dtbs_prepare target
-         341a2463d196cc479563d63ee43f86d8a9c93e25 modpost: remove unused Elf_Sword macro
-         e5c2e8be507a1c2048b6899673296e6ac549abd8 modpost: refactor get_secindex()
+         ebd9902724a993ee0cde62f0b862c39128b0a8b0 kbuild: set EXIT trap before creating temporary directory
          
