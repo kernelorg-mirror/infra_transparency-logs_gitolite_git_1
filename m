@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 30 Jul 2022 18:04:55 -0000
-Message-Id: <165920429524.23218.6506250712793669068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 30 Jul 2022 18:51:55 -0000
+Message-Id: <165920711517.22741.12524111824950836709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 3bf7ed55708dde7dd893e4f0c838d0bd47ff58d4
-    new: 281c63d0db306ffc67bc628ab5b61d1976237b95
+  - ref: refs/heads/dev
+    old: 5d6265309123bf483c8552328d022d2365400c9e
+    new: 4ab04d2252173e6573e88fde6bdd3c94e2ce0dc0
     log: |
-         281c63d0db306ffc67bc628ab5b61d1976237b95 Sat Jul 30 06:04:15 PM UTC 2022
+         4ab04d2252173e6573e88fde6bdd3c94e2ce0dc0 fixup! rcutorture: Abstract synchronous and polled API testing
          
