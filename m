@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 30 Jul 2022 11:07:12 -0000
-Message-Id: <165917923200.27125.13694660210781552817@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0340396009543286342=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 30 Jul 2022 14:45:46 -0000
+Message-Id: <165919234698.13371.241033557405191780@gitolite.kernel.org>
+
+--===============0340396009543286342==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: bb83c99d3d0aa2f51ba0b2abd7115002620118e6
-    new: e65c6a46df94c8d76ea1129eb2d4564670c6f214
+    old: 611e12505a99a18002ffa6b237d4617229fe2d67
+    new: 39c334cba2d8c5280876bd88c5837538f24fa57a
     log: |
-         0c09bc33aa8e9dc867300acaadc318c2f0d85a1e drm/simpledrm: Fix return type of simpledrm_simple_display_pipe_mode_valid()
-         0fde22c5420ed258ee538a760291c2f3935f6a01 scsi: mpt3sas: Stop fw fault watchdog work item during system shutdown
-         a3435afba87dc6cd83f5595e7607f3c40f93ef01 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-         d9a434fa0c12ed5f7afe1e9dd30003ab5d059b85 scsi: core: Fix warning in scsi_alloc_sgtables()
-         f5c2976e0cb0f6236013bfb479868531b04f61d4 scsi: ufs: core: Fix a race condition related to device management
-         66cee9097e2b74ff3c8cc040ce5717c521a0c3fa nouveau/svm: Fix to migrate all requested pages
-         1c8ac1c4af178ebcdf6fd4a0ba11716e2c814593 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-         ce156c8a1811c96a243590abd0e9b5a3b72c1f3a Merge tag 'drm-misc-fixes-2022-07-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-         e65c6a46df94c8d76ea1129eb2d4564670c6f214 Merge tag 'drm-fixes-2022-07-30' of git://anongit.freedesktop.org/drm/drm
+         39c334cba2d8c5280876bd88c5837538f24fa57a 4.9-stable patches
          
+
+--===============0340396009543286342==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659192346 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1659192345-a37feaa788eea83021703fbfa69b0220116abce1
+
+611e12505a99a18002ffa6b237d4617229fe2d67 39c334cba2d8c5280876bd88c5837538f24fa57a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLlRBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iLcQAK/pPSnNuDCeAUyAIWIu
+QPSMjftlrkc/S0WwWQlieOAL9VYqg4lbwodagbWNa04yNwNzjLZCA+W0N9HcpQFj
+hUwfKq/wWmCwJzwz/FlzyfdfZ929UtK3+/7AvqS75qTJBTK14M7pLaQnzDu/FgjC
+YCHTTwPvHKupCgUNVpom0MZJdIS4xOypgWoJnsSPls3dawpS/AR8945cg8CVd9qc
+4zDwNexZe7U9+RBAXq8B+SjN+gjWbX3yu7wCWo6FvQyNdQS0s48pA9gYjHZ7Hyzz
+7QGrP/P0s0PB00XYGjsQi+Kiox3RD8UofohujKM82MnHMikXu34Xzqwz18gNo0DZ
+lfdVcl6b8R6zqEjKguBPQeO+8fLwZFs1S8ygYAp3S07fpJ/Jh8uRXac5Jypfegft
+BwqSzOXoAU1PTyb3tkLbu+djAQ60yahfQNYTZ6hyGjTlcXhOuXOB4/F4LMxwMpN0
+6Z1SuThfK6mXYOf3pI9e9tc4/ZcCSNZdXRuy0+zoTFwe6VBg0lotpt1mlW+GyeA8
+pi5CfgjYUiBGlcmmeWQc8GRBCdGjbEMyokrxB3Q/ntQAZ6uVyxEbaBBNDTLphS7l
+S9OZPUMZSIEFdLCTFHfEi5PnmafFQJ8rzZifw/uJbQBW+utekS5DcnSuuxax8BVN
+Ae0RIxwOY+7jg1+M2O6ZYkqT
+=SvzR
+-----END PGP SIGNATURE-----
+
+--===============0340396009543286342==--
