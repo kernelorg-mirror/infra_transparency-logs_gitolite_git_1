@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Sat, 30 Jul 2022 15:56:52 -0000
-Message-Id: <165919661272.1301.5823948308017839792@gitolite.kernel.org>
+Date: Sat, 30 Jul 2022 16:26:27 -0000
+Message-Id: <165919838759.21486.3562954851024812628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
   - ref: refs/heads/arm64/stacktrace/rework-cleanup
-    old: f523ed72c6dbd6cdcc58363926adb76c64a87c38
-    new: 6195d4cdbf4615e3e532f42993c44b2a8ee4eb22
+    old: 6195d4cdbf4615e3e532f42993c44b2a8ee4eb22
+    new: c63ebf39757919697cf386963af52c6281b7fbe2
     log: |
-         317b0d33e62137f2de4d40ffbc6d0210eeb3b4f9 arm64: stacktrace: track all stack boundaries explicitly
-         6195d4cdbf4615e3e532f42993c44b2a8ee4eb22 arm64: stacktrace: track hyp stacks in kernel VA space
+         0ad1aeba35f7ab6bc6af4f08a65c58546b0f14d5 arm64: stacktrace: track all stack boundaries explicitly
+         c63ebf39757919697cf386963af52c6281b7fbe2 arm64: stacktrace: track hyp stacks in kernel VA space
          
