@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 30 Jul 2022 03:41:56 -0000
-Message-Id: <165915251648.440.2407258898471434079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Sat, 30 Jul 2022 03:42:47 -0000
+Message-Id: <165915256771.798.11154483629096768967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/tags/v5.19-rc8
+  - ref: refs/tags/mm-hotfixes-stable-2022-07-29
     old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
+    new: 56a31dab2b2fbed56438a5db7706bff65870ba54
