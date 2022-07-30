@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2393876063769732189=="
+Content-Type: multipart/mixed; boundary="===============7347603197407558479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 30 Jul 2022 03:41:23 -0000
-Message-Id: <165915248367.32545.3040208253058120256@gitolite.kernel.org>
+Date: Sat, 30 Jul 2022 03:41:43 -0000
+Message-Id: <165915250342.32749.9195508345704527209@gitolite.kernel.org>
 
---===============2393876063769732189==
+--===============7347603197407558479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 14250fa4839b3a48c979e7faaf4cbcce619d02bd
     new: 71930846b36f8e4e68267f8a3d47e33435c3657a
     log: revlist-14250fa4839b-71930846b36f.txt
 
---===============2393876063769732189==
+--===============7347603197407558479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -377,4 +377,4 @@ ff4970b130e74af4f2fe5bc6a7a963bc977cae1a Merge tag 'wireless-next-2022-07-29' of
 0f14a8351abd7d734ae617da05faa0008cd35927 dn_route: replace "jiffies-now>0" with "jiffies!=now"
 71930846b36f8e4e68267f8a3d47e33435c3657a net: marvell: prestera: uninitialized variable bug
 
---===============2393876063769732189==--
+--===============7347603197407558479==--
