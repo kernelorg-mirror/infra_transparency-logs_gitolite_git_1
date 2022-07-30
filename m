@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2456594679147074322=="
+Content-Type: multipart/mixed; boundary="===============6752913603462961082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 30 Jul 2022 15:35:20 -0000
-Message-Id: <165919532096.18267.14938938759844920862@gitolite.kernel.org>
+Date: Sat, 30 Jul 2022 15:37:21 -0000
+Message-Id: <165919544125.19100.7949472285428647157@gitolite.kernel.org>
 
---===============2456594679147074322==
+--===============6752913603462961082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,172 +16,185 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 5b4157e288d4d0056149fe31749c5ff6600bf31a
-    new: 5aeaf913c24f901e2db45bb5e3c281119f03a0cf
+    old: 5aeaf913c24f901e2db45bb5e3c281119f03a0cf
+    new: 9f3290b67ea3e0ecc9c945d0ddc662d6eaa38d77
     log: |
-         09decd10476764a8e9efb7b9ef0795c2bd264359 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-         5d6697993a5f5d4294070e8ec5ac241639bb2019 ntfs: fix use-after-free in ntfs_ucsncmp()
-         9b28b01cd06433ecb04289bd2226b704783f8ee6 s390/archrandom: prevent CPACF trng invocations in interrupt context
-         ca1491499ee8ef5f4e73da1a73a23a86216553f2 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-         5aeaf913c24f901e2db45bb5e3c281119f03a0cf net: ping6: Fix memleak in ipv6_renew_options().
+         b0e60dd51546970d53acc577089f73e75ca0ad9f Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+         45c2d2b22d9eb34dab8ed43176d96390e393984f ntfs: fix use-after-free in ntfs_ucsncmp()
+         6579f427ac858743670847cf136db3d3039a9c45 s390/archrandom: prevent CPACF trng invocations in interrupt context
+         043726f5a39784e84c86e95e5155fa3f2c3bfda0 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+         9f3290b67ea3e0ecc9c945d0ddc662d6eaa38d77 net: ping6: Fix memleak in ipv6_renew_options().
          
   - ref: refs/heads/queue/4.19
-    old: 3b962f4bf9a37204af696658532e061edcca1a40
-    new: e97eff2aee96edbd0ba7f56f11dedde9036e37b8
-    log: revlist-3b962f4bf9a3-e97eff2aee96.txt
+    old: e97eff2aee96edbd0ba7f56f11dedde9036e37b8
+    new: 622b2f8e4f847d1a107268944fa257543293e1cc
+    log: revlist-e97eff2aee96-622b2f8e4f84.txt
   - ref: refs/heads/queue/4.9
-    old: 4fbce49d4083e5c056970f0a4aa7ecc6a98bfe7d
-    new: d62bb6164bc72010d413af9fa4d400b8b53470ff
+    old: d62bb6164bc72010d413af9fa4d400b8b53470ff
+    new: bdc492ba8cc14d26a1b51624f78bce5376854361
     log: |
-         155207783699f33c5c3fc30fb0bffdc1fe5f1cc6 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-         2c0c3463f9b803e626d9b42dd0165068a8718012 ntfs: fix use-after-free in ntfs_ucsncmp()
-         540037a86f8324e6c121311ab0726907f79509a5 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-         d62bb6164bc72010d413af9fa4d400b8b53470ff net: ping6: Fix memleak in ipv6_renew_options().
+         ef99f58856fc8d6dd1dc9ccc5bc6977d55540606 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+         77c5c7d8bac0e2f76b50b45ef5404c194438f783 ntfs: fix use-after-free in ntfs_ucsncmp()
+         15376629db2d895ea38071a9a8e840e1d133d159 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+         bdc492ba8cc14d26a1b51624f78bce5376854361 net: ping6: Fix memleak in ipv6_renew_options().
          
   - ref: refs/heads/queue/5.10
-    old: bc899da514714f6b46e1a750e143b1824dc4f2a8
-    new: 150507814fa10b15b76c6cc08e4724407a3f5f60
-    log: revlist-bc899da51471-150507814fa1.txt
+    old: 150507814fa10b15b76c6cc08e4724407a3f5f60
+    new: 3e910dabacd4f6040ecbc5125271af6e1b9d58b9
+    log: revlist-150507814fa1-3e910dabacd4.txt
   - ref: refs/heads/queue/5.15
-    old: b4b9bde9e3fa375ceb130f0ffddd3eff908f9117
-    new: c6889d03dbed3954cf8458034b959b108b470d73
-    log: revlist-b4b9bde9e3fa-c6889d03dbed.txt
+    old: c6889d03dbed3954cf8458034b959b108b470d73
+    new: da5a9c9f5949bbfe61fa5a4f8ce9c1f61b21adff
+    log: revlist-c6889d03dbed-da5a9c9f5949.txt
   - ref: refs/heads/queue/5.18
-    old: 833e468038ff0442dec4ad4e243f7a5cc3e6290f
-    new: ef9d4e94ad147df483fd67c78a9baf88cbe8cb5a
-    log: revlist-833e468038ff-ef9d4e94ad14.txt
+    old: ef9d4e94ad147df483fd67c78a9baf88cbe8cb5a
+    new: 981b411c46b8b07d03425a144288f6e7853e2901
+    log: revlist-ef9d4e94ad14-981b411c46b8.txt
   - ref: refs/heads/queue/5.4
-    old: 284ffc4b0ca759fba9b3443ed9e48220881e0ac7
-    new: db04e388910a42e634c351b400baeda78871a043
-    log: revlist-284ffc4b0ca7-db04e388910a.txt
+    old: db04e388910a42e634c351b400baeda78871a043
+    new: 5114999ae4f950208911ce25efd2ed15a8b6b4c3
+    log: revlist-db04e388910a-5114999ae4f9.txt
 
---===============2456594679147074322==
+--===============6752913603462961082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b962f4bf9a3-e97eff2aee96.txt
+Content-Disposition: attachment; filename=revlist-e97eff2aee96-622b2f8e4f84.txt
 
-c376cb8b2bc543c7abaa44cdd88601a03de04111 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-4da528dd8e8ecb9a9b598cc5ecd6514db71c3293 ntfs: fix use-after-free in ntfs_ucsncmp()
-a42d5bc6f72daa067d0b518c893bda23968f0106 s390/archrandom: prevent CPACF trng invocations in interrupt context
-721547c5ec7e39fb2d513f2ef1f0526212a5e6b3 tcp: Fix data-races around sysctl_tcp_dsack.
-fde376f8e312ea462421ec38b847e6a437758ccd tcp: Fix a data-race around sysctl_tcp_app_win.
-0c6a1cb037df9d5005c9b2cfbcaea16972afcc73 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-9d1afaeab1bc6cca5f66964f1efd2e800181c925 tcp: Fix a data-race around sysctl_tcp_frto.
-028e2ba9523994e2f75775bad88b1ef6bd8857c7 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-441d9efea9a2d7a45a1208f8771c2c03f5731a04 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-ae94d01aa854c846bcb52d2770df65dd9c483839 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
-e97eff2aee96edbd0ba7f56f11dedde9036e37b8 net: ping6: Fix memleak in ipv6_renew_options().
+ecaf588bf754079b61c5a5b9c20f524bd2ee45ed Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+f4c317f80126b8f8b17acdd3df78570abb6ef00f ntfs: fix use-after-free in ntfs_ucsncmp()
+f60230bf7d253f88809af3bbff452f22c7530349 s390/archrandom: prevent CPACF trng invocations in interrupt context
+f21c9b1a187a8d3f9b686483060c02476639684d tcp: Fix data-races around sysctl_tcp_dsack.
+74da1b021cd1442b63e36b5dc43afa4dfbd7d72d tcp: Fix a data-race around sysctl_tcp_app_win.
+4cb8e1a3acdd35ee2e1563bdc6ac45fad69f8fb0 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+adfd136f0ac5cfc3ce38fcecd9672a49fb513cd2 tcp: Fix a data-race around sysctl_tcp_frto.
+7b1165bcc93da287a0ba29d1bff32488e68a1da3 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+04a980e6ea77ecd48f6ef66e5c6725d97b7484f8 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+61479d2838a315e9878fb5a3c5eb29df102f5e3a tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
+622b2f8e4f847d1a107268944fa257543293e1cc net: ping6: Fix memleak in ipv6_renew_options().
 
---===============2456594679147074322==
+--===============6752913603462961082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc899da51471-150507814fa1.txt
+Content-Disposition: attachment; filename=revlist-150507814fa1-3e910dabacd4.txt
 
-dfdc10f577f64adeffb9ba7a7859ccefb014673e Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-f6d96ebd8ebdedc693502a52e719ee7de414062d Revert "ocfs2: mount shared volume without ha stack"
-a2d801199adb1be5450f74950dd21148f796a90a ntfs: fix use-after-free in ntfs_ucsncmp()
-91f5ecad35c6bf85522c1a8d338216210e0647d4 s390/archrandom: prevent CPACF trng invocations in interrupt context
-b8a69bfc873650d9430f491dc45b2185287dd195 nouveau/svm: Fix to migrate all requested pages
-484d2b747bd23bbaeea8b33c0281c7e988108eb1 watch_queue: Fix missing rcu annotation
-0b8ff5601be12cbae2efc5a6921a1834fe0f3c0c watch_queue: Fix missing locking in add_watch_to_object()
-2e9a2cdfe64cbb75a444f09b05707eeeba85be9a tcp: Fix data-races around sysctl_tcp_dsack.
-b8b74f754b0e532b39dd13f54285d04bd1b21324 tcp: Fix a data-race around sysctl_tcp_app_win.
-3a0138534af93631a3062e74a875fe6a7c802803 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-9561ad4737ae0b7b9b60b470545e14731ecd6d5b tcp: Fix a data-race around sysctl_tcp_frto.
-0dc5bb395f95aa0e5dd2024b2c4078d1dea419fa tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-c653a527e3cb4420658730a936c014436373d8d0 tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
-ea37b6c551b37786b8415eed3be9b0969d30b338 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
-f6f8e864e1342c7136d35ae2d33a1380e64600f3 ice: do not setup vlan for loopback VSI
-82c61bb7f40c60a29fa3482f579056285c0c8115 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-150743ddb488d30155894fd9ee0423ed789370b3 Revert "tcp: change pingpong threshold to 3"
-20c461ac15e880031db6863df8d41081f4557b8a tcp: Fix data-races around sysctl_tcp_moderate_rcvbuf.
-2a2955322994233db37f432682e3ba5ef8d2b550 tcp: Fix a data-race around sysctl_tcp_limit_output_bytes.
-7c38037c943ec2a2bfc9dd2dd3da6c4e53bdaa6a tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
-893b3606a48c0d96ed76827f6ffee9c808de2336 net: ping6: Fix memleak in ipv6_renew_options().
-150507814fa10b15b76c6cc08e4724407a3f5f60 ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
+6a83cde8a449e4bfd0a81cbcf4f7e9795d28470a Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+6c48f08d890bb9ac62c3a97c5be022312f43f779 Revert "ocfs2: mount shared volume without ha stack"
+a5009907e064c9dd8f9026f04b6a251cc92e6a07 ntfs: fix use-after-free in ntfs_ucsncmp()
+4bd71448dd27a18e683f945dcac9326560bb6a79 s390/archrandom: prevent CPACF trng invocations in interrupt context
+759a11d53603c94f7059d70ef4bee877eac2b027 nouveau/svm: Fix to migrate all requested pages
+655acd5568cb541f7cd3e87d9f06636078c50183 watch_queue: Fix missing rcu annotation
+2a1f1cb3ea35f8339a4b2869e4c0652e81a873d1 watch_queue: Fix missing locking in add_watch_to_object()
+0abd0262b2be41bca7365b05d819284cd5443b17 tcp: Fix data-races around sysctl_tcp_dsack.
+403401369a1ff4f0b63a10303e1ea5ad8be54559 tcp: Fix a data-race around sysctl_tcp_app_win.
+f76d3b9c543caa54775fbe7b4fd240f22298d1e9 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+37e45860b79872a64b01343e227a4f3213ed6282 tcp: Fix a data-race around sysctl_tcp_frto.
+51bb4a1cda4b12dabd48c0e152928ab1cfc7f9f6 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+9fb174cfafdcab03a803293e7474cc7e9c152dd2 tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
+426482d612bc5b14a5153cd7eeeae07913c778ee ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+c2e81d438bb106dc7e07c61d4669f43a5cb37470 ice: do not setup vlan for loopback VSI
+79eda08b05d9796cecc0bdee2b32c452b61d48d5 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+47806de6d05347221635daef771b79ae623e32be Revert "tcp: change pingpong threshold to 3"
+20f75d9336edf6100728309e173e234fad02e894 tcp: Fix data-races around sysctl_tcp_moderate_rcvbuf.
+a351fdee53d1b41a31ee64abe318b1a9719b289d tcp: Fix a data-race around sysctl_tcp_limit_output_bytes.
+a0a30786ba2b7194424b7de9a1ea6e9e3b495b52 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
+d490aad4a818746ae9b22330ef916ef1f8eb8e81 net: ping6: Fix memleak in ipv6_renew_options().
+3e910dabacd4f6040ecbc5125271af6e1b9d58b9 ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
 
---===============2456594679147074322==
+--===============6752913603462961082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4b9bde9e3fa-c6889d03dbed.txt
+Content-Disposition: attachment; filename=revlist-c6889d03dbed-da5a9c9f5949.txt
 
-529a77a7bdde0d2f9eba5a046d358ca042cb96ba Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-1de9d8546020ee3d9f6ac602b921ee55f2e98982 Revert "ocfs2: mount shared volume without ha stack"
-b4247e75f3b72dfc6e17e5a809eccfbf1e79296c ntfs: fix use-after-free in ntfs_ucsncmp()
-f00ed4e76cb816c301fd23c4850e45530602d859 fs: sendfile handles O_NONBLOCK of out_fd
-6f9dce84c435f5604654de497c7c63b1de8e98f4 secretmem: fix unhandled fault in truncate
-7ae1ae9774a3738de196b3a4d5fcbe47b9c91878 mm: fix page leak with multiple threads mapping the same page
-32f889e3760a3295b944060915f8d53ccc1f6d59 hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
-ad55c356e8e6ba336c5cbceb9c7807d8e62de4aa asm-generic: remove a broken and needless ifdef conditional
-ca6885e73f5f155d7646784bb495df66e2f8a2aa s390/archrandom: prevent CPACF trng invocations in interrupt context
-04ed6de6bbcac7989493c9ab9df063a95071dcb4 nouveau/svm: Fix to migrate all requested pages
-ec217df1096b2c53f7ae33fb62d9c01dd5108264 drm/simpledrm: Fix return type of simpledrm_simple_display_pipe_mode_valid()
-44cdb3077cf1495d43be3551b546c15c097d285a watch_queue: Fix missing rcu annotation
-abf5db0fe9e5c36ad840662a7d42acc4873560c6 watch_queue: Fix missing locking in add_watch_to_object()
-5d33bf8343d77248ccc983825ed539e393cb595d tcp: Fix data-races around sysctl_tcp_dsack.
-0c5bc5b217db14e3098566829b378bcaa6ece41f tcp: Fix a data-race around sysctl_tcp_app_win.
-45f4ab348fc0485da2211a202ea45fcf91d21d06 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-7388c866e4f963ae99c55d41f0b29f9145cc4bf8 tcp: Fix a data-race around sysctl_tcp_frto.
-a5c3dfb0dfd26b99e82567253ebd7395346bbdda tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-c6889d03dbed3954cf8458034b959b108b470d73 tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
+f2af5844f4af4f404c099c91399e10f8c0a343bf Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+e850bb20c0c695080767c649c84c4a087449bedd Revert "ocfs2: mount shared volume without ha stack"
+cf8c04d0b22face5923e827d6bb16f944147870f ntfs: fix use-after-free in ntfs_ucsncmp()
+8eb895b77fea6213b816a8b7d82a8856eba0a3d4 fs: sendfile handles O_NONBLOCK of out_fd
+1e333ffcd437ca6cf03ff8be68dfb7fb9f896d59 secretmem: fix unhandled fault in truncate
+470a0dd0691e47d9dcc905aef62d34029fb5cd08 mm: fix page leak with multiple threads mapping the same page
+13bf3ea8d53bc23d1c9de72f52cdaa6062c0007f hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
+089b7ba415e3f95ad7bfbeb22dfec5b074396d27 asm-generic: remove a broken and needless ifdef conditional
+e4c67d7c616b643ddebaa9f4ccefa1be804c7535 s390/archrandom: prevent CPACF trng invocations in interrupt context
+4b47edc0a0be48362aedf188c48002a040eddaf4 nouveau/svm: Fix to migrate all requested pages
+94195528db38b00c2e883cf53d445e2e3b432edc drm/simpledrm: Fix return type of simpledrm_simple_display_pipe_mode_valid()
+c9fdba001440d0f74525ed1d0c8565130ad28eb3 watch_queue: Fix missing rcu annotation
+6f072062e09e6fca1bd768fc3952d771f6956fe7 watch_queue: Fix missing locking in add_watch_to_object()
+32ef4a56205790c0b8844cf9fec0ae1b858c04ab tcp: Fix data-races around sysctl_tcp_dsack.
+328365eb5d70402955cbd72924973f3d28a0fae7 tcp: Fix a data-race around sysctl_tcp_app_win.
+1878b21b158d9fad122015e4a8c58cafb07e708d tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+d8d7ce44bf47c42f91e728f44d8eec6159c8ae46 tcp: Fix a data-race around sysctl_tcp_frto.
+f25b466cbedd46a5817a56772515cbb1a046b392 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+5e2a1772fecd25e1ac326aa62439921cb5b3cf1c tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
+9f9d6ece01fe62ab1dd160bbce4fc9e72f992b94 ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+e18a43b0e2f051ff0d39b8588e0c986023102fc4 ice: do not setup vlan for loopback VSI
+451b3e10bbb2e04c273961542a60b8bdaa6a4a5d scsi: ufs: host: Hold reference returned by of_parse_phandle()
+34df30f01786620e14de1b0924f06b694a0521ed Revert "tcp: change pingpong threshold to 3"
+b3c5c3483047fd2a9fcffddbb5d06f96558424e9 octeontx2-pf: Fix UDP/TCP src and dst port tc filters
+88a2c7248262cc21840754ec6970186086c7e637 tcp: Fix data-races around sysctl_tcp_moderate_rcvbuf.
+c1b682f62a0025d3ecd733f02a316b45e14bf2a6 tcp: Fix a data-race around sysctl_tcp_limit_output_bytes.
+b2e7ccf33cdaa2da7028ef0e7b3953fdff1a57b5 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
+16df25bc4e1df71cd8b54bc68605ac6b56d23e9a scsi: core: Fix warning in scsi_alloc_sgtables()
+444ad64e28b01906acb640e80c0364a434b9f631 scsi: mpt3sas: Stop fw fault watchdog work item during system shutdown
+1a2a24a40a5ec7d310a3cbc6faf9b7a017f50037 net: ping6: Fix memleak in ipv6_renew_options().
+4a5a9fd88ab876c309367f2145eaa1eb2cda99b1 ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
+da5a9c9f5949bbfe61fa5a4f8ce9c1f61b21adff net/tls: Remove the context from the list in tls_device_down
 
---===============2456594679147074322==
+--===============6752913603462961082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-833e468038ff-ef9d4e94ad14.txt
+Content-Disposition: attachment; filename=revlist-ef9d4e94ad14-981b411c46b8.txt
 
-9b5ff0d8c81e7feeb5c62bd04a807c5c5b5f4e23 Bluetooth: Always set event mask on suspend
-5e679e544564911111fe54710eff29fbf3a6663c Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-e7dbbdc090b9b25e7273abfae3371d5a1513f82b ARM: dts: lan966x: fix sys_clk frequency
-13b7af285ec1241d29ec2ddab406a8f9ad50da86 ARM: pxa2xx: Fix GPIO descriptor tables
-017e060b6425a7d60673d55e4c909fe72f16ee0e Revert "ocfs2: mount shared volume without ha stack"
-1218e7b1d7acf443668a41cf67183db5f37f3224 userfaultfd: provide properly masked address for huge-pages
-24641ab0f34e0951d70d58cc3433479ea7661917 ntfs: fix use-after-free in ntfs_ucsncmp()
-37df1027d0fbe96ba6a7f35ac3774eda0e0fbd21 fs: sendfile handles O_NONBLOCK of out_fd
-60cd8a4ecf032f731f1a9921ff5c9b17c9f9125e secretmem: fix unhandled fault in truncate
-ab1bb1a40e481fc06731f2349a457aa3f1c35dc6 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
-6f109ec084ffb6ae0b280c0012dab8c5d889a345 mm: fix page leak with multiple threads mapping the same page
-90d2f51fc8ba21d6f57718065013625ca1058403 mm: fix missing wake-up event for FSDAX pages
-7e153db7d7ef71c367da1301860cb39a74db89bb hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
-8e39f41d9924ab64b08867daef9125972d99692b asm-generic: remove a broken and needless ifdef conditional
-04fdaed01595470591f52d5695daf38279f70b3d s390/archrandom: prevent CPACF trng invocations in interrupt context
-1018a1a3c416eb3904e9ac6b6d6705ef20176efe intel_idle: Fix false positive RCU splats due to incorrect hardirqs state
-388d6bc88f141169ed422c30b3e8bf2551bafca4 nouveau/svm: Fix to migrate all requested pages
-bbc82c35183b152703a67adda77f5ace845c11a3 drm/simpledrm: Fix return type of simpledrm_simple_display_pipe_mode_valid()
-2b59df72020ddccc7ab2c3ef34f347d59000252f watch_queue: Fix missing rcu annotation
-5ac01c26d316ace3d55f9c0bedb4167856f1b6b9 watch_queue: Fix missing locking in add_watch_to_object()
-625d48c3862e126fcd6e9e0459f00d159a31b65c tcp: Fix data-races around sysctl_tcp_dsack.
-b912e8a9a2fe17106ab06f3bd179fd77b6fe23fd tcp: Fix a data-race around sysctl_tcp_app_win.
-a1bb37daddff0c1ccb022528eaa4d722ce195903 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-6d8a313e90bc4d0e18a99c3e3120991bdc4be013 tcp: Fix a data-race around sysctl_tcp_frto.
-227a3a748f5778a9e527d4bdaa73f040945395cd tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-e58a25f6b8be8a5e7ff83a1bed948c88a97b4996 tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
-ef9d4e94ad147df483fd67c78a9baf88cbe8cb5a bridge: Do not send empty IFLA_AF_SPEC attribute
+8218f91a48f4dbae133822e0693427295d7caa5f Bluetooth: Always set event mask on suspend
+33ec226df5a5c2c0f32e0e2a6e3a6e1895bd28a5 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+c6e47f24c26b4a6225de3e9e43f31c0baf1f586a ARM: dts: lan966x: fix sys_clk frequency
+4dbc15ccf4b39d499afec637a15c87331c389aef ARM: pxa2xx: Fix GPIO descriptor tables
+0bec126c56677d477d334e0059519b68676ecb77 Revert "ocfs2: mount shared volume without ha stack"
+430f5f6b405a10693a154e6ca59041ed3f4cba7b userfaultfd: provide properly masked address for huge-pages
+0b15954cb3c44c31c36c6baf266fb93e6eade4f8 ntfs: fix use-after-free in ntfs_ucsncmp()
+a8054dd44d09da9b4e3bffccb876c26d66150c70 fs: sendfile handles O_NONBLOCK of out_fd
+dc6501091bf3c7536450ae3d10806942eeec9735 secretmem: fix unhandled fault in truncate
+72338496cd70b5bd3b04d8495cd4de39f49152e8 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
+948e99ff133a66d3876f74eb53eb0013815d2af2 mm: fix page leak with multiple threads mapping the same page
+2862a9bdff8284c0fcd9a19e3bbffad0191451ed mm: fix missing wake-up event for FSDAX pages
+b2753cb18e64336e604a9ea3e87cef3c60d46dd0 hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
+ead69b420125068e6506984744aa540a8510e58a asm-generic: remove a broken and needless ifdef conditional
+c7377b2275426ef2a5bf1eb40fb1f802f66ff5c3 s390/archrandom: prevent CPACF trng invocations in interrupt context
+addeecc9166f0d17cc804c3af690175d09ca9c48 intel_idle: Fix false positive RCU splats due to incorrect hardirqs state
+4573ec9db0148321cd212e2ecbf1997df2a5e78e nouveau/svm: Fix to migrate all requested pages
+c84818c88fa3860145992758766f6e14e826a0db drm/simpledrm: Fix return type of simpledrm_simple_display_pipe_mode_valid()
+246e8a246c2a1b55ba50735ba046cede5c0a5487 watch_queue: Fix missing rcu annotation
+403f4331e5b8e3c4b430bac1601368dc90171574 watch_queue: Fix missing locking in add_watch_to_object()
+06be6db8accbe2f9cc30cb63ebfaf1d4d84075d5 tcp: Fix data-races around sysctl_tcp_dsack.
+1217b72ecab6bc19f218475fd6b5f7d74a280cfd tcp: Fix a data-race around sysctl_tcp_app_win.
+1e2b778d6907ee3282f5c0713177c56ac9eb09a0 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+db78877b55ccd31fa36fa8922ce2fa9f42ba654c tcp: Fix a data-race around sysctl_tcp_frto.
+b865e95342a37eb9f9a1cf3e5ef19563c9c44272 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+8910f2da418b1c292dbff0ddb9872ef449dab4d9 tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
+981b411c46b8b07d03425a144288f6e7853e2901 bridge: Do not send empty IFLA_AF_SPEC attribute
 
---===============2456594679147074322==
+--===============6752913603462961082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-284ffc4b0ca7-db04e388910a.txt
+Content-Disposition: attachment; filename=revlist-db04e388910a-5114999ae4f9.txt
 
-75897fe1cd3d406801b70b0332fdf33b6c3c1716 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-8ce3bca22552811ef32aeb5681134d78ee11e700 ntfs: fix use-after-free in ntfs_ucsncmp()
-3ff5cfb1bc6983d20f6de6315c4a319cff700b48 s390/archrandom: prevent CPACF trng invocations in interrupt context
-63609c7da1d7589c910b01815dee0d0d9a1dfa93 tcp: Fix data-races around sysctl_tcp_dsack.
-2f6d2bf3d1f3ae7ed0f29c61f0ddf3e85b7d4b12 tcp: Fix a data-race around sysctl_tcp_app_win.
-c93ac90506d6952be26484039535c895b4b33048 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-60caf39d623b15995c79b3f5ea75362f0f0842eb tcp: Fix a data-race around sysctl_tcp_frto.
-62bf180728b679b4767204acd5d95115ad6ec151 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-bba38b946f6eb9490796d24c7cbe6b444caac0ce ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
-3006321a12d6b4d4d2f110b0f261c1f153971b9f ice: do not setup vlan for loopback VSI
-484399b53abf12a9128d314aaec2d0c1da21777a scsi: ufs: host: Hold reference returned by of_parse_phandle()
-9bea91f1d6331ccfa25686d75b3d5207c0b45e01 tcp: Fix a data-race around sysctl_tcp_limit_output_bytes.
-b3dea61d93df32aac1168c5b2223a52bf889f880 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
-721098d482e091b9aa1fc2b7c726005d956c8a69 net: ping6: Fix memleak in ipv6_renew_options().
-db04e388910a42e634c351b400baeda78871a043 ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
+a505d943d461c69ff3161f402daf9cfe599625b0 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+cac768cbd1db27a8fcbc42befcfd9a0defd7b60b ntfs: fix use-after-free in ntfs_ucsncmp()
+3d0cf5e61c728622a3a23452b6708d06216d42be s390/archrandom: prevent CPACF trng invocations in interrupt context
+7b3e1195bd96063d22b555fa44097c117f884e28 tcp: Fix data-races around sysctl_tcp_dsack.
+3baf12828f0da7923d356b0f527d94fda19793c1 tcp: Fix a data-race around sysctl_tcp_app_win.
+482f668b18d6bc480078dfe5f8298e08fc66e89d tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+2b10f051a93fe786f9b1f1b874863dbb49f1125e tcp: Fix a data-race around sysctl_tcp_frto.
+c0b95d9383346aabae7a9ebe7cf823faa10c0398 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+ffed1aefba1b6949f6baae2dce9d0f5e42e182da ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
+6206cea51202b488a46456f444a2390ce5be7656 ice: do not setup vlan for loopback VSI
+600f824d9e7b6f0e3298b91d6dbc5b947a83aa7c scsi: ufs: host: Hold reference returned by of_parse_phandle()
+5a6f1af7d5cae045f13061431d512213c42c3c5d tcp: Fix a data-race around sysctl_tcp_limit_output_bytes.
+1f9f521b48c81c1dfbb9667f4adc7fbe190e1df6 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
+70b8e586a6a76d6c5f0d0f864e0aebdb529eee38 net: ping6: Fix memleak in ipv6_renew_options().
+5114999ae4f950208911ce25efd2ed15a8b6b4c3 ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
 
---===============2456594679147074322==--
+--===============6752913603462961082==--
