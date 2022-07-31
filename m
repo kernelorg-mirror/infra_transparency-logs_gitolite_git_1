@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
-Date: Sun, 31 Jul 2022 13:55:37 -0000
-Message-Id: <165927573728.7018.11289890990513390294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
+Date: Sun, 31 Jul 2022 14:00:16 -0000
+Message-Id: <165927601635.10211.14960098769357668040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/backports/backports
-user: hauke
+repo: pub/scm/linux/kernel/git/colyli/mdadm
+user: colyli
 changes:
   - ref: refs/heads/master
-    old: 183c4ab2e3301de5b67b13a6fce8bd8662d0ba8c
-    new: 42a95ce70a79289c8e104d18af46d04781c7073c
+    old: 70f1ff4291b0388adca1f4c91918ce1175e8b360
+    new: 84d969be8f6d8a345b75f558fad26e4f62a558f6
     log: |
-         2873307a70ce5dbfdf641d3cdd206e757b5c6903 patches: Refresh on top of kernel 5.15.58
-         b13dda02bce5254c0e182e99b6abeb5d2522a75f headers: Use backport_sk_error_report(sk) only for functions
-         966cd6757a2541a157ce4a585eec71937a475e05 patches: Avoid using NLA_POLICY_RANGE(NLA_BINARY, ...) in NL80211_ATTR_REG_ALPHA2
-         e554ace3fb41caff8d6b52639ee9678d10a9f769 patches: Add missing include to net/wireless/reg.c
-         20e1d7002d785b35ae80cc8ac7bb19f00451ba15 patches: Add missing include to drivers/net/wireless/ath/wcn36xx/main.c
-         152c9d8005771fac48fb02a948015b8ca370c668 headers: backport IBT / CFI support
-         42a95ce70a79289c8e104d18af46d04781c7073c backports: add QMI helpers
+         42e02e613fb0b4a2c0c0d984b9e6e2933875bb44 mdadm: Fix array size mismatch after grow
+         751757620afb25a4c02746bf8368a7b5f22352ec mdadm: Remove dead code in imsm_fix_size_mismatch
+         c8d1c398505b62d9129a4e711f17e4469f4327ff Monitor: use devname as char array instead of pointer
+         84d969be8f6d8a345b75f558fad26e4f62a558f6 Monitor: use snprintf to fill device name
          
-  - ref: refs/tags/v5.15.58-1
-    old: 0000000000000000000000000000000000000000
-    new: 44d1ebc6404545a0ebfc38bbcb776fc3d6e16f54
