@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 31 Jul 2022 10:51:28 -0000
-Message-Id: <165926468831.7809.10614552517472372665@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7639376130744627130=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 31 Jul 2022 10:55:00 -0000
+Message-Id: <165926490014.9377.10594341027252286715@gitolite.kernel.org>
+
+--===============7639376130744627130==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: f42b356e8c3fb575404c6da33907f35eb6c666a4
-    new: b27eb9eab52b5baeb44d710d91bd8a0b86b66e0b
+  - ref: refs/heads/master
+    old: 922d79b65adf3903fdfa342aca2223d122782673
+    new: 9d529ab74d98b07423c1846a8f6b8395616cdd92
     log: |
-         2d4161acaf881a38ca5eeeb748e27d6bfeba1ad4 habanalabs/gaudi: fix print format for div_sel
-         f685f34334d4e04d9756bf1516795cb12bee69c9 habanalabs/gaudi: read div_sel value from firmware
-         b0746015f8b9a35facb08671c1d5648cb4c0920c habanalabs: fix command submission sanity check
-         3b95745d6e9b3461e52160067e40f36d4523afb5 habanalabs: avoid returning a valid handle if map_block() fails
-         d93707c31eb30e0495b84e64f0efb738a0f614ab habanalabs: fix vma fields assignments order in hl_hw_block_mmap()
-         795b26b042db7bb4a7bba1d3f6be6114a23e6e5e habanalabs: add a missing lock for in_reset indication
-         bab76b4d2686232166043f53501bc50f506fc743 habanalabs/uapi: move defines to better place inside file
-         b27eb9eab52b5baeb44d710d91bd8a0b86b66e0b habanalabs: move common function out of debugfs.c
+         9d529ab74d98b07423c1846a8f6b8395616cdd92 4.9-stable patches
          
+
+--===============7639376130744627130==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659264899 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1659264898-f075ed7eb4f79da727cb9ea5ab6c3c1dfac70437
+
+922d79b65adf3903fdfa342aca2223d122782673 9d529ab74d98b07423c1846a8f6b8395616cdd92 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLmX4MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UZkP/1xJNmNGthXoDoRKN++y
+5w/NvzRDhDada/adcg6zYsHZR39uRjPm7OgJxI2kXpNgbznx5XMXZ5MEuMPHIEzt
+yvqmX8Qzm/M6FAybOX3krLArOEpUq3EzV1J946aNiKR0ERfphJJvffomQg+lqpSX
+0/Pb7ncNhJY0iHBZHrpVHp9BkLKwGM7BJXOBbS9qaH0F10HL+4PMMNJINhTxElLF
+V8ZRgoexX++hb0GkZWtTUllnX1vp89jUpNHVbzPhz2EZlWKnwuk9O0vt/D1x3Q00
+XslMOuOO1iJK47I5RhuEyz2gMAgQ/a82j2YU7V97wjyZXUC9/swOrfZSX8mkdaDq
+pxMZH87u6HEdE8XADkxPqfUHJCdFkWgfqN09LAS4y0vgQ//kznkmI/NzeobOIfWz
+5ptvW7a+kFZ4n6rx1VbjsA4OFWNtatLhQZp4j8lHhBHEeroXEvZcy0mipQCYsGim
+QxT7MN6tVC3Ji1X18nTjJML7zoFCEYpEhVs1vpU1fZAdoTfOiMc2g888yUTSVvCx
+8lPjIU6eH253ABtnPoSlLBxgSDZ5Z3/ICil4M1BOyp4e/rd33oB9TKBnfwNLtri0
+IGhUPCNDu62rWBsgzJVKNMeCA1FmfoaXYQhv4/kiaghv8HotMWrax29zsM2u9fnt
+rVJY+4LLp94+1+JHeqF2+8E8
+=1Iko
+-----END PGP SIGNATURE-----
+
+--===============7639376130744627130==--
