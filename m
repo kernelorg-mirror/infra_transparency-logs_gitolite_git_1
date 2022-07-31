@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8265362008252204005=="
+Content-Type: multipart/mixed; boundary="===============6641667340938723319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sun, 31 Jul 2022 19:05:55 -0000
-Message-Id: <165929435525.24041.8931466051843947632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 31 Jul 2022 20:03:58 -0000
+Message-Id: <165929783856.30400.4935766550571898138@gitolite.kernel.org>
 
---===============8265362008252204005==
+--===============6641667340938723319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 41065bf8138605d15393cce052c77238165392de
-    new: 4c3d2f9388d36eb28640a220a6f908328442d873
-    log: revlist-41065bf81386-4c3d2f9388d3.txt
+  - ref: refs/heads/testing
+    old: 12733896eeaecc940d8e8f62f8b440eaaf401f7b
+    new: e776e5ec0a21cc38f5e853d4dc98845d6e7f76b0
+    log: revlist-12733896eeae-e776e5ec0a21.txt
 
---===============8265362008252204005==
+--===============6641667340938723319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41065bf81386-4c3d2f9388d3.txt
+Content-Disposition: attachment; filename=revlist-12733896eeae-e776e5ec0a21.txt
 
-ded4a2f1ae608772dd95e819f04bbaba1f0e78b1 mac80211: tracing: Use the new __vstring() helper
-b774926c733850037b15c50f893383aa71bd8695 tracing: eprobe: Add missing log index
-f360ea5641dc9473ad485e882c8ac3b1aa2672ff tracing: eprobe: Remove duplicate is_good_name() operation
-95c104c378dc7d4cb3fb9f289dc5354bfc285fe0 tracing: Auto generate event name when creating a group of events
-5db19792f0660ad1ece247829bddd24bb2f8db25 selftests/ftrace: Add test case for GRP/ only input
-f5eab65ff2b76449286d18efc7fee3e0b72f7d9b selftests/kprobe: Do not test for GRP/ without event failures
-fea6ac554d9dea849e2517284b17f99fb9be423a tracing: Add example and documentation for new __vstring() macro
-f71f3ba9b42381c2e52c079a0104e11c30ca4cc2 selftests/kprobe: Update test for no event name syntax error
-730dbb8ddac6b92573658c3cb03555df1bdf95aa USB: mtu3: tracing: Use the new __vstring() helper
-9abc291812d784bd4a26c01af4ebdbf9f2dbf0bb batman-adv: tracing: Use the new __vstring() helper
-3a2dcbaf4d31023106975d6ae75b6df080c454cb tracing: Use a copy of the va_list for __assign_vstr()
-ac6c1b2ca77e722a1e5d651f12f437f2f237e658 ftrace/x86: Add back ftrace_expected assignment
-102227b970a15256f5ffd12a6a276ddf978e6caf rv: Add Runtime Verification (RV) interface
-04acadcb4453cf8011dd3d4ce8d97fecac42d325 rv: Add runtime reactors interface
-09ecd8b8c585c95a3b8dbdec86c15a981fdfeba1 rv/include: Add helper functions for deterministic automata
-792575348ff70e05c6040d02fce38e949ef92c37 rv/include: Add deterministic automata monitor definition via C macros
-cc8e71c81746de1f8a44873015bc963a868eccba rv/include: Add instrumentation helper functions
-ff0aaf671230d409a68fd7400f41e9eb3ac61dd8 Documentation/rv: Add a basic documentation
-e3c9fc78f096b83e81329b213c25fb9a376e373a tools/rv: Add dot2c
-4041b9bbfbcddd239ff2c090f0da43bb3df7818c Documentation/rv: Add deterministic automaton documentation
-24bce201d79807b668bf9d9e0aca801c5c0d5f78 tools/rv: Add dot2k
-d57aff24796f8f784e1f7beed6da3308e5bb13c0 Documentation/rv: Add deterministic automata monitor synthesis documentation
-b6172b5185d4f57f93ef85b7729ee06c5bc0cbe3 Documentation/rv: Add deterministic automata instrumentation documentation
-8812d21219b9c649dd25eb93915e00939944aeb7 rv/monitor: Add the wip monitor skeleton created by dot2k
-10bde81c74863472047f31304064018c40f488ee rv/monitor: Add the wip monitor
-ccc319dcb450d57b7befe924453d06804d83ba73 rv/monitor: Add the wwnr monitor
-135b881ea88566f27dd4acc5d2ed83ad418a3a69 rv/reactor: Add the printk reactor
-e88043c0ac16f19960048372dcffc6df7c05c5b8 rv/reactor: Add the panic reactor
-4c3d2f9388d36eb28640a220a6f908328442d873 tracing: Use a struct alignof to determine trace event field alignment
+fb8ac25ef3c63ad60f22f54e0223bf9c43ea179e iio: Add names for function definition arguments.
+0dc8d9c4a2924e52fc8261cf3938b32a4f0ea8b7 iio: adc: at91-sama5d2_adc: fix AT91_SAMA5D2_MR_TRACKTIM_MAX
+8877548014929d95dbc0d47c50e29742dc48b425 iio: adc: at91-sama5d2_adc: check return status for pressure and touch
+3daf3d2b43c991049139952bd2f62abb3607dc44 iio: adc: at91-sama5d2_adc: lock around oversampling and sample freq
+409018be1292aee6ed032bee449673be7f0bf438 iio: adc: at91-sama5d2_adc: disable/prepare buffer on suspend/resume
+0db48486b5d662437d16ff77e37a237e0fd61198 iio: adc: at91-sama5d2_adc: exit from write_raw() when buffers are enabled
+3cb17993137c926a2c54912611cd971677d17fc9 iio: adc: at91-sama5d2_adc: handle different EMR.OSR for different hw versions
+09c2f31a38d1a7e553612fe7abf64ed2e6b41319 iio: adc: at91-sama5d2_adc: move the check of oversampling in its function
+01a9390bcc75b12d7d242cbffe1e0a4df66cc66e iio: adc: at91-sama5d2_adc: drop AT91_OSR_XSAMPLES defines
+e6a74199729aad15e9e44f4c2d7e9a6ef07859c7 iio: adc: at91-sama5d2_adc: add .read_avail() chan_info ops
+1c890d33c115b6331d8df8c06e46d3fc4e4e9d42 iio: adc: at91-sama5d2_adc: adjust osr based on specific platform data
+f85d335bc548ec3c246a32f31e7ee0edcde4d75f iio: adc: at91-sama5d2_adc: add 64 and 256 oversampling ratio
+48f8f879f3f4a2d3a15fc9cdd3ef4b46198b7863 iio: adc: at91-sama5d2_adc: move oversampling storage in its function
+ddc6db0a988d5aa1f060966f67418a736be1caf1 iio: adc: at91-sama5d2_adc: update trackx on emr
+06af98e856ada039d30ff52d6c552e0e11cbacd4 iio: adc: at91-sama5d2_adc: add startup and tracktim as parameter for at91_adc_setup_samp_freq()
+bc52e4104d3392f10504df072eb26d98d8665441 iio: adc: at91-sama5d2_adc: lock around at91_adc_read_info_raw()
+bcccbd0daa73f6697275adc2efba353bda6f6bb2 dt-bindings: iio: adc: at91-sama5d2_adc: add id for temperature channel
+905f554f48b84d793e6f91a4ed566c8463c55512 iio: adc: at91-sama5d2_adc: add support for temperature sensor
+77818edd39e34938565bcc9cae2d0a96c38baa91 iio: adc: at91-sama5d2_adc: add empty line after functions
+e776e5ec0a21cc38f5e853d4dc98845d6e7f76b0 iio: adc: at91-sama5d2_adc: add runtime pm support
 
---===============8265362008252204005==--
+--===============6641667340938723319==--
