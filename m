@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 31 Jul 2022 14:27:02 -0000
-Message-Id: <165927762282.28167.9977787615528027870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sun, 31 Jul 2022 16:15:50 -0000
+Message-Id: <165928415013.4520.8440314436989008143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/dev
-    old: 4cdfa6ef7aa015cb922af4608e53de0c62638010
-    new: ecce9212d0fd7a2d4a4998f0c4623a66887e14c8
+  - ref: refs/tags/clk-fixes-for-linus
+    old: 9ddbc7c8d41657de19c010e8b095f3cb93264886
+    new: 616f5d1ba93f296c35fc234b0f240aafc95a310e
     log: |
-         ecce9212d0fd7a2d4a4998f0c4623a66887e14c8 erofs: update ctx->pos for every emitted dirent
-         
-  - ref: refs/heads/dev-test
-    old: 4cdfa6ef7aa015cb922af4608e53de0c62638010
-    new: ecce9212d0fd7a2d4a4998f0c4623a66887e14c8
-    log: |
-         ecce9212d0fd7a2d4a4998f0c4623a66887e14c8 erofs: update ctx->pos for every emitted dirent
+         8dc592c41f38735306d1f1dc0b183601379c6d94 clk: sunxi-ng: Fix H6 RTC clock definition
          
