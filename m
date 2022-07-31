@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sun, 31 Jul 2022 21:13:26 -0000
-Message-Id: <165930200658.12921.16240097856742448467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 31 Jul 2022 21:16:38 -0000
+Message-Id: <165930219895.15603.7482129552998722548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 4c3d2f9388d36eb28640a220a6f908328442d873
-    new: 3b513bfde243bace7eb6ff618c0ff6607711bf8e
+  - ref: refs/heads/master
+    old: 334c0ef6429f261c7f53dc035632435ffbc0c60d
+    new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
     log: |
-         b5f37a0b6f667f5c72340ca9dcd7703f261cb981 rtla/utils: Use calloc and check the potential memory allocation failure
-         c7d8a598c5b1e21a0957f5dec2ef4139d2d1a23a rtla: Fix Makefile when called from -C tools/
-         4f753c3be52c1d930afc0fe3169baa605dbaf611 rtla: Fix double free
-         dd0b15bda48f59eb7dee17fab91eda8389f0e98d rtla: Define syscall numbers for riscv
-         3b513bfde243bace7eb6ff618c0ff6607711bf8e Merge branch 'trace/for-next-rtla' into trace/for-next
+         3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
          
+  - ref: refs/tags/v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
