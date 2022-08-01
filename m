@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2471047154231101202=="
+Content-Type: multipart/mixed; boundary="===============3971178658198042694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 01 Aug 2022 21:52:52 -0000
-Message-Id: <165939077273.16779.3912900059793536159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Mon, 01 Aug 2022 21:54:06 -0000
+Message-Id: <165939084602.17296.3015620270099299744@gitolite.kernel.org>
 
---===============2471047154231101202==
+--===============3971178658198042694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: f0105ae57fe7c05fb82b7c0a6416a34051d29a34
-    new: 340682c9ef87a4e56051c5b20cf2d5f99dec4ce1
-    log: revlist-f0105ae57fe7-340682c9ef87.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 352c340c95a4c976be625442d6649894e88d7f2e
+    new: 197390a0e56045aec962acf0b4fde2ec4c2432a1
+    log: |
+         2f3b3200ac389d09135fa42ade45ff23de7ce605 scsi: ufs: dt-bindings: Add SC8280XP binding
+         8f1f7d297bce50d9daea95ca67e1c10aea6c232c scsi: target: iscsi: Add support for extended CDB AHS
+         1e5733883421495908f3b90d9d807663038b4136 scsi: target: iscsi: Support base64 in CHAP
+         e52b904b49273df35766826ce8dfb8cc3dd1ff37 scsi: target: iscsi: Allow AuthMethod=None
+         292cef5e6262e7976dca310ed9c86f135b807bb4 scsi: target: iscsi: Do not require target authentication
+         aaa26e383bfc566eca059dcfe1123338cfc9f659 scsi: ufs: core: Fix spelling mistake "Cannnot" -> "Cannot"
+         241b79b1e964bed8cda8892ac0448721bfe4b55a scsi: ch: Do not initialise statics to 0
+         68126eeb6df6cb53aae4dc450ec20792e1819861 scsi: megaraid: Remove the static variable initialisation
+         8fcdc238ce1b492e1f57a73a2ce4131d63f45397 scsi: target: Remove XDWRITEREAD emulated support
+         
 
---===============2471047154231101202==
+--===============3971178658198042694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0105ae57fe7-340682c9ef87.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3bd52ac87347d093aab2b15d0043004359daf1b4 thermal/of: Rework the thermal device tree initialization
-4fe047703c9f461979599edbb94fbafcb37b90b2 thermal/of: Make new code and old code co-exist
-72bea3d619ecaf5a1713e98966ccb7ee13ae244c thermal/drivers/rockchip: Switch to new of API
-6bebbbf3888afa96afb4fc0e17cabbaed790c912 thermal/drivers/uniphier: Switch to new of API
-7044f2a5305927203830b5e6665f71afe3a9fd7d thermal/drivers/generic-adc: Switch to new of API
-8fe13f2c01e3448837029ec4fba6b5d90554be04 thermal/drivers/mmio: Switch to new of API
-c8f0a0d5fbab9390b1edcfc7483e9f16ccfe25ad thermal/drivers/tegra: Switch to new of API
-b5d4686d16b6852c8d3eedec52385a23870a1de2 thermal/drivers/sun8i: Switch to new of API
-ce25ab0fab5f220fa6ab3bdd9b46fbc24e55f82f thermal/drivers/sprd: Switch to new of API
-c9558f79639c40f042c64f5585526cdad94035c5 thermal/drivers/broadcom: Switch to new of API
-f566e2ca7b48c3fef565218ea9696d87f7531c57 thermal/drivers/qcom: Switch to new of API
-13404b121effa6a69d4c462cdfd2136374fa7278 thermal/drivers/st: Switch to new of API
-ac0309a3bd86f89678d2760ee8892222984d7c71 thermal/drivers/amlogic: Switch to new of API
-08f7195aeaaa1fd9454e388d32b3508a2e15c7f2 thermal/drivers/armada: Switch to new of API
-1edc0b3ad7bd396452262ea3dabc994cf4dd825b thermal/drivers/db8500: Switch to new of API
-6cbd22e896c5a5e1c20d7cab7ed9d2734c2159cc thermal/drivers/imx: Switch to new of API
-5b490936b733ebec4aea7d9856286d1e74e50e5e thermal/drivers/rcar: Switch to new of API
-340857180116f4e23b17e1cc1adbec52ef40a485 thermal/drivers/rzg2l: Switch to new of API
-f184f618c95cd87ad7f457ed533eaeb59aa3846b thermal/drivers/qoriq: Switch to new of API
-c45437f33c35077317561f70cedf33b6fa1bb627 thermal/drivers/mtk: Switch to new of API
-1101a7e3278d2f560c3dbe8bf30cf2434dbf51d9 thermal/drivers/banggap: Switch to new of API
-5a92f314509670a44b0e9035db5c79ff03acf06a thermal/drivers/maxim: Switch to new of API
-436524aaf76e890f106cb6960e8989e28d722cbb thermal/drivers/hisilicon: Switch to new of API
-b0f2a8201e5d9bdf4227916f323c190187ffada8 thermal/drivers/ti-soc: Switch to new of API
-4807e18842fafd66ef432ee4f235b703b5cddc8c ata/drivers/ahci_imx: Switch to new of thermal API
-579497eb35ca6ca2ef881d5386b2ea0ec2ce3e43 hwmon/drivers: Switch to new of thermal API
-990ee4496499ef61c06bbfd1e60fa0d8eb4766c2 iio/drivers/sun4i_gpadc: Switch to new of thermal API
-e65a066530d052fff0a82e899a68243792c7e217 Input: sun4i-ts - switch to new of thermal API
-8378401f81e3208ca36b1d1d979905b94f8d14e9 regulator/drivers/max8976: Switch to new of thermal API
-59e5178d0fe913197fe4f5353ee7d788539abc57 thermal/drivers/samsung: Switch to new of thermal API
-ca8717e053edf37b50e41a1bed6aaf97282cbdcf thermal/core: Move set_trip_temp ops to the sysfs code
-340682c9ef87a4e56051c5b20cf2d5f99dec4ce1 thermal/of: Remove old OF code
+certificate version 0.1
+pusher 75C5DE3D 1659390827 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1659390820-aaf8b4628e3a1de67bf907baca8665bd50a0ffe3
 
---===============2471047154231101202==--
+352c340c95a4c976be625442d6649894e88d7f2e 197390a0e56045aec962acf0b4fde2ec4c2432a1 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmLoS2sACgkQ7ulgGnXF
+3j1r2g/+ITHN/5DUwAlkhhoOdIKgbEmcm6DCiswBYx2W/54oklkodcTYFFE2Kqz6
+0lT5CIBbBjTyoGKVxzvsMoCE/mHRQPV++WTFxx3qZTZAxTxGJcL3Ghq3u8pCVJot
+yjgfDlNW2e0o2kBSOgl/YP7qC/LrYKH/VQWi7UXoFGqq0qPzHbevozBM/f1tcKx3
+KO3u2cblfqIhy1AfZ2+wYn+gP0RJHaZPWibTRKZKM1C9lcuuh9BCOT7PAp5xJeds
+kiQght7w7Zp6oYU0B4P3bDpNl5uS8Gld/3KKBxpc3Jw8DQb5oCptPTSGj6X6mykw
+9f8wjktwXMXOUK4OT/MCKqYKo+iC9RsVOpSwJMjma/Ds7v/Vg6RxCF2/L/qU5Abv
+TiOD6NeFbCq5Q9dlCJoS4F4iDPFI2rl1DuQFqZ80ftVu0j3Cltrs/tWuaNg35Mct
+1fS1pxeXn03gy8tn/zhlTu6brYsHQ7+lwBo71iykkZo5DGCZraPlHGhncPjwQwiq
+/EF8Yi6nFhDWYVRZhQxCLM6ryfWtFLr2pmfbqG+FSdq9seLf4FjxiK5RUmcobX2X
+/fAPbffGMZBg6eXFRbz/gEdyBgoLZ1Ul2vTtIWR1q3Cxqj51AZiHpXzz75XwK3Bt
+L2wSkfyWYgtBxTV4UgwTTiSo4HvhvqwLBRoUIbBfAYRsP3eQZaY=
+=4eeI
+-----END PGP SIGNATURE-----
+
+--===============3971178658198042694==--
