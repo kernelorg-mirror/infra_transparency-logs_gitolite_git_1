@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7091549460377083328=="
+Content-Type: multipart/mixed; boundary="===============5792197278571110848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 01 Aug 2022 16:49:13 -0000
-Message-Id: <165937255344.30437.8419448295190413972@gitolite.kernel.org>
+Date: Mon, 01 Aug 2022 16:49:40 -0000
+Message-Id: <165937258039.30629.515013562598623988@gitolite.kernel.org>
 
---===============7091549460377083328==
+--===============5792197278571110848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 89e9d1535de6f675c4947130449e2ed72b8364e6
+  - ref: refs/heads/next
+    old: 1679eb4a6194649e48d729f9e53eb47f9b6a8fdb
     new: 195b1d8a3f6d3239c815777e9aba149063639f15
-    log: revlist-89e9d1535de6-195b1d8a3f6d.txt
+    log: revlist-1679eb4a6194-195b1d8a3f6d.txt
 
---===============7091549460377083328==
+--===============5792197278571110848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89e9d1535de6-195b1d8a3f6d.txt
+Content-Disposition: attachment; filename=revlist-1679eb4a6194-195b1d8a3f6d.txt
 
 f85daf0e725358be78dfd208dea5fd665d8cb901 xfrm: xfrm_policy: fix a possible double xfrm_pols_put() in xfrm_bundle_lookup()
 16bc4d196b2a8960cac3bdfd4c98d72c44ab043b arm64: dts: rockchip: Fix ethernet on production Quartz64-B
@@ -950,4 +950,4 @@ dac94df2c88afc4cbcfb1e02e4ddf63a1e79d616 tpm: Add tpm_tis_i2c backend for tpm_ti
 db197ccd21c61a7d23815441c4d5cfe18274494d tpm: eventlog: Fix section mismatch for DEBUG_SECTION_MISMATCH
 195b1d8a3f6d3239c815777e9aba149063639f15 tpm: Add check for Failure mode for TPM2 modules
 
---===============7091549460377083328==--
+--===============5792197278571110848==--
