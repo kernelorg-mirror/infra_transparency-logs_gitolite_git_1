@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7238240037526513322=="
+Content-Type: multipart/mixed; boundary="===============5713639816148501560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 01 Aug 2022 20:24:29 -0000
-Message-Id: <165938546994.19367.6228367999523034913@gitolite.kernel.org>
+Date: Mon, 01 Aug 2022 20:25:20 -0000
+Message-Id: <165938552090.22486.2879419402239940298@gitolite.kernel.org>
 
---===============7238240037526513322==
+--===============5713639816148501560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/helgaas/pci
 user: helgaas
 changes:
-  - ref: refs/heads/pci/ctrl/dwc
-    old: 749b3beb37180a96011637ebbb8c10637e60b48e
-    new: 91a773f9986b5cb4d6a6610b0326ef7c472dd543
-    log: revlist-749b3beb3718-91a773f9986b.txt
+  - ref: refs/heads/pci/ctrl/exynos
+    old: 884115d62d08e9b3c79a3fd234d83234e5c6ffe1
+    new: 22f3571cbc84b9150238a43d271ffbf7fad3d81d
+    log: revlist-884115d62d08-22f3571cbc84.txt
 
---===============7238240037526513322==
+--===============5713639816148501560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-749b3beb3718-91a773f9986b.txt
+Content-Disposition: attachment; filename=revlist-884115d62d08-22f3571cbc84.txt
 
 14c4ad125cf94ba226556dd5cffbd00c6482c6bd PCI: dwc: Log link speed and width if it comes up
 e3dc79adfac96d7b1a62f3f27004c3f9013875bc PCI: dwc: Detect iATU settings after getting "addr_space" resource
@@ -47,5 +47,7 @@ ce06bf570390fb8b41d581e5d594727b51367179 PCI: dwc: Check iATU in/outbound range 
 db388348acffe954656ec38440809ec770707417 PCI: dwc: Convert struct pcie_port.msi_irq to an array
 cd761378e62c2614a3e7a1a8e4ecf68503a2c877 PCI: dwc: Handle MSIs routed to multiple GIC interrupts
 91a773f9986b5cb4d6a6610b0326ef7c472dd543 dt-bindings: PCI: qcom: Support additional MSI vectors
+f2812227bb07e2eaee74253f11cea1576945df31 phy: samsung: phy-exynos-pcie: sanitize init/power_on callbacks
+22f3571cbc84b9150238a43d271ffbf7fad3d81d PCI: exynos: Correct generic PHY usage
 
---===============7238240037526513322==--
+--===============5713639816148501560==--
