@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2354408876853691814=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 01 Aug 2022 11:16:33 -0000
-Message-Id: <165935259398.20954.3638906693131540654@gitolite.kernel.org>
-
---===============2354408876853691814==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 01 Aug 2022 11:16:47 -0000
+Message-Id: <165935260719.21110.7877964723451831754@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/master
-    old: 71dd5aac99db0eac6bff4a8dfbeebc96df0d320f
-    new: d0621054d53ac269d5523d8627c1e27cfb64085c
+  - ref: refs/heads/arm64/stacktrace/rework-cleanup
+    old: c63ebf39757919697cf386963af52c6281b7fbe2
+    new: 6d73dd62a4644f72f50d3ecabec8f5ba070a0de6
     log: |
-         d0621054d53ac269d5523d8627c1e27cfb64085c add acked-by to crypto patch
+         f9ef6112b1bc7c68b3d64f57c19f6bd82c0fdb26 arm64: stacktrace: simplify unwind_next_common()
+         2b59ae0cec6b44ab31516592545491d4b772317e arm64: stacktrace: rename unwind_next_common() -> unwind_next_frame_record()
+         d7ef6bd774acf59abfb3e15f2b5b12ddeb642ed5 arm64: stacktrace: move SDEI stack helpers to stacktrace code
+         9d4994123a3cb971e628a78e13f33e6337b01b10 arm64: stacktrace: add stackinfo_on_stack() helper
+         c22770383f62d683bbabd087b951a86defe59b22 arm64: stacktrace: rework stack boundary discovery
+         52473a5901eb8249ab00da4f1c4d3da2a366061a arm64: stacktrace: remove stack type from fp translator
+         309028efafd6f1f09a2e77dd18c2aa0e6e6b80af arm64: stacktrace: track all stack boundaries explicitly
+         6d73dd62a4644f72f50d3ecabec8f5ba070a0de6 arm64: stacktrace: track hyp stacks in kernel VA space
          
-
---===============2354408876853691814==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659352593 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1659352592-c700673f5e6443b409c77ba70ebcb3cb9a505bc4
-
-71dd5aac99db0eac6bff4a8dfbeebc96df0d320f d0621054d53ac269d5523d8627c1e27cfb64085c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLnthEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NNwP/2Bs8G2s8O6/wEkqGSYV
-aFrI3rW+lCvARltSu85G7f76WyFEKeVoXNxFhBue3gKewxe46BdZTNXBATBoq/iD
-Cetb7nBy/xJzuTAVXX/tES9t0mgRrksPJYWUBCPAUIm/xr/uQqc555AlaqNLnlLJ
-BXo7Ervr6D3KDBzpPiF6xPQi61AKymiI8Kd//EU4iqFIvcdL3Lj2hkx7inDlS7t+
-bjkYK4ZGI649TdMylsTr4zSGTTiYkvgg2nC4GPd38zWHeIZKdh524KEuQhIL+9Fp
-/rxTThqeUpq4QspQiPu2oKMHSWpdOBia0vxfBoun5K+VfbT7RiGDu9U7pgmpCmV7
-PLLynaYOXMA7IlgJnt3njaGS4J6vtHoyfgPAngA8VagqznEhXtEl7pn2s0NGh7PG
-yv3QeucgRzsxWWPJgyds3b4+2kDmAzByiiU8tZoWjpqFGHizqw0No18P2wxQ8oKW
-C279fk0/90aqa2eGp96Uc2N1HvILFNa7CQdjjUDPWteFJ/Bu4MK6Hav4qC1Z3RBV
-Ci+nEnfrpxbM7o6oPO/U4TlpTHg08G0b7JfXiu7n43WDffrJFIpMxJs7u24mPLTA
-esyxQmf1lZa31KRf9bExNaMmkZ/pNTDZgNVv40zkZhXNJ9OoP1vv6xd/4yCM3iX0
-j+TPOqBdE05i/lGTxkz8zffO
-=zwxk
------END PGP SIGNATURE-----
-
---===============2354408876853691814==--
