@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2472174960338787624=="
+Content-Type: multipart/mixed; boundary="===============0005654390883519362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 01 Aug 2022 16:42:21 -0000
-Message-Id: <165937214174.25468.1675075047954545773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 01 Aug 2022 16:42:28 -0000
+Message-Id: <165937214884.25600.8942755959380893513@gitolite.kernel.org>
 
---===============2472174960338787624==
+--===============0005654390883519362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: a4d1625cd46acb9aa6606c040e07aa94839b9205
-    new: 328c63cbb9a1012d57bd79a4c2b55770c7714076
-    log: revlist-a4d1625cd46a-328c63cbb9a1.txt
+    old: 810c0dae8b16bc078593e691d621fe277885ba10
+    new: 036b5c52095349c4fba6c8c7ef51e61e7a0162e4
+    log: revlist-810c0dae8b16-036b5c520953.txt
 
---===============2472174960338787624==
+--===============0005654390883519362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4d1625cd46a-328c63cbb9a1.txt
+Content-Disposition: attachment; filename=revlist-810c0dae8b16-036b5c520953.txt
 
 e53bcffad0326c1ef4b4baec4262b5343e420c44 xfs: don't hold xattr leaf buffers across transaction rolls
 8944c6fb8add384154b784a90ceca88a51a8c364 xfs: dont treat rt extents beyond EOF as eofblocks to be cleared
@@ -1049,6 +1049,6 @@ cd2715b7929bcaf6e38d13ac512e0a9bba8df10d Merge tag 'edac_urgent_for_v5.19' of gi
 89caf575400a9296e45b7de97b07d2fbf249c1f5 Merge tag 'x86_urgent_for_v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 334c0ef6429f261c7f53dc035632435ffbc0c60d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
-328c63cbb9a1012d57bd79a4c2b55770c7714076 lsm: add a LSM specific README.md and SECURITY.md
+036b5c52095349c4fba6c8c7ef51e61e7a0162e4 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============2472174960338787624==--
+--===============0005654390883519362==--
