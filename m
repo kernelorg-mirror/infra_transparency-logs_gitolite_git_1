@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 01 Aug 2022 19:23:02 -0000
-Message-Id: <165938178290.9227.11158632202846955531@gitolite.kernel.org>
+Date: Mon, 01 Aug 2022 19:27:24 -0000
+Message-Id: <165938204457.13598.3801768061858501059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 45490ce2ff833c4ec0de66705e46ba41320860cb
-    new: 4ff7c8fc81cec31c852833b00afe9c85f9086b5d
+    old: 4ff7c8fc81cec31c852833b00afe9c85f9086b5d
+    new: 2e8f205d910eb1fc59faf24582f3faf774000360
     log: |
-         4ff7c8fc81cec31c852833b00afe9c85f9086b5d Documentation: devlink: add add devlink-selftests to the table of contents
+         062cf5ebc2e8ca8afb9908072493dea314f62862 net: dsa: Fix spelling mistakes and cleanup code
+         2e8f205d910eb1fc59faf24582f3faf774000360 net: txgbe: Fix an error handling path in txgbe_probe()
          
