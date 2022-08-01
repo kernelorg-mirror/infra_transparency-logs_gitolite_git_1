@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0479075614349249733=="
+Content-Type: multipart/mixed; boundary="===============7920790236146392462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 01 Aug 2022 01:07:44 -0000
-Message-Id: <165931606471.12382.11767572392051722661@gitolite.kernel.org>
+Date: Mon, 01 Aug 2022 01:14:44 -0000
+Message-Id: <165931648402.16987.5779116336966473485@gitolite.kernel.org>
 
---===============0479075614349249733==
+--===============7920790236146392462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 68e77ffbfd06ae3ef8f2abf1c3b971383c866983
-    new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
-    log: revlist-68e77ffbfd06-3d7cb6b04c3f.txt
+  - ref: refs/heads/dev
+    old: 523aa19e500adc22380b26bf996d77a83e2b778c
+    new: df13a3477635414f243d53344bb4b510385e994d
+    log: revlist-523aa19e500a-df13a3477635.txt
 
---===============0479075614349249733==
+--===============7920790236146392462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e77ffbfd06-3d7cb6b04c3f.txt
+Content-Disposition: attachment; filename=revlist-523aa19e500a-df13a3477635.txt
 
 c3b821e8e406d5650e587b7ac624ac24e9b780a8 pinctrl: ralink: Check for null return of devm_kcalloc
 acf50233fc979b566e3b87d329191dcd01e2a72c pinctrl: sunplus: Add check for kcalloc
@@ -274,5 +274,14 @@ cd2715b7929bcaf6e38d13ac512e0a9bba8df10d Merge tag 'edac_urgent_for_v5.19' of gi
 89caf575400a9296e45b7de97b07d2fbf249c1f5 Merge tag 'x86_urgent_for_v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 334c0ef6429f261c7f53dc035632435ffbc0c60d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
+23e6e1c9b373c164bf25d89c901eed2ac0d898a1 exfat: reuse __exfat_write_inode() to update directory entry
+4493895b2bdcca135a8e7c1384deaa35316e8e22 exfat: remove duplicate write inode for truncating file
+be17b1ccd4e82a66b9d9676dec8edce137e967d8 exfat: remove duplicate write inode for extending dir/file
+86da53e8ff5dcfbbbd345edc0caef7d21ce567ae exfat: Return ENAMETOOLONG consistently for oversized paths
+1b1a9195ae962fefd8d0785e0af434de1a3447fd exfat: Define NLS_NAME_* as bit flags explicitly
+6425baabda21748daacc2141169e07e4c2644497 exfat: Expand exfat_err() and co directly to pr_*() macro
+64fca6e621715fde548ad1a96ac5e6a2f586763a exfat: Downgrade ENAMETOOLONG error message to debug messages
+512b74d17a93ae580171258a32590b5a4fee5866 exfat: Drop superfluous new line for error messages
+df13a3477635414f243d53344bb4b510385e994d MAINTAINERS: Add Namjae's exfat git tree
 
---===============0479075614349249733==--
+--===============7920790236146392462==--
