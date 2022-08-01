@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2614951149553831641=="
+Content-Type: multipart/mixed; boundary="===============6246686558595219647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
 Date: Mon, 01 Aug 2022 17:47:27 -0000
-Message-Id: <165937604723.7266.12380078067385939768@gitolite.kernel.org>
+Message-Id: <165937604799.7310.7925433083562889745@gitolite.kernel.org>
 
---===============2614951149553831641==
+--===============6246686558595219647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
     log: revlist-f2906aa86338-3d7cb6b04c3f.txt
 
---===============2614951149553831641==
+--===============6246686558595219647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cd2715b7929bcaf6e38d13ac512e0a9bba8df10d Merge tag 'edac_urgent_for_v5.19' of gi
 334c0ef6429f261c7f53dc035632435ffbc0c60d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
 
---===============2614951149553831641==--
+--===============6246686558595219647==--
