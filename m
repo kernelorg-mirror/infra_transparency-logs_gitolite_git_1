@@ -1,24 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 01 Aug 2022 11:44:16 -0000
-Message-Id: <165935425679.8110.7913156155110110@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7772246625949861426=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Mon, 01 Aug 2022 11:46:47 -0000
+Message-Id: <165935440757.10572.7243418014206747274@gitolite.kernel.org>
+
+--===============7772246625949861426==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64/stacktrace/rework-cleanup
-    old: 6d73dd62a4644f72f50d3ecabec8f5ba070a0de6
-    new: 48a911b6ef86b880b925132489d8b0137f40d986
+  - ref: refs/heads/next
+    old: c4edb2babc750d829cb551a6af7cb39b2afc9fb5
+    new: 31f6e3832a0f1c366e54033335aed2375f6e447a
     log: |
-         334901c5dc54b3ee3c59803d4451b07235fac65a arm64: stacktrace: move SDEI stack helpers to stacktrace code
-         5da45edc8e43991f815dfd02064f2ab47977d56c arm64: stacktrace: add stackinfo_on_stack() helper
-         66b196757ceb13e4012820f07ede15e6b6b1b6b5 arm64: stacktrace: rework stack boundary discovery
-         523e2b06ccab49ecb14b0fc28427eefc9115a82c arm64: stacktrace: remove stack type from fp translator
-         f9d8638b622ca62b2bfeb338a4a4ffba5a27ba58 arm64: stacktrace: track all stack boundaries explicitly
-         48a911b6ef86b880b925132489d8b0137f40d986 arm64: stacktrace: track hyp stacks in unwinder's address space
+         31f6e3832a0f1c366e54033335aed2375f6e447a KVM: x86/mmu: remove unused variable
          
+  - ref: refs/tags/for-linus
+    old: 63f12d5bd4b6a901237a44f5fcdf6c92f99a7d75
+    new: 2fd4dd06678e650eafb9b22119ddb483d770c9ba
+    log: |
+         31f6e3832a0f1c366e54033335aed2375f6e447a KVM: x86/mmu: remove unused variable
+         
+
+--===============7772246625949861426==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1659354404 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1659354404-1f60100c02ff81faa628808d8492f7e6e760b98e
+
+c4edb2babc750d829cb551a6af7cb39b2afc9fb5 31f6e3832a0f1c366e54033335aed2375f6e447a refs/heads/next
+63f12d5bd4b6a901237a44f5fcdf6c92f99a7d75 2fd4dd06678e650eafb9b22119ddb483d770c9ba refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmLnvSUUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroO13wgAnJaduXkitSl5ToJ+K/swcbLenOEf
+WdHyuSYzBzi65QmU5T5cFXIdcsUuCIf7XRKf8Kda2LstFbTm+BIQeyR4JA5TlDpn
+yPjhAvY8xOh+BhHYaPTVDc96tQ7S6ZBqF4CBJ6dlp+HO4vghIKWZ4quaaCQyZCTv
+yapPGFG/g6MLDW5rrHUSjISWvvEQUT7Yf0ld821qryIsiXfMDIrJ0MZfSusNYd2Z
+ByELvGrz/5Hf1AgGq/CYEJ37QmErhffq2Ocpprfq/Y3EyVk8j4a3jOt4ApbdKgwV
+nwWH2dnU7DP7Q770mAJs46N/C9jCSdLudFjdX1QwmKQQFez0IGWHrLmwZQ==
+=2vZr
+-----END PGP SIGNATURE-----
+
+--===============7772246625949861426==--
