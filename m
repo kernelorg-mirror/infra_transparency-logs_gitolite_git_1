@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 02 Aug 2022 19:41:56 -0000
-Message-Id: <165946931616.625.6129156982944287590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 02 Aug 2022 19:46:20 -0000
+Message-Id: <165946958008.3883.6500106268193959214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: cb42377ae002c52ea436718aa99007bb8659f83a
-    new: a65ddf710584f2b3dad04fb5e3d725ba340ea1ef
+  - ref: refs/heads/sched/core
+    old: b3f53daacc74c0ca0922e14a8cb793cb2db4c6d1
+    new: 0f03d6805bfc454279169a1460abb3f6b3db317f
     log: |
-         d06b4a6b74d4da0b997c981e1d506bf051f1a84d device: Fix not auto-connecting profile
-         7adb3aa7efc3d70381c411c031f579ff63786994 device: Add btd_ prefix to device_is_trusted
-         a65ddf710584f2b3dad04fb5e3d725ba340ea1ef sixaxis: Fix fliping device.trusted automatically
+         0f03d6805bfc454279169a1460abb3f6b3db317f sched/debug: Print each field value left-aligned in sched_show_task()
          
