@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Tue, 02 Aug 2022 18:17:58 -0000
-Message-Id: <165946427823.6539.10442915873429186365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Tue, 02 Aug 2022 18:19:17 -0000
+Message-Id: <165946435751.7069.4003657667871862342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
-user: deller
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 4396b7cb82a35cb0c31df6dc00b1ef62e6b7d900
-    new: 01d9d5c44194976517589d2af6eb0434e4ca65dc
-    log: |
-         01d9d5c44194976517589d2af6eb0434e4ca65dc ipl: Enhance "list partition" menu entry option
-         
+  - ref: refs/tags/integrity-v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 6f2a6275cd74a1e9a93ba966edf478d89acd078f
