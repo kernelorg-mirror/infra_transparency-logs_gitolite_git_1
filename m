@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 02 Aug 2022 19:27:10 -0000
-Message-Id: <165946843088.23686.11030775777532415618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 02 Aug 2022 19:41:56 -0000
+Message-Id: <165946931616.625.6129156982944287590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/tags/for-linus-2022080201
-    old: 0000000000000000000000000000000000000000
-    new: d9da9143e534ea5d814fcea082d715ad205c4c14
+  - ref: refs/heads/master
+    old: cb42377ae002c52ea436718aa99007bb8659f83a
+    new: a65ddf710584f2b3dad04fb5e3d725ba340ea1ef
+    log: |
+         d06b4a6b74d4da0b997c981e1d506bf051f1a84d device: Fix not auto-connecting profile
+         7adb3aa7efc3d70381c411c031f579ff63786994 device: Add btd_ prefix to device_is_trusted
+         a65ddf710584f2b3dad04fb5e3d725ba340ea1ef sixaxis: Fix fliping device.trusted automatically
+         
