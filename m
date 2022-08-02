@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1587633170130738502=="
+Content-Type: multipart/mixed; boundary="===============0651240680541852168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 02 Aug 2022 09:14:52 -0000
-Message-Id: <165943169219.4594.10573640346333824021@gitolite.kernel.org>
+Date: Tue, 02 Aug 2022 09:15:32 -0000
+Message-Id: <165943173248.6460.11265555802450414509@gitolite.kernel.org>
 
---===============1587633170130738502==
+--===============0651240680541852168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: c3fdc66620f19493dc0cc6f9ace131463aa0f8ad
-    new: 7020c0a364011a98a9d6cfb0cd85dfdb8361f243
-    log: revlist-c3fdc66620f1-7020c0a36401.txt
+    new: ad2afa0c65e248eff7425fc090c9af86c6000f4e
+    log: revlist-c3fdc66620f1-ad2afa0c65e2.txt
+  - ref: refs/heads/master
+    old: 7020c0a364011a98a9d6cfb0cd85dfdb8361f243
+    new: ad2afa0c65e248eff7425fc090c9af86c6000f4e
+    log: |
+         ad2afa0c65e248eff7425fc090c9af86c6000f4e Merge branch into tip/master: 'x86/sgx'
+         
 
---===============1587633170130738502==
+--===============0651240680541852168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3fdc66620f1-7020c0a36401.txt
+Content-Disposition: attachment; filename=revlist-c3fdc66620f1-ad2afa0c65e2.txt
 
 efae7404e16a897fba089f83e132229e96825d83 m68k: virt: Kconfig minor fixes
 c4738fa76cba0ed81aab86a78e00506a89ae211c m68k: mac: Fix typos in comments
@@ -298,6 +304,6 @@ b167fdffe9e737007cbf7c691cde5fa489ca58d7 Merge tag 'sched-core-2022-08-01' of gi
 63e6053add5a6cec4dbfa3dec12e0d4439daac4a Merge tag 'perf-core-2022-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dfea84827f7eb49ca41d837d92ac1cbd5353a742 Merge tag 'timers-core-2022-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9de1f9c8ca5100a02a2e271bdbde36202e251b4b Merge tag 'irq-core-2022-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7020c0a364011a98a9d6cfb0cd85dfdb8361f243 Merge branch 'linus'
+ad2afa0c65e248eff7425fc090c9af86c6000f4e Merge branch into tip/master: 'x86/sgx'
 
---===============1587633170130738502==--
+--===============0651240680541852168==--
