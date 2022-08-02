@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 02 Aug 2022 17:10:30 -0000
-Message-Id: <165946023071.25388.6709180640829649285@gitolite.kernel.org>
+Date: Tue, 02 Aug 2022 17:10:40 -0000
+Message-Id: <165946024078.25494.3947082292143201568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: d52deeaf186144a56c400031a3de8e8d36c2ad26
+  - ref: refs/heads/for-next
+    old: ebd9902724a993ee0cde62f0b862c39128b0a8b0
     new: da9ba8dc2bec7b0455e82f534598a58b1ceeac92
     log: |
          154dc4dd45e48e8e57f4944582cb4189b1e0b2a2 Makefile.extrawarn: re-enable -Wformat for clang
