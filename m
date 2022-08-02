@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 02 Aug 2022 15:48:06 -0000
-Message-Id: <165945528688.31330.4871466160101519628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 02 Aug 2022 15:48:34 -0000
+Message-Id: <165945531442.31561.15697539379688882021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 340682c9ef87a4e56051c5b20cf2d5f99dec4ce1
-    new: efc4a0892038ec30b6c484b66978b72ab57d8c98
+  - ref: refs/heads/master
+    old: e76e7c4fe99bb29d88af7bad1f750a94ba932629
+    new: e07fc6ee76bb6bf456c34722f283cbb0194c24f8
     log: |
-         ff4a392f9649b4e49fbfcfc6cb752a838838700f hwmon/drivers/pm_bus: Switch to new of thermal API
-         9cb628f0efafe62d4ddd76fd6571a73b81c85640 thermal/drivers/st: Hot fix compilation old OF
-         efc4a0892038ec30b6c484b66978b72ab57d8c98 drivers/thermal/exynos: Hot fix compilation on exynos_tmu
+         e07fc6ee76bb6bf456c34722f283cbb0194c24f8 spufs.7: ffix
          
