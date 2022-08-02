@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 02 Aug 2022 02:05:46 -0000
-Message-Id: <165940594656.2994.1480272971288917969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 02 Aug 2022 02:58:19 -0000
+Message-Id: <165940909931.5968.13768241931795347122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/dev
-    old: 3dcf6043170b475ccf8a3f46bfb47770a8bc3559
-    new: d9dcb3a327e5d1a56ac915fe2a9fee02c75f50c6
+  - ref: refs/heads/misc
+    old: 71b25693b22ebb9391b27f011d3f4bf9762e24f9
+    new: 8fcdc238ce1b492e1f57a73a2ce4131d63f45397
     log: |
-         adf760ea9bff06cb980e17a360d246e428f8da4d rcu: Add full-sized polling for get_completed*() and poll_state*()
-         56a309dd5020fc7e98dfd1eddab59314413035d9 rcu: Add full-sized polling for get_state()
-         cccd99b4344f43b26721dbb8a0026681bc88df9d rcutorture: Abstract synchronous and polled API testing
-         f8c9027f9c81be92344996a51babaa5a23bd88db rcutorture: Use the barrier operation specified by cur_ops
-         96e4957a3a4a8ea4ebf7aaca51a1fe075b44b7e3 rcutorture: Allow per-RCU-flavor polled double-GP check
-         c70793b0d23817a1356b22d86e9b8172ae524d5e rcutorture: Verify RCU reader prevents full polling from completing
-         d9dcb3a327e5d1a56ac915fe2a9fee02c75f50c6 fixup! rcu: Add full-sized polling for get_state()
+         2f3b3200ac389d09135fa42ade45ff23de7ce605 scsi: ufs: dt-bindings: Add SC8280XP binding
+         8f1f7d297bce50d9daea95ca67e1c10aea6c232c scsi: target: iscsi: Add support for extended CDB AHS
+         1e5733883421495908f3b90d9d807663038b4136 scsi: target: iscsi: Support base64 in CHAP
+         e52b904b49273df35766826ce8dfb8cc3dd1ff37 scsi: target: iscsi: Allow AuthMethod=None
+         292cef5e6262e7976dca310ed9c86f135b807bb4 scsi: target: iscsi: Do not require target authentication
+         aaa26e383bfc566eca059dcfe1123338cfc9f659 scsi: ufs: core: Fix spelling mistake "Cannnot" -> "Cannot"
+         241b79b1e964bed8cda8892ac0448721bfe4b55a scsi: ch: Do not initialise statics to 0
+         68126eeb6df6cb53aae4dc450ec20792e1819861 scsi: megaraid: Remove the static variable initialisation
+         8fcdc238ce1b492e1f57a73a2ce4131d63f45397 scsi: target: Remove XDWRITEREAD emulated support
          
-  - ref: refs/heads/dev.2022.07.21a
-    old: 0000000000000000000000000000000000000000
-    new: 3dcf6043170b475ccf8a3f46bfb47770a8bc3559
