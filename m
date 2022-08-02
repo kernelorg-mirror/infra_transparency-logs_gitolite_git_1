@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 02 Aug 2022 12:36:52 -0000
-Message-Id: <165944381267.28926.16342124171128858322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Tue, 02 Aug 2022 12:45:30 -0000
+Message-Id: <165944433092.2578.17607936874590143450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
 user: zx2c4
 changes:
-  - ref: refs/heads/jd/vdso
-    old: df25eaf98ae4f8d4b536811d20c7ee7159c1920a
-    new: 29d7baa1e13b4304df93126e0c8baf56584b720a
+  - ref: refs/heads/stable
+    old: 2753435f7b5f0ae8e0635eff95738d1f76c2d376
+    new: d863a7763be4ad6d91362beec172cef4c3130f9b
     log: |
-         29d7baa1e13b4304df93126e0c8baf56584b720a random: implement getrandom() in vDSO
+         d863a7763be4ad6d91362beec172cef4c3130f9b wireguard: selftests: support UML
          
