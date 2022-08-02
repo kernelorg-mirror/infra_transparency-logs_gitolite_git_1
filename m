@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5588332639756995929=="
+Content-Type: multipart/mixed; boundary="===============7204130022768784630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Tue, 02 Aug 2022 22:58:32 -0000
-Message-Id: <165948111225.7738.2545937652454493687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Tue, 02 Aug 2022 23:05:12 -0000
+Message-Id: <165948151274.13122.17626955664275996729@gitolite.kernel.org>
 
---===============5588332639756995929==
+--===============7204130022768784630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
 user: dlemoal
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 569bede0cff5e98c0f862d486406b79dcada8eea
     log: revlist-32346491ddf2-569bede0cff5.txt
 
---===============5588332639756995929==
+--===============7204130022768784630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ea7099d5229c0fe9f9302b03a246e15e78b87011 Merge tag 'Smack-for-6.0' of https://gi
 043402495deb5ccc3b3479dc69a03f990c41ea8d Merge tag 'integrity-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 569bede0cff5e98c0f862d486406b79dcada8eea Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 
---===============5588332639756995929==--
+--===============7204130022768784630==--
