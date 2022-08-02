@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 02 Aug 2022 16:20:05 -0000
-Message-Id: <165945720534.22154.13638769098461888347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 02 Aug 2022 16:25:07 -0000
+Message-Id: <165945750728.25870.12010727705233293136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: f4c3278a7be4288f7d483b71ad1c435ea95eb30d
-    new: 6b87d3e7e27eb45eab9fa172be4631b9574f51ae
+    old: 55037c4839c65612fa388ae937e63661d8192ed9
+    new: 7006d70c7c8b9a39cf3dfdd839d1975295c10527
     log: |
-         6b87d3e7e27eb45eab9fa172be4631b9574f51ae netdev: Add logging for CQM messages
+         4b9e13dc27fb240c0cca67d37056f08401c51abe t/io_uring: support NUMA placement
+         7006d70c7c8b9a39cf3dfdd839d1975295c10527 Merge branch 'io_uring-numa'
          
