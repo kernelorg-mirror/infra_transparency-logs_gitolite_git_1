@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 02 Aug 2022 19:57:33 -0000
-Message-Id: <165947025363.12349.10376872306997402759@gitolite.kernel.org>
+Date: Tue, 02 Aug 2022 20:08:36 -0000
+Message-Id: <165947091695.19128.3301375568923639818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 9287df8a19e27a86bf1992e4deb7942a07cd8ce6
-    new: 19b8e8d83db5bf4c9990fb9ab02bcb2b234951a3
+  - ref: refs/heads/perf/urgent
+    old: dec8784c9088b131a1523f582c2194cfc8107dc0
+    new: a41a2e2e34a907bd8979a53c58f44287630616e8
     log: |
-         d171011e6adad135eaced630dce26cac9a174037 selftests: futex: Fix 'the the' typo in comment
-         19b8e8d83db5bf4c9990fb9ab02bcb2b234951a3 Merge branch into tip/master: 'locking/core'
+         b6a5068854cfe372da7dee3224dcf023ed5b00cb scripts/faddr2line: Fix vmlinux detection on arm64
+         a41a2e2e34a907bd8979a53c58f44287630616e8 scripts/faddr2line: Add CONFIG_DEBUG_INFO check
          
