@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8470157439249484638=="
+Content-Type: multipart/mixed; boundary="===============2079869257260803281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 03 Aug 2022 17:47:26 -0000
-Message-Id: <165954884696.23183.4837996572614199546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 03 Aug 2022 17:54:42 -0000
+Message-Id: <165954928226.27390.8840866648863999023@gitolite.kernel.org>
 
---===============8470157439249484638==
+--===============2079869257260803281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: e2b542100719a93f8cdf6d90185410d38a57a4c1
     new: f00654007fe1c154dafbdc1f5953c132e8c27c38
     log: revlist-e2b542100719-f00654007fe1.txt
 
---===============8470157439249484638==
+--===============2079869257260803281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -118,4 +118,4 @@ b6bb70f9ab80a11161252bf217993d2c40ea5eb2 Merge tag 'cgroup-for-5.20' of git://gi
 e087437a6fef3acc11aaa1ade84731fe1571b808 Merge tag 'xarray-6.0' of git://git.infradead.org/users/willy/xarray
 f00654007fe1c154dafbdc1f5953c132e8c27c38 Merge tag 'folio-6.0' of git://git.infradead.org/users/willy/pagecache
 
---===============8470157439249484638==--
+--===============2079869257260803281==--
