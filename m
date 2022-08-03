@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6367545550264504734=="
+Content-Type: multipart/mixed; boundary="===============1947692532709368169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 03 Aug 2022 12:03:28 -0000
-Message-Id: <165952820850.14260.16287843319695418647@gitolite.kernel.org>
+Date: Wed, 03 Aug 2022 12:05:30 -0000
+Message-Id: <165952833083.16593.10809845772532157620@gitolite.kernel.org>
 
---===============6367545550264504734==
+--===============1947692532709368169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,113 +16,114 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 60835a973cfe2916ebddbef29e63360cd0bb992d
-    new: 0b4530268fad3ef4ee272d2189d3fc3de6aee408
+    old: 0b4530268fad3ef4ee272d2189d3fc3de6aee408
+    new: f48d2da7b85528545d11ecc8ae5b34a1814570dd
     log: |
-         4da5d305af777b2e5acb8aedca3c4d5ea9465c1a Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-         cad8c2b5ee6d8c21eff1ec109e8a6de37b6be392 ntfs: fix use-after-free in ntfs_ucsncmp()
-         2f47626d1ea53888045c54f7880709467db54b0a s390/archrandom: prevent CPACF trng invocations in interrupt context
-         da21db8b4568d50696447acf7d62e5ec2e9c9ac1 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-         e1dcd0c39bb222da2a9c38a57791480bd09bed04 net: ping6: Fix memleak in ipv6_renew_options().
-         53bb7b67ce04163902ccb24053453799d8ae38bc net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-         d67c2c2b991f109e048906df1186155631b8fd48 netfilter: nf_queue: do not allow packet truncation below transport header offset
-         dec3c8b3a60e8f1ca96907f50f37957756e3de58 ARM: crypto: comment out gcc warning that breaks clang builds
-         0b4530268fad3ef4ee272d2189d3fc3de6aee408 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+         3ce320b65b349303db28345e7f46cffd9d484dff Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+         2674fcf564a0fdad33a55af20d3daa638a3d7bfe ntfs: fix use-after-free in ntfs_ucsncmp()
+         8c7b7bf47a707e8ca84afe371b04565665c09bb8 s390/archrandom: prevent CPACF trng invocations in interrupt context
+         fecaeb2c83e9a3a0ef0d3f0a57586373d8d10363 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+         8ce419af9f3dbc520e190bfaa3f833e33b8a1626 net: ping6: Fix memleak in ipv6_renew_options().
+         11f482b474f475968fa8da3e36936456716c5114 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+         8069d491f8874668ca93915cc68cd803248c3682 netfilter: nf_queue: do not allow packet truncation below transport header offset
+         1c83ab4fa0fe7df428e24a10a63dd29e8e80a02b ARM: crypto: comment out gcc warning that breaks clang builds
+         f48d2da7b85528545d11ecc8ae5b34a1814570dd mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
          
   - ref: refs/heads/queue/4.19
-    old: 689b61ace0e278cac636ac6174a88cd81a0248d1
-    new: adf7cc5c9044be8c706fabe89b9267dd8817894b
-    log: revlist-689b61ace0e2-adf7cc5c9044.txt
+    old: adf7cc5c9044be8c706fabe89b9267dd8817894b
+    new: 15b0df644a6c0a3f5fc6aadb71b3645785c58777
+    log: revlist-adf7cc5c9044-15b0df644a6c.txt
   - ref: refs/heads/queue/4.9
-    old: fe460b90bf376a9bcb8d711d57aec7a438c1affb
-    new: 6c2c82838221e2b09e29914f0792ad87352f9e70
-    log: revlist-fe460b90bf37-6c2c82838221.txt
+    old: 6c2c82838221e2b09e29914f0792ad87352f9e70
+    new: b07bc6a7dd4257810e6d4b24d83d8d506bc56f6e
+    log: revlist-6c2c82838221-b07bc6a7dd42.txt
   - ref: refs/heads/queue/5.10
-    old: d5a45536bac478f98482f805f010d842006f44c8
-    new: 6f6d65eec473b4a881b70c05a7fbfe22279ff354
+    old: 6f6d65eec473b4a881b70c05a7fbfe22279ff354
+    new: 98c3c559d74051daf4042a7f7c3cbb1dc78d8376
     log: |
-         e8438922c89c8af9a42843b72a0ec72245abdf76 x86/speculation: Make all RETbleed mitigations 64-bit only
-         9de544d3e87ffdd37eb42a679f50eacbe745c9dc ath9k_htc: fix NULL pointer dereference at ath9k_htc_rxep()
-         6f6d65eec473b4a881b70c05a7fbfe22279ff354 ath9k_htc: fix NULL pointer dereference at ath9k_htc_tx_get_packet()
+         6022f669bdf70b47098d9142f63b3e03b8fe372f x86/speculation: Make all RETbleed mitigations 64-bit only
+         7dd551126007db0fb1c6dcb28e1ec1262462f965 ath9k_htc: fix NULL pointer dereference at ath9k_htc_rxep()
+         127181f2f3469111c0d1a362bc216813da66e636 ath9k_htc: fix NULL pointer dereference at ath9k_htc_tx_get_packet()
+         6bd07bd8420e437c1d4d7a3ab081bfae5c36060a selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
+         98c3c559d74051daf4042a7f7c3cbb1dc78d8376 selftests/bpf: Check dst_port only on the client socket
          
   - ref: refs/heads/queue/5.15
-    old: bfc97fbe26c4e16d26ec55bb9a18045e4ba72cb5
-    new: 49853d730eedc5eaf18ed9de146f33a1e87b389e
+    old: 49853d730eedc5eaf18ed9de146f33a1e87b389e
+    new: dea6d7cd1fb15d3fe32d37057463a8064281a311
     log: |
-         49853d730eedc5eaf18ed9de146f33a1e87b389e x86/speculation: Make all RETbleed mitigations 64-bit only
+         50a106dbc8d672e53157a64c961824d48a7206fc x86/speculation: Make all RETbleed mitigations 64-bit only
+         93a70ee5548e40a80c2779be270d6a1f6638cf8c selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
+         dea6d7cd1fb15d3fe32d37057463a8064281a311 selftests/bpf: Check dst_port only on the client socket
          
   - ref: refs/heads/queue/5.18
-    old: 7b0a180a00b2f6fe4142e79dfdf146c6e3154da8
-    new: 3e456ae332e8e39a6bc7d7a478797e06b6113ca8
+    old: 3e456ae332e8e39a6bc7d7a478797e06b6113ca8
+    new: 8884a4df784440841789bf4428bc0e2a48c76c8d
     log: |
-         3e456ae332e8e39a6bc7d7a478797e06b6113ca8 x86/speculation: Make all RETbleed mitigations 64-bit only
+         8884a4df784440841789bf4428bc0e2a48c76c8d x86/speculation: Make all RETbleed mitigations 64-bit only
          
   - ref: refs/heads/queue/5.4
-    old: 6741f0fb45fe3d7e5d689db3c6182f6a5025d27b
-    new: 272684c87e339e738b1513e84f3c87b34e1d02e8
+    old: 272684c87e339e738b1513e84f3c87b34e1d02e8
+    new: 89c527d688560775372c753d5fb91ef6149f8d83
     log: |
-         272684c87e339e738b1513e84f3c87b34e1d02e8 thermal: Fix NULL pointer dereferences in of_thermal_ functions
+         89c527d688560775372c753d5fb91ef6149f8d83 thermal: Fix NULL pointer dereferences in of_thermal_ functions
          
-  - ref: refs/heads/queue/5.19
-    old: 0000000000000000000000000000000000000000
-    new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
 
---===============6367545550264504734==
+--===============1947692532709368169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-689b61ace0e2-adf7cc5c9044.txt
+Content-Disposition: attachment; filename=revlist-adf7cc5c9044-15b0df644a6c.txt
 
-bda5a8b9f236315faaa3b958e06ded84fa45842c Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-60556f3c6af3fc89d4fa8aeba938ee1c2b13588b ntfs: fix use-after-free in ntfs_ucsncmp()
-ddaddb7d18832d3fc48bf67105234e48d20f5cbb s390/archrandom: prevent CPACF trng invocations in interrupt context
-863667c991b4f3b101a1efa03da943ffd1675c3d tcp: Fix data-races around sysctl_tcp_dsack.
-0eb11a0548627ce5059211db0ce8c3af8b486bbd tcp: Fix a data-race around sysctl_tcp_app_win.
-b8938794a1315b83450f35cafe4530e51ccdaff1 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-2e12d45f78db9f16eb2416cbb077a2013a33b4d7 tcp: Fix a data-race around sysctl_tcp_frto.
-096fb6a3c07d2cc11c1409adde31c336546ba048 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-8410ea7d9b0b5392247ded667715d9262b5a63e8 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-75a48db873d556ddbdb6ece95817f9f589a93382 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
-0c10d64dddecb79de986b3674b8b0db25fc36486 net: ping6: Fix memleak in ipv6_renew_options().
-a88ca93da427688da78e246e50126567e5791186 igmp: Fix data-races around sysctl_igmp_qrv.
-6fb5dd1133a5ef4a34c6e118846cde17eb01f9b7 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-bebc16e8aabd23347957437eed16fce3c07f1d89 tcp: Fix a data-race around sysctl_tcp_min_tso_segs.
-7b66e3ba67456a783c155ac0a37dee788f0e4f12 tcp: Fix a data-race around sysctl_tcp_min_rtt_wlen.
-3f5a47e564fdc2d4d3b7559e365b2efca436c22c tcp: Fix a data-race around sysctl_tcp_autocorking.
-51536f088732d71283594851871d346eff223d44 tcp: Fix a data-race around sysctl_tcp_invalid_ratelimit.
-be83b9de7973f6324bf8f11b6a0984160b13a6b7 Documentation: fix sctp_wmem in ip-sysctl.rst
-5d5bdc2b0dd5bad47e2daf20fd5a157c4fa35155 tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.
-728b1b1549eb6cdacd88a95c183f867229b4e18a tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
-69c56b5f0e516434310bb48e4bd6ff07ce8cce01 i40e: Fix interface init with MSI interrupts (no MSI-X)
-0675a244ec72a4699bf3b2824e7ee9275dae4d72 sctp: fix sleep in atomic context bug in timer handlers
-d5665c07dbf058060ebe1f97c4f1d1f6fd21122e netfilter: nf_queue: do not allow packet truncation below transport header offset
-a486c1344d11498766ec194db9b482c964417e3a perf symbol: Correct address for bss symbols
-339a17dd09a6b325a757cd81007c7a800a1924eb ARM: crypto: comment out gcc warning that breaks clang builds
-921ea49b417176f276903277d821598d6f5a325f mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-97602e0aaf5c9b9c1d67713c9a4e3fed5e723c7e fbcon: Prevent that screen size is smaller than font size
-117dceeaec42041c2d8e9ab7c83af65769bcfdf7 fbmem: Check virtual screen sizes in fb_set_var()
-adf7cc5c9044be8c706fabe89b9267dd8817894b scsi: core: Fix race between handling STS_RESOURCE and completion
+f28fa00e3a6878ec78bf587c81392e9b99dc4095 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+f65186af8124e13915feb5ec86968b1ebcecef0e ntfs: fix use-after-free in ntfs_ucsncmp()
+9192aea655fcbc29a8945b38577362813666dc3f s390/archrandom: prevent CPACF trng invocations in interrupt context
+87378a7e360446b797cbf47d92ac8f0ce3ebcfba tcp: Fix data-races around sysctl_tcp_dsack.
+bb47f48b20554e807c28b972db872cc38804a7f3 tcp: Fix a data-race around sysctl_tcp_app_win.
+901a94a3d8f301b1e5f585b4eff6823579893625 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+1e66c67eabc15a231a34257c046f32cdbc27cb12 tcp: Fix a data-race around sysctl_tcp_frto.
+4819bf6a52db5e0339a34b4d52babe969950679a tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+7cd3bcafbda4570759a990fbc89e3fb8449f5594 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+db3394603690255d94fcbe8f87e1bb309c9cfa05 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
+7c7d9021708c70f6f65e0e40a6238adfdec1ce4f net: ping6: Fix memleak in ipv6_renew_options().
+20202a1363422ec0b7238ae3134ff8ab49cda282 igmp: Fix data-races around sysctl_igmp_qrv.
+274cc441289258c5cd8b8075d37677982fc9e9ab net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+2cc355d2c465003b033574ec1bfdd2dd97c98ef3 tcp: Fix a data-race around sysctl_tcp_min_tso_segs.
+f35c471c3ae937bd25416323c8c3fc549f955eac tcp: Fix a data-race around sysctl_tcp_min_rtt_wlen.
+0aa026bab0ffc46e0150f96d518dbeacc42deaf9 tcp: Fix a data-race around sysctl_tcp_autocorking.
+f11973b63d809beea3cd716b66f07f7691630b2f tcp: Fix a data-race around sysctl_tcp_invalid_ratelimit.
+9990f3ed74033c23af809f8f0a34cb07db43395a Documentation: fix sctp_wmem in ip-sysctl.rst
+210e6efa7e583bd642fdd00d53886b74645f46ff tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.
+bba9c658b11a4c57c2c2e21c158d116f28d074b8 tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
+213512b127329436f25aaa7f592ed1d461c75eff i40e: Fix interface init with MSI interrupts (no MSI-X)
+b1bc63b8c418708e6b4e7af2bf7d9078d90e6402 sctp: fix sleep in atomic context bug in timer handlers
+9d6f54ab1c01923a2b1427a510c133065524a868 netfilter: nf_queue: do not allow packet truncation below transport header offset
+fc2c0ca74e41ab3ffc6975847d431777a4d6473a perf symbol: Correct address for bss symbols
+14fe194591ac49913e22459def51971640fd7d89 ARM: crypto: comment out gcc warning that breaks clang builds
+981e3d6657690cb07524386138a308f4883d356e mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+7356c77ff18be26b9eebf31171f1bb098e0bfcc8 fbcon: Prevent that screen size is smaller than font size
+52b79215a53dae5a9ce2c5e7fcfeeb0284a520f1 fbmem: Check virtual screen sizes in fb_set_var()
+15b0df644a6c0a3f5fc6aadb71b3645785c58777 scsi: core: Fix race between handling STS_RESOURCE and completion
 
---===============6367545550264504734==
+--===============1947692532709368169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe460b90bf37-6c2c82838221.txt
+Content-Disposition: attachment; filename=revlist-6c2c82838221-b07bc6a7dd42.txt
 
-5541ff1f8e9f318c0f2b1c48c07537c035de64dd Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-66d0f30828e0aed90368066181588c3e6c9864bd ntfs: fix use-after-free in ntfs_ucsncmp()
-42d56ebd2b797f6c7babacb14d28a56c1535ba08 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-7f467ead479ab1e6d06660693bd4adf1c92e07fe net: ping6: Fix memleak in ipv6_renew_options().
-b6a396f9c22b40e6fd7079f9df31b2c42cab9b1f net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-4d5d82cc201d821be0768a6a806810d4bc65b5d0 netfilter: nf_queue: do not allow packet truncation below transport header offset
-643dd4c7ea55fdfbb844e86c8e7dc84a6006eb87 ARM: crypto: comment out gcc warning that breaks clang builds
-9f7199f3f94e3dd7a6d71b3c6a844381f73924c8 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-80290d97cd0977e7ff947f0fa26ee09931fee6e1 ion: Make user_ion_handle_put_nolock() a void function
-caa2691c021ed0acb2653aa03ac3402ae01b8681 selinux: Minor cleanups
-b4fd93b8d51c373d18c6ced355cd2f32d3f2ecae proc: Pass file mode to proc_pid_make_inode
-650a370a4b631abb5e08359a75754801819f94c8 selinux: Clean up initialization of isec->sclass
-b838a76e1869ef92453a2252d8cd1595e3f67f7c selinux: Convert isec->lock into a spinlock
-b7efd86c6d40daca247b5e952058e8c63708b462 selinux: fix error initialization in inode_doinit_with_dentry()
-6c2c82838221e2b09e29914f0792ad87352f9e70 selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
+d14ee686efc26ea8452b7daef109e7b28802c609 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+62aace56a58a20a44d1aa70f20b0e69049427660 ntfs: fix use-after-free in ntfs_ucsncmp()
+5513498b95213175f5e11e610b038f5d7e194364 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+86931b5b7744826cf78f21b1e2f21eb5fb33cbea net: ping6: Fix memleak in ipv6_renew_options().
+b24b2096779ea99504728baa49b0d9a82c91a48e net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+c668abcd8951b8d26ba72b38db732a5dab5a4d59 netfilter: nf_queue: do not allow packet truncation below transport header offset
+18e530a20ad2105c336f12115b4f49ed682c9e63 ARM: crypto: comment out gcc warning that breaks clang builds
+4df3d787fda1d181976fbaae2146eb40ce3ae566 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+b9a403e68e285ac0c32e057768aacc108c0ff1d6 ion: Make user_ion_handle_put_nolock() a void function
+dfcb7cee1068eccc55f202cd336aee1b5e6c2e7d selinux: Minor cleanups
+1d17eac427e847ef7bf9383a8933ea194399219d proc: Pass file mode to proc_pid_make_inode
+96d835e844b2d1f0b4d00433b027f78fa0a54059 selinux: Clean up initialization of isec->sclass
+1023b23d6de07afb0564d2e803d0bbe61d963389 selinux: Convert isec->lock into a spinlock
+0945ff85b854c3c0162c961e306c044f85203edd selinux: fix error initialization in inode_doinit_with_dentry()
+b07bc6a7dd4257810e6d4b24d83d8d506bc56f6e selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
 
---===============6367545550264504734==--
+--===============1947692532709368169==--
