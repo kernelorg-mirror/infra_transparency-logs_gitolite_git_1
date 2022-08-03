@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 03 Aug 2022 05:29:16 -0000
-Message-Id: <165950455663.24694.8061860506705799882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 03 Aug 2022 05:40:34 -0000
+Message-Id: <165950523464.677.7006666460429557218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/testing
-    old: 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe
-    new: 6aa811acdb76facca0b705f4e4c1d948ccb6af8b
+  - ref: refs/heads/master
+    old: 55e034eceea85c65c6c1c1716b9165c4b6336ac3
+    new: e8f872b46d0ac78155a14a8b5ccf01071cb0cc5b
     log: |
-         717ada9f10f2de8c4f4d72ad045f3b67a7ced715 Revert "xfrm: update SA curlft.use_time"
-         36d763509be326bb383b1b1852a129ff58d74e3b xfrm: fix XFRMA_LASTUSED comment
-         6aa811acdb76facca0b705f4e4c1d948ccb6af8b xfrm: clone missing x->lastused in xfrm_do_migrate
+         6a106ac97267b1b3a1b3afc2b374aa303d90c7c0 libblkid: add tags list to the man
+         e8f872b46d0ac78155a14a8b5ccf01071cb0cc5b Merge branch 'add/tags-man' of https://github.com/alberand/util-linux
          
