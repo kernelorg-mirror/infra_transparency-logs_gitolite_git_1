@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7112820293777195754=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 03 Aug 2022 10:25:34 -0000
-Message-Id: <165952233442.12146.9432113364872332234@gitolite.kernel.org>
-
---===============7112820293777195754==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 03 Aug 2022 11:35:08 -0000
+Message-Id: <165952650810.26805.1306544009966282375@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/linux-5.19.y
-    old: 0000000000000000000000000000000000000000
-    new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
-
---===============7112820293777195754==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659522330 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1659522329-4779ba8ee028c541d0e5d4a250b10cf344adbc75
-
-0000000000000000000000000000000000000000 3d7cb6b04c3f3115719235cc6866b10326de34cd refs/heads/linux-5.19.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLqTRobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wYcP/2GGYyE7/5LFGtJuFOmv
-XgymJfEJiB8ADhNECPdDemyDHC/WAFf+/skEyzcH9yIds31bCsYOpa4N3RfrTfiS
-kv1HmyJbFYUbCs8Fc6uNJftkaduzpbRQfI/vqFvjBy6BH5nwdQ5QEIJTgOvBR+Vf
-3Qnt2pqvnCe98boAFsEZSZ7FnJPXrihyZBxcYceA0WAUm8TPk6238rDrmadkmoS/
-z8d+m6Z1gSuHkWkJsJzJjsYredZdEo9qmoC6nCMxqT4gVBN+6j7UOLHfGNOmLQO5
-XTACgdMO3iJkKm8zx0XvVuyWxJGG3rz0mpbAIVP7xE2iu6OWBtfZITcx2IQsCrWD
-g/SyGC0JncVzwyrGz8Q9xSXQUQjqJ4kFnXRP+MA5Pab8bl8IMKPGH+nR7pKBVStN
-PADrb+5jvN6rf+phKrWzWCnr4gi1SEdjg1NOVllnhkeIfY8bnEw14LOXw6PEsaH8
-D8gQFTv8GTwndzXg9VfXKgzCmbowBSYh0WGhvGATFbwRN2dNGtQ6kzr5cac9YdEJ
-2e7QWTZJQlOwEHiLYzo52a6iNIwGyinXx0uL2cxZttpNvfE3otzP2jWBN4M+gTT0
-T0tcqhIvrHTUlnNiRkOsBP6xMO9BJX9kSo9SqOLOVSKlLg3uokX2F8XOCd1NovSk
-lCaU4Kiayl2KMXgOpr080O/w
-=oS+A
------END PGP SIGNATURE-----
-
---===============7112820293777195754==--
+  - ref: refs/heads/kvm-arm64/pmu-chained
+    old: ed5c6c9ddd3a3376659e45652c263cee7ee0ac2f
+    new: 25e7e43793084f1e12b6d2af4b88e5aed1e3cc38
+    log: |
+         2d29e397373ec05a57cb178a024bef2a72b21e3a Minimal fix for proper chained support
+         82a5651f26948955e3e44407b65b200d4a4b34e6 break the chain
+         76802f10ba1f292d93db6f46ff29bd9a2e344706 distinguish between 64bit counter and 64bit overflow
+         58b6776892012c45a0667cfe33b04dba9155851d only narrow counters that are not 64bit wide
+         e8f168658964d360afbe23eecfac397650f3d92c Add counter_index_to_reg() helper
+         1060e58c8e60bc9ca7b58437ce7e04b6fed79f31 Move the ID_AA64DFR0_EL1.PMUver limit to VM creation
+         ad38b16f1d792ce4172e302f9635b7ff027b387f Alloc ID_AA64DFR0_EL1.PMUver to be set from userspace
+         8f19cbf8bf872b305553565193ffd1f995226356 Implement long counter support
+         25e7e43793084f1e12b6d2af4b88e5aed1e3cc38 allow PMUv3p5 to be exposed to the guest
+         
