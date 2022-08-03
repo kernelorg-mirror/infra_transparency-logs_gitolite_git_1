@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 03 Aug 2022 21:47:16 -0000
-Message-Id: <165956323627.28396.3232214240702524057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 03 Aug 2022 22:06:25 -0000
+Message-Id: <165956438547.10760.6144757128366086445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 2cdc69d4258f68643b6848379ff45a8db80ac066
-    new: df9c7b4d80c588598d4a53e1588b58240b8ca520
+  - ref: refs/heads/seen
+    old: 4539bb49a30c526e8646b7c7f42df55cbf578f47
+    new: b0dec982666ef3ddce76fcc271b766f501f7629f
     log: |
-         df9c7b4d80c588598d4a53e1588b58240b8ca520 Wed Aug  3 09:46:32 PM UTC 2022
+         2e8f4c512dfd07b49ace202d7b74836d595fc6bd gc: add tests for --cruft and friends
+         1d34fa4f4909024fcd1395a2fa3e9f08c6c2bd94 config: let feature.experimental imply gc.cruftPacks=true
+         b0dec982666ef3ddce76fcc271b766f501f7629f Merge branch 'es/mark-gc-cruft-as-experimental' into seen
          
