@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bwh/klibc-maint
-Date: Wed, 03 Aug 2022 22:40:27 -0000
-Message-Id: <165956642772.1846.9682534201471068029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/klibc/klibc
+Date: Wed, 03 Aug 2022 22:49:47 -0000
+Message-Id: <165956698775.6518.10982492616978208736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bwh/klibc-maint
+repo: pub/scm/libs/klibc/klibc
 user: bwh
 changes:
   - ref: refs/heads/master
-    old: 4291afb8281b5f7d94c2834e64c4028f32bb9615
-    new: b31f8a4bd3accc0008790049e33f83db14369547
+    old: 8d6ee65cc8bd75bba8f51589c667ff7c5fd9b3b5
+    new: bb2fde5ddbc18a2e7795ca4d24759230c2aae9d0
     log: |
-         7a6feb0a09a0934a42ac7b0164c744c651fec109 test-many-klibcs: Add m4, git to requirements
-         2979e055bc15c3696db7aa4b92eee94d0425b4b1 test-many-klibcs: Re-enable mips build with GNU toolchain
-         75b75e81b547d3eb6e0b629f838f3acff9eb3fbd status.md: Add regressions of 2.0.10 with current kernel and toolchains
-         b31f8a4bd3accc0008790049e33f83db14369547 status.md: Add status with current git master
+         2f31533dd248f24c8f90a0551cf86b09f144b77c [klibc] Revert " remove local insmod.c copy"
+         2acbe15d7a8093cfa295aadc56707892e87a7eaf [klibc] Kbuild: Properly disable executable stacks in static builds
+         6ded7f0ecaafc59460c82890f04cef3d86f58383 [klibc] README.klibc: Add note about headers_install in cross-build
+         9c5a00cee083e345148c2d303d509c71fd99cc15 [klibc] README.klibc: Update note about building compat user-space
+         bb2fde5ddbc18a2e7795ca4d24759230c2aae9d0 [klibc] fcntl: Fix build failure for some architectures with Linux 5.19
          
