@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 03 Aug 2022 18:36:18 -0000
-Message-Id: <165955177891.25276.12268486892374663816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 03 Aug 2022 18:37:04 -0000
+Message-Id: <165955182469.25593.15462181093859145319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/tags/pull-work.dcache
-    old: 0000000000000000000000000000000000000000
-    new: df513010ad6b3f6f94ff1eec9a4cd3037a9cb5e4
+  - ref: refs/heads/tmp.perf/core
+    old: 6d499a6b3d90277dbb7e408e7c70d68b507ef383
+    new: bb8bc52e75785af94b9ba079277547d50d018a52
+    log: |
+         bb8bc52e75785af94b9ba079277547d50d018a52 perf stat: Refactor __run_perf_stat() common code
+         
