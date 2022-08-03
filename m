@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 03 Aug 2022 18:38:24 -0000
-Message-Id: <165955190490.26098.18283665424998427783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 03 Aug 2022 18:38:55 -0000
+Message-Id: <165955193545.26343.4956544799094743615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/pull-work.dcache
-    old: df513010ad6b3f6f94ff1eec9a4cd3037a9cb5e4
-    new: 0fa21f02eaa5bbf2710e71b18d39dad11692bbd1
+  - ref: refs/heads/master
+    old: 1c87f9a17a1b96b6457299d8a9ced1e60ef61310
+    new: 4026f12af8b82b8080d486bc0f93c871db2cc6e6
+    log: |
+         4026f12af8b82b8080d486bc0f93c871db2cc6e6 Wed Aug  3 06:37:36 PM UTC 2022
+         
