@@ -1,44 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0061744299115521154=="
+Content-Type: multipart/mixed; boundary="===============5976472295082290949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 03 Aug 2022 11:57:45 -0000
-Message-Id: <165952786543.9910.2845459737691290729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 03 Aug 2022 11:58:00 -0000
+Message-Id: <165952788032.10077.5290917539344679357@gitolite.kernel.org>
 
---===============0061744299115521154==
+--===============5976472295082290949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: e0dccc3b76fb35bb257b4118367a883073d7390e
     new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
     log: revlist-e0dccc3b76fb-3d7cb6b04c3f.txt
-  - ref: refs/heads/rdma-next
-    old: 2d00f9cf631e40986664d95ad8031394f4fb1cb9
-    new: 9955fe2643937d730001621bea05d3612031902e
-    log: revlist-2d00f9cf631e-9955fe264393.txt
-  - ref: refs/tags/mlx-next
-    old: dd390cba54bbd74fb675a4ac0a78dc23a20d49e2
-    new: 6b822d408b58c3c4f26dae93245c6b7d8b39e0f9
-    log: |
-         b03b1ae2a3125d4475452e4f19f5d3a6e910ff6e RDMA/srpt: Duplicate port name members
-         aa7dfbb41b5a60ab90e244d6f586b8cb5c791c3e RDMA/srpt: Introduce a reference count in struct srpt_device
-         b5605148e6ce36bb21020d49010b617693933128 RDMA/srpt: Fix a use-after-free
-         dea4266f7bf2fc76e49b2e521feccd6c1dbca8c5 RDMA/rxe: Update wqe_index for each wqe error completion
-         ae720bdb703b295fed4ded28e14dd06a534a3012 RDMA/rxe: Generate error completion for error requester QP state
-         62494ec7fbca4d58900eb62e075f2fedc85b5fb9 RDMA/rxe: Split qp state for requester and completer
-         c9776457bd5eaad4ce4ecb17af8d8f3cc6957c0b RDMA/mlx5: Add missing check for return value in get namespace flow
-         fd5382c5805c4bcb50fd25b7246247d3f7114733 RDMA/rxe: Fix error unwind in rxe_create_qp()
-         6b822d408b58c3c4f26dae93245c6b7d8b39e0f9 RDMA/ib_srpt: Unify checking rdma_cm_id condition in srpt_cm_req_recv()
-         
 
---===============0061744299115521154==
+--===============5976472295082290949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -214,35 +196,4 @@ cd2715b7929bcaf6e38d13ac512e0a9bba8df10d Merge tag 'edac_urgent_for_v5.19' of gi
 334c0ef6429f261c7f53dc035632435ffbc0c60d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
 
---===============0061744299115521154==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d00f9cf631e-9955fe264393.txt
-
-c944b410bf17bb8825642a249cc8373fb2425176 vfio/mlx5: Protect mlx5vf_disable_fds() upon close device
-4a685b3e6928d08b710140d0e14a6db13cc86c5d vfio: Split migration ops from main device ops
-d16201906df4890552c214b9f56ca069e08beb6f net/mlx5: Introduce ifc bits for page tracker
-13f90ae0ccc98557acd1137474c6a505b3ad0a50 net/mlx5: Query ADV_VIRTUALIZATION capabilities
-755f0ce1ffc8314fd56507c0f5e20fa743779ef8 vfio: Introduce DMA logging uAPIs
-699b2ecae90c9c1d0da4fedbd9036810d90a2e31 vfio: Move vfio.c to vfio_main.c
-9f98d05c77062804b2861fd6f84486061b4fcd0d vfio: Add an IOVA bitmap support
-435fc9ea0193bc041ccbb28a14f1a379d3ca9f52 vfio: Introduce the DMA logging feature support
-9247aaebe6861006498ba300c5597b3796083e3e vfio/mlx5: Init QP based resources for dirty tracking
-ac2b413d7996ed2a97b8406de1b10e9efd99d434 vfio/mlx5: Create and destroy page tracker object
-77f31f5f6ab320d59ef774734fe27b52cf48d093 vfio/mlx5: Report dirty pages from tracker
-d4d4d80a385b10a18bfd07eb6f66179c4da4b06a vfio/mlx5: Manage error scenarios on tracker
-edbc792e6246c2e46ecc486878e7b3c5d92cbca8 vfio/mlx5: Set the driver DMA logging callbacks
-08288b0bc8033f0b10bee199a240ec526027ddea net/mlx5: Introduce ifc bits for migratable
-8c77ba08d7f5b2f53630eef8c03470271b3d19c5 vfio/mlx5: Set VF as migratable
-9b364443069cad9a0fad69156e4babfdb8864bc1 RDMA/mlx5: Don't compare mkey tags in DEVX indirect mkey
-e0d7bfdea7a2084e5dd8fa98a5e726e77c981906 net/mlx5: E-Switch, pair only capable devices
-a5ee747ec926bd5a9296f333d4b3e97d5cf4e9e2 RDMA/mlx5: Add missing check for return value in get namespace flow
-a22448956a6d7bff61fa7cf98c8d3156d6d5d08e RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
-2b627f6e6aeed27752048ee7fbce2779d9167057 RDMA/mlx5: Move function mlx5_core_query_ib_ppcnt() to mlx5_ib
-089f1a10023083e152709e0bac34c2df78076ca0 RDMA/mlx5: Set local port to one when accessing counters
-3bab3f334f90858f2b6fb951337ded552c614686 RDMA/mlx5: Fix UMR cleanup on error flow of driver init
-7d7dd6aebfdfd108c3683905491a1b8ec72da8e8 IB/core: Fix a nested dead lock as part of ODP flow
-9955fe2643937d730001621bea05d3612031902e RDMA/cma: Fix arguments order in net device validation
-
---===============0061744299115521154==--
+--===============5976472295082290949==--
