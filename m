@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 03 Aug 2022 05:28:21 -0000
-Message-Id: <165950450103.24253.16712314526951026748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 03 Aug 2022 05:29:16 -0000
+Message-Id: <165950455663.24694.8061860506705799882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: 702ccd6146ee72bff34a4ef36ecd4c6265c9536a
-    new: 1c87f9a17a1b96b6457299d8a9ced1e60ef61310
+  - ref: refs/heads/testing
+    old: 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe
+    new: 6aa811acdb76facca0b705f4e4c1d948ccb6af8b
     log: |
-         1c87f9a17a1b96b6457299d8a9ced1e60ef61310 Wed Aug  3 05:26:19 AM UTC 2022
+         717ada9f10f2de8c4f4d72ad045f3b67a7ced715 Revert "xfrm: update SA curlft.use_time"
+         36d763509be326bb383b1b1852a129ff58d74e3b xfrm: fix XFRMA_LASTUSED comment
+         6aa811acdb76facca0b705f4e4c1d948ccb6af8b xfrm: clone missing x->lastused in xfrm_do_migrate
          
