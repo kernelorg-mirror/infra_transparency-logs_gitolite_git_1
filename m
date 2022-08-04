@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 04 Aug 2022 00:56:02 -0000
-Message-Id: <165957456283.30923.3750355863688276027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 04 Aug 2022 00:59:21 -0000
+Message-Id: <165957476166.32107.8368461287836203027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: ba6cfef057e1c594c456627aad81c2343fdb5d13
-    new: d9514d9f4757e56319ec510c3eef087a35939aa7
+  - ref: refs/heads/master
+    old: df9c7b4d80c588598d4a53e1588b58240b8ca520
+    new: 92997500f5dae6bd3e8e793ad3dc0d1134dd9b0e
     log: |
-         d9514d9f4757e56319ec510c3eef087a35939aa7 riscv: add irq stack support
+         92997500f5dae6bd3e8e793ad3dc0d1134dd9b0e Thu Aug  4 12:57:30 AM UTC 2022
          
