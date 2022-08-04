@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 03 Aug 2022 23:57:46 -0000
-Message-Id: <165957106622.22490.4188634564334464119@gitolite.kernel.org>
+Date: Thu, 04 Aug 2022 00:00:22 -0000
+Message-Id: <165957122289.24980.8048784336789047541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: c5d36b8a7dbdcf41da7316252b717c60c409992b
-    new: 9f74dd92c262f0d9ef00beb8c2dc1b282330effb
+    old: 9f74dd92c262f0d9ef00beb8c2dc1b282330effb
+    new: 8a3fd9bb4fac67ad5d44d6540c7ac20004767076
     log: |
-         600f1aff2dcb6332d59a4095e0be54f48d7dedb8 Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm regression
-         72fe393b4e25e984ff50667bd1c6162106c242e4 Bluetooth: hci_event: Fix build warning with C=1
-         9f74dd92c262f0d9ef00beb8c2dc1b282330effb Bluetooth: MGMT: Fixes build warnings with C=1
+         8a3fd9bb4fac67ad5d44d6540c7ac20004767076 Bluetooth: ISO: Fix iso_sock_getsockopt for BT_DEFER_SETUP
          
