@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2843379278986708967=="
+Content-Type: multipart/mixed; boundary="===============8870533275196489427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 04 Aug 2022 11:27:04 -0000
-Message-Id: <165961242410.31825.9550373200354415311@gitolite.kernel.org>
+Date: Thu, 04 Aug 2022 11:27:25 -0000
+Message-Id: <165961244500.31986.9016401099414497827@gitolite.kernel.org>
 
---===============2843379278986708967==
+--===============8870533275196489427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 71930846b36f8e4e68267f8a3d47e33435c3657a
     new: f86d1fbbe7858884d6754534a0afbb74fc30bc26
     log: revlist-71930846b36f-f86d1fbbe785.txt
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
 
---===============2843379278986708967==
+--===============8870533275196489427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ a39b5dbdd2bc5ba36e6b90f2f979efcb090b0613 Merge tag 'zonefs-5.20-rc1' of git://gi
 526942b8134cc34d25d27f95dfff98b8ce2f6fcd Merge tag 'ata-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 f86d1fbbe7858884d6754534a0afbb74fc30bc26 Merge tag 'net-next-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============2843379278986708967==--
+--===============8870533275196489427==--
