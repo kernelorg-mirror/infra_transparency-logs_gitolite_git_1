@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 04 Aug 2022 11:37:57 -0000
-Message-Id: <165961307797.6635.8373712462099472659@gitolite.kernel.org>
+Date: Thu, 04 Aug 2022 11:43:58 -0000
+Message-Id: <165961343884.10699.10775604059700657054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 8361b88a441b95edd4c7158f9361e90955fa7497
-    new: 327ac4c071342de9bdb58588bfe0038420628b23
+    old: 327ac4c071342de9bdb58588bfe0038420628b23
+    new: 6b0376467a930a8a0f8bdb6bcdb5598c76a8a504
     log: |
-         a4235e0aa4d4753119fd81f582eef84addf3f4a1 i915: Add GuC v70.4.1 for DG2
-         327ac4c071342de9bdb58588bfe0038420628b23 Merge branch 'dg2_guc_v70.4.1' of git://anongit.freedesktop.org/drm/drm-firmware
+         feda1996d56d501a287fb6aa09cc1d46490a211a linux-firmware: Add firmware for Cirrus CS35L41
+         6b0376467a930a8a0f8bdb6bcdb5598c76a8a504 Merge branch 'for-upstream' of https://github.com/CirrusLogic/linux-firmware
          
