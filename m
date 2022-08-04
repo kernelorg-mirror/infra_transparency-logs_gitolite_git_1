@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 04 Aug 2022 11:35:40 -0000
-Message-Id: <165961294072.5687.12549527232767486918@gitolite.kernel.org>
+Date: Thu, 04 Aug 2022 11:36:57 -0000
+Message-Id: <165961301777.6229.5558001215866548793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 150864a4d73e8c448eb1e2c68e65f07635fe1a66
-    new: a45053c75767845ba6873466e0ec1e11c999d0d5
+    old: a45053c75767845ba6873466e0ec1e11c999d0d5
+    new: 8361b88a441b95edd4c7158f9361e90955fa7497
     log: |
-         a45053c75767845ba6873466e0ec1e11c999d0d5 Mellanox: Add new mlxsw_spectrum firmware xx.2010.3020
+         3ab394af47ab6b0139a3fa6a7b39564a4d18cb25 i915: Add DMC v2.07 for DG2
+         8361b88a441b95edd4c7158f9361e90955fa7497 Merge branch 'dg2_dmc_2_07' of git://anongit.freedesktop.org/drm/drm-firmware
          
