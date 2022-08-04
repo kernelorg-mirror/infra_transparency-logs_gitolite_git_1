@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 04 Aug 2022 16:47:12 -0000
-Message-Id: <165963163237.26919.11647212959757401146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Thu, 04 Aug 2022 16:47:28 -0000
+Message-Id: <165963164828.27098.11448364865789829138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/next/libgpiod-2.0
-    old: be4b63fdb8fd0a42f80a70c04af61abeafea667b
-    new: 21ef448dd5a9fe64404881c182b8f1193ab85ab4
+  - ref: refs/heads/systopology
+    old: d0964c389dbcaa6a75e7569e649bb9b2b306c1eb
+    new: 01c07c0f93eb5b0f6bf6ba827ec228e52cd5088e
     log: |
-         d7e739937bf64d4c787d9c9dbbb63dfbe5fe5fcf WIP: build: autoupdate the configure script
-         21ef448dd5a9fe64404881c182b8f1193ab85ab4 WIP: gitignore: add configure~
+         7399c8f9fdf8e1c152dde1ca86a757559dfc72ab rteval: cyclictest: Reset cpulist from newly calculated cpus
+         31585e4ae70c90b7fc937eb02216daf377cad4ce rteval: restrict kernel source download with invalid file extensions
+         01c07c0f93eb5b0f6bf6ba827ec228e52cd5088e Merge branch 'main' into systopology
          
