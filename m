@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Thu, 04 Aug 2022 14:01:42 -0000
-Message-Id: <165962170286.10068.3558175524855708589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/ras-tools
+Date: Thu, 04 Aug 2022 14:05:59 -0000
+Message-Id: <165962195909.13076.15517093740816373893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
-user: deller
+repo: pub/scm/linux/kernel/git/aegl/ras-tools
+user: aegl
 changes:
-  - ref: refs/heads/devel
-    old: 95e9122477ad8c04df72d7782673238443e94bfc
-    new: 188d4b660c714a77bf28c1558fe02e4e34e79ef7
+  - ref: refs/heads/master
+    old: b936d417a8cc27e17ef018b645c931ecc4e94c6f
+    new: 0ba123cafe1a1d96f99268ada302c14367244f87
     log: |
-         188d4b660c714a77bf28c1558fe02e4e34e79ef7 ipl: Use constants from pdc.h
+         0ba123cafe1a1d96f99268ada302c14367244f87 einj_mem_uc: Add "-i" flag to skip reporting of CMCI interrupts
          
