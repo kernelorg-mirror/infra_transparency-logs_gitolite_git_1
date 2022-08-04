@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 04 Aug 2022 10:23:05 -0000
-Message-Id: <165960858557.18148.18056939123611120385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Thu, 04 Aug 2022 10:23:58 -0000
+Message-Id: <165960863824.18529.13632598954429135080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.0-1
-    old: 0000000000000000000000000000000000000000
-    new: e2695bb87ab8218949890a8bdc6c665b60eddf81
+  - ref: refs/heads/for-next
+    old: b5acb26183cce224060890025d86812ce458c90b
+    new: a7e796c88820a83d8e1911a076cf8e533d640c6b
+    log: |
+         a7e796c88820a83d8e1911a076cf8e533d640c6b Merge branch 'for-5.20' into for-next
+         
