@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Fri, 05 Aug 2022 08:49:31 -0000
-Message-Id: <165968937155.13914.13443210304441144316@gitolite.kernel.org>
+Date: Fri, 05 Aug 2022 08:58:53 -0000
+Message-Id: <165968993382.21406.9950239164269820727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,8 @@ repo: pub/scm/linux/kernel/git/deller/palo
 user: deller
 changes:
   - ref: refs/heads/devel
-    old: 0000000000000000000000000000000000000000
-    new: 5588f0d9aa1f99505daed5a46d8316fa4199568a
+    old: 5588f0d9aa1f99505daed5a46d8316fa4199568a
+    new: 557ff5aec869c2100d942ea14d22016ac2f874b9
+    log: |
+         557ff5aec869c2100d942ea14d22016ac2f874b9 palo 2.21 release
+         
