@@ -1,62 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0344278601758202826=="
+Content-Type: multipart/mixed; boundary="===============8302208324169117819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 05 Aug 2022 06:17:32 -0000
-Message-Id: <165968025225.5304.10531121289621744367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 05 Aug 2022 06:17:34 -0000
+Message-Id: <165968025406.5381.16863825170069270396@gitolite.kernel.org>
 
---===============0344278601758202826==
+--===============8302208324169117819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 32346491ddf24599decca06190ebca03ff9de7f8
+  - ref: refs/heads/char-misc-next
+    old: b5276c924497705ca927ad85a763c37f2de98349
     new: b2a88c212e652e94f1e4b635910972ac57ba4e97
-    log: revlist-32346491ddf2-b2a88c212e65.txt
+    log: revlist-b5276c924497-b2a88c212e65.txt
 
---===============0344278601758202826==
+--===============8302208324169117819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680244 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1659680243-15f33a63404d078f53a2b5d7e709240de30865eb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680253 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1659680252-e89450d2328554c2e3328387eb89e8a3d63a29cb
 
-32346491ddf24599decca06190ebca03ff9de7f8 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/main
+b5276c924497705ca927ad85a763c37f2de98349 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstfQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EwQP/jloNsMjmuhpRn9MuyMo
-N169+TJRnNHZ5X2Y578UGWRERtyLjCet1nDEaJFOZ+Ikm1XOe+p2mSO2KKm5JFAH
-NTARNVnCA1M9CeXLNIFNabxga5lmERnW9SWBGm3G2MB0q5QoETdW3SQzD3IL+QU2
-pG7lR4eTLzCRfsJCWwmQZbFglARqloKHfzpP9wJVVOZdyiffTjCDY80rf3ubyttM
-BeOsdd5Z/3UTRwvU6fSO9+puj7/+kwF5MGM5CqHIo7tCnkGHZ3OeGjdVk9aD5zDA
-vLrDRT03kkrqSCxfRsL6+XPK+Wbz43teTPiqsYzz+bcyVqfpM3mtcdC1Xkich+Wm
-6ColovcUd3lsOAlEHMK3Fzy2N9vF04/RF9y3WZPv7IbuX6uzolhNQJWUDDT4yVCr
-nXRbLQsqDScm+ZTU/xMTubhLVn6XJaa5iYqLM8GYewk8KybtIA6ZNMiGGO1C8ohw
-2bDiF1+r81i+7sAJpCIVpAsipRJ6/i8wFeSYsIrLJXYpNWa7fshtHNFtzGXXqN8S
-MSvPaLJYHsL7iqzLti3+xHxOckLtBUni7GgsB8PvFdFGYVEMRYgiH3n63eE9wO6J
-8XtGoeTF+zibJeW0PEnCTODPz9PV++U79rB4a5RyFpxesIapu5J8sin+4/PEVUML
-Z7cZq/bvWGXqBD7DAK94d5cO
-=h67I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstf0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CRwQAIZoa3u58BFTP6tI+XKd
+IN42PTjRCd7I2RIiAMO1e5xxUV+g1Ts98K0LvzUkckVXL6kht9jCA2ueD8Q4C/kD
+SHdMblnwb5HIaE8xdqv7EtGDxW53QGbpWdpJDOrWUwl3sKJAW7NS1t/E/r+cGm3W
+8LUu41E4VilIoPF15HyodAJBmTV0siy9YrSNdpDuGsgrGHL3vHNz7QJKUXpiOoyV
+yvrQko+g96Knfl1DVyNMEg6ENyuUO8sie50blvprKWeKyJXng2dQmLNdGI9LvMnW
+AsPzgvQV1iB1t9B7BVjXsx0NyI4tBv8kLg7saWTftYH6qRqeUbzw+/C1qx3nUpgq
+z7N+LP8527KfXfd1FlAXNAplq2KiFRVNlJunieVBKfV6Frqb1XoZDLSOa+z9Ipon
+y/37Xh+ApxjjkMQSRwpoV7uncSaK3kNgB1CYtoe3M0fges7SrmUOmiYBzOtVyFtN
+k83WYNrPnZBfVvzLM0qtU3eEnufxh+hp61k9MwehKvR/cKjlKhOWwd9P3WFctJoA
+ng1RrdhP5a8sEHNaB52EQnAZesk27aj0IYwkvUQhNY7WqbkdjQeLeXAdIc4sVdYu
+oy5wB8ryALkqMNrgQCSIDHftV/0HWRKxUVJQUgzbGpRG5winwGXQx+vnLlNs+NmG
+R5FTad5OwfmRPFIETB8lAxhZ
+=ImzX
 -----END PGP SIGNATURE-----
 
---===============0344278601758202826==
+--===============8302208324169117819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32346491ddf2-b2a88c212e65.txt
+Content-Disposition: attachment; filename=revlist-b5276c924497-b2a88c212e65.txt
 
+f2a0a630b953451a59a2612ad8c29246638f0a38 RDMA/erdma: Add event queue implementation
+db23ae64caac84622c025860df69d4bc4859fa9c RDMA/erdma: Add verbs header file
 155055771704f8cbb5c176a4309b7dc30a50450c RDMA/erdma: Add verbs implementation
 920d93eac8b97778fef48f34f10e58ddf870fc2a RDMA/erdma: Add connection management (CM) support
 d55e6fb4803c274918d7b41ea80b3848ef12695c RDMA/erdma: Add the erdma module
@@ -133,8 +135,6 @@ b97abb4d0e23766650619a6a57a52c91deb89b8a ARM: 9217/1: add definition of arch_irq
 3437021484dd8f71685012d47c2d2de6f020e943 ARM: 9218/1: dma-mapping: fix pointer/integer warning
 fe520635ddc4377e84f78c6cf1c54393f1dfa33b ARM: 9219/1: fix undeclared soft_restart
 f2d3b9a46e0ed4742abaa00506b18bb2ca9179d8 ARM: 9220/1: amba: Remove deferred device addition
-1208ec59eac7d9fceb016c7b565d48838776f779 char: remove VR41XX related char driver
-b5276c924497705ca927ad85a763c37f2de98349 drivers: lkdtm: fix clang -Wformat warning
 b6c694740ea21620c2b86ad37be2c0dc7051a48c kobject: fix Kconfig.debug "its" grammar
 b18ee4a44e3ff21936d35a9b215cfd6cd5f3af9a sysfs docs: ABI: Fix typo in comment
 f2d57765b79857264fb0ddc52679d661b60ecc21 firmware_loader: Replace kmap() with kmap_local_page()
@@ -1082,4 +1082,4 @@ fa9db655d0e112c108fe838809608caf759bdf5e Merge tag 'for-5.20/block-2022-08-04' o
 9daee913dc8d15eb65e0ff560803ab1c28bb480b Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 b2a88c212e652e94f1e4b635910972ac57ba4e97 Merge tag 'xfs-5.20-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============0344278601758202826==--
+--===============8302208324169117819==--
