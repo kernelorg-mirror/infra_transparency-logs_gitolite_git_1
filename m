@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0107107785831562928=="
+Content-Type: multipart/mixed; boundary="===============2413358070632030600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Fri, 05 Aug 2022 06:19:50 -0000
-Message-Id: <165968039010.6764.15388022902883607246@gitolite.kernel.org>
+Date: Fri, 05 Aug 2022 06:19:54 -0000
+Message-Id: <165968039421.6833.7730599147300474401@gitolite.kernel.org>
 
---===============0107107785831562928==
+--===============2413358070632030600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+  - ref: refs/heads/spdx-linus
+    old: 58301e1c15db89c0edc6a122c8f6fb5af271954b
     new: b2a88c212e652e94f1e4b635910972ac57ba4e97
-    log: revlist-f2906aa86338-b2a88c212e65.txt
+    log: revlist-58301e1c15db-b2a88c212e65.txt
 
---===============0107107785831562928==
+--===============2413358070632030600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680376 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680393 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1659680376-94db77ed96b189f0086a6bf7924544757274acb0
+nonce 1659680392-d46a7bedf8a735cf19d55cb16ef8008e7e3a278c
 
-f2906aa863381afb0015a9eb7fefad885d4e5a56 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/main
+58301e1c15db89c0edc6a122c8f6fb5af271954b b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstngbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VnYQAMqYDF17Dpbqt7V7LNMM
-dK1xzewZB937KijQsGyf5egSPGKs4Yo4xC/KeD7HedEpuUrbIAHs2VpVWPhJKBY2
-+o7wiLORLGrRc+5cbDdXdewkaWcqcdCmG8mEbvgjgBt8ld4GxzqO4Ea89kd3acV9
-YiISklgSjGOUIgVRGq3rcMUuo8JLd05YZWhCxhxgW04TctxARocMHTTdC3My4fif
-uteQ/woXaeAv3mjxb6KWSkUvtxy+v0tiWY4mgcwt2bvGq+EVnwIR8qeycTMWyrY2
-n5g/+WT6jTErRLxTw/CIYhWWuevDxfMR2Du5nESNhCWhWbJHbXbft7ZbRZlXj7rR
-4QwqDIad4od+CrsdE+vzldGr85cqdLK42vexotlgtueU3Zm7i5eSf2cZJ2GYj8lz
-P2DkyJTWjktWQpjMU7xNHI/Bh7ntQgnz2vQC6iwRj0FQO8lfPlqZKXLkUzqjT5y/
-F2BSxpiNPxIdqnUMVLI+/lNPOb8X8u765xBsbWUFT0N95QQu7WKvAqgAraPEFVdT
-oAhyyX3cHr8Q4ED8/2U17IyP/M77/ii6Z1mebCsCYQsenG1n98mGP5FMNV0yO5hH
-wHOzh2oh66qKPow8lrIl1ZUdaoS4m4wS6hhpWgc4oaE7xvypqIs8vtAN4/O74vFD
-i7k3xYKkuuimonSdzyrFfbOF
-=HI6Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstokbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yHoP/1D0et8Vq5nrPAwiEPd4
+Sr3Fw71JS9v4oVzmgLnCoqW9cvGUOd3qcYuIoxPKiYqq7RJlQ/Igma734xWEzSaq
+qYRjIP5+B8tZ3OtGlXu2y7/uy4DqhBZ1Py4wMH5Aio5OdX/oE1IO1niuEbNHaT7k
+fJXKOUvQ3yQLenDXJCiCrWCapH6z2RmO0rsr/tc0qJSVrNlmudcUNi+cXlm/mjD+
+iq5OSF4+sfFDjRXgYl5AwRV+qAQ7aknppncngZs5EDsREnMATFMLh25WfamdJMeQ
+doKfrPr2uy4wgoF5i+uXD6ZT2F9xdBTblMk+0hXsRIoILWYRsRpov7UoJTilEUp1
+FXFdCrTslHgiPX+1ctcS2bHGHzVql7V33DQThP/ECGm4EJ1h1nrt5zN47zkLv2vj
+QmCtK/2T/+I0miaSCyQfeJ+icMnRzp46KWOQXRLgJXHf8o4xUJhZCnnoFlkRoDis
+5rvUCU4W2tRfTfvLIfzPXanXV05aRJJxjzYKpaV/uvWXpjjBJlQSBfFsbvfKK7L9
+J/GXhmu+9decGsx7pIIP19cBc3RUlS4a0aRzOk6WSY/lTzmKsQtQhOzJZpx84g0e
+v66SCJ/U5805nSrQBp++OmnJCkMDj/42iwXevGaOhOeMprkm4U2q1V0IfdfPLU+0
+Vi8ChxocI4ftFNr48GJzr93W
+=XDA8
 -----END PGP SIGNATURE-----
 
---===============0107107785831562928==
+--===============2413358070632030600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-b2a88c212e65.txt
+Content-Disposition: attachment; filename=revlist-58301e1c15db-b2a88c212e65.txt
 
 155055771704f8cbb5c176a4309b7dc30a50450c RDMA/erdma: Add verbs implementation
 920d93eac8b97778fef48f34f10e58ddf870fc2a RDMA/erdma: Add connection management (CM) support
@@ -1082,4 +1082,4 @@ fa9db655d0e112c108fe838809608caf759bdf5e Merge tag 'for-5.20/block-2022-08-04' o
 9daee913dc8d15eb65e0ff560803ab1c28bb480b Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 b2a88c212e652e94f1e4b635910972ac57ba4e97 Merge tag 'xfs-5.20-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============0107107785831562928==--
+--===============2413358070632030600==--
