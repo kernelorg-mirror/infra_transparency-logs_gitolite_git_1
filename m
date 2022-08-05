@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 05 Aug 2022 22:55:22 -0000
-Message-Id: <165974012219.30742.7442429035731020050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 05 Aug 2022 23:06:07 -0000
+Message-Id: <165974076711.5165.16505065425171590386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/dev.2022.08.03b
+  - ref: refs/tags/riscv-for-linus-5.20-mw0
     old: 0000000000000000000000000000000000000000
-    new: ce1b7858edab35808512996e67c82cac4273381c
+    new: fecf6bc2301f6478bd7a1d135022b5a7d2499554
