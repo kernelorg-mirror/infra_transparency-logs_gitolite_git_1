@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0966938528024699460=="
+Content-Type: multipart/mixed; boundary="===============4851060141986965620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 05 Aug 2022 06:17:40 -0000
-Message-Id: <165968026016.5576.1421298490546190689@gitolite.kernel.org>
+Date: Fri, 05 Aug 2022 06:17:44 -0000
+Message-Id: <165968026445.5699.1785783479613471597@gitolite.kernel.org>
 
---===============0966938528024699460==
+--===============4851060141986965620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 87f600af59e8cf6abb04bac15328bcb517e26485
     new: b2a88c212e652e94f1e4b635910972ac57ba4e97
     log: revlist-87f600af59e8-b2a88c212e65.txt
 
---===============0966938528024699460==
+--===============4851060141986965620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680259 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680263 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1659680258-e41fb1277125d3628c5103125c418c711b443461
+nonce 1659680262-0fd8cd87e4a58421bd3ee5671a313dd6db3d6f43
 
-87f600af59e8cf6abb04bac15328bcb517e26485 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/staging-next
+87f600af59e8cf6abb04bac15328bcb517e26485 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstgMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FVYP/jVHGejyfs0yhTNAYJ3F
-gwge5InEapIiOZb88U5p9l6xNuDN+NmwlUvOcZ2bSEYlVUL39gbA0r6vfFMOmsZ9
-zpLSu3NFilyJiQQ1qnmgZx+LffVmYb3O7PIOWm1TOfc+VibE8t8hqHgGEIp8zpQr
-bSklg2fTex+ZWOyspS9bAonIn5F7S2FBJBFlR5On7oAgc1Ph87fFgARESyYv5/ZF
-dDN5aVkp9uQWqfooL5HP4AxGigUPIwm6SpjDGNKgfDfEWdL0FrN78HmP3fL7pRlP
-fV/RgeD4QhRzmo/9n2JRJgUJW4befxm+75OHRK4DjXCntAAhy/8sgVehML9akn/g
-FNJ8pyjjbAtqm2DPOo3KTTV3o2QmEDCRlE5Lzf908RvwmvLL5xbi9/agvd0333aL
-QWx2JdVzDsiDy9t69ubhmDEJnS9hoyivm3aKW2vWiGxea6Z83r5beacEZj0D3mic
-nHZ1DmkadevfsyMxx4w+GxNI/HCi2RAj5xgcpTC8PWOxoKYa5BTYjOnjEKxYEBsz
-PwAhLuSc1ucKsz5DEPCmvvNHCE2R+jlHCsJGvMqfn9U2QPJYnDNpo0aC1sir7JQ6
-Fs1RsSJ7X4liv+seLG6HgCZI0LQNle6gUnX0y7E+CTq/yY/FYB5jGrVxnCogkd86
-pAkSXxslc17heUBGiPz35nsQ
-=c53s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstgcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sdMP/1HaMPbURGzococmvS7D
+9FUWpgKqTbDtrIvMwN4iSc3kdXwJJQ2dUNrxqzhLXENprWm6CjKHGQsn6abA475N
+v18AJGVsRkSqO/eT4QmtIZuMAzgcVbgfyfTqQ9qJ6CQ+/DzbFdyPApgRnH9X/DK0
+yXswpl3lGn8XZHVaOeOQKLhv/7S0LKRb+xHAF3axnsmT7puaUYRGWArwB66XeoWU
+KR/EJHWlQ8KRL3i7FvHFO74l13t1JRwYUyTFWpM8CezQISh0iQ0yfjSukdQAxYhh
+iqO6vfxYGRvQc5rYBIp6iw3+5YePffit9L4DEBqyWJdglQreAJKe2Lyd0VOKowGp
+5WqIY3u0yOX7IVD4M2b3BCKh5sZ9I+6r3O15c4utGaXuzbI4DJPrfbChb5QSFYZk
+3US4S42PJoL8vfumn816y7Jv+/Ly6DokWYNmdbbD4acez7Eh4D5ZhpHvRWLcLNnA
+9Bj6LpPpc5zh5zxmECQssxwvlb9GZii4t5rVA+Qo+3+la4dDPrwNyw0ndu+n46b+
+exXjS2rArGW6E5JR0dloRipl3eHeXK6iHNuPyP3ofIr1IlWCY4Moy2zrm2Gq+4tk
+SPkKVWc9hMujNFsT0VNklWyv2jOMHvSR9Tmr0vSY3v2emCAXnJRFwOOgzSGfmbAf
+j0NbT+FxESAPdPra4OmuseBM
+=bdaT
 -----END PGP SIGNATURE-----
 
---===============0966938528024699460==
+--===============4851060141986965620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fa9db655d0e112c108fe838809608caf759bdf5e Merge tag 'for-5.20/block-2022-08-04' o
 9daee913dc8d15eb65e0ff560803ab1c28bb480b Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 b2a88c212e652e94f1e4b635910972ac57ba4e97 Merge tag 'xfs-5.20-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============0966938528024699460==--
+--===============4851060141986965620==--
