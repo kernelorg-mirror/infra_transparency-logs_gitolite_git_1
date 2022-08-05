@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Fri, 05 Aug 2022 08:58:53 -0000
-Message-Id: <165968993382.21406.9950239164269820727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 05 Aug 2022 09:06:35 -0000
+Message-Id: <165969039501.27151.2579520781330398611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
-user: deller
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/devel
-    old: 5588f0d9aa1f99505daed5a46d8316fa4199568a
-    new: 557ff5aec869c2100d942ea14d22016ac2f874b9
-    log: |
-         557ff5aec869c2100d942ea14d22016ac2f874b9 palo 2.21 release
-         
+  - ref: refs/heads/fiemap_speedup
+    old: 0000000000000000000000000000000000000000
+    new: 6bdc02edbb52786df2d8c2405d790390d9a9443c
