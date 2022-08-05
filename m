@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 05 Aug 2022 18:39:02 -0000
-Message-Id: <165972474264.15293.10892400902701514461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 05 Aug 2022 19:02:43 -0000
+Message-Id: <165972616395.32021.11242416390605389093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 69339c7a97770ccfbd37806909fde0bab5a72318
-    new: d6b3d6d730d0b7c66c649a51d53088cb2b0598a1
+    old: 4e8e39163688ce2689b09552b72538626ac507ce
+    new: 226cd95d78c24dee169bb96913721221fb8f656a
     log: |
-         d6b3d6d730d0b7c66c649a51d53088cb2b0598a1 scan: watch for regdom updates to enable 6GHz
+         226cd95d78c24dee169bb96913721221fb8f656a random.4: tfix
          
