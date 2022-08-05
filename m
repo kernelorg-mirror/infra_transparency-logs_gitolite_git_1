@@ -1,62 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============8355863647475911026=="
+Content-Type: multipart/mixed; boundary="===============0966938528024699460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 05 Aug 2022 06:17:38 -0000
-Message-Id: <165968025890.5514.3582962994276660778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 05 Aug 2022 06:17:40 -0000
+Message-Id: <165968026016.5576.1421298490546190689@gitolite.kernel.org>
 
---===============8355863647475911026==
+--===============0966938528024699460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: b5276c924497705ca927ad85a763c37f2de98349
+  - ref: refs/heads/staging-next
+    old: 87f600af59e8cf6abb04bac15328bcb517e26485
     new: b2a88c212e652e94f1e4b635910972ac57ba4e97
-    log: revlist-b5276c924497-b2a88c212e65.txt
+    log: revlist-87f600af59e8-b2a88c212e65.txt
 
---===============8355863647475911026==
+--===============0966938528024699460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680258 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1659680257-42fdf28833dae1ac9ffef2228787b114e71e058e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680259 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1659680258-e41fb1277125d3628c5103125c418c711b443461
 
-b5276c924497705ca927ad85a763c37f2de98349 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/char-misc-testing
+87f600af59e8cf6abb04bac15328bcb517e26485 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H70QANQD3FO2W3+swwj8C1DR
-5JM1HrAOCIB2ckcrJI7tzQq33rGtdzBrX/Em3JUT6sLtbjWX5O614mo05Ezbi8Ix
-U2n7PKECU0Bis0nhAvvg/uip5d/9NGxX43BN9d7/nLSDjEHBsPG/cYPvUfJJvn+Z
-ntQzXDsgbKbF3G9Y9urJuJcqerqoMy9+i43/l9XsaseHEP6xOHn09SJGFT6xaRjN
-0zfxVczIEYtUY697FFLIesjXjCKDArCtpfGMQmmW6qOY5xa9ljHvuiFNb0p3/hPM
-lvAlv+2mS9405P/3O88pCgZqChLMKBwXgrCf98xYVosgNyvzuPD6Ji4IFkITH9bU
-N5m65fnU5hHQrlBIk++I80zJhDGQyt70ZN+CB0jgLpByjtmhNyIgseUTSbvusoUn
-kzmrq2nJRBEG2Munh8d4vc5ClYTJcJ/+Q/WwLQf1tIK6OvDsPB6PGLA+1jOcHPzE
-WxnexuzCKE7m7kSEcghPwn+1nENfB70ngQI0x02GlDtPJdJ7Mg17Z/BeSOlV0sXp
-oxJXmG9Pq3J75ywvAgJsNmI93I5/PJrEeYmLiQz+5xKSsOn/rpWqs5lxZ6qFqFlP
-OpNvjYkbCHsy1z1GvglRe5k44VNZxxo+bRUCOLuIEraXLl6WPDpFjmvXUr0i4fNn
-68Gn59CPXNKBOZ1fGxHzA/ox
-=0RL2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLstgMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FVYP/jVHGejyfs0yhTNAYJ3F
+gwge5InEapIiOZb88U5p9l6xNuDN+NmwlUvOcZ2bSEYlVUL39gbA0r6vfFMOmsZ9
+zpLSu3NFilyJiQQ1qnmgZx+LffVmYb3O7PIOWm1TOfc+VibE8t8hqHgGEIp8zpQr
+bSklg2fTex+ZWOyspS9bAonIn5F7S2FBJBFlR5On7oAgc1Ph87fFgARESyYv5/ZF
+dDN5aVkp9uQWqfooL5HP4AxGigUPIwm6SpjDGNKgfDfEWdL0FrN78HmP3fL7pRlP
+fV/RgeD4QhRzmo/9n2JRJgUJW4befxm+75OHRK4DjXCntAAhy/8sgVehML9akn/g
+FNJ8pyjjbAtqm2DPOo3KTTV3o2QmEDCRlE5Lzf908RvwmvLL5xbi9/agvd0333aL
+QWx2JdVzDsiDy9t69ubhmDEJnS9hoyivm3aKW2vWiGxea6Z83r5beacEZj0D3mic
+nHZ1DmkadevfsyMxx4w+GxNI/HCi2RAj5xgcpTC8PWOxoKYa5BTYjOnjEKxYEBsz
+PwAhLuSc1ucKsz5DEPCmvvNHCE2R+jlHCsJGvMqfn9U2QPJYnDNpo0aC1sir7JQ6
+Fs1RsSJ7X4liv+seLG6HgCZI0LQNle6gUnX0y7E+CTq/yY/FYB5jGrVxnCogkd86
+pAkSXxslc17heUBGiPz35nsQ
+=c53s
 -----END PGP SIGNATURE-----
 
---===============8355863647475911026==
+--===============0966938528024699460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5276c924497-b2a88c212e65.txt
+Content-Disposition: attachment; filename=revlist-87f600af59e8-b2a88c212e65.txt
 
+be3cff0f242d8b5ea43ca5beb4c2b44b216d0fe1 RDMA/erdma: Add the hardware related definitions
+bee85e0e31ecd2afbd19d2ae900f029a6f0c9e6d RDMA/erdma: Add main include file
+2af541bf8e32ee73f17fb28e2b3766a96b7311e5 RDMA/erdma: Add cmdq implementation
 f2a0a630b953451a59a2612ad8c29246638f0a38 RDMA/erdma: Add event queue implementation
 db23ae64caac84622c025860df69d4bc4859fa9c RDMA/erdma: Add verbs header file
 155055771704f8cbb5c176a4309b7dc30a50450c RDMA/erdma: Add verbs implementation
@@ -95,9 +98,6 @@ cfcb4465e9923bb9ac168abcea84e880633f9cef can: slcan: remove legacy infrastructur
 221d14bd3d2e9acc3a33cfcf8f66485d592e5038 can: janz-ican3: add software tx timestamp
 6153a7ea650ff1249d703d09a3351c3f77f1fbfa can: slcan: add software tx timestamps
 6a37a28b1864c447a20a1609f90f3e2dfaff0705 can: v(x)can: add software tx timestamps
-81e878887ff82a7dd42f22951391069a5d520627 staging: fbtft: core: set smem_len before fb_deferred_io_init call
-899336721928914bfbda515457706616bf2e676d staging: vt6655: Rename MACvClearStckDS
-c528bbb7dc062c707f6064eec1bccafb8490758f staging: vt6655: Convert macro vt6655_mac_clear_stck_ds to function
 4158e38967975f14c3e6fb0e04df90e32061d463 Revert "Merge branch 'octeontx2-minor-tc-fixes'"
 321eaf317dec3710e7a4ad3b3c363d9314c15195 docs: driver-api: firmware: add driver firmware guidelines. (v3)
 3fe4076482789c2c4a772f6676b246a0d96c99c4 kernfs: Fix typo 'the the' in comment
@@ -135,6 +135,8 @@ b97abb4d0e23766650619a6a57a52c91deb89b8a ARM: 9217/1: add definition of arch_irq
 3437021484dd8f71685012d47c2d2de6f020e943 ARM: 9218/1: dma-mapping: fix pointer/integer warning
 fe520635ddc4377e84f78c6cf1c54393f1dfa33b ARM: 9219/1: fix undeclared soft_restart
 f2d3b9a46e0ed4742abaa00506b18bb2ca9179d8 ARM: 9220/1: amba: Remove deferred device addition
+1208ec59eac7d9fceb016c7b565d48838776f779 char: remove VR41XX related char driver
+b5276c924497705ca927ad85a763c37f2de98349 drivers: lkdtm: fix clang -Wformat warning
 b6c694740ea21620c2b86ad37be2c0dc7051a48c kobject: fix Kconfig.debug "its" grammar
 b18ee4a44e3ff21936d35a9b215cfd6cd5f3af9a sysfs docs: ABI: Fix typo in comment
 f2d57765b79857264fb0ddc52679d661b60ecc21 firmware_loader: Replace kmap() with kmap_local_page()
@@ -396,7 +398,6 @@ e9bbf019af44b204b71ef8edf224002550aab641 net: dsa: qca8k: move port LAG function
 9d1bcb1f293f1391302a109c9819c3705c804700 net: dsa: qca8k: move read_switch_id function to common code
 92b54e09c002c8d48e5c3b7d8d8feee5281340bf Merge branch 'net-dsa-qca8k-code-split-for-qca8k'
 ba323f6bee1d1e70aed280f8c89ac06959559855 dt-bindings: nfc: use spi-peripheral-props.yaml
-f3a76018dd55d8ddcd28cb47049f46ae5c0ce557 staging: r8188eu: remove initializer from ret in rtw_pwr_wakeup
 571c30b1a88465a1c85a6f7762609939b9085a15 x86/bugs: Do not enable IBPB at firmware entry when IBPB is not available
 e0f3907b3901df814c12ca54d65ef37000ce1515 can: etas_es58x: remove useless calls to usb_fill_bulk_urb()
 ec85bd369fd2bfaed6f45dd678706429d4f75b48 ARM: findbit: fix overflowing offset
@@ -572,7 +573,6 @@ cf634d540a29018e8d69ab1befb7e08182bc6594 fs/dcache: Disable preemption on i_dir_
 6eebd5fb20838f5971ba17df9f55cc4f84a31053 locking/rwsem: Allow slowpath writer to ignore handoff bit if not set by first waiter
 4e8bb4ba5a558159ffbfa7e60322a1c151c3903c csky: Add jump-label implementation
 6a010258447d386186ca10cd374d888ac66ffe1a Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-87f600af59e8cf6abb04bac15328bcb517e26485 staging: r8188eu: fix potential uninitialised variable use in rtw_pwrctrl.c
 45e15c1a375ea380d55880be2f8182cb737b60ed csky: Add qspinlock support
 7f8030cea33001d08cdaf2ee5a24385b2c3f723e csky: Enable ARCH_INLINE_READ*/WRITE*/SPIN*
 ecce9212d0fd7a2d4a4998f0c4623a66887e14c8 erofs: update ctx->pos for every emitted dirent
@@ -1082,4 +1082,4 @@ fa9db655d0e112c108fe838809608caf759bdf5e Merge tag 'for-5.20/block-2022-08-04' o
 9daee913dc8d15eb65e0ff560803ab1c28bb480b Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 b2a88c212e652e94f1e4b635910972ac57ba4e97 Merge tag 'xfs-5.20-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============8355863647475911026==--
+--===============0966938528024699460==--
