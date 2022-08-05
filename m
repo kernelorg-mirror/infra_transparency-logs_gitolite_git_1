@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1197431008544320344=="
+Content-Type: multipart/mixed; boundary="===============4721098549817280692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 05 Aug 2022 06:32:29 -0000
-Message-Id: <165968114927.17983.933654659677960696@gitolite.kernel.org>
+Date: Fri, 05 Aug 2022 06:37:40 -0000
+Message-Id: <165968146011.21241.11726057860043490821@gitolite.kernel.org>
 
---===============1197431008544320344==
+--===============4721098549817280692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: b2a88c212e652e94f1e4b635910972ac57ba4e97
-    log: revlist-f2906aa86338-b2a88c212e65.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 4b0e7e55cc1e6f1b0bfd8eaaa853b879b80172cf
+    new: 1c901ede976a22c518a216392a22dabd8ef37ce3
+    log: revlist-4b0e7e55cc1e-1c901ede976a.txt
 
---===============1197431008544320344==
+--===============4721098549817280692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659681148 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659681456 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1659681147-b4f557a077cc5dfb398578a9b888f78e7c560e0f
+nonce 1659681454-73d5fe8ed32042b9c99bcd16b4c6dc735252a9f6
 
-f2906aa863381afb0015a9eb7fefad885d4e5a56 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/kobject-const
+4b0e7e55cc1e6f1b0bfd8eaaa853b879b80172cf 1c901ede976a22c518a216392a22dabd8ef37ce3 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLsuXwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ryEP/jSaKC9051dYB9mn5LRQ
-8/eDU2HT1sy7p+QmxUaKyqcfhoRu4CoKFqZCZ1x7v9Y8TlOaZumH/4SQezO2qeN8
-cMCyJwqQG12u4kpCr3vzkHnXPRgsCgnXlKN4Q0Er3qnRPPQTzOjKdkBqRrOgAXAo
-Ewe/ILGOqGbGujk2ijXzXktRfseXJGr3AHo61UpqfmkYSBV0SkKXADVq+iGH2ppW
-QZ1I37rq7UQI3WZYqnIdYimOXK98uFbwzHc0f7zy3MAk7W62BAkVpxwZNoCKVzC2
-xHeqNzuJ54hXzEwONOSlAboC59Fb9hlG9KnGXYPu9sU1a8QZ61LOAt/CKKUTvWgy
-pqeN2SsXbR045haEBDsk5x4y3cHzBMU7c0DtSeMyxj2GfJ5LcUTNEhewsjhZpzVz
-a61AVhjZXUraY0L+f0v3MUDpUUWjHDautFZdtG/Ny+tzC63l1oqQLbx+kDb6C4ts
-RzztbokwSpvf1Bm6hTotZ5kiXb7jxFMg9G/+keg/3PpKqojxL10ofPqr4o7ruSAB
-8LgiM2Zf1qHjNnpQ2VZ/eul+26cs3VVepU063dcdvC1je22JEWknIvihMxCgU0L4
-8f4MpUbVjTyEK/kqsqTNFqAxCzVh7gFp8J2kWEABR0xE0hnC3uJDHPh0qyDLRYO9
-U8L+U7i3twHuLLTeomAjBaMh
-=c4ev
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLsurAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1AwQAK6hkXVTXOnpKzT3yDAp
+HQWUY3PeZJcy5DM3XlsQIka0Pxjrlw0kmNH5ywBFti0cmGX2dYqdZVL62C0tioFd
+JzNhz/nQngBTYn1tb/f4U3hUiKNGSMXZUj+dFkWFawt1BqbXtXaDN6MgSDLkWzzO
+YsPAlSRwYvs0IJSfLaLyRxM5WV79byAXDdRJn0KT3F2ICR8nBBCcB93qakpml+9G
+2gh/RX3yKJE8YA66dCEcGi72+B+iQ8ARMzXIQ2utakDs8wduPU1GKXMR43hZBjC2
+/i2mGhAFxFD6ateAAH9QehPlkJ5gUKOC4WHXHvI/HunbZy/ogbo8yec/ZkTIwNbD
+jqxIKEuJZD3X/2gJy4awNNqm8zUC3wWGINwh4cpn38v+xzHf45qgsWhgthxnLqRk
+iSWTtbTdsTK/sZLzhBEcksRQktn00G41szL6gbCOwBdIhDHO151lQVECE7H+OQOR
+QaoYBy94uyQqMlTIaubjQ/ykvak+Hq4FMrstJIE7DpbLs12TKXRTgHv1+u9udbYK
+7Ib77GKYqtPdusYXMdg5VSkmoxOy0YRjZSbqBJNl2GxdiHBioFWuxP2cpJkqMyb1
+jkYKS79Lr2TIH78isPEqIRKuy26yywB8u1TifmsZghmOEzbnosyqcbiqx8FLKIS4
+3g8UPKmNxVnkI2UEnERQ4aAt
+=hulA
 -----END PGP SIGNATURE-----
 
---===============1197431008544320344==
+--===============4721098549817280692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-b2a88c212e65.txt
+Content-Disposition: attachment; filename=revlist-4b0e7e55cc1e-1c901ede976a.txt
 
-155055771704f8cbb5c176a4309b7dc30a50450c RDMA/erdma: Add verbs implementation
-920d93eac8b97778fef48f34f10e58ddf870fc2a RDMA/erdma: Add connection management (CM) support
-d55e6fb4803c274918d7b41ea80b3848ef12695c RDMA/erdma: Add the erdma module
-df9ec2fc8e70e01532fd9161cd98711969561ff6 hantro: Remove incorrect HEVC SPS validation
-f5995fe2a0b1f4ec5e52e2022452246a13bf89b7 RDMA/erdma: Add the ABI definitions
-ca7fd6cff3b8df436f3e46b8fc80e6989700c8da RDMA/erdma: Add driver to kernel build environment
-3e93c0b8a981b55c8ee45aae2abf6028730ab194 Merge branch 'erdma' into rdma.git for-next
-3ce4b78f73e8e00fb86bad67ee7f6fe12019707e selftests/seccomp: Fix compile warning when CC=clang
-b4909252da9be56fe1e0a23c2c1908c5630525fa drivers: lkdtm: fix clang -Wformat warning
-2c65e312bc6bb6e175c16a17db8ec86d2dcd1608 ACPI/PCI: Remove useless NULL pointer checks
-aaf50b1969d7933a51ea421b11432a7fb90974e3 kasan: test: Silence GCC 12 warnings
 485ade76c95ac5ccaa52fee9d712471c9211b989 media: hantro: Remove dedicated control documentation
 c6e8e36c6ae4b11bed5643317afb66b6c3cadba8 exec: Call kmap_local_page() in copy_string_kernel()
 efc93392960cb9c3534e7aed15481ca7bcfdf15c regulator: Consumer load management improvements
@@ -1081,5 +1070,16 @@ e495274793ea602415d050452088a496abcd9e6c Merge tag 'for-linus' of git://git.kern
 fa9db655d0e112c108fe838809608caf759bdf5e Merge tag 'for-5.20/block-2022-08-04' of git://git.kernel.dk/linux-block
 9daee913dc8d15eb65e0ff560803ab1c28bb480b Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 b2a88c212e652e94f1e4b635910972ac57ba4e97 Merge tag 'xfs-5.20-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+74f71ae3b08a60cafb8643389d11694fd01ef197 platform/x86: dell-privacy: convert to use dev_groups
+e04c8cbe5e83d5eb16947f9e9bbb0abe80c7d00b soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+a479f3aa3e64fc2c08a1853e36a368a9450e3b90 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+9c3c68ea9f2cbb82d9d6cea40e833c692367b178 soundwire: sysfs: have the driver core handle the creation of the device groups
+f936fa7381f0458b371078cbc62de6dd937c17e4 soundwire: sysfs: remove sdw_slave_sysfs_init()
+42b08c3535f1f0b509a42d04fa4fd12cc0c22833 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+b32ef74c8b8ba930a73ad6d7a0afea6357a4fc40 leds: turris-omnia: convert to use dev_groups
+898ef82becaa1d5198d90d27e2d3028792ebf8cd Input: elan_i2c - convert to use dev_groups
+ca1df0049a3e6d543034f007be15a0e2f691de26 driver core: remove devm_device_add_groups() and devm_device_remove_groups()
+78106633aeb93bc59d31b34126efae00d2e9cf81 HID: playstation: convert to use dev_groups
+1c901ede976a22c518a216392a22dabd8ef37ce3 HID: vivaldi: convert to use dev_groups
 
---===============1197431008544320344==--
+--===============4721098549817280692==--
