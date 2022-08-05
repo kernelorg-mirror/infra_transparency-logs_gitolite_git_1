@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5066992778356288295=="
+Content-Type: multipart/mixed; boundary="===============4151405702638792266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 05 Aug 2022 06:23:23 -0000
-Message-Id: <165968060324.9961.557915053651288316@gitolite.kernel.org>
+Date: Fri, 05 Aug 2022 06:23:28 -0000
+Message-Id: <165968060835.10079.15757545397092570709@gitolite.kernel.org>
 
---===============5066992778356288295==
+--===============4151405702638792266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+  - ref: refs/heads/driver-core-next
+    old: 273aaa24369cb8d0f246bb16f7122b91a1ef5188
     new: b2a88c212e652e94f1e4b635910972ac57ba4e97
-    log: revlist-f2906aa86338-b2a88c212e65.txt
+    log: revlist-273aaa24369c-b2a88c212e65.txt
 
---===============5066992778356288295==
+--===============4151405702638792266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680602 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659680607 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1659680601-fbb2df9e469ea5fb0152551a2c15e550256c1475
+nonce 1659680605-8e41f762d5577432ceb3549a1e5082a48483ebf0
 
-f2906aa863381afb0015a9eb7fefad885d4e5a56 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/driver-core-linus
+273aaa24369cb8d0f246bb16f7122b91a1ef5188 b2a88c212e652e94f1e4b635910972ac57ba4e97 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLst1obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XXcQAJfLqHQsRTeFmWvxo6X0
-XicJ4ATpDdIJ9RzP86SCVuziMu4qYZBpvgN6KV5E1dp52zR28vWQUb63O38uUMyK
-hpnTbZoXNr7jH0fPQFjaQFDB1gKKxEp7D6i7wM38wXlbTZCZmh+90dN22OErcvi1
-pTwPAkI+higHIUHh3/ll+fa0OcrA7VjZu43BIQ0R+EPJILk/zFuGIVo/GPkRIw2u
-yD7TynqNKDurKbiMU7aSLc+DLuteM/DtLg2Xr0LZFWjK36Yk/Jy1+F7z+7wvRSSf
-qC/U9QyGmwzv/hwLr41ODs+fr8AKJu2gFOw4XYlTy7HEwBxitYohTGf9D3StLNvi
-FIALP8PAScgD56n32hqCX+vkUvhORQad+hTbzXP2bVHHL94zftbeR4lT0O3JOmwS
-w1FT5y7CUcW3iQdBbalIVLkGi9rJkDGgFGMIvtljxD6c/hVZP0jG8HMUsvDOVbVz
-cdKQ/BavdRI6MdOsNknsCGGLo8pOTrfR+shbAoA8KsIZupSjEnL++pXa6U3r3p2E
-IPutGNZt6jjdUPxC9FvhsA8EeM5t9LL8A0O3v4kWeXw9bE9/FyQUAz6L2p0LYAPE
-k2eHpzkf05Nrye+uRuo1O9O34mJNbEmaTPrq46BCTNENwmrDdV6HrSj06GMOVp8E
-ovHGnrqf7tB8ZcD1DCZR0epO
-=udv5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLst18bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PSAP/0KtjEj0diRJTRYbLEW8
+tra6z8aIrH5hL6+21FXpx5nQkEiHirn5PKRvATP7fZ5fI2Tj4bT37iZpZzhtD9jn
+qBvAdVpvnMEfxrtmj1X5qzIIAOKFHUcEY7ln79J8OQEXl3RLNeW6FePiwUCAg7gu
+acuj7U57vwtQYyXyx70y9cQIlI5OS+v7HIe04bMNq8MENaPyU/hnccaoCndEErv7
+U74Pnhat2i+ob5747pDgjkSrY7s/TxK//RavWd/nFFArgVwh7gtxpvtQ+3rwTPt7
+puBrjUgiorpUJXx7fL+XGihQWIRMW/azQmtaD6XsFxQXXzqzFUDrOBKf5Ht+i9Jf
+TNGtSN7fyevmVVkZ42Wu6ddyFmbDmp9E/eZAu3CXMXG9kHtgglCS9GDCJN/Bde+2
+teQef6c8zb+8Q3McUkCzny3dKJFvcGH59X60MFTbk5qlrZLi874zha4fGfHdyeDn
+cwvu/n0ifMbFX62RVm244+Gui0R2cKdF0JiPI0G6iawYqaW00NIA4BGVVJ/X/bfJ
+Xbzy0UAZKrtBMKR74edIRLNGaYcYziu2CMngOrzIa3z3IL79ATxCwOu9lVt/O9j8
+jMtMVy9/Ixa+AfZiW0nJVYcxk8JdQujBHgxvM1aiVcUYmaWbHYG0pn0R2Hh9JJzQ
+ophlyTNyzhjDk0N2XEcNh4V4
+=QhFL
 -----END PGP SIGNATURE-----
 
---===============5066992778356288295==
+--===============4151405702638792266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-b2a88c212e65.txt
+Content-Disposition: attachment; filename=revlist-273aaa24369c-b2a88c212e65.txt
 
+d8f70c47394c26a8d7c6e602d909de88d1bdae5e RDMA: Add ERDMA to rdma_driver_id definition
+be3cff0f242d8b5ea43ca5beb4c2b44b216d0fe1 RDMA/erdma: Add the hardware related definitions
+bee85e0e31ecd2afbd19d2ae900f029a6f0c9e6d RDMA/erdma: Add main include file
+2af541bf8e32ee73f17fb28e2b3766a96b7311e5 RDMA/erdma: Add cmdq implementation
+f2a0a630b953451a59a2612ad8c29246638f0a38 RDMA/erdma: Add event queue implementation
+db23ae64caac84622c025860df69d4bc4859fa9c RDMA/erdma: Add verbs header file
 155055771704f8cbb5c176a4309b7dc30a50450c RDMA/erdma: Add verbs implementation
 920d93eac8b97778fef48f34f10e58ddf870fc2a RDMA/erdma: Add connection management (CM) support
 d55e6fb4803c274918d7b41ea80b3848ef12695c RDMA/erdma: Add the erdma module
@@ -97,8 +103,6 @@ cfcb4465e9923bb9ac168abcea84e880633f9cef can: slcan: remove legacy infrastructur
 899336721928914bfbda515457706616bf2e676d staging: vt6655: Rename MACvClearStckDS
 c528bbb7dc062c707f6064eec1bccafb8490758f staging: vt6655: Convert macro vt6655_mac_clear_stck_ds to function
 4158e38967975f14c3e6fb0e04df90e32061d463 Revert "Merge branch 'octeontx2-minor-tc-fixes'"
-321eaf317dec3710e7a4ad3b3c363d9314c15195 docs: driver-api: firmware: add driver firmware guidelines. (v3)
-3fe4076482789c2c4a772f6676b246a0d96c99c4 kernfs: Fix typo 'the the' in comment
 5f10376b6bc1e2773f56977980ab08c9e4fa91a7 add missing includes and forward declarations to networking includes under linux/
 409c188c57cdb5cb1dfcac79e72b5169f0463fe4 can: tree-wide: advertise software timestamping capabilities
 8bdd1112edcd3edce2843e03826204a84a61042d can: dev: add hardware TX timestamp
@@ -135,9 +139,6 @@ fe520635ddc4377e84f78c6cf1c54393f1dfa33b ARM: 9219/1: fix undeclared soft_restar
 f2d3b9a46e0ed4742abaa00506b18bb2ca9179d8 ARM: 9220/1: amba: Remove deferred device addition
 1208ec59eac7d9fceb016c7b565d48838776f779 char: remove VR41XX related char driver
 b5276c924497705ca927ad85a763c37f2de98349 drivers: lkdtm: fix clang -Wformat warning
-b6c694740ea21620c2b86ad37be2c0dc7051a48c kobject: fix Kconfig.debug "its" grammar
-b18ee4a44e3ff21936d35a9b215cfd6cd5f3af9a sysfs docs: ABI: Fix typo in comment
-f2d57765b79857264fb0ddc52679d661b60ecc21 firmware_loader: Replace kmap() with kmap_local_page()
 3cbf6a8ab70b21de75bc389d384911392cf7f616 drivers/thermal/cpufreq_cooling: Use private callback ops for each cooling device
 3f7ced7ac9af43fbc0b886aa9ef4397a5fa4b6e1 drivers/thermal/cpufreq_cooling : Refactor thermal_power_cpu_get_power tracing
 9784d2fbb858ec0dd8d0032293aa06fa736d6ea2 drivers/thermal/cpufreq_cooling: Update outdated comments
@@ -485,7 +486,6 @@ c9d57373fc87a3ad00d12cffd0bb4c8108c73ff9 RISC-V: KVM: Add G-stage ioremap() and 
 334facd651b98f2e6c6bb699405f8b7421b9b40c wifi: rtw89: 8852a: adjust IMR for SER L1
 42bbf810e155efc6129a3a648ae5300f00b79d7b wifi: rtw88: check the return value of alloc_workqueue()
 35610745d71df567297bb40c5e4263cda38dddd5 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
-273aaa24369cb8d0f246bb16f7122b91a1ef5188 docs: embargoed-hardware-issues: fix invalid AMD contact email
 f611b33af2a88f4179b130d4bf7c482271ce1c81 Merge back cpuidle material for 5.20.
 ec60d54cb9a3d43a02c5612a03093c18233e6601 iavf: Fix max_rate limiting
 93cb804edab1b9a5bb7bb7b6824012dbb20abf22 iavf: Fix 'tc qdisc show' listing too many queues
@@ -1082,4 +1082,4 @@ fa9db655d0e112c108fe838809608caf759bdf5e Merge tag 'for-5.20/block-2022-08-04' o
 9daee913dc8d15eb65e0ff560803ab1c28bb480b Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 b2a88c212e652e94f1e4b635910972ac57ba4e97 Merge tag 'xfs-5.20-merge-6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============5066992778356288295==--
+--===============4151405702638792266==--
