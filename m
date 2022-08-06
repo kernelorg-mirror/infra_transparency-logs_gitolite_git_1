@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4051596924461641857=="
+Content-Type: multipart/mixed; boundary="===============9198589570804662807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 06 Aug 2022 21:26:28 -0000
-Message-Id: <165982118897.30579.8392523516729564586@gitolite.kernel.org>
+Date: Sat, 06 Aug 2022 21:26:39 -0000
+Message-Id: <165982119971.30701.7835064962649845058@gitolite.kernel.org>
 
---===============4051596924461641857==
+--===============9198589570804662807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-statx
-    old: 154a6fd2497dd68cdc167f8eaab0849418c60632
-    new: 056aa3f768db519eabb09fa760cee479c0eef40a
-    log: revlist-154a6fd2497d-056aa3f768db.txt
+  - ref: refs/heads/crypto-pending
+    old: fc4e1b2473f43475d475f9989715b2be174efadc
+    new: 0b8ddd04f1d7868a0bfc83606bc458a542e461c2
+    log: revlist-fc4e1b2473f4-0b8ddd04f1d7.txt
 
---===============4051596924461641857==
+--===============9198589570804662807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-154a6fd2497d-056aa3f768db.txt
+Content-Disposition: attachment; filename=revlist-fc4e1b2473f4-0b8ddd04f1d7.txt
 
+aa316247c726d96f0bc205413c54ab49622ca737 drm/amdgpu/dc/dce: fix repeated words in comments
+8585732baa40455fbae9575d0c8316f4b0cf68f5 drm/amdgpu: use adev_to_drm for consistency
+1f83db6be37c53f6d395a41ee2602e3280ee60c2 drm/amdgpu: Fix the incomplete product number
+79b2c54f19110235041d8f1250e3c3694047a902 drm/amdgpu: Allow TTM to evict svm bo from same process
+4959e609de1ed4199f33124a88a4c9ab95f5cd9a drm/amdkfd: Set svm range max pages
+5640cb8921c9aff1270557482237e06af00c388b drm/amdkfd: Split giant svm range
 8b3120dfc192a4c61f73a0798755713ba2d3eb8a drm/amd/display: Clean up some inconsistent indenting
 3f5a3881f1e26aa5e3ae34e34e439edce291ef5a drm/amd/display: Clean up some inconsistent indenting
 fcac1ac7f1e3fb877aad51c134ff2776bd24f9d6 drm/amd/display: Clean up some inconsistent indenting
@@ -1041,14 +1047,8 @@ f20c95b46b8fa3ad34b3ea2e134337f88591468b Merge tag 'tpmdd-next-v5.20' of git://g
 c993e07be023acdeec8e84e2e0743c52adb5fc94 Merge tag 'dma-mapping-5.20-2022-08-06' of git://git.infradead.org/users/hch/dma-mapping
 20cf903a0c407cef19300e5c85a03c82593bde36 Merge tag 'for-6.0/dm-changes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 af3e9579ecfbe1796334bb25a2f0a6437983673a Revert "iommu/dma: Add config for PCI SAC address trick"
-968ce7c8e06d9b6e8fd972a02f92668f659f3713 statx: add direct I/O alignment information
-25c6c7533d355dd55ebac8d238e8a177166117a1 vfs: support STATX_DIOALIGN on block devices
-8a87ca4f113bb6e55becb69910b663b66f7c28d9 fscrypt: change fscrypt_dio_supported() to prepare for STATX_DIOALIGN
-42c4de5740720b1f11b5062b896254dc0218b1ac ext4: support STATX_DIOALIGN
-9d5b48fa377c5ed5b8dc76652e19b1d6da52d3e5 f2fs: move f2fs_force_buffered_io() into file.c
-b33c97ad749b3a53cf18d1137a0581b4a702bf5d f2fs: don't allow DIO reads but not DIO writes
-ee5f6c8c94df13c689d44df0af97ed38ed95347b f2fs: simplify f2fs_force_buffered_io()
-78739b7a29db6a4b16717d5798ab1c25397aec48 f2fs: support STATX_DIOALIGN
-056aa3f768db519eabb09fa760cee479c0eef40a xfs: support STATX_DIOALIGN
+1f9ae4a6e1e64852307004cbce7bbfbf66469fa4 crypto: lib - create utils module and move __crypto_memneq into it
+d83e0c1b6405fa1a12f319bef06f7cda3cbabb3f crypto: lib - move __crypto_xor into utils
+0b8ddd04f1d7868a0bfc83606bc458a542e461c2 crypto: lib - remove __HAVE_ARCH_CRYPTO_MEMNEQ
 
---===============4051596924461641857==--
+--===============9198589570804662807==--
