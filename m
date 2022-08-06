@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9198589570804662807=="
+Content-Type: multipart/mixed; boundary="===============8018649974275804266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 06 Aug 2022 21:26:39 -0000
-Message-Id: <165982119971.30701.7835064962649845058@gitolite.kernel.org>
+Date: Sat, 06 Aug 2022 21:27:10 -0000
+Message-Id: <165982123012.30936.2895988759239761868@gitolite.kernel.org>
 
---===============9198589570804662807==
+--===============8018649974275804266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crypto-pending
-    old: fc4e1b2473f43475d475f9989715b2be174efadc
-    new: 0b8ddd04f1d7868a0bfc83606bc458a542e461c2
-    log: revlist-fc4e1b2473f4-0b8ddd04f1d7.txt
+  - ref: refs/heads/master
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: af3e9579ecfbe1796334bb25a2f0a6437983673a
+    log: revlist-f2906aa86338-af3e9579ecfb.txt
 
---===============9198589570804662807==
+--===============8018649974275804266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc4e1b2473f4-0b8ddd04f1d7.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-af3e9579ecfb.txt
 
+6b47be608b84d6c44f9f26d6be1cc1637d804011 perf vendor events: Update Intel westmereex
+ebcdbf7a6aa610ed555c94db14256403907432ad perf vendor events: Update Intel snowridgex
+08c1d7a1595e9a7f14d85937c66f02f7ae1733ad perf vendor events arm64: Arm Cortex-A78C and X1C
 aa316247c726d96f0bc205413c54ab49622ca737 drm/amdgpu/dc/dce: fix repeated words in comments
 8585732baa40455fbae9575d0c8316f4b0cf68f5 drm/amdgpu: use adev_to_drm for consistency
 1f83db6be37c53f6d395a41ee2602e3280ee60c2 drm/amdgpu: Fix the incomplete product number
@@ -1047,8 +1050,5 @@ f20c95b46b8fa3ad34b3ea2e134337f88591468b Merge tag 'tpmdd-next-v5.20' of git://g
 c993e07be023acdeec8e84e2e0743c52adb5fc94 Merge tag 'dma-mapping-5.20-2022-08-06' of git://git.infradead.org/users/hch/dma-mapping
 20cf903a0c407cef19300e5c85a03c82593bde36 Merge tag 'for-6.0/dm-changes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 af3e9579ecfbe1796334bb25a2f0a6437983673a Revert "iommu/dma: Add config for PCI SAC address trick"
-1f9ae4a6e1e64852307004cbce7bbfbf66469fa4 crypto: lib - create utils module and move __crypto_memneq into it
-d83e0c1b6405fa1a12f319bef06f7cda3cbabb3f crypto: lib - move __crypto_xor into utils
-0b8ddd04f1d7868a0bfc83606bc458a542e461c2 crypto: lib - remove __HAVE_ARCH_CRYPTO_MEMNEQ
 
---===============9198589570804662807==--
+--===============8018649974275804266==--
