@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2660831019236356671=="
+Content-Type: multipart/mixed; boundary="===============1215864306660805203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 07 Aug 2022 10:07:48 -0000
-Message-Id: <165986686851.12437.2328640266448084795@gitolite.kernel.org>
+Date: Sun, 07 Aug 2022 10:08:55 -0000
+Message-Id: <165986693592.12896.17683651965596670018@gitolite.kernel.org>
 
---===============2660831019236356671==
+--===============1215864306660805203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: f6f499f09cc094d56f1af5e69ea480f27c02f150
-    new: 805c63d97f47945640a31b42086e7fb110664334
-    log: revlist-f6f499f09cc0-805c63d97f47.txt
+    new: a20dc5e7b11c5345bc5552c80085184c4459f6a5
+    log: revlist-f6f499f09cc0-a20dc5e7b11c.txt
+  - ref: refs/heads/master
+    old: 805c63d97f47945640a31b42086e7fb110664334
+    new: a20dc5e7b11c5345bc5552c80085184c4459f6a5
+    log: |
+         e29120d40728ba00025f0a87c80501aec93e6927 Merge branch into tip/master: 'locking/core'
+         d5975cead6a155fbcd4eda500cde28d16e5b7a78 Merge branch into tip/master: 'sched/core'
+         eac3fc97c529165540eb1c58f230ac5110d7891b Merge branch into tip/master: 'x86/cleanups'
+         a46bdd50fad50e95741a0a836ca6c9a513f719e6 Merge branch into tip/master: 'x86/mm'
+         a20dc5e7b11c5345bc5552c80085184c4459f6a5 Merge branch into tip/master: 'x86/platform'
+         
 
---===============2660831019236356671==
+--===============1215864306660805203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6f499f09cc0-805c63d97f47.txt
+Content-Disposition: attachment; filename=revlist-f6f499f09cc0-a20dc5e7b11c.txt
 
-6f9cf553deb84ca5d390dfe7b23022fecbd838df tools/power turbostat: Support RAPTORLAKE P
-2db0e5eb9c4843cde76bb118750369ef231254e8 tools/power turbosstat: fix comment
-684e40e99e594e0da1dc1b358fbd51c03c606e75 tools/power turbostat: separate SPR from ICX
-eade39b2bf7f35294a814e62e2f5d8117615f18b tools/power turbostat: cleanup 'automatic_cstate_conversion_probe()'
 0e4d42af81471ab801e059e1feac8e27547230cf tools/power turbostat: fix SPR PC6 limits
 6287e6f0fdd36be4bbde6f539df6ea85eb2476c2 tools/power turbostat: do not decode ACC for ICX and SPR
 b4b830a34d8046633231b7fe87f6f2cb6240dc9f platform/mellanox: mlxreg-lc: Fix error flow and extend verbosity
@@ -1049,6 +1055,10 @@ d77771c926671e0362af3fe792391be66072b242 Merge tag 'mips_6.0' of git://git.kerne
 592d8362bc2526bbb08cf7d258661691e957b5ea Merge tag 'perf-urgent-2022-08-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cac03ac368fabff0122853de2422d4e17a32de08 Merge tag 'sched-urgent-2022-08-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1612c382ffbdf1f673caec76502b1c00e6d35363 Merge tag 'x86-urgent-2022-08-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-805c63d97f47945640a31b42086e7fb110664334 Merge branch 'linus'
+e29120d40728ba00025f0a87c80501aec93e6927 Merge branch into tip/master: 'locking/core'
+d5975cead6a155fbcd4eda500cde28d16e5b7a78 Merge branch into tip/master: 'sched/core'
+eac3fc97c529165540eb1c58f230ac5110d7891b Merge branch into tip/master: 'x86/cleanups'
+a46bdd50fad50e95741a0a836ca6c9a513f719e6 Merge branch into tip/master: 'x86/mm'
+a20dc5e7b11c5345bc5552c80085184c4459f6a5 Merge branch into tip/master: 'x86/platform'
 
---===============2660831019236356671==--
+--===============1215864306660805203==--
