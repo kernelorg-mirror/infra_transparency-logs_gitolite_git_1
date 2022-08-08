@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 08 Aug 2022 22:10:46 -0000
-Message-Id: <165999664607.4457.7298202031922575059@gitolite.kernel.org>
+Date: Mon, 08 Aug 2022 22:15:39 -0000
+Message-Id: <165999693946.7703.5521167683402235829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 0c9a7a7e2049859d7869e15dd8f70ca5aeae460e
-    new: 9e32084ef1c33a87a736d6ce3fcb95b60dac9aa1
+    old: 9e32084ef1c33a87a736d6ce3fcb95b60dac9aa1
+    new: ca34ce29fc4b0e929cc6aada40829d17ab50fee4
     log: |
-         9e32084ef1c33a87a736d6ce3fcb95b60dac9aa1 libbpf: Do not require executable permission for shared libraries
+         ca34ce29fc4b0e929cc6aada40829d17ab50fee4 bpf: Improve docstring for BPF_F_USER_BUILD_ID flag
          
