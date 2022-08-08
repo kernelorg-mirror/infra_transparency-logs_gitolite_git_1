@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 08 Aug 2022 19:00:23 -0000
-Message-Id: <165998522386.2889.13800907155862377651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 08 Aug 2022 19:36:22 -0000
+Message-Id: <165998738229.27244.223562855224654709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/rproc-v5.20
-    old: 0000000000000000000000000000000000000000
-    new: 3bd076f7b4f023108b3d13ca0fdc9c8a1b7a8e37
+  - ref: refs/heads/master
+    old: 3bffcc5ec0c0b69adb4981a6ea558d773437e58c
+    new: 4d11a822cc7417976aad0f24e1684b2a8ce4a980
+    log: |
+         4d11a822cc7417976aad0f24e1684b2a8ce4a980 Mon Aug  8 07:35:33 PM UTC 2022
+         
