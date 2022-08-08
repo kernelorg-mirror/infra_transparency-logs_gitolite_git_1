@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4437560261579371286=="
+Content-Type: multipart/mixed; boundary="===============0155313251981533222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 Aug 2022 15:51:22 -0000
-Message-Id: <165997388286.27914.14435036236275259446@gitolite.kernel.org>
+Date: Mon, 08 Aug 2022 15:51:28 -0000
+Message-Id: <165997388863.28033.16652617760128311039@gitolite.kernel.org>
 
---===============4437560261579371286==
+--===============0155313251981533222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2e64fe4624d19bc71212aae434c54874e5c49c5a
-    new: f574f7f839fc1753467b52417591cf2668825a92
-    log: revlist-2e64fe4624d1-f574f7f839fc.txt
+  - ref: refs/heads/dev-queue
+    old: c6bb0b8a70b36fded7ef215a4f7cb756c5b902d9
+    new: 03faee4d7b7d96890f1452e4aa262d0acddc15bb
+    log: revlist-c6bb0b8a70b3-03faee4d7b7d.txt
 
---===============4437560261579371286==
+--===============0155313251981533222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e64fe4624d1-f574f7f839fc.txt
+Content-Disposition: attachment; filename=revlist-c6bb0b8a70b3-03faee4d7b7d.txt
 
 399a14ec7993d605740de7b2cd5c0ce8407d12ed netfilter: nf_tables: fix crash when nf_trace is enabled
 fe9e420defabd0f3b13239dd135d261fbeeb67ae selftests: netfilter: add test case for nf trace infrastructure
@@ -44,5 +44,17 @@ bc3410f250219660a7be032c01c954a53b2c26ab net: bcmgenet: Indicate MAC is in charg
 ac0dbed9ba4c38ed9b5fd3a43ee4bc1f48901a34 net: seg6: initialize induction variable to first valid array index
 7a542bee27c6a57e45c33cbbdc963325fd6493af virtio_net: fix memory leak inside XPD_TX with mergeable
 f574f7f839fc1753467b52417591cf2668825a92 net: bpf: Use the protocol's set_rcvlowat behavior if there is one
+a9547ad2ddef37bef6b37dfa0fcfe05b99b4e886 ice: xsk: use Rx ring when picking NAPI context
+1b39e88d262afac349a35fb9bd3df699de9bdf5d ice: Fix VSI rebuild WARN_ON check for VF
+39e5ac33aaf8d2cab3c97d8dec7a6ae776145f7e iavf: Fix adminq error handling
+a792ef8622a1cf171e2fc8a24aed99f24458ac2e iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+a70ad18c495a73f837cd011f7de0c73e60467e3d iavf: Fix reset error handling
+88b17225d1515194ef733e4fb49e53daeef5e1d0 ice: Fix call trace with null VSI during VF reset
+c6105ce696806d8069088c1cedd76615adea7a47 i40e: Fix tunnel checksum offload with fragmented traffic
+bd5117ab02cae74dfbf42af4d28c496628eb37a2 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+5dd49dae2bca9b488d93f5eff0f5502d5eb98b04 iavf: Fix shutdown pci callback to match the remove one
+2fd7554d12f2197378bd703c0a6a2729c4e0d341 iavf: Fix race condition between iavf_shutdown and iavf_remove
+d22c341c63c74cfd0e269ca3c834f1cfcdae322c i40e: Fix to stop tx_timeout recovery if GLOBR fails
+03faee4d7b7d96890f1452e4aa262d0acddc15bb ice: Fix VF not able to send tagged traffic with no VLAN filters
 
---===============4437560261579371286==--
+--===============0155313251981533222==--
