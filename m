@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 08 Aug 2022 14:00:53 -0000
-Message-Id: <165996725375.16844.1698192765717942276@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0423737330192176705=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 08 Aug 2022 14:01:00 -0000
+Message-Id: <165996726015.17029.17836712149007935365@gitolite.kernel.org>
+
+--===============0423737330192176705==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: c3985b2c36b698362f517e46e6f71a4e851ab387
-    new: fc2fd76526b5f75c7b525f1fc68e6df37da7f180
+  - ref: refs/heads/master
+    old: 0254b61534c8eed7de7cba10a4afa4d586bf7308
+    new: eb067aa6536acf451a4e68c2147e7922ff41a774
     log: |
-         9d5adf1a6265b817cceaee1ca5f004b2d13e574f wifi: ath12k: wmi: rename struct wmi_ready_event_min
-         4ae815406479094f3bc414a0ee9bf25561c1b875 wifi: ath12k: wmi: move ath12k_wmi_phymode_str() to the end of file
-         061a9d871930dd2f106a224563a5155b311ab551 wifi: ath12k: wmi: add missed __packed keywords
-         fa2892b70dbf9b0a5531304911a0311fc4214a2c wifi: ath12k: wmi: convert FIELD_GET() to u32_get_bits()
-         0ade0e87da84fe946a41eb6deab0022814e2b297 wifi: ath12k: dp_rx: convert FIELD_GET() to u32_get_bits()
-         92c6a495fac46807ba8d1d82e8d2f3932bc51e83 wifi: ath12k: wmi: add typedef for a_sle32
-         cfddb6a812fc44a13ee4a319d4cbdcaca80637a2 wifi: ath12k: wmi: rename struct wmi_tlv_policy and wmi_tlv_policies[]
-         fbc190f25f002bdd0282302d63f1f70063af8832 wifi: ath12k: wmi: don't use wmi_tlv_ prefix in structures
-         fc2fd76526b5f75c7b525f1fc68e6df37da7f180 wifi: ath12k: wmi: don't use wmi_tlv_ prefix in functions
+         eb067aa6536acf451a4e68c2147e7922ff41a774 4.14-stable patches
          
+
+--===============0423737330192176705==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659967259 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1659967258-cd786bf9ce95f98a992c7449ebfd1b7036ac5979
+
+0254b61534c8eed7de7cba10a4afa4d586bf7308 eb067aa6536acf451a4e68c2147e7922ff41a774 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLxFxsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wBIP/2Yc5TrMjyuNAc/PDxIj
+yURPGl1hPFBV/vopyINrLfdbD84bVokyG63UObCxKwXN5kXAsyBV72Aax71z2n+o
+SAcyMjUv5fpX59Uy7l8JS6/FPCIGzldq0fWGnLF0v89Kg5QroUsNHob6kUirP4xZ
+YNGxTY+FCW7CIshv01XdpsVTjyz4XSca3pZX09H20S/nDNWMOCNrnISU7itV3uaF
+Z+LOBtBb5N2cr02OIPhQImkK7e3gRJxvSN2MazUfnh/OTi6/UQlV0ZHXTWwBjj4U
+FMCa0sWtmLP8becZ5sVmNnZaOzxL1hPsJeTPBJW8XUwxsqEnM5MFoN3IkIfynhM9
+7ZGTub9Vs7lnBIJpp6XAXBEO7zuNyEKxLH126jtd+mM7EFx9/XEJlIEMXDZeu4je
+pPW2EbqB4eJC6PHSrp5gqP2OO/7qIiRrfcoFux+cfcmFnIaLSjEr60WhfG7c3765
+aB58P9kObFgNC75qWO5D3/sexzvMxd03dJBHztEwGQ5pA+QFzIy3hUTeKDNrWXvq
+JrY378cGAOzkDSJ+unBv0LDIsqCeWgca8vVbqkYu+cPm2jt/rQN07wDuCioEr2FB
+SrSoOyFdhQsd+osHYdOakUWVdzlXInlbGYiz2pzB72vzqaqD3LbN0yuD7QHkfk1U
+9okLRYbDSTbNiRF3oDsrNihw
+=AsJY
+-----END PGP SIGNATURE-----
+
+--===============0423737330192176705==--
