@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5097926949286273006=="
+Content-Type: multipart/mixed; boundary="===============4225653634688735777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 08 Aug 2022 11:08:53 -0000
-Message-Id: <165995693349.26612.2228814358930967046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 08 Aug 2022 11:08:56 -0000
+Message-Id: <165995693649.26719.11485927094877758234@gitolite.kernel.org>
 
---===============5097926949286273006==
+--===============4225653634688735777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
+  - ref: refs/heads/driver-core-testing
     old: b2a88c212e652e94f1e4b635910972ac57ba4e97
     new: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
     log: revlist-b2a88c212e65-4e23eeebb2e5.txt
 
---===============5097926949286273006==
+--===============4225653634688735777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659956932 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1659956932-b5f952177274a6f20db2a4c56d626b8db417d356
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659956935 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1659956934-2dfbbe9aa0878dd251f34f9e488d70851fcf5a70
 
-b2a88c212e652e94f1e4b635910972ac57ba4e97 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/spdx-linus
+b2a88c212e652e94f1e4b635910972ac57ba4e97 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7sQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dtgQAMzFpf9jmGjlnAinqvwd
-mv3bb0KKiNOjcqpiGUFe8Nk19lUbAcWH7dtlJc/kRRN+X7o92kSb3hdD+a3vnZ+l
-oMrklGVR7IaBFDDqNPMN9O6YzFozzUdfU5/FbWFX1kQI0LCEfdfqQbYrrlOgwOn0
-nhwhLzatE9l0hFaBKTwoIqXrHKu2yTbTNbjxx2ojF465mLl8dh/V3t1UT1K0TYyd
-1EEAQPtnM280K4p4oSOfZzWA5oPyCZBtPzh6VE9sBeB4f+ufoARZ+LbZP1+GSkUo
-nlmL/CdGFe4Ies2b1/BSnmOmYXyIXvG1/U4Dk+hJIubCRJ2H+Y0i8f4tUIZ6Wr6A
-FBPT8Gs7bPUHSIHNQvynYYf2JjzvofBKZct++P5CSlItFKdbZb2ZD2m77OSTbNt9
-7ghe5Io1p4kqLz7YKcbsF1MA/nEZSbq/wlpbAN6t7Aoft93Of0SSGFfPYzNBOwhy
-OR6SdVAjYZBGws1OwW64wYKei14ud1i2sg2nX5/2adFJu2UtJueLO3LWmPatDSZ/
-i3wrEfWtMYaWeM/+DOuOcbxpVHnDK9tcSD3sclGFLedGcDBpZ3UHuSrANqFLdyrC
-CZnbUKaSxyPGrXZ5qAbhdXE8bHZZ/Azbp+/Fp6xuqp27iuUzIvJhA4IvEu98rCOd
-yJzUCgh/3nUDcfYVaPwvq8h7
-=2aZo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7scbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j2YP/1WB1aUFAQ3sxMB+ot0s
+FqH0CZBFD75nuu37xg8Gp283XDZrLkEeWGKz7dIuV/m47uKsX4o0OTg3ymeZ7eG7
+MTJ7HYpbjXgYoyai3x+FllsUCyTzcsZjfO0lCSpUm0UyAQsMa99r3WITO6ywN97e
+JufHmD6G0Fxe7m8tgj+dhDY8E/Ziidikw2VjKCxQgmKXqDYACge1L+Hx4NMloMw4
+GGA0DYjv9lukovKsa2cyqDDTGDqTyRHs/X2OKRI+RDLAZEmWAt7+Piwi8cejn5Dg
+chs63UdCwhYPc5fgbGXm8qN2+o6O+CYMGwLIqeT3C6fZpCRTpAaJtZflBFq7qp1d
+GFbBov6FWRL0YZa+mmfOi5vL/NTDkklA+tXSP9b1nU95Mv1YIwcsP/X/HmevMSte
+3Azf9yMSDhLO7AVNfJflWhOaysMf9SQ1sLE7/8XTbYpK+TGztDqTQwEOf8c3Qj/F
+RB7TANkFe/8ifW4UMBSZGLiMQwe7KvE+9GTvS62bpYCJ2eEyYB1hp8aAJNl3jzxf
+cNcG0yFZAnMBQkps8dN1g7undZmGzcWPNka83rKrCdMBntDzpBpDJfag0U/qdPl6
+nR+nPTPJwicTu4VL5Q7/Gr2P6vfpgCRfeGjOG83XMokEo49z0jf0QcO3+X1qxFqw
+aIJAtiBqvBAIb4Uo8eTbT2uW
+=Dni5
 -----END PGP SIGNATURE-----
 
---===============5097926949286273006==
+--===============4225653634688735777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ eb5699ba31558bdb2cee6ebde3d0a68091e47dce Merge tag 'mm-nonmm-stable-2022-08-06-2
 3bc1bc0b59d04e997db25b84babf459ca1cd80b7 Merge tag '5.20-rc-smb3-client-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 Merge tag 'bitmap-6.0-rc1' of https://github.com/norov/linux
 
---===============5097926949286273006==--
+--===============4225653634688735777==--
