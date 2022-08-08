@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 08 Aug 2022 18:23:39 -0000
-Message-Id: <165998301943.7658.13125264515907399530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 08 Aug 2022 18:36:43 -0000
+Message-Id: <165998380314.17912.10959223436560071637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: 54a2e6f665869e22a95b1ec8ae1c5c64a36235b7
-    new: 3d9688c734a7b5addca0578ac51bd9662e6f0673
+  - ref: refs/heads/rtc-next
+    old: 5adbaed16cc63542057627642d2414f603f2db69
+    new: 6492fed7d8c95f53b0b804ef541324d924d95d41
     log: |
-         8447d0e75099eb54eea9306c2d43ecfc956d09ed remoteproc: qcom_q6v5_pas: Do not fail if regulators are not found
-         3d9688c734a7b5addca0578ac51bd9662e6f0673 Merge branches 'rproc-next' and 'hwspinlock-next' into for-next
+         c9a1dd673f28da9624776e75b78ae04125544852 rtc: zynqmp: initialize fract_tick
+         6492fed7d8c95f53b0b804ef541324d924d95d41 rtc: rtc-cmos: Do not check ACPI_FADT_LOW_POWER_S0
          
