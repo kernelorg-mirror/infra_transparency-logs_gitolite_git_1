@@ -1,27 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0588798475846774290=="
+Content-Type: multipart/mixed; boundary="===============6820529857819404710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 08 Aug 2022 11:08:48 -0000
-Message-Id: <165995692878.26349.4260468587198197441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Mon, 08 Aug 2022 11:08:49 -0000
+Message-Id: <165995692959.26477.11631228514272950636@gitolite.kernel.org>
 
---===============0588798475846774290==
+--===============6820529857819404710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/main
     old: b2a88c212e652e94f1e4b635910972ac57ba4e97
     new: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
     log: revlist-b2a88c212e65-4e23eeebb2e5.txt
 
---===============0588798475846774290==
+--===============6820529857819404710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -29,29 +29,29 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659956928 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1659956927-62901f51e9be27182938c49809819e517a5ad0df
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1659956927-93e6674b98e83d8de94e2e223e207f453418e9b0
 
-b2a88c212e652e94f1e4b635910972ac57ba4e97 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/driver-core-linus
+b2a88c212e652e94f1e4b635910972ac57ba4e97 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7sAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MfoP/Rd2C6XzP8YGOSNfVywA
-FT1aQaI1Jt3rQFNgjBHxCLO51NiJKGRnPssyCMplsp+87dbJJyOWUCArtf9nBVSd
-V/PnauVW2a/D4KvuXql332nZDyfexfnryHK8U7w0rOXfLIdFya4LL8YxixaoMuHV
-q5fsw5YOFfycCKIiUqj6d3E2bY0a6O4wbk0sr3XWQxtBAJaMQDF3+FTvgXJyMTCf
-X6x2MTOBQHSRfG83UYRTYMuz4xnS7wpV23oqomk46M3nxzN/rH1DqhAtecWfYXRQ
-kr0vffyFh3CMjHbXXXeu2cgJ60I2iTTR4MyFNxwehoOJ2wwNmohjII01YSvpg7x5
-Jw5Ta1xAGjt7I2w6pbpJfSUrMl/lzG+rlczTOkjyOx7mdoszJCpf8T2+jwl3/iwX
-8H5n/vkYgecZMetcPM7WGEMCQD7V6LO4EIpNmzEybRJT/w+B2O4ZfqpY35sgL/O4
-4ZcUf/3/1S9PQCtUqgsRfSJFxKWKhTI/0/ATuKABL2o+m0T63icE83c85H3dMr3V
-g8Ut8RpjW4Z1gOZV2hRFhr6vxVpoMNRTpLCQzU7X22UXpFnw2WWsySIy8Mq30kf7
-AWXI6qR4bycyGL+2O8WWctASYFXYD497v3zyUwxTJhOE19tNrcvOlg6mODzeCPiS
-h/XCFy4xYorA9688bAz1pOYT
-=mimy
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i5cP/ifpud8LArLGnBhYKD8G
+s4BUEYXSKM/gzBhAiWyeU9NVyWTBz3mm4FcJB4QBm8/8U65MZGCiGNN6pRpii34O
+xyenk4ukoEyiSze1DF2HvkSzLX9sof1g2G7TvgVRZ1Xf/JNNUSrD1DMkXJwkUIGI
+1nCEXX9e9h2Uzx4dDrj2pw9+MtKAbyBljaiZEngiJE6gHPWlrDeSPq0vWprFJAiY
+ek/kKKfF9Nc8NJkNXacaJykVO5NAXrq3KFlpEKlfBLRb5bgnh8JRaFhVCDFsLhFZ
+a9OmKTKJx5O7E6d9gXcVPB3LnhUdEFfhjC4ChS+QAenGAqW700wAJqZ+beuJUToD
+QVK8AeoA87wwdbOyMuoG/f3iQjjwlEorRGiC6ZIGPxrHAGz51PxsNCFpi9OYmF2b
+2F3FjE9R4ibSdDwYkY9ligTCdT0Wp9AJiDr0rDPjjYNmkzRByIuYxeDHWo8mtiKd
+/ETozrl7TnDDFKOlZo6G54VVj8M0Rp0IDOgWZEPr1sBPayaHL3eWMUBWcwpgYBSF
+jJ88+p4F4Jpl3jEfO8wh2ggpkTgjaBpWkeK+SXDlRbzjmANr4j6yTcm/V6+hdNYd
+FG9OfWlyacGqBqDHZKBQad9jN0csfNStw2Y5SlyHaAH5qJHcgHlLodvGPVo3XYKi
+9/irWF667l7FaRJLlD+1xiMl
+=/Nbn
 -----END PGP SIGNATURE-----
 
---===============0588798475846774290==
+--===============6820529857819404710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ eb5699ba31558bdb2cee6ebde3d0a68091e47dce Merge tag 'mm-nonmm-stable-2022-08-06-2
 3bc1bc0b59d04e997db25b84babf459ca1cd80b7 Merge tag '5.20-rc-smb3-client-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 Merge tag 'bitmap-6.0-rc1' of https://github.com/norov/linux
 
---===============0588798475846774290==--
+--===============6820529857819404710==--
