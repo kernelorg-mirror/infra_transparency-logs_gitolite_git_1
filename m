@@ -1,31 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6845159050553429734=="
+Content-Type: multipart/mixed; boundary="===============1962744035189984819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
-Date: Mon, 08 Aug 2022 04:40:37 -0000
-Message-Id: <165993363746.7580.16730854719200051281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Mon, 08 Aug 2022 04:41:14 -0000
+Message-Id: <165993367491.7861.17471281490240034620@gitolite.kernel.org>
 
---===============6845159050553429734==
+--===============1962744035189984819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: aa709da0e032cee7c202047ecd75f437bb0126ed
-    new: ac0dbed9ba4c38ed9b5fd3a43ee4bc1f48901a34
-    log: revlist-aa709da0e032-ac0dbed9ba4c.txt
+    old: 502c6f8cedcce7889ccdefeb88ce36b39acd522f
+    new: f86d1fbbe7858884d6754534a0afbb74fc30bc26
+    log: revlist-502c6f8cedcc-f86d1fbbe785.txt
 
---===============6845159050553429734==
+--===============1962744035189984819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa709da0e032-ac0dbed9ba4c.txt
+Content-Disposition: attachment; filename=revlist-502c6f8cedcc-f86d1fbbe785.txt
 
+f6b543fd03d347e8bf245cee4f2d54eb6ffd8fcb io_uring: ensure REQ_F_ISREG is set async offload
+ea6813be07dcdc072aa9ad18099115a74cecb5e1 mm: Move starting of background writeback into the main balancing loop
+e92eebbb09218e128e559cf12b65317721309324 mm: Move updates of dirty_exceeded into one place
+fe6c9c6e3e3e332b998393d214fba9d09ab0acb0 mm: Add balance_dirty_pages_ratelimited_flags() function
+9753b868fda48330ce358df203c0069ac0788ac0 iomap: Add flags parameter to iomap_page_create()
+cae2de6978915991a564e3c5c69b66b629c031af iomap: Add async buffered write support
+18e419f6e80a6d3c8aaab94abd55c3b41741d8df iomap: Return -EAGAIN from iomap_write_iter()
+8017553980d0bbfef3e66c583363828565afd6da fs: add a FMODE_BUF_WASYNC flags for f_mode
+faf99b563558f74188b7ca34faae1c1da49a7261 fs: add __remove_file_privs() with flags parameter
+6a2aa5d85de534471dd023773236f113eaef26f0 fs: Split off inode_needs_update_time and __file_update_time
+66fa3cedf16abc82d19b943e3289c82e685419d5 fs: Add async write file modification handling.
+4e17aaab54359fa2cdeb0080c822a08f2980f979 io_uring: Add support for async buffered writes
+e053aaf4da56cbf0afb33a0fda4a62188e2c0637 io_uring: fix issue with io_write() not always undoing sb_start_write()
+1c849b481b3e4f8c36f297cd3aa88ef52a19cee9 io_uring: Add tracepoint for short writes
+9641506b2deed1bb6be7464a95d62c472eca0e8e xfs: Specify lockmode when calling xfs_ilock_for_iomap()
+1aa91d9c993397858a50c433933ea119903fdea2 xfs: Add async buffered write support
+0dd316ba8692c2374fbb82cce57c0b23144f2977 mm: honor FGP_NOWAIT for page cache page allocation
+32e09298c8b3ff29177c825ab711a4a692d4caad Merge branch 'io_uring-zerocopy-send' of git://git.kernel.org/pub/scm/linux/kernel/git/kuba/linux into for-5.20/io_uring-zerocopy-send
+4effe18fc0da27ae5d51a702841e87fa13b8a32d Merge branch 'for-5.20/io_uring' into for-5.20/io_uring-zerocopy-send
+e02b66512738db161e83634255e9826c8cb51336 io_uring: initialise msghdr::msg_ubuf
+e70cb60893ca64b7df06864aa16c1cf6d6c671db io_uring: export io_put_task()
+eb42cebb2cf24c48f60c32856a4bba93d42659c8 io_uring: add zc notification infrastructure
+eb4a299b2f95437af6183946c2a2e850621cefdb io_uring: cache struct io_notif
+e58d498e81baa9fd8acf5132d8b2d4f829361f6b io_uring: complete notifiers in tw
+68ef5578efc8893489400b1ec30af66dab4f75ff io_uring: add rsrc referencing for notifiers
+bc24d6bd32df0be19df3d30e74be4ba56493c0e2 io_uring: add notification slot registration
+06a5464be84e4ae48394d34441baf34bf9706827 io_uring: wire send zc request type
+e29e3bd4b968d50bfb3bbdcee6bfdc340f7792cf io_uring: account locked pages for non-fixed zc
+092aeedb750a9fad0f0252d6067fc91d76ca44bd io_uring: allow to pass addr into sendzc
 10c7d33ecd51619e453cf6aeee8e326f8ba5cfea io_uring: sendzc with fixed buffers
 63809137ebb58f0aa2ce359117422686e3304f45 io_uring: flush notifiers after sendzc
 4379d5f15b3fd4224c37841029178aa8082a242e io_uring: rename IORING_OP_FILES_UPDATE
@@ -1021,34 +1050,5 @@ f18d73096c0eca1275f586cb984e6e28330447a0 Merge tag 'iomap-5.20-merge-1' of git:/
 a39b5dbdd2bc5ba36e6b90f2f979efcb090b0613 Merge tag 'zonefs-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 526942b8134cc34d25d27f95dfff98b8ce2f6fcd Merge tag 'ata-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 f86d1fbbe7858884d6754534a0afbb74fc30bc26 Merge tag 'net-next-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-06799a9085e12a778fe2851db550ab5911ad28fe net: bonding: replace dev_trans_start() with the jiffies of the last ARP/NS
-4873a1b2024dce9a501b56d1039ff0752027a92e net/sched: remove hacks added to dev_trans_start() for bonding to work
-08b403d5bf07d9e0d97ba12649b198eee42f826d Revert "veth: Add updating of trans_start"
-cba8d8f57dfb1d01d961a0e50e7fddb82df57ad7 docs: net: bonding: remove mentions of trans_start
-7de196a6aa3a02f6079f5bf8796df4cb6cb5e783 Merge branch 'make-dsa-work-with-bonding-s-arp-monitor'
-744d23c71af39c7dc77ac7c3cac87ae86a181a85 net: phy: Warn about incorrect mdio_bus_phy_resume() state
-4ae97cae07e15d41e5c0ebabba64c6eefdeb0bbe nfp: ethtool: fix the display error of `ethtool -m DEVNAME`
-c0bf3c6aa444a5ef44acc57ef6cfa53fd4fc1c9b mptcp: move subflow cleanup in mptcp_destroy_common()
-c886d70286bf3ad411eb3d689328a67f7102c6ae mptcp: do not queue data on closed subflows
-df9e03aec3b14970df05b72d54f8ac9da3ab29e1 selftests: mptcp: make sendfile selftest work
-9f05f9ade27f1802d1305abd58c3e4a0d819deef Merge branch 'mptcp-fixes'
-4f61f133f354853bc394ec7d6028adb9b02dd701 net: tap: NULL pointer derefence in dev_parse_header_protocol when skb->dev is null
-2e64fe4624d19bc71212aae434c54874e5c49c5a selftests: add few test cases for tap driver
-399a14ec7993d605740de7b2cd5c0ce8407d12ed netfilter: nf_tables: fix crash when nf_trace is enabled
-fe9e420defabd0f3b13239dd135d261fbeeb67ae selftests: netfilter: add test case for nf trace infrastructure
-b06ada6df9cf785099c142d96cb8a337ff46adf7 netfilter: flowtable: fix incorrect Kconfig dependencies
-f6ac85a1773832eb4959aa81f78ff8f9bcdfe9ec Merge branch 'netfilter-followup-fixes-for-net'
-07977a8a9e542888d39acc14a0738fd2fcdafbf0 bnxt_en: Remove duplicated include bnxt_devlink.c
-8a5dfc28af9acea379952df533d86bce4aa91a42 MAINTAINERS: Update ibmveth maintainer
-dd1d1a8a6b29b6b472fd0d449b29eb806c411dd2 octeontx2-af: Apply tx nibble fixup always
-cf2437626502b5271d19686b03dea306efe17ea0 octeontx2-af: suppress external profile loading warning
-3f8fe40ab7730cf8eb6f8b8ff412012f7f6f8f48 octeontx2-af: Fix mcam entry resource leak
-c3c290276927a3ae79342a4e17ec0500c138c63a octeontx2-af: Fix key checking for source mac
-63e36289c4c6e9f4273cc780b1adab01aad6c222 Merge branch 'octeontx2-af-driver-fixes-for-npc'
-13c9f4dc102f2856e80b92486c41841e25e23772 octeontx2-pf: Fix NIX_AF_TL3_TL2X_LINKX_CFG register configuration
-df1c941468fca014ad092f76672966bb412c2848 net: avoid overflow when rose /proc displays timer information.
-049d5d9890e9f4ba6d384ba5cfc5e8698be1ae9e eth: fix the help in Wangxun's Kconfig
-bc3410f250219660a7be032c01c954a53b2c26ab net: bcmgenet: Indicate MAC is in charge of PHY PM
-ac0dbed9ba4c38ed9b5fd3a43ee4bc1f48901a34 net: seg6: initialize induction variable to first valid array index
 
---===============6845159050553429734==--
+--===============1962744035189984819==--
