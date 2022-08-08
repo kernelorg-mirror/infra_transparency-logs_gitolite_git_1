@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5015508952984117650=="
+Content-Type: multipart/mixed; boundary="===============4701813363772842293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
-Date: Mon, 08 Aug 2022 23:45:01 -0000
-Message-Id: <166000230125.3142.18309137884750931405@gitolite.kernel.org>
+Date: Mon, 08 Aug 2022 23:45:27 -0000
+Message-Id: <166000232798.4929.16538522107064345665@gitolite.kernel.org>
 
---===============5015508952984117650==
+--===============4701813363772842293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-wrapped-keys
-    old: 94d38f4bceeb1879c213462755ac17ac8fd352f4
-    new: a37c4ea3d067a8e1cac1bb15698440d072f503cd
-    log: revlist-94d38f4bceeb-a37c4ea3d067.txt
+  - ref: refs/heads/master
+    old: 25d27f0d656c2c3715d1c1a4729f62ca2c6f6b6b
+    new: b91889d79e1d92e22860504e40108a2e4d054c33
+    log: revlist-25d27f0d656c-b91889d79e1d.txt
 
---===============5015508952984117650==
+--===============4701813363772842293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94d38f4bceeb-a37c4ea3d067.txt
+Content-Disposition: attachment; filename=revlist-25d27f0d656c-b91889d79e1d.txt
 
 bcfb2b00eea889b7b1ef53c1d4d72cd41651f156 btrfs/270: fix uncompressed data from previously bad mirror
 4e040ac3c56884af55c5dabda51f31086decb86e btrfs/257: not run if we have compression enabled
@@ -55,18 +55,5 @@ b7962b76ec246aa786c84375682d6298aeda65c3 xfs: test mkfs.xfs whether terminate ge
 50f6d46410367586ab151b357e67393599eebd1c dmlogwrites: skip generic tests when external logdev in use
 91f2a0f472e6a247a68b00585871ac5e247543e1 common/rc: wait for udev before creating dm targets
 b91889d79e1d92e22860504e40108a2e4d054c33 seek_sanity_test: use XFS ioctls to determine file allocation unit size
-378cf1c48143fed4ada0ce65ee700509040d1e20 fstests: add more dmerror related test cases into eio group
-437f7742b8f1a71bd12c7b778d5d590166e9f800 xfs/432: fix this test when external devices are in use
-bbfa39e7a5cf1e11b1e0f3448f690ae16e9e5477 xfs/291: convert open-coded _scratch_xfs_repair usage
-b41bf16361fee250d0698ffebf2fe141e47bde88 xfs/533: fix false negatives for this test
-78a3ce021ba8a74b48b633b678326219351aa44f xfs/018: fix LARP testing for small block sizes
-f57ffcf43811bfb990a2d264fa77b46b5d594079 fscrypt-crypt-util: add HCTR2 implementation
-94e0bda55b36c899854b056812f72597b9939ac0 generic: add tests for fscrypt policies with HCTR2
-2eaabb1d38cf042d3e8b4134e6a3208c0e9516a7 xfs: add memory failure test for dax mode
-545d6b783773484dd0101b0bc60523a2a8c16251 xfs: add memory failure test for dax&reflink mode
-16ddbd1aee295f64695916cf3621aef57f1163ba xfs: add memory failure test for partly-reflinked&dax file
-b2756d46578c55735272d8d68274be37851223c6 fscrypt-crypt-util: add hardware KDF support
-cbd3f92895f5219996c770118316d8287b3f9363 common/encrypt: support hardware-wrapped key testing
-a37c4ea3d067a8e1cac1bb15698440d072f503cd generic: verify ciphertext with hardware-wrapped keys
 
---===============5015508952984117650==--
+--===============4701813363772842293==--
