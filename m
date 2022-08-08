@@ -1,73 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============0391085187871028978=="
+Content-Type: multipart/mixed; boundary="===============6450181317901393367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 08 Aug 2022 11:09:59 -0000
-Message-Id: <165995699972.27422.10987600728296756261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 08 Aug 2022 11:10:09 -0000
+Message-Id: <165995700990.29017.6797343998350793241@gitolite.kernel.org>
 
---===============0391085187871028978==
+--===============6450181317901393367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: b2a88c212e652e94f1e4b635910972ac57ba4e97
-    new: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
-    log: revlist-b2a88c212e65-4e23eeebb2e5.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 1c901ede976a22c518a216392a22dabd8ef37ce3
+    new: 8805c751a2269cc9f4da22faac1d2447c3d0b042
+    log: revlist-1c901ede976a-8805c751a226.txt
 
---===============0391085187871028978==
+--===============6450181317901393367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659956999 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1659956998-14dc5f75cbcbc9d7477e23f020972cb6ab40e3be
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659957007 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1659957005-e4bdc6950a0220e32ddd85515412e4f4426fd825
 
-b2a88c212e652e94f1e4b635910972ac57ba4e97 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/staging-testing
+1c901ede976a22c518a216392a22dabd8ef37ce3 8805c751a2269cc9f4da22faac1d2447c3d0b042 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7wcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xBgP/1AuR2R+5DyO5ucMOdJ8
-4uammcOUFmPOVAy/B40HpAsUwcedgUgaVPDarX/UdfmF0Jaz4VxByC6GWc2K+Pmn
-7d5r+r8lelckHsaRplBohkDG6NHZRuStqaZaOu91HnAd3XimkwB95S5S1RW435Sb
-sW2pBPJfYeEq2oFNrbueLC+A/P/h4hXxdb/v6KZmYsDWZ+i67BavyI5de3UsJ7Iz
-qwRjvWHFira27LaYOFNi85EDEdbkblDhjBYkGkX1zKtyiYIglB/t0k+xBjv8LTsm
-thz4S5hVsMIpabIFvtlVPX83+8+/ovvuBguqpwx85UmJrJzuQDOjxwjZ974FmEVD
-R2VZGu1NZIqUgb8mzdFjqWXC3dFoKWZe7fK8+vRtyNVXuJYkk24WSWx2JnxjNs2b
-t/fjYSPbImw0CtmNKr82SsAgIb+iEbQUQoEVnznts6EDuKOtKdXMnClc5uV6NjbL
-BDXQcByG1X1kfu/g+KFbz5Mw5n8odk9ZF55i1nkIWH7H8xw9Irr8WoP9GxS4QJMo
-XaeqoVuUFMMOVujUkpoQJO2Hab/ZhlVnv31v4LP1gO/NYiCFKpl4s1d5vAE0e016
-Dr9El71WMNRN/y0uxRV5LWDYwmCdiWTkchKGdW/Z412z5VwPEpBUtF28U+LeRsJA
-FmkIne68IJz7WdO/QJJ2wG5u
-=SBXB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7w8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8JQP/0v9HGMwGUXJ+Z5Rb42w
+nOMPC5TJ8QtrC8ukQdkf8ihh77Gsp3OhRcN512wQhcijIUOpgFf8QFkl9zc5tESe
+sWJWFRIQGNmJrrZMCV9pXjyvHaaj6jQ3WJlRJeqbUAwTqVVHrtx6jJY2n18Bqni3
+sxFNbpPtCQQ0Nvf32ZNMitA183HzBRpAeYNxfAnh23E+BQtP1o2THkh+LlUBkfpo
+iyNkn4QORPkYyIJiJRV7izyVr/N9P4aStqUoE2eOCg6RzLjOc2g3gMSQWxALixE8
+RcWB+yud+VFNcnCQHwYUYg4jLBOVIODvp5sgZY8ZPuYhIZmeBBI9XTjnPzPN2x0p
+xltYP2Fv01O190PfG066j4uOyXMiwBtDNqZYbQth184cN5tIIOBwR9RycsDrJKIq
+BLwm5Ji/ywYjUxcYu9d+Fe9KQ6upXWehp2GbUycb5qx7OSdRmh6cRprYt0ucqU0/
+2dmYkjyF9d99rSGdc11SpeSdy3ZSdwxPSXH+UppzmFzOMe/3GfzH9J0a4o0fUbKO
+SFwntGpDV3FcECThVwJn4w/THbx/Tqj2iUMtW2H5O51UBb1hkK1j7TIqMDMWO+4O
+Lo/vv3aOuCxAEnRL3PiMwwmJEb4LbcSTOR88VxEgavdkfnYB8Tsl+NoCUpm2NMU9
+Tkfk9HvslinDfWzicsoLWrww
+=AwIR
 -----END PGP SIGNATURE-----
 
---===============0391085187871028978==
+--===============6450181317901393367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2a88c212e65-4e23eeebb2e5.txt
+Content-Disposition: attachment; filename=revlist-1c901ede976a-8805c751a226.txt
 
-1dcef3d2f345810472cc7385384014a412a4682c MAINTAINERS: Add Robin Murphy as IOMMU SUBSYTEM reviewer
-67dd8e445ee0aa5e8bf1d9d866c914ed11626bbd 9p: roll p9_tag_remove into p9_req_put
-4ac7573e1f9333073fa8d303acc941c9b7ab7f61 net: 9p: fix refcount leak in p9_read_work() error handling
-93064e15c8a3a8394319a11b8037666e4b7d653d ACPI: utils: Add api to read _SUB from ACPI
-c1ad138822a1be95a7a7b122521c2415583a0c26 ASoC: cs35l41: Read System Name from ACPI _SUB to identify firmware
-e1d1ffeda697dedf0859f963bc4180b5bb7bf150 ASoC: atmel_ssc_dai: remove #ifdef CONFIG_PM
-c022e87162219d67d687df22c977d1c2fc95fb42 MIPS: BCM47XX: Add support for Netgear WNR3500L v2
-8a2b456665d1e797123669581524cbb095fb003b MIPS: Fixed __debug_virt_addr_valid()
-58ef0d3d5716000c153acc5401109fd90afbdf09 ASoC: Intel: hsw_rt5640: Mark BE DAI as nonatomic
-6d7e011808504e0aabbbf3b66d4c14982394abae ASoC: Intel: bdw_rt286: Mark BE DAI as nonatomic
-5c4ef9529b12865c2402784a7506c880178effda ASoC: Intel: bdw_rt5650: Mark BE DAI as nonatomic
 bdd15ec4888a375848030cbf7d9fc16c7f430f48 ASoC: Intel: bdw_rt5677: Mark BE DAI as nonatomic
 4dea97f8636d0514befc9fc5cf342b351b7d0e20 lib/bitmap: change type of bitmap_weight to unsigned long
 cb32c285cc10e428589194e30233d673e7c23c72 cpumask: change return types to bool where appropriate
@@ -1081,5 +1070,16 @@ b5a8466d37d30cfcc8015789f4a3f0c44b6c7bc6 Merge tag 'for-5.20/fbdev-1' of git://g
 eb5699ba31558bdb2cee6ebde3d0a68091e47dce Merge tag 'mm-nonmm-stable-2022-08-06-2' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 3bc1bc0b59d04e997db25b84babf459ca1cd80b7 Merge tag '5.20-rc-smb3-client-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 Merge tag 'bitmap-6.0-rc1' of https://github.com/norov/linux
+2faaf94df48caedfebb80ce2fc1548fb6f352ada platform/x86: dell-privacy: convert to use dev_groups
+ed34b51468421e2f5670ba71e439bd3a1b07e2af soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+f80d2239c586ffcf748a4c93172ab23aabe4b6f9 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+3e0e1308df46296ff5f9342fcaca33974d8645d4 soundwire: sysfs: have the driver core handle the creation of the device groups
+c2559c998548e80b9b4f2c2b4fdb6b83e8ac2919 soundwire: sysfs: remove sdw_slave_sysfs_init()
+d902251947ccbd6889b0c66d1ce6067863b5821e soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+743a3d17e6c146d24a2cae884a4584566cc6b075 leds: turris-omnia: convert to use dev_groups
+2e09f86686e72ad2e6159d9c0d2a2d6a1f73b146 Input: elan_i2c - convert to use dev_groups
+087926ccbdd82492600c4df5def390bc9ecbf3c0 driver core: remove devm_device_add_groups() and devm_device_remove_groups()
+cdc812e548b4dc516e7edec989957651401c6a4f HID: playstation: convert to use dev_groups
+8805c751a2269cc9f4da22faac1d2447c3d0b042 HID: vivaldi: convert to use dev_groups
 
---===============0391085187871028978==--
+--===============6450181317901393367==--
