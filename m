@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 08 Aug 2022 14:49:41 -0000
-Message-Id: <165997018179.16669.15782775859538282657@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5764784752727870187=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 08 Aug 2022 14:50:03 -0000
+Message-Id: <165997020304.17521.7195942393963376553@gitolite.kernel.org>
+
+--===============5764784752727870187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/arm64/stacktrace/rework-cleanup
-    old: 2b4398be48c625b278a809d1574126d03c7bdb14
-    new: 358acbf1797592e09a507c253002a5632ed3ae4b
-    log: |
-         9761a274c70f0c60d6d0ffa2cc1f946544e0935a arm64: stacktrace: use kerneldoc
-         9d1d3d21366866d0cf9854ba0903796ab17beee8 arm64: stacktrace: simplify unwind_next_common()
-         a38974cd72f658c84e4bf5c649e1f7f778d21349 arm64: stacktrace: rename unwind_next_common() -> unwind_next_frame_record()
-         eeff795eeb401e81f86adcc9da8483360c4c735c arm64: stacktrace: move SDEI stack helpers to stacktrace code
-         a4081dbd6dfc900c77ca8c63fc64ccad90439280 arm64: stacktrace: add stackinfo_on_stack() helper
-         72527753d99dce472ce230c2a8e8cb971ead0408 arm64: stacktrace: rework stack boundary discovery
-         f97a9e1a10334311505b6e6d39bc6cb8146c6f62 arm64: stacktrace: remove stack type from fp translator
-         6871524840376f9520401c80dfc051f4de32128c arm64: stacktrace: track all stack boundaries explicitly
-         358acbf1797592e09a507c253002a5632ed3ae4b arm64: stacktrace: track hyp stacks in unwinder's address space
-         
+  - ref: refs/heads/master
+    old: 3bc1bc0b59d04e997db25b84babf459ca1cd80b7
+    new: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
+    log: revlist-3bc1bc0b59d0-4e23eeebb2e5.txt
+
+--===============5764784752727870187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3bc1bc0b59d0-4e23eeebb2e5.txt
+
+ba1afa676d0babf99e99f5415db43fdd7ecef104 lib: bitmap: fix the duplicated comments on bitmap_to_arr64()
+e5a16a5c4602c119262f350274021f90465f479d ia64, processor: fix -Wincompatible-pointer-types in ia64_get_irr()
+21bb8af513d35c005c401706030f4eb469538d1d bitops: always define asm-generic non-atomic bitops
+0e862838f290147ea9c16db852d8d494b552d38d bitops: unify non-atomic bitops prototypes across architectures
+bb7379bfa680bd48b468e856475778db2ad866c1 bitops: define const_*() versions of the non-atomics
+e69eb9c460f128b71c6b995d75a05244e4b6cc3e bitops: wrap non-atomic bitops with a transparent macro
+b03fc1173c0c2bb8fad61902a862985cecdc4b1b bitops: let optimize out non-atomic bitops on compile-time constants
+2f7ee2a72ccec8b85a05c4644d7ec9f40c1c50c8 net/ice: fix initializing the bitmap in the switch code
+3e7e5baaaba78075a7f3a57432609e363bf2a486 bitmap: don't assume compiler evaluates small mem*() builtins calls
+dc34d5036692c614eef23c1130ee42a201c316bf lib: test_bitmap: add compile-time optimization/evaluations assertions
+428bc098635680a664779f26f24fe9197d186172 lib/bitmap: fix off-by-one in bitmap_to_arr64()
+30fd8cdf53a02b54b199043fcf1857db76e8badc lib/test_bitmap: test the tail after bitmap_to_arr64()
+b0b0b77ea611e3088e9523e60860f4f41b62b235 iommu/vt-d: avoid invalid memory access via node_online(NUMA_NO_NODE)
+0b4736a424a1358d613057a24ff97813305513e2 arm: align find_bit declarations with generic kernel
+e2863a78593d638d3924a6f67900c4820034f349 lib/bitmap: change return types to bool where appropriate
+4dea97f8636d0514befc9fc5cf342b351b7d0e20 lib/bitmap: change type of bitmap_weight to unsigned long
+cb32c285cc10e428589194e30233d673e7c23c72 cpumask: change return types to bool where appropriate
+8b6b795d9bfc031a8953c40fac8d3cf67e1a4d3d lib/cpumask: change return types to unsigned where appropriate
+9b2e70860ef2f0d74b6d9e57929d57b14481b9c9 lib/cpumask: move trivial wrappers around find_bit to the header
+db96b0c5f9db22d908ab5f7cd75904adba4b28ca headers/deps: mm: Optimize <linux/gfp.h> header dependencies
+cb5a065b4ea9c062a18143c8a14e831179687f54 headers/deps: mm: Split <linux/gfp_types.h> out of <linux/gfp.h>
+7343f2b0db4961d9f386e685e651c663dc763d0c headers/deps: mm: align MANITAINERS and Docs with new gfp.h structure
+f0dd891dd5a1d6dc6c9d486333aac4f433f17d17 lib/cpumask: move some one-line wrappers to header file
+3a2ba42cbd0b669ce3837ba400905f93dd06c79f x86/olpc: fix 'logical not is only applied to the left hand side'
+3e731203153de1c06a8b7a4f15061e9051c09a6f powerpc: drop dependency on <asm/machdep.h> in archrandom.h
+36d4b36b69590fed99356a4426c940a253a93800 lib/nodemask: inline next_node_in() and node_random()
+4e23eeebb2e57f5a28b36221aa776b5a1122dde5 Merge tag 'bitmap-6.0-rc1' of https://github.com/norov/linux
+
+--===============5764784752727870187==--
