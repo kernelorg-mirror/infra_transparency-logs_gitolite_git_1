@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 08 Aug 2022 18:57:11 -0000
-Message-Id: <165998503189.32433.15255275569990574706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 08 Aug 2022 18:58:11 -0000
+Message-Id: <165998509194.380.13628193884383167289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: d6b3d6d730d0b7c66c649a51d53088cb2b0598a1
-    new: 5374e44354afcac8c1e2ad3288d380f47a75c8b4
+  - ref: refs/heads/dev
+    old: 42a4b4d161d5d2471a10f43a099b647804aad875
+    new: 1e5aa3d5d53a6b38718510cce2b91a8199303891
     log: |
-         38ed5e5039465c156ae4e8c99abc9ec4822d91b0 handshake: add force_default_owe_group flag
-         b094f734e4135eeb644598176183ebe4d871eb0b owe: allow OWE to force group 19
-         7e99f1343cd0c7d06db45cc1792b34fb5ec1a395 network: add setter/getter/flag for forcing default OWE group
-         5374e44354afcac8c1e2ad3288d380f47a75c8b4 station: re-try OWE if buggy AP is detected
+         1e5aa3d5d53a6b38718510cce2b91a8199303891 rcu: Avoid triggering strict-GP irq-work when RCU is idle
          
