@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1025630433457838708=="
+Content-Type: multipart/mixed; boundary="===============8992371247053111169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 08 Aug 2022 11:08:06 -0000
-Message-Id: <165995688680.25713.15022437905599584606@gitolite.kernel.org>
+Date: Mon, 08 Aug 2022 11:08:09 -0000
+Message-Id: <165995688989.25774.12800276213331179294@gitolite.kernel.org>
 
---===============1025630433457838708==
+--===============8992371247053111169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 1612c382ffbdf1f673caec76502b1c00e6d35363
     new: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
     log: revlist-1612c382ffbd-4e23eeebb2e5.txt
 
---===============1025630433457838708==
+--===============8992371247053111169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659956886 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1659956889 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1659956885-5c2ac6d5ddb781b690dd4c515d965e8438e50614
+nonce 1659956888-bb687bec38c6a2532007ffb96061050dec39dc6c
 
-1612c382ffbdf1f673caec76502b1c00e6d35363 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/char-misc-next
+1612c382ffbdf1f673caec76502b1c00e6d35363 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7pYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CKwP/jzotPJqOUtCZDgVI3YA
-uyR3I/9CfbH7qY9AJlveT3CN0RN/kf7NcfPXphQRO4fwW+RBT0JagM58skGLUY0R
-ye+ECMl6ctyf+NP+GiXs4Q5T9+ywm9curtCp8buJcmtqeKCtG5p7GByUPRP5Dk/1
-lpWiXw+1cHw4ghYxLsHqLf1eJKZhz6KGNIym1yLkFDTnFBn0OQu/+WzvlSToPH6j
-zfylqgA00hDhXBJiwGI8p+ufa1kIKpGbbycC2ZosndOaVxf3iqyt14FMSJo6pEJh
-vFUSlQVX9AOvy/zjgXCzWv5TR1/PCkOBR2flvi59GbYANm+UFt5kAiW6gufdezNw
-7yDRAViuL2jqoZGTQFs8BtXkrhnhBt32sT9e1PBAgM+Nk8GZ7vh70+AywSuXsQyT
-xu41uI0j3JE6wdoq8w1fJRDf68oqo1u5XgsSQnevgG1bE1VeWFGOOoGX561bCuP3
-Pmlbjg5UB/0faXP/LTfzal/e4Wa5ZHzWumHuRaCf2hF33Y8jyp91ROV9/e+QRCjR
-yC/+Mecp6aKfvy6X/PB/kvC5go6RVfwoEWa+GSCikMH8EhC5BtXN1Ax9MUdUHuJB
-faF521dcG9+9NxKxYmCbVd1ii9kF/DvnM7oHrObaIF1d/QoeW+EEXJJCZXjHOKCf
-M2J3tC12m5FXKfZRIk/XpISt
-=OD6P
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLw7pkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hsoQALKs1NlLgwAKT/k7PdQ/
+9JBnPTLq5u1v0tHpwXySDb/4qLsSQ40ShgcPoQYnKIa155Uq3bvSO6nZVYZWakKh
+uObIJcifmZ+4gbXV0quPcrYbjGuqoZhG3yBGUSqhFiryPsUwOZzGNis58TuAbELB
+/Dmkgh7XeN5IfAf5RhseYhZEXjBOs2M7tYA431A9SWPReE+evvkGWHrPP3m0rkwX
+cfV/3dQBLWyDbvDJsdzuZLPPyhZBy2+7bPJHk5Lul+HFOy4gO1zOAeVeai1Q2WvK
+nDLzkgU1yHbKSRKR+COJUinHHy5eMimtdxRzpHcn0F+BKNC1xHTHhahMsFL6MPQw
+7W4noSkqVqiffKzrCG0fLSqkcleJSOelZ1Iwm0/rEeTTQ6PX263+aKetJzJyJwiD
+nHxSSxENJc+lcnerXC/2ZlvnPVcVQ1P5ECIyIn5BD8eJ2rCRh0zgyb74xF9D7FLn
+aTYsaCfOC6pheYb3/XtaePUFYX2J8j8n2khB5C5d8S9sY+nzSSToO36z0osRbnIP
+mL15Xrm2a7nTNzrBN/tjPsZLDt00e8cW+5g+7R/RtLf/4egebYwxdaRQYdefCzCe
+kwY0ayzo1T+1a5lJeqSlKx0BHtQTe0X1YDKjysVLF2WrfQW3+IYrOpYAb6YXrWQW
+itHoN8meGBFZglX3drhbFpvq
+=aatg
 -----END PGP SIGNATURE-----
 
---===============1025630433457838708==
+--===============8992371247053111169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -207,4 +207,4 @@ eb5699ba31558bdb2cee6ebde3d0a68091e47dce Merge tag 'mm-nonmm-stable-2022-08-06-2
 3bc1bc0b59d04e997db25b84babf459ca1cd80b7 Merge tag '5.20-rc-smb3-client-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 Merge tag 'bitmap-6.0-rc1' of https://github.com/norov/linux
 
---===============1025630433457838708==--
+--===============8992371247053111169==--
