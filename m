@@ -1,48 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5466955160401330783=="
+Content-Type: multipart/mixed; boundary="===============2118060763560737269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 08 Aug 2022 14:42:54 -0000
-Message-Id: <165996977433.12423.6318213298955874634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 08 Aug 2022 14:43:01 -0000
+Message-Id: <165996978192.12554.6062808535405214690@gitolite.kernel.org>
 
---===============5466955160401330783==
+--===============2118060763560737269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
-    old: 92f20ff72066d8d7e2ffb655c2236259ac9d1c5d
+    old: ff6992735ade75aae3e35d16b17da1008d753d28
     new: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
-    log: revlist-92f20ff72066-4e23eeebb2e5.txt
+    log: revlist-ff6992735ade-4e23eeebb2e5.txt
   - ref: refs/tags/v5.19
     old: 0000000000000000000000000000000000000000
     new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
   - ref: refs/tags/v5.19-rc8
     old: 0000000000000000000000000000000000000000
     new: cb84a9aae2260636f12f10c7f60779eb69e82849
 
---===============5466955160401330783==
+--===============2118060763560737269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92f20ff72066-4e23eeebb2e5.txt
+Content-Disposition: attachment; filename=revlist-ff6992735ade-4e23eeebb2e5.txt
 
 6e2c0490769ef8a95b61304389116ccc85c53e12 Merge tag 'drm-fixes-2022-07-29' of git://anongit.freedesktop.org/drm/drm
 27603a606fda0806d7c08914bc976931aa42020e dm: verity-loadpin: Drop use of dm_table_get_num_targets()
@@ -1069,4 +1057,4 @@ eb5699ba31558bdb2cee6ebde3d0a68091e47dce Merge tag 'mm-nonmm-stable-2022-08-06-2
 3bc1bc0b59d04e997db25b84babf459ca1cd80b7 Merge tag '5.20-rc-smb3-client-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
 4e23eeebb2e57f5a28b36221aa776b5a1122dde5 Merge tag 'bitmap-6.0-rc1' of https://github.com/norov/linux
 
---===============5466955160401330783==--
+--===============2118060763560737269==--
