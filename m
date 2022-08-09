@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8375624966290828984=="
+Content-Type: multipart/mixed; boundary="===============6371061571771173242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 09 Aug 2022 17:20:31 -0000
-Message-Id: <166006563166.12368.5448960237713116122@gitolite.kernel.org>
+Date: Tue, 09 Aug 2022 17:22:52 -0000
+Message-Id: <166006577282.13364.14900455032870751884@gitolite.kernel.org>
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,274 +16,284 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 84decc4738af9a4fba33fb93f8a01a19420b9711
-    new: dd85a35eea4d6308f04fa138554ffc4c22994116
-    log: revlist-84decc4738af-dd85a35eea4d.txt
+    old: dd85a35eea4d6308f04fa138554ffc4c22994116
+    new: 0ecd32d442d7f52e4c319d4802c80ec1d3161fe7
+    log: revlist-dd85a35eea4d-0ecd32d442d7.txt
   - ref: refs/heads/queue/4.19
-    old: 67daacde1ca61a885a851ec74cfa099be5e171f7
-    new: 2c09f23299a0187c784f5009e6aab731197f0494
-    log: revlist-67daacde1ca6-2c09f23299a0.txt
+    old: 2c09f23299a0187c784f5009e6aab731197f0494
+    new: a9980340890bf79f99be6bb3f190c1aa6eef2c21
+    log: revlist-2c09f23299a0-a9980340890b.txt
   - ref: refs/heads/queue/4.9
-    old: 4ca291c9c6fba5d7b4eecef3f8f56835ea569781
-    new: a546c839fa64b7c32f6bed33fc01b154ebb574c9
-    log: revlist-4ca291c9c6fb-a546c839fa64.txt
+    old: a546c839fa64b7c32f6bed33fc01b154ebb574c9
+    new: 32f8543fc9c52fefeed742fc1417d4a1a58c13e8
+    log: revlist-a546c839fa64-32f8543fc9c5.txt
   - ref: refs/heads/queue/5.10
-    old: f4ce95f746b982866d8344868c2339a790e3dfc5
-    new: 6615d8d67f605b1b684bd6159dd72a8abfffd645
-    log: revlist-f4ce95f746b9-6615d8d67f60.txt
+    old: 6615d8d67f605b1b684bd6159dd72a8abfffd645
+    new: 2a486aef142c6dab07f550261f1c3c1aeaa85052
+    log: revlist-6615d8d67f60-2a486aef142c.txt
   - ref: refs/heads/queue/5.15
-    old: 2e38706a26b91af28331714dc1fbaa963813fce9
-    new: 3d5a6cc8e3f36bce08222e758fa289bf1b018b84
-    log: revlist-2e38706a26b9-3d5a6cc8e3f3.txt
+    old: 3d5a6cc8e3f36bce08222e758fa289bf1b018b84
+    new: 634de3a863ddb1a75e312d4c8d1d57775479f0a8
+    log: revlist-3d5a6cc8e3f3-634de3a863dd.txt
   - ref: refs/heads/queue/5.18
-    old: 4030e25d8dd05872c07a1aba4089fa5f2286334c
-    new: c9b9964272782e6395a847a8e2e55e6c8621907c
-    log: revlist-4030e25d8dd0-c9b996427278.txt
+    old: c9b9964272782e6395a847a8e2e55e6c8621907c
+    new: 99e934b6697aa6b51b991be24faf51c4349bbd11
+    log: revlist-c9b996427278-99e934b6697a.txt
   - ref: refs/heads/queue/5.19
-    old: 8afc19a869f0fe96166fcd9861f24b210755144a
-    new: 41bd30a7ea996c2099c0ac99dd5dc48e7eb829b9
-    log: revlist-8afc19a869f0-41bd30a7ea99.txt
+    old: 41bd30a7ea996c2099c0ac99dd5dc48e7eb829b9
+    new: 3312179e71e7589e1bd8dc76b493badfe6fdd3bf
+    log: revlist-41bd30a7ea99-3312179e71e7.txt
   - ref: refs/heads/queue/5.4
-    old: 2e730db47a8d08d74b6a4b9b294148ae467d0854
-    new: ba4c8a22ea62c93cda7f312fc9341ff0c037f002
-    log: revlist-2e730db47a8d-ba4c8a22ea62.txt
+    old: ba4c8a22ea62c93cda7f312fc9341ff0c037f002
+    new: 2f35cde28ee76268529da58025b26795b22a2a19
+    log: revlist-ba4c8a22ea62-2f35cde28ee7.txt
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84decc4738af-dd85a35eea4d.txt
+Content-Disposition: attachment; filename=revlist-dd85a35eea4d-0ecd32d442d7.txt
 
-54e60c5d7e0475a2b34274fd57ca0997b752cf61 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-df47a82c4ea48336908f0b3903cd157f81661f51 ntfs: fix use-after-free in ntfs_ucsncmp()
-f2da6900d2b31cb5076f321528d7e3aeb6b88c9e s390/archrandom: prevent CPACF trng invocations in interrupt context
-fd955104233a6fb016707d1a4f5420bf311bca26 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-dd0657fcb24204a849a0e551cd01a16bd538d02b net: ping6: Fix memleak in ipv6_renew_options().
-0eedfbdf0c9aa4a6e676a89ecae78ef4815ab05a net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-176390251754e7ec8f4bcf7ac41da0ad228c7a70 netfilter: nf_queue: do not allow packet truncation below transport header offset
-880446d63e9225c762268228bd49fd4bdb79462c ARM: crypto: comment out gcc warning that breaks clang builds
-c7d53f821f12142bcc3b0c3fcd8d44082e3921b0 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-868b14f38ce754802ef189bda80e019040a5b07b ACPI: video: Force backlight native for some TongFang devices
-69a462fd75c2ef35b22bc7568d7ae279e3278dde ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-dd85a35eea4d6308f04fa138554ffc4c22994116 macintosh/adb: fix oob read in do_adb_query() function
+8f686bfce4cf1c9605a38f92609d83b861bfa1ec Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+8323e51b3970d9d80fcd167e58fa51cde6ae2e09 ntfs: fix use-after-free in ntfs_ucsncmp()
+760f094cbf410d662bc9e184b3181b843fc008d0 s390/archrandom: prevent CPACF trng invocations in interrupt context
+7e8508c95b53f0f1c108fac50a0fc3169f03557a scsi: ufs: host: Hold reference returned by of_parse_phandle()
+4ca42f2471f60a40ee7f79e1cdfac98d133130e3 net: ping6: Fix memleak in ipv6_renew_options().
+f4ca76423ef8cbdb5f7e11e5ee94b560cb64d52c net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+62d683c4ed8c81ee20511f78b6fd280fc3630b11 netfilter: nf_queue: do not allow packet truncation below transport header offset
+861988ef964e82dca804ef171b951aac489fa25d ARM: crypto: comment out gcc warning that breaks clang builds
+63896e42ba232325ad6e9f9c21ba9871c3e2e576 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+c257e19476576e18e8ee4c17c232dd6ac3d24ff4 ACPI: video: Force backlight native for some TongFang devices
+78890628436645f721a433416800aa9230e2528d ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+0ecd32d442d7f52e4c319d4802c80ec1d3161fe7 macintosh/adb: fix oob read in do_adb_query() function
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67daacde1ca6-2c09f23299a0.txt
+Content-Disposition: attachment; filename=revlist-2c09f23299a0-a9980340890b.txt
 
-69dccb1024f5c87ede065f14d2de72c3337bf437 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-82568b4972949e0a8c29be25051404b2863c902a ntfs: fix use-after-free in ntfs_ucsncmp()
-04fd54c84db3608a2a420069585057128e810a36 s390/archrandom: prevent CPACF trng invocations in interrupt context
-2ccb8f894ff99bab562b2f9027545595ad210424 tcp: Fix data-races around sysctl_tcp_dsack.
-d0ab2fd48e539d57b40c889949457973dd76b5ef tcp: Fix a data-race around sysctl_tcp_app_win.
-9c558ae4b9c2e5841cbf989c491ce20c1ae13f6a tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-c28b221c41e7641a56060892d221fa6484d07b18 tcp: Fix a data-race around sysctl_tcp_frto.
-2a5017f1c869d89fefdbacc0f225c6f8efe99715 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-d4676143ac8cbe387fca5572d3e502f17f74de6b scsi: ufs: host: Hold reference returned by of_parse_phandle()
-7bac0eaac58335b8ae878b003dbe9a45ee379ce9 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
-d3d7310a63a66da4ac2ac7f2553fcd4129f22155 net: ping6: Fix memleak in ipv6_renew_options().
-6649bf1c581907316af1b88f73e2e320e6521453 igmp: Fix data-races around sysctl_igmp_qrv.
-0e3b7288d4a15169078c25e0f0909b43bead40de net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-3a5d6a87e0f9ffd9e7556bad8b64e10728af651d tcp: Fix a data-race around sysctl_tcp_min_tso_segs.
-7159700a10031451d2d630797a9dcba9dd01d726 tcp: Fix a data-race around sysctl_tcp_min_rtt_wlen.
-3b807d7e2d6df0bba887bbdf464856ae78a0e282 tcp: Fix a data-race around sysctl_tcp_autocorking.
-e15e9d442089975a49b526703383a8dc0d19907c tcp: Fix a data-race around sysctl_tcp_invalid_ratelimit.
-57a03f3a62ed8c45f9d6507611892a8c1763a743 Documentation: fix sctp_wmem in ip-sysctl.rst
-2759115a590607451aea1829cef79270c944c54c tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.
-24e77928e6283fd732c2302f954f466c9811e2af tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
-a8f91bf87a5e05eeed5f4e8a0f360d501ecb986d i40e: Fix interface init with MSI interrupts (no MSI-X)
-097f91639a4b868bc576fab9e1c2c05966f0aa56 sctp: fix sleep in atomic context bug in timer handlers
-7a4691d596ee7cef067bdaac59ff2f9ef84519ee netfilter: nf_queue: do not allow packet truncation below transport header offset
-26a07ac0cdd90087881a519a640db5cdfae62a5d perf symbol: Correct address for bss symbols
-e1cf1df4567a68b8cb236a30c50fc2e75864873c ARM: crypto: comment out gcc warning that breaks clang builds
-eeb893203377a89a28a6ec0b2b8f85daa02a8599 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-69063e6663284afbdbe2c9981ee9bc30f334b524 scsi: core: Fix race between handling STS_RESOURCE and completion
-c42283988d76fa79e1d38940ba5d9ab0b68cbc50 ACPI: video: Force backlight native for some TongFang devices
-d63fdeff5dea90de83665c8c07596d8cf57f04f5 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-47742d38138bf37fbf2fdb0763db878b3ec103c5 macintosh/adb: fix oob read in do_adb_query() function
-b582f3bdc3a1ea07d3a7784a18cf7c1c295175ae x86/speculation: Add RSB VM Exit protections
-2c09f23299a0187c784f5009e6aab731197f0494 x86/speculation: Add LFENCE to RSB fill sequence
+1a9a835c160f92447329600269f715abd6165f70 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+a661a9e88a99efc32f2225ff0a5812df5d5a2d4a ntfs: fix use-after-free in ntfs_ucsncmp()
+e130f801c118ad4de34cfd7d14272be299dfdbff s390/archrandom: prevent CPACF trng invocations in interrupt context
+b526ab4d63e1c0e302e56254fc11f6d6a5d8cdab tcp: Fix data-races around sysctl_tcp_dsack.
+839739df16abc99fb6d9c08b561d0c20d5760b3f tcp: Fix a data-race around sysctl_tcp_app_win.
+20638a023c29c7d310f67d835e9c0aa66b8a32b6 tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
+a6527c43d591d294a374ab203fa6523bbd071a12 tcp: Fix a data-race around sysctl_tcp_frto.
+0b44ca30164bde67de5e309411577bf68b861b5e tcp: Fix a data-race around sysctl_tcp_nometrics_save.
+093ac866768f7c505eaf3fbff4750f22e5a0c5d9 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+336fcfe3bc86b60ee88fc2a885f0f850913b93d3 tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
+6f7459f09b23f6f6c3c7e3cb0a33fc529fb6854e net: ping6: Fix memleak in ipv6_renew_options().
+96d123cf47460f8c9f980537e2c4ec7ae56ccf4c igmp: Fix data-races around sysctl_igmp_qrv.
+42f2c06e2ef87a6277d559f43b89d0f910d624ac net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+649bbb27600c4982178ba2a208dc1b79e5081832 tcp: Fix a data-race around sysctl_tcp_min_tso_segs.
+3c1b071738f8c3f90004f663534f658885eb81b1 tcp: Fix a data-race around sysctl_tcp_min_rtt_wlen.
+752875323e6e313768a454852ea32782119a07da tcp: Fix a data-race around sysctl_tcp_autocorking.
+e4cde8a71ab7b102406be8a2c9b288ad61c4379f tcp: Fix a data-race around sysctl_tcp_invalid_ratelimit.
+9c3f9c0887c6dc3fd4f23b6c2fe141d29ba654e6 Documentation: fix sctp_wmem in ip-sysctl.rst
+4032bc2d45f1a74834a7124b7878153cac8b6fcb tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.
+28a5853781929579f5d85e4c5ac031f86d822562 tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
+2a0aa03d425355c237015db39591091c3c9ed621 i40e: Fix interface init with MSI interrupts (no MSI-X)
+158cf7d3062327b9968b1909d578877a5365a223 sctp: fix sleep in atomic context bug in timer handlers
+80c520c3e4a63b10de43d58513aa7cc19aa487e1 netfilter: nf_queue: do not allow packet truncation below transport header offset
+30aacc5e61c0beb576cc9b120f491b484926fcb1 perf symbol: Correct address for bss symbols
+b9bdaff834e8ddd6afabce665029c33ffcf90513 ARM: crypto: comment out gcc warning that breaks clang builds
+842890185dae8c9ac7b0048040abad0c312a933e mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+640a4e85e15abbabc910e2d994e19e3de5a27d8a scsi: core: Fix race between handling STS_RESOURCE and completion
+d5ddd54b92b354d63e3b5e04d9448fb00e4223d3 ACPI: video: Force backlight native for some TongFang devices
+507e9f83d94f0307c33b4a10a2938772816a544b ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+dc3a8f532195f0fd296a523ad09971f35a98e3c2 macintosh/adb: fix oob read in do_adb_query() function
+efe7ba81114515ff2dd0921fdd250754cc34bb99 x86/speculation: Add RSB VM Exit protections
+a9980340890bf79f99be6bb3f190c1aa6eef2c21 x86/speculation: Add LFENCE to RSB fill sequence
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ca291c9c6fb-a546c839fa64.txt
+Content-Disposition: attachment; filename=revlist-a546c839fa64-32f8543fc9c5.txt
 
-f4acbc074a4d71594a830f80ee2858686b3b9fcc Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-397bee0f7966cd9512d34ccd5f949ff6c3900c81 ntfs: fix use-after-free in ntfs_ucsncmp()
-689f370e13ef519a192b49f1949aacb84c958caf scsi: ufs: host: Hold reference returned by of_parse_phandle()
-c5d4fe386bc7d6e22eb9b52510a75612d2d33101 net: ping6: Fix memleak in ipv6_renew_options().
-0bfeba77be0e8775feb9e96c457e95e4e8dab8f9 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-1fcb7e67a15da5fafdc1c1a51e01d0a1fe867302 netfilter: nf_queue: do not allow packet truncation below transport header offset
-371b6591cdb7851dbba6dd1325889f8be58dc06e ARM: crypto: comment out gcc warning that breaks clang builds
-1f7111c076a6655dc83002c7fe9e50f1dbf64f2e mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-63a11fdbb98b4fe1d7dd44cbd53f91caf80303ed ion: Make user_ion_handle_put_nolock() a void function
-59db6f42262c927ef1b66080915b91f8934a109f selinux: Minor cleanups
-92d3ac667652b4291fdac83db004324bbed29507 proc: Pass file mode to proc_pid_make_inode
-0fac014c321327ed374ae5248c7a783f87e32c2f selinux: Clean up initialization of isec->sclass
-14c738d74cc8c9dadc934abf634f65fa924c645e selinux: Convert isec->lock into a spinlock
-c967ecc74654cd26b336da4897666780bf9c7217 selinux: fix error initialization in inode_doinit_with_dentry()
-9f985837dc3ab52fa0fd8e13516b6ed324d2cd65 selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
-3cc94a7f59c5c9e19f9b39bad8289bee7933f6ce include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
-c5b5130c8a6003f48a6badf06c96140a3861e257 init/main: Fix double "the" in comment
-d9f7fbcc697a67e7b478d9b4269d672a5ab87aed init/main: properly align the multi-line comment
-87c5c552e42cc0e76fef353c78f9c0d5d247f70f init: move stack canary initialization after setup_arch
-dc41988912ce8a4491f7eb1b66a0f31af32bd5bf init/main.c: extract early boot entropy from the passed cmdline
-b4122554023a399bc60f3b133e1ce4557ecb3cbb ACPI: video: Force backlight native for some TongFang devices
-98266a85fc9eb2e718fe8ddc59f3e94d21879814 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-df6ee017f19620e8cf311735de8624d5547b3c1e random: only call boot_init_stack_canary() once
-a546c839fa64b7c32f6bed33fc01b154ebb574c9 macintosh/adb: fix oob read in do_adb_query() function
+2269ba4fadd889a273b99f882ec24d2b91d2d09d Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+8f3d00fd8e3f8efa03bc7e4240ce59219fb545f2 ntfs: fix use-after-free in ntfs_ucsncmp()
+8988622e5a9abe813442f23f2800e8359a34cabe scsi: ufs: host: Hold reference returned by of_parse_phandle()
+cfd377e276b31e08595a7e2405f32cb9894010c9 net: ping6: Fix memleak in ipv6_renew_options().
+02cdd260dab59b2482fc93d685ab8fc5f687db74 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+53254d8e6e6db0ee8ac295dc479aaafc8a085316 netfilter: nf_queue: do not allow packet truncation below transport header offset
+cb0001d5f90590166d92134240aceecb2b39f080 ARM: crypto: comment out gcc warning that breaks clang builds
+f911cfa765d54dd6518feb94727433be4dd60c78 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+932fc87c06102ecd437cd0b7cfd13cb73c73d8f4 ion: Make user_ion_handle_put_nolock() a void function
+d00042b861d534e89febec40342c11cc9a48f1c8 selinux: Minor cleanups
+e7b1bc19d837cc016b4ae0e8f1bedd36d2a7a9e4 proc: Pass file mode to proc_pid_make_inode
+6cbc9b16363618e49d15f245a14aa1cc6f11692f selinux: Clean up initialization of isec->sclass
+07b548cbd2afa44bb3dd2956360abfbb54f49936 selinux: Convert isec->lock into a spinlock
+da2797fff9643cb0023b980c66b0d1d0f894211b selinux: fix error initialization in inode_doinit_with_dentry()
+f3e18a11425130d6a1e686e2537875b74abf46df selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
+e9a285e2e9fd5811f5a82a4cab8d254c96318679 include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
+f04b49ab4986b3c0f1988d4dc3a640406267a17e init/main: Fix double "the" in comment
+39fc781b919e1977e9a0d422be7a0f05c57e7f12 init/main: properly align the multi-line comment
+a0df6de871174d187d3b1f1b23370d754256e090 init: move stack canary initialization after setup_arch
+771b854353eee6f2e6d8f1961bb03df42cce3e98 init/main.c: extract early boot entropy from the passed cmdline
+f3abea956fa47f08e2391f42e25d8d542431c1eb ACPI: video: Force backlight native for some TongFang devices
+f03886a1674d9b3d53062de0b10767590214f932 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+bfd317d916b0a270c916298c9e03c29129f0b272 random: only call boot_init_stack_canary() once
+32f8543fc9c52fefeed742fc1417d4a1a58c13e8 macintosh/adb: fix oob read in do_adb_query() function
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4ce95f746b9-6615d8d67f60.txt
+Content-Disposition: attachment; filename=revlist-6615d8d67f60-2a486aef142c.txt
 
-beb3477b6618fbcf1f0b497a6f7d41c68c57eaf5 x86/speculation: Make all RETbleed mitigations 64-bit only
-c6970b23defb875786ce446c822fb453120512ee ath9k_htc: fix NULL pointer dereference at ath9k_htc_rxep()
-c9fc0fdcfa75f76f11dbf01d9ac2c1d0eac10bd8 ath9k_htc: fix NULL pointer dereference at ath9k_htc_tx_get_packet()
-26a28bce0349f7a5cb4761f5e356d1ec7c58c17b selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
-ea9491bce82dee712165c58c3b66199e48940763 selftests/bpf: Check dst_port only on the client socket
-ebea80bdaa6cdc51a0b7e43f887dd8e5fa3903e5 tun: avoid double free in tun_free_netdev
-050cd84db61ff3dfddf57b00b2b59eeb6f0f6d05 ACPI: video: Force backlight native for some TongFang devices
-8b443d026a4c901b72dff81e668db60bc39a1de2 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-b7abba419bdca1dfd02b22949dfc0d7be2ae016a ACPI: APEI: Better fix to avoid spamming the console with old error logs
-0aa48c2299f7d79031842f775800f2c0526e1ac5 crypto: arm64/poly1305 - fix a read out-of-bound
-01344907f656329cc99a668a813b2d8d08e658cc tools/kvm_stat: fix display of error when multiple processes are found
-827f171763aa933815a78dd5a0bc04f6e5f60bec selftests: KVM: Handle compiler optimizations in ucall
-ce866a6dff6ebc344c8d97952ccbcdc6d6547b47 Bluetooth: hci_bcm: Add BCM4349B1 variant
-1875ddd383126956665608a6e4c23879106a282e Bluetooth: hci_bcm: Add DT compatible for CYW55572
-fc73ab73b41154ef39864065bb2c9f115338dd30 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
-96168bbbab79a549970e546ca6db8feafc2c39c4 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
-79c79b6dbf12d3997728cd797c78253a1b333b9e Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
-13d47dfd48a2d9e227916fb32d50154d463c6aa4 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
-f0877f968d3e3ef59b76403635dbea4170243684 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
-afdf18a79c4f6b01a8cba0b3305bb0e3a70382ce Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
-6615d8d67f605b1b684bd6159dd72a8abfffd645 macintosh/adb: fix oob read in do_adb_query() function
+2c7a49200336870f62ecc872e41bc24ad28b9349 x86/speculation: Make all RETbleed mitigations 64-bit only
+6bb88efdbf6f8196067eaa989faadd6b67693c36 ath9k_htc: fix NULL pointer dereference at ath9k_htc_rxep()
+ee9c6b0f6a38e293927d09e1a40a0edacbee3ae5 ath9k_htc: fix NULL pointer dereference at ath9k_htc_tx_get_packet()
+e1da0843d7e4b62108d378bb7b1a257276725d01 selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
+fe7a275d11f1a105b3a75d1c481d9ab260450d59 selftests/bpf: Check dst_port only on the client socket
+cf08716d40ab1f356899d8c8cd27710d19358619 tun: avoid double free in tun_free_netdev
+019cfac220b87851212ae01cc56be25ef04f2769 ACPI: video: Force backlight native for some TongFang devices
+6fbe0f247f376ebc6e5cdb88f011fac4efddb9eb ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+70de1e9ff66b9c23cfdddbbb36633c32782b11fe ACPI: APEI: Better fix to avoid spamming the console with old error logs
+b6b6f85e85cb3ba1a091d12b2362ad9d56aa5ef3 crypto: arm64/poly1305 - fix a read out-of-bound
+080bba70a440e256bd4a068cf7fdeaf5b01b211d tools/kvm_stat: fix display of error when multiple processes are found
+255d8c849b15076e05c8155b2fbabe38474c5448 selftests: KVM: Handle compiler optimizations in ucall
+43661e20db902108dbda6b015d6149dfebc00618 Bluetooth: hci_bcm: Add BCM4349B1 variant
+a554da1116bbbf3bc61d80f26e0ea2a1a1e13e1e Bluetooth: hci_bcm: Add DT compatible for CYW55572
+132995377c687f7e6b1722870ed2ac6fe1700b90 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
+c27d43ea8df2ce45eede97d8cac61d8fa2a4059c Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
+881c4826de56426bbf7296c1ae661ea95cd99e64 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
+6dbc0c307b4dc062a74ce2f04baa7041da90e841 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
+3cf839722a39e8966b308039baec554b7e3cd6d0 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
+e4a1ddefdfd39fd7a2394e5e1a933766d7ee3c40 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
+f458b3484688fbab022e316c0ed41a7dde12fa0d macintosh/adb: fix oob read in do_adb_query() function
+126ee13251a24a99f667c5844da8bab4bc1aefed x86/speculation: Add RSB VM Exit protections
+2a486aef142c6dab07f550261f1c3c1aeaa85052 x86/speculation: Add LFENCE to RSB fill sequence
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e38706a26b9-3d5a6cc8e3f3.txt
+Content-Disposition: attachment; filename=revlist-3d5a6cc8e3f3-634de3a863dd.txt
 
-75b9f2344f0fb9e0ee500dd7e15fd6b7f2165c22 x86/speculation: Make all RETbleed mitigations 64-bit only
-893d68c73284554dd43912b72a233e970c8a1277 selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
-aa924e6236bb5d0bfbe48ac1d8679883af3d5ec2 selftests/bpf: Check dst_port only on the client socket
-08761769344fb947d2386752c3d839d627b1c664 block: fix default IO priority handling again
-80260d813641c0411fcf0aebc31838647e7d28bc tools/vm/slabinfo: Handle files in debugfs
-48daf5151bad0f2ea4dbfc88336f2f5e58d3640d ACPI: video: Force backlight native for some TongFang devices
-bdfd4c83e0ccd164ca71e140027ebed98daf074e ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-234f98aaaeb3dbd885b34b779b2ecd0e85ab0186 ACPI: APEI: Better fix to avoid spamming the console with old error logs
-92d51d4c0acd5d5763682ccaed8028d49f3b0937 crypto: arm64/poly1305 - fix a read out-of-bound
-1ba552a6d87118e4733bd47ff580556bc758fae4 KVM: x86: do not report a vCPU as preempted outside instruction boundaries
-8642f1693c7a5d95aa9a1370b96ebf675c0ba652 KVM: x86: do not set st->preempted when going back to user space
-07e8f330425f5422031eacb6a1804f2db77a529c KVM: selftests: Make hyperv_clock selftest more stable
-f08c571ce0c535c69a7bfd6be00f3c1c7ffde037 tools/kvm_stat: fix display of error when multiple processes are found
-ce8e0ae54f1461a5bb9cd140cf2511caf66c25ef selftests: KVM: Handle compiler optimizations in ucall
-7ec2c22328d36cfe45eca31f7213f235986ddedc KVM: x86/svm: add __GFP_ACCOUNT to __sev_dbg_{en,de}crypt_user()
-a098caf2284878e396365d93d0945c5d4a8886e3 arm64: set UXN on swapper page tables
-b694107e7ce2171d69846b089886b69f6eed465c btrfs: zoned: prevent allocation from previous data relocation BG
-edaf99cb3eff8d99cf768eb9694b9fd4160f9b4c btrfs: zoned: fix critical section of relocation inode writeback
-e44d786820c346d02ebbc92d5324edb776a777d1 Bluetooth: hci_bcm: Add BCM4349B1 variant
-40b734af9210415413e8dd4df38412f2c87dad32 Bluetooth: hci_bcm: Add DT compatible for CYW55572
-5273858aa779c6181ddf7be05ab35aca8f09d9cc dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
-2e74f4f9918af386a887d4bb8c597aa4032b6ee7 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
-cdf345623713d8d8b06ff962f6c4c962277fd0e3 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
-c5561172f8c88ad14c8343dd0817d796b4744764 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
-3ae39cf114d743fe1d086b3e2a19afa283e18cdd Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
-fba0d7398811f5ce43b4d64999f2fbdd4b42705f Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
-033c96bb90dc64abce16b631e11dca508810a917 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
-3d5a6cc8e3f36bce08222e758fa289bf1b018b84 macintosh/adb: fix oob read in do_adb_query() function
+9c825e589e8d51c634b644027b3d37293003fc97 x86/speculation: Make all RETbleed mitigations 64-bit only
+da0197dce1bebefe508dd060b4675c07a920207e selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
+c626e4040a310f2cdee280026f594d5d2edfe79d selftests/bpf: Check dst_port only on the client socket
+da4e9f2aa01f365bc0c02d0a9abba6e4e1774019 block: fix default IO priority handling again
+63d25fcdae97c19f67a97eed612a533895e702a9 tools/vm/slabinfo: Handle files in debugfs
+241e330554662826a6b9b9ba9b6940648e9b130a ACPI: video: Force backlight native for some TongFang devices
+2f22e7751c4d46398ce1fe688827d5e2a336f565 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+f7a75db1892c0d22ecc209de65d608bbc6fef68a ACPI: APEI: Better fix to avoid spamming the console with old error logs
+42ca4518d384818185aae344f1df62e04216c8e6 crypto: arm64/poly1305 - fix a read out-of-bound
+ce799e5d26e1c9d1f733b9dd98dcb92c901d5f0a KVM: x86: do not report a vCPU as preempted outside instruction boundaries
+2f2888f7d4e5f45583396cc9b675a30886ae57ac KVM: x86: do not set st->preempted when going back to user space
+9a2335b20142829ec9f4777a42be2f3306750130 KVM: selftests: Make hyperv_clock selftest more stable
+38a5a33bef4fd556d10bbfdd910a2bd4ba991759 tools/kvm_stat: fix display of error when multiple processes are found
+0faaf79658e6fe4c93e5721407df3620ead56c3e selftests: KVM: Handle compiler optimizations in ucall
+f2cf420d679c312ea6ae01fe96859448b5bf73c5 KVM: x86/svm: add __GFP_ACCOUNT to __sev_dbg_{en,de}crypt_user()
+158b7e8fc7175dc3a4ff765e5b8d825696bbeed1 arm64: set UXN on swapper page tables
+f5aeab9eddbdaa4abadfffc6ae6daf70b4a4e74a btrfs: zoned: prevent allocation from previous data relocation BG
+5f6b694bf69532b59fbca63c2840c98ef2e0ae74 btrfs: zoned: fix critical section of relocation inode writeback
+73070748f7417dc84643900b571dfa957bf345b6 Bluetooth: hci_bcm: Add BCM4349B1 variant
+cfcf928a6a8c15cd466caf4f08c237fbb3e09647 Bluetooth: hci_bcm: Add DT compatible for CYW55572
+661b62f61d47bf2ac23c1ddb173ac3acde336835 dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
+cf1f2656ce0aebdc37d6b576c7398766a03d52a7 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
+b456127274ec1fe75a1c3743650faa052c570180 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
+1282c7749a992ca6624e755ed8c86a4a6b998e46 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
+dfad6e012b89db4b007685e44e9460a2a61e9f43 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
+f56d26059e6e63270051b0e2afeea9f8e7845b60 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
+0a1892d07df12d9b1b71f73166f41703a3a74cb2 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
+0e1700e3a68d8a211efaa9e34f46f4532ccf0183 macintosh/adb: fix oob read in do_adb_query() function
+1854f14c3d98ef0c47f40d06158541d88f7e6161 x86/speculation: Add RSB VM Exit protections
+634de3a863ddb1a75e312d4c8d1d57775479f0a8 x86/speculation: Add LFENCE to RSB fill sequence
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4030e25d8dd0-c9b996427278.txt
+Content-Disposition: attachment; filename=revlist-c9b996427278-99e934b6697a.txt
 
-98e05888ecd9564725bb70ae9d0544f47ef4e7d4 x86/speculation: Make all RETbleed mitigations 64-bit only
-317c9c45c88cc4b7f0d884a43a4425266d8a3510 block: fix default IO priority handling again
-83060c1d0e99095bcff6ac70fed9ea34065ab805 tools/vm/slabinfo: Handle files in debugfs
-3af20509da5844105b178f3e7c826942a9c4f71b ACPI: video: Force backlight native for some TongFang devices
-f50447fea82f8b1a7a24428aaccffb78d8975b3f ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-ad8fbaf37aff14846a2245589b48e8e72bc2d04f ACPI: APEI: Better fix to avoid spamming the console with old error logs
-32247cfa666b83a3793436d64af2c6bcaa709ff0 crypto: arm64/poly1305 - fix a read out-of-bound
-e3eb366074a1f3077dd148f7932c5ed270c0eb34 KVM: x86: do not report a vCPU as preempted outside instruction boundaries
-3744db8eef192864b0b6e9b374d5316375df2c0b KVM: x86: do not set st->preempted when going back to user space
-95866980cf6f63e35a0afd61967195427a042952 KVM: selftests: Make hyperv_clock selftest more stable
-195f759689a4e6e4764cb5fa7f9bcede57f18e6f KVM: x86/MMU: Zap non-leaf SPTEs when disabling dirty logging
-7f6a9dd95fa0f76b553733ae6bcb97fa5a60ce7e entry/kvm: Exit to user mode when TIF_NOTIFY_SIGNAL is set
-b942cfa2857bf415c3f5f6e762fc275baf2b3507 KVM: x86: disable preemption while updating apicv inhibition
-306df4364b352966209ac6d4ce9e7a3ce62326c6 KVM: x86: disable preemption around the call to kvm_arch_vcpu_{un|}blocking
-756a9dbd78fe582aed55c9efa14f41e0ef52dac6 KVM: selftests: Restrict test region to 48-bit physical addresses when using nested
-52564e7d0b35a20884620e1acda61aa52c57aa5f tools/kvm_stat: fix display of error when multiple processes are found
-ab7aad15482fc1f3af8ffff5f5eb2c002d0270da selftests: KVM: Handle compiler optimizations in ucall
-66ccd879f9fe731555828d8b7a0a105ec5561e83 KVM: x86/svm: add __GFP_ACCOUNT to __sev_dbg_{en,de}crypt_user()
-20c60c77ff543996753656309c6694da7e1b65a2 arm64: set UXN on swapper page tables
-c85faedbb83497d8ba4f851beb9608d7e0220dbf btrfs: zoned: prevent allocation from previous data relocation BG
-b6284a37c7ec9b2a020854478d178794427bdcf0 btrfs: zoned: fix critical section of relocation inode writeback
-f178dffa5ababda43500286ae878accf60f8f490 btrfs: zoned: drop optimization of zone finish
-5a334da1900ea026d18ecaf8b41587fe48b772d3 Bluetooth: hci_qca: Return wakeup for qca_wakeup
-cb87c468bf5daa3616ab4c0dccbe73836034794b Bluetooth: hci_bcm: Add BCM4349B1 variant
-818a1280fef66b0533d0586280f0c5df39c9c0b2 Bluetooth: hci_bcm: Add DT compatible for CYW55572
-dab4e1f13cc56d5d971e2146ec86026ac2d16f7d dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
-edebbfe8745b1977305eddf24bc4dd265809779f Bluetooth: btusb: Add support of IMC Networks PID 0x3568
-e8993584e839bf9be17d3970ffd27068a66c23ad Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
-0c2b510517a2c4651439708b8b93d1bffd20d862 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
-21f4375c93d61145ed92e001aa58b0b633a32cde Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
-d4f647a723f2791a4772e3ddb30b3557673081e6 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
-8de98f1dc334949e14e925fef7e33a8abe757844 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
-c9b9964272782e6395a847a8e2e55e6c8621907c macintosh/adb: fix oob read in do_adb_query() function
+c2d0d8609b39add7bfc8b7175d28462ffe0af8dd x86/speculation: Make all RETbleed mitigations 64-bit only
+af9550fd274a4a6c040707b4d1bcc43a63e8d2b5 block: fix default IO priority handling again
+0a53a85ac2db993ca0facdc7ddd4906a9f21a05a tools/vm/slabinfo: Handle files in debugfs
+c4b40488382900453c29e1fcf3da9b3f8b772ea0 ACPI: video: Force backlight native for some TongFang devices
+8f43964fee3d04af565535199957004945a7c0cc ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+e77e6238fbc4d107deaa5b38e22ccc509f0cd42a ACPI: APEI: Better fix to avoid spamming the console with old error logs
+0ecf04aa609b2b1ae2a4ea5f099b4403ef25bdc0 crypto: arm64/poly1305 - fix a read out-of-bound
+4b3d182e3e9b11bf441cdc7cdbb353bca9084791 KVM: x86: do not report a vCPU as preempted outside instruction boundaries
+8839192c1691a307c9521ff29688a3399106608c KVM: x86: do not set st->preempted when going back to user space
+e3b75a22afaaed1fed416387d94204170f3b82cd KVM: selftests: Make hyperv_clock selftest more stable
+ae9c870eabcfb1c076fe68377494a682b52a47db KVM: x86/MMU: Zap non-leaf SPTEs when disabling dirty logging
+42a4277720203066e30ae9f9c673d21bdd776dbf entry/kvm: Exit to user mode when TIF_NOTIFY_SIGNAL is set
+814fb558f7d308ca7140e4b887a916a2dd05ee49 KVM: x86: disable preemption while updating apicv inhibition
+7e2b0f8bf083758acde174d3b1700ccfaa479806 KVM: x86: disable preemption around the call to kvm_arch_vcpu_{un|}blocking
+3183b3f81c7b27f585016715ef83903d95b20faf KVM: selftests: Restrict test region to 48-bit physical addresses when using nested
+155203865ec96faf08ba1a9ea173c3cfaadd8f01 tools/kvm_stat: fix display of error when multiple processes are found
+0302156405329c1fb10f18aedd5d77a883c14702 selftests: KVM: Handle compiler optimizations in ucall
+2a8a64207397ab7c882600a34d177ed495caf928 KVM: x86/svm: add __GFP_ACCOUNT to __sev_dbg_{en,de}crypt_user()
+e7b84a89d05269a78f48460d157ebc51ea5c041d arm64: set UXN on swapper page tables
+d9b9b3ee02aa365379aa0f625752c13b4cf95188 btrfs: zoned: prevent allocation from previous data relocation BG
+01128926f63b1b4c6f8668175a917e761fd83f15 btrfs: zoned: fix critical section of relocation inode writeback
+27a117a2eff1c5903636b0dd293b8b241e77efdb btrfs: zoned: drop optimization of zone finish
+90e17d577c933fbc8f5ccd22a0aa6eb1203bd60d Bluetooth: hci_qca: Return wakeup for qca_wakeup
+b59c67ea8f29b387a83780631c56ee48f410ebe3 Bluetooth: hci_bcm: Add BCM4349B1 variant
+7f427c65e5ac69f6591e5f2c8524f2ea48b2b3c7 Bluetooth: hci_bcm: Add DT compatible for CYW55572
+458c8a8a64a3228cd38791139021be5c9eb83d85 dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
+68d4bb334b82ba0da0b2439e1102865a72388bea Bluetooth: btusb: Add support of IMC Networks PID 0x3568
+c92bf0dd72123bdd89f07961169043961cf2342e Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
+d01d25d3e9ef403e2e06bfb722e4b3089b5242ee Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
+839a5acb8c0aa998b7d0ceb47cecb1869a45f8f6 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
+ee855305c7ecb31e6029e4c8a1bea2fe8a3ecb94 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
+6c167aff15a0f58201553ad68f7b770e1f23d90d Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
+04cbed764e191740cae399043834b345c6ac1e9a macintosh/adb: fix oob read in do_adb_query() function
+705805eef5f7bef321e13c3831306e91be139c92 x86/speculation: Add RSB VM Exit protections
+99e934b6697aa6b51b991be24faf51c4349bbd11 x86/speculation: Add LFENCE to RSB fill sequence
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8afc19a869f0-41bd30a7ea99.txt
+Content-Disposition: attachment; filename=revlist-41bd30a7ea99-3312179e71e7.txt
 
-ab06c0f9cc3c0fb2dbe9e48a4037814ee0dc6604 block: fix default IO priority handling again
-82d65a99b1cfe38baf5c419684cb53070e9ea98c tools/vm/slabinfo: Handle files in debugfs
-e2f3e26ad7769a1986e5e87e69e2a44a4e768f5c ACPI: video: Force backlight native for some TongFang devices
-0dcad05e23ab84c9354dd85457c53567e8b4d282 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-ab885b1c1cfc0ae39024434665f02ca2310a8607 ACPI: APEI: Better fix to avoid spamming the console with old error logs
-74b810d4811d4a79cb466d9c0713121e853509c7 crypto: arm64/poly1305 - fix a read out-of-bound
-36f710be0a6726a28c64c88bdd25aef8a68016d3 ata: sata_mv: Fixes expected number of resources now IRQs are gone
-a39a76d17ff240bd317b125e7a1e2bd518cc3d0e arm64: set UXN on swapper page tables
-150a2a19e3a88f557658fe0e9deb25e2e11b0d75 Bluetooth: hci_qca: Return wakeup for qca_wakeup
-cd2c87f2fc8b06a143ef7f4ec3d85ad1541b8e43 Bluetooth: hci_bcm: Add BCM4349B1 variant
-531c54ce95902181a9ec2ba91ce5a8eefc45f701 Bluetooth: hci_bcm: Add DT compatible for CYW55572
-ae7203039d944b61ccd514aa6f5f8b994ae01ff6 dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
-28055320d936af2d413e8b124750f6a5a8d28206 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
-7071e82555e44e19e56f414e93ca32f16e81d01c Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
-1aae4270e521ecd6bf6eff05e67157d2afa32240 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
-21e9eb2a335abf3af93e50cbc4e8552aceb3e2f6 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
-44b5b0daebeac1636d1b18c5832e14ae36c7eaec Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
-29cc65e0c1a26e581b979a3e6582b3f228744217 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
-41bd30a7ea996c2099c0ac99dd5dc48e7eb829b9 macintosh/adb: fix oob read in do_adb_query() function
+4c6c45b9909a956f8342b47d1590cf43f71a58eb block: fix default IO priority handling again
+1e1e141a8b786c6e3402a35828603f21677d8a77 tools/vm/slabinfo: Handle files in debugfs
+e64377e47fa629fc6f53bd0d74e10cdf2445af70 ACPI: video: Force backlight native for some TongFang devices
+7fb7e3bedf385968618cd9766a94f03412e13930 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+c6a032cd25cd314dd5a6324f41dc010051aae6a9 ACPI: APEI: Better fix to avoid spamming the console with old error logs
+fbbea8e8a78c5c5d22a5d3e4455bb6f3ea6662fa crypto: arm64/poly1305 - fix a read out-of-bound
+9e19407da48c3f941f9d6fe6f4d36433f843b301 ata: sata_mv: Fixes expected number of resources now IRQs are gone
+a1f232eb342c701b7ffde074f036d1b1e43d7e71 arm64: set UXN on swapper page tables
+def4552f599fd86709f0a628d866e85df44b0626 Bluetooth: hci_qca: Return wakeup for qca_wakeup
+21e196ad5d791df65fbc706afee21974a8b46f08 Bluetooth: hci_bcm: Add BCM4349B1 variant
+6b91f6678398022fb5bf926626ec35e6b0bbda26 Bluetooth: hci_bcm: Add DT compatible for CYW55572
+0e79ee5c4064fa38f89bc376dd6cf1cea3699401 dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
+65ca5d1d68fa92490b2667cba047814afc3ba652 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
+493f9900390e3c7d67dd20cf8e1a0c8a6a2d536d Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
+f4f3f137637ac869b430ace8beaca3f72690a8cf Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
+cfbd55f7c64f7adf85529e49f57e95bf9207bf8b Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
+06b9180574fd6b0f66176c38c25d414200c70f6a Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
+e4b4c6b5b70b265ac389fdb6486be57fcda480bc Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
+99a44ea74d1029333f2013dd3456b869d7cb6f62 macintosh/adb: fix oob read in do_adb_query() function
+f62305af7f3c5f240ee1db8f175e930d4ef0ff37 x86/speculation: Add RSB VM Exit protections
+3312179e71e7589e1bd8dc76b493badfe6fdd3bf x86/speculation: Add LFENCE to RSB fill sequence
 
---===============8375624966290828984==
+--===============6371061571771173242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e730db47a8d-ba4c8a22ea62.txt
+Content-Disposition: attachment; filename=revlist-ba4c8a22ea62-2f35cde28ee7.txt
 
-2388a817ee4f305a1537c775eba84de714123822 thermal: Fix NULL pointer dereferences in of_thermal_ functions
-1d51f460540c3fe2e2a32da38b5a609b294578cf ACPI: video: Force backlight native for some TongFang devices
-9060468f13e91e408881fbbbc91ec910c837feee ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-40920a6a7a1be06b04d088596c9ae01a4fb95e5f ACPI: APEI: Better fix to avoid spamming the console with old error logs
-d216570eb4ac679930160b7254412cf9d0804300 bpf: Verifer, adjust_scalar_min_max_vals to always call update_reg_bounds()
-6b3f2485740c48883c3e4814d9032ddedeeb1eee selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
-e0d5d5142a9050ff5cdfe809555bbad24ee9bd53 bpf: Test_verifier, #70 error message updates for 32-bit right shift
-07f56014cccf694489774bcb38baef4a4ae545fa selftests/bpf: Fix test_align verifier log patterns
-6ec2ea2b2251881cf5fb70f66ecc16d28b7a3a67 selftests/bpf: Fix "dubious pointer arithmetic" test
-ef14941280cbb407a5ea2fa4a88d120ee0e6fa3c KVM: Don't null dereference ops->destroy
-c7d46656df9319e91e8e951eae95126133336e3d selftests: KVM: Handle compiler optimizations in ucall
-f3d9d5a4c67eadc5da522a5d522ad61a7e031dc2 media: v4l2-mem2mem: Apply DST_QUEUE_OFF_BASE on MMAP buffers across ioctls
-ba4c8a22ea62c93cda7f312fc9341ff0c037f002 macintosh/adb: fix oob read in do_adb_query() function
+deb76d7c7d2830e06b63ef64af3fbd7f381ed9e3 thermal: Fix NULL pointer dereferences in of_thermal_ functions
+d8326081e366e2458f0a6be494f9d0d08c03069e ACPI: video: Force backlight native for some TongFang devices
+a4d2c954de67dd3272d6d6b34f585168f27d9ea9 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+7b466af6023cf318930f78436258c567a90cf899 ACPI: APEI: Better fix to avoid spamming the console with old error logs
+dfb010eee592c9ef5d435273f0b3d60ec9426def bpf: Verifer, adjust_scalar_min_max_vals to always call update_reg_bounds()
+653271ded814b72f91b0228fe61a1430d833705a selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
+1ddabe87a736f8b5e33b66dcbfc64629c1c7fde5 bpf: Test_verifier, #70 error message updates for 32-bit right shift
+8377f65874b5f58489e7806d6ee62b81d0eea2b5 selftests/bpf: Fix test_align verifier log patterns
+b5ef6a4974c30fb9006f30cd4951f0bce5c0980d selftests/bpf: Fix "dubious pointer arithmetic" test
+5779afe0ef78142c4d9ba8f8755516f849937821 KVM: Don't null dereference ops->destroy
+fe2715a785619eab3d232e004bce7340f3475e53 selftests: KVM: Handle compiler optimizations in ucall
+57ac6280b8d8c4c8b9d47ba9b29779e92122c8ba media: v4l2-mem2mem: Apply DST_QUEUE_OFF_BASE on MMAP buffers across ioctls
+d5bb0516435aae7f2451d83ca18ed90ce021f57c macintosh/adb: fix oob read in do_adb_query() function
+52004d92804b8616f758d590d5cc61ddf94dad5f x86/speculation: Add RSB VM Exit protections
+2f35cde28ee76268529da58025b26795b22a2a19 x86/speculation: Add LFENCE to RSB fill sequence
 
---===============8375624966290828984==--
+--===============6371061571771173242==--
