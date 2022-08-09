@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7728035665510233483=="
+Content-Type: multipart/mixed; boundary="===============3602822338480130070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 09 Aug 2022 15:59:57 -0000
-Message-Id: <166006079736.14469.15189007657595090935@gitolite.kernel.org>
+Date: Tue, 09 Aug 2022 16:00:02 -0000
+Message-Id: <166006080298.15474.8950578988018996191@gitolite.kernel.org>
 
---===============7728035665510233483==
+--===============3602822338480130070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f574f7f839fc1753467b52417591cf2668825a92
-    new: b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d
-    log: revlist-f574f7f839fc-b8c3bf0ed2ed.txt
+  - ref: refs/heads/dev-queue
+    old: 03faee4d7b7d96890f1452e4aa262d0acddc15bb
+    new: 7442b7de724f9e9bb5bc353da2d15c50d5b8d758
+    log: revlist-03faee4d7b7d-7442b7de724f.txt
 
---===============7728035665510233483==
+--===============3602822338480130070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f574f7f839fc-b8c3bf0ed2ed.txt
+Content-Disposition: attachment; filename=revlist-03faee4d7b7d-7442b7de724f.txt
 
 332f1795ca202489c665a75e62e18ff6284de077 Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm regression
 164dac9755ac297b0c07505ad3db9e7d69b80499 Bluetooth: ISO: unlock on error path in iso_sock_setsockopt()
@@ -47,5 +47,17 @@ b3bb8628bf64440065976c71e4ab09186c393597 tsnep: Fix tsnep_tx_unmap() error path 
 546b9d3f406a14cfbb12bfbf9fe1b302f1d860b5 net: phy: dp83867: fix get nvmem cell fail
 7a07a29e4f6713b224f3bcde5f835e777301bdb8 s390/qeth: cache link_info for ethtool
 b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d Merge tag 'for-net-2022-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+9d8f7cbe3b84486f8a5da7836d5eba2a3fdb71c1 ice: xsk: use Rx ring when picking NAPI context
+a9ca1980dc9f2b7155d439ebb7a91c02806b4737 ice: Fix VSI rebuild WARN_ON check for VF
+759823e1ab895fe0df0e644eafd206700bb86320 iavf: Fix adminq error handling
+2d78bc4df7710f4ec195b48dbacfbabedefb75ed iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+e336babb4c5129057339a4d6da94748aa8b60d61 iavf: Fix reset error handling
+a628edc2ad8d796a25abba575732654e438c1fbc ice: Fix call trace with null VSI during VF reset
+099f3b3652bb98577afe9fbc532b1d1049746f60 i40e: Fix tunnel checksum offload with fragmented traffic
+b7855aba691389a2ba1d56ce58216a878b5c5431 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+59b5f5cec54ee25edbc1ae6bc0bd726fc590a3db iavf: Fix shutdown pci callback to match the remove one
+54034193c352c1413658b914034d23672d5e84ac iavf: Fix race condition between iavf_shutdown and iavf_remove
+4beb68a8b634e68b597d0df4ab36395a9ef05abd i40e: Fix to stop tx_timeout recovery if GLOBR fails
+7442b7de724f9e9bb5bc353da2d15c50d5b8d758 ice: Fix VF not able to send tagged traffic with no VLAN filters
 
---===============7728035665510233483==--
+--===============3602822338480130070==--
