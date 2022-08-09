@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6789721968696701174=="
+Content-Type: multipart/mixed; boundary="===============8625492581303867167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 09 Aug 2022 17:55:16 -0000
-Message-Id: <166006771655.6685.3877121499845468214@gitolite.kernel.org>
+Date: Tue, 09 Aug 2022 17:55:17 -0000
+Message-Id: <166006771799.6787.14983547239353521936@gitolite.kernel.org>
 
---===============6789721968696701174==
+--===============8625492581303867167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 429e1a1cd83dc313d946441c150129c03d0df55c
-    new: f6358ca515b1b423d3e1687bdd4711a519ee52b1
-    log: revlist-429e1a1cd83d-f6358ca515b1.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 4fd9cb57a3f5e611efde7772643134385de3a5a6
+    new: cf6f87a93412e15617900d8213013eb3a6ca08ed
+    log: revlist-4fd9cb57a3f5-cf6f87a93412.txt
 
---===============6789721968696701174==
+--===============8625492581303867167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660067715 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660067716 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1660067713-52136c330fe1937cb815048678ea6598b95435e3
+nonce 1660067715-66f28fa8ec5ed94bb59bc2da8415f8a269447a85
 
-429e1a1cd83dc313d946441c150129c03d0df55c f6358ca515b1b423d3e1687bdd4711a519ee52b1 refs/heads/linux-4.9.y
+4fd9cb57a3f5e611efde7772643134385de3a5a6 cf6f87a93412e15617900d8213013eb3a6ca08ed refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLyn4MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vBwQAJToRg8WlxCcCOeD5P1T
-d66ZqwjMOzS76jkXp1ujggrNzL4dJLIANxbkvBCNqeJN5xc5VEG85Am2quOHwhw/
-7I4W+y7vrfnF2jGfuT6I/8B6fNex3McsnbIHT12oaaF8QqdLMWCiOKtCkdvId5nx
-jNe3v+9JzxGW5awJCIfyzPtHW+1oeIWXJwvxH74t+9QjxUeZXcDW7tYpxzKi0rHE
-bkznf90vLyxLnTkgDjnEwEeQISgISLlUhiAMbgzxGGxlSQV8seNf1Ct9NoXcXi+d
-VHga4FTRRjqFByfabk99BjXNfm10UhsHPmUrRO8L0e3cxjXv5MV4SBdZvpl8dgf+
-nfJsnfKq9wIplHcLrGqtgrvzMhZwDh9TfBmudgWyO2466Bh38a5ONZuXdlNNTsOY
-Ywu9cJyld9aIH4iaANnSvUhqUIOA/EbHEaJWowCLyLwQjUajxBxaQYlvnCeEZ5s4
-mgVzTqCNxL9Xv7b+RE4s9IDp/nr8ZD+Tzew/Ku6eVDy4gluwatjzBxDn82Ih8LU/
-BGZHqbX/1kiuqFMCU9B2tXbGNVjVvXJ3vfyaQSa2X0HnCymddlfa40mONj2Bqk8S
-OJ7m/ru3ir52rQjxQdwnYf1iW/FWErL75mMtz9MwYNzPt5Nh/pji7BxTmtf5i7V2
-U08reKKP0z2Kc2yS7d0fpeau
-=DsK8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLyn4QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ou8P/iBybFrMBNI9Ezv6jQcQ
+ZDAVQ8KX4oTgdeZ8Nar/JYkviNKNcvZr1rbLAm4PUVOPBuvXzVeY3qjVBh1+KUv/
+2NxwHlSw+XGuzpl8WbYaWwZfH7rAKI18Xp7CiJOqhb7ss8WziHfzJq6+v0p63ZtO
+ngmCqZYMFXahsoBe+VgGgbu59BvidLqWW3qyqoxWWPAoFkMqPg2L35I19Ee3FiIq
+hCcMyLGXX3wn+StzA7vDQELYPIoJwXrJqLTZNvH/GIF2JGdNWDlkn8sifDT+7BD1
+2IRVrmfLy7z7Frjsfe1fcRNYaAvjOkQ8C2b9tIL/ccEWswa/RlDY/heQIrNSTsZL
+t8KnEftnpi6erGgI4zycX3J0N6WHEDdVmYojFWtMhCjwcx67h/LZQOQ8SsYNO0XV
+9E7RYBE9N3ihLpUr69872AYZl/s/PnU1hN2Q/x39/jGqCK2EshyXwuEZsnqQb/0Y
++yQnKJ32uUV+Qiz2YsHPbz1X48SA8V6Nn70lypU2h3g4t53/T2oRL14Zvmn2ooNj
+2OGoQoFcEzGpgW0Dl7ZJ0jJAa+npq11fsiroK1ELk1Mt89FkLG1eYnciLMWu5JAS
+KVfQEtdgRABwgUjdn9bCkx4Tea65pHegI9xYOiMtHGAyX/k9Mkb7ipHj/Ku6d/gK
+4olt7mlCfMEB4OvyYDKROiyi
+=K+U3
 -----END PGP SIGNATURE-----
 
---===============6789721968696701174==
+--===============8625492581303867167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-429e1a1cd83d-f6358ca515b1.txt
+Content-Disposition: attachment; filename=revlist-4fd9cb57a3f5-cf6f87a93412.txt
 
-feb495d4e67788ae793bd5e4e58f9eb3452f674e Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-6bc488c0b7d986715a781183096f5b187be71c0b ntfs: fix use-after-free in ntfs_ucsncmp()
-fd7c9787c8eaec4d9d2ca1392cf16f3d8f638cd3 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-a4beeafe1f89e6dea8df2e3fb16f372454345569 net: ping6: Fix memleak in ipv6_renew_options().
-7c6352e79742eaaaf9a7b410993ba2c06517baa9 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-a67532727bf7027317d32fc13ab1592cc5243840 netfilter: nf_queue: do not allow packet truncation below transport header offset
-fb326bdb9cd54bc7c997379279f61369cc265b55 ARM: crypto: comment out gcc warning that breaks clang builds
-9356966aaaa59a41af9ef46fa6df91cb8461e203 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-248f6b1276ac1beba1f9982648224f0449b71c1c ion: Make user_ion_handle_put_nolock() a void function
-2458eb9f95e69832c3a1b15ba4107b16fa3022f9 selinux: Minor cleanups
-5f40afc432f15e74f53a9f38a3d4c7d343448f64 proc: Pass file mode to proc_pid_make_inode
-f9cbfd76d19ec59e0e287f7523af1ce80b84b48e selinux: Clean up initialization of isec->sclass
-0b1a3ffc14ea73d85d35588590a575cc27c9f239 selinux: Convert isec->lock into a spinlock
-cfc9144d76faea2a1e907afe8716c0f8e2696e2e selinux: fix error initialization in inode_doinit_with_dentry()
-060cafec2fedf9bba99738dc2a42eff4188a2736 selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
-4f448e6ee4f3f54051644494de97fd8d9b93d4d7 include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
-2633ca0a630f53e44ff9bfebc69d43208a076644 init/main: Fix double "the" in comment
-b2d1002852aad163ae37da3c3f538027ac770c40 init/main: properly align the multi-line comment
-d88b92f4f94d8b962779ad4de3831e521dfe995f init: move stack canary initialization after setup_arch
-83305c847d199aec18d1b3349bbf8a4fd3ba3b71 init/main.c: extract early boot entropy from the passed cmdline
-1e963bcf10e109c62feaea6eef2ef5fd375d8997 ACPI: video: Force backlight native for some TongFang devices
-af1d225d416a796f49c31f9da5a4b2c708286d05 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-cd2eae7b44da155460723959b942f9051c859500 random: only call boot_init_stack_canary() once
-4f33c1cad1fe81347f7e3d6dea070b1fddfde747 macintosh/adb: fix oob read in do_adb_query() function
-f6358ca515b1b423d3e1687bdd4711a519ee52b1 Linux 4.9.326-rc1
+71ba3df21b514e832017d5d7d094670ec7562522 x86/speculation: Make all RETbleed mitigations 64-bit only
+251b34e97f253b09b68414e64c7379d68a555485 ath9k_htc: fix NULL pointer dereference at ath9k_htc_rxep()
+c6de7d736872dfb9bc7fdbbb6641f10077e8c6c0 ath9k_htc: fix NULL pointer dereference at ath9k_htc_tx_get_packet()
+b066ab837b5a6ec713014ff159180c5d112ecf91 selftests/bpf: Extend verifier and bpf_sock tests for dst_port loads
+f40d4784886dd1ef1ddaf1d7788e09ecbfc1aea5 selftests/bpf: Check dst_port only on the client socket
+db98f5657115cecf44d39659902d79d616b43a31 tun: avoid double free in tun_free_netdev
+916de6393ea4879129066b6bbed352cf93703b4a ACPI: video: Force backlight native for some TongFang devices
+eaed1f1d40e9d54e2f56137a42ca682c3c76f143 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+4f9ee92d0a912057d50e093cb068cc2653522f12 ACPI: APEI: Better fix to avoid spamming the console with old error logs
+cab5ea4172b580b87edc3888dfd4a0c29c166b37 crypto: arm64/poly1305 - fix a read out-of-bound
+edd84e129514a70ed59c10d6405c6d0bdd9754b8 tools/kvm_stat: fix display of error when multiple processes are found
+667543048ea64b9ca462d00102d5f40d69862f6d selftests: KVM: Handle compiler optimizations in ucall
+5b3806dee28e821a8e299471bc38cf43a14bd2f5 Bluetooth: hci_bcm: Add BCM4349B1 variant
+b62b26909a6bd6b74670c2d4a24324cf9d341ae6 Bluetooth: hci_bcm: Add DT compatible for CYW55572
+a513209db8ce67aa5699d8c2f241bf54762480a6 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
+6738254d4428e8351a718c148f468a33104a95fd Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
+ea12dab1a0d66b005fdddf1578b24eb8dd2c3268 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
+22743dce55c35290ed06ce93a90062ca97b88dc8 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
+38d0bfbeac076629ccb038a651db53f7fd00e45c Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
+ba213008f22e21cebe9013bbad8399e0e03d7c40 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
+e266a2c6ca0b981e6b7e6f8156a9e08eab9995d5 macintosh/adb: fix oob read in do_adb_query() function
+2d2f46b91ada41bce3cf3ec7c2966d5c51bfc0ea x86/speculation: Add RSB VM Exit protections
+57cd0972ee6201f2693dad302ef786dbc435d12c x86/speculation: Add LFENCE to RSB fill sequence
+cf6f87a93412e15617900d8213013eb3a6ca08ed Linux 5.10.136-rc1
 
---===============6789721968696701174==--
+--===============8625492581303867167==--
