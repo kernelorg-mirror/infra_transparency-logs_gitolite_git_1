@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6372864895187447691=="
+Content-Type: multipart/mixed; boundary="===============1730985507979231423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 09 Aug 2022 17:02:51 -0000
-Message-Id: <166006457100.29832.15963027747864249265@gitolite.kernel.org>
+Date: Tue, 09 Aug 2022 17:02:56 -0000
+Message-Id: <166006457659.29952.15368301524216731305@gitolite.kernel.org>
 
---===============6372864895187447691==
+--===============1730985507979231423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: ff6992735ade75aae3e35d16b17da1008d753d28
+  - ref: refs/heads/tty-next
+    old: 0fec518018cc5ceffa706370b6e3acbbb1e3c798
     new: eb555cb5b794f4e12a9897f3d46d5a72104cd4a7
-    log: revlist-ff6992735ade-eb555cb5b794.txt
+    log: revlist-0fec518018cc-eb555cb5b794.txt
 
---===============6372864895187447691==
+--===============1730985507979231423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660064570 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660064575 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1660064569-ad74aa1444647bc4700e86e4631bc6ab765fbe1b
+nonce 1660064574-ac262397975f1b29feda157c33236159c628f31b
 
-ff6992735ade75aae3e35d16b17da1008d753d28 eb555cb5b794f4e12a9897f3d46d5a72104cd4a7 refs/heads/tty-linus
+0fec518018cc5ceffa706370b6e3acbbb1e3c798 eb555cb5b794f4e12a9897f3d46d5a72104cd4a7 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLykzobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4tcP/RDIf4k/bSLDfhWAhCdu
-1LTeZw+U+vDTinfix3akU0xl9bodY18dDx805vy1rXbh+kvLGIbhiuGunXXtUrVd
-A4143Eh3TAo0Wr6ckL9vFA/bfuI4byuI9TH9UZ0Aqi1MyaU8ExjoG6qkv+bj+Vbz
-/EDjOb47vHBsiiroCs/AYf6tKbok5ZAvoWU0eBzVUIgOFMAToBB9ftE95hg6OP5g
-6Beel4EOdAp8QZXchimEEZSRoDD/rgPyPFQyZuczKGRsryidLVY5rUdW/7oh4aRC
-Z99G54cm72vDpKgejpiHafpfNX7yd3Ekjlbs6WeH919PWkXoou0P9rXAardf/871
-LX0+glFT7cQkwlgfHwc+lr3aLJvH68y8T9YxrDTdQ3c9Fa8y0RrY5yCM42x3nHxO
-s9wBu+qOH//RKjLofAe0wWqB73d31y+MudAg6p7xpISGkflxmrVh1qEaEWjSZho7
-WlSlXMxU/x5JQQNRP5Ewfbd4OexwOXFywlNEQWVGEIHdVZoMyYpYy23Xz6uzrGnD
-6Nqgk3HrL6n7ee+c1WI87UPp69cCItcHXhZcmPr6ALZAiPsANHrx8OAzaaUWDSCN
-lzAKGCvzyL5YfaK8jMpJtSTKExkyUbEO2Imu5B8VL8O/ocsNGeB5e1ZJgkJcgzzD
-SvK4z3v6+/gUWZwXo3BkSrat
-=A03A
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLykz8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1NQQAJyaMxjxjY00M1oUAldF
+N2WjiEYR9PR6mhiPRBq9+TRm89G7vO90JOlC6T0hDB9XxRZGERR8vq3DmdNF0YSk
+znzd7WRxA/A28eVRIyjXzu4dilTafmpNPL0l7QrYZuvN0ZVQ0TDwrgQHiBRs6meY
+i+Ov7KTm+ycAw0bHKBKxDHIEM/Ch3QQ+mm0NToerSk1P+fMK3Kz/4xnyD09rFxSV
+nu6Y70Z6f15PyYTPjRUyZDc5e63wB3pazxMFin8Qu1QZj8ijwS0NYjN/ijEof1DD
+cLrAFTfXyeQGJcULzhGGFT9ZGFXFy2qKQmAlTtBKDOi4gMUoF+oXkUJJFDwt2zFH
+cJXCO9IM9P7uHVC0IrXQd9Lh8oIs+hCHDpoh+/kDILwAZ5islglzAtA+kLEI2clm
+qCo20kacFLfOeSvmOAyo+EtQX2Tp3U9Wloe1JORRVqpcHkI38SaSD0xv57jPJLh/
+7jC+4cEjdlfWFC9y5N0X+LL7bYvdRhc5eZSE8iae6f3XPDdzwYQuvoSIvSXePSU2
+4CbuxR/+mF/xeNk7eu0BbekROMzDUSsJj3UtKm6wx4B+tjAMlukN+wqIxy1dnxht
+pESI0uIrHDy/VsQVpSqVCjOjSG+Y746wlz87p1ZQWDZKD1P6zSinLjTaLGGCidAS
+b9/mMwbWUPd6Pp1ndY8sjOFl
+=8jf/
 -----END PGP SIGNATURE-----
 
---===============6372864895187447691==
+--===============1730985507979231423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff6992735ade-eb555cb5b794.txt
+Content-Disposition: attachment; filename=revlist-0fec518018cc-eb555cb5b794.txt
 
+8933d30c5f468d6cc1e4bf9bb535149da35f202e pwm: lpc18xx: Fix period handling
 9bfd900beeecaba009ccde8cf13716d3cac4d2e1 RISC-V: KVM: Improve ISA extension by using a bitmap
 6259d2f834f2834e32254e0c02a4c4996d34495a RISC-V: KVM: Fix variable spelling mistake
 cca986fab9e819319353bece789cb9d2890c1115 RISC-V: KVM: Make kvm_riscv_guest_timer_init a void function
@@ -829,7 +830,6 @@ b67798d55185ba4471f70b67b3f7c2866f216499 ext2: unindent codeblock in ext2_xattr_
 d95efb14c0b81b684deb32ba10cdb78b4178ae5b ext4: add ioctls to get/set the ext4 superblock uuid
 5493ee1919eae4f49d62276cf5986b7f7c7aa8f6 Merge tag 'amd-drm-next-5.20-2022-07-29' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 6f63d04473f2bc973e24ff828a28a2bd5e41bb38 doc: sfp-phylink: Fix a broken reference
-0fec518018cc5ceffa706370b6e3acbbb1e3c798 tty: serial: qcom-geni-serial: Fix %lu -> %u in print statements
 4cfa6ff24a9744ba484521c38bea613134fbfcb3 powerpc/64e: Fix kexec build error
 7c6327c77d509e78bff76f2a4551fcfee851682e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 fe201f6fa4cf96749b0a6b6a61b33b6a82de4e49 MAINTAINERS: Use Lee Jones' kernel.org address for Backlight submissions
@@ -1082,4 +1082,4 @@ c03f05f183cd15f4259684ab658fbc3d23797d99 fix copy_page_from_iter() for compound 
 f30adc0d332fdfe5315cb98bd6a7ff0d5cf2aa38 Merge tag 'pull-work.iov_iter-rebased' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 eb555cb5b794f4e12a9897f3d46d5a72104cd4a7 Merge tag '5.20-rc-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 
---===============6372864895187447691==--
+--===============1730985507979231423==--
