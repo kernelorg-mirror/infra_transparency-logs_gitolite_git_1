@@ -1,32 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 09 Aug 2022 11:29:01 -0000
-Message-Id: <166004454180.21810.4298916856232635344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Tue, 09 Aug 2022 13:00:31 -0000
+Message-Id: <166005003164.20128.16969979682826486673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/for-linus
-    old: f71c70df416f4d49a9cf11d6132f6aaba0e2f65c
-    new: 6bc2906253e723d1ab1acc652b55b83e286bfec2
+  - ref: refs/heads/fscache-fixes
+    old: 7743cf3402ab40f2bfe441ce4ee9736bf43f2090
+    new: c6978a60049f2acbfd7078618cb566ff58e1f00d
     log: |
-         6bc2906253e723d1ab1acc652b55b83e286bfec2 ALSA: usb-audio: More comprehensive mixer map for ASUS ROG Zenith II
+         6808e77c39bfd6696efe8607435b2bb881eefb74 fscache: don't leak cookie access refs if invalidation is in progress or failed
+         c6978a60049f2acbfd7078618cb566ff58e1f00d fscache: add tracepoint when failing cookie
          
-  - ref: refs/heads/for-next
-    old: f71c70df416f4d49a9cf11d6132f6aaba0e2f65c
-    new: 6bc2906253e723d1ab1acc652b55b83e286bfec2
-    log: |
-         6bc2906253e723d1ab1acc652b55b83e286bfec2 ALSA: usb-audio: More comprehensive mixer map for ASUS ROG Zenith II
-         
-  - ref: refs/heads/master
-    old: 6eefd46bdd62c437c89dcbeddbb2320686c20e1f
-    new: c7dafedf200f33e45800c41dfc6e18810519db4d
-    log: |
-         6bc2906253e723d1ab1acc652b55b83e286bfec2 ALSA: usb-audio: More comprehensive mixer map for ASUS ROG Zenith II
-         c7dafedf200f33e45800c41dfc6e18810519db4d Merge branch 'for-linus'
-         
+  - ref: refs/tags/fscache-fixes-20220809
+    old: 0000000000000000000000000000000000000000
+    new: c4896222275a52375e7a9a4043ce52c2b8b755e7
