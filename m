@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7749981824381341600=="
+Content-Type: multipart/mixed; boundary="===============0646241726184810351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 09 Aug 2022 17:46:46 -0000
-Message-Id: <166006720677.31268.15747670339342832258@gitolite.kernel.org>
+Date: Tue, 09 Aug 2022 17:52:07 -0000
+Message-Id: <166006752703.2567.582118417378145577@gitolite.kernel.org>
 
---===============7749981824381341600==
+--===============0646241726184810351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,70 +17,70 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.9.y
-    old: 812013f719433871c71f885cb80802bae214e438
-    new: f1ec1701c31a9b712a763e27815fedf105e1e22e
-    log: revlist-812013f71943-f1ec1701c31a.txt
+    old: f1ec1701c31a9b712a763e27815fedf105e1e22e
+    new: 429e1a1cd83dc313d946441c150129c03d0df55c
+    log: revlist-f1ec1701c31a-429e1a1cd83d.txt
 
---===============7749981824381341600==
+--===============0646241726184810351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660067204 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660067525 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1660067202-01ec527df3dcef7a2d8516a41d32e0360c31def3
+nonce 1660067524-7e3b6317581c0e98e48b614a4363ef7a3fb340b0
 
-812013f719433871c71f885cb80802bae214e438 f1ec1701c31a9b712a763e27815fedf105e1e22e refs/heads/linux-4.9.y
+f1ec1701c31a9b712a763e27815fedf105e1e22e 429e1a1cd83dc313d946441c150129c03d0df55c refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLynYQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KtcQALEaa9eqPdYWDcoQflaT
-q4hHfBFiqH6iuHAMEZ+9nufIVrHgBQI4VH2Q+NW0T7kP7mBTfvWciRHpdYAPbZ5w
-47jRe6dekFFgTgihZB+gubXSu+1eMUVA/U9mTv5cihriKIYMj+ScU1myDj4MlOUy
-gXRZFM/W1LU/N/uUpz7MkHoJ8wkxepbg/MTUGo/CKNwxqDDj3kldg3okSTcOW+/t
-ZQXhRsLv8+tPYdAtJGzeP66V667i4K7SfoToTAAMFhpzvlpVSG1QIzj2yfYh7ECb
-O/v8HqWfWVocp4lLmco2Z97FURrOyAn7WMEUqK2yv9O6I6SWkuh4vgwy2chvI7Lr
-kjVRLRz8vJ7juycCzcVN2rjrptDQwlBpiWsB6ldj7Xv5RI/wx0TU+vzTj9jPbJhU
-uYr4q8Q7/anvAiBHAm7iyv4Hs3v1Foz2VMYW5pHZ4iK86Y7kg9eSKz3YpMhgMLom
-Y+9bixOyqi7oSfxlJpiyIELvw1NTIFd8CFIPaeG2mb/GuFkCeAFtVh+TrZ0v1z5G
-R2h8lw3qHWPMTusBDa1LWdIlJ6pLlnLqK76dNqsZirCK7PLsyMvIGD3YMCk3/xql
-fXtppiaDNrLRz1U/l0W5ALuize3kXal2864WsNI4zIe+vvvP2DjHLrup87G6vhu+
-XJaGg8Y/KDMiXSy5rGwS+ah9
-=7tDm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLynsUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+69oQAJIohf2U+1fEe2RfPk7H
+vD3w1YR36+3y/MFQE2GqYBMi7OIUuoeCNb3cCODocjnUzIKVCfgrI8L89t6zAkmc
+QuY9w71L9rfr+g3Cr4lEmTvsl1r5lmUAZJiESUWuSZ38pM3DFU8xx7PP77MMFI0B
+Z1cyvWB7JCC5jiD/twaPB8/0TtKufKqiJddYozbwzxp0+qcnnBhvAS71ObzH1gCl
+qObae92Mke/lSzyS38QIRDzijxGOpp96xXNegHJXj9UEGqIr3oOMk2nkzHbc6dvh
+9u3j8VUOmLO/E4sYj8MJoSuKikUVwdrLxQOVQcj7br2r1O56LYROlH7xL/SG65zE
+t53Xsjpkp7129U41rO2d3gK4JSlYLNc38xjAqTrA+EEp29ws9z/d2wcVjPnSm4BB
+0P5J57/HyPF67VnYaWKURmBxvh0ZltGYoM8wgi6gRCRPUP4N0WSFiePaezugeRy9
+gJ9XTiI7bLk+9rHamsocVOo/wAtCKIXuraxZfn6C0QvAos4exHHeUYBESFwgvX5I
+YN9AwK3B7D2caQWxlk0Y84vU3O2euP4r/qL4KT4NG3IU4ZpIC23morZbqnsPck2b
+NMwKesm9eNfaAzH2zODH8WaTe2A/qC1HSLWZhcr065ojn29xXXTilfZAmkWeVEU0
+KRvlTiY0XqO0s1QLfe/EahAy
+=tMQn
 -----END PGP SIGNATURE-----
 
---===============7749981824381341600==
+--===============0646241726184810351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-812013f71943-f1ec1701c31a.txt
+Content-Disposition: attachment; filename=revlist-f1ec1701c31a-429e1a1cd83d.txt
 
-e9682ec0fc51986b6abc1af3e77619f5b15895af Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-2a4b744fee26c5247ca7eb3d304700230d76012d ntfs: fix use-after-free in ntfs_ucsncmp()
-b9ae6610c8c3b80c724a8768ca08222ed9a94bf5 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-d29d2b0c57411ea6ff2fd64cca370535238ee1e0 net: ping6: Fix memleak in ipv6_renew_options().
-fdddf9e7476bad5685e893fd6cc6def9e9c7e292 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-ac5d9e91c4600e41610e1dced58ddeefe1d233a4 netfilter: nf_queue: do not allow packet truncation below transport header offset
-20cd42a5416ac4672e7a5e201b730713cfb24c6c ARM: crypto: comment out gcc warning that breaks clang builds
-4ece8365cd8d99c4cee6b375bd2bd95f759c7261 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-ce4f27c247a4b340651b47dddb9738043b5abd40 ion: Make user_ion_handle_put_nolock() a void function
-c8ab5f75c9b8981ea4c2118023c00b1f1fd822e9 selinux: Minor cleanups
-8953e3639c4e4fe6662ce99c9c7fbc9fae968066 proc: Pass file mode to proc_pid_make_inode
-0a0d22135d0e0f85e6f26676578baeb5ef2b6f18 selinux: Clean up initialization of isec->sclass
-2399d4f767f3f64968df6e01d30409bdd3784f9f selinux: Convert isec->lock into a spinlock
-08690529807c334f17b2adbbc8e34b4b86374513 selinux: fix error initialization in inode_doinit_with_dentry()
-cc17fa27fb238f31ef17d684f5663da802cbc1ca selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
-09d392e5020259ed88688bac9dd129e8947bbbce include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
-3dbc72c8002258899002128fb89d86bab72d5859 init/main: Fix double "the" in comment
-c84c54bddcfc237124b5436d1405cc6d4cbb106d init/main: properly align the multi-line comment
-7a802bf6cc672a988162794080f7d2610ff3aa3b init: move stack canary initialization after setup_arch
-a3b8ef7fe4fdffb658455e4a13a57c1971703ffe init/main.c: extract early boot entropy from the passed cmdline
-1fd91640efc07a3d786e7703e2ad5ddefc519af2 ACPI: video: Force backlight native for some TongFang devices
-083bf720e7bed97992167b648c218733e69d40b0 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-c7aed0a66b53cd40e137975210d21b9ce4cc1463 random: only call boot_init_stack_canary() once
-542fe7c615e681b01dcaa0264dcfa8ca6beed77b macintosh/adb: fix oob read in do_adb_query() function
-f1ec1701c31a9b712a763e27815fedf105e1e22e Linux 4.9.326-rc1
+8fd015866e510133224e02f90d2498c7fd65fb24 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+60ba17f5792c0d2cbedb6f253a9d99f444212318 ntfs: fix use-after-free in ntfs_ucsncmp()
+d47687fac8c49bc43ec81864cb3277ed1b1420c5 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+37f318cf210a814704685c7658ebfc1e63720a6a net: ping6: Fix memleak in ipv6_renew_options().
+079f417c10a0d5ebc6fd1b10b7b185fb7bfc7ce9 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+3e8abf154f0f8011afa8bdc77d66b811afadb4e3 netfilter: nf_queue: do not allow packet truncation below transport header offset
+8913ef754d2aec5a3205d0954c234169f7c8d3ab ARM: crypto: comment out gcc warning that breaks clang builds
+86e0dea53e870da2f788594724bee529de825ca7 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+0ca9353c47e8b6f8645b51a3c12f64c2ce8b7273 ion: Make user_ion_handle_put_nolock() a void function
+adacf2a6c01695b377f8daccc205f0c44aaed392 selinux: Minor cleanups
+cac8aab746fd8a94ac7dcd3a92a00b125782cde8 proc: Pass file mode to proc_pid_make_inode
+0cef1c753e8233be4395d33f6430d89592fae198 selinux: Clean up initialization of isec->sclass
+33db6b652d1193cc93b8aabae3bddbceb62e8cfd selinux: Convert isec->lock into a spinlock
+af55bd9be029fcc9aaa04cf3ce682bb8d7508c60 selinux: fix error initialization in inode_doinit_with_dentry()
+cdb42c40994112706adfaa6525cf3f47b5d1efab selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
+71400f8fd02d972f03c0d6ab4d554a43a5c2018c include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
+655ccfff451eeaf643134c9f426edd65e83c3864 init/main: Fix double "the" in comment
+40972265232d007fa16215552c4f5ddedd113fc7 init/main: properly align the multi-line comment
+2368b6702e000a0513d7837ba143f63808963eaa init: move stack canary initialization after setup_arch
+344b96380d053549ddca1dceef14e0effe2e05c8 init/main.c: extract early boot entropy from the passed cmdline
+16f8a8d4421f5e422a076795707814eb92ae088e ACPI: video: Force backlight native for some TongFang devices
+d6a96be0f3f1bc1e1257e48c1e5b037b9486bf10 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+86261309a59f87c18b33e2672769e4a422075d8f random: only call boot_init_stack_canary() once
+dd004eb94bcd7b41b9297c8bca5353f38a12ae0d macintosh/adb: fix oob read in do_adb_query() function
+429e1a1cd83dc313d946441c150129c03d0df55c Linux 4.9.326-rc1
 
---===============7749981824381341600==--
+--===============0646241726184810351==--
