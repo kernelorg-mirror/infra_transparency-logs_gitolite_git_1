@@ -1,42 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3152374568142547883=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Aug 2022 04:02:10 -0000
-Message-Id: <166001773018.26216.10608804281165398162@gitolite.kernel.org>
-
---===============3152374568142547883==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 09 Aug 2022 04:48:14 -0000
+Message-Id: <166002049401.24965.4585249543566116576@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 7a07a29e4f6713b224f3bcde5f835e777301bdb8
-    new: b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d
-    log: revlist-7a07a29e4f67-b8c3bf0ed2ed.txt
-
---===============3152374568142547883==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a07a29e4f67-b8c3bf0ed2ed.txt
-
-332f1795ca202489c665a75e62e18ff6284de077 Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm regression
-164dac9755ac297b0c07505ad3db9e7d69b80499 Bluetooth: ISO: unlock on error path in iso_sock_setsockopt()
-10b9adb556508a299dc283b7c746b811f6918987 Bluetooth: hci_conn: Fix updating ISO QoS PHY
-0eee4995f40573f65ed67cea4d20fcf389d353de Bluetooth: ISO: Fix info leak in iso_sock_getsockopt()
-ce78e557ff8819f2d10e8d6bae79404bfbbd6809 Bluetooth: Fix null pointer deref on unexpected status event
-b4443423278263d229dbeee12d09e657b78d64ab Bluetooth: ISO: Fix memory corruption
-889f0346d47a0285093a3b665d1455c084636d9f Bluetooth: hci_event: Fix build warning with C=1
-0c7937587d8b0337466c993dc9c7645767f57bfd Bluetooth: MGMT: Fixes build warnings with C=1
-9dfe1727b21927c6dd8d703e3a9618b505eb6224 Bluetooth: ISO: Fix iso_sock_getsockopt for BT_DEFER_SETUP
-3f2893d3c142986aa935821460cb3adb77044722 Bluetooth: don't try to cancel uninitialized works at mgmt_index_removed()
-1d1ab5d39be7590bb2400418877bff43da9e75ec Bluetooth: ISO: Fix not using the correct QoS
-b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d Merge tag 'for-net-2022-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-
---===============3152374568142547883==--
+    old: 598c7213a81ea5ca225d4881112ee9ea3089d821
+    new: 792564e6ed38b7b6ba1bc23428d5f475be71450d
+    log: |
+         792564e6ed38b7b6ba1bc23428d5f475be71450d Tue Aug  9 04:47:12 AM UTC 2022
+         
