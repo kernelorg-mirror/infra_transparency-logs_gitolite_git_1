@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 10 Aug 2022 16:23:38 -0000
-Message-Id: <166014861864.6074.119917604890457123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 10 Aug 2022 16:26:08 -0000
+Message-Id: <166014876827.9878.3619664941949880085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 3143d10b094596f3e5d5964b2660375e586652a3
-    new: 43caeec90da04de7d5f63c0d3fe37e5425da6b5d
+  - ref: refs/heads/dev-queue
+    old: 11c9126719de8e4f349b6fa36cd71e5701385e63
+    new: 9d09aeb26bbdc4a9a2fb01873b9d8c255bae4619
     log: |
-         4dd48c6f1f83290d4bc61b43e61d86f8bc6c310e bpf: add destructive kfunc flag
-         133790596406ce2658f0864eb7eac64987c2b12f bpf: export crash_kexec() as destructive kfunc
-         e338945816754a1c362f606b8e2029f2c023e51c selftests/bpf: add destructive kfunc test
-         43caeec90da04de7d5f63c0d3fe37e5425da6b5d Merge branch 'destructive bpf_kfuncs'
+         7c8ae864cdbd9bae7540eea1fb55c88233c0389f iavf: Fix deadlock in initialization
+         b88e36eab34fde5c50e1cdf7c2945bc42f29346d igb: Add lock to avoid data race
+         c60993ebe0d441e242ca89c0f99bf80c993d2695 i40e: Fix ADQ rate limiting for PF
+         9d09aeb26bbdc4a9a2fb01873b9d8c255bae4619 ice: Don't double unplug aux on peer initiated reset
          
