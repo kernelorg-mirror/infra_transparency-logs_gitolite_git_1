@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1802849557171053530=="
+Content-Type: multipart/mixed; boundary="===============6597008450012660085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 10 Aug 2022 08:40:32 -0000
-Message-Id: <166012083243.23137.4662769641005223248@gitolite.kernel.org>
+Date: Wed, 10 Aug 2022 08:40:35 -0000
+Message-Id: <166012083591.23217.3426597394732510186@gitolite.kernel.org>
 
---===============1802849557171053530==
+--===============6597008450012660085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 4e23eeebb2e57f5a28b36221aa776b5a1122dde5
     new: d4252071b97d2027d246f6a82cbee4d52f618b47
     log: revlist-4e23eeebb2e5-d4252071b97d.txt
 
---===============1802849557171053530==
+--===============6597008450012660085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660120831 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660120835 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1660120831-e6a3e4e19939a151317a85031bc1cfbffaf06024
+nonce 1660120834-55dff0773a4c03b5fe4aa8161acf18a4f157e923
 
-4e23eeebb2e57f5a28b36221aa776b5a1122dde5 d4252071b97d2027d246f6a82cbee4d52f618b47 refs/heads/driver-core-next
+4e23eeebb2e57f5a28b36221aa776b5a1122dde5 d4252071b97d2027d246f6a82cbee4d52f618b47 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLzbv8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RTkQAKfyso9kwNxSeSFWjA3/
-zVRQ+llhKerIUg/aiCRiW5DFd7RTsSjhsEj8aOHk9F9c+0HHmxeOUwiz4X8rKt5C
-qjixBDEIhKEJUnRrcWkDPU2+XcFQkNF9BKRPYqGVFJBNb5P/j1mZRIHCz2kvplYW
-AmXr7fCthokhw64DTblSmCZlYN/JgzAgahlrasoOkgmU6MrrXxM1j/W0hMXX2qXR
-mhywaY0vl1PSqTLM0PBtG5b6INQRlxN6JOzWOYN7+HCmDBXsf6OUPFvvOGYcAsgr
-82tw3psj9GKgFXqmI6nQjOVHLzCPw8ncgPbV0KmZv3mXDn5PNzO1Al5toIn9hQmj
-ST1dssTi7HNPF4VY5yU2b4j3sSH6j4L+S5tpNEDtN/1Ec/eWEfJ36YdHE8bQKbPm
-597+rE/n7qV0Wri4UeF0AFV0SwGOrcjY2dpr7WlKkqygQ6qF8dwGKvj/lKTGVDON
-g/61ncmTF1NPKl8guhsIwLZTipmpp0wPvmnFQNns3JL8+HydSXiU5pF06+jXqCdp
-jozbkVSqXCrZcrzh5sajAaVhFk3j+C/dnvwYhMkzo4dtnkVBD8QzJLCTqpgyfzrk
-6Aoh/mbPFY89s/UroXTglOH0a75mUBHZHyu7eroGBrk6zAwmpSizEKTsY3X2I3ZF
-db66vmtn7Cy6ksyKMoKGCcNF
-=Fz06
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLzbwMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yBMP/2eUVqZw85Qb7OmmHSf7
+crpadQms08PKdXoAICFRIiAJcLPAE52IP35jTifvV/wwnbeXu8IRaPEeE8kchBVm
+OejfyeYK8zRaY1DG2WVM13tY8/rHccIDOmiS6358RftxGzRSppvnmXmknWOX9pdV
+M1mrCweEGR/Y2mhs2axRMCIfMTF3aq07jZkVy432QR8i8l/P0HDM9tplmrpaTve7
+eYM2f5AK72cobi6guKDGfWn9HBxvMoTiAOI/uZiAOXwizYTiH729/OrU9C6Cfkev
+JoFmA5cCuu7OpS9fjPm9Gr0ZztAVB5NMEggyL6+VRju7X9Jmx8us76N7ZzdMzxxA
+CufhmQ/PFee1xKesCP8TQq9HTaJ/rDPGB9ZuO8NH8LQO2ZXqN9M2XmeD7IB20HyI
+JjQhkL2T56LxNLlwzP0tz1Rb7wEZkFACGdk178gMBE4IBajFBXX/xhMPb22GtEXp
+NPoEPfObJyA1YjJBHc/pm5tojxDMUQM51t7qdcFveNgbazJndjF93SuAoLXTobr6
+ahltswkDsBRgsGEEav9ueblDLVH+S1dCvtMfoLvhfwOjTwb8I/eWmcUGXOpz6/2/
+iFqrDCtSuX71kFo0ULiyf03ZceVyI1VqEX8DzHqDM2mxQKvr5YzbdSIHcDJFFVO/
+SK3VLv3eKYaQ90NuKVKyHXoj
+=sKxA
 -----END PGP SIGNATURE-----
 
---===============1802849557171053530==
+--===============6597008450012660085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -664,4 +664,4 @@ b8dcef877ab5f2637fccd3efb6fe169c8211961a Merge tag 'memblock-v5.20-rc1' of git:/
 e394ff83bbca1c72427b1feb5c6b9d4dad832f01 Merge tag 'nfsd-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 d4252071b97d2027d246f6a82cbee4d52f618b47 add barriers to buffer_uptodate and set_buffer_uptodate
 
---===============1802849557171053530==--
+--===============6597008450012660085==--
