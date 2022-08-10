@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 10 Aug 2022 21:10:38 -0000
-Message-Id: <166016583861.14563.4634917241595780919@gitolite.kernel.org>
+Date: Wed, 10 Aug 2022 21:13:11 -0000
+Message-Id: <166016599197.15545.15459965410406572951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
   - ref: refs/heads/dt/linus
-    old: dcc2ed3912ae32fd6646264d1aa296ea3d2aa07c
-    new: 487ceef03895285f44ab26f6cf0c19b21b73d40d
+    old: 487ceef03895285f44ab26f6cf0c19b21b73d40d
+    new: 2ac2920cd8d9334e24bfd30d518010f99077a947
     log: |
-         487ceef03895285f44ab26f6cf0c19b21b73d40d dt-bindings: pinctrl: qcom,ipq6018: Fix example 'gpio-ranges' size
+         2ac2920cd8d9334e24bfd30d518010f99077a947 dt-bindings: mailbox: arm,mhu: Make secure interrupt optional
          
