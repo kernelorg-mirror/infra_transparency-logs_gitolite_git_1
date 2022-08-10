@@ -1,57 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2058425746987968136=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 10 Aug 2022 07:10:26 -0000
-Message-Id: <166011542660.24725.14287640523869060576@gitolite.kernel.org>
-
---===============2058425746987968136==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 10 Aug 2022 07:47:17 -0000
+Message-Id: <166011763716.16768.2334071044217453295@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
   - ref: refs/heads/main
-    old: 72599394ad46226ca17a405fa0472078c3160c62
-    new: d80d60b0db6ff3dd2e29247cc2a5166d7e9ae37e
+    old: abfb5e374f10c8f87a50824a0857db941fb2556b
+    new: 429afe8fc3532bb30cc8b47a8247a61a643be59c
     log: |
-         d80d60b0db6ff3dd2e29247cc2a5166d7e9ae37e can: mcp251x: Fix race condition on receive interrupt
+         429afe8fc3532bb30cc8b47a8247a61a643be59c Add valgrind support to more tests.
          
   - ref: refs/heads/master
-    old: 72599394ad46226ca17a405fa0472078c3160c62
-    new: d80d60b0db6ff3dd2e29247cc2a5166d7e9ae37e
+    old: abfb5e374f10c8f87a50824a0857db941fb2556b
+    new: 429afe8fc3532bb30cc8b47a8247a61a643be59c
     log: |
-         d80d60b0db6ff3dd2e29247cc2a5166d7e9ae37e can: mcp251x: Fix race condition on receive interrupt
+         429afe8fc3532bb30cc8b47a8247a61a643be59c Add valgrind support to more tests.
          
-
---===============2058425746987968136==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1660115423 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1660115422-df840e39c3a51265fb7d8a8de8915addb32e1674
-
-72599394ad46226ca17a405fa0472078c3160c62 d80d60b0db6ff3dd2e29247cc2a5166d7e9ae37e refs/heads/main
-72599394ad46226ca17a405fa0472078c3160c62 d80d60b0db6ff3dd2e29247cc2a5166d7e9ae37e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmLzWd8THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXbwTCACdTdv2DFaG3TCv7/ICZEYYu0+OF9YF
-1E1vYIfkD0EfDgMXcZR1uf/iU4DJI8qEz/uGz3WRw8hTJsJshBZI1tOil2B6UGjm
-idWmKkiMzx+GmTrLkSsgeSj+eYwYKBLLgSyMJ6lYb4JXvE1e0m3BT2/wOl5hbA7E
-G0uiCpmJxICPV4kgMcSDBHX2eJLl1AyRu2CCGbO7yUXi6j2wMtJBXMwm3cTua8Zy
-LY/RjewZAXIYHzTypwo52zfbnOi7NZFrdrgJNUkJuRBSXMm4lz1W0+AUJYBjMv2I
-6m9Kw/kGXw/Vfoz8qGJbV2ifW6NkwNRmdrUDach1i7apykKbZmQN3f1k
-=scYx
------END PGP SIGNATURE-----
-
---===============2058425746987968136==--
+  - ref: refs/merge-requests/365/merge
+    old: 7d163c7ba779b7eab3a40f2cb27716c0469cd30c
+    new: 6110894dc1369a6a679aef2c9f424b557d300b70
+    log: |
+         abfb5e374f10c8f87a50824a0857db941fb2556b Remove leftover debug option in test.
+         6110894dc1369a6a679aef2c9f424b557d300b70 Merge branch 'ignore-system-fips-file' into 'main'
+         
+  - ref: refs/merge-requests/405/head
+    old: 685059a9cba540a4b3ed3481a34f6c854192902a
+    new: 429afe8fc3532bb30cc8b47a8247a61a643be59c
+    log: |
+         abfb5e374f10c8f87a50824a0857db941fb2556b Remove leftover debug option in test.
+         429afe8fc3532bb30cc8b47a8247a61a643be59c Add valgrind support to more tests.
+         
+  - ref: refs/merge-requests/405/merge
+    old: 36ca45cd4e1bd1fda66d5de352ee684b6ad1c31b
+    new: 812849d6cafee20ef98685bfe850953ccdbcd58c
+    log: |
+         abfb5e374f10c8f87a50824a0857db941fb2556b Remove leftover debug option in test.
+         429afe8fc3532bb30cc8b47a8247a61a643be59c Add valgrind support to more tests.
+         812849d6cafee20ef98685bfe850953ccdbcd58c Merge branch 'add-valgrind' into 'main'
+         
