@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3098124239482265378=="
+Content-Type: multipart/mixed; boundary="===============8891139495235915901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 10 Aug 2022 15:46:40 -0000
-Message-Id: <166014640073.12729.12340911784047070262@gitolite.kernel.org>
+Date: Wed, 10 Aug 2022 15:46:46 -0000
+Message-Id: <166014640643.12852.15820867746388646101@gitolite.kernel.org>
 
---===============3098124239482265378==
+--===============8891139495235915901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d
-    new: f329a0ebeaba4ffe91d431e0ac1ca7f9165872a4
-    log: revlist-b8c3bf0ed2ed-f329a0ebeaba.txt
+  - ref: refs/heads/dev-queue
+    old: f8dd3cf101f2f75ce7ce24d2970ce509d530b078
+    new: 9f72ce1f5efdbcb2924ff88a60eb42ccc432065f
+    log: revlist-f8dd3cf101f2-9f72ce1f5efd.txt
 
---===============3098124239482265378==
+--===============8891139495235915901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8c3bf0ed2ed-f329a0ebeaba.txt
+Content-Disposition: attachment; filename=revlist-f8dd3cf101f2-9f72ce1f5efd.txt
 
 baa56dfe2cdad12edb2625b2d454e205943c3402 wifi: cfg80211: Fix validating BSS pointers in __cfg80211_connect_result
 f01272ee3856e62e8a0f8211e8edf1876a6f5e38 wifi: wilc1000: fix spurious inline in wilc_handle_disconnect()
@@ -62,5 +62,18 @@ a3e7b29e30854ed67be0d17687e744ad0c769c4b vsock: Set socket state back to SS_UNCO
 d5410ac7b0baeca91cf73ff5241d35998ecc8c9e net:bonding:support balance-alb interface with vlan to bridge
 6b4db2e528f650c7fb712961aac36455468d5902 devlink: Fix use-after-free after a failed reload
 f329a0ebeaba4ffe91d431e0ac1ca7f9165872a4 genetlink: correct uAPI defines
+cb191779774eba02ed0cbdff8154df62b2afb6a0 ice: xsk: use Rx ring when picking NAPI context
+8d283b152bc24650fdb8c8765e28fcb2382e8d33 ice: Fix VSI rebuild WARN_ON check for VF
+847b07c97f1aff122eb22295cd66a785d9e1ac5c iavf: Fix adminq error handling
+af60314dd5542f46eaa118dffd87faaa429a94dc iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+f1f8fd780ecd9b3d72713d6cd930e2fcbec91111 iavf: Fix reset error handling
+8739ec6584f2bf622f1f99ad0982ccc8f6a9f5b4 ice: Fix call trace with null VSI during VF reset
+e1daa6dc7626d4ed05573f6c8b7ce8ff5722e4a3 i40e: Fix tunnel checksum offload with fragmented traffic
+d5dcfbe0a02b7bde1326f68cb93382beff88942f ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+a0dfca1f00943ec0ba43c404aeeeeee45c350160 iavf: Fix shutdown pci callback to match the remove one
+0a5a5de4246d776d652a13a67e5af3382841d230 iavf: Fix race condition between iavf_shutdown and iavf_remove
+d47ce3dbd4cfa5f3be806e8d404b180bb7df6e06 i40e: Fix to stop tx_timeout recovery if GLOBR fails
+1daca48fadbbac74982af14ba56f6cb4eb728de9 ice: Fix VF not able to send tagged traffic with no VLAN filters
+9f72ce1f5efdbcb2924ff88a60eb42ccc432065f ice: config netdev tc before setting queues number
 
---===============3098124239482265378==--
+--===============8891139495235915901==--
