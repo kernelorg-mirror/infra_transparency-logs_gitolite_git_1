@@ -1,49 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 10 Aug 2022 11:39:22 -0000
-Message-Id: <166013156208.31858.10176517615903995912@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8023430237327061268=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 10 Aug 2022 11:42:54 -0000
+Message-Id: <166013177433.2321.6128523765149581074@gitolite.kernel.org>
+
+--===============8023430237327061268==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: 429afe8fc3532bb30cc8b47a8247a61a643be59c
-    new: f6fd73aea544189a302f7ac2dfc3cbd76e6c70ec
-    log: |
-         5b001b7962744b1bdaeb60b7c8cb9c682f907e03 Delegate FIPS mode detection to configured crypto backend.
-         f6fd73aea544189a302f7ac2dfc3cbd76e6c70ec Add FIPS checks before running tests in FIPS mode.
-         
-  - ref: refs/heads/master
-    old: 429afe8fc3532bb30cc8b47a8247a61a643be59c
-    new: f6fd73aea544189a302f7ac2dfc3cbd76e6c70ec
-    log: |
-         5b001b7962744b1bdaeb60b7c8cb9c682f907e03 Delegate FIPS mode detection to configured crypto backend.
-         f6fd73aea544189a302f7ac2dfc3cbd76e6c70ec Add FIPS checks before running tests in FIPS mode.
-         
-  - ref: refs/merge-requests/365/head
-    old: 6fdf349ab3218bc3181c3e3ce6c7dae16811342d
-    new: 5b001b7962744b1bdaeb60b7c8cb9c682f907e03
-    log: |
-         abfb5e374f10c8f87a50824a0857db941fb2556b Remove leftover debug option in test.
-         429afe8fc3532bb30cc8b47a8247a61a643be59c Add valgrind support to more tests.
-         5b001b7962744b1bdaeb60b7c8cb9c682f907e03 Delegate FIPS mode detection to configured crypto backend.
-         
-  - ref: refs/merge-requests/365/merge
-    old: 6110894dc1369a6a679aef2c9f424b557d300b70
-    new: dfa4453f53bef2ae488174625e8113cf323620c6
-    log: |
-         429afe8fc3532bb30cc8b47a8247a61a643be59c Add valgrind support to more tests.
-         5b001b7962744b1bdaeb60b7c8cb9c682f907e03 Delegate FIPS mode detection to configured crypto backend.
-         dfa4453f53bef2ae488174625e8113cf323620c6 Merge branch 'ignore-system-fips-file' into 'main'
-         
-  - ref: refs/merge-requests/406/head
-    old: 0000000000000000000000000000000000000000
-    new: f6fd73aea544189a302f7ac2dfc3cbd76e6c70ec
-  - ref: refs/merge-requests/406/merge
-    old: 0000000000000000000000000000000000000000
-    new: 6fd8709c9259f8d8e0077d7560a02d29497ef9b0
+  - ref: refs/heads/kvm-arm64/pmu-unchained
+    old: ceea229f047a62ec36ed2bdcf0e2263c072c1f63
+    new: 9e4aed62ca4fed9b095ec2c83645905c1c9819c3
+    log: revlist-ceea229f047a-9e4aed62ca4f.txt
+
+--===============8023430237327061268==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ceea229f047a-9e4aed62ca4f.txt
+
+159b9239baf988c4867497d60c91e716c6af590c arm64: Add ID_DFR0_EL1.PerfMon values for PMUv3p7 and IMP_DEF
+8c94376b6a9d43947cfff221df7fa4652fd96b47 KVM: arm64: PMU: Align chained counter implementation with architecture pseudocode
+e3c12fbf289873154b948825c7b316263b79f5b3 KVM: arm64: PMU: Distinguish between 64bit counter and 64bit overflow
+43995acbeaf9d2b301408d751ebc882bdaf50b50 KVM: arm64: PMU: Only narrow counters that are not 64bit wide
+a46258899add997fd16603901472cbc1e7e6732c KVM: arm64: PMU: Add counter_index_to_*reg() helpers
+933b55384c1125a6e8e59d50eb884ec9e03ac0dd KVM: arm64: PMU: Simplify setting a counter to a specific value
+e26ac9857941543dc7608226b3a9470a3fc708e2 KVM: arm64: PMU: Do not let AArch32 change the counters' top 32 bits
+e703e687e4aa95e8adcf1e1db51cb0c5073ec301 KVM: arm64: PMU: Move the ID_AA64DFR0_EL1.PMUver limit to VM creation
+90e4304c99f45db1205281eec2b7c0eb843463c2 KVM: arm64: PMU: Allow ID_AA64DFR0_EL1.PMUver to be set from userspace
+1c3fddea836bebbfde4a6bca9bb717901ff5de6b KVM: arm64: PMU: Allow ID_DFR0_EL1.PerfMon to be set from userspace
+497cc2a253cc37eed57058ace56b28dc959dc332 KVM: arm64: PMU: Implement PMUv3p5 long counter support
+9e4aed62ca4fed9b095ec2c83645905c1c9819c3 KVM: arm64: PMU: Allow PMUv3p5 to be exposed to the guest
+
+--===============8023430237327061268==--
