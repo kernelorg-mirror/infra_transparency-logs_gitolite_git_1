@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Wed, 10 Aug 2022 16:04:06 -0000
-Message-Id: <166014744690.25110.2094442849721884567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 10 Aug 2022 16:04:15 -0000
+Message-Id: <166014745506.25244.404166511872939637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/rtla
-    old: 1a7b22ab15ebf643e10e54ae5387afee06e39ad0
-    new: 20aec89aac7761e3c096004f5c819aacc86fc542
+  - ref: refs/heads/for-linus
+    old: b0de7fa706506bf0591037908376351beda8c5d6
+    new: d511e8a7e850db567cd7f633288aa96a19508e5b
     log: |
-         20aec89aac7761e3c096004f5c819aacc86fc542 rtla: Consolidate and show all necessary libraries that failed for building
+         d511e8a7e850db567cd7f633288aa96a19508e5b regulator: core: Fix missing error return from regulator_bulk_get()
+         
+  - ref: refs/heads/for-next
+    old: b0de7fa706506bf0591037908376351beda8c5d6
+    new: d511e8a7e850db567cd7f633288aa96a19508e5b
+    log: |
+         d511e8a7e850db567cd7f633288aa96a19508e5b regulator: core: Fix missing error return from regulator_bulk_get()
          
