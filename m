@@ -1,24 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 10 Aug 2022 16:42:10 -0000
-Message-Id: <166014973065.20627.7984691410478506452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Wed, 10 Aug 2022 16:49:23 -0000
+Message-Id: <166015016348.24714.1986017995651784260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/asoc-5.20
-    old: afb176d45870048eea540991b082208270824037
-    new: b4b5f29a076e52181f63e45a2ad1bc88593072e3
+  - ref: refs/heads/linux-next
+    old: fdaed2bd3c09494bc828d9c492950cb08e20fd5b
+    new: 1f94846b54d9749af75dcbfe0efdbd1b6ac11b03
     log: |
-         e9ac31f0a5d0e246b046c20348954519f91a297f ASoC: tas2770: Set correct FSYNC polarity
-         bf54d97a835dfe62d4d29e245e170c63d0089be7 ASoC: tas2770: Allow mono streams
-         482c23fbc7e9bf5a7a74defd0735d5346215db58 ASoC: tas2770: Drop conflicting set_bias_level power setting
-         1e5907bcb3a3b569be0a03ebe668bba2ed320a50 ASoC: tas2770: Fix handling of mute/unmute
-         50ee138ff26681718042ade4523b489e11816bbf TAS2770 fixes
-         b4b5f29a076e52181f63e45a2ad1bc88593072e3 ASoC: codec: tlv320aic32x4: fix mono playback via I2S
+         33fb239b6a4109f09340e16033ac653fd52a2d06 vdpa_sim_blk: check if sector is 0 for commands other than read or write
+         215e0a415795a5f5091d829f22f9b26447242cd9 vdpa_sim_blk: make vdpasim_blk_check_range usable by other requests
+         f1a07d5cccccb9b0dcbf0efc604cdea80eab7d2f vdpa_sim_blk: add support for VIRTIO_BLK_T_FLUSH
+         d79b32c2e4a4e66d5678410cd45815c1c2375196 vdpa_sim_blk: add support for discard and write-zeroes
+         d9bd2d19abc0e18ae8ceac7359ac704c6b8d08f5 virtio-blk: Avoid use-after-free on suspend/resume
+         b36363107082067dac032a2ccfafe3e85671b97c virtio_vdpa: support the arg sizes of find_vqs()
+         e9257e87831a281b2eccd54b8b4c12d280c257fb virtio: kerneldocs fixes and enhancements
+         1f94846b54d9749af75dcbfe0efdbd1b6ac11b03 docs: driver-api: virtio: virtio on Linux
+         
+  - ref: refs/heads/vhost
+    old: fdaed2bd3c09494bc828d9c492950cb08e20fd5b
+    new: 1f94846b54d9749af75dcbfe0efdbd1b6ac11b03
+    log: |
+         33fb239b6a4109f09340e16033ac653fd52a2d06 vdpa_sim_blk: check if sector is 0 for commands other than read or write
+         215e0a415795a5f5091d829f22f9b26447242cd9 vdpa_sim_blk: make vdpasim_blk_check_range usable by other requests
+         f1a07d5cccccb9b0dcbf0efc604cdea80eab7d2f vdpa_sim_blk: add support for VIRTIO_BLK_T_FLUSH
+         d79b32c2e4a4e66d5678410cd45815c1c2375196 vdpa_sim_blk: add support for discard and write-zeroes
+         d9bd2d19abc0e18ae8ceac7359ac704c6b8d08f5 virtio-blk: Avoid use-after-free on suspend/resume
+         b36363107082067dac032a2ccfafe3e85671b97c virtio_vdpa: support the arg sizes of find_vqs()
+         e9257e87831a281b2eccd54b8b4c12d280c257fb virtio: kerneldocs fixes and enhancements
+         1f94846b54d9749af75dcbfe0efdbd1b6ac11b03 docs: driver-api: virtio: virtio on Linux
          
