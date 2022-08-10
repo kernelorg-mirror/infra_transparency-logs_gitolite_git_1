@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7057862527484232984=="
+Content-Type: multipart/mixed; boundary="===============3751392684296741083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 10 Aug 2022 08:41:21 -0000
-Message-Id: <166012088186.24215.3521240830973219080@gitolite.kernel.org>
+Date: Wed, 10 Aug 2022 08:41:25 -0000
+Message-Id: <166012088512.24280.5108451593486768021@gitolite.kernel.org>
 
---===============7057862527484232984==
+--===============3751392684296741083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: eb555cb5b794f4e12a9897f3d46d5a72104cd4a7
     new: d4252071b97d2027d246f6a82cbee4d52f618b47
     log: revlist-eb555cb5b794-d4252071b97d.txt
 
---===============7057862527484232984==
+--===============3751392684296741083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660120881 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660120884 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1660120880-4fefae8ac89a975a0128277b0cb02a995bb3c409
+nonce 1660120884-9db99ab619bc0adc86e6ba2f409a6a9cbbaad357
 
-eb555cb5b794f4e12a9897f3d46d5a72104cd4a7 d4252071b97d2027d246f6a82cbee4d52f618b47 refs/heads/tty-next
+eb555cb5b794f4e12a9897f3d46d5a72104cd4a7 d4252071b97d2027d246f6a82cbee4d52f618b47 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLzbzEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+giQQAKJ4pJu0tFTIT7fvvgeC
-y+lmauHVMH8WpKJe9lZjWCiLQKO1PB8Ahxc9gPYlTCP8MeskMiEhWganoOvZ8O1w
-B8eOFJr0r/2IVIVsrmhS3olE7Twd1REjp0T5au5/xN/YZNif8cjaI8WnEdo7WIGV
-eNe41rYaoePHxsvLapw3CJ1+8+hmvHojlJ2/CxD/quvrj7TxAwXK8i1lEN7f18XW
-72Je8Qh1KhfCu7uk1xYjCi2QMvMRlMp8GQZqaOAiMlJEsmuADyS/E2tBAUEuAIOV
-qQJsb/VcLOTWmrIkS+w+L3sy22jhYwBeUb1nnUPUUQyQTtlPLAD+0UlxmBZnGkU2
-gpByBMzZz2gg3iQDSrZLroD738CxpB2hHuhhXVRTUrBVWko9KBSMnPbChCnS7KQw
-YSuET3TQoLVh/SMZ39DiMaP3nMRJAcBYMmut+KStABiAfz8RQKhoyovTSpvbxubJ
-0q1kbGQ6OqPWRy/NeoR8DEiF6qc+GzbX3ktrPacH6hPlQgdkuwUE/9GLlKIXe7FR
-KZmwESFWjAt58wWv++YzhCC1j1oT0fjbeuFToSdryXAKqmnxghexZu0GMG/JE3Xi
-E6Wgfjxx65DGcuiHc+qcRpkUcGULSQNoA21BqMcErsvwC7s46jtW9QCqlaLyK3vN
-kDwNKcu9EIfniuv2NGJpdOK6
-=Yhz6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmLzbzQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CHEQAKAkix+E5mWl54gejvCy
+50HD8qjoe7fIdlG02sa67+R7hCajD/httf4fkeUjOBVNKE9p95muxooIcOaqkvuZ
++zwdsBjyZI9SRTjVr6YTu3khGf5KqXkj5ltZVp/3tuotADuQg8TbSk/mH10VEbdh
+4vviLDVgQHZ94AE4KQj646uyo2MNAJ6pPbhReD22t/ef/qT13ChtzOu/HIILTpKb
+Ss5jmrzK7feKEr4QpsuY7XJRzUsdGekVYAggrHKy/AHlvQN5Ypc+syi4TC8+S1vD
+mcvpXsDGKP2jyeOiCjriuBP4cKDCX1B4Kzbvd1gQ55lchbK7mW9Er7BoPkf2gaMM
++Lf8kHpqqzhMbAZeJ6erx3qM7Z6FjQ9m+uzovApKZA+mLUUIBApmZConpGfhZH9g
+eQnxAcHKicinBAIFGcrN4tzimLCnPrHLR2Ccn8gSAIZHGU3EjrGWtrr3SrUS48oG
+iwN52z1A7TLJ6Bm9qCIo5lGsDxa5aWZrZoJi0/s2Xz23AAa6U/OsrX0ytRq1SaIr
+xZ5xM77qhixT507z7lBP+4MbzXueGiyeqM2isiQYwvIwQlyDJUNhpRwx+i2kjpYV
+0XwGE2tdFkXaxBPl1s/WzM7fiU0bJ8T6TLpOqMueR766OzAjnU5X6nr4TnsjWwuK
+b6E4crzb4oPFqm7AAfSvCtER
+=4/pa
 -----END PGP SIGNATURE-----
 
---===============7057862527484232984==
+--===============3751392684296741083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -165,4 +165,4 @@ b8dcef877ab5f2637fccd3efb6fe169c8211961a Merge tag 'memblock-v5.20-rc1' of git:/
 e394ff83bbca1c72427b1feb5c6b9d4dad832f01 Merge tag 'nfsd-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 d4252071b97d2027d246f6a82cbee4d52f618b47 add barriers to buffer_uptodate and set_buffer_uptodate
 
---===============7057862527484232984==--
+--===============3751392684296741083==--
