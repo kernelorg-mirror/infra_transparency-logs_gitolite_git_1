@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7295208942378569335=="
+Content-Type: multipart/mixed; boundary="===============7272516151925473074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 10 Aug 2022 21:35:27 -0000
-Message-Id: <166016732771.32190.17636170359603508901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 10 Aug 2022 22:01:36 -0000
+Message-Id: <166016889695.17754.3756996521371948122@gitolite.kernel.org>
 
---===============7295208942378569335==
+--===============7272516151925473074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: c08b4848f596fd95543197463b5162bd7bab2442
-    new: 2a6310f84c089aaf6152279fc6d38097d5c23401
-    log: revlist-c08b4848f596-2a6310f84c08.txt
+    old: 4d1044fcb996e8de9b9ab392f4a767890e45202d
+    new: 8f2f74b4b6e67a84948abf1a52cb6a11fe76b5d9
+    log: revlist-4d1044fcb996-8f2f74b4b6e6.txt
 
---===============7295208942378569335==
+--===============7272516151925473074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c08b4848f596-2a6310f84c08.txt
+Content-Disposition: attachment; filename=revlist-4d1044fcb996-8f2f74b4b6e6.txt
 
 f5bbc93937aca00fa2de458b7ffa2d9beb59649e dt-bindings: display: convert ilitek,ili9341.txt to dt-schema
 5ec88543063c758f49fc5e89a70386f649b65102 dt-bindings: display: ili9341: document canaan kd233's lcd
@@ -38,6 +38,7 @@ f5bbc93937aca00fa2de458b7ffa2d9beb59649e dt-bindings: display: convert ilitek,il
 e19f975a39f002846e144ab35a6cf15ef81fa6d8 riscv: dts: canaan: fix bus {ranges,reg} warnings
 6990ea211c7922134697bdc5416637da3a310301 riscv: dts: canaan: add specific compatible for kd233's LCD
 0ed048137fd982a78892a51721d9e7f6b281edbd riscv: dts: canaan: build all devicetress if SOC_CANAAN
-2a6310f84c089aaf6152279fc6d38097d5c23401 RISC-V: Canaan devicetree fixes
+c08b4848f596fd95543197463b5162bd7bab2442 riscv: lib: uaccess: fix CSR_STATUS SR_SUM bit
+8f2f74b4b6e67a84948abf1a52cb6a11fe76b5d9 RISC-V: Canaan devicetree fixes
 
---===============7295208942378569335==--
+--===============7272516151925473074==--
