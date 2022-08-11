@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8851150534480776645=="
+Content-Type: multipart/mixed; boundary="===============0481247132959446608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 11 Aug 2022 15:31:39 -0000
-Message-Id: <166023189930.12566.9133815425733814884@gitolite.kernel.org>
+Date: Thu, 11 Aug 2022 15:31:45 -0000
+Message-Id: <166023190536.12717.13605737799070323138@gitolite.kernel.org>
 
---===============8851150534480776645==
+--===============0481247132959446608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f329a0ebeaba4ffe91d431e0ac1ca7f9165872a4
-    new: 84ba28901629cd3aa3b24d359bc4da3ac24c2329
-    log: revlist-f329a0ebeaba-84ba28901629.txt
+  - ref: refs/heads/dev-queue
+    old: 478761054ced7cf2a2c6b9f46b1307d294cc549e
+    new: 3ab1edcec22b7a61cb7d52c29629e519bc0e7d9a
+    log: revlist-478761054ced-3ab1edcec22b.txt
 
---===============8851150534480776645==
+--===============0481247132959446608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f329a0ebeaba-84ba28901629.txt
+Content-Disposition: attachment; filename=revlist-478761054ced-3ab1edcec22b.txt
 
 b9b738eeafe54d960ccb240fc1b0c5031a0d76f5 bpf: Update bpf_design_QA.rst to clarify that kprobes is not ABI
 62fc770d90ef5a92931deb477c384f82be122a18 bpf: Update bpf_design_QA.rst to clarify that attaching to functions is not ABI
@@ -62,5 +62,20 @@ d800a7b3577bfb783481b02865d8775a760212a7 tls: rx: device: don't try to copy too 
 94ce3b64c62d4b628cf85cd0d9a370aca8f7e43a net/tls: Use RCU API to access tls_ctx->netdev
 4e4588f1c4d2e67c993208f0550ef3fae33abce4 bpf: Shut up kern_sys_bpf warning.
 84ba28901629cd3aa3b24d359bc4da3ac24c2329 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+3015b77c3a7ce86fde3c9b9b60e43d522ea1c758 ice: xsk: use Rx ring when picking NAPI context
+d3481341e83d86104eb0919a6a9f3a17d67a697f ice: Fix VSI rebuild WARN_ON check for VF
+18131e31a238cba22990c8277ffb0d0ce6867000 iavf: Fix adminq error handling
+2d422d15d59471330c3d0b93186856d46f361a71 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+aa362c3193def6c81e4a892304017f3f16c6bc48 iavf: Fix reset error handling
+825f48e619ac8fc39bc6252dc9d0928cb5ecf7af ice: Fix call trace with null VSI during VF reset
+1f60992c0fba86df51c8ed06826f28b30230b624 i40e: Fix tunnel checksum offload with fragmented traffic
+db257a8030d17bef9579899db47ed67db5c368f6 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+7b2c5cf1d48851e460e2ed87988b61564f716cb4 i40e: Fix to stop tx_timeout recovery if GLOBR fails
+49bbed217bdf065f9182d632c80a9e802a6e0e81 ice: Fix VF not able to send tagged traffic with no VLAN filters
+2a5570ac429b5a492da50f0e4e11cd67333bfb31 ice: config netdev tc before setting queues number
+9e591604162a773c727bf99872f872135adacf26 iavf: Fix deadlock in initialization
+5c410ec68a0835e905dad2665f652f0fb7b9db06 igb: Add lock to avoid data race
+07bb38d41e877802574ff971b23d5e5378a80fc9 i40e: Fix ADQ rate limiting for PF
+3ab1edcec22b7a61cb7d52c29629e519bc0e7d9a ice: Don't double unplug aux on peer initiated reset
 
---===============8851150534480776645==--
+--===============0481247132959446608==--
