@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 11 Aug 2022 16:53:32 -0000
-Message-Id: <166023681204.5057.4434328711854964023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 11 Aug 2022 16:54:10 -0000
+Message-Id: <166023685030.5348.829786355501608369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/for-next
-    old: da06cc5bb600bc671715076b5bdd9088c674dd01
-    new: d8357e3bf8f7aabd98bf4dc2709ee877b741cefc
+  - ref: refs/heads/master
+    old: 0b2f3212b551a87fe936701fa0813032861a3308
+    new: 271c5ca826e0c3c53e0eb4032f8eaedea1ee391c
     log: |
-         788177e76589e6441d43691f1a075feec2e25962 riscv/purgatory: hard-code obj-y in Makefile
-         d8357e3bf8f7aabd98bf4dc2709ee877b741cefc riscv/purgatory: Omit use of bin2c
+         271c5ca826e0c3c53e0eb4032f8eaedea1ee391c netfilter: nf_tables: really skip inactive sets when allocating name
          
