@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4411575474939290053=="
+Content-Type: multipart/mixed; boundary="===============4603703483144199584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 11 Aug 2022 10:43:08 -0000
-Message-Id: <166021458889.17482.6930631565793386160@gitolite.kernel.org>
+Date: Thu, 11 Aug 2022 10:43:12 -0000
+Message-Id: <166021459234.17593.1795897988733595741@gitolite.kernel.org>
 
---===============4411575474939290053==
+--===============4603703483144199584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: d4252071b97d2027d246f6a82cbee4d52f618b47
     new: ffcf9c5700e49c0aee42dcba9a12ba21338e8136
     log: revlist-d4252071b97d-ffcf9c5700e4.txt
 
---===============4411575474939290053==
+--===============4603703483144199584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660214588 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660214591 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1660214587-ba7dc3ca5b06e242889b558dbd1da31b429fa03c
+nonce 1660214591-eaf4725354b2bb0d23c5cf439a732d081b2859cb
 
-d4252071b97d2027d246f6a82cbee4d52f618b47 ffcf9c5700e49c0aee42dcba9a12ba21338e8136 refs/heads/driver-core-next
+d4252071b97d2027d246f6a82cbee4d52f618b47 ffcf9c5700e49c0aee42dcba9a12ba21338e8136 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL03TwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ctEP/2DPHaG6Bm8lvkxY57vw
-E5KM00oNghbI8CSabddhxOWR5Pa6zzp8T28vfdspBG28GzI13PqW8c0wEVq1BanB
-1/0te3YWaby/8Yz8mzprt12bduO+A1CIdGKcskAeVjQ05RzmatYzbTXzYJQiDj6b
-L3OzDVBQASYieCxBEk3pHUGjJQkNKImLOdNQipglqt5CISZBauFOazlMMX780EWx
-ppCHp/55xjJKFpHFolZ2Vgc0eay2Is/SjbGkBUrJyRwD34v7w8wCjxgQUYlXADBy
-77iFNxK0XOsTiVF7O60hrJDuG/Nk+Bjrq5KB0u+UOwfsyTv/HbynbwlGj0eJOTbF
-I2FKOaxHixPUSYwOw0G7FqPTwZzMWfIo0aPDhwyc3zN+ClHpJBwzwfYrAUEgHXmB
-xqfdQpk/6MHQHWWpMSRHXoQ3XqJ1f+AZlmJDfwfgb5HvPQOoDMpLQuZfG6tKOhsv
-5iQ9V5yolSYMgxDd5ephh3agBbeEARpwS7MhdvPiQyQDAQK/oyJF+eyDym8cXuru
-MY5nxkLt+jdk+DSaIpM5iQLI3zy4aSu9lbH0g/5Rj9et1Z9qieabxM1F410BylFt
-pbX/xXvX8FcCK3PiX9MmG0UzsnTE5Hz1mMp7scAjBErEFl01AFXD4iIkqB11Gpwl
-0LM5GYmri5r+mjlVOYpRMVZj
-=QuxX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL03T8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/FMQAM5vZSty/K7zpokBf70E
+nqyRi7sFlpAHbORAKLL7qdiJLbBKZ7VEz4JTUgHADw1JF7PPna+uLpol20s99AtO
+a8JXEav0JGKzaJmW+uPCzWGJy9rvG17WavnQxEDoCEDxPcrGEBv+wSIpKO5rWn2A
+AqrvIi2hrpnMXtO/iz0AJtlAWCBtazQLn2AhdkH+rieSoyBUrtxDTWbxR+Fbwtcj
+OjJzzzCjMSeCwTOCgKgYX36+sZRgEnuXPH42oo9KlT94jUccTGUi8cpqSCRnJxhU
+VcdaTjup2qY6DV1+neKLFm/qBx97CrCfyNtQGsvZkkKe8OVHWZ8ojXgg5iqo7LPi
+NotFPPXza9BzwWa9lYT1qSM2s+lj++RqptGWZ7MELIvp17p7uEK/VAZfdO93rc0W
+8tcgZJ8caDnz7bikIWBvvFIpxO33Ugrl6coeGi/qqz86gfwB9zEjA08dT1DjNbTF
+AHB1HL1FAeq6msUmqunHhIeDm1HUQ70aXi1ccn4Lv8ehZeYEsrQTja4n3jMIRlK+
+Ay1/2aMBS7/QRSxAUJRQ4QCqZFvojjmtCzpWwkolwQnjZ4PfYI88Sk/izzVNp9yA
+Fzg1xknu00GihxhlkMH7vy2XJPBMlXBVhRRjEnpCOIEj0derQKq1I+WHgtVFKX/M
+Dq+WcQfP3mh0/9HStBHX9Mpe
+=6uSu
 -----END PGP SIGNATURE-----
 
---===============4411575474939290053==
+--===============4603703483144199584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -402,4 +402,4 @@ aeb6e6ac18c73ec287b3b1e2c913520699358c13 Merge tag 'nfs-for-5.20-1' of git://git
 0d362be5b14200b77ecc2127936a5ff82fbffe41 Makefile: link with -z noexecstack --no-warn-rwx-segments
 ffcf9c5700e49c0aee42dcba9a12ba21338e8136 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
 
---===============4411575474939290053==--
+--===============4603703483144199584==--
