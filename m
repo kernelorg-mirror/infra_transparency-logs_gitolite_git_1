@@ -1,179 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============5465359017652654309=="
+Content-Type: multipart/mixed; boundary="===============4208319139724985224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 11 Aug 2022 13:40:21 -0000
-Message-Id: <166022522115.28290.14403348627463367319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Thu, 11 Aug 2022 13:44:11 -0000
+Message-Id: <166022545148.29744.5906886551925129169@gitolite.kernel.org>
 
---===============5465359017652654309==
+--===============4208319139724985224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 0070000643544c6b3a22b4a120c1600e4b935ff6
-    new: 944cda1a2465357b471d6e415baaee9118601ac9
-    log: revlist-007000064354-944cda1a2465.txt
-  - ref: refs/heads/queue/4.19
-    old: 326bbc4d1b4a7b81c68bbb6bd09743dfe7bade74
-    new: 8a97fd4b18c728125dea628cb0a61260e53b7a98
-    log: |
-         3f3f9446422a5816d0f81eb85d158c6a8cc9f033 Makefile: link with -z noexecstack --no-warn-rwx-segments
-         590e90cc412bd1fb9ec50b77b7b1094f8d4fa2cc x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-         8a97fd4b18c728125dea628cb0a61260e53b7a98 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-         
-  - ref: refs/heads/queue/4.9
-    old: 7f3881dbbdba955339d97879246a62fa2d9d2dbd
-    new: 0fc0fc6d2a402604020d287d398d13f5fc154fcf
-    log: revlist-7f3881dbbdba-0fc0fc6d2a40.txt
-  - ref: refs/heads/queue/5.10
-    old: 0711dc0a0e712d31bc84e095d6c3005bf10855b5
-    new: 99723ede4f4bc778ac07ea94bbad47cb4037020a
-    log: |
-         a82492248bdc87fc9d7f32f63e98e8cd29ac5c97 Makefile: link with -z noexecstack --no-warn-rwx-segments
-         724c3f56ee549c8bbaed2a55f66568bea633420d x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-         4f657f10def619164cba66175b2d3ff78d108462 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-         bb375d6a3f3f977ba1a3e3b8e0bfb1e340b29c6c scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-         4e2ecaa45181d66dfe7fea6b1a8a508a215411b8 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-         91a2b18cc117e7b4998fa7ef98a94e0d7439e44e ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-         99723ede4f4bc778ac07ea94bbad47cb4037020a ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-         
-  - ref: refs/heads/queue/5.15
-    old: 2d127729df00a8cc34c4162eee50b714fa8d1f1f
-    new: e66c2c7f17e168e5c2b21dc199f6384349b610bb
-    log: revlist-2d127729df00-e66c2c7f17e1.txt
-  - ref: refs/heads/queue/5.18
-    old: 37e6b536c2e330e5c618e0bca8eece1870e8cafd
-    new: 939c3ac0c2abd5c59c6eef3ddeaf9e8c1bfccdf8
-    log: revlist-37e6b536c2e3-939c3ac0c2ab.txt
-  - ref: refs/heads/queue/5.19
-    old: 5ce79f1b28fb15dd47b98325107e3965790b14b9
-    new: b02911f754df7cc963ad4710e58a3a232afff196
-    log: revlist-5ce79f1b28fb-b02911f754df.txt
-  - ref: refs/heads/queue/5.4
-    old: 308c632adf3eba6c24eee0612355096fb81ac8d3
-    new: d3bb095798c9c0eeff81ce26fb56391af48d80bc
-    log: |
-         58d992354024f0e4b5d5c7e6e0548d3d823399ff Makefile: link with -z noexecstack --no-warn-rwx-segments
-         ae504d7e6f3b9f2f0b8e231934123c8eff81657f x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-         cba0913b0a91052205a9d9ed6bdad8568af910c1 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-         d3bb095798c9c0eeff81ce26fb56391af48d80bc ALSA: bcd2000: Fix a UAF bug on the error path of probing
-         
+  - ref: refs/heads/for-greg/5.10-101
+    old: fa51ac74aa6ccbcd7c95c3b629d6c7b227daae94
+    new: 2ed038cc2ecc5b2ed8ec37f150006c9fd7052aa1
+    log: revlist-fa51ac74aa6c-2ed038cc2ecc.txt
 
---===============5465359017652654309==
+--===============4208319139724985224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-007000064354-944cda1a2465.txt
+Content-Disposition: attachment; filename=revlist-fa51ac74aa6c-2ed038cc2ecc.txt
 
-3ed3cf8ea2e0024224b1250777c28fdb89e3b4a5 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-f637375538a66e1740dfb5edae17d6b2bf7ab61e ntfs: fix use-after-free in ntfs_ucsncmp()
-d94f620d84e215cd97de65a344ad763cd361bff3 s390/archrandom: prevent CPACF trng invocations in interrupt context
-f6e205f97ac4d632c411b3f012c78566bd17aefb scsi: ufs: host: Hold reference returned by of_parse_phandle()
-d6d412a7dd3e2d5f13a736b616f34699dcdfaeea net: ping6: Fix memleak in ipv6_renew_options().
-f8fd8b02b25edd1cde2a738b029548910b3e74f9 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-cd47b6f3ab5bd94da3996dae4435d18ca3ba2665 netfilter: nf_queue: do not allow packet truncation below transport header offset
-a460c34feaa7cbaec7a4df822477138595ba7fe9 ARM: crypto: comment out gcc warning that breaks clang builds
-cfb1b570e289b7debd247804359c84496f4bc522 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-fe591ddbcf951821a6bbc2e7b781ff9da6fb1ab1 ACPI: video: Force backlight native for some TongFang devices
-8df792f3682764471f46f2e051ae362a23be7f10 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-57c71289ff180c7e733f2db3ba85166be95e6db2 macintosh/adb: fix oob read in do_adb_query() function
-5ef8afe724c771ff0e152f25ffc93ff110395e9b Makefile: link with -z noexecstack --no-warn-rwx-segments
-2cf55b5190605770153d844078094a26e99f690a x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-944cda1a2465357b471d6e415baaee9118601ac9 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+7299fd5430b82808dd6400f03a6ce52b3ed7166b drm/vc4: hdmi: Fix timings for interlaced modes
+bd6bc1ba29433aaf0a83acfb291844149dca8e91 drm/vc4: hdmi: Correct HDMI timing registers for interlaced modes
+83ec2d85392f4590f8c3b49abe9033c810427e63 crypto: arm64/gcm - Select AEAD for GHASH_ARM64_CE
+56c90aa9cf5bef9f37fe9a247c6b142906d31903 selftests/xsk: Destroy BPF resources only when ctx refcount drops to 0
+d5517e283476221a465bb84308a836bd1725b3ee drm/rockchip: vop: Don't crash for invalid duplicate_state()
+2974949ce1b285413f72aea4d40ad3889fe443ce drm/rockchip: Fix an error handling path rockchip_dp_probe()
+44498265c07f88dbeabefb1e85744d11e9af5933 drm/mediatek: dpi: Remove output format of YUV
+d54df87e986e4e5a37e4000f440cccb71e25adde drm/mediatek: dpi: Only enable dpi after the bridge is enabled
+a30ebc937d6761fc2259cf18bfc57b9de902456f drm/msm/hdmi: enable core-vcc/core-vdda-supply for 8996 platform
+5c5fbea39663e17648116187f1610f09b058380b drm: bridge: sii8620: fix possible off-by-one
+e9f1e6c0f29680bf789f70c8c0dfaf3774bf64a1 lib: bitmap: order includes alphabetically
+2e376a337185828c49c3d73d558b13c8e8849e81 lib: bitmap: provide devm_bitmap_alloc() and devm_bitmap_zalloc()
+2812fdb0c7673021fec394123c44b28386f97378 hinic: Use the bitmap API when applicable
+486ac930c110bd8d6c14ab900b11ee23e1ab3f12 net: hinic: fix bug that ethtool get wrong stats
+f32519258ff8b05a6264054938e588d5d76f2fd2 net: hinic: avoid kernel hung in hinic_get_stats64()
+39b0243a037e023420ef79119a606e9aec40ab4a drm/msm/mdp5: Fix global state lock backoff
+8107198806fe42b0e9c59ab10ce460e2adf65313 crypto: hisilicon/sec - fixes some coding style
+be4812d9656e37e1a3f32ad67e370b70aca95063 crypto: hisilicon/sec - don't sleep when in softirq
+fc9d77cdb2278c8e49fe5639afd9a9e8f9113359 crypto: hisilicon - Kunpeng916 crypto driver don't sleep when in softirq
+ecb132864cfef0e4a1acc379d7b22a2c160b92b9 media: platform: mtk-mdp: Fix mdp_ipi_comm structure alignment
+6b648f0e5d0da86ba7dbd2ac2ba6111247908de9 mt76: mt76x02u: fix possible memory leak in __mt76x02u_mcu_send_msg
+8f192c1c930515c5da6abd073107fe2ea4bb69e2 mediatek: mt76: mac80211: Fix missing of_node_put() in mt76_led_init()
+a057f59b37a15790f68094168222f53676486570 drm/exynos/exynos7_drm_decon: free resources when clk_set_parent() failed.
+e90895532843cf677c7cbca24baf0fa83bb4e807 tcp: make retransmitted SKB fit into the send window
+c25a70e8e522a3725c5133b55004acaf5b4b792f libbpf: Fix the name of a reused map
+898bc06e1beb0457eef6c8d3bc42d2ce6685fff9 selftests: timers: valid-adjtimex: build fix for newer toolchains
+8116cd45728d9b0546707cf2c6a9bf53c70bfc8c selftests: timers: clocksource-switch: fix passing errors from child
+3e921599987b9fecdf62645ef8bb8b0ba4509902 bpf: Fix subprog names in stack traces.
+b43ae977aeadfaaaa2d466ae9ef012bc4116a426 fs: check FMODE_LSEEK to control internal pipe splicing
+126f3e8d222bdf81e58986b3893c0780b1157755 wifi: wil6210: debugfs: fix info leak in wil_write_file_wmi()
+b815cddcf6d94e853787cfe11c6634bc261c8e99 wifi: p54: Fix an error handling path in p54spi_probe()
+0076aaac57f2bdd0a6d9c213dcc1662105fd5185 wifi: p54: add missing parentheses in p54_flush()
+af6c2af59dca7b5376c276e809db0869181a1427 selftests/bpf: fix a test for snprintf() overflow
+4d8cb34e5aed61c51b1eff92f797144e96661ec1 can: pch_can: do not report txerr and rxerr during bus-off
+0e148e9fa8275e661acbf8bdd134ac5a43d0d6bb can: rcar_can: do not report txerr and rxerr during bus-off
+f8fc8c0d7b2407066f247768bff077f594c52241 can: sja1000: do not report txerr and rxerr during bus-off
+802610f8adf68d0832b0a4d8ff480fec01ba773d can: hi311x: do not report txerr and rxerr during bus-off
+a81b60a8028a2cabdc69054b2a2ec4594bb8c79f can: sun4i_can: do not report txerr and rxerr during bus-off
+1c51848d44cccdb669dc1d92ad29cd6d6aa41356 can: kvaser_usb_hydra: do not report txerr and rxerr during bus-off
+2c57f941d16e06b6a13965302154941714de0643 can: kvaser_usb_leaf: do not report txerr and rxerr during bus-off
+07c2a379a37285db15e68c982483c92dc8df33b7 can: usb_8dev: do not report txerr and rxerr during bus-off
+3abbe9bc3f77a49e15ad7240c625c2eb8cf674f5 can: error: specify the values of data[5..7] of CAN error frames
+8bf09d59d7e0d83893349843a6a39a7a464245b8 can: pch_can: pch_can_error(): initialize errc before using it
+62175494d41c168b66bad75a1492e668ac9a53a1 Bluetooth: hci_intel: Add check for platform_driver_register
+094955a5083852b45122c6a8a49bf73cbb1f4587 i2c: cadence: Support PEC for SMBus block read
+3a13b18788589f88b83c740f3a513edf7e0bb0c1 i2c: mux-gpmux: Add of_node_put() when breaking out of loop
+986ad01c5de2e31f5a8ef18dac6a5dd087ff0935 wifi: wil6210: debugfs: fix uninitialized variable use in `wil_write_file_wmi()`
+cf58a2928b1e8f323ce48bddbb589eadf94cf1e0 wifi: iwlwifi: mvm: fix double list_add at iwl_mvm_mac_wake_tx_queue
+43241aa2b4795c120d2a8aafa4ad2f531abbabd6 wifi: libertas: Fix possible refcount leak in if_usb_probe()
+2fb68d5b484285d0079719eb93d61db50c13a2e8 media: cedrus: hevc: Add check for invalid timestamp
+52724ea523d979b70ba3f1ff95ae01a7aba06819 net/mlx5e: Remove WARN_ON when trying to offload an unsupported TLS cipher/version
+7b24c6817afb6963fae33dd47d2cb0098242cf85 net/mlx5e: Fix the value of MLX5E_MAX_RQ_NUM_MTTS
+781e1461a25c95d3619a63f7a4d1a5c3fc45dee0 crypto: hisilicon/hpre - don't use GFP_KERNEL to alloc mem during softirq
+6199e1cf093b67fb97559a7a34ff36d68d558ce2 crypto: inside-secure - Add missing MODULE_DEVICE_TABLE for of
+40753427de1cd532021d39db5a9d8af0f4edb68b crypto: hisilicon/sec - fix auth key size error
+ab4692f65cc087790f380457031d377d6770bf94 inet: add READ_ONCE(sk->sk_bound_dev_if) in INET_MATCH()
+a32984ec70a41c4d21241524cd0e638b60d4345b tcp: sk->sk_bound_dev_if once in inet_request_bound_dev_if()
+a964b492060c1381a29daf873a9285bbaca09d97 ipv6: add READ_ONCE(sk->sk_bound_dev_if) in INET6_MATCH()
+47ee3cc23c92aec746688078e3476ba9b47a63c8 tcp: Fix data-races around sysctl_tcp_l3mdev_accept.
+9c4c1433e9029452287f6b2f4286f803cde95af2 net: allow unbound socket for packets in VRF when tcp_l3mdev_accept set
+426ac7d7e98d24534ca6f8d55f6ae03efd805e51 iavf: Fix max_rate limiting
+5916243ee5e00c9ced1a114b0164785649c1bb32 netdevsim: Avoid allocation warnings triggered from user space
+12f19979ceacf609092fe79f2c5f91fcb272192d net: rose: fix netdev reference changes
+2f08d9cd216387caf1ca17194cff444f28e39074 net: ionic: fix error check for vlan flags in ionic_set_nic_features()
+6a359f22c16ef47d49362cdf7a201511720be2b8 dccp: put dccp_qpolicy_full() and dccp_qpolicy_push() in the same lock
+04d5ec8b155135690e98357e2d040d99b5005dfc wireguard: ratelimiter: use hrtimer in selftest
+2ed038cc2ecc5b2ed8ec37f150006c9fd7052aa1 wireguard: allowedips: don't corrupt stack when detecting overflow
 
---===============5465359017652654309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f3881dbbdba-0fc0fc6d2a40.txt
-
-e3aa2aff217b4b9669de42e813628482baa36984 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-108837bb40af7a87e1d53da62c6b9e56e589d948 ntfs: fix use-after-free in ntfs_ucsncmp()
-838d93dc977d5d8aa8b301703631802ae5a9acbd scsi: ufs: host: Hold reference returned by of_parse_phandle()
-6088ead8659a6a90af98c2f74558e7f688a8d84b net: ping6: Fix memleak in ipv6_renew_options().
-10dd8c1301257ab9ba789f4e35fc512d7ac8041a net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-5a1d244d9905096d2928bb32e5b1d3c97a3aeca7 netfilter: nf_queue: do not allow packet truncation below transport header offset
-8b5a6992d3cc2cc426a389cf6d049de829c92a2e ARM: crypto: comment out gcc warning that breaks clang builds
-67b819578155ede1ab361a2870c13a426f859d65 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-9e8bc12b3ef1e9f542ec4c8316df6721d705991e ion: Make user_ion_handle_put_nolock() a void function
-4f3d4e1b922d59203430985b1a0eae38eac48fbd selinux: Minor cleanups
-7d5fc598057253288e81f7d8ce71d5762a9ae2c4 proc: Pass file mode to proc_pid_make_inode
-f3bb43da55dc6c1223715feb1ec2beb97711792c selinux: Clean up initialization of isec->sclass
-f038495c28bcacdd520fed04a2f0d5ee19fed7bc selinux: Convert isec->lock into a spinlock
-b8882d31ee9d4108b83011c08d6f60b74d30835b selinux: fix error initialization in inode_doinit_with_dentry()
-ef5409ece49fe3ed16a378efc135a276e68213f7 selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
-ace03239b929810836e67c6e5e77e06f81cdeed0 include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
-e9f510d14fc85d9ebd6a868071d784d35798bc2e init/main: Fix double "the" in comment
-5d448b7b8908b6b76f301c1f76c409b8febedaa4 init/main: properly align the multi-line comment
-6cc4a43908a66e275dfc9cc0adb1669788cf8a9f init: move stack canary initialization after setup_arch
-f1ee19be1e30f3f7e1264540c760244a76738dbe init/main.c: extract early boot entropy from the passed cmdline
-5b80783022034bd5fdfe8b80e38c208b554d9016 ACPI: video: Force backlight native for some TongFang devices
-730ccf6c4a99505ea455226d5029668053b1e2ab ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-61dc281cac492b2a708d33825460ee8bd6ea5a49 random: only call boot_init_stack_canary() once
-efede68937f8441d64043ba8ff3b19ed6ff548cb macintosh/adb: fix oob read in do_adb_query() function
-5cfcaec8ae65b8b731cc26cf7d40e029f3aaf2c7 Makefile: link with -z noexecstack --no-warn-rwx-segments
-966c6ffda14c34977bb13b6d83e7759cd413f3af x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-0fc0fc6d2a402604020d287d398d13f5fc154fcf ALSA: bcd2000: Fix a UAF bug on the error path of probing
-
---===============5465359017652654309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d127729df00-e66c2c7f17e1.txt
-
-71d74617e7f72dba298e2423965923fc65a53bb5 Makefile: link with -z noexecstack --no-warn-rwx-segments
-3cb6f8b06079160c6abd1105714a8801fa714b95 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-8e08104abf5a152982977d5fa2eb57efe6da8b39 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-257abae2ee7fb2c5a818f8362f5b08c2708bfb1c scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-1ead50e574c960aa89066d7a489194ab555ad001 pNFS/flexfiles: Report RDMA connection errors to the server
-ff238d06a142fe8faeeeb135f41ef0351d18f966 NFSD: Clean up the show_nf_flags() macro
-87b65c2b13159804248ffbec36b68e9b883007e6 nfsd: eliminate the NFSD_FILE_BREAK_* flags
-33a382b30c1300b0892e41c48325e2b185e437d3 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-cfb094ab41d429b7cbb354a08ff3545417a74f5a ALSA: bcd2000: Fix a UAF bug on the error path of probing
-072943aea84863131711f3f15a35334037026984 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-e66c2c7f17e168e5c2b21dc199f6384349b610bb ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-
---===============5465359017652654309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37e6b536c2e3-939c3ac0c2ab.txt
-
-61094913be5b25fe3fc88230de0554325a25ef54 Makefile: link with -z noexecstack --no-warn-rwx-segments
-5a02d249017eb4c91ea4335d098e489c6d55a295 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-13d898f80027cceffeb1602ece6064e7f10b8874 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-ac746057e4ed79eb35b3e64365e271ebc85e104a scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-77032f8a24239ea199604d03947957d303cf8269 pNFS/flexfiles: Report RDMA connection errors to the server
-86f6bf736d13e7fc63a7fcf04e69cb2aad6dcce7 NFSD: Clean up the show_nf_flags() macro
-1534eb22d7f219724cbbcea2cfb4d9d95e837807 nfsd: eliminate the NFSD_FILE_BREAK_* flags
-9caa1a709248a8823b92a0237958a7a7f385c6cc ALSA: usb-audio: Add quirk for Behringer UMC202HD
-b76f3671d0be6e96b5fdc39fa574fdf30e954316 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-801d025646ef033915dc7be381131329245e03b8 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-13bfea9fd2dcc63914acf5fdfe1bb4220b22a6e5 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-939c3ac0c2abd5c59c6eef3ddeaf9e8c1bfccdf8 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
-
---===============5465359017652654309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ce79f1b28fb-b02911f754df.txt
-
-b768bd9874fba0b98e322e56ff2bf92ff5a4389c Makefile: link with -z noexecstack --no-warn-rwx-segments
-9d660a070ad1350cee77201e4d14aeeecaeb8e95 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-5b4736a50b24e3f5de89740879a4f822b2f907ac Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-02a57988ee7e73a2774bdca4b0ac3334f370ab32 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-c2b01798c27edb18540236e694775d80b88ccf3f pNFS/flexfiles: Report RDMA connection errors to the server
-4127c9a45a1c4d8eb0904d1ab2975cb1973023cc nfsd: eliminate the NFSD_FILE_BREAK_* flags
-2a3e6c9d4d13716d6fd3e48133e75ae65b834db7 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-4e075d7bb290fe7b64931247ad3c8a743e3dd43d ALSA: bcd2000: Fix a UAF bug on the error path of probing
-28c9521e1441d3b662e896c961dd2d496a10c89a ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-d39b4aaaa48ad57b6c356c27ffcd0ec8822d6010 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-b02911f754df7cc963ad4710e58a3a232afff196 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
-
---===============5465359017652654309==--
+--===============4208319139724985224==--
