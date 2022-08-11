@@ -1,53 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============3774759762361208898=="
+Content-Type: multipart/mixed; boundary="===============6305889940836931968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 11 Aug 2022 11:22:22 -0000
-Message-Id: <166021694233.31878.18052033184759061194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 11 Aug 2022 11:22:32 -0000
+Message-Id: <166021695296.32034.8691487259363743553@gitolite.kernel.org>
 
---===============3774759762361208898==
+--===============6305889940836931968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.19.1
-    old: 0000000000000000000000000000000000000000
-    new: 72d3e939d4c572557ebc7c4d8b63951181892eb9
+  - ref: refs/heads/linux-5.19.y
+    old: 3d7cb6b04c3f3115719235cc6866b10326de34cd
+    new: d654f7e29909ce602942a1cd927d56d5aa397ed8
+    log: revlist-3d7cb6b04c3f-d654f7e29909.txt
 
---===============3774759762361208898==
+--===============6305889940836931968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660216941 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1660216940-613f5139d1e82ac524aa1ecd825d45fdeb2f849e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660216951 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1660216950-edc760ed5897b953df173bba3e361c36143e8b97
 
-0000000000000000000000000000000000000000 72d3e939d4c572557ebc7c4d8b63951181892eb9 refs/tags/v5.19.1
+3d7cb6b04c3f3115719235cc6866b10326de34cd d654f7e29909ce602942a1cd927d56d5aa397ed8 refs/heads/linux-5.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL05m0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DSMP/jKOwG/fp6N/VPZC4DXo
-SJCUm0VqjHKtm5Dmh9Re2sCRapKUAmoBJ7bwOwBLuZcRh2xVC6w/3uxSnbCg48nB
-MjibV4HD8fUx/+eUHIvfsyDQdWsR8rCzrH2nOaTe/l5f92fQhBy2j5z9pAGQovXL
-eALcwVIC4FBLYTy+kTdWB16u6nJCeE5PDAsfyJTG3QphhMkjECSW4Fd+Abg4eZiu
-Rj9r5mDfjmhNUHSBFMalDUzmHXOahBF3mODP0Adni3V+6BY6B3b8dju2iuYSPVp5
-AEt4YfAzb4auT5L8vlvYCSKlzsc/IAdbez3pDUHO7rqalQiJQD3W5UIoHiV8sHPO
-H4iQkX/ZZbh6YdVEwh+QyE77lJjVekc45cYbpXKpNPrYhwhP46DTq04MNP9T4T+L
-E0piwoGg3c0b/qpT8QYizaiBTogKF5hWuRIa2T55pIy/zXqTPoscXY0tyQ6UV7w4
-2JuhHWzJDOiLpvELKTZUH5KeCNQaKD7UciJAk11Sb8QB8WYYCIyAv4WPvOak+pUb
-C/LfdEHzdHoermwP+dPARP/ZXYASEjpamG9l60G+HHU4wOvCjg3sdNG9xgGEiX4y
-G2rDgttZlHgmMeRJrqryttMAC7yiGsukHvQs/eGJ26Oa8HJ6ejYuGfmU9j0WdZ1X
-38xAC31d2ogMUZrYugjIf5uX
-=lhpz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL05ncbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wj4P/ijR3oGUT9nrKB3jo2A+
+ILbGpMjRiYFdNfjjgWrrOZQScTEE4Hi91wzN1Q4y5ibe+Yuqt/5cUVeu9c3wb8gd
+/D+AHgOaoA/bp4bf9mW8DKeY0ZGvawOujb+/nDkuwUrkhacs6qDLggFZP3yy+cnx
+mpdBo2qcSJRU1IY9aE47CVKskmFawPRkKNRGOTsE5y4BYHwvd6w5gE7u+sY2W1vX
+lwJ4A/vB9HE9NyIA17f7rFU08TiK9hk1MlXocHLIY1VSiLzkbXuvNCKAzWFMkAhJ
+Tt9+VHWmlo3caGY0UHw7iUGq/USzUOxXiigQXBeGs808nzIl6HBaDEoZMXnbLl8Q
+8QjpPqF6OEb2GXfJNPLGD9JYJNYQti4KoxEG4c+pyUwmbY7qPsIsRP82TDttdy7h
+7uIfqjnxpEjh8yFypgDqJMRmx/lNxYyuYfhJcunY5KsIWljohGgsTd++P9E5n1T4
+T+tDwlv+Wgoo0CbkBfVvvYkhm4sMqLIg3AH17RHhXgOplIfUpsOZwMB+EoZr5rxv
+SStz6f7FbfuyacLPfM5T/t+zPtloSD5FaLxbIkVT2hl9enuXo/L8LnIR1QOC0TWY
+QRfZC33BgWhUsub+kXxaInobeCDgJXcErA/K56kW1haJFOKIoZ+Tuv7rqaRX5D0B
+GNepQvWnlIwbxu6gCJHTpcHH
+=J3d2
 -----END PGP SIGNATURE-----
 
---===============3774759762361208898==--
+--===============6305889940836931968==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3d7cb6b04c3f-d654f7e29909.txt
+
+28a9cbc1c9279ff24f5296d440667d06d85852bc block: fix default IO priority handling again
+7c8e33cc2a4930ae07e96fd504fb9a8a6512400e tools/vm/slabinfo: Handle files in debugfs
+5ab9b078c4ff1ac9eb7e3ddd1d542b090655b029 ACPI: video: Force backlight native for some TongFang devices
+eb5595ac6aee59407869393c274486045cd41c3d ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+cd5a88272762d411348deca774b276501cab65a3 ACPI: APEI: Better fix to avoid spamming the console with old error logs
+d069dcffef849b8fd10030fd73007a79612803e6 crypto: arm64/poly1305 - fix a read out-of-bound
+231276d2c6cc91392f592d31439a6c8788af5685 ata: sata_mv: Fixes expected number of resources now IRQs are gone
+9283e708a9b8529e7aafac9ab5c5c79a9fab8846 arm64: set UXN on swapper page tables
+60ef27c1c77f270fd1e716b0e4f9a2dcbc02392d Bluetooth: hci_qca: Return wakeup for qca_wakeup
+f7b229ecf21a7933540851c153b2f9cb04fca1c1 Bluetooth: hci_bcm: Add BCM4349B1 variant
+18b04e68252f898c2284f60845754e116f49dc83 Bluetooth: hci_bcm: Add DT compatible for CYW55572
+34464228344cacf4a558066a334df1f7be5b36e7 dt-bindings: bluetooth: broadcom: Add BCM4349B1 DT binding
+cb79e61c28b90fda2c4a220aff0905f6a8078ae7 Bluetooth: btusb: Add support of IMC Networks PID 0x3568
+9122622a9d2a53d1bb839a458ed1b219b54c9a87 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04CA:0x4007
+17da5b394ba4d14c4a1f0c9983e3e72ab9d24509 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x04C5:0x1675
+7562b32d75314280ec3c51a2ddd874444b1b3090 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x0CB8:0xC558
+651880ed7d3961dd35d23ba984f25ec9c0762495 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3587
+7f64bc0c090c92c639bb9f57179bd459dafedb3c Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3586
+224b653547fad627187e4e7e8d03c2962e491df2 macintosh/adb: fix oob read in do_adb_query() function
+f826d0412d80348aa22274ec9884cab0950a350b x86/speculation: Add RSB VM Exit protections
+f6664a403f11c97929ebde920da1ec1c10438428 x86/speculation: Add LFENCE to RSB fill sequence
+d654f7e29909ce602942a1cd927d56d5aa397ed8 Linux 5.19.1
+
+--===============6305889940836931968==--
