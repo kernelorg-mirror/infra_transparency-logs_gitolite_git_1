@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3841597549532605237=="
+Content-Type: multipart/mixed; boundary="===============0895292510085572776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 11 Aug 2022 01:37:20 -0000
-Message-Id: <166018184056.11591.9165193157838427415@gitolite.kernel.org>
+Date: Thu, 11 Aug 2022 01:37:54 -0000
+Message-Id: <166018187452.11848.6173712831990626057@gitolite.kernel.org>
 
---===============3841597549532605237==
+--===============0895292510085572776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 32346491ddf24599decca06190ebca03ff9de7f8
     new: aeb6e6ac18c73ec287b3b1e2c913520699358c13
     log: revlist-32346491ddf2-aeb6e6ac18c7.txt
 
---===============3841597549532605237==
+--===============0895292510085572776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b196f3d101fecbd25ca5ccf0d3ef65a272bc2b43 Merge tag 'rpmsg-v5.20-1' of git://git.
 f41445645ab5d172e6090d00c332c335d8dba337 Merge tag 'hwmon-fixes-for-v6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 aeb6e6ac18c73ec287b3b1e2c913520699358c13 Merge tag 'nfs-for-5.20-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============3841597549532605237==--
+--===============0895292510085572776==--
