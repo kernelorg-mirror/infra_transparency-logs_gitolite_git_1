@@ -1,19 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Aug 2022 05:36:28 -0000
-Message-Id: <166019618869.17817.12378614016145031339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 11 Aug 2022 05:50:42 -0000
+Message-Id: <166019704282.27329.516170264162082605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: fbe8870f72e8e71bb57b883d29c600aaaca6cd20
-    new: 8bcfb4ae4d970b9a9724ddfbac26c387934e0e94
+  - ref: refs/heads/for-linus
+    old: 6b2394bad503bfada6f677ad2574b2ef8178b1bf
+    new: 636aa8807b5780b76609b40cd3d3e1b5a225471c
     log: |
-         8bcfb4ae4d970b9a9724ddfbac26c387934e0e94 selftests: forwarding: Fix failing tests with old libnet
+         74bba640d69914cf832b87f6bbb700e5ba430672 ALSA: hda/cirrus - support for iMac 12,1 model
+         636aa8807b5780b76609b40cd3d3e1b5a225471c ALSA: hda: Fix crash due to jack poll in suspend
+         
+  - ref: refs/heads/for-next
+    old: 6b2394bad503bfada6f677ad2574b2ef8178b1bf
+    new: 636aa8807b5780b76609b40cd3d3e1b5a225471c
+    log: |
+         74bba640d69914cf832b87f6bbb700e5ba430672 ALSA: hda/cirrus - support for iMac 12,1 model
+         636aa8807b5780b76609b40cd3d3e1b5a225471c ALSA: hda: Fix crash due to jack poll in suspend
+         
+  - ref: refs/heads/master
+    old: d39cf068c85b23aa923016ea2bc3fae9eb5048bb
+    new: cbe554005b46a25a6f2d76cb05ef4a55420940b1
+    log: |
+         74bba640d69914cf832b87f6bbb700e5ba430672 ALSA: hda/cirrus - support for iMac 12,1 model
+         636aa8807b5780b76609b40cd3d3e1b5a225471c ALSA: hda: Fix crash due to jack poll in suspend
+         cbe554005b46a25a6f2d76cb05ef4a55420940b1 Merge branch 'for-linus'
          
