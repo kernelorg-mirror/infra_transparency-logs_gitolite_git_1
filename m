@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 11 Aug 2022 20:19:58 -0000
-Message-Id: <166024919868.21037.5999578305724201002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 11 Aug 2022 20:24:29 -0000
+Message-Id: <166024946989.24149.6216696505251756122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/iversion
-    old: 12682765d1a7ba49ea62e63bd5c522cf6cc07e83
-    new: 77c0f9d86a3fe04461837b73b61bde628b61e438
+  - ref: refs/heads/for-next
+    old: da6d2128e56a50a0d497c8e41ca1d33d88bcc0aa
+    new: e4aa991c05aedc3ead92d1352af86db74090dc3c
     log: |
-         89eeae486ea17f66b76788c251103419242d4485 ext4: don't bump the i_version in ext4_mark_iloc_dirty
-         77c0f9d86a3fe04461837b73b61bde628b61e438 xfs: fix i_version handling in xfs
+         e4aa991c05aedc3ead92d1352af86db74090dc3c RISC-V: cpu_ops_spinwait.c should include head.h
          
