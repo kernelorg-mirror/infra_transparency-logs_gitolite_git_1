@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Aug 2022 06:01:49 -0000
-Message-Id: <166019770974.3258.6938242147025675074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 11 Aug 2022 06:18:49 -0000
+Message-Id: <166019872995.13678.1655234595128213435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8bcfb4ae4d970b9a9724ddfbac26c387934e0e94
-    new: 94ce3b64c62d4b628cf85cd0d9a370aca8f7e43a
+    old: 0dc2dd2cb4add7cd6075249c4067b4a7f5af8e7f
+    new: 4166496e1b5ade307cc0dfbadb4e6a56e80c852f
     log: |
-         9ad36309e2719a884f946678e0296be10f0bb4c1 net_sched: cls_route: remove from list when handle is 0
-         86b259f6f8880237899fbf4f940303b3987dffa9 tls: rx: device: bound the frag walk
-         d800a7b3577bfb783481b02865d8775a760212a7 tls: rx: device: don't try to copy too much on detach
-         94ce3b64c62d4b628cf85cd0d9a370aca8f7e43a net/tls: Use RCU API to access tls_ctx->netdev
+         221f9d9cdf429df8c3843b4291f4f412fde11543 posix-timers: Make do_clock_gettime() static
+         e6cfcdda8cbe81eaf821c897369a65fec987b404 x86/bugs: Enable STIBP for IBPB mitigated RETBleed
+         46dae32fe625a75f549c3a70edc77b778197bb05 time: Correct the prototype of ns_to_kernel_old_timeval and ns_to_timespec64
+         e362359ace6f87c201531872486ff295df306d13 posix-cpu-timers: Cleanup CPU timers before freeing them during exec
+         66d0661176ec26f8fd732ce3e72b9f37caef3f11 Merge branch into tip/master: 'timers/urgent'
+         abbb9c7f4a737bf69e3e1daf3eab442115f86198 Merge branch into tip/master: 'x86/urgent'
+         4166496e1b5ade307cc0dfbadb4e6a56e80c852f Merge branch into tip/master: 'WIP/fixes'
          
