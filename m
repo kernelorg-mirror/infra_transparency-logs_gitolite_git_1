@@ -1,33 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Thu, 11 Aug 2022 08:45:58 -0000
-Message-Id: <166020755838.19734.10934278417510980681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 11 Aug 2022 09:02:32 -0000
+Message-Id: <166020855233.31324.18075757454005802973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/linux-next
-    old: fc1f203c916b2a44bad183188fbaf901ccd21797
-    new: 5b239afaa12fe74e15a5d646e9ebefc7bb03e849
+  - ref: refs/heads/master
+    old: 33610d98883bca7ede862289c33f6f05ebbbe208
+    new: adc72421f4db93bc9cd932bac2b0be8197a1d64f
     log: |
-         b91cf6e95b4f987d0d26def0c9cca3168d7752cb vdpa_sim_blk: check if sector is 0 for commands other than read or write
-         ac926e1b468e03818e31568f6e520390b945b038 vdpa_sim_blk: make vdpasim_blk_check_range usable by other requests
-         518083d2f5b2e7c91549ac1723923e8ae3d679ca vdpa_sim_blk: add support for VIRTIO_BLK_T_FLUSH
-         4a44a5eda245453ed7bd14239c596262cb53b665 vdpa_sim_blk: add support for discard and write-zeroes
-         5b239afaa12fe74e15a5d646e9ebefc7bb03e849 Bluetooth: virtio_bt: fix device removal
-         
-  - ref: refs/heads/vhost
-    old: fc1f203c916b2a44bad183188fbaf901ccd21797
-    new: 5b239afaa12fe74e15a5d646e9ebefc7bb03e849
-    log: |
-         b91cf6e95b4f987d0d26def0c9cca3168d7752cb vdpa_sim_blk: check if sector is 0 for commands other than read or write
-         ac926e1b468e03818e31568f6e520390b945b038 vdpa_sim_blk: make vdpasim_blk_check_range usable by other requests
-         518083d2f5b2e7c91549ac1723923e8ae3d679ca vdpa_sim_blk: add support for VIRTIO_BLK_T_FLUSH
-         4a44a5eda245453ed7bd14239c596262cb53b665 vdpa_sim_blk: add support for discard and write-zeroes
-         5b239afaa12fe74e15a5d646e9ebefc7bb03e849 Bluetooth: virtio_bt: fix device removal
+         fbb894b2d447f088b13b69f18837ee53452422ab tests: (mkfds) use getpagesize()
+         c2ece66e6a7078edc11afd4f1a1a08de656564ee lib/procfs: add function to parse /proc/#/stat
+         adc72421f4db93bc9cd932bac2b0be8197a1d64f taskset: warn if affinity is not settable
          
