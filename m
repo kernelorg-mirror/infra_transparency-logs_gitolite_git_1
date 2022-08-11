@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6802587503928170015=="
+Content-Type: multipart/mixed; boundary="===============3841641847864682661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 11 Aug 2022 14:14:01 -0000
-Message-Id: <166022724199.20107.14218364840412956361@gitolite.kernel.org>
+Date: Thu, 11 Aug 2022 14:16:18 -0000
+Message-Id: <166022737824.22647.16949304081820295699@gitolite.kernel.org>
 
---===============6802587503928170015==
+--===============3841641847864682661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,189 +16,226 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 1f8cc6642f549072e0aec069872afb839b8ed3af
-    new: 3623698c2886f852784c48683401bebe821a0516
-    log: revlist-1f8cc6642f54-3623698c2886.txt
+    old: 3623698c2886f852784c48683401bebe821a0516
+    new: 57c9ceb404242fe8ff9fa8cf83731b9f738d31b9
+    log: revlist-3623698c2886-57c9ceb40424.txt
   - ref: refs/heads/queue/4.19
-    old: a26f315e001fe851155ab22daf5066b124c823af
-    new: 534511e116db68ea870e0185644954a93b33536d
+    old: 534511e116db68ea870e0185644954a93b33536d
+    new: 6bb38a9fc42a8c9296999b1aefbcfae92361523d
     log: |
-         c30a06651285ae50175fd43c50d10b83ba4fad60 Makefile: link with -z noexecstack --no-warn-rwx-segments
-         f74406fc7fea7affcc9c5a3ea153f5305036f3ef x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-         aca3d8863bc940231af37343ca51449e9471746a ALSA: bcd2000: Fix a UAF bug on the error path of probing
-         33e8a17abec1828a1b6361920e9448c734adadf2 wifi: mac80211_hwsim: fix race condition in pending packet
-         75bf212a4be353606f1fc6d1bbb1db054d266d16 wifi: mac80211_hwsim: add back erroneously removed cast
-         534511e116db68ea870e0185644954a93b33536d wifi: mac80211_hwsim: use 32-bit skb cookie
+         b889adc3dcf8f8dca0f879dc1219c65eecdc605f Makefile: link with -z noexecstack --no-warn-rwx-segments
+         d1aea897e0135b3e6a4e2b9cbe087ebd1a95cef3 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+         a456abf89957efbdf3b765e3f6993a5850b94afc ALSA: bcd2000: Fix a UAF bug on the error path of probing
+         d5b21c23327e36fc264ff971744dfee7cd0feaad wifi: mac80211_hwsim: fix race condition in pending packet
+         bd2a275505e53b39b6e97889cf2ea11353e1125a wifi: mac80211_hwsim: add back erroneously removed cast
+         475e9a4d6fde937063a0f3dfb7a35a6995cb202a wifi: mac80211_hwsim: use 32-bit skb cookie
+         dafd9f04a5c9912553bf720864f5ea7bac66d8dc add barriers to buffer_uptodate and set_buffer_uptodate
+         6bb38a9fc42a8c9296999b1aefbcfae92361523d HID: wacom: Don't register pad_input for touch switch
          
   - ref: refs/heads/queue/4.9
-    old: ae26f93c90ca9f5617a13c50f1d1c57f1018ba20
-    new: 1dac330486d75ca2e011bfaedcb68f119bf562da
-    log: revlist-ae26f93c90ca-1dac330486d7.txt
+    old: 1dac330486d75ca2e011bfaedcb68f119bf562da
+    new: db74e8d6fe926640b4741d0107df5b005afb3008
+    log: revlist-1dac330486d7-db74e8d6fe92.txt
   - ref: refs/heads/queue/5.10
-    old: 52ee4a93c9597ad1bd482271b5c6dcac30460bfc
-    new: 943e152758240b25f5616a58e15e00b7a093652d
-    log: |
-         20f9543ffe6f426a76319815e1aac1328355f656 Makefile: link with -z noexecstack --no-warn-rwx-segments
-         1efcba1ab1797684ab036f03ddf151a0420207b3 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-         353e4d209c3fb5f77b91880eb477f0658830d95f Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-         8a1c2507f120d914cd12fa19db1c7b5316b4e806 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-         519888ce0a397778a14ce60dfc621d2a895c0b68 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-         98d01b34d190ff8fe8fca5d6de035a815285c2f8 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-         9d2de0e2b68d29e6aa1b345056a5c80cf6ab1593 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-         612e949e7c2b631d9e31590cc5dfa9797a28132d wifi: mac80211_hwsim: fix race condition in pending packet
-         df5ecca62ace5634d0e87e0b0969fc65735e9cc0 wifi: mac80211_hwsim: add back erroneously removed cast
-         943e152758240b25f5616a58e15e00b7a093652d wifi: mac80211_hwsim: use 32-bit skb cookie
-         
+    old: 943e152758240b25f5616a58e15e00b7a093652d
+    new: 318a33fd065b144d58923b3ccf9a9e28e2b639e6
+    log: revlist-943e15275824-318a33fd065b.txt
   - ref: refs/heads/queue/5.15
-    old: 6ead7555a34ea71978d6adae97d88649944366c6
-    new: da6b87c7b2feb39b47d7b9498e3d8102d61aa350
-    log: revlist-6ead7555a34e-da6b87c7b2fe.txt
+    old: da6b87c7b2feb39b47d7b9498e3d8102d61aa350
+    new: 530fdb4b7da613398d67b7649f63f897aed18648
+    log: revlist-da6b87c7b2fe-530fdb4b7da6.txt
   - ref: refs/heads/queue/5.18
-    old: 46f9467c5802d437a48f2edb20d760d296dfd394
-    new: 54bb5d78d1e6e725e09f30ca2563821606725d50
-    log: revlist-46f9467c5802-54bb5d78d1e6.txt
+    old: 54bb5d78d1e6e725e09f30ca2563821606725d50
+    new: 087b66c44a61dd7da16df7bf84638aa78401c1d5
+    log: revlist-54bb5d78d1e6-087b66c44a61.txt
   - ref: refs/heads/queue/5.19
-    old: 4c77a7fdc96c68689412920ff0cbf8acd7533e90
-    new: a01e8a4c2c01816549dd1f6f3a0e7fc0128284e4
-    log: revlist-4c77a7fdc96c-a01e8a4c2c01.txt
+    old: a01e8a4c2c01816549dd1f6f3a0e7fc0128284e4
+    new: e5ce4754e8465acaaee035c76234c062f8664723
+    log: revlist-a01e8a4c2c01-e5ce4754e846.txt
   - ref: refs/heads/queue/5.4
-    old: 94d7371f09b76ee6a5f3d575a5db461f80c15484
-    new: 573fbdb89cc8f89bb57770ba37c294466fec9eb8
-    log: |
-         a8bab2c1bb7cb2ae79a6140cf68ec6889292726e Makefile: link with -z noexecstack --no-warn-rwx-segments
-         3522a77c72f6f366034549d47b5cebbf9ef94b22 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-         7e3f8e8bccf62376602e206e7ce795d88e07c4bf scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-         735d10e7e1f8b88b74c1a83c937d11f79289fcc0 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-         202072fbbc81b87fb9a2ff392a2bb6598beaeecc igc: Remove _I_PHY_ID checking
-         b837466e2471ff60f050a924d577c873b2c0b1f2 wifi: mac80211_hwsim: fix race condition in pending packet
-         11a580ef69c4d61f8586862c0f71e456385ffa5f wifi: mac80211_hwsim: add back erroneously removed cast
-         573fbdb89cc8f89bb57770ba37c294466fec9eb8 wifi: mac80211_hwsim: use 32-bit skb cookie
-         
+    old: 573fbdb89cc8f89bb57770ba37c294466fec9eb8
+    new: 71e2d77c5d851d049acf02f031a27bb0be8b6a0f
+    log: revlist-573fbdb89cc8-71e2d77c5d85.txt
 
---===============6802587503928170015==
+--===============3841641847864682661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f8cc6642f54-3623698c2886.txt
+Content-Disposition: attachment; filename=revlist-3623698c2886-57c9ceb40424.txt
 
-89492258a7ca3d043371779270c8fad75d1c1800 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-084b7440afde8fd6bdf13056fcae2263648ef84c ntfs: fix use-after-free in ntfs_ucsncmp()
-8503e171c3dcacee8e71b81c7df2bdc4a384ff48 s390/archrandom: prevent CPACF trng invocations in interrupt context
-6226020efb35c73afcdd7e3dc25ba0de79e5888a scsi: ufs: host: Hold reference returned by of_parse_phandle()
-60b8271e51701beafddf5a65b1f12cf83d31c4ea net: ping6: Fix memleak in ipv6_renew_options().
-1ddd51c4b53d59a912c7f921cb2ed30c191d7459 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-b1febe9cc0020df9ff42bcc13eac85e4d3fdd5b4 netfilter: nf_queue: do not allow packet truncation below transport header offset
-0aa8a87827f21a5998c353419ac0e43575b3d6c4 ARM: crypto: comment out gcc warning that breaks clang builds
-4e0d9467bf491c62c1d1c7c355b9d437c2ff7bb4 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-181997c2646221afba5eaf737997c5d51ed9f9d2 ACPI: video: Force backlight native for some TongFang devices
-29ac051b557b03f6e19bab9ff02427d19ac7ff70 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-e9df1c315954ea08d5d2d7aa2f79bfd5084aba22 macintosh/adb: fix oob read in do_adb_query() function
-a2e11c9dde637c718c7214bbc52ea6ff9ff4dd99 Makefile: link with -z noexecstack --no-warn-rwx-segments
-35cc78c829b41164386deef73279810e69d5032c x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-04973a1a23076e8b91c2d07abc9823ccab248466 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-209f917e77227cc1e4419846255e9efe3c278f25 add barriers to buffer_uptodate and set_buffer_uptodate
-3623698c2886f852784c48683401bebe821a0516 HID: wacom: Don't register pad_input for touch switch
+1f185bea2ddb29082bde53683d69a78b10ef3371 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+6c1fea776b0c1b1eefb7ba383085341ff46a12a5 ntfs: fix use-after-free in ntfs_ucsncmp()
+94b0746b4f9ccc164ca3aeb5d3963dd0516e5b09 s390/archrandom: prevent CPACF trng invocations in interrupt context
+743a58baa573fc5cacd0aea01d0bdf5bf17687e6 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+fd369a1ff42b658831d248ac8ae17c368bcdab2c net: ping6: Fix memleak in ipv6_renew_options().
+a9c22a1e78ff0cf85785e07d90d9c28d021a7cc5 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+2c86e082ae176462aa59e137d3ea11a9878937f4 netfilter: nf_queue: do not allow packet truncation below transport header offset
+7eee5f00406fe7a8713440f7c820df3c4287fe22 ARM: crypto: comment out gcc warning that breaks clang builds
+761ab1d8bf70c8b2cc51f8d28fab6ff3f2adec80 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+5f70b4736172224e61256535e524d31c9fc9c8be ACPI: video: Force backlight native for some TongFang devices
+ed7852ecdf2594a6418e8d496499153342a1f124 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+a804b7b2d1454d728794c9db39b2b959edc80cd3 macintosh/adb: fix oob read in do_adb_query() function
+392d17abea0ec0ad2e4899910521f05178ed5134 Makefile: link with -z noexecstack --no-warn-rwx-segments
+0901f8980e74a226c5b87527aa9183ba140e8a60 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+2a57e5662a8ed815ca3340599f814d53763c01dd ALSA: bcd2000: Fix a UAF bug on the error path of probing
+1bcc456700d6da029286e719798c6545d0bd0eb8 add barriers to buffer_uptodate and set_buffer_uptodate
+57c9ceb404242fe8ff9fa8cf83731b9f738d31b9 HID: wacom: Don't register pad_input for touch switch
 
---===============6802587503928170015==
+--===============3841641847864682661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae26f93c90ca-1dac330486d7.txt
+Content-Disposition: attachment; filename=revlist-1dac330486d7-db74e8d6fe92.txt
 
-91dee94e73ef1f2f78834d955cba8a96fadbe7c0 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-86a7f0e67a34c1f23432d5fdfa6047313224b32d ntfs: fix use-after-free in ntfs_ucsncmp()
-0f997e0cd0e27f5fa802cc9ea02258b75b218a90 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-fca45b1c11adade56605ba4fa3b7069fc4e763b2 net: ping6: Fix memleak in ipv6_renew_options().
-36de5997251e04575f5aaa7e39a489642201ec18 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-abaa5f5112ba3b3c6a989782882441f6918da25a netfilter: nf_queue: do not allow packet truncation below transport header offset
-57aa7bccd494fae264d0b7f53633b1b5ef173115 ARM: crypto: comment out gcc warning that breaks clang builds
-31012bfa2b8db7756b245529bb7c2261df503a2e mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-dd2eca08fa1ed5fec6ce4a79bf80fb63926d929a ion: Make user_ion_handle_put_nolock() a void function
-bea736c50aa0ac20816a6a3df8c926da620c43f1 selinux: Minor cleanups
-3784d03d8850c414e9b6c4a1cb15d0351c6ec00d proc: Pass file mode to proc_pid_make_inode
-0c2c86ed96abc1788d87742a1dc97e01cf138cea selinux: Clean up initialization of isec->sclass
-1518273240aadc7b733b127518a5c3b1c1ede582 selinux: Convert isec->lock into a spinlock
-7c3d956fad6dcb2d95f52a61bfe70f22ba9ec157 selinux: fix error initialization in inode_doinit_with_dentry()
-417a7a07c3c935868faab6488d5e7225baf84474 selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
-3f2c6e0098930236e5545b61190f52c66e58c308 include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
-18fae15a054c4da96b7ff89f3f01de5d8aa74b89 init/main: Fix double "the" in comment
-65935144379e3aff33f609af2327f45fbef8d8bb init/main: properly align the multi-line comment
-680b23113489f0cbbed42069fcd9447b1a2d0efd init: move stack canary initialization after setup_arch
-4592069341d241406e936d46bcf2ef7bbeed223a init/main.c: extract early boot entropy from the passed cmdline
-a10aebc43337e234698a28f4f17a951ee4981d15 ACPI: video: Force backlight native for some TongFang devices
-fcbda133a6ae4f835b80ba6cf5ca979782963b7f ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-f8ff2f9853993b2f30777ecbdbd893c80e6fa7f5 random: only call boot_init_stack_canary() once
-b3bac9352615f0235a4ff8a21b9d0ffd517206c4 macintosh/adb: fix oob read in do_adb_query() function
-3f388780be19b500a8a5490b66e9939e2cfb38a0 Makefile: link with -z noexecstack --no-warn-rwx-segments
-93b797aaf090cf7df8f3f98c1e61ae6f9a3aa8e1 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-0b44740ec89ca214192a3ebd681932604f757ba1 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-1dac330486d75ca2e011bfaedcb68f119bf562da add barriers to buffer_uptodate and set_buffer_uptodate
+ba94578f9f152268121c9decb77effe2e23cac08 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+522974ce2ca9ee76336a0659ef28daa14c1b2e92 ntfs: fix use-after-free in ntfs_ucsncmp()
+0c4ec5363d6ac45b7bfb817f4ed9dd8363606b52 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+6a08bb08d12fa3c3d89a11d95b5c9ae2ff36eac6 net: ping6: Fix memleak in ipv6_renew_options().
+da9ea1fa29f85b01d9150615c1503914fb948deb net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+b9f0eb75d840f42fc4fbdf6cc5bb9f8e72aa15b1 netfilter: nf_queue: do not allow packet truncation below transport header offset
+52d6109d4d03ba85c580890f575cb17fa04cd5b3 ARM: crypto: comment out gcc warning that breaks clang builds
+302b2767c8e8c3b248f4bf4573731f247ac6bd5a mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+2a2aa38838b8ef43c9eb68d01b45561dc8565fac ion: Make user_ion_handle_put_nolock() a void function
+855229d5fc574f86c6e64bfbe8ade3478659a6a9 selinux: Minor cleanups
+83d3c7e53c2d8cf564cd20783028b18b3f625de1 proc: Pass file mode to proc_pid_make_inode
+8695ef012fae7e641bafa13a3fb0e82e707fa8fd selinux: Clean up initialization of isec->sclass
+3f2bb3d41e8ea9707c1d71691e4b48092de87e0a selinux: Convert isec->lock into a spinlock
+4f61a26ae02fd692a1ac9a84cbbbe0c675a782f4 selinux: fix error initialization in inode_doinit_with_dentry()
+71f0aac7d4026ea8ae58f8bd31706d8cd0453130 selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
+a43e8b90ce33eb43f02b5df931b82a87473dd706 include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
+845554e144773e380544e789471c05bc2b4bec8b init/main: Fix double "the" in comment
+6f98e1411f4db46e5a7c40994985d9315aabd460 init/main: properly align the multi-line comment
+f49acab1b180dbf64678701db657a3d0b17cf068 init: move stack canary initialization after setup_arch
+fde445695d318a0e22723c870e9e8253b39197af init/main.c: extract early boot entropy from the passed cmdline
+d4d938b7c2d47db1cc27f638a525609abe8f1e33 ACPI: video: Force backlight native for some TongFang devices
+c992beee610e2c9e2d85faf0b5dcfdbff42eb51d ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+a7239885c027c7be98be393a28180c5ecd1c3759 random: only call boot_init_stack_canary() once
+da4c7578651cbbaec38e315b01d4783814e6ce6d macintosh/adb: fix oob read in do_adb_query() function
+fd542375314da691ada8967522f23d8eb96d669a Makefile: link with -z noexecstack --no-warn-rwx-segments
+f4cd916abb85a991aa37157772556028de66a175 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+826655c787fc8d92c36cbd69605ed4a39a7fc98e ALSA: bcd2000: Fix a UAF bug on the error path of probing
+db74e8d6fe926640b4741d0107df5b005afb3008 add barriers to buffer_uptodate and set_buffer_uptodate
 
---===============6802587503928170015==
+--===============3841641847864682661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ead7555a34e-da6b87c7b2fe.txt
+Content-Disposition: attachment; filename=revlist-943e15275824-318a33fd065b.txt
 
-d1152cb828e50dfeb63cff8dd81de5548576862c Makefile: link with -z noexecstack --no-warn-rwx-segments
-3db87033f7f1216d5313ce9de199c4951bcda0a6 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-524bb8bb42c59ebc1153a8750e4b12b2d62394be Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-4f859359d3f9d677eb4ccc19ef4f63a763c00ac4 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-3a82eab699d19ae4e247a194f765d91801d94964 pNFS/flexfiles: Report RDMA connection errors to the server
-dbe03fd0b72cb03fa45f4036cc9080becd3621e4 NFSD: Clean up the show_nf_flags() macro
-06ca261056aa465f52ceba2ea1b84750f38886ff nfsd: eliminate the NFSD_FILE_BREAK_* flags
-27de60f3e7204c160ef2218bd05644455ad77030 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-08137c5e03ea5c177086614b8f0087a1c704f6c8 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-1ad88864067df454dd39f5499e0f260b42ca15d9 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-bacf6fd1317b622bc60e5c03e0e44abb716ae25a ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-0ea0055bdb60212624c680c69d70f115a3366be8 wifi: mac80211_hwsim: fix race condition in pending packet
-6d45c50df2836ee5b27debfddd929dbc35b210c6 wifi: mac80211_hwsim: add back erroneously removed cast
-da6b87c7b2feb39b47d7b9498e3d8102d61aa350 wifi: mac80211_hwsim: use 32-bit skb cookie
+019dc4644cac83e75706d2b287b131f90c859786 Makefile: link with -z noexecstack --no-warn-rwx-segments
+9be7688da9b777f5e8ecea124875f5a87aa51022 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+f50e92375051a69304ef118ef80dc8c10e19b56d Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+341eefec644a623e83d91a2621ccc6e5e8d328bd scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+22a277a674101d6d22dbf56ea98f80a3fcbfcd2a ALSA: bcd2000: Fix a UAF bug on the error path of probing
+efb61bb5a89f77f97a2cbe11b68a1d09411a9263 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+b16a85bc54eebc7134f1d60170056317051ad6c6 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+f08a86174fa684eee81491d6c00d7e94faa2f998 wifi: mac80211_hwsim: fix race condition in pending packet
+475b568707b9180aaca59d557c8f3c88f290bbc9 wifi: mac80211_hwsim: add back erroneously removed cast
+7424df1ad5f1a51d708af3c22f2649e8d72e7572 wifi: mac80211_hwsim: use 32-bit skb cookie
+10157770d6b7dba02a1c591b5b30557e19954e9a add barriers to buffer_uptodate and set_buffer_uptodate
+d70c85a32b70f3061bb6e562fd8e9faae2317c27 HID: wacom: Only report rotation for art pen
+318a33fd065b144d58923b3ccf9a9e28e2b639e6 HID: wacom: Don't register pad_input for touch switch
 
---===============6802587503928170015==
+--===============3841641847864682661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46f9467c5802-54bb5d78d1e6.txt
+Content-Disposition: attachment; filename=revlist-da6b87c7b2fe-530fdb4b7da6.txt
 
-3e2e7cbb96161cfd08f850c36bfd4beff873d1b3 Makefile: link with -z noexecstack --no-warn-rwx-segments
-ed502d1c42821f5fef1d73e6713fc35e22be87d4 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-8585b3d7c9db26df18093bb852078d55f87650c2 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-2ca1f16e5e13dc6e39095e56589be5af0d3d9e56 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-33bf56a94dddc16aefd0e079cfc3301134f191b7 pNFS/flexfiles: Report RDMA connection errors to the server
-784a868270107b707126beb5165cf17a3dfefd51 NFSD: Clean up the show_nf_flags() macro
-009b6c36bb3904b954af0e6a536b386b4d7aa97f nfsd: eliminate the NFSD_FILE_BREAK_* flags
-08920e29d6166fc69af0a59b34d9a198fed56118 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-0c9ae19f8a402a0c269766e0e3fd6c2222967a75 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-7d83e826ef0a7978c4c99e92f2121168e04901e2 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-6e8847ea7448231703ed4c9e9c295a8c7659359d ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-b1f6f676f46049278f0ac8bdbf6abe652a1cc17f ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
-d2648f8311335f1f26346b40e604c7e9388cbdde ASoC: amd: yc: Update DMI table entries
-d66d1a9d3e81e3115296a1a1e9030169056fa198 wifi: mac80211_hwsim: fix race condition in pending packet
-0bf914866bd08d7dcfb2d2c80746c681705c239f wifi: mac80211_hwsim: add back erroneously removed cast
-54bb5d78d1e6e725e09f30ca2563821606725d50 wifi: mac80211_hwsim: use 32-bit skb cookie
+0052bb4e4886ad04730a6a7c2512a0bbdad33f2b Makefile: link with -z noexecstack --no-warn-rwx-segments
+78c97e5549f6429679a6f4bdbd02b60fc2de0e8e x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+286568fde61dede4e789945c418cc9d8b80e4e6d Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+20e287da426a3556777305a8caaac63e785bfc28 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+6b99859e5cdf903c824a57336cacd593ab55848e pNFS/flexfiles: Report RDMA connection errors to the server
+a519d4e5eccd1bd580b137f250b82af7e54ab06a NFSD: Clean up the show_nf_flags() macro
+7202c6b06ec20b7f106286d7261a70d0d3454796 nfsd: eliminate the NFSD_FILE_BREAK_* flags
+ff67a2cfa7f3551c957e3981b975b084bfc44976 ALSA: usb-audio: Add quirk for Behringer UMC202HD
+dd7b228bcb20c9ec846754e50e6092cf1d7a966e ALSA: bcd2000: Fix a UAF bug on the error path of probing
+6ee2c6b1c29c4050d39e185e644e0d5785263642 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+7754fee7d61b54167ac01d3a87e8df12a13afc6b ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+744ec9eff419b5d6f72a99509fe8566ded83350e wifi: mac80211_hwsim: fix race condition in pending packet
+8c12787a89a570dc9ddfb6e2ae422fa871e62d17 wifi: mac80211_hwsim: add back erroneously removed cast
+679cce5b70857cda16688a7583a105a981bc25fa wifi: mac80211_hwsim: use 32-bit skb cookie
+35841cd5c093d96e745c21abd6f5b1e5c58fa433 add barriers to buffer_uptodate and set_buffer_uptodate
+a0117cfa4fcd3bdfab4e8b2e4e22aa3a908b62e0 lockd: detect and reject lock arguments that overflow
+6dcaf28b074cc8351f8b1f2af7e9611725818380 HID: hid-input: add Surface Go battery quirk
+7cf07be29566af7c107f770d4d31b28a329937f2 HID: wacom: Only report rotation for art pen
+530fdb4b7da613398d67b7649f63f897aed18648 HID: wacom: Don't register pad_input for touch switch
 
---===============6802587503928170015==
+--===============3841641847864682661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c77a7fdc96c-a01e8a4c2c01.txt
+Content-Disposition: attachment; filename=revlist-54bb5d78d1e6-087b66c44a61.txt
 
-dd0284b67c9bec2a477ffc0c6784676def8794e4 Makefile: link with -z noexecstack --no-warn-rwx-segments
-8f59143ef7f9a2f94ba6a29d4e885c24ded27879 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-c8b3b90da4b20cc5f4bc7f9e7cfdde5730d569c3 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-b022403ddfdf79ec558c9d11c96854e3a0d3dea2 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-b1c9267eccf21c23c757d9902cf0a5f96368b000 pNFS/flexfiles: Report RDMA connection errors to the server
-f776e501fec4ca094cdb42d4c0dfd6f34044c995 nfsd: eliminate the NFSD_FILE_BREAK_* flags
-661e4066c1c002ffb9f13452bf4063e1389f2bc2 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-1ee40e36988053f69461de305186d3b915eaa515 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-a4b54a05b7829116385899747bb23c05a1229235 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-2e837effe342cd078fe10f81abd536971569db44 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-13fae934f3f0de8fc266f894223e341e16aaab27 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
-6915e82b453d336d9fba4fb04d43f05409ad144a ASoC: amd: yc: Update DMI table entries
-80a8387d12d8086af4cc02f4cc24065b5ea13e1c hwmon: (nct6775) Fix platform driver suspend regression
-3faac9ed9127797d673a99bf3af725d4b3861d57 wifi: mac80211_hwsim: fix race condition in pending packet
-d067f06e8a76f635f257a0cdcc7c1262ebb54c9a wifi: mac80211_hwsim: add back erroneously removed cast
-a01e8a4c2c01816549dd1f6f3a0e7fc0128284e4 wifi: mac80211_hwsim: use 32-bit skb cookie
+d903273b52e9dcf77eb485ff21c2b47d2e69c714 Makefile: link with -z noexecstack --no-warn-rwx-segments
+8b661a97bdf318a71b57294d41acbcf450bcc749 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+60c39c08e14e51eb4a28273cabf4d4468c6e58cb Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+e173c7e965ee5f44992e052d523fbc05ee03464d scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+ba24d66a9dbffd9b417d825dbd44090dbeafc4fb pNFS/flexfiles: Report RDMA connection errors to the server
+ceea274433032f16617881d891155c444ca49842 NFSD: Clean up the show_nf_flags() macro
+e20681859696662e25e00c08de10bf41a95e0b79 nfsd: eliminate the NFSD_FILE_BREAK_* flags
+25a074a64b4d24dc4ab99b2978af29b5d3742439 ALSA: usb-audio: Add quirk for Behringer UMC202HD
+68feab2e8aae1ad466e8106c9dadca347fed339a ALSA: bcd2000: Fix a UAF bug on the error path of probing
+0079c0820d8a05d53a2ea3ec6c2f98591786dd12 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+e57987e263421a54d75b11a74e048bf821b6065b ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+c1a48c902fbcfbc9772c30701c82ee916fdc526a ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
+2c81316ee70bef000920c0e79e1fa8aed762672a ASoC: amd: yc: Update DMI table entries
+767cfa6b98c7246be2a7ed2b887449681bf28ab6 wifi: mac80211_hwsim: fix race condition in pending packet
+52ce7b491e7a801c6413c5a80f7f6114d0f7e142 wifi: mac80211_hwsim: add back erroneously removed cast
+4c9f532cf3a76de2d805d92ee6f189566b6edeff wifi: mac80211_hwsim: use 32-bit skb cookie
+2aff9262993e6a2a0dd1a39aac3dd89aa85c12f4 add barriers to buffer_uptodate and set_buffer_uptodate
+86ec9ce365d244ad46de9404e145c4e2e88dc34e lockd: detect and reject lock arguments that overflow
+b5041ed62b58ed6c131b399953e941ca979278c1 HID: hid-input: add Surface Go battery quirk
+6bacb0fda6bfe0e1c0468e5b90d59bacf7155d55 HID: nintendo: Add missing array termination
+356d81dfd638495ebbbc8abd903ce285bd37bb5d HID: wacom: Only report rotation for art pen
+087b66c44a61dd7da16df7bf84638aa78401c1d5 HID: wacom: Don't register pad_input for touch switch
 
---===============6802587503928170015==--
+--===============3841641847864682661==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a01e8a4c2c01-e5ce4754e846.txt
+
+b2ee63ff01e97f45e7c87eace574415c47e1ddb7 Makefile: link with -z noexecstack --no-warn-rwx-segments
+715dbff5c2032799fb53d3abe30baf99dd28ea59 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+506b6679958ab07a7665b070285c78d1d6933e55 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+fb747b7b2aa9a9770c5987028b8776735724763f scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+8a1f11ba78215e58b5ad021c7d5fc1b92b92895c pNFS/flexfiles: Report RDMA connection errors to the server
+76013dcfa69aabcdf2ab36f1d50bcf6332c3fafd nfsd: eliminate the NFSD_FILE_BREAK_* flags
+33b128098d16c3acef4c36aaf93378a4ec8dff45 ALSA: usb-audio: Add quirk for Behringer UMC202HD
+1492f275154abc696cba19465325aea3336bae23 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+a7bf18526e8fa3d7135a4d5bb50239529c14f2a3 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+ec38c6bb68b9c093543ab9ee19ce1aa7fe0e384b ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+99bb1dd0211776ea9e54f6ccfc535b53d7a6c3a8 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
+e07616b562b1be3644da89e506a83bc2a28b44fe ASoC: amd: yc: Update DMI table entries
+ff73c42d1507ccafb9fb20ad369cc73c33e9e8f6 hwmon: (nct6775) Fix platform driver suspend regression
+fce4294f4ba59a80ace760463dfe2ca279116969 wifi: mac80211_hwsim: fix race condition in pending packet
+71f64505604454d64758b4179294632f80dbb85e wifi: mac80211_hwsim: add back erroneously removed cast
+52d217bebcc112f0cc0b3e51c33c8783b4aa04c2 wifi: mac80211_hwsim: use 32-bit skb cookie
+08c9f207ca7d243199940fc3dcfd983ebc938758 add barriers to buffer_uptodate and set_buffer_uptodate
+78368eba20930180da7c2e4d86cac31fb1143b08 lockd: detect and reject lock arguments that overflow
+19e2b87b15ee230eda51b33afb7517d318b3dac7 HID: hid-input: add Surface Go battery quirk
+5d7d2630e5da310d340a2eeca41705f96b6d9978 HID: nintendo: Add missing array termination
+d0bc39a84a544427d0f4b43fbacbb2e3c357be7b HID: wacom: Only report rotation for art pen
+e5ce4754e8465acaaee035c76234c062f8664723 HID: wacom: Don't register pad_input for touch switch
+
+--===============3841641847864682661==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-573fbdb89cc8-71e2d77c5d85.txt
+
+0d0db0f360a37a10d86230887220ee3d84d13781 Makefile: link with -z noexecstack --no-warn-rwx-segments
+ec483770eedd1124cddccba63955b523c284933f x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+eae82841db8588064b5dd44c229ad33288a3cafa scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+9e327f7ba9d766735e51932b3f958c3dff00b3d0 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+cd96614d5cc02faf7348c2f9bb6886e5f3c2b30e igc: Remove _I_PHY_ID checking
+b4a502cb1d1e391b9d43747c0b4294f00da35fec wifi: mac80211_hwsim: fix race condition in pending packet
+18e29f456dbaa83b5c15f072d811620009a4ff1a wifi: mac80211_hwsim: add back erroneously removed cast
+e5493ad3a0b73a3cd41aab122bae9b944553e742 wifi: mac80211_hwsim: use 32-bit skb cookie
+9b48b504fb1a4181f92e7391a45e2a097436b97f add barriers to buffer_uptodate and set_buffer_uptodate
+a18073cd8ecb8e393f9e15cd64df3328c5308343 HID: wacom: Only report rotation for art pen
+71e2d77c5d851d049acf02f031a27bb0be8b6a0f HID: wacom: Don't register pad_input for touch switch
+
+--===============3841641847864682661==--
