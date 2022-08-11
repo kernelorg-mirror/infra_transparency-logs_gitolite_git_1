@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7216523648576541206=="
+Content-Type: multipart/mixed; boundary="===============9137421709116066158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 11 Aug 2022 16:04:31 -0000
-Message-Id: <166023387182.3241.6569014732244605510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 11 Aug 2022 16:04:39 -0000
+Message-Id: <166023387956.3339.17045204498494778752@gitolite.kernel.org>
 
---===============7216523648576541206==
+--===============9137421709116066158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 21f9c8a13bb2a0c24d9c6b86bc0896542a28c197
     log: revlist-4e23eeebb2e5-21f9c8a13bb2.txt
 
---===============7216523648576541206==
+--===============9137421709116066158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -978,4 +978,4 @@ aeb6e6ac18c73ec287b3b1e2c913520699358c13 Merge tag 'nfs-for-5.20-1' of git://git
 ffcf9c5700e49c0aee42dcba9a12ba21338e8136 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
 21f9c8a13bb2a0c24d9c6b86bc0896542a28c197 Revert "Makefile.extrawarn: re-enable -Wformat for clang"
 
---===============7216523648576541206==--
+--===============9137421709116066158==--
