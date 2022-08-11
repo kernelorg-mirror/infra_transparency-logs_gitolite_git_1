@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 11 Aug 2022 21:49:49 -0000
-Message-Id: <166025458926.20466.10807963790424888461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
+Date: Thu, 11 Aug 2022 21:57:18 -0000
+Message-Id: <166025503848.27458.3451043274404090931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/jkirsher/firmware
+user: jkirsher
 changes:
-  - ref: refs/heads/for-next
-    old: 3dbe5829408bc1586f75b4667ef60e5aab0209c7
-    new: 7ab52f75a9cf7fed7ba85802b986825dd72df641
+  - ref: refs/heads/master
+    old: e6185d5197fd1d8015f1c7663582158b9945c075
+    new: ad5ae82019480dc1feffb538c118397a40934e62
     log: |
-         bf952a290f7a9d818204b9b68e861655f8b15a65 RISC-V: Add SSTC extension CSR details
-         464b0187ff94fcc629fe7cd350e16a3b9e80ed9e RISC-V: Enable sstc extension parsing from DT
-         9f7a8ff6391fd5363363b8e5c8b1462a07922368 RISC-V: Prefer sstc extension if available
-         7ab52f75a9cf7fed7ba85802b986825dd72df641 RISC-V: Add Sstc extension support
+         e6857b6f9309bf1b32ec08255a6f4b4dc5716d6f amdgpu: Update Yellow Carp VCN firmware
+         4f8f67efcdea8b875de75293f57825b32846739b qca: Update firmware files for BT chip WCN6750.      This commit will update required firmware files for WCN6750.
+         89ec6198f13d1007563ff87aae5de209e993be07 Add amd-ucode README file
+         ad5ae82019480dc1feffb538c118397a40934e62 Merge branch 'main' of https://github.com/suraj714/BT-Upstream
          
