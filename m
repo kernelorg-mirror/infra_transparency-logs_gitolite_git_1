@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7961779056270975539=="
+Content-Type: multipart/mixed; boundary="===============7307047985855384444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 12 Aug 2022 20:35:55 -0000
-Message-Id: <166033655518.26020.8795075165432011053@gitolite.kernel.org>
+Date: Fri, 12 Aug 2022 20:36:08 -0000
+Message-Id: <166033656820.26181.17173827175923715091@gitolite.kernel.org>
 
---===============7961779056270975539==
+--===============7307047985855384444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,59 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f86d1fbbe7858884d6754534a0afbb74fc30bc26
-    new: 7ebfc85e2cd7b08f518b526173e9a33b56b3913b
-    log: revlist-f86d1fbbe785-7ebfc85e2cd7.txt
+  - ref: refs/heads/dev-queue
+    old: ae686257461247cfe33bcbfc62c9c084bc46d721
+    new: 66b92a3501fa44ec721fd4b334b14a67a50b360c
+    log: revlist-ae6862574612-66b92a3501fa.txt
 
---===============7961779056270975539==
+--===============7307047985855384444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f86d1fbbe785-7ebfc85e2cd7.txt
+Content-Disposition: attachment; filename=revlist-ae6862574612-66b92a3501fa.txt
 
-ccac11da679bc283a5fe3db694d9f4f40245a07e filemap: minor cleanup for filemap_write_and_wait_range
-d6e103a757fa7876e7ded76128d5dffe12402ab9 mm: memcontrol: do not miss MEMCG_MAX events for enforced allocations
-3b8e7f5c42d1aa44f71fd219717c80e34101361e selftests/vm: fix errno handling in mrelease_test
-ac3ced5fc12fb3d7268054485cbc36441c05cf24 selftests/vm: skip 128TBswitch on unsupported arch
-b717d6b93b54ec2a2a7d3bb7268d3ff847cc54c5 mm: compaction: include compound page count for scanning in pageblock isolation
-0f0b6931ff0d8de344392f5d470f88af64130709 mm: remove obsolete comment in do_fault_around()
-450d0e74d886c172ac2f72518b797a18ee8d1327 memblock,arm64: expand the static memblock memory table
-fef3e9066d19230f661048ca86937d954c12cd50 writeback: remove inode_to_wb_is_valid()
-c7e6f17b52e9486a9d997368819dfec032b550e2 zsmalloc: zs_malloc: return ERR_PTR on failure
-73b73bac90d97400e29e585c678c4d0ebfd2680d mm: vmpressure: don't count proactive reclaim in vmpressure
-188043c7f4f2bd662f2a55957d684fffa543e600 mm/damon/reclaim: fix potential memory leak in damon_reclaim_init()
-e408e695f5f1f60d784913afc45ff2c387a5aeb8 mm/shmem: support FS_IOC_[SG]ETFLAGS in tmpfs
-9b7a4039d6856f66521486da68c76838929039eb tools/vm/page_owner_sort.c: adjust the indent in is_need()
-4d8ff64097092701a5e5506d0d7f643d421e0432 mm: remove unneeded PageAnon check in restore_exclusive_pte()
-189cdcfeeff31a285313c5132b81ae0b998dcad5 mm/page_alloc: correct the wrong cpuset file path in comment
-6d97cf88ddde9c976d04b886b10b464ec8006c85 mm/mempolicy: remove unneeded out label
-3d5367a0426da61c7cb616cc85b6239467e261dd tools/testing/selftests/vm/hugetlb-madvise.c: silence uninitialized variable warning
-198729c9627a754b26aebdc8a26e559424c8f06c mm/cma_debug.c: align the name buffer length as struct cma
-360b420dbded8ad5b70a41de98e77354dd9e7d36 selftest/vm: uninitialized variable in main()
-2727cfe4072a35ce813e3708f74c135de7da8897 hugetlb_cgroup: fix wrong hugetlb cgroup numa stat
-914eedcb9ba0ff53c3380829a024b7cef16accfb userfaultfd: don't fail on unrecognized features
-873f64b791a2b43c246e78b7d9fdd64ce909685b mm/memcontrol.c: remove the redundant updating of stats_flush_threshold
-35fcd75af3edf035638e632bb49607cc8fc3cdf4 xfs: fail dax mount if reflink is enabled on a partition
-65974cb9107d9c6da18cefda22f84aeabc638b16 mm/gup.c: fix formatting in check_and_migrate_movable_page()
-68aaee147e597b495622b7c9038e5922c7c61f57 mm: memcontrol: fix potential oom_lock recursion deadlock
-76aefad628aae152207ee624a7981b9aa1a267d8 mm/mprotect: fix soft-dirty check in can_change_pte_writable()
-c942f5bd17b3a520710c6b80634be5c44aaa109e selftests: soft-dirty: add test for mprotect
-68deb82a7bfcf67c6491c2387215e038b525475f selftests: add soft-dirty into run_vmtests.sh
-f6c3e1ae0114cd0f5123cf38187d450c1b119e67 mm/hmm: add a test for cross device private faults
-bb077c3ffd5362a6d9e60574e1bcc83fe8e3fb27 mm: cleanup is_highmem()
-d00365175e092a3144ecbee3181f46682b5b5e97 hugetlbfs: use helper macro SZ_1{K,M}
-7ec3c362cfc4cf7aa8d29416c34d0dc0817cf9aa hugetlbfs: remove unneeded hugetlbfs_ops forward declaration
-990e52b17d048970cb9629f1d546542b2c256f3a hugetlbfs: remove unneeded header file
-445c809829dc164c5b1917c72e335bd294aa4dc8 hugetlbfs: cleanup some comments in inode.c
-116807634569bdb9defe1c01e442e76e4f432961 hugetlbfs: fix inaccurate comment in hugetlbfs_statfs()
-07252dfea2c7089bca68949710268cbbb0ce509e mm: use is_zone_movable_page() helper
-96f96763de26d6ee333d5b2446d1b04a4e6bc75b mm: memory-failure: convert to pr_fmt()
-1a44131d4f524e18d873bbe363598e39841001bf mm: Kconfig: fix typo
-0c12185728d602c27cd12a845249e7f37197f71f Revert "squashfs: provide backing_dev_info in order to disable read-ahead"
-db98b43086275350294f5c6f797249b714d6316d squashfs: always build "file direct" version of page actor
-8fc78b6fe24c36b151ac98d7546591ed92083d4f squashfs: implement readahead
-b09a7a036d2035b14636cd4c4c69518d73770f65 squashfs: support reading fragments in readahead call
 a10c9ede9913fd54be61bbb01884e647e83dfcae lib/lzo/lzo1x_compress.c: replace ternary operator with min() and min_t()
 591c32bddbe20ba0e172d9def3c7f22b9c926ad9 kernel/hung_task: fix address space of proc_dohung_task_timeout_secs
 fa7d574ba4f4f3f4f78d432c8545d9045daa89b1 bdi: remove enum wb_congested_state
@@ -1050,5 +1008,47 @@ e18a90427c4ef26e9208a8710b7d10eaf02bed48 Merge tag 'for-linus' of git://git.kern
 8745889a7fd04d14f461f6536c45f70cbaf3ee02 Merge tag 'iomap-6.0-merge-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 e091ba5cf82714c8691d978781696cd1fc2dec70 Merge tag 'acpi-5.20-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 7ebfc85e2cd7b08f518b526173e9a33b56b3913b Merge tag 'net-6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+bc8f62bc4109c30451318a148edb05ef1b2ae497 ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
+732e3f8754c7e371b0ff2b84e6e9a97494c3bb6f ice: Fix VSI rebuild WARN_ON check for VF
+d9fea46d4933e1067fd874b0877eae6c57e11e8b igc: add xdp frags support to ndo_xdp_xmit
+d4bfed6be7cbe87f2d2033d6570ac84956b1599b iavf: Fix adminq error handling
+1c13f10e2c16ed2243e1cd62f0921afe050f67c0 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+afcd8e1fe08da3f61653f4b96187404d5f742a4d iavf: Fix reset error handling
+e94394e41f0263c49ff7998a1229ff70533bb788 ixgbe: Manual AN-37 for troublesome link partners for X550 SFI
+bb30841c7c867cec6f77c18c1c7ef71df1939015 ice: Fix call trace with null VSI during VF reset
+4d996d2118969b06568dd0f8cc3b6013759f0245 i40e: Fix tunnel checksum offload with fragmented traffic
+b6441e8073f80dc760910ced57e39b5938f64f04 e1000e: Separate MTP board type from ADP
+44c66797fe8981a67fbbe21ade5bbd55261250de ice: Remove ucast_shared
+607cfbeed1146c2a46020ac34679dc5c12e07e37 ice: set tx_tstamps when creating new Tx rings via ethtool
+9947e10a71f56ec09921fcfbef069d1729c15b91 ice: initialize cached_phctime when creating Rx rings
+f7f7d76e8d722b4cd46f4f41911117b039a93c61 ice: track Tx timestamp stats similar to other Intel drivers
+50b8f4a05cb53a2c8c3f94e82d64999516e79f01 ice: track and warn when PHC update is late
+53992f243dd40d14167314ca0715fe184b2a2333 ice: re-arrange some static functions in ice_ptp.c
+62eb414485558de9d038e3573c3e7e8a5de03362 ice: introduce ice_ptp_reset_cached_phctime function
+e47297d322e0aafe0ac2b9f4a5cb91b9f252903e ice: Add support for ip TTL & ToS offload
+2b39a7289e5208e8469861467892631d4578425d ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+2a17fc484ef445fd0a1d84f867b565c72278ec34 i40e: Fix to stop tx_timeout recovery if GLOBR fails
+201f9945c4d3d98202f0ad4fd816ced8b22e6321 ice: Add low latency Tx timestamp read
+f6832c4c34770ad92245c2e617abda426d446fc7 ice: Fix VF not able to send tagged traffic with no VLAN filters
+0b5c40a109ac7271803973c4b82c6c75f849531b ice: config netdev tc before setting queues number
+ae3b1d00e481392ea31161f8650c20d116646e5b igc: Remove IGC_MDIC_INT_EN definition
+f01f05c5bbce9667d64b85f19b9907e48a263e36 iavf: Fix deadlock in initialization
+ddc9dba85ffd258152ac6b4103dc5e31e718409f igb: Add lock to avoid data race
+2bea06c411fcb973405d855ff21b0060955330d7 i40e: Fix ADQ rate limiting for PF
+ca8048793ab6c4a77f2eb39c37444d5cde3116cb ice: Don't double unplug aux on peer initiated reset
+868897cebe9706df500a3ed01d3625704df38bd3 ice: xsk: prohibit usage of non-balanced queue id
+5f53bf6b147fa1dd9a584dd02521307c5696e5cc ice: xsk: use Rx ring's XDP ring when picking NAPI context
+e38ef8e53ae98f1922b7d79cea2afd7346fe0614 ice: Fix double VLAN error when entering promisc mode
+53369d92dedb2a117332c59919a3ee054e509c11 ice: Ignore EEXIST when setting promisc mode
+a2a144a549582e648679b882ca2861dd51957b70 ice: Fix clearing of promisc mode with bridge over bond
+4a02aa263b285cd98c41146a8f05e001b2785eb8 ice: Ignore error message when setting same promiscuous mode
+89b0936aec2d646c324debd0d45bf1c1f5e56355 ice: Add port option admin queue commands
+b76a284ec3f1858076083d6210c95ce8f0df98f9 ice: Add additional flags to ice_nvm_write_activate
+c9d9ff86d25a265a1f75d58c5d2f3686c23737ea ice: Implement devlink port split operations
+fef7c082fe3f9d49aefe78bc73a46bb15f2af09d ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+4280ce905639adae91c660955d36ec156bb5a7c4 ice: Get DCBX config from LLDP MIB change event
+ee59f128c0234bf41176067056ed0c5d54c335f2 ice: Handle LLDP MIB Pending change
+7b1426fd3e8a87d66d855568cef86350814c09f7 ice: Allow 100M speeds for some devices
+66b92a3501fa44ec721fd4b334b14a67a50b360c ice: remove non-inclusive language from codebase
 
---===============7961779056270975539==--
+--===============7307047985855384444==--
