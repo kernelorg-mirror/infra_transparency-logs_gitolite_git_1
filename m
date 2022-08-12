@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2977990727262814800=="
+Content-Type: multipart/mixed; boundary="===============4571595268850449143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Aug 2022 02:36:33 -0000
-Message-Id: <166027179357.2106.315827628229476117@gitolite.kernel.org>
+Date: Fri, 12 Aug 2022 02:36:46 -0000
+Message-Id: <166027180629.2242.4619067016998650431@gitolite.kernel.org>
 
---===============2977990727262814800==
+--===============4571595268850449143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 197390a0e56045aec962acf0b4fde2ec4c2432a1
-    new: f0926d675e0a93564a618432eafb54a99d57e818
-    log: revlist-197390a0e560-f0926d675e0a.txt
+  - ref: refs/heads/5.20/scsi-queue
+    old: 8fcdc238ce1b492e1f57a73a2ce4131d63f45397
+    new: c6380f9924270d51cc233cfd592b279be3881e6d
+    log: revlist-8fcdc238ce1b-c6380f992427.txt
 
---===============2977990727262814800==
+--===============4571595268850449143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1660271779 -0400
+pusher 75C5DE3D 1660271797 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1660271779-dc316d7b733280ca4613a2987289bde182d608b2
+nonce 1660271797-9b64e0847ac876f7db659f309ef97d6bc6819302
 
-197390a0e56045aec962acf0b4fde2ec4c2432a1 f0926d675e0a93564a618432eafb54a99d57e818 refs/tags/mkp-scsi-queue
+8fcdc238ce1b492e1f57a73a2ce4131d63f45397 c6380f9924270d51cc233cfd592b279be3881e6d refs/heads/5.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmL1vKMACgkQ7ulgGnXF
-3j2elg//a/XqNoASPtaL13vviyUPkCGi3CGG9U8jk/px9WCsOJY1iUaJmHRmKA42
-N+C2XnEQXGSeiGUL/4Are7LgLRgbEkP6b6nBSywCQkCIxMqSNBQwNZOMfZ6LjAlK
-esrKqxn70moca96sgAFKoQPzIwoqKSQFW+h+UuWt8aC+bqLyQNsQJjk4Xv8qePR8
-LPkgR+5U226e4s+VMxAEv9PQf9lvYv80s4zNPVJfBvvKmm7kNSepjlmoXsufGKpJ
-UZYpLEjBJ/fyg0yixqgdEztPSfy8HJhqzejmNP6VBDZTlw5EojqfOtGqYWfnRaqg
-scQC8ynACLWFi6WXpQpUNsKt1C0pWUJtmrPTC8zmm+0Xhwu+0Jtg7ZQcfYgF/4sN
-8P5xKCinqRje4Rzq7M5n4nglkPXQi0fwsbOEIatihgI+0T1AdByxK3l2JW7D0lOr
-Iv44laoRtV+U3kCNyIx4hA8mxF5pYteKFiU70zZRuOp15B/gvUNIhCVshpNnw6p9
-p8LI05APP45T/Xw1djHD8hy2TPb8Ff8w55hwy9jXz2gYT46o5Jan3L9nTKYkEX0r
-D4gr+SWE2vdoip7oUn9M338cIfOelv/nvHWMsHlqa3tLiyMNeOIMctsbPCMjDyeU
-446iMAeedIyAdlnSSnwsbu2Fozdl6WlCG6HsWRf9jGCbmUeYIG4=
-=2aA1
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmL1vLUACgkQ7ulgGnXF
+3j3B9hAAhPnNEg+5432aGnUuR7Zgc/qpCj14ZkYQQWE5UOP48mjeIDTGKieJCpZm
+AJeSFmnm9aZuCnKHXs2jPtn0nDvDVHup8BGWDddDXELb8hVgkAVWhE8YGMfde99D
+owxI6ZdgtOLLqh7hay5Ax4J52ILcRMyvFny5HQgu9ls3gQQ1IGFtCFvgHeqXNezV
+d4uyRPebhswX9osDkgQQSLCuqAHIHKvqrkCZxvWnQeheRiywsReLHI9y/v6bdOWZ
+uEIXmswvG/Tt/uSa8epVmx8z4/HoCHcYTpFzu9o7v/l3XD5lDjfL48nEI25//ziU
+7SRZNIcLsOfk8fuB1GiGkJ4p4y1cpKRoWF1dQ9RlJ2lP2US7lUDUVoluJ2FN+Qv9
+S/QQhNc/vluOiVHn2yToNCOlaXgH3iOht99WJbfS4rGQzBGcLSpL6lRt7XAFVDrA
+zcwg2V5zJ9uuXOi/LxJ9W/bybx+9kkCMcGMnLUg3nCBD5TwSPBGFUFws91MXL0A3
+LSrZAUY5E3AeIUGBnhgvchhBQCQ+4eokYjSvtMCM0VAkXCUb7qJO6pikcTKqO9fd
+Py6jpaQSEd94vldP7UjZQyiBCS5c6nBvNfdAq/fbz1N4MQc8kJuQPitaS1oimhkb
+Xlr2GSQ/ebt+nAz7CD1xokqs6io8Mm9dGeOHrJ5CVxnv1IdOY1g=
+=Tk0/
 -----END PGP SIGNATURE-----
 
---===============2977990727262814800==
+--===============4571595268850449143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-197390a0e560-f0926d675e0a.txt
+Content-Disposition: attachment; filename=revlist-8fcdc238ce1b-c6380f992427.txt
 
 f00e0d7714895d10790e2bac4df00727ddb9abff scsi: lpfc: Check the return value of alloc_workqueue()
 86a44f045b8cbfd885b7425f4cd8a1c353593057 scsi: ufs: core: Increase the maximum data buffer size
@@ -71,4 +71,4 @@ f323896fe6fa8fa55ed37cb8b804fa97ead641c3 scsi: core: Call blk_mq_free_tag_set() 
 6464d5b8a2768e8ff63d24b76299fe614e205aa7 scsi: megaraid_sas: Remove redundant variable cmd_type
 c6380f9924270d51cc233cfd592b279be3881e6d scsi: pm8001: Fix typo 'the the' in comment
 
---===============2977990727262814800==--
+--===============4571595268850449143==--
