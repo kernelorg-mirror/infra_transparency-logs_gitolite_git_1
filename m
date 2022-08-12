@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1379597924484420223=="
+Content-Type: multipart/mixed; boundary="===============2629963821483456096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 12 Aug 2022 15:22:21 -0000
-Message-Id: <166031774183.31778.11629457642710431924@gitolite.kernel.org>
+Date: Fri, 12 Aug 2022 15:22:32 -0000
+Message-Id: <166031775282.31922.6560512619537695936@gitolite.kernel.org>
 
---===============1379597924484420223==
+--===============2629963821483456096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 84ba28901629cd3aa3b24d359bc4da3ac24c2329
-    new: 40b4ac880e21d917da7f3752332fa57564a4c202
-    log: revlist-84ba28901629-40b4ac880e21.txt
+  - ref: refs/heads/dev-queue
+    old: 3ab1edcec22b7a61cb7d52c29629e519bc0e7d9a
+    new: 146c0d1b369b311bc54a2c49eb2531885fa95093
+    log: revlist-3ab1edcec22b-146c0d1b369b.txt
 
---===============1379597924484420223==
+--===============2629963821483456096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84ba28901629-40b4ac880e21.txt
+Content-Disposition: attachment; filename=revlist-3ab1edcec22b-146c0d1b369b.txt
 
-b91f0e4cb8a3ce4f2716a13739ade0f7bea8eadb RISC-V: KVM: Factor-out instruction emulation into separate sources
-1222b55cee2396a1a286e924d9f6abb6d7a04f55 RISC-V: KVM: Add extensible system instruction emulation framework
-8a061562e2f2b32bfb5bff5bf3afc64e37d95a27 RISC-V: KVM: Add extensible CSR emulation framework
-4ab0e470c06dc741f6583578da44961669331b78 KVM: Add gfp_custom flag in struct kvm_mmu_memory_cache
-c9d57373fc87a3ad00d12cffd0bb4c8108c73ff9 RISC-V: KVM: Add G-stage ioremap() and iounmap() functions
-659ad6d82c3121088daeaa38ba94d182b55bbb22 RISC-V: KVM: Use PAGE_KERNEL_IO in kvm_riscv_gstage_ioremap()
-6bb2e00ea304ffc0446f345c46fe22713ce43cbf RISC-V: KVM: Add support for Svpbmt inside Guest/VM
-fb5962f81ebbd8b4f3199115b5ddb7b7c7545458 perf test: Fix test case 95 ("Check branch stack sampling") on s390 and use same event
-2e2e91158febfeb73b5d4f249440218304f34101 Merge tag 'kvm-riscv-5.20-1' of https://github.com/kvm-riscv/linux into HEAD
-273aaa24369cb8d0f246bb16f7122b91a1ef5188 docs: embargoed-hardware-issues: fix invalid AMD contact email
-452e21cf3438aca19b678d1f182d7d6525648956 powerpc/mm: Export memory_add_physaddr_to_nid() for modules
-ace3e31e653e79cae9b047e85f567e6b44c98532 perf stat: Revert "perf stat: Add default hybrid events"
-ff4207f79307dc4910a27771e4306e1a64fde3e1 perf evsel: Add arch_evsel__hw_name()
-a9c1ecdabc4f2ef04ef5334b8deb3a5c5910136d perf evlist: Always use arch_evlist__add_default_attrs()
-cdb204ad42232070ccc2deb0c451b25d1d4cc892 perf x86 evlist: Add default hybrid events for perf stat
 9a0b36266f7a83912592052035b84f13b12e30da perf stat: Add topdown metrics in the default perf stat on the hybrid machine
 933c5a4f87d92a865d1db76caf190f1a4a1927f9 PCI: Stub __pci_ioport_map() for arches that don't support it at all
 0ad722f159e44983ddea1929ffd90d0c20a86f24 PCI: Remove pci_mmap_page_range() wrapper
@@ -1050,5 +1035,20 @@ bfc48f1b0505ffcb03a6d749139b7577d6b81ae0 net/sunrpc: fix potential memory leaks 
 0619d0fa6cedb32f0835e23ca774085128ccb2b8 bnx2x: Fix comment typo
 75d8620d46f00fcece574dd70ea36acfdfcf171b net: cxgb3: Fix comment typo
 40b4ac880e21d917da7f3752332fa57564a4c202 net: lan966x: fix checking for return value of platform_get_irq_byname()
+d67a83a06ac4bd9382709e80a4b5315d62376f20 ice: xsk: use Rx ring when picking NAPI context
+356b02be99024484ee5e7740faf5c198c90ec7bf ice: Fix VSI rebuild WARN_ON check for VF
+73a8288b436e8e3b584cdcbf114fe36209391ffc iavf: Fix adminq error handling
+251b30800d1b207c675863a9b1e91ff20859c362 iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
+9b8815646a0be5314c2ec06d5185304b2787a18d iavf: Fix reset error handling
+9fa9ccc5bebad2171d01886fe373aec82c214be3 ice: Fix call trace with null VSI during VF reset
+d461693c325bb47f09d9091f87711a62c7838d26 i40e: Fix tunnel checksum offload with fragmented traffic
+fc234ea0e66ed14756b200886ebb2ff7a4e2f45b ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+840e88deee4b30e992f7c39c9e8b123f8691040b i40e: Fix to stop tx_timeout recovery if GLOBR fails
+7ef5baa42414b712218165792ac0cb8c6aaac958 ice: Fix VF not able to send tagged traffic with no VLAN filters
+9b0db58d372a9fc9a64f41070b995a28a7fdda24 ice: config netdev tc before setting queues number
+8565f9f15bfc5465609bca42494081eae0dfdb45 iavf: Fix deadlock in initialization
+14cdc9a90a8b803479a0e4ae659eb938fe478161 igb: Add lock to avoid data race
+9a948f11f24bd1febc3186f13cd1e12e31e20ea7 i40e: Fix ADQ rate limiting for PF
+146c0d1b369b311bc54a2c49eb2531885fa95093 ice: Don't double unplug aux on peer initiated reset
 
---===============1379597924484420223==--
+--===============2629963821483456096==--
