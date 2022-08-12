@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3801960616757375547=="
+Content-Type: multipart/mixed; boundary="===============0214216971293851182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Aug 2022 02:36:59 -0000
-Message-Id: <166027181976.2385.8004574312282428972@gitolite.kernel.org>
+Date: Fri, 12 Aug 2022 02:37:15 -0000
+Message-Id: <166027183551.2544.9405621906968869802@gitolite.kernel.org>
 
---===============3801960616757375547==
+--===============0214216971293851182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 8fcdc238ce1b492e1f57a73a2ce4131d63f45397
-    new: c6380f9924270d51cc233cfd592b279be3881e6d
-    log: revlist-8fcdc238ce1b-c6380f992427.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: da960e19a0bf7ba5bf973b68272836465a71c29d
+    new: 870262a06bfcea71bc12e23a70ec07ce623f2d0b
+    log: |
+         53661ded2460b414644532de6b99bd87f71987e9 scsi: qla2xxx: Disable ATIO interrupt coalesce for quad port ISP27XX
+         54249306e2776774ccb827969e62d34570f991db scsi: core: Allow the ALUA transitioning state enough time
+         6d17a112e9a63ff6a5edffd1676b99e0ffbcd269 scsi: ufs: core: Enable link lost interrupt
+         8c499e49240bd93628368c3588975cfb94169b8b scsi: megaraid_sas: Fix double kfree()
+         7dd6f4af9482c319fa829583799e63e38967177d scsi: megaraid_sas: Remove unnecessary kfree()
+         37dd4ab1ff8cb843c69835dcaf7bc719a2bf2e0c scsi: ufs: host: ufs-exynos: Make fsd_ufs_drvs static
+         d957e7ffb2c72410bcc1a514153a46719255a5da scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
+         
 
---===============3801960616757375547==
+--===============0214216971293851182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1660271810 -0400
+pusher 75C5DE3D 1660271824 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1660271810-5b937ff48b533921195f9882dd2f52dafb36afcc
+nonce 1660271824-8507eccbbab2f882d0161a84d25816db5ef0d31c
 
-8fcdc238ce1b492e1f57a73a2ce4131d63f45397 c6380f9924270d51cc233cfd592b279be3881e6d refs/heads/queue
+da960e19a0bf7ba5bf973b68272836465a71c29d 870262a06bfcea71bc12e23a70ec07ce623f2d0b refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmL1vMIACgkQ7ulgGnXF
-3j2H5A//W13gWuxeeRNFupzbNpw6ZFFveFwtQozcSSHmupKhuJZ8a9rniEFvowCE
-RHytoa8pXfHYl/sJ4XIWwktKwaPT0B7PKL5aw1ELvRvh0wvN2jMq2kW2ZcMsyCN6
-4dc/GlolE8b3Txf9NkqHfn3hYxsTc5w6e6NaMUU40zd4+L2ESWFVLOWmKWorlSye
-koBzw97C8T9v/hSolicoBJAvZkoS76vmIWGl9+pT5iG20C/PRacdUi/Kh/2OtuaX
-CY34r1DU6bjU9vd9O/sHqDGdQjlYxICNk8SUA9a1SQfbwlKdR2QpsTs0cgjDBuMo
-9qk1VZrXbn8NE8VOYHY7FTZzp0JLC0hfc+niqRijkDGzOIjkA09rvI+Wk3Nk0KLP
-Cja2IYYR4BRy0JRfybv1GVK/bFHAn73mkODtqF7APDmpiZVJnpBqSVMxwZOPB1Jw
-Ujv332LzDTL0CUV1iZyP4OwteJoG9jl+6UlNZx76kvJEni6JwAtkCIXPWOzjpZEY
-6kwQzLyNvmtR4ll7fommNZAcePKeyj1Uzhh2CdJ+0Vj3K0iFpv96g19opJnx0N/G
-4TAk/p5jorV2uA5Hl0LN2OdbUa3pwXXJ88fmcfrA8wpgZSulflMt0y8QuBeiYMik
-Ay5UCkmSVDNLBZW3gR+2qdbrR4AVP/605Wf8sxxjOty5ePEkjGc=
-=08WP
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmL1vNAACgkQ7ulgGnXF
+3j1XzhAAjpCT7UUzCAHQRnTPtBPxGHch52vx24ag9RYsP3LASyRtpRG5HBlAGuaW
+yyVtfjgGHoAOBzLBuwQV2pYFRxiuI1DJAVSjSv3T6GcbHxWxHClWRyZo94QuPeB3
+SfWJURI08ba28Yk+6ekDNSqjwgX+vM2PA1NYRjZTydbyBxh9LgvrpIQBWOcHtK3e
+M7pNpjCRKkgLr9o7d+uyocOiIgVcJ5JyJtyDH2p3BP6mTxFTd58WB8grz5mp8hP2
+KQ7c77o7L/s8n6grIpQ9mwolhanYNYRnEmzVWXyQSyQRN5yJ6aQJYkmeilb6uI66
+luKCrfGurl+PiBzKWtwAQhNOccGe8Iuq18bMplwn69uXd59vLwDAJOLTZtIUmezO
+l6psQFsuuFq+6AJubH+dLxAtXNx786THAbNkzORHgrvsUggsk+1kKxQj+yNZuEnX
+JHnMJbPuvse40WJUJNxLdhmFIi7MTreVCvJOnqo2xDX9zey4zJJJZ6hSu8rTzHQG
+z8vvm7wvlkaTS0V9diVzG7KGgad/ubjIK8xPaLOUQ+k4VL0YC1Fx525zKrjfqVHB
+qsG/EBiXN6heqsBQ0WVhf/e7wJl5P8FsUW+Tz6VDUpQNpSfG8d/G4nL2qLap1xaJ
+AAEe81OOtn3jTQ+YAVAaPDKsoeVkK0JLo7UBg82ziX6TcN/a4yI=
+=UNuf
 -----END PGP SIGNATURE-----
 
---===============3801960616757375547==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fcdc238ce1b-c6380f992427.txt
-
-f00e0d7714895d10790e2bac4df00727ddb9abff scsi: lpfc: Check the return value of alloc_workqueue()
-86a44f045b8cbfd885b7425f4cd8a1c353593057 scsi: ufs: core: Increase the maximum data buffer size
-00511d2abf5708ad05dd5d1c36adb2468d274698 scsi: ufs: core: Correct ufshcd_shutdown() flow
-dd0a66ada0bd0ae6c96ea45cfa1581797e867a40 scsi: target: core: Fix race during ACL removal
-ef4f7e4bf1dc26aaa86cf8e5a13013684139be51 scsi: target: core: De-RCU of se_lun and se_lun acl
-a19066788d875731a01ee7fa189b2202f0120036 scsi: ufs: ufs-pci: Correct check for RESET DSM
-fe442604199ed3e60d5411137159f9623534e956 scsi: core: Make sure that targets outlive devices
-16728aaba62e8b3b170735fdc3d8aa972835c136 scsi: core: Make sure that hosts outlive targets
-1a9283782df2c91c7db5656753a2f548c43de6a7 scsi: core: Simplify LLD module reference counting
-f323896fe6fa8fa55ed37cb8b804fa97ead641c3 scsi: core: Call blk_mq_free_tag_set() earlier
-4da8c5f76825269f28d6a89fa752934a4bcb6dfa scsi: zfcp: Fix missing auto port scan and thus missing target ports
-554b117e8fab4f7c53090eca693f47e0c7b18490 scsi: FlashPoint: Remove redundant variable bm_int_st
-6464d5b8a2768e8ff63d24b76299fe614e205aa7 scsi: megaraid_sas: Remove redundant variable cmd_type
-c6380f9924270d51cc233cfd592b279be3881e6d scsi: pm8001: Fix typo 'the the' in comment
-
---===============3801960616757375547==--
+--===============0214216971293851182==--
