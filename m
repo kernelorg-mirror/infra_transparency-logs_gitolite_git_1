@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0214216971293851182=="
+Content-Type: multipart/mixed; boundary="===============7099361010323980913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Aug 2022 02:37:15 -0000
-Message-Id: <166027183551.2544.9405621906968869802@gitolite.kernel.org>
+Date: Fri, 12 Aug 2022 02:37:29 -0000
+Message-Id: <166027184979.2717.16572836629725904115@gitolite.kernel.org>
 
---===============0214216971293851182==
+--===============7099361010323980913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: da960e19a0bf7ba5bf973b68272836465a71c29d
-    new: 870262a06bfcea71bc12e23a70ec07ce623f2d0b
+  - ref: refs/heads/5.20/scsi-staging
+    old: c6380f9924270d51cc233cfd592b279be3881e6d
+    new: d957e7ffb2c72410bcc1a514153a46719255a5da
     log: |
          53661ded2460b414644532de6b99bd87f71987e9 scsi: qla2xxx: Disable ATIO interrupt coalesce for quad port ISP27XX
          54249306e2776774ccb827969e62d34570f991db scsi: core: Allow the ALUA transitioning state enough time
@@ -29,33 +29,33 @@ changes:
          d957e7ffb2c72410bcc1a514153a46719255a5da scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
          
 
---===============0214216971293851182==
+--===============7099361010323980913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1660271824 -0400
+pusher 75C5DE3D 1660271840 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1660271824-8507eccbbab2f882d0161a84d25816db5ef0d31c
+nonce 1660271840-d9ae31a6947bc9f2cee045e9d4591dcccb08ced2
 
-da960e19a0bf7ba5bf973b68272836465a71c29d 870262a06bfcea71bc12e23a70ec07ce623f2d0b refs/tags/mkp-scsi-staging
+c6380f9924270d51cc233cfd592b279be3881e6d d957e7ffb2c72410bcc1a514153a46719255a5da refs/heads/5.20/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmL1vNAACgkQ7ulgGnXF
-3j1XzhAAjpCT7UUzCAHQRnTPtBPxGHch52vx24ag9RYsP3LASyRtpRG5HBlAGuaW
-yyVtfjgGHoAOBzLBuwQV2pYFRxiuI1DJAVSjSv3T6GcbHxWxHClWRyZo94QuPeB3
-SfWJURI08ba28Yk+6ekDNSqjwgX+vM2PA1NYRjZTydbyBxh9LgvrpIQBWOcHtK3e
-M7pNpjCRKkgLr9o7d+uyocOiIgVcJ5JyJtyDH2p3BP6mTxFTd58WB8grz5mp8hP2
-KQ7c77o7L/s8n6grIpQ9mwolhanYNYRnEmzVWXyQSyQRN5yJ6aQJYkmeilb6uI66
-luKCrfGurl+PiBzKWtwAQhNOccGe8Iuq18bMplwn69uXd59vLwDAJOLTZtIUmezO
-l6psQFsuuFq+6AJubH+dLxAtXNx786THAbNkzORHgrvsUggsk+1kKxQj+yNZuEnX
-JHnMJbPuvse40WJUJNxLdhmFIi7MTreVCvJOnqo2xDX9zey4zJJJZ6hSu8rTzHQG
-z8vvm7wvlkaTS0V9diVzG7KGgad/ubjIK8xPaLOUQ+k4VL0YC1Fx525zKrjfqVHB
-qsG/EBiXN6heqsBQ0WVhf/e7wJl5P8FsUW+Tz6VDUpQNpSfG8d/G4nL2qLap1xaJ
-AAEe81OOtn3jTQ+YAVAaPDKsoeVkK0JLo7UBg82ziX6TcN/a4yI=
-=UNuf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmL1vOAACgkQ7ulgGnXF
+3j1laQ/9HUQdIRQ5hV5ZTlkVFK5AXaLAn9b4MyjrNKEJRs6cr+sci5tlyB5NgZxd
+R+EPBw6irX5Ta0CVyQ8c1UZ6T/IlRH0JxLvnFTZFOsKUiWNrLnyrs87R0r2Y/NF5
+0nJmdcpR/jBcKflCulFLMOUCMgWQ614bAMtwsy6C+S/A/t3IqVTXmeyyML8q47Ll
+0a+HvdVPY4Wa+V4WKNTRf6l6L7CXv2QwvW8mHwJpyVqYsgEZ28jJZYoYwILR2chg
+2uRZF6sVC38hwKRrjgeOYIKC2SbqLl3smVTT3pI75tqlcYirJT4wY2qAjGiMcGF+
+Cdjzz0sHdmFUM9iX7/1YrUFj0hMuNSR/Yzcpj+DS+9I1KPSICMhNPB88HxX0b8rQ
+BbQ0rHbmbrP1bUJrKba1q+gBLm/59PquXX5bFygERVhswbSlToMgkub3XAIJqr9x
+ot2UBbWHbuUSFQIsWL3pB+s+7t1RnMl/CfdUeoet0JD79dz1raEszMEnxDy77UQT
+w5ozysYjNb5u3EXSxkNAxajTYZLyilKNHOH2dngnlHDVsWdusKBuaoat7m4CP81h
+ymTaECDhZ2KWltNkxLdKqW//E4UIYyHunbMCnMBhgY65j/6Oj3KoFe5RzB8Ud+L/
+yFpA2QjqCu6030b+3Q91uPrYNNHwhN1U/raT5ShMf+RWB7uCp98=
+=K1/2
 -----END PGP SIGNATURE-----
 
---===============0214216971293851182==--
+--===============7099361010323980913==--
