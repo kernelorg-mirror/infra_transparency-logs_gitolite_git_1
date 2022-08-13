@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1700118764389584241=="
+Content-Type: multipart/mixed; boundary="===============6043468057361005570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 13 Aug 2022 21:39:02 -0000
-Message-Id: <166042674223.14697.11012400643219030801@gitolite.kernel.org>
+Date: Sat, 13 Aug 2022 21:39:27 -0000
+Message-Id: <166042676741.14961.3884451051043955275@gitolite.kernel.org>
 
---===============1700118764389584241==
+--===============6043468057361005570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: aeb6e6ac18c73ec287b3b1e2c913520699358c13
     new: 69dac8e431af26173ca0a1ebc87054e01c585bcc
     log: revlist-aeb6e6ac18c7-69dac8e431af.txt
 
---===============1700118764389584241==
+--===============6043468057361005570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -548,4 +548,4 @@ dc72768ebf84b87fd26ad97dd3422c3783157a4a dt-bindings: iio: Drop Joachim Eastwood
 6c833c0581f1c15db2e0344da19360cba75a3351 Merge tag 'devicetree-fixes-for-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 69dac8e431af26173ca0a1ebc87054e01c585bcc Merge tag 'riscv-for-linus-5.20-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============1700118764389584241==--
+--===============6043468057361005570==--
