@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 13 Aug 2022 22:14:59 -0000
-Message-Id: <166042889924.7163.4241746330204960408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 13 Aug 2022 22:29:26 -0000
+Message-Id: <166042976664.18028.11413098814593511990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/seen
-    old: 5a2bdcac0d74ea24b6d054db4e166d1cc9dac95f
-    new: 99f800b1a805c85c714ebb5227e3db17c7a6869d
+  - ref: refs/heads/fixes
+    old: 69dac8e431af26173ca0a1ebc87054e01c585bcc
+    new: 39bdf96287823a7caa4df12b05f203dd74716565
     log: |
-         6de86416388ceea63b84e02b637cd50b7ab68f4e SQUASH???
-         99f800b1a805c85c714ebb5227e3db17c7a6869d Merge branch 'cw/remote-object-info' into seen
+         f39847a38407280c99675b3c21a9d3197bf12f29 modpost: fix module versioning when a symbol lacks valid CRC
+         70f2cd124b7516653f5a637c24eb22ef9a6a6140 kbuild: dummy-tools: pretend we understand __LONG_DOUBLE_128__
+         39bdf96287823a7caa4df12b05f203dd74716565 scripts/Makefile.extrawarn: Do not disable clang's -Wformat-zero-length
          
