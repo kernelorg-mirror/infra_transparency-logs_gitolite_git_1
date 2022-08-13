@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1680100245865318527=="
+Content-Type: multipart/mixed; boundary="===============3266159475199233016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sat, 13 Aug 2022 15:01:52 -0000
-Message-Id: <166040291200.30498.3264926710857776879@gitolite.kernel.org>
+Date: Sat, 13 Aug 2022 15:02:19 -0000
+Message-Id: <166040293969.30761.15093031724892213751@gitolite.kernel.org>
 
---===============1680100245865318527==
+--===============3266159475199233016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.4.y-cip
-    old: 42722e64d359f47f84e170ac99e4b2dd2d04865b
-    new: 3635ffa3f2b238af99a361af834fbb180f2debe9
-    log: revlist-42722e64d359-3635ffa3f2b2.txt
+  - ref: refs/heads/linux-4.4.y-st
+    old: 68074205ab3742472d639fcaef51a9ebdee5e6b7
+    new: 272ee995f009375681a8eb14fa2a1af24b75ebed
+    log: revlist-68074205ab37-272ee995f009.txt
 
---===============1680100245865318527==
+--===============3266159475199233016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42722e64d359-3635ffa3f2b2.txt
+Content-Disposition: attachment; filename=revlist-68074205ab37-272ee995f009.txt
 
 92a2c5fbe05427e54618216c4ac916a381960657 vt: drop old FONT ioctls
 2e21ebf6ce04316d336c83a500635455f430f417 ata: libata: add qc->flags in ata_qc_complete_template tracepoint
@@ -122,6 +122,5 @@ fa66cbfefaa7018670f41efed18a237e49aeaab5 tty: drop tty_schedule_flip()
 d19ba79906d621d30bd9aeb725ddc7610a679e23 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
 f6412965114ff68ba894b704883ebd9ecc396e1f tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
 272ee995f009375681a8eb14fa2a1af24b75ebed Bring in patches from 4.9.325.
-3635ffa3f2b238af99a361af834fbb180f2debe9 Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
 
---===============1680100245865318527==--
+--===============3266159475199233016==--
