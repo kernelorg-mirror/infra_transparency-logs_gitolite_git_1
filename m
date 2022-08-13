@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6161426841336529781=="
+Content-Type: multipart/mixed; boundary="===============3735307531797696068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 13 Aug 2022 09:50:28 -0000
-Message-Id: <166038422842.7989.12116768942329276835@gitolite.kernel.org>
+Date: Sat, 13 Aug 2022 09:53:07 -0000
+Message-Id: <166038438792.9054.6179449483770804256@gitolite.kernel.org>
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,361 +16,402 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: bc25d1518aeca33a2533b8f8ae0ef1eb466852d6
-    new: 8692fc999bd2ffb7b4534a5a74d04c51f3b937fe
-    log: revlist-bc25d1518aec-8692fc999bd2.txt
+    old: 8692fc999bd2ffb7b4534a5a74d04c51f3b937fe
+    new: bc7b4d3fdf350232a5ff641672aef57bffe7500f
+    log: revlist-8692fc999bd2-bc7b4d3fdf35.txt
   - ref: refs/heads/queue/4.19
-    old: 2573171b6e6c4664abac6e48a246cc9d6d038f0a
-    new: b604dc1e30cb7683768a36f85b739abca5d977f5
-    log: revlist-2573171b6e6c-b604dc1e30cb.txt
+    old: b604dc1e30cb7683768a36f85b739abca5d977f5
+    new: 60316b43bdf977417f5a23c1e1da5266c0354a29
+    log: revlist-b604dc1e30cb-60316b43bdf9.txt
   - ref: refs/heads/queue/4.9
-    old: c48fae991611719b6dec86505166d1addb8dfd19
-    new: 1b79cdabed3f57f7584a95c7519e4ee61e1469f9
-    log: revlist-c48fae991611-1b79cdabed3f.txt
+    old: 1b79cdabed3f57f7584a95c7519e4ee61e1469f9
+    new: 77ac6ccad6c27dba9f837aca1e58066cbee93f0c
+    log: revlist-1b79cdabed3f-77ac6ccad6c2.txt
   - ref: refs/heads/queue/5.10
-    old: 1fb4d8bec539348962c1092d57c2e74e0d852e56
-    new: da269a0363d3b76562ecf456641b5a05c0efd871
-    log: revlist-1fb4d8bec539-da269a0363d3.txt
+    old: da269a0363d3b76562ecf456641b5a05c0efd871
+    new: ddc40a43d70664d285c38e094783b72bae52aa8e
+    log: revlist-da269a0363d3-ddc40a43d706.txt
   - ref: refs/heads/queue/5.15
-    old: a37704dd94ae9500426d90f348a751a5b8da7d14
-    new: c9354b1cbd6e1943ad56d4757797f80d77a0f734
-    log: revlist-a37704dd94ae-c9354b1cbd6e.txt
+    old: c9354b1cbd6e1943ad56d4757797f80d77a0f734
+    new: 789367af88749bdf67368a0864c64ed9f82d8701
+    log: revlist-c9354b1cbd6e-789367af8874.txt
   - ref: refs/heads/queue/5.18
-    old: 5f1224c36765c7d3fc43c78f99026b77f8e6bdab
-    new: a6eac8e3d9486228312f0cd7580db3136217b75b
-    log: revlist-5f1224c36765-a6eac8e3d948.txt
+    old: a6eac8e3d9486228312f0cd7580db3136217b75b
+    new: 185ae35b285f056f84404d47991252678b5ccd52
+    log: revlist-a6eac8e3d948-185ae35b285f.txt
   - ref: refs/heads/queue/5.19
-    old: 80f2bac1abad3b7111d3df8a87a01055250b92a6
-    new: 1be11a125e70e1fbb47808f33572e049267a21fd
-    log: revlist-80f2bac1abad-1be11a125e70.txt
+    old: 1be11a125e70e1fbb47808f33572e049267a21fd
+    new: bac914bd6e7055c9fdca879d09d0e7f715a1af88
+    log: revlist-1be11a125e70-bac914bd6e70.txt
   - ref: refs/heads/queue/5.4
-    old: 22134025a36f259caee1ba3f81e14b97a384fbba
-    new: f6c3a1d446bfffcb3aa4df002b474d676e4abbf8
-    log: revlist-22134025a36f-f6c3a1d446bf.txt
+    old: f6c3a1d446bfffcb3aa4df002b474d676e4abbf8
+    new: 92b2ec5abfa71aaaeefb9cd06cd588bc995d0018
+    log: revlist-f6c3a1d446bf-92b2ec5abfa7.txt
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc25d1518aec-8692fc999bd2.txt
+Content-Disposition: attachment; filename=revlist-8692fc999bd2-bc7b4d3fdf35.txt
 
-c5079501d1f8e33fa27709ebf5412c7525e04ccd Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-cbdfb7fc0cd6dec0551e3e8abbe675d4ea795f1d ntfs: fix use-after-free in ntfs_ucsncmp()
-3fad2596415e9101e41e94728a32daeaf1366070 s390/archrandom: prevent CPACF trng invocations in interrupt context
-efe7df95793c3a7b22cf1f89f41b15feea338421 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-878532305b9827812145952eca7aae3ef571b5a2 net: ping6: Fix memleak in ipv6_renew_options().
-0d65f6ac93473f1561532c33deef5c2da38f53c1 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-563b7bacf8ac237a7159edad56a6cf54e34855e6 netfilter: nf_queue: do not allow packet truncation below transport header offset
-5c357d975a1875cce347405a9d691b0c712e81c5 ARM: crypto: comment out gcc warning that breaks clang builds
-7bd293ccecfe0a56b45aa0e60a00b0870a31e1f0 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-977f79df6b768b7eaef415ca4a47ada6ad053a54 ACPI: video: Force backlight native for some TongFang devices
-414bb2260b3f88307b14469e6faa841895d84f13 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-d9c9dddb2964e1be11abb1465300f40cb9ca6685 macintosh/adb: fix oob read in do_adb_query() function
-bd67b0e17c7dc9706105883372ebf22aac7454d7 Makefile: link with -z noexecstack --no-warn-rwx-segments
-8e0ca6a2e5b2e810fc95673b36566fafbb39f5a5 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-6ca3df2d48012818ee3eaa1f10fc03a22cf23c1e ALSA: bcd2000: Fix a UAF bug on the error path of probing
-ad0b4a0e79bb049ad641cd7f665fdbb9d341f816 add barriers to buffer_uptodate and set_buffer_uptodate
-e602c2c16dff07cf0e2c32eed6621f76ec3b31ec HID: wacom: Don't register pad_input for touch switch
-c2a26450a4c268869d3db8a42098c4379272fb34 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-6602ebdc9b46a3dea188e1bc5e41480419384512 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-70893f17fdb6da0b8dcd5a8b9d2e881a84f27431 KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-1f2de0679bb2d8446619a5723c3efab045a1d5f7 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
-695478ecd55e598bf390a697645d6e3780e7c176 ALSA: hda/cirrus - support for iMac 12,1 model
-88ee26ed8147ec876edc08474f809cf77be94e64 vfs: Check the truncate maximum size in inode_newsize_ok()
-bd9b79e021daffb2ce5921252c212766794dce22 fs: Add missing umask strip in vfs_tmpfile
-8692fc999bd2ffb7b4534a5a74d04c51f3b937fe usbnet: Fix linkwatch use-after-free on disconnect
+18d9f20b713de34eb71ac69db4b1459344beee67 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+2e464da4ae81af7d720831a19d8f1eb89c679841 ntfs: fix use-after-free in ntfs_ucsncmp()
+4dc0b02a6c3d85f6c477995247e6659c0816bd4b s390/archrandom: prevent CPACF trng invocations in interrupt context
+95e22b47fb8fbe2c5736eb0a3d0913b294fe9a03 scsi: ufs: host: Hold reference returned by of_parse_phandle()
+f67015543e2d36ac803b7a1c5052beb9a66fb0bc net: ping6: Fix memleak in ipv6_renew_options().
+17164708c4f4be02baee3be645f83a4431e745ee net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+52fde2e090bfffc95e527b1a7685b32d37f8efed netfilter: nf_queue: do not allow packet truncation below transport header offset
+05fbd028a2eabecb57606ae46ab13dda08ed4d14 ARM: crypto: comment out gcc warning that breaks clang builds
+5dfdd973248e5fbfc517f303d9476458180aef60 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+b624adc72067d6f558dfa4c2cc722d7dfff520d3 ACPI: video: Force backlight native for some TongFang devices
+089704360d8195145e16e45d51360414fb6ed7cd ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+b657a9d9bf66da6e01092ba4e5b3773ae968238e macintosh/adb: fix oob read in do_adb_query() function
+694a138d200a7881b3100c5f8684142d4dc7f66f Makefile: link with -z noexecstack --no-warn-rwx-segments
+43fc439a56fe005250017be9fc2bd192629d5142 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+94dd1ef4c0daeb0093cad0fd4c7cf20b6604a489 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+33095df6694eb7e3e08fc1f4c4d3b8bf61fa7c67 add barriers to buffer_uptodate and set_buffer_uptodate
+90b62c9c92296ba002f9944dfb48a3c115d154e0 HID: wacom: Don't register pad_input for touch switch
+5fefc66d06d16db3de4d7791e2446415cecacea6 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+8d27783d8c84e9dc56d0c685ec2598cfe5cb542e KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+da8e56293feffdfc27432913a868a81d939f346d KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+529cc44c3f537cbacd5726982c9ae6d8e8d04ab2 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+808f723b0f1399e90c35be43a0d21b45bf4d454a ALSA: hda/cirrus - support for iMac 12,1 model
+6ab0953f9ea084eb40e76fc78d1f1b51708c5dcd vfs: Check the truncate maximum size in inode_newsize_ok()
+6e85080dd6a676d9d8bd76524ad9cd81927ab3c6 fs: Add missing umask strip in vfs_tmpfile
+bc7b4d3fdf350232a5ff641672aef57bffe7500f usbnet: Fix linkwatch use-after-free on disconnect
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2573171b6e6c-b604dc1e30cb.txt
+Content-Disposition: attachment; filename=revlist-b604dc1e30cb-60316b43bdf9.txt
 
-b8fa81634f15ccf1cce7970d1eb1b50d794d34be Makefile: link with -z noexecstack --no-warn-rwx-segments
-62cbf5d67183db02f611d8be068f83f6a8ab445e x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-28d14f26431d140db00144eeb275327d7072e6c6 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-f26e63354f6acfe015d3e937c7d6f9daf27fbefd wifi: mac80211_hwsim: fix race condition in pending packet
-6ac83435f60dc2350b541543b6f713bc2d5eed5f wifi: mac80211_hwsim: add back erroneously removed cast
-e89c89cd4fcc7c7083530302b97cbd526cc09845 wifi: mac80211_hwsim: use 32-bit skb cookie
-04d8570d6c1e342d9230db17bc4168b8cb96f703 add barriers to buffer_uptodate and set_buffer_uptodate
-47719dd3f2519d01e9d0396816430e703ab7cf74 HID: wacom: Don't register pad_input for touch switch
-a58a8c7bad8a9760817435d4ddcf409a788e16ad KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-b4be66b875b3add1b08fbb510255abd73b8a558e KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-494efed599be382263f6bcfdfbe9ba2505e93b3e KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-cafd74b4b59bba56ec76e2316dce25a715c79434 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
-ab42813690f93310ad4c0ac5eb88e573e036d3a6 ALSA: hda/cirrus - support for iMac 12,1 model
-f4e07cc3f5831990caf81d8f77f18c10d1af224a tty: vt: initialize unicode screen buffer
-5071a359c6ea5672b08aceca9c686886191f96ff vfs: Check the truncate maximum size in inode_newsize_ok()
-9c7b1b58c52775f701577cf92ce5a98c44442470 fs: Add missing umask strip in vfs_tmpfile
-ac51b788196ee243030d2e7740f6fce8fb8abbe4 thermal: sysfs: Fix cooling_device_stats_setup() error code path
-684f75bb7d1f63ccadab1a47f5e4b5c86d60a633 fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
-1e3a6e90a65e252d5fdd67a97a2d71900375e9b3 usbnet: Fix linkwatch use-after-free on disconnect
-b604dc1e30cb7683768a36f85b739abca5d977f5 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
+46ad380a48fd65b9c974706055da9d055239ad0c Makefile: link with -z noexecstack --no-warn-rwx-segments
+20716af4a46eb602743d688be69622550d48fa1f x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+43b2bc2322df10f9c9f3e5de27c419f795d9f01d ALSA: bcd2000: Fix a UAF bug on the error path of probing
+ffd7d054590ac8491623756068ed27feb3b026a8 wifi: mac80211_hwsim: fix race condition in pending packet
+b5db5455d1d4f22f2000a48aa6b4a2797b33215f wifi: mac80211_hwsim: add back erroneously removed cast
+1dd06323428d3cf19560857aef24cc3216e1fcff wifi: mac80211_hwsim: use 32-bit skb cookie
+797280dc170a6691234e334f2a11bcd5fe6fdccb add barriers to buffer_uptodate and set_buffer_uptodate
+d916952e7ac99cb5c3759bc9feeb52c433e2c095 HID: wacom: Don't register pad_input for touch switch
+7fb7d3e17ae57a4ec2b5f82bb4c1a935a9ffe878 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+0d92bb3d7c00a6f12fc03339dcf81cb7ffaea7fa KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+067675bf06ffb9248cb060de703c41e0276d44c4 KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+cc39b20e2266b58d5ffcdc98f5b8529ee70647de ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+9ff7ddbbd8b1ef0a28ea4e93215ca818174631a5 ALSA: hda/cirrus - support for iMac 12,1 model
+a70cbb6cf6f42cfacd9d89677d1269bf4e9ac874 tty: vt: initialize unicode screen buffer
+34cfd3405837fa0805d51379722ed99b80678ff8 vfs: Check the truncate maximum size in inode_newsize_ok()
+23476b0b29a9605b9043a41ffe3bc5a8cbae250f fs: Add missing umask strip in vfs_tmpfile
+2d2cf9ab93d94b3afbde5b4db52627e678e63383 thermal: sysfs: Fix cooling_device_stats_setup() error code path
+2dd37236fc630e7ca3addf2d446acf813f910aeb fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
+ead1217e46b9c0efdfb934c9d7256d13cee3fb06 usbnet: Fix linkwatch use-after-free on disconnect
+60316b43bdf977417f5a23c1e1da5266c0354a29 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c48fae991611-1b79cdabed3f.txt
+Content-Disposition: attachment; filename=revlist-1b79cdabed3f-77ac6ccad6c2.txt
 
-a9596553c258aa6d84d029d6f9e62096c6d50d9f Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-e604662efa0badc0a710edd9d77a7e74e11c759f ntfs: fix use-after-free in ntfs_ucsncmp()
-a4392409638265dee6a7246aae8ad750069e339e scsi: ufs: host: Hold reference returned by of_parse_phandle()
-32035636cc15b313af8b388cae8a56c60d5bf593 net: ping6: Fix memleak in ipv6_renew_options().
-80b3c8bbbe76e36ed5683bc76df9c08e23097552 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-e35e5585ee7c6f6d0f24a2b4ff88acd8b503e9db netfilter: nf_queue: do not allow packet truncation below transport header offset
-9f63914cbd9447f51b3e2f1cc50ba070ca6fb1b7 ARM: crypto: comment out gcc warning that breaks clang builds
-55299b4f5820931e14303d0d32244be443e36238 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
-bfed8f5f8608f6de4b1e986a4fa00d93a6213815 ion: Make user_ion_handle_put_nolock() a void function
-8e4ede36062fbd526fb92ab11f8b4f699560f756 selinux: Minor cleanups
-f10e41386f6c162b833b27fd94dc5893e3fb9403 proc: Pass file mode to proc_pid_make_inode
-e0e5d49993fca587d3333813844daae5aba02b20 selinux: Clean up initialization of isec->sclass
-bacb141bff7f5c4780c6a25a6ca20b8eaae10560 selinux: Convert isec->lock into a spinlock
-f2fa0400e1ae7fc788550434d307d7735ae8907d selinux: fix error initialization in inode_doinit_with_dentry()
-aac53ef3b0313c368795f6cb4e350d1ed0b5ec8e selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
-d028cf468be5b74946f0d6700254963ce7e3fb08 include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
-e2e4a8dca397520432891d789750de404d8c4208 init/main: Fix double "the" in comment
-808aba8a39d69377ea46484db75dacddfe088f81 init/main: properly align the multi-line comment
-71eabe13b13b2519fafc5216d425c2568ecbfad2 init: move stack canary initialization after setup_arch
-ad4b61ec514cf7d360bb5d9c68da41d33696c23e init/main.c: extract early boot entropy from the passed cmdline
-5d41d46da0878c24b04a570019879f0d90f56ab4 ACPI: video: Force backlight native for some TongFang devices
-ac1afb35da2247d03a917da5d56f28fe871a6936 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
-c00709770209183e5efff70eac5fbc04bdcf0d01 random: only call boot_init_stack_canary() once
-659d7e65d761f9588d6fba40f97d5c89d0e0e100 macintosh/adb: fix oob read in do_adb_query() function
-092b8df03c0338b366b655385e2223740a38f120 Makefile: link with -z noexecstack --no-warn-rwx-segments
-d88cff2de8a04ff273d52aff253f35c461d8aa1e x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-2fc29723bed8a9d40228164b6c560c59e16bdd42 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-5f1551e2bc5f2efd133e366775c2611928c88fac add barriers to buffer_uptodate and set_buffer_uptodate
-74c59b14d3e673fe129dc1adc8ad2c697fb0ab26 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-972edaef23be6673542cdb2f334af77dcc32aaec KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-9db3e1e0ffb716dc26b72b2a6bcb2652e25168d8 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
-d0f1ec1d49282956d5e84784dc5b86e3c3d20039 ALSA: hda/cirrus - support for iMac 12,1 model
-11f11f519ebf0ab66a62ab0a7a936808eecc61e9 vfs: Check the truncate maximum size in inode_newsize_ok()
-1b79cdabed3f57f7584a95c7519e4ee61e1469f9 usbnet: Fix linkwatch use-after-free on disconnect
+567a6f94668535ca939525a887ed65c937e983e5 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
+dc4bf3609449bd85a04462d024a1896057aa27a4 ntfs: fix use-after-free in ntfs_ucsncmp()
+febad94b671fc149ca39cd21143d4d9877c9682b scsi: ufs: host: Hold reference returned by of_parse_phandle()
+4ed48637b5ba817ab7e4be38efa958565e64dc03 net: ping6: Fix memleak in ipv6_renew_options().
+e0dd4c6c3487d72440de02a23de78aad2b0d0fc4 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
+a588914ae19fd56a040a393ad2ea1f1b6926b187 netfilter: nf_queue: do not allow packet truncation below transport header offset
+59c5289814fc1fce2f6e8500264c766e74b315d2 ARM: crypto: comment out gcc warning that breaks clang builds
+f60c7f770a44321259ee685061350030a80ce477 mt7601u: add USB device ID for some versions of XiaoDu WiFi Dongle.
+fb6d5ee5b2aaa19cff59ff9bbf64d56b17824189 ion: Make user_ion_handle_put_nolock() a void function
+a0b8b9a737ce17fb4a8b3c039e32bc07d26ca36d selinux: Minor cleanups
+46eaab2f8d17af9124678abf9c8420f2d5ddd45e proc: Pass file mode to proc_pid_make_inode
+4783bc06ca675142b3987534872b2193fc932252 selinux: Clean up initialization of isec->sclass
+239e4d9043c07c9881cf6959ecd878f69dc1241d selinux: Convert isec->lock into a spinlock
+1d345a61df0ddcde4bbea2895f228de8fda700e3 selinux: fix error initialization in inode_doinit_with_dentry()
+f09b8bacfedcb1651ef1cf1f6724c6bf59fcb72a selinux: fix inode_doinit_with_dentry() LABEL_INVALID error handling
+e886c76b0abf265fceb1a4332456ac06bb340bfa include/uapi/linux/swab.h: fix userspace breakage, use __BITS_PER_LONG for swap
+2291dfbf88a91080a4ef305e9daf4f6033fa5ac7 init/main: Fix double "the" in comment
+bad792a9175af623542e7570aaa19620f11ae016 init/main: properly align the multi-line comment
+1dd9e3107d5f1ee2d50ebfa355f8d21afad29eba init: move stack canary initialization after setup_arch
+b60326b2e38015ddb3da2932c82f2b07ebe09ca7 init/main.c: extract early boot entropy from the passed cmdline
+8bfc4fc6c7cb7ff586ae94ef2c0d897a4a5d5f40 ACPI: video: Force backlight native for some TongFang devices
+3ae3ec3cde56f62bac1f3c346b5bb27252b77144 ACPI: video: Shortening quirk list by identifying Clevo by board_name only
+3ed2ebca511b5f5a545e9147eb92a392dab3d49c random: only call boot_init_stack_canary() once
+655c8d25f52a6c7bdfc8d8947d050628ab909812 macintosh/adb: fix oob read in do_adb_query() function
+d16a67ddfcc69ca8f236ab00e70d0ca4fd054be3 Makefile: link with -z noexecstack --no-warn-rwx-segments
+c94c9f1dde68e9af45b8dbc8ce61172951b6069f x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+5bbd8cbcffeba78081c1e3884dc66d58afd2a603 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+5cd060dbb1fabadcb7c21e9b3dca037f61a29611 add barriers to buffer_uptodate and set_buffer_uptodate
+12758df3d8676c17889c4a042a5221e30c0670ed KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+576b3bd0eb5684ca2be343f85bca75c5c1c9d2a2 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+e4c288ea15ecdcd451aedc17e23f1d5df32af367 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+a5f09d85d68cbe442bf6d5f0c9c64c7632f41838 ALSA: hda/cirrus - support for iMac 12,1 model
+c16c1d6396a08e02af0603bd4d6548a782083d73 vfs: Check the truncate maximum size in inode_newsize_ok()
+77ac6ccad6c27dba9f837aca1e58066cbee93f0c usbnet: Fix linkwatch use-after-free on disconnect
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fb4d8bec539-da269a0363d3.txt
+Content-Disposition: attachment; filename=revlist-da269a0363d3-ddc40a43d706.txt
 
-bc9f4817bb9427d66432d3a4a5e48443bb5cbe94 Makefile: link with -z noexecstack --no-warn-rwx-segments
-6c1b0a55fe2e4a11b1d4164761d31f388b9d2261 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-efab6394e9c081283db70dd64e1d853c51f8bcbc Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-4f716044198a33524a342b6a8de8dad992c0ab00 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-a9744445ab3fcb7a342aeb1ab206ed5d6a8470e5 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-5875bdbec9a48399db344b01835e7fff43e5f78d ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-a500f07f878e653a615de0b23053841efc075c7f ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-c0bf056986d10bf2f8d1abf9e8e8ddbb6e0dcd6f wifi: mac80211_hwsim: fix race condition in pending packet
-c8506bca4ac9bcdf5687661233bf0de29a8b5c66 wifi: mac80211_hwsim: add back erroneously removed cast
-29751c69e210d3cf51cc085a4d897768ad09e992 wifi: mac80211_hwsim: use 32-bit skb cookie
-8f32ff55061ab7e77b3f9dc434e7f3e42860ac7b add barriers to buffer_uptodate and set_buffer_uptodate
-2349c2e37d619d0095497a95143a3b5caa5e60fa HID: wacom: Only report rotation for art pen
-b44440fe72c0fbeffe6974b68487e420a2129e20 HID: wacom: Don't register pad_input for touch switch
-722d83d988a63a804511139358841e9dc7c7c01a KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
-6257d528b9848013a6757d558497093787fce62f KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
-a139289ae117a1e9513f120c3efcdae3e3fe4360 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-6c9664b4396251d2628c7d06e5cc5d00cb4974b7 KVM: s390: pv: don't present the ecall interrupt twice
-41d4afb038b0584faa00c49e53d038ca028589e2 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
-96205c28455e6d06a0b5d0369a43746b79e96158 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-6b375099903935053dfb4f04ef14b821a9e9ae61 KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-d7984cff700249d8874c62aac872d22286ae428b KVM: x86: Tag kvm_mmu_x86_module_init() with __init
-638f0b13c73864c8fb37babebedffc8015289d05 riscv: set default pm_power_off to NULL
-53d86f79eafa8ad6bc5cf7e95294a4e0ff472c7c mm: Add kvrealloc()
-7e5f79c43a1c02fc3d7c26d336e13cdcf389b358 xfs: only set IOMAP_F_SHARED when providing a srcmap to a write
-da269a0363d3b76562ecf456641b5a05c0efd871 xfs: fix I_DONTCACHE
+136dade0e0a55885d413701bc2618ef8f28e22c7 Makefile: link with -z noexecstack --no-warn-rwx-segments
+4befc5f92f3d84806f6bef8605a3c7a700310a39 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+787ad84b24ab53ce524f9af6eeac57b2dd34ec96 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+f9e45bd7a28f0ac57d65f85ee61169f4487b2bba scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+72e895274b979aeb5ad76d61091989f80104d80e ALSA: bcd2000: Fix a UAF bug on the error path of probing
+b4d08aa3562d5c43e3f342f893cd3015abf1b697 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+03065655fa8ed9762bb8dd254d3e19dafa2f812f ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+aad056f2b10b3a605f4d4f489a34c20803add275 wifi: mac80211_hwsim: fix race condition in pending packet
+549b4352894612afe111f3b79fd599d415de36db wifi: mac80211_hwsim: add back erroneously removed cast
+73c7f27bbedd413c2fdceeae59ab0f2c102c31a1 wifi: mac80211_hwsim: use 32-bit skb cookie
+fca6f7ad3103839561fbb328d33af77221bb960d add barriers to buffer_uptodate and set_buffer_uptodate
+4db1ddd27eabba69be34ab4631facb7318fe5fa7 HID: wacom: Only report rotation for art pen
+e654fcfc0d4d9ca3466c83575572289a4bcd02a8 HID: wacom: Don't register pad_input for touch switch
+9aa841ddc9cef83bea9031094fd8bff30c7d7116 KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+050ba3341a3c61d6c5071cfc572c2bdb6bab7ded KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+fedb66c863b7a6df1a691d012be43096fc097d88 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+9bcd7f395181eaddc4e72cc2a296caba46227b75 KVM: s390: pv: don't present the ecall interrupt twice
+b30d255f6e5ff95f89e219b041e8500d91ae3c37 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
+38d42fd929460aec60adc6100ce36b628b11c0a0 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+c5698f96c7e56e96f9d04a865929fc080abc1474 KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+a515049d9cf5f9397263dfb91a71e9d873c2355e KVM: x86: Tag kvm_mmu_x86_module_init() with __init
+fe7621c8191f0f05b1057a1eb0e7dbe1843d389b riscv: set default pm_power_off to NULL
+617b6f356accd60df0051e86a97b5ec2291233e8 mm: Add kvrealloc()
+2a60b0d4ffc99a89e4fa7ab6962851f4194543e1 xfs: only set IOMAP_F_SHARED when providing a srcmap to a write
+ef642dfca7acb168b2c18acb47756248534b2293 xfs: fix I_DONTCACHE
+63509e44d5cb38b9467d090a3d4131f515bbd8ce mm/mremap: hold the rmap lock in write mode when moving page table entries.
+ad4c9ccb098e2707f6e00be5cd4b5a8931f1d8a4 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+e353a3c5ae07c15d48220f1ef2583551468cac68 ALSA: hda/cirrus - support for iMac 12,1 model
+f759216deeaf16d94cf2f1311dffe171b541badc ALSA: hda/realtek: Add quirk for another Asus K42JZ model
+1683298ebacfd6cc88b4e19f5f20f431d0478406 ALSA: hda/realtek: Add a quirk for HP OMEN 15 (8786) mute LED
+400daa2bc48239293b58f5272c2c0809d1e28ead tty: vt: initialize unicode screen buffer
+6a5d9a8f5797cf855b3e7426c74f1968e48c37d4 vfs: Check the truncate maximum size in inode_newsize_ok()
+f41632009c3f39d985ec5746314760ea02597d31 fs: Add missing umask strip in vfs_tmpfile
+47c700658cf8167a89dfeeac84cd647c597133d9 thermal: sysfs: Fix cooling_device_stats_setup() error code path
+0711891bfc410f08fa5b4c0fc12f509ff6cc2b1b fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
+bc21f04d08ab706c80d6cf3563890f82e9c45862 fbcon: Fix accelerated fbdev scrolling while logo is still shown
+0f8fec475998e96848e836377e50be759bd99e9f usbnet: Fix linkwatch use-after-free on disconnect
+ddc40a43d70664d285c38e094783b72bae52aa8e ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a37704dd94ae-c9354b1cbd6e.txt
+Content-Disposition: attachment; filename=revlist-c9354b1cbd6e-789367af8874.txt
 
-216b7baea85c5c37741e3825a16da0a74c8b90a7 Makefile: link with -z noexecstack --no-warn-rwx-segments
-d18f5b0a8e4ce7078b3b2f61427ccb975bcb2efd x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-bdfee32a004ac2418ff262cee73b98533ad5a7e6 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-e94d282ff225714c3e25b804e326b504a3145573 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-f2d672455d9b4c64f39f8b0be8472f82bcfc4ffd pNFS/flexfiles: Report RDMA connection errors to the server
-c4ff55983184fb4d275b6d269dca9c8287f95d9e NFSD: Clean up the show_nf_flags() macro
-1d83d2eb0c887748aa2552b9d0e0bda060d97bac nfsd: eliminate the NFSD_FILE_BREAK_* flags
-cdcfa2a0c8b20ebc41d951ea5adc6bb03e8eb265 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-94ab9ecac2796a810f8c5d38b5d141071d7de9e2 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-877556b90352f8548f93bfeb87de897762d16683 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-4ac1fc6c4cebcc85effcb2757e0338ce22e1ef5d ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-8af4ef372ab93b30383286091bb3a43c800a6f54 wifi: mac80211_hwsim: fix race condition in pending packet
-48b797331d560ae1febbb37dbd1d470f6f85e558 wifi: mac80211_hwsim: add back erroneously removed cast
-a51f14209bfe5cef6cc33726e36a9221f7007aa4 wifi: mac80211_hwsim: use 32-bit skb cookie
-aeef89e475516323eed575271536d0b2d383b041 add barriers to buffer_uptodate and set_buffer_uptodate
-3be223a881b1dd81458a8852b2811a77dbacff51 lockd: detect and reject lock arguments that overflow
-f0eff70ec0245457b9ebb9b2ff41a02585f0a180 HID: hid-input: add Surface Go battery quirk
-0fd0f92c83228fa0f76fb20a859b0a83e31a9be8 HID: wacom: Only report rotation for art pen
-e6934de5f56ccea66c24e4e328d4aec8f5e98e3a HID: wacom: Don't register pad_input for touch switch
-007e6ce79c2155d8e7b8094525623782a918d7db KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
-4149852904bd0e98c89604153383eb9b84543df8 KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
-22c630fc8d8ce227c59ff12f38df39f78a3d3ada KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-7e6c6a2211c33d7268edb258e02806ba5746313c KVM: s390: pv: don't present the ecall interrupt twice
-51ea3d6e8cb42f17e42b8c85612884899bfa84e5 KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
-d9754d9abaf3a84c4c72a6fc24deacb1502badd4 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
-410d110554932723611644872b540b88454446a4 KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
-57a5f4b819eaa9d54060544b7c3bf6b0de088a28 KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
-a559158de03008f5d7db0e1e3df5a81e5400bd1f KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-084b71f4173f1b7d6e54a85c3f3cc50f7c9d54da KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-08fe3eb3270c5737bfe61c7184273ed52fed98cc KVM: nVMX: Always enable TSC scaling for L2 when it was enabled for L1
-948e90a4ac795ff0627c787b9a99405880653eae KVM: x86: Tag kvm_mmu_x86_module_init() with __init
-4b6a24e48953c1937e6c746fcc0f571ac8efebda KVM: x86: do not report preemption if the steal time cache is stale
-0a420780ee2fb527633f110f7d7727d2ab387508 KVM: x86: revalidate steal time cache if MSR value changes
-c9354b1cbd6e1943ad56d4757797f80d77a0f734 riscv: set default pm_power_off to NULL
+a15aba820759915faf15edcedbfbeda0d8e01e5e Makefile: link with -z noexecstack --no-warn-rwx-segments
+c343e5873e65d47db7ceeca727459b200727ad9f x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+b291c46fa76ee8a37da827ee3c1d65ea1f333ed7 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+94373721384733803741a7f30325b4038cfe7c56 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+cb79abb4eb1cd98139b41c6816d851362ee06df6 pNFS/flexfiles: Report RDMA connection errors to the server
+7bed365218dc3e6437c9515f81c45617c04dba7d NFSD: Clean up the show_nf_flags() macro
+711d6c592c57d5eca6135d0e93305c24f90b7091 nfsd: eliminate the NFSD_FILE_BREAK_* flags
+1f2608f07347aaee294bf1354ef660c6e57fb3c6 ALSA: usb-audio: Add quirk for Behringer UMC202HD
+e01c951a242ee1b5eabaf720adff7c20d6c8628d ALSA: bcd2000: Fix a UAF bug on the error path of probing
+a06ac04827fda1af8b827fe75cb5264268c6c7ad ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+0c9370a897e71487c011db106ce565de0bd3ac9d ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+cc80fb72441eb2b09be6d7de07d01b3f052d55a6 wifi: mac80211_hwsim: fix race condition in pending packet
+5892d871bdc74b902093923a5fed79b055ef49a0 wifi: mac80211_hwsim: add back erroneously removed cast
+9cbabe7ca67794186d4fa5302f53d2b6e25f1551 wifi: mac80211_hwsim: use 32-bit skb cookie
+4e669c7ea51d39bc3577b5d0166dc33513a8b71d add barriers to buffer_uptodate and set_buffer_uptodate
+33b5846eb5ccb455a510bf353c65862c5162e9cc lockd: detect and reject lock arguments that overflow
+952399511a71e65de60da0428e1a23c4d294e088 HID: hid-input: add Surface Go battery quirk
+0221127e11d047cb96ac8f73dbe7ad633f34139e HID: wacom: Only report rotation for art pen
+8e8bd2bb233518634a8529bb85c5483df9cd746b HID: wacom: Don't register pad_input for touch switch
+84d54f92c119e26a6129a4b106ee33756dc3b441 KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+b0553a4d5c8a45e1e0a737d5cdeb3a3be63fc24e KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+3c02d3bc9eb0eeb76c4e219657a94841b2b8dae5 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+43724d2a0312e603b3e8a32cd5204cd84ad6c5df KVM: s390: pv: don't present the ecall interrupt twice
+255c680287c1a4e4e4084752d59d5429c8b1c35d KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
+74f6c55b454bffb2d8c3233250f92bde11cc2316 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
+dcf5e8897f47f0c61b2357e4429be6ebfc44a162 KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
+41b9a9c159e366b8229c359d7840fee2d7147a29 KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
+1ae5936b28e8a403c511e992bbf78390d7d08043 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+9a050e2c76fa00f1d4a5d17c57a08d361b0784eb KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+2a509d4e4fa13bdcefd2159696de668aa7235469 KVM: nVMX: Always enable TSC scaling for L2 when it was enabled for L1
+b7468f6e1ab05b331152ffead4351892d4b15954 KVM: x86: Tag kvm_mmu_x86_module_init() with __init
+ba4f5d94e0fe31d08606bce6b677a3709e3f2621 KVM: x86: do not report preemption if the steal time cache is stale
+cebb1d2146bb79a27d98934687cfc89302bc01fe KVM: x86: revalidate steal time cache if MSR value changes
+7c8a1e31ea49871ddfc6548bf5cbb6567e6b4d17 riscv: set default pm_power_off to NULL
+d85ac024fb55c8320ebcc6310e23b03ecf08c849 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+f74d33a03b5251f235b4f148d053a2d7c7c2b3b6 ALSA: hda/cirrus - support for iMac 12,1 model
+3d9a4d8330ec240d8e11605d70988759fdc5bb0b ALSA: hda/realtek: Add quirk for another Asus K42JZ model
+4e89a9e55c381f455c37523ae172424e0f7f0b4d ALSA: hda/realtek: Add a quirk for HP OMEN 15 (8786) mute LED
+049e322564bc0599464bd2893ffb25490cb28851 tty: vt: initialize unicode screen buffer
+c80eedba12f745c84043dcac24fec3283943bd3c vfs: Check the truncate maximum size in inode_newsize_ok()
+5d40224ca0f6c96e0fdf0ca0675dd46b2fe9eada fs: Add missing umask strip in vfs_tmpfile
+3b0b6ba8098eacf3f1dc4fab5c5521e8413c821d thermal: sysfs: Fix cooling_device_stats_setup() error code path
+cd7512f8f0a1949f4085ec425950eb01faa0a799 fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
+ea9d13acacc0bcdcf858ee1f5d3012bdf178f822 fbcon: Fix accelerated fbdev scrolling while logo is still shown
+e23d9489f8fdfd3473beabab00354bb30d472abe usbnet: Fix linkwatch use-after-free on disconnect
+2316b2d67c28e8906497aec144e1b8a87ac46e9c fix short copy handling in copy_mc_pipe_to_iter()
+467d49dd46999e775163b8baf2e13e6d1f349e9f crypto: ccp - Use kzalloc for sev ioctl interfaces to prevent kernel memory leak
+789367af88749bdf67368a0864c64ed9f82d8701 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f1224c36765-a6eac8e3d948.txt
+Content-Disposition: attachment; filename=revlist-a6eac8e3d948-185ae35b285f.txt
 
-6c7ddc236aa3dae58cc4bf096e78f9096169d6d1 Makefile: link with -z noexecstack --no-warn-rwx-segments
-4a6b6004e3db3339200ee4bae361c1c755c7b543 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-9edf9efadd9b3446eee6911e21fba43860f961f2 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-7336567ce91a7a46f292b9f4c8fa04ec83be5073 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-cab8aaaf6f8a5238608eef9068e82ac396ed6d22 pNFS/flexfiles: Report RDMA connection errors to the server
-1b7d7304a9959e3dd3b549dfd1ecee45e146a848 NFSD: Clean up the show_nf_flags() macro
-c037f6b80576a9b82bf52f8d1ea9eac40a7f1351 nfsd: eliminate the NFSD_FILE_BREAK_* flags
-df7090fb12f821951499e9f24a8580f7cabd6298 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-f01f895bf9741598f928f704dd0d123276d51aa4 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-4eade98c92294468069b35ea9384edba39eebb78 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-387849ebbea1bde966a784fe65151842bcc95288 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-243955e4dbf584baf6c35ae3ed579077f56a93cb ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
-8b153f7e5ca56251d37e5d1628a8093feb3871bd ASoC: amd: yc: Update DMI table entries
-19cfe1f3265c7bd3027e23358c6b99f3d304751d wifi: mac80211_hwsim: fix race condition in pending packet
-64a17b89c0fe0af085b4a189b87a8d3b5bb97f2c wifi: mac80211_hwsim: add back erroneously removed cast
-809cb8988b72b3f67cc043754562dd947d3c0217 wifi: mac80211_hwsim: use 32-bit skb cookie
-661c8ca16cf2bbc46d4c605d7c4b1eea1866a54b add barriers to buffer_uptodate and set_buffer_uptodate
-bdf7fca0f44300c1aa1f9256824db903f25a43fd lockd: detect and reject lock arguments that overflow
-2d5ebe663a8c6d242e5df5132a268fe31f887ee3 HID: hid-input: add Surface Go battery quirk
-c592ca38853e875fd1b34114d22f1bc7cd044dc3 HID: nintendo: Add missing array termination
-b988ac2a493c5b3a8570153f1076fde801066c9c HID: wacom: Only report rotation for art pen
-a26898bf243a5641f2192f530a11cf517b329a39 HID: wacom: Don't register pad_input for touch switch
-c1651c6e80cf7ffece0959f869f57990bbeb665c KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
-6ea455e0d7ddf2cf10fbd54b822d276326e921d1 KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
-d1fbdcfedccd52b6a53f8e5c2cb598ad2f938f57 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-c103e86029e6dce729cd273f59602d7151ff80d9 KVM: s390: pv: don't present the ecall interrupt twice
-f7fc3618dd7a5a01808b85cdda2a57f8351f3c66 KVM: Drop unused @gpa param from gfn=>pfn cache's __release_gpc() helper
-02ed46643d5c4fa8bebabb7f173cc9c7f2c2cc98 KVM: Put the extra pfn reference when reusing a pfn in the gpc cache
-8a45e024b1e5f95ccea863a1f770e44b303aed87 KVM: Fully serialize gfn=>pfn cache refresh via mutex
-839a71cc0c2b115e07567d5677c3746c652cf3a0 KVM: Fix multiple races in gfn=>pfn cache refresh
-2e3f60ca0f64915c12fbbb583ca9757242f3964a KVM: Do not incorporate page offset into gfn=>pfn cache user address
-d3f281eac89ab3708589dd0b5b2be510f82b556a KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
-ba826a1466587bc5ff6b96ba8dc7a65fd36cc87b KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
-8677ff74cdb4df181a9602c2fbeb0cbd05eb86cd KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
-975365c5c14fe68723a486151c2ad85e78b5df9e KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
-2b3643c8125ab03269a95bec38143325589a6fca KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-33529e6f72b6668103fd4c55005e82dc20b61abf KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-9e3d6254d24132787684350f7ad339915eb09fc3 KVM: nVMX: Always enable TSC scaling for L2 when it was enabled for L1
-d0de1fad6d1a0683b1855596f1d6b3a9ee2d6013 KVM: x86: Tag kvm_mmu_x86_module_init() with __init
-2a2d4a1c8e35ec751c2821adaf83d19e7c9effc0 KVM: x86: do not report preemption if the steal time cache is stale
-a6eac8e3d9486228312f0cd7580db3136217b75b KVM: x86: revalidate steal time cache if MSR value changes
+acb1275cf0052a62f00e4ad94b6597804d387da1 Makefile: link with -z noexecstack --no-warn-rwx-segments
+3be63127f3ea9c296199a11508465c9a33bf6401 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+2d8c9589961718c336dbb35edfb6512bfd1378fd Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+b5e609dd6057734834ca91576d858c62a51b94de scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+1ec53ccffeaf1ecc1e317be9a6498da0562cd7b0 pNFS/flexfiles: Report RDMA connection errors to the server
+6fb3a07a2c421bdc0301333bff87de34c1591200 NFSD: Clean up the show_nf_flags() macro
+25686724034a7d143bc4b4b3129feac3e986498e nfsd: eliminate the NFSD_FILE_BREAK_* flags
+4025fadd15715abef85b62d4cd422614003c6c07 ALSA: usb-audio: Add quirk for Behringer UMC202HD
+0748b46c4de3d598b4629c0e0b25145f4be5f6f0 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+b3c340494708d13ea846e17c8fbc324e3755e599 ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+11a6090fa0872d2aae7f42bdbf8b8a759a3c9ff2 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+fb704806c9eb57f89f8ba63985c8515e3fa3bba0 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
+391f9872553761a5c8cd6c333478c8190e35956a ASoC: amd: yc: Update DMI table entries
+4e37837a6fb6ae2cfa9d513b2161cc5d4087bada wifi: mac80211_hwsim: fix race condition in pending packet
+078060be10952797d6cdfa4b1e8c2d00d5b29f2d wifi: mac80211_hwsim: add back erroneously removed cast
+743aa7ea138906575191649f02d0baec9e6cb3ba wifi: mac80211_hwsim: use 32-bit skb cookie
+73f7b4b4ea13ff87b15437ee0153f74da9649ec0 add barriers to buffer_uptodate and set_buffer_uptodate
+b50ba15f2bdfe34ee2e4e6c2bc029aedaa3c9b30 lockd: detect and reject lock arguments that overflow
+540d75cc5551d53dd05c32e03a5a63a330068c85 HID: hid-input: add Surface Go battery quirk
+38c2ccb714a94535a090ab44e553078b6e466955 HID: nintendo: Add missing array termination
+88cfebb1b4d31b91425560bcb95f69979cde0da1 HID: wacom: Only report rotation for art pen
+e50c166e04d4429c785c3ec8cbfb2f3c64c93569 HID: wacom: Don't register pad_input for touch switch
+600edc913cb32b33a48e2f3a0bc28a79c2d086dd KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+4d576c9b9dd2344119529d0279bc8f52a010f554 KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+1819107244983c864b17d7e9b9b06ea308f0f0e8 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+ac8b320e564296a3ec427084baa6379afc7562d2 KVM: s390: pv: don't present the ecall interrupt twice
+8347f546e6b94b6a017dfd64dc6d7d11b39dce61 KVM: Drop unused @gpa param from gfn=>pfn cache's __release_gpc() helper
+2dc72560f0b691010ed52e98438d214c83eb7b4a KVM: Put the extra pfn reference when reusing a pfn in the gpc cache
+496c3d980b57f3fdf35438a357741abc678cfa69 KVM: Fully serialize gfn=>pfn cache refresh via mutex
+e7ecdf789b3fbe721342acaa6348e4240c9544ff KVM: Fix multiple races in gfn=>pfn cache refresh
+612aae21f62982607bd63c7ff694f791bd042702 KVM: Do not incorporate page offset into gfn=>pfn cache user address
+9c698ae0721d5f694369cce1b7988c5a50f142d6 KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
+a7f94662fa2270963b9af6e4eac42e2347656022 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
+8ce62be44ae7133ca314f4402d1f578e9a297196 KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
+c053e290a00390429fbfa2a8d10c6e9eed7ae377 KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
+0cf2fac3b07f1681fd7618729bfd61861538360c KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+f74a3b67bfb8db64bae10ec2c85d625e60bf560e KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+18c47122e8f692e0c7f40110108d072bf51d076c KVM: nVMX: Always enable TSC scaling for L2 when it was enabled for L1
+fa86a7ade3d9813a253dc1c294af1d92d6cf6763 KVM: x86: Tag kvm_mmu_x86_module_init() with __init
+5059d2155ca661d64b9aea0fe2ee268a2d7de9fb KVM: x86: do not report preemption if the steal time cache is stale
+1601854176768827fca17a91cce9e72ad1be9e06 KVM: x86: revalidate steal time cache if MSR value changes
+f9a7106be286509632dbbde9cd361dbab7bfe25e ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+7c14beaf648d14f0ebde1742c367dc6e49209ac2 ALSA: hda/cirrus - support for iMac 12,1 model
+fe9bb25d896ddd3ee1488a297de707a23d882138 ALSA: hda/realtek: Add quirk for another Asus K42JZ model
+7a499cbf99a84481bbc9df0ea94acf638cf067d4 ALSA: hda/realtek: Add a quirk for HP OMEN 15 (8786) mute LED
+4b4b03c7a0fd8d2f0653c27fd38908dea810ad54 tty: vt: initialize unicode screen buffer
+1c84afa5177754a208d8891e49b95f6308b3bc5a vfs: Check the truncate maximum size in inode_newsize_ok()
+149c10865af20c29e26b5f4078ccb359504ecee2 fs: Add missing umask strip in vfs_tmpfile
+477b0a9a4396bc7ca86434ae4db78d18345c5d16 thermal: sysfs: Fix cooling_device_stats_setup() error code path
+dfb13106d255ebc224894af17758b9368bee6189 fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
+f5b7377b62ddc22100164036f22611192100c114 fbcon: Fix accelerated fbdev scrolling while logo is still shown
+7cd82156c13cff4b036112a05fed78139c8f44e5 usbnet: Fix linkwatch use-after-free on disconnect
+743099ba2ee11abd5de5c5fa54fdc961dfff7f9d fix short copy handling in copy_mc_pipe_to_iter()
+ecb6f9b40deb0cf853243be65d0d5b64e94b9bd9 crypto: ccp - Use kzalloc for sev ioctl interfaces to prevent kernel memory leak
+185ae35b285f056f84404d47991252678b5ccd52 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80f2bac1abad-1be11a125e70.txt
+Content-Disposition: attachment; filename=revlist-1be11a125e70-bac914bd6e70.txt
 
-37366703fb4959fc2da7e7f35d64a4a5c7d8b373 Makefile: link with -z noexecstack --no-warn-rwx-segments
-69ee9bd97f38aec54d8b90f827f85ee853895b58 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-c9c46c300f0463c010f92d5e5eb9326f872e4a55 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-5338f0510f05f23ee7471d829c63ab3746fa704f scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-ca8b14c6512039812e3c1dff6e264a1802127039 pNFS/flexfiles: Report RDMA connection errors to the server
-f230c46b7272cd4ed253b7fe3b361315589867eb nfsd: eliminate the NFSD_FILE_BREAK_* flags
-0f69a75595eded2fe62295f36c5a5aa4aa0155c9 ALSA: usb-audio: Add quirk for Behringer UMC202HD
-cda7996213fefaf5a1dd5bf667d75a01703becc6 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-012dd080a54e6fce316abc566ddf477e485371ad ALSA: hda/realtek: Add quirk for Clevo NV45PZ
-864f74982dcbc18f317b964e6a0b92554d1eb7cd ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
-a296faf085857aeea415caaf41e6890034c150e0 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
-96e65976ba1a5828196cf285780c278cce0a5f6c ASoC: amd: yc: Update DMI table entries
-46c79b7fad6e2d5a9d99a833dd57848296426a25 hwmon: (nct6775) Fix platform driver suspend regression
-1ef1d37a208e9c93f79e7cc4178e8bc7fd00c079 wifi: mac80211_hwsim: fix race condition in pending packet
-55a4d3fbfeeb076c4a0b07ce5036d9e201ae137c wifi: mac80211_hwsim: add back erroneously removed cast
-fd8c9add66bd3de5117615260fce13b678c6d731 wifi: mac80211_hwsim: use 32-bit skb cookie
-17a6eab9e59ca53e641d0a4a3056d96e26ba68bc add barriers to buffer_uptodate and set_buffer_uptodate
-3c8a9bcf9ea88557416e455eb6551550ff9fd03d lockd: detect and reject lock arguments that overflow
-4eef5f4e5dfd070839d490741bc85de0db4bac98 HID: hid-input: add Surface Go battery quirk
-008bcb195b9ff6351475ff48ddc42e05c8bddd39 HID: nintendo: Add missing array termination
-d709d5b79b05c3c661934110ef896f53af350ade HID: wacom: Only report rotation for art pen
-b3422a1e8e9606f027da48dc659ac2e568cf69fe HID: wacom: Don't register pad_input for touch switch
-545632798e68bc01646830c43b091a18bb49ccfd KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
-d39510c66b4172aa1cee4807142181e0bb2cf0b9 KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
-83a2461473d40dcfab063de05ac327cc1d6f6a21 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-6623484a1027f48ab4a6c0f25727ebca3b607da4 KVM: s390: pv: don't present the ecall interrupt twice
-12a1a3995e9131035ff615b7875c4449079ce4b5 KVM: Drop unused @gpa param from gfn=>pfn cache's __release_gpc() helper
-1d3586b7030200de19a37ad1320a471fb544ccd5 KVM: Put the extra pfn reference when reusing a pfn in the gpc cache
-6cdea3c2d6d391cbe5eaa51c21a7835aa260cfe0 KVM: Fully serialize gfn=>pfn cache refresh via mutex
-83e037653f56324b7e52a6d0d41acd5e9936add5 KVM: Fix multiple races in gfn=>pfn cache refresh
-5fa43ec52d626c85328f4fbddfaeea4dce51e79d KVM: Do not incorporate page offset into gfn=>pfn cache user address
-9d39fafafee0b6f9a7c931dd577ac8470e3ccc46 KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
-4c7bb8f80c308667ac4d40f461d260405fdaac59 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
-eecfb28378c031ecc56fa32144c12ac52d9d4a48 KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
-284b0fa6b35fdd6cc969daf1f11345620fc76622 KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
-36fef3edbffe653d9a7dd2079679d493b7de2520 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-3964c9d2019a3e47340361e0fb16e5a6e57c05fc KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-97fa8d699c4c5dee7877dfbd0c7af38f0878ec44 KVM: x86/mmu: Treat NX as a valid SPTE bit for NPT
-69b5a8dbef0639560ffea14b9d7019fc02224e02 KVM: SVM: Disable SEV-ES support if MMIO caching is disable
-b33a72b5b5fbc3c30c73748e78856f4543ee8f97 KVM: x86: Tag kvm_mmu_x86_module_init() with __init
-ac2b2b9c5814a16505aea4118f45acfd7dc684b3 KVM: x86/mmu: Fully re-evaluate MMIO caching when SPTE masks change
-0924038f595605abb15cdc5012ce246db4235f29 KVM: x86: do not report preemption if the steal time cache is stale
-3be82a129e68a7fb4b150059b9cbad7ba9efe6f3 KVM: x86: revalidate steal time cache if MSR value changes
-be12e78523d9cca14732ddaf2521eb0f502b8d8a KVM: x86/xen: Initialize Xen timer only once
-deb5301020279360a6dbc49cb5ee7b0416481308 KVM: x86/xen: Stop Xen timer before changing IRQ
-15a47dbeaedbc0c179c8c092854ddf5e32923611 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
-8fd1ab37d762eb08442b2f90978d68fbecd16dd6 ALSA: hda/cirrus - support for iMac 12,1 model
-0d7161dcb45c1cd20aabab5eaa07204b92f59e98 ALSA: hda/realtek: Add quirk for another Asus K42JZ model
-667bc65e2e24b99c77e6bd27206a6facb71995b0 ALSA: hda/realtek: Add a quirk for HP OMEN 15 (8786) mute LED
-3c8bff63e97a90cff1a113902e71c743d7eb0292 LoongArch: cpuinfo: Fix a warning for CONFIG_CPUMASK_OFFSTACK
-e1df36ac5d532504032a9623c6ea234cf3be6b71 tty: 8250: Add support for Brainboxes PX cards.
-be8936751b720c244aac844ce4dcb5247839bb92 tty: vt: initialize unicode screen buffer
-e2d3fa77a9abb8b82852569a7d115dd0e46b382c vfs: Check the truncate maximum size in inode_newsize_ok()
-23dc88fd20ce44e7df87b6eb8f3dbbe97be4a903 fs: Add missing umask strip in vfs_tmpfile
-8c4653e32459fa9a07ab012ccf0771d308bcb1ee thermal: sysfs: Fix cooling_device_stats_setup() error code path
-d45b96e632054631059bb5f6681ddf0a868f23be fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
-44db5b967f7bea5dbe23496873bd0c630814f33a fbcon: Fix accelerated fbdev scrolling while logo is still shown
-454e944e2f55c5575af3ceff5bae26eaa899cab6 usbnet: Fix linkwatch use-after-free on disconnect
-e9c07a41000aa4a96372cbb5bc6ac28a105d3436 usbnet: smsc95xx: Fix deadlock on runtime resume
-65bfb917138faf22adc979bce260c2ffecd6d873 fix short copy handling in copy_mc_pipe_to_iter()
-33566f971cab0e3ebf79b417aaa0da5d2b814fe7 crypto: ccp - Use kzalloc for sev ioctl interfaces to prevent kernel memory leak
-1be11a125e70e1fbb47808f33572e049267a21fd ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
+d0390942d24a5e7dc01b22a22ab1156d7537e7c8 Makefile: link with -z noexecstack --no-warn-rwx-segments
+648ccea78664746dddc5392027e8af84103701c5 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+a9fa881aae206aa3619f292bda97e9afbdc138e9 Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
+6aeadebf8ed0415fd29f4c29a6ed64ee5057225e scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+95f920479a3bf5f45c73075a334bc55fad8ea1f7 pNFS/flexfiles: Report RDMA connection errors to the server
+667f7ac35b31176bc5fdcd423c1cecaf9af37948 nfsd: eliminate the NFSD_FILE_BREAK_* flags
+041450acb0bfd438dd22f50a4793bb35aa9c82d7 ALSA: usb-audio: Add quirk for Behringer UMC202HD
+96e947893e5808829965fa8efe9835a887200a68 ALSA: bcd2000: Fix a UAF bug on the error path of probing
+aa6399cff33705ca2f52072ee456858d1cd2098f ALSA: hda/realtek: Add quirk for Clevo NV45PZ
+46c00906caece3b45066783c4ec63378d24afe87 ALSA: hda/realtek: Add quirk for HP Spectre x360 15-eb0xxx
+ec3d96af5c26e7f811304395b14b753f93a39447 ALSA: hda/realtek: Add quirk for Lenovo Yoga9 14IAP7
+d657e5c8fd929bf6b492b6edaa38524f4cab88c2 ASoC: amd: yc: Update DMI table entries
+af49a2d93ca6c87909894abad9495f519d33f628 hwmon: (nct6775) Fix platform driver suspend regression
+46e3d8eca3887ecec9ed4358224fcb79f7438912 wifi: mac80211_hwsim: fix race condition in pending packet
+34f9c897edde9bf97b6738ef25a9eed990b01131 wifi: mac80211_hwsim: add back erroneously removed cast
+a089313f42ae7cb0c578bc619af26ad47d21a2ce wifi: mac80211_hwsim: use 32-bit skb cookie
+7e8982fc7a6c230514c5c85e77e4775d63821a14 add barriers to buffer_uptodate and set_buffer_uptodate
+1ad2777f1b3f9d2323c348aeae350e6f731a404e lockd: detect and reject lock arguments that overflow
+7a29347b7eeaf04a5acc5bf86d25542517f0177c HID: hid-input: add Surface Go battery quirk
+1e27a7675b4305d5aeec190c7727f04f42b2ac4a HID: nintendo: Add missing array termination
+40dd0ca5a3b9e9580882aab6fc4a5098041d5835 HID: wacom: Only report rotation for art pen
+86965a1413ec5edb9219a7956de105cfbb9c315c HID: wacom: Don't register pad_input for touch switch
+cc29432f1df2a6183c901de9fd12051794659c15 KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+9ca7523c6198a97f384b81508a3350b56aeb730e KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+9a0906f0c7d44db2260468af899871c4633e1a9e KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+db81bcfc5523807fb9b37f3b3f5364da4426083c KVM: s390: pv: don't present the ecall interrupt twice
+ebd9e75bc47024e27fdbc1b998490975068fe0f2 KVM: Drop unused @gpa param from gfn=>pfn cache's __release_gpc() helper
+6c48528249b82a2f9083c01cf3f3db589e7721a5 KVM: Put the extra pfn reference when reusing a pfn in the gpc cache
+9574782fef40d617964af6c64ac214e5034e3469 KVM: Fully serialize gfn=>pfn cache refresh via mutex
+8456dd3bce221994add4947ecf8923209e41d4a5 KVM: Fix multiple races in gfn=>pfn cache refresh
+b5961212db847abe9081a25573f51e0ef67598a7 KVM: Do not incorporate page offset into gfn=>pfn cache user address
+16a1a1c747cad0969cf63266df1dd2fd4f682465 KVM: x86: Split kvm_is_valid_cr4() and export only the non-vendor bits
+a5a457cc84dce819b9dcbce9d3d6843bcd2cfb14 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
+c19242da7fc990a3e4995eade360139be31e6c32 KVM: nVMX: Account for KVM reserved CR4 bits in consistency checks
+1a5635c3a0ff2298c472cdda97d5331fc9773274 KVM: nVMX: Inject #UD if VMXON is attempted with incompatible CR0/CR4
+61b8f3a0e177375c99aeaa48e49d3a47f7346ff0 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+9f1018ab3ecc8cbd3048656645c4180d83dc774e KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+a54930a6924dfdbfd2f5a765fe08a52683a8f18a KVM: x86/mmu: Treat NX as a valid SPTE bit for NPT
+8b4f65d088f6c1f06ebb861e2b79e093d1bb1469 KVM: SVM: Disable SEV-ES support if MMIO caching is disable
+9e90ea4cd08409ec68f77c40b2c22f6215c691d8 KVM: x86: Tag kvm_mmu_x86_module_init() with __init
+a4688e914aaf6af6512922c0442555bc0bbc198d KVM: x86/mmu: Fully re-evaluate MMIO caching when SPTE masks change
+44b11aaa6328941b76514d9a1df7a38c927ff504 KVM: x86: do not report preemption if the steal time cache is stale
+b7144e7e5b615b547a758189cf9f683257c5c098 KVM: x86: revalidate steal time cache if MSR value changes
+cef32d4e5669fc5b8371371a730f31fbbf612dae KVM: x86/xen: Initialize Xen timer only once
+e3ec4b0730807021fde8265bbdc14f1534293e5c KVM: x86/xen: Stop Xen timer before changing IRQ
+68741de6c90f414d8a4932e7f2b85afbad559f75 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+f1936a6b4358eedece99f6579f248159257c7217 ALSA: hda/cirrus - support for iMac 12,1 model
+abf624c6eec97122f01631f5f6231b741e520ad1 ALSA: hda/realtek: Add quirk for another Asus K42JZ model
+4f3a1a641d805dc54ebea8316b5f9f71d20e1e40 ALSA: hda/realtek: Add a quirk for HP OMEN 15 (8786) mute LED
+0b1bfa5f3193f252229eba76479f0bc9f815a812 LoongArch: cpuinfo: Fix a warning for CONFIG_CPUMASK_OFFSTACK
+9821dfa53888b1bf3d532e7e222593a07c384731 tty: 8250: Add support for Brainboxes PX cards.
+12b7fa4e62f41fac775499c7acfd7462f98634ac tty: vt: initialize unicode screen buffer
+56dc9b083eb7d5d3edbb7906fb1ff807e0c31fa6 vfs: Check the truncate maximum size in inode_newsize_ok()
+8e8b75a1963280bf7ad9b5e55c8fc7e4d28833b3 fs: Add missing umask strip in vfs_tmpfile
+d147d32ee8e1191d3016f582efa4028e05be2cd9 thermal: sysfs: Fix cooling_device_stats_setup() error code path
+b08fcc1f7019770df8a566641f1c21f18beeec0a fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
+7be6c516da547fc831ee3eef160d3ce0945d1897 fbcon: Fix accelerated fbdev scrolling while logo is still shown
+37dfebc7638f72e0d4e551b069a5ef4b1fa849ef usbnet: Fix linkwatch use-after-free on disconnect
+1d4f813c45a0f3c93f1ba62eeae325b201300369 usbnet: smsc95xx: Fix deadlock on runtime resume
+cc3502ec77e13d7e6b9259a3a7e0716c5d70af99 fix short copy handling in copy_mc_pipe_to_iter()
+8951a7af19177dbe5597deb5ab77413deb376d81 crypto: ccp - Use kzalloc for sev ioctl interfaces to prevent kernel memory leak
+bac914bd6e7055c9fdca879d09d0e7f715a1af88 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
 
---===============6161426841336529781==
+--===============3735307531797696068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22134025a36f-f6c3a1d446bf.txt
+Content-Disposition: attachment; filename=revlist-f6c3a1d446bf-92b2ec5abfa7.txt
 
-9168aa894ef11f408ad35854675ebc8d5e2b1323 Makefile: link with -z noexecstack --no-warn-rwx-segments
-d09de9b01f03b1b06e261228d4dc60f4db91ad3c x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-080f17601d892c7dec21dd99a93bb62252107e50 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
-b41d2559edf4447e26f94a41f90ea7bb16a04a80 ALSA: bcd2000: Fix a UAF bug on the error path of probing
-411dca7cfab322e2407671ab172e5c1bc5ffe0e9 igc: Remove _I_PHY_ID checking
-a2768e13bedcf47e00959af3b8501666e7262fa7 wifi: mac80211_hwsim: fix race condition in pending packet
-c018efdc1ed63c51b0b3a235ac6a2540afc010a7 wifi: mac80211_hwsim: add back erroneously removed cast
-640c19ee9731c70654ff5b11d183d71f2efa3b22 wifi: mac80211_hwsim: use 32-bit skb cookie
-c7cd5ceabff4bf1c7338b807aff822f221835471 add barriers to buffer_uptodate and set_buffer_uptodate
-8f258b11286cc7ba462cb4931e8706dab5daa15b HID: wacom: Only report rotation for art pen
-44ba5537cfd2eead562c1c23ce35b3f7f8656f6e HID: wacom: Don't register pad_input for touch switch
-7e412e20735a55f529e37c8ce26f2069f3394836 KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
-1e3f80f788b082a2a6eabca1e38d555e7b1924f4 KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
-2624f18a1c339c7300aadbcb8136016ddbb3f1d2 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
-9a18e03d4d96f6ab0d0bb7ef9a88ac67ada32cb4 KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
-5b54f99dc1247a9ccf6376db3e195ac4ecfcfd0a KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
-09767b57aad96adcf5e4c85cb28add5bf04a97a0 KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
-468b6e2f2716c6f86e4e6a3cc463d8ea6c786d8e mm/mremap: hold the rmap lock in write mode when moving page table entries.
-1f3a72e4f5b369331c6e2b5a745235eb85b9a252 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
-29f2f76e6e73b17fed45f9fea0dc41d1919ca59f ALSA: hda/cirrus - support for iMac 12,1 model
-8db8390a69325f29ca50e8fe5a726892e0363885 ALSA: hda/realtek: Add quirk for another Asus K42JZ model
-86585091ad55ccf7bc091599c4d3b27477aa731e tty: vt: initialize unicode screen buffer
-4fe4d2410834c7a5b48126cb42a96f300ae90719 vfs: Check the truncate maximum size in inode_newsize_ok()
-84c755555a4926c092c6549d4b1eee65e6e4f542 fs: Add missing umask strip in vfs_tmpfile
-635d0815f744afa3fd030fe73fd072d2bd0001cb thermal: sysfs: Fix cooling_device_stats_setup() error code path
-7f2e2b467de3fdfc3846feabe3022eba9df65087 fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
-bdb9f1c2b35c266da38fa778059b73337d36a767 usbnet: Fix linkwatch use-after-free on disconnect
-f6c3a1d446bfffcb3aa4df002b474d676e4abbf8 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
+f1768dcbc425c068cdd0d4a1361a38ec299d59c7 Makefile: link with -z noexecstack --no-warn-rwx-segments
+3114ec470c5922d463f66d78e45a32eecb9c243a x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
+bd599eb3390cbe00f97037e05b07a4c45c8671d6 scsi: Revert "scsi: qla2xxx: Fix disk failure to rediscover"
+013c58e5a1b2ae6ab16e094405749244bbea686f ALSA: bcd2000: Fix a UAF bug on the error path of probing
+6a09f3a4286a5b7023ddcbcedff27c1c3c0ffb36 igc: Remove _I_PHY_ID checking
+41c6a265a64683a24a872c73e46bf886dbec195b wifi: mac80211_hwsim: fix race condition in pending packet
+7a240d91a921f13d994408f79543207632528152 wifi: mac80211_hwsim: add back erroneously removed cast
+b48bf9eee11a2e7262ed38bb1def835f8b2b8024 wifi: mac80211_hwsim: use 32-bit skb cookie
+46bf4b4ef007f08562c570ec302a0319115b2c21 add barriers to buffer_uptodate and set_buffer_uptodate
+850ee66e8c6af83102421fb5b063a78f9a4135c8 HID: wacom: Only report rotation for art pen
+044d3f58579e7855fc7bf7e9a05dbd6dc9b4c076 HID: wacom: Don't register pad_input for touch switch
+184afc03750727382ade5e71094d341edd7e28bc KVM: nVMX: Snapshot pre-VM-Enter BNDCFGS for !nested_run_pending case
+bac31a472befa32dd23ef6468df4d9ff94925e69 KVM: nVMX: Snapshot pre-VM-Enter DEBUGCTL for !nested_run_pending case
+eb799ad41d92b73ec595e5cf896b8a4a5d3aa282 KVM: SVM: Don't BUG if userspace injects an interrupt with GIF=0
+f2f14673f18ae5401cbb7752a7752a11cac4f5ad KVM: nVMX: Let userspace set nVMX MSR to any _host_ supported value
+f1add83723b6949664bb22d60fd4ae70dfd86d48 KVM: x86: Mark TSS busy during LTR emulation _after_ all fault checks
+0ffbb2e7248a97b769d2ce17debbfb494ca814be KVM: x86: Set error code to segment selector on LLDT/LTR non-canonical #GP
+9c9e1d6d97b3ca1e6b75527db583a7a161ed9d7b mm/mremap: hold the rmap lock in write mode when moving page table entries.
+2531a360afc324ffd258ee19577331e4b541c7a7 ALSA: hda/conexant: Add quirk for LENOVO 20149 Notebook model
+2836f5066f2eb30b74faf21fea630456dea4873d ALSA: hda/cirrus - support for iMac 12,1 model
+60d3af856f69e9f00a259e9a74fece179b7cceff ALSA: hda/realtek: Add quirk for another Asus K42JZ model
+cb17e278ead9aa1705298afad71ac64404da3f29 tty: vt: initialize unicode screen buffer
+2568b702572d6fe28ab8459450b095000eea3a4f vfs: Check the truncate maximum size in inode_newsize_ok()
+fdf231c72f960f6cae3e3538e399a786a6889d7d fs: Add missing umask strip in vfs_tmpfile
+e973a7971c58b6d35feaad91bc5d7ff14387a709 thermal: sysfs: Fix cooling_device_stats_setup() error code path
+f51463ef675f365f0fb29c76fa0a53cfd727e1fa fbcon: Fix boundary checks for fbcon=vc:n1-n2 parameters
+d295418c68115e553a29f75ab61f0f492cd29b49 usbnet: Fix linkwatch use-after-free on disconnect
+92b2ec5abfa71aaaeefb9cd06cd588bc995d0018 ovl: drop WARN_ON() dentry is NULL in ovl_encode_fh()
 
---===============6161426841336529781==--
+--===============3735307531797696068==--
