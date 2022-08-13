@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8695645927663625895=="
+Content-Type: multipart/mixed; boundary="===============8764565542190941187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sat, 13 Aug 2022 21:42:46 -0000
-Message-Id: <166042696688.17728.15742636154690650809@gitolite.kernel.org>
+Date: Sat, 13 Aug 2022 21:45:14 -0000
+Message-Id: <166042711472.20177.7852407365936524530@gitolite.kernel.org>
 
---===============8695645927663625895==
+--===============8764565542190941187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/master
-    old: 35b51afd23c98e2f055ac563aca36173a12588b9
+  - ref: refs/heads/dt-fixes
+    old: efa310ba00716d7a872bdc5fa1f5545edc9efd69
     new: 69dac8e431af26173ca0a1ebc87054e01c585bcc
-    log: revlist-35b51afd23c9-69dac8e431af.txt
+    log: revlist-efa310ba0071-69dac8e431af.txt
 
---===============8695645927663625895==
+--===============8764565542190941187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35b51afd23c9-69dac8e431af.txt
+Content-Disposition: attachment; filename=revlist-efa310ba0071-69dac8e431af.txt
 
 e1af5c8155867e6773474649c76e5c68940008d5 leds: is31fl319x: Fix devm vs. non-devm ordering
 38ba0bb291aacd92d8eaa4a1aa8b63ce4286e797 leds: is31fl319x: use simple i2c probe function
@@ -1051,4 +1051,4 @@ dc72768ebf84b87fd26ad97dd3422c3783157a4a dt-bindings: iio: Drop Joachim Eastwood
 6c833c0581f1c15db2e0344da19360cba75a3351 Merge tag 'devicetree-fixes-for-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 69dac8e431af26173ca0a1ebc87054e01c585bcc Merge tag 'riscv-for-linus-5.20-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============8695645927663625895==--
+--===============8764565542190941187==--
