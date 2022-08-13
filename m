@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 13 Aug 2022 09:27:46 -0000
-Message-Id: <166038286608.10242.9535689314016148987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
+Date: Sat, 13 Aug 2022 09:32:49 -0000
+Message-Id: <166038316995.13604.3840339437026622920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/pali/linux
+user: pali
 changes:
-  - ref: refs/heads/master
-    old: 246bbf2f977ea36aaf41f5d24370fef433250728
-    new: 777885673122b78b2abd2f1e428730961a786ff2
+  - ref: refs/heads/pci-mvebu
+    old: e34aae85b9fad6f5ae08a6d72477bfd34ef10aed
+    new: c7aa072260ff5866c556a244599be0ccd7e3989c
     log: |
-         777885673122b78b2abd2f1e428730961a786ff2 ip6_tunnel: Fix the type of functions
+         c7aa072260ff5866c556a244599be0ccd7e3989c PCI: mvebu: Fix endianity when accessing pci emul bridge members
          
