@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3609425266796202230=="
+Content-Type: multipart/mixed; boundary="===============6053988522115469995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 14 Aug 2022 23:55:31 -0000
-Message-Id: <166052133159.25989.15868442026892383746@gitolite.kernel.org>
+Date: Sun, 14 Aug 2022 23:56:30 -0000
+Message-Id: <166052139098.26479.13822508108893020769@gitolite.kernel.org>
 
---===============3609425266796202230==
+--===============6053988522115469995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-syscall-abi
-    old: be47001d1fd5f4ca4b7c9add91d47cc27ec08c45
-    new: 8178e5c35dd9c047c5a18b3e43733b756dfa8e56
-    log: revlist-be47001d1fd5-8178e5c35dd9.txt
+  - ref: refs/heads/arm64-sve-syscall-kvm
+    old: 32453c18b92f7747381e9bc5d59cd0fef800a1c3
+    new: 7448b07fac3531777f3f53c368cd0072b523ef61
+    log: revlist-32453c18b92f-7448b07fac35.txt
 
---===============3609425266796202230==
+--===============6053988522115469995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be47001d1fd5-8178e5c35dd9.txt
+Content-Disposition: attachment; filename=revlist-32453c18b92f-7448b07fac35.txt
 
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
-59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
-fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
-e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
 b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
 2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
 6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
@@ -1047,8 +1040,15 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-f8bb39ba0b1a30a759954617eb6e26bb6987f8b0 kselftest/arm64: Correct buffer allocation for SVE Z registers
-d6ce6091e9a5c827b3f1b0d81cb350911e43aaf4 arm64/sve: Document our actual ABI for clearing registers on syscall
-8178e5c35dd9c047c5a18b3e43733b756dfa8e56 kselftest/arm64: Enforce actual ABI for SVE syscalls
+4643d1e251aee61b415f2452409c4a40a1e6e59f arm64/signal: Flush FPSIMD register state when disabling streaming mode
+14cb1359db5d8a11f26802813534330e53b5b49e arm64/sme: Don't flush SVE register state when allocating SME storage
+722114a29f14cee05e4c32546edf76420ec9c98a arm64/sme: Don't flush SVE register state when handling SME traps
+093a485cf07d432863dfe4fbd496d8296f9591b0 KVM: arm64: Discard any SVE state when entering KVM guests
+9e670348e379d28c49bb95cd17bc26b28460a574 arm64/fpsimd: Track the saved FPSIMD state type separately to TIF_SVE
+6d3130d30c54f09cfce7b59578fd5213599ae4ee arm64/fpsimd: Have KVM explicitly say which FP registers to save
+c23f172fa7712c789cbce7ccf48ef72c09e4cb9e arm64/fpsimd: Stop using TIF_SVE to manage register saving in KVM
+df97a09dac2eb453133366f62a15301c08da42b8 arm64/fpsimd: Load FP state based on recorded data type
+6c4121f7abfe9f1496a17efc98931495427e9b1d arm64/fpsimd: SME no longer requires SVE register state
+7448b07fac3531777f3f53c368cd0072b523ef61 arm64/sve: Leave SVE enabled on syscall if we don't context switch
 
---===============3609425266796202230==--
+--===============6053988522115469995==--
