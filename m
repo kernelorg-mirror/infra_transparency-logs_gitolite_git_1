@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0389974967136711735=="
+Content-Type: multipart/mixed; boundary="===============1129529445576911482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 14 Aug 2022 23:58:38 -0000
-Message-Id: <166052151842.27298.4658048623584161869@gitolite.kernel.org>
+Date: Sun, 14 Aug 2022 23:59:25 -0000
+Message-Id: <166052156588.27644.9086468187266861249@gitolite.kernel.org>
 
---===============0389974967136711735==
+--===============1129529445576911482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sysreg-gen-4
-    old: f875db4fe795308fa54bac966b29f392051f198c
-    new: 91744e784fccf356212d11952a8695f12fb43fae
-    log: revlist-f875db4fe795-91744e784fcc.txt
+  - ref: refs/heads/arm64-tpidr2-ptrace
+    old: 1f41884973bdb982c87fef505992a0e5eb948cca
+    new: 16f8ca0c6823eeadef8541b51e7adb3a4de53482
+    log: revlist-1f41884973bd-16f8ca0c6823.txt
 
---===============0389974967136711735==
+--===============1129529445576911482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f875db4fe795-91744e784fcc.txt
+Content-Disposition: attachment; filename=revlist-1f41884973bd-16f8ca0c6823.txt
 
+017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
+dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
+59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
+fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
+ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
+e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
+b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
+2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
+6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
+b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
+e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
+85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
+9e2f284e149124aa9a6b963882d2b39ae1742196 crypto: add crypto_has_kpp()
+a116e1cdc64a743c36c40e6fa639dec991c157a3 lib/base64: RFC4648-compliant base64 encoding
+88b140fec07307f825170a45562013a80842cc93 nvme: add definitions for NVMe In-Band authentication
+3bf2fde6fcc49ccc899cd2a853888823662ccd4c nvme-fabrics: decode 'authentication required' connect error
+f50fff73d620cd6e8f48bc58d4f1c944615a3fea nvme: implement In-Band authentication
+b61775d185a395f26fecdc7898e39de677a6c3dd nvme-auth: Diffie-Hellman key exchange support
+6490c9ed06de4a97a1ba89f53cd6c045d5277bc4 nvmet: parse fabrics commands on io queues
+db1312dd95488b5e6ff362ff66fcf953a46b1821 nvmet: implement basic In-Band Authentication
+7a277c37d3522e9b2777d762bbbcecafae2b1f8d nvmet-auth: Diffie-Hellman key exchange support
+1a70200f404ae210b4f0334e3936e84f8edb6bc8 nvmet-auth: expire authentication sessions
+4bc14f3101364877dd59085f39e068a2a7ec9f2d block/rnbd-srv: Set keep_id to true after mutex_trylock
+ce11bdf946176d48c2c0d36b56f0bf368c177298 block/rnbd-srv: Replace sess_dev_list with index_idr
 058efe000b31ce9c63bca02a33b67780b0ef5b41 null_blk: add module parameters for 4 options
 7012eef520cb7cb12910fb799dfd4ad0ed256b77 null_blk: add configfs variables for 2 options
 0525af711b6676156fdffc1072c49ff1d1d5bc0f nvme-rdma: remove timeout for getting RDMA-CM established event
@@ -1022,33 +1046,9 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-259aa76d145d483c3df0264e23890c923b9cf3e9 arm64/sysreg: Remove stray SMIDR_EL1 defines
-79a18df1ef31b06658600118ff074b4740b4b859 arm64/sysreg: Describe ID_AA64SMFR0_EL1.SMEVer as an enumeration
-238c480b2eff3353dd3401b776f12cee3950670a arm64: cache: Remove unused CTR_CACHE_MINLINE_MASK
-e520c3303ffbf18b004d7cc16d60141def9bf675 arm64/sysreg: Add _EL1 into ID_AA64MMFR0_EL1 definition names
-fea8032b7346d45b08b504bda8b54d352089b7e3 arm64/sysreg: Add _EL1 into ID_AA64MMFR2_EL1 definition names
-56aa1936b05759c25363c30612f2b1ddfc1c2935 arm64/sysreg: Add _EL1 into ID_AA64PFR0_EL1 definition names
-937b67c278e923bd774df1e939e1d21612c66cae arm64/sysreg: Add _EL1 into ID_AA64PFR1_EL1 constant names
-d8bccc79a880856870f9357b9a57b33edf74e895 arm64/sysreg: Standardise naming of ID_AA64MMFR0_EL1.BigEnd
-1059680acd9938993dfff32ef7fd388655a6e517 arm64/sysreg: Standardise naming of ID_AA64MMFR0_EL1.ASIDBits
-1d91af80a1c397fa380a8c1d54d87311a923ff14 arm64/sysreg: Standardise naming for ID_AA64MMFR1_EL1 fields
-f3fca8e0ef1cc2a0d90299246176b6234dacf62f arm64/sysreg: Standardise naming for ID_AA64MMFR2_EL1.VARange
-75f6f6a908d596c7dd948a87214f9c139197b66c arm64/sysreg: Standardise naming for ID_AA64MMFR2_EL1.CnP
-2502178feb40208adba55eecdc0cb244cdf7f303 arm64/sysreg: Standardise naming for ID_AA64PFR0_EL1 constants
-d14ce95c57eeb0ff1bc82d1cc0f81f04426ee23a arm64/sysreg: Standardise naming for ID_AA64PFR0_EL1.AdvSIMD constants
-66c0002376c3ee34394a75f0e251c1efd5ed2446 arm64/sysreg: Standardise naming for SSBS feature enumeration
-03dadce57781e03c20efd029892b28019c14c197 arm64/sysreg: Standardise naming for MTE feature enumeration
-f0e7fa6c97c98bf68f85bf245d580c6e6fd0b08d arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 fractional version fields
-09e090f84d7e07b4bb256452e75668e474551212 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 BTI enumeration
-be439456ed90f2f8ded31bb4c002e49156ea4cb3 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 SME enumeration
-a631dff87be7aa7b587d596181d911c48b3a93ce arm64/sysreg: Convert HCRX_EL2 to automatic generation
-3786c7325e4e943d810b3e16d08bb6b4f975c1bf arm64/sysreg: Convert ID_AA64MMFR0_EL1 to automatic generation
-e9994b2b8325ad38a332a6efe29315fda3298da8 arm64/sysreg: Convert ID_AA64MMFR1_EL1 to automatic generation
-57dd49f212eebb4ec16d06d589e8b71f2e55d7f3 arm64/sysreg: Convert ID_AA64MMFR2_EL1 to automatic generation
-07113f7aafa79ab1e81e5e25f7d4eed95f6d509b arm64/sysreg: Convert ID_AA64PFR0_EL1 to automatic generation
-db058bde02a2cba0e723561d5e6dfbe9445d31b3 arm64/sysreg: Convert ID_AA64PFR1_EL1 to automatic generation
-4e0dada339d770f2362eb0d5d877d54ef1b32a44 arm64/sysreg: Convert TIPDR_EL1 to automatic generation
-dfa33320b60ee13b23febc64059769680958030b arm64/sysreg: Convert SCXTNUM_EL1 to automatic generation
-91744e784fccf356212d11952a8695f12fb43fae arm64/sysreg: Add defintion for ALLINT
+bf708ebdb90e2af40e892f781471b947443be21e kselftest/arm64: Add test coverage for NT_ARM_TLS
+5dc722655fee553e9e4d63ae63091e6380b8f7b4 arm64/ptrace: Document extension of NT_ARM_TLS to cover TPIDR2_EL0
+72b7f6412664a8f94c0e35742cb6e42018befa13 arm64/ptrace: Support access to TPIDR2_EL0
+16f8ca0c6823eeadef8541b51e7adb3a4de53482 kselftest/arm64: Add coverage of TPIDR2_EL0 ptrace interface
 
---===============0389974967136711735==--
+--===============1129529445576911482==--
