@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2503976887574276306=="
+Content-Type: multipart/mixed; boundary="===============0044997727845779043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 14 Aug 2022 23:53:26 -0000
-Message-Id: <166052120679.22324.12231077210168420194@gitolite.kernel.org>
+Date: Sun, 14 Aug 2022 23:54:23 -0000
+Message-Id: <166052126325.22693.6650573980610853637@gitolite.kernel.org>
 
---===============2503976887574276306==
+--===============0044997727845779043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-signal-extra-context
-    old: b9a40c5e2b5c86c3343b33c6689a4f8e23a907bb
-    new: 74ff5a05d895875d1c81886130e7263288dc968a
-    log: revlist-b9a40c5e2b5c-74ff5a05d895.txt
+  - ref: refs/heads/arm64-sme-fixes
+    old: 69082da9658293094712bebe55dc3218242fd7b3
+    new: bb357a5e4232401e587da41329d8de5b42acd10e
+    log: revlist-69082da96582-bb357a5e4232.txt
 
---===============2503976887574276306==
+--===============0044997727845779043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9a40c5e2b5c-74ff5a05d895.txt
+Content-Disposition: attachment; filename=revlist-69082da96582-bb357a5e4232.txt
 
+017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
+dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
+59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
+fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
+ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
+e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
 b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
 2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
 6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
@@ -1040,15 +1046,9 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-f4e0c01476d0252e77da7dba1fde2679044dcfd0 kselftest/arm64: Enumerate SME rather than SVE vector lengths for za_regs
-d7c139db9b9396ce8a86ac45f094dbd4422df8cb kselftest/arm64: Validate signal ucontext in place
-56d06e9682aa4ebe52fbe73820b3e0f7b7ce15fc kselftest/arm64: Fix validatation termination record after EXTRA_CONTEXT
-9de6f5824082109ef103dea51cb52cc974b96588 kselftest/arm64: Fix validation of EXTRA_CONTEXT signal context location
-06a0c9da8810dc4e9600c65afc4a4025f7988706 kselftest/arm64: Remove unneeded protype for validate_extra_context()
-ccd8b19565554ad9b167ecbb77a0d1640c0e3309 kselftest/arm64: Only validate each signal context once
-0d0bb0b29fedcb5f34622201ec1111d0824e0f03 kselftest/arm64: Validate contents of EXTRA_CONTEXT blocks
-9f19091eb00b57f8c3cd334b2096898b68c0d1c3 kselftest/arm64: Preserve any EXTRA_CONTEXT in handle_signal_copyctx()
-d0619f0081713efa7575d6248cb6ca7df583feaa kselftest/arm64: Allow larger buffers in get_signal_context()
-74ff5a05d895875d1c81886130e7263288dc968a kselftest/arm64: Include larger SVE and SME VLs in signal tests
+b620342f8f7283579d44c22466bbb6e3e8bc205f arm64/signal: Raise limit on stack frames
+a9733e4f1b0e55dfe2640716a0077cadfe096617 arm64/signal: Flush FPSIMD register state when disabling streaming mode
+aee8bd65800c91ca051e226d70ed6bfcaf0a9c6a arm64/sme: Don't flush SVE register state when allocating SME storage
+bb357a5e4232401e587da41329d8de5b42acd10e arm64/sme: Don't flush SVE register state when handling SME traps
 
---===============2503976887574276306==--
+--===============0044997727845779043==--
