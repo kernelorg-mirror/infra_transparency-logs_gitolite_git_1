@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 14 Aug 2022 23:46:00 -0000
-Message-Id: <166052076058.17887.7839496495660552491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sun, 14 Aug 2022 23:46:44 -0000
+Message-Id: <166052080447.18220.8454348416314614837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 6b2109c84bf6284bf641fdc8f21f9d7a8fef3a1c
-    new: ed1925a825e1a06dda9c301d3d8c5c726e4921cd
+  - ref: refs/heads/arch-topo
+    old: 1ce313f8d7e9f772bd8e87bebaf4f7743374d6b6
+    new: 8b327b7f202670c294502d42f1a9b1e68f6d4066
     log: |
-         ed1925a825e1a06dda9c301d3d8c5c726e4921cd Sun Aug 14 11:45:17 PM UTC 2022
+         8b327b7f202670c294502d42f1a9b1e68f6d4066 riscv: topology: fix default topology reporting
          
