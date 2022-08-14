@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5074982854290418693=="
+Content-Type: multipart/mixed; boundary="===============9184839259478275340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 14 Aug 2022 00:39:20 -0000
-Message-Id: <166043756059.10698.2185129971016556376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 14 Aug 2022 01:06:57 -0000
+Message-Id: <166043921708.30572.15516992004870886962@gitolite.kernel.org>
 
---===============5074982854290418693==
+--===============9184839259478275340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: f6eb0fed6a3957c0b93e3a00c1ffaad84d4ffc31
     new: aea23e7c464bfdec04b52cf61edb62030e9e0d0a
     log: revlist-f6eb0fed6a39-aea23e7c464b.txt
 
---===============5074982854290418693==
+--===============9184839259478275340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a63ec83c462b5b1439f71ace751e8985dfb3fcab cifs: Add constructor/destructors for t
 332019e23a51db1aa46fec695a9a763445fbe09f Merge tag '5.20-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 aea23e7c464bfdec04b52cf61edb62030e9e0d0a Merge tag 'pull-work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 
---===============5074982854290418693==--
+--===============9184839259478275340==--
