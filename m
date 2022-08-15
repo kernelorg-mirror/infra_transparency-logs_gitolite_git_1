@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3676993634206584853=="
+Content-Type: multipart/mixed; boundary="===============3822083208762275363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwi/linux
-Date: Mon, 15 Aug 2022 18:40:35 -0000
-Message-Id: <166058883542.15993.1829825098790116495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Mon, 15 Aug 2022 18:42:33 -0000
+Message-Id: <166058895378.16773.11562198756000823859@gitolite.kernel.org>
 
---===============3676993634206584853==
+--===============3822083208762275363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwi/linux
-user: iwi
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/peci-next
-    old: cacbac434f6b020f99d4af648843465fd9eba167
-    new: 1c11289b34ab67ed080bbe0f1855c4938362d9cf
-    log: revlist-cacbac434f6b-1c11289b34ab.txt
+  - ref: refs/heads/thermal/fixes
+    old: 35c31b81f19728220652d588ed464d75d1a8f05f
+    new: 8c596324232d22e19f8df59ba03410b9b5b0f3d7
+    log: revlist-35c31b81f197-8c596324232d.txt
 
---===============3676993634206584853==
+--===============3822083208762275363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cacbac434f6b-1c11289b34ab.txt
+Content-Disposition: attachment; filename=revlist-35c31b81f197-8c596324232d.txt
 
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
@@ -1048,7 +1048,7 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-e79b548b7202bb3accdfe64f113129a4340bc2f9 peci: aspeed: fix error check return value of platform_get_irq()
-1c11289b34ab67ed080bbe0f1855c4938362d9cf peci: cpu: Fix use-after-free in adev_release()
+a921be53b46c393d8d594a62a44f418c97e5504b thermal/core: Add missing EXPORT_SYMBOL_GPL
+8c596324232d22e19f8df59ba03410b9b5b0f3d7 dt-bindings: thermal: Fix missing required property
 
---===============3676993634206584853==--
+--===============3822083208762275363==--
