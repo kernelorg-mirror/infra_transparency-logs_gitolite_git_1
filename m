@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 15 Aug 2022 07:49:37 -0000
-Message-Id: <166054977766.4663.4579719224240031744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Mon, 15 Aug 2022 07:52:27 -0000
+Message-Id: <166054994760.7246.310400757554048552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
-  - ref: refs/heads/test
-    old: bd94df64de6694c42ca90e47b89ec7d46a81caaf
-    new: 13df5a7eaeb22561d39354b576bc98a7e2c389f9
+  - ref: refs/heads/master
+    old: 523560f1770d25dddaceebcd4e8714bc4ddd204c
+    new: 4e3e8fe76f4ebcb8d75a63b7eb71268d0db88cee
     log: |
-         13df5a7eaeb22561d39354b576bc98a7e2c389f9 Revert "virtio_net: set the default max ring size by find_vqs()"
+         4e3e8fe76f4ebcb8d75a63b7eb71268d0db88cee Fix generation of cputype files
          
+  - ref: refs/tags/v188
+    old: 0000000000000000000000000000000000000000
+    new: 4e3e8fe76f4ebcb8d75a63b7eb71268d0db88cee
