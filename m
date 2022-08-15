@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6556267200479234737=="
+Content-Type: multipart/mixed; boundary="===============2061735361201382859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 15 Aug 2022 09:18:48 -0000
-Message-Id: <166055512859.801.4257823083881841645@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 09:19:28 -0000
+Message-Id: <166055516895.1112.17762468458084463628@gitolite.kernel.org>
 
---===============6556267200479234737==
+--===============2061735361201382859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: 3d7cb6b04c3f3115719235cc6866b10326de34cd
+  - ref: refs/heads/next
+    old: 34b9715b7caee2e2b7d74bb4230f2be2c2765c0a
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-3d7cb6b04c3f-568035b01cfb.txt
+    log: revlist-34b9715b7cae-568035b01cfb.txt
 
---===============6556267200479234737==
+--===============2061735361201382859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d7cb6b04c3f-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-34b9715b7cae-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============6556267200479234737==--
+--===============2061735361201382859==--
