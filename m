@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Mon, 15 Aug 2022 13:25:18 -0000
-Message-Id: <166056991872.8539.17795404052908032843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 15 Aug 2022 13:25:29 -0000
+Message-Id: <166056992944.8691.11353491649436421252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/tags/v6.0-rc1
+  - ref: refs/tags/arm64-hwcap-test-v1
     old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+    new: f5dbee2d6dbeec2a4fc95fdbc74b4cd047ef023f
