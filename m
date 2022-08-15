@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 15 Aug 2022 15:02:05 -0000
-Message-Id: <166057572575.14913.14197267515902441589@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0227701226223143693=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 15 Aug 2022 15:05:27 -0000
+Message-Id: <166057592703.17662.10295313433423445047@gitolite.kernel.org>
+
+--===============0227701226223143693==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: 49da76882628e0abda92166993c3767cebda83d7
-    new: 9befbab654abae4ffc41a084989dfa4a2f68af0f
+  - ref: refs/heads/master
+    old: 5d308856ae1b13736063fed63a3800b911288f79
+    new: 14d392efb350465bdb49207629349f02b2d66202
     log: |
-         d44421f49eb6d91c9083e101d3a81d15e9d2519c platform/x86: asus-wmi: Document the egpu_enable sysfs attribute
-         48c94150c8768db50daf3c9133735704a6cdcd22 platform/x86: asus-wmi: Document the panel_od sysfs attribute
-         8635aa6d58bbc60e6b82be9cd2de64d257f42ec9 platform/x86: asus-wmi: Refactor disable_gpu attribute
-         e10f2f4cd53879d0a84917162e94f78aedf65827 platform/x86: asus-wmi: Refactor egpu_enable attribute
-         9befbab654abae4ffc41a084989dfa4a2f68af0f platform/x86: asus-wmi: Refactor panel_od attribute
+         14d392efb350465bdb49207629349f02b2d66202 Update 00FD9F49DF9958A0 (Mika Westerberg)
          
+
+--===============0227701226223143693==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1660575926 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1660575926-3ce04a427fcb3f0d4a840d3031d2a79c86d86e80
+
+5d308856ae1b13736063fed63a3800b911288f79 14d392efb350465bdb49207629349f02b2d66202 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYvpgtgAKCRC2xBzjVmSZ
+bIiwAQC3MetAlViy+A+K2enTiBiwKeW/zVwcHA8JusezP0aYawEA5uIrhJDDLPNW
+kMYc5V0QHdNDdqET6fDW6mwteuMCjAo=
+=io0l
+-----END PGP SIGNATURE-----
+
+--===============0227701226223143693==--
