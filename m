@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============2351867683883990246=="
+Content-Type: multipart/mixed; boundary="===============2239293790989137825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 15 Aug 2022 17:28:42 -0000
-Message-Id: <166058452274.28675.1363304083071246027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 15 Aug 2022 17:29:29 -0000
+Message-Id: <166058456990.29003.12529726229603410576@gitolite.kernel.org>
 
---===============2351867683883990246==
+--===============2239293790989137825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/test
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+  - ref: refs/heads/master
+    old: 9de1f9c8ca5100a02a2e271bdbde36202e251b4b
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-f2906aa86338-568035b01cfb.txt
+    log: revlist-9de1f9c8ca51-568035b01cfb.txt
+  - ref: refs/tags/v6.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
 
---===============2351867683883990246==
+--===============2239293790989137825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-9de1f9c8ca51-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1054,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============2351867683883990246==--
+--===============2239293790989137825==--
