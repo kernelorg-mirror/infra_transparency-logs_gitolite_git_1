@@ -1,37 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4221129267237245731=="
+Content-Type: multipart/mixed; boundary="===============0838619265651112885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 15 Aug 2022 18:18:59 -0000
-Message-Id: <166058753967.31637.3566185191921760981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/linux
+Date: Mon, 15 Aug 2022 18:23:34 -0000
+Message-Id: <166058781491.2463.9843843737127195869@gitolite.kernel.org>
 
---===============4221129267237245731==
+--===============0838619265651112885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/mricon/linux
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vimc
-    old: 55c592e9cff59e0d1c4069b7fe649b02ddf6c36b
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-55c592e9cff5-568035b01cfb.txt
+  - ref: refs/heads/b4/docs-pgp-guide
+    old: ef33a902fb67e375c5890710599f44a31c98d526
+    new: 597b1c7e876b8328f18220f934ffcac434d6bf8a
+    log: revlist-ef33a902fb67-597b1c7e876b.txt
 
---===============4221129267237245731==
+--===============0838619265651112885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55c592e9cff5-568035b01cfb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
+certificate version 0.1
+pusher B6C41CE35664996C! 1660587814 -0400
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/linux
+nonce 1660587813-7d404f3facd5121c2553b4a0be743169450474c7
+
+ef33a902fb67e375c5890710599f44a31c98d526 597b1c7e876b8328f18220f934ffcac434d6bf8a refs/heads/b4/docs-pgp-guide
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYvqPJgAKCRC2xBzjVmSZ
+bN/dAP9nE839t9Afulm6h6J+pfNwPg7sHslj7BbIWUGC+MzrUQD/UrDkdruEjFUp
+3nUS9pLB7QlLDOuH9ObwEg8NGpurMQs=
+=Afh+
+-----END PGP SIGNATURE-----
+
+--===============0838619265651112885==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ef33a902fb67-597b1c7e876b.txt
+
 59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
 fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
 ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
@@ -1050,5 +1065,11 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+34269dac3a3ddc2e001f8790e1ce779876d9e306 Update the maintainer PGP guide
+046ec62aed3652e165a5870d7bafd38955975ef2 maintainer-pgp-guide: use key terminology consistent with upstream
+2f381e355ba9102d1d3f9c3d6c9f7b1e4a6c65e5 maintainer-pgp-guide: remove keyserver instructions
+82a77d0e9b4e45a06a0f029b63b53de4435ea022 maintainer-pgp-guide: update ECC support information
+bbe57e5d9f994333b52a0b57c97e7a0b667181dd maintainer-pgp-guide: add a section on PGP-signed patches
+597b1c7e876b8328f18220f934ffcac434d6bf8a maintainer-pgp-guide: minor wording tweaks
 
---===============4221129267237245731==--
+--===============0838619265651112885==--
