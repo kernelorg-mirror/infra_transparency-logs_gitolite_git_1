@@ -1,63 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 15 Aug 2022 23:38:59 -0000
-Message-Id: <166060673911.460.16880149961619636831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Mon, 15 Aug 2022 23:42:41 -0000
+Message-Id: <166060696115.3410.17094428974670527734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/linux-next
-    old: 8f88153911c5d9067e06f5071c3f9c9d3cc20ffa
-    new: 43ab8a34f3f0c7301813343b9fed2da33c37754a
+  - ref: refs/heads/lam
+    old: b08df72b8f4b0782f1fd3b89efd47801fd12afae
+    new: bb77c37280973d717b1089fecd67593fae6170c9
     log: |
-         efb256b27933eeb75ca5a27de30c7b290a6a3494 virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
-         38b80811deb58a0ad65d2ff14e5002efe6c54c5d virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
-         1362367a29fc6586e0cddf9b9702142ccdd6def9 virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
-         f95f88304d739eae3061087043b93d7a0671c02b virtio_pci: Revert "virtio_pci: support the arg sizes of find_vqs()"
-         71545b3c933acbf165e6596d5cfa4fd15e1ef543 virtio: Revert "virtio: find_vqs() add arg sizes"
-         0637c78aa907e15c8569a5698405e84b5a9922f8 virtio: kerneldocs fixes and enhancements
-         3234c1b5e74216a5e517dbe86de2364df3199dc6 Bluetooth: virtio_bt: fix device removal
-         43ab8a34f3f0c7301813343b9fed2da33c37754a virtio: drop vp_legacy_set_queue_size
-         
-  - ref: refs/heads/test
-    old: 8f88153911c5d9067e06f5071c3f9c9d3cc20ffa
-    new: 43ab8a34f3f0c7301813343b9fed2da33c37754a
-    log: |
-         efb256b27933eeb75ca5a27de30c7b290a6a3494 virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
-         38b80811deb58a0ad65d2ff14e5002efe6c54c5d virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
-         1362367a29fc6586e0cddf9b9702142ccdd6def9 virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
-         f95f88304d739eae3061087043b93d7a0671c02b virtio_pci: Revert "virtio_pci: support the arg sizes of find_vqs()"
-         71545b3c933acbf165e6596d5cfa4fd15e1ef543 virtio: Revert "virtio: find_vqs() add arg sizes"
-         0637c78aa907e15c8569a5698405e84b5a9922f8 virtio: kerneldocs fixes and enhancements
-         3234c1b5e74216a5e517dbe86de2364df3199dc6 Bluetooth: virtio_bt: fix device removal
-         43ab8a34f3f0c7301813343b9fed2da33c37754a virtio: drop vp_legacy_set_queue_size
-         
-  - ref: refs/heads/vhost
-    old: 8f88153911c5d9067e06f5071c3f9c9d3cc20ffa
-    new: 43ab8a34f3f0c7301813343b9fed2da33c37754a
-    log: |
-         efb256b27933eeb75ca5a27de30c7b290a6a3494 virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
-         38b80811deb58a0ad65d2ff14e5002efe6c54c5d virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
-         1362367a29fc6586e0cddf9b9702142ccdd6def9 virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
-         f95f88304d739eae3061087043b93d7a0671c02b virtio_pci: Revert "virtio_pci: support the arg sizes of find_vqs()"
-         71545b3c933acbf165e6596d5cfa4fd15e1ef543 virtio: Revert "virtio: find_vqs() add arg sizes"
-         0637c78aa907e15c8569a5698405e84b5a9922f8 virtio: kerneldocs fixes and enhancements
-         3234c1b5e74216a5e517dbe86de2364df3199dc6 Bluetooth: virtio_bt: fix device removal
-         43ab8a34f3f0c7301813343b9fed2da33c37754a virtio: drop vp_legacy_set_queue_size
-         
-  - ref: refs/tags/for_linus
-    old: a5f777aba65cb0dd34123e3d878b793501753492
-    new: 9a581ddf8a4c0b7d5337b4e25244da0315d57f3f
-    log: |
-         efb256b27933eeb75ca5a27de30c7b290a6a3494 virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
-         38b80811deb58a0ad65d2ff14e5002efe6c54c5d virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
-         1362367a29fc6586e0cddf9b9702142ccdd6def9 virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
-         f95f88304d739eae3061087043b93d7a0671c02b virtio_pci: Revert "virtio_pci: support the arg sizes of find_vqs()"
-         71545b3c933acbf165e6596d5cfa4fd15e1ef543 virtio: Revert "virtio: find_vqs() add arg sizes"
-         0637c78aa907e15c8569a5698405e84b5a9922f8 virtio: kerneldocs fixes and enhancements
+         05f805a5bad52d3196bd892efe7120d47b96ad02 x86/mm: Handle LAM on context switch
+         ed9f03be2380aa2d1ec7b426dbcf3b3dfd5b6f87 x86/uaccess: Provide untagged_addr() and remove tags before address check
+         c839da87567bcd009760c6cecb8c6dbdeddd6694 x86/mm: Provide arch_prctl() interface for LAM
+         b01fdda6d15de3f4a4e1685d17719f354c32950f x86: Expose untagging mask in /proc/$PID/arch_status
+         cd758d9c1b89983e34351105226a8fb57d648a0e selftests/x86/lam: Add malloc and tag-bits test cases for linear-address masking
+         c634bc78fbd0ec7ecc43d0ad613dcda6180a852e selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
+         caa24950bfb80d5dcde01d71ab95eeb53c509c36 selftests/x86/lam: Add io_uring test cases for linear-address masking
+         3ae1969ae6720535d5b6fd826c15f1f4f571571c selftests/x86/lam: Add inherit test cases for linear-address masking
+         e7f239879494e0a7d108c1f17007e9457dae3963 x86/mm: Extend LAM to support to LAM_U48
+         bb77c37280973d717b1089fecd67593fae6170c9 selftests/x86/lam: Add tests cases for LAM_U48
          
