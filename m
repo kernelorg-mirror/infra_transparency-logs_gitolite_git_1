@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5920519703849221855=="
+Content-Type: multipart/mixed; boundary="===============1250879535386747132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Aug 2022 08:48:43 -0000
-Message-Id: <166055332337.10665.6765880618681179601@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 08:49:08 -0000
+Message-Id: <166055334895.10881.13502827280426689409@gitolite.kernel.org>
 
---===============5920519703849221855==
+--===============1250879535386747132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 569e34443b02683524e3df4301f8a8e9b3205f5b
-    new: 8f7b4b36df7874a79ff63a3402d4bd335d82cc66
-    log: revlist-569e34443b02-8f7b4b36df78.txt
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+    new: 3b8e4b2bb4bb0b63091fa25fb0980d14283498e4
+    log: revlist-569e34443b02-3b8e4b2bb4bb.txt
+  - ref: refs/heads/master
+    old: 8f7b4b36df7874a79ff63a3402d4bd335d82cc66
+    new: 3b8e4b2bb4bb0b63091fa25fb0980d14283498e4
+    log: |
+         7110a6acd06453ba445aa4405a16b4b17dd30290 Merge branch into tip/master: 'perf/urgent'
+         123cd683aaca04ead82c4650a5b987703076b959 Merge branch into tip/master: 'sched/urgent'
+         0b90652232fc2f951b6331886517ac7b8bc9dd5d Merge branch into tip/master: 'WIP/fixes'
+         d75d79c40362d0f49c1d3234cc395bfc651e55b1 Merge branch into tip/master: 'locking/core'
+         bd8d10c2c88af7a2bd6dd2bd059a5ac9ebb6648c Merge branch into tip/master: 'sched/core'
+         9df563f69bb2a4e58c5b056dd0d87a169feefbf7 Merge branch into tip/master: 'x86/cleanups'
+         be9915bc7c029ac5327be2c7180c9700f04f7641 Merge branch into tip/master: 'x86/mm'
+         a43cb9d5dc530a9b51d6e65a24c9f912f6f0f8e0 Merge branch into tip/master: 'x86/platform'
+         3b8e4b2bb4bb0b63091fa25fb0980d14283498e4 Merge branch into tip/master: 'x86/timers'
+         
 
---===============5920519703849221855==
+--===============1250879535386747132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-569e34443b02-8f7b4b36df78.txt
+Content-Disposition: attachment; filename=revlist-569e34443b02-3b8e4b2bb4bb.txt
 
 18db466a9a306406dab3b134014d9f6ed642471c powerpc: Fix eh field when calling lwarx on PPC32
 eb5a33ea31190c189ca4a59de4687b0877662c06 powerpc: Don't hide eh field of lwarx behind a macro
@@ -131,6 +142,14 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-8f7b4b36df7874a79ff63a3402d4bd335d82cc66 Merge branch 'linus'
+7110a6acd06453ba445aa4405a16b4b17dd30290 Merge branch into tip/master: 'perf/urgent'
+123cd683aaca04ead82c4650a5b987703076b959 Merge branch into tip/master: 'sched/urgent'
+0b90652232fc2f951b6331886517ac7b8bc9dd5d Merge branch into tip/master: 'WIP/fixes'
+d75d79c40362d0f49c1d3234cc395bfc651e55b1 Merge branch into tip/master: 'locking/core'
+bd8d10c2c88af7a2bd6dd2bd059a5ac9ebb6648c Merge branch into tip/master: 'sched/core'
+9df563f69bb2a4e58c5b056dd0d87a169feefbf7 Merge branch into tip/master: 'x86/cleanups'
+be9915bc7c029ac5327be2c7180c9700f04f7641 Merge branch into tip/master: 'x86/mm'
+a43cb9d5dc530a9b51d6e65a24c9f912f6f0f8e0 Merge branch into tip/master: 'x86/platform'
+3b8e4b2bb4bb0b63091fa25fb0980d14283498e4 Merge branch into tip/master: 'x86/timers'
 
---===============5920519703849221855==--
+--===============1250879535386747132==--
