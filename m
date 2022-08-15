@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8106569342401077875=="
+Content-Type: multipart/mixed; boundary="===============2351867683883990246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 15 Aug 2022 17:26:57 -0000
-Message-Id: <166058441792.27998.11226174651923337724@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 17:28:42 -0000
+Message-Id: <166058452274.28675.1363304083071246027@gitolite.kernel.org>
 
---===============8106569342401077875==
+--===============2351867683883990246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/next
-    old: b1d34b1375f97fb1e67959d863e0e335bf3d2069
-    new: f1227dc7d0411ee9a9faaa1e80cfd9d6e5d6d63e
-    log: revlist-b1d34b1375f9-f1227dc7d041.txt
+  - ref: refs/heads/test
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-f2906aa86338-568035b01cfb.txt
 
---===============8106569342401077875==
+--===============2351867683883990246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1d34b1375f9-f1227dc7d041.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
 
+9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
@@ -1049,6 +1050,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-f1227dc7d0411ee9a9faaa1e80cfd9d6e5d6d63e selftests/landlock: fix broken include of linux/landlock.h
 
---===============8106569342401077875==--
+--===============2351867683883990246==--
