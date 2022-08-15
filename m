@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2576738171785073290=="
+Content-Type: multipart/mixed; boundary="===============6021145247286026695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 15 Aug 2022 22:12:30 -0000
-Message-Id: <166060155041.4964.2795045512414026648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 15 Aug 2022 22:24:32 -0000
+Message-Id: <166060227213.12136.7351105780106475192@gitolite.kernel.org>
 
---===============2576738171785073290==
+--===============6021145247286026695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
-  - ref: refs/heads/next
-    old: ef54ccb61616d8293bc68220d88a8e74271141b5
+  - ref: refs/heads/stable-6.0
+    old: 546093206ba16623c18e344630dbfdd71a4327e0
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-ef54ccb61616-568035b01cfb.txt
+    log: revlist-546093206ba1-568035b01cfb.txt
 
---===============2576738171785073290==
+--===============6021145247286026695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef54ccb61616-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-546093206ba1-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============2576738171785073290==--
+--===============6021145247286026695==--
