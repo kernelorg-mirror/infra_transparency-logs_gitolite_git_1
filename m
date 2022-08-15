@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2352405740488624396=="
+Content-Type: multipart/mixed; boundary="===============1911148415197474455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 15 Aug 2022 14:38:43 -0000
-Message-Id: <166057432337.29862.6402293912080411915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 15 Aug 2022 14:38:50 -0000
+Message-Id: <166057433074.29975.7221598776116519456@gitolite.kernel.org>
 
---===============2352405740488624396==
+--===============1911148415197474455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
 
---===============2352405740488624396==
+--===============1911148415197474455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -741,4 +741,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============2352405740488624396==--
+--===============1911148415197474455==--
