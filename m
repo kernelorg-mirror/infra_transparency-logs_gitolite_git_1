@@ -1,46 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0227701226223143693=="
+Content-Type: multipart/mixed; boundary="===============8498055309001779422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 15 Aug 2022 15:05:27 -0000
-Message-Id: <166057592703.17662.10295313433423445047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 15 Aug 2022 15:09:26 -0000
+Message-Id: <166057616632.19449.15558502318309353732@gitolite.kernel.org>
 
---===============0227701226223143693==
+--===============8498055309001779422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5d308856ae1b13736063fed63a3800b911288f79
-    new: 14d392efb350465bdb49207629349f02b2d66202
+  - ref: refs/heads/for-6.1
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 060004431df4958a326d6a45107b2fe3406d10f2
     log: |
-         14d392efb350465bdb49207629349f02b2d66202 Update 00FD9F49DF9958A0 (Mika Westerberg)
+         060004431df4958a326d6a45107b2fe3406d10f2 regmap: Make use of get_unaligned_be24(), put_unaligned_be24()
          
 
---===============0227701226223143693==
+--===============8498055309001779422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1660575926 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1660575926-3ce04a427fcb3f0d4a840d3031d2a79c86d86e80
+pusher C3F436CA30F5D8EB 1660576164 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1660576164-8d0559a932013ab36268def07feb984c5b29acbb
 
-5d308856ae1b13736063fed63a3800b911288f79 14d392efb350465bdb49207629349f02b2d66202 refs/heads/master
+568035b01cfb107af8d2e4bd2fb9aea22cf5b868 060004431df4958a326d6a45107b2fe3406d10f2 refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYvpgtgAKCRC2xBzjVmSZ
-bIiwAQC3MetAlViy+A+K2enTiBiwKeW/zVwcHA8JusezP0aYawEA5uIrhJDDLPNW
-kMYc5V0QHdNDdqET6fDW6mwteuMCjAo=
-=io0l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL6YaUACgkQJNaLcl1U
+h9DUpwgAgbrnFA5WDPG94uGwD70BG6WWUQbOB830boV/yUiQwHcPPFz5zVmURHYN
+k7P5iM3EBr5FcXlY0C03EdA0Q0qb+Oau528Dl5UYKNtd9GQVprxSyIPW2ufYtIAv
+xzv3eLRG2kUzW5EQ+jfpritdGkVjCQk99gz1mjCd89n7RCCRPfdDW+Rm7oM3xkqR
+WJHk1D9Ip3NWFM9uVSSyzq9k/9TW4O3+nsDZoibj7huHaL0ZSE3CIcnx2ToHaSpP
+6oxkmfocZkcghWCSba2KfaOsrMXDzma0Kn+/OX0jhx6TmSsUKinxvChNlp7IJJMX
+vLwvwJvnPy8Sf9UAePZ1MqbKob/g8A==
+=3A0w
 -----END PGP SIGNATURE-----
 
---===============0227701226223143693==--
+--===============8498055309001779422==--
