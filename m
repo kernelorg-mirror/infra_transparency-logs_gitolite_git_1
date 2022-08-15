@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1526892860669284387=="
+Content-Type: multipart/mixed; boundary="===============4342021053560487446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 15 Aug 2022 20:54:43 -0000
-Message-Id: <166059688352.11936.13306972136362111093@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 20:54:47 -0000
+Message-Id: <166059688787.12009.11257865225845208896@gitolite.kernel.org>
 
---===============1526892860669284387==
+--===============4342021053560487446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: 4a57a8400075bc5287c5c877702c68aeae2a033d
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-4a57a8400075-568035b01cfb.txt
-  - ref: refs/heads/for-6.0-fixes
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 3109920b3d95ebee86198757328eefe51f458b06
     new: 571f268483c803df83f3d88801482c7a88e5ca0a
+    log: revlist-3109920b3d95-571f268483c8.txt
 
---===============1526892860669284387==
+--===============4342021053560487446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a57a8400075-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-3109920b3d95-571f268483c8.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
 dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
@@ -1053,5 +1047,8 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+6d73ba7928c0fb8996e14eab327f914e41821203 sched/psi: Zero the memory of struct psi_group
+a4c823dbce2d40894b98f6d22b382956b9a06d63 sched/psi: Remove unused parameter nbytes of psi_trigger_create()
+571f268483c803df83f3d88801482c7a88e5ca0a sched/psi: Remove redundant cgroup_psi() when !CONFIG_CGROUPS
 
---===============1526892860669284387==--
+--===============4342021053560487446==--
