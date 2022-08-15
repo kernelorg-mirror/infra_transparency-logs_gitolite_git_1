@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0986160058371566060=="
+Content-Type: multipart/mixed; boundary="===============5087117281780477100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Aug 2022 13:19:12 -0000
-Message-Id: <166056955238.1831.787647805680000494@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 13:19:33 -0000
+Message-Id: <166056957346.2003.247273460051062527@gitolite.kernel.org>
 
---===============0986160058371566060==
+--===============5087117281780477100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 88084a3df1672e131ddc1b4e39eeacfd39864acf
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     log: revlist-88084a3df167-568035b01cfb.txt
 
---===============0986160058371566060==
+--===============5087117281780477100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============0986160058371566060==--
+--===============5087117281780477100==--
