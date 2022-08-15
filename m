@@ -1,44 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2069630588773134663=="
+Content-Type: multipart/mixed; boundary="===============3428595486486365780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Mon, 15 Aug 2022 03:40:51 -0000
-Message-Id: <166053485163.26855.5820097695921825571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Mon, 15 Aug 2022 03:48:53 -0000
+Message-Id: <166053533345.31237.28261967593092635@gitolite.kernel.org>
 
---===============2069630588773134663==
+--===============3428595486486365780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/master
-    old: 6a010258447d386186ca10cd374d888ac66ffe1a
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-6a010258447d-568035b01cfb.txt
+  - ref: refs/heads/lam
+    old: 8f1ad76e5cd0e91e574027038c51ace7789f8401
+    new: b08df72b8f4b0782f1fd3b89efd47801fd12afae
+    log: revlist-8f1ad76e5cd0-b08df72b8f4b.txt
 
---===============2069630588773134663==
+--===============3428595486486365780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a010258447d-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-8f1ad76e5cd0-b08df72b8f4b.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
-59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
-fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
-e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
-b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
-2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
-6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
 b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
 e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
 85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
@@ -1050,5 +1037,18 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+1a6418e130869ca26f83552066328695f6813cbc x86/mm: Fix CR3_ADDR_MASK
+b323cbc1247d460189411dca66505996cb96423a x86: CPUID and CR3/CR4 flags for Linear Address Masking
+a6f978d86cc11f2bd3cdf27080486eded4387f5a mm: Pass down mm_struct to untagged_addr()
+e24ddae2413bf4e578e3d7edd1150ab15b2995a0 x86/mm: Handle LAM on context switch
+ae0bac51cae3c21d2fa14478bb5cf1bff44da7d1 x86/uaccess: Provide untagged_addr() and remove tags before address check
+1917b8782efd4c21e4d0cc73683199dcfbc68651 x86/mm: Provide arch_prctl() interface for LAM
+ae0da094ef233858dabf260c9ce645077ac09de4 x86: Expose untagging mask in /proc/$PID/arch_status
+b2de3fcdd0443eb391d77f86e398e68bb558c983 selftests/x86/lam: Add malloc and tag-bits test cases for linear-address masking
+8f85912aef9f9ac8e7f68befa35a258db044b1c1 selftests/x86/lam: Add mmap and SYSCALL test cases for linear-address masking
+c3bd241d56172ac367e281169b6bda1c43e21d2b selftests/x86/lam: Add io_uring test cases for linear-address masking
+42d5b1d4637eb7dd349f42a3f29377c70c3a0c81 selftests/x86/lam: Add inherit test cases for linear-address masking
+c8c96c3c8a3ab461b0559945c87e9e63b5361682 x86/mm: Extend LAM to support to LAM_U48
+b08df72b8f4b0782f1fd3b89efd47801fd12afae selftests/x86/lam: Add tests cases for LAM_U48
 
---===============2069630588773134663==--
+--===============3428595486486365780==--
