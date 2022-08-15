@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5769741261168065880=="
+Content-Type: multipart/mixed; boundary="===============2721794236825794501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 15 Aug 2022 03:25:23 -0000
-Message-Id: <166053392302.16747.7694653389081703327@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 03:25:31 -0000
+Message-Id: <166053393164.16908.3667931753040454019@gitolite.kernel.org>
 
---===============5769741261168065880==
+--===============2721794236825794501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: afef1e1a0223623d063a6df51dbc342c9517b948
-    new: f74c7557ed0d321947e8bb4e9d47c1013f8b2227
-    log: revlist-afef1e1a0223-f74c7557ed0d.txt
+  - ref: refs/heads/for-kernelci
+    old: ddffaa3d76750278e5a0804fa173b3c8c16ff42a
+    new: a8e174772bddfbaa4799c7da1ebc4b38b91509ea
+    log: revlist-ddffaa3d7675-a8e174772bdd.txt
 
---===============5769741261168065880==
+--===============2721794236825794501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afef1e1a0223-f74c7557ed0d.txt
+Content-Disposition: attachment; filename=revlist-ddffaa3d7675-a8e174772bdd.txt
 
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
@@ -1050,5 +1049,6 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 f74c7557ed0d321947e8bb4e9d47c1013f8b2227 platform/chrome: cros_ec_proto: Update version on GET_NEXT_EVENT failure
+a8e174772bddfbaa4799c7da1ebc4b38b91509ea KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============5769741261168065880==--
+--===============2721794236825794501==--
