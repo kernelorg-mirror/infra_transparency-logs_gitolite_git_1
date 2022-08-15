@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4873391099772739576=="
+Content-Type: multipart/mixed; boundary="===============1138396305588091200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 15 Aug 2022 11:11:15 -0000
-Message-Id: <166056187556.2074.7653141800482405654@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 11:11:37 -0000
+Message-Id: <166056189776.2275.12415051680466134609@gitolite.kernel.org>
 
---===============4873391099772739576==
+--===============1138396305588091200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: c9d8468158adca6dffd2ff5b1befd35f75568b10
+  - ref: refs/heads/fixes
+    old: 093d27bb6f2d1963f927ef59c9a2d37059175426
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-c9d8468158ad-568035b01cfb.txt
+    log: revlist-093d27bb6f2d-568035b01cfb.txt
 
---===============4873391099772739576==
+--===============1138396305588091200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9d8468158ad-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-093d27bb6f2d-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============4873391099772739576==--
+--===============1138396305588091200==--
