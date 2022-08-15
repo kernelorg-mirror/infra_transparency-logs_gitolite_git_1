@@ -1,46 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7968625459550150968=="
+Content-Type: multipart/mixed; boundary="===============0580500076367531029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 15 Aug 2022 17:05:31 -0000
-Message-Id: <166058313140.11536.14913060240210200548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 15 Aug 2022 17:10:09 -0000
+Message-Id: <166058340989.15318.12842243311700155244@gitolite.kernel.org>
 
---===============7968625459550150968==
+--===============0580500076367531029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a76f5c19f80da7dd9416c6e29da7835d53b2d893
-    new: 44431bc042de69ddc51a3d6e4e37acb249cf29cf
+  - ref: refs/heads/for-6.0
+    old: 4d39265b930fb42eb396c3153a3f4afdee9f5c17
+    new: ea75deef1a738d25502cfbb2caa564270b271525
     log: |
-         44431bc042de69ddc51a3d6e4e37acb249cf29cf ez: do not bail on untracked files for prep tasks
+         ea75deef1a738d25502cfbb2caa564270b271525 ASoC: cs42l42: Only report button state if there was a button interrupt
          
 
---===============7968625459550150968==
+--===============0580500076367531029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1660583131 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1660583131-8ae69c2760638d0e8d27ce9f30047ab1c473a4b6
+pusher C3F436CA30F5D8EB 1660583408 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1660583407-1836cdd1c67106ea442d34162f009c28178732b3
 
-a76f5c19f80da7dd9416c6e29da7835d53b2d893 44431bc042de69ddc51a3d6e4e37acb249cf29cf refs/heads/master
+4d39265b930fb42eb396c3153a3f4afdee9f5c17 ea75deef1a738d25502cfbb2caa564270b271525 refs/heads/for-6.0
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYvp82wAKCRC2xBzjVmSZ
-bI1/AQDTXACF+g6b5vcR+TdFk9CvBkBXv1l49esBUh1bGBr0agEAtkjIRQN2e5bT
-mz14gtl79jcgok1J/xpqo+XkvQ//zAY=
-=R7PV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL6ffAACgkQJNaLcl1U
+h9AAYwf/fq0A/PgqVGh9MuiIq09WTYiYoTLvXNCu4KUur0pUsfN7wLrOYaLprMo6
+d2HThm5cn551TE9rXpWiUCHD+EPc5RBLrr1U3bO3ptBMlV3llGI2q+RnjY2w25Pd
+XZP3Zd4ua/k8s3ff/QCQseEPn7QBEnsb72Ee3XU2WgAiHuvNtoWnqJMl2o7bEX1y
+j0n7r4yeOjFyIiAwPCWEcbGSl7b6H+Ws0aU6tJZd0WWejkuHnDWoiajQ9LgwFva/
+8BL0jyMDTnY6Aj3OPzB8LFOv0DhWaa76OLrVrCTJX7Rz7GtuZwCowySdpIUoyHdt
+iZs+GhBRcHiqok64d4a946snJhY9UA==
+=m/3n
 -----END PGP SIGNATURE-----
 
---===============7968625459550150968==--
+--===============0580500076367531029==--
