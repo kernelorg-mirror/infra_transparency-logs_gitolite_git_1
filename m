@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============4996235889623885642=="
+Content-Type: multipart/mixed; boundary="===============5254115149759056232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Aug 2022 09:53:47 -0000
-Message-Id: <166055722759.9855.15526400193579080335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 15 Aug 2022 09:58:28 -0000
+Message-Id: <166055750870.14404.15678006900980494672@gitolite.kernel.org>
 
---===============4996235889623885642==
+--===============5254115149759056232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/x86/sgx
-    old: e0a5915f1cca21da8ffc0563aea9fa1df5d16fb4
-    new: ee56a283988d739c25d2d00ffb22707cb487ab47
-    log: revlist-e0a5915f1cca-ee56a283988d.txt
+  - ref: refs/heads/fixes
+    old: 51189eb9ddc88851edc42f539a0f9862fd0630c2
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-51189eb9ddc8-568035b01cfb.txt
+  - ref: refs/tags/v6.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
 
---===============4996235889623885642==
+--===============5254115149759056232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0a5915f1cca-ee56a283988d.txt
+Content-Disposition: attachment; filename=revlist-51189eb9ddc8-568035b01cfb.txt
 
+9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
@@ -1049,6 +1053,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-ee56a283988d739c25d2d00ffb22707cb487ab47 x86/sgx: Improve comments for sgx_encl_lookup/alloc_backing()
 
---===============4996235889623885642==--
+--===============5254115149759056232==--
