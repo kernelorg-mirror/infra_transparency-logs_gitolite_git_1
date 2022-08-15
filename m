@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4776907767136941834=="
+Content-Type: multipart/mixed; boundary="===============2447771818700607359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 15 Aug 2022 09:34:06 -0000
-Message-Id: <166055604699.14328.9800024317913651687@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 09:34:39 -0000
+Message-Id: <166055607914.14576.12063129367161415239@gitolite.kernel.org>
 
---===============4776907767136941834==
+--===============2447771818700607359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 20b2ef949ecf81db14e80283e88791ce35ddfa27
-    new: 533299990f04000b0f148842c393795cb264df52
-    log: revlist-20b2ef949ecf-533299990f04.txt
+  - ref: refs/heads/readfile
+    old: 24d532e0a2d04e4700507b4a00761422fda2fd8c
+    new: 08a1199e6c4dce61d31ede47ffc274f4534bddfd
+    log: revlist-24d532e0a2d0-08a1199e6c4d.txt
 
---===============4776907767136941834==
+--===============2447771818700607359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660556042 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660556074 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1660556040-7e9205559049044b26fdc23e14b2a9e767290bde
+nonce 1660556072-9e1356157deb22eeb46686992f0f474378cd9044
 
-20b2ef949ecf81db14e80283e88791ce35ddfa27 533299990f04000b0f148842c393795cb264df52 refs/heads/debugfs_cleanup
+24d532e0a2d04e4700507b4a00761422fda2fd8c 08a1199e6c4dce61d31ede47ffc274f4534bddfd refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL6EwobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+prUP/2bnPqNaS5qi+rx5wQAM
-Y+k5IRxB1GldfeeTC66C57dhxCdSkZYWh/XZFpVX2OwwVOQY48PZUC8vX4KkQca+
-UPGYsjVGDKkhpaR12rUEkZrUHSBgcNI+yBDUa/lHZqzSgyOtiO/mWLDvF46yOPHx
-CIzZ8AYcE20ra4xT0/cw2WskhaP3EIjc+vqq5McNjO0lpHwNKYGYKpIBXmrrqyNq
-0/6c4vqzV7+0oJEOfuWgGYhKvUjPMGjLxa9ET0y0jxV2omY/f7LC4U5SWS6DPtLX
-9U2w1FeNj9IRSntLG7tQdfXSuCQpi7z+zKV5iwb6kshAG5gdqwBwCn4I6kBVjajR
-WpjNU459BWx7gNQG2SGrxXfe52JosaJyFASpm2B+/RGcAlOuV1guSE2Jw3psQXBX
-AK48QQkXuiLIDRYW31VItiNJxT2ViimnJCmqN2OhUGwbCk5NNSQGMPtYFjCizXbS
-w29Rm79lR7QuDKYhlBT90lZxPq1jYR1q4s9QIUcyeD8YmzP44SSmWxQ6Q3MJ+DrN
-sTZfBPYJ6oldz0a8qV8T/UTG3WH1suPs/sIKoJtO0iTx57TCObSCXRVXTazCiGkO
-VIuCF1fLx7KHXE5dHjMsE3ijBrV24yvqFPAM58KmLfdIIXum4SJa8N8qjOTKcZPt
-hBXyqaFpVpKKNy5q6ikpANFl
-=gZdF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL6EyobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X1EQAKLRiZueD6TVrlDrY3DG
+eUW7hEM/Rkh/3xtTb1pQTWNcIMGB6G04SlUBDHW+6O7aigtLPp8sbXlX0yHNm9Zl
+1wb4kZaiH/JORhYfHgTxCE+nZtnShF0SAopKVVzHBehVDEygldFHtBnKt3kkrzlP
+4GbsQItxtflsYHxNY8l8QxI+dk5aLycBYv5JW1mUzDqDl6WWxyrjzaKhXkECBe+b
+8HzZ8pQpKB65r5X6RPdrrX+kzb1avXTqgC91wDFxtBl0G41msC+vwCSc0Tza0Pf2
+ZjxcBX+9Gqa/WAxy3z6emJn0LzAvek0GERvG20EHg9SokgUYJbs8CkCDe5VH6dZr
+rrjCGuCq6RGaglP7RpF+5hjbKGZqFGNJXX7TJc1NK9MFcNtcwhTSGDrkM+knWmWB
+Mn1OEJoZBnGRkDzxjzKjuQD5nCy6xzJ9nyWypY4gikTsri2fhx9xmGcsJaWAqioW
+9FLQjDmX7oh5Sr7S78CUwE7kwoalr1ym5On6T0LYLcMvSKzo1AIf4mftA7lUHAuB
+tAa3fDUuX3dh1nbYKKjXhDZhbIpxT/83jM8b56xf0j9Ka3dwzMkdGvcN7Wltpb7y
+ZAUmw3Y+LikpSIE5K3W02XC+5jZ6GEYivtRbwr45nP4iwzXiweI7D5CRSeOpG8g1
+4Tt5o+tUaWYx9oFJTLugii/x
+=GBh5
 -----END PGP SIGNATURE-----
 
---===============4776907767136941834==
+--===============2447771818700607359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20b2ef949ecf-533299990f04.txt
+Content-Disposition: attachment; filename=revlist-24d532e0a2d0-08a1199e6c4d.txt
 
 690e179059e7e89040d1cd564e39761567a8d5dc Merge tag 'v5.18' into next
 433302dd8772fc4fe2b9ddcdb42f6a378317c665 Input: omap4-keypad - switch to using pm_runtime_resume_and_get()
@@ -769,16 +769,9 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-f9ee799524be991f92960dc46b4d31278b8e1fec platform/x86: dell-privacy: convert to use dev_groups
-d9249001c0082ad0070bec045928244f8222420f soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-15f10e958996637f6ea9301b42b955862588d80c soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-f81f11a98d89717aa74cba2dab1ca455451084e6 soundwire: sysfs: have the driver core handle the creation of the device groups
-496b2cb603f91c62ee6ff0a46aaa95edbe9833b7 soundwire: sysfs: remove sdw_slave_sysfs_init()
-f32016a20adc1213b5d6fed6e834bbdd0c4c1271 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
-77b388762f13f00b1d720a5b5821ad119c923576 Input: elan_i2c - convert to use dev_groups
-58237b92af9951abd3396c92113dc8ee96596dd3 driver core: remove devm_device_add_groups() and devm_device_remove_groups()
-f8c6a81a2bd030c3f619cf47ceae00da060d87a7 HID: playstation: convert to use dev_groups
-18e57c046a5685ad500f38d19ec6f729f80a0dd1 HID: vivaldi: convert to use dev_groups
-533299990f04000b0f148842c393795cb264df52 USB: gadget: f_mass_storage: get rid of DEVICE_ATTR() usage
+c5846c6dcf70b9074a9d46dbc4bdc29bea10da5a readfile: implement readfile syscall
+68e8f3b8b61cb06145f37e63639134d7111e16df arch: wire up the readfile syscall
+4695b671218411b2919961993140ead86690bffb selftests: add readfile(2) selftests
+08a1199e6c4dce61d31ede47ffc274f4534bddfd readfile.2: new page describing readfile(2)
 
---===============4776907767136941834==--
+--===============2447771818700607359==--
