@@ -1,31 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6963424018252039139=="
+Content-Type: multipart/mixed; boundary="===============0571977131673502553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 15 Aug 2022 22:58:35 -0000
-Message-Id: <166060431523.5053.7734731864520762638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 15 Aug 2022 22:59:21 -0000
+Message-Id: <166060436144.5409.1958941665061753944@gitolite.kernel.org>
 
---===============6963424018252039139==
+--===============0571977131673502553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/arm64-sve-syscall-kvm
-    old: a6cace62c75c2decc3f267f486596cb4dec5c659
-    new: 0a6d1deb3489e842b22247a3e7b128f798d70469
-    log: revlist-a6cace62c75c-0a6d1deb3489.txt
+  - ref: refs/heads/next
+    old: 546093206ba16623c18e344630dbfdd71a4327e0
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-546093206ba1-568035b01cfb.txt
 
---===============6963424018252039139==
+--===============0571977131673502553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6cace62c75c-0a6d1deb3489.txt
+Content-Disposition: attachment; filename=revlist-546093206ba1-568035b01cfb.txt
 
+9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
+eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
+9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
+52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
+017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
+dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
+59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
+fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
+ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
+e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
+b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
 2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
 6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
 b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
@@ -1039,16 +1050,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-b620342f8f7283579d44c22466bbb6e3e8bc205f arm64/signal: Raise limit on stack frames
-a9733e4f1b0e55dfe2640716a0077cadfe096617 arm64/signal: Flush FPSIMD register state when disabling streaming mode
-aee8bd65800c91ca051e226d70ed6bfcaf0a9c6a arm64/sme: Don't flush SVE register state when allocating SME storage
-bb357a5e4232401e587da41329d8de5b42acd10e arm64/sme: Don't flush SVE register state when handling SME traps
-df14ed83e887676489698d85b78900e2fcbeb1d5 KVM: arm64: Discard any SVE state when entering KVM guests
-fe6977d790f80b9cffe5b19f6a5eacc3ff14ee2b arm64/fpsimd: Track the saved FPSIMD state type separately to TIF_SVE
-a58c7a184e2b1752728d5e5967e2e9ceafb7ff0f arm64/fpsimd: Have KVM explicitly say which FP registers to save
-3d1481e2ad1d01a6f82b199c161d2638d8f10109 arm64/fpsimd: Stop using TIF_SVE to manage register saving in KVM
-ee06254faaf757754b541473486e8c0dc2fdd119 arm64/fpsimd: Load FP state based on recorded data type
-24be3584012fe9d9ece63b260503a3e8c275e7ab arm64/fpsimd: SME no longer requires SVE register state
-0a6d1deb3489e842b22247a3e7b128f798d70469 arm64/sve: Leave SVE enabled on syscall if we don't context switch
 
---===============6963424018252039139==--
+--===============0571977131673502553==--
