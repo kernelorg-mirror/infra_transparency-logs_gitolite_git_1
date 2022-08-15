@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============9151465705755658700=="
+Content-Type: multipart/mixed; boundary="===============1195067216656067472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 15 Aug 2022 14:01:29 -0000
-Message-Id: <166057208993.3191.1196523827998559381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 15 Aug 2022 14:03:26 -0000
+Message-Id: <166057220621.4307.9599752941240108475@gitolite.kernel.org>
 
---===============9151465705755658700==
+--===============1195067216656067472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/for-next/juno
-    old: 1a7a756ff9a9018efcfc9a1269e8b215fc7b4850
-    new: 422ab8fe15e30066d4c8e236b747c77069bfca45
-    log: revlist-1a7a756ff9a9-422ab8fe15e3.txt
+  - ref: refs/heads/mediatek-drm-next
+    old: d86c1568910e7079e6ceb875d653e44293409194
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-d86c1568910e-568035b01cfb.txt
 
---===============9151465705755658700==
+--===============1195067216656067472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a7a756ff9a9-422ab8fe15e3.txt
+Content-Disposition: attachment; filename=revlist-d86c1568910e-568035b01cfb.txt
 
+9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
+eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
@@ -1048,7 +1050,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-2a9eb57e20e6bbd62774691648dc4abde66220cd arm64: dts: arm: juno: Remove legacy Coresight 'slave-mode' property
-422ab8fe15e30066d4c8e236b747c77069bfca45 arm64: dts: juno: Add missing MHU secure-irq
 
---===============9151465705755658700==--
+--===============1195067216656067472==--
