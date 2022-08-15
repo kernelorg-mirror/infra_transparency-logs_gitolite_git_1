@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5254115149759056232=="
+Content-Type: multipart/mixed; boundary="===============2438634808790129383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 15 Aug 2022 09:58:28 -0000
-Message-Id: <166055750870.14404.15678006900980494672@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 09:58:47 -0000
+Message-Id: <166055752743.14564.3074563342446800174@gitolite.kernel.org>
 
---===============5254115149759056232==
+--===============2438634808790129383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 51189eb9ddc88851edc42f539a0f9862fd0630c2
+  - ref: refs/heads/next
+    old: 527f36f5efa45b6a897190cabf982e2d207887da
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-51189eb9ddc8-568035b01cfb.txt
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+    log: revlist-527f36f5efa4-568035b01cfb.txt
 
---===============5254115149759056232==
+--===============2438634808790129383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51189eb9ddc8-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-527f36f5efa4-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1054,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============5254115149759056232==--
+--===============2438634808790129383==--
