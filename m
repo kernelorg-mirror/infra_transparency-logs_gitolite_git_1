@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4143945663345702740=="
+Content-Type: multipart/mixed; boundary="===============8790899353020356010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 15 Aug 2022 17:32:34 -0000
-Message-Id: <166058475452.31675.3783501969527530310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 15 Aug 2022 17:34:23 -0000
+Message-Id: <166058486300.32356.8778143812618358172@gitolite.kernel.org>
 
---===============4143945663345702740==
+--===============8790899353020356010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/cpupower
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-f2906aa86338-568035b01cfb.txt
+  - ref: refs/heads/dev-test
+    old: ecce9212d0fd7a2d4a4998f0c4623a66887e14c8
+    new: c0814d3618feeffbf00a0b7e0393f5b4cdf7afc2
+    log: revlist-ecce9212d0fd-c0814d3618fe.txt
 
---===============4143945663345702740==
+--===============8790899353020356010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-ecce9212d0fd-c0814d3618fe.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
@@ -1050,5 +1048,7 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+409171e54b6bf1f8b43b7b3a487222e6f1fdc004 erofs: fix error return code in erofs_fscache_{meta_,}read_folio
+c0814d3618feeffbf00a0b7e0393f5b4cdf7afc2 erofs: avoid the potentially wrong m_plen for big pcluster
 
---===============4143945663345702740==--
+--===============8790899353020356010==--
