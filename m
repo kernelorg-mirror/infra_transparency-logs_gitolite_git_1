@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5320505359696803014=="
+Content-Type: multipart/mixed; boundary="===============1636074295568914309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Aug 2022 13:19:54 -0000
-Message-Id: <166056959464.2247.3410838453265529429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 15 Aug 2022 13:25:12 -0000
+Message-Id: <166056991291.8376.12986319426063730574@gitolite.kernel.org>
 
---===============5320505359696803014==
+--===============1636074295568914309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/mips-next
-    old: 74de14fe05dd6b151d73cb0c73c8ec874cbdcde6
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-74de14fe05dd-568035b01cfb.txt
+  - ref: refs/heads/master
+    old: 38471fb456a5e6d32cd9f0cc1391fcfd482b373e
+    new: fd9f0781cb263a347e78e6358acd0a1605bdb837
+    log: revlist-38471fb456a5-fd9f0781cb26.txt
 
---===============5320505359696803014==
+--===============1636074295568914309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74de14fe05dd-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-38471fb456a5-fd9f0781cb26.txt
 
-9ad1a74ff0090fb201ee87ebb00b38c8bf25b26c md/raid5: Increase restriction on max segments per request
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
-59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
-fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
-e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
-b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
-2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
-6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
-b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
-e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
-85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
-9e2f284e149124aa9a6b963882d2b39ae1742196 crypto: add crypto_has_kpp()
-a116e1cdc64a743c36c40e6fa639dec991c157a3 lib/base64: RFC4648-compliant base64 encoding
-88b140fec07307f825170a45562013a80842cc93 nvme: add definitions for NVMe In-Band authentication
-3bf2fde6fcc49ccc899cd2a853888823662ccd4c nvme-fabrics: decode 'authentication required' connect error
-f50fff73d620cd6e8f48bc58d4f1c944615a3fea nvme: implement In-Band authentication
-b61775d185a395f26fecdc7898e39de677a6c3dd nvme-auth: Diffie-Hellman key exchange support
-6490c9ed06de4a97a1ba89f53cd6c045d5277bc4 nvmet: parse fabrics commands on io queues
-db1312dd95488b5e6ff362ff66fcf953a46b1821 nvmet: implement basic In-Band Authentication
-7a277c37d3522e9b2777d762bbbcecafae2b1f8d nvmet-auth: Diffie-Hellman key exchange support
 1a70200f404ae210b4f0334e3936e84f8edb6bc8 nvmet-auth: expire authentication sessions
 4bc14f3101364877dd59085f39e068a2a7ec9f2d block/rnbd-srv: Set keep_id to true after mutex_trylock
 ce11bdf946176d48c2c0d36b56f0bf368c177298 block/rnbd-srv: Replace sess_dev_list with index_idr
@@ -270,6 +244,7 @@ a25efd6ef1ef4c32991a1d5a013dd41e3b8f7eff Revert "Kbuild, lto, workaround: Don't 
 7452dd26a59a9dfcde3f179594f3be6c4752a9a9 modpost: add PATTERNS() helper macro
 1560cb0e186e83f0572a84d22e139c100060905c modpost: remove unneeded .symbol_white_list initializers
 672fb6740cbfde34f4d367ffa3c939b608a927e1 modpost: remove .symbol_white_list field entirely
+74de14fe05dd6b151d73cb0c73c8ec874cbdcde6 MIPS: tlbex: Explicitly compare _PAGE_NO_EXEC against 0
 c0cbe70742f4a70893cd6e5f6b10b6e89b6db95b NFSD: add posix ACLs to struct nfsd_attrs
 927bfc5600cd6333c9ef9f090f19e66b7d4c8ee1 NFSD: change nfsd_create()/nfsd_symlink() to unlock directory before returning.
 b677c0c63a135a916493c064906582e9f3ed4802 NFSD: always drop directory lock in nfsd_unlink()
@@ -576,6 +551,17 @@ b3bb8628bf64440065976c71e4ab09186c393597 tsnep: Fix tsnep_tx_unmap() error path 
 546b9d3f406a14cfbb12bfbf9fe1b302f1d860b5 net: phy: dp83867: fix get nvmem cell fail
 7a07a29e4f6713b224f3bcde5f835e777301bdb8 s390/qeth: cache link_info for ethtool
 b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d Merge tag 'for-net-2022-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+d2eb7cb97c7df25df3e3e0f590b5bbf00c66d4c9 wifi: rtw88: 8822c: extend supported probe request size
+8edb22de9de771e6be142599d7dc898c082342fc wifi: rtw88: fix stopping queues in wrong timing when HW scan
+79ba1062c459a7afac8cc43649f7377052795c05 wifi: rtw88: fix store OP channel info timing when HW scan
+86331c7e0cd819bf0c1d0dcf895e0c90b0aa9a6f wifi: rtw88: phy: fix warning of possible buffer overflow
+dcbf179cbc18f66976740d28fbcfab75be514d16 wifi: rtw88: access chip_info by const pointer
+15273b7b8b4f378613bf2cb45ce1b83f13e4afa1 dt-bindings: wireless: use spi-peripheral-props.yaml
+0cf03f1b432dda23cfbbfb9a642deb29c8e13482 wifi: brcmsmac: remove duplicate words
+93fbc1ebd978cf408ef5765e9c1630fce9a8621b wifi: rtlwifi: 8192de: correct checking of IQK reload
+6b013c3d47be86b07afb2e16da43499fb5b0a262 wifi: qtnfmac: remove braces around single statement blocks
+674ece275a8ef3c024cf5b15e20fca5acb24ee42 wifi: rtw89: refine leaving LPS function
+bafe9528b792f4a442aa1ea2b0297cd53a0351ab wifi: rtw89: 8852a: correct WDE IMR settings
 8ef49f7f8244424adcf4a546dba4cbbeb0b09c09 can: j1939: j1939_sk_queue_activate_next_locked(): replace WARN_ON_ONCE with netdev_warn_once()
 8c21c54a53ab21842f5050fa090f26b03c0313d6 can: j1939: j1939_session_destroy(): fix memory leak of skbs
 a4cb6e62ea4d36e53fb3c0f18ea4503d7b76674f can: ems_usb: fix clang's -Wunaligned-access warning
@@ -655,6 +641,18 @@ eb5a33ea31190c189ca4a59de4687b0877662c06 powerpc: Don't hide eh field of lwarx b
 5cccf7a5215d12027e55e247907817631b413c28 powerpc: Make eh value more explicit when using lwarx
 cb928ac192128c842f4c1cfc8b6780b95719d65f powerpc64/ftrace: Fix ftrace for clang builds
 59bab33a4f57f886c5f8a4d1f2bed728ec185d16 powerpc/ppc-opcode: Fix PPC_RAW_TW()
+0fa24196e4257bcad0c5c82d93508536426db4a2 wifi: brcmfmac: fix continuous 802.1x tx pending timeout error
+09be7546a602ea2d0959fc13515765221da248f2 wifi: brcmfmac: fix scheduling while atomic issue when deleting flowring
+aa666b68e73fc06d83c070d96180b9010cf5a960 wifi: brcmfmac: fix invalid address access when enabling SCAN log level
+5606aeaad01e0b0ad09c021cfa44ee18fc4ae33b wifi: brcmfmac: Fix to add brcmf_clear_assoc_ies when rmmod
+2eee3db784a045289ebc62fc3bdbe0eb36b73a3d wifi: brcmfmac: Fix to add skb free for TIM update info when tx is completed
+9a72db41338564040b6469342cfddd46568c7380 wifi: rtw88: add mutex when set SAR
+685b474b7d8aadf601f4627ccad00d59fabd4757 wifi: rtw88: add mutex when set regulatory and get Tx power table
+341dd1f7de4c2d91edf0fa4d34a14b4f98717bea wifi: rtw88: add the update channel flow to support setting by parameters
+68c5391443971c371daf98830172319477dd95e6 wifi: rtw88: fix WARNING:rtw_get_tx_power_params() during HW scan
+d08458b57a5025ca137807f1030ad93e3d7f05f0 wifi: rtw88: add flushing queue before HW scan
+6bf3a083407b5d404d70efc3a5ac75b472e5efa9 wifi: rtw88: add flag check before enter or leave IPS
+7dad3e39fde1eef97bc1a0b92e5d0f3500c9ed56 wifi: rtw88: prohibit enter IPS during HW scan
 83ee9f23763a432a4077bf20624ee35de87bce99 powerpc/kexec: Fix build failure from uninitialised variable
 7aeef1548ac026c8bcb9ec223b672f81da340011 hwmon: (lm90) Fix error return value from detect function
 e7f164955f07c394ad0a8a57c24a0c8088630051 Merge tag 'linux-can-fixes-for-6.0-20220810' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
@@ -1050,5 +1048,7 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+9425885f141703d2507acab2eb8ca7ae1d1a3d48 Merge remote-tracking branch 'wireless-next/main'
+fd9f0781cb263a347e78e6358acd0a1605bdb837 Add localversion to identify builds from this tree
 
---===============5320505359696803014==--
+--===============1636074295568914309==--
