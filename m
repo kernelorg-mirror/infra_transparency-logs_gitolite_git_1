@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4094767096341389825=="
+Content-Type: multipart/mixed; boundary="===============7199904824295478796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Aug 2022 08:45:54 -0000
-Message-Id: <166055315402.9469.11657325919343809963@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 08:46:19 -0000
+Message-Id: <166055317969.9717.13673147151361915002@gitolite.kernel.org>
 
---===============4094767096341389825==
+--===============7199904824295478796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: cf020a9648c5c18be3a38d4576d7a8fe8a1cb5c6
-    new: d4927b66ac6c4ff5171175f51cb08d97c5a03858
-    log: revlist-cf020a9648c5-d4927b66ac6c.txt
+    new: 569e34443b02683524e3df4301f8a8e9b3205f5b
+    log: revlist-cf020a9648c5-569e34443b02.txt
+  - ref: refs/heads/master
+    old: d4927b66ac6c4ff5171175f51cb08d97c5a03858
+    new: 569e34443b02683524e3df4301f8a8e9b3205f5b
+    log: |
+         243e25597ad5e28c7177e133a064893a2db55505 Merge branch into tip/master: 'perf/urgent'
+         97f2491c8056abb560a0352efe446d6a4ec89165 Merge branch into tip/master: 'sched/urgent'
+         9fc4c279c339c914df53452fd9246f5de75f04dc Merge branch into tip/master: 'WIP/fixes'
+         feb9b2b52cd5f7d1f2b1e4233eb7df7c653303bd Merge branch into tip/master: 'locking/core'
+         3294a596ab4caaf8b8909336359ac7060c55205e Merge branch into tip/master: 'sched/core'
+         5e51eb30e9995d4cb1dac3795b4ad8f868b2cf1a Merge branch into tip/master: 'x86/cleanups'
+         8389d34b7460a4063a20950dd07c624f4dce2882 Merge branch into tip/master: 'x86/mm'
+         ca6facafec25e3b18781bc34205cd323145f14da Merge branch into tip/master: 'x86/platform'
+         569e34443b02683524e3df4301f8a8e9b3205f5b Merge branch into tip/master: 'x86/timers'
+         
 
---===============4094767096341389825==
+--===============7199904824295478796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf020a9648c5-d4927b66ac6c.txt
+Content-Disposition: attachment; filename=revlist-cf020a9648c5-569e34443b02.txt
 
 690e179059e7e89040d1cd564e39761567a8d5dc Merge tag 'v5.18' into next
 433302dd8772fc4fe2b9ddcdb42f6a378317c665 Input: omap4-keypad - switch to using pm_runtime_resume_and_get()
@@ -634,9 +648,15 @@ f6eb0fed6a3957c0b93e3a00c1ffaad84d4ffc31 Merge tag 'timers-urgent-2022-08-13' of
 aea23e7c464bfdec04b52cf61edb62030e9e0d0a Merge tag 'pull-work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 fc04b2ccf0edc49e53d2e1251d122e40285233e6 x86/rtc: Rewrite & simplify mach_get_cmos_time() by deleting duplicated functionality
 e1a6bc7c6969527dbe0afa4801a0237e41e26b1b x86/rtc: Rename mach_set_rtc_mmss() to mach_set_cmos_time()
-fdddf7bbb392ddaab30acf59c5118856231d320e Merge branch into tip/master: 'x86/timers'
 8924779df820c53875abaeb10c648e9cb75b46d4 x86/kprobes: Fix JNG/JNLE emulation
-e57dfc71b952961af0ec0ad92699a030efd9519b Merge branch into tip/master: 'perf/urgent'
-d4927b66ac6c4ff5171175f51cb08d97c5a03858 Merge branch 'linus'
+243e25597ad5e28c7177e133a064893a2db55505 Merge branch into tip/master: 'perf/urgent'
+97f2491c8056abb560a0352efe446d6a4ec89165 Merge branch into tip/master: 'sched/urgent'
+9fc4c279c339c914df53452fd9246f5de75f04dc Merge branch into tip/master: 'WIP/fixes'
+feb9b2b52cd5f7d1f2b1e4233eb7df7c653303bd Merge branch into tip/master: 'locking/core'
+3294a596ab4caaf8b8909336359ac7060c55205e Merge branch into tip/master: 'sched/core'
+5e51eb30e9995d4cb1dac3795b4ad8f868b2cf1a Merge branch into tip/master: 'x86/cleanups'
+8389d34b7460a4063a20950dd07c624f4dce2882 Merge branch into tip/master: 'x86/mm'
+ca6facafec25e3b18781bc34205cd323145f14da Merge branch into tip/master: 'x86/platform'
+569e34443b02683524e3df4301f8a8e9b3205f5b Merge branch into tip/master: 'x86/timers'
 
---===============4094767096341389825==--
+--===============7199904824295478796==--
