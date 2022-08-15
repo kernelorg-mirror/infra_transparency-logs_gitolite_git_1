@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3531647078224329638=="
+Content-Type: multipart/mixed; boundary="===============0581860634141547636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 15 Aug 2022 10:48:24 -0000
-Message-Id: <166056050411.16281.7116048915419935229@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 10:50:36 -0000
+Message-Id: <166056063686.18644.3041197801048186314@gitolite.kernel.org>
 
---===============3531647078224329638==
+--===============0581860634141547636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/master
-    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+  - ref: refs/heads/features
+    old: 953503751a426413ea8aee2299ae3ee971b70d9b
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-a111daf0c53a-568035b01cfb.txt
+    log: revlist-953503751a42-568035b01cfb.txt
 
---===============3531647078224329638==
+--===============0581860634141547636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a111daf0c53a-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-953503751a42-568035b01cfb.txt
 
+7e55c60acfbb81b8f3f323e67c2ff32bbcc84215 md/raid5: Pivot raid5_make_request()
+df1b620a3e13b682f624c2cbf73e88d825d6d386 md/raid5: Improve debug prints
+9ad1a74ff0090fb201ee87ebb00b38c8bf25b26c md/raid5: Increase restriction on max segments per request
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
@@ -426,9 +429,6 @@ df1c941468fca014ad092f76672966bb412c2848 net: avoid overflow when rose /proc dis
 049d5d9890e9f4ba6d384ba5cfc5e8698be1ae9e eth: fix the help in Wangxun's Kconfig
 bc3410f250219660a7be032c01c954a53b2c26ab net: bcmgenet: Indicate MAC is in charge of PHY PM
 ac0dbed9ba4c38ed9b5fd3a43ee4bc1f48901a34 net: seg6: initialize induction variable to first valid array index
-3fb39cb7c5145a10e1a0221c057e92fb8855efbb Revert "s390/smp,ptdump: add absolute lowcore markers"
-5e441f61f509617a3f57fcb156b7aa2870cc8752 Revert "s390/smp: rework absolute lowcore access"
-953503751a426413ea8aee2299ae3ee971b70d9b Revert "s390/smp: enforce lowcore protection on CPU restart"
 221f9d9cdf429df8c3843b4291f4f412fde11543 posix-timers: Make do_clock_gettime() static
 a9cf69d0e7f2051cca1c08ed9b34fe79da951ee9 Merge tag 'vfio-v6.0-rc1' of https://github.com/awilliam/linux-vfio
 033a94412b6065a21c2ede2f37867e747a84563f Merge tag 'livepatching-for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============3531647078224329638==--
+--===============0581860634141547636==--
