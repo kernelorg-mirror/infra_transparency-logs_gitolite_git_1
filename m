@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3050540702135595690=="
+Content-Type: multipart/mixed; boundary="===============8647021421028474169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 15 Aug 2022 19:10:57 -0000
-Message-Id: <166059065719.5760.17941732875395110316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 15 Aug 2022 19:18:43 -0000
+Message-Id: <166059112308.10026.10300051128230164161@gitolite.kernel.org>
 
---===============3050540702135595690==
+--===============8647021421028474169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 03c765b0e3b4cb5063276b086c76f7a612856a9a
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-03c765b0e3b4-568035b01cfb.txt
+  - ref: refs/heads/x86/cleanups
+    old: edf13ecbc8d68cc7462df9cae1f4a137df3b827c
+    new: 4630535c64725bcd722eb59fb8d92be8db943d3d
+    log: revlist-edf13ecbc8d6-4630535c6472.txt
 
---===============3050540702135595690==
+--===============8647021421028474169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03c765b0e3b4-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-edf13ecbc8d6-4630535c6472.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
 dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
@@ -1050,5 +1047,8 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+039f0e054a29d06970892240d70143150d2aaec2 x86/boot: Remove superfluous type casting from arch/x86/boot/bitops.h
+3163600cab67ffd276a3bb97891404c59c8595a4 x86: Fix various duplicate-word comment typos
+4630535c64725bcd722eb59fb8d92be8db943d3d x86/uaccess: Improve __try_cmpxchg64_user_asm() for x86_32
 
---===============3050540702135595690==--
+--===============8647021421028474169==--
