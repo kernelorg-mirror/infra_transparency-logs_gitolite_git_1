@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2965136399066387551=="
+Content-Type: multipart/mixed; boundary="===============0851292040383630068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 15 Aug 2022 09:03:05 -0000
-Message-Id: <166055418585.21873.15088711023471189385@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 09:03:17 -0000
+Message-Id: <166055419707.22033.11872588095233310048@gitolite.kernel.org>
 
---===============2965136399066387551==
+--===============0851292040383630068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: afa6e8225571047286d61812f393c879ef344b1d
-    new: 7acbd85b43130c78d1b224dcdb842f9b4e77116c
-    log: revlist-afa6e8225571-7acbd85b4313.txt
-  - ref: refs/heads/renesas-arm-dt-for-v6.1
-    old: 0000000000000000000000000000000000000000
-    new: a5fd441c97acd3e1a822262850166a8070beba0c
-  - ref: refs/heads/renesas-drivers-for-v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 41a21e578da4986685f013d45454a12457f01180
+  - ref: refs/heads/next
+    old: b5468cb7909f0068dd977e1f63ea39132098dbb7
+    new: a856c5f264405e55734da632683232c2e69eb68b
+    log: revlist-b5468cb7909f-a856c5f26440.txt
 
---===============2965136399066387551==
+--===============0851292040383630068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afa6e8225571-7acbd85b4313.txt
+Content-Disposition: attachment; filename=revlist-b5468cb7909f-a856c5f26440.txt
 
+e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
 b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
 2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
 6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
@@ -1055,6 +1050,5 @@ ef13625ea262cd277ad2bd3f852f2d67547365f7 arm64: dts: renesas: r9a07g044: Update 
 a5fd441c97acd3e1a822262850166a8070beba0c arm64: dts: renesas: r9a07g054: Update pinctrl node to handle GPIO interrupts
 41a21e578da4986685f013d45454a12457f01180 soc: renesas: Kconfig: Enable IRQC driver for RZ/G2L SoC
 a856c5f264405e55734da632683232c2e69eb68b Merge branches 'renesas-arm-dt-for-v6.1' and 'renesas-drivers-for-v6.1' into renesas-next
-7acbd85b43130c78d1b224dcdb842f9b4e77116c Merge branch 'renesas-next' into renesas-devel
 
---===============2965136399066387551==--
+--===============0851292040383630068==--
