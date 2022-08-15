@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 15 Aug 2022 21:17:08 -0000
-Message-Id: <166059822868.29227.7200191077079010812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 15 Aug 2022 21:24:45 -0000
+Message-Id: <166059868500.1166.15376796489393643351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 571f268483c803df83f3d88801482c7a88e5ca0a
-    new: 1991d9c51602dd0066f8618053417d543889e9c2
+  - ref: refs/heads/todo
+    old: 8412335fc3f2a3467d2d1594a9432775f11396e8
+    new: 59d992158534c8291f548563a9c949dae4ad7796
     log: |
-         7f203bc89eb66d6afde7eae91347fc0352090cc3 cgroup: Replace cgroup->ancestor_ids[] with ->ancestors[]
-         1991d9c51602dd0066f8618053417d543889e9c2 Merge branch 'for-6.1' into for-next
+         59d992158534c8291f548563a9c949dae4ad7796 What's cooking (2022/08 #05)
          
-  - ref: refs/heads/for-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7f203bc89eb66d6afde7eae91347fc0352090cc3
