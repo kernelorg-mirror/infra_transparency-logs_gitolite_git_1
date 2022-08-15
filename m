@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4267133635836091162=="
+Content-Type: multipart/mixed; boundary="===============7588857330177865739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 15 Aug 2022 17:25:36 -0000
-Message-Id: <166058433673.27280.10097850249980181876@gitolite.kernel.org>
+Date: Mon, 15 Aug 2022 17:26:16 -0000
+Message-Id: <166058437682.27657.5299947215339233199@gitolite.kernel.org>
 
---===============4267133635836091162==
+--===============7588857330177865739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 055f47c8d9d4a46776ef6a1a740e2aae2f59015d
-    new: 98f03024ca5c569b11192a306abf46734ad2d2e1
-    log: revlist-055f47c8d9d4-98f03024ca5c.txt
+  - ref: refs/heads/master
+    old: aeb6e6ac18c73ec287b3b1e2c913520699358c13
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-aeb6e6ac18c7-568035b01cfb.txt
 
---===============4267133635836091162==
+--===============7588857330177865739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-055f47c8d9d4-98f03024ca5c.txt
+Content-Disposition: attachment; filename=revlist-aeb6e6ac18c7-568035b01cfb.txt
 
 690e179059e7e89040d1cd564e39761567a8d5dc Merge tag 'v5.18' into next
 433302dd8772fc4fe2b9ddcdb42f6a378317c665 Input: omap4-keypad - switch to using pm_runtime_resume_and_get()
@@ -115,21 +115,7 @@ d853cec7306adcdbca807d458a6dcdded7a620ec dt-bindings: input: Use common 'linux,k
 005d4674ed3d3d5c1a4c288c2486c8e9949dbb01 dt-bindings: input: gpio-keys: reference input.yaml and document properties
 42d3f278d504de99edca345cd0543081d725943b dt-bindings: input: gpio-keys: accept also interrupt-extended
 94c8e8664ab6f781b2ba1258c3bb389131f5ebb4 Input: i8042 - add dritek quirk for Acer Aspire One AO532
-4b8dbdfbc5f650095a8e105998e7a84b4d212495 SUNRPC: Fix an RPC/RDMA performance regression
-9597152d98840c2517230740952df97cfcc07e2f Revert "pNFS: nfs3_set_ds_client should set NFS_CS_NOPING"
-7836d75467e9d214bdf5c693b32721de729a6e38 pNFS/flexfiles: Report RDMA connection errors to the server
-431794e67e238e6fd170499a14fd2abf0a16b5bd pNFS/files: Handle RDMA connection errors correctly
-6ca0a6f834ed06b2b4c6d1f7f162f2b0d3e196cf NFS: Fix case insensitive renames
 39636805cab2d46aa645f389f3fca8040afd4c4f dt-bindings: input: iqs7222: Use central 'linux,code' definition
-f07a5d2427fc113dc50c5c818eba8929bc27b8ca NFSv4.1: Don't decrease the value of seq_nr_highest_sent
-7ccafd4b2b9f34e6d8185f796f151c47424e273e NFSv4.1: Handle NFS4ERR_DELAY replies to OP_SEQUENCE correctly
-f931d8374cad3dc09d0f6e3f76689fdb3f104c1a nfs/blocklayout: refactor block device opening
-064109db53ecc5d88621d02f36da9f33ca0d64bd NFS: remove redundant code in nfs_file_write()
-c77c738c37d0fa8380a671613630298d71099180 nfs: Replace kmap() with kmap_local_page()
-8b4e87a1d68f5ae440c42c15c238fd964fd381d0 nfs: fix port value parsing
-f1bafa7375c01ff71fb7cb97c06caadfcfe815f3 sunrpc: fix expiry of auth creds
-940261a195080cf1cdcd56948d363fe363b69da1 NFS: Allow setting rsize / wsize to a multiple of PAGE_SIZE
-51fd2eb52c0ca8275a906eed81878ef50ae94eb0 NFSv4: Fix races in the legacy idmapper upcall
 f5bbc93937aca00fa2de458b7ffa2d9beb59649e dt-bindings: display: convert ilitek,ili9341.txt to dt-schema
 5ec88543063c758f49fc5e89a70386f649b65102 dt-bindings: display: ili9341: document canaan kd233's lcd
 727b05e46cffd74adca96ca13e57352339875586 dt-bindings: memory-controllers: add canaan k210 sram controller
@@ -156,29 +142,6 @@ b2b0a5e978552e348f85ad9c7568b630a5ede659 gfs2: stop using generic_writepages in 
 d3d71901b1eaa7f3e1fa7489507d5fd2b8eb5ede gfs2: remove ->writepage
 7b86e8a5ba86744611cd3199a3122bef63b97ae5 zonefs: remove ->writepage
 478af190cb6c501efaa8de2b9c9418ece2e4d0bd iomap: remove iomap_writepage
-ba8ec7a607e98e8491a1fcf924a2e6c96ac9d413 SUNRPC: Shrink size of struct rpc_task
-8efc4bbe84a8bdd26e848ed93a8900fad1b44ca2 nfs: add new nfs_direct_req tracepoint events
-55051c0ced7d322a169f8603d306ee6ec079f8ae nfs: always check dreq->error after a commit
-69d966510d9f5de81588b37d23a9ee8ccc477b23 nfs: only issue commit in DIO codepath if we have uncommitted data
-0701214cd6e66585a999b132eb72ae0489beb724 SUNRPC: Fail faster on bad verifier
-f67939e4b045e1c8e857055463c0b5a88eca4844 SUNRPC: Replace dprintk() call site in xs_data_ready
-33ce83ef0bb048be259ff8ae92ad212918f1ef35 NFS: Replace fs_context-related dprintk() call sites with tracepoints
-4f5f3b6028343d687d0533329b130e4b8280ab32 SUNRPC: Introduce xdr_stream_move_subsegment()
-7c4cd5f4d2dd4a028a46bfb696b0cd387caadf33 SUNRPC: Add a function for directly setting the xdr page len
-e1bd87608d4b6f87813f79b91e834de610f1049b SUNRPC: Add a function for zeroing out a portion of an xdr_stream
-d3b00a802c845a6021148ce2e669b5a0b5729959 NFS: Replace the READ_PLUS decoding code
-29946fbcb2c31a2a367887dc58a2e7e5b012e285 SUNRPC: Remove xdr_align_data() and xdr_expand_hole()
-7ffcdaa670164a2ad3844a5ef6df5423782ba290 SUNRPC expose functions for offline remote xprt functionality
-895245ccea251ff54ea19bc364c9a49007918115 SUNRPC add function to offline remove trunkable transports
-88363d3e9db66e697fd0198cc2c1785377f2459a NFSv4.1 offline trunkable transports on DESTROY_SESSION
-95d0d30c66b855f614e677b8cd0455eed0765a6f SUNRPC create an iterator to list only OFFLINE xprts
-9368fd6c75053630e95a6dbd17c9522e82101276 SUNRPC enable back offline transports in trunking discovery
-497e6464d6adcee64f071b18fc826e63cfd2f0a5 SUNRPC create an rpc function that allows xprt removal from rpc_clnt
-e818bd085baf18cc3271c0f5549d9f5a7069efba NFSv4.1 remove xprt from xprt_switch if session trunking test fails
-7960aa9e4d09504a0a3aff9e34329230a5d0aa9b SUNRPC restructure rpc_clnt_setup_test_and_add_xprt
-273d6aed9e5a1859dda15256f45561315c3d237a SUNRPC export xprt_iter_rewind function
-92cc04f60ab4ae199eee507e5cd4d5aa6c722e9c SUNRPC create a function that probes only offline transports
-f201bdfd7c87967480000db8974f683c14aa6eb2 NFSv4.1 probe offline transports for trunking on session creation
 b9d982385d0544132bc398b7a7e062d9a554d941 rtc: sun6i: add support for R329 RTC
 f69060c14431f476b6993ea92bef77e20437af4e dt-bindings: rtc: zynqmp: Add clock information
 85cab027d4e31beb082ec41b71cb8670eeb6fd46 rtc: zynqmp: Updated calibration value
@@ -192,8 +155,6 @@ bb42b7e9e30e7a07b7cb6790a22dc758b0dc123e rtc: rv8803: fix missing unlock on erro
 10e1fb88c7b7e71ae04895511f4f98a7721c9e6e dt-bindings: rtc: nxp,pcf85063: Convert to DT schema
 8b30b09317ec6fda5f36a428e9e331253b5c4739 dt-bindings: rtc: nuvoton: add NCT3018Y Real Time Clock
 5adbaed16cc63542057627642d2414f603f2db69 rtc: Add NCT3018Y real time clock driver
-e35a5e782f67ed76a65ad0f23a484444a95f000f NFSv4.1: RECLAIM_COMPLETE must handle EACCES
-6622e3a73112fc336c1c2c582428fb5ef18e456a SUNRPC: Reinitialise the backchannel request buffers before reuse
 85140ef275f577f64e8a2c5789447222dfc14fc4 ACPI: property: Return type of acpi_add_nondev_subnodes() should be bool
 1d52f10917a751f90e269a0ed9b6cca60dbe0300 ACPI: property: Tie data nodes to acpi handles
 5ee772883af5ed2dfe17e8af2b09d7003344be6c ACPI: property: Use acpi_object_type consistently in property ref parsing
@@ -202,7 +163,6 @@ e35a5e782f67ed76a65ad0f23a484444a95f000f NFSv4.1: RECLAIM_COMPLETE must handle E
 923044133367c8d72662938da0ea531bbdb39799 ACPI: property: Unify integer value reading functions
 103e10c69c611efabccf57d799c4b191d53ee765 ACPI: property: Add support for parsing buffer property UUID
 369af6bf2c28f9f57438e82f953f6351cf2a94cd ACPI: property: Read buffer properties as integers
-72691a269f0baad6d5f4aa7af97c29081b86d70f SUNRPC: Don't reuse bvec on retransmission of the request
 e4bb7fee188dab08b7e589fff7616716cdbd5c3b dt-bindings: input: ariel-pwrbutton: use spi-peripheral-props.yaml
 12b827758f51d4b614a677dd453b0e854e46aa65 of: also handle dma-noncoherent in of_dma_is_coherent()
 d1afce6709595b39cd159bdc54fe2093808c02fc dt-bindings: riscv: document cbom-block-size
@@ -223,8 +183,6 @@ f323896fe6fa8fa55ed37cb8b804fa97ead641c3 scsi: core: Call blk_mq_free_tag_set() 
 c6380f9924270d51cc233cfd592b279be3881e6d scsi: pm8001: Fix typo 'the the' in comment
 7c744d00990ea999d27f306f6db5ccb61b1304b2 Input: adc-joystick - fix ordering in adc_joystick_probe()
 8bb5e7f4dcd9b9ef22a3ea25c9066a8a968f12dd Merge branch 'next' into for-linus
-b1a28f2eb9ea7a5a1763fe53fe699aa0feae4231 NFS: nfs_async_write_reschedule_io must not recurse into the writeback code
-2135e5d56278ffdb1c2e6d325dc6b87f669b9dac NFSv4/pnfs: Fix a use-after-free bug in open
 18cc912b8a2acaf32589241fbac47192ab90db14 fs: change test in inode_insert5 for adding to the sb list
 d3e94fdc4ef476ca1edd468cc11badf2dbbb3c00 fscrypt: export fscrypt_fname_encrypt and fscrypt_fname_encrypted_size
 637fa738b590ec0e3414931d1e07c4f195eb5215 fscrypt: add fscrypt_context_for_new_inode
@@ -311,7 +269,6 @@ e6cfcdda8cbe81eaf821c897369a65fec987b404 x86/bugs: Enable STIBP for IBPB mitigat
 b0f2fe5a38389790a97334c5df1c5dec52c5d627 ACPI: VIOT: Do not dereference fwnode in struct device
 c9a1dd673f28da9624776e75b78ae04125544852 rtc: zynqmp: initialize fract_tick
 6492fed7d8c95f53b0b804ef541324d924d95d41 rtc: rtc-cmos: Do not check ACPI_FADT_LOW_POWER_S0
-3c59366c207e4c6c6569524af606baf017a55c61 NFS: don't unhash dentry during unlink/rename
 0f3e72b5c8cfa0b57dc4fc7703a0a42dbc200ba9 vfio: Move vfio.c to vfio_main.c
 03c4cd6f89e074a51e289eb9129ac646f0f2bd29 rtc: spear: set range max
 332f1795ca202489c665a75e62e18ff6284de077 Bluetooth: L2CAP: Fix l2cap_global_chan_by_psm regression
@@ -354,9 +311,6 @@ df4aaf015775221dde8a51ee09edb919981f091e drm/shmem-helper: Add missing vunmap on
 134941683b89d05b5e5c28c817c95049ba409d01 netfilter: ip6t_LOG: Fix a typo in a comment
 46dae32fe625a75f549c3a70edc77b778197bb05 time: Correct the prototype of ns_to_kernel_old_timeval and ns_to_timespec64
 e362359ace6f87c201531872486ff295df306d13 posix-cpu-timers: Cleanup CPU timers before freeing them during exec
-af887e437bb298752b2edc5834048b8151b8aea0 NFS: Improve write error tracing
-b313eb91521872284c0e395773fc6e9827fb1446 NFS: Improve O_DIRECT tracing
-3fa5cbdc44de190f2c5605ba7db015ae0d26f668 NFS: Improve readpage/writepage tracing
 341b6941608762d8235f3fd1e45e4d7114ed8c2c netfilter: nf_tables: upfront validation of data via nft_data_init()
 f323ef3a0d49e147365284bc1f02212e617b7f09 netfilter: nf_tables: disallow jump to implicit chain from set element
 580077855a40741cf511766129702d97ff02f4d9 netfilter: nf_tables: fix null deref due to zeroed list head
@@ -479,7 +433,6 @@ b74ed7a68ec183403763571a54ca3dcc24cf19eb KVM: Actually create debugfs in kvm_cre
 17a024a8b981243fa1d17cf0084de43cc5f9b603 KVM: x86: Refresh PMU after writes to MSR_IA32_PERF_CAPABILITIES
 7de8e5b6b139a3a94aca24e8d8d35b77dc33e0ac KVM: VMX: Use proper type-safe functions for vCPU => LBRs helpers
 6348aafa8d24c156124f76b5a1507079c3213112 KVM: VMX: Adjust number of LBR records for PERF_CAPABILITIES at refresh
-aeb6e6ac18c73ec287b3b1e2c913520699358c13 Merge tag 'nfs-for-5.20-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 c08b4848f596fd95543197463b5162bd7bab2442 riscv: lib: uaccess: fix CSR_STATUS SR_SUM bit
 487ceef03895285f44ab26f6cf0c19b21b73d40d dt-bindings: pinctrl: qcom,ipq6018: Fix example 'gpio-ranges' size
 2ac2920cd8d9334e24bfd30d518010f99077a947 dt-bindings: mailbox: arm,mhu: Make secure interrupt optional
@@ -788,119 +741,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-667393a5d4c63a52d543549dc91854dae07d9695 mm/hugetlb: avoid corrupting page->mapping in hugetlb_mcopy_atomic_pte
-31d6b41228149415a139916c2ad110a61a4dac66 shmem: update folio if shmem_replace_page() updates the page
-a6fc862eae99f8c8ee5b4af542c532013bf63f0e writeback: avoid use-after-free after removing device
-36c6050677442cfe3cabe08d38aa0fd1ffa236d0 mm: vmscan: fix extreme overreclaim and swap floods
-392891a654b0b9a366684f18a0ab2bc997ae9157 mailmap: update Guilherme G. Piccoli's email addresses
-589a6a9a382f6cbb7321d2f2fec243c6f765e941 vmcoreinfo: add kallsyms_num_syms symbol
-abde634b41528d7a66b5abf3707fb32611eec52b ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-9a11af3529d0fa1bc6c64e0345f37100d0fb197c mm: re-allow pinning of zero pfns (again)
-2478cbe3a3bc0493ee2bed803dceef276ecac36c binder_alloc: add missing mmap_lock calls when using the VMA
-7914fb93d3106055fc6b1d34398f7450b4d58984 get_maintainer: add Alan to .get_maintainer.ignore
-8ffc1f108afd8baaea46fca20c033648fec7c22b Revert "zram: remove double compression logic"
-0e5d6dac6b65fc52b335999d78e0a8ea990f68a6 mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
-ba903ada43b05c8f0a657ba8cd20558334444183 kernel/sys_ni: add compat entry for fadvise64_64
-fa2d46ec62ef4aa96f902e126f79619495b6cefa mm: add DEVICE_ZONE to FOR_ALL_ZONES
-a8552fe097c0f37df7ffa02158ee8f9c07b6e5b7 mm/smaps: don't access young/dirty bit if pte unpresent
-27f552116fd1c7ef0ce39f0f968905a2031ed692 mm/uffd: reset write protection when unregister with wp-mode
-d042b86410f5b21ed66347a616801c8d002a69c9 mm/hugetlb: fix hugetlb not supporting softdirty tracking
-e5ed58330d609764612ef790381c9add553fe335 mm/hugetlb: support write-faults in shared mappings
-a8e41d7d8649e9bf8e5e6c4b82072e4240966904 mm/shmem: fix chattr fsflags support in tmpfs
-9d98bc37f00a56c221ec22d37693eaa9eda313f8 mm/shmem: tmpfs fallocate use file_modified()
-675347b9f51f05106db8af1082f0861f0b5e038a mm/shmem: shmem_replace_page() remember NR_SHMEM
-93c46a2d477249bd5040815403ec79dbe2513882 kprobes: don't call disarm_kprobe() for disabled kprobes.
-a97dbe16b2c78c194fea93ccc0419e126eaf0de7 mm: discard __GFP_ATOMIC
-ec0602f294c1706cdd2a6367efa77661e570af3a mm/page_alloc: minor clean up for memmap_init_compound()
-a913c3817ff354f6001a557658d04614984a8e06 procfs: add 'size' to /proc/<pid>/fdinfo/
-e4ab315810850b93cac381d6f4efd532f45a790e procfs: add 'path' to /proc/<pid>/fdinfo/
-1083dd0e8bce8da15fdac9ff1ac1ce2f1758005b mm: khugepaged: don't carry huge page to the next loop for !CONFIG_NUMA
-1628a5807ad55d90cca3ef78c358b7110cef2926 mm/khugepaged: add struct collapse_control
-5830cf4feacb102d78cab35e78ceadabc620bdf3 mm/khugepaged: use minimal bits to store num page < HPAGE_PMD_NR
-0028cf88a1e40eb318dc15938a3f4dec546fa70d mm-khugepaged-add-struct-collapse_control-fix-fix
-46c1db05725e9219df57a1f19a31eac40f71b08b mm/khugepaged: dedup and simplify hugepage alloc and charging
-a0e7ab39f2843f723ad54a14b40dce86f3980e68 mm/khugepaged: propagate enum scan_result codes back to callers
-f8698d22cd0d000e90b415eb3f4a97239b40f8ab mm/khugepaged: add flag to predicate khugepaged-only behavior
-bb8fd8663fa5935670cf0b0fa7269950e7c0653e mm/thp: add flag to enforce sysfs THP in hugepage_vma_check()
-41d984032f57bf2d8b03637d8bad8fa9720d4dbf mm/khugepaged: consistently order cc->is_khugepaged and pte_* checks
-343783456693c25bc8bbd0c3b7667547fca7bb1f mm/khugepaged: record SCAN_PMD_MAPPED when scan_pmd() finds hugepage
-dce973eac8bac38586ecd9e76f38bf4cc061e104 mm/madvise: introduce MADV_COLLAPSE sync hugepage collapse
-028e54cdde5fed59e6bc4a0a76f0b8303a479c5b mm/khugepaged: avoid possible memory leak in failure path
-0ce4cd7f0e9cc13ba04bc32327f2f672dd375452 mm/khugepaged: add missing kfree() to madvise_collapse()
-2897a2baa354ebb1febb2de590d116cd3e303bcf mm/khugepaged: delay computation of hpage boundaries until use
-749483f40ebd9c64cb95661d946cb556b30f7cd9 mm/khugepaged: rename prefix of shared collapse functions
-d7b8140cff5ac816b864a80dffc29bdb40ac6a7f mm/madvise: add MADV_COLLAPSE to process_madvise()
-066b6713b919e1acb7b50d02b3c7472702cc6717 mm/madvise: remove CAP_SYS_ADMIN requirement for process_madvise(MADV_COLLAPSE)
-db9d5c7c8f7c1cacb6ae33fe1fbe99c794e66341 selftests/vm: modularize collapse selftests
-5e4e9f959fc1b6cba14939ef03d151e016cb7de9 selftests/vm: dedup hugepage allocation logic
-cd4fd6d2ad5e14e258681ca55d9cc8e8ac467ac6 selftests/vm: add MADV_COLLAPSE collapse context to selftests
-4c9f7da29d00870c202bc7c56d9ec4fa6ac47e07 selftests/vm: add selftest to verify recollapse of THPs
-e247f4a71e501abe8dee8f9bf931d999f871d9e8 selftests/vm: add selftest to verify multi THP collapse
-3591b0bd3d5cc367da1fce6bea2b34bb12f21539 mm: prevent page_frag_alloc() from corrupting the memory
-3f1e1ac565c281a716498ce5a2065fd6d2da2ca4 mm/page_ext: remove unused variable in offline_page_ext
-8ba333a4bc69eb508fc839c8f7ee503e9d4e14d7 mm: fix use-after free of page_ext after race with memory-offline
-c4aad0dd4b5e52e8b4fa4f9673417ae70873a117 mm: align larger anonymous mappings on THP boundaries
-dbebd232409c7664a0d42d363b62d2371a39568e mm: memory-failure: cleanup try_to_split_thp_page()
-47dbe94fa46eb08a6b856cbf2774e0947f8c83e6 mm/filemap.c: convert page_endio() to use a folio
-e325a45117ea4ee045c23ed7a53bb02a95db93cf mm/damon/dbgfs: use kmalloc for allocating only one element
-d9211939b8ca37d340029acd3a18a6b068be3c42 selftests: vm: add hugetlb_shared userfaultfd test to run_vmtests.sh
-3d7d9c5c1f46bccce5330544c27aec50b6282098 userfaultfd: add /dev/userfaultfd for fine grained access control
-908148c417d475fbb9e6a9ade611c2bba63a220c userfaultfd: selftests: modify selftest to use /dev/userfaultfd
-8c4a014a95f138b8d14ba697afa815e7a95e616c userfaultfd: update documentation to describe /dev/userfaultfd
-ff79cd85d41276c99905a954e978fe151255e701 selftests: vm: add /dev/userfaultfd test cases to run_vmtests.sh
-b79e8bef17369ade4393be0d36df94dabb50b374 mm/vmscan: define macros for refaults in struct lruvec
-ec315ddc98010b53d0f1bca74a24d392f74da981 mm/x86: use SWP_TYPE_BITS in 3-level swap macros
-fdcd2c4d5961a79455a73a02bd68d0465a6b8c6a mm/swap: comment all the ifdef in swapops.h
-456f12230f7da139bdab17a92d85d12032d87a9f mm/swap: add swp_offset_pfn() to fetch PFN from swap entry
-6fe23b626c4d6462ba8364cec89b596d48eb0a09 mm/thp: carry over dirty bit when thp splits on pmd
-578d60ef43248ecb5bd8d4ff2b58467f13793614 mm: remember young/dirty bit for page migrations
-a0cbc2f3b501ef1be95ff18c3ee401cb5c3be265 mm/swap: cache maximum swapfile size when init swap
-bf89552b0fc59f4844f17ac40c810cf632b8ad7a mm/swap: cache swap migration A/D bits support
-f4b1e129d8b377bb3b1eed398e05db32271a974d zsmalloc: zs_object_copy: add clarifying comment
-6f9a1253407a63fd6900ab8fe0312d8a27580b53 zsmalloc-zs_object_copy-add-clarifying-comment-fix
-5dcee0dffa74018681980cacc4a524f85f34c15f zsmalloc: remove unnecessary size_class NULL check
-76e34aac90955d0ff90b53a6b4816c086310e275 mm/swap: remove the end_write_func argument to __swap_writepage
-92ce91cd8656979afdf912756f551c927193d7d7 mm/cma_debug: show complete cma name in debugfs directories
-65e59cadcf9f03f475a872730e9948ff6a902154 mm/mempolicy: fix lock contention on mems_allowed
-6b1eb206587261a38b5e2da6a8d4807bc6ad1f48 filemap: make the accounting of thrashing more consistent
-0018d2d40eafdf710ed08fd304421d76d2cbea51 mm/hugetlb: add dedicated func to get 'allowed' nodemask for current process
-9ba9985b424b36e4280c83e3fc4ea03d0f6babe3 page_alloc: remove inactive initialization
-1c6c6f87026ac144f9457ab67263bcae473e8567 mm/page_alloc: only search higher order when fallback
-fe69bdadeed27af0a0514467178b2ce366744de4 mm/util: reduce stack usage of folio_mapcount
-e2c8813d9f019f230ec5ea1a4859982b2a6a02a6 tools/vm/page_owner_sort: fix -f option
-8be91fbf5378aec4170944fca908cb385eda64db mm/damon/core: simplify the parameter passing for region split operation
-c125173ff8abf5bb37cfea8907227c3b4f98d537 mm/vmscan: make the annotations of refaults code at the right place
-5417dee015416ac28bbe30d784ed157874ac6d21 mm: migration: fix the FOLL_GET failure on following huge page
-72f4a6fc2e7455a8bf8972bf7c94fa47bbac9690 kfence: add sysfs interface to disable kfence for selected slabs.
-e0ca31ab83761fc750fc0c0d5a975bc2a3cdc27f Kselftests: remove support of libhugetlbfs from kselftests
-fd9187d5c3f0a2944b8bb5d6e577e81bed635d55 hugetlb_cgroup: remove unneeded nr_pages > 0 check
-afef572cfa76b70e2aaa7c2a75032f7518a6ae1d hugetlb_cgroup: hugetlbfs: use helper macro SZ_1{K,M,G}
-92b17072c015b4d2f15514dfb685dc8610aa0e76 hugetlb_cgroup: remove unneeded return value
-323b8db538e14e1d188f347ad9b87c8f2cd82637 hugetlb_cgroup: use helper macro NUMA_NO_NODE
-f38832953604f9a135bcfa225ac81666cd535623 hugetlb_cgroup: use helper for_each_hstate and hstate_index
-4d1225cd5560ffafcb829fb354b76f4520a3bfb6 mm/gup.c: simplify and fix check_and_migrate_movable_pages() return codes
-bf8e1bb07884dcde8daaae4328440a308bc948bf mm: add more BUILD_BUG_ONs to gfp_migratetype()
-21d7f84f26c42f53075672368c380f7c1785b798 mm/util.c: add warning if __vm_enough_memory fails
-061533b64823b22e1fc9e608aea89f56709b30e5 mm/dmapool.c: avoid duplicate memset within dma_pool_alloc
-192f866740945322e72703d7d05e9c84dc2e6a90 memory tiering: hot page selection with hint page fault latency
-918a50eb295b6ed8e302d18b5de1d3cb7ca6b9b7 memory tiering: rate limit NUMA migration throughput
-b1040cd48b20f827c8c29f0be66e846487774b73 memory tiering: adjust hot threshold automatically
-d2af7b221349ff6241e25fa8c67bcfae2b360700 mm/compaction: fix set skip in fast_find_migrateblock
-2f0151aea39b55add0ecdcb598b325c5d1243d61 === Mark start of DAMON hack tree ===
-8ca1bc06c0338ec306daeebae895a07c0583789d Add -damon suffix to the version name
-b910c854d332352d37fd710297ee01a41afc1ee2 for_damon_hack: Add files for DAMON hacks
-403c6a7d2118a38b4b9bbb6814e8c4fc739db9bd === Patches in mm-unstable but not yet pushed ===
-a18b24941a800dda7538f4d6d0fb8c220a66e2c5 === Patches written or reviewed by SJ but not merged in -mm ===
-4b6dc416635da74a3e155904b40165c6bcb9bfce ==== YuanChu's DAMON kselftest fix ====
-63dafb396155211524a5d1db5cd5e6885bbee8e4 selftests/damon: suppress compiler warnings for huge_count_read_write
-6ad8a1b4cd3cc1299704cf01cde98c7ef5c94c5e === commits having no plan to post for now ===
-a9ccc232e31fd6df12c3c4eeb918c8638a9c8452 tools/perf: Integrate DAMON in perf
-0bf53eca530894360d7b61dd7bacec2ed7e3de66 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-1af0093f419a084ba54255c06ffd792dd0f800f1 selftests/damon: Test target_ids_write()'s pids leaks
-1cb56dabf734e641c35e2d6e22915a5a3cbfec01 === Commits aiming not to be posted ===
-28ccbef48fa0636dd2b63700e87d1cb68dc9572d mm/damon: Add debug code
-0992fbe7b611ff2efaf9f636c2d9a3e59a12e7e0 Docs: Modify for DAMON only
-829a668e13ea7c34b98a01ec5986c65e63cac503 Docs/DAMON: Add more docs -next doc
-98f03024ca5c569b11192a306abf46734ad2d2e1 === Hacks in progress (aim to be posted) ===
 
---===============4267133635836091162==--
+--===============7588857330177865739==--
