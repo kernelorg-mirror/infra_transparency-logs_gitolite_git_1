@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 15 Aug 2022 12:56:51 -0000
-Message-Id: <166056821145.17405.11301088747498424822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 15 Aug 2022 12:56:54 -0000
+Message-Id: <166056821499.17471.519139936891158701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/next
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: b60e31bf18a7064032dbcb73dcb5b58f8a00a110
+  - ref: refs/heads/main
+    old: 3e2a68432126f4afb4ffe03a57145d46ce555d6f
+    new: e1baacdbcbf04ed8306d22966680ab6138b36820
     log: |
-         b60e31bf18a7064032dbcb73dcb5b58f8a00a110 thunderbolt: Add DP OUT resource when DP tunnel is discovered
+         aed71f2966374c19b96b28eb2b64f3a56d55302e ice: Update package to 1.3.30.0
+         e1baacdbcbf04ed8306d22966680ab6138b36820 Merge branch 'dev-queue' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/firmware
          
