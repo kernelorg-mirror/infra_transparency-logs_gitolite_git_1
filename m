@@ -1,33 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7760145621176098489=="
+Content-Type: multipart/mixed; boundary="===============0992270328746611422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 16 Aug 2022 03:16:58 -0000
-Message-Id: <166061981844.28736.4802996039027812401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 16 Aug 2022 03:17:06 -0000
+Message-Id: <166061982668.28861.11203267663453454877@gitolite.kernel.org>
 
---===============7760145621176098489==
+--===============0992270328746611422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: fa96acf505e0e5f4774e273d97cee65fffcf53e6
     new: e1084bacab44f570691c0fdaa1259acf93ed0098
     log: revlist-fa96acf505e0-e1084bacab44.txt
-  - ref: refs/heads/stable
-    old: 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: |
-         568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-         
-  - ref: refs/tags/next-20220516
-    old: b0116cffedf1ca8b522591b82ae039fd7efe3ebf
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220816
     old: 0000000000000000000000000000000000000000
     new: 5211a5a50a2381f9e4746ce745f6b4568b1d6840
@@ -35,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
 
---===============7760145621176098489==
+--===============0992270328746611422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -593,4 +584,4 @@ b49051b6816d4d338a1276da1771a2d6e2471ce4 Merge branch 'bitmap-for-next' of https
 94ab9da281bc8a3b9c300c82933e7869949946d7 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e1084bacab44f570691c0fdaa1259acf93ed0098 Add linux-next specific files for 20220816
 
---===============7760145621176098489==--
+--===============0992270328746611422==--
