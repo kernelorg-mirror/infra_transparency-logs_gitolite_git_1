@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 16 Aug 2022 09:23:55 -0000
-Message-Id: <166064183524.30247.12531527826456364767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Tue, 16 Aug 2022 09:29:16 -0000
+Message-Id: <166064215675.2732.11540826937041684540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: 152a81a0b1204e9c7f4af0004b5ed7a8d67dd037
+  - ref: refs/heads/testing
+    old: 7ebfc85e2cd7b08f518b526173e9a33b56b3913b
+    new: 93d7c52a6eb93e58e4569bd4de95ba3b19e3cf20
     log: |
-         152a81a0b1204e9c7f4af0004b5ed7a8d67dd037 pinctrl: samsung: Finish initializing the gpios before registering them
+         93d7c52a6eb93e58e4569bd4de95ba3b19e3cf20 selftests/net: Refactor xfrm_fill_key() to use array of structs
          
