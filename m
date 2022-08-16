@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8252107509556000397=="
+Content-Type: multipart/mixed; boundary="===============6831104971822561452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 16 Aug 2022 08:21:30 -0000
-Message-Id: <166063809063.18107.5418699298870782195@gitolite.kernel.org>
+Date: Tue, 16 Aug 2022 08:21:40 -0000
+Message-Id: <166063810011.18215.13212597160523836123@gitolite.kernel.org>
 
---===============8252107509556000397==
+--===============6831104971822561452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: c4c79525042a4a7df96b73477feaf232fe44ae81
+  - ref: refs/heads/next/defconfig
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-c4c79525042a-568035b01cfb.txt
+    log: revlist-f2906aa86338-568035b01cfb.txt
 
---===============8252107509556000397==
+--===============6831104971822561452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4c79525042a-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============8252107509556000397==--
+--===============6831104971822561452==--
