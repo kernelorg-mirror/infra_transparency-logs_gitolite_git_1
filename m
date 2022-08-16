@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4648795178129142005=="
+Content-Type: multipart/mixed; boundary="===============2351780134496185848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 16 Aug 2022 13:47:42 -0000
-Message-Id: <166065766253.8623.11156002479411947570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Aug 2022 13:47:48 -0000
+Message-Id: <166065766836.8722.16475283439336699288@gitolite.kernel.org>
 
---===============4648795178129142005==
+--===============2351780134496185848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: efe30e2cb6ff87467389cece8ce604f6601059f9
     new: 2d7ea7635a1286d5954b155a47e862cbcd48fff5
     log: |
@@ -28,28 +28,28 @@ changes:
          2d7ea7635a1286d5954b155a47e862cbcd48fff5 Add support for linked list to store acp_stream and tdm support.
          
 
---===============4648795178129142005==
+--===============2351780134496185848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1660657660 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1660657660-ed06b0ac4fe074a749c4829943cf27be95830bfe
+pusher C3F436CA30F5D8EB 1660657666 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1660657666-f688789647d416bd87dd42bf6006188975aecbd9
 
-efe30e2cb6ff87467389cece8ce604f6601059f9 2d7ea7635a1286d5954b155a47e862cbcd48fff5 refs/heads/for-6.1
+efe30e2cb6ff87467389cece8ce604f6601059f9 2d7ea7635a1286d5954b155a47e862cbcd48fff5 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL7n/0ACgkQJNaLcl1U
-h9AfUAf8CfLQSd5/9Wpv9gaz0nn1JtKU0CcrJ9/vq1PRZOdvHFnXTeJrH7DPE7Ou
-5Rou/0SAxB6QDwIiELSiPAQrFEgNsGP2lzp0gAHIFAiOIylYL8Gu8uGDgmEPtdGb
-yQUFPiNOx/34rOlruAc6URbrjmS0dQcOM2BGC1qwI98UIvILRYQHqkr2CKKmxBDT
-JRgbGeJU9oGtv0k6EGanPXJwCNGTsp5M92XiyhOQOKTou41SetAibRkyRkteASiT
-jeB8t2k6Py1q8EHz6aAbSCaraINaxVTVie13jF/uG2MZ2GHfOZm7ZLSng2xWYtr3
-2pjriPXCOT+MJXiMiXlENEhSaYl4tA==
-=RzFY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL7oAIACgkQJNaLcl1U
+h9CWggf7BYBbMyMCfkJINRYsKtSPK1LTseibnWg0Rf4n9q4i5DEvh1oEfcs2npJU
+4etOlEsdnHBF9ExXy1/Qhr4MXWMsfzGHiS/HJ7zLNhbgySGGW35PtmcN7Zj07eyP
+c2yn3s/I2vOaJXKJDBnBO0tAAupJvzL/N9XTojoxkmtyYgnqLC5dbwwrqDVqoR+H
+kKGd0JHXFm+c+ULNNOb6SQavi3E7MJA2cJnDaj7MoeXO8Vc5NU8M+A4JgkD0xJzb
+zGjLTIexocOIq0YU+q32d2Crz4/RbXF8W1rf4GtRIKIBiWqMcKkX/eQwt/+G7YH8
++e+hwA2dWOAD5InWqnw7ZnCF6HzT0A==
+=FKCR
 -----END PGP SIGNATURE-----
 
---===============4648795178129142005==--
+--===============2351780134496185848==--
