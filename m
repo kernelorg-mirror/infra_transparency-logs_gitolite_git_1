@@ -1,32 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8959068770981950124=="
+Content-Type: multipart/mixed; boundary="===============0756382851993731362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 16 Aug 2022 07:48:55 -0000
-Message-Id: <166063613515.27109.4061041880421151926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 16 Aug 2022 07:49:13 -0000
+Message-Id: <166063615360.27324.9242328476948276165@gitolite.kernel.org>
 
---===============8959068770981950124==
+--===============0756382851993731362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: 3d7cb6b04c3f3115719235cc6866b10326de34cd
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-3d7cb6b04c3f-568035b01cfb.txt
+  - ref: refs/heads/renesas-pinctrl
+    old: 36611d28f5130d8bb9aa36ec64d4ebcd736e8dba
+    new: 96355be8f0a2a7a91aae2e66c0795a13444db5ba
+    log: revlist-36611d28f513-96355be8f0a2.txt
+  - ref: refs/heads/renesas-pinctrl-for-v6.1
+    old: 0000000000000000000000000000000000000000
+    new: 96355be8f0a2a7a91aae2e66c0795a13444db5ba
 
---===============8959068770981950124==
+--===============0756382851993731362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d7cb6b04c3f-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-36611d28f513-96355be8f0a2.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
@@ -1050,5 +1052,6 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+96355be8f0a2a7a91aae2e66c0795a13444db5ba dt-bindings: pinctrl: renesas: Document RZ/Five SoC
 
---===============8959068770981950124==--
+--===============0756382851993731362==--
