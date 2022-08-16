@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4374178450974909608=="
+Content-Type: multipart/mixed; boundary="===============2761913231508590370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 16 Aug 2022 09:01:07 -0000
-Message-Id: <166064046769.14822.6285824005942865865@gitolite.kernel.org>
+Date: Tue, 16 Aug 2022 09:02:27 -0000
+Message-Id: <166064054796.15384.18095939879115935064@gitolite.kernel.org>
 
---===============4374178450974909608==
+--===============2761913231508590370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 5e25c25aa2c08fb9a79476e029c0b1e3dcd70566
     new: 7ebfc85e2cd7b08f518b526173e9a33b56b3913b
     log: revlist-5e25c25aa2c0-7ebfc85e2cd7.txt
 
---===============4374178450974909608==
+--===============2761913231508590370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e18a90427c4ef26e9208a8710b7d10eaf02bed48 Merge tag 'for-linus' of git://git.kern
 e091ba5cf82714c8691d978781696cd1fc2dec70 Merge tag 'acpi-5.20-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 7ebfc85e2cd7b08f518b526173e9a33b56b3913b Merge tag 'net-6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4374178450974909608==--
+--===============2761913231508590370==--
