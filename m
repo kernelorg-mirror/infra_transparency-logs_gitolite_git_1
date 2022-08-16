@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Tue, 16 Aug 2022 07:27:11 -0000
-Message-Id: <166063483160.10118.6541564073014345704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Tue, 16 Aug 2022 07:27:25 -0000
+Message-Id: <166063484585.10243.13386823092357465044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
+repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
   - ref: refs/heads/fs.idmapped.acl.fix
