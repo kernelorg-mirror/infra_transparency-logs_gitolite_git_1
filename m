@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7810300033978482212=="
+Content-Type: multipart/mixed; boundary="===============7677585107491947756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 16 Aug 2022 13:08:52 -0000
-Message-Id: <166065533230.12523.13609339111328458135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Aug 2022 13:08:58 -0000
+Message-Id: <166065533851.12663.10976423429384177060@gitolite.kernel.org>
 
---===============7810300033978482212==
+--===============7677585107491947756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
   - ref: refs/heads/arm64-sysreg-gen-4
@@ -20,7 +20,7 @@ changes:
     new: 6a20cb9261324ea174fa644c418171d55fa2b5fe
     log: revlist-860ccb14cb58-6a20cb926132.txt
 
---===============7810300033978482212==
+--===============7677585107491947756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ e278ed1ea3ad41c7e35b99a2a03f42e78e39ba56 arm64/sysreg: Convert TIPDR_EL1 to auto
 9f8e56171f38e3e2d032ee95239256adad69c88d arm64/sysreg: Convert SCXTNUM_EL1 to automatic generation
 6a20cb9261324ea174fa644c418171d55fa2b5fe arm64/sysreg: Add defintion for ALLINT
 
---===============7810300033978482212==--
+--===============7677585107491947756==--
