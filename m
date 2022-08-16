@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Tue, 16 Aug 2022 11:01:26 -0000
-Message-Id: <166064768629.18990.1985340809393235851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 16 Aug 2022 11:22:21 -0000
+Message-Id: <166064894124.32428.16040744494748888513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/pci/endpoint
+  - ref: refs/tags/asoc-fix-v6.0-rc1
     old: 0000000000000000000000000000000000000000
-    new: a6f7fbae837157d0b5d91a85cb74e7c10470cbae
+    new: e5222a84409bba9077d11a59dbcfea1155dd455b
