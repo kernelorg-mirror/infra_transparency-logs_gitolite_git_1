@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6752847886740630911=="
+Content-Type: multipart/mixed; boundary="===============2907416678143037409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 16 Aug 2022 09:08:57 -0000
-Message-Id: <166064093743.19520.2770450499275611116@gitolite.kernel.org>
+Date: Tue, 16 Aug 2022 09:12:58 -0000
+Message-Id: <166064117830.22468.837832301578818052@gitolite.kernel.org>
 
---===============6752847886740630911==
+--===============2907416678143037409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
+  - ref: refs/heads/for-next
+    old: 1b33eb4acdc8f839ffb7ded4c2432c26f1554482
+    new: 48af14fb0eaa63d9aa68f59fb0b205ec55a95636
+    log: revlist-1b33eb4acdc8-48af14fb0eaa.txt
   - ref: refs/heads/mem-ctrl-next
-    old: 0d97f2176dec9c1e070215c4e28ba87e036458c9
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-0d97f2176dec-568035b01cfb.txt
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 48af14fb0eaa63d9aa68f59fb0b205ec55a95636
+    log: |
+         61b3c876c1cbdb1efd1f52a1f348580e6e14efb6 memory: pl353-smc: Fix refcount leak bug in pl353_smc_probe()
+         8e4787582d92494188c094f0fa7d2f03c73ed509 memory: dfl-emif: Update the dfl emif driver support revision 1
+         05215fb32010d4afb68fbdbb4d237df6e2d4567b memory: of: Fix refcount leak bug in of_get_ddr_timings()
+         48af14fb0eaa63d9aa68f59fb0b205ec55a95636 memory: of: Fix refcount leak bug in of_lpddr3_get_ddr_timings()
+         
 
---===============6752847886740630911==
+--===============2907416678143037409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d97f2176dec-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-1b33eb4acdc8-48af14fb0eaa.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
 dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
 59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
@@ -1050,5 +1055,9 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+61b3c876c1cbdb1efd1f52a1f348580e6e14efb6 memory: pl353-smc: Fix refcount leak bug in pl353_smc_probe()
+8e4787582d92494188c094f0fa7d2f03c73ed509 memory: dfl-emif: Update the dfl emif driver support revision 1
+05215fb32010d4afb68fbdbb4d237df6e2d4567b memory: of: Fix refcount leak bug in of_get_ddr_timings()
+48af14fb0eaa63d9aa68f59fb0b205ec55a95636 memory: of: Fix refcount leak bug in of_lpddr3_get_ddr_timings()
 
---===============6752847886740630911==--
+--===============2907416678143037409==--
