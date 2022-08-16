@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6697943301258722044=="
+Content-Type: multipart/mixed; boundary="===============7852969271760451785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 16 Aug 2022 05:18:19 -0000
-Message-Id: <166062709923.16226.12958393260568061163@gitolite.kernel.org>
+Date: Tue, 16 Aug 2022 05:19:38 -0000
+Message-Id: <166062717898.16744.12602880346556859893@gitolite.kernel.org>
 
---===============6697943301258722044==
+--===============7852969271760451785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 1d95af02f23031c2e1cca7607c514b86ce85bc6e
-    new: d36cb843e456324d6e725f1d8b440c4645a52d0d
-    log: revlist-1d95af02f230-d36cb843e456.txt
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 33fe1cb20cf44af9c12048b2bfdebae0408cd4aa
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-33fe1cb20cf4-568035b01cfb.txt
 
---===============6697943301258722044==
+--===============7852969271760451785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d95af02f230-d36cb843e456.txt
+Content-Disposition: attachment; filename=revlist-33fe1cb20cf4-568035b01cfb.txt
 
+9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
@@ -1049,6 +1050,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-d36cb843e456324d6e725f1d8b440c4645a52d0d OPP: Fix an un-initialized variable usage
 
---===============6697943301258722044==--
+--===============7852969271760451785==--
