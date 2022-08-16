@@ -1,50 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============7677585107491947756=="
+Content-Type: multipart/mixed; boundary="===============6842248768955060719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 16 Aug 2022 13:08:58 -0000
-Message-Id: <166065533851.12663.10976423429384177060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 16 Aug 2022 13:11:10 -0000
+Message-Id: <166065547032.14949.14266342660955128425@gitolite.kernel.org>
 
---===============7677585107491947756==
+--===============6842248768955060719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64-sysreg-gen-4
-    old: 860ccb14cb58c198b972e5ef46778a68381e13bb
-    new: 6a20cb9261324ea174fa644c418171d55fa2b5fe
-    log: revlist-860ccb14cb58-6a20cb926132.txt
+  - ref: refs/heads/staging-testing
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 692f9007ab0e597eb59aac1db9a2a2ce4b6297c7
+    log: revlist-568035b01cfb-692f9007ab0e.txt
 
---===============7677585107491947756==
+--===============6842248768955060719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-860ccb14cb58-6a20cb926132.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9dc3c6823de78a4a67ef171bd12a4d6e256a8bc1 arm64/sysreg: Standardise naming of ID_AA64MMFR0_EL1.ASIDBits
-00c4a5755b47fec00965f697995e7fb19a8687bc arm64/sysreg: Standardise naming for ID_AA64MMFR1_EL1 fields
-49514b52c8c7c30b4e6e49994b6c7bf1dcffd2a8 arm64/sysreg: Standardise naming for ID_AA64MMFR2_EL1.VARange
-3f0bb5c57838af4751e5f16fe1da6c867144c8a2 arm64/sysreg: Standardise naming for ID_AA64MMFR2_EL1.CnP
-058c790df6153f7e7a0cfa1ee14ac257836c66d8 arm64/sysreg: Standardise naming for ID_AA64PFR0_EL1 constants
-b33ca273df4c2acc49a20a240c1650d15f19f97f arm64/sysreg: Standardise naming for ID_AA64PFR0_EL1.AdvSIMD constants
-5c97c972d6f3aa7a26901fdfc587ab2b12c45af3 arm64/sysreg: Standardise naming for SSBS feature enumeration
-9dfa8c12feae94ebba6eb46dca390b7327e099bd arm64/sysreg: Standardise naming for MTE feature enumeration
-4362237765a6d05ffa678e9d174044b4f138bec7 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 fractional version fields
-c833c3ed8bd257d7d1bc134ebdae89a858377678 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 BTI enumeration
-ebb5a9c8c9753a069a6a28a6590028ed434094f4 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 SME enumeration
-4f132ab318a6927928e1ca1692ae17430fa4a076 arm64/sysreg: Convert HCRX_EL2 to automatic generation
-db6da304eba731e7b035eaa7d17d357e84b5b3b2 arm64/sysreg: Convert ID_AA64MMFR0_EL1 to automatic generation
-d93b05f7cfe26eb855daad338dec9e0a75d3ab4f arm64/sysreg: Convert ID_AA64MMFR1_EL1 to automatic generation
-c532ce0a80691b18b963422b320a3f084db0c580 arm64/sysreg: Convert ID_AA64MMFR2_EL1 to automatic generation
-5811b0cec478dbe35e09f54ff400aefeb5baeb26 arm64/sysreg: Convert ID_AA64PFR0_EL1 to automatic generation
-f6f78818303ee2ba51083da85bf22dcb8da9efb1 arm64/sysreg: Convert ID_AA64PFR1_EL1 to automatic generation
-e278ed1ea3ad41c7e35b99a2a03f42e78e39ba56 arm64/sysreg: Convert TIPDR_EL1 to automatic generation
-9f8e56171f38e3e2d032ee95239256adad69c88d arm64/sysreg: Convert SCXTNUM_EL1 to automatic generation
-6a20cb9261324ea174fa644c418171d55fa2b5fe arm64/sysreg: Add defintion for ALLINT
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660655468 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1660655466-7ead478ac2053a577b1bf813943c70df0f195090
 
---===============7677585107491947756==--
+568035b01cfb107af8d2e4bd2fb9aea22cf5b868 692f9007ab0e597eb59aac1db9a2a2ce4b6297c7 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL7l2wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7BEP/j0MTe4ztoGUTHRMV1wY
+vrPa6CLVURsWi6zG7vMlBMfrfl59doei91VDSYArDJbd8dJJn0DWR35zSD8Ic6vi
+YfVT0P/ATB0tAlxUny0qIcqOup3XotSYyvuQHBi5w2KrImTNoTiPxPFlbb9F3z2k
+UZx3TZTHgvdhXqpzAA2FkZiHi737PQixsrjiQAxmM2lAxpjliOqgpP9dmSgugzlq
+b4LzmK+jCaHjljAHyuH0/YAxq9nCtXI992VWJQQsRZYsK10GKCGhyt83l0O7y+1P
+1MRlmMwHH/yEZbVhkZKWzpF7ipUZzeh6DQfl7DbcUQxTcWGgvJ7NcmxCBwOp7EC5
+a9QV809ZuRJ8C+Hf59HmXruMGrDZZfzUa/ezWzJmBO5TiJYFGgBvjIkFJ2G5mptU
+bCmBz1SCb0Ds91BdtSNOQp20SuZHYCM+OESWSSfHwodHzahKVurn3IitQVky9bwX
+MZSrLIcVk679tg2FHwmd1PJWPB6s976GE34fUL8asCtfCoTFJ2Gw4j13VDu0YMHT
+u6DAXAYrdqivcq7+Reud1p2DxHBIG2gZDG6QE96HuUENFZDMr4Dluj3LpoUU5AZj
+6rY8lh8TUT2ajbZNqLV3KUJTqhbop1oj0/slIWvvLQW9ObMlbDR6YIJeV1N2gMbp
+fv9Mo6+dKH56ID4Z6iMprOIW
+=tkL8
+-----END PGP SIGNATURE-----
+
+--===============6842248768955060719==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-568035b01cfb-692f9007ab0e.txt
+
+9665eaf50ab32f9f0bdcc546a27e94ee19e235bd staging: vt6655: Convert macro MACvReceive0 to function
+1795826c0e31939cebfb6d85f21dfbf7b94ec076 staging: vt6655: Rename function MACvReceive0 and add parameter
+f4726f7f4f138272658c5a21cf243ac10f76317e staging: vt6655: Replace MACvReceive1 with function vt6655_mac_dma_ctl
+59cce3f468f5b98f9469179b7b713f3ddbf9e3c2 staging: vt6655: Replace MACvTransmit0 with function vt6655_mac_dma_ctl
+05e778f0c74b9ff78975490c9b0eae2bf57efeb7 staging: vt6655: Replace MACvTransmitAC0 with function vt6655_mac_dma_ctl
+6d9f3d12a89406486f9b77a1b68f16c0985f3c56 staging: vt6655: Convert macro MACvEnableProtectMD to function
+0e68ed8f4c4e8ff2fc9653aa1ff8f3acc760eb1a staging: vt6655: Create one function for two macros
+17ca653712765ecefff6136b863895382e5989e8 staging: vt6655: Rename function MACvEnableProtectMD
+cc00269153b870895baaad9f74034b8ae8803d7a staging: vt6655: Convert macro MACvDisableProtectMD
+0e17361b3d12e15586adcc6ad7b7bbefb6ca06d5 staging: vt6655: Convert macro MACvEnableBarkerPreambleMd
+692f9007ab0e597eb59aac1db9a2a2ce4b6297c7 staging: vt6655: Convert macro MACvDisableBarkerPreambleMd
+
+--===============6842248768955060719==--
