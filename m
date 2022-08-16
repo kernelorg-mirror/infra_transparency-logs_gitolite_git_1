@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8008091830555406269=="
+Content-Type: multipart/mixed; boundary="===============0220881719817272171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 16 Aug 2022 13:14:53 -0000
-Message-Id: <166065569391.16414.9849762500183238020@gitolite.kernel.org>
+Date: Tue, 16 Aug 2022 13:15:43 -0000
+Message-Id: <166065574320.18344.18267396279196229889@gitolite.kernel.org>
 
---===============8008091830555406269==
+--===============0220881719817272171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 7b84ab85b12648bc27016088776bbd075e022be3
-    new: 973deac54086b8e0e89d340441fe40d10bbbcd73
+    old: 973deac54086b8e0e89d340441fe40d10bbbcd73
+    new: bf86e27416d43942a465051c7e2040462bdc734b
     log: |
-         57f14afac3f776f68ee74ed7df77925d81ea71cc staging: r8188eu: handle errors from ReadAdapterInfo8188EU
-         b9eb3126181ad625334e65af05b9af552253e716 staging: r8188eu: make rtw_handle_dualmac a void function
-         c8d3347e3039cee0e0394fb9c83fcf1efc92b4af staging: r8188eu: return an error code in rtw_usb_if1_init
-         c026b483f8f2eff1478f7edd55a2aef4cf9ebc2e staging: r8188eu: convert dump_chip_info() to use netdev_dbg()
-         ef21bdc5b671f85607c39000320cbcfabed83867 staging: r8188eu: refactor dump_chip_info()
-         973deac54086b8e0e89d340441fe40d10bbbcd73 staging/rtl8723bs/core: remove inactive initialization
+         f264891b678d1c31879cbcacac6d76a216877086 staging: r8188eu: make handle_txrpt_ccx_88e() static
+         867d7145374a61b51eb0667c04f9abc2b5942007 staging: r8188eu: make rtl8188eu_{init,free}_recv_priv() static
+         bf86e27416d43942a465051c7e2040462bdc734b staging: r8188eu: convert rtw_p2p_enable to correct error code semantics
          
 
---===============8008091830555406269==
+--===============0220881719817272171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660655689 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660655737 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1660655688-4a1e8ca10a6efc6e3b8edc6197d09891326a5aa8
+nonce 1660655736-ade401f28fc3e1ac5dc24d20bd8e874a722a6257
 
-7b84ab85b12648bc27016088776bbd075e022be3 973deac54086b8e0e89d340441fe40d10bbbcd73 refs/heads/staging-testing
+973deac54086b8e0e89d340441fe40d10bbbcd73 bf86e27416d43942a465051c7e2040462bdc734b refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL7mEkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SLQP/0VtGkYjK0OFjSC6FE35
-JLHqS67J6FZfAe+8PbTtrxP1saU0/H8470zDguMhKyodNPW5IaprrGgXjPwWJtYr
-E3y/tAMiHIaT6t+ZSOKIKXjd5Am2Ift21coAElNHGpli+cx822NgIqGdiNJEXCuq
-KS5cgZ2emQ+E+Afq59ancfYmLf2s0t/PxsfbOUKkTMOQ3Ir6D4wNe7qp2HtnvGTt
-kLidt7/RW/9qSU/yhoJ42gdb3a17Eq9ZAaC0JkwwvFbscn2gJZ6vBcqP70n9lnng
-Ncl5u6c4FHeQ3Z4PjYqeUDbi8mTJZB8K40gEFS4n/lnCvdRxzgSwsWePFaPVbc3e
-qVi9w3yWnUhQ5af77o9B3NA8ODScg6R0tW29/QkJCd7Q6oh5X1ivHHSZPFeCwXlX
-OEakkq99BrJzrHEixzHYeSjbJIkw4scqxmamdQjOC4BwQ98Xr4FFALtND5+FxFda
-PXi0r6vNc3/T5EN/oyQenLKVJ8s1kkCi6/DRcjdVU3H8HlKUeH4ZW4OobrFA3+V0
-5vmlBn+JHmmX1OAO3NkS4sKDr+p4j1cjk0roI8i3+ZMbSPj6OIIqIXAbUYq/oWLx
-d3DbicYxsvDe2PZSLrLfRMEYm/vHLoTJPF6dVhWG3t4JnOmlDxZoRWIAzMyz2Tfg
-qCd2WMEryc2ft7pIE1wOJdsN
-=CjuO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL7mHkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KVYP/R/hwQ+bo1RuALDZTKxr
+VaY03j0fD7Y3Rm5Rm39Ubc7Fj1huVPJP9CYq5ShPx6R+2u7OIuXATMco3ZS89Bfm
+tamOYGfUTAru/7axlvremwWv2UxHRZjqilEHkcjAJyAy9xMtKNRWo0ak2Zjcdx8k
+6jut9rniwTzGKhKreB24KveAmJ+ZmLeIstZUId/x/6B4aqtaWWtA44JMGI31xUGU
+WtRT2Z35rnNPQm6BrQxMjJjndW1TSnkIBRosbZndSuVrwMgjLgRBMbrlkYvHrs2s
+t3z/Hy7ujaoRMOXJrmVTL2BBVQhQCfriuyfDnKusTbu10D+vVg3tMiZILsIeq70/
+E1aCPa47Ez48cubg40zDRRGVAltqYtMpC7W81ZkMBNdeZJg8Vge48l2M2N8KfATc
+K8WgO24iDylYv3cKw7m5lr+QFbkt8rc+NWsk9tHrEWxp1j4axd5bWmAkfg7ksxwO
+gErmsHP074+994+bZQcmD+nbSwB/j0PmHa5Y3sJKqx0S6YtlQVb9YuCm0BzJ7ot8
+dIvsgBV99FXzOdBTGoxAeAcOCcVVmPULhIm3Rww+RQa/3BdoMgGMcYiL+CT7DYND
+LAeg2hMh3F4efhHcCkHpF9j+GhJ7J4WnePp1ZL1VqbIog16SqGzo1eYN4LAF4yS5
+5/rStrzeKleMsqtdzJhHOtit
+=wWfw
 -----END PGP SIGNATURE-----
 
---===============8008091830555406269==--
+--===============0220881719817272171==--
