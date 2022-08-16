@@ -1,34 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3368756973313641163=="
+Content-Type: multipart/mixed; boundary="===============1407783459043663758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 16 Aug 2022 09:15:05 -0000
-Message-Id: <166064130558.24921.11362485859620911356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Tue, 16 Aug 2022 09:15:25 -0000
+Message-Id: <166064132555.25083.12561883090723138354@gitolite.kernel.org>
 
---===============3368756973313641163==
+--===============1407783459043663758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: c98ebe065e07dc6c6c82bcbfd2a0351a7bde68da
+  - ref: refs/heads/fixes
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-c98ebe065e07-568035b01cfb.txt
-  - ref: refs/heads/pinctrl-next
-    old: c98ebe065e07dc6c6c82bcbfd2a0351a7bde68da
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-c98ebe065e07-568035b01cfb.txt
+    log: revlist-f2906aa86338-568035b01cfb.txt
 
---===============3368756973313641163==
+--===============1407783459043663758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c98ebe065e07-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1055,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============3368756973313641163==--
+--===============1407783459043663758==--
