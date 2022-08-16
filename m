@@ -1,76 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
-Date: Tue, 16 Aug 2022 14:13:07 -0000
-Message-Id: <166065918743.26458.315271851509060055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 16 Aug 2022 14:14:01 -0000
+Message-Id: <166065924105.26878.6473032214848544647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
-user: narmstrong
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/v5.17
-    old: 0000000000000000000000000000000000000000
-    new: f8e739787152143aacffc181562a29c049c2d658
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
-  - ref: refs/tags/v5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
-  - ref: refs/tags/v5.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
-  - ref: refs/tags/v5.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 91f5f37f5ce4ff7e0ba802f89cadd48b4040514a
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+  - ref: refs/heads/wip/leon-for-rc
+    old: 6cd8351c4ede5b3335c7eb13d009c3456e90b6df
+    new: b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d
+    log: |
+         b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d RDMA: Handle the return code from dma_resv_wait_timeout() properly
+         
