@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4071402092434675832=="
+Content-Type: multipart/mixed; boundary="===============0066836663696642997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 17 Aug 2022 17:42:24 -0000
-Message-Id: <166075814430.29752.11178908643423015240@gitolite.kernel.org>
+Date: Wed, 17 Aug 2022 17:42:50 -0000
+Message-Id: <166075817092.29997.295211839464718662@gitolite.kernel.org>
 
---===============4071402092434675832==
+--===============0066836663696642997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-testing
-    old: 37182a7da86e2d15784b46b53a9ea267c3608b3a
+  - ref: refs/heads/devfreq-fixes
+    old: 32346491ddf24599decca06190ebca03ff9de7f8
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-37182a7da86e-568035b01cfb.txt
+    log: revlist-32346491ddf2-568035b01cfb.txt
 
---===============4071402092434675832==
+--===============0066836663696642997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37182a7da86e-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-32346491ddf2-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============4071402092434675832==--
+--===============0066836663696642997==--
