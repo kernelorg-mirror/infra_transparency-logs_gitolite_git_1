@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1094029641171890231=="
+Content-Type: multipart/mixed; boundary="===============8356695500793723157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 17 Aug 2022 12:15:25 -0000
-Message-Id: <166073852537.1670.3310421364167719033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 17 Aug 2022 12:35:37 -0000
+Message-Id: <166073973746.15996.9575174424874640798@gitolite.kernel.org>
 
---===============1094029641171890231==
+--===============8356695500793723157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: 3cc40a443a04d52b0c95255dce264068b01e9bfe
-    log: revlist-568035b01cfb-3cc40a443a04.txt
+    old: d04a0029787feae2b89836b39aa0af77a7d038fa
+    new: 63075bbab51d2102b25ed59ef27568d2fd8c0766
+    log: |
+         63075bbab51d2102b25ed59ef27568d2fd8c0766 Linux 5.15.61
+         
 
---===============1094029641171890231==
+--===============8356695500793723157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-3cc40a443a04.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b0de7fa706506bf0591037908376351beda8c5d6 regulator: pca9450: Remove restrictions for regulator-name
-d501cc4cfc6be1ab9aef3ff0fa3b2afc52a1af23 spi: spi.c: Add missing __percpu annotations in users of spi_statistics
-706864c99e0e2d301da9e749395909bc309c50a0 MAINTAINERS: rectify entry for ARM/HPE GXP ARCHITECTURE
-d511e8a7e850db567cd7f633288aa96a19508e5b regulator: core: Fix missing error return from regulator_bulk_get()
-09992025dacd258c823f50e82db09d7ef06cdac4 spi: meson-spicc: add local pow2 clock ops to preserve rate between messages
-2fd92c7b8fe2cfc634613dc093d0f507c7389ea8 spi: dt-bindings: Drop Pratyush Yadav
-8535c239ac674f7ead0f2652932d35c52c4123b2 nios2: page fault et.al. are *not* restartable syscalls...
-45ec746c65097c25e77d24eae8fee0def5b6cc5d nios2: don't leave NULLs in sys_call_table[]
-25ba820ef36bdbaf9884adeac69b6e1821a7df76 nios2: traced syscall does need to check the syscall number
-2d631bd58fe0ea3e3350212e23c9aba1fb606514 nios2: fix syscall restart checks
-411a76b7219555c55867466c82d70ce928d6c9e1 nios2: restarts apply only to the first sigframe we build...
-fd0c153daad135d0ec1a53c5dbe6936a724d6ae1 nios2: add force_successful_syscall_return()
-415d832497098030241605c52ea83d4e2cfa7879 locking/atomic: Make test_and_*_bit() ordered on failure
-c4e34dd99f2e3fdfc63584078ce0fed20f4e7386 x86: simplify load_unaligned_zeropad() implementation
-15df6486ae56f259650159340a495406f427b2ea Merge tag 'regulator-fix-v6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-339800d50b411d617fb3298d478921e6626032e7 Merge tag 'spi-fix-v6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-3cc40a443a04d52b0c95255dce264068b01e9bfe Merge tag 'nios2_fixes_v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660739736 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1660739735-8bdbfdac6bd447eea4c7dc3a675e4e7168c58524
 
---===============1094029641171890231==--
+d04a0029787feae2b89836b39aa0af77a7d038fa 63075bbab51d2102b25ed59ef27568d2fd8c0766 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL84JgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R/IP/RFVA2ZRqcwPqxsvM/8J
+OSHCEDbl4o+k34ksmmqmomyRQdH8wQnNZwxDwRl/FbSI8EO1U//ayqKiCIJIMRD+
+7aoqQM5rFawl5qoeVkVUyYSjLrP1wExGpiTawS3qhdQNERCvLn0pNAvMUqaGiAet
+u6oFP+v1XGM7bd7mCsnzR60+4Yba1OQwsrhkOxLY1Kftm5Ydnxs8mU0xcVDDGZvL
+EtbvTLbpGC8JoFsAWsE9EfYuiPxlvb0ypDL0wRIzEWCf8aTvZ5lQcfDihmXNS4RG
+6kXToLnLWBkE2uS++MHVQyvSrPJejMBJiYE4xLx/83VYIe4uS7+Wnw8yrsUWdlRr
+esc8VMkEy9RARXvjGhe9IB1HG3fhML6g/QQq8zfNjgElsuaHyhwUpQFcGuq9PFGQ
+2Jmiyk/PevAH0e+5oPnAF8fxF4HRJ9cmXLTN6gERJ/X/nKbYyVUHOYRIlUFbAbuY
+Kni6dPq3W9EsTCO72CR+kcXfPW8uC3CyWmeaSd1LxulHLr8btJW6k3IvL6IGeQJv
+Wml1Cm4/CIVVIBImUZ0kHtL5iSmhJChIMXYYJ5ye2jpQX18gxPMbuc3wcOL9yviv
+Nc1s8ANntOtkCT6syaVeT6r25KPR3s8jJnH4TwbbuJbT33XHkss7g4449vgPDinM
+B6zdsTvZSLqZFV5r8BpyHjoz
+=K0xz
+-----END PGP SIGNATURE-----
+
+--===============8356695500793723157==--
