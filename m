@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Wed, 17 Aug 2022 09:06:12 -0000
-Message-Id: <166072717207.16864.12544145806098609552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 17 Aug 2022 09:11:47 -0000
+Message-Id: <166072750741.20594.9570586491706776649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: f955dc14450695564926711cf9fa8e1d5d854302
-    new: 74220cdb1b54f4f904311da69a37836b63289bed
+  - ref: refs/heads/testing
+    old: ba953a9d89a00c078b85f4b190bc1dde66fe16b5
+    new: 17ecd4a4db4783392edd4944f5e8268205083f70
     log: |
-         6ce6b41ff28ffdd98addcdef882f27e3620f5f92 nvmem: core: Fix memleak in nvmem_register()
-         74220cdb1b54f4f904311da69a37836b63289bed nvmem: core: add error handling for dev_set_name
+         17ecd4a4db4783392edd4944f5e8268205083f70 xfrm: policy: fix metadata dst->dev xmit null pointer dereference
          
