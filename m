@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 17 Aug 2022 17:49:38 -0000
-Message-Id: <166075857899.1794.16682460544178894257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Wed, 17 Aug 2022 17:49:49 -0000
+Message-Id: <166075858988.1937.14689799291754750886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/tags/v5.19
