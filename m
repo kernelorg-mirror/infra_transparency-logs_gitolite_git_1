@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 17 Aug 2022 17:58:22 -0000
-Message-Id: <166075910238.9491.14379959449202165307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 17 Aug 2022 18:15:35 -0000
+Message-Id: <166076013575.21510.8456930843902108643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 5c45a65119ea30db775a6a0e4eb4f4c0af66141f
-    new: c66ce9ad5500b4e99313f7fa08f011e357f56549
+  - ref: refs/heads/master
+    old: dda1f5ba5c6e8bf72f66e96dd84716c19bd7654e
+    new: c67505823c817ef9b5af152b74b86d3df9858b9e
     log: |
-         cb225ac125a9c82889f4796a6092dd0bed39720a ASoC: fsl_sai: Remove unnecessary FIFO reset in ISR
-         c66ce9ad5500b4e99313f7fa08f011e357f56549 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
+         c67505823c817ef9b5af152b74b86d3df9858b9e Wed Aug 17 06:14:50 PM UTC 2022
          
