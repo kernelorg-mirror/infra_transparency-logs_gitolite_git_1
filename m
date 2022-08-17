@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7153655523796846214=="
+Content-Type: multipart/mixed; boundary="===============5032088813697424944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 17 Aug 2022 17:37:47 -0000
-Message-Id: <166075786709.26461.16664901134937509868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Wed, 17 Aug 2022 17:37:52 -0000
+Message-Id: <166075787239.26553.15906783532900943274@gitolite.kernel.org>
 
---===============7153655523796846214==
+--===============5032088813697424944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+  - ref: refs/heads/devfreq-next
+    old: 53f853d55e312a639eaa910154248ce06eb754ac
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-f2906aa86338-568035b01cfb.txt
+    log: revlist-53f853d55e31-568035b01cfb.txt
 
---===============7153655523796846214==
+--===============5032088813697424944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-53f853d55e31-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============7153655523796846214==--
+--===============5032088813697424944==--
