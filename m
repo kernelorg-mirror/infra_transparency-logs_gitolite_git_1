@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 17 Aug 2022 20:59:44 -0000
-Message-Id: <166076998452.8125.3927933943555393964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 17 Aug 2022 21:01:43 -0000
+Message-Id: <166077010354.10489.9410300313633598976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: d7673fcff2e3f817349d03f56b6c850bae650d85
-    new: b8a8a0ab3ff8fa9a8befff287ab96160834a96bd
+    old: 3cc40a443a04d52b0c95255dce264068b01e9bfe
+    new: 274a2eebf80c60246f9edd6ef8e9a095ad121264
     log: |
-         c21dc8c31e39bd2b6e1f67126bd60c851fc3f506 foo
-         b47c39928cd97f87711e5c39ce4901a7d971bba9 foo
-         df86111f2f6009b54cf563ece0242d9b8e94978e foo
-         d663ee2e9d716bf094f155c1ed4f9e00635fe3f8 foo
-         524581649cb9249b342a055eab654a8ed1170d39 foo
-         88e16079ca4291bde9759613619dc3387fef5e46 foo
-         50293e9af2445fd47365aa328060d526daa56b21 foo
-         b8a8a0ab3ff8fa9a8befff287ab96160834a96bd foo
+         2e9ca760c289e1f992eb2cd053e217db7934ab0a virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
+         484b9fa4886bd9377969aad5e9ea17efda4ecda6 virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
+         c62f61b58f6e41cab9c07557213b61d71e6b221c virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
+         13aa8c6c37bd54eaf16f89e2e07019796fb9e681 virtio_pci: Revert "virtio_pci: support the arg sizes of find_vqs()"
+         9e82eb574c5d90a175ae830916af8b8a1ccc31e7 virtio_vdpa: Revert "virtio_vdpa: support the arg sizes of find_vqs()"
+         9993a4f989c7ca5e227329b2878f65d05c9fc20f virtio: Revert "virtio: find_vqs() add arg sizes"
+         5c669c4a4c6aa0489848093c93b8029f5c5c75ec virtio: kerneldocs fixes and enhancements
+         274a2eebf80c60246f9edd6ef8e9a095ad121264 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
          
