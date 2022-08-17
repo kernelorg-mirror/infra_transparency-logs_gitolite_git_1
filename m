@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 17 Aug 2022 21:36:47 -0000
-Message-Id: <166077220709.2911.6577598330605799968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 17 Aug 2022 21:47:10 -0000
+Message-Id: <166077283081.9538.12811569123436676652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: d6da19c9cace63290ccfccb1fc35151ffefc0bec
-    new: 47091e4ed9af648d6cfa3a5f0809ece371294ecb
+  - ref: refs/heads/master
+    old: 583585e48d965338e73e1eb383768d16e0922d73
+    new: 3024d95a4c521c278a7504ee9e80c57c3a9750e0
     log: |
-         25885a35a72007cf28ec5f9ba7169c5c798f7167 Change calling conventions for filldir_t
-         47091e4ed9af648d6cfa3a5f0809ece371294ecb dma_buf_getfile(): don't bother with ->f_flags reassignments
+         3024d95a4c521c278a7504ee9e80c57c3a9750e0 bpf: Partially revert flexible-array member replacement
          
