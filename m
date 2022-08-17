@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0678208289661032730=="
+Content-Type: multipart/mixed; boundary="===============0055735906685375637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Wed, 17 Aug 2022 19:14:19 -0000
-Message-Id: <166076365959.30366.5137334635744901335@gitolite.kernel.org>
+Date: Wed, 17 Aug 2022 19:14:29 -0000
+Message-Id: <166076366901.30498.1202876761918471986@gitolite.kernel.org>
 
---===============0678208289661032730==
+--===============0055735906685375637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kfence/dev
-    old: a986ac74369d5ef7d3aa2b4b7bf256ed41ed1075
-    new: dd516e478ed44109e21cf45b28a6a87f5f45c7e2
-    log: revlist-a986ac74369d-dd516e478ed4.txt
+  - ref: refs/heads/perf
+    old: fb9753bb1e98c1808b73019bc57fbb1af880b259
+    new: eb812ff2b5acc6793a61133ecb318dc18e78e441
+    log: revlist-fb9753bb1e98-eb812ff2b5ac.txt
 
---===============0678208289661032730==
+--===============0055735906685375637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a986ac74369d-dd516e478ed4.txt
+Content-Disposition: attachment; filename=revlist-fb9753bb1e98-eb812ff2b5ac.txt
 
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
-59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
-fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
-e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
-b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
-2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
-6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
-b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
-e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
-85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
 9e2f284e149124aa9a6b963882d2b39ae1742196 crypto: add crypto_has_kpp()
 a116e1cdc64a743c36c40e6fa639dec991c157a3 lib/base64: RFC4648-compliant base64 encoding
 88b140fec07307f825170a45562013a80842cc93 nvme: add definitions for NVMe In-Band authentication
@@ -1049,6 +1034,21 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-dd516e478ed44109e21cf45b28a6a87f5f45c7e2 docs: kernel-parameters: add info about kfence.sample_interval
+4efacc5971bdd9792ca3373577e0066cbdbb3033 perf/hw_breakpoint: Add KUnit test for constraints accounting
+bc328862083363e0179ca04542cc6ec83e5e4aa9 perf/hw_breakpoint: Provide hw_breakpoint_is_used() and use in test
+fc1343ccb17b3ba20e2b4977e064e8166f44d527 perf/hw_breakpoint: Clean up headers
+b5d52f8ca1167c2ae0045c0569e411127a5b9226 perf/hw_breakpoint: Optimize list of per-task breakpoints
+b5abce7289240e48e25625429e85eb04dc3fabb2 perf/hw_breakpoint: Mark data __ro_after_init
+8cdb719c7cca89c25c83e8bd0508a2758b823833 perf/hw_breakpoint: Optimize constant number of breakpoint slots
+b1d2a73a88a2bb20424231dd00b4fa9be61dcabb perf/hw_breakpoint: Make hw_breakpoint_weight() inlinable
+e9188b4bf8ea21ce2ca163d82ef0559466b030d9 perf/hw_breakpoint: Remove useless code related to flexible breakpoints
+e70999c02fd77f068a18eacb5607ab39e160f1ba powerpc/hw_breakpoint: Avoid relying on caller synchronization
+cb4fac9f39a69de0752d240a67af839795fa460e locking/percpu-rwsem: Add percpu_is_write_locked() and percpu_is_read_locked()
+3aa22b6902ff6b822fc92515f9141c997292825b perf/hw_breakpoint: Reduce contention with large number of tasks
+93b5eb63365fc396eeae33de459032ec561656f3 perf/hw_breakpoint: Introduce bp_slots_histogram
+c896a2d57620a5cf47a36843fdd738b6b4d37fa3 perf/hw_breakpoint: Optimize max_bp_pinned_slots() for CPU-independent task targets
+fd3a9dc1b3a15d5b2efa8196552170ec7e84eb6d perf/hw_breakpoint: Optimize toggle_bp_slot() for CPU-independent task targets
+c049e7a3992a873412184a27e4ea89eacc775629 perf: Allow restricted kernel breakpoints on user addresses
+eb812ff2b5acc6793a61133ecb318dc18e78e441 fixup! locking/percpu-rwsem: Add percpu_is_write_locked() and percpu_is_read_locked()
 
---===============0678208289661032730==--
+--===============0055735906685375637==--
