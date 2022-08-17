@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7975700782028254236=="
+Content-Type: multipart/mixed; boundary="===============8599678162290373406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Wed, 17 Aug 2022 18:52:54 -0000
-Message-Id: <166076237468.15046.8965680866771725402@gitolite.kernel.org>
+Date: Wed, 17 Aug 2022 18:53:11 -0000
+Message-Id: <166076239122.15213.1432406892165168354@gitolite.kernel.org>
 
---===============7975700782028254236==
+--===============8599678162290373406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/rdma
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: cc0315564d6eec91c716d314b743321be24c70b3
-    new: b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d
-    log: revlist-cc0315564d6e-b16de8b9e7d1.txt
+  - ref: refs/heads/for-next
+    old: 6b822d408b58c3c4f26dae93245c6b7d8b39e0f9
+    new: 13ad1125b941a5f257d9d3ae70485773abd34792
+    log: revlist-6b822d408b58-13ad1125b941.txt
 
---===============7975700782028254236==
+--===============8599678162290373406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc0315564d6e-b16de8b9e7d1.txt
+Content-Disposition: attachment; filename=revlist-6b822d408b58-13ad1125b941.txt
 
+9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
+52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
+017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
+dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
 59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
 fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
 ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
@@ -1044,11 +1048,7 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-d6d142cb7f79bec6051c5ecf744b7a5309c5a0ee IB/iser: Fix login with authentication
-4b83c3caf289b80acecc539c79f10a6937cc42dd RDMA/mlx5: Use the proper number of ports
-ef0162298abf46b881e4a4d0c604d1a066228647 RDMA/cxgb4: fix accept failure due to increased cpl_t5_pass_accept_rpl size
-1374901b850c8f2ff1ee0e62ffafbc4030572fc6 RDMA/erdma: Using the key in FMR WR instead of MR structure
-6cd8351c4ede5b3335c7eb13d009c3456e90b6df RDMA/erdma: Correct the max_qp and max_cq capacities of the device
-b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d RDMA: Handle the return code from dma_resv_wait_timeout() properly
+19d6214ad6dfffda1a5bdc2b34ea75ba45a1a60a IB/mlx5: Call io_stop_wc() after writing to WC MMIO
+13ad1125b941a5f257d9d3ae70485773abd34792 RDMA/mlx5: Don't compare mkey tags in DEVX indirect mkey
 
---===============7975700782028254236==--
+--===============8599678162290373406==--
