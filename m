@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4600332550126870366=="
+Content-Type: multipart/mixed; boundary="===============8955062259471370731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 17 Aug 2022 17:49:25 -0000
-Message-Id: <166075856551.1577.13558207718789426985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Wed, 17 Aug 2022 17:49:28 -0000
+Message-Id: <166075856870.1684.6829480610741252326@gitolite.kernel.org>
 
---===============4600332550126870366==
+--===============8955062259471370731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     log: revlist-32346491ddf2-568035b01cfb.txt
 
---===============4600332550126870366==
+--===============8955062259471370731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============4600332550126870366==--
+--===============8955062259471370731==--
