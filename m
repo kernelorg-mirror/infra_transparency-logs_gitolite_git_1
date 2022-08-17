@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1193832345202943943=="
+Content-Type: multipart/mixed; boundary="===============4317244584189447057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Wed, 17 Aug 2022 08:38:11 -0000
-Message-Id: <166072549160.28806.4346477265789177874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Wed, 17 Aug 2022 08:38:25 -0000
+Message-Id: <166072550503.28917.9112636675682902940@gitolite.kernel.org>
 
---===============1193832345202943943==
+--===============4317244584189447057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 4ad3deabeea21f9fda6a49de10fd417c4199ffaf
+    old: 432ee5a3cfcf8676448b0e11f1e800fc49c008d0
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-4ad3deabeea2-568035b01cfb.txt
+    log: revlist-432ee5a3cfcf-568035b01cfb.txt
 
---===============1193832345202943943==
+--===============4317244584189447057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ad3deabeea2-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-432ee5a3cfcf-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============1193832345202943943==--
+--===============4317244584189447057==--
