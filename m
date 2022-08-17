@@ -1,60 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6996868715804592478=="
+Content-Type: multipart/mixed; boundary="===============2809093561902095387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 17 Aug 2022 11:29:28 -0000
-Message-Id: <166073576871.928.11507842021056366498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Wed, 17 Aug 2022 11:29:57 -0000
+Message-Id: <166073579737.1206.15249516188880531184@gitolite.kernel.org>
 
---===============6996868715804592478==
+--===============2809093561902095387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/staging-testing
-    old: 654d1855bc40c6b0c1f2802ff0dc6a5b8b744034
-    new: 8379cf83fe6d57a12952de6dcaf7a7fbd7b364fc
-    log: |
-         816ca75992ae1cd92a0b884037968b057ef3b682 staging: r8188eu: add firmware dependency
-         d987294a7e95160d1f322d23f07c8ed48aa8b05a staging: r8188eu: set firmware path in a macro
-         da234c27a52c5f43a16240eafe13c62c358210d5 staging: r8188eu: use KBUILD_MODNAME instead of a string constant
-         d8798308023735e972efd17a9080ef69e362a7a8 staging: r8188eu: drop the DRV_NAME macro
-         8379cf83fe6d57a12952de6dcaf7a7fbd7b364fc staging: r8188eu: drop the DRIVERVERSION macro
-         
+  - ref: refs/heads/misc-next
+    old: cef29c649a5e87a1cc6a12c0ce64b4a4699b545a
+    new: 85edb6cc38e26f257b321d566f8502e570b98261
+    log: revlist-cef29c649a5e-85edb6cc38e2.txt
 
---===============6996868715804592478==
+--===============2809093561902095387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cef29c649a5e-85edb6cc38e2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660735766 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1660735766-06f3a4dc1e2781150aec70a12383ab0204df7a16
+f3363d4a3f46944f5788940871b00b2cc4009c5e btrfs: don't drop dir index range items when logging a directory
+c0e3db51951312b3b91ab558f28084df942c8c39 btrfs: remove the root argument from log_new_dir_dentries()
+0e76a896083520a5acb00a01f098d6d655ef0449 btrfs: update stale comment for log_new_dir_dentries()
+7218d1718f6092e97845c64f6f993386144bc1a8 btrfs: free list element sooner at log_new_dir_dentries()
+40fb8d577df3c5473b0316e78c3c0070786a1d37 btrfs: avoid memory allocation at log_new_dir_dentries() for common case
+acd7124b046ac4c69bba6f9aeb848ceade7b6402 btrfs: remove root argument from btrfs_delayed_item_reserve_metadata()
+046cb27d1f60b543e4e857788a88c2347b01bc55 btrfs: store index number instead of key in struct btrfs_delayed_item
+d57f2212b16eb83c13c5014ffeb80ac17ec6f92c btrfs: remove unused logic when looking up delayed items
+bd1d34e39a5fe9d226da167f8b970527f980846d btrfs: shrink the size of struct btrfs_delayed_item
+a9117bbdd5d3d0c4378a599eb6d856b577aea6c3 btrfs: search for last logged dir index if it's not cached in the inode
+1b9e97795702dc77d449f4c83e3fcd5dd8612b3a btrfs: move need_log_inode() to above log_conflicting_inodes()
+529af5c2be46c45d79abb3a8a6f2870fbf6169bd btrfs: move log_new_dir_dentries() above btrfs_log_inode()
+98f70b3a99b7a295fea706c001ce0e67d4874f48 btrfs: log conflicting inodes without holding log mutex of the initial inode
+d329fafd317c16efdd960d29d969d47f973244ee btrfs: skip logging parent dir when conflicting inode is not a dir
+85edb6cc38e26f257b321d566f8502e570b98261 btrfs: use delayed items when logging a directory
 
-654d1855bc40c6b0c1f2802ff0dc6a5b8b744034 8379cf83fe6d57a12952de6dcaf7a7fbd7b364fc refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL80RYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/xkP/iizEIHHxQ7rioe61AKA
-Uq9Q5q6PIbkLU1yvqrQU1zkVEDiUz4qKVyoFEC+Ikqhl3sYHkSstRC4ThD6R0Hob
-OJKavo/1mMaVG9+BJXPdQK5D1v9vWWUVEBRcrTEwDn5yXqi8/AhyCGCwN1FNiU1W
-6nbv53PlppGWFGtnisBmbVWP9r7RN/BWMmz6JKnOhXJ0B8T04guDjRTVMDeI2VD/
-8LNYDTcd3BGCaLFdNy7Tr6JLBzm9XSLYtlO9o91CzW7N8HM1L3Sy1BvINehl9b1R
-ZNM2NLrmiVbrVHatgLWNvXzk5G0IQa61xahq+76Tay4sqnL4QhSwm75nwXmNPGyK
-oatod1p7m0Kyy4Lf5p8CLLSRQKuNQyUpmzDouLZZQvrZ3lpAEkhvVxU8chl6S6PA
-mILOqOPvVgtH/Tb/FSf5fwFxyWc1eKq4czdwPDMJEcanZCjKpawRcf9CnqypjqG3
-CMC244supks6h2zK6AaMmM5SvI4F5FPnY5UoRy4b0y1JIHBCggyHy5sBOEL3O1uW
-LR/DWvnJZnrnG6mwxKwFAjyxJMNoMNqEgAbZL9OfjDmFRzXb7C2ISejpePhf3TQs
-D8e8dq43hTbAwPTkdL7ZF8+yJ/U+iMYhRfPSud8L75z5ceWpRRXV/63ZWQ1OZs1C
-8a9UljkAAjRp9t3ZXKgyRAhT
-=fQWT
------END PGP SIGNATURE-----
-
---===============6996868715804592478==--
+--===============2809093561902095387==--
