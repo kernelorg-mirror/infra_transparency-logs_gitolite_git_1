@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 17 Aug 2022 18:24:37 -0000
-Message-Id: <166076067754.26373.6771583055674627043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 17 Aug 2022 18:31:20 -0000
+Message-Id: <166076108060.485.4009208360379971711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/arm64-sme-fixes
-    old: bb357a5e4232401e587da41329d8de5b42acd10e
-    new: 4570d6b861427fb38f2dff52b06cf4202c206024
+  - ref: refs/heads/master
+    old: 815f5f574144aaef4bce6540214cb37434be637c
+    new: fd78d07c7c35de260eb89f1be4a1e7487b8092ad
     log: |
-         8cb576aef7acf0ded00d3360a36a5a3e68aa2921 arm64/signal: Raise limit on stack frames
-         5f432306e39da57b8ce5f433e915040b6cf66bc4 arm64/signal: Flush FPSIMD register state when disabling streaming mode
-         47bb02bf2cfe7366680725d2cec46713590e799c arm64/sme: Don't flush SVE register state when allocating SME storage
-         4570d6b861427fb38f2dff52b06cf4202c206024 arm64/sme: Don't flush SVE register state when handling SME traps
+         1ed26ce4850accf88aedd1b1c7974a94396305d0 net: dsa: bcm_sf2: Introduce helper for port override offset
+         4d2f6dde4daa12315254485566968fe7c7432cfd net: dsa: bcm_sf2: Have PHYLINK configure CPU/IMP port(s)
+         fd78d07c7c35de260eb89f1be4a1e7487b8092ad Merge branch 'net-dsa-bcm_sf2-utilize-phylink-for-all-ports'
          
