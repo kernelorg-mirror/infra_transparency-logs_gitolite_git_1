@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/sparse
-Date: Wed, 17 Aug 2022 00:33:41 -0000
-Message-Id: <166069642191.9071.4351798268761644980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 17 Aug 2022 00:39:19 -0000
+Message-Id: <166069675979.12591.3728242212428826069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/sparse
-user: palmer
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/riscv
-    old: 53eacc1fa688f066a5426f44fbc85710677fc172
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/wip-fscrypt
+    old: 0000000000000000000000000000000000000000
+    new: 75098a11b8d54b096ffd207a6b726f094e8f804c
