@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5673394513816248755=="
+Content-Type: multipart/mixed; boundary="===============5929330981516312040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 18 Aug 2022 15:22:03 -0000
-Message-Id: <166083612306.22956.6825294508518967451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 18 Aug 2022 15:22:09 -0000
+Message-Id: <166083612920.23063.9867365522542211920@gitolite.kernel.org>
 
---===============5673394513816248755==
+--===============5929330981516312040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.1
-    old: ee94aff2628b18afdb0b6b175e568657bdaead59
-    new: 8a866d527ac0441c0eb14a991fa11358b476b11d
+  - ref: refs/heads/for-6.1
+    old: 490211b0f480ce5eb112747af684ed73bae8225d
+    new: 9d08f700ab78fd96cbe5922c261051743cb9c86e
     log: |
-         8a866d527ac0441c0eb14a991fa11358b476b11d regulator: core: Resolve supply name earlier to prevent double-init
+         9d08f700ab78fd96cbe5922c261051743cb9c86e spi: amd: Setup all xfers before opcode execution
          
 
---===============5673394513816248755==
+--===============5929330981516312040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1660836121 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1660836121-688880299ed2f8cd692579a699f185951c1f97f0
+pusher C3F436CA30F5D8EB 1660836127 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1660836127-85d7c11da1b03b4fdfdfcdfe110425fbeec82724
 
-ee94aff2628b18afdb0b6b175e568657bdaead59 8a866d527ac0441c0eb14a991fa11358b476b11d refs/heads/regulator-6.1
+490211b0f480ce5eb112747af684ed73bae8225d 9d08f700ab78fd96cbe5922c261051743cb9c86e refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL+WRkACgkQJNaLcl1U
-h9CrEQf9Ez7PXMD5lgBsboAZ9ZYu4UFqikIJsfrIuZhPQzdH/cT3GKJouFb1pNjx
-HBqAsJQylxzAID3DdmvMJ5djuZDy2QWYN8MLbl3iTTQk8CMIm76c32J4DW/KSpIm
-Wcg67nRMbiMmxPnhOfzCXJbglNhWKVNktDGGqU94D7QSpg/k+k1ZTVeZw6r7MPbQ
-2T2Wh9+KTU4Ib/wPDyXUEMJ3Tgu2sVo2xurSLSBrCcWZe2TtrmxpS48E5z7/BSOX
-ynYwtrWPMXvqxyoJLU4jVRybYcogecfn+ZXbEPKQPdUqt1u+SG78zanLdo+fhZWV
-mtnYvhohw7sw7iNQiMbez6Sbbz3APQ==
-=PEvJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL+WR8ACgkQJNaLcl1U
+h9B32wf9EyQ92phiqajR9cOG9cRJNvFwqDmCxMR0ffrw45/TWjOdB8h8SYFiegLM
+iu0euVTelEEDY1cAeN5Sa5ljyCgqY1Yhz3lT2ovwt5feU0LvizJoWFiF2gD7c7lG
+ElwPMlVMo9CqqZUwPVPM9rs0s/R21ulEt51zHG/Gqy9RYetPV2Iz6gyQ70GHJoZt
+dzZBDVkVtgxVPYpYIBTvuEIOFccsdne2hFfRAZkULMkqV7iPbhxhvK+PUF1l5tAZ
+nP7LZxa/rqN9kr48jgkueVNLni+ojVDkZF+B4dTof/1t4+yj16Lp2pslE8h3j4VT
+lmLAjSuj5PTshhMg3/Vj8LLOihMQMg==
+=5vGX
 -----END PGP SIGNATURE-----
 
---===============5673394513816248755==--
+--===============5929330981516312040==--
