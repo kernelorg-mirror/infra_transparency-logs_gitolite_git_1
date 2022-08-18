@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5224416554261839739=="
+Content-Type: multipart/mixed; boundary="===============8007317898659871311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 18 Aug 2022 22:41:53 -0000
-Message-Id: <166086251391.12141.12941063285443167608@gitolite.kernel.org>
+Date: Thu, 18 Aug 2022 22:41:59 -0000
+Message-Id: <166086251935.12257.16033885476855398678@gitolite.kernel.org>
 
---===============5224416554261839739==
+--===============8007317898659871311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 0b8ddd04f1d7868a0bfc83606bc458a542e461c2
-    new: ad2da1289b29ad54b616b9304aaf7df7d2f28c93
-    log: revlist-0b8ddd04f1d7-ad2da1289b29.txt
+  - ref: refs/heads/master
+    old: af3e9579ecfbe1796334bb25a2f0a6437983673a
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-af3e9579ecfb-568035b01cfb.txt
 
---===============5224416554261839739==
+--===============8007317898659871311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b8ddd04f1d7-ad2da1289b29.txt
+Content-Disposition: attachment; filename=revlist-af3e9579ecfb-568035b01cfb.txt
 
+0595a216920cb035030c73cec3ab9fe413ef1d77 docs: powerpc: use different label name for elf_hwcaps.rst
+a05aae92f84ba6d2705f6dac206ef5dcf097ea96 docs: powerpc: add elf_hwcaps to table of contents
+ebef8abc963b9e537c0a0d619dd8faf1b8f2b183 video: fbdev: offb: Include missing linux/platform_device.h
 61657dcd528b75cd196adaf56890124c13953c8d scsi: cxlflash: Include missing linux/irqdomain.h
 4177ab2283dcd98735572ebda56b9d479dc1d7f2 EDAC/mpc85xx: Include required of headers directly
 4d5c5bad51935482437528f7fa4dffdcb3330d8b powerpc: Remove asm/prom.h from asm/mpc52xx.h and asm/pci.h
@@ -1047,8 +1050,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-6ee8a7d8145112352020c1f12f2b4aee0bc9a7ca crypto: lib - create utils module and move __crypto_memneq into it
-1803d504bf1e96bea28988680d9ced2a60d651f8 crypto: lib - move __crypto_xor into utils
-ad2da1289b29ad54b616b9304aaf7df7d2f28c93 crypto: lib - remove __HAVE_ARCH_CRYPTO_MEMNEQ
 
---===============5224416554261839739==--
+--===============8007317898659871311==--
