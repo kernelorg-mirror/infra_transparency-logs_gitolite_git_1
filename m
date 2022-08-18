@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5696015265123515599=="
+Content-Type: multipart/mixed; boundary="===============0644157121638628397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 18 Aug 2022 17:38:21 -0000
-Message-Id: <166084430105.24651.11624453312382270209@gitolite.kernel.org>
+Date: Thu, 18 Aug 2022 17:38:31 -0000
+Message-Id: <166084431152.24781.11627027042542615937@gitolite.kernel.org>
 
---===============5696015265123515599==
+--===============0644157121638628397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 6eebd5fb20838f5971ba17df9f55cc4f84a31053
-    new: e82d12edf3dd0a952bf4ce591091d6f32ea9b8d4
-    log: revlist-6eebd5fb2083-e82d12edf3dd.txt
+  - ref: refs/heads/objtool/core
+    old: 22682a07acc308ef78681572e19502ce8893c4d4
+    new: 56097f45807c0c230bc02116328732e85da8b0b0
+    log: revlist-22682a07acc3-56097f45807c.txt
 
---===============5696015265123515599==
+--===============0644157121638628397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eebd5fb2083-e82d12edf3dd.txt
+Content-Disposition: attachment; filename=revlist-22682a07acc3-56097f45807c.txt
 
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
 dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
 59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
 fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
@@ -1049,6 +1045,10 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-e82d12edf3dd0a952bf4ce591091d6f32ea9b8d4 locking: Add __lockfunc to slow path functions
+ec8fc1b4139a862f510d5a21c3c5d92c00811f83 objtool: Use arch_jump_destination() in read_intra_function_calls()
+6f87112b680caeb46c6bd5eda6d8aded4fff173c x86/ibt, objtool: Add IBT_NOSEAL()
+0d1f4934aaada8b2676126a6bada547aac1c2622 x86/kvm: Simplify FOP_SETCC()
+69e297b0cf20139a1684d61420a78911776ebe55 x86/kvm: Fix "missing ENDBR" BUG for fastop functions
+56097f45807c0c230bc02116328732e85da8b0b0 objtool: Remove "ANNOTATE_NOENDBR on ENDBR" warning
 
---===============5696015265123515599==--
+--===============0644157121638628397==--
