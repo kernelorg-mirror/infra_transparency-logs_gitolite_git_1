@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0084176441142940938=="
+Content-Type: multipart/mixed; boundary="===============2097994520319293830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 18 Aug 2022 17:14:52 -0000
-Message-Id: <166084289278.6162.17284754784538737392@gitolite.kernel.org>
+Date: Thu, 18 Aug 2022 17:15:03 -0000
+Message-Id: <166084290376.7794.115666857349956427@gitolite.kernel.org>
 
---===============0084176441142940938==
+--===============2097994520319293830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 6eebd5fb20838f5971ba17df9f55cc4f84a31053
-    new: 5b7d5629ee2e9195a177395c8e27e0d61c4b62dc
-    log: revlist-6eebd5fb2083-5b7d5629ee2e.txt
+  - ref: refs/heads/objtool/core
+    old: 22682a07acc308ef78681572e19502ce8893c4d4
+    new: 9ddc258626be88ed0a817d91c757f78d209122db
+    log: revlist-22682a07acc3-9ddc258626be.txt
 
---===============0084176441142940938==
+--===============2097994520319293830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eebd5fb2083-5b7d5629ee2e.txt
+Content-Disposition: attachment; filename=revlist-22682a07acc3-9ddc258626be.txt
 
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
@@ -1049,6 +1049,6 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-5b7d5629ee2e9195a177395c8e27e0d61c4b62dc locking: Add __lockfunc to slow path functions
+9ddc258626be88ed0a817d91c757f78d209122db objtool: Use arch_jump_destination() in read_intra_function_calls()
 
---===============0084176441142940938==--
+--===============2097994520319293830==--
