@@ -1,167 +1,180 @@
-Content-Type: multipart/mixed; boundary="===============1489597435861452781=="
+Content-Type: multipart/mixed; boundary="===============6386508748324336428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 17 Aug 2022 23:18:33 -0000
-Message-Id: <166077831357.8986.7931151432486507336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
+Date: Thu, 18 Aug 2022 00:12:14 -0000
+Message-Id: <166078153482.14097.2676485849412621986@gitolite.kernel.org>
 
---===============1489597435861452781==
+--===============6386508748324336428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
-user: sfr
+repo: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
+user: iwamatsu
 changes:
-  - ref: refs/heads/pending-fixes
-    old: 5ca89432fef1fe21d205e71455a40b6b97459a12
-    new: bb8b9a4857726b532eaaa9d31c8acfb451227fbf
-    log: revlist-5ca89432fef1-bb8b9a485772.txt
+  - ref: refs/heads/linux-5.10.y
+    old: c733a6f548d133a11a50e35163fc2721420c0c71
+    new: 0fbc2ae61ac3fc5ca557804b0e9b626ae6d86319
+    log: revlist-c733a6f548d1-0fbc2ae61ac3.txt
 
---===============1489597435861452781==
+--===============6386508748324336428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ca89432fef1-bb8b9a485772.txt
+Content-Disposition: attachment; filename=revlist-c733a6f548d1-0fbc2ae61ac3.txt
 
-b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
-cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
-19d1b7872d1ebf0658b5032b79f536a715303ee4 fs/ntfs3: Refactor ni_try_remove_attr_list function
-37a530bfe56ca9a0d3129598803f2794c7428aae fs/ntfs3: Fix missing i_op in ntfs_read_mft
-548744f84456946181ed6dc0ac6be8267f167d28 fs/ntfs3: Remove a useless test
-560e613352b4a65c5c397e689a997fb04bd5f928 fs/ntfs3: Remove redundant assignment to variable frame
-dc8965ab5e338abfd8dfd65d12a62ad5be65a776 fs/ntfs3: Remove redundant assignment to variable vcn
-ae5a4e46916fc307288227b64c1d062352eb93b7 fs/ntfs3: Fix using uninitialized value n when calling indx_read
-19e890ff3bedc36fe3cd1cb7d03bfb66c5fdf1db fs/ntfs3: Use the same order for acl pointer check in ntfs_init_acl
-926034353d3c67db1ffeab47dcb7f6bdac02a263 fs/ntfs3: Don't clear upper bits accidentally in log_replay()
-f759942b72a9ad309282b2fedcebcee3c4c58e24 fs/ntfs3: Add missing error check
-aa30eccb24e5a66a2cf7f7b34a69c3651d12cc6a fs/ntfs3: Fallocate (FALLOC_FL_INSERT_RANGE) implementation
-e4d2f4fd5341064d2b3c5158da69421a581e7ec1 fs/ntfs3: Enable FALLOC_FL_INSERT_RANGE
-321460ca3b55f48b3ba6008248264ab2bd6407d9 fs/ntfs3: Fix NULL deref in ntfs_update_mftmirr
-e66af07ca2b57e01dbf6001ae565ab40037b2df3 fs/ntfs3: Make ntfs_update_mftmirr return void
-4838ec0d80b110a5f30c7e3169dc5021efd203d4 fs/ntfs3: Unlock on error in attr_insert_range()
-cc83b0c7e3064e2bb1f9d099bbfdaf493cd669fe fs/ntfs3: Remove duplicated assignment to variable r
-604a9d272dc3802d880e0510b9d145b1090b3f8a fs/ntfs3: Remove unnecessary 'NULL' values from pointers
-460bbf2990b3fdc597601c2cf669a3371c069242 fs/ntfs3: Do not change mode if ntfs_set_ea failed
-13747aac8984e069427e5de5d68bb6cefa98551e fs/ntfs3: Check reserved size for maximum allowed
-c1e0ab3789215a3dfbe95f226955e93ea4803391 fs/ntfs3: extend ni_insert_nonresident to return inserted ATTR_LIST_ENTRY
-b3e048720dee5641c522015d3f0ff0f0dc9cdc37 fs/ntfs3: Make ntfs_fallocate return -ENOSPC instead of -EFBIG
-42f86b1226a42bfc79a7125af435432ad4680a32 fs/ntfs3: Fix work with fragmented xattr
-560f7736b94622c077344e2c541c43c63b4e90e4 fs/ntfs3: Fix very fragmented case in attr_punch_hole
-6700eabb90d50c50be21ecbb71131cd6ecf91ded fs/ntfs3: Remove unused mi_mark_free
-071100ea0e6c353258f322cb2f8dde9be62d6808 fs/ntfs3: Add new argument is_mft to ntfs_mark_rec_free
-cf760ec0a0b4015ccf3b5e9ecb4caf6b5fb52f0b fs/ntfs3: Make static function attr_load_runs
-42f66a7fdaa0d15691467fb7a808040f2d5ad0c0 fs/ntfs3: Fill duplicate info in ni_add_name
-54033c135061b52d4405facba2e49177a5716a31 fs/ntfs3: Added comments to frecord functions
-e6d9398c077d8e21a2ca50efab5cbf7ff5aff728 fs/ntfs3: Check possible errors in run_pack in advance
-8335ebe195dcc76ece418485a9f08b9a9ad7fe23 fs/ntfs3: Make MFT zone less fragmented
-c12df45ee690112782049b8e85dff2e6cb1b3853 fs/ntfs3: New function ntfs_bad_inode
-0e5b044cbf3a41b4efad7d9616342338f88b373d fs/ntfs3: Refactoring attr_set_size to restore after errors
-20abc64f78346ac591344133301661b77e1c8253 fs/ntfs3: Refactoring attr_punch_hole to restore after errors
-9256ec35359f52c1e390cf419873cf519ee332b6 fs/ntfs3: Refactoring attr_insert_range to restore after errors
-8039edba043d1eaee74bd76e0280a49ba5e195d7 fs/ntfs3: Create MFT zone only if length is large enough
-451e45a0e6df21e63acfd493feb5194f4697ce11 fs/ntfs3: Make ni_ins_new_attr return error
-96964352e21962f5e51ecad87527ae9b6fec9670 fs/ntfs3: Remove unused function wnd_bits
-d4073595d0c61463ec3a87411b19e2a90f76d3f8 fs/ntfs3: uninitialized variable in ntfs_set_acl_ex()
-8d48562a2729742f767b0fdd994d6b2a56a49c63 powerpc/pci: Fix get_phb_number() locking
-f889a2e89ea5b4db5cf09765ee5e310be43c7b6f selftests/powerpc: Add missing PMU selftests to .gitignores
-2e9ca760c289e1f992eb2cd053e217db7934ab0a virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
-484b9fa4886bd9377969aad5e9ea17efda4ecda6 virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
-c62f61b58f6e41cab9c07557213b61d71e6b221c virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
-13aa8c6c37bd54eaf16f89e2e07019796fb9e681 virtio_pci: Revert "virtio_pci: support the arg sizes of find_vqs()"
-9e82eb574c5d90a175ae830916af8b8a1ccc31e7 virtio_vdpa: Revert "virtio_vdpa: support the arg sizes of find_vqs()"
-9993a4f989c7ca5e227329b2878f65d05c9fc20f virtio: Revert "virtio: find_vqs() add arg sizes"
-5c669c4a4c6aa0489848093c93b8029f5c5c75ec virtio: kerneldocs fixes and enhancements
-d6d142cb7f79bec6051c5ecf744b7a5309c5a0ee IB/iser: Fix login with authentication
-4b83c3caf289b80acecc539c79f10a6937cc42dd RDMA/mlx5: Use the proper number of ports
-ef0162298abf46b881e4a4d0c604d1a066228647 RDMA/cxgb4: fix accept failure due to increased cpl_t5_pass_accept_rpl size
-1374901b850c8f2ff1ee0e62ffafbc4030572fc6 RDMA/erdma: Using the key in FMR WR instead of MR structure
-6cd8351c4ede5b3335c7eb13d009c3456e90b6df RDMA/erdma: Correct the max_qp and max_cq capacities of the device
-b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d RDMA: Handle the return code from dma_resv_wait_timeout() properly
-2c6482091f01ba104cf8ee549aa5c717e80d43ea i40e: Fix tunnel checksum offload with fragmented traffic
-57c942bc3bef0970f0b21f8e0998e76a900ea80d i40e: Fix to stop tx_timeout recovery if GLOBR fails
-eb6354e116305afbfde196be5120bfa8669fdc6a riscv: Ensure isa-ext static keys are writable
-de64b6b6fb6f369840d171b7c5a9baf31b8b2630 net: sched: fix misuse of qcpu->backlog in gnet_stats_add_queue_cpu
-cf36ae3e5802716617b9e4d902a31048240396b0 Merge drm/drm-fixes into drm-misc-fixes
-88392a0dd0ab263edb4ca416ebdecabd8289158a platform/x86: serial-multi-instantiate: Add CLSA0101 Laptop
-849f16bbfb686cf75e67c536d196027fa8bfc803 tls: rx: react to strparser initialization errors
-ed16d19c5f1d02908caf85c52a787de2eeeced2f Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-1ff954f9ab054675b9eb02dd14add8f7aa376d71 ALSA: hda/cs8409: Support new Dolphin Variants
-c6e14bb9f50df7126ca64405ae807d8bc7b39f9a ASoC: qcom: sm8250: add missing module owner
-9be080edcca330be4af06b19916c35227891e8bc ALSA: info: Fix llseek return value when using callback
-c3e88d91e40971337d4e7b5250e9e17d3e64238c irqchip/stm32-exti: Remove check on always false condition
-5e1e087457c94ad7fafbe1cf6f774c6999ee29d4 arm64: Fix match_list for erratum 1286807 on Arm Cortex-A76
-ff5900092227ade3e31fe25f97faf406cde902e6 arm64: adjust KASLR relocation after ARCH_RANDOM removal
-7d13fd96df875a9d786ee6dcc8fec460d35d4b12 modpost: fix module versioning when a symbol lacks valid CRC
-f7ec488fad4d11375b92bb672a9ecc51ca886d60 kbuild: dummy-tools: pretend we understand __LONG_DOUBLE_128__
-a74fce5af157cfce5299bb9971678a5b3c81a266 scripts/Makefile.extrawarn: Do not disable clang's -Wformat-zero-length
-65c5264958791a5fea876adc5a5e8e9393d18f67 kbuild: fix the modules order between drivers and libs
-274a2eebf80c60246f9edd6ef8e9a095ad121264 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-90d74fdbd8059bf041ac797092c9b1d461555280 ALSA: hda/realtek: Add quirk for Clevo NS50PU, NS70PU
-36c0d935015766bf20d621c18313f17691bda5e3 net: dsa: microchip: ksz9477: fix fdb_dump last invalid entry
-583585e48d965338e73e1eb383768d16e0922d73 skmsg: Fix wrong last sg check in sk_msg_recvmsg()
-0b6b4dcd371dd662eff9e39889ebb2122475dd63 mm: re-allow pinning of zero pfns (again)
-b3bb668f3dc6a97a91c47a4cebb0e3f33554c08c binder_alloc: add missing mmap_lock calls when using the VMA
-9c82ccd48a45bb61d8f5c399a4495ba307cc5811 get_maintainer: add Alan to .get_maintainer.ignore
-71148663a47a2b54cccd44552102e2b8c6a43f88 Revert "zram: remove double compression logic"
-f7ed519eea82078858b823edb90ab8ebef5cb62d mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
-649b57210f213f05277d159614b13732e8bf7388 kernel/sys_ni: add compat entry for fadvise64_64
-bf5ec5774ade4545485a4ec38af40b415198be58 mm: add DEVICE_ZONE to FOR_ALL_ZONES
-d4932bbd3c2c1cbcb27ce7f12385cdbedc9a49b5 mm/smaps: don't access young/dirty bit if pte unpresent
-a972ae976d913a202d5cbd052d7b0a5f7c2a2a06 mm/uffd: reset write protection when unregister with wp-mode
-1a52050bc82c6567466e25478f12ac78d4cef4f0 mm/hugetlb: fix hugetlb not supporting softdirty tracking
-36b95e91a10236d849a0e60550152811413f2004 mm/hugetlb: support write-faults in shared mappings
-0637baa7be6f42bb400868fa83f9fc34b6d9d216 mm/shmem: fix chattr fsflags support in tmpfs
-a7475b10e606cb2b40f11dc6bcfe5d49bf7b3130 mm/shmem: tmpfs fallocate use file_modified()
-4aaeac1ec8e7453678dff1631b925c9d4b23fcc9 mm/shmem: shmem_replace_page() remember NR_SHMEM
-85b4ee53aaec281cbacc2040595232ead59b1e94 kprobes: don't call disarm_kprobe() for disabled kprobes
-3fe46f723d90f22c6aa6e68600dafd04aa3a9938 mm: vmscan: fix extreme overreclaim and swap floods
-c6444311be39508adef40ea9b20e4a4709b62c93 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-fb71c973b5f73bc1cb1fe73b81e45b18c5932686 mm/migrate_device.c: copy pte dirty bit to page
-0a421413aca7adfa7cc8a31b8a1b04c1ff29787f mm/zsmalloc: do not attempt to free IS_ERR handle
-c5a289f2ba1dae3ecd8bfd3ceeafe22e314a790a mm/filemap.c: fix the timing of asignment of prev_pos
-a868734065220f4e7767eb05d46da8b395ec9d3b Revert "memcg: cleanup racy sum avoidance code"
-71443ad8d6944bc3100ec3ee7b677a3eba992d9e ocfs2: fix freeing uninitialized resource on ocfs2_dlm_shutdown
-ae2a823643d71f40751259266f7c2e7d90909662 dcache: move the DCACHE_OP_COMPARE case out of the __d_lookup_rcu loop
-3024d95a4c521c278a7504ee9e80c57c3a9750e0 bpf: Partially revert flexible-array member replacement
-3b06a2755758937add738545ba4a544fc5a1c56d Merge tag 'ntfs3_for_6.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
-14b20b784f59bdd95f6f1cfb112c9818bcec4d84 bpf: Restrict bpf_sys_bpf to CAP_PERFMON
-71e177641a5811eb4eb3f45606fa04082d89be4a Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-1690412051eed4387b07a3eda5fcbbfe9c1dfdbf Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-128e8b56de9300dee77a7becdfad3f556e6ec8c0 Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-2e417b38e9191a043c62af82520fd707318abe0f Merge branch 'for-next/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-c96f67ae35e81a74af7d6386f8749b17abf3290f Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-732bd040f34dd665fc714c3b2e26f45cd40a7ea3 Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-c238647e5fd8969dc17c787555615b275b2d8b61 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-a4d0afe492ff82b5b850a68bd4ad0043efab9661 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-7df2c0be4c13ab8d9cddb43fe91de7b09a94bba4 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-5440fbfadc0379b8a61fbc0f974388f9f03fbcf9 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-6c0f677ddba10820670fccec973c663fdf5351c5 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-c7d4027c9c0d4554877641492737c7b6656d7767 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-04424908530dfc90e26fbe6605ca66e18142c732 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-ed7fcdb2bfd9bc34cd9bcf5e7cbdfe22e825d357 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-49e8c25f080060e1a8508a130f3485bdd94fba36 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-745fe6fd806ca1acf9bfa03958000b5959db38a0 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-83613a8b905f371cdc701b603792e57cc8af568f Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
-45d431113d7a639791278f07bbc3331ed689cc48 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-ef2a4cabfe6cfd3a4dd760ea9b8c7e66e62cd8d3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-cc7f4b53a9bab36a13613eec2bc3d457f0c33aaf Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-972c6c3d1916b1c06afdd7bf95c43c57ed491d15 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-15fb322ce4e1855ad58c0f35a0e2e4107d6db283 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap.git
-40da27f4b47f0c44fa7b0adb736866f37e08f322 Merge branch 'libnvdimm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm.git
-46d66882d232b50442976c2987f430b7936a53bf Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-1888470ab8817489f5bdc42ed0130cfcb0692ced Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-cd99b479cf917790d1479a627b2b3fd96049245a Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-e3d7a43dd921fa14f7c13d9a8cafc38aba67a648 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-4245903f392e1ee3188207b8009c4f6912590934 Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
-5555490369a57737a362b488d0f5bf77069e5767 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-50e05a738aab8023f8b3b45136e3416666436468 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-2a5c012f6edac10322e3048e1e425a485fbdbc68 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-8c291c38e4cd5277eee05a53ea7a14cbc5dc6cfa Merge branch 'irq/irqchip-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms.git
-880691e3db2df20e2e4b6eaa59a2983f5299217a Merge branch 'fixes' of https://github.com/Broadcom/stblinux.git
-d2899cd11ac411b97d257191ae6c678cdba468fa Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-bb8b9a4857726b532eaaa9d31c8acfb451227fbf Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
+0ca2ba6e4d139da809061a25626174f812303b7a KVM/VMX: Use TEST %REG,%REG instead of CMP $0,%REG in vmenter.S
+dd87aa5f610be44f195cf5a99b7bc153faf30a3d KVM/nVMX: Use __vmx_vcpu_run in nested_vmx_check_vmentry_hw
+1d516bd72a68e4e610d8e3b5ad99e25807a85947 objtool: Refactor ORC section generation
+e9197d768f976199a2356842400df947b4007377 objtool: Add 'alt_group' struct
+917a4f6348d94d9a3c20d78c800dd4715825362d objtool: Support stack layout changes in alternatives
+3e674f26528931c6a0f1bc7aa29445b45fdfd62d objtool: Support retpoline jump detection for vmlinux.o
+53e89bc78e4351924a1a1474683d47a00c2633f2 objtool: Assume only ELF functions do sibling calls
+3116dee2704bfb3713efa3637a9e65369d019cc4 objtool: Combine UNWIND_HINT_RET_OFFSET and UNWIND_HINT_FUNC
+b626e17c11f58d49b01bd8bcdf0e0ec11570b6df x86/xen: Support objtool validation in xen-asm.S
+5f93d900b9d33b0d5f7e1a7e455f26aab86875c5 x86/xen: Support objtool vmlinux.o validation in xen-head.S
+c9cf908b89ca3b5aa6563181bf78764ac1ab793e x86/alternative: Merge include files
+0c4c698569962d32b76ea8ae13334c81ea647be0 x86/alternative: Support not-feature
+341e6178c1cf6225e085de9eaba6216d624d641e x86/alternative: Support ALTERNATIVE_TERNARY
+fd80da64cffe952cfd71c1c60085ad2bad7ecb63 x86/alternative: Use ALTERNATIVE_TERNARY() in _static_cpu_has()
+a3d96c74395e162e880515d711ab96f5959856ec x86/insn: Rename insn_decode() to insn_decode_from_regs()
+76c513c87f599bc013c582522323a1b117b8f501 x86/insn: Add a __ignore_sync_check__ marker
+6bc6875b82a0cb99212c4b78fe7606418888af30 x86/insn: Add an insn_decode() API
+e6f8dc86a1c15b862486a61abcb54b88e8c177e3 x86/insn-eval: Handle return values from the decoder
+d9cd21911498a9b423e2bdf728b283e4507e968e x86/alternative: Use insn_decode()
+9a6471666b7387ba0af70d504fe1602cc3d3e5b2 x86: Add insn_decode_kernel()
+e68db6f780c6e0ec777045ece0880f5764617394 x86/alternatives: Optimize optimize_nops()
+28ca351296742a9e7506a548acaf7ea3bc9feef0 x86/retpoline: Simplify retpolines
+6e95f8caffb3f10e48b100c47e753ca83042fe6f objtool: Correctly handle retpoline thunk calls
+d42fa5bf19fc04833f3c27e9555051c428422248 objtool: Handle per arch retpoline naming
+c9049cf4804ab6f2b73d4cc244c3e2f6e0a9f10e objtool: Rework the elf_rebuild_reloc_section() logic
+fcdb7926d399910ee847856b28d7bde5437f77f0 objtool: Add elf_create_reloc() helper
+b37c439250118f6fecfd6436d8b218a452ab6fa8 objtool: Create reloc sections implicitly
+da962cd0a2fe2e2c29c75f425fb29fc09b4233cc objtool: Extract elf_strtab_concat()
+b69e1b4b689faa1af25a0a76cd1ef8c612770608 objtool: Extract elf_symbol_add()
+8a6d73f7db7f8486918d144e457e3b1d2cd22dba objtool: Add elf_create_undef_symbol()
+33092b486686c31432c5354dbb18651e44200668 objtool: Keep track of retpoline call sites
+e87c18c4a951bba1d69c7acaf401d613cf9a828c objtool: Cache instruction relocs
+ed7783dca5baff4103c214214abf0a3aeb27a79f objtool: Skip magical retpoline .altinstr_replacement
+0b2c8bf4983bdefbb69337c7d68cbe7c2d47a61a objtool/x86: Rewrite retpoline thunk calls
+f3fe1b141d2cd956ca59d142ef3b5f5cf4e5149c objtool: Support asm jump tables
+76474a9dd34a7a33abc82952b82f7092750f3bdc x86/alternative: Optimize single-byte NOPs at an arbitrary position
+a0319253825ebd8c5b19e31902c4f35f85e93285 objtool: Fix .symtab_shndx handling for elf_create_undef_symbol()
+e32542e9ed362bf8ea48941d965495e1593b5cef objtool: Only rewrite unconditional retpoline thunk calls
+f231b2ee8533d79b93bd163e93caf578d991726b objtool/x86: Ignore __x86_indirect_alt_* symbols
+364e463097a7c949e19fa93283f1a888ba96ed21 objtool: Don't make .altinstructions writable
+7ea073195745a8db3cd561faba5cd9870a862045 objtool: Teach get_alt_entry() about more relocation types
+e7118a25a87f6b456c70f6a216b1b5042709cee7 objtool: print out the symbol type when complaining about it
+1afa44480b62ef3928cad4e7dea0fe076ae163c8 objtool: Remove reloc symbol type checks in get_alt_entry()
+e8b1128fb0d6aa97420d5012ab9f62ad262f8f77 objtool: Make .altinstructions section entry size consistent
+9d7ec2418a3a6669a69d96927bf9ce8f2efea444 objtool: Introduce CFI hash
+acc0be56b4152046aac56b48a70729925036b187 objtool: Handle __sanitize_cov*() tail calls
+6e4676f438f8a454d85c12ffa2abf613f9a8f75c objtool: Classify symbols
+023e78bbf13c15a55013ca25641509a6697170e1 objtool: Explicitly avoid self modifying code in .altinstr_replacement
+908bd980a80ea23ff834c3fff828c3d37ada6cc2 objtool,x86: Replace alternatives with .retpoline_sites
+ccb8fc65a3e89815e43abc4f263b3a47aa7397dd x86/retpoline: Remove unused replacement symbols
+8ef808b3f406ed920adea8ffc949f63c059bf3a7 x86/asm: Fix register order
+41ef958070000770758531247db417523aa6977f x86/asm: Fixup odd GEN-for-each-reg.h usage
+0de47ad5b9d57e52b81c3ce0faa91c8b7749affe x86/retpoline: Move the retpoline thunk declarations to nospec-branch.h
+6eb95718f3ea92affae94401f273b580f6b97372 x86/retpoline: Create a retpoline thunk array
+381fd04c97b469106d83a48343512c5312347155 x86/alternative: Implement .retpoline_sites support
+b0e2dc950654162bc68cec530156251e7ad3f03a x86/alternative: Handle Jcc __x86_indirect_thunk_\reg
+3d13ee0d411a078ca1538d823c2c759b8b266fb1 x86/alternative: Try inline spectre_v2=retpoline,amd
+38a80a3ca2cb069dd5608703b015a206a672aae5 x86/alternative: Add debug prints to apply_retpolines()
+1713e5c4f8527c9ca5327d98ab6fd3c40df788aa bpf,x86: Simplify computing label offsets
+c2746d567dcda6df41b1c3c1e930f51429f5a364 bpf,x86: Respect X86_FEATURE_RETPOLINE*
+a512fcd881c1ae4ed607d5fed54248be06fd3478 x86/lib/atomic64_386_32: Rename things
+3c91e2257622c169bf74d587e48b96923285ed74 x86: Prepare asm files for straight-line-speculation
+277f4ddc36c578691678b8ae59b60d76ad15fa1b x86: Prepare inline-asm for straight-line-speculation
+1f6e6683c46612baf01555e214d863aaa03c399b x86/alternative: Relax text_poke_bp() constraint
+0f8532c2837793acdaa07c6b47fda0bf1fa61f40 objtool: Add straight-line-speculation validation
+e9925a4584dc2dd1a5eb4ffc44cd42bb1117a797 x86: Add straight-line-speculation mitigation
+494ed76c1446b67621b1c55b8b2dceb5c6dfee64 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
+bef21f88b47e399a76276ef1620fb816a0cc4e83 kvm/emulate: Fix SETcc emulation function offsets with SLS
+03c5c33e043e77a1a848c52f37c512efb412f2c3 objtool: Default ignore INT3 for unreachable
+9728af8857dfd0bfed48ab137955d28afbc107e5 crypto: x86/poly1305 - Fixup SLS
+831d5c07b7e7c6eab9df64ae328bacb5a6a0313a objtool: Fix SLS validation for kcov tail-call replacement
+42ec4d71353f4c6da1d94baf64acbb1badc16b11 objtool: Fix code relocs vs weak symbols
+3e8afd072d098958a507fb10251a201c9899150c objtool: Fix type of reloc::addend
+e1db6c8a69ec74aa0ecff19857895d10f39c6d98 objtool: Fix symbol creation
+148811a84292467b0527eb789f24cd4fe004136c x86/entry: Remove skip_r11rcx
+236b959da9d145c311f9daa65e3fbbe1a3c9c9af objtool: Fix objtool regression on x32 systems
+accb8cfd506da1e218a0cd56a11f37885dc32adf x86/realmode: build with -D__DISABLE_EXPORTS
+7070bbb66c5303117e4c7651711ea7daae4c64b5 x86/kvm/vmx: Make noinstr clean
+feec5277d5aa9780d4814084262b98af2b1a2242 x86/cpufeatures: Move RETPOLINE flags to word 11
+6a2b142886c52244a9c1dfb0a36971daa963541a x86/retpoline: Cleanup some #ifdefery
+3e519ed8d509f5f2e1c67984f3cdf079b725e724 x86/retpoline: Swizzle retpoline thunk
+37b9bb094123a14a986137d693b5aa18a240128b Makefile: Set retpoline cflags based on CONFIG_CC_IS_{CLANG,GCC}
+270de63cf4a380fe9942d3e0da599c0e966fad78 x86/retpoline: Use -mfunction-return
+716410960ba0a2d2c3f59cb46315467c9faf59b2 x86: Undo return-thunk damage
+8bdb25f7aee312450e9c9ac21ae209d9cf0602e5 x86,objtool: Create .return_sites
+446eb6f08936e6f87bea9f35be05556a7211df9b objtool: skip non-text sections when adding return-thunk sites
+7723edf5edfdfdabd8234e45142be86598a04cad x86,static_call: Use alternative RET encoding
+00b136bb6254e0abf6aaafe62c4da5f6c4fea4cb x86/ftrace: Use alternative RET encoding
+e0e06a922706204df43d50032c05af75d8e75f8e x86/bpf: Use alternative RET encoding
+ee4996f07d868ee6cc7e76151dfab9a2344cdeb0 x86/kvm: Fix SETcc emulation for return thunks
+d6eb50e9b7245a238872a9a969f84993339780a5 x86/vsyscall_emu/64: Don't use RET in vsyscall emulation
+5b2edaf709b50c81b3c6ddb745c8a76ab6632645 x86/sev: Avoid using __x86_return_thunk
+c9eb5dcdc8f4a848b45b97725f5a2b8d324bb31a x86: Use return-thunk in asm code
+c70d6f82141b89db6c076b0cbf9a7a2edc29e46d objtool: Treat .text.__x86.* as noinstr
+df748593c55389892902aecb8691080ad5e8cff5 x86: Add magic AMD return-thunk
+876750cca4f043bd626a3ac760ce887dda3b6ec7 x86/bugs: Report AMD retbleed vulnerability
+3f29791d56d32a610a2b57a9b700b1bc1912e41f x86/bugs: Add AMD retbleed= boot parameter
+a989e75136192036d47e4dc4fe87ff9c961d6b46 x86/bugs: Enable STIBP for JMP2RET
+9e727e0d9486121de5c21cbb65fcc0c907834b17 x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
+3dddacf8c3cc29b9b37d8c4353f746e510ad1371 x86/entry: Add kernel IBRS implementation
+6d7e13ccc4d73e5c88cc015bc0154b7d08f65038 x86/bugs: Optimize SPEC_CTRL MSR writes
+dabc2a1b406ae0ff5286c91f7519b3e20ec2aa63 x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
+a0f8ef71d762501769df69e35c4c4e7496866d90 x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
+e8142e2d6cb6b39fdd78bc17199429f79bcd051c x86/bugs: Report Intel retbleed vulnerability
+55bba093fd91a76971134e3a4e3576e536c08f5c intel_idle: Disable IBRS during long idle
+28aa3fa0b2c9d0cd7bdac42d9eb7fe3d5f6c79e8 objtool: Update Retpoline validation
+f728eff26339d85825e588d461f0e55267bc6c3f x86/xen: Rename SYS* entry points
+c8845b875437b8ea9cd023f15b44c436c9c5b62d x86/bugs: Add retbleed=ibpb
+fbab1c94eb1a3139d7ac0620dc6d7d6a33f3b255 x86/bugs: Do IBPB fallback check only once
+0d1a8a16e62c8048f2ff7f9c6f448bf595d2a2a8 objtool: Add entry UNRET validation
+ea1aa926f423a8cf1b2416bb909bfbea37d12b11 x86/cpu/amd: Add Spectral Chicken
+f1b01ace814b0a8318041e3aea5fd36cc74f09b0 x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
+d29c07912a49fce965228f73a293e2c899bc7e35 x86/speculation: Fix firmware entry SPEC_CTRL handling
+aad83db22e9950577b5b827f57ed7108b3ca5553 x86/speculation: Fix SPEC_CTRL write on SMT state change
+ce11f91b21c25dda8b06988817115bef1c636434 x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
+1dbefa57725204be0348351ea4756c52b10b3504 x86/speculation: Remove x86_spec_ctrl_mask
+df93717a32f57e1b033dbfa2a78809d7d4000648 objtool: Re-add UNWIND_HINT_{SAVE_RESTORE}
+07401c2311f6fddd3c49a392eafc2c28a899f768 KVM: VMX: Flatten __vmx_vcpu_run()
+84061fff2ad98a7809f00e88a54f584f84830388 KVM: VMX: Convert launched argument to flags
+5269be9111e2b66572e78647f2e8948f7fc96466 KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
+47ae76fb27398e867980d63789058ff7c4f12a35 KVM: VMX: Fix IBRS handling after vmexit
+4d7f72b6e1bc630bec7e4cd51814bc2b092bf153 x86/speculation: Fill RSB on vmexit for IBRS
+a74f5d23e68d9687ed06bd462d344867824707d8 x86/common: Stamp out the stepping madness
+f7851ed697be2ce86bd8baf29111762b7b3ff6cc x86/cpu/amd: Enumerate BTC_NO
+b24fdd0f1c3328cf8ee0c518b93a7187f8cee097 x86/retbleed: Add fine grained Kconfig knobs
+609336351d08699395be24860902e6e0b7860e2b x86/bugs: Add Cannon lake to RETBleed affected CPU list
+51552b6b52fc865f37ef3ddacd27d807a36695ac x86/bugs: Do not enable IBPB-on-entry when IBPB is not supported
+c2ca992144281917cfae19d231b1195c02906a4e x86/kexec: Disable RET on kexec
+eb38964b6ff864b8bdf87c9cf6221d0b0611a990 x86/speculation: Disable RRSBA behavior
+c035ca88b0742952150b1671bb5d26b96f921245 x86/static_call: Serialize __static_call_fixup() properly
+844947eee36c8ab21005883d6626e713a678c868 tools/insn: Restore the relative include paths for cross building
+81f20e5000eca278a8bab4959c4fa1beda1fbed5 x86, kvm: use proper ASM macros for kvm_vcpu_is_preempted
+668cb1ddf0ae7fcffcfc2ac1cfec9f770c8191fc x86/xen: Fix initialisation in hypercall_page after rethunk
+95d89ec7dba56f7974aeda2beace2112df9f1418 x86/ftrace: Add UNWIND_HINT_FUNC annotation for ftrace_stub
+ecc0d92a9f6cc3f74b67d2c9887d0c800018e661 x86/asm/32: Fix ANNOTATE_UNRET_SAFE use on 32-bit
+abf88ff13414f3991b35c295c4b564c31e3cb2b0 x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
+5779e2f0cc241d76ae309e2f6f52168204e93fdb efi/x86: use naked RET on mixed mode call wrapper
+8e31dfd6306e7c6bb3758a459c2a6067be807886 x86/kvm: fix FASTOP_SIZE when return thunks are enabled
+2ef1b06ceacfc6f96f6792126e107e75c0d7bd5d KVM: emulate: do not adjust size of fastop and setcc subroutines
+3f93b8630a91e9195607312b7f16a25417f61f7b tools arch x86: Sync the msr-index.h copy with the kernel sources
+81604506c26aef661bc460609981e01b706cf025 tools headers cpufeatures: Sync with the kernel sources
+725da3e67cec529788e284dac2c1249b2a531839 x86/bugs: Remove apostrophe typo
+8e2774270aa319f552fab969bc4500e412d2566b um: Add missing apply_returns()
+6849ed81a33ae616bfadf40e5c68af265d106dff x86: Use -mindirect-branch-cs-prefix for RETPOLINE builds
+39065d54347fe1395371ad5397df353ef77c8989 kvm: fix objtool relocation warning
+fbf60f83e241f0ef967644ca06455f37fcea064b objtool: Fix elf_create_undef_symbol() endianness
+060e39b8c21ceeca3eeaaca5f97dcd8530d85b67 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy' - again
+2fc7f18ba2f98d15f174ce8e25a5afa46926eb55 tools headers: Remove broken definition of __LITTLE_ENDIAN
+5034934536433b2831c80134f1531bbdbc2de160 Linux 5.10.133
+0fbc2ae61ac3fc5ca557804b0e9b626ae6d86319 Merge tag 'v5.10.133' into linux-5.10.y
 
---===============1489597435861452781==--
+--===============6386508748324336428==--
