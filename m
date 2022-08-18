@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8096329743831856965=="
+Content-Type: multipart/mixed; boundary="===============5696015265123515599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 18 Aug 2022 17:38:10 -0000
-Message-Id: <166084429083.24496.5980457029135532236@gitolite.kernel.org>
+Date: Thu, 18 Aug 2022 17:38:21 -0000
+Message-Id: <166084430105.24651.11624453312382270209@gitolite.kernel.org>
 
---===============8096329743831856965==
+--===============5696015265123515599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 326ecc15c61c349cd49d1700ff9e3e31c6fd1cd5
-    new: 3a8b83ed8cff6da47a4e157d5e7bd461554149ec
-    log: revlist-326ecc15c61c-3a8b83ed8cff.txt
+  - ref: refs/heads/locking/urgent
+    old: 6eebd5fb20838f5971ba17df9f55cc4f84a31053
+    new: e82d12edf3dd0a952bf4ce591091d6f32ea9b8d4
+    log: revlist-6eebd5fb2083-e82d12edf3dd.txt
 
---===============8096329743831856965==
+--===============5696015265123515599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-326ecc15c61c-3a8b83ed8cff.txt
+Content-Disposition: attachment; filename=revlist-6eebd5fb2083-e82d12edf3dd.txt
 
+eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
+9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
+52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
+017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
+dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
+59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
+fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
+ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
+e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
+b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
+2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
+6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
 b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
 e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
 85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
@@ -1037,18 +1049,6 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-a7fc830b1db5cf5210b00a6c348b686f40738867 perf/x86/amd/brs: Move feature-specific functions
-f62e95444ab6083218276fc5fe42085a0bec6f9c perf/x86/amd/core: Refactor branch attributes
-b6f07cffc5429e69a9a71ec2f8ef0dc021ea0021 perf/x86/amd/core: Add generic branch record interfaces
-cdbaf4b5429ba1b0219ada7cca2e817258d37438 x86/cpufeatures: Add LbrExtV2 feature bit
-b4a8dbc5f62583dfadfbff861f92ba35422a97ec perf/x86/amd/lbr: Detect LbrExtV2 support
-a499b4b06c9f978dc69ca4058cd3346075dc7870 perf/x86/amd/lbr: Add LbrExtV2 branch record support
-9dd0a5823daba69b8c9670cc64c279c459496bc8 perf/x86/amd/lbr: Add LbrExtV2 hardware branch filter support
-08cc46ccb8608159e1c63a3faf48e024d48ca1fa perf/x86: Move branch classifier
-0d96c1bdbac6645ff4d8ac75d57bf10db76f7802 perf/x86/amd/lbr: Add LbrExtV2 software branch filter support
-a7e7297795dc183de0ad11810ff0277b01adf31f perf/x86: Make branch classifier fusion-aware
-ce01dda48764d93b31a0dddac5b27dc866aee72b perf/x86/amd/lbr: Use fusion-aware branch classifier
-6560164a2e2f69ec3abce48c225bbb613dcca4d9 perf/core: Add speculation info to branch entries
-3a8b83ed8cff6da47a4e157d5e7bd461554149ec perf/x86/amd/lbr: Add LbrExtV2 branch speculation info support
+e82d12edf3dd0a952bf4ce591091d6f32ea9b8d4 locking: Add __lockfunc to slow path functions
 
---===============8096329743831856965==--
+--===============5696015265123515599==--
