@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5047742716316359417=="
+Content-Type: multipart/mixed; boundary="===============2085663008252488038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 18 Aug 2022 15:21:51 -0000
-Message-Id: <166083611155.22752.198750405698866934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 18 Aug 2022 15:21:57 -0000
+Message-Id: <166083611739.22878.1151525773571685686@gitolite.kernel.org>
 
---===============5047742716316359417==
+--===============2085663008252488038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.0
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: f5723cfc01932c7a8d5c78dbf7e067e537c91439
+  - ref: refs/heads/for-6.1
+    old: ee94aff2628b18afdb0b6b175e568657bdaead59
+    new: 8a866d527ac0441c0eb14a991fa11358b476b11d
     log: |
-         f5723cfc01932c7a8d5c78dbf7e067e537c91439 regmap: spi: Reserve space for register address/padding
+         8a866d527ac0441c0eb14a991fa11358b476b11d regulator: core: Resolve supply name earlier to prevent double-init
          
 
---===============5047742716316359417==
+--===============2085663008252488038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1660836110 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1660836109-bca7330b17556b0eb4d9ef1d0500f0df0056a578
+pusher C3F436CA30F5D8EB 1660836116 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1660836115-7f9282dcac5dadf9b9fc7db5e0a126bc1a2e492f
 
-568035b01cfb107af8d2e4bd2fb9aea22cf5b868 f5723cfc01932c7a8d5c78dbf7e067e537c91439 refs/heads/regmap-6.0
+ee94aff2628b18afdb0b6b175e568657bdaead59 8a866d527ac0441c0eb14a991fa11358b476b11d refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL+WQ4ACgkQJNaLcl1U
-h9AXKQf/TctavS0eG76sJQRaPhQdqTPkv7KbNgnpVQ5A+ixRESwlZsg851yhyEqO
-ZSm57UpcV3Uv1GiJf+RcRvk75m6k2a/1jKlzvMYMm+5Gh7EJwlRX99WoCJ+TdfHq
-cBJrn0kRJKpk3ipDvcDe50uq51BSSTFshkhzy7RjNcqs2+uKN/gLQlXTtplH5mMe
-WV6hVJmt5W39f5Txn65WyaTQIASg/GX05xWxIPy+S+2MJDiR8ioHeRiQgD6PIubu
-2uk8UW5LHSf0ero8KD172uWBexiUUSGs/eDuTzi/IDC1qMGQ6uumjoWM1JCDj/XI
-fPJo8cfdU+g2Z0lBqcFmXXEQ9C/LKA==
-=8t7F
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmL+WRQACgkQJNaLcl1U
+h9BB/Qf/b1XIRLq9v9CeAwnSBLIVYyiiINIOd1xNOdTITx1G9QDRpXBisSkn6+2L
+t1Q57Y34ibQ6D5qEWdCGg3JbsE+suqPWtdHic/4lfmkfKViOYt9McLxTYs+SCPJv
+TNrTbCpHcJ9TewIEOVD4r46V8IZTPGKhtU08smp3TaONnS2rR50W3b29/CaxkyPa
+UqQ4JArE4vq62ww1EF4IZ1sv/D6NnGvCLdVx0bVVvqhlZod+Dnct7tEjKEbhaMdd
+wg7Myzbx3KwctPYLXduhEikAIfs0OkyD3L6f4V/bksbKDyhgXnX92xoKJet/6hkx
+0aRdgiDEHX5REwV8ZJK/qh089Z76yQ==
+=LKCF
 -----END PGP SIGNATURE-----
 
---===============5047742716316359417==--
+--===============2085663008252488038==--
