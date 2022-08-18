@@ -1,48 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============5726962075784064731=="
+Content-Type: multipart/mixed; boundary="===============2580143452683981112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 18 Aug 2022 04:57:20 -0000
-Message-Id: <166079864029.24718.9022754452581423505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 18 Aug 2022 05:08:48 -0000
+Message-Id: <166079932859.31723.17096901034758893883@gitolite.kernel.org>
 
---===============5726962075784064731==
+--===============2580143452683981112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: fc4aaf9fb3c99bcb326d52f9d320ed5680bd1cee
-    new: bec13ba9cef01cd37084d57608e7fa3d5a0b96d7
-    log: revlist-fc4aaf9fb3c9-bec13ba9cef0.txt
+    old: fd78d07c7c35de260eb89f1be4a1e7487b8092ad
+    new: e34cfee65ec891a319ce79797dda18083af33a76
+    log: revlist-fd78d07c7c35-e34cfee65ec8.txt
 
---===============5726962075784064731==
+--===============2580143452683981112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc4aaf9fb3c9-bec13ba9cef0.txt
+Content-Disposition: attachment; filename=revlist-fd78d07c7c35-e34cfee65ec8.txt
 
-3400278328285a8c2f121904496aff5e7b610a01 netfilter: nf_tables: use READ_ONCE and WRITE_ONCE for shared generation id access
-4963674c2e71fc062f8f089f0f58ffbb5533060b netfilter: nf_tables: disallow NFTA_SET_ELEM_KEY_END with NFT_SET_ELEM_INTERVAL_END flag
-c485c35ff6783ccd12c160fcac6a0e504e83e0bf netfilter: nf_tables: possible module reference underflow in error path
-a664375da76c6da8f83dc7997e43c568e1eb9a6a netfilter: nf_ct_sane: remove pseudo skb linearization
-f3e124c36f70d5ffcdd4e8bdbe7bb28a98a715c0 netfilter: nf_ct_h323: cap packet size at 64k
-c783a29c7e5934eabac2b760571489ad83bf4fd1 netfilter: nf_ct_ftp: prefer skb_linearize
-976bf59c69cd2e2c17f0ab20a14c0e700cba0f15 netfilter: nf_ct_irc: cap packet search space to 4k
-2024439bd5ceb145eeeb428b2a59e9b905153ac3 netfilter: nf_tables: fix scheduling-while-atomic splat
-0b2f3212b551a87fe936701fa0813032861a3308 netfilter: nfnetlink: re-enable conntrack expectation events
-271c5ca826e0c3c53e0eb4032f8eaedea1ee391c netfilter: nf_tables: really skip inactive sets when allocating name
-5a2f3dc31811e93be15522d9eb13ed61460b76c8 netfilter: nf_tables: validate NFTA_SET_ELEM_OBJREF based on NFT_SET_OBJECT flag
-88cccd908d51397f9754f89a937cd13fa59dee37 netfilter: nf_tables: NFTA_SET_ELEM_KEY_END requires concat and interval flags
-fc0ae524b5fd2938c94d56da3f749f11eb3273d5 netfilter: nf_tables: disallow NFT_SET_ELEM_CATCHALL and NFT_SET_ELEM_INTERVAL_END
-1b6345d4160ecd3d04bd8cd75df90c67811e8cc9 netfilter: nf_tables: check NFT_SET_CONCAT flag if field_count is specified
-aa5762c34213aba7a72dc58e70601370805fa794 netfilter: conntrack: NF_CONNTRACK_PROCFS should no longer default to y
-b71b7bfeac38c7a21c423ddafb29aa6258949df8 testing: selftests: nft_flowtable.sh: use random netns names
-c8550b9077d271b9b4fbe5a9a260eb021f371c4f testing: selftests: nft_flowtable.sh: rework test to detect offload failure
-bec13ba9cef01cd37084d57608e7fa3d5a0b96d7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+47ea7417b0744324424405fc1207e266053237a9 libbpf: Skip empty sections in bpf_object__init_global_data_maps
+3045f42a64324d339125a8a1a1763bb9e1e08300 libbpf: Initialize err in probe_map_create
+d55dfe587bc0670f90564a962615723fe7749ab1 bpftool: Remove BPF_OBJ_NAME_LEN restriction when looking up bpf program by name
+d25f40ff68aa61c838947bb9adee6c6b36e77453 libbpf: Ensure functions with always_inline attribute are inline
+5653f55ebd767b4ef47414ee7f852517993eda6f selftests/bpf: Clean up sys_nanosleep uses
+e19db6762c18ab1ddf7a3ef4d0023780c24dc1e8 libbpf: Reject legacy 'maps' ELF section
+0c9a7a7e2049859d7869e15dd8f70ca5aeae460e bpf: Verifier cleanups
+9e32084ef1c33a87a736d6ce3fcb95b60dac9aa1 libbpf: Do not require executable permission for shared libraries
+ca34ce29fc4b0e929cc6aada40829d17ab50fee4 bpf: Improve docstring for BPF_F_USER_BUILD_ID flag
+fa96b24204af42274ec13dfb2f2e6990d7510e55 btf: Add a new kfunc flag which allows to mark a function to be sleepable
+f3a2aebdd6fb90e444d595e46de64e822af419da cgroup: enable cgroup_get_from_file() on cgroup1
+be3bb83dab2df838cd9e681e3e9dcde87bfe4f95 bpf, iter: Fix the condition on p when calling stop.
+6e116280b41b0cbfd90dfe9fa66e07ff348d50d5 net: netfilter: Remove ifdefs for code shared by BPF and ctnetlink
+b2d8ef19c6e7ed71ba5092feb0710063a751834f bpf: Cleanup check_refcount_ok
+c8996c98f703b09afe77a1d247dae691c9849dc1 bpf: Add BPF-helper for accessing CLOCK_TAI
+64e15820b987cc8e5864a8b907dfc17861e6ab5a selftests/bpf: Add BPF-helper test for CLOCK_TAI access
+11b9148590146ff8a4e90c7f0186efe06009ec1b Merge branch 'Add BPF-helper for accessing CLOCK_TAI'
+a00ed8430199abbc9d9bf43ea31795bfe98998ca bpf: Always return corresponding btf_type in __get_type_size()
+d020b2360b350b9f91b1769f9c84fe2d22f643db selftests/bpf: Fix vmtest.sh -h to not require root
+a7be0ab1eb1949f3564739784b4360e1233305f6 selftests/bpf: Fix vmtest.sh getopts optstring
+883743422ced8c961ab05dc63ec81b75a4e56052 bpf: Fix ref_obj_id for dynptr data slices in verifier
+dc444be8bae45019396aedd53c745e685a4eb235 selftests/bpf: add extra test for using dynptr data slice after release
+3143d10b094596f3e5d5964b2660375e586652a3 selftests/xsk: Update poll test cases
+4dd48c6f1f83290d4bc61b43e61d86f8bc6c310e bpf: add destructive kfunc flag
+133790596406ce2658f0864eb7eac64987c2b12f bpf: export crash_kexec() as destructive kfunc
+e338945816754a1c362f606b8e2029f2c023e51c selftests/bpf: add destructive kfunc test
+43caeec90da04de7d5f63c0d3fe37e5425da6b5d Merge branch 'destructive bpf_kfuncs'
+d7c5802faff6e7f50d18db40fdcb7e50590177f5 libbpf: preserve errno across pr_warn/pr_info/pr_debug
+083818156d1e98f22b1ac612a3957bc553e7ba57 bpf: Remove unneeded memset in queue_stack_map creation
+8f58ee54c2eae790f50c51dfa64a153601451f08 bpf: Use bpf_map_area_free instread of kvfree
+992c9e13f5939437037627c67bcb51e674b64265 bpf: Make __GFP_NOWARN consistent in bpf map creation
+73cf09a36bf7bfb3e5a3ff23755c36d49137c44d bpf: Use bpf_map_area_alloc consistently on bpf map creation
+10b62d6a38f7c92e9f41983bb7d7669c9fa6e287 libbpf: Add names for auxiliary maps
+54c939773b2d2c2e6676743c180cb2049bb3a40a bpftool: Fix a typo in a comment
+4961d0772578e8737afe61370743f3bc22867111 bpf: Clear up confusion in bpf_skb_adjust_room()'s documentation
+cea558855c39b7f1f02ff50dcf701ca6596bc964 bpftool: Clear errno after libcap's checks
+e81fbd4c1ba7b128a198c2843665e1186db449b6 selftests/bpf: Add existing connection bpf_*_ct_lookup() test
+99799de2cba2d399acf65f49a986b3d5cf0732ab selftests/bpf: Add connmark read test
+8308bf207ce6963adb42791cfb260dc6552b6665 selftests/bpf: Update CI kconfig
+1f235777c3a4ab115162fe7d45b82be534b9ae2e libbpf: Making bpf_prog_load() ignore name if kernel doesn't support
+807662cac66af0dfca60ce1cf784063da6ec2f65 selftests/bpf: Fix attach point for non-x86 arches in test_progs/lsm
+43cb8cbadffa21e88a65dd1129c86f5552d6c42e libbpf: Allows disabling auto attach
+738a2f2f9130f98f92ccb3efd94d4879c0a0990c selftests/bpf: Tests libbpf autoattach APIs
+d4e6d684f3bea46a2fc195765c77a3b26bcb080e libbpf: Fix potential NULL dereference when parsing ELF
+813847a31447feba6119df4ee77a7c0c7a77fc72 libbpf: Streamline bpf_attr and perf_event_attr initialization
+abf84b64e36b175c9c4dd4ecbad2af4329c00041 libbpf: Clean up deprecated and legacy aliases
+df78da27260c915039b348b164bbc53fa372ba70 selftests/bpf: Few fixes for selftests/bpf built in release mode
+3f5f728a7296b5d5b87117d85d3020cc9640f6dd Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+e34cfee65ec891a319ce79797dda18083af33a76 stmmac: intel: remove unused 'has_crossts' flag
 
---===============5726962075784064731==--
+--===============2580143452683981112==--
