@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7897523473032038855=="
+Content-Type: multipart/mixed; boundary="===============3951976200224407786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 18 Aug 2022 17:22:51 -0000
-Message-Id: <166084337190.12585.9856094287315019241@gitolite.kernel.org>
+Date: Thu, 18 Aug 2022 17:22:53 -0000
+Message-Id: <166084337381.12653.16454422276779559838@gitolite.kernel.org>
 
---===============7897523473032038855==
+--===============3951976200224407786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: df78da27260c915039b348b164bbc53fa372ba70
     new: e34cfee65ec891a319ce79797dda18083af33a76
     log: revlist-df78da27260c-e34cfee65ec8.txt
 
---===============7897523473032038855==
+--===============3951976200224407786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fd78d07c7c35de260eb89f1be4a1e7487b8092ad Merge branch 'net-dsa-bcm_sf2-utilize-p
 3f5f728a7296b5d5b87117d85d3020cc9640f6dd Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 e34cfee65ec891a319ce79797dda18083af33a76 stmmac: intel: remove unused 'has_crossts' flag
 
---===============7897523473032038855==--
+--===============3951976200224407786==--
