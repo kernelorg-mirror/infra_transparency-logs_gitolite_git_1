@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 18 Aug 2022 21:33:35 -0000
-Message-Id: <166085841531.28670.4845693077756325172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 Aug 2022 21:36:30 -0000
+Message-Id: <166085859076.31238.16191791857898694508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: dbdd5b72a66f71eb5dd909d3b5796da96e19800b
-    new: c3db33a12236083ea31152e3ab20c53ec17add26
-    log: |
-         0b868e3bd40e6a4a1e7e79e212db6d6fb8457ea7 mmc: sdhci: Update MAINTAINERS Maintained -> Supported
-         c3db33a12236083ea31152e3ab20c53ec17add26 dt-bindings: mmc: sdhci-msm: Document the SM6115 compatible
-         
+  - ref: refs/tags/arm64-fix-ctr-v2
+    old: 0000000000000000000000000000000000000000
+    new: caf71d9fcbdc8f60926f958b1dc42f53d2dc9a5b
