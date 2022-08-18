@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 18 Aug 2022 21:37:01 -0000
-Message-Id: <166085862130.31561.9684669728178454724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 18 Aug 2022 21:43:14 -0000
+Message-Id: <166085899417.2961.10909168477731945881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: eb6354e116305afbfde196be5120bfa8669fdc6a
-    new: 96264230a6817bcd4a7ae0fc30c60bfb46499f68
-    log: |
-         96264230a6817bcd4a7ae0fc30c60bfb46499f68 perf: riscv legacy: fix kerneldoc comment warning
-         
+  - ref: refs/heads/riscv-variable_fixes_without_kvm
+    old: 0000000000000000000000000000000000000000
+    new: d951b20b9def73dcc39a5379831525d0d2a537e9
