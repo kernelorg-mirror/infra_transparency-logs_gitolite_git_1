@@ -1,43 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============4431614431525316362=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 19 Aug 2022 18:30:02 -0000
-Message-Id: <166093380238.31527.16014833478214258357@gitolite.kernel.org>
-
---===============4431614431525316362==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Fri, 19 Aug 2022 18:58:55 -0000
+Message-Id: <166093553534.18862.16536613599137814309@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
+  - ref: refs/heads/main
+    old: 88d9524e6cae861e28c748eb4ccc5777d9254638
+    new: 01c032df0401d1acb0b060ac2a2ef0412acc28be
+    log: |
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         
   - ref: refs/heads/master
-    old: 5ecf9eb12b7832bb36636ee3e8b5a4a139af40a7
-    new: 254abba1863ae7bfc1a698661450cb7aee300f54
-    log: revlist-5ecf9eb12b78-254abba1863a.txt
-
---===============4431614431525316362==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ecf9eb12b78-254abba1863a.txt
-
-648a942498f3601d6a12fe4625ad06ae8b694e52 Merge branch into tip/master: 'irq/urgent'
-7f37b17af4c2fd3b7c26d436e88bf7ad517c4f2d Merge branch into tip/master: 'perf/urgent'
-2f6f3172a77d7eb3214fada0b7da688ab52ae5eb Merge branch into tip/master: 'sched/urgent'
-b4706f6d8961431c26526b364d302b9ab3a20720 Merge branch into tip/master: 'x86/urgent'
-5e2fc920199ddbee53c095eb26b4a5408358c8ba Merge branch into tip/master: 'locking/core'
-fc0dd58c1bac65bd35578a5a8c375f1c6eb119bd Merge branch into tip/master: 'sched/core'
-30174d7b49e3f0344b9746b62bab317d782467be Merge branch into tip/master: 'x86/cleanups'
-bad36108001372d87b710dc7abc2b565cd916ab0 Merge branch into tip/master: 'x86/cpu'
-04fa31eb38bc971c271a730b0c3ed13f5cd08771 Merge branch into tip/master: 'x86/microcode'
-82c1cb439298ac7ca3a6ee947e306daca84744fd Merge branch into tip/master: 'x86/mm'
-6b34b6a5a88242828e2e2a698c94ded266041c1c Merge branch into tip/master: 'x86/platform'
-c0ac5b4ac5a702a6dd85c593e56c7bf98189692d Merge branch into tip/master: 'x86/sgx'
-254abba1863ae7bfc1a698661450cb7aee300f54 Merge branch into tip/master: 'x86/timers'
-
---===============4431614431525316362==--
+    old: 88d9524e6cae861e28c748eb4ccc5777d9254638
+    new: 01c032df0401d1acb0b060ac2a2ef0412acc28be
+    log: |
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         
+  - ref: refs/heads/verify-tasklet
+    old: d5b1616838c41354ffd1d96faab766c21009240f
+    new: 394aeefe788ed8606d70f24e89b07a597acc99db
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         394aeefe788ed8606d70f24e89b07a597acc99db Add support for dm-verity try_verify_in_tasklet option.
+         
+  - ref: refs/merge-requests/408/merge
+    old: 6646c948fb9beb34a52a611e8d406863be4d55bb
+    new: d971899c0b7245cf843976c5e556554133178845
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         d971899c0b7245cf843976c5e556554133178845 Merge branch 'gcrypt-argon2' into 'main'
+         
+  - ref: refs/merge-requests/409/head
+    old: d5b1616838c41354ffd1d96faab766c21009240f
+    new: 394aeefe788ed8606d70f24e89b07a597acc99db
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         394aeefe788ed8606d70f24e89b07a597acc99db Add support for dm-verity try_verify_in_tasklet option.
+         
+  - ref: refs/merge-requests/409/merge
+    old: 48527a92b8895fd486477bea92b55de46c6070a0
+    new: 21fe3675ed19ae02bf1a2bdb59bc5e5ddd8446d4
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         394aeefe788ed8606d70f24e89b07a597acc99db Add support for dm-verity try_verify_in_tasklet option.
+         21fe3675ed19ae02bf1a2bdb59bc5e5ddd8446d4 Merge branch 'verify-tasklet' into 'main'
+         
+  - ref: refs/merge-requests/410/head
+    old: d813396d3b9a3ceb594dd554e152c943dddc6cc1
+    new: 01c032df0401d1acb0b060ac2a2ef0412acc28be
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         
+  - ref: refs/merge-requests/410/merge
+    old: 1594a89e3180b3739f6bbef9c677f931b2b007ca
+    new: 7fa15df2915522ed3bf7c2e467d51121ed9b06e1
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         01c032df0401d1acb0b060ac2a2ef0412acc28be Do not reload LUKS2 metadata when not necessary.
+         7fa15df2915522ed3bf7c2e467d51121ed9b06e1 Merge branch 'luks2-metadata-rollback' into 'main'
+         
+  - ref: refs/merge-requests/411/merge
+    old: ecbd0f8cc599660185a6d71b74fab7a6d0bcb4df
+    new: a4d8681ecd4a5f398cd1f752c6db0b0be46487ac
+    log: |
+         db65a5ceac80d6ac2ad7227f5aec940adf673d65 Lock memory in crypt_safe alloc functions.
+         21d87a246e971422233c44e5715172d4256e62ab Do not use safe_malloc for LUKS header backup.
+         b9bf65744914138b41fa37bba4b7886513bfece5 Set process priority only for PBKDF benchmark.
+         4b47091b85bcd768ca048dc59fad2bf7806ef1b1 Remove call to explicit memlockall from cryptsetup.
+         88d9524e6cae861e28c748eb4ccc5777d9254638 Mark crypt_memory_lock() API call deprecated.
+         a4d8681ecd4a5f398cd1f752c6db0b0be46487ac Merge branch 'pkgconfig-requires' into 'main'
+         
