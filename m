@@ -1,20 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 19 Aug 2022 08:18:46 -0000
-Message-Id: <166089712635.1348.12022873011460703299@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6675154504177437532=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Fri, 19 Aug 2022 08:27:51 -0000
+Message-Id: <166089767126.8878.15094784275104512962@gitolite.kernel.org>
+
+--===============6675154504177437532==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1d5d50c277e459f4ccbb6e3db416dcb6eb2e2bc4
-    new: e86c5cedf30d9f3a51bf60163fdecc2c9479024f
-    log: |
-         9fbc6ec5d3ca478453727defb6f50a9c7ecba1a1 ci(lint): add shell linter - Differential ShellCheck
-         e86c5cedf30d9f3a51bf60163fdecc2c9479024f Merge branch 'master' of https://github.com/jamacku/util-linux
-         
+  - ref: refs/tags/v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
+
+--===============6675154504177437532==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mickaël Salaün <mic@digikod.net> 1660897669 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
+nonce 1660897669-aa3f47df7f2d13d18b2e4cd27c98f0465e204c69
+
+0000000000000000000000000000000000000000 2c1ad8d25ec27ecee5910b62b26b93074091a3e4 refs/tags/v5.19
+-----BEGIN PGP SIGNATURE-----
+
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYv9JhRAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSklAA/3WOZ/7bI5RyfjVtoiVf5iC6RRPH/CC6fqXv
+sOMWtuuhAP9e6lLFGmbQyBmnUVVLKC5hqGVQH6Pa24Nc9QSSXPr4Bw==
+=ab0R
+-----END PGP SIGNATURE-----
+
+--===============6675154504177437532==--
