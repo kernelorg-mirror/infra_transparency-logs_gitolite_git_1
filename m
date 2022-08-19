@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0295111066541443361=="
+Content-Type: multipart/mixed; boundary="===============6201639836608109094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 19 Aug 2022 17:20:06 -0000
-Message-Id: <166092960651.13101.15771952040581645693@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 17:21:22 -0000
+Message-Id: <166092968288.13617.8837604234535555754@gitolite.kernel.org>
 
---===============0295111066541443361==
+--===============6201639836608109094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: a617ccc01608c3f422c65da1b6c7a31057f46f62
     new: 4c2d0b039c5cc0112206a5b22431b577cb1c57ad
     log: revlist-a617ccc01608-4c2d0b039c5c.txt
 
---===============0295111066541443361==
+--===============6201639836608109094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -566,4 +566,4 @@ f4693b81ea3802d2c28c868e1639e580d0da2d1f net: moxa: MAC address reading, generat
 90b6b686c1e0273ce6d1724fab9b9651a276217e Merge tag 'linux-kselftest-next-6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 4c2d0b039c5cc0112206a5b22431b577cb1c57ad Merge tag 'net-6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0295111066541443361==--
+--===============6201639836608109094==--
