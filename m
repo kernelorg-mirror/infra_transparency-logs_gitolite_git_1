@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3212361096770171694=="
+Content-Type: multipart/mixed; boundary="===============8362450168196284337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 19 Aug 2022 16:42:25 -0000
-Message-Id: <166092734509.18089.15943735623010913865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 19 Aug 2022 16:43:18 -0000
+Message-Id: <166092739896.18508.18154749258050944040@gitolite.kernel.org>
 
---===============3212361096770171694==
+--===============8362450168196284337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7d4528dec49dc9a1109a5835f816b7245074d846
-    new: 90b3bee3a23249977852079b908270afc6ee03bb
-    log: revlist-7d4528dec49d-90b3bee3a232.txt
+  - ref: refs/heads/master
+    old: f4693b81ea3802d2c28c868e1639e580d0da2d1f
+    new: 4c2d0b039c5cc0112206a5b22431b577cb1c57ad
+    log: revlist-f4693b81ea38-4c2d0b039c5c.txt
 
---===============3212361096770171694==
+--===============8362450168196284337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d4528dec49d-90b3bee3a232.txt
+Content-Disposition: attachment; filename=revlist-f4693b81ea38-4c2d0b039c5c.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -235,9 +235,6 @@ d511e8a7e850db567cd7f633288aa96a19508e5b regulator: core: Fix missing error retu
 ec9e96b5230148294c7abcaf3a4c592d3720b62d nvme-fabrics: parse nvme connect Linux error codes
 c50cd03dbebd1d5d34a2eb361f315b0bd833d6c1 nvme-fabrics: Fix a typo in an error message
 2bff487f9a9085c9c877b55579b153691f0e5245 nvme-tcp: check if the queue is allocated before stopping it
-3400278328285a8c2f121904496aff5e7b610a01 netfilter: nf_tables: use READ_ONCE and WRITE_ONCE for shared generation id access
-4963674c2e71fc062f8f089f0f58ffbb5533060b netfilter: nf_tables: disallow NFTA_SET_ELEM_KEY_END with NFT_SET_ELEM_INTERVAL_END flag
-c485c35ff6783ccd12c160fcac6a0e504e83e0bf netfilter: nf_tables: possible module reference underflow in error path
 dcc2ed3912ae32fd6646264d1aa296ea3d2aa07c dt-bindings: Drop DT_MK_SCHEMA_FLAGS conditional selecting schema files
 f1432cd24c240cedf78c0d026631e3b10052c8e1 rtla: Fix tracer name
 ff5a55dcdb343e3db9b9fb08795b78544b032773 tools/rtla: Fix command symlinks
@@ -352,26 +349,17 @@ dde61c48303afae6d5db50fc2c9f7199413945e5 i2c: microchip-corei2c: fix erroneous l
 6de9eb21cd36151281c7f3e72fc9df18f5c6c083 Merge 'irq/loongarch', 'pci/ctrl/loongson' and 'pci/header-cleanup-immutable'
 93e530d2a1c4c0fcce45e01ae6c5c6287a08d3e3 vdpa/mlx5: Fix possible uninitialized return value
 cd83cd55878409299f4614c5138d24dffacc39bd Merge tag 'nvme-6.0-2022-08-11' of git://git.infradead.org/nvme into block-6.0
-a664375da76c6da8f83dc7997e43c568e1eb9a6a netfilter: nf_ct_sane: remove pseudo skb linearization
-f3e124c36f70d5ffcdd4e8bdbe7bb28a98a715c0 netfilter: nf_ct_h323: cap packet size at 64k
-c783a29c7e5934eabac2b760571489ad83bf4fd1 netfilter: nf_ct_ftp: prefer skb_linearize
-976bf59c69cd2e2c17f0ab20a14c0e700cba0f15 netfilter: nf_ct_irc: cap packet search space to 4k
 8eb060e10185cfc97ef0200d197ec246ba0f9f8c arch/riscv: add Zihintpause support
 e3a7c2947b9e01b9cedd3f67849c0ae95f0fadfa dm bufio: fix some cases where the code sleeps with spinlock held
-7fe05e125d5f730bd2d0fc53985bee77b6c762f0 ice: Fix VSI rebuild WARN_ON check for VF
 05b98fd2da6bdf241d3b9ba40582d60a84a89d70 cifs: Move cached-dir functions into a separate file
-cf90b74341eecc32ceef0c136954a1668e43b1e7 ice: Fix call trace with null VSI during VF reset
 357628e68f5c08ad578a718dc62a0031e06dbe91 RISC-V: kexec: Fixup use of smp_processor_id() in preemptible context
 59c026c359c30f116fef6ee958e24d04983efbb0 RISC-V: Fixup get incorrect user mode PC for kernel mode regs
 ad943893d5f1d0aeea892bf7b781cf8062b36d58 RISC-V: Fixup schedule out issue in machine_crash_shutdown()
 76ad33e1b95f3db7a2fb6c3141dc82a8d05f80dc riscv: traps_misaligned: do not duplicate stringify
-2024439bd5ceb145eeeb428b2a59e9b905153ac3 netfilter: nf_tables: fix scheduling-while-atomic splat
 f9293ad46d8ba9909187a37b7215324420ad4596 RISC-V: Add modules to virtual kernel memory layout dump
 da06cc5bb600bc671715076b5bdd9088c674dd01 RISC-V: fixups to work with crash tool
-0b2f3212b551a87fe936701fa0813032861a3308 netfilter: nfnetlink: re-enable conntrack expectation events
 788177e76589e6441d43691f1a075feec2e25962 riscv/purgatory: hard-code obj-y in Makefile
 d8357e3bf8f7aabd98bf4dc2709ee877b741cefc riscv/purgatory: Omit use of bin2c
-271c5ca826e0c3c53e0eb4032f8eaedea1ee391c netfilter: nf_tables: really skip inactive sets when allocating name
 3ed159c984079baedff740505d609badb8538e0d io_uring: fix error handling for io_uring_cmd
 da2634e89caa40d7546b0566ab80ff31567861c9 io_uring: consistently make use of io_notif_to_data()
 09992025dacd258c823f50e82db09d7ef06cdac4 spi: meson-spicc: add local pow2 clock ops to preserve rate between messages
@@ -450,33 +438,20 @@ dce6098b22d58e5b646b1c67174c53f5a6a05605 LoongArch: Add vDSO syscall __vdso_getc
 6e068820de9c912ebc6147f8149be130b0dabc39 docs/LoongArch: Add I14 description
 715355922212a3be8bfe5a94b5707a045ac6bf00 docs/zh_CN/LoongArch: Add I14 description
 b1c3497e604ddccea5af4071831ed0e4680fb35e x86/xen: Add support for HVMOP_set_evtchn_upcall_vector
-9f414eb409daf4f778f011cf8266d36896bb930b rds: add missing barrier to release_refill
 fc9be616bb8f3ed9cf560308f86904f5c06be205 xen-blkback: fix persistent grants negotiation
 e94c6101e151b019b8babc518ac2a6ada644a5a1 xen-blkback: Apply 'feature_persistent' parameter when connect
 402c43ea6b34a1b371ffeed9adf907402569eaf5 xen-blkfront: Apply 'feature_persistent' parameter when connect
 32ad11127b95236dfc52375f3707853194a7f4b4 xen/xenbus: fix return type in xenbus_file_read()
 ced3c74271bfedfb8e517c01b4dd7b9aad7020b0 xen/pciback: Fix comment typo
-86d2155e48f6ce1aacbd01667176e5b915ae275c skfp/h: fix repeated words in comments
-bfc48f1b0505ffcb03a6d749139b7577d6b81ae0 net/sunrpc: fix potential memory leaks in rpc_sysfs_xprt_state_change()
 aa6d1e5b502866a4364dfeb2cdecf7c258c400ee xen: remove XEN_SCRUB_PAGES in xen.config
 5ad3134dcf5201c4d51c981e52557939256b02c7 MAINTAINERS: add xen config fragments to XEN HYPERVISOR sections
-95bb633048fab742230eb2cdf20b8e2676240a54 virtio_net: fix endian-ness for RSS
-9221b2898a5877f7e15442ccee7a4e59c6f03f0d net: ipa: Fix comment typo
-0619d0fa6cedb32f0835e23ca774085128ccb2b8 bnx2x: Fix comment typo
-75d8620d46f00fcece574dd70ea36acfdfcf171b net: cxgb3: Fix comment typo
-40b4ac880e21d917da7f3752332fa57564a4c202 net: lan966x: fix checking for return value of platform_get_irq_byname()
 aa0c680c3aa96a5f9f160d90dd95402ad578e2b0 block: Do not call blk_put_queue() if gendisk allocation fails
 34575ded6874a9d228c1166243149c347a4012de perf build-id: Fix coding style, replace 8 spaces by tabs
 a072a7a0263ddc723305dfd975f931bcea4e4f5b perf build-id: Print debuginfod queries if -v option is used
 1bf7d836e57ba4943e33e163e730cd77ab837572 perf record: Improve error message of -p not_existing_pid
 9801002f76c63327cae6e90097d3d0afb1e1b562 perf: riscv_pmu{,_sbi}: Miscallenous improvement & fixes
-5a2f3dc31811e93be15522d9eb13ed61460b76c8 netfilter: nf_tables: validate NFTA_SET_ELEM_OBJREF based on NFT_SET_OBJECT flag
 8f5cb44b1bae8520c0705ce348b30ffb1fdda43a RISC-V: KVM: Support sstc extension
 9019b4f6d9bd88524ecd95420cf9cd4aaed7a125 wireguard: selftests: set CONFIG_NONPORTABLE on riscv32
-419831617ed349992c84344dbd9e627f9e68f842 iavf: Fix adminq error handling
-541a1af451b0cb3779e915d48d08efb17915207b iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
-31071173771e079f7bc08dacd61e0db913262fbf iavf: Fix reset error handling
-cbe9e51126305832cf407ee6bb556ce831488ffe iavf: Fix deadlock in initialization
 5cef38dd03f33ef206eb792df0fb3b200d762546 dt-bindings: gpio: sifive: add gpio-line-names
 f75f5d58099ffe0a70ae96dfeb837b5c46399da3 lib: remove lib/nodemask.c
 d16b418fac3de0d2ac854b3a9a1a59a0ebf2a0e9 Merge tag 'vfio-v6.0-rc1pt2' of https://github.com/awilliam/linux-vfio
@@ -501,12 +476,9 @@ e4fe2a2fc423cb51bfd36c14f95f3ca1d279ca92 MAINTAINERS: add PCI Endpoint NTB drive
 addebd9ac9ca0ef8b3764907bf8018e48caffc64 fs: don't randomize struct kiocb fields
 f2ccb5aed7bce1d8b3ed5b3385759a5509663028 io_uring: make io_kiocb_to_cmd() typesafe
 9c71d39aa0f40d4e6bfe14958045a42c722bd327 io_uring: add missing BUILD_BUG_ON() checks for new io_uring_sqe fields
-61d5e2a251fb20c2c5e998c3f1d52ed6d5360319 fec: Fix timer capture timing in `fec_ptp_enable_pps()`
-246bbf2f977ea36aaf41f5d24370fef433250728 net: dsa: mv88e6060: prevent crash on an unused port
 3d076fec5a0c3e66e1d8cb16015ea9a59b66ae1b Merge tag 'rtc-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 6c833c0581f1c15db2e0344da19360cba75a3351 Merge tag 'devicetree-fixes-for-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 69dac8e431af26173ca0a1ebc87054e01c585bcc Merge tag 'riscv-for-linus-5.20-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-777885673122b78b2abd2f1e428730961a786ff2 ip6_tunnel: Fix the type of functions
 099b157c08e8e8faa622d4bb70826ae179248fd4 perf jevent: Add an 'all' architecture argument
 f793ae185e27645ad83942ef6fffd901b8169941 perf jevents: Remove the type/version variables
 ee2ce6fdc8021979346f71056938c60335a7570c perf jevents: Provide path to JSON file on error
@@ -551,30 +523,13 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-68a838b84effb7b57ba7d50b1863fc6ae35a54ce net: qrtr: start MHI channel after endpoit creation
-66ba215cb51323e4e55e38fd5f250e0fae0cbc94 neigh: fix possible DoS due to net iface start/stop loop
-0ff4eb3d5ebbf72a7fc355e6001a0a6740662bf9 neighbour: make proxy_queue.qlen limit per-device
-27b8d4d7a0cf442b7a0351fecc33b714f4208324 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net -queue
-7396ba87f1edf549284869451665c7c4e74ecd4f net: fix potential refcount leak in ndisc_router_discovery()
-02799571714dc5dd6948824b9d080b44a295f695 net_sched: cls_route: disallow handle of 0
-12e091389b29cddf26279fdf182b13b3a1583d0d mlxsw: spectrum_ptp: Fix compilation warnings
-a159e986ad26d3f35c0157ac92760ba5e44e6785 mlxsw: spectrum: Clear PTP configuration after unregistering the netdevice
-d72fdef21f07540c6cbb8043cc93decd2a5d35dd mlxsw: spectrum_ptp: Protect PTP configuration with a mutex
-e01885c31bef7c2c5fcb79dc192039f25e300ded mlxsw: spectrum_ptp: Forbid PTP enablement only in RX or in TX
-5061e34c67446f73842391f9b3275e1be5491871 Merge branch 'mlxsw-fixes'
-88cccd908d51397f9754f89a937cd13fa59dee37 netfilter: nf_tables: NFTA_SET_ELEM_KEY_END requires concat and interval flags
-fc0ae524b5fd2938c94d56da3f749f11eb3273d5 netfilter: nf_tables: disallow NFT_SET_ELEM_CATCHALL and NFT_SET_ELEM_INTERVAL_END
 8535c239ac674f7ead0f2652932d35c52c4123b2 nios2: page fault et.al. are *not* restartable syscalls...
 45ec746c65097c25e77d24eae8fee0def5b6cc5d nios2: don't leave NULLs in sys_call_table[]
 25ba820ef36bdbaf9884adeac69b6e1821a7df76 nios2: traced syscall does need to check the syscall number
 2d631bd58fe0ea3e3350212e23c9aba1fb606514 nios2: fix syscall restart checks
 411a76b7219555c55867466c82d70ce928d6c9e1 nios2: restarts apply only to the first sigframe we build...
 fd0c153daad135d0ec1a53c5dbe6936a724d6ae1 nios2: add force_successful_syscall_return()
-1b6345d4160ecd3d04bd8cd75df90c67811e8cc9 netfilter: nf_tables: check NFT_SET_CONCAT flag if field_count is specified
 f1227dc7d0411ee9a9faaa1e80cfd9d6e5d6d63e selftests/landlock: fix broken include of linux/landlock.h
-3a12df22a8f68954a4ba48435c06b3d1791c87c4 net: moxa: pass pdev instead of ndev to DMA functions
-5b22f62724a0a09e00d301abf5b57b0c12be8a16 net: rtnetlink: fix module reference count leak issue in rtnetlink_rcv_msg
-ae806c7805571a9813e41bf6763dd08d0706f4ed Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 2e9ca760c289e1f992eb2cd053e217db7934ab0a virtio_net: Revert "virtio_net: set the default max ring size by find_vqs()"
 484b9fa4886bd9377969aad5e9ea17efda4ecda6 virtio: Revert "virtio: add helper virtio_find_vqs_ctx_size()"
 c62f61b58f6e41cab9c07557213b61d71e6b221c virtio-mmio: Revert "virtio_mmio: support the arg sizes of find_vqs()"
@@ -582,96 +537,17 @@ c62f61b58f6e41cab9c07557213b61d71e6b221c virtio-mmio: Revert "virtio_mmio: suppo
 9e82eb574c5d90a175ae830916af8b8a1ccc31e7 virtio_vdpa: Revert "virtio_vdpa: support the arg sizes of find_vqs()"
 9993a4f989c7ca5e227329b2878f65d05c9fc20f virtio: Revert "virtio: find_vqs() add arg sizes"
 5c669c4a4c6aa0489848093c93b8029f5c5c75ec virtio: kerneldocs fixes and enhancements
-2c6482091f01ba104cf8ee549aa5c717e80d43ea i40e: Fix tunnel checksum offload with fragmented traffic
-57c942bc3bef0970f0b21f8e0998e76a900ea80d i40e: Fix to stop tx_timeout recovery if GLOBR fails
 415d832497098030241605c52ea83d4e2cfa7879 locking/atomic: Make test_and_*_bit() ordered on failure
 c4e34dd99f2e3fdfc63584078ce0fed20f4e7386 x86: simplify load_unaligned_zeropad() implementation
 15df6486ae56f259650159340a495406f427b2ea Merge tag 'regulator-fix-v6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 339800d50b411d617fb3298d478921e6626032e7 Merge tag 'spi-fix-v6.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 3cc40a443a04d52b0c95255dce264068b01e9bfe Merge tag 'nios2_fixes_v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
-de64b6b6fb6f369840d171b7c5a9baf31b8b2630 net: sched: fix misuse of qcpu->backlog in gnet_stats_add_queue_cpu
-aa5762c34213aba7a72dc58e70601370805fa794 netfilter: conntrack: NF_CONNTRACK_PROCFS should no longer default to y
-b71b7bfeac38c7a21c423ddafb29aa6258949df8 testing: selftests: nft_flowtable.sh: use random netns names
-849f16bbfb686cf75e67c536d196027fa8bfc803 tls: rx: react to strparser initialization errors
-ed16d19c5f1d02908caf85c52a787de2eeeced2f Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-c8550b9077d271b9b4fbe5a9a260eb021f371c4f testing: selftests: nft_flowtable.sh: rework test to detect offload failure
 274a2eebf80c60246f9edd6ef8e9a095ad121264 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-ffa9ed86522f1c08d4face4e0a4ebf366037bf19 ice: Fix double VLAN error when entering promisc mode
-11e551a2efa4481bd4f616ab75374a2710b480e9 ice: Ignore EEXIST when setting promisc mode
-abddafd4585cc825d454da3cf308ad1226f6c554 ice: Fix clearing of promisc mode with bridge over bond
-79956b83ed4281c35561c39254558092d96a9ed1 ice: Ignore error message when setting same promiscuous mode
-664d4646184ed986f8195df684cc4660563fb02a ice: Fix VF not able to send tagged traffic with no VLAN filters
-36c0d935015766bf20d621c18313f17691bda5e3 net: dsa: microchip: ksz9477: fix fdb_dump last invalid entry
 ae2a823643d71f40751259266f7c2e7d90909662 dcache: move the DCACHE_OP_COMPARE case out of the __d_lookup_rcu loop
 3b06a2755758937add738545ba4a544fc5a1c56d Merge tag 'ntfs3_for_6.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
-fc4aaf9fb3c99bcb326d52f9d320ed5680bd1cee net: Fix suspicious RCU usage in bpf_sk_reuseport_detach()
-bec13ba9cef01cd37084d57608e7fa3d5a0b96d7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-fd8e899cdb5ecaf8e8ee73854a99e10807eef1de net: dsa: sja1105: fix buffer overflow in sja1105_setup_devlink_regions()
-211987f3ac734000ea1548784b2a4539a974fbc8 net: dsa: don't warn in dsa_port_set_state_now() when driver doesn't support it
-40d21c4565bce064c73a03b79a157a3493c518b9 net: dsa: felix: fix ethtool 256-511 and 512-1023 TX packet counters
-5152de7b79ab0be150f5966481b0c8f996192531 net: mscc: ocelot: fix incorrect ndo_get_stats64 packet counters
-173ca86618d751bd183456c9cdbb69952ba283c8 net: mscc: ocelot: fix address of SYS_COUNT_TX_AGING counter
-22d842e3efe56402c33b5e6e303bb71ce9bf9334 net: mscc: ocelot: turn stats_lock into a spinlock
-18d8e67df184081bc6ce6220a2dd965cfd3d7e6b net: mscc: ocelot: fix race between ndo_get_stats64 and ocelot_check_stats_work
-9190460084ddd0e9235f55eab0fdd5456b5f2fd5 net: mscc: ocelot: make struct ocelot_stat_layout array indexable
-d4c367650704de091d4c1f6bb379c0a5c389c73a net: mscc: ocelot: keep ocelot_stat_layout by reg address, not offset
-e780e3193e889fd8358b862f7cd18ec5a4901caf net: mscc: ocelot: report ndo_get_stats64 from the wraparound-resistant ocelot->stats
-5b6a07297bdca1701dc983bf084d6c0b2569ff18 Merge branch 'fixes-for-ocelot-driver-statistics'
-d515f38c1e6dac42db145a778bd87a241f89590c net/mlx5e: Allocate flow steering storage during uplink initialization
-a617ccc01608c3f422c65da1b6c7a31057f46f62 net: ethernet: mtk_eth_soc: fix possible NULL pointer dereference in mtk_xdp_run
 573ae4f13f630d6660008f1974c0a8a29c30e18a tee: add overflow check in register_shm_helper()
-5c23d6b717e4e956376f3852b90f58e262946b50 stmmac: intel: Add a missing clk_disable_unprepare() call in intel_eth_pci_remove()
-249801360db3dec4f73768c502192020bfddeacc net: genl: fix error path memory leak in policy dumping
-fb8d784b531e363171c7e22f4f0980b4b128a607 net: ethernet: altera: Add use of ethtool_op_get_ts_info
-8aa48ade7db4738bcc57447dccbf21db6618f64e dt-bindings: Fix incorrect "the the" corrections
-138d186252ef707fbc5b1dc9d32435083f339271 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-6faee3d4ee8be0f0367d0c3d826afb3571b7a5e0 igb: Add lock to avoid data race
-e9c6e79760265f019cde39d3f2c443dfbc1395b0 tcp: fix sock skb accounting in tcp_read_skb()
-c457985aaa92e1fda2ce837cabf90bf687b92dcb tcp: fix tcp_cleanup_rbuf() for tcp_read_skb()
-a8688821f3854f37fe0198b8945f9cfc051ab2cf tcp: refactor tcp_read_skb() a bit
-2e23acd99efacfd2a63cb9725afbc65e4e964fb7 tcp: handle pure FIN case correctly
-267ef48e06ca3fa3a2e6381e7b20475265c2dfce Merge branch 'tcp-some-bug-fixes-for-tcp_read_skb'
-f4693b81ea3802d2c28c868e1639e580d0da2d1f net: moxa: MAC address reading, generating, validity checking
-2e7f089914b94450d4c3b6408e22af3f016fc332 dt-bindings: net: ar803x: add disable-hibernation-mode propetry
-9ecf04016c87bcb33b44e24489d33618e2592f41 net: phy: at803x: add disable hibernation mode support
-aa447a8734f12f78a1ee6cd611e277cd4c33d773 Merge branch 'add-dt-property-to-disable-hibernation-mode'
 0de277d44e5b2c4dc823baf0236864ebb0658191 Merge tag 'trace-rtla-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 90b6b686c1e0273ce6d1724fab9b9651a276217e Merge tag 'linux-kselftest-next-6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 4c2d0b039c5cc0112206a5b22431b577cb1c57ad Merge tag 'net-6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-5d81757835859760a38a54a87eff856d4e578836 net: macsec: Expose MACSEC_SALT_LEN definition to user space
-a64bb2b0862302ab63e102a9a63345e6443d1290 net: ethernet: mtk_eth_soc: remove unused txd_pdma pointer in mtk_xdp_submit_frame
-2cd87cea78425e6b019e34e969dc008ce560acbf selftests: mlxsw: Add ingress RIF configuration test for 802.1D bridge
-3a5ddc886847d4cd84bd2ce7bbbfdb3fd5845678 selftests: mlxsw: Add ingress RIF configuration test for 802.1Q bridge
-cbeb6e1195d1f293a11534f5eeb7455af3c8f9d5 selftests: mlxsw: Add ingress RIF configuration test for VXLAN
-1623d5719fdff46620eb55c5d4f0cf8af1afcdb4 selftests: mlxsw: Add egress VID classification test
-bafe1adb2f0e7c01c2c0843975c2d1d227f29a70 Merge branch 'selftests-mlxsw-add-ordering-tests-for-unified-bridge-model'
-8c78c1e52b0b86bd282c41f3725beabe3c244b94 igc: add xdp frags support to ndo_xdp_xmit
-268603d79cc48dba671e9caf108fab32315b86a2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-4a5f7452a7ae23d4ca1940a78194b9d401539481 ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
-38bb7823203154dafc000b0f6dc2892043db8fee ixgbe: Manual AN-37 for troublesome link partners for X550 SFI
-1884f1238ea80dd4563c97e08fc6b0007069cca7 e1000e: Separate MTP board type from ADP
-81baf796b56895e1c99620b5607c5a60266c4877 ice: Remove ucast_shared
-f8dbf754b62fdb37dba92970baf08f380aebe442 ice: Add support for ip TTL & ToS offload
-82fba51cab4a1c32c91934f8d673a44ad5a0346c ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
-ad99393fc0e554d3b5d61df9d91599168e4b38df ice: Add low latency Tx timestamp read
-c4e060f5479d0a0f88935b5738f7ef29b46ab2ce ice: config netdev tc before setting queues number
-d8054fa9822420fa9e9b7f93441c4d3995e64015 igc: Remove IGC_MDIC_INT_EN definition
-6e41005accbf133d838ea173ec843c7323bc2d0c i40e: Fix ADQ rate limiting for PF
-d2f29b03b764f5daecfeba0a75d047e0939d7cd0 ice: Don't double unplug aux on peer initiated reset
-1a3f168aa0febe561f846e697e33d52f1ab9c882 ice: xsk: prohibit usage of non-balanced queue id
-945f345fd72d180e40e7807e509b1baa78b27350 ice: xsk: use Rx ring's XDP ring when picking NAPI context
-f88ba8f2777cde5bc4e1ab61d603924144f00b7a ice: Add port option admin queue commands
-e351eb740324228167935e63cc5c9cf44fd361d1 ice: Add additional flags to ice_nvm_write_activate
-3731eb5b6cb45752f45d225011db4239b197c2b9 ice: Implement devlink port split operations
-419de9d0a7dfce02d5b8f62c89ab52862d3c1164 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
-7919b9c3635e155bfc27f5eb39d3c2a62007f81c ice: Get DCBX config from LLDP MIB change event
-6d9c6515692f9c11aaa4407bb9b13e87eb80f2d3 ice: Handle LLDP MIB Pending change
-158b4a99d540dfae82e047eab5796ee0bcb9f22e ice: Allow 100M speeds for some devices
-434b0cce19bee444d3befb4e67aac1840130185f ice: remove non-inclusive language from codebase
-a5144b223ef31a18d0237f5eb7557c706103229e ice: Fix DMA mappings leak
-a31626e9fe73804131d02600efbb861a65e60a80 i40e: Fix kernel crash during module removal
-6e98a4835e69c5af095e80a5bb3e29195f95fb31 ice: use bitmap_free instead of devm_kfree
-44c697d7d1e2a31388aef4484a7510be86ae3ebf ice: Fix crash by keep old cfg when update TCs more than queues
-90b3bee3a23249977852079b908270afc6ee03bb ice: Print human-friendly PHY types
 
---===============3212361096770171694==--
+--===============8362450168196284337==--
