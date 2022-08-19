@@ -1,44 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0068985215558133351=="
+Content-Type: multipart/mixed; boundary="===============2412783437890017525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Fri, 19 Aug 2022 08:10:18 -0000
-Message-Id: <166089661868.29018.17308317298226711698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 19 Aug 2022 08:14:23 -0000
+Message-Id: <166089686397.30510.15505536621663402964@gitolite.kernel.org>
 
---===============0068985215558133351==
+--===============2412783437890017525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7b8cd3a55f0a460bc1311858760312baea0c4de1
-    new: 1d5d50c277e459f4ccbb6e3db416dcb6eb2e2bc4
-    log: revlist-7b8cd3a55f0a-1d5d50c277e4.txt
+  - ref: refs/heads/usb-next
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: ad57410d231da1fff3f53ff42ebcdc6d388e21d1
+    log: |
+         d80f4ecb95270d0ecd6646aca44f4c180d3140b0 usb: common: usb-conn-gpio: Simplify some error message
+         c82c2e5c7ad896a60d5b219a1aec185eb6116d4f dt-bindings: usb: Add MediaTek MT6370 TCPC
+         c2a8ea5997fdfeb43eda259d5533234c3cae05d7 usb: typec: tcpci_mt6370: Add MediaTek MT6370 tcpci driver
+         35a78bb83c310dd042b0a7fb8f397ed8973b768f usb: typec: ucsi: stm32g0: Fix spelling mistake "booloader" -> "bootloader"
+         ad57410d231da1fff3f53ff42ebcdc6d388e21d1 usb: gadget: rndis: use %u instead of %d to print u32 values
+         
 
---===============0068985215558133351==
+--===============2412783437890017525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b8cd3a55f0a-1d5d50c277e4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a9e36b094f2311fe330ac0bb955d89200d53363f lsfd: delete __unused__ attr from a used parameter
-7be720d5b6b91d9398edeaabbf0bbe7bf0558380 lsfd.1.adoc: use monospace face instead of italic face
-56599e4e26693942c31f6b7933f8b7708216d78e lsfd.1.adoc: fix typos
-b241363a53a5368f8eae0b917ee1a11f6605f882 lsfd.1.adoc: fix a wrong formatting
-d22b056836e93f3e52fa99a366269734b6c1fd14 lsfd.1.adoc: write more about TYPE column
-9a9c96b70c66d544550ec17176de71786340359f lsfd: introduce a method table for supporting various anon inodes
-7dc7b6f47aefdf4793c364b2e3402f9cec0524ec lsfd: add a helper function to get 'struct proc' object for given pid
-ba8c749fa54780a7d64bdb89f53ee9893b171401 lsfd: show pids targeted by pidfds in NAME column
-9cf3ae98df0d71b2d45135ade1293d4ed0c289a7 lsfd.1.adoc: write about how pidfds are represented in NAME column
-aa5adf24052677d65f8f2f985f22fd95b58991f6 meson: check for sys/pidfd.h
-3f5dd5fa812120764312a2326285e88b2be82c2f libblkid/src/topology/dm: close redundant write file description for pipe before reading data.
-ae92cbaaeb4e2b3ccefd098a1540bb29aba50586 Merge branch 'lsfd-pidfd' of https://github.com/masatake/util-linux
-852cc8d4327de0299866ef65ccfe372281e6a7c1 Merge branch 'meson-pidfd-header' of https://github.com/t-8ch/util-linux
-1d5d50c277e459f4ccbb6e3db416dcb6eb2e2bc4 Merge branch 'master' of https://github.com/jiayi0118/util-linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660896863 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1660896863-42d4b5528cc63bde49bb31dcd9da6c7dec7e2b4e
 
---===============0068985215558133351==--
+568035b01cfb107af8d2e4bd2fb9aea22cf5b868 ad57410d231da1fff3f53ff42ebcdc6d388e21d1 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/Rl8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WYEP/1q+zxa2ZQhD+75jxmUT
+w3y6QiueuQv411xhofHaezjNgwWTv98CLONRfW4MkZw+aRDX+W9NqrBoKPsreWui
+t6+FIlpoV6NPr2JHY3+o8z1jCtqO4hgBy2GOLe+mDorf2Uw755JJjGHj3wosac1n
+CxK1rI06t62G6Fvsd+wROwhGoNd/BLPp2eAda+MJhN34WOF8Q1BPkOiMMo0F2gU3
+uRrrEmJTuOJf+lcpDH+Az0gXkVVUiq6zhPk+J9d/T07Oy0aPN7yEifCjnRn5bciz
+RpG1JY9szVrrol4CF4heuD/vwGo7HJXIfZCMg+/WHI71Rn8Opv/17kjHhVKBu3CF
+UEbYNXE5rnDTEpmyXPXX2Or6Q3O447ICQA4nolJIY7W850D7npIK9bdgBplQxSfy
+j+AMuUvAKimqac2RGUvEz1+3f5VkEemIKAkLgIg9tvkEmH+n8v/CRTDEWuBf9bHu
+5b1YuGsruX+eFsJqccmNNYe/f5yevV53sxp86HfYeDeiNH5/i62YIiTVQnnFxktU
+2YkIc3TIA9SI0GU7kxVsncfyJoQc+unCAfQiv/GDHLIu03O7yF5r3eFKodxcOSoE
+7aqF2KpPI7RapI/rofGB/df6ZwNB+KvCqFd6aH5aSlfawSYZnXxc+7S17mHiKKUf
+Wg8w9SVzSYr5HBiYUVnfAYxu
+=O8A3
+-----END PGP SIGNATURE-----
+
+--===============2412783437890017525==--
