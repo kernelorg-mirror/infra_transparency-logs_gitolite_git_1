@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5776084424481047810=="
+Content-Type: multipart/mixed; boundary="===============9031870112710564018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 19 Aug 2022 22:53:21 -0000
-Message-Id: <166094960103.22210.12410358937984429021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 19 Aug 2022 23:25:36 -0000
+Message-Id: <166095153683.14432.5423563754118939501@gitolite.kernel.org>
 
---===============5776084424481047810==
+--===============9031870112710564018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mm-hotfixes-stable
-    old: 85b4ee53aaec281cbacc2040595232ead59b1e94
-    new: 4a6641e68a3e9bddfb3ad3c7e8a28ef5211eeb20
-    log: revlist-85b4ee53aaec-4a6641e68a3e.txt
+  - ref: refs/tags/powerpc-6.0-3
+    old: 0000000000000000000000000000000000000000
+    new: eb1f41b2ce602da3f6478a5de76669f5b7bba956
 
---===============5776084424481047810==
+--===============9031870112710564018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85b4ee53aaec-4a6641e68a3e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0330a2cefe3d8d9d29a1fdf2cf0a501a5904842a get_maintainer: add Alan to .get_maintainer.ignore
-3ae08ed81fd5dcae9ebb595b83141c5ce3661ece Revert "zram: remove double compression logic"
-250050b1f1651d6fe8c0458c1fd4302a1c726166 mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
-ddbeeb63e02d084f6431c26ac53afcf20ce395f5 kernel/sys_ni: add compat entry for fadvise64_64
-c5393b7a18bf95e3ed5a31bdc2f95050dee13ea7 mm: add DEVICE_ZONE to FOR_ALL_ZONES
-bc8469ff8d3fed6e137f7e7695f5a86e4e2cb57e mm/smaps: don't access young/dirty bit if pte unpresent
-ed300ad5b98caaf0a74ff20f7c63ae1838e2d3e8 mm/uffd: reset write protection when unregister with wp-mode
-de08c9adef9a3eab762136319ac99fa2f36dbb7f mm/hugetlb: fix hugetlb not supporting softdirty tracking
-e818c1ed96060f01a3fb370db9a57d4b258a3830 mm/hugetlb: support write-faults in shared mappings
-7ef1c37048e733a4de2f294c49e50da29d555861 mm/shmem: fix chattr fsflags support in tmpfs
-a1c6f00cdba3ed1b5885c9cbe4b4e54a169130a8 mm/shmem: tmpfs fallocate use file_modified()
-eb6233f7e2126af1c8713873f8c89d33241e8ba5 mm/shmem: shmem_replace_page() remember NR_SHMEM
-4a6641e68a3e9bddfb3ad3c7e8a28ef5211eeb20 kprobes: don't call disarm_kprobe() for disabled kprobes
+certificate version 0.1
+pusher Michael Ellerman <mpe@ellerman.id.au> 1660951535 +1000
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1660951535-8f6cf724cfc6e5079e3df29c4840e71ce5a4d19e
 
---===============5776084424481047810==--
+0000000000000000000000000000000000000000 eb1f41b2ce602da3f6478a5de76669f5b7bba956 refs/tags/powerpc-6.0-3
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmMAG+8THG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgBcOEACYDbNxA7fWaO/FsBs8+d8Tz6+O9eQG
+osSIcy3Y/ZvcMf+uOOWyUdjNQJAiQ0j25fximLWMxa3DyvXrJnLSwO8F+WRAYalj
+OHnFC/ZxjyG+pwAedkyPChujrduNBQK4w7IShFTjqykj65locpaTQUFPo/+kH5Xr
+eozGkJ7eWvujlRLgmND5Y1OC0vx1N7IKldBtrevQmQBS4kJWlQrWGiRmbc/Xlior
+QfEyVXsqiJKdWHPW/0P61zi7tfzoP8AuB/p2FkaKhhCA1LE5ZVjrXcZqnhu22M/j
+15DOregGHpOTGrTfYWbUzTfdTyCQOTgKO/dyMtCfDTsZIFDL0u1zvrBML9cTb+DO
+7L+rbe8sFd/iQInvqWMtbdI8eIIpKERoC6ndxTctcsCBfgV0BaSQ6Vzqnv8XcdF5
+rlGLmpXp/5lkXqDGi2esROBb5hQMhbQWpZyrQeUbe2QFLgYNSLNnm9jC28GaELQg
+lAYiQFQx39iwBlinL4FJ6QfLkSEK5wXFlyfkKmw1e5v9XI50x9MZXfWIpVKflPiw
+b9UOVYAfKiimZ8cvIqHf3Ny+cEP97gqIKm2qiaTj/TrkD9BdYhAunaQeqrPGPeee
+YwKIuM2WEQEzLnTaKsqZuHxUkyhrJaP/FrOIq7rNmQz7Fkj4GqxMWu0pgeGEs+Zo
+wB281YYrEOlSjg==
+=Gpgj
+-----END PGP SIGNATURE-----
+
+--===============9031870112710564018==--
