@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Fri, 19 Aug 2022 13:55:24 -0000
-Message-Id: <166091732409.28788.1961028825701073848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 19 Aug 2022 13:55:50 -0000
+Message-Id: <166091735041.29117.6636068366470454136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: 152a81a0b1204e9c7f4af0004b5ed7a8d67dd037
-    new: 9d9292576810d0b36897718c24dfbc1a2835314b
-    log: |
-         df805304a820ed10fc3d038dd64b85821c9ee606 dt-bindings: pinctrl: samsung: stop using bindings header with constants
-         9d9292576810d0b36897718c24dfbc1a2835314b dt-bindings: pinctrl: samsung: deprecate header with register constants
-         
+  - ref: refs/heads/x86/depthtracking
+    old: 0000000000000000000000000000000000000000
+    new: ae26e9ad74a5c4b43403db71e820c1a8f17ba16b
