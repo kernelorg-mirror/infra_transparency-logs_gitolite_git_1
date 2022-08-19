@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8216977995618851623=="
+Content-Type: multipart/mixed; boundary="===============5876256681007954370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 19 Aug 2022 14:49:43 -0000
-Message-Id: <166092058314.1250.9060395706812583014@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 14:49:44 -0000
+Message-Id: <166092058450.1362.5074401035251114635@gitolite.kernel.org>
 
---===============8216977995618851623==
+--===============5876256681007954370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,61 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.19.y
-    old: 4747adc39a9374e331d2ff0bf6ff652a40e987fc
-    new: f358be16365d840a038841edb72197f15af94d41
-    log: |
-         d9b13daf7a5c2a2cefcab7997ee8c9a126849446 Revert "mm: kfence: apply kmemleak_ignore_phys on early allocated pool"
-         782ecafcb56ca3aa6fe42f76e08f2d0ef80b6a22 tee: add overflow check in register_shm_helper()
-         1ab5d1674772503d5576b16b768226d5a3f5fc4f net_sched: cls_route: disallow handle of 0
-         0423d459c45878ae9949c7c6f7aa1d4a60e575a9 btrfs: only write the sectors in the vertical stripe which has data stripes
-         62d245c96b9443ae16b7325611f5c5e52ea87d3c btrfs: raid56: don't trust any cached sector in __raid56_parity_recover()
-         62a198a01d72739c4d9086c730d8ed401369f648 kexec, KEYS: make the code in bzImage64_verify_sig generic
-         8e16d95f06eb2a342c00b70e170538e55aceaea3 arm64: kexec_file: use more system keyrings to verify kernel image signature
-         f358be16365d840a038841edb72197f15af94d41 Linux 5.19.3-rc1
-         
+  - ref: refs/heads/linux-5.15.y
+    old: 9161553aed828c8d51cbf9ec07820a22a2b04f9e
+    new: 813e48a04492dec95eaf93c2ea4aae43a93324ec
+    log: revlist-9161553aed82-813e48a04492.txt
 
---===============8216977995618851623==
+--===============5876256681007954370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660920581 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660920583 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1660920579-a0509ba268654da0197a6d1622e20f2e3477be64
+nonce 1660920581-1cfb106ab768201aa0b95f357949e748c1e2cd84
 
-4747adc39a9374e331d2ff0bf6ff652a40e987fc f358be16365d840a038841edb72197f15af94d41 refs/heads/linux-5.19.y
+9161553aed828c8d51cbf9ec07820a22a2b04f9e 813e48a04492dec95eaf93c2ea4aae43a93324ec refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/owUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lpcQAMhNFbKlnx9ZMztVJ954
-UA0OhlmRZj5vFkAQ/4/B0f8/1fQ2pvMHu+PL3MfAWIu6B+et0XD60ZRpVtmnawD7
-DwhIcleJvbBLCuVIrm3M/21BS+8UKiAC/ukW9HjH938vbt8wbEPZBiQJFwzusJjv
-LgkKVIZa5/0dRpsCYojboKG6f7lUi1Y44CaU+AnYX0Bjsj5tP250cQPZ7Y5Fd10t
-iYBA7G5fhfUM9om6ji0a5ZcaQIxta6tC1nJY2zidj3a9MAYYTgzuDBXeWe3GOswX
-Fsfy5VZJHCCdBXZyoBFznYw7GwBWv0/Ti3ok2k1slR+1QYnnXz8qD8e/V/B69pJ8
-Jy+3JHCl+L0bja70HFJBj6E9CKtZ73XuZHiLbbUAHUcCTjvQTeZ8suJlduScTnR8
-b8eyDfVC4zmTcc2Skd9CzD+O+ZYF8xRv5d8GxNo5dC6TJYDZ+uImE/WwM0SUTuZb
-VSOK8xpQxHJ66ymL0igRZQ+QMTMJUJ2Rr8GYXyOv7K/l0gNaFLlr55hEwpDW1bC3
-RLNyxw3E+USc7W3AIRkd21nWyJiRO2N2z/LN2SIf0i80WbaK6atq+dJ/nnIq2w38
-j7w6erg3kEXiGxsu6WA9D06oSQgiLewBIkp3r60RR+QASIsxDKtMlt04ksuYeX23
-6CEnNKQvcb5HEPmDXLxqZXLI
-=epxi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/owcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wnUP/0Y3l0sZ2JHGo8imDyBy
+FwzZ2OHYSfjdImONUleP7InDXrD4c++gIQstGfz+jFptKkW1jsKKn+jvQ4NMKXR0
+rHzS3ic3bJgUt4EmUR8d5m2RCU6mLy4MfzQxgXoTp8s/hSzEMwbXc98KQfChPF9e
+tL+hxZfqIMqDm9IdqGz2JZKXJ9VNmW6imyjSxrg3VwpyHVxYVkcjxZcieGclM8ci
+hvfRH79uky7uyc7/R5wDHf+ni6mIeTTXxr3uJ7ybiLHPcPFfyfAqRtHY4hFrfQhs
+vR3tHczD/sPqoQopCMA5oIeX4QCin++0aeLPGuIY8Q6mm6Z6dURPoWapN/IiGXrM
+ZZ24V8LkrN0WodWa790kpTQkE3ywh4cBMbuZ8ETYPMMU/GiI2wFI1Rbo3/J9NZta
+u7c09LWEpqFnpdm6Q+i+D82P1dOyz7PwfM7F5dyDzzZ0pPOCCCvEJtZw7G01ttOp
+XRK0mBoQ4gq3iNEZx11vl1A9T/urvO6dbFEU6jdPBoN6xSDlia0wGL52jWfq3gBd
+Co3E82rMM+8zSQTpO6vysROybQk5jIO9MEprEIYI5Z8bMzMg1palTZ495ZcIPklg
+Xs1V6u9kj6yXxMlPzOkjyzbwlRmfK/UgDWHEor+h7CHqNXqdH4oW0SHmqRuLS7lH
+JHGgmJgcD4zGW5fBoYIVchLg
+=uNIr
 -----END PGP SIGNATURE-----
 
---===============8216977995618851623==--
+--===============5876256681007954370==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9161553aed82-813e48a04492.txt
+
+da932bd0fa000fc43da5594f72583640a2890cae io_uring: use original request task for inflight tracking
+d174a526cd360bc51bb788b9db1e6f8bce71c63b tee: add overflow check in register_shm_helper()
+011aa45c2ffa4932d1665aa18a68dbe54e2e71cf net_sched: cls_route: disallow handle of 0
+7cd1c91639c6e6a4cb7844eebb00515f41ace115 ksmbd: prevent out of bound read for SMB2_WRITE
+89dbc2a8077c99f40c0409d929cba8971bdc5a3f ksmbd: fix heap-based overflow in set_ntacl_dacl()
+23afb0dc275dfe10af8459d4ea47e8c20188b907 Revert "x86/ftrace: Use alternative RET encoding"
+c2210688713466c8d7f12626c70e40b38b7d8d42 x86/ibt,ftrace: Make function-graph play nice
+271fb1c3ae665f9fd83d710509f8d25a4fcecbfa x86/ftrace: Use alternative RET encoding
+a361032ce2501df94aa833e9075981794a8f8bd1 btrfs: only write the sectors in the vertical stripe which has data stripes
+97a3ab23687d780177bdf4498f5251dd4ef9cf50 btrfs: raid56: don't trust any cached sector in __raid56_parity_recover()
+56ac44513a4973787b4e11b26454881cfc2cf0f3 kexec_file: drop weak attribute from functions
+2bd346450fdfc584066f5969ff1e9e0e81a43047 kexec: clean up arch_kexec_kernel_verify_sig
+9b408efefaa0b1c9c456e1f44bbe624b82df76c6 kexec, KEYS: make the code in bzImage64_verify_sig generic
+f8f816b0c5a221f4739fa1da639ad54431f095ff arm64: kexec_file: use more system keyrings to verify kernel image signature
+813e48a04492dec95eaf93c2ea4aae43a93324ec Linux 5.15.62-rc1
+
+--===============5876256681007954370==--
