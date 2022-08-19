@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4369797015458396857=="
+Content-Type: multipart/mixed; boundary="===============4980009514711331006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 19 Aug 2022 11:40:14 -0000
-Message-Id: <166090921422.30276.8407243174262904674@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 11:40:34 -0000
+Message-Id: <166090923408.30469.10157590180489127674@gitolite.kernel.org>
 
---===============4369797015458396857==
+--===============4980009514711331006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 19a7cc817a380f7a412d7d76e145e9e2bc47e52f
     new: 372d07084593dc7a399bf9bee815711b1fb1bcf2
     log: revlist-19a7cc817a38-372d07084593.txt
 
---===============4369797015458396857==
+--===============4980009514711331006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1660909209 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1660909232 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1660909206-cedefa6f075cb4ff49ab0ef7aebc886d4df595a7
+nonce 1660909229-cab52f4e4789843570c96e37b85289a180edae15
 
-19a7cc817a380f7a412d7d76e145e9e2bc47e52f 372d07084593dc7a399bf9bee815711b1fb1bcf2 refs/heads/master
+19a7cc817a380f7a412d7d76e145e9e2bc47e52f 372d07084593dc7a399bf9bee815711b1fb1bcf2 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmL/dpkUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNNuwf8CoxjMje9yvueoAmro+9wcxsamfX9
-puXpF9iyO7MYLxpXsBwO3PnWDTEh/LibjEj0aLZ/9U5EfzsrFsZuWWmvLcc/5oxM
-imEJez7/5Drnb8lL7ZCl6zkAA2gQAuUqVnvFsl6V/uR2B1L66w0PfyG9i9ck6jGz
-G/vI0cHFQflJdHAEndrFfnfaFKMFWVzD827/mFZa2x2GgrwGow0EEy9JqWTuLAXj
-FEgDam7rQuoU9sGYXXUNbdE+GSYuXP0dJxhwvKuFXyeEb0JZj7sNX0Ah2aWuOyTM
-RgaCPPQUDadCIfresNvQlo2pNbCaeRjBzHdiLQd4t1tPXNxpdI1Lgfa7Yg==
-=iSbR
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmL/drAUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOjoQf8C2cmOL5JmLLIuc1t64vc43iNS+dA
+P0BYgLzDGsuIctSmvZLEiXrlvdhCnREnFkupPuKnlqH4uS2mqanJcK2nOmq8pUbe
+zPiR0FTaVh4ZqA4dnRy4t4BKIO2f8vyEpKjTWKmMZEjvxT6uw4rqLE+fIYKGtNH5
+9NsGhwGaF4zXC928sur4iUe5d9A8nispMSNSkoJfUPOtgAmMSl4pTxnVWIkG0mMA
+GGvapyZrACWvfmkFgiGnbISHd6mVf5FJ0bOoO/YBCOiupDOMfEFrNcBFeDx4JMMz
+HSbUdlwHI/z+RSeDSPBpxDE75yKVkpzHs9Mc0Y0RcTrfCoso8yqsUNhnSQ==
+=OBaV
 -----END PGP SIGNATURE-----
 
---===============4369797015458396857==
+--===============4980009514711331006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ b64d740ea7ddc929d97b28de4c0665f7d5db9e2a kvm: x86: mmu: Always flush TLBs when e
 67ef8664cc5b113f6c49b01d2a0e4cbc589623dd KVM: selftests: Fix KVM_EXCEPTION_MAGIC build with Clang
 372d07084593dc7a399bf9bee815711b1fb1bcf2 KVM: selftests: Fix ambiguous mov in KVM_ASM_SAFE()
 
---===============4369797015458396857==--
+--===============4980009514711331006==--
