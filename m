@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 19 Aug 2022 12:20:27 -0000
-Message-Id: <166091162721.26079.3901230481613097006@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 12:20:58 -0000
+Message-Id: <166091165846.26316.13081765512540552622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20220818_chunxu_li_asoc_mediatek_support_sof_for_mt8186
+  - ref: refs/heads/file4vQJoa
     old: 0000000000000000000000000000000000000000
-    new: 9398381a3904d8849691fb3ec173b48f077c185e
+    new: a74ec0bf5b67eae87317646571116ce4b4166d95
