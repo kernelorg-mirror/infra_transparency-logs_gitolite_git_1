@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8974596058514574344=="
+Content-Type: multipart/mixed; boundary="===============7139530923272953859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 19 Aug 2022 09:10:44 -0000
-Message-Id: <166090024459.7142.13138341816463628328@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 09:11:34 -0000
+Message-Id: <166090029435.7495.7447034166877341372@gitolite.kernel.org>
 
---===============8974596058514574344==
+--===============7139530923272953859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: b7db5733a5ace9acc1f3104c9050c5aa1363f13b
-    new: 4dce3b375179fdd4aba2191be11ace90ef0ec6d6
+  - ref: refs/heads/usb-linus
+    old: 6020f480004a80cdad4ae5ee180a231c4f65595b
+    new: f511aef2ebe5377d4c263842f2e0c0b8e274e8e5
     log: |
-         77bfa0fc7536e8fa7dc6f12081827e0edd75b0f9 phy: tegra: xusb: add utmi pad power on/down ops
-         a88520bfc0ec829973f92b7a1ab0f64eb9a20724 usb: gadget: tegra: Reduce pad power
-         4dce3b375179fdd4aba2191be11ace90ef0ec6d6 usb/hcd: Fix dma_map_sg error check
+         f511aef2ebe5377d4c263842f2e0c0b8e274e8e5 usb: gadget: f_uac2: fix superspeed transfer
          
 
---===============8974596058514574344==
+--===============7139530923272953859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660900241 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660900292 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1660900240-a1a90dd51859e201bfc1ecf54b11ce4d0276ad4f
+nonce 1660900291-6dec8e2eba4e4ffeebc0482864b29ff975d31b1f
 
-b7db5733a5ace9acc1f3104c9050c5aa1363f13b 4dce3b375179fdd4aba2191be11ace90ef0ec6d6 refs/heads/usb-testing
+6020f480004a80cdad4ae5ee180a231c4f65595b f511aef2ebe5377d4c263842f2e0c0b8e274e8e5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/U5EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yD4P/jfnBrctqRSAtNM2Dju+
-QHbGYGQUtHPGukApCK5FgljsB/IChRr/AAWsjJ2t0mzndgNla7dF4v9rcUxPwPfJ
-M0bc1oSJys+X7HcuqKZzZUsYcI6dq5LqwcdMy5cjV5xvhTclxP/wRYPbCxmDv50C
-4LQnezQzqU+LTj5kSqJyusDKNyCuNwNJ3/dJbNAJWVxBBwH3ZaNZPWfN53VjmYfX
-xVJZ16JBOeY2r9pjfXUP88+QBQPqLie9vsroW8fIoP1V78q5F8hMiBQeVjXG+MjJ
-cIzvbs918XQk5dU9yb9mAasjDv5OqHdhTfeTz41wy9niC5mJk8LGK+mJbvr7lHcv
-qGqMAimt9DdNKji4mDMaYmZJvS/ivTQhyfKjKQMxmaXBQnVz39Gpr/0xs1anZfqX
-zHqnpBi6HSpzYnc8r3LRgZsWWfJ7UvrInZ0tdF+nnmA3TB1ec5q1LE+KCwV1lu+3
-HMCy9tOZ0U1Jr6TOz6MDG5WIbI2ogjPJbdTan07RFCflV6GtUIVEPhFhWeZ8odp1
-Cwlj5C8b7QoA5kBnRczJ1gUpT258Ze2m9gfZbwDjXG9TQvClnhxmGJhZuZx06jS0
-9qhGRk9AGSotwBObYUjm3D1fOIuIix6D/oe1awc9HCfdNuWOov+HJoGXEJvfhqNC
-nHw1+IeoIIVz8vpQpTzXw83y
-=xP4Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/U8QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bc8P/3zmBuyYxWrYaATkc3BO
+XK7MJbhfO+J/lqGizVwu4Tt9RMfdz+/I9wzv3Thzj14dnkRekH2adacYWK2s1GUe
+pYEEznZulC6hEeubUyor4GRlUrqKE2rARRcsaerpGQW+hzX30W48ce07XpgoHrFV
+e0A8mUA5s6KAguOSJ+lo9RdTwJPzd+/lJeRsvDXbS5mLQjsIm+r1J9NygmF1HPjR
+ITqVn/skRNaa0p19NVbT+T0K1I4s1ZjzZUoGYLuSVzynpibZPKEw9PZwHQOzAzmS
+K3rJmMtMRCl8IJa5oIxhKAxtC9HrOn/vanOn3jmJeJMF6xHGZ8/fbjRlX9JfyESR
+NCXnMwCU76bxVukZrmSw6zmpAt4RZuDgdrjMps6QXc/DZBcVNgUfTGKVbxyOrs8V
+Spccl2LXKVuxMlVL/tj61Fpr49QYUIV4v0uezDEsnFnyLn6Eyu0KUD2Ae6VulHCb
+dujdd6I52sbpHRcirnbb0/UMOo5PSZMOXKX65GncgbRI/HDAv6fPVondi2puRvMN
+BJWpgSs0pNX/R5/Nk+zq1TCbzl7rDmb4BZww8EPD3csAmuZOU44C4k71eorlaqCA
+V/kdA4Ww8iNQUOcSVcuWq9gwJKWeVrHR7sDc53xAvAy4Sb6ghjGys6EfRgk0oo4B
+fmsI0BgzM1eNOyIl8lhsfIne
+=QWjZ
 -----END PGP SIGNATURE-----
 
---===============8974596058514574344==--
+--===============7139530923272953859==--
