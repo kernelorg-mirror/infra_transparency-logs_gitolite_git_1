@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 19 Aug 2022 11:08:26 -0000
-Message-Id: <166090730680.5077.18227720413806064732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 19 Aug 2022 11:25:40 -0000
+Message-Id: <166090834001.18654.5935809275927771755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/affs
-    old: 5abbb7b92820cf6ba9154a35cff6d64b62d7f273
-    new: 505ffcc852401aaac4dfb57c16bec0f7838c0e00
+  - ref: refs/heads/x86/urgent
+    old: 7df548840c496b0141fb2404b889c346380c2b22
+    new: 332924973725e8cdcc783c175f68cf7e162cb9e5
     log: |
-         505ffcc852401aaac4dfb57c16bec0f7838c0e00 affs: move from strlcpy with unused retval to strscpy
+         4e3aa9238277597c6c7624f302d81a7b568b6f2d x86/nospec: Unwreck the RSB stuffing
+         332924973725e8cdcc783c175f68cf7e162cb9e5 x86/nospec: Fix i386 RSB stuffing
          
