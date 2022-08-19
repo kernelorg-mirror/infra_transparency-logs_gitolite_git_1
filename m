@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1470887588038638032=="
+Content-Type: multipart/mixed; boundary="===============5821176528450525472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 19 Aug 2022 09:05:28 -0000
-Message-Id: <166089992853.3332.258937868592785307@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 09:08:46 -0000
+Message-Id: <166090012661.4532.9044275317445967060@gitolite.kernel.org>
 
---===============1470887588038638032==
+--===============5821176528450525472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: b6155eaf6b05e558218b44b88a6cad03f15a586c
-    new: e80cec306ac88f05d7d4c34e9309d38360ccec7d
+    old: e80cec306ac88f05d7d4c34e9309d38360ccec7d
+    new: c4c2fac94dd04d982676278123affdeb11c32a72
     log: |
-         b89bffa2efc9cee72454cae1ae08a8b437717b35 usb: dwc3: qcom: only parse 'maximum-speed' once
-         d75807ab9569f5d894b07821760147aef0f2be74 usb: dwc3: qcom: clean up icc init
-         a72095ed8e65c18edc718bcdbca7f61133ed8322 dt-bindings usb: typec: rt1711h: Add binding for Richtek RT1711H
-         3b77b27155647dda2edc7f347ecc3b2828978d52 usb: typec: tcpci_rt1711h: Fix vendor setting when set vconn
-         1e50ceb0397c14d7e934c65d862b499013847d9f usb: typec: tcpci_rt1711h: Add regulator support when source vbus
-         a2ed34df5a11bd054a6588584cad174d62707f6e usb: typec: tcpci_rt1711h: Add initial phy setting
-         24b5c2c824c526f5aff105463463cc15027b4cd2 usb: typec: tcpci_rt1711h: Add compatible id with rt1715
-         2c8cc0946c14c39b02748fba34325ecae636530a usb: typec: tcpci: Move function "tcpci_to_typec_cc" to common
-         e80cec306ac88f05d7d4c34e9309d38360ccec7d usb: typec: tcpci_rt1711h: Fix CC PHY noise filter of voltage level
+         3c3ce77c9dab7f9628a9a96e881d0afb50ed74a6 dt-bindings: usb: renesas, usb3-peri: Document RZ/V2M r9a09g011 support
+         b9f20cff54f76e5fdc5be3eb33286416b3494492 usb: gadget: udc: renesas_usb3: Add support for RZ/V2M
+         c4c2fac94dd04d982676278123affdeb11c32a72 USB: gadget: f_mass_storage: get rid of DEVICE_ATTR() usage
          
 
---===============1470887588038638032==
+--===============5821176528450525472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660899925 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660900123 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1660899925-069f49c62dbb753a0da82af789153daa6cd2952f
+nonce 1660900123-eabb73ed73112b57b15817f9c678e51b8973a3eb
 
-b6155eaf6b05e558218b44b88a6cad03f15a586c e80cec306ac88f05d7d4c34e9309d38360ccec7d refs/heads/usb-testing
+e80cec306ac88f05d7d4c34e9309d38360ccec7d c4c2fac94dd04d982676278123affdeb11c32a72 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/UlUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xrQQANZEOgJ5NexDKx2gYKAw
-j6sMrmUUw1DNpejfQKkVPUwKMc/fE+j+EyBtCcK8++qb2WkiGwFReik1s6Lz9IWD
-zOLiR9q4++YUJaeFWFKDoYgo6tD20Ib7Ti2CSzXIl/QNNfnJjOvvNtICUN9EoHbz
-sdiGrx0qZbqAQ5awSTR4X89tDxgzjW8ZEdRyNuRsG5cqe3veqASE9q6dRtMDO51e
-mpE7qL1PwpFiDGqUr2rZZULOCkscYTyY4DmKwA+MmeKeDd882ZfFyEia9fHFDgwL
-5mHPn5KsOIl23Z8ND40+pMxQGTBJ75y/idT1XuhKkaWynzPEBVVvGTiXFX6j4wtt
-5jnViG+5/Hlz30Aa+M8RkynbSKpYOjc7ycZza3zorjmkgplWteIhIk6J66MMQnnC
-hzGXOTI6slSaITQ7WV9fl6JwbvazCV6J21dZuuoDYxDQUjAzSsfoOWrPNIW3fBxv
-6Y5dApDgpigv0C2N48Lr+7oOmjVPDgiWQ3vTmtrstZxIbRKcaaP9q98GmM6Wn3WZ
-raFSQek8l9phJda8aWr6qXcktWVUq2u5GcNlREnbe5jvgQ9HTeEM8lnDGotYvqD9
-rzb/1o13R2weDxGBzOxNmwLS/jNjuR2Y+Tb9kT/JkH+/R6yU4k2HaCDFmKfuxPbN
-bd8T5YuihczAcEB2WpUcruwj
-=Gnfc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/UxsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/V8P/05cQCaU83iqbGeLZN+9
+TO7jaZ7R7tW5KdhiI+U+Wy8nqdRDlfLTItl6qWJ1u9Ohh6wcva0OaxqOiMMvuT1p
+T2biJacn/305XEO60Lzhy2KlgmheGORjQWJb1ZwHcN8QJY/qX4ZJXTLNlxoCE7aA
+E7MnlwS82r9b+RrZZ/hXhxt9XW+9SXVIiAUBP+WhkvrC3HUuqIclY/zzbOSA93Gk
+5KXskcOLMTDpzyxL9FiyYsjuA7evIheVQv4KQIv3Mfyyu6h4D1COidf1ez2FTivf
+E0HD6ZjXDzfdXV1829FXSAwPcDGKkrcjHj/hhX1JyVRK44MiwteVYSXUHn9H0FWL
+U2/415AbzZbfcwkD6ADYPOX4vaXL0UMPq5bo7L0pRjDnnjMS2GzKIRVnSym5uwiK
+cAQ6zdWY4yBMuyBGKRQ+6WgNoJ465r9PwYsGPl0zNczMh0DljAmy1Akph+adH4mB
+FKjj9FZiJf+NWXWyFCuj8aKNrKBg4RMnliw8xf2pbLcTsyHiVDXJeB6n/9gp/FYl
+JEAW10ZHOcSFTBVVhgHupmcUd5v+tdblhyACuLsMsyf68LYXrQeYnTl4fwuDRNwm
+jrZd7Oxn/3flUwM1Rt5J+WvBDR7U62BenjPN+cF/GZPRN0pqklDHTPoUZhQdOFwI
+Bbc5XHRH/Ij/53KdR0NWgKol
+=yAWP
 -----END PGP SIGNATURE-----
 
---===============1470887588038638032==--
+--===============5821176528450525472==--
