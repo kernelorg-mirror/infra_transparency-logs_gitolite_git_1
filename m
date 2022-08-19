@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 19 Aug 2022 23:56:02 -0000
-Message-Id: <166095336274.3811.4380411223805024276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 19 Aug 2022 23:58:05 -0000
+Message-Id: <166095348572.4592.16119009894653107564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: b690842d12fd6687c326663d69d5732de00c00f6
-    new: 917edfb98c480fec1dce95ece6707779905ca0b5
+  - ref: refs/heads/fixes
+    old: 5f4d1fd5b5d3506759b5d9cf20bb5fb5b8bdcab1
+    new: bdbf0617bbc3641af158d1aeffeebb1505f76263
     log: |
-         6745bc9b0351525e80cc7578e8ce22f83cfa3a84 amt: remove unnecessary skb pointer check
-         917edfb98c480fec1dce95ece6707779905ca0b5 net: prestera: add missing ABI compatibility check
+         bdbf0617bbc3641af158d1aeffeebb1505f76263 selftests/vm: fix inability to build any vm tests
          
