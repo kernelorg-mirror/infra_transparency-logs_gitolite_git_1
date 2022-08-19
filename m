@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5821176528450525472=="
+Content-Type: multipart/mixed; boundary="===============8695736013055354990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 19 Aug 2022 09:08:46 -0000
-Message-Id: <166090012661.4532.9044275317445967060@gitolite.kernel.org>
+Date: Fri, 19 Aug 2022 09:10:03 -0000
+Message-Id: <166090020302.6722.2880937199808665335@gitolite.kernel.org>
 
---===============5821176528450525472==
+--===============8695736013055354990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e80cec306ac88f05d7d4c34e9309d38360ccec7d
-    new: c4c2fac94dd04d982676278123affdeb11c32a72
+    old: c4c2fac94dd04d982676278123affdeb11c32a72
+    new: b7db5733a5ace9acc1f3104c9050c5aa1363f13b
     log: |
-         3c3ce77c9dab7f9628a9a96e881d0afb50ed74a6 dt-bindings: usb: renesas, usb3-peri: Document RZ/V2M r9a09g011 support
-         b9f20cff54f76e5fdc5be3eb33286416b3494492 usb: gadget: udc: renesas_usb3: Add support for RZ/V2M
-         c4c2fac94dd04d982676278123affdeb11c32a72 USB: gadget: f_mass_storage: get rid of DEVICE_ATTR() usage
+         b7db5733a5ace9acc1f3104c9050c5aa1363f13b usb: move from strlcpy with unused retval to strscpy
          
 
---===============5821176528450525472==
+--===============8695736013055354990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660900123 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1660900198 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1660900123-eabb73ed73112b57b15817f9c678e51b8973a3eb
+nonce 1660900197-8c5e97779349abecc2b969f8cbebb53ad0c8e706
 
-e80cec306ac88f05d7d4c34e9309d38360ccec7d c4c2fac94dd04d982676278123affdeb11c32a72 refs/heads/usb-testing
+c4c2fac94dd04d982676278123affdeb11c32a72 b7db5733a5ace9acc1f3104c9050c5aa1363f13b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/UxsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/V8P/05cQCaU83iqbGeLZN+9
-TO7jaZ7R7tW5KdhiI+U+Wy8nqdRDlfLTItl6qWJ1u9Ohh6wcva0OaxqOiMMvuT1p
-T2biJacn/305XEO60Lzhy2KlgmheGORjQWJb1ZwHcN8QJY/qX4ZJXTLNlxoCE7aA
-E7MnlwS82r9b+RrZZ/hXhxt9XW+9SXVIiAUBP+WhkvrC3HUuqIclY/zzbOSA93Gk
-5KXskcOLMTDpzyxL9FiyYsjuA7evIheVQv4KQIv3Mfyyu6h4D1COidf1ez2FTivf
-E0HD6ZjXDzfdXV1829FXSAwPcDGKkrcjHj/hhX1JyVRK44MiwteVYSXUHn9H0FWL
-U2/415AbzZbfcwkD6ADYPOX4vaXL0UMPq5bo7L0pRjDnnjMS2GzKIRVnSym5uwiK
-cAQ6zdWY4yBMuyBGKRQ+6WgNoJ465r9PwYsGPl0zNczMh0DljAmy1Akph+adH4mB
-FKjj9FZiJf+NWXWyFCuj8aKNrKBg4RMnliw8xf2pbLcTsyHiVDXJeB6n/9gp/FYl
-JEAW10ZHOcSFTBVVhgHupmcUd5v+tdblhyACuLsMsyf68LYXrQeYnTl4fwuDRNwm
-jrZd7Oxn/3flUwM1Rt5J+WvBDR7U62BenjPN+cF/GZPRN0pqklDHTPoUZhQdOFwI
-Bbc5XHRH/Ij/53KdR0NWgKol
-=yAWP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmL/U2YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mxoP/3OkDaprDZiN4qzdLbOi
+/FrfGqcRV+jLTZoeWTwmFtqYK8l5PMjspdkLJW6rktOjc0m/mUYOI8gLcQ/uwnX+
+TbxhkRjWRsQUeZZ+UtM4yZchWeSahXtdCZ+UjUVgSWRFqnYW7hCZpVuatjyIvt/U
+g3SB+s0ATch504KPNKOo8kx5ndv6EgkpqKj1XjSj4tNcGN2JE4z8GCvn2+qjJ9ij
+ZNoXVwwVLvW7p46vnA04JGhc6Gh6l7FUedYasCijLK/ZuCtMh/2ho4TJeUx1vl0S
+B3FzmsAacv3ZPAcfwVaojw6F8B1Mdc6N11mM80XlBVMUidgMLH7vsxAutzZROHak
+2Ep+xHZPiuW+5wHouP71MC7MKPL7gOYJb65tVq+PM3dHeG0UfZLXC8jgTFOKD748
+7jgk+1qFPqB5BrUAj1Tb6avdtR7g10IiY1gcA+hp2B21zoAQqqWy1F1G2a16oULj
+Kt3ILHHy3S4BWivQBuiu9AiCiM35vmYEMY3dPyHn4OLGjNtNrv0wsYjytCN9iFpw
+Ll2cDfBjaEqTmaXO0/YqbE94smp3u2QPUrHNW14kAv7uBEKwmZMi89LhXaDaupBg
+ZYMHFTvHutL4qheQEmv4jBWcPAMduhtTS9xiyoLt7FP04HLLBC//DyqRvl6MhslW
+mRCQ/fu14ZN5hC+uoBSxq61I
+=oldI
 -----END PGP SIGNATURE-----
 
---===============5821176528450525472==--
+--===============8695736013055354990==--
