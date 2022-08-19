@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 19 Aug 2022 19:52:29 -0000
-Message-Id: <166093874921.24392.11759616563962481932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 19 Aug 2022 19:52:50 -0000
+Message-Id: <166093877003.24573.7873941164210157403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: ae2b5c97cd40ab31d33d8c3ada46297280d8b039
-    new: a89e4b749aab943548c83b9434b3118d4f844e06
+    old: 60663d4af3ffb6f82e75a3a4bc73b8b8887a3353
+    new: 4999f80c1f56774b5511cf16b38600d016ed892b
     log: |
-         a89e4b749aab943548c83b9434b3118d4f844e06 Bluetooth: ISO: Fix not handling shutdown condition
+         4999f80c1f56774b5511cf16b38600d016ed892b iso-tester: Fix using shutdown(SHUT_RDWR)
          
