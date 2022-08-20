@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sat, 20 Aug 2022 01:36:42 -0000
-Message-Id: <166095940207.8921.5709165258523141849@gitolite.kernel.org>
+Date: Sat, 20 Aug 2022 02:00:21 -0000
+Message-Id: <166096082156.25950.14617304216396401989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/rostedt/linux-trace
 user: rostedt
 changes:
   - ref: refs/heads/ftrace/urgent
-    old: 4d0f3f2d683b7f86f8b2fcd7caf45e6bbbd7058c
-    new: 2b52a576dfd60fb9d818f7932322774f4d4757d4
+    old: 2b52a576dfd60fb9d818f7932322774f4d4757d4
+    new: bfea1e01f98809cf9a1cb8b98e8ee31ad20028c0
     log: |
-         94dc0e66c108fe670d06e92a4442b6d76306e32b tracing/eprobes: Do not allow eprobes to use $stack, or % for regs
-         2e7024f45d4eb9c54f87e988d0861089204f705f tracing/eprobes: Do not hardcode $comm as a string
-         7fe44b96895be67d38ac1b557700ecd8bd11ebb4 tracing/eprobes: Fix reading of string fields
-         2b52a576dfd60fb9d818f7932322774f4d4757d4 tracing/eprobes: Have event probes be consistent with kprobes and uprobes
+         bbdc31715c18a4e94b137e460cee3bfad3fb7d58 tracing/eprobes: Do not hardcode $comm as a string
+         67bafc1837b1721011229ae5649410a8ef586668 tracing/eprobes: Fix reading of string fields
+         bfea1e01f98809cf9a1cb8b98e8ee31ad20028c0 tracing/eprobes: Have event probes be consistent with kprobes and uprobes
          
