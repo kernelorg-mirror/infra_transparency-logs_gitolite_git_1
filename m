@@ -1,57 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============4728709612628217964=="
+Content-Type: multipart/mixed; boundary="===============9020424537860995201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 20 Aug 2022 18:22:12 -0000
-Message-Id: <166101973242.5298.10379246195157552524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 20 Aug 2022 18:23:14 -0000
+Message-Id: <166101979472.5734.10709547276942755129@gitolite.kernel.org>
 
---===============4728709612628217964==
+--===============9020424537860995201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c98c28b1d3288fa6c8c8e581debd8516ef6bc07c
-    new: d154afe760e78b76dfd1973d6cc647ea652f96ac
+  - ref: refs/heads/linux-5.15.y
+    old: b79f9f8ea7ab2be6f724e8cde6db2a3fb057f62e
+    new: decfb75fa34c3fc79f494f44b36d56d1d744edd5
     log: |
-         8cf5bbcb01a6d20a6dbd2e1ec32506bb2f328a26 drop the kexec patches from 5.15 queue
-         d154afe760e78b76dfd1973d6cc647ea652f96ac drop hwmon-sht15-fix-wrong-assumptions-in-device-remove-c.patch from 5.10 and older
+         f7458726da1bfffd503d4794b2074fd6b8d8c6bf io_uring: use original request task for inflight tracking
+         428adad72e5efeb9d3ef723387e94dcb7cd96d41 tee: add overflow check in register_shm_helper()
+         d02be0fda008b7586cdea643f334d7e115a05fa4 net_sched: cls_route: disallow handle of 0
+         e8c93e1cc904c1ec21d4dbb77284330b6d362b78 ksmbd: prevent out of bound read for SMB2_WRITE
+         b10e37a6e965bc6d1268bc58209e62c2c25fa05a ksmbd: fix heap-based overflow in set_ntacl_dacl()
+         000cc6c5720c0732b6d9bd6e51d217c45e9978f5 Revert "x86/ftrace: Use alternative RET encoding"
+         e90be6e4b3a7cd791f35bc2e8ce3cbfb51aafead x86/ibt,ftrace: Make function-graph play nice
+         41ccfd439bdef49418e31640214c228d9c4626ab x86/ftrace: Use alternative RET encoding
+         ebf85752cca886b13dae1b01e5231eb79ba2f4aa btrfs: only write the sectors in the vertical stripe which has data stripes
+         73c8b75f1ac2df861028912a076400e414439d68 btrfs: raid56: don't trust any cached sector in __raid56_parity_recover()
+         decfb75fa34c3fc79f494f44b36d56d1d744edd5 Linux 5.15.62-rc2
          
 
---===============4728709612628217964==
+--===============9020424537860995201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661019731 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1661019729-a8fb4a9c39a998186cf30718c3a45e72bed31d94
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661019793 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1661019790-2ed9c6cd905e6ab57188b00e9037382bad9b31c6
 
-c98c28b1d3288fa6c8c8e581debd8516ef6bc07c d154afe760e78b76dfd1973d6cc647ea652f96ac refs/heads/master
+b79f9f8ea7ab2be6f724e8cde6db2a3fb057f62e decfb75fa34c3fc79f494f44b36d56d1d744edd5 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMBJlMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dpoQANSgz6gWJs3nhPu4Z0fx
-fIYvUp3UOvi4RRzRCpWYdLi/A0SthwoALFsfrg1RFeOrkao6XdLRQg2OTbuf9XbA
-lQ3hmYXZ2dIQZgAavIo/B3LxXAKbYojzKdMHNE/7ZwN6+/ycH9c190Zat5AisxJb
-izDL9KFAMO54P2JnhNi2sT6JnfNP8NAmobXMDBNMtT4jSrbIeZbs475T7L9VSyqG
-Sa0V55vVOcCP/ObGvMhyDgx4Mvcf4J6eGXNg4awilF7jnyTxzeEjnnzAGwVg7xVp
-pN82bSM3jSQezGFThWZgv/9eLyIY3HfEZZgLUr6Qa3ymmXGHFRMJF+r3Cvmg1sEk
-QWmC/yjRVWd9qUJmBWBo8V+0da2CCAuPvgzG6qlwc0wbSTH4/wtvsu2mVSpbPKD8
-ONeM9tnWO+eUUWCN2pQAgIjkIqKjNoPHSWTh4aQdU7dQCthQ6qBa1hVqQfy6FC65
-A4eVD7sclMNJmMtRbPWB7ZoAcvWnfDb9q5bc9UgFTrCfloP47DeH50t2mgX212CH
-nRy6bBwjmF6n5QCvzQbcUWC1EDWFYPAkK792FosFC1Ydnq2Cvns3hX+5ekPA5y2V
-yzRSXOyEWd4+XoRz3lmXYw6mxS39FLdU6gEMWpK3sq96omqwa3yG5p6FunXLMk2O
-Gdcs6G72gj+y9A3Gp46KTQn2
-=BMCp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMBJpEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kEMP/jiRfE6a8RTuYrr4SqIs
+qwVyuT3XKC4NOK6pIp8RrTG4i6UpBlpXYj6fqydS9wIHQ3Ekie/myes6Djj1HEnj
+ScCS+XdKvWfZFDP1X8Znp7Hx5vJygvaY4HG5SLx03THCBAouEG1IaqI6VJAYJTjJ
+3qJCzTL12bzEifSQGGHdbv5JZuzcMO8LAptUZUYvuJ1+1yneuGHGkWmG8kqZoXvx
+/chcoFjB5TbD1vi/sOV0foEjxukmuKctXzvTn6eVvfPj/UhgbbXs7pbrXFSGHUoy
+rKdSy+A3gfXCD4VzWTWnVtEjdVUcIQrftJyzLF2Qge5/k4ivTlc+czy82Zp/crcQ
+hr8OY6MLhmrocQmRs4SevPPmvcxX8vKdo727ZarauYinNLJsMyRIQdSY8d+UQPW8
+pE8nozrsWf9W/tUp0/AfUPLrJjqeRCCf9GOW8SZmvpSzuw7ewLSYxxbue51iKs6U
+VnpeQhCz9spUNuIXG3xjEjCwkwFt+YEm+qZNyaQHIH6fTeUAND1jaIRfAYUbiX8H
+tLcrL1mYmd708MDY4pVQoJvnZh5QaO6LMJVZiWU011lHWN3dQZoasGL1RqMgMuiF
+JXbTJmtCXh0H0/xxdJwl/YpAKAoeWzbBnbAsmUlsY1Dg9DtWjIiLqUF6A60tNeuJ
+ZLm1hl94/1wuLsGV9eCqOOig
+=MSTO
 -----END PGP SIGNATURE-----
 
---===============4728709612628217964==--
+--===============9020424537860995201==--
