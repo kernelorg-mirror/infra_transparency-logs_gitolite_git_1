@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 20 Aug 2022 19:31:59 -0000
-Message-Id: <166102391942.23238.9710421597613577852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 20 Aug 2022 19:33:16 -0000
+Message-Id: <166102399653.23771.16319578014800365985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 116235730ca3a8b7a5b7e39b4e7750d30003f31a
-    new: 3c1fa57ef8dd4c974c21676c077f7e2abec0b16c
+  - ref: refs/heads/fscrypt-pending
+    old: 0539004dd47ab485db6d881d1c9862b9b22dc12a
+    new: 62897389ab14a1060a31a06d9e24861d372d21c9
     log: |
-         3c1fa57ef8dd4c974c21676c077f7e2abec0b16c Sat Aug 20 07:31:16 PM UTC 2022
+         ddcbc2900fd365e9cee103ad2c55dc258d0eec1f fscrypt: stop using keyrings subsystem for fscrypt_master_key
+         62897389ab14a1060a31a06d9e24861d372d21c9 fscrypt: stop holding extra request_queue references
          
