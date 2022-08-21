@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 21 Aug 2022 14:55:40 -0000
-Message-Id: <166109374040.28115.3534544899645818725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 21 Aug 2022 15:13:02 -0000
+Message-Id: <166109478211.6630.6095568249318442893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/v2022.08.21
-    old: 0000000000000000000000000000000000000000
-    new: 2969e280392053abe144c0ab32932983b1ca44a9
+  - ref: refs/heads/master
+    old: 7858a2777ced7cc22a369246a21ee2597278d65c
+    new: 305cbe1bfeabefc4fc74ba587fa316d784d0d524
+    log: |
+         305cbe1bfeabefc4fc74ba587fa316d784d0d524 _Generic.3: intmax_t can't be int
+         
