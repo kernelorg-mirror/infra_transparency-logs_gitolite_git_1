@@ -1,53 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0818227372712350485=="
+Content-Type: multipart/mixed; boundary="===============8479249727831125527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 21 Aug 2022 13:20:31 -0000
-Message-Id: <166108803165.27105.7375002448113596499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 21 Aug 2022 13:20:43 -0000
+Message-Id: <166108804337.27272.11927819391687910355@gitolite.kernel.org>
 
---===============0818227372712350485==
+--===============8479249727831125527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.19.3
-    old: 0000000000000000000000000000000000000000
-    new: b186c85045e4ab75bb6702fb0f82a7fa6f738b55
+  - ref: refs/heads/linux-5.19.y
+    old: d49914ee4ec93d58d90a12275a814415c189059c
+    new: bf44eed7f2fc9af74eb72f4bc415bdd3d11c4bed
+    log: |
+         daa821e54a74dcfee4f7194fb90faabd2d4ed4a9 Revert "mm: kfence: apply kmemleak_ignore_phys on early allocated pool"
+         58c008d4d398f792ca67f35650610864725518fd tee: add overflow check in register_shm_helper()
+         c811c98718bc27d10adc8fa60e5d8f8369831035 net_sched: cls_route: disallow handle of 0
+         16a621aaba12e236b345d886f7820fb56a20163d btrfs: only write the sectors in the vertical stripe which has data stripes
+         9f2ba6f2c52be368e7ab3699b72a3d829c36c062 btrfs: raid56: don't trust any cached sector in __raid56_parity_recover()
+         6871b2590a0fb367b751ae3dc243f1d26b82de03 kexec, KEYS: make the code in bzImage64_verify_sig generic
+         2d97167d5e37cf3f33d0d0cc37a2d9abd7e10c10 arm64: kexec_file: use more system keyrings to verify kernel image signature
+         bf44eed7f2fc9af74eb72f4bc415bdd3d11c4bed Linux 5.19.3
+         
 
---===============0818227372712350485==
+--===============8479249727831125527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661088031 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1661088029-c35668d909778aadf9823c132d1082cce30fca97
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661088042 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1661088038-62432ebc3d2b23f57eb3003d548073ce1c50f3c6
 
-0000000000000000000000000000000000000000 b186c85045e4ab75bb6702fb0f82a7fa6f738b55 refs/tags/v5.19.3
+d49914ee4ec93d58d90a12275a814415c189059c bf44eed7f2fc9af74eb72f4bc415bdd3d11c4bed refs/heads/linux-5.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMCMR8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FH8QAKY9fO1kkr5UbMLloToD
-jdVBUkT0Kovfj2RY5pXO/Fq5LHv2rhFIiFps60i1UbsdETtq0+cjNzNeje2H8VYE
-jE8QxWn7nT7MYxE43hhqJ9YySFZ/k2jQWniUtRBOYR93Zu92s+6QX70t1s4RX017
-c7DYlNx7Y7NaaTV3AobElcBZGk77yrtX48YIGsfsb54tJQgM8/VTRVMK5IuuFWfS
-zu3XOxLJlEoZnOU0E5pRwFePV5Lo7Bc0gW7S81rePS67oS8NY/PtDTEeKIo2v7Ze
-3yXRUxfmqkfJ6BPCIycDZh1stdTCIpSoyRhpOqf0a/j87ZkL+ZbkhLkkgAtoI1sd
-ALKSuZLpUaQnJFY3u57qC++ujEjcu/ExLDzduRYHdEkFclH0EMQc/yTsLzL6WLqf
-Irea0hqV/MCk+0NluCakUuUSxxBI6PUvD4tUt7+9LRA+wtQfy4xLMLNSm2S2YF3q
-J+pVYAxooz5LGSIRnrz+ivKiTsJ57hGcZtroRG6Cxrl7TuZGFmdeej2YvX3i2SjZ
-S4q0z545jpEVhYFr8xyXsU7gww1R39bRr7xfzX2EzU+e7eSUnCKHILNksWboZa5F
-0uwNRr+BFlBULdWKdJ06f+gGy1fy4KO+d8NtCS1P66AozHi2Gwmxrif3xLi72ukZ
-VpXRDT0fYlu/4cZKVnjyVMJW
-=4ig4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMCMSobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jkEQAJbbXtTyXqpKju0JQfWu
+oCqQk3yvuQMM+klicF/yiRXwZDj0IIDcomQzKydcMJsM6ZEwTIDC5X9Syn14OzTx
+b4MrlVaRmR02XW7MwRYvoO1+StLMY7pL11OIx2RmGRxydItoMt+gv7nHuWVXYMGg
+4e+Of61cfmr8l1I7ITGchxgOhUEyMQHdFqjt0p5tV57yTvQc35rghd/0qKzrR/u8
+IyiBOvC6wTkFvSokJ6ePFYWj4C3rMqXVSb/AmWZh9MoCOWsBeT4+JIq3w2K3hJvj
+eiGK9gDTq3M7e/nGg+fGvwyes70iW/dtQgHyPyCf8j0oeAiPzB8gRMNv6XZYflRn
+ZFsi9hxsIYJqtVoiiyZJB026z+zypF70P5UUWYVIxt1JWOOEA+n5oWFIkOglQ6DL
+/W7NxayCpEhSoO8uoChqSsEA9Gn56GyDwxloorOslG39UpEYS4JKGoxATxkPCAfS
+R7zVamoMFWKy7bAi+iysjXBpOHylj6lQKDiy4I+uan9O6uxrP7O7s+kp22JC+tJR
+ZglUWn5gRDWOg2iAQw5Uyisqb7/yeTtNwdlOa7Twd21ahIe+xDR5ojWkWZ6DeiGu
+mmijqvIirO2zK2HQWo43Lrjvs01Me9yuAdxmXRi7W0o7otDZJXLrSRUHRFx3Glfn
+BweUYbmwC/gXGIL+NeJE3rPf
+=/b6k
 -----END PGP SIGNATURE-----
 
---===============0818227372712350485==--
+--===============8479249727831125527==--
