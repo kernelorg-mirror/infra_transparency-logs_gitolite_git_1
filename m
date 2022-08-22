@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0828186599164824349=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 22 Aug 2022 15:31:20 -0000
-Message-Id: <166118228078.25054.9317967515600846953@gitolite.kernel.org>
-
---===============0828186599164824349==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 22 Aug 2022 15:31:24 -0000
+Message-Id: <166118228445.25128.9237013163262422958@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/spi-6.0
-    old: 46f7ac3d7892e808c9ba01c39da6bb85cda26ecd
-    new: 9ee5b6d53b8c99d13a47227e3b7052a1365556c9
+  - ref: refs/heads/perf/wip.cleanup
+    old: f74f0b6a455febbe890a39a115519b012063c719
+    new: 41f16ecf67123816d4cc60b5a6951e71d3ed13bd
     log: |
-         9ee5b6d53b8c99d13a47227e3b7052a1365556c9 spi: cadence-quadspi: Disable irqs during indirect reads
+         e241f61fa43a7abbee11ecfb9ec2ee9502275024 perf/x86: Add two more x86_pmu methods
+         2e4c1070588e22d05ff7390976a5581be74616b1 perf/x86/intel: Move the topdown stuff into the intel driver
+         2acdab015b379b3e2b8e5abfbcd7834672d2f91f perf/x86: Change x86_pmu::limit_period signature
+         c74331e886bccbd4857c3cd8f8c7ee2c6e9e8bea perf/x86: Add a x86_pmu::limit_period static_call
+         6973e568c878bd0d70952189967fb6ff9d33f00e perf/x86/intel: Remove x86_pmu::set_topdown_event_period
+         d7e5c073be9826fe1eb0f6be80422fc7060fa2d6 perf/x86/intel: Remove x86_pmu::update_topdown_event
+         d6cb83a5d2b5eebae7ef2230f98743e7cf68b667 perf/x86/p4: Remove perfctr_second_write quirk
+         0b43cc74f647a7a320de2dc018bf8373ff8a5dda perf/x86/intel: Optimize short PEBS counters
+         41f16ecf67123816d4cc60b5a6951e71d3ed13bd perf/x86/intel: Shadow MSR_ARCH_PERFMON_FIXED_CTR_CTRL
          
-
---===============0828186599164824349==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661182279 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661182279-2dd99d632b1829fde65f0abdebca81a7910f0c8d
-
-46f7ac3d7892e808c9ba01c39da6bb85cda26ecd 9ee5b6d53b8c99d13a47227e3b7052a1365556c9 refs/heads/spi-6.0
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMDoUcACgkQJNaLcl1U
-h9CfGwf/fZreZME4PR9djJzgLLKwxYwRNAa9vDtcbfqdwGbeqFPZbr9xbO23scbs
-1C+lc8bR7x1SYe2l3hiqeS18IO2gMqm83E7gu8cA85LarwLrttBZDd4LVktuwEme
-9CPKz4GpjiuDMvzsgdViZG25gdU3kJ+lZcRkdGNHOuK5ICFvi5SmcTgsZg6zE236
-vDxG00jT7OdhLBHRz7S2RWgMG2VYMXGWymqQavc+Q71Ab5ibOupiHKFYAiL272DU
-C8u0fEYiDzIDKMaKbvGjPcYKdHvhZPPSj0Yr2V1lDHHTBgG5Ia/S6uQbDzY7t3qf
-yNlwsxzbWCFFeNeveT+goUr6tBJ1Cw==
-=/mOm
------END PGP SIGNATURE-----
-
---===============0828186599164824349==--
