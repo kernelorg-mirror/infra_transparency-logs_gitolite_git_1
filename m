@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 22 Aug 2022 05:32:30 -0000
-Message-Id: <166114635036.29154.15164243988387288306@gitolite.kernel.org>
+Date: Mon, 22 Aug 2022 05:32:44 -0000
+Message-Id: <166114636409.29309.2423671051989048947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-rc
-    old: b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d
-    new: 56c310de0b4b3aca1c4fdd9c1093fc48372a7335
+  - ref: refs/heads/for-next
+    old: 13ad1125b941a5f257d9d3ae70485773abd34792
+    new: 2c34bb6dea481fa11048e26ffd1ce7400dbc2105
     log: |
-         b66905e04dc714825aa6cffb950e281b46bbeafe RDMA/rtrs-clt: Use the right sg_cnt after ib_dma_map_sg
-         56c310de0b4b3aca1c4fdd9c1093fc48372a7335 RDMA/rtrs-srv: Pass the correct number of entries for dma mapped SGL
+         5a93929d9f9a1d82946ddd49e260b6dd1756ad6d RDMA/rtrs-clt: Add event tracing support
+         c16762b7bf54d37ee441885279c4cd49e412ec5b RDMA/rtrs-srv: Add event tracing support
+         b722d3e63fcc95674bd4dd92bbbfb3bd9de12380 RDMA/rtrs-clt: Output sg index when warning on
+         dc13fbf79ec8f983fc398cd200ed12973f390957 RDMA/efa: Support CQ receive entries with source GID
+         2c34bb6dea481fa11048e26ffd1ce7400dbc2105 IB: move from strlcpy with unused retval to strscpy
          
