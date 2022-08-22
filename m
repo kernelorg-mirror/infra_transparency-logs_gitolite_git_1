@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 22 Aug 2022 11:16:01 -0000
-Message-Id: <166116696183.26372.17344669355345266529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Mon, 22 Aug 2022 11:16:42 -0000
+Message-Id: <166116700247.26701.1858569350643878945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-devel-2022-08-22-v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 36e035fb9eb461bc999d56fe504a836bd1e88c56
-  - ref: refs/tags/renesas-next-2022-08-22-v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ae612226ac36b8ec2a9eccc58b520f06dbdc4443
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/heads/renesas-clk
+    old: 32fb5425547bae46c0d61ec01de1422ffe6d4758
+    new: 57746e993442b9e143a262623e1da6c908d782e3
+    log: |
+         1e56ebc9872feb2cf9a002c0a23d79a68f6493cb clk: renesas: r8a779f0: Add TMU and parent SASYNC clocks
+         57746e993442b9e143a262623e1da6c908d782e3 clk: renesas: r9a07g044: Add conditional compilation for r9a07g044_cpg_info
+         
+  - ref: refs/heads/renesas-clk-for-v6.1
+    old: 32fb5425547bae46c0d61ec01de1422ffe6d4758
+    new: 57746e993442b9e143a262623e1da6c908d782e3
+    log: |
+         1e56ebc9872feb2cf9a002c0a23d79a68f6493cb clk: renesas: r8a779f0: Add TMU and parent SASYNC clocks
+         57746e993442b9e143a262623e1da6c908d782e3 clk: renesas: r9a07g044: Add conditional compilation for r9a07g044_cpg_info
+         
