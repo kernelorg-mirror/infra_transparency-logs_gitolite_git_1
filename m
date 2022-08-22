@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1720961812889130991=="
+Content-Type: multipart/mixed; boundary="===============8335746786359672294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 22 Aug 2022 11:07:38 -0000
-Message-Id: <166116645851.19854.9344616355386235515@gitolite.kernel.org>
+Date: Mon, 22 Aug 2022 11:07:53 -0000
+Message-Id: <166116647388.20015.6214150106016080079@gitolite.kernel.org>
 
---===============1720961812889130991==
+--===============8335746786359672294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 2b40f6f35c6138b0144546f15219e6e1d4903744
-    new: 63f1560930e4e1c4f6279b8ae715c9841fe1a6d3
-    log: revlist-2b40f6f35c61-63f1560930e4.txt
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/heads/next
+    old: 2de995a774db1089c44e3dbbd633ab516061e0b3
+    new: 6b77110b282c253808a9cc8b744e3ca2fa73c9a0
+    log: revlist-2de995a774db-6b77110b282c.txt
 
---===============1720961812889130991==
+--===============8335746786359672294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b40f6f35c61-63f1560930e4.txt
+Content-Disposition: attachment; filename=revlist-2de995a774db-6b77110b282c.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -456,5 +453,14 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 15c56208c79c340686869c31595c209d1431c5e8 mmc: core: Fix UHS-I SD 1.8V workaround branch
 63f1560930e4e1c4f6279b8ae715c9841fe1a6d3 mmc: core: Fix inconsistent sd3_bus_mode at UHS-I SD voltage switch failure
+44680a2862f3a5983234706ea01b7853d6e2f50b dt-bindings: mmc: Set maximum documented operating frequency as 384MHz
+0ca51360f901e47c01a5e57218863fce147edb6a mmc: sdhci-pci-o2micro: fix some SD cards compatibility issue at DDR50 mode
+fea1da00cf56d4cac32e96f5789110f1ef3d233a dt-bindings: mmc: mmc-spi-slot: drop unneeded spi-max-frequency
+b53b28ea0668f38db17dd5f6dde18f705e437bee dt-bindings: mmc: Add compatible for MT6795 Helio X10 SoC
+c478bd049e7b7a97517e7b099b7549bc166c462e dt-bindings: mmc: cdns: remove Piotr Sroka as a maintainer
+f2353c4385923b0d6d2897d9678a4a4c1c422e93 mmc: sdhci: Update MAINTAINERS Maintained -> Supported
+cdb43c0ae5c1325ad41233acbb4a81172f4765f5 dt-bindings: mmc: sdhci-msm: Document the SM6115 compatible
+2d9b70dc98e253e60f586ba0d1ab2273b2d36d72 Merge branch 'fixes' into next
+6b77110b282c253808a9cc8b744e3ca2fa73c9a0 mmc: core: Switch to basic workqueue API for sdio_irq_work
 
---===============1720961812889130991==--
+--===============8335746786359672294==--
