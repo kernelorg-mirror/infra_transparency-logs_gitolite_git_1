@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2622838228939510347=="
+Content-Type: multipart/mixed; boundary="===============9144418747377752955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 22 Aug 2022 06:33:47 -0000
-Message-Id: <166115002750.6383.1849846131572750852@gitolite.kernel.org>
+Date: Mon, 22 Aug 2022 06:33:57 -0000
+Message-Id: <166115003748.6528.9059218066438221572@gitolite.kernel.org>
 
---===============2622838228939510347==
+--===============9144418747377752955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
-    old: a111daf0c53ae91e71fd2bfe7497862d14132e3e
+  - ref: refs/heads/usb-linus
+    old: ff6992735ade75aae3e35d16b17da1008d753d28
     new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    log: revlist-a111daf0c53a-1c23f9e627a7.txt
+    log: revlist-ff6992735ade-1c23f9e627a7.txt
 
---===============2622838228939510347==
+--===============9144418747377752955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a111daf0c53a-1c23f9e627a7.txt
+Content-Disposition: attachment; filename=revlist-ff6992735ade-1c23f9e627a7.txt
 
 79b7e67bb9747e621ff1b646a125fbea26e08d56 Merge tag 'for-linus-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
@@ -1051,4 +1051,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 
---===============2622838228939510347==--
+--===============9144418747377752955==--
