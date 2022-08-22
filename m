@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 22 Aug 2022 17:37:30 -0000
-Message-Id: <166118985055.19803.7621472485800594489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Mon, 22 Aug 2022 17:39:22 -0000
+Message-Id: <166118996231.20526.11317265534768262011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/for-next/scmi
-    old: 45a909fcc53f66724ee1288521ee305291881a7b
-    new: 857ab5c7604c1b803c71d8f3a490fe8549930f7b
+  - ref: refs/heads/master
+    old: 9be6cfa930c28e5063d18ce3e9a6d3fdf851f332
+    new: b5b4d4e47a6d47a8e5ff6db83959096909617060
     log: |
-         857ab5c7604c1b803c71d8f3a490fe8549930f7b firmware: arm_scmi: Harmonize SCMI tracing message format
+         b5b4d4e47a6d47a8e5ff6db83959096909617060 install-kconfig: fix config file searching for N.0 kernel versions
          
