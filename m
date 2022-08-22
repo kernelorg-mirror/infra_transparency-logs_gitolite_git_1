@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1606048770237912092=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 22 Aug 2022 12:49:02 -0000
-Message-Id: <166117254211.27013.4858579802648557341@gitolite.kernel.org>
-
---===============1606048770237912092==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 22 Aug 2022 12:50:09 -0000
+Message-Id: <166117260935.28988.6561430517718380198@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 55d5559fd8094fb68727a838b77c0e9aaccb0152
-    new: 4101a7bc972de5bfe816855d85ce5e9070dadee1
+    old: d04807b80691c6041ca8e3dcf1870d1bf1082c22
+    new: 5b247d938feaa04e05ac24c2241448fad9132e26
     log: |
-         4101a7bc972de5bfe816855d85ce5e9070dadee1 5.19-stable patches
+         5e61fe157a27afc7c0d4f7bcbceefdca536c015f net: phy: Introduce QUSGMII PHY mode
+         0932b12a7496fd3f9f4bd9c7de2c19a8ec9a01e9 dt-bindings: net: ethernet-controller: add QUSGMII mode
+         c04ade27cb7b952b6b9b9a0efa0a6129cc63f2ae net: phy: Add helper to derive the number of ports from a phy mode
+         ac0167fb9961ea929e17fad2d703cc1a14dfb7a9 net: lan966x: Add QUSGMII support for lan966x
+         5b247d938feaa04e05ac24c2241448fad9132e26 Merge branch 'net-phy-QUSGMII'
          
-
---===============1606048770237912092==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661172541 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1661172539-4f33376862e85eab505df732eb0001cd90856a9f
-
-55d5559fd8094fb68727a838b77c0e9aaccb0152 4101a7bc972de5bfe816855d85ce5e9070dadee1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMDez0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DwMQAI9iFfHyxBVKGogmkBiH
-j8tSsBdd3k6CQN9USJyPlf5+SqTHBYolY4jqZ3llcCO8ks12ogmojR+8Lundjb28
-D1QUAFllVEUsSZ4X0OTjt58z+Wz2nxP3m6kQpUX0+t531+2rMfjtMZ9RdjpVJ32u
-YToISx9CbRR9XBrwGNgMpI0V92qGN498rJRzfqw+KDGJMl2XDrGxYPgeLw4aLWey
-+kfzGE8wajzeHir5dbdCXVevVOvgbENuaOeWDJOrhHTA8aO2vYtba3TVM2D5LQIf
-W46DAYSxTa30T5CU5DdWWQ0GX+GHDw+Cu6EAgtC3zT1gn6LK/68NOAmlRV2tPmnk
-OSRH373eRvvz8ZK4l9TjW2VrGkJiyNw610NQKkUyhLHj8WiTddIuzYMry8tG2WGq
-sZkE/E0dnPhkpDbvkuTQ4LuqvNdI6t2kNE8xf70ZGkfFuozAq5jnLfUptqnjxiYb
-VqgBaFYE7dpYVvsKkBIHdUobhodIfPStkY4xIcQ7Tk2S6LjXTQHAsxznqTs5Hegr
-Ntd1IIO1OgrN78vL6kD3htMFPis7vDTC644cFRzKPdQ714Rd1dUuY3F1JCCDha8s
-DJraubuRAu18kEtd/C0nYPNzzfBoS1uE2g/davUif5p7G8HoOL1q/t4zVeuvybC6
-fiVm2NwFC6OMUG3rJ3lY8uwt
-=B8DD
------END PGP SIGNATURE-----
-
---===============1606048770237912092==--
