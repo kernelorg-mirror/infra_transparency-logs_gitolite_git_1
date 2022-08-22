@@ -1,38 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8421041638666234055=="
+Content-Type: multipart/mixed; boundary="===============7939649957356079124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 22 Aug 2022 12:32:37 -0000
-Message-Id: <166117155744.16409.5720792234991634277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 22 Aug 2022 12:32:54 -0000
+Message-Id: <166117157463.16599.14561595198370232686@gitolite.kernel.org>
 
---===============8421041638666234055==
+--===============7939649957356079124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
     log: revlist-568035b01cfb-1c23f9e627a7.txt
-  - ref: refs/heads/rdma-next
-    old: 4320b084b9047a5eb52a5cbc3cfe1801517866ad
-    new: 7273ffb33efb682dd1a533f9a93916fedf7b595c
-    log: revlist-4320b084b904-7273ffb33efb.txt
-  - ref: refs/heads/rdma-rc
-    old: 643ed4611b0ffd89c1ffcca0ae94a579f0b247b6
-    new: a86c55374b5cf6aca6994945388b5ec41c048e36
-    log: |
-         b66905e04dc714825aa6cffb950e281b46bbeafe RDMA/rtrs-clt: Use the right sg_cnt after ib_dma_map_sg
-         56c310de0b4b3aca1c4fdd9c1093fc48372a7335 RDMA/rtrs-srv: Pass the correct number of entries for dma mapped SGL
-         a86c55374b5cf6aca6994945388b5ec41c048e36 RDMA/cma: Allow UD qp_type to join multicast only
-         
 
---===============8421041638666234055==
+--===============7939649957356079124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -469,41 +457,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 
---===============8421041638666234055==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4320b084b904-7273ffb33efb.txt
-
-5a93929d9f9a1d82946ddd49e260b6dd1756ad6d RDMA/rtrs-clt: Add event tracing support
-c16762b7bf54d37ee441885279c4cd49e412ec5b RDMA/rtrs-srv: Add event tracing support
-b722d3e63fcc95674bd4dd92bbbfb3bd9de12380 RDMA/rtrs-clt: Output sg index when warning on
-dc13fbf79ec8f983fc398cd200ed12973f390957 RDMA/efa: Support CQ receive entries with source GID
-2c34bb6dea481fa11048e26ffd1ce7400dbc2105 IB: move from strlcpy with unused retval to strscpy
-ce79766c5bf4889c2f57593797a984ed25b02206 net/sched: Don't print dump stack in event of transmission timeout
-764011fb78971c73317f017a69274b8cef73bec2 RDMA/core: Introduce peer memory interface
-77f2bfe8cc9ad14dceba309224f36e7ebff6edad net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
-9f62d3cf95a6bd7b0facafa7b1b649b68b33cb7b RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-fabeedbffe733e45468a7aa905c458d8ada619f8 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-82e58cdc8f4568e2fa92f737b8475b70219aa1bc net/mlx5: Introduce ifc bits for page tracker
-0c12626569a076859b8d7b4121a23dbd038d8103 net/mlx5: Query ADV_VIRTUALIZATION capabilities
-59c8fa5a438fe8a303c3bea45e24f073b55b6569 vfio: Introduce DMA logging uAPIs
-2ea536544b8120413594de8d7c99eb9c33337597 vfio: Add an IOVA bitmap support
-9c0c81caa277db317a8e28385dd8d472cf49299f vfio: Introduce the DMA logging feature support
-e62b587c02df69621a7b8dd8e4b186143dc0185f vfio/mlx5: Init QP based resources for dirty tracking
-95fbc2e1140d3663aee2ca87cce62dc5173023b1 vfio/mlx5: Create and destroy page tracker object
-fbf1cae3c73c405222614d00351253cecdc6522c vfio/mlx5: Report dirty pages from tracker
-2ef68bddf4b66d0236b77a899f33ade7886cb3ea vfio/mlx5: Manage error scenarios on tracker
-541e4f7d14caf6185572ddb41187cae0a131d0f9 vfio/mlx5: Set the driver DMA logging callbacks
-bfd535aa720b2869a4a4d5bd5c25ea3de3b603b2 net/mlx5: Introduce ifc bits for migratable
-8682fd0a6547d21d7113ddc3eb26f8368da8ab67 vfio/mlx5: Set VF as migratable
-48b625a6ee2a8ec22501bbfb499f63708ecbfefa RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
-a6621fe51a912ba6a8fd8192e5fb2b87cae5b888 RDMA/mlx5: Move function mlx5_core_query_ib_ppcnt() to mlx5_ib
-1e8363c3851d43316e88e3ceba610946a21b74be RDMA/mlx5: Set local port to one when accessing counters
-2480382b1d0e40317775cc9a58933276370380a7 RDMA/mlx5: Fix UMR cleanup on error flow of driver init
-bb8f261b0da6582805bf142dd432fe1104018dca IB/core: Fix a nested dead lock as part of ODP flow
-74eb51fbd1d7584e2b663f98f25b03894e3a97dd RDMA/cma: Fix arguments order in net device validation
-49627a08c9b2e0229013a28fa81609f58b13d236 mm: re-allow pinning of zero pfns (again)
-7273ffb33efb682dd1a533f9a93916fedf7b595c NFS: unlink/rmdir shouldn't call d_delete() twice on ENOENT
-
---===============8421041638666234055==--
+--===============7939649957356079124==--
