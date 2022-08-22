@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4506614432749101139=="
+Content-Type: multipart/mixed; boundary="===============1967430955572313855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 22 Aug 2022 18:21:03 -0000
-Message-Id: <166119246376.18324.11757232051915138253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 22 Aug 2022 18:46:49 -0000
+Message-Id: <166119400971.3712.2407376534505812509@gitolite.kernel.org>
 
---===============4506614432749101139==
+--===============1967430955572313855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: dd6379ef7a0ed8108fb074e2ffd51f396433a786
-    new: 4172f9ecd2ef59a26c647729b3b9310acc4e36bd
-    log: revlist-dd6379ef7a0e-4172f9ecd2ef.txt
+  - ref: refs/heads/master
+    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
+    new: 072e51356cd5a4a1c12c1020bc054c99b98333df
+    log: revlist-1c23f9e627a7-072e51356cd5.txt
 
---===============4506614432749101139==
+--===============1967430955572313855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd6379ef7a0e-4172f9ecd2ef.txt
+Content-Disposition: attachment; filename=revlist-1c23f9e627a7-072e51356cd5.txt
 
-4019ac0d878b2862589f9cc22568c80aedc12c0c btrfs: fix the max chunk size and stripe length calculation
-5eb590b4e663a1dcd21ad106cd42638667558421 Merge branch 'misc-6.0' into for-next-current-v5.19-20220822
-523dad1ccd5963c70c085f62aa190869874bee45 Merge branch 'misc-next' into for-next-next-v6.0-20220822
-2706f592cd6f14e750df9aa8d360bdde8168277c Merge branch 'ext/anand/replace-suspend' into for-next-next-v6.0-20220822
-57159f0634ec12b022a9ae4d6d5093e6ea50647d Merge branch 'ext/josef/lockdep-assert' into for-next-next-v6.0-20220822
-3290f1e3b2b1dcb77474d7359f15de340d59364e Merge branch 'ext/qu/sb-thaw-check' into for-next-next-v6.0-20220822
-32a4a315d8376fad5207d4760cd4fa7c4041a743 Merge branch 'ext/qu/cache-used' into for-next-next-v6.0-20220822
-1f0e2e3807f45dbfe2c23a48ac1b289fd04aa86e Merge branch 'ext/hch/io-completion' into for-next-next-v6.0-20220822
-14da43280c67609289b1b9d2f9bd257d3a313261 Merge branch 'ext/qu/qgroup-thresh' into for-next-next-v6.0-20220822
-7a84e6cf2bbb4b87112f5d148cdacf02e5441c26 Merge branch 'ext/qu/max-chunk-size-fix' into for-next-next-v6.0-20220822
-32fab395851df22df96c933677b05fbb06df51d9 Merge branch 'for-next-current-v5.19-20220822' into for-next-20220822
-4172f9ecd2ef59a26c647729b3b9310acc4e36bd Merge branch 'for-next-next-v6.0-20220822' into for-next-20220822
+2067231a9e2cbbcae0a4aca6ac36ff2dd6a7b701 NFS: Fix missing unlock in nfs_unlink()
+67f4b5dc49913abcdb5cc736e73674e2f352f81d NFS: Fix another fsync() issue after a server reboot
+edf79efcc9d0cf38fcc1efe688fd697b9bb0ddc4 NFS: Remove a bogus flag setting in pnfs_write_done_resend_to_mds
+5f6277a0c15e1ea54b6fd3d78c9fff7bfe42556c NFS: Cleanup to remove unused flag NFS_CONTEXT_RESEND_WRITES
+abfcf55d8b07a990589301bc64d82a5d26680956 acl: handle idmapped mounts for idmapped filesystems
+ddc84c90538e1fdb0721cd41c313944c38449a34 MAINTAINERS: update idmapping tree
+bf1ac16edf6770a92bc75cf2373f1f9feea398a4 fs: require CAP_SYS_ADMIN in target namespace for idmapped mounts
+932c29a10d5d0bba63b9f505a8ec1e3ce8c02542 locks: Fix dropped call to ->fl_release_private()
+f16857e62bac60786104c020ad7c86e2163b2c5b NFS: unlink/rmdir shouldn't call d_delete() twice on ENOENT
+fcfc8be1e9cf2f12b50dce8b579b3ae54443a014 NFSv4.2 fix problems with __nfs42_ssc_open
+ed06fce0b034b2e25bd93430f5c4cbb28036cc1a SUNRPC: RPC level errors should set task->tk_rpc_status
+0c3bc7899e6dfb52df1c46118a5a670ae619645f ntfs: fix acl handling
+cfd2b5c1106fa20254d9f24970232cdf24860005 perf tools: Fix compile error for x86
+b20ee4813f3fe79f5ee227c576a55c2df5d59078 Merge tag 'filelock-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
+d3cd67d671eea1f0d3860996863bd95e1e0b1c76 Merge tag 'fs.idmapped.fixes.v6.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
+072e51356cd5a4a1c12c1020bc054c99b98333df Merge tag 'nfs-for-5.20-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============4506614432749101139==--
+--===============1967430955572313855==--
