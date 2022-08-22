@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8278085729003402892=="
+Content-Type: multipart/mixed; boundary="===============7119551534295453805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 22 Aug 2022 16:58:17 -0000
-Message-Id: <166118749725.23799.14195205603883842449@gitolite.kernel.org>
+Date: Mon, 22 Aug 2022 17:02:35 -0000
+Message-Id: <166118775527.27129.15732945307691418946@gitolite.kernel.org>
 
---===============8278085729003402892==
+--===============7119551534295453805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,48 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 5d5d353bed32dc3ea52e2619e0d1c60b17133b91
-    new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    log: revlist-5d5d353bed32-1c23f9e627a7.txt
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: b9442c86eac959e20abb900442e6cc31d2d775d4
-  - ref: refs/tags/v5.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2235bc49f8edfaafc6269344aa80e6400931a4af
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+    new: 5004fbf9aac2c834a49a283ab1b79daf369f0615
+    log: revlist-5d5d353bed32-5004fbf9aac2.txt
 
---===============8278085729003402892==
+--===============7119551534295453805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d5d353bed32-1c23f9e627a7.txt
+Content-Disposition: attachment; filename=revlist-5d5d353bed32-5004fbf9aac2.txt
 
-4ae97cae07e15d41e5c0ebabba64c6eefdeb0bbe nfp: ethtool: fix the display error of `ethtool -m DEVNAME`
-b0a4ab7ca4ce993d1cc51cbc85e9f341c729a3d4 iommu/hyper-v: Use helper instead of directly accessing affinity
-e260cfe6fb503292f183a43b51177664b222435d irqchip/loongson-eiointc: Fix irq affinity setting
-54cfa910b443b3d90b3e00bd96cdf563a285390b irqchip/loongson-eiointc: Fix a build warning
-30bdc36b8c776cd4fce5de2a96ff28b37f96942f drm/imx/dcss: get rid of HPD warning message
-a25efd6ef1ef4c32991a1d5a013dd41e3b8f7eff Revert "Kbuild, lto, workaround: Don't warn for initcall_reference in modpost"
-072dd2c8928f2ecdc52cdf5acf30479b327386c9 modpost: shorten warning messages in report_sec_mismatch()
 7452dd26a59a9dfcde3f179594f3be6c4752a9a9 modpost: add PATTERNS() helper macro
 1560cb0e186e83f0572a84d22e139c100060905c modpost: remove unneeded .symbol_white_list initializers
 672fb6740cbfde34f4d367ffa3c939b608a927e1 modpost: remove .symbol_white_list field entirely
@@ -1074,5 +1043,12 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
+ce3293f45e36a5d044d0ce6a8032528c94a4cab3 f2fs: LFS mode does not support ATGC
+ee4c6d4e0c9f0843a1e6dc54c2f1b51827973ee4 f2fs: fix wrong continue condition in GC
+2749c39483a2e38411900eecc73582c5bab6eb84 f2fs: use memcpy_{to,from}_page() where possible
+bb29317c5ed0e0027f496738265b0f2c9c56f9fc f2fs: iostat: support accounting compressed IO
+b8753fbdde09d7c6af9814adcf13d53cb78cd7d3 f2fs: remove gc_urgent_high_limited for cleanup
+32ed3a806d024cf809c8c69fed91ba074862a870 f2fs: flush pending checkpoints when freezing super
+5004fbf9aac2c834a49a283ab1b79daf369f0615 f2fs: complete checkpoints during remount
 
---===============8278085729003402892==--
+--===============7119551534295453805==--
