@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 22 Aug 2022 22:55:43 -0000
-Message-Id: <166120894398.21909.2674645903577109199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Mon, 22 Aug 2022 22:59:19 -0000
+Message-Id: <166120915917.23192.7085040718832614893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/next
-    old: d6c952893b1bbea9000b5fe2ba374fd56bf272d8
-    new: de2423445fa59a6ebbf6f1fba764f30818204348
-    log: |
-         de2423445fa59a6ebbf6f1fba764f30818204348 pahole: Prep 1.24
-         
+  - ref: refs/tags/mm-everything-2022-08-22-22-59
+    old: 0000000000000000000000000000000000000000
+    new: 4c36875d094ea15602e8e309ff5cd6bfc4d52aec
