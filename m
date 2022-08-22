@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4314437084629216172=="
+Content-Type: multipart/mixed; boundary="===============7500777952234606084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 22 Aug 2022 20:56:28 -0000
-Message-Id: <166120178831.31621.2350883713797559742@gitolite.kernel.org>
+Date: Mon, 22 Aug 2022 20:56:48 -0000
+Message-Id: <166120180886.31810.13360854835570679714@gitolite.kernel.org>
 
---===============4314437084629216172==
+--===============7500777952234606084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: 012e8d2034f1bda8863435cd589636e618d6a659
     new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
     log: revlist-012e8d2034f1-1c23f9e627a7.txt
 
---===============4314437084629216172==
+--===============7500777952234606084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 
---===============4314437084629216172==--
+--===============7500777952234606084==--
