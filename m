@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 22 Aug 2022 10:28:12 -0000
-Message-Id: <166116409232.24494.10764204146530657345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 22 Aug 2022 10:30:09 -0000
+Message-Id: <166116420902.26768.5008755891595349316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 626043658a24ae404fea82b98df5357cc35d4c6a
-    new: 5d1424d85ac9e2a1369ee920038825c154ee5443
+  - ref: refs/tags/efi-loongarch-for-v6.1
+    old: 8dc9413cb6403d5c227b081e6ca7bac3e6f0948f
+    new: 82f5709c54ad5734db42075eed302e8599ff1edb
     log: |
-         5d1424d85ac9e2a1369ee920038825c154ee5443 libuuid: check clock value from LIBUUID_CLOCK_FILE
+         2ee7b844c6162f6a2d44ca2370c56e98356056af efi/loongarch: Add efistub booting support
          
