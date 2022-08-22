@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Mon, 22 Aug 2022 21:35:01 -0000
-Message-Id: <166120410153.27124.12550756717820903453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 22 Aug 2022 21:38:00 -0000
+Message-Id: <166120428025.29729.9938184051099587903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: daa86d6634761796ada1f535c13e47fdd3cc95eb
-    new: 239b3cc0b5da87e966746533b1873c439db54b16
+  - ref: refs/heads/dev-queue
+    old: b2d88b9504fdac756b70a2c1ac53be6e29a5858b
+    new: 36e882deed3872f7aab5f1d8d003b28167d1e9bf
     log: |
-         239b3cc0b5da87e966746533b1873c439db54b16 mdadm: Replace obsolete usleep with nanosleep
+         0c6328229eacd100433a483c9e10a5c138f0c4f3 i40e: Fix incorrect address type for IPv6 flow rules
+         36e882deed3872f7aab5f1d8d003b28167d1e9bf iavf: Fix race between iavf_close and iavf_reset_task
          
