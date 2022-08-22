@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6546322852074031203=="
+Content-Type: multipart/mixed; boundary="===============8440133726870613430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 22 Aug 2022 19:08:21 -0000
-Message-Id: <166119530140.18661.18409982758109570644@gitolite.kernel.org>
+Date: Mon, 22 Aug 2022 19:08:32 -0000
+Message-Id: <166119531264.18792.6198908417644749237@gitolite.kernel.org>
 
---===============6546322852074031203==
+--===============8440133726870613430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 268603d79cc48dba671e9caf108fab32315b86a2
-    new: 704438dd4f030c1b3d28a2a9c8f182c32d9b6bc4
-    log: revlist-268603d79cc4-704438dd4f03.txt
+  - ref: refs/heads/dev-queue
+    old: 90b3bee3a23249977852079b908270afc6ee03bb
+    new: b2d88b9504fdac756b70a2c1ac53be6e29a5858b
+    log: revlist-90b3bee3a232-b2d88b9504fd.txt
 
---===============6546322852074031203==
+--===============8440133726870613430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-268603d79cc4-704438dd4f03.txt
+Content-Disposition: attachment; filename=revlist-90b3bee3a232-b2d88b9504fd.txt
 
 bf294c3feafebe59a8ad67daa69784258d48ad72 Revert "Merge branch 'wwan-t7xx-fw-flashing-and-coredump-support'"
 ee8433da085ecec3b75a9d0082e754eb932588d3 dt-bindings: net: Convert FMan MAC bindings to yaml
@@ -70,5 +70,31 @@ b455dbd9c581c511f4ae24113fb6c350231bf274 Merge branch 'lan966x-lag-support'
 1202cdd665315c525b5237e96e0bedc76d7e754f Remove DECnet support from kernel
 105b0468d7b2e6779a188a83b7e128368acb8a1d net: freescale: xgmac: Do not dereference fwnode in struct device
 704438dd4f030c1b3d28a2a9c8f182c32d9b6bc4 net: prestera: cache port state for non-phylink ports too
+34c81a754a8f260f450d11e1a865bd0e73b0287a ixgbe: Don't call kmap() on page allocated with GFP_ATOMIC
+5a2fe82d9e42ced70eae8015887699c4f3ea3225 ixgbe: Manual AN-37 for troublesome link partners for X550 SFI
+d38e2e6919a5a34282df002445e8604ca048295b e1000e: Separate MTP board type from ADP
+9f84473f4c19b4feed5779d87cec111d3376fece ice: Remove ucast_shared
+cdec447c7169ec643f53ddfa25c5db24a15cea7a ice: Add support for ip TTL & ToS offload
+95c1369fa7c36cfe42a9086729a5afda507cb028 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+c9331225714732422af5e9ea93f47c3b69a27094 ice: Add low latency Tx timestamp read
+5d1f6fa7c08f21ef6570bc4b33b521025b8499fa ice: config netdev tc before setting queues number
+28dc4f84d351b4822ac9685e4da731b70f17a068 igc: Remove IGC_MDIC_INT_EN definition
+52858e1c8af240f1940e3d78c060e555ee0df521 i40e: Fix ADQ rate limiting for PF
+055f236897c84cc58ae0374430a56e717091adb3 ice: Don't double unplug aux on peer initiated reset
+814f28dcc6f2402b455ba98a0b81164503d5b8aa ice: xsk: prohibit usage of non-balanced queue id
+87590df981bcb775a60612565c5602996ab5b9d4 ice: xsk: use Rx ring's XDP ring when picking NAPI context
+6a37171f4bd8db74c1fbe91f9dae928bbbe1220d ice: Add port option admin queue commands
+c69ee3db24bfb1cd9338465587921629ff7371cd ice: Add additional flags to ice_nvm_write_activate
+893efa5474a1b2737e2b3ddf115be464a81f94f7 ice: Implement devlink port split operations
+5c01c42525adf01ce5d98a7c13bdbd2f3ac7e0db ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+49b277cbc7f9197fe36f1a3964978c4804f00191 ice: Get DCBX config from LLDP MIB change event
+f189f255c75f04a77e91793949b5c15c5c0f8612 ice: Handle LLDP MIB Pending change
+8b4c1d7b9cf81f5cbb0436eb50aa81497996e2d1 ice: Allow 100M speeds for some devices
+00b4715279037d1679bab90692350a174eecb26f ice: remove non-inclusive language from codebase
+7640de5b468891a020afb5f7d197e0e86425e603 ice: Fix DMA mappings leak
+a40167f008cd77d6fae9e94f7cfe7f6cafe75428 i40e: Fix kernel crash during module removal
+4023a1d4e8720ef63cf823385947c61c499ac992 ice: use bitmap_free instead of devm_kfree
+e09947b32483bfe2835f6d1787976b424a10d4f8 ice: Fix crash by keep old cfg when update TCs more than queues
+b2d88b9504fdac756b70a2c1ac53be6e29a5858b ice: Print human-friendly PHY types
 
---===============6546322852074031203==--
+--===============8440133726870613430==--
