@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 23 Aug 2022 20:51:39 -0000
-Message-Id: <166128789962.11374.3820202684838007343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Tue, 23 Aug 2022 20:58:39 -0000
+Message-Id: <166128831908.16670.7346280774752792162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/for-next
-    old: d6513727c2af39a8cffb0d9b07376e51a85f347f
-    new: 92ec1cc3784a2a8a7a62596dcec4f2224b85dcf4
+  - ref: refs/heads/master
+    old: 915c3c1e0573632c057185a3153b03d9b04989a0
+    new: a83e199da0ca954f7f0d63756d6eea108caf107f
     log: |
-         fd0a38f9c37d539f5603f887cdb637a4e6e6944d scripts/bpf: Set version attribute for bpf-helpers(7) man page
-         92ec1cc3784a2a8a7a62596dcec4f2224b85dcf4 scripts/bpf: Set date attribute for bpf-helpers(7) man page
+         a83e199da0ca954f7f0d63756d6eea108caf107f tune2fs: Add support for get/set UUID ioctls.
+         
+  - ref: refs/heads/next
+    old: 915c3c1e0573632c057185a3153b03d9b04989a0
+    new: a83e199da0ca954f7f0d63756d6eea108caf107f
+    log: |
+         a83e199da0ca954f7f0d63756d6eea108caf107f tune2fs: Add support for get/set UUID ioctls.
          
