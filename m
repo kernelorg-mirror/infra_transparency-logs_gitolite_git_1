@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6723280742135933555=="
+Content-Type: multipart/mixed; boundary="===============0888818555285553644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 23 Aug 2022 12:36:09 -0000
-Message-Id: <166125816929.11667.3859485046910965982@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 12:36:28 -0000
+Message-Id: <166125818803.11880.17482069690825360276@gitolite.kernel.org>
 
---===============6723280742135933555==
+--===============0888818555285553644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    log: revlist-f2906aa86338-1c23f9e627a7.txt
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/heads/v6.0-armsoc/dtsfixes
-    old: 0000000000000000000000000000000000000000
-    new: 388f9f0a7ff84b7890a24499a3a1fea0cad21373
-  - ref: refs/heads/v6.1-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-  - ref: refs/heads/v6.1-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: db7ad41538439a3dcfebd738959c7526b4e7d528
+  - ref: refs/heads/for-next
+    old: 2e1170c71ec0c0fb785ce76fca7c682e930af2b8
+    new: a6eeda46092dcb3efe247525a986b207d1d1133f
+    log: revlist-2e1170c71ec0-a6eeda46092d.txt
 
---===============6723280742135933555==
+--===============0888818555285553644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-1c23f9e627a7.txt
+Content-Disposition: attachment; filename=revlist-2e1170c71ec0-a6eeda46092d.txt
 
-79b7e67bb9747e621ff1b646a125fbea26e08d56 Merge tag 'for-linus-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
-74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
-298d44d04b2ba97824c3dadd1dbf7c154a2a86e2 cxl/region: Fix x1 interleave to greater than x1 interleave routing
-4d8e4ea5bb396897111e8a740201bfd3c5926170 cxl/region: Disallow region granularity != window granularity
-1cd8a2537eb07751d405ab7e2223f20338a90506 cxl/hdm: Fix skip allocations vs multiple pmem allocations
-6614a3c3164a5df2b54abb0b3559f51041cf705b Merge tag 'mm-stable-2022-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 7d839e325af221ff69d52e15c112cf09da91d149 xfs: check return codes when flushing block devices
 f0c2d7d2abca24d19831c99edea458704fac8087 xfs: fix intermittent hang during quotacheck
 d62113303d691bcd8d0675ae4ac63e7769afc56c xfs: Fix false ENOSPC when performing direct write on a delalloc extent in cow fork
@@ -1068,5 +1043,12 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
+1ea90b2d293fd8b1f3377c9ed08364ff6f2a8562 arm64: dts: rockchip: Lower sd speed on quartz64-b
+e5467359a725de90b6b8d0dd865500f6373828ca arm64: dts: rockchip: Pull up wlan wake# on Gru-Bob
+4a00c43818dcc19be97250d4c3c4a1e2f1ed4f9d arm64: dts: rockchip: Fix typo in lisense text for PX30.Core
+388f9f0a7ff84b7890a24499a3a1fea0cad21373 arm64: dts: rockchip: fix upper usb port on BPI-R2-Pro
+db7ad41538439a3dcfebd738959c7526b4e7d528 arm64: dts: rockchip: Add analog audio output on quartz64-b
+52ef276849d44c61a2bd1dbd513c41ed6a57a2a3 Merge branch 'v6.0-armsoc/dtsfixes' into for-next
+a6eeda46092dcb3efe247525a986b207d1d1133f Merge branch 'v6.1-armsoc/dts64' into for-next
 
---===============6723280742135933555==--
+--===============0888818555285553644==--
