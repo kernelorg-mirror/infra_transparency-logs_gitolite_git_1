@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/sparse
-Date: Tue, 23 Aug 2022 23:15:33 -0000
-Message-Id: <166129653363.19813.17576161384592005433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 Aug 2022 23:25:48 -0000
+Message-Id: <166129714890.27670.17485816989816493204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/sparse
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 18f17cde1e9835bb301e4ca64e0898166b155c90
-    new: 658ee8e0f63121c5029d91b4d5df169c6ddfcbb8
+    old: f52c8947347d43546581ab1bf8fa19867b664a8c
+    new: d24433c0f4a30101e8b76601718326b3bb89e723
     log: |
-         658ee8e0f63121c5029d91b4d5df169c6ddfcbb8 unrestricted values are unrestricted even after a cast
+         5679ff2f138f77b281c468959dc5022cc524d400 bpf: Move bpf_loop and bpf_for_each_map_elem under CAP_BPF
+         2e5e0e8ede02340deba8e9c3ecc4cde56cde5d59 bpf: Fix reference state management for synchronous callbacks
+         3cf7e7d8685cb88b709fbdc643651a02c3f53c26 selftests/bpf: Add tests for reference state fixes for callbacks
+         d24433c0f4a30101e8b76601718326b3bb89e723 Merge branch 'Fix reference state management for synchronous callbacks'
          
