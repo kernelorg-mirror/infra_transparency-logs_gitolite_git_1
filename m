@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0196046678977851535=="
+Content-Type: multipart/mixed; boundary="===============4272088823441782530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 23 Aug 2022 20:08:08 -0000
-Message-Id: <166128528840.12141.16156152353355419801@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 20:08:31 -0000
+Message-Id: <166128531183.12368.11115559075539481009@gitolite.kernel.org>
 
---===============0196046678977851535==
+--===============4272088823441782530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 8447d0e75099eb54eea9306c2d43ecfc956d09ed
+  - ref: refs/heads/for-next
+    old: c55988e5e96a83b3c6a12835e94972c086bcafe0
     new: 729c16326b7f3f4e83e4195f620a6ca0b7dfa25a
-    log: revlist-8447d0e75099-729c16326b7f.txt
+    log: revlist-c55988e5e96a-729c16326b7f.txt
 
---===============0196046678977851535==
+--===============4272088823441782530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8447d0e75099-729c16326b7f.txt
+Content-Disposition: attachment; filename=revlist-c55988e5e96a-729c16326b7f.txt
 
 74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
@@ -1051,4 +1051,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 a1c3611dcfb08e62e165ab5c00122dd13f210166 remoteproc: imx_rproc: Simplify some error message
 729c16326b7f3f4e83e4195f620a6ca0b7dfa25a remoteproc: imx_dsp_rproc: fix argument 2 of rproc_mem_entry_init
 
---===============0196046678977851535==--
+--===============4272088823441782530==--
