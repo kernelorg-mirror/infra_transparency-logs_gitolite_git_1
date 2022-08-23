@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2477678109692138940=="
+Content-Type: multipart/mixed; boundary="===============6568182463033868521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 23 Aug 2022 21:15:00 -0000
-Message-Id: <166128930042.27333.6777900659771272195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 23 Aug 2022 21:15:21 -0000
+Message-Id: <166128932125.29078.1986897310910319678@gitolite.kernel.org>
 
---===============2477678109692138940==
+--===============6568182463033868521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.1
-    old: 8622817ccb3f545d9440ee8aae46410be0f2b625
-    new: d9270292e6174551d3b02a49b310ddf56c0225fe
-    log: revlist-8622817ccb3f-d9270292e617.txt
+  - ref: refs/heads/for-next
+    old: f7d62d2f0f34055cdd2436b39177194e9f3e1c25
+    new: d93c80fa0b6d2f91fc49b928cb7ad7547f50f953
+    log: revlist-f7d62d2f0f34-d93c80fa0b6d.txt
 
---===============2477678109692138940==
+--===============6568182463033868521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661289298 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661289298-b12b7f7905d73e51397beef684194ae331a8902f
-
-8622817ccb3f545d9440ee8aae46410be0f2b625 d9270292e6174551d3b02a49b310ddf56c0225fe refs/heads/regulator-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMFQ1IACgkQJNaLcl1U
-h9AFsAf/Z5nqUA6/sJBl9SlcFyLGfACOKvYkRzztAsNlkhHjblbQHAA4Pnxvg9Be
-TOXrkDs7++5gxWYujBk5VTyDBKBJDNspO/cQ716iG+pwCQCzLg+kCGC8piyL9ABh
-eyODMJGLqmnii6N5zjr5MyxweB7kZhluwmA9L4sHpzBkHOi1ckyrDM6EDQsMpexk
-9c0IkaecVWHb2++X+lv5tImZGjPtENNV/88Sj1L5VS42l1w6u/UaEV4Omx8tgQN9
-T3fhxKRqvJxrhtEupoewh6a8xsU2ZRYxuNWYXSsHhMZWm5mV2lcAL2k4xY0RHTpG
-w5mLK/MFvqE1jDvEm7C7LLSH+UohQw==
-=SD5X
------END PGP SIGNATURE-----
-
---===============2477678109692138940==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8622817ccb3f-d9270292e617.txt
+Content-Disposition: attachment; filename=revlist-f7d62d2f0f34-d93c80fa0b6d.txt
 
 ac71792707226d1210127611bb622c0362cbff25 regulator: qcom_spmi: Improve formatting of if-then blocks
 5b2a085baaa15d04396889228f1e11d2cb86b916 regulator: qcom_spmi: Document PM6125 PMIC
@@ -65,5 +40,6 @@ e62ef4a9f936326e702ef08ea3f65b62bd7d108b regulator: qcom_spmi: Add PM6125 PMIC s
 a39d0100572e188f00ff4d224af9694c7eb3eeb5 regulator: qcom_smd: Sort pmics alphabetically (part 3)
 95b5f3ef4c0cf553a97dd7ce7d6ef85415388011 regulator: qcom_smd: Add PM6125 RPM regulators
 d9270292e6174551d3b02a49b310ddf56c0225fe PM6125 regulator support
+d93c80fa0b6d2f91fc49b928cb7ad7547f50f953 Merge remote-tracking branch 'regulator/for-6.1' into regulator-next
 
---===============2477678109692138940==--
+--===============6568182463033868521==--
