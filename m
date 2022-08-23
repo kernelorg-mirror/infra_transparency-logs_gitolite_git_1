@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5605005796850537040=="
+Content-Type: multipart/mixed; boundary="===============4122319813456982178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 23 Aug 2022 10:00:38 -0000
-Message-Id: <166124883841.29967.17630646377934944527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 23 Aug 2022 10:04:30 -0000
+Message-Id: <166124907025.31414.15470911491449956@gitolite.kernel.org>
 
---===============5605005796850537040==
+--===============4122319813456982178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 139b5fbd525ad357a27002b37815ea82d32aa375
     new: 52412f5543920378218f156d061d369f9d4d7a17
     log: revlist-139b5fbd525a-52412f554392.txt
 
---===============5605005796850537040==
+--===============4122319813456982178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ f41ec1fd1c20e2a4e60a4ab8490b3e63423c0a8a net: dsa: all DSA masters must be down 
 291ac1517af58670740528466ccebe3caefb9093 net: mscc: ocelot: adjust forwarding domain for CPU ports in a LAG
 52412f5543920378218f156d061d369f9d4d7a17 Merge branch 'dsa-changes-for-multiple-cpu-ports-part-3'
 
---===============5605005796850537040==--
+--===============4122319813456982178==--
