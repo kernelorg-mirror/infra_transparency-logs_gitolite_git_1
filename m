@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan
-Date: Tue, 23 Aug 2022 08:12:39 -0000
-Message-Id: <166124235928.2061.3281501152326554678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Tue, 23 Aug 2022 08:21:05 -0000
+Message-Id: <166124286531.8088.7491675515444589785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sschmidt/wpan
-user: sschmidt
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: afe7116f6d3b888778ed6d95e3cf724767b9aedf
-    new: b5a990209d72615e3cac2b3b0d8ddd445c020cf5
+  - ref: refs/heads/testing
+    old: 93d7c52a6eb93e58e4569bd4de95ba3b19e3cf20
+    new: 0de1978852dff8643a80f20a8f44cef3f16c2db0
     log: |
-         b5a990209d72615e3cac2b3b0d8ddd445c020cf5 net/ieee802154: fix repeated words in comments
+         0de1978852dff8643a80f20a8f44cef3f16c2db0 xfrm: Drop unused argument
          
