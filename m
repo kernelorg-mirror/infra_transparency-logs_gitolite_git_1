@@ -1,52 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3394254810049109221=="
+Content-Type: multipart/mixed; boundary="===============7699253940119150941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 23 Aug 2022 18:49:20 -0000
-Message-Id: <166128056056.20118.5907373516226352244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 23 Aug 2022 18:49:31 -0000
+Message-Id: <166128057101.20278.16965484740133376802@gitolite.kernel.org>
 
---===============3394254810049109221==
+--===============7699253940119150941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.1
-    old: 0739ce4c1213a040301bb185cb7a0569417aef87
-    new: a2740378834a3b19dbf6f667e7297c0161e93532
-    log: |
-         9048b9912f767ea9609e520678def446af804771 docs: devres: regulator: Add new get_enable functions to devres.rst
-         de6fbef10c4b9c589f3b84bd926e56ba742263ea regulator: dt-bindings: Add missing (unevaluated|additional)Properties on child nodes
-         a2740378834a3b19dbf6f667e7297c0161e93532 Use devm helpers for regulator get and enable
-         
+  - ref: refs/heads/for-next
+    old: f8d0146c0bacf6a1d44fa4083dfb54d05e119dff
+    new: 4902ddf4e571fe37fc712c33e10a05f79d160eee
+    log: revlist-f8d0146c0bac-4902ddf4e571.txt
 
---===============3394254810049109221==
+--===============7699253940119150941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f8d0146c0bac-4902ddf4e571.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661280559 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661280558-6866c47a9e57619d0d774c8543492a7c15b1ada9
+e8ee449bd7a45e871fc84fe51c773f7a6e68a02f ASoC: mediatek: mt8186: rename sound card name
+62bd431bac942c90d908b1681d04f0c577f6c70f ASoC: atmel_ssc_dai: Remove the unneeded result variable
+d45f552a1e44e2885c4b7551564241959d8138be ASoC: SOF: compress: Remove dai_posn variable
+88630575406fdf2a7853545a884484bd55dab8a0 ASoC: fsl_sai: Add support multi fifo sdma script
+43a03d247091e1fcd3065dae3407b959e8921c16 ASoC: SOF: Intel: hda-loader: Use the FSR state definitions during bootup
+8613753a681e7a5c63313dea9b04bf103d601368 ASoC: SOF: Intel: hda: Drop no longer used ROM state definitions
+6ace85b9838dc0162b474dbbbb6b388e7561f6a7 ASoC: SOF: Introduce function sof_of_machine_select
+2dec9e09e955dfc4b7843fa4f9c09e7ee8931b1d ASoC: SOF: mediatek: Add sof_mt8186_machs for mt8186
+78f0ecf3c3147ef641dd89ed2c26d757f89ec11c Introduce sof_of_machine_select
+d4a9fd829285e488c522853faf30aca6097c2b40 ASoC: SOF: Intel: hda: Correct Firmware State Register use
+4902ddf4e571fe37fc712c33e10a05f79d160eee Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
 
-0739ce4c1213a040301bb185cb7a0569417aef87 a2740378834a3b19dbf6f667e7297c0161e93532 refs/heads/regulator-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMFIS8ACgkQJNaLcl1U
-h9B82wf7BWxc7AEhJxE0VLcpdUUtmd/Pwlg0v42gllS4yI52ht0nZ6AQtMl+7qQF
-P8oXiW0lG21RWWVuZwm+qgTvNJ8+5ozgX3qa1RrXt6l8lz51wu3+Jy13lo5N+ZWs
-IHotEv2Go/T5i8T+87+XrmaL2xdNKKGRnkbdU6A7m/emyLN1tsdqUQrNubwlCqZc
-0HWI5A4FRj1nbSUhgX064QUaVrK0D0QJRNi0MAdklS9eFr3UPl9lqCCgVZphneCi
-SomDVXEsGr6EsqU/PrGEJE4efduA3wCMhU1KCnLN1fhKaNGMsvqP3q7pfi3xVA8M
-scIUGs8ZZjqCvBkfaS6HP15rl1NGrw==
-=ILol
------END PGP SIGNATURE-----
-
---===============3394254810049109221==--
+--===============7699253940119150941==--
