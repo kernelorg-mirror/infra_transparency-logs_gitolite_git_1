@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 23 Aug 2022 05:33:49 -0000
-Message-Id: <166123282917.14627.3909939062590702884@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 05:33:59 -0000
+Message-Id: <166123283917.14765.15782040769580091398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip
-    old: dca99d4d5d7bcadf4ebf98f854d331f58ec5902e
-    new: d1ff08f55c42c641c83495ffbbeda3e52fcfe721
+  - ref: refs/heads/perf/wip.self
+    old: 2d65ebdfb190f83f6dcde35cce09dc826e65ced0
+    new: 2006e283155583462c2d1ab6d6cf6a89b492b122
     log: |
-         1c8f3d35bc1f7e1c667a96f8a4093b17aeeac2f6 Merge branch 'tip/sched/core'
-         d1ff08f55c42c641c83495ffbbeda3e52fcfe721 sched/fair: Fold the sched_avg update
+         f9d94560264ced9893a226c0a2f42a0f96a72486 Merge branch 'perf/urgent'
+         2006e283155583462c2d1ab6d6cf6a89b492b122 perf: Better track self-monitoring events
          
