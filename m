@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============5644461451380413791=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 23 Aug 2022 09:02:29 -0000
-Message-Id: <166124534983.6749.11128120440880757944@gitolite.kernel.org>
-
---===============5644461451380413791==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 23 Aug 2022 09:02:40 -0000
+Message-Id: <166124536031.6858.5650988988150602179@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,29 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 0cd08c2dfe457d001af2738ccbb9abce431eb37e
-    new: c2bf0ed7fe008a4b77fd5ba5f432b3388bb8bdf6
-    log: revlist-0cd08c2dfe45-c2bf0ed7fe00.txt
-
---===============5644461451380413791==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cd08c2dfe45-c2bf0ed7fe00.txt
-
-1b670936eca50bd43232b0dc194b3e1cda9c6e15 perf/x86/amd/brs: Move feature-specific functions
-18598a912a9e702209de1cec5f3ab97adebf4df5 perf/x86/amd/core: Refactor branch attributes
-9fa81b5471bb89be01ec03c956f0c76df240a43d perf/x86/amd/core: Add generic branch record interfaces
-b59787949855c8036f18db68d5eb17e3b419f9bf x86/cpufeatures: Add LbrExtV2 feature bit
-510a891124a5d02da3b6c19441006204360fb879 perf/x86/amd/lbr: Detect LbrExtV2 support
-836eb87726b6d2e230cdee62892ffede1b2b9b59 perf/x86/amd/lbr: Add LbrExtV2 branch record support
-27b52e80cf8c1b734dea745b23f26a1e68372ebf perf/x86/amd/lbr: Add LbrExtV2 hardware branch filter support
-84436a822edc54b49d9315c5e38dadfba5abcbea perf/x86: Move branch classifier
-6f9ad217abf56e41cf6222683778681fbee675f7 perf/x86/amd/lbr: Add LbrExtV2 software branch filter support
-58e9812a9055a9ebcbb17d9737881d200de7c082 perf/x86: Make branch classifier fusion-aware
-8fd627ac8c750726ab2e4a3eff6a7285460b231d perf/x86/amd/lbr: Use fusion-aware branch classifier
-c256c6490555ba68cfddd9df41b4d01821597bc9 perf/core: Add speculation info to branch entries
-c2bf0ed7fe008a4b77fd5ba5f432b3388bb8bdf6 perf/x86/amd/lbr: Add LbrExtV2 branch speculation info support
-
---===============5644461451380413791==--
+  - ref: refs/heads/perf/wip.cleanup
+    old: e3a9c65d1011f8759f95defff94e20e8d618a081
+    new: 699d63380e124fdc56d1917394be2b1ff29909e2
+    log: |
+         632b00802e756085acf8de6795426587d30f41f3 perf/x86: Add two more x86_pmu methods
+         506c030ceed3045d0a99cb1d2cd3b83d49e159fe perf/x86/intel: Move the topdown stuff into the intel driver
+         a2ed58423c564ae2c53c309292ce07b5ae5b1ff5 perf/x86: Change x86_pmu::limit_period signature
+         2fe252e973ea4e791916076772af2f0a3ab5c423 perf/x86: Add a x86_pmu::limit_period static_call
+         703bc929553a5b5f3cc8e91c01dd8625ab4d619a perf/x86/intel: Remove x86_pmu::set_topdown_event_period
+         7abb36c104912305d16e92be1fc8e21fdf198f8a perf/x86/intel: Remove x86_pmu::update_topdown_event
+         482ec59a632b92da608097009acd31f42da2c976 perf/x86/p4: Remove perfctr_second_write quirk
+         20c3098ea8ccb62d23df4e2c350d84c412a99278 perf/x86/intel: Optimize short PEBS counters
+         699d63380e124fdc56d1917394be2b1ff29909e2 perf/x86/intel: Shadow MSR_ARCH_PERFMON_FIXED_CTR_CTRL
+         
