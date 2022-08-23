@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 23 Aug 2022 21:38:40 -0000
-Message-Id: <166129072080.14315.5617956496014756404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 Aug 2022 21:43:13 -0000
+Message-Id: <166129099329.17523.5257897169900075963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/fileOajW0h
-    old: 3b99852f4c874062295704dd483b03cab61301fe
-    new: b988977e0cd81591a72e7a68c5f63591e25a40f8
+  - ref: refs/heads/master
+    old: 855a28f9c96c80e6cbd2d986a857235e34868064
+    new: 15f7cfae912ea1739c8844b7edf3621ba981a37a
     log: |
-         b988977e0cd81591a72e7a68c5f63591e25a40f8 ASoC: codes: src4xxx: Avoid clang -Wsometimes-uninitialized in src4xxx_hw_params()
+         15f7cfae912ea1739c8844b7edf3621ba981a37a net: dsa: microchip: make learning configurable and keep it off while standalone
          
