@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1145479449925536457=="
+Content-Type: multipart/mixed; boundary="===============7064155124283818762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 23 Aug 2022 15:34:42 -0000
-Message-Id: <166126888247.8657.13936054441004157968@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 15:34:50 -0000
+Message-Id: <166126889028.8759.13095002169628983115@gitolite.kernel.org>
 
---===============1145479449925536457==
+--===============7064155124283818762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 704438dd4f030c1b3d28a2a9c8f182c32d9b6bc4
-    new: 52412f5543920378218f156d061d369f9d4d7a17
-    log: revlist-704438dd4f03-52412f554392.txt
+  - ref: refs/heads/dev-queue
+    old: 36e882deed3872f7aab5f1d8d003b28167d1e9bf
+    new: d2b75032433874d1837c4a3a599aff2ca5a75371
+    log: revlist-36e882deed38-d2b750324338.txt
 
---===============1145479449925536457==
+--===============7064155124283818762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-704438dd4f03-52412f554392.txt
+Content-Disposition: attachment; filename=revlist-36e882deed38-d2b750324338.txt
 
 dddd406d9dbe4a94919b377a84b696e97f709379 ice: Implement control of FCS/CRC stripping
 affa1029d66f0fc2bb3614ead2166637c1371aad ice: Implement FCS/CRC and VLAN stripping co-existence policy
@@ -82,5 +82,25 @@ f41ec1fd1c20e2a4e60a4ab8490b3e63423c0a8a net: dsa: all DSA masters must be down 
 36a0bf44358597dee6947938e8643c61442cab87 net: mscc: ocelot: set up tag_8021q CPU ports independent of user port affinity
 291ac1517af58670740528466ccebe3caefb9093 net: mscc: ocelot: adjust forwarding domain for CPU ports in a LAG
 52412f5543920378218f156d061d369f9d4d7a17 Merge branch 'dsa-changes-for-multiple-cpu-ports-part-3'
+f80f87a1a0d7530751cda4ad1d524031b98c75c2 e1000e: Separate MTP board type from ADP
+7a08e796ca2949b908d2390f081dd594276f5d80 ice: Add support for ip TTL & ToS offload
+e5ddcdfea459a790fcc56a935f68fca1acfa8f07 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+914d1041644da9df52480b2e75d47256963b0cca ice: Add low latency Tx timestamp read
+df768065c57de75c82e365037f4677360575c19e ice: config netdev tc before setting queues number
+57b5477f5aab70d7026fd543b483bd5e62f7359f igc: Remove IGC_MDIC_INT_EN definition
+825e59e72fba20725b07a253eac5473d36eabeab i40e: Fix ADQ rate limiting for PF
+dac367e2d125d77d50b441495dc7947b0339261a ice: Don't double unplug aux on peer initiated reset
+7c0d19637dcc4c29fb5f46703bab5c8b3589a461 ice: xsk: prohibit usage of non-balanced queue id
+c3eaf8a32c85f5fc6c5cfabaef0621725e8b66f4 ice: xsk: use Rx ring's XDP ring when picking NAPI context
+744aec672494aac583116e183016369d75f5ead2 ice: Add port option admin queue commands
+a2418b9f259012d5bcd9397acc3826df42ba238a ice: Add additional flags to ice_nvm_write_activate
+c14707dc7279097b25b4ec6245032ca9940192c5 ice: Implement devlink port split operations
+c7c67ba2ccff840fc11c709924ed2f8b6ceb381b ice: Fix DMA mappings leak
+5a383ff24c535ebcb7b0d25710939cbc87f81147 i40e: Fix kernel crash during module removal
+5b580c18279b067b9ad11d5dcdaf20a1e7fa53c4 ice: use bitmap_free instead of devm_kfree
+2ea379c96c05e511b68a84551f3bdd48e860a577 ice: Fix crash by keep old cfg when update TCs more than queues
+663f386eb5fc630f5ccdda43e6fba0b7ccb31e64 ice: Print human-friendly PHY types
+c83c867a62c3e6d04f1451c1e193e4ca88febbfc i40e: Fix incorrect address type for IPv6 flow rules
+d2b75032433874d1837c4a3a599aff2ca5a75371 iavf: Fix race between iavf_close and iavf_reset_task
 
---===============1145479449925536457==--
+--===============7064155124283818762==--
