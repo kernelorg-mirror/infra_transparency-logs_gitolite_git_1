@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 23 Aug 2022 21:34:47 -0000
-Message-Id: <166129048748.11395.7440236092407581244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 23 Aug 2022 21:38:40 -0000
+Message-Id: <166129072080.14315.5617956496014756404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 658a10a091650bfc8c738833fac7f76ef25f22a8
-    new: 22bea51f0fb1f5062e9aadd88194eff7b9ff80a4
+  - ref: refs/heads/fileOajW0h
+    old: 3b99852f4c874062295704dd483b03cab61301fe
+    new: b988977e0cd81591a72e7a68c5f63591e25a40f8
     log: |
-         22bea51f0fb1f5062e9aadd88194eff7b9ff80a4 Tue Aug 23 09:33:50 PM UTC 2022
+         b988977e0cd81591a72e7a68c5f63591e25a40f8 ASoC: codes: src4xxx: Avoid clang -Wsometimes-uninitialized in src4xxx_hw_params()
          
