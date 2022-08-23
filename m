@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Tue, 23 Aug 2022 14:09:05 -0000
-Message-Id: <166126374546.13192.17437221959847554904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Tue, 23 Aug 2022 14:09:24 -0000
+Message-Id: <166126376456.13361.3373277710951603325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/utils/mdadm/mdadm
+user: jes
 changes:
-  - ref: refs/heads/cifs-for-viro
-    old: 114e4fedeb363035d1e6f567c119b6e5481a75ed
-    new: eb21254044830a2bab5b1fc338812e7481c6e5c1
+  - ref: refs/heads/master
+    old: ae5dfc56b7a96805d5a0b50eaf93b9fec8604298
+    new: 27ad4900501c615b7c6b266bf23948e5606dba53
     log: |
-         eb21254044830a2bab5b1fc338812e7481c6e5c1 cifs: Add some RDMA send tracepoints
+         27ad4900501c615b7c6b266bf23948e5606dba53 mdadm: Don't open md device for CREATE and ASSEMBLE
          
