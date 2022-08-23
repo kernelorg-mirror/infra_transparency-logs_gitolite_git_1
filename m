@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 23 Aug 2022 07:25:41 -0000
-Message-Id: <166123954164.32508.3878127186096584477@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2938405501293771156=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 23 Aug 2022 07:25:53 -0000
+Message-Id: <166123955346.32621.13841628724241402872@gitolite.kernel.org>
+
+--===============2938405501293771156==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next/dt64
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    new: 09a122384e34a4aa7ebae59c1eb11d69cd80658c
+  - ref: refs/heads/master
+    old: 8f5bbd9bb73e73dfb59c3dd9d7191e149138b40a
+    new: b253dc397da1d6c9a69298193c6113ac07c82e66
     log: |
-         b6740089b740b842d5e6ff55b4b2c3bf5961c69a dt-bindings: clock: exynosautov9: correct clock numbering of peric0/c1
-         153da489e5e7c9aed7e6445b9450d98d5ebd5a5b dt-bindings: clock: exynosautov9: add fys0 clock definitions
-         3c073243c5df0146fef619f7aa5874b2e9d234a3 dt-bindings: clock: exynosautov9: add fsys1 clock definitions
-         4b6ec8d88623fed87088f141bcce79f67d82f301 dt-bindings: clock: exynosautov9: add schema for cmu_fsys0/1
-         45bbf4d76a6730acf63805798d6fe7a126e49dbc dt-bindings: clock: exynos850: Add Exynos850 CMU_AUD
-         f20f35f46f1a65e1c4b65d8fb62acdbdafd11e1e dt-bindings: clock: exynos850: Add Exynos850 CMU_IS
-         8f3fc0ed70b97e7544ec1a57c60fe6b2f2f778c3 dt-bindings: clock: exynos850: Add Exynos850 CMU_MFCMSCL
-         ac94f66521a5488eccdded4036b0ec039ceb87d5 arm64: dts: exynosautov9: add fsys0/1 clock DT nodes
-         2c8cf49c7dec4b5f7323588279aa9e8a4174ebf9 arm64: dts: exynos: Add CMU_AUD, CMU_IS and CMU_MFCMSCL for Exynos850
-         09a122384e34a4aa7ebae59c1eb11d69cd80658c arm64: dts: exynos: Add SysMMU nodes for Exynos850
+         b253dc397da1d6c9a69298193c6113ac07c82e66 4.14-stable patches
          
+
+--===============2938405501293771156==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661239552 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1661239549-ff1c30694906faee78c95a662098e269799bcef8
+
+8f5bbd9bb73e73dfb59c3dd9d7191e149138b40a b253dc397da1d6c9a69298193c6113ac07c82e66 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMEgQAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rjwP/08tcNEGr8FDeK4DogZg
+jXvcRIFttT48A9qQVzbeqVr/o76LsoLTVuUUdCvSEWdbCjE4i2I87E013qnUfSZZ
+aJfIMoCEGilPfsBuq50DpZKDQzvcEw2Fe9YCDFSfWnMXraE/TFKktxtooYW9edZH
+LNTKyYLPq3m9GbeT8FWTI/MJtFxlQDr+M7iu9My4ebnva+WH3NjF5+sy9bvfSwXj
+462yaW9QuqnitSCUHFg9znlse6Yl0iv+LPop/kN43Sj/CixOMAoN+ab0+jwJD7rB
+rzgpPtkKHgrhZMCjQJxWbp1wALSEbKBY8WfXcz26/7jrvXpxV4MBjC+XAQWLPV/R
+nfbGtS11Q88RrB/PVx4bqboAVhsbf4QHWzHysiVFSEKaAh00PQuNgBnSberYD1cW
+ivTxC152m/Kj5GVKKmYQhXF3aFeJEm+HBDs4XZ3X7SPHhP1jQIfp5dhBm0L6as14
+oYCJDdnYWPxwAkPkUs5IMu2zyLJXPsT8LQeRk4DX2G1upMVzN+vyKLW1f/airuUb
+GgfeKcIa6sbuCKIeEEZ3eAlhEL0D7+TVwSdCO5hkqjXvNsOOappfFjXSkoAk1KBt
+kMncaUs8kdn0VEdBSGgTI7U4FpXD4h2sFN3kFYqD/tPIDZufFlWsbv0Q0VGL58mC
+V6jCSLLMV/03E8dXhvH6Zs73
+=l93e
+-----END PGP SIGNATURE-----
+
+--===============2938405501293771156==--
