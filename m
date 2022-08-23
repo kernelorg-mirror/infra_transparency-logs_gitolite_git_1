@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 23 Aug 2022 00:57:23 -0000
-Message-Id: <166121624310.9068.4127229747849453275@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 00:59:30 -0000
+Message-Id: <166121637059.9893.10324531512796196634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: cdb27b7b2d8fe9f066e30f560b7e88defc456d78
-    new: 6164b5e3bcabd49c2326037afb49aa64fdf5e7a4
+    old: 6164b5e3bcabd49c2326037afb49aa64fdf5e7a4
+    new: df207b007468b09111c36250dd5c01ad177c515f
     log: |
-         bb4d15df9abea1818f434bba34066a208a156d5d vlan: move from strlcpy with unused retval to strscpy
-         6164b5e3bcabd49c2326037afb49aa64fdf5e7a4 ax25: move from strlcpy with unused retval to strscpy
+         993e1634ab4489908879afd33f83bc6be1a8751d bridge: move from strlcpy with unused retval to strscpy
+         df207b007468b09111c36250dd5c01ad177c515f caif: move from strlcpy with unused retval to strscpy
          
