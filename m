@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5060017655246688147=="
+Content-Type: multipart/mixed; boundary="===============4884655419301738942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Aug 2022 06:41:27 -0000
-Message-Id: <166123688735.30816.12645029302493490689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 23 Aug 2022 06:43:48 -0000
+Message-Id: <166123702816.31705.2290711157217568075@gitolite.kernel.org>
 
---===============5060017655246688147==
+--===============4884655419301738942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/usb-linus
-    old: 8d1e09cfbd4da67d68a03e86818db5340c05abb8
-    new: e41a88f38d87f730647bb14df9211d32241d1176
-    log: |
-         e41a88f38d87f730647bb14df9211d32241d1176 usb: dwc3: qcom: suppress unused-variable warning
-         
+  - ref: refs/heads/next/clk
+    old: 6e94f2fc07bb1a0056cfa14849bd1e617d3e97d0
+    new: 65522e7d86c986df77bd3106de1ef7712070ee7e
+    log: revlist-6e94f2fc07bb-65522e7d86c9.txt
 
---===============5060017655246688147==
+--===============4884655419301738942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6e94f2fc07bb-65522e7d86c9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661236885 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1661236884-96346d6860651fd255c3caabf9fccb9d72e01c1e
+b6740089b740b842d5e6ff55b4b2c3bf5961c69a dt-bindings: clock: exynosautov9: correct clock numbering of peric0/c1
+f392db97b7bbdc636fc92bb396eb7a0fa4c44691 clk: samsung: exynos7885: Implement CMU_FSYS domain
+0e1b2f1fb298499514703aa3aa21a1a81806d5ec clk: samsung: exynos7885: Add TREX clocks
+153da489e5e7c9aed7e6445b9450d98d5ebd5a5b dt-bindings: clock: exynosautov9: add fys0 clock definitions
+3c073243c5df0146fef619f7aa5874b2e9d234a3 dt-bindings: clock: exynosautov9: add fsys1 clock definitions
+4b6ec8d88623fed87088f141bcce79f67d82f301 dt-bindings: clock: exynosautov9: add schema for cmu_fsys0/1
+45bbf4d76a6730acf63805798d6fe7a126e49dbc dt-bindings: clock: exynos850: Add Exynos850 CMU_AUD
+f20f35f46f1a65e1c4b65d8fb62acdbdafd11e1e dt-bindings: clock: exynos850: Add Exynos850 CMU_IS
+8f3fc0ed70b97e7544ec1a57c60fe6b2f2f778c3 dt-bindings: clock: exynos850: Add Exynos850 CMU_MFCMSCL
+faeb276b10891bf0953f1da5e1a36067f24f3157 Merge branch 'for-v6.0/samsung-clk-dt-bindings' into next/clk
+6ac24a3a24a9e88f5e1ee8e96fd9d39fcab28b3f clk: samsung: exynosautov9: add missing gate clks for peric0/c1
+67d98943408bce835185688cb75ebbb45b91e572 clk: samsung: exynosautov9: correct register offsets of peric0/c1
+3477b3c3a9fbb6422874c7f24a35249e1773c687 clk: samsung: exynosautov9: add fsys0 clock support
+65522e7d86c986df77bd3106de1ef7712070ee7e clk: samsung: exynosautov9: add fsys1 clock support
 
-8d1e09cfbd4da67d68a03e86818db5340c05abb8 e41a88f38d87f730647bb14df9211d32241d1176 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMEdpUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RzoQAJPrGsKZhh8sOvsobXNt
-8+G7O4OuyxhI9QE4vz5BNvv5X/2j79Jk8FzLEhHUz4dcNX82GU3M4ucI1xdckSaE
-Has4jn00yfyavh0gB0GLptHAZmL8vqlRcgdVIIvF9gN99XSrEkMNY16wJsM5Qsqz
-f46qdcpLqeDoZ0cCRsigxRKzduh9vUO4s13tgU1ZnxJWGYnyZKvFVNF3UtwDUr2d
-ck/vKtMhUitLJ50Ci6gjDLYwUxVlTskMdrGAEeyRhBWInafiN5Ngs/AANxiOvyVL
-gE4c6xzGuB+V5EN6t2n94d0Uqwhua/WhG7oBYiJ01RZPvpZ7EtVeHKpnsQkdAW0w
-n28rJ+N93rDxWpxu65P/W5SwPuVYRv92Ydx2swwNrOQ7cVhg0dsxpKapAkIr8dpS
-U5WeatKjPhsEs6Y1SDpZFNdWcWdxTxrhRaXBepx5gdbdrsXNzKXALXKR+um+0Q2X
-hDU9d4yniXQjPk2WRbEmojxxBYmVe7znCrGbhB5DglYhwFYqbjK2kxvBNwVbyCy2
-mTFMAku0nIrDi9Wmlt0m3M0sZB73dB8Umi6jvUbqPxJaKFa6Sctp6CMVkdroi+wu
-S19USkugA8/oUIvsnFq6GBiDBIrfmEX3OBAzcBrEQJD4hTzscfI9qwL7KtHQePqO
-9zNp3mWu/0AkQoJEGKenQ4Ep
-=+5zy
------END PGP SIGNATURE-----
-
---===============5060017655246688147==--
+--===============4884655419301738942==--
