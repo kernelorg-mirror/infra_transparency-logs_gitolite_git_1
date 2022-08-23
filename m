@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 23 Aug 2022 06:27:52 -0000
-Message-Id: <166123607224.20783.9169421004542040106@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 06:28:02 -0000
+Message-Id: <166123608217.20911.7638728266603541174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip.freezer
-    old: 919ca667bddd219824ab88fb41caf4e3adcb5df3
-    new: 0b528b113f71df1c98759050f5f54298f7f71b5b
+  - ref: refs/heads/sched/core
+    old: 31de25a926a990450de46210086f3d263f4c0fa4
+    new: 5da9c93f6bbde3e97e6c1f93793bbfd9ea89f1e5
     log: |
-         d92f34af3001c0bf0573579b48fd768b171698d4 freezer: Have {,un}lock_system_sleep() save/restore flags
-         930f263d25bda109e59342899c0a727d3508daa3 freezer,umh: Clean up freezer/initrd interaction
-         ac4b57d7749f17ab1f67c55611edfc4b24eac55d sched: Change wait_task_inactive()'s match_state
-         896482ac00a3038acbc3c5cf38c3f3dd50f18f14 sched/completion: Add wait_for_completion_state()
-         18df85986a3193b3a44f468508344934afa0c4b8 sched/wait: Add wait_event_state()
-         0b528b113f71df1c98759050f5f54298f7f71b5b freezer,sched: Rewrite core freezer logic
+         1e1ed00ac4451abab7df6335984e0de8283cc33e sched/fair: Maintain task se depth in set_task_rq()
+         630cc978d16e5003ba1f0a2a5fcd8dcb23a33734 sched/fair: Remove redundant cpu_cgrp_subsys->fork()
+         6aeb6b3059d500e1a0c016058b1f1be6b2d83db9 sched/fair: Reset sched_avg last_update_time before set_task_rq()
+         6f9480e57cfee89bae68d3eaa6e413bef553f12e sched/fair: Update comments in enqueue/dequeue_entity()
+         29c7f6f30f8e9183a9dac10eec08dfd426c48151 sched/fair: Combine detach into dequeue when migrating task
+         e93b9f39886114014ca3e514c31f3ddc7b3ad13e sched/fair: Fix another detach on unattached task corner case
+         3d9c12b3d099888368ed7b9714a1f37519d24528 sched/fair: Allow changing cgroup of new forked task
+         168504217cc1d337f111cde94ce8fdafd6c38cb8 sched/fair: Move task sched_avg attach to enqueue_task_fair()
+         5da9c93f6bbde3e97e6c1f93793bbfd9ea89f1e5 sched/fair: Don't init util/runnable_avg for !fair task
          
