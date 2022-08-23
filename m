@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1085789818380530920=="
+Content-Type: multipart/mixed; boundary="===============4110025473807572833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 23 Aug 2022 20:16:23 -0000
-Message-Id: <166128578343.18276.12941743425802181497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Tue, 23 Aug 2022 20:17:04 -0000
+Message-Id: <166128582463.18588.5987574461728067439@gitolite.kernel.org>
 
---===============1085789818380530920==
+--===============4110025473807572833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
+repo: pub/scm/linux/kernel/git/i3c/linux
 user: abelloni
 changes:
-  - ref: refs/heads/rtc-fixes
-    old: bd33335aa93d615cac77d991c448b986761e7a8d
+  - ref: refs/heads/i3c/next
+    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-bd33335aa93d-568035b01cfb.txt
+    log: revlist-f2906aa86338-568035b01cfb.txt
 
---===============1085789818380530920==
+--===============4110025473807572833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd33335aa93d-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============1085789818380530920==--
+--===============4110025473807572833==--
