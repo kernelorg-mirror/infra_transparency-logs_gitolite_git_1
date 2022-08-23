@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4884655419301738942=="
+Content-Type: multipart/mixed; boundary="===============8957180712085436721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 23 Aug 2022 06:43:48 -0000
-Message-Id: <166123702816.31705.2290711157217568075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 23 Aug 2022 07:01:00 -0000
+Message-Id: <166123806075.12801.14199135497005818713@gitolite.kernel.org>
 
---===============4884655419301738942==
+--===============8957180712085436721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next/clk
-    old: 6e94f2fc07bb1a0056cfa14849bd1e617d3e97d0
-    new: 65522e7d86c986df77bd3106de1ef7712070ee7e
-    log: revlist-6e94f2fc07bb-65522e7d86c9.txt
+  - ref: refs/heads/master
+    old: 6317cb0d056ed24df78de35afd8a23dc8c53afca
+    new: fa88ff157e73822906553a77f77a7a720cf6e096
+    log: |
+         fa88ff157e73822906553a77f77a7a720cf6e096 4.9-stable patches
+         
 
---===============4884655419301738942==
+--===============8957180712085436721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e94f2fc07bb-65522e7d86c9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b6740089b740b842d5e6ff55b4b2c3bf5961c69a dt-bindings: clock: exynosautov9: correct clock numbering of peric0/c1
-f392db97b7bbdc636fc92bb396eb7a0fa4c44691 clk: samsung: exynos7885: Implement CMU_FSYS domain
-0e1b2f1fb298499514703aa3aa21a1a81806d5ec clk: samsung: exynos7885: Add TREX clocks
-153da489e5e7c9aed7e6445b9450d98d5ebd5a5b dt-bindings: clock: exynosautov9: add fys0 clock definitions
-3c073243c5df0146fef619f7aa5874b2e9d234a3 dt-bindings: clock: exynosautov9: add fsys1 clock definitions
-4b6ec8d88623fed87088f141bcce79f67d82f301 dt-bindings: clock: exynosautov9: add schema for cmu_fsys0/1
-45bbf4d76a6730acf63805798d6fe7a126e49dbc dt-bindings: clock: exynos850: Add Exynos850 CMU_AUD
-f20f35f46f1a65e1c4b65d8fb62acdbdafd11e1e dt-bindings: clock: exynos850: Add Exynos850 CMU_IS
-8f3fc0ed70b97e7544ec1a57c60fe6b2f2f778c3 dt-bindings: clock: exynos850: Add Exynos850 CMU_MFCMSCL
-faeb276b10891bf0953f1da5e1a36067f24f3157 Merge branch 'for-v6.0/samsung-clk-dt-bindings' into next/clk
-6ac24a3a24a9e88f5e1ee8e96fd9d39fcab28b3f clk: samsung: exynosautov9: add missing gate clks for peric0/c1
-67d98943408bce835185688cb75ebbb45b91e572 clk: samsung: exynosautov9: correct register offsets of peric0/c1
-3477b3c3a9fbb6422874c7f24a35249e1773c687 clk: samsung: exynosautov9: add fsys0 clock support
-65522e7d86c986df77bd3106de1ef7712070ee7e clk: samsung: exynosautov9: add fsys1 clock support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661238057 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1661238052-dbc8d1fdea31fd6332c20bd6ef4dd192a847269a
 
---===============4884655419301738942==--
+6317cb0d056ed24df78de35afd8a23dc8c53afca fa88ff157e73822906553a77f77a7a720cf6e096 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMEeykbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CAYQANZZmlFrrmKdwnYKdBcy
+zO/EoBIw/4r3fX2ox3Qn6/Qd/ew3ySvTK6PsPITnKJ5YopeSRPCO4++4R+gtd2hg
+bvEGY2SMJeDo3XMsdPVCo4TkgdJthORPFibckvr+D8i6YU6FooZI8XvFezs194Oh
+a8xtzA5vFSl8P4GISq02IGTCD6qiIc5Zwa3aN5YGGD4NW4v55stNlK3MUJOOjGiu
+HMpurnfsQYVYifa0lU546JfAHPOuEfq6Ug7qO8yjx5qWZnJB6qS3GOQi+DVl9K0H
+UoIJP+1n3F3aR/mS695ttpprrk/87Q7vYum9PewsZd/AL7Zp7F2rAqWIHipFWfgW
++jVOi7E493TjrHp89URQ0QEXwLCKC47oI5pEcKbjzsdAs6hKufnLZz7qYEWe+A33
+7Hp87JYLzgzu/e8eOMvf7Shs4essTkKecBOVSQ+Me/7E6/Qv/Ds3xbaGEySXwt1S
+hZJpK4/gMGkHFSPTxnT9+tXo0o5EpgSbusKBPza7yT1BHKd+WV7+LHZK53g4ZbMl
+6kZ3zZ1BaXNKMRIpo/niMmkbgH8+z/tzJK0ijQ12mWo6fZ09u+farJuW0LS14bj8
+85tZs41s5cvoOn6jkF2J5ZuJDVXGicsPu4AoDyEGd8XOxu91WUMgje7ZnQ93HF69
+okDZsjg34SeLYrlmJ9ebrHfb
+=5yO+
+-----END PGP SIGNATURE-----
+
+--===============8957180712085436721==--
