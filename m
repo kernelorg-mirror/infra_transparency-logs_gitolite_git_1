@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4548859396069156047=="
+Content-Type: multipart/mixed; boundary="===============6187084171251887903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 23 Aug 2022 04:03:42 -0000
-Message-Id: <166122742231.14858.3400961332010379631@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 04:03:59 -0000
+Message-Id: <166122743942.15040.14594745368791737835@gitolite.kernel.org>
 
---===============4548859396069156047==
+--===============6187084171251887903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: d957e7ffb2c72410bcc1a514153a46719255a5da
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-d957e7ffb2c7-568035b01cfb.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 870262a06bfcea71bc12e23a70ec07ce623f2d0b
+    new: e846008771139bf12c95f3eebb2e3015b5ff0100
+    log: revlist-870262a06bfc-e84600877113.txt
 
---===============4548859396069156047==
+--===============6187084171251887903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1661227412 -0400
+pusher 75C5DE3D 1661227427 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1661227408-71405fc54e54fd501e409b92ac2e8efb073dd1cb
+nonce 1661227426-57b611bedd855e167e1ed899bfea38ec7a4ae0db
 
-d957e7ffb2c72410bcc1a514153a46719255a5da 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 refs/heads/queue
+870262a06bfcea71bc12e23a70ec07ce623f2d0b e846008771139bf12c95f3eebb2e3015b5ff0100 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMEUZQACgkQ7ulgGnXF
-3j3NHBAAhZa5AbfjFGzUlZjsFiDzZHvvzduLE0PXvEnjLcHrdkDLs6CxqDm3TQGi
-aguYfS8AgJN0HayTSt3/5pK1m+i8BS3FeyouzpimYpceD9z7VKOwn5HMlPSADyiL
-ZcHh2WQJ2e3cD8xRWUhKuOaT57NV2DgJLIoL4lhY8NIf5bthGvXWR/v693/fYAsm
-/seRHEbbwaGUpitslE34Wbt8UJfwoVTUZyJZSruB4G+degX6C4thICbPgrg4X09m
-0GYHCmBgPOAXPa+Ix6YZPZjhogCynjsxKqcUYjBmhCjB5Wcm+I814IvFWZaQnGZc
-MhxLjxYtyUAWYvlUEH/aAROlZ1Fg0YTEAsNEzUvfD2QBxdjc0o9N40Zi6tRzYl1N
-HskOiFh6bRPkU0B8T3KbFsvcuL+9juaFBu9Ohxfs0Av6epBCZHrH1KrxsUPolxIU
-lEsKdoRSPDD43gUOCvSP53NQnfRoD2lUGf9DBTXf/xlt7xwA9pMetNTrHrLP5PUx
-eQ/xmrba03NJVe7V4FKtABxZZ5QnT9gTKUfTuSqJKKNaVCM7lUbewMJTzYHjAoMZ
-LejnvBTV5YW782PN4CHvvmaZK7YFbEgH0dq5Wi2enpmu2dyVYSRHYYNz+3/4db+Q
-e6G0PQ4uMZWDnEi2O55rGNS2upvMbMNq2k8F+4u0v/AdIHid1Ws=
-=3Hc2
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMEUaMACgkQ7ulgGnXF
+3j3v1xAAlhKwye9vK7QQPalLa+khQ/NpQS/7xRAr6kuf/qlDPnAd2C3lXJPm0da2
+HDpGyTEUywLFdamwTjqGHoZW4iMJ7pBIhZyOIps3Ach9SaCODskuxvanykfEF7BF
+Cy1Vx79PJQAimY52o2qSMgShr9u62fF/N+sAj6xV9GHO1CzJq0gg0fYAdlIaSLNK
+aHBS+ACSZauajhJyC1rpJ0AQrZPuKtPtPeGLaFS+LLl29nXPP47BJB9G0OREdOPY
+gLigp2HzoDQ/3NTlPKTmSYWhJ+L5EjnvUDpOa+tu37bpTpn5iQumY9GR4EEJ46uu
+yj7KUD4SbbdLEu7TH8ndvVbLywysSEjkmG+6a42yuTR5879nz1Ao1dPsjtSNm13K
+ncK+cnShKTOF3+rrsMTP+rJg/XpspS/DG7JiI9tQGDo5FaTJemkPGFTt6Kku5NLn
+a2S3+fz4aAMBAEfCY4zDbuLCoe//8F0prCv0Bi1vFoFyjJsYUcR91i/AV5vSR3hn
+iIwStMTJrg1WuAEpS82YHhdTD/OUC/IHMnfLT8E75oxuwypeWcdpbxTIT27vjZxh
+Ecawxb6JTARxPjWxzQCMnLcUT31n3WCsbPhiMHESJ5Hc/ga2c1wj/UbqMVcqZRUt
+KTuzTO4aMF+PLgDu2ZakRl9hH1krZ9RKCLVvs1KRX41cQVhdSkI=
+=HpsT
 -----END PGP SIGNATURE-----
 
---===============4548859396069156047==
+--===============6187084171251887903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d957e7ffb2c7-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-870262a06bfc-e84600877113.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
-59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
-fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
-e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
-b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
-2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
-6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
-b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
-e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
-85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
-9e2f284e149124aa9a6b963882d2b39ae1742196 crypto: add crypto_has_kpp()
-a116e1cdc64a743c36c40e6fa639dec991c157a3 lib/base64: RFC4648-compliant base64 encoding
-88b140fec07307f825170a45562013a80842cc93 nvme: add definitions for NVMe In-Band authentication
-3bf2fde6fcc49ccc899cd2a853888823662ccd4c nvme-fabrics: decode 'authentication required' connect error
-f50fff73d620cd6e8f48bc58d4f1c944615a3fea nvme: implement In-Band authentication
-b61775d185a395f26fecdc7898e39de677a6c3dd nvme-auth: Diffie-Hellman key exchange support
-6490c9ed06de4a97a1ba89f53cd6c045d5277bc4 nvmet: parse fabrics commands on io queues
-db1312dd95488b5e6ff362ff66fcf953a46b1821 nvmet: implement basic In-Band Authentication
-7a277c37d3522e9b2777d762bbbcecafae2b1f8d nvmet-auth: Diffie-Hellman key exchange support
-1a70200f404ae210b4f0334e3936e84f8edb6bc8 nvmet-auth: expire authentication sessions
-4bc14f3101364877dd59085f39e068a2a7ec9f2d block/rnbd-srv: Set keep_id to true after mutex_trylock
-ce11bdf946176d48c2c0d36b56f0bf368c177298 block/rnbd-srv: Replace sess_dev_list with index_idr
-058efe000b31ce9c63bca02a33b67780b0ef5b41 null_blk: add module parameters for 4 options
-7012eef520cb7cb12910fb799dfd4ad0ed256b77 null_blk: add configfs variables for 2 options
-0525af711b6676156fdffc1072c49ff1d1d5bc0f nvme-rdma: remove timeout for getting RDMA-CM established event
-53ee9e29377882f268a51b1aa8b06c80e7fce7a2 nvme-tcp: use in-capsule data for I/O connect
-1fcfca78129325c067b1d26f8a1fa33ecc1052c8 nvme-pci: use nvme core helper to cancel requests in tagset
-0f89f0ece50ec12fcec70f22b3a6ea9fd2051688 nvme-apple: use nvme core helper to cancel requests in tagset
-c13cf14f44d23102f864a0d845439aa175631854 nvme-multipath: refactor nvme_mpath_add_disk
-ee452a8d984f94fa8e894f003a52e776e4572881 null_blk: fix ida error handling in null_add_dev()
-bc9da6dd0630efd81b5c72ff6fa0169aa029a73f nbd: add missing definition of pr_fmt
-640c46a21f89364f04445cdd43b61eb46bd49b5d bcache: remove EXPERIMENTAL for Kconfig option 'Asynchronous device registration'
-b9f91d80dec9369294a8df4e4c8850a339a32576 md/raid5: Fix sectors_to_do bitmap overflow in raid5_make_request()
-ee1aa06ba3258686452dab2db2a458310a83d07a md/raid5: Convert prepare_to_wait() to wait_woken() api
-ca39f7502425d437cbf83d29d99b43bd61342858 md: fix mddev->kobj lifetime
-c57094a6e1ed5dd2d6401f79b8e6da34dd28f959 md: fix error handling in md_alloc
-e8c59ac41974438168c89e2c881119c53934f96c md: implement ->free_disk
-33b614e33419b456bd870cacba1b56c897244f0b md: rename md_free to md_kobj_release
-2652a1bd2e749ace20339996015f3cf3fbfb8672 md: factor out the rdev overlaps check from rdev_size_store
-b0e706a1ba84e50eaa714486e06e1d0027411658 md: stop using for_each_mddev in md_do_sync
-f26514342255855f4ca3c0a92cb1cdea01c33004 md: stop using for_each_mddev in md_notify_reboot
-16648bac862fd9c6490a465533345fbeaa6466e0 md: stop using for_each_mddev in md_exit
-12a6caf273240ae42842de8cc05feaa86e582d61 md: only delete entries from all_mddevs when the disk is freed
-5b26804bb0af5d4e4f3440b484244d478d60f16b md: simplify md_open
 a20d636bee41ea67b382207bee216e70f7206752 raid5: fix duplicate checks for rdev->saved_raid_disk
 2198c51a08349eb176cb9789bef6f7243b8699f8 md: fix build failure for !MODULE
 d13bc4d84a8e91060d3797fc95c1a0202bfd1499 remove the sx8 block driver
@@ -1080,5 +1030,55 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+de9f43f0d28b908479345062a235152613cb3567 scsi: ufs: ufs-mediatek: Remove redundant header files
+4d869fe67acccfc436c6030ceaba4779174019a4 scsi: ufs: ufs-mediatek: Provide detailed description for UIC errors
+364893575d139546c5dc6255c12c72cdc929bf93 scsi: ufs: ufs-mediatek: Dump more registers
+2873e0453b0165117bdc28dee3e38d69dd82f4c5 scsi: ufs: ufs-mediatek: Fix performance scaling
+b7dbc686f60b28d0843ed572f8aa59c3e76e142b scsi: ufs: ufs-mediatek: Support clk-scaling to optimize power consumption
+0f85e74756b5e85a0de6dce7d8c07f0b4e1f7726 scsi: ufs: core: Use local_clock() for debugging timestamps
+87bd05016a64864d27a640ca24ef63c760b67d73 scsi: ufs: core: Allow host driver to disable wb toggling during clock scaling
+f8dc7a31a3eed86b6830854e30d1c52eec6473ec scsi: ufs: wb: Change wb_enabled condition test
+4450a1653a935d6c0682c08c51b58cba983cf819 scsi: ufs: wb: Change function name and parameter names
+6c4148ce7cc1d80cef60242a97b25c83c844e68c scsi: ufs: wb: Add explicit flush sysfs attribute
+42f8c5cdb039f93f8d20f3e299aa6436775ee9d6 scsi: ufs: wb: Introduce ufshcd_is_wb_buf_flush_allowed()
+4f6b69f364a6c70147adca9b970821c3b710b770 scsi: ufs: wb: Modify messages
+3b73c45e6fd25a960a4862051747bbc000c8a53e scsi: mpi3mr: Add config and transport related debug flags
+32d457d5a2af9bf5ddbe28297eabf1fc93451665 scsi: mpi3mr: Add framework to issue config requests
+64a8d9315b85e0177ab5c9015307d91352f6d17a scsi: mpi3mr: Add helper functions to retrieve config pages
+7188c03ff8849cebdc3a88a3f3af1436c8ba8155 scsi: mpi3mr: Enable Enclosure device add event
+fc7212fd3100920fea711a80482d967388a4603c scsi: mpi3mr: Add framework to add phys to STL
+125ad1e6b445e8538e50d77d9c82ec811e98895e scsi: mpi3mr: Add helper functions to retrieve device objects
+42fc9fee116fc6a225a1f738adf86689d5c39d49 scsi: mpi3mr: Add helper functions to manage device's port
+c4723e68a0d816f23e0807908cdb66e67528594f scsi: mpi3mr: Enable STL on HBAs where multipath is disabled
+e22bae30667a7e74ed057e00fb6e8c79e0738de3 scsi: mpi3mr: Add expander devices to STL
+626665e9c38d3d35b2cdb111b9e813b396d7284e scsi: mpi3mr: Get target object based on rphy
+7f56c791969e0c19b8b5ee12058b636bf173eb90 scsi: mpi3mr: Add SAS SATA end devices to STL
+2bd37e28491401f772f8a8545ffbafb3f52e0e3e scsi: mpi3mr: Add framework to issue MPT transport cmds
+176d4aa69c6e0f24857b9cf516f79750dea85771 scsi: mpi3mr: Support SAS transport class callbacks
+434726c4b89ca25a278e548cf1034e6e22241723 scsi: mpi3mr: Refresh SAS ports during soft reset
+1bd93d6c2cbd84ffc63fa0275649c1c6f2396d69 scsi: mpi3mr: Block I/Os while refreshing target dev objects
+e4a9eb5aaed62244dc21e350876934c40fb7fca6 scsi: mpt3sas: Add support for ATTO ExpressSAS H12xx GT devices
+2abf5f257eda82f413c4992378adb0d2333b7ecf scsi: mpt3sas: Disable MPI2_FUNCTION_FW_DOWNLOAD for ATTO devices
+1eed45a93c498e46fc887322bac7ef7569ca62f7 scsi: message: fusion: Remove redundant variable iocnum
+858cc823d8ac623c6f45581e0ecc42e2a6d492f1 scsi: initio: Remove redundant assignment to pointer scb
+83bd1294181f33fa8c108944baf442687ef3062b scsi: megaraid: Remove redundant assignment to variable mfiStatus
+67de9aee311b4ec372fc9b8eedf3582697ab753c scsi: st: Remove redundant variable pointer stp
+0f3ef7e50f096c4f98655b55563e9698fa2990e5 scsi: lpfc: Fix unsolicited FLOGI receive handling during PT2PT discovery
+6179df9aff7fc1512ada2c7aef06a3967072d93c scsi: lpfc: Fix null ndlp ptr dereference in abnormal exit path for GFT_ID
+e12874d6255b71c0ca9062f98b3cca8a6806cdc9 scsi: lpfc: Rework MIB Rx Monitor debug info logic
+043306681d025255d69a7d4228dcb522100c114f scsi: lpfc: Add warning notification period to CMF_SYNC_WQE
+d471249ea7322c6bb068d778592c5f5a6a25cd10 scsi: lpfc: Remove SANDiags related code
+14226f33cfa2a82f742004fd44509e3177000f60 scsi: lpfc: Update lpfc version to 14.2.0.6
+ed73c90bb6bcb0c00e0392975bb5e08b6a4244a1 scsi: lpfc: Copyright updates for 14.2.0.6 patches
+a757adbcb02c0296b55ae36ea32bbd53b7c0fd5d scsi: qla2xxx: Remove unused del_sess_list field
+a8a94623be7b29b02f0171bda42fd72fe280a848 scsi: qla2xxx: Remove unused qlt_tmr_work()
+bb6e3cba674550ab4289a801bf0b2c2b5b785446 scsi: qla2xxx: Always wait for qlt_sess_work_fn() from qlt_stop_phase1()
+138f09a93994255b99f405e966601d59bc224c51 scsi: qla2xxx: Avoid flush_scheduled_work() usage
+eb1c67b7e8224d3d955f7910e7a765ace8242993 scsi: megaraid_sas: Replace one-element array with flexible-array member in MR_FW_RAID_MAP
+8d6ed0a0157cb83de394bd09f736f1454b1cb583 scsi: megaraid_sas: Replace one-element array with flexible-array member in MR_FW_RAID_MAP_DYNAMIC
+4cf59fb9403d8ac9a09a241508e16a45973284b8 scsi: megaraid_sas: Replace one-element array with flexible-array member in MR_DRV_RAID_MAP
+d3e75e73894b8cafdf3bbf1cde84365fe86849da scsi: megaraid_sas: Replace one-element array with flexible-array member in MR_PD_CFG_SEQ_NUM_SYNC
+a949a2f69aa81abb2e671222dbcd2bd1494cb7ca scsi: megaraid_sas: Use struct_size() in code related to struct MR_FW_RAID_MAP
+8750aa54da43c0b50ea22f2f294dc834035b2146 scsi: megaraid_sas: Use struct_size() in code related to struct MR_PD_CFG_SEQ_NUM_SYNC
 
---===============4548859396069156047==--
+--===============6187084171251887903==--
