@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6712830353729913698=="
+Content-Type: multipart/mixed; boundary="===============4159685378696286916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 23 Aug 2022 13:41:51 -0000
-Message-Id: <166126211144.26185.4421772965376898118@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 13:42:23 -0000
+Message-Id: <166126214374.26432.2405172731541828230@gitolite.kernel.org>
 
---===============6712830353729913698==
+--===============4159685378696286916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: e5781d82816768d784610646bf5d40127d6e4c7c
-    new: a4064bdc39e4f2873457e12e5118223c8354ce88
+    old: a4064bdc39e4f2873457e12e5118223c8354ce88
+    new: 4ce515776e88e38db2439f6a698f5749427c4711
     log: |
-         fcb7fde244ec07ad61c361daf1be290af9ee74d3 staging: rtl8723bs: remove function rtw_odm_dbg_comp_msg
-         3c03b91a304422922c3b2501c2980bac6170f4d1 staging: rtl8723bs: remove function rtw_get_ch_setting_union
-         db1b762eacf96e3c63a84a152056c439e3d70524 staging: rtl8723bs: remove function rtw_odm_ability_set
-         629481c3dcc37507f9cb0cae6a4fc7ae52d22eae staging: rtl8723bs: remove function GetFractionValueFromString
-         38117692d603162bf1e12fd8ab79ffca703aa149 staging: rtl8723bs: remove function IsCommentString
-         8459a01134927495f1508d7869d755313c0423a2 staging: rtl8723bs: remove function rtw_odm_adaptivity_parm_msg
-         bf9b4c6c603ea6def3a655fc49450b2eb2220433 staging: rtl8723bs: remove function rtw_odm_dbg_comp_set
-         a4064bdc39e4f2873457e12e5118223c8354ce88 staging: rtl8723bs: remove static const variable odm_comp_str
+         e86954145b0fbf64c308fbca91233598c60a34b2 staging: rtl8723bs: remove unused function ODM_InbandNoise_Monitor
+         af2c14d3ea20bc249e9d297c6cb7045a640d11eb staging: rtl8723bs: remove member noise_level from struct dm_odm_t
+         4ce515776e88e38db2439f6a698f5749427c4711 staging: rtl8723bs: remove odm_NoiseMonitor.h and odm_NoiseMonitor.c
          
 
---===============6712830353729913698==
+--===============4159685378696286916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661262107 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661262141 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1661262106-47e954f0c1a18c561fe1df5ddfcc426df04bc951
+nonce 1661262140-be1fc788c6bf6c5b84bd3a98b53298281438d145
 
-e5781d82816768d784610646bf5d40127d6e4c7c a4064bdc39e4f2873457e12e5118223c8354ce88 refs/heads/staging-testing
+a4064bdc39e4f2873457e12e5118223c8354ce88 4ce515776e88e38db2439f6a698f5749427c4711 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmME2RwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BmQP/RbEl3Rc7tBwexj59tm/
-O3otACPKVnAZyAdCIF+dYTJi5smOCc90DoFk9f0bMj+lD0CGXpVWdXzu0gsxMYmR
-/Wle1atUCMrcP9KDUnWTbUcZcH7WxURlorP3U04VyAX1mZW6Z2EnlW3CaiykmYaK
-3mUDumgScsF87CFUpH5kVu2B7s+lsJfGvhmNiqjNquLsf3TU/JoIUta0YoxiID8O
-nBC8viGelH7JNWlBECgbmNDQMq/mFIIuEaEdWA1jOXTqHbhwOfhNCpX3QAVgdjDG
-y7IZ+54NvoOVygANcAGR5kQqypxWrAOTA0Tp5iWfzvggbP7F1SuKKyl+KIdoB93H
-U9SIesDle43cPNDv4Q+YEVc29J9AkzUKtIVZ5nx7ibNLehX+sb/tFPYSkAuTh0UW
-dhGbpZ+WMnQLETYGLhZQ76dMNFreG2ckGIxrrCo+I5pTwMxlXcQAyALR6qHxiMMA
-wm55j11PZNZYRIcKXTTIv/3oMZpJkJ9aHm63XjQf2CEU82Ri4GHVxYbXLdEFJp5H
-jZ2KjECb8KS60H//13qGDB8blwjek1M9uMDUtNRv+bMEu6SLBmjUdAXRI3qJkf8c
-9it0Jt1G3UcAt7IcPvJW1vtWXr5oghDykLQ+t2dNPiPAUeDRdzlKqEJaLdYrg40q
-+fmUFY+BXqjx2vj6bJxPDTPz
-=eVie
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmME2T0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bo8QAJOu9t+MeywH4LX4b16R
+zOJTqSm1Uj4rbaJUxcniExCrqI68sCRSukICvdQfiddRn9tfTGEBr1N80aveMzro
+SxVDxVfyElnKE/cUmqrfzTuKSf9Jxav1A5qkQ/En+pahiCZmXnYSwAGwKU9aF/mi
+OUqsHslIU+el+xdOk6JtaLmaRP/cvacI0eOeadUzjjp8pyFj9uHlS/FeaSZIJwHw
+vcwCnDkcLkwre6wPz4CMc+9Z6ClxIN/IqypSCI5X1WpA/TE4FTDV5tQrglcmjO2q
+6eNR83cLfsX6czObH8o0guzaw/S1z4mOQCoUP3EVkbb7EPeg7OGDKP+5Cm77yMWg
+1GKwlcpUWrzDKidzYrj+UzUnf3sUno4TPF35iI/RETK72f05I8n4qFt9Fv3i1LgY
+hpx8S8VVIkB3hOFOxjMiROpIG4SuXooFopPrvVwbtlmubeFIwukdw1+m9vVlLJ2/
+fyNycCpMoXzH/xf5uyRJeACTsN71r5GYADI092MbSFL6EqQCOuNszB4mVuKrvTsl
+PG2szvqE2PycMk82qs1pCYT5RIwhDRLeHEWHTQTAi3c5PUsiS5YciDtiHeeJmUrp
+KNtNaVl6Ylqlzv3Wib2pXkvGIOsev3aTfd0vez2BJg2+Ja/3m6ZH/SygyFbLm8pf
+CZv90IwCspODLOqTHDdrJ8uU
+=aQrc
 -----END PGP SIGNATURE-----
 
---===============6712830353729913698==--
+--===============4159685378696286916==--
