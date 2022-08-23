@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 23 Aug 2022 18:04:01 -0000
-Message-Id: <166127784171.20446.10826955599947709149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 23 Aug 2022 18:12:34 -0000
+Message-Id: <166127835484.26442.1054114083850939082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: ad8d645cb8378673635eebb92b6f5bcaf3d9e553
-    new: 19c67c2579a54d65fea2ce802328ac3d0547b95c
+  - ref: refs/heads/habanalabs-next
+    old: e98b14a09845dc42b4cf470d5a748fa89d0e2949
+    new: 4b185ce722a3ffec19af26527d58f872617c32b3
     log: |
-         6ca7076fbfaeccce173aeab832d76b9e49e1034b cpufreq: check only freq_table in __resolve_freq()
-         6d5afdc97ea71958287364a1f1d07e59ef151b11 cpufreq: schedutil: Move max CPU capacity to sugov_policy
-         19c67c2579a54d65fea2ce802328ac3d0547b95c Merge branches 'pm-cpufreq' and 'pm-cpufreq-next' into bleeding-edge
+         a5c06fccc0dd4e28da4ba6f78e172bf572908da8 habanalabs: define trace events
+         c922607f2dbb5bae0eb9bd4d4243e06b2c5a93ae habanalabs: trace MMU map/unmap page
+         4b185ce722a3ffec19af26527d58f872617c32b3 habanalabs: trace DMA allocations
          
