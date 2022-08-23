@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4272088823441782530=="
+Content-Type: multipart/mixed; boundary="===============5408525671840797265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 23 Aug 2022 20:08:31 -0000
-Message-Id: <166128531183.12368.11115559075539481009@gitolite.kernel.org>
+Date: Tue, 23 Aug 2022 20:09:19 -0000
+Message-Id: <166128535983.12731.157399298482791062@gitolite.kernel.org>
 
---===============4272088823441782530==
+--===============5408525671840797265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/for-next
-    old: c55988e5e96a83b3c6a12835e94972c086bcafe0
-    new: 729c16326b7f3f4e83e4195f620a6ca0b7dfa25a
-    log: revlist-c55988e5e96a-729c16326b7f.txt
+  - ref: refs/heads/rpmsg-next
+    old: 7113ac825371c17c15e2d0be79d850e5e16d3328
+    new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
+    log: revlist-7113ac825371-1c23f9e627a7.txt
 
---===============4272088823441782530==
+--===============5408525671840797265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c55988e5e96a-729c16326b7f.txt
+Content-Disposition: attachment; filename=revlist-7113ac825371-1c23f9e627a7.txt
 
+79b7e67bb9747e621ff1b646a125fbea26e08d56 Merge tag 'for-linus-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
 298d44d04b2ba97824c3dadd1dbf7c154a2a86e2 cxl/region: Fix x1 interleave to greater than x1 interleave routing
@@ -93,6 +94,7 @@ f1d41f7720c89705c20e4335a807b1c518c2e7be mptcp, btf: Add struct mptcp_sock defin
 6644aabbd8973a9f8008cabfd054a36b69a3a3f5 bpf: Use proper target btf when exporting attach_btf_obj_id
 ffd5cfca5388e9d7c8386343763df41315ac1dd2 selftests/bpf: Excercise bpf_obj_get_info_by_fd for bpf2bpf
 19f68ed6dc90c93daf7e54d3350ea67fead7cbbf bpf, arm64: Allocate program buffer using kvcalloc instead of kcalloc
+8447d0e75099eb54eea9306c2d43ecfc956d09ed remoteproc: qcom_q6v5_pas: Do not fail if regulators are not found
 7251ceb51af972603552fcea2db316ed2b9d95ba sysctl: Merge adjacent CONFIG_TREE_RCU blocks
 5bfd5d3e2ec883a3db3414a42d94d23961a790ed kernel/sysctl.c: Clean up indentation, replace spaces with tab.
 374a723c7448bbea22846884ba336ed83b085aab kernel/sysctl.c: Remove trailing white space
@@ -1048,7 +1050,5 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-a1c3611dcfb08e62e165ab5c00122dd13f210166 remoteproc: imx_rproc: Simplify some error message
-729c16326b7f3f4e83e4195f620a6ca0b7dfa25a remoteproc: imx_dsp_rproc: fix argument 2 of rproc_mem_entry_init
 
---===============4272088823441782530==--
+--===============5408525671840797265==--
