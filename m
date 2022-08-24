@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 24 Aug 2022 00:21:30 -0000
-Message-Id: <166130049021.467.15758216566626538995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Wed, 24 Aug 2022 00:33:37 -0000
+Message-Id: <166130121719.9177.10853847349486586918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
   - ref: refs/heads/master
-    old: 6c2c782fa0131a091a52bd0b75083fb24c28b6d3
-    new: 510156a7f0cb0c3e86099f85f0ccbb6b2df6b06f
+    old: 59a0479dac63a2ce735ebd29d90c2e342bd87192
+    new: deb4c809d7e858205de11e3ac64c96ce022bc91c
     log: |
-         30b6055428a90cc52d4add164df12b94ab07c3fd net: improve and fix netlink kdoc
-         510156a7f0cb0c3e86099f85f0ccbb6b2df6b06f docs: netlink: basic introduction to Netlink
+         e4c1f0484da81e01e664557bcde2fa146141813b fscrypt: stop holding extra request_queue references
+         deb4c809d7e858205de11e3ac64c96ce022bc91c fscrypt: work on block_devices instead of request_queues
          
