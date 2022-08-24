@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6064169764996079291=="
+Content-Type: multipart/mixed; boundary="===============4337089314061673211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 24 Aug 2022 12:18:28 -0000
-Message-Id: <166134350881.6021.12982350926181954094@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 12:18:39 -0000
+Message-Id: <166134351904.6127.10363773483946405924@gitolite.kernel.org>
 
---===============6064169764996079291==
+--===============4337089314061673211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip
-    old: fda4c9d9f54ab9afe7ea155ecf67fc5cb3bba174
-    new: 53e1ff37906c4063e3607f91911e3d515a6b7170
-    log: revlist-fda4c9d9f54a-53e1ff37906c.txt
+  - ref: refs/heads/perf/wip.self
+    old: 9e0263cbe31f654a93dd774c526f60bf34a13b6a
+    new: b44411908ff37ba391832ba614a1befc14c944e5
+    log: revlist-9e0263cbe31f-b44411908ff3.txt
 
---===============6064169764996079291==
+--===============4337089314061673211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fda4c9d9f54a-53e1ff37906c.txt
+Content-Disposition: attachment; filename=revlist-9e0263cbe31f-b44411908ff3.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -198,7 +198,6 @@ cbe9e51126305832cf407ee6bb556ce831488ffe iavf: Fix deadlock in initialization
 246bbf2f977ea36aaf41f5d24370fef433250728 net: dsa: mv88e6060: prevent crash on an unused port
 777885673122b78b2abd2f1e428730961a786ff2 ip6_tunnel: Fix the type of functions
 92cb6e2e5dbaea02c2fa317f3543c8918db25e89 ublk_drv: update iod->addr for UBLK_IO_NEED_GET_DATA
-8924779df820c53875abaeb10c648e9cb75b46d4 x86/kprobes: Fix JNG/JNLE emulation
 5dd8ce24667a70bb9f7808f5eec0354bd37290c6 cifs: missing directory in MAINTAINERS file
 8d48562a2729742f767b0fdd994d6b2a56a49c63 powerpc/pci: Fix get_phb_number() locking
 2a29f80e155a9cf40ca8b6648bcdc8422db4c4e4 dt-bindings: display: sun4i: Add D1 TCONs to conditionals
@@ -456,16 +455,7 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-78b6b15770618efb60d84e2d605f6b93dc94051b sched/fair: Maintain task se depth in set_task_rq()
-39c4261191bf05e7eb310f852980a6d0afe5582a sched/fair: Remove redundant cpu_cgrp_subsys->fork()
-5d6da83c44af70ede7bfd0fd6d1ef8a3b3e0402c sched/fair: Reset sched_avg last_update_time before set_task_rq()
-859f206290f345c151a6005de639ba9677bf3e18 sched/fair: Update comments in enqueue/dequeue_entity()
-e1f078f50478a51849453341e7356cb298df00cf sched/fair: Combine detach into dequeue when migrating task
-7e2edaf61814fb6aa363989d718950c023b882d4 sched/fair: Fix another detach on unattached task corner case
-df16b71c686cb096774e30153c9ce6756450796c sched/fair: Allow changing cgroup of new forked task
-d6531ab6e50149ab2a144b0f4787cb9277d0893f sched/fair: Move task sched_avg attach to enqueue_task_fair()
-e4fe074d6c359c19b74564fa1364fe48343cfa5d sched/fair: Don't init util/runnable_avg for !fair task
-ad7d2b8bf2849e01c2e06ab868618a49a99ebacd Merge branch 'tip/sched/core'
-53e1ff37906c4063e3607f91911e3d515a6b7170 sched/fair: Fold the sched_avg update
+f8fe1110e82d1a3db2265f75f931b0030c39e10e Merge branch 'perf/urgent'
+b44411908ff37ba391832ba614a1befc14c944e5 perf: Better track self-monitoring events
 
---===============6064169764996079291==--
+--===============4337089314061673211==--
