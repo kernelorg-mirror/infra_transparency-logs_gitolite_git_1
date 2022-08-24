@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6602883459217343518=="
+Content-Type: multipart/mixed; boundary="===============4926088861827867865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 24 Aug 2022 15:45:25 -0000
-Message-Id: <166135592596.24794.2690732899889827100@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 15:45:32 -0000
+Message-Id: <166135593223.24918.3811947183492799473@gitolite.kernel.org>
 
---===============6602883459217343518==
+--===============4926088861827867865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 52412f5543920378218f156d061d369f9d4d7a17
-    new: 8357d67f5ec0a5d9e48a2e95c66f1afb2c75879f
-    log: revlist-52412f554392-8357d67f5ec0.txt
+  - ref: refs/heads/dev-queue
+    old: fd5ee54c47f2bb1d8fcfe52cd681eb4cfb37e773
+    new: 5c76e7be119dea7a785b67c6b77b5b910a67075a
+    log: revlist-fd5ee54c47f2-5c76e7be119d.txt
 
---===============6602883459217343518==
+--===============4926088861827867865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52412f554392-8357d67f5ec0.txt
+Content-Disposition: attachment; filename=revlist-fd5ee54c47f2-5c76e7be119d.txt
 
 f52f2faee581562032be32318b402ea53f2240e1 net/mlx5e: Introduce flow steering API
 4e0ecc17a74ed41b8378d9515d4555cb7f3c0794 net/mlx5e: Decouple fs_tt_redirect from en.h
@@ -71,5 +71,27 @@ ebe598985711d2d8259276671acdc447b19dbacd r8169: remove support for chip versions
 133706a960de413cea12f4f6e1a2262adb381f62 r8169: remove support for chip version 50
 efc37109c780e2e83e6afc8ebc12e433fcd5d526 r8169: remove support for chip version 60
 8357d67f5ec0a5d9e48a2e95c66f1afb2c75879f Merge branch 'r8169-next'
+b7e6843273b4c1b38e757f0119ccb4a007856646 e1000e: Separate MTP board type from ADP
+cf0d4e7532c45643e64ff211763a8eb7b756e328 ice: Add support for ip TTL & ToS offload
+c9396c1a6c474bd897aabd04a4abe1c9ce2e3d6a ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+8b7fe477f3070fa4a5f9934d3b0ee4cc1b7d63a3 ice: Add low latency Tx timestamp read
+e5a7dfdf54f718093e5c17e147da70eb077f923b ice: config netdev tc before setting queues number
+6fa58e77d98a4c00745bc6c7af4eef6c96740acc igc: Remove IGC_MDIC_INT_EN definition
+365dcaf55f61993c6abd7807b4e4b48a2b5de211 i40e: Fix ADQ rate limiting for PF
+6315df8f98e72676aaa8af9105ae4cb624e76529 ice: Don't double unplug aux on peer initiated reset
+520186432df0efcc73491af1fe55a102a2fece73 ice: xsk: prohibit usage of non-balanced queue id
+7caa1df9e99003f0a716ab7defa3859b9f662078 ice: xsk: use Rx ring's XDP ring when picking NAPI context
+1c758e7422ab00aaae7e2793ce7954e79b37974d ice: Add port option admin queue commands
+ac96b7001a5d26c382d44e21f180822fc03eec13 ice: Add additional flags to ice_nvm_write_activate
+ff211cd5353ddc0f3bfa66f2df75ad3261fae8cd ice: Implement devlink port split operations
+b2e7ff18f3160ac638a40a5f2bc5ca2fe76babbd ice: Fix DMA mappings leak
+bb891d8bbd6ba26445027f7694eef231ee8babf3 i40e: Fix kernel crash during module removal
+f94cada4421140c0052764a6aab189e4cb5eadce ice: use bitmap_free instead of devm_kfree
+5c0f86a8485afd6f0735d337ea56bcbdc0521615 ice: Fix crash by keep old cfg when update TCs more than queues
+c40f97ced82f38af0219335c4d893b99a422519f ice: Print human-friendly PHY types
+fcca29b987348580103adb95a4783f7f70192e8d i40e: Fix incorrect address type for IPv6 flow rules
+1cdcab344a14796c2c5a4c518e687e7e80a616ee iavf: Fix race between iavf_close and iavf_reset_task
+b9d7a20505749ac5a7e0ee1f101d8d3e093ca2d8 ice: Allow operation with reduced device MSI-X
+5c76e7be119dea7a785b67c6b77b5b910a67075a i40e: add description and modify interrupts configuration procedure
 
---===============6602883459217343518==--
+--===============4926088861827867865==--
