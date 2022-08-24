@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 24 Aug 2022 08:56:36 -0000
-Message-Id: <166133139619.13447.11014323716105671572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 24 Aug 2022 08:57:13 -0000
+Message-Id: <166133143300.13773.6242930242758070753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: fa2bc96259098a3bc1f32a10bfe1139c0f742256
-    new: 0d0f034d069862c5f9e03c51d4c5f7394a71a5d1
+    old: 550e9a4d858ff0bf872522eb4a802d549b45ac96
+    new: f79959220fa5fbda939592bf91c7a9ea90419040
     log: |
-         c205cc7534a97f2d6fbd2a23a94ed7c036c6e2aa net: skb: prevent the split of kfree_skb_reason() by gcc
-         d98495169d9f5f9373886abe921b6afd4748adfb dt-bindings: net: ti: k3-am654-cpsw-nuss: Update bindings for J7200 CPSW5G
-         37184fc1120ec594c992292ba9963edb69bf8be8 net: ethernet: ti: am65-cpsw: Add support for J7200 CPSW5G
-         763015a794e1588aac1d3d01640a2d1a50c1900c net: ethernet: ti: am65-cpsw: Move phy_set_mode_ext() to correct location
-         0d0f034d069862c5f9e03c51d4c5f7394a71a5d1 Merge branch 'j7200-support'
+         d5485d9dd24e1d04e5509916515260186eb1455c net: neigh: don't call kfree_skb() under spin_lock_irqsave()
+         f79959220fa5fbda939592bf91c7a9ea90419040 fec: Restart PPS after link state change
          
