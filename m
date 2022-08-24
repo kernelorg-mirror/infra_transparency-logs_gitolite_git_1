@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5726339669600498688=="
+Content-Type: multipart/mixed; boundary="===============9044137898160711848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 24 Aug 2022 12:17:57 -0000
-Message-Id: <166134347791.5642.13755506974494771641@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 12:18:08 -0000
+Message-Id: <166134348832.5746.8402662859469777787@gitolite.kernel.org>
 
---===============5726339669600498688==
+--===============9044137898160711848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: c2bf0ed7fe008a4b77fd5ba5f432b3388bb8bdf6
-    new: ba29445211b396e6362dff482fecc36a77da12f7
-    log: revlist-c2bf0ed7fe00-ba29445211b3.txt
+  - ref: refs/heads/perf/wip.cleanup
+    old: 699d63380e124fdc56d1917394be2b1ff29909e2
+    new: 6c1c8d29320b1d7fa68c953ab9b32c4dee96b3ea
+    log: revlist-699d63380e12-6c1c8d29320b.txt
 
---===============5726339669600498688==
+--===============9044137898160711848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2bf0ed7fe00-ba29445211b3.txt
+Content-Disposition: attachment; filename=revlist-699d63380e12-6c1c8d29320b.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -456,18 +456,14 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-f7758f2810bfd0fcf116877c1110baded8114df4 perf/x86/amd/brs: Move feature-specific functions
-0486ac673ae0e4b40e6cf5c254fcb90dff498069 perf/x86/amd/core: Refactor branch attributes
-e74d21032e6e4594a4945cfab9ce810866aab548 perf/x86/amd/core: Add generic branch record interfaces
-b533ca2e3d175e3e385243a53bf8111b0288b22a x86/cpufeatures: Add LbrExtV2 feature bit
-53146b513fa503f6d476f91a6c9b0867623a8b08 perf/x86/amd/lbr: Detect LbrExtV2 support
-0972fc70d30528bb09150f81727fd836b6654c1c perf/x86/amd/lbr: Add LbrExtV2 branch record support
-d2869ce1dca7854b063b72f68a7962f00acafe3c perf/x86/amd/lbr: Add LbrExtV2 hardware branch filter support
-361f4a558cd6c635dfdbd4b6291b17c0267ffaff perf/x86: Move branch classifier
-88947596142ae4d5f1528148d8a00b39786b364d perf/x86/amd/lbr: Add LbrExtV2 software branch filter support
-ea9c718a0af4f015374706def91ed9cdeb117777 perf/x86: Make branch classifier fusion-aware
-ac6583896a43850280891b1414371ac224604ddf perf/x86/amd/lbr: Use fusion-aware branch classifier
-a8c59b4192cfcc1e80baee39158ca71c3751c140 perf/core: Add speculation info to branch entries
-ba29445211b396e6362dff482fecc36a77da12f7 perf/x86/amd/lbr: Add LbrExtV2 branch speculation info support
+734a1481584b9d4749b6680161030bce257fc8a8 perf/x86: Add two more x86_pmu methods
+097a73a8ad033491b4d7b11f5bd188be80217fad perf/x86/intel: Move the topdown stuff into the intel driver
+6e165f2035e65ffbf616b541bb700b8e1f8bdce8 perf/x86: Change x86_pmu::limit_period signature
+ec59437412de0b7e342a011aeaa092b71e4f2c38 perf/x86: Add a x86_pmu::limit_period static_call
+db381180dc05825b2f21c05d1c5740e2a2fcae69 perf/x86/intel: Remove x86_pmu::set_topdown_event_period
+c24d4981f438f0906cd292acdc77f07f680c11f7 perf/x86/intel: Remove x86_pmu::update_topdown_event
+2597458467c1a7c615f3babff00332df4067c6a2 perf/x86/p4: Remove perfctr_second_write quirk
+9642f957a16cba5b164ae80c101aac088ee58ab6 perf/x86/intel: Optimize short PEBS counters
+6c1c8d29320b1d7fa68c953ab9b32c4dee96b3ea perf/x86/intel: Shadow MSR_ARCH_PERFMON_FIXED_CTR_CTRL
 
---===============5726339669600498688==--
+--===============9044137898160711848==--
