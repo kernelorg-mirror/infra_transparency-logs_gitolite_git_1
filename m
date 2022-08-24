@@ -1,53 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0553611144280977641=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 24 Aug 2022 14:22:08 -0000
-Message-Id: <166135092858.30012.4356208158389482442@gitolite.kernel.org>
-
---===============0553611144280977641==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 24 Aug 2022 14:26:29 -0000
+Message-Id: <166135118970.2476.13252098797227488127@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/master
-    old: e107170fc17e3e2effb6a1629a8658497f59375b
-    new: 65ba7a9d3ee989035a875e7c108f1733e92c7ea0
+  - ref: refs/heads/for-6.1/common_kmalloc
+    old: 40bbb2b687e72db605dfef954028ff7148849b5d
+    new: d59bdbe779e43853d8eb7d60c3fc026fa3002c87
     log: |
-         65ba7a9d3ee989035a875e7c108f1733e92c7ea0 setup.py: bump python_requires to 3.8
+         05a1c2e50809c7da8f27232ce10df43d4b801ba5 mm/sl[au]b: generalize kmalloc subsystem
+         f29dc1a2713bfda9f13aad6bae5f766aeeb93673 mm/sl[au]b: cleanup kmem_cache_alloc[_node]_trace()
+         008208ff2e45562d73446490b96122d95161594f mm/slab_common: unify NUMA and UMA version of tracepoints
+         86431e299ca5a0e16405201535b6060936146215 mm/slab_common: drop kmem_alloc & avoid dereferencing fields when not using
+         4610e2cbc32c9b8d554c2efda84461c1a1c9b1d7 mm/slab_common: move declaration of __ksize() to mm/slab.h
+         d59bdbe779e43853d8eb7d60c3fc026fa3002c87 mm/sl[au]b: check if large object is valid in __ksize()
          
-  - ref: refs/heads/stable-0.9.y
-    old: 7fe2a0c77c38845544a9c466ee0548b1611bf704
-    new: 4b81fbddf225c51ecb3a64cdc80ee7d1c72aa3aa
-    log: |
-         4b81fbddf225c51ecb3a64cdc80ee7d1c72aa3aa setup.py: bump python_requires to 3.8
-         
-
---===============0553611144280977641==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1661350928 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1661350928-2e2a37353cc44a20e98390a684775b50a33edb16
-
-e107170fc17e3e2effb6a1629a8658497f59375b 65ba7a9d3ee989035a875e7c108f1733e92c7ea0 refs/heads/master
-7fe2a0c77c38845544a9c466ee0548b1611bf704 4b81fbddf225c51ecb3a64cdc80ee7d1c72aa3aa refs/heads/stable-0.9.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYwY0EAAKCRC2xBzjVmSZ
-bJ00AQD+8jJbh1RAStQoEmX7aSTH7xGKzxgexjAwgfVClmbh3gD+LY9GwiIUDBY5
-RCuHa62nJPNtXaFpr1jd1RkSAwtvtQY=
-=ipHh
------END PGP SIGNATURE-----
-
---===============0553611144280977641==--
