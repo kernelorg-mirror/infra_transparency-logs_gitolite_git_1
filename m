@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 24 Aug 2022 13:51:49 -0000
-Message-Id: <166134910908.8077.6680675880500237142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 24 Aug 2022 13:55:15 -0000
+Message-Id: <166134931574.12067.12504555932812313298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/review-hans
-    old: 35b8754e88a5dfd3f2428b95c7b5db7c3f10d3cd
-    new: c8ef01c8137f75d94c4110bb085c67d7bd8b75dd
+  - ref: refs/heads/v6.0-next/dts64
+    old: d43004eb987b0b991310fe0d3488f1f3938365ea
+    new: f98c90bd16783c589222f939668c6fc905a11969
     log: |
-         d6124d554a28e79eb15216e9f590c1c95c71c096 platform/x86: asus-wmi: Simplify some of the *_check_present() helpers
-         c8ef01c8137f75d94c4110bb085c67d7bd8b75dd asus-wmi: Support the hardware GPU MUX on some laptops
+         6134898f4084236ea1a0b009427c0bb6469c47be arm64: dts: mediatek: mt8183: add keyboard node
+         f98c90bd16783c589222f939668c6fc905a11969 arm64: dts: mediatek: mt8183-pumpkin: add keypad support
          
