@@ -1,105 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2874668949621554429=="
+Content-Type: multipart/mixed; boundary="===============7149748880364885158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Wed, 24 Aug 2022 16:39:36 -0000
-Message-Id: <166135917656.30088.12156226881026842874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 24 Aug 2022 16:48:16 -0000
+Message-Id: <166135969637.3848.11761334742544425156@gitolite.kernel.org>
 
---===============2874668949621554429==
+--===============7149748880364885158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-f2906aa86338-568035b01cfb.txt
+  - ref: refs/heads/ceph-fscrypt
+    old: 677b665dcfa86f8767097923de3e9666e7fba6b1
+    new: ecea518da25efc67dcf31a3926b30d4ee40e2a49
+    log: revlist-677b665dcfa8-ecea518da25e.txt
 
---===============2874668949621554429==
+--===============7149748880364885158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-677b665dcfa8-ecea518da25e.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
-eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
-9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
-52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
-017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
-dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
-59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
-fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
-ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
-e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
-b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
-2c61c97fb12b806e1c8eb15f04c277ad097ec95e nvme: handle the persistent internal error AER
-6b46fa024a452fdbf2dc797d30b35598d934ba33 nvme: remove unused timeout parameter
-b10907b8159f6524a7393339fe5671951e00eced nvme: fix qid param blk_mq_alloc_request_hctx
-e41f8c0222e30aadc58b84fcb33472a1505018f3 nvme-loop: use nvme core helpers to cancel all requests in a tagset
-85cc424381804386d991f81e08b4933ca1f04214 crypto: add crypto_has_shash()
-9e2f284e149124aa9a6b963882d2b39ae1742196 crypto: add crypto_has_kpp()
-a116e1cdc64a743c36c40e6fa639dec991c157a3 lib/base64: RFC4648-compliant base64 encoding
-88b140fec07307f825170a45562013a80842cc93 nvme: add definitions for NVMe In-Band authentication
-3bf2fde6fcc49ccc899cd2a853888823662ccd4c nvme-fabrics: decode 'authentication required' connect error
-f50fff73d620cd6e8f48bc58d4f1c944615a3fea nvme: implement In-Band authentication
-b61775d185a395f26fecdc7898e39de677a6c3dd nvme-auth: Diffie-Hellman key exchange support
-6490c9ed06de4a97a1ba89f53cd6c045d5277bc4 nvmet: parse fabrics commands on io queues
-db1312dd95488b5e6ff362ff66fcf953a46b1821 nvmet: implement basic In-Band Authentication
-7a277c37d3522e9b2777d762bbbcecafae2b1f8d nvmet-auth: Diffie-Hellman key exchange support
-1a70200f404ae210b4f0334e3936e84f8edb6bc8 nvmet-auth: expire authentication sessions
-4bc14f3101364877dd59085f39e068a2a7ec9f2d block/rnbd-srv: Set keep_id to true after mutex_trylock
-ce11bdf946176d48c2c0d36b56f0bf368c177298 block/rnbd-srv: Replace sess_dev_list with index_idr
-058efe000b31ce9c63bca02a33b67780b0ef5b41 null_blk: add module parameters for 4 options
-7012eef520cb7cb12910fb799dfd4ad0ed256b77 null_blk: add configfs variables for 2 options
-0525af711b6676156fdffc1072c49ff1d1d5bc0f nvme-rdma: remove timeout for getting RDMA-CM established event
-53ee9e29377882f268a51b1aa8b06c80e7fce7a2 nvme-tcp: use in-capsule data for I/O connect
-1fcfca78129325c067b1d26f8a1fa33ecc1052c8 nvme-pci: use nvme core helper to cancel requests in tagset
-0f89f0ece50ec12fcec70f22b3a6ea9fd2051688 nvme-apple: use nvme core helper to cancel requests in tagset
-c13cf14f44d23102f864a0d845439aa175631854 nvme-multipath: refactor nvme_mpath_add_disk
-ee452a8d984f94fa8e894f003a52e776e4572881 null_blk: fix ida error handling in null_add_dev()
-bc9da6dd0630efd81b5c72ff6fa0169aa029a73f nbd: add missing definition of pr_fmt
-640c46a21f89364f04445cdd43b61eb46bd49b5d bcache: remove EXPERIMENTAL for Kconfig option 'Asynchronous device registration'
-b9f91d80dec9369294a8df4e4c8850a339a32576 md/raid5: Fix sectors_to_do bitmap overflow in raid5_make_request()
-ee1aa06ba3258686452dab2db2a458310a83d07a md/raid5: Convert prepare_to_wait() to wait_woken() api
-ca39f7502425d437cbf83d29d99b43bd61342858 md: fix mddev->kobj lifetime
-c57094a6e1ed5dd2d6401f79b8e6da34dd28f959 md: fix error handling in md_alloc
-e8c59ac41974438168c89e2c881119c53934f96c md: implement ->free_disk
-33b614e33419b456bd870cacba1b56c897244f0b md: rename md_free to md_kobj_release
-2652a1bd2e749ace20339996015f3cf3fbfb8672 md: factor out the rdev overlaps check from rdev_size_store
-b0e706a1ba84e50eaa714486e06e1d0027411658 md: stop using for_each_mddev in md_do_sync
-f26514342255855f4ca3c0a92cb1cdea01c33004 md: stop using for_each_mddev in md_notify_reboot
-16648bac862fd9c6490a465533345fbeaa6466e0 md: stop using for_each_mddev in md_exit
-12a6caf273240ae42842de8cc05feaa86e582d61 md: only delete entries from all_mddevs when the disk is freed
-5b26804bb0af5d4e4f3440b484244d478d60f16b md: simplify md_open
-a20d636bee41ea67b382207bee216e70f7206752 raid5: fix duplicate checks for rdev->saved_raid_disk
-2198c51a08349eb176cb9789bef6f7243b8699f8 md: fix build failure for !MODULE
-d13bc4d84a8e91060d3797fc95c1a0202bfd1499 remove the sx8 block driver
-c0250d16b22e6c1cf074720b386280c03eebff87 md: remove unneeded semicolon
-a110876828f5de63be657c62a33c8f61ececfb33 md: open code md_probe in autorun_devices
-34cb92c0a5a15b04e285c690b5a7dee77ddeeaf1 md: return the allocated devices from md_alloc
-e151db8ecfb019b7da31d076130a794574c89f6f md-raid: destroy the bitmap after destroying the thread
-d17f744e883b2f8d13cca252d71cfe8ace346f7d md-raid10: fix KASAN warning
-679c54f2de672b7d79d02f8c4ad483ff6dd8ce2e nvme: use command_id instead of req->tag in trace_nvme_complete_rq()
-eb7e2d92588cc6351286de13e3b5d70ecc768888 nvme: don't always build constants.o
-a25d4261582cf00dad884c194d21084836663d3d nvme: define compat_ioctl again to unbreak 32-bit userspace.
-4daf7fa07ee3c31d5b03b87f96dbf3d8151ef654 nvme-auth: fix off by one checks
-80e2768496a494ce3166f8358d8665d2a056bcb7 nvme-auth: uninitialized variable in nvme_auth_transform_key()
-33b6debd6128f28e21b916d1ec551683fd16e088 nvme-pci: remove useless assignment in nvme_pci_setup_prps
-8614144002b58520be653c5645cabe707fb46b2a nvme-pci: print the command name of aborted commands
-f91b727ccf1fabe6c02dc184bb8a156f895428c8 nvme-pci: split nvme_alloc_admin_tags
-2455a4b77835c2c9d1c0310d50f69e6fbc1b173f nvme-pci: split nvme_dev_add
-a7f7b7116c1439412db65079b8284727a4a6569b nvme-rdma: split nvme_rdma_alloc_tagset
-2f7a7e5d85f646d8b0756bd5cd9855322bd805a7 nvme-tcp: split nvme_tcp_alloc_tagset
-2fec1dfc28c993fe0ff8b72754e0b60a9338486e nvme-apple: stop casting function pointer signatures
-ee8cd008b7da0ee6f24167739e364f43b8a0875b nvmet: don't check for NULL pointer before kfree in nvmet_host_release
-7b1aae1aee2225ec28eb17b9e5c5d5252922f67f nvmet: fix a format specifier in nvmet_auth_ctrl_exponential
-9db056e9506ccf74405941777ae128947b81900d nvmet-auth: fix a couple of spelling mistakes
-1040415c29f065e47b6b4df9f3902602d0382d3d nvmet-auth: fix return value check in auth send
 be2ada6d0ed094c77040dc7e2d56599dd492d961 nvmet-auth: fix return value check in auth receive
 4cf42ec36673707acefcddbdc21da8d6a61ac5a2 nvmet-auth: select the intended CRYPTO_DH_RFC7919_GROUPS
 e06b425bc835ead08b9fd935bf5e47eef473e7a0 nvme: catch -ENODEV from nvme_revalidate_zones again
@@ -1050,5 +976,79 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+6772f91a6b4a51ed4e122754ac509d1f554f01bd [DO NOT MERGE] rbd: bump RBD_MAX_PARENT_CHAIN_LEN to 128
+d727e939548d13edf9b202e34e1023a0a61577c5 [DO NOT MERGE] ceph: dump info about cap flushes when we're waiting too long for them
+61c6c0a70fa163a8d467b4ca134b1ca018d607a8 [DO NOT MERGE] mm: BUG if filemap_alloc_folio gives us a folio with a non-NULL ->private
+311f1412f64c067e083ad2e5f33c72e50897ffcc libceph: drop last_piece flag from ceph_msg_data_cursor
+e2c4ad944085e3dddec980e50569bc8234feb3c0 libceph: add spinlock around osd->o_requests
+9d6ce2cdca453d67ddad371b145b397d0cffc17b libceph: define struct ceph_sparse_extent and add some helpers
+b766ae044b5daee41252a41178b51064572f573a libceph: add sparse read support to msgr2 crc state machine
+4ef3c12d04a8665dc854acc6371329f9d767641a libceph: add sparse read support to OSD client
+5187cd7da37b5e0d89996d23781c5283fb5b9e54 libceph: support sparse reads on msgr2 secure codepath
+7d3c9288bf3dbdc8096afa1747907e04036f9c8f libceph: add sparse read support to msgr1
+0637c29d3f4a9ae774e3d345141ef4e91c8b14c2 ceph: add new mount option to enable sparse reads
+48228ec82f9d9ee577fdf41edce8ecb9be871f87 ceph: preallocate inode for ops that may create one
+57a5cb89d01c6509f80a676664bd5103c9c5bc10 ceph: make ceph_msdc_build_path use ref-walk
+0ad03b1076f399774767000fe07d32addade7159 libceph: add new iov_iter-based ceph_msg_data_type and ceph_osd_data_type
+34aed36cea4d087736e6a82862f12172c32b58e8 ceph: use osd_req_op_extent_osd_iter for netfs reads
+3300dc72617db46dbfe5ecdfb06e7a2cfedc480c ceph: fscrypt_auth handling for ceph
+dbff3077bf4681c83d32b578c3226d5865236312 ceph: ensure that we accept a new context from MDS for new inodes
+3bd38c264fba9c9cd53456187c60d6abbf14b34a ceph: add support for fscrypt_auth/fscrypt_file to cap messages
+e754d4534fdc55c1201a11dcc916f7946fcb690e ceph: implement -o test_dummy_encryption mount option
+d346ca0c69db319fbb1963b51c8fa0a19f385321 ceph: decode alternate_name in lease info
+5b9aab9ed5dafab374395adb62dc0dd409e58830 ceph: add fscrypt ioctls
+16b1443698233757f5f8e52cc69fb5c100f1dd60 ceph: make the ioctl cmd more readable in debug log
+52e3b6b52d39b846d419204b4399216302c04e43 ceph: add base64 endcoding routines for encrypted names
+c5f3cd4846b045f669027f1a662f348aa9349738 ceph: add encrypted fname handling to ceph_mdsc_build_path
+993129d3920cb479444e872f952117c0a02154a8 ceph: send altname in MClientRequest
+a33a6727744ca9217e75227b1c1162fcf2f441e0 ceph: encode encrypted name in dentry release
+6b289d747921f74a9a85bdf8352b64b35a284293 ceph: properly set DCACHE_NOKEY_NAME flag in lookup
+3cf18ea91cfdabd242c08cca60dabe4c5d68b372 ceph: set DCACHE_NOKEY_NAME in atomic open
+ba312ff96e9a0120cf56f298e919655390023fff ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
+de09ad9c6f9fffc84823df4d42f5f833b492939b ceph: add helpers for converting names for userland presentation
+ff2f93e5b17e4e096d9cc2a68901e264c72b47d4 ceph: fix base64 encoded name's length check in ceph_fname_to_usr()
+ac2ff62329584c72326709e156fc92ccf94257f3 ceph: add fscrypt support to ceph_fill_trace
+831e811bb2933ff30adb425661edf01a861b2895 ceph: pass the request to parse_reply_info_readdir()
+481d9b97fe9cae29c186900686bcce20bd80bb65 ceph: add ceph_encode_encrypted_dname() helper
+40de1778a2aa135c60d8e4f799d0fc04c907853b ceph: add support to readdir for encrypted filenames
+11766824d21f2ae6c5b360f26077eb3ec24d6bce ceph: create symlinks with encrypted and base64-encoded targets
+6c83376644cddf7c5fe723700a89a363ae3b8e01 ceph: make ceph_get_name decrypt filenames
+9955877500a440400a3a829b70828d944d9385cb ceph: add a new ceph.fscrypt.auth vxattr
+bec0ea5e0940ef2aad6a8b1282644f93606e7ec2 ceph: add some fscrypt guardrails
+79b3703b56e2cbaba9796e1a2a668cde4ea25c03 ceph: wake up the waiters if any new caps comes
+227910e52e9db12ba188bd45df9adb7c8ef8f62f ceph: fail the open_by_handle_at() if the dentry is being unlinked
+7e788c95ffbbace719251efc449b3020f76ad300 ceph: fail the request if the peer MDS doesn't support getvxattr op
+0b9a2ffb3c555c683bed3c14a129ac53d14c6a60 ceph: no need to wait for transition RDCACHE|RD -> RD
+64cec26b03e959cc4c0d8e5a98d687bc42c40740 [DO NOT MERGE] ceph: BUG if MDS changed truncate_seq with client caps still outstanding
+750c04e299617e08253f0d8e8377b7b18bf3e71a ceph: Use kcalloc for allocating multiple elements
+1775692e2dcd98909ec32abf15a11e710c3b0dc2 ceph: don't allow changing layout on encrypted files/directories
+71149e0f8d57809ee054dbb8b59bce3eec5e8361 libceph: add CEPH_OSD_OP_ASSERT_VER support
+a220c82532d52b800b0021923a2183ac59832fa0 ceph: size handling for encrypted inodes in cap updates
+38779d3042a6e9d6bd761c6c2ee2df7ab0ea9fd2 ceph: fscrypt_file field handling in MClientRequest messages
+0fd80e8f7766b65085610a62311720e68141f725 ceph: get file size from fscrypt_file when present in inode traces
+56f4ee751738947d1eadd1b63c19858d9a632221 ceph: handle fscrypt fields in cap messages from MDS
+fbe707a06e26c4d9381f703cd5f5c456e5370512 ceph: update WARN_ON message to pr_warn
+ce962354d4d66959e899543a095321c4c1695436 ceph: add __ceph_get_caps helper support
+19c74ffdc85e65dc2ecb5644dff79410398440f8 ceph: add __ceph_sync_read helper support
+5ba00ec36b047c9bc79c5d818dd5e058fb9f3a77 ceph: add object version support for sync read
+c48aea50e702a691f1e2cf7f268e8f58d0faf696 ceph: add infrastructure for file encryption and decryption
+389b227f6c6df9de0e5bcc15d394a773b3a6e8c2 ceph: add truncate size handling support for fscrypt
+79c911b35c698322f4b175d0e9f0eaa0c16acb77 libceph: allow ceph_osdc_new_request to accept a multi-op read
+906e65d5866b5f8c22aa7538918f25dfaf56641a ceph: disable fallocate for encrypted inodes
+18ac07240eeb3ab5b188eba09439412f8ac8bdbc ceph: disable copy offload on encrypted inodes
+ec87605a87148c89541bae5617bf9e6a3936cfbc ceph: don't use special DIO path for encrypted inodes
+8e82fd2f11dc95c5b89c244948a2cbd660a18cbf ceph: align data in pages in ceph_sync_write
+a39d6f7fe34260acc2b700a5e62acd8ef687be5f ceph: add read/modify/write to ceph_sync_write
+32afd3279c01211df54c180067da08b7f574da22 ceph: plumb in decryption during sync reads
+e8eef0dd8bda4ac32527425f161131bc9b085639 ceph: add fscrypt decryption support to ceph_netfs_issue_op
+e6fee7427d4fa510791c63df8a0c46b8c110e61f ceph: set i_blkbits to crypto block size for encrypted inodes
+874aac48d08c63c202f7eba380e90e13652ac262 ceph: add encryption support to writepage
+b3f33cd0961825e001d9c31c32fe699f264a8a2c ceph: fscrypt support for writepages
+ea1c273a00c65ad01e65b7da1f007eb50575de00 ceph: invalidate pages when doing direct/sync writes
+6dda50ea109183c9942eb309a9a0c1c6d2cdfeb9 ceph: add support for encrypted snapshot names
+4748ccf6564b342ada527ff8ba7fe8bfe55abb42 ceph: add support for handling encrypted snapshot names
+b8f31c6fb6d0657c2b917407dcb62a2b8bd131b8 ceph: update documentation regarding snapshot naming limitations
+eeaa43ab861d13ffdee4d0810bed3bc3c8f1154a ceph: prevent snapshots to be created in encrypted locked directories
+ecea518da25efc67dcf31a3926b30d4ee40e2a49 ceph: report STATX_ATTR_ENCRYPTED on encrypted inodes
 
---===============2874668949621554429==--
+--===============7149748880364885158==--
