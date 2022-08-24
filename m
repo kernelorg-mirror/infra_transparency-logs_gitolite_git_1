@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 24 Aug 2022 02:35:31 -0000
-Message-Id: <166130853161.3939.10158691084248064494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 24 Aug 2022 02:38:06 -0000
+Message-Id: <166130868635.4901.16099454635932557701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 69ceb67d69b1fb5b325f595634d6c6fce18e91c3
-    new: 11368e43fdf80c70e4bfaeba5d24ec42eaa3440a
+  - ref: refs/heads/for-kernelci
+    old: 48a86d3e48368fd79d1c4b96158cb77346f1867e
+    new: 55db068d39eb4a3c9255251f940a9296d1c0f2c1
     log: |
-         11368e43fdf80c70e4bfaeba5d24ec42eaa3440a platform/chrome: cros_ec: Expose suspend_timeout_ms in debugfs
+         e8bf17d58a4db4b4f38617925414097f12e0d509 platform/chrome: cros_ec: Expose suspend_timeout_ms in debugfs
+         55db068d39eb4a3c9255251f940a9296d1c0f2c1 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
