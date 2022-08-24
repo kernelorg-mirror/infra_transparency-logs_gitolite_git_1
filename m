@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5784665863800701811=="
+Content-Type: multipart/mixed; boundary="===============8632760309912087347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 24 Aug 2022 14:12:33 -0000
-Message-Id: <166135035318.22800.11145566352432564136@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 14:13:24 -0000
+Message-Id: <166135040423.23159.2741506320054905956@gitolite.kernel.org>
 
---===============5784665863800701811==
+--===============8632760309912087347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 changes:
-  - ref: refs/heads/for-6.1/common_kmalloc
-    old: ba5801e322cd126376e8396b7ef9f969d764f4f3
-    new: 40bbb2b687e72db605dfef954028ff7148849b5d
-    log: revlist-ba5801e322cd-40bbb2b687e7.txt
+  - ref: refs/heads/for-next
+    old: 4f128c5dad699626f6b563b74cd9b0d6d92fe8e0
+    new: b9edc6b87a7ced9bac71b1ee41a4736c94e6a1e0
+    log: revlist-4f128c5dad69-b9edc6b87a7c.txt
 
---===============5784665863800701811==
+--===============8632760309912087347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba5801e322cd-40bbb2b687e7.txt
+Content-Disposition: attachment; filename=revlist-4f128c5dad69-b9edc6b87a7c.txt
 
 c31a910c74ed558461dc7eecf6168ccf805775ec mm/slab: move NUMA-related code to __do_cache_alloc()
 07588d726f8d320215dcf6c79a28fe6b1bab6255 mm/slab: cleanup slab_alloc() and slab_alloc_node()
@@ -43,5 +43,6 @@ d3fc51efd5625efe8b52bf04542a55c63acc3f9f mm/sl[au]b: cleanup kmem_cache_alloc[_n
 5fc20765d943cfa57f52d41d2e191a81388b8cce mm/slab_common: drop kmem_alloc & avoid dereferencing fields when not using
 68e6558c4c5066e8e16b44b5b9d81d3caa08080a mm/slab_common: move declaration of __ksize() to mm/slab.h
 40bbb2b687e72db605dfef954028ff7148849b5d mm/sl[au]b: check if large object is valid in __ksize()
+b9edc6b87a7ced9bac71b1ee41a4736c94e6a1e0 Merge branch 'slab/for-6.1/common_kmalloc' into slab/for-next
 
---===============5784665863800701811==--
+--===============8632760309912087347==--
