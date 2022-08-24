@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9044137898160711848=="
+Content-Type: multipart/mixed; boundary="===============1059629808046854260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 24 Aug 2022 12:18:08 -0000
-Message-Id: <166134348832.5746.8402662859469777787@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 12:18:18 -0000
+Message-Id: <166134349873.5882.9666500258085587988@gitolite.kernel.org>
 
---===============9044137898160711848==
+--===============1059629808046854260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/wip.cleanup
-    old: 699d63380e124fdc56d1917394be2b1ff29909e2
-    new: 6c1c8d29320b1d7fa68c953ab9b32c4dee96b3ea
-    log: revlist-699d63380e12-6c1c8d29320b.txt
+  - ref: refs/heads/objtool/wip
+    old: b29343e91fc6afd6cb19cbfc19cad75f163c2f18
+    new: e5025e093d2e20aef229ec4151671a670efd6a14
+    log: revlist-b29343e91fc6-e5025e093d2e.txt
 
---===============9044137898160711848==
+--===============1059629808046854260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-699d63380e12-6c1c8d29320b.txt
+Content-Disposition: attachment; filename=revlist-b29343e91fc6-e5025e093d2e.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -456,14 +456,7 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-734a1481584b9d4749b6680161030bce257fc8a8 perf/x86: Add two more x86_pmu methods
-097a73a8ad033491b4d7b11f5bd188be80217fad perf/x86/intel: Move the topdown stuff into the intel driver
-6e165f2035e65ffbf616b541bb700b8e1f8bdce8 perf/x86: Change x86_pmu::limit_period signature
-ec59437412de0b7e342a011aeaa092b71e4f2c38 perf/x86: Add a x86_pmu::limit_period static_call
-db381180dc05825b2f21c05d1c5740e2a2fcae69 perf/x86/intel: Remove x86_pmu::set_topdown_event_period
-c24d4981f438f0906cd292acdc77f07f680c11f7 perf/x86/intel: Remove x86_pmu::update_topdown_event
-2597458467c1a7c615f3babff00332df4067c6a2 perf/x86/p4: Remove perfctr_second_write quirk
-9642f957a16cba5b164ae80c101aac088ee58ab6 perf/x86/intel: Optimize short PEBS counters
-6c1c8d29320b1d7fa68c953ab9b32c4dee96b3ea perf/x86/intel: Shadow MSR_ARCH_PERFMON_FIXED_CTR_CTRL
+eb4fedc8a30d8d29318c5e1b0ad10ab0629231a8 Merge branch 'tip/objtool/core'
+e5025e093d2e20aef229ec4151671a670efd6a14 objtool: Rework arch_dest_reloc_offset()
 
---===============9044137898160711848==--
+--===============1059629808046854260==--
