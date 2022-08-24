@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 24 Aug 2022 17:25:49 -0000
-Message-Id: <166136194998.1180.13769224842693662472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 24 Aug 2022 17:26:10 -0000
+Message-Id: <166136197047.1438.5799772598031051338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/md-next
-    old: ba5f3643ff6eed7300fd0cfb327ecb48a8be3fb6
-    new: 5c9bfa62b67fa155b432fa94c8e8ec16f672bdae
+  - ref: refs/heads/for-next
+    old: a8df1b0636af686ebcab0df3ececa895fc96ee05
+    new: 092e6777272883d302e417f91c203d5560c89170
     log: |
-         5c9bfa62b67fa155b432fa94c8e8ec16f672bdae md : Replace snprintf with scnprintf
+         092e6777272883d302e417f91c203d5560c89170 selftests/bpf: Add cb_refs test to s390x deny list
          
