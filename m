@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
-Date: Wed, 24 Aug 2022 08:33:35 -0000
-Message-Id: <166133001583.28709.10602784660534206740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 24 Aug 2022 08:33:45 -0000
+Message-Id: <166133002536.28840.3266161396709833162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs
-user: horms
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 677fb7525331375ba2f90f4bc94a80b9b6e697a3
-    new: 7fb0269720d7d5359bc8349eef908a1c96866b65
   - ref: refs/heads/master
-    old: 677fb7525331375ba2f90f4bc94a80b9b6e697a3
-    new: 7fb0269720d7d5359bc8349eef908a1c96866b65
+    old: 5d1424d85ac9e2a1369ee920038825c154ee5443
+    new: ebb107bcb1f50c8e12bb732f344536eeed1bb295
+    log: |
+         ebb107bcb1f50c8e12bb732f344536eeed1bb295 mount: (docs) fix typos in bind-mount references
+         
