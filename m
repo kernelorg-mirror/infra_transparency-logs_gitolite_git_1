@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 24 Aug 2022 14:35:15 -0000
-Message-Id: <166135171541.8782.17688506392975470252@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 15:14:19 -0000
+Message-Id: <166135405918.2027.7392719395530820619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
   - ref: refs/heads/review-hans
-    old: b3d5f836986d4c0aa73ca0d8a2c01bce3af119d5
-    new: e7824452cd8ad9d4cc914b1b835a3008b5aa8e77
+    old: e7824452cd8ad9d4cc914b1b835a3008b5aa8e77
+    new: 3caf1e84466f0af28e4e34f7babc484f4af71d67
     log: |
-         1bc8b5f883ab342da0b43f4208f95f3cbfd19dcd platform/x86: asus-wmi: Support the hardware GPU MUX on some laptops
-         ae01b2677d6e21d10138d226a158312cc3d234d0 platform/x86: asus-wmi: Adjust tablet/lidflip handling to use enum
-         e7824452cd8ad9d4cc914b1b835a3008b5aa8e77 platform/x86: asus-wmi: Add support for ROG X13 tablet mode
+         b9990b6d1f2bb3e7555b4d47db62a16117b93d31 platform/x86: asus-wmi: Simplify tablet-mode-switch probing
+         3caf1e84466f0af28e4e34f7babc484f4af71d67 platform/x86: asus-wmi: Simplify tablet-mode-switch handling
          
