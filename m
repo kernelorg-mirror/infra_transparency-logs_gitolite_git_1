@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5255848800733336849=="
+Content-Type: multipart/mixed; boundary="===============1998003299132607426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 24 Aug 2022 17:04:44 -0000
-Message-Id: <166136068446.15747.1359404809352325949@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 17:04:54 -0000
+Message-Id: <166136069474.15848.942796362795753947@gitolite.kernel.org>
 
---===============5255848800733336849==
+--===============1998003299132607426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 855a28f9c96c80e6cbd2d986a857235e34868064
-    new: 0c4a95417ee4b1013ddf115fb6dbe36a2503a598
-    log: revlist-855a28f9c96c-0c4a95417ee4.txt
+  - ref: refs/heads/dev-queue
+    old: 2505a167220211096121c4c8334e3dbaa0e80313
+    new: 1317bb5cb2f8a5c66c28f8db6b6e4a23e67b83cd
+    log: revlist-2505a1672202-1317bb5cb2f8.txt
 
---===============5255848800733336849==
+--===============1998003299132607426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-855a28f9c96c-0c4a95417ee4.txt
+Content-Disposition: attachment; filename=revlist-2505a1672202-1317bb5cb2f8.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 717ada9f10f2de8c4f4d72ad045f3b67a7ced715 Revert "xfrm: update SA curlft.use_time"
@@ -77,5 +77,14 @@ a5612ca10d1aa05624ebe72633e0c8c792970833 net: Fix data-races around sysctl_devco
 05e49cfc89e4f325eebbc62d24dd122e55f94c23 net: Fix a data-race around netdev_unregister_timeout_secs.
 3c9ba81d72047f2e81bb535d42856517b613aba7 net: Fix a data-race around sysctl_somaxconn.
 0c4a95417ee4b1013ddf115fb6dbe36a2503a598 Merge branch 'sysctl-data-races'
+6bf4efdc39e19ebba5cde02664d15c328d5ae6eb ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+5e425e738bffaa005cf7ecc436b08000286e45a5 ice: config netdev tc before setting queues number
+4689908a6bdafd6023e39b96c3adc590074104dd i40e: Fix ADQ rate limiting for PF
+9e21e3ce2c688d5937afcdab50f11f2b93ec96a9 ice: Don't double unplug aux on peer initiated reset
+602d2c4f5cbebad2ec0e1eb188b4a4ef394c8474 ice: Fix DMA mappings leak
+2dc46329dc54c1ffa9604164566fb7b3727c46d9 i40e: Fix kernel crash during module removal
+ae05f9e1fd9a4f490b5cb483ef8f888cd5d1af97 ice: use bitmap_free instead of devm_kfree
+2470233242680a51e5e46a675a558fdb2a9c5b46 ice: Fix crash by keep old cfg when update TCs more than queues
+1317bb5cb2f8a5c66c28f8db6b6e4a23e67b83cd i40e: Fix incorrect address type for IPv6 flow rules
 
---===============5255848800733336849==--
+--===============1998003299132607426==--
