@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1059629808046854260=="
+Content-Type: multipart/mixed; boundary="===============6064169764996079291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 24 Aug 2022 12:18:18 -0000
-Message-Id: <166134349873.5882.9666500258085587988@gitolite.kernel.org>
+Date: Wed, 24 Aug 2022 12:18:28 -0000
+Message-Id: <166134350881.6021.12982350926181954094@gitolite.kernel.org>
 
---===============1059629808046854260==
+--===============6064169764996079291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/wip
-    old: b29343e91fc6afd6cb19cbfc19cad75f163c2f18
-    new: e5025e093d2e20aef229ec4151671a670efd6a14
-    log: revlist-b29343e91fc6-e5025e093d2e.txt
+  - ref: refs/heads/sched/wip
+    old: fda4c9d9f54ab9afe7ea155ecf67fc5cb3bba174
+    new: 53e1ff37906c4063e3607f91911e3d515a6b7170
+    log: revlist-fda4c9d9f54a-53e1ff37906c.txt
 
---===============1059629808046854260==
+--===============6064169764996079291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b29343e91fc6-e5025e093d2e.txt
+Content-Disposition: attachment; filename=revlist-fda4c9d9f54a-53e1ff37906c.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -456,7 +456,16 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-eb4fedc8a30d8d29318c5e1b0ad10ab0629231a8 Merge branch 'tip/objtool/core'
-e5025e093d2e20aef229ec4151671a670efd6a14 objtool: Rework arch_dest_reloc_offset()
+78b6b15770618efb60d84e2d605f6b93dc94051b sched/fair: Maintain task se depth in set_task_rq()
+39c4261191bf05e7eb310f852980a6d0afe5582a sched/fair: Remove redundant cpu_cgrp_subsys->fork()
+5d6da83c44af70ede7bfd0fd6d1ef8a3b3e0402c sched/fair: Reset sched_avg last_update_time before set_task_rq()
+859f206290f345c151a6005de639ba9677bf3e18 sched/fair: Update comments in enqueue/dequeue_entity()
+e1f078f50478a51849453341e7356cb298df00cf sched/fair: Combine detach into dequeue when migrating task
+7e2edaf61814fb6aa363989d718950c023b882d4 sched/fair: Fix another detach on unattached task corner case
+df16b71c686cb096774e30153c9ce6756450796c sched/fair: Allow changing cgroup of new forked task
+d6531ab6e50149ab2a144b0f4787cb9277d0893f sched/fair: Move task sched_avg attach to enqueue_task_fair()
+e4fe074d6c359c19b74564fa1364fe48343cfa5d sched/fair: Don't init util/runnable_avg for !fair task
+ad7d2b8bf2849e01c2e06ab868618a49a99ebacd Merge branch 'tip/sched/core'
+53e1ff37906c4063e3607f91911e3d515a6b7170 sched/fair: Fold the sched_avg update
 
---===============1059629808046854260==--
+--===============6064169764996079291==--
