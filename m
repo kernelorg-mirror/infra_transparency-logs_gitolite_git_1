@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 24 Aug 2022 21:46:49 -0000
-Message-Id: <166137760967.24715.7281811621388578340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 24 Aug 2022 21:55:05 -0000
+Message-Id: <166137810536.30992.13068128515499178382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/tags/mm-everything-2022-08-24-21-46
-    old: 0000000000000000000000000000000000000000
-    new: e75a966d3a94f0ed6798c2d353c19e585433b831
+  - ref: refs/heads/master
+    old: 1816895b788e4437c8a5d1cdc00a59bc39f52ebf
+    new: 9d31bc929237e093b497a740b22e3961f8df89c5
+    log: |
+         5446b11aa39996920e0949e77397410e599b2162 Enable CPU affinity support on Android
+         9d31bc929237e093b497a740b22e3961f8df89c5 Merge branch 'master' of https://github.com/bvanassche/fio
+         
