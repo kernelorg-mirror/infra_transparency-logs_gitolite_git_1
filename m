@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Thu, 25 Aug 2022 14:40:40 -0000
-Message-Id: <166143844056.745.14026661119923296423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Thu, 25 Aug 2022 14:41:23 -0000
+Message-Id: <166143848317.1093.5342252564262934078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/linux-next
-    old: 6bb79f5b4c84a09cd6bed46ef3e46ef4fc21407d
-    new: 5f3925e34594c48b4aab0ec55082bcbf00542e4b
+  - ref: refs/heads/counter-next
+    old: 56b10f734bb5d3857d1b37ccc91d9ae5112f5d40
+    new: a12224997bec72d231a8dd642876e6364decdc45
     log: |
-         5f3925e34594c48b4aab0ec55082bcbf00542e4b xen/privcmd: fix error exit of privcmd_ioctl_dm_op()
+         a12224997bec72d231a8dd642876e6364decdc45 counter: Move symbols into COUNTER namespace
          
