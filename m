@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7267788063954416433=="
+Content-Type: multipart/mixed; boundary="===============7094543022877583234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 25 Aug 2022 13:57:15 -0000
-Message-Id: <166143583536.2906.13375627649362130668@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 13:57:24 -0000
+Message-Id: <166143584466.3019.9320336333547941112@gitolite.kernel.org>
 
---===============7267788063954416433==
+--===============7094543022877583234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 0fef40be5d1f8e7af3d61e8827a63c5862cd99f7
-    new: 41ac42f137080bc230b5882e3c88c392ab7f2d32
-    log: revlist-0fef40be5d1f-41ac42f13708.txt
+  - ref: refs/heads/for-next
+    old: 16acb3691091bd534849e43d734a0058cf8091d2
+    new: 67a933343b485c0722c78092b5bbbdd1d98cb59e
+    log: revlist-16acb3691091-67a933343b48.txt
 
---===============7267788063954416433==
+--===============7094543022877583234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fef40be5d1f-41ac42f13708.txt
+Content-Disposition: attachment; filename=revlist-16acb3691091-67a933343b48.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -456,5 +456,6 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 13cccafe0edcd03bf1c841de8ab8a1c8e34f77d9 s390: fix double free of GS and RI CBs on fork() failure
 41ac42f137080bc230b5882e3c88c392ab7f2d32 s390/mm: do not trigger write fault when vma does not allow VM_WRITE
+67a933343b485c0722c78092b5bbbdd1d98cb59e Merge branch 'fixes' into for-next
 
---===============7267788063954416433==--
+--===============7094543022877583234==--
