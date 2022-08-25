@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 25 Aug 2022 02:10:05 -0000
-Message-Id: <166139340505.22255.8953613419218440823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 25 Aug 2022 02:29:36 -0000
+Message-Id: <166139457682.2515.6917480632057661707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9d31bc929237e093b497a740b22e3961f8df89c5
-    new: 05ef0e4e822ffa81d6e92ed538d32cc37a907279
+    old: 1faa34672f8a17a3e155e74bde9648564e9480d6
+    new: 0bf73255d3a3cf3b0416e95f2c9f7c53095c2e1a
     log: |
-         6243766bb1660ad8880fffc373121bcc4d61620d io_uring: Replace pthread_self with s->tid
-         05ef0e4e822ffa81d6e92ed538d32cc37a907279 Merge branch 'master' of https://github.com/kraj/fio
+         35bbe652c421037822aba29423f5f1f7d0d69f3f net: ethernet: ti: davinci_mdio: fix build for mdio bitbang uses
+         0bf73255d3a3cf3b0416e95f2c9f7c53095c2e1a netlink: fix some kernel-doc comments
          
