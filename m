@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1019123387426335068=="
+Content-Type: multipart/mixed; boundary="===============2695369450094354514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 25 Aug 2022 13:56:59 -0000
-Message-Id: <166143581982.2640.6704256454575833712@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 13:57:06 -0000
+Message-Id: <166143582625.2734.8075771604475630705@gitolite.kernel.org>
 
---===============1019123387426335068==
+--===============2695369450094354514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/master
     old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
     log: revlist-568035b01cfb-1c23f9e627a7.txt
 
---===============1019123387426335068==
+--===============2695369450094354514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -457,4 +457,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 
---===============1019123387426335068==--
+--===============2695369450094354514==--
