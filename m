@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1173803832670258103=="
+Content-Type: multipart/mixed; boundary="===============4146232083161484403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 25 Aug 2022 09:49:15 -0000
-Message-Id: <166142095545.17618.12080169976055722021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 25 Aug 2022 10:03:44 -0000
+Message-Id: <166142182446.25472.837578286783527547@gitolite.kernel.org>
 
---===============1173803832670258103==
+--===============4146232083161484403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 45a05f0591dbe984d6f1acdd9c4519da4b1238ad
-    new: c52c7aa3714bba3b18653810f3d2ed34eeb0e42b
-    log: |
-         c52c7aa3714bba3b18653810f3d2ed34eeb0e42b Notes added by 'git notes add'
-         
+  - ref: refs/heads/perf/core
+    old: ba29445211b396e6362dff482fecc36a77da12f7
+    new: 0ab73dadedb11c68f239711d24f197ca87c538ac
+    log: revlist-ba29445211b3-0ab73dadedb1.txt
 
---===============1173803832670258103==
+--===============4146232083161484403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ba29445211b3-0ab73dadedb1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661420954 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1661420952-1b8fafcc27642e0e1b6a12657d6d1387f7b52ee6
+5dbc1d3b833e8a4f6826c229b9376c4aecd87804 perf/x86/intel/uncore: fix broken read_counter() for SNB IMC PMU
+5a0074db5023cbe18a3afcd42e347a0555ebc32a perf/x86/amd/brs: Move feature-specific functions
+fc8a2a6f84510aec4a9394a2cd4625e02faaefb0 perf/x86/amd/core: Refactor branch attributes
+d1706ce0d62fc134e1295c5d4b94dc63da478358 perf/x86/amd/core: Add generic branch record interfaces
+f5aeaf0831d491c2dbe07290b78ce799e1205935 x86/cpufeatures: Add LbrExtV2 feature bit
+b1076f50147c8a74cadd52c1a04afb22a5209523 perf/x86/amd/lbr: Detect LbrExtV2 support
+f4b70fa29648dc78ba1e153d976e655b1caf3a1b perf/x86/amd/lbr: Add LbrExtV2 branch record support
+fb0eb2aa69d952c4ca4231b1497f8d8b83bde671 perf/x86/amd/lbr: Add LbrExtV2 hardware branch filter support
+eada9b0c14f53c16e0eca2eabd8eeecdaa4f1c89 perf/x86: Move branch classifier
+0bc4222ae7849a990fb4646c351f679af23e7bfc perf/x86/amd/lbr: Add LbrExtV2 software branch filter support
+6ddbc69bf38f98c97c9b6d868cc2cb977249e467 perf/x86: Make branch classifier fusion-aware
+dd7b31ea824f6cdae5690e02dccb3a66950174e2 perf/x86/amd/lbr: Use fusion-aware branch classifier
+925894e798bf7a99212a1b3d16870f8f07adb219 perf/core: Add speculation info to branch entries
+0ab73dadedb11c68f239711d24f197ca87c538ac perf/x86/amd/lbr: Add LbrExtV2 branch speculation info support
 
-45a05f0591dbe984d6f1acdd9c4519da4b1238ad c52c7aa3714bba3b18653810f3d2ed34eeb0e42b refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMHRZobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Qh4QAJE1YG8tfX9I1zSgTgXD
-RRhQlG1KF2cRokLxqQmXuHQLdfAMsKF34YbGYwYFufG/5/bFN4LVOis27p4CftIm
-mAZ+i/jkrWzHnpYXvLsT9UOClpOvjq4T2bNZ28nTpG8xWY2GpCzyXIzcjjedNNRi
-RaeyZ1LtS0IXckZTdz8Du1BPXIOvEKlHd1hsTNoQPK+GteF/+dRRtuc3AS3Fz5em
-8M3uVsonwEnTuIWDj2QrSR51fs9pVt2ROS/uOyiEB1RX55E1lZUDtRSO3Voticqj
-9T2VjZaKtQPhdoRiyT1Xu+Jt81a2fb0Tc+BIVeGTyb2vXIodnb+fJw+vy89tWG99
-tiNQ8MZO6df2q8qGTPg78PdtfYEVQJQ/PACv/4eOZvcHBiT/vCAJhPJHJJXEk2Os
-rx4Hef98cyco2yD5Ye60aN97B/p+EmVE0ksLwmmbFKEfLaV7hGvsgKyc/mQm3V/2
-RYtgiF4BZwFakBTnCVGlq39ePaBnciWtgcmlflyVVtbHvfhCbnBxxey/SaRyqG8S
-97hobPhgSb+GK4GMT9Sle4Yv7fSbE4k5n9G+CsH9sRNSAtTEsqh4PTiXyCL8kcQZ
-nnDTl8P3TSRDH/AvaPnoTtrpn5loyP4yrtovSjSaoQMFu9NfpSHGppHqbZM3pVko
-rBbbqb5fqlccTr6pNg2im33S
-=1qbF
------END PGP SIGNATURE-----
-
---===============1173803832670258103==--
+--===============4146232083161484403==--
