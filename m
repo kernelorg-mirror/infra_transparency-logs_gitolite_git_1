@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1958699875047800233=="
+Content-Type: multipart/mixed; boundary="===============3660666707422786948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Thu, 25 Aug 2022 20:06:56 -0000
-Message-Id: <166145801661.7819.14464664358209455346@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 20:07:26 -0000
+Message-Id: <166145804645.8061.4041805819541584459@gitolite.kernel.org>
 
---===============1958699875047800233==
+--===============3660666707422786948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,31 @@ repo: pub/scm/utils/patatt/patatt
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8a3da6965836d46509a0f5eab9808cdb9542deed
-    new: 7b43b64f669b7304253d67d3eff239828047dc26
+  - ref: refs/notes/signatures/tar
+    old: d36508a17dbb71356ce9c3cbc861a0a5523d7e88
+    new: 3d11b16a4f081b186fe6ad9db109bc971d4f9a21
     log: |
-         dee7eb1a2db35da5bc6fd97e5fb4484c6690c4d0 Increment version to 0.7.0-dev
-         7b43b64f669b7304253d67d3eff239828047dc26 Use NamedTemporaryFile for gpg keyring creation
+         3d11b16a4f081b186fe6ad9db109bc971d4f9a21 Notes added by 'git notes add'
          
-  - ref: refs/heads/stable-0.6.y
-    old: 0000000000000000000000000000000000000000
-    new: 3da21742640e828f006e34f47e375b8d057f87ea
 
---===============1958699875047800233==
+--===============3660666707422786948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1661458016 -0400
+pusher B6C41CE35664996C! 1661458046 -0400
 pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1661458016-a48f7da47fb9f7b9706bbec0f013d966e8faaa15
+nonce 1661458046-fb88fa4e534b7dd43cb422e47ebb97b65efe0c1b
 
-8a3da6965836d46509a0f5eab9808cdb9542deed 7b43b64f669b7304253d67d3eff239828047dc26 refs/heads/main
-0000000000000000000000000000000000000000 3da21742640e828f006e34f47e375b8d057f87ea refs/heads/stable-0.6.y
+d36508a17dbb71356ce9c3cbc861a0a5523d7e88 3d11b16a4f081b186fe6ad9db109bc971d4f9a21 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYwfWYAAKCRC2xBzjVmSZ
-bK1xAQDmrObUZZXPBJiKabcUVD096MIubADb3HnZesyI7zS/kgD8C8SCLkoVfjI4
-3tPVgZdjxuczTghwKTjWPfA7hY3xZw8=
-=dWgX
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYwfWfgAKCRC2xBzjVmSZ
+bP3DAP0TBo+n8GOvy7VfiRr4TFHvBUmE1MlQjtBlLNA5TQPwYwD+Kv6iWCQZg7YS
+0Y3SM6upMq1snKhi7TJQBEK+CJVLDwk=
+=xz8X
 -----END PGP SIGNATURE-----
 
---===============1958699875047800233==--
+--===============3660666707422786948==--
