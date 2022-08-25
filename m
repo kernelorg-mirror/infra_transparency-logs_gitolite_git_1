@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3311630389311655259=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 25 Aug 2022 13:08:56 -0000
-Message-Id: <166143293632.31362.16458437914865059603@gitolite.kernel.org>
-
---===============3311630389311655259==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 25 Aug 2022 13:09:11 -0000
+Message-Id: <166143295164.31537.10209872660468737457@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 1a09e0e8cfbbf91169fddf55a4b0e2f631fa57ad
-    new: d294e99cdc823f368530b8169e33a599fa2a1afe
+  - ref: refs/heads/for-linus
+    old: c32f1ebfd26bece77141257864ed7b4720da1557
+    new: 78e1e867f44e6bdc72c0e6a2609a3407642fb30b
     log: |
-         d294e99cdc823f368530b8169e33a599fa2a1afe spi: pxa2xx: Remove the unneeded result variable
+         78e1e867f44e6bdc72c0e6a2609a3407642fb30b regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
          
-
---===============3311630389311655259==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661432935 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661432934-a948984fcf86ed9c0c866e732f70b440fa4d36d9
-
-1a09e0e8cfbbf91169fddf55a4b0e2f631fa57ad d294e99cdc823f368530b8169e33a599fa2a1afe refs/heads/spi-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMHdGcACgkQJNaLcl1U
-h9DIIAf+KAvCXJhvG8/YtiusqXSkl/Bij418jI9fIDaGxcfbuWfok9dPi/42PJ7F
-ctL6Cj3ZDENrebyuxylUfmeIObPvH8zae2gp4F3FuBpmUBCja5EQxsImyy3Utj+H
-OLyGriaRE7zt8UcYEmEey3zKiW+lG6EUVisvBxdE4gpuL3AMo58gcVqgiqQchYe8
-uYCSVKUbpE+u+vCjpJ7yFPW/eKDZEicwifTQYxOYOHH63xGkiyRSquMSN8wEVTcU
-7j3FLrvMZcdasoaTPPvBHbJ0L6vhka/F4H4wcZYdnnFLbwyHodrPWTfuWb5AxEh3
-VKzAU1uD0S99Nhs+MRQZfp1KsR2jQg==
-=o1dJ
------END PGP SIGNATURE-----
-
---===============3311630389311655259==--
+  - ref: refs/heads/for-next
+    old: b8a9f5a03ad687dbdd328b1e0d0cc1e3fa8b404f
+    new: e89e9017a4782a879634c53b0bd6f6b9d5a0c40a
+    log: |
+         78e1e867f44e6bdc72c0e6a2609a3407642fb30b regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+         d46f737208a45ddff2aef4b57218caa0476af2b6 regulator: drivers: Remove unnecessary print function dev_err()
+         e89e9017a4782a879634c53b0bd6f6b9d5a0c40a Merge remote-tracking branch 'regulator/for-6.1' into regulator-next
+         
