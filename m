@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Aug 2022 23:29:37 -0000
-Message-Id: <166147017786.23690.15843127947924881698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 25 Aug 2022 23:33:34 -0000
+Message-Id: <166147041429.26666.4305214649350928839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 0a0d55ef3e61d9f14e803cacb644fcc890f16774
-    new: d4ffb6f39f1a1b260966b43a4ffdb64779c650dd
+  - ref: refs/heads/fixes
+    old: 51be24acec350a12647406a05fdfb8cc99cfc6d7
+    new: 92e55a865bc7b3f89bb8c684f6846651868ee7d7
     log: |
-         d4ffb6f39f1a1b260966b43a4ffdb64779c650dd bpf: Add CGROUP prefix to cgroup_iter_order
+         92e55a865bc7b3f89bb8c684f6846651868ee7d7 Merge tag 'dt-fixes-for-palmer-6.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git into fixes
          
