@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7989175596471778818=="
+Content-Type: multipart/mixed; boundary="===============4691857257593054611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 25 Aug 2022 08:36:22 -0000
-Message-Id: <166141658264.31944.13146589828248158756@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 08:37:06 -0000
+Message-Id: <166141662688.32284.15585735636106547225@gitolite.kernel.org>
 
---===============7989175596471778818==
+--===============4691857257593054611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-drivers
-    old: a9e6b3819b365fd1955fafad588a5c0ada569383
+  - ref: refs/heads/edac-for-next
+    old: 5e2805d5379619c4a2e3ae4994e73b36439f4bad
     new: 7a14a11f93dfb3ef99c06d6adeb53d0759be571f
-    log: revlist-a9e6b3819b36-7a14a11f93df.txt
+    log: revlist-5e2805d53796-7a14a11f93df.txt
 
---===============7989175596471778818==
+--===============4691857257593054611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9e6b3819b36-7a14a11f93df.txt
+Content-Disposition: attachment; filename=revlist-5e2805d53796-7a14a11f93df.txt
 
 74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
@@ -1051,4 +1051,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 7a14a11f93dfb3ef99c06d6adeb53d0759be571f EDAC/ie31200: Add Skylake-S support
 
---===============7989175596471778818==--
+--===============4691857257593054611==--
