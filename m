@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3002277203355387252=="
+Content-Type: multipart/mixed; boundary="===============6461519201767301041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 25 Aug 2022 13:14:16 -0000
-Message-Id: <166143325676.2761.2979551516638183850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 25 Aug 2022 13:15:19 -0000
+Message-Id: <166143331916.4763.7135296494045825309@gitolite.kernel.org>
 
---===============3002277203355387252==
+--===============6461519201767301041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/ceph-fscrypt
-    old: f43905c2984eca22cb181d4fb98d30199635bb80
-    new: 46d15ce3eb30dd0caad44c9c62720f32cb556596
-    log: revlist-f43905c2984e-46d15ce3eb30.txt
+  - ref: refs/heads/for-next
+    old: 27bc5cbbaa73d1aa68ad5d88d9adefbe11b9439f
+    new: 68704dd63c5e9398d96dabc85345d11885361fe2
+    log: |
+         a579b0560cd74e9edacbc5d6a021bae90159fb91 mm/slub: move free_debug_processing() further
+         b81b2604cc892e527ddbcf3195ba7306aa416fdb mm/slub: restrict sysfs validation to debug caches and make it safe
+         2e68c19756c7b579e283ec90b968e3e1da755b1b mm/slub: remove slab_lock() usage for debug operations
+         984f6de812f7b99ab70b3726d05fd3a3a64daef7 mm/slub: convert object_map_lock to non-raw spinlock
+         8313f3390f46c1408a1bedb5fa76ca0d4855bdbe mm/slub: simplify __cmpxchg_double_slab() and slab_[un]lock()
+         591570a780fcc504d23111a56de19bf150c798c3 slub: Make PREEMPT_RT support less convoluted
+         68704dd63c5e9398d96dabc85345d11885361fe2 Merge branch 'slab/for-6.1/slub_validation_locking' into slab/for-next
+         
 
---===============3002277203355387252==
+--===============6461519201767301041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f43905c2984e-46d15ce3eb30.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-471798753e3a5a1976f5e71c0ca0001b6997c02e ceph: increment i_version when doing a setattr with caps
-a1b1d771910044c0427c7563065b686fd7e715b7 ceph: don't allow changing layout on encrypted files/directories
-4996e334e2c7392bd0b3d42bdd70a3c82485441c libceph: add CEPH_OSD_OP_ASSERT_VER support
-afe59c3c4d350077b9e11d990866844a089c46eb ceph: size handling for encrypted inodes in cap updates
-2109ef56633fc37858221e0779f3f7d8d1e8e6ed ceph: fscrypt_file field handling in MClientRequest messages
-4f3d004ce5133071e1a2606ad1234036bd24a40a ceph: get file size from fscrypt_file when present in inode traces
-59568856d05dcb8243b37296d7dd1c0002dab185 ceph: handle fscrypt fields in cap messages from MDS
-7549c9dd08c77e54f8397545f3b4de78a08a8a5e ceph: update WARN_ON message to pr_warn
-54604b4caf4029cdab4800c832c1d4e7b17d6e35 ceph: add __ceph_get_caps helper support
-f706f87b5c2f8577be87887785fe72ba6e23f58b ceph: add __ceph_sync_read helper support
-dcb2b4741b0d0ef6449482d31b87aa42cad0942a ceph: add object version support for sync read
-b8aa69cec42a52a6e487c7473ba675c6b1657c09 ceph: add infrastructure for file encryption and decryption
-9d61360ee21f289f7e71cebe8f67a3391e3a51da ceph: add truncate size handling support for fscrypt
-f7ca70d2226376559060ada9b51a63a8f0458376 libceph: allow ceph_osdc_new_request to accept a multi-op read
-0434596aa2d1b7a5a11bf7ce406c334cc7eb4016 ceph: disable fallocate for encrypted inodes
-35725a99f31c3bad0b741c19ea5664fa4378ec67 ceph: disable copy offload on encrypted inodes
-8cf972699a7de58ccde0aa8278c5b29f13c57b97 ceph: don't use special DIO path for encrypted inodes
-614d752c9f9e518ab94690d255af689d83d6c92e ceph: align data in pages in ceph_sync_write
-c8df4acd0bc72a81d2d8846955ace991144005ae ceph: add read/modify/write to ceph_sync_write
-7591bb9a1c7afa3f228506bda3c9ffc2586405b4 ceph: plumb in decryption during sync reads
-62703bc72d7e4edc9ac355cc58cb68aa53dcaac3 ceph: add fscrypt decryption support to ceph_netfs_issue_op
-930ad38614a369bd933a6f73773efb525b51a47a ceph: set i_blkbits to crypto block size for encrypted inodes
-ad2df864c57654e10a071f1ff8dff724947e2352 ceph: add encryption support to writepage
-25e59d1c89d88f954ab11c12f5b09376dfebe353 ceph: fscrypt support for writepages
-2c6cc3c5f88139a1573552d0671815889c09f081 ceph: invalidate pages when doing direct/sync writes
-619afa484aa82b0c5f795615cb573db9ff3199f9 ceph: add support for encrypted snapshot names
-914d78dd404ee3dee6c0136f72bf17bda6357918 ceph: add support for handling encrypted snapshot names
-b1e28c0ce78b3a3f99ddc5f682f3f4b2c625bb96 ceph: update documentation regarding snapshot naming limitations
-4d0e7e0fed4cfd896db1e50854c6e185b518ced9 ceph: prevent snapshots to be created in encrypted locked directories
-46d15ce3eb30dd0caad44c9c62720f32cb556596 ceph: report STATX_ATTR_ENCRYPTED on encrypted inodes
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1661433317 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1661433317-fc13543e2e45201655c5bbd05690fb140fc490f5
 
---===============3002277203355387252==--
+27bc5cbbaa73d1aa68ad5d88d9adefbe11b9439f 68704dd63c5e9398d96dabc85345d11885361fe2 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMHdeUACgkQ4CHKc/GJ
+qRBQVggAkO1eNTae/pc38dGz1bUJzCTwKXxaXhQ1pJMZ/HdY2rjXIhg+ovRix5mi
+ejiq4ZCkjdTBohpzQC5zkBekOJMVcRL1+yqIkHfhtHsC939Cs/d2PjUkzopm97sZ
+muOFKPdvPiH4bWjJdrT4583gQ33OwPb9ejw6SMNnbeCSSNXBZyXtxNQuk/gIe3yh
+K9pI1abvrtHklrZ+UvNIlWDChyp55dCRaSqz1CfIURPLCM78Ak4xDB3k2ykxV8Je
+azgiFztM3FBESqffu+dqw2FGxEudk+O7qLHdqb2MJMN/P/0a/5xNTzr2zKOM6akx
+HMGe/q0yRD/OqcpB77j8MQaZte4yOg==
+=knPf
+-----END PGP SIGNATURE-----
+
+--===============6461519201767301041==--
