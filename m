@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Thu, 25 Aug 2022 11:58:29 -0000
-Message-Id: <166142870917.10956.6844722125581205674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 25 Aug 2022 12:01:55 -0000
+Message-Id: <166142891572.13881.16972594074137743632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/tunnel
-    old: 22775c2d071fdda27f60de30b35af531de996d6d
-    new: dac61ad6baa7fad281fd43cb580885d59b2d5c7a
+  - ref: refs/heads/rcu/next
+    old: b417c40b399661316f51de4fb799325417606784
+    new: 942703b9450e92b05eec4efb1a32ebecff1d2852
     log: |
-         e402e686909ba16e38e4daf13a679675f5d47aa8 net: ipip: add dev_fill_forward_path() support
-         eae3c9485d75d7ed622025ae432e5bec8f7b24b5 netfilter: flowtable: tunnel rx support
-         dac61ad6baa7fad281fd43cb580885d59b2d5c7a netfilter: flowtable: tunnel tx support
+         34e8c5034b2d41cd1543e2f536e0975ebbc1d98b rcu: Add functions to compare grace-period state values
+         942703b9450e92b05eec4efb1a32ebecff1d2852 rcutorture: Limit read-side polling-API testing
          
