@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Aug 2022 00:55:21 -0000
-Message-Id: <166138892103.29262.1792507473051307063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Thu, 25 Aug 2022 01:33:17 -0000
+Message-Id: <166139119778.27728.6858694173607027177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 6fc2838b148f8fe6aa14fc435e666984a0505018
-    new: 15d620cdb0d5bc3d57cebfe43b9b46f5643c60be
+  - ref: refs/heads/wip-wrapped-keys
+    old: 8da5f2f9e613362c010a05af31452cb73520e0a9
+    new: 3c231b49572f2c0ca5af4c35f9899d34c7c8f03b
     log: |
-         9d9d00ac29d0ef7ce426964de46fa6b380357d0a bpf: Fix reference state management for synchronous callbacks
-         35f14dbd2fc6619dea8ac9eea18976378b18450b selftests/bpf: Add tests for reference state fixes for callbacks
-         096830808cf477f0f3f5f5ed8fd37a07dbea5c83 Merge branch 'Fix reference state management for synchronous callbacks'
-         d0bec49b9487f0bdea5d34fc9438a48f82a3699d selftests/bpf: Add lwt ip encap tests to test_progs
-         360cd736f8dd9e2d0ec88a8a18c440f827f9f28a selftests/bpf: Add cb_refs test to s390x deny list
-         15d620cdb0d5bc3d57cebfe43b9b46f5643c60be selftests/bpf: Fix wrong size passed to bpf_setsockopt()
+         df41fa48e2c3a59f50b856c159562b19e48a6852 blk-crypto: add basic hardware-wrapped key support
+         a0a97286ad2a4d1a4dd735e6fe1d6a1cef8e63a8 blk-crypto: show supported key types in sysfs
+         cf1600ccebf192e552cc25e8bf35dae0a0bda196 blk-crypto: add ioctls to create and prepare hardware-wrapped keys
+         62c2558592b2bc1754b26ddc4c72af4441e2335d fscrypt: add support for hardware-wrapped keys
+         ef8434ab223b35c1ec56f1508b26c895f0022d7d arm64: dts: sm8450: add Inline Crypto Engine registers and clock
+         16dcd881c253990c091b46dfb459c351a0ce8123 qcom_scm: add support for wrapped ICE keys
+         3c231b49572f2c0ca5af4c35f9899d34c7c8f03b ufs: move custom crypto profile initialization into ufs-qcom
          
