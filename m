@@ -1,53 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 25 Aug 2022 11:48:57 -0000
-Message-Id: <166142813746.2619.14924564658581530477@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5759604052917226976=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 25 Aug 2022 11:49:24 -0000
+Message-Id: <166142816482.2840.10938158454254051019@gitolite.kernel.org>
+
+--===============5759604052917226976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: e548869f356fead9fdcb3562f52d2226574f4f41
-    new: 919f6fe2c9df2024b4d260855cae8ea740bbd1e5
+  - ref: refs/heads/master
+    old: 765ace0abb8c25dae10b3ede222dd5bb55dd368f
+    new: 42c24fd9a18b8b28463e27574673892c98d888a2
     log: |
-         3008ed02791f92d6b4b3fbbba857d6be794dd483 audit: fix potential double free on error path from fsnotify_add_inode_mark
-         919f6fe2c9df2024b4d260855cae8ea740bbd1e5 parisc: Fix exception handler for fldw and fstw instructions
+         42c24fd9a18b8b28463e27574673892c98d888a2 5.10-stable patches
          
-  - ref: refs/heads/queue/4.9
-    old: b9d788547123375eb3e60800cd444c815329dbc9
-    new: 7f80c80ec7d37cd9eb3c7ee48c24cd30e62126ac
-    log: |
-         7f80c80ec7d37cd9eb3c7ee48c24cd30e62126ac parisc: Fix exception handler for fldw and fstw instructions
-         
-  - ref: refs/heads/queue/5.15
-    old: aa7123b45fdfeea3495975c7fe8fbe46345aaa0b
-    new: e032dc09113642a6441fd850988bc0f926a32c2b
-    log: |
-         779641e2d2e454311ade8719f49625937df2901b wifi: rtlwifi: remove always-true condition pointed out by GCC 12
-         b2db82c72938e26d9a80136c18ceb37aaad633b3 eth: sun: cassini: remove dead code
-         b842ac2f46fec94094f678d54451b11590eb840d audit: fix potential double free on error path from fsnotify_add_inode_mark
-         d2a801027f371e99ca428794e628a74484e2d6a2 cgroup: Fix race condition at rebind_subsystems()
-         0f462591eee756c262892061fecd07bbbd555da5 parisc: Make CONFIG_64BIT available for ARCH=parisc64 only
-         66c0bc298974177283777e7f92bd8eaac57007a4 parisc: Fix exception handler for fldw and fstw instructions
-         e032dc09113642a6441fd850988bc0f926a32c2b kernel/sys_ni: add compat entry for fadvise64_64
-         
-  - ref: refs/heads/queue/5.19
-    old: bdf9cfb5d91597f88228d1472921b6f0dd0e287e
-    new: daf9f4bc2de3c25dea6f90ae9e0f7d180ebb65f3
-    log: |
-         6af97a5c556c7c7f333bd8b541aab59feb6e066a mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
-         ae645b5e5fbc301a37dbb68db2301a9455ffb813 NFS: Fix another fsync() issue after a server reboot
-         152125bc63dbda89fe09020c961a4a7267e97a2a audit: fix potential double free on error path from fsnotify_add_inode_mark
-         ee6064562961e089fd8d74e9ff243f8758bd89bd cgroup: Fix race condition at rebind_subsystems()
-         d8e62ad66b11e45ab2abd2ab1290152d866d3065 parisc: Make CONFIG_64BIT available for ARCH=parisc64 only
-         9922d1a45131762820a571e8ffd7855b07b52e80 parisc: Fix exception handler for fldw and fstw instructions
-         79c3b041202464047365487976d684a143b2a9f8 kernel/sys_ni: add compat entry for fadvise64_64
-         ccf2c9c1af7b5644edcf6b59b3ac88e6208cdad2 kprobes: don't call disarm_kprobe() for disabled kprobes
-         67c8879e85df359429d742b8c909ea8537965d60 mm/uffd: reset write protection when unregister with wp-mode
-         daf9f4bc2de3c25dea6f90ae9e0f7d180ebb65f3 mm/hugetlb: support write-faults in shared mappings
-         
+
+--===============5759604052917226976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661428163 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1661428162-d752f62c4bf17e381be1041d46f9d26fd585f22f
+
+765ace0abb8c25dae10b3ede222dd5bb55dd368f 42c24fd9a18b8b28463e27574673892c98d888a2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMHYcQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1j4QANWvTbuVrDIl644nP95x
+IqOhFJjzhGAt2TD9eeS3rFZ19CiTM4qsI8a7dZ4trwVEU6pXPcFFISXCkMFNaUon
+nMrtfPTEi+yRLmt3g381u9UDqpuKNRNb9YL1LdjSFPPzySaF9ag3ASJYkL9Nht5B
+NWZai+RPqUStt+ojzi4tn1penxPMpot5EMjnEh2n0JS6/0OqrmSd+rOiYEr2aisr
+PTxNxAZX79kX/CXCdQZfPYy35PVR+ooaAIv5iI+9wa00nDGluH0IoLIwDcM7sd0z
+jutIhUJHaWULVaaDoj4U/RW/BzI+M4wJvPE5TXFHTL4Jy5bh2v0lmwnsROdSoHBp
+H21xMURdtTYpHGpzFMvn2UKy+I48F9oX1HOhwMieuI36iRre2JYEqSfb5zdptsOx
+7TNAHrNd4Ztya5pq3CctGLRI8lHUJUA/85Z+vZbaqYuGDYsIDebQsQYk56rO9s6o
+vprG5cu+ioHzWCrsUHbBWAApxTYuFyOis0j5EwdsE0ll5uGxeYS1mP2xA1G2L1NX
+pr0KcYTDgNQw1qak1eXgONK07w4ERiBpM3M1PPX6ztA82oXXydAAUsQz0q2VER3m
++LKqaVc0GXwLzSXK3Gmf4tJQNgmjeiyFxurtje3lAoiTJz7GW9YQye/JLXE8M+Bw
+ZK/PY3Jq4+HynEjdimCoqtEU
+=w/fG
+-----END PGP SIGNATURE-----
+
+--===============5759604052917226976==--
