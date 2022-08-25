@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1631486528092593280=="
+Content-Type: multipart/mixed; boundary="===============2781895093123612185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 25 Aug 2022 14:24:43 -0000
-Message-Id: <166143748370.20302.9032418482913991259@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 14:27:05 -0000
+Message-Id: <166143762567.23840.10278384620374473345@gitolite.kernel.org>
 
---===============1631486528092593280==
+--===============2781895093123612185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
-    old: 3caf1e84466f0af28e4e34f7babc484f4af71d67
+  - ref: refs/heads/for-next
+    old: 9befbab654abae4ffc41a084989dfa4a2f68af0f
     new: 1ea0d3b46798afc35c3185f6058b8bc08525d56c
-    log: revlist-3caf1e84466f-1ea0d3b46798.txt
+    log: revlist-9befbab654ab-1ea0d3b46798.txt
 
---===============1631486528092593280==
+--===============2781895093123612185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3caf1e84466f-1ea0d3b46798.txt
+Content-Disposition: attachment; filename=revlist-9befbab654ab-1ea0d3b46798.txt
 
+c2f7edf81a82db20d91974ba2cf50a4c90c2dbe3 platform/x86/amd/pmf: Fix undefined reference to platform_profile
+ea522b806162ca947427f8305310d3c8a3d42d7a platform/x86/amd/pmf: Fix clang unused variable warning
 d5a4dfc3cf30faa9d0b0333e58900ddd80ddd745 Merge branch 'platform-drivers-x86-amd-pmf' into pdx86-base
 4b0133533e82af25d6aaf9d0c7b2a5af388feb74 platform/x86: dell-privacy: convert to use dev_groups
 d8c04e27d93eb0afd750d5ea60119a92b146a755 platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
@@ -52,4 +54,4 @@ e397c3c460bf3849384f2f55516d1887617cfca9 platform/x86: asus-wmi: Add support for
 c98dc61ee08f833e68337700546e120e2edac7c9 platform/x86: asus-wmi: Simplify tablet-mode-switch probing
 1ea0d3b46798afc35c3185f6058b8bc08525d56c platform/x86: asus-wmi: Simplify tablet-mode-switch handling
 
---===============1631486528092593280==--
+--===============2781895093123612185==--
