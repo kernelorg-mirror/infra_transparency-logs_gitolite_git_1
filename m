@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 25 Aug 2022 10:04:25 -0000
-Message-Id: <166142186579.25955.714264442504809217@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 10:04:35 -0000
+Message-Id: <166142187577.26100.9371288096282001833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/wip
-    old: e5025e093d2e20aef229ec4151671a670efd6a14
-    new: 1afe7406c9bdf9c4f212bad03097c32b63d626b3
+  - ref: refs/heads/sched/wip
+    old: 53e1ff37906c4063e3607f91911e3d515a6b7170
+    new: a54b171507cb0b39a43ae809fd5301b69fef67a5
     log: |
-         49d7fcfaf4064061553a1ac2d3ff5d39f10bf709 Merge branch 'tip/objtool/core'
-         1afe7406c9bdf9c4f212bad03097c32b63d626b3 objtool: Rework arch_dest_reloc_offset()
+         eb5bdbb42cf5d796472fc216a1726160a09bf136 Merge branch 'tip/sched/core'
+         a54b171507cb0b39a43ae809fd5301b69fef67a5 sched/fair: Fold the sched_avg update
          
