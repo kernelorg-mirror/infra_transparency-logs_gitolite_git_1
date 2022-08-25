@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Thu, 25 Aug 2022 14:41:23 -0000
-Message-Id: <166143848317.1093.5342252564262934078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 25 Aug 2022 14:50:04 -0000
+Message-Id: <166143900417.7341.11455921225003924227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/counter-next
-    old: 56b10f734bb5d3857d1b37ccc91d9ae5112f5d40
-    new: a12224997bec72d231a8dd642876e6364decdc45
+  - ref: refs/heads/io_uring-6.0
+    old: 0596fa5ef9aff29219021fa6f0117b604ff83d09
+    new: 581711c46612c1fd7f98960f9ad53f04fdb89853
     log: |
-         a12224997bec72d231a8dd642876e6364decdc45 counter: Move symbols into COUNTER namespace
+         581711c46612c1fd7f98960f9ad53f04fdb89853 io_uring/net: save address for sendzc async execution
          
