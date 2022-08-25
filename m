@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 25 Aug 2022 19:55:13 -0000
-Message-Id: <166145731302.339.2708850257783458191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Thu, 25 Aug 2022 20:03:21 -0000
+Message-Id: <166145780138.4988.7209222719110491187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 72adff5e78eab914a544a9cabab15cf29633ac38
-    new: e5da16f10f2d3d55db0bb1ef1156afcb197d8fdc
+  - ref: refs/heads/for-linus
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: 0e1fa5155a364de7d3de770eb382980933376699
     log: |
-         3fbaf9c53d1a1476bc61d2ae669a69206531a83e wcswidth.3, wcwidth.3, veth.4: Fix accidents in .TH
-         e5da16f10f2d3d55db0bb1ef1156afcb197d8fdc Various pages: Fit rendered pages in 80 columns
+         28a71499744133614da6ca1f9adc4d4044d6f417 MAINTAINERS: Add Manivannan Sadhasivam as PCI Endpoint reviewer
+         0e1fa5155a364de7d3de770eb382980933376699 MAINTAINERS: Add Mahesh J Salgaonkar as EEH maintainer
          
