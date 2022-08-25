@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0504770196900411946=="
+Content-Type: multipart/mixed; boundary="===============3418969171456664423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 25 Aug 2022 15:26:37 -0000
-Message-Id: <166144119717.2085.8901984908072766519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Aug 2022 15:27:32 -0000
+Message-Id: <166144125219.2488.16339517218123049725@gitolite.kernel.org>
 
---===============0504770196900411946==
+--===============3418969171456664423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.0
+  - ref: refs/heads/asoc-6.0
     old: 2a91980012abc54841da530a6de90f74a41c9e34
     new: b1cd3fd42db7593a2d24c06f1c53b8c886592080
     log: |
          ea532c29972df96fda20393d9bf057e898f5e965 ASoC: fsl_aud2htx: register platform component before registering cpu dai
          b1cd3fd42db7593a2d24c06f1c53b8c886592080 ASoC: fsl_aud2htx: Add error handler for pm_runtime_enable
          
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: fcc245c6f6061e86903f37ffc130ae4ed07a5ae3
     new: cd3b9a0f205249c3e7482270b695b90ecf382187
     log: |
@@ -34,29 +34,29 @@ changes:
          cd3b9a0f205249c3e7482270b695b90ecf382187 ASoC platform driver for Apple MCA
          
 
---===============0504770196900411946==
+--===============3418969171456664423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1661441177 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1661441176-a94dcaa2b1fd2e02d4e55cd2de18466e8ba1530f
+pusher C3F436CA30F5D8EB 1661441245 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1661441239-4d1a6092b9de8d618500b6466e011ebde28b8253
 
-2a91980012abc54841da530a6de90f74a41c9e34 b1cd3fd42db7593a2d24c06f1c53b8c886592080 refs/heads/for-6.0
-fcc245c6f6061e86903f37ffc130ae4ed07a5ae3 cd3b9a0f205249c3e7482270b695b90ecf382187 refs/heads/for-6.1
+2a91980012abc54841da530a6de90f74a41c9e34 b1cd3fd42db7593a2d24c06f1c53b8c886592080 refs/heads/asoc-6.0
+fcc245c6f6061e86903f37ffc130ae4ed07a5ae3 cd3b9a0f205249c3e7482270b695b90ecf382187 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMHlJkACgkQJNaLcl1U
-h9AtuAf+Lnm1E7XCIELz6nOkqGMr1U7e7bcJ06qoHcOODtHF4QCup9tefGsBsFx0
-OIFmKw6xC307GCt5onNnG94g2LgKN7j5KcEAzAPbs8MLdWf59WWF1WPfU5xDEapH
-EOzbEp8IRetEiMxoPzkihMm9HiMghpWFXISKEBwnY9j2XE2WQJbf2vxdmT2JOf+M
-ZNOJkSm4+RtX/u6lpA8gaN4qFSNguSwwmZ+RNhP0kLxW1vPNI2eKjFv6EnBS2s1E
-D2wFyMgvk7neM8zPdqnWc9UEJm6iZMOlN8aJDIvdNb7Iwm6TqgtGgqezZRRrNJKt
-vu4Mu0L2EQIl/xcPfYLbTX+l+lt4gg==
-=bPLb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMHlN0ACgkQJNaLcl1U
+h9CfVgf+JgUYGL4QKobnHqv25Tu4vhynWD+aWRUHSDE/wvb+C08dO5pd2LeU4QRK
+3Y5Eeh0EwLRMLUHNJnFICAUGn3KMQhH/zF/x5LphiXZFrK1VWIwgIqcVleALEw4D
+nOfH4+hBPZbmmD8lEOs4y+z4uFypLZmWgG+h/gAkydKS1NhZopHguH5RB0wfnaUP
+mCueIhdwCnwp1RLq67dH2StTs16A6y0N6W9WYmcjZ75O/xxJJV1HjFhktzvvUr77
+i91G7XMuyY2GRSvBpZO1cxh2voYR27vn0GDTAVAtrbhHBm7ElSK2jptqllD+CXEy
++ONutig21+cKx4Aw4k/lTk7mfsVECg==
+=CxaM
 -----END PGP SIGNATURE-----
 
---===============0504770196900411946==--
+--===============3418969171456664423==--
