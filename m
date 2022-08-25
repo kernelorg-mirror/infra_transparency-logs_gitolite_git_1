@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Thu, 25 Aug 2022 21:34:20 -0000
-Message-Id: <166146326018.6530.14956956203022240432@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 21:37:05 -0000
+Message-Id: <166146342546.9072.8972096132759668881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/stable-6.0
-    old: ad982c3be4e60c7d39c03f782733503cbd88fd2a
-    new: 1b2263a807ca651f94517b1b22dc5f13e494984d
+    old: 1b2263a807ca651f94517b1b22dc5f13e494984d
+    new: d4fefa4801a1c2f9c0c7a48fbb0fdf384e89a4ab
     log: |
-         1b2263a807ca651f94517b1b22dc5f13e494984d The success and return_code are needed by the filters.  Move audit_return_fixup() before the filters.  This was causing syscall auditing events to be missed.
+         d4fefa4801a1c2f9c0c7a48fbb0fdf384e89a4ab audit: move audit_return_fixup before the filters
          
