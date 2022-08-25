@@ -1,58 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8728779875735795680=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
-Date: Thu, 25 Aug 2022 12:39:31 -0000
-Message-Id: <166143117130.9244.5807687270278953731@gitolite.kernel.org>
-
---===============8728779875735795680==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 25 Aug 2022 12:45:00 -0000
+Message-Id: <166143150063.12873.6467531351232195643@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usbutils
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 4bf4819a0dfddc53810a640e3be83dbbeeab0802
-    new: f7cb6bcf153df115fc43cfba4ececf29eb29ade7
+  - ref: refs/heads/for-next
+    old: b2681ccbd2035b3fd9caa5ecfad2846a79877df3
+    new: 3407dfcba3da58657b7e230a7b48de23ea10a483
     log: |
-         96d775860fb7e404d6acaf7e8dfbd171cfbcee15 Fix an runtime error reported by undefind sanitizer
-         77b93c9afaba7edc950861b54259a94733b3274c Merge pull request #149 from qiankehan/undefined
-         f7cb6bcf153df115fc43cfba4ececf29eb29ade7 lsusb: fix up Midi Device specification devices
+         f3b75e9b56780e3bfaa910e560cb9ba4d8f38e53 ASoC: SOF: mediatek: Add dai driver for mt8186
+         82e93430e0ad13cc31e411cfa575e63118bb0ed4 ASoC: SOF: mediatek: add snd_sof_dsp_ops callbacks for pcm and mail box
+         059846071f468da8389dcb8b8bbb38a781b02955 ASoC: SOF: mediatek: Use generic implementation for .ipc_msg_data field
+         4bac47a7b2f9f0c84411cb06944bab8f85c08757 ASoC: codecs: add suspend and resume for ES8316
+         671d119e75c8dfbf25c1813a167eeb2616c8acd5 ASoC: max98088: add support for noise gate reg
+         fcc245c6f6061e86903f37ffc130ae4ed07a5ae3 ASoC: SOF: mediatek: update SOF driver for mt8186
+         3407dfcba3da58657b7e230a7b48de23ea10a483 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
          
-
---===============8728779875735795680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661431170 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
-nonce 1661431170-5e576ea5e94c6760672e57339b9ee8ee864fba0e
-
-4bf4819a0dfddc53810a640e3be83dbbeeab0802 f7cb6bcf153df115fc43cfba4ececf29eb29ade7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMHbYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fQMP/ieO7IL9jiF6knygQkuV
-SsDqeymDeZKO7NT4AE+nkO3PyR7+Pe/X1jJWGZyMiHEYuRr2716VGFmE3uuxDR1b
-9osaH4aLtUoDhKXJDqPNc1ns5UwVO1tUxkzXumc0D+B57WL7veVT/oJtMQs1uB2R
-Fu6ath12yWN7QQlUyzsAlVHa4DjM+MR7XbTMsH1cqxZKl0qE2AweWKCpV52BVjnV
-QcxZ4cgYXXWBc1XqbjoPSeBYIUSx0jgpoqwY7wqwvw9pl53E/P+XtAnfo6LF7u4F
-3YSFCws6SLTY/tP7wTad4nzwCL0U2f2tn88W4x+pJI7lM5TDIYSCTQIMjNB8IOc7
-l52R5XXmNQ1Wiq1xNTh2roJ3PuLN+IiiUudYyCgTUdgXOHuWJvWfs15xoQ+WwLlR
-Og6s6SGzjWmsMSqsXJ1FPp0nQo4qjNM4RQvKUjwe16zNa97YbWUSNqBRCQ8E7lP0
-ieyNw9/dgZ3JTfMJUSIchEVg2cwKXiLjjGlOcdIgKI8uDcyZ8iSwW1ssMRrXT4xL
-0yEn66eJnll8s7P3zMERsq3iRt5jEvW90Ae9mjGL2SRPS1Rf2qgHRf+Fjko4vmr+
-W0uiYnBeiEjVGwwhI3XSzmVqWq1iggNg6i2vY3TnHZo8znskJn8CB6eEaY4ISojt
-yLWMiXtcd8Uv4CgoVbOn5nx8
-=ADOI
------END PGP SIGNATURE-----
-
---===============8728779875735795680==--
