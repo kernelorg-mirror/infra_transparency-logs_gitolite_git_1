@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1290972764004972008=="
+Content-Type: multipart/mixed; boundary="===============1667826123657467534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 25 Aug 2022 12:38:09 -0000
-Message-Id: <166143108987.8465.9194118053641398651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Aug 2022 12:38:15 -0000
+Message-Id: <166143109573.8580.15378089018125213119@gitolite.kernel.org>
 
---===============1290972764004972008==
+--===============1667826123657467534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 906aaf38911a9d172798c781553bff838802f198
     new: fcc245c6f6061e86903f37ffc130ae4ed07a5ae3
     log: |
@@ -28,28 +28,28 @@ changes:
          fcc245c6f6061e86903f37ffc130ae4ed07a5ae3 ASoC: SOF: mediatek: update SOF driver for mt8186
          
 
---===============1290972764004972008==
+--===============1667826123657467534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1661431088 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1661431087-45b50653cf25a1691a19c7ff7c369ff325a65b97
+pusher C3F436CA30F5D8EB 1661431094 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1661431093-280460a86ad3366976d347527eba9cc6a5e07b14
 
-906aaf38911a9d172798c781553bff838802f198 fcc245c6f6061e86903f37ffc130ae4ed07a5ae3 refs/heads/for-6.1
+906aaf38911a9d172798c781553bff838802f198 fcc245c6f6061e86903f37ffc130ae4ed07a5ae3 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMHbTAACgkQJNaLcl1U
-h9CLWQf7BXzV38xEbphQiVvaAjCq5bLaESqUMtPPlWmKKa9WPogHVzINzir5JA4P
-+n4pngk2vgaWnfeNb1f4SyO2gXZ6m5W2PMKfweGipSlne8ryQ5ORWi1kxjuGHMz2
-AsLs+a7lHf+KYjVqgtWu8F11RbExIac+eTPngXB4h6i8tl7C0KxxFRpTbv1WwQPL
-Gr6MvtOHVwEiLeh8OjIYKuFNpucQuiO577sQ1hqiAqtMBfSbWMDcGXO1m9KApU5O
-d3KBsouJ/yvS7i1NyYEoRllyvfDJSyoC92c7ByMNDboUHEjvxVDHmSDe7hqWgab2
-4boaq/4oq6VEBuWk6fMg+jodQjHCyQ==
-=2hvB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMHbTYACgkQJNaLcl1U
+h9DOjgf+IRp0naNlDZB9LUIXAsAHJMJBD3UyUvUF/AjmkrmuSUqnanrMA5o1A5Y0
+uUWoX4AFgmClXg5sbKZpCI2AFdx5WGXoT044Jyk2uSQPBy2CG4w+NZzvO+bn+BQf
+JJpHWVQ/UH7GGMR+tYN7r9bctu0XtukfHQ6NvFviO1cMDc6Jt4lf8BQPQ14cg1cK
+UV+XQhR+oifOCli9PbB8nhabk/sKK/4zZRBnBmrPaIEkvVaQ71JYANiAXrRqpYCK
+EpWk9vqwG7Fo1qbLnpS47wADUv07SYJKDHcBJti4e0kU/Qi/Mym5cn11ZkEzoVP8
+1Qk4bK0TZawAys/4q0L4DRc0nWeziQ==
+=Td7P
 -----END PGP SIGNATURE-----
 
---===============1290972764004972008==--
+--===============1667826123657467534==--
