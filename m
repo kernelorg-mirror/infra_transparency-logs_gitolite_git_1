@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 25 Aug 2022 10:04:06 -0000
-Message-Id: <166142184633.25738.10133579276481648474@gitolite.kernel.org>
+Date: Thu, 25 Aug 2022 10:04:16 -0000
+Message-Id: <166142185618.25855.4085049412523821884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip.freezer
-    old: 4e0103e62aec4804dbdccc666a110f0d8aad6101
-    new: ef4168976c4647e8a15881cc7548bb2c0ee54b7c
+  - ref: refs/heads/perf/wip.cleanup
+    old: 6c1c8d29320b1d7fa68c953ab9b32c4dee96b3ea
+    new: eaa5be50e14788e216d8b64c56ea50791335b695
     log: |
-         d2685be1d08b2fed19c60539db837cdc7550e4a3 freezer: Have {,un}lock_system_sleep() save/restore flags
-         29511210370d738daf37c0a7a2dce9a7287accf6 freezer,umh: Clean up freezer/initrd interaction
-         17ec68211fa5edc460da165e120b5abc5dcc445a sched: Change wait_task_inactive()'s match_state
-         cdf9da720475efd83181f63b2ebb00cbd6dd951f sched/completion: Add wait_for_completion_state()
-         3aad15bd8e3d76a20161c8f02bf40b687e34c228 sched/wait: Add wait_event_state()
-         ef4168976c4647e8a15881cc7548bb2c0ee54b7c freezer,sched: Rewrite core freezer logic
+         bc7794772221d44cbfa93a78bab843d06a55455e perf/x86: Add two more x86_pmu methods
+         697bfff84e71feedace5d6d8ad11700b3e1df115 perf/x86/intel: Move the topdown stuff into the intel driver
+         683dd1b1da89bdb606adeb91bb2c7e94fdb08704 perf/x86: Change x86_pmu::limit_period signature
+         f9eb8b70c58ef1dc77528d2ea9ea7eda758abd53 perf/x86: Add a x86_pmu::limit_period static_call
+         9e9fc6feb11537593d9ad63bfada70eed80cec17 perf/x86/intel: Remove x86_pmu::set_topdown_event_period
+         c0b907af2b0fbf0d1eabc8f02f52a917c58775b2 perf/x86/intel: Remove x86_pmu::update_topdown_event
+         ed7e78a5f5f17b6e379a078179df8833a1152060 perf/x86/p4: Remove perfctr_second_write quirk
+         5e38f161bf1e115d71aa77e120707a7ae86d24ce perf/x86/intel: Optimize short PEBS counters
+         eaa5be50e14788e216d8b64c56ea50791335b695 perf/x86/intel: Shadow MSR_ARCH_PERFMON_FIXED_CTR_CTRL
          
