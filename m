@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 26 Aug 2022 18:42:51 -0000
-Message-Id: <166153937150.9090.11762732085846933502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 26 Aug 2022 19:07:05 -0000
+Message-Id: <166154082508.26320.1213442523881243809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: c88ccb96fde4eb00f9b25bf75e0135c52b95e416
-    new: 8af924d6d3ac6a92c4af1df847cf713e4d2b67e3
+  - ref: refs/heads/stable-6.0
+    old: 707527956d90ea4f304188555a97144183af1e49
+    new: dd9373402280cf4715fdc8fd5070f7d039e43511
     log: |
-         8af924d6d3ac6a92c4af1df847cf713e4d2b67e3 liburing: fix return code for test/hardlink.t
+         dd9373402280cf4715fdc8fd5070f7d039e43511 Smack: Provide read control for io_uring_cmd
          
