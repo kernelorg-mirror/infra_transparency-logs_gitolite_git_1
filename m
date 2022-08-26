@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 26 Aug 2022 10:55:36 -0000
-Message-Id: <166151133602.5096.6252168986062789922@gitolite.kernel.org>
+Date: Fri, 26 Aug 2022 10:56:31 -0000
+Message-Id: <166151139199.5542.16538471602802931805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
-    old: 8028d5d481ebed904388e7248deea1f3620511eb
-    new: 23657a437ea2fbccc715fce2dac74e3c923540cf
+  - ref: refs/heads/fixes
+    old: ee653d2d8f7c935a00f01a7654d889e8ce55b00e
+    new: 343b62048ba4cec6b8b890092bcc200e1eb83424
     log: |
-         9c9ac2e659e1b009d16a1f43d8ca26abcf17e0bb platform/x86: move from strlcpy with unused retval to strscpy
-         23657a437ea2fbccc715fce2dac74e3c923540cf platform/x86: thinkpad_acpi: Explicitly set to balanced mode on startup
+         343b62048ba4cec6b8b890092bcc200e1eb83424 platform/x86: thinkpad_acpi: Explicitly set to balanced mode on startup
          
