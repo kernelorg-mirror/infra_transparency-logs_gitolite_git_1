@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6569274309414564721=="
+Content-Type: multipart/mixed; boundary="===============1962868733003645547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 26 Aug 2022 06:36:26 -0000
-Message-Id: <166149578658.3467.18186736162970291834@gitolite.kernel.org>
+Date: Fri, 26 Aug 2022 06:37:44 -0000
+Message-Id: <166149586445.3999.15953156907243844722@gitolite.kernel.org>
 
---===============6569274309414564721==
+--===============1962868733003645547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/atorgue/stm32
 user: atorgue
 changes:
-  - ref: refs/heads/stm32-fixes
-    old: 1d0c1aadf1fd9f3de95d1532b3651e8634546e71
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-1d0c1aadf1fd-568035b01cfb.txt
+  - ref: refs/heads/stm32-next
+    old: 4b43ff02d2a4b809a2e8cfa628a54f9e39a87381
+    new: a6efdeaf1a5c55f8e1914a31c68efd069af63d19
+    log: revlist-4b43ff02d2a4-a6efdeaf1a5c.txt
 
---===============6569274309414564721==
+--===============1962868733003645547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d0c1aadf1fd-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-4b43ff02d2a4-a6efdeaf1a5c.txt
 
-9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
@@ -1050,5 +1049,6 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
+a6efdeaf1a5c55f8e1914a31c68efd069af63d19 ARM: dts: stm32: add fake interrupt propoerty for ASync notif - TEMP/TO REMOVE
 
---===============6569274309414564721==--
+--===============1962868733003645547==--
