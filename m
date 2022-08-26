@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 26 Aug 2022 09:57:01 -0000
-Message-Id: <166150782157.28512.12654586152368986174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 26 Aug 2022 09:59:41 -0000
+Message-Id: <166150798163.29524.10420496354781531357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/x86/microcode
-    old: 3ecf671f1d354f40228e407ab350abd41034410b
-    new: 8c61eafd22d7207039bff85c6e1d386f15abd17e
+  - ref: refs/heads/master
+    old: 5b3b51a181fdf0387d931a6cedab30921147e576
+    new: d73ffc08824d9deca451e1845d72fa50bf17d5ae
     log: |
-         8c61eafd22d7207039bff85c6e1d386f15abd17e x86/microcode: Remove ->request_microcode_user()
+         d73ffc08824d9deca451e1845d72fa50bf17d5ae net: phylink: allow RGMII/RTBI in-band status
          
