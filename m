@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 26 Aug 2022 22:08:25 -0000
-Message-Id: <166155170507.24371.7799659270116713463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 26 Aug 2022 22:10:30 -0000
+Message-Id: <166155183005.26719.16032993396873374246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
+repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/debug/experimental
-    old: c0ef75db01d10388b0d61d55ca2bcf90f3c8038f
-    new: 5351b3e6687ff0a56454dc1077fdd8612d6213db
+  - ref: refs/heads/perf/urgent
+    old: cde643ff75bc20c538dfae787ca3b587bab16b50
+    new: 11745ecfe8fea4b4a4c322967a7605d2ecbd5080
     log: |
-         f4b79306a591a653503c5c763ebc9d1524e5eb03 early_printk: Add early_vprintk
-         928caa3eff0983883c6ac244eb2aa009c0bf3ef7 early_printk: Add 'force_early_printk' kernel parameter
-         5351b3e6687ff0a56454dc1077fdd8612d6213db early_printk: Add simple serialization to early_vprintk()
+         11745ecfe8fea4b4a4c322967a7605d2ecbd5080 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
          
