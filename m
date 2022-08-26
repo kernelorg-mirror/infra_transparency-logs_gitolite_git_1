@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 26 Aug 2022 02:02:50 -0000
-Message-Id: <166147937084.7047.4950400034660899671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 26 Aug 2022 02:53:48 -0000
+Message-Id: <166148242833.8661.2681887144171924740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: b1c9aba0dd4e33df529528f4ea47ceb175d7876c
-    new: 2b67af968f7e39bc2815ae46d73b93d3bd450988
+    old: 880b0dd94f0399cf772a8582e7b5a47f180c8618
+    new: 057062adb49b6ae9760e5615f23e6a7f557e7fa6
     log: |
-         db1ac2ecdb7b612ea31fe7e87cc9bcf2a2205c52 foo
-         2b67af968f7e39bc2815ae46d73b93d3bd450988 foo
+         057062adb49b6ae9760e5615f23e6a7f557e7fa6 dt-bindings: net: Add missing (unevaluated|additional)Properties on child nodes
          
