@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5136915323954531579=="
+Content-Type: multipart/mixed; boundary="===============1626951964536352524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Fri, 26 Aug 2022 17:30:57 -0000
-Message-Id: <166153505741.24378.13704156912598490113@gitolite.kernel.org>
+Date: Fri, 26 Aug 2022 17:31:07 -0000
+Message-Id: <166153506705.24489.7389711141538366333@gitolite.kernel.org>
 
---===============5136915323954531579==
+--===============1626951964536352524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: b65bb2c148913c4020d06c9798e5e1bc18105f4f
     new: 9c3c24f08289c1364bfca013425b25304370042b
     log: revlist-b65bb2c14891-9c3c24f08289.txt
 
---===============5136915323954531579==
+--===============1626951964536352524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 2fe0985feced736c4f36ee2f9e903bbda15bf82e gpiolib: acpi: Add support to ignore programming an interrupt
 9c3c24f08289c1364bfca013425b25304370042b gpiolib: acpi: Add a quirk for Asus UM325UAZ
 
---===============5136915323954531579==--
+--===============1626951964536352524==--
