@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2602005176414024263=="
+Content-Type: multipart/mixed; boundary="===============1105081851217929004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 26 Aug 2022 08:51:07 -0000
-Message-Id: <166150386751.32165.18153804943382987028@gitolite.kernel.org>
+Date: Fri, 26 Aug 2022 09:02:40 -0000
+Message-Id: <166150456054.8241.7844780974634144149@gitolite.kernel.org>
 
---===============2602005176414024263==
+--===============1105081851217929004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 3d7cb6b04c3f3115719235cc6866b10326de34cd
-    new: 4c612826bec1441214816827979b62f84a097e91
-    log: revlist-3d7cb6b04c3f-4c612826bec1.txt
+  - ref: refs/heads/dev
+    old: df13a3477635414f243d53344bb4b510385e994d
+    new: bb2bfc5e0772ed222366c69ce46be0c2fa313ef2
+    log: revlist-df13a3477635-bb2bfc5e0772.txt
 
---===============2602005176414024263==
+--===============1105081851217929004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d7cb6b04c3f-4c612826bec1.txt
+Content-Disposition: attachment; filename=revlist-df13a3477635-bb2bfc5e0772.txt
 
-e3b42964f84c028f352c11269661d47f6ca4ab2e ITER_PIPE: fold push_pipe() into __pipe_get_pages()
 ca591967543ab1af7e6e68bd505ef7869d3f2175 ITER_PIPE: lose iter_head argument of __pipe_get_pages()
 2c855de93314e9573f31044976ffd89cb70a2dbd ITER_PIPE: clean pipe_advance() up
 92acdc4f37207c556baee0ea28ce0823d22b9812 ITER_PIPE: clean iov_iter_revert()
@@ -1050,5 +1049,6 @@ c4b6e9341f930e4dd089231c0414758f5f1f9dbd net: lantiq_xrx200: fix lock under memo
 c9c3b1775f80fa21f5bff874027d2ccb10f5d90c net: lantiq_xrx200: restore buffer if memory allocation failed
 d974730c8884cd784810b4f2fe903ac882a5fec9 Merge branch 'net-lantiq_xrx200-fix-errors-under-memory-pressure'
 4c612826bec1441214816827979b62f84a097e91 Merge tag 'net-6.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+bb2bfc5e0772ed222366c69ce46be0c2fa313ef2 exfat: fix overflow for large capacity partition
 
---===============2602005176414024263==--
+--===============1105081851217929004==--
