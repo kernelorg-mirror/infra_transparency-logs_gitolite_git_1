@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Aug 2022 10:40:16 -0000
-Message-Id: <166151041672.26250.4725378912412138008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 26 Aug 2022 10:55:00 -0000
+Message-Id: <166151130091.2353.16224714524777576898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d73ffc08824d9deca451e1845d72fa50bf17d5ae
-    new: 76d7df9406a1d2faec6eaaa1d835a1dbc1d49cec
+    old: 4c612826bec1441214816827979b62f84a097e91
+    new: 4ba9d38bb5a3255390dc15d8ac81f656a968273c
     log: |
-         4c99bc96e05012008cc0069eb6f5f915db530158 ice: Add support for ip TTL & ToS offload
-         781f15eac0d2035828558d7e5ab2779b151b2362 ice: Add port option admin queue commands
-         da02ee9c220bcc8abbb97473dbf82aad28de80cc ice: Add additional flags to ice_nvm_write_activate
-         26d1c571e16a4ca8c144f6627245eb8209f326c2 ice: Implement devlink port split operations
-         f8c74ca6d31c8b0059b083b7eb8544f8108ca531 ice: Print human-friendly PHY types
-         77baa37a9be948562c8b7630e3afd9d497e14550 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-         76d7df9406a1d2faec6eaaa1d835a1dbc1d49cec r8152: add PID for the Lenovo OneLink+ Dock
+         60deb9f10eec5c6a20252ed36238b55d8b614a2c wifi: mac80211: Fix UAF in ieee80211_scan_rx()
+         36fe8e4e5cb02131719612aea1e64379670d1846 wifi: mac80211: always free sta in __sta_info_alloc in case of error
+         62b03f45c6352410d13bf0710d24ef6290632eb1 wifi: mac80211: fix possible leak in ieee80211_tx_control_port()
+         15bc8966b6d3a5b9bfe4c9facfa02f2b69b1e5f0 wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
+         d776763f48084926b5d9e25507a3ddb7c9243d5e wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
+         55f0a4894484e8d6ddf662f5aebbf3b4cb028541 wifi: mac80211: potential NULL dereference in ieee80211_tx_control_port()
+         4ba9d38bb5a3255390dc15d8ac81f656a968273c Merge tag 'wireless-2022-08-26' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
          
