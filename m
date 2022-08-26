@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============1626951964536352524=="
+Content-Type: multipart/mixed; boundary="===============4057576807292718893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Fri, 26 Aug 2022 17:31:07 -0000
-Message-Id: <166153506705.24489.7389711141538366333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Fri, 26 Aug 2022 17:32:34 -0000
+Message-Id: <166153515423.25061.8910877096984745184@gitolite.kernel.org>
 
---===============1626951964536352524==
+--===============4057576807292718893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
   - ref: refs/heads/for-next
-    old: b65bb2c148913c4020d06c9798e5e1bc18105f4f
-    new: 9c3c24f08289c1364bfca013425b25304370042b
-    log: revlist-b65bb2c14891-9c3c24f08289.txt
+    old: 25097de7b2369625994793b788fa6ed4cad664cd
+    new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
+    log: revlist-25097de7b236-1c23f9e627a7.txt
 
---===============1626951964536352524==
+--===============4057576807292718893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b65bb2c14891-9c3c24f08289.txt
+Content-Disposition: attachment; filename=revlist-25097de7b236-1c23f9e627a7.txt
 
+79b7e67bb9747e621ff1b646a125fbea26e08d56 Merge tag 'for-linus-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
 298d44d04b2ba97824c3dadd1dbf7c154a2a86e2 cxl/region: Fix x1 interleave to greater than x1 interleave routing
 4d8e4ea5bb396897111e8a740201bfd3c5926170 cxl/region: Disallow region granularity != window granularity
@@ -1048,7 +1050,5 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-2fe0985feced736c4f36ee2f9e903bbda15bf82e gpiolib: acpi: Add support to ignore programming an interrupt
-9c3c24f08289c1364bfca013425b25304370042b gpiolib: acpi: Add a quirk for Asus UM325UAZ
 
---===============1626951964536352524==--
+--===============4057576807292718893==--
