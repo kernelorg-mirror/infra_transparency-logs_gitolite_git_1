@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8075219460474424576=="
+Content-Type: multipart/mixed; boundary="===============1179757371668889223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Fri, 26 Aug 2022 17:32:40 -0000
-Message-Id: <166153516065.25136.1625742002894637314@gitolite.kernel.org>
+Date: Fri, 26 Aug 2022 17:32:52 -0000
+Message-Id: <166153517257.25273.17590062213387811409@gitolite.kernel.org>
 
---===============8075219460474424576==
+--===============1179757371668889223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: ba79c5e45eecb9e009eca7f5da224f6e42bd4fcb
+  - ref: refs/heads/review-andy
+    old: f1c7d25517742cde31805a357121ef5bb1b93db7
     new: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    log: revlist-ba79c5e45eec-1c23f9e627a7.txt
+    log: revlist-f1c7d2551774-1c23f9e627a7.txt
 
---===============8075219460474424576==
+--===============1179757371668889223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba79c5e45eec-1c23f9e627a7.txt
+Content-Disposition: attachment; filename=revlist-f1c7d2551774-1c23f9e627a7.txt
 
 79b7e67bb9747e621ff1b646a125fbea26e08d56 Merge tag 'for-linus-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
@@ -1051,4 +1051,4 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
 
---===============8075219460474424576==--
+--===============1179757371668889223==--
