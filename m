@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sat, 27 Aug 2022 09:33:10 -0000
-Message-Id: <166159279055.15355.7652002844808375918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Sat, 27 Aug 2022 09:59:10 -0000
+Message-Id: <166159435011.14469.14755508399773132598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/next
-    old: 9b3ac109ef4ce33b9f61184fb421ee21455b2dec
-    new: bb45d2db8492036a6fc938ec0b228834ea6e1cf9
+  - ref: refs/tags/s390-6.0-2
+    old: 0000000000000000000000000000000000000000
+    new: 190d8464c597e2b96dd61c90512d98144bd19e0d
