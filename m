@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8737819883542834622=="
+Content-Type: multipart/mixed; boundary="===============5390291406368211100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Sat, 27 Aug 2022 13:33:28 -0000
-Message-Id: <166160720880.487.15120332607539652067@gitolite.kernel.org>
+Date: Sat, 27 Aug 2022 13:33:38 -0000
+Message-Id: <166160721808.593.9712605934396504857@gitolite.kernel.org>
 
---===============8737819883542834622==
+--===============5390291406368211100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/acpi
-    old: da2679f26bd6ae20b06d49e53eedc2880cf5e65e
-    new: 2413a85200ee9cbed40d12c6e3b856752b089790
-    log: revlist-da2679f26bd6-2413a85200ee.txt
-  - ref: refs/tags/acpi-6.0-rc3
+  - ref: refs/heads/pm
+    old: c3f834df191ac2e5e58c215b9110e7e19553100f
+    new: 6ca7076fbfaeccce173aeab832d76b9e49e1034b
+    log: revlist-c3f834df191a-6ca7076fbfae.txt
+  - ref: refs/tags/pm-6.0-rc3
     old: 0000000000000000000000000000000000000000
-    new: ac1bd4b51b4a0d5bb5f107430f4b8c81ccc21cee
+    new: 87d60bd3f0f56a182dfa745c28764134906a1625
 
---===============8737819883542834622==
+--===============5390291406368211100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da2679f26bd6-2413a85200ee.txt
+Content-Disposition: attachment; filename=revlist-c3f834df191a-6ca7076fbfae.txt
 
+4d5398a3ec060c1e3094097e52a19a4d0013c0e0 Merge tag 'for-linus' of github.com:openrisc/linux
+79b7e67bb9747e621ff1b646a125fbea26e08d56 Merge tag 'for-linus-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
 298d44d04b2ba97824c3dadd1dbf7c154a2a86e2 cxl/region: Fix x1 interleave to greater than x1 interleave routing
 4d8e4ea5bb396897111e8a740201bfd3c5926170 cxl/region: Disallow region granularity != window granularity
@@ -109,8 +112,7 @@ db100e28fdf026a1fc10657c5170bb1e65663805 drm/i915/gt: Ignore TLB invalidations o
 e5a95c83ed1492c0f442b448b20c90c8faaf702b drm/i915/gt: Skip TLB invalidations once wedged
 92ceebf920aa9f103b89d102f98fc59c6b990cc0 Merge tag 'mailbox-v5.20' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 3466f49dd0dd9d30fe1e916b49fca1f4f99a3b66 Merge tag 'hwlock-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-c4f5a40bf000defdd6d04ef65e680183718fc3af Merge branch 'pm-opp'
-c3f834df191ac2e5e58c215b9110e7e19553100f Merge branch 'pm-cpufreq'
+b0f2fe5a38389790a97334c5df1c5dec52c5d627 ACPI: VIOT: Do not dereference fwnode in struct device
 7f0169cde0ced2e2b7bdf3dcedcf8c71efc6afc0 Merge branches 'thermal-core' and 'thermal-tools'
 e2ebff9c57fe4eb104ce4768f6ebcccf76bef849 vfs: Check the truncate maximum size in inode_newsize_ok()
 f72fb74b8218f9aebfcc691b7e9bb641920dbc13 Merge tag 'exfat-for-5.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
@@ -238,6 +240,7 @@ b8dcef877ab5f2637fccd3efb6fe169c8211961a Merge tag 'memblock-v5.20-rc1' of git:/
 426b4ca2d6a5ab51f6b6175d06e4f8ddea434cdf Merge tag 'fs.setgid.v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 4b22e2074195097c9d6bdc688288d12b7b236bae Merge tag 'afs-fixes-20220802' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 15205c2829ca2cbb5ece5ceaafe1171a8470e62b Merge tag 'fscache-fixes-20220809' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+46981fa78490e16589559cec8c762e5527d665d2 ACPI: property: Fix error handling in acpi_init_properties()
 34aae2c2fb1e3d88a5aeee16715cb6bf0336cdce netfilter: nf_tables: validate variable length element extension
 470ee20e069a6d05ae549f7d0ef2bdbcee6a81b2 netfilter: nf_tables: do not allow SET_ID to refer to another table
 95f466d22364a33d183509629d0879885b4f547e netfilter: nf_tables: do not allow CHAIN_ID to refer to another table
@@ -604,6 +607,7 @@ d8357e3bf8f7aabd98bf4dc2709ee877b741cefc riscv/purgatory: Omit use of bin2c
 271c5ca826e0c3c53e0eb4032f8eaedea1ee391c netfilter: nf_tables: really skip inactive sets when allocating name
 3ed159c984079baedff740505d609badb8538e0d io_uring: fix error handling for io_uring_cmd
 da2634e89caa40d7546b0566ab80ff31567861c9 io_uring: consistently make use of io_notif_to_data()
+da2679f26bd6ae20b06d49e53eedc2880cf5e65e Merge branch 'acpi-properties'
 e34f49348f8b7a53205b6f77707a3a6a40cf420b dpaa2-eth: trace the allocated address instead of page struct
 c2e75634cbe368065f140dd30bf8b1a0355158fd net: atm: bring back zatm uAPI
 09992025dacd258c823f50e82db09d7ef06cdac4 spi: meson-spicc: add local pow2 clock ops to preserve rate between messages
@@ -1048,10 +1052,6 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-36527b9d882362567ceb4eea8666813280f30e6f ACPI: processor: Remove freq Qos request for all CPUs
-06865077b34c792181e3c4f82417a2888c6e7453 ACPI: property: Fix type detection of unified integer reading functions
-2ea3b19792dbe32287b0c48f3ff7e866f61967c7 ACPI: property: Ignore already existing data node tags
-bd9594ae4c55351f134620ab890259820abf4c43 ACPI: property: Remove default association from integer maximum values
-2413a85200ee9cbed40d12c6e3b856752b089790 Merge branch 'acpi-processor' into acpi
+6ca7076fbfaeccce173aeab832d76b9e49e1034b cpufreq: check only freq_table in __resolve_freq()
 
---===============8737819883542834622==--
+--===============5390291406368211100==--
