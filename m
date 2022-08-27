@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sat, 27 Aug 2022 07:15:41 -0000
-Message-Id: <166158454104.17466.861299143140887513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 27 Aug 2022 07:16:14 -0000
+Message-Id: <166158457437.17764.15222955691275137615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/vp
-    old: ec680f57ab92c2824f3b304773fd9e0a15c71cc2
-    new: f1cb000bb3fcc786defeb7a2d604f681d1793fc9
-    log: |
-         f1cb000bb3fcc786defeb7a2d604f681d1793fc9 tip/tools/vp: Add a check for deprecated APIs
-         
+  - ref: refs/heads/msm-pending
+    old: 0000000000000000000000000000000000000000
+    new: 2eb51123ce0801b5b4e0bc79499faf969612bfd0
