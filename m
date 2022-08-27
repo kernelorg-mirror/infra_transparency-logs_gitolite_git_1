@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 27 Aug 2022 00:04:12 -0000
-Message-Id: <166155865283.7804.14249141706616493315@gitolite.kernel.org>
+Date: Sat, 27 Aug 2022 00:25:36 -0000
+Message-Id: <166155993601.23884.7147427533882441194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1d2577ab0f052375379fa112d1aa34dbb4ef1463
-    new: de9d555cb8d4286a951b5b9bc824a12c739693ec
+    old: de9d555cb8d4286a951b5b9bc824a12c739693ec
+    new: 6005a8aecee8afeba826295321a612ab485c230e
     log: |
-         de9d555cb8d4286a951b5b9bc824a12c739693ec mlx4: Do type_clear() for devlink ports when type_set() was called previously
+         6005a8aecee8afeba826295321a612ab485c230e net: devlink: add RNLT lock assertion to devlink_compat_switch_id_get()
          
