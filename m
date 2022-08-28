@@ -1,53 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6845699277364089911=="
+Content-Type: multipart/mixed; boundary="===============5608947033103254047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 28 Aug 2022 20:59:32 -0000
-Message-Id: <166172037240.24596.8620601660073922053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 28 Aug 2022 20:59:38 -0000
+Message-Id: <166172037868.24700.12375980783524146416@gitolite.kernel.org>
 
---===============6845699277364089911==
+--===============5608947033103254047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: cd3b9a0f205249c3e7482270b695b90ecf382187
-    new: c18b6c188cd9d1db93ee72513ce367e4195b1c2a
+  - ref: refs/heads/for-6.1
+    old: d46f737208a45ddff2aef4b57218caa0476af2b6
+    new: 57919f4a2ea47f75ac6117f7d99831f7fbd89bc7
     log: |
-         6bbabd28805f36baf6d0f3eb082db032a638f612 ASoC: soc-pcm.c: call __soc_pcm_close() in soc_pcm_close()
-         255a03bb1bb3b10d1c1ca785c596db84723f59d7 ASoC: wcd9335: Convert irq chip to config regs
-         de3287f177a5666409978a1a0331a33e2842d43b ASoC: wcd938x: Remove spurious type_base from irq chip
-         c18b6c188cd9d1db93ee72513ce367e4195b1c2a ASoC: Cleanup deprecated regmap-irq functionality
+         55841199050d0c6c44eb7f24717816e6e372599f regulator: core: Require regulator drivers to check uV for get_optimum_mode()
+         57919f4a2ea47f75ac6117f7d99831f7fbd89bc7 regulator: core: Don't err if allow-set-load but no allowed-modes
          
 
---===============6845699277364089911==
+--===============5608947033103254047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1661720371 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661720370-f5dfac6da9d80444e7114885d92638aa664f499a
+pusher C3F436CA30F5D8EB 1661720377 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1661720376-2f3ad673f0d20379a3c9a19a0acd9d9f1b16bc03
 
-cd3b9a0f205249c3e7482270b695b90ecf382187 c18b6c188cd9d1db93ee72513ce367e4195b1c2a refs/heads/asoc-6.1
+d46f737208a45ddff2aef4b57218caa0476af2b6 57919f4a2ea47f75ac6117f7d99831f7fbd89bc7 refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmML1zMACgkQJNaLcl1U
-h9A+sQf+Jnui0ZJsqmJrE8qB8M/A378KTZ3QZyNKjaZO74N9Cvp3BtFpMKiZCzQL
-cc31T7/EBLstl1hCGsRQOgjO/B474MYLi636WCjCy1dBYgtH5qUcsdZEZlUJ9yQp
-CPul2fLFg01nFJiyb3E+4IjmLSsaFqGj4gxbaCp/L6zEX5IJ9JxlNm5lbWek5hiv
-d+AkbJNFKzvYDpKa+9YXrSHpfvPvbzFYmo+Oot5PfDQCqh7VEovedK1xqF3aGGcp
-tR9+wjwgZYoVzekNf4uu7w7W7yKcJxv56JYhU5fWNqsiRsS7/Qq5ZUzZn/9K/eXX
-qTh7182Bs+jMlP/7m7VcXoAnaUS6rg==
-=8OCx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmML1zkACgkQJNaLcl1U
+h9BiJwf+NuDt7cX6pByUwKQdynpGm3nE2nCjmKAbWXXzyAyGxS7G4iY7hhXfZxMy
+R34I0jwqdZvWpnpmAQC9CApKJZHOW1fhIzKPqsqpqBJWa3xXCD1Kdpas50cDoDYz
+iVCppXJcK841Q75PMJ2I3SQYBF722eOwySLwHwc32Z00KXBss/vwmoKbNQivuJ1T
+/mfDU69Y5U+k2tWwwqZOS/hnhf7WJImtc86Fbc0hHQ1U9Prt2pqyPrxgJq47Mnud
+UnVJ8sbR0fkKso8Nq4wakTirWuSMuPIZ/TZKQqSOPuHeetjR4vjZuBLAvoUS4cEF
+VWGQ6y17wnveNvN+aVax4V42Wm0Vkg==
+=pTS2
 -----END PGP SIGNATURE-----
 
---===============6845699277364089911==--
+--===============5608947033103254047==--
