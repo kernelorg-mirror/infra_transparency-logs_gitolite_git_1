@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4074571625504542937=="
+Content-Type: multipart/mixed; boundary="===============4167707588434734557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 28 Aug 2022 21:03:13 -0000
-Message-Id: <166172059361.27780.15947824064872858235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 28 Aug 2022 21:03:19 -0000
+Message-Id: <166172059947.27878.944527689826594198@gitolite.kernel.org>
 
---===============4074571625504542937==
+--===============4167707588434734557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/spi-6.1
     old: 3fe26121dc3a9bf64e18fe0075cd9a92c9cd1b1a
     new: 56ec456293239b3c5dfb0e4dcf22972b1b8c571d
     log: |
          56ec456293239b3c5dfb0e4dcf22972b1b8c571d spi: stm32-qspi: Fix stm32_qspi_transfer_one_message() error path
          
 
---===============4074571625504542937==
+--===============4167707588434734557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1661720592 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1661720591-45aae336b4ac9a88de699ecbad64402d8913f44b
+pusher C3F436CA30F5D8EB 1661720598 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1661720597-60e651a00e6eaff64926bd6c3b5cb773ff940d92
 
-3fe26121dc3a9bf64e18fe0075cd9a92c9cd1b1a 56ec456293239b3c5dfb0e4dcf22972b1b8c571d refs/heads/for-6.1
+3fe26121dc3a9bf64e18fe0075cd9a92c9cd1b1a 56ec456293239b3c5dfb0e4dcf22972b1b8c571d refs/heads/spi-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmML2BAACgkQJNaLcl1U
-h9DL4Qf9Hm6n4MRHNRh/oiNrSkHRnEsRdmhV+0kuA2Je1YAx4K2+US6Y9tPwGtiG
-OpLr0oJlmM8ESRGm/6BWGqcWNurBidJblf5e8NjA86pVvad+7ZbhX/nyOwXOpm8T
-wwjIY1Ut5nWIKFeVgWw5UOr3UFbl1ZSMRokzTDPsaEWSCF+ie1v1i/16xgNfRvJ/
-G6QUbYmxsxWUuHM6xKnIbxml/FixnrVUOmDu63ZvQ2hMXevg1PYHJN2qQ/Kg/FUc
-cekGXPjVU1RtEHFZtHn5Kf1Ykqlv7Ir2uEXHz0JwYPTpxzhHCFgfaKvDEwHsxGci
-1+JOBv3g9J3LkZhNDUSKVFbwCyLnAA==
-=K6m7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmML2BYACgkQJNaLcl1U
+h9D0KQf/fIAjR/JI8/PM9MNN4joJi8Wo82hlPIqefKV9YahJ4L39vP2azvgvTYrV
+6NgthDh822EVfZxhXacqIAxCNxBivXLNb3xWRnEUkDHdL1H9vaLK5IeGFfYd4MBi
+uCRYV5AuFNQdJp9pusx2f4pwW+X+ZwYkrBSBY1hKcvTv38OwpvrXVXA1ufiqNXSb
+v1IDkGiSQ/CNpZ4qbiyfo5jan7P2xkGWhAEtkAJDKRYD9azm88k2uLxnwzReOv2a
+PbbFrDxA6ukM6Dz7Uxbl6zeBwGIibkxlLAi40ZlXQByaK0RK8CwGC6jXq0DcEame
+dIxkAHm1Xiq7w8Gw9ePmtcPEXyWrCQ==
+=2Fpp
 -----END PGP SIGNATURE-----
 
---===============4074571625504542937==--
+--===============4167707588434734557==--
