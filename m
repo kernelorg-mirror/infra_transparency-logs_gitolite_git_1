@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Sun, 28 Aug 2022 03:54:37 -0000
-Message-Id: <166165887780.12856.2766996312182059693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/misc
+Date: Sun, 28 Aug 2022 04:54:26 -0000
+Message-Id: <166166246638.22435.3253127683971403062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/tj/misc
+user: tj
 changes:
-  - ref: refs/heads/for-linus
-    old: 80b9ebd3e478cd41526cbf84f80c3e0eb885d1d3
-    new: 98e01215708b6d416345465c09dce2bd4868c67a
-    log: |
-         98e01215708b6d416345465c09dce2bd4868c67a Input: iforce - wake up after clearing IFORCE_XMIT_RUNNING flag
-         
+  - ref: refs/heads/kernfs-show
+    old: 0000000000000000000000000000000000000000
+    new: fe143bd511decad83ec551cab1b72ad78f8b51dd
