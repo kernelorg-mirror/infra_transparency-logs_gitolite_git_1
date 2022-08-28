@@ -1,50 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4167707588434734557=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 28 Aug 2022 21:03:19 -0000
-Message-Id: <166172059947.27878.944527689826594198@gitolite.kernel.org>
-
---===============4167707588434734557==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sun, 28 Aug 2022 21:03:28 -0000
+Message-Id: <166172060856.28005.10182123655409655349@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 3fe26121dc3a9bf64e18fe0075cd9a92c9cd1b1a
-    new: 56ec456293239b3c5dfb0e4dcf22972b1b8c571d
+  - ref: refs/heads/for-next
+    old: d0c485957caac89665aa44b16ea09ea7c15dc868
+    new: 3cd5d49ce8efa3169fd00cef05e2432bb96f8fc2
     log: |
-         56ec456293239b3c5dfb0e4dcf22972b1b8c571d spi: stm32-qspi: Fix stm32_qspi_transfer_one_message() error path
+         6bbabd28805f36baf6d0f3eb082db032a638f612 ASoC: soc-pcm.c: call __soc_pcm_close() in soc_pcm_close()
+         255a03bb1bb3b10d1c1ca785c596db84723f59d7 ASoC: wcd9335: Convert irq chip to config regs
+         de3287f177a5666409978a1a0331a33e2842d43b ASoC: wcd938x: Remove spurious type_base from irq chip
+         c18b6c188cd9d1db93ee72513ce367e4195b1c2a ASoC: Cleanup deprecated regmap-irq functionality
+         3cd5d49ce8efa3169fd00cef05e2432bb96f8fc2 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
          
-
---===============4167707588434734557==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661720598 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661720597-60e651a00e6eaff64926bd6c3b5cb773ff940d92
-
-3fe26121dc3a9bf64e18fe0075cd9a92c9cd1b1a 56ec456293239b3c5dfb0e4dcf22972b1b8c571d refs/heads/spi-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmML2BYACgkQJNaLcl1U
-h9D0KQf/fIAjR/JI8/PM9MNN4joJi8Wo82hlPIqefKV9YahJ4L39vP2azvgvTYrV
-6NgthDh822EVfZxhXacqIAxCNxBivXLNb3xWRnEUkDHdL1H9vaLK5IeGFfYd4MBi
-uCRYV5AuFNQdJp9pusx2f4pwW+X+ZwYkrBSBY1hKcvTv38OwpvrXVXA1ufiqNXSb
-v1IDkGiSQ/CNpZ4qbiyfo5jan7P2xkGWhAEtkAJDKRYD9azm88k2uLxnwzReOv2a
-PbbFrDxA6ukM6Dz7Uxbl6zeBwGIibkxlLAi40ZlXQByaK0RK8CwGC6jXq0DcEame
-dIxkAHm1Xiq7w8Gw9ePmtcPEXyWrCQ==
-=2Fpp
------END PGP SIGNATURE-----
-
---===============4167707588434734557==--
