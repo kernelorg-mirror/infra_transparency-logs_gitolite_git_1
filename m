@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 28 Aug 2022 14:53:06 -0000
-Message-Id: <166169838628.28934.16461919166985277244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Sun, 28 Aug 2022 15:41:03 -0000
+Message-Id: <166170126334.30991.16817403715496710157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/network/connman/connman
+user: wagi
 changes:
-  - ref: refs/tags/x86-urgent-2022-08-28
-    old: 0000000000000000000000000000000000000000
-    new: a81eba0743a14e5bdcd3e59f840f04988e35c74a
+  - ref: refs/heads/master
+    old: 363e0ed955f605fb0dc919b7ee149b6071af73ee
+    new: 33389f7edcab6d4acb1f30f51a6d838fe49ac022
+    log: |
+         33389f7edcab6d4acb1f30f51a6d838fe49ac022 resolver: Add path to resolv.conf to config options
+         
