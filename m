@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5796837999148588994=="
+Content-Type: multipart/mixed; boundary="===============1257685829414885497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 29 Aug 2022 04:58:50 -0000
-Message-Id: <166174913035.8660.15512252997670287448@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 05:00:07 -0000
+Message-Id: <166174920702.10757.7779660334555682650@gitolite.kernel.org>
 
---===============5796837999148588994==
+--===============1257685829414885497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    new: b90cb1053190353cc30f0fef0ef1f378ccc063c5
-    log: revlist-1c23f9e627a7-b90cb1053190.txt
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/heads/fixes
+    old: 25938ca3bab105a03d932f49c7b1c7c04f335a10
+    new: c11efc57d4ccca47c5cf89341c4500acbb2c7599
+    log: revlist-25938ca3bab1-c11efc57d4cc.txt
 
---===============5796837999148588994==
+--===============1257685829414885497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c23f9e627a7-b90cb1053190.txt
+Content-Disposition: attachment; filename=revlist-25938ca3bab1-c11efc57d4cc.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -384,5 +381,7 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
+86879fd277e8e76bf29d10c23e7562d86b9286a0 scripts: remove obsolete gcc-ld script
+c11efc57d4ccca47c5cf89341c4500acbb2c7599 scripts/extract-ikconfig: add zstd compression support
 
---===============5796837999148588994==--
+--===============1257685829414885497==--
