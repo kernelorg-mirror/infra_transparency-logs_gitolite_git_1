@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 29 Aug 2022 17:33:31 -0000
-Message-Id: <166179441184.7474.2258307236121906643@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7426955397194934154=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 29 Aug 2022 17:56:02 -0000
+Message-Id: <166179576242.24073.4634543053910703714@gitolite.kernel.org>
+
+--===============7426955397194934154==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b90cb1053190353cc30f0fef0ef1f378ccc063c5
-    new: d68d289fbec70b50a25f5818964b26349320ddb5
+    old: 65ba7a9d3ee989035a875e7c108f1733e92c7ea0
+    new: ef0528a9f2e1d55471b2109fcfffbc48b0e1ffd7
     log: |
-         cee7db1b0239468b22c295cf04a8c40c34ecd35a docs: kerneldoc-preamble: Test xeCJK.sty before loading
-         04d4ca41809052f6088860fe150dac679e6453d0 docs/ja_JP/SubmittingPatches: Remove reference to submitting-drivers.rst
-         602684adb42a04858e23248b22d4931b7ef2ad7e docs: Update version number from 5.x to 6.x in README.rst
-         465d0eb0dc31ae26c05504668d3957db91e99799 Docs/admin-guide/mm/damon/usage: fix the example code snip
-         5479d6d4bf122d4b137659559a7bd17784b97b7e docs/conf.py: add function attribute '__fix_address' to conf.py
-         d68d289fbec70b50a25f5818964b26349320ddb5 Merge tag 'docs-6.0-fixes' of git://git.lwn.net/linux
+         ef0528a9f2e1d55471b2109fcfffbc48b0e1ffd7 send-receive: improve logging and returned errors
          
+
+--===============7426955397194934154==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1661795762 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1661795762-46bd8f8bccc1b29868261f120f3fbf56bb842a14
+
+65ba7a9d3ee989035a875e7c108f1733e92c7ea0 ef0528a9f2e1d55471b2109fcfffbc48b0e1ffd7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYwz9sgAKCRC2xBzjVmSZ
+bJlvAP9JB17FY1Z5B/DdTxmAjEvfO+15JT5xxmtvANc5ddkhlAEAsoyGMtNwsoB1
+N2uQcTNTS3nsgx8I/3VG9yskrNjABQ4=
+=Jfus
+-----END PGP SIGNATURE-----
+
+--===============7426955397194934154==--
