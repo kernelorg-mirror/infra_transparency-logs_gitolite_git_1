@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0746319297866101269=="
+Content-Type: multipart/mixed; boundary="===============0210063946225081859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 29 Aug 2022 10:20:35 -0000
-Message-Id: <166176843582.18117.10063247213050983411@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 10:20:46 -0000
+Message-Id: <166176844636.18239.1599749188864816038@gitolite.kernel.org>
 
---===============0746319297866101269==
+--===============0210063946225081859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/freezer
-    old: 42ae152a2f69d4c3fa5a2d541d764c2b5c9330f3
-    new: 2d5b02ba810ea26c643e4bfaeec2001e6fd1d208
-    log: revlist-42ae152a2f69-2d5b02ba810e.txt
+  - ref: refs/heads/perf/wip.rewrite
+    old: 9bc73a91d2830c27e2b5c96288262c9f224905e8
+    new: 077f8fe645a0b71e0174f7400de0d9829fa6c9fc
+    log: revlist-9bc73a91d283-077f8fe645a0.txt
 
---===============0746319297866101269==
+--===============0210063946225081859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42ae152a2f69-2d5b02ba810e.txt
+Content-Disposition: attachment; filename=revlist-9bc73a91d283-077f8fe645a0.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -337,7 +337,6 @@ a5a923038d70d2d4a86cb4e3f32625a5ee6e7e24 fbdev: fbcon: Properly revert changes w
 c23f864dc7ef37655021c43beae98321436cbd9a Merge tag 'loongarch-fixes-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 012bd7e859df9d6aa0a8ab4484c00aeded108071 Merge tag 'riscv-for-linus-6.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 e022620b5d056e822e42eb9bc0f24fcb97389d86 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-5531ecffa4b923bc7739e9ea73c552d80af602dc sched: Add update_current_exec_runtime helper
 11745ecfe8fea4b4a4c322967a7605d2ecbd5080 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
 2413a85200ee9cbed40d12c6e3b856752b089790 Merge branch 'acpi-processor' into acpi
 3bf1b1571224e713f1a186de21b2204c06f1cb5e Merge branch 'thermal-core'
@@ -382,12 +381,13 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-a6a3d733ac276773b47e97e39566420d7ded9a84 Merge branch 'tip/sched/core'
-d84d854c7edeec47a8fcc39923297b5138ac1471 freezer: Have {,un}lock_system_sleep() save/restore flags
-d695233817bb288ace33fc5054eb20608b3737b9 freezer,umh: Clean up freezer/initrd interaction
-0e5c3c319c2e86b5a7bbfea3539ef689b2d18e87 sched: Change wait_task_inactive()s match_state
-e0d19a20d1e285e1e40a8e87fe7a6b56d87dbbfe sched/completion: Add wait_for_completion_state()
-9e7ededf135a15f9956c0a9da833c6bdc8b86cec sched/wait: Add wait_event_state()
-2d5b02ba810ea26c643e4bfaeec2001e6fd1d208 freezer,sched: Rewrite core freezer logic
+b06358580189492493f1bcacbe8b7888c1782c31 perf: Rewrite core context handling
+befe3123da842143c52c9ee86977d8e5e4df41b4 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+bd4d2ab366fcdae9d8b1faf1a63f8ab5502fd9d3 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+9e0f3a45608f4c15afa30edd9b178926c0da7a68 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+2646766287e16a232d0174da488490e469ed8026 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+e9b6fa1246bc04382293944f379af58194c355aa Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+72d651483e3944ec90e1070af585bee40011a3c5 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+077f8fe645a0b71e0174f7400de0d9829fa6c9fc Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
 
---===============0746319297866101269==--
+--===============0210063946225081859==--
