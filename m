@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6055908191145409695=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 29 Aug 2022 19:16:47 -0000
-Message-Id: <166180060723.15277.10458582807543907888@gitolite.kernel.org>
-
---===============6055908191145409695==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 29 Aug 2022 19:16:55 -0000
+Message-Id: <166180061571.15393.18313948606215604220@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: ef0528a9f2e1d55471b2109fcfffbc48b0e1ffd7
-    new: 99d3146f122ee009691bb1727f8145b329199415
+  - ref: refs/heads/for-next/seccomp
+    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
+    new: 4e92863862d17e5383b7245c0cb732c9b21cd0c4
     log: |
-         99d3146f122ee009691bb1727f8145b329199415 Force CRLF lineseps only right before sending via smtp
+         19da693c3eabc6ce67959ca4b0029c63ebbc1c30 selftests/seccomp: Check CAP_SYS_ADMIN capability in the test mode_filter_without_nnp
+         6d17452707cae0b8b271172a3a6cc25b1e14a868 seccomp: Move copy_seccomp() to no failure path.
+         4e92863862d17e5383b7245c0cb732c9b21cd0c4 Merge branch 'for-linus/seccomp' into for-next/seccomp
          
-
---===============6055908191145409695==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1661800606 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1661800606-ed3b8cd41523a448658aed9e43113bb37628a8b5
-
-ef0528a9f2e1d55471b2109fcfffbc48b0e1ffd7 99d3146f122ee009691bb1727f8145b329199415 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYw0QngAKCRC2xBzjVmSZ
-bMT/AQDq0biPYUSB1+5705HBjANqPifwgaInxeR15/xTbxIWGQD7BnjwpJdoxarr
-edLhC5rxLEDTUD/sDryfHNHF7x5RrQE=
-=9dO4
------END PGP SIGNATURE-----
-
---===============6055908191145409695==--
