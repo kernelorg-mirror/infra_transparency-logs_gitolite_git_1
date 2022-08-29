@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0738914406556607320=="
+Content-Type: multipart/mixed; boundary="===============1658921898312090726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Aug 2022 10:16:09 -0000
-Message-Id: <166176816944.14759.15989837303582883334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 29 Aug 2022 10:20:04 -0000
+Message-Id: <166176840476.17722.14179685792556675925@gitolite.kernel.org>
 
---===============0738914406556607320==
+--===============1658921898312090726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 657120e88cf304bfbbf2f0b5c60d2776055fac10
-    new: d4876f891d1a92905e98067dc71e31619f8cd907
-    log: revlist-657120e88cf3-d4876f891d1a.txt
+  - ref: refs/heads/x86/core
+    old: b6876237a4547da730d07d7c7f869721a0c342d4
+    new: bc12b70f7d216b36bd87701349374a13e486f8eb
+    log: revlist-b6876237a454-bc12b70f7d21.txt
 
---===============0738914406556607320==
+--===============1658921898312090726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-657120e88cf3-d4876f891d1a.txt
+Content-Disposition: attachment; filename=revlist-b6876237a454-bc12b70f7d21.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -381,9 +381,6 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-92c939923ccd998cce8850a516fde3216fc8eeaf m68k: Move from strlcpy with unused retval to strscpy
-ccb924e66189231652776dd30de85a755942f7d1 m68k: atari: usb: Add ISP1160 USB host controller support
-d75bd828df08ace47c3f29a4cbacc74fe85dcfe9 m68k: atari: Update Kconfig.bus help text
-d4876f891d1a92905e98067dc71e31619f8cd907 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+bc12b70f7d216b36bd87701349374a13e486f8eb x86/earlyprintk: Clean up pciserial
 
---===============0738914406556607320==--
+--===============1658921898312090726==--
