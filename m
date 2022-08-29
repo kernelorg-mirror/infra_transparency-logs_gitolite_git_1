@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2995597908452707462=="
+Content-Type: multipart/mixed; boundary="===============5448342061144625842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 29 Aug 2022 09:01:58 -0000
-Message-Id: <166176371821.20507.629687499733730450@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 09:02:15 -0000
+Message-Id: <166176373512.20711.6897816305990604742@gitolite.kernel.org>
 
---===============2995597908452707462==
+--===============5448342061144625842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,132 +16,182 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: fa3303d70b423dd3e855f57febaba77e15069650
-    new: 6a4cb36256145f34edeaeca4bfe3141dac0307e8
-    log: revlist-fa3303d70b42-6a4cb3625614.txt
+  - ref: refs/heads/linux-5.15.y
+    old: addc9003c2e895fe8a068a66de1de6fdb4c6ac60
+    new: 30057c8a3a385f835170ec6275e501ceaf7e4ebe
+    log: revlist-addc9003c2e8-30057c8a3a38.txt
 
---===============2995597908452707462==
+--===============5448342061144625842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661763715 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661763730 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1661763713-49f9cae0e50dd69872d313c2ba68835a8fa62fa4
+nonce 1661763729-c7844a768827915395da72b584165b56dfb75b67
 
-fa3303d70b423dd3e855f57febaba77e15069650 6a4cb36256145f34edeaeca4bfe3141dac0307e8 refs/heads/linux-5.10.y
+addc9003c2e895fe8a068a66de1de6fdb4c6ac60 30057c8a3a385f835170ec6275e501ceaf7e4ebe refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMgIMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1tkP/RwHHV17yOoQx4w4gacY
-fKMltDM1prl9o7Jufj0HMxXy7y1xRLxDgy2wgdT5p1eoqK1RbAj0VY/eDCVm8kz5
-qsq6zZnPibAd4rARsrm1MUp+olM62pop0WuJdIbq5Rxp0B+Zc5qV8CqMOdByua4f
-GPVpf2dfhadsTlI4xnAJrI1DW7Lq5Gnua+GqX+cHb0WlCSDkJ+eOYUzu4ioJamjW
-Q716gVB+96WyVIHA1OyHmX3WJajA9Ayzht3ro0MN4FHMFBDGh7h8MqriIsLz89Tx
-wlxp9nt2rb2qV5gdABTcI2mmyPKocCECeRsN2DgdJe/yX6dTwbkSJEMFQ/9MkiS+
-iIXolZ4PpfLT1Q2kTFZ03bbqnnSOpNOH2fkxBT0JGpA8hu84JCdAye18Dr0EMULm
-KAY7KNtechB1IOujuF8whPdRdG7sBkVrCC3PrbtIuZXwRnsbSvvuyfrAiNby9RQu
-oMnxgjXFweo9FBbxPhZPzsHKjjke/+JbJIRR7wSkF7Us5VvWoHwn0yVoDEGPTSpV
-MHBUe3P5/3mucij05CaEq/eJ5KOB3WfN+dHGAwS14w3LPU3xshtdj6WUS2rmpSz3
-eAOpXM9zH39WoySkZJKF8mgO7pCNDg6QkMu+pNiM8KQ/U5e7IPNYU/41UgJoB16D
-AkXT94hAI0e+LvhCsUqplfMi
-=5szG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMgJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QAsQAMnbIZIZ3VbbNBoX8AXQ
+FzSuL+/f4DpDD/q+RWHKIO/p7Fv21VyOv7rnf/f+vw694pXFqi8rJnJy+fojYcG4
+wt+mERIH4Leb+syBtJia1bOM7xx9NP2zM7ag3qnmCpibUlaCUktXROoawW8bKB2K
+sZmE16wpz3OF+jbWg1qUVZeh1QZS05ozb0x+NpzQKOf+UtYE6Z4EJM2LmUyAHYTT
+6R5tfpwn0kUBzzfm/3DoREslOA2BCNDxCHUlLrA4CEEyeS1a7HG4s8VDtNiemC99
+/SPdYxHfY8zprdFX+vG25sswQMKypbv7bolnHrdz0lsZPDCFVL3DgkWNAZsiyU0I
+4kpsw9Wpq4ZwvnmIxYs98ulDlEPv3E6yV+5yjYado1QerbrVmzeR9E2Uk6J2noUf
+ZgIyl18bUSw3fmiotvAYAi8wH+gS0P1aPkzetHIfheOlws0o/ew1XgFMpD66ns9l
+ZyDWqLTEB3FZJw3Joi+R6k9y6evsr86iVf8wWou38JV9KAt+71sDP10kMPA1mZhW
+N0eibCewDsJKjRsxt8zuIojIMUypP4rl5gFC1Hy71K8rDDwELYTxfdsDDBDUo4B9
+sa/3KKOe9iGNUUALsqPZ4R1OsotVRlD+caFStk3LOwIRk2+oazvKjKITsAW9R7LE
+Jgam9dmWr4w7kYUrw9mI9iel
+=xNdz
 -----END PGP SIGNATURE-----
 
---===============2995597908452707462==
+--===============5448342061144625842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa3303d70b42-6a4cb3625614.txt
+Content-Disposition: attachment; filename=revlist-addc9003c2e8-30057c8a3a38.txt
 
-1dece8a412964a8fe2462076dbe37d5ffc290c78 audit: fix potential double free on error path from fsnotify_add_inode_mark
-619845e413c01016ef8cb96dab8bfd688bacc832 parisc: Fix exception handler for fldw and fstw instructions
-24ce6ef87d7084181f20a54a10111c20fdaff862 kernel/sys_ni: add compat entry for fadvise64_64
-d253ae64a0359a2f9bdd9af18b7e36546d7a518b pinctrl: amd: Don't save/restore interrupt status and wake status bits
-e36306c645c3b2c10b5e636038ea0bcf6f783ae3 xfs: prevent a WARN_ONCE() in xfs_ioc_attr_list()
-5c30728da17bd968bc2a8cda2a5e60679a0fe5bd xfs: reject crazy array sizes being fed to XFS_IOC_GETBMAP*
-38b275567969dbf8c7e052ae18ce37ccc12349a1 fs: remove __sync_filesystem
-b7eaf8362388565a1a9587e0fd1e2eb6f56e0643 vfs: make sync_filesystem return errors from ->sync_fs
-6da8d2c70a7340271a601e729e838d592ecf4ef1 xfs: return errors in xfs_fs_sync_fs
-bfc7fd9e697caac877e409dbcf035f4c7aa3c5c3 xfs: only bother with sync_filesystem during readonly remount
-f5eb92b42471e5bff35028192683d9a6efbdd448 kernel/sched: Remove dl_boosted flag comment
-a7f70d318a4904e9bd5a87f8282e5a4ae4432da2 xfrm: fix refcount leak in __xfrm_policy_check()
-e138cbbb59bd1e608e99fa02d86054c2539e984b xfrm: clone missing x->lastused in xfrm_do_migrate
-22e91322f313e56f8beb226dbeccb2c55a5ee64e af_key: Do not call xfrm_probe_algs in parallel
-0a81709dc5e52433fd1fc80d613c69d117772f74 xfrm: policy: fix metadata dst->dev xmit null pointer dereference
-deb2700dca67001d74601462f29f6b299035de69 NFS: Don't allocate nfs_fattr on the stack in __nfs42_ssc_open()
-82f87e4099986e7d8bc359c3ddab24dac737513f NFSv4.2 fix problems with __nfs42_ssc_open
-a024eb877a0900dba883a64bea086b337fc050fd SUNRPC: RPC level errors should set task->tk_rpc_status
-2008659223af60158c728a3bdff9034e75d5fa56 mm/huge_memory.c: use helper function migration_entry_to_page()
-9baf3914255622d04996d54681bcfb52f96f78ea mm/smaps: don't access young/dirty bit if pte unpresent
-65b6c2b9025161b28419e153812d61a90978927b rose: check NULL rose_loopback_neigh->loopback
-20c99dd2c0b9740a2fc392a95d29aa76bda1cf3e nfc: pn533: Fix use-after-free bugs caused by pn532_cmd_timeout
-5532f5bf65501da1a167f2f4c6098a7870021ab8 ice: xsk: Force rings to be sized to power of 2
-8f8949d26770f1d056f1ab95d8543ee9582feb36 ice: xsk: prohibit usage of non-balanced queue id
-1ae2f47b01a26b4779010ef63a65171811af142c net/mlx5e: Properly disable vlan strip on non-UL reps
-e736d23fdb14b57b75c003c77395a2f6b775e842 net: ipa: don't assume SMEM is page-aligned
-fc6198c87192b42cdedec60b15b34e6d4d607d8a net: moxa: get rid of asymmetry in DMA mapping/unmapping
-66460d4ef58714d82aed0f67ddb37dab7a271ed8 bonding: 802.3ad: fix no transmission of LACPDUs
-31c53e3932a3cd50f3c0546a1b8de3a9d3e7efa1 net: ipvtap - add __init/__exit annotations to module init/exit funcs
-5257eb769855c32711fddda1902f868b8cc663d4 netfilter: ebtables: reject blobs that don't provide all entry points
-297270b6d924d15cd08199285ae0a876f54254fe bnxt_en: fix NQ resource accounting during vf creation on 57500 chips
-a16ad90b908a9f989b3b62600634a0b43fbb878a netfilter: nft_payload: report ERANGE for too long offset and length
-2f4c2b98dda8033ce18cbb3e4d0612eafc5cf848 netfilter: nft_payload: do not truncate csum_offset and csum_type
-914d96139406e5f88f43b08b4904801ed09d10b0 netfilter: nf_tables: do not leave chain stats enabled on error
-29ac7c0d94730f3612756572df7d9c5178258d79 netfilter: nft_osf: restrict osf to ipv4, ipv6 and inet families
-9586708b52dbea989d3ce27c247077ab9d70da50 netfilter: nft_tunnel: restrict it to netdev family
-3444445bd9783d586ed23e0f0b51f599d4ba260f netfilter: nftables: remove redundant assignment of variable err
-0f000cb61da493201dc5e1d838922370e219f728 netfilter: nf_tables: consolidate rule verdict trace call
-54f5abc1ae282200f36f616b468b37728ca663a3 netfilter: nft_cmp: optimize comparison for 16-bytes
-150284b57f5cebea6678029783046ceb7f527a91 netfilter: bitwise: improve error goto labels
-7712befc4607f9fd94c0ebec5a9e0998be433220 netfilter: nf_tables: upfront validation of data via nft_data_init()
-d28a58105f9581247e18719abcc0ce44d2b19977 netfilter: nf_tables: disallow jump to implicit chain from set element
-7c2277ab65e43adfddd50958d8a5ff1f38eae9e1 netfilter: nf_tables: disallow binding to already bound chain
-6a74a4cc3954eeacf0f044428640ce577b56f13b tcp: tweak len/truesize ratio for coalesce candidates
-4a070da02d27740f271f629e25e37fb635096256 net: Fix data-races around sysctl_[rw]mem(_offset)?.
-ad8cd4cac9f01903d3cfca1a0662e6aec89f0023 net: Fix data-races around sysctl_[rw]mem_(max|default).
-9180c706bf6498222cb76549714364d32dc62140 net: Fix data-races around weight_p and dev_weight_[rt]x_bias.
-830d321aec9eee51edc865ff4f3a245d128a261a net: Fix data-races around netdev_max_backlog.
-ec5945d8b0788fde69f17343290e821cebbe78c9 net: Fix data-races around netdev_tstamp_prequeue.
-619d608612d2f06c7251e96c4d1ad2b775158741 ratelimit: Fix data-races in ___ratelimit().
-025ee7f000565acc69a5df250fc1310815a583c0 bpf: Folding omem_charge() into sk_storage_charge()
-c2a33cab3c63602b0c542aa14a27adf7f505e072 net: Fix data-races around sysctl_optmem_max.
-ae96209a4d48dd0bc727afdc145233701ae2e5e9 net: Fix a data-race around sysctl_tstamp_allow_data.
-e19a0e1470e4ee59b89b4602466cef2bb866a29a net: Fix a data-race around sysctl_net_busy_poll.
-3a43b8959930f862d2a5ddc84553bd13de2ac196 net: Fix a data-race around sysctl_net_busy_read.
-57fab566b108f16e511552504aad14b1b350e937 net: Fix a data-race around netdev_budget.
-b95bc6975cdfbd0c8f41db06fa0db6a2484e1a10 net: Fix a data-race around netdev_budget_usecs.
-368aab39aa1dfa321da2433bd44ed1c6a3d43efe net: Fix data-races around sysctl_fb_tunnels_only_for_init_net.
-39c48b1a7d5edd270012025eb40f2a8c2dadd20c net: Fix data-races around sysctl_devconf_inherit_init_net.
-172757536017e852810cceb4d372c84ba7e9a41a net: Fix a data-race around sysctl_somaxconn.
-22b60217d707c7cb6b8a72122a3078a160b2a89d ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
-e2314b945a2b861aba07b5ccd4e4945a5696953e rxrpc: Fix locking in rxrpc's sendmsg
-193022acc4f5c9b520e3ff109f23b2bf0d8fcde9 ionic: fix up issues with handling EAGAIN on FW cmds
-1e7b61c4f8014b4043e23cbe70cc4f48f3fd5ddb btrfs: fix silent failure when deleting root reference
-f9e473108699291951aad5c31e93ce623b72e3c9 btrfs: replace: drop assert for suspended replace
-edb1b5ad74b595bf52f80a428d6445a7f8c5cc44 btrfs: add info when mount fails due to stale replace target
-ceec734c61736c3d638e65a7a9d113b2a56f344b btrfs: check if root is readonly while setting security xattr
-d2274eaab0573668c3737ec293b91a433898ef32 perf/x86/lbr: Enable the branch type for the Arch LBR by default
-b3bf72c425cea685c4375dccd3462198e7c308f4 x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
-93c806612a66ee72b6f4e083913f583862c2877b x86/bugs: Add "unknown" reporting for MMIO Stale Data
-2c14c1caa983a8a5f09b4b26dbc3de6f27fff6b0 loop: Check for overflow while configuring loop
-469d77631a489ff94f0f9635ea76eac707385638 asm-generic: sections: refactor memory_intersects
-3b30ce6b8291e697a99e19045a97d0da96385a64 s390: fix double free of GS and RI CBs on fork() failure
-002ba734335529d0cdd4e76ee89c9d775ec5e535 ACPI: processor: Remove freq Qos request for all CPUs
-0135c80e6e8c63e3a2fb78b179636637584f2f57 xen/privcmd: fix error exit of privcmd_ioctl_dm_op()
-51ebf80eb58ec802d6055b54dd18151c119a5ba1 mm/hugetlb: fix hugetlb not supporting softdirty tracking
-5e685f1257cc9b8740d15617297a6ecb1d424691 Revert "md-raid: destroy the bitmap after destroying the thread"
-872cbda9a80d1a98c586ccd37db27b48c66759f5 md: call __md_stop_writes in md_stop
-a191eb393daffdf560b87e7c762aa6bc335085b7 arm64: Fix match_list for erratum 1286807 on Arm Cortex-A76
-8ee56ab1e58e0feed57a566b9618c92845e9a422 Documentation/ABI: Mention retbleed vulnerability info file for sysfs
-ccd3b85f0352f1fae9700c74a392ee74a8f05ce9 blk-mq: fix io hung due to missing commit_rqs
-2cda51e4a430854fb181355b94f8b8d4945b69ee perf python: Fix build when PYTHON_CONFIG is user supplied
-3bf6ee0dc4d419865abe474c175e5122fe507536 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
-0b79e7d1d24ba0ca9f3335bd94d100500bdf2840 scsi: ufs: core: Enable link lost interrupt
-ad6b46a97a1e2148e2d1f7fe7fc4991f8699c982 scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
-6a4cb36256145f34edeaeca4bfe3141dac0307e8 Linux 5.10.139-rc1
+94b33c53f28098d43da58d0ed7049db0312cb4fa wifi: rtlwifi: remove always-true condition pointed out by GCC 12
+22004915e42784594a91073314d19f05b43de8e7 eth: sun: cassini: remove dead code
+a4535309439cde50dd727bcaa85a0517fb4ca491 audit: fix potential double free on error path from fsnotify_add_inode_mark
+5556f96addf08b709b14677a633b63121092f96f cgroup: Fix race condition at rebind_subsystems()
+5c30cf440175f987c43f9a13e52af53fa35cd1e7 parisc: Make CONFIG_64BIT available for ARCH=parisc64 only
+2de6aeb88de06924806ace0dc1acd5048981896f parisc: Fix exception handler for fldw and fstw instructions
+eb3a83b8e1ac2189c81beab22b8698ae1b3c25f0 kernel/sys_ni: add compat entry for fadvise64_64
+ea809f2bcba84182e81ef31a78758bfa8a73767d x86/entry: Move CLD to the start of the idtentry macro
+4037dc8b241489c3226f70bee41947e6278f38a3 block: add a bdev_max_zone_append_sectors helper
+234747fd601ccd0a1858cd49af770401282370b5 block: add bdev_max_segments() helper
+7d1b6341ffa07263feceed647b0bd0f5c1526866 btrfs: zoned: revive max_zone_append_bytes
+d231124357a5ae62042a2810243acdc0345199f7 btrfs: replace BTRFS_MAX_EXTENT_SIZE with fs_info->max_extent_size
+178f27d8da04ee03ff9e6780187fe3051a7d4c53 btrfs: convert count_max_extents() to use fs_info->max_extent_size
+e227d03c9cad94acc6afe3937202fa11000bb555 Input: i8042 - move __initconst to fix code styling warning
+03787e0f133665ecb4c01f8e9e43463fd52d5f7b Input: i8042 - merge quirk tables
+d3d17c4a3b847ab7724fbfe16042810454548562 Input: i8042 - add TUXEDO devices to i8042 quirk tables
+014a2c507f5eb401f02c7fd97d936a3b758d54f1 Input: i8042 - add additional TUXEDO devices to i8042 quirk tables
+83a6043662b8e0c3222d1fedcacb47f13774a25d drivers/base: fix userspace break from using bin_attributes for cpumap and cpulist
+7082b0bf331b16d1bad1e838c64ca6c65e43e9fe scsi: qla2xxx: Fix response queue handler reading stale packets
+aaecfad5bd57769c9100f07dd1ffbbc8e79b1479 scsi: qla2xxx: edif: Fix dropped IKE message
+d9513b246958aac9084cf7d813d6bc56ca94c129 btrfs: put initial index value of a directory in a constant
+bd15e532d808135316378be81c30863841c9da5a btrfs: pass the dentry to btrfs_log_new_name() instead of the inode
+af02fe9428610b9b876d1593c400923cde793796 btrfs: remove unnecessary parameter delalloc_start for writepage_delalloc()
+cf99be3bfcb5cbe34735b781b1eefa131d908de2 riscv: lib: uaccess: fold fixups into body
+86628f0e6c00fd0ad7fe7614067f002ef35095f4 riscv: lib: uaccess: fix CSR_STATUS SR_SUM bit
+31c3749e59a01d6f78c2600700371246de5c9a99 xfrm: fix refcount leak in __xfrm_policy_check()
+f9f51c4dda56aa4bc948d1915c76cbe563d7bd4a xfrm: clone missing x->lastused in xfrm_do_migrate
+47522e805178146bd731362506ccd243b0f6d890 af_key: Do not call xfrm_probe_algs in parallel
+373e6143ec2ef1c0760734dbdff953d945b14233 xfrm: policy: fix metadata dst->dev xmit null pointer dereference
+0a895385f39110e8c6d7ab5fe8a550e8f36d60a7 fs: require CAP_SYS_ADMIN in target namespace for idmapped mounts
+7132c320af1f2776f7f211abc33a6548c74dbb44 net: use eth_hw_addr_set() instead of ether_addr_copy()
+ccbc26ce5d0fc7a48491fe2e67d229de265a3093 Revert "net: macsec: update SCI upon MAC address change."
+a1a323335fa309723e08d1cb93be5555c8f56e5e NFS: Don't allocate nfs_fattr on the stack in __nfs42_ssc_open()
+6cd37d625b24d4c85f0d5ec2ce8f8d3d218b9593 NFSv4.2 fix problems with __nfs42_ssc_open
+d1d60d245591baf658425d46a2dae1fbce19733b SUNRPC: RPC level errors should set task->tk_rpc_status
+eb85aa56c64b6db9b6654d5ecf26e9da2d560265 mm/smaps: don't access young/dirty bit if pte unpresent
+b684dbb800ebce9fdd2eabbbaa6e7132d52a7777 ntfs: fix acl handling
+447c561768690c90fe6ae3d406f72643702af41b rose: check NULL rose_loopback_neigh->loopback
+3702ea1ebcf421d5a67e82add38e5a289497b5ac r8152: fix the units of some registers for RTL8156A
+cf6d9ff85738165aa02962fa695efb0e671e8719 r8152: fix the RX FIFO settings when suspending
+685e650cf97e30c8457a222557843f5de74610ae nfc: pn533: Fix use-after-free bugs caused by pn532_cmd_timeout
+95c39f52c5691931b7a421374352c94c59d00e4c ice: xsk: Force rings to be sized to power of 2
+b10cfc852b392e8f1a3b2dd17f8163dcbe31f8fe ice: xsk: prohibit usage of non-balanced queue id
+ef2af29775b477b70f90a56264e9a0fa17a92d6c net/mlx5e: Properly disable vlan strip on non-UL reps
+d799543ce25e846e85a690100e2c93deac351d88 net/mlx5: Avoid false positive lockdep warning by adding lock_class_key
+5ed3ce9009aa90733daec7774cfc7fe37656a1e6 net/mlx5e: Fix wrong application of the LRO state
+76889c8216945728e00c2a7e58734e727dde6c93 net/mlx5e: Fix wrong tc flag used when set hw-tc-offload off
+43bb3c1165824d692cfd71a238c843d8d5c43ba8 net: ipa: don't assume SMEM is page-aligned
+c1026021ff5e4f249fe0877c1d3d7af03b4fafa0 net: phy: Don't WARN for PHY_READY state in mdio_bus_phy_resume()
+40254cccd1fed2747e8ff338a89753ee926bb836 net: moxa: get rid of asymmetry in DMA mapping/unmapping
+a489bb83366e5340c2bc0144da05f41003265c6c bonding: 802.3ad: fix no transmission of LACPDUs
+406dc4cf3b142994573e5af82253a0c83f2064b5 net: ipvtap - add __init/__exit annotations to module init/exit funcs
+148a47a865302ce8fac189f063f9cb515128f94e netfilter: ebtables: reject blobs that don't provide all entry points
+5a75495d2bee45ff503bb10d8138e03e3a25494c bnxt_en: fix NQ resource accounting during vf creation on 57500 chips
+c8d145b6602203b0a74cae459028e7761e3f5e3c netfilter: nf_tables: disallow updates of implicit chain
+65619e5a9985f39a12637bea60d42ed9d4a2f2a9 netfilter: nf_tables: make table handle allocation per-netns friendly
+29ecd4d0b883cf0dfc86818f7460dfe80053f04a netfilter: nft_payload: report ERANGE for too long offset and length
+ad6095a3fa042a25473bd8f80737c54a1c6e9265 netfilter: nft_payload: do not truncate csum_offset and csum_type
+9d5292aace0b98fa579dc9636347efdf1a129ebf netfilter: nf_tables: do not leave chain stats enabled on error
+4d4caea8eb00471bffbdd8e9b87954e8f44d838a netfilter: nft_osf: restrict osf to ipv4, ipv6 and inet families
+5ccfb50246184ccd0ceb96e3401b9be8e80ac450 netfilter: nft_tunnel: restrict it to netdev family
+8488750bf108a8a453807871b68a5f7e59d04ff5 netfilter: nf_tables: consolidate rule verdict trace call
+f59a3faa4fcf5b9aae1f576ef77772029f513ebf netfilter: nft_cmp: optimize comparison for 16-bytes
+ff7a0dde7222fe2f0ea1988371787bd667f7fa30 netfilter: bitwise: improve error goto labels
+9598b09a4ed1c29d961d7be475ae8e0410e5ace1 netfilter: nf_tables: upfront validation of data via nft_data_init()
+e87a85ba0933b07f34e8da78be1fa094bf81bb56 netfilter: nf_tables: disallow jump to implicit chain from set element
+08a2fd75b69e390ace4a18edff67275dc33adae9 netfilter: nf_tables: disallow binding to already bound chain
+37b13aec119a76a1cd0b8c7a3efd063e953e04fc netfilter: flowtable: add function to invoke garbage collection immediately
+57e7085ca6abe19079953706d5210f8a1e0c94f3 netfilter: flowtable: fix stuck flows on cleanup due to pending work
+30c24ca2cc5980cd1a56ee91efe4487d0f4af773 net: Fix data-races around sysctl_[rw]mem_(max|default).
+0178fb7e33f8d50846b27f5900a0573fcf2e3571 net: Fix data-races around weight_p and dev_weight_[rt]x_bias.
+a18cee8c985646a1b633b26e117cf16af0ebd974 net: Fix data-races around netdev_max_backlog.
+4b52f86d2d0a3c63538cd242bd1e990138ef12b5 net: Fix data-races around netdev_tstamp_prequeue.
+5f84f97d3fb702db52d3859db09368e9bb670d36 ratelimit: Fix data-races in ___ratelimit().
+dc16525e2e49ec414328b068408c488d7b81c1b0 net: Fix data-races around sysctl_optmem_max.
+ea8822e8f5f496e3743a12dde5d1c2479fc1e2a7 net: Fix a data-race around sysctl_tstamp_allow_data.
+51096976f63555671512b202563ca2c301b231a1 net: Fix a data-race around sysctl_net_busy_poll.
+e3d97cd70cb0b3328c3788615466a0091dbabd83 net: Fix a data-race around sysctl_net_busy_read.
+b659501dab2f6f90881e4eda0e6f3fbb71eebbc1 net: Fix a data-race around netdev_budget.
+8ee592f5504b614571ccbb65432164029ab12c48 tcp: expose the tcp_mark_push() and tcp_skb_entail() helpers
+27080e4cb3ecfc5a1c9b1d9ee3f0b518b3002f18 mptcp: stop relying on tcp_tx_skb_cache
+cf2df190ff1572e0540127970f2c04b4d6f8fbd6 net: Fix data-races around sysctl_max_skb_frags.
+dc662bf61cc46841a9e2fc9dd3bce0b0e7afc009 net: Fix a data-race around netdev_budget_usecs.
+88fadc8868234829647ca2aa42116b024a3bf78b net: Fix data-races around sysctl_fb_tunnels_only_for_init_net.
+243a7e95e436e0c70e78334bb13d6010429be848 net: Fix data-races around sysctl_devconf_inherit_init_net.
+81e90df8d3efcdcf4e222bd7bee11058c810def5 net: Fix a data-race around sysctl_somaxconn.
+e90bb95caead8ecebab6912b201d221f35b4d1a4 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+48e84989f724df52f2a00fe1d258c903c75b64e7 i40e: Fix incorrect address type for IPv6 flow rules
+9788cfead7ad85cf8f2c4fb138a9b2370a5a54ff rxrpc: Fix locking in rxrpc's sendmsg
+a9eefcfc4e70153ffd907690e80d51f9e4e4e2b1 ionic: widen queue_lock use around lif init and deinit
+edf0e57f56885475b1af0e5bdecae2e22bce53bc ionic: clear broken state on generation change
+6aeb585e2950a4c0ea1b2c26d6736da3ea2213fa ionic: fix up issues with handling EAGAIN on FW cmds
+86d007b165b92a8635f5d54b27593282c3880f62 ionic: VF initial random MAC address if no assigned mac
+9e4d15e2c0d2b5bab88abdefc4fd23b5ecd5b2a4 net: stmmac: work around sporadic tx issue on link-up
+04f361e1e6f6b9114f9a6cc7291a9d7fda871f02 btrfs: fix silent failure when deleting root reference
+b4157cd5d18195b65a8224837ffe8772aab9e352 btrfs: replace: drop assert for suspended replace
+a65a0a071815ad3dd1487925be387304e8926002 btrfs: add info when mount fails due to stale replace target
+53275e44bc81639207ff42c65110aae75a104f31 btrfs: check if root is readonly while setting security xattr
+2ec8881b9da135de0551728d541a4e782066b201 btrfs: fix possible memory leak in btrfs_get_dev_args_from_path()
+0f7a2e9ed378ac1f6b2439096b228d160dd2895f perf/x86/lbr: Enable the branch type for the Arch LBR by default
+560cbdf4aa0e0579925764a844d919c718a6292e x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
+81842a7b42a78b255139c4d30e8fa40ba2c402ae x86/bugs: Add "unknown" reporting for MMIO Stale Data
+fe707d8eff5892931a02898ead34b442cbc1bd37 x86/nospec: Unwreck the RSB stuffing
+772a7e56a72b430b2345bd32763e4dea14167298 loop: Check for overflow while configuring loop
+0dd7a0f323ca993572adaff9316e397828242dfe writeback: avoid use-after-free after removing device
+683c060600f94699e86d6430115ca14bd08485c0 asm-generic: sections: refactor memory_intersects
+afea2a7f6634643813fbe8b32f99d1d2fcf4e28f mm/damon/dbgfs: avoid duplicate context directory creation
+ab181d7fb19934fd2f53753b58fec70844cd86cf s390/mm: do not trigger write fault when vma does not allow VM_WRITE
+a9206e4276c64e5aea0ba5bb6ec4877165d2f958 bootmem: remove the vmemmap pages from kmemleak in put_page_bootmem
+88d950c48d1768e3134f169d8de02220eadfe462 s390: fix double free of GS and RI CBs on fork() failure
+b8c50d9fefe47ecbf4042725e4ce5166aadd82a9 fbdev: fbcon: Properly revert changes when vc_resize() failed
+a488f139c1efab269cabe3bfef3fdc7e8464cf27 Revert "memcg: cleanup racy sum avoidance code"
+0d6a64132b3ce32f55bff8bd91446953b78ea61b ACPI: processor: Remove freq Qos request for all CPUs
+3ed8b901c83b35691530779b6c50a603bc677760 nouveau: explicitly wait on the fence in nouveau_bo_move_m2mf
+20c035b8f04ca636e480207f889838f0967e4ed1 smb3: missing inode locks in punch hole
+80ee8ce842609b181a0f963890876e14bd4648cc xen/privcmd: fix error exit of privcmd_ioctl_dm_op()
+979c265f7854993a4cb12ecf0ffed96d82fa7ff6 riscv: traps: add missing prototype
+dcb60fb5b6cded6059cfcc6c9d62633cb9b89b26 io_uring: fix issue with io_write() not always undoing sb_start_write()
+97db242d31a45aeedfad2b1c7c9cca9b6a91bd52 Revert "usbnet: smsc95xx: Fix deadlock on runtime resume"
+0bcda3306f86424f9810b638fd867ea89d630401 Revert "usbnet: smsc95xx: Forward PHY interrupts to PHY driver to avoid polling"
+a58beb7b2036e42f3b4049a6ec5de60242156375 mm/hugetlb: fix hugetlb not supporting softdirty tracking
+12e5a12d80765308c7376db3ccccff5c37c35d2a Revert "md-raid: destroy the bitmap after destroying the thread"
+8325ddcc9b8675bc368f38fe757d73f717e9bf09 md: call __md_stop_writes in md_stop
+57cee332ab6b810e341d7a264b45cdacea0ab757 mptcp: Fix crash due to tcp_tsorted_anchor was initialized before release skb
+4611d532e0daeb3bfe5f597ad021fc46cc4bba91 arm64: Fix match_list for erratum 1286807 on Arm Cortex-A76
+81a6c5d907b555f9231652896a3900ccec14dc26 binder_alloc: add missing mmap_lock calls when using the VMA
+50bd7f1d2aad28fcc0221327871a94bde8ed14dd x86/nospec: Fix i386 RSB stuffing
+426334f75a3451231d3c24320d14617d3f3cfa78 Documentation/ABI: Mention retbleed vulnerability info file for sysfs
+98f8f7305947cda2ce4dceeb0481fa3a3aab8c4e blk-mq: fix io hung due to missing commit_rqs
+3c6b3c8d2643f4b0ca1c66909aa3761b1c430b39 perf python: Fix build when PYTHON_CONFIG is user supplied
+cf95d675fe878080586893a64025a19b2ec6d331 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
+3135cf512c10f554b75695e730bb1b0a64dc594a perf/x86/intel/ds: Fix precise store latency handling
+75552ddcfccd8d9bc729e2648ab3510270d4a5fc perf stat: Clear evsel->reset_group for each stat run
+5338dc4682fc353bbbdcff33f2086812b5a05cac scsi: ufs: core: Enable link lost interrupt
+9a68a342a1e6800c7a4e4f17f7b94d948ded3516 scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
+30057c8a3a385f835170ec6275e501ceaf7e4ebe Linux 5.15.64-rc1
 
---===============2995597908452707462==--
+--===============5448342061144625842==--
