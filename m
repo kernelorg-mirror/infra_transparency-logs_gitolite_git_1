@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 29 Aug 2022 00:55:51 -0000
-Message-Id: <166173455175.28763.3346831007111472418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Mon, 29 Aug 2022 01:07:47 -0000
+Message-Id: <166173526752.7896.13575126481031361949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/dt/next
-    old: dd3cb467ebb5659d6552999d6f16a616653f9933
-    new: b737da13e763e595458d736d42c08853b4ab82b7
+  - ref: refs/heads/for-6.1
+    old: 9587264aea505bfcb3431debf1f170e1bd71d9fb
+    new: e9892dce44f23b076cdae54f774a28984dbc6300
     log: |
-         b737da13e763e595458d736d42c08853b4ab82b7 dt-bindings: display: adi,adv75xx: Add missing graph schema references
-         
-  - ref: refs/heads/for-next
-    old: dd3cb467ebb5659d6552999d6f16a616653f9933
-    new: b737da13e763e595458d736d42c08853b4ab82b7
-    log: |
-         b737da13e763e595458d736d42c08853b4ab82b7 dt-bindings: display: adi,adv75xx: Add missing graph schema references
+         e9892dce44f23b076cdae54f774a28984dbc6300 ata: pata_macio: Remove unneeded word in comments
          
