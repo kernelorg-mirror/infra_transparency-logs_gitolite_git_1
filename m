@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9046008779437036522=="
+Content-Type: multipart/mixed; boundary="===============8910384834838755950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 29 Aug 2022 10:21:36 -0000
-Message-Id: <166176849691.18911.9751057404172006636@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 10:21:46 -0000
+Message-Id: <166176850673.19049.14593516075692513722@gitolite.kernel.org>
 
---===============9046008779437036522==
+--===============8910384834838755950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm.pae
-    old: 5032ea2cc5e3f878849e0c89bf33bc6ccd330b57
-    new: 9759ab10d408c3c5ff3e2ea48086f1767549f03b
-    log: revlist-5032ea2cc5e3-9759ab10d408.txt
+  - ref: refs/heads/debug/experimental
+    old: 5351b3e6687ff0a56454dc1077fdd8612d6213db
+    new: fb0d2dcd03b1fa3fa60e4752b2f8a780ee763512
+    log: revlist-5351b3e6687f-fb0d2dcd03b1.txt
 
---===============9046008779437036522==
+--===============8910384834838755950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5032ea2cc5e3-9759ab10d408.txt
+Content-Disposition: attachment; filename=revlist-5351b3e6687f-fb0d2dcd03b1.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -381,14 +381,8 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-c0d4280476b11972a22970cce2702bdda945b11c mm: Update ptep_get_lockless()'s comment
-718467151cb0ae04860c45b9b7a79f6601bdd694 x86/mm/pae: Make pmd_t similar to pte_t
-f3feb9cff0fbaab81541b067db30ba10f24fa9b7 sh/mm: Make pmd_t similar to pte_t
-b6ba7950d0894804559ddca0b1670892ac02d985 mm: Fix pmd_read_atomic()
-b817c7d33530b97dcf970b56b58bde06c2a73b2e mm: Rename pmd_read_atomic()
-ccb488271ca66b0149ab3a5f40b3732e45dfd022 mm/gup: Fix the lockless PMD access
-77b62a12283d2ee457e552195a185f025cacf462 x86/mm/pae: Don't (ab)use atomic64
-d4187c26bcddb99cb7a4341d3b083efae929edd8 x86/mm/pae: Use WRITE_ONCE()
-9759ab10d408c3c5ff3e2ea48086f1767549f03b x86/mm/pae: Be consistent with pXXp_get_and_clear()
+627c7a792d1da9198b6dde06322dbeea7bfe8643 early_printk: Add early_vprintk
+d9bafe90d578a512c3390f9c39fb05ecfc4d44f4 early_printk: Add 'force_early_printk' kernel parameter
+fb0d2dcd03b1fa3fa60e4752b2f8a780ee763512 early_printk: Add simple serialization to early_vprintk()
 
---===============9046008779437036522==--
+--===============8910384834838755950==--
