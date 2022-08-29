@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0210063946225081859=="
+Content-Type: multipart/mixed; boundary="===============3797580941243912615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 29 Aug 2022 10:20:46 -0000
-Message-Id: <166176844636.18239.1599749188864816038@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 10:20:56 -0000
+Message-Id: <166176845673.18399.5980269003580675749@gitolite.kernel.org>
 
---===============0210063946225081859==
+--===============3797580941243912615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/wip.rewrite
-    old: 9bc73a91d2830c27e2b5c96288262c9f224905e8
-    new: 077f8fe645a0b71e0174f7400de0d9829fa6c9fc
-    log: revlist-9bc73a91d283-077f8fe645a0.txt
+  - ref: refs/heads/perf/wip.cleanup
+    old: 4d40c08ee8203ab7bb6ce017803d114b57813ea3
+    new: 7d9b27641882722257bc4c6bc1c0941682876097
+    log: revlist-4d40c08ee820-7d9b27641882.txt
 
---===============0210063946225081859==
+--===============3797580941243912615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bc73a91d283-077f8fe645a0.txt
+Content-Disposition: attachment; filename=revlist-4d40c08ee820-7d9b27641882.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -338,6 +338,23 @@ c23f864dc7ef37655021c43beae98321436cbd9a Merge tag 'loongarch-fixes-6.0-1' of gi
 012bd7e859df9d6aa0a8ab4484c00aeded108071 Merge tag 'riscv-for-linus-6.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 e022620b5d056e822e42eb9bc0f24fcb97389d86 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 11745ecfe8fea4b4a4c322967a7605d2ecbd5080 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
+b40d0156f560932d14e3957579b6508f8d065260 perf/x86/amd/brs: Move feature-specific functions
+9603aa79e851c652f6da873205c92213af36b24f perf/x86/amd/core: Refactor branch attributes
+706460a96fc654e80b6bed1f562b00d2ce9f2f4d perf/x86/amd/core: Add generic branch record interfaces
+257449c6a50298bd21dcabd644f66a0296b78532 x86/cpufeatures: Add LbrExtV2 feature bit
+703fb765f48897214e3eb110f35dddec80682f60 perf/x86/amd/lbr: Detect LbrExtV2 support
+ca5b7c0d9621702e107c83216316a6d722878b64 perf/x86/amd/lbr: Add LbrExtV2 branch record support
+f4f925dae7419fc7a10af539c073871927ce3a24 perf/x86/amd/lbr: Add LbrExtV2 hardware branch filter support
+4462fbfe6ec1bfe2196b977010f6ce7b43a32f2c perf/x86: Move branch classifier
+f9c732249b110fae9ebf4ce33db4cb3a12c6eae3 perf/x86/amd/lbr: Add LbrExtV2 software branch filter support
+df3e9612f758fb5f9c251cbe262e3c68ffe67b2c perf/x86: Make branch classifier fusion-aware
+245268c19f701c7222dedcb6a383bc73d63925d4 perf/x86/amd/lbr: Use fusion-aware branch classifier
+93315e46b000fc80fff5d53c3f444417fb3df6de perf/core: Add speculation info to branch entries
+0bc3be5b4bfd5b75086c26d63584a6f7aaea87d5 perf/x86/amd/lbr: Add LbrExtV2 branch speculation info support
+6bc72375dd930fb7a8b71f6e5ced02b3b7cfdca1 perf: Add system error and not in transaction branch types
+082252a6ee5d35fddcc44ce4bc1a176496749d98 perf: Extend branch type classification
+7203d4a5c19fc13c5229c4c1a08a5f9222207230 perf: Capture branch privilege information
+3051ee34ccb5a821bc46ef06639ff275e9c810b7 perf: Add PERF_BR_NEW_ARCH_[N] map for BRBE on arm64 platform
 2413a85200ee9cbed40d12c6e3b856752b089790 Merge branch 'acpi-processor' into acpi
 3bf1b1571224e713f1a186de21b2204c06f1cb5e Merge branch 'thermal-core'
 bc9e7fe313d5e56d4d5f34bcc04d1165f94f86fb perf python: Fix build when PYTHON_CONFIG is user supplied
@@ -381,13 +398,15 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-b06358580189492493f1bcacbe8b7888c1782c31 perf: Rewrite core context handling
-befe3123da842143c52c9ee86977d8e5e4df41b4 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-bd4d2ab366fcdae9d8b1faf1a63f8ab5502fd9d3 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-9e0f3a45608f4c15afa30edd9b178926c0da7a68 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-2646766287e16a232d0174da488490e469ed8026 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-e9b6fa1246bc04382293944f379af58194c355aa Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-72d651483e3944ec90e1070af585bee40011a3c5 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-077f8fe645a0b71e0174f7400de0d9829fa6c9fc Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+fd13835c8286b3d10a093f5ce636c64b4cf6ee49 Merge branch 'tip/perf/core'
+c4e1aa390a70197dc7fdfeeef3b8866922ac8444 perf/x86: Add two more x86_pmu methods
+5984b17675f53fd3c9ead31efca5fded5ea60e4d perf/x86/intel: Move the topdown stuff into the intel driver
+a64edc552d4195b0cffa7320384349d3e13dadff perf/x86: Change x86_pmu::limit_period signature
+b7a51203f7480ca8bb889ec189cb6e0247a6962b perf/x86: Add a x86_pmu::limit_period static_call
+5a0c2564037a3f35d5a4dc0f917b8a4a377ab792 perf/x86/intel: Remove x86_pmu::set_topdown_event_period
+10871f000a69e70ca214f6546812d1ad28565dda perf/x86/intel: Remove x86_pmu::update_topdown_event
+42656607e8e08a91fd81c242bc6b7039f641e496 perf/x86/p4: Remove perfctr_second_write quirk
+84c3be7a8ca4edd44ab358c9fd2a9dff5eeb016a perf/x86/intel: Shadow MSR_ARCH_PERFMON_FIXED_CTR_CTRL
+7d9b27641882722257bc4c6bc1c0941682876097 perf/x86/intel: Optimize short PEBS counters
 
---===============0210063946225081859==--
+--===============3797580941243912615==--
