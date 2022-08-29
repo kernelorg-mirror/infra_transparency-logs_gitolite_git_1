@@ -1,56 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6810640584692191991=="
+Content-Type: multipart/mixed; boundary="===============7067896995646998963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 29 Aug 2022 10:57:03 -0000
-Message-Id: <166177062339.13190.6722623840845260802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 29 Aug 2022 10:57:49 -0000
+Message-Id: <166177066919.13557.14126941356436013821@gitolite.kernel.org>
 
---===============6810640584692191991==
+--===============7067896995646998963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: bc6c15e022a475711d77e3b06b6b0a104c5d86b3
-    new: 0f950033b53bb8de6ef62929a4b9fa7372f42057
-    log: |
-         0f950033b53bb8de6ef62929a4b9fa7372f42057 5.19-stable patches
-         
+  - ref: refs/heads/linux-4.9.y
+    old: e15727541153599f5c96c9c15ab76299913c8e38
+    new: 532ed05a7d840203f85f6b4cb3094d1445fabbb0
+    log: revlist-e15727541153-532ed05a7d84.txt
 
---===============6810640584692191991==
+--===============7067896995646998963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661770622 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1661770621-f6b0731fb1192b749193884374d40797baba3a8c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661770668 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1661770666-92e4fe3a4a37a1437fbc4171126f21c384dff65d
 
-bc6c15e022a475711d77e3b06b6b0a104c5d86b3 0f950033b53bb8de6ef62929a4b9fa7372f42057 refs/heads/master
+e15727541153599f5c96c9c15ab76299913c8e38 532ed05a7d840203f85f6b4cb3094d1445fabbb0 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMm34bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5ngP/RgGhmKyrZtjHW3NSD6s
-JS0bf360oWu5+wO+lwTvmn91cyVM2l9hegcRfmhQRRY+Y66RXAER3xF2tKb3ZuIt
-eqt0FgEaVKeuDK9K58rZH5l+aZfiUngQMxjlxzN+FGytqExMfEYoxnAqu8eaz0Y0
-4RBJ0y9Ytbcopm7egikj2OlYjlLUg2WlQXyAkfhacoeSfYtpcoVXmgUMjA48fh5w
-vCoMMrXe6cOjmFxtAvLMcaD0g1uzki4wdEm+RppqEhtgX38Za1DX4ym+VHzVK1Bi
-N8q+eG8xzEGkmJMD9D3ts/kseMX8BS2tiCff2ElmJDr0UpD/c0LtsD2WNiV6oxce
-IQ8xk+CyOSHxkVGvwuuaJ8F3odRfgrS5SQxl4u0vmbsEqp+AA5tdbwrkUcSt6d2D
-k5nNwmmDE9X80nUMlsDwIYLe561LtNMqTNWcCmrTpUn3ilGZeWIcNtI54Mb4q+oC
-2dSyCcWOPf/dApDnPFd1gtSoOmO029O4u72qaNjTI69O32W+a2FzQhKMzQwC3Gij
-bxOIkkjmibnAcEFNIbSFyPOmUUO6bUcRuUhJppPrFXNiZY2XKhca4NjUtQ4ga9h+
-MyZr+WiH6xkKUqDW0omoxuzVzg08GuQqceLPEGyBWFv0wcfxK5rWSbZY3Ngl02lX
-Y3WcaHrHggM8EPGc0Wus1Nm8
-=1wNW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMm6wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O98QAIcD0IuvEHyg+G71bxnt
+NI1KidlLJzrA4aOQuDqra6LPJU63Vuydf+xbpahkx8RhEBZrhc5cuuEiMRjpQCTX
+U1mwKUug8tM2sMZDYkdA7K+0qxhwDAKgSMJxR3TJaZ3rdzIvN10wHmr9NEYkxJ9x
+yadmkY8u0x77DiJfWurxXMiNRL1R8p0gSg/TxfY+u8vGucJ+ngTpWSToW2+avdVe
+GwvMbtsFFrWnT4nCkBB1cwKqgrxIRcGF1aV4jFGdESqYIgC4co+gulED5RPFlH0z
+txY9rAn7vBHgocpJsf0G8PBQ9NFHFnANEtpIn+wXFzYJS3Eihx3BaR854i9lM1wv
+u/e0lNWo0p2nsQyEYH6xqdQwjY72bxMXTNcGQ0dbNGq94xFm6+xWXBTlY9p6KQbZ
+X209DRUtG9sw80EdwjYrW4qFIYMeo2i3wbqnIhKFvKalBy04f36XwsSue6PSHOGE
+IC6dUqcqz0wLbapGEAWeZLC/RoBeUxLfF+mMlM0oyxLKEtpjzaPtILwnXVNB+sls
+6rgq/bxWkP6z8mDCKy+hhzVt/cvm5lwG46HjiEz1H/PUj0kZ/zhlSrUJW0nyKZIP
+Pc6qxz4UZ0qn3kzJ+Jvqc35oN7kGXd8x2W+7egIBJUj72f3Khmk62EkzFMJQTQ6J
+RakImqZGjf+K880F7uW3Nxc2
+=iiYL
 -----END PGP SIGNATURE-----
 
---===============6810640584692191991==--
+--===============7067896995646998963==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e15727541153-532ed05a7d84.txt
+
+deb003961084c6782ffbd2ae4018596b5d4f691f parisc: Fix exception handler for fldw and fstw instructions
+54cfb062c6f27b580c55eafa3eb3aa953582a2c2 xfrm: fix refcount leak in __xfrm_policy_check()
+daab4ca1d528b84c131d63c29724bfb933ccf7f0 af_key: Do not call xfrm_probe_algs in parallel
+b7f54dc30b0e215076cb1580d4bce9837a0ce8ae rose: check NULL rose_loopback_neigh->loopback
+b253c08b9f1192e1e7f02d7cfa4be4619fdcea8e bonding: 802.3ad: fix no transmission of LACPDUs
+1fb7e46eba8d752e522dad1e66c3a1d395263a08 netfilter: nft_payload: report ERANGE for too long offset and length
+6c5c3347c824f801c09269ba4dc349aadd3cef7f ratelimit: Fix data-races in ___ratelimit().
+c9ce66656b912205282d3c75b3a1487528360970 net: Fix a data-race around sysctl_tstamp_allow_data.
+5ce4b8564afd530216ced8fc8e964eadaee5d46c net: Fix a data-race around sysctl_net_busy_poll.
+f0860ffd4e7aa829f1e85fbbf65388a6256b1f88 net: Fix a data-race around sysctl_net_busy_read.
+c469254a1c2909c9a684217f28d4cd3c03e09ba0 net: Fix a data-race around sysctl_somaxconn.
+9ed85e90821a7047400a699eb4853b39f44c0c30 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+d5bbfefd900f51c0e879e3e77ff7dc6694e1454b btrfs: check if root is readonly while setting security xattr
+1538f85795e4541082bb8af8a5700c49b3179953 loop: Check for overflow while configuring loop
+fbc74c6df271a55f89364382c705940ad1e61ee4 asm-generic: sections: refactor memory_intersects
+b7bd77a05e702fad354a812b10b64bfc739e9b07 mm/hugetlb: fix hugetlb not supporting softdirty tracking
+532ed05a7d840203f85f6b4cb3094d1445fabbb0 Linux 4.9.327-rc1
+
+--===============7067896995646998963==--
