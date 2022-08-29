@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0221896719013482269=="
+Content-Type: multipart/mixed; boundary="===============2889287956779153358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 29 Aug 2022 16:14:28 -0000
-Message-Id: <166178966863.14723.10405390741356882319@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 16:14:33 -0000
+Message-Id: <166178967354.14813.3189541024397979625@gitolite.kernel.org>
 
---===============0221896719013482269==
+--===============2889287956779153358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2e085ec0e2d7afa14bcfbcd4c41240f5d3372bfe
-    new: cb10b0f91c5f76de981ef927e7dadec60c5a5d96
-    log: revlist-2e085ec0e2d7-cb10b0f91c5f.txt
+  - ref: refs/heads/dev-queue
+    old: 083727b0d8f3ee1f86211eec229c4bb7260379cb
+    new: 70f840ca01a2b9c0a657e1afb9753396e80966c4
+    log: revlist-083727b0d8f3-70f840ca01a2.txt
 
---===============0221896719013482269==
+--===============2889287956779153358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e085ec0e2d7-cb10b0f91c5f.txt
+Content-Disposition: attachment; filename=revlist-083727b0d8f3-70f840ca01a2.txt
 
 b82a26d8633cc89367fac75beb3ec33061bea44a Bluetooth: hci_event: Fix vendor (unknown) opcode status handling
 1fd02d56dae35b08e4cba8e6bd2c2e7ccff68ecc Bluetooth: hci_sync: Fix suspend performance regression
@@ -45,5 +45,14 @@ ebe5555c2f34505cdb1ae5c3de8b24e33740b3e0 nfp: flower: fix ingress police using m
 3f8ae9fe0409698799e173f698b714f34570b64b net: dsa: xrs700x: Use irqsave variant for u64 stats update
 278d3ba61563ceed3cb248383ced19e14ec7bc1f net: Use u64_stats_fetch_begin_irq() for stats fetch.
 cb10b0f91c5f76de981ef927e7dadec60c5a5d96 Merge branch 'u64_stats-fixups'
+1efc1002d6393609d1d760eb634a7d7d43e2a28a mm: re-allow pinning of zero pfns (again)
+b56dc03cce71355b8343d59eda5058f22d2227a8 ice: config netdev tc before setting queues number
+11840ee8339709fd64580435e755058ef8c48017 i40e: Fix ADQ rate limiting for PF
+5a7d08fbc6171f4448d222238c9905b25c27536e ice: Don't double unplug aux on peer initiated reset
+a8334948f99d08c2695a73e37b9ccbaa1ad8b488 ice: Fix DMA mappings leak
+e12564704bb5c9a1660713c1d9f1942fcc588614 i40e: Fix kernel crash during module removal
+59bec0a6485a15c2767a3166ad18ce0784370164 ice: use bitmap_free instead of devm_kfree
+01a0e4d9c049b5b0677830c302ef6d43760e3792 ice: Fix crash by keep old cfg when update TCs more than queues
+70f840ca01a2b9c0a657e1afb9753396e80966c4 ice: Add set_termios tty operations handle to GNSS
 
---===============0221896719013482269==--
+--===============2889287956779153358==--
