@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1834455407790350024=="
+Content-Type: multipart/mixed; boundary="===============2247913494009756784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 29 Aug 2022 09:40:18 -0000
-Message-Id: <166176601806.2972.6593183109205629565@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 09:40:26 -0000
+Message-Id: <166176602654.23386.6391589891313237758@gitolite.kernel.org>
 
---===============1834455407790350024==
+--===============2247913494009756784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,83 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: ebe90679fb91f14dd9d74fe8b9d262cd19e58ca1
-    new: dc1f667a35fdd9517a07b880b8f4157e19c74d5d
-    log: revlist-ebe90679fb91-dc1f667a35fd.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 53a66186c8fd17bfabb85de9499efef3d099639e
+    new: 83ff5e9cd2b920151934576571eecec9224dbfd1
+    log: revlist-53a66186c8fd-83ff5e9cd2b9.txt
 
---===============1834455407790350024==
+--===============2247913494009756784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661766016 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661766024 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1661766014-a0e09804d1ea87c25b0c62e785dba98a608eed16
+nonce 1661766023-c5e452e4afbebeb69f0051869996fb5a29664d2a
 
-ebe90679fb91f14dd9d74fe8b9d262cd19e58ca1 dc1f667a35fdd9517a07b880b8f4157e19c74d5d refs/heads/linux-4.14.y
+53a66186c8fd17bfabb85de9499efef3d099639e 83ff5e9cd2b920151934576571eecec9224dbfd1 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMiYAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iqkP/Ah4bgf9FVABVIAEM5H+
-8MLSQzJC+EwEMB8MSDl8wBmg9k5j2h6W/pS3e/G8c5IVug1XX8iSQEmAGtzecHre
-Y/IGK9MnEjfERFtccbduC4De22BEpoOvR6CWEtQ9jxJax2sumcybDXuZl0mgD/YM
-3ZRaBk8E/XpKYJkimj2M9TWJCQc4obBlz3QsqLSyDoa6kP662I8XY4X63NlnKnTf
-R/Zu4rfI2HexpBla1eZaqfP4OqHhBLlIzruXahiIa2JGsqTl9r+mNFzwhV5QzCgR
-EISHZRTSy8e/Tb76NsX9NMyyRIGZl8Xagm2ZSneqhDfo9RksTm1G2JD5qiQoPWZB
-EjzyIB5x/c+XYj3hf9CHRXy9SenZBfXQX/Zvv2mOw6PNyMRI0MXGIRzXUoAqM1t1
-vxiKyR3bzBZ8otAWQzvR5ZtLmqXnQp8EL5wBecmCz/xv/1Wd5zdioipdOkxErB/K
-Vwwr1fof7YIh17L+WYBMBK5+Fyq7QEJMV+Yvsd8nBM5NWb7Ef6J4fXO9p8dyCgw/
-945VZKjhHX/HbWM0MhuLH2zCuQNSRuvGEnRzwNiAkBiPtu4cV6+9rmUEQSnIgP7q
-2B8EFbD3O4DgGNRm+MnykaPor4Rq7e/5bDpfqCPJ3NTe9MFnlN0rRKKiEeHnrJd6
-w3XFvgnmnW6eUCLtg97IvJPA
-=sDbM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMiYgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZeIP/Rc2YKwsWeavSdANfNKG
+rmPmnv1MD61QBabCul01QRDtG5kDddVte17hXwtLjofuHDCOeJTIMnf9n1y8Cidd
+mNuBFDiFhP4GjgICtIQ2H+2Oq13gM2KOrcO0qOz0hnnGsQeMNoVF2XPzTYl/JXyh
+gUIwyYHHEwXL3XnicKPg4ggAJZNnbAfp6EUJIqFBAdPnU6XMj8zWMEzUZkT4xlmp
+lEpczfDu7uvvvGyLzCrJN1l/zwRqBhVv5cb4WAQjJeEn9DGMcsxJQjPaSx3IeLLJ
+Jnxot8I/XtRBumiR3WIx6qJWgbeZy4ymyIcCNEkQjmEiIv4FIE+gyuHQ3TN/i+UQ
+u4MMd7WUomSXrVSNY4wRtV4Eif4Zufk5WzLmAJSUO8Q4TGfYHXnlaK3uZcYdY4hm
+hWC5ab8Sj73NPL6YIbT1xqYrParv+ALzsbTnYV/ePZBRba8dx/g8Cg9qnRp6CYjF
+RYt/iZLTxl4ZUQQvj5XPhsA3x1aHzcuwpxxWN3CVXv221WxWKePxtT0boLPQbR7Q
+mHyMz1G/bneuHH6J3x3Y67kn1sVKMcXWOBtgEGG0dHF5FZkQwQnWXJYyP7jb8gif
+ApjoSYbzSMkKO/+EE2fXWsT2RR3vjJzm7ulUhgSkdBqUBX9BzarbTW3rZ7cWP8n6
+gF34465M6doL9hGZ+KSbobBH
+=j+IY
 -----END PGP SIGNATURE-----
 
---===============1834455407790350024==
+--===============2247913494009756784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebe90679fb91-dc1f667a35fd.txt
+Content-Disposition: attachment; filename=revlist-53a66186c8fd-83ff5e9cd2b9.txt
 
-5e543ec1ae15a9b2a4e2aceb9658d4f0cd46080e audit: fix potential double free on error path from fsnotify_add_inode_mark
-c160f6f6b83877cedbf192958438c3e59a3c59e5 parisc: Fix exception handler for fldw and fstw instructions
-6bb6457b3ea70d3c5727a63ac4c5c0ab80dfbfa5 pinctrl: amd: Don't save/restore interrupt status and wake status bits
-77f4ae9d93b9083458d2f4f106f4fdd5d2c0c2c4 xfrm: fix refcount leak in __xfrm_policy_check()
-7db699e2b8493e4de25e93886b9e597e6f1f8b0e af_key: Do not call xfrm_probe_algs in parallel
-cab24a46d7ca20b005438f4bdd19abef74ceacc6 rose: check NULL rose_loopback_neigh->loopback
-59df905dc24c0ea1f6fa6b9ca868fef36e7ac9a7 bonding: 802.3ad: fix no transmission of LACPDUs
-7a97465e6102f1220f182e31865152daab0af3df net: ipvtap - add __init/__exit annotations to module init/exit funcs
-f37747119d26be044796a48518e5c7c6568bec56 netfilter: ebtables: reject blobs that don't provide all entry points
-133fbac17b04380e0b8f22b3417dc244b4f662ff netfilter: nft_payload: report ERANGE for too long offset and length
-2b71b9bd157be5297ececf9b4baa8d53450c10b7 netfilter: nft_payload: do not truncate csum_offset and csum_type
-19d191cb1fbf69127c2434d91de46aca96e4e1e9 net: Fix data-races around weight_p and dev_weight_[rt]x_bias.
-b9cf7ac13ff8d4cd02d899785ea16291b79d2cb5 ratelimit: Fix data-races in ___ratelimit().
-6fd178e349426d9532dc980099f1fe31ec0df06f net: Fix a data-race around sysctl_tstamp_allow_data.
-c91dde4af482ced91815f0f5b2e1b26d90712cc6 net: Fix a data-race around sysctl_net_busy_poll.
-a78bffe82392ad9d33a51840a19f879a247f0105 net: Fix a data-race around sysctl_net_busy_read.
-ca60bbadd3ff4c5a0c60850d23a6c41faa07714d net: Fix a data-race around netdev_budget.
-a9f5255f64cf0098c967543c2c687487e67c037a net: Fix a data-race around netdev_budget_usecs.
-ff807cd376d3beb19ee299b342b635fceadf2e5c net: Fix a data-race around sysctl_somaxconn.
-de056eff39531e518ddd23631988144f6f2ffc7c ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
-c235c9fa4f3b1b8536baca0b5a055ce5db1ea9a8 btrfs: check if root is readonly while setting security xattr
-227373e341ef5aa3400f5c2e03ee57d13f18de95 loop: Check for overflow while configuring loop
-2e711aaac75384bfa0b422789206a46ee168c414 asm-generic: sections: refactor memory_intersects
-8aa69242558d4a3c05e012c31da075278da4874e mm/hugetlb: fix hugetlb not supporting softdirty tracking
-f405025e99402f21d92da0707a77ee7438185803 md: call __md_stop_writes in md_stop
-dc1f667a35fdd9517a07b880b8f4157e19c74d5d Linux 4.14.292-rc1
+a80923eba5c5b5521360274240b63c66fe369bd4 audit: fix potential double free on error path from fsnotify_add_inode_mark
+d8374814ef44ca3cf8e1e7d15f2f0ed8a6c8b98b parisc: Fix exception handler for fldw and fstw instructions
+02892e828203b945108e0f6b2e4925db9ecd86b8 kernel/sys_ni: add compat entry for fadvise64_64
+ea97a4e80e41a2a259dd8ba3fa996e41f8328970 pinctrl: amd: Don't save/restore interrupt status and wake status bits
+f4e2718eff94cd068e9a41936ea62c84cb9b7054 sched/deadline: Unthrottle PI boosted threads while enqueuing
+936f403695e603cbdad36023ec207bbee09896fd sched/deadline: Fix stale throttling on de-/boosted tasks
+1d871bbd7e82df43a14705f9939cd9aa12903449 sched/deadline: Fix priority inheritance with multiple scheduling classes
+52d33bf31eba8d9f1b20ea6af91d2be632c9e9c7 kernel/sched: Remove dl_boosted flag comment
+52fb518ad3d556e55c90767a97ca935baac86729 xfrm: fix refcount leak in __xfrm_policy_check()
+822e76e5cfb14f3e80241c2784c7e32bafac0f3b af_key: Do not call xfrm_probe_algs in parallel
+305fee94f661da82b9604d5fd74e5bc01e21d2e8 rose: check NULL rose_loopback_neigh->loopback
+7373748331cbee0e03e47422d2de1774905219ae bonding: 802.3ad: fix no transmission of LACPDUs
+d6ad7e2f9c2f4f91626002bfbe051e79e16968f5 net: ipvtap - add __init/__exit annotations to module init/exit funcs
+c322cf48590e0cc1367f238bdc6bf5f26a2ea29e netfilter: ebtables: reject blobs that don't provide all entry points
+29af9301865ab6b821511384cbea10b84f9f2e35 netfilter: nft_payload: report ERANGE for too long offset and length
+1d47b9bb6f1b41dfcaf39c5f8214db2cb622bbec netfilter: nft_payload: do not truncate csum_offset and csum_type
+803002e5415ca84a91956b4ca8a9bdc937c55c0e netfilter: nft_osf: restrict osf to ipv4, ipv6 and inet families
+36ee2750d13d12adb3ad4e9eefa06346a6f2b5c8 netfilter: nft_tunnel: restrict it to netdev family
+ba8788ef192e29e73780bfeea528aeec841b8ecc net: Fix data-races around weight_p and dev_weight_[rt]x_bias.
+0140607b0e56682aae4e944cb60eff0e6a0e052b net: Fix data-races around netdev_tstamp_prequeue.
+f9fc8ed37b13ddcb8be1ef3727a58294c10f7ed4 ratelimit: Fix data-races in ___ratelimit().
+cb41117a899025a6e5235194d4a50d3bbd42303c net: Fix a data-race around sysctl_tstamp_allow_data.
+ecd93fa5ccfe35ad1394abb2d9d39e289352ce8f net: Fix a data-race around sysctl_net_busy_poll.
+0adb13339b63e041c6121502be6ae7a7fdac0ce2 net: Fix a data-race around sysctl_net_busy_read.
+06f552e002207ca6d194c3dd90433ba7ebdf5f6d net: Fix a data-race around netdev_budget.
+902eda9ca66e725fdfdd3bd9a87565184147e716 net: Fix a data-race around netdev_budget_usecs.
+9a8aa4e6de261100f8b90f73dfabebb4e30bc1b1 net: Fix a data-race around sysctl_somaxconn.
+472124e35b63dff76998f3a076aedf660ea46e65 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+cc9d7d057c250e78cb3ffd80895dec90f1053aab btrfs: check if root is readonly while setting security xattr
+0f033a492f399189fa1803b3e83e037b114977be x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
+b65d3513702fdbf42dcbcf41449b280d49610f77 loop: Check for overflow while configuring loop
+e0f40169ab98a973c39c14e8cde317807b0fda7e asm-generic: sections: refactor memory_intersects
+cd07a29875b1af8950bf50bc215db4250b233cd5 s390: fix double free of GS and RI CBs on fork() failure
+1155362346f70b06fc8628bf186772e93bc6bb51 mm/hugetlb: fix hugetlb not supporting softdirty tracking
+f1bc8dae574316c84acdb660b0c0ad9e37cf6b20 md: call __md_stop_writes in md_stop
+651471495dd11b07f8029de7897c2889c060b8ea scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
+83ff5e9cd2b920151934576571eecec9224dbfd1 Linux 4.19.257-rc1
 
---===============1834455407790350024==--
+--===============2247913494009756784==--
