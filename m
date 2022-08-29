@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 29 Aug 2022 22:49:41 -0000
-Message-Id: <166181338172.5139.14618153438987693241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 29 Aug 2022 23:13:33 -0000
+Message-Id: <166181481397.22450.935482617137084809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: e89afeabd87de26be19f3a1963a2de43f96cb200
-    new: 6e01f889cb996b240115673726d208108e6468f7
+  - ref: refs/heads/next
+    old: ab7039dbcc61229aa635357b847a643973497561
+    new: 997fdfc6b9c041be39ecb9a156cdeeea1a9a4379
     log: |
-         dd2f0b0eb1c26fe6f0f00b51ee9f1bfe3c7580db foo
-         f81f430c9c27bb98e72546589c51b8732c9e7f32 foo
-         de5b391782759d92fc6ff8754aec6a1846b1e5c4 foo
-         e505800f106aa588aa472b61c66ba566f617b605 foo
-         5378fd7a7efa73dcb520990d7a5b88bc02049d28 foo
-         02920d56227d26c40041cd4803ec0bf8b3874094 foo
-         77d399461807ca6f07fe88957f144d66fe8dea1d foo
-         47022a42c625c19ab56bf3d42b70bda8037f35f7 foo
-         6e01f889cb996b240115673726d208108e6468f7 foo
+         8c766b24ee62c467dcc43855be4a36e903864300 cpufreq: amd-pstate: Expose struct amd_cpudata
+         e2093f5df2381effc84a7dd0414443d972b4c7af cpufreq: amd-pstate: Add test module for amd-pstate driver
+         1f8cabdfffaae7b858ed29b368646da83c7e4a6f selftests: amd-pstate: Add test trigger for amd-pstate driver
+         997fdfc6b9c041be39ecb9a156cdeeea1a9a4379 Documentation: amd-pstate: Add unit test introduction
          
