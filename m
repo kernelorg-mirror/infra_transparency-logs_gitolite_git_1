@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4667018319621740540=="
+Content-Type: multipart/mixed; boundary="===============3146440071706998488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 29 Aug 2022 20:53:55 -0000
-Message-Id: <166180643568.18719.6686426481223722780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 29 Aug 2022 20:54:12 -0000
+Message-Id: <166180645279.18934.12224673041562333527@gitolite.kernel.org>
 
---===============4667018319621740540==
+--===============3146440071706998488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 7bb5b8268ef36ecad2f3e2a8e39be61a44816117
-    new: 44eb125b9ef6e6dc68e42da8fb1b66ff656895e1
-    log: revlist-7bb5b8268ef3-44eb125b9ef6.txt
+  - ref: refs/heads/for-next
+    old: 2a95b9bc79c892777b0ee00ad8285ba5d5cd8ac7
+    new: f31e7f9af76016db17e45e27ee393746e749f97e
+    log: revlist-2a95b9bc79c8-f31e7f9af760.txt
 
---===============4667018319621740540==
+--===============3146440071706998488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661806433 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661806433-1b5a7cec569692afeba81b56c370cdd9d51fc47e
-
-7bb5b8268ef36ecad2f3e2a8e39be61a44816117 44eb125b9ef6e6dc68e42da8fb1b66ff656895e1 refs/heads/spi-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMNJ2EACgkQJNaLcl1U
-h9A12Qf+IVZeIacc8mwRqRZMpOq1TklTdgVmZhLql6wRxo38mtuphJxLYA52SNgr
-EwHEEpdb7EyRNC5ToDiTXaJf5LtHewmjXC+k9PdU5TjOWq84n3AgNsPLBp+zQUlc
-yQZVhaovblwgp7WaLfKvFEs11kdUUYCXYEEK4txVIWc3qMJlE0ygc9dnBORDPWX8
-izQtHIjSD7V0AYJL/trEdbAi8Ni1jmV8w6IDDW54XI/jgv83AipLACvimOCcSSai
-xB585omZi9TFWRtxXMEk1GLjxbZoW1TmZVdHsbBsiKDXOHmj1v1H68pWesHA9bH2
-y4Bp4rx9abwGoBn08vhI4yFYVSZVxA==
-=UTfQ
------END PGP SIGNATURE-----
-
---===============4667018319621740540==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bb5b8268ef3-44eb125b9ef6.txt
+Content-Disposition: attachment; filename=revlist-2a95b9bc79c8-f31e7f9af760.txt
 
 b7b6160d0eb922c44d174f7e1199713e4285c54e fs/ntfs3: Refactoring of indx_find function
 cd39981fb92adf0cc736112f87e3e61602baa415 fs/ntfs3: Fix double free on remount
@@ -837,5 +812,6 @@ b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
 30b31b29a866d32fc381b406d4c4f5db2636e5ec spi: mt7621: Use devm_spi_register_controller()
 4a5cc683543f5f6ed586944095c65cb4da4b9273 spi: mt7621: Remove 'clk' from 'struct mt7621_spi'
 44eb125b9ef6e6dc68e42da8fb1b66ff656895e1 spi: mt7621: Fix an erroneous message + clean-ups
+f31e7f9af76016db17e45e27ee393746e749f97e Merge remote-tracking branch 'spi/for-6.1' into spi-next
 
---===============4667018319621740540==--
+--===============3146440071706998488==--
