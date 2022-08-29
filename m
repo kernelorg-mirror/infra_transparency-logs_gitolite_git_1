@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1257685829414885497=="
+Content-Type: multipart/mixed; boundary="===============1693115037054747075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 29 Aug 2022 05:00:07 -0000
-Message-Id: <166174920702.10757.7779660334555682650@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 05:02:33 -0000
+Message-Id: <166174935306.11678.13638144974216066641@gitolite.kernel.org>
 
---===============1257685829414885497==
+--===============1693115037054747075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: 25938ca3bab105a03d932f49c7b1c7c04f335a10
-    new: c11efc57d4ccca47c5cf89341c4500acbb2c7599
-    log: revlist-25938ca3bab1-c11efc57d4cc.txt
+  - ref: refs/heads/kbuild
+    old: b2005a400b96fe24524e442569a140f37640fcea
+    new: 144cec8487400646573cae9428b7b2d203fd0040
+    log: revlist-b2005a400b96-144cec848740.txt
 
---===============1257685829414885497==
+--===============1693115037054747075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25938ca3bab1-c11efc57d4cc.txt
+Content-Disposition: attachment; filename=revlist-b2005a400b96-144cec848740.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -381,7 +381,9 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-86879fd277e8e76bf29d10c23e7562d86b9286a0 scripts: remove obsolete gcc-ld script
-c11efc57d4ccca47c5cf89341c4500acbb2c7599 scripts/extract-ikconfig: add zstd compression support
+a0fd1be62de6938ef574dc64bce069af09120980 kbuild: add phony targets to ./Kbuild
+7bc6bfb14ad596d6cbfe5ee40022ce19ad266940 kbuild: check sha1sum just once for each atomic header
+39f1dfa227869d7eb5e521e216af1ee22f770b4a kbuild: do not deduplicate modules.order
+144cec8487400646573cae9428b7b2d203fd0040 nios2: move core-y in arch/nios2/Makefile to arch/nios2/Kbuild
 
---===============1257685829414885497==--
+--===============1693115037054747075==--
