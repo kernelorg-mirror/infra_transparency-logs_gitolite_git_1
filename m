@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6888535217170767086=="
+Content-Type: multipart/mixed; boundary="===============4909032757065937057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 29 Aug 2022 11:44:41 -0000
-Message-Id: <166177348197.13878.8881530479961215729@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 11:45:41 -0000
+Message-Id: <166177354188.15870.3763878700400704290@gitolite.kernel.org>
 
---===============6888535217170767086==
+--===============4909032757065937057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-config-next
-    old: f2906aa863381afb0015a9eb7fefad885d4e5a56
+  - ref: refs/heads/ti-next
+    old: 62b9e4033c13da9e70b35073168fcdfc4e164dfc
     new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
-    log: revlist-f2906aa86338-568035b01cfb.txt
+    log: revlist-62b9e4033c13-568035b01cfb.txt
 
---===============6888535217170767086==
+--===============4909032757065937057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2906aa86338-568035b01cfb.txt
+Content-Disposition: attachment; filename=revlist-62b9e4033c13-568035b01cfb.txt
 
 9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
 eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
@@ -1051,4 +1051,4 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
 
---===============6888535217170767086==--
+--===============4909032757065937057==--
