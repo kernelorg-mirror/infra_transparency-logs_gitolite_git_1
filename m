@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 29 Aug 2022 20:54:30 -0000
-Message-Id: <166180647093.19120.8684382914341867890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 29 Aug 2022 21:02:59 -0000
+Message-Id: <166180697996.26510.14738243860995368329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: bf248850dc2ae45d29d4fdde688e90d24f3dd6d2
-    new: f280a14d90b59760f9ad46f502b5075110beb721
+    old: 7edb9815e72f0413e74c68bd36b28e209b4f4093
+    new: d9f1aa2479cd6ee0eac18291bd87d10eaee47ca2
     log: |
-         c4e0b0884a43854178cd9d11cb555bcb08c52a0e queue: assume direct SQ-SQE mapping
-         7303e1a639ac5f49e92e3b52878f586040382550 Merge branch 'refactor/sq-init' of https://github.com/calebsander/liburing
-         f280a14d90b59760f9ad46f502b5075110beb721 src/queue: always enter for IOPOLL
+         d9f1aa2479cd6ee0eac18291bd87d10eaee47ca2 Mon Aug 29 09:02:14 PM UTC 2022
          
