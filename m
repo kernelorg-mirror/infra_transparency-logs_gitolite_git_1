@@ -1,25 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 29 Aug 2022 09:23:50 -0000
-Message-Id: <166176503099.32467.15085666003571277729@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5698860592412187234=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 29 Aug 2022 09:32:53 -0000
+Message-Id: <166176557330.7701.11318375360872043952@gitolite.kernel.org>
+
+--===============5698860592412187234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 4b185ce722a3ffec19af26527d58f872617c32b3
-    new: f1339b11eda8122618c1f9054e1950046acfee4e
+  - ref: refs/heads/linux-5.10.y
+    old: fa3303d70b423dd3e855f57febaba77e15069650
+    new: 665ee746071bf02ce8b7b9d729c8beab704393c2
     log: |
-         0e3cf9416544bc292b3239b5633eafddd2ec77c0 habanalabs: set command buffer host VA dynamically
-         917aa93cf1a8786d7d4fb2b4c0e59719cb7fffd3 habanalabs: perform context switch flow only if needed
-         9f1d8362e3c1f24d0aae65d6632540cadf94238d habanalabs: ignore EEPROM errors during boot
-         06eb827e5ce7ece8c7354347592b1b9b721673b7 habanalabs/gaudi2: log critical events with no rate limit
-         03ddb794f2bf9ca3e4f0a71062ae71da51c31212 habanalabs: allow control device open during reset
-         7d4669fd5d890946985208f43665f24bd90e661f habanalabs/gaudi2: dump detailed information upon RAZWI
-         f1339b11eda8122618c1f9054e1950046acfee4e habanalabs: send device active message to f/w
+         37c7f25fe2b79184f3a7a9f15fdcfbcf8f46913c kbuild: dummy-tools: avoid tmpdir leak in dummy gcc
+         665ee746071bf02ce8b7b9d729c8beab704393c2 Linux 5.10.139
          
+
+--===============5698860592412187234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661765572 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1661765570-b8a0de35a463482328c094fc24848168efcadc96
+
+fa3303d70b423dd3e855f57febaba77e15069650 665ee746071bf02ce8b7b9d729c8beab704393c2 refs/heads/linux-5.10.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMh8QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gdUQALxN/TZwsT9aWkLG41Wk
+S8cNwuLQE7+vT5k7+2SbCQ0fy9oUz2aPJaBSxHuxslbtaQmX73GZXWGpHSccPSCy
+vrDFdj2NG0857IuybVAUH/Oq6ynyNKyG+KX4hapNtSulHJOPu7anfCfBTPlS/o+X
+jH+iCLrL56oe7ZQ7PTDvNA3JJvuKgCc08yddPVLTBzUfpnOlnMDhMEo8LkcRRHe/
+DZwqMqOEHOXv3qXBr1lB/pCtiaC53qTnMDfgWZZloThO2FAkDDg3xPOT0usdFhj5
+t4CACj3Vaog4FJLwlaTYUK2po7mRYswytNqthyMuSAQC4G40kqSs3/9dELjXSkuU
+ZPJ+X9ufX+FRQaQXWTK1tAkSdDeU4rlSq1xEhG+LJC+RLaxygsBnUOyVbp04Jwh6
+iFSGv0337r7hNQAEVtcWTnNeMggjsbuTp9jMDFTiExN7VT0ylJ6ef6TlWq9/O9R3
+cM3cia7jaXAAtgFMFtwgLo3UoMXM7t+3JMtl2Qe/La2RmdBT+9THY72T9juJUsNw
+IQ8l3XK72fA4YY5/qTyy1sNIZWlgKtvLEgI/sv/97feUe1Gfb16xqE4lz9uuMd3c
+5PZB2NaJH4HAuPR7tzZ9fVTfafQaHr7K245lZIfryPqzUYgnPO159y0SmTfmutVK
+t0c0dT06KUfQYQ+sLrBMjose
+=zKXK
+-----END PGP SIGNATURE-----
+
+--===============5698860592412187234==--
