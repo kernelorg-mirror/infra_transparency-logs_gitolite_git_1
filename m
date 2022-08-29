@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9079680286077291086=="
+Content-Type: multipart/mixed; boundary="===============8154255185459189776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 29 Aug 2022 10:55:45 -0000
-Message-Id: <166177054523.12152.12882201451198388649@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 10:55:46 -0000
+Message-Id: <166177054699.12247.6819661120554640310@gitolite.kernel.org>
 
---===============9079680286077291086==
+--===============8154255185459189776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,83 +16,95 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 83ff5e9cd2b920151934576571eecec9224dbfd1
-    new: 2472f7e412ec58b8d72f749da1e9fe4884fd6687
-    log: revlist-83ff5e9cd2b9-2472f7e412ec.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 1fe03ad4a3ffbedb7921b7cfed1081f5ec7ed6c5
+    new: 04f02d233b8ec4eba80a5d7efba529e92a319b5b
+    log: revlist-1fe03ad4a3ff-04f02d233b8e.txt
 
---===============9079680286077291086==
+--===============8154255185459189776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661770543 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661770545 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1661770538-5d9b933e8b0962c652383a3f7a5fcaed2688367b
+nonce 1661770539-3578f8cb1df57aa372d493ea7fa5ce48be42c9d9
 
-83ff5e9cd2b920151934576571eecec9224dbfd1 2472f7e412ec58b8d72f749da1e9fe4884fd6687 refs/heads/linux-4.19.y
+1fe03ad4a3ffbedb7921b7cfed1081f5ec7ed6c5 04f02d233b8ec4eba80a5d7efba529e92a319b5b refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMmy8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NbYQAMjI5P+3LA7tFHWX22At
-5vTw1BwdfGnVl9pok4Hlo9wAHXodXSJS2Uq66m+uWdexrsNT+ICkYpDnChI1EAtG
-IynE83PpnIb9Qdo1BcKykxjlIq0/AWpOQimhpw4Iovx6Q+ooaj3AgmJwtjRZtxNB
-A9fDYBrSA4fyjoblbSvUP+7Ytp5FsqNoPQjd4cudVjJ4917HSaTpA1g28Buj7X43
-LJM06XYvdfrG2QqnrzVGfia/GO1ghodYYBnL4jVzZz/dk8jWLUTZbtty1Zjv5nP1
-xWGbMi55H/fxBu0Yxi98US8KzsP1Hbk1zI4XL91vMqhghULXeHicsnB9TH1N4lBa
-FDigLpNyay6Qe2gLylRgIv5bu3Jo1dqzfnnv+xzo3y/7F95xxUqtkLixuUxhXWYO
-wfxwcIFujKpGMCVPTwFNsxafig49z/mrvdRYTpXhuGf1wr0K4HfliY2+Fw6Sqx/i
-7QWn5RQtBBOeEw6opZv7RpPCuYReooX7Uj/cypqlWWdPNvAy/8nWcC0p+ZxNVFaA
-zbWPrXSRhN2l2HDnPQ2t4PXvE2BxDX1nldEi8X2xVPVcurvjhMShpSFvWFYlNfFn
-/NYCgiX5oUxLS7OGyf8Dx1UiCOaGGxfYpzBhdYJXuZ9GtAoVMPScJ0oDQj0QkV10
-KKy3ewmWVbGDdgNwTTourzI0
-=jpJ6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMMmzEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ElkP/jsk4uGubS96QFtLV6LG
+164LpByweNVXQYd07HfvUgvUATfbiwplTRtJeXdE9TU3ekBkWw3UHEszzRsKDgF4
+xswIIrH8CfaVKl+2zwKrL+JsSFTE2Ct6Yel7dGlktghHuMakSJkHIDYt39JAV3Sd
+qB4A1E4jQMh09dxgTTGSpRcnCDBiXyDCyNCGfgkFxxqOYVraj0N2beoD3hBfTFcT
+BZjfoLWZHpb8HeV50Hjo9jymsCEeemfBMiD85SB70aCeIMZGAN7vfYm+/nf8fAwA
+hKBJZAbkTvCRYSfAJtYd5WYUwyucdBpPZ1m9pblj0OoBvOtgmWg6dp/PYS7dJ5xi
+v9C2w1cMHjtBF/ptncvEytpRWuuGUIJpv9JrIfDAWWmr4BnZISTvqT2SnG1z6Tu4
+jxTz7GvQ7VBKhEty86osasIdeRFevCl8T2ZPnhzaZpjuDwoBgI4NbkLeLzxqD5H8
+L36AnnOQ+PaY+MhuPMAqjZMKmGC6mgHgaik5RTI6XuKqlpBCTnkl9tPflajKkYj7
+82GSJrxFHzJmS2EoylkspU0Pq1WY4W+4dL5fH1l90mrHO/xO5oX3f7U49B9N3X8Z
+UDtKiClVD4OyzRowBc4/8LaW4sSm3ASKUxMfG8BRkNWk/5pkFjx4villdQEth0UL
+wFYCWmnNerNJzpiQP1znHs+e
+=hiT0
 -----END PGP SIGNATURE-----
 
---===============9079680286077291086==
+--===============8154255185459189776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83ff5e9cd2b9-2472f7e412ec.txt
+Content-Disposition: attachment; filename=revlist-1fe03ad4a3ff-04f02d233b8e.txt
 
-8e42a5afb90e6482ac518965053031478c5296ac audit: fix potential double free on error path from fsnotify_add_inode_mark
-c14a87c867ac27daf1dcd0fb65a09ae56b4ec51e parisc: Fix exception handler for fldw and fstw instructions
-343ed162fffd7779bf6c9f7abd5653fa2c2db2b1 kernel/sys_ni: add compat entry for fadvise64_64
-6e46a474aa619ef9bed7aeee750acac63f40eb38 pinctrl: amd: Don't save/restore interrupt status and wake status bits
-3b1e71fbae68f9371847c21f92cebe7dc5f72b9f sched/deadline: Unthrottle PI boosted threads while enqueuing
-1b97cccec11d7753649d3ce79a6ea808c224557d sched/deadline: Fix stale throttling on de-/boosted tasks
-bf39c732379c7a003455f711de64e57665ae9c3f sched/deadline: Fix priority inheritance with multiple scheduling classes
-59f1d0830e31cc39c0f8c2de11cb757469cb2982 kernel/sched: Remove dl_boosted flag comment
-db0188add022fdf0003bf1dc97121517ff75b9f0 xfrm: fix refcount leak in __xfrm_policy_check()
-d63d457283b927f1bfd7df71ea13310cc7d435de af_key: Do not call xfrm_probe_algs in parallel
-6bb9d3e7a8ba363a0be71fcb7aa43e8d489a1be8 rose: check NULL rose_loopback_neigh->loopback
-d3074b4675629eee1ad0cab5c36119e7f1810eaa bonding: 802.3ad: fix no transmission of LACPDUs
-16cd21bf47f3716d0df7c4b62c84474783be707f net: ipvtap - add __init/__exit annotations to module init/exit funcs
-54aa8956a866c049c2142555d145295d93171cec netfilter: ebtables: reject blobs that don't provide all entry points
-ffe5be5ced7dd15b8befe5b9ae5a80ab066ef826 netfilter: nft_payload: report ERANGE for too long offset and length
-432f102eb454825a09ab0e6623c4d7248665f5ed netfilter: nft_payload: do not truncate csum_offset and csum_type
-c0cfbe80354b822f1a3da9ff2dd6d6260461cb56 netfilter: nft_osf: restrict osf to ipv4, ipv6 and inet families
-001ea839d5d35beb6262b3f1199ae5cd24578276 netfilter: nft_tunnel: restrict it to netdev family
-9c35993f892717bb41dd6343ba9cd71a199ebd72 net: Fix data-races around weight_p and dev_weight_[rt]x_bias.
-82a1d6166cf6ab8eb115be7a388fef1093062c22 net: Fix data-races around netdev_tstamp_prequeue.
-dcb16fe3a42cfe7e49f829dcb09406f5cb04e033 ratelimit: Fix data-races in ___ratelimit().
-d69fe94570f0ce2aa2b4bd638f656919d60052e3 net: Fix a data-race around sysctl_tstamp_allow_data.
-ff549560f2419a3e5af963192ccbcc3940ce5717 net: Fix a data-race around sysctl_net_busy_poll.
-299c85f4859a0f392270ff7f004f4750091634e8 net: Fix a data-race around sysctl_net_busy_read.
-1c6c1318fc9ebdf28101cbf1e69d197d2b5baebf net: Fix a data-race around netdev_budget.
-a24ed13a176f2fe822c6420445cfc2f2f9d4cb75 net: Fix a data-race around netdev_budget_usecs.
-84c62c4e1cd4415cb559013f5face516bef25ce4 net: Fix a data-race around sysctl_somaxconn.
-323aa491afa2efa5191121aac705735ece365946 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
-26f74e73fa634b806c8f09304a66286bf52023ba btrfs: check if root is readonly while setting security xattr
-ac968fb0945130b8a9c182691ded0afe7983734d x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
-2bdd49766ea25949ff305774a8a84eb90462f9e2 loop: Check for overflow while configuring loop
-18e635c54208c46a97162c04e61c1c53ded96a32 asm-generic: sections: refactor memory_intersects
-fa3b339028605b880347042d34abcebd419cafef s390: fix double free of GS and RI CBs on fork() failure
-9ba70c7fd6e15834679283664e964f8439d8fae1 mm/hugetlb: fix hugetlb not supporting softdirty tracking
-e4157aeb4450c583045bbb2d61a0697224b4652a md: call __md_stop_writes in md_stop
-6bcc64f70ef1e4f7c82b38a6da5bc15961d84d05 scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
-2472f7e412ec58b8d72f749da1e9fe4884fd6687 Linux 4.19.257-rc1
+57763114384ced4086f7b8f3ebd15204317456d9 audit: fix potential double free on error path from fsnotify_add_inode_mark
+20a670c9940d0031141b42a8dec752a84f67a507 parisc: Fix exception handler for fldw and fstw instructions
+66995e4900f19aad912d82d4923a772210a8b3a4 kernel/sys_ni: add compat entry for fadvise64_64
+0a8676c8cc7bfbe8970c5be215881fb5be3c4d36 usb: cdns3: Fix issue for clear halt endpoint
+3c609384076ba0f07f811767fa11f5d236aa299c Revert "selftests/bpf: Fix "dubious pointer arithmetic" test"
+2e9a9b78112013e4f5470e4b24983513734b26d2 Revert "selftests/bpf: Fix test_align verifier log patterns"
+c9e3a156d203613cd186c43f093c03b03ee64087 pinctrl: amd: Don't save/restore interrupt status and wake status bits
+67604a80d7087e86165800ee7efce9297ec55041 sched/deadline: Unthrottle PI boosted threads while enqueuing
+3cafd78c7660e0137f688bb1d9fc4232df703c53 sched/deadline: Fix stale throttling on de-/boosted tasks
+d225b13e4ddf23011e5bd8e58704e474cb8274f6 sched/deadline: Fix priority inheritance with multiple scheduling classes
+6ede13d01dc2cb130a1ff00c094afeeddecf593f kernel/sched: Remove dl_boosted flag comment
+51891817d913fd8de8cce5c9d39a2a089acd5c93 xfrm: fix refcount leak in __xfrm_policy_check()
+00d4e11fc9c83e36c98fd6d93eab99b3bfb14c7c af_key: Do not call xfrm_probe_algs in parallel
+cca10562161a1067d4d6d41f946cb782ef72c677 SUNRPC: RPC level errors should set task->tk_rpc_status
+2aa96b079d07b2ec96338677c2ce0d84c000e83e rose: check NULL rose_loopback_neigh->loopback
+7a81f1f7b88c63148fc19235daa185ee403d4c33 net/mlx5e: Properly disable vlan strip on non-UL reps
+80f43566f48f74d43f08da9c8231a3bb28d16dca net: moxa: get rid of asymmetry in DMA mapping/unmapping
+8a0ba7a370dc54d1816e662c3d79d515cd8d3710 bonding: 802.3ad: fix no transmission of LACPDUs
+6d6b152692ef07e2d39b18346f2397b3f0dd2f81 net: ipvtap - add __init/__exit annotations to module init/exit funcs
+b6e095956af949946ec5350ab6ef7d3bf6c8747b netfilter: ebtables: reject blobs that don't provide all entry points
+65e9aca322f800d1c29f012650a474b028ca03b7 bnxt_en: fix NQ resource accounting during vf creation on 57500 chips
+fa2b2c8965e08b8f221462d17fbec707951f330b netfilter: nft_payload: report ERANGE for too long offset and length
+5fa506783e70d8339bf1a8d8e92ddde39aaf6a59 netfilter: nft_payload: do not truncate csum_offset and csum_type
+8dd5ff8b398c785b5427577ecee08d3d472b2664 netfilter: nft_osf: restrict osf to ipv4, ipv6 and inet families
+d90d70ad2def4e1cbc33fee670664c53095bf842 netfilter: nft_tunnel: restrict it to netdev family
+eda2979fb8c08513b02de24763ce7dbdf66162cb net: Fix data-races around weight_p and dev_weight_[rt]x_bias.
+5500a54257bea443beefbf4bbbb560d1cd03b882 net: Fix data-races around netdev_tstamp_prequeue.
+e8f61628a68044a4a8dce042fac74b9e7e7b7a7b ratelimit: Fix data-races in ___ratelimit().
+5bfbbe0e49008015104f9254d10fbd34b3b1e600 net: Fix a data-race around sysctl_tstamp_allow_data.
+d9b615a4a4825020471626667f713d7e53d11a12 net: Fix a data-race around sysctl_net_busy_poll.
+e4028b114efc1d38076e3bc9965df9c5d5a0aa17 net: Fix a data-race around sysctl_net_busy_read.
+9228a80f7913db0a993b8837f8fa2f21370cd9bb net: Fix a data-race around netdev_budget.
+a019b04d4c280bc1ed0d59486b9e906bcd17d993 net: Fix a data-race around netdev_budget_usecs.
+b841cd0c29b7f5362298098d80ddc7ee89468b7e net: Fix a data-race around sysctl_somaxconn.
+29e4734e401d81886e5d86e2466f7f91d7da0151 ixgbe: stop resetting SYSTIME in ixgbe_ptp_start_cyclecounter
+e8e086acba26a87272d4a82590e0f0af6b7b0800 btrfs: fix silent failure when deleting root reference
+301845793ffb6ce8efbd215e3d56eb29836c42f8 btrfs: replace: drop assert for suspended replace
+b89b96c648756c1d7e23b2c3db85f57045293866 btrfs: add info when mount fails due to stale replace target
+8fc91aec745f4124939bf8f8cec26a4f93e970c2 btrfs: check if root is readonly while setting security xattr
+830707408d0000d03705e142e705a76c665f62cb x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
+aaea1ea293cb4292e4a06671a396449b73cce7bf loop: Check for overflow while configuring loop
+9cef45b8d807388feb49647f115df1b141e0ab00 asm-generic: sections: refactor memory_intersects
+2fc583f49942dc26ac8334a31ac6f40f9dec85ff s390: fix double free of GS and RI CBs on fork() failure
+2f460745fc52529acb2e9aaba54d0edefcda384d ACPI: processor: Remove freq Qos request for all CPUs
+98829ed3bc85833c6d483d7ac729aff78c8db50b mm/hugetlb: fix hugetlb not supporting softdirty tracking
+194b4a69016c608298d115427c2703bd0cbca0bd md: call __md_stop_writes in md_stop
+c661dbf3f878b8b52c66fd2880e06269a5546516 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
+350db05eb40f9f3579d9d38fa7eb03c930013911 scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq
+04f02d233b8ec4eba80a5d7efba529e92a319b5b Linux 5.4.212-rc1
 
---===============9079680286077291086==--
+--===============8154255185459189776==--
