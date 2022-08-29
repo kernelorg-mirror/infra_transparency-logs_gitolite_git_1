@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4384347052798120880=="
+Content-Type: multipart/mixed; boundary="===============5550506451005185690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 29 Aug 2022 10:21:06 -0000
-Message-Id: <166176846696.18521.3275466688799280318@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 10:21:16 -0000
+Message-Id: <166176847686.18645.12258720866490898884@gitolite.kernel.org>
 
---===============4384347052798120880==
+--===============5550506451005185690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/wip
-    old: b247daa19c0c9ce35308bb5bd0ea3796f9eb0b48
-    new: 77ffdbefae63021e820c465c22882d020fe90097
-    log: revlist-b247daa19c0c-77ffdbefae63.txt
+  - ref: refs/heads/sched/wip
+    old: 0cf266127a6d9f8b79e6cec6527ed8af21446d56
+    new: a09e74f799b0b4a47c0bfb962424ac11c519a4ae
+    log: revlist-0cf266127a6d-a09e74f799b0.txt
 
---===============4384347052798120880==
+--===============5550506451005185690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b247daa19c0c-77ffdbefae63.txt
+Content-Disposition: attachment; filename=revlist-0cf266127a6d-a09e74f799b0.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -337,6 +337,7 @@ a5a923038d70d2d4a86cb4e3f32625a5ee6e7e24 fbdev: fbcon: Properly revert changes w
 c23f864dc7ef37655021c43beae98321436cbd9a Merge tag 'loongarch-fixes-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 012bd7e859df9d6aa0a8ab4484c00aeded108071 Merge tag 'riscv-for-linus-6.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 e022620b5d056e822e42eb9bc0f24fcb97389d86 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+5531ecffa4b923bc7739e9ea73c552d80af602dc sched: Add update_current_exec_runtime helper
 11745ecfe8fea4b4a4c322967a7605d2ecbd5080 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
 2413a85200ee9cbed40d12c6e3b856752b089790 Merge branch 'acpi-processor' into acpi
 3bf1b1571224e713f1a186de21b2204c06f1cb5e Merge branch 'thermal-core'
@@ -381,7 +382,7 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-10d3fc53c6fe8179d62da89df1e9363785e904cf Merge branch 'tip/objtool/core'
-77ffdbefae63021e820c465c22882d020fe90097 objtool: Rework arch_dest_reloc_offset()
+0bf5dd77dd98db33762a64b4e26025d6e95b0a3f Merge branch 'tip/sched/core'
+a09e74f799b0b4a47c0bfb962424ac11c519a4ae sched/fair: Fold the sched_avg update
 
---===============4384347052798120880==--
+--===============5550506451005185690==--
