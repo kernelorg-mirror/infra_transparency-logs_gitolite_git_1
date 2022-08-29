@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 29 Aug 2022 12:28:17 -0000
-Message-Id: <166177609741.15257.4576886056433419640@gitolite.kernel.org>
+Date: Mon, 29 Aug 2022 12:28:38 -0000
+Message-Id: <166177611866.15450.3462821143734652674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-syscall-abi
+  - ref: refs/heads/arm64-tpidr2-ptrace
     old: 0000000000000000000000000000000000000000
-    new: db346e158ce8d3b5c876ceea98cbbe73b8f33b19
+    new: 6d5a50a2afa820058a6362122aa609aed4110db2
