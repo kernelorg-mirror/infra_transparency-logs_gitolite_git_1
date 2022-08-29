@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5404931816317350696=="
+Content-Type: multipart/mixed; boundary="===============4918587714517766940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 29 Aug 2022 11:58:35 -0000
-Message-Id: <166177431573.25503.16501439098866533989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 29 Aug 2022 11:58:53 -0000
+Message-Id: <166177433332.25669.13695105391501400415@gitolite.kernel.org>
 
---===============5404931816317350696==
+--===============4918587714517766940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
     new: b90cb1053190353cc30f0fef0ef1f378ccc063c5
     log: revlist-1c23f9e627a7-b90cb1053190.txt
-  - ref: refs/heads/rdma-next
-    old: ed80a3fc34b3faa28372e04276c5ff26a26237c8
-    new: 19e8c064290599d57647fdb0ced1ef1dc0d29af1
-    log: revlist-ed80a3fc34b3-19e8c0642905.txt
-  - ref: refs/heads/rdma-rc
-    old: 0e9e93285e3fb8300c1c08ae52d712f1c83a956a
-    new: f5cc4020f5121e652069facb9651ff62b6a08bc6
-    log: |
-         ead54ced6321099978d30d62dc49c282a6e70574 RDMA/irdma: Fix drain SQ hang with no completion
-         27cfde795a96aef1e859a5480489944b95421e46 RDMA/cma: Fix arguments order in net device validation
-         910a6dfcdb5a5491adbfa01ae3f5d83a14c606d8 RDMA/cma: Allow UD qp_type to join multicast only
-         deadb9c664dc6e5619838274ac376c43e1899e45 IB/core: Fix a nested dead lock as part of ODP flow
-         92da16c637ae61eeca7dcd34cea4ce2e4af88f0f RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
-         a2923414a0fb7a077085a77f857b9fe7e9a762b5 RDMA/mlx5: Set local port to one when accessing counters
-         f5cc4020f5121e652069facb9651ff62b6a08bc6 RDMA/mlx5: Fix UMR cleanup on error flow of driver init
-         
 
---===============5404931816317350696==
+--===============4918587714517766940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -398,41 +382,4 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
 
---===============5404931816317350696==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed80a3fc34b3-19e8c0642905.txt
-
-c8e4c23976554fb9dda1658bd1a3914b202815cd RDMA/srp: Rework the srp_add_port() error path
-0766fcaa1e06d5b5b04f734b788c1556022a9051 RDMA/srp: Remove the srp_host.released completion
-351e458f725da8106eba920f3cdecf39a0e31136 RDMA/srp: Handle dev_set_name() failure
-b8a9c18c2f39bd84b8240b744b666114f7d62054 RDMA/srp: Use the attribute group mechanism for sysfs attributes
-05195dcb43504e381bf383e837fc935aac4258cc RDMA/core: Remove 'device' argument from rdma_build_skb()
-d4ecb56e86bf3bb2e5ef99e353f892d325b43174 RDMA/rxe: Remove an unused member from struct rxe_mr
-fce1a8e823488dd900be6c8a2163fc7f548d4d87 RDMA/rtrs: Remove 'dir' argument from rnbd_srv_rdma_ev
-614d59e4f4670b1ffb46ba926e7bed1c76d3fab7 IB/cm: Remove the service_mask parameter from ib_cm_listen()
-8f3fb7056ccfc2998896ace30aeb4ac24a1b88a5 IB/cm: remove cm_id_priv->id.service_mask and service_mask parameter of cm_init_listen()
-ecf8dd4b9c3d9c7e8d4c725869226e465f315459 IB/cm: Refactor cm_insert_listen() and cm_find_listen()
-deffdec6536b89c017900b84e140de5ee59ddc49 net/sched: Don't print dump stack in event of transmission timeout
-4c79b521f10467e8b159e3ea542411207640c556 RDMA/core: Introduce peer memory interface
-abd52241e10eed719c5579765e353a8b827ffa01 net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
-1967db349807cbe026e89b6c5697a8f9079cdc37 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-de57927551209a05512ccaeea3be985399b38622 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-4e286d6c8c8de8f5db604cd27c660adc7e7c9150 net/mlx5: Introduce ifc bits for page tracker
-5b7aa3403c3bedb0eda03942f6e0e1b30bd62b5f net/mlx5: Query ADV_VIRTUALIZATION capabilities
-dc044e502ccca601bf13e8f63dad463286b08240 vfio: Introduce DMA logging uAPIs
-e1c9fe108fcb63ca61b812a5a52c6e9869882809 vfio: Add an IOVA bitmap support
-a8b0ef8bdcccb82488c256d51a4fd142265ce8ee vfio: Introduce the DMA logging feature support
-9d6c6cf21266a688bf2129618c452630ebbde894 vfio/mlx5: Init QP based resources for dirty tracking
-94909a4d4ea6a9e6b6028f0ba7e3329b6850ac1f vfio/mlx5: Create and destroy page tracker object
-f1ff5d7e95b9a6b4e4bad45c1eacdbfa69236bf8 vfio/mlx5: Report dirty pages from tracker
-eac9dcf2e2d334aa3577f49179a59f0a40da4b4f vfio/mlx5: Manage error scenarios on tracker
-883970070ee797b9fa650bccd0aa768eea09a18d vfio/mlx5: Set the driver DMA logging callbacks
-99015c0720418b45eeed9af55455549e71244836 net/mlx5: Introduce ifc bits for migratable
-3eb4faccfd6550cbd129d960f195f3db899df5f7 vfio/mlx5: Set VF as migratable
-b46a246d9d555d11071ba9ed8344698f5e317283 mm: re-allow pinning of zero pfns (again)
-28283ff00b034dd2065b5ae778a74b2fbc0fc413 IB/mlx5: Support querying eswitch functions from DEVX
-19e8c064290599d57647fdb0ced1ef1dc0d29af1 RDMA/mlx5: Move function mlx5_core_query_ib_ppcnt() to mlx5_ib
-
---===============5404931816317350696==--
+--===============4918587714517766940==--
