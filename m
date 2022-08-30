@@ -1,41 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9101054589019635901=="
+Content-Type: multipart/mixed; boundary="===============3243438596982590377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 30 Aug 2022 06:58:33 -0000
-Message-Id: <166184271319.28477.16371533247255364805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 30 Aug 2022 06:58:43 -0000
+Message-Id: <166184272310.28650.12701769866156912316@gitolite.kernel.org>
 
---===============9101054589019635901==
+--===============3243438596982590377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: b27a3ca08ba7abcf1a8af4dc3dce3e5221d91212
     new: 282342f2dc97ccf54254c5de51bcc1101229615f
     log: revlist-b27a3ca08ba7-282342f2dc97.txt
-  - ref: refs/heads/stable
-    old: b90cb1053190353cc30f0fef0ef1f378ccc063c5
-    new: dcf8e5633e2e69ad60b730ab5905608b756a032f
-    log: |
-         cee7db1b0239468b22c295cf04a8c40c34ecd35a docs: kerneldoc-preamble: Test xeCJK.sty before loading
-         04d4ca41809052f6088860fe150dac679e6453d0 docs/ja_JP/SubmittingPatches: Remove reference to submitting-drivers.rst
-         602684adb42a04858e23248b22d4931b7ef2ad7e docs: Update version number from 5.x to 6.x in README.rst
-         465d0eb0dc31ae26c05504668d3957db91e99799 Docs/admin-guide/mm/damon/usage: fix the example code snip
-         5479d6d4bf122d4b137659559a7bd17784b97b7e docs/conf.py: add function attribute '__fix_address' to conf.py
-         d68d289fbec70b50a25f5818964b26349320ddb5 Merge tag 'docs-6.0-fixes' of git://git.lwn.net/linux
-         dcf8e5633e2e69ad60b730ab5905608b756a032f tracing: Define the is_signed_type() macro once
-         
   - ref: refs/tags/next-20220830
     old: 0000000000000000000000000000000000000000
     new: 1da2fed2280a7de18a00890c4e9b8e87cc4c7485
 
---===============9101054589019635901==
+--===============3243438596982590377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1006,4 +994,4 @@ c70f7cad8aaa28d23e6c891de35d72907aeb4f7f Merge branch 'for-next' of git://git.in
 0401129b44cc806fa54a41e3ec4fc7254880cebb Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 282342f2dc97ccf54254c5de51bcc1101229615f Add linux-next specific files for 20220830
 
---===============9101054589019635901==--
+--===============3243438596982590377==--
