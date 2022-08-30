@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1856473960201669030=="
+Content-Type: multipart/mixed; boundary="===============7187073816386383765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 30 Aug 2022 04:15:45 -0000
-Message-Id: <166183294509.13171.15645256580498797809@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 04:15:59 -0000
+Message-Id: <166183295937.13327.4608189721240371567@gitolite.kernel.org>
 
---===============1856473960201669030==
+--===============7187073816386383765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
-    new: dcf8e5633e2e69ad60b730ab5905608b756a032f
-    log: revlist-1c23f9e627a7-dcf8e5633e2e.txt
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/heads/dev
+    old: 4d9d33dd0c3f8e85bc1d311f5b91fe50c380bb4f
+    new: 35c9812065189df0d15d8870dd6c7ea8ba89b9bf
+    log: revlist-4d9d33dd0c3f-35c981206518.txt
 
---===============1856473960201669030==
+--===============7187073816386383765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c23f9e627a7-dcf8e5633e2e.txt
+Content-Disposition: attachment; filename=revlist-4d9d33dd0c3f-35c981206518.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -391,5 +388,18 @@ b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-2
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
 d68d289fbec70b50a25f5818964b26349320ddb5 Merge tag 'docs-6.0-fixes' of git://git.lwn.net/linux
 dcf8e5633e2e69ad60b730ab5905608b756a032f tracing: Define the is_signed_type() macro once
+80dc113aaa47c0d1dfd01f708d4d0c083022121b f2fs: LFS mode does not support ATGC
+605b0a778aa2599aa902ae639b8e9937c74b869b f2fs: fix wrong continue condition in GC
+b87846bd61c7c09560617da416208a5454530d57 f2fs: use memcpy_{to,from}_page() where possible
+34a23525601a16f625b48c3bb0a67fbc795810b3 f2fs: iostat: support accounting compressed IO
+265576181b4afda8c60ae85261f55a8430419884 f2fs: remove gc_urgent_high_limited for cleanup
+a36fe7301268524ffa56ff8a9ad0edec6bd5b85a f2fs: flush pending checkpoints when freezing super
+d14393c5bff2f0c163e6bb384618300e30d19754 f2fs: complete checkpoints during remount
+cf42f1d7ab33ea2637f3c6b786a76302f719726b f2fs: increase the limit for reserve_root
+c7e66a42ad957d90082507afedbdd7d555d8578d f2fs: replace logical value "true" with a int number
+b3ba719f82f91f6fdf95e3d067e4480ab3c45c20 f2fs: simplify code in f2fs_prepare_decomp_mem
+d72548accb16c390360a6a425c2c37ef1593815c f2fs: add flush_dcache_page after page was written
+f386baec6e3c427f88f78b162e6306440959ade5 f2fs: account swapfile inodes
+35c9812065189df0d15d8870dd6c7ea8ba89b9bf f2fs: fix missing mapping caused by the mount/umount race
 
---===============1856473960201669030==--
+--===============7187073816386383765==--
