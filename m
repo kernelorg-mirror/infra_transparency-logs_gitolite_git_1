@@ -1,41 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1309360283148371896=="
+Content-Type: multipart/mixed; boundary="===============2517186766449951594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 30 Aug 2022 18:13:13 -0000
-Message-Id: <166188319340.2564.1884006949677077928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 30 Aug 2022 18:15:08 -0000
+Message-Id: <166188330867.4814.6045405161290005664@gitolite.kernel.org>
 
---===============1309360283148371896==
+--===============2517186766449951594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/togreg
-    old: 682ca76bc60ab86824cca1b34bc865bd0094ac7e
-    new: f5ffeca5086fef68765f3c1dbc9a12183833adf0
-    log: revlist-682ca76bc60a-f5ffeca5086f.txt
+  - ref: refs/heads/for-next
+    old: 3d67e7e236adb4965ff9834bb7125686ecf9654a
+    new: bfb3bde95479e7072839564ec90dbf5d00bfb9b1
+    log: revlist-3d67e7e236ad-bfb3bde95479.txt
 
---===============1309360283148371896==
+--===============2517186766449951594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-682ca76bc60a-f5ffeca5086f.txt
+Content-Disposition: attachment; filename=revlist-3d67e7e236ad-bfb3bde95479.txt
 
-d2a4cbcb8bdc0e3d1cf85bf47a670695da0bc27a units: complement the set of Hz units
-fe49ce7abd6af8c55e58a8b33a7978c9da32ffb2 iio: accel: adxl345: use HZ macro from units.h
-c05c3e5d4e563ac84624c093addee644194984eb iio: common: scmi_sensors: use HZ macro from units.h
-1f5d7ea73c4b630dbb2c90818cb9fc0be54d2fe3 lib/string_helpers: Add str_read_write() helper
-4905949395850e41912ae89e2d2fa88d2cd36319 dt-bindings: vendor-prefixes: add MEMSensing Microsystems Co., Ltd.
-1ca2cfbc0c337ed3a3c817f84f9fcf0d32203f73 iio: add MEMSensing MSA311 3-axis accelerometer driver
-4eba8239c8ce419e53813d02251a46c27597fe73 dt-bindings: iio: accel: add dt-binding schema for msa311 accel driver
-1cf507cfddd38724abeed2298c994c606aff89a9 iio/accel: fix repeated words in comments
-1b55d33e027478f2234ef5c4f6d07be990539928 MAINTAINERS: fix Analog Devices forum links
-c682c96334cb790930c814e58e33d5e0df600a63 dt-bindings: iio: Add missing (unevaluated|additional)Properties on child nodes
-f5ffeca5086fef68765f3c1dbc9a12183833adf0 iio: light: ltrf216a: Add raw attribute
+c8e4c23976554fb9dda1658bd1a3914b202815cd RDMA/srp: Rework the srp_add_port() error path
+0766fcaa1e06d5b5b04f734b788c1556022a9051 RDMA/srp: Remove the srp_host.released completion
+351e458f725da8106eba920f3cdecf39a0e31136 RDMA/srp: Handle dev_set_name() failure
+b8a9c18c2f39bd84b8240b744b666114f7d62054 RDMA/srp: Use the attribute group mechanism for sysfs attributes
+05195dcb43504e381bf383e837fc935aac4258cc RDMA/core: Remove 'device' argument from rdma_build_skb()
+d4ecb56e86bf3bb2e5ef99e353f892d325b43174 RDMA/rxe: Remove an unused member from struct rxe_mr
+6edd86a2d20e702f49dfd59786da14c35495c784 RDMA/rtrs: Remove 'dir' argument from rnbd_srv_rdma_ev
+91a3f14ec953f3224215dc867001b9a201785740 IB/cm: Remove the service_mask parameter from ib_cm_listen()
+a461b746c5768b9b3001045cff2d508346f5f789 IB/cm: remove cm_id_priv->id.service_mask and service_mask parameter of cm_init_listen()
+637ff8ea00a20dd731110c9cdbef0e41c050607d IB/cm: Refactor cm_insert_listen() and cm_find_listen()
+bfb3bde95479e7072839564ec90dbf5d00bfb9b1 RDMA/hns: Remove redundant member doorbell_qpn of struct hns_roce_qp
 
---===============1309360283148371896==--
+--===============2517186766449951594==--
