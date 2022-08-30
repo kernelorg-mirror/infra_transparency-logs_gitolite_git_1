@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 30 Aug 2022 08:06:50 -0000
-Message-Id: <166184681031.11761.5308823798981422412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Tue, 30 Aug 2022 08:19:33 -0000
+Message-Id: <166184757313.19176.14524082283926614203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/renesas-devel-2022-08-30-v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b35a2cbe8a87adfbfff3c2cab7276b4c6bba1385
-  - ref: refs/tags/renesas-next-2022-08-30-v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 848756f41b202607236ca7ce4765591e55cd9ca6
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 0612d928b7ff8c87043115f74f08cb4af1f0c4cf
+    new: 3359d52755e5bf1268d96ce7e9d6e8c1b4700225
+    log: |
+         3359d52755e5bf1268d96ce7e9d6e8c1b4700225 cpufreq: bmips-cpufreq: Use module_init and add module_exit
+         
