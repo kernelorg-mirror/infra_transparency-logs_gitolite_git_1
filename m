@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5919161603860239778=="
+Content-Type: multipart/mixed; boundary="===============7800854764285930648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 30 Aug 2022 14:07:47 -0000
-Message-Id: <166186846730.23366.17561652216609683002@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 14:09:21 -0000
+Message-Id: <166186856158.23969.5762599866485705047@gitolite.kernel.org>
 
---===============5919161603860239778==
+--===============7800854764285930648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: efb766b74b6ca5d452ba1a090070090553ff5ab1
-    new: 83b5684d0373bb7352753e60620b5fca3975aa81
+    old: 83b5684d0373bb7352753e60620b5fca3975aa81
+    new: 594b9411b4adceb59ca8a66997eec1eaa3756785
     log: |
-         5926cf1d4121d38b4fb4938c8b061cc0aab85dde usb: dwc3: gadget: Synchronize IRQ between soft connect/disconnect
-         83b5684d0373bb7352753e60620b5fca3975aa81 usb: dwc3: gadget: Continue handling EP0 xfercomplete events
+         594b9411b4adceb59ca8a66997eec1eaa3756785 usbip: add USBIP_URB_* URB transfer flags
          
 
---===============5919161603860239778==
+--===============7800854764285930648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661868465 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661868559 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1661868464-9b23d2477b6390c375725233c57c2b63c6585292
+nonce 1661868558-7656c53402fd164d0f3edbcae144343f8bcffa80
 
-efb766b74b6ca5d452ba1a090070090553ff5ab1 83b5684d0373bb7352753e60620b5fca3975aa81 refs/heads/usb-testing
+83b5684d0373bb7352753e60620b5fca3975aa81 594b9411b4adceb59ca8a66997eec1eaa3756785 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOGbEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cZAP/23+9dhFZNTgkWnFrnqm
-FLXo0NiUn/2uiboMkDptMUMLrHpqdfSZMMMSWlASuYut59MEg0Auo76pq7pkXibw
-3AGmIG9Z5Bmu/IORFdxxa7Alq1uDAX6tdcpM6HCchW4SyZaNm16L6NvDdhUuNjb+
-LPQG2eABbufV581fGdTvmbbrx73E4WcmaewttcuQTpoMrEsMnTA+fVztzRHBjsOF
-YnrZXreqoskt0msWkou7Aci7ipki4IspXyi1tImETpkAMvfpWVBLH1phI37tcXP2
-R4yTn3rD/CMlr+HZg+NnyQA+Iaj5DZBHJkYWEbVssUjA5gxB8u/cbCAMJw/sph8A
-tMH7EtjutD2ap/fTXFdKHlufnGb8EtNQStozjWg0Nk4M0B9k4O3qZlu8DxRgJC4X
-VdnmyzJ+OOxgP0bXwjvkr/0l1OQ6CpSddhHwnfmo3o8/whuk2lUhQ5xfjBkoTcrS
-ljU1Zt+Zyt8jfEdnRlOnGgaYHfnvoe78knWYIAobdcFHXIkHrDMpVlI186X0dh0f
-oxOLz/2pvcPU/J5kQ32ETmxTCOH1r8KefjNDjZBV0ISTU1ZOsL52RBp48k/n2OIQ
-LxTU7sXOg2YkrfkN7idJONrR2Ea1sITGkn/iXa4/JH1EfAhw9ZoaFTz5XjR9G/4j
-b2YPZq5IyKiZSzvL9EF4gIIS
-=c2hb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOGg8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8ksP/1uzcfNfiqBvSbZ6GL8h
+d45/Tz9P53dR9rhnroiww8V8CAIKPF9OWzvdBKt9ZlLNK8fn1q7y3hBSQL/VpfdH
+BcGXSBjji7wraN/WnQE16jOcKQTUhN20aIC2/eP/Ro06ckFb6krcmAH/anlHiLdV
+FAplGh00SrP+96gxBBVW9kDU3DF/kcuPJZd+a8lSWWrmykfatTERyy0ffF+plSqv
+Fak6KHi4x0LXOl29AdShU2GOe38CRlfT2McotedXefmUyZ9SLYDZDrWqveY3DNfl
+H0gL01pqQAKkL+7HViFyxpFHp03E2OBklZmqI/xwm7lbi1JjVFNcTysbwp01vxrL
+nbOVFAHOlbvUnMKhqn1S+jCcucsseXsXvCHKV6Fv2v4A1kaLzqPRy6wSqKkohn9q
+IR91JzH2TNeeyA7ce081qPFPJmyX90TX8ei5ncdonRNARq7MMH6JLieuSsBlZb+X
+4ZtX8ArEGYU+7EJJ4a/oAkECILntcbNi23YD5VNeVZMD9bNUQ09XsTyC10y7ctDq
+ZNydosKTTIGRbpwcAJd9Zz5gu4Ka03qjuZg0lAPjPJGMZ9aRqYM/KjTncr2J9XF8
+8JGI1GXW6/dwlv0aIfq+0Yt3jRQUuwdF4Vw9J0ZtMZ3bn4GZ3S33cf3mK50qEclO
+iyO7CohXjxkuDlqt0dOB7wql
+=q3b5
 -----END PGP SIGNATURE-----
 
---===============5919161603860239778==--
+--===============7800854764285930648==--
