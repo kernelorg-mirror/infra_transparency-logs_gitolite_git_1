@@ -1,60 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1064904415173969439=="
+Content-Type: multipart/mixed; boundary="===============2394284030018861177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 Aug 2022 11:28:13 -0000
-Message-Id: <166185889389.7006.10611595715800871478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+Date: Tue, 30 Aug 2022 11:36:15 -0000
+Message-Id: <166185937572.12869.7628494376033651794@gitolite.kernel.org>
 
---===============1064904415173969439==
+--===============2394284030018861177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/tty-testing
-    old: a000bafa61829d8c4d8219bc7d6918d907af91e5
-    new: e9c9d3bb158df0e8abab3b6650f36bf645519867
-    log: |
-         8ed030de05b35ec48c24b5a26df79d05a6d244d2 dt-bindings: serial: pl011: Add a reg-io-width parameter
-         81db9e8edf7a886af0e6985d2562003976322cdf serial: pl011: Add reg-io-width parameters
-         374e01fa1304e1eabd2cd16f750da3ecaeab069b serial: fsl_lpuart: Fix comment typo
-         e68d545004bd2edda8d8b60145d5dc81b2d5959e serial: pic32_uart: Utilize uart_console_enabled()
-         e9c9d3bb158df0e8abab3b6650f36bf645519867 serial: pic32_uart: Convert to use GPIO descriptors
-         
+  - ref: refs/heads/master
+    old: 5652dc4fbb6c9e7a4911ddcc4c3e373a4d014a6f
+    new: d3e53ab7cdc7fabb8c94137e335634e0ed4691e8
+    log: revlist-5652dc4fbb6c-d3e53ab7cdc7.txt
 
---===============1064904415173969439==
+--===============2394284030018861177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5652dc4fbb6c-d3e53ab7cdc7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661858891 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1661858890-b1258b770cfe0a0dbac905b4ecc3205c05e14dae
+ef78f876e2703d21020e0762495650f4df26fbc5 xfs: make last AG grow/shrink perag centric
+37dc5890efe4d1230e26990f2c6cb94885366025 xfs: kill xfs_ialloc_pagi_init()
+4330a9e00400d262bc44b2a1f1fefa173c1183e7 xfs: pass perag to xfs_ialloc_read_agi()
+87db57baf27dea6df3c993b6a3a5878fa53662bb xfs: kill xfs_alloc_pagf_init()
+f9084bd95ff081db25deba6d42069e6e7e4d1e8a xfs: pass perag to xfs_alloc_read_agf()
+bc87af992ea87bdfd10f3f305eb7ddde999c8cc1 xfs: pass perag to xfs_read_agi
+c1030eda4633d9523a50ade9b3ffa650ab05cd01 xfs: pass perag to xfs_read_agf
+1d202c10b414124c7dfce255a924940a08a390e9 xfs: pass perag to xfs_alloc_get_freelist
+9a73333d9ccf32c61b4ae00574674b6bb2d69b3e xfs: pass perag to xfs_alloc_put_freelist
+75c01cccfdcca3ffa838a39d8061460f637b1b6f xfs: pass perag to xfs_alloc_read_agfl
+83af0d13a62df25a1c994ad7c507cc0196903b5e xfs: Pre-calculate per-AG agbno geometry
+8aa34dc9b9abad2d76011d1b483856c72d03d004 xfs: Pre-calculate per-AG agino geometry
+cee2d89aed7df1f697c54cd06a371c3c2aaafb42 xfs: replace xfs_ag_block_count() with perag accesses
+54f6b9e5e4886056257469c72c955bff8da79e8d xfs: make is_log_ag() a first class helper
+0b2f4162ba2f07eb760834d5b7357267d2729852 xfs: rework xfs_buf_incore() API
+798d43495df2c8a09a73b8e868a71d8f2fd81d5e xfs: removed useless condition in function xfs_attr_node_get
+722e81c1278d640efcbc7935ebe276db6f9700a2 xfs: convert XFS_IFORK_PTR to a static inline helper
+7ff5f1edf91581b77d043d12283d2e460861bedb xfs: make inode attribute forks a permanent part of struct xfs_inode
+d4292c66974521a5af81ac7967fae617cab322f4 xfs: use XFS_IFORK_Q to determine the presence of an xattr fork
+4f841585811f28f57616e1180458fe9080e72dea xfs: replace XFS_IFORK_Q with a proper predicate function
+eae3e30d405c0ddf771eacfda39aeae89e0495c6 xfs: replace inode fork size macros with functions
+69535dadf8222204726e97c79d26e6a85f3f0570 xfs: track the iunlink list pointer in the xfs_inode
+b9846dc9e09dc707a6e55c226d777ea48fdfac54 xfs: double link the unlinked inode list
+ec36ecd2d3a2ad7e099eef8c5707e212332d5567 xfs: fix comment for start time value of inode with bigtime enabled
+17df7eb7ef2e026aeb5339b5ce8d4e669c03be9b xfs: delete unnecessary NULL checks
+e373f06a343bdae0a1080fd96943158a0c36cd47 xfs: don't leak memory when attr fork loading fails
+e4a32219d3d9438e450f4b3e8cf642867ca02391 xfs: Fix typo 'the the' in comment
+d3e53ab7cdc7fabb8c94137e335634e0ed4691e8 xfs: fix inode reservation space for removing transaction
 
-a000bafa61829d8c4d8219bc7d6918d907af91e5 e9c9d3bb158df0e8abab3b6650f36bf645519867 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMN9EsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GMAP/jxqrUJmjKxw0gTtcqm7
-ZLzsuVxIg2ZK+CLIpGJi9PgDtPYbX/bdRhA5zAR7oz7UEALvElNk9CkWaJ2x1Gfm
-cdRVlzV8fHLxvPFdkpyhbNK4DQ7HNFV2kxKT06MflypHM9rXmdFkUcwvb3zyV0+h
-8Q33vT4ISwqqALzZC3pT5IEHzXeLBaPq1G692ysoqYkGEiyFk0xtMNj7twC/Y5vB
-AiDJ7OfKF8F/ApsWbzfvs0+KCkQY0sJYw4fys0UPpJgws+DE+FuOADDrSVOtcjZ1
-1lDWj8ieZnMDVTy3q2GXj9sGhoxup1nJc0sbAEAII3orfORiUy9ZYxLdqLoO+tki
-YZ6ySyIksPyASuf9pfS4cR8i83JJCraeSqgY30zd5/GgwqSMktnTKtwnwgj1vJ5t
-uUHqfbLoyz9ZsgSAsxYjAc1VcUJg1imBg3PP+aLxn2SbyakQbgpXbaLQwJbk9lbX
-696nFjwqcwtCscOP6yagnmb5s48HUiahMe7RguE9JEeayZ5i+IOP3WnEjuSyd4B7
-rLMXjjR8HagL41eBTwyYqdXbbfROF9TFKf0+hfz5/k4Wx3rTC3HDUQCRYJdypWmU
-jgBtkVpSb812LOjjxc4ksEPV8ctM3EypDXs9AlhhmFvlO6x+ONZp7EW2mBu6R5a5
-KpL68ED+R5EjP1l1BddgB/Lz
-=scjd
------END PGP SIGNATURE-----
-
---===============1064904415173969439==--
+--===============2394284030018861177==--
