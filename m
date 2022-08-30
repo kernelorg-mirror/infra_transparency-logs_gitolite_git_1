@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2442822850590341872=="
+Content-Type: multipart/mixed; boundary="===============2559693380516937488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 30 Aug 2022 10:08:35 -0000
-Message-Id: <166185411520.14528.1177206083275464983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 30 Aug 2022 10:08:53 -0000
+Message-Id: <166185413340.14712.17060378088865064945@gitolite.kernel.org>
 
---===============2442822850590341872==
+--===============2559693380516937488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: d08a0d41ec569d1978ee47e57b08305a1022653f
-    new: fd609e8c2893772b47aa2de93ac5ebb815acb930
-    log: revlist-d08a0d41ec56-fd609e8c2893.txt
+  - ref: refs/heads/for-next
+    old: 13353516658b3ff1e2b7551bede9d514263ee5e0
+    new: 1952447e5ed2bbf34b850f0a34f9f5021d0740b2
+    log: revlist-13353516658b-1952447e5ed2.txt
 
---===============2442822850590341872==
+--===============2559693380516937488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1661854113 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1661854111-f9c5dc6379ddb1180961cc56859002e21ecfc821
-
-d08a0d41ec569d1978ee47e57b08305a1022653f fd609e8c2893772b47aa2de93ac5ebb815acb930 refs/heads/asoc-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMN4aEACgkQJNaLcl1U
-h9AN3wf9GNGQbscKgIz9iFFtxHID+hcwKsD8xlUrE7LsX1UsAZcmPA8foFRjSZy2
-gSxFzSZLKu7NTTbmHYLhO5mrtWc67vBi0Klo9skrKQesF9qWYHgGyrMUFhlEKLZH
-z+nu8sXWpHmu4Pud/0qyKlnKZoftAgZI9DK5W6vsEUU2gyucSqOB1ilEa14YqhKm
-gb2xpIeNN6RVnlJPjUkMTCRqJGs5klcNFlYhMvn59lPflvwtF/UEUvwY6FVp1es4
-0V40NCZ5R2AotihhzOiTVvzqWYI7bTFnV5mwo5W9vQiCRX8SONv+R3kIwlUcwt0p
-a6j8GCE+hjA1aVFnq/ixkUO6PQ6SYA==
-=Kgbj
------END PGP SIGNATURE-----
-
---===============2442822850590341872==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d08a0d41ec56-fd609e8c2893.txt
+Content-Disposition: attachment; filename=revlist-13353516658b-1952447e5ed2.txt
 
 161bff51181f919a4b80fe2ab3504d60ac4b4316 ASoC: amd: add Pink Sardine platform ACP IP register header
 95e43a170bb1e91a7972610d33a26ea4841e2cdd ASoC: amd: add Pink Sardine ACP PCI driver
@@ -66,5 +41,6 @@ Content-Disposition: attachment; filename=revlist-d08a0d41ec56-fd609e8c2893.txt
 2a09cef652d9c1e76229a4381e928560bec3d878 ASoC: amd: enable Pink sardine platform machine driver build.
 5204e836544763cb085e653c82d4da77a427591a ASoC: codecs: rk817: fix missing I2C dependency in compile test
 fd609e8c2893772b47aa2de93ac5ebb815acb930 Add Pink Sardine platform ASoC driver
+1952447e5ed2bbf34b850f0a34f9f5021d0740b2 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
 
---===============2442822850590341872==--
+--===============2559693380516937488==--
