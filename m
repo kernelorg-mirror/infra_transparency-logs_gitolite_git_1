@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8811053505533767681=="
+Content-Type: multipart/mixed; boundary="===============8485113049106018322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 Aug 2022 12:24:03 -0000
-Message-Id: <166186224376.12483.6288341488507371530@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 12:24:46 -0000
+Message-Id: <166186228652.12963.7947262973009369013@gitolite.kernel.org>
 
---===============8811053505533767681==
+--===============8485113049106018322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: a8c11c1520347be74b02312d10ef686b01b525f1
-    new: 1a9a59104646417ef2d71a7dcfc5243672c9d8e6
+    old: 1a9a59104646417ef2d71a7dcfc5243672c9d8e6
+    new: 6f418aeaadb78bd820f74961df48876ab194cd7a
     log: |
-         a54dc4b38186e63c30db68df42487464663ae5d0 serial: sh-sci: CIRC_CNT_TO_END() is enough
-         575ca2cb89ea1dafc4005a208e77e7cd3f3edb40 serial: sh-sci: tail is already on valid range
-         1a9a59104646417ef2d71a7dcfc5243672c9d8e6 serial: pch_uart: CIRC_CNT_TO_END() is enough
+         6f418aeaadb78bd820f74961df48876ab194cd7a loongarch: remove generic-y += termios.h
          
 
---===============8811053505533767681==
+--===============8485113049106018322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862241 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862284 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1661862240-42de1a326ae31f347e65aefca5ee8be36603328d
+nonce 1661862283-381b54c730448dfe09443ad54554a621872a3a11
 
-a8c11c1520347be74b02312d10ef686b01b525f1 1a9a59104646417ef2d71a7dcfc5243672c9d8e6 refs/heads/tty-testing
+1a9a59104646417ef2d71a7dcfc5243672c9d8e6 6f418aeaadb78bd820f74961df48876ab194cd7a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOAWEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e6kP/iTC61SnsDOEySH/B/Y4
-dq72KAFM0SLImuWNFf0lSJHUU7K5uidAt7DNDQK/mDtX+gbDJVPkYIyUDsXpLZMo
-WUvy3ozhhz+TKkuJFmc5JK0LFcTmfVVoFgCCgWdEb8Oqsf20+WFoML0GM6Ta5f36
-Y+lkRYH/VmEyfZ7301Fop3u959VuJ8c0k2agti8jTdMuJ1Hb9DgtOmyR+9aCwd7i
-EAz7JCtdoJiXI+lshvlXVAzfhC78O9wzqiAFynpQMfTxL5VVIbj3sHBNsFeaOxOp
-k9JPi5IpxUeAVmPTDzAkuuPt3jQUEzfN/kb9yo4eNSTCG4i/SwbAAVe15p6rb1di
-efDT6wZQ5JeKRUS15fYXkIPthJzOKf1FxnsUJyjTbwla/ypHO1eWKy0FPdVxrNvz
-ASBmtVuIFEowYCEuWFNYc+9gpUF6vvIcwRRFCi//bCRjihfEHdhc/qRxeYdhJ5bx
-OYwLZFaBljAouvaj3E7UrJ/gE/vO+Lxp8SEDItYKJQjISGKa5DKGrqb+IvP9iiKu
-JNCgAvBngffWb/UbvFkGd0V+7ImT+pXyEIGXz/lgHmXJJINfu6NbHFY8K4hB8IT0
-Dg3YLyMYj8LDXLxq2QCg69NwAf4ezoDjsPv2a90ZlRyDZW5rrELZ7uQ0zGrQ0k+c
-6ZUQIzioJZ25p+dwc9SbzmOY
-=KaUb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOAYwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zwIQAJjlOF2atFx2MmeJ4Huo
+dR4YQFsB4G3G4y3kwMPzubBEgYcT0wvljoXE09Z769KuEEJYdQLAzUGkg8hzD7ze
+XWDznK367VpOSjBXSf8+9tT9dn+yxNim7+6NBeqE32jig4JDWmwasgKmSbdecikS
+O5GfkMbzQNCnQ/ZQwRoLYen2uATPbOjc1eWJd5eNIaUBdPFNMQbKlm3fxX5/7N9m
+csPHqSbDSH5ezr7zxVtjYL9MTNcnrWl7ZKt+O/ou+F/Sgaop8TsRyJK6dN72QJFH
+4XZ5DiGnFXHEbX8mvQyEfqtAbS+7Q0ADR9TAhKpVOUKapoDGMp1nm6q3w+IYorvS
+BkLr9WFlBdwVY/5b61a2CZMpCI9pAJ9k4dm9FddZDJCOYjwk2aueZ/Y2ZIEekTye
+xBQqKaWB5o5wENV1TNOsILrKX0VOjenrNqoL7RBSeX7fpQ5n06Wltlkx4OlUJeX9
+rwzq4OD/HxQuU5O5eGTPNK/oKLdrnvicKOQ5lheoZ10Cu//xDegQNhuqofaaTBwj
+atRKPiP5g9vdGxXMSNFrRUF00MpL1H47hZwd1TGLhBDEL2uNO7cg8+58m2EVkWI2
+TN/KHku73d63BRkzf6M1p7vqqxuL48KIejyd+e1Ab6+AUts+R6gJApMJ4izIqFsE
+flZqTPn5VyltbT9fr3Pb0kdr
+=U04u
 -----END PGP SIGNATURE-----
 
---===============8811053505533767681==--
+--===============8485113049106018322==--
