@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2394284030018861177=="
+Content-Type: multipart/mixed; boundary="===============4301779187036034851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-Date: Tue, 30 Aug 2022 11:36:15 -0000
-Message-Id: <166185937572.12869.7628494376033651794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Tue, 30 Aug 2022 11:49:21 -0000
+Message-Id: <166186016157.20426.7314613407861973390@gitolite.kernel.org>
 
---===============2394284030018861177==
+--===============4301779187036034851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: cem
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 5652dc4fbb6c9e7a4911ddcc4c3e373a4d014a6f
     new: d3e53ab7cdc7fabb8c94137e335634e0ed4691e8
     log: revlist-5652dc4fbb6c-d3e53ab7cdc7.txt
 
---===============2394284030018861177==
+--===============4301779187036034851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ e373f06a343bdae0a1080fd96943158a0c36cd47 xfs: don't leak memory when attr fork l
 e4a32219d3d9438e450f4b3e8cf642867ca02391 xfs: Fix typo 'the the' in comment
 d3e53ab7cdc7fabb8c94137e335634e0ed4691e8 xfs: fix inode reservation space for removing transaction
 
---===============2394284030018861177==--
+--===============4301779187036034851==--
