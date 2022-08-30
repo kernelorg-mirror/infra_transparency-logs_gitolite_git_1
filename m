@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7172188711721785953=="
+Content-Type: multipart/mixed; boundary="===============8275882495131505178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 Aug 2022 12:40:35 -0000
-Message-Id: <166186323549.26219.4579254718720161629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 30 Aug 2022 12:48:44 -0000
+Message-Id: <166186372425.30642.4182418702866299580@gitolite.kernel.org>
 
---===============7172188711721785953==
+--===============8275882495131505178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 4bb1a53be85fcb1e24c14860e326a00cdd362c28
-    new: 902e02ea9385373ce4b142576eef41c642703955
+  - ref: refs/heads/usb-testing
+    old: 4dce3b375179fdd4aba2191be11ace90ef0ec6d6
+    new: 5cfdb45657c97315501316657e504298b381ceee
     log: |
-         c9ab053e56ce13a949977398c8edc12e6c02fc95 tty: n_gsm: replace kicktimer with delayed_work
-         902e02ea9385373ce4b142576eef41c642703955 tty: n_gsm: avoid call of sleeping functions from atomic context
+         5cfdb45657c97315501316657e504298b381ceee usb: reduce kernel log spam on driver registration
          
 
---===============7172188711721785953==
+--===============8275882495131505178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661863233 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1661863232-fb78bfd998bd22362a02230b6341370d32dd469a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661863720 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1661863719-ee909f0157fe0d9896fda6f5d6235a4ced651766
 
-4bb1a53be85fcb1e24c14860e326a00cdd362c28 902e02ea9385373ce4b142576eef41c642703955 refs/heads/tty-linus
+4dce3b375179fdd4aba2191be11ace90ef0ec6d6 5cfdb45657c97315501316657e504298b381ceee refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOBUEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IVIQAIMqVqwJ+MWUEjebsZFD
-HmFsoRzQp5Xg9/YOuTnS5KoXuSzKIftZw186rHYMzb/nA1qfZKT0q50ZdzY54BkN
-tE4ucEtcB/EFjOR+NtIoVA8CtWidysaKYIPEwtueWO5rHpLKOIus2PARqHrBCrXp
-dxfQH3Xjn9Z1b9+bMf+7uQpRCTV+hiFhWlMLGMBMDN5c3hrk5ZmQCL64/7961IOC
-yX7r3XSpdeGupuus/183pUs+rrdtHLAfHuIhzeMqDlf3rxYkmfKL+h6Y8v0maZX6
-UUaIgNFzwfiAiEiHbv1pVCNv/u7nPSU7mTi5NIzFuMkxpv0TXJUGjnZuq9aMIesC
-W46Uxnhl+O0hbYxy06qX9g8bhBTmfHWqstVGP65i3m6QntUeZA7P6w0p5Mo3VcOs
-JGCw1KGhxmil2jfjqav/MSFufxKYhD0F5TLFCsdVqnSUDWapGD4fKXDTGDEs08GU
-RB+CYDmpUFQ6GZtm3P8o+LS+wnuj+ZuDs/6ZulnwXK7RkMmsMiv9Wvot90CBHvIe
-2ekD+WbEYskIVZptOq62KTNZuLSfYYkvSN5+IiuuIyL3tTHMUZLE3mRLIktcFiUi
-hZYNmmpWGFp6p9EhZPEnldUIIjdZSeI1u807+TxGKeAavP1WS1KjWLjCdMO9SxVH
-NMDnyIY0qbhF0RbtRvyW7oxm
-=mKr7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOBygbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rlsQAMliuiXbMhZ3CHB2pi1t
+ZYAtd1knYy6rOVvsJCuIJ0rh7OAOpFNvXiiRo2jq4ldOOWJAZabuUkye50STliSR
+ZXT/Fp3Y16gw9Z2J5qhYITOGqpRCbKBq2MOFSjWH0Eb+u9+Gamr5cD+Pe2BIKN8j
+eAD+XYEcKianprkjSj1MeTfYx88r6kaREAx2ct4TV2vrAPU8F1K9Vz5xtOJlo0L8
+Et2hh8BjzytdEznAs5lLxX4f6xgeSbor0eetvRujLDh2QoL5lntXJbge9cV92DeN
+pQ9WXLkNGF++IR1ANHsZACHsrONW8KOjpx+ivRC6VBIc/xcQolt7XXpAz8SQubjS
+fO/SxepP2zO+Y0zpQSxDW8QWnRnf6b/YL1rTEdtr+RsjLEtIi5ijryqbty3qKKAu
+zSKmeaqU5pHkoI7Rluzv2k4MZtUBbUYYynV68Bfy122T11y+g+b//YfG7ew1POrF
+Q1jChMScyFkO+gTeJdCRVUSYPQnqPpaJiH3vSs9tPtw1ScvmVgUQmyYEKciUJjro
+zmfbWIwETMnOG4PSRjeJUTI+V+t+vkBybCXrKKkg9HjEQFc3tDO2FDSRYffQfXTa
+rvi2O/5LlCDdp27AXNgjuw1L3uV/fnuCZ3X4oZlbWPPc91UTlY//XQsxN3HkSXHc
+xrTX3LRtSs/Gcj2T5mibPhnb
+=++j0
 -----END PGP SIGNATURE-----
 
---===============7172188711721785953==--
+--===============8275882495131505178==--
