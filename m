@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2978277394844809859=="
+Content-Type: multipart/mixed; boundary="===============2442822850590341872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 30 Aug 2022 10:08:26 -0000
-Message-Id: <166185410641.14412.5995477601801922359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 30 Aug 2022 10:08:35 -0000
+Message-Id: <166185411520.14528.1177206083275464983@gitolite.kernel.org>
 
---===============2978277394844809859==
+--===============2442822850590341872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: d08a0d41ec569d1978ee47e57b08305a1022653f
     new: fd609e8c2893772b47aa2de93ac5ebb815acb930
     log: revlist-d08a0d41ec56-fd609e8c2893.txt
 
---===============2978277394844809859==
+--===============2442822850590341872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1661854104 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1661854104-eed244911eb16b379768a28087a11c701b9ccd16
+pusher C3F436CA30F5D8EB 1661854113 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1661854111-f9c5dc6379ddb1180961cc56859002e21ecfc821
 
-d08a0d41ec569d1978ee47e57b08305a1022653f fd609e8c2893772b47aa2de93ac5ebb815acb930 refs/heads/for-6.1
+d08a0d41ec569d1978ee47e57b08305a1022653f fd609e8c2893772b47aa2de93ac5ebb815acb930 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMN4ZgACgkQJNaLcl1U
-h9Ba5wgAgZFu8dQwxPo1BkF6cb/XbKNJMLm8hEdsJhWHjgS4w+iCJkZhXMDErqyG
-EulIVVSGZslNScnjzUrbbuFszVasNHauQ47+IKimCc/ZQH7xFDmxTfh4pe4G3OUc
-2X54fY9a5x7LE2toIgPzzEAfLRstoSzBEaPzbNn1QBEP8yMx0OCNNY0jUR/haQOL
-K0IGN+T9C/Yq4R1mXd38BvZh0fbDOjv4xZEO6/5yqoAvMyhAj2gXTQa1Ule+5mCD
-3QitRBBZvdYNb8agf4RjDxYYZsXAyPhDaGQEMoP1GlV9YG2u30qQtOeUZvhv3ldF
-518hKzbzwlvH2V/H9LZ9+Cbyo0Geww==
-=RGix
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMN4aEACgkQJNaLcl1U
+h9AN3wf9GNGQbscKgIz9iFFtxHID+hcwKsD8xlUrE7LsX1UsAZcmPA8foFRjSZy2
+gSxFzSZLKu7NTTbmHYLhO5mrtWc67vBi0Klo9skrKQesF9qWYHgGyrMUFhlEKLZH
+z+nu8sXWpHmu4Pud/0qyKlnKZoftAgZI9DK5W6vsEUU2gyucSqOB1ilEa14YqhKm
+gb2xpIeNN6RVnlJPjUkMTCRqJGs5klcNFlYhMvn59lPflvwtF/UEUvwY6FVp1es4
+0V40NCZ5R2AotihhzOiTVvzqWYI7bTFnV5mwo5W9vQiCRX8SONv+R3kIwlUcwt0p
+a6j8GCE+hjA1aVFnq/ixkUO6PQ6SYA==
+=Kgbj
 -----END PGP SIGNATURE-----
 
---===============2978277394844809859==
+--===============2442822850590341872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ Content-Disposition: attachment; filename=revlist-d08a0d41ec56-fd609e8c2893.txt
 5204e836544763cb085e653c82d4da77a427591a ASoC: codecs: rk817: fix missing I2C dependency in compile test
 fd609e8c2893772b47aa2de93ac5ebb815acb930 Add Pink Sardine platform ASoC driver
 
---===============2978277394844809859==--
+--===============2442822850590341872==--
