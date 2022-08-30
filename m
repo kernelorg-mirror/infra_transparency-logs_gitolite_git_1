@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Tue, 30 Aug 2022 17:58:33 -0000
-Message-Id: <166188231336.24152.18157841798155197960@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8733090477545858560=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 30 Aug 2022 17:58:38 -0000
+Message-Id: <166188231861.24244.11777227477616911510@gitolite.kernel.org>
+
+--===============8733090477545858560==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rxrpc-fixes
-    old: be92b216c17d7d954760ac18e6e5109ed5737fe0
-    new: c2f6ecfc2c8d95244507cfe244710f61e0f727a7
+  - ref: refs/heads/for-6.1
+    old: f4d381038700361f92d157288b0e18d87fab6c6d
+    new: 9477420efc41f60f06413cefa38f5bfd71ba64d8
     log: |
-         0576f76cc0cfcbdc1c86113087d1f9f98e0e03d7 rxrpc: Fix an insufficiently large sglist in rxkad_verify_packet_2()
-         6b1e3400442548fe5fdfecb20e9ecdac7ee41f85 rxrpc: Fix local destruction being repeated
-         c09173be96619c396c7c7af7896bb64122bf1056 rxrpc, afs: Fix collection of reply timestamp and calculation of callback expiry
-         c2f6ecfc2c8d95244507cfe244710f61e0f727a7 rxrpc: Fix calc of resend age
+         9477420efc41f60f06413cefa38f5bfd71ba64d8 spi: amd: Fix speed selection
          
+
+--===============8733090477545858560==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1661882318 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1661882316-d9dc22b1001b88b328d387bd7453a9eb279dc4b9
+
+f4d381038700361f92d157288b0e18d87fab6c6d 9477420efc41f60f06413cefa38f5bfd71ba64d8 refs/heads/for-6.1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMOT84ACgkQJNaLcl1U
+h9DC/wf/aCkq5ZQ5ZiPgwX5WiPx5ww830KfS5/mR3xBa9XfA/AxFGDtmnImRq2+V
+lTm3McizpARZrGqM6QKdwDZGVnuUBXchqHOgyb3Y7EZL0PaVYvV1jAKLhJbKqVca
+32Ta4UXL/vAR1zasBxKfgOoRPa4rpf8ZnT/TPdC2KnEq/Exs6ywAj8yyaL2bo5PI
+iHQ20kQz/DVM7TeqkOx+Xrx5mcrKEuCZPEY2nVTE3Dy/v6Z37G9tt+mQ3iPoKyUg
+MXkKkgveCX2f9py3UmcfMqilx55y4TPbXxdac3a3Fuziwxghs9SNCqKGkLQLUH6v
+B9+scxlAoq+ec4zvZIl85L1hgLvXFg==
+=jL+m
+-----END PGP SIGNATURE-----
+
+--===============8733090477545858560==--
