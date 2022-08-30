@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 30 Aug 2022 18:28:10 -0000
-Message-Id: <166188409060.13728.8739846133182402154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 30 Aug 2022 18:52:34 -0000
+Message-Id: <166188555496.29660.15372479794164884905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/samsung-clk-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 1a8209129ab49452f1d1c239d69bbc4de4f7b81f
+  - ref: refs/heads/filex7gJWI
+    old: fb43eb0a930ca9474484b1ff04c3fd532efdc8e3
+    new: 0000000000000000000000000000000000000000
