@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6973954545709222439=="
+Content-Type: multipart/mixed; boundary="===============3171393297207119049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 30 Aug 2022 13:47:08 -0000
-Message-Id: <166186722824.8590.7921538366514739366@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 13:47:22 -0000
+Message-Id: <166186724291.8750.12590660806437872306@gitolite.kernel.org>
 
---===============6973954545709222439==
+--===============3171393297207119049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: d3027b69ce36612ad9a51c7dcbb29fde185e2e51
+  - ref: refs/heads/perf/core
+    old: a91ff4d2d6caef58ab9b475307e190a842d568c8
     new: a4dd2f0b00a8ff689b4ad31f506ba9831748ccc5
-    log: revlist-d3027b69ce36-a4dd2f0b00a8.txt
+    log: revlist-a91ff4d2d6ca-a4dd2f0b00a8.txt
 
---===============6973954545709222439==
+--===============3171393297207119049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3027b69ce36-a4dd2f0b00a8.txt
+Content-Disposition: attachment; filename=revlist-a91ff4d2d6ca-a4dd2f0b00a8.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -324,24 +324,6 @@ e022620b5d056e822e42eb9bc0f24fcb97389d86 Merge tag 'arm64-fixes' of git://git.ke
 11745ecfe8fea4b4a4c322967a7605d2ecbd5080 perf/x86/intel/uncore: Fix broken read_counter() for SNB IMC PMU
 2413a85200ee9cbed40d12c6e3b856752b089790 Merge branch 'acpi-processor' into acpi
 3bf1b1571224e713f1a186de21b2204c06f1cb5e Merge branch 'thermal-core'
-c191c2d45f3600cf372b6a2f14b79dc989bd58b0 perf mutex: Wrapped usage of mutex and cond
-0f81b687f4a5cde3c4ceb60ded6fad0b7cbb8d26 perf bench: Update use of pthread mutex/cond
-cab72d3705d6d333e4478c4b0b3f6c691cb364fe perf tests: Avoid pthread.h inclusion
-bb72c92c7cec88f4e01cbaff9da9eab8d08a7bab perf hist: Update use of pthread mutex
-825d37bd35a777467aa6e1f531e56b654ae9ae15 perf bpf: Remove unused pthread.h include
-ea4c71b8f70eba8e05a2166a72973b4728e3537e perf lock: Remove unused pthread.h include
-d1a10f4fa8940140726eb3a3ad96c856f1b4bb4c perf record: Update use of pthread mutex
-f02181afe7366acde0373015647d6a0c42e0e0dd perf sched: Update use of pthread mutex
-5fbfc52bb44c8d8c063143246af88e4028814fe6 perf ui: Update use of pthread mutex
-b7a048b10b22dce9cfe313e66b95715615e4ede1 perf mmap: Remove unnecessary pthread.h include
-e045dd2ec5de8ede390e8e786db97a4c97f942ec perf dso: Update use of pthread mutex
-460579d2f66658caf91b16b0c1e4c0fe4a893f88 perf annotate: Update use of pthread mutex
-ee1660f5018abf7382bdd271d2b570cf894b6368 perf top: Update use of pthread mutex
-1bb49fa9d4998f95103c50acfe13a5519f1cbbbe perf dso: Hold lock when accessing nsinfo
-5ed666a414a186a74190ae961620dc8bee6ae6bb perf mutex: Add thread safety annotations
-f2f25724bd0439a41c45b65384168efc59e41ca6 perf sched: Fixes for thread safety analysis
-b227eaf56d8ab1820d1abf768b7ee8a12ca24c0d perf top: Fixes for thread safety analysis
-a91ff4d2d6caef58ab9b475307e190a842d568c8 perf build: Enable -Wthread-safety with clang
 bc9e7fe313d5e56d4d5f34bcc04d1165f94f86fb perf python: Fix build when PYTHON_CONFIG is user supplied
 dbcfe5ec3f9a5799d8b49ad2c81549bbfa8390e7 tools kvm headers arm64: Update KVM header from the kernel sources
 bf515f024e4c0ca46a1b08c4f31860c01781d8a5 perf stat: Clear evsel->reset_group for each stat run
@@ -385,4 +367,4 @@ b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-2
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
 a4dd2f0b00a8ff689b4ad31f506ba9831748ccc5 Merge remote-tracking branch 'torvalds/master' into perf/core
 
---===============6973954545709222439==--
+--===============3171393297207119049==--
