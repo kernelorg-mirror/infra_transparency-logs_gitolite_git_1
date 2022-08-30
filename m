@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4881868634157963128=="
+Content-Type: multipart/mixed; boundary="===============3254263666450210423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 Aug 2022 12:32:20 -0000
-Message-Id: <166186274093.20077.7257008548775206923@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 12:33:37 -0000
+Message-Id: <166186281715.20587.10425838903761640285@gitolite.kernel.org>
 
---===============4881868634157963128==
+--===============3254263666450210423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 846651eca073e2e02e37490a4a52752415d84781
-    new: 56c14fb4086b2de6921dd70251b19b364b909ea1
+    old: 56c14fb4086b2de6921dd70251b19b364b909ea1
+    new: 692a8ebcfc24f4a5bea0eb2967e450f584193da6
     log: |
-         56c14fb4086b2de6921dd70251b19b364b909ea1 tty: Fix lookahead_buf crash with serdev
+         d5a2e0834364377a5d5a2fff1890a0b3f0bafd1f tty: serial: lpuart: disable flow control while waiting for the transmit engine to complete
+         692a8ebcfc24f4a5bea0eb2967e450f584193da6 tty: serial: atmel: Preserve previous USART mode if RS485 disabled
          
 
---===============4881868634157963128==
+--===============3254263666450210423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862738 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862814 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1661862737-3cb61a7be627f8c861782109f6f7f988eabc2f85
+nonce 1661862813-189f0cf9c986131ce28891f18be07e9ce30de6ea
 
-846651eca073e2e02e37490a4a52752415d84781 56c14fb4086b2de6921dd70251b19b364b909ea1 refs/heads/tty-linus
+56c14fb4086b2de6921dd70251b19b364b909ea1 692a8ebcfc24f4a5bea0eb2967e450f584193da6 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOA1IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rBkP/iiQAdvQG5e7qu5Lrqj9
-YsomPidfL0t9WVHBvhGfRtXWcXN7dfvajmEAmANqHWxH8sTOhVTE9j2mK5fiMrYl
-dP3ET+eGkXoWoJCzXuLkbyRNdGCJW3AG1YdhOHpDL6dCifvSpg1niNZRzggfn4J/
-7LoFrZMOjP9GdmGOxmFo2uXcXgpSnCPggQnJtT9kxC3Wdg7GdzXOd8pFeDuhK70m
-08n2kSQJq+4yhf0VwkdomG+qWz/Wn4/7i65oJ4CGmDIzeQ3IcZkIpKgwCm/YAzCO
-EeWQoT86IdWJ7FzxIKqOgjsCuXc9BuRn0D2dr/vpAis5ARAGm0G0mdbG21S07BpL
-MHHulGiWnMCWEfCYtZzsggEtf0rpkPlbu6EqefaXLbfZjiPlHV0WHyHHl/H4BPNL
-vmYK0xJGvVnJ4ZUv2BP31oYvkGW3N7xIFRveKcCo+bTdOJSQMYOg3RgIKhigEdOO
-qzX5vaJQmuRir1Nqotd4y8bqw2iw4bkxC9XMowJcyTJviB4H0J9OlNuk9kWMSZYM
-vOOusfD0iLwQine/IIRE1tTtTVoCetxB1JSShSsbMS21EuBpJLWd0B6p3VIq2Vwg
-O0k+/IitasalcXGiPs1uuYGC6PNxQI0kn+OQttDubvPz0e1oXQ1ota19WFGSu1oE
-SaHE2683CTDeHzH8gXqu/aSK
-=sdE/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOA54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UIcP/i3LGBFLVievq1vVnmdn
+to5FdRZnSzR58qSwmBmoWn5zEl0sxsAVyyTTvEsTuvyAVhRlb7V3NXSuqnMrrXoc
+bBg8CZ+Zgui1CLPX1xB7YRgl/fDsxZ9WwbzyHQwptWzpopjjmyuFHp7i0g29pjq3
+PQx2yIHk8oNxPQIrfs9ilX6eokKNro3SJkwoi+bA1IYU6iJKI1Icz12/YNPP5KM9
+cbBCx302617OI3xRJ0ubvaFO3ZinIwi0roRqSGxZbZW2BQf4L/T/0qlIlr9eLGoa
+OtPjJv19zKAxAoM+ZQuNvHXjhdmK0+B5B1QN0vIqLaxXV/Jhk8FKBuUchz+xx/Wk
+pisx8fqSBSJMNZ2GryNQgrobV75Np/CAaG0vsBzkA10hlxJqG87wI5MHKVnB/ly2
+7qPLFgdYWXj4zymJdZx1hz25S1LL/INXw15sfVMR9BRDfaGSA3G6MqWNSxl1gA2v
+FZreeuMWfo8/jaPzNzpc/ILEldaER6BJnjUwpaO22viY+HsPyH4NQxTBr5P+NecY
+hHxN4h3nUAD3eRSnZh3YcIboOWWZuuKgH6FsnmFG0DaUlOXMx20Lqpc0lepeIFfd
+WkBKC2CaIhC2YmaEu0hbuwDjK/Ga8mAMZIBhTYQy+ihdmsBR5vstsVkL2yKRO/0u
+geFuLViDKUK5u65aN8rhck1p
+=79j8
 -----END PGP SIGNATURE-----
 
---===============4881868634157963128==--
+--===============3254263666450210423==--
