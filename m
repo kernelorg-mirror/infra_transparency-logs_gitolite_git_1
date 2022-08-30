@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4301779187036034851=="
+Content-Type: multipart/mixed; boundary="===============0448312723135110372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Tue, 30 Aug 2022 11:49:21 -0000
-Message-Id: <166186016157.20426.7314613407861973390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 30 Aug 2022 12:15:09 -0000
+Message-Id: <166186170905.7444.4799201652222609387@gitolite.kernel.org>
 
---===============4301779187036034851==
+--===============0448312723135110372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 5652dc4fbb6c9e7a4911ddcc4c3e373a4d014a6f
-    new: d3e53ab7cdc7fabb8c94137e335634e0ed4691e8
-    log: revlist-5652dc4fbb6c-d3e53ab7cdc7.txt
+  - ref: refs/heads/tty-testing
+    old: e9c9d3bb158df0e8abab3b6650f36bf645519867
+    new: a3911f6ea5542d56366a6495f2464a312d85d15b
+    log: |
+         5779a072c248db7a40cfd0f5ea958097fd1d9a30 tty: serial: fsl_lpuart: adjust SERIAL_FSL_LPUART_CONSOLE config dependency
+         a3911f6ea5542d56366a6495f2464a312d85d15b serial: 8250: Add helper for clearing IER
+         
 
---===============4301779187036034851==
+--===============0448312723135110372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5652dc4fbb6c-d3e53ab7cdc7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ef78f876e2703d21020e0762495650f4df26fbc5 xfs: make last AG grow/shrink perag centric
-37dc5890efe4d1230e26990f2c6cb94885366025 xfs: kill xfs_ialloc_pagi_init()
-4330a9e00400d262bc44b2a1f1fefa173c1183e7 xfs: pass perag to xfs_ialloc_read_agi()
-87db57baf27dea6df3c993b6a3a5878fa53662bb xfs: kill xfs_alloc_pagf_init()
-f9084bd95ff081db25deba6d42069e6e7e4d1e8a xfs: pass perag to xfs_alloc_read_agf()
-bc87af992ea87bdfd10f3f305eb7ddde999c8cc1 xfs: pass perag to xfs_read_agi
-c1030eda4633d9523a50ade9b3ffa650ab05cd01 xfs: pass perag to xfs_read_agf
-1d202c10b414124c7dfce255a924940a08a390e9 xfs: pass perag to xfs_alloc_get_freelist
-9a73333d9ccf32c61b4ae00574674b6bb2d69b3e xfs: pass perag to xfs_alloc_put_freelist
-75c01cccfdcca3ffa838a39d8061460f637b1b6f xfs: pass perag to xfs_alloc_read_agfl
-83af0d13a62df25a1c994ad7c507cc0196903b5e xfs: Pre-calculate per-AG agbno geometry
-8aa34dc9b9abad2d76011d1b483856c72d03d004 xfs: Pre-calculate per-AG agino geometry
-cee2d89aed7df1f697c54cd06a371c3c2aaafb42 xfs: replace xfs_ag_block_count() with perag accesses
-54f6b9e5e4886056257469c72c955bff8da79e8d xfs: make is_log_ag() a first class helper
-0b2f4162ba2f07eb760834d5b7357267d2729852 xfs: rework xfs_buf_incore() API
-798d43495df2c8a09a73b8e868a71d8f2fd81d5e xfs: removed useless condition in function xfs_attr_node_get
-722e81c1278d640efcbc7935ebe276db6f9700a2 xfs: convert XFS_IFORK_PTR to a static inline helper
-7ff5f1edf91581b77d043d12283d2e460861bedb xfs: make inode attribute forks a permanent part of struct xfs_inode
-d4292c66974521a5af81ac7967fae617cab322f4 xfs: use XFS_IFORK_Q to determine the presence of an xattr fork
-4f841585811f28f57616e1180458fe9080e72dea xfs: replace XFS_IFORK_Q with a proper predicate function
-eae3e30d405c0ddf771eacfda39aeae89e0495c6 xfs: replace inode fork size macros with functions
-69535dadf8222204726e97c79d26e6a85f3f0570 xfs: track the iunlink list pointer in the xfs_inode
-b9846dc9e09dc707a6e55c226d777ea48fdfac54 xfs: double link the unlinked inode list
-ec36ecd2d3a2ad7e099eef8c5707e212332d5567 xfs: fix comment for start time value of inode with bigtime enabled
-17df7eb7ef2e026aeb5339b5ce8d4e669c03be9b xfs: delete unnecessary NULL checks
-e373f06a343bdae0a1080fd96943158a0c36cd47 xfs: don't leak memory when attr fork loading fails
-e4a32219d3d9438e450f4b3e8cf642867ca02391 xfs: Fix typo 'the the' in comment
-d3e53ab7cdc7fabb8c94137e335634e0ed4691e8 xfs: fix inode reservation space for removing transaction
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661861706 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1661861705-fb8b3aa06a12f104faea03f380778ab680d5061c
 
---===============4301779187036034851==--
+e9c9d3bb158df0e8abab3b6650f36bf645519867 a3911f6ea5542d56366a6495f2464a312d85d15b refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMN/0obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CdUQAIFA55eTzqpssJkz8UZy
+/ZDxQc5TAcerg4SaI6kNwqI8KznDvmxAZcerchXQxVKcyD7dLe2Fy2O+Oyd2cime
+icqqUvMpyRrNHAvgD0e4MuX3LOajDAgrALeDFUhSTDAb1JJYR+aBu6ablw5NiH4r
+yauuqBqvA2d7cSxOx5cWuxk6bTASc6D4TTTsM82ocjnPpsdMIWmOeRrCcBkxJft+
+jw0yd7CKGrGRuMsvY85xivLXby0yMqEmls6p7s3PlWDnJrEIOxeSaicGGrEIJac5
+4b/ygrQvUuukP7La9487Kt71LhKV45IMEuewyD/zb6wCJ2O41iSnmoIsEAZRjUVV
+ZdHl8ASBDFo/pWWeUZLtDdQqtofadK2pY3INdzyKCU2K8SsI45HzVs12hXnBCitA
+AQE5fEW/MqmB33oXEjXl365mS7eFXQ+/yrFU4ZCUm0L8XsSGG/IOSXsEO6mSKUrE
+Gd/Bp/j1849LDugygL2WG43KqG3sInM6sGI7ZVnZSb1DoqVujyA+uTuHa2k/ftl5
+/KwyEWqBl3o7gTvVQQWAtCkmmtISYBgVyhZU9a+NxkZ+dJTg2vVMArKA7vFUgvyh
+emjAqkIacRZOTs0Ui5l19HU70nzM5kyW33O9LZab59loEVxGBjLfQm+U6DE4oqWK
+F18tjjQmA8yXHssF4olFak3v
+=0vrL
+-----END PGP SIGNATURE-----
+
+--===============0448312723135110372==--
