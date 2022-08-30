@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 30 Aug 2022 17:27:09 -0000
-Message-Id: <166188042947.2640.4058712510616927118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 30 Aug 2022 17:44:36 -0000
+Message-Id: <166188147687.13160.3804635820124372215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/dev-queue
-    old: 70f840ca01a2b9c0a657e1afb9753396e80966c4
-    new: 04e489b29334a8d4fdb003d89fa6f90261b514d4
+  - ref: refs/heads/master
+    old: b90cb1053190353cc30f0fef0ef1f378ccc063c5
+    new: dcf8e5633e2e69ad60b730ab5905608b756a032f
     log: |
-         b05972f01e7d30419987a1f221b5593668fd6448 net: sched: tbf: don't call qdisc_put() while holding tree lock
-         f612466ebecb12a00d9152344ddda6f6345f04dc net/sched: fix netdevice reference leaks in attach_default_qdiscs()
-         67de8f20e64218fbff41f078c0ef328f0ef71bf2 mm: re-allow pinning of zero pfns (again)
-         bff0742945f7d4d1e2e2ccc0b6fa6f1f5e976bc1 ice: config netdev tc before setting queues number
-         9aaf4472317213b3be97460ef7a6e959e0d663f2 i40e: Fix ADQ rate limiting for PF
-         812ee4fd86de9d92d40613592430d676a3e5e5b0 ice: Don't double unplug aux on peer initiated reset
-         5dbcbe7c00f34f0c8dd4bd34130d3f9e80ff6867 ice: Fix DMA mappings leak
-         a45a0a270bc559ebf6e0d64448390b8aa73a8d32 i40e: Fix kernel crash during module removal
-         da0a844d366e379ed5479daa2d21d77eac3a62dd ice: use bitmap_free instead of devm_kfree
-         37be125d8810a111001fd36db8e0a55808fa83de ice: Fix crash by keep old cfg when update TCs more than queues
-         04e489b29334a8d4fdb003d89fa6f90261b514d4 ice: Add set_termios tty operations handle to GNSS
+         cee7db1b0239468b22c295cf04a8c40c34ecd35a docs: kerneldoc-preamble: Test xeCJK.sty before loading
+         04d4ca41809052f6088860fe150dac679e6453d0 docs/ja_JP/SubmittingPatches: Remove reference to submitting-drivers.rst
+         602684adb42a04858e23248b22d4931b7ef2ad7e docs: Update version number from 5.x to 6.x in README.rst
+         465d0eb0dc31ae26c05504668d3957db91e99799 Docs/admin-guide/mm/damon/usage: fix the example code snip
+         5479d6d4bf122d4b137659559a7bd17784b97b7e docs/conf.py: add function attribute '__fix_address' to conf.py
+         d68d289fbec70b50a25f5818964b26349320ddb5 Merge tag 'docs-6.0-fixes' of git://git.lwn.net/linux
+         dcf8e5633e2e69ad60b730ab5905608b756a032f tracing: Define the is_signed_type() macro once
          
