@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4095732669745651906=="
+Content-Type: multipart/mixed; boundary="===============4881868634157963128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 Aug 2022 12:31:34 -0000
-Message-Id: <166186269419.19752.2439041914863363799@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 12:32:20 -0000
+Message-Id: <166186274093.20077.7257008548775206923@gitolite.kernel.org>
 
---===============4095732669745651906==
+--===============4881868634157963128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: b5a5b9d5f28d23b84f06b45c61dcad95b07d41bc
-    new: 846651eca073e2e02e37490a4a52752415d84781
+    old: 846651eca073e2e02e37490a4a52752415d84781
+    new: 56c14fb4086b2de6921dd70251b19b364b909ea1
     log: |
-         566f9c9f89337792070b5a6062dff448b3e7977f vt: Clear selection before changing the font
-         846651eca073e2e02e37490a4a52752415d84781 serial: fsl_lpuart: RS485 RTS polariy is inverse
+         56c14fb4086b2de6921dd70251b19b364b909ea1 tty: Fix lookahead_buf crash with serdev
          
 
---===============4095732669745651906==
+--===============4881868634157963128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862691 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862738 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1661862690-6eb200846a5c3f03d3966e0467723cd7de88900b
+nonce 1661862737-3cb61a7be627f8c861782109f6f7f988eabc2f85
 
-b5a5b9d5f28d23b84f06b45c61dcad95b07d41bc 846651eca073e2e02e37490a4a52752415d84781 refs/heads/tty-linus
+846651eca073e2e02e37490a4a52752415d84781 56c14fb4086b2de6921dd70251b19b364b909ea1 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOAyMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0IcP/3a/63kks5beA561tPm9
-HdwEqhBoMqvaQiZeEad2Ke/WSCUaLifqAI6Ngz0CSr8XK2cI/xoKJqWNI2btN558
-CNmUMXVXjl4rlMbHtP41dwY5phxY+c5ejirc0FNwgHGdVdOD1qPMHmPUZZ1Vd4DQ
-KD2dLiWOLCTu0DG60wv/v9q3+GCh8vjTUk9Y1pLNfbn/VuWHFVEiCvfn2y9qyGFj
-QN1pMpfRbEczGzgX4Xbtu7vjRRmZrIJtbB7n3Ss7Mti6aOkTL3Kd83oqKVlht/Rm
-10OOuPjPH2G8cPWkBOTcMcYM11bzQLcdt5ZzfEq99gae08J404qa1sUqLhhwnlRQ
-0+TlYHuZlkYeIIlZ26AWU46Qq6UwE/QpAguuR9nKTm7T1dAs1qAUP19CYRgAkrh4
-YEcTZjiXEwE6prmXcuQC6d46p6pfnOjfRZireUPEV7JvNWfgqRdnGCsMTpaRInzo
-M8HcLldxXnsDdCd1XvJt/sPOFvawV4rdKyhj7GX6VOeClcO/Sd2SwhaF15J191nJ
-P/7csJglMRXurjHXEwFuypjl2JN6v2FOvULnhZ07z2RsjzH2A9mnIdNL5iZiwJjU
-naPM8NxSAWZ//QG8hO5VWBabB7xC6MDVdMYgI0mqIf3bZZtXsWHUvC7vKEy++WPk
-tttK0xKpJEnqRAZluxg0lzny
-=8ha9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOA1IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rBkP/iiQAdvQG5e7qu5Lrqj9
+YsomPidfL0t9WVHBvhGfRtXWcXN7dfvajmEAmANqHWxH8sTOhVTE9j2mK5fiMrYl
+dP3ET+eGkXoWoJCzXuLkbyRNdGCJW3AG1YdhOHpDL6dCifvSpg1niNZRzggfn4J/
+7LoFrZMOjP9GdmGOxmFo2uXcXgpSnCPggQnJtT9kxC3Wdg7GdzXOd8pFeDuhK70m
+08n2kSQJq+4yhf0VwkdomG+qWz/Wn4/7i65oJ4CGmDIzeQ3IcZkIpKgwCm/YAzCO
+EeWQoT86IdWJ7FzxIKqOgjsCuXc9BuRn0D2dr/vpAis5ARAGm0G0mdbG21S07BpL
+MHHulGiWnMCWEfCYtZzsggEtf0rpkPlbu6EqefaXLbfZjiPlHV0WHyHHl/H4BPNL
+vmYK0xJGvVnJ4ZUv2BP31oYvkGW3N7xIFRveKcCo+bTdOJSQMYOg3RgIKhigEdOO
+qzX5vaJQmuRir1Nqotd4y8bqw2iw4bkxC9XMowJcyTJviB4H0J9OlNuk9kWMSZYM
+vOOusfD0iLwQine/IIRE1tTtTVoCetxB1JSShSsbMS21EuBpJLWd0B6p3VIq2Vwg
+O0k+/IitasalcXGiPs1uuYGC6PNxQI0kn+OQttDubvPz0e1oXQ1ota19WFGSu1oE
+SaHE2683CTDeHzH8gXqu/aSK
+=sdE/
 -----END PGP SIGNATURE-----
 
---===============4095732669745651906==--
+--===============4881868634157963128==--
