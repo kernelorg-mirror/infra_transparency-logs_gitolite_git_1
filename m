@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8485113049106018322=="
+Content-Type: multipart/mixed; boundary="===============6340962868475535219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 30 Aug 2022 12:24:46 -0000
-Message-Id: <166186228652.12963.7947262973009369013@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 12:25:16 -0000
+Message-Id: <166186231601.15768.17120849417744551704@gitolite.kernel.org>
 
---===============8485113049106018322==
+--===============6340962868475535219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 1a9a59104646417ef2d71a7dcfc5243672c9d8e6
-    new: 6f418aeaadb78bd820f74961df48876ab194cd7a
+    old: 6f418aeaadb78bd820f74961df48876ab194cd7a
+    new: 0c7833b9e86d61cdfe44c2af17dcf8a08ba0ee61
     log: |
-         6f418aeaadb78bd820f74961df48876ab194cd7a loongarch: remove generic-y += termios.h
+         0c7833b9e86d61cdfe44c2af17dcf8a08ba0ee61 termios: get rid of stray asm/termios.h include in n_hdlc.c
          
 
---===============8485113049106018322==
+--===============6340962868475535219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862284 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661862313 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1661862283-381b54c730448dfe09443ad54554a621872a3a11
+nonce 1661862312-4cedf79d5a712dc5ade1fc6405215de35ac7d34f
 
-1a9a59104646417ef2d71a7dcfc5243672c9d8e6 6f418aeaadb78bd820f74961df48876ab194cd7a refs/heads/tty-testing
+6f418aeaadb78bd820f74961df48876ab194cd7a 0c7833b9e86d61cdfe44c2af17dcf8a08ba0ee61 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOAYwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zwIQAJjlOF2atFx2MmeJ4Huo
-dR4YQFsB4G3G4y3kwMPzubBEgYcT0wvljoXE09Z769KuEEJYdQLAzUGkg8hzD7ze
-XWDznK367VpOSjBXSf8+9tT9dn+yxNim7+6NBeqE32jig4JDWmwasgKmSbdecikS
-O5GfkMbzQNCnQ/ZQwRoLYen2uATPbOjc1eWJd5eNIaUBdPFNMQbKlm3fxX5/7N9m
-csPHqSbDSH5ezr7zxVtjYL9MTNcnrWl7ZKt+O/ou+F/Sgaop8TsRyJK6dN72QJFH
-4XZ5DiGnFXHEbX8mvQyEfqtAbS+7Q0ADR9TAhKpVOUKapoDGMp1nm6q3w+IYorvS
-BkLr9WFlBdwVY/5b61a2CZMpCI9pAJ9k4dm9FddZDJCOYjwk2aueZ/Y2ZIEekTye
-xBQqKaWB5o5wENV1TNOsILrKX0VOjenrNqoL7RBSeX7fpQ5n06Wltlkx4OlUJeX9
-rwzq4OD/HxQuU5O5eGTPNK/oKLdrnvicKOQ5lheoZ10Cu//xDegQNhuqofaaTBwj
-atRKPiP5g9vdGxXMSNFrRUF00MpL1H47hZwd1TGLhBDEL2uNO7cg8+58m2EVkWI2
-TN/KHku73d63BRkzf6M1p7vqqxuL48KIejyd+e1Ab6+AUts+R6gJApMJ4izIqFsE
-flZqTPn5VyltbT9fr3Pb0kdr
-=U04u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOAakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tvgQAMqt1o6cqOTS6vmFrtLX
+M7fkAk1FQgR4b+o8wTb2iokBk6ie/QFVR6+Ur+Bocsc2HhnL4oqZYhZrzxJFJROy
+EyMLFb//om2CZzpRxXj3iOnrJCLjtm0u1zDDyRkNfuLaHoNrlbcbtV7IDNzAqdOw
+9EJREyOtf9xTrAW70Qfdz80i7NwfOT15li+TIvqKe/YVl9zxGz0k1Yp3s/PYf3Pr
+iYPyzvzmRgGag+WBFzz8K43rXnT2Jc7pjmmwd5d/L3ErAdAgE/e6ispIRNhTi+t2
+NX4ALjHaQ6YUQ9nJyDY+t+jZK8JKxKVeW6u05U9F2SfhwkLogdNLJSqGYfXMPS2G
+NS9LGiN5jQxDEhf7k8dOP+DzdMm8VSDYORCidrkkfiP5Tk0Z6XeIB8j6APzldnnT
+gtF7maJ5OBrMQ8t59MyXG1KvDMoNdbSd+rEt//ug2aDm1/prUnjt7dh1hvGvALWP
+VwzAYeBUr/3KfbuZlvXr9E4iVXWEPTHgfu76AtA0ypJR+I8p6Vtw2oJTIuafuBbO
+nv7pSd4nG4teYOpf5Q/MGL9upE4aumwNq5eyAdadqhPbXVX8z1c2JH/RbP8PKthP
+ixGloCNOPHF8d5+yoNlvOcRsBSJ8Uihok9RjQ1bK+07D2r1Tpt2INc3SmzsMqE2r
+GBvYr+h1euDOmhrF/K3Z8TdT
+=BaUS
 -----END PGP SIGNATURE-----
 
---===============8485113049106018322==--
+--===============6340962868475535219==--
