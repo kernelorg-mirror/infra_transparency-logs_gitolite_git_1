@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 30 Aug 2022 16:38:26 -0000
-Message-Id: <166187750684.32047.3385629989887867504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 30 Aug 2022 16:50:06 -0000
+Message-Id: <166187820689.8300.643461124821869275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: fa3fbe64037839f448dc569212bafc5a495d8219
-    new: 6d0ef7241553f3553a0a2764c69b07892705924c
+  - ref: refs/heads/master
+    old: eb40b275dc70ad8bc2003f8f466651dcc2aa0b09
+    new: 6ce17ec60a51c55a8da2002d14f960a194553fe7
     log: |
-         40b717bfcefab28a0656b8caa5e43d5449e5a671 wifi: wilc1000: fix DMA on stack objects
-         6d0ef7241553f3553a0a2764c69b07892705924c wifi: iwlegacy: 4965: corrected fix for potential off-by-one overflow in il4965_rs_fill_link_cmd()
+         6ce17ec60a51c55a8da2002d14f960a194553fe7 backend: revert bad memory leak fix
          
