@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 30 Aug 2022 18:28:06 -0000
-Message-Id: <166188408603.13652.15717808232033904086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 30 Aug 2022 18:28:10 -0000
+Message-Id: <166188409060.13728.8739846133182402154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/todo
-    old: ff554cac35902b304f064d05bb79033c25cc82ac
-    new: 35c208498c2b5bc3f216fa3af7643fe20724010a
-    log: |
-         35c208498c2b5bc3f216fa3af7643fe20724010a What's cooking (2022/08 #10)
-         
+  - ref: refs/tags/samsung-clk-6.1
+    old: 0000000000000000000000000000000000000000
+    new: 1a8209129ab49452f1d1c239d69bbc4de4f7b81f
