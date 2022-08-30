@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3882512567239230249=="
+Content-Type: multipart/mixed; boundary="===============6613180111430507541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 30 Aug 2022 20:08:16 -0000
-Message-Id: <166189009609.19409.16225235135145747432@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 20:08:25 -0000
+Message-Id: <166189010514.19504.4870523143626784986@gitolite.kernel.org>
 
---===============3882512567239230249==
+--===============6613180111430507541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 41ac42f137080bc230b5882e3c88c392ab7f2d32
-    new: 7c8d42fdf1a84b1a0dd60d6528309c8ec127e87c
-    log: revlist-41ac42f13708-7c8d42fdf1a8.txt
+  - ref: refs/heads/for-next
+    old: 67a933343b485c0722c78092b5bbbdd1d98cb59e
+    new: c4680f34b418d51f035496990fc04363bcd5e2fd
+    log: revlist-67a933343b48-c4680f34b418.txt
 
---===============3882512567239230249==
+--===============6613180111430507541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41ac42f13708-7c8d42fdf1a8.txt
+Content-Disposition: attachment; filename=revlist-67a933343b48-c4680f34b418.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -383,5 +383,10 @@ ff03b8846705e517f878585cf66c5d8fca1c38b2 s390/mm: remove useless hugepage addres
 c9305b6c1f52060377c72aebe3a701389e9f3172 s390: fix nospec table alignments
 bdbf57bca6bf0b76a0f2681014552b25917c26e1 s390: update defconfigs
 7c8d42fdf1a84b1a0dd60d6528309c8ec127e87c s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
+820109fb11f24baf16ed86e232939877df3e9f0c s390: move from strlcpy with unused retval to strscpy
+9aa10e791c2b722cf166f46424a6a8364164fe12 s390/delay: sync comment within __delay() with reality
+bf2ce3855c7d446669f89999d523d91048b0daf9 s390/mm: remove unused access parameter from do_fault_error()
+166dc4dd08e24558172027f6c0bea28380e2c5f9 Merge branch 'fixes' into for-next
+c4680f34b418d51f035496990fc04363bcd5e2fd Merge branch 'features' into for-next
 
---===============3882512567239230249==--
+--===============6613180111430507541==--
