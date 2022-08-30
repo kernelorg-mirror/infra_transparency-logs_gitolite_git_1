@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 30 Aug 2022 09:50:21 -0000
-Message-Id: <166185302122.2005.11663578718565765548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 30 Aug 2022 09:50:42 -0000
+Message-Id: <166185304204.2222.5771835263446313160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: cb10b0f91c5f76de981ef927e7dadec60c5a5d96
-    new: b05972f01e7d30419987a1f221b5593668fd6448
-    log: |
-         b05972f01e7d30419987a1f221b5593668fd6448 net: sched: tbf: don't call qdisc_put() while holding tree lock
-         
+  - ref: refs/heads/v6.0/ffa_update
+    old: 0000000000000000000000000000000000000000
+    new: 284b5ae45cdf979e7e95eae3803ed839b25d9426
