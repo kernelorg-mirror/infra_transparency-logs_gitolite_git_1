@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2133407868851431559=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 30 Aug 2022 15:49:24 -0000
-Message-Id: <166187456424.29386.3619919633032371128@gitolite.kernel.org>
-
---===============2133407868851431559==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 30 Aug 2022 15:50:04 -0000
+Message-Id: <166187460412.31214.17714907837348097122@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: c918c1a1408438a482baaa2768233222e820e979
-    new: 68fca83a3783b9a6316616bf753febd1fb366d22
-    log: revlist-c918c1a14084-68fca83a3783.txt
-
---===============2133407868851431559==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c918c1a14084-68fca83a3783.txt
-
-a6f7fbae837157d0b5d91a85cb74e7c10470cbae PCI: qcom-ep: Check platform_get_resource_byname() return value
-658aea35ab88deca19705413199933c2cef9bac8 PCI: pci-bridge-emul: Set position of PCI capabilities to real HW value
-2b96f92ca4257c05e352f61742839b451e293949 PCI/MSI: Correct 'can_mask' test in msi_add_msi_desc()
-423511ec23e2a6fa7830ed76b0283268e795d09d PCI: dwc: Drop dependency on ZONE_DMA32
-e99d8c5e803b9a9f0b5a84165dad3b8895446147 PCI: dwc: Add support for 64-bit MSI target address
-2baedb9f93c42d35016c3c2e3015d67fbcb058b0 PCI: qcom-ep: Add MODULE_DEVICE_TABLE
-1c0debfa1d36ae4834dbf90a5d8fcc333332b76b Merge branch 'pci/msi'
-b426b04ef50de6d7a7d7a08cfbd0581319a5bc3e Merge branch 'remotes/lorenzo/pci/bridge-emul'
-9df27dc9fda067d52d7bbbed11b5ea0aa64a4add Merge branch 'remotes/lorenzo/pci/dt'
-4afb2562cd58afb0a92125580f3abca582958c74 Merge branch 'remotes/lorenzo/pci/dwc'
-7b29c6fa873aadfa937cadc93cb36a9e89d61b30 Merge branch 'remotes/lorenzo/pci/endpoint'
-b6160768bf932b7b62c73b266be5bdf325ecd457 Merge branch 'remotes/lorenzo/pci/mediatek'
-6cdc5666c2f2517d87313cadcb2323d884852be5 Merge branch 'remotes/lorenzo/pci/mvebu'
-68fca83a3783b9a6316616bf753febd1fb366d22 Merge branch 'remotes/lorenzo/pci/qcom'
-
---===============2133407868851431559==--
+  - ref: refs/heads/for-6.1/io_uring
+    old: 73100da58e5b1f6d8ba85e134463fb2aaca59978
+    new: 32bde07ca566822d14f5faadcce86629d89b072b
+    log: |
+         07106d2635a6d1eb55bb13e6c89c92ae5483b050 eventfd: guard wake_up in eventfd fs calls as well
+         4839171390e42276c829c7e6e3628a0504d12e03 io_uring: remove unnecessary variable
+         24cd96c9fef6160f1131930de85e549f1f0f0cef io_uring: introduce io_has_work
+         6d824d794ab4e33479f45c31234949d6f659ab28 io_uring: do not run task work at the start of io_uring_enter
+         dee2c40d86fdfd569a7a7bf34b9e34ec9e14cd7f io_uring: add IORING_SETUP_DEFER_TASKRUN
+         e971db8da1ccbb48fc1270462766143b39631ae7 io_uring: move io_eventfd_put
+         f0b30e7ab9478a35ccae7bd3cdbbf2347611ff7d io_uring: signal registered eventfd to process deferred task work
+         32bde07ca566822d14f5faadcce86629d89b072b io_uring: trace local task work run
+         
+  - ref: refs/heads/for-next
+    old: 6b5ffd3c6be7b0fbe01dbc860a8a45297e0ddda0
+    new: 3009394a00cc67a6afe81fee6aa8122c539a22a1
+    log: |
+         07106d2635a6d1eb55bb13e6c89c92ae5483b050 eventfd: guard wake_up in eventfd fs calls as well
+         4839171390e42276c829c7e6e3628a0504d12e03 io_uring: remove unnecessary variable
+         24cd96c9fef6160f1131930de85e549f1f0f0cef io_uring: introduce io_has_work
+         6d824d794ab4e33479f45c31234949d6f659ab28 io_uring: do not run task work at the start of io_uring_enter
+         dee2c40d86fdfd569a7a7bf34b9e34ec9e14cd7f io_uring: add IORING_SETUP_DEFER_TASKRUN
+         e971db8da1ccbb48fc1270462766143b39631ae7 io_uring: move io_eventfd_put
+         f0b30e7ab9478a35ccae7bd3cdbbf2347611ff7d io_uring: signal registered eventfd to process deferred task work
+         32bde07ca566822d14f5faadcce86629d89b072b io_uring: trace local task work run
+         3009394a00cc67a6afe81fee6aa8122c539a22a1 Merge branch 'for-6.1/io_uring' into for-next
+         
