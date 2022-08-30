@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6613180111430507541=="
+Content-Type: multipart/mixed; boundary="===============0128400825216764115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 30 Aug 2022 20:08:25 -0000
-Message-Id: <166189010514.19504.4870523143626784986@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 20:08:35 -0000
+Message-Id: <166189011560.19650.15989003679702558190@gitolite.kernel.org>
 
---===============6613180111430507541==
+--===============0128400825216764115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/for-next
-    old: 67a933343b485c0722c78092b5bbbdd1d98cb59e
-    new: c4680f34b418d51f035496990fc04363bcd5e2fd
-    log: revlist-67a933343b48-c4680f34b418.txt
+  - ref: refs/heads/features
+    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
+    new: bf2ce3855c7d446669f89999d523d91048b0daf9
+    log: revlist-1c23f9e627a7-bf2ce3855c7d.txt
 
---===============6613180111430507541==
+--===============0128400825216764115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67a933343b48-c4680f34b418.txt
+Content-Disposition: attachment; filename=revlist-1c23f9e627a7-bf2ce3855c7d.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -292,6 +292,8 @@ da48b67cfb6b4f115ae652dd5995c56fe2a2cf9b LoongArch: Cleanup reset routines with 
 b83699ea1e62951857c2d8648bd93a4744899eb7 LoongArch: mm: Avoid unnecessary page fault retires on shared memory types
 ab0af755d40f2ea4ef01503e7bebf083f65c9062 xen: x86: remove setting the obsolete config XEN_MAX_DOMAIN_MEMORY
 6bb79f5b4c84a09cd6bed46ef3e46ef4fc21407d xen: move from strlcpy with unused retval to strscpy
+13cccafe0edcd03bf1c841de8ab8a1c8e34f77d9 s390: fix double free of GS and RI CBs on fork() failure
+41ac42f137080bc230b5882e3c88c392ab7f2d32 s390/mm: do not trigger write fault when vma does not allow VM_WRITE
 581711c46612c1fd7f98960f9ad53f04fdb89853 io_uring/net: save address for sendzc async execution
 c93c296fff6b369a7115916145047c8a3db6e27f x86/sev: Mark snp_abort() noreturn
 00da0cb385d05a89226e150a102eb49d8abb0359 Documentation/ABI: Mention retbleed vulnerability info file for sysfs
@@ -379,14 +381,8 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-ff03b8846705e517f878585cf66c5d8fca1c38b2 s390/mm: remove useless hugepage address alignment
-c9305b6c1f52060377c72aebe3a701389e9f3172 s390: fix nospec table alignments
-bdbf57bca6bf0b76a0f2681014552b25917c26e1 s390: update defconfigs
-7c8d42fdf1a84b1a0dd60d6528309c8ec127e87c s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
 820109fb11f24baf16ed86e232939877df3e9f0c s390: move from strlcpy with unused retval to strscpy
 9aa10e791c2b722cf166f46424a6a8364164fe12 s390/delay: sync comment within __delay() with reality
 bf2ce3855c7d446669f89999d523d91048b0daf9 s390/mm: remove unused access parameter from do_fault_error()
-166dc4dd08e24558172027f6c0bea28380e2c5f9 Merge branch 'fixes' into for-next
-c4680f34b418d51f035496990fc04363bcd5e2fd Merge branch 'features' into for-next
 
---===============6613180111430507541==--
+--===============0128400825216764115==--
