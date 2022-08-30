@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6029693430791820902=="
+Content-Type: multipart/mixed; boundary="===============5892312588496197749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 30 Aug 2022 13:18:18 -0000
-Message-Id: <166186549866.19623.3557115924684290297@gitolite.kernel.org>
+Date: Tue, 30 Aug 2022 13:30:14 -0000
+Message-Id: <166186621447.29595.14815349757453149006@gitolite.kernel.org>
 
---===============6029693430791820902==
+--===============5892312588496197749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a4fdfd2767709972f9155fd81eb53f87bd933c10
-    new: 9db76f22acafc4e9302578170a853cbea813cef5
+  - ref: refs/heads/usb-linus
+    old: 8531aa1659f7278d4f2ec7408cc000eaa8d85217
+    new: 3d5f70949f1b1168fbb17d06eb5c57e984c56c58
     log: |
-         cdf6998944c77c4b96d935add77739c5d66ab798 usb: gadget: function: rndis: limit # of RNDIS instances to 1000
-         9eb07e8c7631069be2c59b222de0473df803c722 usb: ehci: Use endpoint in URB to get maxpacket
-         6be3ed1a7e0048df178156725bb6d936dfb08616 usb: host: Initiate urb ep with udev ep0
-         3ce24fa06e95562f3afd0acb03b52d947a93da22 doc: dt-binding: mxs-usb-phy: fix fsl,tx-cal-45-dn-ohms max and min value
-         9dffa8a3a05e71b8dfd18ae53be7114c5540c13b usb: phy: mxs: fix MXS_PHY_TX_CAL45_MIN and MXS_PHY_TX_CAL45_MAX
-         0fde07f16cb3eeab8f94bf3e270875216992efbe usb: host: xhci-plat: suspend and resume clocks
-         9db76f22acafc4e9302578170a853cbea813cef5 usb: host: xhci-plat: suspend/resume clks for brcm
+         3d5f70949f1b1168fbb17d06eb5c57e984c56c58 usb: add quirks for Lenovo OneLink+ Dock
          
 
---===============6029693430791820902==
+--===============5892312588496197749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661865495 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661866212 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1661865494-1769e626d26e4e2bf6b1a14de8f05d3e10ed5e4a
+nonce 1661866211-bdb6d913574db3e34509c9f34cb1edb9be53e42f
 
-a4fdfd2767709972f9155fd81eb53f87bd933c10 9db76f22acafc4e9302578170a853cbea813cef5 refs/heads/usb-testing
+8531aa1659f7278d4f2ec7408cc000eaa8d85217 3d5f70949f1b1168fbb17d06eb5c57e984c56c58 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMODhcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oRQP/RF4Dcph0p+0VMaAHWN/
-oOQNc559OvgSh+G2oTCj2261yaLj2MZE5vqYD1bQ8tdJ1ARQbBjIEmYnIn5s8eWr
-6GGWq/qYE0zcisASh8fmng5WQwfn5zDhaLukoAJgNIefnCXr3PUMP/VOfiLbCwCH
-zReXJSqJCLAhB5snS89PUPT35Q4GWyJtGTiAhyf16QBF1ZRincbLSwa2watI2e8g
-0gRux69iUaZ5ZaDp1t7Br2bHtveitSb42F6+4vNE9PVQukgmJ1BLu4nlHoInlaao
-l3ZWkFYcdUMngeiyhqZnY/G4aKOaVjVV3ukrik+jZVgKLRMOeyfjU5IdvP9V71Ky
-BzmUU6+a5vTwnJs1CnYH50E2h8L2CVjhVPpSiTtIJgsUcrk/0lE3LPGGOffUPlh1
-60Urm8cpU8UOHdqXfK47hagG/fls/FUwCF619ZO93H6+gXdEftAK/3TlNda8fM99
-ce/Wp3OEP3YDtRv8WF45hOr+szPx0verUpbtc1GilhLnv4tRI/ijVIV+OMmRJ8uj
-GbJsIzQhBWCSwtgGB9zZWYM1x1ogo+Mu7TKzEcm33bebT0HhPMlyei7AeFOcITeV
-ol/Yt9qP2KjanxIlIZZYdiP8YMnjGunNY5M6UX75DfKq3mf2pAUggIWzw3fbxG3l
-kcILdXEAhIDYGXYPk10ZSPo9
-=1j48
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMOEOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/OEQAISN2dPURDfR8eDIy3Ts
+3xUpVv7VYpr1MeKxTJfg6CQq9xcM67JQbn5YMaxFvWhVbDZ3ZfOyXyEWsvULUYHO
+Udmgui5HlyziQj4u+AJ0h1maeW/4j2ucgoq4j1RnrU7i7A42GogPGu8NVnjTLSdo
+IaF3xHkUOu9sTRUNok7GJB/LcoH+pAonO/QyMdHxiHioIKXlQz716Db5Nm6ImwG8
+wbTSaq9Kp49eqQI8XRMjArcWVO3ycXVG8MIC/+z/twsDDxvT4k7axEZDN3HGpulO
+TEh2Ho+diGUxLm01zxtU49VldDEoZambcTDGEc3ANO8LtA1lXidEO4tlCiKgZY/H
+QE/GJzbsQGFJ3DkcS75zVBo7PjCLT9Wz7tWm46VEvzpNSMWdI74Fe6kuMQ3Js6KC
+R3FoyJ3sfk0xLa0yWocITVohcllgsm9lrAosiuWp+fHCx6Zr7rcQIP9WbycfbNqo
+w9ewQesyz8b0ltm1FDDYM8hUmIqs9J8tjyAeU9m2+0t86P3Hv9L71b++buuSIUg6
+Qu0v5x9UyVovAFiHdJgOh4s9dttlmVI2mOCsAx+WPxoyzGaPmOP1kZ2tiTIgC85L
+Z4pIiVkvauXdY3/PcFENaiI1NtQ3YAb/NNagke7o1QAe3J/wyyzuc1xtwj6Vmuou
+RPSY4M3er4FdSWPuToriUNEU
+=8Rwp
 -----END PGP SIGNATURE-----
 
---===============6029693430791820902==--
+--===============5892312588496197749==--
