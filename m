@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 30 Aug 2022 13:39:28 -0000
-Message-Id: <166186676866.2760.3097779926230068876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 30 Aug 2022 13:45:30 -0000
+Message-Id: <166186713047.7935.12636853674746134622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: b05972f01e7d30419987a1f221b5593668fd6448
-    new: f612466ebecb12a00d9152344ddda6f6345f04dc
+    old: 243477691678af27dafe378f1e19be5df61e9daf
+    new: 918c0bdd943206afc4b17ad1854d1574fe6abf01
     log: |
-         f612466ebecb12a00d9152344ddda6f6345f04dc net/sched: fix netdevice reference leaks in attach_default_qdiscs()
+         e5297de76bdb1d3593ff947b0100eead52c9b148 queue: enter if CQ needs it, even if SQ doesn't
+         918c0bdd943206afc4b17ad1854d1574fe6abf01 Merge branch 'fix/iopoll-submit' of https://github.com/calebsander/liburing
          
