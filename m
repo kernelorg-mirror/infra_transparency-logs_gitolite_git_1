@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 31 Aug 2022 18:53:44 -0000
-Message-Id: <166197202429.18501.10598900518549043720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 31 Aug 2022 18:56:28 -0000
+Message-Id: <166197218805.22357.15609903467818952020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: c00c4461689e15ac2cc3b9a595a54e4d8afd3d77
-    new: 8a7d61bdc2fac2c460a2f32a062f5c6dbd21a764
+    old: 6f95de6d713130c953af0a40b13c1da519f91c4e
+    new: 14e5ce79943a72b9bf0fff8a5867320a9fa3e40d
     log: |
-         8a7d61bdc2fac2c460a2f32a062f5c6dbd21a764 selftests/xsk: Add missing close() on netns fd
+         14e5ce79943a72b9bf0fff8a5867320a9fa3e40d libbpf: Add GCC support for bpf_tail_call_static
          
