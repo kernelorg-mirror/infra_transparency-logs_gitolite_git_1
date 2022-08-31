@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Wed, 31 Aug 2022 13:57:49 -0000
-Message-Id: <166195426979.10380.6731702988187601355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Wed, 31 Aug 2022 14:04:00 -0000
+Message-Id: <166195464070.14180.15267750800184012777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/perf/report-lost-v1
-    old: 0000000000000000000000000000000000000000
-    new: 5309ce813927ad20a1e06797b2f108f44cef2aef
+  - ref: refs/heads/ti-k3-dts-next
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: b7365658294304fac75bf33d11824d3a949122a2
+    log: |
+         5f120a4dc7a71187fdae0a11f6c65b7e2cf7a2d7 dt-bindings: arm: ti: k3: Sort the am654 board enums
+         b7365658294304fac75bf33d11824d3a949122a2 dt-bindings: arm: ti: k3: Sort the SoC definitions alphabetically
+         
