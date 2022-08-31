@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2539167503560947687=="
+Content-Type: multipart/mixed; boundary="===============3879683460091089557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 31 Aug 2022 07:33:53 -0000
-Message-Id: <166193123398.17019.17944197190217127122@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 07:35:47 -0000
+Message-Id: <166193134784.19262.15473602696463948471@gitolite.kernel.org>
 
---===============2539167503560947687==
+--===============3879683460091089557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-fixes
-    old: ef0324b6415db6742bd632dc0dfbb8fbc111473b
-    new: 3d074b750d2b4c91962f10ea1df1c289ce0d3ce8
-    log: revlist-ef0324b6415d-3d074b750d2b.txt
+  - ref: refs/heads/at91-dt
+    old: e48ef9a9c52972d14c788d59024dcc7f566ed2c9
+    new: e9447260b4a1fb254052b60c9ea4f73c77dd0b34
+    log: revlist-e48ef9a9c529-e9447260b4a1.txt
 
---===============2539167503560947687==
+--===============3879683460091089557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef0324b6415d-3d074b750d2b.txt
+Content-Disposition: attachment; filename=revlist-e48ef9a9c529-e9447260b4a1.txt
 
+9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
+52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
+017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
+dfc270c908e81f586c1165acbd9bc5c6d18c3fc0 rnbd-clt: reduce the size of struct rnbd_clt_dev
+59f070de125f568fb7ba47b6555b4013e30f28fd rnbd-clt: adjust the layout of struct rnbd_clt_dev
+fb516fa367a3554f3b71a0b37a52716cc358ea65 rnbd-clt: check capacity inside rnbd_clt_change_capacity
 ae2dfd1d8d253d7c11bbe624f0ac997db5143147 rnbd-clt: pass sector_t type for resize capacity
 e507210a06282a0ebaa84e8c9b4d8ad597b24a8b rnbd-clt: make rnbd_clt_change_capacity return void
 b7df575f8aac538878c1b2b3099f6d594626dfe8 nvme: remove a double word in a comment
@@ -1042,13 +1048,7 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-f04445fa099668ca1c9889c48e309f49740f92f0 ARM: configs: at91: remove CONFIG_MICROCHIP_PIT64B
-a02875c4cbd6f3d2f33d70cc158a19ef02d4b84f ARM: at91: pm: fix self-refresh for sama7g5
-7a94b83a7dc551607b6c4400df29151e6a951f07 ARM: at91: pm: fix DDR recalibration when resuming from backup and self-refresh
-addf7efec23af2b67547800aa232d551945e7de2 ARM: dts: at91: sama5d27_wlsom1: specify proper regulator output ranges
-7737d93666eea282febf95e5fa3b3fde1f2549f3 ARM: dts: at91: sama5d2_icp: specify proper regulator output ranges
-7f41d52ced9e1b7ed4ff8e1ae9cacbf46b64e6db ARM: dts: at91: sama7g5ek: specify proper regulator output ranges
-617a0d9fe6867bf5b3b7272629cd780c27c877d9 ARM: dts: at91: sama5d27_wlsom1: don't keep ldo2 enabled all the time
-3d074b750d2b4c91962f10ea1df1c289ce0d3ce8 ARM: dts: at91: sama5d2_icp: don't keep vdd_other enabled all the time
+8f40330773cd9dcf6de43b223f0d8b3ef10e26d2 ARM: dts: lan966x: add support for pcb8290
+e9447260b4a1fb254052b60c9ea4f73c77dd0b34 ARM: dts: at91: sam9x60ek: remove simple-bus for regulators
 
---===============2539167503560947687==--
+--===============3879683460091089557==--
