@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 31 Aug 2022 19:13:23 -0000
-Message-Id: <166197320354.738.3231543147175952741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 31 Aug 2022 19:16:06 -0000
+Message-Id: <166197336669.3766.8676684692327189999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
-user: khilman
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/to-build
-    old: 7c331ff49f98ee1362c1324a7a09efb39771512a
-    new: 717d79cd902ea0c9f09ac118bf71540c827b6dd7
+  - ref: refs/heads/master
+    old: c0955bf957be4bead01fae1d791476260da7325d
+    new: 3a1a274e933fca73fdc960cb1f60636cd285a265
     log: |
-         717d79cd902ea0c9f09ac118bf71540c827b6dd7 WIP: concourse hack 1
+         3a1a274e933fca73fdc960cb1f60636cd285a265 mlxbf_gige: compute MDIO period based on i1clk
          
