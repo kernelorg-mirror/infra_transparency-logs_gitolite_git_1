@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 31 Aug 2022 00:20:05 -0000
-Message-Id: <166190520544.409.1597227757524000510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 31 Aug 2022 01:00:25 -0000
+Message-Id: <166190762538.31101.9930332868668083489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: db7fc8d864dc4fb607a0379333a0db60431bd649
-    new: c9be6f0007ab79e3f83952c650af8e7a0c324953
+    old: 1ef00fc157cd0fa96d4da355ee86c977b6e4169e
+    new: a71d56ef3259216739677473ddb17ad861c3a964
     log: |
-         6e0cefdcad82d030eab1cff08fc9a34dc0375223 Remove two casts from os-linux.h
-         e69d8385f127899e2bee6d816e0187072813ed8c Linux: Use the byte order functions from <asm/byteorder.h>
-         646d19a4fbc5185ef614bc45d59edf5819ba22a7 Split os-android.h
-         910f378affca272e65cb2a72a82f27b1506fc0ec Merge os-android.h into os-linux.h
-         c9be6f0007ab79e3f83952c650af8e7a0c324953 Merge branch 'master' of https://github.com/bvanassche/fio
+         43cc51831a602cae3b9424dc762e3bff9f87a291 github bot: Upgrade clang version to 16
+         56d72cb2ce23ec06b8c96ec94a1be92339859dea CHANGELOG: Note about `io_uring_{enter,enter2,register,setup}`
+         a71d56ef3259216739677473ddb17ad861c3a964 queue: Remove unnecessary goto and label
          
