@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3315669277527931684=="
+Content-Type: multipart/mixed; boundary="===============4028564148973528421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 31 Aug 2022 16:29:37 -0000
-Message-Id: <166196337763.14850.11357672710346936497@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 16:29:44 -0000
+Message-Id: <166196338415.14975.4551297552380377578@gitolite.kernel.org>
 
---===============3315669277527931684==
+--===============4028564148973528421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 146ecbac1d327e7ed2153cfb3ef880166dc2b312
-    new: 6edd302a1c8ce82dfca2426a206ab9f37a2edb0e
-    log: revlist-146ecbac1d32-6edd302a1c8c.txt
+  - ref: refs/heads/dev-queue
+    old: 84886a750a505de11a7a066a7ac3bf82a6f72644
+    new: bb200ffa9a11cdfc90564457158f43d1f34c697e
+    log: revlist-84886a750a50-bb200ffa9a11.txt
 
---===============3315669277527931684==
+--===============4028564148973528421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-146ecbac1d32-6edd302a1c8c.txt
+Content-Disposition: attachment; filename=revlist-84886a750a50-bb200ffa9a11.txt
 
 214537cd8a175bd04fdbc3a4bcce1247996e1111 dt-bindings: net: dsa: mediatek,mt7530: make trivial changes
 ba9476f72500b279a7ec0c41d90c0e48fc4a578e dt-bindings: net: dsa: mediatek,mt7530: fix description of mediatek,mcm
@@ -74,5 +74,28 @@ eaf83ae59e18a3480afe222daf9537d58165e052 net: hns3: add querying fec ability fro
 5c4f72842d1df19337b171fd4677239d2e11d047 net: hns3: add querying and setting fec llrs mode from firmware
 08aa17a0c18562a08981e5b103105c1798fa2bfd net: hns3: net: hns3: add querying and setting fec off mode from firmware
 6edd302a1c8ce82dfca2426a206ab9f37a2edb0e Merge branch 'hns3-next'
+8d630dfc50a12fe74b9ba7972dc1c7db3155661e net: ieee802154: Fix compilation error when CONFIG_IEEE802154_NL802154_EXPERIMENTAL is disabled
+a2451d58e0fc1c319e240c15fe4b3945db6762ae mm: re-allow pinning of zero pfns (again)
+b50cc69a401359f5ca651100e129501abafc411b e1000e: Separate MTP board type from ADP
+5a16a7dc234afb9ea3a33622275cf496776b3827 ice: Add low latency Tx timestamp read
+379d4ce07378d1c8a7a0fd54a0d6d46cdcbf1b2b ice: config netdev tc before setting queues number
+8ed814868b5b04007335e8cbb5dc1a5b8f0a6a58 igc: Remove IGC_MDIC_INT_EN definition
+d49961a3e858b3c6fd1c32e035c11a78f5e2dd0b i40e: Fix ADQ rate limiting for PF
+ba8172cf8d1af1b5bcf5b7646300f7e3c125009b ice: Don't double unplug aux on peer initiated reset
+f8b4b022c76ebb45694450a2dea5833acdaa57a9 ice: Fix DMA mappings leak
+75e782e888f0806ae05b6b0cd2c99bef2e647e6f i40e: Fix kernel crash during module removal
+ace79980f0175241638b485b36805a767b1d7cc8 ice: use bitmap_free instead of devm_kfree
+32a6f9017f7a9750d03dfa0196d7382f4e577079 ice: Fix crash by keep old cfg when update TCs more than queues
+4d265cc7aefc1770ff66f00a46fa315016d9007d iavf: Fix race between iavf_close and iavf_reset_task
+1ed4e7dd29709abc5d623cd159974e246af96bf2 ice: Allow operation with reduced device MSI-X
+21c1330f1a48d0252fec318344601a3e634f263f i40e: add description and modify interrupts configuration procedure
+9122b7d2dada536b2584e5e47c7a96dc3863e1e6 ice: Add set_termios tty operations handle to GNSS
+e372be35c0a89f29552cd0d35031a7f03c5bbeb3 ice: Check if reset in progress while waiting for offsets
+df2f7043a3f568b067b6784016e405e01ae432fb ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+d48fa2ca8262d62ee2ae4de39acdbd51dcfdd4ae ice: Handle LLDP MIB Pending change
+af20eeae80f85dd1fa55a43dad376d2a2041b3f6 ice: add helper function to check FW API version
+665752352c62d3b5baf3b4063d300c41cbe5a148 ice: Remove second GNSS TTY device
+58a139749ae7b53b9142651af962d073f211e677 i40e: Add basic support for I710 devices
+bb200ffa9a11cdfc90564457158f43d1f34c697e drivers/net/ethernet/e1000e: check return value of e1e_rphy()
 
---===============3315669277527931684==--
+--===============4028564148973528421==--
