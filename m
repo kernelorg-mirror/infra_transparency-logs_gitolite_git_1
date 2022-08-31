@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8254242064101603899=="
+Content-Type: multipart/mixed; boundary="===============1640601577005807716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 31 Aug 2022 10:52:35 -0000
-Message-Id: <166194315513.7198.17149682592696346731@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 10:52:44 -0000
+Message-Id: <166194316477.7333.10080303300889024622@gitolite.kernel.org>
 
---===============8254242064101603899==
+--===============1640601577005807716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
     new: b90cb1053190353cc30f0fef0ef1f378ccc063c5
     log: revlist-1c23f9e627a7-b90cb1053190.txt
 
---===============8254242064101603899==
+--===============1640601577005807716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -382,4 +382,4 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
 
---===============8254242064101603899==--
+--===============1640601577005807716==--
