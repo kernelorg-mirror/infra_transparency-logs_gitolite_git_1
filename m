@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 31 Aug 2022 04:46:48 -0000
-Message-Id: <166192120859.29183.12351668143877317177@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 05:04:12 -0000
+Message-Id: <166192225236.8769.14722369857853240316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,12 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 2a4bae2e8cbf93a4311ca13837bb4e7bfafb1762
-    new: 2f048fa25f0fd00a045b84041e8ea68114feb00a
+    old: 2f048fa25f0fd00a045b84041e8ea68114feb00a
+    new: d1b849a8a3f1e3acf768cd72427775da102c30fe
     log: |
-         ee56a283988d739c25d2d00ffb22707cb487ab47 x86/sgx: Improve comments for sgx_encl_lookup/alloc_backing()
-         e008a70d9ede3ebd3dc11869ab0bd8eff17ee1c9 x86/sgx: Do not consider unsanitized pages an error
-         45141d5f1b19d52460a97e8b82803e8e6e2bfe33 x86/sgx: Handle VA page allocation failure for EAUG on PF.
-         9c9315ca9d3df0d880e7336591f48ebbee4066de selftests/sgx: Ignore OpenSSL 3.0 deprecated functions warning
-         bfc5a752530d041c5e0d23c5616d8ab62657b38a selftests/sgx: Add SGX selftest augment_via_eaccept_long
-         80e670ac4837b85ae8d37867d5d055decba16cf2 selftests/sgx: retry the ioctls returned with EAGAIN
-         2f048fa25f0fd00a045b84041e8ea68114feb00a selftests/sgx: Add a bpftrace script for tracking allocation errors
+         f3b6a5f74009fce4c476e918d0a6f17c1dc1e784 x86/sgx: Handle VA page allocation failure for EAUG on PF.
+         c68188c84867edb8b7fd9c8385f07286b02e21be selftests/sgx: Ignore OpenSSL 3.0 deprecated functions warning
+         136921f979693b83e7928033164f6d864e7ed685 selftests/sgx: Add SGX selftest augment_via_eaccept_long
+         e3b574f5d2d8a95150ba7dd94e63c3b3d12355e4 selftests/sgx: retry the ioctls returned with EAGAIN
+         d1b849a8a3f1e3acf768cd72427775da102c30fe selftests/sgx: Add a bpftrace script for tracking allocation errors
          
