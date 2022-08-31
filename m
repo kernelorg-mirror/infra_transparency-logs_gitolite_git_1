@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3879683460091089557=="
+Content-Type: multipart/mixed; boundary="===============6568946870463719935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 31 Aug 2022 07:35:47 -0000
-Message-Id: <166193134784.19262.15473602696463948471@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 07:36:43 -0000
+Message-Id: <166193140319.19661.7685849656850970219@gitolite.kernel.org>
 
---===============3879683460091089557==
+--===============6568946870463719935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-dt
-    old: e48ef9a9c52972d14c788d59024dcc7f566ed2c9
-    new: e9447260b4a1fb254052b60c9ea4f73c77dd0b34
-    log: revlist-e48ef9a9c529-e9447260b4a1.txt
+  - ref: refs/heads/at91-soc
+    old: 3b5a7ca7d252b96e9623b262414713828b2bd68f
+    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    log: revlist-3b5a7ca7d252-568035b01cfb.txt
 
---===============3879683460091089557==
+--===============6568946870463719935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e48ef9a9c529-e9447260b4a1.txt
+Content-Disposition: attachment; filename=revlist-3b5a7ca7d252-568035b01cfb.txt
 
+9e26728b5fa9c6ffdb3f5612279bd3b2f7ea8c3c md: Fix spelling mistake in comments
+eb25ad80364bc4351ad3f96ecbe9805e8af2d8c0 block: null_blk: Use the bitmap API to allocate bitmaps
 9ddae3bab6d7bc769c7ca94ba010f33bc3f1aa8c rnbd-clt: open code send_msg_open in rnbd_clt_map_device
 52334f4a573d8a91ebe1581bac5fa8027df59221 rnbd-clt: don't free rsp in msg_open_conf for map scenario
 017d76f45e81bd1b741e16c5fed6baeb80460dff rnbd-clt: kill read_only from struct rnbd_clt_dev
@@ -1048,7 +1050,5 @@ d785610f052d7456497cdec2a2406f6d4b16569f Merge tag 'powerpc-6.0-2' of git://git.
 74cbb480d0efa61efa09e5ebd081a32e1d355bba Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 9f162193d6e48eb4ff51c2ea3612f1daebca1b7e radix-tree: replace gfp.h inclusion with gfp_types.h
 568035b01cfb107af8d2e4bd2fb9aea22cf5b868 Linux 6.0-rc1
-8f40330773cd9dcf6de43b223f0d8b3ef10e26d2 ARM: dts: lan966x: add support for pcb8290
-e9447260b4a1fb254052b60c9ea4f73c77dd0b34 ARM: dts: at91: sam9x60ek: remove simple-bus for regulators
 
---===============3879683460091089557==--
+--===============6568946870463719935==--
