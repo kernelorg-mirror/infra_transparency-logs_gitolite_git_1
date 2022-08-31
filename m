@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 31 Aug 2022 15:59:21 -0000
-Message-Id: <166196156154.25780.7050569641595805400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Wed, 31 Aug 2022 16:03:52 -0000
+Message-Id: <166196183298.28981.8348106101772669304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/master
-    old: 434c4a82c62541a30171dd695db3effaef88a5ca
-    new: fe341d59ee9696f66ec8cd1bf9615ee1a107824f
-    log: |
-         fe341d59ee9696f66ec8cd1bf9615ee1a107824f mke2fs.conf: enable the metadata_csum_seed and orphan_file features by default
-         
+  - ref: refs/tags/fscache-fixes-20220831
+    old: 0000000000000000000000000000000000000000
+    new: 53aacec405128de91ea9c0957403248a16e2954c
