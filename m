@@ -1,62 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============8212946040707557887=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 31 Aug 2022 14:12:07 -0000
-Message-Id: <166195512799.20424.3326842844964628616@gitolite.kernel.org>
-
---===============8212946040707557887==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 31 Aug 2022 14:15:48 -0000
+Message-Id: <166195534823.20240.6012720934042524588@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: b90cb1053190353cc30f0fef0ef1f378ccc063c5
-    new: dcf8e5633e2e69ad60b730ab5905608b756a032f
-    log: |
-         cee7db1b0239468b22c295cf04a8c40c34ecd35a docs: kerneldoc-preamble: Test xeCJK.sty before loading
-         04d4ca41809052f6088860fe150dac679e6453d0 docs/ja_JP/SubmittingPatches: Remove reference to submitting-drivers.rst
-         602684adb42a04858e23248b22d4931b7ef2ad7e docs: Update version number from 5.x to 6.x in README.rst
-         465d0eb0dc31ae26c05504668d3957db91e99799 Docs/admin-guide/mm/damon/usage: fix the example code snip
-         5479d6d4bf122d4b137659559a7bd17784b97b7e docs/conf.py: add function attribute '__fix_address' to conf.py
-         d68d289fbec70b50a25f5818964b26349320ddb5 Merge tag 'docs-6.0-fixes' of git://git.lwn.net/linux
-         dcf8e5633e2e69ad60b730ab5905608b756a032f tracing: Define the is_signed_type() macro once
-         
-
---===============8212946040707557887==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661955127 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1661955124-cd2804d790b736a7cfcca2236c41fea76d08e123
-
-b90cb1053190353cc30f0fef0ef1f378ccc063c5 dcf8e5633e2e69ad60b730ab5905608b756a032f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMPbDcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/kYP/1fzoUZHhxK1GV+7xKTG
-CJVjQIpYgSHEWKSOB3Ed3xl3IgH9aDyfLOPCtg98ETuOpvmPCAnQLEGpiRXz7OSC
-3Y5k80VEcj/oFKFwiHQjXqjzXff0lg1k/HJJMPr6zUxK+zC/yONp/LzgR+T/nQIX
-rrOML/FLO9NYI8EG49yt/r6Q9R5jHIQuOXe/MChbHvu6qtuVBaKQiT1geTi1eb4V
-A6ump1gIeVtZL/yCAZvghgwd2s8HQl4AW32aT7j+T/nYINc/xhg3FkUClgM+7XHY
-2xelJJHzMr2yRFZgJUQcpZd9/mg+j05/bR2v3IHiKl/357FYSdqGcTXqS8tvfsow
-1Pjugtyv/2f3NMUQvZl4yPDY0jml25RZhhnycFL5t5WO8VdOeKdynGYywYyUYxRP
-UoTP0Kols0rRbobKGNGLUOQTBmLTZoHruZJ++ifnn3W26dc3zpdF5E/VNiLwrfkI
-q0uvvSXcHtXXXcHEb1MMAO5IhtSaze9f8/ZWRw5QexwxHXXRbBoCg3cbt+FQm7DB
-b+gDaJmVwbEJYApVAst6bgSZ16oK4crG7gTfGpRBhRk4FSXMATiVpbUeJhw95BVJ
-SP2ICIqYaC4uY4mPSWvMttGbvP1bhbOmZtdz43J/FyDYq4j41gEfNnsLGgtWmcH+
-Oo/4+1POVTmZ3xOBcyXjdNQU
-=JRK4
------END PGP SIGNATURE-----
-
---===============8212946040707557887==--
+  - ref: refs/heads/dm-6.1
+    old: 0000000000000000000000000000000000000000
+    new: 6ef42cae905f861f1ec255105efbd5aec984345e
+  - ref: refs/tags/block-5.19-2022-07-15
+    old: 0000000000000000000000000000000000000000
+    new: a414b01da8ad441c6181cfc256fbd786be73fbd5
+  - ref: refs/tags/block-5.19-2022-07-21
+    old: 0000000000000000000000000000000000000000
+    new: 5613c5818e7eb70e4b8fd34377cc87823ff6c968
+  - ref: refs/tags/block-5.19-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: d7f3e03c0e418986459996daced7f16dce6d4df4
+  - ref: refs/tags/block-6.0-2022-08-12
+    old: 0000000000000000000000000000000000000000
+    new: d76eb8323770118c82fb4f14d752dfca9d5e8906
+  - ref: refs/tags/block-6.0-2022-08-19
+    old: 0000000000000000000000000000000000000000
+    new: e40c646c1b96d75cc5a830aa7b4389b04aa8f708
+  - ref: refs/tags/block-6.0-2022-08-26
+    old: 0000000000000000000000000000000000000000
+    new: 126383942f83a1c5e6bce30e85c685d5e7ad7a9d
+  - ref: refs/tags/for-5.20/block-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: 1ca92799138df052d038b097cff9539f45f064e4
+  - ref: refs/tags/for-5.20/block-2022-08-04
+    old: 0000000000000000000000000000000000000000
+    new: 35cb119dde78cdbc0bcded9549cde70df81182dd
+  - ref: refs/tags/for-5.20/drivers-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: b757577cbfdcb5609a79dc167ed750f32b7b1bb7
+  - ref: refs/tags/for-5.20/drivers-post-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: 2b05bbdb52ba7a4e76f861c3327d1db277e24556
+  - ref: refs/tags/for-5.20/io_uring-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: c0657f6e474ffee9b86dc0090980ed5bb8a5093f
+  - ref: refs/tags/for-5.20/io_uring-buffered-writes-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: 09b587f57065d97abbc24e8647f8475d7e050dc2
+  - ref: refs/tags/for-5.20/io_uring-zerocopy-send-2022-07-29
+    old: 0000000000000000000000000000000000000000
+    new: 53fc5efd152bb84ec48fb9ee0453e7f3793e733a
+  - ref: refs/tags/io_uring-5.19-2022-07-21
+    old: 0000000000000000000000000000000000000000
+    new: 682af198247efae17136c78f68e9a2283ffdba01
+  - ref: refs/tags/io_uring-6.0-2022-08-10
+    old: 0000000000000000000000000000000000000000
+    new: 02a358ac64f57a7ee6c8ceccf93944e70853830c
+  - ref: refs/tags/io_uring-6.0-2022-08-13
+    old: 0000000000000000000000000000000000000000
+    new: 7dc3b5513b54bb94c2337ea610386ca88287eb06
+  - ref: refs/tags/io_uring-6.0-2022-08-19
+    old: 0000000000000000000000000000000000000000
+    new: e84ad156a9cd60afc5c6650c604b0741c41d9637
+  - ref: refs/tags/io_uring-6.0-2022-08-26
+    old: 0000000000000000000000000000000000000000
+    new: 2d4acae52e81c95b16fd35e2132786bef0e3cd47
+  - ref: refs/tags/v6.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
+  - ref: refs/tags/v6.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
+  - ref: refs/tags/v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
