@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3693157206321578203=="
+Content-Type: multipart/mixed; boundary="===============7846105775921519498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 31 Aug 2022 14:35:25 -0000
-Message-Id: <166195652510.2398.10526858992070905289@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 14:35:57 -0000
+Message-Id: <166195655731.2692.9488219346587909151@gitolite.kernel.org>
 
---===============3693157206321578203==
+--===============7846105775921519498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: deb33fa8542eaf554e78a725cb8b922ac06978a4
-    new: bcaa9f42a0d537f96d879ee6f36e919c31222a22
-    log: revlist-deb33fa8542e-bcaa9f42a0d5.txt
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/heads/master
+    old: 1c23f9e627a7b412978b4e852793c5e3c3efc555
+    new: b90cb1053190353cc30f0fef0ef1f378ccc063c5
+    log: revlist-1c23f9e627a7-b90cb1053190.txt
 
---===============3693157206321578203==
+--===============7846105775921519498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-deb33fa8542e-bcaa9f42a0d5.txt
+Content-Disposition: attachment; filename=revlist-1c23f9e627a7-b90cb1053190.txt
 
 9c9cb23e00ddf45679b21b4dacc11d1ae7961ebe xfrm: fix refcount leak in __xfrm_policy_check()
 d2139dfca361a1f5bfc4d4a23455b1a409a69cd4 firmware: dmi: Use the proper accessor for the version field
@@ -384,10 +381,5 @@ d26f60703606ab425eee9882b32a1781a8bed74d mm/damon/dbgfs: avoid duplicate context
 373eff576e580b6bbc1e709cd3ca0d100783431f Merge tag 'bitmap-6.0-rc3' of github.com:/norov/linux
 b467192ec7070d2d6d14ab5e6774a8afdcc9e89d Merge tag 'mm-hotfixes-stable-2022-08-28' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b90cb1053190353cc30f0fef0ef1f378ccc063c5 Linux 6.0-rc3
-e30c374dfefa5e0287159cf3a7813b57c2d12e95 NFSD: move from strlcpy with unused retval to strscpy
-400ab476e5e9eab5980813e18a792653382e8dd9 lockd: move from strlcpy with unused retval to strscpy
-6f44096533e36deca0951ea9e8ed5d7792a7cbfd NFSD: fix use-after-free on source server when doing inter-server copy
-f26c88ce6ba1ba9ff8823242b140f93ea8b724d0 NFSD enforce filehandle check for source file in COPY
-bcaa9f42a0d537f96d879ee6f36e919c31222a22 NFSD: remove redundant variable status
 
---===============3693157206321578203==--
+--===============7846105775921519498==--
