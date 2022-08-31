@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 31 Aug 2022 18:53:19 -0000
-Message-Id: <166197199901.18291.14519743716630223605@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 18:53:44 -0000
+Message-Id: <166197202429.18501.10598900518549043720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: c829dba797360d9a266cabfaac16d1cd80abfc2b
-    new: c00c4461689e15ac2cc3b9a595a54e4d8afd3d77
+    old: c00c4461689e15ac2cc3b9a595a54e4d8afd3d77
+    new: 8a7d61bdc2fac2c460a2f32a062f5c6dbd21a764
     log: |
-         c00c4461689e15ac2cc3b9a595a54e4d8afd3d77 xsk: Fix backpressure mechanism on Tx
+         8a7d61bdc2fac2c460a2f32a062f5c6dbd21a764 selftests/xsk: Add missing close() on netns fd
          
