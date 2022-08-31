@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Wed, 31 Aug 2022 14:39:02 -0000
-Message-Id: <166195674238.3906.9847791551784706726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 31 Aug 2022 14:47:18 -0000
+Message-Id: <166195723834.9904.11256479850344251004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 41a2258e02a276b930cbc5b53ea2e8b65c1c6c18
-    new: 6344e66970c619a1623f457910e78819076e9104
+  - ref: refs/heads/perf/core
+    old: 2f4c2fbd2ff5e3176b0121443f995808ee498bd0
+    new: 6c3bd8d3e01d9014312caa52e4ef1c29d5249648
     log: |
-         52edb4080eb9606536c34d5d642ccd9d35ad5d08 acl: move idmapping handling into posix_acl_xattr_set()
-         7e1401acd9f2807ff271100c5ce1fa84bf27a252 ovl: use vfs_set_acl_prepare()
-         6344e66970c619a1623f457910e78819076e9104 xattr: constify value argument in vfs_setxattr()
+         6c3bd8d3e01d9014312caa52e4ef1c29d5249648 perf smt: Tidy header guard add SPDX
          
