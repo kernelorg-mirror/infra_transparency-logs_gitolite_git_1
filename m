@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 31 Aug 2022 23:05:20 -0000
-Message-Id: <166198712055.6647.10899701879665861048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 31 Aug 2022 23:06:41 -0000
+Message-Id: <166198720151.7192.7576465426378103102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 1a942de092c0b96216864fedcb4d8822ce3fc12e
-    new: a0476f6a2cac012c0aee4dc981a53e1414cea069
+    old: d04b64003d9d7b934165ca0c0e1cdf0a2d3eb2c7
+    new: 49b8c5901584eab77af40f8ad19779747b4506d6
     log: |
-         c4ba5800217b9efa710b27fbe638930830a95d19 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3592
-         d8daa3991652a5713061f23276dc91fb846dc0c0 Bluetooth: btusb: RTL8761BUV consistent naming
-         c7577014b74c5369490715015db096182f1a2a23 Bluetooth: btusb: Add RTL8761BUV device (Edimax BT-8500)
-         a0476f6a2cac012c0aee4dc981a53e1414cea069 Bluetooth: btusb: Add BT device 0cb8:c549 from RTW8852AE to tables
+         d8febc76a43fa104457d8167379787949fff8f89 client/player: Fix checkpatch warning
+         f8c3a38e4fe943eaed677a295663426cb7241e0e shared/shell: Fix scan-build error
+         a84aa0e6e5e7cd94804386eaf09d430d1cf8e692 media: Fix registering PAC endpoints if ISO socket are not supported
+         49b8c5901584eab77af40f8ad19779747b4506d6 media: Fix scan-build warnings
          
