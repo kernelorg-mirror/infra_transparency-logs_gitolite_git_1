@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 31 Aug 2022 01:00:25 -0000
-Message-Id: <166190762538.31101.9930332868668083489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 31 Aug 2022 02:47:17 -0000
+Message-Id: <166191403744.9635.16805780224384729507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 1ef00fc157cd0fa96d4da355ee86c977b6e4169e
-    new: a71d56ef3259216739677473ddb17ad861c3a964
+    old: 6e01f889cb996b240115673726d208108e6468f7
+    new: 3a26e0a1860cd946fc94f0bc95fa22c0ff221f8a
     log: |
-         43cc51831a602cae3b9424dc762e3bff9f87a291 github bot: Upgrade clang version to 16
-         56d72cb2ce23ec06b8c96ec94a1be92339859dea CHANGELOG: Note about `io_uring_{enter,enter2,register,setup}`
-         a71d56ef3259216739677473ddb17ad861c3a964 queue: Remove unnecessary goto and label
+         667502e71986704561998480d6655921d1e4a1e5 foo
+         941e35decc828153b0e0a3e62b1fffacc12cfe7f foo
+         0f3a9e95b423dcdd4b243a5a76657ff6e2ba4d58 foo
+         1211700a132420e52e8fea3493687add6361a457 foo
+         7a93b86c387850d8440dffd0327707e517a14f21 foo
+         9dc19c7fd301af1a43f9abff425ca34871d74b52 foo
+         82da1bf9d54fe60a9c6b10279a35ef9032b349a1 foo
+         3a26e0a1860cd946fc94f0bc95fa22c0ff221f8a foo
          
