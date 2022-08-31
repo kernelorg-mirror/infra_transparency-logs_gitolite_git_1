@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1145193655502403340=="
+Content-Type: multipart/mixed; boundary="===============8015905185865503757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 31 Aug 2022 07:08:00 -0000
-Message-Id: <166192968091.31246.1024644733345972086@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 07:08:50 -0000
+Message-Id: <166192973044.31895.4982715863220649959@gitolite.kernel.org>
 
---===============1145193655502403340==
+--===============8015905185865503757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 594b9411b4adceb59ca8a66997eec1eaa3756785
-    new: 10174220f55ac2c9ea7bdf2dcebe422d24024aec
-    log: revlist-594b9411b4ad-10174220f55a.txt
+  - ref: refs/heads/usb-next
+    old: 4dce3b375179fdd4aba2191be11ace90ef0ec6d6
+    new: 8f36b3b4e1b58dca7d05e1579019230437e55d43
+    log: revlist-4dce3b375179-8f36b3b4e1b5.txt
 
---===============1145193655502403340==
+--===============8015905185865503757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661929678 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661929728 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1661929677-60e75e2f68bc1a714b39d839b3042fca73946feb
+nonce 1661929727-040843547f9ad41701ea6ef7adc363813ed5c310
 
-594b9411b4adceb59ca8a66997eec1eaa3756785 10174220f55ac2c9ea7bdf2dcebe422d24024aec refs/heads/usb-testing
+4dce3b375179fdd4aba2191be11ace90ef0ec6d6 8f36b3b4e1b58dca7d05e1579019230437e55d43 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMPCM4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PC8QAIm4H3PA065WWXKLNhcA
-qNwkSboVZgofDtLP+Uo9rCpOn2nXriknsqMWKG0jNDFD7JT0ulg/E3kPMF8/RhLS
-XQ/kRGSb20nQIS2w3AktnmdxLh9kZP0OyTzIvglIjf2PUDk0IOK0iZXokBp1Qjk+
-PZhBkvL1aSAF0ZonojnATj1IOtqAqysw/6lk1qcE9IqTIwkFsVDbwfEcSJSFmkXl
-uerCyxGkOWwQo5DZjQ43xjLna4wZGiHQNSr7JSfZJZYvnzLiF5ivkLti6N7o8Lll
-R0NpEGcnwe7s2f4kzCucRt1yEav94AIgG7dDV8I0zkPZGnUHhrnla5x/m/QuDCNL
-tLl6jrjgxf/GAU7cR3ICQgTQaRfx0Szvp/HI3B1uCeWFybh40nEH4K0+YCeB/+KH
-0XLlNqm7q9EyxKCYG4iXmS0fmGgB1+DEgOe5waU9t80xsgyAi35w5/l/mISjJqTA
-+IspO8zwNx50xzEqyqNZoJEmzArEBpQxfjuKwbYPRvtQ63auRzfK+rvzJ8/fMXrE
-leTB5zSwW9AqBnLrH123Mi5xpZvHqx3iX+tEcMwxrWwQ4Xy2CUaWbknGWfiw7LtC
-LrLeJPHVKNXRyS98Sf/iLUvN1OBAPzqcdy2BdUECuEEUDu3+7DLmTgZjtSo9PzHX
-ZDUP5+0gf9ouTAp1WHXB2TS/
-=XV02
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMPCQAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AoMP/06gQcfO345drOfcQCC/
+mX3FkBXvefIekibY/Zm7lRHNT7GY1K0AT6jA8QTg05kUNVmFbZxu5FPWNWpA8xOg
+1J58rKqjsR1MzRdSTMPEvZrwrTCqWLI3Z0zWWcaUq6moNBjQmIWVhyumV2eJ1pM1
+2OH9azBnAaJkTUaUKe+GUlyvCJDOxJEZ2rxuyvylQu86BdAbPtuIBVduVPh1XqFy
+98Ld0dl0Z+D/VTv+3a8UYV7GBf1sjs2lR+mGgercPTzmvX6Vum8TFQNT9FFNCdVq
+yAamop0lB/rAgtuDsHGCnB1nUgznZv+DzyzYbp2ySVXlujVS0yedFOepm1T+keaJ
+gkUESjDDHpvL1Noa6gRrTUlpy2FPlcRVBzLezJ2RoYuBG5WW6ZN5BlQDFNf+PcLP
+luXnYxQDIYXhPh6ySbRaKIZFetvuOSOOWxzbRKQ954eXirOy9QzGLmgkSfHIcpuZ
+iZZ0wG+7rZtyWYktire/FKQEFc0IOvWuElTYzL9oLpre/4WESUl+BtfRfvrg0snQ
+8CmwmlN3VHYkwsrovIqUTpTdh2j43bAFV9BF61Y7KevjcRt+yrcSkHHlvVOoxn17
+90oDyab2bF2QbpSTz8n8yH8ukg5PXlE0WOuFr4GY9RqwjIjY5zwxKU9u4GUUmKJR
+Z4QqYKOk6Td5xJQXSr6KXvEm
+=gESM
 -----END PGP SIGNATURE-----
 
---===============1145193655502403340==
+--===============8015905185865503757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-594b9411b4ad-10174220f55a.txt
+Content-Disposition: attachment; filename=revlist-4dce3b375179-8f36b3b4e1b5.txt
 
 e372a6dbc501b09cbbe3f534d4fc26bedf71f216 dt-bindings: usb: Add missing (unevaluated|additional)Properties on child nodes
 c962af85a36ac89384bcd5193d291798ec6750d9 usb: gadget: net2272: Remove the initialization of statics to 0
@@ -75,6 +75,5 @@ e1ee843488d58099a89979627ef85d5bd6c5cacd usb: dwc3: gadget: Force sending delaye
 9711c67de7482c81e1daca3548fbc5c9603600e3 usb: dwc3: gadget: Synchronize IRQ between soft connect/disconnect
 dff981842a0b1c05786c4c0cdea3ac80079ddd57 usb: dwc3: gadget: Continue handling EP0 xfercomplete events
 8f36b3b4e1b58dca7d05e1579019230437e55d43 usbip: add USBIP_URB_* URB transfer flags
-10174220f55ac2c9ea7bdf2dcebe422d24024aec usb: reduce kernel log spam on driver registration
 
---===============1145193655502403340==--
+--===============8015905185865503757==--
