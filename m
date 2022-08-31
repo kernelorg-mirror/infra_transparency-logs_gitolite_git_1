@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4579870909737059344=="
+Content-Type: multipart/mixed; boundary="===============2104364489314889846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 31 Aug 2022 19:19:17 -0000
-Message-Id: <166197355715.5002.12105901980946026777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 31 Aug 2022 19:21:04 -0000
+Message-Id: <166197366474.7223.12533880726535916363@gitolite.kernel.org>
 
---===============4579870909737059344==
+--===============2104364489314889846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 41607487f81ccdf20e796adacc277483ecc9c234
-    new: f569faad1ef4d4f88432e6d5efba2562e0d1bc1f
-    log: revlist-41607487f81c-f569faad1ef4.txt
+  - ref: refs/heads/master
+    old: 1e949d9a505ac6c291e6d7ff453b09977f7e5414
+    new: 171f7bb1564eae12af945823ef90d542415d014a
+    log: |
+         171f7bb1564eae12af945823ef90d542415d014a 5.15-stable patches
+         
 
---===============4579870909737059344==
+--===============2104364489314889846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41607487f81c-f569faad1ef4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b1a2c4ee8be1df1931599e3214402ed9d6f97f8e thermal/drivers/thermal_mmio: Drop of_match_ptr()
-ea3747181dc2705ecc697dc98ada7eb135733561 cpuidle: coupled: Drop duplicate word from a comment
-1ea252ef299bbce16cc40d52d0635346fdc4b7ea thermal: da9062-thermal: Drop redundant error message
-8d955b561135efafaf0cb2c987cef960e3c4d020 Merge branch 'thermal-drivers' into bleeding-edge
-4f59540c3cd00a9a361b2cf2ac475edd83fd4f93 cpufreq: amd-pstate: simplify cpudata pointer assignment
-d8bee41db83ea207792889df323bb46ee4ebab24 cpufreq: amd-pstate: fix white-space
-b185c5053c65b7704ead4537e4d4d9b33dc398dc cpufreq: amd_pstate: fix wrong lowest perf fetch
-0e9a86386bca646d3b0fc50e5e15eedb1eb620b3 cpufreq: amd_pstate: map desired perf into pstate scope for powersave governor
-ca08e46d4215e85eb3cef2481255431d98da56da cpufreq: amd-pstate: update pstate frequency transition delay time
-c3a74c03dda1b7e6c1262ecf8cb38fbb7bdf0b42 Merge branch 'pm-cpuidle' into bleeding-edge
-8bbf1487a60ec4206d67846f15d7c3cc571129b1 Merge branch 'pm-cpufreq' into bleeding-edge
-ccf28724604ee9b8577d21022e31c323d104cca2 cpuidle: powernv: move from strlcpy() with unused retval to strscpy()
-0dbc0f49d6739033a4a2807726d1d6542f16b099 intel_idle: move from strlcpy() with unused retval to strscpy()
-5c5017ed6421e60236c075c8b6aebe257c049101 Merge branch 'pm-cpuidle' into bleeding-edge
-1e6c8fb8b8d3e91e140b505e8a68b05f81ac0f87 thermal: move from strlcpy() with unused retval to strscpy()
-f569faad1ef4d4f88432e6d5efba2562e0d1bc1f Merge branch 'thermal-core' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1661973663 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1661973663-7dec13994c6814ab5ecc9f98d5d37b235bce07ae
 
---===============4579870909737059344==--
+1e949d9a505ac6c291e6d7ff453b09977f7e5414 171f7bb1564eae12af945823ef90d542415d014a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMPtJ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tgcP/RxZgKPB01aPnpBcfROE
+fIl4ODkHkSy5EfTP18uD4BfYgKR23Ft/jXKqBAP8B0MZSfr0IfHliur5vMuo6U+O
+XFjYS1TAOays+yrzRd6/ajWrdsjEZi2ivdTk8/WADBEy0ukFqSP3jgu4TkzYhDFL
+5DgSCQXqDaJp6M3ipznNYikWwvyFVEjALYlVS1LkApA/pvqvohWTnSfqxyUfAaYM
+raMFZbICoddYTK0nBfXh5B5INLbxnPvp/GgFHkZBsB/6wlpMz1z+wobrq5kdHjJn
+iQ1lRjlZHGgp6tv8r0tMLsooeDQxWy9RBN481cTqBPtbSx5TAMERIDvAT6s0nvJe
+CwNt4yfQfRxul28+LaMh4DTfkKIZZZ8tsWy29F9shr6RbceI8XCUG1wsooS8jdBw
+OhpdQrB4bo1S6D0sA3Qh49behXGJN6egcDI8/q9gyNpgD8ebU7C7gFTatnhyU596
+vyWJ0KGIM8IW5zuZgsiSnpRv2V5IjMzbty2yIEMKHDfcWfxX+EFp3TwqL/HTaWm6
+/utG9ZZqmTd1LR8pZKt6jdFjzNTX+G/UO24hxK8gixYQqwN0yeTiNu6vBKCu6lYr
+bTA9ABY0VpgLR4FWeJgPFUYIwaMYIvsvIF4nTKcA/lSKnc1IZxXUSmwIissxNlwG
+2oyGoFVFzfioa8h3KclAYNM9
+=iYa4
+-----END PGP SIGNATURE-----
+
+--===============2104364489314889846==--
