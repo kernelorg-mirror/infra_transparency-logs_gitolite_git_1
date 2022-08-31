@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 31 Aug 2022 06:25:44 -0000
-Message-Id: <166192714404.2729.12743781018645780439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Wed, 31 Aug 2022 06:50:27 -0000
+Message-Id: <166192862720.18784.3616692577538844489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: fa8724478e64dcf6a45de9067004dcca07244934
-    new: 21cb860c7f314be471d2dbcbfb659af405750500
+  - ref: refs/heads/fs.acl.idmapped.setxattr.rework
+    old: 87d663546b463d3166d39dfb1f24c0c353a2698b
+    new: 41a2258e02a276b930cbc5b53ea2e8b65c1c6c18
     log: |
-         95484760f03d684da522a15682776a090db738da mlxsw: cmd: Edit the comment of 'max_lag' field in CONFIG_PROFILE
-         eb907e9779ca48e3f3fe3796ed88de017dd59414 mlxsw: Support configuring 'max_lag' via CONFIG_PROFILE
-         cf735d4c9bab8398259a3635fcd698726a2f1bbe mlxsw: Add a helper function for getting maximum LAG ID
-         c503d8ae48f2443345ba82ef66a9dfc22389a66f mlxsw: spectrum: Add a copy of 'struct mlxsw_config_profile' for Spectrum-4
-         d5ccda920ab3a61917cd19582204fdba669b221c Merge branch 'mlxsw-configure-max-lag-id-for-spectrum-4'
-         21cb860c7f314be471d2dbcbfb659af405750500 Revert "net: devlink: add RNLT lock assertion to devlink_compat_switch_id_get()"
+         a26aa12384158116c0d80d50e0bdc7b3323551e2 ntfs3: rework xattr handlers and switch to POSIX ACL VFS helpers
+         985a6d0b3c800265a2d5312a52c549bf09254e55 acl: return EOPNOTSUPP in posix_acl_fix_xattr_common()
+         6b70fe0601adb1396ad0b85cdf05d217500b49e7 acl: add vfs_set_acl_prepare()
+         0c637bd045162ae7dedd83de093ea4b272e74ed1 acl: move idmapping handling into posix_acl_xattr_set()
+         7412f32c71c182d4cfba33917f09e13af6aa0a29 ovl: use vfs_set_acl_prepare()
+         41a2258e02a276b930cbc5b53ea2e8b65c1c6c18 xattr: constify value argument in vfs_setxattr()
          
