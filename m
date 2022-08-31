@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 31 Aug 2022 16:12:57 -0000
-Message-Id: <166196237745.3081.152554847528747615@gitolite.kernel.org>
+Date: Wed, 31 Aug 2022 16:13:12 -0000
+Message-Id: <166196239281.3249.15677366610547866180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
+  - ref: refs/heads/dev-test
     old: f7a4b20967c28a4858e6a5181487a9de8c5e8d66
     new: 4404215ceecd1c4fe4d881813a162b573c157733
     log: |
