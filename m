@@ -1,47 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4377564816941459639=="
+Content-Type: multipart/mixed; boundary="===============1978879455830188990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 31 Aug 2022 21:19:07 -0000
-Message-Id: <166198074723.26624.2878318321044268113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 31 Aug 2022 21:22:53 -0000
+Message-Id: <166198097378.29519.1806230434923607239@gitolite.kernel.org>
 
---===============4377564816941459639==
+--===============1978879455830188990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
-git_push_cert_status: E
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 31c51e120c91194354d3fa7af4de6e6a947a3d19
-    new: 235d58120e4fb939cb8eaec6405e5552b79aa9df
+  - ref: refs/heads/master
+    old: 6094d8fc8c193b27df8bf74826076dd8d26e0c42
+    new: 3b34443b1e40205bf4ed5a974674a5bfbad01a2c
     log: |
-         7e60b9c5477411eef1f636864940f3e33058291d landlock: Fix file reparenting without explicit LANDLOCK_ACCESS_FS_REFER
-         235d58120e4fb939cb8eaec6405e5552b79aa9df Merge branch 'landlock-next-truncate' into landlock-next
+         3b34443b1e40205bf4ed5a974674a5bfbad01a2c send-receive: close connections once we're done
          
 
---===============4377564816941459639==
-Content-Type: text/plain; charset="utf-8"
+--===============1978879455830188990==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1661980745 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1661980745-f7721d58ed4b3d22f4156462134f6decf4a93776
+pusher B6C41CE35664996C! 1661980973 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1661980973-12dd75044ea0aef1309e80fb0a0363a436b7fd60
 
-31c51e120c91194354d3fa7af4de6e6a947a3d19 235d58120e4fb939cb8eaec6405e5552b79aa9df refs/heads/next
+6094d8fc8c193b27df8bf74826076dd8d26e0c42 3b34443b1e40205bf4ed5a974674a5bfbad01a2c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYw/QSRAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbS+VQBAMaqhzwq3nCiGpxYKyzEFouCF5oOTrcS2sTT
-u5aFQvuwAP0RTboqXlPKo6GHYt+b7pLRPGtRh580bM11k10k+85nBg==
-=OXy0
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYw/RLQAKCRC2xBzjVmSZ
+bDXbAP4xxJ6e5WenSPLfXMAYNbJmpDeZOPwQ5Q2TJfKgFDVK/QD9GtTaPjnn529P
+nTBuNw+nTGzWZE3RjX3R6T2Ue0MK0Ak=
+=xVWR
 -----END PGP SIGNATURE-----
 
---===============4377564816941459639==--
+--===============1978879455830188990==--
