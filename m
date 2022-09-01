@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6376664101934260802=="
+Content-Type: multipart/mixed; boundary="===============4258694461478302713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 01 Sep 2022 14:08:55 -0000
-Message-Id: <166204133522.23590.6846383589652135904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 01 Sep 2022 14:13:40 -0000
+Message-Id: <166204162054.26778.17654596956537350413@gitolite.kernel.org>
 
---===============6376664101934260802==
+--===============4258694461478302713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 10174220f55ac2c9ea7bdf2dcebe422d24024aec
-    new: 4e55e22d3d9aa50ef1ba059bf3a53aa61109c179
+  - ref: refs/heads/char-misc-linus
+    old: 5ef251b9b73ff9f62aa5ac60427af05b2b594a55
+    new: 689a2d9f9332a27b1379ef230396e944f949a72b
     log: |
-         a4efdb8a423b4fa3671418bd3755ae79fbdedab0 USB: FHCI: Switch to GPIO descriptors
-         4e55e22d3d9aa50ef1ba059bf3a53aa61109c179 USB: hcd-pci: Drop the unused id parameter from usb_hcd_pci_probe()
+         9baa1415d9abdd1e08362ea2dcfadfacee8690b5 misc: fastrpc: fix memory corruption on probe
+         d245f43aab2b61195d8ebb64cef7b5a08c590ab4 misc: fastrpc: fix memory corruption on open
+         689a2d9f9332a27b1379ef230396e944f949a72b misc: fastrpc: increase maximum session count
          
 
---===============6376664101934260802==
+--===============4258694461478302713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662041330 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1662041329-8f8fdf1f5a413eb15ce52b71a095bd998147e03c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662041617 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1662041616-a223eb17998ee14113030990d99e59c1d2b2d7ee
 
-10174220f55ac2c9ea7bdf2dcebe422d24024aec 4e55e22d3d9aa50ef1ba059bf3a53aa61109c179 refs/heads/usb-testing
+5ef251b9b73ff9f62aa5ac60427af05b2b594a55 689a2d9f9332a27b1379ef230396e944f949a72b refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQvPIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w6cQAK/W/TPavzSlXlyrvBXI
-zrtGNWrqGbebXeMC34trFavaheGljVcTvfqxki9a89gMGDMAfhrSuDmlE7Ya90EY
-58PXi11ofIQn9vGVTmZWzRVdwWY6D1j3/t7uFOBFNAdbIKWK5kiKcH6CKNqTI1DK
-lPD90XhLzn37nwgrkvhYoShqR/b+vandNdQVzcOt5ohaLtpIX1objX/dstu2dOwx
-WW7C5bYGvfpqnbmDUJUzJjX+QXBKqC6pcrOodeQJdYLsllxhSS+lPkGyQCG6s5I8
-aJ9B8pnl7NuTvlgl8nghNQR9MPVdqrhWleNJaJ8Du09yDXHrhPy+KpLm+oJMJ4rO
-yyOUb1idOuSk7dMyS5PV4BrhdglDFGcAJJPMgR6K5SK+HNTb+xtGI72rnaUT/aV6
-+mSbeLVKkTqszPfwvH4VBB27zlUSDt4usDcCldPcjlPwcwtRGVhTDPwNGZAVhPqO
-beU3bJDHaF0iJQ5/MQstTAdUG+9UlqSF6hLwRY+UIw/Bmrr+bZkkmItpPzEmppF6
-m7JvtZOC8wLaqsMLhLPMhpr2d6mVPjfcGhE8o++YKi1oar6S1yM6+pn4LEQjxeOh
-RhTZQWj0ROdc8lddMzAC5K1c+gDRUtpVugz7QHJ4ayrQ+A1CeeRpRczjAEJniKYO
-BF3Qudb53A0wHj15sEWIf4Gq
-=GzMB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQvhEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HEwP/2ybbPq1XUEsNZ38W/Py
+7aBgDEz3ONPDawQzLWj5iuc+43mAzconeW3yCTSMpoXgCi3rz6f8Khsq0O+mlnau
+TAxzbGiY0MAC114G5w0YBVRy6c1X14N+HofZHns446pviIAcKc2cF+yFs/jv8WTe
+86PvyNI1HNM7zAPF5Gu2SMPU/sMKhv9aBNwOGRQljwQsCT0Qs85lM1zxvgHA5l3L
+JfcqhDWRFwuf7ydkTvwkuNaWm+fE+KmBnP423/oZ+LlL5xfa8+OxDXagyT+DgKsu
+BS6DlUWeW0hS0oD/sJoBNI75ZQ7bVPlXJcyOkUh6Q20w21wRAW3qgApyGYUWqCml
+CH/p0y4yEDq1WDkcHZ4OW6LiasFWtA7MehwarD4SkfsiY8h9oPogy+KxV6rxVR3d
+id+iLP514vLewxAZ3z674ke7q+wE+c+MvJPO/IefYB0zAaQDNPd8GEjIo5G4wijE
+pMJuH2Rs9LK20Nb6ZgIPZ+U37aYUQR02vYLX0ScEStYg/ucLv3C17eLEm9umWtMv
+royUiExMoP4bxEoSg8GIm+o9hzhEVMd0BbsueAMrUPKG7wRA8cqXI01DgPfkmQFz
+CdemURTQpRMd4XKQqRQTOf/dup3yXrNt5kQyJbCiPcXRlDax6XY6SUWQ3mDVTUyV
+jzuHXYSUYHeA5vljchDpNPc5
+=JrUY
 -----END PGP SIGNATURE-----
 
---===============6376664101934260802==--
+--===============4258694461478302713==--
