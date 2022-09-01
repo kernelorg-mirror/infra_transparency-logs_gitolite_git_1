@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4037957001236997498=="
+Content-Type: multipart/mixed; boundary="===============7707373967820636704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 01 Sep 2022 14:58:48 -0000
-Message-Id: <166204432854.27474.14534277929635052912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 01 Sep 2022 15:00:13 -0000
+Message-Id: <166204441352.29606.1090815307228208199@gitolite.kernel.org>
 
---===============4037957001236997498==
+--===============7707373967820636704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 0a64ce6e5442bbd96cbe9057d9ba1edab244f25b
-    new: b74dbbe19b2551418509b04a5095d65b494e6e28
+  - ref: refs/heads/char-misc-testing
+    old: 621d5d6a83bc92a93c6653fd8a424a63c95269b0
+    new: 116769d385a81f874f9d407ae92c09b1af44023b
     log: |
-         b74dbbe19b2551418509b04a5095d65b494e6e28 tty/vt: Add console_lock check to vt_console_print()
+         73392920f0e4bb8b04e9debf90cfe75a15fda9e7 speakup-dummy: Add support for PUNCT variable
+         3f132e02d289f9fa208970928a8a8d2d7b1b2b1d speakup: Notify synthesizers of the punctuation level change
+         116769d385a81f874f9d407ae92c09b1af44023b speakup_soft: Add direct module parameter
          
 
---===============4037957001236997498==
+--===============7707373967820636704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662044326 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1662044325-d5b204ff4b407d3e434ad975701841472deb73de
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662044411 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1662044410-3a43db57dfaef88f0d102cbed41467e28476f07d
 
-0a64ce6e5442bbd96cbe9057d9ba1edab244f25b b74dbbe19b2551418509b04a5095d65b494e6e28 refs/heads/tty-testing
+621d5d6a83bc92a93c6653fd8a424a63c95269b0 116769d385a81f874f9d407ae92c09b1af44023b refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQyKYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oWkP/2zUtF7cHq5rwomHwfTA
-WL2ilwlKuc02jDny7k7QcLBWqpL78qIiR77yFpX2s4mchDA5Bl5Y1JEgLzbu/fJt
-p1bjgOdIKtBCMbbFV1usVDauHCm+16VV6VltP66ugcg5NpbUiaslivNsY+8idbQv
-vUqM9qnJdnlNe9fto4Ovi+pVerxITOf8b4YCr3opZz0bF5ZNT7fzxE/ZRSTjD3dj
-/BDucAb9dn11ceAGLwzyh3Njk8fru/t/Wv5tMurYQxVo5DEn5EkFRcUtiZUx6WZJ
-juQiDR9LCihx5FUXUU1ldjy7gJUgbyXRnCC25pVwzQ3VuYtF1OLdhEMWssG8Dw4N
-MmyKLuw2EZc1U4pbQ7I8QbHF/u5U/Wcicuq82N7mEDJnpQI7fPte4XSLY/B+Z/B4
-mVqI1sN4rmDT338R1BLNA5La04DgsEBnO7Gb4KPEfpiiCUdA8HgtSBJphzEDS/gG
-JsoJXA+S3+u2aFFjwCsFLqVCH7RUXhCf712dzP5muR+3vm1zvHI8VvA+6qUp2LNg
-xZFp9ZiXqjlij9tNNUyesyO06dK9GS32KCvvv5tYtsrdOfDCBYSzKneI4wwI5SeX
-sLF3jVS+QaegDZCS1mUZr5hyTKb0smprpCqvj8TQ4mcACZ1Mv46aI9hw5s8SISB+
-hbxd1JugeXVZ8ukpnRQCCvvE
-=Ar0I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQyPsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C0sQAJU+y/KCRwklRE9iwaZA
+0qdGnmSsrtl2tw1nV/AwZUj9Uv0v9Py13t6F/5cdiKmyO551R814O2d4ojjICxC2
+W3F8HY14/aDAYAcCaiRNVMMhfEk9jP1gB0ysXA8Yhrv2I+tEGHaJ4FKCiKQXtBe8
++8oM3tnQkLGf8CEH3tH553XdHOUVZSRTPUp0t5ZBuQ/g9KCBeWJSlNmqCkBbREta
+ZAySs2HuYa1NAiPjZiQILq6bVb5/g+/TmOYJazTuQV9pTnJqFY0bIxIIU03Zyo6q
+Y6vROV3iKZ9LCHTPi5sR+NvFOVpoM7DJbC+rMSfmiUVcaOm30hu0nkRPg3584XRm
+K/YBTT+38ZDRkMkJoqqHT5MaVbAFJKEqaNUwmQ15yNcoB4t6wL4lM0i2P//qQgac
+9zdioxp0ivpmBedKXnShhyNMNZsDHjvF1Gv6ZhoUl261U1RA0Lfd6mfdUzLR/V2m
+dIvk33XYGWh+9goEyhgBdZr2DSrAG0qe5ITy4ycJDzGtWTmV6DUg1CcK2f5awfCx
+IDo0fHSq5AQLe5ySb7mbN6iPXZbqsF3wsgxJIrzd0fChqP6H9qWFzW+XBGl3Qim5
+1pe9VnYopXBvOGl+tYiRzYDQfRXPxiaD/X2Ba3IktjacB9U6W0MUKvhihSBWXj83
+PVdCVl5QgfCML4tGVCP81FS/
+=tliQ
 -----END PGP SIGNATURE-----
 
---===============4037957001236997498==--
+--===============7707373967820636704==--
