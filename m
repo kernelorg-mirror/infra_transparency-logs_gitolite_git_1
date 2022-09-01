@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2353212812119775703=="
+Content-Type: multipart/mixed; boundary="===============4866863107786455526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 01 Sep 2022 13:57:44 -0000
-Message-Id: <166204066450.16596.2607045310162870878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 01 Sep 2022 14:08:15 -0000
+Message-Id: <166204129538.23301.10152050412040355652@gitolite.kernel.org>
 
---===============2353212812119775703==
+--===============4866863107786455526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: a4f124908617553ea3929a17293cea4960c92ba3
-    new: 25e9fbf0fd38868a429feabc38abebfc6dbf6542
+  - ref: refs/heads/usb-next
+    old: 8f36b3b4e1b58dca7d05e1579019230437e55d43
+    new: 10174220f55ac2c9ea7bdf2dcebe422d24024aec
     log: |
-         25e9fbf0fd38868a429feabc38abebfc6dbf6542 driver core: Don't probe devices after bus_type.match() probe deferral
+         10174220f55ac2c9ea7bdf2dcebe422d24024aec usb: reduce kernel log spam on driver registration
          
 
---===============2353212812119775703==
+--===============4866863107786455526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662040659 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662040657-755a3705f5fe8f491f6db70fa534d15956b0a876
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662041294 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1662041293-2606418ac7ff880de39146fc884ff915216248d8
 
-a4f124908617553ea3929a17293cea4960c92ba3 25e9fbf0fd38868a429feabc38abebfc6dbf6542 refs/heads/driver-core-linus
+8f36b3b4e1b58dca7d05e1579019230437e55d43 10174220f55ac2c9ea7bdf2dcebe422d24024aec refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQulMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dr8P/AmtbukQxcxcHL2G8Lwh
-2OSm7leuP9xN96DQ7aaFXQncYKS30l67rGlKDgb0oEARN9V8j35GqCxVoR6rtHWS
-0276aCs2qybeX7EjntqIIm9b+Gj6AiE69BDs8QcxdT2dyovxBPtD87zvkGD2IYcy
-vLMITdlfrchqwUou/xEE308WnE39UOTvkwobR679htLofZ4VDaqsjxGWpuqx7/XU
-Avjdalm4hpTFDVnubUxDDbKQBhlPVTLXGaf+XkC9jQc6Kzs7SXHJLvQ5LrPbUplX
-YAL1Zh5fZjrSGHX9W3ajou7e59fUR4POuaHW3XqUlEXRt0YukC5uF0N9Y+tcA5/k
-6WqpryASIa9CHU1/rwkN+Bp+Ic9jPzn3fS7hP8HirtcKQbesgnBtSO9SSYDwFpzu
-WMnGCWIQgcuj3MkVYhi7iyJZG8FaeQrJtHxXqcTVuE7Y2yI0D+OgztX+YtvZzsmg
-w5AkLJeqxulN0wpIqBoDkREfqHcHLKzabHuLjB1FApzibpNzRcd013jkUtv4lwl6
-WRfRMEEu2oqEUrpxZp/qIJBsQcxwhzbDVZqCMERADAMxV2yN7JMQII3SXKmWbq7l
-iXLxhHEGmxDwY/cZRp/BkVj/RcDNfmunZ2j45FRvnO7CebzlmFcinH2HH6zllDjK
-np5IvHlfBmIvuBr7yQyb2KgV
-=xCmZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQvM4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+21kP/0GLWob9NkWtpxrA+iwp
+PUpt4n+2uLThu/FAv/Tl99ddqOWEBjaygW298oviihlhDcaxD/7chFLsGAlXAH8D
+niePz2IUCGj+1Gxncd48eLCT5q6suo6FD0sQtaWzGIQDU1boVZj8yACurzlpEji6
+sK9HpFW/WEBk2Al8tXu0gdrPR3URjD06WIk0YVXWBHtqljlPOOItVvudtpXC7QuQ
+m6uoNHDGvJm+Mw0VwnlOtmLoZytmEbkYJuKeJo7TZThMIzxkOnItEIFsVHVxeD4q
+6nO3qqX1pFYrPZ1mf/i/0TOkClWQ4Dv0F4XBVDNU7u37nHpQk5AqePb9g6Abaok8
+FkcHVJVUyzBSU4a79OdIEwt4f1mkdifT/ZNj6+qgATfF4YHH6SXE9UwyFPOzlxqd
+NdMSctKwa/g/4fWnSW0c3YIPQ/LMp/GzbdBAnKljGMqWK5P2PJuvyM7MNUHL8K4b
+RBsOf5qgAGgzzzlN4A4Vwr4QC9Aa9XmXKFBl9Ed3CZ1nTplAeLVO+QT2YxsMeD3k
+8YaTkhst8j92OvXrmHKVhYuNeXkCXdxsTrxpWtITnFA9jdC9sLWWyDg7jbf544kh
+qmEvImsf/wsB07mPATLPLIUHuclVdwvyc6lQ5wTg2n2Oe1c2+zufzQactsWOF/58
+7kejTMHFt0zkowxG3yx7gG5M
+=kX6q
 -----END PGP SIGNATURE-----
 
---===============2353212812119775703==--
+--===============4866863107786455526==--
