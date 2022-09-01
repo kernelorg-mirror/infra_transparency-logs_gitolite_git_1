@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 01 Sep 2022 00:50:04 -0000
-Message-Id: <166199340479.16421.15193609112716183856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 01 Sep 2022 00:55:47 -0000
+Message-Id: <166199374760.22063.17703114930372458078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 501565a1eebdcbca5943152e924133279f56cfbe
-    new: 2be18f6b266f3fcba89719b354672090f49d53d9
+    old: ec1b3faa605817b7c4b00ac70d1a09720996a047
+    new: f527a17bdba9687d21b7fc02acf404fecd528017
     log: |
-         2be18f6b266f3fcba89719b354672090f49d53d9 t/io_uring: take advantage of new io_uring setup flags
+         7827ae715d20652046bbcab5193f9cfc1280dc9f foo
+         f527a17bdba9687d21b7fc02acf404fecd528017 foo
          
