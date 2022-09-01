@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1205393414008742910=="
+Content-Type: multipart/mixed; boundary="===============3085947956673515004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 01 Sep 2022 15:48:00 -0000
-Message-Id: <166204728004.29582.9840343784409405848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 01 Sep 2022 15:48:17 -0000
+Message-Id: <166204729761.29754.5702355455973509530@gitolite.kernel.org>
 
---===============1205393414008742910==
+--===============3085947956673515004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 9b03e79300100bcd36e77c8ce94ee7f47cd2f528
-    new: 789bba82f63c3e81dce426ba457fc7905b30ac6e
+  - ref: refs/heads/char-misc-testing
+    old: d82a7aed83bacaee08cf77503e3d0e6e667f8526
+    new: 6e08c43dffd46f0571686917eeda4284ed220079
     log: |
-         8b40c38e37492b5bdf8e95b46b5cca9517a9957a firmware_loader: Fix use-after-free during unregister
-         789bba82f63c3e81dce426ba457fc7905b30ac6e firmware_loader: Fix memory leak in firmware upload
+         22c053900095f4c71f7c6adc9b83d657d6529447 get_maintainer: Add Alan to .get_maintainer.ignore
+         6e08c43dffd46f0571686917eeda4284ed220079 parport: add support for Netmos device 9900
          
 
---===============1205393414008742910==
+--===============3085947956673515004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662047277 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662047276-201e42450d9aba4e243677ba88f384e9d9418783
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662047294 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1662047293-bed5392dfe6d58149d8cce4280c0f2f42173886e
 
-9b03e79300100bcd36e77c8ce94ee7f47cd2f528 789bba82f63c3e81dce426ba457fc7905b30ac6e refs/heads/driver-core-linus
+d82a7aed83bacaee08cf77503e3d0e6e667f8526 6e08c43dffd46f0571686917eeda4284ed220079 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ1C0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z0EQANSLFaGxkvVx8KeNhJbP
-7vr4w4S/7LDcZOFU6aggwOtXATD9P91kes8PMNUvKd2w1CoT6rQef34cR0926Ktj
-o78QZwJm81a3S5KKLUYHc2jpumdKzqWSDP28/7MpmWbWw9e/6+yKfYGh18wBLLsG
-G0+pB5EG3ttNpDpuAyXq9XUhHnbAx2seSoPp6YQPh5NGtk+7U8sO/QFB5ANkX+dw
-GFAhS6hKKSLkctTw+k4YmOHuAwMsWWPR7AGX8r90RAeCk8Qg3zKkT5far0oMb9yA
-QVydmzfzarall98sYmetoL5Mv9ZMefldP241haC571PlrpQfvs4Lc5FRJjbxpgVd
-WXGSzFePyoXNdLqBwKnSnVGJTwTdv3y5Nd63tOAk5mw3+AvnyK9tWM8bB8EClxOh
-/K3JN1VH3zUB2QWuInmeCkFdtG+v8enxxh3UCv+7m3HOq0w/DM2JmKR9UAGx+mOC
-uuWfFOBTO2KgXzO0ClxTIimH1zRvxSB1KCGZiBd6D0GCEzOQVouzVEJNSboVXrx2
-CibdFDhwDECLmtPQt/VacWDm0T2AuSzhoptcS23vYvKmf9ZCuSFmRoQU0zEJOoby
-790uQPUzGUfja42k6yZquzWTOAdSaEnv5sqROUsIdIz2EzLzM0FK0ZmDrPZrdC+U
-qrwFGI9e16A7vIilFpyi89wa
-=TRKO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ1D4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QrcQAJ7DXdI9RWqoo5ibFMbx
+Wg8X+fi0I/ndOmhBL69zoDliv9Pi90liXmG/cA4+W1sIFE6QzlYLkY0jPYgAYmlq
+Bi6WJ/cMOgXbCzF0Z2rrUwOzNwPgI5sfSREwg2AKCjRH60wzvstcj0PU+FnWFpiT
+hmr9bmhXzme+gL8oVFkWvi0vkso7UJXE2hAI40yBBP7QbyuQG9oPfB97s/h/VUPI
+SHIm69FFtWbKBhbEyxZ46y29kzHKzLVWXhzZANpRTqtkz2iAT56b2DwoIjx3viA6
+idWC/hCn7PzfS/lH7mcU2lDimEiaw0qYC2oBCEjOZNSB6jHwmwAm8agQJd3/alX6
+tEDfqs2oUYa44XYANEb7W5Y76mqaRv1O6mGY8vT1/5xgbmf0431bQCspIovZuf0C
+MamiouaAfmQmi9g1EYyCfHQD71qnhB+rXJ4kB447FD6NBf6WbefvsK2lGAwF4WOw
+ygnHaK8uWo0NDCBnLffAY00hM+PsGXma1dECR0O5X85vYWKQCTjuSe1awoOC7C+7
+8jjyWal2YgHdeYPWuHz5DzQOb72py8v0SKxtWF657zHmt6X1pVnC6J6PU5QlcIw8
+xzM5JzfyXhsmUhuj3juoiv2EFIzX+He+YNz/Dbd1zLJ1yL565blHuXnPQPXuce7N
++eos7A04FsD25M2JuQUhIvM7
+=cFyL
 -----END PGP SIGNATURE-----
 
---===============1205393414008742910==--
+--===============3085947956673515004==--
