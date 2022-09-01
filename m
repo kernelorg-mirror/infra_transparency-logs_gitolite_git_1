@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 01 Sep 2022 09:21:29 -0000
-Message-Id: <166202408988.28307.8266346172615641108@gitolite.kernel.org>
+Date: Thu, 01 Sep 2022 09:21:40 -0000
+Message-Id: <166202410005.28400.8543678078867748730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip
-    old: 5f2fd80240df993231b52d485d219948da3232c3
-    new: a4bdd99cac7cf5c9e3b61b24e7845434eaee5579
+  - ref: refs/heads/perf/wip.self
+    old: 23a2069606463a980dc9aa6f589cb3641e6bfac3
+    new: 031684ccf102129dae043edbf060d3fb38cf4412
     log: |
-         09348d75a6ce60eec85c86dd0ab7babc4db3caf6 sched/all: Change all BUG_ON() instances in the scheduler to WARN_ON_ONCE()
-         53aa930dc4bae6aa269951bd37103083145d6691 Merge branch 'sched/warnings' into sched/core, to pick up WARN_ON_ONCE() conversion commit
-         fa916d9b0a91d35702c4f0efbee96a39583da4ce Merge branch 'tip/sched/core'
-         a4bdd99cac7cf5c9e3b61b24e7845434eaee5579 sched/fair: Fold the sched_avg update
+         24919fdea6f8b31d7cdf32ac291bc5dd0b023878 perf/x86/intel: Fix unchecked MSR access error for Alder Lake N
+         f2aeea57504cbbc58da3c59b939fc16150087648 perf/x86/core: Completely disable guest PEBS via guest's global_ctrl
+         031684ccf102129dae043edbf060d3fb38cf4412 perf: Better track self-monitoring events
          
