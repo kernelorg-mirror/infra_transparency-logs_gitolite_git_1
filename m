@@ -1,40 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1305252431365234567=="
+Content-Type: multipart/mixed; boundary="===============7598850134808542653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 01 Sep 2022 16:14:13 -0000
-Message-Id: <166204885338.16005.9508122378311024045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 01 Sep 2022 16:16:20 -0000
+Message-Id: <166204898086.18374.9984700010926695260@gitolite.kernel.org>
 
---===============1305252431365234567==
+--===============7598850134808542653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c5e4d5e99162ba8025d58a3af7ad103f155d2df7
-    new: 2880e1a175b9f31798f9d9482ee49187f61b5539
-    log: revlist-c5e4d5e99162-2880e1a175b9.txt
+  - ref: refs/heads/driver-core-testing
+    old: e2691f6b44ed2135bfd005ad5fbabac4f433a7a1
+    new: 6bb7ea3afd3eaae95eda6ef5589c3087f2cd70d8
+    log: |
+         07b7b883be5ba0b4bd9ebf8d72c236ef36ae2676 driver_core: move from strlcpy with unused retval to strscpy
+         e9628e015fe205f10766f031f17e217f85650570 class: use IS_ERR_OR_NULL() helper in class_unregister()
+         6bb7ea3afd3eaae95eda6ef5589c3087f2cd70d8 drivers: base: Print error code on synthetic uevent failure
+         
 
---===============1305252431365234567==
+--===============7598850134808542653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5e4d5e99162-2880e1a175b9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a8d302a0b77057568350fe0123e639d02dba0745 ALSA: memalloc: Revive x86-specific WC page allocations again
-22dec134dbfa825b963f8a1807ad19b943e46a56 ALSA: seq: oss: Fix data-race for max_midi_devs access
-3e7e04b747adea36f349715d9f0998eeebf15d72 ALSA: seq: Fix data-race at module auto-loading
-2e6481a3f3ee6234ce577454e1d88aca55f51d47 ALSA: hda: intel-nhlt: Correct the handling of fmt_config flexible array
-6ab55ec0a938c7f943a4edba3d6514f775983887 ALSA: control: Fix an out-of-bounds bug in get_ctl_id_hash()
-5934d9a0383619c14df91af8fd76261dc3de2f5f ALSA: control: Re-order bounds checking in get_ctl_id_hash()
-a2d57ebec1e15f0ac256eb8397e82b07adfaaacc ALSA: hda/realtek: Add speaker AMP init for Samsung laptops with ALC298
-5f3d9e8161bb8cb23ab3b4678cd13f6e90a06186 ALSA: usb-audio: Add quirk for LH Labs Geek Out HD Audio 1V5
-2555283eb40df89945557273121e9393ef9b542b mm/rmap: Fix anon_vma->degree ambiguity leading to double-reuse
-2880e1a175b9f31798f9d9482ee49187f61b5539 Merge tag 'sound-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662048976 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1662048975-b130e79dd8141249c7c591317367f5e203947648
 
---===============1305252431365234567==--
+e2691f6b44ed2135bfd005ad5fbabac4f433a7a1 6bb7ea3afd3eaae95eda6ef5589c3087f2cd70d8 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ2tAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hlYP/0SKxJ895lKgSt6PRElk
+Zts7eIaa/W6lh/FErl3+x/9k/90Jd62MHVOg+qzwFE5gSJzzSM91olXMy+IzBkrS
+b1r/HFkQ0dObDU6tPzkJJ9AJEOMxqA3puJFCCX230yr2oAORtzdY2KjL7wwOwTlk
+20gGEbk36jzt1ZDl/xGZkcbwxVP3qy6kpHCQOgPmX6zZmITmO7JpJz2IseqPd/f/
+w5stgfeobFze8z4CEGs9+cMQe4yl+h9x6ZnL4UVef7kIZO0xUeZh+lhZjIik4V0L
+N5DJL3zMKPUpECtqLMLPM4fNwd5DtJiWsLcPH2B/4OhJjsQ5+tMnC8KVWulVshKV
+YKjQj9VPrQhg05g8wUK8JhilHKZTWJVppdNZ7FKnMaeQLwlPVO1j1Knp/2C9La0j
+w1VDgSKG2/xEYY/XTIOJtbTrOBgr8yzGfRI8ASaDX05a4TV8j7kJ+gs9PFjNKI4z
+QGZZanB1nCLAjJRsbGvbs64jc3+ZPXNin7UdvLMIS/637zGG5HoCCHwmLIpl2OTp
+wxN5heNGsv/O3N90vKBL0O90p/30kO20N1bzFIPsImXuBBhXZNRWpwWvpnWwjvKT
+4y/yHFtH6+riqsX89WqEntp4RQk/64qjqErLnnKa3+lUpmfS0b0qa2V8p/Osdo5P
+/+rY04GKYNgb5q4TvaAKFQJy
+=JYgV
+-----END PGP SIGNATURE-----
+
+--===============7598850134808542653==--
