@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8486405353109871867=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 01 Sep 2022 16:17:40 -0000
-Message-Id: <166204906059.18874.16308912326997597165@gitolite.kernel.org>
-
---===============8486405353109871867==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Thu, 01 Sep 2022 16:21:10 -0000
+Message-Id: <166204927040.21647.16827063702428204626@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 6bb7ea3afd3eaae95eda6ef5589c3087f2cd70d8
-    new: 61742a7cd5b194d2cc52d78de8ec6967634a4cd6
+  - ref: refs/heads/master
+    old: 16424e934b2e83faa81bb7709e13be4b809d35fe
+    new: 7fb1cd49103030c68154c5645ac1cf09b06b70aa
     log: |
-         61742a7cd5b194d2cc52d78de8ec6967634a4cd6 devres: Slightly optimize alloc_dr()
+         7c13844c3b7662976270996552eee3a0849afc3f wifi: mac80211: fix potential deadlock in ieee80211_key_link()
+         8d40a13bc35da6c68f3beb44d7d4b21ea247366d Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
+         ac41c2b642b136a1e633379fcb87a9db0ee07f5b wifi: ath11k: Register shutdown handler for WCN6750
+         b3ca32308e46b6384fdcb7e64b3fca4f61aff14b wifi: ath11k: Fix incorrect QMI message ID mappings
+         6fe62a8cec51c756159c71be35a16b2cc8cbd4c0 wifi: ath11k: Add cold boot calibration support on WCN6750
+         79d84ce1bd929580e15cedbdbf76354fd7d461a6 Merge branch 'ath-next'
+         4a811ccd842ab6e5e9cbadedee53baeb2bace51d Merge remote-tracking branch 'mhi/mhi-next'
+         add63089bc64332c78da9f1d533b5aa6856f594b Add localversion-wireless-testing-ath
+         7fb1cd49103030c68154c5645ac1cf09b06b70aa Revert "bus: mhi: host: Move IRQ allocation to controller registration phase"
          
-
---===============8486405353109871867==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662049057 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662049057-58031f6b16d56265680c8ac1b140de515fbd708f
-
-6bb7ea3afd3eaae95eda6ef5589c3087f2cd70d8 61742a7cd5b194d2cc52d78de8ec6967634a4cd6 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ2yEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9UkQAL2xtf+jj39Vz5rh+ZUQ
-J+nQLx/obYJW/jICkM2dO1IZcaW3T6WmZe+QN+ouCqo4CrI8XnAEYRT/+0C/j4J2
-lYt9M2bMYlBLIvOZ1nRzao4DxpEf4MtzVoIw7gr4nUqr4NeKEFbE14zwgIY3DDFN
-JEC2S++eQGlplofqFKg6Hbfv0sRI5+7lhzXZIutIsLfQwokT6mgEvKdjDfJVFozf
-B8tIwkpfoMuq6M3TyybcPVCdMzchYOrYj3fbIA1RcKu/Su6JoG8WJ/t5wlsyRf4n
-8WG0A/CQowsEaKnPYZiZ5HBN/L2/tD6eAOXkWt1GzO4M1cnS5afIZesQDjIS9B7t
-+65De0RQ3W+aAkjpv1oAWxp7tJyXgN/u6kCSDd7Y44hyhueUM/A2gnu/j/q/sR4T
-VAiribCRyDRZiqO71SQ4NPZdQhBMBvZXnkmfD/ZtGCNM7/HL0QxWRFXIRoEaBjz6
-97HrOy4HSWB3A7WH8LI1WmCWgyLg03BC8bZxzITcoKM1VTFfG2Lod/GkasTl9r2r
-zF8hKeJIQofsdd+6uYt3G/MVPFhGlXq2gSan4NIYUdNJyC2VlDHT1NJBrGCroI8P
-xWBtMzpLfxrqjQRQ/xVs3RPseVB+JFrYo8YvUXclbHUwmvCy8btzLur2ItL2H1uA
-OjlWy0EAjHH2/NUvCrHmWQof
-=gUgu
------END PGP SIGNATURE-----
-
---===============8486405353109871867==--
+  - ref: refs/tags/ath-202209011620
+    old: 0000000000000000000000000000000000000000
+    new: 7fb1cd49103030c68154c5645ac1cf09b06b70aa
