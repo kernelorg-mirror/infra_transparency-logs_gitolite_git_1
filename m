@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2073277065320158124=="
+Content-Type: multipart/mixed; boundary="===============6791378783450877535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 01 Sep 2022 16:40:09 -0000
-Message-Id: <166205040938.3614.13889950400367172737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 01 Sep 2022 16:40:27 -0000
+Message-Id: <166205042704.3828.8640099740052405457@gitolite.kernel.org>
 
---===============2073277065320158124==
+--===============6791378783450877535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 9c6d194f40a97ecab85af8c4af33ec934ea75716
-    new: a68108c8370a7210626413e5aaf2327de3aeab94
-    log: |
-         a68108c8370a7210626413e5aaf2327de3aeab94 MAINTAINERS: add spdxexclude to LICENSES and SPDX stuff
-         
+  - ref: refs/heads/master
+    old: 6edd302a1c8ce82dfca2426a206ab9f37a2edb0e
+    new: 4bf8594a8036f42ca7ece1bbdaf45b7954fb09e6
+    log: revlist-6edd302a1c8c-4bf8594a8036.txt
 
---===============2073277065320158124==
+--===============6791378783450877535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6edd302a1c8c-4bf8594a8036.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662050403 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662050402-bb01f423953a22aebd330bbc66570b4c871d50c6
+8af1a9afe10005088f25f6c4c5b6e3eeaade6a93 net: phy: smsc: use device-managed clock API
+fb3ceec187e8bca474340e361a18163a2e79c0a2 net: move from strlcpy with unused retval to strscpy
+f029c781dd6d8e2f13593c927c66db7e8826ed28 net: ethernet: move from strlcpy with unused retval to strscpy
+7305b78ae45f2ce19fbb9e83d7a8c45214d2cdc9 r8152: allow userland to disable multicast
+a60511cf15204e41f4edbcdc4ee80208d528917c net/rds: Pass a pointer to virt_to_page()
+cb45a8bf4693965e89d115cd2c510f12bc127c37 net: axienet: Switch to 64-bit RX/TX statistics
+38af11717b386560f10f2891350933fc5200aeea net: sched: choke: remove unused variables in struct choke_sched_data
+4516c873e3b55856012ddd6db9d4366ce3c60c5d net: sched: gred/red: remove unused variables in struct red_stats
+744ccd5c64bda0a4130b470ce2772985f20913ce Merge branch 'net-sched-remove-unused-variables'
+0e4d354762cefd3e16b4cff8988ff276e45effc4 net-next: Fix IP_UNICAST_IF option behavior for connected sockets
+a102c8973db7f7b7b6f75d51eed145d070438a49 net: sched: remove redundant NULL check in change hook function
+99c969a83d8275bb396f6209dff2aa4cedaeb644 octeontx2-pf: Add egress PFC support
+2f2b60a0ec2826e5a2b2a1ddf68994a868dccbc1 net: ethernet: stmmac: dwmac-rk: Add gmac support for rk3588
+a2b77831427cb576cd03d4dd953dffdc509aef39 dt-bindings: net: rockchip-dwmac: add rk3588 gmac compatible
+2af39b9964851edeaa3ba5ea7d287ed894d5eaed Merge branch 'rk3588-ethernet-support'
+4bf8594a8036f42ca7ece1bbdaf45b7954fb09e6 net: sched: gred: remove NULL check before free table->tab in gred_destroy()
 
-9c6d194f40a97ecab85af8c4af33ec934ea75716 a68108c8370a7210626413e5aaf2327de3aeab94 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ4GMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E6IQAKutCQmLGl9MTyHWFjLV
-QGfr5F3YddXKIYvud+rqRDrM65DQOq7kV8vpop17xZ8PsQOpYBS5QXCN7pC+jcm0
-xojR29seIaBbr1fFbsNoZ3SXYfv2d6lUOZ+ntCALGx/ea7jMQiop4g/YXSDY7iVa
-n8/NBsb2GeDSnF4cbLaRW1WxFPPzV36YKF6Grux84EgfMbXHipGZwYZxricWVshT
-Gy+UvJ4p6L1xNgsJUXQX91qMt+KBcYfF1ZzADeLAx/cQOF8yy9N666bBi2ifaA0W
-MPjHq+5TqmSSOjr8+eVM2PAys9gix9vdMPK1WcTSKaNSV4AStVfNrFpNyibfBNIF
-48/k/RDE03AzN8401LIIxlhU9OHJkiNRhtIjYS6inFyI6WZA4wTrfm52qAE3VyrG
-weGDlhZJClVO0bQJJge2SKClwjaRlNKWK67kmnm10IGFUeiTuuzQqAbEuqt8hOHS
-QkaObsGNw8T9Lf2y19I2SEQrD5XYnbFb0uuFuY99Xs2aRqGuqew9d5BBF7eP4osU
-hIYkXe89zifeWEPPr9f7VlfKosGbqfpY2s0g4mb4pRyHGY78a65AfLi5nDRjqO91
-y4H20Ckc2aL08sl4U+JWnCgSH7YWFIS8pO0WxNeKR7TxvrOdiUiACyi/PlsibY1p
-CmNRDSMAHXUjicNvjeSgeNQq
-=84UG
------END PGP SIGNATURE-----
-
---===============2073277065320158124==--
+--===============6791378783450877535==--
