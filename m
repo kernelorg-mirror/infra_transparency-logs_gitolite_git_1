@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Thu, 01 Sep 2022 02:12:27 -0000
-Message-Id: <166199834780.16728.3238442384159889462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Thu, 01 Sep 2022 02:16:53 -0000
+Message-Id: <166199861389.19918.17833281171886459431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 11368e43fdf80c70e4bfaeba5d24ec42eaa3440a
-    new: d6eda04d09e392fa204af022ab16a6a09d215408
+  - ref: refs/heads/for-kernelci
+    old: 8501516d727fb6b36c8f18857a3c977a6fbf14df
+    new: f36a064d1483ddc1fe9faef38d370b68e632654e
     log: |
-         8807f63f00bb94c96c7a0468fb5a992b38be55bb platform/chrome: cros_ec_typec: Add bit offset for DP VDO
-         1c4a4baa7124d06a43f9498a5bcc7a8e8451cd88 platform/chrome: cros_ec_typec: Correct alt mode index
-         15b0adf562d84f493f20cfc14dfba085314f81e1 platform/chrome: cros_typec_switch: Add missing newline on printk
-         ff11313c74165786ed52b61b675e58f81157fd44 platform/chrome: cros_typec_switch: Remove impossible condition
-         1fd8852269c055d1477566017d3fd8a6785830bf platform/chrome: cros_typec_switch: Use PTR_ERR_OR_ZERO() to simplify
-         d6eda04d09e392fa204af022ab16a6a09d215408 platform/chrome: cros_typec_switch: Inline DRV_NAME
+         8dab6a5939199a5dcf0731eb2dce757837575633 platform/chrome: cros_typec_switch: Add missing newline on printk
+         bbb5fb85cf48757a18870aaeedf6936d5c1f1ead platform/chrome: cros_typec_switch: Remove impossible condition
+         dc22a33e35859835b09cff11f445928af0197808 platform/chrome: cros_typec_switch: Use PTR_ERR_OR_ZERO() to simplify
+         20dfb74783093e863228d511f7e6a8db8ee39e18 platform/chrome: cros_typec_switch: Inline DRV_NAME
+         f36a064d1483ddc1fe9faef38d370b68e632654e KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
