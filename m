@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5465490374696033313=="
+Content-Type: multipart/mixed; boundary="===============3215571896897700071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 01 Sep 2022 05:09:32 -0000
-Message-Id: <166200897295.11950.9081268897018918886@gitolite.kernel.org>
+Date: Thu, 01 Sep 2022 05:09:46 -0000
+Message-Id: <166200898636.12111.3877604147703556381@gitolite.kernel.org>
 
---===============5465490374696033313==
+--===============3215571896897700071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: e846008771139bf12c95f3eebb2e3015b5ff0100
-    new: 44235eddc3458f747618b16d1aa83e7828445e1c
-    log: revlist-e84600877113-44235eddc345.txt
+  - ref: refs/heads/6.1/scsi-staging
+    old: 8750aa54da43c0b50ea22f2f294dc834035b2146
+    new: e699bb9765cd447ab477e9e888ddbab347dcf35a
+    log: revlist-8750aa54da43-e699bb9765cd.txt
 
---===============5465490374696033313==
+--===============3215571896897700071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1662008959 -0400
+pusher 75C5DE3D 1662008977 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1662008959-a73c1421dd1cb4e3c7d80c7a47392d90d24aea94
+nonce 1662008975-c428a6173b71b26cead78088adf67aafa4963531
 
-e846008771139bf12c95f3eebb2e3015b5ff0100 44235eddc3458f747618b16d1aa83e7828445e1c refs/tags/mkp-scsi-staging
+8750aa54da43c0b50ea22f2f294dc834035b2146 e699bb9765cd447ab477e9e888ddbab347dcf35a refs/heads/6.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMQPn8ACgkQ7ulgGnXF
-3j0BKQ/+MhrT1v6zqnirWPUhaLS9HAHiQkjMo3qSwkiEFG/2QO6N/Q+jeCTWQ+oA
-5d+hru1FPykmVOgqSBvv1a9lNygsv9UBS075+2LgKCn4yvrMDgeu25lG1jNZWDni
-qWf5KHztREMfxt+vj5esYBEFwbyYBHzJvhcAaR36m5EwtqjjNTMudDVt3vjVFO0z
-bI9uVGpQul+ZEI4DljRocZnB/uInPzdXnm4ZtEDj8138DLUQqFnCb0Zjbmkiremd
-ZuG0kh04QXgM0i/wkp0VcOEc+o4bpxcgMoGiz4p/JEMdbH1lSKzo/km0v2evLPUU
-ItUhcM+Z19xm8/1zmojOB3yZmlPZoftzmFqWbuEjPJARWAlygHINN9bafdYYMRhO
-3ZkR0BEiCiGWE/q7PKKrm0JTyvKRMQLU22FfBEfJzrFsjmJEAdJmJCnD+icN2kHw
-rsidwYkwj8U82BVNopvxZbtgRgVNAzdTq3zwIIrwbj8Z/5t0pz65NlHQZHMWLw8x
-FbW/qdsgFP1EkcZNZ/qiMHGgNMaF8Q4sOIl1AxgQASKzEDFdqM+qU3ucBZis50W/
-PesLpiKYAzvJHKucekjKTsJ+/g+tD7CcgY+MUxurSAEPhISYY1h2TQqRfbGh/ahV
-qxl49PEabTCiIhIXOz6kWUaprmX9mGhOO4M/MlkluJFTT22qE4o=
-=ARvy
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMQPpEACgkQ7ulgGnXF
+3j1H7g//buAeehpLynoc6F6CIEsldU1ZzqmHKHEpDTDPcq5lBXd/COvX3gLAIDlL
+RUoHLQavdjJLrrXFcAGsfohtTINzbFy7TUrbSSB4ccrOThfzBuEszHdUHTRIWQVl
+LgjwZa2hB7p1N+o8odIOPe6GqVUYQOYkhVt7Xbk47dA6tPER+vUEEMqfwcIQmQvI
+xkXB+zB+kMaqC0uawpFjpm5bqe0gQt8JyFv8V2cTT2audi7iE/jrrKf99WA5kMoR
+QdY0ch23FbKq6yEwq+kNAWBOsSkG5XRnjTpiWZjCgkggSNcVoqNUqJ7nQb2LzlNt
+mFz6WE9b1+g9pgC7OG/NMtIxCiHgNVnq8Eew/uyv79S8qnCzEP7Mjx5oP177Cghn
+t8i9k9v+5S0WBaWFEp/T2izKAzm4BxyC7dB8aHDnzFTgZJ+BOUlD2WsMpmMzR6mH
+KIutHWtTeqQMVLpjWRJVMZx9R+TEc4dxZYPUgPefokqHxSffa5gn/V7LbC9Q/Gwd
+DjjFo/Jy8ZY6kYkJ7Iwwfs2R4p8yrCly/ZEsifdb7fut+SQfIWVANtF16B+Nb2/2
+l9MwnDXiP5fBzvLBpypqmrJKmIZrkGjNWhj2cUduy6YGhUMDKmEkFYlWHXZK3nST
+ZqTM5TjIZ3jBpn0GUH5M1p2g0cGGTC6rviVtySQq9uJ+YXFa/vQ=
+=IiJY
 -----END PGP SIGNATURE-----
 
---===============5465490374696033313==
+--===============3215571896897700071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e84600877113-44235eddc345.txt
+Content-Disposition: attachment; filename=revlist-8750aa54da43-e699bb9765cd.txt
 
 2745ce0e6d30e66a97bc6c236cde3356812a3496 scsi: mpi3mr: Refresh SAS ports during soft reset
 7f90bc70d1a6ab024cfe2512f5ba8e93ed45a35d scsi: mpi3mr: Block I/Os while refreshing target dev objects
@@ -101,4 +101,4 @@ de05e4843cce5f4b385f60acfa690eb94af923b8 scsi: lpfc: Remove unneeded result vari
 e95b305addc976f1b163d1f5af063402d530a361 scsi: hpsa: Simplify {clear|set}_bit() parameters
 e699bb9765cd447ab477e9e888ddbab347dcf35a scsi: target: pscsi: Remove repeated word "calling"
 
---===============5465490374696033313==--
+--===============3215571896897700071==--
