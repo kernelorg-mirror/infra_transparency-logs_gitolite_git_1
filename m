@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4866863107786455526=="
+Content-Type: multipart/mixed; boundary="===============6376664101934260802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 01 Sep 2022 14:08:15 -0000
-Message-Id: <166204129538.23301.10152050412040355652@gitolite.kernel.org>
+Date: Thu, 01 Sep 2022 14:08:55 -0000
+Message-Id: <166204133522.23590.6846383589652135904@gitolite.kernel.org>
 
---===============4866863107786455526==
+--===============6376664101934260802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 8f36b3b4e1b58dca7d05e1579019230437e55d43
-    new: 10174220f55ac2c9ea7bdf2dcebe422d24024aec
+  - ref: refs/heads/usb-testing
+    old: 10174220f55ac2c9ea7bdf2dcebe422d24024aec
+    new: 4e55e22d3d9aa50ef1ba059bf3a53aa61109c179
     log: |
-         10174220f55ac2c9ea7bdf2dcebe422d24024aec usb: reduce kernel log spam on driver registration
+         a4efdb8a423b4fa3671418bd3755ae79fbdedab0 USB: FHCI: Switch to GPIO descriptors
+         4e55e22d3d9aa50ef1ba059bf3a53aa61109c179 USB: hcd-pci: Drop the unused id parameter from usb_hcd_pci_probe()
          
 
---===============4866863107786455526==
+--===============6376664101934260802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662041294 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662041330 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1662041293-2606418ac7ff880de39146fc884ff915216248d8
+nonce 1662041329-8f8fdf1f5a413eb15ce52b71a095bd998147e03c
 
-8f36b3b4e1b58dca7d05e1579019230437e55d43 10174220f55ac2c9ea7bdf2dcebe422d24024aec refs/heads/usb-next
+10174220f55ac2c9ea7bdf2dcebe422d24024aec 4e55e22d3d9aa50ef1ba059bf3a53aa61109c179 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQvM4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+21kP/0GLWob9NkWtpxrA+iwp
-PUpt4n+2uLThu/FAv/Tl99ddqOWEBjaygW298oviihlhDcaxD/7chFLsGAlXAH8D
-niePz2IUCGj+1Gxncd48eLCT5q6suo6FD0sQtaWzGIQDU1boVZj8yACurzlpEji6
-sK9HpFW/WEBk2Al8tXu0gdrPR3URjD06WIk0YVXWBHtqljlPOOItVvudtpXC7QuQ
-m6uoNHDGvJm+Mw0VwnlOtmLoZytmEbkYJuKeJo7TZThMIzxkOnItEIFsVHVxeD4q
-6nO3qqX1pFYrPZ1mf/i/0TOkClWQ4Dv0F4XBVDNU7u37nHpQk5AqePb9g6Abaok8
-FkcHVJVUyzBSU4a79OdIEwt4f1mkdifT/ZNj6+qgATfF4YHH6SXE9UwyFPOzlxqd
-NdMSctKwa/g/4fWnSW0c3YIPQ/LMp/GzbdBAnKljGMqWK5P2PJuvyM7MNUHL8K4b
-RBsOf5qgAGgzzzlN4A4Vwr4QC9Aa9XmXKFBl9Ed3CZ1nTplAeLVO+QT2YxsMeD3k
-8YaTkhst8j92OvXrmHKVhYuNeXkCXdxsTrxpWtITnFA9jdC9sLWWyDg7jbf544kh
-qmEvImsf/wsB07mPATLPLIUHuclVdwvyc6lQ5wTg2n2Oe1c2+zufzQactsWOF/58
-7kejTMHFt0zkowxG3yx7gG5M
-=kX6q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQvPIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w6cQAK/W/TPavzSlXlyrvBXI
+zrtGNWrqGbebXeMC34trFavaheGljVcTvfqxki9a89gMGDMAfhrSuDmlE7Ya90EY
+58PXi11ofIQn9vGVTmZWzRVdwWY6D1j3/t7uFOBFNAdbIKWK5kiKcH6CKNqTI1DK
+lPD90XhLzn37nwgrkvhYoShqR/b+vandNdQVzcOt5ohaLtpIX1objX/dstu2dOwx
+WW7C5bYGvfpqnbmDUJUzJjX+QXBKqC6pcrOodeQJdYLsllxhSS+lPkGyQCG6s5I8
+aJ9B8pnl7NuTvlgl8nghNQR9MPVdqrhWleNJaJ8Du09yDXHrhPy+KpLm+oJMJ4rO
+yyOUb1idOuSk7dMyS5PV4BrhdglDFGcAJJPMgR6K5SK+HNTb+xtGI72rnaUT/aV6
++mSbeLVKkTqszPfwvH4VBB27zlUSDt4usDcCldPcjlPwcwtRGVhTDPwNGZAVhPqO
+beU3bJDHaF0iJQ5/MQstTAdUG+9UlqSF6hLwRY+UIw/Bmrr+bZkkmItpPzEmppF6
+m7JvtZOC8wLaqsMLhLPMhpr2d6mVPjfcGhE8o++YKi1oar6S1yM6+pn4LEQjxeOh
+RhTZQWj0ROdc8lddMzAC5K1c+gDRUtpVugz7QHJ4ayrQ+A1CeeRpRczjAEJniKYO
+BF3Qudb53A0wHj15sEWIf4Gq
+=GzMB
 -----END PGP SIGNATURE-----
 
---===============4866863107786455526==--
+--===============6376664101934260802==--
