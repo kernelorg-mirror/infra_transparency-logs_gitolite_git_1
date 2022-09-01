@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5784851454117332245=="
+Content-Type: multipart/mixed; boundary="===============4535829446067308268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 01 Sep 2022 15:43:58 -0000
-Message-Id: <166204703864.26406.7302091909072791056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 01 Sep 2022 15:47:38 -0000
+Message-Id: <166204725816.29249.11164700110026483748@gitolite.kernel.org>
 
---===============5784851454117332245==
+--===============4535829446067308268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/staging-testing
-    old: 6d29e08007c520a759cab710a591aa336d010bfe
-    new: 7bd581f3c26354f5d5dc6536fcfbbe14f4f5b2b7
-    log: |
-         cd544c3c1499e743d1817b398628c033fab283e3 staging: r8188eu: make two functions static
-         7bd581f3c26354f5d5dc6536fcfbbe14f4f5b2b7 staging: r8188eu: remove os_dep/mlme_linux.c
-         
+  - ref: refs/heads/master
+    old: c0955bf957be4bead01fae1d791476260da7325d
+    new: a8424a9b4522a3ab9f32175ad6d848739079071f
+    log: revlist-c0955bf957be-a8424a9b4522.txt
 
---===============5784851454117332245==
+--===============4535829446067308268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c0955bf957be-a8424a9b4522.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662047035 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1662047034-faa4aac81d4004c936e676831dbc274627262182
+3a1a274e933fca73fdc960cb1f60636cd285a265 mlxbf_gige: compute MDIO period based on i1clk
+8fc29ff3910f3af08a7c40a75d436b5720efe2bf kcm: fix strp_init() order and cleanup
+404a5ad72011f5bd2bb90f0a035be7635e2bd839 Documentation: networking: correct possessive "its"
+5a3a59981027b53ec0f729ad76a43ce2b64ad968 selftests: net: sort .gitignore file
+90fabae8a2c225c4e4936723c38857887edde5cc sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb
+eb55dc09b5dd040232d5de32812cc83001a23da6 ip: fix triggering of 'icmp redirect'
+52267ce25f60f37ae40ccbca0b21328ebae5ae75 net: dsa: hellcreek: Print warning only once
+8c70521238b7863c2af607e20bcba20f974c969b tcp: annotate data-race around challenge_timestamp
+79e3602caa6f9d59c4f66a268407080496dae408 tcp: make global challenge ack rate limitation per net-ns and default disabled
+a3daac631e4824a68a5449f60dd86b90bb7be91a Merge branch 'tcp-tcp-challenge-ack-fixes'
+0b4f688d53fdc2a731b9d9cdf0c96255bc024ea6 Revert "sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb"
+a8424a9b4522a3ab9f32175ad6d848739079071f net/smc: Remove redundant refcount increase
 
-6d29e08007c520a759cab710a591aa336d010bfe 7bd581f3c26354f5d5dc6536fcfbbe14f4f5b2b7 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ0zsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z0kP/20DFtQndVZSG0amGAsj
-1JQ0Gt0/MUBSimjGNsiRwpL8pAY+pYdYBvQNHhHOwsIDVSwiLAyo+H6hvFeOrFEp
-crAvDw7yyFoBkcZXNJNOAVrXRbb4Bee+4SmfuCi5LLkC80TA0DJvQQqBPXk2Z4Sm
-MQs9oSLWLcDltnczpbDvc9bD/eGy3kMR7TuuzuyS4ccTjYOZEiApEc1XdQKTcH2j
-3ylDUuZiUem+n6zsTbmbeBcI4hXH0cLpt2/edm7MARryuNIq+lO4UTWQ5wYtSa6Y
-HHXSxLBEDO3a5+fD1e8c4ePWwByvtQnmYCIGpzreLBwp3vp3IhYeK24C6pFfXGyO
-xi1EJWaEv04xlArn+Q4madDiR8FXK/BcykLi8RLWKlavt8Rdv477PlwkJ/c/+9Cp
-+T9uHMP20a2nYGOqA9+RF5gRI9p2O3r7VmaFXhognqSYpvusyN0t1kLa46JZ8+Oh
-S5uW6XwwgwD5FPWU6VlX3jVKvtYbLxvJCO8L782YsMq0o1Bs35fIHySexKCL2Rjk
-3Yb9PRuSWTHoXQPEWxhuhX2oUGjS6sfN/A/T+iTA70eSiouafLxMTB/p+HgQsqqM
-39g4UZIjpNB6q5KKZN+dfK4MQqgdiV4uXGb1qbEN4/2mRd5zk0yaiac25PH4xs+e
-Et/SygRQGOajcKfRISO10Amn
-=ay+0
------END PGP SIGNATURE-----
-
---===============5784851454117332245==--
+--===============4535829446067308268==--
