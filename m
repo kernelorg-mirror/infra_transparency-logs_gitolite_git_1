@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 01 Sep 2022 10:02:46 -0000
-Message-Id: <166202656623.7405.14356660895313576853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 01 Sep 2022 10:03:08 -0000
+Message-Id: <166202658897.7611.1156453606403609267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 99c969a83d8275bb396f6209dff2aa4cedaeb644
-    new: 2af39b9964851edeaa3ba5ea7d287ed894d5eaed
+    old: b1fa9e610be1914d29fbe7979b52b3272f610877
+    new: 36e0914f12f763e2f71bf526c97958e3876a99d4
     log: |
-         2f2b60a0ec2826e5a2b2a1ddf68994a868dccbc1 net: ethernet: stmmac: dwmac-rk: Add gmac support for rk3588
-         a2b77831427cb576cd03d4dd953dffdc509aef39 dt-bindings: net: rockchip-dwmac: add rk3588 gmac compatible
-         2af39b9964851edeaa3ba5ea7d287ed894d5eaed Merge branch 'rk3588-ethernet-support'
+         36e0914f12f763e2f71bf526c97958e3876a99d4 lsblk: add DISK-SEQ (aka /sys/block//diskseq
          
