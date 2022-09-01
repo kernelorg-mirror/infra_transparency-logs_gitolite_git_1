@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 01 Sep 2022 06:58:08 -0000
-Message-Id: <166201548867.24004.1868458103666697554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 01 Sep 2022 06:59:07 -0000
+Message-Id: <166201554725.24420.17399908708925763531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: bfb3bde95479e7072839564ec90dbf5d00bfb9b1
-    new: 2c02249fcbfc066bd33e2a7375c7006d4cb367f6
+  - ref: refs/heads/edac-for-next
+    old: 35636db937254b122b3d3ea08040183db35e34a1
+    new: 7acc62a7b2eca52a44dfa9239ea6280867250a77
     log: |
-         a625ca30eff806395175ebad3ac1399014bdb280 RDMA/rxe: Fix "kernel NULL pointer dereference" error
-         548ce2e66725dcba4e27d1e8ac468d5dd17fd509 RDMA/rxe: Fix the error caused by qp->sk
-         f07853582d1f6ed282f8d9a0b1209a87dd761f58 RDMA/rxe: Remove the unused variable obj
-         2c02249fcbfc066bd33e2a7375c7006d4cb367f6 RDMA/rxe: Delete error messages triggered by incoming Read requests
+         9a1043d43a9ab75d28b8ec54512ea13ec33bc910 EDAC/mc: Replace spaces with tabs in memtype flags definition
+         93df19476535a4ed871bc5eae719b6d67cf3abc3 EDAC/mc: Drop duplicated dimm->nr_pages debug printout
+         7acc62a7b2eca52a44dfa9239ea6280867250a77 Merge branch 'edac-misc' into edac-for-next
          
