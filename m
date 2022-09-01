@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
-Date: Thu, 01 Sep 2022 01:40:54 -0000
-Message-Id: <166199645452.27313.8147222035269167244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
+Date: Thu, 01 Sep 2022 01:40:56 -0000
+Message-Id: <166199645692.27422.8740737034059002641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/firmware
+repo: pub/scm/linux/kernel/git/jkirsher/iproute2
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: 8413c63c7a539a912be8851ce941eea32dcd1786
-    new: d3c92280565c39e78e9acbb9e63c42a3dcd80d34
+  - ref: refs/heads/main
+    old: 87dfa589f6c3e9ab1ac2bfb9b5f8591a60320103
+    new: 2b82108563916075d4f7c6f8e0874a28ec2ae8d5
     log: |
-         a1c4b15986c07cdad873a72b1e130ea1fb02c5fa mediatek: reference the LICENCE file for MediaTek firmwares
-         05ee469260dfd4a9ad7476c683156a26cf30ff62 Merge branch 'mtk-20220816' of https://github.com/tinghan-shen/linux_fw_scp
-         d3c92280565c39e78e9acbb9e63c42a3dcd80d34 rtl_bt: Update RTL8852C BT USB firmware to 0xDFB8_5A33
+         fb809cb373072b6e58205895bcfe07086ded0f92 uapi: update headers for xfrm and virtio_ring.h
+         2b82108563916075d4f7c6f8e0874a28ec2ae8d5 man: fix a typo in devlink-dev(8)
          
