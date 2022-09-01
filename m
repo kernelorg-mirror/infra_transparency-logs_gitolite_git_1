@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 01 Sep 2022 19:15:55 -0000
-Message-Id: <166205975586.16760.9680534680336159063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 01 Sep 2022 19:23:46 -0000
+Message-Id: <166206022641.20998.10780973444260535740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: 41a55567b9e31cb852670684404654ec4fd0d8d6
-    new: 793f55b2971e3a95d77ad08e9da2a3dc6c946cd7
+  - ref: refs/heads/master
+    old: c9ae8c966f05c85c5928c8f1790b13b71cc5ccd5
+    new: 23d86c8e02e55e511cd37e7ef2280a0030750954
     log: |
-         aded3cad909581c60335037112c4f86bbfe90f17 kunit: fix assert_type for comparison macros
-         793f55b2971e3a95d77ad08e9da2a3dc6c946cd7 kunit: fix Kconfig for build-in tests USB4 and Nitro Enclaves
+         197827a05e13808c60f52632e9887eede63f1c16 bpf: Use this_cpu_{inc|dec|inc_return} for bpf_task_storage_busy
+         c89e843a11f1075d27684f6b42256213e4592383 bpf: Use this_cpu_{inc_return|dec} for prog->active
+         c710136e87747f1cc8e24948b3046ee57a1fe2eb selftests/bpf: Move sys_pidfd_open() into task_local_storage_helpers.h
+         73b97bc78b32eb739a7dd3394fa3981e8021c0ef selftests/bpf: Test concurrent updates on bpf_task_storage_busy
+         23d86c8e02e55e511cd37e7ef2280a0030750954 Merge branch 'Use this_cpu_xxx for preemption-safety'
          
