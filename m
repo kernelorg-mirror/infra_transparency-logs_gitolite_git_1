@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8021476899600189350=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 01 Sep 2022 15:49:31 -0000
-Message-Id: <166204737123.30353.5895195004195153666@gitolite.kernel.org>
-
---===============8021476899600189350==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 01 Sep 2022 15:50:05 -0000
+Message-Id: <166204740557.32137.2655721154517643980@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tty-testing
-    old: b74dbbe19b2551418509b04a5095d65b494e6e28
-    new: 74b2c563c2a7b031a7717ccab07be385e4f8f7d8
+  - ref: refs/heads/block-6.0
+    old: 645b5ed871f408c9826a61276b97ea14048d439c
+    new: 256577983763141390f1729f1512f613f32f2486
     log: |
-         74b2c563c2a7b031a7717ccab07be385e4f8f7d8 dt-binding: serial: mediatek,uart: update bingding for MT8188
+         200dccd07df21b504a2168960059f0a971bf415d nvme-pci: add NVME_QUIRK_BOGUS_NID for Lexar NM610
+         da0342a3aa0357795224e6283df86444e1117168 nvmet-auth: add missing goto in nvmet_setup_auth()
+         478814a5584197fa1fb18377653626e3416e7cd6 nvmet-tcp: fix unhandled tcp states in nvmet_tcp_state_change()
+         256577983763141390f1729f1512f613f32f2486 Merge tag 'nvme-6.0-2022-09-01' of git://git.infradead.org/nvme into block-6.0
          
-
---===============8021476899600189350==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662047369 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1662047368-752c79745dffde13fdd7c1666ccd1476268d3c31
-
-b74dbbe19b2551418509b04a5095d65b494e6e28 74b2c563c2a7b031a7717ccab07be385e4f8f7d8 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQ1IkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VSUP/jioztT6PobUtqESYaRu
-uEq5cqHGP4T119pW1d9JroWQpj+2EK/3L7ciuudSuyA2piCqpnoVnu76yrCmxFCc
-BLD61TuVFlHr3x+fBFtc6TgyyZyyKLYmN57dJRkjIPMc8HnU32Q+UI0i5EBhYOwn
-Wkzl0wATIkqJPk9s6t59NkevdNYCpOCkoooAR1rp/KIN3sen0jwKFgA79zWvFFSe
-ZP/lmK9vWjzPdt9iopUbrCW24zlGP6jZ+eMjTHHGrdSTdUYHCqOkkhvw1Sik6XQx
-+T7qLUoB/tOSkxKYn1rRtaqootveMVhJTCabvEZRtvQkpuFm2ALgkBp4fJkTsEWn
-ZSeSdeU1v+SdtYtH8fETiz2PfIsVHbx1ymWd+XWrL9Elps0Bge84IpMdl1RUsKC7
-oLNn5aQID/vQMshtSGF61dLUKoMebHN3KX3T0ENeOrDQBV4UvAGFZBxoQ2wkLQT9
-knghvEKYA95dZyZiOt2Pu9vaKz9ycczyG/U09H8he3z/ls0GDypVAkCsQJvvLPiv
-A3/54snFB4Ke98jiLTOH/lV7k1hD1ozv8ia5rcKOQHFHBNgu5/OUQ+KHcBfJKLzt
-Q9AxKVAoM+eKNIMPcUPIT9AhjmIRWG7eTD2b+RC9aSyio9KhJprt9h9qmNWcDmrb
-+75tgPFhWjaMlDJU9+H1fEBx
-=Z1GN
------END PGP SIGNATURE-----
-
---===============8021476899600189350==--
+  - ref: refs/heads/for-6.1/io_uring
+    old: 32bde07ca566822d14f5faadcce86629d89b072b
+    new: 7a028fcf42a07c3c30396400b674e33f702e0d55
+    log: |
+         7723238b4361cc43fa91dfc09f7b9a0e1d2d7f6c io_uring: signal registered eventfd to process deferred task work
+         7a028fcf42a07c3c30396400b674e33f702e0d55 io_uring: trace local task work run
+         
+  - ref: refs/heads/for-next
+    old: 3009394a00cc67a6afe81fee6aa8122c539a22a1
+    new: 0c226e92fae7e524a86297e5f3775207c8571e86
+    log: |
+         7723238b4361cc43fa91dfc09f7b9a0e1d2d7f6c io_uring: signal registered eventfd to process deferred task work
+         7a028fcf42a07c3c30396400b674e33f702e0d55 io_uring: trace local task work run
+         0c226e92fae7e524a86297e5f3775207c8571e86 Merge branch 'for-6.1/io_uring' into for-next
+         
+  - ref: refs/heads/io_uring-6.0
+    old: dfb58b1796d19c8405a38eb457f97669440c59d4
+    new: 916d72c10a4ca80ea51f1421e774cb765b53f28f
+    log: |
+         75847100c351c7a49dddd60d1d023bd3e6640682 selftests/net: temporarily disable io_uring zc test
+         23c12d5fc02fb0712c64f3e87a27fcfa78e8af9c Revert "io_uring: add zc notification flush requests"
+         d9808ceb3129b811becebdee3ec96d189c83e56c Revert "io_uring: rename IORING_OP_FILES_UPDATE"
+         57f332246afa5929bdf2e7a5facddedb43549be4 io_uring/notif: remove notif registration
+         b48c312be05e83b55a4d58bf61f80b4a3288fb7e io_uring/net: simplify zerocopy send user API
+         916d72c10a4ca80ea51f1421e774cb765b53f28f selftests/net: return back io_uring zc send tests
+         
