@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3957970207663059326=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 01 Sep 2022 14:31:30 -0000
-Message-Id: <166204269019.8573.6035308715665266498@gitolite.kernel.org>
-
---===============3957970207663059326==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Thu, 01 Sep 2022 14:32:24 -0000
+Message-Id: <166204274418.8933.11418395637371357249@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 25e9fbf0fd38868a429feabc38abebfc6dbf6542
-    new: 9b03e79300100bcd36e77c8ce94ee7f47cd2f528
+  - ref: refs/heads/ti-next
+    old: b7365658294304fac75bf33d11824d3a949122a2
+    new: 6038f1171162faaebbbe3acd1c6712a18a161a41
     log: |
-         9b03e79300100bcd36e77c8ce94ee7f47cd2f528 arch_topology: Silence early cacheinfo errors when non-existent
+         0058d4814faadf4134d5f2cd22fbe721d4c9155e arm64: dts: ti: k3-am64-main: Add main_cpts label
+         e66e5b2d7f43d92fffb940988ed2822a1b28143b arm64: dts: ti: k3-am64: Add SA2UL address space to Main CBASS ranges
+         e170ae6dd67a00f750996820d55b144c5189be66 arm64: dts: ti: k3-am64-main: Enable crypto accelerator
+         f42f6f9e77ee6b1b86c006d0436ba303901529a9 arm64: dts: ti: k3-j721e-main: fix RNG node clock id
+         5ec06904310da6441097c8f2d6e3fb196f42bca1 arm64: dts: ti: k3-am64-main: Add GPMC memory controller node
+         c920a6caba68196f48f8ee57cc193e396f941011 arm64: dts: ti: k3-am64-main: Add ELM (Error Location Module) node
+         6038f1171162faaebbbe3acd1c6712a18a161a41 arm64: dts: ti: k3-j7200-main: Add main domain watchdog entries
          
-
---===============3957970207663059326==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662042687 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662042686-f8b7355b48f2602b92b4713a31fde9eb5da586b1
-
-25e9fbf0fd38868a429feabc38abebfc6dbf6542 9b03e79300100bcd36e77c8ce94ee7f47cd2f528 refs/heads/driver-core-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMQwj8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+svUQAKbXfgInV8QPVa4NfKo/
-Sup2QDsJUCto23Iij7EfRRAVHVmYAqJ2J6U6X6gBx/SroeGDGEu/anWu8xVWs3Ar
-jiD8NnqpS7FfuzBaxrYh9OahoSL6btOCp9XfsP2HBJuFv+zSupWxN5sZ+IUTm40S
-mbCNMCfrpBZnkroam9MeGG/N7DZ3CC6U2l1A1bH5wezwGZVeKS9ZrxcZeMyQ8WiS
-Z+c6gQOWI3H1pzRRvENnWhAVojC9gb4vbbC25gnXU4/J3XfqIsy0H+Wq12aA8kRY
-Pmr9zLiUeIry9gGYU7A/ZOfSpmUhdD0hYgS7PfptX1SJ8nHcquzeVc7kJL/zcBwi
-Fg2Uh7gotKj3Y2c2rEAiT7fxpXbMbQU2K2RSOYyN0WDjlTA9NFjhPiDPY7Dt1gKU
-7BBX9Zjp/OHPsqbjmi+RcrFm7h1/0qgNo3NSVvOozh/WlW7j1DXkoNqXK6cF3pvH
-qYF91xz/XOaJJ2s2l2e8ZIR3fEJY80ZoHifgz3GRcqmo9oZq/ER//50JZ/6ybOOU
-Rj+lBx6ignhP80sAwAfqQoFd63sl8X1nfWc5maZePnEgHEWHaK5PF/ZDrPZCBaHE
-KO+tnrxLE8g1uQmZWLgrg3xJ4vK5vX5Ncf7izwABJCr4K30+YJ+Gyq9ds6Ozdqgo
-jiwR2sl/Ni3p+/QAAZ8ltic2
-=S1im
------END PGP SIGNATURE-----
-
---===============3957970207663059326==--
