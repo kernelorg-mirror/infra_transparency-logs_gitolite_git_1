@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 01 Sep 2022 06:53:34 -0000
-Message-Id: <166201521485.19479.7637906368817685098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 01 Sep 2022 06:55:22 -0000
+Message-Id: <166201532211.22896.1404557560981962714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 27cfde795a96aef1e859a5480489944b95421e46
-    new: 12f35199a2c0551187edbf8eb01379f0598659fa
+  - ref: refs/heads/edac-misc
+    old: fb4b9685779f25ff063358623f3da4f3344be9bb
+    new: 93df19476535a4ed871bc5eae719b6d67cf3abc3
     log: |
-         55af9d498556f0860eb89ffa7677e8d73f6f643f RDMA/hns: Fix supported page size
-         0c8b5d6268d92d141bfd64d21c870d295a84dee1 RDMA/hns: Fix wrong fixed value of qp->rq.wqe_shift
-         45baad7dd98f4d83f67c86c28769d3184390e324 RDMA/hns: Remove the num_qpc_timer variable
-         12f35199a2c0551187edbf8eb01379f0598659fa RDMA/srp: Set scmnd->result only when scmnd is not NULL
+         9a1043d43a9ab75d28b8ec54512ea13ec33bc910 EDAC/mc: Replace spaces with tabs in memtype flags definition
+         93df19476535a4ed871bc5eae719b6d67cf3abc3 EDAC/mc: Drop duplicated dimm->nr_pages debug printout
          
