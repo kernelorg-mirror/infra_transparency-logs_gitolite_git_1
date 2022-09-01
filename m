@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 01 Sep 2022 06:40:48 -0000
-Message-Id: <166201444819.11888.17930621751446718654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 01 Sep 2022 06:51:05 -0000
+Message-Id: <166201506506.18545.14698079585515623160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 0e4d354762cefd3e16b4cff8988ff276e45effc4
-    new: a102c8973db7f7b7b6f75d51eed145d070438a49
+  - ref: refs/heads/for-rc
+    old: 27cfde795a96aef1e859a5480489944b95421e46
+    new: 45baad7dd98f4d83f67c86c28769d3184390e324
     log: |
-         a102c8973db7f7b7b6f75d51eed145d070438a49 net: sched: remove redundant NULL check in change hook function
+         55af9d498556f0860eb89ffa7677e8d73f6f643f RDMA/hns: Fix supported page size
+         0c8b5d6268d92d141bfd64d21c870d295a84dee1 RDMA/hns: Fix wrong fixed value of qp->rq.wqe_shift
+         45baad7dd98f4d83f67c86c28769d3184390e324 RDMA/hns: Remove the num_qpc_timer variable
          
