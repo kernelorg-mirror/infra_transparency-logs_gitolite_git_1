@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2499770510515480089=="
+Content-Type: multipart/mixed; boundary="===============2232302158801250069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 01 Sep 2022 13:03:23 -0000
-Message-Id: <166203740392.9644.5399725272289757269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 01 Sep 2022 13:03:29 -0000
+Message-Id: <166203740963.9780.9074149133116824064@gitolite.kernel.org>
 
---===============2499770510515480089==
+--===============2232302158801250069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 69e3e537ec8a2e345f72f65ff24d3486d4764d83
     new: 55e2bd9c41e800638676dce3f19dcfd16b309a08
     log: |
@@ -24,28 +24,28 @@ changes:
          55e2bd9c41e800638676dce3f19dcfd16b309a08 MAINTAINERS: Fix file pattern for ARM/APPLE MACHINE SOUND DRIVERS
          
 
---===============2499770510515480089==
+--===============2232302158801250069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1662037402 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1662037402-1e05be431062cf459483b8fc067e512df8e78937
+pusher C3F436CA30F5D8EB 1662037408 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1662037407-2f756fe8f9342f36f8169eba078518fb6d81491d
 
-69e3e537ec8a2e345f72f65ff24d3486d4764d83 55e2bd9c41e800638676dce3f19dcfd16b309a08 refs/heads/for-6.1
+69e3e537ec8a2e345f72f65ff24d3486d4764d83 55e2bd9c41e800638676dce3f19dcfd16b309a08 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMQrZoACgkQJNaLcl1U
-h9AwPQf/RTBXpqjqyGEIWbNATRrOxw3QMJDbCdySHDqhmJd9E7GjBLg624ZIslcz
-lmJFvSeybl4sl2sTts9PgkKWA0lHX8zSaMguzsERw5hj54finZzW/98HFvZScI4g
-TmUy0bMZDFxlDL7Kq4G7Urt8OQYos6+VwU9v/qWvDq3dKH75+RmlO78v4Zy6toJr
-OCyxAHG2zfyXSbul4QLkffT8B1nu+7I4t6bSSGJvdMb+7KjOf7A0050EOLztcoDw
-fz3+emh1eq9k8aJQLOni6JdUbkHCCY1PEGfgpGKzQySllMbyrO/smkOBlbl7vpHN
-dr9l5aut5FILoDfqQAe9K/16qFU3JQ==
-=/Le5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMQraAACgkQJNaLcl1U
+h9BHlQf/brulttcpS//4Kgm+fmblReOqa0q6G3q1knbk3pLqq0t1sgSJJYrP2t+h
+Yv067w34msdUppkfBs9RGXZ9Etk6lBUk7pKRbaMQb8wwql4r/dLNaEY6kIA6gMyW
+jQ4TUyjwb9nAyWimTINoW3Vsd+B33gHO7IZkvu90Tr+3ExHIL5/S44gBLq3FbJ6Z
+r7Cr6wfq0KpIYXJ537QhxW5aTsr3lop9JtNLDO1Lb9wQHyJIZisPTLEmgDsSsJVW
+e1GVoiqDHJupX40N+IRkzKy58lXTYNLPqPGiOVSai5t9OcxwRXwNAU2z0a0XHz6A
+ve5HVkGjpcTqfhLn3MAD2Xb6kKJF2g==
+=+7/l
 -----END PGP SIGNATURE-----
 
---===============2499770510515480089==--
+--===============2232302158801250069==--
