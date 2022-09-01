@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3524288894351140483=="
+Content-Type: multipart/mixed; boundary="===============7066069305422146515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 01 Sep 2022 05:08:10 -0000
-Message-Id: <166200889029.10738.1245965130477255620@gitolite.kernel.org>
+Date: Thu, 01 Sep 2022 05:08:23 -0000
+Message-Id: <166200890302.10897.2264075917308829260@gitolite.kernel.org>
 
---===============3524288894351140483==
+--===============7066069305422146515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 3ea09b2df74def9342326ceeb0b3fb2c838f153f
-    new: f63e0de0e2279925fae9a73feb3b0e5daafc4851
+  - ref: refs/heads/6.0/scsi-fixes
+    old: 785538bfdd682c8e962341d585f9b88262a0475e
+    new: 8fe4ce5836e932f5766317cb651c1ff2a4cd0506
     log: |
          c0a50cd389c3ed54831e240023dd12bafa56b3a6 scsi: lpfc: Return DID_TRANSPORT_DISRUPTED instead of DID_REQUEUE
          da6d507f5ff328f346b3c50e19e19993027b8ffd scsi: lpfc: Add missing destroy_workqueue() in error path
@@ -29,33 +29,33 @@ changes:
          8fe4ce5836e932f5766317cb651c1ff2a4cd0506 scsi: core: Fix a use-after-free
          
 
---===============3524288894351140483==
+--===============7066069305422146515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1662008872 -0400
+pusher 75C5DE3D 1662008893 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1662008871-f67d6fa4367ee388c4516fc762ef1ad7d90ac036
+nonce 1662008893-c3810de34e37ddb2473126118517478d5495fc80
 
-3ea09b2df74def9342326ceeb0b3fb2c838f153f f63e0de0e2279925fae9a73feb3b0e5daafc4851 refs/tags/mkp-scsi-fixes
+785538bfdd682c8e962341d585f9b88262a0475e 8fe4ce5836e932f5766317cb651c1ff2a4cd0506 refs/heads/6.0/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMQPigACgkQ7ulgGnXF
-3j3MCA//bTWui5+dvfxp95SLH1qXajlXkGR9F205KXf+42wqERKuzXooYQbqyoC9
-rWbIlkJlTKQgVI8Rm2wHQ+GaLAiEzmpbko/HiJXpxwQbOhZERMdIJtrlyxuxcO1M
-OY/96iMlarPWQsQdCg90WPoXy/bEN2ft4jQxvdsKCxkZkxr9KAdkAUd+hpvpw3JN
-/OgDa24qZLKnu7SuoBMSeLosspi3A3kkioiGSvkfyLQw19Towt5C04Zs6Q+EqOmP
-cERQNgbj1bzZ5TvklydPPtKaT6IAwlldr8fLJRs+Dnl2DAOtRfPgWB4/ilLk9FI4
-s4+tzeQl+dfqSGfuy/g1+VGg7bvsUXPF4IP+TJGmaV1mhuwD+9FINjict6KDtxus
-zydgon2tTN4RKAwmHy0U4ZOOx5dzn0VpYycmHYs2ZVb0qxp/1SSLMYtWqPv4FQko
-Dt4CZzrPNjf6sD+ZgYg/8HpJl6k5b0Y7lAIUmrX2jGefxgReVLtXxVnRahgmPDKN
-USIqht3BhWBh8ZTB0HxIlJXYyX2/1X9mbAsCkq9EOFYT1DjtmIXvhz6oYA53WupB
-i9qz5ZFTeczKWongFoRXOoJ2WGpls+dTyecilRQQeLbpF7poTH2XRGEfDW7W9XeS
-D8ew3epUGWWKTUTrnhMWiHqv7Y90EUOzLRMAQxbzEivuA2dpB9w=
-=sAUk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMQPj0ACgkQ7ulgGnXF
+3j15Kw//YsrIoMfI6LAJvIqp3GwjGK749T4UQ93eYI4hKIJp55Ik39w7ORg1m1Bc
+swYeJtUgB+Gdi1RHlBFuAJ6d5Vrz9DChi6apL2vknIrD0yRxU+4MtaDwGPvCfw5X
+U6Bi0RKd3TkL3jR/FUcXQnXrazlcn4Zc9EpchMp38bOLYlavE9n8vaYVwguCSD0h
+okpPR/6ZYkvdx6Fwx1HTspPeNlaxUiW8QXx2BgJiWe0XsnsYs0X0GSzrCqERckpS
+z2C2Tq/4DreV4Hk+BVUj4XRxW3TmfPfwowYykTB11l+YIfUNja8d/EJRSF2ga0b3
+0PtztETkfh9q5I6AO/TE+UNmraeTsVBAOIIJpbo7TaIo8SkXwHjCy3cDFh0CkvHC
+RyX8c1Q0cLaJXaBB/woUFDep1eaPZ+XicW8Vhxc7LHqnX586JY/Vk2BuEciujqq+
+oLalWPwG2hoJ7Mcq2Ia5O4b3Zyto9L1kJ4MXdSU0OW/ZNIH/SnmYBjqmkfFDTklc
+0fiJDeJy12ANyE0wlSdkaRHBA7Y7X0Yg/fHzpPPTEIyCsxPwcaN+FENBBP2n7eTm
+3x+9qBMccA+c5E6dstieCNf4+KddOucVUxDo2KqrGN958ZJ1wnSMeVq/skal0oiz
+pB29yI9TISifKgwf8M8WeX7XqQsfCdbdtKe8VekhO1oLwIfgfcE=
+=CVvv
 -----END PGP SIGNATURE-----
 
---===============3524288894351140483==--
+--===============7066069305422146515==--
