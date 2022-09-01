@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 01 Sep 2022 16:50:03 -0000
-Message-Id: <166205100351.10885.9935675719219924494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 01 Sep 2022 16:58:14 -0000
+Message-Id: <166205149405.16605.8824736614057203951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-6.1/block
-    old: ddbfc34fcf5d0bc33b006b90c580c56edeb31068
-    new: 16ede66973c84f890c03584f79158dd5b2d725f5
+  - ref: refs/heads/master
+    old: d85048fbdf05e354c12424c2e3d1b1c80fe416fe
+    new: 10b55de0329727127d61fc7f3948deac99e90a5b
     log: |
-         16ede66973c84f890c03584f79158dd5b2d725f5 sbitmap: fix batched wait_cnt accounting
-         
-  - ref: refs/heads/for-next
-    old: 0c226e92fae7e524a86297e5f3775207c8571e86
-    new: 7817e3dc4b3e547138bae3f1a91b467d661fbe5b
-    log: |
-         16ede66973c84f890c03584f79158dd5b2d725f5 sbitmap: fix batched wait_cnt accounting
-         7817e3dc4b3e547138bae3f1a91b467d661fbe5b Merge branch 'for-6.1/block' into for-next
+         10b55de0329727127d61fc7f3948deac99e90a5b Thu Sep  1 04:57:29 PM UTC 2022
          
