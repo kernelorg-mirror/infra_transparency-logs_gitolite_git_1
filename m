@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 01 Sep 2022 00:02:11 -0000
-Message-Id: <166199053171.14024.16284678071371940099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 01 Sep 2022 00:45:04 -0000
+Message-Id: <166199310469.12434.16550877796041959355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 5cef95ab28ff6ff110a92672378d2bd8572d4d6e
-    new: 0efe125cfb99e6773a7434f3463f7c2fa28f3a43
+    old: e453f369ecf4db4913ef6916603037f2d7141035
+    new: 501565a1eebdcbca5943152e924133279f56cfbe
     log: |
-         0efe125cfb99e6773a7434f3463f7c2fa28f3a43 netfilter: nf_conntrack_irc: Fix forged IP logic
+         501565a1eebdcbca5943152e924133279f56cfbe t/io_uring: unify getting of the offset
          
