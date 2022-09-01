@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 01 Sep 2022 08:15:04 -0000
-Message-Id: <166202010438.13883.2919426020521168634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 01 Sep 2022 08:23:46 -0000
+Message-Id: <166202062638.18395.9656962245745022967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: 0b4f688d53fdc2a731b9d9cdf0c96255bc024ea6
-    new: a8424a9b4522a3ab9f32175ad6d848739079071f
+  - ref: refs/heads/testing
+    old: 26dbd66eab8080be51759e48280da04015221e22
+    new: 8a04d2fc700f717104bfb95b0f6694e448a4537f
     log: |
-         a8424a9b4522a3ab9f32175ad6d848739079071f net/smc: Remove redundant refcount increase
+         8a04d2fc700f717104bfb95b0f6694e448a4537f xfrm: Update ipcomp_scratches with NULL when freed
          
