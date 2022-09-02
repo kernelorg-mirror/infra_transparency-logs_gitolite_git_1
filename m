@@ -1,59 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4113911577674006106=="
+Content-Type: multipart/mixed; boundary="===============2488520592896796873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 02 Sep 2022 13:27:07 -0000
-Message-Id: <166212522760.29253.10611135631565449456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 02 Sep 2022 13:29:35 -0000
+Message-Id: <166212537560.30169.5045055689266538135@gitolite.kernel.org>
 
---===============4113911577674006106==
+--===============2488520592896796873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mld-wip
-    old: 7d288a2eab06ef2eb29a04796692bb3cddaa9fbf
-    new: 78e4b5e84cbc0ca5941e0a8dbe76cb3cce732147
+  - ref: refs/heads/tty-next
+    old: cac8f7194111bc841b609fee5f1b20dad8f86ded
+    new: e4cdd25cafac3f61c74c146db5de7a5c9bd7b6d0
     log: |
-         a3015763717488db2db032f11bbee4e8a820417a wifi: mac80211: keep A-MSDU data in sta and per-link
-         b9bc2e8ee402e19753086db10bf3d9312b8b3322 wifi: mac80211: implement link switching
-         ec740a54aa92c3f1028c59b99a686b0c3349c919 wifi: mac80211_hwsim: always activate all links
-         e6a6ba6dca9a8184882a91910825fccfd81fe203 wifi: mac80211: prevent 4-addr use on MLDs
-         78e4b5e84cbc0ca5941e0a8dbe76cb3cce732147 wifi: mac80211: prevent VLANs on MLDs
+         18417b01c1e436d816b33e53b765764c3f196ee0 serial: 8250_men_mcb: Remove duplicate UAPI:serial_core inclusion
+         bf98ef69f75ddce0046c04d351b07f44e9b2be53 serial: Fix double word
+         0a64ce6e5442bbd96cbe9057d9ba1edab244f25b kernel/panic: Drop unblank_screen call
+         b74dbbe19b2551418509b04a5095d65b494e6e28 tty/vt: Add console_lock check to vt_console_print()
+         74b2c563c2a7b031a7717ccab07be385e4f8f7d8 dt-binding: serial: mediatek,uart: update bingding for MT8188
+         e4cdd25cafac3f61c74c146db5de7a5c9bd7b6d0 tty: mxser: remove redundant assignment to hwid
          
 
---===============4113911577674006106==
+--===============2488520592896796873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1662125202 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1662125201-90d3c87dac1f781beccd4a4e0c25a3f0f0a5cdaf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662125375 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1662125374-4d80984264619e2e2c78d0de99ee5727989a4af9
 
-7d288a2eab06ef2eb29a04796692bb3cddaa9fbf 78e4b5e84cbc0ca5941e0a8dbe76cb3cce732147 refs/heads/mld-wip
+cac8f7194111bc841b609fee5f1b20dad8f86ded e4cdd25cafac3f61c74c146db5de7a5c9bd7b6d0 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmMSBJIACgkQB8qZga/f
-l8QsJQ//S6FNO7fRqsZpimRfh6QDcAbg/Ec0xBfZsBy01DruvUKTm9y1s0h0jUEt
-tN81rhnPFLqr4HtTtV9cgaAT2W0igqG0tkN6Px4/IWcsbQZgbpDcGk3uZOFTWYg6
-hGdAYYCnMe2KVrbTldA2/bFQgpycbTHcsjOHP+oF7kE105Vr8/khsufq1QpBhvVJ
-Kq/YbhUZw5qFMUt7Lw76HF2krT+XocTdUilZDoJtGlb8vJ2GBKOGO90ocnp9I1qM
-oY+gbnCG+gQNYDVj4v3tOwmhAMd4Qx19Z/GwuJ5YM6UeDohC8wF5IgAHWLC3BHyE
-PFXpn9hTkfhW2o53IWs6Hgir9/ddT1WFnPt6PLC7ObkLVe8d/tYzKQUjZ4WyRILj
-qI/h6jq+Y3C7XMoNSqjcrEm5f8WyQHmjz2vZnPnOAozLmN+OUPYd1pG22y5nF2SU
-LauOJ4AxsSvlHwTCZW4kCzl2BXOWPEQGaNolLjRizHPslVA8Z9AKwLuZufTbYZdY
-4pPhgijXfc5v2aT5YRKRG13/jO06wpTsBSL4Dd7GnGhejIT2bhmlmqY3VWVvl24X
-Bowpua1Ddq9GHGYtOwzIQ4GInDR3KmAXgJtd537fYFoNgYDNRPeLHncx5+wDx/so
-JEbmcJoyvEkctH62EBhqT2941zRRshJMlgAAepCEYqlum5NOknM=
-=XUdI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMSBT8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sN0QANMCeem0tyCQj+DHhnv9
+B3HLugeN+Yb/j+A40L9LsPiJIhNbXJeJ6FWCGKjO4wNBuLTN9cA6CrMjZaEEyuwV
+0RmnyPvkboMTcJaRkEO4ME9m7PfLURtKWNNVpoE4zbapDOFkjnD5lK+elazleQPq
+jFdPpC30QKmHClOyQQazRc/OYlqF0VnA5Y86quADoAuKuMDTAqrkezCyFOgHdecF
+/pbyIvJTUiqxt1E0vYjVKEx0FguHy5lRzf+t2iJmRLVwOck9kux6FPZdsnUkthEI
+J6V4BlW3olQXGSPtME/KOF7oHVO1ox1xIGLinGkE4mz6MK0D2N4k0OzD7qLAgayJ
+TXX3/7mgRwT3YhpGerVrVGXFfRhJ+go9K+zYjccinOIpqluuI7zMlBEx0Ds3KYTr
+BaaVqUomLuuFSTlUM1u4KH4pzmmHX0i+5xuen7bF4SUooldyyDSyRrtrWSRhXi5P
+eixoyPOUKEPKJjpTOGZEe9k6Yu+6JZEHhsNiHpJ90GTsMs4D18CAHQLqtotlPenS
+lWASy5SgxsZyccw7d7jqIEYpnBzL9orUd8JBD/owpq1sx1KixIcd06CF+9MVX3Vb
+r69dzCe8GplFtDP1BlkW8/IusdoFcFdTdWQHIRQB9AH1mgmK1qzDWZTu9naPL+Sw
+aOTEvAAR7bzVuDI6E2LgQjv+
+=ky31
 -----END PGP SIGNATURE-----
 
---===============4113911577674006106==--
+--===============2488520592896796873==--
