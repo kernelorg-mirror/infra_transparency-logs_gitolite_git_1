@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8387561161008959918=="
+Content-Type: multipart/mixed; boundary="===============4849427988211094464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 02 Sep 2022 13:30:06 -0000
-Message-Id: <166212540689.32034.7293069019098511005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 02 Sep 2022 13:30:13 -0000
+Message-Id: <166212541379.32157.11847368877779294261@gitolite.kernel.org>
 
---===============8387561161008959918==
+--===============4849427988211094464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 55e2bd9c41e800638676dce3f19dcfd16b309a08
     new: 376be51caf8871419bbcbb755e1e615d30dc3153
     log: |
          376be51caf8871419bbcbb755e1e615d30dc3153 ASoC: rsnd: Add check for rsnd_mod_power_on
          
 
---===============8387561161008959918==
+--===============4849427988211094464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1662125405 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1662125404-885f5b9b3a3d336c1abc8442df09df0ea25b6ba9
+pusher C3F436CA30F5D8EB 1662125412 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1662125411-d57d464694e02f5c4cf9e1a0e72c9c0930f1ce99
 
-55e2bd9c41e800638676dce3f19dcfd16b309a08 376be51caf8871419bbcbb755e1e615d30dc3153 refs/heads/for-6.1
+55e2bd9c41e800638676dce3f19dcfd16b309a08 376be51caf8871419bbcbb755e1e615d30dc3153 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMSBV0ACgkQJNaLcl1U
-h9DehQf6A4ldVxy5lnHzzR2cMoPKJMd6WfpI8Q4cFBoJON5PlXbDVshFEIDBU1Dd
-at5ZpCyNHsW7wmI4alokyNqW2FU0AFnIqvszZzmErMRrw2gnD3+ePS3O4Xcdz8/+
-Yn5Z5kJvaifKJEacavsVIt1/Nf9+Fpcn2n9oBzm3zUnBUiY1vOg4YpSGDfUN2/vz
-4UHsUzl1DtzJF6PWiNj/eXfzZID3q3jpbIGYfy70ZEZiiS4f1bX8jMryaa+IdSyz
-B0il8+xFLC+7GzYjVQPjMuONrQ0OQ5wkHM+yNaHjkDcFalCA+EWMCcoVIPIHXjgt
-/DCGI5R+2T5FI2DXsCKNorxMGGFrzg==
-=6vmy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMSBWQACgkQJNaLcl1U
+h9AnTAf+Ps9OEEaefob3u4+L0sUnByt+BpZjFNzSIlFHGyuEWUVb03i3QdJWAtm9
+ZsRDoFZU3PL/BvisxO/IfUrq0C9uUyQKFAgpWLWW36FjDJjj2HNdFPTwNJOA8Nju
+kCbe+uajE+yegclGM/4SuVaMmmbXGf7xMnqExVTqfY32vx0aohpcPS2PB9ny67hF
+/dn4cCqUFxZevY/Y3un5wgRQp6Sg2bBsWtrMEl0zhhk3k/C4fKccMm4yQwhfFtU5
+k33PJucEIX9kWhympwcKVDajan9siJptB8AKxm5rsIo1js8BZ2e71ev8VRLt/gxi
+saqRoqNCOQIffn9Ze22BxBjFKKnK0g==
+=6F1R
 -----END PGP SIGNATURE-----
 
---===============8387561161008959918==--
+--===============4849427988211094464==--
