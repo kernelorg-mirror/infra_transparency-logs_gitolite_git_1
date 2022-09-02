@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 02 Sep 2022 23:16:44 -0000
-Message-Id: <166216060449.25008.14604892903994335436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 02 Sep 2022 23:16:46 -0000
+Message-Id: <166216060638.25072.14043011613164810794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 604b7a2da8f1fedc32b99bb894ae3bca919044cf
-    new: 7c26ffd32b86175958f4453f7070f066ef2c67cf
+  - ref: refs/heads/seen
+    old: f7275ae677e5ac6869e9c01a94c83487abec1572
+    new: 357b0a1440d812d61c3dc4fbf7122ad473d3a624
     log: |
-         7c26ffd32b86175958f4453f7070f066ef2c67cf Fri Sep  2 11:15:39 PM UTC 2022
+         cf2832f462b063d3bf4c88c1e27c26b4c5747e9f rev-parse --parseopt: detect missing opt-spec
+         9aea23c14f40b9d60e86a452c0ef1c4d330210e5 Merge branch 'ow/rev-parse-parseopt-fix' into seen
+         8157aab2e76892b91462d2c544cbcf9c449c6699 diff --no-index: unleak paths[] elements
+         357b0a1440d812d61c3dc4fbf7122ad473d3a624 Merge branch 'jc/diff-no-index-unleak' into seen
          
