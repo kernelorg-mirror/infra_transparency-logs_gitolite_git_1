@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 02 Sep 2022 03:33:45 -0000
-Message-Id: <166208962534.14532.4044305457456099367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 02 Sep 2022 03:53:39 -0000
+Message-Id: <166209081904.27405.8042152926007697289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/riscv-tso
-    old: 0000000000000000000000000000000000000000
-    new: f42c77dfffe0273eace54591e6964bb5a72e353f
+  - ref: refs/heads/master
+    old: abbc79280abc5e57fc52a7671d1388f1f54c946f
+    new: 5603072e0b3733c076529e49ee3150cbb3a7a5cc
+    log: |
+         5603072e0b3733c076529e49ee3150cbb3a7a5cc netdevsim: remove redundant variable ret
+         
