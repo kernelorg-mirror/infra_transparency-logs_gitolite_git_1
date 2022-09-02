@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 02 Sep 2022 11:24:07 -0000
-Message-Id: <166211784779.2800.13451328601617265929@gitolite.kernel.org>
+Date: Fri, 02 Sep 2022 11:26:54 -0000
+Message-Id: <166211801491.6652.6991464051644196248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 7fdc77665f3d45c9da7c6edd4beadee9790f43aa
-    new: 9efd23297cca530bb35e1848665805d3fcdd7889
+    old: 9efd23297cca530bb35e1848665805d3fcdd7889
+    new: e2b224abd9bf45dcb55750479fc35970725a430b
     log: |
-         9efd23297cca530bb35e1848665805d3fcdd7889 sch_sfb: Don't assume the skb is still around after enqueueing to child
+         e2b224abd9bf45dcb55750479fc35970725a430b tipc: fix shift wrapping bug in map_get()
          
