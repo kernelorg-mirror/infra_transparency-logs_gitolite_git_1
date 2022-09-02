@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2355542800693032413=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 02 Sep 2022 12:29:22 -0000
-Message-Id: <166212176232.19140.7004358385260912598@gitolite.kernel.org>
-
---===============2355542800693032413==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 02 Sep 2022 12:29:51 -0000
+Message-Id: <166212179168.19382.2150786383841076535@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/debugfs_lookup_fix
-    old: a90e63a33364ca6e03a47bd1198811c26f00e78c
-    new: 1179e5ae36a0634586019fd63085f0cfd240fa14
+  - ref: refs/heads/master
+    old: 7fb1cd49103030c68154c5645ac1cf09b06b70aa
+    new: e4a590b08d1309181f3904ae2fc622e018991ca9
     log: |
-         1179e5ae36a0634586019fd63085f0cfd240fa14 sched/debug: fix dentry leak in update_sched_domain_debugfs
+         9e2747c31e5a65e92173bc98a1b72f6a7c86d8e1 wifi: ath11k: Add TWT debugfs support for STA interface
+         607c467eac7d6da6be8127b9cc1893eae3ffb7f4 wifi: ath11k: Fix hardware restart failure due to twt debugfs failure
+         7d992bd4615c5b1ac4a92f691967d886e2bfec35 wifi: ath11k: Add support to connect to non-transmit MBSSID profiles
+         1a6f1169bfbb8f2264c3e91b51f0c4cf518913c7 Merge branch 'ath-next'
+         07859a54e780168f4159f6c144b431f736caa429 Merge remote-tracking branch 'mhi/mhi-next'
+         3269e77f5c0d68aa4833d3b7cc5b53ff1820f769 Add localversion-wireless-testing-ath
+         e4a590b08d1309181f3904ae2fc622e018991ca9 Revert "bus: mhi: host: Move IRQ allocation to controller registration phase"
          
-
---===============2355542800693032413==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662121760 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662121758-83351ecad031a0f07370a2debbcf932a61757377
-
-a90e63a33364ca6e03a47bd1198811c26f00e78c 1179e5ae36a0634586019fd63085f0cfd240fa14 refs/heads/debugfs_lookup_fix
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMR9yAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hAIP/2hcpCCqAQg8h3W6N8jd
-5XoPaoY3MEotRYYFYJ6iMJh9nnw0obHkuPF+2ogjfNtLY12iLSEuFVJHwY594fkG
-Und0c72LC5KBkreRpWrOQBCdAh1rR/KLUASUQvA1CydXiyhvLYE20lQ3z4RhQ++X
-A1iLbESbML8aAPYWGgVv32a/fDNiE2B3h6OEpqQ9/lwvs6Qb4sGlYXtNWirQxQnX
-yG5loJZ0bJOpxyxtazwUee8TbnE5Bl5OVDq1T5ByzNWzumT6FkF/eXfBCRp1+VcV
-IDX+CcvYPSFVPyH4nqMbNdXybeB+YM4WPtn9xXYrhPDlOlFjYsqj6SgN9h9TJnap
-GScRH8yWJbiG01ttcC1vovHjSdhIv4V/2ZgXrgJ7rxFoAaSQkkT4waCS8+A4WTxv
-fVsVNe6o2BAeL+CjXZ7xv8jRc/UdQDZCr5vgW7sqwAvpzSwv9GQPyBx0JBkbgtky
-O7Obbv5XbdckoawJihM4Na74Yra0m3elHlRO/FU/3lsMgaTbGmZDs8iNlVk9t/76
-gfKq/F8YavG+ldUPQi1P8MS3ZVpgMI4BJFKuOcRWuopfBnc3DieuQZBtgc30DMvU
-bS7LAYHqm5kXZHVzrLta8ajtESSd9sqpoI5YbAxXUzuFuNtDEakFroA2r/T24gBi
-wJqa9gTE+4szJ5SsDDbdfnco
-=0Y08
------END PGP SIGNATURE-----
-
---===============2355542800693032413==--
+  - ref: refs/tags/ath-202209021229
+    old: 0000000000000000000000000000000000000000
+    new: e4a590b08d1309181f3904ae2fc622e018991ca9
