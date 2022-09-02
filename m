@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5486045421875377701=="
+Content-Type: multipart/mixed; boundary="===============6093373372043437827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 02 Sep 2022 09:16:55 -0000
-Message-Id: <166211021519.30064.14177969206871745443@gitolite.kernel.org>
+Date: Fri, 02 Sep 2022 09:16:57 -0000
+Message-Id: <166211021790.30199.1702734184315137526@gitolite.kernel.org>
 
---===============5486045421875377701==
+--===============6093373372043437827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,120 +16,119 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 85f8d8fb8843e2d972c85e2c5afd1ebb7a0cca42
-    new: 29018e686331b34c8300e9f4a4fb95f64b43e3cc
-    log: revlist-85f8d8fb8843-29018e686331.txt
+  - ref: refs/heads/linux-5.19.y
+    old: 23755d9c2858ad4419f91f4c8a02568eca633a39
+    new: e09afbe41619e573bfd56fa7f4a13ddecf5ef933
+    log: revlist-23755d9c2858-e09afbe41619.txt
 
---===============5486045421875377701==
+--===============6093373372043437827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662110213 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662110214 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1662110211-ff40323d7260dc39a3fff32dfdc10ef119f28c88
+nonce 1662110213-528f3f8f71f9c970635992a7bf11d019904d4e80
 
-85f8d8fb8843e2d972c85e2c5afd1ebb7a0cca42 29018e686331b34c8300e9f4a4fb95f64b43e3cc refs/heads/linux-5.15.y
+23755d9c2858ad4419f91f4c8a02568eca633a39 e09afbe41619e573bfd56fa7f4a13ddecf5ef933 refs/heads/linux-5.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMRygUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nnEQAKGJmr2/sYALHbGhV3+o
-xJd7uLCk1rLaevSdayAcDCMoQulngNPBFzVlcsheR9cl2LrpmwpQ1oGZzS+TyXMD
-UnryReyMpqYE8xzBO8wX9/GeAj3tOAD6BbdGpFynkR9qpzEc23uo8JLhbnb1f6yx
-G8NW48D8GS0c8YSFO1m6K8Xbeeh3lNbDR9czWtmbWIMUmLynIKlC4lYUfmmpsP+2
-3X33prerIqBf+G1rrJN3wScH3amiBHMYLSIzVfMa5t76UnPFS3QlVcsqbxXdBj2z
-vI/MJ15y0SY3tWNDVKI91zGfaAblzgGXHLviYNNh7XzU2AuTeWrw1tXnLqeXVVI2
-92rvZ+Tj6DNi+Fx0OcKWCSNu5JyR8msDezvHq4j4oxrM2fsN5zwZDGxDOQeh3FGG
-5LKVWE+lPjgt0s15dIwUwpaAsxWI8HwMAnaUiHvX/IiWrPHP67yVOl7xU99MjnQN
-yR1LI9Wrq+4JqOue2aQ4pAmM1Tl7RORXQZluMSPyTe1CG7Nq6eFuV877c5y+GscT
-2wQuayvbpXP+VhRieumGve1QbKJ6oqhHyTv1Rs2Mhg2HV7GW4/8ZeX4mC4LKy175
-O59K2oTp+IJSxDPfY6TqbjEGwdPfLH5apx+LKgiNqxU0zevStuFeG3BdYicT9WxW
-HUgH8/6rMq91SnBJkptwxKah
-=Sl0N
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMRygYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WlcP/iNJkuAvnNrEe5Ov2tEZ
+64kNYpjoHL85R/z9FHOtwY+PeZmNslh54/7TweGhBSFHSRrktFirNRe8WL/Lc1u9
+kizBZxrLRGIfjcYHPnKtW/fZzRbIBgQIIIrPKC5IuACoEF8w1jpxQ+dsCREAA+Tk
+neOOrxC6QUJ4RdiVi/EOSFz4U0yQT6uNz077nFy708iSqoiwjehC9PVkMY4coxF7
+hoZq9ViV791woqebgjC/s4xof1Qt8Yv6kQ3j4xbGRD6F/u8acLiSZ0mV2UnQ0Jrv
+xCxii9u5QdeY/K+tgOlw4V0yEgKMKMphyI8dQqewtRlXeAw5ySiRHP85g0LPsYed
+w+jdlV6F5IFEdWCnRI1xWGHKxHLXbp9zyVIpDGvSALGS2XYJB08NPPdPbD3uJdvY
+0vtt7PXqUp50SHocbuinc7yzf1562hxSGKhT9aylfwMWP+0f7uinK0bjzcbYkcj9
+/IfZPyIb2UulR2h04jQkBJOpu5bz3HT67r+10bglmGKP11YZgZNduF/nOJNhkQiR
+mQofHTClvZU5Nn4C+1HOi/RtD/3Ay2pmLhZ2LvnjOVjEIoV0T5cyIfixClPvynia
+CB+0k62NWsVEbLN/9FJ9oiAGKrOnoI8DRcjPnogGBzjGGjdLZgLLk4fkWGowMNOm
+y+A0PNXB9Bun/FxlI2fIuYJJ
+=OWOK
 -----END PGP SIGNATURE-----
 
---===============5486045421875377701==
+--===============6093373372043437827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85f8d8fb8843-29018e686331.txt
+Content-Disposition: attachment; filename=revlist-23755d9c2858-e09afbe41619.txt
 
-0798e27f68d1d718e1a17eca609faebab8215d5c mm: Force TLB flush for PFNMAP mappings before unlink_file_vma()
-48c9c06727bbe5b6b68493ff120f5061f11c5db5 drm/bridge: Add stubs for devm_drm_of_get_bridge when OF is disabled
-354209480b55376fcffbf464fa9f119ad9740982 ACPI: thermal: drop an always true check
-618a3b530b7b8436f9d13a02b1a9da5a8b251b6c drm/vc4: hdmi: Rework power up
-f53058b74d46c3c6fdb6e772aa0b2b921472ae68 drm/vc4: hdmi: Depends on CONFIG_PM
-9f6e65132c10abf37821ff2b6a6af50bd80380c1 firmware: tegra: bpmp: Do only aligned access to IPC memory area
-23566485393e878a1d535c209e88232a21d206a5 crypto: lib - remove unneeded selection of XOR_BLOCKS
-7d15f7b85b5b222a663d0db6608da2e3c0026adc Drivers: hv: balloon: Support status report for larger page sizes
-e30b6baa0807fe3858e5563ac18c52b4fbdd8f3b mm/hugetlb: avoid corrupting page->mapping in hugetlb_mcopy_atomic_pte
-af912dae856573376c12863fbf491c5a8b41cc97 arm64: errata: Add Cortex-A510 to the repeat tlbi list
-53847a2ce698e5170263aef1dbc662cfe1893dd5 io_uring: correct fill events helpers types
-f44db62208a2a2a689d99f62d8bbcad85fb50c27 io_uring: clean cqe filling functions
-6620e2a22b34ec604f144cdd2bdbaf0f23f8d047 io_uring: refactor poll update
-cf01ab358a37c3543ac3cd2b881dfc8efa21e4df io_uring: move common poll bits
-1f47f6072f2f46c2b23d0e57d4459e10e5904e8f io_uring: kill poll linking optimisation
-534ceb056d931d768f50085685476a52af8a443d io_uring: inline io_poll_complete
-4b8145902b2196a917d7bbda4e51cd72e1b306f4 io_uring: poll rework
-645d78ebea96ca80db538e2ec84193bfc4ad1138 io_uring: Remove unused function req_ref_put
-e3ce094140dc41313f0f9a7deba248477e390fea io_uring: remove poll entry from list when canceling all
-97d3ad06eb748d44ae250eacdd175bfcf012dedb io_uring: bump poll refs to full 31-bits
-41c8a17f0811f79e1bf2b505d03ffff2e2980bcf io_uring: fail links when poll fails
-178c39069c574a2b0a82edf3c98b2f24d0820bb7 io_uring: fix wrong arm_poll error handling
-cac4b09afb31b4fcadb7358e5d031a92cb1e3d13 io_uring: fix UAF due to missing POLLFREE handling
-c9ec36f1ed7098b77468b9540cae327c9b68848f kbuild: Fix include path in scripts/Makefile.modpost
-2deb3bbc199b62e96ad10ab89332fa051f93e7a0 Bluetooth: L2CAP: Fix build errors in some archs
-ce997cd7a1dd5faa6961260a3d0a684f8520866f Revert "PCI/portdrv: Don't disable AER reporting in get_port_device_capability()"
-198777e35d56a84e3c34ef2605309618ace2c128 HID: steam: Prevent NULL pointer dereference in steam_{recv,send}_report
-4ac30888cf8b837cfced54a3c3fd84649765f852 udmabuf: Set the DMA mask for the udmabuf device (v2)
-110fb0094ed389e5c00bf80d4b27cf1d73994089 media: pvrusb2: fix memory leak in pvr_probe
-394f0ba2df4c9f24b399ae38f8fb7b97ae0d6d55 HID: hidraw: fix memory leak in hidraw_release()
-0330feb30e4fcb354c7ec8e7764aaf09194c3584 net: fix refcount bug in sk_psock_get (2)
-a46c5935e915a5f85d023be8f73f61bc25076c44 fbdev: fb_pm2fb: Avoid potential divide by zero error
-f9134004b176bc39a3ea7bb8cd935fafa67a3f89 ftrace: Fix NULL pointer dereference in is_ftrace_trampoline when ftrace is dead
-aa6ecb7fceada79dfeedc46b7847822015af05c3 bpf: Don't redirect packets with invalid pkt_len
-2f61d098500f9c605d1e16887860e9fc150e4330 mm/rmap: Fix anon_vma->degree ambiguity leading to double-reuse
-065f75f781c351cdad2bf6a028126314f18282d0 ALSA: usb-audio: Add quirk for LH Labs Geek Out HD Audio 1V5
-db0b9a1d27234e3551ddaa403e4c6af300d4a1fe HID: add Lenovo Yoga C630 battery quirk
-5b3172a254608dc4280c6eeaae58434faefa472f HID: AMD_SFH: Add a DMI quirk entry for Chromebooks
-3cd814e67b26fdd7d53e4b957ead2374f01a0f4c HID: asus: ROG NKey: Ignore portion of 0x5a report
-36b53644d3c206b25de346a07004bae1590c9cb0 HID: thrustmaster: Add sparco wheel and fix array length
-90a7caa20e70f151baa0c9905a5f43420caba887 drm/i915/gt: Skip TLB invalidations once wedged
-6b6f730a5c186b7e91282852256b8f0d2c343cc9 mmc: mtk-sd: Clear interrupts when cqe off/disable
-e007321700a8f53a3619c0b912dad2b7396b471c mmc: sdhci-of-dwcmshc: add reset call back for rockchip Socs
-fec316f741f58dc233c2301a1ff56824dd0ae9c9 mmc: sdhci-of-dwcmshc: rename rk3568 to rk35xx
-6217e98d5983a19fb91dea95dd4b5f640ac6dbc8 mmc: sdhci-of-dwcmshc: Re-enable support for the BlueField-3 SoC
-bfd8f346176579167d17e53ccddf41e96001ec77 btrfs: remove root argument from btrfs_unlink_inode()
-531272b1008044a1739996a2efc2a1e8a5de90b0 btrfs: remove no longer needed logic for replaying directory deletes
-ad9fb083545720c393d8958766c321ad3840cccd btrfs: add and use helper for unlinking inode during log replay
-8479fd769c8072807599b99b1e6e659515ebaa2c btrfs: fix warning during log replay when bumping inode link count
-2347a7f5333125c543520c8f0267285a40205fb5 fs/ntfs3: Fix work with fragmented xattr
-0c15c5e8ea8640d512a410afa7ca972c951b9913 ASoC: sh: rz-ssi: Improve error handling in rz_ssi_probe() error path
-f5e4243a8c4608c3a30e18499b45ed4c8e98d04c drm/amd/display: Avoid MPC infinite loop
-17461e343af0df9b62c578541cf8bf0a39d448c8 drm/amd/display: Fix HDMI VSIF V3 incorrect issue
-8cdc19eb954d10f58ec3135b5d0e4df0c40a3bc3 drm/amd/display: For stereo keep "FLIP_ANY_FRAME"
-ed31ae30db9cfa1233899a9698d55bfe3552864a drm/amd/display: clear optc underflow before turn off odm clock
-d2ab18fee0cb8de4351c5e6e69470c900fbdb304 ksmbd: return STATUS_BAD_NETWORK_NAME error status if share is not configured
-bc5255dede26bdb1e8a85b94415916e751dfa7e9 neigh: fix possible DoS due to net iface start/stop loop
-59272d657662d7df771d77ec783d7d3c391a9a67 s390/hypfs: avoid error message under KVM
-94b7bcb62024f85ff676c39fbea157f891e26f24 ksmbd: don't remove dos attribute xattr on O_TRUNC open
-382096d85810855b3ed151034b321139e31efe47 drm/amd/pm: add missing ->fini_microcode interface for Sienna Cichlid
-25e12311003cd531aac6d6c180ba2c4f176b5260 drm/amd/display: Fix pixel clock programming
-8b8c385479ba36f302e5d1800fa3187bd00b8c48 drm/amdgpu: Increase tlb flush timeout for sriov
-9688dff6e832d881730003abe341c75451f17fcd drm/amd/display: avoid doing vm_init multiple time
-4e52eb3c94a6e853268790d19f0c855cd335a1c1 netfilter: conntrack: NF_CONNTRACK_PROCFS should no longer default to y
-a2dd955430dd4caf562cbf3b540fb73e986def38 testing: selftests: nft_flowtable.sh: use random netns names
-07eed756c0529b17c7666d4efcacb56b19683870 btrfs: move lockdep class helpers to locking.c
-45b17cae032a4bbb825aaf8a8e3fb7091b8fe220 btrfs: fix lockdep splat with reloc root extent buffers
-97c9ce58ed436943b60b7594a3376aa2153fed79 btrfs: tree-checker: check for overlapping extent items
-e3e2a52865568ab86893b94a06af5c1ba43bfd86 kprobes: don't call disarm_kprobe() for disabled kprobes
-27da3677d9a61e19a8b6814c7f00507e2978cb73 btrfs: fix space cache corruption and potential double allocations
-a3c85fb96c3f4c203e91aab4a525e21a8f08e319 android: binder: fix lockdep check on clearing vma
-4bdcece8238f362a6698e1b9afe8667c960e06de net/af_packet: check len when min_header_len equals to 0
-5d4e857eb9e19d88498d0844a7988cc6a431c831 net: neigh: don't call kfree_skb() under spin_lock_irqsave()
-29018e686331b34c8300e9f4a4fb95f64b43e3cc Linux 5.15.65-rc1
+7dc42cb8209fd4d26337e8ac2f3bfd4f7c78a758 drm/vc4: hdmi: Rework power up
+9bb7d78bed0e1c355aca890bd0d93431370d41fd drm/vc4: hdmi: Depends on CONFIG_PM
+3c298f765ce706f454257fd1d6c5f00f7147e44e firmware: tegra: bpmp: Do only aligned access to IPC memory area
+17f0ee60e6306ef60834c8bf4a01002092c3570c crypto: lib - remove unneeded selection of XOR_BLOCKS
+97ba0269f5c1de455d588d81c36567e1a04ec253 docs: kerneldoc-preamble: Test xeCJK.sty before loading
+6528849a1dd183e7301cb3d93bcf18d8eb60378e arm64: errata: Add Cortex-A510 to the repeat tlbi list
+ac33d6e02fad35acad626eb4f93dfaec6effa19e Bluetooth: L2CAP: Fix build errors in some archs
+52ee4170135340a9c2619733731077d0f9babff2 Revert "PCI/portdrv: Don't disable AER reporting in get_port_device_capability()"
+986c8d5b5ac571375c790ab983533c7fe66d8a1e HID: steam: Prevent NULL pointer dereference in steam_{recv,send}_report
+67a218d95f18e01eb856dbbf1efc41f7b91600d1 udmabuf: Set the DMA mask for the udmabuf device (v2)
+a224251c34e879374d851ac2a1bac78f2d43a032 media: pvrusb2: fix memory leak in pvr_probe
+b6cfd189355b193ef1468c325935ac8a759759c4 USB: gadget: Fix use-after-free Read in usb_udc_uevent()
+4ca068282331945a10f532a4e16f4cc3581591fe HID: hidraw: fix memory leak in hidraw_release()
+6151a44596de69be0f699b369564c2d25a11cb28 net: fix refcount bug in sk_psock_get (2)
+708eebd268d696f4adcb15aaab30cfdd227b0f0b fbdev: fb_pm2fb: Avoid potential divide by zero error
+baf7c6d4df6fb2c4960d49e4d683899f16ea9df3 ftrace: Fix NULL pointer dereference in is_ftrace_trampoline when ftrace is dead
+10a3c36db4c38edaf460ce209c8c869c6d20b48b bpf: Don't redirect packets with invalid pkt_len
+abfff70b60e583ceed4c87722b017b797219fc8f mm/rmap: Fix anon_vma->degree ambiguity leading to double-reuse
+6c075b69495775a6244c7e6608fa02078ed795e8 ALSA: usb-audio: Add quirk for LH Labs Geek Out HD Audio 1V5
+aa3af83b589918672f3347b4bb7d71d6bcce9fcb HID: input: fix uclogic tablets
+d33686d1cdb8163ec856efb91d88ba97a3e32651 HID: add Lenovo Yoga C630 battery quirk
+796c500fa06ce2a022ce3b87cf001209bf953be1 HID: AMD_SFH: Add a DMI quirk entry for Chromebooks
+e64264996234fb1a4939558aff07463979f13fd0 HID: Add Apple Touchbar on T2 Macs in hid_have_special_driver list
+18c641ec70416a40665a6fea43640a5c7c33e5ed HID: asus: ROG NKey: Ignore portion of 0x5a report
+de502e9f6ec422bddb69f3ab13d48ae779ae0478 HID: nintendo: fix rumble worker null pointer deref
+cc6c26d5c905fd41526894134f1925a622aec585 HID: thrustmaster: Add sparco wheel and fix array length
+36b686ee88d633e93c9b145a0535be72e582113c HID: intel-ish-hid: ipc: Add Meteor Lake PCI device ID
+51674eb5f351d6f7181c0b4849608fb2765607de mmc: mtk-sd: Clear interrupts when cqe off/disable
+a6ed2ee9dbd6238678d2d8ab1b08d4208510cd02 mmc: sdhci-of-dwcmshc: add reset call back for rockchip Socs
+cbe9f8c6d347ddfa6abbd9fe4ebe5f557b682db1 mmc: sdhci-of-dwcmshc: rename rk3568 to rk35xx
+7c14de3fa3446fa924b8719500b3d61707f06262 mmc: sdhci-of-dwcmshc: Re-enable support for the BlueField-3 SoC
+afa2cc785fe0e0b85f79158bb3708e969a5dcea6 fs/ntfs3: Fix work with fragmented xattr
+19a74de95b06d7a0a85b64a4e011d4fa78f9ab2d ASoC: sh: rz-ssi: Improve error handling in rz_ssi_probe() error path
+97908389de93b2531b833f1e5ce196ebaa19e870 ASoC: rt5640: Fix the JD voltage dropping issue
+e3a698360780752a85b2e603e1e5d82800a096db rtla: Fix tracer name
+a66993080ba0def3f77d26a97df81c712d7cb071 drm/amd/display: Add a missing register field for HPO DP stream encoder
+b6a8eb5067807e8c0db8d3156865eb6b4e7beef7 drm/amd/display: Device flash garbage before get in OS
+7bc5937caeb9735330e73834076c88d386c35bb8 drm/amd/display: Avoid MPC infinite loop
+4229d5ccc4fb1e15ae149a86060f74c4145aaed5 drm/amd/display: Fix HDMI VSIF V3 incorrect issue
+3f869bb6d4baeb9f575725486a86d6788a0651ca drm/amd/display: For stereo keep "FLIP_ANY_FRAME"
+df2e325a4e0cce131c262f22d724413493b07baa drm/amd/display: clear optc underflow before turn off odm clock
+8335a3b7a6888d858378c188501442c72436110d drm/amd/display: Fix TDR eDP and USB4 display light up issue
+b7316ce364c3bdf980305d73fc9f05422ad05731 drm/amd/pm: skip pptable override for smu_v13_0_7
+5aaca281688c4b9b3442bd233928a6a8f819a981 drm/amdkfd: Handle restart of kfd_ioctl_wait_events
+fa3262be1fc26b9434efb413708d391b2cb31199 drm/amd/pm: Fix a potential gpu_metrics_table memory leak
+8024680e5bd97c9af1fd597d6bc097c8c5701a1f ksmbd: return STATUS_BAD_NETWORK_NAME error status if share is not configured
+0d4d3e49247e92b1d680a13020ef7d6231dc14f5 net: lan966x: fix checking for return value of platform_get_irq_byname()
+88c43589c3982746d3fdbfc588d6c0735a97c344 neigh: fix possible DoS due to net iface start/stop loop
+92f89dd82618f7a9da53c8794adb7657a1d17666 ALSA: hda/realtek: Add quirks for ASUS Zenbooks using CS35L41
+07576ef75350abc47e535a501df64506dcd56eeb s390/hypfs: avoid error message under KVM
+1e6b171856944431e9096eef3c5dc6b4a7311acd ksmbd: don't remove dos attribute xattr on O_TRUNC open
+9eb0140448236dbb5dfd754d6174de5f6593b740 drm/amdgpu: disable 3DCGCG/CGLS temporarily due to stability issue
+6cdfd581a87e845b35674aadbcfa2cba5f64d8cf drm/amd/pm: add missing ->fini_microcode interface for Sienna Cichlid
+17b6eb3fdce45bfb3e18139e25dbc5d895932cc2 drm/amd/pm: add missing ->fini_xxxx interfaces for some SMU13 asics
+0bb565408392ea65bbd14bfbca6b741ba516f448 drm/amd/display: Fix pixel clock programming
+d6b05506a9e3e2a97812d2ed4f6ebc7ab99c07de drm/amdgpu: Increase tlb flush timeout for sriov
+466af59152d3b9f1f011d5efe5caa7e17a5147d0 drm/amd/display: Fix plug/unplug external monitor will hang while playback MPO video
+fb0782e43c6864e984ee60151076a0cfecd3d635 drm/amd/display: avoid doing vm_init multiple time
+ee8e1abe0dd42d82383ef074aadfc595f85439c5 drm/amdgpu: Add decode_iv_ts helper for ih_v6 block
+4df5e3aa939b548f677f327424d2aae1ca70ee9d drm/amdgpu: Add secure display TA load for Renoir
+71761f27c95a8aa363f805c5066d900741dac650 drm/amdgpu: Fix interrupt handling on ih_soft ring
+7a0864637f086422e7dec3c79c69128824253a24 netfilter: conntrack: NF_CONNTRACK_PROCFS should no longer default to y
+aa6322577836b6a807cd1a12e9f220c46dff0392 testing: selftests: nft_flowtable.sh: use random netns names
+ed2e7c462a946d0e881738ee7ec979c835b292c9 platform/x86: serial-multi-instantiate: Add CLSA0101 Laptop
+01f063fc4826353c30f04dd4221a54cc3e8787ec ALSA: hda/cs8409: Support new Dolphin Variants
+a4d473a7fd14d30a69beaa90dbbc720cc7ddfeb9 btrfs: move lockdep class helpers to locking.c
+2b8848fc7b836d7afcccbab7ef2625326b476dee btrfs: fix lockdep splat with reloc root extent buffers
+e74f49ff9e12b2860d52f1970bc14791559531f6 btrfs: tree-checker: check for overlapping extent items
+011181aec6fd7e5c84d2fee77e80063dbff4b3d6 android: binder: fix lockdep check on clearing vma
+8a33f3802d2e5ef681d60c4409c244a357f1209d net/af_packet: check len when min_header_len equals to 0
+62e9b7584f3bc5825251800c8434d23d70f7f4f0 net: neigh: don't call kfree_skb() under spin_lock_irqsave()
+1a0f58508ae22f1296e0550b457784fbebb23d52 arm64: cacheinfo: Fix incorrect assignment of signed error value to unsigned fw_level
+e09afbe41619e573bfd56fa7f4a13ddecf5ef933 Linux 5.19.7-rc1
 
---===============5486045421875377701==--
+--===============6093373372043437827==--
