@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5275243310560675894=="
+Content-Type: multipart/mixed; boundary="===============1898607439241549000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 02 Sep 2022 18:38:02 -0000
-Message-Id: <166214388245.22822.751129037463719974@gitolite.kernel.org>
+Date: Fri, 02 Sep 2022 18:39:17 -0000
+Message-Id: <166214395786.23326.7468641827233155261@gitolite.kernel.org>
 
---===============5275243310560675894==
+--===============1898607439241549000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: c196175acdd3ab06114bde2955971bc7282f2b85
     new: edae95d67384c1b130017e4f7f88e137135e3582
     log: revlist-c196175acdd3-edae95d67384.txt
 
---===============5275243310560675894==
+--===============1898607439241549000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c68cd258a67730c24566b9688d7c134e67459ac6 clk: imx8mp: tune the order of enet_qos
 0114e1c79ec4bc41c0eed273338d6083fa8ca507 clk: imx: imx8mp: add shared clk gate for usb suspend clk
 edae95d67384c1b130017e4f7f88e137135e3582 clk: imx8mm: don't use multiple blank lines
 
---===============5275243310560675894==--
+--===============1898607439241549000==--
