@@ -1,52 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============2400314735306684945=="
+Content-Type: multipart/mixed; boundary="===============1435676590736879545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Fri, 02 Sep 2022 12:50:37 -0000
-Message-Id: <166212303774.2193.11518450296445102040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 02 Sep 2022 12:50:56 -0000
+Message-Id: <166212305692.2413.9412174549174747444@gitolite.kernel.org>
 
---===============2400314735306684945==
+--===============1435676590736879545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/patchset/sysctl-next/v3.2
-    old: 703706ae847b1b42c17d6534d656aa815328ed24
-    new: 39e90266e4a0b070da66739f11fdfd5acb2ead70
-    log: revlist-703706ae847b-39e90266e4a0.txt
+  - ref: refs/heads/char-misc-next
+    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+    new: a68108c8370a7210626413e5aaf2327de3aeab94
+    log: revlist-568035b01cfb-a68108c8370a.txt
 
---===============2400314735306684945==
+--===============1435676590736879545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-703706ae847b-39e90266e4a0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4d4b1ae07e1aeab67a66380e6f648a698bcf5919 sysctl: Split proc_douintvec_minmax into read and write
-8ecfea71a72b3d653544bfe6ae50f3b5633af486 sysctl: Replace proc_douintvec with separate read and write functions
-c22b60c6dee2242c57aee6ae242eac5e384d92d0 sysctl: Split do_proc_dointvec into read and write functions
-e9092bf2b844625a1f42e66904adfb3447c8abf1 Replace proc_dointvec_minmax with proc_dointvec_minmax_fops in the ctl_tables
-d98ee59648e51b0753981e2362b510280e25e0ab Replace proc_dointvec with proc_dointvec_minmax_fops in the ctl_tables
-d85f3d8e98cb9e2314b7dc031976bf38894a9b82 sysctl: net: Remove static helper which is used only once
-6232b6ed82398baf3eb02b0550169c135c2373b8 sysctl: arm64: Replace proc_dointvec_minmax by read and write functions
-ccee2a2a3ba12f59324e1955a05cee991648d274 sysctl: s390: Replace proc_dointvec_minmax by read and write functions
-1330ae8eb08150013a7fb3d8094517e0ed4fd70e sysctl: x86: Replace proc_dointvec_minmax by read and write functions
-7406a2c4e09b173643ab65fe965d7045bc92d6a1 sysctl: net: Replace proc_dointvec_minmax by read and write functions
-4960ef2983950e41dc0762c22bf7951125a6db9e sysctl: mm: Replace proc_dointvec_minmax by read and write functions
-7aee7f4b26c6137ef1ba19ff4cda0f7b3f5fc5ff sysctl: bpf: Replace proc_dointvec_minmax by read and write functions
-d6cca3643311be3733b38e2a8168d4d550076050 sysctl: drm: Replace proc_dointvec_minmax by read and write functions
-a09261408db48dddbae94fc3a2f26c353fb096fe sysctl: yama_lsm: Replace proc_dointvec_minmax by read and write functions
-0bc41c82077e5e60c597829f051be9a66dfd6791 sysctl: sched: Replace proc_dointvec_minmax by read and write functions
-7c030119b1e607a9e91373eddd2e58afe9a9bcfa sysctl: fs: Replace proc_dointvec_minmax by read and write functions
-403e3968fd2f15f9092821da7e60babea07cd27c sysctl: perf: Replace proc_dointvec_minmax by read and write functions
-52eea32bd765e4f21451554f525e40e6b55d3b08 sysctl: watchdog: Replace proc_dointvec_minmax by read and write functions
-e98050200608de05f75abf9a8b83a9ad458126aa sysctl: timer: Replace proc_dointvec_minmax by read and write functions
-d7cca20675de334d0ffa5b63a9a785feed85e376 sysctl: ipc: Replace proc_dointvec_minmax by read and write functions
-17d6aa27879c79a7a927ca150e3c22c728c6a759 sysctl: Replace proc_dointvec_minmax by read and write functions
-39e90266e4a0b070da66739f11fdfd5acb2ead70 sysctl: Remove proc_dointvec_minmax
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662123055 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1662123053-0a14a0cb16a22cee393e10c7d178229408765c78
 
---===============2400314735306684945==--
+568035b01cfb107af8d2e4bd2fb9aea22cf5b868 a68108c8370a7210626413e5aaf2327de3aeab94 refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMR/C8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ff4P/1mLU4t911PICV0BgC2U
+FYqUCyonx7z7D+xr9KnTSTOZIXm88ZgVzRjFVt66067wnc09Aoc60tf8Zpzr75EM
+Wm7NvQ9FkDOIpm31ibvPlPoErSYGJ0VSz60Y7tVcBSWrZvN/eFkRemqrFOsUWwUA
+2zIEEVdQX/MDAOEvvB8HsjeivVjK8h4bOxYEwddUqvVM33guVveFfEXmQUotO/YJ
+RGIOex8fIln+bz/8G1qhKfwfubIHK31V2Ju2d7rtH8Nko0EeLtWSO+2fc7F1HVPw
+4MEivmUREAXXL09ewBqtJ4IUmJULoHaNDL6VUyBJoPtjf35MShUPuYs8jASIPkHK
+osV8+jsF0Z5qpRoS+MEEkwgFIfsi22EiweZ8tvixSkc4q4CWU4uMGxa1zVKnQcxV
+BgywR2ypgIX98Pp2yZlyG+XJMPVuCy6JzN8V50tv+1ObykjBJzFkBOq6ezJrUs14
+FjDpa/Clm+My8QGqa/MjIb7HcEtV2CPdKBlp+0e1hxsH/ZM5DSRqNP6LieT8z3x5
+5oajMgOcsUVeqhoFJAyD+RwHwmQcCOZaEQVUr3ohMVjPEJ+yM8jluwdwtq72Zu5O
+GlmY5fgGQvDW/YgJBlACCNJewfUGLEadb6Up2xg4WJz9IKVl3TtM0cwVeHY4QKBJ
+5XTy6nXOrEReJvNbkkE9tY+S
+=MWWT
+-----END PGP SIGNATURE-----
+
+--===============1435676590736879545==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-568035b01cfb-a68108c8370a.txt
+
+76ff33468beaabbd0fe141b3ea1c6f514a8ef7d4 binder: fix trivial kernel-doc typo
+22534a44cb8ca660a14d62e320e45fde962e9410 binder: remove unused binder_alloc->buffer_free
+eaf271ea844b8dea5256bd3c73e642ef13ce68a2 binderfs: remove unused INTSTRLEN macro
+9d64d2405f7d30d49818f6682acd0392348f0fdb binderfs: rework superblock destruction
+fccf202e01e0e5c9d5f1fdd00009614c04c82818 misc: bcm-vk: Specify the minimum number of IRQ vecs
+5cb14f15d79a8edfb9197deb97c7061d55b819ab misc: bcm_vk: Remove usage of deprecated functions
+f667f56b2f55881a705e5a67d30d71e5fb75dbe3 misc: fastrpc: Use USER_PD define in fastrpc_get_info_from_dsp
+5192e395c5cfa6f3d23165db38365ec7f8c5ee7a misc: move from strlcpy with unused retval to strscpy
+d8baf6ca8c19ea2053be81750dd4adf8e6e3b4c3 virt: move from strlcpy with unused retval to strscpy
+c3b69ba5114c860d730870c03ab4ee45276e5e35 misc: ocxl: fix possible refcount leak in afu_ioctl()
+621d5d6a83bc92a93c6653fd8a424a63c95269b0 ipack: Check dev_set_name() return value
+73392920f0e4bb8b04e9debf90cfe75a15fda9e7 speakup-dummy: Add support for PUNCT variable
+3f132e02d289f9fa208970928a8a8d2d7b1b2b1d speakup: Notify synthesizers of the punctuation level change
+116769d385a81f874f9d407ae92c09b1af44023b speakup_soft: Add direct module parameter
+d82a7aed83bacaee08cf77503e3d0e6e667f8526 uio: dfl: add IOPLL user-clock feature id
+22c053900095f4c71f7c6adc9b83d657d6529447 get_maintainer: Add Alan to .get_maintainer.ignore
+6e08c43dffd46f0571686917eeda4284ed220079 parport: add support for Netmos device 9900
+9c6d194f40a97ecab85af8c4af33ec934ea75716 VMCI: Update maintainers for VMCI
+a68108c8370a7210626413e5aaf2327de3aeab94 MAINTAINERS: add spdxexclude to LICENSES and SPDX stuff
+
+--===============1435676590736879545==--
