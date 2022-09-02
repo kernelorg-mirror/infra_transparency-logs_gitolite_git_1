@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Sep 2022 03:59:50 -0000
-Message-Id: <166209119036.32508.9374715546482891511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 02 Sep 2022 03:59:54 -0000
+Message-Id: <166209119466.32580.8223460354286009114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1ab3d4175775378106965ce32a07248675680c2c
-    new: aa51b80e1af47b3781abb1fb1666445a7616f0cd
+    old: 42e66b1cc3a070671001f8a1e933a80818a192bf
+    new: 7fdc77665f3d45c9da7c6edd4beadee9790f43aa
     log: |
-         aa51b80e1af47b3781abb1fb1666445a7616f0cd ipv6: tcp: send consistent autoflowlabel in SYN_RECV state
+         7fdc77665f3d45c9da7c6edd4beadee9790f43aa Revert "net: phy: meson-gxl: improve link-up behavior"
          
