@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 02 Sep 2022 13:38:49 -0000
-Message-Id: <166212592965.4925.5646590961572983478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Fri, 02 Sep 2022 13:45:47 -0000
+Message-Id: <166212634741.10403.10488740525036586582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 8cc61b7a6416541261d56bcdd93a711407f711ba
-    new: fe2ad08e1e1df77b6941916b87d4871d751b88b6
+  - ref: refs/heads/master
+    old: 74ca200dc763e6670b575fa1461ff1c4f63dcbd5
+    new: 61cddb24f505c4193793625d90c3c5592880c56d
     log: |
-         0d68e6fe12ada8fbaf35f0978aaf18dfb8d2dbb5 selftests/xsk: Query for native XDP support
-         1adef0643b7df1069a53f6f5b7bc66c8234db899 selftests/xsk: Introduce default Rx pkt stream
-         24037ba7c47b1a50ceb70079d08fc9c135f7df4b selftests/xsk: Increase chars for interface name to 16
-         a693ff3ed5610a07b1b0dd831d10f516e13cf6c6 selftests/xsk: Add support for executing tests on physical device
-         c29fe883defcbc6cd16176787a2084b8e05dabf0 selftests/xsk: Make sure single threaded test terminates
-         fe2ad08e1e1df77b6941916b87d4871d751b88b6 selftests/xsk: Add support for zero copy testing
+         f27039a5a79c2a752d7c4a922fdf5cb6106cc8cc radix-tree: replace gfp.h inclusion with gfp_types.h
+         022be11876879bbba4dc830aa93016af03cf0837 Linux 6.0-rc1
+         ceed8575579ae11080a69243543538329a86d63c x86/sgx: Improve comments for sgx_encl_lookup/alloc_backing()
+         ccc5606c1fbc898059e001398d0a401df0d302dd x86/sgx: Do not consider unsanitized pages an error
+         61cddb24f505c4193793625d90c3c5592880c56d x86/sgx: Handle VA page allocation failure for EAUG on PF.
          
