@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5177327914203587823=="
+Content-Type: multipart/mixed; boundary="===============7183157233093267378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 02 Sep 2022 07:00:26 -0000
-Message-Id: <166210202645.29232.596897456369974562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 02 Sep 2022 07:09:47 -0000
+Message-Id: <166210258702.1925.207359503697319520@gitolite.kernel.org>
 
---===============5177327914203587823==
+--===============7183157233093267378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 1da52815d5f1b654c89044db0cdc6adce43da1f1
-    new: 0f022aaac9ff2ceff683231b43923c650c90b47e
+  - ref: refs/heads/usb-linus
+    old: a6aedb58a887aa2ea142ee914ff4030d019584bf
+    new: c61feaee68b9735be06f162bc046c7f1959efb0c
     log: |
-         c6e50787889c8d55db65c769dccee98c7fcd1732 soundwire: qcom: remove duplicate reset control get
-         4ef3f2aff1267bfa6d5a90c42a30b927b8aa239b soundwire: qcom: fix device status array range
-         0f022aaac9ff2ceff683231b43923c650c90b47e Merge tag 'soundwire-6.0-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-linus
+         c61feaee68b9735be06f162bc046c7f1959efb0c usb: storage: Add ASUS <0x0b05:0x1932> to IGNORE_UAS
          
 
---===============5177327914203587823==
+--===============7183157233093267378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662102024 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662102023-8d4394eb8b048ca9c67843825ca3ec38f5b786c6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662102585 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1662102584-0774a1e5be929ac3ff28dd900f4accda833da825
 
-1da52815d5f1b654c89044db0cdc6adce43da1f1 0f022aaac9ff2ceff683231b43923c650c90b47e refs/heads/char-misc-linus
+a6aedb58a887aa2ea142ee914ff4030d019584bf c61feaee68b9735be06f162bc046c7f1959efb0c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMRqggbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+008P/AgCwbftgHkuJmVxa2DR
-7WKNrWWruAKmAJFerS/97pLrlTNZv7HEKISN2h1+wWsSkXEjrULcdZ3Pjy3pX+MZ
-0Jh9YmefeOchLEcZFjxZleidKa7uq2yYHgopfURQbb0ybtLVFbXdYyi/5D1Ya1/I
-K2wX5KZj8SRHR64FrDNYvBQ5ElZkLM37J/pA0zklUExrG8kflw/4rgjC2IN3Dr7S
-8gkxtplE9OrVWV3m2Ldh9QQXoKNxhIC8cCZL9OGRnA7KqQ8w/bA++LajiUF8w94P
-l+iEqfMYJtPbDWDoXu8fBv5W2YS9ve2UOxVg5SGJvHi7l4FBd/8eMJ28B0DgDgLC
-oCDbqZ+Bfc+qsvWrSA2FRCNLoo7W9GNsEXJ3p5ueVbq7hxk3UWdB91knrglbArDw
-Y+pXL4mAuOyDlSJZBA2Qgjvy6g3ITZCfS/iQzwd4R1754RwjUfx4sO2oFv3AdvEP
-QM5TrbK616AKzEq8BchPzK8EIB4mp6l10x8v90N8bEP7i4bNK5f8JBFp3gNPwqaq
-bdQBBOy4DMHKOafqSAIfjtovnbheqKif5GgViiCMiZRNXQOWDzGquYLMuoASuawS
-1knb8flyw4OfeUZ9kCGTdSR8zYOlqBC3GZjAOkCWfmdDLvHqF5cCdtJ7HsxeKmWw
-bZi9DG5UeavSDmedfQXg2mWV
-=0VL3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMRrDkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NtcP/2lm7ufyZoeIeamyO46z
+Zizb+u9ZuCuoRa/zyOR/ELaPSokVVHyvvleUH2aUGLAFLkewYlFxXHe8fia9H904
+HA1qFo24aJJ+WE4kolD3+OjMp88im4UQoS99YoupRZvrX1Og5gLakU5zJvFdOa7J
+ZK+sXYPoOsM8B4gWAx7AFCxLUS9vXwh5EKtQnqufV+Kt2/qymOh3728k+RCEF6xk
+2pIEd87eJYOcuKtMZBYL8RW/JfZLZOxU3GQ+BV64GuAlkiDp5t1KkDyL67qEd892
+FKjpTsNfLX1qgmZIJQiAZMlykgd/sWNH5iPmMp8+d3uPkPnWFKH2H34tXxs8pRWS
+9d2XrGaRFbI1PWvu8G0m1dZ4vC6zO7ggW6xDxebknLZiiVY/K6OllSmptVm2WghL
+tbKx024xqMMfXd9hu9uzWM9Q/1/oj1RN7kZsWogfUVEHNR2YfV9VK97gGv9R6ww5
+tu6c7/CmpiaKbSoOvEa9ZxxlTE+iW8201a4hbaSxeQhINOtWnkCM+rvjkcbs79E3
+kZPu+1nP9GRNltFsUy177V13ksVdHW+6saUpS0jQAAqxx27pjSZN2XJbOABrnM3O
+UeEY7C+zCEvSC58P6jWC23iePPwi8ip2FyPVvDPTCZlDzJLt24hJGzmcSWvWPeYF
+Lud7XeHaZCRwUpqCCCB7oLX2
+=AbDa
 -----END PGP SIGNATURE-----
 
---===============5177327914203587823==--
+--===============7183157233093267378==--
