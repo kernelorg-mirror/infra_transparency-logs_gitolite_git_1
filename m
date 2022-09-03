@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5455547897732618428=="
+Content-Type: multipart/mixed; boundary="===============5725948994550685043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 03 Sep 2022 03:41:14 -0000
-Message-Id: <166217647452.14265.10925450967627593192@gitolite.kernel.org>
+Date: Sat, 03 Sep 2022 03:41:20 -0000
+Message-Id: <166217648048.14369.14952469390382193695@gitolite.kernel.org>
 
---===============5455547897732618428==
+--===============5725948994550685043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: af515a5587b8f45f19e11657746e0c89411b0380
     new: 0b20a133c0944c1f9ca97404b7805cb9c9cf32e0
     log: revlist-af515a5587b8-0b20a133c094.txt
 
---===============5455547897732618428==
+--===============5725948994550685043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ fd969f25fe24be515278d28cbf86dde39be8a495 bpf: Change bpf_getsockopt(SOL_IP) to r
 f649f992deeeab020257b886e054cc407154cbfc selftest/bpf: Add test for bpf_getsockopt()
 0b20a133c0944c1f9ca97404b7805cb9c9cf32e0 Merge branch 'bpf: net: Remove duplicated code from bpf_getsockopt()'
 
---===============5455547897732618428==--
+--===============5725948994550685043==--
