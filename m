@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7127234767060973214=="
+Content-Type: multipart/mixed; boundary="===============6680470756032125410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 03 Sep 2022 05:57:43 -0000
-Message-Id: <166218466314.13855.14033917250194376234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 03 Sep 2022 06:03:37 -0000
+Message-Id: <166218501703.17511.2181801521793415829@gitolite.kernel.org>
 
---===============7127234767060973214==
+--===============6680470756032125410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/tags/driver-core-6.0-rc4
+    old: 3d80632165c7d9e02c8a22a3908bf3c969f7cd1a
+    new: 0000000000000000000000000000000000000000
 
---===============7127234767060973214==
+--===============6680470756032125410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662184681 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662184660-d7af326a6e8a2cf894944f28ad041e6495067d1c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662185037 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1662185016-19ade83d61cb1f97e7e7f970ba91fb04de3d795a
 
-0000000000000000000000000000000000000000 59226d37effcc06e431f8d0ab609ddd3003666fe refs/tags/v6.0-rc2
-0000000000000000000000000000000000000000 035064d655edeefd7ea1aa65dd12bac26ab1b3c3 refs/tags/v6.0-rc3
+3d80632165c7d9e02c8a22a3908bf3c969f7cd1a 0000000000000000000000000000000000000000 refs/tags/driver-core-6.0-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMS7OkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F3QP/A8iDIp/OlW4lN3dCWy0
-eLNRY4ymxbmwf3Y+lLue8RHvRTpnclNldUMv3IjcVzbcw1AfCYBbQyhEfCdBrDlO
-SjMR5sWtP+cc/A4YprB2uvG/2CrkZEfbnHZVbH+lO979rqPf6MGuBRaCv32IydSi
-W7JHqm2NycvqaPMX4vikDVsTvH4q35N5zt1Yj5mz9qoT+86zWk+iK/IfToOb2ctF
-n4pY2Y19ZARr8Win0e4U5qZiqUKdG2X3BvDAYGoIdDNBHO2OqCzJ5L69m8BKXUHE
-kc82GcC8RuFwwR853HWaxh2YokBC2hKlysOzf3cJi+IYed52TkeelLcOuJELcCCQ
-HruLzNWyWue57zuN1SveAhB+a6It5FWY/dtSg0eLIv/rgHSMKfNnThN6eXCtfHJL
-9gPsuX0V7Tc9TZ1/EaQff6K+8QR/ikSGGTl8OuJJzPxd1S6VCxr0csj9Feao0Pkv
-0LpCSrQIyjutfSYXai0py6tkTxhbWNqlYBXC6vj94MaLovFrtugcAwRUJZqsVF8X
-q+57Uiz9CAIXg9TsOSHqUyorFCxebK4d45xcMy53SYo8EzVjfJSQSoUImxatvGII
-4mgTbJmK14UFkdcsyMwYRsP4T9eilXuAst7/AeHhhb7PloqVV2iqkm4mT/DPc9wo
-WGWLl0ilOXuqB0HSoJ5hmIx1
-=zxey
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMS7k0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+98UP/RoaUowbyBAwSqj6nHrh
+au6WH82RmtwmwBiqTvU6ybwibXpsHU7mW/Zy1lGZ8gmYDJypNKZIi6+j6L9VNQF0
+xASnKyg98F/wzUzoGXWCpT+Fx2uhz5JaSqZuLGYlEkcYPE0SBS2CfdjRAv7Mlk5Y
+RG17kRiFLf0QljIw+eXGR4EY3+5DeSGiDueS8TPD7asn+SsLpcAcGndkXvwB8gjo
+ryY84q2Wd5a3D+4x44xAuUaSCAeQripivKk0tJuhYma/GaAf2HvtYKMQ/0pg7a2l
+qxocjytpfjpNnhpEJkAL9GsaMQPoShJngyjzlHz6omPmWbsFgUTUfkkT0QC13zau
+3oqcit0GNWPC+sDTeF1eWhAvGECdODMhk4EALwgCxcdTniSX5Zgj1mJ11p43n67S
+t3xml20RhbBxEGjoC+mmbnwHqSB5Y087P5mo2QYRDJfqVRuvGaBhKoknJS2nJ+Xp
+ep7pcydDAfT15atWJd9ekTfkyxHDguQ2K8KOQpXIeOB0zRTCH3y1NUaoyTGor0Gx
+HMtEN+f98a3kY3JbwbdeKpfBdX7Z4xB8KYUMG0aCAdWqHr3ZoSFWKJZrJm0tq28Z
+ZTtiL9TgMKqfEBPd+h7VpvcAL/fRwVmUHWD/S1ouwF1OE9ERjBxbnvcS/g1mTzI3
+eLtaxP+v5HCnTlXIDBncrRsj
+=9a3h
 -----END PGP SIGNATURE-----
 
---===============7127234767060973214==--
+--===============6680470756032125410==--
