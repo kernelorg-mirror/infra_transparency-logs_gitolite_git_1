@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 03 Sep 2022 09:36:39 -0000
-Message-Id: <166219779917.4486.16291873841046706307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 03 Sep 2022 09:40:57 -0000
+Message-Id: <166219805722.18207.2860456511714074191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b353b241f1eb9b6265358ffbe2632fdcb563354f
-    new: c55f34b6aec2a8cb47eadaffea773e83bf85de91
+    old: 40c79ce13b035b0dbe177b9095a1a3df0cb5297b
+    new: aa3fab0110580aaeb9422e73b031822990651552
     log: |
-         c55f34b6aec2a8cb47eadaffea773e83bf85de91 xen-netback: only remove 'hotplug-status' when the vif is actually destroyed
+         494f5063b86cd6e972cb41a27e083c9a3664319d net: sched: fq_codel: remove redundant resource cleanup in fq_codel_init()
+         d59f4e1d1fe785e85c33f62136d93c8ea429442f net: sched: htb: remove redundant resource cleanup in htb_init()
+         aa3fab0110580aaeb9422e73b031822990651552 Merge branch 'net_sched-redundant-resource-cleanups'
          
