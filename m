@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7480976269416762944=="
+Content-Type: multipart/mixed; boundary="===============8081051440970661908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
-Date: Sat, 03 Sep 2022 19:56:48 -0000
-Message-Id: <166223500821.26690.6127365710113473479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Sat, 03 Sep 2022 19:56:53 -0000
+Message-Id: <166223501307.26788.18109720813236735347@gitolite.kernel.org>
 
---===============7480976269416762944==
+--===============8081051440970661908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: 42e66b1cc3a070671001f8a1e933a80818a192bf
-    new: d9c0103b9cb0e26272ac4d9a5912ab79e408fa83
-    log: revlist-42e66b1cc3a0-d9c0103b9cb0.txt
+    old: 60ad1100d525699bce83690757ff3077c6ab83ab
+    new: aa3fab0110580aaeb9422e73b031822990651552
+    log: revlist-60ad1100d525-aa3fab011058.txt
 
---===============7480976269416762944==
+--===============8081051440970661908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42e66b1cc3a0-d9c0103b9cb0.txt
+Content-Disposition: attachment; filename=revlist-60ad1100d525-aa3fab011058.txt
 
-b118509076b39cc5e616c0680312b5caaca535fe netfilter: remove nf_conntrack_helper sysctl and modparam toggles
-d047283a7034140ea5da759a494fd2274affdd46 netfilter: br_netfilter: Drop dst references before setting.
-77972a36ecc4db7fc7c68f0e80714263c5f03f65 netfilter: nf_tables: clean up hook list when offload flags check fails
-0efe125cfb99e6773a7434f3463f7c2fa28f3a43 netfilter: nf_conntrack_irc: Fix forged IP logic
-ac56a0b48da86fd1b4389632fb7c4c8a5d86eefa rxrpc: Fix ICMP/ICMP6 error handling
-0d40f728e28393a8817d1fcae923dfa3409e488c rxrpc: Fix an insufficiently large sglist in rxkad_verify_packet_2()
-d3d863036d688313f8d566b87acd7d99daf82749 rxrpc: Fix local destruction being repeated
-214a9dc7d852216e83acac7b75bc18f01ce184c2 rxrpc: Fix calc of resend age
-7903192c4b4a82d792cb0dc5e2779a2efe60d45b afs: Use the operation issue time instead of the reply time for callbacks
-21457f4a91cb522f1a3ad9741ff1d25fadfaa3c5 rxrpc: Remove rxrpc_get_reply_time() which is no longer used
-7fdc77665f3d45c9da7c6edd4beadee9790f43aa Revert "net: phy: meson-gxl: improve link-up behavior"
-9efd23297cca530bb35e1848665805d3fcdd7889 sch_sfb: Don't assume the skb is still around after enqueueing to child
-e2b224abd9bf45dcb55750479fc35970725a430b tipc: fix shift wrapping bug in map_get()
-3261400639463a853ba2b3be8bd009c2a8089775 tcp: TX zerocopy should not sense pfmemalloc status
-e7506d344bf180096a86ec393515861fb5245915 Merge tag 'rxrpc-fixes-20220901' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-7e753eb675f0523207b184558638ee2eed6c9ac2 ice: Fix DMA mappings leak
-59ac325557b6c14f1f793b90d3946bc145ffa085 ice: use bitmap_free instead of devm_kfree
-45bb006d3c924b1201ed43c87a96b437662dcaa8 i40e: Fix ADQ rate limiting for PF
-fb8396aeda5872369a8ed6d2301e2c86e303c520 i40e: Fix kernel crash during module removal
-aa626da947e9cd30c4cf727493903e1adbb2c0a0 iavf: Detach device during reset task
-05a5474efe93054893f1a7936398381e23ecea60 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-7d650df99d528f674cc744719a00a20be1f912f8 net: fec: add pm_qos support on imx6q platform
-b353b241f1eb9b6265358ffbe2632fdcb563354f net: fec: Use a spinlock to guard `fep->ptp_clk_on`
-c55f34b6aec2a8cb47eadaffea773e83bf85de91 xen-netback: only remove 'hotplug-status' when the vif is actually destroyed
-3015c50384743eb14d20c907a400e10225da033b net: dsa: microchip: fix kernel oops on ksz8 switches
-cf5c15d1e966c2e0c93a19e05ec164d83639b1d7 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-d9c0103b9cb0e26272ac4d9a5912ab79e408fa83 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+75aad41ac3cf3d8d1d2bdbcaf0f662402c1e6c02 net: sched: etf: remove true check in etf_enable_offload()
+abbc79280abc5e57fc52a7671d1388f1f54c946f net: rtnetlink: use netif_oper_up instead of open code
+5603072e0b3733c076529e49ee3150cbb3a7a5cc netdevsim: remove redundant variable ret
+1ab3d4175775378106965ce32a07248675680c2c selftests: net: dsa: symlink the tc_actions.sh test
+aa51b80e1af47b3781abb1fb1666445a7616f0cd ipv6: tcp: send consistent autoflowlabel in SYN_RECV state
+baa6a9b5907098c4b43da91968220b81b8d78a91 dt-bindings: net: sparx5: don't require a reset line
+f4c1f51cea4e145995076d5dae98486934e8f281 net: lan966x: make reset optional
+a01105f1748e8151ef43c300659b99d471f5f61d Merge branch 'lan966x-make-reset-optional'
+12382d11670e893f976ae19087fde2f83ed4813d net: ipa: use an array for transactions
+41e2a2c054b884abaa4e3c6de628ba32beccfc9b net: ipa: track allocated transactions with an ID
+fc95d958e27df51fdf128098ce26f2727f8c7b06 net: ipa: track committed transactions with an ID
+eeff7c14e08c00cf15c89954cac719e26dcaf475 net: ipa: track pending transactions with an ID
+949cd0b5c296914fac2373f460d67cf6f2f8c6e8 net: ipa: track completed transactions with an ID
+fd3bd0398a0dfc7fc30bc9281bd1ae879527f96c net: ipa: track polled transactions with an ID
+25de4a0b7b1aceedf0d3764b718974e7c5c3c71e Merge branch 'net-ipa-transaction-state-IDs'
+977f1aa5e4d1942bc8012bf3f0e695008979ff4e net: bql: add more documentation
+c3f760ef128789252e7c4f10d3c1721422dceba9 net: remove netif_tx_napi_add()
+8254393663f9b8cb8b84cdce1abb118833c22a54 net: ieee802154: Fix compilation error when CONFIG_IEEE802154_NL802154_EXPERIMENTAL is disabled
+12f7bd252221d4f9e000e20530e50129241e3a67 net: broadcom: Fix return type for implementation of
+0dbaf0fa62329d9fe452d9041a707a33f6274f1f net: xscale: Fix return type for implementation of ndo_start_xmit
+7b620e156097028e4c9b6481a84ec1e1e72877ca net: sunplus: Fix return type for implementation of ndo_start_xmit
+c8ef3c94bda0e21123202d057d4a299698fa0ed9 net: lantiq_etop: Fix return type for implementation of ndo_start_xmit
+2e5fb3223261366d1673c3827190c85a74b1aa56 net/sched: cls_api: remove redundant 0 check in tcf_qevent_init()
+5854a09b49574da5a77a0f36ad7b021a2661321d net/ipv4: Use __DECLARE_FLEX_ARRAY() helper
+e26c258434b8b85705884dd838cae89b5c1af2be r8152: Add MAC passthrough support for Lenovo Travel Hub
+40c79ce13b035b0dbe177b9095a1a3df0cb5297b net: fec: add stop mode support for imx8 platform
+494f5063b86cd6e972cb41a27e083c9a3664319d net: sched: fq_codel: remove redundant resource cleanup in fq_codel_init()
+d59f4e1d1fe785e85c33f62136d93c8ea429442f net: sched: htb: remove redundant resource cleanup in htb_init()
+aa3fab0110580aaeb9422e73b031822990651552 Merge branch 'net_sched-redundant-resource-cleanups'
 
---===============7480976269416762944==--
+--===============8081051440970661908==--
