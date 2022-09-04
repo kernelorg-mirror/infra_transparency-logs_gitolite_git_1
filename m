@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 04 Sep 2022 19:28:14 -0000
-Message-Id: <166231969415.14818.3430827364857607044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Sun, 04 Sep 2022 19:28:16 -0000
+Message-Id: <166231969664.14886.3321596930620341611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 2f159cd744dd26054f5caed41f3c46256e929a6e
-    new: a7a32ef3e77c2bdb9a05293238f4f404737449f9
+  - ref: refs/heads/for-6.1
+    old: dc79ec1b232ad2c165d381d3dd2626df4ef9b5a4
+    new: 5251c6c436edf81e5f27de31ca34bcdc12fc94e1
     log: |
-         b0cc4ff9e38521dd5d645c2f7cb6d7b9423bab41 foo
-         a7a32ef3e77c2bdb9a05293238f4f404737449f9 foo
+         5251c6c436edf81e5f27de31ca34bcdc12fc94e1 cgroup: add pids.peak interface for pids controller
+         
+  - ref: refs/heads/for-next
+    old: c8a218a3fd10d4788f3b2d06cccc2111f34ff8d4
+    new: f735bd55f691b1b39077bd6e18be47a252e28d6b
+    log: |
+         5251c6c436edf81e5f27de31ca34bcdc12fc94e1 cgroup: add pids.peak interface for pids controller
+         f735bd55f691b1b39077bd6e18be47a252e28d6b Merge branch 'for-6.1' into for-next
          
