@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 04 Sep 2022 07:32:36 -0000
-Message-Id: <166227675662.23955.15590443405070558557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 04 Sep 2022 07:33:44 -0000
+Message-Id: <166227682469.24422.11831022852457967371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 71301ea84efdf8d258fdef573d58bd2ff12b41bb
-    new: c374eb09efa0d9912761db94f5bb2b31b7630a64
+  - ref: refs/heads/wip/leon-for-rc
+    old: 12f35199a2c0551187edbf8eb01379f0598659fa
+    new: 0d1b756acf60da5004c1e20ca4462f0c257bf6e1
     log: |
-         c374eb09efa0d9912761db94f5bb2b31b7630a64 selftests/sgx: Add SGX selftest augment_via_eaccept_long
+         0d1b756acf60da5004c1e20ca4462f0c257bf6e1 RDMA/siw: Pass a pointer to virt_to_page()
          
