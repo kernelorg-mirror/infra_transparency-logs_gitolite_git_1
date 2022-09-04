@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5607105532764916801=="
+Content-Type: multipart/mixed; boundary="===============8873484081955707038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Sun, 04 Sep 2022 17:44:25 -0000
-Message-Id: <166231346534.6414.8587057840186674081@gitolite.kernel.org>
+Date: Sun, 04 Sep 2022 17:45:06 -0000
+Message-Id: <166231350699.8284.828343704233756431@gitolite.kernel.org>
 
---===============5607105532764916801==
+--===============8873484081955707038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
-  - ref: refs/heads/for-linus
+  - ref: refs/heads/next
     old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
     new: 493c1141f791a0a8af5d1745bdf9f159f564ca3f
     log: revlist-568035b01cfb-493c1141f791.txt
-  - ref: refs/heads/next
-    old: a7a1b8909d716be4ca18011e438690a4b1822346
-    new: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
 
---===============5607105532764916801==
+--===============8873484081955707038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +49,4 @@ d6b76a45d5ae241af61cabd03496a376bd63207d dmaengine: hsu: using for_each_set_bit 
 9c06002682ae0cdd01caf011899224acbc6582b2 dmaengine: hsu: Include headers we are direct user of
 493c1141f791a0a8af5d1745bdf9f159f564ca3f dt-bindings: dma: mediatek,uart-dma: Add binding for MT6795 SoC
 
---===============5607105532764916801==--
+--===============8873484081955707038==--
