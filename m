@@ -1,25 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 04 Sep 2022 13:17:35 -0000
-Message-Id: <166229745564.15450.8529820048926544229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 04 Sep 2022 13:20:37 -0000
+Message-Id: <166229763724.18029.15989330954727442097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/auto-latest
-    old: fb4aa1d5342688f1688492791cd3301cd64e2a44
-    new: a1aba31a71dc4f6bb487200b577de15cda3998e1
+  - ref: refs/heads/master
+    old: 16ddbd1aee295f64695916cf3621aef57f1163ba
+    new: bf1ef26900eec3b028c1b0f55f65b3b233e47c56
     log: |
-         24919fdea6f8b31d7cdf32ac291bc5dd0b023878 perf/x86/intel: Fix unchecked MSR access error for Alder Lake N
-         f2aeea57504cbbc58da3c59b939fc16150087648 perf/x86/core: Completely disable guest PEBS via guest's global_ctrl
-         973bee493a1f75c6c0752a74fb9396cbc34f026e sched/deadline: Add dl_task_is_earliest_deadline helper
-         96458e7f7dc5ad14bd7577cbf1638e1504ad79dd sched/deadline: Add replenish_dl_new_period helper
-         33f93525799fa3c841b2ba93a56b2bb32ab11dc9 sched/deadline: Move __dl_clear_params out of dl_bw lock
-         724f1a76df1075cf012a34d25bebeff27e1dc064 Merge branch into tip/master: 'perf/urgent'
-         a1aba31a71dc4f6bb487200b577de15cda3998e1 Merge branch into tip/master: 'sched/core'
+         04307f499d13020194dc27f5dc17d4197dbb32c3 xfs/{015,042,076}: fix mkfs failures with nrext64=1
+         67afd5c742464607994316acb2c6e8303b8af4c5 common/rc: move ext4-specific helpers into a separate common/ext4 file
+         e88c0d38eedaa541dd1b3f0c4b1ae65c96cc5c43 common/rc: move XFS-specific parts of _scratch_options into common/xfs
+         92caf7ebe14d1ac9f2eddd41a983e8a3ff89c03b common/ext4: provide custom ext4 scratch fs options
+         acf0424671ffb3f81514e69b07331c393254abcd dmerror: support external log and realtime devices
+         49272aacac850cbbf86b2064b0cce27729b45b57 common: refactor fail_make_request boilerplate
+         6049ccca12ab78dd976a98bf74fdc0da738929c3 fail_make_request: teach helpers about external devices
+         c9734480a1ddc111d59063c094ad32dc733221fb fstests: add missing _require_scratch
+         87d9aea81007d8f2f17985856a882e268f747b97 generic: test i_blocks for large files
+         192f5297b54f601eae7047eb4e1e69ec5fd03b1e fstests: add btrfs fs-verity send/recv test
+         bf1ef26900eec3b028c1b0f55f65b3b233e47c56 src/t_ofd_locks.c: Reset errno to zero
          
