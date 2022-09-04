@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5720019303301246506=="
+Content-Type: multipart/mixed; boundary="===============8149952636397760292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 04 Sep 2022 07:43:58 -0000
-Message-Id: <166227743823.31350.4733873234367142914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 04 Sep 2022 07:44:04 -0000
+Message-Id: <166227744418.31464.1799981903819101271@gitolite.kernel.org>
 
---===============5720019303301246506==
+--===============8149952636397760292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: d895ec7938c431fe61a731939da76a6461bc6133
     new: 7726d4c3e60bfe206738894267414a5f10510f1a
     log: revlist-d895ec7938c4-7726d4c3e60b.txt
 
---===============5720019303301246506==
+--===============8149952636397760292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662277437 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662277437-1df746f9705ca403c4b13f1b3bdf050f23f4478c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662277442 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1662277440-e7220a3b5a01bc9f8329869f0ee61ae76559174e
 
-d895ec7938c431fe61a731939da76a6461bc6133 7726d4c3e60bfe206738894267414a5f10510f1a refs/heads/main
+d895ec7938c431fe61a731939da76a6461bc6133 7726d4c3e60bfe206738894267414a5f10510f1a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMUVz0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rZkP/2+zRDHZq66y/wZaTq1C
-RkAF+jDC3QC2u/LFi4Jw17YFKdLnRfhSKLIUoB5WBMIvS/fJpeWo6gd1Vwiuve3G
-/ZizMWSRcm98bbe2Y103+q54B9jCLDoWNyhyYUgCxOqM+w7dc3DmmFHxStSM/Y3p
-MpXzn7aJwSh16Vmuo9zomgBFlDJpRgRfaUg/DXNjZ6PpALwEW3a2eesD+rnDOaXH
-Y4WBFF7HPoY4yEY+cfikPdtu3/AUxkM+u0xHhKpyvy3nXWt/R5nkjMctKlGGQhvL
-t2nsD03M9krksDd7Hh+oE93TkjOOdTbMiE7A1groIngwf/o0GGepLmCSfEHY3a+m
-L7eB/EOjtSLNWx2lqdFTEqNNMvtdTt6iV4FJh9EYrweFq255+O5plAOp7eb5YNeX
-s6w1ofMvdBnURbPzN7Qe4Q16T78Yjm1/V4xkfM5Z/LkVrKfORHMtvfPIMVuQZhrQ
-7TJUTL7++oBO4U++YM1O48pgi37ci4Vma7xKTQIJjqeuh/lnGRngRioMPMCsHWyf
-XuxppM5FspQYF7UsuZTh8vzy6s2AV1GvtE9vr38+gogMG57rIZinIifjmChlHe+/
-Xs2SEzj6SyG9a1AqihyNete2xGkVnomiP2zVztgQhlBmrTvRbXQ2DExiyln9covk
-72w+vqB2pLGuHByKebeYAdtP
-=9MUC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMUV0IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DfMP/1EmXv7WBIJrSrc+9uQh
+EUTP97Zw+KMrc6HCXKqO/R7CM/diwdgceuCy+IBzu53hIxnAbDrGRtxTMxfubEAs
+hdLh1NTI0olS08lc7ms+l1i1RETgCGWnrJhSKPAWLgm48bALJ/zikNPA5IrFVnZn
+TVG3CVJgNYKnQauV9PfTJobAxMFT8u8LGydQVtrw684UCWF8RHsl4qlrw7CPfqD8
+r5iKfqXISSgUahj/OZV27Kx8f/b+/CaIc/2zSEYZxfx2BvNpbnCMa6BB7CtZyMwW
+IZt29Jc3+/ngmUDFDO2S0FAvLEjW8yAa6fktg5MOepd6lo3Lj6wvk37L0oWmLH7i
+eaF+OZpuzKLJADg83mnwNkoh1qXCBOosojnQXolx7g5bIKnoBDpGULQjvuj28VbF
+JPc4IuABG6xm/vO+myE5LqChRbQIyW74KopZi7rnnXM1l14/hkvDmglr52kZe9Qp
+tTIxAFUm3yNBvAAU4sjLGs265v2kCxNLUb/WwhzT8+VfQBFVFCV1XaMSkjlRqIbC
+9ep0pZoAIw0L7zpy8Luomnv9nFN7YNbuntisf0R+bhp8HWy/XQ/CjSEShPifpa4g
+9zhW2CWbPqgG1LfUTvHgm+2SzOmoDy+NY/WmcQL6yqbb+IU2rJdQg0ePLJcq4Dv7
+uLyPx7SUb6b374HTtu5s3MP4
+=NddR
 -----END PGP SIGNATURE-----
 
---===============5720019303301246506==
+--===============8149952636397760292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -122,4 +122,4 @@ fa1329f9e402c1351ad821080eba9b7cda758ac6 gpio: 104-idi-48: Make irq_chip immutab
 6890381720b27a41f2d9e68cce241336342ea3b7 gpio: ws16c48: Make irq_chip immutable
 7726d4c3e60bfe206738894267414a5f10510f1a Merge tag 'gpio-fixes-for-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============5720019303301246506==--
+--===============8149952636397760292==--
