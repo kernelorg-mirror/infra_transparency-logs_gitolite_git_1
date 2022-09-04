@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 04 Sep 2022 07:21:23 -0000
-Message-Id: <166227608306.15580.4198970429112484270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Sun, 04 Sep 2022 07:27:55 -0000
+Message-Id: <166227647593.20679.11870377814063299210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-rc
-    old: 45baad7dd98f4d83f67c86c28769d3184390e324
-    new: 12f35199a2c0551187edbf8eb01379f0598659fa
+  - ref: refs/heads/master
+    old: d2f1968386674f6742e8f96b741ee45b09ddbf9d
+    new: 71301ea84efdf8d258fdef573d58bd2ff12b41bb
     log: |
-         12f35199a2c0551187edbf8eb01379f0598659fa RDMA/srp: Set scmnd->result only when scmnd is not NULL
+         71301ea84efdf8d258fdef573d58bd2ff12b41bb selftests/sgx: Add SGX selftest augment_via_eaccept_long
          
