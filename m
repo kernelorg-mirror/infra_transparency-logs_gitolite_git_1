@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 04 Sep 2022 07:19:21 -0000
-Message-Id: <166227596199.13230.14656192511126586984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 04 Sep 2022 07:20:46 -0000
+Message-Id: <166227604635.15284.4377862462489961381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: b42ad0036ec21609ab044e9bc4711d1b61da8d74
-    new: d2f1968386674f6742e8f96b741ee45b09ddbf9d
+  - ref: refs/heads/for-next
+    old: 2c02249fcbfc066bd33e2a7375c7006d4cb367f6
+    new: fc5e1acf6ade49da06c6a74b0c3fa903e0c9503a
     log: |
-         d2f1968386674f6742e8f96b741ee45b09ddbf9d selftests/sgx: Include the dynamic heap size to the ELRANGE calculation
+         fc5e1acf6ade49da06c6a74b0c3fa903e0c9503a RDMA/siw: Add missing Kconfig selections
          
