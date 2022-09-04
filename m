@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 04 Sep 2022 16:24:02 -0000
-Message-Id: <166230864281.14703.3008085973803897551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 04 Sep 2022 16:24:29 -0000
+Message-Id: <166230866983.14947.11463245665306979076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/xfrm-next
-    old: 0ed4792e3e488854df662617cf374ab96de8fc2a
-    new: 3db905f22597bf9c027d3d97280dfbcfd784b627
+  - ref: refs/heads/testing
+    old: d05d73779145f6d1addc10b516f589f803fcdb56
+    new: 0a15ca6a4cb2510fa40e77f4affca22b4b65bbef
     log: |
-         d97a4fb2a5a908538e4ec0a2e21759c5d73701e6 net/mlx5e: Handle hardware IPsec events
-         cd5054fbc1bd0dd4868ea251ab836dbc06447492 net/mlx5e: Open mlx5 driver to accept IPsec full offload
-         3db905f22597bf9c027d3d97280dfbcfd784b627 net/mlx5: ASO, Create the ASO SQ with the correct timestamp format
+         5a80c2572f5e40fc106fe9f372964935798dc637 dt-bindings: iio: adc: Add max11205 documentation file
+         0a15ca6a4cb2510fa40e77f4affca22b4b65bbef iio: adc: add max11205 adc driver
          
