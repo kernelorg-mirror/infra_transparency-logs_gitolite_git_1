@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 04 Sep 2022 07:20:46 -0000
-Message-Id: <166227604635.15284.4377862462489961381@gitolite.kernel.org>
+Date: Sun, 04 Sep 2022 07:21:23 -0000
+Message-Id: <166227608306.15580.4198970429112484270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 2c02249fcbfc066bd33e2a7375c7006d4cb367f6
-    new: fc5e1acf6ade49da06c6a74b0c3fa903e0c9503a
+  - ref: refs/heads/for-rc
+    old: 45baad7dd98f4d83f67c86c28769d3184390e324
+    new: 12f35199a2c0551187edbf8eb01379f0598659fa
     log: |
-         fc5e1acf6ade49da06c6a74b0c3fa903e0c9503a RDMA/siw: Add missing Kconfig selections
+         12f35199a2c0551187edbf8eb01379f0598659fa RDMA/srp: Set scmnd->result only when scmnd is not NULL
          
