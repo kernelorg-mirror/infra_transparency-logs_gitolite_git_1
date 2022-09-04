@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 04 Sep 2022 04:41:06 -0000
-Message-Id: <166226646659.1126.187393529389929899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 04 Sep 2022 05:05:55 -0000
+Message-Id: <166226795582.18569.12248015993804919126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: c8ab288efe168c1e28660b033ef8cb8b7c7e6f95
-    new: 7b1164431352f6c9f50f640fe934fe950ae0fa91
+    old: f97e417c6147f02b1fa88ebfcf2fa4cdd3c98477
+    new: f16b2974e3c919e90d0d1f66ea874f28e17761e0
     log: |
-         169c30b128b92c24de9526752bb6a2f90ac18743 selftests/sgx: Use encl->encl_size in sigstruct.c
-         7b1164431352f6c9f50f640fe934fe950ae0fa91 selftests/sgx: Clarify the size fields in struct encl
+         f16b2974e3c919e90d0d1f66ea874f28e17761e0 Sun Sep  4 05:05:11 AM UTC 2022
          
