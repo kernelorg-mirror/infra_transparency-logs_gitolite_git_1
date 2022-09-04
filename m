@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1327819781785378361=="
+Content-Type: multipart/mixed; boundary="===============4573568333744457669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 04 Sep 2022 07:43:09 -0000
-Message-Id: <166227738926.30838.11881824652548952221@gitolite.kernel.org>
+Date: Sun, 04 Sep 2022 07:43:13 -0000
+Message-Id: <166227739324.30952.16665201203104920947@gitolite.kernel.org>
 
---===============1327819781785378361==
+--===============4573568333744457669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,57 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 568035b01cfb107af8d2e4bd2fb9aea22cf5b868
+  - ref: refs/heads/tty-linus
+    old: 902e02ea9385373ce4b142576eef41c642703955
     new: 7726d4c3e60bfe206738894267414a5f10510f1a
-    log: revlist-568035b01cfb-7726d4c3e60b.txt
+    log: revlist-902e02ea9385-7726d4c3e60b.txt
 
---===============1327819781785378361==
+--===============4573568333744457669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662277386 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662277392 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1662277385-5da3da71c49944d0a02b8f6ab27b1c8f76ea2dcf
+nonce 1662277391-08c580ddd2e0cbc261a446764f379dc9e6ac39da
 
-568035b01cfb107af8d2e4bd2fb9aea22cf5b868 7726d4c3e60bfe206738894267414a5f10510f1a refs/heads/main
+902e02ea9385373ce4b142576eef41c642703955 7726d4c3e60bfe206738894267414a5f10510f1a refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMUVwobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rqAQANR8RlGudC18a7K3mlqb
-UOC29UEd/Mdv3DJf/BspkrmbRqhe8x+UzEr/sd6qNKqzkk/bUlGq0bu6RRnpgJvU
-w+gmyH4F4WnEb038lNUMfRRN34LONn3NhipqQCkCpc+dLvGzuNm5N9+XvA4KSgot
-pq3wfgfhBD9jB2AsUk+p9m1KiHE3SIEdjgbpP/Kf8N7/VlDA3SIKKitR6qpmLhF+
-Dj1cV5j9IYzJg4XHAaPJLqIFWxJ46HtfTwp874psNALlovAH1MBpXuh2xQY381Ty
-Rk56azK/jwWEJ7rzLZNQmphhN6dcG5N8tsx4CgIS37TYvRp4L/oECW6gaU/FbmvB
-XSveoRBWfzNzxGA4NJReL9GYRTODtdYN8OSafxcthJ+BCWei6ND6JgdACajjq1Q+
-R3eA/Z/fOyE948H1vZDu8Asc1VRwbb7BPgLhIyQCAgWQ1pv3pQlOI63g8tqTKmR7
-hQmjAonUMdl4zFDa58NdwCJEbL6AfeFl0DGmqJ2SyW0uTWRWEVHObiXH/owTFgzl
-5sTTDFAehCKzs6xw91niGz73Se0klQyNlk5D4fj6LWHi+7DOtpJM3w4mk3xNcIs+
-5anyE5XY/NIzwo+Dx443ZhuUkEZRrFa9GK3LM/NnEoUxhuSnlOO1Elthcp1Rqh2V
-HK86uL2GOd6blMZjpiKyPjtq
-=ai4c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMUVxAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uBcQAJ0De6ehZX2xzYBjmQmW
+AXxL04aO92Xu07K0a3FERdjhAsdkUPOWv4OGgkI6UDuJjD4xIJRxwGoCiC4saXG9
+S5edBJH4sCXWMqRplVYWXcdn6rRo6y6RjwAIF88Sr0/DjqfagIPTFlGl5uBKr1Zs
+Ga973T4dDcKt5DMLRUKfkdkc4tTWDZYp+IVaL9V5DWGFn0L6OqvVvr+5Dmo8cLAp
+GRJttIXxq4AAI5TkaBXB0a97rZnN6WcFvA30/QgdglRK1waHySJA3DpvUKf4fX6v
+TtsUSn3lShCgff+HekMyyV+hVNYkTd/V4hnlNHWoq7SEsCzf/9xhUusd500gbn1z
+gCdin/UvwNlF+Cnktm6pfT6lOFyQPL5uv6c6PxdHgw6HrG5QCudHFKxXuCFl569q
+N0mYH5SzoQ67VKN71OvZpuIAsR6aGhF24taIv6pLPv6r10UHT9Tl1C4ygPPN6MJa
+Ilv1E3mK6npzfvR5W1V5hd+FjmWJ7PEBcDXPaGbV3/b9BG8j7BQOqB8C3ePHkWFy
+8TBNQoB/sfr6Vzc2b4DkRYBJJSza31l+zBjtje67qKCQ9ahJtO6qrY1EPhjyOdWN
+eKUQraOreI2sqjTYyhPShVUNw4VwdhyP3etIDGI939RCzbArWO8T0fl3xEqON/d5
+/Rmk9dP2ipt5Sk8nlomfwtTD
+=hLGr
 -----END PGP SIGNATURE-----
 
---===============1327819781785378361==
+--===============4573568333744457669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-568035b01cfb-7726d4c3e60b.txt
+Content-Disposition: attachment; filename=revlist-902e02ea9385-7726d4c3e60b.txt
 
+89390c4982b77c159e3b8a0be4a04552ef0971a0 drm/amd/display: Use pixels per container logic for DCN314 DCCG dividers
+4c3861f587400db00801810eb8034c7b480e21dd drm/amd/display: Create FPU files for DCN314
+67c79599eea167dd5e08314b8c26f2dfa717753a drm/amd/display: Move populate dml pipes from DCN314 to dml
+0af167f92838f34e594e49a6c8cbaca45548e030 drm/amd/display: Drop FPU flags from Makefile
+2de09ce41f484cbcc65e518905dae73da67ad35c drm/amd/display: fix CAB allocation for multiple displays
+0cd34ce82b0a9ce503d35a51bff47ba3b6715557 drm/amd/display: Add a variable to update FCLK latency
+9bd110ab06e93fd01938dedd8b6015940418f0fb drm/amd/display: Fix TMDS 4K@60Hz YCbCr420 corruption issue
+9c580e8f6cd6524d4e2c3490c440110526f7ddd6 drm/amd/display: Device flash garbage before get in OS
+615fc50207fa27453ba7f5fa1abd60a01a498136 drm/amd/display: Avoid MPC infinite loop
+0591183699fceeafb4c4141072d47775de83ecfb drm/amd/display: Fix HDMI VSIF V3 incorrect issue
 86678d46272021c88638881c63d427dd10d665d6 drm/amd/display: Allow alternate prefetch modes in DML for DCN32
 dd07556324ece81f0d2be756508903d53e331e9e drm/amd/display: Fix Compile-time Warning
 6396679a1f2db0c63721b841f1a5617d6282a4b1 drm/amd/display: Fix VPG instancing for dcn314 HPO
@@ -347,7 +357,6 @@ d3b38596875dbc709b4e721a5873f4663d8a9ea2 blk-mq: run queue no matter whether the
 a0e44c64b6061dda7e00b7c458e4523e2331b739 binder: fix UAF of ref->proc caused by race condition
 d6f35446d0769a98e9d761593d267cdd24f09ecd binder_alloc: Add missing mmap_lock calls when using the VMA
 a3f2fd22743fc56dd5e3896a3fbddd276df1577f musb: fix USB_MUSB_TUSB6010 dependency
-b5a5b9d5f28d23b84f06b45c61dcad95b07d41bc serial: document start_rx member at struct uart_ops
 f2d38edc5e3375e56b4a30d5b66cefd385a2b38c usb: typec: tcpm: Return ENOTSUPP for power supply prop writes
 72e2329e7c9bbe15e7a813670497ec9c6f919af3 drm/vc4: hdmi: Depends on CONFIG_PM
 258e483a4d5e97a6a8caa74381ddc1f395ac1c71 drm/vc4: hdmi: Rework power up
@@ -917,15 +926,6 @@ acc5495bf764e7e441193f972d96c5d2887f6b8b bus: mhi: host: Fix up null pointer acc
 dcf8e5633e2e69ad60b730ab5905608b756a032f tracing: Define the is_signed_type() macro once
 f233d2be38dbbb22299192292983037f01ab363c hwmon: (gpio-fan) Fix array out of bounds access
 b05972f01e7d30419987a1f221b5593668fd6448 net: sched: tbf: don't call qdisc_put() while holding tree lock
-566f9c9f89337792070b5a6062dff448b3e7977f vt: Clear selection before changing the font
-846651eca073e2e02e37490a4a52752415d84781 serial: fsl_lpuart: RS485 RTS polariy is inverse
-56c14fb4086b2de6921dd70251b19b364b909ea1 tty: Fix lookahead_buf crash with serdev
-d5a2e0834364377a5d5a2fff1890a0b3f0bafd1f tty: serial: lpuart: disable flow control while waiting for the transmit engine to complete
-692a8ebcfc24f4a5bea0eb2967e450f584193da6 tty: serial: atmel: Preserve previous USART mode if RS485 disabled
-f16c6d2e58a4c2b972efcf9eb12390ee0ba3befb tty: n_gsm: add sanity check for gsm->receive in gsm_receive_buf()
-4bb1a53be85fcb1e24c14860e326a00cdd362c28 tty: n_gsm: initialize more members at gsm_alloc_mux()
-c9ab053e56ce13a949977398c8edc12e6c02fc95 tty: n_gsm: replace kicktimer with delayed_work
-902e02ea9385373ce4b142576eef41c642703955 tty: n_gsm: avoid call of sleeping functions from atomic context
 f612466ebecb12a00d9152344ddda6f6345f04dc net/sched: fix netdevice reference leaks in attach_default_qdiscs()
 3d5f70949f1b1168fbb17d06eb5c57e984c56c58 usb: add quirks for Lenovo OneLink+ Dock
 6000b8d900cd5f52fbcd0776d0cc396e88c8c2ea usb: dwc3: disable USB core PHY management
@@ -1082,4 +1082,4 @@ fa1329f9e402c1351ad821080eba9b7cda758ac6 gpio: 104-idi-48: Make irq_chip immutab
 6890381720b27a41f2d9e68cce241336342ea3b7 gpio: ws16c48: Make irq_chip immutable
 7726d4c3e60bfe206738894267414a5f10510f1a Merge tag 'gpio-fixes-for-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============1327819781785378361==--
+--===============4573568333744457669==--
