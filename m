@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 05 Sep 2022 22:19:56 -0000
-Message-Id: <166241639644.16832.1847778226613592855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 05 Sep 2022 22:51:27 -0000
+Message-Id: <166241828722.7161.8024200078920547782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: ffce81fde89b8dd6c8f721d781aed7956ca76612
-    new: 883ab4bb8ee637654eeccf283dce70a0a892177e
+  - ref: refs/heads/master
+    old: 0535620c15e1133f9c19aefe9e928e0607e6c2b2
+    new: c7ad43212d4aa576171ae7465f31b047e880da9e
     log: |
-         024744964ef6c0a65e348afafd4e1feae08eba5e arm64: dts: rockchip: Fix SD card controller probe on Pinephone Pro
-         883ab4bb8ee637654eeccf283dce70a0a892177e Merge branch 'v6.1-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.1-armsoc/dts64
-    old: 246450344dad087a121befbed1aba776dba3d377
-    new: 024744964ef6c0a65e348afafd4e1feae08eba5e
-    log: |
-         024744964ef6c0a65e348afafd4e1feae08eba5e arm64: dts: rockchip: Fix SD card controller probe on Pinephone Pro
+         7f80be601474ed3702ecf9a39da14534df897560 tests/zc: move send size calc into do_test_inet_send
+         ec19550c0fec57bef77c49a1326e4e6837b039ae tests/zc: use io_uring for rx
+         3674cb90514a316ce83fe17c3ac5bfff3da453d3 tests/zc: fix udp testing
+         74970081956c2d9a937c3a98fac60173d479f394 tests/zc: name buffer flavours
+         c7ad43212d4aa576171ae7465f31b047e880da9e tests/zc: skip tcp w/ addr
          
