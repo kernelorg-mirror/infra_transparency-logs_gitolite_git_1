@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7143607231928265277=="
+Content-Type: multipart/mixed; boundary="===============1117182814378200935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 05 Sep 2022 12:33:57 -0000
-Message-Id: <166238123702.26695.9600977231911165678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 05 Sep 2022 12:34:12 -0000
+Message-Id: <166238125262.26871.2870884754651049561@gitolite.kernel.org>
 
---===============7143607231928265277==
+--===============1117182814378200935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7e18e42e4b280c85b76967a9106a13ca61c16179
     log: revlist-b90cb1053190-7e18e42e4b28.txt
 
---===============7143607231928265277==
+--===============1117182814378200935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -416,4 +416,4 @@ b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat 
 5995497296ade7716c8e70899e02235f2b6d9f5d Merge tag 'powerpc-6.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
 
---===============7143607231928265277==--
+--===============1117182814378200935==--
