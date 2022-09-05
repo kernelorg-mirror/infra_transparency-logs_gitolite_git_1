@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7336534196643635975=="
+Content-Type: multipart/mixed; boundary="===============5160585853174615733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 05 Sep 2022 10:01:37 -0000
-Message-Id: <166237209709.16321.18393342471064371722@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 10:01:44 -0000
+Message-Id: <166237210439.16449.43517325588697673@gitolite.kernel.org>
 
---===============7336534196643635975==
+--===============5160585853174615733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 1afdc013672b70ee124e669078b0e3740db2a3f8
-    new: feb159347bb0afb8229d530f3fab7f9201646a81
-    log: |
-         feb159347bb0afb8229d530f3fab7f9201646a81 m68k: Allow kexec on M68KCLASSIC with MMU enabled only
-         
-  - ref: refs/heads/master
-    old: 0da0978304a94b2d905f9e2e0ec3976b5f4bbc67
-    new: d8ae14187f514133f5acea8e1a0aa19bf1e258c3
-    log: revlist-0da0978304a9-d8ae14187f51.txt
+  - ref: refs/heads/m68k-queue
+    old: d4876f891d1a92905e98067dc71e31619f8cd907
+    new: 63ffc7a57b2d2646f23f8b2cd6d5d1de824b2355
+    log: revlist-d4876f891d1a-63ffc7a57b2d.txt
 
---===============7336534196643635975==
+--===============5160585853174615733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0da0978304a9-d8ae14187f51.txt
+Content-Disposition: attachment; filename=revlist-d4876f891d1a-63ffc7a57b2d.txt
 
 deffa2d75db7e7a9a1fe3dad4f99310bff7b6449 drm/msm/dp: make eDP panel as the first connected connector
 2f25a1fb4ec516c5ad67afd754334b491b9f09a5 drm/msm/dsi: fix the inconsistent indenting
@@ -421,7 +415,10 @@ b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat 
 685ed983e2dc330680a076a1fd37ebe04017df91 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5995497296ade7716c8e70899e02235f2b6d9f5d Merge tag 'powerpc-6.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
-82ea28deee1199418affd69c200676687b9724b3 Merge tag 'v6.0-rc4'
-d8ae14187f514133f5acea8e1a0aa19bf1e258c3 m68k: Allow kexec on M68KCLASSIC with MMU enabled only
+f829334e7247ad6953bb7f772acb99ba901e0039 m68k: Move from strlcpy with unused retval to strscpy
+efba0424dd4a3d430cb3e3cf0bd48ff9156dd431 m68k: Allow kexec on M68KCLASSIC with MMU enabled only
+46e87cad9d4c83ebf8295e2018b4f9f69ceb8097 m68k: atari: usb: Add ISP1160 USB host controller support
+3b1d0d53e6bf73c5aaa13f1e3fb9278014b69b3c m68k: atari: Update Kconfig.bus help text
+63ffc7a57b2d2646f23f8b2cd6d5d1de824b2355 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7336534196643635975==--
+--===============5160585853174615733==--
