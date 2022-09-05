@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1596314672460472741=="
+Content-Type: multipart/mixed; boundary="===============8720218802280902081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 05 Sep 2022 15:27:32 -0000
-Message-Id: <166239165242.18198.5483926115876430465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 05 Sep 2022 15:27:38 -0000
+Message-Id: <166239165825.18301.8251393240584527300@gitolite.kernel.org>
 
---===============1596314672460472741==
+--===============8720218802280902081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 376be51caf8871419bbcbb755e1e615d30dc3153
     new: cdcdb008552670abd6f60a1777d3723e6ca2716b
     log: |
@@ -32,28 +32,28 @@ changes:
          cdcdb008552670abd6f60a1777d3723e6ca2716b Untested TAS2562 power setting fixes
          
 
---===============1596314672460472741==
+--===============8720218802280902081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1662391650 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1662391650-7b31fcc600047a526ae59727b7ae504e3b25feb0
+pusher C3F436CA30F5D8EB 1662391656 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1662391656-95004953fc6ad8e4ad9977bce6deff438289a34b
 
-376be51caf8871419bbcbb755e1e615d30dc3153 cdcdb008552670abd6f60a1777d3723e6ca2716b refs/heads/for-6.1
+376be51caf8871419bbcbb755e1e615d30dc3153 cdcdb008552670abd6f60a1777d3723e6ca2716b refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMWFWIACgkQJNaLcl1U
-h9D8UAf/bF4Y+nzrqY5UbcXSB2hrhujLWO+qG4zjaQYnuCFchSiyq5C4GhuXFbqQ
-p5r7DHK19x0cYe0SabFW+58sUxbCHR51e4+fSZ1xXa9CsFo7zARHgwC/fecZSvtO
-psAo8wCIul9jirIKFA7stqyAxVn/JaWsCd8JttosfYNZuspfBTyeVSxpgehQvN1a
-LukN1nePu97zYKWKodkf8i2sJFONq1+hVggqGgykH4AUbXlEBazkKXlkfvHYNlOy
-fanIFrjEAC6nKPziWQFa0oHwBcJ2SeksFGGmDAW2N+MenlUyVeJUJcGNNw9pD3bi
-kdapW/9vedWLZc+aTyfpWZNJgX7tVA==
-=Ktjp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMWFWgACgkQJNaLcl1U
+h9A1cAf/Sqxiexpprw0G9pj0Myu7GnFq3t3IqSiuJW2FisEgvS2Ym6U8/uV5U/o9
+wjDIQ388voNlhci3erUs/fnoj1lMCcGTaLcZLZJ8XZmDtWlyGnArNC+glJx+50vF
+HLybgkQNbSF1pV1Mpj4R8bP8gYMiXU9NMcAawsSRrADs1cl1HJ88HtiZAG76UGo4
+oaT+M3wVDHeZQnEUoXad02DxV0vWIY3rNj66aVcLp2hAZvegcg5jnaR+pXaU5VwY
+6hpVdAtIV3xHncj3n1W4Myhgfx1qXqakLv7PwQyUReKEnd43HLGvRB+BaxB3YmJq
+DwDMG+REtay6jCUAheRIEmPoqNRdAg==
+=O6QW
 -----END PGP SIGNATURE-----
 
---===============1596314672460472741==--
+--===============8720218802280902081==--
