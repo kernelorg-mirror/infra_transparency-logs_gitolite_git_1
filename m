@@ -1,29 +1,63 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 05 Sep 2022 15:38:40 -0000
-Message-Id: <166239232084.25305.11508694267962435339@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4611618643284311869=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 05 Sep 2022 15:47:24 -0000
+Message-Id: <166239284446.31590.6908488402008442447@gitolite.kernel.org>
+
+--===============4611618643284311869==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: b9ceaf40f44cc3e9d26a4aacf5d736eccfe87400
-    new: 09e2d5a7c81e3a02070c6db06470eb04b1244b77
+  - ref: refs/heads/master
+    old: 79a6bd975436d844153a2922e0c7157d22f388b2
+    new: de597cdb1bfa0e8a52c72a544bd546ddda73cf4e
     log: |
-         10d5d8cbf6268e612bacac29c0beef489d3c1398 ASoC: soc-pcm.c: remove unnecessary codec2codec_close_delayed_work()
-         041107289c5cebb0693a55c432ab50862a450476 ASoC: soc-pcm.c: add soc_pcm_ret()
-         6932b20d4f41dc01dc58c0afb335e688575c7d54 ASoC: soc-pcm.c: check fe condition at out of loop
-         b6b55b232564ade5cd91e9b9e2228b49f230d67f ASoC: tas2562: Drop conflicting set_bias_level power setting
-         2848d34c3ba1fc6f1ece0736a4faa16c6277f4d3 ASoC: tas2562: Fix mute/unmute
-         35c8ae25c4fdeabf490e005692795a3be17ca5f6 ASoC: wm_adsp: Handle optional legacy support
-         354f6008b730a217a3e6ad982eda42e90e6f7473 ASoC: SOF: Introduce function sof_of_machine_select
-         4ec8179c212fb1530df4a1df6db75756c06da5f6 ASoC: apple: mca: Postpone requesting of DMA channels
-         5176ee64437538dbbdf17f867cff86ecfb391610 ASoC: soc-pcm.c: random cleanup
-         cdcdb008552670abd6f60a1777d3723e6ca2716b Untested TAS2562 power setting fixes
-         09e2d5a7c81e3a02070c6db06470eb04b1244b77 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
+         f02a33e10cfc87cd995d7f18a602530a42c05187 4.9-stable patches
+         2b29c57a71828e61a3d2eeaa36d75a2820efa9e8 4.14-stable patches
+         76b4e326dcbd021e887c8eb6d2f62236d0068edb 4.19-stable patches
+         8044b0d23452a7fb1a752929ce408178d49e6e8e 5.4-stable patches
+         c59d550ee485c6d72e7064c9a444ac58d3ff0dd3 5.10-stable patches
+         3bd42d280c5b18ad90df8bf0b22ef4d87ea8f7b3 5.15-stable patches
+         d1859c3b268316825c1d4ea822630dd2950d4f11 5.18-stable patches
+         de597cdb1bfa0e8a52c72a544bd546ddda73cf4e 5.19-stable patches
          
+
+--===============4611618643284311869==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662392843 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1662392842-a03041f424e5a35fbe473a001e1d73b3019092d7
+
+79a6bd975436d844153a2922e0c7157d22f388b2 de597cdb1bfa0e8a52c72a544bd546ddda73cf4e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMWGgsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rwYP/Aso3q4yrETVUvWoRUOx
+eLIUuN9DBMETOXO6NvPFM7Q7u4SEeBivOnGnshqZbJlZMkxHWvNdnVwBIvVce+El
+FlqElvxTRDN5OrAKexWB6b2J9gpiGGBi8+p2YOViBefSkUwzEeGaw57TOoHq3ORT
+RPhSNxjabG558+l1W7w1Ljd2siH20sNLObte0ccwx9/KDIfjGX1AhKy9ONVNnFmJ
+v9fGd0N5mup4J1Is11zBkVcW0SWSVJnD412i8fkbYOUjOur90NPLuUykVnEES/Qi
+84sd43zyqnZCVxBbaNfSRVoj3LVPTA5UaT+IgbGubM2RmBcUA7GpqxShsey9MBUc
+J5USpDLYKc/PPbKo40eTKBjEKgEyULDnRW5ByLytyHLosAEqS/Cii9ixVi2NDZcy
+nWI8iDKsZV0ssSMFlIOLYVcrKb3oMLoy59K0bCTkVQ7FjibWOlwoB5oly3lAoupo
+dmpFYEb9Pa6eI6Dco3RlPqnjyZb4sz/+ClFqbJZrJck1pHilRLL6aAz5IG6OHIFL
+kjr4OpP2m0At2mGETTnpn1/ZylNQHMwj1HMuQKbT/G9QLUy41pwnT/iLsuK2d4WW
+pRETKKrY5pvHpX8IbQjsyNn4dhNGxW2wf6HdPD8Kwwy/CJ8XEFrTrcl1dMfpLXba
+1Qmz+QoEq6L5Iyb0Fz8Cn7be
+=GQnp
+-----END PGP SIGNATURE-----
+
+--===============4611618643284311869==--
