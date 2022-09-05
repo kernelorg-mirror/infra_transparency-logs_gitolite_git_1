@@ -1,30 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 05 Sep 2022 17:42:00 -0000
-Message-Id: <166239972012.18826.3300319170147279144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 05 Sep 2022 17:43:14 -0000
+Message-Id: <166239979437.19354.17407609308390147909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 3bd7d6b27e6b7d7950bba1491bc9c385378fe4dd
-    new: 0535620c15e1133f9c19aefe9e928e0607e6c2b2
+  - ref: refs/heads/testing
+    old: feda14587d41ad04b29a693246707583472d2eb9
+    new: 2f61ff8272967c9bdcba810aa978170814b08f7c
     log: |
-         1999c963b86b0378b44edb2820e9d5102b7b531a Copy defer task run definition from kernel
-         f8bac73b2529d33a10002905351c08f9cc457fd7 Add documentation for IORING_SETUP_DEFER_TASKRUN flag
-         daa5b2dff32f0ba3383d66b48badf122bd6d2898 add io_uring_submit_and_get_events and io_uring_get_events
-         cc2e1bce106f2356c3a3ddd528b56980b8ea8a77 add a t_probe_defer_taskrun helper function for tests
-         f91105d5495546403ec5c15aa0768ae6a93d5ab1 update existing tests for defer taskrun
-         bfca8f112cf1bd9cf8781cdcaa8f0f52bc727506 add a defer-taskrun test
-         f84b884aa865435ca2e691dad72d6c89529eb60b update io_uring_enter.2 docs for IORING_FEAT_NODROP
-         d5be8c01ee0d80f20da17fbc8b241d44157c06b6 add docs for overflow lost errors
-         3f2835810413beee65dad84a69b1c6280fb79eb8 expose CQ ring overflow state
-         c9663ac060552aa4dc3f1b5af0fb5319a2a9b24e overflow: add tests
-         8bcc9029e3f7292bd17ed67d48c1122f1d56e36b file-verify test: log if short read
-         0535620c15e1133f9c19aefe9e928e0607e6c2b2 test/ringbuf-read: Delete `.ringbuf-read.%d` before exit
+         0fea1007f0e68764aa18822bb6fa83d3809739e8 iio: adc: add max11205 adc driver
+         2bc9cd66eb25d0fefbb081421d6586495e25840e iio: Use per-device lockdep class for mlock
+         835e699ef82adfc85ac4cc3f1f237c1adfdefd20 iio: Add new event type gesture and use direction for single and double tap
+         961db2da159d5191d2a1d9a7cf5ddf1672621a2b iio: accel: bma400: Add support for single and double tap events
+         c13219cececed248df6feacb0d33326266234b7b iio: adc: max1363: Drop provision to provide an IIO channel map via platform data
+         2f61ff8272967c9bdcba810aa978170814b08f7c iio: pressure: icp10100: Switch from UNIVERSAL to DEFINE_RUNTIME_DEV_PM_OPS().
          
