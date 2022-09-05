@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2644025626090857850=="
+Content-Type: multipart/mixed; boundary="===============8537728518695081991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 05 Sep 2022 11:08:27 -0000
-Message-Id: <166237610765.30580.903701881135626416@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 11:09:26 -0000
+Message-Id: <166237616600.31268.13308937133966424003@gitolite.kernel.org>
 
---===============2644025626090857850==
+--===============8537728518695081991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a956f91247da3fe71e4d5f7da1f6dd8bae7c3c21
-    new: d017aeaf844db21e8e7b22d79de229b746359f3b
+    old: d017aeaf844db21e8e7b22d79de229b746359f3b
+    new: 9e2bb70349fed75b15b9170bb1bff147a761fece
     log: |
-         f3d478858bec4f5dbba410f9b1db1b2505344188 usb: ohci-platform: fix usb disconnect issue after s4
-         d017aeaf844db21e8e7b22d79de229b746359f3b USB: xhci: make xhci_get_endpoint_address static
+         255930b953fb1b8bec2c0aa8cc532e377e5fada2 usb: phy: tegra: switch to using devm_gpiod_get()
+         9e2bb70349fed75b15b9170bb1bff147a761fece usb: gadget: udc: at91: switch to using fwnode_gpiod_get_index()
          
 
---===============2644025626090857850==
+--===============8537728518695081991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662376106 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662376164 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1662376105-45325f331a9d1095d4e30526207516d6aa69fbd1
+nonce 1662376163-5d8a8468307bdc48d7b38af6ebfbc5c6f1e4886c
 
-a956f91247da3fe71e4d5f7da1f6dd8bae7c3c21 d017aeaf844db21e8e7b22d79de229b746359f3b refs/heads/usb-testing
+d017aeaf844db21e8e7b22d79de229b746359f3b 9e2bb70349fed75b15b9170bb1bff147a761fece refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMV2KobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z18P/1o2m08SAJmmmdutYxi7
-rmtAU1+qIHJF/mKEFhoLaPIY8TcqZEJHNHqG+RSGro+BDD6Pcv5xZ/SjDkQ1ksm+
-lk/EJDi5ctfaKa/cUhbM05kMWLxn21EmlVbFvyYwHChuoss61i8IGBJET6k/9vBr
-LXK/6qwnSkZMm3N4FpababiREYaOl8Kw4cnZugbHKxY+cdu4odHzyrtdgjryRLwe
-ceeQ4E6E8unO7JeqHhQwuGDBNak0lw+T31KzsafPZWFXFp9TXVkx6aE6X+vXG3Qa
-z/nzTRbzNxBGJFRm3x6WMA+lx1QzpDNGEGkUuG2ZkvIJTvhKVSlNeKDb0xmHC8bw
-R9O/ozZHScY2HWByXVJ065NndqqTJPwAHRjDWwOkFYX589LDLAS3xqn/PKe/kDCh
-t9hao/y+fgKWI3r67qLxlu3itzcm97MSyUB9Kl3hFzHOH+LPmqxCJ0lXpFmQXGMh
-0hmgKprEzJbWIPYSnJ4/lm9lvBJz46Amdiuyub1MnW0OTuqoUps2XJIoe4vJEu7d
-UaIS81Wf0WEHisVFNcpSJ1vMQru4gf74M3nDq2ck8IOqUNITQW/ppAL1vH7ffD3S
-B0m+7kjONGHGYDPWnmX8rlYLJsHbElO1qa+gcbw/3bsa5gdVQ4KvtyA7hR0deJtK
-lM3TvXzUfNV8N/LmPkn1rO6S
-=DNXf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMV2OQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3SMQAMLlRrDi/ypDasQP+uz2
+2hQvvj1Pa4vRU6IontfXl6NqaJP4YAS3o8me0FOn5d3wPHy1ajJ7gvQ1dmZW9Ygv
+Vv+kfFiVbmS+yapPpUGzaptRFmheWnsl8Twotu5I6bljxo3TwpZ1/bUvdfQIZrLD
+l7cUxPsSQiuMoqvJn6kGKq10ZkE4apmBlePywh1kuCkO89LvY4cq2v3BF/avQoM8
+ItsDtXrQ5jjvis76VqlhrZ/d7DX+EK3CvpzOpI0NyRjq8HaRaDcuEVpXmC4HbSl/
+IRzBB5+5FGZevSsBeAeof5E1tqwTw+xsKZ1dnenRVHhlUPRbZsVz4wdQuuEHz1gA
+gmwJMuQ013y25t8IU3fZTMRD4rbYS1CVFNB/J1tsIvnn/KspaRxqmsB3Z/xoRlrq
+k6Fi2mXn1TcEyhvVNQsvVfpjPTxgSClP5QKAdy1k0jEBtqx9zGDBhi/SM7CfTPoJ
+EP51rWPsJinAunAZryLtEEB4no6xMnk1zm7gpGhbQyhplv/KYhyU6VzO7R0qBTrj
+g7N1BME7TNBeJEk7hntQHE4fDRQWyP/hYFcDBZWCB24pMy7/pOM/VvhNA6mZ21sv
+pmANHT9C5ds6KNI6lnSrSicRWiiivEAS7mpOekrW5Af38BMXBUAoZH16ec/Oar9J
+lg6L5QhQIB03y7VGPj1W0kLd
+=nm4W
 -----END PGP SIGNATURE-----
 
---===============2644025626090857850==--
+--===============8537728518695081991==--
