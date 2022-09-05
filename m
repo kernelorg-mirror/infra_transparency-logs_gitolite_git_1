@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8568251098365584807=="
+Content-Type: multipart/mixed; boundary="===============2523535866014288477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 05 Sep 2022 18:00:07 -0000
-Message-Id: <166240080794.721.10809140484971029901@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 18:03:03 -0000
+Message-Id: <166240098333.1957.7628108906862064087@gitolite.kernel.org>
 
---===============8568251098365584807==
+--===============2523535866014288477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/ath12k-bringup
-    old: 313fb8aacbba1eae831065d7cb5c68cb97fcace6
+  - ref: refs/heads/ath12k-bringup-extras
+    old: ef7197996efe871c1d0cf1a5e3908bffeb288e32
     new: 2ddc20e6d93fa689e75f4fde7d010ef58467782f
-    log: revlist-313fb8aacbba-2ddc20e6d93f.txt
+    log: revlist-ef7197996efe-2ddc20e6d93f.txt
 
---===============8568251098365584807==
+--===============2523535866014288477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-313fb8aacbba-2ddc20e6d93f.txt
+Content-Disposition: attachment; filename=revlist-ef7197996efe-2ddc20e6d93f.txt
 
-031d166f968efba6e4f091ff75d0bb5206bb3918 xfs: fix inode reservation space for removing transaction
-1d3551ced64e1a4f4869446a92713c235f20b0ca crypto: blake2b: effectively disable frame size warning
-0d362be5b14200b77ecc2127936a5ff82fbffe41 Makefile: link with -z noexecstack --no-warn-rwx-segments
-ffcf9c5700e49c0aee42dcba9a12ba21338e8136 x86: link vdso and boot with -z noexecstack --no-warn-rwx-segments
-cd04345598b7c191d41574bc9da3fe435dc65605 cifs: Remove {cifs,nfs}_fscache_release_page()
-3aefb2ee5bdd4a8976298415a5a017bf9844bfd5 riscv: implement Zicbom-based CMO instructions + the t-head variant
-2a0133723f9ebeb751cfce19f74ec07e108bef1f net: fix refcount bug in sk_psock_get (2)
-cf8c1e967224c931119d3447f2213d1f645a1a2a net: refactor bpf_sk_reuseport_detach()
-dd48f3832d041b7dbe54f26df21ace91a5889701 Merge branch 'net-enhancements-to-sk_user_data-field'
-fbe8870f72e8e71bb57b883d29c600aaaca6cd20 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-8bcfb4ae4d970b9a9724ddfbac26c387934e0e94 selftests: forwarding: Fix failing tests with old libnet
-74bba640d69914cf832b87f6bbb700e5ba430672 ALSA: hda/cirrus - support for iMac 12,1 model
 636aa8807b5780b76609b40cd3d3e1b5a225471c ALSA: hda: Fix crash due to jack poll in suspend
 9ad36309e2719a884f946678e0296be10f0bb4c1 net_sched: cls_route: remove from list when handle is 0
 86b259f6f8880237899fbf4f940303b3987dffa9 tls: rx: device: bound the frag walk
@@ -140,6 +128,15 @@ f37527a09dac324c74bb341c841096395a2f2566 nvme-pci: add NVME_QUIRK_BOGUS_NID for 
 0a0b80a44c7d111a0404d91847db57be8b667a15 dt-bindings: i2c: qcom,i2c-cci: convert to dtschema
 dde61c48303afae6d5db50fc2c9f7199413945e5 i2c: microchip-corei2c: fix erroneous late ack send
 6de9eb21cd36151281c7f3e72fc9df18f5c6c083 Merge 'irq/loongarch', 'pci/ctrl/loongson' and 'pci/header-cleanup-immutable'
+11a39c9a1249c111ebeeea3a19b405ae895f0037 wifi: ath12k: ath12k_dp_mon_rx_merg_msdus(): remove unused static variable
+2a1ee9c323bd99086904ad071d1efd0b281a4f96 wifi: ath12k: htc: remove unnessary cast to enum ath12k_htc_ep_id
+702e3a780d015f4c41afd78e56c3d23428b48a30 wifi: ath12k: remove dependency to ATH_COMMON
+e182adef541b5bad17137a47ed1ab51ab1632599 wifi: ath12k: cleanup Kconfig help texts
+7c9dbc058e4e02f1623dd38e8c040a3459d6efd8 wifi: ath12k: struct ath12k_hw_params: use bool bitfields
+a8e50d8084f70593ca7a960b49f21bacfa972e38 wifi: ath12k: unify TODO and FIXME comment styles
+e259f4c27a2253c2fc8bdc437efec6b7a4a18965 wifi: ath12k: move ath12k_dp_rxdma_ring_sel_config_*() function declarations to dp_rx.h
+3789058cfec365c5d25b9e5c7a9abecf54e24c36 MAINTAINERS: add ath12k driver
+e82bf2417c8e49527db04491a988832e0ec9d5a1 wifi: ath12k: remove extra line from hw.c
 93e530d2a1c4c0fcce45e01ae6c5c6287a08d3e3 vdpa/mlx5: Fix possible uninitialized return value
 cd83cd55878409299f4614c5138d24dffacc39bd Merge tag 'nvme-6.0-2022-08-11' of git://git.infradead.org/nvme into block-6.0
 a664375da76c6da8f83dc7997e43c568e1eb9a6a netfilter: nf_ct_sane: remove pseudo skb linearization
@@ -282,10 +279,13 @@ a072a7a0263ddc723305dfd975f931bcea4e4f5b perf build-id: Print debuginfod queries
 5a2f3dc31811e93be15522d9eb13ed61460b76c8 netfilter: nf_tables: validate NFTA_SET_ELEM_OBJREF based on NFT_SET_OBJECT flag
 8f5cb44b1bae8520c0705ce348b30ffb1fdda43a RISC-V: KVM: Support sstc extension
 9019b4f6d9bd88524ecd95420cf9cd4aaed7a125 wireguard: selftests: set CONFIG_NONPORTABLE on riscv32
+f8c09f5e7ed6eebc401a65244fc6842898bb2621 Revert "MAINTAINERS: add ath12k driver"
+6621e15cf87dcd44a167df11205570977b92c808 MAINTAINERS: add ath12k driver
 419831617ed349992c84344dbd9e627f9e68f842 iavf: Fix adminq error handling
 541a1af451b0cb3779e915d48d08efb17915207b iavf: Fix NULL pointer dereference in iavf_get_link_ksettings
 31071173771e079f7bc08dacd61e0db913262fbf iavf: Fix reset error handling
 cbe9e51126305832cf407ee6bb556ce831488ffe iavf: Fix deadlock in initialization
+313fb8aacbba1eae831065d7cb5c68cb97fcace6 wifi: ath12k: rx_desc: cleanup documentation
 5cef38dd03f33ef206eb792df0fb3b200d762546 dt-bindings: gpio: sifive: add gpio-line-names
 f75f5d58099ffe0a70ae96dfeb837b5c46399da3 lib: remove lib/nodemask.c
 d16b418fac3de0d2ac854b3a9a1a59a0ebf2a0e9 Merge tag 'vfio-v6.0-rc1pt2' of https://github.com/awilliam/linux-vfio
@@ -1051,4 +1051,4 @@ b3ca32308e46b6384fdcb7e64b3fca4f61aff14b wifi: ath11k: Fix incorrect QMI message
 c556462489ebb5810f38f5052536050ab04ec07c Merge ath-next into ath12k-bringup
 2ddc20e6d93fa689e75f4fde7d010ef58467782f Revert "bus: mhi: host: Move IRQ allocation to controller registration phase"
 
---===============8568251098365584807==--
+--===============2523535866014288477==--
