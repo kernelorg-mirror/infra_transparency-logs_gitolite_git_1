@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 05 Sep 2022 09:58:31 -0000
-Message-Id: <166237191170.13471.14284221814324710983@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 10:01:03 -0000
+Message-Id: <166237206326.16022.15371181171710436966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,23 +12,17 @@ repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
   - ref: refs/heads/for-next
-    old: aea39ecb42ad0dd5f0fb6cfa68b2c9ab7c7aac1f
-    new: 002409d9042417178d3e6e36b1be830610d3e945
+    old: 002409d9042417178d3e6e36b1be830610d3e945
+    new: b4a857891fa6a699a4e9cdea8118146b98a502e1
     log: |
-         daf7dc86513ffc9d9b2eef0378d97361609490ca dt-bindings: power: Add power-domain header for RV1126
-         aa247e4e9736480a926d3cf32ca170a2c4f75dfb Merge branch 'v6.1-shared/powerdomain' into v6.1-armsoc/drivers
-         2f3484b27598427ae582a37520b67c011597d706 dt-bindings: power: rockchip: Document RV1126 power-controller
-         66296e0a318e12ef1ca04013e1e893539e715c5a soc: rockchip: power-domain: Add RV1126 power domains
-         593e860fdff9add7f7eba504cf111b59a728fda5 dt-bindings: power: rockchip: Document RV1126 PMU IO domains
-         570ed4e5b0d9e784f51a52bede2326391afa8c3f soc: rockchip: io-domain: Add RV1126 IO domains
-         002409d9042417178d3e6e36b1be830610d3e945 Merge branch 'v6.1-armsoc/drivers' into for-next
+         43e1d6d3b45c4e7e25171ec04a10d09969b0f889 arm64: dts: rockchip: fix property for usb2 phy supply on rock-3a
+         1988e3ef0544bbe54cffa4ec30a5883e5a08c2b6 arm64: dts: rockchip: fix property for usb2 phy supply on rk3568-evb1-v10
+         b4a857891fa6a699a4e9cdea8118146b98a502e1 Merge branch 'v6.0-armsoc/dtsfixes' into for-next
          
-  - ref: refs/heads/v6.1-armsoc/drivers
-    old: aa247e4e9736480a926d3cf32ca170a2c4f75dfb
-    new: 570ed4e5b0d9e784f51a52bede2326391afa8c3f
+  - ref: refs/heads/v6.0-armsoc/dtsfixes
+    old: 8123437cf46ea5a0f6ca5cb3c528d8b6db97b9c2
+    new: 1988e3ef0544bbe54cffa4ec30a5883e5a08c2b6
     log: |
-         2f3484b27598427ae582a37520b67c011597d706 dt-bindings: power: rockchip: Document RV1126 power-controller
-         66296e0a318e12ef1ca04013e1e893539e715c5a soc: rockchip: power-domain: Add RV1126 power domains
-         593e860fdff9add7f7eba504cf111b59a728fda5 dt-bindings: power: rockchip: Document RV1126 PMU IO domains
-         570ed4e5b0d9e784f51a52bede2326391afa8c3f soc: rockchip: io-domain: Add RV1126 IO domains
+         43e1d6d3b45c4e7e25171ec04a10d09969b0f889 arm64: dts: rockchip: fix property for usb2 phy supply on rock-3a
+         1988e3ef0544bbe54cffa4ec30a5883e5a08c2b6 arm64: dts: rockchip: fix property for usb2 phy supply on rk3568-evb1-v10
          
