@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 05 Sep 2022 16:53:57 -0000
-Message-Id: <166239683706.15770.9536325944647931529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 05 Sep 2022 16:57:00 -0000
+Message-Id: <166239702032.19750.3971815822186961012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/devel/mte-pg-flags
-    old: 7a937f62486a95ed542d051f05e3d6d67c9d0928
-    new: 03823238aad8ad1212c4ebf930790ec2637ee5bd
+  - ref: refs/heads/hyperv-fixes
+    old: 676576d164b34a98589a9efee85f57240c07fef3
+    new: 2258954234db7530e9d86bb32cd6ad54485ff926
     log: |
-         032228f474ea862d08f39577f5bbb6dc1fd3345b mm: Do not enable PG_arch_2 for all 64-bit architectures
-         10200c01888f5453f4ecf8d55ff7a877be361348 arm64: mte: Fix/clarify the PG_mte_tagged semantics
-         86eb58cd9891cedb97200799703844cce9806a12 KVM: arm64: Simplify the sanitise_mte_tags() logic
-         81df8ea9482cc11819afd646fcfc0a1c06b325c2 mm: Add PG_arch_3 page flag
-         03823238aad8ad1212c4ebf930790ec2637ee5bd arm64: mte: Lock a page for MTE tag initialisation
+         2258954234db7530e9d86bb32cd6ad54485ff926 tools: hv: kvp: remove unnecessary (void*) conversions
          
