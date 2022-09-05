@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0990406200511324063=="
+Content-Type: multipart/mixed; boundary="===============0849046933644689813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 05 Sep 2022 10:16:42 -0000
-Message-Id: <166237300266.26338.13530676768486523281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 05 Sep 2022 10:16:50 -0000
+Message-Id: <166237301098.26433.17572089864253178698@gitolite.kernel.org>
 
---===============0990406200511324063==
+--===============0849046933644689813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/heads/master
-    old: 8bb7eca972ad531c9b149c0a51ab43a417385813
+    old: 19901165d90fdca1e57c9baa0d5b4c63d15c476a
     new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
-    log: revlist-8bb7eca972ad-3d7cb6b04c3f.txt
+    log: revlist-19901165d90f-3d7cb6b04c3f.txt
 
---===============0990406200511324063==
+--===============0849046933644689813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8bb7eca972ad-3d7cb6b04c3f.txt
+Content-Disposition: attachment; filename=revlist-19901165d90f-3d7cb6b04c3f.txt
 
 7be3bd8856fba99f8b25b9c223250e42292c312e xfs: empty xattr leaf header blocks are not corruption
 e53bcffad0326c1ef4b4baec4262b5343e420c44 xfs: don't hold xattr leaf buffers across transaction rolls
@@ -1051,4 +1051,4 @@ cd2715b7929bcaf6e38d13ac512e0a9bba8df10d Merge tag 'edac_urgent_for_v5.19' of gi
 334c0ef6429f261c7f53dc035632435ffbc0c60d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
 
---===============0990406200511324063==--
+--===============0849046933644689813==--
