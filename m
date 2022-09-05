@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0235765230932133812=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 05 Sep 2022 08:32:32 -0000
-Message-Id: <166236675265.10970.489717372546555729@gitolite.kernel.org>
-
---===============0235765230932133812==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 05 Sep 2022 08:51:02 -0000
+Message-Id: <166236786246.16625.1851967640975809686@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/notes/signatures/tar
-    old: aabb01d5946ef7470ba78a0b0dfd205e03fd01cf
-    new: 655322bad49687c404e10a975b7ba2cf39d4c6ae
+  - ref: refs/heads/arm64/alternatives/rework
+    old: ab063d6f66d864daad17841ceab73fdafc63d112
+    new: 2d5c57125128db8b4934846ad39b00f79cd1637d
     log: |
-         655322bad49687c404e10a975b7ba2cf39d4c6ae Notes added by 'git notes add'
+         3de65a6cf1db7c97d5ed2d4cf92dbfc7606f55d6 arm64: alternatives: proton-pack: prepare for cap changes
+         58bb20f295e4a62f5df6cd69415d58f0902db58a arm64: alternatives: hoist print out of __apply_alternatives()
+         bc2a3a0ea5f8dbfc04fdc350bd73bd2cae23e91f arm64: alternatives: make alt_region const
+         2b93a2d1a8abaed1f1b63e29da77c2a076c8f198 arm64: alternatives: have callbacks take a cap
+         d1f6eb7b1d30f48f14dcfcd43991d761e60af53e arm64: alternatives: add alternative_has_feature_*()
+         1121255e431de4b5c9a295d6fb6adac10e708534 arm64: alternatives: add shared NOP callback
+         2d5c57125128db8b4934846ad39b00f79cd1637d HACK: arm64: alternatives: dump summary of alternatives
          
-
---===============0235765230932133812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662366751 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1662366750-b41756c18190920122cb035eb4b9c592c044701e
-
-aabb01d5946ef7470ba78a0b0dfd205e03fd01cf 655322bad49687c404e10a975b7ba2cf39d4c6ae refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMVtB8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AHIP/1UsBxFfVjQO4lk6KVm3
-354vYiFKOWs4tRqfNTwshImNBJ3ByZVxK3kz0Cdr1Nck2wjwOpvfjPiJTSw1FqVi
-oiKzjk4yn/KM0zbS8Ke34u5178g2SJAhPxBmKJqy/CfITchcWgXokR16JftwjOMJ
-1kWZWYLHAE92wklmn6LBuY+jaLxlzmpa+xvbSmiM/YMQxobKnvb8uo5DeS1m/sbZ
-VoCxQdwf/S0Nt3R9oJmz7tqbWA2D8jFs7mSw+/84WQPTEh3vNshRAloyiyv7fLJ+
-i7MFUsshmlGVeKhJoAgOXFEo5EJh+DhgfFiJez1Zav4rxYTuVpPcc/+UytnZY5sw
-TdfVbsI5WUERLKP5KG/ZNLxlgBl2iEc9jpHG7oGX7lgQG93t5MPBLjYyxN+1Xx2X
-0iw9Pfqt54t0DrjIIKxiwyTPoDqwMvuf37rPRZ0qVfSCgIqf1C2IjfLoP2ED87dV
-+B2d/3Jt2B34SwOw4195s13q0TSiyyghudxiq/ekyjkgLJUgwFJIOOhJw51MwA7D
-ekXcyZIv0EigekFGU7pz9Bjo1yG1+Pqtpw+XACrNk+lJA0+G7jXw4Ecuf2MM2/zz
-BHulnewv3bq/jyKeyThyUlht9qUTazaVyDnimUQf2h+p2b6V8A8UKxiNHfeqbJzg
-62zDxc7momTWxjAGqMm/k3x4
-=EKDn
------END PGP SIGNATURE-----
-
---===============0235765230932133812==--
