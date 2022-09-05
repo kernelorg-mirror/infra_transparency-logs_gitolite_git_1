@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8911181790133010261=="
+Content-Type: multipart/mixed; boundary="===============6909511635473239638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 05 Sep 2022 13:40:17 -0000
-Message-Id: <166238521701.7212.11118303951118170533@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 13:40:29 -0000
+Message-Id: <166238522956.7367.6342703323136045386@gitolite.kernel.org>
 
---===============8911181790133010261==
+--===============6909511635473239638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0b20a133c0944c1f9ca97404b7805cb9c9cf32e0
     new: 274052a2b0ab9f380ce22b19ff80a99b99ecb198
     log: revlist-0b20a133c094-274052a2b0ab.txt
 
---===============8911181790133010261==
+--===============6909511635473239638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ bfc03c15bebf5e0028e21ca5fc0fe4a60a6b6681 bpf: Remove usage of kmem_cache from bp
 9f2c6e96c65e6fa1aebef546be0c30a5895fcb37 bpf: Optimize rcu_barrier usage between hash map and bpf_mem_alloc.
 274052a2b0ab9f380ce22b19ff80a99b99ecb198 Merge branch 'bpf-allocator'
 
---===============8911181790133010261==--
+--===============6909511635473239638==--
