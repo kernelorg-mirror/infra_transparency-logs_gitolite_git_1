@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Mon, 05 Sep 2022 18:13:40 -0000
-Message-Id: <166240162083.8681.16143340089769768726@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1973261076858082748=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 05 Sep 2022 18:27:57 -0000
+Message-Id: <166240247748.19495.13585846146739871904@gitolite.kernel.org>
+
+--===============1973261076858082748==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/pci-mvebu-orion
-    old: 7b8e6ea9c308bcdb3ef6f9587115d03d6bb8d1cb
-    new: c22c41a0ee8b875a42ce50b732f3f0ac2c3c762b
-    log: |
-         0b010002fa6bbc0413d0ce248bdee3bdd84903df PCI: mvebu: Add support for PCI_EXP_SLTSTA_DLLSC via hot plug interrupt
-         f836af730598df7a4516d988ac7548622fe60fab PCI: mvebu: use BIT() and GENMASK() macros instead of hardcoded hex values
-         4a0b4f84573b5e1fbb2930e6b74ec34a613640a7 PCI: mvebu: For consistency add _OFF suffix to all registers
-         1b9f86926af7172000e017d2a6c9caa48b085969 ARM: orion: Move PCIe mbus window mapping from orion5x_setup_wins() to pcie_setup()
-         62be1921823824278dcdd953fca6359f2944f86c bus: mvebu-mbus: add configuration space aperture
-         b178f91d1e38086beb1b11b6e6b68028c7608cac dt-bindings: PCI: mvebu: Add orion5x compatible
-         bdffd5edb39ecab3283ddba07446e424e9f77521 PCI: mvebu: Remove unused busn member
-         ad79fb31f26718d2b91dc95ba0e12bf5d9fdd2ca PCI: mvebu: Cleanup error handling in mvebu_pcie_probe()
-         f93185604a045e49cdcc631534e27eafd1cd4324 PCI: mvebu: Add support for Orion PCIe controller
-         c22c41a0ee8b875a42ce50b732f3f0ac2c3c762b ARM: dts: orion5x: Add PCIe node
-         
+  - ref: refs/heads/togreg
+    old: f5ffeca5086fef68765f3c1dbc9a12183833adf0
+    new: 2f61ff8272967c9bdcba810aa978170814b08f7c
+    log: revlist-f5ffeca5086f-2f61ff827296.txt
+
+--===============1973261076858082748==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f5ffeca5086f-2f61ff827296.txt
+
+6cda6aa83c0b548471bc30cc2083fe5fd255591b dt-bindings: iio: adc: ti,tsc2046: add vref-supply property
+a616a6a1ff164d1502b28c1b1f5d481bfb26d879 iio: adc: tsc2046: add vref support
+3f8dd0a7dc16514d365253568bd32b8fe86c2e94 iio: adc: tsc2046: silent spi_device_id warning
+741d1e3783d9486d76534f2f08442e1f0eb108a1 iio: magnetometer: yamaha-yas530: Use pointers as driver data
+ff1c17e9a7623f73aa44c605a5e6a4396df46a5e iio: magnetometer: yamaha-yas530: Make strings const in chip info
+d05d73779145f6d1addc10b516f589f803fcdb56 iio: magnetometer: yamaha-yas530: Use dev_err_probe()
+5a80c2572f5e40fc106fe9f372964935798dc637 dt-bindings: iio: adc: Add max11205 documentation file
+0fea1007f0e68764aa18822bb6fa83d3809739e8 iio: adc: add max11205 adc driver
+2bc9cd66eb25d0fefbb081421d6586495e25840e iio: Use per-device lockdep class for mlock
+835e699ef82adfc85ac4cc3f1f237c1adfdefd20 iio: Add new event type gesture and use direction for single and double tap
+961db2da159d5191d2a1d9a7cf5ddf1672621a2b iio: accel: bma400: Add support for single and double tap events
+c13219cececed248df6feacb0d33326266234b7b iio: adc: max1363: Drop provision to provide an IIO channel map via platform data
+2f61ff8272967c9bdcba810aa978170814b08f7c iio: pressure: icp10100: Switch from UNIVERSAL to DEFINE_RUNTIME_DEV_PM_OPS().
+
+--===============1973261076858082748==--
