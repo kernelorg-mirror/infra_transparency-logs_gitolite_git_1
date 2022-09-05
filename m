@@ -1,45 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3342009249790857428=="
+Content-Type: multipart/mixed; boundary="===============8911181790133010261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 05 Sep 2022 13:30:39 -0000
-Message-Id: <166238463920.740.6381682869565966133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 05 Sep 2022 13:40:17 -0000
+Message-Id: <166238521701.7212.11118303951118170533@gitolite.kernel.org>
 
---===============3342009249790857428==
+--===============8911181790133010261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 36f9b47457f0cad290502c56664df76a2859c9b4
-    new: ab526eaa84b90963a54f4f22891a11ef7288196c
-    log: revlist-36f9b47457f0-ab526eaa84b9.txt
+    old: 0b20a133c0944c1f9ca97404b7805cb9c9cf32e0
+    new: 274052a2b0ab9f380ce22b19ff80a99b99ecb198
+    log: revlist-0b20a133c094-274052a2b0ab.txt
 
---===============3342009249790857428==
+--===============8911181790133010261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36f9b47457f0-ab526eaa84b9.txt
+Content-Disposition: attachment; filename=revlist-0b20a133c094-274052a2b0ab.txt
 
-302376feec1d4e351faf31df17fdb22db685961a net: fman: Move initialization to mac-specific files
-1257c9623deba19493fc0e8f76ad6da31ff4471a net: fman: Mark mac methods static
-4498862710972f4012e1ed7967df517f28ddaff6 net: fman: Inline several functions into initialization
-45fa34bfaa52737b3d1c77ad31044c8fd4f4698a net: fman: Remove internal_phy_node from params
-262f2b782e255b7959b6b8fdfd9347558a7003a2 net: fman: Map the base address once
-c6b7b1b515080aaa1e1e72328c758478dc32d82a net: fman: Pass params directly to mac init
-19c788b144e2751a221fd64c6db6ce1b98506c0d net: fman: Use mac_dev for some params
-5b6acb554065e9e0a8e93f17573afeae1e121844 net: fman: Specify type of mac_dev for exception_cb
-aedbeb4e597e9f6202d36e249f1027138a764a67 net: fman: Clean up error handling
-901bdff2f529d8a33d9a2b88caa7bfb9fad14c52 net: fman: Change return type of disable to void
-fca4804f68cfa5516159ff9579a2f702363ea93a net: dpaa: Use mac_dev variable in dpaa_netdev_init
-d0e17a4653cebc2c8a20251c837dd1fcec5014d9 soc: fsl: qbman: Add helper for sanity checking cgr ops
-914f8b228ede709274b8c80514b352248ec9da00 soc: fsl: qbman: Add CGR update function
-ef2a8d5478b9ad653c318bdbb4f6e7f46c90f90b net: dpaa: Adjust queue depth on rate change
-ab526eaa84b90963a54f4f22891a11ef7288196c Merge branch 'dpaa-cleanups'
+7c8199e24fa09d2344ae0204527d55d7803e8409 bpf: Introduce any context BPF specific memory allocator.
+fba1a1c6c912b383f86bf5d4aea732dcad3ec420 bpf: Convert hash map to bpf_mem_alloc.
+37521bffdd2d1efcb1dbdfd3ee89584c8943421c selftests/bpf: Improve test coverage of test_maps
+89dc8d0c38e0df27e580876a1681a55c686a51ff samples/bpf: Reduce syscall overhead in map_perf_test.
+34dd3bad1a6f1dc7d18ee8dd53f1d31bffd2aee8 bpf: Relax the requirement to use preallocated hash maps in tracing progs.
+86fe28f7692d96d20232af0fc6d7632d5cc89a01 bpf: Optimize element count in non-preallocated hash map.
+0fd7c5d43339b783ee3301a05f925d1e52ac87c9 bpf: Optimize call_rcu in non-preallocated hash map.
+7c266178aa51dd2d4fda1312c5990a8a82c83d70 bpf: Adjust low/high watermarks in bpf_mem_cache
+8d5a8011b35d387c490a5c977b1d9eb4798aa071 bpf: Batch call_rcu callbacks instead of SLAB_TYPESAFE_BY_RCU.
+4ab67149f3c6e97c5c506a726f0ebdec38241679 bpf: Add percpu allocation support to bpf_mem_alloc.
+ee4ed53c5eb62f49f23560cc2642353547e46c32 bpf: Convert percpu hash map to per-cpu bpf_mem_alloc.
+96da3f7d489d11b43e7c1af90d876b9a2492cca8 bpf: Remove tracing program restriction on map types
+dccb4a9013a68ddcb8303cd60f2fca1742014f3f bpf: Prepare bpf_mem_alloc to be used by sleepable bpf programs.
+02cc5aa29e8cef4c1d710accd423546ab63f4eda bpf: Remove prealloc-only restriction for sleepable bpf programs.
+bfc03c15bebf5e0028e21ca5fc0fe4a60a6b6681 bpf: Remove usage of kmem_cache from bpf_mem_cache.
+9f2c6e96c65e6fa1aebef546be0c30a5895fcb37 bpf: Optimize rcu_barrier usage between hash map and bpf_mem_alloc.
+274052a2b0ab9f380ce22b19ff80a99b99ecb198 Merge branch 'bpf-allocator'
 
---===============3342009249790857428==--
+--===============8911181790133010261==--
