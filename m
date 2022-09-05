@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7251709500186759215=="
+Content-Type: multipart/mixed; boundary="===============6116422093407490574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 05 Sep 2022 05:58:22 -0000
-Message-Id: <166235750244.2423.6802616236781061407@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 05:58:26 -0000
+Message-Id: <166235750678.2543.13440362590071300785@gitolite.kernel.org>
 
---===============7251709500186759215==
+--===============6116422093407490574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: e230a4455ac3e9b112f0367d1b8e255e141afae0
-    new: 7e18e42e4b280c85b76967a9106a13ca61c16179
-    log: revlist-e230a4455ac3-7e18e42e4b28.txt
+  - ref: refs/heads/staging-next
+    old: 7bd581f3c26354f5d5dc6536fcfbbe14f4f5b2b7
+    new: 28a2a54901f66a45ab339e944fdfc69667e639c1
+    log: revlist-7bd581f3c263-28a2a54901f6.txt
 
---===============7251709500186759215==
+--===============6116422093407490574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662357501 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662357505 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1662357501-9ed0cffd278b2bd44cf2ae2e8cd35741ca121d75
+nonce 1662357505-366c971de37f949afa36672f69e86dff15383a76
 
-e230a4455ac3e9b112f0367d1b8e255e141afae0 7e18e42e4b280c85b76967a9106a13ca61c16179 refs/heads/staging-linus
+7bd581f3c26354f5d5dc6536fcfbbe14f4f5b2b7 28a2a54901f66a45ab339e944fdfc69667e639c1 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMVj/0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kGoP/A32iIsOS5xgA20o9/EV
-oG/z/SDv1mrsyfqOompPlu4i78SydjAjy3kuJXbUwNE9Db1XFdxdnaLCbDm9ne+f
-6OGDZbw8SEZQFGuq82dAbtZtFLKMlAVonhKFpmWhJ9orVj6xgUzgyPV6C9OwKSeN
-pdatxpN2Pds+2io2GUPWo4tFNdWBwV0sZ2buAwuI1Z2OulRcEMCgWa2u50ixDE4Y
-RpVBqp2IjOWgx1EkwVgQZ0k9hyrjDIWcpJI8aBySzV1ZKzN7ADpGccQRzOe/UJcL
-IsvtCmfji6QH5xPGUyhSVXgGhua5njKPekpFQ0pSzcB11bWvWfwdr4+vM0tKr0zd
-/HP7TBuJm5bM+Ma6HuGV2Ltc8uyCQ2BGR6QuHF6WS79YzOGFuTkFmody+tefN3KC
-qpKNAkfhHzRHk45+iPZMOBZq3xZyRMFYFwfoqs2+rzbgS+6BlX4mJ06oAYZjtAMQ
-u5/ViH5vlx42uaqAi+1PjPcydoqqcVZ75CrFSTMfqHDgRbcnqq7tvrx0VdpCnQPD
-O1tiG0RhqtaG7ZWpgOieEk3r4Uiu/c7zBLpDwhaDHVVl8S65NInKHuUq40hZp5Re
-Z3ei1Nf8geCSsx9vT29U0UvZj0LjmTICC+lAVIpH9NNyCJ/7wJLTPq4rsG0r9lYw
-VGG11OYq3AfY0ldwNVS+8Pxn
-=O1Q+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMVkAEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QCMP/ijJfnrpKU66SfNdwXyZ
+F4EZgy1xkF68vYqFr4lj7zfi0ASNhuniE0lnFZUkRb2Gt4sSgPrZD35P1zjdJZM/
+mkrxXNNQrYx662/Qzya9nUFoaNLCTd6P16AUfJyOukcSMaoBWeoxwPZjCRPThRoP
+HpBQNbuiV7fXtWwbwyxi4hW4BlWxJYSqNF/jn/S9Par+zmZ/N1KQWHYGAiXZ9Bi3
+neLSO2dzjEpSc2mGXzG1FtsXbQrpGEEOj1S3jTr0aliRRxcMER6q8UxSqINwc7MQ
+kN+Gtjw8LkTrXs3UkoAj2UO5KDhbs6Mxy9aGjJFyAeMB35Vt/0GiD+y5jOaAlYc1
+MROYW8r4wwrEVZXY6jBbC8aiF43n4VMKJTFfMz1MnJzEpsk9+pp4amn5XiqLJLHq
+C+w1QvFh+8zfHwXMCpdaVzVP4No4euJuTL4Qwiaik2zsrtA/v4wxuoNPMxm1ocIT
+2Ro9eupmO0F3KttF/tFxs3HLo8xqSouu0psvHWiPVm04uqaYaphV6KpvsMmrdfuS
++dc/atYaHEO+PQMu/mt+7JVnmWO9kIPs4oTbeEMjQghaFPA9UmJKCNGWHL3qM3sF
+ruSrMmv3ebm+AoyA3kULnhvHqCVf47uxiXl0Rm5Kxk+lGS+vA5WQfE7bfOF5UpLC
+JJNBlqOzAlL/nkzX0Z8WrhAX
+=vLjk
 -----END PGP SIGNATURE-----
 
---===============7251709500186759215==
+--===============6116422093407490574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e230a4455ac3-7e18e42e4b28.txt
+Content-Disposition: attachment; filename=revlist-7bd581f3c263-28a2a54901f6.txt
 
-a6250bdb6c4677ee77d699b338e077b900f94c0c drm/amdgpu: Only disable prefer_shadow on hawaii
-ad2feebd71ff80532dff75756d1103f056358614 drm/amdgpu: double free error and freeing uninitialized null pointer
-2bba782002c5dab6ca8d608b778b386fb912adff drm/bridge: lvds-codec: Fix error checking of drm_of_lvds_get_data_mapping()
-fe54833dc8d97ef387e86f7c80537d51c503ca75 ksmbd: return STATUS_BAD_NETWORK_NAME error status if share is not configured
 4963d74f8a6cc0eafd71d9ffc13e3a11ff1dd160 ksmbd: request update to stale share config
 a664375da76c6da8f83dc7997e43c568e1eb9a6a netfilter: nf_ct_sane: remove pseudo skb linearization
 f3e124c36f70d5ffcdd4e8bdbe7bb28a98a715c0 netfilter: nf_ct_h323: cap packet size at 64k
@@ -198,7 +194,9 @@ d6d142cb7f79bec6051c5ecf744b7a5309c5a0ee IB/iser: Fix login with authentication
 4b83c3caf289b80acecc539c79f10a6937cc42dd RDMA/mlx5: Use the proper number of ports
 ef0162298abf46b881e4a4d0c604d1a066228647 RDMA/cxgb4: fix accept failure due to increased cpl_t5_pass_accept_rpl size
 70cfdd0365acf550350d8949096c0b34a96b6b48 ALSA: hda/realtek: Add quirk for Lenovo Yoga7 14IAL7
+b2fa9e13bbf101c662c4cd974608242a0db98cfc staging: r8188eu: add firmware dependency
 1374901b850c8f2ff1ee0e62ffafbc4030572fc6 RDMA/erdma: Using the key in FMR WR instead of MR structure
+e01f5c8d6af231b3b09e23c1fe8a4057cdcc4e42 staging: r8188eu: Add Rosewill USB-N150 Nano to device tables
 6cd8351c4ede5b3335c7eb13d009c3456e90b6df RDMA/erdma: Correct the max_qp and max_cq capacities of the device
 b16de8b9e7d1aae169d059c3a0dd9a881a3c0d1d RDMA: Handle the return code from dma_resv_wait_timeout() properly
 2c6482091f01ba104cf8ee549aa5c717e80d43ea i40e: Fix tunnel checksum offload with fragmented traffic
@@ -928,6 +926,7 @@ d5dcc33677d7415c5f23b3c052f9e80cbab9ea4e usb: cdns3: fix incorrect handling TRB_
 b46a6b09fa056042a302b181a1941f0056944603 usb: cdns3: fix issue with rearming ISO OUT endpoint
 c063643cb33b05b5cb14bc3fd318fad58e8f83bb Merge tag 'peci-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/iwi/linux into char-misc-linus
 5ef251b9b73ff9f62aa5ac60427af05b2b594a55 Merge tag 'mhi-fixes-for-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-linus
+e230a4455ac3e9b112f0367d1b8e255e141afae0 staging: rtl8712: fix use after free bugs
 ff03b8846705e517f878585cf66c5d8fca1c38b2 s390/mm: remove useless hugepage address alignment
 c9305b6c1f52060377c72aebe3a701389e9f3172 s390: fix nospec table alignments
 bdbf57bca6bf0b76a0f2681014552b25917c26e1 s390: update defconfigs
@@ -1081,5 +1080,6 @@ b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat 
 685ed983e2dc330680a076a1fd37ebe04017df91 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5995497296ade7716c8e70899e02235f2b6d9f5d Merge tag 'powerpc-6.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
+28a2a54901f66a45ab339e944fdfc69667e639c1 Merge 6.0-rc4 into staging-next
 
---===============7251709500186759215==--
+--===============6116422093407490574==--
