@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 05 Sep 2022 11:52:00 -0000
-Message-Id: <166237872056.28997.1890507124309194964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 05 Sep 2022 12:03:51 -0000
+Message-Id: <166237943185.5233.300733134208646763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 0d1b756acf60da5004c1e20ca4462f0c257bf6e1
-    new: 9b7d4be967f16f79a2283b2338709fcc750313ee
+  - ref: refs/heads/master
+    old: 599566c1c369205286b1a22e1b3c2e9dea0e3744
+    new: 6630edabd80823cc6f7c874d52a4cac6381b9051
     log: |
-         85eaeb5058f0f04dffb124c97c86b4f18db0b833 IB/core: Fix a nested dead lock as part of ODP flow
-         9ca05b0f27de928be121cccf07735819dc9e1ed3 RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
-         74b30b3ad5cec95d2647e796d10137438a098bc1 RDMA/mlx5: Set local port to one when accessing counters
-         9b7d4be967f16f79a2283b2338709fcc750313ee RDMA/mlx5: Fix UMR cleanup on error flow of driver init
+         b2abe33d23cfaea6cd3f8335a1ee08c480512c6f net: ipa: rework last transaction determination
+         c30623ea0b3a9d766f34f75a326b8c610ca3105e net: ipa: use IDs for last allocated transaction
+         897c0ce665d619227e19f59934115c1b7719621f net: ipa: use IDs exclusively for last transaction
+         e68d1d1591fd70de0651e1af66db69540f556e73 net: ipa: simplify gsi_channel_trans_last()
+         4601e75596cb7a4d538e7b9cf0b599b364acbae8 net: ipa: further simplify gsi_channel_trans_last()
+         8672bab7eb947222609bec8ed8a423bc72bccdbe net: ipa: verify a few more IDs
+         6630edabd80823cc6f7c874d52a4cac6381b9051 Merge branch 'ipa-transaction-IDs'
          
