@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6275345319547355774=="
+Content-Type: multipart/mixed; boundary="===============3154240184573833486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 05 Sep 2022 11:02:08 -0000
-Message-Id: <166237572868.26670.13135896166366678498@gitolite.kernel.org>
+Date: Mon, 05 Sep 2022 11:03:58 -0000
+Message-Id: <166237583885.27393.15344942479364525902@gitolite.kernel.org>
 
---===============6275345319547355774==
+--===============3154240184573833486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-linus
-    old: c749b275056d4d1023af125b320c91a24d6856b8
-    new: 5666a274a6d54372d6b79b1f78682a9d827e679e
+    old: 5666a274a6d54372d6b79b1f78682a9d827e679e
+    new: c2e406596571659451f4b95e37ddfd5a8ef1d0dc
     log: |
-         5666a274a6d54372d6b79b1f78682a9d827e679e driver core: fix driver_set_override() issue with empty strings
+         dec9b2f1e0455a151a7293c367da22ab973f713e debugfs: add debugfs_lookup_and_remove()
+         c2e406596571659451f4b95e37ddfd5a8ef1d0dc sched/debug: fix dentry leak in update_sched_domain_debugfs
          
 
---===============6275345319547355774==
+--===============3154240184573833486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662375727 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662375837 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662375727-e69648cca7551e8e57471570cef2b7b7694a82da
+nonce 1662375836-d358c3c6bef89f78ae493a2f2e05f4cddaba3617
 
-c749b275056d4d1023af125b320c91a24d6856b8 5666a274a6d54372d6b79b1f78682a9d827e679e refs/heads/driver-core-linus
+5666a274a6d54372d6b79b1f78682a9d827e679e c2e406596571659451f4b95e37ddfd5a8ef1d0dc refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMV1y8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JFIP/jXAHid5y/MU5Qtgjv9R
-pTorcGtPW3QSaKp+MpwAadJkn9N8RQEa11GhUGtww3wlgIFri8WZxkIWrsD6BAAm
-1NRZMA2GO3VNcau+HxhP8LMkVJrY7UrKYyYRo0jm/uukYkjAbqKig4mFgnOcX5NR
-dFRsNnyyqDM21VEViAF26+fy6ZXeYb2eFXj1kEIN+AVs70vV0KBpGb5o8VxJpqn/
-AdV/qz2m5jXhTpzDg8iBtVOVN+MH9LvnrigzNmruFZoNCasxvtZbD+P/DexGkVpd
-b6IgRA4E9MOEkAcFuiV0ET5xDRFTnoIORdGe6KQ3rnfA4Fi+3DBBZeeeTctHDSsr
-Bk0Babm5swBE4tXbfBeBaRo7i8hK23EC/0IerFjwE1FVMvm53TrqooQaYIXuwDzD
-5s0OYFVQMzQHyNcelMR9W2kSVZpKlmlWa3KIKU08/ZvPHju4OFQEfP0A+bXBYc+d
-vbKAhZQZmjbDcYq2AVKUYno6eoSQOnUD4TZ4ydydx5Yk6IYaTTjTTvkPc2xeAZNf
-q3YNYKki8XbT3ijVpwYA3AMl8maAaxYjhrjFWgExOkT3ijBwgMgx2/dbxK1/vNwj
-DYEPheurBZ0L2mnr7m4zJwsomTMKsnabYa5oabaN4w3RfPN+jANiWyvoOS+vIfPb
-djwnjPlYw4vkH3Y2/nKkzibc
-=Be/c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMV150bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QYUP/2AABB8Whwn4cHHUxv3h
+sogJmUiJX1Qis7tzVvLeNS8sPVptKScc/c7jTBBUviE7bgclJo8mviCCGyVUGZGa
+zf1jxWw43NxvT+wqRT8FWQcG7Jvbau6ThBgzpDTSW7v+/BoyKy1UhF85Zrur6c81
+YTPNOvZo6MuIBVLvGOO+vmnGjaknaJtAl+T5FHxBZeR9y4CvMI6HqDXOCtgsX3H3
+y9c9eVSKxSvXyPNqvj9uHdyKkIqopBiMYkE4/EII7T6/2lc2uq2rCLXet3wLCdXR
+w4qp2PdO7Ws7dRxw9DZ5vR04cdBOUqdpiXwX484XxAUlwyQmIQJq/8e0sbGd088a
+DzRLtu6al5At2gBCthTxEInW7uOfZo7SakFjrCnZnRoC7qKRxe8EEP48hn8htk7Q
+8ORJ+2WoUFB90OJgdi3oXUSDxXXsYBDbCEUiIv3sKZWgWxIUEyRJoTtKD4xZpsYG
+UkRGNs7YpKm7PKSntZix4zzDpCeGYANqn4i54PUlarl5YLuKHdlo36YNZwbrg7d1
+NfE50c5mdCLTOGXH1hUHKSMXwjtTANCO3S722KaABqzMxETQo7Ryi/jNtT4j9rOC
+x4jrW9uhY7I7NPQWjJmB8sW4vNyCZlJDBzwiBbJLIAavArVlx/siS1L1eUf2GmZf
+iuI6QA+jRyQI8GZEnIeucwJ+
+=jFAN
 -----END PGP SIGNATURE-----
 
---===============6275345319547355774==--
+--===============3154240184573833486==--
