@@ -1,24 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8720218802280902081=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 05 Sep 2022 15:27:38 -0000
-Message-Id: <166239165825.18301.8251393240584527300@gitolite.kernel.org>
-
---===============8720218802280902081==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 05 Sep 2022 15:38:40 -0000
+Message-Id: <166239232084.25305.11508694267962435339@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: 376be51caf8871419bbcbb755e1e615d30dc3153
-    new: cdcdb008552670abd6f60a1777d3723e6ca2716b
+  - ref: refs/heads/for-next
+    old: b9ceaf40f44cc3e9d26a4aacf5d736eccfe87400
+    new: 09e2d5a7c81e3a02070c6db06470eb04b1244b77
     log: |
          10d5d8cbf6268e612bacac29c0beef489d3c1398 ASoC: soc-pcm.c: remove unnecessary codec2codec_close_delayed_work()
          041107289c5cebb0693a55c432ab50862a450476 ASoC: soc-pcm.c: add soc_pcm_ret()
@@ -30,30 +25,5 @@ changes:
          4ec8179c212fb1530df4a1df6db75756c06da5f6 ASoC: apple: mca: Postpone requesting of DMA channels
          5176ee64437538dbbdf17f867cff86ecfb391610 ASoC: soc-pcm.c: random cleanup
          cdcdb008552670abd6f60a1777d3723e6ca2716b Untested TAS2562 power setting fixes
+         09e2d5a7c81e3a02070c6db06470eb04b1244b77 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
          
-
---===============8720218802280902081==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1662391656 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1662391656-95004953fc6ad8e4ad9977bce6deff438289a34b
-
-376be51caf8871419bbcbb755e1e615d30dc3153 cdcdb008552670abd6f60a1777d3723e6ca2716b refs/heads/asoc-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMWFWgACgkQJNaLcl1U
-h9A1cAf/Sqxiexpprw0G9pj0Myu7GnFq3t3IqSiuJW2FisEgvS2Ym6U8/uV5U/o9
-wjDIQ388voNlhci3erUs/fnoj1lMCcGTaLcZLZJ8XZmDtWlyGnArNC+glJx+50vF
-HLybgkQNbSF1pV1Mpj4R8bP8gYMiXU9NMcAawsSRrADs1cl1HJ88HtiZAG76UGo4
-oaT+M3wVDHeZQnEUoXad02DxV0vWIY3rNj66aVcLp2hAZvegcg5jnaR+pXaU5VwY
-6hpVdAtIV3xHncj3n1W4Myhgfx1qXqakLv7PwQyUReKEnd43HLGvRB+BaxB3YmJq
-DwDMG+REtay6jCUAheRIEmPoqNRdAg==
-=O6QW
------END PGP SIGNATURE-----
-
---===============8720218802280902081==--
