@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 06 Sep 2022 08:46:41 -0000
-Message-Id: <166245400161.8646.1830936398038933766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 06 Sep 2022 08:46:57 -0000
+Message-Id: <166245401756.8807.18203916435526603843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 3e3f4c03896b075928cc6b244dbe237fc870fb5a
-    new: 80e9e8ca9bba6dfd0884e0d7707d398c2ac9101d
+    old: d5edc797ef0341ae2c8d4afaad9363edbf487a3a
+    new: 03fdb11da92fde0bdc0b6e9c1c642b7414d49e8d
     log: |
-         80e9e8ca9bba6dfd0884e0d7707d398c2ac9101d lib/timeutils: Add %s (seconds since the Epoch) to parse_timestamp()
+         9df696b3b3a4c96c3219eb87c7bf03fb50e490b8 net: ftmac100: fix endianness-related issues from 'sparse'
+         03fdb11da92fde0bdc0b6e9c1c642b7414d49e8d net: moxa: fix endianness-related issues from 'sparse'
          
