@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 06 Sep 2022 10:11:39 -0000
-Message-Id: <166245909937.19231.5717242838962170034@gitolite.kernel.org>
+Date: Tue, 06 Sep 2022 10:11:49 -0000
+Message-Id: <166245910927.19405.10839611920743997831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: ee9db0e14b0575aa827579dc2471a29ec5fc6877
-    new: 89ff17e69df8bfd15634f5dbd4ee3f46ef0ae490
+  - ref: refs/heads/sched/core
+    old: 33f93525799fa3c841b2ba93a56b2bb32ab11dc9
+    new: 46b93b406917ec8a52ae706b7cbd1b6b2d0fec28
     log: |
-         1f5778e1c73bd0d66efbadb65dae09ee20303877 perf: Consolidate branch sample filter helpers
-         c1ff5147829333c90fb3b28fcfdb0905cddfcd62 perf: Add a few assertions
-         7a5cc55963421908c04604ee322608793b388391 perf/x86: Add two more x86_pmu methods
-         013bef3cc9a507a26e48a0cdc075cc20ebbc5317 perf/x86/intel: Move the topdown stuff into the intel driver
-         c47914e9ad106b5bbffff5448bbe90654e74f831 perf/x86: Change x86_pmu::limit_period signature
-         9eb0e072fabba9fd4fb3ead49341771cfd9de254 perf/x86: Add a x86_pmu::limit_period static_call
-         ac474b0951d26eb098716c9a47922be81dd3d2b4 perf/x86/intel: Remove x86_pmu::set_topdown_event_period
-         059a6ce1ab29f95b8779836e8a6248e0774945a9 perf/x86/intel: Remove x86_pmu::update_topdown_event
-         dcf44c960f4499a0af00aa4ef2093da404410df1 perf/x86/p4: Remove perfctr_second_write quirk
-         89ff17e69df8bfd15634f5dbd4ee3f46ef0ae490 perf/x86/intel: Optimize FIXED_CTR_CTRL access
+         eee2f33291d2fb059d4e41990e00f7c683713873 freezer: Have {,un}lock_system_sleep() save/restore flags
+         ed6ba466febb6b782d7a53ac5feedc9f19014178 freezer,umh: Clean up freezer/initrd interaction
+         f8ddc5876bd4fb6c57e47cacc622344f91168aed sched: Change wait_task_inactive()s match_state
+         3d83ac2afe569dc5fc6b72589cc1be73c2af4902 sched/completion: Add wait_for_completion_state()
+         0fde6e3751d25f36f5e5687c2643b682f058ffa9 sched/wait: Add wait_event_state()
+         46b93b406917ec8a52ae706b7cbd1b6b2d0fec28 freezer,sched: Rewrite core freezer logic
          
