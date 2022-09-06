@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4297797736555253595=="
+Content-Type: multipart/mixed; boundary="===============7809545616867235049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 06 Sep 2022 13:28:35 -0000
-Message-Id: <166247091527.2281.4228861996388660878@gitolite.kernel.org>
+Date: Tue, 06 Sep 2022 13:28:38 -0000
+Message-Id: <166247091891.2347.8768695482291669984@gitolite.kernel.org>
 
---===============4297797736555253595==
+--===============7809545616867235049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,105 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 395d28eee1aff7c7a82e8e1dcc17c70efa7c51b9
-    new: 816243d6edeb45d5c646eeb6ec90cdcbc2105470
-    log: revlist-395d28eee1af-816243d6edeb.txt
+  - ref: refs/heads/linux-5.4.y
+    old: f3ed40db3c74e4a1ce310d468876cfe5dc359710
+    new: bbf2258a39e55bb1c4276aa29ce440bbf71e876f
+    log: revlist-f3ed40db3c74-bbf2258a39e5.txt
 
---===============4297797736555253595==
+--===============7809545616867235049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662470913 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662470917 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1662470899-f06f8adc81e9ce0bace1e451fb5f3a8a7af57f69
+nonce 1662470900-219af4f80e97cdb55527f59a132ad903f4202754
 
-395d28eee1aff7c7a82e8e1dcc17c70efa7c51b9 816243d6edeb45d5c646eeb6ec90cdcbc2105470 refs/heads/linux-4.19.y
+f3ed40db3c74e4a1ce310d468876cfe5dc359710 bbf2258a39e55bb1c4276aa29ce440bbf71e876f refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMXSwEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GBwQANVHw0h37rIpPZster0F
-11tBe3ZoYwZXYk8m2+JmU7jdgT/xVltmq6Ghy9jrhf22hClb9dwyh4vDOUa7m+ns
-Nn8Fe1lbObBjN9vICdYcSs91WvAmgsomK8W93zckQbJFk3MKRT++UeVFACjfvuCM
-hoWzFBhcf0ql+d1PRlDKFJH4cDGlAapA+3PKdcL4Q9VkoWjzMs8xSF7mnDx/1Aik
-2dlIOFDnilmZ6Aqzv2w7m8S2s560QYppiffLdl4n4suIJXIwYeOYtEt6wH4AhGuP
-Uaxwvxssp1QMXMh+KbuhXauIabncHBvrvc7AKGWk5FEJs7/zABAe+3lSM9cG7VVm
-zEWIPFbcGAojUVz2gWdU592GL24BFIgInRtXJb2tZy6rVZaxSReorbpU2HGg3hzH
-zxEAD3+7C8mMPaMxwEzs28OGfx5BN3Le6YrGbWQLZCtolkjDbAD2oRPhMeeRQIYO
-raFeGwlWuST/pv93X55g5OlSPnaVnPkbNiI8YQ+j4S/acCgZeDTRbG2HO95myJMZ
-ltAPmwwwbmNTrGZAc7JLZtwN8LHHTCE5bjozLcaPiP6dfLOJCnxlW+JbYeQaIhE3
-Zn0qKOWFO+f7Pptv7SkwXbE6vC7UOOZ2/LaRe1KjqIqIijW1/Qy//8Kx3QrykLGC
-P/iPjRkpUcOSrIP0HTVtCMsx
-=qY+T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMXSwUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WioP/iFB7uH0F2ZXBdLmpK/c
+GrO/XlwiwGPPv6H3PYFnk9FJey9hbQ8vuQYfEWbXitKkoQqAagKnQ3pGu2Em9hsV
+HIdA+cdyhQK4Xkw3uCDjxoGQsRKdoJ7lJvbFcir26M7zW7zr7FHmm072Y/ZXM2Mf
+SGSgbybEFFnNPBautfG/RjF7N4P0tiQwjTiHn2vsROEyYtJh/Fq78SwamqHVYkEx
+PFk790SxeWtskFE8jd0BYTrh02ywHcyWCYnG1Lo64EvTpBLBrolO3aEqiZoz+rDv
+pI+5xq389o0vB1WV+o/pVgXAzVhyAQdc/9NGkeJZnM3a/2XaLfLgFj7bJ7029zr6
+wxwHDnjbuSK/0cmFARoFBf0AZ5v7R4CufRdTnvJ6y3DpuMCzzv91enkb6f2bIEHj
+4WNg8UvSc2EfSVFcwYifJkUy7eUxFJ6V6V1CHGCR7PZEoO3T33SD1/bbDNWp0DV6
+d2LIY9KuhTA+G7s+YoCiQws3SCseKfj68luHG142H/Wq55hDiEw9e3HaarepqaxA
+jlLjU0jBvQ2V6FiSJpkaddJh0Ulw5DpYZUySUPP5Y/8ftWpOWQCl4T6aF1KcOhhS
+/I97US/nB2yRrZEecldS+vZlxSXuibzqAC/Rf0mjjB6Z1dvMPfpuwRbKezBRp/Vl
+jbBmzwyVDE9WK5296VBxTf23
+=ML4w
 -----END PGP SIGNATURE-----
 
---===============4297797736555253595==
+--===============7809545616867235049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-395d28eee1af-816243d6edeb.txt
+Content-Disposition: attachment; filename=revlist-f3ed40db3c74-bbf2258a39e5.txt
 
-7157aecd7f01fa27f14f3f02ad73938cc2234381 drm/msm/dsi: fix the inconsistent indenting
-d5ecfb14b57bea22979033be009d6e85d3aa3daf drm/msm/dsi: Fix number of regulators for msm8996_dsi_cfg
-ef30b442c262dc11f845b48c92b3696070b6017f platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
-f002107858876bf40a1c058eb061ba836800f78c ieee802154/adf7242: defer destroy_workqueue call
-ec15b9c967d1bd98ac3e6f2244102b15b4182540 wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
-07a42fc9e8baf60179ee137b592513dbae1c65ee Revert "xhci: turn off port power in shutdown"
-04d54097bc1f06fe29f1bdb66d6df8e502f900dd ethernet: rocker: fix sleep in atomic context bug in neigh_timer_handler
-97fa5e5263a22dd681f40286f019d6510887832c kcm: fix strp_init() order and cleanup
-35da503310159d5e18d54e9078b9fbc6af0f61ac sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb
-07e4faa9c9177b34aa77347a4a1966120c41ff30 tcp: annotate data-race around challenge_timestamp
-a476df88499058274c8c55800da9aabe2f17ca6c Revert "sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb"
-faa2d2ad8ea69fddb52f48dc1059fb639e46297d net/smc: Remove redundant refcount increase
-c1bf012f91d7597c8f49ca8b015ea44a6b7fbed0 serial: fsl_lpuart: RS485 RTS polariy is inverse
-a19c7d68ed740ec5f2bfda63c9a112875845bf2e staging: rtl8712: fix use after free bugs
-430e59b1674c577d36f5732313bc6401579da8b0 vt: Clear selection before changing the font
-5a0ef59025469ff378d5d5a00cf10d06ea974060 USB: serial: ftdi_sio: add Omron CS1W-CIF31 device id
-597eb9a441c6ff960e540d53bbdc62e7aa306025 binder: fix UAF of ref->proc caused by race condition
-cc1f32eaea87decb2290d20f1d152d69c3a51487 usb: dwc3: qcom: fix use-after-free on runtime-PM wakeup
-2d41636464f51c4c463b551f2ec5267d9724f57a drm/i915/reg: Fix spelling mistake "Unsupport" -> "Unsupported"
-81248e9980f3f559066c9adc785d8ba593fac714 clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops
-11e215f84d7e3392aa453dabb944abd33e2d7901 Revert "clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops"
-98579f2021c4c94cd56115bd56028e8f79a19164 clk: core: Fix runtime PM sequence in clk_core_unprepare()
-46848a5c80772b616073fb29d7750cdfeb899db0 Input: rk805-pwrkey - fix module autoloading
-6353bf05be5adde5604ade0057eef8453e95c326 hwmon: (gpio-fan) Fix array out of bounds access
-26ac5ee23e3bc4b185d9e116fc48a38a20c7829e thunderbolt: Use the actual buffer in tb_async_error()
-0e52963e0c7d22ebea6a53401ae680963864b511 xhci: Add grace period after xHC start to prevent premature runtime suspend.
-5d16cae49205a05d9427108d719b9a7fc7404bc9 USB: serial: cp210x: add Decagon UCA device id
-f471e660d1a45cb80ed331b889f5efe0b37d3cc8 USB: serial: option: add support for OPPO R11 diag port
-64d01ce976840f0de5de01aa61d0cf7470d51b42 USB: serial: option: add Quectel EM060K modem
-b764cf7ee051fb32f8bea3b415ed120f33812fd9 USB: serial: option: add support for Cinterion MV32-WA/WB RmNet mode
-05ad412b5711d6636334db1ac5d57942d86de9f2 usb: typec: altmodes/displayport: correct pin assignment for UFP receptacles
-1861e042a85372971e1c76dae07bf51beed9615c usb: dwc2: fix wrong order of phy_power_on and phy_init
-9b922bcc026ee65049b8cf4bad810346c9960e4e USB: cdc-acm: Add Icom PMR F3400 support (0c26:0020)
-803b670deabf5c50e1660f6f073e5b56a76abde1 usb-storage: Add ignore-residue quirk for NXP PN7462AU
-616d1ec0ab2329540f4c9cf84b9563de2d37498f s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
-9d4b889ce1b18589fb746e2ca882b82a4a8d12bb s390: fix nospec table alignments
-6f3175c8f51c20da4638d0e0bb21f051dc02921d USB: core: Prevent nested device-reset calls
-222796d23e7bc677f0a08361cc9466aceb2da85a usb: gadget: mass_storage: Fix cdrom data transfers on MAC-OS
-18c4aa498462064d1d746ba1a83e21821ce9f634 wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
-7f6d466eda72a2db6089830f6e230a330565b260 net: mac802154: Fix a condition in the receive path
-6dd861e8a76dd2223e987292a99e1b6b8b438234 ALSA: seq: oss: Fix data-race for max_midi_devs access
-10e3b2cb371babd75d773168a6577ee6c3fc7a0e ALSA: seq: Fix data-race at module auto-loading
-816243d6edeb45d5c646eeb6ec90cdcbc2105470 Linux 4.19.258-rc1
+0f9e557bdb310cd5bd28d3ec19759305a1995b95 drm/msm/dsi: fix the inconsistent indenting
+5a04ce89e16e04e54d16920893fd8a9f54adae0a drm/msm/dsi: Fix number of regulators for msm8996_dsi_cfg
+b3f06636a4103e041b5531019ce96110ea95ef36 platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
+9553b115cc602e4bcefd78e7c1b0de05c9b63b06 iio: adc: mcp3911: make use of the sign bit
+63066070f8a444876f08cc3957147855c8e0584d ieee802154/adf7242: defer destroy_workqueue call
+e62ca13e0b2e80b9e1f8563676d02a15a7a7f678 wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
+5c500c6c7226f0392079817aa561a5afbc3fa255 Revert "xhci: turn off port power in shutdown"
+7dbf76e16af21032d9a585cd8358884a786efa9c net: sched: tbf: don't call qdisc_put() while holding tree lock
+2e689e8c8e34a2068137b044473c50ac879b50cb ethernet: rocker: fix sleep in atomic context bug in neigh_timer_handler
+4252771f9d7295727c105c1dd837fc77793bb82d kcm: fix strp_init() order and cleanup
+91606fc03a264995439e7e229c1d91b841246e53 sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb
+c5d931595b06e0566424731ff87da37db92dfdd6 tcp: annotate data-race around challenge_timestamp
+b9bb69825b58f8ad0b54ad6b987efd5b749d5a73 Revert "sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb"
+09a1132825f29dfaebd3072e90ad5ba12268c83a net/smc: Remove redundant refcount increase
+b0243612aef8c3de118a8c5de8f3627781234950 serial: fsl_lpuart: RS485 RTS polariy is inverse
+32c313ea46076a1b4fce7edba9e6aa252aadcb75 staging: rtl8712: fix use after free bugs
+e90ae660de2060b87525531a9dc3863d6c8c7f04 powerpc: align syscall table for ppc32
+dd621bff4ebc10ded08acfe93a4791f32f925bbf vt: Clear selection before changing the font
+6161055f6be4b8ade533ec41e1c8d05f1c9652a8 tty: serial: lpuart: disable flow control while waiting for the transmit engine to complete
+449c5e0e7bc42985268d8c13ebcf6e157192a03a Input: iforce - wake up after clearing IFORCE_XMIT_RUNNING flag
+604cd9348c71e9cbb3566fba05d63ef34f9af239 iio: adc: mcp3911: use correct formula for AD conversion
+2a37f9709c24077be04c96babefc5cf2372f7dac misc: fastrpc: fix memory corruption on probe
+6f214f0b87822a7664a0b7fc147fabcc596510f3 misc: fastrpc: fix memory corruption on open
+1e9c3428520d7d5eabcd6494d18a0e8ce8a611a8 USB: serial: ftdi_sio: add Omron CS1W-CIF31 device id
+c496eb73b980833bb4e46fd3c076b2d9153d630b binder: fix UAF of ref->proc caused by race condition
+5c5d025f0073726c72424472a52c00859b09d275 usb: dwc3: qcom: fix use-after-free on runtime-PM wakeup
+910e266b017378819307c526db852872844d457a drm/i915/reg: Fix spelling mistake "Unsupport" -> "Unsupported"
+89ebe05f73802197556ff4f33ab3f8cd334a88b4 clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops
+dbb80ce259768afd4270e43eae85cfc30055d7e7 Revert "clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops"
+e608b34f1a9c53edcc791d1b7f6ede96b2e409b5 clk: core: Fix runtime PM sequence in clk_core_unprepare()
+6cc2c3af935b3ccf174827d2fb95134d5ff67b2e Input: rk805-pwrkey - fix module autoloading
+ca16a66bfd76dc4a720fce410daf1d7851afd911 clk: bcm: rpi: Fix error handling of raspberrypi_fw_get_rate
+88eb6b19ba8744de914a359d24aa388ca22d2bfb hwmon: (gpio-fan) Fix array out of bounds access
+c4a449b40bd268561d02a6407fd459d4ea83c12c gpio: pca953x: Add mutex_lock for regcache sync in PM
+cf1dd578ba8f54e3131dc0d4fd266f8050b090dc thunderbolt: Use the actual buffer in tb_async_error()
+bc93ba84d482d1aa212f7d6e5484069dedf68094 xhci: Add grace period after xHC start to prevent premature runtime suspend.
+94a1ba00742f29fbd6c93a1d19dcd434d74228ae USB: serial: cp210x: add Decagon UCA device id
+eb9294dc68a2d23e90aff5c3beeca5873924e1ff USB: serial: option: add support for OPPO R11 diag port
+a7a88795a108d7377c9822caae7afd69ad642637 USB: serial: option: add Quectel EM060K modem
+6ea9a7ecc34f0421c33f1f83dc879a5c247ae525 USB: serial: option: add support for Cinterion MV32-WA/WB RmNet mode
+9584b2ec0c9f685f04657c23f388642f4cd57478 usb: typec: altmodes/displayport: correct pin assignment for UFP receptacles
+ea08e820b725dfcee46823320eb40be517862a55 usb: dwc2: fix wrong order of phy_power_on and phy_init
+05df2d2c1e1736c52ba871d1700eadd19d50c23a USB: cdc-acm: Add Icom PMR F3400 support (0c26:0020)
+7e4e97d17bf16c9b74f2e2a975fe2219f112db8d usb-storage: Add ignore-residue quirk for NXP PN7462AU
+74d2e5d9bf7a0ca1e6ccc8bb7cb108eaf5bf3677 s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
+7fd1bdd23c05209001669f165fd3005a645c1fa7 s390: fix nospec table alignments
+b13da6927f5af596cccc52c3488ed85198b1f9ea USB: core: Prevent nested device-reset calls
+bb84f15bbea9d57e663b6cc78538d3c48d194ef7 usb: gadget: mass_storage: Fix cdrom data transfers on MAC-OS
+f864e2d5ee32c6be9175fa1325a92af54b577f97 driver core: Don't probe devices after bus_type.match() probe deferral
+747fff59181774f5cd41f20172b2e6b76413ece1 wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
+845d18f2bfb7017b968d6eeff9afa525d2ae3534 ip: fix triggering of 'icmp redirect'
+6394a0a017840026936ab2a89ecacf17365280d5 net: mac802154: Fix a condition in the receive path
+206399a0791b3ec2d9d45dca8849af960e977ad1 ALSA: seq: oss: Fix data-race for max_midi_devs access
+38de55bf9f1d23e91696206c18c43321ff6a84c8 ALSA: seq: Fix data-race at module auto-loading
+c219c5d59466552a3227ed1cf60d16fa4b3f6fbf drm/i915/glk: ECS Liva Q2 needs GLK HDMI port timing quirk
+11f5990ae650156f1978f56271d9b5dcd0c37ec4 btrfs: harden identification of a stale device
+911f20f68e024f5be13c7bf8cc81b6d924e7bbe0 usb: dwc3: fix PHY disable sequence
+863272f25fbe815b1af8300ed54ed03cbf74d280 usb: dwc3: disable USB core PHY management
+bbf2258a39e55bb1c4276aa29ce440bbf71e876f Linux 5.4.213-rc1
 
---===============4297797736555253595==--
+--===============7809545616867235049==--
