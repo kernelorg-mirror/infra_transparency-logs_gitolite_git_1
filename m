@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 06 Sep 2022 09:15:02 -0000
-Message-Id: <166245570244.28509.12752548836353612140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 06 Sep 2022 09:21:12 -0000
+Message-Id: <166245607236.691.7359390017372193292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: beb432528c79e9613c85d250295288ef4beb14d7
-    new: 686dc2db2a0fdc1d34b424ec2c0a735becd8d62b
+  - ref: refs/tags/efi-loongarch-for-v6.1
+    old: 82f5709c54ad5734db42075eed302e8599ff1edb
+    new: 921c409a6f948737b97ab8b40130a35b5ec40bfe
     log: |
-         686dc2db2a0fdc1d34b424ec2c0a735becd8d62b tcp: fix early ETIMEDOUT after spurious non-SACK RTO
+         ead384d956345681e1ddf97890d5e15ded015f07 efi/loongarch: Add efistub booting support
          
