@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8585115582814432983=="
+Content-Type: multipart/mixed; boundary="===============1733705323785642275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 06 Sep 2022 06:40:43 -0000
-Message-Id: <166244644342.18117.11623582855339152489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 06 Sep 2022 06:45:55 -0000
+Message-Id: <166244675519.21502.9742869107261182703@gitolite.kernel.org>
 
---===============8585115582814432983==
+--===============1733705323785642275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: a956f91247da3fe71e4d5f7da1f6dd8bae7c3c21
-    new: 6690986da1e21f3bebe1aaa54a70c636f40343b5
+  - ref: refs/heads/master
+    old: 92562dc6598661e9f341362006a5f4f770f44ba6
+    new: 8deba33eae0d99cc9ba16c84b3da46e445200623
     log: |
-         f3d478858bec4f5dbba410f9b1db1b2505344188 usb: ohci-platform: fix usb disconnect issue after s4
-         d017aeaf844db21e8e7b22d79de229b746359f3b USB: xhci: make xhci_get_endpoint_address static
-         255930b953fb1b8bec2c0aa8cc532e377e5fada2 usb: phy: tegra: switch to using devm_gpiod_get()
-         9e2bb70349fed75b15b9170bb1bff147a761fece usb: gadget: udc: at91: switch to using fwnode_gpiod_get_index()
-         6690986da1e21f3bebe1aaa54a70c636f40343b5 usb: clean up after dropping driver registration log spam
+         8deba33eae0d99cc9ba16c84b3da46e445200623 drop some dwc3 patches from queue
          
 
---===============8585115582814432983==
+--===============1733705323785642275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662446442 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1662446442-5c542f3fd27d0f61074de0c7d6154f310938c756
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662446754 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1662446753-3346b0e2c2fde4b682797096645ae40094410c78
 
-a956f91247da3fe71e4d5f7da1f6dd8bae7c3c21 6690986da1e21f3bebe1aaa54a70c636f40343b5 refs/heads/usb-next
+92562dc6598661e9f341362006a5f4f770f44ba6 8deba33eae0d99cc9ba16c84b3da46e445200623 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMW62obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rSUP/RkhkIi99zzeCsWjixPW
-HwiThAfqUuGy1F8K87vv0cX9EtYMEZfdHWV85KgUYgCOMfa+6OWo7DP04sZpCmYt
-402dTJy9FZC4BKtLGVGGu3LvI7A0c0Gt6PRVCEBfm7cDU4LzJzQA6hcjzSIQg49u
-oJsC4LAvO7UUPW2U1K00jKS3u9nR3z5W2sXOXATNbRvDLWG+lHY07G65pBPeBEbC
-my86qQVivm3LGi81C9kuQzleS8IY+12nD4RG7XA+Qdp9s4DJ34yt6rI+SqN67IIt
-lpuAaAMGpCVbm8lEYY8fdpXckY9NGZqkENwJw0kw2OAnmUxqcaDwYp6dnMyeSk8b
-czGpmfcvc4H746Dhhbc4glxCWvuiWK0SVtct0TnF7wOi7gpZf5Co+bxnjoGRRLZ5
-psKacxXle8R//gxoJSQ+RK6KeAAQvcWT88hctUWBnE9JqbN0e63qg4LHV1ChTXlV
-BUOtbtfjEN4y73HvhSbhKEWJhslF48vLxwy8FRacz7UHO84QiU0D63rsZSKn6va2
-ByRRObagFmTM2YJgMoYuZb2ICcrn4yNYFgE5hImLjuR+aAFHkkUXIrc4D60lI45J
-uz1wY+0yk2tHWqmlb/s1FkcwTLnZr0a3iYPU2D1XiybU3goZ9i0SACTl8vQrwJmd
-65bUMfRIPUR8as4/cL5b3DRa
-=pbrY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMW7KIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S3sQAK/tux5QJ/RQ5EL04tMt
+0rKUBmStpD5ZloTlpq6koQEpDBdepCCdiUU/U4XpwUtlkkDUUE+ehHOMK0S6fSwN
+gS+ZUFn7L3ASZXWbIy7ZJgygSY/6EEHQncM80qMbd+Uycy3+krxn2+EbctogtaoR
+qSSQWC9sfJVKObLDxkUWDNX/lotWAoi5mEM1G1VBtvZYAiXd9T157Nlg1r+7Rhaa
+zTnbDoRCdOz2fykW2+GVewX7F06Opm9jR+qbcVbKp0AiT5pKOX124sj0OacrZMHJ
+cgggpu2Ds/KWDqScnENSfGE9a5jV8xrsdFaAX5gu6G9YSbVALPfToONSXOyvv+6H
+zF+2dNdK6G4kEughSFGoEq2+rb03ZS2tg15LRthT5ByHbye0bVxsBe1seBh7v58Q
+QFAHnn81g+SsngvimGL3yNaQmCycO7xX6MBWYA/jcDSTJaUK5pKJBgvdfBP76sk2
+kDoRo3CnDJRo5IzLWBCA/ej0JXo5CqYO6OMBDvW5pkNOpSmFsUubHo6ASL3JroWF
+IsZhJrWyTJj08ddtIMxcJ4GcDA6Q+G+AwqZCCYNT1W01LaaUTx8s0osbbKktZhrr
+irK+QNau/3IbF/8vYA1cQEQDmwrCdQRkPrIbm7tGTVoIjSyz4oc6h410cyEOFU7n
+jZ8Sas9FvqELhkc/XEnb4ufP
+=P5p/
 -----END PGP SIGNATURE-----
 
---===============8585115582814432983==--
+--===============1733705323785642275==--
