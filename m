@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 06 Sep 2022 02:21:39 -0000
-Message-Id: <166243089916.30930.18169856942220645097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 06 Sep 2022 03:02:53 -0000
+Message-Id: <166243337324.27516.5671658870327604332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 2655becb4ac3cd6ec3dbf80b8d5dbaef3470cb7d
-    new: bf6d46c1da5746e2b4f659b1e909a6515580b212
+  - ref: refs/heads/master
+    old: 1da4d6fc40bc9f55c39ad82e605bc1b414d6a9b4
+    new: 88fbe32d8f354688ce5be087f901bc931b58320c
     log: |
-         b5a76cb38df779076a3cff624ce6a368d9bcf330 arm64: dts: imx8mm-verdin: extend pmic voltages
-         b05ca9d42ec0b6bf6ce44797ee2fd1a7b0043193 arm64: dts: tqma8mpql: add USB DR support
-         e54fda0250b73d4f62c8303c71f9e90a8555a8f9 Merge branch 'imx/drivers' into for-next
-         4da38d604655f9e0240432e490536062dc89f8f2 Merge branch 'imx/bindings' into for-next
-         cfae007443dc9880a18ccdbdbcbd61aa04612423 Merge branch 'imx/dt' into for-next
-         bf6d46c1da5746e2b4f659b1e909a6515580b212 Merge branch 'imx/dt64' into for-next
+         108798025c4261320405b7a909a9aa0316a52c99 x86/sgx: Do not fail on incomplete sanitization on premature stop of ksgxd
+         f89577b9cd23fe2fe6245b13b76434f237552754 x86/sgx: Handle VA page allocation failure for EAUG on PF.
+         88fbe32d8f354688ce5be087f901bc931b58320c x86/sgx: Use a heap allocated list head for unsanitized pages
          
