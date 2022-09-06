@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7086719346769775644=="
+Content-Type: multipart/mixed; boundary="===============7751572505034961662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 06 Sep 2022 22:31:09 -0000
-Message-Id: <166250346988.1305.2908396911628809792@gitolite.kernel.org>
+Date: Tue, 06 Sep 2022 22:31:17 -0000
+Message-Id: <166250347705.1463.9125898154328681651@gitolite.kernel.org>
 
---===============7086719346769775644==
+--===============7751572505034961662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 03fdb11da92fde0bdc0b6e9c1c642b7414d49e8d
-    new: 2786bcff28bd88955fc61adf9cb7370fbc182bad
-    log: revlist-03fdb11da92f-2786bcff28bd.txt
+  - ref: refs/heads/dev-queue
+    old: da10c42f2deae5b0e8e4b76414f4014cc4b5c126
+    new: a44890c5d84466a22d2734ddf9df67b4905e92b6
+    log: revlist-da10c42f2dea-a44890c5d844.txt
 
---===============7086719346769775644==
+--===============7751572505034961662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03fdb11da92f-2786bcff28bd.txt
+Content-Disposition: attachment; filename=revlist-da10c42f2dea-a44890c5d844.txt
 
 4d748f9916076399f01c259d30fe1b88abe8f622 net: Add sk_setsockopt() to take the sk ptr instead of the sock ptr
 24426654ed3ae83d1127511891fb782c54f49203 bpf: net: Avoid sk_setsockopt() taking sk lock when called from bpf
@@ -141,5 +141,35 @@ bfc03c15bebf5e0028e21ca5fc0fe4a60a6b6681 bpf: Remove usage of kmem_cache from bp
 9f2c6e96c65e6fa1aebef546be0c30a5895fcb37 bpf: Optimize rcu_barrier usage between hash map and bpf_mem_alloc.
 274052a2b0ab9f380ce22b19ff80a99b99ecb198 Merge branch 'bpf-allocator'
 2786bcff28bd88955fc61adf9cb7370fbc182bad Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+3c51281812e6018f1f327c8545f4cb8151cc84b8 e1000e: Separate MTP board type from ADP
+adbe601823707fadec44fdb2519b57c6f6d56deb ice: Add low latency Tx timestamp read
+5c3438bdbe7069afd1b646df958c98e28a6e8000 ice: config netdev tc before setting queues number
+241dd8a1c60362b78931bc33f84cbd97db60a79f igc: Remove IGC_MDIC_INT_EN definition
+85029c8b13fb8c3aa311d04a1daee14536244935 i40e: Fix ADQ rate limiting for PF
+79e76487e1e23ab857d06a9643473638640e921c ice: Don't double unplug aux on peer initiated reset
+e9b3ab7b26a47aa92891b136d9ad148e2a772426 ice: Fix DMA mappings leak
+9dee8eac54db8ae413c1ceb692b32ed9346574b0 i40e: Fix kernel crash during module removal
+7df79d156f41575c5d7001e866ab4b4fdd0beec1 ice: use bitmap_free instead of devm_kfree
+1f4ca00dc69bd78d1eedfa185be278a70bf201ce ice: Fix crash by keep old cfg when update TCs more than queues
+9ad1bf4d58a6aa9983e467ad2fefedcec808731e iavf: Fix race between iavf_close and iavf_reset_task
+4b7c4ca536a9d8029b819be61922ae3f4076d9f8 ice: Allow operation with reduced device MSI-X
+c364fd5ee6bd37e31d19d92df570f332d2756470 i40e: add description and modify interrupts configuration procedure
+a8efa4a8b4c6427f2f71b2aa83fc6272816546bc ice: Check if reset in progress while waiting for offsets
+f7800bea471424505856d21b0f47d30d47d4b63f ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+ecc58f739d196beba1345f25b93b6fee29cacc22 ice: Handle LLDP MIB Pending change
+be30c4c564edddf56bcd2b1c18ef9ee560764da2 ice: add helper function to check FW API version
+3a4a7a968156358abc29ee56782a61c537b5a8e2 ice: Remove second GNSS TTY device
+ad2222ce69be98491cf8983b1f70943eedd0472e i40e: Add basic support for I710 devices
+e506e9039d51c619779eb12c488292f27c6474cc drivers/net/ethernet/e1000e: check return value of e1e_rphy()
+b49e8f44d556d23ed926ab4bcacc381981ca8100 iavf: Detach device during reset task
+11c1d56a07466f7c09be1b36a593f5d958df196b i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+7ea4c9352c70f1c29b15586262278c22fda9622d iavf: Fix change VF's mac address
+0876af19b65622d8dea0b35f04c6f829014f230b iavf: Fix cached head and tail value for iavf_get_tx_pending
+b5789706fefd2b2b21b5ef4606d0252facf43532 ice: xsk: change batched Tx descriptor cleaning
+f117cafcee64a1a35e6204e098b2a5ab65d95d1e ice: xsk: drop power of 2 ring size restriction for AF_XDP
+8738180c0eba1141dadac869675fd8f7e1574bd5 ice: switch: Simplify memory allocation
+910ce0ae0d8e23f09220368cbe371218e3d816b9 ice: Simplify memory allocation in ice_sched_init_port()
+e4fc1988554f8abf26948ce642ca4c2fb645ce7c ice: Fix interface being down after reset with link-down-on-close flag on
+a44890c5d84466a22d2734ddf9df67b4905e92b6 i40e: Fix ethtool rx-flow-hash setting for X722
 
---===============7086719346769775644==--
+--===============7751572505034961662==--
