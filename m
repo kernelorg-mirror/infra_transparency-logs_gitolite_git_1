@@ -1,28 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 06 Sep 2022 06:27:50 -0000
-Message-Id: <166244567084.9094.15445612761093785825@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8585115582814432983=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 06 Sep 2022 06:40:43 -0000
+Message-Id: <166244644342.18117.11623582855339152489@gitolite.kernel.org>
+
+--===============8585115582814432983==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: f2d94917db95e02bef61288aba5b06e0dfef3a73
-    new: 0f9a2f4a52a6ca8df48066cc2b003100c82a10b7
+  - ref: refs/heads/usb-next
+    old: a956f91247da3fe71e4d5f7da1f6dd8bae7c3c21
+    new: 6690986da1e21f3bebe1aaa54a70c636f40343b5
     log: |
-         2808a3ca991aa1d542f0eddc56a28a7f04b1e165 dt-bindings: arm: renesas: Document Renesas RZ/V2L SoC on SMARC EVK
-         c16212cd55fee2757581e806625cee954c1733d5 dt-bindings: arm: renesas: Document Renesas RZ/G2UL SMARC EVK
-         080a7c8a01e6a348af4a44d782566ab9af351cba dt-bindings: power: renesas,rzg2l-sysc: Document RZ/G2UL SoC
-         18a5a4b6dfa502ab822bb4c956416bd22ff5f5d8 dt-bindings: clock: renesas: Document RZ/G2UL SoC
-         f0b5a6db469ab51cda5d1f08ba528767ec194165 dt-bindings: pinctrl: renesas: Document RZ/G2UL pinctrl
-         950b066d6bd977fc84e806e94d54f91f374774c4 dt-bindings: serial: renesas,scif: Document RZ/G2UL SoC
-         efac20f9002ee8c3f0e17021454ebacc236e5a9b dt-bindings: serial: renesas,sci: Document RZ/G2UL SoC
-         1051912b7158c8323a977122c69f683da1c25348 dt-bindings: dma: rz-dmac: Document RZ/G2UL SoC
-         fab61504e969d9896bebfa27c6cf2efa72386b58 dt-bindings: mmc: renesas,sdhi: Document RZ/G2UL SoC
-         0f9a2f4a52a6ca8df48066cc2b003100c82a10b7 dt-bindings: net: renesas,etheravb: Document RZ/G2UL SoC
+         f3d478858bec4f5dbba410f9b1db1b2505344188 usb: ohci-platform: fix usb disconnect issue after s4
+         d017aeaf844db21e8e7b22d79de229b746359f3b USB: xhci: make xhci_get_endpoint_address static
+         255930b953fb1b8bec2c0aa8cc532e377e5fada2 usb: phy: tegra: switch to using devm_gpiod_get()
+         9e2bb70349fed75b15b9170bb1bff147a761fece usb: gadget: udc: at91: switch to using fwnode_gpiod_get_index()
+         6690986da1e21f3bebe1aaa54a70c636f40343b5 usb: clean up after dropping driver registration log spam
          
+
+--===============8585115582814432983==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662446442 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1662446442-5c542f3fd27d0f61074de0c7d6154f310938c756
+
+a956f91247da3fe71e4d5f7da1f6dd8bae7c3c21 6690986da1e21f3bebe1aaa54a70c636f40343b5 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMW62obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rSUP/RkhkIi99zzeCsWjixPW
+HwiThAfqUuGy1F8K87vv0cX9EtYMEZfdHWV85KgUYgCOMfa+6OWo7DP04sZpCmYt
+402dTJy9FZC4BKtLGVGGu3LvI7A0c0Gt6PRVCEBfm7cDU4LzJzQA6hcjzSIQg49u
+oJsC4LAvO7UUPW2U1K00jKS3u9nR3z5W2sXOXATNbRvDLWG+lHY07G65pBPeBEbC
+my86qQVivm3LGi81C9kuQzleS8IY+12nD4RG7XA+Qdp9s4DJ34yt6rI+SqN67IIt
+lpuAaAMGpCVbm8lEYY8fdpXckY9NGZqkENwJw0kw2OAnmUxqcaDwYp6dnMyeSk8b
+czGpmfcvc4H746Dhhbc4glxCWvuiWK0SVtct0TnF7wOi7gpZf5Co+bxnjoGRRLZ5
+psKacxXle8R//gxoJSQ+RK6KeAAQvcWT88hctUWBnE9JqbN0e63qg4LHV1ChTXlV
+BUOtbtfjEN4y73HvhSbhKEWJhslF48vLxwy8FRacz7UHO84QiU0D63rsZSKn6va2
+ByRRObagFmTM2YJgMoYuZb2ICcrn4yNYFgE5hImLjuR+aAFHkkUXIrc4D60lI45J
+uz1wY+0yk2tHWqmlb/s1FkcwTLnZr0a3iYPU2D1XiybU3goZ9i0SACTl8vQrwJmd
+65bUMfRIPUR8as4/cL5b3DRa
+=pbrY
+-----END PGP SIGNATURE-----
+
+--===============8585115582814432983==--
