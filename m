@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 06 Sep 2022 11:31:44 -0000
-Message-Id: <166246390430.12569.14728098805642723515@gitolite.kernel.org>
+Date: Tue, 06 Sep 2022 11:31:54 -0000
+Message-Id: <166246391410.12686.1707741884516280686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 33f93525799fa3c841b2ba93a56b2bb32ab11dc9
-    new: 00a108e9186d7c03c488ef79ec664aa2283dd1dc
+  - ref: refs/heads/perf/core
+    old: ee9db0e14b0575aa827579dc2471a29ec5fc6877
+    new: 769a7fa8135dd4070b75be555209ed7e19044dff
     log: |
-         7c3ce0d0f959183bcc90f033c5b3416ac3397b79 sched: Rename task_running() to task_on_cpu()
-         6f9f3c03ba23b7fc68b8b35c2ac7f790527532c6 freezer: Have {,un}lock_system_sleep() save/restore flags
-         91519a7d912449ad3838456f10bf0817f63c798a freezer,umh: Clean up freezer/initrd interaction
-         cca821df7398f5052396a06ffd157507edd8a2b6 sched: Change wait_task_inactive()s match_state
-         c15b604c0a0015f8fe946ed7ebbb10bb373eb6b9 sched: Add TASK_ANY for wait_task_inactive()
-         cff70d6b9b4308059aa3d4997eb27da61e69a40c sched/completion: Add wait_for_completion_state()
-         9b4db1cf82ba301b235bee3a03e8b9bb9894d5e3 sched/wait: Add wait_event_state()
-         9fe68ad4abdba83f6d4baf935dcb4df928ef7ec9 sched: Widen TAKS_state literals
-         38d98ca260aaedc5eb6ef210c6f6334380daab3a freezer,sched: Rewrite core freezer logic
-         00a108e9186d7c03c488ef79ec664aa2283dd1dc sched: Show PF_flag holes
+         d378b0d9e2217398fea520e61c240bbfa2516a87 perf: Consolidate branch sample filter helpers
+         62d547d90b60041f0098e6a6036e4074f388f524 perf: Add a few assertions
+         0c4c4e620980cc7a79a685428597002b48629d71 perf/x86: Add two more x86_pmu methods
+         1f81e65e6caf331e149cd3becaa3ecdd0249d5ad perf/x86/intel: Move the topdown stuff into the intel driver
+         b3c98d6528a6e65436a1a5c754bc14e67610fd50 perf/x86: Change x86_pmu::limit_period signature
+         0a5efd147802d53000aeb5c991f76f5dbe1e2a30 perf/x86: Add a x86_pmu::limit_period static_call
+         2cb4e616ad4ec7d3a93a54e9ee902fa5114afb02 perf/x86/intel: Remove x86_pmu::set_topdown_event_period
+         4898d1eef0bc64d2dbf3639e1ae8d424f941f0c8 perf/x86/intel: Remove x86_pmu::update_topdown_event
+         934feaa30177a6261af14886bc3be062217c0a21 perf/x86/p4: Remove perfctr_second_write quirk
+         769a7fa8135dd4070b75be555209ed7e19044dff perf/x86/intel: Optimize FIXED_CTR_CTRL access
          
