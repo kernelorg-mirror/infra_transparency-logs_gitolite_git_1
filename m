@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2077996441688118680=="
+Content-Type: multipart/mixed; boundary="===============1726183059716618062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 06 Sep 2022 17:28:59 -0000
-Message-Id: <166248533917.12242.17008872411455120822@gitolite.kernel.org>
+Date: Tue, 06 Sep 2022 17:29:09 -0000
+Message-Id: <166248534944.12353.1955106360360748355@gitolite.kernel.org>
 
---===============2077996441688118680==
+--===============1726183059716618062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c3f760ef128789252e7c4f10d3c1721422dceba9
-    new: 03fdb11da92fde0bdc0b6e9c1c642b7414d49e8d
-    log: revlist-c3f760ef1287-03fdb11da92f.txt
+  - ref: refs/heads/dev-queue
+    old: 0d5604136d834735be2723175a20d65ed3d42781
+    new: 518feecd394403dc1bbbb4786b6479a98d5b8257
+    log: revlist-0d5604136d83-518feecd3944.txt
 
---===============2077996441688118680==
+--===============1726183059716618062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f760ef1287-03fdb11da92f.txt
+Content-Disposition: attachment; filename=revlist-0d5604136d83-518feecd3944.txt
 
 d81bbb684c250a637186d9286d75b1cb04d2986c wifi: ath10k: Set tx credit to one for WCN3990 snoc based devices
 f020d9570a04df0762a2ac5c50cf1d8c511c9164 wifi: ath10k: add peer map clean up for peer delete in ath10k_sta_state()
@@ -153,5 +153,32 @@ ab526eaa84b90963a54f4f22891a11ef7288196c Merge branch 'dpaa-cleanups'
 d5edc797ef0341ae2c8d4afaad9363edbf487a3a net: lan966x: Extend lan966x with RGMII support
 9df696b3b3a4c96c3219eb87c7bf03fb50e490b8 net: ftmac100: fix endianness-related issues from 'sparse'
 03fdb11da92fde0bdc0b6e9c1c642b7414d49e8d net: moxa: fix endianness-related issues from 'sparse'
+b7da0f2819009b27957031471ebd1863e1bfadc5 e1000e: Separate MTP board type from ADP
+32368d9ef8021656538c875b7c657a7a5d461f64 ice: Add low latency Tx timestamp read
+304ad65f84bb99c4df7f9648a781cd183308c65d ice: config netdev tc before setting queues number
+7cf9c96ac5b3479d5be3878a3649f5209d03eae6 igc: Remove IGC_MDIC_INT_EN definition
+25147b356be95c1201f10ed4433ef86fc0824d00 i40e: Fix ADQ rate limiting for PF
+8250983dfe9b0f0f0542d26a1bfe88febdce1d2c ice: Don't double unplug aux on peer initiated reset
+8263af9a41b7063188a8fa334dfc3a2cf9603bd4 ice: Fix DMA mappings leak
+0156aec44d3bf4e9c7c67f48b0244056bc174c1b i40e: Fix kernel crash during module removal
+e440a5ef604089ea476ecb0e471100e881ba8172 ice: use bitmap_free instead of devm_kfree
+233d27667c10df3db91a030d7af7b9bef64f6485 ice: Fix crash by keep old cfg when update TCs more than queues
+90e5631be0edde420b70a8e2b170f8bfd8f8f810 iavf: Fix race between iavf_close and iavf_reset_task
+69bacc8732289d7020667cab7f97399dc7f5c5ed ice: Allow operation with reduced device MSI-X
+bf5b67991f99d99cd47c7a3b402b8d3acc625df7 i40e: add description and modify interrupts configuration procedure
+b4a15297823398e0d2e709f9929511e277d3aa0e ice: Add set_termios tty operations handle to GNSS
+c28bbec4e3c1b4992e0c06929cd0ca7bbfa6c7f8 ice: Check if reset in progress while waiting for offsets
+dcdcb29e5f74e5eb9ee446068cbd976a669839f3 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+3cd0c0ab48166e60ecba45f116e4b081af3264f5 ice: Handle LLDP MIB Pending change
+131b487b9295902c91203128cb7d3da56885e23d ice: add helper function to check FW API version
+311149cd7b1a125111c0e3b5f3f2216359e3687a ice: Remove second GNSS TTY device
+0812dcbc2a6b274cfc3379eff8f7a2552f069bc1 i40e: Add basic support for I710 devices
+48eda2bbb36a3537fb5f9be3d0b610e93d3157af drivers/net/ethernet/e1000e: check return value of e1e_rphy()
+a28493995e8f64732e28aab76b584cf387b1e4c3 iavf: Detach device during reset task
+4360d1aa3bb54253f83ac1e73f970aac26957a14 i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+61b000bf773e2857340e54aded6127f5879761cf iavf: Fix change VF's mac address
+0be913c48599b6640413a785c418acf8cc7b0911 iavf: Fix cached head and tail value for iavf_get_tx_pending
+378b4cbf00ab61b3eced71442abad963f4e05d37 ice: xsk: change batched Tx descriptor cleaning
+518feecd394403dc1bbbb4786b6479a98d5b8257 ice: xsk: drop power of 2 ring size restriction for AF_XDP
 
---===============2077996441688118680==--
+--===============1726183059716618062==--
