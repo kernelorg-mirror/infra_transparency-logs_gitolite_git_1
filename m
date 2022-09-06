@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6227384851776033566=="
+Content-Type: multipart/mixed; boundary="===============1289442457525467735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 06 Sep 2022 20:13:38 -0000
-Message-Id: <166249521877.30607.2072886196218446291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 06 Sep 2022 20:14:30 -0000
+Message-Id: <166249527058.31016.16815003157334922146@gitolite.kernel.org>
 
---===============6227384851776033566==
+--===============1289442457525467735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/next-integrity
-    old: 88b61b130334212f8f05175e291c04adeb2bf30b
-    new: 5926586f291b53cb8a0c9631fc19489be1186e2d
-    log: revlist-88b61b130334-5926586f291b.txt
+  - ref: refs/heads/for-next/pstore
+    old: 2c09d1443b9b8b6e25bfb2acf51ad442cf9b314e
+    new: e8f470082d357c0f33c71aa830ce0d3d442a07e3
+    log: revlist-2c09d1443b9b-e8f470082d35.txt
 
---===============6227384851776033566==
+--===============1289442457525467735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88b61b130334-5926586f291b.txt
+Content-Disposition: attachment; filename=revlist-2c09d1443b9b-e8f470082d35.txt
 
 74cae210a335d159f2eb822e261adee905b6951a Merge tag 'mtd/for-5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 910bc55da8285605308cb76f69a335b36780da43 cxl/region: Move HPA setup to cxl_region_attach()
@@ -1049,6 +1049,6 @@ b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu
 4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-5926586f291b53cb8a0c9631fc19489be1186e2d ima: fix blocking of security.ima xattrs of unsupported algorithms
+e8f470082d357c0f33c71aa830ce0d3d442a07e3 pstore/zone: Use GFP_ATOMIC to allocate zone buffer
 
---===============6227384851776033566==--
+--===============1289442457525467735==--
