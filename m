@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8603638462702989104=="
+Content-Type: multipart/mixed; boundary="===============3743920589075763636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 06 Sep 2022 22:28:17 -0000
-Message-Id: <166250329761.30954.15736496745064755013@gitolite.kernel.org>
+Date: Tue, 06 Sep 2022 22:28:24 -0000
+Message-Id: <166250330489.31053.1722880713061845156@gitolite.kernel.org>
 
---===============8603638462702989104==
+--===============3743920589075763636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d9c0103b9cb0e26272ac4d9a5912ab79e408fa83
-    new: e1091e226a2bab4ded1fe26efba2aee1aab06450
-    log: revlist-d9c0103b9cb0-e1091e226a2b.txt
+  - ref: refs/heads/dev-queue
+    old: 74b1fd500bada6e045a756e67e2a3402c1e7ce1e
+    new: 17b9ddbe33a99dfd174e8c268f9b1bfbb1024934
+    log: revlist-74b1fd500bad-17b9ddbe33a9.txt
 
---===============8603638462702989104==
+--===============3743920589075763636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9c0103b9cb0-e1091e226a2b.txt
+Content-Disposition: attachment; filename=revlist-74b1fd500bad-17b9ddbe33a9.txt
 
 fa3fbe64037839f448dc569212bafc5a495d8219 wifi: mt76: mt7921e: fix crash in chip reset fail
 40b717bfcefab28a0656b8caa5e43d5449e5a671 wifi: wilc1000: fix DMA on stack objects
@@ -47,5 +47,15 @@ beb432528c79e9613c85d250295288ef4beb14d7 Merge tag 'for-net-2022-09-02' of git:/
 686dc2db2a0fdc1d34b424ec2c0a735becd8d62b tcp: fix early ETIMEDOUT after spurious non-SACK RTO
 42b998d4aa59b9dea51665e4f3be1d733c47e2bf net: dsa: qca8k: fix NULL pointer dereference for of_device_get_match_data
 e1091e226a2bab4ded1fe26efba2aee1aab06450 net: usb: qmi_wwan: add Quectel RM520N
+94aa6c3d10a0f2df55a2e55e742f7d72e7c83359 ice: config netdev tc before setting queues number
+5c2996a8c1699dba8a70ab427fe3d36ffc80b5b1 ice: Don't double unplug aux on peer initiated reset
+ea9063c312b72e8fa9db9d3031a18e66255cc5aa ice: Fix crash by keep old cfg when update TCs more than queues
+e73a0a02a085b77808bb306abc433405fb804a2a i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+24ffe2c0f7ce0b6433f4fca41dce5ccdc5cda8d1 iavf: Fix change VF's mac address
+98a753180337d6c8a4dc57d7dea0b6840a950c99 iavf: Fix cached head and tail value for iavf_get_tx_pending
+e5ffa1e12b2bfd12b6febf32b93109c31a996430 ice: xsk: change batched Tx descriptor cleaning
+0433bd3acf41e38c9867a37de0dd64a6ce7a905b ice: xsk: drop power of 2 ring size restriction for AF_XDP
+4bfccb87fa5f232c5c41d772f2d4516a43dea15e ice: Fix interface being down after reset with link-down-on-close flag on
+17b9ddbe33a99dfd174e8c268f9b1bfbb1024934 i40e: Fix ethtool rx-flow-hash setting for X722
 
---===============8603638462702989104==--
+--===============3743920589075763636==--
