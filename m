@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 07 Sep 2022 19:55:45 -0000
-Message-Id: <166258054578.21281.810592326727276303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 07 Sep 2022 20:03:05 -0000
+Message-Id: <166258098598.25474.17362662873373761159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 680e705a33ff814b982888f22e2a68a0f87c7053
-    new: 4cc7e318cced55ff25cdafb5b0f7b8b80a56823c
+  - ref: refs/heads/iversion
+    old: 576becd558a1f81d4817061627c13edfe3fa819d
+    new: c230b674a496f5af23e6b5355d0f6de4b9ec7446
     log: |
-         288fbf752f97a6ca1f7dd5ba04f07b127d25a571 foo
-         9eb0e52003dc6e1a6efebedbf3fe8149f2920264 foo
-         a0c7efa2745c93615cd24e9f0818795fcbfc1582 foo
-         dbdc2b62bf7389af4b65ebe7f5ee3412b64c8219 foo
-         b41e948c0c1af5ce7f591e78e54f85a9302b6e6a foo
-         e77fbb7083ed543949d91dcae1e5ee0eaf5b6db8 foo
-         4cc7e318cced55ff25cdafb5b0f7b8b80a56823c foo
+         74c241da1dddf50d2536b37775526088d2946562 iversion: update comments with info about atime updates
+         79670b5cb65b7aa63e68222129969e00396c2033 ext4: fix i_version handling in ext4
+         3d4132ed12245a0601de5708a6e65940ee88ca0c ext4: unconditionally enable the i_version counter
+         ca34c9fa0db1ccf9bbc6a262f5d0f3885d7592b9 vfs: plumb i_version handling into struct kstat
+         f30b1f8a5acdfb55021f6d1f7cc4c1e922b2e8f3 nfs: report the inode version in statx if requested
+         d3e2014f80e5a97f291d1bcae1b690a2f44f3e64 ceph: fill in the change attribute in statx requests
+         aacc928742bcead0d845021eeaedf7ffadf60fb0 nfsd: use the getattr operation to fetch i_version
+         8943a1e294c0e836468a7d4a18599c038b316e3f tmpfs: add support for an i_version counter
+         b95c2af0aee9d04ce6117c50a32637dff6ac5fc2 vfs: take i_rwsem when querying for STATX_INO_VERSION
+         c230b674a496f5af23e6b5355d0f6de4b9ec7446 nfsd: inode_lock_shared when encoding change attribute
          
