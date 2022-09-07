@@ -1,58 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7904384977938510342=="
+Content-Type: multipart/mixed; boundary="===============5413033600138533439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 07 Sep 2022 07:54:39 -0000
-Message-Id: <166253727917.10688.11374235653381728036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 07 Sep 2022 08:05:18 -0000
+Message-Id: <166253791843.20131.4805734968593959111@gitolite.kernel.org>
 
---===============7904384977938510342==
+--===============5413033600138533439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 7b0dbd94076567170f89172e0f07583915010ac6
-    new: d3afabf94ad383303026647db4ec802754ac06ba
-    log: |
-         a6d0ca93abe3c19aa5b79fd11a832116b6caca26 MAINTAINERS: Change VMware PVSCSI driver entry to upper case
-         0f174bc27137f6b6d1eb63e92934ad0b1b404658 MAINTAINERS: Change status of some VMware drivers
-         d3afabf94ad383303026647db4ec802754ac06ba MAINTAINERS: Add a new entry for VMWARE VSOCK VMCI TRANSPORT DRIVER
-         
+  - ref: refs/heads/main
+    old: b008f4a195af92052f69a10869a06e9c403efe63
+    new: 8f15a8d6786c031b230e46077acbe1e07fabb5ce
+    log: revlist-b008f4a195af-8f15a8d6786c.txt
 
---===============7904384977938510342==
+--===============5413033600138533439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b008f4a195af-8f15a8d6786c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662537277 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662537276-43f5cc753fd9b4bf48e4da346c91e15a1b4c3300
+0d24201f47c4270043314705fcc13e1d7c675527 wifi: iwlwifi: calib: Refactor iwl_calib_result usage for clarity
+3f42faf6db431e04bf942d2ebe3ae88975723478 wifi: brcmfmac: fix use-after-free bug in brcmf_netdev_start_xmit()
+d173d0207bda8173b27a38cae439a2f904d4f7c8 wifi: brcmfmac: Use ISO3166 country code and rev 0 as fallback on 43430
+7d6e30dfcc723b8fe86e5413640ac229a37310ab wifi: brcmfmac: Add DMI nvram filename quirk for Chuwi Hi8 Pro tablet
+ed03a2af74d2adc1b09f725e79807ee49e5525d6 wifi: mwifiex: Fix comment typo
+3d784bade0fd0023d10dc51f2227f2c7cbb369dc wifi: p54: Fix comment typo
+5db68fd319583ed3a2b54e4d452b53a66b9d498c bcma: Fix typo in comments
+98d3f063be78ca71b578bc3fcf71033a335273db wifi: rtl8xxxu: Simplify the error handling code
+be376df724aa3b7abdf79390eaab60c58a92f4f0 wifi: brcmfmac: add 43439 SDIO ids and initialization
+e56a770883b2f5eaf2d99620e5574dc0d2d6f11e wifi: brcmfmac: remove redundant variable err
+edd5747aa12ed61a5ecbfa58d3908623fddbf1e8 wifi: rtl8xxxu: Fix skb misuse in TX queue selection
+76a8c54c53d8f928e720f3c6de6bfe4d1a7792f0 wifi: ipw2100: fix warnings about non-kernel-doc
+a08e3518bf45eec8eceff4704a04911057cbe39d wifi: libertas: fix a couple of sparse warnings
+9d5b665775d6fdfca5ec4ccadcbfda614e2e0a9c wifi: wl18xx: add some missing endian conversions
+3208ae450248f2f61f272a2c0e85c303663b0912 wifi: mwifiex: mark a variable unused
+e1ff3b48996a2db47579b1817113736f66b18b1c wifi: mwifiex: fix endian conversion
+fbe7e18581ef55114258843358727c0cfeaa2860 wifi: mwifiex: fix endian annotations in casts
+df8e1af22cee900826112e8e4612cbeb2b168929 wifi: cw1200: remove RCU STA pointer handling in TX
+53b17c121f29d6bf8547f8823650a8d134e7afb6 wifi: cw1200: use get_unaligned_le64()
+8f15a8d6786c031b230e46077acbe1e07fabb5ce wifi: b43: remove empty switch statement
 
-7b0dbd94076567170f89172e0f07583915010ac6 d3afabf94ad383303026647db4ec802754ac06ba refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMYTj0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9BMP/jhHGGRxJVGxeIUjyLO/
-BPfhS5FuRA/GosgDlIjCe71mNOCl0a3ULguLmO9wbdDXqNfPrABtivQxL91Vlpag
-JOfJ3OM/I74kTMGzcruXuJDzaJLOfbU5i2Mt9Sw7sLSYrLqh2IsAA78WVz82zxcT
-/ixhOdBkKpL9m/ywOKqNvKQw0G7L67ObRVb2ULJFEqm5SakZlitU3Q1wW/JM0qnf
-Ln7uDbRL+JGNBdoSBLExpex4ZlKGJWSlACBHJjcdaQN0q4qgYYx6Y5iQn3YxXV+/
-6ieXMiDtUfxIukyCr2M6S8OuUm5bcEEP91flxPNxst1lOs67/gH9V8T+YMbIaOxA
-dmc5OGsAEkLDxqbkoh89JPj5ZcMeprmS4mNQZ/6tS2RE7wtu2x+JCSakCkUbM4Y7
-yZ5jIyp6TuPawlvcbMr+ELpEoWSVrESR55nmAhLdq0cT3t8e4C17qJCbX5Etln/s
-2Ohp7/TVfNegoisHEs/pqa16+7OhMNBsAt3oe/JvpxT84cdaIT+cECLoGNj5WB8Y
-dynKU9uma9vu4pX2bif1HAGg7L03UUxouM0xTiTOpe4AxwmTHckWcoL6WNMd3MN/
-OpHh2l/XXXRdFViQX7nMa9ai+krtE1OcCjRr7x68p/SGOCz+0C30Sln0j4KrxYGX
-xl7VHN+hGNgIOAuv5hnY4Roe
-=jXPa
------END PGP SIGNATURE-----
-
---===============7904384977938510342==--
+--===============5413033600138533439==--
