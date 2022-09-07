@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4469790017999950033=="
+Content-Type: multipart/mixed; boundary="===============1054960301013927035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 07 Sep 2022 17:56:43 -0000
-Message-Id: <166257340304.594.6255805109645292521@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 17:56:53 -0000
+Message-Id: <166257341371.744.11940022082347131985@gitolite.kernel.org>
 
---===============4469790017999950033==
+--===============1054960301013927035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: cmarinas
 changes:
-  - ref: refs/heads/for-next/core
-    old: 48a3e6c075024118808481164f5f4c911051519c
-    new: 43c1da104a67f997dbf5b89b497e2b512e780806
-    log: revlist-48a3e6c07502-43c1da104a67.txt
+  - ref: refs/heads/for-next/kselftest
+    old: 9ccff5080758288b8a8e1948e9d703d672f21d22
+    new: 537addee1e8e843a00f6cb0f656af19655b13107
+    log: revlist-9ccff5080758-537addee1e8e.txt
 
---===============4469790017999950033==
+--===============1054960301013927035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48a3e6c07502-43c1da104a67.txt
+Content-Disposition: attachment; filename=revlist-9ccff5080758-537addee1e8e.txt
 
 d47d8a5e21fc7f83bccc94156dfe6192e3f57724 kselftest/arm64: Install signal handlers before output in FP stress tests
 fd5c2c6f08b10a5f5c85261f580075bc8aa08d4d kselftest/arm64: kselftest harness for FP stress tests
@@ -43,6 +43,5 @@ ff89a81903d3c206ed90cfe60dce900f3b7be65b kselftest/arm64: Validate contents of E
 bb7852c168fe02fddbbc5cf26dc6fb779e6aad38 kselftest/arm64: Correct buffer allocation for SVE Z registers
 af3ce550a6590551a88383382983301c431e3153 kselftest/arm64: Enforce actual ABI for SVE syscalls
 537addee1e8e843a00f6cb0f656af19655b13107 kselftest/arm64: Fix spelling misakes of signal names
-43c1da104a67f997dbf5b89b497e2b512e780806 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/doc' and 'for-next/sve' into for-next/core
 
---===============4469790017999950033==--
+--===============1054960301013927035==--
