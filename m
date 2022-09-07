@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Wed, 07 Sep 2022 09:33:33 -0000
-Message-Id: <166254321321.16534.1065887782627766685@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 09:33:40 -0000
+Message-Id: <166254322093.16628.7010492280153729400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: 8ed1cdc04d0f45a70b8a9d03bbec4b71e22fe1b6
-    new: 0a73c4f8da025cd2c3494cd9b9cdd8499b7b846c
+  - ref: refs/heads/perf
+    old: 1ef28dd7c9701cf440a6a1c4c6bdb56cb25a8302
+    new: 4286ec1523e6f4ce9475f36f92a7207e4d0d7024
     log: |
-         0a73c4f8da025cd2c3494cd9b9cdd8499b7b846c kcsan: Instrument memcpy/memset/memmove with newer Clang
+         4286ec1523e6f4ce9475f36f92a7207e4d0d7024 perf: Allow restricted kernel breakpoints on user addresses
          
