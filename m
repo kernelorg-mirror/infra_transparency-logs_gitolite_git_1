@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 07 Sep 2022 20:03:05 -0000
-Message-Id: <166258098598.25474.17362662873373761159@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 20:04:39 -0000
+Message-Id: <166258107968.26146.11605670243009641700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,14 @@ repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
   - ref: refs/heads/iversion
-    old: 576becd558a1f81d4817061627c13edfe3fa819d
-    new: c230b674a496f5af23e6b5355d0f6de4b9ec7446
+    old: c230b674a496f5af23e6b5355d0f6de4b9ec7446
+    new: 9185296c98cfa40be6184985dabc1bd23a6d2b58
     log: |
-         74c241da1dddf50d2536b37775526088d2946562 iversion: update comments with info about atime updates
-         79670b5cb65b7aa63e68222129969e00396c2033 ext4: fix i_version handling in ext4
-         3d4132ed12245a0601de5708a6e65940ee88ca0c ext4: unconditionally enable the i_version counter
-         ca34c9fa0db1ccf9bbc6a262f5d0f3885d7592b9 vfs: plumb i_version handling into struct kstat
-         f30b1f8a5acdfb55021f6d1f7cc4c1e922b2e8f3 nfs: report the inode version in statx if requested
-         d3e2014f80e5a97f291d1bcae1b690a2f44f3e64 ceph: fill in the change attribute in statx requests
-         aacc928742bcead0d845021eeaedf7ffadf60fb0 nfsd: use the getattr operation to fetch i_version
-         8943a1e294c0e836468a7d4a18599c038b316e3f tmpfs: add support for an i_version counter
-         b95c2af0aee9d04ce6117c50a32637dff6ac5fc2 vfs: take i_rwsem when querying for STATX_INO_VERSION
-         c230b674a496f5af23e6b5355d0f6de4b9ec7446 nfsd: inode_lock_shared when encoding change attribute
+         7c84ad487183827910b5b21499ea79fd69df491c vfs: plumb i_version handling into struct kstat
+         5babd1a278cf02b1b7522c8159d87ef7731852ba nfs: report the inode version in statx if requested
+         eaa14ab87172e7bbbb35422a97137888a1ca6b58 ceph: fill in the change attribute in statx requests
+         c66c25948d9176a8f3c50fc7686ec231dd252390 nfsd: use the getattr operation to fetch i_version
+         d30112efa7faff706b16102156e8ee084883993c tmpfs: add support for an i_version counter
+         bae24a18a8c530d31ad7a26130db0d205ce2fe99 vfs: take i_rwsem when querying for STATX_INO_VERSION
+         9185296c98cfa40be6184985dabc1bd23a6d2b58 nfsd: inode_lock_shared when encoding change attribute
          
