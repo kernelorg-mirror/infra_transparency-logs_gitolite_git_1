@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 07 Sep 2022 08:06:46 -0000
-Message-Id: <166253800644.20694.14421700456534863914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 07 Sep 2022 08:15:35 -0000
+Message-Id: <166253853597.26843.5383231716208989130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/mhi-next
-    old: acc5495bf764e7e441193f972d96c5d2887f6b8b
-    new: 0a3b31f6259f4849e4e93731d4c8d7910be072a7
+  - ref: refs/heads/urgent
+    old: 1a3887924a7e6edd331be76da7bf4c1e8eab4b1e
+    new: 7a1ec84ffba9e90ac772ddb33ea9c3899ed8d2c9
     log: |
-         4a98958ca237a4b7974ea1ec2092b3666bdd26ab bus: mhi: host: make mhi_controller_config::event_cfg const
-         0a3b31f6259f4849e4e93731d4c8d7910be072a7 bus: mhi: host: always print detected modem name
+         7a1ec84ffba9e90ac772ddb33ea9c3899ed8d2c9 efi/x86: libstub: remove unused variable
          
