@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3200148926034456688=="
+Content-Type: multipart/mixed; boundary="===============5793817339086168879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 07 Sep 2022 16:01:28 -0000
-Message-Id: <166256648863.16176.8915849942163327662@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 16:02:18 -0000
+Message-Id: <166256653835.16554.9196136271345929652@gitolite.kernel.org>
 
---===============3200148926034456688==
+--===============5793817339086168879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: d38f8e5c588e544e7090c11fa4ca13188fe18325
+  - ref: refs/heads/for-next
+    old: 2f1e574fb1e72c4d40f1abb26c851026583a231a
     new: d4ce3364ab40d7e849205182bc19f4c17426d8ed
-    log: revlist-d38f8e5c588e-d4ce3364ab40.txt
+    log: revlist-2f1e574fb1e7-d4ce3364ab40.txt
 
---===============3200148926034456688==
+--===============5793817339086168879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d38f8e5c588e-d4ce3364ab40.txt
+Content-Disposition: attachment; filename=revlist-2f1e574fb1e7-d4ce3364ab40.txt
 
 5e255ad3b76e96e4f1e373586d5df63092b400ca kbuild: build init/built-in.a just once
 f31f3eb396668aaf94f3b2f5d749b1c5b4a2b7e0 kbuild: generate include/generated/compile.h in top Makefile
@@ -41,4 +41,4 @@ aadb9559657a5cf65f84cfd5d7897fdab2429470 kbuild: unify two modpost invocations
 bab7edd450fde225f393aa6675611b9109486132 kbuild: remove head-y syntax
 d4ce3364ab40d7e849205182bc19f4c17426d8ed kbuild: use objtool-args-y to clean up objtool arguments
 
---===============3200148926034456688==--
+--===============5793817339086168879==--
