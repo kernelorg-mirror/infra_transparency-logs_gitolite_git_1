@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7674423385360402890=="
+Content-Type: multipart/mixed; boundary="===============6706090940256776158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 07 Sep 2022 01:37:10 -0000
-Message-Id: <166251463049.6280.15219835033853785575@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 01:37:18 -0000
+Message-Id: <166251463814.6420.17099788745950202001@gitolite.kernel.org>
 
---===============7674423385360402890==
+--===============6706090940256776158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 274052a2b0ab9f380ce22b19ff80a99b99ecb198
     new: 2786bcff28bd88955fc61adf9cb7370fbc182bad
     log: revlist-274052a2b0ab-2786bcff28bd.txt
 
---===============7674423385360402890==
+--===============6706090940256776158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d5edc797ef0341ae2c8d4afaad9363edbf487a3a net: lan966x: Extend lan966x with RGMII
 03fdb11da92fde0bdc0b6e9c1c642b7414d49e8d net: moxa: fix endianness-related issues from 'sparse'
 2786bcff28bd88955fc61adf9cb7370fbc182bad Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============7674423385360402890==--
+--===============6706090940256776158==--
