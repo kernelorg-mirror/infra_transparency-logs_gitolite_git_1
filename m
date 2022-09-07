@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7556520670456647234=="
+Content-Type: multipart/mixed; boundary="===============3200148926034456688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Sep 2022 15:57:46 -0000
-Message-Id: <166256626630.16231.14069704646733519289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 07 Sep 2022 16:01:28 -0000
+Message-Id: <166256648863.16176.8915849942163327662@gitolite.kernel.org>
 
---===============7556520670456647234==
+--===============3200148926034456688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: c2e406596571659451f4b95e37ddfd5a8ef1d0dc
-    new: 5ac251c8a05ce074e5efac779debf82a15d870a3
-    log: |
-         5ac251c8a05ce074e5efac779debf82a15d870a3 arch_topology: Make cluster topology span at least SMT CPUs
-         
+  - ref: refs/heads/kbuild
+    old: d38f8e5c588e544e7090c11fa4ca13188fe18325
+    new: d4ce3364ab40d7e849205182bc19f4c17426d8ed
+    log: revlist-d38f8e5c588e-d4ce3364ab40.txt
 
---===============7556520670456647234==
+--===============3200148926034456688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d38f8e5c588e-d4ce3364ab40.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662566265 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662566264-78e5a3d3189b974bc7ac65f7fd9322380b4bb270
+5e255ad3b76e96e4f1e373586d5df63092b400ca kbuild: build init/built-in.a just once
+f31f3eb396668aaf94f3b2f5d749b1c5b4a2b7e0 kbuild: generate include/generated/compile.h in top Makefile
+dace332e3d7673866a2d00238ea14a04466b0f02 scripts/mkcompile_h: move LC_ALL=C to '$LD -v'
+e1156e1f3bc1949ca2a777a3eb85354e9a3a499f Revert "kbuild: Make scripts/compile.h when sh != bash"
+8d0498c413541e76c0488a0b2870d6b1f7e6b580 kbuild: rewrite check-local-export in sh/awk
+2045042105882e8a92d85823990fc64274ba9460 kbuild: fix and refactor single target build
+425b4caeec7d120a4127e60453f8ce2f2f42e2f8 kbuild: rename modules.order in sub-directories to .modules.order
+1e9657fb4b8f41d1eb98e3a3a35821aece5b9f8e kbuild: move core-y and drivers-y to ./Kbuild
+d0d7e916395381370ec9143f6a16c37f9df0c705 kbuild: move .vmlinux.objs rule to Makefile.modpost
+f96f5ad080fe55b8cb92bfafa1cf67653abbdc1b kbuild: move vmlinux.o rule to the top Makefile
+aadb9559657a5cf65f84cfd5d7897fdab2429470 kbuild: unify two modpost invocations
+24a5f8ce35ed4417c9ff3019f19436c9e4bc600d kbuild: use obj-y instead extra-y for objects placed at the head
+bab7edd450fde225f393aa6675611b9109486132 kbuild: remove head-y syntax
+d4ce3364ab40d7e849205182bc19f4c17426d8ed kbuild: use objtool-args-y to clean up objtool arguments
 
-c2e406596571659451f4b95e37ddfd5a8ef1d0dc 5ac251c8a05ce074e5efac779debf82a15d870a3 refs/heads/driver-core-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMYv3kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Pv4P/02NOlObIWGVRVrk28+E
-gTDd1ZRG5ecJTqMbL5MwP9o3AHj7B+kwrNlkVIMX/uYBusRyU9A4GdtVWNZWPO3I
-VOQ4/yqIQU4dT3YcTYRqPv16v9Yr/uj76PbZw9su1RrHnxGMvPPgiqzCPVuubIqh
-nSnts6CgYZgKll7RyTycZFyCrTcmV5EwBZsnStZGyQ/5CEeAGN7FyrWmTe9Scvtu
-oPkUUqj/8VDUaSCdvWZj6DTJhg/GZzXMiihjHgxebnqyH6MYbQbqKFY6hsE97FJK
-9fHJqD+XGD9Eh517fQOYvJPfWV1+lMP62p7yW9ga0u8sXK1rwnFYb22HqN+mtk4p
-4Odx7jh1A4ijy5AfIkj9xg/ZGva0MjqR7qNi3m60AqMdfLGfNN7JN2infg3xvLFk
-YqQJDzFdUXhWxCLyGE2Yr+fTUQCkboP+WtuvXhY0son6+AhfXMtyBcxTkMl1aUol
-1Bxhp0/bMZj5drEKTh8S2unu2hfxHbAGLoCCpXcnf7F30hzRl0y8PVNb88yj5Ed/
-qs92w5tLu8mKwggFQ6PqcFVdfBtXgEaRRpqEuxOeJLIO/Hknp86zzoSdkGtZczxm
-B9jGofFaysF0MgNlQ0o2EJCevQwXZlmpKKwC3c5TJnYKZ6k5Xns+TtjIvikZWG4H
-2McTjvUNVE9hQH2d605xpeN/
-=sz94
------END PGP SIGNATURE-----
-
---===============7556520670456647234==--
+--===============3200148926034456688==--
