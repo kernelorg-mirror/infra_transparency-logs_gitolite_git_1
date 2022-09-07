@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8488262029226609721=="
+Content-Type: multipart/mixed; boundary="===============8995365500022697752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 07 Sep 2022 14:30:48 -0000
-Message-Id: <166256104815.18968.12086558753709855087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 07 Sep 2022 14:40:59 -0000
+Message-Id: <166256165965.25513.11588069559754619920@gitolite.kernel.org>
 
---===============8488262029226609721==
+--===============8995365500022697752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 766a96dc558385be735a370db867e302c8f22153
-    new: 91062e663b261815573ce00967b1895a99e668df
+  - ref: refs/heads/tty-linus
+    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
+    new: 1d10cd4da593bc0196a239dcc54dac24b6b0a74e
     log: |
-         91062e663b261815573ce00967b1895a99e668df usb: dwc3: core: leave default DMA if the controller does not support 64-bit DMA
+         e77cab77f2cb3a1ca2ba8df4af45bb35617ac16d serial: Create uart_xmit_advance()
+         754f68044c7dd6c52534ba3e0f664830285c4b15 serial: tegra: Use uart_xmit_advance(), fixes icount.tx accounting
+         1d10cd4da593bc0196a239dcc54dac24b6b0a74e serial: tegra-tcu: Use uart_xmit_advance(), fixes icount.tx accounting
          
 
---===============8488262029226609721==
+--===============8995365500022697752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662561046 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1662561045-da24aa79f69a49760e9a75c5d8d66dab02bd7627
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662561658 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1662561657-83d9980d4c2fb1f6508f24b6eb72f396f6d92c5d
 
-766a96dc558385be735a370db867e302c8f22153 91062e663b261815573ce00967b1895a99e668df refs/heads/usb-linus
+7e18e42e4b280c85b76967a9106a13ca61c16179 1d10cd4da593bc0196a239dcc54dac24b6b0a74e refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMYqxYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ERkQAIbAtISRhe+Png39ov+j
-eR750u11PUFaX2JgDQkgz1+iMhMI0mAi2k3MGBUK1jFSLxI34iGV60ZX6UsSc/xM
-ECD4MdsfUERwWt4RuJvoKloqJDHSzHwc5kbDOhqR775EVw04kyPb+ZGyUu1wO2Nr
-1gkd+2Vxy6eIWT9ocKIPUoOlToSXDAzszxMSvUaD9S0x049QZFeKZu0oWUvIrEHF
-3OsGJkm7GmHSWTds7vMoeHSaE1ISxayLI8amiVQqrfHqv4HDYkdoQvzCj6USEPP7
-u2hViWZiPXsXqBSYC5PfUGltqp2fPOj1G6L/iVrTH1QMBHCCuqY2xSunTTnp5TIY
-JvbzulKqT1/Y3i8ktRnXBBRDn032y+PDKi/gyUP6CVR8TwyidPu5nORFkO4JBWCm
-eVurKqXPG/ERoWTSTA/DDENUpgetcweVKzyKPnfN9qgPRvu/u+V8mzcVUKHCNNfy
-jk5rGxa6G/QEwWzxlTAim6crfYd2XkPGrC2rReG4YM1IiMbJoJvptM/UrACoatd9
-5+v81YGqZUQB8w2h8DjQUIIGYH2ruLD1Z9pbtWgwXl2kIEyJGSexeqDSECvYXIaQ
-5M85Xb4gD4GSRC7lZmVxVXw6TcuxdYNfy/+3ugsmdz1ykoirPoVJtikQGufwHptD
-FrR2dDIKil5469NdBpi8JHQZ
-=vWyQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMYrXobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bIkQAJyJHc4NWC+qqvrqtact
+wN1AjXPFLOccSBBTQukoFObxc4uCO7QlLsns12DMFEJx66eOBrqIRKmt5dRG4ipF
+YOti6FmbOSRHCjuCw9n5nqwut2qmtgBlxHxLepXtWbPsVLwjR7T33me+ajgrAn71
+XfRwS0T6+UGTB2iOHM1OsmzgMl9K335afvAYYFaLitESasMVju+wbrAwRaRAFYMS
+Id0Wp53vg9iWBltI3PkkOUxrpyTTs3TtdZO9egtok7uTxN7T6qRb+LdxdaZDJNTK
+Ko6uu8DIEk/SWJ2VrFPtdnALWdEcwh8JBE4jQrOaJ3Si7MBbGxgAVqV6gq/43XQG
+AZkkzQBBtvS2oIetylUabl+rkMDh4tduv51KTcq6DX5IHwVtRcIk1+BJYkG9Qnny
+NMkeDFNF5w1bCZQejF7SKj9n0eonwKLmSaZNhmkxaBHRC1AtDN+QrueXIzhU6+0h
+oLYcSqK5f97ZU3/TdqDelmbGGvnz6+PWmD0uz3Nw8+3PHWpRXrNY2TsV5Ke1FN70
+QaW+Fq2HX23usPzhMgLod1EP60dTbBJ+y/YZY4t5ovMSVz/BiAN4TjRUNlNgTc4W
+/xE+7YHQb3iM7lrNUNgDFGFCHBl7urgInJTtlsAFvTNB4eF0FQrjLgBueeZjI/jV
+8T6sl8jhgQPk92WtmJg+Rcm6
+=Jp/L
 -----END PGP SIGNATURE-----
 
---===============8488262029226609721==--
+--===============8995365500022697752==--
