@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3597613494008689319=="
+Content-Type: multipart/mixed; boundary="===============6278224024870702166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 07 Sep 2022 14:29:04 -0000
-Message-Id: <166256094406.16572.13355992599875437798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 Sep 2022 14:29:09 -0000
+Message-Id: <166256094993.16660.16520245169355363460@gitolite.kernel.org>
 
---===============3597613494008689319==
+--===============6278224024870702166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 5b16f2677b9c0b06d4d1107a541d5d4e7a4da404
     new: e0d38f88e977e7fb6a8aa4d4f31720b1c9b7817e
     log: |
@@ -28,28 +28,28 @@ changes:
          e0d38f88e977e7fb6a8aa4d4f31720b1c9b7817e ASoC: Fixes for MT8195 SOF support
          
 
---===============3597613494008689319==
+--===============6278224024870702166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1662560942 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1662560942-99d4b47a22cd72aba51164ade62faf3622855f4a
+pusher C3F436CA30F5D8EB 1662560948 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1662560948-9fb797a06ec43d8f9b990612bdc88da500a8989d
 
-5b16f2677b9c0b06d4d1107a541d5d4e7a4da404 e0d38f88e977e7fb6a8aa4d4f31720b1c9b7817e refs/heads/for-6.1
+5b16f2677b9c0b06d4d1107a541d5d4e7a4da404 e0d38f88e977e7fb6a8aa4d4f31720b1c9b7817e refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMYqq4ACgkQJNaLcl1U
-h9C8mgf/cMcnXYBklntKV1WJcc0j9yWSvT4N0UGwjGcgWZ+yuA0uEeT8804CToa3
-F3XBniEInRMxAwIGwpzROiff390YjfajnL3bwiJfszArUDktpUFgVhOBJDc3D+q4
-XP5OTCy/kCapxpCtugn5Dnybv1EnKfhm8/9vAs6OrHdLjQXfO07M5mF7okNh/So2
-GASAfQ/OPCZcoo/mbVYGgOMWVKtreMUrQkX7cMEvWeRSN2E6AR8aKmscNJmkGreJ
-ry1tbL2lTLM5vN7rBtwCxgb5YBMJwnKNNPDzPiNfXsGo1RB71FTW2E5rVSt25KBf
-4uiQLVJzbDiXlD20KJYD9zaHYudZiQ==
-=PT/k
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMYqrQACgkQJNaLcl1U
+h9Dhhwf/X0tuOQCoVzI1FZE9a4U4gOdFtEdKCcStfRvbQPVQN4DwURoq8AHfujzC
+KCL7VvaHlZjfwKsNvCotOED1ygJgOyjfRNZXezrmaYlvPyerDApP91SFl9NkJrOM
+8G2rTcB6+uvkisBwaFa6Q1DhbxiGabPJTpIxcJUKX39UP+QU6qA9HYCDsL8qkZq7
+vJYXhzurLppIINSNjMNeQYf0ZH0+XXbIsqDhFfBG2EG3Pgl7X5vLsUmIVXBb7wF7
+W+gZdUToaQySb8bF40OY52UyeN2xjtmJfVvMAx2lSWVX0TB87t3A3mzaTJmfdBUK
+2I8AmRMTfDNroQnXLoYygBhyaWXsXA==
+=FYd1
 -----END PGP SIGNATURE-----
 
---===============3597613494008689319==--
+--===============6278224024870702166==--
