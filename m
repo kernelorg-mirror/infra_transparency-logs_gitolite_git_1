@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 07 Sep 2022 01:37:35 -0000
-Message-Id: <166251465509.6607.17742505540611574014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 07 Sep 2022 02:20:18 -0000
+Message-Id: <166251721840.3796.12480631986926432029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/heads/master
+    old: 413fb4f695480ca90e6e1298837448249add57b4
+    new: 7d764828dc60148e8e3e5d9986e9f26cc734024e
+    log: |
+         7d764828dc60148e8e3e5d9986e9f26cc734024e Wed Sep  7 02:19:35 AM UTC 2022
+         
