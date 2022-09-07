@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6234666235387824818=="
+Content-Type: multipart/mixed; boundary="===============8826309551375012496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 07 Sep 2022 02:38:09 -0000
-Message-Id: <166251828908.16159.3383802472243840655@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 02:38:23 -0000
+Message-Id: <166251830368.16327.13306700183548781866@gitolite.kernel.org>
 
---===============6234666235387824818==
+--===============8826309551375012496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 44235eddc3458f747618b16d1aa83e7828445e1c
-    new: a2ca21264daeffaf8ac93db585cebe1fee2655aa
-    log: revlist-44235eddc345-a2ca21264dae.txt
+  - ref: refs/heads/6.1/scsi-staging
+    old: e699bb9765cd447ab477e9e888ddbab347dcf35a
+    new: efca52749564601de2045eb71dbe756b7bade4e8
+    log: revlist-e699bb9765cd-efca52749564.txt
 
---===============6234666235387824818==
+--===============8826309551375012496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1662518279 -0400
+pusher 75C5DE3D 1662518294 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1662518278-de1edfd4c4fb64cd43a9db2383ca6a3e3a081ab1
+nonce 1662518292-8aa59b1ae50c401175f49944ca09b2ad34712a9e
 
-44235eddc3458f747618b16d1aa83e7828445e1c a2ca21264daeffaf8ac93db585cebe1fee2655aa refs/tags/mkp-scsi-staging
+e699bb9765cd447ab477e9e888ddbab347dcf35a efca52749564601de2045eb71dbe756b7bade4e8 refs/heads/6.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMYBAcACgkQ7ulgGnXF
-3j2qpxAAs3c+qARt7D1XUSI4EvWEEYjYPK3p18xtIh7ZiTS1rfu4nhZxjwlCOlVW
-ri8n9yzAmz42w2ORyo5cwdOV4z9M4kAN/1F0P23MS0r9d6EzHDT1KAT2oBScW5ir
-e+PmQ+oeHT0aSEaZZiTRBzED83cZ/qQWp4BuHIFPCVIIhcYyK8yt2zhjV/C9uv8Y
-eNSMjL8dvW7VJQoTGkh/L9shHLE6Y0HBb7XIMBohju+umtwR9FpJ7SaFyebtzlpg
-2Nao/QPsYqXfvbVKSq/uG0L7B3W10QA9zVP5wv0mBGwbJ58cwcOgapDfhVdIoxE6
-2vAmq6zWrUNp64/JzvqIcIv13PH/tWEzl3ojV8M8u3wUc70asoCybsGSqvwzhjUZ
-kCK+jYEFx/iwC0r9t78TpY8FxnPU1PqLAZaiqPDyzSZ+4x6MR3+zbkj/6YdwHz7p
-LbgymAY10AFc3B/Qf9g3NpOAltAb6BoupBLe9cEJbHERMTBmq386y1zNVmE5o4xh
-lxwBrHl7AxAgKj0I/ZkTI7jBArT3OPFcwunFHtMtVYG0g5McBDk53nBu9+cyw0Gs
-Aj9ewNzhhhXNxDAODnFNVVLosalPnSuFnriXW5PjFmxCMyNIBVPUrXenzuviGriv
-IL8xibfTDltH12dMML/Z10xv4D7ZVxqX/kGg+ShPw3ntArJ5lL8=
-=vIiX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMYBBYACgkQ7ulgGnXF
+3j1KGQ/9EHwJSziArGNuXiSL/Yb6CNNG5/99h6pFvim/Wbv1bnNDlGe29qfrbFNW
+QwffmkeTZyG+5Lv0d87vGGJteiQeLZf3AhWwhlnJFrak2aLpHJYqF/Ig9RkNZ1YL
+SYASd2ECbWliXCN/IT3lwK3RohYLaOCI8rKLbvw0jMTCFQRoQ79ranlkK8Czpcpr
+GS1kfQAGCLnFODEjN5o3m67G9bZlnXiOLqA20FECGe+whAuRAhkNZpBA4BB8PizI
+dgrU5n+QxtleRkRRKUTPDg/bWxcZqtNOV6dTpcYpNXFGGVs0V1f98m8e+UQakr0c
+jPjG6e7XzbP7SvGO5gMcZbHt5B/0W1e8Q7o9rSfXNAw8Ycib6uLztVRKRyOh2b/c
+r7q4+f+bbZnMHiqy09WWFN2yqSwqR/2WynmlJLyE4pjUmiBPBELyl38KF3cedzKE
+wB9lZa4ZJNnxwYfBCodt75uShjTe4vf7jVp2ZD2wG/tUsHoaqctSZGnFSZTrWyfy
+tfJObORMsu7w8BVoc0a8DfyAslaADbcY40Qc8W0JwfYTQzG0xeXm6WL6E+OApYtZ
+7QsyWWvXUogelWCR3jpwIkSaP91HgUWtFg9V50qml3jb0fvYslm1WW69iW/W2TxC
+1tBjK/+7dsks6Rs8VcSTYZ7ftO9Ba5ITcIXMvZPgIqRq3I6rFKM=
+=sYO9
 -----END PGP SIGNATURE-----
 
---===============6234666235387824818==
+--===============8826309551375012496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44235eddc345-a2ca21264dae.txt
+Content-Disposition: attachment; filename=revlist-e699bb9765cd-efca52749564.txt
 
 00903af94d8a1359584fdd6284be87d29f5a022d scsi: xen: Drop use of internal host codes
 a6cb5462500f3cb4b0f81dca9d01fe464a92a163 scsi: storvsc: Drop DID_TARGET_FAILURE use
@@ -77,4 +77,4 @@ e9b6bada980957e0ada6613a749875e133a0327d scsi: hisi_sas: Add helper to process b
 f5f2a2716055ad8c0c4ff83e51d667646c6c5d8a scsi: hisi_sas: Don't send bcast events from HW during nexus HA reset
 efca52749564601de2045eb71dbe756b7bade4e8 scsi: qla2xxx: Fix spelling mistake "definiton" -> "definition"
 
---===============6234666235387824818==--
+--===============8826309551375012496==--
