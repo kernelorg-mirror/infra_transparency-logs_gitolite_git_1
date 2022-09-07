@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8193013825336481064=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 07 Sep 2022 17:01:24 -0000
-Message-Id: <166257008481.25973.1224751000010459504@gitolite.kernel.org>
-
---===============8193013825336481064==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 07 Sep 2022 17:09:25 -0000
+Message-Id: <166257056593.30915.16687767791101031822@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: dcb1e99bce3edf0e80c1643124a2a93286a7043e
-    new: ee4d29c39b7fc5f14b23214e84bc6acd4b73a7fb
+  - ref: refs/heads/net-mlx5
+    old: e1091e226a2bab4ded1fe26efba2aee1aab06450
+    new: f27b405ef43319a3ceefc2123245201a63ed4e00
     log: |
-         ee4d29c39b7fc5f14b23214e84bc6acd4b73a7fb docs: create sphinx docs stub
+         11afdc6526de0e0368c05da632a8c0d29fc60bb8 net: dsa: felix: tc-taprio intervals smaller than MTU should send at least one packet
+         843794bbdef83955ae5b43dfafc355c3786e2145 net: dsa: felix: disable cut-through forwarding for frames oversized for tc-taprio
+         a4bb481aeb9d84cb53112a478e6db4705b794c34 net: dsa: felix: access QSYS_TAG_CONFIG under tas_lock in vsc9959_sched_speed_set
+         0f51fa2a3ca19783e7817a6be76661cd9136d057 Merge branch 'dsa-felix-fixes'
+         0e80707d94e4c88f9879bdafcbaceb13432ec1f4 net: ethernet: mtk_eth_soc: fix typo in __mtk_foe_entry_clear
+         9cb252c4c1c53ae58bc565bab76e98133288f23a net: skb: export skb drop reaons to user by TRACE_DEFINE_ENUM
+         f27b405ef43319a3ceefc2123245201a63ed4e00 net: ethernet: mtk_eth_soc: check max allowed hash in mtk_ppe_check_skb
          
-
---===============8193013825336481064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1662570084 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1662570084-35fec8c2aeaf7e5bd7074e825a0d4a7b0e3f5baa
-
-dcb1e99bce3edf0e80c1643124a2a93286a7043e ee4d29c39b7fc5f14b23214e84bc6acd4b73a7fb refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYxjOZAAKCRC2xBzjVmSZ
-bE+ZAPwKJSZ43AvGWCbzVmupB1iXeZCJV/7E4q+fgZep4EO0fAD/T30JNYieXxIy
-zdEBYA/Jd5hjNx/H2fjCRHHv+0lRgAg=
-=yvMA
------END PGP SIGNATURE-----
-
---===============8193013825336481064==--
