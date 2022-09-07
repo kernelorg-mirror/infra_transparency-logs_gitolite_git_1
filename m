@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 07 Sep 2022 19:00:19 -0000
-Message-Id: <166257721905.13760.16200167280871198201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 07 Sep 2022 19:04:53 -0000
+Message-Id: <166257749376.15424.5612848898680117770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-next
-    old: 9fad7fe5b29803584c7f17a2abe6c2936fec6828
-    new: cc48755808c646666436745b35629c3f0d05e165
+  - ref: refs/heads/testing/6.0-rc2-kspp-misc
+    old: e306cf23b09c2d126d09d06497c6a1c680799834
+    new: 8147c9d23ad1954a1bce66d72decf07edd211a0f
     log: |
-         448325199f574d33824dbf9121efb03558412966 bpf: Add copy_map_value_long to copy to remote percpu memory
-         6df4ea1ff0ff70798ff1e7eed79f98ccb7b5b0a2 bpf: Support kptrs in percpu arraymap
-         cc48755808c646666436745b35629c3f0d05e165 bpf: Add zero_map_value to zero map value with special fields
+         8147c9d23ad1954a1bce66d72decf07edd211a0f media: usb: pwc-uncompress: Use flex array destination for memcpy()
          
