@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0374264706991818855=="
+Content-Type: multipart/mixed; boundary="===============4716142603679518379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 07 Sep 2022 01:32:43 -0000
-Message-Id: <166251436324.2932.243121540230525954@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 01:34:46 -0000
+Message-Id: <166251448667.3724.13294459938174570744@gitolite.kernel.org>
 
---===============0374264706991818855==
+--===============4716142603679518379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: e82c649e851c9c25367fb7a2a6cf3479187de467
     new: e1091e226a2bab4ded1fe26efba2aee1aab06450
     log: revlist-e82c649e851c-e1091e226a2b.txt
 
---===============0374264706991818855==
+--===============4716142603679518379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -805,4 +805,4 @@ beb432528c79e9613c85d250295288ef4beb14d7 Merge tag 'for-net-2022-09-02' of git:/
 42b998d4aa59b9dea51665e4f3be1d733c47e2bf net: dsa: qca8k: fix NULL pointer dereference for of_device_get_match_data
 e1091e226a2bab4ded1fe26efba2aee1aab06450 net: usb: qmi_wwan: add Quectel RM520N
 
---===============0374264706991818855==--
+--===============4716142603679518379==--
