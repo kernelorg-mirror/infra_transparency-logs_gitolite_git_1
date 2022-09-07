@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4397762656261767089=="
+Content-Type: multipart/mixed; boundary="===============6234666235387824818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 07 Sep 2022 02:37:54 -0000
-Message-Id: <166251827464.16001.9148628694788884499@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 02:38:09 -0000
+Message-Id: <166251828908.16159.3383802472243840655@gitolite.kernel.org>
 
---===============4397762656261767089==
+--===============6234666235387824818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,65 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 48658213202c4f48ef34b43b9b6f60af8b67fb8a
-    new: e699bb9765cd447ab477e9e888ddbab347dcf35a
-    log: revlist-48658213202c-e699bb9765cd.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 44235eddc3458f747618b16d1aa83e7828445e1c
+    new: a2ca21264daeffaf8ac93db585cebe1fee2655aa
+    log: revlist-44235eddc345-a2ca21264dae.txt
 
---===============4397762656261767089==
+--===============6234666235387824818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1662518265 -0400
+pusher 75C5DE3D 1662518279 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1662518264-29a95371a549da043a0d3a6d9a7948287414c083
+nonce 1662518278-de1edfd4c4fb64cd43a9db2383ca6a3e3a081ab1
 
-48658213202c4f48ef34b43b9b6f60af8b67fb8a e699bb9765cd447ab477e9e888ddbab347dcf35a refs/heads/queue
+44235eddc3458f747618b16d1aa83e7828445e1c a2ca21264daeffaf8ac93db585cebe1fee2655aa refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMYA/kACgkQ7ulgGnXF
-3j0nVxAAs6X6WbzS+EuHu3ZxS9Ql8ZqbZ1NWjGbvs1KqpF9DXo5ouF7Cp+tonmgV
-LQs+wTvz3rNTPxP0RCrGI66imz6a22+Or025TAG46stQ8CeYRajVUd9ZI8OgjVQp
-TIRsSHbugqzHMhBgDxUXMAmX0LKURvKjr7D6yKd6hGkKHAyI5isy+DyDJuvHC8qI
-chivovNaiZ7Jj7fNSzwfkYaSPpLeg4NR09X+kXsf7S56p1QucEyn0+6csop6f1Rh
-1Dtyyv34swITWS547jYSYdLEECtcRwb753/zJxfwSA0yLGN3fgMMm6c9voyfx1pD
-9EKfPPfnEZHhgMEjBRSIkB9XDFj+96F+lFf+pdcTwoRmkpl/iQ4GKReyIYPyl/Dm
-YIBoNBQZ0UTK63ilPRTJpYpCwlqZFn1/CAgsdkgXkv0bOXeQOHd9Qsxq1bDGp0fq
-s6QYQWKmIGF3xMJkuLfalrhc3rUFCnxASTAK/KXi1/0QiBkRZSDo7kMY3fj6C65u
-Jaa5SkOEPwYpfyunor45MUS6YscAyAlbC0xNloihP0RSNLgoqxNuqeVjY6MdCC8g
-rBS99MwxwXC+Yc6ogRYpUt3WlIq/hcAhosdDSlBLqyDPVswo3KPzX86D6jU0Ku9S
-AdadrTI7ZWk6YDqKP2PBbt+oOeQW61y+zi+NCITZOnQ0PrCYHZc=
-=aAMM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMYBAcACgkQ7ulgGnXF
+3j2qpxAAs3c+qARt7D1XUSI4EvWEEYjYPK3p18xtIh7ZiTS1rfu4nhZxjwlCOlVW
+ri8n9yzAmz42w2ORyo5cwdOV4z9M4kAN/1F0P23MS0r9d6EzHDT1KAT2oBScW5ir
+e+PmQ+oeHT0aSEaZZiTRBzED83cZ/qQWp4BuHIFPCVIIhcYyK8yt2zhjV/C9uv8Y
+eNSMjL8dvW7VJQoTGkh/L9shHLE6Y0HBb7XIMBohju+umtwR9FpJ7SaFyebtzlpg
+2Nao/QPsYqXfvbVKSq/uG0L7B3W10QA9zVP5wv0mBGwbJ58cwcOgapDfhVdIoxE6
+2vAmq6zWrUNp64/JzvqIcIv13PH/tWEzl3ojV8M8u3wUc70asoCybsGSqvwzhjUZ
+kCK+jYEFx/iwC0r9t78TpY8FxnPU1PqLAZaiqPDyzSZ+4x6MR3+zbkj/6YdwHz7p
+LbgymAY10AFc3B/Qf9g3NpOAltAb6BoupBLe9cEJbHERMTBmq386y1zNVmE5o4xh
+lxwBrHl7AxAgKj0I/ZkTI7jBArT3OPFcwunFHtMtVYG0g5McBDk53nBu9+cyw0Gs
+Aj9ewNzhhhXNxDAODnFNVVLosalPnSuFnriXW5PjFmxCMyNIBVPUrXenzuviGriv
+IL8xibfTDltH12dMML/Z10xv4D7ZVxqX/kGg+ShPw3ntArJ5lL8=
+=vIiX
 -----END PGP SIGNATURE-----
 
---===============4397762656261767089==
+--===============6234666235387824818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48658213202c-e699bb9765cd.txt
+Content-Disposition: attachment; filename=revlist-44235eddc345-a2ca21264dae.txt
 
-e75c8ea0d73bebdbff3ceb51f55fd735cb232d86 scsi: mpt3sas: Prevent error handler escalation when device removed
-9df650963bf6d6c2c3fcd325d8c44ca2b99554fe scsi: mpt3sas: Don't change DMA mask while reallocating pools
-463e683bfdc457ce0a15c2c920ed30d3145ed44e scsi: mpt3sas: Fix trace buffer registration failed
-669b2b667e69264cb9a914e0afd056abafa2f429 scsi: mpt3sas: Increase cmd_per_lun to 128
-c0958d2335fe7327bdda294a1ed42debe14d0346 scsi: mpt3sas: Update driver version to 43.100.00.00
-eee8bb4a2b58212843aec92dd6c8c1cc193209e0 scsi: qla2xxx: Log message "skipping scsi_scan_host()" as informational
-6dc45a7322cb9db48a5b6696597a00ef7c778ef9 scsi: qla2xxx: Revert "scsi: qla2xxx: Fix response queue handler reading stale packets"
-e4f8a29deb3ba30e414dfb6b09e3ae3bf6dbe74a scsi: qla2xxx: Fix response queue handler reading stale packets
-389f179b868e43121c6cfccfbf5e495842a766fd scsi: qla2xxx: Add debugfs create/delete helpers
-d9ba85efc3fc743aa3c958efa996f397719cdc2a scsi: qla2xxx: Add NVMe parameters support in Auxiliary Image Status
-8bfc149ba24cb985d593c0b2ddcf03ce42febe0c scsi: qla2xxx: Enhance driver tracing with separate tunable and more
-2c57d0defa22b2339c06364a275bcc9048a77255 scsi: qla2xxx: Define static symbols
-fed842d04dad979f0e74926720474ab0b037e7e8 scsi: qla2xxx: Update version to 10.02.07.900-k
-0414441259c4040048c239c2ab96a6e993e45ef6 scsi: docs: Fix a typo
-7fd080e19cb841244fe36085e41331cd04b85515 scsi: lpfc: Remove the unneeded result variable
-de05e4843cce5f4b385f60acfa690eb94af923b8 scsi: lpfc: Remove unneeded result variable
-5afdd990ce2ea178eb6cbd31b197cc3d12a675bf scsi: hpsa: Use the bitmap API to allocate bitmaps
-e95b305addc976f1b163d1f5af063402d530a361 scsi: hpsa: Simplify {clear|set}_bit() parameters
-e699bb9765cd447ab477e9e888ddbab347dcf35a scsi: target: pscsi: Remove repeated word "calling"
+00903af94d8a1359584fdd6284be87d29f5a022d scsi: xen: Drop use of internal host codes
+a6cb5462500f3cb4b0f81dca9d01fe464a92a163 scsi: storvsc: Drop DID_TARGET_FAILURE use
+f1d0d5c9fe37d45e5f3004e54a4e596220bae930 scsi: uas: Drop DID_TARGET_FAILURE use
+beb4dac8d23546c14c77fce724a214348523d503 scsi: virtio_scsi: Drop DID_TARGET_FAILURE use
+377a7b0b1e5fd157547904874c84331b32df1109 scsi: virtio_scsi: Drop DID_NEXUS_FAILURE use
+a965d35c8741724eb69050948024f35d268645ab scsi: qla2xxx: Drop DID_TARGET_FAILURE use
+ebb54b201c9378f08053b461898d15c019aaf4ba scsi: cxlflash: Drop DID_ALLOC_FAILURE use
+36ebf1e2aa148bdcf03c413bddfc605c54b57669 scsi: core: Add error codes for internal SCSI midlayer use
+7dfaae6ac1b0267d5a064970ba794a916c33b823 scsi: core: Convert scsi_decide_disposition() to use SCSIML_STAT
+68a3a9102a6891635fa7595ce78808e57b66fc6f scsi: core: Remove useless host error codes
+9806d1b895f42c919620539b8e7621d73ea6d60d scsi: qlogicpti: Fix dma_map_sg() check
+2286ade07d74498a62c0ad067a79ca8dcc04016f scsi: ufs: core: Print UFSHCD capabilities in controller's sysfs node
+7eff437b5ee1309b34667844361c6bbb5c97df05 scsi: 3w-9xxx: Avoid disabling device if failing to enable it
+1ce871de4f86432be4b40b7a19bd205aedc654bf scsi: esas2r: Use flex array destination for memcpy()
+245050af5d15a4f518c130e896cb597a263a070b scsi: hisi_sas: Revert change to limit max hw sectors for v3 HW
+bc5551157a747d463247a54b611e5a8464677c6f scsi: hisi_sas: Clear HISI_SAS_HW_FAULT_BIT earlier
+11ff0c98fca35df16c84d4eee52008faecaf10a6 scsi: hisi_sas: Drain bcast events in hisi_sas_rescan_topology()
+e9b6bada980957e0ada6613a749875e133a0327d scsi: hisi_sas: Add helper to process bcast events
+f5f2a2716055ad8c0c4ff83e51d667646c6c5d8a scsi: hisi_sas: Don't send bcast events from HW during nexus HA reset
+efca52749564601de2045eb71dbe756b7bade4e8 scsi: qla2xxx: Fix spelling mistake "definiton" -> "definition"
 
---===============4397762656261767089==--
+--===============6234666235387824818==--
