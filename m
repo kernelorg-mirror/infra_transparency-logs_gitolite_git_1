@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7278639818698802051=="
+Content-Type: multipart/mixed; boundary="===============7904384977938510342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 07 Sep 2022 07:51:54 -0000
-Message-Id: <166253711456.9502.4742048465624620118@gitolite.kernel.org>
+Date: Wed, 07 Sep 2022 07:54:39 -0000
+Message-Id: <166253727917.10688.11374235653381728036@gitolite.kernel.org>
 
---===============7278639818698802051==
+--===============7904384977938510342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
-    new: ab0b4b575b46d29bf49dc86047dc2964125db722
+  - ref: refs/heads/char-misc-testing
+    old: 7b0dbd94076567170f89172e0f07583915010ac6
+    new: d3afabf94ad383303026647db4ec802754ac06ba
     log: |
-         0a6fc70d76bddf98278af2ac000379c82aec8f11 phy: marvell: phy-mvebu-a3700-comphy: Remove broken reset support
-         ab0b4b575b46d29bf49dc86047dc2964125db722 Merge tag 'phy-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-linus
+         a6d0ca93abe3c19aa5b79fd11a832116b6caca26 MAINTAINERS: Change VMware PVSCSI driver entry to upper case
+         0f174bc27137f6b6d1eb63e92934ad0b1b404658 MAINTAINERS: Change status of some VMware drivers
+         d3afabf94ad383303026647db4ec802754ac06ba MAINTAINERS: Add a new entry for VMWARE VSOCK VMCI TRANSPORT DRIVER
          
 
---===============7278639818698802051==
+--===============7904384977938510342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662537113 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662537277 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662537112-fd078212a5382289bf719004a8b524c4cb0259fc
+nonce 1662537276-43f5cc753fd9b4bf48e4da346c91e15a1b4c3300
 
-7e18e42e4b280c85b76967a9106a13ca61c16179 ab0b4b575b46d29bf49dc86047dc2964125db722 refs/heads/char-misc-linus
+7b0dbd94076567170f89172e0f07583915010ac6 d3afabf94ad383303026647db4ec802754ac06ba refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMYTZkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QecP/jUf6Eb+Xct6nGli5/Aq
-YI3l8EZF/RTE9BRn7I2KgVBBPCiI2mP1i9R7r15QEsR+HpSS6TyOHhHChwZ33m7Z
-p1tvJ+88GU8XRGXnUQLb/fzN3YbA9rZ59WASiXvipPWZOfxLl00ld5VTTLnFloXq
-A/Rd7zRbdjKBI9SxbOQWGa0T8PkhiNcToYzc38+PPCh8j5Ojs6jmFyqHBlGL33Hi
-WN0L4vxZWH+1gLKN/tpQDNfzmPM69PiiBx5akIkErlX86npwvpolfgaGtWTFkwTT
-vKjKhgXHAp5XD8xWabyJCuMi6OGCpDWiw1HIN6tVc8DjzUKrOrRk72ntul0AKu8r
-Clm5U6Y5H45iw/2Qm2MFX21Ek5Z/ty95K5eRFFN/FneLtgJ5TXuE/gP/INlfLM20
-PyoOo2KHlc5C0hSmN+YnsGCu+PX8Uh9dEaLwXo44ed8XDTMderm934b87HiLWg8o
-/xYJpRWRwrwZ2bznOwvE1RNAw4ewbM7bYH8wvFyW7biII5JFuW73AWzxGgsdhvBE
-310+E/kRFGvZmwSFPZuz0bRPYeOi9DZpeuC7eh7LB7gi2lKrEohVfr/RwbW2S00a
-wU8UwWGBDjIl4VwGCtldAdTdoCBlwE4khCR/314nIpaWCV/DxC3TUm+W2QBzfPJY
-VmTx5gxvlhBCtwZbTTgbIo8d
-=7ILA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMYTj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9BMP/jhHGGRxJVGxeIUjyLO/
+BPfhS5FuRA/GosgDlIjCe71mNOCl0a3ULguLmO9wbdDXqNfPrABtivQxL91Vlpag
+JOfJ3OM/I74kTMGzcruXuJDzaJLOfbU5i2Mt9Sw7sLSYrLqh2IsAA78WVz82zxcT
+/ixhOdBkKpL9m/ywOKqNvKQw0G7L67ObRVb2ULJFEqm5SakZlitU3Q1wW/JM0qnf
+Ln7uDbRL+JGNBdoSBLExpex4ZlKGJWSlACBHJjcdaQN0q4qgYYx6Y5iQn3YxXV+/
+6ieXMiDtUfxIukyCr2M6S8OuUm5bcEEP91flxPNxst1lOs67/gH9V8T+YMbIaOxA
+dmc5OGsAEkLDxqbkoh89JPj5ZcMeprmS4mNQZ/6tS2RE7wtu2x+JCSakCkUbM4Y7
+yZ5jIyp6TuPawlvcbMr+ELpEoWSVrESR55nmAhLdq0cT3t8e4C17qJCbX5Etln/s
+2Ohp7/TVfNegoisHEs/pqa16+7OhMNBsAt3oe/JvpxT84cdaIT+cECLoGNj5WB8Y
+dynKU9uma9vu4pX2bif1HAGg7L03UUxouM0xTiTOpe4AxwmTHckWcoL6WNMd3MN/
+OpHh2l/XXXRdFViQX7nMa9ai+krtE1OcCjRr7x68p/SGOCz+0C30Sln0j4KrxYGX
+xl7VHN+hGNgIOAuv5hnY4Roe
+=jXPa
 -----END PGP SIGNATURE-----
 
---===============7278639818698802051==--
+--===============7904384977938510342==--
