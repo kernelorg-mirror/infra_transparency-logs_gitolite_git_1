@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3018166035731883025=="
+Content-Type: multipart/mixed; boundary="===============4645381018379806719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 07 Sep 2022 12:54:20 -0000
-Message-Id: <166255526051.8755.15077670244257131169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 07 Sep 2022 12:54:29 -0000
+Message-Id: <166255526992.8919.1526950788776741059@gitolite.kernel.org>
 
---===============3018166035731883025==
+--===============4645381018379806719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 840126e36e8ff272cb63158646433fa1324533d9
     new: 5957ac6635a1a12d4aa2661bbf04d3085a73372a
     log: revlist-840126e36e8f-5957ac6635a1.txt
-  - ref: refs/heads/pending-fixes
-    old: dea3dab2e6fc4ed3438aa3fa4bb53508c54ad3b6
-    new: 83a56f5598286db77221a362a22c487ad4653eaa
-    log: revlist-dea3dab2e6fc-83a56f559828.txt
-  - ref: refs/heads/stable
-    old: 53e99dcff61e1523ec1c3628b2d564ba15d32eb7
-    new: d2ec799d1c1be847d6a70704fe586ac4d14265c8
-    log: |
-         5bd9628b784cc5e38e1c7ebb680bbd6ee741230e erofs: fix error return code in erofs_fscache_{meta_,}read_folio
-         ea0b7b0d59e81a9c1bc03f8696bb04851bc2ad22 erofs: avoid the potentially wrong m_plen for big pcluster
-         2f44013e39984c127c6efedf70e6b5f4e9dcf315 erofs: fix pcluster use-after-free on UP platforms
-         d2ec799d1c1be847d6a70704fe586ac4d14265c8 Merge tag 'erofs-for-6.0-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-         
-  - ref: refs/tags/next-20220607
-    old: 4014c55f45208d629be80ef03a8a27d46b2ea748
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220907
     old: 0000000000000000000000000000000000000000
     new: 277ce57da4787fe665afbe603362d2f75a8c2f7b
 
---===============3018166035731883025==
+--===============4645381018379806719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -478,88 +462,4 @@ eb359ea7850be697dd8e5e163a306e5f234e364b Revert "Revert "kbuild: Make scripts/co
 e68216615cf8388fe92d7d0272c2e78a41429849 Revert "kbuild: build init/built-in.a just once"
 5957ac6635a1a12d4aa2661bbf04d3085a73372a Add linux-next specific files for 20220907
 
---===============3018166035731883025==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dea3dab2e6fc-83a56f559828.txt
-
-85eaeb5058f0f04dffb124c97c86b4f18db0b833 IB/core: Fix a nested dead lock as part of ODP flow
-9ca05b0f27de928be121cccf07735819dc9e1ed3 RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
-74b30b3ad5cec95d2647e796d10137438a098bc1 RDMA/mlx5: Set local port to one when accessing counters
-9b7d4be967f16f79a2283b2338709fcc750313ee RDMA/mlx5: Fix UMR cleanup on error flow of driver init
-bc7a2c9b17773c89f2f9c09ac9f9233716d6cd08 MAINTAINERS: Update maintainers of HiSilicon RoCE
-eef1848f0ada80a15ef5c1bb25faa9a9a9c04760 mm: vmscan: fix extreme overreclaim and swap floods
-6f80f7fc2dd38e80ef757260c379e8fb28c5629e ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-331b4e35d47988168a5f31dd63719a7c81ce4f7a mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-3614ab7bee0b8b292231466b6c4e6785676528a8 mm-page_alloc-fix-race-condition-between-build_all_zonelists-and-page-allocation-fix
-2469c0c7dc215414153969b5e9a68904b736dc1e xfs: quiet notify_failure EOPNOTSUPP cases
-2ac96643e3b0963ff8f695a7a72ff2f2890a970c xfs: fix SB_BORN check in xfs_dax_notify_failure()
-ec99876c7205e42195fb36701082fbb0c0b577d1 mm/memory-failure: fix detection of memory_failure() handlers
-f603d52cb959055bef933536a150f14a5f55a734 mm/memory-failure: fall back to vma_address() when ->notify_failure() fails
-4893fd7132e9ddc1b61d9d2ed230cc8198e813b9 x86/mm: disable instrumentations of mm/pgprot.c
-006e76ab88937df33fa9024afefa6e789be52a1f mm/hugetlb: fix races when looking up a CONT-PTE/PMD size hugetlb page
-3a6c69ff09966720b60af553c61e6e170ab48fa3 mm/migrate_device.c: flush TLB while holding PTL
-a679e8b3bc43c3e8445d3e0d0ccce004468e21be mm/migrate_device.c: add missing flush_cache_page()
-3c223c6aa0416ee0c4239d8e420914317b00514a mm/migrate_device.c: copy pte dirty bit to page
-fe04f9c0ef603be1554fd7afb0650c3b1856b4df mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
-375f8b926c9b11ad04d6b4448d6a920aba0178e1 tools: fix compilation after gfp_types.h split
-cb134e2b52211fc201ebad49bf639212e826aec6 mm: fix VM_BUG_ON in __delete_from_swap_cache()
-7c0b5c9a63e25f463709b121a4866311f789d1ef vmscan: check folio_test_private(), not folio_get_private()
-06346a4e00b78489da271577539d4245c39669ba mm: fix dereferencing possible ERR_PTR
-8d44e6044a0e885acdd01813768a0b27906d64fd ALSA: hda/tegra: Align BDL entry to 4KB boundary
-e53f47f6c1a56d2af728909f1cb894da6b43d9bf ALSA: usb-audio: Fix an out-of-bounds bug in __snd_usb_parse_audio_interface()
-6a6d9ecff14a2a46c1deeffa3eb3825349639bdd ARM: dts: am5748: keep usb4_tm disabled
-2a906db2824b75444982f5e9df870106982afca8 Merge branch 'am5748-fix' into fixes
-c0a454b9044fdc99486853aa424e5b3be2107078 arm64/bti: Disable in kernel BTI when cross section thunks are broken
-37137ec26c2c03039d8064c00f6eae176841ee0d ALSA: hda: Once again fix regression of page allocations with IOMMU
-686dc2db2a0fdc1d34b424ec2c0a735becd8d62b tcp: fix early ETIMEDOUT after spurious non-SACK RTO
-42b998d4aa59b9dea51665e4f3be1d733c47e2bf net: dsa: qca8k: fix NULL pointer dereference for of_device_get_match_data
-d91c411c744b55e860fbafc9a499f4f22d64c762 drm/ttm: update bulk move object of ghost BO
-e1091e226a2bab4ded1fe26efba2aee1aab06450 net: usb: qmi_wwan: add Quectel RM520N
-edca5a2c373db61efa959307c13ed9156b1c14d9 drm/i915/bios: Copy the whole MIPI sequence block
-e1cab970574c001d83e59ca8388c474a57a1afb6 drm/i915/slpc: Let's fix the PCODE min freq table setup for SLPC
-672d6ca758651f0ec12cd0d59787067a5bde1c96 drm/i915: Implement WaEdpLinkRateDataReload
-151e0e0fdb4d6365305598af3b9072d44e896ef0 drm/i915: consider HAS_FLAT_CCS() in needs_ccs_pages
-d2ec799d1c1be847d6a70704fe586ac4d14265c8 Merge tag 'erofs-for-6.0-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-7c3c200958e3a2b379d0fcc7c5db9c92caa72148 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-2c7274f7b750879017cb044c2f44f4aadc425f96 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
-780b28278f495b8131d7aeb1bfbb8ca3963d5aca Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-0aab2451f9d20cb6e7a25f661fb85f0803566653 Merge branch 'fixes' of git://git.armlinux.org.uk/~rmk/linux-arm.git
-8604444fb559bbea7ad3548e307e3e8ed115f086 Merge branch 'for-next/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-bae45d391d41b32fc11567afe6848b11dca713f4 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-e12a18760f9f12d3aaa597087bbb7a8f88841a9c Merge branch 'fixes' of https://git.linaro.org/people/jens.wiklander/linux-tee.git
-2d44818febba11b2c84a4f5f0c019e2e1bcf40e2 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-641cd388168ff8f4e7ac092a9dcab0676ec7031e Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-9cdd25effee9acf01c5f70bc329ac55829829d4e Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-8377d77ffbc8899f56785ce42039bfecb00c7be8 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-86fba364a75fa8e77653c5195ab1e6eedb97607f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-cae953f5f7649d0891d14dbe04f2ca5007d116df Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-4b6f7041f26f548463a010c3143731846181f263 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-fa1cf3a42c7e100883f58866b7966ec761aacf06 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-d561af3867d6d6d1428c9836982ec0f15a1b8848 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-2d63487789c718ed6a0f5a468b7f5dafe35429b6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
-72080f2499a5b109b33568d6563af067bdc8bbf7 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
-e94eab95b7ce3ddef09d76a2a3e2fc577b89740a Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-7726db27f166aed76e3795a4b42b99e9a7d26e45 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-c3d88cbc05a85b9b2668468e6ccb141e74acdb5a Merge branch 'for-linus' of git://github.com/awilliam/linux-vfio.git
-4df2271f143639cfa0517433b0977cce6a70f42d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-a87577d091ba47cea4a85244241a6b3861fe6467 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
-8b497dccb7e995c1f59df1fef7d4219364a7ad31 Merge branch 'reset/fixes' of https://git.pengutronix.de/git/pza/linux
-c51bde25e1faaacfc635dd00b90b7c0396017d05 Merge branch 'mips-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux.git
-9e75ecebde1eab433724208dd46e16607f7bec99 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap.git
-d7d70311240bec8c63031b9b7b54c978a36fc0d4 Merge branch 'libnvdimm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm.git
-83226b7dd84cbc1d65b68e96aef80e5824879d78 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-53af90c5011aa295c5048aea81ad668ba1c5ff6e Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-c8721afd00408913ee003bd627e9a5d759e8218b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-235c0078e81dd565e46f783ab3c75856587c305f Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-c50c5b19ae8d1243fef54d26c2a8844e0ee1935d Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-73c18d52b47f912ccad93ac1d07460f605504805 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-3e66539fbff64295671abff395afd22b33c852ee Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-31fedf5a36801ddbf6fb2f143f27e7c4c7c799be Merge branch 'irq/irqchip-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms.git
-6d5c4ac70600fab98c6bfb56a226a7ddd4d93e43 Merge branch 'fixes' of https://github.com/Broadcom/stblinux.git
-7596505a0e51b38f455fbf6c0d71c568d43034e5 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-0e6be13c95ee11cc64df2d138a1e45ba69c953f7 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
-83a56f5598286db77221a362a22c487ad4653eaa Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============3018166035731883025==--
+--===============4645381018379806719==--
