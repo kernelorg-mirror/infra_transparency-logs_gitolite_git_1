@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3618351497785296039=="
+Content-Type: multipart/mixed; boundary="===============7192263021374129758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 08 Sep 2022 10:33:58 -0000
-Message-Id: <166263323844.2544.16364417358988855552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 08 Sep 2022 10:34:35 -0000
+Message-Id: <166263327592.2829.13915114311072486652@gitolite.kernel.org>
 
---===============3618351497785296039==
+--===============7192263021374129758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 02db22aa1cc318c0dda6951395caabec15c6fcac
-    new: 1bcebacc119dc26cc648cfdb679b90e1d113bab8
-    log: |
-         1bcebacc119dc26cc648cfdb679b90e1d113bab8 Notes added by 'git notes add'
-         
+  - ref: refs/heads/for-next/ffa
+    old: f09f438b9a44fb46942bd7116ac30cbd1af81766
+    new: 5b0c6328e47dccf552996ca711005ca3f44034e9
+    log: revlist-f09f438b9a44-5b0c6328e47d.txt
 
---===============3618351497785296039==
+--===============7192263021374129758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f09f438b9a44-5b0c6328e47d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662633261 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1662633236-5a405bc113f9789066a32898b00bee5602d96fef
+d01387fc16421cbbf95d1fda8fe1258195396c64 firmware: arm_ffa: Add pointer to the ffa_dev_ops in struct ffa_dev
+320c3fa38c514eb71aa188da3495e13da9a30542 tee: optee: Drop ffa_ops in optee_ffa structure using ffa_dev->ops directly
+55bf84fd0a76894ae29c69b3552e073fa37818be firmware: arm_ffa: Remove ffa_dev_ops_get()
+cb1f4c2c15bb708b1ec8c70926c43ab6b6c93ecb firmware: arm_ffa: Add support for querying FF-A features
+e57fba9105fac60d81a7ff2ce70d347d7ae95943 firmware: arm_ffa: Use FFA_FEATURES to detect if native versions are supported
+8c3812c8f74f050278d734ec4b90149d84bdbefb firmware: arm_ffa: Make memory apis ffa_device independent
+7aa7a97989557011f762a4b7c2e4e3b061b638e4 firmware: arm_ffa: Rename ffa_dev_ops as ffa_ops
+bb1be749850055d88d839eff0962e5915788f228 firmware: arm_ffa: Add v1.1 get_partition_info support
+106b11b1ccd5a43432d9517f4a26629a1658cfe6 firmware: arm_ffa: Set up 32bit execution mode flag using partiion property
+5b0c6328e47dccf552996ca711005ca3f44034e9 firmware: arm_ffa: Split up ffa_ops into info, message and memory operations
 
-02db22aa1cc318c0dda6951395caabec15c6fcac 1bcebacc119dc26cc648cfdb679b90e1d113bab8 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMZxS0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8OQQAKbpmSJvl82PY4Wll08/
-A0pGdgp8+bp2UQEbRPWQn4ei3jnUqjP9q1nrmimKpAyBCBgpau/QyiSFWJkGOV1K
-ypUuZApcP413vyovfOTR8A4vtbQFScgnimnqybJmbx2sSLHU5BXfUZXkm26BTm4W
-sQ0sx9jqgu5qI6LzsVwwYoqCH2eyH0L4VcHoMNzGfyxc69GoPsyg1RP9eWq7ibja
-TFF5BCxpufoFTJq8v5L8hLydcank00vOkQyFXxgh8o9XtW9sir3o82OaGpXbwS86
-v9AblQUHCd/Be/qkJMV+L+qPwgv6o/krRe5ASo/geU2PViaTKOwyTwwyO6pOe3cN
-g6sYIIg+EkXG7NkUU++FWHJZYxFNDUp+ywSR8E327lKJpR4NR5Vc3jLHgho5LAs5
-XOBvW3VNrNxkJ/WbXsA+lMYwowdhRxb1grHGK9U0jXEGIBBYeYUMftLkkKA8JfGq
-KzUF2CZUoYJkMquMzJ3L9R4gsT0PS6C9RW2WVb+QJKuyR1ka64PSjtIXxNpCRYY5
-99dNaEeJ8zYcfL1UW6oO+D3EAnGXdlaSrGD/K5Ku6ueLLIlptY7id4gbGdwO46hw
-xJR8RPv9UmpBgN+W4rekiAkL7SAePLNwEkpVJA9FaD+sQXIyx6Q9najZHcvs/MYj
-FhBt9TKYk8i/P1w5kQqr1Fua
-=g+fW
------END PGP SIGNATURE-----
-
---===============3618351497785296039==--
+--===============7192263021374129758==--
