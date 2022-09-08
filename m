@@ -1,105 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============4377370010650363960=="
+Content-Type: multipart/mixed; boundary="===============7657771600129399875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 08 Sep 2022 19:03:18 -0000
-Message-Id: <166266379846.6440.7797469717981408268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 08 Sep 2022 19:08:11 -0000
+Message-Id: <166266409114.9651.14763650916142008380@gitolite.kernel.org>
 
---===============4377370010650363960==
+--===============7657771600129399875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 0066f1b0e27556381402db3ff31f85d2a2265858
-    new: 506357871c18e06565840d71c2ef9f818e19f460
-    log: revlist-0066f1b0e275-506357871c18.txt
+  - ref: refs/heads/seen
+    old: 567f1a82053a5d113ca3a04b6dcbd3c2a944a99c
+    new: 45a9b790e3cf9b2eec7152a53d6bfc8204951649
+    log: revlist-567f1a82053a-45a9b790e3cf.txt
 
---===============4377370010650363960==
+--===============7657771600129399875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0066f1b0e275-506357871c18.txt
+Content-Disposition: attachment; filename=revlist-567f1a82053a-45a9b790e3cf.txt
 
-46f7ac3d7892e808c9ba01c39da6bb85cda26ecd spi: bitbang: Fix lsb-first Rx
-f5723cfc01932c7a8d5c78dbf7e067e537c91439 regmap: spi: Reserve space for register address/padding
-c32f1ebfd26bece77141257864ed7b4720da1557 regulator: core: Clean up on enable failure
-9ee5b6d53b8c99d13a47227e3b7052a1365556c9 spi: cadence-quadspi: Disable irqs during indirect reads
-1a3887924a7e6edd331be76da7bf4c1e8eab4b1e efi: libstub: Disable struct randomization
-78e1e867f44e6bdc72c0e6a2609a3407642fb30b regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
-fa3fbe64037839f448dc569212bafc5a495d8219 wifi: mt76: mt7921e: fix crash in chip reset fail
-40b717bfcefab28a0656b8caa5e43d5449e5a671 wifi: wilc1000: fix DMA on stack objects
-6d0ef7241553f3553a0a2764c69b07892705924c wifi: iwlegacy: 4965: corrected fix for potential off-by-one overflow in il4965_rs_fill_link_cmd()
-b118509076b39cc5e616c0680312b5caaca535fe netfilter: remove nf_conntrack_helper sysctl and modparam toggles
-d047283a7034140ea5da759a494fd2274affdd46 netfilter: br_netfilter: Drop dst references before setting.
-475043fabe8c58fb18c32c7942d8754897bd11fa regulator: Fix qcom,spmi-regulator schema
-77972a36ecc4db7fc7c68f0e80714263c5f03f65 netfilter: nf_tables: clean up hook list when offload flags check fails
-0efe125cfb99e6773a7434f3463f7c2fa28f3a43 netfilter: nf_conntrack_irc: Fix forged IP logic
-ac56a0b48da86fd1b4389632fb7c4c8a5d86eefa rxrpc: Fix ICMP/ICMP6 error handling
-0d40f728e28393a8817d1fcae923dfa3409e488c rxrpc: Fix an insufficiently large sglist in rxkad_verify_packet_2()
-d3d863036d688313f8d566b87acd7d99daf82749 rxrpc: Fix local destruction being repeated
-214a9dc7d852216e83acac7b75bc18f01ce184c2 rxrpc: Fix calc of resend age
-7903192c4b4a82d792cb0dc5e2779a2efe60d45b afs: Use the operation issue time instead of the reply time for callbacks
-21457f4a91cb522f1a3ad9741ff1d25fadfaa3c5 rxrpc: Remove rxrpc_get_reply_time() which is no longer used
-7fdc77665f3d45c9da7c6edd4beadee9790f43aa Revert "net: phy: meson-gxl: improve link-up behavior"
-9efd23297cca530bb35e1848665805d3fcdd7889 sch_sfb: Don't assume the skb is still around after enqueueing to child
-e2b224abd9bf45dcb55750479fc35970725a430b tipc: fix shift wrapping bug in map_get()
-3261400639463a853ba2b3be8bd009c2a8089775 tcp: TX zerocopy should not sense pfmemalloc status
-e7506d344bf180096a86ec393515861fb5245915 Merge tag 'rxrpc-fixes-20220901' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-b30f7c8eb0780e1479a9882526e838664271f4c9 spi: mux: Fix mux interaction with fast path optimisations
-9c9c9da7aa108e6bf952c18289527a5234e4fc59 spi: spi: Fix queue hang if previous transfer failed
-7e753eb675f0523207b184558638ee2eed6c9ac2 ice: Fix DMA mappings leak
-59ac325557b6c14f1f793b90d3946bc145ffa085 ice: use bitmap_free instead of devm_kfree
-45bb006d3c924b1201ed43c87a96b437662dcaa8 i40e: Fix ADQ rate limiting for PF
-fb8396aeda5872369a8ed6d2301e2c86e303c520 i40e: Fix kernel crash during module removal
-aa626da947e9cd30c4cf727493903e1adbb2c0a0 iavf: Detach device during reset task
-be318363daa2939453b4d80981de3e9c28b66135 Bluetooth: hci_sync: Fix hci_read_buffer_size_sync
-05a5474efe93054893f1a7936398381e23ecea60 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-7d650df99d528f674cc744719a00a20be1f912f8 net: fec: add pm_qos support on imx6q platform
-b353b241f1eb9b6265358ffbe2632fdcb563354f net: fec: Use a spinlock to guard `fep->ptp_clk_on`
-c55f34b6aec2a8cb47eadaffea773e83bf85de91 xen-netback: only remove 'hotplug-status' when the vif is actually destroyed
-3015c50384743eb14d20c907a400e10225da033b net: dsa: microchip: fix kernel oops on ksz8 switches
-cf5c15d1e966c2e0c93a19e05ec164d83639b1d7 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-d9c0103b9cb0e26272ac4d9a5912ab79e408fa83 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-4a86c5462616e0d690ad3c94dc84c3b5f1ea5631 wifi: mac80211: fix link warning in RX agg timer expiry
-7a2c6d1616be5d49c0dae2c876af3fe20e71a111 wifi: mac80211: mlme: release deflink channel in error case
-69371801f929ff4b3c846a45b9d49db631897cd9 wifi: mac80211: fix locking in auth/assoc timeout
-8c0427842aaef161a38ac83b7e8d8fe050b4be04 wifi: mac80211_hwsim: check length for virtio packets
-2aec909912da55a6e469fd6ee8412080a5433ed2 wifi: use struct_group to copy addresses
-c90714017cb3f197e71c7ff1317335b96d4d19e8 Merge tag 'wireless-2022-09-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-b7f14132bf58256e841774ae07d3ffb7a841c2bc bonding: use unspecified address if no available link local address
-fd16eb948ea8b28afb03e11a5b11841e6ac2aa2b bonding: add all node mcast address when slave up
-592335a4164c3c41f57967223a1e1efe3a0c6eb3 bonding: accept unsolicited NA message
-060ad609fa38e9a62fd5f79d0aaf83f94e6f0e36 Merge branch 'bonding-fixes'
-84a53580c5d2138c7361c7c3eea5b31827e63b35 ipv6: sr: fix out-of-bounds read when setting HMAC data.
-fe2c9c61f668cde28dac2b188028c5299cedcc1e net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()
-1621e70fc79d77dfeef4e4ba90e125405a274db3 stmmac: intel: Simplify intel_eth_pci_remove()
-beb432528c79e9613c85d250295288ef4beb14d7 Merge tag 'for-net-2022-09-02' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-686dc2db2a0fdc1d34b424ec2c0a735becd8d62b tcp: fix early ETIMEDOUT after spurious non-SACK RTO
-42b998d4aa59b9dea51665e4f3be1d733c47e2bf net: dsa: qca8k: fix NULL pointer dereference for of_device_get_match_data
-e1091e226a2bab4ded1fe26efba2aee1aab06450 net: usb: qmi_wwan: add Quectel RM520N
-7a1ec84ffba9e90ac772ddb33ea9c3899ed8d2c9 efi/x86: libstub: remove unused variable
-11afdc6526de0e0368c05da632a8c0d29fc60bb8 net: dsa: felix: tc-taprio intervals smaller than MTU should send at least one packet
-843794bbdef83955ae5b43dfafc355c3786e2145 net: dsa: felix: disable cut-through forwarding for frames oversized for tc-taprio
-a4bb481aeb9d84cb53112a478e6db4705b794c34 net: dsa: felix: access QSYS_TAG_CONFIG under tas_lock in vsc9959_sched_speed_set
-0f51fa2a3ca19783e7817a6be76661cd9136d057 Merge branch 'dsa-felix-fixes'
-0e80707d94e4c88f9879bdafcbaceb13432ec1f4 net: ethernet: mtk_eth_soc: fix typo in __mtk_foe_entry_clear
-9cb252c4c1c53ae58bc565bab76e98133288f23a net: skb: export skb drop reaons to user by TRACE_DEFINE_ENUM
-f27b405ef43319a3ceefc2123245201a63ed4e00 net: ethernet: mtk_eth_soc: check max allowed hash in mtk_ppe_check_skb
-e9b1a4f867ae9c1dbd1d71cd09cbdb3239fb4968 net/smc: Fix possible access to freed memory in link clear
-9cb636b5f6a8cc6d1b50809ec8f8d33ae0c84c95 efi: capsule-loader: Fix use-after-free in efi_capsule_write
-5382033a35227c57a349d74752ad2527780159a9 net: phy: lan87xx: change interrupt src of link_up to comm_ready
-2f09707d0c972120bf794cfe0f0c67e2c2ddb252 sch_sfb: Also store skb len before calling child enqueue
-f280b9872af1f58760b7731e973de57ffccfb0a4 Merge tag 'efi-urgent-for-v6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-2f79cdfe58c13949bbbb65ba5926abfe9561d0ec fs: only do a memory barrier for the first set_buffer_uptodate()
-26b1224903b3fb66e8aa564868d0d57648c32b15 Merge tag 'net-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b1d27aa3b16a4689d5598abc545a88e5cda93f1d Merge tag 'regmap-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-c5e68c4fa55c0d65e28b4b566b50aee6c4185dab Merge tag 'regulator-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-506357871c18e06565840d71c2ef9f818e19f460 Merge tag 'spi-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+d66b5931b2a622822d431c4968e751239c3c9a42 builtin/grep.c: add --sparse option
+16adfc2c7265fba23da676bdcc01f1062f5ce61e builtin/grep.c: integrate with sparse index
+f3f8551d2aab21cd1bfa82208d5c830a5b95b6b1 builtin/grep.c: walking tree instead of expanding index with --sparse
+3fbfbbb7e3c21515a2863702734fe31bf50672fd list_objects_filter_copy(): deep-copy sparse_oid_name field
+3f0e86a158e85de20537e8b2c8531d09802433ba transport: deep-copy object-filter struct for fetch-pack
+dd49699d12a81aa344bb44c882eeddbe799c666f transport: free filter options in disconnect_git()
+7e2619d8ff07ddcf45f8685bbd587ba4997b3a54 list_objects_filter_options: plug leak of filter_spec strings
+66eede4a37c3e17ccadbd99fe0f07a4a133d495d prepare_repo_settings(): plug leak of config values
+da1ab6deef09cd60bbf7ec41ae6e472d783421b0 tests: opt "git --config-env" test out of SANITIZE=leak
+0c0c89b38044e09f036fc9cc58b41d7b0c692c35 Merge branch 'ed/fsmonitor-on-network-disk' (early part) into jch
+84e6c06e825d1a7d25a0a812e49c227c3160f9c4 Merge branch 'sy/mv-out-of-cone' into jch
+2c0ae79075509581cfb760e53154835965ed05c5 Merge branch 'js/add-p-diff-parsing-fix' into jch
+887f39b3a140e4ff1d256d25d3d836344167b792 Merge branch 'jk/tempfile-active-flag-cleanup' into jch
+38fcdcd25569c8222d19909c2bfa348d00665eab Merge branch 'js/range-diff-with-pathspec' into jch
+9d4854d8f0e2d9b96aa867bc511f2bd2b3b86e02 Merge branch 'jc/format-patch-force-in-body-from' into jch
+a5f172268ae2da53e2b4715a82fbb95125d5e8cb Merge branch 'cc/doc-trailer-whitespace-rules' into jch
+6b7b4dd2bffc4ee7deb09d05fa46e2ea744b3bef Merge branch 'ab/retire-ppc-sha1' into jch
+d3c88f3d342f1fb7391ef7ce944678ea95d28898 Merge branch 'ab/submodule-helper-prep' into jch
+dcde536e18f938c6194dd75bd5c1166edcef139c Merge branch 'vd/sparse-reset-checkout-fixes' into jch
+b07d914a703b78fb0413ebf1787e8edf8ef95f82 Merge branch 'rs/diff-no-index-cleanup' into jch
+9f01727b0ad32b8547073ad84040678805488f92 Merge branch 'jk/upload-pack-skip-hash-check' into jch
+f65ce86e938e74e9f31c8b657c207417af000fd0 Merge branch 'jk/rev-list-verify-objects-fix' into jch
+0320de4b416f31122e96718dbe602f146097c4b9 Merge branch 'sg/parse-options-subcommand' into jch
+348cb3e58ab02abda7ef4b142069875aca0b5283 ### match next
+fca11eba9adb0d881364bd15fb34f969f69239e8 Merge branch 'js/builtin-add-p-portability-fix' into jch
+bb0bf20bab68e8d9d642481388f89c0e21f406ea Merge branch 'ow/rev-parse-parseopt-fix' into jch
+9be776aa7fa5facea47f6724572b4a7ee5c4ac6a Merge branch 'ab/unused-annotation' into jch
+8f01b6e578c442a5a5f893c403bc69d0ff4c1494 Merge branch 'ad/t1800-cygwin' into jch
+0263e8b549a8bc7e805e1d32bcd85364b30a0e01 Merge branch 'ab/dedup-config-and-command-docs' into jch
+ed6eeb0e3b2965650a66897d2320115838a6a7bb Merge branch 'es/doc-creation-factor-fix' into jch
+10cf16bbcaed8470d1a7dffce4acacbbcb06ca57 Merge branch 'pw/rebase-keep-base-fixes' into jch
+b5d2f80ac3e0960b94264e81c2b648ae5c670068 Merge branch 'tb/diffstat-with-utf8-strwidth' into jch
+dc97bcf51c399b9f338315c11e5c838f61452d87 Merge branch 'ed/fsmonitor-on-network-disk' into jch
+7b07a0e88bef43e76318686ab949b97c11cb2a88 Merge branch 'es/chainlint' into jch
+70f8e1fa9751327c1d3309bdeb9e4026af85e63c Merge branch 'en/remerge-diff-fixes' into jch
+1db6e2c8f40e5f41a4e62f9a14b33b07ba0d8e05 Merge branch 'ab/submodule-helper-leakfix' into jch
+8a1f287535bc89a518f7e36065ec9b582dc27ec0 Merge branch 'ab/doc-synopsis-and-cmd-usage' into jch
+da611999431f770f40fc6099d3fb8c7201e695fa Merge branch 'jk/plug-list-object-filter-leaks' into jch
+51ff3109d5988311e175f1eafcef41414ab9e7ad Merge branch 'ab/t1300-config-env-is-leaky' into jch
+d1bc8efab878f345025548c5b37beef823b67bf8 Merge branch 'po/glossary-around-traversal' into seen
+c6155c27eb49b2a01dce8d9a7d0aa1e68b6a56d5 Merge branch 'es/mark-gc-cruft-as-experimental' into seen
+55986ac21b791eeaec2a243a03756060da118349 Merge branch 'ag/merge-strategies-in-c' into seen
+db704289251ed4711973d837ae13d4f0b1a9653b Merge branch 'cw/remote-object-info' into seen
+07bc666147f449266073d6dee7c46daa4fa76dd3 Merge branch 'ds/bundle-uri-3' into seen
+cc33d692b2a1f27b1dc3f72f452a9c5ad7b082ac Merge branch 'js/cmake-updates' into seen
+2b6372b30f7ae2cfd3cbd67ef69b2366f9ea8e44 Merge branch 'ds/use-platform-regex-on-macos' into seen
+07a4d7b2013f4098692e8154883f360a746e7ddf Merge branch 'gc/submodule-clone-update-with-branches' into seen
+cb45646e199a6c6eb5f585e99d9eba3c756abc18 Merge branch 'js/bisect-in-c' into seen
+5c75b49a8dd98de8057a47b01f9ac74cc46c4504 Merge branch 'vd/scalar-to-main' into seen
+0b6ca15547140c5f41d8c393225ac85721f44782 Merge branch 'ab/coccicheck-incremental' into seen
+45a9b790e3cf9b2eec7152a53d6bfc8204951649 Merge branch 'sy/sparse-grep' into seen
 
---===============4377370010650363960==--
+--===============7657771600129399875==--
