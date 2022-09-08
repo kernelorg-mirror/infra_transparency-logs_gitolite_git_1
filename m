@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3054279460808078979=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 08 Sep 2022 09:24:52 -0000
-Message-Id: <166262909247.9196.4495593237187922504@gitolite.kernel.org>
-
---===============3054279460808078979==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
+Date: Thu, 08 Sep 2022 09:25:24 -0000
+Message-Id: <166262912430.304.13016573243209958722@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
+user: iwamatsu
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 4359ee31dc0bf59b9254aab8ebc42df8bd5ba6df
-    new: cec4be0a068baa3f2c41493b80635d91caef2790
+  - ref: refs/heads/linux-5.10.y
+    old: bea9067a6659d9ae7b57294839b7e937bf473819
+    new: 347d6a8a0b916ebaf4ec18ff7e36f43456cf5d5a
     log: |
-         cec4be0a068baa3f2c41493b80635d91caef2790 Notes added by 'git notes add'
+         37c7f25fe2b79184f3a7a9f15fdcfbcf8f46913c kbuild: dummy-tools: avoid tmpdir leak in dummy gcc
+         665ee746071bf02ce8b7b9d729c8beab704393c2 Linux 5.10.139
+         347d6a8a0b916ebaf4ec18ff7e36f43456cf5d5a Merge tag 'v5.10.139' into linux-5.10.y
          
-
---===============3054279460808078979==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662629116 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1662629090-c6aebae4175da344eb259c7b6e551ba119b581cb
-
-4359ee31dc0bf59b9254aab8ebc42df8bd5ba6df cec4be0a068baa3f2c41493b80635d91caef2790 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMZtPwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RMsQAMrYlVHltGKXZn6oH4ER
-XP9t8Cuaotzvrl15Mn2hgd9g6z7JIPYO0l58q5/3Y8oDGCKfHx0e/aniSFiG0Sap
-T2u6N5pgejETwNwDN0zAFjYXvg7JbAyNFrieKmY6XzdN1RvTQ5YdtwPlUmetH6j7
-MpD5CFYlMjCnd/1H0uJVIcZgiMc+Nhhs1M0mvY0STWelZVVqSI0QMIj7bZokKeIw
-aphj9+rUZu5wbc2qVLbp8WYyiwCpsGf8+mfHveQb6mYyUw7x9qpQgiH4985eNi6X
-pXO9tARpdbxZpf3Pvumy+ymnN26SlVtTRNjgt85S4TUPpVJFz4BKRJOX2d6aPq4n
-QejSx1nGxV88z+lIkJGZZxUxI/YR1L2Bq5YPcL4K/K3snHkXTH4hiao3k02n5w9R
-JpMtEuHb+9RSNUjezxJ8ArgvKcpCXuB3rmGjKreeNXge0tKNe2LTM5J5ULcsREgs
-lb9pcNr/mEdrogKKSRCKhxZrbXbDFZx3zZa5fEhCgkShe2q7ev3Xjg14WX3z4jST
-r1xUHCJMZYiEgiuw4EW+DH8cGRJmie7mVh/Mauuv8GK8hg0YXIBEUsyRlNrgfb9X
-smlaLZDPPmMj/F9dwOoFbL9mRe25oHmiM3BwpjE3QBixLmtUvyx8M5YAgvfNwSer
-qG+tebr0aS2PRs+c/cHpXeqY
-=sumg
------END PGP SIGNATURE-----
-
---===============3054279460808078979==--
