@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 08 Sep 2022 17:56:06 -0000
-Message-Id: <166265976620.24684.13282899974635665405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 08 Sep 2022 18:16:48 -0000
+Message-Id: <166266100888.5685.4884093927103677652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: ecc87ddcb003c9168238c9f175850302e74176cb
-    new: d2b66394293f3181f7745216d77596360f5cac54
+  - ref: refs/heads/dt/next
+    old: 27244cbda82787c9283ce79f5e7bea8ecaa58dff
+    new: 472d7b9e8141729ec1e3fe6821b88563f6379533
     log: |
-         d2b66394293f3181f7745216d77596360f5cac54 Thu Sep  8 05:55:21 PM UTC 2022
+         d7e8c4101647104cab1372028fa8515bf2ee1865 dt-bindings: rng: omap_rng: Drop requirement for clocks
+         472d7b9e8141729ec1e3fe6821b88563f6379533 dt-bindings: leds: Expand LED_COLOR_ID definitions
+         
+  - ref: refs/heads/for-next
+    old: 27244cbda82787c9283ce79f5e7bea8ecaa58dff
+    new: 472d7b9e8141729ec1e3fe6821b88563f6379533
+    log: |
+         d7e8c4101647104cab1372028fa8515bf2ee1865 dt-bindings: rng: omap_rng: Drop requirement for clocks
+         472d7b9e8141729ec1e3fe6821b88563f6379533 dt-bindings: leds: Expand LED_COLOR_ID definitions
          
