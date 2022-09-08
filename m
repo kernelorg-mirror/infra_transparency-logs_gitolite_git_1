@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 08 Sep 2022 21:54:01 -0000
-Message-Id: <166267404124.29683.3574271274078696266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Thu, 08 Sep 2022 22:12:48 -0000
+Message-Id: <166267516817.11191.16547523122952298239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/for-rc
-    old: 6930bcbfb6ceda63e298c6af6d733ecdf6bd4cde
-    new: 00801cd92d91e94aa04d687f9bb9a9104e7c3d46
+  - ref: refs/heads/libtraceevent
+    old: c5493e713ca88a49c620181559f4c55aa46f01d7
+    new: fd6efc928561a079c869541e3fc758e3753b1f77
     log: |
-         00801cd92d91e94aa04d687f9bb9a9104e7c3d46 NFSD: fix regression with setting ACLs.
+         7839fc2ac1af0a0e341edb5ca8fc223c9043d1a7 libtraceevent: Makefile - set LIBS as conditional assignment
+         5c375b0d061174c597748c058e60670adac67232 libtraceevent: Fixing linking to C++ code
+         fd6efc928561a079c869541e3fc758e3753b1f77 libtraceevent: Documentation: Correct typo in example
          
