@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 08 Sep 2022 16:21:29 -0000
-Message-Id: <166265408961.19831.16465679731345828415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 08 Sep 2022 16:26:31 -0000
+Message-Id: <166265439168.24446.15009477883974189078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: efcb3d1d404101c9943839ec9935111ffe8d0db7
-    new: 6f639e722b54801ef1e87d6cd22b2b262b3a0191
-    log: |
-         6f639e722b54801ef1e87d6cd22b2b262b3a0191 build: Switch to modern autoconf options
-         
+  - ref: refs/tags/net-6.0-rc5
+    old: f7f8ef351d517a34758b5a8f2b342a7d9e87b2ef
+    new: 0000000000000000000000000000000000000000
