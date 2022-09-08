@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8885612502445136290=="
+Content-Type: multipart/mixed; boundary="===============6964013183463368800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 08 Sep 2022 09:58:28 -0000
-Message-Id: <166263110816.12694.3487876120748952331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 08 Sep 2022 09:58:39 -0000
+Message-Id: <166263111900.12833.8375277464226837428@gitolite.kernel.org>
 
---===============8885612502445136290==
+--===============6964013183463368800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 5957ac6635a1a12d4aa2661bbf04d3085a73372a
     new: 47c191411b68a771261be3dc0bd6f68394cef358
     log: revlist-5957ac6635a1-47c191411b68.txt
-  - ref: refs/heads/stable
-    old: d2ec799d1c1be847d6a70704fe586ac4d14265c8
-    new: 0066f1b0e27556381402db3ff31f85d2a2265858
-    log: |
-         25af7406df5915f04d5f1c8f081dabb0ead1cdcc ARM: 9229/1: amba: Fix use-after-free in amba_read_periphid()
-         19f516ea34f943edd5bfe9ca0c0050a7660c230c Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-         0066f1b0e27556381402db3ff31f85d2a2265858 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
-         
-  - ref: refs/tags/next-20220608
-    old: 43d6ab5dc325c7516a8363f54ccc007b09460b4b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220908
     old: 0000000000000000000000000000000000000000
     new: 94c28deb5b0d7d29c7372e4427014cc9dc26c68c
 
---===============8885612502445136290==
+--===============6964013183463368800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,4 +1054,4 @@ ff1ea711261a7600bcafd8a5177785713b568032 Merge branch 'for-next' of git://git.in
 7c2d03b6f83973eb938286bd5affdef7ab68b16f Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 47c191411b68a771261be3dc0bd6f68394cef358 Add linux-next specific files for 20220908
 
---===============8885612502445136290==--
+--===============6964013183463368800==--
