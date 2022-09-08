@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Thu, 08 Sep 2022 19:59:19 -0000
-Message-Id: <166266715987.13450.7945094736795574791@gitolite.kernel.org>
+Date: Thu, 08 Sep 2022 19:59:49 -0000
+Message-Id: <166266718940.13697.958389526602596823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: jernej
 changes:
-  - ref: refs/heads/sunxi/clk-for-6.1
+  - ref: refs/heads/sunxi/for-next
     old: a2398bc8b0fbaeafc26eee935f1300302ad3cf61
     new: 6a6434482fc6184e8fc73092aea755253205ec5b
     log: |
