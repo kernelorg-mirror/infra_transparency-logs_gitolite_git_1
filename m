@@ -1,99 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2789337704448207956=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 08 Sep 2022 15:41:21 -0000
-Message-Id: <166265168199.23994.649365037713711270@gitolite.kernel.org>
-
---===============2789337704448207956==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 08 Sep 2022 15:50:04 -0000
+Message-Id: <166265220446.30140.15905308834737701177@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/arm/defconfig
-    old: 853ca4bb741cbd8c55e0183255fa90ab34f85d15
-    new: 0fd64e61d2e388f61c97016e2a46e9dbe64147e8
+  - ref: refs/heads/for-6.1/block
+    old: 1de7c3cf48fc41cd95adb12bd1ea9033a917798a
+    new: c35227d4e8cbc70a6622cc7cc5f8c3bff513f1fa
     log: |
-         26b6e7edcf2949c9636124697da6119db85e924f arm: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
-         aa7f46b326e7d85fffcec16769ff3152d79c5fac arm64: defconfig: Config that had RPMSG_CHAR now gets RPMSG_CTRL
-         7e21f077b1f1f482ca9a59a00d6c12e7a1fc5d7e arm64: defconfig: enable ARCH_BCM
-         0fd64e61d2e388f61c97016e2a46e9dbe64147e8 arm64: defconfig: enable ARCH_NXP
+         c35227d4e8cbc70a6622cc7cc5f8c3bff513f1fa sbitmap: Use atomic_long_try_cmpxchg in __sbitmap_queue_get_batch
          
-  - ref: refs/heads/arm/drivers
-    old: c9a2577d417cdbabc67dbae39b3aa5136ad1c9ac
-    new: 3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2
+  - ref: refs/heads/for-6.1/io_uring
+    old: 8e966e46c38df6d4f45d2122e321b2d5982fcaf8
+    new: d5e0b61591ea1993c8c79bfa1aedb437016d212c
     log: |
-         9491cff16a4996aee578adf9f41acfb1bc483df9 soc: amlogic: meson-pwrc: Hold reference returned by of_get_parent()
-         3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2 Merge tag 'amlogic-drivers-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/drivers
-         
-  - ref: refs/heads/arm/dt
-    old: 71772aa7dd2b8a96310fa2f0ce1e907592b5cf5a
-    new: 0cb66809b805c68dcbb30284a73cb8e57d7ac7ee
-    log: |
-         59ec069d50550273a83180ea6c950d382d7bf8e3 arm64: dts: meson-axg: add support for JetHub D1p (j110)
-         a80c60359a42cf146872b9442cf847e7c2452a23 dt-bindings: arm: amlogic: add bindings for Jethub D1p (j110)
-         6b2592f087bb7e35fd0a6616bc92d87d9af63aab arm64: dts: meson-g12a: Remove 'enable-active-low'
-         fdfaefa831728110f591764c1dc274fb3739e5c1 arm64: dts: meson-sm1-sei610: Remove 'enable-active-low'
-         70bff3a65d4b974434b7f576f52a269fa4f0dd04 dt-bindings: arm: amlogic: add Beelink GT1 Ultimate binding
-         5b3a87a5c4f20da682d50dbaf8c4aa357cfd0d2d arm64: dts: meson: add support for Beelink GT1 Ultimate
-         0cb66809b805c68dcbb30284a73cb8e57d7ac7ee Merge tag 'amlogic-arm64-dt-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/dt
-         
-  - ref: refs/heads/arm/fixes
-    old: 12f09234bde51810b3f7412b2b5c84af4c07cfb1
-    new: 02181e68275d28cab3c3f755852770367f1bc229
-    log: |
-         2e42b1652df00daf7000011ec9917f2eda534190 firmware: arm_scmi: Fix missing kernel-doc in optee
-         1ecb7d27b1af6705e9a4e94415b4d8cc8cf2fbfb firmware: arm_scmi: Improve checks in the info_get operations
-         76f89c954788763db575fb512a40bd483864f1e9 firmware: arm_scmi: Harden accesses to the sensor domains
-         e9076ffbcaed5da6c182b144ef9f6e24554af268 firmware: arm_scmi: Harden accesses to the reset domains
-         b75c83d9b961fd3abf7310f8d36d5e6e9f573efb firmware: arm_scmi: Fix the asynchronous reset requests
-         dea796fcab0a219830831c070b8dc367d7e0f708 firmware: arm_scmi: Add SCMI PM driver remove routine
-         40d30cf680cb735eed479a2fee127a7bc7fa3d4e firmware: arm_scmi: Harmonize SCMI tracing message format
-         d4f1920d07e8eb0f217f8f65c0bc5b20bb8e3b8c Merge tag 'scmi-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-         02181e68275d28cab3c3f755852770367f1bc229 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+         89030aa91f5f8bab7e35c5a82e0b279975034b2c io_uring: kill an outdated comment
+         794aeb01d83ec5c1cb5bcf4a14de60303f82aea4 io_uring: use io_cq_lock consistently
+         6b505138766270555754093a47fb3400cff167f1 io_uring/net: reshuffle error handling
+         211fd9172521f9631ba9d207410810f40e6990e2 io_uring/net: use async caches for async prep
+         4331248c61de902ac5831f5c0c55a3d93ab2e3ba io_uring/net: io_async_msghdr caches for sendzc
+         6f8a4bc02e2f9d2e66d3d06eb8323dbd344ec417 io_uring/net: add non-bvec sg chunking callback
+         b3f3e9e18b240f0ecde85901ad0c7f19e12870b9 io_uring/net: refactor io_sr_msg types
+         d5e0b61591ea1993c8c79bfa1aedb437016d212c io_uring/net: use io_sr_msg for sendzc
          
   - ref: refs/heads/for-next
-    old: b224d265f8389167d73a0dce150099ec09968b9c
-    new: 476384181508eb914b748f9527735b316219cb3c
-    log: revlist-b224d265f838-476384181508.txt
-
---===============2789337704448207956==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b224d265f838-476384181508.txt
-
-59ec069d50550273a83180ea6c950d382d7bf8e3 arm64: dts: meson-axg: add support for JetHub D1p (j110)
-a80c60359a42cf146872b9442cf847e7c2452a23 dt-bindings: arm: amlogic: add bindings for Jethub D1p (j110)
-2e42b1652df00daf7000011ec9917f2eda534190 firmware: arm_scmi: Fix missing kernel-doc in optee
-1ecb7d27b1af6705e9a4e94415b4d8cc8cf2fbfb firmware: arm_scmi: Improve checks in the info_get operations
-76f89c954788763db575fb512a40bd483864f1e9 firmware: arm_scmi: Harden accesses to the sensor domains
-e9076ffbcaed5da6c182b144ef9f6e24554af268 firmware: arm_scmi: Harden accesses to the reset domains
-b75c83d9b961fd3abf7310f8d36d5e6e9f573efb firmware: arm_scmi: Fix the asynchronous reset requests
-dea796fcab0a219830831c070b8dc367d7e0f708 firmware: arm_scmi: Add SCMI PM driver remove routine
-40d30cf680cb735eed479a2fee127a7bc7fa3d4e firmware: arm_scmi: Harmonize SCMI tracing message format
-6b2592f087bb7e35fd0a6616bc92d87d9af63aab arm64: dts: meson-g12a: Remove 'enable-active-low'
-fdfaefa831728110f591764c1dc274fb3739e5c1 arm64: dts: meson-sm1-sei610: Remove 'enable-active-low'
-9491cff16a4996aee578adf9f41acfb1bc483df9 soc: amlogic: meson-pwrc: Hold reference returned by of_get_parent()
-70bff3a65d4b974434b7f576f52a269fa4f0dd04 dt-bindings: arm: amlogic: add Beelink GT1 Ultimate binding
-5b3a87a5c4f20da682d50dbaf8c4aa357cfd0d2d arm64: dts: meson: add support for Beelink GT1 Ultimate
-26b6e7edcf2949c9636124697da6119db85e924f arm: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
-aa7f46b326e7d85fffcec16769ff3152d79c5fac arm64: defconfig: Config that had RPMSG_CHAR now gets RPMSG_CTRL
-0cb66809b805c68dcbb30284a73cb8e57d7ac7ee Merge tag 'amlogic-arm64-dt-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/dt
-3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2 Merge tag 'amlogic-drivers-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/drivers
-7e21f077b1f1f482ca9a59a00d6c12e7a1fc5d7e arm64: defconfig: enable ARCH_BCM
-0fd64e61d2e388f61c97016e2a46e9dbe64147e8 arm64: defconfig: enable ARCH_NXP
-d4f1920d07e8eb0f217f8f65c0bc5b20bb8e3b8c Merge tag 'scmi-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-02181e68275d28cab3c3f755852770367f1bc229 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
-b1647897a602985c346c83707711dcd1db1bad41 Merge branch 'arm/fixes' into for-next
-eabdbe7fe56ddc177b6143e380378d9a70f17041 Merge branch 'arm/dt' into for-next
-14d87837b2a4b06904d9d555d67e8a75312b10b7 Merge branch 'arm/drivers' into for-next
-b56c0be4a05230ad84a3f1eed4803fe13b0b0843 Merge branch 'arm/defconfig' into for-next
-476384181508eb914b748f9527735b316219cb3c soc: document merges
-
---===============2789337704448207956==--
+    old: 91eba2053c9379d40b3f4785987785b892e94800
+    new: 29f4c4e2b75519e66dac420f74ceab5a03154abf
+    log: |
+         89030aa91f5f8bab7e35c5a82e0b279975034b2c io_uring: kill an outdated comment
+         794aeb01d83ec5c1cb5bcf4a14de60303f82aea4 io_uring: use io_cq_lock consistently
+         6b505138766270555754093a47fb3400cff167f1 io_uring/net: reshuffle error handling
+         211fd9172521f9631ba9d207410810f40e6990e2 io_uring/net: use async caches for async prep
+         4331248c61de902ac5831f5c0c55a3d93ab2e3ba io_uring/net: io_async_msghdr caches for sendzc
+         6f8a4bc02e2f9d2e66d3d06eb8323dbd344ec417 io_uring/net: add non-bvec sg chunking callback
+         b3f3e9e18b240f0ecde85901ad0c7f19e12870b9 io_uring/net: refactor io_sr_msg types
+         d5e0b61591ea1993c8c79bfa1aedb437016d212c io_uring/net: use io_sr_msg for sendzc
+         6228ddc00b643a72184c93608fd66e61ed8a513d Merge branch 'for-6.1/io_uring' into for-next
+         c35227d4e8cbc70a6622cc7cc5f8c3bff513f1fa sbitmap: Use atomic_long_try_cmpxchg in __sbitmap_queue_get_batch
+         29f4c4e2b75519e66dac420f74ceab5a03154abf Merge branch 'for-6.1/block' into for-next
+         
