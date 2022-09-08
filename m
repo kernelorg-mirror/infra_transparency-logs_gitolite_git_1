@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 08 Sep 2022 21:37:21 -0000
-Message-Id: <166267304111.19126.6342828304630705824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 08 Sep 2022 21:49:20 -0000
+Message-Id: <166267376013.26329.4317485763822364993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 4c8a6ba5ec7fb82e77710c69f14f774aa4c348a9
-    new: 9d8fd3c28bbf9517eb93c71ebadefcc5d0d6ca73
+  - ref: refs/heads/for-next
+    old: 82c75dca6f95c9ac4649031a493456156ddfec2f
+    new: 096b52fd2bb4996fd68d22b3b7ad21a1296db9d3
     log: |
-         0940cba00348632dc358b201a7f3b4a860951d41 monitor: Add ADV Monitor events to btmon parser
-         9d8fd3c28bbf9517eb93c71ebadefcc5d0d6ca73 monitor: Add mesh MGMT cmds/events to btmon parser
+         1537bf26e212ffcf007d0590958025f6bfdd4ac8 perf: RISC-V: exclude invalid pmu counters from SBI calls
+         096b52fd2bb4996fd68d22b3b7ad21a1296db9d3 perf: RISC-V: throttle perf events
          
