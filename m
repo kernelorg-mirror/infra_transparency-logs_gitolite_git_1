@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0555635735668754366=="
+Content-Type: multipart/mixed; boundary="===============4191235170375698510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 08 Sep 2022 11:19:00 -0000
-Message-Id: <166263594015.28433.5670227708857320686@gitolite.kernel.org>
+Date: Thu, 08 Sep 2022 11:19:30 -0000
+Message-Id: <166263597022.28711.15295849365020318536@gitolite.kernel.org>
 
---===============0555635735668754366==
+--===============4191235170375698510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 48658213202c4f48ef34b43b9b6f60af8b67fb8a
-    new: e699bb9765cd447ab477e9e888ddbab347dcf35a
-    log: revlist-48658213202c-e699bb9765cd.txt
+  - ref: refs/heads/for-next
+    old: eb7f9ca137e31015432b0a6a92ee4762b5fe7527
+    new: 002e36fc62e90c9ea9005c389c254df39403e542
+    log: revlist-eb7f9ca137e3-002e36fc62e9.txt
 
---===============0555635735668754366==
+--===============4191235170375698510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48658213202c-e699bb9765cd.txt
+Content-Disposition: attachment; filename=revlist-eb7f9ca137e3-002e36fc62e9.txt
 
 e75c8ea0d73bebdbff3ceb51f55fd735cb232d86 scsi: mpt3sas: Prevent error handler escalation when device removed
 9df650963bf6d6c2c3fcd325d8c44ca2b99554fe scsi: mpt3sas: Don't change DMA mask while reallocating pools
@@ -45,5 +45,8 @@ de05e4843cce5f4b385f60acfa690eb94af923b8 scsi: lpfc: Remove unneeded result vari
 5afdd990ce2ea178eb6cbd31b197cc3d12a675bf scsi: hpsa: Use the bitmap API to allocate bitmaps
 e95b305addc976f1b163d1f5af063402d530a361 scsi: hpsa: Simplify {clear|set}_bit() parameters
 e699bb9765cd447ab477e9e888ddbab347dcf35a scsi: target: pscsi: Remove repeated word "calling"
+991df3dd5144f2e6b1c38b8d20ed3d4d21e20b34 scsi: mpt3sas: Fix use-after-free warning
+eb4130632e2e51d8b0c320e0f053876ccbbed7e9 Merge branch 'misc' into for-next
+002e36fc62e90c9ea9005c389c254df39403e542 Merge branch 'fixes' into for-next
 
---===============0555635735668754366==--
+--===============4191235170375698510==--
