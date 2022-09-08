@@ -1,49 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============7110150174389533807=="
+Content-Type: multipart/mixed; boundary="===============2789337704448207956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 08 Sep 2022 15:33:40 -0000
-Message-Id: <166265122093.18303.13064479019345569192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 08 Sep 2022 15:41:21 -0000
+Message-Id: <166265168199.23994.649365037713711270@gitolite.kernel.org>
 
---===============7110150174389533807==
+--===============2789337704448207956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 53fc01a0a8cbf0b9945355a2e632ca00570a4465
-    new: 75554fe00f941c3c3d9344e88708093a14d2b4b8
-    log: revlist-53fc01a0a8cb-75554fe00f94.txt
+  - ref: refs/heads/arm/defconfig
+    old: 853ca4bb741cbd8c55e0183255fa90ab34f85d15
+    new: 0fd64e61d2e388f61c97016e2a46e9dbe64147e8
+    log: |
+         26b6e7edcf2949c9636124697da6119db85e924f arm: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
+         aa7f46b326e7d85fffcec16769ff3152d79c5fac arm64: defconfig: Config that had RPMSG_CHAR now gets RPMSG_CTRL
+         7e21f077b1f1f482ca9a59a00d6c12e7a1fc5d7e arm64: defconfig: enable ARCH_BCM
+         0fd64e61d2e388f61c97016e2a46e9dbe64147e8 arm64: defconfig: enable ARCH_NXP
+         
+  - ref: refs/heads/arm/drivers
+    old: c9a2577d417cdbabc67dbae39b3aa5136ad1c9ac
+    new: 3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2
+    log: |
+         9491cff16a4996aee578adf9f41acfb1bc483df9 soc: amlogic: meson-pwrc: Hold reference returned by of_get_parent()
+         3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2 Merge tag 'amlogic-drivers-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/drivers
+         
+  - ref: refs/heads/arm/dt
+    old: 71772aa7dd2b8a96310fa2f0ce1e907592b5cf5a
+    new: 0cb66809b805c68dcbb30284a73cb8e57d7ac7ee
+    log: |
+         59ec069d50550273a83180ea6c950d382d7bf8e3 arm64: dts: meson-axg: add support for JetHub D1p (j110)
+         a80c60359a42cf146872b9442cf847e7c2452a23 dt-bindings: arm: amlogic: add bindings for Jethub D1p (j110)
+         6b2592f087bb7e35fd0a6616bc92d87d9af63aab arm64: dts: meson-g12a: Remove 'enable-active-low'
+         fdfaefa831728110f591764c1dc274fb3739e5c1 arm64: dts: meson-sm1-sei610: Remove 'enable-active-low'
+         70bff3a65d4b974434b7f576f52a269fa4f0dd04 dt-bindings: arm: amlogic: add Beelink GT1 Ultimate binding
+         5b3a87a5c4f20da682d50dbaf8c4aa357cfd0d2d arm64: dts: meson: add support for Beelink GT1 Ultimate
+         0cb66809b805c68dcbb30284a73cb8e57d7ac7ee Merge tag 'amlogic-arm64-dt-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/dt
+         
+  - ref: refs/heads/arm/fixes
+    old: 12f09234bde51810b3f7412b2b5c84af4c07cfb1
+    new: 02181e68275d28cab3c3f755852770367f1bc229
+    log: |
+         2e42b1652df00daf7000011ec9917f2eda534190 firmware: arm_scmi: Fix missing kernel-doc in optee
+         1ecb7d27b1af6705e9a4e94415b4d8cc8cf2fbfb firmware: arm_scmi: Improve checks in the info_get operations
+         76f89c954788763db575fb512a40bd483864f1e9 firmware: arm_scmi: Harden accesses to the sensor domains
+         e9076ffbcaed5da6c182b144ef9f6e24554af268 firmware: arm_scmi: Harden accesses to the reset domains
+         b75c83d9b961fd3abf7310f8d36d5e6e9f573efb firmware: arm_scmi: Fix the asynchronous reset requests
+         dea796fcab0a219830831c070b8dc367d7e0f708 firmware: arm_scmi: Add SCMI PM driver remove routine
+         40d30cf680cb735eed479a2fee127a7bc7fa3d4e firmware: arm_scmi: Harmonize SCMI tracing message format
+         d4f1920d07e8eb0f217f8f65c0bc5b20bb8e3b8c Merge tag 'scmi-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+         02181e68275d28cab3c3f755852770367f1bc229 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+         
+  - ref: refs/heads/for-next
+    old: b224d265f8389167d73a0dce150099ec09968b9c
+    new: 476384181508eb914b748f9527735b316219cb3c
+    log: revlist-b224d265f838-476384181508.txt
 
---===============7110150174389533807==
+--===============2789337704448207956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53fc01a0a8cb-75554fe00f94.txt
+Content-Disposition: attachment; filename=revlist-b224d265f838-476384181508.txt
 
-6617be3c154c7e9b2c1eefee9ab49d30e1b8eb1a i40e: Add basic support for I710 devices
-50067bd0fc9835dba3e08726460daaf3bcfe39d4 i40e: add description and modify interrupts configuration procedure
-ce4626131112e1d0066a890371e14d8091323f99 ice: Allow operation with reduced device MSI-X
-0b57e0d44299113a59697fc66714d5b3f14615b7 ice: Check if reset in progress while waiting for offsets
-1bd50f2deb19c13834f9f6b2f3c3263e38a47e1a ice: add helper function to check FW API version
-1b9e740dd733d1db4e790e94a4e5021ad17d92f7 ice: switch: Simplify memory allocation
-04cbaa6c08e3974760c7ac5a70256d736444f6f0 ice: Simplify memory allocation in ice_sched_init_port()
-11c12adcbc1598d91e73ab6ddfa41d25a01478ed iavf: Fix race between iavf_close and iavf_reset_task
-29796143f70eca1cf9e87f3a023bf79790c2f31a Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-2018b22a759e26a4c7e3ac6c60c283cfbd2c9c93 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-0ba22bcb222d2761feccb46d0ee4eb9db1f53a7d net: hns3: add support config dscp map to tc
-f6e32724ca135239f404f2ed3cd2170dc4bd9b29 net: hns3: support ndo_select_queue()
-fddc02eb583ada2b2d8f35ef41630da5959e8d4b net: hns3: debugfs add dump dscp map info
-2cb343b9d3e59db0836045ff1dd67dfd15066697 net: hns3: add querying fec statistics
-0f032f93c4ee9ff667b493db7b21c94cff31edc6 net: hns3: add support to query and set lane number by ethtool
-418b0866ccdc302e8b46e7d3f6a788e8fe77a660 Merge branch 'hns3-new-features'
-929d43421ee526c5a3c4d6f7e2bb1b98b2cb1b1f net: stmmac: Disable automatic FCS/Pad stripping
-e66d6586843e7f34e25db0c20599a8ef3d816218 r8169: merge support for chip versions 10, 13, 16
-75554fe00f941c3c3d9344e88708093a14d2b4b8 net: sparx5: fix function return type to match actual type
+59ec069d50550273a83180ea6c950d382d7bf8e3 arm64: dts: meson-axg: add support for JetHub D1p (j110)
+a80c60359a42cf146872b9442cf847e7c2452a23 dt-bindings: arm: amlogic: add bindings for Jethub D1p (j110)
+2e42b1652df00daf7000011ec9917f2eda534190 firmware: arm_scmi: Fix missing kernel-doc in optee
+1ecb7d27b1af6705e9a4e94415b4d8cc8cf2fbfb firmware: arm_scmi: Improve checks in the info_get operations
+76f89c954788763db575fb512a40bd483864f1e9 firmware: arm_scmi: Harden accesses to the sensor domains
+e9076ffbcaed5da6c182b144ef9f6e24554af268 firmware: arm_scmi: Harden accesses to the reset domains
+b75c83d9b961fd3abf7310f8d36d5e6e9f573efb firmware: arm_scmi: Fix the asynchronous reset requests
+dea796fcab0a219830831c070b8dc367d7e0f708 firmware: arm_scmi: Add SCMI PM driver remove routine
+40d30cf680cb735eed479a2fee127a7bc7fa3d4e firmware: arm_scmi: Harmonize SCMI tracing message format
+6b2592f087bb7e35fd0a6616bc92d87d9af63aab arm64: dts: meson-g12a: Remove 'enable-active-low'
+fdfaefa831728110f591764c1dc274fb3739e5c1 arm64: dts: meson-sm1-sei610: Remove 'enable-active-low'
+9491cff16a4996aee578adf9f41acfb1bc483df9 soc: amlogic: meson-pwrc: Hold reference returned by of_get_parent()
+70bff3a65d4b974434b7f576f52a269fa4f0dd04 dt-bindings: arm: amlogic: add Beelink GT1 Ultimate binding
+5b3a87a5c4f20da682d50dbaf8c4aa357cfd0d2d arm64: dts: meson: add support for Beelink GT1 Ultimate
+26b6e7edcf2949c9636124697da6119db85e924f arm: configs: Configs that had RPMSG_CHAR now get RPMSG_CTRL
+aa7f46b326e7d85fffcec16769ff3152d79c5fac arm64: defconfig: Config that had RPMSG_CHAR now gets RPMSG_CTRL
+0cb66809b805c68dcbb30284a73cb8e57d7ac7ee Merge tag 'amlogic-arm64-dt-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/dt
+3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2 Merge tag 'amlogic-drivers-for-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/drivers
+7e21f077b1f1f482ca9a59a00d6c12e7a1fc5d7e arm64: defconfig: enable ARCH_BCM
+0fd64e61d2e388f61c97016e2a46e9dbe64147e8 arm64: defconfig: enable ARCH_NXP
+d4f1920d07e8eb0f217f8f65c0bc5b20bb8e3b8c Merge tag 'scmi-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+02181e68275d28cab3c3f755852770367f1bc229 ARM: dts: fix Moxa SDIO 'compatible', remove 'sdhci' misnomer
+b1647897a602985c346c83707711dcd1db1bad41 Merge branch 'arm/fixes' into for-next
+eabdbe7fe56ddc177b6143e380378d9a70f17041 Merge branch 'arm/dt' into for-next
+14d87837b2a4b06904d9d555d67e8a75312b10b7 Merge branch 'arm/drivers' into for-next
+b56c0be4a05230ad84a3f1eed4803fe13b0b0843 Merge branch 'arm/defconfig' into for-next
+476384181508eb914b748f9527735b316219cb3c soc: document merges
 
---===============7110150174389533807==--
+--===============2789337704448207956==--
