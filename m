@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 08 Sep 2022 15:50:47 -0000
-Message-Id: <166265224756.30702.17702429657966958647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 08 Sep 2022 15:51:45 -0000
+Message-Id: <166265230544.31124.40814770296342559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/network/ofono/ofono
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: 0ba8c4b3b17d7908c50cf205bed6a8b2951e15ed
-    new: 80a3328f1f76f8d57cd7b9aadfde2bb36dd0d5ef
+  - ref: refs/heads/master
+    old: d39ac3a94c522b1f1a83d553c833a9ebfd1fd765
+    new: 4416e02dd3c360b73616bc1cf73461763599125f
     log: |
-         08865c2150392f67769a9d6e0b02800be226a990 regulator: dt-bindings: qcom,rpmh: Indicate regulator-allow-set-load dependencies
-         80a3328f1f76f8d57cd7b9aadfde2bb36dd0d5ef Merge remote-tracking branch 'regulator/for-6.1' into regulator-next
+         4416e02dd3c360b73616bc1cf73461763599125f configure: Update to support Autoconf >= 2.69
          
