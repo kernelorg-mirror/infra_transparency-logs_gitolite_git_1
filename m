@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4146521819201376193=="
+Content-Type: multipart/mixed; boundary="===============1837390320855310008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 08 Sep 2022 13:54:21 -0000
-Message-Id: <166264526133.10622.361355121016451082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 08 Sep 2022 13:54:28 -0000
+Message-Id: <166264526824.10754.8472786551695221169@gitolite.kernel.org>
 
---===============4146521819201376193==
+--===============1837390320855310008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 26b1224903b3fb66e8aa564868d0d57648c32b15
     log: revlist-7e18e42e4b28-26b1224903b3.txt
 
---===============4146521819201376193==
+--===============1837390320855310008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -153,4 +153,4 @@ f280b9872af1f58760b7731e973de57ffccfb0a4 Merge tag 'efi-urgent-for-v6.0-1' of gi
 2f79cdfe58c13949bbbb65ba5926abfe9561d0ec fs: only do a memory barrier for the first set_buffer_uptodate()
 26b1224903b3fb66e8aa564868d0d57648c32b15 Merge tag 'net-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4146521819201376193==--
+--===============1837390320855310008==--
