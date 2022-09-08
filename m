@@ -1,260 +1,197 @@
-Content-Type: multipart/mixed; boundary="===============8032552440076924535=="
+Content-Type: multipart/mixed; boundary="===============2387831946826704086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 08 Sep 2022 17:12:22 -0000
-Message-Id: <166265714233.25103.15929898767512809651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 08 Sep 2022 17:14:15 -0000
+Message-Id: <166265725548.25952.8952541355661867649@gitolite.kernel.org>
 
---===============8032552440076924535==
+--===============2387831946826704086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 04a3285fd0be0bb12a483fb96bce9181477453b6
-    new: cb1f43cafe17a3099dc150ad89899eb6a06e9c68
-    log: revlist-04a3285fd0be-cb1f43cafe17.txt
-  - ref: refs/heads/queue/4.19
-    old: 83b41dfc61d3f42440b6324f6847b3c3a1a3b81b
-    new: 925196154f51c36ccbaadd96674e1686d3feac4a
-    log: revlist-83b41dfc61d3-925196154f51.txt
-  - ref: refs/heads/queue/4.9
-    old: e557357e0fbb14079fceca57d75ad5d84980e47f
-    new: 0be915fd69ac04259206a9da93b0d0657d7eea64
-    log: revlist-e557357e0fbb-0be915fd69ac.txt
-  - ref: refs/heads/queue/5.10
-    old: 1af9d4c38e46919f16dc3f0c39d22a770515a0ba
-    new: 22c24015362f03a4101452c7060ac8630aa3b889
-    log: |
-         cd804978ef22240e1cd2b3e6df6a2c75bb8cdc60 NFSD: Fix verifier returned in stable WRITEs
-         8e782f6a43d5ea25953248203d85ebcd54c1392f xen-blkfront: Cache feature_persistent value before advertisement
-         119694ffcc7f2961a8d1ebb324520046a719df4d tty: n_gsm: initialize more members at gsm_alloc_mux()
-         22c24015362f03a4101452c7060ac8630aa3b889 tty: n_gsm: avoid call of sleeping functions from atomic context
-         
-  - ref: refs/heads/queue/5.15
-    old: baa1d95e275ee8c9e456a850892a4fb7cda8604e
-    new: c60b4f1016861368616107a32bfb6fa726fcaea1
-    log: |
-         c60b4f1016861368616107a32bfb6fa726fcaea1 net: wwan: iosm: remove pointless null check
-         
-  - ref: refs/heads/queue/5.18
-    old: 63b36daf0ce2ad2f6c8fea4ac923c4395ab7966a
-    new: 657e7c26bbf45d781ba6e5ae87310d73c135ef15
-    log: |
-         657e7c26bbf45d781ba6e5ae87310d73c135ef15 serial: fsl_lpuart: RS485 RTS polariy is inverse
-         
-  - ref: refs/heads/queue/5.4
-    old: c681ff9f0e9d67274049337e728c40d0ec7e3d8f
-    new: 7fe03d4d756eb9a721e62cb97e67db38fd958d69
-    log: revlist-c681ff9f0e9d-7fe03d4d756e.txt
+  - ref: refs/heads/100GbE
+    old: 04cbaa6c08e3974760c7ac5a70256d736444f6f0
+    new: f5efed95c9516efb5f70059d5a01c539945d6427
+    log: revlist-04cbaa6c08e3-f5efed95c951.txt
 
---===============8032552440076924535==
+--===============2387831946826704086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04a3285fd0be-cb1f43cafe17.txt
+Content-Disposition: attachment; filename=revlist-04cbaa6c08e3-f5efed95c951.txt
 
-2e57fe4550836015b50167928910d467f7f68a01 bpf: Verifer, adjust_scalar_min_max_vals to always call update_reg_bounds()
-03cd92ec1d3652575a647a4388509d80d66f912b selftests/bpf: Fix test_align verifier log patterns
-b581951b53bc62d6ae00ede5b9fcd1595198c3d7 bpf: Fix the off-by-two error in range markings
-36c6cd57c08119b8d89569de9d04df76c11e6a63 drm/msm/dsi: Fix number of regulators for msm8996_dsi_cfg
-a2c36ca61ac0fde8c1b97200e58f0a788c67b850 platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
-9fd5d30595d5881574e06a6f1af291ec65d501e8 wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
-8d9389a1834d426e3757990c488f60b52ee8c20d ethernet: rocker: fix sleep in atomic context bug in neigh_timer_handler
-962d20ecb60521433b7ee8c934cd4f7380910fba kcm: fix strp_init() order and cleanup
-3c2625c956a1bd2a412a9796acac8be5c62a216a serial: fsl_lpuart: RS485 RTS polariy is inverse
-859214b88a9373b23e70378de26b7dc6155d9e15 staging: rtl8712: fix use after free bugs
-fa519d86a291325c9454525d1846576971d0f5f0 vt: Clear selection before changing the font
-0e429dd118877e88c02c69e0f3e8d04afc0ada7f USB: serial: ftdi_sio: add Omron CS1W-CIF31 device id
-395bbbd0594866ac56c1ef3f51cedc259043c784 binder: fix UAF of ref->proc caused by race condition
-d1d77d152312ae1f5d5339224db62178ccb5d5ba drm/i915/reg: Fix spelling mistake "Unsupport" -> "Unsupported"
-8fa5f47accbc95888d1e9606355dc5fadfca6535 Input: rk805-pwrkey - fix module autoloading
-c9a1bc2839ab95906a05625c62e66fe8acbd555b hwmon: (gpio-fan) Fix array out of bounds access
-951be98947fc1348379e7a9d79cca87cd6babf4f thunderbolt: Use the actual buffer in tb_async_error()
-ce36177a6e9e5c8ccbe12add09cc87b7b5c06083 xhci: Add grace period after xHC start to prevent premature runtime suspend.
-48dff308c3813f33e4ccefabb672c9deb1d528f0 USB: serial: cp210x: add Decagon UCA device id
-ae1cf6b92dda234c838f483be2e45c26b79cf8d1 USB: serial: option: add support for OPPO R11 diag port
-9b495a3027eed8349ba6beadf19d804518492347 USB: serial: option: add Quectel EM060K modem
-5301da30143f5773b243b1bd3d6b156cecd3a2b9 USB: serial: option: add support for Cinterion MV32-WA/WB RmNet mode
-5ac64856346337d41fd9d3ce336259f06bae5662 usb: dwc2: fix wrong order of phy_power_on and phy_init
-a713e51b2104f861dde95cd22fd16549b7cd20a7 USB: cdc-acm: Add Icom PMR F3400 support (0c26:0020)
-47b3a5c66222ac3f0389ebbd7b80df2858f2bd55 usb-storage: Add ignore-residue quirk for NXP PN7462AU
-b8d0bb2a8d9e2cce904828a21e173cc89b0ec120 s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
-713502058d9406d39c9b011780ff2bc2bba4d0f4 s390: fix nospec table alignments
-7aedf6de4e270d7c66f95cb4e172af8d180aefc4 USB: core: Prevent nested device-reset calls
-5dae159502003e82d47772ddd0bb1e4ce1b4e61a usb: gadget: mass_storage: Fix cdrom data transfers on MAC-OS
-152bd2aa3200f2af129f1c6e529b6be4eca7392c wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
-dfc84fb01d7c3f2bcee03422c47b25f4ea625c17 net: mac802154: Fix a condition in the receive path
-362d5045e3f66a8600b41c1ebe1bf9cb1c7ce69c ALSA: seq: oss: Fix data-race for max_midi_devs access
-a761582b02c14a52088a6b3fc8c15f34c207f0f7 ALSA: seq: Fix data-race at module auto-loading
-ed852810c1d8a1583d746ff0bd5d80bda8a52ca7 efi: capsule-loader: Fix use-after-free in efi_capsule_write
-cab6f26cccf296215c76efac327cce2fc3d02577 wifi: iwlegacy: 4965: corrected fix for potential off-by-one overflow in il4965_rs_fill_link_cmd()
-e4c3d41215a216e6334b80d5830455f9748cc358 fs: only do a memory barrier for the first set_buffer_uptodate()
-cb1f43cafe17a3099dc150ad89899eb6a06e9c68 Revert "mm: kmemleak: take a full lowmem check in kmemleak_*_phys()"
+4d748f9916076399f01c259d30fe1b88abe8f622 net: Add sk_setsockopt() to take the sk ptr instead of the sock ptr
+24426654ed3ae83d1127511891fb782c54f49203 bpf: net: Avoid sk_setsockopt() taking sk lock when called from bpf
+e42c7beee71d0d84a6193357e3525d0cf2a3e168 bpf: net: Consider has_current_bpf_ctx() when testing capable() in sk_setsockopt()
+cb388e7ee3a824250a66b854adae9f03b70956f1 bpf: net: Change do_tcp_setsockopt() to use the sockopt's lock_sock() and capable()
+1df055d3c7d91878fe7eaa61c1c228c03d4a92b7 bpf: net: Change do_ip_setsockopt() to use the sockopt's lock_sock() and capable()
+40cd308ea57cf68ad67f912b98fca570d107cca0 bpf: net: Change do_ipv6_setsockopt() to use the sockopt's lock_sock() and capable()
+2b5a2ecbfdc507af3f2f032bfe7366fba4dabff0 bpf: Initialize the bpf_run_ctx in bpf_iter_run_prog()
+ebf9e8e653667e834372e9435217a7bf33bec7a0 bpf: Embed kernel CONFIG check into the if statement in bpf_setsockopt
+29003875bd5bab262a29d1c6e76a2124bd07e4c2 bpf: Change bpf_setsockopt(SOL_SOCKET) to reuse sk_setsockopt()
+57db31a1a3adf2a4bd42528c4ac41fb50d6be59a bpf: Refactor bpf specific tcp optnames to a new function
+0c751f7071ef98d334ed06ca3f8f4cc1f7458cf5 bpf: Change bpf_setsockopt(SOL_TCP) to reuse do_tcp_setsockopt()
+ee7f1e1302f5cb29168f70827c12855f1d8c9845 bpf: Change bpf_setsockopt(SOL_IP) to reuse do_ip_setsockopt()
+75b64b68ee3f9fe90ad8f21e5c5c92de58abf725 bpf: Change bpf_setsockopt(SOL_IPV6) to reuse do_ipv6_setsockopt()
+7e41df5dbba23a78c3fd30033a6123a06e1168e7 bpf: Add a few optnames to bpf_setsockopt
+31123c0360e01ee0389aee3a7b2ad32f13136662 selftests/bpf: bpf_setsockopt tests
+75179e2b7f9a9b6dbca735a5ca7420a7e983c7e2 Merge branch 'bpf: net: Remove duplicated code from bpf_setsockopt()'
+e918cd231ee6f1dc969e71718ed11c71e98f5c4c selftests/bpf: Fix spelling mistake.
+b979f005d9b1ebdba565e85f5228dda6fe7a30e4 selftest/bpf: Add setget_sockopt to DENYLIST.s390x
+0ba985024ae7db226776725d9aa436b5c1c9fca2 flow_dissector: Make 'bpf_flow_dissect' return the bpf program retcode
+91350fe152930c0d61a362af68272526490efea5 bpf, flow_dissector: Introduce BPF_FLOW_DISSECTOR_CONTINUE retcode for bpf progs
+5deedfbee84278da3b76fb7176dc3742f56eb370 bpf, test_run: Propagate bpf_flow_dissect's retval to user's bpf_attr.test.retval
+d6513727c2af39a8cffb0d9b07376e51a85f347f bpf, selftests: Test BPF_FLOW_DISSECTOR_CONTINUE
+fd0a38f9c37d539f5603f887cdb637a4e6e6944d scripts/bpf: Set version attribute for bpf-helpers(7) man page
+92ec1cc3784a2a8a7a62596dcec4f2224b85dcf4 scripts/bpf: Set date attribute for bpf-helpers(7) man page
+dea6a4e17013382b20717664ebf3d7cc405e0952 bpf: Introduce cgroup_{common,current}_func_proto
+bed89185af0de0d417e29ca1798df50f161b0231 bpf: Use cgroup_{common,current}_func_proto in more hooks
+8a67f2de9b1dc3cf8b75b4bf589efb1f08e3e9b8 bpf: expose bpf_strtol and bpf_strtoul to all program types
+2172fb8007eaafbef18563afb6c1ae5a976bf787 bpf: update bpf_{g,s}et_retval documentation
+e7215f574079ffb138258e8ebfa3f2bf5a4a1238 selftests/bpf: Make sure bpf_{g,s}et_retval is exposed everywhere
+f52c8947347d43546581ab1bf8fa19867b664a8c Merge branch 'bpf: expose bpf_{g,s}et_retval to more cgroup hooks'
+5679ff2f138f77b281c468959dc5022cc524d400 bpf: Move bpf_loop and bpf_for_each_map_elem under CAP_BPF
+9d9d00ac29d0ef7ce426964de46fa6b380357d0a bpf: Fix reference state management for synchronous callbacks
+35f14dbd2fc6619dea8ac9eea18976378b18450b selftests/bpf: Add tests for reference state fixes for callbacks
+096830808cf477f0f3f5f5ed8fd37a07dbea5c83 Merge branch 'Fix reference state management for synchronous callbacks'
+b03914f7ff7bc5aca056aaa49fd3ff9120d24f47 selftests/bpf: Add cb_refs test to s390x deny list
+7e165d1939284d0bf16a83c591c3c5d24a110d0a selftests/bpf: Fix wrong size passed to bpf_setsockopt()
+d4ccaf58a8472123ac97e6db03932c375b5c45ba bpf: Introduce cgroup iter
+fe0dd9d4b7402c9773fc7a453fa65875abaa24ec selftests/bpf: Test cgroup_iter.
+a319185be9f5ad13c2a296d448ac52ffe45d194c cgroup: bpf: enable bpf programs to integrate with rstat
+434992bb603773c94465c7e68331e68424bdc9eb selftests/bpf: extend cgroup helpers
+88886309d2e82afcaa86fc302c2ba25d9e47cbc8 selftests/bpf: add a selftest for cgroup hierarchical stats collection
+eef3c3d3373641b01c65af630d5e003cbabe6abe Merge branch 'bpf: rstat: cgroup hierarchical'
+7184aef9c0f7a81db8fd18d183ee42481d89bf35 bpftool: Fix a wrong type cast in btf_dumper_int
+0a0d55ef3e61d9f14e803cacb644fcc890f16774 bpf/scripts: Assert helper enum value is aligned with comment order
+d4ffb6f39f1a1b260966b43a4ffdb64779c650dd bpf: Add CGROUP prefix to cgroup_iter_order
+b88df6979682333815536a0bf43bd56f9499f071 bpf: prepare for more bpf syscall to be used from kernel and user space.
+343949e10798a52c6d6a14effc962e010ed471ae libbpf: add map_get_fd_by_id and map_delete_elem in light skeleton
+ab9ac19c4d0615fee40ec7d49fa16c9fd33f61f8 selftests/bpf: fix type conflict in test_tc_dtime
+b05d64efbb21ad231516b44317af34d2b586cfc4 selftests/bpf: Declare subprog_noise as static in tailcall_bpf2bpf4
+aa75622c3be4d5819ce69c714acbcbd67bba5d65 bpf: Fix a few typos in BPF helpers documentation
+bbcf0f55e57841e532ab395596db9197e8d53e8d bpf, mips: No need to use min() to get MAX_TAIL_CALL_CNT
+3721359d3907c313833a2fd6e40c36a30179ea89 selftests/bpf: Fix bind{4,6} tcp/socket header type conflict
+2eb680401df62c035ff50a7faf1296565b030df7 selftests/bpf: Fix connect4_prog tcp/socket header type conflict
+6f95de6d713130c953af0a40b13c1da519f91c4e bpftool: Add support for querying cgroup_iter link
+14e5ce79943a72b9bf0fff8a5867320a9fa3e40d libbpf: Add GCC support for bpf_tail_call_static
+84e5a0f208ca341ec1ea88a97c40849a2d541faa bpf, net: Avoid loading module when calling bpf_setsockopt(TCP_CONGESTION)
+197072945a708d62181895409effdfcda80c7798 selftest/bpf: Ensure no module loading in bpf_setsockopt(TCP_CONGESTION)
+2775da21628738ce073a3a6a806adcbaada0f091 bpf: Disable preemption when increasing per-cpu map_locked
+66a7a92e4d0d091e79148a4c6ec15d1da65f4280 bpf: Propagate error from htab_lock_bucket() to userspace
+1c636b6277a2b2bf504df490b8dbadd2bd34ccd4 selftests/bpf: Add test cases for htab update
+c9ae8c966f05c85c5928c8f1790b13b71cc5ccd5 Merge branch 'fixes for concurrent htab updates'
+197827a05e13808c60f52632e9887eede63f1c16 bpf: Use this_cpu_{inc|dec|inc_return} for bpf_task_storage_busy
+c89e843a11f1075d27684f6b42256213e4592383 bpf: Use this_cpu_{inc_return|dec} for prog->active
+c710136e87747f1cc8e24948b3046ee57a1fe2eb selftests/bpf: Move sys_pidfd_open() into task_local_storage_helpers.h
+73b97bc78b32eb739a7dd3394fa3981e8021c0ef selftests/bpf: Test concurrent updates on bpf_task_storage_busy
+23d86c8e02e55e511cd37e7ef2280a0030750954 Merge branch 'Use this_cpu_xxx for preemption-safety'
+ccf365eac0c7705591dee0158ae5c198d9e8f858 bpf: Remove useless else if
+ef331a8d4c0061ea4d353cd0db1c9b33fd45f0f2 bpf: Only add BTF IDs for socket security hooks when CONFIG_SECURITY_NETWORK is on
+dc84dbbcc97bfb47e0f2b175d816e601b2890c91 bpf, tnums: Warn against the usage of tnum_in(tnum_range(), ...)
+44c51472bef83bb70b43e2f4b7a592096f32a855 bpf: Support getting tunnel flags
+8cc61b7a6416541261d56bcdd93a711407f711ba selftests/bpf: Amend test_tunnel to exercise BPF_F_TUNINFO_FLAGS
+0d68e6fe12ada8fbaf35f0978aaf18dfb8d2dbb5 selftests/xsk: Query for native XDP support
+1adef0643b7df1069a53f6f5b7bc66c8234db899 selftests/xsk: Introduce default Rx pkt stream
+24037ba7c47b1a50ceb70079d08fc9c135f7df4b selftests/xsk: Increase chars for interface name to 16
+a693ff3ed5610a07b1b0dd831d10f516e13cf6c6 selftests/xsk: Add support for executing tests on physical device
+c29fe883defcbc6cd16176787a2084b8e05dabf0 selftests/xsk: Make sure single threaded test terminates
+fe2ad08e1e1df77b6941916b87d4871d751b88b6 selftests/xsk: Add support for zero copy testing
+afef88e65554c3e8691513b8350d6445e292560e selftests/bpf: Store BPF object files with .bpf.o extension
+af515a5587b8f45f19e11657746e0c89411b0380 selftests/xsk: Avoid use-after-free on ctx
+ba74a7608dc12fbbd8ea36e660087f08a81ef26a net: Change sock_getsockopt() to take the sk ptr instead of the sock ptr
+4ff09db1b79b98b4a2a7511571c640b76cab3beb bpf: net: Change sk_getsockopt() to take the sockptr_t argument
+2c5b6bf5cda048af896bb0e12a956783f7d6c835 bpf: net: Avoid sk_getsockopt() taking sk lock when called from bpf
+34704ef024ae6167c7ae9e67f671eb6bc1962c90 bpf: net: Change do_tcp_getsockopt() to take the sockptr_t argument
+d51bbff2aba7880c669e3ed1b4a5a64fed684bf0 bpf: net: Avoid do_tcp_getsockopt() taking sk lock when called from bpf
+728f064cd7ebea8c182e99e6f152c8b4a0a6b071 bpf: net: Change do_ip_getsockopt() to take the sockptr_t argument
+1985320c54dd51ea45641af0c69087347965ff25 bpf: net: Avoid do_ip_getsockopt() taking sk lock when called from bpf
+75f23979888a8cd9aff9ac41e517f7798a95306d net: Remove unused flags argument from do_ipv6_getsockopt
+9c3f9707decd67e48fc600f6e4adcdab3fe0878d net: Add a len argument to compat_ipv6_get_msfilter()
+6dadbe4bac68309eb46ab0f30e8ff47a789df49a bpf: net: Change do_ipv6_getsockopt() to take the sockptr_t argument
+0f95f7d42611882a9a6250923dd493951a94961a bpf: net: Avoid do_ipv6_getsockopt() taking sk lock when called from bpf
+c2b063ca34586758dcfd76e12696a71a1df849a0 bpf: Embed kernel CONFIG check into the if statement in bpf_getsockopt
+65ddc82d3b96be5555a36de4e2b4547433a00532 bpf: Change bpf_getsockopt(SOL_SOCKET) to reuse sk_getsockopt()
+273b7f0fb44847c41814a59901977be284daa447 bpf: Change bpf_getsockopt(SOL_TCP) to reuse do_tcp_getsockopt()
+fd969f25fe24be515278d28cbf86dde39be8a495 bpf: Change bpf_getsockopt(SOL_IP) to reuse do_ip_getsockopt()
+38566ec06f52250c4abaa7447aae676e0b881c46 bpf: Change bpf_getsockopt(SOL_IPV6) to reuse do_ipv6_getsockopt()
+f649f992deeeab020257b886e054cc407154cbfc selftest/bpf: Add test for bpf_getsockopt()
+0b20a133c0944c1f9ca97404b7805cb9c9cf32e0 Merge branch 'bpf: net: Remove duplicated code from bpf_getsockopt()'
+7c8199e24fa09d2344ae0204527d55d7803e8409 bpf: Introduce any context BPF specific memory allocator.
+fba1a1c6c912b383f86bf5d4aea732dcad3ec420 bpf: Convert hash map to bpf_mem_alloc.
+37521bffdd2d1efcb1dbdfd3ee89584c8943421c selftests/bpf: Improve test coverage of test_maps
+89dc8d0c38e0df27e580876a1681a55c686a51ff samples/bpf: Reduce syscall overhead in map_perf_test.
+34dd3bad1a6f1dc7d18ee8dd53f1d31bffd2aee8 bpf: Relax the requirement to use preallocated hash maps in tracing progs.
+86fe28f7692d96d20232af0fc6d7632d5cc89a01 bpf: Optimize element count in non-preallocated hash map.
+0fd7c5d43339b783ee3301a05f925d1e52ac87c9 bpf: Optimize call_rcu in non-preallocated hash map.
+7c266178aa51dd2d4fda1312c5990a8a82c83d70 bpf: Adjust low/high watermarks in bpf_mem_cache
+8d5a8011b35d387c490a5c977b1d9eb4798aa071 bpf: Batch call_rcu callbacks instead of SLAB_TYPESAFE_BY_RCU.
+4ab67149f3c6e97c5c506a726f0ebdec38241679 bpf: Add percpu allocation support to bpf_mem_alloc.
+ee4ed53c5eb62f49f23560cc2642353547e46c32 bpf: Convert percpu hash map to per-cpu bpf_mem_alloc.
+96da3f7d489d11b43e7c1af90d876b9a2492cca8 bpf: Remove tracing program restriction on map types
+dccb4a9013a68ddcb8303cd60f2fca1742014f3f bpf: Prepare bpf_mem_alloc to be used by sleepable bpf programs.
+02cc5aa29e8cef4c1d710accd423546ab63f4eda bpf: Remove prealloc-only restriction for sleepable bpf programs.
+bfc03c15bebf5e0028e21ca5fc0fe4a60a6b6681 bpf: Remove usage of kmem_cache from bpf_mem_cache.
+9f2c6e96c65e6fa1aebef546be0c30a5895fcb37 bpf: Optimize rcu_barrier usage between hash map and bpf_mem_alloc.
+274052a2b0ab9f380ce22b19ff80a99b99ecb198 Merge branch 'bpf-allocator'
+6617be3c154c7e9b2c1eefee9ab49d30e1b8eb1a i40e: Add basic support for I710 devices
+50067bd0fc9835dba3e08726460daaf3bcfe39d4 i40e: add description and modify interrupts configuration procedure
+11c12adcbc1598d91e73ab6ddfa41d25a01478ed iavf: Fix race between iavf_close and iavf_reset_task
+2786bcff28bd88955fc61adf9cb7370fbc182bad Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+2eb3ff3c09082bb4792f2149cf6582e2626a5e30 net: dsa: microchip: add KSZ9896 switch support
+13767525929db1693b24555c07878d8cb3a274be net: dsa: microchip: add KSZ9896 to KSZ9477 I2C driver
+3a8b8ea6c7c298482e54c6abee006c400b7aa568 net: dsa: microchip: ksz9477: remove 0x033C and 0x033D addresses from regmap_access_tables
+6674e7fd3beaf745b2e9d281a66f925a13de8ea7 net: dsa: microchip: add regmap_range for KSZ9896 chip
+732f374e23a9ae05dbc13825e4b02b3abce9f9aa net: dsa: LAN9303: Add early read to sync
+13248b975038241be329388a9a707dd12fdd5466 net: dsa: LAN9303: Add basic support for LAN9354
+313aa13a071761f3652194ee8e97cde3b22f7c3a sfc: allow more flexible way of adding filters for PTP
+621918c45fdc6554981c01f5517d5b0dc33de4ae sfc: support PTP over IPv6/UDP
+e4616f64726bfe3362712b403b70f9d3bcde166a sfc: support PTP over Ethernet
+98ba81081b429d147c0230f59a999aa80d0b9d33 Merge branch 'sfc-ptp'
+08724ef69907214ce622344fe4945412e38368f0 netlink: introduce NLA_POLICY_MAX_BE
+e7af210e6dd0de633d3f4850383310cf57473bc8 netfilter: nft_payload: reject out-of-range attributes via policy
+da7d8e65b3fcebce0a2f606669cabce64fca0475 Merge branch 'netlink-be-policy'
+0a28bfd4971fd570d1f3e4653b21415becefc92c net/macsec: Add MACsec skb_metadata_dst Tx Data path support
+860ead89b8517c57d34e5d0658443b461d628ab4 net/macsec: Add MACsec skb_metadata_dst Rx Data path support
+b1671253c6015841f6cabd39730fa42fb6d3d407 net/macsec: Move some code for sharing with various drivers that implements offload
+d1b2234b7fbf94348901bed4ea8d015c8a819d02 net/mlx5: Removed esp_id from struct mlx5_flow_act
+e227ee990bf974f655ec3132b496409990f6634b net/mlx5: Generalize Flow Context for new crypto fields
+8385c51ff5bceb92f7401138e16b0a617ca2ab02 net/mlx5: Introduce MACsec Connect-X offload hardware bits and structures
+8ff0ac5be1446920d71bdce5547f0d8476e280ff net/mlx5: Add MACsec offload Tx command support
+ee534d7f81ba9cec028580f91429b3dc29b90c7f net/mlx5: Add MACsec Tx tables support to fs_core
+e467b283ffd50cf15b84c73eef68787e257eaed5 net/mlx5e: Add MACsec TX steering rules
+9515978eee0b933e37947637d138f1942b3e4b0c net/mlx5e: Implement MACsec Tx data path using MACsec skb_metadata_dst
+aae3454e4d4cd78d143d6af1347b385796539fd8 net/mlx5e: Add MACsec offload Rx command support
+15d187e285b3d5f4fe0328c09566355c1e387ff6 net/mlx5: Add MACsec Rx tables support to fs_core
+3b20949cb21bac26d50cdcc58896802a890cfe15 net/mlx5e: Add MACsec RX steering rules
+b7c9400cbc48c3713190b3bce4e0c87e924e4104 net/mlx5e: Implement MACsec Rx data path using MACsec skb_metadata_dst
+5a39816a75e5ac4a1c6be31d7d5af46a2813aece net/mlx5e: Add MACsec offload SecY support
+807a1b765b4f4292329dba3a57217e2eae486448 net/mlx5e: Add MACsec stats support for Rx/Tx flows
+99d4dc66c82379b1e077f4e139b2048b207ff07c net/mlx5e: Add support to configure more than one macsec offload device
+016eb59012b576f5a7b7b415d757717dc8cb3c6b Merge branch 'macsec-offload-mlx5'
+c9daab322313087afde8c46f41df3c628410ae20 net: ethernet: mtk_eth_soc: remove mtk_foe_entry_timestamp
+53fc01a0a8cbf0b9945355a2e632ca00570a4465 net: sysctl: remove unused variable long_max
+29796143f70eca1cf9e87f3a023bf79790c2f31a Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+2018b22a759e26a4c7e3ac6c60c283cfbd2c9c93 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+0ba22bcb222d2761feccb46d0ee4eb9db1f53a7d net: hns3: add support config dscp map to tc
+f6e32724ca135239f404f2ed3cd2170dc4bd9b29 net: hns3: support ndo_select_queue()
+fddc02eb583ada2b2d8f35ef41630da5959e8d4b net: hns3: debugfs add dump dscp map info
+2cb343b9d3e59db0836045ff1dd67dfd15066697 net: hns3: add querying fec statistics
+0f032f93c4ee9ff667b493db7b21c94cff31edc6 net: hns3: add support to query and set lane number by ethtool
+418b0866ccdc302e8b46e7d3f6a788e8fe77a660 Merge branch 'hns3-new-features'
+929d43421ee526c5a3c4d6f7e2bb1b98b2cb1b1f net: stmmac: Disable automatic FCS/Pad stripping
+e66d6586843e7f34e25db0c20599a8ef3d816218 r8169: merge support for chip versions 10, 13, 16
+75554fe00f941c3c3d9344e88708093a14d2b4b8 net: sparx5: fix function return type to match actual type
+3e825e8c7449cc24c288d9f20bd50648ac141738 uapi: move IPPROTO_L2TP to in.h
+353163adba164b662f87f1fe808f39ca2e01a750 flow_dissector: Add L2TPv3 dissectors
+13cabda512692fa289c4a7843cd3aae3f9d6506b net/sched: flower: Add L2TPv3 filter
+048ce25d0964fa4a9aba1a0abd9555fcf03b6e75 flow_offload: Introduce flow_match_l2tpv3
+f5efed95c9516efb5f70059d5a01c539945d6427 ice: Add L2TPv3 hardware offload support
 
---===============8032552440076924535==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83b41dfc61d3-925196154f51.txt
-
-ed3fcf726842c66d758d502f0b8557ee2ed1487b driver core: Don't probe devices after bus_type.match() probe deferral
-6c7187c8435f1dbdfc57f488c27d4881e6dd4006 efi: capsule-loader: Fix use-after-free in efi_capsule_write
-ecc93ae5ca0f22e72fd5f6bf0ee21fdf97ea7878 wifi: iwlegacy: 4965: corrected fix for potential off-by-one overflow in il4965_rs_fill_link_cmd()
-cf24a0017ed7cc58fd80326a86ae03f79afeb568 net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()
-816c1bc021d67f878ec7d296654bfbe45c257cfe fs: only do a memory barrier for the first set_buffer_uptodate()
-b668f4b7fe1288aece2e714a87773c51dfc5d85f Revert "mm: kmemleak: take a full lowmem check in kmemleak_*_phys()"
-e05a018efee5ec4539d93ec68a470ec7a66fcdaa net: dp83822: disable false carrier interrupt
-7304364ae84259d798f7483581aca4c6754de284 drm/msm/dsi: fix the inconsistent indenting
-fb11315c653e743857ae658e3554ce1506c90fe8 drm/msm/dsi: Fix number of regulators for msm8996_dsi_cfg
-f46642b2f035eb011ddf62b0fcc45fc3e3eda968 platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
-e61ce02920d8660ab34ff94fcd09b887f044af3c ieee802154/adf7242: defer destroy_workqueue call
-dea878026832f0514a4080e7fa291fd15100c8fe wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
-8dca5c2eb69d96692c6b7ba1e94e8cb963f4d675 Revert "xhci: turn off port power in shutdown"
-30645222dcec8b3b04f2e3d70a2666f819c4330a ethernet: rocker: fix sleep in atomic context bug in neigh_timer_handler
-3d99b6c0c7cde5d903ac44e58005e21f0574ae4f kcm: fix strp_init() order and cleanup
-13771864fe4243b4a9b4fa68c728d7a4695971cb sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb
-ca39790e6890f9f82ee860bac61f098be7470579 tcp: annotate data-race around challenge_timestamp
-7b4d55bd33e8a925b21f4cabd94938e6d59e7399 Revert "sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb"
-6b7dc2d1346f5110f9122e4b053590e5e4198273 net/smc: Remove redundant refcount increase
-7ad807a0681aa5800c4f3aa7ae0eb726fa40c5a0 serial: fsl_lpuart: RS485 RTS polariy is inverse
-ab8bc02ccced7e35c0fccbcbc8fa97487ef955db staging: rtl8712: fix use after free bugs
-4e2ad1888e4ea85fdba9c6e1d8f367bf35f21d01 vt: Clear selection before changing the font
-306d24c2463f4554f9ec940889bdd04055fa5f61 USB: serial: ftdi_sio: add Omron CS1W-CIF31 device id
-f20536c8483e5bfb42609a6e4e8596100d4a1236 binder: fix UAF of ref->proc caused by race condition
-45d4e2cf0fd9a8326b3108c7525c89789fd3966d usb: dwc3: qcom: fix use-after-free on runtime-PM wakeup
-fcae0d0535d968f052b3ca491ddf1177d0906590 drm/i915/reg: Fix spelling mistake "Unsupport" -> "Unsupported"
-fab6de4ba58925ef78dc0e284e8696119fdaab96 clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops
-0c6cad14484a35e6a0555601b0801ed98136dc62 Revert "clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops"
-641187cc6fe4939dd20dd7c6c00207c1517d3db9 clk: core: Fix runtime PM sequence in clk_core_unprepare()
-51d336bc04f6ad1d8ae03d07a5dee006aa75a566 Input: rk805-pwrkey - fix module autoloading
-1b5d2bcc83db6e261703bed9551d9912dea9f603 hwmon: (gpio-fan) Fix array out of bounds access
-bebba35aa833bf6b06b2a5cabeb8051a49f6af4d thunderbolt: Use the actual buffer in tb_async_error()
-30a6e5e6f6f1a64b0750f2a0693cfb75c1a5b55f xhci: Add grace period after xHC start to prevent premature runtime suspend.
-eb9cd64788587bb8eab66578a58e8e2bf9ba59f7 USB: serial: cp210x: add Decagon UCA device id
-743764660310d13b123d9a6ea248b660d97c246d USB: serial: option: add support for OPPO R11 diag port
-023f481c9c84a8d4b6bed30db8d6e802ded58eb3 USB: serial: option: add Quectel EM060K modem
-cb1a446afab7cfae8caf378cbf30ccd86140be3a USB: serial: option: add support for Cinterion MV32-WA/WB RmNet mode
-67f519185cca6d6e57de84cb3ba25f8706b4cadb usb: typec: altmodes/displayport: correct pin assignment for UFP receptacles
-bf38969f1afb9a4a9142ea89b8c561c579d6556a usb: dwc2: fix wrong order of phy_power_on and phy_init
-9e2307764d91a34e00ecbb5cbd85788b8f6b68a1 USB: cdc-acm: Add Icom PMR F3400 support (0c26:0020)
-13bb6070c713104ff370110a8f3644f18606cc55 usb-storage: Add ignore-residue quirk for NXP PN7462AU
-81f93f67ba64c9936e9406854373455f6f055d71 s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
-35dfe486b6446e62037066369457c6c5938594b6 s390: fix nospec table alignments
-ccd0a0d632da81d83aaa7a6b56b534556a1aad7f USB: core: Prevent nested device-reset calls
-43bc2551ee27d8dcaec920d9a5cf62251f9cc9b5 usb: gadget: mass_storage: Fix cdrom data transfers on MAC-OS
-4f3edfa949f8f321c7057f3ff8a62c9727ad8b6a wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
-afa9ceef0b15d66c95bd35824ab6c10be85c5f77 net: mac802154: Fix a condition in the receive path
-0b9560896fb2e921b5bccc8791459c4143981acf ALSA: seq: oss: Fix data-race for max_midi_devs access
-925196154f51c36ccbaadd96674e1686d3feac4a ALSA: seq: Fix data-race at module auto-loading
-
---===============8032552440076924535==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e557357e0fbb-0be915fd69ac.txt
-
-da85837f0c4a213da18fdcd08747dcacc08d8185 fbdev: fb_pm2fb: Avoid potential divide by zero error
-edc5dbbb1aa3b15efad60f4fa78233f17d572e3d platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
-db9a3a8f048d0a8e81db56287d98539c33de937b wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
-ed8936fda90443b3dc6c7841dbcea04bd0392541 serial: fsl_lpuart: RS485 RTS polariy is inverse
-6471c343309fbf675469d886d60b6a0e74ea747c staging: rtl8712: fix use after free bugs
-2a97fad139114ba39f09541202af29ff6ecfe5f8 vt: Clear selection before changing the font
-5bf94f10bd91330f3565439825f9d746073bf3dd USB: serial: ftdi_sio: add Omron CS1W-CIF31 device id
-ad9ccc5ea91a93badbdd87fc3fdd8931499dfc53 hwmon: (gpio-fan) Fix array out of bounds access
-0ce7dc48ebd305972eb9707ac33478a4dbfdae22 xhci: Add grace period after xHC start to prevent premature runtime suspend.
-a5d6b8a93d074cafdc7a31c7cfb51b50fa1106f8 USB: serial: cp210x: add Decagon UCA device id
-9b2647531461044d223bb7ac64871cefa010d2ba USB: serial: option: add support for OPPO R11 diag port
-16b69374a76c68fe38cbc9fddd17a29df6cd09f2 USB: serial: option: add support for Cinterion MV32-WA/WB RmNet mode
-c88fef37335331ce09333eeb7bac1163405efca4 USB: cdc-acm: Add Icom PMR F3400 support (0c26:0020)
-347a34c0e782037476f618c921959e19a193a8b9 usb-storage: Add ignore-residue quirk for NXP PN7462AU
-2c39016ebe406c0af57b35fc11e7b35dfae545d1 s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
-cfa60a8fdb9ff6e4670f39b557eac0eeee9e4697 s390: fix nospec table alignments
-9acbca48f082381d0d445b0a1ff7f57ac5a41570 USB: core: Prevent nested device-reset calls
-3443a95d55046e178b2180b988089904cc92214f usb: gadget: mass_storage: Fix cdrom data transfers on MAC-OS
-1e8f97f28a6e0a4502540e33dc813fcbc1d8d28f wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
-cd749dcecf4c9d2f11b6aa9c41b261c879b195ed net: mac802154: Fix a condition in the receive path
-d122f5c0740dbfb68003f1dc18c6d3f3827a0a63 ALSA: seq: oss: Fix data-race for max_midi_devs access
-2623820af9d34b66ea9b767254cc8e9090dbea7d ALSA: seq: Fix data-race at module auto-loading
-f25c8f879f3f5a7b77d637534ce456a15071e247 fs: only do a memory barrier for the first set_buffer_uptodate()
-0be915fd69ac04259206a9da93b0d0657d7eea64 Revert "mm: kmemleak: take a full lowmem check in kmemleak_*_phys()"
-
---===============8032552440076924535==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c681ff9f0e9d-7fe03d4d756e.txt
-
-a71fc0bca59e3dd2e8449c1c96f0d023605a0c62 efi: capsule-loader: Fix use-after-free in efi_capsule_write
-dec7e8d0cac223be1d591b1853c2ca39990db8d1 wifi: iwlegacy: 4965: corrected fix for potential off-by-one overflow in il4965_rs_fill_link_cmd()
-96117ac82fdc4c24359266bf784de93359349227 net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()
-29f62f453b7bc428d0dc2293bd10efbbabe747b2 fs: only do a memory barrier for the first set_buffer_uptodate()
-f01af28002ddb09e98f9d9c2746fb5d42149a898 Revert "mm: kmemleak: take a full lowmem check in kmemleak_*_phys()"
-95240ed8d302880a91334c56779a3b80fe91bbc2 net: dp83822: disable false carrier interrupt
-260d920bfd40ade471950ce2c50b78a0ffb37f51 drm/msm/dsi: fix the inconsistent indenting
-2eb5b3433c84f374264bb86801d4e738c47b4b8d drm/msm/dsi: Fix number of regulators for msm8996_dsi_cfg
-adff674879c63cad41f771be66fdbc5970bc114b platform/x86: pmc_atom: Fix SLP_TYPx bitfield mask
-3bd1a1bc185a60a0d713b3a03a02a1a8a2ce7762 iio: adc: mcp3911: make use of the sign bit
-72e00dc7a6ce23df99b66cd33d2aac48922968a8 ieee802154/adf7242: defer destroy_workqueue call
-3957413d1cc50d4487632574d2f8da5bc2f49a50 wifi: cfg80211: debugfs: fix return type in ht40allow_map_read()
-9326b02fe716416a207fc681801e4d85c5a1cea1 Revert "xhci: turn off port power in shutdown"
-8a9ce79941927a55ecb2bf5c185aad24cb986e2a net: sched: tbf: don't call qdisc_put() while holding tree lock
-46e8c14c18366aa208c5e345a52d8f9a39ba1b76 ethernet: rocker: fix sleep in atomic context bug in neigh_timer_handler
-ab13c6c34d8174871375ef910ff9170f77f87c5d kcm: fix strp_init() order and cleanup
-6d2a716aafa5b9a18373e13e9b3ac5b808077d58 sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb
-999be8d19beb6d1ecae2924b137026e59310dad7 tcp: annotate data-race around challenge_timestamp
-70681991d7e885305e6be19e1fc433b12ded4549 Revert "sch_cake: Return __NET_XMIT_STOLEN when consuming enqueued skb"
-b2267640ef577c4f266ced8d2296297a1a528672 net/smc: Remove redundant refcount increase
-6c19f634b51ab29ce2ac7a876d155257d29baf1a serial: fsl_lpuart: RS485 RTS polariy is inverse
-72d99bc8cf5eb970cbd71e5e38dbecc8c774dddd staging: rtl8712: fix use after free bugs
-b7338448e79b6fafee2bbcb29cd47f07fdff3cb4 powerpc: align syscall table for ppc32
-35ca545b782fac91295e5d634b77c597d4157701 vt: Clear selection before changing the font
-cfc29aac28242a6f119e2965f0d44d6858160b86 tty: serial: lpuart: disable flow control while waiting for the transmit engine to complete
-d4fe5e1f2208bf90eaec562ba839a229a977e170 Input: iforce - wake up after clearing IFORCE_XMIT_RUNNING flag
-ca2bccfe4218dcbbc06ea79d386f2b7fa1a2c461 iio: adc: mcp3911: use correct formula for AD conversion
-b3bd400b2c89be09c8567e2f614392946532bf08 misc: fastrpc: fix memory corruption on probe
-44d8d1526a53b89a9f191519eca943822a3b53e2 misc: fastrpc: fix memory corruption on open
-c71eb4255e84fe332f35864febe7d1770a7f20f6 USB: serial: ftdi_sio: add Omron CS1W-CIF31 device id
-34cfe68dde7c5127bdc9bf7bfc83e8bc6cc7cbeb binder: fix UAF of ref->proc caused by race condition
-612a32bd90c9a168eee87b9a92dfdf48b87c868d usb: dwc3: qcom: fix use-after-free on runtime-PM wakeup
-81cbf96a297825760eb0c09efaf76da3de233da3 drm/i915/reg: Fix spelling mistake "Unsupport" -> "Unsupported"
-b54b20d6aadad2c431381313438d11c18a2ccdae clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops
-43f26c3cfa9e4ead7477575a014cd1f9eaa8cccb Revert "clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops"
-e4bb1ea05d3e71b0c24c2e021d19c064de88a152 clk: core: Fix runtime PM sequence in clk_core_unprepare()
-a00b002deb64939732332c3af08ade5b5b755cc3 Input: rk805-pwrkey - fix module autoloading
-3d6c46a2316df8ef2d4b13e74604a2df585c2592 clk: bcm: rpi: Fix error handling of raspberrypi_fw_get_rate
-f52f231366c8e76ff027556db4f22bacda3a69fc hwmon: (gpio-fan) Fix array out of bounds access
-f7f6f2543171984042a7f783631e654b52dda9a6 gpio: pca953x: Add mutex_lock for regcache sync in PM
-53b5520e71a9afe76f2462657bb829d8f17f6008 thunderbolt: Use the actual buffer in tb_async_error()
-2adada6daca0c9942766bcc34ad68018f1537e52 xhci: Add grace period after xHC start to prevent premature runtime suspend.
-063c93e6061b24417ebcc61c8c297e8570aca603 USB: serial: cp210x: add Decagon UCA device id
-feb17b0476fbb99c63fd7755c336cc6931ded690 USB: serial: option: add support for OPPO R11 diag port
-db5459f661cb2e706172d3831214d78dfd2c9beb USB: serial: option: add Quectel EM060K modem
-8571d0551f00e75ab99a9b9c9a92600cd394e183 USB: serial: option: add support for Cinterion MV32-WA/WB RmNet mode
-96d1621289f99d908241daecfe94c618323ad7e9 usb: typec: altmodes/displayport: correct pin assignment for UFP receptacles
-8693a163afa5cba1d9742855238b9773ebbbf393 usb: dwc2: fix wrong order of phy_power_on and phy_init
-0903a21ee0e69eae4aa3e594143895683fe33621 USB: cdc-acm: Add Icom PMR F3400 support (0c26:0020)
-a224155fb8ff05093037cc00fd9acde9c9e33770 usb-storage: Add ignore-residue quirk for NXP PN7462AU
-8050f58718d1b271d6902b9c5263a0d172e4e569 s390/hugetlb: fix prepare_hugepage_range() check for 2 GB hugepages
-87a6a0af74f8f909312771ce360a7e00a0f3af37 s390: fix nospec table alignments
-f6128bafc96d3e65ca21341be9b80af63224057f USB: core: Prevent nested device-reset calls
-f23a337f31d669c24a7b955c7da1dcfe326a043c usb: gadget: mass_storage: Fix cdrom data transfers on MAC-OS
-3e7b3c082f35c30a9d95d029c60e6425af5faa2a driver core: Don't probe devices after bus_type.match() probe deferral
-43361e4b6b66a171cc195d1a646a00bfa1c2aa9f wifi: mac80211: Don't finalize CSA in IBSS mode if state is disconnected
-8203aa8544b6629c1f225ca33d55f141c1033c53 ip: fix triggering of 'icmp redirect'
-246b84138156deabc1440e9ab26f6cfd6c5e4221 net: mac802154: Fix a condition in the receive path
-384794a31f5e103f3588b8c0e63951351eb7bfff ALSA: seq: oss: Fix data-race for max_midi_devs access
-7d21796a23e07dfa71d93b366fc67055d8e39ee7 ALSA: seq: Fix data-race at module auto-loading
-c435368786df883e332cb2ff78b6d8a6bca8d17b drm/i915/glk: ECS Liva Q2 needs GLK HDMI port timing quirk
-c23b03fc6dcbe04b12aff2c55cd439563a011983 btrfs: harden identification of a stale device
-e02600498617a92ce6358aed7d595f642a516f71 usb: dwc3: fix PHY disable sequence
-4dc31624b7bd271159236fa2d75fde3db69eb637 usb: dwc3: disable USB core PHY management
-bc550b152bbdb6825cf1da82dd02a4503f532e0a USB: serial: ch341: fix lost character on LCR updates
-7fe03d4d756eb9a721e62cb97e67db38fd958d69 USB: serial: ch341: fix disabled rx timer on older devices
-
---===============8032552440076924535==--
+--===============2387831946826704086==--
