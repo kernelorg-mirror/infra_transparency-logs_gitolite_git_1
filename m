@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1189026421683521579=="
+Content-Type: multipart/mixed; boundary="===============5982067639148024385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 08 Sep 2022 23:52:07 -0000
-Message-Id: <166268112747.16193.12787605195025272764@gitolite.kernel.org>
+Date: Thu, 08 Sep 2022 23:53:16 -0000
+Message-Id: <166268119603.16732.18169934408493551315@gitolite.kernel.org>
 
---===============1189026421683521579==
+--===============5982067639148024385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: b90cb1053190353cc30f0fef0ef1f378ccc063c5
     new: faf59ec8c3c3708c64ff76b50e6f757c6b4a1054
     log: revlist-b90cb1053190-faf59ec8c3c3.txt
 
---===============1189026421683521579==
+--===============5982067639148024385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ cbd7bfc7fd99acdde58ec2b0bce990158fba1654 tools/perf: Fix out of bound access to 
 0a9eaf616f29ca32068d2d8fe04eeef67505720d perf tools: Don't install data files with x permissions
 faf59ec8c3c3708c64ff76b50e6f757c6b4a1054 perf record: Fix synthesis failure warnings
 
---===============1189026421683521579==--
+--===============5982067639148024385==--
