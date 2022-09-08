@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1233773280992804243=="
+Content-Type: multipart/mixed; boundary="===============1075286593410307564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 08 Sep 2022 19:47:21 -0000
-Message-Id: <166266644146.4675.6099595558925799639@gitolite.kernel.org>
+Date: Thu, 08 Sep 2022 19:48:28 -0000
+Message-Id: <166266650884.5183.15429791495802269692@gitolite.kernel.org>
 
---===============1233773280992804243==
+--===============1075286593410307564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/perf/core
     old: 6c3bd8d3e01d9014312caa52e4ef1c29d5249648
     new: 715a6dea8483ff2035de766857f962ac198eb195
     log: revlist-6c3bd8d3e01d-715a6dea8483.txt
 
---===============1233773280992804243==
+--===============1075286593410307564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ e34d0f0ebd3511fb27f983f7acfee81bfcb3f31f perf vendor events: Update events for N
 d97dceee4c102f7336a9a7b3073c0c29af7f2c93 perf events: Prefer union over variable length array
 715a6dea8483ff2035de766857f962ac198eb195 perf cpumap: Add range data encoding
 
---===============1233773280992804243==--
+--===============1075286593410307564==--
