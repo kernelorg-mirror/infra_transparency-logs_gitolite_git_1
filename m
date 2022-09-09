@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1460377942430357272=="
+Content-Type: multipart/mixed; boundary="===============2426547733891074492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 09 Sep 2022 07:51:45 -0000
-Message-Id: <166270990584.30478.9572547267568787415@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 07:52:01 -0000
+Message-Id: <166270992194.30635.16500346650352441405@gitolite.kernel.org>
 
---===============1460377942430357272==
+--===============2426547733891074492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 721740f8b8c203e36c0e6d6fd47e7063a7bfb29e
-    new: 3a09f934df4eb5a01777416fc4f317293b37e563
+    old: 3a09f934df4eb5a01777416fc4f317293b37e563
+    new: cbdeb787905d76d91c932cc69302c1be5d2306d9
     log: |
-         3a09f934df4eb5a01777416fc4f317293b37e563 staging: r8188eu: remove mlme_osdep.h
+         cbdeb787905d76d91c932cc69302c1be5d2306d9 staging: r8188eu: remove channel parameters from rtw_sitesurvey_cmd
          
 
---===============1460377942430357272==
+--===============2426547733891074492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662709903 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662709920 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1662709902-85f0c7bda06e168380b30f6984c073f5c5d4a255
+nonce 1662709919-e18ec7bd3961bf53a26e324662a6974b1c581905
 
-721740f8b8c203e36c0e6d6fd47e7063a7bfb29e 3a09f934df4eb5a01777416fc4f317293b37e563 refs/heads/staging-testing
+3a09f934df4eb5a01777416fc4f317293b37e563 cbdeb787905d76d91c932cc69302c1be5d2306d9 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa8I8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SZIQAJy5HBsTub5KfA0Q41le
-1pKjcyqvrvXMlHlZpxLY0yIb3ekLW2mwWm1i2dkPFWg+TObVqD4jigFjXV0LXB9V
-ZiOmWBJAxIhoeIE8ppyQEDucUEbEQSI083Vlh7O7N2bCkCAnVQt/FQH5ujozl6gN
-D1EArlnq2JCXr1lrx8IdyHSUY8sW835CsK5Jib4fDL3YQMrOCb0MQfuNYg2A8Xw+
-AaYI2mheApd7SIDzbXFMYOLhbTCglKraXz5Qsm8ZCtX9zuLhL33vl2XYAKTDcRDV
-XQdi0PCoTHulrqtBPQKakZT9gVmfgOImwyzfFlesVrWSZQNaBz2IQE6bL8iaet4T
-2oUa94b4pGkKGOoycqTL6hQAjyz1a9YNujtcMyL9l7jON+u0N0bw9IV3uwf/s/kF
-PrCTPt7Ip/qHSAhvCtqRmjYgJKHgCSGjFbfqsUxtgvit0rRqmS5NeFB8ykxVVypd
-DTgy+EOFGk3N3bsAzJ5JDIsnqTv30TnKTl1oZDqay17GGaFPCZYEx0sdrbVmMY+S
-N/JRj2VHY4OBl38Fthh1BOurRjKVf7ooVpc+kDnTVFgxK5AYPJk43TQq4AJtuECQ
-u0NVh2rtfU4z97YW19X0U+0vd2YslSydUOsugyZq8j/6ac8wk8fK159fAXZNF7zx
-SErJvkwKGN1/fQb6uyALLCIa
-=zX1i
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa8KAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EQEQAJr4aX9+0LpSwAXW6Eb9
++hieBJ9nTjXyun0KRC2ADRVlKsKODWkvbEahoJx0wTVxxExDsrGp07xhdyFIbc7e
+S6Go9CP2vJR9OhFO9gaNQgxpgvF1ukgNGtB2vmZ8zT9Bj5axN21qpNZ/4Be20+aV
+PKc1uzs/8VOWAg+aygsElWMLNJvjr/JfvpD/5yVRLhgvzF/ApgLNEW8/D9zGBMlA
+eo/iLRB1EwhnU4p2AFz5o1HRqGMh4l2IBXM+nZCdxZCLI+e3i5pOJqaMC1fpB5Yj
+azdBipHKh1QjtpJnVr9ys0wlMHz/TX7nqYp7Yt9fcA+CAMu8jryTvnncHoXoBS9C
+TqCi5H5UrtFCSAzCxIewoDtLoH79VPICgi2TC0YzWf0Glw0jw57t+pxgxSk/DEeo
+6X+HMT+Y+6sU8fTt8ZyvMKiCPiYsoIhMMhkRJNPbtdOamaRORK5JsumHw+bqRKPD
+JVVjdGNRsNY331MM8JVWgdKGH/dAzn4QMqTl0b8TJ+zOaghJ6cUkdG1S00y79OMn
+qUdQ2Vsivdca3oau12jgTwVZLIriKb70kWSurFbAwg9tr5OFaDRIluetAypBAGir
+e4NsjcdA/CzOPiJA2X+IlcNk7fzFCllIbbTCQpYIaG3ZBPcqvhDwjQ5dMXE1QLPF
+opTrbh/qlQuUXtms52bHErXd
+=hnER
 -----END PGP SIGNATURE-----
 
---===============1460377942430357272==--
+--===============2426547733891074492==--
