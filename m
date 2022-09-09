@@ -1,58 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6980050230536916387=="
+Content-Type: multipart/mixed; boundary="===============0846813971699628144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 09 Sep 2022 08:50:47 -0000
-Message-Id: <166271344700.9466.13096197942683559920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 09 Sep 2022 08:52:49 -0000
+Message-Id: <166271356918.10276.7440989401637156708@gitolite.kernel.org>
 
---===============6980050230536916387==
+--===============0846813971699628144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 6ea3bf466ac6ad6c0ee1ad4e80d77d62e5e11c7a
-    new: d11b1e908e9a1301e43cefc37fc17dd2b1257b77
-    log: |
-         bdbb0bbcf858adb26dfcd27f26f91cbf33338d4c Documentation: stable: Document alternative for referring upstream commit hash
-         2122c0d0f5a13ee91a051e3c93e458a24c161944 docs: update mediator information in CoC docs
-         d11b1e908e9a1301e43cefc37fc17dd2b1257b77 driver core: remove make_class_name declaration
-         
+  - ref: refs/heads/sched/core
+    old: 33f93525799fa3c841b2ba93a56b2bb32ab11dc9
+    new: fb04563d1cae6f361892b4a339ad92100b1eb0d0
+    log: revlist-33f93525799f-fb04563d1cae.txt
 
---===============6980050230536916387==
+--===============0846813971699628144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-33f93525799f-fb04563d1cae.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662713445 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662713444-40ab14d90cab362151860905a590090672810eec
+3e6efe87cd5ccabf0f1d4e3ef25881ca0fd337e7 sched/fair: Remove redundant check in select_idle_smt()
+b9bae70440d21e106fbc098803b5a190df65f2e0 sched/fair: Avoid double search on same cpu
+8eeeed9c4a791f0d1f2ea830eb75a4246c117ae2 sched/fair: Remove useless check in select_idle_core()
+398ba2b0cc0a43964fe3d2dd19cb2a478f1f220b sched/fair: Default to false in test_idle_cores()
+96c1c0cfe493a7ed549169a6f044bbb83e490fb5 sched/fair: Cleanup for SIS_PROP
+0b9d46fc5ef7a457cc635b30b010081228cb81ac sched: Rename task_running() to task_on_cpu()
+5950e5d574c636a07dd21a872c2f8b41f6d20c55 freezer: Have {,un}lock_system_sleep() save/restore flags
+1fbcaa923ce2d7e6de17abd74fa076dc1e0be1a2 freezer,umh: Clean up freezer/initrd interaction
+9204a97f7ae862fc8a3330ec8335917534c3fb63 sched: Change wait_task_inactive()s match_state
+f9fc8cad9728124cefe8844fb53d1814c92c6bfc sched: Add TASK_ANY for wait_task_inactive()
+929659acea03db6411a32de9037abab9f856f586 sched/completion: Add wait_for_completion_state()
+3f884a10ab41efe2d495bf8ec8d443d70c500a60 sched/wait: Add wait_event_state()
+9963e444f71e671bcbc30d61cf23a2c686ac7d05 sched: Widen TAKS_state literals
+f5d39b020809146cc28e6e73369bf8065e0310aa freezer,sched: Rewrite core freezer logic
+fb04563d1cae6f361892b4a339ad92100b1eb0d0 sched: Show PF_flag holes
 
-6ea3bf466ac6ad6c0ee1ad4e80d77d62e5e11c7a d11b1e908e9a1301e43cefc37fc17dd2b1257b77 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa/mUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r2QP+wevjcmRUxmx0uGrAHyT
-HhN/1Kr26azWrSLh2jBwQklMme2xjE6uluLQSdshbQRx5JKnBjgkL0oJFCTrQBAv
-MsKBsqh5XW1bKRQpXuJoZNj20kNJETNfbEkeD5bLqVnVlW0RgYkZUJkmeiwX3ctY
-8FkC80DtaXx+RvdPAeEka/0rrVNNi18jsZwywIuTZypJQqiZWmOzWHmI5ebd1uIn
-8MUvtSTjFpc9+H0SSu22p+jXwcxBqQa+Nt5fgoH45xJ9PDBKovLgKmtnpzetM6WY
-UQ4eK2AHMOpyUnk47xgtw+co0395qq/Ry51HaZ1RElAZqBiRPkdThqDLHun7EvCy
-+SdCMh3IGQVagN8ACB7u7tJahzBkE5y9zjuyFLDY5DljtjrplGr9n21eLCaMBUTM
-ZwONfTR/xkq75ye4CVrLt4nmcfwp98WHAXZm7m36efI5yc2S6OZdCEUhg++1SZ8/
-o+PVw0+BuHcx8nPDhJHDeCexwUG3wde+ISkdp/qSzf2JNe1UQWl0mD3gRajYETz5
-6elxPq414KoYVMBLsimbbpHIDUjjzDjsu3sWyymK3p1DGoFA10oHzTaM9mVWHYSq
-EX38Hrj9o7aENjMJpSvbu35B+C+EYQSUCEUnes+JyoeiC3n/gKh9hSHfyEtXsr3w
-BrE6VKGlPEe/H/1KXc9LYk6P
-=7xP9
------END PGP SIGNATURE-----
-
---===============6980050230536916387==--
+--===============0846813971699628144==--
