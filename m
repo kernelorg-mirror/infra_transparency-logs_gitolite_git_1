@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Fri, 09 Sep 2022 15:28:34 -0000
-Message-Id: <166273731470.13450.13223951100968621322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 09 Sep 2022 15:30:42 -0000
+Message-Id: <166273744263.15847.4025630655791216052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/tags/memory-controller-drv-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 9ca4db54baf596af950804fa357135756e8bd9eb
-  - ref: refs/tags/memory-controller-drv-brcm-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 2a21fa2bcd6434ff5e991e7c54f41be6790cfa9a
-  - ref: refs/tags/memory-controller-drv-mediatek-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 2ce9ffc0467ab025a36cbc073559f65ffe1c634f
+  - ref: refs/heads/for-next
+    old: f6d1df74e4fe867b9d65db54c56466d954b11938
+    new: fd5d08e3d817d0681002b66623272bd23e467f25
+    log: |
+         8c31e1ca9a5987f1cee391580135284544ca6125 NFSD: Fix handling of oversized NFSv4 COMPOUND requests
+         dffa8c44913e33dfeb20e99f70ec12fe55b4aaec nfsd: clean up mounted_on_fileid handling
+         fd5d08e3d817d0681002b66623272bd23e467f25 nfsd: remove nfsd4_prepare_cb_recall() declaration
+         
