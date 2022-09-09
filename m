@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895449610082840934=="
+Content-Type: multipart/mixed; boundary="===============9042576903452927242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 09 Sep 2022 07:53:19 -0000
-Message-Id: <166270999987.31341.5266644889535614991@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 07:53:48 -0000
+Message-Id: <166271002863.31589.2461162876038674103@gitolite.kernel.org>
 
---===============5895449610082840934==
+--===============9042576903452927242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: e2e8e82e03f9636a13f6b7e4d81f0a665aae3728
-    new: 3827974ecae1008417451a371cfbd7faa040ca4b
+    old: 3827974ecae1008417451a371cfbd7faa040ca4b
+    new: d517cdeb904ddc0cbebcc959d43596426cac40b0
     log: |
-         7fcd5936bd881df1365d54352e2e535dff977463 staging: r8188eu: remove unused parameters from _BeaconFunctionEnable()
-         0dd1eb711e8bfe22e1dffb054e6d7e1856b69d96 staging: r8188eu: remove unused parameter from UpdateBrateTbl()
-         4cf393aeaf5f130ed84957f23cf8edbb21ab0392 staging: r8188eu: make two functions static
-         3827974ecae1008417451a371cfbd7faa040ca4b staging: r8188eu: remove unnecessary return labels.
+         d517cdeb904ddc0cbebcc959d43596426cac40b0 staging: greybus: audio_helper: remove unused and wrong debugfs usage
          
 
---===============5895449610082840934==
+--===============9042576903452927242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662709998 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662710027 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1662709997-37093182eaf18df264e29fe7efaa2629891fee43
+nonce 1662710026-1cf44a0c42b246903e47d77f7d212b7ce560f957
 
-e2e8e82e03f9636a13f6b7e4d81f0a665aae3728 3827974ecae1008417451a371cfbd7faa040ca4b refs/heads/staging-testing
+3827974ecae1008417451a371cfbd7faa040ca4b d517cdeb904ddc0cbebcc959d43596426cac40b0 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa8O4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YdIQALKU/pqGEA3nOklqZepB
-pgWUvLYRSYfgzRjtz1pTww46sPgL5gjJcf3qPlxkoBCVis6LLA+TApTMNPrGYTbX
-0wxESSjfiNZpli4tZKPWTQTfNW1RqF82VmDPj0SCEhn6nC68rgQ30I7rjZkRTv14
-6Pyn+McEgyYlRdT43hKSxY53xpgwtGRvXDFAHnW00vqC9JHyiDrTTWkuPhPoT+zV
-WZmRZDnwt/xQQAz1kmQNUMHbBJd+/wfQaitwYtYL3dyi/pwMxxkMXJdP2/FmTDYS
-X6fiQ9+whemPAooe6LdI4lIhlCCTMYHQzG4hmR83G1RDn5YK92Ar2mUMrDBnd4AO
-9KWAy5UxTAxMM7gLWFNO1EMwimBxvEtoCaaybMLcBKwi5jnMVHSOYGoa/mhsgKZj
-HeWF5zOWsXHnAX+grzccbzn4ZJUtrZaEVj9ChZH2qDdg/70/9O2JiB/ETvMXWkkQ
-s1NYbRa+JyWrr0iNY791zcmsxEmVSB3CA4g5f3dwJCKTnwqJzxLSO/uhbZD0Zyh4
-YtW9J+3g5WUT1rZ7LnJ5apPwXkULDBRLp5iYclYlsiLh+Rqglqu8K/hJPdqRCq5k
-3/XoDaQ4hFjnkpsgVvzkFcwayhHoewillf7PGr6eJwiZQ0FEtAQ0DAdkhbYg0GIz
-+h1hqpBtpPBbgrrv/wiYogbw
-=xYwv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa8QsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8bwP/1Hab7AXl0vx5knxNld4
+GmW853zrnmfWoUNGng7fYG+Alx34WNvdYBMZoWxFao4R9McZT5iI8I9DKHFtT4rS
+ynY8J8BjWJu0nhGoVrmQku4l9TeYV5cNEcfXLgMxDvY7FOHYOwx57SqB/04VvZew
+kzwQdXU+MjlPtOTuR2ndV1Vf/LSfP5bAbyACNGPcN7NFIrYYXvIoapJEQaVOfyk3
+pyVgfBPQSsYhQiBgGCxld9gYpUcwaa9qVZtvKVuzb/NMTwPbgrNlwH33xdPupLzS
+zmHfcYSh9SxFbqFSTxyZjOTQwcjc8KcbqZTYO2QU2M8DipHg4h9ALKT8ehgWm0XK
+dzagXeW9XUsi6Sn8kAnwGYUZakuNtSzoi3/xEMTzHyHcTh5vxH7UOBI864j4VqgB
+aUkVehZPz27pbdEnsOKOu146nhWjqa8R2t66lpIa3mIbxWnYRVz8Fnc9xjuNNcK0
+lbagmSRoOps6dT4R8lQrkZE1sOtLeDabAp70gPxz163nrEKHdSyEQkH6sO2ZypPK
+D6QFmSU2gAh7tSFsZ5Humx9QTH9u9qWE59a2ilPE/VNBA8FZs+9iHYzNneaM/zDs
+Q1KCuns69C9IwGsDePpKmPvn1t7DlHNelz9qXFl/+cVOKDxPjqH9Q8lA988cCHNW
+0qPGaEOsqEaeytKx9R7T4JZE
+=tmK4
 -----END PGP SIGNATURE-----
 
---===============5895449610082840934==--
+--===============9042576903452927242==--
