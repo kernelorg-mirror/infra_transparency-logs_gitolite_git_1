@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 09 Sep 2022 10:35:15 -0000
-Message-Id: <166271971586.620.7895601304109772987@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 10:41:14 -0000
+Message-Id: <166272007496.4396.10353767121825268288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,25 +12,25 @@ repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
   - ref: refs/heads/master-pending
-    old: 1a7c73a669f7b039760087723d176cd54dc40c48
-    new: 036d7ffaeb2d36481a7e1c354b718b9a0225cfa1
+    old: 036d7ffaeb2d36481a7e1c354b718b9a0225cfa1
+    new: d4de3739b6fec86a46b03e9363a3ccd22a8a5823
     log: |
-         bc2360aaa32b78de24c0af2c9d50898e2b8a00da wifi: ath11k: Split PCI write/read functions
-         769b82f1c480cf46d465080c9269aa8948ff7bb9 wifi: ath11k: implement SRAM dump debugfs interface
-         df736035fb8554c7029c2d6d3676fa896d74b5f4 wifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()
-         150673a69f688ac7237f9f741a92ee8995a4bc80 wifi: ath11k: Enable threaded NAPI
-         eea98e91f79e21a5a1380758300cd2b21461b26b wifi: ath11k: Add multi TX ring support for WCN6750
-         5542f7b48baf4667499a7467c12fda88e0726164 wifi: ath11k: Increase TCL data ring size for WCN6750
-         036d7ffaeb2d36481a7e1c354b718b9a0225cfa1 Merge branch 'pending' into master-pending
+         2880c5b0224ded4b57a5b7e2633c0e6ecb33397c wifi: ath11k: Split PCI write/read functions
+         074477aacb419493da6fb4d96fa9d12390c3b40e wifi: ath11k: implement SRAM dump debugfs interface
+         7c31ac418c469222a54124dbd2c5eb55ae0094f3 wifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()
+         5dc4b5815f90285335839b1a53a3b07b97a3fd74 wifi: ath11k: Enable threaded NAPI
+         59ce1684604d07a20035eac34051e1fbffac41a0 wifi: ath11k: Add multi TX ring support for WCN6750
+         1d3b6239c63ff80e82c38c33d4cd650ce45d33db wifi: ath11k: Increase TCL data ring size for WCN6750
+         d4de3739b6fec86a46b03e9363a3ccd22a8a5823 Merge branch 'pending' into master-pending
          
   - ref: refs/heads/pending
-    old: d5609645e1a3f9971b4259f5b52f97abe4214c5b
-    new: 5542f7b48baf4667499a7467c12fda88e0726164
+    old: 5542f7b48baf4667499a7467c12fda88e0726164
+    new: 1d3b6239c63ff80e82c38c33d4cd650ce45d33db
     log: |
-         bc2360aaa32b78de24c0af2c9d50898e2b8a00da wifi: ath11k: Split PCI write/read functions
-         769b82f1c480cf46d465080c9269aa8948ff7bb9 wifi: ath11k: implement SRAM dump debugfs interface
-         df736035fb8554c7029c2d6d3676fa896d74b5f4 wifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()
-         150673a69f688ac7237f9f741a92ee8995a4bc80 wifi: ath11k: Enable threaded NAPI
-         eea98e91f79e21a5a1380758300cd2b21461b26b wifi: ath11k: Add multi TX ring support for WCN6750
-         5542f7b48baf4667499a7467c12fda88e0726164 wifi: ath11k: Increase TCL data ring size for WCN6750
+         2880c5b0224ded4b57a5b7e2633c0e6ecb33397c wifi: ath11k: Split PCI write/read functions
+         074477aacb419493da6fb4d96fa9d12390c3b40e wifi: ath11k: implement SRAM dump debugfs interface
+         7c31ac418c469222a54124dbd2c5eb55ae0094f3 wifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()
+         5dc4b5815f90285335839b1a53a3b07b97a3fd74 wifi: ath11k: Enable threaded NAPI
+         59ce1684604d07a20035eac34051e1fbffac41a0 wifi: ath11k: Add multi TX ring support for WCN6750
+         1d3b6239c63ff80e82c38c33d4cd650ce45d33db wifi: ath11k: Increase TCL data ring size for WCN6750
          
