@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Fri, 09 Sep 2022 17:06:31 -0000
-Message-Id: <166274319113.18472.1538961847577453685@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 17:06:32 -0000
+Message-Id: <166274319294.18535.3992268166109247659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev-queue
     old: 8413c63c7a539a912be8851ce941eea32dcd1786
     new: 2f2f0181581d3e35bfdb9fc65f609ee9d3fbaeb7
     log: |
