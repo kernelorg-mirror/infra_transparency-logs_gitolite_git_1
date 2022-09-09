@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5175023978093672022=="
+Content-Type: multipart/mixed; boundary="===============9090133273368514866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 09 Sep 2022 17:01:17 -0000
-Message-Id: <166274287741.14962.6653043203430941827@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 17:02:30 -0000
+Message-Id: <166274295079.15457.6476112727173319469@gitolite.kernel.org>
 
---===============5175023978093672022==
+--===============9090133273368514866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 2f09707d0c972120bf794cfe0f0c67e2c2ddb252
     new: 64ae13ed478428135cddc2f1113dff162d8112d4
     log: revlist-2f09707d0c97-64ae13ed4784.txt
 
---===============5175023978093672022==
+--===============9090133273368514866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,4 +384,4 @@ df2a60173a61a5acf44fca2cfb2d8d9f5b810a3f Merge git://git.kernel.org/pub/scm/linu
 81225b2ea161af48e093f58e8dfee6d705b16af4 ipvlan: Fix out-of-bound bugs caused by unset skb->mac_header
 64ae13ed478428135cddc2f1113dff162d8112d4 net: core: fix flow symmetric hash
 
---===============5175023978093672022==--
+--===============9090133273368514866==--
