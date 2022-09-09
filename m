@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Sep 2022 13:56:24 -0000
-Message-Id: <166273178476.12354.4396388780696775243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 09 Sep 2022 13:58:28 -0000
+Message-Id: <166273190888.13184.5640807010997814134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/tip
-    old: 8e0e680a4a0eb4dbe6f64d5f501e86b60bc21dfc
-    new: 7b0b4af7faa2b0347b8fe99297272204dfc816ec
-    log: |
-         7b0b4af7faa2b0347b8fe99297272204dfc816ec auto-sched-next: Add sched/psi
-         
+  - ref: refs/tags/riscv-for-linus-6.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: eed0d63df0d660e9f8d4f17cc0847d3a3c40fc81
