@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 09 Sep 2022 13:38:36 -0000
-Message-Id: <166273071675.31128.2386576340453823665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 09 Sep 2022 13:56:24 -0000
+Message-Id: <166273178476.12354.4396388780696775243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: d2b66394293f3181f7745216d77596360f5cac54
-    new: 52ec9850a1cc3dc06c07d84a09db7234ceda3074
+  - ref: refs/heads/tip
+    old: 8e0e680a4a0eb4dbe6f64d5f501e86b60bc21dfc
+    new: 7b0b4af7faa2b0347b8fe99297272204dfc816ec
     log: |
-         52ec9850a1cc3dc06c07d84a09db7234ceda3074 Fri Sep  9 01:37:26 PM UTC 2022
+         7b0b4af7faa2b0347b8fe99297272204dfc816ec auto-sched-next: Add sched/psi
          
