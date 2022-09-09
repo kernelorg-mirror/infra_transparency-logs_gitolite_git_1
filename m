@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 09 Sep 2022 13:58:28 -0000
-Message-Id: <166273190888.13184.5640807010997814134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 09 Sep 2022 14:13:05 -0000
+Message-Id: <166273278522.22809.1827491561066985627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/tags/riscv-for-linus-6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: eed0d63df0d660e9f8d4f17cc0847d3a3c40fc81
+  - ref: refs/heads/master
+    old: 483d4f2e6178321cd60a4cca7774aa94f698fc34
+    new: 15c7379b4d95bbf594bf5402c227119ba707c7cd
+    log: |
+         0e72ce886144dc1ef5b3b0bc90d0a837f82afbe0 auto-t: add more checks to testRRM
+         15c7379b4d95bbf594bf5402c227119ba707c7cd rrm: constrain scan frequency before scanning
+         
