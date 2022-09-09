@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 09 Sep 2022 10:43:37 -0000
-Message-Id: <166272021762.5458.2496877405132340516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 09 Sep 2022 10:46:19 -0000
+Message-Id: <166272037905.8019.6521659357541866409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/renesas-devel-2022-09-09-v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 0a7f069e75ab76bef52522c21e4ceb910427b149
-  - ref: refs/tags/renesas-next-2022-09-09-v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9188d358f4f7e9de6f06b5fbb52e7c58e5c9e1ba
+  - ref: refs/heads/kbuild
+    old: 99ea8da56dca8195082df72dca887d3915f2b255
+    new: 1889bf68ff2373c1ddd8a0ac94b3a36def20f3c0
+    log: |
+         bab1e8d749aa89fa5f1a632e301ea1c3607dd125 kbuild: move vmlinux.o rule to the top Makefile
+         2a634d42267b4be3c7fb32b066f5d6019fc08298 kbuild: unify two modpost invocations
+         d619028270879d2fdf40506c50a1c780a5afb1cc kbuild: use obj-y instead extra-y for objects placed at the head
+         1ff17c7139de88f3a49f397a4ac5c33899c0f9e9 kbuild: remove head-y syntax
+         1889bf68ff2373c1ddd8a0ac94b3a36def20f3c0 kbuild: use objtool-args-y to clean up objtool arguments
+         
