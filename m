@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5408827210386153386=="
+Content-Type: multipart/mixed; boundary="===============6773275729196909772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 09 Sep 2022 18:13:17 -0000
-Message-Id: <166274719765.936.1874043404662596596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 09 Sep 2022 18:16:12 -0000
+Message-Id: <166274737234.3724.18219349343236568523@gitolite.kernel.org>
 
---===============5408827210386153386==
+--===============6773275729196909772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/debugfs_lookup_fix
-    old: 5a6af051d188a70c4b7ea9dfc12b4704c09c19dd
-    new: b659f9527a8a21f1c25f1d5b391c045a1bac719c
-    log: |
-         b659f9527a8a21f1c25f1d5b391c045a1bac719c scsi: stex: properly zero out the passthrough command structure
-         
+  - ref: refs/heads/master
+    old: 9b4509495418a0effe964b0aad9a522be5a3b6d5
+    new: e35ff25f9fda4385249f909bce21c8f759bc46d4
+    log: revlist-9b4509495418-e35ff25f9fda.txt
 
---===============5408827210386153386==
+--===============6773275729196909772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9b4509495418-e35ff25f9fda.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662747193 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662747193-db82a0e607d0ddfd0a170932d5c0f533ad5cefea
+17e4732d1d8a859fbb56e5f050e05d3142b88f96 dt-bindings: riscv: sifive-l2: add a PolarFire SoC compatible
+0dec364ffeb6149aae572ded1e34d4b444c23be6 riscv: dts: microchip: use an mpfs specific l2 compatible
+aded3cad909581c60335037112c4f86bbfe90f17 kunit: fix assert_type for comparison macros
+793f55b2971e3a95d77ad08e9da2a3dc6c946cd7 kunit: fix Kconfig for build-in tests USB4 and Nitro Enclaves
+d958edb9eef115cdd6709face6ab46fefd74324b Merge tag 'dt-fixes-for-palmer-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git into fixes
+2a2dfc869d3345ccdd91322b023f4b0da84acbe7 tools: Add new "test" taint to kernel-chktaint
+a66de5283e16602b74658289360505ceeb308c90 powerpc/pseries: Fix plpks crash on non-pseries
+20e0fbab16003ae23a9e86a64bcb93e3121587ca perf: RISC-V: fix access beyond allocated array
+2fc1171d34deff70bf3a8338adab8ce46138aae3 Merge tag 'powerpc-6.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+22b2e2d6ab35fdef4439e27da2df208014d52eda Merge tag 'riscv-for-linus-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+e35ff25f9fda4385249f909bce21c8f759bc46d4 Merge tag 'linux-kselftest-kunit-fixes-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
-5a6af051d188a70c4b7ea9dfc12b4704c09c19dd b659f9527a8a21f1c25f1d5b391c045a1bac719c refs/heads/debugfs_lookup_fix
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMbgjkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5TMQAKpCLpuEckOrjUz4aqRF
-0zGj0bhrWvXZEUt2EgmPkX2rLiMc6vAZHBcmimN3BcwDSb1NpObBdDrUFUBEtryv
-dJHb9cbiTGk631GaKPvHqQ4VLD2nsAi0wiGNuFBUsLL9T04HTXlkEbKbn8Y2UIDS
-DVoeWGQcERgCWcekfEtYFoygxJQolaLFQQTtCDIoEAur8Uip2LlHrIjbftmJeh7R
-tvMhjlWSvhxcCm4oNo5CARtuyvMNzcgKsV7QbvprSt3tD7GWLy3pRf8sReYtFvqm
-aSpWhs2XsSldBm9EImHoaAbxbV6FPOEsz+wZyyBAMo6UNusZEQbOoeRKGBR4aixQ
-KmemWFHGCnrLF7mxO9DnOuhwW3tXwWGQtmW4Z3S70+DfsMkIIKsA26AxWLdDGEtX
-/Zy/CqCqEFnTbqevWvYT1W3jejLdrCtLLCUjGDAtFXSCzC4cosSV+A9FfzzUaX7G
-H5AczFPRGn54iDeYmZjnTn+eqNpgvwKGFLs6VLYXs260zLlhmbY1s8r3a+/1jW2k
-k2xb4tWT9zLzosOwWKahYBTVWSCbG/lP41m8O/uVmae4dsl0kJldDIR6Yvfb8Kg9
-iRf+nKx8Kt02IEvh0yy9DJzjb7UArk5ONdeU2Q/NYOoBDuh/6KfioeJXJ4Vf4fbz
-Q3QN+jGBGLyr8F8+iFPH1U2l
-=JtV/
------END PGP SIGNATURE-----
-
---===============5408827210386153386==--
+--===============6773275729196909772==--
