@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 09 Sep 2022 15:04:46 -0000
-Message-Id: <166273588623.27965.2037091237309228712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Fri, 09 Sep 2022 15:06:58 -0000
+Message-Id: <166273601864.30306.161560915641837865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/dt/next
-    old: 472d7b9e8141729ec1e3fe6821b88563f6379533
-    new: 13ef76d89d62809258d04807c9667c875e209690
-    log: |
-         d5e3050c0feb8bf7b9a75482fafcc31b90257926 of/fdt: Don't calculate initrd size from DT if start > end
-         13ef76d89d62809258d04807c9667c875e209690 dt-bindings: qcom,pdc: convert to YAML
-         
-  - ref: refs/heads/for-next
-    old: 472d7b9e8141729ec1e3fe6821b88563f6379533
-    new: 13ef76d89d62809258d04807c9667c875e209690
-    log: |
-         d5e3050c0feb8bf7b9a75482fafcc31b90257926 of/fdt: Don't calculate initrd size from DT if start > end
-         13ef76d89d62809258d04807c9667c875e209690 dt-bindings: qcom,pdc: convert to YAML
-         
+  - ref: refs/tags/samsung-drivers-6.1
+    old: 0000000000000000000000000000000000000000
+    new: 13f663f1dbeb0f0235b1079a1245369cab216051
+  - ref: refs/tags/samsung-dt64-6.1
+    old: 0000000000000000000000000000000000000000
+    new: 2e574d10971eec72fe015f81d37af596885e5e85
