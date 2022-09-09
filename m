@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6062509170604365940=="
+Content-Type: multipart/mixed; boundary="===============0802568610451911894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 09 Sep 2022 09:41:14 -0000
-Message-Id: <166271647436.26699.842460799159881252@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 09:41:22 -0000
+Message-Id: <166271648207.26801.6319401228956777194@gitolite.kernel.org>
 
---===============6062509170604365940==
+--===============0802568610451911894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/for_next
-    old: 5b02b6900c8d7f258f5ec5b0410a0168336f9b8a
+  - ref: refs/heads/fsnotify
+    old: feee1ce45a5666bbdb08c5bb2f5f394047b1915b
     new: f847c74d6e89f10926db58649a05b99237258691
-    log: revlist-5b02b6900c8d-f847c74d6e89.txt
+    log: revlist-feee1ce45a56-f847c74d6e89.txt
 
---===============6062509170604365940==
+--===============0802568610451911894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b02b6900c8d-f847c74d6e89.txt
+Content-Disposition: attachment; filename=revlist-feee1ce45a56-f847c74d6e89.txt
 
 27b8d4d7a0cf442b7a0351fecc33b714f4208324 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net -queue
 7396ba87f1edf549284869451665c7c4e74ecd4f net: fix potential refcount leak in ndisc_router_discovery()
@@ -1051,4 +1051,4 @@ d2ec799d1c1be847d6a70704fe586ac4d14265c8 Merge tag 'erofs-for-6.0-rc5-fixes' of 
 0066f1b0e27556381402db3ff31f85d2a2265858 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
 f847c74d6e89f10926db58649a05b99237258691 fsnotify: remove unused declaration
 
---===============6062509170604365940==--
+--===============0802568610451911894==--
