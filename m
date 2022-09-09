@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Fri, 09 Sep 2022 17:49:50 -0000
-Message-Id: <166274579031.15397.18166806909149440712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 09 Sep 2022 17:50:04 -0000
+Message-Id: <166274580434.17068.16590061948358039976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/perf/bperf-cgrp-fix-v1
+  - ref: refs/tags/block-6.0-2022-09-09
     old: 0000000000000000000000000000000000000000
-    new: 829a8eddab19ec3e5c73f91777b5c068691d9849
+    new: 2c705618c703660f5d2da4e312949b553fd77820
+  - ref: refs/tags/io_uring-6.0-2022-09-09
+    old: 0000000000000000000000000000000000000000
+    new: b7e36bbadca78f9f0fa2f6088a9ab8f78c71f17b
