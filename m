@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4612002691558450949=="
+Content-Type: multipart/mixed; boundary="===============6329401178579440937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Fri, 09 Sep 2022 00:03:35 -0000
-Message-Id: <166268181504.24737.16986858242783065681@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 00:08:28 -0000
+Message-Id: <166268210800.28005.9180840560605314132@gitolite.kernel.org>
 
---===============4612002691558450949==
+--===============6329401178579440937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mcgrof/linux
 user: mcgrof
 changes:
-  - ref: refs/heads/sysctl-testing
-    old: 105be3ab7c756680760dcdaf07c053187699bc0a
-    new: c06a17fe056b84f5784b2f13753870eb65edc9ed
-    log: revlist-105be3ab7c75-c06a17fe056b.txt
+  - ref: refs/heads/modules-testing
+    old: 554694ba120b87e39cf732ed632e6a0c52fafb7c
+    new: 77d6354bd422c8a451ef7d2235322dbf33e7427b
+    log: revlist-554694ba120b-77d6354bd422.txt
 
---===============4612002691558450949==
+--===============6329401178579440937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-105be3ab7c75-c06a17fe056b.txt
+Content-Disposition: attachment; filename=revlist-554694ba120b-77d6354bd422.txt
 
+edf79efcc9d0cf38fcc1efe688fd697b9bb0ddc4 NFS: Remove a bogus flag setting in pnfs_write_done_resend_to_mds
+5f6277a0c15e1ea54b6fd3d78c9fff7bfe42556c NFS: Cleanup to remove unused flag NFS_CONTEXT_RESEND_WRITES
+099b157c08e8e8faa622d4bb70826ae179248fd4 perf jevent: Add an 'all' architecture argument
 f793ae185e27645ad83942ef6fffd901b8169941 perf jevents: Remove the type/version variables
 ee2ce6fdc8021979346f71056938c60335a7570c perf jevents: Provide path to JSON file on error
 7b2f844c43cef59740095dfa1f6366f3dfb318dc perf jevents: Sort JSON files entries
@@ -1045,10 +1048,7 @@ b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat 
 685ed983e2dc330680a076a1fd37ebe04017df91 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5995497296ade7716c8e70899e02235f2b6d9f5d Merge tag 'powerpc-6.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
-9a5213593caa2ba7e13a24c86b55b04698d61d14 proc: remove initialization assignment
-8ebc4123c1445ef11a9989d9bc676691a1d43302 kernel/sysctl.c: remove unnecessary (void*) conversions
-feb2bd010aec77a1cf981d2649183c64cd4870a0 sysctl: remove max_extfrag_threshold
-b13bc7cbb931727b1b0a63594cd734bfd979e985 kernel/sysctl.c: move sysctl_vals and sysctl_long_vals to sysctl.c
-c06a17fe056b84f5784b2f13753870eb65edc9ed kernel/sysctl-test: use SYSCTL_{ZERO/ONE_HUNDRED} instead of i_{zero/one_hundred}
+beef988c2085e197ea5f36144dc753aff5b2e7af module: Add debugfs interface to view unloaded tainted modules
+77d6354bd422c8a451ef7d2235322dbf33e7427b module/decompress: generate sysfs string at compile time
 
---===============4612002691558450949==--
+--===============6329401178579440937==--
