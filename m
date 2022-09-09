@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 09 Sep 2022 13:03:04 -0000
-Message-Id: <166272858496.6630.3939414606270790516@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 13:11:44 -0000
+Message-Id: <166272910400.12905.13912534284231818720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 5134272f9f3f71d4e1f3aa15cb09321af49b3646
-    new: 3af20d2723be5f70e1ce818504a4c093a81b21f5
+  - ref: refs/heads/gpio/for-current
+    old: 279c12df8d2efb28def9d037f288cbfb97c30fe2
+    new: 826e0f2b3ba952bbcf54e0d616f8af29743d2c76
     log: |
-         3af20d2723be5f70e1ce818504a4c093a81b21f5 dt-bindings: gpio: renesas,rcar-gpio: Add r8a779g0 support
+         826e0f2b3ba952bbcf54e0d616f8af29743d2c76 MAINTAINERS: Update HiSilicon GPIO Driver maintainer
          
