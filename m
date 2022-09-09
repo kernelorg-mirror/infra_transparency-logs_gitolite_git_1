@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6034883860873793079=="
+Content-Type: multipart/mixed; boundary="===============0368764329631928295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Sep 2022 08:17:57 -0000
-Message-Id: <166271147742.17186.9855367433105451308@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 08:18:32 -0000
+Message-Id: <166271151264.17461.10513214605049341401@gitolite.kernel.org>
 
---===============6034883860873793079==
+--===============0368764329631928295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: b8b09110cf290fdab4006b717da7a776ffb0cb73
-    new: a45f706c3a9f7bfb0a06d35a8a89493d24bed6b3
-    log: revlist-b8b09110cf29-a45f706c3a9f.txt
+    new: 132bde89b5234d0ca8909775b354c48b214e1abc
+    log: revlist-b8b09110cf29-132bde89b523.txt
+  - ref: refs/heads/master
+    old: a45f706c3a9f7bfb0a06d35a8a89493d24bed6b3
+    new: 132bde89b5234d0ca8909775b354c48b214e1abc
+    log: revlist-a45f706c3a9f-132bde89b523.txt
 
---===============6034883860873793079==
+--===============0368764329631928295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8b09110cf29-a45f706c3a9f.txt
+Content-Disposition: attachment; filename=revlist-b8b09110cf29-132bde89b523.txt
 
 46f7ac3d7892e808c9ba01c39da6bb85cda26ecd spi: bitbang: Fix lsb-first Rx
 f5723cfc01932c7a8d5c78dbf7e067e537c91439 regmap: spi: Reserve space for register address/padding
@@ -101,6 +105,48 @@ f280b9872af1f58760b7731e973de57ffccfb0a4 Merge tag 'efi-urgent-for-v6.0-1' of gi
 b1d27aa3b16a4689d5598abc545a88e5cda93f1d Merge tag 'regmap-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 c5e68c4fa55c0d65e28b4b566b50aee6c4185dab Merge tag 'regulator-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 506357871c18e06565840d71c2ef9f818e19f460 Merge tag 'spi-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-a45f706c3a9f7bfb0a06d35a8a89493d24bed6b3 Merge branch 'linus'
+457fbfe05065241325706dec941a4b94a8ec1d6d Merge branch into tip/master: 'perf/urgent'
+e2f8b760201c3a4d02b1aeb8f3ed2d26cb9ecd0a Merge branch into tip/master: 'x86/urgent'
+41d38f3a3b3b49204df974ccfdbb2689f0b5dd76 Merge branch into tip/master: 'locking/core'
+a7e81e9b11ee6bb886c53771621db0457c1750d9 Merge branch into tip/master: 'objtool/core'
+1369fb3372859f10e719b0b851b4dcd44f048ced Merge branch into tip/master: 'perf/core'
+e208a23e3f18c61af5907b2b1ac7351fd8180e3c Merge branch into tip/master: 'ras/core'
+94812e1bb4944f0f1d4a07d07a2e563b6fe52b0a Merge branch into tip/master: 'sched/core'
+0cb0578258ead56ba64208fa95c6b5c83816d7a6 Merge branch into tip/master: 'x86/apic'
+19daac90c00ad72adbeacf47c7651fc9fceb4c0b Merge branch into tip/master: 'x86/cache'
+50dce7e9b6541b12d052bb742b5048cbac519028 Merge branch into tip/master: 'x86/cleanups'
+7bf71a66e85a714bdf0b268c087890701a2db1e2 Merge branch into tip/master: 'x86/core'
+2573e8c38335ff60bab5cfc6d06547db1b82a9b6 Merge branch into tip/master: 'x86/cpu'
+332eaed5d3bf08adb97b4aa571347e4eb7e90393 Merge branch into tip/master: 'x86/microcode'
+248ea45f03b186718b81ae1b2262e041e58b4a86 Merge branch into tip/master: 'x86/misc'
+daa62a4aac433503f7d733137587fc9803a41c5c Merge branch into tip/master: 'x86/mm'
+948c41ddf7cdc47ffe75862d1b23995dde181c18 Merge branch into tip/master: 'x86/platform'
+4d5cb4ce8db60efdef271f487005fbecaf5316f8 Merge branch into tip/master: 'x86/sgx'
+132bde89b5234d0ca8909775b354c48b214e1abc Merge branch into tip/master: 'x86/timers'
 
---===============6034883860873793079==--
+--===============0368764329631928295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a45f706c3a9f-132bde89b523.txt
+
+457fbfe05065241325706dec941a4b94a8ec1d6d Merge branch into tip/master: 'perf/urgent'
+e2f8b760201c3a4d02b1aeb8f3ed2d26cb9ecd0a Merge branch into tip/master: 'x86/urgent'
+41d38f3a3b3b49204df974ccfdbb2689f0b5dd76 Merge branch into tip/master: 'locking/core'
+a7e81e9b11ee6bb886c53771621db0457c1750d9 Merge branch into tip/master: 'objtool/core'
+1369fb3372859f10e719b0b851b4dcd44f048ced Merge branch into tip/master: 'perf/core'
+e208a23e3f18c61af5907b2b1ac7351fd8180e3c Merge branch into tip/master: 'ras/core'
+94812e1bb4944f0f1d4a07d07a2e563b6fe52b0a Merge branch into tip/master: 'sched/core'
+0cb0578258ead56ba64208fa95c6b5c83816d7a6 Merge branch into tip/master: 'x86/apic'
+19daac90c00ad72adbeacf47c7651fc9fceb4c0b Merge branch into tip/master: 'x86/cache'
+50dce7e9b6541b12d052bb742b5048cbac519028 Merge branch into tip/master: 'x86/cleanups'
+7bf71a66e85a714bdf0b268c087890701a2db1e2 Merge branch into tip/master: 'x86/core'
+2573e8c38335ff60bab5cfc6d06547db1b82a9b6 Merge branch into tip/master: 'x86/cpu'
+332eaed5d3bf08adb97b4aa571347e4eb7e90393 Merge branch into tip/master: 'x86/microcode'
+248ea45f03b186718b81ae1b2262e041e58b4a86 Merge branch into tip/master: 'x86/misc'
+daa62a4aac433503f7d733137587fc9803a41c5c Merge branch into tip/master: 'x86/mm'
+948c41ddf7cdc47ffe75862d1b23995dde181c18 Merge branch into tip/master: 'x86/platform'
+4d5cb4ce8db60efdef271f487005fbecaf5316f8 Merge branch into tip/master: 'x86/sgx'
+132bde89b5234d0ca8909775b354c48b214e1abc Merge branch into tip/master: 'x86/timers'
+
+--===============0368764329631928295==--
