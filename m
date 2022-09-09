@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 09 Sep 2022 09:44:37 -0000
-Message-Id: <166271667743.28074.16040577555279908439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 09 Sep 2022 09:45:35 -0000
+Message-Id: <166271673500.30040.13073118922088422857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/pci/dwc
-    old: e99d8c5e803b9a9f0b5a84165dad3b8895446147
-    new: 2023f9c9190e657b9853a442899a52b14253aea3
+  - ref: refs/heads/for-next
+    old: b7531401aadf5b0b9d3eca31290e17475b8c2103
+    new: 2ea556524fbf7a082243bcbe1220395b32fe9f98
     log: |
-         2023f9c9190e657b9853a442899a52b14253aea3 PCI: dwc: Replace of_gpio_named_count() by gpiod_count()
+         2ea556524fbf7a082243bcbe1220395b32fe9f98 dt-bindings: nvmem: Add SoC compatible for sm6115
          
