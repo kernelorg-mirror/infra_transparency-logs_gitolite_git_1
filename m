@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 09 Sep 2022 10:46:19 -0000
-Message-Id: <166272037905.8019.6521659357541866409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 09 Sep 2022 10:46:41 -0000
+Message-Id: <166272040158.8244.5522437601908043689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/kbuild
-    old: 99ea8da56dca8195082df72dca887d3915f2b255
-    new: 1889bf68ff2373c1ddd8a0ac94b3a36def20f3c0
+  - ref: refs/heads/master
+    old: 6fff926141416a971fcdf7fb71fff404ee53ad47
+    new: 169ccf0e40825d9e465863e4707d8e8546d3c3cb
     log: |
-         bab1e8d749aa89fa5f1a632e301ea1c3607dd125 kbuild: move vmlinux.o rule to the top Makefile
-         2a634d42267b4be3c7fb32b066f5d6019fc08298 kbuild: unify two modpost invocations
-         d619028270879d2fdf40506c50a1c780a5afb1cc kbuild: use obj-y instead extra-y for objects placed at the head
-         1ff17c7139de88f3a49f397a4ac5c33899c0f9e9 kbuild: remove head-y syntax
-         1889bf68ff2373c1ddd8a0ac94b3a36def20f3c0 kbuild: use objtool-args-y to clean up objtool arguments
+         0c126ec3ddcc81448315e73d196a5a2f42cfd6b4 net: ipa: always use transaction IDs instead of lists
+         11902b41f2fa3960280b3a3b17474caa22b54cba net: ipa: kill the allocated transaction list
+         d338ae28d8a866c57fcac38f3d77bcc1d1702d19 net: ipa: kill all other transaction lists
+         e0e3406c60d7e5b004cc3059dea6c7574d26ca66 net: ipa: update channel in gsi_channel_trans_complete()
+         019e37eaef97d99285390b6eb42410a54a5d6412 net: ipa: don't have gsi_channel_update() return a value
+         6988c1d37787427b86b05ae8142861a0e8d3e396 Merge branch 'net-ipa-next'
+         169ccf0e40825d9e465863e4707d8e8546d3c3cb net: openvswitch: fix repeated words in comments
          
