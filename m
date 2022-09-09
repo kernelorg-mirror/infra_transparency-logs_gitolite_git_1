@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9090133273368514866=="
+Content-Type: multipart/mixed; boundary="===============0321035296128864968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 09 Sep 2022 17:02:30 -0000
-Message-Id: <166274295079.15457.6476112727173319469@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 17:02:35 -0000
+Message-Id: <166274295565.15555.18398221394520683712@gitolite.kernel.org>
 
---===============9090133273368514866==
+--===============0321035296128864968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 2f09707d0c972120bf794cfe0f0c67e2c2ddb252
-    new: 64ae13ed478428135cddc2f1113dff162d8112d4
-    log: revlist-2f09707d0c97-64ae13ed4784.txt
+  - ref: refs/heads/net-next-mlx4
+    old: 75554fe00f941c3c3d9344e88708093a14d2b4b8
+    new: 169ccf0e40825d9e465863e4707d8e8546d3c3cb
+    log: revlist-75554fe00f94-169ccf0e4082.txt
 
---===============9090133273368514866==
+--===============0321035296128864968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f09707d0c97-64ae13ed4784.txt
+Content-Disposition: attachment; filename=revlist-75554fe00f94-169ccf0e4082.txt
 
 deffa2d75db7e7a9a1fe3dad4f99310bff7b6449 drm/msm/dp: make eDP panel as the first connected connector
 2f25a1fb4ec516c5ad67afd754334b491b9f09a5 drm/msm/dsi: fix the inconsistent indenting
@@ -172,6 +172,7 @@ c7acee3d2f128a38b68fb7af85dbbd91bfd0b4ad powerpc: align syscall table for ppc32
 91926d8b7e71aaf5f84f0cf208fc5a8b7a761050 powerpc/rtas: Fix RTAS MSR[HV] handling for Cell
 ee653d2d8f7c935a00f01a7654d889e8ce55b00e platform/x86: asus-wmi: Fix the name of the mic-mute LED classdev
 343b62048ba4cec6b8b890092bcc200e1eb83424 platform/x86: thinkpad_acpi: Explicitly set to balanced mode on startup
+fa3fbe64037839f448dc569212bafc5a495d8219 wifi: mt76: mt7921e: fix crash in chip reset fail
 dfb58b1796d19c8405a38eb457f97669440c59d4 io_uring/net: fix overexcessive retries
 98e01215708b6d416345465c09dce2bd4868c67a Input: iforce - wake up after clearing IFORCE_XMIT_RUNNING flag
 303e6da99429510b1e4edf833afe90ac8542e747 gpio: mockup: remove gpio debugfs when remove device
@@ -228,6 +229,8 @@ b46a6b09fa056042a302b181a1941f0056944603 usb: cdns3: fix issue with rearming ISO
 c063643cb33b05b5cb14bc3fd318fad58e8f83bb Merge tag 'peci-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/iwi/linux into char-misc-linus
 5ef251b9b73ff9f62aa5ac60427af05b2b594a55 Merge tag 'mhi-fixes-for-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-linus
 e230a4455ac3e9b112f0367d1b8e255e141afae0 staging: rtl8712: fix use after free bugs
+40b717bfcefab28a0656b8caa5e43d5449e5a671 wifi: wilc1000: fix DMA on stack objects
+6d0ef7241553f3553a0a2764c69b07892705924c wifi: iwlegacy: 4965: corrected fix for potential off-by-one overflow in il4965_rs_fill_link_cmd()
 ff03b8846705e517f878585cf66c5d8fca1c38b2 s390/mm: remove useless hugepage address alignment
 c9305b6c1f52060377c72aebe3a701389e9f3172 s390: fix nospec table alignments
 bdbf57bca6bf0b76a0f2681014552b25917c26e1 s390: update defconfigs
@@ -265,6 +268,9 @@ addf7efec23af2b67547800aa232d551945e7de2 ARM: dts: at91: sama5d27_wlsom1: specif
 617a0d9fe6867bf5b3b7272629cd780c27c877d9 ARM: dts: at91: sama5d27_wlsom1: don't keep ldo2 enabled all the time
 3d074b750d2b4c91962f10ea1df1c289ce0d3ce8 ARM: dts: at91: sama5d2_icp: don't keep vdd_other enabled all the time
 58bfe7d8e31014d7ce246788df99c56e3cfe6c68 Revert "usb: add quirks for Lenovo OneLink+ Dock"
+b118509076b39cc5e616c0680312b5caaca535fe netfilter: remove nf_conntrack_helper sysctl and modparam toggles
+d047283a7034140ea5da759a494fd2274affdd46 netfilter: br_netfilter: Drop dst references before setting.
+77972a36ecc4db7fc7c68f0e80714263c5f03f65 netfilter: nf_tables: clean up hook list when offload flags check fails
 518e26f11af2fe4f5bebf9a0351595d508c7077f gpio: pca953x: Add mutex_lock for regcache sync in PM
 ceb4038472a4803e7046ed488b03d11551991514 USB: serial: cp210x: add Decagon UCA device id
 814816d71e29934d0a76ee259b54c0b80c3b0e4a powerpc: Fix hard_irq_disable() with sanitizer
@@ -273,9 +279,16 @@ ceb4038472a4803e7046ed488b03d11551991514 USB: serial: cp210x: add Decagon UCA de
 ee0175b3b44288c74d5292c2a9c2c154f6c0317e gpio: realtek-otto: switch to 32-bit I/O
 abb5f3f4b1f5f0ad50eb067a00051d3587dec9fb Revert "clk: core: Honor CLK_OPS_PARENT_ENABLE for clk gate ops"
 39c84b8e929dbd4f63be7e04bf1a2bcd92b44177 drm/amd/amdgpu: skip ucode loading if ucode_size == 0
+0efe125cfb99e6773a7434f3463f7c2fa28f3a43 netfilter: nf_conntrack_irc: Fix forged IP logic
 a54569b1f9721be11ca5b2c8a8bb3c652ebf576c Merge tag 'drm-intel-fixes-2022-08-26' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 4ef3f2aff1267bfa6d5a90c42a30b927b8aa239b soundwire: qcom: fix device status array range
 a6aedb58a887aa2ea142ee914ff4030d019584bf Merge tag 'usb-serial-6.0-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+ac56a0b48da86fd1b4389632fb7c4c8a5d86eefa rxrpc: Fix ICMP/ICMP6 error handling
+0d40f728e28393a8817d1fcae923dfa3409e488c rxrpc: Fix an insufficiently large sglist in rxkad_verify_packet_2()
+d3d863036d688313f8d566b87acd7d99daf82749 rxrpc: Fix local destruction being repeated
+214a9dc7d852216e83acac7b75bc18f01ce184c2 rxrpc: Fix calc of resend age
+7903192c4b4a82d792cb0dc5e2779a2efe60d45b afs: Use the operation issue time instead of the reply time for callbacks
+21457f4a91cb522f1a3ad9741ff1d25fadfaa3c5 rxrpc: Remove rxrpc_get_reply_time() which is no longer used
 4831be702b95047c89b3fa5728d07091e9e9f7c9 arm64/kexec: Fix missing extra range for crashkres_low.
 e62b9e6f25fc99be07c3b7b284262ee74ed645a9 arm64: head: Ignore bogus KASLR displacement on non-relocatable kernels
 6bb0d64c100091e131cd16710b62fda3319cd0af perf/arm_pmu_platform: fix tests for platform_get_irq() failure
@@ -313,6 +326,7 @@ d7df5e2834d3f81412a669586d685bc87f18f7d7 Merge tag 'drm-msm-fixes-2022-08-27' of
 35906d23cf036857738d49b0d9388376145dc017 Merge tag 'kvm-riscv-fixes-6.0-1' of https://github.com/kvm-riscv/linux into HEAD
 29250ba51bc1cbe8a87e923f76978b87c3247a8c Merge tag 'kvm-s390-master-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 bfe632f6d0a1371784dd9a11fa5a9aa2dbf53bf1 Merge tag 'drm-intel-fixes-2022-09-01' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+7fdc77665f3d45c9da7c6edd4beadee9790f43aa Revert "net: phy: meson-gxl: improve link-up behavior"
 0f022aaac9ff2ceff683231b43923c650c90b47e Merge tag 'soundwire-6.0-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-linus
 fe0a2ac7c627b064c479ad0c3b25e531d342e048 Revert "usb: gadget: udc-xilinx: replace memcpy with memcpy_toio"
 684c68d92e2e1b97fa2f31c35c1b0f7671a8618a Revert "powerpc/irq: Don't open code irq_soft_mask helpers"
@@ -327,25 +341,47 @@ e9ea0b30ada008f4e65933f449db6894832cb242 xen/grants: prevent integer overflow in
 9a472613f5bccf1b36837423495ae592a9c5182f soc: fsl: select FSL_GUTS driver for DPIO
 194bebfea5a4e4fddc4c9128ee0a81f0ec4d2e10 Merge tag 'at91-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
 12f09234bde51810b3f7412b2b5c84af4c07cfb1 Merge tag 'renesas-fixes-for-v6.0-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+9efd23297cca530bb35e1848665805d3fcdd7889 sch_sfb: Don't assume the skb is still around after enqueueing to child
+e2b224abd9bf45dcb55750479fc35970725a430b tipc: fix shift wrapping bug in map_get()
+3261400639463a853ba2b3be8bd009c2a8089775 tcp: TX zerocopy should not sense pfmemalloc status
+e7506d344bf180096a86ec393515861fb5245915 Merge tag 'rxrpc-fixes-20220901' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 55e55920bbe3ccf516022c51f5527e7d026b8f1d landlock: Fix file reparenting without explicit LANDLOCK_ACCESS_FS_REFER
+7e753eb675f0523207b184558638ee2eed6c9ac2 ice: Fix DMA mappings leak
+59ac325557b6c14f1f793b90d3946bc145ffa085 ice: use bitmap_free instead of devm_kfree
 7a3d2225f1ae9e591fefd65c3bb1715dc54d96f1 Documentation: document ublk
 cf3488fa25cdfdd220dcc927ca30ea7256b037e0 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 1a2f6a3722a7c127817af24efb309e5bf70afe36 Merge tag 'platform-drivers-x86-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 fd59585c420df1fc2df33bea2ed925b3373fbae2 Merge tag 'usb-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 ffb384c269dce238c588e0e8e3a85c0ec098a904 Merge tag 'char-misc-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0b3acd1cc0222953035d18176b1e4aa06624fd6e Merge tag 'driver-core-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+45bb006d3c924b1201ed43c87a96b437662dcaa8 i40e: Fix ADQ rate limiting for PF
+fb8396aeda5872369a8ed6d2301e2c86e303c520 i40e: Fix kernel crash during module removal
+aa626da947e9cd30c4cf727493903e1adbb2c0a0 iavf: Detach device during reset task
+be318363daa2939453b4d80981de3e9c28b66135 Bluetooth: hci_sync: Fix hci_read_buffer_size_sync
 1e8e515edd6dbe15b86003d846fee005c12c0685 Merge tag 'drm-fixes-2022-09-02' of git://anongit.freedesktop.org/drm/drm
 b307e704574bd4187d4f46212e7ea8189b53f9ab Merge tag 'mmc-v6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 0c95f02269a1ef6c3fae4f46bbdd7a4578d44b8f Merge tag 'landlock-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 1551f8f21e007e608fff00cf27caac8504283b43 Merge tag '6.0-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 cec53f4c8df0b3f45796127a31c10b86ec125f55 Merge tag 'io_uring-6.0-2022-09-02' of git://git.kernel.dk/linux-block
 d895ec7938c431fe61a731939da76a6461bc6133 Merge tag 'block-6.0-2022-09-02' of git://git.kernel.dk/linux-block
+05a5474efe93054893f1a7936398381e23ecea60 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+7d650df99d528f674cc744719a00a20be1f912f8 net: fec: add pm_qos support on imx6q platform
+b353b241f1eb9b6265358ffbe2632fdcb563354f net: fec: Use a spinlock to guard `fep->ptp_clk_on`
+c55f34b6aec2a8cb47eadaffea773e83bf85de91 xen-netback: only remove 'hotplug-status' when the vif is actually destroyed
+3015c50384743eb14d20c907a400e10225da033b net: dsa: microchip: fix kernel oops on ksz8 switches
+cf5c15d1e966c2e0c93a19e05ec164d83639b1d7 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+d9c0103b9cb0e26272ac4d9a5912ab79e408fa83 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 1429cfde90dc9c84789884d58ecd3bc2cad3dc9f LoongArch: Avoid orphan input sections
 0163005374598721e68b1f7dd84b53ce34b71889 LoongArch: Adjust arch_do_signal_or_restart() to adapt generic entry
 ad6846196ab62287e3ba094bb52647132f1998cd LoongArch: Improve dump_tlb() output messages
 e0fba87c854347007fb9fc873e890b686cc61302 LoongArch: Fix section mismatch due to acpi_os_ioremap()
 1a470ce4e9106cc4c3c0edfb2e213dcbb7224dc4 LoongArch: Fix arch_remove_memory() undefined build error
 ac9284db6b7b4af150940186b633a233d4ca2bed LoongArch: mm: Remove the unneeded result variable
+4a86c5462616e0d690ad3c94dc84c3b5f1ea5631 wifi: mac80211: fix link warning in RX agg timer expiry
+7a2c6d1616be5d49c0dae2c876af3fe20e71a111 wifi: mac80211: mlme: release deflink channel in error case
+69371801f929ff4b3c846a45b9d49db631897cd9 wifi: mac80211: fix locking in auth/assoc timeout
+8c0427842aaef161a38ac83b7e8d8fe050b4be04 wifi: mac80211_hwsim: check length for virtio packets
+2aec909912da55a6e469fd6ee8412080a5433ed2 wifi: use struct_group to copy addresses
 8782fb61cc848364e1e1599d76d3c9dd58a1cc06 mm: pagewalk: Fix race between unmap and page walker
 777464261d12f4b011fff68de36a4a1075691cd9 Merge tag 'hwmon-for-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 9a61442cba0e93de5e505b9f43d04d1afa6f18c1 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
@@ -360,28 +396,101 @@ fa1329f9e402c1351ad821080eba9b7cda758ac6 gpio: 104-idi-48: Make irq_chip immutab
 410a5041aa60d91ff66a861560e7c879d664270f gpio: 104-idio-16: Make irq_chip immutable
 6890381720b27a41f2d9e68cce241336342ea3b7 gpio: ws16c48: Make irq_chip immutable
 7726d4c3e60bfe206738894267414a5f10510f1a Merge tag 'gpio-fixes-for-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+c90714017cb3f197e71c7ff1317335b96d4d19e8 Merge tag 'wireless-2022-09-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat for clang; take 2
 685ed983e2dc330680a076a1fd37ebe04017df91 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5995497296ade7716c8e70899e02235f2b6d9f5d Merge tag 'powerpc-6.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
+b7f14132bf58256e841774ae07d3ffb7a841c2bc bonding: use unspecified address if no available link local address
+fd16eb948ea8b28afb03e11a5b11841e6ac2aa2b bonding: add all node mcast address when slave up
+592335a4164c3c41f57967223a1e1efe3a0c6eb3 bonding: accept unsolicited NA message
+060ad609fa38e9a62fd5f79d0aaf83f94e6f0e36 Merge branch 'bonding-fixes'
+84a53580c5d2138c7361c7c3eea5b31827e63b35 ipv6: sr: fix out-of-bounds read when setting HMAC data.
+fe2c9c61f668cde28dac2b188028c5299cedcc1e net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()
+1621e70fc79d77dfeef4e4ba90e125405a274db3 stmmac: intel: Simplify intel_eth_pci_remove()
+beb432528c79e9613c85d250295288ef4beb14d7 Merge tag 'for-net-2022-09-02' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 5bd9628b784cc5e38e1c7ebb680bbd6ee741230e erofs: fix error return code in erofs_fscache_{meta_,}read_folio
 ea0b7b0d59e81a9c1bc03f8696bb04851bc2ad22 erofs: avoid the potentially wrong m_plen for big pcluster
 2f44013e39984c127c6efedf70e6b5f4e9dcf315 erofs: fix pcluster use-after-free on UP platforms
 53e99dcff61e1523ec1c3628b2d564ba15d32eb7 Merge tag 'soc-fixes-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+686dc2db2a0fdc1d34b424ec2c0a735becd8d62b tcp: fix early ETIMEDOUT after spurious non-SACK RTO
+42b998d4aa59b9dea51665e4f3be1d733c47e2bf net: dsa: qca8k: fix NULL pointer dereference for of_device_get_match_data
+e1091e226a2bab4ded1fe26efba2aee1aab06450 net: usb: qmi_wwan: add Quectel RM520N
 d2ec799d1c1be847d6a70704fe586ac4d14265c8 Merge tag 'erofs-for-6.0-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 19f516ea34f943edd5bfe9ca0c0050a7660c230c Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 0066f1b0e27556381402db3ff31f85d2a2265858 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
 7a1ec84ffba9e90ac772ddb33ea9c3899ed8d2c9 efi/x86: libstub: remove unused variable
-39aebedeaaa95757f5c1f2ddb5f43fdddbf478ca netfilter: nf_conntrack_sip: fix ct_sip_walk_headers
-25b327d4f818b9d41265ea3eea26d805216589b8 selftests: nft_concat_range: add socat support
-e8d5dfd1d8747b56077d02664a8838c71ced948e netfilter: nf_conntrack_irc: Tighten matching on DCC message
-559c36c5a8d730c49ef805a72b213d3bba155cc8 netfilter: nfnetlink_osf: fix possible bogus match in nf_osf_find()
+11afdc6526de0e0368c05da632a8c0d29fc60bb8 net: dsa: felix: tc-taprio intervals smaller than MTU should send at least one packet
+843794bbdef83955ae5b43dfafc355c3786e2145 net: dsa: felix: disable cut-through forwarding for frames oversized for tc-taprio
+a4bb481aeb9d84cb53112a478e6db4705b794c34 net: dsa: felix: access QSYS_TAG_CONFIG under tas_lock in vsc9959_sched_speed_set
+0f51fa2a3ca19783e7817a6be76661cd9136d057 Merge branch 'dsa-felix-fixes'
+d9a6f0d0df1899ff9086a57abc600e414f4b8cdd netfilter: conntrack: prepare tcp_in_window for ternary return value
+6e250dcbff1d3ce347b8294e4ec6da96a2cecdb5 netfilter: conntrack: ignore overly delayed tcp packets
+0e80707d94e4c88f9879bdafcbaceb13432ec1f4 net: ethernet: mtk_eth_soc: fix typo in __mtk_foe_entry_clear
+9cb252c4c1c53ae58bc565bab76e98133288f23a net: skb: export skb drop reaons to user by TRACE_DEFINE_ENUM
+f27b405ef43319a3ceefc2123245201a63ed4e00 net: ethernet: mtk_eth_soc: check max allowed hash in mtk_ppe_check_skb
+09a59001b0d6417214c86b69263f6b8981c7c2db netfilter: conntrack: remove unneeded indent level
+628d694344a02a428846643791e8b26071b76328 netfilter: conntrack: reduce timeout when receiving out-of-window fin or rst
+a0a4de4d897f5ce672e086cb6b9f91a306af6953 netfilter: remove NFPROTO_DECNET
+8556bceb9c409946eebd2303d2f19e87844195ae netfilter: move from strlcpy with unused retval to strscpy
+c92c27171040554cfda7a3fc925e9dbcb5b4a698 netfilter: nat: move repetitive nat port reserve loop to a helper
+adda60cc2bb0fa46bed004070f29f90db96afbb3 netfilter: nat: avoid long-running port range loop
+e9b1a4f867ae9c1dbd1d71cd09cbdb3239fb4968 net/smc: Fix possible access to freed memory in link clear
 9cb636b5f6a8cc6d1b50809ec8f8d33ae0c84c95 efi: capsule-loader: Fix use-after-free in efi_capsule_write
+5382033a35227c57a349d74752ad2527780159a9 net: phy: lan87xx: change interrupt src of link_up to comm_ready
+2f09707d0c972120bf794cfe0f0c67e2c2ddb252 sch_sfb: Also store skb len before calling child enqueue
 f280b9872af1f58760b7731e973de57ffccfb0a4 Merge tag 'efi-urgent-for-v6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 2f79cdfe58c13949bbbb65ba5926abfe9561d0ec fs: only do a memory barrier for the first set_buffer_uptodate()
 26b1224903b3fb66e8aa564868d0d57648c32b15 Merge tag 'net-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-df2a60173a61a5acf44fca2cfb2d8d9f5b810a3f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-81225b2ea161af48e093f58e8dfee6d705b16af4 ipvlan: Fix out-of-bound bugs caused by unset skb->mac_header
-64ae13ed478428135cddc2f1113dff162d8112d4 net: core: fix flow symmetric hash
+9f8f1933dce555d3c246f447f54fca8de8889da9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+ceef59b54980d0827ecbf6a7666362c8c0d2c7bb Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+721f80c4d550668d3ee1160603ff2250dc33169b net: lan743x: Fix to use multiqueue start/stop APIs
+cd6910501cfd9a3bdff2f5fc33c9f3cf165ca54a net: lan743x: Add support for Rx IP & TCP checksum offload
+dd14043af7b86238a4dc3280acf635eb43ea9851 Merge branch 'lan743x-next'
+acd0a7ab6334f35c3720120d53f79eb8e9b3ac2e net: sched: act: move global static variable net_id to tc_action_ops
+fae52d9323384c32283777e893bf85293588ce62 net: sched: act_api: implement generic walker and search for tc action
+aa0a92f7458c594dd5964f42c18be97644fa9b4c net: sched: act_bpf: get rid of tcf_bpf_walker and tcf_bpf_search
+c4d2497032ae31d234425648bf2720dfb1688796 net: sched: act_connmark: get rid of tcf_connmark_walker and tcf_connmark_search
+d2388df33b369146c6fdf7cc7077ae52d87ca679 net: sched: act_csum: get rid of tcf_csum_walker and tcf_csum_search
+cb967ace0accfcccb9ae343296649e759b3cff27 net: sched: act_ct: get rid of tcf_ct_walker and tcf_ct_search
+d51145dafd5047f36b90bfd040f537fa09b9e534 net: sched: act_ctinfo: get rid of tcf_ctinfo_walker and tcf_ctinfo_search
+eeb3f43e05c0fda851ce75a4fab2d5037b2e87c5 net: sched: act_gact: get rid of tcf_gact_walker and tcf_gact_search
+ae3f9fc308d50ad87b59dde8c39262db41ec5882 net: sched: act_gate: get rid of tcf_gate_walker and tcf_gate_search
+ad0cd0a85cd78ffe69f0327386e4fb1d4e59f15d net: sched: act_ife: get rid of tcf_ife_walker and tcf_ife_search
+0a4c06f20d76dce967785b5549d51f65bc6661eb net: sched: act_ipt: get rid of tcf_ipt_walker/tcf_xt_walker and tcf_ipt_search/tcf_xt_search
+d58efc6ecce88e2a4d0b88e6e8f5ec191155f310 net: sched: act_mirred: get rid of tcf_mirred_walker and tcf_mirred_search
+7fadae53aa86d83c713a38547ec542084a04fe21 net: sched: act_mpls: get rid of tcf_mpls_walker and tcf_mpls_search
+586fab138659408aa6c95d491775cb64570c7598 net: sched: act_nat: get rid of tcf_nat_walker and tcf_nat_search
+b915d86981fe1fd7501fe44459ed70d2b9c3ca59 net: sched: act_pedit: get rid of tcf_pedit_walker and tcf_pedit_search
+0abf7f8f82bb6c957add8a781281f28ee3f16e15 net: sched: act_police: get rid of tcf_police_walker and tcf_police_search
+400d66332cd4d6eace52144ca690d231217b3862 net: sched: act_sample: get rid of tcf_sample_walker and tcf_sample_search
+5d6e9cb5c916ac727cfa22260b91b531b7601bd1 net: sched: act_simple: get rid of tcf_simp_walker and tcf_simp_search
+038725f9eed61a0516ab9d2db1d42d5d6dfed5f8 net: sched: act_skbedit: get rid of tcf_skbedit_walker and tcf_skbedit_search
+8a35c5df28aa326092ad09ef9a5301a6418bcdfa net: sched: act_skbmod: get rid of tcf_skbmod_walker and tcf_skbmod_search
+f6ffa368f0617368f1a47ca17a56c8842c41c0e1 net: sched: act_tunnel_key: get rid of tunnel_key_walker and tunnel_key_search
+6d13a65d2a674c1cf4e70863394c01e4d07372e8 net: sched: act_vlan: get rid of tcf_vlan_walker and tcf_vlan_search
+34df6a8a50aa72c4ac4fd65033a2798fc321adf8 Merge branch 'tc_action_ops-refactor'
+0a2360c59687e4caec363565c166e8a2b3e30677 net: dsa: felix: add definitions for the stream filter counters
+96980ff7c2caa5baef0c684e719547a53762e82c net: mscc: ocelot: make access to STAT_VIEW sleepable again
+25027c8409b4541611d0060077607d8ca70740df net: dsa: felix: check the 32-bit PSFP stats against overflow
+cc160fc29a264726b2bfbc2f551081430db3df03 net: mscc: ocelot: report FIFO drop counters through stats->rx_dropped
+28c8df8d478580edd3fa82b60b341930905b7431 net: mscc: ocelot: sort Makefile files alphabetically
+fe90104cd6048364db821c06bcb2246074919c04 net: mscc: ocelot: move stats code to ocelot_stats.c
+97076c3cc9fed862acb7d4ac0bb846b1bdeede85 net: mscc: ocelot: unexport ocelot_port_fdb_do_dump from the common lib
+d50e41bf023454cd3441f969f18b259a90b6aa7c net: mscc: ocelot: move more PTP code from the lib to ocelot_ptp.c
+776b71e553841f9cde87c21078ce2d9772e6da7a net: dsa: felix: use ocelot's ndo_get_stats64 method
+d3e75f1665f37cd7294355dd01bbc72f057a841d net: mscc: ocelot: exclude stats from bulk regions based on reg, not name
+e32036e1ae7bb71b64559313f9ea8790a0acaa51 net: mscc: ocelot: add support for all sorts of standardized counters present in DSA
+be5c13f262050f90b56a4290645bf7a14055d3cd net: mscc: ocelot: harmonize names of SYS_COUNT_TX_AGING and OCELOT_STAT_TX_AGED
+b69cf1c675723b1417e018971faf2bcb1620ee7a net: mscc: ocelot: minimize definitions for stats
+4d1d157fb6a49f6720a3fb3135299e475d5bc844 net: mscc: ocelot: share the common stat definitions between all drivers
+6fff926141416a971fcdf7fb71fff404ee53ad47 Merge branch 'felix-dsa-ethtool-stats'
+0c126ec3ddcc81448315e73d196a5a2f42cfd6b4 net: ipa: always use transaction IDs instead of lists
+11902b41f2fa3960280b3a3b17474caa22b54cba net: ipa: kill the allocated transaction list
+d338ae28d8a866c57fcac38f3d77bcc1d1702d19 net: ipa: kill all other transaction lists
+e0e3406c60d7e5b004cc3059dea6c7574d26ca66 net: ipa: update channel in gsi_channel_trans_complete()
+019e37eaef97d99285390b6eb42410a54a5d6412 net: ipa: don't have gsi_channel_update() return a value
+6988c1d37787427b86b05ae8142861a0e8d3e396 Merge branch 'net-ipa-next'
+169ccf0e40825d9e465863e4707d8e8546d3c3cb net: openvswitch: fix repeated words in comments
 
---===============9090133273368514866==--
+--===============0321035296128864968==--
