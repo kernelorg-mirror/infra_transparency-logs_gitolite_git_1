@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2647359133513487375=="
+Content-Type: multipart/mixed; boundary="===============4635704609164122599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 09 Sep 2022 08:19:40 -0000
-Message-Id: <166271158024.17927.10553609963910705098@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 08:23:37 -0000
+Message-Id: <166271181748.20905.11277452158338296850@gitolite.kernel.org>
 
---===============2647359133513487375==
+--===============4635704609164122599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: c5144241d28cfbca11d75ad334bbacabad0becaf
-    new: 2699e6e9e9481884c4a006f1c62dd6ed59ca38d5
+    old: 2699e6e9e9481884c4a006f1c62dd6ed59ca38d5
+    new: eb3b3c93afc4a4244590f7d1e715e8b6749585a9
     log: |
-         d4d2c58bdb9190baa1d5e1719c1339fcb2c17642 virt: vbox: convert to use dev_groups
-         2699e6e9e9481884c4a006f1c62dd6ed59ca38d5 virt: vbox: Remove unproper information
+         dd8dc442c1e3b1798fad61211f3b090523dd926d misc/vmw_vmci: Use kmap_local_page() in vmci_queue_pair.c
+         e01b08d7f6d36f20533b7510ea3af90756125f35 misc/xilinx_sdfec: Call kunmap() on pages mapped with kmap()
+         eb3b3c93afc4a4244590f7d1e715e8b6749585a9 misc/xilinx_sdfec: Replace kmap() with kmap_local_page()
          
 
---===============2647359133513487375==
+--===============4635704609164122599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662711579 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662711815 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1662711578-092e6f9a74458f044777e03c56151f45759bb116
+nonce 1662711814-badec0bfeb19055c1a1f7a683d0532a2720dd838
 
-c5144241d28cfbca11d75ad334bbacabad0becaf 2699e6e9e9481884c4a006f1c62dd6ed59ca38d5 refs/heads/char-misc-testing
+2699e6e9e9481884c4a006f1c62dd6ed59ca38d5 eb3b3c93afc4a4244590f7d1e715e8b6749585a9 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa9xsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9iwP/2wvlddUD3iFUGmWeSny
-WzXvLLcZxEf02CnOA6w87g2yOK4HDjQeJwEf0dAwmiK238ryOcZG6mr49jNivGgL
-DvLhUOqVqj8O+VmQmQnKq0I2cpI3eq3JBAjWrxQVa7LJjOweUVo1zqd9PHqRylSj
-/QO5YGQKLYy72sGdfLhf+dwXbVSX1eqPawciFvo5xuB00kAa5ghxjKj1r2WNvXof
-pdvgRNFyBz8nykZ03zlt9712BppR+RVA2VB0tNuw9R1fo0iHIZeftfodWSKOSfZe
-fLhKVjS4/jYCNBzzVmyw0h0ZXEMfcMMQFPzyU4/Ejv6v7C64aAF8T4wLM7kHCxxF
-BeGKekV0azYhjpWzugdJL5MSyu4BxFxFBLdlc84wOz1/RzYtQTw1iax+cYep6N1Y
-nGv0OBKTYOnXhBBulyVjJjABiwsdqG2R48L2K98Ki+qHe6taEOWwx0aN3ZvNsW02
-5c0/2UooH0Bu+aYn1unCE1OikMmgNr/2XjWPTLI0xMfhhPY+WW6Fnu9Cl2afjX+2
-FtblWXi+NNGVnAwoy3GWEyHgNWatMZkyrT7PwFGmpI5RHQj+DrsxWiVfIT8gIGGp
-0ezlHZ9BqJBbzLIOYSC82CYbb0hE0j9lVC8b7MILJxaiy37qsosX089uRHrJBgod
-3c6UpDLpXaxoh/S6AjLJz0lx
-=Nrb8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa+AcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q20P/jPTadFFJa0AdN6RUErF
+d50+PX1uSfxxaYJTryd40WfA0OlIO9ombowrimj4iCUmyxJC43Y2kn1lzzhI4rBy
+Pz1gR7x0yWnbulj1+6JOvsq1P3IKGfU7BLaEr76D0O0+/KtXo4CCtnwm8w7b5H7y
+GbIBibpcK/lR6iEqdbP1oAlbc7/ePcAimkTMPgAcRAngU3Q14eKkSWf2nVBzc/U+
+GghoN1aMhP8BlzwPMrBzOh3C5akKM+aYPEuPSLjwHHBxk0woMmoPXMIAxKrbLAeM
+KReS3J4oStZ+QgP5ajV8+W0hY11FWNGlyoSWcSkddvg2WSQflM+TjwuXzvBLDlIP
+0n8/GYqvd42oIb1cnBcp7hf/HZ4h0nz2stQtaNlbegU2lvVkdFImAwn+7kuZ7uqo
+EhedgCZho4i7YDk2yqxNyMgGuYxmS0p7qDWCpcmQf7DzjhnmKiAn3LbC51BGR/3S
+fKF9RioKJlGiQqMlU4FOYJWXPIEUNB0mvNsweAW4RGjY8cuQBxyVkA5qD1JZ5zUi
+HY+uHBOKTBr53QBA9Qstvm1600QcjAl1b48nPzYb12leb/+MH62sVC3qNWrF/yqX
++eXWUriP5G5Aj05ZaVGXHiHQDrfDoqnmWVzNMKEaS9DsXLdV2d7S+e52ww5bschp
+FKzPTUzDsThReSCMdIB8sGoR
+=YHOC
 -----END PGP SIGNATURE-----
 
---===============2647359133513487375==--
+--===============4635704609164122599==--
