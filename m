@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0148666567551116856=="
+Content-Type: multipart/mixed; boundary="===============1460377942430357272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 09 Sep 2022 07:50:10 -0000
-Message-Id: <166270981025.29837.9307317406035149805@gitolite.kernel.org>
+Date: Fri, 09 Sep 2022 07:51:45 -0000
+Message-Id: <166270990584.30478.9572547267568787415@gitolite.kernel.org>
 
---===============0148666567551116856==
+--===============1460377942430357272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 28a2a54901f66a45ab339e944fdfc69667e639c1
-    new: 721740f8b8c203e36c0e6d6fd47e7063a7bfb29e
+    old: 721740f8b8c203e36c0e6d6fd47e7063a7bfb29e
+    new: 3a09f934df4eb5a01777416fc4f317293b37e563
     log: |
-         4cee30a3fb751e3f231016f2a93a3bcf0d430527 staging: rtl8723bs: delete rtw_setdatarate_cmd
-         6066a281d82479c9b39dda57200ccfd80886e775 staging: rtl8723bs: delete function rtw_set_chplan_cmd
-         b1e2d1a256d471a929ef845184e53d7680438db3 staging: rtl8723bs: remove rtw_change_ifname
-         3baa5b32a75379b6edfe05f84f91fbe130048ef7 staging: rtl8723bs: delete rtw_odm.c and rtw_odm.h
-         00d08fd0df2efd7a2980560474636c516846eba7 staging: rtl8723bs: remove odm_PauseDIG
-         34ac858138e16c15abcbe0c290120a276f5b500b staging: rtl8723bs: remove GetHexValueFromString
-         23c3b6bd0f16e05e306bedb8de7b875008bfb6ad staging: rtl8723bs: remove hal_btcoex_SetManualControl
-         54b1d117d51ab4462e1fc3a1f77ebbbad6996c0b staging: rtl8723bs: remove rtw_hal_is_disable_sw_channel_plan
-         2d0cb6588d6d18f635f91403d4e82d360f843d17 staging: rtl8723bs: remove IsHexDigit
-         721740f8b8c203e36c0e6d6fd47e7063a7bfb29e staging: rtl8723bs: remove rtw_is_wps_ie
+         3a09f934df4eb5a01777416fc4f317293b37e563 staging: r8188eu: remove mlme_osdep.h
          
 
---===============0148666567551116856==
+--===============1460377942430357272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662709807 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662709903 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1662709807-9487947e559e6201c35e63b53d3512f19acf520f
+nonce 1662709902-85f0c7bda06e168380b30f6984c073f5c5d4a255
 
-28a2a54901f66a45ab339e944fdfc69667e639c1 721740f8b8c203e36c0e6d6fd47e7063a7bfb29e refs/heads/staging-testing
+721740f8b8c203e36c0e6d6fd47e7063a7bfb29e 3a09f934df4eb5a01777416fc4f317293b37e563 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa8DAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UkoQAMh61bx+CiAx/bD9aoI3
-EypxFTLv9EQEWx+ohHlEOykq8oz5BtklR2BXy+i5WX7vrQPZZI93VCrZ77UG9IpR
-XMLqk30CS7WnUMIr2fN+GcCQ2iMl9L5xr2qKL6927e8JjA36hFwnR7TMDENcV/Ev
-3IrylUtqwH2uHu3f5eUgkH6jRgs2fYdFw+s1jGl1LGj3knNSx17qtZxgvVq2y2ms
-rT51MkytTsTG0ZH+L8VcuSNzb1yMNZwrTBHj+cNbeM7u3FUJ4grSmtkl1or2SucK
-z5RnRqzal+6cRaI1sp9pAO0orhKDD/15FSJDaFYTXItBR4CBn2viqPCDn2ecUz40
-1B86/k5BCeQ0bdHWemQlM3cRYBsuC2TwDcFUVoEHgIdCZuoj+mMHiRBxXQWdCICH
-lpAMgwaiiW7/s7Ye8PxH/8EdOvlAGgZ+S9cYVK1nXpRTtKzrfNxpCd0rvdOL2nPc
-SCQdG4WTr/ss8KpPhOSHSZmM595Ar/9WIJ/MzDHZ7A6AqRTdnxiRW9Q8OuiZItRX
-jUwasW5dP6SclBpdpTfN5xspegeJ+Hzuip5DZ+sG0U0/VXKfaDpjCUmp2qieYy8P
-iXxH7+dJqQ4E8CTwQU3FDll0ktArA6aCMluXeE084NFAvdxHM6dq6loLTDAg65yH
-qg67jSxhFTYEQhq8wW871T6S
-=iQHd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMa8I8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SZIQAJy5HBsTub5KfA0Q41le
+1pKjcyqvrvXMlHlZpxLY0yIb3ekLW2mwWm1i2dkPFWg+TObVqD4jigFjXV0LXB9V
+ZiOmWBJAxIhoeIE8ppyQEDucUEbEQSI083Vlh7O7N2bCkCAnVQt/FQH5ujozl6gN
+D1EArlnq2JCXr1lrx8IdyHSUY8sW835CsK5Jib4fDL3YQMrOCb0MQfuNYg2A8Xw+
+AaYI2mheApd7SIDzbXFMYOLhbTCglKraXz5Qsm8ZCtX9zuLhL33vl2XYAKTDcRDV
+XQdi0PCoTHulrqtBPQKakZT9gVmfgOImwyzfFlesVrWSZQNaBz2IQE6bL8iaet4T
+2oUa94b4pGkKGOoycqTL6hQAjyz1a9YNujtcMyL9l7jON+u0N0bw9IV3uwf/s/kF
+PrCTPt7Ip/qHSAhvCtqRmjYgJKHgCSGjFbfqsUxtgvit0rRqmS5NeFB8ykxVVypd
+DTgy+EOFGk3N3bsAzJ5JDIsnqTv30TnKTl1oZDqay17GGaFPCZYEx0sdrbVmMY+S
+N/JRj2VHY4OBl38Fthh1BOurRjKVf7ooVpc+kDnTVFgxK5AYPJk43TQq4AJtuECQ
+u0NVh2rtfU4z97YW19X0U+0vd2YslSydUOsugyZq8j/6ac8wk8fK159fAXZNF7zx
+SErJvkwKGN1/fQb6uyALLCIa
+=zX1i
 -----END PGP SIGNATURE-----
 
---===============0148666567551116856==--
+--===============1460377942430357272==--
