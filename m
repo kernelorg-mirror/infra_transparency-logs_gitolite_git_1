@@ -1,41 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6773275729196909772=="
+Content-Type: multipart/mixed; boundary="===============8324855572134795345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 09 Sep 2022 18:16:12 -0000
-Message-Id: <166274737234.3724.18219349343236568523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 09 Sep 2022 18:19:46 -0000
+Message-Id: <166274758674.5030.3407744618088631443@gitolite.kernel.org>
 
---===============6773275729196909772==
+--===============8324855572134795345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 9b4509495418a0effe964b0aad9a522be5a3b6d5
-    new: e35ff25f9fda4385249f909bce21c8f759bc46d4
-    log: revlist-9b4509495418-e35ff25f9fda.txt
+  - ref: refs/tags/driver-core-6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: a2762894b778c178b960e31a6ffed50538d59289
 
---===============6773275729196909772==
+--===============8324855572134795345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b4509495418-e35ff25f9fda.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-17e4732d1d8a859fbb56e5f050e05d3142b88f96 dt-bindings: riscv: sifive-l2: add a PolarFire SoC compatible
-0dec364ffeb6149aae572ded1e34d4b444c23be6 riscv: dts: microchip: use an mpfs specific l2 compatible
-aded3cad909581c60335037112c4f86bbfe90f17 kunit: fix assert_type for comparison macros
-793f55b2971e3a95d77ad08e9da2a3dc6c946cd7 kunit: fix Kconfig for build-in tests USB4 and Nitro Enclaves
-d958edb9eef115cdd6709face6ab46fefd74324b Merge tag 'dt-fixes-for-palmer-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git into fixes
-2a2dfc869d3345ccdd91322b023f4b0da84acbe7 tools: Add new "test" taint to kernel-chktaint
-a66de5283e16602b74658289360505ceeb308c90 powerpc/pseries: Fix plpks crash on non-pseries
-20e0fbab16003ae23a9e86a64bcb93e3121587ca perf: RISC-V: fix access beyond allocated array
-2fc1171d34deff70bf3a8338adab8ce46138aae3 Merge tag 'powerpc-6.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-22b2e2d6ab35fdef4439e27da2df208014d52eda Merge tag 'riscv-for-linus-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-e35ff25f9fda4385249f909bce21c8f759bc46d4 Merge tag 'linux-kselftest-kunit-fixes-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662747585 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1662747585-3e5091ba3843ef1d5dc0471b9fb6502c272540ae
 
---===============6773275729196909772==--
+0000000000000000000000000000000000000000 a2762894b778c178b960e31a6ffed50538d59289 refs/tags/driver-core-6.0-rc4
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMbg8EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2ewQAJ1QHWLo1Wi87WCitPkt
+9fdN9RSMQtavhQho2QpNL67eZ1z80TOtmJJEqVdt92Z7PEDLsAtGGzfSE95Wgyd3
+3R95n/InEiQAiR63pHPaEURtDcBIQranxQqvJOVExuPQOeXqe8okPI4d9iKkr/Yh
+u3vOCak6Rs/m4yybEjAa4FktqSaURIRFqqA61zHBoiNDP/4M4ycGab+QUw5vU+s7
+TZRf1Plq/dBOOCpM3vGxW+rbi6ZoOGyaPhV6c9iBeStKPQ/1Fl59D8vO26hAmqLX
+bnYq3yoee0EHuP3As+0Gbq26UhYaEuHHotGYT0j4gqr0TkMqJf53a2o163IcwmL6
+OrieDCtso9577ENMD0zqhbU9ZL2aT1zprqZjSQRSC5lRyDEx6zFy8n7d+CfVQwbi
+JdvSTpdtRwIodym+yLXUS8L1F4CExnR76hXPvfnykKr+sQn8hHaZlAjrHQLcm6Nw
+HLXOfAH4mygehf58qMlclo9E0/Jmt1JbGZbejcT+iStwKXw8gMJx1ttoy2RPaP8/
+ot+hiW3UR1QtiSxNzOet105mW6VfQO6hUK1kmNDBC/ETjOzQzzf1waxXxXFyqNVS
+k2ZkmAc6716AUeecWWCR63Ml2Ca4933GgAS041xGQo7krDR46afEFqP7HtXSXvNk
+2l8o9j8ZVtOXymgPQGGZPvTD
+=LXfx
+-----END PGP SIGNATURE-----
+
+--===============8324855572134795345==--
