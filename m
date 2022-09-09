@@ -1,51 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1323565832246975877=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 09 Sep 2022 10:16:50 -0000
-Message-Id: <166271861039.19339.2655497197190748718@gitolite.kernel.org>
-
---===============1323565832246975877==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 09 Sep 2022 10:35:15 -0000
+Message-Id: <166271971586.620.7895601304109772987@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-6.1/fit_rcu_head
-    old: 3c4cafa313d978b31a1d5dc17c323074b19a1d63
-    new: 5237bd7e76c135669b6b02d3dbdca7458b5f7a46
+  - ref: refs/heads/master-pending
+    old: 1a7c73a669f7b039760087723d176cd54dc40c48
+    new: 036d7ffaeb2d36481a7e1c354b718b9a0225cfa1
     log: |
-         d6f9fbb33b908eb8162cc1f6ce7f7c970d0f285f mm/migrate: make isolate_movable_page() skip slab pages
-         5237bd7e76c135669b6b02d3dbdca7458b5f7a46 mm/sl[au]b: rearrange struct slab fields to allow larger rcu_head
+         bc2360aaa32b78de24c0af2c9d50898e2b8a00da wifi: ath11k: Split PCI write/read functions
+         769b82f1c480cf46d465080c9269aa8948ff7bb9 wifi: ath11k: implement SRAM dump debugfs interface
+         df736035fb8554c7029c2d6d3676fa896d74b5f4 wifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()
+         150673a69f688ac7237f9f741a92ee8995a4bc80 wifi: ath11k: Enable threaded NAPI
+         eea98e91f79e21a5a1380758300cd2b21461b26b wifi: ath11k: Add multi TX ring support for WCN6750
+         5542f7b48baf4667499a7467c12fda88e0726164 wifi: ath11k: Increase TCL data ring size for WCN6750
+         036d7ffaeb2d36481a7e1c354b718b9a0225cfa1 Merge branch 'pending' into master-pending
          
-
---===============1323565832246975877==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1662718608 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1662718607-97a9973515ce830f5c8e0e538e230aec308eba85
-
-3c4cafa313d978b31a1d5dc17c323074b19a1d63 5237bd7e76c135669b6b02d3dbdca7458b5f7a46 refs/heads/for-6.1/fit_rcu_head
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMbEpAACgkQ4CHKc/GJ
-qRBFCAf9EEAFYgeRQ0mCGnrw30gYmbFwcBw5QsING3MyNNxfn6TifwGeE5+ipicA
-oQz++jDaBm+zEMWN1Uj6eQK2R/dDK/NaWwoXi0g05FHn0EE0LyocftYNHSYmu8fC
-21TEk1rnYx2JWTE4B3ogqTahA7nEHhgpPyryjMeTKDkxQ51RouQY2iPuOZfQgGhq
-YRVw7Y8ITUtE1PFz7J22DuxrIVCpRgsKz+CKoxd+qlA419/KmpLWS37FplMPSaGG
-lt4FKiG9BSb+ONzG4mXFsHVdnHoL/JQgkrug/KpiArgbKybi10nF59BpDXG1WOOO
-i84RBq+KsYWiiRN5cQZm0tUxwNYISg==
-=feJh
------END PGP SIGNATURE-----
-
---===============1323565832246975877==--
+  - ref: refs/heads/pending
+    old: d5609645e1a3f9971b4259f5b52f97abe4214c5b
+    new: 5542f7b48baf4667499a7467c12fda88e0726164
+    log: |
+         bc2360aaa32b78de24c0af2c9d50898e2b8a00da wifi: ath11k: Split PCI write/read functions
+         769b82f1c480cf46d465080c9269aa8948ff7bb9 wifi: ath11k: implement SRAM dump debugfs interface
+         df736035fb8554c7029c2d6d3676fa896d74b5f4 wifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()
+         150673a69f688ac7237f9f741a92ee8995a4bc80 wifi: ath11k: Enable threaded NAPI
+         eea98e91f79e21a5a1380758300cd2b21461b26b wifi: ath11k: Add multi TX ring support for WCN6750
+         5542f7b48baf4667499a7467c12fda88e0726164 wifi: ath11k: Increase TCL data ring size for WCN6750
+         
