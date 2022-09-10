@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8803944172235216197=="
+Content-Type: multipart/mixed; boundary="===============0549956018236183992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Sat, 10 Sep 2022 21:21:22 -0000
-Message-Id: <166284488218.18407.2131284476084485441@gitolite.kernel.org>
+Date: Sat, 10 Sep 2022 21:22:34 -0000
+Message-Id: <166284495495.18900.2808262673906993878@gitolite.kernel.org>
 
---===============8803944172235216197==
+--===============0549956018236183992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,37 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.1/trivial
-    old: 2bfbb0271a5b48c01c711d1509a422a7244c9eb8
-    new: 2a6c61aeb2f670c6ee851ed3c6f7436901c312de
+  - ref: refs/heads/for-next
+    old: 27861149740184c2931240d7860d515d32ae7a32
+    new: 0e5d069dcc0c1cae8262fe499b606aba35199f74
     log: |
          2a6c61aeb2f670c6ee851ed3c6f7436901c312de mm/slub: fix to return errno if kmalloc() fails
+         d486f2824c050e161e8ab462cc2a2e12a0375c20 Merge branch 'slab/for-6.1/common_kmalloc' into slab/for-next
+         0e5d069dcc0c1cae8262fe499b606aba35199f74 Merge branch 'slab/for-6.1/slub_validation_locking' into slab/for-next
          
 
---===============8803944172235216197==
+--===============0549956018236183992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1662844880 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1662844953 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1662844880-2de65b602d79ba60a8cd6c0dd39cdf346ec5ca8d
+nonce 1662844952-700c5ffab6dbfe9323a1137a3cf0e793845c0573
 
-2bfbb0271a5b48c01c711d1509a422a7244c9eb8 2a6c61aeb2f670c6ee851ed3c6f7436901c312de refs/heads/for-6.1/trivial
+27861149740184c2931240d7860d515d32ae7a32 0e5d069dcc0c1cae8262fe499b606aba35199f74 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMc/9AACgkQ4CHKc/GJ
-qRAqzQf/UfSji4drQqeKHIE4qxZLfOK484waAWGZahotVoYwP80x/18QXwTvXC4g
-efEK+glBWqOKNDtxyXKBn1mgL7axevaxbWnHduicNCXc1VnR9krRkzZNPfV0HyV3
-RBO0pnQ7DACuToE+pXhcaBKII1tlMH+BUvbk7/GwkxaWIuXiLzhOw5ftDII7X0mb
-VR98rbqgA88k5pY3vS/gGDCuDS0ksx3kxLvJDt8mhIoqrzN7RYZEENeT44CmXvuK
-ZW+BCWy4wZ+HjdiMcxFHZZsqa7YcD9Ff/1juxkku4HvI7wGEOOs77P6ojOBiCOa9
-w7pmcpvJU0+6PvR2aXsuqAU7IYznkA==
-=a17H
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMdABkACgkQ4CHKc/GJ
+qRBO0wf/b+3yfsXHGncJ0nWcQIATnP4ftztQHsdzCCK0YuxpToui+Vy7w6JQ6904
+/D+Daw8gYhKDmwvt+e0JLiROGjQQ/I0pheX8gPuXIuc3mTuQQYXB+VqsXsuI1hqU
+/tVlmjmeJe5aBCh5MbuCCAAivXNQC+RIja9uyVblZZeumoykfWzMQXSDvd/vJF0M
+grcUfNSlOQ8LxO5bFnWWlVMPOsfolTdiaj0jcZVBoFPGVTswQpaGvtFccGQIQQms
+/+74Z2syZHqS984OaHj2o9iTytuSMOa1Hrs2f5T/12oAlFYorVJStdhq8fLnzqpZ
+nUy7kxFLeYEDm7AIoZQzszEUT9b7dQ==
+=l1/B
 -----END PGP SIGNATURE-----
 
---===============8803944172235216197==--
+--===============0549956018236183992==--
