@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6996757823679698321=="
+Content-Type: multipart/mixed; boundary="===============4707615764499298400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Sat, 10 Sep 2022 09:02:08 -0000
-Message-Id: <166280052809.9111.15163106072578153150@gitolite.kernel.org>
+Date: Sat, 10 Sep 2022 09:02:16 -0000
+Message-Id: <166280053661.9237.6223591115257478666@gitolite.kernel.org>
 
---===============6996757823679698321==
+--===============4707615764499298400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: b90cb1053190353cc30f0fef0ef1f378ccc063c5
     new: 7e18e42e4b280c85b76967a9106a13ca61c16179
     log: revlist-b90cb1053190-7e18e42e4b28.txt
 
---===============6996757823679698321==
+--===============4707615764499298400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -416,4 +416,4 @@ b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat 
 5995497296ade7716c8e70899e02235f2b6d9f5d Merge tag 'powerpc-6.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
 
---===============6996757823679698321==--
+--===============4707615764499298400==--
