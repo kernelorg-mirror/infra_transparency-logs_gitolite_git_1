@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7619168134725127429=="
+Content-Type: multipart/mixed; boundary="===============4507861098672982926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 10 Sep 2022 18:45:08 -0000
-Message-Id: <166283550819.7280.7820081532142885294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 10 Sep 2022 18:45:34 -0000
+Message-Id: <166283553496.7524.7196523857872224040@gitolite.kernel.org>
 
---===============7619168134725127429==
+--===============4507861098672982926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 86432b7f8f92b784c2e4af5b02766fb44052abf7
-    new: b04c2a19d66323624ca2fffa3a6703d7cec33a60
-    log: revlist-86432b7f8f92-b04c2a19d663.txt
+  - ref: refs/heads/for-next
+    old: f2c1ac3cf879b2382e96496a7ee6f626ecef086c
+    new: 86f7571b053de878c85a9c7fd85991fafee19f18
+    log: revlist-f2c1ac3cf879-86f7571b053d.txt
 
---===============7619168134725127429==
+--===============4507861098672982926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1662835506 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1662835506-ee3fc44511eecd11041e33d31c1bbb44739e473f
-
-86432b7f8f92b784c2e4af5b02766fb44052abf7 b04c2a19d66323624ca2fffa3a6703d7cec33a60 refs/heads/spi-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMc2zIACgkQJNaLcl1U
-h9BeIgf+M36mRTs9Y0suWhFugzYaigQhCqyMNXSzwd0M15G2LsQrZPYHE62ZyI/D
-TJMYBeOXznb5Bi7Ev1LTmEesRTWLE4Sz805RUnMT7qa563wKUUGBEbssldG4g5bS
-VMZ4qJ8UFXswnQXeQZDRUny8n5t7T2QaCSOsuPkVtbjZR4IJdJx0glUj6y7bHjyT
-p81HE2t2EMPJU3f3crD00bpZhRXB5nrEjBho59Z5Hw6RC6VvuyS4Co0m/8zNKal/
-tELoVN7oAHLc1fLYDJPDLjjFXsqrr3Gf+ZZcHctg+LmDPBNU5vv8n83ZrLLUwPAR
-yfkPGZjuj/XFcUL2Gj7StKGW40TpRw==
-=ay8a
------END PGP SIGNATURE-----
-
---===============7619168134725127429==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86432b7f8f92-b04c2a19d663.txt
+Content-Disposition: attachment; filename=revlist-f2c1ac3cf879-86f7571b053d.txt
 
 deffa2d75db7e7a9a1fe3dad4f99310bff7b6449 drm/msm/dp: make eDP panel as the first connected connector
 2f25a1fb4ec516c5ad67afd754334b491b9f09a5 drm/msm/dsi: fix the inconsistent indenting
@@ -442,5 +417,6 @@ b0839b281c427e844143dba3893e25c83cdd6c17 Makefile.extrawarn: re-enable -Wformat 
 7e18e42e4b280c85b76967a9106a13ca61c16179 Linux 6.0-rc4
 824723ccf53fc53ecf896753c562b00a5d6307eb spi: Merge tag 'v6.0-rc4' into spi-6.1
 b04c2a19d66323624ca2fffa3a6703d7cec33a60 rockchip: add rockchip,rk3128-spi
+86f7571b053de878c85a9c7fd85991fafee19f18 Merge remote-tracking branch 'spi/for-6.1' into spi-next
 
---===============7619168134725127429==--
+--===============4507861098672982926==--
