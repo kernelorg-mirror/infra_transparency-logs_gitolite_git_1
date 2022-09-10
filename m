@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8376205148247041240=="
+Content-Type: multipart/mixed; boundary="===============2525391126365194453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 10 Sep 2022 00:53:12 -0000
-Message-Id: <166277119231.24163.1182017203867266206@gitolite.kernel.org>
+Date: Sat, 10 Sep 2022 00:53:43 -0000
+Message-Id: <166277122343.24421.4064496781906096098@gitolite.kernel.org>
 
---===============8376205148247041240==
+--===============2525391126365194453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: faf59ec8c3c3708c64ff76b50e6f757c6b4a1054
     new: 9b4509495418a0effe964b0aad9a522be5a3b6d5
     log: revlist-faf59ec8c3c3-9b4509495418.txt
 
---===============8376205148247041240==
+--===============2525391126365194453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -600,4 +600,4 @@ d8a450a80ef1c858c3095180f75284873d8297e8 Merge tag 'perf-tools-fixes-for-v6.0-20
 725f3f3b2708d8f3fe56df8113bfdc7380d52dc9 Merge tag 'vfio-v6.0-rc5' of https://github.com/awilliam/linux-vfio
 9b4509495418a0effe964b0aad9a522be5a3b6d5 Merge tag 'for-6.0-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============8376205148247041240==--
+--===============2525391126365194453==--
