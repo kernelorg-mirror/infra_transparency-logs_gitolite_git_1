@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Sat, 10 Sep 2022 13:59:53 -0000
-Message-Id: <166281839357.1603.10694094701532631893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 10 Sep 2022 14:26:39 -0000
+Message-Id: <166281999925.21273.16846251833351875328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: 60bbc9a2bdfdc700b90c27965250a29c7cd4ad30
-    new: 7a094a59cf583709ce4c3437b5b035ee164c09a4
+  - ref: refs/heads/for-linus
+    old: 09e3e3159cd4d3c9f3a1f025cb8e635d93c67c9a
+    new: ead3d3c5b54f76da79c079e61bacb4279ec56965
     log: |
-         c0a454b9044fdc99486853aa424e5b3be2107078 arm64/bti: Disable in kernel BTI when cross section thunks are broken
-         d105d6920ec758125b69c0b097bf498348888a9d arm64/ptrace: Don't clear calling process' TIF_SME on OOM
-         3fe3fd5f30720b4afd3345cc186808125e7f5848 arm64: mm: fix resume for 52-bit enabled builds
+         ead3d3c5b54f76da79c079e61bacb4279ec56965 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
+         
+  - ref: refs/heads/master
+    old: 09c53f18d13c5b69cd723a077bfefefe5d9e44c8
+    new: 2ff0c8c8d6e07a3793252bda6fa7f2974c567312
+    log: |
+         ead3d3c5b54f76da79c079e61bacb4279ec56965 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
+         2ff0c8c8d6e07a3793252bda6fa7f2974c567312 Merge branch 'for-linus'
          
