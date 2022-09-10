@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7791199829654964422=="
+Content-Type: multipart/mixed; boundary="===============3552834872246259099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 10 Sep 2022 05:29:41 -0000
-Message-Id: <166278778147.23609.7205833985824925884@gitolite.kernel.org>
+Date: Sat, 10 Sep 2022 05:30:30 -0000
+Message-Id: <166278783043.25495.10463663807283865888@gitolite.kernel.org>
 
---===============7791199829654964422==
+--===============3552834872246259099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/driver-core-6.0-rc5
-    old: e8ee2d2871eeb0cb7bc3ca7c0cdbca9f934d3819
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/driver-core-next
+    old: 6ea3bf466ac6ad6c0ee1ad4e80d77d62e5e11c7a
+    new: d11b1e908e9a1301e43cefc37fc17dd2b1257b77
+    log: |
+         bdbb0bbcf858adb26dfcd27f26f91cbf33338d4c Documentation: stable: Document alternative for referring upstream commit hash
+         2122c0d0f5a13ee91a051e3c93e458a24c161944 docs: update mediator information in CoC docs
+         d11b1e908e9a1301e43cefc37fc17dd2b1257b77 driver core: remove make_class_name declaration
+         
 
---===============7791199829654964422==
+--===============3552834872246259099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662787806 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662787855 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662787780-293c54798be65f6f2556b76835cd3217ea51c22a
+nonce 1662787829-f7bbe5ffdac98a111be7c6ca0860728049b89ff2
 
-e8ee2d2871eeb0cb7bc3ca7c0cdbca9f934d3819 0000000000000000000000000000000000000000 refs/tags/driver-core-6.0-rc5
+6ea3bf466ac6ad6c0ee1ad4e80d77d62e5e11c7a d11b1e908e9a1301e43cefc37fc17dd2b1257b77 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMcIN4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tFEP/39KTqKB9gxdiKhqHb/O
-7zpS07N9WWQ90ww3PepQAwr/QN9U6BJe4acG0YEo9ljQ5zVK0gqpiM4k+0jquCIf
-roO0r7+RdxhJGqEKkPpuP2afuLMxwZRdPwHI+AEqA1nVm4l48to20PDUTg+aoqAS
-cyOAByl9ia8hFfuFc7wzNEaiaKdqMstiHdcbY1K/9g6nTHcDztRUQ8fjEYpiV2fW
-b37tuthCkkQa+ccAY+58VYJSOD/oOk55YZ1KPylltdXq8tPwDp2aHSK2RSN0dif8
-SlvCyAUEAMnpsUfJj/uu5uH9eK07RPsKWqhCSyCkojNXIVksce749Lqte9uOm7Ss
-gqsjIxKM2MQ0lKDX6M92cltIFVfOLS43JJwZ8khZnAXYGJtv9rjS12MaxaNf7/hc
-YcWnd4D1NNF7wemPdg1hjBq1yR3Dz1cnldDeSypCDSqFqj84mP0qKjggV4EuNUHH
-qCKUxqsFP86KBHmJXMFZycJ9fg/Gcb9XEe3uGQSV5ikgCYmkV+lXDKb8mTIEwwDo
-Bfih9b5ZMilFFv/JLbW4v8uUjd1CwyR46vQQgXPE1bz+phgasp8CEu/nH2lwPPrK
-FwTT+B27ya3SP2Vv28sszpJQ2vSXLbhQ47HK4IAw3JPeblVIA1ZetDWD10b30pNL
-sapAoFUEx3o++4FYXkq+xHWr
-=zh4a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMcIQ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gI8P/AxoT8KQFUzRmBQtUJYp
+XODup+kGBEWxHoUzp+2HZQ7MnQwUhMytF4p2FLVk32Gfa1Bu91EjOLYqHeBFOqvZ
+z8UMIVoJNFv1KSh1M0kUePlBarFBG6TVmc4cMdatagNHuoJBjcQ+yDSEVA29B576
+WSraHNlvZSAIbu24uF9tezobNxzQeIdPzdH877ARBa+Ihwrpjs9ASDR5V54d66Al
+o/6zYfBenmXvrHQrq5j+3EsG40UDJOjBKwJtVVIAqsdtMFRf6Bglq0PavSAArUBU
+a/lNlnzQpjQ8AM8af1lgqdEukdnwKC1NQnnG8Ynh2zjQD0ufeC3GxCfDU6GwhMXN
+nmxkxIuogdEiiLiTxFxdLf9M7GCYmva/w3TjsHZI/d+fCJQaAeleyykyt+gO7zXo
+IOX4izqYMA7hwfExVhY5DQeYa1YCUegdk8zLJNO8vPT501YuBugF4vi8KlL+nBqV
+I2okp85lgqTfVY86LFjKvBFO8zvYc1J2leHiMic75LWm6KThasjN0Jn3YHYX0hB3
+He2K37SKj57njdli2AqfY3K60Ad4BgmY6hVPFTTVTCWhVsvrulSMjz0xV0LAG89F
+UrfwakEtnz1A6VQZgcmht3PRqqsBSGCueGO1daflMiZSjKY5/7gu0yIULhnxBXDu
+1gb1m13CExfB3+DeBorCyOWx
+=4fEI
 -----END PGP SIGNATURE-----
 
---===============7791199829654964422==--
+--===============3552834872246259099==--
