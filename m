@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 11 Sep 2022 10:32:21 -0000
-Message-Id: <166289234166.841.15152630565478582365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 11 Sep 2022 11:33:27 -0000
+Message-Id: <166289600709.10652.12194140393654652714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 0096fc879358ad6b82ee7e790c07b118c515c980
-    new: f57f4fb09850eeff7c70992eb0d2f6f0ce86ab04
+  - ref: refs/heads/dev
+    old: 7139c19d2ea117976aa892de4fb75682e989ba12
+    new: b8991a12ac48ebc2051284d984fa820834772574
     log: |
-         a0e44c64b6061dda7e00b7c458e4523e2331b739 binder: fix UAF of ref->proc caused by race condition
-         d6f35446d0769a98e9d761593d267cdd24f09ecd binder_alloc: Add missing mmap_lock calls when using the VMA
-         db7e5c10351e3dd58e6bef237c8fa74282e5d59e Revert "binder_alloc: Add missing mmap_lock calls when using the VMA"
-         a582123d6f4c6a0ae850864974eb7afd01fffab7 Merge tag 'iio-fixes-for-6.0a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-         f57f4fb09850eeff7c70992eb0d2f6f0ce86ab04 iio: light: tsl2583: Fix module unloading
+         a1e333d6d547f03a87a2debc9d321ee23a5c2850 doc: Remove arrayRCU.rst
+         1f0e704eea04b1f77cd89a3edafff098f43b84de doc: Update checklist.txt
+         b8991a12ac48ebc2051284d984fa820834772574 doc: Update listRCU.rst
          
+  - ref: refs/heads/printk.2022.09.11a
+    old: 0000000000000000000000000000000000000000
+    new: 8f9a00355ec3d95247589328c221086edc42b099
