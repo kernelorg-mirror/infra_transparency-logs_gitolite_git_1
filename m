@@ -1,57 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3451438234833670530=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 11 Sep 2022 11:35:18 -0000
-Message-Id: <166289611862.12848.17804005749947788516@gitolite.kernel.org>
-
---===============3451438234833670530==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sun, 11 Sep 2022 11:35:51 -0000
+Message-Id: <166289615157.13112.16533672118824212400@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 289822b6498d23bae0b9d328d2c9e09405b22635
-    new: c619b57a5f1a7ba0a85ee332f90b236830fbecd2
+  - ref: refs/heads/for-kernelci
+    old: f73ff3c33fc5ad785682e0892d9fb664616cd9c0
+    new: 4a9a75ed929ba53e36662bf73e1d88c1d721a7eb
     log: |
-         7a062bfca7a9d3b07f61f21645cb8262debe08fe 4.14-stable patches
-         c619b57a5f1a7ba0a85ee332f90b236830fbecd2 5.19-stable patches
+         6c3a9c9ae02a16295ea144dc431aaac2c20dbffd efi/x86-mixed: move unmitigated RET into .rodata
+         ead384d956345681e1ddf97890d5e15ded015f07 efi/loongarch: Add efistub booting support
+         4bf23298820093992beac22cc1532414ae189acd Merge tag 'efi-loongarch-for-v6.1' into efi/next
+         4df08dc34a2e0136186eb60e9182b5b6fde48051 efi: name the ARCH-stub.c files uniformly
+         c714cf7b1bce46f6ba448d5171c809c4e61e086e efi/libstub: add some missing EFI prototypes
+         a5670ba995a08c605ac60adb8d5a1835ce550efc efi/libstub: use EFI provided memcpy/memset routines
+         d5ab38a8467dbd074dd51c3150516fd3357f5190 efi/libstub: move efi_system_table global var into separate object
+         84d2bb721fe965f72d1301733657962475277858 efi/libstub: implement generic EFI zboot
+         ebb9e4540dbcf78ff7a4874c9657628eb5179d0c arm64: efi: enable generic EFI compressed boot
+         fd135a838b8ad69b11c90be7857401309d6cfc55 riscv: efi: enable generic EFI compressed boot
+         4a9a75ed929ba53e36662bf73e1d88c1d721a7eb loongarch: efi: enable generic EFI compressed boot
          
-
---===============3451438234833670530==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662896142 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1662896117-8fb543d922a4a83d6b425ffb80dd61d43d64abc8
-
-289822b6498d23bae0b9d328d2c9e09405b22635 c619b57a5f1a7ba0a85ee332f90b236830fbecd2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMdyA4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Gg8QANU4QI2py4a2LQ8CNigO
-XHkQG3eRSxOfpUe8F8NnHCVMtmYnrEGtYbUH2hbsov7cceKJmzLIvkT+8LWGMBmy
-ZBj5hRHu96kSeSEtD0pOcn2fH2KAXcTquA30aqt+dUJOQ51YJ6Fa9QxsV21Htp6C
-kG6w7mL+Fbp8OvOyLrXv+I8qYCnGMKHBXhYH3dN8WcGQCcQebi98aHVs/XQT8Awt
-ZKpZEpT5C+fJqRIWRLyS0XUmSp1UeLHyT6NQil/38njVfFRcuCdFb/qsuZiPrbVP
-iXUZP/x53TytDrEdOQF9zeqewOOrSRFIJJIzLlkT9AcsdZgjxL1g4eVjn3YBQofi
-qTN1FN4z/5mrMHsPfqoVLktLd2AX8bFEdpO4cks8H/6bYLveT00sVVObpAnE4/vQ
-GiZYfAw5vdquvCjeIpg47rludgLj+4bA9XyHIRT8JMLMypsCIDpW4RfRpyIVJKmh
-zmbkzj1SZGXJlnkf8kNP1iNVozI9sFiBiW4vDpmsmVO+Dp1cPuvfVlZ6LDk0Ysvt
-/rhglO65QvQlRaSKOwUlA2Eon9eMJkoNwZlSnqcCW9geROZF8khiNfoYHmeIeZWI
-9cw3HAl+vlUVZLatfJWI4fbyoHfDGf/7SXMCZXdY6qE64cDJDvhjKyyfa5dF/7nc
-3WC2JywfENFV5dthK5pxp52B
-=Cdmt
------END PGP SIGNATURE-----
-
---===============3451438234833670530==--
