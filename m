@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 12 Sep 2022 22:46:59 -0000
-Message-Id: <166302281960.26777.3496959057709714211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 12 Sep 2022 23:16:52 -0000
+Message-Id: <166302461230.15374.12296318391666141354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 18625eabab4468ad75fcc96c08b3e19e7f22f9ca
-    new: beeb2b476b686d906b17d50762b7f2416738c1d3
+  - ref: refs/heads/mediatek-drm-fixes
+    old: eeda05b5e92f51d9a09646ecb493f0a1e872a6ef
+    new: 87fd9294e63e8fa7532b5e65b534c3001c654ef8
     log: |
-         beeb2b476b686d906b17d50762b7f2416738c1d3 Mon Sep 12 10:46:16 PM UTC 2022
+         87fd9294e63e8fa7532b5e65b534c3001c654ef8 drm/mediatek: Fix wrong dither settings
          
