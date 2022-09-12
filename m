@@ -1,30 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1538399616943323385=="
+Content-Type: multipart/mixed; boundary="===============2417233904086724645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 12 Sep 2022 11:20:40 -0000
-Message-Id: <166298164083.25064.15363312819411554921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 12 Sep 2022 11:20:55 -0000
+Message-Id: <166298165583.25234.8121690831078177690@gitolite.kernel.org>
 
---===============1538399616943323385==
+--===============2417233904086724645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 7e18e42e4b280c85b76967a9106a13ca61c16179
     new: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
     log: revlist-7e18e42e4b28-80e78fcce86d.txt
-  - ref: refs/heads/rdma-next
-    old: f9103420a5597e99e443f977a28fa562a939bb00
-    new: 05c4f287148328bdfee11f58340c859f8445c479
-    log: revlist-f9103420a559-05c4f2871483.txt
 
---===============1538399616943323385==
+--===============2417233904086724645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -363,29 +359,4 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
 
---===============1538399616943323385==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9103420a559-05c4f2871483.txt
-
-192acacb8b18f08c1edbad93d5cb361f0dfca151 net/mlx5: Add IFC bits for mkey ATS
-a6002764b201426d49ea2dcfc222771c903c0c33 RDMA/core: Add UVERBS_ATTR_RAW_FD
-822158e1a0354bf84a5315e4c41e8b578330b6cf RDMA/mlx5: Add support for dmabuf to devx umem
-9f3c8bbf1f0b2a6a52d64240e23b8aec69af83b6 RDMA/mlx5: Enable ATS support for MRs and umems
-8dcf507fa37bf16acba1a38eb1ed41a0e53250a2 RDMA/core: Introduce peer memory interface
-c30a98544a7cf14430eca3c6d24a9414bc6bedd2 net/mlx5: Nullify eq->dbg and qp->dbg pointers post destruction
-455d9d5cd50ea503d2c2212aa8c7f74f18471cc6 RDMA/mlx5: Handling dct common resource destruction upon firmware failure
-c59b3168a35a77e7504ed11a7a77aab240e3ceb9 RDMA/mlx5: Return the firmware result upon destroying QP/RQ
-5073fd1a795e7f258b4ebdcf84a757802c61e1c8 mm: re-allow pinning of zero pfns (again)
-468846b38aea71e307c04265a7305fbac5c48757 net/mlx5: Introduce CQE error syndrome
-a79deeddae890b2269045cd0df8c1343f0294e56 RDMA/core: Introduce ib_get_qp_err_syndrome function
-fe0f10bd77d3e86ae4f30902b317f63b61c9894b RDMA/mlx5: Implement ib_get_qp_err_syndrome
-a67a3c669421963a67b956b1dbba0372c0fc6a69 nvme-rdma: add more error details when a QP moves to an error state
-e6eed537b55dcaeb1444fea9edc13ba95d889e30 RDMA/core: Rename rdma_route.num_paths field to num_pri_alt_paths
-5027b725d4641b9d9456218dad91d720ea8b7162 RDMA/cma: Multiple path records support with netlink channel
-dd4c77a58b8cdcac5562387359f2193be163ee3c RDMA/cm: Use SLID in the work completion as the DLID in responder side
-8cdb9e8cada6ec397854adaaad621165072eda6d RDMA/cm: Use DLID from inbound/outbound PathRecords as the datapath DLID
-05c4f287148328bdfee11f58340c859f8445c479 RDMA/srp: Support more than 255 rdma ports
-
---===============1538399616943323385==--
+--===============2417233904086724645==--
