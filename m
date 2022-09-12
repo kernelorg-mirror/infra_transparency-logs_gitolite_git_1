@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5739357684156571735=="
+Content-Type: multipart/mixed; boundary="===============4780938137607614776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 Sep 2022 14:47:01 -0000
-Message-Id: <166299402155.10969.5679959051131174931@gitolite.kernel.org>
+Date: Mon, 12 Sep 2022 14:47:16 -0000
+Message-Id: <166299403640.11135.16254963935003201732@gitolite.kernel.org>
 
---===============5739357684156571735==
+--===============4780938137607614776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: d8ae14187f514133f5acea8e1a0aa19bf1e258c3
-    new: 03117adc9731600da08ec84281d25c2003037979
-    log: revlist-d8ae14187f51-03117adc9731.txt
+  - ref: refs/heads/m68k-queue
+    old: 63ffc7a57b2d2646f23f8b2cd6d5d1de824b2355
+    new: 272d069f2f7729413eacce18131790c9d91f8f53
+    log: revlist-63ffc7a57b2d-272d069f2f77.txt
 
---===============5739357684156571735==
+--===============4780938137607614776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8ae14187f51-03117adc9731.txt
+Content-Disposition: attachment; filename=revlist-63ffc7a57b2d-272d069f2f77.txt
 
 fd7cb3e4684f0c044a627dc33adb9f97c69f033f MAINTAINERS: add PolarFire SoC dt bindings
 3cbd673846772153a0aa85471aef5788f1a53dcd MAINTAINERS: add the Polarfire SoC's i2c driver
@@ -358,6 +358,10 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 087aa69a9f2b2f1aaa173f976fec94058f623a9d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
-03117adc9731600da08ec84281d25c2003037979 Merge tag 'v6.0-rc5'
+44ef86c76ed936eef8357b61c07b1c3a160607f0 m68k: Move from strlcpy with unused retval to strscpy
+56a29442fc12fbfd1377ed17c8d4846fc251351d m68k: Allow kexec on M68KCLASSIC with MMU enabled only
+a7e1636dd224722bfc38fa8f4bf3c44b6d51f555 m68k: atari: usb: Add ISP1160 USB host controller support
+254d4cd857f49ddcf50540da546bb6cc3d32899d m68k: atari: Update Kconfig.bus help text
+272d069f2f7729413eacce18131790c9d91f8f53 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5739357684156571735==--
+--===============4780938137607614776==--
