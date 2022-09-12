@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6147652045070099903=="
+Content-Type: multipart/mixed; boundary="===============5776189834125396215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 12 Sep 2022 14:54:10 -0000
-Message-Id: <166299445097.16125.3588292635293555176@gitolite.kernel.org>
+Date: Mon, 12 Sep 2022 14:54:21 -0000
+Message-Id: <166299446145.16278.4466962301150531464@gitolite.kernel.org>
 
---===============6147652045070099903==
+--===============5776189834125396215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 1889bf68ff2373c1ddd8a0ac94b3a36def20f3c0
     new: c0d3367a9f943a552ec108d5d2d2a15c472907db
     log: revlist-1889bf68ff23-c0d3367a9f94.txt
 
---===============6147652045070099903==
+--===============5776189834125396215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -771,4 +771,4 @@ e609b55ab16a5789619aa34f8ac67386affd1247 kbuild: remove head-y syntax
 07d517bfd83b797cf9ab79a678b72b51e185b0f8 kbuild: use objtool-args-y to clean up objtool arguments
 c0d3367a9f943a552ec108d5d2d2a15c472907db linux/export: use inline assembler to populate symbol CRCs
 
---===============6147652045070099903==--
+--===============5776189834125396215==--
