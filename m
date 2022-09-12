@@ -1,271 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============0831814587661434657=="
+Content-Type: multipart/mixed; boundary="===============5779286217007073416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 12 Sep 2022 15:27:03 -0000
-Message-Id: <166299642317.10321.4772783491593925162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 12 Sep 2022 15:29:15 -0000
+Message-Id: <166299655575.11214.2890584467181124195@gitolite.kernel.org>
 
---===============0831814587661434657==
+--===============5779286217007073416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/arm/defconfig
-    old: 0fd64e61d2e388f61c97016e2a46e9dbe64147e8
-    new: 5a4ca019f6276429945d4b15691552d522c9a3ac
-    log: |
-         5a4ca019f6276429945d4b15691552d522c9a3ac ARM: config: ixp4xx: Disable legacy EEPROM driver
-         
-  - ref: refs/heads/arm/drivers
-    old: 3e3dcb464c0acb1b2a3b78e41c14b8f315f332b2
-    new: d6ce6d14316e15f7831dfa447b4690093e949aac
-    log: revlist-3e3dcb464c0a-d6ce6d14316e.txt
-  - ref: refs/heads/arm/dt
-    old: 0cb66809b805c68dcbb30284a73cb8e57d7ac7ee
-    new: 2c12f88cef398ebf63db96906cae086b727745c0
-    log: revlist-0cb66809b805-2c12f88cef39.txt
-  - ref: refs/heads/arm/fixes
-    old: 02181e68275d28cab3c3f755852770367f1bc229
-    new: 96c9b511fc0fd40880cd944b87c099e88db1a71d
-    log: revlist-02181e68275d-96c9b511fc0f.txt
-  - ref: refs/heads/for-next
-    old: 476384181508eb914b748f9527735b316219cb3c
-    new: 608cce19288a755fd5e5dc2361fad04211d7392c
-    log: revlist-476384181508-608cce19288a.txt
+  - ref: refs/heads/master
+    old: e912a567b1f0fa90d2734433b76264f425dc5a43
+    new: 05256a7c6b82f8e197031a236522b46eadf149b0
+    log: revlist-e912a567b1f0-05256a7c6b82.txt
 
---===============0831814587661434657==
+--===============5779286217007073416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e3dcb464c0a-d6ce6d14316e.txt
+Content-Disposition: attachment; filename=revlist-e912a567b1f0-05256a7c6b82.txt
 
-61b3c876c1cbdb1efd1f52a1f348580e6e14efb6 memory: pl353-smc: Fix refcount leak bug in pl353_smc_probe()
-8e4787582d92494188c094f0fa7d2f03c73ed509 memory: dfl-emif: Update the dfl emif driver support revision 1
-05215fb32010d4afb68fbdbb4d237df6e2d4567b memory: of: Fix refcount leak bug in of_get_ddr_timings()
-48af14fb0eaa63d9aa68f59fb0b205ec55a95636 memory: of: Fix refcount leak bug in of_lpddr3_get_ddr_timings()
-9f8fb8032febf594914999c33493c682eaf138cb dt-bindings: memory: mediatek,smi: Update condition for mt8195 smi node
-fa0321ba51ddff78ebe3c7c945830a85c987e3ed dt-bindings: memory-controller: Document Broadcom STB MEMC
-e3a1b9245ef72f3b9362816dffd6a08b27db10af Documentation: sysfs: Document Broadcom STB memc sysfs knobs
-a4be90ff7a7d22a5a781ed2bb3c2d4b2f535a515 memory: brcmstb_memc: Add Broadcom STB memory controller driver
-9d9fde47430298455544b283cffa390c40d58bfc dt-bindings: memory: mediatek: Add mt8188 smi binding
-8c1561edc0692fa8e321daf2777c3c32454b5748 memory: mtk-smi: Add return value for configure port function
-4e508b259ed02f5fa608cdd83b817a7f49c22271 memory: mtk-smi: Add enable IOMMU SMC command for MM master
-673e71df5ccfaefeb32bb5b3130a5d397b742194 memory: mtk-smi: mt8188: Add SMI Support
-4e441643b32249b4dac89be063255957f3d2938c dt-bindings: soc: grf: add pcie30-{phy,pipe}-grf
-daf7dc86513ffc9d9b2eef0378d97361609490ca dt-bindings: power: Add power-domain header for RV1126
-aa247e4e9736480a926d3cf32ca170a2c4f75dfb Merge branch 'v6.1-shared/powerdomain' into v6.1-armsoc/drivers
-2f3484b27598427ae582a37520b67c011597d706 dt-bindings: power: rockchip: Document RV1126 power-controller
-66296e0a318e12ef1ca04013e1e893539e715c5a soc: rockchip: power-domain: Add RV1126 power domains
-593e860fdff9add7f7eba504cf111b59a728fda5 dt-bindings: power: rockchip: Document RV1126 PMU IO domains
-570ed4e5b0d9e784f51a52bede2326391afa8c3f soc: rockchip: io-domain: Add RV1126 IO domains
-1d27e716805c6d8784122ab3d4ea4fc591c340e4 dt-bindings: media: samsung,exynos5250-gsc: convert to dtschema
-1f88d1e5f9e5d965c2208edc2c757eaff8960bca MAINTAINERS: pwm-fan: Drop Bartlomiej Zolnierkiewicz
-6212d2d9bbde60171d0c534e5f43932f84a06d5e MAINTAINERS: Drop Bartlomiej Zolnierkiewicz
-67944950c2d0bdb7cfc8855f1d9b44fc4ef51510 dt-bindings: power: add power-domain header for rk3588
-91b1a7ff70a5b33645ac618446bff97c36ae150d Merge branch 'v6.1-shared/powerdomain' into v6.1-armsoc/drivers
-aa8414fffd9892a81de76d4bb91c70149a005769 dt-bindings: arm: rockchip: add rk5388 compatible string to pmu.yaml
-167bbadee8c2aa53d56a2466bddd98c8c0aaf846 dt-bindings: power: rockchip: Add bindings for rk3588
-47bceb7cda6a78b3735694790e70f5cdc254058e soc: rockchip: power-domain: do not enable domain when adding it
-6541b424ce1dda616d3946e839f015c984df7a99 soc: rockchip: power-domain: add power domain support for rk3588
-d551bdf349baafde321c08f4f2d05b08f726354f Merge tag 'memory-controller-drv-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-4da90678a6862442c049b2827bf11fd563f1e66f Merge tag 'memory-controller-drv-brcm-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-c457d9a580fbb106e82afb81e2b4177f80c0221d Merge tag 'memory-controller-drv-mediatek-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-c3fe295c2ee5cc3c5747620960607785abf0a003 Merge tag 'v6.1-rockchip-drivers1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/drivers
-d6ce6d14316e15f7831dfa447b4690093e949aac Merge tag 'samsung-drivers-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/drivers
+fe5604724ba228020e947560d1f4cd38aabb6bc1 arm64: dts: arm: juno: Remove legacy Coresight 'slave-mode' property
+2f4d07d43f7e7014b992761be810d9fb154de7a3 arm64: dts: juno: Add missing MHU secure-irq
+6abf5d96c0c7b403bbac5dbc7cfbfcf93f146f63 ARM: dts: bcmbca: bcm63178: fix timer node cpu mask flag
+061b3238cbd61ed62da6df4000eca3fab3d36aaf ARM: dts: bcmbca: bcm63178: clean up psci node
+6707d4779eb59fa1a6dc5effc8d63f770ba7d2dd ARM: dts: bcmbca: bcm63178: fix interrupt controller node
+d393aa1cd07d4111dff1d0615d70d3794cf7cc42 ARM: dts: bcmbca: bcm63178: cosmetic change
+3b527df012f46f41fced6b1c722e491908dd46f8 ARM: dts: bcmbca: bcm6846: fix timer node cpu mask flag
+fc10a1657814cbd1b367a3b4d8523104151b85e8 ARM: dts: bcmbca: bcm6846: clean up psci node
+215b8a3fbce7393ba08abff6362f80ccbf163e9f ARM: dts: bcmbca: bcm6846: fix interrupt controller node
+5ba35d84d3278c4c0a1fabe1f36c32dc0e646363 ARM: dts: bcmbca: bcm6878: fix timer node cpu mask flag
+922772b1dd56e0702ddbb90b0b7a3cdccb48cd14 ARM: dts: bcmbca: bcm6878: cosmetic change
+9b7cd5815d852f8c1c061df62e60e25f7580afdb arm64: dts: imx8mm-verdin: update CAN clock to 40MHz
+447249bd604f98bb7e58bb64aaed32e98282c8a8 arm64: dts: imx8mm-verdin: use level interrupt for mcp251xfd
+acb7bd54f22847046153aa777a708c1d2fa08241 ARM: dts: integratorap: Update spi node properties
+3cdcbf7f703801846ed3d8a27bc715f01005ff37 ARM: dts: realview: Update spi clock-names property
+75b991ede49a15e2ab256df3678ef6447a01a308 ARM: dts: versatile: Update spi clock-names property
+c8b3e9f140954e6c4493f5511ae9140ebdebb62e arm64: dts: imx8mp-venice-gw74xx: fix sai2 pin settings
+956464721330565c46c8b6e5ffb159be8070b66a arm64: dts: imx8mp: Adjust ECSPI1 pinmux on i.MX8M Plus DHCOM
+ba85a3be8d95800b854ecb29d70b2084898e73ad arm64: dts: imx8mq-tqma8mq: Remove superfluous interrupt-names
+8f6715f20ec071b357f7a50373e68251db349351 ARM: dts: imx6qdl-vicut1.dtsi: Fix node name backlight_led
+ed5aa5f55de30b2dcb8f50e65e14ddf2d564d36b ARM: dts: imx6qdl-kontron-samx6i: remove duplicated node
+8fe3f48b7678067d55cd8ed9f3d6b4cddf077ae0 ARM: dts: imx6qdl-kontron-samx6i: fix spi-flash compatible
+0900bd15981373a9586e6ff74d0ff73bd1ef8f5d arm64: dts: ls1028a-qds-65bb: don't use in-band autoneg for 2500base-x
+e898e4adae87a1e952cc6307e6400ca3f5bd20b7 arm64: dts: verdin-imx8mm: add otg2 pd to usbphy
+958803b5abb43e535f0f81b7e61e93e0bfebd004 arm64: dts: imx8mm-venice-gw7901: fix port/phy validation
+01e02a86f85519863fa15f3f96dc953d62dc0fd3 arm64: dts: imx8mp: Fix I2C5 GPIO assignment on i.MX8M Plus DHCOM
+26a1ac1e96085ab418952debe51c06f1173776e0 arm64: dts: freescale: verdin-imx8mm: fix atmel_mxt_ts reset polarity
+8fbadc0380096370fd0d524bc250fbdcb518e013 arm64: dts: freescale: verdin-imx8mp: fix atmel_mxt_ts reset polarity
+8f7eb6b8394eda989ab515905d9d7727273ea0e0 arm64: dts: renesas: r8a779g0: Fix HSCIF0 interrupt number
+cd8bbebd12b2e2e90db0fdf0a96f1c87c0477dfb Merge tag 'imx-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+537ecae398926dbe361b40d75362810716d0d2f3 Merge tag 'versatile-dts-v6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-integrator into arm/fixes
+0e8435b1f50a3f443c8714bf725cf967b902f711 dt-bindings: i2c: renesas,riic: Fix 'unevaluatedProperties' warnings
+52d91661633bdf77d975aa2a2d77d1b8cbac3fe7 ARM: dts: at91: sama5d27_wlsom1: specify proper regulator output ranges
+b7231989cb2ac6c624d4faf8fdcb1fa12825a5f5 ARM: dts: at91: sama5d2_icp: specify proper regulator output ranges
+5b87d9911c539a477287de922c97b5da4612f999 ARM: dts: at91: sama7g5ek: specify proper regulator output ranges
+f3c51f984acda948d3cae7a41fa1cda5cf5c9796 ARM: dts: at91: sama5d27_wlsom1: don't keep ldo2 enabled all the time
+f2710fe0ba2efe733a0b72681d219bf069f2660b ARM: dts: at91: sama5d2_icp: don't keep vdd_other enabled all the time
+01c4e3a366f50d70be4b4722847f8bbcbc0d64f3 regulator: Fix qcom,spmi-regulator schema
+1dcc9e20bd34b3fc2fd324517cf16cc6b13c50fd dt-bindings: riscv: sifive-l2: add a PolarFire SoC compatible
+fcf58686aabe8d886f801c2d062ad4dd064cb07f riscv: dts: microchip: use an mpfs specific l2 compatible
+dff491e42a0d4f21372e30ddd744c9391362d4b0 Merge tag 'juno-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+c4daff6cb0e7bb02c306fedd2d91d2e7c89c4039 Merge tag 'arm-soc/for-6.0/devicetree' of https://github.com/Broadcom/stblinux into arm/fixes
+b6f469953ce365f8a23fa681c49b221442541062 Merge tag 'at91-fixes-6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
+18a6c6f4fedf0ca3079f0f891be07d769f7756af Merge tag 'renesas-fixes-for-v6.0-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+1bda766fa9fab98b2ab67cbbaa4601a2daac2383 Merge tag 'soc-fixes-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+7da4e9497dac3f26ca65a8695b42c15977a0e110 Merge tag 'regulator-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+126e48046beb99d6c3502ce98b4b95f1858f57f0 dt-bindings: hwmon: (mr75203) fix "intel,vm-map" property to be optional
+47afbe5c9ad2cfeadb089fe9f0790761684bc2bd Merge tag 'riscv-for-linus-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+fde0b66969a868de376198581278b4b6c3e63b70 Merge tag 'hwmon-for-v6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+b770504083d194544c74b19760057ca4d280e4a8 Merge tag 'i2c-for-6.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+05256a7c6b82f8e197031a236522b46eadf149b0 Merge tag 'v6.0-rc5-dts-raw'
 
---===============0831814587661434657==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cb66809b805-2c12f88cef39.txt
-
-b6740089b740b842d5e6ff55b4b2c3bf5961c69a dt-bindings: clock: exynosautov9: correct clock numbering of peric0/c1
-153da489e5e7c9aed7e6445b9450d98d5ebd5a5b dt-bindings: clock: exynosautov9: add fys0 clock definitions
-3c073243c5df0146fef619f7aa5874b2e9d234a3 dt-bindings: clock: exynosautov9: add fsys1 clock definitions
-4b6ec8d88623fed87088f141bcce79f67d82f301 dt-bindings: clock: exynosautov9: add schema for cmu_fsys0/1
-45bbf4d76a6730acf63805798d6fe7a126e49dbc dt-bindings: clock: exynos850: Add Exynos850 CMU_AUD
-f20f35f46f1a65e1c4b65d8fb62acdbdafd11e1e dt-bindings: clock: exynos850: Add Exynos850 CMU_IS
-8f3fc0ed70b97e7544ec1a57c60fe6b2f2f778c3 dt-bindings: clock: exynos850: Add Exynos850 CMU_MFCMSCL
-ac94f66521a5488eccdded4036b0ec039ceb87d5 arm64: dts: exynosautov9: add fsys0/1 clock DT nodes
-2c8cf49c7dec4b5f7323588279aa9e8a4174ebf9 arm64: dts: exynos: Add CMU_AUD, CMU_IS and CMU_MFCMSCL for Exynos850
-09a122384e34a4aa7ebae59c1eb11d69cd80658c arm64: dts: exynos: Add SysMMU nodes for Exynos850
-db7ad41538439a3dcfebd738959c7526b4e7d528 arm64: dts: rockchip: Add analog audio output on quartz64-b
-dfce69c8520592f1a20619050e6ded6275e9f25f dt-bindings: serial: samsung: add exynosautov9-uart compatible
-2fd8bd005897436c5a6d2d150d7b1ae2907f8b06 arm64: dts: rockchip: add vcc_cam regulator to rock-3a
-7a3eabdcd0fdc344d31b18e78e4f4b5d94db8df5 arm64: dts: rockchip: add vcc_mipi regulator to rock-3a
-a233ea1e6268a779d5c8c427eb14a2a89f95f4f9 arm64: dts: rockchip: specify pinctrl for i2c adapters on rock-3a
-faedfa5b40f095d09040c3a040e2f8dee4a36b4b arm64: dts: rockchip: Add PCIe v3 nodes to rk3568
-86973ae0355bc302d5e4c10fa382f6801feb4b90 arm64: dts: rockchip: Add PCIe v3 nodes to BPI-R2-Pro
-b6c228401b2565b7bd59ad7418074145cdaa316a arm64: dts: rockchip: add csi dphy node to rk356x
-467dcf345613a779efc3af1dce88a576079666e6 dt-bindings: vendor-prefixes: Add OPEN AI LAB
-a15ca48b6451b7af27323749f35d0f9929f83f73 dt-bindings: arm: rockchip: Add EAIDK-610
-904f983256fdd24bde974bf2f38fbacd3edbcd80 arm64: dts: rockchip: Add dts for a rk3399 based board EAIDK-610
-23c5f10981474b44ce1726e3753cbb7ac20d6548 dt-bindings: arm: rockchip: Add PinePhone Pro bindings
-78a21c7d59520e72ebea667fe8745a4371d9fe86 arm64: dts: rockchip: Add initial support for Pine64 PinePhone Pro
-638b8eb43b2a143f151045e66e695ba91b4a1a7c dt-bindings: arm: rockchip: Document Radxa ROCK 4C+
-9176ba910ba0309dd025b55381601da5f414b36e arm64: dts: rockchip: Add RK3399-T OPP table
-246450344dad087a121befbed1aba776dba3d377 arm64: dts: rockchip: rk3399: Radxa ROCK 4C+
-024744964ef6c0a65e348afafd4e1feae08eba5e arm64: dts: rockchip: Fix SD card controller probe on Pinephone Pro
-a5d5e515ed89709de8ad2537cd9d611b95e1928b arm64: dts: rockchip: add rk817 chg to Odroid Go Advance
-7ebfd4f6b52a60820e8d03577fdb082176cd8e79 arm64: dts: rockchip: add LED for ROCK Pi 4A/B/C/A+/B+
-6cbd76752791552554e5587f34781408215d1e5b arm64: dts: rockchip: add LEDs for ROCK 4C+
-bc17f2b9608fe2fdccd4fef95ef8b407f5c33174 arm64: dts: rockchip: Add regulator suffix to BPI-R2-Pro
-fff05e5af2247205f2ae4f93d1943d0938d8b2c3 dt-bindings: vendor-prefixes: add Anbernic
-22eed92492e4a390da87196d55b1da0af4154595 dt-bindings: arm: rockchip: Add Anbernic RG353P and RG503
-523adb553573db46593724fd1cd617339f2e9009 arm64: dts: rockchip: add Anbernic RG353P and RG503
-d28b680a34948d7634b824b1fc7546e9dc8422fb ARM: dts: rockchip: fix rk3036 emac node compatible string
-1dabb74971b38d966ecef566bafddc4a34f4db9d ARM: dts: rockchip: restyle emac nodes
-cd4e5f30f51f1066170a7c5f267cba6f062213e7 arm64: dts: rockchip: Add PCIe 2 nodes to quartz64-b
-1b8d4233f51632cb3134b373b5727e26ab7e0a49 arm64: dts: rockchip: add rtc to rock3a
-0fbbfb0b00d17ae6b6c4f04e325203de9e37837a arm64: dts: rockchip: Enable PCIe controller on rock3a
-944be6fba401639e5bf2a8bc9f5e781e6cc4b4d4 arm64: dts: rockchip: Add VPU support for RK3568/RK3566
-03d86fb5a56919ccf47e1cc5861bb5452017ab93 arm64: dts: rockchip: Add Hantro encoder node to rk356x
-91419ae0420f0c91a326655d687b740826d0a3f9 arm64: dts: rockchip: use BCLK to GPIO switch on rk3399
-446d5be806541e69cd9548407ce6976861d0b855 ARM: dts: stm32: add i2c nodes into stm32mp131.dtsi
-f5a058023239374031644f1e6db9bf8b7b40895a ARM: dts: stm32: enable i2c1 and i2c5 on stm32mp135f-dk.dts
-8539ebb435a519b7cb8888cdd1c464b3c32a8a69 ARM: dts: stm32: add spi nodes into stm32mp131.dtsi
-15f72e0da4daf843e631f3c7d55dd57252fa1259 ARM: dts: stm32: add pinctrl and disabled spi5 node in stm32mp135f-dk
-a9b70102253ce58b4aaf35a3898c075133120272 ARM: dts: stm32: Add timer interrupts on stm32mp15
-a118ba387595ee7082f6da08fabbd22ac5b0957d ARM: dts: stm32: Fix typo in license text for Engicam boards
-ea99a5a02ebca63b00a1676f1dd4f75b899fd51e ARM: dts: stm32: Create separate pinmux for qspi cs pin in stm32mp15-pinctrl.dtsi
-04c26c5a2da8591fe7e37146592d907ef37492bd ARM: dts: stm32: argon: remove spidev node
-b5a88262223b6d3770bd699927dc639c61f259c9 Merge tag 'v6.1-rockchip-dts64-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-b68ec1163c3cfc9274e3877de50c2783cc071310 Merge tag 'v6.1-rockchip-dts32-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-6d243f89818185396acf89c98f86599acb363239 Merge tag 'stm32-dt-for-v6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into arm/dt
-2c12f88cef398ebf63db96906cae086b727745c0 Merge tag 'samsung-dt64-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
-
---===============0831814587661434657==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02181e68275d-96c9b511fc0f.txt
-
-1ea90b2d293fd8b1f3377c9ed08364ff6f2a8562 arm64: dts: rockchip: Lower sd speed on quartz64-b
-e5467359a725de90b6b8d0dd865500f6373828ca arm64: dts: rockchip: Pull up wlan wake# on Gru-Bob
-4a00c43818dcc19be97250d4c3c4a1e2f1ed4f9d arm64: dts: rockchip: Fix typo in lisense text for PX30.Core
-388f9f0a7ff84b7890a24499a3a1fea0cad21373 arm64: dts: rockchip: fix upper usb port on BPI-R2-Pro
-8123437cf46ea5a0f6ca5cb3c528d8b6db97b9c2 arm64: dts: rockchip: Set RK3399-Gru PCLK_EDP to 24 MHz
-43e1d6d3b45c4e7e25171ec04a10d09969b0f889 arm64: dts: rockchip: fix property for usb2 phy supply on rock-3a
-1988e3ef0544bbe54cffa4ec30a5883e5a08c2b6 arm64: dts: rockchip: fix property for usb2 phy supply on rk3568-evb1-v10
-a994b34b9abb9c08ee09e835b4027ff2147f9d94 arm64: dts: rockchip: Remove 'enable-active-low' from rk3399-puma
-ea89926d9690f055fd8da929f6621a760e8e0f14 arm64: dts: rockchip: Remove 'enable-active-low' from rk3566-quartz64-a
-78c94808a459fc78a74780b5940ea1323217992d Merge tag 'v6.0-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-96c9b511fc0fd40880cd944b87c099e88db1a71d dt-bindings: memory-controllers: fsl,imx8m-ddrc: drop Leonard Crestez
-
---===============0831814587661434657==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-476384181508-608cce19288a.txt
-
-61b3c876c1cbdb1efd1f52a1f348580e6e14efb6 memory: pl353-smc: Fix refcount leak bug in pl353_smc_probe()
-8e4787582d92494188c094f0fa7d2f03c73ed509 memory: dfl-emif: Update the dfl emif driver support revision 1
-05215fb32010d4afb68fbdbb4d237df6e2d4567b memory: of: Fix refcount leak bug in of_get_ddr_timings()
-48af14fb0eaa63d9aa68f59fb0b205ec55a95636 memory: of: Fix refcount leak bug in of_lpddr3_get_ddr_timings()
-9f8fb8032febf594914999c33493c682eaf138cb dt-bindings: memory: mediatek,smi: Update condition for mt8195 smi node
-fa0321ba51ddff78ebe3c7c945830a85c987e3ed dt-bindings: memory-controller: Document Broadcom STB MEMC
-e3a1b9245ef72f3b9362816dffd6a08b27db10af Documentation: sysfs: Document Broadcom STB memc sysfs knobs
-a4be90ff7a7d22a5a781ed2bb3c2d4b2f535a515 memory: brcmstb_memc: Add Broadcom STB memory controller driver
-b6740089b740b842d5e6ff55b4b2c3bf5961c69a dt-bindings: clock: exynosautov9: correct clock numbering of peric0/c1
-153da489e5e7c9aed7e6445b9450d98d5ebd5a5b dt-bindings: clock: exynosautov9: add fys0 clock definitions
-3c073243c5df0146fef619f7aa5874b2e9d234a3 dt-bindings: clock: exynosautov9: add fsys1 clock definitions
-4b6ec8d88623fed87088f141bcce79f67d82f301 dt-bindings: clock: exynosautov9: add schema for cmu_fsys0/1
-45bbf4d76a6730acf63805798d6fe7a126e49dbc dt-bindings: clock: exynos850: Add Exynos850 CMU_AUD
-f20f35f46f1a65e1c4b65d8fb62acdbdafd11e1e dt-bindings: clock: exynos850: Add Exynos850 CMU_IS
-8f3fc0ed70b97e7544ec1a57c60fe6b2f2f778c3 dt-bindings: clock: exynos850: Add Exynos850 CMU_MFCMSCL
-ac94f66521a5488eccdded4036b0ec039ceb87d5 arm64: dts: exynosautov9: add fsys0/1 clock DT nodes
-2c8cf49c7dec4b5f7323588279aa9e8a4174ebf9 arm64: dts: exynos: Add CMU_AUD, CMU_IS and CMU_MFCMSCL for Exynos850
-09a122384e34a4aa7ebae59c1eb11d69cd80658c arm64: dts: exynos: Add SysMMU nodes for Exynos850
-1ea90b2d293fd8b1f3377c9ed08364ff6f2a8562 arm64: dts: rockchip: Lower sd speed on quartz64-b
-e5467359a725de90b6b8d0dd865500f6373828ca arm64: dts: rockchip: Pull up wlan wake# on Gru-Bob
-4a00c43818dcc19be97250d4c3c4a1e2f1ed4f9d arm64: dts: rockchip: Fix typo in lisense text for PX30.Core
-388f9f0a7ff84b7890a24499a3a1fea0cad21373 arm64: dts: rockchip: fix upper usb port on BPI-R2-Pro
-db7ad41538439a3dcfebd738959c7526b4e7d528 arm64: dts: rockchip: Add analog audio output on quartz64-b
-dfce69c8520592f1a20619050e6ded6275e9f25f dt-bindings: serial: samsung: add exynosautov9-uart compatible
-2fd8bd005897436c5a6d2d150d7b1ae2907f8b06 arm64: dts: rockchip: add vcc_cam regulator to rock-3a
-7a3eabdcd0fdc344d31b18e78e4f4b5d94db8df5 arm64: dts: rockchip: add vcc_mipi regulator to rock-3a
-a233ea1e6268a779d5c8c427eb14a2a89f95f4f9 arm64: dts: rockchip: specify pinctrl for i2c adapters on rock-3a
-9d9fde47430298455544b283cffa390c40d58bfc dt-bindings: memory: mediatek: Add mt8188 smi binding
-8c1561edc0692fa8e321daf2777c3c32454b5748 memory: mtk-smi: Add return value for configure port function
-4e508b259ed02f5fa608cdd83b817a7f49c22271 memory: mtk-smi: Add enable IOMMU SMC command for MM master
-673e71df5ccfaefeb32bb5b3130a5d397b742194 memory: mtk-smi: mt8188: Add SMI Support
-4e441643b32249b4dac89be063255957f3d2938c dt-bindings: soc: grf: add pcie30-{phy,pipe}-grf
-faedfa5b40f095d09040c3a040e2f8dee4a36b4b arm64: dts: rockchip: Add PCIe v3 nodes to rk3568
-86973ae0355bc302d5e4c10fa382f6801feb4b90 arm64: dts: rockchip: Add PCIe v3 nodes to BPI-R2-Pro
-b6c228401b2565b7bd59ad7418074145cdaa316a arm64: dts: rockchip: add csi dphy node to rk356x
-467dcf345613a779efc3af1dce88a576079666e6 dt-bindings: vendor-prefixes: Add OPEN AI LAB
-a15ca48b6451b7af27323749f35d0f9929f83f73 dt-bindings: arm: rockchip: Add EAIDK-610
-904f983256fdd24bde974bf2f38fbacd3edbcd80 arm64: dts: rockchip: Add dts for a rk3399 based board EAIDK-610
-8123437cf46ea5a0f6ca5cb3c528d8b6db97b9c2 arm64: dts: rockchip: Set RK3399-Gru PCLK_EDP to 24 MHz
-23c5f10981474b44ce1726e3753cbb7ac20d6548 dt-bindings: arm: rockchip: Add PinePhone Pro bindings
-78a21c7d59520e72ebea667fe8745a4371d9fe86 arm64: dts: rockchip: Add initial support for Pine64 PinePhone Pro
-daf7dc86513ffc9d9b2eef0378d97361609490ca dt-bindings: power: Add power-domain header for RV1126
-aa247e4e9736480a926d3cf32ca170a2c4f75dfb Merge branch 'v6.1-shared/powerdomain' into v6.1-armsoc/drivers
-2f3484b27598427ae582a37520b67c011597d706 dt-bindings: power: rockchip: Document RV1126 power-controller
-66296e0a318e12ef1ca04013e1e893539e715c5a soc: rockchip: power-domain: Add RV1126 power domains
-593e860fdff9add7f7eba504cf111b59a728fda5 dt-bindings: power: rockchip: Document RV1126 PMU IO domains
-570ed4e5b0d9e784f51a52bede2326391afa8c3f soc: rockchip: io-domain: Add RV1126 IO domains
-43e1d6d3b45c4e7e25171ec04a10d09969b0f889 arm64: dts: rockchip: fix property for usb2 phy supply on rock-3a
-1988e3ef0544bbe54cffa4ec30a5883e5a08c2b6 arm64: dts: rockchip: fix property for usb2 phy supply on rk3568-evb1-v10
-638b8eb43b2a143f151045e66e695ba91b4a1a7c dt-bindings: arm: rockchip: Document Radxa ROCK 4C+
-9176ba910ba0309dd025b55381601da5f414b36e arm64: dts: rockchip: Add RK3399-T OPP table
-246450344dad087a121befbed1aba776dba3d377 arm64: dts: rockchip: rk3399: Radxa ROCK 4C+
-a994b34b9abb9c08ee09e835b4027ff2147f9d94 arm64: dts: rockchip: Remove 'enable-active-low' from rk3399-puma
-ea89926d9690f055fd8da929f6621a760e8e0f14 arm64: dts: rockchip: Remove 'enable-active-low' from rk3566-quartz64-a
-024744964ef6c0a65e348afafd4e1feae08eba5e arm64: dts: rockchip: Fix SD card controller probe on Pinephone Pro
-1d27e716805c6d8784122ab3d4ea4fc591c340e4 dt-bindings: media: samsung,exynos5250-gsc: convert to dtschema
-1f88d1e5f9e5d965c2208edc2c757eaff8960bca MAINTAINERS: pwm-fan: Drop Bartlomiej Zolnierkiewicz
-6212d2d9bbde60171d0c534e5f43932f84a06d5e MAINTAINERS: Drop Bartlomiej Zolnierkiewicz
-67944950c2d0bdb7cfc8855f1d9b44fc4ef51510 dt-bindings: power: add power-domain header for rk3588
-91b1a7ff70a5b33645ac618446bff97c36ae150d Merge branch 'v6.1-shared/powerdomain' into v6.1-armsoc/drivers
-aa8414fffd9892a81de76d4bb91c70149a005769 dt-bindings: arm: rockchip: add rk5388 compatible string to pmu.yaml
-167bbadee8c2aa53d56a2466bddd98c8c0aaf846 dt-bindings: power: rockchip: Add bindings for rk3588
-47bceb7cda6a78b3735694790e70f5cdc254058e soc: rockchip: power-domain: do not enable domain when adding it
-6541b424ce1dda616d3946e839f015c984df7a99 soc: rockchip: power-domain: add power domain support for rk3588
-a5d5e515ed89709de8ad2537cd9d611b95e1928b arm64: dts: rockchip: add rk817 chg to Odroid Go Advance
-7ebfd4f6b52a60820e8d03577fdb082176cd8e79 arm64: dts: rockchip: add LED for ROCK Pi 4A/B/C/A+/B+
-6cbd76752791552554e5587f34781408215d1e5b arm64: dts: rockchip: add LEDs for ROCK 4C+
-bc17f2b9608fe2fdccd4fef95ef8b407f5c33174 arm64: dts: rockchip: Add regulator suffix to BPI-R2-Pro
-fff05e5af2247205f2ae4f93d1943d0938d8b2c3 dt-bindings: vendor-prefixes: add Anbernic
-22eed92492e4a390da87196d55b1da0af4154595 dt-bindings: arm: rockchip: Add Anbernic RG353P and RG503
-523adb553573db46593724fd1cd617339f2e9009 arm64: dts: rockchip: add Anbernic RG353P and RG503
-d28b680a34948d7634b824b1fc7546e9dc8422fb ARM: dts: rockchip: fix rk3036 emac node compatible string
-1dabb74971b38d966ecef566bafddc4a34f4db9d ARM: dts: rockchip: restyle emac nodes
-cd4e5f30f51f1066170a7c5f267cba6f062213e7 arm64: dts: rockchip: Add PCIe 2 nodes to quartz64-b
-1b8d4233f51632cb3134b373b5727e26ab7e0a49 arm64: dts: rockchip: add rtc to rock3a
-0fbbfb0b00d17ae6b6c4f04e325203de9e37837a arm64: dts: rockchip: Enable PCIe controller on rock3a
-944be6fba401639e5bf2a8bc9f5e781e6cc4b4d4 arm64: dts: rockchip: Add VPU support for RK3568/RK3566
-03d86fb5a56919ccf47e1cc5861bb5452017ab93 arm64: dts: rockchip: Add Hantro encoder node to rk356x
-91419ae0420f0c91a326655d687b740826d0a3f9 arm64: dts: rockchip: use BCLK to GPIO switch on rk3399
-446d5be806541e69cd9548407ce6976861d0b855 ARM: dts: stm32: add i2c nodes into stm32mp131.dtsi
-f5a058023239374031644f1e6db9bf8b7b40895a ARM: dts: stm32: enable i2c1 and i2c5 on stm32mp135f-dk.dts
-8539ebb435a519b7cb8888cdd1c464b3c32a8a69 ARM: dts: stm32: add spi nodes into stm32mp131.dtsi
-15f72e0da4daf843e631f3c7d55dd57252fa1259 ARM: dts: stm32: add pinctrl and disabled spi5 node in stm32mp135f-dk
-a9b70102253ce58b4aaf35a3898c075133120272 ARM: dts: stm32: Add timer interrupts on stm32mp15
-a118ba387595ee7082f6da08fabbd22ac5b0957d ARM: dts: stm32: Fix typo in license text for Engicam boards
-ea99a5a02ebca63b00a1676f1dd4f75b899fd51e ARM: dts: stm32: Create separate pinmux for qspi cs pin in stm32mp15-pinctrl.dtsi
-04c26c5a2da8591fe7e37146592d907ef37492bd ARM: dts: stm32: argon: remove spidev node
-b5a88262223b6d3770bd699927dc639c61f259c9 Merge tag 'v6.1-rockchip-dts64-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-b68ec1163c3cfc9274e3877de50c2783cc071310 Merge tag 'v6.1-rockchip-dts32-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-6d243f89818185396acf89c98f86599acb363239 Merge tag 'stm32-dt-for-v6.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into arm/dt
-78c94808a459fc78a74780b5940ea1323217992d Merge tag 'v6.0-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-96c9b511fc0fd40880cd944b87c099e88db1a71d dt-bindings: memory-controllers: fsl,imx8m-ddrc: drop Leonard Crestez
-d551bdf349baafde321c08f4f2d05b08f726354f Merge tag 'memory-controller-drv-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-4da90678a6862442c049b2827bf11fd563f1e66f Merge tag 'memory-controller-drv-brcm-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-c457d9a580fbb106e82afb81e2b4177f80c0221d Merge tag 'memory-controller-drv-mediatek-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-c3fe295c2ee5cc3c5747620960607785abf0a003 Merge tag 'v6.1-rockchip-drivers1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/drivers
-5a4ca019f6276429945d4b15691552d522c9a3ac ARM: config: ixp4xx: Disable legacy EEPROM driver
-d6ce6d14316e15f7831dfa447b4690093e949aac Merge tag 'samsung-drivers-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/drivers
-2c12f88cef398ebf63db96906cae086b727745c0 Merge tag 'samsung-dt64-6.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
-478b96eb85d999c849f7ebb050876077bdce52c4 Merge branch 'arm/dt' into for-next
-3a91c5ae78ae308c4b2d20cd3650dbe72c6ba5e3 Merge branch 'arm/drivers' into for-next
-7873a2bc4d53acaf0f0b07927269616c773c24d6 Merge branch 'arm/defconfig' into for-next
-410514006c79ebfa46a04cbdb8c605d63cbb96ec Merge branch 'arm/fixes' into for-next
-608cce19288a755fd5e5dc2361fad04211d7392c soc: document merges
-
---===============0831814587661434657==--
+--===============5779286217007073416==--
