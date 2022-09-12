@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 12 Sep 2022 21:07:03 -0000
-Message-Id: <166301682350.20836.5206855637909717600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 12 Sep 2022 21:09:28 -0000
+Message-Id: <166301696879.22046.9939518958209968331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 378cf126751c8276a3301b2676d7b72a81e3ff28
-    new: bf5390bc1d93d69a5600d86e89feb2b0a2a7c887
+  - ref: refs/heads/net-mlx5
+    old: 64ae13ed478428135cddc2f1113dff162d8112d4
+    new: b17a39aac4109dbd31954b60c7d32635f32085ac
     log: |
-         bf5390bc1d93d69a5600d86e89feb2b0a2a7c887 foo
+         b17a39aac4109dbd31954b60c7d32635f32085ac net/mlx5e: Do not increment ESN when updating IPsec ESN state
          
