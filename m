@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8469790206864209857=="
+Content-Type: multipart/mixed; boundary="===============1402754553277914078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 12 Sep 2022 09:52:23 -0000
-Message-Id: <166297634319.26110.5442615245690503932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 12 Sep 2022 09:52:28 -0000
+Message-Id: <166297634866.26230.18415640703653093201@gitolite.kernel.org>
 
---===============8469790206864209857==
+--===============1402754553277914078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.0
+  - ref: refs/heads/regmap-6.0
     old: f5723cfc01932c7a8d5c78dbf7e067e537c91439
     new: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
     log: revlist-f5723cfc0193-80e78fcce86d.txt
 
---===============8469790206864209857==
+--===============1402754553277914078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
 
---===============8469790206864209857==--
+--===============1402754553277914078==--
