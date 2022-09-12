@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7969945271376723613=="
+Content-Type: multipart/mixed; boundary="===============7924144951770039254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 12 Sep 2022 20:53:20 -0000
-Message-Id: <166301600000.10070.12679627812813483896@gitolite.kernel.org>
+Date: Mon, 12 Sep 2022 20:53:46 -0000
+Message-Id: <166301602608.10282.6036745892789119010@gitolite.kernel.org>
 
---===============7969945271376723613==
+--===============7924144951770039254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: fd5d08e3d817d0681002b66623272bd23e467f25
-    new: af70de5fbc3cf3f37d9a0e3f90960948b0fad80c
-    log: revlist-fd5d08e3d817-af70de5fbc3c.txt
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
+  - ref: refs/heads/master
+    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
+    new: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
+    log: revlist-7e18e42e4b28-80e78fcce86d.txt
 
---===============7969945271376723613==
+--===============7924144951770039254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd5d08e3d817-af70de5fbc3c.txt
+Content-Disposition: attachment; filename=revlist-7e18e42e4b28-80e78fcce86d.txt
 
 fd7cb3e4684f0c044a627dc33adb9f97c69f033f MAINTAINERS: add PolarFire SoC dt bindings
 3cbd673846772153a0aa85471aef5788f1a53dcd MAINTAINERS: add the Polarfire SoC's i2c driver
@@ -361,32 +358,5 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 087aa69a9f2b2f1aaa173f976fec94058f623a9d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
-bafde349209079f3667c93060fa76e2243b7ee60 NFSD: move from strlcpy with unused retval to strscpy
-ca6fbcdcf8510851a3c4939b73e38f869a53e837 lockd: move from strlcpy with unused retval to strscpy
-26bd5e4f69035831d1fdb0572b7038c82ed9605f NFSD: fix use-after-free on source server when doing inter-server copy
-bfe55f810a42a575c1ea0b6536b42ff9efc8717a NFSD enforce filehandle check for source file in COPY
-aea0982c2943b583a343aeeecca1eec70b81c7ff NFSD: remove redundant variable status
-3c63507f51491b6a2f9408562f065204091ff928 nfsd: Fix a memory leak in an error handling path
-48a675dfecb91fe538058b8724ecae57443b2b8c nfsd: Avoid some useless tests
-ba07a9530fab38c5e351b2b8c10e09cdf3823229 nfsd: Propagate some error code returned by memdup_user()
-2d4a87b1e822938a97f7276ca9f47f8dd4149748 NFSD: Increase NFSD_MAX_OPS_PER_COMPOUND
-0ae72b592e485c8f4a43f2227a21853e216854b1 SUNRPC: Fix svcxdr_init_decode's end-of-buffer calculation
-d9b23ce79947d0e4b3fd2ca7c4f2f148537098e9 SUNRPC: Fix svcxdr_init_encode's buflen calculation
-9bf75386dac844b3cb3009893fdd4338cb1d1ece NFSD: Protect against send buffer overflow in NFSv2 READDIR
-1c73b50b4bf7bbdc4062b53f275eaa9f7f4da5b0 NFSD: Protect against send buffer overflow in NFSv3 READDIR
-c746bbed4f4fba5c0e06453897270460047b6625 NFSD: Protect against send buffer overflow in NFSv2 READ
-a9de07aebeb8f86d91ae086d4a32c4400c571603 NFSD: Protect against send buffer overflow in NFSv3 READ
-b7f20c32415b70fb30cefbb9b17a5b8718d78c2b NFSD: drop fname and flen args from nfsd_create_locked()
-a5ddb680a06dbf8a55e3fd17e0635834b5900561 NFSD: Fix handling of oversized NFSv4 COMPOUND requests
-b1377c325d27229b72cd3ecd92fa6d5a38621abb nfsd: clean up mounted_on_fileid handling
-8c5ecf6c2a80f77155830b8c4ab9ade2115a8c17 nfsd: remove nfsd4_prepare_cb_recall() declaration
-d23b1816acfbe078f93646a55e54c33143b3d601 NFSD: Replace dprintk() call site in fh_verify()
-dd91410cbdb77870bbfd7d72e790f5b77e129b4f NFSD: Trace NFSv4 COMPOUND tags
-81b7636120e90e33fd88e43bef4afde7cf653592 NFSD: Add tracepoints to report NFSv4 callback completions
-05174c512dc7572a7ae7cb90944e0106ae7f0c11 NFSD: Add a mechanism to wait for a DELEGRETURN
-e9de96c3df550d09ee27db2e9494610702fed4c1 NFSD: Refactor nfsd_setattr()
-e4013cd6337347c987cbb0029889f82e8375fa4b NFSD: Make nfsd4_setattr() wait before returning NFS4ERR_DELAY
-f1ab28c616a37423237e481aa45ea0027e4fa28e NFSD: Make nfsd4_rename() wait before returning NFS4ERR_DELAY
-af70de5fbc3cf3f37d9a0e3f90960948b0fad80c NFSD: Make nfsd4_remove() wait before returning NFS4ERR_DELAY
 
---===============7969945271376723613==--
+--===============7924144951770039254==--
