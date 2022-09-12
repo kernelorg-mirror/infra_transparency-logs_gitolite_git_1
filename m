@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1407664909025359145=="
+Content-Type: multipart/mixed; boundary="===============3388130078202239835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 12 Sep 2022 14:53:33 -0000
-Message-Id: <166299441374.15772.1017624662843560576@gitolite.kernel.org>
+Date: Mon, 12 Sep 2022 14:53:48 -0000
+Message-Id: <166299442866.15919.9700121966705206437@gitolite.kernel.org>
 
---===============1407664909025359145==
+--===============3388130078202239835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
-    new: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
-    log: revlist-7e18e42e4b28-80e78fcce86d.txt
+  - ref: refs/heads/readfile
+    old: fbd2f99d79d1040b736395ec5a42f2b3dbf3f8dd
+    new: 8edc339f5fc4ec90bdfba458640daf390cb0e038
+    log: revlist-fbd2f99d79d1-8edc339f5fc4.txt
 
---===============1407664909025359145==
+--===============3388130078202239835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662994439 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1662994451 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1662994412-9729beaf77e966711713cae6082d9f834e15007f
+nonce 1662994423-06b0a75c5e3ab9cbab58f7e656400d4bc971d5ee
 
-7e18e42e4b280c85b76967a9106a13ca61c16179 80e78fcce86de0288793a0ef0f6acf37656ee4cf refs/heads/kobject-const
+fbd2f99d79d1040b736395ec5a42f2b3dbf3f8dd 8edc339f5fc4ec90bdfba458640daf390cb0e038 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMfSAcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rA4P/3BzuF2uJlSDjGihqoBc
-a/uJSmbfo7Jat2uePfbfz90z92RVAeiJZqBGeWSFYDQOFouI/x60wjGnhCicM19j
-CJRbJBa33Jyc9sAU878BU6lP9pOT5CO+Q2a5tS/0DD1k9ce5Wv/qJmgCrI2ON60b
-+pBfpMh0zpbnwuZ0/LoQ+z6NYIpVE0XC+URxBcygCKKPRDA0fQ1raTvw2MB+faOf
-J0ThiOymBONCu+58NOU1taOtYOorW8e5qvgpR83STOZzc9ErY6G/FqYPny+CwXQF
-tZPzJFuKDHgQGkclfa756uUftnmXRSa+7ilvTEIYk+I9VWkpjjqkQiGLkFilY7LW
-eqFhsfDpq9XDWzuzocJAJuP99HoHn2spR2FGBVWPzhe/OlpZi7N0FulD+MrlHo7b
-38UgMyNWtaMTXOV3mVJkf544X3ncZAnX9XsEifGFiLn3H2fsCNwal/IsJcPTs9vz
-fYr6dCVeIyjkSxEFNV4GrMPFSDiLxhMoD4PREajtNcOcW3yae5qYukkFtjdTOM1a
-YC/KM/5qhO6ib5E0+gJUsxJWDUG3V3c3pFDMg0cYcyQIGiXpgF6/iyZua4K5tSMH
-UujJj6oVWtbUN6RHBm6iV8NF6eZoalHeqicrFAOT4CWTLeq2W6xOxsSirQu/ME8m
-FbAB7qkDj1bGfySAbHh67D2E
-=Zs0B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMfSBMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dd8QAM7UTUumYaYJPRZMZCCZ
+Ko5zcGSWRLUL51zEo1bPzXSnyybepN+6nHAreT12XhQvshLIiLmB79XzhCjG2MfV
+P/W+2ZZIJpi8yqH+U68oC+FSEhokZ51qTa5RDLlv5F/UB3YvLb57AplDXxQfByG9
+X8gJ1epZKHA5Y449joBRLeysHwKFih3L/19F/Z8Yp1BDyqN3gRf9Qdp6h4IP3fhe
+BHkgm9kMUQiJy7FoPNZRlQEZ6RinF0q3tv7OyUYZVfQE2Q32KRMpxrgF9kSwkeGS
+7NQWKfHwEZV48hJUQjjqJF81iaoL5OJa8pHvCS/rjQ6imrbMTRTo5dpQKVt1EVDY
+QEIn++9s7r1Qrs6LJGDSsElKDDxNy3CtjfiuolDU8jn3o//wGbcJgn9C+Zyo7RsL
+AEBjlgJOwhpuF1r0ywAZ2wNJCQMVF0zQxNpQW4nlb5IULknERbAgeMz8+wsTNLnJ
+uA1mQRpP9V1v3KI8azdUC1Yv0xVJv/OOPXiR6irVqPcwa5npE0E0JBP2pYEE2E83
+ZxEHEU9cC7tp392r4Uj25gwHXI3qN8XjvTAyMR9cwdQacsZrpLw82+sG8bJdyQln
+zv5wYvNvqrEXkRGrX68q4sTbnbtZQPmoaxn3fzRQUrTc6Bwgb3N6H4aprFC9uknK
+sB9NxNDbFGbaihRfBj/u+jYy
+=Tj7D
 -----END PGP SIGNATURE-----
 
---===============1407664909025359145==
+--===============3388130078202239835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e18e42e4b28-80e78fcce86d.txt
+Content-Disposition: attachment; filename=revlist-fbd2f99d79d1-8edc339f5fc4.txt
 
 fd7cb3e4684f0c044a627dc33adb9f97c69f033f MAINTAINERS: add PolarFire SoC dt bindings
 3cbd673846772153a0aa85471aef5788f1a53dcd MAINTAINERS: add the Polarfire SoC's i2c driver
@@ -389,5 +389,9 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 087aa69a9f2b2f1aaa173f976fec94058f623a9d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
+e9d79429e456091f635b612b1f7238f523f060cf readfile: implement readfile syscall
+0e5760a6b5f4d03d191088816057c19e4b624e8d arch: wire up the readfile syscall
+c9f4adee0d8c86e2498e1b2b62c8d7e098cb9c93 selftests: add readfile(2) selftests
+8edc339f5fc4ec90bdfba458640daf390cb0e038 readfile.2: new page describing readfile(2)
 
---===============1407664909025359145==--
+--===============3388130078202239835==--
