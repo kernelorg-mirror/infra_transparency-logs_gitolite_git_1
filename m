@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 13 Sep 2022 16:44:27 -0000
-Message-Id: <166308746782.31168.5504946582219246148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 13 Sep 2022 16:53:31 -0000
+Message-Id: <166308801136.5152.6709648617848853306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-next
-    old: c0f5161bc8886e3b3116efb815b4975ea20c53f4
-    new: 663ec13e89b400ce9069400303b75feed8b9ab80
+  - ref: refs/heads/master
+    old: e23c69e3324892f7420686b3aaa0403df6cf152c
+    new: cd01569b040e3f496b74e4b78c2e79fc10979b28
     log: |
-         6385e21692bbb0b35eca8120d576b3c1ba1ad9d3 regulator: Add bindings for MT6331 regulator
-         6f7a71f804287a7566314ab1a73d8ca2c18ca0d7 regulator: Add driver for MT6331 PMIC regulators
-         e22943e32e1fc314b8e2b095ae3495d1bfa9aca5 regulator: Add bindings for MT6332 regulator
-         1cc5a52e873a4f9725eafe5aa9cd213b7b58e29e regulator: Add driver for MT6332 PMIC regulators
-         ca9b8f0486b577ab179664d4a279090645e9244f MediaTek Helio X10 MT6795 - MT6331/6332 Regulators
-         663ec13e89b400ce9069400303b75feed8b9ab80 Merge remote-tracking branch 'regulator/for-6.1' into regulator-next
+         e7ed42a44c36351cd064797613d6ae34c0140424 Input: hgpk - fix repeated word in a comment
+         cd01569b040e3f496b74e4b78c2e79fc10979b28 Input: mtk-pmic-keys - add support for MT6331 PMIC keys
+         
+  - ref: refs/heads/next
+    old: e23c69e3324892f7420686b3aaa0403df6cf152c
+    new: cd01569b040e3f496b74e4b78c2e79fc10979b28
+    log: |
+         e7ed42a44c36351cd064797613d6ae34c0140424 Input: hgpk - fix repeated word in a comment
+         cd01569b040e3f496b74e4b78c2e79fc10979b28 Input: mtk-pmic-keys - add support for MT6331 PMIC keys
          
