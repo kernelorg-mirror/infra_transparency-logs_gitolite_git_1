@@ -1,33 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1469155007674892262=="
+Content-Type: multipart/mixed; boundary="===============5376495475069467018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 13 Sep 2022 09:53:17 -0000
-Message-Id: <166306279798.25096.17080482825945565199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 13 Sep 2022 09:53:27 -0000
+Message-Id: <166306280745.25275.16003595573187050058@gitolite.kernel.org>
 
---===============1469155007674892262==
+--===============5376495475069467018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 044b771be9c5de9d817dfafb829d2f049c71c3b4
     new: 0caac1da994900d12a9be6106edb8e98696712a3
     log: revlist-044b771be9c5-0caac1da9949.txt
-  - ref: refs/heads/stable
-    old: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
-    new: e839a756012b6cad7a4eeb67b0598ac3f349f863
-    log: revlist-80e78fcce86d-e839a756012b.txt
   - ref: refs/tags/next-20220913
     old: 0000000000000000000000000000000000000000
     new: 8a9f7c9da025801a92233b17276342f059c0996b
 
---===============1469155007674892262==
+--===============5376495475069467018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -933,26 +929,4 @@ f21a6aa4ed751efa1592f2fd5e6718fbb6911c98 Merge branch 'mm-nonmm-stable' of git:/
 ff1aad14c41a72fa7e08128a735ecfeaf0c14730 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 0caac1da994900d12a9be6106edb8e98696712a3 Add linux-next specific files for 20220913
 
---===============1469155007674892262==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80e78fcce86d-e839a756012b.txt
-
-f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
-f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
-17814819ac9829a437e06fbb5c7056a1f4f893da SUNRPC: Fix call completion races with call_decode()
-2a9d683b48c8a87e61a4215792d44c90bcbbb536 NFSv4: Turn off open-by-filehandle and NFS re-export for NFSv4.0
-676576d164b34a98589a9efee85f57240c07fef3 Drivers: hv: remove duplicate word in a comment
-2258954234db7530e9d86bb32cd6ad54485ff926 tools: hv: kvp: remove unnecessary (void*) conversions
-8409fe92d88c332923130149fe209d1c882b286e PCI: Move PCI_VENDOR_ID_MICROSOFT/PCI_DEVICE_ID_HYPERV_VIDEO definitions to pci_ids.h
-2a8a8afba0c3053d0ea8686182f6b2104293037e Drivers: hv: Always reserve framebuffer region for Gen1 VMs
-f0880e2cb7e1f8039a048fdd01ce45ab77247221 Drivers: hv: Never allocate anything besides framebuffer from framebuffer memory region
-d7a5118635e725d195843bda80cc5c964d93ef31 NFSv4.2: Update mode bits after ALLOCATE and DEALLOCATE
-13bd9014180425f5a35eaf3735971d582c299292 Revert "SUNRPC: Remove unreachable error condition"
-00801cd92d91e94aa04d687f9bb9a9104e7c3d46 NFSD: fix regression with setting ACLs.
-62d1cea7d66ee690de398e281470e78e94d085f7 Merge tag 'nfsd-6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-6504d82f4440755d6fc1385532f84d0344243d61 Merge tag 'nfs-for-5.20-3' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-e839a756012b6cad7a4eeb67b0598ac3f349f863 Merge tag 'hyperv-fixes-signed-20220912' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-
---===============1469155007674892262==--
+--===============5376495475069467018==--
