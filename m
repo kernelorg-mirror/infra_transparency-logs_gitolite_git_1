@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8354015012730099572=="
+Content-Type: multipart/mixed; boundary="===============0435013918618339111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 13 Sep 2022 15:04:34 -0000
-Message-Id: <166308147495.23650.14304606171378090947@gitolite.kernel.org>
+Date: Tue, 13 Sep 2022 15:04:36 -0000
+Message-Id: <166308147665.23710.6360284139009608342@gitolite.kernel.org>
 
---===============8354015012730099572==
+--===============0435013918618339111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.1
-    old: 3ae82f22ed7a746a8a9e89ea840401c46deddbb3
-    new: 61a301ca83736afeeeb307b931c59f107067da3c
-    log: revlist-3ae82f22ed7a-61a301ca8373.txt
-  - ref: refs/heads/clk-for-6.1
-    old: 6956c18f4ad9200aa945f7ea37d65a05afc49d51
-    new: 7c6a6641c24d30ab6f5456d19e15e64bea971b82
-    log: |
-         7afdf3afff6f434a2c0b5d55e03ae14d7992d48c dt-bindings: clock: Add "qcom,adsp-pil-mode" property
-         be9439df235352a41605bf2cc8ba10aa0fc40d29 dt-bindings: clock: Add resets for LPASS audio clock controller for SC7280
-         1c3f9df77a506355b3c7761039b53e55ce746f17 dt-bindings: clock: Add support for external MCLKs for LPASS on SC7280
-         adb12f06366651e36ef677347699345e227be919 Merge branch '1662005846-4838-1-git-send-email-quic_c_skakit@quicinc.com' into clk-for-6.1
-         0cbcfbe50cbff331c775982a53bc4fa66c875b36 clk: qcom: lpass: Handle the regmap overlap of lpasscc and lpass_aon
-         7c6a6641c24d30ab6f5456d19e15e64bea971b82 clk: qcom: lpass: Add support for resets & external mclk for SC7280
-         
+  - ref: refs/heads/for-next
+    old: 44c02daba4512654a4c1406638a37792ec24c68f
+    new: 874942df2f2a64c1e49968cccfadfa7f608958ee
+    log: revlist-44c02daba451-874942df2f2a.txt
 
---===============8354015012730099572==
+--===============0435013918618339111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ae82f22ed7a-61a301ca8373.txt
+Content-Disposition: attachment; filename=revlist-44c02daba451-874942df2f2a.txt
 
 b626ac159e5e2ca3eac4079622b9f4105814768f arm64: dts: qcom: sc7280: correct CPU BWMON unit address
 00d92171ee142200000a984dd1e3cfe599252ec3 arm64: dts: qcom: sa8155p-adp: Remove unused properties from eth node
 593ad9132fd854f5916f68855204fb3b487cb408 dt-bindings: arm: qcom: document sc7280 and villager board
 3accba70e2389a47f42ffb5e900d01b7960dea9e arm64: dts: qcom: sc7280: Add herobrine-villager-r1
+7afdf3afff6f434a2c0b5d55e03ae14d7992d48c dt-bindings: clock: Add "qcom,adsp-pil-mode" property
+be9439df235352a41605bf2cc8ba10aa0fc40d29 dt-bindings: clock: Add resets for LPASS audio clock controller for SC7280
+1c3f9df77a506355b3c7761039b53e55ce746f17 dt-bindings: clock: Add support for external MCLKs for LPASS on SC7280
+adb12f06366651e36ef677347699345e227be919 Merge branch '1662005846-4838-1-git-send-email-quic_c_skakit@quicinc.com' into clk-for-6.1
+0cbcfbe50cbff331c775982a53bc4fa66c875b36 clk: qcom: lpass: Handle the regmap overlap of lpasscc and lpass_aon
+7c6a6641c24d30ab6f5456d19e15e64bea971b82 clk: qcom: lpass: Add support for resets & external mclk for SC7280
 d42fae738f3ac58cb8ba1fcd48510a40b57a3155 arm64: dts: qcom: Add LTE SKUs for sc7280-villager family
 05c23128898b2f0bb87c7d31ef5e6ada51cb0b17 dt-bindings: clock: Add "qcom,adsp-pil-mode" property
 42801e6185290d63691bd39cf8a3bba6cd5fe520 dt-bindings: clock: Add resets for LPASS audio clock controller for SC7280
@@ -58,5 +53,6 @@ f10c73ac6e90ca2343fc4f06b61ce8c1824c9bfd arm64: dts: qcom: sc7280: Enable lpass 
 ece7d81f2447f4fd4f5d5345e921036871babf2b arm64: dts: qcom: sc7280: Add sound node for CRD 1.0/2.0 and IDP boards
 29e0b604f040ef794cd36d43b97bd9c040ed99e6 arm64: dts: qcom: sc7280: Add sound node for CRD 3.0/3.1
 61a301ca83736afeeeb307b931c59f107067da3c arm64: dts: qcom: sc7280: Fix Dmic no sound on villager-r1
+874942df2f2a64c1e49968cccfadfa7f608958ee Merge branches 'arm64-defconfig-for-6.1', 'arm64-for-6.1', 'clk-for-6.1', 'defconfig-for-6.1', 'drivers-for-6.1', 'dts-for-6.1' and 'arm64-fixes-for-6.0' into for-next
 
---===============8354015012730099572==--
+--===============0435013918618339111==--
