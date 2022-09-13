@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0092195687417005484=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 13 Sep 2022 14:13:18 -0000
-Message-Id: <166307839800.19226.12146689572486590358@gitolite.kernel.org>
-
---===============0092195687417005484==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 13 Sep 2022 14:16:59 -0000
+Message-Id: <166307861924.22531.18290423410108937983@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 292c8b8b9d224bdc93669f616bdb33b6a61f12c0
-    new: 7427649fd2d6fbe6fdbfdb34f5878dfefcd97cbf
+  - ref: refs/heads/master
+    old: f079444c6c8d4fee517290e21d533ec6a3d4e379
+    new: 4cf655936e6fda1aa0299cf484d95a31bc67e7d4
     log: |
-         7427649fd2d6fbe6fdbfdb34f5878dfefcd97cbf Notes added by 'git notes add'
+         49d098b4346cda8f441a681de8731454b08b717a doc: Update Netconfig Agent API doc
+         ce36d2fb157509ae2743272e04c3f3a8dae2cbfa netconfig: Drop dhcp, dhcp6 and acd client instances
+         b0b1a46779cb6c57228b359e332ea90cba8b09ef netconfig: Keep configuration directly in struct l_netconfig
+         98ba09562e6cdc24e03cf5b092670230dfdc5761 netconfig: Clean up netconfig_get_static{4,6}_address
+         a8b1139dcbb77ef85a2b2b1bf25428df6cd1da84 netconfig: Store pointer to netdev instead of ifindex
+         b79c7d49cd7bb585345d46eb21ec6e368d540d2b netconfig: Add netconfig-commit API
+         fbdd4471a1da18e97b58e9b83172d2546ed49148 netconfig: Handle l_netconfig events
+         11bae534088c9e281e9bf6bf3ef944de9368895b netconfig: Re-add FILS handling
+         a4c0515e0f4ac918f5afb3690d9944ef14ce095a netconfig: Add NetworkConfigurationAgent DBus API
+         4cf655936e6fda1aa0299cf484d95a31bc67e7d4 netconfig: Skip update if resolver data unchanged
          
-
---===============0092195687417005484==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1663078397 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663078397-baf39484282aec398a98657328549def99c09116
-
-292c8b8b9d224bdc93669f616bdb33b6a61f12c0 7427649fd2d6fbe6fdbfdb34f5878dfefcd97cbf refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyCP/QAKCRC2xBzjVmSZ
-bBnsAP0db3DeLIDwOUVDLsYihp+guItbiMbId+UhLFLCLEkIswEAtuushcb5V+PQ
-Htj++dRPAZehWt6dy7nRDoXi423zaQo=
-=6ZId
------END PGP SIGNATURE-----
-
---===============0092195687417005484==--
