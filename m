@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1620886493872217099=="
+Content-Type: multipart/mixed; boundary="===============0092195687417005484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 13 Sep 2022 14:13:05 -0000
-Message-Id: <166307838530.19069.17522637872293895773@gitolite.kernel.org>
+Date: Tue, 13 Sep 2022 14:13:18 -0000
+Message-Id: <166307839800.19226.12146689572486590358@gitolite.kernel.org>
 
---===============1620886493872217099==
+--===============0092195687417005484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v0.9.1
-    old: 0000000000000000000000000000000000000000
-    new: 069d4f57989c6e8fd8fe3fd27461a8e12d0aefaa
+  - ref: refs/notes/signatures/tar
+    old: 292c8b8b9d224bdc93669f616bdb33b6a61f12c0
+    new: 7427649fd2d6fbe6fdbfdb34f5878dfefcd97cbf
+    log: |
+         7427649fd2d6fbe6fdbfdb34f5878dfefcd97cbf Notes added by 'git notes add'
+         
 
---===============1620886493872217099==
+--===============0092195687417005484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1663078385 -0400
+pusher B6C41CE35664996C! 1663078397 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663078384-b89a9ae34e4afb25df8ff5c09b87b90c05c68206
+nonce 1663078397-baf39484282aec398a98657328549def99c09116
 
-0000000000000000000000000000000000000000 069d4f57989c6e8fd8fe3fd27461a8e12d0aefaa refs/tags/v0.9.1
+292c8b8b9d224bdc93669f616bdb33b6a61f12c0 7427649fd2d6fbe6fdbfdb34f5878dfefcd97cbf refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyCP8QAKCRC2xBzjVmSZ
-bJUdAP0UJhPVbzghfmnKqUSTHnRug2fQkxCtMEP5L91tCetmOAD/Q0TfiFcl6xUs
-DANyMqRVflAJCPN6JcRhZvHI00FSlQ0=
-=54p/
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyCP/QAKCRC2xBzjVmSZ
+bBnsAP0db3DeLIDwOUVDLsYihp+guItbiMbId+UhLFLCLEkIswEAtuushcb5V+PQ
+Htj++dRPAZehWt6dy7nRDoXi423zaQo=
+=6ZId
 -----END PGP SIGNATURE-----
 
---===============1620886493872217099==--
+--===============0092195687417005484==--
