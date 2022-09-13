@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 13 Sep 2022 12:02:54 -0000
-Message-Id: <166307057429.21730.15230203353699034877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 13 Sep 2022 12:05:01 -0000
+Message-Id: <166307070164.22588.18192216569639709001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/main
-    old: 4c004d8f8f7d05138c8d67b76cebc910451942d3
-    new: f09bebf31b0590bdc875d7236aa705279510cfd0
-    log: |
-         427ca6cacdb3f3a0a0fa5fd9ceac35d9406a5a95 amdgpu: add firmware for DCN 3.1.5 IP block
-         76589464cb38ce6da92b2738942eef9900eaa02f amdgpu: add firmware for GC 10.3.6 IP block
-         639b5c13e3456119cc7dc7d032f48b29d340063f amdgpu: add firmware for PSP 13.0.5 IP block
-         3647da5c2fe00c504f21aed8124d6233fa3b0743 amdgpu: add firmware for SDMA 5.2.6 IP block
-         db6db36a84554862926cc962187177dd1c9f23cd amdgpu: add firmware for VCN 3.1.2 IP block
-         f09bebf31b0590bdc875d7236aa705279510cfd0 amdgpu: update yellow carp DMCUB firmware
-         
+  - ref: refs/heads/for-next
+    old: 5bbe47542f171fcf4f97916eb18eaa23559f34bd
+    new: 0000000000000000000000000000000000000000
