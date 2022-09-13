@@ -1,55 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============0288503893690235554=="
+Content-Type: multipart/mixed; boundary="===============8354015012730099572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Tue, 13 Sep 2022 15:04:19 -0000
-Message-Id: <166308145914.23478.17262049553372768124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 13 Sep 2022 15:04:34 -0000
+Message-Id: <166308147495.23650.14304606171378090947@gitolite.kernel.org>
 
---===============0288503893690235554==
+--===============8354015012730099572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/maint
-    old: a721b865d97cef58d7bca3bd03c8190342da79e8
-    new: dbaedc87e9d048077385c3a07a5ffbde518e5d28
+  - ref: refs/heads/arm64-for-6.1
+    old: 3ae82f22ed7a746a8a9e89ea840401c46deddbb3
+    new: 61a301ca83736afeeeb307b931c59f107067da3c
+    log: revlist-3ae82f22ed7a-61a301ca8373.txt
+  - ref: refs/heads/clk-for-6.1
+    old: 6956c18f4ad9200aa945f7ea37d65a05afc49d51
+    new: 7c6a6641c24d30ab6f5456d19e15e64bea971b82
     log: |
-         281dcbfb1d59d0db95d4f81b8b9c275d87515ceb libext2fs: in ext2fs_open[2](), return an error if s_first_meta_bg is too big
-         9892631d0426ac07aceb1939cf0430481461dd63 AOSP: Add vendor available for libext2_blkid library
-         1950b65452198630b55703f6f14c0d554a7f05fe AOSP: Fix e2fsdroid build with musl
-         80c777a3458879029232adbb16b2fcd503316ce1 AOSP: Moved contents of clang_cflags into cflags
-         dbaedc87e9d048077385c3a07a5ffbde518e5d28 AOSP: e2fsdroid: static import of libbase
+         7afdf3afff6f434a2c0b5d55e03ae14d7992d48c dt-bindings: clock: Add "qcom,adsp-pil-mode" property
+         be9439df235352a41605bf2cc8ba10aa0fc40d29 dt-bindings: clock: Add resets for LPASS audio clock controller for SC7280
+         1c3f9df77a506355b3c7761039b53e55ce746f17 dt-bindings: clock: Add support for external MCLKs for LPASS on SC7280
+         adb12f06366651e36ef677347699345e227be919 Merge branch '1662005846-4838-1-git-send-email-quic_c_skakit@quicinc.com' into clk-for-6.1
+         0cbcfbe50cbff331c775982a53bc4fa66c875b36 clk: qcom: lpass: Handle the regmap overlap of lpasscc and lpass_aon
+         7c6a6641c24d30ab6f5456d19e15e64bea971b82 clk: qcom: lpass: Add support for resets & external mclk for SC7280
          
-  - ref: refs/heads/master
-    old: ed2850e8cfcfab44805dcc0e0a89dd4ecf31e344
-    new: aad34909b6648579f42dade5af5b46821aa4d845
-    log: revlist-ed2850e8cfcf-aad34909b664.txt
-  - ref: refs/heads/next
-    old: ed2850e8cfcfab44805dcc0e0a89dd4ecf31e344
-    new: aad34909b6648579f42dade5af5b46821aa4d845
-    log: revlist-ed2850e8cfcf-aad34909b664.txt
 
---===============0288503893690235554==
+--===============8354015012730099572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed2850e8cfcf-aad34909b664.txt
+Content-Disposition: attachment; filename=revlist-3ae82f22ed7a-61a301ca8373.txt
 
-66ecb6abe5d2c74191bb4bc24f3da036e5fa1213 tune2fs: fix tune2fs segfault when ext2fs_run_ext3_journal() fails
-77ac16dfba42e0d152b1e99359e01a933f8cc6f9 tune2fs: tune2fs_main() should return rc when some error, occurs
-bb0ab2a84bb1094b0dfe44c2ed61e9f9813b1c1b misc fix the chattr's man page regarding the -x flag
-8e70bf2a1c2998b0580ac55c97ffb00983bfc80d Update release notes, etc. for the 1.46.6-rc1 release
-a721b865d97cef58d7bca3bd03c8190342da79e8 debian: add release notes for 1.46.5-2 to the debian changelog
-281dcbfb1d59d0db95d4f81b8b9c275d87515ceb libext2fs: in ext2fs_open[2](), return an error if s_first_meta_bg is too big
-9892631d0426ac07aceb1939cf0430481461dd63 AOSP: Add vendor available for libext2_blkid library
-1950b65452198630b55703f6f14c0d554a7f05fe AOSP: Fix e2fsdroid build with musl
-80c777a3458879029232adbb16b2fcd503316ce1 AOSP: Moved contents of clang_cflags into cflags
-dbaedc87e9d048077385c3a07a5ffbde518e5d28 AOSP: e2fsdroid: static import of libbase
-aad34909b6648579f42dade5af5b46821aa4d845 Merge branch 'maint' into next
+b626ac159e5e2ca3eac4079622b9f4105814768f arm64: dts: qcom: sc7280: correct CPU BWMON unit address
+00d92171ee142200000a984dd1e3cfe599252ec3 arm64: dts: qcom: sa8155p-adp: Remove unused properties from eth node
+593ad9132fd854f5916f68855204fb3b487cb408 dt-bindings: arm: qcom: document sc7280 and villager board
+3accba70e2389a47f42ffb5e900d01b7960dea9e arm64: dts: qcom: sc7280: Add herobrine-villager-r1
+d42fae738f3ac58cb8ba1fcd48510a40b57a3155 arm64: dts: qcom: Add LTE SKUs for sc7280-villager family
+05c23128898b2f0bb87c7d31ef5e6ada51cb0b17 dt-bindings: clock: Add "qcom,adsp-pil-mode" property
+42801e6185290d63691bd39cf8a3bba6cd5fe520 dt-bindings: clock: Add resets for LPASS audio clock controller for SC7280
+c9a406b42f5cce0695ee33b2ae1751fdb36911ee dt-bindings: clock: Add support for external MCLKs for LPASS on SC7280
+12ef689f09abb50f0862c8e08138dd45cbf27233 arm64: dts: qcom: sc7280: Add nodes for soundwire and va tx rx digital macro codecs
+d3219de8bcebe4057696a2f99ce90c8812114c78 arm64: dts: qcom: sc7280: Enable digital codecs and soundwire for CRD 1.0/2.0 and IDP boards
+d5a959f96be1b27c81d6197d66624cd6cc146fe6 arm64: dts: qcom: sc7280: Enable digital codecs and soundwire for CRD 3.0/3.1
+f8b4eb64f2003e0a1fa5011009955d46f90af285 arm64: dts: qcom: sc7280: Add wcd9385 codec node for CRD 1.0/2.0 and IDP boards
+0a3a56a93fd96cb3e3d42778f275e91750c242a7 arm64: dts: qcom: sc7280: Add wcd9385 codec node for CRD 3.0/3.1
+d6c006f510d9f29ff78761bb3ef50f14ebc05b7b arm64: dts: qcom: sc7280: Add max98360a codec for CRD 1.0/2.0 and IDP boards
+14afeaf917375967bb84b4347cd8e4156b84c470 arm64: dts: qcom: sc7280: herobrine: Add max98360a codec node
+aee6873edb93a3919706f70884e55880d8c727a5 arm64: dts: qcom: sc7280: Add lpass cpu node
+8cf4133bc1fbb6fbc695e4398b940caf3ec59ba5 arm64: dts: qcom: sc7280: Enable lpass cpu node for CRD 1.0/2.0 and IDP boards.
+f10c73ac6e90ca2343fc4f06b61ce8c1824c9bfd arm64: dts: qcom: sc7280: Enable lpass cpu node for CRD 3.0/3.1
+ece7d81f2447f4fd4f5d5345e921036871babf2b arm64: dts: qcom: sc7280: Add sound node for CRD 1.0/2.0 and IDP boards
+29e0b604f040ef794cd36d43b97bd9c040ed99e6 arm64: dts: qcom: sc7280: Add sound node for CRD 3.0/3.1
+61a301ca83736afeeeb307b931c59f107067da3c arm64: dts: qcom: sc7280: Fix Dmic no sound on villager-r1
 
---===============0288503893690235554==--
+--===============8354015012730099572==--
