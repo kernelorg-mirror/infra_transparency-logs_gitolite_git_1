@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 13 Sep 2022 15:23:45 -0000
-Message-Id: <166308262524.4706.6957756298445317686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 13 Sep 2022 15:33:57 -0000
+Message-Id: <166308323790.12697.9927731307545882465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 5293283228c4a0287fd891a23f8e2632fee2bc08
-    new: 2fadaf2ca667fc62f2275e21c229411d0834ec4b
+  - ref: refs/heads/net-next-mlx5
+    old: 169ccf0e40825d9e465863e4707d8e8546d3c3cb
+    new: c9ae520ac3faf2f272b5705b085b3778c7997ec8
     log: |
-         2fadaf2ca667fc62f2275e21c229411d0834ec4b tests: fixup defer-taskrun.c after api change
+         41e3b0722f6c7c756702f50d194b0d6caa0fba26 sfc: introduce shutdown entry point in efx pci driver
+         c9ae520ac3faf2f272b5705b085b3778c7997ec8 r8169: remove rtl_wol_shutdown_quirk()
          
