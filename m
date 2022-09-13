@@ -1,46 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============2104989578711121688=="
+Content-Type: multipart/mixed; boundary="===============8301013305940163010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 13 Sep 2022 04:45:24 -0000
-Message-Id: <166304432492.23884.16487891027785279590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 13 Sep 2022 05:56:54 -0000
+Message-Id: <166304861494.8997.11042543832162231613@gitolite.kernel.org>
 
---===============2104989578711121688==
+--===============8301013305940163010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/seen
-    old: 3c46dc0a2008f045c5b8c857f53dfefb3e5916c7
-    new: 9ba7817802e765d5e58dfb277dcdf457b84e2d68
-    log: revlist-3c46dc0a2008-9ba7817802e7.txt
+  - ref: refs/heads/for-linus
+    old: ead3d3c5b54f76da79c079e61bacb4279ec56965
+    new: cbcdf8c4d35cd74aee8581eb2f0453e0ecab7b05
+    log: |
+         4d40ceef4745536289012670103c59264e0fb3ec ALSA: hda: add Intel 5 Series / 3400 PCI DID
+         3c4d8c24fb6c44f426e447b04800b0ed61a7b5ae ALSA: hda/tegra: set depop delay for tegra
+         cbcdf8c4d35cd74aee8581eb2f0453e0ecab7b05 ALSA: hda/realtek: Add quirk for Huawei WRT-WX9
+         
+  - ref: refs/heads/for-next
+    old: 446bc11f8614449782feac1d5ff270b3f98bcdf3
+    new: f4209f692e3437c313e83bd057e6dc0c7f952549
+    log: revlist-446bc11f8614-f4209f692e34.txt
 
---===============2104989578711121688==
+--===============8301013305940163010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c46dc0a2008-9ba7817802e7.txt
+Content-Disposition: attachment; filename=revlist-446bc11f8614-f4209f692e34.txt
 
-7c04aa73906b9186c9d46010227d4437fd534d93 chainlint: colorize problem annotations and test delimiters
-766c32892ca4221e95837b33926eaa7ab6b4b90f Merge branch 'es/chainlint' into jch
-d8820426b1a07010035d2c2c040e585ef17b0f7a Merge branch 'po/glossary-around-traversal' into seen
-9b9a1a72fde1a70fad9bcf6343fdcb4aca4c7b51 Merge branch 'es/mark-gc-cruft-as-experimental' into seen
-6c65571d452255b300ed4d7df9245ab02e81b757 Merge branch 'ag/merge-strategies-in-c' into seen
-15d4a159a88586762f99b94637c8a91a73b08d4b Merge branch 'cw/remote-object-info' into seen
-7823774fdbad1f118757760e27bcc35b424bbe1b ###
-1fe943fa332ea6652e3789c37bc5a00c53777aba Merge branch 'ds/bundle-uri-3' into seen
-347f999fb40f5921a44328181b64f45ee1b7059e Merge branch 'js/cmake-updates' into seen
-4a9dc56adb569bacc69f6cba0b59e5bae9574e52 Merge branch 'ds/use-platform-regex-on-macos' into seen
-6d9492a930b7b2ac5740d477fbe4b5bad7ee7959 Merge branch 'gc/submodule-clone-update-with-branches' into seen
-466a807c1310fc8ea1b38a6673abc71eddc004e1 Merge branch 'js/bisect-in-c' into seen
-c9bb1cacb67e1f21ce7a4078256a39be7fcd5635 Merge branch 'vd/scalar-to-main' into seen
-f91c2ec4acece4ad60104ae89e16c16b9fc4a5b6 Merge branch 'ab/coccicheck-incremental' into seen
-4909c9f959a91f1170f3994aac1c25619a74d733 Merge branch 'sy/sparse-grep' into seen
-9ba7817802e765d5e58dfb277dcdf457b84e2d68 Merge branch 'vd/doc-reviewing-guidelines' into seen
+4d39265b930fb42eb396c3153a3f4afdee9f5c17 Merge remote-tracking branch 'asoc/for-5.20' into asoc-6.0
+ea75deef1a738d25502cfbb2caa564270b271525 ASoC: cs42l42: Only report button state if there was a button interrupt
+dcdfa3471f9c28ee716c687d85701353e2e86fde ASoC: fsl_sai: fix incorrect mclk number in error message
+c6e14bb9f50df7126ca64405ae807d8bc7b39f9a ASoC: qcom: sm8250: add missing module owner
+ecdb10df7e0d83bfd12fb8f71e28ea4753e3716a ASoC: SOF: ipc4-topology: fix wrong use of sizeof in sof_ipc4_widget_setup_comp_src()
+221ab1f0bf46236cf1a3fef5298ff5894acfb0c5 ASoC: mediatek: mt8186: fix DMIC record noise
+cf5071876baf995f8f98e86ef06f85a58feda63c ASoC: nau8821: Implement hw constraint for rates
+5628560e90395d3812800a8e44a01c32ffa429ec ASoC: nau8824: Fix semaphore unbalance at error paths
+92283c86260d8712b55f97eada13b3c8b2f469b2 ASoC: nau8824: Implement hw constraint for rates
+bed41de0f679c516de45cfeb2c40c412bc5e0c0b ASoC: nau8825: Implement hw constraint for rates
+be919239fbcab19290bfd6802c7ad1dc946c515b ASoC: nau8540: Implement hw constraint for rates
+1faa6f8274e2b08a38c0cca74113dfb26c6ad7b7 ASoC: fsl_mqs: Fix supported clock DAI format
+3942499fba11de048c3ac1390b808e9e6ae88de5 ASoC: SOF: Kconfig: Make IPC_FLOOD_TEST depend on SND_SOC_SOF
+2cf520ffbcbd55c0f2b4276065444d7526d9d197 ASoC: SOF: Kconfig: Make IPC_MESSAGE_INJECTOR depend on SND_SOC_SOF
+5c5c2baad2b55cc0a4b190266889959642298f79 ASoC: mchp-spdiftx: Fix clang -Wbitfield-constant-conversion
+4ee6fc271b59e805301371ea3862f558a23d9c7b ASoC: SOF: ipc4-topology: fix alh_group_ida max value
+13e575de5fd7a78d7a5bc5df394c5d553f6a17b1 ASoC: SOF: Kconfig: Fix the dependency for client modules
+2a91980012abc54841da530a6de90f74a41c9e34 ASoC: nau8xxx: Implement hw constraint for rates
+ea532c29972df96fda20393d9bf057e898f5e965 ASoC: fsl_aud2htx: register platform component before registering cpu dai
+b1cd3fd42db7593a2d24c06f1c53b8c886592080 ASoC: fsl_aud2htx: Add error handler for pm_runtime_enable
+d29f59051d3a07b81281b2df2b8c9dfe4716067f ALSA: emu10k1: Fix out of bounds access in snd_emu10k1_pcm_channel_alloc()
+809f44a0cc5ad4b1209467a6287f8ac0eb49d393 ALSA: usb-audio: Clear fixed clock rate at closing EP
+09e3e3159cd4d3c9f3a1f025cb8e635d93c67c9a Merge tag 'asoc-fix-v6.0-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+ead3d3c5b54f76da79c079e61bacb4279ec56965 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
+4d40ceef4745536289012670103c59264e0fb3ec ALSA: hda: add Intel 5 Series / 3400 PCI DID
+3c4d8c24fb6c44f426e447b04800b0ed61a7b5ae ALSA: hda/tegra: set depop delay for tegra
+cbcdf8c4d35cd74aee8581eb2f0453e0ecab7b05 ALSA: hda/realtek: Add quirk for Huawei WRT-WX9
+f4209f692e3437c313e83bd057e6dc0c7f952549 Merge branch 'for-linus' into for-next
 
---===============2104989578711121688==--
+--===============8301013305940163010==--
