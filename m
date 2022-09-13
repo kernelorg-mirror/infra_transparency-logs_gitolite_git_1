@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6902886915240247378=="
+Content-Type: multipart/mixed; boundary="===============6689083104284329605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 13 Sep 2022 11:08:17 -0000
-Message-Id: <166306729765.13724.7942906077849742882@gitolite.kernel.org>
+Date: Tue, 13 Sep 2022 11:08:26 -0000
+Message-Id: <166306730637.13874.14914725383000625495@gitolite.kernel.org>
 
---===============6902886915240247378==
+--===============6689083104284329605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 07d517bfd83b797cf9ab79a678b72b51e185b0f8
     new: 0752c572f50f8745f1976c27b9294a8d167dfb00
     log: revlist-07d517bfd83b-0752c572f50f.txt
 
---===============6902886915240247378==
+--===============6689083104284329605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ b8d366ae69fe633e697776b839ac52d3eecf07d3 kbuild: move vmlinux.o rule to the top 
 3467c7914cb415ccab02bceb1b1868369b24457c kbuild: remove head-y syntax
 0752c572f50f8745f1976c27b9294a8d167dfb00 kbuild: use objtool-args-y to clean up objtool arguments
 
---===============6902886915240247378==--
+--===============6689083104284329605==--
