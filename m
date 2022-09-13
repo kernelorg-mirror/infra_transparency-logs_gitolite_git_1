@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 13 Sep 2022 00:48:07 -0000
-Message-Id: <166303008711.13641.613519079673794146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 13 Sep 2022 00:57:29 -0000
+Message-Id: <166303064938.21266.14389203402570276053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/testing/6.0-rc5-other
-    old: 0000000000000000000000000000000000000000
-    new: 315b7aca3a3f36bef8cf1dccdff3670cd67e244d
+  - ref: refs/heads/master
+    old: 9d8fd3c28bbf9517eb93c71ebadefcc5d0d6ca73
+    new: 877b88c5f2e92dd8a6a2f98ee4a25c4c30ddd887
+    log: |
+         877b88c5f2e92dd8a6a2f98ee4a25c4c30ddd887 shared/bap: Fix attempting to disable stream when it is idle
+         
