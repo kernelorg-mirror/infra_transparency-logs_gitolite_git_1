@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 13 Sep 2022 16:39:04 -0000
-Message-Id: <166308714416.27429.10302372317313980132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 13 Sep 2022 16:41:29 -0000
+Message-Id: <166308728968.29830.8439809238157594372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 0752c572f50f8745f1976c27b9294a8d167dfb00
-    new: 83a4caa8b1455e205c028da9a3f12fec323423d1
+  - ref: refs/heads/dt/linus
+    old: 12ef2508f33db1654de2f22f75dd868141b8b305
+    new: de11663b75b0a8f1cfeb00d3b4acec9bd5a49cad
     log: |
-         78b161ba86dd99ef3b22a723ea721778a8a0adbe Kconfig: remove unused function 'menu_get_root_menu'
-         83a4caa8b1455e205c028da9a3f12fec323423d1 scripts/clang-tools: remove unused module
+         da3b1c294d470b2cf3c7046cc9e0d5c66f0a6c65 dt-bindings: apple,aic: Fix required item "apple,fiq-index" in affinity description
+         969d373228f6624de87aa0982d89a756e8e77471 dt-bindings: power: qcom,rpmpd: drop non-working codeaurora.org emails
+         de11663b75b0a8f1cfeb00d3b4acec9bd5a49cad dt-bindings: pinctrl: qcom: drop non-working codeaurora.org emails
          
