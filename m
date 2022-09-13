@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 13 Sep 2022 07:54:28 -0000
-Message-Id: <166305566843.24678.5617781674391998789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 Sep 2022 08:05:14 -0000
+Message-Id: <166305631426.1989.11593787886356029714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 169ccf0e40825d9e465863e4707d8e8546d3c3cb
-    new: 41e3b0722f6c7c756702f50d194b0d6caa0fba26
+    old: 64ae13ed478428135cddc2f1113dff162d8112d4
+    new: ca2dccdeeb49a7e408112d681bf447984c845292
     log: |
-         41e3b0722f6c7c756702f50d194b0d6caa0fba26 sfc: introduce shutdown entry point in efx pci driver
+         ca2dccdeeb49a7e408112d681bf447984c845292 net: phy: aquantia: wait for the suspend/resume operations to finish
          
