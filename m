@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 13 Sep 2022 17:10:21 -0000
-Message-Id: <166308902105.19365.9316094298540407464@gitolite.kernel.org>
+Date: Tue, 13 Sep 2022 17:10:25 -0000
+Message-Id: <166308902543.19439.3073024114493059078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 64ae13ed478428135cddc2f1113dff162d8112d4
-    new: 0727a9a5fbc1151fcaebfa9772e9f68f5e38ba9e
+  - ref: refs/heads/net-next-mlx4
+    old: 169ccf0e40825d9e465863e4707d8e8546d3c3cb
+    new: c9ae520ac3faf2f272b5705b085b3778c7997ec8
     log: |
-         ca2dccdeeb49a7e408112d681bf447984c845292 net: phy: aquantia: wait for the suspend/resume operations to finish
-         7288ff6ec795804b1b4632e535403d52bd2b3ce1 mptcp: fix fwd memory accounting on coalesce
-         0727a9a5fbc1151fcaebfa9772e9f68f5e38ba9e Documentation: mptcp: fix pm_type formatting
+         41e3b0722f6c7c756702f50d194b0d6caa0fba26 sfc: introduce shutdown entry point in efx pci driver
+         c9ae520ac3faf2f272b5705b085b3778c7997ec8 r8169: remove rtl_wol_shutdown_quirk()
          
