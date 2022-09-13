@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1432349297628952042=="
+Content-Type: multipart/mixed; boundary="===============7317408402996983294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 13 Sep 2022 16:44:01 -0000
-Message-Id: <166308744183.30840.17899138995920536106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Sep 2022 16:44:08 -0000
+Message-Id: <166308744809.30949.10271313330716652968@gitolite.kernel.org>
 
---===============1432349297628952042==
+--===============7317408402996983294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/regulator-6.1
     old: 69a673c9e54d952cf404f80169d3100b7a9645bb
     new: ca9b8f0486b577ab179664d4a279090645e9244f
     log: revlist-69a673c9e54d-ca9b8f0486b5.txt
 
---===============1432349297628952042==
+--===============7317408402996983294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663087440 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1663087438-57e09edfd8d68a8b174270670edb5d108e8db6c9
+pusher C3F436CA30F5D8EB 1663087446 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1663087445-aacbbdc54e6441f861e871bde67f289b541f2093
 
-69a673c9e54d952cf404f80169d3100b7a9645bb ca9b8f0486b577ab179664d4a279090645e9244f refs/heads/for-6.1
+69a673c9e54d952cf404f80169d3100b7a9645bb ca9b8f0486b577ab179664d4a279090645e9244f refs/heads/regulator-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMgs1AACgkQJNaLcl1U
-h9DHkQgAhA9nLmDPaCxUkp/4z4N179TdmBzB6MrLUh/HIUIduzIZbvVTz3XJGe2w
-IK9iM4b1ZX+aPGv45tfX9ceC+ZSVtPCO1oj1TrVdiQzcnms7jnP2Z0iOVB+eFnyi
-/mTqBgf/RelyFtluDFM9g16WspoIovUAcADUzxXYIgg8FCvoz5jUtZJ1UiFEwGwf
-RmYv8dnRp2vHiRyn8IjD/fEgsDtQLcLrf8JtCOdFnXs6zQXPUcIi4Ksbw/bdNPFH
-0dg+oBHuF5oKiZg8alJlOafJyRGuVRnBkiIw0FSe1Q+32E6Hjape9n4BsYjDXuYR
-LCYIPwn7rROZF1TfCC0KqlFIwvZaGQ==
-=6SIf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMgs1YACgkQJNaLcl1U
+h9CNbwf/UlQ8Ct6QU1T1CPRHoM0ZHyzrjQDWD17yflnJKM5o0afMt0yyYxDPdzXU
+Dq4SzVnKfCor6Ohaj11zwRQHsX8W2ttBFW/HKsCVSO7Iscwer3WP6FYbXfB0RUgW
+G/QoAGV4Ie9lYzlVT9WUxtw/XIfi0FNVmPp+Y1aNx9vo/+1RxXUwRjHmdFm8h2/B
+z6pbARqAm/cb58P5vxLGCRx+nsB4N9VJXLakJPfuFhKXfHyhJ5mQx1I8I2t1r4NZ
+L526v9EmYRQ000Vtv9x+znZAzugm06G7qvU+L5RIkeLFqDoZSOGvmZzEX48aSkqo
+I1EnYfwprFzE2VLzgG5H4ic7YzTA6g==
+=jXhL
 -----END PGP SIGNATURE-----
 
---===============1432349297628952042==
+--===============7317408402996983294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ e22943e32e1fc314b8e2b095ae3495d1bfa9aca5 regulator: Add bindings for MT6332 regu
 1cc5a52e873a4f9725eafe5aa9cd213b7b58e29e regulator: Add driver for MT6332 PMIC regulators
 ca9b8f0486b577ab179664d4a279090645e9244f MediaTek Helio X10 MT6795 - MT6331/6332 Regulators
 
---===============1432349297628952042==--
+--===============7317408402996983294==--
