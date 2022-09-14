@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Wed, 14 Sep 2022 12:15:49 -0000
-Message-Id: <166315774920.29810.4772433198541953308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 14 Sep 2022 12:18:17 -0000
+Message-Id: <166315789732.30708.17265986357850359306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/review-andy
-    old: 9c3c24f08289c1364bfca013425b25304370042b
-    new: 0ea76c401f9245ac209f1b1ce03a7e1fb9de36e5
+  - ref: refs/heads/gpio/for-current
+    old: 94e9bc73d85aa6ecfe249e985ff57abe0ab35f34
+    new: 09eed5a1ed3c752892663976837eb4244c2f1984
     log: |
-         6b6af7bd5718f4e45a9b930533aec1158387d552 gpiolib: acpi: Add support to ignore programming an interrupt
-         0ea76c401f9245ac209f1b1ce03a7e1fb9de36e5 gpiolib: acpi: Add a quirk for Asus UM325UAZ
+         09eed5a1ed3c752892663976837eb4244c2f1984 gpio: mt7621: Make the irqchip immutable
          
