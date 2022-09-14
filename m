@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1576261852165902214=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 14 Sep 2022 15:48:48 -0000
-Message-Id: <166317052899.18556.9683907593620949561@gitolite.kernel.org>
-
---===============1576261852165902214==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
+Date: Wed, 14 Sep 2022 15:55:42 -0000
+Message-Id: <166317094284.25722.7439712964196354590@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/colyli/mdadm
+user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 89fbe451d1b3734587869e62188f4c173c2a4d6d
-    new: e0ec3889b71a2fa3d82164043e5f14aa8c4a2049
+  - ref: refs/heads/20220903-testing
+    old: a3ea4f2fa8733476d61798d095df739bc50a020c
+    new: 38620ca7d06163729097682df4868579242db1d2
     log: |
-         e0ec3889b71a2fa3d82164043e5f14aa8c4a2049 docs: document b4 am/shazam options
+         cc9428d08b27860499d55f3f82fbf3494c836b49 Mdmonitor: Split alert() into separate functions
+         bd83ed48191084663c1fb2bc766a9e0157fdf6c5 Mdmonitor: Make alert_info global
+         31e9e8d9a6c25d51118b2dffb0850716bbbd767d Mdmonitor: Pass events to alert() using enums instead of strings
+         83e0ed5fde537b0fde55a2b1246bd1c8d9dbe36e Mdmonitor: Add helper functions
+         cf7eeeb0cc4c4eb19f9f364409a6155de6925348 Add helpers to determine whether directories or files are soft links
+         34e1a1a262d43b98b13eeaeed5a78fbdedc8742b Mdmonitor: Refactor write_autorebuild_pid()
+         c31c4484e23333a26d5bc4b1687955463d5d6c33 Mdmonitor: Refactor check_one_sharer() for better error handling
+         10154338f47323d1257c3ccb2e3f4de352825fc9 Mdmonitor: Improve udev event handling
+         38620ca7d06163729097682df4868579242db1d2 udev: Move udev_block() and udev_unblock() into udev.c
          
-
---===============1576261852165902214==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1663170528 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663170528-aca30ba9d7158342107bb936f9e3abc1be65912b
-
-89fbe451d1b3734587869e62188f4c173c2a4d6d e0ec3889b71a2fa3d82164043e5f14aa8c4a2049 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyH34AAKCRC2xBzjVmSZ
-bGDTAP9CKij9dLbAu8hVyI4LaV3TyTRqCkoGid6Byra/EZK3AwEAg/P0iq0QKia7
-FB7AhhJFU9R8mqAwqeoFCsJVm3UtWw0=
-=PS/h
------END PGP SIGNATURE-----
-
---===============1576261852165902214==--
