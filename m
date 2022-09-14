@@ -1,47 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============4439339992912374335=="
+Content-Type: multipart/mixed; boundary="===============7947408967666632529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Wed, 14 Sep 2022 21:52:56 -0000
-Message-Id: <166319237642.14689.6419159953211969527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 14 Sep 2022 22:00:27 -0000
+Message-Id: <166319282776.21732.939656882343741457@gitolite.kernel.org>
 
---===============4439339992912374335==
+--===============7947408967666632529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/tp_fix
-    old: 1d5150ae30634ba3ff98b5ac0489f44375acca56
-    new: d483da34dd3d1cc7d876f1d820e64d7afe8583bd
-    log: revlist-1d5150ae3063-d483da34dd3d.txt
+  - ref: refs/heads/next
+    old: 68fca83a3783b9a6316616bf753febd1fb366d22
+    new: c327b44793ae4197be69c8525871ed753b3c6f5f
+    log: revlist-68fca83a3783-c327b44793ae.txt
 
---===============4439339992912374335==
+--===============7947408967666632529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d5150ae3063-d483da34dd3d.txt
+Content-Disposition: attachment; filename=revlist-68fca83a3783-c327b44793ae.txt
 
-665f5d3577ef43e929d59cf39683037887c351bf libbpf: Remove gcc support for bpf_tail_call_static for now
-0ffe2412531e95a309d7f0bfe985fc4ca4d39de8 bpf: Invoke cgroup/connect{4,6} programs for unprivileged ICMP ping
-e42921c3c346b1b49068af3f3881322081e1dddd selftests/bpf: Deduplicate write_sysctl() to test_progs.c
-58c449a96946929467b537589c8a23f11e04af39 selftests/bpf: Ensure cgroup/connect{4,6} programs can bind unpriv ICMP ping
-2fae67716bb99a956a4c4a47c0e2ece52a2a15ca Merge branch 'cgroup/connect{4,6} programs for unprivileged ICMP ping'
-cf7de6a53600ea554a8358e44fbcf47b449235f9 bpf: add missing percpu_counter_destroy() in htab_map_alloc()
-57c92f11a215717bf90880828b7a23c736c3c0d9 bpf: Simplify code by using for_each_cpu_wrap()
-65269888c695cf4643c6fdb989ea28bf1623685d bpf: Remove duplicate PTR_TO_BTF_ID RO check
-d4f7bdb2ed7bf320a8772258fdc257655d225afb bpf: Add stub for btf_struct_access()
-896f07c07da01aa7cee820a23c2bce1d8e9fe1e6 bpf: Use 0 instead of NOT_INIT for btf_struct_access() writes
-84c6ac417ceacd086efc330afece8922969610b7 bpf: Export btf_type_by_id() and bpf_log()
-864b656f82ccd433d3e38149c3673d295ad64bf6 bpf: Add support for writing to nf_conn:mark
-e2d75e954c0a277b8fa0ddf666ddd4f9b73195f7 selftests/bpf: Add tests for writing to nf_conn:mark
-b8c62fe2025af081ea738a615c58d79d815f260f Merge branch 'Support direct writes to nf_conn:mark'
-f7c946f288e32fd8b5fd69825683420d473672bd selftests/bpf: fix ct status check in bpf_nf selftests
-1bfe26fb082724be453e4d7fd9bb358e3ba669b2 bpf: Add verifier support for custom callback return range
-d483da34dd3d1cc7d876f1d820e64d7afe8583bd bpf: Prevent bpf program recursion for raw tracepoint probes
+a47126ec29f538e1197862919f94d3b6668144a4 PCI/PTM: Cache PTM Capability offset
+e243c173c015d62b2bca9b030777ceba13311033 PCI/PTM: Add pci_upstream_ptm() helper
+118b9dfdc18b68abf736a71330e3ad1f5af7e47e PCI/PTM: Separate configuration and enable
+e8bdc5ea481638e0a4fd5639050d2b170417f493 PCI/PTM: Add pci_suspend_ptm() and pci_resume_ptm()
+91b12b2a100e977274d3c277a4ff2df0b7439e7d PCI/PTM: Move pci_ptm_info() body into its only caller
+2b89c22f2434b931b3cf22298ac5f5ec089e9ad1 PCI/PTM: Preserve RsvdP bits in PTM Control register
+8b367e75ac482486bbfd1ca832734bec64498f73 PCI/PTM: Reorder functions in logical order
+d736d292bba2c5225cb76cd4e04d0e9d00f22498 PCI/PTM: Consolidate PTM interface declarations
+c01163dbd1b8aa016c163ff4bf3a2e90311504f1 PCI/PM: Always disable PTM for all devices during suspend
+4c00cba122f3f3ae54aa5a3a1aec3afc7a2e6f94 PCI/PM: Simplify pci_pm_suspend_noirq()
+1d46154eed4884fd4c74a0178746f7c8057ec799 PCI/ASPM: Refactor L1 PM Substates Control Register programming
+fbc72991fa98ca26bbab7158777ecdbfefb91364 PCI/ASPM: Save L1 PM Substates Capability for suspend/resume
+d114ef32ad4cb7d29e3b11ec8323940e62996bb8 PCI: dwc: Replace of_gpio_named_count() by gpiod_count()
+a6b9ede1f3dfa5477791ad92d11f60f50998b689 PCI: apple: Do not leak reset GPIO on unbind/unload/error
+ec3cd415c149d2783dc8a920c8b721ba8176b573 Merge branch 'pci/aspm'
+09a9b3bef1a2627fe34eae236b38c55faae6a087 Merge branch 'pci/msi'
+c6ddf8c56162db1622dc2392bdb50676e225d7c1 Merge branch 'pci/pm'
+c05709694dec5aa332e060507426eb8e2d2da304 Merge branch 'remotes/lorenzo/pci/apple'
+99f50ad04bf0b24b8b5315d527987902ebe03942 Merge branch 'remotes/lorenzo/pci/bridge-emul'
+882834f6b2daf0bf087426b2e3c55a1a4c31e39d Merge branch 'remotes/lorenzo/pci/dt'
+e3ad9943299431329ba13f30222c98b3cd84a91b Merge branch 'remotes/lorenzo/pci/dwc'
+f7dcd3c5c78df86bbabaa1a41d199059a153270d Merge branch 'remotes/lorenzo/pci/endpoint'
+e5c97ff6faef8512941f2d88d72f23288d271d36 Merge branch 'remotes/lorenzo/pci/mediatek'
+129b60c1b34a0de8ebb2fe4dbf62b42bc7727290 Merge branch 'remotes/lorenzo/pci/mvebu'
+c327b44793ae4197be69c8525871ed753b3c6f5f Merge branch 'remotes/lorenzo/pci/qcom'
 
---===============4439339992912374335==--
+--===============7947408967666632529==--
