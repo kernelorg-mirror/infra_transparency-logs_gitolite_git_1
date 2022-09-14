@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9011302001156933585=="
+Content-Type: multipart/mixed; boundary="===============7817979921875811204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 14 Sep 2022 10:20:18 -0000
-Message-Id: <166315081890.13023.10275395830900711096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 14 Sep 2022 10:21:28 -0000
+Message-Id: <166315088872.13503.5464016637054907064@gitolite.kernel.org>
 
---===============9011302001156933585==
+--===============7817979921875811204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 52868a8b445605ea56831f92b5607ae3183f09bd
 
---===============9011302001156933585==
+--===============7817979921875811204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -261,4 +261,4 @@ d1221cea11fca0f6946bdd032a45b22cecfc0f99 Merge tag 'pull-fixes' of git://git.ker
 de11663b75b0a8f1cfeb00d3b4acec9bd5a49cad dt-bindings: pinctrl: qcom: drop non-working codeaurora.org emails
 3245cb65fd91cd514801bf91f5a3066d562f0ac4 Merge tag 'devicetree-fixes-for-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============9011302001156933585==--
+--===============7817979921875811204==--
