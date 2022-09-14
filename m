@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8876811266638649207=="
+Content-Type: multipart/mixed; boundary="===============1462243041827139969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 14 Sep 2022 06:59:52 -0000
-Message-Id: <166313879214.19395.16589380462637784654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 14 Sep 2022 07:00:01 -0000
+Message-Id: <166313880163.19556.16768976313558358816@gitolite.kernel.org>
 
---===============8876811266638649207==
+--===============1462243041827139969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 0caac1da994900d12a9be6106edb8e98696712a3
     new: f117c01187301a087412bd6697fcf5463cb427d8
     log: revlist-0caac1da9949-f117c0118730.txt
-  - ref: refs/heads/stable
-    old: e839a756012b6cad7a4eeb67b0598ac3f349f863
-    new: d1221cea11fca0f6946bdd032a45b22cecfc0f99
-    log: |
-         bfbfb6182ad1d7d184b16f25165faad879147f79 nfsd_splice_actor(): handle compound pages
-         d1221cea11fca0f6946bdd032a45b22cecfc0f99 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-         
-  - ref: refs/tags/next-20220614
-    old: 0bc2a598dbaf6932d07eff68675b3edf49ed0c11
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220914
     old: 0000000000000000000000000000000000000000
     new: 7d748cca84b17478fdd457e5ca0c1d14770835f4
 
---===============8876811266638649207==
+--===============1462243041827139969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ c115a2b87b13411cf02cad468818c7ff01c74d46 Merge branch 'mm-nonmm-stable' of git:/
 0a7c05c2008ed9cffca620ce25f3da71aaa5c658 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 f117c01187301a087412bd6697fcf5463cb427d8 Add linux-next specific files for 20220914
 
---===============8876811266638649207==--
+--===============1462243041827139969==--
