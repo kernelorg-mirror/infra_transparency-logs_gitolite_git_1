@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
-Date: Wed, 14 Sep 2022 14:27:06 -0000
-Message-Id: <166316562657.25734.14926011158171219665@gitolite.kernel.org>
+Date: Wed, 14 Sep 2022 14:29:45 -0000
+Message-Id: <166316578573.26727.9147034208770912349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/mdadm
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 171e9743881edf2dfb163ddff483566fbf913ccd
+  - ref: refs/heads/20220903-testing
+    old: 3d15c34c1edf2e9b3d9f0e26c286e0f6de2772a6
     new: ea7a02a3294aae223e1329aed5da7f4aa3ac05c5
     log: |
          1a386f804d8392b849b3362da6b0157b0db83091 mdadm: Correct typos, punctuation and grammar in man
