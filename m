@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 14 Sep 2022 12:12:21 -0000
-Message-Id: <166315754191.26918.12122977534142501339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 14 Sep 2022 12:15:38 -0000
+Message-Id: <166315773844.29662.7510907655259466170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/dev
-    old: 98ec9849c71cdca6caa293a633b262a3d91babc5
-    new: 27f3248ad8be1d93a2ddc8d5b1d30b8ec8f9cf1d
+  - ref: refs/heads/gpio/for-next
+    old: 3af20d2723be5f70e1ce818504a4c093a81b21f5
+    new: 6d50b79051edc298aba7f60184d9b2fb673f0628
     log: |
-         fdc1eea7a8473ca30ef8d180e3f99a4955155c7f kcsan: Instrument memcpy/memset/memmove with newer Clang
-         27f3248ad8be1d93a2ddc8d5b1d30b8ec8f9cf1d objtool, kcsan: Add volatile read/write instrumentation to whitelist
+         7bbf66e1b7b76d2487ceed51522669ab64057c06 dt-bindings: gpio: pca95xx: add entry for pcal6408
+         6d50b79051edc298aba7f60184d9b2fb673f0628 gpio: pca953x: introduce support for nxp,pcal6408
          
