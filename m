@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 Sep 2022 17:50:51 -0000
-Message-Id: <166317785118.7834.12894435666298465170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 14 Sep 2022 17:51:30 -0000
+Message-Id: <166317789059.8154.5929369516149144608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/v4_20220910_krzysztof_kozlowski_asoc_qcom_arm64_qualcomm_adsp_dts_and_binding_fixes
-    old: 0000000000000000000000000000000000000000
-    new: 09b3e9f6ad6e0a46e72d33442cc80c83e9a52c40
+  - ref: refs/heads/stable
+    old: 04e27cc93fc4a1711d760e40be6390ed5cf4ad9d
+    new: 49d6845c48c03ce45d914c690ca0afc812871179
+    log: |
+         49d6845c48c03ce45d914c690ca0afc812871179 wireguard: netlink: avoid variable-sized memcpy on sockaddr
+         
