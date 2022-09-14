@@ -1,43 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6192704100512155606=="
+Content-Type: multipart/mixed; boundary="===============5920432608730911122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 14 Sep 2022 16:51:15 -0000
-Message-Id: <166317427543.30673.687596327973516387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 14 Sep 2022 17:02:24 -0000
+Message-Id: <166317494409.6625.8930288735293262541@gitolite.kernel.org>
 
---===============6192704100512155606==
+--===============5920432608730911122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev-queue
-    old: 5a1793d3ed4fb523b8c781b9c99d91f05432e715
-    new: 7ee2cead357cbd0a1ef5498a0f17acf55d67d3f8
-    log: revlist-5a1793d3ed4f-7ee2cead357c.txt
+  - ref: refs/heads/mlx5-next
+    old: 8477a2eecbd9f791dd36091a3fc7d4ecc1824a54
+    new: 4ced81c02b0367ed4d6e1231688539a6afb962cf
+    log: revlist-8477a2eecbd9-4ced81c02b03.txt
 
---===============6192704100512155606==
+--===============5920432608730911122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a1793d3ed4f-7ee2cead357c.txt
+Content-Disposition: attachment; filename=revlist-8477a2eecbd9-4ced81c02b03.txt
 
-ca2dccdeeb49a7e408112d681bf447984c845292 net: phy: aquantia: wait for the suspend/resume operations to finish
-7288ff6ec795804b1b4632e535403d52bd2b3ce1 mptcp: fix fwd memory accounting on coalesce
-0727a9a5fbc1151fcaebfa9772e9f68f5e38ba9e Documentation: mptcp: fix pm_type formatting
-172cfbc6ae63d52a13b5857bf6c644c570f5a7fe ice: config netdev tc before setting queues number
-c5d7e71be658afa5ae8665c7287acf3a59018507 ice: Don't double unplug aux on peer initiated reset
-ab58c8eac55adc5b6a2bbd0d84883a1c82934024 ice: Fix crash by keep old cfg when update TCs more than queues
-e25cf4460c6e5516a0cf500b05b215cf64585dcc i40e: Fix set max_tx_rate when it is lower than 1 Mbps
-a11028d3143dff4d7b315ba4dd8123593c78e168 iavf: Fix change VF's mac address
-7b90ee74468604b9a78f323dffdc5cd11c5755d3 iavf: Fix cached head and tail value for iavf_get_tx_pending
-67312378ceaaa4c587f4ea53db7f0bb051979b28 ice: xsk: change batched Tx descriptor cleaning
-399f4447589f9a550b77b137c1b532aa59dd4c71 ice: xsk: drop power of 2 ring size restriction for AF_XDP
-e2838abea35e42d65a38e0d11bd572b5bdb1cd60 ice: Fix interface being down after reset with link-down-on-close flag on
-7ee2cead357cbd0a1ef5498a0f17acf55d67d3f8 i40e: Fix ethtool rx-flow-hash setting for X722
+4272cd7a1eba9e4c85dc176e1105077a518a6086 net/mlx5: Expose NPPS related registers
+9baaccabe88010505baf6cdcf30e0266890fbb45 net/mlx5: Add support for NPPS with real time mode
+9bb2db74150a19571606b9321f1acdd48b49fe3c net/mlx5: add IFC bits for bypassing port select flow table
+ba0a6f5cf64c5a06db3c6ba6b55de173f9fbf9f3 RDMA/mlx5: Don't set tx affinity when lag is in hash mode
+2dd582ac4839d63c80d9474efee14b0f554ba84b net/mlx5: Lag, set active ports if support bypass port select flow table
+727b9e886e93261779c3410fb8d2ff8867afc9a8 net/mlx5: Lag, enable hash mode by default for all NICs
+0e685444a729b4d501e503f6d3b02b00173f71fb net/mlx5: detect and enable bypass port select flow table
+dc0f362c62cc6e37eaa6b1bed3d8feb0d794a8ef net/mlx5: Remove unused functions
+00abd6ada59a43d1bd3ccef272af48c00c57f48f net/mlx5: Remove unused structs
+c273838a1d426e34c9e7b2c072de2402b8cf6188 net/mlx5: Remove from FPGA IFC file not-needed definitions
+05200b3b031c6689799e84da8393bfd091611c83 net/mlx5e: Rename from tls to transport static params
+6182534c2678767e9f8f880265c1025b9a7246c7 net/mlx5: Add NVMEoTCP caps, HW bits, 128B CQE and enumerations
+42bbdacb905e4d9b8107f7b80773b8d3917e6939 net/mlx5: Add IFC bits for general obj create param
+4ced81c02b0367ed4d6e1231688539a6afb962cf net/mlx5: Add IFC bits and enums for crypto key
 
---===============6192704100512155606==--
+--===============5920432608730911122==--
