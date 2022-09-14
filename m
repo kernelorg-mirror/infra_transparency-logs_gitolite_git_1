@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Wed, 14 Sep 2022 11:41:47 -0000
-Message-Id: <166315570714.5740.10964778843627538544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 14 Sep 2022 11:51:23 -0000
+Message-Id: <166315628383.12168.14715517396561627445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/next
-    old: abec3d015fdfb7c63105c7e1c956188bf381aa55
-    new: 1e7d8bcbe37d3c63babe628443f13f77970dd06b
+    old: 6354324d8a3e31108b53ac8ac6e9b67c9485d75a
+    new: 09b71adab09570fcc715ff31a6835d0e445e4a54
     log: |
-         1e7d8bcbe37d3c63babe628443f13f77970dd06b lockdown: ratelimit denial messages
+         09b71adab09570fcc715ff31a6835d0e445e4a54 selinux: remove the unneeded result variable
          
