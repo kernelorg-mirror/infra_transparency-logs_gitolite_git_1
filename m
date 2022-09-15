@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 15 Sep 2022 14:31:48 -0000
-Message-Id: <166325230805.2322.17493187803209369376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 15 Sep 2022 14:41:04 -0000
+Message-Id: <166325286448.8597.7437896265950943854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 888a5e5b41d3e7b2439bb8c74528fa5c8a6c1077
-    new: e2e1869ddb2afaf24ef6f04eb34f4db2db54c6dc
+  - ref: refs/heads/testing
+    old: 19058aaac87fd069273d04b1490ad2ff86d301f4
+    new: 62a6e699f4669b2c51f408273756f93b21c9f1a1
     log: |
-         c8d91936b006c6f7d18cc3411dcba3c66072286a dt-bindings: firmware: add missing resource IDs for imx8dxl
-         5409a3c5174d601bd10a4db58e89cf8c5fe5e79c dt-bindings: arm: imx: update fsl.yaml for imx8dxl
-         ee2912b14ef1cbcb51d0c7ecb3c8de1515e899ab Merge branch 'imx/bindings' into imx/dt64
-         155c447c2343bf7e663b129d44947ca0471f5d7d arm64: dts: imx8: add a node label to ddr-pmu
-         f2e5807fb509224c5e87b23963ae91c29dfd8881 arm64: dts: freescale: add i.MX8DXL SoC support
-         55b3b7f2608be5426c7bb339cefc154cb747c87c arm64: dts: freescale: add support for i.MX8DXL EVK board
-         badaea6c67aa9b75eb1988a16ba3f840479ba2f0 Merge branch 'imx/drivers' into for-next
-         74f4ea1563495d8bcca41f12abef06bd031e0e08 Merge branch 'imx/bindings' into for-next
-         159af4621b5c91b0fe4dc550b1bfbcb2c9942b1f Merge branch 'imx/dt' into for-next
-         e2e1869ddb2afaf24ef6f04eb34f4db2db54c6dc Merge branch 'imx/dt64' into for-next
+         2505cdae7ef259d8a71bc22034dd3200bb9b079a dt-bindings: iio: accel: adxl313: Add compatibles for adxl312 and adxl314
+         612a0f7e470e9f9a7b05150f013ca263a2be57be drivers: iio: accel: adxl312 and adxl314 support
+         2d678ba75acf6f56836e133fe69bb666eff63707 iio: temperature: mlx90614 Refactoring available filter attributes
+         53b6e3b2164c5807669fbf6b3df0e1494b4d03b8 iio: dac: ad5593r: Fix i2c read protocol requirements
+         62a6e699f4669b2c51f408273756f93b21c9f1a1 iio: dac: ad5593r: add check for i2c functionality
          
