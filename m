@@ -1,23 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 15 Sep 2022 15:35:05 -0000
-Message-Id: <166325610565.14867.7139151908307355159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 15 Sep 2022 15:48:18 -0000
+Message-Id: <166325689890.22488.17205578211575607802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 08996af41b2566565cbcdee71766030a2c8ba377
-    new: 5932cf0f2a03396b5f3f0b4667f5e66f7d8477e5
+  - ref: refs/heads/for-linus
+    old: bdc9b7396f7d4d6533e70fd8d5472f505b5ef58f
+    new: b16c8f229a58eaddfc58aab447253464abd3c85e
     log: |
-         9f2eaaf58dd20e8bbad8eb33d36c91b9cff1ab43 examples: set zonemode to strided in disk-zone-profile.fio
-         edb785dc131730ab388962f29c4bc97e4b50fa06 examples: fix bandwidth logs generation in disk-zone-profile.fio
-         baa7cecaa4d4e93e300214b26b543d8b096ddacf fix spelling error
-         5787d4621d3f2896bcdd3c8cd5577efcf7baaf72 Merge branch 'master' of github.com:uniontech-lilinjie/fio
-         5932cf0f2a03396b5f3f0b4667f5e66f7d8477e5 Merge branch 'fix-example-disk-zone-profile' of github.com:cvubrugier/fio
+         1885ff13d4c42910b37a0e3f7c2f182520f4eed1 ALSA: hda/realtek: Enable 4-speaker output Dell Precision 5530 laptop
+         b16c8f229a58eaddfc58aab447253464abd3c85e ALSA: hda/realtek: Re-arrange quirk table entries
+         
+  - ref: refs/heads/for-next
+    old: a74bfc9eaa497951effddefbcb18f1c7ab56fb35
+    new: 39efc9c8a973ddff5918191525d1679d0fb368ea
+    log: |
+         39efc9c8a973ddff5918191525d1679d0fb368ea ALSA: usb-audio: Fix last interface check for registration
+         
+  - ref: refs/heads/master
+    old: b73abb73188be30ed1709d7264107a31c474553b
+    new: a9fb48d599dfd2bc9640f42e5c66b465945296a2
+    log: |
+         39efc9c8a973ddff5918191525d1679d0fb368ea ALSA: usb-audio: Fix last interface check for registration
+         bde3472fb0af056ce75aa870c8d6b1211320f217 Merge branch 'for-next'
+         1885ff13d4c42910b37a0e3f7c2f182520f4eed1 ALSA: hda/realtek: Enable 4-speaker output Dell Precision 5530 laptop
+         b16c8f229a58eaddfc58aab447253464abd3c85e ALSA: hda/realtek: Re-arrange quirk table entries
+         a9fb48d599dfd2bc9640f42e5c66b465945296a2 Merge branch 'for-linus'
          
