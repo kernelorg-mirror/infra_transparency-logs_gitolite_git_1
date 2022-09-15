@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 15 Sep 2022 03:48:26 -0000
-Message-Id: <166321370624.7949.12994070755934388107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 15 Sep 2022 05:31:22 -0000
+Message-Id: <166321988244.16697.13905488047210152190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-next
-    old: 83a4caa8b1455e205c028da9a3f12fec323423d1
-    new: 5f5ef75d1c4bf8177719529f0aaad59f9fd847de
-    log: |
-         45200b8c7733fb336602e67805adede560bf7cfb scripts/clang-tools: remove unused module
-         a6d68e07a748170b8c07edd0de47774c0fc0835c Kconfig: remove unused function 'menu_get_root_menu'
-         b5c7c399d7abd90f0a1aa38bc0ede1e8f0a6ddb1 Kconfig: remove sym_set_choice_value
-         5f5ef75d1c4bf8177719529f0aaad59f9fd847de scripts: remove unused argument 'type'
-         
+  - ref: refs/heads/for-next-maybe
+    old: 0000000000000000000000000000000000000000
+    new: 34a5894171899c2c42f5ddc71691445e45118918
