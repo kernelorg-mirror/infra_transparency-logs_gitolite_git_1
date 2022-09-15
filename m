@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 15 Sep 2022 22:46:48 -0000
-Message-Id: <166328200841.30526.10039856406158278834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 15 Sep 2022 23:19:12 -0000
+Message-Id: <166328395200.20016.9638037763942118329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/jd/vdso
-    old: c9091fd3fe69357bbec7958a79596ab77e5a82cc
-    new: a3cff810520ec7bb9afb9020a1cb7945e4bdb8b2
+  - ref: refs/heads/master
+    old: 107d31cb728db3cf841c1492f69728885e25f6fc
+    new: 8403932f82eae081b1e099475001d810f25155e6
     log: |
-         a3cff810520ec7bb9afb9020a1cb7945e4bdb8b2 random: implement getrandom() in vDSO
+         8403932f82eae081b1e099475001d810f25155e6 foo
          
