@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 15 Sep 2022 14:41:04 -0000
-Message-Id: <166325286448.8597.7437896265950943854@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1498155207960376231=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 15 Sep 2022 14:51:21 -0000
+Message-Id: <166325348167.15241.17208583653958551959@gitolite.kernel.org>
+
+--===============1498155207960376231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testing
-    old: 19058aaac87fd069273d04b1490ad2ff86d301f4
-    new: 62a6e699f4669b2c51f408273756f93b21c9f1a1
+  - ref: refs/heads/master
+    old: 355bd19d6686fe1df96b7394aaa78aa33b227f47
+    new: c4176d071e7d5c39817570e93282632e04bf0ee1
     log: |
-         2505cdae7ef259d8a71bc22034dd3200bb9b079a dt-bindings: iio: accel: adxl313: Add compatibles for adxl312 and adxl314
-         612a0f7e470e9f9a7b05150f013ca263a2be57be drivers: iio: accel: adxl312 and adxl314 support
-         2d678ba75acf6f56836e133fe69bb666eff63707 iio: temperature: mlx90614 Refactoring available filter attributes
-         53b6e3b2164c5807669fbf6b3df0e1494b4d03b8 iio: dac: ad5593r: Fix i2c read protocol requirements
-         62a6e699f4669b2c51f408273756f93b21c9f1a1 iio: dac: ad5593r: add check for i2c functionality
+         c4176d071e7d5c39817570e93282632e04bf0ee1 docs: add the bulk of documentation for b4 prep
          
+
+--===============1498155207960376231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1663253481 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1663253481-7f6d1659c44d6cee881f2f8f488712fbca04f54d
+
+355bd19d6686fe1df96b7394aaa78aa33b227f47 c4176d071e7d5c39817570e93282632e04bf0ee1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyM76QAKCRC2xBzjVmSZ
+bLgfAP9VTzH+G5iUWJu1aQZsWG+rijECr9ruvr6ifYDauad5ZQEAtxJS+vu26WtR
+rWz3A2w+tcdgEdXbLRcpg8UKzUrVTQY=
+=w+Pq
+-----END PGP SIGNATURE-----
+
+--===============1498155207960376231==--
