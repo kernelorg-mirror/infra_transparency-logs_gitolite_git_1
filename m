@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Thu, 15 Sep 2022 16:15:43 -0000
-Message-Id: <166325854333.10376.5174397964435102499@gitolite.kernel.org>
+Date: Thu, 15 Sep 2022 16:17:46 -0000
+Message-Id: <166325866612.11138.1038737833859446972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
   - ref: refs/heads/v6.0-next/soc
-    old: 21370ecddfe1ff6fb826faedb601cfbb7adcf4ff
-    new: 1b8501505f57757c393aa20da36fe2d8c29694d0
+    old: 1b8501505f57757c393aa20da36fe2d8c29694d0
+    new: 9476cec3a0a63a4a230b10f60aed9d5236b9d69b
     log: |
-         f3894f969cf5dda43ba8c5fb329872860920c6d1 dt-bindings: soc: mediatek: Add display mutex support for MT6795
-         1b8501505f57757c393aa20da36fe2d8c29694d0 soc: mediatek: mutex: Add support for MT6795 Helio X10 display mutex
+         9476cec3a0a63a4a230b10f60aed9d5236b9d69b drm: mediatek: Adjust the dpi output format to MT8186
          
