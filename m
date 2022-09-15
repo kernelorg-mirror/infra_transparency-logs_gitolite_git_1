@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 15 Sep 2022 17:33:15 -0000
-Message-Id: <166326319567.32427.11980212322915692633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 15 Sep 2022 17:50:03 -0000
+Message-Id: <166326420325.11616.15825996679866251946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/fixes
-    old: 8f7e001e0325de63a42f23342ac3b8139150c5cf
-    new: 92c5738923f90d8f8502832bb72e00bb84649b1c
+  - ref: refs/heads/io_uring-6.0
+    old: 62bb0647b14646fa6c9aa25ecdf67ad18f13523c
+    new: fc7222c3a9f56271fba02aabbfbae999042f1679
     log: |
-         92c5738923f90d8f8502832bb72e00bb84649b1c riscv: Fix permissions for all mm's during mm init
+         fc7222c3a9f56271fba02aabbfbae999042f1679 io_uring/msg_ring: check file type before putting
          
