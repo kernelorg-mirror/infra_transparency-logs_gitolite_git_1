@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
-Date: Thu, 15 Sep 2022 18:13:45 -0000
-Message-Id: <166326562523.27704.53273903998078329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 15 Sep 2022 18:23:34 -0000
+Message-Id: <166326621475.1898.15586854168565494716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/kernel-shark
-user: y.karadzhov
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/kernelshark
-    old: 46801e434a6a10e33f9d0cd411419efbbd5c9054
-    new: 40646dc9d677262224f2a42aad47931ce88dd553
+  - ref: refs/heads/fixes
+    old: 41c83401c5e516552557a2178e04c39bef0e7cf0
+    new: 27bab6cbaf5097eb40bebf1f3e2bfd2c4c0ea3f8
     log: |
-         984130f1fdab954934a8e4ed34dc38131c3dd97d kernel-shark: Build missed_event as GUI plugin
-         40646dc9d677262224f2a42aad47931ce88dd553 kernel-shark: Fix compiler warning in LatencyPlot.cpp
+         27bab6cbaf5097eb40bebf1f3e2bfd2c4c0ea3f8 riscv: make t-head erratas depend on MMU
          
