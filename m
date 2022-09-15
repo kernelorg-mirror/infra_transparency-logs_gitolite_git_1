@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 15 Sep 2022 17:17:58 -0000
-Message-Id: <166326227883.21028.17387825895247464174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Thu, 15 Sep 2022 17:18:23 -0000
+Message-Id: <166326230349.21234.9383305825652861679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/net-mlx5
-    old: a0185ffb7c5fc7caafe2d2f9ea404cfcf7ef02ec
-    new: 31c8a46261dd00a0701e5751d46411c1450c27d1
+  - ref: refs/heads/thermal/linux-next
+    old: 7be4288625df54887b444991d743c6e1af21e27a
+    new: 64b269c002273cac4c41fb69572f3684dd1e3284
     log: |
-         31c8a46261dd00a0701e5751d46411c1450c27d1 net/mlx5e: Do not increment ESN when updating IPsec ESN state
+         bfc04de8a296166afd8643ac9c54d79a8c3b0476 thermal/drivers/qcom: Drop false build dependency of all QCOM drivers on QCOM_TSENS
+         d46287dec4dc037c668b2e881b3f222b0041c036 thermal/drivers/rcar_thermal: Constify static thermal_zone_device_ops
+         c58d4021dee8d7b447b731defd02a4f3fb406a78 thermal/core: Drop valid pointer check for type
+         64b269c002273cac4c41fb69572f3684dd1e3284 thermal/core: Add a check before calling set_trip_temp()
          
