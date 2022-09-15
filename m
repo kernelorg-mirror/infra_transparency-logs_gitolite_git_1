@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3822429994672779583=="
+Content-Type: multipart/mixed; boundary="===============1594115462135232239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 15 Sep 2022 19:07:40 -0000
-Message-Id: <166326886050.1872.4566810359627395172@gitolite.kernel.org>
+Date: Thu, 15 Sep 2022 19:18:32 -0000
+Message-Id: <166326951206.9412.17561448754516169961@gitolite.kernel.org>
 
---===============3822429994672779583==
+--===============1594115462135232239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 381118086e7a7c9fada649c15a67cd0c9e9fdcc0
-    new: 87fe28fac71e77b42c161019ff464c84c67c4da4
+    old: 87fe28fac71e77b42c161019ff464c84c67c4da4
+    new: d59fa46c4fd695b3853b396266d15124cf904f21
     log: |
-         87fe28fac71e77b42c161019ff464c84c67c4da4 docs: break out of infinite loop
+         d59fa46c4fd695b3853b396266d15124cf904f21 docs: add b4 trailers documentation
          
 
---===============3822429994672779583==
+--===============1594115462135232239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1663268860 -0400
+pusher B6C41CE35664996C! 1663269511 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663268860-acbc4802605a22fdcb9f0d20e03a37b17c41cba1
+nonce 1663269511-0155d0953b36ef1bb9936c62d4ba732d5b3d2dd8
 
-381118086e7a7c9fada649c15a67cd0c9e9fdcc0 87fe28fac71e77b42c161019ff464c84c67c4da4 refs/heads/master
+87fe28fac71e77b42c161019ff464c84c67c4da4 d59fa46c4fd695b3853b396266d15124cf904f21 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyN3/AAKCRC2xBzjVmSZ
-bAivAQDY/lUdJ0Q+WPKgGF55VZGGwm/bzwgoUpRPGOoLkbxKRwEA5+2y3Iailsbi
-XWMUtjurRHiRO2MH7Yq6TwdorqZ0HQc=
-=GcWy
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyN6hwAKCRC2xBzjVmSZ
+bFynAP9z+c1Gl1r7/GRDDAHCsBqGZnEppEFfji4uZSjgLiVSzgD/SGfnQWyyQ8uQ
+uOgWTLVWP6umdw2Qyk8ipvAI44Rq1AY=
+=P0LX
 -----END PGP SIGNATURE-----
 
---===============3822429994672779583==--
+--===============1594115462135232239==--
