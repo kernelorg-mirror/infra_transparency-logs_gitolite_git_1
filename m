@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Thu, 15 Sep 2022 16:40:15 -0000
-Message-Id: <166326001592.28171.10879798475914185564@gitolite.kernel.org>
+Date: Thu, 15 Sep 2022 16:43:16 -0000
+Message-Id: <166326019605.29255.9086228806550788834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/tags/counter-fixes-for-6.0a
-    old: 0000000000000000000000000000000000000000
-    new: d2b880719e7b5ead0923f201257fca22a9757b1b
+  - ref: refs/heads/counter-greg
+    old: 179eed11eaf225dbd908993b510df0c8f67b1230
+    new: 0000000000000000000000000000000000000000
