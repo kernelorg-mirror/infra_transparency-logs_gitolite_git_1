@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 15 Sep 2022 20:23:14 -0000
-Message-Id: <166327339449.25030.18284233235863910252@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3238314194985923639=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 15 Sep 2022 20:24:46 -0000
+Message-Id: <166327348669.25830.13396782200487630659@gitolite.kernel.org>
+
+--===============3238314194985923639==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 386f89c13a8497321c42fe2a86cab41a8795fb86
-    new: 5ff4137055a25840be89fa8281fa472732569bca
+  - ref: refs/heads/master
+    old: ab5f4f7224ed7b5ba8dcf1a55205697d08ec7eff
+    new: b9a14bf7c448716f2a26c9fe98deb128e3676c7c
     log: |
-         92481c7d14b8030418f00c4b4ec65556565d892d ARM: remove obsolete Makefile.boot infrastructure
-         8c7d29a75397198154f66541c2af18a8feccac42 ARM: simplify machdirs/platdirs handling
-         6fd09c9afa49b343d17cecedd7879d097f37f2a9 ARM: Kconfig: clean up platform selection
-         5408445b1e4d511d835ecbae2fbc9fb9976dbcb9 ARM: fix XIP_KERNEL dependencies
-         84fc863606239d8b434e59e6bbbe805f457e5767 ARM: make ARCH_MULTIPLATFORM user-visible
-         8774d335446a11f514a98aaa1c0e8a7cfab33637 Merge branch 'arm-multiplatform-cleanup' of https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc into arm/soc
-         5ff4137055a25840be89fa8281fa472732569bca Merge branch 'arm/soc' into for-next
+         b9a14bf7c448716f2a26c9fe98deb128e3676c7c docs: remove redundant "b4" from section titles
          
+
+--===============3238314194985923639==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1663273486 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1663273486-aa91a91fc3823997d2f15ae21d8d428832c6fc96
+
+ab5f4f7224ed7b5ba8dcf1a55205697d08ec7eff b9a14bf7c448716f2a26c9fe98deb128e3676c7c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyOKDgAKCRC2xBzjVmSZ
+bMGcAQC6++KSTYxEs1dX+wd8i0nNHvfnrNrsRLkFUGYa12llKQD/ebLK9BqlxkWP
+2SM41CQY2yNPOjmsjWEZQYvfgtz4qw0=
+=WnqX
+-----END PGP SIGNATURE-----
+
+--===============3238314194985923639==--
