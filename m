@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2546117463601983451=="
+Content-Type: multipart/mixed; boundary="===============3194981333619325922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 15 Sep 2022 07:40:07 -0000
-Message-Id: <166322760782.9182.504800355334779411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 15 Sep 2022 07:40:17 -0000
+Message-Id: <166322761789.9342.8441560351341408473@gitolite.kernel.org>
 
---===============2546117463601983451==
+--===============3194981333619325922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f117c01187301a087412bd6697fcf5463cb427d8
     new: 6ce5d01e7011b32600656bf90a626b1e51fb192a
     log: revlist-f117c0118730-6ce5d01e7011.txt
-  - ref: refs/heads/stable
-    old: d1221cea11fca0f6946bdd032a45b22cecfc0f99
-    new: 3245cb65fd91cd514801bf91f5a3066d562f0ac4
-    log: |
-         2f945a792f67815abca26fa8a5e863ccf3fa1181 of: fdt: fix off-by-one error in unflatten_dt_nodes()
-         c6a43fb3487f7e040170e60cdb9b030c669e9cf5 MAINTAINERS: Update email of Neil Armstrong
-         40bfe7a86d84cf08ac6a8fe2f0c8bf7a43edd110 of/device: Fix up of_dma_configure_id() stub
-         12ef2508f33db1654de2f22f75dd868141b8b305 dt-bindings: interconnect: fsl,imx8m-noc: drop Leonard Crestez
-         da3b1c294d470b2cf3c7046cc9e0d5c66f0a6c65 dt-bindings: apple,aic: Fix required item "apple,fiq-index" in affinity description
-         969d373228f6624de87aa0982d89a756e8e77471 dt-bindings: power: qcom,rpmpd: drop non-working codeaurora.org emails
-         de11663b75b0a8f1cfeb00d3b4acec9bd5a49cad dt-bindings: pinctrl: qcom: drop non-working codeaurora.org emails
-         3245cb65fd91cd514801bf91f5a3066d562f0ac4 Merge tag 'devicetree-fixes-for-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
-  - ref: refs/tags/next-20220615
-    old: d44d7bf8041035ef3a52e7377e2cb142dea252bd
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220915
     old: 0000000000000000000000000000000000000000
     new: 087eba4690d36e29fcac6c6d2ba2b028814e7590
 
---===============2546117463601983451==
+--===============3194981333619325922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -946,4 +930,4 @@ fe6e996db3f8887e0b32cbb8999afab7216b0596 Revert "hugetlb: clean up code checking
 ea91b7c792cb2ae5f4eb37f590cc0ccbfa5f0a5a Revert "hugetlb: use new vma_lock for pmd sharing synchronization"
 6ce5d01e7011b32600656bf90a626b1e51fb192a Add linux-next specific files for 20220915
 
---===============2546117463601983451==--
+--===============3194981333619325922==--
