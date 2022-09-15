@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/ethtool
-Date: Thu, 15 Sep 2022 19:58:54 -0000
-Message-Id: <166327193450.6751.16347368363968754473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 15 Sep 2022 19:59:10 -0000
+Message-Id: <166327195008.6911.9289948417359064668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/ethtool
-user: jkirsher
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/v5.19
+  - ref: refs/heads/broadcom/defconfig
     old: 0000000000000000000000000000000000000000
-    new: 5902e20b8fae606516251306ba309f553bfae454
+    new: d30b361310f808fbb5837edd598cb5aaa3fca737
