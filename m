@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 15 Sep 2022 14:12:00 -0000
-Message-Id: <166325112067.19842.2244855416094859651@gitolite.kernel.org>
+Date: Thu, 15 Sep 2022 14:15:57 -0000
+Message-Id: <166325135700.22869.14509757096691086258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: fae9ebde9696385fa2e993e752cf68d9781f3ea0
-    new: b4e12b2d70fd9eccdb3cef8015dc1788ca38e3fd
+  - ref: refs/heads/sched/core
+    old: fb04563d1cae6f361892b4a339ad92100b1eb0d0
+    new: 7e9518baed4cef76dbfa07cbffbae1e6dbc87be6
     log: |
-         3749d33e510c3dc695b3a5886b706310890d7ebd perf: Use sample_flags for callchain
-         16817ad7e8b31728b44ff9f17d8d894ed8a450d0 perf/bpf: Always use perf callchains if exist
-         b4e12b2d70fd9eccdb3cef8015dc1788ca38e3fd perf: Kill __PERF_SAMPLE_CALLCHAIN_EARLY
+         b0defa7ae03ecf91b8bfd10ede430cff12fcbd06 sched/fair: Make sure to try to detach at least one movable task
+         c59862f8265f8060b6650ee1dc12159fe5c89779 sched/fair: Cleanup loop_max and loop_break
+         7e9518baed4cef76dbfa07cbffbae1e6dbc87be6 sched/fair: Move call to list_last_entry() in detach_tasks
          
