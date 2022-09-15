@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6487415770798469645=="
+Content-Type: multipart/mixed; boundary="===============5997117275868587989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 15 Sep 2022 09:30:38 -0000
-Message-Id: <166323423830.19010.1395363714625967686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 15 Sep 2022 09:30:40 -0000
+Message-Id: <166323424035.19074.18136217236056302477@gitolite.kernel.org>
 
---===============6487415770798469645==
+--===============5997117275868587989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.1
-    old: 83e5335bf58b090b1fc0b30cb1a1fedf07f0c217
-    new: a0c4b120431172490793fb21d43c908b35fd3e50
+  - ref: refs/notes/signatures/tar
+    old: 05584e635363bb641b11a9c069d09ed309404898
+    new: 3ee655631d9c31e4b3da7ef44ce965486070e306
     log: |
-         64ca1a034f00bf6366701df0af9194a6425d5406 spi: fsl_spi: Convert to transfer_one
-         a0c4b120431172490793fb21d43c908b35fd3e50 spi: mpc52xx: Replace of_gpio_count() by gpiod_count()
+         3ee655631d9c31e4b3da7ef44ce965486070e306 Notes added by 'git notes add'
          
 
---===============6487415770798469645==
+--===============5997117275868587989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663234237 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1663234236-500e4ed4a5ff36ad04df3f7759e4bb5748eb86e3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663234267 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1663234238-dbb58ce3ea4880cdc39880fbc88aeee32edd89dc
 
-83e5335bf58b090b1fc0b30cb1a1fedf07f0c217 a0c4b120431172490793fb21d43c908b35fd3e50 refs/heads/spi-6.1
+05584e635363bb641b11a9c069d09ed309404898 3ee655631d9c31e4b3da7ef44ce965486070e306 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMi8L0ACgkQJNaLcl1U
-h9Bk/gf7B3p0/8lf81+SA8zNM+fUwiQzMvlJJ3AvI9QkfM/BbXwOjtJ6l6XvuZCb
-jXCAHYAzz/TxcbBNoiGWjqWETYQo9z6ABvLH6yZHc0dqNIxnQx54nu2Q3eesWixZ
-tGx9HYDxGrnhyh9zPcw7XUYmSftOnPMPO+7ek2LYSNYlpHtmEflz0HZESnoTEeKX
-hSbTGcJEVL491LlHGoCB/a+/lhgjtU4xXm19ZRnKS8msAvnyHPOwQedSkSege0sj
-jP9yFr7BNyMC8orkHyVYx20jFQA/ZUMe22le4bZsBz+q6GF+1KZ2kDEXvY7UX1ZS
-K4VrcqPhaZlzbQEJV2EFzY5M8eoJuw==
-=j35O
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMi8NsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tkAQAKXiV28TrEYtCcMxgUin
+0Tg0xrJrCzFRNOiifcfHc9vhgGa/Dcir3lzqqxSjtOUK0SpIEE3oDA3wVNseh4mG
+xM+sKyK1drTMlD07cWymK6kSGEqkGVhU4WSUG/iS3DLWFPuCWJdNFY/FWPJAx62P
+ScHGNvDJh8UpaccsfbF+/wMLSNyrCj1S/mc3EO0x+xlYLVTjSVdmx1wgra63P1H1
+oqDStaJvIP6VQW8SCaSOF4PN0YlZPXGw0emaMTDZLD/Hp//fn9HQwzQEKhtDIPhl
+Fw2btF06+ggprUL6Xum8rj0LLdVtwJgGtQl8rCLsPuC0YPRlL/6jKWB5FsBXKsD4
+3qbBMT8uE7RhBmLkfrxbnh0jDCB2VLomuy8WbgaGrKzci5QsPvZXDJsjs7yHQY92
+CRQBc0szIhMhbuya9No3u/QKx+AQXm9EkPzHdaEVulLDktucHW2nN08ffnf8tT16
+d13ZNcUGL/2kPX0qHFuWYX1L6aCI6Vl8Gboy5Gs8NgZAZjlwquGh174TPAVg/jkV
+2tsNOPNissRAfZP5I4Mm5Eroh34eAuU9tIF67ZUAf9zqE3Po+Qabe4AmmzNiRU9l
+YlFRptGIhzJ/kFgrs6Pset5A6R6QobrNiwCyjOHpnRSJAuBHMvU2TEs/1bIxW3N7
+kW0SQkRFGHNIspr24qOEgSyP
+=/u7l
 -----END PGP SIGNATURE-----
 
---===============6487415770798469645==--
+--===============5997117275868587989==--
