@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6941438530240285729=="
+Content-Type: multipart/mixed; boundary="===============2145325097256312678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Sep 2022 15:08:34 -0000
-Message-Id: <166334091442.28778.11054152157994814483@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 15:08:42 -0000
+Message-Id: <166334092204.28906.12680831148028809784@gitolite.kernel.org>
 
---===============6941438530240285729==
+--===============2145325097256312678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c9ae520ac3faf2f272b5705b085b3778c7997ec8
-    new: 862deb68c1bc19783ab7a98ba17a441aa76eba52
-    log: revlist-c9ae520ac3fa-862deb68c1bc.txt
+  - ref: refs/heads/dev-queue
+    old: d29cebeb162b0fd829d9cd8f78ef66977c7f635c
+    new: cb67f5690eb681e759889bbf210db78824782393
+    log: revlist-d29cebeb162b-cb67f5690eb6.txt
 
---===============6941438530240285729==
+--===============2145325097256312678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9ae520ac3fa-862deb68c1bc.txt
+Content-Disposition: attachment; filename=revlist-d29cebeb162b-cb67f5690eb6.txt
 
 fb1752c7df4d7bac05ae7b879415d0506b2067d9 drivers/net/ethernet/e1000e: check return value of e1e_rphy()
 2c5e5abf1c4278d5768a79b6bfc7d54cdc96e8df igc: Remove IGC_MDIC_INT_EN definition
@@ -60,5 +60,32 @@ af649e7a6a53fe5f2e21d930d1d1cc3b19310f11 selftests/tc-testings: add ife action d
 a32a4fa447f58edda2ee2eb1be9ce1260cfd6a40 selftests/tc-testings: add sample action deleting test case
 eed791d3ca9514656421d8b657031d80433eeda4 selftests/tc-testings: add tunnel_key action deleting test case
 862deb68c1bc19783ab7a98ba17a441aa76eba52 Merge branch 'net-tc-testing-new-tests'
+0d444e5eddf91dde9098d773b3ba85cc9dfa6813 e1000e: Separate MTP board type from ADP
+f278d23454882cb4ef6be0f13a0127045ef82b1e ice: Add low latency Tx timestamp read
+583de6650ddf1310b2776bd6a3ad2b61e717b7fd ice: config netdev tc before setting queues number
+5bdfefe8c26389a9d21527b780451004e3ad3e4c ice: Don't double unplug aux on peer initiated reset
+9aac8bbccd153d05137fa981a6e107a899746b4b ice: Fix crash by keep old cfg when update TCs more than queues
+4acd5fd2e910d56eef45dd3f2efac455923239c3 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+abd97a51612432bb84045db0480f2a517742cb83 ice: Handle LLDP MIB Pending change
+8549df263490bd2cbfab80e8eea7ef2d447b39d7 i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+750aaca9d0183def521f792c655b851d46dfa709 iavf: Fix change VF's mac address
+d5070f19a74dbacf432e5f5623263be05f0dee30 iavf: Fix cached head and tail value for iavf_get_tx_pending
+9926dfdac08f1fb8cdf35d852c8b3536ee2b0e96 ice: xsk: change batched Tx descriptor cleaning
+71dc3640cd8036a9b158388cc9187e371721ddd1 ice: xsk: drop power of 2 ring size restriction for AF_XDP
+2b36250a83cb5fcdad4f11cd5fd7259142427303 ice: Fix interface being down after reset with link-down-on-close flag on
+517e9103e8758b7d4414fe1c83ecd9c09fa90ebb i40e: Fix ethtool rx-flow-hash setting for X722
+1b3ace36de9ad419315f62dc90d6b88f2d75852d ice: Merge pin initialization of E810 and E810T adapters
+84baf054efab7c9ffb9dd0f19ca057b2a3edb49a ice: Support 5 layer topology
+b0e19d264be09c4d51c3be6cf10fd07e4ee789e2 ice: Adjust the VSI/Aggregator layers
+22c698065df59cad8c2aaf80dc1cdcb0dcf0c488 ice: Enable switching default tx scheduler topology
+5c2ca83e9528e77acfafdf4c93be1a1c4bae58ac ice: Add txbalancing devlink param
+f2f258d97466bfe0fdfd395cb3f086bfd05cb19e ice: Document txbalancing parameter
+ccbf5718b545663f8c89e319a19718dd286e57df i40e: Add appropriate error message logged for incorrect duplex setting
+3565b2e08b441f1f931293e4af9ceeef6d0b60e4 iavf: Fix vf set max mtu size with port vlan and jumbo frames
+ee5ce51045522cf50fed50784a7d775b2ecf8e4f i40e: Fix vf set max mtu size
+152d8f34e7ca8758312ecf9791e4b19afebe13e2 i40e: Fix not setting xps_cpus after reset
+db899d00633f37d1592168a1f15f7ed53c7edb41 iavf: Fix bad page state
+9ec722fa1a2de8462381b96db4b5308d70c1e193 ice: support features on new E810T variants
+cb67f5690eb681e759889bbf210db78824782393 ice: Add GPIO pin support for E823 products
 
---===============6941438530240285729==--
+--===============2145325097256312678==--
