@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Fri, 16 Sep 2022 09:06:25 -0000
-Message-Id: <166331918565.16408.2400889688157313392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 16 Sep 2022 09:21:47 -0000
+Message-Id: <166332010790.26520.14135902071072450228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/main
-    old: e37c25677dc946a025002a394172788b3169b3ce
-    new: c6e92108bcd9c13ebbbcab44a49fa5f39c21621e
-    log: |
-         c6e92108bcd9c13ebbbcab44a49fa5f39c21621e libdtc: remove duplicate judgments
-         
   - ref: refs/heads/master
-    old: e37c25677dc946a025002a394172788b3169b3ce
-    new: c6e92108bcd9c13ebbbcab44a49fa5f39c21621e
+    old: da970726ea872269dc311b6dd87af8cf457b8fe9
+    new: 454e7b138436a31a17753de58f2178c3e955886c
     log: |
-         c6e92108bcd9c13ebbbcab44a49fa5f39c21621e libdtc: remove duplicate judgments
+         7e6e1b57162ed6a2d32d2f0929c27d79482ff706 rtnetlink: advertise allmulti counter
+         454e7b138436a31a17753de58f2178c3e955886c vsock/vmci: fix repeated words in comments
          
