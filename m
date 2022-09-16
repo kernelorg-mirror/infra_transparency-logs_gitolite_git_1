@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 16 Sep 2022 13:51:25 -0000
-Message-Id: <166333628584.6537.15769779222067109443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Fri, 16 Sep 2022 13:56:14 -0000
+Message-Id: <166333657430.11109.10060770037190454618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/damon/next
-    old: 2c52870d6840043b0373d82ecb6dcd2c104df55c
-    new: da4cf9e8c4c67ac0c746f293f9ec73731f033064
+  - ref: refs/heads/stable
+    old: 533e9fdaa3720d1a6342f4a17dc2d0989b54e0e9
+    new: 77a0693f5804ada886284e350c72f7ee619502d7
     log: |
-         da4cf9e8c4c67ac0c746f293f9ec73731f033064 mm/damon/modules: deduplicate init steps for DAMON context setup
+         b162bbb29a6a27455d9e37de3e457ea0000c53b0 wireguard: ratelimiter: disable timings test by default
+         e27bfb07cca85270f838b4ba1c73441915244fe2 wireguard: selftests: do not install headers on UML
+         77a0693f5804ada886284e350c72f7ee619502d7 wireguard: netlink: avoid variable-sized memcpy on sockaddr
          
