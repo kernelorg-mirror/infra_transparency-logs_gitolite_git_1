@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3204197635084742482=="
+Content-Type: multipart/mixed; boundary="===============5950860586754479733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 16 Sep 2022 09:48:18 -0000
-Message-Id: <166332169875.27804.8129047286528352389@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 09:48:21 -0000
+Message-Id: <166332170162.27895.13148284253339362751@gitolite.kernel.org>
 
---===============3204197635084742482==
+--===============5950860586754479733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: f1101295c145e9710b1b37e9b0a13ef9af9af0c9
-    new: 346762c55c58698ac6676ac05624a7f90e0817f4
-    log: revlist-f1101295c145-346762c55c58.txt
+  - ref: refs/heads/linux-5.15.y
+    old: dd20085f2a88b6cdb12bdcdbd2d7a761c86b184a
+    new: e4f2f7db64661e085194061b75e06a059bd5337c
+    log: revlist-dd20085f2a88-e4f2f7db6466.txt
 
---===============3204197635084742482==
+--===============5950860586754479733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663321725 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663321727 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1663321696-7d746eae6c05e97e71ce8c45e236784133ae17c9
+nonce 1663321698-1bbe853dfc3a540717ef56004362805db3375b18
 
-f1101295c145e9710b1b37e9b0a13ef9af9af0c9 346762c55c58698ac6676ac05624a7f90e0817f4 refs/heads/linux-5.10.y
+dd20085f2a88b6cdb12bdcdbd2d7a761c86b184a e4f2f7db64661e085194061b75e06a059bd5337c refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMkRn0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dIAQAM3f49EiSywSdKZZ7JZI
-dzOgx1fEWXXbIjNLi8hOcZsKrNr5KOhsx7LDsqnyD8gtBcXzYvfoJALl+FSim5MY
-I3lA9KSj8tjTvQHfgj1mjnHqR6bFhOsqf18lBQwMc3Vs/8bfQP9i7l9uahPiNwDv
-xuwOoG2nuMKIAK+YIUO7IruSJRZfL3QBcoVlE4oQBPM9Gz8ejFCIvL1JiX7CXoWT
-L7LFyjKiemQHR8ZG1han1c0bXJh7Sj7W+e9hY8MKR76uwtnZpZn3f2CP/iEFrrue
-mu80Lq1hrm7Kt+7omYWkUAyIi4CjYjnH2r+8qXetHI/AF2hbZBMP/YzUF3JpEZHE
-ilWAFZaGjgznJARenvK5iPhQL+nqGaRNgmKMQfRpFJHnzP/yQfWeVpjWtIcFqBB9
-yvciHkwX9M3BOkgT9l5JS8HDtdeft8zNdiR/NUqxyRG5XxZFIqFhmZxcicaev+n/
-bnRXQp75wjn7MXc6Zc3eMNvPPCZQmZT+C5/njocUI0peXAp+ZTaVS9JEBeo3jKtj
-t2ER0fwDfjr9gRKpE55Mx+zYU66jzLh4d6uvO7HwQC9o1ligHUezhS2TQWLgulgH
-bwwNGf5at/pu9YoU+FDOBUFf81LAL3g8cQGLg9mTAcpMzkD04Ai4PsZBAjvCne/V
-tSV69WQhXrmF58DugCgJLCyo
-=BlYB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMkRn8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NxIP/in83gu43bucZKM5DYTa
+pIFvGnk8kd2iNE0dpBcSapNVpl2rpsrRQOWyqyQ2NX4b51b2/eANSyqm0H2Yor1w
+QgPbJ5wz5/TVpoAmuGFQYg8mWtLQQgHs1RLeLuklbCYPQrXmzUgRRzu/wb8IJJhP
+RhboF3lOtUv5Ce9MM2TXG8X1zJ78ALWRaZurDFdx00pNVgDBJZ5KGWABLjG/A8pB
+SHSZDqmzfxzrN1z5rn2WHkAj879Q/p6MYw1qQhDPLmbHHP9Uu9RcbfgmUtDesW1l
+hdxGCmPCZpE0dd+/5zHezr98hGv4gwp1xSRQ8A3Xklz9PHGdXsjE+FV+nlHxS/SQ
+chhHvH2RWiAnEWpkfZ5cXU8RXLtzl1iO/qOHPfM73tmUe3W2HamQTfszfqsi+XoQ
+DElWc1E3f6ivfviu/WWzQ+NbK0xTyQbhkRfSCTg9cwh13dtdK6OxxoN6FElw3mxM
+9+DToMGEjnqWYvPhMBbnB8BOLz5/meoJhuhAsE8Gy/rZh+6gzqnqjzFQQd3G2ooM
+fYUMopGw1Z/yfvZBpyuZqoxRNC8DfdSprRGn6w1XPo4g5ubP0w6NLc0AwEdaZ47K
+XPHJ+DhN0hosScsOUv487+Yz+8EeYsZmnKjEu9IXYFT9gjhFQzzdgahdRv5PV8Nv
+ippUZzcYBLQpXyA6yKki74Qu
+=CAT8
 -----END PGP SIGNATURE-----
 
---===============3204197635084742482==
+--===============5950860586754479733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1101295c145-346762c55c58.txt
+Content-Disposition: attachment; filename=revlist-dd20085f2a88-e4f2f7db6466.txt
 
-cd008c3a55b5b0aaceaf0732af9b53dfbcc2183b ARM: dts: imx: align SPI NOR node name with dtschema
-6decb98f7e4e93040f57b7e3fe5837ebf79e0928 ARM: dts: imx6qdl-kontron-samx6i: fix spi-flash compatible
-fe6dca7e6b8c0f0a5ff3939c6dd07397a282f4b3 iommu/vt-d: Correctly calculate sagaw value of IOMMU
-bdda6bf0e0ddc7420e84557e9a8363007e1c2d54 tracefs: Only clobber mode/uid/gid on remount if asked
-014a3c83acdd299540a5df4958ffbcfca328259e Input: goodix - add support for GT1158
-2e967ee73ae16a3bef8c8f4d28559e1f0e15f6c0 drm/msm/rd: Fix FIFO-full deadlock
-c5915bae3c010fa9cf4f201bf5bdfafd72c57c98 hwmon: (pmbus) Use dev_err_probe() to filter -EPROBE_DEFER error messages
-7efffb4129feda5d63936a6937cb269bce00a3b3 HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
-662e086221b3120148fd06320e1cead95f4468a9 hid: intel-ish-hid: ishtp: Fix ishtp client sending disordered message
-1b282845ab8f4ec6bc362f36d5d142cdec1504b7 tg3: Disable tg3 device on system reboot to avoid triggering AER
-2d407dda700b7e436a22b4b8f665180af2b32bb6 gpio: mockup: remove gpio debugfs when remove device
-7871d820a741f1eaa5d13b14dc7885f5e5f436d9 ieee802154: cc2520: add rc code in cc2520_tx()
-598336af1cc959a8ba61cf1b38b12cdbde4af803 Input: iforce - add support for Boeder Force Feedback Wheel
-8945b05937a531950bd75ea7e783e7937723e62e nvmet-tcp: fix unhandled tcp states in nvmet_tcp_state_change()
-73f2132686fe43dec25302cd55178488deddcb2d drm/amd/amdgpu: skip ucode loading if ucode_size == 0
-e5e912b7aaec0ba7428fbc7f4a2b9e987786a8e4 perf/arm_pmu_platform: fix tests for platform_get_irq() failure
-d541ae8627a47880ff909b41e674a9788b3d6a27 platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
-18e01878d82c1c8b2f3720a314e18a1cb0d42cf6 usb: storage: Add ASUS <0x0b05:0x1932> to IGNORE_UAS
-6b5e5fa5b8e3da01698b455c78ab8174bb4dad60 mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
-5ea55372509efa12bcf086b556872f35f7d49505 Revert "x86/ftrace: Use alternative RET encoding"
-a57a4e3b7ed9ed08b253b81682e304ac5bb2ed1d x86/ibt,ftrace: Make function-graph play nice
-c7eaaae9cb39a8e76b219fcf7cd7e73562ea6aa3 x86/ftrace: Use alternative RET encoding
-c8279f0199ec196e2afa5b8b2f94eca9e863d92f soc: fsl: select FSL_GUTS driver for DPIO
-346762c55c58698ac6676ac05624a7f90e0817f4 Linux 5.10.144-rc1
+ce57c4a173491b59c5ae207b9f8349bf7a13bd5e NFS: Fix WARN_ON due to unionization of nfs_inode.nrequests
+2781cca813090c0c30c44d673aa6c02f701c6d24 ACPI: resource: skip IRQ override on AMD Zen platforms
+c54d9a2d59958f288cc78ae5121d38fb1728c4bf ARM: dts: imx: align SPI NOR node name with dtschema
+f6ab558247f73a1a8aa034f097544bb5d7630016 ARM: dts: imx6qdl-kontron-samx6i: fix spi-flash compatible
+f0dc37024e540cf69ba55a85cffcce904665272e ARM: dts: at91: fix low limit for CPU regulator
+7cae8c825930ebcc3432d14264690ec46cbb56e2 ARM: dts: at91: sama7g5ek: specify proper regulator output ranges
+27de52e5c178ab4d77325e7dde61f9f90442d3e6 lockdep: Fix -Wunused-parameter for _THIS_IP_
+60ba5e1082523d2c3c259d81e0218080eabe6feb x86/mm: Force-inline __phys_addr_nodebug()
+8fadaae00433c14ac56cbed6e173511cb1426223 task_stack, x86/cea: Force-inline stack helpers
+25c0fca136dd3554be3737e7dbe7e1a206839744 tracing: hold caller_addr to hardirq_{enable,disable}_ip
+dbf5a53ed46295b79fbcc15cb58862de2173de1b tracefs: Only clobber mode/uid/gid on remount if asked
+88f801239ab854960ae3108bd18875e4f4fc16a7 iommu/vt-d: Fix kdump kernels boot failure with scalable mode
+bf0910236e0c29d5cfc97bb77b9e027c460f8e2a Input: goodix - add support for GT1158
+e799f38c511d72a287e0ea0ba93710258df7f071 platform/surface: aggregator_registry: Add support for Surface Laptop Go 2
+74c4b7c342958725b8bda53b7412cbd84f880d6f drm/msm/rd: Fix FIFO-full deadlock
+e35223e060b12e0f779b7999aed8cb1f4f3ea5f8 hwmon: (pmbus) Use dev_err_probe() to filter -EPROBE_DEFER error messages
+d2b6a13940d3aa9bac056e9b52c5fb37635c1d12 dt-bindings: iio: gyroscope: bosch,bmg160: correct number of pins
+e35a95f3392702dc7f799570a7ca8487080ce117 HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
+5e310d1e9bf0a6c271bd91485728d208e40d9efa hid: intel-ish-hid: ishtp: Fix ishtp client sending disordered message
+a6b873f16b891fb094f8a83e0d51e660b320a3d4 tg3: Disable tg3 device on system reboot to avoid triggering AER
+c1aa61ad5d3e7f9e0730a1691e56e2ab23487a61 gpio: mockup: remove gpio debugfs when remove device
+47f6f60bfd74f4eb831395fd3f85b489b615cdf5 ieee802154: cc2520: add rc code in cc2520_tx()
+197870e00ed8788242d591a0e7af1da8da8498e1 Input: iforce - add support for Boeder Force Feedback Wheel
+c46c69cbf0b70a79892d6f2a14775a61f9f816d8 nvmet-tcp: fix unhandled tcp states in nvmet_tcp_state_change()
+fe40740ae0cfb96ce57efa7be6c8b3eefc158a84 drm/amd/amdgpu: skip ucode loading if ucode_size == 0
+c6bd574f6cad2348b6a4cb93ed77f90cfe2769e6 net: dsa: hellcreek: Print warning only once
+d03396604c5200fed3c41b4f6042339d9facf9f6 perf/arm_pmu_platform: fix tests for platform_get_irq() failure
+0df8bfbeb70350aee8d92574ff9103fcaee83e50 platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
+cce1a977119425e5fd3b2bee6817ecc128a07081 usb: storage: Add ASUS <0x0b05:0x1932> to IGNORE_UAS
+6cf3ae6bbb6acd1f4e1469daa3b4c86878842ce5 mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
+b6f8409fcfd99c236ea9c08414854a5a7b710968 soc: fsl: select FSL_GUTS driver for DPIO
+93a412ac03b68ddb40b3abf0eb5cae22a42f2ce3 usb: gadget: f_uac2: clean up some inconsistent indenting
+aa5c5aed21712e74620eafa09fb883a10f07274d usb: gadget: f_uac2: fix superspeed transfer
+e4f2f7db64661e085194061b75e06a059bd5337c Linux 5.15.69-rc1
 
---===============3204197635084742482==--
+--===============5950860586754479733==--
