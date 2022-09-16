@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6169234776868110480=="
+Content-Type: multipart/mixed; boundary="===============2401634701808104987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Fri, 16 Sep 2022 12:18:19 -0000
-Message-Id: <166333069995.5617.17794722366983998153@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 12:19:17 -0000
+Message-Id: <166333075742.6033.9234950890711529591@gitolite.kernel.org>
 
---===============6169234776868110480==
+--===============2401634701808104987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: 55b3b7f2608be5426c7bb339cefc154cb747c87c
-    new: b5eb468b478e67509df84d3e65de57b9d1cf9934
-    log: revlist-55b3b7f2608b-b5eb468b478e.txt
+  - ref: refs/heads/for-next
+    old: e2e1869ddb2afaf24ef6f04eb34f4db2db54c6dc
+    new: 71c135bc2843cc10e874f8e80aa31e28e3ee24a6
+    log: revlist-e2e1869ddb2a-71c135bc2843.txt
 
---===============6169234776868110480==
+--===============2401634701808104987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55b3b7f2608b-b5eb468b478e.txt
+Content-Disposition: attachment; filename=revlist-e2e1869ddb2a-71c135bc2843.txt
 
 449fc40d74d6c2599e55867d701df1bf3dcfe00a arm64: dts: imx8mp-venice-gw74xx: add PCIe support
 765aba928eadd102415e50c27cf1299d36e0bf19 arm64: dts: ls208xa-qds: add mdio mux nodes from on-board FPGA
@@ -52,5 +52,9 @@ ce41d252ab69a385e678da029014cf14632ed01f arm64: dts: ls1046a: Add big-endian pro
 e64a1748e8f576229d24977bfb9422b78b541daa arm64: dts: ls1046a: add gpios based i2c recovery information
 2b2e395aff5456278bdea6f43fef3276ecc49ff6 arm64: dts: ls1046a-qds: add mmio based mdio-mux nodes for FPGA
 b5eb468b478e67509df84d3e65de57b9d1cf9934 arm64: dts: ls1046a-qds: Modify the qspi flash frequency
+97b05622b808e9c3eb1da7cdb1945346571ff802 Merge branch 'imx/drivers' into for-next
+6e4653225d944e55e1fc703e691b9a3981f60fe1 Merge branch 'imx/bindings' into for-next
+15324299673fc5b00b0fade5426f1120558d4974 Merge branch 'imx/dt' into for-next
+71c135bc2843cc10e874f8e80aa31e28e3ee24a6 Merge branch 'imx/dt64' into for-next
 
---===============6169234776868110480==--
+--===============2401634701808104987==--
