@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0668169878721564548=="
+Content-Type: multipart/mixed; boundary="===============8850784890638105789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 16 Sep 2022 16:22:37 -0000
-Message-Id: <166334535773.16614.9551552568539417603@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 16:23:53 -0000
+Message-Id: <166334543369.17142.14573798703628370511@gitolite.kernel.org>
 
---===============0668169878721564548==
+--===============8850784890638105789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 31c8a46261dd00a0701e5751d46411c1450c27d1
-    new: 01d7f9bf1af3fd9d52624d0910a006f0d5db307c
-    log: revlist-31c8a46261dd-01d7f9bf1af3.txt
+  - ref: refs/heads/net-mlx4
+    old: 0727a9a5fbc1151fcaebfa9772e9f68f5e38ba9e
+    new: 96628951869c0dedf0377adca01c8675172d8639
+    log: revlist-0727a9a5fbc1-96628951869c.txt
 
---===============0668169878721564548==
+--===============8850784890638105789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31c8a46261dd-01d7f9bf1af3.txt
+Content-Disposition: attachment; filename=revlist-0727a9a5fbc1-96628951869c.txt
 
 23c619190318376769ad7b61504c2ea0703fb783 ice: Don't double unplug aux on peer initiated reset
 a509702cac95a8b450228a037c8542f57e538e5b ice: Fix crash by keep old cfg when update TCs more than queues
@@ -39,6 +39,5 @@ bd60234222b2fd5573526da7bcd422801f271f5f net: team: Unsync device addresses on n
 bbb774d921e273ca262944c94011bc2cc888ebeb net: Add tests for bonding and team address list management
 34d2d3367de3b815cc7cd5670e18c557f95cfe1e Merge branch 'net-unsync-addresses-from-ports'
 96628951869c0dedf0377adca01c8675172d8639 tcp: Use WARN_ON_ONCE() in tcp_read_skb()
-01d7f9bf1af3fd9d52624d0910a006f0d5db307c net/mlx5e: Do not increment ESN when updating IPsec ESN state
 
---===============0668169878721564548==--
+--===============8850784890638105789==--
