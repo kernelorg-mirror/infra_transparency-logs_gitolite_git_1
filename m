@@ -1,32 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 16 Sep 2022 19:56:19 -0000
-Message-Id: <166335817960.7885.16238809858792566384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 16 Sep 2022 20:00:42 -0000
+Message-Id: <166335844282.11065.3258959933118791475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/arm/soc
-    old: 0d9787fa274324ddbbe211c99ea44e86a3f55847
-    new: 47723de8d7555edf774aad543f92f930736d204f
+  - ref: refs/heads/master
+    old: 6879c2d3b96039ff1668b4328a4d0dd3ea952cff
+    new: a335366bad1364a07f49df9da1fdfa6d411a5f39
     log: |
-         92481c7d14b8030418f00c4b4ec65556565d892d ARM: remove obsolete Makefile.boot infrastructure
-         8c7d29a75397198154f66541c2af18a8feccac42 ARM: simplify machdirs/platdirs handling
-         6fd09c9afa49b343d17cecedd7879d097f37f2a9 ARM: Kconfig: clean up platform selection
-         5408445b1e4d511d835ecbae2fbc9fb9976dbcb9 ARM: fix XIP_KERNEL dependencies
-         84fc863606239d8b434e59e6bbbe805f457e5767 ARM: make ARCH_MULTIPLATFORM user-visible
-         8774d335446a11f514a98aaa1c0e8a7cfab33637 Merge branch 'arm-multiplatform-cleanup' of https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc into arm/soc
-         47723de8d7555edf774aad543f92f930736d204f ARM: disallow PCI with MMU=n again
-         
-  - ref: refs/heads/for-next
-    old: 5ff4137055a25840be89fa8281fa472732569bca
-    new: d2c3fe578acd24c9f3ef9c78303c771cc2944a38
-    log: |
-         47723de8d7555edf774aad543f92f930736d204f ARM: disallow PCI with MMU=n again
-         d2c3fe578acd24c9f3ef9c78303c771cc2944a38 Merge branch 'arm/soc' into for-next
+         279c12df8d2efb28def9d037f288cbfb97c30fe2 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+         1660c679d6d4779fbce937d0c9dc2af56e66e62d MAINTAINERS: Update HiSilicon GPIO Driver maintainer
+         94e9bc73d85aa6ecfe249e985ff57abe0ab35f34 gpio: ixp4xx: Make irqchip immutable
+         09eed5a1ed3c752892663976837eb4244c2f1984 gpio: mt7621: Make the irqchip immutable
+         a335366bad1364a07f49df9da1fdfa6d411a5f39 Merge tag 'gpio-fixes-for-v6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
          
