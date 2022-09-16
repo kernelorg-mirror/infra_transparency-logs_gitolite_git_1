@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5402219933345062501=="
+Content-Type: multipart/mixed; boundary="===============8496266138006496646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 16 Sep 2022 02:47:35 -0000
-Message-Id: <166329645528.9793.16285863993790912735@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 02:47:50 -0000
+Message-Id: <166329647018.9953.3516994170998709305@gitolite.kernel.org>
 
---===============5402219933345062501==
+--===============8496266138006496646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a2ca21264daeffaf8ac93db585cebe1fee2655aa
-    new: 7d0127fa396736c2c4f3fc3f023b17dcabc34d30
-    log: revlist-a2ca21264dae-7d0127fa3967.txt
+  - ref: refs/heads/6.1/scsi-staging
+    old: efca52749564601de2045eb71dbe756b7bade4e8
+    new: 7f615c1b5986ff08a725ee489e838c90f8197bcd
+    log: revlist-efca52749564-7f615c1b5986.txt
 
---===============5402219933345062501==
+--===============8496266138006496646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1663296444 -0400
+pusher 75C5DE3D 1663296460 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1663296443-d9555944fb4f6ef9c04986ce083df8b451afa239
+nonce 1663296459-b6df07477aa22687bae5585e4df1c156e57b9100
 
-a2ca21264daeffaf8ac93db585cebe1fee2655aa 7d0127fa396736c2c4f3fc3f023b17dcabc34d30 refs/tags/mkp-scsi-staging
+efca52749564601de2045eb71dbe756b7bade4e8 7f615c1b5986ff08a725ee489e838c90f8197bcd refs/heads/6.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMj47wACgkQ7ulgGnXF
-3j1f8A//Z8VXz4xZwgVDhhcDER7S9rozx2J2aO9xiY4uA9UhKImcWh3CEty4IZMn
-WbQp1ucJEQ4dWOc/zt4OOB54fw59/41SueMAS9ANPh0G6YRXCYDjyJyE/amyBV84
-F5iOwKyHhgwnO1wf3C9rUJv4oKjM8/WF8F7qLLKAfhFZ9d+IwLtgr9WtMBOTxWta
-HX6/2Tafikm/8wUSPkEhBUMkx4ofrdb/ut+7LsYYQl/5Bxf921uW4CZFpTLZ2w2d
-ap/b82zQTBbmqLhPrsoXpN7ukbkwKWN+7AaFXmMoE6BhjzkXoz0iLUPUVeEoidUO
-ha6Yvl0z3oFvrC0jqu/CYThU2dXA11gn8J5P/EKjrLyBP9IrWKmswPu0MZnCTlLs
-JaASdEm8TaskiOKl7BhlHCDYXXiOhcVO3HBq3klsGtYAPpFizw8I+VQWNOoTcVVZ
-tVKrRULI1K9BGr1wlEQhxnudc/FJ7iK0p2s+4yktGLIkPfiUKA28QFM6hE/rRHLm
-YUkQVoYPFxGNmcp/gdaE0mZcmCB8SvdPrxVqzjJFFHkOwLccqO5LUqkg8O/s/bBD
-cF5zgLzMK+5EePMN6JQ3AWn406zWgxUejebr2daN8jOWttXuSYmt+1b0skS8ZFzS
-dS6w6COMuDvOqYKMfbB1TMlx/PhGWMVSJdKER/Tkscyf8ueGNLI=
-=5PGt
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMj48wACgkQ7ulgGnXF
+3j2LzBAApXZcyADzlGSKrbmdK07CkdqTBBvlug12fDlDfn0PqAoMZBeltfIrr/kc
+qMvSR3G67ubGfdf+PuEdLlSjRvCV5qFbGTIWs46ulkS4ukBhKlXvxKqD7SpEtDvm
+Iyh+P/5cfv3jISNfU9wnEMivD7FmJGu/P79a5UNOvtqQ91nEsN9DL0difDqPjjFz
+M5OQ/dr5IdxHT7NLurPZqgraDrZpnj29IuHLPU7/WQ63ith4hs1XEvBq4jhHGmn7
+71TLCbBjEsCoORqCwEusvE5OOiEkHh6DNSlqXrl5MuMyDeyFY0pjiPCtLohiJ62X
+Qwe5uNLukcuCAtA7UU8QMhOi9t2On1MC29VWMK6ZU7BVv+dyM1q55TFW16roMUxB
+SZyNbcdmBIN8eyR0kgslrhaePl4s0WNwPKHl4Y/UnUTwkp9SBAUqNHgvDCaqbNrD
+DUhBizlsP+j0BDsOf9oIvMlJ6dK57BqVHr1u0eL0U7O3EDY75x6y2jqmW0A3JvN7
+KHLYykeU+ChXIxKiu83zSno+fX7JM5L/6/xCRgZiTY49zeeVqw0cyuL4ZKPHFY7l
+G4OVp9VLBAPX4zXq/0XqupgVVr0qObrL+QS9Y4g6/K08bx3sY1qC62SDxRYdJfYB
+xsFNVjZTcYlRQA0zk5T29NhCywQDhWMm8ZfhvuXrfwmzpj05ULY=
+=9JAp
 -----END PGP SIGNATURE-----
 
---===============5402219933345062501==
+--===============8496266138006496646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2ca21264dae-7d0127fa3967.txt
+Content-Disposition: attachment; filename=revlist-efca52749564-7f615c1b5986.txt
 
 5bdd4a8e5cb96236a2aa9ad38df73381b4161404 scsi: target: core: Set MULTIP bit for se_device with multiple ports
 f04e47e770e5717b1a08639293d189d43af866c7 scsi: target: alua: Do not report emtpy port group
@@ -81,4 +81,4 @@ a4de8356b68e54149ebdbe6e748e2726152b650c scsi: lpfc: Fix various issues reported
 9acb9f0efb930de37f65718e35e09ddd20c80961 scsi: csiostor: Convert sysfs snprintf() to sysfs_emit()
 7f615c1b5986ff08a725ee489e838c90f8197bcd scsi: scsi_transport_fc: Use %u for dev_loss_tmo
 
---===============5402219933345062501==--
+--===============8496266138006496646==--
