@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3022834659588637232=="
+Content-Type: multipart/mixed; boundary="===============3171335927241373796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 16 Sep 2022 14:51:21 -0000
-Message-Id: <166333988174.16670.14850276166308868272@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 14:51:31 -0000
+Message-Id: <166333989144.16799.953272909849269111@gitolite.kernel.org>
 
---===============3022834659588637232==
+--===============3171335927241373796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/wip
-    old: 0f88da6cd041ef72163880b4881713dfcc458715
-    new: 3327c6cb4d9c7f85cc693ac409b455ead7decb7b
-    log: revlist-0f88da6cd041-3327c6cb4d9c.txt
+  - ref: refs/heads/sched/wip
+    old: 5c27c4352ee60909992ba46d65b7944ae413664e
+    new: 44cb9ae2b46beef9caddceaa37fe1395185c184b
+    log: revlist-5c27c4352ee6-44cb9ae2b46b.txt
 
---===============3022834659588637232==
+--===============3171335927241373796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f88da6cd041-3327c6cb4d9c.txt
+Content-Disposition: attachment; filename=revlist-5c27c4352ee6-44cb9ae2b46b.txt
 
 fd7cb3e4684f0c044a627dc33adb9f97c69f033f MAINTAINERS: add PolarFire SoC dt bindings
 3cbd673846772153a0aa85471aef5788f1a53dcd MAINTAINERS: add the Polarfire SoC's i2c driver
@@ -358,8 +358,10 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 087aa69a9f2b2f1aaa173f976fec94058f623a9d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
-7a7621dfa417aa3715d2a3bd1bdd6cf5018274d0 objtool,x86: Teach decode about LOOP* instructions
-45a08a6799fec5b88dd43312a2e6d2bba5d776ed Merge branch 'tip/objtool/core'
-3327c6cb4d9c7f85cc693ac409b455ead7decb7b objtool: Rework arch_dest_reloc_offset()
+b0defa7ae03ecf91b8bfd10ede430cff12fcbd06 sched/fair: Make sure to try to detach at least one movable task
+c59862f8265f8060b6650ee1dc12159fe5c89779 sched/fair: Cleanup loop_max and loop_break
+7e9518baed4cef76dbfa07cbffbae1e6dbc87be6 sched/fair: Move call to list_last_entry() in detach_tasks
+a6d04535c0223841db46875f96c01073a36e340c Merge branch 'tip/sched/core'
+44cb9ae2b46beef9caddceaa37fe1395185c184b sched/fair: Fold the sched_avg update
 
---===============3022834659588637232==--
+--===============3171335927241373796==--
