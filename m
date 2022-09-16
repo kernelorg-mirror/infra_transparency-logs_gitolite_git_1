@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2941824701865137868=="
+Content-Type: multipart/mixed; boundary="===============5363227797963352062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 16 Sep 2022 17:34:58 -0000
-Message-Id: <166334969869.3840.6605671372551694355@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 17:40:25 -0000
+Message-Id: <166335002555.9108.13454652565847875413@gitolite.kernel.org>
 
---===============2941824701865137868==
+--===============5363227797963352062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c07e23d39cbc8899c1adeac62aec637d42490a7e
-    new: aa0999833b83da5d620f831d0e0198b1117d8d35
-    log: |
-         aa0999833b83da5d620f831d0e0198b1117d8d35 setup: update install_requires
-         
+  - ref: refs/heads/stable-0.10.y
+    old: 0000000000000000000000000000000000000000
+    new: 0da674d718c670a583d1a4a308b43e2bc641f55f
 
---===============2941824701865137868==
+--===============5363227797963352062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1663349698 -0400
+pusher B6C41CE35664996C! 1663350025 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663349698-180702778363e90211fd692f904958a324bc9b8b
+nonce 1663350025-0b1c94fce326c4aeccdc99359d07a2d87b69afe6
 
-c07e23d39cbc8899c1adeac62aec637d42490a7e aa0999833b83da5d620f831d0e0198b1117d8d35 refs/heads/master
+0000000000000000000000000000000000000000 0da674d718c670a583d1a4a308b43e2bc641f55f refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYySzwgAKCRC2xBzjVmSZ
-bBLQAQC8lwJKZDt+zxRFRm6jb8esF6pzLu49NwX38gq89l0chAD/eep7KewGvmI/
-FpZ0SrbkpELjQur4+kaFVaiaLeL5OAw=
-=ENfc
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyS1CQAKCRC2xBzjVmSZ
+bMw4AQDGxVZbeaPSzBXrGBPlIwHtY2iGAUxCKzLRMekYGFRA4QD/ZYn1vKHejBI6
+hxX2zV5qBUPFjqO0oE1Fxs3rspFUbg0=
+=dD4M
 -----END PGP SIGNATURE-----
 
---===============2941824701865137868==--
+--===============5363227797963352062==--
