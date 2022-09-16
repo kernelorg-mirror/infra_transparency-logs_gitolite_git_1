@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1352188086946950772=="
+Content-Type: multipart/mixed; boundary="===============7071746072409076651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 16 Sep 2022 16:45:28 -0000
-Message-Id: <166334672859.1659.16613776268258485153@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 16:46:30 -0000
+Message-Id: <166334679056.2092.13332891014976288760@gitolite.kernel.org>
 
---===============1352188086946950772==
+--===============7071746072409076651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/for-next
     old: d3243965f24ab002b2d8c48a91eb7ce027d3f11a
     new: e7840a9aae6f791d8fef47c892821b1915d20747
     log: revlist-d3243965f24a-e7840a9aae6f.txt
 
---===============1352188086946950772==
+--===============7071746072409076651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ bc7af9100fa8a671298139f87a29f4254c207786 ata: ahci-dwc: Add platform-specific qu
 9628711aa649e0134f567505290537460326ddc1 ata: ahci-dwc: Add Baikal-T1 AHCI SATA interface support
 e7840a9aae6f791d8fef47c892821b1915d20747 MAINTAINERS: Add maintainers for DWC AHCI SATA driver
 
---===============1352188086946950772==--
+--===============7071746072409076651==--
