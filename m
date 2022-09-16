@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1765339786469947497=="
+Content-Type: multipart/mixed; boundary="===============4469092680109671105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 16 Sep 2022 10:04:17 -0000
-Message-Id: <166332265702.7971.13868034409394670577@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 10:04:19 -0000
+Message-Id: <166332265974.8064.17333264674244959822@gitolite.kernel.org>
 
---===============1765339786469947497==
+--===============4469092680109671105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,48 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 1bfbba1b53d807368a5de591d43c7ba7c9b8b91b
-    new: baa4a2e9ad839b9028f4de5fb09bcc2d2f24f2ed
+  - ref: refs/heads/linux-4.14.y
+    old: a554a59ad2bd08ab06e9676e406ba0d14c8d9c6f
+    new: 05d41a0803cbf701df67dca7066c95bb32fe1365
     log: |
-         2ea06af04db7e717a344f0642f9d550207c02f60 drm/msm/rd: Fix FIFO-full deadlock
-         0f92ef4ef02aaeb7a87560096d8354ecb7e8f17f HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
-         6b20951e3ffa4ed76d414467bdaee9f586268540 tg3: Disable tg3 device on system reboot to avoid triggering AER
-         b070276c832f83d7942ae6dffba107bf70508383 ieee802154: cc2520: add rc code in cc2520_tx()
-         36df21179bf37b440e47f2a201cc85cd106249a3 platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
-         72e54d0c70dea738029fcb92f1b8e472c258630d mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
-         7aa968492ef775cd3a20844a15c3163bbb07d17c tracefs: Only clobber mode/uid/gid on remount if asked
-         baa4a2e9ad839b9028f4de5fb09bcc2d2f24f2ed Linux 4.9.329-rc1
+         218c0cd77fadf37f4466ad7d7878bf5332e97cdb mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
+         b7374975d70592d922f8a734601c5484839d7a0b drm/msm/rd: Fix FIFO-full deadlock
+         2d66a8bf5a7a5c6d3d0cf5a10e550b43ae1d041d HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
+         dbd78bec399775c3bb998c653d53e35fcd7e00ce tg3: Disable tg3 device on system reboot to avoid triggering AER
+         9721b75c050be454456ddb77b22405a87b2d0a2f ieee802154: cc2520: add rc code in cc2520_tx()
+         df8ed2fdc7bdf4668baad5f087955aba02e8a649 platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
+         675a57f2f4d6e6053d251b6e87280a4ca815a289 tracefs: Only clobber mode/uid/gid on remount if asked
+         05d41a0803cbf701df67dca7066c95bb32fe1365 Linux 4.14.294-rc1
          
 
---===============1765339786469947497==
+--===============4469092680109671105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663322684 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663322687 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1663322653-3174550888af9315154ed903695ce99b7c873eaa
+nonce 1663322656-104165c7a8b9f3b06e01e32694bdd7c232af0350
 
-1bfbba1b53d807368a5de591d43c7ba7c9b8b91b baa4a2e9ad839b9028f4de5fb09bcc2d2f24f2ed refs/heads/linux-4.9.y
+a554a59ad2bd08ab06e9676e406ba0d14c8d9c6f 05d41a0803cbf701df67dca7066c95bb32fe1365 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMkSjwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rE8QANfvE1d+nd1A2/pXEqQF
-r4CD/MpdhHgND7RpAqWOAZff/pBQkf7DRDGXuoU2FTRUMtdPorExqDISlB1AWAYx
-F3V7TBVxX1OyaVy5PpEC5V89OJ+UTGpRcDTO4Ry3OFCQvTxZ5ZQOgTIIAfA52VDH
-x5yJKdqOCzzZvZHp+pna3B8vLaRd0aH7hPwzi8jqhikJnMriRALCGcSnxJM+lefg
-AEo9iyWj4EV0SpVj/0nHOD/urJDDjw+HyQsUbWhsNZmgPbx5OPTlcNb06NFBKX43
-rWtfHxfBe7E0ZyThopjtNJgp30FxsSFHSD1DCTdgxiXkE8aJF7AiimswKC1AdIAJ
-7wlcNRLedsVgQSvNm8wuxD+9o6C32uBLa2MSFOSxcxF9tKhwVLEywJ3f5z9FtLoV
-j9D8aTR6ktKW33X+4K5nE8fc34dV7PTGTkSBHtn8FJ7u3NUh22M9S3IA+FSCWfO+
-QoECGqgNFvwSIQRyl7bWM+gCxnYUx3PnYSPDFoy+FJQKqVAXa+qb4jU0Y5eHrCQN
-FsM5+QyuNfm9df0r84/Lbgo0j1K5D7Oh/EuINIQHjbOJUgK4/ZrVmXTtDbYCHWiz
-0Ri2ECg3QbVQx5C9EMzD8x4jOZH2NAqvsCYm6mTUOqRmhUZrh4xqfK65Db73AglX
-CfbxQMcRDCMrSyx7YNgkYArH
-=nXa+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMkSj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWkQAJYsbrhwUC1JDPdbM942
+LqkrShTNqNDzKATndFv7FxioojzVkc+r76N2c2n4KyqzXkoquqJOdQWL+k04rgQL
+uY0FczKrq9j6C6rune/5Xn3NQ1JphWp5Q/srJHxZXkEXmvCuvW2ZxQMYK2g+mhVd
+i4ESWgb6/6uKoPVwbGfBTKLrxJDt6FF7yXuUuQLO44b8a9GJ77u69+lpOs1Nj6qW
+YgPIb7r7cjJPUd4JBwkTELZlmxcI5UEXt3eKZcAGlyk6Xd92JPxqiWLS6KJfDNGs
+w8CdMOPJd9uLUQc7Py3SOZC47vSks4p14FOjy9Hcrjk+mHEcnO8YGtIYxHOo8Rx9
+lJG4DPOCAwq3JLMlTjkR/HuUrE6y1rtCipIvkLOHG+/n47ST7X39Q25zi2ETfIXt
+9Y7xSWdxPSo3jENfwXPTgyjTYS1AiPvnmWSOp9l0SsN+xKujDYts65ATdww8NmMV
+873o8QlKjAYqVtKz8q+MdPdRZFDRgIY6yJnZlH0snyXujo5dq0CLC+nfUSQOzq57
+kx9/5afbXVnksVJHNu2HP7at92BbT4nYC39r+E/K0yFTL0CO/dinl0E77dhloTWT
+RZls0H5/cioSfwaEOKrVEuDi9Dc4nkT+rSdujMyMGmgaAia8TKHiaZ+KoHHvVVXt
+Mxp2irpR/WXiwZq3q8Jotb3q
+=v8Ru
 -----END PGP SIGNATURE-----
 
---===============1765339786469947497==--
+--===============4469092680109671105==--
