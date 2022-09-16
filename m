@@ -1,52 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============0272584943242347474=="
+Content-Type: multipart/mixed; boundary="===============0066065692251368710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Fri, 16 Sep 2022 22:51:42 -0000
-Message-Id: <166336870270.32536.3538970357611622934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 16 Sep 2022 22:55:26 -0000
+Message-Id: <166336892642.4360.3650153763201256894@gitolite.kernel.org>
 
---===============0272584943242347474==
+--===============0066065692251368710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
-user: jkirsher
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 8a26a9dee5e3679637edc6f8caf4beb5f3100dde
-    new: 862deb68c1bc19783ab7a98ba17a441aa76eba52
-    log: revlist-8a26a9dee5e3-862deb68c1bc.txt
+  - ref: refs/heads/for-next
+    old: 0e5d069dcc0c1cae8262fe499b606aba35199f74
+    new: 2f00d5a2a89358e1154198c97396bb259306f71e
+    log: revlist-0e5d069dcc0c-2f00d5a2a893.txt
 
---===============0272584943242347474==
+--===============0066065692251368710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a26a9dee5e3-862deb68c1bc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fb1752c7df4d7bac05ae7b879415d0506b2067d9 drivers/net/ethernet/e1000e: check return value of e1e_rphy()
-2c5e5abf1c4278d5768a79b6bfc7d54cdc96e8df igc: Remove IGC_MDIC_INT_EN definition
-da970726ea872269dc311b6dd87af8cf457b8fe9 net: fec: add pm runtime force suspend and resume support
-7e6e1b57162ed6a2d32d2f0929c27d79482ff706 rtnetlink: advertise allmulti counter
-454e7b138436a31a17753de58f2178c3e955886c vsock/vmci: fix repeated words in comments
-b0b815a356aa4f3352563b3350a7b2354c0f2c5c net: amd: Unified the comparison between pointers and NULL to the same writing
-7c13f4426b0efe44a2af2037e4fc26802469ee21 net: amd: Correct spelling errors
-78923e8ae4279a90138d09743d9710d4b04b19c5 net: amd: Switch and case should be at the same indent
-3b63ef7baa26da9f7421af2689bd849f74cac373 Merge branch 'net-amd-static-checker-warnings'
-7187440dd7c45fd8b6dd4f3ff56b03ca4aa1bbd2 iov_iter: use "maxpages" parameter
-a292c25607ea3f259afb318f03e05b84108348bf mellanox/mlxsw: fix repeated words in comments
-ec3f06b542a960806a81345042e4eee3f8c5dec4 net: fs_enet: Fix wrong check in do_pd_setup
-030eed86cbe10a9e2ce7c3b081d4465d378fda25 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-77cba3879f1bc9259b3683ea5862b5ca5ff98f43 selftests/tc-testings: add selftests for ctinfo action
-4a1db5251cfac32290fa006afb7415222b8ff8f3 selftests/tc-testings: add selftests for gate action
-910d504bc1879f2f89ac54b288924b0af1664287 selftests/tc-testings: add selftests for xt action
-0fc8674663f6327fdeddc40f9f1abe26726341ab selftests/tc-testings: add connmark action deleting test case
-af649e7a6a53fe5f2e21d930d1d1cc3b19310f11 selftests/tc-testings: add ife action deleting test case
-043b16435f3d9b32e26df528c0528052b053869e selftests/tc-testings: add nat action deleting test case
-a32a4fa447f58edda2ee2eb1be9ce1260cfd6a40 selftests/tc-testings: add sample action deleting test case
-eed791d3ca9514656421d8b657031d80433eeda4 selftests/tc-testings: add tunnel_key action deleting test case
-862deb68c1bc19783ab7a98ba17a441aa76eba52 Merge branch 'net-tc-testing-new-tests'
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1663368924 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1663368924-d60efd9b7f209cfca9d5807c03310557f7ca29a0
 
---===============0272584943242347474==--
+0e5d069dcc0c1cae8262fe499b606aba35199f74 2f00d5a2a89358e1154198c97396bb259306f71e refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMk/twACgkQ4CHKc/GJ
+qRDwvAf/fHb9O2bKlWjdvHGSYwglRydHx1U14EgJKJyIFt0+/zwZ6DZL7RboWiLH
+vLcw3sP8k9hjvY0CSigrM+RnFU8unjLbKwhkJCmyFomk3fEYBlXsCRfM1OVX3PHD
+3YHt4/IrDFAnPggW2YY12Maxrq9ZemHmGGlXFodCHBMu4pTwwwZz49a9fIsIF1t1
+1AkL2woKRXzn3buXEbsQgzR08jkFQKW5ATfRCLJONUsXgKe7ifbn+b1sUuk51CWW
+l+oxOjAtLJcsmG9zYXoTpBzybzv7OnJpMDg2kG7NVaOVFIUXQt2C5Zw6wdVE4047
+eMLljZlyitiKcjJsetg8birxz+0ymw==
+=eDoP
+-----END PGP SIGNATURE-----
+
+--===============0066065692251368710==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0e5d069dcc0c-2f00d5a2a893.txt
+
+0410fb3495577b4ad6104ce5c31f24163dd6d17f mm/slub: perform free consistency checks before call_rcu
+0495e337b7039191dfce6e03f5f830454b1fae6b mm/slab_common: Deleting kobject in kmem_cache_destroy() without holding slab_mutex/cpu_hotplug_lock
+7e9c323c52b379d261a72dc7bd38120a761a93cd mm/slub: fix to return errno if kmalloc() fails
+65505d1f2338e76e731fd1d54d04afb562d0e31f mm/sl[au]b: rearrange struct slab fields to allow larger rcu_head
+5373b8a09d6e037ee0587cb5d9fe4cc09077deeb kasan: call kasan_malloc() from __kmalloc_*track_caller()
+c7323a5ad0786371f61dca49fc26f7ab3a68e0da mm/slub: restrict sysfs validation to debug caches and make it safe
+41bec7c33f37aaae6e3737615e2dfa17a30ea985 mm/slub: remove slab_lock() usage for debug operations
+4ef3f5a32051def596b2d445462a1dccda7af600 mm/slub: convert object_map_lock to non-raw spinlock
+5875e59828a026e47f37c5e343f4fe8e0ba023b9 mm/slub: simplify __cmpxchg_double_slab() and slab_[un]lock()
+1f04b07d976da0666dbc2b170634c5531974dfa1 slub: Make PREEMPT_RT support less convoluted
+de9b9ff8b08a145abbf05bf80f8cff9b1902aaf2 Merge branch 'slab/for-6.1/trivial' into slab/for-next
+02a49848ab1772547f18a577e1b9a9b774be2071 Merge branch 'slab/for-6.1/common_kmalloc' into slab/for-next
+9beca0dee41b6a5a6445491a12754ca98f487aa6 Merge branch 'slab/for-6.1/slub_validation_locking' into slab/for-next
+2f00d5a2a89358e1154198c97396bb259306f71e Merge branch 'slab/for-6.1/fit_rcu_head' into slab/for-next
+
+--===============0066065692251368710==--
