@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4864656122435896919=="
+Content-Type: multipart/mixed; boundary="===============1342190889916699848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 16 Sep 2022 14:51:51 -0000
-Message-Id: <166333991182.17067.7771837553157612551@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 14:52:03 -0000
+Message-Id: <166333992352.17221.15730245745666454672@gitolite.kernel.org>
 
---===============4864656122435896919==
+--===============1342190889916699848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm.pae
-    old: 40211ec212b3f85eee1a17378ee487fc4ed91a0e
-    new: c076775f126eeadfa49d10938eb727201f07eb4b
-    log: revlist-40211ec212b3-c076775f126e.txt
+  - ref: refs/heads/debug/experimental
+    old: 498ff22148aa10b4b09995e4af7b5a00120cea56
+    new: 3e8f9240f7a3ce701f37f4030647e1b3f6e652e3
+    log: revlist-498ff22148aa-3e8f9240f7a3.txt
 
---===============4864656122435896919==
+--===============1342190889916699848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40211ec212b3-c076775f126e.txt
+Content-Disposition: attachment; filename=revlist-498ff22148aa-3e8f9240f7a3.txt
 
 fd7cb3e4684f0c044a627dc33adb9f97c69f033f MAINTAINERS: add PolarFire SoC dt bindings
 3cbd673846772153a0aa85471aef5788f1a53dcd MAINTAINERS: add the Polarfire SoC's i2c driver
@@ -358,14 +358,8 @@ b96fbd602d35739b5cdb49baa02048f2c41fdab1 Merge tag 's390-6.0-4' of git://git.ker
 087aa69a9f2b2f1aaa173f976fec94058f623a9d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 4ed9c1e971b1f6474793da20496fa53c35d4a37b Merge tag 'kbuild-fixes-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e78fcce86de0288793a0ef0f6acf37656ee4cf Linux 6.0-rc5
-253630434c26563de71a7784832dbb2fc5b33e55 mm: Update ptep_get_lockless()'s comment
-227c30bb9d6c56427296a7ec982585cf3d77bd3d x86/mm/pae: Make pmd_t similar to pte_t
-3b5691b7e02c3ca144bb137dcbd653171695efb0 sh/mm: Make pmd_t similar to pte_t
-caaf13e0515166b6cf566bd2fec829b8a864545d mm: Fix pmd_read_atomic()
-1cf4ad2b3cf1e10d01c6b7126d88b64bc433c461 mm: Rename pmd_read_atomic()
-c2a29cffe0fe7c7e55b9c1a3fbeb0982effa349b mm/gup: Fix the lockless PMD access
-11409faf40a14781d8264f3dfca77ff80e63764b x86/mm/pae: Don't (ab)use atomic64
-5abc2c428098dcdd4036eaaa0f6cfdfacd775a4b x86/mm/pae: Use WRITE_ONCE()
-c076775f126eeadfa49d10938eb727201f07eb4b x86/mm/pae: Be consistent with pXXp_get_and_clear()
+a5476832d60173bdf51b72f8eec9b1bcdc8b361e early_printk: Add early_vprintk
+0f47fce3483b671a3f7c7953bf38abd9dc031d36 early_printk: Add 'force_early_printk' kernel parameter
+3e8f9240f7a3ce701f37f4030647e1b3f6e652e3 early_printk: Add simple serialization to early_vprintk()
 
---===============4864656122435896919==--
+--===============1342190889916699848==--
