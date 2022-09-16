@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4469092680109671105=="
+Content-Type: multipart/mixed; boundary="===============7933853019839916930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 16 Sep 2022 10:04:19 -0000
-Message-Id: <166332265974.8064.17333264674244959822@gitolite.kernel.org>
+Date: Fri, 16 Sep 2022 10:04:20 -0000
+Message-Id: <166332266021.8109.17143751636912864422@gitolite.kernel.org>
 
---===============4469092680109671105==
+--===============7933853019839916930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,21 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: a554a59ad2bd08ab06e9676e406ba0d14c8d9c6f
-    new: 05d41a0803cbf701df67dca7066c95bb32fe1365
-    log: |
-         218c0cd77fadf37f4466ad7d7878bf5332e97cdb mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
-         b7374975d70592d922f8a734601c5484839d7a0b drm/msm/rd: Fix FIFO-full deadlock
-         2d66a8bf5a7a5c6d3d0cf5a10e550b43ae1d041d HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
-         dbd78bec399775c3bb998c653d53e35fcd7e00ce tg3: Disable tg3 device on system reboot to avoid triggering AER
-         9721b75c050be454456ddb77b22405a87b2d0a2f ieee802154: cc2520: add rc code in cc2520_tx()
-         df8ed2fdc7bdf4668baad5f087955aba02e8a649 platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
-         675a57f2f4d6e6053d251b6e87280a4ca815a289 tracefs: Only clobber mode/uid/gid on remount if asked
-         05d41a0803cbf701df67dca7066c95bb32fe1365 Linux 4.14.294-rc1
-         
+  - ref: refs/heads/linux-4.19.y
+    old: 5d315b64ea8ae338104c2f88095c6fd3e4abde47
+    new: d4263a0749d603ef83c9e887841af68149e87a5a
+    log: revlist-5d315b64ea8a-d4263a0749d6.txt
 
---===============4469092680109671105==
+--===============7933853019839916930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,23 +32,42 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663322687 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1663322656-104165c7a8b9f3b06e01e32694bdd7c232af0350
 
-a554a59ad2bd08ab06e9676e406ba0d14c8d9c6f 05d41a0803cbf701df67dca7066c95bb32fe1365 refs/heads/linux-4.14.y
+5d315b64ea8ae338104c2f88095c6fd3e4abde47 d4263a0749d603ef83c9e887841af68149e87a5a refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMkSj8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWkQAJYsbrhwUC1JDPdbM942
-LqkrShTNqNDzKATndFv7FxioojzVkc+r76N2c2n4KyqzXkoquqJOdQWL+k04rgQL
-uY0FczKrq9j6C6rune/5Xn3NQ1JphWp5Q/srJHxZXkEXmvCuvW2ZxQMYK2g+mhVd
-i4ESWgb6/6uKoPVwbGfBTKLrxJDt6FF7yXuUuQLO44b8a9GJ77u69+lpOs1Nj6qW
-YgPIb7r7cjJPUd4JBwkTELZlmxcI5UEXt3eKZcAGlyk6Xd92JPxqiWLS6KJfDNGs
-w8CdMOPJd9uLUQc7Py3SOZC47vSks4p14FOjy9Hcrjk+mHEcnO8YGtIYxHOo8Rx9
-lJG4DPOCAwq3JLMlTjkR/HuUrE6y1rtCipIvkLOHG+/n47ST7X39Q25zi2ETfIXt
-9Y7xSWdxPSo3jENfwXPTgyjTYS1AiPvnmWSOp9l0SsN+xKujDYts65ATdww8NmMV
-873o8QlKjAYqVtKz8q+MdPdRZFDRgIY6yJnZlH0snyXujo5dq0CLC+nfUSQOzq57
-kx9/5afbXVnksVJHNu2HP7at92BbT4nYC39r+E/K0yFTL0CO/dinl0E77dhloTWT
-RZls0H5/cioSfwaEOKrVEuDi9Dc4nkT+rSdujMyMGmgaAia8TKHiaZ+KoHHvVVXt
-Mxp2irpR/WXiwZq3q8Jotb3q
-=v8Ru
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++jsP/iYxlh0glRi7ms+eXTus
+Sz1mfaxPZ8Ea/s2z9s7ewWTbMinIdxn7fpGeM5tHKHQSPZmcw88H9eSXMFbioUDG
+xtwVI//8Fs/YWRLSU+Zs8ev4vTQO1Rz6dQNQRYITfve0PLBE7K1CITGkbq/R8yCy
+VPitTcdnkYWqQOW24AcDCjJfCdrX3nvYTeOkwfVAeKQb9CD76WOaFOGM9ZgnK3l1
+XTxRVAnuGoyoEr7tgKGddJemR/bB2rwg2PugyLlowhCJhhG/LO/mKx11JiAYR07Z
+GXlUlqt53zBwR61ZxHtsZbblww3MX7aBZ5j8UUEe0GRNumbdJ6u359S9z8FmNQiD
+bwZm4iRLT4JsCH0s3H22zVp1WOE/d8MePJyaPZiPqD+C/+B42O4BxlLXEnnb6I3m
+JVpJnV66fKC3FTQzff/i9bGrlCSOi6Hklbb0Knj3JTzkgqfCCq6loRWeYZcM4R44
+hrNTUgGW8cBjtqRU7Qau7Tm7FKjgdLXdxlVs2GToUAnDrlZ1/uqeWn4/55XeHJAx
+ypvu+uoU+ttIdyd92iqIhnDXPVrIQtd5xwaWodnTIMwT2v4oe+j1F+M6SkTPl4tW
+vMJrSjxB+Xvtai12KwwyTaYD3vvTemER54BZxwNS346Vj/Wi9MR5qAEPsee0VkO5
+8Ho6QvprN15f9hDCG9l33G6f
+=Wfdk
 -----END PGP SIGNATURE-----
 
---===============4469092680109671105==--
+--===============7933853019839916930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5d315b64ea8a-d4263a0749d6.txt
+
+ba65f3f6aa74428e2aa78e904a9f8ff7d712fa5e drm/msm/rd: Fix FIFO-full deadlock
+39825147a8f342ceaac2435c2ebcdf0f1950957a HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
+9ead2102e3f45788e4546d1b7c03d5ca3119ea0f tg3: Disable tg3 device on system reboot to avoid triggering AER
+d4093ea128651fe7c36ba69d633a2acdd53cc86d ieee802154: cc2520: add rc code in cc2520_tx()
+839a9f69773a165df3ab6667f4073350fb8046a2 Input: iforce - add support for Boeder Force Feedback Wheel
+045f6bf850a0257fb12dba3004c682a5a7cb2a8e perf/arm_pmu_platform: fix tests for platform_get_irq() failure
+505e26d32fabd6f5aba0b38680329dd5975b06ec platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
+2aad205ccd4e636a152150eb09c912919080da8c usb: storage: Add ASUS <0x0b05:0x1932> to IGNORE_UAS
+fd48d1ad810f3d19805a8eb15e355f8384aa6e6e mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
+4d3fcb77e453daec877bf347a3270d9a37277d9f net: dp83822: disable rx error interrupt
+36201ade7624aefdd185721d8659908c76ff8d2e tracefs: Only clobber mode/uid/gid on remount if asked
+d4263a0749d603ef83c9e887841af68149e87a5a Linux 4.19.259-rc1
+
+--===============7933853019839916930==--
