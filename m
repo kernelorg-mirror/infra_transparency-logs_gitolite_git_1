@@ -1,52 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6852072604373438511=="
+Content-Type: multipart/mixed; boundary="===============8443659914199221675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 16 Sep 2022 15:33:52 -0000
-Message-Id: <166334243277.14648.12670550785354999194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 16 Sep 2022 15:38:41 -0000
+Message-Id: <166334272178.17868.7283432864471498497@gitolite.kernel.org>
 
---===============6852072604373438511==
+--===============8443659914199221675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 8a26a9dee5e3679637edc6f8caf4beb5f3100dde
-    new: 862deb68c1bc19783ab7a98ba17a441aa76eba52
-    log: revlist-8a26a9dee5e3-862deb68c1bc.txt
+  - ref: refs/heads/master
+    old: e14f59f7a5db652ddbf729f60d592baa9f50cd7c
+    new: d8d415a7fe722cad8c433c2c88e1063c4e491b05
+    log: |
+         cd43f60e6a496456e7e7e6a11b520b95efa420c5 docs: proofread and fixes
+         d8d415a7fe722cad8c433c2c88e1063c4e491b05 command: add a link to online documentation
+         
 
---===============6852072604373438511==
+--===============8443659914199221675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a26a9dee5e3-862deb68c1bc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fb1752c7df4d7bac05ae7b879415d0506b2067d9 drivers/net/ethernet/e1000e: check return value of e1e_rphy()
-2c5e5abf1c4278d5768a79b6bfc7d54cdc96e8df igc: Remove IGC_MDIC_INT_EN definition
-da970726ea872269dc311b6dd87af8cf457b8fe9 net: fec: add pm runtime force suspend and resume support
-7e6e1b57162ed6a2d32d2f0929c27d79482ff706 rtnetlink: advertise allmulti counter
-454e7b138436a31a17753de58f2178c3e955886c vsock/vmci: fix repeated words in comments
-b0b815a356aa4f3352563b3350a7b2354c0f2c5c net: amd: Unified the comparison between pointers and NULL to the same writing
-7c13f4426b0efe44a2af2037e4fc26802469ee21 net: amd: Correct spelling errors
-78923e8ae4279a90138d09743d9710d4b04b19c5 net: amd: Switch and case should be at the same indent
-3b63ef7baa26da9f7421af2689bd849f74cac373 Merge branch 'net-amd-static-checker-warnings'
-7187440dd7c45fd8b6dd4f3ff56b03ca4aa1bbd2 iov_iter: use "maxpages" parameter
-a292c25607ea3f259afb318f03e05b84108348bf mellanox/mlxsw: fix repeated words in comments
-ec3f06b542a960806a81345042e4eee3f8c5dec4 net: fs_enet: Fix wrong check in do_pd_setup
-030eed86cbe10a9e2ce7c3b081d4465d378fda25 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-77cba3879f1bc9259b3683ea5862b5ca5ff98f43 selftests/tc-testings: add selftests for ctinfo action
-4a1db5251cfac32290fa006afb7415222b8ff8f3 selftests/tc-testings: add selftests for gate action
-910d504bc1879f2f89ac54b288924b0af1664287 selftests/tc-testings: add selftests for xt action
-0fc8674663f6327fdeddc40f9f1abe26726341ab selftests/tc-testings: add connmark action deleting test case
-af649e7a6a53fe5f2e21d930d1d1cc3b19310f11 selftests/tc-testings: add ife action deleting test case
-043b16435f3d9b32e26df528c0528052b053869e selftests/tc-testings: add nat action deleting test case
-a32a4fa447f58edda2ee2eb1be9ce1260cfd6a40 selftests/tc-testings: add sample action deleting test case
-eed791d3ca9514656421d8b657031d80433eeda4 selftests/tc-testings: add tunnel_key action deleting test case
-862deb68c1bc19783ab7a98ba17a441aa76eba52 Merge branch 'net-tc-testing-new-tests'
+certificate version 0.1
+pusher B6C41CE35664996C! 1663342721 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1663342721-32c9ddbdf015a3f3c93900410782433afb2c4f05
 
---===============6852072604373438511==--
+e14f59f7a5db652ddbf729f60d592baa9f50cd7c d8d415a7fe722cad8c433c2c88e1063c4e491b05 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYySYgQAKCRC2xBzjVmSZ
+bJ+RAQCx/cTLmJB3Cuvk9mIb4xwNF1xmaxbGFsVBA5CnUowlaQEA/PmaCltlDvGU
+DPQ1kjmig1ZK+4FdZOEzodUcCsk/BgQ=
+=HptQ
+-----END PGP SIGNATURE-----
+
+--===============8443659914199221675==--
