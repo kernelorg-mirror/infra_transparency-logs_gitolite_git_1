@@ -1,54 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7956286723626250428=="
+Content-Type: multipart/mixed; boundary="===============2319095991287636787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 16 Sep 2022 22:19:35 -0000
-Message-Id: <166336677567.9579.5404271332242421774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
+Date: Fri, 16 Sep 2022 22:51:37 -0000
+Message-Id: <166336869741.32411.3251356563950019802@gitolite.kernel.org>
 
---===============7956286723626250428==
+--===============2319095991287636787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+user: jkirsher
 changes:
-  - ref: refs/heads/for-6.1/slub_validation_locking
-    old: 591570a780fcc504d23111a56de19bf150c798c3
-    new: 1f04b07d976da0666dbc2b170634c5531974dfa1
-    log: |
-         c7323a5ad0786371f61dca49fc26f7ab3a68e0da mm/slub: restrict sysfs validation to debug caches and make it safe
-         41bec7c33f37aaae6e3737615e2dfa17a30ea985 mm/slub: remove slab_lock() usage for debug operations
-         4ef3f5a32051def596b2d445462a1dccda7af600 mm/slub: convert object_map_lock to non-raw spinlock
-         5875e59828a026e47f37c5e343f4fe8e0ba023b9 mm/slub: simplify __cmpxchg_double_slab() and slab_[un]lock()
-         1f04b07d976da0666dbc2b170634c5531974dfa1 slub: Make PREEMPT_RT support less convoluted
-         
+  - ref: refs/heads/master
+    old: 0727a9a5fbc1151fcaebfa9772e9f68f5e38ba9e
+    new: 96628951869c0dedf0377adca01c8675172d8639
+    log: revlist-0727a9a5fbc1-96628951869c.txt
 
---===============7956286723626250428==
+--===============2319095991287636787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0727a9a5fbc1-96628951869c.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1663366774 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1663366773-23b1ae5860dd5dde62196859ef9356ada1bd07ee
+23c619190318376769ad7b61504c2ea0703fb783 ice: Don't double unplug aux on peer initiated reset
+a509702cac95a8b450228a037c8542f57e538e5b ice: Fix crash by keep old cfg when update TCs more than queues
+f66b98c868f2c1ffcb1139ea19d6f20983f1f9dc iavf: Fix change VF's mac address
+809f23c0423a43266e47a7dc67e95b5cb4d1cbfc iavf: Fix cached head and tail value for iavf_get_tx_pending
+94160108a70c8af17fa1484a37e05181c0e094af net/ieee802154: fix uninit value bug in dgram_sendmsg
+9124dbcc2dd6c51e81f97f63f7807118c4eb140a net: marvell: prestera: add support for for Aldrin2
+21be1ad637493f960ea754399d86f65f7e260250 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+1d9a143ee3408349700f44a9197b7ae0e4faae5d net: bonding: Share lacpdu_mcast_addr definition
+86247aba599e5b07d7e828e6edaaebb0ef2b1158 net: bonding: Unsync device addresses on ndo_stop
+bd60234222b2fd5573526da7bcd422801f271f5f net: team: Unsync device addresses on ndo_stop
+bbb774d921e273ca262944c94011bc2cc888ebeb net: Add tests for bonding and team address list management
+34d2d3367de3b815cc7cd5670e18c557f95cfe1e Merge branch 'net-unsync-addresses-from-ports'
+96628951869c0dedf0377adca01c8675172d8639 tcp: Use WARN_ON_ONCE() in tcp_read_skb()
 
-591570a780fcc504d23111a56de19bf150c798c3 1f04b07d976da0666dbc2b170634c5531974dfa1 refs/heads/for-6.1/slub_validation_locking
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMk9nYACgkQ4CHKc/GJ
-qRBS2ggAsbnwqnQMYBtnYEAFW+RyHRFtGKInfbC3EVd2Hy6JT/8tO4nWODnxOYJM
-PT5vpq7pxZ5+paD1FtSdaZYNB5XyXrnOn5lJLUaeqdywYsY5o0BlzcfFCvTQ7zio
-/4DYV/8jfFpl77vtExvB8MudX3EksVxaqs+12kN26oCJ7GLyeP1Cs3jb/33RY2Ex
-PjVJHBtaMfD/ehspFvQ61HFb2MeXjE6UOqigVBkRT3k847Dc84auRgdBlffXj2I/
-ABdmjLwGpwfsd+COStf9BxfZrYr6Z53SdEv9fLzSTho0xZDbR3hNnE3KZQO2AL+t
-JvqjjZAmC8IvQNNbVUtpRDSLOFA/uQ==
-=ou84
------END PGP SIGNATURE-----
-
---===============7956286723626250428==--
+--===============2319095991287636787==--
