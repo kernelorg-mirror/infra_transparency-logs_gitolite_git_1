@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 16 Sep 2022 08:20:51 -0000
-Message-Id: <166331645157.15993.940536749292413507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 16 Sep 2022 08:24:05 -0000
+Message-Id: <166331664594.17200.15980149381472193788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/pci/dwc
-    old: d114ef32ad4cb7d29e3b11ec8323940e62996bb8
-    new: 81f66385ea1eb9cdd22ade4b39e27828046d57dc
+  - ref: refs/heads/master
+    old: 8a26a9dee5e3679637edc6f8caf4beb5f3100dde
+    new: da970726ea872269dc311b6dd87af8cf457b8fe9
     log: |
-         81f66385ea1eb9cdd22ade4b39e27828046d57dc PCI: imx6: Add i.MX8MP PCIe support
+         da970726ea872269dc311b6dd87af8cf457b8fe9 net: fec: add pm runtime force suspend and resume support
          
