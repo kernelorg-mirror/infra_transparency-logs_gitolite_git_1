@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 17 Sep 2022 00:27:34 -0000
-Message-Id: <166337445489.2686.14160600797788641399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sat, 17 Sep 2022 04:24:08 -0000
+Message-Id: <166338864827.3112.4152925542001664150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/for-next
-    old: dc567045f1590f6460d3e9a6ea6ad5e600b58b84
-    new: 571f9738bfb3d4b42253c1d0ad26da9fede85f36
+  - ref: refs/heads/imx/dt
+    old: 6769089ecb5073b0896addffe72c89a4d80258c9
+    new: b7fd68ac27200b917ce4494c591858194e584634
     log: |
-         571f9738bfb3d4b42253c1d0ad26da9fede85f36 bpf/btf: Use btf_type_str() whenever possible
+         2069c5265bb369c155b92c4ddf50ae7cc7e592c3 ARM: dts: imx6qdl-gw52xx: add CAN regulator
+         ad928a743db8ccfae0939e2483cf65addca4a593 ARM: dts: imx6qdl-gw53xx: add CAN regulator
+         b7fd68ac27200b917ce4494c591858194e584634 ARM: dts: imx6qdl-gw54xx: add CAN regulator
          
