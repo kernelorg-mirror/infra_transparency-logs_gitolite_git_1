@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4881621370144539074=="
+Content-Type: multipart/mixed; boundary="===============3802151437388711870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sat, 17 Sep 2022 08:36:21 -0000
-Message-Id: <166340378192.17462.13781901395984816692@gitolite.kernel.org>
+Date: Sat, 17 Sep 2022 08:37:15 -0000
+Message-Id: <166340383569.17934.16422812985175231801@gitolite.kernel.org>
 
---===============4881621370144539074==
+--===============3802151437388711870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: b5eb468b478e67509df84d3e65de57b9d1cf9934
-    new: d4e87e4e8486ce255e46e4b866e84416cc0d2a89
-    log: revlist-b5eb468b478e-d4e87e4e8486.txt
+  - ref: refs/heads/for-next
+    old: ad01297fc3cac7adc675d6f8aa928aa635eda74b
+    new: 26f60c42dc9d5e1cb01fc25497a243055ddeb2be
+    log: revlist-ad01297fc3ca-26f60c42dc9d.txt
 
---===============4881621370144539074==
+--===============3802151437388711870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5eb468b478e-d4e87e4e8486.txt
+Content-Disposition: attachment; filename=revlist-ad01297fc3ca-26f60c42dc9d.txt
 
 402de4bfb3d0c4819aad7bd487b3bc9319148eeb dt-bindings: clk: imx8mm: don't use multiple blank lines
 3627a8139da7584f4227d475963de558a842a31f dt-bindings: arm: fsl: imx6ul-kontron: Update bindings
@@ -41,6 +41,14 @@ b08047d63ca0da493f6d83a3d6af99e2223aea1c dt-bindings: arm: fsl: Add MSC SM2S-IMX
 6128972adba6c61e98fa17c7335a4188b46ef19e dt-bindings: arm: Add i.MX8M Mini Gateworks GW7904 board
 c09cc6e528c30aee0637d68249b23e74299b9b55 dt-bindings: firmware: add missing resource IDs for imx8dxl
 64e61a940d96184d294f431848a28765f44525fa dt-bindings: arm: imx: update fsl.yaml for imx8dxl
+c553ca9245f4ee7db54dc48c5892be787f8458a4 soc: imx: add icc paths for i.MX8MP media blk ctrl
+50299fa1f8a05fa8b545e3d64e183b525737fabb soc: imx: add icc paths for i.MX8MP hsio/hdmi blk ctrl
+77b0ddb42add47748c661f714e6f4b116a6e8759 soc: imx: add i.MX8MP HDMI blk ctrl HDCP/HRV_MWR
+a1a5f15f7f6cb5c291f072af843305638c935be6 soc: imx: imx8m-blk-ctrl: add i.MX8MP VPU blk ctrl
+5506018d3dec41e6678efb92b836586e9ee1d628 soc: imx: imx8mp-blk-ctrl: handle PCIe PHY resets
+df5a69653586da355b9a88e7851752dc62daa5fd soc: imx: imx8m-blk-ctrl: Use genpd_xlate_onecell
+0a0f7cc25d4a525a71260cbd453a848c5c8e61c3 soc: imx: add i.MX93 SRC power domain driver
+e9aa77d413c903ba4cf7da3fe0b419cae5b97a81 soc: imx: add i.MX93 media blk ctrl driver
 3175c70686c4162a5e087eba16595bae8c19b04d arm64: dts: imx8mp: add interconnects for media blk ctrl
 31da63e1326c40cd141791ac069381998ae3e92d arm64: dts: imx8mp: add interconnect for hsio blk ctrl
 683d7ffb7daaab1d48344cc17bdea17007dddd8c arm64: dts: imx8ulp: Add the fec support
@@ -131,5 +139,8 @@ f8179c89d7b1b3acb92460594b9adf1fbdf5a424 arm64: dts: ls1046a: use a pseudo-bus t
 0f62994a559acdae1ac420b62329cd6517b4ef72 arm64: dts: ls1046a: add gpios based i2c recovery information
 63c396414bfcbbe396cda023894c463ec0953570 arm64: dts: ls1046a-qds: add mmio based mdio-mux nodes for FPGA
 d4e87e4e8486ce255e46e4b866e84416cc0d2a89 arm64: dts: ls1046a-qds: Modify the qspi flash frequency
+246560d3fddba6c84673d3032f74c039a18cf528 Merge branch 'imx/drivers' into for-next
+3376b81f20a04eb4065ad5f4a642be5db65952d1 Merge branch 'imx/dt' into for-next
+26f60c42dc9d5e1cb01fc25497a243055ddeb2be Merge branch 'imx/dt64' into for-next
 
---===============4881621370144539074==--
+--===============3802151437388711870==--
