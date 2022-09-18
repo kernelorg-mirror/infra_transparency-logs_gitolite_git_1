@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ofono/phonesim
-Date: Sun, 18 Sep 2022 08:52:46 -0000
-Message-Id: <166349116661.3884.7812600675044807@gitolite.kernel.org>
+Date: Sun, 18 Sep 2022 08:57:45 -0000
+Message-Id: <166349146502.8474.1381971658817070531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/network/ofono/phonesim
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 027dafb7b6c1373aa47afd381739210b9fa521ef
-    new: a370329a70a7aec2288ee370278c248f123952bf
+    old: a370329a70a7aec2288ee370278c248f123952bf
+    new: 47f682bce664ac71775972c4afafdd37b71446a8
     log: |
-         6c9b05f3b496e54a4cf54aede35b7b72bcd55e35 build: Silence the mkdir command prints
-         a370329a70a7aec2288ee370278c248f123952bf build: Update to support Autoconf >= 2.69
+         47f682bce664ac71775972c4afafdd37b71446a8 TODO: Remove owner from CSSU/CSSI support task
          
