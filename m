@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ofono/phonesim
-Date: Sun, 18 Sep 2022 10:15:23 -0000
-Message-Id: <166349612355.11319.17535057966343472290@gitolite.kernel.org>
+Date: Sun, 18 Sep 2022 10:17:14 -0000
+Message-Id: <166349623466.12039.11336515360505542067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/ofono/phonesim
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 4a73475b3ee47b14d8b5c9bbf82ad9ef1126d3ec
-    new: be9176b5c32cbab92bcdc8dc7478a2a993b7404f
+    old: be9176b5c32cbab92bcdc8dc7478a2a993b7404f
+    new: a55ada223b31ce9a69d0d225ec2aa0b8f311e401
     log: |
-         be9176b5c32cbab92bcdc8dc7478a2a993b7404f build: Remove empty NEWS file
+         a55ada223b31ce9a69d0d225ec2aa0b8f311e401 Release 2.0
          
