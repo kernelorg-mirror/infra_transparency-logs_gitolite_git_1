@@ -1,22 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Sun, 18 Sep 2022 07:31:39 -0000
-Message-Id: <166348629989.13975.5580829395988009564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 18 Sep 2022 08:45:14 -0000
+Message-Id: <166349071416.32025.13384874970061980942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
   - ref: refs/heads/for-next
-    old: 42c3ba86581896be8dd7fb88ed075b600fd57fa1
-    new: 3e4519b7afc2f9d99f9303468ee0b23f88399c8d
+    old: 128245e6c81cbb3a7ee8ad44fdaed2042cdca9f6
+    new: ecd61e0144d086acb4ad1ef50b22995f7fbea34b
     log: |
-         b338bde5a3a9c4ccf6c83e0a20c8de3ad281ef02 memblock tests: add simulation of physical memory with multiple NUMA nodes
-         50c80241f15890a64b9302187faaeb7cfe78b4b8 memblock tests: add top-down NUMA tests for memblock_alloc_try_nid*
-         4b41046e7c6bd999c1519a8bf2771573bcecf52b memblock tests: add bottom-up NUMA tests for memblock_alloc_try_nid*
-         3e4519b7afc2f9d99f9303468ee0b23f88399c8d memblock tests: add generic NUMA tests for memblock_alloc_try_nid*
+         bc35a430dfde16462feb4428bc9b42c0647b5b84 clk: rockchip: Add dt-binding header for RV1126
+         0424d967812d3449a85e1d10e7d2d7049efa000e Merge branch 'v6.1-shared/clkids' into v6.1-clock/next
+         a1f65e64c6a3aa920b059aba5c97598cc0d17978 dt-bindings: clock: rockchip: Document RV1126 CRU
+         7f2f620daa88e72b04efd2f3da84abea0b5ca1c7 clk: rockchip: Add clock controller support for RV1126 SoC
+         ecd61e0144d086acb4ad1ef50b22995f7fbea34b Merge branch 'v6.1-clock/next' into for-next
          
+  - ref: refs/heads/v6.1-clock/next
+    old: 30d8b7d43c840f5907c0e688d41093f176ba8ac1
+    new: 7f2f620daa88e72b04efd2f3da84abea0b5ca1c7
+    log: |
+         bc35a430dfde16462feb4428bc9b42c0647b5b84 clk: rockchip: Add dt-binding header for RV1126
+         0424d967812d3449a85e1d10e7d2d7049efa000e Merge branch 'v6.1-shared/clkids' into v6.1-clock/next
+         a1f65e64c6a3aa920b059aba5c97598cc0d17978 dt-bindings: clock: rockchip: Document RV1126 CRU
+         7f2f620daa88e72b04efd2f3da84abea0b5ca1c7 clk: rockchip: Add clock controller support for RV1126 SoC
+         
+  - ref: refs/heads/v6.1-shared/clkids
+    old: 0000000000000000000000000000000000000000
+    new: bc35a430dfde16462feb4428bc9b42c0647b5b84
