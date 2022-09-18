@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 18 Sep 2022 17:56:32 -0000
-Message-Id: <166352379280.10048.2946209802831448366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sun, 18 Sep 2022 18:43:58 -0000
+Message-Id: <166352663876.9045.3453783607681534287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/tags/parisc-for-6.0-3
-    old: 0000000000000000000000000000000000000000
-    new: d497eedfdb66bd7aaaf770558df610d5a4b0d467
+  - ref: refs/heads/edac-misc
+    old: d42d6f5a5fcd734669e75867c632e724f1dc3552
+    new: d5e4eeea0c20b7467458cf3f3d887f59075db93e
+    log: |
+         d5e4eeea0c20b7467458cf3f3d887f59075db93e EDAC/ppc_4xx: Reorder symbols to get rid of a few forward declarations
+         
