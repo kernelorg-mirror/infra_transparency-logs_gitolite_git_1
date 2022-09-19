@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8420194352232596185=="
+Content-Type: multipart/mixed; boundary="===============6646916052755985651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 19 Sep 2022 15:57:34 -0000
-Message-Id: <166360305403.17099.16415114312876450943@gitolite.kernel.org>
+Date: Mon, 19 Sep 2022 15:57:41 -0000
+Message-Id: <166360306142.17233.15185875436187779132@gitolite.kernel.org>
 
---===============8420194352232596185==
+--===============6646916052755985651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 862deb68c1bc19783ab7a98ba17a441aa76eba52
-    new: 44a8535fb87c5503ce01121278ac3058eef701ec
-    log: revlist-862deb68c1bc-44a8535fb87c.txt
+  - ref: refs/heads/dev-queue
+    old: f2c3814b68e77a717cd7f3440dfec609bf5651ae
+    new: 6b7ad318434b83fcbe4a7a945142546621e7f778
+    log: revlist-f2c3814b68e7-6b7ad318434b.txt
 
---===============8420194352232596185==
+--===============6646916052755985651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-862deb68c1bc-44a8535fb87c.txt
+Content-Disposition: attachment; filename=revlist-f2c3814b68e7-6b7ad318434b.txt
 
 766108d91246530d31b42765046f7ec2d1e42581 can: rx-offload: can_rx_offload_init_queue(): fix typo
 d945346db1ef41e91ae4b9239cf37e2210368dd1 can: flexcan: fix typo: FLEXCAN_QUIRK_SUPPPORT_* -> FLEXCAN_QUIRK_SUPPORT_*
@@ -59,5 +59,34 @@ a8025e7946a2b18c4ac17b36fde528d2f6262bdd octeontx2-af: return correct ptp timest
 2ef4e45d99b19fb16834616f47d21a9b76b0e5f4 octeontx2-af: Add PTP PPS Errata workaround on CN10K silicon
 85a5f9638313a1df7e84e9ea66ecd216133215c2 octeontx2-af: Initialize PTP_SEC_ROLLOVER register properly
 44a8535fb87c5503ce01121278ac3058eef701ec Merge branch 'octeontx2-cn10k-ptp'
+994157519314fb51f63b611194329ea1d561c059 e1000e: Separate MTP board type from ADP
+fbc2bcc14bde35c76af943b4fdb634f6111d6cff ice: Add low latency Tx timestamp read
+2c3740ef15e38153f0c5734cc4a4067070faf26d ice: config netdev tc before setting queues number
+6c21ed5c9ae0f40bf2048178255e69b511fb420b ice: Don't double unplug aux on peer initiated reset
+f124045b23bec0559d8c2f6bc6eb9d5879789239 ice: Fix crash by keep old cfg when update TCs more than queues
+9bb85d4161eb2b459630cea2a56e7f74aff47beb ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+bcb0a76b19b948d9f6d2c4fb2b11ef7e67c543ee ice: Handle LLDP MIB Pending change
+a176b36624584a4d4a8639bce381f9b75e255a14 i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+8af6a8e99b4f0cc68702ae9d3151ef159d109ed8 iavf: Fix change VF's mac address
+8af211248d4507b70e498f8da3f6fb4cb73903f7 iavf: Fix cached head and tail value for iavf_get_tx_pending
+9ccf6e0bd9cca91df35ebb9ba197be9209cd029c ice: xsk: change batched Tx descriptor cleaning
+ffdf6be7cd8761b1b41a0e79380fee7a5a75c957 ice: xsk: drop power of 2 ring size restriction for AF_XDP
+6982c139961608a304246fc792f41d5592a2190f ice: Fix interface being down after reset with link-down-on-close flag on
+58c6d49245893e104d0f11a08bdf45b702386a30 i40e: Fix ethtool rx-flow-hash setting for X722
+3a65a4882f2d1146098679e99046342c4f421d05 ice: Merge pin initialization of E810 and E810T adapters
+bfab39fd3d9e189e1a8b25f289cf897f2028396b ice: Support 5 layer topology
+d3355f99ac6be029a6d217bf315ad390ebdf5d53 ice: Adjust the VSI/Aggregator layers
+41852ace7d448f3566b83f3ee3d077d62c96828b ice: Enable switching default tx scheduler topology
+ebe8a40171d759a3281c3577adfd5ee4e56933bc ice: Add txbalancing devlink param
+1058b8a07dde5b3b15d101757d7e513dfd130fa4 ice: Document txbalancing parameter
+be5af6e323eb0769380ec08027d88225afce4c47 i40e: Add appropriate error message logged for incorrect duplex setting
+6b7afcbb94b12e204028b0b0d296d589e5e89cc6 iavf: Fix vf set max mtu size with port vlan and jumbo frames
+bb1538985aafd508a2f6870a30cc1d0dc43cd5d7 i40e: Fix vf set max mtu size
+447f070dba01b34200de8adc55100253868275d5 i40e: Fix not setting xps_cpus after reset
+2f07aa60911f6c0c428244873c1f021dab4936d0 iavf: Fix bad page state
+9cadc121cf3e9b9b457a154751fb427b156671c3 ice: support features on new E810T variants
+77987020346b7a8a8fa54968415efa30115e8c13 ice: Add GPIO pin support for E823 products
+2b32cebcd5bd2cf6b19ce3ed5e5e9d680e99d68b ice: fix rmmod crash when ts2phc is running
+6b7ad318434b83fcbe4a7a945142546621e7f778 ice: Add support for VLAN priority filters in switchdev
 
---===============8420194352232596185==--
+--===============6646916052755985651==--
