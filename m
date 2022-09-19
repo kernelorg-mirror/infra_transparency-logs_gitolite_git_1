@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 19 Sep 2022 16:49:27 -0000
-Message-Id: <166360616759.22150.4675555867595758852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 19 Sep 2022 16:49:44 -0000
+Message-Id: <166360618422.22358.13083925488742659600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 663ec13e89b400ce9069400303b75feed8b9ab80
-    new: e2a8fb944a7e9b99af9b7320b72f6a5d85c703b1
+    old: 7f9c088f08cb75c5c6b39b8e41525fc563134443
+    new: 2632186d3de796a47b2dc00ac9dc9bbe6e70796b
     log: |
-         a8c31d3507fbf4e5e6d4a47225294a4d2f09d0b2 regulator: of: Fix kernel-doc
-         7ec12d153998616d9f9fd0e603d56b5e122fc768 regulator: of: Fix kernel-doc
-         e2a8fb944a7e9b99af9b7320b72f6a5d85c703b1 Merge remote-tracking branch 'regulator/for-6.1' into regulator-next
+         f4ca8c88c2c7ea3ea17c6fdfcc1af4b007403833 spi: omap2-mcspi: Switch to use dev_err_probe() helper
+         b85ad8a54e0a446b3daa7f526e4996ddb6d4373f spi: spi-loopback-test: Add test to trigger DMA/PIO mixing
+         2632186d3de796a47b2dc00ac9dc9bbe6e70796b Merge remote-tracking branch 'spi/for-6.1' into spi-next
          
