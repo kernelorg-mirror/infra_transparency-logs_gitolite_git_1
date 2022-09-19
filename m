@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 19 Sep 2022 12:23:43 -0000
-Message-Id: <166359022341.25897.13513153644906822506@gitolite.kernel.org>
+Date: Mon, 19 Sep 2022 12:24:19 -0000
+Message-Id: <166359025932.26190.1662075741685238420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: b8e29ae91578da46c63ae0224bef16a9fe5739cd
+  - ref: refs/heads/for-next
+    old: 5f5ef75d1c4bf8177719529f0aaad59f9fd847de
     new: d786bf6e527265f21002fed1ca34353b330a6253
     log: |
          48f513e2b9304affc43dcdf95a150ad02d70f9fd kbuild: use obj-y instead extra-y for objects placed at the head
