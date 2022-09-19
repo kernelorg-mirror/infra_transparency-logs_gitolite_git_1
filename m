@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 19 Sep 2022 21:38:20 -0000
-Message-Id: <166362350085.1457.10499344135109485266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 19 Sep 2022 21:38:43 -0000
+Message-Id: <166362352342.1672.11680892394247859718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: af1bfbb470c04a4d09ed999ac4975642b61ccd36
-    new: f6ac0886f08e6b8e030816acf2029ca1ef41c7ac
+  - ref: refs/heads/rproc-next
+    old: 729c16326b7f3f4e83e4195f620a6ca0b7dfa25a
+    new: 7d7f8fe4e399519cc9ac68a475fec6d3a996341b
     log: |
-         de0a366833cd056aa29a5f089000deff867f690c shared/bap: Remove include to io.h
-         68adb4d1b7f24cb4ee3a68c896efe55530da7932 shared/tester: Remove include to io.h
-         b7023510c929eeca6f03da5194fd625fdc371f7a a2dp: Fix not detecting transport connection collision
-         f6ac0886f08e6b8e030816acf2029ca1ef41c7ac shared/gatt-client: Make use of gatt_db_attribute_get_ccc
+         698ae3d76bcbc622d2882f03477ad1dd8179739f drivers/remoteproc: Fix repeated words in comments
+         fa25b944174a6a25a14a2bb1c52cf74d5ad95140 remoteproc/keystone: Switch to using gpiod API
+         7d7f8fe4e399519cc9ac68a475fec6d3a996341b remoteproc: Harden rproc_handle_vdev() against integer overflow
          
