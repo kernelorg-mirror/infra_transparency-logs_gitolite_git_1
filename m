@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 19 Sep 2022 07:26:14 -0000
-Message-Id: <166357237484.30129.16080252539031723912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 19 Sep 2022 08:23:56 -0000
+Message-Id: <166357583680.3218.6071520978538245835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/renesas-devel-2022-09-19-v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: fb1a808461f10e1e8c497a0f79e5684ceb2bc7f3
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/heads/for-linus
+    old: 5f80d6bd2b01de4cafac3302f58456bf860322fc
+    new: 496322302bf1e58dc2ff134173527493105f51ab
+    log: |
+         496322302bf1e58dc2ff134173527493105f51ab ALSA: hda/realtek: Add a quirk for HP OMEN 16 (8902) mute LED
+         
+  - ref: refs/heads/master
+    old: 81e003b644a48e9634042542afbcbe4a9c128ac3
+    new: 742d61c772c1c905dfdb699a60fd43c666455a84
+    log: |
+         496322302bf1e58dc2ff134173527493105f51ab ALSA: hda/realtek: Add a quirk for HP OMEN 16 (8902) mute LED
+         742d61c772c1c905dfdb699a60fd43c666455a84 Merge branch 'for-linus'
+         
