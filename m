@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 19 Sep 2022 10:03:12 -0000
-Message-Id: <166358179200.23583.16708799526522092005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Mon, 19 Sep 2022 10:07:22 -0000
+Message-Id: <166358204236.26671.8077711726155375732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/next
-    old: b04b3315021a524d5eecdb6de0d24cf7371d4abf
-    new: bb0cca240a16dd9721c6ee1d55865465a3fb7211
+  - ref: refs/heads/clk/imx
+    old: 9dfb5937c56b955232b1f8db55c382b76712ba14
+    new: 67e16ac1fec475e64dcb8238f471c6fd154ef806
     log: |
-         34fbdee086cfcc20fe889d2b83afddfbe2ac3096 KVM: arm64: Preserve PSTATE.SS for the guest while single-step is enabled
-         370531d1e95be57c62fdf065fb04fd8db7ade8f9 KVM: arm64: Clear PSTATE.SS when the Software Step state was Active-pending
-         ff00e737090e0f015059e59829aaa58565b16321 KVM: arm64: selftests: Refactor debug-exceptions to make it amenable to new test cases
-         b18e4d4aebdddd05810ceb2f73d7f72afcd11b41 KVM: arm64: selftests: Add a test case for KVM_GUESTDBG_SINGLESTEP
-         bb0cca240a16dd9721c6ee1d55865465a3fb7211 Merge branch kvm-arm64/single-step-async-exception into kvmarm-master/next
+         59dc69d7c373e2e2c2c2d9ffe5edecfa6bb683d7 dt-bindings: clock: imx8mm: don't use multiple blank lines
+         90e58072b9d89f85283e05131d650d196b3ecfef dt-bindings: clock: imx93-clock: add more MU/SAI clocks
+         4a3de5aa7743d1def6fba783c072e41df6b851c5 clk: imx: clk-composite-93: check slice busy
+         2b66f02e2de174c2a9bdf60160a1d9963dc7ca2c clk: imx: clk-composite-93: check white_list
+         0836c8604a0bfaed2396d7e2aecb4146f8c07cca clk: imx: add i.MX93 clk gate
+         d91012fa0058a7bb189c9f20f497ef825f348197 clk: imx93: switch to use new clk gate API
+         92d1496fe8644f6612b7adff7581a31002dc8dd0 clk: imx93: add MU1/2 clock
+         67e16ac1fec475e64dcb8238f471c6fd154ef806 clk: imx93: add SAI IPG clk
          
