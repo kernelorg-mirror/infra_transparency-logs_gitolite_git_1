@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0225573917249033488=="
+Content-Type: multipart/mixed; boundary="===============3795190685778233487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 19 Sep 2022 13:01:47 -0000
-Message-Id: <166359250719.23003.11447770842368856882@gitolite.kernel.org>
+Date: Mon, 19 Sep 2022 13:03:01 -0000
+Message-Id: <166359258158.23493.7955751495019517247@gitolite.kernel.org>
 
---===============0225573917249033488==
+--===============3795190685778233487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
-    new: 521a547ced6477c54b4b0cc206000406c221b4d6
-    log: revlist-80e78fcce86d-521a547ced64.txt
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/heads/for-next
+    old: 395289f8a04892dc7fbee0db60880feadb6b66e5
+    new: 7e15c91efad6d8aaa9ab5f1733b06fec4ec7685e
+    log: revlist-395289f8a048-7e15c91efad6.txt
 
---===============0225573917249033488==
+--===============3795190685778233487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80e78fcce86d-521a547ced64.txt
+Content-Disposition: attachment; filename=revlist-395289f8a048-7e15c91efad6.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -133,5 +130,47 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
+1b40d51b773d2a72816f964bc47643c900b3ca23 NFSD: move from strlcpy with unused retval to strscpy
+6680257bbcdded19fcce30f90a87bd075a0ebe3e lockd: move from strlcpy with unused retval to strscpy
+eea7e1c8a86c4538d3d2b7c6eac24218bfd2a98a NFSD: fix use-after-free on source server when doing inter-server copy
+c385a5d2a12e7978fa5ac2c7de6db7850f015f48 NFSD enforce filehandle check for source file in COPY
+13c896c8cc2d568552760b4a3b8382e83bad5c48 NFSD: remove redundant variable status
+fa35ab9a215fcd42044a315ff74476f16328a16f nfsd: Fix a memory leak in an error handling path
+48bbbdd876100fbf68ee1e2d81d593b88501e9e4 nfsd: Avoid some useless tests
+513cd3105f0f87ea46ad8e62e4191e7f24092b39 nfsd: Propagate some error code returned by memdup_user()
+f029de8d67b5370dba8be9f7066aeadaf60325c4 NFSD: Increase NFSD_MAX_OPS_PER_COMPOUND
+808f33c1f38d7c333678d6a03ae6f5df72621ad4 SUNRPC: Fix svcxdr_init_decode's end-of-buffer calculation
+51aa0eb7c63f3a2056e5947374218608a4dc780c SUNRPC: Fix svcxdr_init_encode's buflen calculation
+618ffd6282ba59dc22ec355700f5976570a1c28a NFSD: Protect against send buffer overflow in NFSv2 READDIR
+d97319efb06795166bc2a9c99b2f777c47a5aff2 NFSD: Protect against send buffer overflow in NFSv3 READDIR
+3058d541a95dfc1d7bbda0ef71bac4bb8666db30 NFSD: Protect against send buffer overflow in NFSv2 READ
+5fba99d5189900933a6d6a8bb16fbe2d95b2d1c0 NFSD: Protect against send buffer overflow in NFSv3 READ
+5af7b471f6bf159e53696dc64df597b74c470829 NFSD: drop fname and flen args from nfsd_create_locked()
+9d53f8311ca127eba280bd85ac2b46e5a8801102 NFSD: Fix handling of oversized NFSv4 COMPOUND requests
+051c67738bc613e417a3b9309073773384ec332b nfsd: clean up mounted_on_fileid handling
+2ca41bdf095813765dde333858f38b6ac2c7cf70 nfsd: remove nfsd4_prepare_cb_recall() declaration
+935f36298728685f16c1d99cda49c6e60f6b157f NFSD: Replace dprintk() call site in fh_verify()
+4e803f2d8e3d682df797e7233129a5e5d90c4ada NFSD: Trace NFSv4 COMPOUND tags
+f258f46a9eebfd59f5c1a138b5b5b9c3799c1963 NFSD: Add tracepoints to report NFSv4 callback completions
+8fd22cdccb7243dc60c35de6183ce2f025676004 NFSD: Add a mechanism to wait for a DELEGRETURN
+8174d3913ed93298124cb774eaf491c815ec1044 NFSD: Refactor nfsd_setattr()
+6b016c3fe0464e5a300f251364cf9ac0f1496542 NFSD: Make nfsd4_setattr() wait before returning NFS4ERR_DELAY
+f0a333b65ddc556f6571060768cbc2cdfec4828b NFSD: Make nfsd4_rename() wait before returning NFS4ERR_DELAY
+dddaea45d4b4503792017cdc14977830911c7b71 NFSD: Make nfsd4_remove() wait before returning NFS4ERR_DELAY
+696c4a3cc0d028bb8f10e9e328bb7e211e45c80f NFSD: Return nfserr_serverfault if splice_ok but buf->pages have data
+fed03680f49e2ec05381866fdd200e4f15cd1da2 NFSD: keep track of the number of courtesy clients in the system
+3a3c3a2ddb8654c7bd91bfc1afb4f322928fb74a NFSD: add shrinker to reap courtesy clients on low memory condition
+ec1d3d79ade1ec27f903a0e22fc02dec44225a2a SUNRPC: Optimize svc_process()
+1c6f9ad4bd8e27dbe609f811681acf9a7b672dcc SUNRPC: Parametrize how much of argsize should be zeroed
+500b73f5bfe8577a7762f87a2d669b732e03933b NFSD: Reduce amount of struct nfsd4_compoundargs that needs clearing
+ac27632d0dc09db0494a7f4b999d44a7c67df44b SUNRPC: Clarify comment that documents svc_max_payload()
+0976b3a28d9dbe39db953149a695f1814a30ee55 NFSD: Refactor common code out of dirlist helpers
+e94f7ee5a9528f670531563459b70cc167c5763f NFSD: Use xdr_inline_decode() to decode NFSv3 symlinks
+9cb795317f0d32bbdf8e5e88c5c74ab3fe251b76 NFSD: Clean up WRITE arg decoders
+3beb57dec6592dc93e01702d3fb7ce422e14ebbb SUNRPC: Fix typo in xdr_buf_subsegment's kdoc comment
+094cb4dc04afa066f4fd133a05d0ae41d61042d8 NFSD: Clean up nfs4svc_encode_compoundres()
+3d4c49665b974282a9547d5738960d40fa27efe8 NFSD: Remove "inline" directives on op_rsize_bop helpers
+6fa60e23d9b8a6121ca0f9d04581786eebf6ae74 NFSD: Remove unused nfsd4_compoundargs::cachetype field
+7e15c91efad6d8aaa9ab5f1733b06fec4ec7685e NFSD: Pack struct nfsd4_compoundres
 
---===============0225573917249033488==--
+--===============3795190685778233487==--
