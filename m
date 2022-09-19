@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Mon, 19 Sep 2022 15:46:39 -0000
-Message-Id: <166360239904.8844.6439009489679954450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Mon, 19 Sep 2022 15:54:54 -0000
+Message-Id: <166360289474.13441.9240014544916341647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/fixes
-    old: 1745fd5aea43f53bf3592cd6ec764a730a915267
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: 90ad841a457111cc2463ebeb1416e306cb3ddcc9
-    new: 1745fd5aea43f53bf3592cd6ec764a730a915267
+  - ref: refs/heads/for-next
+    old: 0978c7c41fe2a3735f8776dc27cf1641bd916773
+    new: 12da11cb9e5359929b534107624f19c8ebb3e2f0
     log: |
-         1745fd5aea43f53bf3592cd6ec764a730a915267 Fix missing va_end macro in test error path.
-         
-  - ref: refs/heads/master
-    old: 90ad841a457111cc2463ebeb1416e306cb3ddcc9
-    new: 1745fd5aea43f53bf3592cd6ec764a730a915267
-    log: |
-         1745fd5aea43f53bf3592cd6ec764a730a915267 Fix missing va_end macro in test error path.
+         12da11cb9e5359929b534107624f19c8ebb3e2f0 xattr: always us is_posix_acl_xattr() helper
          
