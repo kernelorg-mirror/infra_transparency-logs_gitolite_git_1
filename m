@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 19 Sep 2022 17:14:56 -0000
-Message-Id: <166360769648.9332.15075043599782856358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 19 Sep 2022 17:16:06 -0000
+Message-Id: <166360776606.11388.14317882378882310854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/kvmarm-fixes-6.0-2
+  - ref: refs/heads/v2_20220919_pierre_louis_bossart_asoc_sof_intel_override_mclk_id_for_es8336_support
     old: 0000000000000000000000000000000000000000
-    new: e67ec10ce193e41e9430bcc2d9a6cfc54a4f4f7a
+    new: 2d3ba7983fdb70ed1684917c919156048cbf8ed7
