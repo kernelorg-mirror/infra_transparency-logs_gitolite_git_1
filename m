@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5497725410033416189=="
+Content-Type: multipart/mixed; boundary="===============0758381741889980387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 19 Sep 2022 17:43:45 -0000
-Message-Id: <166360942545.30511.7890113395785574355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 19 Sep 2022 17:43:52 -0000
+Message-Id: <166360943225.30615.4403718743293900013@gitolite.kernel.org>
 
---===============5497725410033416189==
+--===============0758381741889980387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
 
---===============5497725410033416189==
+--===============0758381741889980387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -109,4 +109,4 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
 
---===============5497725410033416189==--
+--===============0758381741889980387==--
