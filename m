@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 19 Sep 2022 11:50:40 -0000
-Message-Id: <166358824056.2793.10570882328625843193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 19 Sep 2022 11:51:16 -0000
+Message-Id: <166358827619.3089.9759662432962984830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 2022918c36ff53fd518a6987e9410f0755beb27f
-    new: 664eb07391eb34ea4e88f257560e5ebb82997067
+  - ref: refs/heads/review-hans
+    old: 8902437ce3e748cb4f6f036dcd45d7030fd5badb
+    new: 7f1ea75d499a5e3a6f593da0a87096f584752750
     log: |
-         664eb07391eb34ea4e88f257560e5ebb82997067 habanalabs/gaudi2: Remove unnecessary (void*) conversions
+         4b93c6ea4e56c923e86bddffbc862c1bf3597cea platform/x86: toshiba_acpi: Set correct parent for input device.
+         00b1829294b7c88ecba92c661fbe6fe347b364d2 platform/x86: hp-wmi: Setting thermal profile fails with 0x06
+         7f1ea75d499a5e3a6f593da0a87096f584752750 platform/x86/amd: pmc: Add sysfs files for SMU
          
