@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Mon, 19 Sep 2022 11:31:23 -0000
-Message-Id: <166358708393.22302.5817558160809612416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Mon, 19 Sep 2022 11:41:53 -0000
+Message-Id: <166358771305.28944.15190946490950958853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/rockchip
-    old: 2c19e76047d660795ba1b75bad7ab6997b890ce7
-    new: 4b3c56ae2e0542f73b19598c070871e648867cd7
-    log: |
-         4b3c56ae2e0542f73b19598c070871e648867cd7 hw_random: rockchip: import driver from vendor tree
-         
+  - ref: refs/tags/omap-for-6.1/dt-signed
+    old: 0000000000000000000000000000000000000000
+    new: 3997eaff1e1083bf94fe6e7946e813534d2eee2d
