@@ -1,51 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1925091017800492010=="
+Content-Type: multipart/mixed; boundary="===============4301332755508287282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 19 Sep 2022 12:05:20 -0000
-Message-Id: <166358912097.14217.12728295148203573059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 19 Sep 2022 12:07:41 -0000
+Message-Id: <166358926191.15114.2895675519381148196@gitolite.kernel.org>
 
---===============1925091017800492010==
+--===============4301332755508287282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: 7e1e35f9a120bf983cd16130a0346750e3dd6c7c
-    new: 2922146ae84668322832b3b0d09bf40b1816d6fd
-    log: |
-         ed053258b5021eb33de102e0680b2790f64c9fb1 mm/slab_common: fix possible double free of kmem_cache
-         2922146ae84668322832b3b0d09bf40b1816d6fd Merge branch 'slab/for-6.0/fixes' into slab/for-next
-         
+  - ref: refs/heads/review-hans
+    old: 7f1ea75d499a5e3a6f593da0a87096f584752750
+    new: 096575db0b76defc357ac8db9404d2ddb92792a6
+    log: revlist-7f1ea75d499a-096575db0b76.txt
 
---===============1925091017800492010==
+--===============4301332755508287282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7f1ea75d499a-096575db0b76.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1663589119 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1663589119-d96e5b8fbbb5c2cbeca363cff8480ac3fd89c70d
+09db040339847c39a64bce6c06351c1f4a571cc2 tools/power/x86/intel-speed-select: Fix cpu count for TDP level display
+190ba96541a3f8f5caa3af41df63af756e43424d tools/power/x86/intel-speed-select: Remove dead code
+e278336912423834614191e32e9fbd239e320090 tools/power/x86/intel-speed-select: Remove unused core_mask array
+850337ec7b2c0f510772eeeef9c12c658b3f3603 tools/power/x86/intel-speed-select: Introduce struct isst_id
+32d6ab45511c65e64202bc0b436301fc8ee83ad8 tools/power/x86/intel-speed-select: Add pkg and die in isst_id
+30e0600e2f849434e9a86824e2eced6a6c534723 tools/power/x86/intel-speed-select: Convert more function to use isst_id
+56d6469291f8b1e1ab2f78e401c564163d3ee0f0 tools/power/x86/intel-speed-select: Cleanup get_physical_id usage
+00bb07db5a42c91f4a74e836c6ae70fff20f7f8a tools/power/x86/intel-speed-select: Introduce is_cpu_in_power_domain helper
+e616059ee6830242ffc68adc91a5486ac957dc1b tools/power/x86/intel-speed-select: Do not export get_physical_id
+3ba6a27566a53030b3013f9f841ba5889a344cb8 tools/power/x86/intel-speed-select: Enforce isst_id value
+a05b925ace3ea977fdadb32c969c22ef51029ee7 tools/power/x86/intel-speed-select: Remove unused struct clos_config fields
+ca56725d78c5241f65cc565e5a865f45d943dc04 tools/power/x86/intel-speed-select: Utilize cpu_map to get physical id
+921604b409cc52d7f5196721ae07b54275e5ebe2 tools/power/x86/intel-speed-select: Optimize CPU initialization
+97ec890d070158f15fe8ef2419a5ff677bdbbc20 tools/power/x86/intel-speed-select: Release v1.13
+096575db0b76defc357ac8db9404d2ddb92792a6 Merge remote-tracking branch 'intel-sst/intel-sst' into review-hans
 
-7e1e35f9a120bf983cd16130a0346750e3dd6c7c 2922146ae84668322832b3b0d09bf40b1816d6fd refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMoWv8ACgkQ4CHKc/GJ
-qRCY7wf+Kn7uqm90Z6QQ7Y+sLpL1ukVRS//+p7b6wDvW2SRhEeAjmA+P5c1F9J0d
-MeMExoK+i+t5SXv3v534lse6mqafiuK412yM+T/L1Zc6iZ6DsQjIqf/37qUNZnKr
-A+tzgOI8s18NurEzaCUT11LhnA0omG2dC426lUyA/KJ40qOy1VjzLzoScry6edvz
-5OjJFzRu6ppOQO7vh9DFF40aGIa+13x8HTg7gDqN5JuLUTWqlvNMribR6bsx518y
-6NZZ6wqLzoQwXgXbEcCdryPYBhgbfdmD31Se2l00cSTvYF6tiE/nH0jD9ui3Cx6d
-hNjaC0tbZNeU3KG1O6M+f2ztbEKcBQ==
-=exvf
------END PGP SIGNATURE-----
-
---===============1925091017800492010==--
+--===============4301332755508287282==--
