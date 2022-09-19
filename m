@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 19 Sep 2022 16:49:44 -0000
-Message-Id: <166360618422.22358.13083925488742659600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 19 Sep 2022 16:50:03 -0000
+Message-Id: <166360620362.23992.3236957253287787958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 7f9c088f08cb75c5c6b39b8e41525fc563134443
-    new: 2632186d3de796a47b2dc00ac9dc9bbe6e70796b
+  - ref: refs/heads/block-6.0
+    old: c4fa368466cc1b60bb92f867741488930ddd6034
+    new: db7ba07108a48c0f95b74fabbfd5d63e924f992d
     log: |
-         f4ca8c88c2c7ea3ea17c6fdfcc1af4b007403833 spi: omap2-mcspi: Switch to use dev_err_probe() helper
-         b85ad8a54e0a446b3daa7f526e4996ddb6d4373f spi: spi-loopback-test: Add test to trigger DMA/PIO mixing
-         2632186d3de796a47b2dc00ac9dc9bbe6e70796b Merge remote-tracking branch 'spi/for-6.1' into spi-next
+         db7ba07108a48c0f95b74fabbfd5d63e924f992d s390/dasd: fix Oops in dasd_alias_get_start_dev due to missing pavgroup
          
