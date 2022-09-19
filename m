@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 19 Sep 2022 17:34:16 -0000
-Message-Id: <166360885634.23881.12844602333647217354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 19 Sep 2022 17:36:32 -0000
+Message-Id: <166360899243.26222.4437316709832090870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: deee93d13d385103205879a8a0915036ecd83261
-    new: 3124d320c22f3f4388d9ac5c8f37eaad0cefd6b1
+  - ref: refs/heads/fileBVfBjr
+    old: ed7208751862610e1388d245edac97521884a43f
+    new: 7042bde216ada135b2f88423ae714ab9a22e3a22
     log: |
-         3124d320c22f3f4388d9ac5c8f37eaad0cefd6b1 Bluetooth: hci_{ldisc,serdev}: check percpu_init_rwsem() failure
+         7042bde216ada135b2f88423ae714ab9a22e3a22 ASoC: nau8824: Fix semaphore is released unexpectedly
          
