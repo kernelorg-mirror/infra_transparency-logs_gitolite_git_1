@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 19 Sep 2022 11:31:07 -0000
-Message-Id: <166358706750.22138.11800540847937645932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Mon, 19 Sep 2022 11:31:23 -0000
+Message-Id: <166358708393.22302.5817558160809612416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/zx2c4/linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: c4de71a5e566cde2fd13506b15da407c044d86b2
-    new: 01cb80bae8e79b21067b4a85eb4f82b14104130c
+  - ref: refs/heads/rockchip
+    old: 2c19e76047d660795ba1b75bad7ab6997b890ce7
+    new: 4b3c56ae2e0542f73b19598c070871e648867cd7
     log: |
-         01cb80bae8e79b21067b4a85eb4f82b14104130c lscpu: use topology maps in more robust way
+         4b3c56ae2e0542f73b19598c070871e648867cd7 hw_random: rockchip: import driver from vendor tree
          
