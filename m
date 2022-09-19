@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8838442377862367124=="
+Content-Type: multipart/mixed; boundary="===============4616753207227805501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 19 Sep 2022 01:47:29 -0000
-Message-Id: <166355204915.18770.8436094212893503689@gitolite.kernel.org>
+Date: Mon, 19 Sep 2022 01:48:25 -0000
+Message-Id: <166355210582.19145.14353011659822593011@gitolite.kernel.org>
 
---===============8838442377862367124==
+--===============4616753207227805501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,82 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: dgc
 changes:
-  - ref: refs/heads/master
-    old: 88084a3df1672e131ddc1b4e39eeacfd39864acf
-    new: 521a547ced6477c54b4b0cc206000406c221b4d6
-    log: revlist-88084a3df167-521a547ced64.txt
-  - ref: refs/tags/v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 99cd00206e418c5fb0e9bd885ded84b8781194b7
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
-  - ref: refs/tags/v5.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 83c145a5040cdf3d0f91e71580ace5cdabb54b46
-  - ref: refs/tags/v5.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 207f04315aa6e008bf809dc5f4bdc60742798eea
-  - ref: refs/tags/v5.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8de2dfa9e328cc9a5533f5feb043c89d7a8fb57e
-  - ref: refs/tags/v5.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 56606d65a50beb4b7e3bbffcf5da88d7cdd5a038
-  - ref: refs/tags/v5.19
-    old: 0000000000000000000000000000000000000000
-    new: 2c1ad8d25ec27ecee5910b62b26b93074091a3e4
-  - ref: refs/tags/v5.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 15fd1bd1e8b4c33f1f249d02d15aa043df52271c
-  - ref: refs/tags/v5.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: afdb472867d4677930236a864496939f496de1b9
-  - ref: refs/tags/v5.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8fcdc0ea4cc7ea79a1837f5040f5656f9be98f9f
-  - ref: refs/tags/v5.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 99023ab67a130976ddcfb7cfb5ca01358045768f
-  - ref: refs/tags/v5.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: cb84a9aae2260636f12f10c7f60779eb69e82849
-  - ref: refs/tags/v6.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 09e4144cab94d10fec58b9296d6fc22a8b42b30a
-  - ref: refs/tags/v6.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 59226d37effcc06e431f8d0ab609ddd3003666fe
-  - ref: refs/tags/v6.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
-  - ref: refs/tags/v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/heads/for-next
+    old: 031d166f968efba6e4f091ff75d0bb5206bb3918
+    new: dc256418235a8355fbdf83b90048d8704b8d1654
+    log: revlist-031d166f968e-dc256418235a.txt
 
---===============8838442377862367124==
+--===============4616753207227805501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88084a3df167-521a547ced64.txt
+Content-Disposition: attachment; filename=revlist-031d166f968e-dc256418235a.txt
 
-d10a72de54c2d2990721923e025ea505fa4f5b02 get_maintainer: add Alan to .get_maintainer.ignore
-37887783b3fef877bf34b8992c9199864da4afcb Revert "zram: remove double compression logic"
-5535be3099717646781ce1540cf725965d680e7b mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
-a8faed3a02eeb75857a3b5d660fa80fe79db77a3 kernel/sys_ni: add compat entry for fadvise64_64
-a39c5d3ce03dd890ab6a9be44b21177cec32da55 mm: add DEVICE_ZONE to FOR_ALL_ZONES
-efd4149342db2df41b1bbe68972ead853b30e444 mm/smaps: don't access young/dirty bit if pte unpresent
-f369b07c861435bd812a9d14493f71b34132ed6f mm/uffd: reset write protection when unregister with wp-mode
-f96f7a40874d7c746680c0b9f57cef2262ae551f mm/hugetlb: fix hugetlb not supporting softdirty tracking
-1d8d14641fd94a01b20a4abbf2749fd8eddcf57b mm/hugetlb: support write-faults in shared mappings
-cb241339b9d020c758a6647c69f8e42538c5cf88 mm/shmem: fix chattr fsflags support in tmpfs
-15f242bb65b89d5f1ff990668a586fdf1307b2c8 mm/shmem: tmpfs fallocate use file_modified()
 76d36dea02691a8ffa8cd7368eecbf727b8a1c0c mm/shmem: shmem_replace_page() remember NR_SHMEM
 9c80e79906b4ca440d09e7f116609262bb747909 kprobes: don't call disarm_kprobe() for disabled kprobes
 7ae1f5508d9a33fd58ed3059bd2d569961e3b8bd parisc: Fix exception handler for fldw and fstw instructions
@@ -1104,5 +1039,16 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
+460281cf269b02f2caa88ade79c1e7eed29bfe15 xfs: remove the redundant word in comment
+5617104003ae11a1ab383dbd63228b7645c26207 xfs: remove redundant else for clean code
+78b0f58bdfef45aa9f3c7fbbd9b4d41abad6d85f xfs: clean up "%Ld/%Lu" which doesn't meet C standard
+92b40768c1a4e01e776cb13ab5357a8b5c78e965 xfs: replace unnecessary seq_printf with seq_puts
+de94a2e151bed6884b4f21aa518a100ac9e83af2 xfs: simplify if-else condition in xfs_validate_new_dalign
+a0ebf8c46d64ba96b413784f88af0a4dca95b6bc xfs: simplify if-else condition in xfs_reflink_trim_around_shared
+8838dafed5d93b3e8a403e57838a43fb09dd6e61 xfs: missing space in xfs trace log
+abda5271f8ec6e9a84ae8129ddc59226c89def7a xfs: Remove the unneeded result variable
+b0463b9dd7030a766133ad2f1571f97f204d7bdf xfs: remove xfs_setattr_time() declaration
+42b7cc11023d0aa19dbf4d60bb3b8f7423d24a24 xfs: port to vfs{g,u}id_t and associated helpers
+dc256418235a8355fbdf83b90048d8704b8d1654 xfs: do not need to check return value of xlog_kvmalloc()
 
---===============8838442377862367124==--
+--===============4616753207227805501==--
