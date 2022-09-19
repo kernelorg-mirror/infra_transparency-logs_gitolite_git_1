@@ -1,64 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1836532773588149148=="
+Content-Type: multipart/mixed; boundary="===============2329056989495172839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 19 Sep 2022 18:37:33 -0000
-Message-Id: <166361265383.4459.11166017086055194671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Mon, 19 Sep 2022 18:54:54 -0000
+Message-Id: <166361369450.15205.8722094663881638891@gitolite.kernel.org>
 
---===============1836532773588149148==
+--===============2329056989495172839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/seen
-    old: 85ea37e2d7bb77bcb4f08644319efe796850c06e
-    new: 880ef023d8fe3d4ffcec4ee49d2508d914366a82
-    log: revlist-85ea37e2d7bb-880ef023d8fe.txt
+  - ref: refs/heads/md-next
+    old: 57f13b2f370be189aaa67299e400930632574ae4
+    new: 673164f606ec776de795c15396faa80288c523d0
+    log: revlist-57f13b2f370b-673164f606ec.txt
 
---===============1836532773588149148==
+--===============2329056989495172839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85ea37e2d7bb-880ef023d8fe.txt
+Content-Disposition: attachment; filename=revlist-57f13b2f370b-673164f606ec.txt
 
-cb2ee0e00375b63ee444e17e59f17754adc56948 sequencer: avoid dropping fixup commit that targets self via commit-ish
-0846def0042783c562023eb8b78ccaf34ee9ac29 fsmonitor: refactor filesystem checks to common interface
-344a6fd46d2f23613dfccef5b395413830014094 fsmonitor: relocate socket file if .git directory is remote
-8a27843ef3eb143ae9baf5a94e1de8b719f2cfc0 fsmonitor: avoid socket location check if using hook
-e3fb8496b2fca06b56c23edca00d5ca70a82a6de fsmonitor: deal with synthetic firmlinks on macOS
-0f3cde549f7c9dd89a022da44e9975a7e379dd45 fsmonitor: add documentation for allowRemote and socketDir options
-cb98e1d50a7a4a84b76f72dad694d49d2276eef3 diagnose.c: refactor to safely use 'd_type'
-12f1ae53243d3ff06a956da1846dde6f32498342 commit-graph: Fix missing closedir in expire_commit_graphs
-ce3c1bf642b8e6c298ace8b10771ff0ad36bb911 Merge branch 'vd/scalar-generalize-diagnose' into jch
-6bd5eb8fcd66c6498251d2cf00487c46937760a4 Merge branch 'ja/rebase-i-avoid-amending-self' into jch
-d940a690a6864403b718a9beaad39ff0038eb71b Merge branch 'ml/commit-graph-expire-dir-leak-fix' into jch
-d2006c43d1d67a1752e60baaa56c2ab2e444814b Merge branch 'po/glossary-around-traversal' into jch
-2106fb9e90e4967f5c75e3165e371357a0bc8756 Merge branch 'es/mark-gc-cruft-as-experimental' into jch
-b5144fe774b61bb15679e5c16ecc911700244009 Merge branch 'cw/remote-object-info' into jch
-19272b1b7cf2b2067b0505b00562674b73181bab Merge branch 'js/cmake-updates' into jch
-2079780ad6b2cf7bdef69ab27161457066bda48f Merge branch 'gc/submodule-clone-update-with-branches' into jch
-a3024317edd2c4a7235e46d04e11a37b74a476e5 Merge branch 'pw/rebase-keep-base-fixes' into jch
-aeacdde6185d7c2db2d527d01f59902c68be986a Merge branch 'tb/diffstat-with-utf8-strwidth' into jch
-ff7f72baaa3e0a89fa90288459621e7ac1a56323 Merge branch 'ag/merge-strategies-in-c' into jch
-1d27e56bbc4b860d7338c5ceb62640757b108bb6 Merge branch 'rs/diff-caret-bang-with-parents' into jch
-b476f3f0df21257e20c213fd31f87c6dae2e321d Merge branch 'jc/environ-docs' into jch
-a92bec66406e3ff9ba4b1c7f746bf8bd8dde0d21 Merge branch 'tz/tech-docs-to-help-fix' into jch
-b09f9375a54ffa35a508ebd4a17e88030b2a5949 Merge branch 'fz/help-doublofix' into jch
-48ec00e9f396835d6ca06f164e6a63cf32fefb31 Merge branch 'js/bisect-in-c' into seen
-7e99337b70de09bbd98932ea47a95cd4b248e851 Merge branch 'ab/coccicheck-incremental' into seen
-4a4c76b4ad598f19f55fd4e4791b557d332bde90 Merge branch 'ab/doc-synopsis-and-cmd-usage' into seen
-54e5316ed6b2df2871832c57596d119cb22d16ed Merge branch 'vd/doc-reviewing-guidelines' into seen
-b371f7547d50ff4459578a6b338a1269111beaaa Merge branch 'ds/bundle-uri-3' into seen
-1037415c3b4338fdeee24104b23ef9916e0aa074 Merge branch 'rj/branch-edit-description-with-nth-checkout' into seen
-c0b4e9ea1176bafdd7b1f548fa66e13f37c34d37 Merge branch 'ed/fsmonitor-on-networked-macos' into seen
-1579b5d59004c16e282a92b749335a6688caeb3e Merge branch 'mj/credential-helper-auth-headers' into seen
-841adaa6dd383a524cfdc580bf297c836815001a Merge branch 'sy/sparse-grep' into seen
-f1a02b81d0af36d905fa9d2a58c530068f11befe Merge branch 'es/doc-creation-factor-fix' into seen
-880ef023d8fe3d4ffcec4ee49d2508d914366a82 Merge branch 'so/diff-merges-cleanup' into seen
+4acb83417cadfdcbe64215f9d0ddcf3132af808e sbitmap: fix batched wait_cnt accounting
+320fb0f91e55ba248d4bad106b408e59099cfa89 blk-throttle: fix that io throttle can only work for single bio
+8d6bbaada2e0a65f9012ac4c2506460160e7237a blk-throttle: prevent overflow while calculating wait time
+681cd46fff8cd81e387747c7850f2e730d3e0b74 blk-throttle: factor out code to calculate ios/bytes_allowed
+a880ae93e5b5bb5d8d5500077a391e3f5ec7715c blk-throttle: fix io hung due to configuration updates
+7e9c5c54d440bd6402ffdba4dc4f3df5bfe64ea4 blk-throttle: use 'READ/WRITE' instead of '0/1'
+8c25ed0cb9d2e349ebebfeacf7ce1ae015afe54d blk-throttle: calling throtl_dequeue/enqueue_tg in pairs
+c013710e1a7eba8e33da9380a068fe1cec017226 blk-throttle: cleanup tg_update_disptime()
+91418cc4fd8f8e2e21b409eb8983d074359c8be6 block/drbd: remove unused w_start_resync declaration
+474562a6e589aa2dac9edaa8af089801b5c2bd26 md/raid5: Fix spelling mistakes in comments
+32bf7006cdfbde438319daba492c183403e5e8ac md/raid10: fix compile warning
+4edfaecdb8d0d27c3ddb7ecc092617c22b8c88ee md : Replace snprintf with scnprintf
+4bab57048b2440a2889bbbce64d8db6ed89d51b2 md/raid5: Refactor raid5_get_active_stripe()
+fa229ecc3be80e0b22c08807c44b8251878a768b md/raid5: Drop extern on function declarations in raid5.h
+9a108bf79d59ca89766ca3960115bbf44a2c3c2b md/raid5: Cleanup prototype of raid5_get_active_stripe()
+0a78d2f07b817d4c79a92b5030feedfd9e3d618a md/raid5: Don't read ->active_stripes if it's not needed
+78f17a61f86db50dfd7421e6f099f3dd9871b05e md/raid5: Ensure stripe_fill happens on non-read IO with journal
+d3afac7751a620c34f561e44e918ed19962cf2c5 md/raid5: Remove unnecessary bio_put() in raid5_read_one_chunk()
+04bd341786b9c804ef326c183d254a5e8c954f66 md: Remove extra mddev_get() in md_seq_start()
+6e3a807a37fffa765c7ae16c8a0b22628deeeece md/raid10: factor out code from wait_barrier() to stop_waiting_barrier()
+de73f6f70ca219377e4f13d6deea12dd6ea3f21e md/raid10: don't modify 'nr_waitng' in wait_barrier() for the case nowait
+7fdc91928ac109d3d1468ad7f951deb29a375e3d md/raid10: prevent unnecessary calls to wake_up() in fast path
+640cc4dee3a3b0b63bd209170ab175f54abde2e0 md/raid10: fix improper BUG_ON() in raise_barrier()
+ddc489e066cd267b383c0eed4f576f6bdb154588 md/raid10: convert resync_lock to use seqlock
+673164f606ec776de795c15396faa80288c523d0 Merge branch 'md-next-raid10-optimize' into md-next
 
---===============1836532773588149148==--
+--===============2329056989495172839==--
