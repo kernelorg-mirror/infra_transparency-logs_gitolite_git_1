@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6200109676867630853=="
+Content-Type: multipart/mixed; boundary="===============2950565469860323943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 19 Sep 2022 09:38:41 -0000
-Message-Id: <166358032182.24075.3814599144225266296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 19 Sep 2022 09:39:33 -0000
+Message-Id: <166358037370.19229.15585659786531498752@gitolite.kernel.org>
 
---===============6200109676867630853==
+--===============2950565469860323943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/aarch32-raz-idregs
-    old: 797b84517c190053597e3f7e03ead15da872e04d
+  - ref: refs/heads/next
+    old: c317c6d2d2c63461f6860dc322ae4521cbfe3447
     new: b04b3315021a524d5eecdb6de0d24cf7371d4abf
-    log: revlist-797b84517c19-b04b3315021a.txt
+    log: revlist-c317c6d2d2c6-b04b3315021a.txt
 
---===============6200109676867630853==
+--===============2950565469860323943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-797b84517c19-b04b3315021a.txt
+Content-Disposition: attachment; filename=revlist-c317c6d2d2c6-b04b3315021a.txt
 
 a04054362e4a9f48a51a742215c2ae1b8bfd04b5 arm64/sysreg: Remove stray SMIDR_EL1 defines
 4c8b18af25be2e87b7b62bec397de2cf160555fa arm64/sysreg: Describe ID_AA64SMFR0_EL1.SMEVer as an enumeration
@@ -54,7 +54,6 @@ ef4ba5a635bfbd98c0893430ddfc9baf9fbccee6 arm64/sysreg: Convert ID_AA64PFR1_EL1 t
 0a45f3980db0446febd21ae6dff475060fd39a39 arm64/sysreg: Convert TIPDR_EL1 to automatic generation
 b1179b75e9a83cfa80accb402dd15ffa6b352080 arm64/sysreg: Convert SCXTNUM_EL1 to automatic generation
 3e9ae1ce508b8d69762abd1b8b9d9f97d6715b9b arm64/sysreg: Add defintion for ALLINT
-c317c6d2d2c63461f6860dc322ae4521cbfe3447 Merge branch kvm-arm64/aarch32-raz-idregs into kvmarm-master/next
 c0357a73fa4a96d8ed9ee46e9927d9fcbc9d0828 arm64/sysreg: Align field names in ID_AA64DFR0_EL1 with architecture
 fcf37b38ff2282ef3dc6ba1966c83b29e5734edd arm64/sysreg: Add _EL1 into ID_AA64DFR0_EL1 definition names
 121a8fc088f13c64d9f3c9b3e7faa4c246e0a32c arm64/sysreg: Use feature numbering for PMU and SPE revisions
@@ -63,4 +62,4 @@ c65c617806ed490cf0ed09a151c627e41ce6e0c6 arm64/sysreg: Convert ID_AA64DFR1_EL1 t
 10453bf149c9539c446574932f00ea50438cede5 arm64/sysreg: Convert ID_AA64AFRn_EL1 to automatic generation
 b04b3315021a524d5eecdb6de0d24cf7371d4abf Merge remote-tracking branch 'arm64/for-next/sysreg' into kvmarm-master/next
 
---===============6200109676867630853==--
+--===============2950565469860323943==--
