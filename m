@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 19 Sep 2022 17:26:42 -0000
-Message-Id: <166360840276.19552.15982684422639970773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 19 Sep 2022 17:33:00 -0000
+Message-Id: <166360878020.23366.17562054930358345663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 812e92b824c1db16c9519f8624d48a9901a0d38f
-    new: deee93d13d385103205879a8a0915036ecd83261
+  - ref: refs/heads/next
+    old: 1bea92cf1ac4c338ca6d087d388e950c45b383cf
+    new: 6a33d25cf1d1088ca96b9767010c100dcd2af974
     log: |
-         2d2cb3066f2c90cd8ca540b36ba7a55e7f2406e0 Bluetooth: L2CAP: initialize delayed works at l2cap_chan_create()
-         deee93d13d385103205879a8a0915036ecd83261 Bluetooth: use hdev->workqueue when queuing hdev->{cmd,ncmd}_timer works
+         c3bed5da8ba165701f59f8c492b1f721fefd2972 efi/libstub: implement generic EFI zboot
+         3ae5e5d522f2a17cbfe9737086d45aee23d34953 riscv: efi: enable generic EFI compressed boot
+         6a33d25cf1d1088ca96b9767010c100dcd2af974 loongarch: efi: enable generic EFI compressed boot
          
