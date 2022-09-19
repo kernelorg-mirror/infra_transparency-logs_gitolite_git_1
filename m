@@ -1,46 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3395927838053287836=="
+Content-Type: multipart/mixed; boundary="===============5336888337256228175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 19 Sep 2022 11:07:36 -0000
-Message-Id: <166358565600.4820.17984374618742739093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Mon, 19 Sep 2022 11:30:36 -0000
+Message-Id: <166358703661.21894.6298754048902035582@gitolite.kernel.org>
 
---===============3395927838053287836==
+--===============5336888337256228175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/master
-    old: b394710785b80acb01f6f868ae19ed9093703720
-    new: c4de71a5e566cde2fd13506b15da407c044d86b2
-    log: revlist-b394710785b8-c4de71a5e566.txt
+  - ref: refs/heads/devel
+    old: 611ea01dddce74de7296422eeebbf63c35505cb9
+    new: 93585adbe2a6ad38396bb3b5c87500398c89fa8e
+    log: revlist-611ea01dddce-93585adbe2a6.txt
 
---===============3395927838053287836==
+--===============5336888337256228175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b394710785b8-c4de71a5e566.txt
+Content-Disposition: attachment; filename=revlist-611ea01dddce-93585adbe2a6.txt
 
-e63dfa670624fbdea5ae70aac4859615bcf1694b libblkid: bcache: remove unused macros
-1db1994e06047c2eac5fe21a0b474edd70d9120f libblkid: bcache: report wiped area
-53e349b878bb565c1463a5f23de1711203f11efd libblkid: mdraid: add test for version 1 superblock
-c68a29cabfd49052f1ec7fd50e99a03a5252ed01 libblkid: linux_raid: add checksum support
-e83923fedcbc250fc7516125852b7cc14778d97c libblkid: ubi: add checksum support
-baac95792658012e454023734ebc8d870e0ad6b8 libblkid: zonefs: add checksum support
-50c9e4b0864ceb9bb9c4c415ebb72a5e7c3c487a libblkid: ubifs: add checksum support
-198c6408597b506936d5a4a5fe600bbd9fa50aab lsfd: fix wrong counter expression used in --summary output
-02b978c65cb1ca18d589a7c8a0085172936eade0 libblkid: f2fs: fix checksum initialization on big-endian
-6bebcc9f221450d9640fd8033308159d3aedfe06 libblkid: f2fs: ensure checksum offset is within superblock
-306f6842f6a5ba4b16b3c96baa4aa493295cf33b Merge branch 'f2fs/fixes' of https://github.com/t-8ch/util-linux
-f04eeebe73733195c42972078fc233a849dae30f Merge branch 'linux_raid/checksum' of https://github.com/t-8ch/util-linux
-44432a76d75acbbdc44cff73f08780e5f5b5a0d2 Merge branch 'bcache/cleanup' of https://github.com/t-8ch/util-linux
-60ddfc8b4f087be651b009709a2c634229d053dd Merge branch 'zonefs/checksum' of https://github.com/t-8ch/util-linux
-9cef51f60dcd6ee18404792e4e0d802098beccd2 Merge branch 'ubi/checksum' of https://github.com/t-8ch/util-linux
-c4de71a5e566cde2fd13506b15da407c044d86b2 Merge branch 'lsfd-fix-counter-spec' of https://github.com/masatake/util-linux
+2d47b81c6a6628d9c617559529aff51b190f68af tty: serial: introduce transmit helpers
+6fc6788471aef9c16bcc5f9e148a68d34a964cbb tty: serial: use uart_port_tx() helper
+4e0182080587d939a65ddf52fcefd033376d39f3 tty: serial: use uart_port_tx_limited()
+a63def94a5dfb7bba1b17aca3ce559f1efad1611 BRANCH_MARKER: submit
+5e5199032398b04db422c0cdc214461687f5bb93 mxser: less tty, more termios
+d146e4c88d0c1a250fae3ab5855d0978a9f38361 mxser: add to_mport helper
+37b54b2560d5b2ce718297240c52fe74777481aa mxser: use lock from uart_port
+895c0122430e7094b989590a2dc22b655c2b09e2 mxser: use iobase from uart_port
+1dcc4458f1ff35533b5633f91f8c2c940749cdf5 mxser: use type from uart_port
+3314265fb4cbeed32add1d760ba8600a5f46891c mxser: use x_char from uart_port
+a00c792c048c9229dbbd23e881a68383b0932e16 mxser: use icount from uart_port
+b993bcf195b3712dda8fc9f87ee4cd90f078f9ab mxser: use timeout from uart_port
+61aeeeef543e1f4766b0958a86a885f92abac311 mxser: use status masks from uart_port
+4693a445852c51bdb04f378490eaf0c49a9c7f59 mxser: use fifosize from uart_port
+45db46c8048834c9da87d34882c5a8fbcdf091a5 mxser: use hw_stopped from uart_port
+4e82d53538f762af40388215c31ae680cee17f54 mxser: switch to uart_driver
+c483d5cd96244037740117b4c982738b0e666f59 tty: 8250_dma, use dmaengine_prep_slave_sg
+acd14144567613efccfb0f968c8e6db73a916882 tty: 8250_omap, use dmaengine_prep_slave_sg
+baf1c185555ace45609ca5f3358fb322f437fb34 kfifo updates (_r UNFINISHED)
+7da9cff2640462f4fd2f9ce732342ae0a4263c3e tty: serial, use kfifo
+79b3f28d07448d1b44e3ccc01a44fc4817a448b8 kfifo tester
+93585adbe2a6ad38396bb3b5c87500398c89fa8e BRANCH_MARKER: work
 
---===============3395927838053287836==--
+--===============5336888337256228175==--
