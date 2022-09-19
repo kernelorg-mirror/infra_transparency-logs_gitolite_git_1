@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6249688481166467794=="
+Content-Type: multipart/mixed; boundary="===============2832193671091194818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 19 Sep 2022 23:09:05 -0000
-Message-Id: <166362894526.445.1340383610051224049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 19 Sep 2022 23:09:12 -0000
+Message-Id: <166362895274.617.7189445916835757554@gitolite.kernel.org>
 
---===============6249688481166467794==
+--===============2832193671091194818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.0
+  - ref: refs/heads/asoc-6.0
     old: 4a13c949501902d4e6b59cc693005f4ca352dc15
     new: 0a0342ede303fc420f3a388e1ae82da3ae8ff6bd
     log: |
          7042bde216ada135b2f88423ae714ab9a22e3a22 ASoC: nau8824: Fix semaphore is released unexpectedly
          0a0342ede303fc420f3a388e1ae82da3ae8ff6bd ASoC: tas2770: Reinit regcache on reset
          
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: d3cfe45f5f59f33137ce2a009c475f34dfd7f830
     new: 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a
     log: revlist-d3cfe45f5f59-5ba3522cf8b9.txt
 
---===============6249688481166467794==
+--===============2832193671091194818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663628942 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1663628941-9af953fe2769e4958c87cd6ba0977c8fe94c8d40
+pusher C3F436CA30F5D8EB 1663628950 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1663628949-02d3687e19ed5bfa15db806ed5cd63f675ee55a3
 
-4a13c949501902d4e6b59cc693005f4ca352dc15 0a0342ede303fc420f3a388e1ae82da3ae8ff6bd refs/heads/for-6.0
-d3cfe45f5f59f33137ce2a009c475f34dfd7f830 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a refs/heads/for-6.1
+4a13c949501902d4e6b59cc693005f4ca352dc15 0a0342ede303fc420f3a388e1ae82da3ae8ff6bd refs/heads/asoc-6.0
+d3cfe45f5f59f33137ce2a009c475f34dfd7f830 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMo9o4ACgkQJNaLcl1U
-h9DGSAf/TwajGuL9J02ZDLt7VCd838ClS3YRQ5+/bqA0bGHmB1ZVYtpSPbeVY/s1
-0HkV4O/69jqi7IpYpaEg47x3RhRtBU4D4mZn2AmrtxSsRkkgVW2osyWQ+Yj4iCi2
-BYu5CYd8td0ekmZgu8x0l56AkBfILsNQihHxkAHnCfPzdO/EmL+n89PlLOURzRLt
-f8UaLiKShcCcfXNRcQqJxonoGGTwxlTQXX7ZnIZS2llEioe5YhjA4L5VkeM9qMjW
-eQmD19/U6lMT6Peswn+1Ch7kuAEhz9thwdzcqIiH/OcwCCMt6NHlhPMmkgWVmT33
-+qlg48P61kJy27wL3ENNPNbJgTuYrA==
-=+2pp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMo9pYACgkQJNaLcl1U
+h9BVXAf/QR697oZj0en/ZEddjYmjEkk6+AkWWyn0UqdLo9qbdRyhUNro7CRXN8mh
+kdOZxLQTYJPEZjuJvkn5SMRuIVslvtkR4fPtlnTaX4Y3iw6xapl1DeXZE8w3dhbO
+im+eYZxyN7zd1EJgcUH+ttrx9LDlURlEV0soKe5bSAYngbNAuHFJmGIVOp8Qgf0m
+Ccx4AYahW0KruJU+8PeAruhVIqCGmZkdQhmssu48DNQKjyRyXEA2FP51cf7KNZoR
+8jQerylI66uJLB8GnHxSC0vGwe15LQepPck3+MopyZZ+zguTEe3QnKQMpSS7GWzO
+9pwkg9DFeG/m2Wnzn2vDgChIijmNjw==
+=P/Rt
 -----END PGP SIGNATURE-----
 
---===============6249688481166467794==
+--===============2832193671091194818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ bfc5e8b860ad2a87269975a6043aa6bb245d44bb ASoC: rt5682s: Reduce coupling of Micbi
 717a8ff20f32792d6a94f2883e771482c37d844b ASoC: sunxi: sun4i-codec: set debugfs_prefix for CPU DAI component
 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a ASoC: SOF: start using tracing instead of dev_dbg
 
---===============6249688481166467794==--
+--===============2832193671091194818==--
