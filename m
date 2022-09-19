@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 19 Sep 2022 21:23:42 -0000
-Message-Id: <166362262279.22705.5200857780220266368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 19 Sep 2022 21:25:17 -0000
+Message-Id: <166362271730.26041.18328825926373451611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 96628951869c0dedf0377adca01c8675172d8639
-    new: 182447b12144b7be9b63a273d27c5a11bd54960a
+    old: 9713c2df5bb3e8eb0ef22a8c3385e369ec1549eb
+    new: 540f19919128c34928d0467ce56ff62f044d529c
     log: |
-         182447b12144b7be9b63a273d27c5a11bd54960a mlxbf_gige: clear MDIO gateway lock after read
+         52311ed96ca8c45e89bd2ad202c3ded67fc8902d foo
+         540f19919128c34928d0467ce56ff62f044d529c foo
          
