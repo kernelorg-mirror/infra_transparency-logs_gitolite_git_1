@@ -1,50 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============3863767896838861811=="
+Content-Type: multipart/mixed; boundary="===============6200109676867630853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 19 Sep 2022 09:22:48 -0000
-Message-Id: <166357936887.12724.7500227980652113862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 19 Sep 2022 09:38:41 -0000
+Message-Id: <166358032182.24075.3814599144225266296@gitolite.kernel.org>
 
---===============3863767896838861811==
+--===============6200109676867630853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/efi-cleanups-for-v6.1
-    old: 77a85e34c886854de11791635d8061aceabee040
-    new: ff21f3c6c502b02d39a2f41e10656f1d885b9d5e
-    log: revlist-77a85e34c886-ff21f3c6c502.txt
+  - ref: refs/heads/kvm-arm64/aarch32-raz-idregs
+    old: 797b84517c190053597e3f7e03ead15da872e04d
+    new: b04b3315021a524d5eecdb6de0d24cf7371d4abf
+    log: revlist-797b84517c19-b04b3315021a.txt
 
---===============3863767896838861811==
+--===============6200109676867630853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77a85e34c886-ff21f3c6c502.txt
+Content-Disposition: attachment; filename=revlist-797b84517c19-b04b3315021a.txt
 
-c7007d9f19527b47992ff78a088e8697a9e9d5f5 efi/libstub: add some missing EFI prototypes
-c82ceb440b886cc0f3945b6db979c49c48a4af29 efi/libstub: use EFI provided memcpy/memset routines
-514377d8a7da608ce618cdbeb5a2110a5a5178fc efi/libstub: move efi_system_table global var into separate object
-3d4b6889ee8d9b1d61ee3f4ffb446149d501865d efi/libstub: implement generic EFI zboot
-95ba989c4cad5e0d06653426c9d10000be8c613d riscv: efi: enable generic EFI compressed boot
-1bea92cf1ac4c338ca6d087d388e950c45b383cf loongarch: efi: enable generic EFI compressed boot
-309fc953b044ff8946b999a9a17d29526fdf3556 arm64: efi: enable generic EFI compressed boot
-2f9b588e71ae99a431e06cdc6ad244b4fe81eebf efi/arm64: libstub: avoid SetVirtualAddressMap() when possible
-466d1a1b8fa855c0164a55d8b873ada3da21f229 efi: libstub: drop pointless get_memory_map() call
-4a1bddd1f12bf5efde51136d727103d575abf911 efi/arm: libstub: move ARM specific code out of generic routines
-604df0a8d228735bc4d77a2114e283ca90a5af2a efi: libstub: fix up the last remaining open coded boot service call
-81aa3acf0b0898efe4fea66fef49907a9ebe775c efi: libstub: fix type confusion for load_options_size
-041ded458749d1178aa46162e697f118313de9b4 efi: libstub: avoid efi_get_memory_map() for allocating the virt map
-af3caacbab03f7860e05929b4246caa7155d075f efi: libstub: simplify efi_get_memory_map() and struct efi_boot_memmap
-b94189dd12784b877e5c4e10ffc9f0e1a8a878c0 efi: libstub: unify initrd loading between architectures
-a44303b90143a54a9b6af5cb5261a87aec85ff5c efi: libstub: remove DT dependency from generic stub
-48e1517e23a740f2c9d654ac5a9bca072bcc10d8 efi: libstub: install boot-time memory map as config table
-7eb2eae6000a5275f89435d51203716ceb963427 efi: libstub: remove pointless goto kludge
-57df2f25d8414333685a1eef77e3c00c4e97d664 efi/loongarch: libstub: remove dependency on flattened DT
-ff21f3c6c502b02d39a2f41e10656f1d885b9d5e efi: loongarch: add support for DT hardware descriptions
+a04054362e4a9f48a51a742215c2ae1b8bfd04b5 arm64/sysreg: Remove stray SMIDR_EL1 defines
+4c8b18af25be2e87b7b62bec397de2cf160555fa arm64/sysreg: Describe ID_AA64SMFR0_EL1.SMEVer as an enumeration
+d9b230f644196b2986501ecc45c2b2a41075040d arm64: cache: Remove unused CTR_CACHE_MINLINE_MASK
+2d987e64e8c756ffcbace4a598444297df28b8a1 arm64/sysreg: Add _EL1 into ID_AA64MMFR0_EL1 definition names
+a957c6be2b88564ed413a03a6009f11b1e5d5806 arm64/sysreg: Add _EL1 into ID_AA64MMFR2_EL1 definition names
+55adc08d7e6433357f2b3b4fee248ae9da1fe2fa arm64/sysreg: Add _EL1 into ID_AA64PFR0_EL1 definition names
+6ca2b9ca459a598b78265477d288fdec8a0fdd6d arm64/sysreg: Add _EL1 into ID_AA64PFR1_EL1 constant names
+ed7c138d6f82a9e75f27c9ff43262ba8158533b0 arm64/sysreg: Standardise naming of ID_AA64MMFR0_EL1.BigEnd
+07d7d848b96b57eccafeafad023d02c7f627d494 arm64/sysreg: Standardise naming of ID_AA64MMFR0_EL1.ASIDBits
+6fcd019359028f3c6477508b329d69e27f41d895 arm64/sysreg: Standardise naming for ID_AA64MMFR1_EL1 fields
+8f40baded4a14ef56da0b73e028117b146ca4584 arm64/sysreg: Standardise naming for ID_AA64MMFR2_EL1.VARange
+ca951862ad3e6fa33d8ba8220b80f3fdc496821c arm64/sysreg: Standardise naming for ID_AA64MMFR2_EL1.CnP
+4f8456c3199dab2436dab1f8ec17cba853fa1060 arm64/sysreg: Standardise naming for ID_AA64PFR0_EL1 constants
+5620b4b0371569b9ba65b756cd6d5fc6af47ddd6 arm64/sysreg: Standardise naming for ID_AA64PFR0_EL1.AdvSIMD constants
+53275da8dccc8f8140f24e2634c5d61e3206307d arm64/sysreg: Standardise naming for SSBS feature enumeration
+2e75b393ff2e45a32e9621e1b27cd7854122c1c8 arm64/sysreg: Standardise naming for MTE feature enumeration
+cf7fdbbe83a765e8ad2e0a556ec2c4e675bc3893 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 fractional version fields
+514e9b2aed04e86c93363b69318e23b19fb9ef78 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 BTI enumeration
+ed9075201c5a8e89afa969e2bbe947a5ea9c4620 arm64/sysreg: Standardise naming of ID_AA64PFR1_EL1 SME enumeration
+cfaa32108aeaf2f4137e4eb01c82e6d37a732b07 arm64/sysreg: Convert HCRX_EL2 to automatic generation
+0b7ed4d8f59c252c7b0339947f69da6770979c0a arm64/sysreg: Convert ID_AA64MMFR0_EL1 to automatic generation
+7d751b313dd9b4cb3a33812cf827decb48352d0b arm64/sysreg: Convert ID_AA64MMFR1_EL1 to automatic generation
+cfa3a6c55b61a062afa1ccd8bca45fd270dd3d0f arm64/sysreg: Convert ID_AA64MMFR2_EL1 to automatic generation
+cea08f2bf406416c9f54366e1328f2ce329bf4fd arm64/sysreg: Convert ID_AA64PFR0_EL1 to automatic generation
+ef4ba5a635bfbd98c0893430ddfc9baf9fbccee6 arm64/sysreg: Convert ID_AA64PFR1_EL1 to automatic generation
+0a45f3980db0446febd21ae6dff475060fd39a39 arm64/sysreg: Convert TIPDR_EL1 to automatic generation
+b1179b75e9a83cfa80accb402dd15ffa6b352080 arm64/sysreg: Convert SCXTNUM_EL1 to automatic generation
+3e9ae1ce508b8d69762abd1b8b9d9f97d6715b9b arm64/sysreg: Add defintion for ALLINT
+c317c6d2d2c63461f6860dc322ae4521cbfe3447 Merge branch kvm-arm64/aarch32-raz-idregs into kvmarm-master/next
+c0357a73fa4a96d8ed9ee46e9927d9fcbc9d0828 arm64/sysreg: Align field names in ID_AA64DFR0_EL1 with architecture
+fcf37b38ff2282ef3dc6ba1966c83b29e5734edd arm64/sysreg: Add _EL1 into ID_AA64DFR0_EL1 definition names
+121a8fc088f13c64d9f3c9b3e7faa4c246e0a32c arm64/sysreg: Use feature numbering for PMU and SPE revisions
+e62a2d2610f0e6cf803027e3803c822140a2a407 arm64/sysreg: Convert ID_AA64FDR0_EL1 to automatic generation
+c65c617806ed490cf0ed09a151c627e41ce6e0c6 arm64/sysreg: Convert ID_AA64DFR1_EL1 to automatic generation
+10453bf149c9539c446574932f00ea50438cede5 arm64/sysreg: Convert ID_AA64AFRn_EL1 to automatic generation
+b04b3315021a524d5eecdb6de0d24cf7371d4abf Merge remote-tracking branch 'arm64/for-next/sysreg' into kvmarm-master/next
 
---===============3863767896838861811==--
+--===============6200109676867630853==--
