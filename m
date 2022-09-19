@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Mon, 19 Sep 2022 12:22:09 -0000
-Message-Id: <166359012930.25249.6126587729362092448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 19 Sep 2022 12:23:43 -0000
+Message-Id: <166359022341.25897.13513153644906822506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/wt-2022-09-19
-    old: 0000000000000000000000000000000000000000
-    new: 2c55792e8fccb7fdf0ca82c269b4a083c8ff78a5
+  - ref: refs/heads/kbuild
+    old: b8e29ae91578da46c63ae0224bef16a9fe5739cd
+    new: d786bf6e527265f21002fed1ca34353b330a6253
+    log: |
+         48f513e2b9304affc43dcdf95a150ad02d70f9fd kbuild: use obj-y instead extra-y for objects placed at the head
+         c5a4d77fdcf93c807e7557a0b82b4f7a41923a02 kbuild: remove head-y syntax
+         a9fc4e9b883b6b7b3ecfc41f0a7a05f95bed3871 kbuild: use objtool-args-y to clean up objtool arguments
+         ce5d79d3cb30b644ffe6fcc9cb2c2d67d6edc623 scripts/clang-tools: remove unused module
+         483b3970492d3d5045b324ad32b6f18e450fee6f Kconfig: remove unused function 'menu_get_root_menu'
+         986434785b3b709c096d63ade318dcc85ea57481 Kconfig: remove sym_set_choice_value
+         d2ed1be371b80f97d2141cfcb0c4ecd02e550180 scripts: remove unused argument 'type'
+         d786bf6e527265f21002fed1ca34353b330a6253 kbuild: re-run modpost when it is updated
+         
