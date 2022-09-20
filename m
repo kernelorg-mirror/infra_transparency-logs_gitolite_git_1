@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 20 Sep 2022 14:02:09 -0000
-Message-Id: <166368252979.28733.2572114713715956727@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 14:07:27 -0000
+Message-Id: <166368284714.32144.16208357880949451957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 971479115444e9f575226e76d5443e6e90954e78
-    new: 361c1ca384c93013e08bd117e4fe23ca9739e3f7
+  - ref: refs/heads/gpio/for-current
+    old: 521a547ced6477c54b4b0cc206000406c221b4d6
+    new: 02743c4091ccfb246f5cdbbe3f44b152d5d12933
     log: |
-         6b6af7bd5718f4e45a9b930533aec1158387d552 gpiolib: acpi: Add support to ignore programming an interrupt
-         0ea76c401f9245ac209f1b1ce03a7e1fb9de36e5 gpiolib: acpi: Add a quirk for Asus UM325UAZ
-         361c1ca384c93013e08bd117e4fe23ca9739e3f7 Merge tag 'intel-gpio-v6.1-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
+         b7df41a6f79dfb18ba2203f8c5f0e9c0b9b57f68 gpio: mockup: fix NULL pointer dereference when removing debugfs
+         02743c4091ccfb246f5cdbbe3f44b152d5d12933 gpio: mockup: Fix potential resource leakage when register a chip
          
