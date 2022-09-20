@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0506096820375068304=="
+Content-Type: multipart/mixed; boundary="===============3218644876249984935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 20 Sep 2022 09:51:58 -0000
-Message-Id: <166366751819.17537.6203110286926130057@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 09:52:00 -0000
+Message-Id: <166366752096.17605.5867369533590431501@gitolite.kernel.org>
 
---===============0506096820375068304==
+--===============3218644876249984935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 5df8b473517762e16c5a97c25941897640926a63
-    new: 4edbf74132a4c9b78dc2ee61d31abef15200a781
-    log: |
-         25a9bf46fb74c28d9ccf3360965cdf31f13cea0d mm: Fix TLB flush for not-first PFNMAP mappings in unmap_region()
-         eaeb5d2f0a3fe042824f1db21938eef28ef38f72 drm/msm/rd: Fix FIFO-full deadlock
-         a5e410be468ea8be6e3df7698fc52b51a507aa4b HID: ishtp-hid-clientHID: ishtp-hid-client: Fix comment typo
-         101a952b47c1ba2b27ea1e2a91c240a6ceb49c45 tg3: Disable tg3 device on system reboot to avoid triggering AER
-         e7c1f676c4faf032c0aa9ef3e64bef3e40fd9a7b ieee802154: cc2520: add rc code in cc2520_tx()
-         fe6ab751139382aabc8f96cb379aa5eb735cf879 platform/x86: acer-wmi: Acer Aspire One AOD270/Packard Bell Dot keymap fixes
-         bceb15a2580d6c8a42c4b9a26889d7e3d3f1dad9 tracefs: Only clobber mode/uid/gid on remount if asked
-         4edbf74132a4c9b78dc2ee61d31abef15200a781 Linux 4.14.294
-         
+  - ref: refs/tags/v4.14.294
+    old: 0000000000000000000000000000000000000000
+    new: 60fd7608c73ba2b1d7f549e4e124a013b56b7cd7
 
---===============0506096820375068304==
+--===============3218644876249984935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663667549 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663667551 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1663667515-1163bd6f3099ec1b38bda8829d8cdeb75a834049
+nonce 1663667519-4a61fce586a927304125c42c58f31138324df4cd
 
-5df8b473517762e16c5a97c25941897640926a63 4edbf74132a4c9b78dc2ee61d31abef15200a781 refs/heads/linux-4.14.y
+0000000000000000000000000000000000000000 60fd7608c73ba2b1d7f549e4e124a013b56b7cd7 refs/tags/v4.14.294
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMpjV0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f38P/0F0AHxU2Wq2a19xdm1E
-Xxb+Nk5IWB8IIJoH0uM/h0ydyHUcFUJn4/WWVshJhkIjEn1B00dcqGMLho5ZNVWK
-Wdi6HMhckEZ4dvGokET8zuLCR8pmrPJ+rWxde69iYg1yP3ShY871OWzYUgDC0a8m
-CLIQR1vw4xaqvHbMsi3pHUo2qWleDTbrUDYF3km5es2o+3wDNa8gly8IPBvBVnLS
-eowY9aAROddkN7ZQ+owxkcuMH2fWFhZzJbDPWQzLfrv7dcmKOKHu+yIMb/eL7mCL
-bZVyWP4W/vOsiYRcF7ZY1f1Duu/TW9zzBjN3w9p/FNbU6kg2DGrQMPYIiLUWQrTW
-Ob5UW0o9B9k1dgFuSb/CDaCkSY9vFVaeEfnWYFjpIuNDxiSaI6LvCLU7IsxmZGOs
-Yh/XrNbkF40P7x2XR8zTFtcTZe0HIhXjw2c6+xp5/LFeR0uhUekkXpzA/MXjjhpL
-06Wk27wxJgyKO0tm3g+9wbLBCzMmBxQB50N6sQ7ejcBvA8RU44XCUsoT7OEfcKEg
-DDVFtaG6OVlJj/MKOdnDosuNJCT0tsE8dXR0s2jShLPhqa04AYTSjMcV7fc2+ZDc
-eIXOzU7qAOLpLPPKLJiCBIXxeL3Z57d2PuVk3UlP4Dy7b84dt/GKdnXRaLAWsmfl
-9AxBCithjn05cuzBoeTuj5oo
-=3kvK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMpjV8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+THQP+QEc055N4DXI2s4/Jr2p
+SIB7cvlrkLX/+6pwfQBTM3r3u1EU/vXc5BgN9bPIuvMXPbNZdcSsSCZZ6hd60jvn
+j34XvGbvHf/XpnbD7les2TkOP95i539ln2WPryqLY5ZnvavqWZhlPJltIeQpXemN
+YenqKjGyWqJpOU4tqc4Lhlp+LM0eSjBBX6yLmPPYmKEu+Xy71gdfqVM97P4d0T9H
+XmjYuc7Q56acbjV5lxuGEMpp14qGbTOXvzZPVUR/H+d9FDr7Le1wjx06ViS6H2aW
+LBpRLUwfaufoSoElZ8eovVsB0h5gFj8Eyueh3JkQcv85O2OPwHjYoJrY1ACQvlb0
+NshxygC6lKWcEdoxVCWmrIXL896rb4E0EYV2B5TsbaLVDhA3pE/JGK4PfTQM5rdh
+t4YISn1Qc/BvRWtqqeMPNbXc8TV3fCo8TJ4xOGJaveCYW3c6aFM+ImoUx7AAuFyS
+IfXsd4WZNWrjg2Ur0QT/7LA7eYP8yCtbOIbbtEaZtLJswOTPb9paAwxu85D6kDbK
+g5img1I5Vh2LjCXOL8X4B7QW2xDz/DcAKgAj9WplbZw7SWFuuDEZByMMAhRXCjeK
+zCDTNqJx9RMTH/RIaEqr/SmDoXOCuKQ9j4TDxRKVHEWaN6Q42ymtMYVaNjSEA/jo
+VYBW9nXt1r96PecdclcO0DvI
+=AMbg
 -----END PGP SIGNATURE-----
 
---===============0506096820375068304==--
+--===============3218644876249984935==--
