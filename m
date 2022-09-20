@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 20 Sep 2022 18:14:06 -0000
-Message-Id: <166369764634.18147.2293162365494070085@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6578300324254404018=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 20 Sep 2022 18:16:09 -0000
+Message-Id: <166369776912.20472.17061665740992779551@gitolite.kernel.org>
+
+--===============6578300324254404018==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 09b71adab09570fcc715ff31a6835d0e445e4a54
-    new: c969bb8dbaf2f3628927eae73e7c579a74cf1b6e
+  - ref: refs/heads/master
+    old: 075b35bf5b62778f1a3534dba55420d3e5a4a9fc
+    new: 87e0e464959c026ada435ef744bcd6ca22adccb5
     log: |
-         c969bb8dbaf2f3628927eae73e7c579a74cf1b6e selinux: use "grep -E" instead of "egrep"
+         87e0e464959c026ada435ef744bcd6ca22adccb5 smtp: more fully implement sendemail cmdline compatibility
          
+
+--===============6578300324254404018==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1663697768 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1663697768-f1b0ecf3a4427eef81d2b80c659ff6e8913b8d6a
+
+075b35bf5b62778f1a3534dba55420d3e5a4a9fc 87e0e464959c026ada435ef744bcd6ca22adccb5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyoDaAAKCRC2xBzjVmSZ
+bBfJAQC6mP1wusP+TebKd5Jr1zchFaEhRUUob+3ZX4omkxtMeQEAz0lkqLssmbqE
+mDZGaaEO2Pro7KKLLBQMnvVBzA5w/g8=
+=vSih
+-----END PGP SIGNATURE-----
+
+--===============6578300324254404018==--
