@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Tue, 20 Sep 2022 12:35:55 -0000
-Message-Id: <166367735585.29008.15135203524663492011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 20 Sep 2022 12:36:00 -0000
+Message-Id: <166367736050.29135.17776554623827003443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/uvc-powerline-v3
-    old: fe251cdedf1112d34dc60f0765a6094a3bd567c6
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 2dd7e7bc02829eded71be2342a93dc035f5223f9
