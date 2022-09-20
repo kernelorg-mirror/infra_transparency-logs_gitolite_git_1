@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Tue, 20 Sep 2022 12:35:07 -0000
-Message-Id: <166367730767.28089.12026240542827095422@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 12:35:12 -0000
+Message-Id: <166367731261.28212.10867955404530413370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ribalda/linux
 user: ribalda
 changes:
-  - ref: refs/heads/uvc-compliance-v9
-    old: beafd698f89dd6f61a39c999a3fc65efd7bc68f7
+  - ref: refs/heads/uvc-hw-timestamp-v1
+    old: c3648ac032b1f14c89a0a8e701228eb0c080819f
     new: 0000000000000000000000000000000000000000
