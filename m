@@ -1,19 +1,73 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Sep 2022 20:43:13 -0000
-Message-Id: <166370659383.27722.9484297107996438658@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7074043067257457272=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 20 Sep 2022 20:46:01 -0000
+Message-Id: <166370676164.30300.2090324811006192732@gitolite.kernel.org>
+
+--===============7074043067257457272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: da847246ab80610c5acca34df5893bee1d8cf7c2
-    new: 603ccb3aca717d04a4b1a04e3a7bc3b91eba33e8
-    log: |
-         603ccb3aca717d04a4b1a04e3a7bc3b91eba33e8 MAINTAINERS: Add myself as a reviewer for Qualcomm ETHQOS Ethernet driver
-         
+  - ref: refs/heads/for-6.1
+    old: 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a
+    new: 9f27530a7357c69865da6177db02d3eb230c33a1
+    log: revlist-5ba3522cf8b9-9f27530a7357.txt
+
+--===============7074043067257457272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1663706760 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1663706759-5ba1519eba7f15838271bfe505ac530e2b5d6aca
+
+5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a 9f27530a7357c69865da6177db02d3eb230c33a1 refs/heads/for-6.1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMqJogACgkQJNaLcl1U
+h9DFzQf8CuJb1tO7bm8El9vyl4ihfp6R1imzI76PsuBQK8J/qqCq1Y/hZ7XZHmaH
+F9xVv1pRbASoIfYu8DZnjZRONO3B+s22j5gPVk0wS8hTgiA968QeEP82DNOfRbBS
+kh56Pnfc6286CMJatKfoOLITc7UMdzvnY4L5mPHufW+IsoWuWnQkfptG9naNfLT0
+rDYgXlvF86XUgBbPSLYo95eJdKjZZ/zByhEHbJNE/j0rW9RMksSPIzkGpL6gw4fn
+QE7RScM+Tq1kkmtRv0mvor95azvHD/1OeCUVMqwv0iukGm0K0nKDA1yRIs1DonAl
+cqwLMcJ0eikSJRegBgzxV+dfz4uJ7w==
+=h6kb
+-----END PGP SIGNATURE-----
+
+--===============7074043067257457272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ba3522cf8b9-9f27530a7357.txt
+
+23162672ff85c24afc19293309500d3a63134ef8 ASoC: dt-bindings: cs42l42: Add 'cs42l83' compatible
+7e178946c3e4e64cebda4e60d0b7e5c02a502d13 ASoC: cs42l42: Add bitclock frequency argument to cs42l42_pll_config()
+2feab7e7d8c01b67d9ffbfb902d1591c08e9d564 ASoC: cs42l42: Use cs42l42->dev instead of &i2c_client->dev
+0285042feda799edca63b35cea0cda32ed0c47c2 ASoC: cs42l42: Split probe() and remove() into stages
+56746683c2560ba5604bb212f73eb01f5edfd312 ASoC: cs42l42: Split cs42l42_resume into two functions
+52c2e370df07092437d1515e773d28a5f53fc810 ASoC: cs42l42: Pass component and dai defs into common probe
+ae9f5e607da47104bc3d02e5c0ed237749f5db51 ASoC: cs42l42: Split I2C identity into separate module
+30b679e2cb058c3dcf6d3ebdf10999f0a7a1644d ASoC: cs42l42: Export regmap elements to core namespace
+94d5f62a91aab6ac9c3f4abfd048cbe5f77153ac ASoC: cs42l83: Extend CS42L42 support to new part
+ab2940a72dfa823af09abf593512459afe3da460 ASoC: cs42l42: Implement 'set_bclk_ratio'
+ac088c31d496b885d8268bd1c9746c3c76bf7078 ASoC: cs42l42: Switch to dev_err_probe() helper
+9ccbc2e12e01b39b804774c3207d2474dd992d95 ASoC: SOF: Intel: hda: refine SSP count support
+d136949dd8e2e309dc2f186507486b71cbe9acdb ASoC: SOF: add quirk to override topology mclk_id
+78091edc1c7806846049e1d480f6a8051507ed94 ASoC: SOF: mediatek: add pcm_hw_params callback for mt8186
+72176fccd5de1d9cf61e42771bb00567723f3353 ALSA: hda: intel-nhlt: add intel_nhlt_ssp_mclk_mask()
+d9252772cdc811beedabbcf21ef856d09b87d1dd ASoC: SOF: Intel: hda: override mclk_id after parsing NHLT SSP blob
+3c193b5f530e32dfb4aeb845678ed30aa60b67c1 ASoC: SOF: Intel: override mclk_id for ES8336 support
+9f27530a7357c69865da6177db02d3eb230c33a1 Support for CS42L83 on Apple machines
+
+--===============7074043067257457272==--
