@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8968034206909840052=="
+Content-Type: multipart/mixed; boundary="===============0969552778991329488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 20 Sep 2022 17:16:49 -0000
-Message-Id: <166369420924.9207.6594987207721199302@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 17:18:04 -0000
+Message-Id: <166369428485.9725.11658174526474874225@gitolite.kernel.org>
 
---===============8968034206909840052==
+--===============0969552778991329488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: d80384ba57e34cc7a87ead9a96645cfb09cddeb2
-    new: cd9ef47286dc37652e5349dc6e6a7da7be84e02b
-    log: revlist-d80384ba57e3-cd9ef47286dc.txt
+  - ref: refs/heads/net-mlx4
+    old: 96628951869c0dedf0377adca01c8675172d8639
+    new: 1c48709e6d9d353acaaac1d8e33474756b121d78
+    log: revlist-96628951869c-1c48709e6d9d.txt
 
---===============8968034206909840052==
+--===============0969552778991329488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d80384ba57e3-cd9ef47286dc.txt
+Content-Disposition: attachment; filename=revlist-96628951869c-1c48709e6d9d.txt
 
 b1cb8a71f1eaec4eb77051590f7f561f25b15e32 batman-adv: Fix hang up with small MTU hard-interface
 4d8421f2dd88583cc7a4d6c2a5532c35e816a52a wifi: iwlwifi: don't spam logs with NSS>2 messages
@@ -50,6 +50,5 @@ ae8ffba8baad651af706538e8c47d0a049d406c6 bnxt_en: fix flags to check for support
 90fdd1c1e9c49bcb46cde589dbdee94a6977086a Merge branch 'revert-fec-ptp-changes'
 db4192a754ebd52300a28abe1a50dd18eae0eb12 tcp: read multiple skbs in tcp_read_skb()
 1c48709e6d9d353acaaac1d8e33474756b121d78 of: mdio: Add of_node_put() when breaking out of for_each_xx
-cd9ef47286dc37652e5349dc6e6a7da7be84e02b net/mlx5e: Do not increment ESN when updating IPsec ESN state
 
---===============8968034206909840052==--
+--===============0969552778991329488==--
