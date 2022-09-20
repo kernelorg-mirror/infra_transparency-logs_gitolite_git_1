@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Tue, 20 Sep 2022 18:54:44 -0000
-Message-Id: <166370008485.14933.9482655421379310302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 20 Sep 2022 18:57:05 -0000
+Message-Id: <166370022529.18472.5158938379961610388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/linux
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/iwl-next
-    old: 521a547ced6477c54b4b0cc206000406c221b4d6
-    new: 0e793a887ce8fc1110dd8f63c886653f60c9ff0f
+  - ref: refs/heads/master
+    old: 589c6eded10c77a12b7b2cf235b6b19a2bdb91fa
+    new: da847246ab80610c5acca34df5893bee1d8cf7c2
     log: |
-         db5f3fc0efd66c1b5a24e2677d0f1d26ac336505 ice: Add structs and enum entries for new AQ command
-         782698c4510cc601011b4b673b8f9430f3f8a230 ice: expose Switch Block related functions and macros
-         dac2ec1d84d00e10612410cfe1d765a9b5a0510f ice: Add supporting elements for Large Actions
-         0d34a7e6fe32cef3d6011357389f35d594138972 ice: implement an ordered workqueue to process netdev bonding events
-         c76e15f9aede2f71113d6bfecad772d74659e349 ice: Introduce feature flag and mutex for LAG
-         e67a910f3cd791a56a2c3bdec62d76f8e78422b0 ice: Implement RDMA + active-backup LAG support
-         0e793a887ce8fc1110dd8f63c886653f60c9ff0f ice: remove PF flag for auxiliary plug/unplug
+         684dec3cf45da2b0848298efae4adf3b2aeafeda wireguard: ratelimiter: disable timings test by default
+         8e25c02b8cce7063ae9f08cad51d246a60370bc9 wireguard: selftests: do not install headers on UML
+         26c013108c12b94bc023bf19198a4300596c98b1 wireguard: netlink: avoid variable-sized memcpy on sockaddr
+         0507246d9e7aaac21e14d653eea7111106e6a136 Merge branch 'wireguard-patches-for-6-0-rc6'
+         fed38e64d9b99d65a36c0dbadc3d3f8ddd9ea030 net: enetc: move enetc_set_psfp() out of the common enetc_set_features()
+         5641c751fe2f92d3d9e8a8e03c1263ac8caa0b42 net: enetc: deny offload of tc-based TSN features on VF interfaces
+         76dd07281338da6951fdab3432ced843fa87839c ipv6: Fix crash when IPv6 is administratively disabled
+         db46e3a88a09c5cf7e505664d01da7238cd56c92 net/sched: taprio: avoid disabling offload when it was never enabled
+         1461d212ab277d8bba1a753d33e9afe03d81f9d4 net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs
+         da847246ab80610c5acca34df5893bee1d8cf7c2 Merge branch 'fixes-for-tc-taprio-software-mode'
          
