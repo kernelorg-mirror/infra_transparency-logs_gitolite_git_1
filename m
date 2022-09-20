@@ -1,28 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 20 Sep 2022 14:31:07 -0000
-Message-Id: <166368426732.18300.6005949885561953897@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2095925319961202110=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 20 Sep 2022 14:32:06 -0000
+Message-Id: <166368432641.18719.14614262368024695403@gitolite.kernel.org>
+
+--===============2095925319961202110==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 5768adcb35ba57459630c2009e900692cecfc78e
-    new: 21432fc22c48295652f989ea316e3cec69583729
+  - ref: refs/heads/master
+    old: 8af31dfaa59e36ccb33f916e6ef8580327380cbd
+    new: 075b35bf5b62778f1a3534dba55420d3e5a4a9fc
     log: |
-         009aeddecef3fd3514171af0d53b6ee8606f9c94 hwmon: (pmbus) Add driver for the TEXAS TPS546D24 Buck Converter.
-         700dbcf59109ed2cd22fbbd518e4973373a69529 hwmon: (pwm-fan) Refactor fan power on/off
-         1448dc88393313424c23c4d6880a82087d87c204 hwmon: (pwm-fan) Simplify enable/disable check
-         3cc572fca5ca5a6f2441fd8595e5b0be0ab06cfb hwmon: (pwm-fan) Add dedicated power switch function
-         713e1fc4a45b240a595138a3fba063f6eceeb47e hwmon: (pwm-fan) split __set_pwm into locked/unlocked functions
-         e8071c71d64e1df71382b23352cd3fd4cda94bb8 hwmon: (pwm-fan) Switch regulator dynamically
-         f5c55a97d492b38fa2e8a741ffccad89ddf29dd3 hwmon: (pc87360) Introduce a #define for the driver name and use it
-         3701e0adf3c8e6bfa5e5d39d6d069c458b37ee9e hwmon: (pc87360) Reorder symbols to get rid of a few forward declarations
-         f2416274cb2183e6ed1dbaa904aec88f17d79eb9 hwmon: (vt8231) Introduce a #define for the driver name and use it
-         21432fc22c48295652f989ea316e3cec69583729 hwmon: (vt8231) Reorder symbols to get rid of a few forward declarations
+         075b35bf5b62778f1a3534dba55420d3e5a4a9fc Skip running smtp.quit to avoid checks for smtp server
          
+  - ref: refs/heads/stable-0.10.y
+    old: 0da674d718c670a583d1a4a308b43e2bc641f55f
+    new: 2cb43ca4aa3268aaeb304b73dc9dc1130dc6ea08
+    log: |
+         2cb43ca4aa3268aaeb304b73dc9dc1130dc6ea08 Skip running smtp.quit to avoid checks for smtp server
+         
+
+--===============2095925319961202110==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1663684326 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1663684325-b45d41048054ecebc39f439b93485013606da922
+
+8af31dfaa59e36ccb33f916e6ef8580327380cbd 075b35bf5b62778f1a3534dba55420d3e5a4a9fc refs/heads/master
+0da674d718c670a583d1a4a308b43e2bc641f55f 2cb43ca4aa3268aaeb304b73dc9dc1130dc6ea08 refs/heads/stable-0.10.y
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYynO5gAKCRC2xBzjVmSZ
+bP+FAP9EAKZtao5JSnmwz55ik83HUBpEOSHUoxQozqlnEN/tMQD+IF8lcXuG/xdW
+UTkPqNq2zTOcfMJsuuKBrUG9fUDj6ww=
+=qP5a
+-----END PGP SIGNATURE-----
+
+--===============2095925319961202110==--
