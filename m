@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5243981138161455813=="
+Content-Type: multipart/mixed; boundary="===============7708620858995342558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Tue, 20 Sep 2022 05:49:46 -0000
-Message-Id: <166365298657.28108.7392016750328960864@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 05:49:57 -0000
+Message-Id: <166365299753.28263.1269833986582427801@gitolite.kernel.org>
 
---===============5243981138161455813==
+--===============7708620858995342558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,68 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
-  - ref: refs/heads/lto-base
-    old: ff6992735ade75aae3e35d16b17da1008d753d28
-    new: 521a547ced6477c54b4b0cc206000406c221b4d6
-    log: revlist-ff6992735ade-521a547ced64.txt
+  - ref: refs/heads/lto
+    old: cac43cde6f899dda51a196018f029d1207e6dfc5
+    new: 429db2024dd9e016d893a3d5e1d6c6eeae95e822
+    log: revlist-cac43cde6f89-429db2024dd9.txt
 
---===============5243981138161455813==
+--===============7708620858995342558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff6992735ade-521a547ced64.txt
+Content-Disposition: attachment; filename=revlist-cac43cde6f89-429db2024dd9.txt
 
-d10a72de54c2d2990721923e025ea505fa4f5b02 get_maintainer: add Alan to .get_maintainer.ignore
-37887783b3fef877bf34b8992c9199864da4afcb Revert "zram: remove double compression logic"
-5535be3099717646781ce1540cf725965d680e7b mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
-a8faed3a02eeb75857a3b5d660fa80fe79db77a3 kernel/sys_ni: add compat entry for fadvise64_64
-a39c5d3ce03dd890ab6a9be44b21177cec32da55 mm: add DEVICE_ZONE to FOR_ALL_ZONES
-efd4149342db2df41b1bbe68972ead853b30e444 mm/smaps: don't access young/dirty bit if pte unpresent
-f369b07c861435bd812a9d14493f71b34132ed6f mm/uffd: reset write protection when unregister with wp-mode
-f96f7a40874d7c746680c0b9f57cef2262ae551f mm/hugetlb: fix hugetlb not supporting softdirty tracking
-1d8d14641fd94a01b20a4abbf2749fd8eddcf57b mm/hugetlb: support write-faults in shared mappings
-cb241339b9d020c758a6647c69f8e42538c5cf88 mm/shmem: fix chattr fsflags support in tmpfs
-15f242bb65b89d5f1ff990668a586fdf1307b2c8 mm/shmem: tmpfs fallocate use file_modified()
-76d36dea02691a8ffa8cd7368eecbf727b8a1c0c mm/shmem: shmem_replace_page() remember NR_SHMEM
-9c80e79906b4ca440d09e7f116609262bb747909 kprobes: don't call disarm_kprobe() for disabled kprobes
-7ae1f5508d9a33fd58ed3059bd2d569961e3b8bd parisc: Fix exception handler for fldw and fstw instructions
-706dd9d30d3bda4e31d423af004c22d48e89fbc9 arm64: dts: imx8mp-venice-gw74xx: fix sai2 pin settings
-c7afab4ac7bd5137e20711fba5ba34ee67b72710 arm64: dts: imx8mp: Adjust ECSPI1 pinmux on i.MX8M Plus DHCOM
-3df71d7064cbb19a3ac0e5dc25ece2bbf3a4d9af Revert "i2c: scmi: Replace open coded device_get_match_data()"
-d98bdd3a5b50446d8e010be5b04ce81c4eabf728 i2c: imx: Make sure to unregister adapter on remove()
-8eaac789128a84e79c193e662959469e824423ee arm64: dts: imx8mq-tqma8mq: Remove superfluous interrupt-names
-b66905e04dc714825aa6cffb950e281b46bbeafe RDMA/rtrs-clt: Use the right sg_cnt after ib_dma_map_sg
-56c310de0b4b3aca1c4fdd9c1093fc48372a7335 RDMA/rtrs-srv: Pass the correct number of entries for dma mapped SGL
-fc2e426b1161761561624ebd43ce8c8d2fa058da x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
-83c75e1bc2b83b3f0c718833bde677ebfa736283 ARM: dts: imx6qdl-vicut1.dtsi: Fix node name backlight_led
-204f67d86f55dd4fa757ed04757d7273f71a169c ARM: dts: imx6qdl-kontron-samx6i: remove duplicated node
-af7d78c957017f8b3a0986769f6f18e57f9362ea ARM: dts: imx6qdl-kontron-samx6i: fix spi-flash compatible
-e7406f864e765c564c5cf384464faff66114f97d arm64: dts: ls1028a-qds-65bb: don't use in-band autoneg for 2500base-x
-df88005bd81b80c944d185554e264a4b0f993c37 soc: imx: gpcv2: Assert reset before ungating clock
-a0a12c3ed057af57552bf6c0aeaca6835693df04 asm goto: eradicate CC_HAS_ASM_GOTO
-367bcbc5b5ffc7164fb6ce1547e84dbf21795562 Merge tag '6.0-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-cfbd76d5c9c449739bb74288d982bccf9ff822f4 iio: adc: mcp3911: correct "microchip,device-addr" property
-9e2238e3ae40d371a1130226e0e740aa1601efa6 iio: adc: mcp3911: use correct formula for AD conversion
-767470209cedbe2cc72ba38d77c9f096d2c7694c dt-bindings: iio: gyroscope: bosch,bmg160: correct number of pins
-22b4277641c6823ec03d5b1cd82628e5e53e75b7 iio: ad7292: Prevent regulator double disable
-0096fc879358ad6b82ee7e790c07b118c515c980 iio: light: cm32181: make cm32181_pm_ops static
-e3f259d33c0ebae1b6e4922c7cdb50e864c81928 Merge tag 'i2c-for-6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-d8a64313c171464aedd6289378a51c8f0f524acb tracing: React to error return from traceprobe_parse_event_name()
-7249921d94ff64f67b733eca0b68853a62032b3d tracing/perf: Fix double put of trace event when init fails
-c3b0f72e805f0801f05fa2aa52011c4bfc694c44 ftrace: Fix NULL pointer dereference in is_ftrace_trampoline when ftrace is dead
-2673c60ee67e71f2ebe34386e62d348f71edee47 tracing/eprobes: Do not allow eprobes to use $stack, or % for regs
-02333de90e5945e2fe7fc75b15b4eb9aee187f0a tracing/eprobes: Do not hardcode $comm as a string
-f04dec93466a0481763f3b56cdadf8076e28bfbf tracing/eprobes: Fix reading of string fields
-6a832ec3d680b3a4f4fad5752672827d71bae501 tracing/eprobes: Have event probes be consistent with kprobes and uprobes
-ab8384442ee512fc0fc72deeb036110843d0e7ff tracing/probes: Have kprobes and uprobes use $COMM too
-b2380577d4fe1c0ef3fa50417f1e441c016e4cbe tracing: Have filter accept "common_cpu" to be consistent
-7fb312d2256da63e6e4c6e92d279a90fe44bcabd Merge tag 'trace-v6.0-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-4f61f842d199a695bb0c310945f7f320c1730abc Merge tag 'perf-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4daa6a81c07c54f989e70d682fa0bff568c14df0 Merge tag 'irq-urgent-2022-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1c23f9e627a7b412978b4e852793c5e3c3efc555 Linux 6.0-rc2
-2fa24aa721ebb3a83dd2093814ba9a5dcdaa3183 arm64: dts: verdin-imx8mm: add otg2 pd to usbphy
-7f4dbc3f26e5cb1f056faaaf14277f48c4682fff arm64: dts: imx8mm-venice-gw7901: fix port/phy validation
-17fe7251d3c7504e85acf0d4ec2eb54e11cbc386 arm64: dts: imx8mp: Fix I2C5 GPIO assignment on i.MX8M Plus DHCOM
 90974f655922219c0a0cdce7ae8de7f30c549cb5 arm64: dts: freescale: verdin-imx8mm: fix atmel_mxt_ts reset polarity
 8f143b9f3849828870bb2a7f28288095ad9a329d arm64: dts: freescale: verdin-imx8mp: fix atmel_mxt_ts reset polarity
 233f56745be446b289edac2ba8184c09365c005e drm/i915/reg: Fix spelling mistake "Unsupport" -> "Unsupported"
@@ -1050,5 +999,56 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
+3f39a012c1d047b861e6f9b647efc548abd58e1f clk: pistachio: Fix initconst confusion
+b14abbbfc3386b444d9244489ddbb72f54157f17 locking: Mark spinlocks noinline when inline spinlocks are disabled
+70d9e7f86f46e9def0997799cf7ed23ff6a5124e kbuild: pass jobserver to cmd_ld_vmlinux.o
+b80bcc650210ea500162ae435346d0b23fa6c363 kbuild: lto: preserve MAKEFLAGS for module linking
+1f2184f83ada4042a3621d8f47655367b0a04372 Compiler Attributes: Add __visible_on_lto
+169659a9609eb6952340ca72a4022a44f2ec31b8 tracepoint: Make static call functions visible
+31a184a2299d33c2237f0798869be8dc31262a27 static_call: Make static keys visible
+ab191e37c1fe4a75ade34af55b2c16914dbea7b9 static_call: Make static_call_return0 visible for LTO
+8ec36eb2744aac794c7ab414c002c3a7bc8b5007 static_call: Make static call functions visible
+8655285b39e15479bc76edf167504ec8bbbe3220 x86/xen: Mark xen_vcpu_stolen as __visible
+e01f606ae346f30c68b7891ca65b25707b2ff554 x86/preempt/lto: Make preempt_schedule_thunk* __visible
+e9aae64bfe20de58ed1bca0ee99bfb7cf47017db softirq/lto: Make irq_exit_rcu visible
+9c4b103071ad3d6406801c5f63a8e35fbb0f9b8e x86,lto: Make symbols visible for LTO
+8b17c1a51927919d8e0f0e348d2ebcf557b4bc0f entry: Make irqentry_exit_cond_resched __visible
+74cdbb6196ffcb8c7e0f1ec40de06974ebe6677b x86,lto: mark cpuid_table_copy __visible_on_lto
+67eb80fbcd5eb716e5e58bc9eeacf7544bf6cb9e btf, lto: Make all BTF IDs global
+bf37a9b27bd9b38b18a7f385f9163603f20043de cpufreq, amd-pstate, lto: make static calls __visible_on_lto
+0b85a25495c3950b260fcd8fda9417e81cdeda9f lto: Export export symbol assembler symbols for LTO
+a414ad386c393dd35a6fc9b28ff19118108e0f4a x86/alternative/lto: Export int3 assembler symbols for LTO
+7ba60e67506bd904ce6d2c0ca409fa9959513dd9 x86/paravirt/lto: Export native_steal_clock
+f14bc1b137deab76605235233786ece00e0dd019 lto: Add __noreorder and mark initcalls __noreorder
+782293b66b1b2a84221eb4f91561a099f0a6ac12 lto, bpf: Mark interpreter jump table as noreorder
+11ad0d33efbc516ffee33684aeefb064d3c95c6f sched, lto: Mark sched classes as __noreorder
+375456d7e31edb2df96bc5c386af65742325f832 apic: add __noreorder to apic_driver*()
+45c49901d1ec9d262a34b06cc022f795ccf6a089 lto: Use C version for SYSCALL_ALIAS / cond_syscall
+7e5a0ccc0672d9f27567f98bb77a2e556a4b1a10 Kbuild, lto: Re-add gcc-ld
+772dbc0eb826c8b265e2f0bf300dd50fe9d22e6b lto: Use CONFIG_LTO for many LTO specific actions
+a2e87c0c4068e12f6465da632d0fc92e7bd2db5f Kbuild, lto: Add Link Time Optimization support
+2ad3393157f276599f817afd0c036739c2139e5f Documentation: lto: add blank line padding before single requirement list
+67ee43cfeffa8b4a946b919d6aab01e809d39d23 Documentation: lto: use bullet list for FAQ
+c5923a61714756cca09ec8224e6ece4fa20f1e7b Documentation: lto: use bullet lists for external link references list
+0d1b357026d4804b021d14e5a2ac09cad455661d Documentation: lto: add LTO documentation to toc index
+929c4d26d78bda3f4556e7536f9e1f6b8205aab0 x86/purgatory/lto: Disable gcc LTO for purgatory
+9962a1b1c55f51a5754da986b4eff51cf6230d71 x86/realmode/lto: Disable gcc LTO for real mode code
+3efbb7c88a2b8bb9b9660530d5a72cf8ddbc5236 x86/vdso/lto: Disable gcc LTO for the vdso
+e5ecc1aae2872030f15bf1afb8bacd74ee453e9e Kbuild, lto: Disable gcc LTO for mod tools
+7bd503ea9e4b44bf1b3006e4b57c604971639ba3 Kbuild, lto: Disable gcc LTO for bounds/asm-offset
+edae271176f2c94996fe524ccfae598ae1997191 lto: Disable gcc LTO for string.o
+783335f1380ec9669785d043e3a5980fb69769ba Compiler attributes: Disable __flatten with LTO
+71fa8d8c4281355fbc66bab15fbb9a2b498f6921 Kbuild, lto: Don't include weak source file symbols in System.map
+eaceb561c48153a99a6f774c40a0a043831c9221 x86/lto: Disable relative init pointers with LTO
+dbfb33b2947eb8a796d57872ae168515b65be7de x86/livepatch/lto: Disable live patching with LTO
+b5d2efe0c5f01dba2f0728f009b994ebae97707c x86/module/lto: Don't take address of memcpy
+288e87756b364969ef2991c214ded5e0168e0c8d x86/lto: Mark 32bit mem{cpy,move,set} __used
+0ce58e7bdfaa4cc0b0ecc3c1d3b342b7c816d20d mm/kasan,lto: Mark kasan mem{cpy,move,set} __used
+62881712b989f7ee9b671f4900812b2f13af9716 x86/lto: Finally enable LTO for x86
+c11904dd15a43463c0aef4c7d402eeca708c9bcc kbuild/lto: Check for C symbol for modversions
+5048ea37a0e906ea90ab5b85d6bd9cc2103f087b kbuild/bloat-o-meter: Handle gcc LTO
+b8aca9a738ed75e571b2f9a761b8a9896c686a48 kasan: remove extra BUILD_BUG in memory_is_poisoned
+512fb858f4dd54f92a15f1b8fd3fbb9799368545 objtool: Fix segfault
+429db2024dd9e016d893a3d5e1d6c6eeae95e822 Revert "objtool: Fix segfault"
 
---===============5243981138161455813==--
+--===============7708620858995342558==--
