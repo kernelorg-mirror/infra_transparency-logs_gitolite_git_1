@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 20 Sep 2022 13:31:46 -0000
-Message-Id: <166368070612.6979.15593378133542828010@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 13:31:56 -0000
+Message-Id: <166368071647.7135.6574927174018611092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: bentiss
 changes:
-  - ref: refs/heads/for-6.1/multitouch
+  - ref: refs/heads/for-6.1/topre
     old: 0000000000000000000000000000000000000000
-    new: be6e2b5734a425941fcdcdbd2a9337be498ce2cf
+    new: a109d5c45b3d6728b9430716b915afbe16eef27c
