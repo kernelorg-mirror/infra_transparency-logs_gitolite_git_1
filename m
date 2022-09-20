@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7074043067257457272=="
+Content-Type: multipart/mixed; boundary="===============2445102961369305558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 20 Sep 2022 20:46:01 -0000
-Message-Id: <166370676164.30300.2090324811006192732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 Sep 2022 20:46:08 -0000
+Message-Id: <166370676845.30409.11278106192030009025@gitolite.kernel.org>
 
---===============7074043067257457272==
+--===============2445102961369305558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a
     new: 9f27530a7357c69865da6177db02d3eb230c33a1
     log: revlist-5ba3522cf8b9-9f27530a7357.txt
 
---===============7074043067257457272==
+--===============2445102961369305558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663706760 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1663706759-5ba1519eba7f15838271bfe505ac530e2b5d6aca
+pusher C3F436CA30F5D8EB 1663706766 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1663706766-a7b8cf7e1d2f26c81fd37c76bf85eecc1e22f310
 
-5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a 9f27530a7357c69865da6177db02d3eb230c33a1 refs/heads/for-6.1
+5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a 9f27530a7357c69865da6177db02d3eb230c33a1 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMqJogACgkQJNaLcl1U
-h9DFzQf8CuJb1tO7bm8El9vyl4ihfp6R1imzI76PsuBQK8J/qqCq1Y/hZ7XZHmaH
-F9xVv1pRbASoIfYu8DZnjZRONO3B+s22j5gPVk0wS8hTgiA968QeEP82DNOfRbBS
-kh56Pnfc6286CMJatKfoOLITc7UMdzvnY4L5mPHufW+IsoWuWnQkfptG9naNfLT0
-rDYgXlvF86XUgBbPSLYo95eJdKjZZ/zByhEHbJNE/j0rW9RMksSPIzkGpL6gw4fn
-QE7RScM+Tq1kkmtRv0mvor95azvHD/1OeCUVMqwv0iukGm0K0nKDA1yRIs1DonAl
-cqwLMcJ0eikSJRegBgzxV+dfz4uJ7w==
-=h6kb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMqJo4ACgkQJNaLcl1U
+h9C6lQf/QO3zM1DBCXk63o6np0OY9GN+GJrdnEVmPq3E8+YCfruo9LfGrEzl4Q70
+rfuO5fp6br6zNtbD9WPvm7Bv0QZ9ak3AcW33B8C52jkTGHzgJ8Bb4DCquKp8U+Zm
+KXrixTizAVl4eSvFhTTz26DfCV3eH36oFb1MKvOZ2Skkg7x5/NKnmynKlTS9LfOk
+E/MW1/0wJNgD5RvIBQYOLGB0NPxb7qVKtGnBzpepVZ38eQ2lr8+XtHLzHlbt4AXu
+IWKBmtfJoExZjVlqXZjsWyfepgMA8+DHBIgpzcOIT4pE98KFFNANGdO+9uG9xiJa
+j5rerpD9TSTxytI6h2EWWLYtbxG18A==
+=Rszr
 -----END PGP SIGNATURE-----
 
---===============7074043067257457272==
+--===============2445102961369305558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ d9252772cdc811beedabbcf21ef856d09b87d1dd ASoC: SOF: Intel: hda: override mclk_id
 3c193b5f530e32dfb4aeb845678ed30aa60b67c1 ASoC: SOF: Intel: override mclk_id for ES8336 support
 9f27530a7357c69865da6177db02d3eb230c33a1 Support for CS42L83 on Apple machines
 
---===============7074043067257457272==--
+--===============2445102961369305558==--
