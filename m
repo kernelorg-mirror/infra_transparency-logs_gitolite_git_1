@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2337662214350131938=="
+Content-Type: multipart/mixed; boundary="===============5856336887956170359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 20 Sep 2022 16:14:24 -0000
-Message-Id: <166369046410.27613.8092964819469592719@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 16:14:29 -0000
+Message-Id: <166369046940.27736.2497019279132489231@gitolite.kernel.org>
 
---===============2337662214350131938==
+--===============5856336887956170359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 96628951869c0dedf0377adca01c8675172d8639
-    new: d547c1b717fc5a1e062307e1efdf81590ba9f6c1
-    log: revlist-96628951869c-d547c1b717fc.txt
+  - ref: refs/heads/dev-queue
+    old: 7c92352ce5b0b83ca4d3ef7524095c8a451a7ce4
+    new: dfedec6b40398e16f4c6e50a84c20c897fbc7f9d
+    log: revlist-7c92352ce5b0-dfedec6b4039.txt
 
---===============2337662214350131938==
+--===============5856336887956170359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96628951869c-d547c1b717fc.txt
+Content-Disposition: attachment; filename=revlist-7c92352ce5b0-dfedec6b4039.txt
 
 b1cb8a71f1eaec4eb77051590f7f561f25b15e32 batman-adv: Fix hang up with small MTU hard-interface
 4d8421f2dd88583cc7a4d6c2a5532c35e816a52a wifi: iwlwifi: don't spam logs with NSS>2 messages
@@ -55,5 +55,16 @@ b07a9b26e2b1aa3711fd6935eccb08a463b1fb11 ipmr: Always call ip{,6}_mr_forward() f
 2b5a8c8f59d9dff49f273bafbde57d5a7dc2706a selftests: forwarding: Add test cases for unresolved multicast routes
 68fe503c2b8065791c98979790a7b91e198d3006 Merge branch 'ipmr-always-call-ip-6-_mr_forward-from-rcu-read-side-critical-section'
 d547c1b717fc5a1e062307e1efdf81590ba9f6c1 net: clear msg_get_inq in __get_compat_msghdr()
+abf1b617d6c4e45d5e723ecba626b1d8d9fbb436 ice: config netdev tc before setting queues number
+df761503f98b90a848be02bee5de64fe9bc48e15 i40e: Fix set max_tx_rate when it is lower than 1 Mbps
+5d45415a0d07ddfabfaa35a6c486686e6a7b98d4 ice: xsk: change batched Tx descriptor cleaning
+1900ff79517f8c73775b24fea7d50654d7941c6f ice: xsk: drop power of 2 ring size restriction for AF_XDP
+4f90748c3daea77faca4f6aad39c7a8aa8f9af23 ice: Fix interface being down after reset with link-down-on-close flag on
+ca44f15bda6f57441ec084824d98208c206a653c i40e: Fix ethtool rx-flow-hash setting for X722
+775386f7262cffedc247ac891703cc58525262ad iavf: Fix vf set max mtu size with port vlan and jumbo frames
+b65f9d5e04a517a7b41438e9792ce6f5464c8fd2 i40e: Fix vf set max mtu size
+30a3f448cc3553d141af1162221b49ee5b87ea9b i40e: Fix not setting xps_cpus after reset
+265c25d68caf546bf275ba10692d78e34d5a9122 iavf: Fix bad page state
+dfedec6b40398e16f4c6e50a84c20c897fbc7f9d ice: fix rmmod crash when ts2phc is running
 
---===============2337662214350131938==--
+--===============5856336887956170359==--
