@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 20 Sep 2022 13:41:03 -0000
-Message-Id: <166368126367.13563.1373606954145636866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 20 Sep 2022 13:42:18 -0000
+Message-Id: <166368133898.14074.13979040820110594502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/arm64/kpti-mutex-fix
-    old: 1dacc5b830954057f64d317aebe313eaf50a0207
-    new: b72c8bc12929a82ef5f0473c0c20fa0eed16b63c
+  - ref: refs/heads/master
+    old: 6791adca66c2ce0b42d4ecafb9aceca6082452ae
+    new: 7f9955232c08da96c3422ca90eb514b7d712dd3d
     log: |
-         b72c8bc12929a82ef5f0473c0c20fa0eed16b63c arm64: mm: don't acquire mutex when rewriting swapper
+         7f9955232c08da96c3422ca90eb514b7d712dd3d Drop drm-i915-implement-waedplinkratedatareload.patch from 5.4
          
