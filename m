@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Tue, 20 Sep 2022 09:58:57 -0000
-Message-Id: <166366793729.20439.5639134350314490876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 20 Sep 2022 10:01:57 -0000
+Message-Id: <166366811745.23442.11476007584238116974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 0c8364509a8ff03643e91cbe86c9e62ab910ddd5
-    new: baf8fc16729f425f7118e76bafb9fa5242fe552c
+  - ref: refs/heads/next
+    old: c5d5cba795e29ad659271a7ed2dbc87ce1104f7c
+    new: c37b830fef1396f9f2ad79a65700e152ec362543
     log: |
-         f52d74b190f8d10ec01cd5774eca77c2186c8ab7 open: always initialize ownership fields
-         baf8fc16729f425f7118e76bafb9fa5242fe552c Merge branch 'fs.chown_common.fix' into for-next
+         c37b830fef1396f9f2ad79a65700e152ec362543 arm64: efi: enable generic EFI compressed boot
          
