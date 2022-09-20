@@ -1,49 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============9102955929665446025=="
+Content-Type: multipart/mixed; boundary="===============8968034206909840052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 20 Sep 2022 17:09:05 -0000
-Message-Id: <166369374574.3399.13780090814049096146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 20 Sep 2022 17:16:49 -0000
+Message-Id: <166369420924.9207.6594987207721199302@gitolite.kernel.org>
 
---===============9102955929665446025==
+--===============8968034206909840052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/damon/next
-    old: ca59b641b53da7a97667b94cadb9acdd6c3b78c0
-    new: 9f8c009ae9036b57e9bd5924a6b1649f059ce0d1
-    log: revlist-ca59b641b53d-9f8c009ae903.txt
+  - ref: refs/heads/net-mlx5
+    old: d80384ba57e34cc7a87ead9a96645cfb09cddeb2
+    new: cd9ef47286dc37652e5349dc6e6a7da7be84e02b
+    log: revlist-d80384ba57e3-cd9ef47286dc.txt
 
---===============9102955929665446025==
+--===============8968034206909840052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca59b641b53d-9f8c009ae903.txt
+Content-Disposition: attachment; filename=revlist-d80384ba57e3-cd9ef47286dc.txt
 
-8ba3cef5c2d13309396ec8b7c9a4ba591b6e1c67 mm/damon/sysfs: return 'err' value when call kstrtoul() failed
-5c71273ae223cbb166c8751c47a9098b88e0f078 mm/damon: deduplicate damon_{reclaim,lru_sort}_apply_parameters()
-4888f77f2c07e747648e79b90f70ddf4a1a9ddfd ==== YuanChu's DAMON kselftest fix ====
-b5c37da92bc7aa4da9c77f4c7d73b47b14ee73e9 selftests/damon: suppress compiler warnings for huge_count_read_write
-bc788a412a33770e78d814a6d28449d46cca5544 === commits having no plan to post for now ===
-e3de7bd6da2e19157b6138a5e323d26c99a9d6ed tools/perf: Integrate DAMON in perf
-813ac4c128928ff48b7ad0dd7693293e4a9dcf44 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-6eef4cf9f9b30cff4ca45be55ad46368be9c4bf4 selftests/damon: Test target_ids_write()'s pids leaks
-f12bd8f0789e62d195aabf507614af6875c2b73f === Commits aiming not to be posted ===
-2886230666fa8be65cfb2d511b7ea6e51383bd0c mm/damon: Add debug code
-b8701c3c6e87d9c9c52cc55124e511d50397508a Docs: Modify for DAMON only
-a0b94f2593600791f76649477c2c0243ac8eb580 Docs/DAMON: Add more docs -next doc
-e166bcdfd0b6ccc941d79671b6be27f927781752 === Hacks in progress (aim to be posted) ===
-0f19b382148bd77bad012647180c10dd26f47822 mm/damon/modules: deduplicate init steps for DAMON context setup
-feef9acb9f5b899a4a5d32e821dfc7d559280f9e Docs/admin-guide/DAMON: add tried regions and applied regions sysfs directory
-5cb21aeba065d632fa56295d75151d6b70a2bd1b mm/damon/core: add a DAMON callback for scheme target regions check
-b47f2bf827d3e31afc37b7e9b15408e198968428 mm/damon/core: separate DAMOS-charged region skip logic to a function
-71af589c839d9564a9daa6bb0af2f7f4931ea19c mm/damon/core: separate damos application logic
-9f8c009ae9036b57e9bd5924a6b1649f059ce0d1 mm/damon/core: separate schem stat update logic
+b1cb8a71f1eaec4eb77051590f7f561f25b15e32 batman-adv: Fix hang up with small MTU hard-interface
+4d8421f2dd88583cc7a4d6c2a5532c35e816a52a wifi: iwlwifi: don't spam logs with NSS>2 messages
+35e60f1aadf6c02d77fdf42180fbf205aec7e8fc Bluetooth: Fix HCIGETDEVINFO regression
+8997f5c8a62760db69fd5c56116705796322c8ed wifi: iwlwifi: Mark IWLMEI as broken
+c3a510e2b53785df31d882a773c4c0780b4c825f wifi: mt76: fix reading current per-tid starting sequence number for aggregation
+781b80f452fcc1cfc16ee41f12556626a9ced049 wifi: mt76: fix 5 GHz connection regression on mt76x0/mt76x2
+182447b12144b7be9b63a273d27c5a11bd54960a mlxbf_gige: clear MDIO gateway lock after read
+34513ada53eb3e3f711250d8dbc2de4de493d510 netdevsim: Fix hwstats debugfs file permissions
+6fb2dbdb26893b6423cbf419a56a85d824619fd8 MAINTAINERS: gve: update developers
+6fd2c68da55c552f86e401ebe40c4a619025ef69 net: mana: Add rmb after checking owner bits
+5e69163d3b9931098922b3fc2f8e786af8c1f37e net: ethernet: mtk_eth_soc: enable XDP support just for MT7986 SoC
+95b9fd760b7a32f738f225ec041c980e7941c73a Merge tag 'for-net-2022-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+f232af4295653afa4ade3230462b3be15ad16419 sfc: fix TX channel offset when using legacy interrupts
+0a242eb2913a4aa3d6fbdb86559f27628e9466f3 sfc: fix null pointer dereference in efx_hard_start_xmit
+0ee513c773695e6fa6b615b24539f2a59c7c1f06 Merge tag 'batadv-net-pullrequest-20220916' of git://git.open-mesh.org/linux-merge
+094cc3b649e27b43afb9bc44d3417668c3d53e19 Merge tag 'wireless-2022-09-19' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+ae8ffba8baad651af706538e8c47d0a049d406c6 bnxt_en: fix flags to check for supported fw version
+8ccac4edc8da764389d4fc18b1df740892006557 gve: Fix GFP flags when allocing pages
+807e5eda2078327d1adaf213cf7d6b3862cad1f4 net: dsa: microchip: lan937x: fix maximum frame length check
+7b15515fc1ca3b320fe37793aaaf6f56cc964ef4 Revert "fec: Restart PPS after link state change"
+01b825f997ac28f1e20309bafbf2068cd77c50a4 Revert "net: fec: Use a spinlock to guard `fep->ptp_clk_on`"
+90fdd1c1e9c49bcb46cde589dbdee94a6977086a Merge branch 'revert-fec-ptp-changes'
+db4192a754ebd52300a28abe1a50dd18eae0eb12 tcp: read multiple skbs in tcp_read_skb()
+1c48709e6d9d353acaaac1d8e33474756b121d78 of: mdio: Add of_node_put() when breaking out of for_each_xx
+cd9ef47286dc37652e5349dc6e6a7da7be84e02b net/mlx5e: Do not increment ESN when updating IPsec ESN state
 
---===============9102955929665446025==--
+--===============8968034206909840052==--
