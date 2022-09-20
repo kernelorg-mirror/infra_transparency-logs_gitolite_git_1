@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Sep 2022 18:53:16 -0000
-Message-Id: <166369999651.14168.14570014498355821592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
+Date: Tue, 20 Sep 2022 18:54:44 -0000
+Message-Id: <166370008485.14933.9482655421379310302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/linux
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 17df341d35265c8e14d71a48886fc7dcf92ef8a1
-    new: 4fa37e49114c7e20f9a23424f004ccf4155f1b47
+  - ref: refs/heads/iwl-next
+    old: 521a547ced6477c54b4b0cc206000406c221b4d6
+    new: 0e793a887ce8fc1110dd8f63c886653f60c9ff0f
     log: |
-         08eaef90403110e51861d93e8008a355af467bbe tcp: Clean up some functions.
-         e9bd0cca09d13ac2f08d25e195203e42d4ad1ce8 tcp: Don't allocate tcp_death_row outside of struct netns_ipv4.
-         429e42c1c54e0d9bfe880195f7d4a8fd5a727194 tcp: Set NULL to sk->sk_prot->h.hashinfo.
-         4461568aa4e565de2c336f4875ddf912f26da8a5 tcp: Access &tcp_hashinfo via net.
-         edc12f032a5a1633474db566878ce0012e7ca2f5 tcp: Save unnecessary inet_twsk_purge() calls.
-         d1e5e6408b305ff78b825d437df8d3f77e82a4be tcp: Introduce optional per-netns ehash.
-         4fa37e49114c7e20f9a23424f004ccf4155f1b47 Merge branch 'tcp-introduce-optional-per-netns-ehash'
+         db5f3fc0efd66c1b5a24e2677d0f1d26ac336505 ice: Add structs and enum entries for new AQ command
+         782698c4510cc601011b4b673b8f9430f3f8a230 ice: expose Switch Block related functions and macros
+         dac2ec1d84d00e10612410cfe1d765a9b5a0510f ice: Add supporting elements for Large Actions
+         0d34a7e6fe32cef3d6011357389f35d594138972 ice: implement an ordered workqueue to process netdev bonding events
+         c76e15f9aede2f71113d6bfecad772d74659e349 ice: Introduce feature flag and mutex for LAG
+         e67a910f3cd791a56a2c3bdec62d76f8e78422b0 ice: Implement RDMA + active-backup LAG support
+         0e793a887ce8fc1110dd8f63c886653f60c9ff0f ice: remove PF flag for auxiliary plug/unplug
          
