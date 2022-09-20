@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2694222738981462646=="
+Content-Type: multipart/mixed; boundary="===============2135399133921088015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 Sep 2022 18:02:45 -0000
-Message-Id: <166369696526.10565.837395858697926849@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 18:04:11 -0000
+Message-Id: <166369705198.11173.14480915673547994@gitolite.kernel.org>
 
---===============2694222738981462646==
+--===============2135399133921088015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ab05993f1818eb46e0e77afc6ea03b1f2e0878ca
-    new: decf06380826c0c509f062caae9c40c073807e3d
+    old: decf06380826c0c509f062caae9c40c073807e3d
+    new: 69068a30dfe9a8e85eadf6ead5951ac0c9e1662b
     log: |
-         decf06380826c0c509f062caae9c40c073807e3d drop queue-5.15/usb-gadget-fix-use-after-free-read-in-usb_udc_uevent.patch
+         69068a30dfe9a8e85eadf6ead5951ac0c9e1662b 5.10-stable patches
          
 
---===============2694222738981462646==
+--===============2135399133921088015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663696961 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663697051 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1663696960-22ee32da5667ac0e667af9c067814fc325295d6c
+nonce 1663697049-e0c2807faac659f47aa42a566483c0c60c97b70e
 
-ab05993f1818eb46e0e77afc6ea03b1f2e0878ca decf06380826c0c509f062caae9c40c073807e3d refs/heads/master
+decf06380826c0c509f062caae9c40c073807e3d 69068a30dfe9a8e85eadf6ead5951ac0c9e1662b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMqAEEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3F0QAIhHkOLil3EzB3e42ooa
-QIBjRdnUst0+z5iy+jCzFxGWZUrRmKlNJryTlq0XuyTb78W3CXzGPe0JV07SKGSL
-Lfw5Ua8wNWSI9XNneevsGFnbpdAs2LDcnVh5vahCqUpGnz7BNSD5ZN8ny5UGIK8Z
-tvcq43R37I4qyL+Nc58iwdanr9ETobkYwGJ/vQ+AbPkjjf+quublbJhm4VtTC1k7
-h/ao0ReY6VBN/O3MK9WyHbCBhnDbECxPNrGicREH9o/moqwsjMz4aflvgzarPvVY
-MH3ujQufSMzZbboQC7zWzTGwnuQ3X+FaCUB34hzrKl+fMg/TYhqEuxOe3XQ9J4J4
-CUOHxgSFW0/cToZ8Ka32riEf6BezSk+CCksWLhr7yGKNTd5nQMV/NxmcE0P94i6a
-OncTrj+fbguCzt6nxzVZYiNhxDQluxoxOcTCwmtx7HxcBkIZCwOV9EwFExHQrnev
-jVqbJGgwhpaFAzo1UIfwV/4470qMfOUDvReYKoOwBvHry3s3j2Edfzhfj22uUa0t
-P7o4M26s72NKTwUabD02+wKGrp9nGnfMLJxOmwPwDmVil+Yn9+Wkm+lCqZEtwxCD
-WsFdt6FaKYtFxuzLt8oHkjdjUMf5+F2iaOugFh4jx4DQMeIkhD6WUE8+Q3ZwVUsd
-jDKeqh1KoTcgrBYJt/jMzuyI
-=f5+d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMqAJsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GfgP/Ah/aVX1N/jZsGIhW8PR
+lOWgH2Ecql/SeN0i4lk1ko5y5ZFmtbOk4DebbDVUF4LoO0j+k5vJCvKeFGGImEyj
+up8w/U/p+ztnbA5vfZZzbky9PqkbQ9sbx6qSGBfPjnYTEca7FZTQYxdNmiL2CADt
+/Ay2n4gf9OuRXH+XwaCmoF+h8L6lfrW0Boff4BMiqcGphl8NnNv7o+xo3cxJghWe
+l+XdTytHKWgcIYs550uXXDx/2lPe5EiOlEtxoAW1ZdhpFgruFwCi+urxb7yWGPd/
+vy6oylPg7aAe4NPMwgLG46olgwZ4yLJ/juJ3VYTMbK1oZLLCTC8TwIa/w53ktI3+
+GtDRpXZovNAjd6U60CU9x/BJVozF6sIYg/hKiY8j1j02tSSYVZi+1GjpzxE5cI1B
+j30/jJh+TwbGsV6UGHXu7QjlHnKVOBBXde3VyPOOlRUsN11vxmEQy5x1O3aVBETi
+/qBbDahU5o/c4KAASLw2bAT3fYjc2LF/QT8VSeSGqXv9C87S7umGRWV2bZjLKrEf
+/32DY9kS9mQMcA+8fD80McB7tsMlqraGjkTk2pj02wUrE95S6HPbY06MS8u1EUsq
+TyKAkhw3A0Byf/bgq/0+mX+0eOFU6RVPGFqPVqZk5+jaY2GDn8bNu4FZtqg6pDS+
+yW6wgAlVM4/PFByWK6+U44LZ
+=5TXd
 -----END PGP SIGNATURE-----
 
---===============2694222738981462646==--
+--===============2135399133921088015==--
