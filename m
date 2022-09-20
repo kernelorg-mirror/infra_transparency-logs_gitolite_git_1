@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 20 Sep 2022 18:08:40 -0000
-Message-Id: <166369732053.14587.2900582711318553925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 20 Sep 2022 18:13:11 -0000
+Message-Id: <166369759177.17779.6254910084194478265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/20220920_pierre_louis_bossart_asoc_sof_ipc4_topology_minor_cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 7738211bce7ae43624121fcf121aec87b2149af1
-  - ref: refs/heads/20220920_pierre_louis_bossart_asoc_sof_sof_audio_fix_prepare_unprepare
-    old: 0000000000000000000000000000000000000000
-    new: 9862dcf70245c2d03764012b81966d8c2ea95a48
-  - ref: refs/heads/filemvrKzA
-    old: 0000000000000000000000000000000000000000
-    new: e7ff7307bb9aaf157d6bea5807a58673dee94a61
-  - ref: refs/heads/v2_20220920_pierre_louis_bossart_asoc_sof_add_skl_kbl_support_for_ipc4_ci_tests
-    old: 0000000000000000000000000000000000000000
-    new: 52d7939d10f25bc6635caa4d390e79a034626f79
+  - ref: refs/heads/for-next
+    old: 8e3392d340a189619aa701cd5d3b613cf0ce91f0
+    new: 9a737e7f8b371e97eb649904276407cee2c9cf30
+    log: |
+         2be79d58645465351af5320eb14c70a94724c5ef ALSA: usb-audio: Split endpoint setups for hw_params and prepare (take#2)
+         9a737e7f8b371e97eb649904276407cee2c9cf30 ALSA: usb-audio: Properly refcounting clock rate
+         
+  - ref: refs/heads/master
+    old: a823f7c1f190fbef71c82078825cf24a865885fc
+    new: 160a28025f8af9a8f42b78f6e800c6120474d8b7
+    log: |
+         2be79d58645465351af5320eb14c70a94724c5ef ALSA: usb-audio: Split endpoint setups for hw_params and prepare (take#2)
+         9a737e7f8b371e97eb649904276407cee2c9cf30 ALSA: usb-audio: Properly refcounting clock rate
+         160a28025f8af9a8f42b78f6e800c6120474d8b7 Merge branch 'for-next'
+         
