@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Sep 2022 15:57:42 -0000
-Message-Id: <166368946252.16253.9767024023517681383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 20 Sep 2022 16:00:13 -0000
+Message-Id: <166368961388.18783.6692286501858909647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 4633b39183c540d45bfd692fd3155c2e7e5838d0
-    new: 152e8ec7764056bc667d0291a2dd1ef4204e216c
+  - ref: refs/heads/master-pending
+    old: 5d8f238aea38369fa10eef48dc02ee74b17a76d7
+    new: b7e838fffa3f0e549a6e2c3240fceb5cc0924a53
     log: |
-         152e8ec7764056bc667d0291a2dd1ef4204e216c selftests/bonding: add a test for bonding lladdr target
+         ce8422f3582246176f28ed0c380d598849ebfb8d wifi: ath11k: retrieve MAC address from system firmware if provided
+         b7e838fffa3f0e549a6e2c3240fceb5cc0924a53 Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 1a080470b51c8b04d33c8a3362ed9e3430aaf0fa
+    new: ce8422f3582246176f28ed0c380d598849ebfb8d
+    log: |
+         ce8422f3582246176f28ed0c380d598849ebfb8d wifi: ath11k: retrieve MAC address from system firmware if provided
          
