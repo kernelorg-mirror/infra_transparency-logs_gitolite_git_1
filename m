@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0180718438084589914=="
+Content-Type: multipart/mixed; boundary="===============1495091481835095053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 20 Sep 2022 08:13:36 -0000
-Message-Id: <166366161681.32467.12691760641063468477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 20 Sep 2022 08:13:46 -0000
+Message-Id: <166366162618.32626.1292761186399776032@gitolite.kernel.org>
 
---===============0180718438084589914==
+--===============1495091481835095053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4c9ca5b1597e3222177ba2a94658f78fa5ef4f58
     new: ef08d387bbbc20df740ced8caee0ffac835869ac
     log: revlist-4c9ca5b1597e-ef08d387bbbc.txt
-  - ref: refs/tags/next-20220620
-    old: d1510cb1103d16457d78586baf6e69306c951c15
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220920
     old: 0000000000000000000000000000000000000000
     new: f8aa5560b2f56b143112388dcc308f2d70a29149
 
---===============0180718438084589914==
+--===============1495091481835095053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -779,4 +776,4 @@ d3f30453399eb6536a69896fc482ae4c749c0bd6 Merge branch 'mm-stable' of git://git.k
 ffb9ebbec3e86b0c9fbae034b123769f659de732 Revert "lib/cpumask: add FORCE_NR_CPUS config option"
 ef08d387bbbc20df740ced8caee0ffac835869ac Add linux-next specific files for 20220920
 
---===============0180718438084589914==--
+--===============1495091481835095053==--
