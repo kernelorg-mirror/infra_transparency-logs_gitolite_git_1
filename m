@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 20 Sep 2022 11:19:46 -0000
-Message-Id: <166367278681.1243.14814325953865881576@gitolite.kernel.org>
+Date: Tue, 20 Sep 2022 11:25:21 -0000
+Message-Id: <166367312175.7539.4483335671471701260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20220920_kuninori_morimoto_gx_asoc_soc_h_random_cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 3289dc026a8cf5d6469eb49d838bc971f4370f9d
+  - ref: refs/heads/v2_20220919_pierre_louis_bossart_asoc_sof_intel_override_mclk_id_for_es8336_support
+    old: 2d3ba7983fdb70ed1684917c919156048cbf8ed7
+    new: d9252772cdc811beedabbcf21ef856d09b87d1dd
+    log: |
+         72176fccd5de1d9cf61e42771bb00567723f3353 ALSA: hda: intel-nhlt: add intel_nhlt_ssp_mclk_mask()
+         d9252772cdc811beedabbcf21ef856d09b87d1dd ASoC: SOF: Intel: hda: override mclk_id after parsing NHLT SSP blob
+         
