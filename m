@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2445102961369305558=="
+Content-Type: multipart/mixed; boundary="===============2001576320713657839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 20 Sep 2022 20:46:08 -0000
-Message-Id: <166370676845.30409.11278106192030009025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 20 Sep 2022 20:46:21 -0000
+Message-Id: <166370678103.30580.8276105558010765403@gitolite.kernel.org>
 
---===============2445102961369305558==
+--===============2001576320713657839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: 5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a
-    new: 9f27530a7357c69865da6177db02d3eb230c33a1
-    log: revlist-5ba3522cf8b9-9f27530a7357.txt
+  - ref: refs/heads/for-next
+    old: b5393a41a90d18e72410f0053c5bf88a6bc4e820
+    new: 825c92fe3d483dd1cc358ae8f211a76f1f4902ae
+    log: revlist-b5393a41a90d-825c92fe3d48.txt
 
---===============2445102961369305558==
+--===============2001576320713657839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1663706766 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1663706766-a7b8cf7e1d2f26c81fd37c76bf85eecc1e22f310
-
-5ba3522cf8b9f3a9f6cbbde1d1e9217e518e0e0a 9f27530a7357c69865da6177db02d3eb230c33a1 refs/heads/asoc-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMqJo4ACgkQJNaLcl1U
-h9C6lQf/QO3zM1DBCXk63o6np0OY9GN+GJrdnEVmPq3E8+YCfruo9LfGrEzl4Q70
-rfuO5fp6br6zNtbD9WPvm7Bv0QZ9ak3AcW33B8C52jkTGHzgJ8Bb4DCquKp8U+Zm
-KXrixTizAVl4eSvFhTTz26DfCV3eH36oFb1MKvOZ2Skkg7x5/NKnmynKlTS9LfOk
-E/MW1/0wJNgD5RvIBQYOLGB0NPxb7qVKtGnBzpepVZ38eQ2lr8+XtHLzHlbt4AXu
-IWKBmtfJoExZjVlqXZjsWyfepgMA8+DHBIgpzcOIT4pE98KFFNANGdO+9uG9xiJa
-j5rerpD9TSTxytI6h2EWWLYtbxG18A==
-=Rszr
------END PGP SIGNATURE-----
-
---===============2445102961369305558==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ba3522cf8b9-9f27530a7357.txt
+Content-Disposition: attachment; filename=revlist-b5393a41a90d-825c92fe3d48.txt
 
 23162672ff85c24afc19293309500d3a63134ef8 ASoC: dt-bindings: cs42l42: Add 'cs42l83' compatible
 7e178946c3e4e64cebda4e60d0b7e5c02a502d13 ASoC: cs42l42: Add bitclock frequency argument to cs42l42_pll_config()
@@ -69,5 +44,6 @@ d136949dd8e2e309dc2f186507486b71cbe9acdb ASoC: SOF: add quirk to override topolo
 d9252772cdc811beedabbcf21ef856d09b87d1dd ASoC: SOF: Intel: hda: override mclk_id after parsing NHLT SSP blob
 3c193b5f530e32dfb4aeb845678ed30aa60b67c1 ASoC: SOF: Intel: override mclk_id for ES8336 support
 9f27530a7357c69865da6177db02d3eb230c33a1 Support for CS42L83 on Apple machines
+825c92fe3d483dd1cc358ae8f211a76f1f4902ae Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
 
---===============2445102961369305558==--
+--===============2001576320713657839==--
