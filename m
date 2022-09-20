@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4235832915783749943=="
+Content-Type: multipart/mixed; boundary="===============4097025744234542709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 20 Sep 2022 21:32:48 -0000
-Message-Id: <166370956852.31486.1568941328676441880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 20 Sep 2022 21:33:01 -0000
+Message-Id: <166370958107.31653.9413173762524315614@gitolite.kernel.org>
 
---===============4235832915783749943==
+--===============4097025744234542709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: 9f27530a7357c69865da6177db02d3eb230c33a1
-    new: a65eacaf98503e03b9a23ab12f836c71baaf9ead
-    log: revlist-9f27530a7357-a65eacaf9850.txt
+  - ref: refs/heads/for-next
+    old: 825c92fe3d483dd1cc358ae8f211a76f1f4902ae
+    new: 04195ac6a128a9b5aac83e456eca2c7807d6c7dd
+    log: revlist-825c92fe3d48-04195ac6a128.txt
 
---===============4235832915783749943==
+--===============4097025744234542709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1663709566 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1663709566-145ea1ff4e20db6bda942de7762300ea3e17b058
-
-9f27530a7357c69865da6177db02d3eb230c33a1 a65eacaf98503e03b9a23ab12f836c71baaf9ead refs/heads/asoc-6.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMqMX4ACgkQJNaLcl1U
-h9D+mQf+JAr3c30rUklOaXzf5VpGIZ7d7YcocHvacUjLm6gqHkDHWP0QzpIfMSOR
-+WUYeFVOvpf3Tbx5A2WQrepYDK2K1rdSWx9Ey9lrWw9SZ9Pt4PjeaNtucRxTual2
-qYxj/QZIimMDNNXXMOvLtETfDoWCwwKIKTi/a+knR4Pkk7ZlIZiAusiPH+E48r0o
-/ltAROP5UrjBqb1irzuioHlaJ3+Qvik2cZlBHRC06SROaAnMWtcZzjppliTX6pYL
-ai/blfivjrmGeveMCtd9N8w1+X3C1BsWi5SvtjIzA5Rf8i9nicChLkRN8Ca3KWgw
-C5G+kBCGyaXRLNCRdQaxYqkaDEeilw==
-=8ggT
------END PGP SIGNATURE-----
-
---===============4235832915783749943==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f27530a7357-a65eacaf9850.txt
+Content-Disposition: attachment; filename=revlist-825c92fe3d48-04195ac6a128.txt
 
 3989ade2d1e7ffc900e3842dc542b9e4bb3618fe ASoC: soc.h: remove num_cpus/codecs
 a26ec2acb2043a52c41d2b651b30d2df475f4263 ASoC: soc.h: use defined number instead of direct number
@@ -63,5 +38,6 @@ e7ff7307bb9aaf157d6bea5807a58673dee94a61 ASoC: Intel: soc-acpi-intel-rpl-match: 
 899a8e7ddc44c23d75ed7fce7b7962f2da95dd33 ASoC: soc.h: random cleanup
 08820902ef25d8a2b7c23297d7b73da657d52da0 ASoC: SOF: sof-audio: fix prepare/unprepare
 a65eacaf98503e03b9a23ab12f836c71baaf9ead ASoC: SOF: ipc4-topology: minor cleanup
+04195ac6a128a9b5aac83e456eca2c7807d6c7dd Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
 
---===============4235832915783749943==--
+--===============4097025744234542709==--
