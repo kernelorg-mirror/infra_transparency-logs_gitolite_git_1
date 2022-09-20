@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 Sep 2022 21:45:24 -0000
-Message-Id: <166371032401.8446.8384399817922847052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 20 Sep 2022 21:48:18 -0000
+Message-Id: <166371049807.9594.517551832347830251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: 69068a30dfe9a8e85eadf6ead5951ac0c9e1662b
-    new: c2325ebf159521382b98786a07cf563dfbbffcf4
+    old: c31b38cb948ee7d3317139f005fa1f90de4a06b7
+    new: bfa8fe95ffe8d62576cf47bf58df5c9da9214723
     log: |
-         594ec79caabfd1cf49cd2d06ecfa096a1588ab4e Fixes for 5.15
-         b66310b576394b72031353b1c3b1a9aa35703348 Fixes for 5.10
-         cda4824dc1864585f52e833c9ee6601aabd2ee12 Fixes for 5.4
-         999652a05d60c18c41b04a000d7d4d925fe10670 Fixes for 4.19
-         c75842a764c8f08198b2354de6fe8674a2490529 Fixes for 4.14
-         c2325ebf159521382b98786a07cf563dfbbffcf4 Fixes for 4.9
+         52bdae37c92ae10d47d54bd7cd39e0a17547ebfa bpf: Remove unused btf_struct_access stub
+         5a090aa35038e3dad1ee334e3c509c39e7599bb4 bpf: Rename nfct_bsa to nfct_btf_struct_access
+         fdf214978a71b2749d26f6da2b1d51d9ac23831d bpf: Move nf_conn extern declarations to filter.h
+         bfa8fe95ffe8d62576cf47bf58df5c9da9214723 Merge branch 'bpf: Small nf_conn cleanups'
          
