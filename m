@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7214156344541400484=="
+Content-Type: multipart/mixed; boundary="===============2337662214350131938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Tue, 20 Sep 2022 16:14:16 -0000
-Message-Id: <166369045622.27499.7239648879956952533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 20 Sep 2022 16:14:24 -0000
+Message-Id: <166369046410.27613.8092964819469592719@gitolite.kernel.org>
 
---===============7214156344541400484==
+--===============2337662214350131938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-greg/4.19-7
-    old: 2f01d05bada7536dd1c4496f74fbd2ad2ca88173
-    new: 3c161910dac576621dabadf05f717cd053ceac01
-    log: |
-         c388defdff3d7909528ceb8d01f456e97fbc0d9d drm/amd/display: Limit user regamma to a valid value
-         3c161910dac576621dabadf05f717cd053ceac01 drm/rockchip: Fix return type of cdn_dp_connector_mode_valid
-         
-  - ref: refs/heads/for-greg/5.19-7
-    old: e8bbb690adafc47beb679ba3f7e5830ab562f4c8
-    new: 7d2e9c9e563f64448d1a9ece9e68d7eb3b4801a8
-    log: revlist-e8bbb690adaf-7d2e9c9e563f.txt
+  - ref: refs/heads/master
+    old: 96628951869c0dedf0377adca01c8675172d8639
+    new: d547c1b717fc5a1e062307e1efdf81590ba9f6c1
+    log: revlist-96628951869c-d547c1b717fc.txt
 
---===============7214156344541400484==
+--===============2337662214350131938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8bbb690adaf-7d2e9c9e563f.txt
+Content-Disposition: attachment; filename=revlist-96628951869c-d547c1b717fc.txt
 
-58448076d00463ea7771c8a7e505f7dd35cc1701 Drivers: hv: Never allocate anything besides framebuffer from framebuffer memory region
-6a337b8e2589d354536a6f28bc5c769f46cc8dc3 drm/gma500: Fix BUG: sleeping function called from invalid context errors
-e1a42ce6194c83426afde394adc0a5bc6d95d0c9 drm/gma500: Fix WARN_ON(lock->magic != lock) error
-8809806483353266c3ec168c21de44596d517776 drm/gma500: Fix (vblank) IRQs not working after suspend/resume
-727a19059f5ff52e942c5b2169bb269bd39ae559 gpio: ixp4xx: Make irqchip immutable
-598019938ac99f71fa88426af9b76040d7b9a048 drm/amd/pm: disable BACO entry/exit completely on several sienna cichlid cards
-352d72485bf00d118c3bc8089acfbda9894a16d9 drm/amdgpu: use dirty framebuffer helper
-ab140710c6e0d406396f3ae4c305a29af4c58c47 drm/amdgpu: change the alignment size of TMR BO to 1M
-75500c793f5dfa1fb5aee903703830ce43354e53 drm/amdgpu: add HDP remap functionality to nbio 7.7
-c0608c5ebf249a34d56e3323bb9df13777470847 drm/amdgpu: Skip reset error status for psp v13_0_0
-9081e4d381325fe0e3880743cb6cda0e3f7400c7 drm/amd/display: Limit user regamma to a valid value
-9f4a9b80388a6c6397ee2b082593e320b1765937 drm/amd/display: Reduce number of arguments of dml31's CalculateWatermarksAndDRAMSpeedChangeSupport()
-acfb85eb3dee8939208d406fa348dfd336e9e78f drm/amd/display: Reduce number of arguments of dml31's CalculateFlipSchedule()
-d0ff599916cd00c42314a66cade619953fe4e3df drm/amd/display: Mark dml30's UseMinimumDCFCLK() as noinline for stack usage
-52e4df35a37a2c5a959f1e0f1cca9579e18a2fb0 drm/rockchip: Fix return type of cdn_dp_connector_mode_valid
-7d2e9c9e563f64448d1a9ece9e68d7eb3b4801a8 gpio: mt7621: Make the irqchip immutable
+b1cb8a71f1eaec4eb77051590f7f561f25b15e32 batman-adv: Fix hang up with small MTU hard-interface
+4d8421f2dd88583cc7a4d6c2a5532c35e816a52a wifi: iwlwifi: don't spam logs with NSS>2 messages
+35e60f1aadf6c02d77fdf42180fbf205aec7e8fc Bluetooth: Fix HCIGETDEVINFO regression
+8997f5c8a62760db69fd5c56116705796322c8ed wifi: iwlwifi: Mark IWLMEI as broken
+c3a510e2b53785df31d882a773c4c0780b4c825f wifi: mt76: fix reading current per-tid starting sequence number for aggregation
+781b80f452fcc1cfc16ee41f12556626a9ced049 wifi: mt76: fix 5 GHz connection regression on mt76x0/mt76x2
+182447b12144b7be9b63a273d27c5a11bd54960a mlxbf_gige: clear MDIO gateway lock after read
+34513ada53eb3e3f711250d8dbc2de4de493d510 netdevsim: Fix hwstats debugfs file permissions
+6fb2dbdb26893b6423cbf419a56a85d824619fd8 MAINTAINERS: gve: update developers
+6fd2c68da55c552f86e401ebe40c4a619025ef69 net: mana: Add rmb after checking owner bits
+5e69163d3b9931098922b3fc2f8e786af8c1f37e net: ethernet: mtk_eth_soc: enable XDP support just for MT7986 SoC
+95b9fd760b7a32f738f225ec041c980e7941c73a Merge tag 'for-net-2022-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+f232af4295653afa4ade3230462b3be15ad16419 sfc: fix TX channel offset when using legacy interrupts
+0a242eb2913a4aa3d6fbdb86559f27628e9466f3 sfc: fix null pointer dereference in efx_hard_start_xmit
+0ee513c773695e6fa6b615b24539f2a59c7c1f06 Merge tag 'batadv-net-pullrequest-20220916' of git://git.open-mesh.org/linux-merge
+094cc3b649e27b43afb9bc44d3417668c3d53e19 Merge tag 'wireless-2022-09-19' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+ae8ffba8baad651af706538e8c47d0a049d406c6 bnxt_en: fix flags to check for supported fw version
+8ccac4edc8da764389d4fc18b1df740892006557 gve: Fix GFP flags when allocing pages
+807e5eda2078327d1adaf213cf7d6b3862cad1f4 net: dsa: microchip: lan937x: fix maximum frame length check
+7b15515fc1ca3b320fe37793aaaf6f56cc964ef4 Revert "fec: Restart PPS after link state change"
+01b825f997ac28f1e20309bafbf2068cd77c50a4 Revert "net: fec: Use a spinlock to guard `fep->ptp_clk_on`"
+90fdd1c1e9c49bcb46cde589dbdee94a6977086a Merge branch 'revert-fec-ptp-changes'
+db4192a754ebd52300a28abe1a50dd18eae0eb12 tcp: read multiple skbs in tcp_read_skb()
+1c48709e6d9d353acaaac1d8e33474756b121d78 of: mdio: Add of_node_put() when breaking out of for_each_xx
+cf412ec333250cb82bafe57169204e14a9f1c2ac net: ipa: properly limit modem routing table use
+b07a9b26e2b1aa3711fd6935eccb08a463b1fb11 ipmr: Always call ip{,6}_mr_forward() from RCU read-side critical section
+2b5a8c8f59d9dff49f273bafbde57d5a7dc2706a selftests: forwarding: Add test cases for unresolved multicast routes
+68fe503c2b8065791c98979790a7b91e198d3006 Merge branch 'ipmr-always-call-ip-6-_mr_forward-from-rcu-read-side-critical-section'
+d547c1b717fc5a1e062307e1efdf81590ba9f6c1 net: clear msg_get_inq in __get_compat_msghdr()
 
---===============7214156344541400484==--
+--===============2337662214350131938==--
