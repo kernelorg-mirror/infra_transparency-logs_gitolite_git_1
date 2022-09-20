@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 20 Sep 2022 16:00:13 -0000
-Message-Id: <166368961388.18783.6692286501858909647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Tue, 20 Sep 2022 16:00:18 -0000
+Message-Id: <166368961895.18889.777400690550204852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master-pending
-    old: 5d8f238aea38369fa10eef48dc02ee74b17a76d7
-    new: b7e838fffa3f0e549a6e2c3240fceb5cc0924a53
+  - ref: refs/heads/for-next
+    old: 670f8ce56dd0632dc29a0322e188cc73ce3c6b92
+    new: 74b1b10e29b1f25e1a081fa82733baea65429d53
     log: |
-         ce8422f3582246176f28ed0c380d598849ebfb8d wifi: ath11k: retrieve MAC address from system firmware if provided
-         b7e838fffa3f0e549a6e2c3240fceb5cc0924a53 Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: 1a080470b51c8b04d33c8a3362ed9e3430aaf0fa
-    new: ce8422f3582246176f28ed0c380d598849ebfb8d
-    log: |
-         ce8422f3582246176f28ed0c380d598849ebfb8d wifi: ath11k: retrieve MAC address from system firmware if provided
+         74b1b10e29b1f25e1a081fa82733baea65429d53 gfs2: Register fs after creating workqueues
          
