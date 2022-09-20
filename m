@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============3532417103305511703=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 20 Sep 2022 08:34:21 -0000
-Message-Id: <166366286120.15213.13283390305855216060@gitolite.kernel.org>
-
---===============3532417103305511703==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 20 Sep 2022 08:40:03 -0000
+Message-Id: <166366320307.20159.8597899580688927835@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,29 +12,15 @@ repo: pub/scm/linux/kernel/git/mtd/linux
 user: mraynal
 changes:
   - ref: refs/heads/nand/next
-    old: 222edd01edda4499cb71c47f3ef81dd24f820a60
-    new: f9ee58cea849331287df21beb5bcc884f2d19356
-    log: revlist-222edd01edda-f9ee58cea849.txt
-
---===============3532417103305511703==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-222edd01edda-f9ee58cea849.txt
-
-81141fe9bc176b6a176abfe1cbc7f6ba71d37e89 mtd: rawnand: cafe: Use correct function name in comment block
-d50a0d3f26f8f1841b4375df35871f1273eb5686 mtd: rawnand: orion: Use devm_clk_get_optional()
-35f88fc8c2a3224c66f59bd85055161a46b55dd9 mtd: rawnand: remove misguided comment of nand_get_device()
-10ca72235c7754f11abca2197a16e0608ff5fc4f mtd: rawnand: stm32_fmc2: Fix dma_map_sg error check
-168f05327687e9d9b8345204dd97fdb0480f99a3 mtd: rawnand: marvell: Fix error handle regarding dma_map_sg
-ee9280aed58ddb275f18552fb256cefbeb9db09e mtd: rawnand: Replace of_gpio_named_count() by gpiod_count()
-15a3269417459c09215c64c1d18441cb0727ef28 mtd: rawnand: Remove the unneeded result variable
-130bd3cdb880c444005e173485124a7bbf3df9b2 mtd: rawnand: stm32_fmc2: switch to using devm_fwnode_gpiod_get()
-9146e732a2dee289d0988f6ad23a74f2ae8181a1 mtd: rawnand: fix spelling typo in comment
-4579bca2056840d60958bd33b68eef6123420111 dt-bindings: nand: meson: fix meson nfc clock
-c55ea7bd8849ca7ef2ef7142c0bcfb2d853d7620 mtd: rawnand: meson: fix the clock
-cca5eedd2a5747bc626e4ab8e560a657cd559e8d mtd: rawnand: meson: refine resource getting in probe
-16cc974686247c49e156bb74d8fef37e0134d5ba dt-bindings: nand: meson: convert txt to yaml
-f9ee58cea849331287df21beb5bcc884f2d19356 mtd: rawnand: meson: stop supporting legacy clocks
-
---===============3532417103305511703==--
+    old: f9ee58cea849331287df21beb5bcc884f2d19356
+    new: 63de24fccb6b831be1abfe07292449105b467731
+    log: |
+         600a4c7c60f1efbccfd329cd6028b1cf1f426639 mtd: rawnand: cadence: Remove an unneeded result variable
+         25fcd4c3b7129e35e9dd150904996857cf3897d5 mtd: rawnand: stm32_fmc2: switch to using devm_fwnode_gpiod_get()
+         0fa4ba5297186ac5c357b1d2ea2ff5fc49b2e756 mtd: rawnand: bcm47xx: fix spelling typo in comment
+         deffc713f5a85d7f3638aa005076ae4348829b98 dt-bindings: nand: meson: fix meson nfc clock
+         683f8aa9b99763ece96669a55d16a0721a6815d6 mtd: rawnand: meson: fix the clock
+         30e082fdb9ca8169aafcb2a014f4c108e7056a94 mtd: rawnand: meson: refine resource getting in probe
+         b67613b6af89c01c2bb7b03ecd23df093ebdfc22 dt-bindings: nand: meson: convert txt to yaml
+         63de24fccb6b831be1abfe07292449105b467731 mtd: rawnand: meson: stop supporting legacy clocks
+         
