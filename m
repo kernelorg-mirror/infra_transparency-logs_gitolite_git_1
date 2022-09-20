@@ -1,40 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 20 Sep 2022 11:45:41 -0000
-Message-Id: <166367434109.20835.9145719595298976709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 20 Sep 2022 12:01:38 -0000
+Message-Id: <166367529883.32417.2588930141957764395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-linus
-    old: c3afa2a402d1ecefa59f88d55d9e765f52f75bd9
-    new: 79764ec772bc1346441ae1c4b1f3bd1991d634e8
+  - ref: refs/heads/wip/leon-for-next
+    old: e866025b3b1557f9bf6ab1770f297fe6d90e0417
+    new: 13f42e5166bc73786d21b5fae13ff89e67dcbe8b
     log: |
-         79764ec772bc1346441ae1c4b1f3bd1991d634e8 Revert "ALSA: usb-audio: Split endpoint setups for hw_params and prepare"
-         
-  - ref: refs/heads/for-next
-    old: c6fe6be65aeaa03c7cdfc807b47c1e59b9c9ea71
-    new: 8e3392d340a189619aa701cd5d3b613cf0ce91f0
-    log: |
-         c3afa2a402d1ecefa59f88d55d9e765f52f75bd9 ALSA: core: Fix double-free at snd_card_new()
-         96ecdc718649fe01940e7f5dc4fc15dacd18cada ALSA: es18xx: Remove the unneeded result variable
-         79764ec772bc1346441ae1c4b1f3bd1991d634e8 Revert "ALSA: usb-audio: Split endpoint setups for hw_params and prepare"
-         01a72aefbacca4d6e169caa776c87d3c1f6faf4a Revert "ALSA: usb-audio: Clean up endpoint setups at PCM prepare"
-         8e3392d340a189619aa701cd5d3b613cf0ce91f0 Merge branch 'for-linus' into for-next
-         
-  - ref: refs/heads/master
-    old: 38c440a5738794e6adf0198391b8901792dfdfd4
-    new: a823f7c1f190fbef71c82078825cf24a865885fc
-    log: |
-         96ecdc718649fe01940e7f5dc4fc15dacd18cada ALSA: es18xx: Remove the unneeded result variable
-         f84685bda3c3626b962214108d65deae2c674cbf Merge branch 'for-next'
-         79764ec772bc1346441ae1c4b1f3bd1991d634e8 Revert "ALSA: usb-audio: Split endpoint setups for hw_params and prepare"
-         01a72aefbacca4d6e169caa776c87d3c1f6faf4a Revert "ALSA: usb-audio: Clean up endpoint setups at PCM prepare"
-         8e3392d340a189619aa701cd5d3b613cf0ce91f0 Merge branch 'for-linus' into for-next
-         a823f7c1f190fbef71c82078825cf24a865885fc Merge branch 'for-next'
+         7f51a961f8c6b84752a48e950074a8c4a0808d91 RDMA/irdma: Align AE id codes to correct flush code and event
+         34acb833cc83bdea912a160ff99b537e62bb4cf3 RDMA/irdma: Validate udata inlen and outlen
+         67d8f59bdcc2a34bcae2becb6e2fdd81ec18990f RDMA/hfi1: fix repeated words in comments
+         7eff36527195cf434dc8f9ddc7bedc0254d0d835 RDMA/qib: fix repeated words in comments
+         6dbe4a8dead84de474483910b02ec9e6a10fc1a9 RDMA/srp: Fix srp_abort()
+         95f911d94995861311d78c77acb91af1ad6b8cc5 RDMA/erdma: Eliminate unnecessary casting for erdma_post_cmd_wait
+         93aea72cc53c87de3bae3fe554f9836d8b4a0386 RDMA/erdma: Remove redundant includes
+         13f42e5166bc73786d21b5fae13ff89e67dcbe8b RDMA/erdma: Make hardware internal opcodes invisible to driver
          
