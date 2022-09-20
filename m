@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 20 Sep 2022 06:12:53 -0000
-Message-Id: <166365437351.13108.16454600921443038401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 20 Sep 2022 06:31:48 -0000
+Message-Id: <166365550856.27000.200748534863303418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: b4838a3c9c6a9b4a540be105bf3b3aef35bc6547
-    new: 38c440a5738794e6adf0198391b8901792dfdfd4
+  - ref: refs/heads/gpio/for-next
+    old: d9e7f0e320516c660d6f33e6c16a3d99970eb14e
+    new: 8b10ca2f7551e024b60ab5e27d3e3630c029000a
     log: |
-         38c440a5738794e6adf0198391b8901792dfdfd4 Merge branch 'for-next'
+         8b10ca2f7551e024b60ab5e27d3e3630c029000a gpiolib: fix OOB access in quirk callbacks
          
