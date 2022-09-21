@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 21 Sep 2022 08:03:39 -0000
-Message-Id: <166374741985.25171.8555781114240349738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 21 Sep 2022 08:11:38 -0000
+Message-Id: <166374789851.30962.15338127861391691405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 55b8ce97be6aec4ecbbbfba937003cea3bd4c01c
-    new: 191cbe33592361fd42682553c3488e6fe8cf4ed5
+    old: 6a1dbfefdae4f7809b3e277cc76785dac0ac1cd0
+    new: 79a392a3b19a106e0268bfbe1b4cc31d85eeb552
     log: |
-         a3d3163fbe690cfec354fc20808adf0629adf8da x86/mm/32: Fix W^X detection when page tables do not support NX
-         6d54d38962a555f6e243ce8fecb932777264964d Merge branch into tip/master: 'locking/core'
-         f6200a559936ba7ee3283d24844944fecece0f91 Merge branch into tip/master: 'perf/core'
-         1e6db4e9efaf1b26a485cd2b7cefc84866905ed7 Merge branch into tip/master: 'x86/asm'
-         765f1021dfd1a15ea31420b9eab544ffb1566f40 Merge branch into tip/master: 'x86/misc'
-         191cbe33592361fd42682553c3488e6fe8cf4ed5 Merge branch into tip/master: 'x86/mm'
+         76b907ee00c4a5cdd5d0adbacdaa1c1989385615 netfilter: conntrack: remove nf_conntrack_helper documentation
+         921ebde3c0d22c8cba74ce8eb3cc4626abff1ccd netfilter: nf_tables: fix nft_counters_enabled underflow at nf_tables_addchain()
+         9a4d6dd554b86e65581ef6b6638a39ae079b17ac netfilter: nf_tables: fix percpu memory leak at nf_tables_addchain()
+         62ce44c4fff947eebdf10bb582267e686e6835c9 netfilter: ebtables: fix memory leak when blob is malformed
+         d25088932227680988a6b794221e031a7232f137 netfilter: nf_ct_ftp: fix deadlock when nat rewrite is needed
+         79a392a3b19a106e0268bfbe1b4cc31d85eeb552 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
          
