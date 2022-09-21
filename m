@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3006175043313229571=="
+Content-Type: multipart/mixed; boundary="===============5778276550725589264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 21 Sep 2022 15:31:52 -0000
-Message-Id: <166377431292.5696.16075077754869131629@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 15:31:53 -0000
+Message-Id: <166377431387.5790.8921885371628339440@gitolite.kernel.org>
 
---===============3006175043313229571==
+--===============5778276550725589264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,92 +16,86 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 820b689b4a7a6ca1b4fdabf26a17196a2e379a97
-    new: 8dfb3c258c4da3a28d6986b25a6762f50766e9e3
-    log: revlist-820b689b4a7a-8dfb3c258c4d.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 99c2dfe47a9c6613e040f1721368c2c298383257
+    new: 5ef964f0bfaa6b80d719039c1ff85ec51d84880a
+    log: revlist-99c2dfe47a9c-5ef964f0bfaa.txt
 
---===============3006175043313229571==
+--===============5778276550725589264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663774311 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663774312 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1663774310-ede3ceb4e80af558d344cb21c033da1cb58c4955
+nonce 1663774311-ca23e52414cdfcedf621e17203d8ac2276280bed
 
-820b689b4a7a6ca1b4fdabf26a17196a2e379a97 8dfb3c258c4da3a28d6986b25a6762f50766e9e3 refs/heads/linux-5.15.y
+99c2dfe47a9c6613e040f1721368c2c298383257 5ef964f0bfaa6b80d719039c1ff85ec51d84880a refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMrLmcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u7kP/0OrmExLxqb5P6cyn+Kv
-3hihvc7CPNqRSj65oXhKCPrksHxW7xMDp0bgHPbs8yWvvCBDjCFXr8b2OOdAsFU7
-9EjSG2fl3mWb+2Jq/l38mRt/Y5rz/cbMLDcgkW2acz/uPoZleOrmYuPUNofXyaeq
-FuUcpY4brkcUcrhR3U3Qk6cpJ9SzVHtyirZyy51toQYfoPfi8j3wIa/vF6RWLh2h
-dABI2tYZ6e3RkZTZdEj1N7omRRu4yX3bpMjUu8bSdJu+uewB850qiwfJl7oZWTFf
-7m6Lvud5neXktB2ZAPmrldLpKM9b89GGkZVhuKZOMYosgbayXOw8SZj8HSLQxnPc
-T/MeoeAja6ydbFA4W/I9CUN3HB5fvcG8gPT5pLMceDrLXu5qVDcgGiKmlgK/EifR
-BA2UC+A8YckRsGp4UzCH3gxnwlkrX1m3yldV0Gfv4pjrhqzXr+EYhhj/VMUx+BPQ
-B6Kf2tEr8ls3i1rchTjGyQlbKrUDIIUdXjF/j/w0LEWbbk6HdpAF1svd6QKEM1MS
-TX01X/AzMxSSphbEv6GJqvlOVapEefL3//ruFLpIC+S4PMo9/e6zp/sSwACVm7dp
-RnOnNgNDFwwj+XVVJPP2VWm/zlbrz00SCR+49LlAJfwFX8098C7y8dlLyaRTSAoL
-zG3V3gfKLlNUAkozoaWP2a+c
-=XM0Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMrLmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+57QQANUM9Ssl3L/pHNY/w3IW
+nq0N50VkbKWHSo4zId2SYpWMcoPJPpdhC9hz5NUDo4dFH1X49XG3aU4TY8NHOk7g
+9jhCIiUj5St4PMtHTjXt2dnPm21w64s4qjDlcn0swv12QNC7eAJmdO+2VMbJC8B4
+iELfnrY4zuRP+37dHUvG1z1EpWRkKlh6HhWF1E3dxouVUDjbGXTV3GUpUgVxiZZv
+UQ55RRUd/nJfyrEIHJA3Ey2z9KIZ1J6lZbJ9bYVBeKIerg0042rGrFOrmlDQNi4K
+I7luB0xeU89Z9GzEZ/1mkZA2e1Ix15mE+HFmMGrl1AU7fBtsF0KWeQXsVjCTihLo
+RzlYtAylq2yD9+AutYW+b15gMFXq5U+zm5cfmGGNDZimfRvIhQTiRIkHOn6fAflI
+GKQkMigMM7Nj0sMGaBnANtrBdc32mVC5dLHVTWR7HT2LUpke45HeWgqE9+rHY98W
+fIKIzMuRo0KRdgmBEFzUOdAdwV6PqGPMok8QPx4xUARiG3aYodNKjtOVaZpBorEG
+voFjUK4FtFuk2PGlyQjkAzlrrNWc1pnvTmzhWrea1kHoyxbD8YETrPxiKfusWEuf
+82NavsNvlO5/MWfrSPqRVAn/Nv/A0e4ucEPJihJi/L3X8HuaGA9uWVsZW9dRat2+
+0be6Lij/3HZTo8tASEzYrhig
+=DzST
 -----END PGP SIGNATURE-----
 
---===============3006175043313229571==
+--===============5778276550725589264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-820b689b4a7a-8dfb3c258c4d.txt
+Content-Disposition: attachment; filename=revlist-99c2dfe47a9c-5ef964f0bfaa.txt
 
-aab097f92624dc0a49b7ca897d14aac7c5937a07 drm/tegra: vic: Fix build warning when CONFIG_PM=n
-d24f42ea96afaab905e3491f76185349a4b8d745 arm64: kexec_file: use more system keyrings to verify kernel image signature
-3b45cba1b99ae5b24d38f98c5bec4162b863a3f2 serial: atmel: remove redundant assignment in rs485_config
-8560a549a386f5aaad7b267cfc7fc0f16d4f4616 tty: serial: atmel: Preserve previous USART mode if RS485 disabled
-69d3d8242bc5ca103eaa99cc2bab0b6af90987cc of: fdt: fix off-by-one error in unflatten_dt_nodes()
-c35fd93c0fd66a5812ab9d191291a54caad287b9 pinctrl: qcom: sc8180x: Fix gpio_wakeirq_map
-b54cd21037d18242e7027837f5f31efe0e94aed9 pinctrl: qcom: sc8180x: Fix wrong pin numbers
-1ed065a24f09cdc5a9850d2ddb7d47a0f90572e3 pinctrl: rockchip: Enhance support for IRQ_TYPE_EDGE_BOTH
-f5ef98ba9b7ac266ebbc55b0377d0db799866edc pinctrl: sunxi: Fix name for A100 R_PIO
-265e3aca6338aee7c59e63d03764045431a9d5ef NFSv4: Turn off open-by-filehandle and NFS re-export for NFSv4.0
-17068428eb41930f01e377bfd5de8e91972dc460 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
-a44b091064d812db282d949479727096cb9ca4e2 drm/meson: Correct OSD1 global alpha value
-298e4b380eb943a30f3022a173466af00a96df8d drm/meson: Fix OSD1 RGB to YCbCr coefficient
-932ceace05da6f4942562432bf1bb3cebb3ea466 block: blk_queue_enter() / __bio_queue_enter() must return -EAGAIN for nowait
-fcb763a7c17aae0c7d727a587c91539d158df08e parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-622997057320e98e001d7fbd157fe784bfe65f5f of/device: Fix up of_dma_configure_id() stub
-82d970d7aacfffd583d3c0770cb7c84de10240e5 cifs: revalidate mapping when doing direct writes
-aa8bc70fde2f79c08195933b3e081b4d1da008cb cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-de6fad3615ec07e3f52bcb88c91af4adc7530aa9 cifs: always initialize struct msghdr smb_msg completely
-7ea80405a7106ee5069f09a1941ee60d74aaec51 parisc: Allow CONFIG_64BIT with ARCH=parisc
-b30511281b64f859884f94083c1ba43c68634069 tools/include/uapi: Fix <asm/errno.h> for parisc and xtensa
-c573e2d7eb14314dfe59c96f1038806939a83f4c drm/amdgpu: Don't enable LTR if not supported
-c62eb2b10eb885fada2451229c4664741fc98f5a drm/amdgpu: move nbio ih_doorbell_range() into ih code for vega
-58612107fd2ea205cbaabd7e9bda0513561f878f drm/amdgpu: move nbio sdma_doorbell_range() into sdma code for vega
-69e52cfb26fb17e6ec8e15ddf80116a4d1132c29 binder: remove inaccurate mmap_assert_locked()
-18f84f84a121cfff6578a48f633875062b271ca0 video: fbdev: i740fb: Error out if 'pixclock' equals zero
-c1c96f6dfe83dead4311c8c54db7f2f99e40e7c1 arm64: dts: juno: Add missing MHU secure-irq
-d12e31fb50302736b494b5ba8f22f9f8dbea32e6 ASoC: nau8824: Fix semaphore unbalance at error paths
-2a7ec91e878476ae8d6874cba48f24db2b1ae00e regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
-03aa56769380438ef1dbc162f008dee46c2b5838 scsi: lpfc: Return DID_TRANSPORT_DISRUPTED instead of DID_REQUEUE
-85f558a2149e431b3e76ba8b922cf2116b02b25a rxrpc: Fix local destruction being repeated
-5e8c7866f8a4ff3199cfd977ba8813b02561cce4 rxrpc: Fix calc of resend age
-be96ec3fd2fd3a3532e1689948d79a1b6a225dd9 wifi: mac80211_hwsim: check length for virtio packets
-4919c5c218480b0baa295f9a20f3a6a8c5c74cd4 ALSA: hda/sigmatel: Keep power up while beep is enabled
-adf1b0eeb8607761a57c50eec60912893d420b18 ALSA: hda/tegra: Align BDL entry to 4KB boundary
-c0492fb94e8b68cc4968c56e7dcd0444a87a92c9 net: usb: qmi_wwan: add Quectel RM520N
-8258a795f668597a3d321db1a2a8073ba00c3c92 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
-f96375ef926f8a101c2f42fd6951a3ce53e2ee52 MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
-23eec0cd617e226b5d64db29b97f70d85d53bcab drm/panfrost: devfreq: set opp to the recommended one to configure regulator
-f78447f82c89aae9a6b3fbda77abf67334b4882e mksysmap: Fix the mismatch of 'L0' symbols in System.map
-210f5597aa7bc190c661cdbc3e3338cf0a4bf077 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-cac5dad9d3b970eb2e1d3fc97c8f1483d00c1256 net: Find dst with sk's xfrm policy not ctl_sk
-fdb89cbd17f0636cab0af32c74f8be7b4e7eea6d KVM: SEV: add cache flush to solve SEV cache incoherency issues
-1ef46dbc30861458829535b0b547a73ada3f9b1b cgroup: Add missing cpus_read_lock() to cgroup_attach_task_all()
-b23bbc0ebbd20d61f60f721356c6c82ed04b5eee ALSA: hda/sigmatel: Fix unused variable warning for beep power change
-8dfb3c258c4da3a28d6986b25a6762f50766e9e3 Linux 5.15.70-rc1
+158df6f10ae998cd46d6147e4d71d7d871e7585b KVM: PPC: Book3S HV: Context tracking exit guest context before enabling irqs
+d552f031d005859d24b7f262323297845157fed5 KVM: PPC: Tick accounting should defer vtime accounting 'til after IRQ handling
+67523b47b0fa499bbe3b4cc0f252574632b29544 serial: 8250: Fix reporting real baudrate value in c_ospeed field
+cc5b5f2b69180b55faf3394c7d8ab5d1e399e3a3 parisc: Optimize per-pagetable spinlocks
+63bc155a3991f26e7617d6c7f3cde57185604343 parisc: Flush kernel data mapping in set_pte_at() when installing pte for user page
+1e999515c069cae1079c3ce4ee3190f1b35ac6d7 dmaengine: bestcomm: fix system boot lockups
+0eccf285094188944f82464b7504273e02452d18 powerpc/pseries/mobility: refactor node lookup during DT update
+8e31132c5e2cc331f1b701abd5aeafede20944e6 powerpc/pseries/mobility: ignore ibm, platform-facilities updates
+ab390f2b3ccec91ccaf33a89446ad49413029560 usb: cdns3: gadget: fix new urb never complete if ep cancel previous requests
+6ddfcb313f08de797013c9ea21612ebd97d7da7d platform/x86/intel: hid: add quirk to support Surface Go 3
+9b02ee41e18e32d00a95da7c89c33c5717928d20 net: dsa: mv88e6xxx: allow use of PHYs on CPU and DSA ports
+0c93868fa0a48a730f5a537f85fe2af07c2c97a6 of: fdt: fix off-by-one error in unflatten_dt_nodes()
+06c18984ba75b8ab0d8e78c9705ad88aeac86edc pinctrl: sunxi: Fix name for A100 R_PIO
+04ce7244859deb7836ac67713fe56b3d7098132c NFSv4: Turn off open-by-filehandle and NFS re-export for NFSv4.0
+3922c49d2c6693c6adba57cfc4d56612ad28165f gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+2477ce5592d5de7072948226e248ab84e1db9f09 drm/meson: Correct OSD1 global alpha value
+1944ad40c1f09218fea716802f174036912cf241 drm/meson: Fix OSD1 RGB to YCbCr coefficient
+4c374761916bc19af8c71287e0398f2ad9c190d1 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+cee1994758ae845ad4fabac3f7606c07bb209fbb tracing: hold caller_addr to hardirq_{enable,disable}_ip
+a58d35bb6e526db57471cc662e31c989dd5d97c6 of/device: Fix up of_dma_configure_id() stub
+5cb1ac6672937db6458b2a5324dc32990f1ae7fd cifs: revalidate mapping when doing direct writes
+510472ed4840f0c43953553352136bec70e82369 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+962f2755d1fcf47f263529c4231859610333c95b tools/include/uapi: Fix <asm/errno.h> for parisc and xtensa
+67bdb0005e7ea2c48833014f53ef97659c2c04b8 video: fbdev: i740fb: Error out if 'pixclock' equals zero
+b13dcb778fd98f29cacb462873d26c75d0d6680b Revert "serial: 8250: Fix reporting real baudrate value in c_ospeed field"
+1c8d8ef8e4ad2c2340aafe4b24f69551d957ed32 ASoC: nau8824: Fix semaphore unbalance at error paths
+059b9b6d7409f100bcc3e4d5565750615821f3fb regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+d4a014fe4b9eda3e1a2c4d145ab79d40ad7b12ed rxrpc: Fix local destruction being repeated
+09117cc6feeed330998e69e955ddabd41f7918d9 rxrpc: Fix calc of resend age
+6194aeb7a35676d954e9a100c6b2ff8d460c1710 wifi: mac80211_hwsim: check length for virtio packets
+bd26da95f2087f74d7d2d7f3f6974770a2b4c590 ALSA: hda/sigmatel: Keep power up while beep is enabled
+209bb3e2e8939945b24a9c0bb0cc58c211b2b9a8 ALSA: hda/tegra: Align BDL entry to 4KB boundary
+3c5264707f1dc6d55a6866d8e1d522a8957eb7a7 net: usb: qmi_wwan: add Quectel RM520N
+c8f3a77404a5d3ef6bbd1ed7c8369bf4104d267f afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
+b682858bb3a4a29ac003ab1544eb58d6de53b2d7 MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
+1fd2ee0d2342f03b78314c957c975a49c20ebbcc mksysmap: Fix the mismatch of 'L0' symbols in System.map
+374ef096e1d07f08a1e566fd2d5d0a6234432c8a video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+d845070482073752e06edc74b8714d3a5068647f cgroup: Add missing cpus_read_lock() to cgroup_attach_task_all()
+f71ecf416c837ec9a25c730c8cc79b238a66ae6f ALSA: hda/sigmatel: Fix unused variable warning for beep power change
+5ef964f0bfaa6b80d719039c1ff85ec51d84880a Linux 5.10.145-rc1
 
---===============3006175043313229571==--
+--===============5778276550725589264==--
