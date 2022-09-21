@@ -1,93 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2620864593825938105=="
+Content-Type: multipart/mixed; boundary="===============1871045339067836420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 21 Sep 2022 08:30:45 -0000
-Message-Id: <166374904558.13140.5308518358413729042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Wed, 21 Sep 2022 08:41:24 -0000
+Message-Id: <166374968446.19821.16900244468146329382@gitolite.kernel.org>
 
---===============2620864593825938105==
+--===============1871045339067836420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/main
-    old: 5f93b3d804a2840053d44cb4bac6d376575acb69
-    new: 0f2211f1cf58876f00d2fd8839e0fdadf0786894
-    log: revlist-5f93b3d804a2-0f2211f1cf58.txt
-  - ref: refs/heads/master
-    old: 5f93b3d804a2840053d44cb4bac6d376575acb69
-    new: 0f2211f1cf58876f00d2fd8839e0fdadf0786894
-    log: revlist-5f93b3d804a2-0f2211f1cf58.txt
-  - ref: refs/tags/linux-can-fixes-for-6.0-20220921
-    old: 0000000000000000000000000000000000000000
-    new: f6211b8cbe48da871494c5b717fbb4454a18aaee
+  - ref: refs/heads/mtd/next
+    old: 9ee67182309290aee8135b2b464d0240afe63a28
+    new: 095bb6e44eb17da2cf95dbde9c83b44664a493f5
+    log: |
+         65394169bdae073bfb2c6816f5bf095bd7d53e61 mtd: track maximum number of bitflips for each read request
+         745df17906029cc683b8b5ac8bcb08f82860baff mtd: always initialize 'stats' in struct mtd_oob_ops
+         7bea6056927727f98f4efdd338f112f7517f05b5 mtd: add ECC error accounting for each read request
+         095bb6e44eb17da2cf95dbde9c83b44664a493f5 mtdchar: add MEMREAD ioctl
+         
+  - ref: refs/heads/nand/next
+    old: 63de24fccb6b831be1abfe07292449105b467731
+    new: ba47a6ac4658f8fdccb2e3400927db5081eb7fb2
+    log: revlist-63de24fccb6b-ba47a6ac4658.txt
 
---===============2620864593825938105==
+--===============1871045339067836420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-63de24fccb6b-ba47a6ac4658.txt
 
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1663749039 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1663749038-2434b8c234f9f247139c8f6fd6f3972ac4605e59
+1dd4fd8716babe80d6c0da8d9e3d9ecba6706afc mtd: rawnand: brcmnand: Move Kconfig to driver folder
+c4c85b512d16e488e966a09ea41e3260204f857b mtd: rawnand: brcmnand: Add individual glue driver selection
+d16da6d112367faeafa2b0d427d0ced7f1e92f36 mtd: rawnand: gpmi: Fix typo 'the the' in comment
+37ea9f165ed4a437d6b3302e76e2e2ab0804b86c mtd: rawnand: arasan: stop using 0 as NULL pointer
+3e4ad3212cf22687410b1e8f4e68feec50646113 mtd: rawnand: meson: fix bit map use in meson_nfc_ecc_correct()
+1161703c9bd664da5e3b2eb1a3bb40c210e026ea mtd: rawnand: atmel: Unmap streaming DMA mappings
+79db205db52f173832e5f7d55055ae7144eb0086 mtd: rawnand: cafe: Use correct function name in comment block
+2525a0abed6cd2d6add7714eb17347e65d278997 mtd: rawnand: orion: Use devm_clk_get_optional()
+ddfa68d415c749390e6a89f760b5edfa2774ad7b mtd: rawnand: remove misguided comment of nand_get_device()
+43b81c2a3e6e07915151045aa13a6e8a9bd64419 mtd: rawnand: stm32_fmc2: Fix dma_map_sg error check
+40c9ba0dec90d72590f65d4a024b4de5cdd66294 mtd: rawnand: marvell: Fix error handle regarding dma_map_sg
+c26ef845c04e45cebac8c21d8ce23270fa20ee3c mtd: rawnand: Replace of_gpio_named_count() by gpiod_count()
+4c5f69aea151dbd1977ad2cdd00ed0828e3a4888 mtd: rawnand: cadence: Remove an unneeded result variable
+a2d0e5c67b4390614e5f82cf813d0caf9ae5dcc1 mtd: rawnand: stm32_fmc2: switch to using devm_fwnode_gpiod_get()
+36ac78cea96bab6f93ddd6fdc56b734e0c5db8cc mtd: rawnand: bcm47xx: fix spelling typo in comment
+c2807b38ab96b6eb6a9e6467a088b9785f4df9aa dt-bindings: nand: meson: fix meson nfc clock
+1e4d3ba6688818ae932a8108ccb4319965e8041c mtd: rawnand: meson: fix the clock
+5d53c615ab6bd3a5c67b007995bcc772c46af291 mtd: rawnand: meson: refine resource getting in probe
+fbc00b5e746f138aa647fa8ddca5ed032195d089 dt-bindings: nand: meson: convert txt to yaml
+ba47a6ac4658f8fdccb2e3400927db5081eb7fb2 mtd: rawnand: meson: stop supporting legacy clocks
 
-5f93b3d804a2840053d44cb4bac6d376575acb69 0f2211f1cf58876f00d2fd8839e0fdadf0786894 refs/heads/main
-5f93b3d804a2840053d44cb4bac6d376575acb69 0f2211f1cf58876f00d2fd8839e0fdadf0786894 refs/heads/master
-0000000000000000000000000000000000000000 f6211b8cbe48da871494c5b717fbb4454a18aaee refs/tags/linux-can-fixes-for-6.0-20220921
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmMqy68THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXSt1B/0akVNgpQVAJLVpvAHA29sR/1klR5yR
-2kooDGDu/gO2sHYWy0fA5gTiG6Ovpn6Tc7xLdHM4Ggga7Dmb06N2uVWPZepAoFGS
-OYyXNkxkcHcNXWz8bl1mzAYwi/q5Ge3C+hxcBdh566CCNJkuQLvWIgtBSDOgtVKL
-cWhMtDCXaOvmPt8wzYYYZvoyPSvdjEXDD7HerDR7hMAQ8RUrvoo/6Cd8FloJdLKF
-4bObnLKulTai1FOWha74OGwWNTG6w6IPKgiXdf6bGrRUN20OtSPCpgMIKY1N8oLh
-BMPO9pWdwW/ZCW201cbdiVjUqJVjCt7Ktupax3/4UpiWbVUzbpX0WROd
-=+yZi
------END PGP SIGNATURE-----
-
---===============2620864593825938105==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f93b3d804a2-0f2211f1cf58.txt
-
-807e5eda2078327d1adaf213cf7d6b3862cad1f4 net: dsa: microchip: lan937x: fix maximum frame length check
-7b15515fc1ca3b320fe37793aaaf6f56cc964ef4 Revert "fec: Restart PPS after link state change"
-01b825f997ac28f1e20309bafbf2068cd77c50a4 Revert "net: fec: Use a spinlock to guard `fep->ptp_clk_on`"
-90fdd1c1e9c49bcb46cde589dbdee94a6977086a Merge branch 'revert-fec-ptp-changes'
-db4192a754ebd52300a28abe1a50dd18eae0eb12 tcp: read multiple skbs in tcp_read_skb()
-1c48709e6d9d353acaaac1d8e33474756b121d78 of: mdio: Add of_node_put() when breaking out of for_each_xx
-cf412ec333250cb82bafe57169204e14a9f1c2ac net: ipa: properly limit modem routing table use
-b07a9b26e2b1aa3711fd6935eccb08a463b1fb11 ipmr: Always call ip{,6}_mr_forward() from RCU read-side critical section
-2b5a8c8f59d9dff49f273bafbde57d5a7dc2706a selftests: forwarding: Add test cases for unresolved multicast routes
-68fe503c2b8065791c98979790a7b91e198d3006 Merge branch 'ipmr-always-call-ip-6-_mr_forward-from-rcu-read-side-critical-section'
-d547c1b717fc5a1e062307e1efdf81590ba9f6c1 net: clear msg_get_inq in __get_compat_msghdr()
-974bb793aded499491246f6f9826e26c2b127320 sfc/siena: fix TX channel offset when using legacy interrupts
-589c6eded10c77a12b7b2cf235b6b19a2bdb91fa sfc/siena: fix null pointer dereference in efx_hard_start_xmit
-684dec3cf45da2b0848298efae4adf3b2aeafeda wireguard: ratelimiter: disable timings test by default
-8e25c02b8cce7063ae9f08cad51d246a60370bc9 wireguard: selftests: do not install headers on UML
-26c013108c12b94bc023bf19198a4300596c98b1 wireguard: netlink: avoid variable-sized memcpy on sockaddr
-0507246d9e7aaac21e14d653eea7111106e6a136 Merge branch 'wireguard-patches-for-6-0-rc6'
-fed38e64d9b99d65a36c0dbadc3d3f8ddd9ea030 net: enetc: move enetc_set_psfp() out of the common enetc_set_features()
-5641c751fe2f92d3d9e8a8e03c1263ac8caa0b42 net: enetc: deny offload of tc-based TSN features on VF interfaces
-76dd07281338da6951fdab3432ced843fa87839c ipv6: Fix crash when IPv6 is administratively disabled
-db46e3a88a09c5cf7e505664d01da7238cd56c92 net/sched: taprio: avoid disabling offload when it was never enabled
-1461d212ab277d8bba1a753d33e9afe03d81f9d4 net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs
-da847246ab80610c5acca34df5893bee1d8cf7c2 Merge branch 'fixes-for-tc-taprio-software-mode'
-603ccb3aca717d04a4b1a04e3a7bc3b91eba33e8 MAINTAINERS: Add myself as a reviewer for Qualcomm ETHQOS Ethernet driver
-4924c0cdce75575295f8fa682851fb8e5d619dd2 net: ravb: Fix PHY state warning splat during system resume
-6a1dbfefdae4f7809b3e277cc76785dac0ac1cd0 net: sh_eth: Fix PHY state warning splat during system resume
-a09721dd47c8468b3f2fdd73f40422699ffe26dd can: flexcan: flexcan_mailbox_read() fix return value for drop = true
-5440428b3da65408dba0241985acb7a05258b85e can: gs_usb: gs_can_open(): fix race dev->can.state condition
-0f2211f1cf58876f00d2fd8839e0fdadf0786894 can: gs_usb: gs_usb_set_phys_id(): return with error if identify is not supported
-
---===============2620864593825938105==--
+--===============1871045339067836420==--
