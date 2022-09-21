@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5112816886102185684=="
+Content-Type: multipart/mixed; boundary="===============6485335517730476101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 21 Sep 2022 15:19:23 -0000
-Message-Id: <166377356332.27192.10500821750572551852@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 15:19:33 -0000
+Message-Id: <166377357327.27322.2433546593632815433@gitolite.kernel.org>
 
---===============5112816886102185684==
+--===============6485335517730476101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/wip
-    old: a06d74a6cd8057a2766d94b20d64d1456ed53afd
-    new: afb3934930b202f39e9757312c69cc6899abb88a
-    log: revlist-a06d74a6cd80-afb3934930b2.txt
+  - ref: refs/heads/sched/wip
+    old: 0ac84fe9231847a288946d91d50ddb9d0c1a672a
+    new: da4839a47c8c8595f54957cad6f1485b0decf2a2
+    log: revlist-0ac84fe92318-da4839a47c8c.txt
 
---===============5112816886102185684==
+--===============6485335517730476101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a06d74a6cd80-afb3934930b2.txt
+Content-Disposition: attachment; filename=revlist-0ac84fe92318-da4839a47c8c.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -130,7 +130,7 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
-4835979fad85db6f22f348fef963b56eb87769b7 Merge branch 'tip/objtool/core'
-afb3934930b202f39e9757312c69cc6899abb88a objtool: Rework arch_dest_reloc_offset()
+93da94d1de4d35415cf27a7225c6123ea1d6c2c5 Merge branch 'tip/sched/core'
+da4839a47c8c8595f54957cad6f1485b0decf2a2 sched/fair: Fold the sched_avg update
 
---===============5112816886102185684==--
+--===============6485335517730476101==--
