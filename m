@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3678806732835338198=="
+Content-Type: multipart/mixed; boundary="===============8862679357170250754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 21 Sep 2022 11:58:41 -0000
-Message-Id: <166376152103.13632.13820642076322853441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 21 Sep 2022 11:58:46 -0000
+Message-Id: <166376152685.13748.1304451433480304555@gitolite.kernel.org>
 
---===============3678806732835338198==
+--===============8862679357170250754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: f7aadbb23ce4c0572b5732a731d6f30b81569bee
     new: ee81cfb58286c1aed3263d2fc94b321e7d963f08
     log: |
          ee81cfb58286c1aed3263d2fc94b321e7d963f08 ASoC: sunxi: fix declaration compile error
          
 
---===============3678806732835338198==
+--===============8862679357170250754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663761517 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1663761519-48763dd1c691643b90e99c3d6fa57bc1305a5cf3
+pusher C3F436CA30F5D8EB 1663761523 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1663761525-1efab53d7d54fc4f106c605936564acfedfe922b
 
-f7aadbb23ce4c0572b5732a731d6f30b81569bee ee81cfb58286c1aed3263d2fc94b321e7d963f08 refs/heads/for-6.1
+f7aadbb23ce4c0572b5732a731d6f30b81569bee ee81cfb58286c1aed3263d2fc94b321e7d963f08 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMq/G0ACgkQJNaLcl1U
-h9DDMgf/TfrEORA4mdtZJaWcIgLPD15Rus/DmKvC/6rf/9hDlWMEvU0pxvxgIPgw
-kt6EKOuv9flj+Rw2y40mrks0N0kpL1UVH7nA8TpKJhLYy8DY49jpIfMNhDTnQJ7w
-vSF1BqD5f/9QtHAUsFich5zpj/ZjGUCLpfwhPhM53/Ah4i6wBopwlHOLDZN+RXgP
-T5uV3CCD/z0VlYO7C4Gjq9Wxi/JIQzEHAID5ace7CL71ujbSmDSo37t5gyovuuSJ
-sb/2VmrYeRNcHF8RTg6Chw1p7C3K42dDkV6vLrTxQ6RTmHSgZyxc/C++8P0y54rK
-mH1wd7biptkPlw3A1wzgKP315yabjA==
-=gsz5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMq/HMACgkQJNaLcl1U
+h9C0vwf9E+fvmLv8PeNdmFUMahAowSMQaNtTW1uxl+L51SnsRxNxF19hICsBoNrQ
+gQKDLYU7jDSK6npSbfbNt72CxM1vury4I4yO44RfReOOFQWk13Pe7DtKgBm15FDV
+nCLwv3MZ1+wydlnH3Vx4vSeNGNU0I7xqF9l9+M4+RefkLU/wj9roMy8riAPpxswp
+OXns9hg/83nSX6POOpoNigdXLDET5OkLgontYvvADrvNP2StQ/WX+hAdBXBQHvRo
+CiqxeXfijcXqvP6pzhO8UlepAVdAs0TLDMWp1CgCsyz1TirqUQmehOt6ox8z5P2R
+I3Zfh0REe7iUR8k1NejDjn+dSAD5Fg==
+=j1/o
 -----END PGP SIGNATURE-----
 
---===============3678806732835338198==--
+--===============8862679357170250754==--
