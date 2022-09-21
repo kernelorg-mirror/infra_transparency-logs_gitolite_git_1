@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 21 Sep 2022 23:18:53 -0000
-Message-Id: <166380233313.12567.18434614246719927653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 21 Sep 2022 23:33:12 -0000
+Message-Id: <166380319205.23380.16667210697304879535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/damon/next
-    old: 5c2a0770beeab07243ac6632a2afcf637f343806
-    new: 1d0cd03d92a150653f913ad16f75dfe20969ec4d
+  - ref: refs/heads/master
+    old: 3a74904ceff3ecdb9d6cc0844ed67df417968eb6
+    new: c12a03766788befbb65fc2a87891c9ece8abad07
     log: |
-         3902f739aecf46e9ff42053466127aa6d6e133f1 mm/damon/core: separate damos application logic
-         1ad2d819040159f76e310b1fe07436bcd42b1e93 mm/damon/core: separate scheme stat update logic
-         9f44199163637c9b79df52bd517e8ef2c0df5119 mm/damon/core: fix damos_apply_scheme() factor out commit
-         1d0cd03d92a150653f913ad16f75dfe20969ec4d mm/damon/core: separate scheme quota adjustment logic
+         583c1f420173f7d84413a1a1fbf5109d798b4faa bpf: Define new BPF_MAP_TYPE_USER_RINGBUF map type
+         20571567384428dfc9fe5cf9f2e942e1df13c2dd bpf: Add bpf_user_ringbuf_drain() helper
+         b66ccae01f1ddce47fe2c7f393a3a5c5ab3d7f06 bpf: Add libbpf logic for user-space ring buffer
+         e5a9df51c74671cfe15af1d50e5f508bd3efddab selftests/bpf: Add selftests validating the user ringbuf
+         c12a03766788befbb65fc2a87891c9ece8abad07 Merge branch 'bpf: Add user-space-publisher ring buffer map type'
          
