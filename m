@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2065303447596861197=="
+Content-Type: multipart/mixed; boundary="===============5112816886102185684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 21 Sep 2022 15:19:13 -0000
-Message-Id: <166377355302.27086.12061688047307884195@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 15:19:23 -0000
+Message-Id: <166377356332.27192.10500821750572551852@gitolite.kernel.org>
 
---===============2065303447596861197==
+--===============5112816886102185684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/idle
-    old: b6699d99ee51e9f1946f147294f483368c249d73
-    new: 0647316069655583b418c7cb6ab8ec3ce8e647da
-    log: revlist-b6699d99ee51-064731606965.txt
+  - ref: refs/heads/objtool/wip
+    old: a06d74a6cd8057a2766d94b20d64d1456ed53afd
+    new: afb3934930b202f39e9757312c69cc6899abb88a
+    log: revlist-a06d74a6cd80-afb3934930b2.txt
 
---===============2065303447596861197==
+--===============5112816886102185684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6699d99ee51-064731606965.txt
+Content-Disposition: attachment; filename=revlist-a06d74a6cd80-afb3934930b2.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -130,53 +130,7 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
-4df21b5778d09b4c4c6b4f255ee44bbd24a8c5aa x86/perf/amd: Remove tracing from perf_lopwr_cb()
-e0cbe02009f0e956ec1782795e9176451cdb4530 x86/idle: Replace x86_idle with a static_call
-3aa2ba1ed9a3ccd3533fd653c11da5af14fafabf cpuidle/poll: Ensure IRQ state is invariant
-08cfe8ed7f69f53758b28f194e4367e8cbbfeb96 cpuidle: Move IRQ state validation
-66de99c470789193099b4aa1465ab57913990a5d cpuidle,riscv: Push RCU-idle into driver
-a020d5644ed33119376108ab119f4f5fe6ced26e cpuidle,tegra: Push RCU-idle into driver
-4bb22f71deecbf1df1bd7e60cdc40381d8ca30cb cpuidle,psci: Push RCU-idle into driver
-2e91ecce1e22b3e8a14ca5fd0bb30c7594d7d3bd cpuidle,imx6: Push RCU-idle into driver
-d3bd59f577714574c197a1ec8a0d367f294eb9fc cpuidle,omap3: Push RCU-idle into driver
-a13902bf21a126ac1c11f40123d9993d5e670a30 cpuidle,armada: Push RCU-idle into driver
-02f4e12340823b31cba18d70a71e75886b838346 cpuidle,omap4: Push RCU-idle into driver
-e81d93f0dc34dce5eefc23be97d04d9c716a8e61 cpuidle,dt: Push RCU-idle into driver
-ac2180fa442a4a6f097746f50a296cb91e456115 cpuidle: Fix ct_idle_*() usage
-6e474f03ebb338ddbad8e384c917d2e614696a67 cpuidle,cpu_pm: Remove RCU fiddling from cpu_pm_{enter,exit}()
-5e2c45ca67d2bdfc43b12f77ccbaaa680b0b3ef6 acpi_idle: Remove tracing
-840a84cb25204938ab3ed323a876eb53ee0384ca cpuidle: Annotate poll_idle()
-dbb7e9b7684ae3c6b29407ef3e5ce601ebb0b699 objtool/idle: Validate __cpuidle code as noinstr
-c3b585469753cdc99ecb6a1911c3d4309dfbe4a3 cpuidle,intel_idle: Fix CPUIDLE_FLAG_IRQ_ENABLE *again*
-fc0bc4a718cc51d8421701257620f62f1196d95e cpuidle,intel_idle: Fix CPUIDLE_FLAG_INIT_XSTATE
-0a8bd87721de7e4d196e7d2f622e0f0221c962b8 cpuidle,intel_idle: Fix CPUIDLE_FLAG_IBRS
-5f54b69cb21583be1b45c310de2d38eeadd3842e arch/idle: Change arch_cpu_idle() IRQ behaviour
-628dd3120c232d5528df41559d986880f88878c8 x86/tdx: Remove TDX_HCALL_ISSUE_STI
-a07f3639c7f2c83b15991d77115594b0ef4d9d4b arm,smp: Remove trace_.*_rcuidle() usage
-c0ef843d2a97c4970c6baa970999adea67c22557 arm64,smp: Remove trace_.*_rcuidle() usage
-7d0f77daba52f060f699b34c794ce019b0577529 printk: Remove trace_.*_rcuidle() usage
-6836ab0485a840baed1a535e467db4181d06c253 time/tick-broadcast: Remove RCU_NONIDLE usage
-425da2cba398d370a0772d63cbdc8ea23578e83f cpuidle,sched: Remove annotations from TIF_{POLLING_NRFLAG,NEED_RESCHED}
-b485548eed9577d6ed275174b0f4dbf24c40a4e1 cpuidle,mwait: Make noinstr clean
-6163f1d0ff4fa5e05de07eeec13af340507dfb94 cpuidle,tdx: Make tdx noinstr clean
-f396d6cad2398490e955a7e77aae9c64c368850a cpuidle,xenpv: Make more PARAVIRT_XXL noinstr clean
-63dd4ac3b2a6685d89dc13ca8f87c79d758639a4 cpuidle,nospec: Make noinstr clean
-c7cc314365eae8fa0fc5cea00263819686c32ed2 cpuidle,acpi: Make noinstr clean
-39aaef93b8d27b595998f89f117cb6369b6cb987 ftrace: WARN on rcuidle
-75393df2c02a24d09fe380481c24613455207a57 cpuidle,omap3: Use WFI for omap3_pm_idle()
-85691f65f8f1a7026aea1a0b4a441e449fa91d84 cpuidle,omap3: Push RCU-idle into omap_sram_idle()
-509697ec3fc7ead1dd23eb534cf7242892c25728 cpuidle,omap4: Push RCU-idle into omap4_enter_lowpower()
-686b3ad589055320a70780e6d7c0837159773613 arm,omap2: Use WFI for omap2_pm_idle()
-84c815036b6df4ceebe93a6f0324dc42f764370f cpuidle,powerdomain: Remove trace_.*_rcuidle()
-5040126ae81a4ea1d5336ac81f8d73e44aa01e46 cpuidle,clk: Remove trace_.*_rcuidle()
-2a0c48d228e1707b37b4e90b0e2a3024794c3e9b ubsan: Fix objtool UACCESS warns
-589fb2ef1c8a04c4a2a896613b0cfca781027992 intel_idle: Add force_irq_on module param
-cbb2f2afc1ddf4aa315b9f3ac57f0957da921adf entry,kasan,x86: Disallow overriding mem*() functions
-66a93f39bf07eecff5a1b9e16569f6c441432920 sched: Always inline __this_cpu_preempt_check()
-07bb19ff0b47f9749a44a97b309f85b1ba712702 arm64,riscv,perf: Remove RCU_NONIDLE() usage
-5b2b97c4cdf9c9fc1df6c4085d0c3bff9cc70483 cpuidle: Ensure ct_cpuidle_enter() is always called from noinstr/__cpuidl
-be0c62d940bd5419dd63b31ae5a31a4591dc989d cpuidle,arch: Mark all ct_cpuidle_enter() callers __cpuidle
-2bdc7f9b8695f89d8c7755cd31d6ad560036bb3c cpuidle,arch: Mark all regular cpuidle_state::enter methods __cpuidle
-0647316069655583b418c7cb6ab8ec3ce8e647da cpuidle: Comments about noinstr/__cpuidle
+4835979fad85db6f22f348fef963b56eb87769b7 Merge branch 'tip/objtool/core'
+afb3934930b202f39e9757312c69cc6899abb88a objtool: Rework arch_dest_reloc_offset()
 
---===============2065303447596861197==--
+--===============5112816886102185684==--
