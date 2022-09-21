@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Wed, 21 Sep 2022 08:13:53 -0000
-Message-Id: <166374803325.31815.12895907434568547109@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0882788047839180492=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 21 Sep 2022 08:16:48 -0000
+Message-Id: <166374820859.2160.11640547626849472693@gitolite.kernel.org>
+
+--===============0882788047839180492==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: a241d94bb532dcfb7ef3f723e6a0a0e7cf8f10ea
-    new: 25a47cb1f2ce2d3ffd6b24af6ce3576370fc13a3
+  - ref: refs/heads/master
+    old: c2325ebf159521382b98786a07cf563dfbbffcf4
+    new: 1df40d49fbcc9082723e596bfe7c0486a2a7b384
     log: |
-         d80ca810f096ff66f451e7a3ed2f0cd9ef1ff519 efi: libstub: drop pointless get_memory_map() call
-         bc5853aa56de867988590a6cdb404525e74d8a23 efi: libstub: avoid efi_get_memory_map() for allocating the virt map
-         d2130a9cf0f714c29b2887ec240bb373b2cea376 efi: libstub: simplify efi_get_memory_map() and struct efi_boot_memmap
-         1add08ceb15ba5e9d26d2e67a2454e973399239a efi: libstub: remove pointless goto kludge
-         7cb6671e3caa2884a36ddc8a6e5a68ec851acd39 efi: libstub: unify initrd loading between architectures
-         7318926e7bc9d0f7bb64e46b5e5d7eed2f1404b3 efi: libstub: remove DT dependency from generic stub
-         102faf0747c26163207e93141e50df4f555698a1 efi: libstub: install boot-time memory map as config table
-         b093dc55ba9ab9fc7e4a613f3110cd7db74873af efi/loongarch: libstub: remove dependency on flattened DT
-         25a47cb1f2ce2d3ffd6b24af6ce3576370fc13a3 Merge tag 'efi-loongarch-for-v6.1-2' into HEAD
+         1df40d49fbcc9082723e596bfe7c0486a2a7b384 drop net-mvpp2-debugfs-fix-memory-leak-when-using-debugfs.patch
          
+
+--===============0882788047839180492==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663748203 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1663748202-89ad91b123b2c85b4e9545e54eb1b799acc7b15a
+
+c2325ebf159521382b98786a07cf563dfbbffcf4 1df40d49fbcc9082723e596bfe7c0486a2a7b384 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMqyGsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H4AP/Ak/fgD7IaCjE4WAYRED
++dSuzuMcOGXgi6HJBBK5iIvhXaXYB2uEjjLNRQXKj+FhuiLKR++37fZ+HWAioift
+xQApML3NJtxI0E3qbVal6HRH734Hh7QsXCAMdF8w6cL7T9XHM/ySrNXcB4Be9Erl
+gxfBrImRXXQH0GrE0PuP3+h53nKkivAbm8/EeWx575f1qjMoNr36HVDd8/bizbYO
+nenToz9v8Bn9cUIZ3EItM/2xTpx012w+AVxUJzohjMrDLIgdvu80YFcMOb1ps3Th
+NLGwOtJo3esn3Kz92Dyvgn6/1pOSXdyw3zPrRRuBurpJpCyhQYkJYjOQElzvz/7W
+V1TZavLTAJ+XqeNLkq4bEg1i7yuTDnAiWotrC5MxiAWhX1j3n0nRgLuTPGiKQ/L2
+KucQOZeH3Q6GrX5g0a4sokXGy3nGGM+H0bui3Av7IZc/DfzkNcL02o3cMMA1Hh5q
+b/skOx6YgyHQvk26car96sAmtrAvqKODpSlI4j9B5YGdORCZFncXkACsCEcItXdD
+5rKoDzNE/Q1kD6HLkXf8XwjFFKY/i16fDLcKhUrAHjaRmlKC+lRGamJrfor4lhcq
+KNkliqBR/IEyJ4pRAcT4OtTHcwWWysJBH1Htgqhu0uPDUDFTaUFYMw+KOpgehIMJ
+YFQKRowvl8ErhU8aJPKzBt7W
+=XCsV
+-----END PGP SIGNATURE-----
+
+--===============0882788047839180492==--
