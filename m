@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 21 Sep 2022 04:38:50 -0000
-Message-Id: <166373513056.10840.12087758450692448576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 21 Sep 2022 05:36:50 -0000
+Message-Id: <166373861085.19361.9300310507875227934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-next
-    old: ecf8322f464d62759d838ea62cdeff6966a60134
-    new: e3b1fff6c051a746679da38f970324d1617590fa
-    log: |
-         cb6e73aaadff73751bb1c01349e58f2c6428e0a8 ata: libata-eh: Remove the unneeded result variable
-         690aa8c3ae308bc696ec8b1b357b995193927083 ata: fix ata_id_sense_reporting_enabled() and ata_id_has_sense_reporting()
-         9c6e09a434e1317e09b78b3b69cd384022ec9a03 ata: fix ata_id_has_devslp()
-         a5fb6bf853148974dbde092ec1bde553bea5e49f ata: fix ata_id_has_ncq_autosense()
-         630624cb1b5826d753ac8e01a0e42de43d66dedf ata: fix ata_id_has_dipm()
-         b46c760e11c8ce59166d2f9038d237dee409f37d ata: libata: drop superfluous ata_eh_request_sense() parameter
-         e3b1fff6c051a746679da38f970324d1617590fa ata: libata: drop superfluous ata_eh_analyze_tf() parameter
-         
+  - ref: refs/tags/opp-fixes-6.0
+    old: 0000000000000000000000000000000000000000
+    new: fc93827ba3e27912c2ec4b10dbc0ca52c73ece5c
