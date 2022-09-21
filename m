@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 21 Sep 2022 01:02:01 -0000
-Message-Id: <166372212129.20514.13983839911458226852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 21 Sep 2022 01:26:39 -0000
+Message-Id: <166372359971.7514.14674226234972727889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/damon/next
-    old: 521702a0004f785974136811fefe2e7a7df02bee
-    new: a5f85a5de8b74931ccd564bdb63194aedc99f2a9
+  - ref: refs/heads/kbuild
+    old: 60ecfddd7a092f9cbd2398dbc55da3abbb803ff0
+    new: ad49814c45f6b65f4585fb0253f5b134d2c4ff16
     log: |
-         a5f85a5de8b74931ccd564bdb63194aedc99f2a9 mm/damon/core: separate scheme quota adjustment logic
+         ad49814c45f6b65f4585fb0253f5b134d2c4ff16 zstd: Fixing mixed module-builtin objects
          
