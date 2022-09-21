@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 21 Sep 2022 07:32:21 -0000
-Message-Id: <166374554176.2960.18038628023740378668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 21 Sep 2022 07:33:21 -0000
+Message-Id: <166374560119.3388.15372498218193076971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 63e61fd8c23699c8c4d1e46907e1eed794dc96ec
-    new: 86ac517a80636cdce870fda2ee6925813e2a92c7
+  - ref: refs/heads/gpio/for-current
+    old: ab637d48363d7b8ee67ae089808a8bc6051d53c4
+    new: 69bef19d6b9700e96285f4b4e28691cda3dcd0d1
     log: |
-         3b7c9d358a6fb40ce1b37b180260de0a98f86105 Fix W^X detection when page tables do not support NX
-         86ac517a80636cdce870fda2ee6925813e2a92c7 Merge branch into tip/master: 'x86/mm'
+         21a9acc162457402c74c5c1e16471fda6eb090c0 gpio: tqmx86: fix uninitialized variable girq
+         69bef19d6b9700e96285f4b4e28691cda3dcd0d1 gpiolib: cdev: Set lineevent_state::irq after IRQ register successfully
          
