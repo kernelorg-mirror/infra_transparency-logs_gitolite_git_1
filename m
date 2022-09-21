@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0138595025341489698=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
 Date: Wed, 21 Sep 2022 16:46:15 -0000
-Message-Id: <166377877564.27214.1661590158935653374@gitolite.kernel.org>
-
---===============0138595025341489698==
-Content-Type: text/plain; charset="us-ascii"
+Message-Id: <166377877589.27235.1970823092427973716@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: f94f1709cd363428881888aa3474b66dc3b2e872
-    new: 10a823669b368bf6195ddd4cba32621d129448b2
+  - ref: refs/heads/testme
+    old: 096a610e9cd71b322143e5fbcd867a40c114314f
+    new: d47a649a2998db5c56fcbb223372bf237eb89b5f
     log: |
-         10a823669b368bf6195ddd4cba32621d129448b2 5.19-stable patches
+         0db7058e8e23e6bbab1b4747ecabd1784c34f50b x86/clear_user: Make it faster
+         c926087eb38520b268515ae1a842db6db62554cc x86/mm: Print likely CPU at segfault time
+         43625fa2484e653d580c7103401887578fded812 perf/x86/intel/P4: Fix smp_num_siblings usage
+         54c31894cee6728a81fe356b0a2317fbede55d2a hwmon/coretemp: Rename indx to index
+         250ebed613e7ad06fd1bdc1d57c906d1c66d47b8 hwmon/coretemp: Handle large core ID value
+         ce0b9020cd83a7d014b1d3a65e30384f6ad24fe8 x86/topology: Fix multiple packages shown on a single-package system
+         33ee8aa5b1fc1845d0b31fe4adb915e937831c3c x86/topology: Fix duplicated core ID within a package
+         18fea794c9ad74d1b47c913c3d6da78da15c6a57 x86/topology: Fix max_siblings calculation
+         fcde8059a09a464db487cd449cf0096035bdb459 Documentation/x86: Update smp_num_siblings/x86_max_cores description
+         d47a649a2998db5c56fcbb223372bf237eb89b5f Documentation/x86: Remove obsolete x86_max_dies description
          
-
---===============0138595025341489698==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663778774 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1663778770-312cd159490c9eaa783911f96c569976b69fa47f
-
-f94f1709cd363428881888aa3474b66dc3b2e872 10a823669b368bf6195ddd4cba32621d129448b2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMrP9YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hrcP/04RcoqFodHq22HzsdMm
-lg2YHDBmEkBh32i8qIvm+0yoDD7OJsfYm/2P3OMiB9AEn/eQ7cAzU+hzyxtfaY9K
-EqDMM0s3YWPhRUxlrAP9eRyzWF4z2lEPKUHiYYGam8Lc2bv32bFr63xIRi3ixZvN
-hjadKy7gpzMJp1U17Vq8oLTRp8zmA0ETpNExeliDBgioA48VRgML4BSiHAuQHK2y
-yMYYIHmoXIjTKGRlq/dBqdKOeYLMl0JIz5DWUleNKDrLHytN3ThpIk5AZ2ECtWCc
-0CqW/gFIJNhL7u8STRgT6xB/+8jTEPOYt8/N9clmqPiQFUR8Acylp1dTbvDLiKwX
-8qFXShk2bnjoyGuMqLa01yam69Mx5Bf6dtiF03yFp5hM3/hkjFPwxuBWkpRfKnj5
-w983Fqo71rUZGQ3ynWpEwY77RaaRTq4/6z9sRyhY0ohEU1F3NBnMkMBLyrWIwEVs
-MP6HZx+uCRlqVLBmwBiUmJuXp/Qpb1eHf9Bf1m07XYiq6bbzIJcqed7gDeJhOPfj
-DNxFZO1w/Irvtj2YIHCSevov0RwZROYE+HnOuu297hczVILGEY3AhXPh06g3CQ8k
-UPaJhrddTOjB8Lfx+R/6rrygwcj4sD5LfW9wj0V5NX96IoWU9yg4+fuGDxaaQTzb
-lKT2UJNlFo1h6IDhK5lhG8lz
-=tnfW
------END PGP SIGNATURE-----
-
---===============0138595025341489698==--
