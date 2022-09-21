@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 21 Sep 2022 17:27:46 -0000
-Message-Id: <166378126678.25596.3822493176939045753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 21 Sep 2022 17:31:47 -0000
+Message-Id: <166378150755.28602.1733759649103762208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 06564be4c03ff0e0b88c5a4a14a6527fcb070ffd
-    new: 467233a4ac29b215d492843d067a9f091e6bf0c5
+  - ref: refs/heads/master
+    old: 08ab4d2f33a398a388b2d21a339ee1ae6a7c9c7a
+    new: 77ffd0bb6eb12a9263354b318729d90c4723357a
     log: |
-         467233a4ac29b215d492843d067a9f091e6bf0c5 rpmsg: char: Avoid double destroy of default endpoint
+         77ffd0bb6eb12a9263354b318729d90c4723357a Wed Sep 21 05:31:03 PM UTC 2022
          
