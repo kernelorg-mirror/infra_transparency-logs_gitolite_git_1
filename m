@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0342429367167398129=="
+Content-Type: multipart/mixed; boundary="===============3165392698698674410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 21 Sep 2022 08:56:45 -0000
-Message-Id: <166375060528.31273.4458288225337704845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 21 Sep 2022 08:56:55 -0000
+Message-Id: <166375061580.31419.5507003430121079450@gitolite.kernel.org>
 
---===============0342429367167398129==
+--===============3165392698698674410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ef08d387bbbc20df740ced8caee0ffac835869ac
     new: 483fed3b5dc8ce3644c83d24240cf5756fb0993e
     log: revlist-ef08d387bbbc-483fed3b5dc8.txt
-  - ref: refs/heads/stable
-    old: 521a547ced6477c54b4b0cc206000406c221b4d6
-    new: 60891ec99e141b74544d11e897a245ef06263052
-    log: |
-         8a1f1e3d1eecf9d2359a2709e276743a67e145db btrfs: fix hang during unmount when stopping block group reclaim worker
-         a362bb864b8db4861977d00bd2c3222503ccc34b btrfs: fix hang during unmount when stopping a space reclaim worker
-         2dd7e7bc02829eded71be2342a93dc035f5223f9 btrfs: zoned: wait for extent buffer IOs before finishing a zone
-         2b1e8921fc355ff5afda65690d6e40ce25b80cd7 Revert "selftests/timens: add a test for vfork+exit"
-         33a2d6bc3480f9f8ac8c8def29854f98cc8bfee2 Revert "fs/exec: allow to unshare a time namespace on vfork+exec"
-         f52d74b190f8d10ec01cd5774eca77c2186c8ab7 open: always initialize ownership fields
-         f489921dba468b3d208a5234dcbf7f21a615f395 Merge tag 'execve-v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-         84a31938831f6d2338ceffe630a1271ec2a51a59 Merge tag 'fs.fixes.v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/idmapping
-         60891ec99e141b74544d11e897a245ef06263052 Merge tag 'for-6.0-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         
-  - ref: refs/tags/next-20220621
-    old: f825d18ed3037ef94026407044912f0d3674b0d2
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20220921
     old: 0000000000000000000000000000000000000000
     new: 56a54a2e1a947f1eb5906878d30a0f2cdf13912e
 
---===============0342429367167398129==
+--===============3165392698698674410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -897,4 +880,4 @@ ef0b78d282843dfd596cf2c102e3badd73de2958 Merge branch 'mm-nonmm-stable' of git:/
 2a3750af87e9007d7ecaaa93db89ae16e62de030 Merge branch 'mm-everything' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 483fed3b5dc8ce3644c83d24240cf5756fb0993e Add linux-next specific files for 20220921
 
---===============0342429367167398129==--
+--===============3165392698698674410==--
