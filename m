@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5486116993804489790=="
+Content-Type: multipart/mixed; boundary="===============4200541619292202979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 21 Sep 2022 17:20:31 -0000
-Message-Id: <166378083107.20060.14171234638725717344@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 17:22:02 -0000
+Message-Id: <166378092203.20650.11313680787192585688@gitolite.kernel.org>
 
---===============5486116993804489790==
+--===============4200541619292202979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: cd9ef47286dc37652e5349dc6e6a7da7be84e02b
-    new: 84952d276b4dc0525cb0b254f2a3198de4b02488
-    log: revlist-cd9ef47286dc-84952d276b4d.txt
+  - ref: refs/heads/net-mlx4
+    old: 1c48709e6d9d353acaaac1d8e33474756b121d78
+    new: 375a683321a331697103a5ba2fed880b759c626d
+    log: revlist-1c48709e6d9d-375a683321a3.txt
 
---===============5486116993804489790==
+--===============4200541619292202979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd9ef47286dc-84952d276b4d.txt
+Content-Disposition: attachment; filename=revlist-1c48709e6d9d-375a683321a3.txt
 
 cf412ec333250cb82bafe57169204e14a9f1c2ac net: ipa: properly limit modem routing table use
 b07a9b26e2b1aa3711fd6935eccb08a463b1fb11 ipmr: Always call ip{,6}_mr_forward() from RCU read-side critical section
@@ -57,6 +57,5 @@ a09721dd47c8468b3f2fdd73f40422699ffe26dd can: flexcan: flexcan_mailbox_read() fi
 79a392a3b19a106e0268bfbe1b4cc31d85eeb552 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 65e5d27df61283e5390f04b09dc79cd832f95607 net: atlantic: fix potential memory leak in aq_ndev_close()
 375a683321a331697103a5ba2fed880b759c626d Merge tag 'linux-can-fixes-for-6.0-20220921' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-84952d276b4dc0525cb0b254f2a3198de4b02488 net/mlx5e: Do not increment ESN when updating IPsec ESN state
 
---===============5486116993804489790==--
+--===============4200541619292202979==--
