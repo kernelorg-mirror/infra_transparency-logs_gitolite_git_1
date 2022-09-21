@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 21 Sep 2022 07:19:50 -0000
-Message-Id: <166374479094.24846.14080213119992112854@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 07:21:12 -0000
+Message-Id: <166374487222.26902.12546878515053018199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
   - ref: refs/heads/cpufreq/arm/linux-next
-    old: 8342b10a2716ec267ab89ea827f851b78b68470a
-    new: 91dc90fdb8b8199519a3aac9c46a433b02223c5b
+    old: 91dc90fdb8b8199519a3aac9c46a433b02223c5b
+    new: 676886010707fc656e2b407b2849883fbb63717e
     log: |
-         91dc90fdb8b8199519a3aac9c46a433b02223c5b cpufreq: qcom-cpufreq-hw: Fix uninitialized throttled_freq warning
+         676886010707fc656e2b407b2849883fbb63717e cpufreq: tegra194: Add support for Tegra239
          
