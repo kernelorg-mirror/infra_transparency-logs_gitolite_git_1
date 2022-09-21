@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1070389755597150501=="
+Content-Type: multipart/mixed; boundary="===============2920100445717410598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 21 Sep 2022 15:19:43 -0000
-Message-Id: <166377358365.27461.11205755446282817120@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 15:19:54 -0000
+Message-Id: <166377359432.27565.7772939225598046643@gitolite.kernel.org>
 
---===============1070389755597150501==
+--===============2920100445717410598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/wip.self
-    old: 43202956ce5494c58291b79130e051b72b76ce39
-    new: 9cc21b7ec273ced9ecab8f4aa6379736a1eb8348
-    log: revlist-43202956ce54-9cc21b7ec273.txt
+  - ref: refs/heads/x86/mm.pae
+    old: 70a62beb4721fbaaec43f3e22c57a7b3ffe4d654
+    new: 6d5eedec0ff2e2d154749cdb9fd2e8145f819e8e
+    log: revlist-70a62beb4721-6d5eedec0ff2.txt
 
---===============1070389755597150501==
+--===============2920100445717410598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43202956ce54-9cc21b7ec273.txt
+Content-Disposition: attachment; filename=revlist-70a62beb4721-6d5eedec0ff2.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -130,7 +130,14 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
-87cc1f1a2d426797b9154e1e4a0686db2d735f3e Merge branch 'perf/urgent'
-9cc21b7ec273ced9ecab8f4aa6379736a1eb8348 perf: Better track self-monitoring events
+49ddf76b945f111d608db90509b31da735696783 mm: Update ptep_get_lockless()'s comment
+c232e0291b47c493296a27ecf40d7959ba3fd7f4 x86/mm/pae: Make pmd_t similar to pte_t
+64e202222332f97483920c35c470e00cebdf7fa3 sh/mm: Make pmd_t similar to pte_t
+b427f2ce92b27084f060735cbe791b569f4b833b mm: Fix pmd_read_atomic()
+9be243b922f15caa2e1d419fa9ee160c2c564408 mm: Rename pmd_read_atomic()
+c9d70a82da7658014919033a304fa026e0f3ec85 mm/gup: Fix the lockless PMD access
+fd2a246fa574e111e51adbcfda255efe3504f62e x86/mm/pae: Don't (ab)use atomic64
+2bacb96b919b326b0ac3de65637bcc85c4481c4a x86/mm/pae: Use WRITE_ONCE()
+6d5eedec0ff2e2d154749cdb9fd2e8145f819e8e x86/mm/pae: Be consistent with pXXp_get_and_clear()
 
---===============1070389755597150501==--
+--===============2920100445717410598==--
