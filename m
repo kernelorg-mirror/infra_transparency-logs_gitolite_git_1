@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 21 Sep 2022 20:40:30 -0000
-Message-Id: <166379283066.31798.7221717133051327208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 21 Sep 2022 21:06:14 -0000
+Message-Id: <166379437481.17345.11887629038703584731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: gor
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 55ee8c8941e47f8d71b5610de7034ce0e8f53820
-    new: 034551ce2e8ab943f1859fc085cc765b62c8fec8
-    log: |
-         1918f2b20c3de73ef6f644979896e20a2e7dbb2d s390/vfio-ap: bypass unnecessary processing of AP resources
-         c017889f245cbcf3ba7e66b245e95fd34f1cc1da Merge branch 'fixes' into for-next
-         034551ce2e8ab943f1859fc085cc765b62c8fec8 Merge branch 'features' into for-next
-         
+  - ref: refs/heads/next
+    old: 25a47cb1f2ce2d3ffd6b24af6ce3576370fc13a3
+    new: a241d94bb532dcfb7ef3f723e6a0a0e7cf8f10ea
