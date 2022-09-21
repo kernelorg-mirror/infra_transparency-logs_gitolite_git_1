@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4606807459276441053=="
+Content-Type: multipart/mixed; boundary="===============0649915833217219688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 21 Sep 2022 15:36:47 -0000
-Message-Id: <166377460712.9463.15672779981387460790@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 15:36:49 -0000
+Message-Id: <166377460920.9550.6874463581051790190@gitolite.kernel.org>
 
---===============4606807459276441053==
+--===============0649915833217219688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 6783071498808709a173fce9e44104691aaeb46f
-    new: af1d606e70ee6ddfdd592de51e7bdcae5688cf6b
-    log: revlist-678307149880-af1d606e70ee.txt
+  - ref: refs/heads/linux-4.14.y
+    old: a2f633758aab502af1570999536111c47c376148
+    new: 56e0c1e50ba9d82eaa54f167482849137da0b44e
+    log: revlist-a2f633758aab-56e0c1e50ba9.txt
 
---===============4606807459276441053==
+--===============0649915833217219688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663774606 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663774608 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1663774602-28d05b58a7abfe22144570d41c9024aef3d6af36
 
-6783071498808709a173fce9e44104691aaeb46f af1d606e70ee6ddfdd592de51e7bdcae5688cf6b refs/heads/linux-4.9.y
+a2f633758aab502af1570999536111c47c376148 56e0c1e50ba9d82eaa54f167482849137da0b44e refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMrL44bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N6IP/0duevfA91ySm6ZbGS6X
-9974FxhkgE1C0avSHtoUh1c7UBgZwgcCPVH53UQFqrs/Y6SIvQG5L9kLFCZjbtaM
-pY8iQO1dHiOIONxniTHIICLsIbPf+31PiHRn1DsnUBAqU1RZB5SN5lzj7Bxpihab
-/SXrOxeAkYS9hoaGiTZoBaiyBpYnKu/kpmgYWqXf6c9H0gpS527cFDWu4wnY5ucq
-EO8Xa5GuUKYuTqkxv+1Ogi/fGACy4KJ9uxH+t88GAxTD+p/fOLyPwmTel6CK0iGi
-JzdB2qYOGUJ2NwXdTwLqeMdfZ7EwmjG+kmr3GwgOO+rWJ3St649LVumYi1Ki1Dr3
-V8SUeTf5386wNEu8bzAA8EI1e6KSm1WXluykYOOGNFvssyhxBMqA0fRo3cRjp+Bz
-ldZyvWUprq+NjhUNpFsWtQ7IijauH89C5vQnOKibayEu+tzFd1s+F/1CEeruB0vT
-2E6NK+X5iva4PGGusnJJ6DDzxbcL/iw8xW6eDCmk8AD9y+jgovXVi25Rj/I6h7tT
-hzSQSzNgogjUgfm9EhXQtbYSidNrAN7AjKgj5THjsG0MibO2sVIBxmKXvOGcXZz5
-T0oiL5g08gdvfEepy+lxhHrYbTFDL9A64kfwmuKwd0tIq3iRN4UFAXY3jivXkasT
-9jss93GidVDqdv/bz3YXFRGL
-=bmOJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMrL5AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N30QAKaf6Rne4cRbW0XlAjrm
+v1IVfSaDR/JpoEQVebln5Tf5xYbHdL1zR30ngkG35izdnCHaG7Z0majFqdPhSXmS
+ZQpUtlCHHpwCVarQbORhAYwoD/3iHk8TPisuO7ijNcHHW8yHzgZnOMHacywm6g4b
+I29K2NlIsIk3B9PfP4WoVW1t7/Set69TMssjPf8gMVX6A1MLawvlUQ8zdDMBG12a
+WuuHujlHAZ78ogMDw8g+yyPXXj1yli30DvJ64KLzYo9yp3rubNfUKwqXVhzIheIg
+8fzwe2ek0i2NpU/xvp2YU73U/G57A74yGrm31mQh8FX9Lh5UV9H5F1Zb6rVcKUxA
+aq6QfIkBzdnBPloE/SytMM/+OKSrvhlJjdVgpkaKIumED5WZBeng9iiSFvim5vFK
+gKUYYtwA4wLofeZ09GPHxbj+JOBVW+r+W+KrRQgKZQEV7ri1c/KmWO/4TLMMG7+c
+aZQhxs8GlTj4bdI7ba3s1/F5/OD90TeOrnMwQvF/105P/OWMc07BjveS+k02w7mM
+oRF/zAozMFxbUq6YlQoTlPUmjGiqfb7PvCC+HfipJ3OQmXRgIuRGebA2FvbKzUeR
+NJiADL+lwLET3MKRJNFAJiR1bsvy+xBRnJtU/2ysAe2EtAX5QZb+xQ3CNSAv3U4y
+PXZVVGF5X31en4GsAoBNkbL2
+=wt1u
 -----END PGP SIGNATURE-----
 
---===============4606807459276441053==
+--===============0649915833217219688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-678307149880-af1d606e70ee.txt
+Content-Disposition: attachment; filename=revlist-a2f633758aab-56e0c1e50ba9.txt
 
-caa92077469fa668a38ab4cefef6b0766fc40d54 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-cc676e2c022371bf4a79e8c515a83864f0932e2d cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-6c78378a30e8d162dc090fcdbc98e37081d45f5e drm/vc4: crtc: Use an union to store the page flip callback
-b3fc115dac0347b4457319cb929c3e9e46a410f2 video: fbdev: skeletonfb: Fix syntax errors in comments
-25c997e41f56bc60505ed4013f0f2fdb05a4bd55 video: fbdev: intelfb: Use aperture size from pci_resource_len
-64401243f4b51b72eb842d40ddb52f7adcb2b422 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-7b4b53fc49434dcf3ef382993b6337704fd79a69 video: fbdev: simplefb: Check before clk_put() not needed
-36d13b97deca20b864c1d15016e99855041e9f91 mips: lantiq: falcon: Fix refcount leak bug in sysctrl
-7f49fce491f26fa37858002cf2703f4695ce0a27 mips: lantiq: xway: Fix refcount leak bug in sysctrl
-5f2bbdc59e28c8a251669d13581e8da1d059ea9e mips/pic32/pic32mzda: Fix refcount leak bugs
-485eb4968a7df800eacf3322b094bb6c35dc3314 mips: lantiq: Add missing of_node_put() in irq.c
-1221e170763c1aef4df286db1fe09efe09934d00 arm: mach-spear: Add missing of_node_put() in time.c
-af1d606e70ee6ddfdd592de51e7bdcae5688cf6b Linux 4.9.330-rc1
+21f166b5ea80da020007d9734872ebf21f897fa2 of: fdt: fix off-by-one error in unflatten_dt_nodes()
+8a9999880c5dea98b16b6386a96a40deaa165b3d gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+2ce46dec9fadb00dc16a90b6c2216c2172b18c50 drm/meson: Correct OSD1 global alpha value
+de1a0e8e20373c2de21077126db694876880958b parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+98e1bef30995a8b6bbe7cdc52b00c19bff179b46 efi/libstub: Disable Shadow Call Stack
+65179a925dfc39005b3d59005297433b672fcd61 efi: libstub: Disable struct randomization
+838fa9fa0d3ebf619754fffdd7f5ece85ce6e9c4 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+3a366a5b9c0f6a565bc1837550e8bd5323224714 ASoC: nau8824: Fix semaphore unbalance at error paths
+433163765a286e2033ec6bc3cf4fd85c262db038 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+0c073d55cc33dea241ce9de97216f6283ec52c3d ALSA: hda/sigmatel: Keep power up while beep is enabled
+47c3f1b6aa6eaed9fa0774c36ded33b64acd1d5d net: usb: qmi_wwan: add Quectel RM520N
+d8bded485b5f0d58cfd19b43d6210133879f912a MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
+ef4dc9da3f6d61bbe319c6d2965d5c75e511b592 mksysmap: Fix the mismatch of 'L0' symbols in System.map
+1147f708160ae9687a8ae7202249481cbe66aa24 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+900dd353954a4a69211d7d31e32041003058d0af ALSA: hda/sigmatel: Fix unused variable warning for beep power change
+56e0c1e50ba9d82eaa54f167482849137da0b44e Linux 4.14.295-rc1
 
---===============4606807459276441053==--
+--===============0649915833217219688==--
