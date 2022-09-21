@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2920100445717410598=="
+Content-Type: multipart/mixed; boundary="===============2046462772463127529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 21 Sep 2022 15:19:54 -0000
-Message-Id: <166377359432.27565.7772939225598046643@gitolite.kernel.org>
+Date: Wed, 21 Sep 2022 15:20:04 -0000
+Message-Id: <166377360433.29199.8491385195995112095@gitolite.kernel.org>
 
---===============2920100445717410598==
+--===============2046462772463127529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm.pae
-    old: 70a62beb4721fbaaec43f3e22c57a7b3ffe4d654
-    new: 6d5eedec0ff2e2d154749cdb9fd2e8145f819e8e
-    log: revlist-70a62beb4721-6d5eedec0ff2.txt
+  - ref: refs/heads/debug/experimental
+    old: 3c790a796e7a801206848623cd869b22f4a7558e
+    new: eb7eb63d7336be36ffed8fc9f9e4c6c4cdb6e452
+    log: revlist-3c790a796e7a-eb7eb63d7336.txt
 
---===============2920100445717410598==
+--===============2046462772463127529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70a62beb4721-6d5eedec0ff2.txt
+Content-Disposition: attachment; filename=revlist-3c790a796e7a-eb7eb63d7336.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -130,14 +130,8 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
-49ddf76b945f111d608db90509b31da735696783 mm: Update ptep_get_lockless()'s comment
-c232e0291b47c493296a27ecf40d7959ba3fd7f4 x86/mm/pae: Make pmd_t similar to pte_t
-64e202222332f97483920c35c470e00cebdf7fa3 sh/mm: Make pmd_t similar to pte_t
-b427f2ce92b27084f060735cbe791b569f4b833b mm: Fix pmd_read_atomic()
-9be243b922f15caa2e1d419fa9ee160c2c564408 mm: Rename pmd_read_atomic()
-c9d70a82da7658014919033a304fa026e0f3ec85 mm/gup: Fix the lockless PMD access
-fd2a246fa574e111e51adbcfda255efe3504f62e x86/mm/pae: Don't (ab)use atomic64
-2bacb96b919b326b0ac3de65637bcc85c4481c4a x86/mm/pae: Use WRITE_ONCE()
-6d5eedec0ff2e2d154749cdb9fd2e8145f819e8e x86/mm/pae: Be consistent with pXXp_get_and_clear()
+6a1ad9809e3d135e5068f41a5fafa05f80880e83 early_printk: Add early_vprintk
+08cd66ed5c89431c62e2f67471e769fff98496c5 early_printk: Add 'force_early_printk' kernel parameter
+eb7eb63d7336be36ffed8fc9f9e4c6c4cdb6e452 early_printk: Add simple serialization to early_vprintk()
 
---===============2920100445717410598==--
+--===============2046462772463127529==--
