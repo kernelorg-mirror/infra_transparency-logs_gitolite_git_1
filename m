@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3558717498416227385=="
+Content-Type: multipart/mixed; boundary="===============4832167826787562647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Sep 2022 17:58:28 -0000
-Message-Id: <166386950821.15012.6839310898699726012@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 18:02:13 -0000
+Message-Id: <166386973381.18323.9470531928399022587@gitolite.kernel.org>
 
---===============3558717498416227385==
+--===============4832167826787562647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7eba05fd4531008bf4c453a9f73b31dee213d6ef
-    new: 6c215d83473d732cf1208c17a00a8ebc7d7526eb
+  - ref: refs/heads/stable-0.10.y
+    old: fd99facd1a85ad25cdcf77e9fc70cbdc4bdd00ba
+    new: c748abf6ad2a39478a27c6eb5176705422fa36af
     log: |
-         6c215d83473d732cf1208c17a00a8ebc7d7526eb ez: don't send a cover letter for a 1-patch series
+         bbb711b6e12e324f390f4ddd1a0894c30b7efdb6 ez: generate patch with diffstat
+         c748abf6ad2a39478a27c6eb5176705422fa36af ez: don't send a cover letter for a 1-patch series
          
 
---===============3558717498416227385==
+--===============4832167826787562647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1663869507 -0400
+pusher B6C41CE35664996C! 1663869733 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663869507-2af5c6c8e9c6064a1ec344e67da42cb05bf9df0d
+nonce 1663869733-19b92c512d76a2b2ffef32d605f4214d3d44b121
 
-7eba05fd4531008bf4c453a9f73b31dee213d6ef 6c215d83473d732cf1208c17a00a8ebc7d7526eb refs/heads/master
+fd99facd1a85ad25cdcf77e9fc70cbdc4bdd00ba c748abf6ad2a39478a27c6eb5176705422fa36af refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyyiQwAKCRC2xBzjVmSZ
-bMLCAP0U0PezgXpKybSKOfHhkXbQe8HuqJsE5BVBwrrlMg+9pQEA6V+0RLAaWHgR
-GuAEfalwqAstqD9+tjHahcSs5XXAcQU=
-=n6AX
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyyjJQAKCRC2xBzjVmSZ
+bKd7AQDxbUwiiOmNeRuHzkfc1pH5FeF+kyq09gvut49njTpxaAEAvYzi8WNWz/Xr
+st3zEk6Dr5NEUBptPLLvxvjAP2JDHA0=
+=fO6H
 -----END PGP SIGNATURE-----
 
---===============3558717498416227385==--
+--===============4832167826787562647==--
