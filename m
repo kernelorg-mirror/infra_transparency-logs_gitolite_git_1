@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3302063950251908434=="
+Content-Type: multipart/mixed; boundary="===============6199741957252488094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Thu, 22 Sep 2022 12:47:58 -0000
-Message-Id: <166385087814.15142.3690071234988847863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Thu, 22 Sep 2022 12:48:04 -0000
+Message-Id: <166385088420.15264.5862158789266735947@gitolite.kernel.org>
 
---===============3302063950251908434==
+--===============6199741957252488094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: d63ae356854e317564d0f5f3d13341b0830f3ec4
     log: revlist-e512b22d64c2-d63ae356854e.txt
 
---===============3302063950251908434==
+--===============6199741957252488094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ ee007a12a396ddbc0ee868940e8f90eb2daa720b trace-cmd library: Make tracecmd_filter
 0c7ef721d902cb4a76842e552222e825122051b6 trace-cmd library: Add man pages for iterator functions
 d63ae356854e317564d0f5f3d13341b0830f3ec4 trace-cmd report: Add callback for kvm plugin to show guest functions
 
---===============3302063950251908434==--
+--===============6199741957252488094==--
