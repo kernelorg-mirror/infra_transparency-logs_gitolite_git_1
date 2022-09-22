@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4995220907469014805=="
+Content-Type: multipart/mixed; boundary="===============8175937784399214389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 22 Sep 2022 13:11:22 -0000
-Message-Id: <166385228260.32706.17713569763759119525@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 13:12:25 -0000
+Message-Id: <166385234558.695.703592324238911594@gitolite.kernel.org>
 
---===============4995220907469014805==
+--===============8175937784399214389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0bcaba663c237dfff45cb1069813b5838482f8dc
-    new: e42e8fde15c166279c01897c65d5860a67edcb41
+    old: e42e8fde15c166279c01897c65d5860a67edcb41
+    new: 53e65e387978b4ed95fc3a8c9fb7a2688cec7a89
     log: |
-         e42e8fde15c166279c01897c65d5860a67edcb41 usb: mon: make mmapped memory read only
+         a170cc3c1f248981e32817c92b279929244e22fd usb: dwc3: gadget: Do not clear ep delayed stop flag during ep disable
+         e3db929a8d6b3bf73a6e1582ceefb2313acd4a11 usb: dwc3: qcom: drop unneeded compatibles
+         51855de7c599a47eb091074d22a616063f270ec3 dt-bindings: phy: qcom,qusb2: document sdm670 compatible
+         53e65e387978b4ed95fc3a8c9fb7a2688cec7a89 dt-bindings: usb: dwc3: add sdm670 compatible
          
 
---===============4995220907469014805==
+--===============8175937784399214389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663852281 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663852343 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1663852280-bab7f61a672aba80737d4d1d09fb88fb7c07807e
+nonce 1663852342-33d7d0c1273c3e543875cb6481be6d528a2b7397
 
-0bcaba663c237dfff45cb1069813b5838482f8dc e42e8fde15c166279c01897c65d5860a67edcb41 refs/heads/usb-testing
+e42e8fde15c166279c01897c65d5860a67edcb41 53e65e387978b4ed95fc3a8c9fb7a2688cec7a89 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsXvkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ktQQANYjkW2v0aGsSbz9o5ZQ
-pmGUFPFeQgJgZ0hgPolMY+gfpGXbp2EjKGjUFu85iwEd/vilBfn6jV2AqCW7q0Wk
-WuMnUlDNIG824no6Xotvt/H0pzYOIlKYK+/fXDJGOpYNzHx+3zAiZyXvD5f+EqHY
-EoLRoGO1gdEdeR3nqyjdTWxX1w5XPkNVAsYRhkzt+8OIURXvmzKZXZH8tIhRXmnv
-BrZKAHKD2StMMpejugdvsa3J6XvpndiZXm+wfGGKhdcxk8q0t9Fl5t8uj5fCT8kr
-fAkJWVIUvt1gLWffowSPpOTJR9kZtQiyPa88MZLx/wV3rtyEeU9Mzo9Ar47mli6h
-WP8REOtXVNepb4yxJJPiJWB3sQ70QXEdak1dabzaFjzbdJsMDuHkj/D+bdYlNdNp
-WVJKSma3pOHIjAyJFIBp6DrfW9X2/88SRBwx5B/D6u4Bpi/du3r5sg/sgVoJKYib
-Dpau7aAqmHGVRsouQH4dsybRZbJDkHBucoTXwoIpmW99JFBpcz9h34lfAbdFpxqg
-fBExFjyUz3bnfWynU8i16Y/6vvj4EW9KGgVusWF37MtN70K8aRqnK7hK4Co1lSQG
-c/VJZQ0DcgFo0cN1Ks/3pyWKdh7DZqY5M1Dxg1gTnDcBRYqcKokrzjUxq2UN3keS
-81Q8OVT4uYoDRzkZ8bPIuyjh
-=CKmx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsXzcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0PUQAMeuG9bL17Vh1NGyWxTj
+0wCUq/8KDsuh1UqRIi6ug0l6ei9jB4BdZnwU/NatUB5Cl+GbeumGCE5Podxb9Cl9
+hiKpVFOJc2HaU6SeON4papRCpBGKE3G4M3pFhPULN/eUcGwDsStbYwX9zxxkZ9ib
+3YvMqKaj4pwhSIRgf9nD7nKgQviabzNcHM5BWmq7RJF14NxYcBIHC3gg76TltX+c
+PFbUY3onjdxiyRbBXMIEaoDWTJmi3YyxxkcaDPp16OXC+H6ZoYYK40dfDOxCklHY
+3OM6hSrNF6rmj7UrLh5pLf1oYe56HKLtTQcca1bgTn8UcXu4vvk3YKacGgpTCXk5
+kVsJf2t0DRyUBbvOj0yvQZjk+mCkBqshdq4fslmBg2LhgIXYnpPxqTpiJ/NwUEiB
+eJJ5AZpp/4cff0gBvtvYb86jDu47dtKbZBxQ2/C5t/BZMndywC3r6je7yR9BaV3j
+2NxjGPieC+iT0e8+pBWvaAW30lccsjHPqXIh2rvXrygCbI2joHdfVkb+pqCYR2sC
+fI/bzHH9EDiCBYMf+2Z5RU7sXRnjNY/jslpkhgKcthzv+45lmcspQIvFXZWcOMWH
+aT0UB4jaUcfFlZWKxDGkib+0jDs3rhWsyYlUnvREgVDQBGPj0mumK/FdI1eXJ+sP
+/DzuwbCELLFnXbcJ5bCzlRQQ
+=CAik
 -----END PGP SIGNATURE-----
 
---===============4995220907469014805==--
+--===============8175937784399214389==--
