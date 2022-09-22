@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 22 Sep 2022 15:02:05 -0000
-Message-Id: <166385892507.17640.14031582462717580077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 22 Sep 2022 15:15:32 -0000
+Message-Id: <166385973242.27086.8977230377857391542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 103974b1117651a5884e2bc7832d7b02990e0232
-    new: 79005c987a8d0856ee067222bb693ec5ea8e8023
+  - ref: refs/tags/efi-loongarch-for-v6.1-2
+    old: dfe73a105ffb000578a3bca6019d2ee69385cddd
+    new: 5c0ad0a6fa3af90a04c7ce757a51e7c4fa88f3a6
     log: |
-         79005c987a8d0856ee067222bb693ec5ea8e8023 hwmon: (mr75203) fix undefined reference to `__divdi3'
+         ab3fd29cdd9451d320753afae120dfed15505f59 efi: libstub: unify initrd loading between architectures
+         8be3915dfb3c24975dcc992346033b44ca0ebaa1 efi: libstub: remove DT dependency from generic stub
+         d9503cf1e72ecbf8a6025f50b7a3ecfeba6bf82d efi: libstub: install boot-time memory map as config table
+         591e786e9fa755d4e3de84eae7008be675619324 efi/loongarch: libstub: remove dependency on flattened DT
          
