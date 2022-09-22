@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 21 Sep 2022 23:48:37 -0000
-Message-Id: <166380411740.1054.4712732574875167572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 22 Sep 2022 00:05:39 -0000
+Message-Id: <166380513999.14435.12017987616203480147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/tags/qcom-arm64-for-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 7bd6d4319e5d8401c68b73a636efa44565c727fa
+  - ref: refs/heads/master
+    old: c12a03766788befbb65fc2a87891c9ece8abad07
+    new: 9f2f5d7830ddfeeca147595f473e14eadbeb3db1
+    log: |
+         9f2f5d7830ddfeeca147595f473e14eadbeb3db1 libbpf: Improve BPF_PROG2 macro code quality and description
+         
