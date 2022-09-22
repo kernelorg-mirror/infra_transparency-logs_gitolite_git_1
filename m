@@ -1,52 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1967423908875262649=="
+Content-Type: multipart/mixed; boundary="===============8374931569336361543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Thu, 22 Sep 2022 13:12:36 -0000
-Message-Id: <166385235670.871.6077332543534564212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 22 Sep 2022 13:13:21 -0000
+Message-Id: <166385240119.1243.2446781139718783547@gitolite.kernel.org>
 
---===============1967423908875262649==
+--===============8374931569336361543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/idmapping
-user: brauner
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fs.acl.rework
-    old: 05e38c7c68ffa8621bbcb65cc457ae623191939e
-    new: 6d56d354d97c08df55b4c06e1f45903f000b7c7c
-    log: revlist-05e38c7c68ff-6d56d354d97c.txt
+  - ref: refs/heads/usb-testing
+    old: 53e65e387978b4ed95fc3a8c9fb7a2688cec7a89
+    new: b50a1a8bcfae3a8a1761e55da11ef9f3d94974c0
+    log: |
+         d5ab10f75cc2275d548ec36c36e4c8fce8731f44 media: v4l: move helper functions for fractions from uvc to v4l2-common
+         b719c9dfc6d127182e2b24eaa1cc4209469a2f15 media: uvcvideo: move uvc_format_desc to common header
+         6aab580d2b56f3523553436df20d546ac6076c17 usb: gadget: uvc: add v4l2 enumeration api calls
+         b50a1a8bcfae3a8a1761e55da11ef9f3d94974c0 usb: gadget: uvc: add v4l2 try_format api call
+         
 
---===============1967423908875262649==
+--===============8374931569336361543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05e38c7c68ff-6d56d354d97c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6004f64cf25a32fd60aa1d4994a89eca9f7d1613 acl: add vfs_set_acl()
-7202c15aaf6a1c6d9f41fa746a413429b97b27ac security: add set acl hook
-369dd9c7aeec3137a671d09a7e7d017bc39a7b28 selinux: implement set acl hook
-8e71c43a53c0f28d84a01d6838e0a8da1a26ae79 smack: implement set acl hook
-0ebc381f2feb6b4679c46e62e1c56a365fc26c44 evm: implement set acl hook
-6e908eb30a96916622703fbe674d2a4b26c573ec acl: use set acl hook
-315e66cfbf872ae0bba0451a60d76fc703b96144 evm: add post set acl hook
-ffc931d37ce0203d560a36ce129a7afb4ece2d09 acl: add vfs_get_acl()
-383b4c7e73dd35f0d657a4aa51e13dd026f90462 acl: add vfs_remove_acl()
-15f6b2072d0bcb73fed1097626dde1d5ac5501e5 evm: simplify evm_xattr_acl_change()
-d9b11f812d5bba389797106944ea139c5e07c86d ksmbd: use vfs_remove_acl()
-7c8e375c1a88105c835c8fa360cd3036014a682f ecryptfs: implement get acl method
-1bf1185b39372037ddb483d97cd203d66ac264d4 ecryptfs: implement set acl method
-c95f611825fc4630ac9c83a025fad564055e93fd ovl: implement get acl method
-a1b75a473077b7e6a5b28bea52f271b2df6c87c5 ovl: implement set acl method
-872427004040e3a78dfabae5bf3f1e9eacc6ef0d ovl: use posix acl api
-8d5f1eb7841240ce65f094e9aeeac92f1172203e xattr: use posix acl api
-efa53b1ffe6c9aa4307c74b79ead3f2446b383a0 ecryptfs: use stub posix acl handlers
-1fda42675846151d83109db6cca7985ebd3ee735 ovl: use stub posix acl handlers
-307987b03cd08412d5c07b7269865a92227b8a7b cifs: use stub posix acl handlers
-968a4953a3087f0eb020f6f855d252fd56fee40a 9p: use stub posix acl handlers
-6d56d354d97c08df55b4c06e1f45903f000b7c7c acl: remove a slew of now unused helpers
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663852398 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1663852397-96bfcafcfef28f499af2901ef7f518fba335ae7d
 
---===============1967423908875262649==--
+53e65e387978b4ed95fc3a8c9fb7a2688cec7a89 b50a1a8bcfae3a8a1761e55da11ef9f3d94974c0 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsX24bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wyUQAMlz4ivgwgnBbWaiCtZI
+d5Yvd+CWcSz7zWYxzMk3Hx9uUAECuGS5/2Y9RFpAHQEy2ZINNzCCkzOnFKqSs2LX
+wK+QZVfU9LoRJ2GsbdUQdkGFsUz0RSTDkPAP4DS6gCl4aBPf5uuE2btlyYGDraWe
+nc6O0Zm4EIK+5LgwVMAhYa7e0+UOCiVFnjmge8UQw6HgzO8BEkQ5QYTBvdY+WWR4
+lxYd8py1ogFMhiRlGlMpZZYxHcdKekKE3qShVRBBk2eAhKMfEikZfIkQMcUw4uY5
+Oiq9ZurDqYJEDvoV4/yzD5OcsowjpMivALMqCMSFFUu0PAPHpdrE6Jr14v8NucAX
+0GzzzlKvk7tbyAjK2RpeFj7N5P7W8HGfYTuFUEavh8jyUbXngPppF0Z8css1iPC0
+EoZUpD69pIEpf01ENEvPiATLEUgUaKfLHfhkZGCxaGD1knXRpyzM/IU2dbAtAU/a
+pxsej6Q/b+2i/VKQShG5bjay4cvQ1Czz4Du8UCVapOyOUOPpE9KWdzyvqTAE1T2M
+4rPYpPnElRsE7A7KMd1SO2kHVv8VdEc/Xs8/0BUEtAYxNDRx5wzFqnBSKys/VFfi
+bqECke2twk6x0eZJwhog3Lj0hVpeofzgfg6SHSq62c5X0HRma2bTQrkKnpoKIKE1
+A9nELLtpaQ6DmB7ePG/W9LXr
+=VMXT
+-----END PGP SIGNATURE-----
+
+--===============8374931569336361543==--
