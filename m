@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6861762055827257016=="
+Content-Type: multipart/mixed; boundary="===============9102516634528300354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 22 Sep 2022 14:11:39 -0000
-Message-Id: <166385589939.11984.10382034104142506549@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 14:11:57 -0000
+Message-Id: <166385591742.12186.2813380106362532056@gitolite.kernel.org>
 
---===============6861762055827257016==
+--===============9102516634528300354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: e2752ae3cfc9a486c5af38b302615705992c3a78
-    new: 007b20e9ec8d8f5f57cf48b3d129616cf4c0c102
+    old: 007b20e9ec8d8f5f57cf48b3d129616cf4c0c102
+    new: 1d5859ef229e381f4db38dce8ed58e4bf862006b
     log: |
-         007b20e9ec8d8f5f57cf48b3d129616cf4c0c102 dt-bindings: serial: rockchip: add rockchip,rk3128-uart
+         1d5859ef229e381f4db38dce8ed58e4bf862006b drivers: serial: jsm: fix some leaks in probe
          
 
---===============6861762055827257016==
+--===============9102516634528300354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663855898 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663855916 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1663855897-9d778b1bda8fd390a5c2d564adf28a17f9232259
+nonce 1663855915-a974a5b18bf27e4b9b38ad8c15c6cacc4e45fbe3
 
-e2752ae3cfc9a486c5af38b302615705992c3a78 007b20e9ec8d8f5f57cf48b3d129616cf4c0c102 refs/heads/tty-testing
+007b20e9ec8d8f5f57cf48b3d129616cf4c0c102 1d5859ef229e381f4db38dce8ed58e4bf862006b refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsbRobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+28YQAKJW5MXeL600dxQANvVD
-KFMLgeO+c5u/J33+qRFGLRx9fIwjmOb2g7lYu+0zsGqCxVhGo1v1DIHoCir/Makz
-Wk3g7m/qp0nqwMX08ZFxEZhhi8ArvTPk4gCHJHd+O87lPNI5XXY7QEHPRjHiMr+L
-ABz/RX/whQUQjSJ05A+pQ25sDJOyz4MwRtJdUPY1dgYANoZxnH1sbg6wQuMIYUiZ
-7bgt0IADmSRq9Fl34riZo31mr8uIU3YjLzcLxlRj6VlV5oKXI5Gaz+6PGvHemGXU
-4QEMR+3lRarDNRECly/JSYVr/S4aAci+Kv/mpDH6uxFr7Z3SNfbNiANX8MzcbKep
-WNaeaFX+wE7Xc7mELXn2mLbTT26PHPZvJC29Zem/2MzlxxqTUPermON4bBOo4mvd
-IzrVJ59E4c6puvblEcQdCJoFqWOK5SQSbbLl/5DXA76Jojm7aWFb1zOW1OPEfqxv
-IAbYQwO4sSOmFQIvqn/7BkUJKvmxzFT/u0PCZl+UA2d86WlGQ4UiYp8NjS5ekbrp
-EKyYBgRAXI0ZqddOnI3yDz+jZEPujwUMqhoZzTLS25tQBzPQSphk6AdjFX7odB9A
-sIUjVjcFHOs1kdX1iZFHwaITXUsLR77pdd5OE/v6+lqFVhTSG7CAUMZjhmc847he
-c+3AGOeuu0j5v0SA/TGpI/o8
-=yKp5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsbSwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PdMP/Ap5RcNyfYop/U8GLlgN
+M2UXEn55Qm8wXZXg1mQOt3r6ukoa+DbnEdPeBRKppvSFQEVxLB7pF5SRnqM58snP
+63DnX4iEA+Rknm4enPlmVt5NSvXsR4+0NPh+h3GVPIhTz9g0kyqFutnObFVC1GM5
+DkSXlgLQP/72XQGfx5sFRySdEtznk6fdHYv33vFzU38TBaTZYr9/dr1aiyz0LX/A
+onXItxet1r621ywKGdcNQ5Wv+fNaUJALvNpg6tTrqfSd3DnXpIJ7jcqt7PSWHrJO
+bLzqm+jQGUo3LJfSMPd74PEn8KuoCOHrNzYmR6+dCNQV8TtvWcY8efU9VlZ3uvZZ
+oHfzyx/0gHKsGgB3skHbfDxJAaNzIiPXgCqBjMX9pnS7gxM5G9kgdNm8vCmO2Pwo
+WombxrLwgTxLWNDb/pfig6CqK0sK9c8orNvtuFBm0zjtSSMPsMN04mDiqsFe/FbH
+0WtifBTtD9MaywImgrXf63mR75VpZIJMNsGS4+usvH0YoykSJmKn/y4zfzrOK+GT
+8DoGEfEi79KIH9WMrbrrYgSJWmTRFrOMEPftVNbQYLy8BOl4u9BLZvzba6Hc29BE
+kLDhkLpT8Q3FQJgbo3bcVBRcWer0TS4kLd6qNPSNqdGbSaYMIvH2KrT+eXG9R95b
+XN+2gXRQ0UAxKdYQGyrnXBg8
+=wzqK
 -----END PGP SIGNATURE-----
 
---===============6861762055827257016==--
+--===============9102516634528300354==--
