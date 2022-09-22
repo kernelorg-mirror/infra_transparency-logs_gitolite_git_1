@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Thu, 22 Sep 2022 13:33:01 -0000
-Message-Id: <166385358192.16449.4612871835757499552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 22 Sep 2022 13:33:50 -0000
+Message-Id: <166385363063.16797.11765527686103233085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/tags/usb-serial-6.0-rc7
     old: 0000000000000000000000000000000000000000
-    new: dc453dd89daacdc0da6d66234aa27e417df7edcd
+    new: 7567ddda3fa8eb150d2c8db378566a22b7ee3f17
