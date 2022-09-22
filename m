@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Thu, 22 Sep 2022 23:39:12 -0000
-Message-Id: <166388995261.32331.2702492935390330075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 22 Sep 2022 23:42:49 -0000
+Message-Id: <166389016965.2810.11438655805201196216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/tags/mediatek-drm-next-6.1
-    old: 0000000000000000000000000000000000000000
-    new: 323593e655aec9abe6c82471bed93941fa533ca7
+  - ref: refs/heads/master
+    old: b780d1671cf933caa3f67160f73261f10750f1a9
+    new: ee9bb9b4459ab7e27de9c9f91773ade2909c6375
+    log: |
+         f5eb23b91c41a7ffc7ca7fe14f3c512360f02937 selftests/bpf: Destroy the skeleton when CONFIG_PREEMPT is off
+         103d002fb7d548fb1187e350f2b73788558128b9 selftests/bpf: Free the allocated resources after test case succeeds
+         ee9bb9b4459ab7e27de9c9f91773ade2909c6375 Merge branch 'Fix resource leaks in test_maps'
+         
