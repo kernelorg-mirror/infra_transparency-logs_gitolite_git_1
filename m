@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6469410414842492307=="
+Content-Type: multipart/mixed; boundary="===============2360340439301765418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 22 Sep 2022 11:28:50 -0000
-Message-Id: <166384613016.24567.17286430625827207391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 22 Sep 2022 11:29:27 -0000
+Message-Id: <166384616717.24877.4899617916623672224@gitolite.kernel.org>
 
---===============6469410414842492307==
+--===============2360340439301765418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d322259506a429f85194f3b28754d615364ea99d
-    new: cca1fd41ab2862465d75443822d751e4f9a112ee
+  - ref: refs/heads/for-6.1
+    old: 843e10b394271d5969bc36cd7ec8cccad3a857fd
+    new: a921986f445ad611b441c8ee7749dc6dfc770481
     log: |
-         cca1fd41ab2862465d75443822d751e4f9a112ee counter: Realign counter_comp comment block to 80 characters
+         a921986f445ad611b441c8ee7749dc6dfc770481 ASoC: SOF: mediatek: add pcm_pointer callback for mt8186
          
 
---===============6469410414842492307==
+--===============2360340439301765418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663846128 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1663846127-0a4cb5dc0577d24965dc5392b96b1eb6e699ec9c
+pusher C3F436CA30F5D8EB 1663846165 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1663846165-2ec80ea1b5a5088ce7dab4940d52fccd613788e6
 
-d322259506a429f85194f3b28754d615364ea99d cca1fd41ab2862465d75443822d751e4f9a112ee refs/heads/char-misc-testing
+843e10b394271d5969bc36cd7ec8cccad3a857fd a921986f445ad611b441c8ee7749dc6dfc770481 refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsRvAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UYQP/2rZQ6zG+KtUDLzdtdgV
-HP12vaTI1de5b5YxWXRbAb5G0ztzPe8s906O9xmAzDkpftwvMX6vTEFggrJ95uN+
-p03rS8TaAyVDGul/g1TKiUa3WuFHaYwHQqZqGoP21wKVMBw6oNqsAr53stedGO9e
-DMl583wK8B0q3lTk1yRcfbPLbboA5OrRQ6HZRs622ABeM4JEAKz0T99HpoEonY9U
-/gqptIXgBxkACxu69f6uhEF0buwqoBVEtrFsInuXsoNaFj2mv+R3FqcMjHCDCFzp
-+DGD54HKvAS+Q03sUOwmyExWT7aiQx01jBK6b94owL2QBB7Wdys4Fquy2rPwo/os
-Zan6cfjslAU3CYOIVMS3WbMTFzS59VnPJJZe4jUQLAmTfUMllAh5yyZtZI46JoZ1
-nd2b3m73Jg/jP+zVi+OZNDjPSDQshb+EA9t8WwOWK5xGCCpVwaiROuRNOGpUOZky
-6WTGLM4rBNjFcTKgBGSDAumUi1P/ZdrBNTX+WIVfWCuOV9U4drB+36JTXLCHLsba
-BTll1Sqpn/Rsqry0R6e7ucxaUPFx48PCuG99OsEhM5KbWnfiF9ozWZ030uiUd0iK
-SCszF4URMn1yl1q8kU1CSv42rscPh4aFHXVIL2XejhOqDXxPF4elHn3f9yi+a1q8
-XGij0YD9I4GYT3z4rZMayPfN
-=pII4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMsRxUACgkQJNaLcl1U
+h9CHmgf/Yy20SAbNEG7l378fSmOP+E7QKg9I3UplONzLE8/ZZPBsu5Wqjrqae7uu
+TGKkmoj9b+Xdnfb5yTZrPVDQMyK8HT9RSlTWf1cwVBj9aegB4vdvHVFwm0O0+c3U
+V4K/j/d4XndJCqKOT37i3rhczezbQvjUZ0qJ/ksGVLoxUwBhpdvfXkJq/8EwpUtq
+mw0CTTBW8BR60x/w0CSmy4nv8/v/bQyqjCEUtZ3QsDpRrK9nyzaP14SbSBqcrD5Z
+qkw2THSQjbF04ieuCmHtvVNr1Yj0+YjWWZ7STfPtQ1QUdm6FoEDbs8t0dKst2A3/
+pl8KMc3nK+uXei70m11RGZ/Ioq5OJg==
+=tk8G
 -----END PGP SIGNATURE-----
 
---===============6469410414842492307==--
+--===============2360340439301765418==--
