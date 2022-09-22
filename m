@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7453319162575413259=="
+Content-Type: multipart/mixed; boundary="===============2135678201435808603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 22 Sep 2022 14:33:03 -0000
-Message-Id: <166385718305.28627.18231301212336121366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 22 Sep 2022 14:36:34 -0000
+Message-Id: <166385739406.31419.4111675782051816476@gitolite.kernel.org>
 
---===============7453319162575413259==
+--===============2135678201435808603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 5e3ce1f261296bfe4bb59a98c82f4959d214a4f7
-    new: f73db49650a1841b038fd20329e6bfbbdcad45ae
+  - ref: refs/heads/char-misc-next
+    old: d322259506a429f85194f3b28754d615364ea99d
+    new: cca1fd41ab2862465d75443822d751e4f9a112ee
     log: |
-         f73db49650a1841b038fd20329e6bfbbdcad45ae tty: serial: atmel: Use FIELD_PREP/FIELD_GET
+         cca1fd41ab2862465d75443822d751e4f9a112ee counter: Realign counter_comp comment block to 80 characters
          
 
---===============7453319162575413259==
+--===============2135678201435808603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663857181 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1663857181-6b389249c0b02ba2170a0932fe2cd69831f96a4d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663857393 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1663857392-6df0cff22cd5302d6393d14afdb177a5f9f4e5fb
 
-5e3ce1f261296bfe4bb59a98c82f4959d214a4f7 f73db49650a1841b038fd20329e6bfbbdcad45ae refs/heads/tty-testing
+d322259506a429f85194f3b28754d615364ea99d cca1fd41ab2862465d75443822d751e4f9a112ee refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsch4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gf0P/1FKhJg3Gd+H9cnh+4Ny
-l5A6opbUf4WTTRo2YWOHcwX7tBWg46rfvCAZW6Yp3z5hsWuoX326f8Cl/7bIIr2z
-hzp13mLZTYj3zfYAqA/K3gaHhfPYSDXqDdxdO2HOLGnyYTimby+HWmVSXl/o/CXr
-oaqwpR7PAQcENQKQMwZhooJBcqMgSpXcQpCoCBffvJfDdzrNJZKpYLSCYuJqZp8/
-arbAHTPTkhigXVNBYYmbKeCyNUqUDXFRj3j7xTUzyjecs0IyiVcD4KIMCB1nbTvD
-Ffjj+XaEPm/C56WBrVi/gdrHzWEr4VX9VhQNTv260AJ5VXwHEzhIKzGh8Q5wtSjw
-Yofr+PfEmX23l9VoJVln+328nWs6Tx6Y84WzctZ7XSpCtZmWM2bIvO8PLCovkY0q
-7SsMIHtthBwF2RLIpesFfBlilMM5hnDzW8g2UoROog2ppgn2eyYVgZneiMsCYLuH
-HQ5Jl25LYRW8LE+3GSXnW8MShUiVkuFAriuni//+J5Jt0Sr4ymAyAhHh1EuWMM03
-LYKlJ9vwQdhXJ02YYya8nJ3xMkIiFQi0d2wzRmD0gvoOs+QesBaqvtxXlol1ABaD
-D0C0jWqkXl34tgHgy3HtDQcj8F4u77qM95F4se4846qVFYb4rDcetn28GiuWwF78
-sx+ZShKSO7c//rz17BxusKiy
-=gmzd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMscvEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2KoP/j1f9lSjqAhaCNznhJ5b
+3mHsZstTO6b2fnsI0c9PI5Itrgf9i7D2gfq4o2PxdyVSVlVjF1poNMbxVZNCj0Ej
+6eaWxNyB3q0Pg9mwZ69enTT2kwxZw0U5zRRPjmpkaqAMlzMpVlbf0CEE9YYxbNm9
+Ynf7XQIiNNyBYGjRT3PHCR4XnkYN2nzzPOLDLMfZsmTml8sADCnVT6WFWcX0XLIV
+bcvS17sHC3c+zsATWCnnBDVwsFOlpw214PEotf8KcjgUbWnVwoE9ORs/WoBjLY4/
+JsRwasrs8NkaZx90RsLoXRn8sW+J/iIaFduRS3SMBs2QoOa35gwkl3ZkSKHqEB6L
+FIuMt/FddUEspHJPJdxTIZarN0SJ2ii+8p/YlXGTRMJANLGQo1c9/nZbDmp5RaXH
+BbDf2KzAt79j7uFOt6nlH4H+nOOzcepKs9J14WrlpDKQ0Z/7cNDjW6AM/GoSy6+L
+BkjFE36EBHqnxBiUTijCQo/mhaeAO5E+t1sd2L7ulH4dGjZHwSHXwRdpUAHxcqu5
+akS5WkBIC9kPW6z9ARgHxR69Kw5hO0jNsj4T4Q6dir4+rx3bqLeweHGeWZ/hbNDd
+bpWx8vTqZP2dQ9bq+TmL1gJT3BMPbGUc2Cicg/hUPbQgKWN8tHX98vI0DJIB1ZG/
+RnBcnbAcIU+wlt0Ylu/HvMii
+=L799
 -----END PGP SIGNATURE-----
 
---===============7453319162575413259==--
+--===============2135678201435808603==--
