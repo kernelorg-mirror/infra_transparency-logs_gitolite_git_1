@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2532474263842841290=="
+Content-Type: multipart/mixed; boundary="===============7759017044829485522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 22 Sep 2022 01:04:21 -0000
-Message-Id: <166380866108.26217.12261100939214769280@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 01:04:26 -0000
+Message-Id: <166380866669.26359.15246719804157602250@gitolite.kernel.org>
 
---===============2532474263842841290==
+--===============7759017044829485522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 01f2e36c959c813a532ae836db49b2ac9de46de4
     new: 66d6a4bf94f402301ce7832072705e23d5948761
     log: revlist-01f2e36c959c-66d6a4bf94f4.txt
 
---===============2532474263842841290==
+--===============7759017044829485522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ fc97590668ae60b94ad8bc4d9e85958f10cb3567 selftests/bpf: Add test for bpf_verify_
 b94fa9f9dcf99730eabd8febc4c95e44342bfb59 selftests/bpf: Add tests for dynamic pointers parameters in kfuncs
 66d6a4bf94f402301ce7832072705e23d5948761 Merge branch 'bpf: Add kfuncs for PKCS#7 signature verification'
 
---===============2532474263842841290==--
+--===============7759017044829485522==--
