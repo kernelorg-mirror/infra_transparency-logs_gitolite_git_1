@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4919625580772597351=="
+Content-Type: multipart/mixed; boundary="===============7963611200765997573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 22 Sep 2022 14:05:17 -0000
-Message-Id: <166385551777.8115.1091149617582615808@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 14:11:10 -0000
+Message-Id: <166385587001.11736.12842392659117618246@gitolite.kernel.org>
 
---===============4919625580772597351==
+--===============7963611200765997573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: ccf3a570410af607124534396cfc0e9a0986b5e8
-    new: c22d054f1ed6b3e990436c2dde7d3b7d6a170cff
+    old: c22d054f1ed6b3e990436c2dde7d3b7d6a170cff
+    new: e2752ae3cfc9a486c5af38b302615705992c3a78
     log: |
-         19fb0a664f6448fe7d6a8105d25f308a28ba499d tty: n_gsm: add enumeration for gsm encodings
-         796492de01246f2c39841c7aede375cb394eacbe tty: n_gsm: name gsm tty device minors
-         669609cea1d294f43efdd8d57ab65927df90e6df tty: n_gsm: replace use of gsm_read_ea() with gsm_read_ea_val()
-         de640bc6b8b1401792aa0ac99b6512411f18a87d tty: n_gsm: introduce gsm_control_command() function
-         c07da737af4dd9a29508ae2863fa2afdec130088 tty: n_gsm: name the debug bits
-         c22d054f1ed6b3e990436c2dde7d3b7d6a170cff tty: n_gsm: add debug bit for user payload
+         ed9f4bb39624af6461774812888847a7d3f7f8b1 tty: serial: cpm_uart: remove unused cpm_uart_nr declaration
+         e2752ae3cfc9a486c5af38b302615705992c3a78 serial: omap: Disallow RS-485 if rts-gpio is not specified
          
 
---===============4919625580772597351==
+--===============7963611200765997573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663855513 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663855868 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1663855512-8b152624057ba912a8ef0e500778ca4265c662ca
+nonce 1663855867-422bdbc490cea37855778abbd96e2c3cc47f8c39
 
-ccf3a570410af607124534396cfc0e9a0986b5e8 c22d054f1ed6b3e990436c2dde7d3b7d6a170cff refs/heads/tty-testing
+c22d054f1ed6b3e990436c2dde7d3b7d6a170cff e2752ae3cfc9a486c5af38b302615705992c3a78 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsa5kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZzkP/3SF5j9gzLVC+v3vD5J3
-ZQt/l4mRWKGhTPG5EI1R5FMiAsd/4U654VWDh21w9qCIyufpfB4uM8eDSWhDW+t3
-y1PIhHPPL78Zm5fSTSrWzqge9jS+BoUmWoTn9psh2KRP8spAF/+SJJljRiST9+wO
-F4TLE/OAAH2l7tzPlidaTznwZkWbttWpUMoIGlqmZnQOXm5AuRjAjblahQ7cDB2r
-P9ZMy9slUIBfaWY/pKkuWM0hc6Uxhe5L5TENZeT35l682PwEfONOC8dHLoVknhLR
-RPAL3mHl+ynSy061MDhdw8Wz0RtZ6CSJfXQtDK1QJ5jdgnG1HnWvNsWusNW9jmxr
-VAv8iDQhsqi9e8AboN3h7b+jpA+l0RIGqa/jNWUKAR09Mtc3nH1x1XxQE67KErkl
-xyL0U0Vao5C9IWZ2C5HH/UuspyFUwQmbC9KR0hS7sHtZniEuFFXbljAvkzVy9fl2
-ufLXlE3LFiffIOfWBXpZvT/e2hd8XjqdNGDRK2K7aEjoz4xVeJa55U0bHcyXuKMP
-0zoBxN/C4ZETPpiCqhnlWSopUQbf0umes+Bl17+VNmKQ2fqfzeIiwYD+cKPYSXyh
-7spAsEqEfsPkRDMToAvCnYGkG4QX3BaPxNvdScS55nVo+5y8ntExEVXp3DKfnmVB
-dDnoWDs5gy6rahk+HnlOmdDN
-=sSWE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsbPwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bqwP/1yiU7Cmt2jQUv0+xbW5
+Z10MwKYgGiJ4MCaNaIZpmWJSpS6aHTSWHzT9/l/MIun+Uf5DV7zFPV/fosIRJEfF
+kp288Ea/3JZTAP3qs2q1kCDVO31d3OgXZY6+O88rDaUeLRnM/cmupnc5bdvSiPhk
+GPSFbJSlj1fUdbbjgud7rWzQcoLk7NWgeJkIalIeouzVBVNs7dOWEOTBU3I8qkSG
+cx9wTPNvxwpJZXyejR4P5dj8L85p9YOuS96kdzuEhvgU2Ok+9eNr2tVYVAlKbu7r
+o9uZ/Qbp2skovKe/LeX2dBVcvBuWrEdIeQZiCt3vDbt+NSh32yIJoVnm0WWPEUk2
+Ox2wOiM8TEA9/d3s1HS/08qV3ssOKX5e06lUKhZPl0m31z1UqJ4A8mGNYE/qLmWU
+tuHM1PejpEXEPRWlSo33zHuEuZhU6yHLwgeBCnk/evvlvbeNimJiwoeeggPSdOQh
+cIf8GmfGmyYrTuviLcSXbmEZTr+QzeNW5tMgqiM/HENnvt9YJ90+6z33F1NC/SOI
++WQ4Om2dw/3TUhgA70sKYAYKmv+TmhSNBoPX6s5phNGAqJ4abuCVlo7pPNZi1KKI
+Y6LuyeF4uOJ6bBULwIcgZ2gQUi0oo3KRBKYtOHW+M82KdNxYSjRE02hgQLqFBSpE
+A2E18EgMRJXF0VTRYEmTKdQm
+=DhEk
 -----END PGP SIGNATURE-----
 
---===============4919625580772597351==--
+--===============7963611200765997573==--
