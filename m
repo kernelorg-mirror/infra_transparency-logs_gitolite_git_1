@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7824054582567004394=="
+Content-Type: multipart/mixed; boundary="===============1724153283974617095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 22 Sep 2022 16:55:41 -0000
-Message-Id: <166386574117.2762.7734437997642043723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 22 Sep 2022 16:55:47 -0000
+Message-Id: <166386574795.2888.15729519114554038207@gitolite.kernel.org>
 
---===============7824054582567004394==
+--===============1724153283974617095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: dc164f4fb00a0abebdfff132f8bc7291a28f5401
     log: revlist-521a547ced64-dc164f4fb00a.txt
 
---===============7824054582567004394==
+--===============1724153283974617095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ bd71558d585ac61cfd799db7f25e78dca404dd7a arch: um: Mark the stack non-executable
 26c95642d419028db590ae0c511d9ddcdbc51746 Merge tag 'mips-fixes_6.0_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 dc164f4fb00a0abebdfff132f8bc7291a28f5401 Merge tag 'for-linus-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============7824054582567004394==--
+--===============1724153283974617095==--
