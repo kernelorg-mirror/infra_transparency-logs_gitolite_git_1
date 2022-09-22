@@ -1,59 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2644660134877725253=="
+Content-Type: multipart/mixed; boundary="===============5781956925642686087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 22 Sep 2022 14:54:58 -0000
-Message-Id: <166385849837.10866.16500016441795823248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 22 Sep 2022 14:57:19 -0000
+Message-Id: <166385863955.14337.11080297388869287948@gitolite.kernel.org>
 
---===============2644660134877725253==
+--===============5781956925642686087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: f47551bd6bfdd9971a5e99e64e12575980d4539f
-    new: 62e5d00684ef81b4be35d23e54eec92ee38db7b8
-    log: |
-         0e8bf26c777a7da6e085ff1f0e31640a042dae5c misc: microchip: pci1xxxx: Remove duplicate include
-         dc2c96a39da197da137a797f22bb408b5865514d misc: microchip: pci1xxxx: use DEFINE_SIMPLE_DEV_PM_OPS() in place of the SIMPLE_DEV_PM_OPS() in pci1xxxx's gpio driver
-         c8b4747569eba7e5f4835e027d294486534ed0d3 misc: microchip: pci1xxxx: Do not disable the pci device twice in gp_aux_bus_remove()
-         62e5d00684ef81b4be35d23e54eec92ee38db7b8 misc: microchip: pci1xxxx: Fix a memory leak in the error handling of gp_aux_bus_probe()
-         
+  - ref: refs/heads/arm64/insn/rework-redo
+    old: e63dd3990864d5e70622016a22339e3d5bc48387
+    new: 5dc902ed46f0e759a0bad22a34e355c043113d6b
+    log: revlist-e63dd3990864-5dc902ed46f0.txt
 
---===============2644660134877725253==
+--===============5781956925642686087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e63dd3990864-5dc902ed46f0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663858496 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1663858496-a397c0769597a0b98ef38130a792e37d2b3690ce
+3af1fc140258051026f939c6a30df3ee1b455f21 arm64: insn: add tests for ADR/ADRP manipulation
+e47d8bd323e796883ad708addf59b554e04648cf arm64: insn: fix recognition of exclusives
+254c5d90a60b22d705895a8309839051ea575c3f arm64: insn: allow decoding of <Rs>
+64712444ad5db21e5e5a4bd34971e7147e6b71b7 arm64: insn: add tests for exclusives
+a66db4b1d74c00adbb2f9fd23c849b18875feb08 arm64: jump-label: use insn-def.h
+a5faeccb87fac7d388d8cf5f9d5be7d902415794 arm64: insn: add new immediate helpers
+fb098183b5d8cc34f89c04d8bc7cafd462beab54 arm64: insn: test the new immediate helpers
+15443896f215d7a6cc878c46f0366b4c1fe56b20 arm64: insn: rework ADR / ADRP immediates
+8e010cbd024e5657fd6eac7b434285ca160bbf26 arm64: insn: rework LDR (Literal) immediates
+8c9228f9fb6026eefb18a06acee76354864502d0 arm64: insn: rework B / BL immediates
+73da55b17bc22037f5f7ffed724984f36066ff02 arm64: insn: rework CBZ / CBNZ immediates
+3d3f4a69b8d07c60d8c5c0b04a8144ca0c53c758 arm64: insn: rework B.<cond> immediates
+f7fe95bf18d46baf7adc5f20edf5f8234ead7f15 arm64: insn: remove label_imm_common()
+4688c05e4d7998a1db00a45e29ad5cb19037ea6d arm64: insn: rework LDP/STP immediates
+237fa6feb341ba8d4e1addbcfd37efa8b718c7b7 arm64: insn: rework LDR (Immediate) immediates
+ae4cd2a24f25d62fc8d37e0038c57d3b0c9880ad WIP: arm64: insn: use the new immediate helpers
+4131fc51fb6192fb0d776c8154f7732fd85ddc13 arm64: module: use new immediate helpers
+e6154245836556a2cee82c21f12926545b608135 arm64: insn: remove the old immediate helpers
+e3ab9f858fee80d18521f15693180efc1128410d arm64: insn: inline adrp manipulation
+f85c5c80a6fe573160dcaa9ca3cf716c20d9c7cc arm64: insn: add new register helpers
+5dc902ed46f0e759a0bad22a34e355c043113d6b arm64: insn: test the new register helpers
 
-f47551bd6bfdd9971a5e99e64e12575980d4539f 62e5d00684ef81b4be35d23e54eec92ee38db7b8 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsd0EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O2AP/jOQALd+JWEvWMa6rpDu
-KMN8P4ls+RWEuC2uipiWWuK9+L5VqdEgpvQyV+D2Spf8zv04x0mEOhXuzwxyGSi9
-o/cr3SgzQu9qT//HZY/VJJkiG0zRStWVcThQv0sET+u/dkIFmadx1aSRgBt828Z2
-nVVa86B013XjZD/rJMuYFNeVay2/dRPXgyLfyXO2NTHpvHEjqttIzc8H5I6KKXgA
-+eBDtOjjDdzlLjpsmsv4OaXD3aIjFHgdFoUiYOFt9YDDJGU0mkNZ321THEjmIhUk
-8/8V2feOSUKTjkEQ9Rwl7jtfYV25Mr4CCuNNojOoTm2fs0PPPJON38RIQgrDSBjH
-QIIbVpNVTOf5SHF+Kt2lsJdpi9v5PpYAG9xK6YESjb+u5ahmgZhd0FVAhxjApoF+
-eNZBFLIRMcsy0xYzUEs2eWZkQ45SxH9QNKcJD6T4Jsu7epY6OBcDiz7ZJQH6ug2K
-rGTyCwy03DRmj1UJuD7/zu5tINCKGlabNXDqzGnkn5TgZAbogSgZxrfVSZ59qB4x
-IoHzblLGt9Io2Z6Zqt5KL4+2debwaaU+O4diyrzkFE061BIXsWVLfBlKw97RgR3R
-eXqD7EgOpq3qdVVf2BOEbUzPKndhMiAgFK9Q9vdcVRbOtylPXX+SRd/Kh8wAXhh3
-XVJfUeOztBTg2uKwG4dintUl
-=9mHX
------END PGP SIGNATURE-----
-
---===============2644660134877725253==--
+--===============5781956925642686087==--
