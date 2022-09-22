@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7635731765285122810=="
+Content-Type: multipart/mixed; boundary="===============7494191645219421032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 22 Sep 2022 13:13:51 -0000
-Message-Id: <166385243133.1562.6293188090802332893@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 13:14:09 -0000
+Message-Id: <166385244931.1724.12904467229614786085@gitolite.kernel.org>
 
---===============7635731765285122810==
+--===============7494191645219421032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: b50a1a8bcfae3a8a1761e55da11ef9f3d94974c0
-    new: 482f285665f8de9e7d3ec381394ae951014fda63
+    old: 482f285665f8de9e7d3ec381394ae951014fda63
+    new: b0cd492711626c04dde47df69155b113e4d579fe
     log: |
-         8536ad55f34067cf568cc07881b5fa3fdeafce9d usb: dwc3: xilinx: add power management ops support
-         482f285665f8de9e7d3ec381394ae951014fda63 usb: dwc3: xilinx: fix usb3 non-wakeup source resume failure
+         dfe5ff1f064958709048adf70c499e86346ab245 usb: dwc3: pci: Update the macro names for USB PCIe device ID's for Alder Lake platforms
+         b0cd492711626c04dde47df69155b113e4d579fe usb: dwc3: pci: Add PCIe device ID for USB3 controller on CPU sub-system for Alder Lake P
          
 
---===============7635731765285122810==
+--===============7494191645219421032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663852430 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663852448 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1663852429-5de8b1ac82f3a15b58628bd5f7415b7c75db72ae
+nonce 1663852447-14be6a0fc88753d7fb50a4f3c0a60ce7bda0c202
 
-b50a1a8bcfae3a8a1761e55da11ef9f3d94974c0 482f285665f8de9e7d3ec381394ae951014fda63 refs/heads/usb-testing
+482f285665f8de9e7d3ec381394ae951014fda63 b0cd492711626c04dde47df69155b113e4d579fe refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsX44bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OVcP/jLivqvaU01rTV+qivNg
-+n5HW8RN9t9U8xW9JBST7T7SBTUstYxrIG3PF7lP2pdPTPWQnggNBjSRdGzT4Fiz
-3cA7DmRRrYG6OCrxEPMZ4YM+Cq4bd18vssAv0wvru+k9cfSYHiGUWcrdn8i3mIBn
-V4R5jlFwI2bT7ZsOFp6FXn7AaeDqHB4J1UBdetNb3dQsW717Xm7IPU3JIZ6Nmr1p
-fdZ+c5B0U8qKwI1XuAjgZ2hxDCdt8JlGolAdNYPQcpxzSTSemm4gP4YPdCKLVj5b
-yd2X5qFSeapkqy4QlroKYx9qMK0Y0fEcUizI95QR1CP5aO83j7F8rzMkQ79osSsV
-vgDr1ZP2BS+/kM62xxUSaffLJeyFKAptJf27bsgdK3xI4VWu5yOhPwRnzZpGfEFV
-OKUcUhIdo4OU+gSAux9rJVbvn2uYPUmyLOiAZtYq//eCKkOS37qapnMaoojlEbBG
-oSlHBEwzfmZ91FXKGEdMqIwZRL4m5KwC4/+SB3BxrPhxFQQ6UqOXzwTsxD2qZ7zJ
-gFCIaNb/hppxaQfwrs0khcOzZd2mNmFTlGd0JXDRecSp9suQ9iNp/V/e43mKAbzR
-YMJe1HUwU9nwTb46xhcB6JeXnLCBQdAWzL4waJlbWv+HQ4v8Snba8YsXK+sbRzhu
-PhgNLEGvwSy5YY5qlhQsQFxm
-=ZLnW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsX6AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8jIP/j6jXB7KmXyg+JM5v3Ms
+9WmNqXf+pQ2Lyt7E/HvKOVKOBMwq5No9j456OdKBIpcd/pPiE075wHCFAbu7sJVX
+a4GRFAySxlCNmhZ4DwPSFAxz5nc3hMYWwF1eK4oJ1F7rm+8Hw9aYDyFRUhR6YHhR
+4V1DjWeJgzZwD+lQMs6lqWB7DGbw9Au4Ltc4wCe4RAz7D3EYHLG7ZXOPNbpErBDO
+6gD2SVFme+YgixgbbzN2I1HKTre/L4scZNY4ci6f1ApVhWMvC7gyda8Al0bs3j5f
+DOWsj4Tm6sXLxyQcBO11A2zXBH2L4/oJAOzfIyO6dQCxu27gI5R8VtWjzlCHFiHw
+nfyHihnxTDJ9m4FTlYqaODD+emKcL99JMb0BoqA2lP5YzEa++VSBDAP1FOIC37LD
+xKvkOPUVMDUKI7TyE75MFRS4upcs//MgRHH7lz7+hUYe7ec+Np3bvkz/uO/aSnUF
+gItGK7eH5odgN1ijVkQMwl/hRBFRUDwlnBobBFq+R11qsJ0PDyTm9CQX6DFtqNVV
+WjhjYVGoiwW0nUIhLvHlwos41/nSw/qsuDhL6zui2w2trngNvpReuL4QLwlb0KyW
+h0ZF29HQMaZ5tzgO9VCCGn/yWfEim7PT+x3S216s1FNu5CNlTfYoN0BpwAkVriB/
+6VSA9PyL9d0uR+qC82CS4bqK
+=vEcz
 -----END PGP SIGNATURE-----
 
---===============7635731765285122810==--
+--===============7494191645219421032==--
