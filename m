@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 22 Sep 2022 15:15:32 -0000
-Message-Id: <166385973242.27086.8977230377857391542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 22 Sep 2022 15:16:05 -0000
+Message-Id: <166385976519.27387.5454585813822518457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
+repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/tags/efi-loongarch-for-v6.1-2
-    old: dfe73a105ffb000578a3bca6019d2ee69385cddd
-    new: 5c0ad0a6fa3af90a04c7ce757a51e7c4fa88f3a6
+  - ref: refs/heads/efistub-refactor-for-v6.1
+    old: 80b47006d84a32df230a0cbd3d91975d13ba5073
+    new: 591e786e9fa755d4e3de84eae7008be675619324
     log: |
          ab3fd29cdd9451d320753afae120dfed15505f59 efi: libstub: unify initrd loading between architectures
          8be3915dfb3c24975dcc992346033b44ca0ebaa1 efi: libstub: remove DT dependency from generic stub
