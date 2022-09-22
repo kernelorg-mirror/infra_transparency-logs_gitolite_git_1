@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 22 Sep 2022 02:25:13 -0000
-Message-Id: <166381351311.22105.4429069838558460276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 22 Sep 2022 02:32:40 -0000
+Message-Id: <166381396090.26845.7699916417220556609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 3b87e12c49770f5fa71e0bfba06248a0c89d2109
-    new: 81ee935a4826de354858ff5626bcd1742cea49c1
+    old: 1d8b82c613297f24354b4d750413a7456b5cd92c
+    new: 2d863b14fbd9795c627074b4f344141ef3621b81
     log: |
-         abcacce4be6a90cfccc46e1d4b951e29d3ffee7d netdev: add NETDEV_EVENT_FT_ROAMED
-         3d8865f2c0864fca459be5925319564181fecba9 nl80211util: include frame type with build_cmd_frame
-         7d97869c1fbedaa2dee20622153e8528a7873193 wiphy: add new work priority for FT
-         81ee935a4826de354858ff5626bcd1742cea49c1 offchannel: add priority to start call
+         eed807f626101f6a4227bd53942892c5983b95a7 bpf: Tweak definition of KF_TRUSTED_ARGS
+         0fabd2aa199faeb8754aee94658f2c48ccb2c8c3 net: netfilter: add bpf_ct_set_nat_info kfunc helper
+         b06b45e82b59b69f5ac6b3916ac5dbd0294efc95 selftests/bpf: add tests for bpf_ct_set_nat_info kfunc
+         2d863b14fbd9795c627074b4f344141ef3621b81 Merge branch 'Introduce bpf_ct_set_nat_info kfunc helper'
          
