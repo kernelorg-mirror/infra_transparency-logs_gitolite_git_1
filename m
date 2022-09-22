@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Sep 2022 18:04:52 -0000
-Message-Id: <166386989250.19349.2853519091541576213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 22 Sep 2022 18:06:13 -0000
+Message-Id: <166386997389.21778.8785662841803330274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: a9ceef7c5e7d2e87b81e037934f3ab90492866c8
-    new: c0dff452f14ef49cc052a97c06e696b91544cdc7
+  - ref: refs/heads/master
+    old: 377c17c6757ccf43e97f681a6ac5163d3735ab0a
+    new: 2b9977470b39e011ee5fbc01ca55411a7768fb9d
     log: |
-         c0dff452f14ef49cc052a97c06e696b91544cdc7 i40e: Fix DMA mappings leak
+         2b9977470b39e011ee5fbc01ca55411a7768fb9d net: ethernet: adi: Fix invalid parent name length
          
