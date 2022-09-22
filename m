@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7118163072727508651=="
+Content-Type: multipart/mixed; boundary="===============0877205786470370881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 22 Sep 2022 18:41:36 -0000
-Message-Id: <166387209664.13890.13364209747884019798@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 18:42:08 -0000
+Message-Id: <166387212856.14159.878040916176685146@gitolite.kernel.org>
 
---===============7118163072727508651==
+--===============0877205786470370881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 999e4eaa4b3691acf85d094836260ec4b66c74fd
     new: c69cf88cda5faca0e411babb67ac0d8bfd8b4646
     log: revlist-999e4eaa4b36-c69cf88cda5f.txt
 
---===============7118163072727508651==
+--===============0877205786470370881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -208,4 +208,4 @@ c31f26c8f69f776759cbbdfb38e40ea91aa0dd65 bnxt: prevent skb UAF after handing ove
 504c25cb76a9cb805407f7701b25a1fbd48605fa Merge tag 'net-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c69cf88cda5faca0e411babb67ac0d8bfd8b4646 Merge tag 'soc-fixes-6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============7118163072727508651==--
+--===============0877205786470370881==--
