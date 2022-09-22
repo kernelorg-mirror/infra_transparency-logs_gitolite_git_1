@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7963611200765997573=="
+Content-Type: multipart/mixed; boundary="===============6861762055827257016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 22 Sep 2022 14:11:10 -0000
-Message-Id: <166385587001.11736.12842392659117618246@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 14:11:39 -0000
+Message-Id: <166385589939.11984.10382034104142506549@gitolite.kernel.org>
 
---===============7963611200765997573==
+--===============6861762055827257016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: c22d054f1ed6b3e990436c2dde7d3b7d6a170cff
-    new: e2752ae3cfc9a486c5af38b302615705992c3a78
+    old: e2752ae3cfc9a486c5af38b302615705992c3a78
+    new: 007b20e9ec8d8f5f57cf48b3d129616cf4c0c102
     log: |
-         ed9f4bb39624af6461774812888847a7d3f7f8b1 tty: serial: cpm_uart: remove unused cpm_uart_nr declaration
-         e2752ae3cfc9a486c5af38b302615705992c3a78 serial: omap: Disallow RS-485 if rts-gpio is not specified
+         007b20e9ec8d8f5f57cf48b3d129616cf4c0c102 dt-bindings: serial: rockchip: add rockchip,rk3128-uart
          
 
---===============7963611200765997573==
+--===============6861762055827257016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663855868 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663855898 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1663855867-422bdbc490cea37855778abbd96e2c3cc47f8c39
+nonce 1663855897-9d778b1bda8fd390a5c2d564adf28a17f9232259
 
-c22d054f1ed6b3e990436c2dde7d3b7d6a170cff e2752ae3cfc9a486c5af38b302615705992c3a78 refs/heads/tty-testing
+e2752ae3cfc9a486c5af38b302615705992c3a78 007b20e9ec8d8f5f57cf48b3d129616cf4c0c102 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsbPwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bqwP/1yiU7Cmt2jQUv0+xbW5
-Z10MwKYgGiJ4MCaNaIZpmWJSpS6aHTSWHzT9/l/MIun+Uf5DV7zFPV/fosIRJEfF
-kp288Ea/3JZTAP3qs2q1kCDVO31d3OgXZY6+O88rDaUeLRnM/cmupnc5bdvSiPhk
-GPSFbJSlj1fUdbbjgud7rWzQcoLk7NWgeJkIalIeouzVBVNs7dOWEOTBU3I8qkSG
-cx9wTPNvxwpJZXyejR4P5dj8L85p9YOuS96kdzuEhvgU2Ok+9eNr2tVYVAlKbu7r
-o9uZ/Qbp2skovKe/LeX2dBVcvBuWrEdIeQZiCt3vDbt+NSh32yIJoVnm0WWPEUk2
-Ox2wOiM8TEA9/d3s1HS/08qV3ssOKX5e06lUKhZPl0m31z1UqJ4A8mGNYE/qLmWU
-tuHM1PejpEXEPRWlSo33zHuEuZhU6yHLwgeBCnk/evvlvbeNimJiwoeeggPSdOQh
-cIf8GmfGmyYrTuviLcSXbmEZTr+QzeNW5tMgqiM/HENnvt9YJ90+6z33F1NC/SOI
-+WQ4Om2dw/3TUhgA70sKYAYKmv+TmhSNBoPX6s5phNGAqJ4abuCVlo7pPNZi1KKI
-Y6LuyeF4uOJ6bBULwIcgZ2gQUi0oo3KRBKYtOHW+M82KdNxYSjRE02hgQLqFBSpE
-A2E18EgMRJXF0VTRYEmTKdQm
-=DhEk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMsbRobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+28YQAKJW5MXeL600dxQANvVD
+KFMLgeO+c5u/J33+qRFGLRx9fIwjmOb2g7lYu+0zsGqCxVhGo1v1DIHoCir/Makz
+Wk3g7m/qp0nqwMX08ZFxEZhhi8ArvTPk4gCHJHd+O87lPNI5XXY7QEHPRjHiMr+L
+ABz/RX/whQUQjSJ05A+pQ25sDJOyz4MwRtJdUPY1dgYANoZxnH1sbg6wQuMIYUiZ
+7bgt0IADmSRq9Fl34riZo31mr8uIU3YjLzcLxlRj6VlV5oKXI5Gaz+6PGvHemGXU
+4QEMR+3lRarDNRECly/JSYVr/S4aAci+Kv/mpDH6uxFr7Z3SNfbNiANX8MzcbKep
+WNaeaFX+wE7Xc7mELXn2mLbTT26PHPZvJC29Zem/2MzlxxqTUPermON4bBOo4mvd
+IzrVJ59E4c6puvblEcQdCJoFqWOK5SQSbbLl/5DXA76Jojm7aWFb1zOW1OPEfqxv
+IAbYQwO4sSOmFQIvqn/7BkUJKvmxzFT/u0PCZl+UA2d86WlGQ4UiYp8NjS5ekbrp
+EKyYBgRAXI0ZqddOnI3yDz+jZEPujwUMqhoZzTLS25tQBzPQSphk6AdjFX7odB9A
+sIUjVjcFHOs1kdX1iZFHwaITXUsLR77pdd5OE/v6+lqFVhTSG7CAUMZjhmc847he
+c+3AGOeuu0j5v0SA/TGpI/o8
+=yKp5
 -----END PGP SIGNATURE-----
 
---===============7963611200765997573==--
+--===============6861762055827257016==--
