@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3973403354851583016=="
+Content-Type: multipart/mixed; boundary="===============4318583259973493661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 22 Sep 2022 22:03:49 -0000
-Message-Id: <166388422980.29584.1540604050159578421@gitolite.kernel.org>
+Date: Thu, 22 Sep 2022 22:04:21 -0000
+Message-Id: <166388426194.29828.8331480811089431887@gitolite.kernel.org>
 
---===============3973403354851583016==
+--===============4318583259973493661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c1fe672e39b06f70d27317df2aac4c9e46eaa55f
-    new: d9ed38f393c5a14f422f476965d8aa8b140ed27b
+  - ref: refs/heads/stable-0.10.y
+    old: 3ac05252cb66c7be433a3728486f431b45155953
+    new: 5e91f342bb546e51d3ac4d7a1167f6fe4f30f7d0
     log: |
-         d9ed38f393c5a14f422f476965d8aa8b140ed27b ez: fix commit corruption on trailers -u
+         5e91f342bb546e51d3ac4d7a1167f6fe4f30f7d0 ez: fix commit corruption on trailers -u
          
 
---===============3973403354851583016==
+--===============4318583259973493661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1663884229 -0400
+pusher B6C41CE35664996C! 1663884261 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1663884229-3fd60b2f586233ff50919f1936378738b120840c
+nonce 1663884261-9737f2baee5e7ebce995869de9222ede53a7d396
 
-c1fe672e39b06f70d27317df2aac4c9e46eaa55f d9ed38f393c5a14f422f476965d8aa8b140ed27b refs/heads/master
+3ac05252cb66c7be433a3728486f431b45155953 5e91f342bb546e51d3ac4d7a1167f6fe4f30f7d0 refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyzbxQAKCRC2xBzjVmSZ
-bN7CAP0ekBaD5tPVPdlF0jDfQLhEqN+EFXyY7Rn9K52v3RVkCwEAmm3YjgK+T3Ev
-mg8WgzxukBVwPrsdSwZbE2cSmOio0AY=
-=XdME
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYyzb5QAKCRC2xBzjVmSZ
+bFR6AQCebdhbtyN6ZTs9a/qF08MiPzmlRJXgU2rVO02UNJ9bIwD/UfXihqx4atRG
+yZ8hDLLOR6FbgA3EmF8kC1A1eImZOQw=
+=wQae
 -----END PGP SIGNATURE-----
 
---===============3973403354851583016==--
+--===============4318583259973493661==--
