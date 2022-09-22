@@ -1,20 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 22 Sep 2022 12:33:49 -0000
-Message-Id: <166385002903.5734.15996364239235353311@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3302063950251908434=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Thu, 22 Sep 2022 12:47:58 -0000
+Message-Id: <166385087814.15142.3690071234988847863@gitolite.kernel.org>
+
+--===============3302063950251908434==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 3fe3fd5f30720b4afd3345cc186808125e7f5848
-    new: d4955c0ad77dbc684fc716387070ac24801b8bca
-    log: |
-         61d2d1808b20da4a45a90b4bd61ae92f729bab78 arm64: mm: don't acquire mutex when rewriting swapper
-         d4955c0ad77dbc684fc716387070ac24801b8bca arm64: topology: fix possible overflow in amu_fie_setup()
-         
+  - ref: refs/heads/master
+    old: e512b22d64c2ec627fa0a58b3da10e126f252842
+    new: d63ae356854e317564d0f5f3d13341b0830f3ec4
+    log: revlist-e512b22d64c2-d63ae356854e.txt
+
+--===============3302063950251908434==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e512b22d64c2-d63ae356854e.txt
+
+4744ca3a04594d665229ef6532f5814925fb3ebe trace-cmd record/agent: Add --notimeout option
+43ffa27adf1af4273b90802b8cec2b3746cc5858 trace-cmd: Close socket descriptor on failed connection
+54931be836aad82a7d6abea78604a5578072ab89 trace-cmd: Do not return zero length name for guest by name
+cb04105d368ed2446538d6e2b05f312e7504234f tracecmd library documentation: Use star and not underscore for function names
+ee007a12a396ddbc0ee868940e8f90eb2daa720b trace-cmd library: Make tracecmd_filter_match() local
+5baf7a391247ac0e2b59f660cd7860035d29484c libtracecmd: Add check-manpages.sh
+3c544ad220304d30eec08986b908be224a550c30 libtracecmd: Add a man pages for handling of time stamps
+27ea9e11f8eb3c6f0e2f812a0d340ceff4404e2a libtracecmd: Add documentation on tracecmd_set/get_private()
+3cd1b55f321ff8dc68d340aab0d8d0f159cde094 trace-cmd library: Add tracecmd_follow_event()
+0c7ef721d902cb4a76842e552222e825122051b6 trace-cmd library: Add man pages for iterator functions
+d63ae356854e317564d0f5f3d13341b0830f3ec4 trace-cmd report: Add callback for kvm plugin to show guest functions
+
+--===============3302063950251908434==--
