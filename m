@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 23 Sep 2022 14:53:22 -0000
-Message-Id: <166394480282.9919.8322621649024728155@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7806947085645874847=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 23 Sep 2022 14:58:46 -0000
+Message-Id: <166394512663.14844.17002961670795666079@gitolite.kernel.org>
+
+--===============7806947085645874847==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/dirty-log-ordered
-    old: 06967ff74786743ef9f90a14d0583def4155fff4
-    new: b9ee1c5151958eed1c9ab53ccebeac7463d7abf7
+  - ref: refs/heads/char-misc-linus
+    old: ab4bbde809ff7bc964f638d62959ec4272a8729a
+    new: 2bc54aaa65d2126ae629919175708a28ce7ef06e
     log: |
-         587d7e021db0907646812b242d90b1622a723303 KVM: selftests: dirty-log: Upgrade flag accesses to acquire/release semantics
-         e498c6dcee90fbb8026d2c488d5ee959269fddb5 KVM: selftests: dirty-log: Use KVM_CAP_DIRTY_LOG_RING_ORDERED of available
-         9c318f444620960a4067f509c5b5b4d42e2d3abb KVM: x86: Introduce KVM_REQ_RING_SOFT_FULL
-         bce6b6248fcf3cc0933225d25be4023e48a4fe30 KVM: x86: Move declaration of kvm_cpu_dirty_log_size() to kvm_dirty_ring.h
-         480b55cf895967062f161a0728702ad13bc70280 KVM: arm64: Enable ring-based dirty memory tracking
-         370e9a6f9bcd7497fa20a1855017ecc70217fd16 KVM: selftests: Use host page size to map ring buffer in dirty_log_test
-         5508b0fd74f4d0377b3f07725763bb68024061f9 KVM: selftests: Clear dirty ring states between two modes in dirty_log_test
-         1101d7d72b785c744963b26fd1a4909c05674f16 KVM: selftests: Automate choosing dirty ring size in dirty_log_test
-         b9ee1c5151958eed1c9ab53ccebeac7463d7abf7 fixup! KVM: arm64: Enable ring-based dirty memory tracking
+         2bc54aaa65d2126ae629919175708a28ce7ef06e counter: 104-quad-8: Fix skipped IRQ lines during events configuration
          
+
+--===============7806947085645874847==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1663945125 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1663945125-aa783d9712cce390194a06f8d2677c9ae38b7713
+
+ab4bbde809ff7bc964f638d62959ec4272a8729a 2bc54aaa65d2126ae629919175708a28ce7ef06e refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMtyaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b4AP/2C3qWIFLPGKQPP+kT/k
++uvLCe7ABVIDNxQP8EKHxQoqswMmHid+0J/1ttASIXkYrkUAlm88ROfF5tKyJqZv
+z+4sEl2GBn8l6TBqkYg2Ixtzw/RtJ4Q/nLXLLcoYwa/NommHbkrzzCHXUCVS4CR6
+q8WJXLteDysUH8C8wXefqpK8pcNchmMor1SBr/3IPlOf/x37YSCz5Ldead6gzy/J
+VattrhLuvq4X4UArpPEC2rGoa7ZLnoKyxUOXR4nmnSLgZTeebXSTb3ovc8H2yV1r
+XSG/ucJyFkJKjFi1sd3bS6KX2tgCiHsU+AwHUOYcxgGMm2/cWaNQY9fi6Jzm3mBQ
+IrxQKOXSIuBfsBbXD0E4xyuyV9KKc0Pz8VrtjB0xl7geIQ1JjTB2risRHNuRMn7b
+HOsiAZoNB5ThoGQn/axP1SY+rUWmrlG/+lG1liqqevbM/3P4eKdV6uEPX1Pefdzn
+WxaPBu/+vqiwdllz6pQvOl4ve6syvcTJUarDd5huMloVayS/QNpVuWSw+i4n+TFA
+IJLNXgETza59BOgm8L1rxrR5dlM8up+TVqfGv3NwJA9IHjJ75I5YLEu/DQ9+5uDk
+lS5AdpyMCopvAfMmX/glAkXwiv66fb5EIOs2IdsF/DuavlwErXxVJOFWkll9QjrW
+A1QGTJc5WnVWnzOndC/qnsbr
+=I9qG
+-----END PGP SIGNATURE-----
+
+--===============7806947085645874847==--
