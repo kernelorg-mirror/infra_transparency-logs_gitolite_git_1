@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 23 Sep 2022 12:56:37 -0000
-Message-Id: <166393779767.24164.2570076654995616923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 23 Sep 2022 12:58:47 -0000
+Message-Id: <166393792748.24989.6661727337021888414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/20220922_nfraprado_asoc_mediatek_allow_separate_handling_of_headphone_and_headset_mic_jack
-    old: 0000000000000000000000000000000000000000
-    new: 42de42c22453064ffc9b72c259b2ab901dd766dc
-  - ref: refs/heads/20220922_ranjani_sridharan_asoc_sof_intel_mtl_fixes_for_suspend_resume
-    old: 0000000000000000000000000000000000000000
-    new: 68fb254e9ccca9e3f832f86b707eb2551aa5b86d
-  - ref: refs/heads/fileCMfMxJ
-    old: 0000000000000000000000000000000000000000
-    new: 04e0456f778de550a14d222d1a9ae0625511244d
-  - ref: refs/heads/fileT1EkXX
-    old: 0000000000000000000000000000000000000000
-    new: e96bca7eaa5747633ec638b065630ff83728982a
-  - ref: refs/heads/fileZnpqFi
-    old: 0000000000000000000000000000000000000000
-    new: 0402cca4828dd9556d36ddef67710993b7063f7c
+  - ref: refs/tags/arm64-fixes
+    old: 7a094a59cf583709ce4c3437b5b035ee164c09a4
+    new: e7f616847c314eb1ea1dc5cfef20fcdd3349ba8f
+    log: |
+         61d2d1808b20da4a45a90b4bd61ae92f729bab78 arm64: mm: don't acquire mutex when rewriting swapper
+         d4955c0ad77dbc684fc716387070ac24801b8bca arm64: topology: fix possible overflow in amu_fie_setup()
+         05d6f6d346fea2fa4580a0c2b6be207456bebb08 perf/arm-cmn: Add more bits to child node address offset field
+         13b0566962914e167cb3238fbe29ced618f07a27 vmlinux.lds.h: CFI: Reduce alignment of jump-table to function alignment
+         
