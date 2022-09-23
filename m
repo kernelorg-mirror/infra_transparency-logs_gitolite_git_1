@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 23 Sep 2022 15:32:50 -0000
-Message-Id: <166394717017.7668.2646796785729211315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 23 Sep 2022 15:33:49 -0000
+Message-Id: <166394722944.8106.8315048136315183279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/mvebu-dt64-6.1-1
+  - ref: refs/heads/tegra/soc-driver
     old: 0000000000000000000000000000000000000000
-    new: a63c50fb7d539d2dc838b9022123d7613a1ed027
+    new: 74f7f183d81c26a53c2b1708364069d391b1b4d6
