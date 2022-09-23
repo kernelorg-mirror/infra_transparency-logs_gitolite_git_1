@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 23 Sep 2022 12:46:03 -0000
-Message-Id: <166393716367.15784.11888699471368253611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 23 Sep 2022 12:51:57 -0000
+Message-Id: <166393751703.19423.11562647266996487827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: f22bd29ba19a43e758b192429613e04aa7abb70d
-    new: f8497b3e9650a0d094a3995c644dfedd32e8cde7
+  - ref: refs/heads/for-next/fixes
+    old: 05d6f6d346fea2fa4580a0c2b6be207456bebb08
+    new: 13b0566962914e167cb3238fbe29ced618f07a27
     log: |
-         f8497b3e9650a0d094a3995c644dfedd32e8cde7 MAINTAINERS: rectify file entry in TEAM DRIVER
+         13b0566962914e167cb3238fbe29ced618f07a27 vmlinux.lds.h: CFI: Reduce alignment of jump-table to function alignment
          
