@@ -1,42 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2121930884500060323=="
+Content-Type: multipart/mixed; boundary="===============4127171003931868572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 23 Sep 2022 10:06:41 -0000
-Message-Id: <166392760123.5015.1878712263796910857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 23 Sep 2022 10:08:32 -0000
+Message-Id: <166392771233.5749.17273899214275218840@gitolite.kernel.org>
 
---===============2121930884500060323==
+--===============4127171003931868572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-kernelci
-    old: daf65d25e8df3fee29427748be4cc0b72b2a0e84
-    new: b26b5a900363502ee224cd01fb007bb184af594a
-    log: revlist-daf65d25e8df-b26b5a900363.txt
+  - ref: refs/heads/master
+    old: d56f9ddf972dda7496fc2b78cc1e042e1051458b
+    new: 1a4019f4922ea33547eb7f7a84616cd74045a4e2
+    log: revlist-d56f9ddf972d-1a4019f4922e.txt
 
---===============2121930884500060323==
+--===============4127171003931868572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-daf65d25e8df-b26b5a900363.txt
+Content-Disposition: attachment; filename=revlist-d56f9ddf972d-1a4019f4922e.txt
 
-ab3fd29cdd9451d320753afae120dfed15505f59 efi: libstub: unify initrd loading between architectures
-8be3915dfb3c24975dcc992346033b44ca0ebaa1 efi: libstub: remove DT dependency from generic stub
-d9503cf1e72ecbf8a6025f50b7a3ecfeba6bf82d efi: libstub: install boot-time memory map as config table
-591e786e9fa755d4e3de84eae7008be675619324 efi/loongarch: libstub: remove dependency on flattened DT
-37e13610c56626f0d18a1afc0436740c15de6d8c Merge tag 'efi-loongarch-for-v6.1-2' into HEAD
-bf0af09f0ad5433899f8d3cd0e7d2eec6720e809 efi/libstub: refactor the initrd measuring functions
-78770070c4c24751fcea0f13fb786c10a2aae7df efi/libstub: measure EFI LoadOptions
-6bde4df558fb9ba3b551f9bc82282d320d6df201 efi/arm: libstub: move ARM specific code out of generic routines
-3c4d872de7724a31b033d123b063281e7a874812 efi: libstub: fix up the last remaining open coded boot service call
-543275c4fe271252d430d4074f1ce98c533fca9f efi: zboot: create MemoryMapped() device path for the parent if needed
-d515ed00e9b6f4e41c27ec8a0ccd4e193661a09c efi/arm64: libstub: avoid SetVirtualAddressMap() when possible
-b26b5a900363502ee224cd01fb007bb184af594a arm64: efi/libstub: use EFI_LOADER_CODE region when moving the kernel in memory
+e8619b05870d509175492435d4b35b45f0e6c9c8 dt-bindings: net: drop old mediatek bindings
+3737c6aaf22dc6f515a7d4cf88dfe6e514414f88 dt-bindings: net: dsa: mediatek,mt7530: change mt7530 switch address
+0fbca84eea37eba365130483f9e96b5563a84d7a dt-bindings: net: dsa: mediatek,mt7530: expand gpio-controller description
+862b19b7d4a1ab3dd5a7ab95af73f8ec06fdb200 dt-bindings: memory: mt7621: add syscon as compatible string
+5ae75a1ae5c9eb6765a11c8f54554a1a889f2c7f mips: dts: ralink: mt7621: fix some dtc warnings
+08b9eaf454eea6ff3dcd537d65d5b3784155b516 mips: dts: ralink: mt7621: remove interrupt-parent from switch node
+97721e84f54668a8677dbf928574956b7cf0dd4a mips: dts: ralink: mt7621: change phy-mode of gmac1 to rgmii
+2b653a373b410d07699a632b1b064fd7d895c5c3 mips: dts: ralink: mt7621: change mt7530 switch address
+247825f991b34440f9b9d4fe607502435a42ac7b mips: dts: ralink: mt7621: fix external phy on GB-PC2
+394c3032fe0ecdbb38ce5b19441a1149466a06d3 mips: dts: ralink: mt7621: add GB-PC2 LEDs
+1a4019f4922ea33547eb7f7a84616cd74045a4e2 Merge branch 'mt7621-dt'
 
---===============2121930884500060323==--
+--===============4127171003931868572==--
