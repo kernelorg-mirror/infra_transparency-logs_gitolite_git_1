@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 23 Sep 2022 15:40:09 -0000
-Message-Id: <166394760985.13828.4263632409285983574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 23 Sep 2022 15:44:43 -0000
+Message-Id: <166394788368.15567.10687146814311024808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/mvebu-dt-6.1-1
+  - ref: refs/heads/qcom/drivers
     old: 0000000000000000000000000000000000000000
-    new: c60aeecb2c60d40fb9af1a200ea1814a29fe4061
+    new: df646a17f103c6f18ab85c5e3773763d18dc528b
