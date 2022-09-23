@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Fri, 23 Sep 2022 16:31:30 -0000
-Message-Id: <166395069083.18737.10323554881511445540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 23 Sep 2022 16:48:05 -0000
+Message-Id: <166395168562.28948.11592544138640471776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/pending-4.19
-    old: 79e449107fa6bf35bddbbfed46b0a9a592e98013
-    new: b7170b3d857fff07aef30d5243a0fbd699c92c64
+  - ref: refs/heads/master
+    old: 437d49b051e8ca80d2ffa8f3fd98ce58755c2758
+    new: 1a8339c6bdcf7d66a83152ee5ff13c50da761295
+    log: |
+         1a8339c6bdcf7d66a83152ee5ff13c50da761295 dt-bindings: input: touchscreen: elants_i2c: Add compatible for eth3915n chip
+         
+  - ref: refs/heads/next
+    old: 437d49b051e8ca80d2ffa8f3fd98ce58755c2758
+    new: 1a8339c6bdcf7d66a83152ee5ff13c50da761295
+    log: |
+         1a8339c6bdcf7d66a83152ee5ff13c50da761295 dt-bindings: input: touchscreen: elants_i2c: Add compatible for eth3915n chip
+         
