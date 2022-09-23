@@ -1,118 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jdelvare/staging
-Date: Fri, 23 Sep 2022 13:27:59 -0000
-Message-Id: <166393967911.13495.14504221293526715551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 23 Sep 2022 13:43:37 -0000
+Message-Id: <166394061713.23432.14924047963034387917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jdelvare/staging
-user: jdelvare
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/linux-watchdog-4.16-fixes-1
-    old: b753513781cb10c5684cf6ea6561cb1fb3bf6635
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.16-fixes-2
-    old: b741e7d186f25dba4ec3af13cfd08c48aee4e8b7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.17-rc1
-    old: 4777cbd34492e042511fe6717086c6bc0d2dfe19
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.17-rc2
-    old: 61ee0580c65d77de3a94696d35c9068fec5dee88
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.18-rc1
-    old: 1ddffe8a762ff53619c1704e62cd626aef57e743
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.19-rc1
-    old: fd7620db3cb66ff0e3a4d310a1d21b0a8f96d890
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.19-rc2
-    old: 6eb87087f1a6ae6b81036bd2f842e1412348837d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.20-rc1
-    old: c4b0ec64e88166ae0c9a5f296bd7bf6061be7db2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.21-rc1
-    old: 2e306ad23e639f55f7fbb7f41081541c1a5ecdf0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.0-rc-fixes
-    old: cabd786dd5bb5de9e3a82a4d7aee68f10e9e65ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.1-rc1
-    old: eb9f26c31b808c6b490da15bb73049c45e448603
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.10-rc1
-    old: d65557b9b043cd8f4ffe2ff97862932fe548190a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.11-rc1
-    old: ea23234ca2549afb518c1a77020bc56b597d0e1d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.12-rc1
-    old: 216bd251a550aac8410069688b22d0c62d760e50
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.14-rc1
-    old: a30fedce5669be2db250b2f9c1404a4884d062da
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.15-rc1
-    old: 8b78fdeb1c2196586b3bdb16f6bcb8e155f26213
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.15-rc7
-    old: 22c731b243558d268dc9d8fa33e7850147c591b3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.16-rc1
-    old: 7f9986970c3cbf60b02a01e114a6b35963b12914
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.17-rc1
-    old: cb0a748d60c55e497a98b17a8e80044bf6f8e9a4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.18-rc1
-    old: c4729c7145f878bef6fed14901321a0b8e7f6703
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.19-rc1
-    old: b22d9dfebc6aaec193381ea697146dc930537742
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.19-rc3
-    old: c1c8fa5a3b83bb8d99190d511ebbd2f0eea17849
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.2-rc1
-    old: 415db3759b6769a9aa8bd55eab5e152896c9b2aa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.20-rc1
-    old: 3d8f7e03f58baaba9a3133b930d0b4c411558baf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.3-rc1
-    old: 1b81d947aae6c4cc110388f9cb0927eb0641d36b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.4-rc1
-    old: f53c200d0297bf5c4deb122270ee85cdd0b6226f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.4-rc7
-    old: 95929319c51a01aa55fcc0207473615e1ec547fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.5-fixes
-    old: a6afd352f5d6416d79a9eb1ce18e964c5e420051
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.5-rc1
-    old: 57405dc7a34239b6a8e361863b000630051ed1c6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.6-rc1
-    old: c9df3a6d66ba4643e7a3359f3e7ac0a551ebd9f9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.6-rc3
-    old: 1b44603b4e078b12821322c7c8810876c96f6cd1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.7-rc1
-    old: 71e7131351dabd9ad2dae116eb010d655b3506f2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.7-rc2
-    old: a3f32b3075154d814258a7077b95f70f041bb6a7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.8-rc1
-    old: ed271cfea40d26a30ffb70e434410ae55fced89b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.9-rc1
-    old: a0eead08b6529e91f1a990735327ea961ec0a81e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/tegra/dt-bindings
+    old: 0000000000000000000000000000000000000000
+    new: cc99f95d49b3ee4617bb4154e32ae7ac14755fe2
