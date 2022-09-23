@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8972899230216207220=="
+Content-Type: multipart/mixed; boundary="===============6551996146730098406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 23 Sep 2022 16:53:25 -0000
-Message-Id: <166395200544.32620.14225305109555703344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 Sep 2022 16:53:31 -0000
+Message-Id: <166395201144.32747.17040832949771048350@gitolite.kernel.org>
 
---===============8972899230216207220==
+--===============6551996146730098406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.0
+  - ref: refs/heads/asoc-6.0
     old: 6de0b0292b548010b09917e8cdfc337a6dcf67ce
     new: e96bca7eaa5747633ec638b065630ff83728982a
     log: |
          ea8ef003aa53ad23e7705c5cab1c4e664faa6c79 ASoC: wcd9335: fix order of Slimbus unprepare/disable
          e96bca7eaa5747633ec638b065630ff83728982a ASoC: wcd934x: fix order of Slimbus unprepare/disable
          
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: e2f0b9277810685f6a67201847082ec9852853bd
     new: 76003e4d0da8c04229023a5df8911defaff95500
     log: revlist-e2f0b9277810-76003e4d0da8.txt
 
---===============8972899230216207220==
+--===============6551996146730098406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663952003 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1663952003-bc9453e28e5fc12e1ab2ae395c5cb887bf9ff85b
+pusher C3F436CA30F5D8EB 1663952009 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1663952009-017ebbe04afa41b808116a53a770b5f780491385
 
-6de0b0292b548010b09917e8cdfc337a6dcf67ce e96bca7eaa5747633ec638b065630ff83728982a refs/heads/for-6.0
-e2f0b9277810685f6a67201847082ec9852853bd 76003e4d0da8c04229023a5df8911defaff95500 refs/heads/for-6.1
+6de0b0292b548010b09917e8cdfc337a6dcf67ce e96bca7eaa5747633ec638b065630ff83728982a refs/heads/asoc-6.0
+e2f0b9277810685f6a67201847082ec9852853bd 76003e4d0da8c04229023a5df8911defaff95500 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMt5IMACgkQJNaLcl1U
-h9D7mAf/aGUpe3VDdhAhKDUXPzf9/Iz60pQAqn3PCKBBGPUlDHDnKz2fxJSdK2sM
-8wKuueA3pHtJ76Su7Z1ZaE26tiKd88pGKg8oHrGYUfQqd9QU2vJNlqDNmdVdpugh
-5yioY/ZiOf709xN8KohqFEbNgGNc59QgxV+Np3j7laD5OfunqjNyazFj9QcjT4gr
-1Sfiox7Lm0B2rCJ7MOipfNIt2XC5O3VHMt5jk/VjN7drFn1yC72qUJBd1JvYxKIX
-5T6/NGpGJBXFOnAQ55pboaOCOX2LqoOLt6lFa7KShDSRef3qcfrhFLbLWbGQ4rlX
-h8k/5cqobmy0GbblHz3UtnsRSEgNcA==
-=n7k7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMt5IkACgkQJNaLcl1U
+h9B5FAf/XVuDyfV2ubySH64M717AZCzn/vX1sW4Y+YA14qeMDwadv99tfmDhdAGZ
+xALIYRy3lLbRWDyIhUJ9cZX/yJgmhiX0eAY0byvSqspvFCLC/BaCSlu6CMbE8jL6
+6yPL+xcCCDVeVed0q7dG4jvRpIQueyQCrD6Dwtg5QUK+S7HpdVWh91rHU+V8GLg7
+B9fJLozOfxQUkWe9gOF6IkMwotezdpnhdJKeemcjg+LOSA2iwFaeuwBqpzSU4pUx
+eUKf8VVeDIv0LfVM+GBYuROhf68BC0arbA8hdq/lKVLNIkuBCJA+D8OW9qL5BjYn
+dn9invNeQBv3X7hxLyocnr9ABJlQgg==
+=o/EF
 -----END PGP SIGNATURE-----
 
---===============8972899230216207220==
+--===============6551996146730098406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ b2520dbcb0d3646e70fedcaab2bdfb33df1c8508 ASoC: SOF: Intel: define and set the di
 583ccffca5f4a6c75d8f1e437934b072d09e95c4 ASoC: mediatek: Allow separate handling of headphone and headset mic jack
 76003e4d0da8c04229023a5df8911defaff95500 ASoC: SOF: Intel: MTL: Fixes for suspend/resume
 
---===============8972899230216207220==--
+--===============6551996146730098406==--
