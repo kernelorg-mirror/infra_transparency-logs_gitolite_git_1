@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7002429411998416878=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 23 Sep 2022 10:34:38 -0000
-Message-Id: <166392927813.24745.2074442097181389879@gitolite.kernel.org>
-
---===============7002429411998416878==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 23 Sep 2022 10:38:48 -0000
+Message-Id: <166392952809.27740.13191562648678401129@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-6.1/slub_debug_waste
-    old: 0000000000000000000000000000000000000000
-    new: 6edf2576a6cc46460c164831517a36064eb8109c
-
---===============7002429411998416878==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1663929276 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1663929276-86d46fa321d71c0aa38f741931ba8b2ea12357f8
-
-0000000000000000000000000000000000000000 6edf2576a6cc46460c164831517a36064eb8109c refs/heads/for-6.1/slub_debug_waste
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmMti7wACgkQ4CHKc/GJ
-qRBdqAf+PxfSX8kevn36DYiYtESgXwW2Xun/ncRfImnNJ6MaoYbxjWx336U4+U2W
-RlmDFPbYCaH6pdKRl/oaXBuF0FViMpqeFsjeByYvmz5pbVzcrPEdv7XRFaLrvjSo
-akNaODkBme6U8Q2UOd5pGIIaJsFWNR+UgPWf5eyDu697JXrzpEsLKtMNJAP6bGf3
-Fpgw9KsNIlAI/mj2FbKOueZP/2Pj5Aav0Z38hDGA1zVFxwu85eaSdTaCdnai5DgX
-gIL+k5nJ5HQKabO85PhmTJRThypc7GCSckKseR/WDTQUUHjNkqns4EPiGb7A0fqn
-7MBDkMgubmp/3Dk8bxbvgyfYuxZObw==
-=SCoe
------END PGP SIGNATURE-----
-
---===============7002429411998416878==--
+  - ref: refs/heads/for-next
+    old: 9af48b262675561eefd6edc11b4b02854e6a18ae
+    new: 1590ac2c6615329d30e25753e03c295cdaf2ae44
+    log: |
+         1738061c9ec854db2db76be8bb968f550d9bdddc platform/x86/amd/pmf: Add support for CnQF
+         3dae5825295d7b3284fc349cd6bfa641f4033e16 platform/x86/amd/pmf: Add sysfs to toggle CnQF
+         1590ac2c6615329d30e25753e03c295cdaf2ae44 Documentation/ABI/testing/sysfs-amd-pmf: Add ABI doc for AMD PMF
+         
