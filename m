@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 23 Sep 2022 21:27:25 -0000
-Message-Id: <166396844585.5741.8505986860253880199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 23 Sep 2022 21:37:00 -0000
+Message-Id: <166396902026.12132.17157054339312148751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/for-next
-    old: e0401dce5e28fb7118dbfd055c77d94433778a85
-    new: e588c116df6ca64a295017571151992c76d03132
+  - ref: refs/heads/testme
+    old: 789442b3febb6fca83de07f46b86cf376472f5c9
+    new: e14693e6173a2a19aab0723dce492253406fde94
     log: |
-         e588c116df6ca64a295017571151992c76d03132 libbpf: Add pathname_concat() helper
+         e14693e6173a2a19aab0723dce492253406fde94 x86/mm: Disable W^X detection and enforcement on 32-bit
          
