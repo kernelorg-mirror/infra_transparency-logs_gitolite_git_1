@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2940638872859009666=="
+Content-Type: multipart/mixed; boundary="===============5681423068566223039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 23 Sep 2022 17:20:52 -0000
-Message-Id: <166395365295.22004.5629025730786853431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 Sep 2022 17:20:58 -0000
+Message-Id: <166395365861.22130.15107778341839557775@gitolite.kernel.org>
 
---===============2940638872859009666==
+--===============5681423068566223039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/spi-6.1
     old: 478cc2fc3dd782f7935bc0ab84c198691ea83fa3
     new: 04e0456f778de550a14d222d1a9ae0625511244d
     log: |
@@ -25,28 +25,28 @@ changes:
          04e0456f778de550a14d222d1a9ae0625511244d spi: aspeed: Remove redundant dev_err call
          
 
---===============2940638872859009666==
+--===============5681423068566223039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1663953651 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1663953651-8442fcb5cdc76a01c49b3fadbbdb9548e650c508
+pusher C3F436CA30F5D8EB 1663953657 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1663953656-09970767f51a003a52ddc56ca22a1351a04bd6a6
 
-478cc2fc3dd782f7935bc0ab84c198691ea83fa3 04e0456f778de550a14d222d1a9ae0625511244d refs/heads/for-6.1
+478cc2fc3dd782f7935bc0ab84c198691ea83fa3 04e0456f778de550a14d222d1a9ae0625511244d refs/heads/spi-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMt6vMACgkQJNaLcl1U
-h9Cyqwf+I0PxQ+5fuCPTxbqglDWLfy07d/2qIyfLXlr2cvD6OfQDJ4e2zVaZDtAn
-ojylGGGtdwy46wOKdKfApSe2+/oMgbM+XoHFpKs02ypB9Zfl/OW4D5G/ZkmAcA5r
-7ky3CLmQ+W4YfyNaQT8FmKqLEmOb0xKL2e+ZEnsBWFulpvxkhzOe5bVPxxEcvtKb
-leZsNUHp7VtaV66d2TUWXbzlnatvx/mpvQrqUFC5daGkkcl7Dj3HtI4camnUvw6E
-6DxBtfunY2gZnA2hyRpZ2Zqt8/lNO8R9lS01Gm6cGHxdzpKgq0Oi8XpNafB+MRsT
-IcIwn6r6Lz1hcaT7PlZOHyr+rWQP1w==
-=tUMC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMt6vkACgkQJNaLcl1U
+h9C8fQf+NeLI/OqDxB2E/xwcvW9yja6rza+LlTQp5oDkdiD8wBGhdoLcWSn7qfw/
+pMhZp3JPBYMmM5+ekEjKYAVbVQuDXOM5vo8UK7YDYpQC0PLAnWDbqCXyNswEfmWC
+enh5z9YOPgJ9/RDTSLk1v8KFcpOKL6RVIqF04Q48wAfkt+o0uYw7rnKJ/J4wNL1U
+z1CDT67P1f7tsLV27f3NAsk1xoHOhZoOF85X7RvWJYkve/XoqirrJuhZkw4rsXLn
+YitrIsHWx4E7AxbhRS92cspYBQxRLmyWTdu3kXjVLq93dPXBIjhd2hkHrnxCtj97
+nNKiPJ1m0mcVqqHsAKqSpXj5LiOk8A==
+=FUlI
 -----END PGP SIGNATURE-----
 
---===============2940638872859009666==--
+--===============5681423068566223039==--
