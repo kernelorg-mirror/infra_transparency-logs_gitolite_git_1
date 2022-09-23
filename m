@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 23 Sep 2022 14:42:01 -0000
-Message-Id: <166394412121.2368.14757546375675497727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Fri, 23 Sep 2022 14:45:29 -0000
+Message-Id: <166394432943.5187.12462917471996971966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/qcom/dt64
+  - ref: refs/heads/for-6.1/sysfs-patched-object
     old: 0000000000000000000000000000000000000000
-    new: 3d59187efc982bf20309ae2fb8514007f9bf2b4e
+    new: ff1b80ec841562b374083335f68f4de0c7f46ab4
