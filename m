@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9083735713016051124=="
+Content-Type: multipart/mixed; boundary="===============4145286680656484319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 23 Sep 2022 12:18:58 -0000
-Message-Id: <166393553826.1854.5590372609042964395@gitolite.kernel.org>
+Date: Fri, 23 Sep 2022 12:20:20 -0000
+Message-Id: <166393562028.20865.7278156351646174409@gitolite.kernel.org>
 
---===============9083735713016051124==
+--===============4145286680656484319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,171 +16,121 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: e7fded577d12c0a3a5e12af9f25b63cdcc526c80
-    new: 962b493154c1554054a58fd27ddf8198603af4fd
-    log: revlist-e7fded577d12-962b493154c1.txt
+    old: 962b493154c1554054a58fd27ddf8198603af4fd
+    new: 298be45b44bf5cb1b066ae1d84b6060fa3b87371
+    log: revlist-962b493154c1-298be45b44bf.txt
   - ref: refs/heads/queue/4.19
-    old: d0c792c3ab294c96a13c68de4327975ef4bab437
-    new: e28271bdf1ddad4920599728e75bce8c16495748
-    log: revlist-d0c792c3ab29-e28271bdf1dd.txt
+    old: e28271bdf1ddad4920599728e75bce8c16495748
+    new: 37deb87ed185e0b5ac1ec4cabb7ac18b2495a72c
+    log: revlist-e28271bdf1dd-37deb87ed185.txt
   - ref: refs/heads/queue/4.9
-    old: f67748fc89b44f8824dbe0552ab515551b55e03b
-    new: eee49e72a7f6b3ae93122706d177d6438816db95
-    log: revlist-f67748fc89b4-eee49e72a7f6.txt
-  - ref: refs/heads/queue/5.10
-    old: a51e10de9c41f3c7c2ec8b239fbeceaa553086d9
-    new: d431103b4217b01051c919663335f38e46b1bc8d
-    log: revlist-a51e10de9c41-d431103b4217.txt
+    old: eee49e72a7f6b3ae93122706d177d6438816db95
+    new: 7c0baabba9c896aef5e2eb1427fc9018c9ded539
+    log: revlist-eee49e72a7f6-7c0baabba9c8.txt
   - ref: refs/heads/queue/5.4
-    old: 2c8b58ec9db2065d8d75514781b79872936f0cb6
-    new: 107b8fae3c7361009abea52a004829b567cf3b69
-    log: revlist-2c8b58ec9db2-107b8fae3c73.txt
+    old: 107b8fae3c7361009abea52a004829b567cf3b69
+    new: efeef2aaeb4ffd9e1fcd09d70808beefa3405e22
+    log: revlist-107b8fae3c73-efeef2aaeb4f.txt
 
---===============9083735713016051124==
+--===============4145286680656484319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7fded577d12-962b493154c1.txt
+Content-Disposition: attachment; filename=revlist-962b493154c1-298be45b44bf.txt
 
-084e47eaec73f92f00f88f42806a66998bbdb6c1 of: fdt: fix off-by-one error in unflatten_dt_nodes()
-693c48d6279f1dabe4a06419d794fea9288cec2c gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
-c0b07af83ec8d4c9befe89e1f93a86581eb34bfc drm/meson: Correct OSD1 global alpha value
-03177fa5aefc627cf456ca2308e4020475806235 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-8e0335bcfcd27bd3a320344ad694712f3c427a21 efi/libstub: Disable Shadow Call Stack
-0efef714a059b1ca88abe6c26a82bdedf36940bb efi: libstub: Disable struct randomization
-e1b22825ed3a4c00896ddcde569ec01f15ee5243 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-faedaa509ee2baee5a86dd043755ce7d5b2b3a41 ASoC: nau8824: Fix semaphore unbalance at error paths
-da59a38676e7d91a77fa31ca180257c7c9840d73 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
-ca03711435caa749b767025ce62b5b107db3134a ALSA: hda/sigmatel: Keep power up while beep is enabled
-89aa826c78c2e0156f20358a5e02069ce6d8be8e net: usb: qmi_wwan: add Quectel RM520N
-f6a75a761bc196ed8010a8789c177aee4942e6a5 MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
-d06ba90281fa057a45b323af877bb8b9850e68c6 mksysmap: Fix the mismatch of 'L0' symbols in System.map
-ceff085ae6f971cab85d863b457b5282f4291cee video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-962b493154c1554054a58fd27ddf8198603af4fd ALSA: hda/sigmatel: Fix unused variable warning for beep power change
+e70f3dd175d97f3361094b6d8c1d662d233501f6 of: fdt: fix off-by-one error in unflatten_dt_nodes()
+4103b7f81dbe32f1e67670c0c2424828c1a8ae47 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+422b57a6e2cd02ada27335f91b8497541e4f9c3f drm/meson: Correct OSD1 global alpha value
+ddad0d9c31e807787ecb26984e9a61f93b3f5017 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+f75078296c03da8b8f8bdaebec9761bd52eaf9c3 efi/libstub: Disable Shadow Call Stack
+49115e3898f005beeed7cf9f93cdcfb013f688a9 efi: libstub: Disable struct randomization
+722874ffa476cef6d402fd3da9ab289045962e0d cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+183fe2f1dd3a4050f8fcccc746f04bcb3c341bb1 ASoC: nau8824: Fix semaphore unbalance at error paths
+a1cb80a3f11dc2dce3e53206f660484d2d610a84 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+c5d5e2121d0e7a55c636ccaae4d2b32b4716aa76 ALSA: hda/sigmatel: Keep power up while beep is enabled
+2c4903e3c1dd245c776e33a692cfe526840d0111 net: usb: qmi_wwan: add Quectel RM520N
+f49a40d6ac27d6e213c5f46325dce5b9bd429850 MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
+4b1e0a215a9858be67cd4930553c6c5e87f5eb02 mksysmap: Fix the mismatch of 'L0' symbols in System.map
+5ea7294ec2f6abf240b04fd5f2cf7efe618cc36a video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+298be45b44bf5cb1b066ae1d84b6060fa3b87371 ALSA: hda/sigmatel: Fix unused variable warning for beep power change
 
---===============9083735713016051124==
+--===============4145286680656484319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0c792c3ab29-e28271bdf1dd.txt
+Content-Disposition: attachment; filename=revlist-e28271bdf1dd-37deb87ed185.txt
 
-1ae667e3962a53d3488cf1d69ba72242ff9b6e13 of: fdt: fix off-by-one error in unflatten_dt_nodes()
-40ddfac335adb77ef2495a4152d1ff5cf9b3fef7 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
-356a04f63a775aa209a4aec329631a4a7fa98ece drm/meson: Correct OSD1 global alpha value
-4d0614074c417c3db273aa06cbb58aefb1400ad9 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-d092a677e9f0ce4c92227bc4ac614c3ed3007a14 efi/libstub: Disable Shadow Call Stack
-fe6dc7436bef4c42b2ebc3a7cf8808523271d445 efi: libstub: Disable struct randomization
-7eaab0ee5d5bd577d19882106bc413bebeff0931 nvmet: fix a use-after-free
-39e3b40dd2c5ccb99765a1075aaf2d989959a4bd mvpp2: no need to check return value of debugfs_create functions
-cc5bfb4e107124fc1f08ae1806f83141b4a334ba cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-94dbfba2f165d306e0ecd7fcc212c44839dfb0a1 ASoC: nau8824: Fix semaphore unbalance at error paths
-4d914182060c8b303ed7344fe8035a4c7a9d5804 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
-5420ad26b9e727c306dc96ff82554bfc2d10bf24 rxrpc: Fix local destruction being repeated
-c82058d6c7ca0a7adbe7ad9d0d2ec5fe0951a635 ALSA: hda/sigmatel: Keep power up while beep is enabled
-329b8a4369d80e9d65c8862630531cd50cc0f4e8 net: usb: qmi_wwan: add Quectel RM520N
-e9edbf16d016e838bb801828ed31f42b93a25635 MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
-163145afed7ad2a376dc678681f13315e89d73e6 mksysmap: Fix the mismatch of 'L0' symbols in System.map
-1bfda97952d5ac9ebf56a4943ff5f5b330d223d3 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-e28271bdf1ddad4920599728e75bce8c16495748 ALSA: hda/sigmatel: Fix unused variable warning for beep power change
+767de5a5a5a3f7879d1cdf31c89ac9dbd8f8d470 of: fdt: fix off-by-one error in unflatten_dt_nodes()
+5a1957933be6253e77432a96c6abc48194d2a45f gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+4c4affbf2c555d4215c4e9f1bc6f6df89444ba9c drm/meson: Correct OSD1 global alpha value
+52067f2b16db6dc9c4649e1eba50caa8501dafa6 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+e0a91dce48c03815b70e2deb31e16c30e6eae890 efi/libstub: Disable Shadow Call Stack
+fdffb4b25dad4d6989449a5f912599277cd219ef efi: libstub: Disable struct randomization
+a766df6abad389cff7814078f52435e8cbf6e6a3 nvmet: fix a use-after-free
+0472535afbf19f107933611331efa1b2dda86d1c mvpp2: no need to check return value of debugfs_create functions
+eac1abb6ce8683cf2452ea513fbca39e592416ff cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+f2e5abb793d0663602fa793f79680b1a8b89514f ASoC: nau8824: Fix semaphore unbalance at error paths
+46d84993e222b69f2079691400092971e9652940 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+a58eb8740aa27fec1305f329e7803dfc4081fd66 rxrpc: Fix local destruction being repeated
+a217d4cd3aebdb560c46531468f5cd1c821c75cb ALSA: hda/sigmatel: Keep power up while beep is enabled
+22a0e459c909f7c7c0b7f8d096e480def3475c12 net: usb: qmi_wwan: add Quectel RM520N
+fdb97a8d128c2595dbe7343f13dfce91bb463a9a MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
+b4675f45341932836cfaca1af0a138ae4ec84db9 mksysmap: Fix the mismatch of 'L0' symbols in System.map
+ad4fcb6cbfc4b1d36861ee68bfbbdfdeb143f6e0 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+37deb87ed185e0b5ac1ec4cabb7ac18b2495a72c ALSA: hda/sigmatel: Fix unused variable warning for beep power change
 
---===============9083735713016051124==
+--===============4145286680656484319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f67748fc89b4-eee49e72a7f6.txt
+Content-Disposition: attachment; filename=revlist-eee49e72a7f6-7c0baabba9c8.txt
 
-e6e7094046607c2e0dcd028a2d5c5692c969d6b6 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-b31405f626093756bcf1c9dfb9ffb1654180c7fa cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-f7f22ccafd1c090c68a73545814f40c73d719cd8 drm/vc4: crtc: Use an union to store the page flip callback
-02c70fdb69bc3600dffaad758571f2f11ded6f64 video: fbdev: skeletonfb: Fix syntax errors in comments
-02665db1569c5a0e95e1885e13d370a2e00a73eb video: fbdev: intelfb: Use aperture size from pci_resource_len
-8725fa46d132b0e88a3ca442030f1acfeabd869d video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-1fadc34acda98a6fff51083810f026a5e9ca4ec3 video: fbdev: simplefb: Check before clk_put() not needed
-57b8df52b66db2b4af8eb9de8e544e8b2e1b7287 mips: lantiq: falcon: Fix refcount leak bug in sysctrl
-c8aa3678009c2cd28b9b44980b25cf4f6690881d mips: lantiq: xway: Fix refcount leak bug in sysctrl
-c69bf48e108d85ded6a4f68c886da7466c3ecea0 mips/pic32/pic32mzda: Fix refcount leak bugs
-c9c1e297efc83e0b4fd1e483d2c8e21e6f27228a mips: lantiq: Add missing of_node_put() in irq.c
-eee49e72a7f6b3ae93122706d177d6438816db95 arm: mach-spear: Add missing of_node_put() in time.c
+a835752a05d6d7a443114712f54a532db76895f1 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+47a9ffd64d8e307c6356858d90c13911002d8afd cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+34bae70176fff3435c13e0dd52565284ae6fbd28 drm/vc4: crtc: Use an union to store the page flip callback
+31e35952536e51aedefc5df3350f1b89a97e35d0 video: fbdev: skeletonfb: Fix syntax errors in comments
+6044016da39f71eda91261be184753a255a757e6 video: fbdev: intelfb: Use aperture size from pci_resource_len
+5287eb3ba1365e4910207ca201dc0ce92517e2bb video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+e951ce974ff9483bc1a3de1844ce4d82b884af0e video: fbdev: simplefb: Check before clk_put() not needed
+4608def85271a09aefae0320f1a9a6534f109522 mips: lantiq: falcon: Fix refcount leak bug in sysctrl
+0e63b250ba06ce81b63772557ad796481dccd6a9 mips: lantiq: xway: Fix refcount leak bug in sysctrl
+19dddc217f0ac71daa327cc1bc6476ec3813a9fc mips/pic32/pic32mzda: Fix refcount leak bugs
+60fbabec1c06a603c033a7d101b748a31978958a mips: lantiq: Add missing of_node_put() in irq.c
+7c0baabba9c896aef5e2eb1427fc9018c9ded539 arm: mach-spear: Add missing of_node_put() in time.c
 
---===============9083735713016051124==
+--===============4145286680656484319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a51e10de9c41-d431103b4217.txt
+Content-Disposition: attachment; filename=revlist-107b8fae3c73-efeef2aaeb4f.txt
 
-5e3eba822dad49a378b584ecf69788200bdfbeb9 KVM: PPC: Book3S HV: Context tracking exit guest context before enabling irqs
-3036e45fa2180b55a524a672915a7af97917035c KVM: PPC: Tick accounting should defer vtime accounting 'til after IRQ handling
-191e587acb8d437f58c7cffc1b4b3f7b4caa0570 serial: 8250: Fix reporting real baudrate value in c_ospeed field
-f798ab66a4b2c6d60c3692b0d5b2162d6b6d1fed parisc: Optimize per-pagetable spinlocks
-ad1b5cc2fbd2371aa0878bc3afc0485867bed63d parisc: Flush kernel data mapping in set_pte_at() when installing pte for user page
-4e5408aafa8b737dd149ab16bca458ebe154cae3 dmaengine: bestcomm: fix system boot lockups
-aa7140acb9b088c0d13e07b4d8c0d42404856684 powerpc/pseries/mobility: refactor node lookup during DT update
-d814da3fdb07837df2872b3e8ed618deb5855337 powerpc/pseries/mobility: ignore ibm, platform-facilities updates
-8616d8f218345a7706dd2214cc8135c0cd6e3c1c usb: cdns3: gadget: fix new urb never complete if ep cancel previous requests
-f192270a18475def2800ee3ba068fb733f12bb08 platform/x86/intel: hid: add quirk to support Surface Go 3
-94885d4e60f6b22e5a687276bd1527cd5d27c72b net: dsa: mv88e6xxx: allow use of PHYs on CPU and DSA ports
-953bc76a5a169ef71f9d8876802010ca10099508 of: fdt: fix off-by-one error in unflatten_dt_nodes()
-cfe14ba4e635cf84eb45a10845c608e5238d230c pinctrl: sunxi: Fix name for A100 R_PIO
-dec8598d8cd16229a5372b77a381469e3ad7a3a1 NFSv4: Turn off open-by-filehandle and NFS re-export for NFSv4.0
-4acd7adbae555d413eda17416acf00b4c12b6b9f gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
-9c3d56a7b78ada92fb2389950241d350838eb044 drm/meson: Correct OSD1 global alpha value
-9342dc4df115fcf851172bf1c460f2e400b6236c drm/meson: Fix OSD1 RGB to YCbCr coefficient
-43aa7581ea85296bed417152ecbf7b1a1454652b parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-df9f0f6a0886f99be9b43d6e6c6e5b30645ef214 tracing: hold caller_addr to hardirq_{enable,disable}_ip
-7c6743f64af538eccde43f86b1cd5e5421831dc9 of/device: Fix up of_dma_configure_id() stub
-e566ffa56aa74f883936822574cd1c583c10a6aa cifs: revalidate mapping when doing direct writes
-84617a29a56b2e870f5090bd3c021ba9fe4a9287 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-9c2274b76e80a783fbc80ffee44635d890c32eac tools/include/uapi: Fix <asm/errno.h> for parisc and xtensa
-19da6ccd20b891c5f7842c0f8e142bcc0fea6f33 video: fbdev: i740fb: Error out if 'pixclock' equals zero
-058e4ae25d18df5176243410f4c810a557ea4b3f Revert "serial: 8250: Fix reporting real baudrate value in c_ospeed field"
-75faaadaeb3070f3a3b71ea910f10e9fdc5f618f ASoC: nau8824: Fix semaphore unbalance at error paths
-c3e28525a7a4512b24c93a46dc1266c5a7fd7a0b regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
-38172cbd5554789838165aa4bd0b0fc1d761c871 rxrpc: Fix local destruction being repeated
-e5a3e39a5fd627c7b017603352f0ecd9b8701221 rxrpc: Fix calc of resend age
-5b5faae066535b8556a1b8ddfb1a0e157dbaa7df wifi: mac80211_hwsim: check length for virtio packets
-624fa81be1056e8d84c47d5cf9ccfd7f1da5943d ALSA: hda/sigmatel: Keep power up while beep is enabled
-df38b2936f795e56ef53589c73bfd0cfae94362d ALSA: hda/tegra: Align BDL entry to 4KB boundary
-e95d6fb99aa3972bc619982f86b2c402404621de net: usb: qmi_wwan: add Quectel RM520N
-b24a234513fbd8be57dc7c815cced249ad0ed5f9 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
-d784fd1087f8dc197988ba6eb0140959b6e288ad MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
-580342b36f9d4949b913dc8abe1a055a0c683e55 mksysmap: Fix the mismatch of 'L0' symbols in System.map
-5698e7dd85171980638a13efa21ad33d9b5065c4 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-2837484f2888ba3ecfba524922e3f627b304ebf1 cgroup: Add missing cpus_read_lock() to cgroup_attach_task_all()
-d431103b4217b01051c919663335f38e46b1bc8d ALSA: hda/sigmatel: Fix unused variable warning for beep power change
+ac4961858308268a823cc0530adacb98dc9971c4 of: fdt: fix off-by-one error in unflatten_dt_nodes()
+b2c069d08767073449fd5a0364cf9097cd88fa00 NFSv4: Turn off open-by-filehandle and NFS re-export for NFSv4.0
+aa208f41c6197f9564ee8257d7d53fb1a5e0c302 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+51bf3faced7b713c6eff7f7dc816f8ca2e0b904f drm/meson: Correct OSD1 global alpha value
+cb0943d918a0580e58ab7b6826201ab93952824b drm/meson: Fix OSD1 RGB to YCbCr coefficient
+5148c8bcb6a2dc51cdbb83480db402eb3d876457 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+2b7d05801b01c1ee5d34759da52af92729235b41 efi/libstub: Disable Shadow Call Stack
+fc7c648803ed18391446d41db03756638d0b47c6 efi: libstub: Disable struct randomization
+9426c2a8b6df7c930abc4734275cfe90ff2d6c92 ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
+bb00ac92690a2b0f7d5bec7c063fbe3c2dd803d2 task_stack, x86/cea: Force-inline stack helpers
+761ae5427d3e61c6e51980bd7b2994defd0ac1c1 tracing: hold caller_addr to hardirq_{enable,disable}_ip
+0a9955087860782ee7330c4fd73be00b0c5d9fe1 cifs: revalidate mapping when doing direct writes
+d70274dc2b59330b5fc30a9296c2552b09ed99b5 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+f3cd9bba27c836115520ff054ae5b64176244a58 MAINTAINERS: add Chandan as xfs maintainer for 5.4.y
+13b9e4f629f924b30b4f56910a349707bcdbfcc9 iomap: iomap that extends beyond EOF should be marked dirty
+00fc7e538f827d8f50c19e46f443f1fd14206748 ASoC: nau8824: Fix semaphore unbalance at error paths
+1e9f2eda727c3dcf2da571b171d079a5a04d0202 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+859846d3bf196f5490a188617e3e5c03af07e3b4 rxrpc: Fix local destruction being repeated
+bc8458f00d130a35319a21169ca49210f6952882 rxrpc: Fix calc of resend age
+35e202c7698e19a4e06d8c6fc3f088a5155c1de4 ALSA: hda/sigmatel: Keep power up while beep is enabled
+fe4463c4a33733fed17fab41c98b5166aafd72a3 ALSA: hda/tegra: Align BDL entry to 4KB boundary
+0b9ac6efd194f9e4aeed40007de5cb76bada25c2 net: usb: qmi_wwan: add Quectel RM520N
+4935a4c14080ddeb624423e55d6d69a4b4a0eed4 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
+f30d8cfd15ad711468457a6e617eeeb22eff5c06 MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
+30a32d5a0f4e97674e148c727d1f18985c05f6a9 mksysmap: Fix the mismatch of 'L0' symbols in System.map
+19c90800ac5166e85eb681b02a725fc819fd6d0c video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+363d2a2b74da66ee05294baad65956efd191d963 cgroup: Add missing cpus_read_lock() to cgroup_attach_task_all()
+efeef2aaeb4ffd9e1fcd09d70808beefa3405e22 ALSA: hda/sigmatel: Fix unused variable warning for beep power change
 
---===============9083735713016051124==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c8b58ec9db2-107b8fae3c73.txt
-
-ccc4f230f546ab7ca121503fc4a78bf7e422d6af of: fdt: fix off-by-one error in unflatten_dt_nodes()
-62d17a343c79a461c0a9d9b43f0de2cc53a3e193 NFSv4: Turn off open-by-filehandle and NFS re-export for NFSv4.0
-8f21cd93b5f352ee29882f3f209da4b0bdb56e90 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
-9dede07ce8dbd8a2a949d82a50157c8a5fb911b0 drm/meson: Correct OSD1 global alpha value
-e6724e04a1e6331348c9f33a22e088630b5cd452 drm/meson: Fix OSD1 RGB to YCbCr coefficient
-959108b2590f795ef6d3fe97dd22dabe82bdadb2 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-0d43dc60da6cae526e558710b907a5355b66f7bb efi/libstub: Disable Shadow Call Stack
-92058952c6caddf551209f1fdcd3241ac14e1258 efi: libstub: Disable struct randomization
-48c51af0fa6fb517a71018dbac28d2e166f5a09d ALSA: pcm: oss: Fix race at SNDCTL_DSP_SYNC
-4eaceecf1f8df8d8ca6d10a9d8a5bab80f884d18 task_stack, x86/cea: Force-inline stack helpers
-3af7dd2874a223a70bd725c44812c2795fa00150 tracing: hold caller_addr to hardirq_{enable,disable}_ip
-f34847ca982bb8e122634f2c0cadc9e0330a182b cifs: revalidate mapping when doing direct writes
-01d8b51545b63af4134d06f1e6266f99d83a2eda cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-3b78d875f34aadc4f33d3d00b930601cfe2c84fb MAINTAINERS: add Chandan as xfs maintainer for 5.4.y
-102c4977e3e6c34ce7209ccdcfdd3174a63643dd iomap: iomap that extends beyond EOF should be marked dirty
-71d842ef45b5e43e4d55f781553e05703ec47b24 ASoC: nau8824: Fix semaphore unbalance at error paths
-188504ffb0ba61554bf4de044731c3c52f6d6f95 regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
-0d8561848dd3fab9bdfe201547970c86194dcb6f rxrpc: Fix local destruction being repeated
-a64f1f561ceab3cc25baed1dfd4ff201114be20d rxrpc: Fix calc of resend age
-730189bd58290d99a32d77358e49fa52424f6959 ALSA: hda/sigmatel: Keep power up while beep is enabled
-2fc0aa6939b517b0b6d9fff9fcf3daaa179f865e ALSA: hda/tegra: Align BDL entry to 4KB boundary
-a5706b1d5ad3505959a69b0734f22e7043d29a69 net: usb: qmi_wwan: add Quectel RM520N
-e6c705172974c83764925a8ac2b525f2e0b17374 afs: Return -EAGAIN, not -EREMOTEIO, when a file already locked
-a6f3ff56a0984d77915eaaaeb923bf018a1f0b4a MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
-8800c41c58ac0494caeafe45c79cb3b88f9d5358 mksysmap: Fix the mismatch of 'L0' symbols in System.map
-d08391aff073f3b2aa654e73ff453f7ac252d18d video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-db4059506bf75ac1ef92aecdeac02292a743cd8b cgroup: Add missing cpus_read_lock() to cgroup_attach_task_all()
-107b8fae3c7361009abea52a004829b567cf3b69 ALSA: hda/sigmatel: Fix unused variable warning for beep power change
-
---===============9083735713016051124==--
+--===============4145286680656484319==--
