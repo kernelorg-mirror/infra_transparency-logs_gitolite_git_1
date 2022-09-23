@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 23 Sep 2022 15:56:52 -0000
-Message-Id: <166394861246.26046.7150763568304697860@gitolite.kernel.org>
+Date: Fri, 23 Sep 2022 15:58:58 -0000
+Message-Id: <166394873856.26848.10008143887949689881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/sunxi/defconfig
+  - ref: refs/heads/qcom/defconfig
     old: 0000000000000000000000000000000000000000
-    new: 561044b5d6526a2a7925ccb18a073ad909ad06a1
+    new: 25c7d38579503c72d283d229f92b30b237c67370
