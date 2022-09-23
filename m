@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 23 Sep 2022 21:50:58 -0000
-Message-Id: <166396985834.21633.12272711309014769758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 23 Sep 2022 22:04:47 -0000
+Message-Id: <166397068758.30772.609909092493234456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/lazy.2022.09.23a
-    old: 0000000000000000000000000000000000000000
-    new: 468dfaac6097bfc3ae0428189e85e7909a1685f3
+  - ref: refs/heads/for-next/hardening
+    old: 97dd4f05a2ce7447371fa945ecfa9a5c399ed334
+    new: c9e95be3ab5c041ff0daab449bc8231a37064bd7
+    log: |
+         ae0dfc0b394a506c33f736b2c290e67d16a0a454 x86/entry: Work around Clang __bdos() bug
+         e652784962c31a206f4a11511dc4a4ebfb7aec4e fortify: Explicitly check bounds are compile-time constants
+         c9e95be3ab5c041ff0daab449bc8231a37064bd7 fortify: Convert to struct vs member helpers
+         
