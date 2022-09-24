@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 24 Sep 2022 02:25:24 -0000
-Message-Id: <166398632409.19681.11759125180698071317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Sat, 24 Sep 2022 02:52:34 -0000
+Message-Id: <166398795450.4447.14864969605580735358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 60ecfddd7a092f9cbd2398dbc55da3abbb803ff0
-    new: 74c86f3672526496264291cae8d59eb38f92685d
+  - ref: refs/heads/for-6.1
+    old: 7e1eb5437d3c3fdb61d45378579aab383cafc694
+    new: 61c41711b12b808ec388b739444372430942c2e8
     log: |
-         a89fbf82cbfe253bb34c50f860ea1c89278e7503 zstd: Fixing mixed module-builtin objects
-         cc731adb4124a7576f26955d8e958fb6c63dec78 linux/export: use inline assembler to populate symbol CRCs
-         de310623412e5974b927943dada52c39768543ed Kconfig: remove sym_set_choice_value
-         a1d8fb5d6ed896406331cfb51530161d924a6d7c scripts: remove unused argument 'type'
-         74c86f3672526496264291cae8d59eb38f92685d Makefile.compiler: replace cc-ifversion with compiler-specific macros
+         61c41711b12b808ec388b739444372430942c2e8 cgroup: simplify code in cgroup_apply_control
+         
+  - ref: refs/heads/for-next
+    old: f047e17c40454d369c711ce5463ce9fbb54944e6
+    new: dff0f22312f035e2e29b248db920f0c6c18bd635
+    log: |
+         61c41711b12b808ec388b739444372430942c2e8 cgroup: simplify code in cgroup_apply_control
+         dff0f22312f035e2e29b248db920f0c6c18bd635 Merge branch 'for-6.1' into for-next
          
