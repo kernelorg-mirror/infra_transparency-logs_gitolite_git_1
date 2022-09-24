@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2774021875929792898=="
+Content-Type: multipart/mixed; boundary="===============0300832245254840250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 24 Sep 2022 13:01:30 -0000
-Message-Id: <166402449076.25284.479310551747588756@gitolite.kernel.org>
+Date: Sat, 24 Sep 2022 13:03:13 -0000
+Message-Id: <166402459391.25956.4448141707836611106@gitolite.kernel.org>
 
---===============2774021875929792898==
+--===============0300832245254840250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 21760e5c3829ed093953b990681aa1ba1b86ad31
-    new: 19029f3f47c7f2dd796cecd001619a37034d658a
+    old: 19029f3f47c7f2dd796cecd001619a37034d658a
+    new: 16deeb8e18cafd30e70d8dc2b12a753b28298d8a
     log: |
-         d70590d53a8996acf55426ba934d49eee9f091cd driver core: use IS_ERR_OR_NULL() helper in device_create_groups_vargs()
-         19029f3f47c7f2dd796cecd001619a37034d658a debugfs: use DEFINE_SHOW_ATTRIBUTE to define debugfs_regset32_fops
+         0406faf25fb12d29cb1823e641c6f3f3e2037735 drm_print: condense enum drm_debug_category
+         f158936b60a7874f29cf8de8d83191ad69119c11 drm: POC drm on dyndbg - use in core, 2 helpers, 3 drivers.
+         e820f52577b14c63f7a15f534e17088d3c6afa6c drm_print: interpose drm_*dbg with forwarding macros
+         84ec67288c10fbf136aa050d00b0fe7a89655da0 drm_print: wrap drm_*_dbg in dyndbg descriptor factory macro
+         ee7d633f2dfb12bac90898edf2ceb5f43a4957eb drm-print.h: include dyndbg header
+         95a77b6331c2d2313aa843fa77ec91cd092ab0e4 drm-print: add drm_dbg_driver to improve namespace symmetry
+         6ce6fae8453687e39e564dc15b6142fe79d76ad5 drm_print: optimize drm_debug_enabled for jump-label
+         ccc2b496324c13e917ef05f563626f4e7826bef1 drm_print: prefer bare printk KERN_DEBUG on generic fn
+         16deeb8e18cafd30e70d8dc2b12a753b28298d8a drm_print: add _ddebug descriptor to drm_*dbg prototypes
          
 
---===============2774021875929792898==
+--===============0300832245254840250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664024488 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664024591 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1664024488-7e441139cd06bdb772fd8d835e8a52b5ed199c4d
+nonce 1664024590-e0d7b1b733c5796a75523ebd5fd7055617068681
 
-21760e5c3829ed093953b990681aa1ba1b86ad31 19029f3f47c7f2dd796cecd001619a37034d658a refs/heads/driver-core-testing
+19029f3f47c7f2dd796cecd001619a37034d658a 16deeb8e18cafd30e70d8dc2b12a753b28298d8a refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu/6kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uwkP/0rD9oYb/guuNybbPX3/
-/JUOwfVoLbEvxweyULPFPpVYuaOboTSJL6lWjgEVj8wz8nXoNcWypvbUeHzeTLUF
-ZTfobg07f9AQn8xkApUcT+4wHZfZdGE4eTH43VCmAiSoZHPbBUPldCH5VEKaDav1
-swSUoQWefF1coOEUvclQTOhWMen2NEx930FZEiuof3IAciZsTL2RsruN/edTOTWM
-VNHTv5JYFf6psJpNw50NuCQHEq3WM25+utpVlBkbU1LlyZYfrXiUEUyqZjlVshT5
-0R77n5Tc/YoMT5iEByoD7FY2ii9+Z6ChMsYru58IJA6C8Q/j+flees7kv41tG9GL
-xbfAikXG/XxN2riNCeWIQoKY0mSEy42X51yB+WMk5BgId3u84284Nj+klRPJ2iti
-0xgIZD0gHh7y7flDHAu86BGoh/O8Q/kFnAFEPZl5u6gT0cKo+nI1NVR7Jaon/4Dv
-ZnNp56UmXX5iFQ58OpCKXJgVJnfbEsQ0MAbqcRN3awpk2hPbQY+TI6Y7GyeNeMcc
-jLWj52IhNAWEwYMTWTBATAVnTEsPqOBD2eJZfwYytJgt48Cq3QOMUfw2m8UY1dq5
-WyNBugfOqEiQuhAHOfTNPMC8KKKIUOysAwjpBptQx0W/HDwyN3OhHML+b8OTfMOx
-qPF8GfshnKiD0+PEIVismWHV
-=pTm+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMvAA8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Kx0QAMTcWt4kNEOL4tNITw1s
+PblFMiKMY8y29YYzxh1LHmcVdeXfGxoEwL2YGTG4veZWvZr1NB0fNeDCxcSTNvC4
+8wY0FfS49qgBjJf2ub1pqbRJDaXTyMaoiysiDfHARLWOQhNyb3CGs8r89kOY1ckY
+tZJaxSiEH/cUzDX8jVUKzQoLNnM6uLQ6Fe6Qgq+54s7eJHkpzfGza5jnxfTDhMA9
+ICGQvR3kgqgNUYkFIM/sF5D18IJ0RHZpqe6ilXfM8XjOHpBqIMRKXqKyzYhmrN8a
+n9VTX5+b5qbwltRt6puWqlNiFzzTBCQHXlOQD2eR0EGdsu23ip3n6qwxC1l8tWqN
+W3S70N8q2eYPe1Zl7fM5GNCGBj6obZF2vCGnC4UQzCRT5O+d2kGCCs77jfGpxMXq
+fGqXOXPa+uBrl5Gt117Iar20zUODChcVcjtyve1ZCfjbooZEuJTwUuT0vXUpSETU
+a1neKCXicutK43fdBc+ZzyujU6xhBH7e4FS4cZN/rXCleWK4S/8vXvg4xJDFsLOB
+DIV4PcKTh05hGGziFXwgLrbhL6u7erLqwQ2lQhWSl+hwHHAqyZR+/KpBpbPcI6Dv
+O4QZDIRtdgYN0DihvodKEtAbjo+S1oHEMVoGdx5XfoMaYS4D3GuWMMV+G67lolA3
+xLfRhJ/skAqDv24cthzB6iE9
+=rkU6
 -----END PGP SIGNATURE-----
 
---===============2774021875929792898==--
+--===============0300832245254840250==--
