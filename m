@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8450927393701947392=="
+Content-Type: multipart/mixed; boundary="===============2531003025888875682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 24 Sep 2022 12:58:15 -0000
-Message-Id: <166402429594.22434.7402291500633766124@gitolite.kernel.org>
+Date: Sat, 24 Sep 2022 13:00:01 -0000
+Message-Id: <166402440141.23187.17056857759940425886@gitolite.kernel.org>
 
---===============8450927393701947392==
+--===============2531003025888875682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 3717ca3e0cc8683f93b41d3f06ca79631eb58715
-    new: 711898b1d5ac37bc85a9495f3f2815f5fbd0a937
+    old: 711898b1d5ac37bc85a9495f3f2815f5fbd0a937
+    new: 3e081438b8e639cc76ef1a5ce0c1bd8a154082c7
     log: |
-         1b46c82146d732aa6dab5ef51a89ec0b53bd05b4 drivers/misc/sgi-xp: Remove orphan declarations from drivers/misc/sgi-xp/xp.h
-         4b25cf09c69c0e48e7fb75786f29b50bddf50ebf mei: fix repeated words in comments
-         9ea224b119223ddacbed3d7c96a30b2823e09579 mei: gsc: Remove redundant dev_err call
-         711898b1d5ac37bc85a9495f3f2815f5fbd0a937 MAINTAINERS: Add header files under VMWARE VMCI DRIVER
+         a5ccec12acfaf3a7ebbbeb90555b35b275fce0df bus: mvebu-mbus: use DEFINE_SHOW_ATTRIBUTE to simplify mvebu_{sdram/devs}_debug
+         3e081438b8e639cc76ef1a5ce0c1bd8a154082c7 firmware: google: Test spinlock on panic path to avoid lockups
          
 
---===============8450927393701947392==
+--===============2531003025888875682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664024294 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664024400 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1664024293-74a5ea72b0c5cd0da25b2393b44297751d208fa8
+nonce 1664024399-0d215d969d93e334341bb68a014f0b412f2cceb7
 
-3717ca3e0cc8683f93b41d3f06ca79631eb58715 711898b1d5ac37bc85a9495f3f2815f5fbd0a937 refs/heads/char-misc-testing
+711898b1d5ac37bc85a9495f3f2815f5fbd0a937 3e081438b8e639cc76ef1a5ce0c1bd8a154082c7 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu/uYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6okQALxdIgT9I07LTRCDnV2w
-hiGh6PpGj2KxncUkcWAX7TbXxbwON15WhPQ8j74PPRPeIOeUIMTeXMB4HbNXiIV3
-6/7t8aHKcbb5sRHIEzJZiOLOjRqaJ5um+gVWFZoo2sU5Kq1EFO+Gt+2tGsdlkq7p
-GGrdphRTqN9RLZDuAt6cxP/ccpsKpMZL5xN7pZvt/8QbNBD/pnKGvWSGYoIXLEXW
-8qk0rPSUMfai3sVIYKby99TQdpk58xl94MyrIYpvo2AC/OgH8aiMWCLntEOoFSRM
-qsLhiqzmThE7/AhNtCZMUplHkE2QBFnTOjGHS4yv6iTasVy5sURgoBVI5TEmbhEQ
-CwvSbv9N8zbVIwB29crVtBBNf4bFIYBEM9Dt3ZvRt6by+jSw6y6CbxtPWXoz8Ry/
-IJ/8NmH9MWVA29icJvav17rpAEltJhEWVI8fcBcu1ffFwN/Juyqv6jcCGMXOY4vE
-YBtJv8NhtbYrVsjtUD6T+pe63FpxRsZww+U9MDDYTB/ocbkOweHtLa5PF/9ZGr37
-+oFiwjAENRG6Gl4jiIimibaMiCVkPSf272+En7PEpKTuWt7JQm3axGC/ke3ZZils
-lBrIdhT4ZVtX9qoDc1AX5FMdVTjgmNXYWTDs1GtwiBr1KS6TY0ZxkPaqFIvp7ZjJ
-hzIhATZz46jNz92oF1MjGEMv
-=gUgI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu/1AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cv4P/R9+f25/qg5mqB6xICLS
+eiwfmbExiD+jw3JuG2YBhp8xzhRXanikiE60vFTwBu/PwIl1C18dValXzUiR3psk
+kbClZDPbgeIGXNncDPIFsb+m61k2vYzk+911uDiK7t51TwxF2S3lJS/fWyLSI+vO
+VwiA47K4KKCbbSAS2dN9CC++7Rt34/Wx9x7+CqsWG/RXJoZ+Cys09Kk+gKvadeuL
+CLoxfRnNMixz8cpeZM99TK4AUEeGBLsvJsPVU/Wrt9lqLOo47ajZTZp+K433yhK9
+RKmYF6moxn3vipUdyZ+LgSDCNwxp13Ykviyb2So6MvgVOUkQcrzEIZZ6TEYSsyuN
+NRYNrY4rYg9VIrK6sH/HXsKpC75246iomTz2YegNnULKzZjqNQBHkFmGqQf8/GlZ
+W4poHjjQPg1pf8O2nWOdgIjKv3NITyVW9pFg7K9h3lw76vwNB1g/DMxGoJF4lPpj
+P0PmGf0M+qCGYxoPMHbKRzTmrm3joNOmTlxQjc1KzcSs5gfTwJhwkODDVQwKahYb
+7qPngE3YDUqOMqzWomqjsQUarkAK2S9rzyXqR62ikdf7oK5uedFU1+vyo2hmB6lv
+uWMzKGyaKxh5GfOrjBcMFfyTl320Thkj3J1J1IJ8y0f3soms/D9cdwCgCrFkU+7m
+LWgvqfb39QDoAWd598J6MCrI
+=aonK
 -----END PGP SIGNATURE-----
 
---===============8450927393701947392==--
+--===============2531003025888875682==--
