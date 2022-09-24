@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2531003025888875682=="
+Content-Type: multipart/mixed; boundary="===============2774021875929792898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 24 Sep 2022 13:00:01 -0000
-Message-Id: <166402440141.23187.17056857759940425886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 24 Sep 2022 13:01:30 -0000
+Message-Id: <166402449076.25284.479310551747588756@gitolite.kernel.org>
 
---===============2531003025888875682==
+--===============2774021875929792898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 711898b1d5ac37bc85a9495f3f2815f5fbd0a937
-    new: 3e081438b8e639cc76ef1a5ce0c1bd8a154082c7
+  - ref: refs/heads/driver-core-testing
+    old: 21760e5c3829ed093953b990681aa1ba1b86ad31
+    new: 19029f3f47c7f2dd796cecd001619a37034d658a
     log: |
-         a5ccec12acfaf3a7ebbbeb90555b35b275fce0df bus: mvebu-mbus: use DEFINE_SHOW_ATTRIBUTE to simplify mvebu_{sdram/devs}_debug
-         3e081438b8e639cc76ef1a5ce0c1bd8a154082c7 firmware: google: Test spinlock on panic path to avoid lockups
+         d70590d53a8996acf55426ba934d49eee9f091cd driver core: use IS_ERR_OR_NULL() helper in device_create_groups_vargs()
+         19029f3f47c7f2dd796cecd001619a37034d658a debugfs: use DEFINE_SHOW_ATTRIBUTE to define debugfs_regset32_fops
          
 
---===============2531003025888875682==
+--===============2774021875929792898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664024400 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1664024399-0d215d969d93e334341bb68a014f0b412f2cceb7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664024488 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1664024488-7e441139cd06bdb772fd8d835e8a52b5ed199c4d
 
-711898b1d5ac37bc85a9495f3f2815f5fbd0a937 3e081438b8e639cc76ef1a5ce0c1bd8a154082c7 refs/heads/char-misc-testing
+21760e5c3829ed093953b990681aa1ba1b86ad31 19029f3f47c7f2dd796cecd001619a37034d658a refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu/1AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cv4P/R9+f25/qg5mqB6xICLS
-eiwfmbExiD+jw3JuG2YBhp8xzhRXanikiE60vFTwBu/PwIl1C18dValXzUiR3psk
-kbClZDPbgeIGXNncDPIFsb+m61k2vYzk+911uDiK7t51TwxF2S3lJS/fWyLSI+vO
-VwiA47K4KKCbbSAS2dN9CC++7Rt34/Wx9x7+CqsWG/RXJoZ+Cys09Kk+gKvadeuL
-CLoxfRnNMixz8cpeZM99TK4AUEeGBLsvJsPVU/Wrt9lqLOo47ajZTZp+K433yhK9
-RKmYF6moxn3vipUdyZ+LgSDCNwxp13Ykviyb2So6MvgVOUkQcrzEIZZ6TEYSsyuN
-NRYNrY4rYg9VIrK6sH/HXsKpC75246iomTz2YegNnULKzZjqNQBHkFmGqQf8/GlZ
-W4poHjjQPg1pf8O2nWOdgIjKv3NITyVW9pFg7K9h3lw76vwNB1g/DMxGoJF4lPpj
-P0PmGf0M+qCGYxoPMHbKRzTmrm3joNOmTlxQjc1KzcSs5gfTwJhwkODDVQwKahYb
-7qPngE3YDUqOMqzWomqjsQUarkAK2S9rzyXqR62ikdf7oK5uedFU1+vyo2hmB6lv
-uWMzKGyaKxh5GfOrjBcMFfyTl320Thkj3J1J1IJ8y0f3soms/D9cdwCgCrFkU+7m
-LWgvqfb39QDoAWd598J6MCrI
-=aonK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu/6kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uwkP/0rD9oYb/guuNybbPX3/
+/JUOwfVoLbEvxweyULPFPpVYuaOboTSJL6lWjgEVj8wz8nXoNcWypvbUeHzeTLUF
+ZTfobg07f9AQn8xkApUcT+4wHZfZdGE4eTH43VCmAiSoZHPbBUPldCH5VEKaDav1
+swSUoQWefF1coOEUvclQTOhWMen2NEx930FZEiuof3IAciZsTL2RsruN/edTOTWM
+VNHTv5JYFf6psJpNw50NuCQHEq3WM25+utpVlBkbU1LlyZYfrXiUEUyqZjlVshT5
+0R77n5Tc/YoMT5iEByoD7FY2ii9+Z6ChMsYru58IJA6C8Q/j+flees7kv41tG9GL
+xbfAikXG/XxN2riNCeWIQoKY0mSEy42X51yB+WMk5BgId3u84284Nj+klRPJ2iti
+0xgIZD0gHh7y7flDHAu86BGoh/O8Q/kFnAFEPZl5u6gT0cKo+nI1NVR7Jaon/4Dv
+ZnNp56UmXX5iFQ58OpCKXJgVJnfbEsQ0MAbqcRN3awpk2hPbQY+TI6Y7GyeNeMcc
+jLWj52IhNAWEwYMTWTBATAVnTEsPqOBD2eJZfwYytJgt48Cq3QOMUfw2m8UY1dq5
+WyNBugfOqEiQuhAHOfTNPMC8KKKIUOysAwjpBptQx0W/HDwyN3OhHML+b8OTfMOx
+qPF8GfshnKiD0+PEIVismWHV
+=pTm+
 -----END PGP SIGNATURE-----
 
---===============2531003025888875682==--
+--===============2774021875929792898==--
