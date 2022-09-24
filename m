@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1769528227147721477=="
+Content-Type: multipart/mixed; boundary="===============4095425543547789672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 24 Sep 2022 11:34:12 -0000
-Message-Id: <166401925212.27901.16759980093577350011@gitolite.kernel.org>
+Date: Sat, 24 Sep 2022 11:34:29 -0000
+Message-Id: <166401926985.28058.17661444570293999104@gitolite.kernel.org>
 
---===============1769528227147721477==
+--===============4095425543547789672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: d7f06bdd6ee87fbefa05af5f57361d85e7715b11
-    new: 1707c39ae309bf91965aa6f04d63816a090d90a1
-    log: revlist-d7f06bdd6ee8-1707c39ae309.txt
+  - ref: refs/heads/driver-core-next
+    old: a791dc135325862fdf491ac088f54993710e2515
+    new: ec9c88070debd8d87335f2468481a41d6bc2d0c6
+    log: revlist-a791dc135325-ec9c88070deb.txt
 
---===============1769528227147721477==
+--===============4095425543547789672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664019251 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664019261 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1664019250-6672d80fbd8034b611c3d5e0a17a853ab591e312
+nonce 1664019260-1d1f35390439678dba22d9e0633dd028dcac68f6
 
-d7f06bdd6ee87fbefa05af5f57361d85e7715b11 1707c39ae309bf91965aa6f04d63816a090d90a1 refs/heads/driver-core-linus
+a791dc135325862fdf491ac088f54993710e2515 ec9c88070debd8d87335f2468481a41d6bc2d0c6 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu6zMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZtcP/1X7cEkaHNxXrTNJm356
-L8oZjY5pDE26MIz8eXRRUQjJA1Y2e5zckngSVxgP/7UgTljJ3ImAP0pwM3DlghAV
-mSDBsH8mFmqBKd4Zo1hpwly2Tur1Dd8AqljdzchLzdOGvLv8IKOpsnDUVGUx6sAZ
-w27fYiHw1D/GZ0fB85mdz7wPJ6/HJy8K/D+qdQ/ymbCrtCYKDjV8NW9AwH6cx2qk
-I2nxS+gAxWHUyjeqZnkFuCsNFlR/bcP7/47Pyt3OsgU90yiaZqxaUyg1CRTZG3+j
-PPU5lG5jfhy6rEKN2yzTJSQCXVAYkSpNHcbe7Ta+hHWN0kltWfBHg2r0ZBu1BO1m
-JSwhpItcYPvB48I8CMBqUxceRZYfcZg/dwNPhmaS4Af7mfeBw32paO9BIevxe6H6
-z/NOiq6FnCK6aW8m0Sk0mRAL91Yw2wJAX2oAMPfrl7bNme1NaZcE5ZUQjQuQfqcR
-xnCkIpUn/+B2CmxUGUE55q4X+Tsl0PuRvoZeLS0QG+EC675xr6BiXeSaqOFqLKfx
-mIru8P46hA9urIGtiPhSpDmoPdtWInd2Kk8oxmotHbkY7MDD7CK0NjgND253fmFk
-Ym4wrKqOVLsnZc1t3fnI7XPT/ba1sILPqDXm6QhWBuqc/ObNfiNyUF4uwLQ8uC1j
-D9LBg2XAVc7CVMyIVBx9Aji2
-=yAv0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMu6z0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2CgP/1sm6N0VeI6bRSgKQ3iU
+aqb2pTm68HXAZG4JCZehKLF9aPBj+hmwsAfYcXX+7/Z9WootWNoNnc66q299sl8+
+hsq7VTIpKdU8oP7ACql0b80QFGY1DD+8Gq5Q8IuzVsphg1LallIxSTq7AsgPb3li
+0/8LgD0rVeXtS0hADebfjpgXhSSAMe7VsFSpGbjm3wUajBKOB/PL494bcFg53n2T
+OBxUuxlsrO06rQIfpOACg+xwwTkUVOdw2VGnDlMKKOmMgqE2G1/PeId9P4r1aIX9
+zDjrbzngrGHmnOGRK/rmxDhhOuBP0XXXdPOjzWluSZPKmEdNFnEjCgidq14pW92Q
+dNHl2TR6QBYrS0gkwY/O25X42qoH3m3CCXW0a7yg9ayE1HK3tprY5PAyyqpSfFNl
+Hy47rZnZ0QIKKJo6CPMTkOJPyjDf6wxPuOteXP3jNGTYBvdaXZt8GKBMkEuV8vDj
+IAoyGVnvEtPmsLvWmCGvYnhZGO0wyS50iRk9xLJcGrtBwTbkzSfWSpQJGoLprBe2
+lwemw7yLBOGvMMU4GMhEjD9zZfE4UI/TzLTY8nwlVuE6ckt0L1sk75kqMcByKLDu
+BF/gWZD2Js/eoUnJMdBlC6h+yLir+H3MKbZiKGmbXYp6Qbk/K1QqYClrA9r44jZ3
+qcJ7IWiRF0xKtok4w6uRwTRe
+=Ddcg
 -----END PGP SIGNATURE-----
 
---===============1769528227147721477==
+--===============4095425543547789672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7f06bdd6ee8-1707c39ae309.txt
+Content-Disposition: attachment; filename=revlist-a791dc135325-ec9c88070deb.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -226,6 +226,7 @@ a8671493d2074950553da3cf07d1be43185ef6c6 drm/amdgpu: make sure to init common IP
 e359b70cc1c51138e166bd4a560e5c5995369a99 parisc: remove obsolete manual allocation aligning in iosapic
 805ce8614958c925877ba6b6dc26cdf9f8800474 parisc: Allow CONFIG_64BIT with ARCH=parisc
 c4fa368466cc1b60bb92f867741488930ddd6034 blk-lib: fix blkdev_issue_secure_erase
+d8ab4685adc1f78aef5ece1334a47ca1a8181745 Revert "driver core: Set fw_devlink.strict=1 by default"
 ce001778dfc34804f2b1fa6faaad7ac888326afb Merge tag 'thunderbolt-for-v6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 7b9a516a91827e7994a4df51593278c98aae2ce6 Merge tag 'imx-fixes-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 1885ff13d4c42910b37a0e3f7c2f182520f4eed1 ALSA: hda/realtek: Enable 4-speaker output Dell Precision 5530 laptop
@@ -402,6 +403,7 @@ d21fc11109ca02e870794a53c0a236365e92c148 Merge tag 'drm-intel-fixes-2022-09-21' 
 5f56a74cc0a6d9b9f8ba89cea29cd7c4774cb2b1 efi: libstub: check Shim mode using MokSBStateRT
 763679f0eeff0185fc431498849bbc1c24460875 media: flexcop-usb: fix endpoint type check
 e738455b2c6dcdab03e45d97de36476f93f557d2 net/smc: Stop the CLC flow if no link to map buffers on
+d7f06bdd6ee87fbefa05af5f57361d85e7715b11 drivers/base: Fix unsigned comparison to -1 in CPUMAP_FILE_MAX_BYTES
 09431acde35f46ac82fb5230c7479f1edc557c75 usb: typec: anx7411: Fix build error without CONFIG_POWER_SUPPLY
 2002fbac743b6e2391b4ed50ad9eb626768dd78a net: phy: micrel: fix shared interrupt on LAN8814
 0e400d602f46360752e4b32ce842dba3808e15e6 bonding: fix NULL deref in bond_rr_gen_slave_id
@@ -440,5 +442,6 @@ a7b7751aeb1348a4358724719aac5310597144fc Merge tag 'riscv-for-linus-6.0-rc7' of 
 9395cd7cef45698a7fd64f53cf97ce511e1334ba Merge tag 'landlock-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 33a4e37ebc8ccdfe2c51306b1a40d9e7d17b4691 Merge tag 'usb-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 1707c39ae309bf91965aa6f04d63816a090d90a1 Merge tag 'driver-core-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+ec9c88070debd8d87335f2468481a41d6bc2d0c6 Merge 1707c39ae309 ("Merge tag 'driver-core-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core") driver-core-next
 
---===============1769528227147721477==--
+--===============4095425543547789672==--
