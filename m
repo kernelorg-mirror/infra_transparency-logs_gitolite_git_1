@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 24 Sep 2022 00:59:09 -0000
-Message-Id: <166398114927.22837.11048771110374989078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 24 Sep 2022 01:28:12 -0000
+Message-Id: <166398289211.11206.7338995953969134308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 124e6851f8708551437782c9f9f41dad626a066a
-    new: 65791341a5d7e79aa601c96be9df0e7ed4603e05
+    old: dbdea9b36fb61da3b9a1be0dd63542e2bfd3e5d7
+    new: 230bf137e7715142b5898c6d46cc3386aab4291c
     log: |
-         3dd34e656c4bf65059f907acc6a0126018125897 test/runtests.sh: print failure / time-out counts
-         65791341a5d7e79aa601c96be9df0e7ed4603e05 Merge branch 'test_print_counts' of https://github.com/ddiss/liburing
+         067f4f291c2063d86abe0a526ef211e03a4f1258 selftests/bpf: add sign-file to .gitignore
+         c2488d70ceee352611e55943c25abf30117e3b67 selftests/bpf: make veristat's verifier log parsing faster and more robust
+         518fee8bfaf2c628007909c0fc5336930b9b6ee4 selftests/bpf: make veristat skip non-BPF and failing-to-open BPF objects
+         c511d009ceb8cd980e4a823b7ca74abbdc7cdccc selftests/bpf: emit processing progress and add quiet mode to veristat
+         e310efc5ddde04c41aa0501b5a7235b134c5fc6c selftests/bpf: allow to adjust BPF verifier log level in veristat
+         230bf137e7715142b5898c6d46cc3386aab4291c Merge branch 'veristat: further usability improvements'
          
