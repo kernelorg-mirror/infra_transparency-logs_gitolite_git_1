@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7774304748017087443=="
+Content-Type: multipart/mixed; boundary="===============4521256944241147110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 24 Sep 2022 09:08:26 -0000
-Message-Id: <166401050627.7730.125981645418741547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 24 Sep 2022 09:10:47 -0000
+Message-Id: <166401064761.10382.13173964235994604646@gitolite.kernel.org>
 
---===============7774304748017087443==
+--===============4521256944241147110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel/hardening
-    old: ffe9a5cec7107d9cb62ca7bb3925821467f43d38
-    new: 86f6bb05dc2b71f40a6fc479635a722f5cb92a24
-    log: revlist-ffe9a5cec710-86f6bb05dc2b.txt
+  - ref: refs/heads/master
+    old: ccb4d52247a4ff95567e3f66e724194f72adb42c
+    new: cb834c38d4110c908dbac8e83a8fecf6fbea76ef
+    log: |
+         cb834c38d4110c908dbac8e83a8fecf6fbea76ef 5.10-stable patches
+         
 
---===============7774304748017087443==
+--===============4521256944241147110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffe9a5cec710-86f6bb05dc2b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-201ed58aa245dca8fc457d7c6ea249cd0e999081 skbuff: Proactively round up to kmalloc bucket size
-b11abbc538f51301a108b6536622c3effd858345 skbuff: Phase out ksize() fallback for frag_size
-7ba0664d3f087ea26a1ad609503e2341b6da3ab0 net: ipa: Proactively round up to kmalloc bucket size
-4df90c1823dede1a63cf6d955cb02ae45b13723f igb: Proactively round up to kmalloc bucket size
-39b2e60a1b45f9178e4628ce157b6dab0cb71a66 btrfs: send: Proactively round up to kmalloc bucket size
-261a3d5ca7533b00596cfc8524ca2a9b04242ac3 dma-buf: Proactively round up to kmalloc bucket size
-41f3c77f408295b99d3f0b2f71e195b697fe00f3 coredump: Proactively round up to kmalloc bucket size
-e52b0b301fc3f83de4d5dbb111b9435627214a4c openvswitch: Use kmalloc_size_roundup() to match ksize() usage
-a5772904e079a5ca3bf539327f8db8eb55b3aa2d bpf: Use kmalloc_size_roundup() to match ksize() usage
-7d0e46198650ecd0622a16c0b0dbcedfaa846543 devres: Use kmalloc_size_roundup() to match ksize() usage
-724aee5e576699287dd8a52edebbfc3ee515e502 mempool: Use kmalloc_size_roundup() to match ksize() usage
-3080dd5362f82eb0ce5f2b4db41f39724499c2bc kasan: Remove ksize()-related tests
-ccd7b682bbf7a4648e8ddce3b236c138fe322eca mm: Make ksize() a reporting-only function
-0b9a550d2297e4cfd35eef3f5882f92da6e94063 slab: Restore __alloc_size attribute to __kmalloc_track_caller
-9a01feb38e8a0761d319542977922017125d7333 Compiler Attributes: Introduce __access_*() function attribute
-23575c888ec3363ab01e5cf31e319164aba9fac2 Drivers: hv: vmbus: Split memcpy of flex-array
-08bd158815031ad6f154594f14ff0cb39a1e17b2 dlm: Split memcpy() of struct dlm_message flexible array
-d4a5dc76d859d3f7b175752c93fda0e9f6f84279 NFC: hci: Split memcpy() of struct hcp_message flexible array
-4fa8d35cb6241570ef2d8599efcc7bc351286b44 ovl: Use "buf" flexible array for memcpy() destination
-9f635c540bbf38ff6143c2e5089ac0906b351f00 net: dev: Convert sa_data to flexible array in struct sockaddr
-86f6bb05dc2b71f40a6fc479635a722f5cb92a24 [WIP] Prepare for -fstrict-flex-arrays
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664010646 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1664010644-afab3848abdf4a4a7cdb80e862e4cb3f7e1907ed
 
---===============7774304748017087443==--
+ccb4d52247a4ff95567e3f66e724194f72adb42c cb834c38d4110c908dbac8e83a8fecf6fbea76ef refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMuyZYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HW0P/23G7L6MOiQdUb1lhZZM
+wwZMFFkD16zThu4c8O6VC/1fe6TrQoeMEmiQLfyfyjGD3Nd39dmu3wsLlsooF7TV
+6xTvTqG5F2kjX49CiQNrwu8uV6BESvU2bItgM5pUdBg8g236Mmwx/5SEvlwX4y/8
+DVKJkrXG2ZOdwOGdaRrIXIbehItCKgSLTwwBIw8K1jR+vHPUoGiZEnOEDowQyJzf
+LTLbjhMr7Q+1x+7XTxOf9rkmG1hvixT/HcDp1WvvyTzVh9/PLpTcbXtjYFTWWdgd
+MFaX/vFkkwkTC+u9NQKWoI2Urr5NFkyr279NzMykw3AA6Ixo5ZNPeLkvncWeRxRF
+Cbbs9AoA6l1DKEF6NXPPnyxh0igLgvRq8ayMST6gCRB6+2G24Ti8ZhR68qGcUKYt
+jaJ9iIfYT6wdRNUiScg/UrcvqaufIrwIK7O3hlavY/rFVByYVI9UuQ6PZMHTtqH+
+RrPnG6KDy9XxdtVhiwI1SfY3QJeXBf+A1R+2YlCZEQSbgtwOZ1DVsildaa70zlIS
+V8oz4r6IqMBlttQyzR9YAlsjBvR5Tdz3fFVOPb7LtGy+xJ2JOumgBCKA9kM+sKjS
+RcJOM5VYhonuxOIh+CuLewS00G55IUZIQBGSPtfIjsBiWei7NYC2w4mXtBhaTJ3F
+3piD6Oc/if/HSL89SKai0v+b
+=NJ4o
+-----END PGP SIGNATURE-----
+
+--===============4521256944241147110==--
