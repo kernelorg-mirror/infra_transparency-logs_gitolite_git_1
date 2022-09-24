@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 24 Sep 2022 16:32:44 -0000
-Message-Id: <166403716465.12652.6289046670642871502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sat, 24 Sep 2022 16:35:58 -0000
+Message-Id: <166403735846.15334.2854033754100336689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/net-next-mlx4
-    old: 4dfa5f05fffac3a8fa4f9a68a671b5b7e6d3b411
-    new: 9258b8b1be2e1e241baf8aa703aba1086069ee0f
+  - ref: refs/heads/bleeding-edge
+    old: 019ee2f1d9562d3dc828ee6608f6833965469047
+    new: c1963d6d57340986878da6c6efb8b703976c5b7f
     log: |
-         a50d37b7565e13613e2797eabcf82c2c685578d0 net: ipa: don't use u32p_replace_bits()
-         8be440e17bdbb3ddfe3fd19216ee0d904dd24d22 net: ipa: introduce ipa_qtime_val()
-         48395fa8e8f69267a795bab2d31b9c2f3f8fe503 net: ipa: rearrange functions for similarity
-         21ab2078ff37ad9f81c080244ed51d80463d58d9 net: ipa: define BCR values using an enum
-         73e0c9efb5ede4e65d76e01467eb4c14ad9db7bf net: ipa: tidy up register enum definitions
-         b24627b1d9b25e3a4c96bd467bce7667ca119910 net: ipa: encapsulate setting the FILT_ROUT_HASH_EN register
-         1e5db0965ef5199f360138a81652fef7bc12fcb4 net: ipa: encapsulate updating the COUNTER_CFG register
-         92073b1648cb64f5e62b33515d3100fa1ad10ade net: ipa: encapsulate updating three more registers
-         99d01d74814153682b95127e1f25dbdfa3ebfae2 Merge branch 'net-ipa-another-set-of-cleanups'
-         9258b8b1be2e1e241baf8aa703aba1086069ee0f ipv6: tcp: send consistent autoflowlabel in RST packets
+         564d53b8b5909ce7a23106873aaf4c4496c3df10 PNPBIOS: remove unused pnpid32_to_pnpid() declaration
+         f99b3ddf75157aa81075fa0af4fc9d6b5c514415 Merge branch 'pnp' into bleeding-edge
+         018d6711c26e4bd26e20a819fcc7f8ab902608f3 ACPI: x86: Add a quirk for Dell Inspiron 14 2-in-1 for StorageD3Enable
+         326dc8f8686daf87440d11dccdae93b408842bc4 Merge branch 'acpi-x86' into bleeding-edge
+         9e8e4e81b6f5943a8ae52cfce7191a119095d097 ACPI: PM: reboot: Reinstate S5 for reboot
+         31a6b9a446cac20567860ced3fdf7afe9aa09a6f Merge branch 'acpi-pm' into bleeding-edge
+         f336443acc890434c7d621366d1bc5bc8f298840 ACPI: AC: Remove the leftover struct acpi_ac_bl
+         c1963d6d57340986878da6c6efb8b703976c5b7f Merge branch 'acpi-ac' into bleeding-edge
          
