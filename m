@@ -1,171 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============2430507352938456985=="
+Content-Type: multipart/mixed; boundary="===============6923214476661822369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sat, 24 Sep 2022 20:18:16 -0000
-Message-Id: <166405069620.7413.8272764655916116074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Sat, 24 Sep 2022 20:21:30 -0000
+Message-Id: <166405089072.10140.9266976683565571265@gitolite.kernel.org>
 
---===============2430507352938456985==
+--===============6923214476661822369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/pending-4.14
-    old: ba84aa750f8e2735de1c30cc267dc6e481293948
-    new: c91ab06ce411f5ceab49f5d8a5e30197f849dd90
-    log: |
-         4866cfc55e8be8bef3302bcfdc1ac0816081f56b netfilter: ebtables: fix memory leak when blob is malformed
-         3e128e81460749bd6f9e87a221b367d907860c5e can: gs_usb: gs_can_open(): fix race dev->can.state condition
-         d79bf9dda03dbcccf8b217db28739ba75b3d97a2 perf kcore_copy: Do not check /proc/modules is unchanged
-         c91ab06ce411f5ceab49f5d8a5e30197f849dd90 net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-         
-  - ref: refs/heads/pending-4.19
-    old: 625a4aed1aea157d12963d4e9c97e773a14f570e
-    new: 69105ed582041bc5c65222efea4dbbfbb5962148
-    log: |
-         c1cc88fc326665dca4e560f3a985538ff9986123 netfilter: ebtables: fix memory leak when blob is malformed
-         9dbd13bb81b2084e967b5ce191bab7af37b91701 can: gs_usb: gs_can_open(): fix race dev->can.state condition
-         ab9efb0567090f1f4fae16d33c761780f3e19504 perf jit: Include program header in ELF files
-         56ea5e0ea78a5b94d5ce3f4e17cc4e6e9a4d8ce9 perf kcore_copy: Do not check /proc/modules is unchanged
-         69105ed582041bc5c65222efea4dbbfbb5962148 net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-         
-  - ref: refs/heads/pending-4.9
-    old: 9d6995c854d8bdc091e5fb96c427f4f72a77d9cb
-    new: 93b1707be4f8de2e5a4c8964b5ff03cea43594e2
-    log: |
-         ba713a07c1743b38065c59fdcbecdc6613d89423 can: gs_usb: gs_can_open(): fix race dev->can.state condition
-         054ba041b8ec0acbab0897256a41050286bbf59c perf kcore_copy: Do not check /proc/modules is unchanged
-         93b1707be4f8de2e5a4c8964b5ff03cea43594e2 net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-         
-  - ref: refs/heads/pending-5.10
-    old: 975a42b812142fa69b269bd4258f4fa95b732de8
-    new: 092cf337af52e988ef054ff267fcdab3a79a17cc
-    log: revlist-975a42b81214-092cf337af52.txt
-  - ref: refs/heads/pending-5.15
-    old: 1926ff69a8e8b253d16ed6b3a031e2879770f748
-    new: 9dd2756f5d64e3286afb63d6ae0e2fffe8ba662a
-    log: revlist-1926ff69a8e8-9dd2756f5d64.txt
-  - ref: refs/heads/pending-5.19
-    old: 7359f5c565b269ecfd4ae9b9a516de96de8a665a
-    new: 887738992729fd905803c7a3352834afe1957c18
-  - ref: refs/heads/pending-5.4
-    old: 57ddfc7b157741922936816cbe2c0695fa092d2f
-    new: f5275f98812bbb7ab2584e868fc11a5f9fb7af3a
-    log: revlist-57ddfc7b1577-f5275f98812b.txt
+  - ref: refs/heads/call-depth-tracking
+    old: 856304fc062b9ad34742a604b98cc775846c0cb3
+    new: e529e07273561352c1cc1444bf9471ec188dd5ef
+    log: revlist-856304fc062b-e529e0727356.txt
 
---===============2430507352938456985==
+--===============6923214476661822369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-975a42b81214-092cf337af52.txt
+Content-Disposition: attachment; filename=revlist-856304fc062b-e529e0727356.txt
 
-19210faea0e6dd691d21545a385b73772e977b4d net/sched: taprio: avoid disabling offload when it was never enabled
-92a3e258c02af02e880ffd41aadea0494d175927 net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs
-4bddeb6e5516bfbcef613ccbf494405ab1fdfa02 netfilter: nf_tables: fix nft_counters_enabled underflow at nf_tables_addchain()
-5e636cd72de7808b247e76e0bec87be3f9a6077e netfilter: nf_tables: fix percpu memory leak at nf_tables_addchain()
-766539ae2e06fb1436312b6b4cd619ca429a705a netfilter: ebtables: fix memory leak when blob is malformed
-68d555970a7c9b74f1aa7572e678b544284a2aa9 can: gs_usb: gs_can_open(): fix race dev->can.state condition
-60dbdad7dc5ee8cef25e06a1125569962ba9cd35 perf jit: Include program header in ELF files
-6423ee43d0a6b111d29cc086a793bfd0768971d9 perf kcore_copy: Do not check /proc/modules is unchanged
-5d9df7c67c1030dac01fc634141558626bae7741 drm/mediatek: dsi: Move mtk_dsi_stop() call back to mtk_dsi_poweroff()
-fa34c40dc1fd0aefe9e9715f035ecd8e3b252348 net/smc: Stop the CLC flow if no link to map buffers on
-e988da96c1518ae6bf5c58057707c34dd5651d2e net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-53d9e5c151df75101b150b346f7c7249a6a3f5e8 net: sched: fix possible refcount leak in tc_new_tfilter()
-092cf337af52e988ef054ff267fcdab3a79a17cc selftests: forwarding: add shebang for sch_red.sh
+916283b352e3741748d5922c71b98d3f4fe97ef7 x86/paravirt: Ensure proper alignment
+324f1ab0b41f43567287378c5a8ac7ee892c42ec x86/cpu: Remove segment load from switch_to_new_gdt()
+2d6906f6d9278709208d7957590b7de06f607f68 x86/cpu: Get rid of redundant switch_to_new_gdt() invocations
+ba066ea7162fd40e367b4a19307dcc4eb7a8a6f1 x86/cpu: Re-enable stackprotector
+575bbe297f0add25f5beecfd07960f254f67a782 x86/modules: Set VM_FLUSH_RESET_PERMS in module_alloc()
+cd92c77c7e5e48ddfb6c4e10c594d899b2431fa7 x86/vdso: Ensure all kernel code is seen by objtool
+db64dcc42c5134052749d7b1ebd5bfa929b5633e x86: Sanitize linker script
+28c893a570834eb5e52e6e990be758f76f873087 arch: Introduce CONFIG_FUNCTION_ALIGNMENT
+9d82ba1a0fe6219b1d540a8ddc97123632479296 x86/asm: Differentiate between code and function alignment
+3e401e9c652d8a2935f5befb9f4547d0ed04c4f5 x86/error_inject: Align function properly
+981d225622969eae4118244490c4b6e24037a0d5 x86/paravirt: Properly align PV functions
+fa8fa77b5487e00bc307dc5636eaf37e64e3c5e5 x86/entry: Align SYM_CODE_START() variants
+cf2049cc9c35f9a782e33e110b66d62f54a4121c crypto: x86/camellia: Remove redundant alignments
+7c02f5c4255cbfdf4c6586e6d9390736d05313e8 crypto: x86/cast5: Remove redundant alignments
+4f8ef9045be5dc4f65bfd001823f36543778c41c crypto: x86/crct10dif-pcl: Remove redundant alignments
+54eefd6e710b4f4fea4a2877a06d92a3e029be69 crypto: x86/serpent: Remove redundant alignments
+55f65f43095259f0965168e3237ba655a48c8eb3 crypto: x86/sha1: Remove custom alignments
+a03b408353ef2f8949124ae9522cb7e9d9eb0751 crypto: x86/sha256: Remove custom alignments
+89bef969ad87dc396138da3dbf440e05ea078b2e crypto: x86/sm[34]: Remove redundant alignments
+060b3337bba7d325e0fd5f4a49532670b21febba crypto: twofish: Remove redundant alignments
+abed97e568a68210701c0d8985a4c3174a1ed02f crypto: x86/poly1305: Remove custom function alignment
+52d6292b2bb316e3385536bfcca973bd66b199b1 x86: Put hot per CPU variables into a struct
+12907f6f9f1b9fcc3aaa8c2859aa63b7f34bcf60 x86/percpu: Move preempt_count next to current_task
+9de6e29ab44199e7f47122c08d4e890ed43e0396 x86/percpu: Move cpu_number next to current_task
+e508e30f25fdfe78bf522146a4f9ab864851314c x86/percpu: Move current_top_of_stack next to current_task
+e33813daa32fa5f83a4bb9172c609f836ce58937 x86/percpu: Move irq_stack variables next to current_task
+819964080643b74daebe3848e016de0c6d641a10 x86: Fixup asm-offsets duplicate
+508e4c1dea777cfc338b76a590c891d8729a15fc x86/softirq: Move softirq pending next to current task
+05a27234ac4f0f6236941aec889487f2d8db6c16 objtool: Allow !PC relative relocations
+beac1839dffb12ec9954b69673b9e2566953d93a objtool: Track init section
+30f899f818c711a3864545297102c96347bb8d6a objtool: Add .call_sites section
+3d74b6262e293b24756cab5fa4b93b5938bb9bdd objtool: Add --hacks=skylake
+35cb88ddcc3471333d543c569dd8dc97ff9cddca objtool: Fix find_{symbol,func}_containing()
+e8073b5f1f21b6e1251cdad7a4dfd641b857925e objtool: Allow symbol range comparisons for IBT/ENDBR
+1779ebcac6886873b5e1f681778a8be7e60647f2 objtool: Rework instruction -> symbol mapping
+89a58b8686d14b9ad3df09b6da2cb12889905b00 objtool: Allow STT_NOTYPE -> STT_FUNC+0 sibling-calls
+1fcbc9e8e0a0559dbbdb3e4534ddd0fa41ed005b x86/entry: Make sync_regs() invocation a tail call
+3a10da7654df232cebeeea1ad62d70aa9eb2add0 ftrace: Add HAVE_DYNAMIC_FTRACE_NO_PATCHABLE
+ff6e1200f1c5a7de21a2141ac5bbc21233ade91e x86/putuser: Provide room for padding
+6d31bd3d445f798a568e40010b29596bf78d9cc4 x86/Kconfig: Add CONFIG_CALL_THUNKS
+3fe23694e5b2e75a7cef2f9137ecbe04bb1ee69b x86/Kconfig: Introduce function padding
+3a0165f7193e246a7f805e7e6913da413ca9d883 x86/retbleed: Add X86_FEATURE_CALL_DEPTH
+1fc4ccefddefbe89e7ed933dbec35a6280715e33 x86/alternatives: Provide text_poke_copy_locked()
+860f20319e55040adbfd8b2ea69ebc5cc142835d x86/entry: Make some entry symbols global
+09008da9366d009a9320a99a0887a785b82a2297 x86/paravirt: Make struct paravirt_call_site unconditionally available
+27ba363021b043788943601a45f0546a7f66455b x86/callthunks: Add call patching for call depth tracking
+98df0720287081dcbd06f91dbd25e9147d9d6b0a x86/modules: Add call patching
+eeb2f0b5d0ddb16981be0143df1e85cc24469dcf x86/returnthunk: Allow different return thunks
+be8ade36b88bc523c3875a36cd5b4003f9c4a52f x86/asm: Provide ALTERNATIVE_3
+fa1aae2aafda15616dbcb8e5893f4567401eaf95 x86/retbleed: Add SKL return thunk
+d79999ad1b91c2573fa0bd0170f027b37a82d454 x86/retpoline: Add SKL retthunk retpolines
+f4a699b32edab7ba57113765ff1e3c64b80c19c7 x86/retbleed: Add SKL call thunk
+d8b75e21bd98efb89884e016629911d039e1b59b x86/calldepth: Add ret/call counting for debug
+4f3d252312471914c43746837979724addfe6c7e static_call: Add call depth tracking support
+f2e127d507f7b74678901f957fdc4afdf207f757 kallsyms: Take callthunks into account
+c438de65d624b58fc604713dd236d2b03865490e x86/orc: Make it callthunk aware
+b20f2f7c77f3e23118299e0c40f6241321267d4b x86/bpf: Emit call depth accounting if required
+278d08fea892734f842cdee7bce35597ab9e7017 x86/ftrace: Remove ftrace_epilogue()
+cdf5c01dda8b57e7c5f30be554db6caa66939037 x86/ftrace: Rebalance RSB
+a7cd3deb0dabd0abe6137b0ab0a1f9d1af5ea9bf x86/ftrace: Make it call depth tracking aware
+18781b3472dee1fd2bc92528c0433907a9bb3ec7 x86/retbleed: Add call depth tracking mitigation
+e529e07273561352c1cc1444bf9471ec188dd5ef x86/bugs: Add retbleed=force
 
---===============2430507352938456985==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1926ff69a8e8-9dd2756f5d64.txt
-
-41a3297d4fcbee96ddc91d267b9100a5b763bb17 firmware: arm_scmi: Harden accesses to the reset domains
-7873482a98850173d8244fae7c90f98863b42d68 firmware: arm_scmi: Fix the asynchronous reset requests
-9095319004cde401e0b5b90e8393be0e55c9e15e arm64: dts: rockchip: Pull up wlan wake# on Gru-Bob
-652e0963c681f37c2e36989e4986ced3cc1b2340 arm64: dts: rockchip: Fix typo in lisense text for PX30.Core
-70dae407bead5b5ba50cb6f37435ea1f28bb8e61 drm/mediatek: dsi: Add atomic {destroy,duplicate}_state, reset callbacks
-9a722263be2e7f42db5883625a3b66dd79b11f69 arm64: dts: rockchip: Set RK3399-Gru PCLK_EDP to 24 MHz
-79e6630929216bcfb951cf362fcb3a87e85e9439 dmaengine: ti: k3-udma-private: Fix refcount leak bug in of_xudma_dev_get()
-7f99c21d3a8b9c992886c5e729664bd693b55ddc arm64: dts: rockchip: Remove 'enable-active-low' from rk3399-puma
-c8d73f9e74c838180ae6ede85ec3e9e0ec25de7d netfilter: nf_conntrack_sip: fix ct_sip_walk_headers
-4961622daa4213c045dc723ea17e699197641c57 netfilter: nf_conntrack_irc: Tighten matching on DCC message
-9d22932c10fc6de0cc1469c77998308105f9e9c2 netfilter: nfnetlink_osf: fix possible bogus match in nf_osf_find()
-e024e470a2dfc8d285aa3c9b49297162ff3c38cc ice: Don't double unplug aux on peer initiated reset
-d9b0a92b0ba4841c7a7ceb35416267a16f359003 iavf: Fix cached head and tail value for iavf_get_tx_pending
-817df5f4b49c6884692ec12d99a9669d38efc05f ipvlan: Fix out-of-bound bugs caused by unset skb->mac_header
-110abedbeb45e56bfd42f649007dbf8e47917cdf net: core: fix flow symmetric hash
-20e9ddceae444429a65b03a9b00df955b87aab4f net: phy: aquantia: wait for the suspend/resume operations to finish
-b44f215d3932a6a10d5fdeecc5cfc4c06f45abc6 scsi: qla2xxx: Fix memory leak in __qlt_24xx_handle_abts()
-1a5a24a8038575d3bf0f4c662ae03410391be7f1 scsi: mpt3sas: Fix return value check of dma_get_required_mask()
-63e59b8699f4880f8273d5518ae7418b40b0fbf5 net: bonding: Share lacpdu_mcast_addr definition
-9656b8b951f46a93250630ce78c52328db890929 net: bonding: Unsync device addresses on ndo_stop
-0660c282ec9302239d2e7a3482382abe8aaae7fd net: team: Unsync device addresses on ndo_stop
-6f2dc4634320a7b4ee93c41a1daebf5f3d23af8d drm/panel: simple: Fix innolux_g121i1_l01 bus_format
-1610b38cdf91c4cc9dd10155f0d5564f7a2c078d MIPS: lantiq: export clk_get_io() for lantiq_wdt.ko
-d60c05a0b776bfd259dd29195d383035bf62381e MIPS: Loongson32: Fix PHY-mode being left unspecified
-a1cb40471cbfb1f23f5886fbcb3ae9ba095e552a um: fix default console kernel parameter
-0dd77fd0f98d754f3aaae750e439cbc1f361e79d iavf: Fix bad page state
-f55ee42fd9cc76068219662ad9c1a7734691d4e9 mlxbf_gige: clear MDIO gateway lock after read
-d3e28ced72636d35696178b0965405403bd8d9ff iavf: Fix set max MTU size with port VLAN and jumbo frames
-0f7722a60f15e243e702017f88bf1f8c004f5f70 i40e: Fix VF set max MTU size
-b8fde369274964c4fe2053ae589cb33c7b89c8a3 i40e: Fix set max_tx_rate when it is lower than 1 Mbps
-9e20822c49bf6184b369635cfd28ed950ec18d23 sfc: fix TX channel offset when using legacy interrupts
-7286551665d066eb78d8e8000baf0c7ead69676d sfc: fix null pointer dereference in efx_hard_start_xmit
-ffc62fb651ac71aee9f2bd56d158e997cc5462ec drm/hisilicon/hibmc: Allow to be built if COMPILE_TEST is enabled
-f0c04676e442e583f022dc3b44d98b0905506146 drm/hisilicon: Add depends on MMU
-1f95d3268ca8c0af28113c178096bd7be2c3c2d6 of: mdio: Add of_node_put() when breaking out of for_each_xx
-938c78c3424af8216f75597f4f6adca2cf60e7ce net: ipa: properly limit modem routing table use
-8795ca26c6cedcd013411ee1806a1240336134ff wireguard: ratelimiter: disable timings test by default
-2d890100eeef352ef01b6a83047b43e227c5b06c wireguard: netlink: avoid variable-sized memcpy on sockaddr
-834b91843251f071fd16557e2121d95afc981856 net: enetc: move enetc_set_psfp() out of the common enetc_set_features()
-00271120d0950a140c232938cbc298d6a3b4537c net: enetc: deny offload of tc-based TSN features on VF interfaces
-98916bc50d9f915a616ca03c66d8a6119315533c net/sched: taprio: avoid disabling offload when it was never enabled
-e7cd3c52fb084f3abb3c317ab77e123d84865eee net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs
-069b0bc681182e2475c8c8e477b92768a1967ebe netfilter: nf_tables: fix nft_counters_enabled underflow at nf_tables_addchain()
-6e043e6e2a74f45d4ef6a22950c01a31900d11ab netfilter: nf_tables: fix percpu memory leak at nf_tables_addchain()
-2a402bea22c0e6e4e09acdcdf8d94b106dae968c netfilter: ebtables: fix memory leak when blob is malformed
-401beb3690b58aa65d9d13d31f63373e5c922d1e net: ravb: Fix PHY state warning splat during system resume
-6dec97294a02c0bae9c5e21deb846fdc2e7ed72f net: sh_eth: Fix PHY state warning splat during system resume
-2e3cab328c296defe4982c36a0fb49a304a9449e can: gs_usb: gs_can_open(): fix race dev->can.state condition
-4afc2007e263e4589fb7773a557b19feaf98ad6e perf stat: Fix BPF program section name
-3cd703d1e29bf0853485f39f5d011c67cddc8d9d perf jit: Include program header in ELF files
-b6ea632c7ad7432e0ef7e7fa787352367454b7da perf kcore_copy: Do not check /proc/modules is unchanged
-8e8cac99b7c3eb351176784cace7117c58d404b7 perf tools: Honor namespace when synthesizing build-ids
-de39d84a4fbdaa5fa9b4c50a5b355875eb1d34ca drm/mediatek: dsi: Move mtk_dsi_stop() call back to mtk_dsi_poweroff()
-93604c3483a70767a670ffd274149091c3729308 net/smc: Stop the CLC flow if no link to map buffers on
-b1288c7844705e351035c5d2c8942a371b18ed5d bonding: fix NULL deref in bond_rr_gen_slave_id
-d4e0d031ed7cf73c82507058776920d88d2e5abd net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-bf9aeed72468404b10a1ff29c5f2b01d49289c24 net: sched: fix possible refcount leak in tc_new_tfilter()
-c582dca36e6a72cde0725ce1e5e8eca001559a82 bnxt: prevent skb UAF after handing over to PTP worker
-3109cfe1623e418d32c7f4cc56f762b819c39fb3 selftests: forwarding: add shebang for sch_red.sh
-9dd2756f5d64e3286afb63d6ae0e2fffe8ba662a KVM: x86/mmu: Fold rmap_recycle into rmap_add
-
---===============2430507352938456985==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57ddfc7b1577-f5275f98812b.txt
-
-e232d8530fd907a3cec1288dccd68df9eda15c59 net: team: Unsync device addresses on ndo_stop
-2a3832f6a14a42b8c0032593ea4950d3d58fb176 MIPS: lantiq: export clk_get_io() for lantiq_wdt.ko
-f52000a9eb0f6d4ef8ef0d1f1d3771aa7eca2924 MIPS: Loongson32: Fix PHY-mode being left unspecified
-daff985c781a25fcd447573ec276d1493d69d785 iavf: Fix bad page state
-2b399c880e77afff0015f4e78d30a9f45e0b25e9 iavf: Fix set max MTU size with port VLAN and jumbo frames
-f4940166637d3a7b634c9ed8eebba3977c3a8a6f i40e: Fix VF set max MTU size
-c900b50a44bb92e2a648c4af56f1544dc88e004c i40e: Fix set max_tx_rate when it is lower than 1 Mbps
-cc9d97af6d570cb0a59abb0f7bea3d96bd365bf4 of: mdio: Add of_node_put() when breaking out of for_each_xx
-d34b89090ad47fea3b46a368d347b7938fcd8523 net/sched: taprio: avoid disabling offload when it was never enabled
-27d54b6ac5e8dc861eccb3fa779afae3e026ad78 net/sched: taprio: make qdisc_leaf() see the per-netdev-queue pfifo child qdiscs
-c862ccae084d483e6c92b2938aed25a026002863 netfilter: ebtables: fix memory leak when blob is malformed
-83223682ee0aada50bee466736af3947e212597f can: gs_usb: gs_can_open(): fix race dev->can.state condition
-39a81cde0f94f4257583d5a9eb6bc9480560696c perf jit: Include program header in ELF files
-65cee4639755125ccceddecc31a9b1ad0b2e04d9 perf kcore_copy: Do not check /proc/modules is unchanged
-f12c4150522a7853254450f54c8641c2969db664 net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-f5275f98812bbb7ab2584e868fc11a5f9fb7af3a net: sched: fix possible refcount leak in tc_new_tfilter()
-
---===============2430507352938456985==--
+--===============6923214476661822369==--
