@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4182436310399381752=="
+Content-Type: multipart/mixed; boundary="===============0719848872261169268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 25 Sep 2022 07:23:47 -0000
-Message-Id: <166409062798.18673.5728093088971408390@gitolite.kernel.org>
+Date: Sun, 25 Sep 2022 07:23:51 -0000
+Message-Id: <166409063173.18775.16249470977312740038@gitolite.kernel.org>
 
---===============4182436310399381752==
+--===============0719848872261169268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
+  - ref: refs/heads/tty-linus
+    old: 643792048ee84b199052e9c8f89253649ca78922
     new: 7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9
-    log: revlist-7e18e42e4b28-7e2cd21e02b3.txt
+    log: revlist-643792048ee8-7e2cd21e02b3.txt
 
---===============4182436310399381752==
+--===============0719848872261169268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664090622 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664090631 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1664090621-5ed8de077bce082a04086f868609d09f68983e39
+nonce 1664090630-d5e341f20fabfd4bf7f553dfafceadd68bb2f09f
 
-7e18e42e4b280c85b76967a9106a13ca61c16179 7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9 refs/heads/main
+643792048ee84b199052e9c8f89253649ca78922 7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMwAf4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jBMQALHwdLcYLk2WH61l4HIw
-bdgQGPBoTPFYCaXWhhYPsk4gWn64EiRYF8UDBaF6fUhrHb3h9DeG5Bsv/j5RYJBF
-aTAwCiZ6Uv128ji7rnCQx/PaS/Jv5Vfwf7mV5lY33bWafab9i7VO13peMC5Lflya
-H35cCLgffeRC2MUR0eiBJQqzgRqpnOe7YqLWkHh4bS+R3RP45WV3y8BjNCFbsIEZ
-1JY9ht76XB10DdOZXEWNONlN4fxAR020Qpw+Xe5m/kD5t4+qAHCeTC7MP6W+D/wF
-H/X+w8ryaYnOY9lF4eSQE+iRtool7UqyhDECXaew2QSaeho2yo1b3KuCYG3dIADE
-e/TuuyvFVxZgsYyKi4JJ6ZIX+E5QUW7OobNAXBCy8jyYu21Z/47amFXn1IxQhGQo
-bvqgwMinLzGh+Qd+wVJPUB04t7a4SKWdm1FiJVX8g/r3CXLQvNnV1XZCzB5hLvCK
-kfmVqNRK2pYhMcMVMy47NEdVG+8XrNTKFiHVJ+1qohowZYaMc/0KIpHDdq54/HPb
-OWeIM2p8U9zbUYvx/uPSJnVljPNjlTutrzZ25T9gptGP73TSjL4InB6mBHgcrbMI
-U9Yuo28nfX8fmuS5Gj0x+ssjf4EGgzFIjNGfDAEvI/+aw/B8vlknY8FjVQvsaJCe
-zNVgdPvpAC3IlTiWI0ce2UQU
-=PcLT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMwAgcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W0UP/i9lkWNtZxLdXFmxIl8U
+lLBqr7jP7eLd6soD9qxQFWlJ1gSmOrX5PcNYCNqlzrbBdue2hPnMdh0XdtWtcpKO
+0JBaLEd/2Axk3xjk3OXaPP9NL5TMfF4kg6FQO7Ez93orgW4ULgDC5Oe7z3LjeHOV
+Y1WzigXzjm34YT0DkF3MPY8I/+lF3hf/iN90fYfGt2l8gklAKtGP2q15G9aHx4om
+heLByFHEWnLu4B/hsLPEKwzuLpYIRYl3YMei24xHqeRupftUJe9IGGDXCA4Rm0KP
+Rp+/MhXqZa4FI2JRedRCXMbVPSeFE2Ev/gq7Mlxtl5mhq3XMg7RxQOCU78loeTnE
+Yie08n+tv0Hpk1z+mv/31EF5LU1stUL4T997vmA/dR6Mmq6baWlrZYPQE7PzNzPF
+o9rD8OYujRaRh7mD/ZjiWLzxKaG5zVfYHe2QvHSxSE6XSVXjOMJHTWpYQpY/Ah3p
+vauYACIR5DaomTJockLU2B8Yic1xYKJ0+ltlSeL4asxUbmFRuEHtBmLHZuhzs2gE
+9aUi8hBDdEXN0qy6QLUFjGLgszuUJ1Kt+MAviETz0/yBhgLVjq07m7an01znhwLR
+IS4VeQDh1NX+XrkQZdnp5kEdZ0YXiWecJmKKqX4R2ozz45axJnC56Ll0SfpMD7Ol
+7TsqX7M6aQabKmF+WC+cPyrt
+=Iv9F
 -----END PGP SIGNATURE-----
 
---===============4182436310399381752==
+--===============0719848872261169268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e18e42e4b28-7e2cd21e02b3.txt
+Content-Disposition: attachment; filename=revlist-643792048ee8-7e2cd21e02b3.txt
 
 fd7cb3e4684f0c044a627dc33adb9f97c69f033f MAINTAINERS: add PolarFire SoC dt bindings
 3cbd673846772153a0aa85471aef5788f1a53dcd MAINTAINERS: add the Polarfire SoC's i2c driver
@@ -367,9 +367,6 @@ e8d5dfd1d8747b56077d02664a8838c71ced948e netfilter: nf_conntrack_irc: Tighten ma
 9cb252c4c1c53ae58bc565bab76e98133288f23a net: skb: export skb drop reaons to user by TRACE_DEFINE_ENUM
 f27b405ef43319a3ceefc2123245201a63ed4e00 net: ethernet: mtk_eth_soc: check max allowed hash in mtk_ppe_check_skb
 91062e663b261815573ce00967b1895a99e668df usb: dwc3: core: leave default DMA if the controller does not support 64-bit DMA
-e77cab77f2cb3a1ca2ba8df4af45bb35617ac16d serial: Create uart_xmit_advance()
-754f68044c7dd6c52534ba3e0f664830285c4b15 serial: tegra: Use uart_xmit_advance(), fixes icount.tx accounting
-1d10cd4da593bc0196a239dcc54dac24b6b0a74e serial: tegra-tcu: Use uart_xmit_advance(), fixes icount.tx accounting
 e9b1a4f867ae9c1dbd1d71cd09cbdb3239fb4968 net/smc: Fix possible access to freed memory in link clear
 12ef2508f33db1654de2f22f75dd868141b8b305 dt-bindings: interconnect: fsl,imx8m-noc: drop Leonard Crestez
 5ac251c8a05ce074e5efac779debf82a15d870a3 arch_topology: Make cluster topology span at least SMT CPUs
@@ -758,9 +755,6 @@ c2e1cfefcac35e0eea229e148c8284088ce437b5 net: sched: fix possible refcount leak 
 3aac7ada64d8c26ccc922f1ca966043c0dae88da net: marvell: Fix refcounting bugs in prestera_port_sfp_bind()
 c31f26c8f69f776759cbbdfb38e40ea91aa0dd65 bnxt: prevent skb UAF after handing over to PTP worker
 83e4b196838d90799a8879e5054a3beecf9ed256 selftests: forwarding: add shebang for sch_red.sh
-60f361722ad2ae5ee667d0b0545d40c42f754daf serial: fsl_lpuart: Reset prior to registration
-1e005bfae83290f6673f8213a418cc0e12868c2d serial: 8250: omap: Use serial8250_em485_supported
-643792048ee84b199052e9c8f89253649ca78922 serial: sifive: enable clocks for UART when probed
 9597f088c9fc0a9a1de402426f57ff0a18cd069e Merge tag 'perf-tools-fixes-for-v6.0-2022-09-21' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 5e0a93e42756fa93b69fe8848cf8dda7cee5d13a Merge tag 'gpio-fixes-for-v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 129e7152184b0224f9ca3f91b870acc14c64e1fa Merge tag 'efi-urgent-for-v6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -797,4 +791,4 @@ aae8dda51964ff9d3f1dc96528b853826667efad Merge tag 'wq-for-6.0-rc6-fixes' of git
 1772094f12a7b180aa9ab849586f891b14d06d1f Merge tag 'cgroup-for-6.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9 Merge tag 'tty-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============4182436310399381752==--
+--===============0719848872261169268==--
