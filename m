@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0004365533698773136=="
+Content-Type: multipart/mixed; boundary="===============3412479262353938154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 25 Sep 2022 01:23:40 -0000
-Message-Id: <166406902040.25244.8284185273260677325@gitolite.kernel.org>
+Date: Sun, 25 Sep 2022 01:23:51 -0000
+Message-Id: <166406903100.25433.14993119995972474632@gitolite.kernel.org>
 
---===============0004365533698773136==
+--===============3412479262353938154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 74c86f3672526496264291cae8d59eb38f92685d
     new: 7d895ec0633c51bdedc69b1857e3f248bc1dfc09
     log: revlist-74c86f367252-7d895ec0633c.txt
 
---===============0004365533698773136==
+--===============3412479262353938154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -480,4 +480,4 @@ c8fa3af1160e126c29cf221a325a3351decc58bf Makefile.compiler: replace cc-ifversion
 716ec0400381a13cce47a976cd3f5e53650b5283 kbuild: remove head-y syntax
 7d895ec0633c51bdedc69b1857e3f248bc1dfc09 kbuild: re-run modpost when it is updated
 
---===============0004365533698773136==--
+--===============3412479262353938154==--
