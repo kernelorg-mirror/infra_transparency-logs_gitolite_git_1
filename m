@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6435101151443998854=="
+Content-Type: multipart/mixed; boundary="===============4558940099098619361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 25 Sep 2022 01:18:07 -0000
-Message-Id: <166406868762.21642.14594674150092190114@gitolite.kernel.org>
+Date: Sun, 25 Sep 2022 01:18:37 -0000
+Message-Id: <166406871736.21875.18179727954164252081@gitolite.kernel.org>
 
---===============6435101151443998854==
+--===============4558940099098619361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 80e78fcce86de0288793a0ef0f6acf37656ee4cf
+  - ref: refs/heads/fixes
+    old: 32ef9e5054ec0321b9336058c58ec749e9c6b0fe
     new: 105a36f3694edc680f3e9318cdd3c03722e42554
-    log: revlist-80e78fcce86d-105a36f3694e.txt
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+    log: revlist-32ef9e5054ec-105a36f3694e.txt
 
---===============6435101151443998854==
+--===============4558940099098619361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80e78fcce86d-105a36f3694e.txt
+Content-Disposition: attachment; filename=revlist-32ef9e5054ec-105a36f3694e.txt
 
 f1f63cbb705dc38826369496c6fc12c1b8db1324 drm/hyperv: Fix an error handling path in hyperv_vmbus_probe()
 f15f39fabed2248311607445ddfa6dba63abebb9 tools: hv: Remove an extraneous "the"
@@ -438,13 +435,8 @@ a7b7751aeb1348a4358724719aac5310597144fc Merge tag 'riscv-for-linus-6.0-rc7' of 
 33a4e37ebc8ccdfe2c51306b1a40d9e7d17b4691 Merge tag 'usb-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 1707c39ae309bf91965aa6f04d63816a090d90a1 Merge tag 'driver-core-6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 df02452f3df069a59bc9e69c84435bf115cb6e37 cgroup: cgroup_get_from_id() must check the looked-up kn is a directory
-237fe72749425f2cd3132bf54fa6b98807c27938 scripts/clang-tools: remove unused module
-03764b30a4f0185a97515d616e60e2e00c558583 Kconfig: remove unused function 'menu_get_root_menu'
-2154aca21408752eaa3eeaf2ba6e942724ff2a4d certs: make system keyring depend on built-in x509 parser
 a63f2e7cb1107ab124f80407e5eb8579c04eb7a9 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 e775f93f2ab976a2cdb4a7b53063cbe890904f73 io_uring: ensure that cached task references are always put on exit
-61f2b7c7497ba96cdde5bbaeb9e07f4c48f41f97 Makefile.debug: set -g unconditional on CONFIG_DEBUG_INFO_SPLIT
-32ef9e5054ec0321b9336058c58ec749e9c6b0fe Makefile.debug: re-enable debug info for .S files
 0be27f7be2e5def5577de097fb420af09acf0983 Merge tag 'block-6.0-2022-09-22' of git://git.kernel.dk/linux
 3db61221f4e8f18d1dd6e45dbe9e3702ff2d67ab Merge tag 'io_uring-6.0-2022-09-23' of git://git.kernel.dk/linux
 aae8dda51964ff9d3f1dc96528b853826667efad Merge tag 'wq-for-6.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
@@ -455,4 +447,4 @@ aae8dda51964ff9d3f1dc96528b853826667efad Merge tag 'wq-for-6.0-rc6-fixes' of git
 23b99237f86df34cbcefa81d1fa45bc316b4a124 Merge tag 's390-6.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 105a36f3694edc680f3e9318cdd3c03722e42554 Merge tag 'kbuild-fixes-v6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============6435101151443998854==--
+--===============4558940099098619361==--
