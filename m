@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1960240070289861318=="
+Content-Type: multipart/mixed; boundary="===============8679130247634667132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 25 Sep 2022 19:00:46 -0000
-Message-Id: <166413244632.4745.2848676233404100978@gitolite.kernel.org>
+Date: Sun, 25 Sep 2022 19:01:10 -0000
+Message-Id: <166413247099.4958.9412268463510718924@gitolite.kernel.org>
 
---===============1960240070289861318==
+--===============8679130247634667132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,73 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: efca52749564601de2045eb71dbe756b7bade4e8
-    new: 7f615c1b5986ff08a725ee489e838c90f8197bcd
-    log: revlist-efca52749564-7f615c1b5986.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 7d0127fa396736c2c4f3fc3f023b17dcabc34d30
+    new: d07369e55f7bb07668f5dbdaad9ebac65fa38a73
+    log: revlist-7d0127fa3967-d07369e55f7b.txt
 
---===============1960240070289861318==
+--===============8679130247634667132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1664132432 -0400
+pusher 75C5DE3D 1664132456 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1664132428-695bd5ea193cf1cc90d6eb61466d760403f2c049
+nonce 1664132456-a42266da75b6fe1cb3c7bc4b46d9178230052b3b
 
-efca52749564601de2045eb71dbe756b7bade4e8 7f615c1b5986ff08a725ee489e838c90f8197bcd refs/heads/queue
+7d0127fa396736c2c4f3fc3f023b17dcabc34d30 d07369e55f7bb07668f5dbdaad9ebac65fa38a73 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMwpVMACgkQ7ulgGnXF
-3j2cnA/+IZzZC/QFYwb+jGj943J6hqqOuAyI1LrOfEBhIMeW/vLOA7osUlYCauV0
-73j39CzKqSM469gWWUp2GKm7OrqtnJrKGNZ45w24izyVbQ/6XOIbgG1gDF1GHQym
-GIdRF5imZ0gQF7pX02UDu1tXCqrteJAmBX9bCAa2K5qrKRGZX3EHlvmEq7GTOvIu
-FaFDODbivMWa/aQYV/KL8op09eqASuGeznsRx9/lbpi5ZyojvILi+wae+lVamnx3
-E8jBmqoyG5GTzxovUVgK7n9nNbFo9ll/9Q//aO3tdxvHz+sQ6zHMiEeFGqPe6APu
-MNWaJJgJS9FRDmNQZEzawa00Uj2mY83w7Xju7jZisz+Gkmcrr6V5LaaDFtVE+pXl
-Ta25aJD+XKIrovnIMvkE0LBHmDfupi3iqvw9FpPFqEp1C2uUwffJuLeZN7qFz6M+
-A7V2+r9qFz1KQ/PaL2Te2c6sxVLpQEE18YqI7ICq8sPjiKKFRtGb7vlMxx/je6KS
-Ib6vpOvY3J7gWBRmTguR0TZhP3lI+/L9mkxCYk51JiYCT68MPNH7rlf6/vER7NGw
-GtaxppJ0b1DqXgdf+gB6WfJPPukaSuogs4gQJSMiqHIRrd/pV55r7PQgnsqdg9lY
-bBtDWkVJFBMZjKoyoJE8vuGLSYYZFn6OdyFNXParVNc7ptd5Dtk=
-=r1Uu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMwpWsACgkQ7ulgGnXF
+3j0sOhAAiGMuLIi+Or2W+rYv79DSn5+55U+odUeFvLPu0cs7Ayf40LWqJUccBziJ
+Y3IhwKwRZ65mvgq7CC4uIBUqFg3H4erZU+7F88PkBdyWe65NPpm+6cNnBN/sFJfv
+Io+fhovonYJxBtHvCVU3+0WcjGHT7hTiaeCvU1So9o/8S2DCd4Rvuq4qTgWhShCy
+rCIjsnHxULBuMNc1z1EG8w/8BdbS61ZAIDpBPnLN45w3rqDfWCkOE7xIIFy91vU1
+bb+3x/YC0Zp9fYsO6up0c+mClyssN3GqXW5ncY48oSgId4ToTDaXdG3as7TKFvgX
+JbeNa14ii74KfMbCV6/Smrl14nwBRC30W7lNVz4qofaGN2FEoOq4hupaMGpK4aFv
+DSEx5LgqlTLS25olWluLSS9PXuidS1zCIq4L/E1el/+OVFwKi9+szqFa+eB6T/84
+lyytg/ykut8Q9mO0OBbCyZXt3lfQeEPZKXCfUWLcWd5W33XcziQCPZrri219oovU
+q7oLSGVxK+LGc3d894wBqdYnMASrStzJUvmNgr89KChogX3fPLbPfYpeBlljYhjk
+XaW7LH5S2JwGNRx6/hdSmBjwyKqNti9WgFMaUD/p4aANDWlNOeVYIhrEQTAB5lOF
+xJHzqS+pihROCvFSCCyIo9xxvtqZpw+8OxwkXcW/NztK5Ca6PZQ=
+=D+AM
 -----END PGP SIGNATURE-----
 
---===============1960240070289861318==
+--===============8679130247634667132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efca52749564-7f615c1b5986.txt
+Content-Disposition: attachment; filename=revlist-7d0127fa3967-d07369e55f7b.txt
 
-5bdd4a8e5cb96236a2aa9ad38df73381b4161404 scsi: target: core: Set MULTIP bit for se_device with multiple ports
-f04e47e770e5717b1a08639293d189d43af866c7 scsi: target: alua: Do not report emtpy port group
-1b80addaae099dc33e683d971aba90eeeaf887a3 scsi: qla2xxx: Remove unused declarations for qla2xxx
-4663509304a7cf8a9b4a98a7312a43ccfdc4fa2b scsi: target: Remove unused se_tmr_req_cache declaration
-32e7e06f60e78bca28fc6bb7f9dd54177750c331 scsi: aic79xx: Use __ro_after_init explicitly
-a113c02f57388fc4d179ac5580303d97a000ede7 scsi: mpi3mr: Fix error codes in mpi3mr_report_manufacture()
-5ba207e55e7fdfa5f30737d2b234bf5b70fa3bfe scsi: mpi3mr: Fix error code in mpi3mr_transport_smp_handler()
-16ece56986638b8de22f47d009e9b0feec53c031 scsi: lpfc: Fix prli_fc4_req checks in PRLI handling
-11d6583d811fb044597d366349f0dda0278dda3f scsi: lpfc: Fix FLOGI ACC with wrong SID in PT2PT topology
-b873d1037283b5082863b97443dd25e592c40684 scsi: lpfc: Fix mbuf pool resource detected as busy at driver unload
-0630a1f7ea14452124392b883302713de31da3d0 scsi: lpfc: Add missing free iocb and nlp kref put for early return VMID cases
-845363516bb75bc35089b4093d1fae139f2fffc6 scsi: lpfc: Fix multiple NVMe remoteport registration calls for the same NPort ID
-6e5c5d246e6c16127327eeecf61ef2cf21a94ce5 scsi: lpfc: Move scsi_host_template outside dynamically allocated/freed phba
-21828e3c9169e9664c916c61eb592db8b8830bd6 scsi: lpfc: Update congestion mode logging for Emulex SAN Manager application
-d8cdd33a66dc8cc8d7f83b743bbdcef30a5624c0 scsi: lpfc: Rename mp/bmp dma buffers to rq/rsp in lpfc_fdmi_cmd
-2649809cd1b432e5623d9841dc69a4b8d26e2365 scsi: lpfc: Rework lpfc_fdmi_cmd() routine for cleanup and consistency
-045c58c87560b2f9e44fe84e62ce68625a937fa7 scsi: lpfc: Rework FDMI attribute registration for unintential padding
-dbb1e2ff87a63b665e93ffee54b46076e9c73d5f scsi: lpfc: Add reporting capability for Link Degrade Signaling
-a4de8356b68e54149ebdbe6e748e2726152b650c scsi: lpfc: Fix various issues reported by tools
-7170cb1a85e65d31b8b5b96fa7b502e559304946 scsi: lpfc: Update lpfc version to 14.2.0.7
-59f4e39d3565f1cac62fe13f133f34705bb61e0f scsi: ibmvscsi_tgt: Fix repeated words in comment
-68a97feb4b501025540bc60c3d0824d66a508002 scsi: megaraid: Convert sysfs snprintf() to sysfs_emit()
-9acb9f0efb930de37f65718e35e09ddd20c80961 scsi: csiostor: Convert sysfs snprintf() to sysfs_emit()
-7f615c1b5986ff08a725ee489e838c90f8197bcd scsi: scsi_transport_fc: Use %u for dev_loss_tmo
+1a77dd1c2bb5d4a58c16d198cf593720787c02e4 scsi: tracing: Fix compile error in trace_array calls when TRACING is disabled
+3d217b9ac532571335e69e64acf03a307b7acaf3 scsi: core: Make SCSI_MOD depend on BLOCK for cleaner .config files
+1a2433b0ec45acd71130bd0bf419394c7d7d85c0 scsi: ufs: core: Remove redundant function definitions from ufshcd.h
+d88a0240ff76062eb0728963e7aacf6dbe87f7c7 scsi: scsi_transport_fc: Adjust struct fc_nl_event flex array usage
+46ba53c30666717cb06c2b3c5d896301cd00d0c0 scsi: libsas: Fix use-after-free bug in smp_execute_task_sg()
+d8c22c4697c11ed28062afe3c2b377025be11a23 scsi: pm8001: Fix running_req for internal abort commands
+c682df71996aee74c6a50d0fe491c135a7bea1e7 scsi: hptiop: Replace one-element array with flexible-array member
+5b12a568cc6f69bfd9f7286d6e9c3e47392d240b scsi: hptiop: Use struct_size() helper in code related to struct hpt_iop_request_scsi_command
+d20796627fec15e79727b147707c632b0e2ca162 scsi: hptiop: Replace one-element array with flexible-array member in struct hpt_iop_request_ioctl_command()
+0fb9125e2aff083f42787cd686188c944d1a11f7 scsi: 3w-xxxx: Replace one-element array with flexible-array member
+fd2f045202d12c55748090885c47cc5f9a6c3c72 scsi: pm8001: Replace one-element array with flexible-array member
+592642e6b11e620e4b43189f8072752429fc8dc3 scsi: qedf: Populate sysfs attributes for vport
+48517eefb20ec2d6595ebd77ae11f34b3540cd78 scsi: core: Add I/O timeout count for SCSI device
+d4a0a0f2c84ad810141e25c3490d4e314fcf4838 scsi: wd33c93: Remove dead code related to the long-gone config WD33C93_PIO
+f920642e406cfa17ebecf03d5b83a02273ec718e scsi: mpt3sas: Revert "scsi: mpt3sas: Fix writel() use"
+d82e68483b81768c8d19bc7529635dad741607ce scsi: mpt3sas: Revert "scsi: mpt3sas: Fix ioc->base_readl() use"
+ee6f2d6bb2a0a3824b8f1d2cd4ceba8f8a3fb193 scsi: mpi3mr: Update mpi3 header files
+47cd930ee6aed7d63312ef133d1d46c4be42d6a9 scsi: mpi3mr: Support new power management framework
+7f9f953d537a7c8362ed6adafd25ef8deb548756 scsi: mpi3mr: Schedule IRQ kthreads only on non-RT kernels
+f2a79d2030ad9055e58f5b617f655fa5e270a57c scsi: mpi3mr: Graceful handling of surprise removal of PCIe HBA
+bad2f28da6250120ddbd19e4b68c814b3e3aaa2d scsi: mpi3mr: Handle 0xF003 Fault Code
+130fc180a48141cb6fbfdb30138a114cf9be61c7 scsi: mpi3mr: Free enclosure objects during driver unload
+f84e8b5bb57eb64391a45f95ebf0e2a179d8c566 scsi: mpi3mr: Scan the devices during resume time
+2e31be8697b16391d33c74c47f09fdef5015369e scsi: mpi3mr: Fix scheduling while atomic type bug
+f616efbee9d64cbd3b7b955914fea01cbdd95710 scsi: mpi3mr: Update driver version to 8.2.0.3.0
+6022f210461fef67e6e676fd8544ca02d1bcfa7a scsi: stex: Properly zero out the passthrough command structure
+c863a2dcb9b0894d9ac6030c4d1ab2e7867dabcb scsi: mpi3mr: Remove unnecessary cast
+57569c37f0add1b6489e1a1563c71519daf732cf scsi: iscsi: iscsi_tcp: Fix null-ptr-deref while calling getpeername()
 
---===============1960240070289861318==--
+--===============8679130247634667132==--
