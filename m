@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8679130247634667132=="
+Content-Type: multipart/mixed; boundary="===============0167635037911806485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 25 Sep 2022 19:01:10 -0000
-Message-Id: <166413247099.4958.9412268463510718924@gitolite.kernel.org>
+Date: Sun, 25 Sep 2022 19:01:31 -0000
+Message-Id: <166413249173.5173.9617882146678916129@gitolite.kernel.org>
 
---===============8679130247634667132==
+--===============0167635037911806485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7d0127fa396736c2c4f3fc3f023b17dcabc34d30
-    new: d07369e55f7bb07668f5dbdaad9ebac65fa38a73
-    log: revlist-7d0127fa3967-d07369e55f7b.txt
+  - ref: refs/heads/6.1/scsi-staging
+    old: 7f615c1b5986ff08a725ee489e838c90f8197bcd
+    new: 57569c37f0add1b6489e1a1563c71519daf732cf
+    log: revlist-7f615c1b5986-57569c37f0ad.txt
 
---===============8679130247634667132==
+--===============0167635037911806485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1664132456 -0400
+pusher 75C5DE3D 1664132477 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1664132456-a42266da75b6fe1cb3c7bc4b46d9178230052b3b
+nonce 1664132474-b5b750e4361f610c680ab29d900bab93b12843ea
 
-7d0127fa396736c2c4f3fc3f023b17dcabc34d30 d07369e55f7bb07668f5dbdaad9ebac65fa38a73 refs/tags/mkp-scsi-staging
+7f615c1b5986ff08a725ee489e838c90f8197bcd 57569c37f0add1b6489e1a1563c71519daf732cf refs/heads/6.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMwpWsACgkQ7ulgGnXF
-3j0sOhAAiGMuLIi+Or2W+rYv79DSn5+55U+odUeFvLPu0cs7Ayf40LWqJUccBziJ
-Y3IhwKwRZ65mvgq7CC4uIBUqFg3H4erZU+7F88PkBdyWe65NPpm+6cNnBN/sFJfv
-Io+fhovonYJxBtHvCVU3+0WcjGHT7hTiaeCvU1So9o/8S2DCd4Rvuq4qTgWhShCy
-rCIjsnHxULBuMNc1z1EG8w/8BdbS61ZAIDpBPnLN45w3rqDfWCkOE7xIIFy91vU1
-bb+3x/YC0Zp9fYsO6up0c+mClyssN3GqXW5ncY48oSgId4ToTDaXdG3as7TKFvgX
-JbeNa14ii74KfMbCV6/Smrl14nwBRC30W7lNVz4qofaGN2FEoOq4hupaMGpK4aFv
-DSEx5LgqlTLS25olWluLSS9PXuidS1zCIq4L/E1el/+OVFwKi9+szqFa+eB6T/84
-lyytg/ykut8Q9mO0OBbCyZXt3lfQeEPZKXCfUWLcWd5W33XcziQCPZrri219oovU
-q7oLSGVxK+LGc3d894wBqdYnMASrStzJUvmNgr89KChogX3fPLbPfYpeBlljYhjk
-XaW7LH5S2JwGNRx6/hdSmBjwyKqNti9WgFMaUD/p4aANDWlNOeVYIhrEQTAB5lOF
-xJHzqS+pihROCvFSCCyIo9xxvtqZpw+8OxwkXcW/NztK5Ca6PZQ=
-=D+AM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmMwpYAACgkQ7ulgGnXF
+3j3CHhAApDvhP1Mc/sXJYkiOsUFOfIPGAxzieSQAlLDdew5ac4eAbc782nhsKAnP
+HJOMb2vJV1empcxf4VOtufEzLySWuTyGOZkblv0Iwfy/8AmMljrKk91+I/xcJfrB
+k+6Tc0N0rp9eNbaDoH3iLg8m7P/KbCZncNJ2Giep+gWOI+hloyPT3LMTpU6npTjG
+m0oRfKnFLB3+n28QNLtMcv6dWZTLPTxeQ3D/b1QJNmyIsDulLK9vZD/0zt+AxiJe
+92w3F93wCK+wP1KNScTsa9nly52uGoG+vMy8A6+sKHmzeQblQ5T0MDEIDm8Cbx+g
+1V9MwoixzD7jmgxeHUU8fXyTxj0Gqbx+FyupgmZiz3Eo+zlanbeP6tif/BL2PGPp
+R9pMcqnUIH6rcc22YkIy7tfuNhQPY/d1cBuevKfXHyXuogTv517htY7G25V/zHdv
+5uJ+KKkTw047A4G+QIrMW46hQAsLVF02tLRMq04VCep4wOJMEJlRSm3OedKZ0P0Z
+xUSmHVZE96w1e02ZrziogyBdQ+Ii1frhgJWXysEO1qQjMB22RDaZeWcXgPBfufrs
+aUkz3zen/sZPKeJ6vxAHBWTQuKaCw+Y9Am245qrY4R5vb2HqHAbjg+4szQhwvF3j
+yDMEaiiUvKdm3BKvMH2bWOs8KRua4a0X6yQXbuEFLA5CgidzSy8=
+=/ipV
 -----END PGP SIGNATURE-----
 
---===============8679130247634667132==
+--===============0167635037911806485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d0127fa3967-d07369e55f7b.txt
+Content-Disposition: attachment; filename=revlist-7f615c1b5986-57569c37f0ad.txt
 
 1a77dd1c2bb5d4a58c16d198cf593720787c02e4 scsi: tracing: Fix compile error in trace_array calls when TRACING is disabled
 3d217b9ac532571335e69e64acf03a307b7acaf3 scsi: core: Make SCSI_MOD depend on BLOCK for cleaner .config files
@@ -85,4 +85,4 @@ f616efbee9d64cbd3b7b955914fea01cbdd95710 scsi: mpi3mr: Update driver version to 
 c863a2dcb9b0894d9ac6030c4d1ab2e7867dabcb scsi: mpi3mr: Remove unnecessary cast
 57569c37f0add1b6489e1a1563c71519daf732cf scsi: iscsi: iscsi_tcp: Fix null-ptr-deref while calling getpeername()
 
---===============8679130247634667132==--
+--===============0167635037911806485==--
