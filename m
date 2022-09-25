@@ -1,31 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0528282856773625134=="
+Content-Type: multipart/mixed; boundary="===============8230397582001314181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 25 Sep 2022 17:09:18 -0000
-Message-Id: <166412575825.21321.13434568328781543300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tyhicks/ecryptfs
+Date: Sun, 25 Sep 2022 17:12:45 -0000
+Message-Id: <166412596551.24084.5835110914771463732@gitolite.kernel.org>
 
---===============0528282856773625134==
+--===============8230397582001314181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tyhicks/ecryptfs
+user: tyhicks
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 158e7077b4e059b095b54d19dffed9023d2a6254
-    new: 3ab3eb0721b78a5adb0220b47534873662f954ad
-    log: revlist-158e7077b4e0-3ab3eb0721b7.txt
+  - ref: refs/heads/next
+    old: 682a8e2b41effcaf2e80697e395d47f77c91273f
+    new: c1cc2db216078f9b1e29c991b1b9177c26757162
+    log: revlist-682a8e2b41ef-c1cc2db21607.txt
 
---===============0528282856773625134==
+--===============8230397582001314181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-158e7077b4e0-3ab3eb0721b7.txt
+Content-Disposition: attachment; filename=revlist-682a8e2b41ef-c1cc2db21607.txt
 
+5535be3099717646781ce1540cf725965d680e7b mm/gup: fix FOLL_FORCE COW security issue and remove FOLL_COW
+a8faed3a02eeb75857a3b5d660fa80fe79db77a3 kernel/sys_ni: add compat entry for fadvise64_64
+a39c5d3ce03dd890ab6a9be44b21177cec32da55 mm: add DEVICE_ZONE to FOR_ALL_ZONES
+efd4149342db2df41b1bbe68972ead853b30e444 mm/smaps: don't access young/dirty bit if pte unpresent
+f369b07c861435bd812a9d14493f71b34132ed6f mm/uffd: reset write protection when unregister with wp-mode
+f96f7a40874d7c746680c0b9f57cef2262ae551f mm/hugetlb: fix hugetlb not supporting softdirty tracking
+1d8d14641fd94a01b20a4abbf2749fd8eddcf57b mm/hugetlb: support write-faults in shared mappings
+cb241339b9d020c758a6647c69f8e42538c5cf88 mm/shmem: fix chattr fsflags support in tmpfs
+15f242bb65b89d5f1ff990668a586fdf1307b2c8 mm/shmem: tmpfs fallocate use file_modified()
+76d36dea02691a8ffa8cd7368eecbf727b8a1c0c mm/shmem: shmem_replace_page() remember NR_SHMEM
+9c80e79906b4ca440d09e7f116609262bb747909 kprobes: don't call disarm_kprobe() for disabled kprobes
+7ae1f5508d9a33fd58ed3059bd2d569961e3b8bd parisc: Fix exception handler for fldw and fstw instructions
+706dd9d30d3bda4e31d423af004c22d48e89fbc9 arm64: dts: imx8mp-venice-gw74xx: fix sai2 pin settings
+c7afab4ac7bd5137e20711fba5ba34ee67b72710 arm64: dts: imx8mp: Adjust ECSPI1 pinmux on i.MX8M Plus DHCOM
+3df71d7064cbb19a3ac0e5dc25ece2bbf3a4d9af Revert "i2c: scmi: Replace open coded device_get_match_data()"
+d98bdd3a5b50446d8e010be5b04ce81c4eabf728 i2c: imx: Make sure to unregister adapter on remove()
+8eaac789128a84e79c193e662959469e824423ee arm64: dts: imx8mq-tqma8mq: Remove superfluous interrupt-names
+b66905e04dc714825aa6cffb950e281b46bbeafe RDMA/rtrs-clt: Use the right sg_cnt after ib_dma_map_sg
+56c310de0b4b3aca1c4fdd9c1093fc48372a7335 RDMA/rtrs-srv: Pass the correct number of entries for dma mapped SGL
+fc2e426b1161761561624ebd43ce8c8d2fa058da x86/unwind/orc: Unwind ftrace trampolines with correct ORC entry
+83c75e1bc2b83b3f0c718833bde677ebfa736283 ARM: dts: imx6qdl-vicut1.dtsi: Fix node name backlight_led
+204f67d86f55dd4fa757ed04757d7273f71a169c ARM: dts: imx6qdl-kontron-samx6i: remove duplicated node
 af7d78c957017f8b3a0986769f6f18e57f9362ea ARM: dts: imx6qdl-kontron-samx6i: fix spi-flash compatible
 e7406f864e765c564c5cf384464faff66114f97d arm64: dts: ls1028a-qds-65bb: don't use in-band autoneg for 2500base-x
 df88005bd81b80c944d185554e264a4b0f993c37 soc: imx: gpcv2: Assert reset before ungating clock
@@ -1026,29 +1048,7 @@ e3366e0234971a09f0e16f0e6fa16f4cbae45e47 io_uring/net: fix zc fixed buf lifetime
 38eddeedbbeac33f26845c29e7414b9313ea70db Merge tag 'io_uring-6.0-2022-09-18' of git://git.kernel.dk/linux
 7c18b453ef7237bc25b7cbd425a05ac1b6fb074b Merge tag 'parisc-for-6.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 521a547ced6477c54b4b0cc206000406c221b4d6 Linux 6.0-rc6
-8fb9aef709fea173579d5229aeb95a722deb498c dt-bindings: watchdog: toshiba,visconti-wdt: Update the common clock properties
-7b0d5fa242003fcb8334c11b6bfe24f9eb19bd61 watchdog: bd9576_wdt: switch to using devm_fwnode_gpiod_get()
-63e325750a4b8eafe65a179aa192acc1b93666bc watchdog: wdat_wdt: Set the min and max timeout values properly
-49d6d7556eaf69612d7b0e05b67c2d81cffcdf6a watchdog/hpwdt: Include nmi.h only if CONFIG_HPWDT_NMI_DECODING
-5dc4802aa72633200a7d763cf9d6ade3f00162f1 watchdog: Enable HP_WATCHDOG for ARM64 systems.
-dbe75bded5b52a85587ba0fe604c74737ecbd49d watchdog: aspeed_wdt: Reorder output signal register configuration
-9ce5532c730ea6b5358916e946fbd44fc1337b0f dt-bindings: watchdog: Convert Xilinx watchdog bindings to json-schema
-f63c6d3c9e5949f27b445cebc85a75d3e93e3885 watchdog: w83627hf_wdt: add bootstatus support
-24cc53a43cc7df8b66b808d7b2c34210382fd4d6 watchdog: ftwdt010_wdt: implement _restart() function
-dca9ec16970000271e44f4cdde14cb193d874e95 watchdog: Exar/MaxLinear XR28V38x driver
-4f62d221f930ab84727d1c4ef670920b963c97b4 dt-bindings: watchdog: renesas-wdt: Add r8a779g0 support
-fe3a89ae3341459e4a9afdb846a8ca2f894b77cf watchdog: ftwdt010_wdt: fix test for platform_get_irq() failure
-90856ae723cdcfaa96495e108dbb21a063998119 dt-bindings: watchdog: renesas,wdt: Add r9a09g011 (RZ/V2M) support
-1ca93cfc6afa48dd5e10a6d1b5696108faf18559 watchdog: rzg2l_wdt: Add rzv2m support
-b89b44612c5d608c37efcda55162cef7d71c76ab watchdog: Check dev_set_name() return value
-33f272a93f2ccb64adeef343ed45561f27a8f62c watchdog: eurotechwdt: Remove redundant word in comments
-af5d0900258aef3de0611f3c8be7055732e01c56 watchdog: w83977f_wdt: Fix comment typo
-9a3fdf66439020d66a03d80c3f59b925b169f608 watchdog: sa1100: make variable sa1100dog_driver static
-f7f20a33563a8e88278c0782a88625460b3b4593 watchdog: armada_37xx_wdt: Fix .set_timeout callback
-1564cd640c2669d92f9a6aa271c0ffe1c783b5b3 watchdog: dt-bindings: atmel,at91sam9-wdt: convert to json-schema
-eeb603b7e8d1a9acffb9d762f6d5a508bb7c0bd1 watchdog: meson: keep running if already active
-09630e61117427ee991bc1af365772ebba045e7b watchdog: npcm: Enable clock if provided
-e8497dc7f4767fb13e55740ff01b2c13d0e7a2da dt-bindings: watchdog: add exynosautov9 compatible
-3ab3eb0721b78a5adb0220b47534873662f954ad watchdog: s3c2410_wdt: support exynosautov9 watchdog
+031a0300f2c94e81598bcc08a9e6de7f10a18d7b ecryptfs: Replace kmap() with kmap_local_page()
+c1cc2db216078f9b1e29c991b1b9177c26757162 ecryptfs: keystore: Fix typo 'the the' in comment
 
---===============0528282856773625134==--
+--===============8230397582001314181==--
