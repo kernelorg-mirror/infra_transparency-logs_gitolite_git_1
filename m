@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 25 Sep 2022 19:25:50 -0000
-Message-Id: <166413395093.22844.4424577048619316776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sun, 25 Sep 2022 19:38:31 -0000
+Message-Id: <166413471125.30295.3141750363885082039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/tags/devfreq-next-for-6.1
+  - ref: refs/tags/extcon-next-for-6.1
     old: 0000000000000000000000000000000000000000
-    new: 788c836f96cda8c432f96eb0ecfe12346b3bb331
+    new: b0047b116dad61fa4c095aca9295eb4cb4449c18
