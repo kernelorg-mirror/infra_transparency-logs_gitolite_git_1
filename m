@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1207371699707780750=="
+Content-Type: multipart/mixed; boundary="===============8727623994382392530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 25 Sep 2022 07:29:31 -0000
-Message-Id: <166409097122.23808.18121551089181396264@gitolite.kernel.org>
+Date: Sun, 25 Sep 2022 07:30:08 -0000
+Message-Id: <166409100841.25674.2304188688861066829@gitolite.kernel.org>
 
---===============1207371699707780750==
+--===============8727623994382392530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: a12c689209185c1ad872723a644d0cd27e52d49c
-    new: 7c7f9bc986e698873b489c371a08f206979d06b7
+    old: 7c7f9bc986e698873b489c371a08f206979d06b7
+    new: 379a33786d489ab81885ff0b3935cfeb36137fea
     log: |
-         77b2d26805c9b438b5f74cf73849979d28cefeb3 serial: 8250_omap: Convert to use uart_xmit_advance()
-         e02fbb0bcb9b6d5f83f01af87bc643dd0d78319b serial: 8250_dma: Convert to use uart_xmit_advance()
-         7c7f9bc986e698873b489c371a08f206979d06b7 serial: Deassert Transmit Enable on probe in driver-specific way
+         379a33786d489ab81885ff0b3935cfeb36137fea serial: 8250: Fix restoring termios speed after suspend
          
 
---===============1207371699707780750==
+--===============8727623994382392530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664090969 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664091007 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1664090968-e83f4ffb7c4fa7cafe1a38294c378d98b568d3ac
+nonce 1664091006-1cdcb66773d86c57f06e9d11f1480c45fd34f08d
 
-a12c689209185c1ad872723a644d0cd27e52d49c 7c7f9bc986e698873b489c371a08f206979d06b7 refs/heads/tty-testing
+7c7f9bc986e698873b489c371a08f206979d06b7 379a33786d489ab81885ff0b3935cfeb36137fea refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMwA1kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y5kP/3rxX0dxHcIcur2YvCzA
-o7ag//93aN2syfieEN2CAz4lOxRc0zIh4EJ3XtE6tVWnqGbgTZSAgn1Wf1XntsEW
-czwefpHYnhzyAo8cnC4gX47CDCkFGfUssPp3LWRtx0I0H9vcThNuuATcY4B69km3
-qFB31yi3SsahhfRv6/nytk0ebkbcrGflh/Z7iHu+P1iBgfdX2wMI1aCT2PRiXL0B
-4BhDoJa1m2H66iG5zOBpUEmHtHiyfRdx07zsyKBlUCkyKHsvysS5P2yqBWngMiVc
-DQyZ63GntPQiRBw8qY64YsqiA2wLXdlDEQx+p+Tju9npl2nHHZarQ+9ulre/p0Va
-DFKcWUMGZpHdE0/Ck+1BokgtwA3sIx/AhVgaPlvQnkziduVKR4tJF43iZlyUCue2
-bi0UFDBjaNHjxbZGFC36VBLDEmAwvCyJtZ3OKg207Db5/DVMQnAYJh9fPuxn2Q6j
-wfaN7rMfFgRrfsLjPZPKyTsJLniqvyQ9MLydQC3mlxP6obXOdmZLZXLBWroAXxTN
-GOzrLon8WCOecaWq4w8kNSZ9whjbQMTjkc00FyJe1e1TrMZ+vpXjOWwtbmlxO63C
-4jLXuTC4InJuNQ0w5M723gJVJ+J5hQJvyK/gVxQXY68oQlEuGOMShzbn7dcRNIIN
-RaVpdqHtSbcjf3HJRs9kNr+e
-=u4qm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMwA38bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SrAQAJR8YHmcaeXeDH0yjBvs
+50IYE7iAGU0tiN5/Vh5bRDPXyfnOzmrvTKMAf0pKe+nA3cb8++3kHARO1guFCB12
+vd25sg6ho9WI11BtYO4O6ghB7H16eZIa2iJROp5vQG8jbRfX0vltmC/thZX4B3A6
+kZQUtJWcbcrwjoP1pv8gtc/2TUg6EPk4M0UywMucK30rTtw8lq1tBJSKScl97NgW
+Uj3S3pbE74ViV4gvM85L0JTodv9A38nDgCJyzMl88Xhvy2Z+7muPHnuDidjoBv/H
+hzIsZdGKBBELPgoqHa38Us7I03Zykk80IMq2IJ+3gnPAn3MIIsGwupwuR5iDv9h7
+4naNzDVPpta4+9c3Vy8McvVFZzy6MRbttWLzvXOYQ1WMTBKRGEm6TsFyWLDCWcnx
+CtkkGauhz1wvJINEU3NAya9vjaLP6hx9XqEgNu45bcfarro4pBXl7r58p+RanojF
+A5JLZpZ3GvlKsZxyn7r1GdIrL3YhVSV/4489H5IFGIxKSwDgGmpPJOg84H/Zqg6A
+gI6NFmrxAadRhl+eaeKiFNFo4q/KrbL2psPcjTzJABEMeZN0FokcNezpAR84L1i4
+sE6n0W80c+00vv98yAHg+6j4wvjjbkF3thvoRZxSkc0nVoHcGLknMVwFeS8o8Zd+
+zBR1rCw69614mKL+ExGG4YGj
+=hNQW
 -----END PGP SIGNATURE-----
 
---===============1207371699707780750==--
+--===============8727623994382392530==--
