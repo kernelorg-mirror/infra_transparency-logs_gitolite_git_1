@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 25 Sep 2022 20:57:49 -0000
-Message-Id: <166413946934.22187.7477508878387293071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 25 Sep 2022 21:14:39 -0000
+Message-Id: <166414047979.383.17623474246622467271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 4b131a9c519d6d07fc6733a761e1d9daf9382544
-    new: ea23a71e953059d96a0600208402de616804b871
+    old: 5e049663f678938dd56812ba870a471060f8ce28
+    new: f76349cf41451c5c42a99f18a9163377e4b364ff
     log: |
-         c9229260a56086131f443d0db7f3fdb58a0e0bf4 foo
-         ea23a71e953059d96a0600208402de616804b871 Merge branch 'master' of gitolite.kernel.org:pub/scm/linux/kernel/git/akpm/25-new
+         f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
          
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
