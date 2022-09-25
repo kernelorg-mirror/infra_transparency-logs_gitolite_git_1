@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Sun, 25 Sep 2022 01:38:39 -0000
-Message-Id: <166406991910.4214.2384899600664848907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 25 Sep 2022 01:52:41 -0000
+Message-Id: <166407076138.13725.4573408528810881336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/dev
-    old: 1a0bdad3d548dac44e406992e99dd4e9fd347f39
-    new: 80fa46d6b9e7b1527bfd2197d75431fd9c382161
+  - ref: refs/heads/master
+    old: 18a01e1ce7660e7f69d1c4447059a77101b8a8cb
+    new: 4cebe2ce1a52f8ec0458cbafbc828f86fa3b0697
     log: |
-         29a5b8a137ac8eb410cc823653a29ac0e7b7e1b0 ext4: fix bug in extents parsing when eh_entries == 0 and eh_depth > 0
-         80fa46d6b9e7b1527bfd2197d75431fd9c382161 ext4: limit the number of retries after discarding preallocations blocks
+         0a79f79733435b9095798b1783bf0fedc1aef341 Fixes for 5.19
+         3c8b10f834995e07ef945edb241753e668d949dd Fixes for 5.15
+         7f38154e7161f0dbb1a997daabdbca641fbf67d9 Fixes for 5.10
+         f6db4fc7e33d1a8ab9dc590e151c8d05ea698472 Fixes for 5.4
+         eae3a66ffce1e34d85eb8105e3d49c8592803033 Fixes for 4.19
+         0296cd8b96710084ee98f494fc39f87e7ae15092 Fixes for 4.14
+         4cebe2ce1a52f8ec0458cbafbc828f86fa3b0697 Fixes for 4.9
          
