@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4081856616564027446=="
+Content-Type: multipart/mixed; boundary="===============7563922194729214677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 26 Sep 2022 08:57:39 -0000
-Message-Id: <166418265926.15206.3366810949135965591@gitolite.kernel.org>
+Date: Mon, 26 Sep 2022 08:57:44 -0000
+Message-Id: <166418266455.15327.13802455582342742509@gitolite.kernel.org>
 
---===============4081856616564027446==
+--===============7563922194729214677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 47af6c640ed82f111dbce0b3bf4083a91d61e324
-    new: f76349cf41451c5c42a99f18a9163377e4b364ff
-    log: revlist-47af6c640ed8-f76349cf4145.txt
+  - ref: refs/heads/usb-next
+    old: ad5dbfc123e6ffbbde194e2a4603323e09f741ee
+    new: 67102bd31b4e31abb0abbc390381212a2d65db72
+    log: revlist-ad5dbfc123e6-67102bd31b4e.txt
 
---===============4081856616564027446==
+--===============7563922194729214677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664182658 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664182663 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664182657-ce22b837539b716263b64760d80ee1f84008d408
+nonce 1664182662-68d027dec46814c1502d67050c9fcb5215a4be92
 
-47af6c640ed82f111dbce0b3bf4083a91d61e324 f76349cf41451c5c42a99f18a9163377e4b364ff refs/heads/usb-linus
+ad5dbfc123e6ffbbde194e2a4603323e09f741ee 67102bd31b4e31abb0abbc390381212a2d65db72 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMxaYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KjYP/jDa5h+LyeVj/q5xE8I5
-9s11X9WUhWcRusTlJnjCzA+vkZQhS0KVvFnPlQNpt6XOImOVzI8kMstmOkjZFEhY
-HE52H21o8jerKXrtbZa5A1+VbzkH90gKjoJebeQGj66LssVbhLjfqmj7v3yUhADy
-7t7OERAPnQhO+baVMczrPj/4zO4MP5hTR8tBjC3xeHJj16IQWfA6yH5HlcS5PWwL
-sGcMrNXksPW6pBeefk4P+lnCK5cOe5K+0KUO+KI8SjhX24ZqHggXOzTVQukBVZw+
-r2Rib+1Mqu0UIyrlFAmdjSiYX61Fy5IdOQ3UAGEYGb5tZ5yMaYINMso0roeaW1r/
-DH2TjiDehV8Zvw6eeclL7dcXOhmQNKIzwTODnqzr3BXe3NBgjoWjZuqBUVdoi4n/
-Ms4HHw5o3FvbzQ1nJPGGZ1TzRlZhBSXBEeJQ0dMc3H8f4vzAq9gcUd8xU15gD1tX
-b7CVF6NQPKlpiDEkGrgYrAmtwCj4440QweTkRDom/XBTp1bNXkiWFnWz27su6wpV
-7C/P9pBroPyqV+rj0NlxvIN/Kz8ql113ooAzhUljvnnnS0SQW/99EVUJCQomUieP
-xfoDenp5jyNS0heolRR118bxgz936W4nw2WdBvuDDCKTqnh4FzNFtqaEE7HlEkdT
-WrHI5waiCAs3K3/wlgY2NptQ
-=yZ3k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMxaYcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+23EQAJ2m0pX4mqhqL1TUXp8R
+GFVCAYK23AC/9DjksOpj2+UQ9bATUfRyZO6GDzaT/Smzx8WSpcxhm3HWoKCl5DRc
+pGi4ERYdJ6xyojR7Abw+62Vs3/mUrMt0/V92vImDmq/j1EXLbwt3+sk27Tpkt7px
+lEeVDhpAnQDhyJnboaoQjbjRRBaOJbw6z9rZoKdjhjqHaeQWLK0/AUPNba0hOUuY
+v7PFJFhwaIvUMN7ry84y8OdhWAZZMTboFT4RY26pez8I1TN0ugCqcxggFn7tbHcd
+UtcXqZt/9gf5XEfheyCeTD2MQhgxri6+ob8BIb+RqY+GjPbLA33CMAhK2dInmH6Z
+a/4vtlDMdqgfMMCkB/wL198MPU40Ate3k108mZLn+aRPOesdFmy4yzZWl4FzjRe1
++q9APvIIOLleRJR4EWbGTsJtnWXxEHT4Isw0kr/zgsZJPna2L8crvPsSAcr0Zc/Z
+LwjeCkLFtMRJmAl9TubkJ9v4nn4Z2qAbiJlxr0BC0TxpxJs73YNA0COVQMirftbu
+3nOakYnLnn0e3BbDS1JCgb2Q9xIrsnYDRsl/b4OnxRjI25joGiGsP3B+40R6FSxi
+j2UEcOQdH2tDeBdUUHHQWAMVIFUOuoAbyuFz8Ihrujs4XEs9T+XWH4bObvXRRQdw
+PatkYyG0Xote0k1UV2QbpxYd
+=lo8J
 -----END PGP SIGNATURE-----
 
---===============4081856616564027446==
+--===============7563922194729214677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47af6c640ed8-f76349cf4145.txt
+Content-Disposition: attachment; filename=revlist-ad5dbfc123e6-67102bd31b4e.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -276,6 +276,7 @@ ea89926d9690f055fd8da929f6621a760e8e0f14 arm64: dts: rockchip: Remove 'enable-ac
 5666a274a6d54372d6b79b1f78682a9d827e679e driver core: fix driver_set_override() issue with empty strings
 dec9b2f1e0455a151a7293c367da22ab973f713e debugfs: add debugfs_lookup_and_remove()
 c2e406596571659451f4b95e37ddfd5a8ef1d0dc sched/debug: fix dentry leak in update_sched_domain_debugfs
+766a96dc558385be735a370db867e302c8f22153 USB: core: Fix RST error in hub.c
 85eaeb5058f0f04dffb124c97c86b4f18db0b833 IB/core: Fix a nested dead lock as part of ODP flow
 9ca05b0f27de928be121cccf07735819dc9e1ed3 RDMA/mlx5: Rely on RoCE fw cap instead of devlink when setting profile
 74b30b3ad5cec95d2647e796d10137438a098bc1 RDMA/mlx5: Set local port to one when accessing counters
@@ -373,6 +374,7 @@ e8d5dfd1d8747b56077d02664a8838c71ced948e netfilter: nf_conntrack_irc: Tighten ma
 0e80707d94e4c88f9879bdafcbaceb13432ec1f4 net: ethernet: mtk_eth_soc: fix typo in __mtk_foe_entry_clear
 9cb252c4c1c53ae58bc565bab76e98133288f23a net: skb: export skb drop reaons to user by TRACE_DEFINE_ENUM
 f27b405ef43319a3ceefc2123245201a63ed4e00 net: ethernet: mtk_eth_soc: check max allowed hash in mtk_ppe_check_skb
+91062e663b261815573ce00967b1895a99e668df usb: dwc3: core: leave default DMA if the controller does not support 64-bit DMA
 e77cab77f2cb3a1ca2ba8df4af45bb35617ac16d serial: Create uart_xmit_advance()
 754f68044c7dd6c52534ba3e0f664830285c4b15 serial: tegra: Use uart_xmit_advance(), fixes icount.tx accounting
 1d10cd4da593bc0196a239dcc54dac24b6b0a74e serial: tegra-tcu: Use uart_xmit_advance(), fixes icount.tx accounting
@@ -431,6 +433,7 @@ f66b98c868f2c1ffcb1139ea19d6f20983f1f9dc iavf: Fix change VF's mac address
 47311db8e8f33011d90dee76b39c8886120cdda4 tracefs: Only clobber mode/uid/gid on remount if asked
 7e9c323c52b379d261a72dc7bd38120a761a93cd mm/slub: fix to return errno if kmalloc() fails
 00801cd92d91e94aa04d687f9bb9a9104e7c3d46 NFSD: fix regression with setting ACLs.
+14c7d905283744809e6b82efae2f490660a11cda thunderbolt: Add support for Intel Maple Ridge single port controller
 df2a60173a61a5acf44fca2cfb2d8d9f5b810a3f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 f448dda895edcee1bd92a3ec6c4d9d210523b853 Merge tag 'asm-generic-fixes-6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 460a75a6f7cd22b7b0522c00fe778c5146b9a96f Merge tag 'trace-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
@@ -512,6 +515,8 @@ ca2dccdeeb49a7e408112d681bf447984c845292 net: phy: aquantia: wait for the suspen
 8a1f1e3d1eecf9d2359a2709e276743a67e145db btrfs: fix hang during unmount when stopping block group reclaim worker
 a362bb864b8db4861977d00bd2c3222503ccc34b btrfs: fix hang during unmount when stopping a space reclaim worker
 2dd7e7bc02829eded71be2342a93dc035f5223f9 btrfs: zoned: wait for extent buffer IOs before finishing a zone
+f8f67eff6847f9b8d753fa029723bcc54296055a USB: serial: option: add Quectel BG95 0x0203 composition
+d640c4cb8f2f933c0ca896541f9de7fb1ae245f4 USB: serial: option: add Quectel RM520N
 da3b1c294d470b2cf3c7046cc9e0d5c66f0a6c65 dt-bindings: apple,aic: Fix required item "apple,fiq-index" in affinity description
 d1221cea11fca0f6946bdd032a45b22cecfc0f99 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 62bb0647b14646fa6c9aa25ecdf67ad18f13523c io_uring/rw: fix error'ed retry return values
@@ -567,6 +572,7 @@ e359b70cc1c51138e166bd4a560e5c5995369a99 parisc: remove obsolete manual allocati
 805ce8614958c925877ba6b6dc26cdf9f8800474 parisc: Allow CONFIG_64BIT with ARCH=parisc
 c4fa368466cc1b60bb92f867741488930ddd6034 blk-lib: fix blkdev_issue_secure_erase
 d8ab4685adc1f78aef5ece1334a47ca1a8181745 Revert "driver core: Set fw_devlink.strict=1 by default"
+ce001778dfc34804f2b1fa6faaad7ac888326afb Merge tag 'thunderbolt-for-v6.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 7b9a516a91827e7994a4df51593278c98aae2ce6 Merge tag 'imx-fixes-6.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 1885ff13d4c42910b37a0e3f7c2f182520f4eed1 ALSA: hda/realtek: Enable 4-speaker output Dell Precision 5530 laptop
 b16c8f229a58eaddfc58aab447253464abd3c85e ALSA: hda/realtek: Re-arrange quirk table entries
@@ -758,17 +764,20 @@ a9f2a2931d0e197ab28c6007966053fdababd53f ext4: use locality group preallocation 
 d21fc11109ca02e870794a53c0a236365e92c148 Merge tag 'drm-intel-fixes-2022-09-21' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 63bf28ceb3ebbe76048c3fb2987996ca1ae64f83 efi: x86: Wipe setup_data on pure EFI boot
 5f56a74cc0a6d9b9f8ba89cea29cd7c4774cb2b1 efi: libstub: check Shim mode using MokSBStateRT
+763679f0eeff0185fc431498849bbc1c24460875 media: flexcop-usb: fix endpoint type check
 e738455b2c6dcdab03e45d97de36476f93f557d2 net/smc: Stop the CLC flow if no link to map buffers on
 d7f06bdd6ee87fbefa05af5f57361d85e7715b11 drivers/base: Fix unsigned comparison to -1 in CPUMAP_FILE_MAX_BYTES
 61d2d1808b20da4a45a90b4bd61ae92f729bab78 arm64: mm: don't acquire mutex when rewriting swapper
 d4955c0ad77dbc684fc716387070ac24801b8bca arm64: topology: fix possible overflow in amu_fie_setup()
 2bc54aaa65d2126ae629919175708a28ce7ef06e counter: 104-quad-8: Fix skipped IRQ lines during events configuration
+09431acde35f46ac82fb5230c7479f1edc557c75 usb: typec: anx7411: Fix build error without CONFIG_POWER_SUPPLY
 05d6f6d346fea2fa4580a0c2b6be207456bebb08 perf/arm-cmn: Add more bits to child node address offset field
 2002fbac743b6e2391b4ed50ad9eb626768dd78a net: phy: micrel: fix shared interrupt on LAN8814
 0e400d602f46360752e4b32ce842dba3808e15e6 bonding: fix NULL deref in bond_rr_gen_slave_id
 2ffd57327ff1e91ad675c1efd5f02a3d786e64d1 selftests: bonding: cause oops in bond_rr_gen_slave_id
 c5da4b68d2a8592a7535bb9e4523158088a6538b Merge branch 'bonding-fix-null-deref-in-bond_rr_gen_slave_id'
 db39dfdc1c3bd9da273902da12f01973792ff911 udp: Use WARN_ON_ONCE() in udp_read_skb()
+47af6c640ed82f111dbce0b3bf4083a91d61e324 Merge tag 'usb-serial-6.0-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 878e2405710aacfeeb19364c300f38b7a9abfe8f net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
 c2e1cfefcac35e0eea229e148c8284088ce437b5 net: sched: fix possible refcount leak in tc_new_tfilter()
 3aac7ada64d8c26ccc922f1ca966043c0dae88da net: marvell: Fix refcounting bugs in prestera_port_sfp_bind()
@@ -829,5 +838,6 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
+67102bd31b4e31abb0abbc390381212a2d65db72 Merge 6.0-rc7 into usb-next
 
---===============4081856616564027446==--
+--===============7563922194729214677==--
