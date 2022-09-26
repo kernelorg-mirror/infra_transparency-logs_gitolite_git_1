@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1187353571795074593=="
+Content-Type: multipart/mixed; boundary="===============7699944273808326914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 26 Sep 2022 03:27:22 -0000
-Message-Id: <166416284291.10316.6348774698068797309@gitolite.kernel.org>
+Date: Mon, 26 Sep 2022 03:27:32 -0000
+Message-Id: <166416285264.10450.14757528136347830081@gitolite.kernel.org>
 
---===============1187353571795074593==
+--===============7699944273808326914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 7d895ec0633c51bdedc69b1857e3f248bc1dfc09
     new: 47b6bdc1ef4e67c6df8f6caaaa49ccca9240a6be
     log: revlist-7d895ec0633c-47b6bdc1ef4e.txt
 
---===============1187353571795074593==
+--===============7699944273808326914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ df26b723eea13bb4e18fb2706fdaca0ec2fcbffd kbuild: use obj-y instead extra-y for o
 1ee908e4168ed5ca871d1b72cfa369af6b1b2171 kbuild: remove head-y syntax
 47b6bdc1ef4e67c6df8f6caaaa49ccca9240a6be kbuild: re-run modpost when it is updated
 
---===============1187353571795074593==--
+--===============7699944273808326914==--
