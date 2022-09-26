@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 26 Sep 2022 22:22:29 -0000
-Message-Id: <166423094913.25959.12544921553053028218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 26 Sep 2022 22:27:48 -0000
+Message-Id: <166423126851.30733.12110906295084574692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 2d5604c822e91c3eebaa0f9d0691acb954071ef1
-    new: 760bda91cb4f5f778a6193b20c22726209579164
+  - ref: refs/heads/master
+    old: bc6ffe804ef8d793288df4da7539d047462893bb
+    new: 9175cc34de8c790f3d2ecce05335d0fc282d5407
     log: |
-         760bda91cb4f5f778a6193b20c22726209579164 hwmon: w83627hf: Reorder symbols to get rid of a few forward declarations
+         3e1e6ee95e551efd43d6789e704147cab730f040 random: split initialization into early step and later step
+         466da5c0e743bc0f6c4bb8caa7b7a4b1f9a72d0c kfence: use better stack hash seed
+         9175cc34de8c790f3d2ecce05335d0fc282d5407 random: use immediate per-cpu timer rather than workqueue for mixing fast pool
          
