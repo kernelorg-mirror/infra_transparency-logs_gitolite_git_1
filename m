@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3869335795243522545=="
+Content-Type: multipart/mixed; boundary="===============5517870641016012351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 26 Sep 2022 10:07:42 -0000
-Message-Id: <166418686213.14465.13985431220733482833@gitolite.kernel.org>
+Date: Mon, 26 Sep 2022 10:07:43 -0000
+Message-Id: <166418686347.14526.10296953330692212736@gitolite.kernel.org>
 
---===============3869335795243522545==
+--===============5517870641016012351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,87 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 870be9139d98d1e5ea6a1e49393b2820265d4f94
-    new: 06c070482de70aff69961e1edcdcd930fb9cb887
-    log: revlist-870be9139d98-06c070482de7.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 9d9e5006093ecfd30233efee7a31ad83f90232b1
+    new: 959fe4ff439c8dc73f28f08635fe7b9e94c426fa
+    log: revlist-9d9e5006093e-959fe4ff439c.txt
 
---===============3869335795243522545==
+--===============5517870641016012351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664186861 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664186862 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1664186857-7231f57f4ff99fc412499b85d955f35b000d7797
+nonce 1664186861-604eccd2cacb6ae4e15724bf28123820e2dac883
 
-870be9139d98d1e5ea6a1e49393b2820265d4f94 06c070482de70aff69961e1edcdcd930fb9cb887 refs/heads/linux-4.9.y
+9d9e5006093ecfd30233efee7a31ad83f90232b1 959fe4ff439c8dc73f28f08635fe7b9e94c426fa refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMxee0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O+QP/2P0M88pJ63tf/mHp0jW
-rd6n7ZG3gHzX9iq4Red/QVt/AlJSA2U9waUW/JqKtA+gMI02i4t/lD2F9RA22RZW
-u2RwLSlCqbR7Ig980fukPcBZ/yWaio2vgWbYx2QjMiGc9K1XxFkF25RBjO7/+3RW
-GLrAFmmMnSAO09BafOLTTmpqHwxDbryZF6bAScuwKPZBHwtIH9aQpi0qwyii9BxL
-/O6J8r/fqnKfv4esvdfgNGnB+kRGqQFxXylWuQzJBjGtuJ5JG92TVn6006fBhDhF
-JfWasn+oZN89kXfJ9ZkSx4SHJo7gE8oLbcOASP153Ew/Y9x2NtYkUTpf3TyKA1c6
-3+rs4XcsnT25fUVkFijs+Wd8oMoCtGHE3wc0xNWlibuvDzZ1sha50bKfBZtaEYxs
-MDIg3Vd/TuKEuq2RNtnJye7naH6WocQggTj8i6usxM2RruFc41zAWY71Gca70F/S
-WMoafn23aAEpCJCN46Lp7TfOw/s/VfxTBuW31VM6/Ly84ojIB+1A+EAEOyyjbOrk
-xlJsYAemirQK6dfFiDyqc21rxGoOUwyte8Ceo6SLJ+DffkOBCKtun+7FYcRE4Ud/
-fiFGa6h3BL/TWo43DNDsYwH5gjrMNBVPQP0K2kHvmfa2AlvA9+UdFl+FeHtbk1A6
-zgyjs8+pmpYLQbEkec1pUTs8
-=qz8l
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMxee4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YboP/0lW6R5N9kIX7U1QIBKo
+iE6bUzPPwB+WXiqTLG/0swejPrr9sqDu0zTBdlfTSziihzdLV2UBJnQrTtTfd5ZX
+YPCjETNqGVr3vbzI3BR6AFOrw9rFVVlNNHVqp5YZRIcns45bYCY9IlyExuZTHClS
+8bms/fzjWTR6dMgL8RmlDq0K84mv7Ajj5McEL5ruoOsI+X9HkeMmxcsobG3DHOKB
+qCtoBvYWF/jen1tSrp76X+nRRMJ/j6+SZ4r93ghnGZfDZFlep/excNqOT/ethZ10
+jUXYySJGreISN/IkhUzIf1xs/BX06tZAxjDV+5+89fnhqW17JnVPahcPjsKnIUjT
+CdnvG/tkgu0l6vs2fpu/9lPMffxRdkE7ciUdyB4rtBRe7thp89HHvbgvzzpayxkQ
+FFpMQ8WpsTVyk9vwHp/BtZje9GQtmpUGRt54T8W/gc33feAbeGVc+4nX7dFmZBbW
+bbsPTdJjbUnkJWG39NbNhdbMXfzdQP6iDsuIQXt5Govfo1p+/1cUFwWgGTs+UT9L
+PFeyuftkREmDSYqAncmvZVUI5S49xKkyeSED0EohSp+IuUGi/c9J5+dL33xTEHF0
+/aG5F/UDZLYdr3qRIBwuyhWiwO4Fepm1u1xkbA5N5aS2AMKvH7aojsxl+JJJhhRp
+bnqyNYfX+4Uc7n/vksrhTxcH
+=4PA3
 -----END PGP SIGNATURE-----
 
---===============3869335795243522545==
+--===============5517870641016012351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-870be9139d98-06c070482de7.txt
+Content-Disposition: attachment; filename=revlist-9d9e5006093e-959fe4ff439c.txt
 
-fabe8375f966cbfd04f6050ba7cd263cd5476b49 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
-cea434aa89236b57c4d322aaf9f1353dddfa9fb6 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
-ed88dd566cdd09e83b3600dab3889aa7f02373b0 drm/vc4: crtc: Use an union to store the page flip callback
-de8b8a9997a6b381581839434f8cde283e3c219c video: fbdev: skeletonfb: Fix syntax errors in comments
-9d3d84ead3e25dfe4cfa17846e8675d1d73ed7fa video: fbdev: intelfb: Use aperture size from pci_resource_len
-0e2ba6e7fa224770074546fd1b01c4233604a7fa video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
-86e2f3dea38fe1fd77c570bcb2f1f1f6e39a8df6 video: fbdev: simplefb: Check before clk_put() not needed
-d99891360319ae4017f0d4be868042a6197c9cd7 mips: lantiq: falcon: Fix refcount leak bug in sysctrl
-6639a847016dd8913b07bcb1dcf12465152a0a4a mips: lantiq: xway: Fix refcount leak bug in sysctrl
-f962ef7ee8c0b3754e00c8adbc33bfc905060681 mips/pic32/pic32mzda: Fix refcount leak bugs
-d71e41333114c15f93bd63cf0249cd53340472e3 mips: lantiq: Add missing of_node_put() in irq.c
-5f7caeeeac2fb021a276a43675ff30cba242cf69 arm: mach-spear: Add missing of_node_put() in time.c
-4085d6f4c4dd10843c1dbe9a038f998c2c106981 wifi: mac80211: Fix UAF in ieee80211_scan_rx()
-d9e90e062fe2f65338a2c28744f6de2b5df784b8 USB: core: Fix RST error in hub.c
-76858da72080e11c8cd29407ef41c312fe07053c ALSA: hda/tegra: set depop delay for tegra
-c23f28454a0647a906428f7b3db485a5c2b0e08e ALSA: hda: add Intel 5 Series / 3400 PCI DID
-daf88c7a718087a102ad642b3abf29c28f4439f5 mm/slub: fix to return errno if kmalloc() fails
-c6b50004fb1b8429834e857b365eaf3d2ff71923 netfilter: nf_conntrack_sip: fix ct_sip_walk_headers
-fdcc6643eb7c5a884eb9de36a688977b6035b509 netfilter: nf_conntrack_irc: Tighten matching on DCC message
-60c0128f3fc46f2e3ee2e3fac1fe76ffad7fa90e ipvlan: Fix out-of-bound bugs caused by unset skb->mac_header
-8a7d0d7c6cf6945e7c705841913bfbc6b575d600 net: team: Unsync device addresses on ndo_stop
-7dcbecab8a99088d96b1623ddfb3a52075d85bc2 MIPS: lantiq: export clk_get_io() for lantiq_wdt.ko
-9d4af6002f1fe76a9de5f93bae2b22a9848d1594 can: gs_usb: gs_can_open(): fix race dev->can.state condition
-22ce69e131042dce36ab307b1ad2ecd723a098fe perf kcore_copy: Do not check /proc/modules is unchanged
-9e59a31a73b8df6562eea9b00e700de3f7302336 net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
-26c99bb7bc591092bbf544c16411b85f2cae1d72 serial: Create uart_xmit_advance()
-aff88c2c15b88cabcf87de7358e2c30a76aab0cd serial: tegra: Use uart_xmit_advance(), fixes icount.tx accounting
-4aedd4c897eaec86472a1673b4427b0aac9dd2cc s390/dasd: fix Oops in dasd_alias_get_start_dev due to missing pavgroup
-dca967a0bb6cc493fcddf7e01b1961a3d75033d8 Drivers: hv: Never allocate anything besides framebuffer from framebuffer memory region
-413004a103dff89a4bc8550ceccf5ac88abe0b56 ext4: make directory inode spreading reflect flexbg size
-06c070482de70aff69961e1edcdcd930fb9cb887 Linux 4.9.330-rc1
+1ae8a2ee5dbe4df3456c53e08cb858021a5480cc of: fdt: fix off-by-one error in unflatten_dt_nodes()
+ffecf930eaa438c2854ddd44eb544137bee098b6 gpio: mpc8xxx: Fix support for IRQ_TYPE_LEVEL_LOW flow_type in mpc85xx
+fab3214d9238acb8de25dbb92de64b332120e46f drm/meson: Correct OSD1 global alpha value
+c8e17ecbde8daa1585576ff4355b6b69d2328c42 parisc: ccio-dma: Add missing iounmap in error path in ccio_probe()
+3193e4a316e2e17933358483a7283efb05f5dee6 efi/libstub: Disable Shadow Call Stack
+4ecdfbffca81d7cca9fe06b63efc3c64eac2e23e efi: libstub: Disable struct randomization
+29b9e93b22e8514c3198d855dfbff127885cb838 cifs: don't send down the destination address to sendmsg for a SOCK_STREAM
+c3be23048d0f97c4507c54502f87c58a01fa554c ASoC: nau8824: Fix semaphore unbalance at error paths
+1127bba204013a0326120f671d28fa6fddbd798b regulator: pfuze100: Fix the global-out-of-bounds access in pfuze100_regulator_probe()
+2f33ffb9cb7172d9501024ff829f6c022bbd2f8d ALSA: hda/sigmatel: Keep power up while beep is enabled
+a466691910a42bc3a869d5fa50703a658e14c20e net: usb: qmi_wwan: add Quectel RM520N
+80d40059b4d4d2ce19e6b7719ab95c7b38c7a7dc MIPS: OCTEON: irq: Fix octeon_irq_force_ciu_mapping()
+440c19288db4b1abf1242cb24feb661915ccb932 mksysmap: Fix the mismatch of 'L0' symbols in System.map
+89bc15729164c5ad780f9000d042f01a20aaa625 video: fbdev: pxa3xx-gcu: Fix integer overflow in pxa3xx_gcu_write
+5c37de25ce71d1b7e50960434733e81c8c4af808 ALSA: hda/sigmatel: Fix unused variable warning for beep power change
+1ebf24112a11c67b64c0eefc6c81efa92ea8181f wifi: mac80211: Fix UAF in ieee80211_scan_rx()
+cad9f61ba4437d35debb485d077ece7072915ba1 USB: core: Fix RST error in hub.c
+eab392a50bf49ce0b04d58782d9833707c05d7b8 USB: serial: option: add Quectel BG95 0x0203 composition
+c05d69c530bb5a9f69897986e95607c3b88c86c9 USB: serial: option: add Quectel RM520N
+46ab534eef71e72206818ad04f0833520df5f60a ALSA: hda/tegra: set depop delay for tegra
+36f50635475d0248f208a2384179af09f0f2d436 ALSA: hda: add Intel 5 Series / 3400 PCI DID
+47f2bfa3e404f3ec131be00f3613d45ee8c1b1ef mm/slub: fix to return errno if kmalloc() fails
+fe82867eac750db6f869d98cddae9af6cba44c72 arm64: dts: rockchip: Remove 'enable-active-low' from rk3399-puma
+dc72e5048b36e69dfb8d1af2ed4292599c9b5bcd netfilter: nf_conntrack_sip: fix ct_sip_walk_headers
+2c6154f5ab24b19dd1ca09742b8ba436d3d5f830 netfilter: nf_conntrack_irc: Tighten matching on DCC message
+e85612fc701c8213fc2b571cea8871bebf286481 iavf: Fix cached head and tail value for iavf_get_tx_pending
+c96e4f98540e4bb4c719f7d73464abc2c7b60a5c ipvlan: Fix out-of-bound bugs caused by unset skb->mac_header
+1162d3d1d925a3965bbb44b8b6f26260a6674534 net: team: Unsync device addresses on ndo_stop
+e5fc0ab40340ffc08d60f4912f7dc074d1bb5346 MIPS: lantiq: export clk_get_io() for lantiq_wdt.ko
+7494f0116959046b1ee5efbb1b2638e06c42a3dd of: mdio: Add of_node_put() when breaking out of for_each_xx
+73642770beea032d456379223001392256372be7 netfilter: ebtables: fix memory leak when blob is malformed
+efcfca59394b4fbab2fdb9880b0abb031ae7d91a can: gs_usb: gs_can_open(): fix race dev->can.state condition
+18478a3ebe9e949bf4ea67d15a9ddd67a9d3b0ce perf kcore_copy: Do not check /proc/modules is unchanged
+5425f4197b12942c38fdb00aaaace49e46fc97ac net: sunhme: Fix packet reception for len < RX_COPY_THRESHOLD
+1f962dadea6bc85e8f4d9a187c2afcac2f650dc0 serial: Create uart_xmit_advance()
+686d36867d1f27f0390b32232574d4ddf8f5e24a serial: tegra: Use uart_xmit_advance(), fixes icount.tx accounting
+13258212fd71fdcd6eb50b14f7c963a717cb2a86 s390/dasd: fix Oops in dasd_alias_get_start_dev due to missing pavgroup
+8f0b0c0e01dc09cd5f2dcdd0f948c7cdea5aecf8 Drivers: hv: Never allocate anything besides framebuffer from framebuffer memory region
+b6c89a50ae9614988bd85888f2480d59b3d4b7b8 ext4: make directory inode spreading reflect flexbg size
+03f936a4c86f67fe28c310433ddb6f7cefc48d83 media: em28xx: initialize refcount before kref_get
+959fe4ff439c8dc73f28f08635fe7b9e94c426fa Linux 4.14.295-rc1
 
---===============3869335795243522545==--
+--===============5517870641016012351==--
