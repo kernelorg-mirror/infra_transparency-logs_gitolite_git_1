@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 26 Sep 2022 18:06:31 -0000
-Message-Id: <166421559106.5152.17894689935424686565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 26 Sep 2022 18:13:44 -0000
+Message-Id: <166421602485.9187.4860583953237793349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 427718184457bcdb7b7fcf493c5e6a7a74700fc1
-    new: 96bcdb314582eace89d8994f31cf0ec8d428eb57
+  - ref: refs/heads/master
+    old: 9258b8b1be2e1e241baf8aa703aba1086069ee0f
+    new: d6e3b27cbd2df555ff0736796ad2f9a17e74be8b
     log: |
-         63e8dce1ded54179f557a964398eddd5dc80cdbb RDMA/rxe: Remove redundant num_sge fields
-         96bcdb314582eace89d8994f31cf0ec8d428eb57 IB/rdmavt: Add __init/__exit annotations to module init/exit funcs
+         c52add61c27ea23501be82a34854edd98e10e061 macsec: don't free NULL metadata_dst
+         31f1fbcb346c9342f6860c322b3f33b2acbc640b udp: Refactor udp_read_skb()
+         d6e3b27cbd2df555ff0736796ad2f9a17e74be8b af_unix: Refactor unix_read_skb()
          
