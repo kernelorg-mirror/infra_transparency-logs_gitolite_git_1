@@ -1,45 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5145504000027726146=="
+Content-Type: multipart/mixed; boundary="===============5823094502444455307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 26 Sep 2022 14:50:03 -0000
-Message-Id: <166420380363.21541.12309204166284568742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Mon, 26 Sep 2022 14:58:42 -0000
+Message-Id: <166420432275.27490.12059960825546306595@gitolite.kernel.org>
 
---===============5145504000027726146==
+--===============5823094502444455307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/for-6.1/io_uring
-    old: aa1df3a360a0c50e0f0086a785d75c2785c29967
-    new: 4c17a496a7a0730fdfc9e249b83cc58249111532
-    log: |
-         4c17a496a7a0730fdfc9e249b83cc58249111532 io_uring/net: fix cleanup double free free_iov init
-         
-  - ref: refs/heads/for-next
-    old: cada37694f596ef70b3d9464b7291aebc4606976
-    new: 41828386768f7ce53382518cf66542efb91d3c70
-    log: revlist-cada37694f59-41828386768f.txt
-  - ref: refs/heads/io_uring-6.0
-    old: e775f93f2ab976a2cdb4a7b53063cbe890904f73
-    new: dc985c27c02ab83a15e412a356bc6cba894303a4
-    log: |
-         dc985c27c02ab83a15e412a356bc6cba894303a4 io_uring: register single issuer task at creation
-         
-  - ref: refs/heads/for-6.1/io_uring-late
-    old: 0000000000000000000000000000000000000000
-    new: fc2da7e77692941c81eb9b44fd7cb4ebd2fec12c
+  - ref: refs/heads/ps3-queue
+    old: f828f1f0d69adbba9a514a828372fd645923a312
+    new: 07e2808e7c48149be0a5fe657f00702bcd49e1fd
+    log: revlist-f828f1f0d69a-07e2808e7c48.txt
 
---===============5145504000027726146==
+--===============5823094502444455307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cada37694f59-41828386768f.txt
+Content-Disposition: attachment; filename=revlist-f828f1f0d69a-07e2808e7c48.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -386,13 +371,27 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
-dc985c27c02ab83a15e412a356bc6cba894303a4 io_uring: register single issuer task at creation
-f1554dfdd2c43095a18aa54ee13dc1b8a13b1a06 Merge branch 'for-6.1/io_uring' into for-6.1/io_uring-late
-4c17a496a7a0730fdfc9e249b83cc58249111532 io_uring/net: fix cleanup double free free_iov init
-e2e4cd473137beef3a5b09f8b8dd227ac2a3bdf6 Merge branch 'for-6.1/io_uring' into for-next
-c7c840f479df86ed616288d99f1ea399e1e834b8 Merge branch 'io_uring-6.0' into for-6.1/io_uring-late
-00e62c9d1c3660637b989e12da5e113789997653 io_uring: simplify __io_uring_add_tctx_node
-fc2da7e77692941c81eb9b44fd7cb4ebd2fec12c io_uring: remove io_register_submitter
-41828386768f7ce53382518cf66542efb91d3c70 Merge branch 'for-6.1/io_uring-late' into for-next
+d2040b86a3cbc5bd04419cc1a68a65c20bbc755b powerpc/ps3: remove orphan declarations from ps3av.h
+1715dff752dba458370ae22091026de9d2c69ceb net/ps3_gelic: Add gelic_descr structures
+b1acd8ee89ae7d791c6aeb35a074530ecb67ff1b net/ps3_gelic: Use local dev variable
+a45a7fc1c0ad80aeee761de403d413bb6fbdcb98 net/ps3_gelic: Format cleanups
+daff144de0f98f3ec04d07648e53e3730259704f net/ps3_gelic: Add new macro BUG_ON_DEBUG
+18fbd6d0f8ec1f390a09dad6bf6ad55fe3bde5cb net/ps3_gelic: Add vlan_id structure
+00d629db629455fd69c86f6b2f7888527c2ea1dd net/ps3_gelic: Cleanup debug code
+ab163fb1bf49a986c737d0d14ad401abdca6f6f7 net/ps3_gelic: Add new routine gelic_unmap_link
+ba92c654f9de5f1a29619f0ba12b17c8cdd57e62 net/ps3_gelic: Rename no to descr_count
+917d40fc4e0c8965d4ad14db536d76e89ebac1b1 net/ps3_gelic: Add new routine gelic_work_to_card
+13e8e6502be8bc6460a1ebf3147cfa9e5a59305e net/ps3_gelic: Fix DMA mapping problems
+40092f93bc7d5f9c91a4eb843c6f7ea3dd0d35a9 hvc_console: Allow backends to set I/O buffer size
+eaa5740eef9d2c37753839244a133647e92eb62b ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+13b7dbbb3d2f3cc1d3126aa183f2a3d79b229a56 ps3-debugging: Setup DABR register
+c9580e32eebb8168595f9484c75dcb1acecce707 ps3_defconfig: Cut down version
+4d790683aaf400746c5bcac27bf5e46b4c7405d6 powerpc/ps3: Refresh ps3_defconfig
+94fc544849dcce9cd743c8bf1495a122d1d246ec local: Add ps3_nfs_defconfig
+ffefc0afd2d4bf1906bb7d9c5b5ed9163d12072a local: ps3_nfs_defconfig: Cut down version
+388898d222cee79edd201a96e8e9a749f06b8ec7 local: Refresh ps3_nfs_defconfig
+e461f00d20b3dce7a9e61dd09dd0b65639c58c3e local: Add ps3_petitboot_defconfig
+873f6c4794355d73dedaa24781c8cf56b0ea7b52 local: Add ps3_petitboot_nfs_defconfig
+07e2808e7c48149be0a5fe657f00702bcd49e1fd local: ps3_petitboot_nfs_defconfig: ip=dhcp
 
---===============5145504000027726146==--
+--===============5823094502444455307==--
