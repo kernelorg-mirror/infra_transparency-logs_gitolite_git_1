@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3365442150458230106=="
+Content-Type: multipart/mixed; boundary="===============0620846253583550402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 26 Sep 2022 20:12:34 -0000
-Message-Id: <166422315474.29475.5261473103615577997@gitolite.kernel.org>
+Date: Mon, 26 Sep 2022 20:12:53 -0000
+Message-Id: <166422317341.29650.4221417516998966031@gitolite.kernel.org>
 
---===============3365442150458230106==
+--===============0620846253583550402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 5cc638a0a0f78925ea4c9c4c4846575d35a989a7
     new: d9fc5677ceb67b5e300ea382a2a536e07136ec26
     log: revlist-5cc638a0a0f7-d9fc5677ceb6.txt
 
---===============3365442150458230106==
+--===============0620846253583550402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ e4c3c66603c18e0e7400b398f440d100f40c2215 kbuild: move vmlinux.o rule to the top 
 e8a371266f49ce32402c9317a52e676ccb415d80 kbuild: use obj-y instead extra-y for objects placed at the head
 d9fc5677ceb67b5e300ea382a2a536e07136ec26 kbuild: remove head-y syntax
 
---===============3365442150458230106==--
+--===============0620846253583550402==--
