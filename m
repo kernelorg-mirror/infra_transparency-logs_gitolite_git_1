@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 26 Sep 2022 16:13:36 -0000
-Message-Id: <166420881658.17055.10062217254574937097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 26 Sep 2022 16:14:13 -0000
+Message-Id: <166420885329.17406.7083780025547488043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: 16af3dd7e8a2d793da6c6a808040c8f1d0a0a26e
-    new: 5cc638a0a0f78925ea4c9c4c4846575d35a989a7
+  - ref: refs/heads/ath12k-bringup
+    old: e094a9ab1340fe7772bf512c855015fefa70ca0a
+    new: 1a458fd07d4706b7f6fa47a0ba9727de4b953626
     log: |
-         d2132839a7d46cadf420f3bb2a52f929ee9d6010 kbuild: re-run modpost when it is updated
-         c9bcd36db3d8a34fd0a82a366d9f214d1adfc3ac kbuild: hide error checker logs for V=1 builds
-         e44d8367a53766b7222d5d2a6bba1fa58759c982 kbuild: use obj-y instead extra-y for objects placed at the head
-         5cc638a0a0f78925ea4c9c4c4846575d35a989a7 kbuild: remove head-y syntax
+         c34c346fe9cc68f40a0e8a70b99dd00012c5798e wifi: ath12k: Remove the redundant code in ce_send
+         c568d8bc26de8e85f87bd5a9d37bc06ce80f1233 ath12k: convert payload[0] to payload[], use ab variable and fix __ath12k_dbg() signature
+         b290b591dbddcf366ebe7621cb3a16a74767d169 ath12k: remove magic number offset in rx_user_status struct
+         1a458fd07d4706b7f6fa47a0ba9727de4b953626 ath12k: remove __packed from the ath12k_skb_cb struct
          
