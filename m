@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 26 Sep 2022 15:50:03 -0000
-Message-Id: <166420740386.31848.716452581128064400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 26 Sep 2022 15:51:02 -0000
+Message-Id: <166420746270.32278.4985867743512837028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-6.1/passthrough
-    old: a1c2c4259b8b7b99a806f674fd399c171a63d12a
-    new: 25330acc33abb3ea22e38edaf1b080e50b7c9afe
+  - ref: refs/heads/master
+    old: 230bf137e7715142b5898c6d46cc3386aab4291c
+    new: bec217197b412d74168c6a42fc0f76d0cc9cad00
     log: |
-         ddde5271d3e6ee09c0d6459e8e73b4aacbd7878a nvme: split out metadata vs non metadata end_io uring_cmd completions
-         25330acc33abb3ea22e38edaf1b080e50b7c9afe nvme: enable batched completions of passthrough IO
+         3f8ef65af927db247418d4e1db49164d7a158fc5 net: If sock is dead don't access sock's sk_wq in sk_stream_wait_memory
+         043a7356dbd0f44b2a2161649d89f4a43f3b0180 selftests/bpf: Add wait send memory test for sockmap redirect
+         bec217197b412d74168c6a42fc0f76d0cc9cad00 skmsg: Schedule psock work if the cached skb exists on the psock
          
