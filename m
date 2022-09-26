@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4490048766577098048=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 26 Sep 2022 17:45:41 -0000
-Message-Id: <166421434149.21842.2219735034510530462@gitolite.kernel.org>
-
---===============4490048766577098048==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 26 Sep 2022 17:50:03 -0000
+Message-Id: <166421460387.25001.12253184337616548317@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: b710ce04cb5003a422e5fbeeba93c401099bf858
-    new: 44cc913e19a1373959b3a26a74976c9da32d59ad
+  - ref: refs/heads/for-6.1/io_uring-late
+    old: fc2da7e77692941c81eb9b44fd7cb4ebd2fec12c
+    new: 802f0133afc8637e9f4cd6d84d3ce2e607001339
     log: |
-         44cc913e19a1373959b3a26a74976c9da32d59ad drop ext4-make-directory-inode-spreading-reflect-flexbg-size.patch from everywhere
+         4c17a496a7a0730fdfc9e249b83cc58249111532 io_uring/net: fix cleanup double free free_iov init
+         7cae596bc31f900bb72492ff40c7f5addf72fa19 io_uring: register single issuer task at creation
+         387df5936351f0e238863e7c686f1fd6d9f6a0a7 Merge branch 'io_uring-6.0' into for-6.1/io_uring-late
+         128542a7d734c52229026410309231b239b0a84c Merge branch 'for-6.1/io_uring' into for-6.1/io_uring-late
+         1816ca27c14f0551b689693d213b10fcad1c6c06 io_uring: simplify __io_uring_add_tctx_node
+         802f0133afc8637e9f4cd6d84d3ce2e607001339 io_uring: remove io_register_submitter
          
-
---===============4490048766577098048==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664214338 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1664214334-71c1cfd76390674eda177e247279d9cfba892a15
-
-b710ce04cb5003a422e5fbeeba93c401099bf858 44cc913e19a1373959b3a26a74976c9da32d59ad refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMx5UIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SV4QAJNcnMme626Fd8iUqylZ
-enlE/6+FJnTopCeOzVte+3pe2SeEdIrTGY6ynsagftJBgV5JEIDELzpz+lTeM/yt
-9wPYMYWnUYFFwnluTyMOTwRL1LK5EKaCqt3suSsqBXgzHg4bnn2r34ccNt0kn8tH
-sT3JUdVOw2MdcaJG2Qwb8wE1LtZrDjWGxxZFVr1PTw71u2dXchKfwrCnhHHEAMJ4
-ioV9xuA0J9LGfWO9/4dk2z92gQBbCCm4c9H4qwB0031GXxVryf7g0Q7pM9RF2dLh
-9ZKwAys25CiRGmrsicwmuUXF+hE4kKyPgdmauFV3xMtyNSdZJ2pKhjrXga5Ch4bv
-K61CMzpw+43Ikf/OSAgy1YET/E8qJ5sC+WRvfzewzUm+GT3ZZRFIrK0ORs0actFF
-2ilMI11NZGJ/by/IZRLf4eklERPayJH0aS9zi14YZNAGQwd94++08/ZH/wHWSzYv
-GPLOYq2ZCVK4zsiFQbNwfhHXasPsjBSeFinKHRHZB8VSEIHEq3Lamx8lBskrmLm3
-zmHkg2lPLnb2h11NaV5pcHHOWI9iWzEOWpRCyjDoCBokwt2xuF8mHq1UYg/n2bCs
-75ftUCUbehhqDRaVsqZN2jRhdEJuqya3DYrYpD42vDpcaXehiV13R5uTXM2uvbgD
-/b7NYLp8aSHjV6raemrAsTfW
-=kSu6
------END PGP SIGNATURE-----
-
---===============4490048766577098048==--
+  - ref: refs/heads/for-next
+    old: 41828386768f7ce53382518cf66542efb91d3c70
+    new: 44bb98778195f640f9945a5aed0ff746a57126ba
+    log: |
+         7cae596bc31f900bb72492ff40c7f5addf72fa19 io_uring: register single issuer task at creation
+         387df5936351f0e238863e7c686f1fd6d9f6a0a7 Merge branch 'io_uring-6.0' into for-6.1/io_uring-late
+         128542a7d734c52229026410309231b239b0a84c Merge branch 'for-6.1/io_uring' into for-6.1/io_uring-late
+         1816ca27c14f0551b689693d213b10fcad1c6c06 io_uring: simplify __io_uring_add_tctx_node
+         802f0133afc8637e9f4cd6d84d3ce2e607001339 io_uring: remove io_register_submitter
+         44bb98778195f640f9945a5aed0ff746a57126ba Merge branch 'for-6.1/io_uring-late' into for-next
+         
+  - ref: refs/heads/io_uring-6.0
+    old: dc985c27c02ab83a15e412a356bc6cba894303a4
+    new: 7cae596bc31f900bb72492ff40c7f5addf72fa19
+    log: |
+         7cae596bc31f900bb72492ff40c7f5addf72fa19 io_uring: register single issuer task at creation
+         
