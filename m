@@ -1,58 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============8152258724925907633=="
+Content-Type: multipart/mixed; boundary="===============2397095650208232056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 26 Sep 2022 08:59:37 -0000
-Message-Id: <166418277772.16175.5689251930745603037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
+Date: Mon, 26 Sep 2022 09:22:01 -0000
+Message-Id: <166418412192.31785.4655331776978052775@gitolite.kernel.org>
 
---===============8152258724925907633==
+--===============2397095650208232056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/idmapping
+user: brauner
 changes:
-  - ref: refs/heads/usb-testing
-    old: 67102bd31b4e31abb0abbc390381212a2d65db72
-    new: a8be6b6ee9595d425f304770811f3513a503e61c
-    log: |
-         3de50478b5cc2e0c2479a5f2b967f331f7597d23 media: flexcop-usb: clean up endpoint sanity checks
-         fd449bb9ac44fdc334907db7bcc20ade9a4037cd media: flexcop-usb: clean up URB initialisation
-         a8be6b6ee9595d425f304770811f3513a503e61c media: flexcop-usb: use usb_endpoint_maxp()
-         
+  - ref: refs/heads/fs.acl.rework
+    old: c767177f8d932cea0bb92f5d258b337f27cabf42
+    new: 3be65ba85ac8b270908157bfeb84b76911292c91
+    log: revlist-c767177f8d93-3be65ba85ac8.txt
 
---===============8152258724925907633==
+--===============2397095650208232056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c767177f8d93-3be65ba85ac8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664182776 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664182776-645a3ad5fb4b56429ae2a3c764dca87d19ea240e
+f5a4357329009f220f646b9f109349b692010f39 9p: implement get acl method
+d2b961e5f2be71039e23d1f8c8bdb98a061c3ce6 9p: implement set acl method
+65ee41fde0aa43fb654d71840d65579bc163dc32 acl: add vfs_set_acl()
+28af4b48a34d5ad02abb853cbf404289485e28a9 security: add set acl hook
+6908074724f5d06676797e110546b95ea3e5aa4a selinux: implement set acl hook
+ae5ef195b8effbad13814d7da63ca994c3a18bd7 smack: implement set acl hook
+ca4dcae760bd50fac69865af88ceb4aee3e1781c evm: implement set acl hook
+289496e524327c33ac795de71c67874658898682 acl: use set acl hook
+591e91ff207f34a1e4a9b5cc3a2bc795969393e2 evm: add post set acl hook
+bb7e4b418fc22ce022381d6eb91e97ebdd9308f0 acl: add vfs_get_acl()
+5da14e8b1f941ad74bfd06776d547034b70588c2 acl: add vfs_remove_acl()
+f51facae8afb5f5d3e094066fa4d6792af3ecf06 evm: simplify evm_xattr_acl_change()
+b4e0edaebac55008365ca7d48e94297e7d3fbd2a ksmbd: use vfs_remove_acl()
+0d1d61b5a0521f27cbe8b35d2796f89196b06ed1 ecryptfs: implement get acl method
+5a8da6b81a9f692b08d0b5e5c407696e27334417 ecryptfs: implement set acl method
+8c3b22865a2be4dde31a585d0f2b8a0774d59feb ovl: implement get acl method
+d3175d88bf4d800ed500caf98e259d5efd8aa2d0 ovl: implement set acl method
+ff4f3f58d078c74d9d37c5c03e171cb4f4e16b20 ovl: use posix acl api
+1ae7f1dbc7a589e34a8377bee9150d734c3d1593 xattr: use posix acl api
+50f6ad726bf48adcfac02d60b570f7ce7e5be9bd ecryptfs: use stub posix acl handlers
+4a16687daad356fd1a203d03fc40dae2378ba5e4 ovl: use stub posix acl handlers
+5fd1acfc45588ce3f8873e8ab09bc2de16225729 cifs: use stub posix acl handlers
+58818221511ee2ebeea51b47507db72a5e757a54 9p: use stub posix acl handlers
+3be65ba85ac8b270908157bfeb84b76911292c91 acl: remove a slew of now unused helpers
 
-67102bd31b4e31abb0abbc390381212a2d65db72 a8be6b6ee9595d425f304770811f3513a503e61c refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMxafgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6tcQAIGZ144eFKbsiXXo3J9Y
-jhrdRz/RtsoO/PWj7J2pc4upTrWa3mODnMiRcW21nSTgmVOVGcfEMK7XjFBzSGnf
-0g9RaO8SDeQiGN2mXln/d7VsIjfDAt/qoAIdU/x3olGkKoyScwpbVvuG2N0fSCdm
-Wo+uV2UNhVloqBCDVx7DKDPdCVsRqKbfIQ4EKqO4XPuK36CUBUq+Tk5nNXx+U2kA
-o19FTM6pVFyGTPEBfofS32gUYOIi2Nr/O+bdh1Hh/fdvxjc8REln6wXaRoYoW4CZ
-l5ADv1+3k09bXy5MipMYWwA6O1aAgQXNLjdvXk3W44GcmU2uzvS4Oiy4l99aWKf/
-wfZrHPeY8tL9Xtw/fAkxmzWDyI04RaTG8EKQxdDlpo5hHU/mQt8aM5CgDssQjhdH
-JiiCjAJNBxl5YtaYcSkxmw3S73tkOhGBxCJAxaolUL7us8f8+maCyBASCRItC80v
-UfVMxB/ljyvw3i7r8OBahgWpNIgn0gXOvGcpVRbKN8UoNVmeuuYKSCIMKgreCAGU
-f3NV5tpsvCj8vDmy2YKT1Fqjvy5CnkMWc8Vu+jeAA8DJMlqsR4sFP57A1VKEcMzt
-x53KqUawjenQDMIjJx+93SYx210a0SJD5EoqqM3cVZcAWcuSqbAYX05EXoeGWRK0
-sZuCFqUC7sNchH29F5iaCPPp
-=xoSA
------END PGP SIGNATURE-----
-
---===============8152258724925907633==--
+--===============2397095650208232056==--
