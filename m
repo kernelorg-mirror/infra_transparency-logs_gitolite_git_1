@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 26 Sep 2022 05:19:07 -0000
-Message-Id: <166416954719.23859.18231194863536248611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 26 Sep 2022 05:23:18 -0000
+Message-Id: <166416979879.26862.17590088948802468209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/gpio-of-cleanups
-    old: 8f48b7593abdda47d0e1ee8d2ba212682b91b4ec
-    new: e1182a36d1e7d49c1daf62ae575ad9274cd8aec6
+  - ref: refs/heads/main
+    old: c6e92108bcd9c13ebbbcab44a49fa5f39c21621e
+    new: 98a07006c48dc0bc3f42b3b3ce75b7f03e87e724
     log: |
-         6c4eb9064de9cacdd3a7d1ac52311dc894f0e07c mfd: mc13xxx: stop including of_gpio.h
-         abe899b1082448c699e330fdf608b7c64d0d80d3 mfd: madera: include correct gpio API
-         b56929695cdeff1fe0974014a0c6ff7219023bef mfd: palmas: stop including of_gpio.h
-         bfcd98004dea980684e1129c22a0041cf87a2924 mfd: twl6040: switch to using gpiod API
-         e1182a36d1e7d49c1daf62ae575ad9274cd8aec6 mfd: twl6040: drop twl6040_platform_data and associated definitions
+         a036cc7b0c10474a4cf1cdbe0e232e637e1f2edd Makefile: limit make re-execution to avoid infinite spin
+         98a07006c48dc0bc3f42b3b3ce75b7f03e87e724 Makefile: fix infinite recursion by dropping non-existent `%.output`
+         
+  - ref: refs/heads/master
+    old: c6e92108bcd9c13ebbbcab44a49fa5f39c21621e
+    new: 98a07006c48dc0bc3f42b3b3ce75b7f03e87e724
+    log: |
+         a036cc7b0c10474a4cf1cdbe0e232e637e1f2edd Makefile: limit make re-execution to avoid infinite spin
+         98a07006c48dc0bc3f42b3b3ce75b7f03e87e724 Makefile: fix infinite recursion by dropping non-existent `%.output`
          
