@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 26 Sep 2022 12:15:14 -0000
-Message-Id: <166419451492.7785.12636948495146449979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 26 Sep 2022 12:18:27 -0000
+Message-Id: <166419470739.8973.6901617675598922361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/mm/slub
-    old: 69bf4916113f36072d8db23c79b3fc8f2e67d391
-    new: cebb54ae23e9880c8912a764545fe27e3a3b6dae
+  - ref: refs/heads/gpio/for-next
+    old: 361c1ca384c93013e08bd117e4fe23ca9739e3f7
+    new: 0ae3109a839192920f09338e9abc4d5321107865
     log: |
-         d71608a877362becdc94191f190902fac1e64d35 mm/slab_common: fix possible double free of kmem_cache
-         e45cc288724f0cfd497bb5920bcfa60caa335729 mm: slub: fix flush_cpu_slab()/__free_slab() invocations in task context.
-         cebb54ae23e9880c8912a764545fe27e3a3b6dae mm/slub: clean up create_unique_id()
+         0ae3109a839192920f09338e9abc4d5321107865 gpiolib: cdev: add fdinfo output for line request file descriptors
          
