@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
-Date: Mon, 26 Sep 2022 05:34:58 -0000
-Message-Id: <166417049831.3113.13595014231397595265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 26 Sep 2022 05:37:41 -0000
+Message-Id: <166417066102.5584.18404339117921411015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/linux
-user: wens
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/clk-mtk-for-6.1
-    old: 43eb33c6a1112766def8099e063763733a413329
-    new: 3dfe6e17c97b16971619b53c2cc79185c7f8b9aa
+  - ref: refs/heads/gpio-of-cleanups
+    old: 23aa27f7215e948bdcc1db5a75916059e0116626
+    new: 5c6098794cca5ac0a774ee430b72e18b8b98c032
     log: |
-         879b752b97f12b678978e17f57316641ef0f2aa0 dt-bindings: clk: mediatek: Add MT8195 DPI clocks
-         3dfe6e17c97b16971619b53c2cc79185c7f8b9aa clk: mediatek: add VDOSYS1 clock
+         898163c745e2d3070f1437e65aac0d6e579b3818 MIPS: pci: lantiq: switch to using gpiod API
+         c86a05280f8da48ae0a3eff1ef9af60c9e80f9ca mfd: mc13xxx: stop including of_gpio.h
+         52b59ed476a712b439aea9b03dc7ebd5d074e762 mfd: madera: include correct gpio API
+         7cabf8c8ed91b8fda1b67dff20860a16d0f051a2 mfd: palmas: stop including of_gpio.h
+         8ff91c85eabdf6da15c06f1200e66380d9c9fcbf mfd: twl6040: switch to using gpiod API
+         5c6098794cca5ac0a774ee430b72e18b8b98c032 mfd: twl6040: drop twl6040_platform_data and associated definitions
          
