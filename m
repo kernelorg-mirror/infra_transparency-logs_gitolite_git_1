@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5226429590414996186=="
+Content-Type: multipart/mixed; boundary="===============7220061834751600932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 Sep 2022 10:29:02 -0000
-Message-Id: <166418814210.29653.16369231968650527202@gitolite.kernel.org>
+Date: Mon, 26 Sep 2022 10:29:16 -0000
+Message-Id: <166418815647.29819.13599338138909375590@gitolite.kernel.org>
 
---===============5226429590414996186==
+--===============7220061834751600932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0f365f52382d7ec1e27394b37869ca7ff12a4eb9
-    new: 0c3a1a65eae8368561ee2cd209f225bd1200264c
-    log: revlist-0f365f52382d-0c3a1a65eae8.txt
+  - ref: refs/heads/m68k-queue
+    old: 7ad8822d1327d5e788e99043d7e82d026515f57d
+    new: a84b06fa69808c3f03b26299a0121ad8c2a10a8f
+    log: revlist-7ad8822d1327-a84b06fa6980.txt
 
---===============5226429590414996186==
+--===============7220061834751600932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f365f52382d-0c3a1a65eae8.txt
+Content-Disposition: attachment; filename=revlist-7ad8822d1327-a84b06fa6980.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -371,6 +371,10 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
-0c3a1a65eae8368561ee2cd209f225bd1200264c Merge tag 'v6.0-rc7'
+1fa7576b388b7e9edcb3c9a4f6d6a48c4f63187b m68k: Move from strlcpy with unused retval to strscpy
+ceed7caed9f53e64300d2c6273ebfe4fd99c3f57 m68k: Allow kexec on M68KCLASSIC with MMU enabled only
+28b17fd372ff64e352e86bd6e77f6d3ffb4cd742 m68k: atari: usb: Add ISP1160 USB host controller support
+138b085f8687552ff965730bd78522a3c3f6ce2b m68k: atari: Update Kconfig.bus help text
+a84b06fa69808c3f03b26299a0121ad8c2a10a8f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5226429590414996186==--
+--===============7220061834751600932==--
