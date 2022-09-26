@@ -1,64 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 26 Sep 2022 01:43:14 -0000
-Message-Id: <166415659456.576.16961329584407799491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Mon, 26 Sep 2022 02:10:30 -0000
+Message-Id: <166415823022.20909.9284203390029375375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/tags/drm-fixes-2022-07-01
-    old: 0000000000000000000000000000000000000000
-    new: 94ca621d2d3e69b516cc8386e0e4505fa9b81157
-  - ref: refs/tags/drm-fixes-2022-07-12
-    old: 0000000000000000000000000000000000000000
-    new: 2fe9dfbafaf8117a8ef5d509e761e62b76689223
-  - ref: refs/tags/drm-fixes-2022-07-15
-    old: 0000000000000000000000000000000000000000
-    new: 3e315e3b1f1af0c9dfd2ae6a1ec09927b0423697
-  - ref: refs/tags/drm-fixes-2022-07-22
-    old: 0000000000000000000000000000000000000000
-    new: cc61dfbe4c892a14f3d2c584a08b9d88265b28ff
-  - ref: refs/tags/drm-fixes-2022-07-29
-    old: 0000000000000000000000000000000000000000
-    new: 4f41f6108f085436b388ce026aafd5cc84d29557
-  - ref: refs/tags/drm-fixes-2022-07-30
-    old: 0000000000000000000000000000000000000000
-    new: 057ea1ca989732eca65f980b521a065f8e74570a
-  - ref: refs/tags/drm-fixes-2022-08-19
-    old: 0000000000000000000000000000000000000000
-    new: b875b26ec42a309f2421a511a9c903d06ae9b6c8
-  - ref: refs/tags/drm-fixes-2022-08-26-1
-    old: 0000000000000000000000000000000000000000
-    new: f587e5c7e920063dba327d5d56f059649c77a157
-  - ref: refs/tags/drm-fixes-2022-09-02
-    old: 0000000000000000000000000000000000000000
-    new: e132c93d5f1200637c0afcf5bf094f5fe0a142ea
-  - ref: refs/tags/drm-fixes-2022-09-10
-    old: 0000000000000000000000000000000000000000
-    new: 2c7f99a6938b5b1149cf47826e66f3fc97248992
-  - ref: refs/tags/drm-fixes-2022-09-16
-    old: 0000000000000000000000000000000000000000
-    new: af9201ca242d69557b1f43da30162ed3e2944d91
-  - ref: refs/tags/drm-fixes-2022-09-23-1
-    old: 0000000000000000000000000000000000000000
-    new: e80d6cbd91d5405baf70ae49fc04c71e48dda5fa
-  - ref: refs/tags/drm-next-2022-08-03
-    old: 0000000000000000000000000000000000000000
-    new: 32c9db77e5909b6de1d291c527e21d2d9c310296
-  - ref: refs/tags/drm-next-2022-08-12-1
-    old: 0000000000000000000000000000000000000000
-    new: 1f99bbb53cde06323de011feb487494ea37fdc8b
-  - ref: refs/tags/exynos-drm-next-for-v6.1
-    old: 0000000000000000000000000000000000000000
-    new: 9ce02d32cfe401cd99b0e4b760f8688627137833
-  - ref: refs/tags/topic/nouveau-misc-2022-07-13-1
-    old: 0000000000000000000000000000000000000000
-    new: 335525513a7c0c2062850557e19dc26ad87a7f9d
-  - ref: refs/tags/topic/nouveau-misc-2022-07-27
-    old: 0000000000000000000000000000000000000000
-    new: c8e5a506a24576f8e54f6edd7df3b504a96226ee
+  - ref: refs/heads/pending-5.10
+    old: a9e7e34c2474d810cf4d4c1a940fe88d5e2396d6
+    new: 36568f29ea6a633662fa3408b9e15d1a4a0dd1ec
+  - ref: refs/heads/pending-5.15
+    old: 180718aa599f84e4adc90176974668159a80f8a0
+    new: ef649a64f9ffbdf6f318adbd29d118fd95a7fbec
+    log: |
+         ef649a64f9ffbdf6f318adbd29d118fd95a7fbec drm/amdgpu: don't register a dirty callback for non-atomic
+         
+  - ref: refs/heads/pending-5.19
+    old: dab4745714cf056ffcfa71c4a5bfdf6f9e995252
+    new: dee0e1c81462ceece414b67ccf6bf5044869d075
+    log: |
+         112b8568de7fdd74634697cceb399329b1c41030 certs: make system keyring depend on built-in x509 parser
+         9dc8a185dad92c12c1ff040b0ff41b2d5ac2adf0 Makefile.debug: set -g unconditional on CONFIG_DEBUG_INFO_SPLIT
+         dee0e1c81462ceece414b67ccf6bf5044869d075 Makefile.debug: re-enable debug info for .S files
+         
+  - ref: refs/heads/pending-5.4
+    old: 8bcf68dab82926eff927f4c874e07477b10125a9
+    new: e1e5db5c04e995e4857d8aeb3f6660e6859e0956
