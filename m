@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 26 Sep 2022 18:51:09 -0000
-Message-Id: <166421826926.4131.8158662306579836098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 26 Sep 2022 19:04:28 -0000
+Message-Id: <166421906802.13162.14399276309467616766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/for-next
-    old: d93cea5c8b62fbd7aaec429f6929595964806bae
-    new: 895ddf5ed4c54ea9e3533606d7a8b4e4f27f95ef
-    log: |
-         b95239ca4954a0d48b19c09ce7e8f31b453b4216 nfsd: make nfsd4_run_cb a bool return function
-         895ddf5ed4c54ea9e3533606d7a8b4e4f27f95ef nfsd: extra checks when freeing delegation stateids
-         
+  - ref: refs/tags/x86_urgent_for_v6.0-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 7756c96e98506a5e6111925f827c3c304265f904
