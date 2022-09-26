@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 26 Sep 2022 22:05:41 -0000
-Message-Id: <166422994131.15449.8659099831970402465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 26 Sep 2022 22:14:56 -0000
+Message-Id: <166423049656.20172.5766255591610153201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 1072eb8f494aa9b2e2efa6e45dd54d29478b6482
-    new: 0351295dcfc601bb713984350dc0ece695c0977a
+    old: ca527aaccf39f04d622eb417649a478916bc5e9b
+    new: 411795926d8532057debd027bd53147fa096fe72
     log: |
-         0351295dcfc601bb713984350dc0ece695c0977a random: use immediate per-cpu timer rather than workqueue for mixing fast pool
+         411795926d8532057debd027bd53147fa096fe72 Input: applespi - replace zero-length array with DECLARE_FLEX_ARRAY() helper
+         
+  - ref: refs/heads/next
+    old: ca527aaccf39f04d622eb417649a478916bc5e9b
+    new: 411795926d8532057debd027bd53147fa096fe72
+    log: |
+         411795926d8532057debd027bd53147fa096fe72 Input: applespi - replace zero-length array with DECLARE_FLEX_ARRAY() helper
          
