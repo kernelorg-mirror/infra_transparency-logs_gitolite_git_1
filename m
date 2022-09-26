@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 26 Sep 2022 12:19:20 -0000
-Message-Id: <166419476005.9338.4698286571248397778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 26 Sep 2022 12:29:44 -0000
+Message-Id: <166419538411.17293.10144238530047338085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/next/libgpiod-2.0
-    old: c07c61935c9ba2f34bd792fb4d03dd2b319f7543
-    new: 91aaeff3132ba0330aca21736777dad1881a43f2
-    log: |
-         91aaeff3132ba0330aca21736777dad1881a43f2 WIP: treewide: add support for hardware timestamp engine
-         
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
