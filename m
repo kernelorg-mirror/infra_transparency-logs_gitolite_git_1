@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8404190831226425595=="
+Content-Type: multipart/mixed; boundary="===============4247539148949036029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/idmapping
-Date: Mon, 26 Sep 2022 13:04:31 -0000
-Message-Id: <166419747169.9361.7071332468734997233@gitolite.kernel.org>
+Date: Mon, 26 Sep 2022 13:04:49 -0000
+Message-Id: <166419748901.9542.15021309170352886405@gitolite.kernel.org>
 
---===============8404190831226425595==
+--===============4247539148949036029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,175 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/idmapping
 user: brauner
 changes:
-  - ref: refs/heads/fs.acl.rework
-    old: f7d59e9df8ce113beeba6f2605b817f6d9820e0b
-    new: 167a59ffd2e20902d090753024a1b187ba33bafd
-    log: revlist-f7d59e9df8ce-167a59ffd2e2.txt
+  - ref: refs/notes/commits
+    old: 2eaa74705ec1c07a48a8b9372a95914c03ac7c79
+    new: 0bcd0c09f1841e2eecedf3d182773810234023b6
+    log: revlist-2eaa74705ec1-0bcd0c09f184.txt
 
---===============8404190831226425595==
+--===============4247539148949036029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7d59e9df8ce-167a59ffd2e2.txt
+Content-Disposition: attachment; filename=revlist-2eaa74705ec1-0bcd0c09f184.txt
 
-107423bef3b766e88e91779699e3d2f6cb964a8c cifs: implement get acl method
-f80d62e81bee31d938a5a4e0a7370fe9c599aede cifs: implement set acl method
-3941e130dc7094c011a6b76977b5ec9c1c3a07c4 9p: implement get acl method
-7e7e8a7f007759f7feb49497af41e5b49da3a084 9p: implement set acl method
-221addda9c67844b3b4504179df5e93a3fe56455 acl: add vfs_set_acl()
-72c08ade78b3c41a0233e68e7ac663c46836edd3 security: add set acl hook
-184db4c19e491cb8a84866789f202ba5e954e4e8 selinux: implement set acl hook
-cbe583c32359b353a8488512968b798874a140f2 smack: implement set acl hook
-819df671455990a4ee72f8564fc52945716c6c49 evm: implement set acl hook
-3cd4e4ade50358e4306236740bca4ba3917e2749 acl: use set acl hook
-c29d796005486a6e435cf6bcdc8d4efd3c88bfe3 evm: add post set acl hook
-7d8a8c5d81bb3883820bf5c86b2405790287b2bb acl: add vfs_get_acl()
-3eef721a4ad0494793625c958825243f3dc4c1ca acl: add vfs_remove_acl()
-50ea01a480b7b12390515d1700e69c3214e4f253 evm: simplify evm_xattr_acl_change()
-dfdfb7476bfd63036834c4a69786e1d4ffa2cbdf ksmbd: use vfs_remove_acl()
-7fa20069afeab46705127c071a08ae2c4d70a90a ecryptfs: implement get acl method
-831c7940a2b25a10dad5a36303fd113ca8517218 ecryptfs: implement set acl method
-f25b819a69adf31ba6c83c60617bf4b93e3dfb61 ovl: implement get acl method
-8eeb240e7af32b5630805e373df76e2bc75481f8 ovl: implement set acl method
-70ddf7f96dfe3fe3e6208f0db943ca3f5292ded2 ovl: use posix acl api
-2dee405314c49562a209d446d2ecaf485004cdfb xattr: use posix acl api
-dc0e4028a685454a3b3dea39aff5e433cb8ab854 ecryptfs: use stub posix acl handlers
-c508dee3d0c2a57928d90c511afdb82d77e3029c ovl: use stub posix acl handlers
-ec581a9c589dda79534f44acaf60a242ea668bcf cifs: use stub posix acl handlers
-8bedd52d3db8967f45aa0ec5fa171a7581f21e66 9p: use stub posix acl handlers
-167a59ffd2e20902d090753024a1b187ba33bafd acl: remove a slew of now unused helpers
+32d133cda633f3c30d43b5e9d653d32b7055b113 Notes added by 'git notes add'
+0d10ec13607bac49d85089f2e77df9a52c1eecc8 Notes added by 'git notes edit'
+521a7a5200b1b917ff865d42d85ec30fa42bd1b9 Notes added by 'git commit --amend'
+0e2b3a2d0fd9d3b65eb46aa8d748c2b49f62b2e9 Notes added by 'git notes copy'
+08e8b56a94d8473651ad200bfe2bc8feac32a68d Notes added by 'git notes add'
+db6cbdcefda01a4d5ac5820c138c0561dd34c01b Notes added by 'git commit --amend'
+c39eacc4808c8f69f9ebc716eeda0582fbd4c703 Notes added by 'git notes add'
+01d1cf81b6cb9399fddd822478da96640379b7f2 Notes added by 'git commit --amend'
+0c3f93121308113b98246a68ab76d50895de4d89 Notes added by 'git notes add'
+7c657d36bdabbc26d0efd68b966766b1877f62b2 Notes added by 'git commit --amend'
+963c98fc89c33c0ce0fff4d5cf58a9e3774f11f2 Notes added by 'git notes add'
+41710bd06a632130b2fcb18c29140fddcfeaa7de Notes added by 'git commit --amend'
+576550936794d934895f5f08ee8a318e38a290f4 Notes added by 'git notes add'
+7485ddfcc3537d286db3f4b656ef457275d266d6 Notes added by 'git commit --amend'
+216efe410890058c82910630f03ea01188891118 Notes added by 'git notes add'
+617f3e839c2f70398f457e2cbd3ec8b58f9b9c0f Notes added by 'git commit --amend'
+b46e90ca8b892794c99889d9e073aa180f823417 Notes added by 'git notes add'
+f240b80a832419fbad0d1f1e5e7146b574cf11bc Notes added by 'git commit --amend'
+2bf12ef1b8d002373d7714d0f9576fe06c21c801 Notes added by 'git notes add'
+27c3da67f13ad56984ed21585db83417693e6bee Notes added by 'git commit --amend'
+24c70ba7e9a295d34dd8b467dbf996994ecfd786 Notes added by 'git notes add'
+8a222456803f4d5a24249e8d18f7c3bcd6a843f6 Notes added by 'git commit --amend'
+244b70640434597bf953c626170d34d605679169 Notes added by 'git notes add'
+c0b30a68afe457888dadcc7bd020b57709d61fc0 Notes added by 'git commit --amend'
+6848d362a14558630a7abc553d8a4921a533e6ec Notes added by 'git notes add'
+90b9c58f392c6ae8ed4a9eda7bdc91bd2711b681 Notes added by 'git commit --amend'
+d4ae2d9aa8d99cc2e2c8d9fd50c6b64c0d15540a Notes added by 'git notes add'
+18edfa7129bd2a2a6d0cb36662ac3b98d2b45562 Notes added by 'git commit --amend'
+666b8a5de56ce34c543d8d0e4d19c30ab5fa25ac Notes added by 'git notes add'
+e09d24da857a4aa7eb9b667ab093b76fa81f5959 Notes added by 'git commit --amend'
+fe951de07804233afe3a7fc1f3f467bdf56b6ce4 Notes added by 'git notes add'
+7252e5e940fab95b52ab23f610c8c7d94e6f6951 Notes added by 'git commit --amend'
+d4a9a51804cffe1e3cc87a4acaf33108330c089a Notes added by 'git notes add'
+72c3cd6ac976d6e2da7946a5fa913fc21ec79dd4 Notes added by 'git commit --amend'
+f40b4b791a2316e1f16914cb576a17fce5886700 Notes added by 'git notes add'
+fecc24fe9a4d7d8a7292ee92d3cd400c99366c85 Notes added by 'git commit --amend'
+cedf489b55d1dfa182b2b4b160afc9cfec66492e Notes added by 'git notes add'
+99c40c8b50eb2c4c2c50410fdd3553925158535e Notes added by 'git commit --amend'
+4dcf8d0859e71c7706da687770074b43a57ddd8a Notes added by 'git notes add'
+ae09ff47d7888dc92a6da32b8226428abf1baa71 Notes added by 'git commit --amend'
+a8f447f694a7554ecc51058a099d0dfca2db1611 Notes added by 'git notes add'
+2098e1cbf1134d32dacbb940fa45f3a49434b232 Notes added by 'git commit --amend'
+7835c76658643b4e951c388ae66117ee8486df26 Notes added by 'git notes add'
+3f6fb7eca2630a92a8c9add8b72ea33a1c4bd18e Notes added by 'git commit --amend'
+5789ccc8a33e1127b01e3da4e95449429283f57e Notes added by 'git notes add'
+2cace3df47c32f509cbf4f166aa928d302bfd7f8 Notes added by 'git commit --amend'
+4f9af79daca290b6c7dbb793c90f250f2ac8667d Notes added by 'git notes edit'
+191d38f71417e15493dcf23a7fa430ec9776072e Notes added by 'git commit --amend'
+c97107e8e76b1d2554a5957d29331cee78f315e4 Notes added by 'git notes add'
+6c7da9450fded8be25fcdc8c85706d7ddf70851e Notes added by 'git commit --amend'
+c3c38cdb448161295c42c1c0ebc66e897b3d02eb Notes added by 'git notes add'
+9c6a0811f2c9a4d451bfeaa6078f6e2bd5a1cfa8 Notes added by 'git commit --amend'
+14a26eb56bf629d0da70e0c68fd53cec8a10b978 Notes added by 'git notes add'
+c719deb89500845a253f636c1ffa2c3a5ee24492 Notes added by 'git commit --amend'
+7b9daa0ef1074e078939a6b8bcf9c4aa331418f9 Notes added by 'git notes add'
+ee34fa951bee0027d4a27e4b75915bd51df0678a Notes added by 'git commit --amend'
+b2ff41f8404f28e1851c5217a35f5fc4468bb4f6 Notes added by 'git notes add'
+4d60aaedaf42767b0290b3d8596f80bbeccec2b1 Notes added by 'git commit --amend'
+897ceee1f8b57fabbbd7c301935deac956268bbc Notes added by 'git notes add'
+253d4906ceff16b1ac98f70be27c33a532089ee3 Notes added by 'git commit --amend'
+6f820767fc408919a438db8b4eb15677e7fc35e7 Notes added by 'git notes add'
+3b691bedb12659dd95860fb9e2540b3a7a1e81aa Notes added by 'git commit --amend'
+5d16f56c04be3299bcac7613db9fa6ca6dabfb81 Notes added by 'git notes add'
+8b7456b9eac905c4283c7aa3bc63261c8dc3e1ac Notes added by 'git commit --amend'
+a8cb153046c20774526faf573bf55146d6ffa269 Notes added by 'git notes copy'
+28a372551fd0517c755259ce42a188eb93c20d14 Notes added by 'git notes edit'
+79373913ccc9e4cb6c1922ff9b824f5c55238778 Notes added by 'git notes edit'
+6c02d6201438f3f7af7a8d0ff9d2cbcc50c000f3 Notes added by 'git notes edit'
+b1b2016f82f22d22bfdba77d5b9bea7cd39752ee Notes added by 'git notes edit'
+6591a9ed110d6dcc3f0875c11129d77011a5be07 Notes added by 'git notes edit'
+cba437c71254dae5cdb66ed67255a1f328b2be4f Notes added by 'git notes edit'
+3afe919950cbae344259ad24ffa741031e13366e Notes added by 'git notes edit'
+b3a66656ca75344214d60c6b7ed584a08eb3485d Notes added by 'git notes edit'
+7ab4d928d8f49674199e4ecf80f63761c82be78d Notes added by 'git notes edit'
+8da1f167ad861de22c3d1ece3ff829bbd4255a2a Notes added by 'git notes edit'
+df4ac6ff236a5f7d07abe1160f341a19b6499143 Notes added by 'git notes edit'
+8167f880ab18554505843c3683b1a1f7e01fc920 Notes added by 'git notes edit'
+a15baffbaed34feaebc10d945c9c35546bdaceb1 Notes added by 'git notes edit'
+691ea43f6bb21217ef07910053085e5881452e0b Notes added by 'git notes edit'
+89f4b1618396ef07a0f499d9a64082840e833abf Notes added by 'git notes edit'
+33550fc5b42a1b082dd26602cfde8e83a6662ad7 Notes added by 'git notes edit'
+b69970757ad8f2b48e881d4cce38800cceb98440 Notes added by 'git notes edit'
+d27a26c7d43794181ca65bef3fb320b2b7c008ef Notes added by 'git notes edit'
+ee5c176d9f3b87fb2a8eccefc5bbbcf9dfe781b6 Notes added by 'git notes edit'
+77e596e86141a7e698c6f663821247f2a32d036a Notes added by 'git notes edit'
+a230673472fba3e12c6d618a88a3e8172841cbb4 Notes added by 'git notes edit'
+d0641a46d06992e4442ec53b173d5ecca09d870a Notes added by 'git notes edit'
+b47fd86bfedc0f6e26a9f04a85a06e114bb43b99 Notes added by 'git notes edit'
+4d2ffb16f2107b0b971b5058fb7459b3409acfe1 Notes added by 'git notes edit'
+bc35465013835b874fb4d395547f3f5961f8990d Notes added by 'git notes edit'
+d78b9dcbe552b0dd17b89e14fc1bf0c5465dff15 Notes added by 'git notes edit'
+a959fbc52b91e380efaee2135dfe6983c9884921 Notes added by 'git notes edit'
+2e4c6aad21bac04d9ccfb1edf8a86cc0ec88c72d Notes added by 'git notes edit'
+e69ca570da8b899b5fccf0270c3684673da804c6 Notes added by 'git notes edit'
+f9c0e11cbff5c52eacd4534570b177fa494adbb2 Notes added by 'git notes edit'
+5122e9dc5dbe4ccff4c1c8db94ea8543edc88e92 Notes added by 'git notes copy'
+08df078c22fb838d2df2040d13dec3818da927b8 Notes added by 'git commit --amend'
+e3df6d3e2bdc955ad77d28860ac2186aa9b1f9cc Notes added by 'git notes edit'
+8fed1ba7ff292dc12c261a66eb4f1d9688f36bec Notes added by 'git commit --amend'
+569949544359212f41ed402aa9e6e2858abf7f11 Notes added by 'git commit --amend'
+0bc89b76f4e56c3d1c836ae99cc7b59845329afc Notes added by 'git notes copy'
+9a9819718348cc3601e4a97c355bb0cebf932621 Notes added by 'git commit --amend'
+b5306cd38d48b582c57bd07e537b095d12036bdf Notes added by 'git notes edit'
+a32ea964572ffec8f57a05626229a943a108f67b Notes added by 'git commit --amend'
+57048780591d7562b7ae9ee740461507e4cc43ea Notes added by 'git notes edit'
+f4ea4fd75cfae60e0e3b201c94d949f61d57c038 Notes added by 'git commit --amend'
+472f19cbce251d294755513207167ac9e98f49cf Notes added by 'git notes copy'
+bcb946ea400a8615194647154ec46d0db61be9c2 Notes added by 'git notes copy'
+801b69c0cddadb199a823af2a0781b563a655da9 Notes added by 'git commit --amend'
+207edef4a1fda6dd14b6f35c296400612a1b17cb Notes added by 'git commit --amend'
+c34a22de3256b9af1574ed683be5351bc03cdddf Notes added by 'git notes copy'
+c9ce7ed2424cd03a36abc9062a5c6a3e659fe11e Notes added by 'git notes append'
+caf8b8ed9adff28309c8f33dabac364367dba39d Notes added by 'git notes edit'
+2db349894313dfa499ce635a0ac55457447b1219 Notes added by 'git notes edit'
+41c7ad71046f140fe4e2e6d0ddc32befc6cb2c73 Notes added by 'git notes edit'
+8a4ff81daacca8f3d2671729087a52dba90ca993 Notes added by 'git notes edit'
+05a2e72735c57a3fac1970887d829b935ac7bd12 Notes added by 'git notes edit'
+a8e968e476a2795e52a441a8f37fccd58ca1da7c Notes added by 'git notes edit'
+452acbee76ed819031c129b5cfd143f014ae6359 Notes added by 'git notes edit'
+5d1a2c63ae33fe3e92fc53b6309a2452465e2dca Notes added by 'git notes edit'
+b46feaf13826f6b140fbfa0c4d92f78c8f20a83e Notes added by 'git notes edit'
+311849a41054f979dac3f3568917c04c3654e098 Notes added by 'git notes edit'
+012d2efcefb52d329eb8957ae29f738754caf2d8 Notes added by 'git notes edit'
+acdaec6de0b742b914303f67f92c07bdc24347ab Notes added by 'git notes edit'
+400ad1b59a87e6919b8aac1798f920997bc68494 Notes added by 'git notes edit'
+ff8f03a9222b264dbdc90e9f9732a61a5c1ea5b5 Notes added by 'git notes edit'
+24ac60a216bb2f2668d9bb318385f8c4c970ffff Notes added by 'git notes edit'
+27d89d37e7248b239a459c26b86e9f0f46457b98 Notes added by 'git notes edit'
+d7a12cfb8eaf34532e387072bb41c62a0e8e2e5e Notes added by 'git notes edit'
+c8eedb9c3909ed9934d1dab45a47de36553f6cca Notes added by 'git notes edit'
+659e10d1d19cc822961e9a6eb0f499fb45d053d8 Notes added by 'git notes edit'
+46eb6edad21f23248e150aa159b648f1eb16bc0d Notes added by 'git notes edit'
+06fe6812ac57862dc301407e63f08db9e92cb00e Notes added by 'git notes edit'
+4513dbb0888a08c612127bf37b5ff8f3e324d5d4 Notes added by 'git notes edit'
+11ba4a0eba7984367358389dc548ecb9026bacc1 Notes added by 'git notes edit'
+cadfda483c54a346ad657df6163d1578e32978ca Notes added by 'git notes edit'
+e8e9aca98a6a6cb310222617a29aad16efd694a1 Notes added by 'git notes edit'
+6661ff83471f62ec3f4c272c755915f083f4e4ba Notes added by 'git notes edit'
+b651a1681837c56528047c0903da903bb0692591 Notes added by 'git notes edit'
+9bc4f1d4153e9b417ec3227772562e4ca5b1f242 Notes added by 'git notes edit'
+11c3f2b6217f874455bd52d5cb2ce03135ce663c Notes added by 'git notes edit'
+a999ea896ef5f58d1a31c7dca4676d75347dd7dc Notes added by 'git notes copy'
+1a5ebb774f2bce159e907e23779fda401c3939ea Notes added by 'git notes edit'
+4a03b791e48a4fc238dff0d8249c7a791b439324 Notes added by 'git commit --amend'
+598cc78e105301fc9d40fd6bf768fc884f6ffdcc Notes added by 'git notes copy'
+d4336e121a28fc4952a2f38768098c210033af78 Notes added by 'git commit --amend'
+c893368a0ee5e607d1070c3165bd1ad5db8da177 Notes added by 'git notes copy'
+a9f6930da85c188087757aaec19f061511744833 Notes added by 'git commit --amend'
+9507639863f3efe8340d8432538f0e04eb950e25 Notes added by 'git notes copy'
+797ce28199c2c1cb809223559ad6b9c9a5b42dd6 Notes added by 'git commit --amend'
+10514d330098d33da744be9fd3e52a1a41dff9ad Notes added by 'git notes edit'
+72c94a7029b3698fda82917464efbc634c16a88a Notes added by 'git notes copy'
+ea0e38e1d4c59b839e5ad1146e09b8ca6ea5628f Notes added by 'git commit --amend'
+df130ed8e6f2d9dc5d3ccc8a955e650e77f99b19 Notes added by 'git notes copy'
+a9e4e750b41f97f2c7544f4fb6f59d3c01abac77 Notes added by 'git notes copy'
+698f46537226d78cf1b98f75e75b01a90340564b Notes added by 'git commit --amend'
+41629ecaa558e9db4ffcb8bde9acb65673721137 Notes added by 'git notes copy'
+8ab813a990fc2a3c1a58cb5a566c02152f5514b9 Notes added by 'git commit --amend'
+0bcd0c09f1841e2eecedf3d182773810234023b6 Notes added by 'git notes copy'
 
---===============8404190831226425595==--
+--===============4247539148949036029==--
