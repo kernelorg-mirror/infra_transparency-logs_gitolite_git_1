@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Sep 2022 19:04:28 -0000
-Message-Id: <166421906802.13162.14399276309467616766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 26 Sep 2022 19:15:14 -0000
+Message-Id: <166421971440.21743.13872666648160185071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/tags/x86_urgent_for_v6.0-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 7756c96e98506a5e6111925f827c3c304265f904
+  - ref: refs/heads/master
+    old: 81ee935a4826de354858ff5626bcd1742cea49c1
+    new: dd80bbf39782bad261fab61e4a92e0b086ea1505
+    log: |
+         4d062c73eae7d7377703c98f0503c860b6aba4cb sae: add IWD_SAE_DEBUG for more SAE debug messages
+         dd80bbf39782bad261fab61e4a92e0b086ea1505 test-runner: add custom verbose option iwd-sae
+         
