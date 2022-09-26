@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0620846253583550402=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 26 Sep 2022 20:12:53 -0000
-Message-Id: <166422317341.29650.4221417516998966031@gitolite.kernel.org>
-
---===============0620846253583550402==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 26 Sep 2022 20:17:45 -0000
+Message-Id: <166422346535.532.10794883600843786274@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
-  - ref: refs/heads/for-next
-    old: 5cc638a0a0f78925ea4c9c4c4846575d35a989a7
-    new: d9fc5677ceb67b5e300ea382a2a536e07136ec26
-    log: revlist-5cc638a0a0f7-d9fc5677ceb6.txt
-
---===============0620846253583550402==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cc638a0a0f7-d9fc5677ceb6.txt
-
-123e1b34e0bf431a330bc0a15a8bccc03166ea31 linux/export: use inline assembler to populate symbol CRCs
-f8f2644316ce8c3080c9bb17e99ffe1df145d6d2 Kconfig: remove sym_set_choice_value
-f7ec2608f58b98e58efdbffdf3a5d8bcc29aa2d6 scripts: remove unused argument 'type'
-d24f743139216ff6063dd2455a54931aca3fa800 kbuild: rpm-pkg: fix breakage when V=1 is used
-39f64805701019b82df9430f73e73114e2e369c5 Makefile.compiler: replace cc-ifversion with compiler-specific macros
-0cc1b22fa606eebe9539c4eaac6b570a33cf4302 kbuild: list sub-directories in ./Kbuild
-ca5f20da2ffcb94e04728c8afa656a691187d0d6 kbuild: move .vmlinux.objs rule to Makefile.modpost
-e4c3c66603c18e0e7400b398f440d100f40c2215 kbuild: move vmlinux.o rule to the top Makefile
-8da79d44fd2e5ee00c66b04d4d02d9b109ed47f1 kbuild: unify two modpost invocations
-7ca19800047c04e7d0bc032608dacba7116bb3a2 kbuild: re-run modpost when it is updated
-284803528e235f5a32e884f01af10431ae71abdf kbuild: hide error checker logs for V=1 builds
-e8a371266f49ce32402c9317a52e676ccb415d80 kbuild: use obj-y instead extra-y for objects placed at the head
-d9fc5677ceb67b5e300ea382a2a536e07136ec26 kbuild: remove head-y syntax
-
---===============0620846253583550402==--
+  - ref: refs/heads/master
+    old: 7738e9ac416b8dd9aa8f3209b75554f85836c5f0
+    new: d763bfa4d0892b4b3b004577491d2493a999648e
+    log: |
+         491be481a91c39d31f7908da8a2beea60237646e mesh: Improve PB-ADV timing for reliability
+         9966cb8b6999a5f54fc13acbd7e1526512a84342 mesh: Add new kernel MGMT based IO transport
+         5b569e3d14a38247c69a16d80c5f7c8b77482505 mesh: Correct u32 to u8 log transformation
+         1ef221ca020581575a3775ec60c0a28e384081be mesh: Reply to HB pub set with same fields
+         902389f3e7a33e5730d7e2318b1f1868170dc092 mesh: Correct HB sub state updates
+         d763bfa4d0892b4b3b004577491d2493a999648e mesh: Clear HB sub status field if disabled
+         
