@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 27 Sep 2022 22:43:18 -0000
-Message-Id: <166431859854.17109.11638954779532328592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 27 Sep 2022 22:46:30 -0000
+Message-Id: <166431879060.19858.10053754314013017748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/seen
-    old: 4f6b003f1173eb3e40ddc3940321830646ad3a1a
-    new: 61364a9cfd9e69f2494eeaa5f1db57f77eaa0281
+  - ref: refs/heads/fixes
+    old: bfbfb6182ad1d7d184b16f25165faad879147f79
+    new: 322db9fa7a1f4112c141c0f4e5a68d471789f20f
     log: |
-         ed0fa50bce68053a389817813ab4f803b48ff59f branch: description for non-existent branch errors
-         61364a9cfd9e69f2494eeaa5f1db57f77eaa0281 Merge branch 'rj/branch-edit-desc-unborn' into seen
+         322db9fa7a1f4112c141c0f4e5a68d471789f20f [coredump] don't use __kernel_write() on kmap_local_page()
          
