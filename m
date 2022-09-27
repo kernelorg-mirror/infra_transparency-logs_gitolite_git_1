@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 27 Sep 2022 14:10:13 -0000
-Message-Id: <166428781314.6974.918544119552152718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 27 Sep 2022 14:15:15 -0000
+Message-Id: <166428811539.10394.11842860868126613094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: de2423445fa59a6ebbf6f1fba764f30818204348
-    new: d7507140eab4bf9f1ae3d3721d7803fff9b0c175
+    old: 1cba5d6c9e41e2f55ac4c3f93f5e05f9b5082a3e
+    new: eb90f4229c0526bace370175eeec1329bf72311b
     log: |
-         ea30d58a2329764b9515bbe671575260c76f8114 core: Conditionally define language encodings
-         2bb968b567011f8a3e47706dc11c2a6ec442352c btf: Fix building with system libbpf
-         f5857bd34b220a64eb343a84e21f3c8e11cd9ec7 pahole: Honour --compile when -C is used
-         843fe9bfab4859b4c718b87dccfb27f45833321f emit: Check if disambiguated struct/enum/union name was already emitted in a previous CU
-         d7507140eab4bf9f1ae3d3721d7803fff9b0c175 emit: Don't mark a enum with nr_members == 0 as printed, its just a fwd decl
+         f37012787e5cde63fb30ae92c9ac25153298dc5b handle single issuer task registration at ring creation
+         b08210967b53c339a1cb983e176e8b53b5c8e0db update documentation to reflect no 5.20 kernel
+         eb90f4229c0526bace370175eeec1329bf72311b give open-direct-pick.c a unique path
          
