@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3860521792029180739=="
+Content-Type: multipart/mixed; boundary="===============9204303100117325137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 27 Sep 2022 03:22:25 -0000
-Message-Id: <166424894566.15794.413056173222316995@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 03:22:37 -0000
+Message-Id: <166424895799.15950.6199365607645338432@gitolite.kernel.org>
 
---===============3860521792029180739==
+--===============9204303100117325137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-6.1
-    old: 18f6e9cd7fa3ef6a6dcb10d3fe357afaa52bd216
-    new: 9e48f0519bae644d91c85d0a99ea5887688e4bd5
-    log: revlist-18f6e9cd7fa3-9e48f0519bae.txt
+  - ref: refs/heads/for-next
+    old: 4ed139a11266b3144a9e0e99689dfcfdb115d97f
+    new: 51900cef3a19f993f1d61a502b97b896a165ab43
+    log: revlist-4ed139a11266-51900cef3a19.txt
 
---===============3860521792029180739==
+--===============9204303100117325137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18f6e9cd7fa3-9e48f0519bae.txt
+Content-Disposition: attachment; filename=revlist-4ed139a11266-51900cef3a19.txt
 
 c5d2c96b3a7bd8987fad9957510034130037fccf clk: qcom: clk-rcg2: add rcg2 mux ops
 43a56cbf2a38170b02db29654607575b1b4b5bc0 clk: qcom: apss-ipq6018: fix apcs_alias0_clk_src
@@ -43,5 +43,6 @@ a7edd291636ac0bddf6c5a5aef6a94c2a9794830 dt-bindings: clock: qcom: add bindings 
 068a0605ef5a6b430e7278c169bfcd25b680b28f clk: qcom: gcc-sm6115: Override default Alpha PLL regs
 65f1fa35aa70b9e5abfd184ce3078c9aa93a1cb4 clk: qcom: gcc-sm6115: Move alpha pll bramo overrides
 9e48f0519bae644d91c85d0a99ea5887688e4bd5 clk: qcom: Merge alt alpha plls for qcm2260, sm6115
+51900cef3a19f993f1d61a502b97b896a165ab43 Merge branches 'arm64-defconfig-for-6.1', 'arm64-for-6.1', 'clk-for-6.1', 'defconfig-for-6.1', 'drivers-for-6.1', 'dts-for-6.1' and 'arm64-fixes-for-6.0' into for-next
 
---===============3860521792029180739==--
+--===============9204303100117325137==--
