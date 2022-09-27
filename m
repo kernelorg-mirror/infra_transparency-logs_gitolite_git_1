@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 27 Sep 2022 14:55:57 -0000
-Message-Id: <166429055709.8449.5105715963086184673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Sep 2022 14:59:16 -0000
+Message-Id: <166429075653.9644.9933547363562017283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 157f85f492288ebcea0da15069e09d26da20c853
-    new: 2c2f95de90d86cd6d5968132e104b5e0fb2bc9d2
+    old: 73dfe93ea1b319482e6d82a54fe06f953ceeeccb
+    new: 9257f69273748635d5cb269ffac59d36db37bcde
     log: |
-         f04c30d4de7f65c4fae856a5cb40d07a75b743f9 random: split initialization into early step and later step
-         15197ef789cfc0f4fa375d205099b7ddd24dab8d kfence: use better stack hash seed
-         6d0afa3f8ce8275ba2251be67c16d7cb02932fb2 random: use init_utsname() instead of utsname()
-         2c2f95de90d86cd6d5968132e104b5e0fb2bc9d2 utsname: contribute changes to RNG
+         dfe60949147627f22ec67084af09b3c460339dd0 funeth: unregister devlink port after netdevice unregister
+         a286ba73871411b8615eb52e9de1dd8c5078ed3d ice: reorder PF/representor devlink port register/unregister flows
+         1fd7c08286cec1805427ed0569ca08e24ade6702 ionic: change order of devlink port register and netdev register
+         9257f69273748635d5cb269ffac59d36db37bcde Merge branch 'devlink-fix-order-of-port-and-netdev-register-in-drivers'
          
