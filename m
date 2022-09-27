@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0487022108348837977=="
+Content-Type: multipart/mixed; boundary="===============0513388015451543788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 27 Sep 2022 08:41:51 -0000
-Message-Id: <166426811109.16953.15756054795731620135@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 08:42:26 -0000
+Message-Id: <166426814638.17276.7598504233676153298@gitolite.kernel.org>
 
---===============0487022108348837977==
+--===============0513388015451543788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c26688d7ed254b4d52c1a397e876c09386b79374
-    new: ea35d2f5113d83b66136c9ba4d8e44f55acaa80c
+    old: ea35d2f5113d83b66136c9ba4d8e44f55acaa80c
+    new: 0495cd9ea24fd7bf8eb06a5d88462a0f9e38825b
     log: |
-         ea35d2f5113d83b66136c9ba4d8e44f55acaa80c usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+         0495cd9ea24fd7bf8eb06a5d88462a0f9e38825b uas: ignore UAS for Thinkplus chips
          
 
---===============0487022108348837977==
+--===============0513388015451543788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664268109 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664268145 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664268109-bbcabc7fd269077740efc5b7af3fd7a4281e2540
+nonce 1664268144-8ea9dddbec5cabd8b81bfa6257345da88160f00a
 
-c26688d7ed254b4d52c1a397e876c09386b79374 ea35d2f5113d83b66136c9ba4d8e44f55acaa80c refs/heads/usb-testing
+ea35d2f5113d83b66136c9ba4d8e44f55acaa80c 0495cd9ea24fd7bf8eb06a5d88462a0f9e38825b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMyt04bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oJsQAIjzhvQeSkFUUoNjzYu0
-crRcbRiR6T4qRXoPrRj+KL8LjhJXA0qlWFroMcAGprksY08NzYUrNJI1hcplJPo3
-QAoVDGCg8HJMGYEt/p3FWtsNQhYBKYHNnB4vXzLJDlv6ATOijb6WQrNlfpwA9T8D
-vtjK9BW93w49y/8V1tnMwGP+BZh56lQttJxulamiu0XkkAxCe3VCSMufi/0Zjb0R
-i6j7C65GV3YhWv/EEBatPiRTMnt6Op+eOBbvMZxGomdSpK99qVxRCuz8ooZ+R0Nq
-Wl/tA8jiZ0LEKTBgSebPxPIiMjXhAYWpWbA4HBQgi5zk4TSMy8cs84L2tWmOgQ7/
-1hhAC7uyffgZp+6aHXjPZynYOg7R18GFFtnj1AolAUgn7us7DfIZDwyTW2mdmzVH
-MjPAIRWG1XrRrByTVtKkYo27S/G2GOjO0KmRwy2tQ23hS/np8banDtehj28/3CJQ
-srVoC7bHx2HC7EZ94D6049KV6EcxKdlVBX90S5PkNoumrMv1/2MxsFP2v5iHbjr+
-3VWbWmF09kKBq2PGMPsXqMmlqJTTe0VoSkCsDsZJi7zRn9hvF23SWUFQQggO6eYd
-EJIY+CpsfLiv6eqhksEbWqkC4SkYicCDdDoGLPFDNe4Emh6Hnj6XP/vjp3O81bRb
-90rh/mmz440vBGjCe+veA/Zt
-=QUBc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMyt3EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GXwP/AmmtVEUEAm1XT7JNXsq
+xUyeNQqRTSVlecKkBMdt6nUPcmqLynvUa6gMrKVqSDr29Ysp0LsFFzeOBHl9HeFv
+HP1xHcEtRs/b2Eyn2bpgd/tQNu+VuwBcI/3LUdG6SK01/8Yq4HacRpeXZ7tDW8XO
+LY0c/mHQcwKZGPR+faAZ2A+yQMh663hAnrea4ftuoDIni44lSmEXyk4gOfupX5He
+CA3VyPQfUo9R7HBkc5Zse/Wrd1LpUf2futCVGBCvZrSyTMiU+V6sC2bg2aiK8QhN
+SDwNR5S1pxpVOYI7uTWeNs2ZlsLvVqhoXR/73EK3VcjCKbCsTLT95UsK4QcWgcTK
+2bZJOOCCQ4e5m4yZ0XnbBxXgr88Xds+J84+ceoIk7SnbtBP0AE12yDYEEpjhTaRm
+8rmlW8Rc7iY4f+NSbMF+wf29dTEGnG2ZwfwI7ln2iKdUMu17Pwt2yxq3WXvC6xX8
+lgxScZmqKoG3jNigSVYhjfFW63fFu+Fnvyyc0/yLKBQNQqfzq77nLHstGCjWO97I
+RML0cQ4RgXWYAh4znb0H5Qy76ssJREFes2/v6gizaQEVfoX/zAhXR7XVH48kmat+
+7O2qVJtaCblaR8QTX9js0ronYxXgoBTxAxcBFhjazylRScU8FUIGdYzje1qLhaki
+bApan4rnHq8rB3HYmVdLpTpU
+=pRib
 -----END PGP SIGNATURE-----
 
---===============0487022108348837977==--
+--===============0513388015451543788==--
