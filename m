@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 27 Sep 2022 19:40:22 -0000
-Message-Id: <166430762284.17330.9786156521496576019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 27 Sep 2022 19:52:00 -0000
+Message-Id: <166430832065.24600.15261075928279726172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: ecea0abe4868e0488abdaa88d297056b0f296217
-    new: 8a35bfb3d671e514aca1e11f9e8b1a34e1bd1e09
-    log: |
-         8a35bfb3d671e514aca1e11f9e8b1a34e1bd1e09 foo
-         
+  - ref: refs/heads/for-next
+    old: 521a547ced6477c54b4b0cc206000406c221b4d6
+    new: 0000000000000000000000000000000000000000
