@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4552166178019076004=="
+Content-Type: multipart/mixed; boundary="===============0688479410900014523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 27 Sep 2022 08:37:36 -0000
-Message-Id: <166426785615.13629.7574618285179909767@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 08:38:09 -0000
+Message-Id: <166426788949.13881.6316682274350788852@gitolite.kernel.org>
 
---===============4552166178019076004==
+--===============0688479410900014523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 7a8275099361e248d3c4dc350332606bf36b19b7
-    new: dd3de5ad032db61f3edd9c94daf27e52f8dc25ca
+    old: dd3de5ad032db61f3edd9c94daf27e52f8dc25ca
+    new: c342b3d925397bef1a636dc7d2d7782432d135c1
     log: |
-         1abf6ab490c518164a3ffb62e4533850aaecb6fd usb: cdc-wdm: Use skb_put_data() instead of skb_put/memcpy pair
-         29afbe5f5afc2f724b8aef2d11fbe6a7ee48997e usb: cdns3: remove dead code
-         5d5fb7c75f5a32b08089ab15dedcd5d83c809991 usb: ulpi: use DEFINE_SHOW_ATTRIBUTE to simplify ulpi_regs
-         e0b27d38ffb7552b28a993c3c7029ce89670ff5b usb: phy: generic: Switch to use dev_err_probe() helper
-         411c4597df7dcc60b7aae83761618c94a60ded3f USB: PHY: JZ4770: Switch to use dev_err_probe() helper
-         bce2b0539933e485d22d6f6f076c0fcd6f185c4c usb: idmouse: fix an uninit-value in idmouse_open
-         dd3de5ad032db61f3edd9c94daf27e52f8dc25ca usb: typec: ucsi: Remove incorrect warning
+         c342b3d925397bef1a636dc7d2d7782432d135c1 usb: dwc3: st: Fix node's child name
          
 
---===============4552166178019076004==
+--===============0688479410900014523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664267854 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664267888 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664267853-e6be8131a897308e89c2f18576992c7e3ce9a52f
+nonce 1664267887-4b826944d50c1c94a62cee9808be466255bb75fd
 
-7a8275099361e248d3c4dc350332606bf36b19b7 dd3de5ad032db61f3edd9c94daf27e52f8dc25ca refs/heads/usb-testing
+dd3de5ad032db61f3edd9c94daf27e52f8dc25ca c342b3d925397bef1a636dc7d2d7782432d135c1 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMytk4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IjYP/AoEkBP4MDlT03eCRunA
-olDx/lFjqCw76oFrOXXWlAPSpmvAJnLCeHM/xXbnE3P65GWyjUZ6SX/EY0hZ8UbX
-y3hjWDGi39zlaUuBR3IkCshf1YhTxgDukwoy43SQ5GSoR5H67J9OcXCNeuNneNB2
-2hpnpOPX0YPPZl9/zcUTKS7EgbIuPaL93JYPo7sQEUwevK8snlnQ0s+O0QFNaGhS
-uMgn87pCcHEUdlNfROBI8u8dksX0WdAlwQTdBB8TlpG3pi/rWuj+cfqeuUswCcji
-TWqoGSz7qvguWaOJvCgakFO7dTBJgqNPqmuD/BNuaOFgsap8hbmFhp/VGUB8q07U
-RodyQly235/mr+agcCB6yS0/TUXcYUV1LI4uNjrWH7XPnWuRFmxIkZX8HQa9okW5
-qfFGOQDO3HPycz+MHD3vW9iKAbsHFjS+TzOZHQoFTbRILDeim6KXBWjHMHjCjuWs
-3lsRMdrpG6z2rVKc2aloo4T5r5ls/hMZt88xpBTFmBbUtSfS0TD6HtVC3HB/1wvr
-fMNK9A87M8AJIqUsLgpL4Aagnw45ueagGEtvcm3eHZ56x3mxKVDTJAytV88guQTC
-dtCx7zzVm56bcJisCom28XKoiXp3qALTvXPfNv84kBN6YC7WSdBwtx7aN1cGiZy6
-zdbBmi/GjNgsnVws3Syq3//m
-=a8iQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMytnAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J4UP/RAzZMFfhxWvBoyin0Q0
++wmL4M2hoUS8EV8H/8kZ5OGX4Gft3zI1gVqYk6RtBej5kiiOOBkqRl3r2/grVhkj
+5fsofMFU+TXEctxmghCRJG3UTHIjt08arxp6ctN9draABA8sWggCNKgxwUTeE45H
+KkF9NaRZfLUlnrWMBTNDH4tnTpu+IGdPY85MfAi582S2LiI3y3n0e4T8TFrPwMZB
+AzHaEmXnUIdSGKJtQsOUNXbQGnBR38kWuSLdIVZLX8+e+7SUY0SMKNybccjqEYJp
+29vEcZCkm7j2+uwGu8sUd6ZYvHrFT4FZGGwA7+bKwNOUO+FNQ9Fp8ID3Vng9l540
+g8dErgOgdMLHveq33SFPpJMo/tAnF2u2mpU+b4zZQWnyiHlLKBrqz5lXqRxZBqEi
+2y4wBnd2ZY+ddIp3WcbemfPAYFj4DP3GNVT8lKrM4BpgSL/aLQOqmm0yA/7fzVlp
+MrRBZ6Lct6uDvi6qYLNs3m33aStkz1sPUvJMJMDuCN249AJrKORXIEVZER7GKTA1
+iE8/4/W/JC3ePWw+OwhLHvJqJJNzuyj8Hk0nkgWGvPahkwClJuRm0GkPIt4AVy/o
+H4EHQBGT8TWi1hn8L8No9tG4UQN+3Y9TVEyoxIGwSor2JiNgR1a5ju9E8YwpZDXG
+NdG7lPvkEiEZtsCq6vCTcRTt
+=82PL
 -----END PGP SIGNATURE-----
 
---===============4552166178019076004==--
+--===============0688479410900014523==--
