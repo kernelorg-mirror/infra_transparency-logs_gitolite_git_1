@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 27 Sep 2022 12:12:28 -0000
-Message-Id: <166428074810.18273.6223611298651603197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mmc/mmc-utils
+Date: Tue, 27 Sep 2022 12:16:59 -0000
+Message-Id: <166428101942.21439.2828422589782704512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
+repo: pub/scm/utils/mmc/mmc-utils
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 3c6656337852e9f1a4079d172f3fddfbf00868f9
-    new: e7afa79a3b35a27a046a2139f8b20bd6b98155c2
+  - ref: refs/heads/master
+    old: 2a934139cfeef1249e46f50fbec548f11c2dd8ca
+    new: dfc3b6ecda84d21418fb4408b39c5c71db4c6458
     log: |
-         e7afa79a3b35a27a046a2139f8b20bd6b98155c2 mmc: hsq: Fix data stomping during mmc recovery
+         dfc3b6ecda84d21418fb4408b39c5c71db4c6458 mmc-utils: Fix a typo for ATP mid
          
