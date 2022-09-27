@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1733803029943679278=="
+Content-Type: multipart/mixed; boundary="===============9046073270287190609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 27 Sep 2022 08:48:15 -0000
-Message-Id: <166426849559.21058.17590701282482830457@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 08:51:02 -0000
+Message-Id: <166426866289.23600.5066893517589988298@gitolite.kernel.org>
 
---===============1733803029943679278==
+--===============9046073270287190609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: f76349cf41451c5c42a99f18a9163377e4b364ff
-    new: f208ce4d45c5884eae2b8a67bed1c3d646cafc15
+    old: f208ce4d45c5884eae2b8a67bed1c3d646cafc15
+    new: 0fb9703a3eade0bb84c635705d9c795345e55053
     log: |
-         31f87f705b3c1635345d8e8a493697099b43e508 thunderbolt: Explicitly reset plug events delay back to USB4 spec value
-         f208ce4d45c5884eae2b8a67bed1c3d646cafc15 Merge tag 'thunderbolt-for-v6.0' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+         415ba26cb73f7d22a892043301b91b57ae54db02 usb: typec: ucsi: Remove incorrect warning
+         f5c5936d6b4dfd3f9a145be5bc6ff27eb706bc39 usb: dwc3: st: Fix node's child name
+         a625a4b8806cc1e928b7dd2cca1fee709c9de56e uas: add no-uas quirk for Hiksemi usb_disk
+         e00b488e813f0f1ad9f778e771b7cd2fe2877023 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+         0fb9703a3eade0bb84c635705d9c795345e55053 uas: ignore UAS for Thinkplus chips
          
 
---===============1733803029943679278==
+--===============9046073270287190609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664268494 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664268661 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664268492-341e474ead722f85621c49639814539bba4fc30b
+nonce 1664268660-f78ebf64310952895d639cb348956dc39cc8530d
 
-f76349cf41451c5c42a99f18a9163377e4b364ff f208ce4d45c5884eae2b8a67bed1c3d646cafc15 refs/heads/usb-linus
+f208ce4d45c5884eae2b8a67bed1c3d646cafc15 0fb9703a3eade0bb84c635705d9c795345e55053 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMyuM4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rGsP/0aasPH768eEXSpTMfqt
-3ds9JEpxBRFrkpVyKXgtayIaUoZpR0skpfPzfSEZi5+Bob0QSblp8qYVQrnqgulV
-34XW87MsAisgTVZwBvYsHzCNedw3dZygZaq0ncra0+KGbYkdnjvshAs9M5Nah8Me
-0c+AytQ6vNt9d+w492BUVH+4dLHYL6zj5HMcvPRSRygnQPlEiDEzjJIlwpGG0dI6
-+ksvGRO8Irwx0Ke3CY1rokavWOdClIYLt0VXmn1Tw/VPcSb58UV6NxxFrxqBbEP6
-hDSdE01PmYXnrrcawGKfnoGDE6Y8gV9S+F2FvpJf0fx6kxx1dvtrHjBpnBgvrHUs
-ZmZ8gu5ZDSht41ykWVT3MZxXk2ppElELspNMBpVioLHqhSGXhZV6DSkeAeYD82wy
-EgKjjfqdlJ4mGIct/YdsJs3DA+blKKrKL54zR/N2I3J5Yk01iUetYJ8ObQXcOL/p
-/s/HE3QI//+kkwpmmajAg6lPlgD7LobA96ZWh1IarB6z3bI9q1nv79GBNnhXvay/
-lYtcEMGBkbzuGvvGUwUBDkpkmKsTAcDKZ4VNEYOvZOaKHD5Qn8lzCwfXULAQpVSo
-+E3pfc0Ge9b6payWQxZp51uGjvmqlGfcAMsyPBv76uwuZER4uIPjYgIMHYuWkGAP
-2Bakz2f5D8FcwP20QIZsq1OT
-=Nh8b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMyuXUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nyoQAIWLgY87lN7Ynj+sI7+c
+fzQLq3Z6vs+M64eY28tZmEh6UtR8nb14vRDxCmYKxg4Fr9gdy2jHES/fYOB8kyLK
+fh5M7JKY3BV6M3+QOQTZV5JJAn9H/u+/TJtEdOvIrTg1JyX0CtAqzsuB9VmpF3BP
+DDhoz7CWWYhPqL8YkrIZLqzUaCWH2/JqYpJaXvGHRR3H5nO3SpBSDRF8NojUOWpH
+lIhqDL0ID/Wy5rkmnubE654S0O3j+XJTKhjSBjj52qM+aTpt40vk8chXqOH5lR6v
+QIOdOiLSkBnDPZOfCGUgQ5CFKzgX36sTCYxW4QEMex+zwYMfy48xbC1FIiA1WFfS
+6dcQXOu4tqMKbmveNu6go3AtXp8pXjtcAnvIjd0b16qHNjThZLo7zvExlOkhbl37
+lekBSlccODD0BxnsJCekyR2/fEWhA1rNEfa0/qmmhutfdsa2RyXZwIxlNNfnivkM
+qsgh1M/C2a8Zx6KeVpSExuwZsYDdNTMwVvBQr6jw+gKPfK0noz9A2Lus51hG0q6Z
+yUTyFPuAnL4FPv04S6gOFeIQMlYwhbJw35PU//4vZcLDqcJE6AIoQYhh3jQR1VXR
+YXEh6TE60mVIeFo5wG8HWxxVk1OMBbD5ifIf6ogFVbvc9VIOrWm5W11tFVj2xVKz
+VMBvMv5+GikBxOJb4FV7/Ftd
+=7oyv
 -----END PGP SIGNATURE-----
 
---===============1733803029943679278==--
+--===============9046073270287190609==--
