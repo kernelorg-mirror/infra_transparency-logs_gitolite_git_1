@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5489951333936757193=="
+Content-Type: multipart/mixed; boundary="===============4983194386389546204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Tue, 27 Sep 2022 11:10:19 -0000
-Message-Id: <166427701998.5469.15450149421244859144@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 11:11:41 -0000
+Message-Id: <166427710120.5975.5339653647390761336@gitolite.kernel.org>
 
---===============5489951333936757193==
+--===============4983194386389546204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
-  - ref: refs/heads/next_master
-    old: aaa11ce2ffc84166d11c4d2ac88c3fcf75425fbd
-    new: b3f6eecaa27e9fd6f38d7f511da6be99d5f3d0db
-    log: revlist-aaa11ce2ffc8-b3f6eecaa27e.txt
+  - ref: refs/heads/devel
+    old: e6b3cefff2a367ec685e3df4a224c3772a3e6328
+    new: 3151f3ec16feece5dbef608f65a737d9ec0be0ee
+    log: revlist-e6b3cefff2a3-3151f3ec16fe.txt
 
---===============5489951333936757193==
+--===============4983194386389546204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaa11ce2ffc8-b3f6eecaa27e.txt
+Content-Disposition: attachment; filename=revlist-e6b3cefff2a3-3151f3ec16fe.txt
 
 eeda05b5e92f51d9a09646ecb493f0a1e872a6ef drm/mediatek: dsi: Add atomic {destroy,duplicate}_state, reset callbacks
 87fd9294e63e8fa7532b5e65b534c3001c654ef8 drm/mediatek: Fix wrong dither settings
@@ -117,5 +117,33 @@ e02fbb0bcb9b6d5f83f01af87bc643dd0d78319b serial: 8250_dma: Convert to use uart_x
 7c7f9bc986e698873b489c371a08f206979d06b7 serial: Deassert Transmit Enable on probe in driver-specific way
 379a33786d489ab81885ff0b3935cfeb36137fea serial: 8250: Fix restoring termios speed after suspend
 b3f6eecaa27e9fd6f38d7f511da6be99d5f3d0db Merge branch 'tty-next' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty into HEAD
+e0de0a7c683fae7bf9e67195b1300a277f11cf94 tty: serial: allow pxa.c to be COMPILE_TESTed
+87d2eea4be94f5d352a8e5a8b73ab9d7783edf3f drm/i915: remove circ_buf.h includes
+3923bc98c860121a24c89a8e25ee07cab834421b perf: remove shebang from scripts/{perl,python}/*.{pl,py}
+74b92b2f922cb7b55a8f34f85d4576226bb95b34 tty: serial: extend lqasc_tx_ready() to lqasc_console_putchar() XXX + split
+ea2863b89dec622bff3afa82894f858414b3ddf8 tty: serial: unify TX space reads under altera_jtaguart_tx_space()
+50c97fe7ae2f13f4734d05005f452a224911fc81 tty: serial: do unlock on a common path in altera_jtaguart_console_putc()
+cd65adea63b3619fbbccdfb6ea5e1ee0621227c0 tty: serial: introduce transmit helpers
+fcc005d47ec81d8c7f670619c1c80f6ca1a074fe tty: serial: use uart_port_tx() helper
+d061fc7eb68916ff3a0ca4649075ac1e18313b03 tty: serial: use uart_port_tx_limited()
+b46a685f58c6bde878e53b04bbc4399527a9efc7 BRANCH_MARKER: submit
+9486cd1e8e0917d1aef4653a76a85c1a064c3448 mxser: less tty, more termios
+4801eb44cd1bf36a614da18b8d290d9939a8cf70 mxser: add to_mport helper
+d4c66b149ec4d5df7b1d8af0ec371d15d4a5bc7b mxser: use lock from uart_port
+709d3ab740569793ec24eee80b951bae14c0d0b8 mxser: use iobase from uart_port
+062781c3cbbcb37ab4bbd439aaac64e640603cb4 mxser: use type from uart_port
+e2c388cf4a151f2e59d8ae8f1c5d3094b29f116d mxser: use x_char from uart_port
+cd30817494abbec5c045160aa2ee01fed3c28ce2 mxser: use icount from uart_port
+56024206bd07fe2010ef551aefb7e9f061f19f08 mxser: use timeout from uart_port
+9f658b455b14f790812c169302721a31399118fa mxser: use status masks from uart_port
+c23d6a636f0d1d97302b24072bd60ffd9987c00f mxser: use fifosize from uart_port
+cd428481eb97c7638220886a63a2d61533598002 mxser: use hw_stopped from uart_port
+4bf6d8527f0ad74de90950d7a0b2a523221e413b mxser: switch to uart_driver
+9f45c5a1cefe57e1cbb4213397d2280e2673aa45 tty: 8250_dma, use dmaengine_prep_slave_sg
+d4a868d228f894219458405e96acedffd7902ee4 tty: 8250_omap, use dmaengine_prep_slave_sg
+4c8e0ade8ff9c31e800718bc23ed1c8d487d3092 kfifo updates (_r UNFINISHED)
+cc61a3e0b95a382b27c5bddc245a238d1ae84fa7 tty: serial, use kfifo
+d251ab3a91479141d3fba707515db2b7c8935b5c kfifo tester
+3151f3ec16feece5dbef608f65a737d9ec0be0ee BRANCH_MARKER: work
 
---===============5489951333936757193==--
+--===============4983194386389546204==--
