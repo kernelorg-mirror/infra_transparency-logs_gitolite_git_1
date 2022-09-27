@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8487915641692925074=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 27 Sep 2022 14:01:41 -0000
-Message-Id: <166428730103.32261.15048562784126928493@gitolite.kernel.org>
-
---===============8487915641692925074==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 27 Sep 2022 14:03:14 -0000
+Message-Id: <166428739474.467.11686050208942484718@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: d9ed38f393c5a14f422f476965d8aa8b140ed27b
-    new: b8be2012a3ec4dca348a00d55499cdf69658d66a
+  - ref: refs/heads/review-hans
+    old: b37fe34c83099ba5105115f8287c5546af1f0a05
+    new: 4e3d731ba79e9d1bcbda668be7c3865dd02fddeb
     log: |
-         b8be2012a3ec4dca348a00d55499cdf69658d66a mbox/am: add --stdin-line-sep option
+         4e3d731ba79e9d1bcbda668be7c3865dd02fddeb platform/x86/intel/wmi: thunderbolt: Use dev_groups callback
          
-
---===============8487915641692925074==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1664287300 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1664287300-f8402d39a6bc9836399e3bf1e2473b5f891a954d
-
-d9ed38f393c5a14f422f476965d8aa8b140ed27b b8be2012a3ec4dca348a00d55499cdf69658d66a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYzMCRAAKCRC2xBzjVmSZ
-bNmkAQDfiUaFALROAH0dEY5T7Q1sXKRYBq8d6zmWT3tavIqN+AEA3BloQWqQTJA0
-1+ou8U2W8cEvPSB25JkEv4FUYvmAQA0=
-=GZ9h
------END PGP SIGNATURE-----
-
---===============8487915641692925074==--
