@@ -1,43 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============6097688404515719207=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 27 Sep 2022 21:44:26 -0000
-Message-Id: <166431506668.7958.8330127531201098464@gitolite.kernel.org>
-
---===============6097688404515719207==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Tue, 27 Sep 2022 21:54:20 -0000
+Message-Id: <166431566061.14506.8179246721883883197@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/counter-next
-    old: 7d333188e1d048457572d3a7d0630cd7b91f902d
-    new: bb980cb69381c570b72701398991100ac91079ec
-    log: revlist-7d333188e1d0-bb980cb69381.txt
-
---===============6097688404515719207==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d333188e1d0-bb980cb69381.txt
-
-88f48f81d496fcdfe3028f0b40379f1489f67bf9 counter: Realign counter_comp comment block to 80 characters
-075c91bb0af32d27a139112701b12b118a50edd6 MAINTAINERS: Update Counter subsystem git tree repo link
-8a756df96c24946547a7ece5caa5f654809c5e7f counter: Move symbols into COUNTER namespace
-c50b5eede7d3f523de8dc3937dc44680f2773e1d counter: interrupt-cnt: Implement watch_validate callback
-b6e53438badcb6318997d13dd2fc052f97d808ac counter: Introduce the Signal polarity component
-0bf840beee1665e9f04ea82368ecdde87c791a22 counter: 104-quad-8: Add Signal polarity component
-3cebaa0b807a225eb277d771504fe6dba7269ffd counter: Introduce the Count capture component
-0469c3ae3fbccbca908993c78d94f221761a6a3a counter: Consolidate Counter extension sysfs attribute creation
-a51fd608704bdfc5a0efa503fc5481df34241e0a counter: Introduce the COUNTER_COMP_ARRAY component type
-33c27451f61b3a01d886da5e6bf6456088956439 dt-bindings: counter: add ti,am62-ecap-capture.yaml
-467ae80e97c586c6bc9c453c6156ffcb5d4853d6 Documentation: ABI: sysfs-bus-counter: add frequency & num_overflows items
-25644ce1f2fd15d116977770ede20e024f658513 counter: ti-ecap-capture: capture driver support for ECAP
-bb980cb69381c570b72701398991100ac91079ec MAINTAINERS: add TI ECAP driver info
-
---===============6097688404515719207==--
+  - ref: refs/heads/dev
+    old: a078dff870136090b5779ca2831870a6c5539d36
+    new: 647642bf8f326994d7eaf785bba3fa9dad92cff0
+    log: |
+         df3cb754d13d2cd5490db9b8d536311f8413a92e ext4: continue to expand file system when the target size doesn't reach
+         d412df530f77d0f61c41b83f925997452fc3944c ext4: minor defrag code improvements
+         4331037750fdd4c698facc8a03075f88f15ffbe6 ext4: Avoid crash when inline data creation follows DIO write
+         134435d6d0be21d567a95007323def8d0ebea27e ext4: remove deprecated noacl/nouser_xattr options
+         3490a40364962a2599bc5a8126003a47150b84d3 ext4: don't run ext4lazyinit for read-only filesystems
+         647642bf8f326994d7eaf785bba3fa9dad92cff0 ext4: fix null-ptr-deref in ext4_write_info
+         
+  - ref: refs/heads/origin
+    old: 7e18e42e4b280c85b76967a9106a13ca61c16179
+    new: a078dff870136090b5779ca2831870a6c5539d36
+    log: |
+         4fca50d440cc5d4dc570ad5484cc0b70b381bc2a ext4: make mballoc try target group first even with mb_optimize_scan
+         1940265ede6683f6317cba0d428ce6505eaca944 ext4: avoid unnecessary spreading of allocations among groups
+         613c5a85898d1cd44e68f28d65eccf64a8ace9cf ext4: make directory inode spreading reflect flexbg size
+         a9f2a2931d0e197ab28c6007966053fdababd53f ext4: use locality group preallocation for small closed files
+         83e80a6e3543f37f74c8e48a5f305b054b65ce2a ext4: use buckets for cr 1 block scan instead of rbtree
+         29a5b8a137ac8eb410cc823653a29ac0e7b7e1b0 ext4: fix bug in extents parsing when eh_entries == 0 and eh_depth > 0
+         80fa46d6b9e7b1527bfd2197d75431fd9c382161 ext4: limit the number of retries after discarding preallocations blocks
+         a078dff870136090b5779ca2831870a6c5539d36 ext4: fixup possible uninitialized variable access in ext4_mb_choose_next_group_cr1()
+         
