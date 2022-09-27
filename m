@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 27 Sep 2022 22:48:52 -0000
-Message-Id: <166431893220.20739.14155954432663866858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 27 Sep 2022 22:49:24 -0000
+Message-Id: <166431896402.20989.18044962061477883019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/dev
-    old: f8b389c24cf9a523472e3e505815b26f0174856c
-    new: 4cfcbdd60103c9da25c3f94a4672d32666d76109
+  - ref: refs/heads/fixes
+    old: 322db9fa7a1f4112c141c0f4e5a68d471789f20f
+    new: 809c06cb44868791e281c06bb115178fc5d42612
     log: |
-         4cfcbdd60103c9da25c3f94a4672d32666d76109 squash! srcu: Create and srcu_read_lock_nmisafe() and srcu_read_unlock_nmisafe()
+         809c06cb44868791e281c06bb115178fc5d42612 [coredump] don't use __kernel_write() on kmap_local_page()
          
