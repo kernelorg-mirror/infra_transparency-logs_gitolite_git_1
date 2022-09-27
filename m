@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0775079048485055385=="
+Content-Type: multipart/mixed; boundary="===============5527002391475441754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 27 Sep 2022 10:33:31 -0000
-Message-Id: <166427481173.10260.8726950971599606845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 27 Sep 2022 10:33:37 -0000
+Message-Id: <166427481763.10347.7299081978384374229@gitolite.kernel.org>
 
---===============0775079048485055385==
+--===============5527002391475441754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/spi-6.1
     old: a6bfc42f30d11f22d2dacb2362d6069643b15393
     new: dd1b25ec8b2072dfe58325e13785f0dfef94b2c3
     log: |
@@ -29,28 +29,28 @@ changes:
          dd1b25ec8b2072dfe58325e13785f0dfef94b2c3 Fix PM disable depth imbalance in probe
          
 
---===============0775079048485055385==
+--===============5527002391475441754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1664274810 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1664274809-76fd60fdc399eb9068bc9c2772dd5ed65a3d0b44
+pusher C3F436CA30F5D8EB 1664274816 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1664274815-58edddeb19f4cd1e66e4db6586f2f383d87ed08c
 
-a6bfc42f30d11f22d2dacb2362d6069643b15393 dd1b25ec8b2072dfe58325e13785f0dfef94b2c3 refs/heads/for-6.1
+a6bfc42f30d11f22d2dacb2362d6069643b15393 dd1b25ec8b2072dfe58325e13785f0dfef94b2c3 refs/heads/spi-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMy0XoACgkQJNaLcl1U
-h9BuXQf/c7+mZNh+ozumMSWbYboZryR3dskfS6y1JNeg6YssQw0QHqBU/sHo1BfQ
-jgGvExM7qg6KWxSGwqUD34lq05VCHeqIbyILf3AzqcfBZvpcaRQUprGcbujMg5xg
-Bn1jEtTa2RgekirQROLFAacJvQzm9vz3ib3mJdl8hm2wxbzDfj29qccZLapr+yOn
-7Tn1RjaWQLRnuVUCce+GJKYkqvw4hPDLFlrRzsCkpCAjD1kDin8E0gAKddxLryQb
-fjgNioxU2kk76sU0rOIL2HxNIufDBvA4/gkvNfyn4iI1F1KFGoZE9NhR21AKPvGg
-d0z0zM4xBwIX0N/yEtRb5T+oLYpKKQ==
-=IXmY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMy0YAACgkQJNaLcl1U
+h9DrTAf/ZlDcU+klLDccp6rquPCZHa9sY04r2Bxsss4Kho5hIDNtAWOQpBcSgr0h
+NePhjB9x/JsaCgwD4nK0VjwanoqGfqYWGwWEHzNwdPHcVyLIzp1nuDxWcvwWYnI4
+c0ALeJdcJaddO3F7Wyi4pOg1epyrPtYuueh4EvfRkyW39KFSz4t5Em1yz4Pzatil
+5HvhY/n+75rgFdeovhoCQgtzQBRAhJgHKFd27O21y6VTCy+7m3rydXPxI5pCmFx8
+IeX15sINBk+oIbVG9tOLa+XBk/hdpYL2cRiRBr9knURWGyzE21iyVD+7Iq1LPosl
+gt/lcKZRIZMuX5ncNKj/vwJTY42F4g==
+=OfFw
 -----END PGP SIGNATURE-----
 
---===============0775079048485055385==--
+--===============5527002391475441754==--
