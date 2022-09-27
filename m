@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2743553624151809494=="
+Content-Type: multipart/mixed; boundary="===============1594862488088604679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 27 Sep 2022 18:59:09 -0000
-Message-Id: <166430514930.19677.12665288703329316697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 27 Sep 2022 18:59:14 -0000
+Message-Id: <166430515491.19804.11083014713091487997@gitolite.kernel.org>
 
---===============2743553624151809494==
+--===============1594862488088604679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.1
+  - ref: refs/heads/asoc-6.1
     old: 93618e5e05a3ce4aa6750268c5025bdb4cb7dc6e
     new: 16b51447b20c24d79b13a4477fdef93dbba123e4
     log: |
@@ -25,28 +25,28 @@ changes:
          16b51447b20c24d79b13a4477fdef93dbba123e4 Fix PM disable depth imbalance in stm32 probe
          
 
---===============2743553624151809494==
+--===============1594862488088604679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1664305147 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1664305147-aba859a3d19af975275017279f3af592aa6a9483
+pusher C3F436CA30F5D8EB 1664305153 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1664305153-1176dc897270c8f51213b32140e18b2e6883835a
 
-93618e5e05a3ce4aa6750268c5025bdb4cb7dc6e 16b51447b20c24d79b13a4477fdef93dbba123e4 refs/heads/for-6.1
+93618e5e05a3ce4aa6750268c5025bdb4cb7dc6e 16b51447b20c24d79b13a4477fdef93dbba123e4 refs/heads/asoc-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMzR/sACgkQJNaLcl1U
-h9AnQwf8D7nqP57YzkOMTnXXqtzhitWxYh8OzRSOE+IcqqVhctpP7v9qihyWm7g7
-o68e29FSacLVY7VIQay6TWuYzqvvZc1x65HqCnhLT2Oex8+vbV43n6e1RWa0T+Mu
-YCDJWC1iG+r68PlsED0KbmhmwVNfAjLVLdXJhO39kSG++j5/zOMRpyWcYogCIBgM
-pabXL4tL00YcNYb8a5W5eHHKRcK5Sv7321dB+Oax2ds906YjF4pY+AyZO9pCB6Lc
-/KWLZj5giNaKMZyNu/EvQY61TPo3SXmWAD9mAAlRZ7dSyCPzKocef3796pGL/suN
-Sm9sB75809llqIWzUr8R1FufnAsqyg==
-=rmLX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmMzSAEACgkQJNaLcl1U
+h9AEmwf/VOE/FaQr7iZTgshBXqFggmDKewcPe1ca+dybw7CFxiZtgg/A1mPl8gnt
+R+lOFvksDp6eqHK3PkKQByf6de7APuO6wCXphHBsSTGCtNMQ53bR3srL8OkANf26
+36ckcXQ6pv/VXP/Ez2868Rr27lS4iWNz3ObcYbufuFtXCLstPnfm5KerQCLDyiAM
+0UCqF58Z85i8tNXFdW4GDMee+3ABFJo7VfXtb4ihp7UJx3Y9kGbFzUlVRzPVpgPv
+YzGYjxygW5ArC0NR49/Fe/4huf+DPTjxayl7adh5UCm53tboiII0J4+IXAzk+X0+
+26J4vW+GuZY/zUaMBIGhXdS/eDH84w==
+=lELP
 -----END PGP SIGNATURE-----
 
---===============2743553624151809494==--
+--===============1594862488088604679==--
