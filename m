@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 27 Sep 2022 16:01:54 -0000
-Message-Id: <166429451498.22917.6111266758570339920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 27 Sep 2022 16:14:13 -0000
+Message-Id: <166429525319.30295.15736431704374997147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/feature/mountopt_errors
-    old: 0000000000000000000000000000000000000000
-    new: b4b2f8c7d077316853e0e5c23cdaf804409995fb
+  - ref: refs/heads/dt/next
+    old: d7c6ea024c08bbdb799768f51ffd9fdd6236d190
+    new: b6acf807351781c3c3810df7873b3f0d793d59b2
+    log: |
+         b6acf807351781c3c3810df7873b3f0d793d59b2 dt: Add a check for undocumented compatible strings in kernel
+         
+  - ref: refs/heads/for-next
+    old: d7c6ea024c08bbdb799768f51ffd9fdd6236d190
+    new: b6acf807351781c3c3810df7873b3f0d793d59b2
+    log: |
+         b6acf807351781c3c3810df7873b3f0d793d59b2 dt: Add a check for undocumented compatible strings in kernel
+         
