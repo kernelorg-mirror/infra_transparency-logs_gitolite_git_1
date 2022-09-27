@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6661685069989320171=="
+Content-Type: multipart/mixed; boundary="===============8197353451405943206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/patches
-Date: Tue, 27 Sep 2022 11:36:35 -0000
-Message-Id: <166427859505.24942.16725310298948223152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 27 Sep 2022 11:37:16 -0000
+Message-Id: <166427863678.25287.7858918332150832998@gitolite.kernel.org>
 
---===============6661685069989320171==
+--===============8197353451405943206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/patches
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 25aeeb3bc64eeb2885db63cf7266b0c932037acd
-    new: 87fdab48af04783a84d8b3b1443b4e884555182f
+  - ref: refs/heads/debugfs_lookup_fix
+    old: 13b7bfae4290e96004f8d30f9472dd025fcd2ee1
+    new: 7839bcfc207e5526d568259c838ef71d10045723
     log: |
-         87fdab48af04783a84d8b3b1443b4e884555182f more patches
+         7839bcfc207e5526d568259c838ef71d10045723 net: mvpp2: debugfs: fix problem with previous memory leak fix
          
 
---===============6661685069989320171==
+--===============8197353451405943206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664278594 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/patches.git
-nonce 1664278594-4c876173b50391ebf00930751c333dddca3f53c9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664278635 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1664278634-3cfb72b59461e80ac885f5a708b28afaed8439d0
 
-25aeeb3bc64eeb2885db63cf7266b0c932037acd 87fdab48af04783a84d8b3b1443b4e884555182f refs/heads/master
+13b7bfae4290e96004f8d30f9472dd025fcd2ee1 7839bcfc207e5526d568259c838ef71d10045723 refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMy4EIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i/IP/1NDxIU6iOQtjNyrHDT7
-KFm8W2nnCE2EEWQ9k+CRkUYS3PngtomZcRZX2AKE4EIz3nQdV9K22plFx33L8JNl
-EVrKIzuhN+DZOAuZDHqqqqMN9HCty++uHOZSvsARmMWxAVyw4QM1n0R1BfK1bFd9
-zWwKEp00ZvqprRveypWENJR/F0rigY0QBiUFLm9GBlEJsSoAjPMlIAEE2DIywpUx
-HXpU/jwj/B8MsiSST/luOdO56slHbGxRer4jdJadGkWVVcShHREofvMdo+ebZf22
-ThNPUJnywOL3GW/Gra3M72mk2coNYfqiVSzotv4U8SnUXDsymBXAGNi8Txb2bDpo
-sZVcnM16IQlqKqOpF3ldVmTyDie9T+jbzmrfMJUJLMMBteZoquhxNilefucZJCiJ
-++IcgY7Lspo/xU0xzReJQihZ7lrFq/RzGQUFfXXJqT6BTmC10puIPQPJesxWGmtq
-6gsE8T8UOZB4p46pbG6dSd/Nc+40hm4X10CpDQcSFIr5sJYjRD7zQkgZpMt4wNhJ
-0F9yjGJQptomsDSO398EEHnxmPZn7cHyII5G7C+s6YXMIJTtyx3GDkBo/MlaIncW
-B3gTVeMVet48vc5XW4qP4T+v+IFogNIfFpy1PunSyKeVB1YnixniHrmYK3cgu32f
-qJakRcIoRjnBcMyvnjcsLZ75
-=yZXT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMy4GsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VmUP/A2NjrbLwCwHfKpV7ark
+TAFaWw0N6NMFDNX5KRNHv+8kwhK13+4N+HloBH1U7os8r8oNCmT3vLvknyL2LU6K
+OfaRvw7xAXSFnlCewrnPBk+uRl1sawdGdqGrnShwdY1KVr8Mfia/BLphV9uZGP6S
+7PUfRAHlRqU/43asHpCixGRFeMnVpekl/0Cbfq7LkL9DDtHqYEGlSEuvm44lfA5P
+FCJktqOf660m7KJi/N8wxJTGeGTQF+A66sBIRYhp5QOAaLIhpVwwbXr9L+yEp+cX
+M43s1pRuZ4pYsEgAPJock7N8PPHLh38vyGyjD0xSn0t73VMtVV2RseT8l2/1ZGV1
+LhRASvAH6sDjmiGVhcHiyJxHyR6x+KSql5lwvITW5dVh6zUJurDZp0dxlPjD30D8
+RkY+5JQWYkZ4/SpzwMSrMwyeOdlO8SD1FZkK5Maq9yMAuFd2D3WGIH2+mHvJvKAg
+kUc8YNIDfnd8bqecZpispXlS2HNeuD6R+I+wmZPBgeZlXpyIh9iQ6oypJ8AstN7w
+ViQoQd9xu9sDaq8DHV2HtuNbovqYYI2UTj/wqkAXVzi9jWTbhCn/g54sjQWo+EGK
+Jlu+gpzcGmlS+oyy3ynyW6f7ankOnJ55vJAT6FutTwYQm2Cvqq2+mo4jxc6HOxt0
+OfImkFe4ax/hr8WRZ0qKlUhG
+=TNNy
 -----END PGP SIGNATURE-----
 
---===============6661685069989320171==--
+--===============8197353451405943206==--
