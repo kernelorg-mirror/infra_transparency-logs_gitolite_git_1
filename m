@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5846577493172441611=="
+Content-Type: multipart/mixed; boundary="===============7176638248962067390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 27 Sep 2022 20:52:20 -0000
-Message-Id: <166431194036.3891.15388618968362626461@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 20:52:29 -0000
+Message-Id: <166431194999.4047.16748962690183514416@gitolite.kernel.org>
 
---===============5846577493172441611==
+--===============7176638248962067390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm.pae
-    old: a6ee73e67cf2bf35ff45c35ae0543d23168bff77
-    new: b0288a91f7f9b4b73861e8f2682821128024de6d
-    log: revlist-a6ee73e67cf2-b0288a91f7f9.txt
+  - ref: refs/heads/debug/experimental
+    old: 61480e933d0fa0f6985ce557557a32e17a795ea7
+    new: 35cdb983bf1fded4add19c8c446dccd656808850
+    log: revlist-61480e933d0f-35cdb983bf1f.txt
 
---===============5846577493172441611==
+--===============7176638248962067390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6ee73e67cf2-b0288a91f7f9.txt
+Content-Disposition: attachment; filename=revlist-61480e933d0f-35cdb983bf1f.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -371,14 +371,8 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
-8bdd7fa3727e4360716866db351b778ae93228ca mm: Update ptep_get_lockless()'s comment
-6900cebd4ee0f95fe4d0d3711db7f45d20b8e2bd x86/mm/pae: Make pmd_t similar to pte_t
-77edfb30ec9daa3fc8c47a1be6ec1589998eb2e9 sh/mm: Make pmd_t similar to pte_t
-34aaab78df836504c3781f796027dc21155a76c5 mm: Fix pmd_read_atomic()
-1ab69a19174279b98ef2edf3f7757bc1fa94775a mm: Rename pmd_read_atomic()
-de096f33b7a306ed8925edf3667057baa03cd313 mm/gup: Fix the lockless PMD access
-eab785166ca17d65f1dff800b731e092ca5569f8 x86/mm/pae: Don't (ab)use atomic64
-39c864938b4cc72ee4e9d2bb97acc7908882804f x86/mm/pae: Use WRITE_ONCE()
-b0288a91f7f9b4b73861e8f2682821128024de6d x86/mm/pae: Be consistent with pXXp_get_and_clear()
+5baa4360862f61f4a7ebebb2fa037d474ffce90a early_printk: Add early_vprintk
+4f63683b555a9c18b17e2c087156630f61e8cabd early_printk: Add 'force_early_printk' kernel parameter
+35cdb983bf1fded4add19c8c446dccd656808850 early_printk: Add simple serialization to early_vprintk()
 
---===============5846577493172441611==--
+--===============7176638248962067390==--
