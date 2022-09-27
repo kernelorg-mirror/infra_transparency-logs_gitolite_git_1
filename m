@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2071233319763706955=="
+Content-Type: multipart/mixed; boundary="===============5617605875865215589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 27 Sep 2022 16:42:58 -0000
-Message-Id: <166429697826.18725.12021934128689425336@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 16:43:04 -0000
+Message-Id: <166429698476.18825.15894728120845489834@gitolite.kernel.org>
 
---===============2071233319763706955==
+--===============5617605875865215589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 4dfa5f05fffac3a8fa4f9a68a671b5b7e6d3b411
-    new: 7bcd9683e51575c72c9289c05213150245d1c186
-    log: revlist-4dfa5f05fffa-7bcd9683e515.txt
+  - ref: refs/heads/dev-queue
+    old: 3b6e432cc1a6bed5e932e7f10cba47f821cb5a1f
+    new: b00bf8edfc293fb4c5d17dba829c07679838aa3c
+    log: revlist-3b6e432cc1a6-b00bf8edfc29.txt
 
---===============2071233319763706955==
+--===============5617605875865215589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dfa5f05fffa-7bcd9683e515.txt
+Content-Disposition: attachment; filename=revlist-3b6e432cc1a6-b00bf8edfc29.txt
 
 a50d37b7565e13613e2797eabcf82c2c685578d0 net: ipa: don't use u32p_replace_bits()
 8be440e17bdbb3ddfe3fd19216ee0d904dd24d22 net: ipa: introduce ipa_qtime_val()
@@ -96,5 +96,28 @@ a286ba73871411b8615eb52e9de1dd8c5078ed3d ice: reorder PF/representor devlink por
 1fd7c08286cec1805427ed0569ca08e24ade6702 ionic: change order of devlink port register and netdev register
 9257f69273748635d5cb269ffac59d36db37bcde Merge branch 'devlink-fix-order-of-port-and-netdev-register-in-drivers'
 7bcd9683e51575c72c9289c05213150245d1c186 selftests/net: enable io_uring sendzc testing
+75bd250646cb2e9b72c214a32429330da25e260a e1000e: Separate MTP board type from ADP
+ab0fd7cc7c5bbcaef786f55217e2537b85a1bde7 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+ce5d0d7addc79601d8b5109f7bea9e253c55ca2b ice: Handle LLDP MIB Pending change
+543b3346659797c46fc3edcf3d9e61c8bba90a21 ice: xsk: change batched Tx descriptor cleaning
+bd75257ba9b2fc9c74f14e54e6bdc49d4223df65 ice: xsk: drop power of 2 ring size restriction for AF_XDP
+97f3f7bab4ae2a24ce7cc3700deb4e6833c00709 i40e: Fix ethtool rx-flow-hash setting for X722
+0c0aadc71b918739cccc7db82b4428850bfad587 ice: Merge pin initialization of E810 and E810T adapters
+f17e7441f10422185ee81beb9905beb6c148d0b7 ice: Support 5 layer topology
+94e45d701e1884ac4b89f88eff773d05270fa03d ice: Adjust the VSI/Aggregator layers
+78ae3ed41b40e6ef0d40c44cff14db1c0bd7d527 ice: Enable switching default tx scheduler topology
+aedf7146e73499e850df0b7278a60152ec3cf54f ice: Add txbalancing devlink param
+167485fc926ec6d89ddecf0b98a851445a916c8f ice: Document txbalancing parameter
+7ea36344acec0e03c87f9e5370146afc787d3efd i40e: Add appropriate error message logged for incorrect duplex setting
+98caf0c54093d82f4faa8c99e415a70473929150 i40e: Fix not setting xps_cpus after reset
+9585c5cc17e0c3572497cc282635531a75680596 ice: support features on new E810T variants
+75f97bd70b7bb362bac0de3db69e25baf343d0bd ice: Add GPIO pin support for E823 products
+7876b01f7a38ca0ef15730c77cf4ff606ead0204 ice: Add support for VLAN priority filters in switchdev
+f1ccb9e4e874838436ea6ae3ad12e44de1b86a01 e1000: Remove unnecessary use of kmap_atomic()
+f1dbeb3890f4657c2497fb3fbcedeb7d6a54b426 e1000e: Remove unnecessary use of kmap_atomic()
+d4c091364bf5b210abc815bc8537bdd8108d214b i40e: Fix DMA mappings leak
+cdafb5bbb5d864c7a5f2cf61ae47905f3ea0edcb igc: Correct the launchtime offset
+d957f4a1e99015fd96809f945d85fc3b35616de2 e1000e: Add e1000e trace module
+b00bf8edfc293fb4c5d17dba829c07679838aa3c ice: Add crosstimestamping on E823 devices
 
---===============2071233319763706955==--
+--===============5617605875865215589==--
