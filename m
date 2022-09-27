@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 27 Sep 2022 07:01:18 -0000
-Message-Id: <166426207884.10428.16020705407126710445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 27 Sep 2022 07:05:44 -0000
+Message-Id: <166426234415.13520.4702058958576149233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-next
-    old: 675b7cd16e21ce2452d4a11ed425996c34e5460c
-    new: d1c442019594692c64a70a86ad88eb5b6db92216
+  - ref: refs/heads/usb-linus
+    old: f76349cf41451c5c42a99f18a9163377e4b364ff
+    new: eee48781ea199e32c1d0c4732641c494833788ca
     log: |
-         d1c442019594692c64a70a86ad88eb5b6db92216 ALSA: dmaengine: increment buffer pointer atomically
-         
-  - ref: refs/heads/master
-    old: 213ad730537f046166333c82005d35bcb068171a
-    new: 871ee774bf5a713cfc88a8335e4942327c6ea2fe
-    log: |
-         d1c442019594692c64a70a86ad88eb5b6db92216 ALSA: dmaengine: increment buffer pointer atomically
-         871ee774bf5a713cfc88a8335e4942327c6ea2fe Merge branch 'for-next'
+         eee48781ea199e32c1d0c4732641c494833788ca USB: serial: qcserial: add new usb-id for Dell branded EM7455
          
