@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 27 Sep 2022 19:26:00 -0000
-Message-Id: <166430676085.7814.16637896208740396012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 27 Sep 2022 19:40:22 -0000
+Message-Id: <166430762284.17330.9786156521496576019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: d763bfa4d0892b4b3b004577491d2493a999648e
-    new: 293d670fb0ec51b69cdd0b9bf625b1e4d3a7975f
+    old: ecea0abe4868e0488abdaa88d297056b0f296217
+    new: 8a35bfb3d671e514aca1e11f9e8b1a34e1bd1e09
     log: |
-         de1901565979b5f56effc34b03594bee4f757f7d rctest: Fix scan-build warning
-         643b074d7dc7f722588192eea852ce2e0d0584ae monitor/analyze: Fix scan-build warnings
-         293d670fb0ec51b69cdd0b9bf625b1e4d3a7975f monitor/packet: Fix scan-build warnings
+         8a35bfb3d671e514aca1e11f9e8b1a34e1bd1e09 foo
          
