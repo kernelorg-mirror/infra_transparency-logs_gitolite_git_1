@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 27 Sep 2022 15:59:38 -0000
-Message-Id: <166429437865.20303.11828248474248748254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 27 Sep 2022 16:00:05 -0000
+Message-Id: <166429440597.22142.1796115205172975019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: eb90f4229c0526bace370175eeec1329bf72311b
-    new: 139e8a10f05b8a721bc28307f709212b85d13c12
+    old: 0574e8c3b2b47e1e2564c2f50ea0b6f2629f2e48
+    new: 6112c0f5a86c6b437e7158ab40a6e9384ce95e85
     log: |
-         139e8a10f05b8a721bc28307f709212b85d13c12 tests: a small fix for zc tests
+         6112c0f5a86c6b437e7158ab40a6e9384ce95e85 doc: build manpage from fio_doc.rst instead of fio_man.rst
          
