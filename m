@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5150016969214970118=="
+Content-Type: multipart/mixed; boundary="===============2863912721898668511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 27 Sep 2022 20:51:41 -0000
-Message-Id: <166431190130.3357.12811657309867592244@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 20:51:51 -0000
+Message-Id: <166431191103.3493.17794608424524209284@gitolite.kernel.org>
 
---===============5150016969214970118==
+--===============2863912721898668511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/idle
-    old: 45fdf10e04e33c8068012ef8a6e2139c1418cac8
-    new: 1464255f4b6dd314b765def6e101d9a12560bc7b
-    log: revlist-45fdf10e04e3-1464255f4b6d.txt
+  - ref: refs/heads/objtool/wip
+    old: c108748f99b04db3338044949e2875e0b4abff9b
+    new: 9bb72be1e5b29d99f8e011037df6a6cfb76e42a2
+    log: revlist-c108748f99b0-9bb72be1e5b2.txt
 
---===============5150016969214970118==
+--===============2863912721898668511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45fdf10e04e3-1464255f4b6d.txt
+Content-Disposition: attachment; filename=revlist-c108748f99b0-9bb72be1e5b2.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -371,55 +371,7 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
-481043ae1e7c49c54f7b5f2f94c79a01f6ab8e19 x86/perf/amd: Remove tracing from perf_lopwr_cb()
-f21555bac4c84e21da6ce1fa2bb9aa463ab15597 x86/idle: Replace x86_idle with a static_call
-31a505da53fa05a3470b8441890176daa1fab566 cpuidle/poll: Ensure IRQ state is invariant
-6b66f4acdbedcaed1343ddce7c9c7a88f388128c cpuidle: Move IRQ state validation
-593eeff681edf127a738c2c69be94e726cd46b4b cpuidle,riscv: Push RCU-idle into driver
-0f6ab1d63410df67117e2a63a85d32667d70fbed cpuidle,tegra: Push RCU-idle into driver
-f725702c5e2d9fe28cd0e582a1a1be0d05a74f19 cpuidle,psci: Push RCU-idle into driver
-5483d3fa7d937ea8244ff5545a9cda117150b13c cpuidle,imx6: Push RCU-idle into driver
-d83e41db11b341eb6217c273427001d24417e082 cpuidle,omap3: Push RCU-idle into driver
-e602b250ba73a27278fd96c0c6ed13e2d9c20872 cpuidle,armada: Push RCU-idle into driver
-db35715eaf41015ad6b3c5e82c4189eb60b81f89 cpuidle,omap4: Push RCU-idle into driver
-54bb2ccdc54299a0ac86ce6d46346e4ddf6e9d4c cpuidle,dt: Push RCU-idle into driver
-2343079a4cb9f3e6474964dec053f9d3c95e572c cpuidle: Fix ct_idle_*() usage
-a4fdfb9d583767ac768a585c4605884a4eeb9ecd cpuidle,cpu_pm: Remove RCU fiddling from cpu_pm_{enter,exit}()
-dcccc6b40feef89d4797cf3b36fb4f06fb6df16b acpi_idle: Remove tracing
-cee973f419c313a339b0b24f6968942e3161a45b cpuidle: Annotate poll_idle()
-f5e2e7bce4b0c8e6ad7e506273890031fa375760 objtool/idle: Validate __cpuidle code as noinstr
-ca472b7a4a5d4bafc5dca4cfc10b9df1d09057a4 cpuidle,intel_idle: Fix CPUIDLE_FLAG_IRQ_ENABLE *again*
-c90d413cb3d4ff20306cdac69c76eb2626bf6e6a cpuidle,intel_idle: Fix CPUIDLE_FLAG_INIT_XSTATE
-caf4a8fcef4840ad5f9cab7d7c92fb3ff6086cd2 cpuidle,intel_idle: Fix CPUIDLE_FLAG_IBRS
-288e235a862598dd295473c099ff6348a18d62ef arch/idle: Change arch_cpu_idle() IRQ behaviour
-00262a54c1b1a7aacd4ed47d703502eb91020121 x86/tdx: Remove TDX_HCALL_ISSUE_STI
-ab3858c7f91a2fb8a4f911093c88fb1ee6b6737a arm,smp: Remove trace_.*_rcuidle() usage
-c7a1f1c4421f6b8a6b8cd72ff6af2dc4265f647a arm64,smp: Remove trace_.*_rcuidle() usage
-065fa4c0dca2325737b009a65abe017f70ddaafd printk: Remove trace_.*_rcuidle() usage
-ee45d540bae638ecea7d9ee7e18e0a0e41c46f3e time/tick-broadcast: Remove RCU_NONIDLE usage
-bd5aa6b90ec9d4418b87cea896627cefcfaf2b92 cpuidle,sched: Remove annotations from TIF_{POLLING_NRFLAG,NEED_RESCHED}
-2a69daafdb4d03b9bdf67698ed591367693cdd9d cpuidle,mwait: Make noinstr clean
-8a323f376eb2d5bebdb9539eee7b157960849f48 cpuidle,tdx: Make tdx noinstr clean
-80db6e4fc13c5f6403b8e24b92cd3d72e69890d9 cpuidle,xenpv: Make more PARAVIRT_XXL noinstr clean
-3e924dc6e8b7dae20e22408e40c7eacf7d92820b cpuidle,nospec: Make noinstr clean
-db68cd39ca65d6241624630489f55455bbed0e00 cpuidle,acpi: Make noinstr clean
-c34969d5307116ac39874c5f967ec8a57ee93142 ftrace: WARN on rcuidle
-85e9857596dd461c419f6fd0b6495f8d6746e9ae cpuidle,omap3: Use WFI for omap3_pm_idle()
-c2d0b81e4d3da8495bc586b6acfbf56d61739243 cpuidle,omap3: Push RCU-idle into omap_sram_idle()
-49cb6465e11aad910a68fd52de4df742d3dce418 cpuidle,omap4: Push RCU-idle into omap4_enter_lowpower()
-6e676528125a1b154a70880b0d070975dcbae8b1 arm,omap2: Use WFI for omap2_pm_idle()
-dd776a5ff56bd6ff6a54fd07d51d1f7e2b95cc64 cpuidle,powerdomain: Remove trace_.*_rcuidle()
-889bd38e288ed15f43da48d75b71be365da21fa3 cpuidle,clk: Remove trace_.*_rcuidle()
-7d6200209e8ced4dd9e5d2abb4370b8d2836955d ubsan: Fix objtool UACCESS warns
-cf468322e6c3a18017f88269937fab6ce44ac76e intel_idle: Add force_irq_on module param
-dcb8a51f6588b065bbd0baba81768384e9494257 entry,kasan,x86: Disallow overriding mem*() functions
-36f98f7373a9e8ec07af9f37b0cb6ccad7c0c530 sched: Always inline __this_cpu_preempt_check()
-bb41641974a114f63909a15623904ef467eb5ddc arm64,riscv,perf: Remove RCU_NONIDLE() usage
-963586f81012ac7e5baa9cd5144e07d7df8d5ad2 cpuidle: Ensure ct_cpuidle_enter() is always called from noinstr/__cpuidl
-90465adda3ec32e0329d5b1ed0bad6913dc821c1 cpuidle,arch: Mark all ct_cpuidle_enter() callers __cpuidle
-0413e58b8e8ccc89cd9a2cf39e3f2352b7c31d5e cpuidle,arch: Mark all regular cpuidle_state::enter methods __cpuidle
-a673ea2c9dceb6db972be7ef667a32283ec659d3 cpuidle: Comments about noinstr/__cpuidle
-5193842db3677fd8dd65506d5daac9e8fdcf8f1c context_tracking: Fix noinstr vs KASAN
-1464255f4b6dd314b765def6e101d9a12560bc7b fold back...
+95ce6443be8ea3d79d3a547e79607c5c00beaba1 Merge branch 'tip/objtool/core'
+9bb72be1e5b29d99f8e011037df6a6cfb76e42a2 objtool: Rework arch_dest_reloc_offset()
 
---===============5150016969214970118==--
+--===============2863912721898668511==--
