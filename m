@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 27 Sep 2022 18:37:57 -0000
-Message-Id: <166430387717.4176.5400775926178024937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 27 Sep 2022 18:46:01 -0000
+Message-Id: <166430436163.10045.4048654313572258625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/arm64/undef/rework
-    old: 1211c624ba3bf980b4b1e805ab0316e8fd88dce4
-    new: c072a99c9bd07f499eef35aa6e5ba1302a5a194f
+  - ref: refs/heads/master
+    old: 2702c789996d9001cb60ef1dac055aca84d3c51a
+    new: 87dbdc230d162bf9ee1ac77c8ade178b6b1e199e
     log: |
-         c072a99c9bd07f499eef35aa6e5ba1302a5a194f arm64: armv8_deprecated: rework deprected instruction handling
+         87dbdc230d162bf9ee1ac77c8ade178b6b1e199e libbpf: Don't require full struct enum64 in UAPI headers
          
