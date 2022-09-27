@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 27 Sep 2022 14:40:32 -0000
-Message-Id: <166428963264.28440.15243370057884936140@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 14:40:41 -0000
+Message-Id: <166428964112.28517.3677223577326287476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/tags/scmi-updates-5.18
-    old: 9e99e1d90b764c5ee335de7f6bd82c72157e78ee
+  - ref: refs/tags/vexpress-fixes-5.18
+    old: 59e2d7d1e85e4a98ede6d043b375a2303aa58618
     new: 0000000000000000000000000000000000000000
