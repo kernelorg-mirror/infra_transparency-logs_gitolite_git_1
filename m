@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 27 Sep 2022 17:54:59 -0000
-Message-Id: <166430129941.4823.1777507287391250994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 27 Sep 2022 18:17:23 -0000
+Message-Id: <166430264344.21299.7088213647541013909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/perf
-    old: eaf30122d09ab9234062eee64eb8653bcb6cd008
-    new: 7014cef8f26d10d7356b94a2f410518916b25bb5
+  - ref: refs/heads/arm64/undef/rework
+    old: 0a52fa07b5bf0adbdaf14c3b4c838de98daad64f
+    new: 1211c624ba3bf980b4b1e805ab0316e8fd88dce4
     log: |
-         421884fc0e0a3c4cfe5f99c0caee24587eee18ae perf: Allow restricted kernel breakpoints on user addresses
-         958644233f1e678c76e097f366f3a34c90ca859d perf: Fix missing SIGTRAPs due to pending_disable abuse
-         7014cef8f26d10d7356b94a2f410518916b25bb5 perf, hw_breakpoint: Fix use-after-free if perf_event_open() fails
+         c513d85c1f7a32d3f8e1dee8025f53d7896aebff arm64: factor out EL1 SSBS emulation hook
+         c1da6bec546f02bcd788333c58368ebfbcaff7eb arm64: factor insn read out of call_undef_hook()
+         6f254eb56341cc8fdf593f4cd55c97097f512acf arm64: rework EL0 MRS emulation
+         71ce14c22203110bda91bd92480c81b4e97490d4 arm64: armv8_deprecated: fold ops into insn_emulation
+         4054502281b53190a70401cdd254191a9203c3dd arm64: armv8_deprecated move emulation functions
+         9c4c97af386d29968514a98f7cd725747c583ce8 arm64: armv8_deprecated: move aarch32 helper earlier
+         1211c624ba3bf980b4b1e805ab0316e8fd88dce4 arm64: armv8_deprecated: rework deprected instruction handling
          
