@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3864521287930358743=="
+Content-Type: multipart/mixed; boundary="===============4212534479825635522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 27 Sep 2022 20:52:00 -0000
-Message-Id: <166431192059.3618.14419378028328806868@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 20:52:10 -0000
+Message-Id: <166431193015.3739.11789973418738636270@gitolite.kernel.org>
 
---===============3864521287930358743==
+--===============4212534479825635522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/wip
-    old: 97aafad4d2f447803ba7a0d727e334595b407543
-    new: 0081a0515d86cd00918422ab3170aa3aad121475
-    log: revlist-97aafad4d2f4-0081a0515d86.txt
+  - ref: refs/heads/perf/wip.self
+    old: 4ff9ccb2988c0046ddaa09039aaaf27659095dba
+    new: 5bf147d83518270a62f556dfa0ce45bf212fe26c
+    log: revlist-4ff9ccb2988c-5bf147d83518.txt
 
---===============3864521287930358743==
+--===============4212534479825635522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97aafad4d2f4-0081a0515d86.txt
+Content-Disposition: attachment; filename=revlist-4ff9ccb2988c-5bf147d83518.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -371,7 +371,7 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
-5acdfee05b169fb3657bd9d4191ceb3baee7d442 Merge branch 'tip/sched/core'
-0081a0515d86cd00918422ab3170aa3aad121475 sched/fair: Fold the sched_avg update
+74868c90d9632b67dd486c318953f9e358280e5a Merge branch 'perf/urgent'
+5bf147d83518270a62f556dfa0ce45bf212fe26c perf: Better track self-monitoring events
 
---===============3864521287930358743==--
+--===============4212534479825635522==--
