@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 27 Sep 2022 22:49:24 -0000
-Message-Id: <166431896402.20989.18044962061477883019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 27 Sep 2022 22:51:08 -0000
+Message-Id: <166431906895.23182.13135776056991595465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/fixes
-    old: 322db9fa7a1f4112c141c0f4e5a68d471789f20f
-    new: 809c06cb44868791e281c06bb115178fc5d42612
+  - ref: refs/heads/master
+    old: ed680f925aea76ac666f34d9923cb40558f4e97b
+    new: 116523c8fac05d1d26f748fee7919a4ec5df67ea
     log: |
-         809c06cb44868791e281c06bb115178fc5d42612 [coredump] don't use __kernel_write() on kmap_local_page()
+         116523c8fac05d1d26f748fee7919a4ec5df67ea Bluetooth: hci_core: Fix not handling link timeouts propertly
          
