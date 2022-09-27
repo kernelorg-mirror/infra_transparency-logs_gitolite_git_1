@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 27 Sep 2022 18:47:37 -0000
-Message-Id: <166430445742.10746.7052032473509385420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 27 Sep 2022 18:48:02 -0000
+Message-Id: <166430448228.10966.7813586368660556241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: a95e2b374912e511336f23d84917777abdf8ceac
-    new: f8b389c24cf9a523472e3e505815b26f0174856c
-    log: |
-         f8b389c24cf9a523472e3e505815b26f0174856c rcu: Remove rcu_is_idle_cpu()
-         
+  - ref: refs/heads/fileQKZGFW
+    old: 93618e5e05a3ce4aa6750268c5025bdb4cb7dc6e
+    new: 0000000000000000000000000000000000000000
