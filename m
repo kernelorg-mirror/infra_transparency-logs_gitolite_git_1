@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4570782312291632362=="
+Content-Type: multipart/mixed; boundary="===============0500179414319751726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 27 Sep 2022 02:36:39 -0000
-Message-Id: <166424619975.16501.5657213074362341874@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 02:36:48 -0000
+Message-Id: <166424620820.16628.9631161638630199667@gitolite.kernel.org>
 
---===============4570782312291632362==
+--===============0500179414319751726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-6.1
-    old: 94a70c873d56e8bb7bce52cfb68d004be174dfff
-    new: 18f6e9cd7fa3ef6a6dcb10d3fe357afaa52bd216
-    log: revlist-94a70c873d56-18f6e9cd7fa3.txt
+  - ref: refs/heads/for-next
+    old: aaad58005095c6d7feaca7598a9090f18f343b08
+    new: 4ed139a11266b3144a9e0e99689dfcfdb115d97f
+    log: revlist-aaad58005095-4ed139a11266.txt
 
---===============4570782312291632362==
+--===============0500179414319751726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94a70c873d56-18f6e9cd7fa3.txt
+Content-Disposition: attachment; filename=revlist-aaad58005095-4ed139a11266.txt
 
 1ba0a3bbd5ed5a1bb8d0165912d9904b812af74b clk: qcom: msm8996-cpu: Rename DIV_2_INDEX to SMUX_INDEX
 de37e0214c28330cf0dbf4fe51db1d9d38c13c93 clk: qcom: msm8996-cpu: Statically define PLL dividers
@@ -41,5 +41,6 @@ d7081998cca9df11727d77bf9a34f6499a13862b dt-bindings: clock: add pcm reset for i
 ce6bb04cad2632baa6ec27852f417b0baeaa58da clk: qcom: lcc-ipq806x: add reset definition
 7458b82fa563468843a35fce946b9893d0445fd3 clk: qcom: lcc-ipq806x: convert to parent data
 18f6e9cd7fa3ef6a6dcb10d3fe357afaa52bd216 clk: qcom: lcc-ipq806x: use ARRAY_SIZE for num_parents
+4ed139a11266b3144a9e0e99689dfcfdb115d97f Merge branches 'arm64-defconfig-for-6.1', 'arm64-for-6.1', 'clk-for-6.1', 'defconfig-for-6.1', 'drivers-for-6.1', 'dts-for-6.1' and 'arm64-fixes-for-6.0' into for-next
 
---===============4570782312291632362==--
+--===============0500179414319751726==--
