@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0688479410900014523=="
+Content-Type: multipart/mixed; boundary="===============4814102197915349717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 27 Sep 2022 08:38:09 -0000
-Message-Id: <166426788949.13881.6316682274350788852@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 08:40:04 -0000
+Message-Id: <166426800481.16125.14836681050621915405@gitolite.kernel.org>
 
---===============0688479410900014523==
+--===============4814102197915349717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: dd3de5ad032db61f3edd9c94daf27e52f8dc25ca
-    new: c342b3d925397bef1a636dc7d2d7782432d135c1
+    old: c342b3d925397bef1a636dc7d2d7782432d135c1
+    new: c26688d7ed254b4d52c1a397e876c09386b79374
     log: |
-         c342b3d925397bef1a636dc7d2d7782432d135c1 usb: dwc3: st: Fix node's child name
+         c26688d7ed254b4d52c1a397e876c09386b79374 uas: add no-uas quirk for Hiksemi usb_disk
          
 
---===============0688479410900014523==
+--===============4814102197915349717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664267888 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664268003 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664267887-4b826944d50c1c94a62cee9808be466255bb75fd
+nonce 1664268002-66a57e45a9ea9150f534f07398d37b15bb679f74
 
-dd3de5ad032db61f3edd9c94daf27e52f8dc25ca c342b3d925397bef1a636dc7d2d7782432d135c1 refs/heads/usb-testing
+c342b3d925397bef1a636dc7d2d7782432d135c1 c26688d7ed254b4d52c1a397e876c09386b79374 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMytnAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J4UP/RAzZMFfhxWvBoyin0Q0
-+wmL4M2hoUS8EV8H/8kZ5OGX4Gft3zI1gVqYk6RtBej5kiiOOBkqRl3r2/grVhkj
-5fsofMFU+TXEctxmghCRJG3UTHIjt08arxp6ctN9draABA8sWggCNKgxwUTeE45H
-KkF9NaRZfLUlnrWMBTNDH4tnTpu+IGdPY85MfAi582S2LiI3y3n0e4T8TFrPwMZB
-AzHaEmXnUIdSGKJtQsOUNXbQGnBR38kWuSLdIVZLX8+e+7SUY0SMKNybccjqEYJp
-29vEcZCkm7j2+uwGu8sUd6ZYvHrFT4FZGGwA7+bKwNOUO+FNQ9Fp8ID3Vng9l540
-g8dErgOgdMLHveq33SFPpJMo/tAnF2u2mpU+b4zZQWnyiHlLKBrqz5lXqRxZBqEi
-2y4wBnd2ZY+ddIp3WcbemfPAYFj4DP3GNVT8lKrM4BpgSL/aLQOqmm0yA/7fzVlp
-MrRBZ6Lct6uDvi6qYLNs3m33aStkz1sPUvJMJMDuCN249AJrKORXIEVZER7GKTA1
-iE8/4/W/JC3ePWw+OwhLHvJqJJNzuyj8Hk0nkgWGvPahkwClJuRm0GkPIt4AVy/o
-H4EHQBGT8TWi1hn8L8No9tG4UQN+3Y9TVEyoxIGwSor2JiNgR1a5ju9E8YwpZDXG
-NdG7lPvkEiEZtsCq6vCTcRTt
-=82PL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMytuMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pJwP/3rlQS1wVOT0v/HZ62Wv
+EVRHeU/pqQIRpThJtrj2IuxEp6RYhdCDODzBrB+91NaUHuGIJSuH0DbP3rW6kadm
+5IJgp6ci5oRuk9MHplbJOFHbvwOePAUL0PCST08BumN6fGAj2YAiFkJAznu1/kMj
+MizEhoAbPJhYWyX7k/NnTwjet8iLTJxLHLwP8QyUe8DrVA4e3FTWWL9Qd5TFNyNp
+FPRNEpenE8vm3XpZuzQHumNFIVCWDXIAlyxO65xaMBjhNFfhLgBSdP3ozc83zzUv
+MtFhGhPGNe5w0bfILS34FAMRggdH92b58yXsg1irLmFPUQxyxBq7UKO3fwaBB8o4
+y4NxkmhVtQRj7tk25P0f9hcbsEdhq1ZawDkacY8OhkprgcOXcEqBLf2LkTShmlFX
+ZluhHIj1AvgsYi1GlGlho/lhOauA0IXhwJ9tXontPEVFRC0T9vF9P89Pyz0jxiZz
+vyUmYsCrI2AEGFiu3Ul6dtUtPd0pPWY5hTBWM3rp9kd9d61lhlcc+lljaTALUEwK
+Ollkau19xqotpWWfaUM8YNzrF9B828vdsAu4o8qEJz1CLZ5twWV98tG35xTi5ADx
+Ln9zTRHhOXyVH+15pW5Zb7gzSqiftLH+waEsweUPl6q9FvTVImqNqItdeaibB9O8
+iihs8ymQ6VfStxL0fTmg5krY
+=DNsy
 -----END PGP SIGNATURE-----
 
---===============0688479410900014523==--
+--===============4814102197915349717==--
