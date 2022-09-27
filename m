@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2863912721898668511=="
+Content-Type: multipart/mixed; boundary="===============3864521287930358743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 27 Sep 2022 20:51:51 -0000
-Message-Id: <166431191103.3493.17794608424524209284@gitolite.kernel.org>
+Date: Tue, 27 Sep 2022 20:52:00 -0000
+Message-Id: <166431192059.3618.14419378028328806868@gitolite.kernel.org>
 
---===============2863912721898668511==
+--===============3864521287930358743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/wip
-    old: c108748f99b04db3338044949e2875e0b4abff9b
-    new: 9bb72be1e5b29d99f8e011037df6a6cfb76e42a2
-    log: revlist-c108748f99b0-9bb72be1e5b2.txt
+  - ref: refs/heads/sched/wip
+    old: 97aafad4d2f447803ba7a0d727e334595b407543
+    new: 0081a0515d86cd00918422ab3170aa3aad121475
+    log: revlist-97aafad4d2f4-0081a0515d86.txt
 
---===============2863912721898668511==
+--===============3864521287930358743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c108748f99b0-9bb72be1e5b2.txt
+Content-Disposition: attachment; filename=revlist-97aafad4d2f4-0081a0515d86.txt
 
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
 69053101e096c01a4c8e3d2497e3cd5716e43cec ndtest: Cleanup all of blk namespace specific code
@@ -371,7 +371,7 @@ f0cc7c00089bf923259370fefc1d4f48d7252fc5 Merge tag 'i2c-for-6.0-rc7' of git://gi
 4207d59567c017be284dbebc5d3fb5a2037a5df5 Merge tag 'dax-and-nvdimm-fixes-v6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 5e049663f678938dd56812ba870a471060f8ce28 Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 f76349cf41451c5c42a99f18a9163377e4b364ff Linux 6.0-rc7
-95ce6443be8ea3d79d3a547e79607c5c00beaba1 Merge branch 'tip/objtool/core'
-9bb72be1e5b29d99f8e011037df6a6cfb76e42a2 objtool: Rework arch_dest_reloc_offset()
+5acdfee05b169fb3657bd9d4191ceb3baee7d442 Merge branch 'tip/sched/core'
+0081a0515d86cd00918422ab3170aa3aad121475 sched/fair: Fold the sched_avg update
 
---===============2863912721898668511==--
+--===============3864521287930358743==--
