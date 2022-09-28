@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 28 Sep 2022 14:06:39 -0000
-Message-Id: <166437399923.27967.16645087812794638479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 28 Sep 2022 14:09:03 -0000
+Message-Id: <166437414324.28900.9108782837385252524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 8afa77a21e9ca856016633c8ae2788d605c6587d
-    new: 82a4dfc212478935f81f0f385da01458e8d5d7ec
+  - ref: refs/heads/next-integrity-testing
+    old: 1880aa060acb42afe77450cf8a5f4f000f917724
+    new: 085ee16d838548d7bca4bec436d1e1a9d3a1f490
     log: |
-         82a4dfc212478935f81f0f385da01458e8d5d7ec liburing: add more zc helpers
+         93daa6c3e3e2fff114c51f196a85d0b51cdebbe5 ima: Simplify ima_lsm_copy_rule
+         085ee16d838548d7bca4bec436d1e1a9d3a1f490 ima: Handle -ESTALE returned by ima_filter_rule_match()
          
