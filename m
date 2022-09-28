@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Wed, 28 Sep 2022 03:19:47 -0000
-Message-Id: <166433518793.23857.10156119845088797492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 28 Sep 2022 03:48:51 -0000
+Message-Id: <166433693122.12063.4029162759639481808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 08e6ee96b5751b5b176707e10594b011a746b009
-    new: 0cc5533b71dc3d3f07e04e78b36c24e01610837f
+  - ref: refs/heads/clk-for-6.1
+    old: e3ae3e899aa0322ff685fd7cf1322c6670da7db7
+    new: 6632a6adae86265ca79cefc0e48e4a672a1108df
     log: |
-         80059fa5c5ed5b91e4239163578b37cf829d8772 libnetlink: add offset for nl_dump_ext_ack_done
-         0cc5533b71dc3d3f07e04e78b36c24e01610837f tc/tc_monitor: print netlink extack message
-         
-  - ref: refs/heads/master
-    old: 08e6ee96b5751b5b176707e10594b011a746b009
-    new: 0cc5533b71dc3d3f07e04e78b36c24e01610837f
-    log: |
-         80059fa5c5ed5b91e4239163578b37cf829d8772 libnetlink: add offset for nl_dump_ext_ack_done
-         0cc5533b71dc3d3f07e04e78b36c24e01610837f tc/tc_monitor: print netlink extack message
+         dc99bbfe48e4f3b4827dc5b04a8642c23a12917e clk: qcom: alpha: Add support for programming the PLL_FSM_LEGACY_MODE bit
+         43398afc0b561925a9ce57555afe3af2ddef8d35 dt-bindings: clock: add SM6375 QCOM global clock bindings
+         184fdd873d83bfcfdd25310ae3f2d7eb8dc5224a clk: qcom: Add global clock controller driver for SM6375
+         6632a6adae86265ca79cefc0e48e4a672a1108df dt-bindings: clocks: qcom,gcc-sc8280xp: Fix typos
          
