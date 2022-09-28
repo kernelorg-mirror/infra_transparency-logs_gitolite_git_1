@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 28 Sep 2022 21:22:22 -0000
-Message-Id: <166440014285.14036.9201959944973088815@gitolite.kernel.org>
+Date: Wed, 28 Sep 2022 21:24:10 -0000
+Message-Id: <166440025047.14722.705010874600894439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 174e9f2fe9c5f087ea3205bf82cfc4f2a0e4e473
-    new: 59d36cf24f7698ed936c9b23ee559715870c7a45
+    old: 59d36cf24f7698ed936c9b23ee559715870c7a45
+    new: bead4745acb96c23beda3ebfb538cf34ba35d343
     log: |
-         edf556cc7bb9a323e1df0cec6e35654ceffb5f8f station: add two new roaming states (FT/FW)
-         59d36cf24f7698ed936c9b23ee559715870c7a45 ft: optimize clearing authentications
+         06ec89d6b83c51b3335e69cb879be0786c7fe401 wiphy: add wiphy_supports_probe_resp_offload
+         bead4745acb96c23beda3ebfb538cf34ba35d343 ap: include PROBE_RESP attribute if required by driver
          
