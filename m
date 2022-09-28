@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 28 Sep 2022 17:34:54 -0000
-Message-Id: <166438649455.14454.7445155971230524486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 28 Sep 2022 17:36:24 -0000
+Message-Id: <166438658467.16542.1711732442350461281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: b9a5cbf8ba24e88071a97a51a09ef5cdf0d1f6a1
-    new: 929a6cdfaeac9de6a1004eb18999e1439527cfb4
+    old: 8d224624fc99f61d6d23bc98d2073e4e7a95b708
+    new: 174e9f2fe9c5f087ea3205bf82cfc4f2a0e4e473
     log: |
-         2a8a7c0eaa8747c16aa4a48d573aa920d5c00a5c netfilter: nft_fib: Fix for rpath check with VRF devices
-         929a6cdfaeac9de6a1004eb18999e1439527cfb4 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+         f3b31e48e0d48ba25e15be8839d66d82639426a5 station: reorder AP roam logic
+         0f6d461779201187810e52f9802e3e8145e268f5 auto-t: set disassociation imminent for bss transitions
+         9efcea360498c3581ae8fb45e5830109e70a409c station: check disassociation bits for AP roaming
+         23a22edaed0975acdb5f5e67e2bc8241afce64f2 auto-t: change wait_for_object_change behavior
+         cd258df337143c6f2a0c5fc932d55177299c8132 auto-t: update uses of wait_for_object_change
+         174e9f2fe9c5f087ea3205bf82cfc4f2a0e4e473 auto-t: add a no candidate test to testAPRoam
          
