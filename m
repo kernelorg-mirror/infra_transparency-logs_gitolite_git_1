@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Wed, 28 Sep 2022 03:06:02 -0000
-Message-Id: <166433436292.15615.6485947445371566860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Wed, 28 Sep 2022 03:15:14 -0000
+Message-Id: <166433491450.22236.17202831290664397198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/defconfig-for-v6.1
-    old: 0000000000000000000000000000000000000000
-    new: e0d468427882556b8815e09769bbbc3281478b1e
+  - ref: refs/heads/main
+    old: e98683accc28f5669fa5c6c2985f207ad90b49c8
+    new: 08e6ee96b5751b5b176707e10594b011a746b009
+    log: |
+         08e6ee96b5751b5b176707e10594b011a746b009 ip link: add sub-command to view and change DSA conduit interface
+         
+  - ref: refs/heads/master
+    old: e98683accc28f5669fa5c6c2985f207ad90b49c8
+    new: 08e6ee96b5751b5b176707e10594b011a746b009
+    log: |
+         08e6ee96b5751b5b176707e10594b011a746b009 ip link: add sub-command to view and change DSA conduit interface
+         
