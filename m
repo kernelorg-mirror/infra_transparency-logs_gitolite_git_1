@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 28 Sep 2022 17:26:54 -0000
-Message-Id: <166438601424.9527.8566722302870916450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 28 Sep 2022 17:30:48 -0000
+Message-Id: <166438624838.12597.5693477727312137341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: b3389959c156bceece4136c4eccf4f3c740a3efa
-    new: dfc278b1873850a8d6c1f2d3afc764ab07cac60c
+  - ref: refs/heads/net-mlx5
+    old: 2e680f4b75dcedc66a34eb334b56003eca6a2c68
+    new: dc07b394252a23179c0fdf47af63ebda470b3e20
     log: |
-         f25723dcef4a38f6a39e17afeabd1adf6402230e spi: Save current RX and TX DMA devices
-         0c17ba73c08ff2690c1eff8df374b6709eed55ce spi: Fix cache corruption due to DMA/PIO overlap
-         8d699ff95534747e394e0830399b8d5dcf03e738 spi: Split transfers larger than max size
-         1224e29572f655facfcd850cf0f0a4784f36a903 spi: s3c64xx: Fix large transfers with DMA
-         dfc278b1873850a8d6c1f2d3afc764ab07cac60c Merge remote-tracking branch 'spi/for-6.1' into spi-next
+         64e966d1e84b29c9fa916cfeaabbf4013703942e wifi: cfg80211: fix MCS divisor value
+         b7ce33df1ce2b6631234233c5367bcfe9c67fbe9 wifi: mac80211: don't start TX with fq->lock to fix deadlock
+         527008e5e87600a389feb8a57042c928ecca195d wifi: mac80211: ensure vif queues are operational after start
+         d873697ef2b7e1b6fdd8e9d449d9354bd5d29a4a wifi: mac80211: fix regression with non-QoS drivers
+         be92292b90bfdc31f332c962882b6d3ea0285fdf wifi: mac80211: fix memory corruption in minstrel_ht_update_rates()
+         883b8dc1a8766464d5bde4d97e1d7c795d990d31 wifi: mac80211: mlme: Fix missing unlock on beacon RX
+         6546646a7fb0d7fe1caef947889497c16aaecc8c wifi: mac80211: mlme: Fix double unlock on assoc success handling
+         44d70bb561dac9363f45787aa93dfca36877ee01 Merge tag 'wireless-2022-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+         dc07b394252a23179c0fdf47af63ebda470b3e20 net/mlx5e: Do not increment ESN when updating IPsec ESN state
          
