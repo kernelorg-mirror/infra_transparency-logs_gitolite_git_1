@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7087300968879976641=="
+Content-Type: multipart/mixed; boundary="===============1494469481735344721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 28 Sep 2022 13:45:15 -0000
-Message-Id: <166437271598.12516.5194214929641340317@gitolite.kernel.org>
+Date: Wed, 28 Sep 2022 13:46:25 -0000
+Message-Id: <166437278592.12958.6754238975698857322@gitolite.kernel.org>
 
---===============7087300968879976641==
+--===============1494469481735344721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4d32180e8d1c107ed4b44d2476d2f95afa21b0a9
-    new: 601fdc2a68e023812fc3b47ef3c05da63a6093f8
+  - ref: refs/heads/stable-0.10.y
+    old: 988ffa2c771e14bde39761a68c072977842a3f84
+    new: c522e95030108937c2d73244972bdc78ba6bc581
     log: |
-         601fdc2a68e023812fc3b47ef3c05da63a6093f8 Fall back on user.email if sendemail.from not set
+         31a52eb49e79ff4185302f75b2e5c6559d19ecb5 Up version to 0.10.2-dev
+         c522e95030108937c2d73244972bdc78ba6bc581 Fall back on user.email if sendemail.from not set
          
 
---===============7087300968879976641==
+--===============1494469481735344721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1664372715 -0400
+pusher B6C41CE35664996C! 1664372785 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1664372715-d99e5938132325257d0f9f3a1d1a1694c6ffba7f
+nonce 1664372785-c5dbc1de970144cf42923c5951c6b58e29185090
 
-4d32180e8d1c107ed4b44d2476d2f95afa21b0a9 601fdc2a68e023812fc3b47ef3c05da63a6093f8 refs/heads/master
+988ffa2c771e14bde39761a68c072977842a3f84 c522e95030108937c2d73244972bdc78ba6bc581 refs/heads/stable-0.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYzRP6wAKCRC2xBzjVmSZ
-bMZlAQCZNFsRQS5cNeAzak0LIepHBcNCLfgt5syfWwvsKgcPcAD/YuDT+ZJwPMBc
-/q/NmIi7gTQF+UGp87pzBZ6sE4diZw4=
-=JO0Y
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYzRQMQAKCRC2xBzjVmSZ
+bAndAQC+HnGhDlYLHpsgCgCvHDHP4/XIohrvqKWHo7CstH/ffQD/avSvAkCbHKLL
+xWruKDGWAqqeaOgvzhfw/wkKMb0/Rww=
+=mirS
 -----END PGP SIGNATURE-----
 
---===============7087300968879976641==--
+--===============1494469481735344721==--
