@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 28 Sep 2022 08:16:42 -0000
-Message-Id: <166435300252.4474.14885262348018945375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 28 Sep 2022 08:17:54 -0000
+Message-Id: <166435307492.4950.2541237392303858473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/next
-    old: 85e1f6b6ca1474cf1692f1411d79121e469e2074
-    new: 178422c27badb8eee5edfae3f6cc3048cc140364
+  - ref: refs/heads/ath12k-bringup
+    old: 229acc4f9febdc9b5d8ebb0713253df833138dce
+    new: 16fd0b13a04f3a23c42f7f7d5526a4102f781c03
     log: |
-         aa9907224b50b819ba5a7cf200e8ede70f6b1fef mmc: sdhci: Separate out sdhci_reset_for_all()
-         bd980df9c4d59ef416d8350f529f7611b06e355e mmc: sdhci: Remove misleading comment about resets
-         6fbde9e98a580feec73f3e1677c1f4b7a1ce8c64 mmc: sdhci: Get rid of SDHCI_QUIRK_RESET_CMD_DATA_ON_IOS
-         1e63d2973ea39ffebd829de632b6b2336d59f41f mmc: sdhci: Centralize CMD and DATA reset handling
-         178422c27badb8eee5edfae3f6cc3048cc140364 mmc: Merge branch fixes into next
+         454c8ff42ac5bb7d2a16e4df57ef71ddcf9b54f0 wifi: ath12k: remove unnecessary debug print
+         10a5d161e3d1c9d37d441f0c045f5cc48f204cfe wifi: ath12k: fix the iteration in ath12k_htc_get_credit_allocation
+         529d0f47ef905869f1b010aca99d890f979af16e wifi: ath12k: avoid unnecessary initializer
+         7d147446cf0b630bb1a4af9629b9a515c22339ed wifi: ath12k: fix ath12k_hw_ring_mask intializer
+         b528f968d261f348ef4a61462e1887945167dc00 wifi: ath12k: fix misspelled words
+         dc40c72b98314fa4b553d445e88dfc9b62d56764 wifi: ath12k: fix indentation in ath12k_hal_srng_update_hp_tp_addr
+         db88dec1cf822e38e43d00236fbf8e0c07f95ccb wifi: ath12k: fix ath12k_he_ru_tones_to_nl80211_he_ru_alloc
+         9e24a0dab3f92aaa99f5ed41830659447dbf673a wifi: ath12k: fix zero element array in ath12k_htc_record
+         16fd0b13a04f3a23c42f7f7d5526a4102f781c03 wifi: ath12k: remove unused/draft structure
          
