@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 28 Sep 2022 21:43:04 -0000
-Message-Id: <166440138442.28875.13300686888583303131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 28 Sep 2022 21:49:43 -0000
+Message-Id: <166440178317.319.2570848869817531629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/fs/xfs/xfs-linux
+user: dgc
 changes:
-  - ref: refs/heads/master
-    old: 116523c8fac05d1d26f748fee7919a4ec5df67ea
-    new: 8dbc3e75a0a56fb0ab70781338a2283d28a09164
+  - ref: refs/heads/for-next
+    old: dc256418235a8355fbdf83b90048d8704b8d1654
+    new: d9e8a5cdd6bfe36c942bc367296bf95d3c3a83ec
     log: |
-         4b8af331bb4d4cc8bb91c284b11b98dd1e265185 Bluetooth: Prevent double register of suspend
-         8dbc3e75a0a56fb0ab70781338a2283d28a09164 Bluetooth: Call shutdown for HCI_USER_CHANNEL
+         7ee7a280ea9d3208c075151b06190630b8c20775 xfs: trim the mapp array accordingly in xfs_da_grow_inode_int
+         ece9d1c54c23c316219c19c4c7091495007e149b xfs: rearrange the logic and remove the broken comment for xfs_dir2_isxx
+         d9e8a5cdd6bfe36c942bc367296bf95d3c3a83ec xfs: on memory failure, only shut down fs after scanning all mappings
          
