@@ -1,76 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0293637123114173601=="
+Content-Type: multipart/mixed; boundary="===============1534878167918844115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 28 Sep 2022 06:53:09 -0000
-Message-Id: <166434798999.11781.15401539243008492111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 28 Sep 2022 06:53:37 -0000
+Message-Id: <166434801787.12017.9961800533512854911@gitolite.kernel.org>
 
---===============0293637123114173601==
+--===============1534878167918844115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: a8be6b6ee9595d425f304770811f3513a503e61c
-    new: bce2b0539933e485d22d6f6f076c0fcd6f185c4c
-    log: revlist-a8be6b6ee959-bce2b0539933.txt
+  - ref: refs/heads/staging-next
+    old: 7589197485da6fb02f3c06cfd7465aa2193da563
+    new: 280f669ba63aa20082ffc7daa8fade8e738c944e
+    log: |
+         0061a2a9550b845f7c0b291c0b74047290048571 staging: r8188eu: make odm_ConfigMAC_8188E() static
+         1254b194f82f0539624064864d1fccdf4617b899 staging: r8188eu: make odm_ConfigRF_RadioA_8188E() static
+         7622384c379fb2fbd6757190f5396d009bc89419 staging: r8188eu: remove hal/odm_RegConfig8188E.c
+         a6e7f8a49f99b25e29af578bf1d4e19b30a1212f staging: r8188eu: Use skb_put_data() instead of skb_put/memcpy pair
+         280f669ba63aa20082ffc7daa8fade8e738c944e staging: rtl8192e: cmdpkt: Use skb_put_data() instead of skb_put/memcpy pair
+         
 
---===============0293637123114173601==
+--===============1534878167918844115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664347989 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664347988-83f4923b31cbf1afa763e4a9580d1951f3497c55
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664348017 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1664348016-8046b1c3fe6f634dcd2f80d46907f86633f32078
 
-a8be6b6ee9595d425f304770811f3513a503e61c bce2b0539933e485d22d6f6f076c0fcd6f185c4c refs/heads/usb-next
+7589197485da6fb02f3c06cfd7465aa2193da563 280f669ba63aa20082ffc7daa8fade8e738c944e refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMz71UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PgkQAIRikgZ13bKrVayTvWKR
-y3ft8Fg+OH+8KqBtlSEO56W37gfz1rj81AegCVoXlPcVd61sLI21MmbRJHimDVtN
-5V3sKVDGQiPj+5YjJsxjWELLO5mIEndSIoZ1O1nEanVB1enHuEkrKs0g0gAKUDs9
-jjj2VKsBCcsm88/1gCx8QDidsdtd63GTuWM8yZnh+Gb+THdojx8lQN1UoE/cm144
-SEAJbvV+3F8VMq5Lrb46IkM5oSxOlZIJRl/WSiL7r4GFtmKHgE5Oqb5bdvau0SYw
-dynXv4vWG37YD5BtbWtE1lfmY5sYikE+NdrWbfn4Rx42YxEf8zRMISYF3pgePfOt
-HeCd67D0SuEPatf5AgqkhtAmbjKk4T6P9erq87+7cZI3GxsyyEPSmKWgQ+jUT9kP
-hes10R3q+fyPijSGWUj/BaZPANgczd3P15cfpIkNHJM8s9ybzat0odUMAy9H328C
-/nd/6ANFee0S8uRn+aqj1TuxOUEjn2G7GxKUOLxV+A4/oc7QUPPcFWG/GBe9vyQE
-RS08hZPhEAgH+/c3D+sbG8dygdglk+WSkz3+pxUQ0hy5smMYv+t7/ZY8gqj+hupK
-re4yx4Cx7/nj0bO0O+M83wXZS8dDB+Py8FiagFLFNflE/oIf0NEEt3n/jmw3Z7OY
-mId7NBYS337ECFJyWToLNAC5
-=+KcX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmMz73EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W8YP/Aq/XcBBgwm6LHSFs+Md
+52++ahL2mPsdZOJPtm+Q4XWp4TAS5c6mopy53GIeh+aS97mkRAIFzbkp3uRmfTdp
+JxA3FdCsM3K09ZXi1btiI8XnwQot8VNMgK/ykEP7UOKhHTMCbJ2uT95+lQKgrQuC
+W/s2opoudhX4LRPawlnbAE3kiHowlBdZ1OIp9AU+2ON213YE10FSMQ5kilAC/Cv2
+e6UV+nR3WaZJO5s4tmfppcYVAKXDRDcmJloq07UlEKCJxIeOcwkhS+iwhoggXAkS
+u7e/8+Lk2jMCMrKBQFSGjvAawGG/cKyf9YOlAVPR62WNHFAiz8O3OfPQ+ybR9BB0
+nrW+E376M1S29DEET3iMSkm4BYt/PATSXl3Sj4X9cV4UnqR/hRtw/YhQwsiegAR8
+y2HMthvERnXoLWqRj8EpgEQrqCe0PocoEtrN1YJ1L4RkDWu99rbEX+vJ/0VBpl3U
+DTZ2rW03APov9QljjR581pfUGSMg44neoy2SUkMH/JC2guAyXUQ97me+VO/0sslB
+MeinF+0ux/vgNgoTW7gPRruTTC+qIflcXeuX0Lgd0FXTLHy9FAZXkRMguIoRk44g
+rbjm8PJusPXGHP8/vTN1uvTPmdsOuQcO+KwQ48sezCoSQvJzcG3ND9ncEzZsLoKe
+TWk36XhLHBGg0pXxz0hmrQxr
+=m+Wu
 -----END PGP SIGNATURE-----
 
---===============0293637123114173601==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8be6b6ee959-bce2b0539933.txt
-
-3fbfcf0c42166d7a5336ed7251f869b82b4f655c usb: usb251xb: Switch to use dev_err_probe() helper
-759fcaaf600e56ec0a33678e85f317c5347562c7 usb: typec: stusb160x: Switch to use dev_err_probe() helper
-3eab90ae9f5b8e7c40a619c4c8aadf9bcd8c24cf usb: typec: qcom-pmic-typec: Switch to use dev_err_probe() helper
-a075590c0aa2b9d1bc1204bf8ea97519aef2994a usb: typec: fusb302: Switch to use dev_err_probe() helper
-7be7231d41971f5e244c0ba8f340dc4697868aa1 usb: musb: core: Switch to use dev_err_probe() helper
-92150ca664e957d776ca25c29e4a09675c910747 usb: musb: da8xx: Switch to use dev_err_probe() helper
-a806f67f15feca7449ffc792daa59af36a9c0135 usb: musb: cppi41: Switch to use dev_err_probe() helper
-82d788750e35ab0bf7f5cc1005b694bb2ca3cf20 usb: musb: jz4740: Switch to use dev_err_probe() helper
-7a8275099361e248d3c4dc350332606bf36b19b7 usb: musb: sunxi: Switch to use dev_err_probe() helper
-1abf6ab490c518164a3ffb62e4533850aaecb6fd usb: cdc-wdm: Use skb_put_data() instead of skb_put/memcpy pair
-29afbe5f5afc2f724b8aef2d11fbe6a7ee48997e usb: cdns3: remove dead code
-5d5fb7c75f5a32b08089ab15dedcd5d83c809991 usb: ulpi: use DEFINE_SHOW_ATTRIBUTE to simplify ulpi_regs
-e0b27d38ffb7552b28a993c3c7029ce89670ff5b usb: phy: generic: Switch to use dev_err_probe() helper
-411c4597df7dcc60b7aae83761618c94a60ded3f USB: PHY: JZ4770: Switch to use dev_err_probe() helper
-bce2b0539933e485d22d6f6f076c0fcd6f185c4c usb: idmouse: fix an uninit-value in idmouse_open
-
---===============0293637123114173601==--
+--===============1534878167918844115==--
