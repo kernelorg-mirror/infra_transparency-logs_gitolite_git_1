@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5355514639342782680=="
+Content-Type: multipart/mixed; boundary="===============2000771455515763514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 28 Sep 2022 05:39:45 -0000
-Message-Id: <166434358573.25763.10766138424055233378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 28 Sep 2022 06:47:29 -0000
+Message-Id: <166434764977.8127.13732152339426104330@gitolite.kernel.org>
 
---===============5355514639342782680==
+--===============2000771455515763514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: d9fc5677ceb67b5e300ea382a2a536e07136ec26
-    new: ecfebf513989e2094d8677f91b6ccf06023c3bcc
-    log: revlist-d9fc5677ceb6-ecfebf513989.txt
+  - ref: refs/heads/main
+    old: 6cf5e9066dd3332cf4c77ea95a116f70e7f9acf7
+    new: a1cb097168fa23f5d3d1bdbea5f7f191bfbcc52f
+    log: revlist-6cf5e9066dd3-a1cb097168fa.txt
 
---===============5355514639342782680==
+--===============2000771455515763514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9fc5677ceb6-ecfebf513989.txt
+Content-Disposition: attachment; filename=revlist-6cf5e9066dd3-a1cb097168fa.txt
 
-a3a999f743d2f9f4f85c29a7cd47602f8904de98 kbuild: list sub-directories in ./Kbuild
-cafc4e03eba35adfe3e9bd4da7dbea70e36350ff kbuild: move .vmlinux.objs rule to Makefile.modpost
-d820884c1029725b2fe91d4440af0419f1b9a427 kbuild: move vmlinux.o rule to the top Makefile
-2cce989f8461f3b5bbf88f065bac0448b573182a kbuild: unify two modpost invocations
-64783bedfa90c29098e9030ed93df68e5a5d0100 kbuild: re-run modpost when it is updated
-d484a44e156e13603c9fedccdeb62e93285d792d kbuild: hide error checker logs for V=1 builds
-2d54717301e5f1d247fd0177265aaa746d934f3c kbuild: use obj-y instead extra-y for objects placed at the head
-ba1f79962d66ce21565bc08b487621be99bd232f kbuild: remove head-y syntax
-d07b4ada976d279b04b7492395866eaa1cc572e0 mksysmap: update comment about __crc_*
-755607b7582cf5de8dd4877671ec7e6a467b5224 kbuild: reuse mksysmap output for kallsyms
-e7c89a5ff786db9cf3955c1cc8e122c298066f01 kallsyms: drop duplicated ignore patterns from kallsyms.c
-11f9a95cdb06b319baa4e5c8907a5ddda0326860 kallsyms: take the input file instead of reading stdin
-ecfebf513989e2094d8677f91b6ccf06023c3bcc kallsyms: ignore __kstrtab_* and __kstrtabns_* symbols
+72c08d9f4c72787dde541ae5ed278e46771c9f2a wifi: iwlwifi: Track scan_cmd allocation size explicitly
+413cda95648d705a7cc6c33d2e81bdccf6ea9a59 ipw2x00: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
+56df3d408a8fa079bf4122895d6e004659795d4f iwlegacy: Replace zero-length arrays with DECLARE_FLEX_ARRAY() helper
+1bebcf08a3053e92a9e0eb397163faf98dcc8beb wifi: rtw89: pci: mask out unsupported TX channels
+a1b7163aab4cb5a40d866e40183c52094fad26f9 wifi: rtw89: mac: define DMA channel mask to avoid unsupported channels
+61bdf7aacdc3bc98bf73c483e8c2dd88ed212dde wifi: rtw89: add DMA busy checking bits to chip info
+14b6e9f4b019ef5adfc0729e8166734490dd4709 wifi: rtw89: 8852b: implement chip_ops::{enable,disable}_bb_rf
+9e6e66ffba18e31c9860d5fda7524f7593f9f2c7 wifi: rtw89: pci: add to do PCI auto calibration
+3d7475897a952b3dca9db24056f0fbab0f6ced6a wifi: rtw89: pci: set power cut closed for 8852be
+75f1ed29e4314d21fbb3dc6e592637b86c212e86 wifi: rtw89: mac: correct register of report IMR
+5f8c35b9323abe2a0a3b13e65e4d5898e9e23a45 wifi: rtw89: check DLE FIFO size with reserved size
+a1cb097168fa23f5d3d1bdbea5f7f191bfbcc52f wifi: rtw89: 8852b: configure DLE mem
 
---===============5355514639342782680==--
+--===============2000771455515763514==--
