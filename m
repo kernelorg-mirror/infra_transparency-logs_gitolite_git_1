@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2854687182768027832=="
+Content-Type: multipart/mixed; boundary="===============2486063260476118324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 28 Sep 2022 11:03:32 -0000
-Message-Id: <166436301240.29145.10757758158857070573@gitolite.kernel.org>
+Date: Wed, 28 Sep 2022 11:03:40 -0000
+Message-Id: <166436302064.29238.14848074265820500463@gitolite.kernel.org>
 
---===============2854687182768027832==
+--===============2486063260476118324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/testing
-    old: 14846a691ddf189daf3d9542a9bc755aa7bb8740
-    new: 29278fa7b63c2592dbf7ff7e4fab0bf1a3d9a008
-    log: revlist-14846a691ddf-29278fa7b63c.txt
+  - ref: refs/heads/master
+    old: d25088932227680988a6b794221e031a7232f137
+    new: 44d70bb561dac9363f45787aa93dfca36877ee01
+    log: revlist-d25088932227-44d70bb561da.txt
 
---===============2854687182768027832==
+--===============2486063260476118324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14846a691ddf-29278fa7b63c.txt
+Content-Disposition: attachment; filename=revlist-d25088932227-44d70bb561da.txt
 
 4d39265b930fb42eb396c3153a3f4afdee9f5c17 Merge remote-tracking branch 'asoc/for-5.20' into asoc-6.0
 46f7ac3d7892e808c9ba01c39da6bb85cda26ecd spi: bitbang: Fix lsb-first Rx
@@ -457,6 +457,5 @@ ea64cdfad124922c931633e39287c5a31a9b14a1 net: phy: Don't WARN for PHY_UP state i
 bc7a319844891746135dc1f34ab9df78d636a3ac selftests: Fix the if conditions of in test_extra_filter()
 797666cd5af041ffb66642fff62f7389f08566a2 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
 44d70bb561dac9363f45787aa93dfca36877ee01 Merge tag 'wireless-2022-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-29278fa7b63c2592dbf7ff7e4fab0bf1a3d9a008 netfilter: nft_fib: Fix for rpath check with VRF devices
 
---===============2854687182768027832==--
+--===============2486063260476118324==--
