@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 28 Sep 2022 01:04:42 -0000
-Message-Id: <166432708205.24797.17394722328399305488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 28 Sep 2022 01:11:15 -0000
+Message-Id: <166432747581.30766.9824151597308002283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9dedc915937c33302df7fcab01c45e7936d6195a
-    new: 677065244aa17265d7933782b1720cdf8727fcae
+    old: ab7ea1e73532247217d3e450015dd7ece966dc0e
+    new: 0d92efdee9152e400aa973229861c3cb84069a98
     log: |
-         90c9978959dacdecfc30d2e6ad5cefc4823399b8 Input: xpad - refactor using BIT() macro
-         677065244aa17265d7933782b1720cdf8727fcae Input: xpad - decipher xpadone packages with GIP defines
-         
-  - ref: refs/heads/next
-    old: 9dedc915937c33302df7fcab01c45e7936d6195a
-    new: 677065244aa17265d7933782b1720cdf8727fcae
-    log: |
-         90c9978959dacdecfc30d2e6ad5cefc4823399b8 Input: xpad - refactor using BIT() macro
-         677065244aa17265d7933782b1720cdf8727fcae Input: xpad - decipher xpadone packages with GIP defines
+         0d92efdee9152e400aa973229861c3cb84069a98 Add skb drop reasons to IPv6 UDP receive path
          
