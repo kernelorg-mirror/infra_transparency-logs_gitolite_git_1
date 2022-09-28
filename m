@@ -1,43 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============7070860741012069025=="
+Content-Type: multipart/mixed; boundary="===============9045209449571768888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 28 Sep 2022 17:01:14 -0000
-Message-Id: <166438447453.22770.18021268771167592692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 28 Sep 2022 17:02:19 -0000
+Message-Id: <166438453935.23212.10104953741378909805@gitolite.kernel.org>
 
---===============7070860741012069025==
+--===============9045209449571768888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 2d6357e19147767e01fd817fb4d9e624d4ea97f1
-    new: 28292f3d297ced09df05e65afb6ed9b40f54d016
-    log: revlist-2d6357e19147-28292f3d297c.txt
+  - ref: refs/heads/kbuild
+    old: ecfebf513989e2094d8677f91b6ccf06023c3bcc
+    new: 126afc459a8bcf88e4bcfb54148565dd3dba49a3
+    log: revlist-ecfebf513989-126afc459a8b.txt
 
---===============7070860741012069025==
+--===============9045209449571768888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d6357e19147-28292f3d297c.txt
+Content-Disposition: attachment; filename=revlist-ecfebf513989-126afc459a8b.txt
 
-64e966d1e84b29c9fa916cfeaabbf4013703942e wifi: cfg80211: fix MCS divisor value
-b7ce33df1ce2b6631234233c5367bcfe9c67fbe9 wifi: mac80211: don't start TX with fq->lock to fix deadlock
-527008e5e87600a389feb8a57042c928ecca195d wifi: mac80211: ensure vif queues are operational after start
-d873697ef2b7e1b6fdd8e9d449d9354bd5d29a4a wifi: mac80211: fix regression with non-QoS drivers
-be92292b90bfdc31f332c962882b6d3ea0285fdf wifi: mac80211: fix memory corruption in minstrel_ht_update_rates()
-883b8dc1a8766464d5bde4d97e1d7c795d990d31 wifi: mac80211: mlme: Fix missing unlock on beacon RX
-6546646a7fb0d7fe1caef947889497c16aaecc8c wifi: mac80211: mlme: Fix double unlock on assoc success handling
-44d70bb561dac9363f45787aa93dfca36877ee01 Merge tag 'wireless-2022-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-b822cbcde2c66f7f4672a7953fe14aec2d010781 ice: xsk: change batched Tx descriptor cleaning
-ac293ce772ba2e0194183712f9d153d08185604f ice: xsk: drop power of 2 ring size restriction for AF_XDP
-e31f7702bce67d319b4b09b37ca046215140aa00 i40e: Fix ethtool rx-flow-hash setting for X722
-f9c2f36c5bfab574604f7245ae5d5cc8d0742317 i40e: Fix not setting xps_cpus after reset
-28292f3d297ced09df05e65afb6ed9b40f54d016 i40e: Fix DMA mappings leak
+a7f3257da8a86b96fb9bf1bba40ae0bbd7f1885a kbuild: remove the target in signal traps when interrupted
+ed7ceac157c27bdc64e79a3229f5ab6e8899597f kbuild: add phony targets to ./Kbuild
+7053bcb3ae03862072dedb8e0758045f5c133fed kbuild: hard-code KBUILD_ALLDIRS in scripts/Makefile.package
+4faea94086047f4537909e482d653d5ab71956b1 kbuild: check sha1sum just once for each atomic header
+390635778571382658b16673cad051af7f52d93a kbuild: do not deduplicate modules.order
+a55ab193e61410ae9231811e5495da4588eef934 nios2: move core-y in arch/nios2/Makefile to arch/nios2/Kbuild
+c2996c206b967dea85aea25eeface2c8eef216f7 kbuild: remove duplicated dependency between modules and modules_check
+91dfb0304ee18b4547690dc0ea56ee40690eafa1 kbuild: refactor single builds of *.ko
+8a2f859380bebc78475d72abb7ecbf6b9e733796 kbuild: move 'PHONY += modules_prepare' to the common part
+d1db7e87eeda23fd09ff896aabed9a7776d51550 init/version.c: remove #include <linux/version.h>
+8ffae151b9818f0e8c66542dfe05f13155ef1908 kbuild: build init/built-in.a just once
+614a284fc7390b801f242f0a8f83c68b1fc0ba19 kbuild: generate include/generated/compile.h in top Makefile
+8a202342288d8b967aff387aa744db9f59535dcd scripts/mkcompile_h: move LC_ALL=C to '$LD -v'
+c0b7139eb20873ccd1a165c6b3a56738aeece365 Revert "kbuild: Make scripts/compile.h when sh != bash"
+4b200cb9743df56446af5657df6660fe10c69c31 kbuild: rewrite check-local-export in sh/awk
+6a9d7f2fb7b0513297a291171ef1f0d9e89904cc kbuild: fix and refactor single target build
+06d3ecfbb1e4d5bef2f9d06a942248ef0697e250 kbuild: use objtool-args-y to clean up objtool arguments
+2acb1499ed4f1954c28d6c8d6954218c5a6b4b08 linux/export: use inline assembler to populate symbol CRCs
+7ac23da2001f88fcee8b94e4f94c11be76816398 Kconfig: remove sym_set_choice_value
+37808c74d1ca6be9770897b1d1aa4f500f8ad0cb scripts: remove unused argument 'type'
+891cfeb6328df9580700133bd1a8d29421cec1a5 kbuild: rpm-pkg: fix breakage when V=1 is used
+a41e483e8becf60e1b7288fa30961fe0ce143b50 Makefile.compiler: replace cc-ifversion with compiler-specific macros
+2f881b1197d3692d9b2ad0b18556385035139909 kbuild: list sub-directories in ./Kbuild
+381dfab73284d7c45cd551272e5658cdcd2e8406 kbuild: move .vmlinux.objs rule to Makefile.modpost
+e3e78679494fa1813523e05378aead1985851fbb kbuild: move vmlinux.o rule to the top Makefile
+894ee7d171f85e40ad5035553ae82de1d8aef2fc kbuild: unify two modpost invocations
+40881ca35165c58cfb8b2b32078f8f29cf07f1ea kbuild: re-run modpost when it is updated
+c37efff8ba153764fa4afd690140aa6c45eba017 kbuild: hide error checker logs for V=1 builds
+a0f762488dda2f4b7c3cf36403738a118d9b2927 kbuild: use obj-y instead extra-y for objects placed at the head
+f3d2da8e9df3571c13a0942664be439d9deb4a3d kbuild: remove head-y syntax
+feb79ad3f6952e945e4fb10b0adbfe8b7474bab3 mksysmap: update comment about __crc_*
+3edea8b896a6c0ae702e92bc89bb6bef56af2d36 kbuild: reuse mksysmap output for kallsyms
+f77b169b51c4ef639fd6c50162616a0865971a32 kallsyms: drop duplicated ignore patterns from kallsyms.c
+ff6f35c75a47717f7ed19e714f0601fdf4949568 kallsyms: take the input file instead of reading stdin
+126afc459a8bcf88e4bcfb54148565dd3dba49a3 kallsyms: ignore __kstrtab_* and __kstrtabns_* symbols
 
---===============7070860741012069025==--
+--===============9045209449571768888==--
