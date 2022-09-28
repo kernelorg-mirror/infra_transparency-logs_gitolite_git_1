@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 28 Sep 2022 21:24:10 -0000
-Message-Id: <166440025047.14722.705010874600894439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 28 Sep 2022 21:35:15 -0000
+Message-Id: <166440091531.24445.2445287182339669118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 59d36cf24f7698ed936c9b23ee559715870c7a45
-    new: bead4745acb96c23beda3ebfb538cf34ba35d343
-    log: |
-         06ec89d6b83c51b3335e69cb879be0786c7fe401 wiphy: add wiphy_supports_probe_resp_offload
-         bead4745acb96c23beda3ebfb538cf34ba35d343 ap: include PROBE_RESP attribute if required by driver
-         
+  - ref: refs/heads/for-next
+    old: 83e34b3e36e9e7e6e0f3241b6a929e5ff239c750
+    new: 0000000000000000000000000000000000000000
