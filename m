@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3427893554522513209=="
+Content-Type: multipart/mixed; boundary="===============5457513350526317815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 28 Sep 2022 21:10:44 -0000
-Message-Id: <166439944408.6777.15635663967976308145@gitolite.kernel.org>
+Date: Wed, 28 Sep 2022 21:10:53 -0000
+Message-Id: <166439945382.6908.11646139967715943456@gitolite.kernel.org>
 
---===============3427893554522513209==
+--===============5457513350526317815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: b1ea38ceb03d261114e143b7f9c9516c8055802c
     new: 77b263e898aafdb04084112acabfdd5934ecbc85
     log: revlist-b1ea38ceb03d-77b263e898aa.txt
 
---===============3427893554522513209==
+--===============5457513350526317815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ bc029a9cb5eb66b16861c8618fad2283326d9c4c kbuild: reuse mksysmap output for kalls
 b6878e6790cd9adb56473ebc8e03902f42c71258 kallsyms: take the input file instead of reading stdin
 77b263e898aafdb04084112acabfdd5934ecbc85 kallsyms: ignore __kstrtab_* and __kstrtabns_* symbols
 
---===============3427893554522513209==--
+--===============5457513350526317815==--
