@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5301282046198710371=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 28 Sep 2022 07:34:27 -0000
-Message-Id: <166435046719.6874.13525653219639533283@gitolite.kernel.org>
-
---===============5301282046198710371==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 28 Sep 2022 07:34:59 -0000
+Message-Id: <166435049999.7127.5222037221164284288@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: d89318bbdf2b8f472d7f1225bbe44ead7b57c5e4
-    new: 2ae3cb58b9afc1ede5cb79d5718efbb4b798b140
-    log: revlist-d89318bbdf2b-2ae3cb58b9af.txt
-
---===============5301282046198710371==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d89318bbdf2b-2ae3cb58b9af.txt
-
-0335833b10cd0a7998ac1892c03802c1ec014f0d selftests/tc-testing: add selftests for atm qdisc
-99e0f78d6bdd36b4d435fc14923430041eb9b051 selftests/tc-testing: add selftests for choke qdisc
-412233b1f7e7b4ea6a4c325ae44602cbc152100a selftests/tc-testing: add selftests for codel qdisc
-fa4b3e9f057b51e5bed86804c9f897f686d520ee selftests/tc-testing: add selftests for etf qdisc
-9e274718cc050874761ad4314d43cd82e7556128 selftests/tc-testing: add selftests for fq qdisc
-a4a8d3562b07e7390708c9d6dc85932fceffe8af selftests/tc-testing: add selftests for gred qdisc
-225aeb62fe5812bd1d25ce37d771a21b8b029f6a selftests/tc-testing: add selftests for hhf qdisc
-379a6509452e1b3c2eb916786f4c336c4ef054c0 selftests/tc-testing: add selftests for pfifo_fast qdisc
-7d0b4b0ccb1526aca3101cfe352aefa9915fb9af selftests/tc-testing: add selftests for plug qdisc
-6ad92dc56fca398ae0461fcfcb9f2a3370cf26ac selftests/tc-testing: add selftests for sfb qdisc
-0158f65bfbdddae1ca72d7be548051fce6b42719 selftests/tc-testing: add selftests for sfq qdisc
-c5a2d86b922868f7a3aecd4bb757d54acde85996 selftests/tc-testing: add selftests for skbprio qdisc
-8a3b3667ddbd426d2d1a92069954a930e0f1c476 selftests/tc-testing: add selftests for taprio qdisc
-10835be3f0f770254776512db21bba9b410da3c4 selftests/tc-testing: add selftests for tbf qdisc
-cc62fbe114c9fada6594d7766acdd709c1c85cf1 selftests/tc-testing: add selftests for teql qdisc
-2ae3cb58b9afc1ede5cb79d5718efbb4b798b140 Merge branch 'tc-testing-qdisc'
-
---===============5301282046198710371==--
+    old: 71a4525c36644fc1f2655fa4b5097aaf9a0521f1
+    new: 256d4217d165a0502e334b4a9bca603348cb9280
+    log: |
+         543f82fee0c531c8386f776a6050878a5bfe96f4 sched: Fix TASK_state comparisons
+         7b084630153152239d84990ac4540c2dd360186f perf: Use sample_flags for addr
+         838d9bb62d132ec3baf1b5aba2e95ef9a7a9a3cd perf: Use sample_flags for raw_data
+         4674ffe2fcad45a9b164401cc0794115702326cf perf, hw_breakpoint: Fix use-after-free if perf_event_open() fails
+         cce6a2d7e0e494c453ad73e1e78bd50684f20cca bpf: Check flags for branch stack in bpf_read_branch_records helper
+         efd608fa7403ba106412b437f873929e2c862e28 x86/alternative: Fix race in try_get_desc()
+         ee689abac47db7e725215dbaec3feae0e1e2c928 Merge branch into tip/master: 'x86/urgent'
+         9286a39427d59d104e81ccc4a4cb315de55f5b48 Merge branch into tip/master: 'perf/core'
+         256d4217d165a0502e334b4a9bca603348cb9280 Merge branch into tip/master: 'sched/core'
+         
