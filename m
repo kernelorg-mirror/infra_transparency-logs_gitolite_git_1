@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9045209449571768888=="
+Content-Type: multipart/mixed; boundary="===============9072173708703931496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 28 Sep 2022 17:02:19 -0000
-Message-Id: <166438453935.23212.10104953741378909805@gitolite.kernel.org>
+Date: Wed, 28 Sep 2022 17:02:28 -0000
+Message-Id: <166438454843.23351.8617472258882190050@gitolite.kernel.org>
 
---===============9045209449571768888==
+--===============9072173708703931496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: ecfebf513989e2094d8677f91b6ccf06023c3bcc
     new: 126afc459a8bcf88e4bcfb54148565dd3dba49a3
     log: revlist-ecfebf513989-126afc459a8b.txt
 
---===============9045209449571768888==
+--===============9072173708703931496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ f77b169b51c4ef639fd6c50162616a0865971a32 kallsyms: drop duplicated ignore patter
 ff6f35c75a47717f7ed19e714f0601fdf4949568 kallsyms: take the input file instead of reading stdin
 126afc459a8bcf88e4bcfb54148565dd3dba49a3 kallsyms: ignore __kstrtab_* and __kstrtabns_* symbols
 
---===============9045209449571768888==--
+--===============9072173708703931496==--
