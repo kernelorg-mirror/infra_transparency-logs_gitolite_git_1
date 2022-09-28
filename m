@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6836483337636163698=="
+Content-Type: multipart/mixed; boundary="===============8183242835361059725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 28 Sep 2022 18:40:41 -0000
-Message-Id: <166439044100.29676.966034516068002524@gitolite.kernel.org>
+Date: Wed, 28 Sep 2022 18:40:47 -0000
+Message-Id: <166439044738.29804.6957788484672634869@gitolite.kernel.org>
 
---===============6836483337636163698==
+--===============8183242835361059725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 7bcd9683e51575c72c9289c05213150245d1c186
-    new: 929a6cdfaeac9de6a1004eb18999e1439527cfb4
-    log: revlist-7bcd9683e515-929a6cdfaeac.txt
+  - ref: refs/heads/dev-queue
+    old: b00bf8edfc293fb4c5d17dba829c07679838aa3c
+    new: f26998146eaa43ea5703a96538af92ffbbf87cd5
+    log: revlist-b00bf8edfc29-f26998146eaa.txt
 
---===============6836483337636163698==
+--===============8183242835361059725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bcd9683e515-929a6cdfaeac.txt
+Content-Disposition: attachment; filename=revlist-b00bf8edfc29-f26998146eaa.txt
 
 c64655f32fef795b12170d710c474422ee29b134 net: stmmac: Minor spell fix related to 'stmmac_clk_csr_set()'
 62e56ef57c04c0cacb33433d7984a4d71b690b3f net: tls: Add ARIA-GCM algorithm
@@ -79,5 +79,28 @@ d902e1a737d44e678eeb981df11c842c2cc1db74 sfc: bare bones TC offload on EF100
 b9a5cbf8ba24e88071a97a51a09ef5cdf0d1f6a1 Merge branch 'sfc-tc-offload'
 2a8a7c0eaa8747c16aa4a48d573aa920d5c00a5c netfilter: nft_fib: Fix for rpath check with VRF devices
 929a6cdfaeac9de6a1004eb18999e1439527cfb4 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+cc5e8f03664f252fdc22f4fb28126c6d384dced7 e1000e: Separate MTP board type from ADP
+0e0ca52f936a4d63abcfdc74953863fd54e54251 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+8857880b64a5ac8349daceebaef68ccc6ff20b26 ice: Handle LLDP MIB Pending change
+3c31adfca482ac4a412f2ed2341cc5385a9943d5 ice: xsk: change batched Tx descriptor cleaning
+ebf82931000fde8cc696ea1ade1bc96567494966 ice: xsk: drop power of 2 ring size restriction for AF_XDP
+6740f0896b91f041ca6637f2a3a4bc6073cd2a80 i40e: Fix ethtool rx-flow-hash setting for X722
+ad77898d92ffb6fcdbdcbefbc93ad63c591aa219 ice: Merge pin initialization of E810 and E810T adapters
+1dd7c06567814ca8ca3a00c42ef85f9f3f585575 ice: Support 5 layer topology
+633e2b92975f88828aadad43b1a744a37035ed14 ice: Adjust the VSI/Aggregator layers
+c9ea6e44d159c8e030a986a5e1e8484a39d1bcbf ice: Enable switching default tx scheduler topology
+15d007a75e0f51eed8452e36074ba92e3844f571 ice: Add txbalancing devlink param
+580c24457a72645706a92778802500094ae1c975 ice: Document txbalancing parameter
+4f38f0dea464fa5a8568b7f13d5a171e43a690cb i40e: Add appropriate error message logged for incorrect duplex setting
+aea4f7bb6c656b852771747538ca264b72967055 i40e: Fix not setting xps_cpus after reset
+255d1f711b88a33533cbafd279ba0b52e67f36af ice: support features on new E810T variants
+1352ace534413c8846490399a390d64a6a72f5b9 ice: Add GPIO pin support for E823 products
+3d50d671591fdf397122d33ae456addd458bd551 ice: Add support for VLAN priority filters in switchdev
+a3e6673476f147087c4d825aa136031f450b1de9 e1000: Remove unnecessary use of kmap_atomic()
+1b4f82d131e32d037fdb04a804be8644608a71f6 e1000e: Remove unnecessary use of kmap_atomic()
+e312239075d77f11b45c3997a4e89153393c259d i40e: Fix DMA mappings leak
+30e8ac8878a489bbd320a8f477c1f7bd7503d8bc igc: Correct the launchtime offset
+5991a30b21ddfea029ea3e40911660687efa26c0 e1000e: Add e1000e trace module
+f26998146eaa43ea5703a96538af92ffbbf87cd5 ice: Add crosstimestamping on E823 devices
 
---===============6836483337636163698==--
+--===============8183242835361059725==--
