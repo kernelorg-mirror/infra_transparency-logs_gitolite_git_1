@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 28 Sep 2022 13:56:08 -0000
-Message-Id: <166437336881.21123.3760789772450339066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 28 Sep 2022 14:06:39 -0000
+Message-Id: <166437399923.27967.16645087812794638479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 635b241d93010cbbbea3855e4f274c2621df7a19
-    new: d5ebde1e2b46154d7e03efb1ae3039a304e5386d
+  - ref: refs/heads/master
+    old: 8afa77a21e9ca856016633c8ae2788d605c6587d
+    new: 82a4dfc212478935f81f0f385da01458e8d5d7ec
     log: |
-         fb2d14add4f813c73bd9d28b750315ccb3f5f0ea Drivers: hv: vmbus: Split memcpy of flex-array
-         d5ebde1e2b46154d7e03efb1ae3039a304e5386d hyperv: simplify and rename generate_guest_id
+         82a4dfc212478935f81f0f385da01458e8d5d7ec liburing: add more zc helpers
          
