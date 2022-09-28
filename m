@@ -1,50 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6999599054634732858=="
+Content-Type: multipart/mixed; boundary="===============5718348498329451703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 28 Sep 2022 17:26:15 -0000
-Message-Id: <166438597589.8939.15003339368198202474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 28 Sep 2022 17:26:22 -0000
+Message-Id: <166438598233.9051.5777236696128842894@gitolite.kernel.org>
 
---===============6999599054634732858==
+--===============5718348498329451703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.1
-    old: 16b51447b20c24d79b13a4477fdef93dbba123e4
-    new: 7ba6546b547c75b0196029c7e0aaaab2eb6694a4
+  - ref: refs/heads/for-6.1
+    old: 309e98548c2b144512d0a212f2d786ae9694f5e4
+    new: 1224e29572f655facfcd850cf0f0a4784f36a903
     log: |
-         7ba6546b547c75b0196029c7e0aaaab2eb6694a4 ASoC: mediatek: mt8195: update audio tuner settings
+         f25723dcef4a38f6a39e17afeabd1adf6402230e spi: Save current RX and TX DMA devices
+         0c17ba73c08ff2690c1eff8df374b6709eed55ce spi: Fix cache corruption due to DMA/PIO overlap
+         8d699ff95534747e394e0830399b8d5dcf03e738 spi: Split transfers larger than max size
+         1224e29572f655facfcd850cf0f0a4784f36a903 spi: s3c64xx: Fix large transfers with DMA
          
 
---===============6999599054634732858==
+--===============5718348498329451703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1664385974 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1664385974-113f4e12d70387f9e56c9ed15a63dba57340dee4
+pusher C3F436CA30F5D8EB 1664385980 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1664385980-9443ce18d31e38601b0a1be7cc160bdfa6c81306
 
-16b51447b20c24d79b13a4477fdef93dbba123e4 7ba6546b547c75b0196029c7e0aaaab2eb6694a4 refs/heads/asoc-6.1
+309e98548c2b144512d0a212f2d786ae9694f5e4 1224e29572f655facfcd850cf0f0a4784f36a903 refs/heads/for-6.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmM0g7YACgkQJNaLcl1U
-h9CDQgf5AZCiA5+LCrLm3KXIhz4ec38zvWAgb6iGxHC4kWDdO9Cm7JPkey7K9Yvb
-Q4A4oz4iWaeThFIpvBK0ftncMl5vwLJuzaaKC6XFCfySPAdLaZBW1xeqOhIe9LCs
-sxXCy3FaYx/Fa7Gva4iBjAVsDUKwH95ScJF784BFOjS6wwUT4SIE3bNSwJ9Uzubl
-pzzgk6yGMuztyWO7iO7iMLPL9G+N8JOw4yn3p3QTDfFrAbPcduKx1+5J2kw+rt23
-CqBMk5exJls9hqsQbhgNc5MfdPZlujYAvT3a+A2SB65V6ANIsqv7wPt0VdMHmLPB
-AdIAudfu8ARfDUheoBsTHCfcDzMzLw==
-=sHYh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmM0g7wACgkQJNaLcl1U
+h9Azdwf/VkS8pGTFzWcLdUD6n9E5C7NY4j0v/CBZP8S6Y+zF2+OPpLG177bZ6Kot
+knV6oc9O2RPVzznzj0wNMO3r2Dw+gVGAFOgrxZNSYfmEq+cb8S0BUlSNmNHGx+ks
+Pfi8yad2vF5ObpTawYBY45hxRyWarAl0M6fhsPo4nJxmg0UQP8wuvomosDQS94To
+JGFj3eN9A8iIbkzTLqj2541Kydkz9A11ixSMrsyxuNa9HporAgEJaiBEa6nMm2BT
+BpX7QLATyMi/J2OpVR/755X3Tx8Qh28vkXLJVyHT8Tcr3GqFf3BNpIUPsmh8SyFk
+emflNkJjSgqkDEZ1entZDjB3K0l2tw==
+=skRY
 -----END PGP SIGNATURE-----
 
---===============6999599054634732858==--
+--===============5718348498329451703==--
