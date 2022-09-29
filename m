@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0710974951501146659=="
+Content-Type: multipart/mixed; boundary="===============0360629121623232879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 29 Sep 2022 19:30:46 -0000
-Message-Id: <166447984688.881.2241359965853331102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 29 Sep 2022 19:30:53 -0000
+Message-Id: <166447985343.991.6952832324541331100@gitolite.kernel.org>
 
---===============0710974951501146659==
+--===============0360629121623232879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
 
---===============0710974951501146659==
+--===============0360629121623232879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -295,4 +295,4 @@ c9da02bfb1112461e048d3b736afb1873f6f4ccf net: ethernet: mtk_eth_soc: fix mask of
 da9eede6b2423381d592b832a7c5ba0082f2e905 Merge tag 'input-for-v6.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 511cce163b75bc3933fa3de769a82bb7e8663f2b Merge tag 'net-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0710974951501146659==--
+--===============0360629121623232879==--
