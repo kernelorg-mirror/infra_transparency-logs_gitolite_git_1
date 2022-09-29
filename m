@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 29 Sep 2022 22:36:06 -0000
-Message-Id: <166449096642.32159.14456989046599714092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 29 Sep 2022 22:50:03 -0000
+Message-Id: <166449180385.9223.3941161300346521067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dt/next
-    old: b6acf807351781c3c3810df7873b3f0d793d59b2
-    new: 17005609548f1f0204cbfc988b325533470e585c
+  - ref: refs/heads/for-6.1/io_uring
+    old: b000145e9907809406d8164c3b2b8861d95aecd1
+    new: 46a525e199e4037516f7e498c18f065b09df32ac
     log: |
-         3b684d0467973c2a18c4bdc5a8bc1be4df5a5486 dt-bindings: timer: Add power-domains for TI timer-dm on K3
-         8ec747e5d585cc8efaf5ebc3caf5dd71af86eaaa dt-bindings: display: st,stm32-dsi: Handle data-lanes in DSI port node
-         17005609548f1f0204cbfc988b325533470e585c of: fdt: Remove unused struct fdt_scan_status
+         46a525e199e4037516f7e498c18f065b09df32ac io_uring: don't gate task_work run on TIF_NOTIFY_SIGNAL
          
   - ref: refs/heads/for-next
-    old: b6acf807351781c3c3810df7873b3f0d793d59b2
-    new: 17005609548f1f0204cbfc988b325533470e585c
+    old: 1ac336b9be02521717fcfe35972c06277699f8d9
+    new: d5ca6769eb86fe9225d982a1b71f3d152cdf5a0a
     log: |
-         3b684d0467973c2a18c4bdc5a8bc1be4df5a5486 dt-bindings: timer: Add power-domains for TI timer-dm on K3
-         8ec747e5d585cc8efaf5ebc3caf5dd71af86eaaa dt-bindings: display: st,stm32-dsi: Handle data-lanes in DSI port node
-         17005609548f1f0204cbfc988b325533470e585c of: fdt: Remove unused struct fdt_scan_status
+         46a525e199e4037516f7e498c18f065b09df32ac io_uring: don't gate task_work run on TIF_NOTIFY_SIGNAL
+         d5ca6769eb86fe9225d982a1b71f3d152cdf5a0a Merge branch 'for-6.1/io_uring' into for-next
          
