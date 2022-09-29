@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8720380990770965476=="
+Content-Type: multipart/mixed; boundary="===============4566325221560076533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 29 Sep 2022 00:37:43 -0000
-Message-Id: <166441186332.21252.17412772668652992485@gitolite.kernel.org>
+Date: Thu, 29 Sep 2022 00:37:45 -0000
+Message-Id: <166441186509.21315.17585467365896738695@gitolite.kernel.org>
 
---===============8720380990770965476==
+--===============4566325221560076533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: aa55dfd3783f0f8131bead061fb22b0d0d75a078
     new: 8526f0d6135f77451566463ace6f0fb8b72cedaa
     log: revlist-aa55dfd3783f-8526f0d6135f.txt
 
---===============8720380990770965476==
+--===============4566325221560076533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a0a17296713aea7b3cbc94662c6ffb53a79a3f2c selftests/bpf: Convert tcp_estats test 
 1fddca3d36d1dc4a19a8060d20de1b77edfe63e0 selftests/bpf: Convert udp_limit test to ASSERT_* macros
 8526f0d6135f77451566463ace6f0fb8b72cedaa Merge branch 'bpf/selftests: convert some tests to ASSERT_* macros'
 
---===============8720380990770965476==--
+--===============4566325221560076533==--
