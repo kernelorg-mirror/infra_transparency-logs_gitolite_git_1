@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 29 Sep 2022 12:56:26 -0000
-Message-Id: <166445618646.9062.13068021888283300939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 29 Sep 2022 13:02:09 -0000
+Message-Id: <166445652996.12703.1049139044940375958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 0e9804cff18223e750f3af52a2701945bb362f55
-    new: 510bbf82f8dc36804114873d30ed1d0c8533af81
+  - ref: refs/heads/next
+    old: b84120772df33f93efeac1206be545311e04cad1
+    new: f01e5f3a849558b8ed6b310686d10738f4c2f3bf
     log: |
-         510bbf82f8dc36804114873d30ed1d0c8533af81 net: cpmac: Add __init/__exit annotations to module init/exit funcs
+         f01e5f3a849558b8ed6b310686d10738f4c2f3bf dwarf_loader: Support DW_TAG_label outside DW_TAG_lexblock
          
