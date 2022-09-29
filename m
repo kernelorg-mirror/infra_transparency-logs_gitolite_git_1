@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 29 Sep 2022 03:44:14 -0000
-Message-Id: <166442305437.27153.17764223813744409653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 29 Sep 2022 04:06:16 -0000
+Message-Id: <166442437691.11415.15404042140583988292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/ata-6.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dccef1aa9862981988badf984f20e811fd511966
+  - ref: refs/heads/lazy.2022.09.23a
+    old: 468dfaac6097bfc3ae0428189e85e7909a1685f3
+    new: cf0fad926042a48185321f412f2542dfc3352b54
+    log: |
+         cf0fad926042a48185321f412f2542dfc3352b54 rcutorture: Convert call_rcu() to call_rcu_flush()
+         
