@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5802494913286775041=="
+Content-Type: multipart/mixed; boundary="===============1829168755772146254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 29 Sep 2022 11:23:10 -0000
-Message-Id: <166445059009.9895.4008971218543961762@gitolite.kernel.org>
+Date: Thu, 29 Sep 2022 12:13:24 -0000
+Message-Id: <166445360421.12556.12765615667385887259@gitolite.kernel.org>
 
---===============5802494913286775041==
+--===============1829168755772146254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const
-    old: b915365246a15488b1d4431e25212d58a215eaad
-    new: b27e3af73308883ab0e589c2263551c28a4e6fb5
+    old: b27e3af73308883ab0e589c2263551c28a4e6fb5
+    new: 4c12c0413887fb8f76e86ff52c9ef37992c93788
     log: |
-         b27e3af73308883ab0e589c2263551c28a4e6fb5 driver core: make struct device_type.devnode() take a const *
+         4c12c0413887fb8f76e86ff52c9ef37992c93788 driver core: make struct bus_type.uevent() take a const *
          
 
---===============5802494913286775041==
+--===============1829168755772146254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664450585 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664453596 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1664450585-080fad27585db23ae85eaa72b678c3e316699f7a
+nonce 1664453595-9dda18859974145b4849f11e6a7c711e73fd8e7f
 
-b915365246a15488b1d4431e25212d58a215eaad b27e3af73308883ab0e589c2263551c28a4e6fb5 refs/heads/kobject-const
+b27e3af73308883ab0e589c2263551c28a4e6fb5 4c12c0413887fb8f76e86ff52c9ef37992c93788 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM1gBkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fNkP/jOIXE1U0iI4DY3uyAJV
-IA+5J2XkZiuRt6Y1cQ6tvzvxslEQFgopnpmPzEv5prruhS5PFUbCn3TorGS2TxYe
-q/ky2Bi0FDe/9Es6BiYmhWeps51nTfxMohR9kekPqbM5hh88bce8I6/Hwhw9TVyQ
-sBGXsKuei7FyBa5gWYZaziTSExyXhtKsd/pRZ6KuavSE1X7dQUgEblwCVMbSTgf9
-NpsRFLeXKwfRXmCGOw4xXbn79iyhpwNzDHGvvR2/NN4yZe/ZaMeE6kbs/MoiAcwI
-tjolaL6nQb+hf/7QFT5oPqzmuxAkZ79db63oriVeV7BIiSnxUlpBfMj9fU4kf5Yp
-6+yuTpXGPLl/APzilY7g0R7M+kOG9q71hujDYbqMbGbmaPAexyze2tlv7twHqFKI
-7v+UeJqgznDUN1ioszaMx3/tkeBv3HxjLm/5ayP/tK+gFaxUziGUZqFRELQjMLgX
-Do2BPpj4RLS13JZwbTmkvfonY/j6XAkiHO5RX49o7l1WCWF7ManR+330TQLJipN4
-IU6P8Lw308w0L9+2Lt2Snfa4TghhfY2EKpVFOv+os3UfPrs/dhG3ad8t+GGJlDsq
-ev7gOw6SFqp/ImilYGEkFslTj/bTQANeXo50499zpfqrlfr+9xXQuu5I8voNRtPd
-6BvnrFoe38ytzdFNy5mD+Ox1
-=TbEl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM1i9wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+838QAKv9DrUFFClvQ8HovNQ7
+KTVV8pkfcS/y0KnNDictMtUw6A8AFhKDk1oUN92MFKVI0/FOEU3ep9UnA3qGEtO2
+Os5WHGkzwvbW92aI42bp4qcSYTiDlfpOC52lZ8CdTiLSCizQCFyXWRzSK0MQPCsS
+HPYTAa/XCBHWq66ot8WCqzDPtNjVjYWsSjmiNb5qJg1aRXMo6FXYd0YLVjWDQ6ul
+qIEmLdojZMn9/8Ppncx/GQo5E6mACQ+ZbfNUG55GwD/z7YCMUtlJxLdod05Ylfgf
+3QZEHNVG2HiDy/Y8saQ/CFaDCmM2hHRMvMZruxppojyruyakfc6tzw3BWtrg2N0w
+YjgaCk1hRv81DRdgHTf0CXVfAZ/0GxBhGRFD41qrmhYSDUv0/sZe6JXsFrqYet3h
+qRTHXSicX5PTByvyE8UP5bPcoNUjoUqgtcwZgUxTWY04dDBaJd7qC2z2IPNu12r+
+Y2ZxJG/LvZZiMVvgID+SypRPIuTBPzEqyP2MWrPzV2GDbUKXbvPMRzgzbu1cF/oL
+OZmi/T+VXDm8J+zJ1Estl6M6mPO9d/AzhlB3BIIH7YL58dhsRvogYZp/kpRenrXl
+5Gnno7ZFJK6Vk8P9+q4ijzPM4lfdVLj77MD5PXVLuMYOVG6JUeB1r52ez2MGCZRB
+RjxoNWs5YrxOFEqoYVfA416P
+=9uhO
 -----END PGP SIGNATURE-----
 
---===============5802494913286775041==--
+--===============1829168755772146254==--
