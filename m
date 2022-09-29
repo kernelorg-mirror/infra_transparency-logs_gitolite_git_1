@@ -1,25 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 29 Sep 2022 16:45:24 -0000
-Message-Id: <166446992429.11704.13260071089139085479@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0759441987840364832=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Thu, 29 Sep 2022 16:53:28 -0000
+Message-Id: <166447040834.16069.14835079288570413896@gitolite.kernel.org>
+
+--===============0759441987840364832==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: f61f06bcf5d8779549802ea8479b65c876e64e85
-    new: e89c75d437ca292d3ef377de341892f571d5d87a
-    log: |
-         eab4c1ebdd657957bf7ae66ffb8849b462db78b3 clk: qcom: gdsc: add missing error handling
-         27da533af9b050e751a419c743096d06017daf0e clk: qcom: gcc-sc8280xp: use retention for USB power domains
-         a01ef02093ac45cc4991dbf93134c3cb4c293c32 clk: qcom: gcc-sm6350: Update the .pwrsts for usb gdscs
-         2ab5b5663805ec8e5dc1dbdd9cb14ffac5b06ed1 dt-bindings: clock: move qcom,gcc-msm8939 to qcom,gcc-msm8916.yaml
-         f565f9235a675e6eb5a105daa9b70ffa96aab715 clk: qcom: gcc-msm8939: use parent_hws where possible
-         994c77ed371e464ae4c1bfc316f7aff7309b2d59 clk: qcom: gcc-msm8939: use ARRAY_SIZE instead of specifying num_parents
-         e89c75d437ca292d3ef377de341892f571d5d87a Merge branches 'arm64-defconfig-for-6.1', 'arm64-for-6.1', 'clk-for-6.1', 'defconfig-for-6.1', 'drivers-for-6.1', 'dts-for-6.1' and 'arm64-fixes-for-6.0' into for-next
-         
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
+
+--===============0759441987840364832==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mickaël Salaün <mic@digikod.net> 1664470405 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
+nonce 1664470404-0c545525c63409563baed03d9bead9a9f54664f0
+
+0000000000000000000000000000000000000000 b81e85a3efdc3d610f733fffc6f821f03d8fd490 refs/tags/v6.0-rc7
+-----BEGIN PGP SIGNATURE-----
+
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYzXNhRAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSG+sBAM/ZXM+ZQdi1D4elOXQsZILEyyYTIY2lF06M
+qJclBgjiAQDd/cOtxbuJKyEtUok356CgiCuGDYnc0kDCh5dZbvrHCQ==
+=l48d
+-----END PGP SIGNATURE-----
+
+--===============0759441987840364832==--
