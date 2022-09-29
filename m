@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 29 Sep 2022 18:07:38 -0000
-Message-Id: <166447485826.5885.8553148556356242238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 29 Sep 2022 18:09:56 -0000
+Message-Id: <166447499629.6799.16895817309361971874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 02010cf0093629b9eeadade1f2684d85eaa3390f
-    new: 72a95859728a7866522e6633818bebc1c2519b17
+  - ref: refs/heads/master
+    old: 268a1007a11e397fd508b8525d30894b5a2ec9da
+    new: 1968b4207ae6272dcc7d39b899b0328de9ab352a
     log: |
-         72a95859728a7866522e6633818bebc1c2519b17 mfd: syscon: Remove repetition of the regmap_get_val_endian()
+         1968b4207ae6272dcc7d39b899b0328de9ab352a Thu Sep 29 06:08:52 PM UTC 2022
          
