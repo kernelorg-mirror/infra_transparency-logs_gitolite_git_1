@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8508060918860090889=="
+Content-Type: multipart/mixed; boundary="===============2950293343803008772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 29 Sep 2022 09:00:01 -0000
-Message-Id: <166444200166.23538.13759010060038368145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 29 Sep 2022 09:13:39 -0000
+Message-Id: <166444281992.718.5351082804940583368@gitolite.kernel.org>
 
---===============8508060918860090889==
+--===============2950293343803008772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kobject-const
-    old: 58626cfaf471a3c20f2b07ad8132742d9b112927
-    new: f3ce9d6f74313cee192dac6c6273a7cc727d30e3
+  - ref: refs/heads/for-6.1/kmalloc_size_roundup
+    old: 59cd9fd9d6cc06c9403f0d304050427ba2ece3bc
+    new: 05a940656e1eb2026d9ee31019d5b47e9545124d
     log: |
-         f3ce9d6f74313cee192dac6c6273a7cc727d30e3 driver core: make struct class.dev_uevent() take a const *
+         9ed9cac1850a2a55674b4a17100c50b46f645921 slab: Remove __malloc attribute from realloc functions
+         05a940656e1eb2026d9ee31019d5b47e9545124d slab: Introduce kmalloc_size_roundup()
          
 
---===============8508060918860090889==
+--===============2950293343803008772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664441997 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1664441997-43da1f876ff6073ab2bdcdfc5be93949bb72bb31
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1664442818 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1664442817-67fc220df8f361d206fa0f93a9ec7ff05c7c3c70
 
-58626cfaf471a3c20f2b07ad8132742d9b112927 f3ce9d6f74313cee192dac6c6273a7cc727d30e3 refs/heads/kobject-const
+59cd9fd9d6cc06c9403f0d304050427ba2ece3bc 05a940656e1eb2026d9ee31019d5b47e9545124d refs/heads/for-6.1/kmalloc_size_roundup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM1Xo0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CqoP/Ajncu8iKysg+lf3iDBf
-++4zmaUkCgvRuGvDMCWkgwPK4owMgQvQnsYKzp/0wp2ZY2ZrztK6GfnONqv0vAGj
-Ggtcbm37Cbn4OEGXNTD0Y5xEdFqxXC9c3g1GLtKfipSM1M+9RAzajHMKx0058pfO
-aYogVootwql5C41byBmcddqdSscrWD+32vjLU2p+hMgAiftv0ruNkbv+cqg4xVoM
-g8ItE2CLgG2cjxTm87MDmF1W59Bl+WWyjsDaOZVBcchag7OFRRayBWX7kIO0Pkls
-npSRYx1Wat2j2R8foCUO1IhZkrmAnItAV91RuEZQ3p4Y5J7muYUld0tgxSed06ee
-wMtjVmoI/KHFsNKB8qrlHwsn01UNzCQyXrdeTjTK8YlB2aQbpNfhfmlJJIVrnrzV
-Fvmkfx6NTQ2klkuMBqsNmMTpovTtHKei0aNR19fB1KBW31LnVu+mcKhZ49pKwpjA
-Eul+WSLYhutHTRbptJD5ixg442AKHuGzeieu6Xpgc4aG2p5W1zB7mMOX1opuYF31
-2+NTq4Ql6kYB2fvD/3O+ZgjWCTrBnzq0KDiPD8+RHkbjTeWGq3Uk9fRvax2DECnh
-EuJ4R/mB8JocL2/Ye/awMxLzgvkJY0K5cG/zQkNBCQRTIlyDHMEXXiTL08qkJhTA
-FapwdEIpip+DhJYeYzbhAHDz
-=ZHQe
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmM1YcIACgkQ4CHKc/GJ
+qRBDOgf7BGFDdcPto89Sz0oMSzLLhpL9kuC6vkriSjILJNq40+wBE5lvxTmwzBXh
+McLmLJyZHzwJd2sxSoaP97E3Mte1Ua9mDiJtiG30Y6L4V9xYtru122lqZV5Wc71d
+iqwNSiCHAOPZJXeOwkcuxHv3wzw6iFLvccbRrdV9FQKx/78tj1W1Mboow+bNyZX5
+8sY2INqOSo7Q8BsqkbE5+rLRvgKHn3JOySW3q0mN/HfCsRpvQM0z6lXX8CkI2ZyX
+guMuqBECJFEss94aK8UnQLLMCAzJxCjTkrIE8EGziVgThaCi8k/rWw5kNGC/JK/1
+zJbNzBEZwfajhZtQh1sT5hktEqAtcQ==
+=8R4P
 -----END PGP SIGNATURE-----
 
---===============8508060918860090889==--
+--===============2950293343803008772==--
