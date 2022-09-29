@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 29 Sep 2022 01:35:25 -0000
-Message-Id: <166441532545.3190.4461252923896501949@gitolite.kernel.org>
+Date: Thu, 29 Sep 2022 01:38:36 -0000
+Message-Id: <166441551662.4374.2905641785473184816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-fixes
-    old: 4014e916fd0cea19b559890588d70b4e9f44b87f
-    new: 1b24a132eba7a1c19475ba2510ec1c00af3ff914
+  - ref: refs/heads/clk-cleanup
+    old: 13b0452ddaa3f7d840ee16fc92aa433392a56685
+    new: fe9d25b46bc744d73491fb68f1c322910dc70437
     log: |
-         1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
+         fe9d25b46bc744d73491fb68f1c322910dc70437 clk: pistachio: Fix initconst confusion
+         
+  - ref: refs/heads/clk-fixes
+    old: 1b24a132eba7a1c19475ba2510ec1c00af3ff914
+    new: daaa2fbe678efdaced53d1c635f4d326751addf8
+    log: |
+         daaa2fbe678efdaced53d1c635f4d326751addf8 clk: imx93: drop of_match_ptr
          
   - ref: refs/heads/clk-next
-    old: 3db46ec71a219dc24c789a6d43f20207fb22f032
-    new: 58a9a15f1f2e55a677cd972d34fc712a9ada8ce4
+    old: 58a9a15f1f2e55a677cd972d34fc712a9ada8ce4
+    new: 133091ed107079ff26fdf505f355c6c38509458d
     log: |
-         1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
-         58a9a15f1f2e55a677cd972d34fc712a9ada8ce4 Merge branch 'clk-fixes' into clk-next
+         fe9d25b46bc744d73491fb68f1c322910dc70437 clk: pistachio: Fix initconst confusion
+         aec1bcb5890a5d57199e7aad96a870575a15bb00 Merge branch 'clk-cleanup' into clk-next
+         daaa2fbe678efdaced53d1c635f4d326751addf8 clk: imx93: drop of_match_ptr
+         133091ed107079ff26fdf505f355c6c38509458d Merge branch 'clk-fixes' into clk-next
          
