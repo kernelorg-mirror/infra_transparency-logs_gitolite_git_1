@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 29 Sep 2022 08:49:46 -0000
-Message-Id: <166444138687.15426.15503550101417525730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 29 Sep 2022 08:55:52 -0000
+Message-Id: <166444175245.21951.9208951697374437126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 01c617d73f840c097d1db4c367c6b4044edfc827
-    new: d49e265b66d9cf1537e93c44e189110f87cb656d
+  - ref: refs/heads/x86/urgent
+    old: efd608fa7403ba106412b437f873929e2c862e28
+    new: df5b035b5683d6a25f077af889fb88e09827f8bc
     log: |
-         d49e265b66d9cf1537e93c44e189110f87cb656d nfp: Use skb_put_data() instead of skb_put/memcpy pair
+         df5b035b5683d6a25f077af889fb88e09827f8bc x86/cacheinfo: Add a cpu_llc_shared_mask() UP variant
          
