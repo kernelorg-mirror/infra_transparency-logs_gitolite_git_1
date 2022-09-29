@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 29 Sep 2022 21:48:06 -0000
-Message-Id: <166448808651.30106.1343940986428848119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 29 Sep 2022 22:04:17 -0000
+Message-Id: <166448905704.9288.2682640994565240884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 511cce163b75bc3933fa3de769a82bb7e8663f2b
-    new: 987a926c1d8a40e4256953b04771fbdb63bc7938
+    old: 1968b4207ae6272dcc7d39b899b0328de9ab352a
+    new: 748d81718ff85d7ab453db58fc6dec4d27db152a
     log: |
-         06bbaa6dc53cb72040db952053432541acb9adc7 [coredump] don't use __kernel_write() on kmap_local_page()
-         987a926c1d8a40e4256953b04771fbdb63bc7938 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+         748d81718ff85d7ab453db58fc6dec4d27db152a Thu Sep 29 10:03:32 PM UTC 2022
          
