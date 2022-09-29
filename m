@@ -1,31 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 29 Sep 2022 01:33:39 -0000
-Message-Id: <166441521998.904.1703965009495607862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 29 Sep 2022 01:35:25 -0000
+Message-Id: <166441532545.3190.4461252923896501949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: c85c36798bc2ed12af04b6cc274aed5b02984647
-    new: fff1011a26d6cbf26b18c8ee4c61d99943174f8c
+  - ref: refs/heads/clk-fixes
+    old: 4014e916fd0cea19b559890588d70b4e9f44b87f
+    new: 1b24a132eba7a1c19475ba2510ec1c00af3ff914
     log: |
-         d218fe04335183518009f29f3270ec4dde1b66a2 Input: xpad - add X-Box Adaptive support
-         f45aaae6204d1c7b0200ce043102ec84d805ac34 Input: xpad - add X-Box Adaptive XBox button
-         1260cd04a601e0e02e09fa332111b8639611970d Input: add ABS_PROFILE to uapi and documentation
-         fff1011a26d6cbf26b18c8ee4c61d99943174f8c Input: xpad - add X-Box Adaptive Profile button
+         1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
          
-  - ref: refs/heads/next
-    old: c85c36798bc2ed12af04b6cc274aed5b02984647
-    new: fff1011a26d6cbf26b18c8ee4c61d99943174f8c
+  - ref: refs/heads/clk-next
+    old: 3db46ec71a219dc24c789a6d43f20207fb22f032
+    new: 58a9a15f1f2e55a677cd972d34fc712a9ada8ce4
     log: |
-         d218fe04335183518009f29f3270ec4dde1b66a2 Input: xpad - add X-Box Adaptive support
-         f45aaae6204d1c7b0200ce043102ec84d805ac34 Input: xpad - add X-Box Adaptive XBox button
-         1260cd04a601e0e02e09fa332111b8639611970d Input: add ABS_PROFILE to uapi and documentation
-         fff1011a26d6cbf26b18c8ee4c61d99943174f8c Input: xpad - add X-Box Adaptive Profile button
+         1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
+         58a9a15f1f2e55a677cd972d34fc712a9ada8ce4 Merge branch 'clk-fixes' into clk-next
          
