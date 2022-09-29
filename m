@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 29 Sep 2022 14:16:44 -0000
-Message-Id: <166446100433.784.17256350935963154167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 29 Sep 2022 14:20:22 -0000
+Message-Id: <166446122234.3716.18008678042459963285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 77d4861a9f33ce38b72a8c02c7ee3a84fc14dd62
-    new: 6be3213150b32ee2bfbe093bcae87797da9aa531
-    log: |
-         6be3213150b32ee2bfbe093bcae87797da9aa531 foo
-         
+  - ref: refs/heads/20220929_jneanne_add_input_supply_support_in_gpio_regulator_config
+    old: 0000000000000000000000000000000000000000
+    new: 392cc0a4a0c4b25534f3148b192f18be468f67bd
+  - ref: refs/heads/fileIGeWK2
+    old: 0000000000000000000000000000000000000000
+    new: e18f6bcf8e864ea0e9690691d0d749c662b6a2c7
