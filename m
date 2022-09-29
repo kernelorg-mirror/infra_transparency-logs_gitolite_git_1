@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 29 Sep 2022 15:52:34 -0000
-Message-Id: <166446675465.4486.1560750538255135013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 29 Sep 2022 15:56:49 -0000
+Message-Id: <166446700930.8843.9318790163511914056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/arm_pmu/acpi/rework
-    old: eb8d3c61448b4be5d076328b6260f7707e518df8
-    new: 803d7ed96c0dbdfb1d463e8053a85b3c38af2869
+  - ref: refs/heads/master
+    old: bf8f5415a1dd3296d3741008936458aeaf8769fc
+    new: bc28d289e5066fc626df260bafc249846a0f6ae6
     log: |
-         803d7ed96c0dbdfb1d463e8053a85b3c38af2869 arm_pmu: rework ACPI probing
+         bc28d289e5066fc626df260bafc249846a0f6ae6 build-src.mk: Fix CPPFLAGS
          
