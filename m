@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3542017905413515144=="
+Content-Type: multipart/mixed; boundary="===============7336972706351876667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 30 Sep 2022 17:20:49 -0000
-Message-Id: <166455844934.2826.5995856665477535677@gitolite.kernel.org>
+Date: Fri, 30 Sep 2022 17:22:13 -0000
+Message-Id: <166455853335.3398.15028946393692302825@gitolite.kernel.org>
 
---===============3542017905413515144==
+--===============7336972706351876667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 530ef66959e29c1f495a54f16987dcec7ad9d756
-    new: c63f6516d92009e2307d55956804a1696e03d554
-    log: revlist-530ef66959e2-c63f6516d920.txt
+  - ref: refs/heads/net-mlx4
+    old: 3b04cba7add093d0d8267cf70a333ca8fe8233ca
+    new: 0bafedc536499a533dd7a94c9c980d53f3ca2afc
+    log: revlist-3b04cba7add0-0bafedc53649.txt
 
---===============3542017905413515144==
+--===============7336972706351876667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-530ef66959e2-c63f6516d920.txt
+Content-Disposition: attachment; filename=revlist-3b04cba7add0-0bafedc53649.txt
 
 2eb502f496f7764027b7958d4e74356fed918059 ARM: dts: am33xx: Fix MMCHS0 dma properties
 149d17140bcedc906082c4f874dec98b1ffc5a90 pmem: fix a name collision
@@ -309,6 +309,5 @@ da9eede6b2423381d592b832a7c5ba0082f2e905 Merge tag 'input-for-v6.0-rc7' of git:/
 022152aaebe116a25c39818a07e175a8cd3c1e11 sctp: handle the error returned from sctp_auth_asoc_init_active_key
 f4ce91ce12a7c6ead19b128ffa8cff6e3ded2a14 tcp: fix tcp_cwnd_validate() to not forget is_cwnd_limited
 0bafedc536499a533dd7a94c9c980d53f3ca2afc Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-c63f6516d92009e2307d55956804a1696e03d554 net/mlx5e: Do not increment ESN when updating IPsec ESN state
 
---===============3542017905413515144==--
+--===============7336972706351876667==--
