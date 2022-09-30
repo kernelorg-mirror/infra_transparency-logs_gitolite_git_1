@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4179735668574423527=="
+Content-Type: multipart/mixed; boundary="===============7948080376542839590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 30 Sep 2022 11:25:51 -0000
-Message-Id: <166453715153.6910.500892575527897241@gitolite.kernel.org>
+Date: Fri, 30 Sep 2022 11:26:22 -0000
+Message-Id: <166453718238.7170.6188268886529640604@gitolite.kernel.org>
 
---===============4179735668574423527==
+--===============7948080376542839590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,50 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: c59fb127583869350256656b7ed848c398bef879
+  - ref: refs/heads/queue
+    old: 448ccb29e1da878beb757e48f8978362d779b259
     new: e779ce9d17c44a338b4fa3be8715e3b7eb9706f0
-    log: revlist-c59fb1275838-e779ce9d17c4.txt
+    log: revlist-448ccb29e1da-e779ce9d17c4.txt
 
---===============4179735668574423527==
+--===============7948080376542839590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1664537148 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1664537180 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1664537143-b2ce5d33d220d8461ba64ad48a03b87e2b696356
+nonce 1664537176-9447f6875eef318664afc487410ea9007a22d6ce
 
-c59fb127583869350256656b7ed848c398bef879 e779ce9d17c44a338b4fa3be8715e3b7eb9706f0 refs/heads/next
+448ccb29e1da878beb757e48f8978362d779b259 e779ce9d17c44a338b4fa3be8715e3b7eb9706f0 refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmM20jwUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroM+7Qf/Rn3NcKh3It0W6zeKC3TSjWdkH3AR
-YZZp06/4ZrHYvKWOOxtGBw+q0D/HQG6vb4cmqDB7l6a7Tec3dEWHmFOpM1nuTdQi
-ShJAKQB9/OTHD+SyvSimTggA2jMQX7/IuOM5g2Rr0T+cKlrilIq5C63LVnb1t3jB
-NwI1WjbVgZiAtno0qAL0qqh5vzXS/PwsXgd0EFeqEQFcL3NfsE3JmOPQNfBQA6YK
-shBtW+alHSB3OCSEYdT0FWy7UIbPhcDX4WzhaOl+cZGYhoaISD6buhaXvhCj8cMH
-lDfF0dcHVtmrWgvCjmgdOswqRD+IO2yfGVVphgaf3q8q8nrM5+I5EK+BHA==
-=MWAd
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmM20lwUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPrLQf+ObuXYY4GgMyNb23mOkVvrvJHlra/
+vcaiqN6bnYaYo5xPQS0fZR5HUGoX3bJhf12aqTimzhMkcJR0KCtCXG1EwnHVctOh
+h3wZVRDyvPlCwpWoFFyeF7EfPDdRCqAiTg9Ez7Wa+TmcU0Uq8M0DsAUwws3PJeqs
+9a+D5YlXDDctmJwuuO226qBhzff4Zg9dYHZy8FYwHFrXt62yeZqV4nz/HZfGpo9/
+PKybSVNgj30sucIzCPDHw/0acZQ1l1C+TYAJPGwswrlZc9aVU3h9oSdBRe03Ea39
+ku9DOB59boL8986P907EK5tnjBYfniVHwsH2DWl9pK4Jm11DyAakVWXRMA==
+=PLF3
 -----END PGP SIGNATURE-----
 
---===============4179735668574423527==
+--===============7948080376542839590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c59fb1275838-e779ce9d17c4.txt
+Content-Disposition: attachment; filename=revlist-448ccb29e1da-e779ce9d17c4.txt
 
+cfbd76d5c9c449739bb74288d982bccf9ff822f4 iio: adc: mcp3911: correct "microchip,device-addr" property
+9e2238e3ae40d371a1130226e0e740aa1601efa6 iio: adc: mcp3911: use correct formula for AD conversion
+767470209cedbe2cc72ba38d77c9f096d2c7694c dt-bindings: iio: gyroscope: bosch,bmg160: correct number of pins
+22b4277641c6823ec03d5b1cd82628e5e53e75b7 iio: ad7292: Prevent regulator double disable
+0096fc879358ad6b82ee7e790c07b118c515c980 iio: light: cm32181: make cm32181_pm_ops static
+e3f259d33c0ebae1b6e4922c7cdb50e864c81928 Merge tag 'i2c-for-6.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+d8a64313c171464aedd6289378a51c8f0f524acb tracing: React to error return from traceprobe_parse_event_name()
+7249921d94ff64f67b733eca0b68853a62032b3d tracing/perf: Fix double put of trace event when init fails
+c3b0f72e805f0801f05fa2aa52011c4bfc694c44 ftrace: Fix NULL pointer dereference in is_ftrace_trampoline when ftrace is dead
 2673c60ee67e71f2ebe34386e62d348f71edee47 tracing/eprobes: Do not allow eprobes to use $stack, or % for regs
 02333de90e5945e2fe7fc75b15b4eb9aee187f0a tracing/eprobes: Do not hardcode $comm as a string
 f04dec93466a0481763f3b56cdadf8076e28bfbf tracing/eprobes: Fix reading of string fields
@@ -1050,15 +1059,6 @@ a1020a25e69755a8a1a37735d674b91d6f02939f KVM: x86: Always enable legacy FP/SSE i
 50b2d49bafa16e6311ab2da82f5aafc5f9ada99b KVM: x86: Inject #UD on emulated XSETBV if XSAVES isn't enabled
 69604fe76e58c9d195e48b41d019b07fc27ce9d7 Merge tag 'kvm-s390-master-6.0-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 0f816e024f2fb5a52ebd42daf07233a5b45c25dd KVM: selftests: Skip tests that require EPT when it is not available
-bf3f11581893494a5fb01eb87b99627edc2a85ff KVM: selftests: Check result in hyperv_features for successful hypercalls
-dfb45db43e9f6283a79230c8ea9cb589f14791b0 KVM: selftests: Load RAX with -EFAULT before Hyper-V hypercall
-31d3b871f5ee9b195d90b4d14b74a7864209c6e8 KVM: selftests: Don't set reserved bits for invalid Hyper-V hypercall number
-c23981df6642eec1da94a8125ec0ec402f7b1b7b KVM: x86/pmu: Avoid setting BIT_ULL(-1) to pmu->host_cross_mapped_mask
-f331601c65ad217a5c000ce20c26266d3f0aceb3 KVM: x86/pmu: Don't generate PEBS records for emulated instructions
-c0245b774203f7341ddb1cce29a6ee607857f325 KVM: x86/pmu: Refactor PERF_GLOBAL_CTRL update helper for reuse by PEBS
-cf52de619c67bd1f6b1cf2751c3827815f74a5a5 KVM: x86/pmu: Avoid using PEBS perf_events for normal counters
-5c6a67f4f265f84e1b8582f82562dda2a53f52d1 KVM: x86/svm/pmu: Direct access pmu->gp_counter[] to implement amd_*_to_pmc()
-ea5cbc9ff839091a86558d4e2c082225b13e0055 KVM: x86/svm/pmu: Rewrite get_gp_pmc_amd() for more counters scalability
 6336a810db5c7e8e48b55b12fbb5e9cbd36a3d19 KVM: selftests: replace assertion with warning in access_tracking_perf_test
 09636efd1bd164ac782ff0d3a714db2c53964776 KVM: selftests: Gracefully handle empty stack traces
 aae2e72229cdb21f90df2dbe4244c977e5d3265b KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
@@ -1076,4 +1076,4 @@ c99ad25b0d2bdb703a23217cfb0cf4bab364e9c7 Merge tag 'kvm-x86-6.1-2' of https://gi
 f96c48e9ddf40f6abf0a67aa94642701294daf79 kvm: mmu: fix typos in struct kvm_arch
 e779ce9d17c44a338b4fa3be8715e3b7eb9706f0 kvm: vmx: keep constant definition format consistent
 
---===============4179735668574423527==--
+--===============7948080376542839590==--
