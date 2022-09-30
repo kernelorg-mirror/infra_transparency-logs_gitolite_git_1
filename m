@@ -1,45 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2283004208741068931=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 30 Sep 2022 06:11:55 -0000
-Message-Id: <166451831565.30304.4654617897638535443@gitolite.kernel.org>
-
---===============2283004208741068931==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 30 Sep 2022 06:36:00 -0000
+Message-Id: <166451976020.15194.4350606828531924952@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
   - ref: refs/heads/master
-    old: f5b657e5dbf830cfcb19b588b784b8190a5164a0
-    new: b411b1a0c8bddd470fc8c3457629ac25a168cba0
-    log: revlist-f5b657e5dbf8-b411b1a0c8bd.txt
-
---===============2283004208741068931==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5b657e5dbf8-b411b1a0c8bd.txt
-
-f78f6f0bf34fd85c17ebcb31d645536112aa25d3 crypto: aspeed - fix build error when only CRYPTO_DEV_ASPEED is enabled
-caca37cf6c749ff0303f68418cfe7b757a4e0697 crypto: marvell/octeontx - prevent integer overflows
-2526d6bf27d15054bb0778b2f7bc6625fd934905 crypto: cavium - prevent integer overflow loading firmware
-4a209078656c3ada49c81d69c4b556be2dda1310 crypto: virtio - fix memory-leak
-70513e1d65599f39aba4fa6594546f7c81fa59f4 crypto: aspeed - Fix check for platform_get_irq() errors
-6a40fb0d9db15f95b9ea884fbaedf8f82c51399f crypto: ccp - Remove the unneeded result variable
-0cb3c9cdf7fcc2ef75a6008223d2e3ee58ea00e1 crypto: octeontx2 - Remove the unneeded result variable
-72f6e0ea2b0ecea8585f3cd4298286c85c5121e6 crypto: qat - add limit to linked list parsing
-4edff849f7a0abca962374512907b3e2151091f4 crypto: zip - remove the unneeded result variable
-b006c439d58db625318bf2207feabf847510a8a6 hwrng: core - start hwrng kthread also for untrusted sources
-edfc7e76d2252eebb98328b23e09336d47810569 crypto: marvell/octeontx - use sysfs_emit() to instead of scnprintf()
-5e9578b29aff681ec30a3866c049305e26629a41 crypto: bcm - Simplify obtain the name for cipher
-d126edd77148e0eacf27039a14b32d1c5ac51c6e crypto: aead - Remove unused inline functions from aead
-d438d94d6483c379935d94a7dcc2d1bf9cdf0803 crypto: scatterwalk - Remove unused inline function scatterwalk_aligned()
-b411b1a0c8bddd470fc8c3457629ac25a168cba0 crypto: aspeed - Remove redundant dev_err call
-
---===============2283004208741068931==--
+    old: 7ff709d4aee629ed67811e2dbe64ecd54cf5d86b
+    new: 023baf1318ef21442fab3842bf03883bc81223e0
+    log: |
+         9ec6e20776abda3ca03ab97b1caa8310074427c1 carl9170: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
+         45d2e268369b0c768d5a644f319758bcfd370521 wifi: ath11k: Don't exit on wakeup failure
+         f74878433d5ade360447da5d92e9c2e535780d80 wifi: ath11k: fix warning in dma_free_coherent() of memory chunks while recovery
+         f468861a80721f250ec737361076cee12506cea3 Merge branch 'ath-next'
+         bbb91b68a95e61d7afdde657dd3b21c96ea7813c Merge remote-tracking branch 'mhi/mhi-next'
+         023baf1318ef21442fab3842bf03883bc81223e0 Add localversion-wireless-testing-ath
+         
+  - ref: refs/tags/ath-202209300634
+    old: 0000000000000000000000000000000000000000
+    new: 023baf1318ef21442fab3842bf03883bc81223e0
