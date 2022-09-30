@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 30 Sep 2022 18:21:37 -0000
-Message-Id: <166456209763.14772.14291117510346284540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 30 Sep 2022 18:26:14 -0000
+Message-Id: <166456237497.19317.10340071121939896455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/next-integrity
-    old: 5926586f291b53cb8a0c9631fc19489be1186e2d
-    new: bab715bdaa9ebf28d99a6d1efb2704a30125e96d
+  - ref: refs/heads/todo
+    old: 50476ce4b3caf97e1f3aa05cc03db1c66497ed74
+    new: 4f26b6fe473cb72672036a93a4bea6f25f73929f
     log: |
-         bab715bdaa9ebf28d99a6d1efb2704a30125e96d efi: Correct Macmini DMI match in uefi cert quirk
+         4f26b6fe473cb72672036a93a4bea6f25f73929f What's cooking (2022/09 #09)
          
