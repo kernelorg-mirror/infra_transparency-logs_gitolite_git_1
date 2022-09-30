@@ -1,51 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============8756337448815090468=="
+Content-Type: multipart/mixed; boundary="===============6808385598772023520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 30 Sep 2022 23:28:26 -0000
-Message-Id: <166458050626.8602.2453462972453216798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 30 Sep 2022 23:48:38 -0000
+Message-Id: <166458171858.21762.16259315294881595546@gitolite.kernel.org>
 
---===============8756337448815090468==
+--===============6808385598772023520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: c816f2e9813d218b36343c67b443c77c539ea294
-    new: ffb4d94b4314655cea60ab7962756e6bab72fc7e
-    log: revlist-c816f2e9813d-ffb4d94b4314.txt
+  - ref: refs/heads/dev
+    old: 55df35755efa2e44d901d107ccc3b0aa0aa85008
+    new: 94119b8bb10199044ed75d455dd08efd14ea620f
+    log: revlist-55df35755efa-94119b8bb101.txt
 
---===============8756337448815090468==
+--===============6808385598772023520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c816f2e9813d-ffb4d94b4314.txt
+Content-Disposition: attachment; filename=revlist-55df35755efa-94119b8bb101.txt
 
-6726d552a6912e88cf63fe2bda87b2efa0efc7d0 clk: ingenic-tcu: Properly enable registers before accessing timers
-5da39ac5d648cdbfdfa8bea0e0cde279ded5c7c2 clk: microchip: mpfs: fix clk_cfg array bounds violation
-05d27090b6dc88bce71a608d1271536e582b73d1 clk: microchip: mpfs: make the rtc's ahb clock critical
-3d87f6c3be0df4a0f6d0ca719550a7bc77e520bf Merge tag 'clk-microchip-fixes-6.0' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-fixes
-b1ff1bfe81e763420afd5f3f25f0b3cbfd97055c clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
-4014e916fd0cea19b559890588d70b4e9f44b87f clk: sunxi-ng: h6: Fix default PLL GPU rate
-1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
-daaa2fbe678efdaced53d1c635f4d326751addf8 clk: imx93: drop of_match_ptr
-a3aded135e84a581ba567c30ecddff47c8b6cfcf drm/amdgpu: Enable VCN DPG for GC11_0_1
-541540b9045c2665d6736a77c776ac81d4225eec drm/amdgpu: Enable sram on vcn_4_0_2
-af81a9201e0112e9c4ca7258e32cd28baf19f31a drm/amdgpu: save rlcv/rlcp ucode version in amdgpu_gfx
-2f3f958602721c7915ddb1f2a0e8dc5031bc0151 drm/amdgpu: add helper to init rlc fw in header v2_0
-90df15124526176ff03c246362c196a047c8a39a drm/amdgpu: add helper to init rlc fw in header v2_1
-bcecb6524881c54ded92f14a6cf2406d5c439637 drm/amdgpu: add helper to init rlc fw in header v2_2
-c1c3f41ffb1bd262e40d68938af68c6ab53a41f8 drm/amdgpu: add helper to init rlc fw in header v2_3
-b33139ee15352043123b81b32ca1a6a84340eb5d drm/amdgpu: add helper to init rlc fw in header v2_4
-04fa38cce6e02be4362cd889780d58ec275c4d26 drm/amdgpu: add helper to init rlc firmware
-0fd85e89b5bf18447e56099a010ee5be5dc9f2b0 drm/amdgpu/gfx11: switch to amdgpu_gfx_rlc_init_microcode
-414208e48963fdb136240d7f59c15e627832d288 Merge tag 'amd-drm-fixes-6.0-2022-09-30-1' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-e5fa173f9a472dec2f8d5fb63d5c8824c49c6e51 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-ffb4d94b4314655cea60ab7962756e6bab72fc7e Merge tag 'drm-fixes-2022-10-01' of git://anongit.freedesktop.org/drm/drm
+24511d0b754db760d4e1a08fc48a180f6a5a948b srcu: Convert ->srcu_lock_count and ->srcu_unlock_count to atomic
+b5daaf1269acc714e310dd33e622412e4f178946 srcu: Create an srcu_read_lock_nmisafe() and srcu_read_unlock_nmisafe()
+6956f0809c3586efa7499f59b408f2ce76d03899 srcu: Check for consistent per-CPU per-srcu_struct NMI safety
+a000f61f681f8770bb0b5d9ac68ab6dc49aabee8 srcu: Check for consistent global per-srcu_struct NMI safety
+9194518c6d80c1a0221cf7716f3b25b3c6af2fa2 arch/x86: Add ARCH_HAS_NMI_SAFE_THIS_CPU_OPS Kconfig option
+94b562fd505c28f5fedcfc6459f57925659295c0 arch/arm64: Add ARCH_HAS_NMI_SAFE_THIS_CPU_OPS Kconfig option
+e5d562d3ac49e7e67844ebd3e4fbb7dada568b21 arch/loongarch: Add ARCH_HAS_NMI_SAFE_THIS_CPU_OPS Kconfig option
+90fa0944665d6fb980c2b8bde8fd45d3b5b1e1af arch/s390: Add ARCH_HAS_NMI_SAFE_THIS_CPU_OPS Kconfig option
+6c6324b42801994b8327717bdaff7905ef3b233a Merge branch 'srcunmisafe.2022.09.30a' into HEAD
+802dc87569c5d017ba411b7a03c32dc4eb2d108a Merge branch 'lkmm-dev.2022.08.31b' into HEAD
+2ef471c4778d85f6c940e08f2f18147dca2cf577 memory-model: Prohibit nested SRCU read-side critical sections
+3e9a0445705d0453c328054bf47b738386838251 rcutorture: Verify NUM_ACTIVE_RCU_POLL_FULL_OLDSTATE
+1f3282a9707e8c14b99fb8af630a4511cb7e34ab rcutorture: Verify NUM_ACTIVE_RCU_POLL_OLDSTATE
+18cb3258936be46dcf7bcb492eddc568e77d71ed rcutorture: Add --bootargs parameter to kvm-again.sh
+4f9cd7d41768d0ce2f874e217f122d5a8428762b torture: Use mktemp instead of guessing at unique names
+0a442b81ab2e0f078baf5621cd491710d137d4a8 rcutorture: Make kvm-test-1-run-qemu.sh check for alternative output
+627bf8762abb99ae3d96cc583f007f3e1cd0c1c4 rcutorture: Make kvm-recheck.sh export TORTURE_SUITE
+e46632c8c73c489d80a0ee514ec54e384b14bead rcutorture: Add --datestamp parameter to kvm-again.sh
+5601742a71d578b9c74032c4942998e761b055bf rcutorture: Avoid redundant builds for rcuscale and refscale in torture.sh
+124d85b8dc991f42d61cc168ceb21cfc969c3559 rcutorture: Avoid torture.sh compressing identical files
+c32701ea102eab14cf066a159fc749ffe1ff8238 rcu: Remove duplicate RCU exp QS report from rcu_report_dead()
+307b0e7e19392ed6a08c5b81c7fdb8f630969900 tools/memory-model: Weaken ctrl dependency definition in explanation.txt
+6f3bf8b2b96e0faa7c5d4385d9b211a3301b5588 torture: Make torture.sh create a properly formated log file
+262f2a672ce912d5dfe3b76bad3d8cf57afb0b70 rcu: Synchronize ->qsmaskinitnext in rcu_boost_kthread_setaffinity()
+bc3fa11264558d39200bbaa5b192377e2831d3c5 doc: Remove arrayRCU.rst
+4baae8445439ada9aeb6499a3fbe62d40198fcf7 doc: Update checklist.txt
+64e96e5b747e01d0e5322a0076e77be9c0cdcb78 doc: Update listRCU.rst
+758622e95437b70b333509308f5d011b1c07bfb2 kcsan: Instrument memcpy/memset/memmove with newer Clang
+c211f2d3a47dc3ee627262ba52f0807b71219c55 objtool, kcsan: Add volatile read/write instrumentation to whitelist
+0abfd626841b3f207cd5d9d33f9e26d4e77d4860 rcu: Simplify rcu_init_nohz() cpumask handling
+6a8ce86e159383a883ead805336421f6724420b2 rcu: Remove unused 'cpu' in rcu_virt_note_context_switch()
+1cf39ab1216cf3265a0c1253806caddbccfaaae1 rcu: Use READ_ONCE() for lockless read of rnp->qsmask
+10ef02403b020e8aa386784780d0c7cfd33bc6e2 rcu: Fix late wakeup when flush of bypass cblist happens (v6)
+fc30376bf9c909d551efa3a1768761fa1a91eb07 rcu: Let non-offloaded idle CPUs with callbacks defer tick
+2102ca5a2b6c3a644dd6bd0e2f4a5d9b4e53ebff slab: Explain why SLAB_DESTROY_BY_RCU reference before locking
+fe084967f94183462886d34bfef59eccbf9dbd2b rcu: Remove rcu_is_idle_cpu()
+94119b8bb10199044ed75d455dd08efd14ea620f rcu-tasks: Make grace-period-age message human-readable
 
---===============8756337448815090468==--
+--===============6808385598772023520==--
