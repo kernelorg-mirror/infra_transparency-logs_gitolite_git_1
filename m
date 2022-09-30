@@ -1,39 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 30 Sep 2022 06:40:58 -0000
-Message-Id: <166452005869.18548.17565523937668161195@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6072498746998733103=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Fri, 30 Sep 2022 07:32:36 -0000
+Message-Id: <166452315647.22057.9535303014697664782@gitolite.kernel.org>
+
+--===============6072498746998733103==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master-pending
-    old: c8b492e9e756017f51ca74359ba87f97e4ae8d0a
-    new: 06a155b6b6331314c2dc5ba010960c4b9677f6db
-    log: |
-         9ec6e20776abda3ca03ab97b1caa8310074427c1 carl9170: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
-         45d2e268369b0c768d5a644f319758bcfd370521 wifi: ath11k: Don't exit on wakeup failure
-         f74878433d5ade360447da5d92e9c2e535780d80 wifi: ath11k: fix warning in dma_free_coherent() of memory chunks while recovery
-         f468861a80721f250ec737361076cee12506cea3 Merge branch 'ath-next'
-         bbb91b68a95e61d7afdde657dd3b21c96ea7813c Merge remote-tracking branch 'mhi/mhi-next'
-         023baf1318ef21442fab3842bf03883bc81223e0 Add localversion-wireless-testing-ath
-         e0001fee21917fe6374a6034e57a86859002abda wifi: ath11k: change to set 11d state instead of start 11d scan while disconnect
-         ac9909a13b109479576beff2a2e50aecbf209d2d wifi: ath11k: reduce the timeout value back for hw scan from 10 seconds to 1 second
-         ec6c7f15c10f45a63ff39a01621cb0efc1d359dd wifi: ath11k: Fix spelling mistake "chnange" -> "change"
-         06a155b6b6331314c2dc5ba010960c4b9677f6db Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: 937c4d6aa167dafd9e4990c497e40afe585131a2
-    new: ec6c7f15c10f45a63ff39a01621cb0efc1d359dd
-    log: |
-         9ec6e20776abda3ca03ab97b1caa8310074427c1 carl9170: Replace zero-length array with DECLARE_FLEX_ARRAY() helper
-         45d2e268369b0c768d5a644f319758bcfd370521 wifi: ath11k: Don't exit on wakeup failure
-         f74878433d5ade360447da5d92e9c2e535780d80 wifi: ath11k: fix warning in dma_free_coherent() of memory chunks while recovery
-         e0001fee21917fe6374a6034e57a86859002abda wifi: ath11k: change to set 11d state instead of start 11d scan while disconnect
-         ac9909a13b109479576beff2a2e50aecbf209d2d wifi: ath11k: reduce the timeout value back for hw scan from 10 seconds to 1 second
-         ec6c7f15c10f45a63ff39a01621cb0efc1d359dd wifi: ath11k: Fix spelling mistake "chnange" -> "change"
-         
+  - ref: refs/heads/next
+    old: 054fdc359167ae7c17a5fb47c0edbf5cb4b737b0
+    new: 2fff00c81d4c37a037cf704d2d219fbcb45aea3c
+
+--===============6072498746998733103==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mickaël Salaün <mic@digikod.net> 1664523155 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
+nonce 1664523154-493b59d41e7fa6e5207f5ec75e7ef3f1551ee5ea
+
+054fdc359167ae7c17a5fb47c0edbf5cb4b737b0 2fff00c81d4c37a037cf704d2d219fbcb45aea3c refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYzabkxAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSq44A/1fn0P7VtoWh2QUfaaJoqIA32IHhugP8GfH0
+pyICDCfCAPwK6gs/U/Q79dcYk3qOvebfcnGWBXc7bXNd7CHTTAmsCw==
+=bWcn
+-----END PGP SIGNATURE-----
+
+--===============6072498746998733103==--
