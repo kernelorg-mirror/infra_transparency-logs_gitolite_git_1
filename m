@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2206387448079045714=="
+Content-Type: multipart/mixed; boundary="===============0305563222272730169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 30 Sep 2022 12:59:39 -0000
-Message-Id: <166454277924.9509.15857399394883296747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 30 Sep 2022 13:07:36 -0000
+Message-Id: <166454325684.15417.18401424468494737059@gitolite.kernel.org>
 
---===============2206387448079045714==
+--===============0305563222272730169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 12f3a5eba3c4eb0031d7db36773579e517459a41
-    new: 30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d
+  - ref: refs/heads/usb-testing
+    old: a15e17acce5aaae54243f55a7349c2225450b9bc
+    new: 3180d827c807d8d6e5d6ba4f2e08eed9efa083af
     log: |
-         30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d serial: cpm_uart: Don't request IRQ too early for console port
+         3180d827c807d8d6e5d6ba4f2e08eed9efa083af usb: gadget: uvc: don't put item still in use
          
 
---===============2206387448079045714==
+--===============0305563222272730169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664542777 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1664542777-095a600d92efdd6471a9f2f3af1e7d79c31ccee9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664543255 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1664543254-5730a29baa47bcb76f4f8d4a925264ce276686f9
 
-12f3a5eba3c4eb0031d7db36773579e517459a41 30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d refs/heads/tty-testing
+a15e17acce5aaae54243f55a7349c2225450b9bc 3180d827c807d8d6e5d6ba4f2e08eed9efa083af refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM26DkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T0kP/Rntxietaa1jH7nSgJ2k
-8LIwp8DVwM+BE315IltiLmRTCwREd9bdP3rIUHiyLMG9QciMgLlEVf/PK4qarb2B
-SBG8sl0F8DTy1vimfbYshx/Qe4gMZ62p0GrDbF4OYIGMMGQXSKkrCpft6l7TfeWD
-gW4jxhQkwNDys0muYnybV+yURPW4rHXTUGGQ+/LHLjH1Y03NPR/vp3aweDTRFqb8
-+xYcInGtPUF1vUjaqDrmj5WhOh+8e2ib6Uf8kClaxGvjcN8M17WtU48J8KUr1sIq
-r0nF9Aldz2JEXoWKEjTqMryr8PLtLAHUqdagDXfE//L2C07p8vodU3vnaKZzC62q
-kixI5SKZ65mPoc0QaKYgtf6TlrNSJvJ2NTCEiAb5oSCt7peo3evf4T938cQzU/pZ
-/1sify1TCBK4wd/U6phR014fYZaHBUrLgZibSpFODL6rs9mNYNnSnFcq35QY1EO8
-qeDcGszybX8vrUK+MF9eKuzywQOavekbVdhb+VCq+xtFLEmB6/shjFYrDGF2MwD6
-ZP6uKJ1J0CYmCSlhXtOn0ziTHWMucrLegWGxYYhrQuCglQ3+YGEUrz7yIdI/pEP9
-SieTr6V9fPVI9iaBZUPv8mUZ9dM4FwWlWCFmIdA0F8jmJRoqobL0qrBW/DG/mo0i
-bHRJsWUMMhOmTqXlSqpMbLQG
-=L8o3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM26hcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l9wQAI+zX+XyQC9H2pzgexOi
+TY1C049GOCo6lP8SBvFr/ShaMYMOfeMSi9tdusUa0eFV7OJN/Y2sX07ByabFxypf
++FllsrAnQ1s0naSlmc+q3+YKYtCzBaYJznT7D+V0Vb2jehbT1nGNDOGhDwaIhveN
+NPFsF1+i4GQ9p44GuNTEZdguY1iRepm2/8iUICFmmgnPwgdu2Dee596UXHWJBxtf
+BeQMVBugpPYVdDmsXX1m6wgT3fr2g0bRy0cKFtP+KiAWzgpkrJ8m/86vF7Mznp7K
+bugvPrhCfNObNjH3s/m4jF4KkUZsrz6i4vO/ZZvCrSf4g8rChvNR7T7e+F1hUhcX
+Lod5eoEyZpVc5ANZLr0QEJ8dnuo7JGxaQCb/3429Q7nsFMA/JEnAn3BCt2Kznt8r
+w+rOa8EZLOlmIvOYcfb4BNgutOuI8b67lreNaqSL1ad3SbzaqwK/m6fTMbPxP92p
+71kJlDpzDP4Hdw7Two7u93fm2XknokwY/jhsi4OPBhnTzPNd23uA4jT5F64eKLcT
+TxYOQUDPlk+6n9z5ZhpKru8FyEBYeffFcJla2MemSGfAWidJi6ODIT+dIVMyS7lh
+aly0cDJU8l3X+GI3YqJ1SMldsjXukkR7HLA2LbVqI1lDow/tdIYC8B9M3CN27zmU
+rWWqRkGPWq2j5HOkOw7hw8Ch
+=2LwX
 -----END PGP SIGNATURE-----
 
---===============2206387448079045714==--
+--===============0305563222272730169==--
