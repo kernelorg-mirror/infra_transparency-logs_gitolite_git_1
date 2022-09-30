@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 30 Sep 2022 03:50:04 -0000
-Message-Id: <166450980475.30826.12101945850369118237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Fri, 30 Sep 2022 04:01:42 -0000
+Message-Id: <166451050231.7100.8208140072099572634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/tags/block-6.0-2022-09-29
+  - ref: refs/heads/perf/cpumap-update-v2
     old: 0000000000000000000000000000000000000000
-    new: ba04ec07251459223eee97c85bf62a2552266cea
-  - ref: refs/tags/io_uring-6.0-2022-09-29
-    old: 0000000000000000000000000000000000000000
-    new: 4a4e4694b9cfcea4d0f557a1fb9bc32f8c9a2bb2
+    new: 168eb01baa0e9ec329dde79d657e45927f783093
