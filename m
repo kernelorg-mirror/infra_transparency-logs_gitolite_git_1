@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Fri, 30 Sep 2022 20:16:04 -0000
-Message-Id: <166456896426.32667.1109415902308192060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 30 Sep 2022 20:22:45 -0000
+Message-Id: <166456936589.4207.10059875797853041644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/perf/stat-cleanup-v2
-    old: 0000000000000000000000000000000000000000
-    new: 51d724e7b9929e8ac853def91331827967ffc319
+  - ref: refs/heads/master
+    old: f01e5f3a849558b8ed6b310686d10738f4c2f3bf
+    new: e819d737de88dc1fd6d31091c66f826ead40761e
+    log: |
+         e819d737de88dc1fd6d31091c66f826ead40761e pahole: Add "btf" to the format-path option man page
+         
