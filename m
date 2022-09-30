@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-Date: Fri, 30 Sep 2022 13:25:32 -0000
-Message-Id: <166454433249.29146.10603485729463481623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 30 Sep 2022 13:47:01 -0000
+Message-Id: <166454562163.10341.961059514876970238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
-user: mark
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: 6a0fc40035f9bb581054eb26fbac3c659cfa99b2
-    new: 80c2c9bf88ae51c346dac958308782f80be84339
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 3635ffa3f2b238af99a361af834fbb180f2debe9
+    new: 7f7838c92740fa423a5a3f12c00ed02d92851254
     log: |
-         80c2c9bf88ae51c346dac958308782f80be84339 aarch64: enable access to HCRX_EL2
+         7f7838c92740fa423a5a3f12c00ed02d92851254 efi: capsule-loader: Fix use-after-free in efi_capsule_write
          
