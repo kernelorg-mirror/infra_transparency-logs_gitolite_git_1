@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 30 Sep 2022 11:36:54 -0000
-Message-Id: <166453781405.14451.17210676848924969949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 30 Sep 2022 11:39:14 -0000
+Message-Id: <166453795422.15390.13649373464362620852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2568a7e0832ee30b0a351016d03062ab4e0e0a3f
-    new: 022152aaebe116a25c39818a07e175a8cd3c1e11
+    old: bd139381531987091d8c38e0d2c68faf1ad83668
+    new: ea9b9a985d58d8e2abd91e8d7514b14398fe414f
     log: |
-         022152aaebe116a25c39818a07e175a8cd3c1e11 sctp: handle the error returned from sctp_auth_asoc_init_active_key
+         ea9b9a985d58d8e2abd91e8d7514b14398fe414f bnx2: Fix spelling mistake "bufferred" -> "buffered"
          
