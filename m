@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 30 Sep 2022 10:52:23 -0000
-Message-Id: <166453514347.13719.15771763960795958424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/sparc
+Date: Fri, 30 Sep 2022 10:58:32 -0000
+Message-Id: <166453551293.18791.14139475726864504858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/davem/sparc
+user: davem
 changes:
-  - ref: refs/heads/arm_pmu/acpi/rework
-    old: 803d7ed96c0dbdfb1d463e8053a85b3c38af2869
-    new: 631d325deb5863806820534a996725be4014e2e8
+  - ref: refs/heads/master
+    old: 05a59d79793d482f628a31753c671f2e92178a21
+    new: 2d2b17d08bfc3d98cf93622e8c6543eaaf02dabe
     log: |
-         0d7db76bbe75541409833098238950428cab49fb arm_pmu: acpi: factor out PMU<->CPU association
-         284f26f492fff5f78c3e405f3d924bacd2209621 arm_pmu: factor out PMU matching
-         631d325deb5863806820534a996725be4014e2e8 arm_pmu: rework ACPI probing
+         2d2b17d08bfc3d98cf93622e8c6543eaaf02dabe sparc: Unbreak the build
          
