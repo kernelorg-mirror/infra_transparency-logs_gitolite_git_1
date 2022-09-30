@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 30 Sep 2022 14:45:44 -0000
-Message-Id: <166454914443.19559.447947205586315983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 30 Sep 2022 14:48:12 -0000
+Message-Id: <166454929202.20499.1927718122433670615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/mips-next
-    old: bf21f3f8d0336ec28d9ab09ad274ac0bd71b7cf8
-    new: 84aff0b6905c1101aab1525c2d649127f307218b
+  - ref: refs/heads/sched/core
+    old: 543f82fee0c531c8386f776a6050878a5bfe96f4
+    new: 6c3437bcd43188d1e83b02160ba76b2a5c67e120
     log: |
-         84aff0b6905c1101aab1525c2d649127f307218b mips: update config files
+         5aec788aeb8eb74282b75ac1b317beb0fbb69a42 sched: Fix TASK_state comparisons
+         6c3437bcd43188d1e83b02160ba76b2a5c67e120 sched: Fix more TASK_state comparisons
          
