@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 30 Sep 2022 17:51:30 -0000
-Message-Id: <166456029056.25246.617382122053431569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Fri, 30 Sep 2022 17:56:34 -0000
+Message-Id: <166456059437.29900.3566842870372531057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: 86221e73948cc2b0a72b398c5d6deeaa4f6370eb
-    new: 10b6a89aabe37be52bb1d6b164ec05a97439671d
+  - ref: refs/heads/main
+    old: f2a28b05264fa9557192b73a1b888756748930ac
+    new: 3f1fbb092f5ef07d04fef7ddec9e538f36d84450
     log: |
-         10b6a89aabe37be52bb1d6b164ec05a97439671d Fri Sep 30 05:50:45 PM UTC 2022
+         3f1fbb092f5ef07d04fef7ddec9e538f36d84450 tuna: Fix matching irqs in ps_show_thread
          
