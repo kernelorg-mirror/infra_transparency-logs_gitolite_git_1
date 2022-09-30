@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1867072471370870571=="
+Content-Type: multipart/mixed; boundary="===============6081819278164269611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Fri, 30 Sep 2022 00:46:06 -0000
-Message-Id: <166449876606.25834.977566555070609155@gitolite.kernel.org>
+Date: Fri, 30 Sep 2022 00:49:37 -0000
+Message-Id: <166449897711.27128.17339279323296854340@gitolite.kernel.org>
 
---===============1867072471370870571==
+--===============6081819278164269611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,1039 +16,1039 @@ repo: pub/scm/linux/kernel/git/geoff/ps3-linux
 user: geoff
 changes:
   - ref: refs/heads/master
-    old: ba9b13f6cec0c9083a67a0137ce3de1e46831531
-    new: 3d7cb6b04c3f3115719235cc6866b10326de34cd
-    log: revlist-ba9b13f6cec0-3d7cb6b04c3f.txt
+    old: 3d7cb6b04c3f3115719235cc6866b10326de34cd
+    new: 77d6de05c26f1a01331035de24952bc9b55b88cb
+    log: revlist-3d7cb6b04c3f-77d6de05c26f.txt
 
---===============1867072471370870571==
+--===============6081819278164269611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba9b13f6cec0-3d7cb6b04c3f.txt
+Content-Disposition: attachment; filename=revlist-3d7cb6b04c3f-77d6de05c26f.txt
 
-7be3bd8856fba99f8b25b9c223250e42292c312e xfs: empty xattr leaf header blocks are not corruption
-e53bcffad0326c1ef4b4baec4262b5343e420c44 xfs: don't hold xattr leaf buffers across transaction rolls
-8944c6fb8add384154b784a90ceca88a51a8c364 xfs: dont treat rt extents beyond EOF as eofblocks to be cleared
-8692969e9164c15474b356b9898e5b9b21a85643 ceph: wait on async create before checking caps for syncfs
-732f30694325ab586a4d90412ace81e50dfe448e Merge tag '5.19-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-d9b2ba67917c18822c6a09af41c32fa161f1606b Merge tag 'platform-drivers-x86-v5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-8988ba7dec43aabd43adb1214b922b8873e9da88 spi: aspeed: Add dev_dbg() to dump the spi-mem direct mapping descriptor
-30554a1f0fd6a5d2e2413bdc05389995d5611736 spi: aspeed: Fix division by zero
-bbba251577b27422ebe173e1bd006424d6a8cfb3 drm/amdgpu: fix adev variable used in amdgpu_device_gpu_recover()
-20b8264394b33adb1640a485a62a84bc1388b6a3 drm/fourcc: fix integer type usage in uapi header
-5cb0e3fb2c54eabfb3f932a1574bff1774946bc0 drm/amdgpu: To flush tlb for MMHUB of RAVEN series
-a775e4e4941bf2f326aa36c58f67bd6c96cac717 Revert "drm/amdgpu/display: set vblank_disable_immediate for DC"
-7441b273388b9a59d8387a03ffbbca9d5af6348c usb: dwc3: gadget: Fix event pending check
-5812175389e258141c5e9f8eadc1ed226f67bc11 usb: dwc3-am62: remove unnecesary clk_put()
-8ad59b397f86a4d8014966fdc0552095a0c4fb2b i2c: piix4: Fix a memory leak in the EFCH MMIO support
-57e00b40033a376de3f3cf0bb9bf7590d2dd679d PM / devfreq: Fix kernel panic with cpu based scaling to passive gov
-e52b045fe07d7874474665c843befa7521853234 PM / devfreq: Mute warning on governor PROBE_DEFER
-0cca7e8dcfa9e6fe7ba697e534a732571f1689d0 PM / devfreq: Fix cpufreq passive unregister erroring on PROBE_DEFER
-20e6c3cc90c0a86dba659dd9e7d60b429d88746d PM / devfreq: passive: Use HZ_PER_KHZ macro in units.h
-f44b799603a9b5d2e375b0b2d54dd0b791eddfc2 PM / devfreq: exynos-ppmu: Fix refcount leak in of_get_devfreq_events
-b5d281f6c16dd432b618bdfd36ddba1a58d5b603 PM / devfreq: Rework freq_table to be local to devfreq struct
-82c66d2bbbeda9e493487e7413769087a0b46250 PM / devfreq: Fix kernel warning with cpufreq passive register fail
-f08fe6fcbe13f83558ecccc4acaf5af3dce71a1f PM / devfreq: passive: revert an editing accident in SPDX-License line
-1bbb2809040a1f9c7c53c9f06c21aa83275ed27b hwmon: (occ) Prevent power cap command overwriting poll response
-f0aa153b6ce8018a052d9c05dc1b8483ac3a0f1a hwmon: (pmbus/ucd9200) fix typos in comments
-32788beb103f7f71e0192dce701f387070914651 ata: pata_cs5535: Fix W=1 warnings
-1ebc2cec0b7dd8dad0812449110803bd875ac816 dm raid: fix KASAN warning in raid5_remove_disk
-617b365872a247480e9dcd50a32c8d1806b21861 dm raid: fix KASAN warning in raid5_add_disks
-8cdf1b56ccab969b393269a8abbf5e1d6dc700c9 Merge tag 'drm-intel-fixes-2022-06-29' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-078a3be79325e4a5e7e16576b3919999efadfa3f Merge tag 'amd-drm-fixes-5.19-2022-06-29' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-236d59292efab107fb7b83f34c78ed2b10ed8e6d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-7b92aa9e613508cbaa29dd35bf27db4c35628b10 selftests net: fix kselftest net fatal error
-e65af5403e462ccd7dff6a045a886c64da598c2e usbnet: fix memory allocation in helpers
-1758bde2e4aa5ff188d53e7d9d388bbb7e12eebb net: phy: Don't trigger state machine while in suspend
-fa152f626b24ec2ca3489100d8c5c0a0bce4e2ef net: phy: ax88772a: fix lost pause advertisement configuration
-4e43e64d0f1332fcc503babad4dc31aead7131ca ipv6: fix lockdep splat in in6_dump_addrs()
-050133e1aa2cb49bb17be847d48a4431598ef562 net: bonding: fix use-after-free after 802.3ad slave unbind
-34ad61514c4c3657df21a058f9961c3bb2f84ff2 nvmet: add a clear_ids attribute for passthru targets
-e1c70d79346356bb1ede3f79436df80917845ab9 nvme-pci: add NVME_QUIRK_BOGUS_NID for ADATA IM2P33F8ABR1
-f8ebb3ac881b17712e1d5967c97ab1806b16d3d6 net: usb: ax88179_178a: Fix packet receiving
-9cc02ede696272c5271a401e4f27c262359bc2f6 net: rose: fix UAF bugs caused by timer handler
-665030fd0c1ed9f505932e6e73e7a2c788787a0a mlxsw: spectrum_router: Fix rollback in tunnel next hop init
-0a18d802d65cf662644fd1d369c86d84a5630652 net: sfp: fix memory leak in sfp_probe()
-25deecb21c18ee29e3be8ac6177b2a9504c33d2d s390: remove unneeded 'select BUILD_BIN2C'
-b9a56c113f907b19b91dc5c2383b0169831e15a4 s390/purgatory: hard-code obj-y in Makefile
-20159e287a031bd6a28429675ccc66b06372fa3c s390/purgatory: remove duplicated build rule of kexec-purgatory.o
-29c1ac230e6056b26846c66881802b581a78ad72 io_uring: keep sendrecv flags in ioprio
-589cb2c0b8daf4fd03e7012c00a52804769e7699 Merge tag 'devfreq-fixes-for-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-5c5f44e36217de5ead789ff25da71c31c2331c96 serial: stm32: Clear prev values before setting RTS delays
-6e690d54cfa802f939cefbd2fa2c91bd0b8bd1b6 serial: 8250: fix return error code in serial8250_request_std_resource()
-f9b11229b79c0fb2100b5bb4628a101b1d37fbf6 serial: 8250: Fix PM usage_count for console handover
-4f532c1e25319e42996ec18a1f473fd50c8e575d serial: mvebu-uart: correctly report configured baudrate value
-39cdb68c64d84e71a4a717000b6e5de208ee60cc vt: fix memory overlapping when deleting chars in the buffer
-b941e487152e0909ef43faacae6eeee266d9b378 serial: 8250: dw: Fix the macro RZN1_UART_xDMACR_8_WORD_BURST
-f5da5ddf81ad0bfb91fa5e7d087e2ad96f26b7b7 Merge tag 'v5.19-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-9fb3bb25d15326464e2183a5eb4b1ea8725d560c Merge tag 'fsnotify_for_v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-1a0e93df1e107dc766fdf86ae88076efd9f376e6 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-09007af2b627f0f195c6c53c4829b285cc3990ec io_uring: fix provided buffer import
-e4f74400308cb8abde5fdc9cad609c2aba32110c s390/archrandom: simplify back to earlier design and initialize earlier
-d608f45ed3cfd411a409cec93fa64232181752ff s390/sclp: Fix typo in comments
-d7d488f41b41a1b7a1df3c74f2f65eb4585f5d55 s390/qdio: Fix spelling mistake
-62f46fc7b8c639bc97cc9c69e063c40970b6e14c thermal: intel_tcc_cooling: Add TCC cooling support for RaptorLake
-9c5de246c1dbe785268fc2e83c88624b92e4ec93 net: sparx5: mdb add/del handle non-sparx5 devices
-ff1fa2081d173b01cebe2fbf0a2d0f1cee9ce4b5 net: tun: avoid disabling NAPI twice
-839b92fede7ba308f1a475aa00fea55f63b7fccf selftest: tun: add test for NAPI dismantle
-58bf4db695287c4bb2a5fc9fc12c78fdd4c36894 net: dsa: felix: fix race between reading PSFP stats and port stats
-f3163d8567adbfebe574fb22c647ce5b829c5971 Merge tag 'nvme-5.19-2022-06-30' of git://git.infradead.org/nvme into block-5.19
-1adb1563e7b7ec659379a18e607e8bc3522d8a78 i40e: Fix dropped jumbo frames statistics
-fed0d9f13266a22ce1fc9a97521ef9cdc6271a23 i40e: Fix VF's MAC Address change on VM
-080abad71e99d2becf38c978572982130b927a28 NFS: restore module put when manager exits.
-4f40a5b5544618b096d1611a18219dd91fd57f80 NFSv4: Add an fattr allocation to _nfs4_discover_trunking()
-a23dd544debcda4ee4a549ec7de59e85c3c8345c SUNRPC: Fix READ_PLUS crasher
-868f9f2f8e004bfe0d3935b1976f625b2924893b vfs: fix copy_file_range() regression in cross-fs copies
-5e8379351dbde61ea383e514f0f9ecb2c047cf4e Merge tag 'net-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b8f0009bc9edf9186b20ae2a9e442ef0af93040e Merge tag 'drm-misc-fixes-2022-06-30' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-a175eca0f3d747599f1fdfac04cc9195b71ec996 Merge tag 'drm-fixes-2022-07-01' of git://anongit.freedesktop.org/drm/drm
-03110b46c99bb0c712f46bec660b1c3f674ce100 ARM: dts: qcom: msm8974: re-add missing pinctrl
-2f446ffe9d737e9a844b97887919c4fda18246e7 xen/blkfront: fix leaking data in shared pages
-eb7f8e28420372787933eec079735c35034bda7d misc: rtsx_usb: fix use of dma mapped buffer for usb bulk transfer
-3776c78559853fd151be7c41e369fd076fb679d5 misc: rtsx_usb: use separate command and response buffers
-ee6c6e7342471d468096a16bee9f89b5a6c1e39d staging/wlan-ng: get the correct struct hfa384x in work callback
-307c8de2b02344805ebead3440d8feed28f2f010 xen/netfront: fix leaking data in shared pages
-4491001c2e0fa69efbb748c96ec96b100a5cdb7e xen/netfront: force data bouncing when backend is untrusted
-2400617da7eebf9167d71a46122828bc479d64c9 xen/blkfront: force data bouncing when backend is untrusted
-f63c2c2032c2e3caad9add3b82cc6e91c376fd26 xen-netfront: restore __skb_queue_tail() positioning in xennet_get_responses()
-b75cd218274e01d026dc5240e86fdeb44bbed0c8 xen/arm: Fix race in RB-tree based P2M accounting
-144248515246e52a3706de1ee928af29a63794b8 drm: panel-orientation-quirks: Add quirk for the Lenovo Yoga Tablet 2 830
-96e8fc5818686d4a1591bb6907e7fdb64ef29884 x86/xen: Use clear_bss() for Xen PV guests
-38fa5479b41376dc9d7f57e71c83514285a25ca0 x86: Clear .brk area at early boot
-7e09ac27f43b382f5fe9bb7c7f4c465ece1f8a23 x86: Fix .brk attribute in linker script
-71560d98e7f18eb316a17cf12dc139eacb5b490f Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-0ac9c3dd0d6fe293cd5044cfad10bec27d171e4e dmaengine: qcom: bam_dma: fix runtime PM underflow
-44c4237cf3436bda2b185ff728123651ad133f69 dmaengine: idxd: force wq context cleanup on device disable path
-49db68d45bdcad06e28a420d5d911e4178389666 dmaengine: dw-axi-dmac: Fix RMW on channel suspend register
-8dfeee9dc52cb979cf520f6b345e7baa6b29ecb4 net: usb: Fix typo in code
-620f83b8326ce9706b1118334f0257ae028ce045 soc: ixp4xx/npe: Fix unused match warning
-a38dbb4f2028f4b9418855239a4c82466ecb935b Merge tag 'at91-fixes-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-1f66f63c7312ee085dc989b3c5fa4b3d09fe9d52 Merge tag 'imx-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-fd31000d58f41588fa10128278efdab8474f5ce8 irqchip/xilinx: Add explicit dependency on OF_ADDRESS
-1357d2a65601bc0afb221672d5a8f1649063a141 irqchip/apple-aic: Make symbol 'use_fast_ipi' static
-7561cea5dbb97fecb952548a0fb74fb105bf4664 xfs: prevent a UAF when log IO errors race with unmount
-09f7b80fac3e588b282ad26aabd7336d7d293efd dmaengine: imx-sdma: only restart cyclic channel when enabled
-9650910d05a31d62f562f90ca15ece685a4c1b9c Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-410982303772993a86bb7a9cfa7ece34522b2636 arm64: hugetlb: Restore TLB invalidation for BBM on contiguous ptes
-690685ffcdcec3975f45eafe3dcf4bff29aa1676 Merge tag 'ata-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-067c227379c0ec96cb19ed9aacea6b1281982368 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-d516e221e2fb88cd31c7ea29d743045efc4e69dd Merge tag 'block-5.19-2022-07-01' of git://git.kernel.dk/linux-block
-0a35d1622d5cd7693d75b7124913c75a7e3fabd0 Merge tag 'io_uring-5.19-2022-07-01' of git://git.kernel.dk/linux-block
-8300d380309a47b4f960379667278bcfa4d901e1 Merge tag 'for-5.19/dm-fixes-5' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-6f8693ea2bfe8c10a859841b907bc7c8f41dbd55 Merge tag 'ceph-for-5.19-rc5' of https://github.com/ceph/ceph-client
-76ff294e161921e9867ad68775ba95a210eb5ec3 Merge tag 'nfs-for-5.19-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
-cec84e7547d3f95b3fa4ded1618cb43d5d98a76a Merge tag 's390-5.19-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-d0f67adb790698017030365e90e9e394de7cac7c Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-d0e51022a025ca5350fafb8e413a6fe5d4baf833 hwmon: (ibmaem) don't call platform_device_del() if platform_device_add() fails
-07358194badf73e267289b40b761f5dc56928eab PM: runtime: Redefine pm_runtime_release_supplier()
-887371066039011144b4a94af97d9328df6869a2 PM: runtime: Fix supplier device management during consumer probe
-b336ad598a3bbeddfdb71d86349b9d4024bddefe Merge tag 'hwmon-for-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-bc621588ff591564ea01ad107e7bae869c1c0285 Merge branch 'pm-cpufreq'
-9ee7827668c7c30f587b0101c4e6240672a4f429 Merge tag 'pm-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-a12ca6277eca6aeeccf66e840c23a2b520e24c8f bpf: Fix incorrect verifier simulation around jmp32's jeq/jne
-3844d153a41adea718202c10ae91dc96b37453b5 bpf: Fix insufficient bounds propagation from adjust_scalar_min_max_vals
-73c4936f916de73fa3faec204a4deb37c25e18c1 bpf, selftests: Add verifier test case for imm=0,umin=0,umax=1 scalar
-a49b8ce7306cf8031361a6a4f7f6bc7a775a39c8 bpf, selftests: Add verifier test case for jmp32's jeq/jne
-1ce8c443e95698cecc32cc8ed5ff4b72da61eed4 Merge tag 'thermal-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d95ce66d4cc3b088308821de185cb372097fec84 Merge tag 'scmi-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-f99d621133ef48c9ace6416e864ffacba1cb2bc8 Merge tag 'amlogic-arm-for-v5.20' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
-35adf9a4e55e0b0a9d5e313e65ad83681dc32e9a modules: Fix corruption of /proc/kallsyms
-cfa94c538be621a0ba645adfa9ead005b5fa02f6 module: Fix selfAssignment cppcheck warning
-f963ef123900ac534aeb6141642e5351989ac14c module: Fix "warning: variable 'exit' set but not used"
-2cc39179acbbe524127f0427cee92b629db4d64b doc: module: update file references
-089866061428ec9bf67221247c936792078c41a4 Merge tag 'libnvdimm-fixes-5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
-bc38fae3a68b5140a39e2948de2b5b301438abfe Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-d28b25a62a47a8c8aa19bd543863aab6717e68c9 selftests/net: fix section name when using xdp_dummy.o
-5eb502b2e1ae1ab052cdf6bdd7615217e8517360 perf unwind: Fix unitialized 'offset' variable on aarch64
-363afa3aef24f5e08df6a539f5dc3aae4cddcc1a perf synthetic-events: Don't sort the task scan result from /proc
-ff898552fb32d255517fb0676f9fa500664c484d perf synthetic-events: Ignore dead threads during event synthesis
-2cd37c2e72449a7add6da1183d20a6247d6db111 misc: rtsx_usb: set return value in rsp_buf alloc err path
-3d5a2a396f19874b02196268a567a529ad5c7448 MAINTAINERS: add Wenjia as SMC maintainer
-5411de073362300d99bb35d46d77d656760e4606 Merge tag 'powerpc-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-bb7c51268776941b7533374caabcaaed302b91e0 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-aa78fa905b4431c432071a878da99c2b37fc0e79 parisc: Fix vDSO signal breakage on 32-bit kernel
-34074da5424c08542d197396757cc3194ef754b4 Merge tag 'for-5.19/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-69cb6c6556ad89620547318439d6be8bb1629a5a Merge tag 'nfsd-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-7e6bc1f6cabcd30aba0b11219d8e01b952eacbb6 netfilter: nf_tables: stricter validation of element data
-9827a0e6e23bf43003cd3d5b7fb11baf59a35e1e netfilter: nft_set_pipapo: release elements in clone from abort path
-280e3a857d96f9ca8e24632788e1e7a0fec4e9f7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-20855e4cb361adeabce3665f5174b09b4a6ebfe6 Merge tag 'xfs-5.19-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-4a557a5d1a6145ea586dc9b17a9b4e5190c9c017 sparse: introduce conditional lock acquire function attribute
-7ecd8a7af36efa52fb95fb42ecab03bc4e76c848 Merge tag 'qcom-arm64-fixes-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-b8d5109f50969ead9d49c3e8bd78ec1f82e548e3 lockref: remove unused 'lockref_get_or_lock()' function
-88084a3df1672e131ddc1b4e39eeacfd39864acf Linux 5.19-rc5
-73f37dbcfe1763ee2294c7717a1f571e27d17fd8 mm: userfaultfd: fix UFFDIO_CONTINUE on fallocated shmem pages
-d684e0a52d36f8939eda30a0f31ee235ee4ee741 sh: convert nommu io{re,un}map() to static inline functions
-ed1523a895ffdabcab6e067af18685ed00f5ce15 mm/damon: use set_huge_pte_at() to make huge pte old
-39d35edee4537487e5178f258e23518272a66413 mm: sparsemem: fix missing higher order allocation splitting
-cffe57bee62b155c08d71218fc0e9e84a0a90bbb Documentation: highmem: use literal block for code example in highmem.h comment
-34c0a5b04da8a543bc7335953c635dea1099d757 riscv/mm: fix build error while PAGE_TABLE_CHECK enabled without MMU
-1118234e4bc22ff50e9eae40ad95b17a6b12cefa mm/rmap: fix dereferencing invalid subpage pointer in try_to_migrate_one()
-5924e6ec1585445f251ea92713eb15beb732622a nilfs2: fix incorrect masking of permission flags for symlinks
-14c99d65941538aa33edd8dc7b1bbbb593c324a2 mm: split huge PUD on wp_huge_pud fallback
-a34b42f8690ce2b8360971ca5b886786ee1781af ARM: dts: stm32: fix pwr regulators references to use scmi
-78ece8cce1ba0c3f3e5a7c6c1b914b3794f04c44 ARM: dts: stm32: use the correct clock source for CEC on stm32mp151
-cfd7ea394cd3b70ba4d9d87ee7b88e37459036b0 ARM: dts: stm32: DSI should use LSE SCMI clock on DK1/ED1 STM32 board
-bf74181e75c93a1b2b000ebf3c8b4c8c17cd59da ARM: dts: stm32: delete fixed clock node on STM32MP15-SCMI
-1d0c1aadf1fd9f3de95d1532b3651e8634546e71 ARM: dts: stm32: add missing usbh clock and fix clk order on stm32mp15
-f1b4e32aca0811aa011c76e5d6cf2fa19224b386 can: bcm: use call_rcu() instead of costly synchronize_rcu()
-02514a067fad6df27c4b21c316c1af93066af06e docs: netdev: document that patch series length limit
-a24875641143fce726529e6d550b313c53eb5821 docs: netdev: document reverse xmas tree
-5d407ca7389261c002c49068e4a11ed3bff0fc8e docs: netdev: add a cheat sheet for the rules
-ea1c3b77bc0b2a414496b3fe988f3abba33db288 Merge branch 'netdev-docs'
-c6da4590fe819dfe28a4f8037a8dc1e056542fb4 Revert "can: xilinx_can: Limit CANFD brp to 2"
-374e11f1bde91545674233459e5a0416ba842b69 can: rcar_canfd: Fix data transmission failed on R-Car V3U
-2bda24ef95c0311ab93bda00db40486acf30bd0a can: gs_usb: gs_usb_open/close(): fix memory leak
-562fed945ea482833667f85496eeda766d511386 can: grcan: grcan_probe(): remove extra of_node_get()
-5b12933de4e76ec164031c18ce8e0904abf530d7 can: m_can: m_can_chip_config(): actually enable internal timestamping
-4c3333693f07313f5f0145a922f14a7d3c0f4f21 can: m_can: m_can_{read_fifo,echo_tx_event}(): shift timestamp to full 32 bits
-1b18f09d31cfa7148df15a7d5c5e0e86f105f7d1 ibmvnic: Properly dispose of all skbs during a failover.
-49f274c72357d2d74cba70b172cf369768909707 can: kvaser_usb: replace run-time checks with struct kvaser_usb_driver_info
-e6c80e601053ffdac5709f11ff3ec1e19ed05f7b can: kvaser_usb: kvaser_usb_leaf: fix CAN clock frequency regression
-b3b6df2c56d80b8c6740433cff5f016668b8de70 can: kvaser_usb: kvaser_usb_leaf: fix bittiming limits
-406cc9cdb3e8d644b15e8028948f091b82abdbca can: mcp251xfd: mcp251xfd_regmap_crc_read(): improve workaround handling for mcp2517fd
-e3d4ee7d5f7f5256dfe89219afcc7a2d553b731f can: mcp251xfd: mcp251xfd_regmap_crc_read(): update workaround broken CRC on TBC register
-d5a972f561a003e302e4267340c57e8fbd096fa4 can: mcp251xfd: mcp251xfd_stop(): add missing hrtimer_cancel()
-0ff32bfa0e794ccc3601de7158b522bf736fa63c can: mcp251xfd: mcp251xfd_register_get_dev_id(): use correct length to read dev_id
-1c0e78a287e3493e22bde8553d02f3b89177eaf7 can: mcp251xfd: mcp251xfd_register_get_dev_id(): fix endianness conversion
-887502826549caa7e4215fd9e628f48f14c0825a powerpc/powernv: delay rng platform device creation until later in boot
-bf43e4521ff3223a613f3a496991a22a4d78e04b drm/aperture: Run fbdev removal before internal helpers
-6e2c9105e0b743c92a157389d40f00b81bdd09fe ALSA: usb-audio: Add quirks for MacroSilicon MS2100/MS2106 devices
-11bea26929a1a3a9dd1a287b60c2f471701bf706 ALSA: hda/realtek: Add quirk for Clevo L140PU
-4fb7c24f69c48fdc02ea7858dbd5a60ff08bf7e5 ALSA: usb-audio: Add quirk for Fiero SC-01
-2307a0e1ca0b5c1337b37ac6302f96e017ebac3c ALSA: usb-audio: Add quirk for Fiero SC-01 (fw v1.0.0)
-dd84cfff3cc3b79c9d616f85bd1178df135cbd1a Merge tag 'asoc-fix-v5.19-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-0ec29ccf94eb4c32570555a882575eca9eec6467 soc: qcom: smem: use correct format characters
-c0d1a7bd6574c8805184468c736e26dc416bebf0 Merge tag 'stm32-dt-for-v5.19-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into arm/fixes
-591129d3db266648823bb953ebbc28c92e059bf3 drm/bridge: fsl-ldb: Fix mode clock rate validation
-57ef278ef125e9188474a164f35dcffc69836d01 drm/bridge: fsl-ldb: Enable split mode for LVDS dual link
-1dbc790b4d416dacb124a6acd05f88a0bcf3be39 drm/bridge: fsl-ldb: Drop DE signal polarity inversion
-8490cad4dc4e2ee265ba9e12cd47bdfd6b9a3d34 drm/rockchip: Detach from ARM DMA domain in attach_device
-fb6e0637ab7ebd8e61fe24f4d663c4bae99cfa62 drm/panfrost: Put mapping instead of shmem obj on panfrost_mmu_map_fault_addr() error
-9fc33eaaa979d112d10fea729edcd2a2e21aa912 drm/panfrost: Fix shrinker list corruption by madvise IOCTL
-c1084b6c5620a743f86947caca66d90f24060f56 Merge tag 'soc-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-79471f29ec4870bc02b4fea844e86669a8a4f2a5 dt-bindings: display: sun4i: Fix D1 pipeline count
-3c12e9da3098a30fc82dea01768d355c28e3692d arm64: dts: ls1028a: Update SFP node to include clock
-e95ea0f687e679fcb0a3a67d0755b81ee7d60db0 ARM: dts: imx6qdl-ts7970: Fix ngpio typo and count
-7e8c182c36e2366b7402d3913bf717eac04e458d Merge tag 'linux-can-fixes-for-5.19-20220704' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-b8e629b05f5d23f9649c901bef09fab8b0c2e4b9 selftests: forwarding: fix flood_unicast_test when h2 supports IFF_UNICAST_FLT
-1a635d3e1c80626237fdae47a5545b6655d8d81c selftests: forwarding: fix learning_test when h1 supports IFF_UNICAST_FLT
-83844aacab2015da1dba1df0cc61fc4b4c4e8076 selftests: forwarding: fix error message in learning_test
-029cc0963412c4f989d2731759ce4578f7e1a667 Merge branch 'fix-bridge_vlan_aware-sh-and-bridge_vlan_unaware-sh-with-iff_unicast_flt'
-3770d92bd5237d686e49da7b2fb86f53ee6ed259 dmaengine: at_xdma: handle errors of at_xdmac_alloc_desc() correctly
-8ffccd119a5908b240a26182be44c0ff3d1e3d85 dmaengine: idxd: Only call idxd_enable_system_pasid() if succeeded in enabling SVA feature
-8af3a0b23818af59971f538bf258c15e1033ea55 gpio: vf610: fix compilation error
-bf17455b9cbd4b10bf30d39c047307e1d774fb1a fscache: Fix if condition in fscache_wait_on_volume_collision()
-5c4588aea6675b69e328d468c5b6be5127e19a79 fscache: Introduce fscache_cookie_is_dropped()
-65aa5f6fd8a12e0a343aaf1815949a79a49e3f35 cachefiles: narrow the scope of flushed requests when releasing fd
-85e4ea1049c70fb99de5c6057e835d151fb647da fscache: Fix invalidation/lookup race
-c5e58c4545a69677d078b4c813b5d10d3481be9c ALSA: cs46xx: Fix missing snd_card_free() call at probe error
-efa310ba00716d7a872bdc5fa1f5545edc9efd69 riscv: dts: microchip: hook up the mpfs' l2cache
-e35e5b6f695d241ffb1d223207da58a1fbcdff4b Merge tag 'xsa-5.19-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-7feec7430edddb87c24b0a86b08a03d0b496a755 ACPI: CPPC: Only probe for _CPC if CPPC v2 is acked
-8b356e536e69f3a4d6778ae9f0858a1beadabb1f ACPI: CPPC: Don't require _OSC if X86_FEATURE_CPPC is supported
-e36bea6e78ab2b6c9c7396972fee231eae551cfc Bluetooth: core: Fix deadlock on hci_power_on_sync.
-26c12725b462a4d39a8494554c9713d6fb86f6bd Merge tag 'for-net-2022-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-afe4e376ac5d568367b447ca90c12858d0935b86 vfio: Move IOMMU_CAP_CACHE_COHERENCY test to after we know we have a group
-e6fa930f73a15238f3cb0c204e2f786c919b815c net: lan966x: hardcode the number of external ports
-b64b3b2f1d81f83519582e1feee87d77f51f5f17 dmaengine: pl330: Fix lockdep warning about non-static key
-1dbe67b9faea0bc340cce894018076679c16cb71 dmaengine: lgm: Fix an error handling path in intel_ldma_probe()
-b57feed2cc2622ae14b2fa62f19e973e5e0a60cf x86/compressed/64: Add identity mappings for setup_data entries
-316f92a705a4c2bf4712135180d56f3cca09243a iommu/vt-d: Fix PCI bus rescan device hot add
-4140d77a022101376bbfa3ec3e3da5063455c60e iommu/vt-d: Fix RID2PASID setup/teardown failure
-3c5a4e6d833a6165566d7467a34c82e6e5a987f3 Merge tag 'v5.19-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-aafc013e8297b30c517a6383516bc88a3425856c Merge tag 'v5.19-rockchip-socfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-052f744f44462cc49b88a125b0f7b93a9e47a9dd net/sched: act_police: allow 'continue' action offload
-4d1e07d83ccc87f210e5b852b0a5ea812a2f191c net/mlx5e: Fix matchall police parameters validation
-44d632d5dde2514b414bd6344918d68dacd8fe6f Merge branch 'act_police-continue-offload-fix'
-5ccecaec5c1e85cabfda848c6f146da0d8d55bd6 mptcp: fix locking in mptcp_nl_cmd_sf_destroy()
-c21b50d5912b68c4414c60ef5b30416c103f9fd8 mptcp: Avoid acquiring PM lock for subflow priority changes
-a657430260e5437df16004c8c317821d946b5ead mptcp: Acquire the subflow socket lock before modifying MP_PRIO flags
-892f396c8e68faab7f76ff49cf39e9fbbeea4097 mptcp: netlink: issue MP_PRIO signals from userspace PMs
-ca188a25d43f85f9c6f1e0a303edad47c9d24989 selftests: mptcp: userspace PM support for MP_PRIO signals
-843b5e75efff04db34fcf9856de53c9e415530a2 mptcp: fix local endpoint accounting
-d2d21f175f1f9580eb5681f5b476c8d7a0a3c895 mptcp: update MIB_RMSUBFLOW in cmd_sf_destroy
-ae9fdf6cb4da4265bdc3a574d06eaad02a7f669a Merge branch 'mptcp-path-manager-fixes'
-a069a90554168ac4cc81af65f000557d2a8a0745 Revert "tls: rx: move counting TlsDecryptErrors for sync"
-6ece49c56965544262523dae4a071ace3db63507 spi: amd: Limit max transfer and message size
-1fd6e5675336daf4747940b4285e84b0c114ae32 xdp: Fix spurious packet loss in generic XDP TX path
-955f04766d4e6eb94bf3baa539e096808c74ebfb fbdev: fbmem: Fix logo center image dx issue
-3663a2fb325b8782524f3edb0ae32d6faa615109 video: of_display_timing.h: include errno.h
-73029c9b23cf1213e5f54c2b59efce08665199e7 nvme-pci: phison e16 has bogus namespace ids
-607a48c78e6b427b0b684d24e61c19e846ad65d6 dt-bindings: dma: allwinner,sun50i-a64-dma: Fix min/max typo
-80f2a248a2f92c07873128808359756f72a0438b Merge tag 'irqchip-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-c3850b3f975f94317011421bb55325f828ae72ea Merge tag 'sound-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-9f09069cde34dcd86f5ecf3a3139fd752020812f Merge tag 'for-linus' of https://github.com/openrisc/linux
-5c629dc9609dc43492a7bc8060cc6120875bf096 nvme: use struct group for generic command dwords
-5b1a01c16292208be9a1ccc170c99c747df0c4c4 spi: Merge AMD fix
-0609e200246bfd3b7516091c491bec4308349055 ARM: 9209/1: Spectre-BHB: avoid pr_info() every time a CPU comes out of idle
-598f0a99fa8a35be44b27106b43ddc66417af3b1 ARM: 9210/1: Mark the FDT_FIXED sections as shareable
-cc45b836388f0ccc6831288a08f77a33845f10b0 ARM: 9211/1: domain: drop modify_domain()
-2bf6204240fddb22cc4940b9e3f40c538390212e ARM: 9212/1: domain: Modify Kconfig help text
-e4ced82deb5fb17222fb82e092c3f8311955b585 ARM: 9213/1: Print message about disabled Spectre workarounds only once
-e5c46fde75e43c15a29b40e5fc5641727f97ae47 ARM: 9214/1: alignment: advance IT state after emulating Thumb instruction
-d6c13d74b5c06bef75febf1f351de3c4c255f149 net/mlx5: TC, allow offload from uplink to other PF's VF
-4892bd9830c363420f00d90186630e7acbed5c9e net/mlx5: Lag, decouple FDB selection and shared FDB
-6cc2714e85754a621219693ea8aa3077d6fca0cb net/mlx5e: kTLS, Fix build time constant test in TX
-2ec6cf9b742a5c18982861322fa5de6510f8f57e net/mlx5e: kTLS, Fix build time constant test in RX
-0c9d876545a56aebed30fa306d0460a4d28d271a net/mlx5e: Fix enabling sriov while tc nic rules are offloaded
-1afbd1e283d6a5449d8c24ce8ccae8ccb15ee943 net/mlx5: Lag, correct get the port select mode str
-6c4e8fa03fde7e5b304594294e397a9ba92feaf6 net/mlx5e: CT: Use own workqueue instead of mlx5e priv
-452133dd580811f184e76b1402983182ee425298 net/mlx5e: Fix capability check for updating vnic env counters
-5b759bf2f9d73db05369aef2344502095c4e5e73 net/mlx5e: Ring the TX doorbell on DMA errors
-b55a21b764c1e182014630fa5486d717484ac58f usbnet: fix memory leak in error case
-f9a89117fbdc63c0d4ab63a8f3596a72c245bcfe drm/amdgpu: keep fbdev buffers pinned during suspend
-3a4b1cc28fbdc2325b3e3ed7d8024995a75f9216 drm/amdgpu/display: disable prefer_shadow for generic fb helpers
-9fab303a2cb3d323ca3a32a8b4ab60b451141901 ima: fix violation measurement list record
-148ca04518070910739dfc4eeda765057856403d net: rose: fix UAF bug caused by rose_t0timer_expiry
-faa4e04e5e140a6d02260289a8fba8fd8d7a3003 r8169: fix accessing unset transport header
-829be057dbc1e71383b8d7de8edb31dcf07b4aa0 wireguard: selftests: set fake real time in init
-1f2f341a62639c7066ee4c76b7d9ebe867e0a1d5 wireguard: selftests: use virt machine on m68k
-1a087eec257154e26a81a7a0a15380d7a2431765 wireguard: selftests: always call kernel makefile
-b83fdcd9fb8ad7e59f4188ba9ec221917f463a17 wireguard: selftests: use microvm on x86
-b7133757da4c4c17d625970f6da3d76af12a8867 crypto: s390 - do not depend on CRYPTO_HW for SIMD implementations
-0d1f700807d846b00e33cc87d90f404bbc904a97 wireguard: Kconfig: select CRYPTO_CHACHA_S390
-07266d066301b97ad56a693f81b29b7ced429b27 Merge branch 'wireguard-patches-for-5-19-rc6'
-85144df9ff4652816448369de76897c57cbb1b93 drm/i915: fix a possible refcount leak in intel_dp_add_mst_connector()
-25c95bf494067f7bd1dfa8064ef964abe88cafc2 drm/i915/guc: ADL-N should use the same GuC FW as ADL-S
-12058077b2e963d16d2d673d46233a7f46add7c9 drm/i915: Fix vm use-after-free in vma destruction
-7c1aeba7bb977fe327fbc9682e9ccb36134cbf77 dma-buf: Fix one use-after-free of fence
-65a01e601dbba8b7a51a2677811f70f783766682 fbcon: Disallow setting font bigger than screen size
-e64242caef18b4a5840b0e7a9bff37abd4f4f933 fbcon: Prevent that screen size is smaller than font size
-b68277f19e31a25312c4acccadb5cf1502e52e84 drm/ssd130x: Fix pre-charge period setting
-6c11df58fd1ac0aefcb3b227f72769272b939e56 fbmem: Check virtual screen sizes in fb_set_var()
-53a6e66b1b4fea4b52f8bc62e5f9530af9061027 fbcon: Use fbcon_info_from_console() in fbcon_modechange_possible()
-7fd6ef61a5d610b4f74c0ac59450237b40130319 LoongArch: Drop these obsolete selects in Kconfig
-112380996ac22e428264cd7186722e784db887e4 LoongArch: Remove obsolete mentions of vcsr
-e6ee90233eb155991e469d2047855fc466b831b6 LoongArch: Fix build errors for tinyconfig
-f0fbe652e8529a180630617a17cd5922298c4f13 LoongArch: Fix section mismatch warning
-c8e27a4a5136e7230f9e4ffcf132705bf56864cc gpiolib: cdev: fix null pointer dereference in linereq_free()
-f54d45372c6ac9c993451de5e51312485f7d10bc x86/bugs: Add Cannon lake to RETBleed affected CPU list
-38e0e4d04d4187c63d6b511396faae7db6a3cd9e x86/ibt, objtool: Don't discard text references from tracepoint section
-2c08b9b38f5b0f4a6c2d29be22b695e4ec4a556b x86/entry: Move PUSH_AND_CLEAR_REGS() back into error_entry
-fa293fb960ab8350c92e2327a08fc141f228b044 MAINTAINERS: mark ARM/PALM TREO SUPPORT orphan
-d2ee2cfc4aa85ff6a2a3b198a3a524ec54e3d999 ima: Fix a potential integer overflow in ima_appraise_measurement
-040e3360af3736348112d29425bf5d0be5b93115 ASoC: sgtl5000: Fix noise on shutdown/remove
-242a88ff27b23cbf626f9764955d91200f12b53a ASoC: audio_graph_card2: Fix port numbers in example
-f0d96937d31c4615a6418e4bed5cee50a952040e ASoC: ti: omap-mcbsp: duplicate sysfs error
-9e51ac6ea6041641f64fb761ccf9de271e6576cb ASoC: max98396: Fix register access for PCM format settings
-7d90c8e6396ba245da16bedd789df6d669375408 ASoC: tlv320adcx140: Fix tx_mask check
-a5d6d28e2ea38dff017cb562dfbe0259d093a851 ASoC: wcd9335: Use int array instead of bitmask for TX mixers
-71b5ab96ffe6589abe7a2e302b83f7a426ebe099 ASoC: wm5102: Fix event generation for output compensation
-15b2e5d10ccf32a1a1ae7c636511e2f51320fdb5 ASoC: wm8998: Fix event generation for input mux
-870d72ab9228575b2f005c9a23ea08787e0f63e6 ASoC: cs47l92: Fix event generation for OUT1 demux
-f99e930655f411453170a5f332e12c2d2748822e ASoC: arizona: Update arizona_aif_cfg_changed to use RX_BCLK_RATE
-0735e400fa07a3687797f241f5b74d77a6d383c7 ASoC: doc: Capitalize RESET line name
-94c65dffd4c4af052b3ea8934fbcb2fa8da276a8 ASoC: dt-bindings: Fix description for msm8916
-cd10bb89b0d57bca98eb75e0444854a1c129a14e ASoC: tas2764: Add post reset delays
-d1a10f1b48202e2d183cce144c218a211e98d906 ASoC: tas2764: Fix and extend FSYNC polarity handling
-3e99e5697e1f7120b5abc755e8a560b22612d6ed ASoC: tas2764: Correct playback volume range
-1c4f29ec878bbf1cc0a1eb54ae7da5ff98e19641 ASoC: tas2764: Fix amp gain register offset & default
-df5b4aca7248dc5a5cae93f162eae0decf972e48 ASoC: qdsp6: fix potential memory leak in q6apm_get_audioreach_graph()
-c7dab6745f4288af1e45d3809bf86a3778301616 ASoC: Intel: sof_rt5682: fix out-of-bounds array access
-051dade346957d5b68ad986f497835805fa7a9dd ASoC: rt5640: Fix the wrong state of JD1 and JD2
-219af251bd1694bce1f627d238347d2eaf13de61 ASoC: Intel: Skylake: Correct the ssp rate discovery in skl_get_ssp_clks()
-fc976f5629afb4160ee77798b14a693eac903ffd ASoC: Intel: Skylake: Correct the handling of fmt_config flexible array
-a382f8fee42ca10c9bfce0d2352d4153f931f5dc signal handling: don't use BUG_ON() for debugging
-651a8536572ae0dcce608b3e6720ae844155a787 Merge tag 'pinctrl-v5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-ef4ab3ba4e4f99b1f3af3a7b74815f59394d822e Merge tag 'net-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-e8a4e1c1bb697b1d9fc48f0e56dc0f50bc024bee Merge tag 'loongarch-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-0326195f523a549e0a9d7fd44c70b26fd7265090 bpf: Make sure mac_header was set before using it
-0ed8f619b412b52360ccdfaf997223ccd9319569 netfilter: conntrack: fix crash due to confirmed bit load reordering
-c8934e4e348915caac54085c01fd9d04fa16134a PM / devfreq: exynos-bus: Fix NULL pointer dereference
-ba7c3507087aaf98bbeab04a62251bf63c6348c1 Merge tag 'devfreq-fixes-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-ccd3f449052449a917a3e577d8ba0368f43b8f29 scsi: target: Fix WRITE_SAME No Data Buffer crash
-3501f0c663063513ad604fb1b3f06af637d3396d i2c: cadence: Unregister the clk notifier in error path
-bdb2c48e4b38e6dbe82533b437468999ba3ae498 io_uring: explicit sqe padding for ioctl commands
-6b0de7d0f3285df849be2b3cc94fc3a0a31987bf Merge tag 'nvme-5.19-2022-07-07' of git://git.infradead.org/nvme into block-5.19
-029c1c2059e9c4b38f97a06204cdecd10cfbeb8a net: stmmac: dwc-qos: Disable split header for Tegra194
-0680e20af5fbf41df8a11b11bd9a7c25b2ca0746 net: ethernet: ti: am65-cpsw: Fix devlink port register sequence
-fe5235aef8558573c1d225199be3aaa7bcd22943 Merge tag 'mlx5-fixes-2022-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-f46fd3d7c3bd5d7bd5bb664135cf32ca9e97190b net: ocelot: fix wrong time_after usage
-dc5cb7a833e83a0d51373ba7d96e2ed8e1890944 riscv: don't warn for sifive erratas in modules
-2058dc831ff82eb8e93e882efd1ca964bd8a74c8 MAINTAINERS: add polarfire rng, pci and clock drivers
-a902fa8eccaf9ace2886e02aaf75d550996d077b Merge tag 'reset-fixes-for-v5.19' of git://git.pengutronix.de/pza/linux into arm/fixes
-c51b8f85c4157eb91c2f4ab34b0c52fea642e77c MAINTAINERS: Remove iommu@lists.linux-foundation.org
-d4fac258d971bead9a6b5c5ebe2f0e415d05d110 optee: smc_abi.c: fix wrong pointer passed to IS_ERR/PTR_ERR()
-6177a50fd32c6fd956c7265bc5297e725d221bfc ARM: dts: colibri-imx6ull: fix snvs pinmux group
-86c43ea071ae9988b52fd0f654de439da4b5c20a ARM: dts: kswitch-d10: use open drain mode for coma-mode pins
-b66527ee98d0e12fbf570d394fbea2be4ef1229e optee: Remove duplicate 'of' in two places.
-e5ce073c8a1e01b215a5eb32ba48f8d17ded3bd5 tee: tee_get_drvdata(): fix description of return value
-f8d3da4ef8faf027261e06b7864583930dd7c7b9 bpf: Add flags arg to bpf_dynptr_read and bpf_dynptr_write APIs
-2259da159fbe5dba8ac00b560cf00b6a6537fa18 x86/bugs: Do not enable IBPB-on-entry when IBPB is not supported
-820b8963adaea34a87abbecb906d1f54c0aabfb7 net: sock: tracing: Fix sock_exceed_buf_limit not to dereference stale pointer
-1f1be04b4d48a2475ea1aab46a99221bfc5c0968 sysctl: Fix data races in proc_dointvec().
-4762b532ec9539755aab61445d5da6e1926ccb99 sysctl: Fix data races in proc_douintvec().
-f613d86d014b6375a4085901de39406598121e35 sysctl: Fix data races in proc_dointvec_minmax().
-2d3b559df3ed39258737789aae2ae7973d205bc1 sysctl: Fix data races in proc_douintvec_minmax().
-c31bcc8fb89fc2812663900589c6325ba35d9a65 sysctl: Fix data races in proc_doulongvec_minmax().
-e877820877663fbae8cb9582ea597a7230b94df3 sysctl: Fix data races in proc_dointvec_jiffies().
-47e6ab24e8c6e3ca10ceb5835413f401f90de4bf tcp: Fix a data-race around sysctl_tcp_max_orphans.
-3d32edf1f3c38d3301f6434e56316f293466d7fb inetpeer: Fix data-races around sysctl.
-310731e2f1611d1d13aae237abcf8e66d33345d5 net: Fix data-races around sysctl_mem.
-dd44f04b9214adb68ef5684ae87a81ba03632250 cipso: Fix data-races around sysctl.
-48d7ee321ea5182c6a70782aa186422a70e67e22 icmp: Fix data-races around sysctl.
-73318c4b7dbd0e781aaababff17376b2894745c0 ipv4: Fix a data-race around sysctl_fib_sync_mem.
-32b3ad1418ea53184ab7d652f13b5d66414d1bba Merge branch 'sysctl-data-races'
-925b6e59138cefa47275c67891c65d48d3266d57 Revert "drm/amdgpu: add drm buddy support to amdgpu"
-6fb9e1d94789e8ee5a258a23bc588693f743fd6c usb: typec: add missing uevent when partner support PD
-3d0dc539029b09fbd125444c16b11a8ed10b9d0f usb: gadget: uvc: fix changing interface name via configfs
-bb160ee61c04fe96f3cc0088ef1907214861dccc drivers/usb/host/ehci-fsl: Fix interrupt setup in host mode.
-716b10580283fda66f2b88140e3964f8a7f9da89 tty: extract tty_flip_buffer_commit() from tty_flip_buffer_push()
-a501ab75e7624d133a5a3c7ec010687c8b961d23 tty: use new tty_insert_flip_string_and_push_buffer() in pty_write()
-4a47c6385bb4e0786826e75bd4555aba32953653 ovl: turn of SB_POSIXACL with idmapped layers temporarily
-2dc94f06127f306201b10617df54ea7f265bcce9 Merge tag 'tee-fixes-for-v5.19' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
-2fdf15b50a46e366740df4cccbe2343269b4ff55 ARM: dts: at91: sama5d2: Fix typo in i2s1 node
-a4527e1853f8ff6e0b7c2dadad6268bd38427a31 btrfs: return -EAGAIN for NOWAIT dio reads/writes on compressed and inline extents
-2963457829decf0c824a443238d251151ed18ff5 btrfs: zoned: fix a leaked bioc in read_zone_info
-b3a3b0255797e1d395253366ba24a4cc6c8bdf9c btrfs: zoned: drop optimization of zone finish
-086ff84617185393a0bbf25830c4f36412a7d3f4 Merge tag 'for-5.19/fbdev-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-29837019d5ebb80a5f180af3107a0645c731a770 Merge tag 'io_uring-5.19-2022-07-08' of git://git.kernel.dk/linux-block
-884b66976a7279ee889ba885fe364244d50b79e7 ARM: dts: sunxi: Fix SPI NOR campatible on Orange Pi Zero
-a471da3100ef2e8feb8449d378a52e29dd1e9ae1 Merge tag 'block-5.19-2022-07-08' of git://git.kernel.dk/linux-block
-fe7c758c07c4729a16f940eb1d77027ad032ab29 Merge branch 'pm-core'
-2b93fe647c0a901e00eba0adab84a6ecba3f25c4 Merge tag 'gpio-fixes-for-v5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-b4a544e415e9be33b37d9bfa9d9f9f4d13f553d6 arm64: dts: broadcom: bcm4908: Fix timer node for BCM4906 SoC
-8bd582ae9a71d7f14c4e0c735b2eacaf7516d626 arm64: dts: broadcom: bcm4908: Fix cpu node for smp boot
-f5645edf6cffb97d976c6eef31fb536a09f114fd Merge tag 'iommu-fixes-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
-483e4a1d83db1a6d339cd76f7966bf9e1748f752 Merge tag 'cxl-fixes-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-3784fad934c5bd68551f0af4252821697957a72a Merge tag 'pm-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-525496a030de4ae64bb9e1d6bfc88eec6f5fe6e2 Merge tag 'acpi-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-12dc6adc49c9c491d830504e1e01b688ef789093 Input: wm97xx - make .remove() obviously always return 0
-5e7230a4daf97d2fb4c764395f1c79fc420dd96f Merge tag 'at91-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-5b7925988de4653f70831857c269af083806177a Merge tag 'sunxi-fixes-for-5.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-3f231ccb38835121034a8fe09c798e57801ff4fd Merge tag 'sunxi-fixes-for-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-3418357a32db6c8ce5e4417964bac1edcc3f281a ptrace: fix clearing of JOBCTL_TRACED in ptrace_unfreeze_traced()
-7c895ef88403bf970843c443a29e0385f65c3f39 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-e5524c2a1fc4002a52e16236659e779767617a4f Merge tag 'fscache-fixes-20220708' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-437ac2592c09fcf27430db3ac878d2a566a58692 selftests: forwarding: Install local_termination.sh
-cfbba7b46aef631445909ab4c35b98c16e36074b selftests: forwarding: Install no_forwarding.sh
-6676d7270ce254596ab1d4ae0de27b8e19705d44 Merge branch 'selftests-forwarding-install-two-missing-tests'
-3de93e6ed2df6521e3f68fb45eec0bb4fe1bb218 Input: goodix - call acpi_device_fix_up_power() in some cases
-2a96271fb66c499e4a89d76a89d3d01170c10bef Input: document the units for resolution of size axes
-7a847c00eeba9744353ecdfad253143b9115678a netfilter: nf_log: incorrect offset to network header
-697977d8415d61f3acbc4ee6d564c9dcf0309507 x86/kexec: Disable RET on kexec
-4ad3278df6fe2b0852b00d5757fc2ccd8e92c26e x86/speculation: Disable RRSBA behavior
-9c840d5f9aaef87e65db900bae21c70b059aba5f nfp: fix issue of skb segments exceeds descriptor limitation
-72a0b329114b1caa8e69dfa7cdad1dd3c69b8602 vlan: fix memory leak in vlan_newlink()
-d785a773bed966a75ca1f11d108ae1897189975b io_uring: check that we have a file table when allocating update slots
-c39ba4de6b0a843bec5d46c2b6f2064428dada5e netfilter: nf_tables: replace BUG_ON by element length check
-a4bd9358d5539516c19daa1b35b36bbc0c0637df Merge tag 'asoc-fix-v5.19-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-d9cdc3b12525c85b4a2a8b6f3f8f61d9f467ab9a Merge tag 'powerpc-5.19-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-de2a34771f5123270bc3842535ac91673116dd03 ptrace: fix clearing of JOBCTL_TRACED in ptrace_unfreeze_traced()
-84499c5d220a4f8fb0a35fa4673148525c81ea83 drm/aperture: Run fbdev removal before internal helpers
-b1c428b6c3684ee8ddf4137d68b3e8d51d2a700f Merge tag 'i2c-for-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-cb8a4beac39b90cd60abbf9fd639a3357274e469 x86/boot: Fix the setup data types max limit
-f5a4618587fb5c5eb5fec3dcce165ca8fd7d7f91 kbuild: remove unused cmd_none in scripts/Makefile.modinst
-1968f2be5c03073c3f90d49226723eac4d431282 platform/x86/amd/pmc: Add new acpi id for PMC controller
-4ddef52f26cfaf330240c93d7685a00628c66b04 platform/x86/amd/pmc: Add new platform support
-5d62261a65698c1ee4e71f00963b269282015b1e platform/x86: gigabyte-wmi: add support for B660I AORUS PRO DDR4
-4ce8f4c2027db46299b450b28e9e116aaf00a757 platform/x86: x86-android-tablets: Fix Lenovo Yoga Tablet 2 830/1050 poweroff again
-d40908f2621ea7abc6132ec8c5688a2960eeee3c efi: Fix efi_power_off() not being run before acpi_power_off() when necessary
-f56e676a7f1ca7de9002526df3d2ee0e47dfd8ce platform/x86: asus-wmi: Add key mappings
-c483e7ea10fa889f9da5012753a6766be6e11309 platform/x86/intel/ifs: Mark as BROKEN
-74a0032b8524ee2bd4443128c0bf9775928680b0 Merge tag 'x86_urgent_for_v5.19_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2b9b31cedb7064b16510251cf20ed44b05b71456 Merge tag 'irq_urgent_for_v5.19_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2fbd36dfae40cc90ba6a4761e0efff62e4d919fe Merge tag 'kbuild-fixes-v5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-d9919d43cbf6790d2bc0c0a2743c51fc25f26919 Merge tag 'io_uring-5.19-2022-07-09' of git://git.kernel.dk/linux-block
-b41362fdf26710693535fade5e4eeda019c3b410 Merge tag 'char-misc-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-5867f3b88bb54016c42cdde510c184255488a12b Merge tag 'staging-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-b0d55983b2b885f6f96d6d6898d27a60bd9dc9a2 platform/x86: intel_atomisp2_led: Also turn off the always-on camera LED on the Asus T100TAF
-952c53cd357c71338a59d444933ed48a879229e1 Merge tag 'dmaengine-fix-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-fc82bbf4dede758007763867d0282353c06d1121 ida: don't use BUG_ON() for debugging
-24f4b40ec2184f3698faed3082895fcc1f6be282 Merge branch 'hot-fixes' (fixes for rc6)
-32346491ddf24599decca06190ebca03ff9de7f8 Linux 5.19-rc6
-88573389aaa34640b9ecde15622c68e8737d8f8c riscv: Fix missing PAGE_PFN_MASK
-be82abe6a76ba8e76f25312566182b0f13c4fbf9 RISC-V: KVM: Fix SRCU deadlock caused by kvm_riscv_check_vcpu_requests()
-e87197fbd137c888fd6c871c72fe7e89445dd015 drm/i915/gvt: IS_ERR() vs NULL bug in intel_gvt_update_reg_whitelist()
-5e8afb8792f3b6ae7ccf700f8c19225382636401 RDMA/irdma: Do not advertise 1GB page size for x722
-cc0315564d6eec91c716d314b743321be24c70b3 RDMA/irdma: Fix sleep from invalid context BUG
-50e2ab39291947b6c6c7025cf01707c270fcde59 wifi: mac80211: fix queue selection for mesh/OCB interfaces
-166d3863231667c4f64dee72b77d1102cdfad11f xen/gntdev: Ignore failure to unmap INVALID_GRANT_HANDLE
-5c835bb142d4013c2ab24bff5ae9f6709a39cbcf mptcp: fix subflow traversal at disconnect time
-3ddabc433670292492d217e0f3b5ce017c42da2c selftests: mptcp: validate userspace PM tests by default
-3c079a22db79cf2cdd1b13b41a5447790e08069a Merge branch 'mptcp-fixes'
-e45955766b4300e7bbeeaa1c31e0001fe16383e7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-01277737e9bedf74b094c43704aa2ec7c1bc1230 Merge tag 'imx-fixes-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-c3b821e8e406d5650e587b7ac624ac24e9b780a8 pinctrl: ralink: Check for null return of devm_kcalloc
-acf50233fc979b566e3b87d329191dcd01e2a72c pinctrl: sunplus: Add check for kcalloc
-a9ab5bf33ce9883fbf5c2fc8f4eada00c46dc089 MAINTAINERS: Update freescale pin controllers maintainer
-26b9f2fa7b1c6aba6fa9b83274a3e54868f69562 ASoC: rockchip: i2s: Fix NULL pointer dereference when pinctrl is not found
-5f3fe25e70559fa3b096ab17e13316c93ddb7020 ALSA: hda/realtek: Fix headset mic for Acer SF313-51
-d16d69bf5a25d91c6d8f3e29711be12551bf56cd ALSA: hda/conexant: Apply quirk for another HP ProDesk 600 G3 model
-d5b36a4dbd06c5e8e36ca8ccc552f679069e2946 fix race between exit_itimers() and /proc/pid/timers
-816e51dfb5ba47e4f989af656c956a8c0cc686c0 Merge tag 'vfio-v5.19-rc7' of https://github.com/awilliam/linux-vfio
-e69a66147d49506062cd837f3b230ee3e98102ab module: kallsyms: Ensure preemption in add_kallsyms() with PREEMPT_RT
-5b2f3e0777da2a5dd62824bbe2fdab1d12caaf8f NFSD: Decode NFSv4 birth time attribute
-b5374396e5de0402822bce4945c886d2a2962a40 Merge tag 'modules-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
-aec158242b87a43d83322e99bc71ab4428e5ab79 lockd: set fl_owner when unlocking files
-8e59a6a7a4fa0bbcd174ea75f1da9531d3857937 Merge tag 'mm-hotfixes-stable-2022-07-11' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-1197eb5906a5464dbaea24cac296dfc38499cc00 lockd: fix nlm_close_files
-23458ac91dc8e9a30c95b4208727f7e053eb5ff8 Merge tags 'free-mq_sysctls-for-v5.19' and 'ptrace_unfreeze_fix-for-v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-5a29232d870d9e63fe5ff30b081be6ea7cc2465d Merge tag 'for-5.19-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7de96365878f769f21eae8205fc58f7f61250745 Merge tag 'amd-drm-fixes-5.19-2022-07-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-42e0a87233e373e1c0d0831d342294b1ba103d23 Merge tag 'drm-intel-fixes-2022-07-07' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-3590b44b9434af1b9c81c3f40189087ed4fe3635 Merge tag 'drm-misc-fixes-2022-07-07-1' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
-ce114c866860aa9eae3f50974efc68241186ba60 Merge tag 'x86_bugs_retbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4a46de446d3fb9ae304dd0f4b4fceb551b152498 selftest: net: add tun to .gitignore
-841bdf85c226803a78a9319af9b2caa9bf3e2eda ALSA: hda - Add fixup for Dell Latitidue E5430
-dbe75d314748e08fc6e4576d153d8a69621ee5ca ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-f946964a9f79f8dcb5a6329265281eebfc23aee5 net: marvell: prestera: fix missed deinit sequence
-e79b9473e9b59e83e23db9b7411c6080b5a6826d net: ipv4: fix clang -Wformat warnings
-7329b071729645e243b6207e76bca2f4951c991b gpio: sim: fix the chip_name configfs item
-c27c753ea6fd1237f4f96abf8b623d7bab505513 x86/static_call: Serialize __static_call_fixup() properly
-a77c46f2b4d48a81f36442ee0c2160baebf6c1a0 MAINTAINERS: change the NXP FSPI driver maintainer.
-50bd7d5a647bdf533575111c5335f49707c2ce2f cifs: fix race condition with delayed threads
-2883f4b5a0e1ac9472c7e3ae9bbdb4ea5a2117c6 cifs: remove unnecessary locking of chan_lock while freeing session
-0d8ba24e72b6ec45b1d62148c711bad54483b29a Merge tag 'x86_bugs_retbleed' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-29851567d1aa8f0045170545d2e1a5d7a4057667 Merge tag 'drm-fixes-2022-07-12' of git://anongit.freedesktop.org/drm/drm
-72a8e05d4f66b5af7854df4490e3135168694b6b Merge tag 'ovl-fixes-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
-f52d166819a4d8e0d5cca07d8a8dd6397c96dcf1 ice: handle E822 generic device ID in PLDM header
-7b6f9462a3234c35cf808453d39a074a04e71de1 ice: change devlink code to read NVM in blocks
-7edc3945bdce9c39198a10d6129377a5c53559c2 tracing/histograms: Fix memory leak problem
-495fcec8648cdfb483b5b9ab310f3839f07cb3b8 tracing: Fix sleeping while atomic in kdb ftdump
-0a6d7d45414a77876e8e9a77e454af754cea3a60 ftrace: Be more specific about arch impact when function tracer is enabled
-0bb7e14c8e15ad78b7300e7d89a615ea8b8c89a9 blk-iocost: tracing: atomic64_read(&ioc->vtime_rate) is assigned an extra semicolon
-e3655dfa58053d614ca9601c36657b469402650f fprobe/samples: Make sample_probe static
-1e1fb420fe68d9d938db360fec700dfd230cc22a samples: Use KSYM_NAME_LEN for kprobes
-046cd8a2a9eec7c2b46b03958a2b6252ddff55b2 drm/i915: fix a possible refcount leak in intel_dp_add_mst_connector()
-1391b9cfd35bb8f10785a17cb4bb5ea8d10faaae drm/i915/guc: ADL-N should use the same GuC FW as ADL-S
-48da0f67c53eecd2594c302be6c8a665b7740eaf drm/i915: Fix vm use-after-free in vma destruction
-f99546298a4537965b75d518c210742f641be389 Merge tag 'gvt-fixes-2022-07-11' of https://github.com/intel/gvt-linux into drm-intel-fixes
-896dcabd1f8f613c533d948df17408c41f8929f5 drm/i915/selftests: fix a couple IS_ERR() vs NULL tests
-aff1e0b09b54b64944b7fe32997229552737b9e9 drm/i915/ttm: fix sg_table construction
-b24dcf1dc507f69ed3b5c66c2b6a0209ae80d4d4 drm/i915/gt: Serialize GRDOM access between multiple engine resets
-a1c5a7bf79c1faa5633b918b5c0666545e84c4d1 drm/i915/gt: Serialize TLB invalidates with GT resets
-ad765fae792e16ce3c1d0b69ce939e3f7dba40ab drm/i915/gem: Look for waitboosting across the whole object prior to individual waits
-333991c4e66b3d4b5613315f18016da80344f659 drm/i915/selftests: fix subtraction overflow bug
-b047602d579b4fb028128a525f056bbdc890e7f0 Merge tag 'trace-v5.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-c5b744d38c36a407a41e918602eec4d89730787b bnxt_en: reclaim max resources if sriov enable fails
-4279414bff8af9898e8c53ae6c5bc17f68ad67b7 bnxt_en: Fix bnxt_reinit_after_abort() code path
-619b9b1622c283cc5ca86f4c487db266a8f55dab bnxt_en: fix livepatch query
-53f8c2d37efb5b03b9527ad04332df3bb889f0fa bnxt_en: Fix and simplify XDP transmit path
-ddde5412fdaa5048bbca31529d46cb8da882870c bnxt_en: Fix bnxt_refclk_read()
-22b9c41a3fb8ef4624bcda312665937d2ba98aa7 Merge branch 'bnxt_en-5-bug-fixes'
-7c239a071d1f04b7137789810807b4108d475c72 USB: serial: ftdi_sio: add Belimo device ids
-61d307855eb1a2ae849da445edd5389db8a58a5c ALSA: hda/realtek: fix mute/micmute LEDs for HP machines
-4ba5c853d7945b3855c3dcb293f7f9f019db641e ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc221
-52905140c3ed42a16644650d431cdd1051a0a337 Merge tag 'arm-soc/for-5.19/devicetree-arm64-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
-d332a1f6b4c4b07bf984f04df897818c7c7fce8f Merge tag 'qcom-dts-fixes-for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-68e3c69803dada336893640110cb87221bb01dcf perf/core: Fix data race between perf_event_set_output() and perf_mmap_close()
-51189eb9ddc88851edc42f539a0f9862fd0630c2 mmc: sdhci-omap: Fix a lockdep warning for PM runtime init
-9b043a8f386485c74c0f8eea2c287d5bdbdf3279 ALSA: hda/realtek - Enable the headset-mic on a Xiaomi's laptop
-3131ef39fb03bbde237d0b8260445898f3dfda5b x86/asm/32: Fix ANNOTATE_UNRET_SAFE use on 32-bit
-230ec83d4299b30c51a1c133b4f2a669972cc08a x86/pat: Fix x86_has_pat_wp()
-d2394860b45c3c1484e4b0a5d09909a1e3f6569e cpufreq: mediatek: Handle sram regulator probe deferral
-7dee5d7747a69aa2be41f04c6a7ecfe3ac8cdf18 sysctl: Fix data-races in proc_dou8vec_minmax().
-7d1025e559782b58824b36cb8ad547a69f2e4b31 sysctl: Fix data-races in proc_dointvec_ms_jiffies().
-6f605b57f3782114e330e108ce1903ede22ec675 tcp: Fix a data-race around sysctl_max_tw_buckets.
-bb7bb35a63b4812da8e3aff587773678e31d23e3 icmp: Fix a data-race around sysctl_icmp_echo_ignore_all.
-4a2f7083cc6cb72dade9a63699ca352fad26d1cd icmp: Fix data-races around sysctl_icmp_echo_enable_probe.
-66484bb98ed2dfa1dda37a32411483d8311ac269 icmp: Fix a data-race around sysctl_icmp_echo_ignore_broadcasts.
-b04f9b7e85c7d7aecbada620e8759a662af068d3 icmp: Fix a data-race around sysctl_icmp_ignore_bogus_error_responses.
-d2efabce81db7eed1c98fa1a3f203f0edd738ac3 icmp: Fix a data-race around sysctl_icmp_errors_use_inbound_ifaddr.
-2a4eb714841f288cf51c7d942d98af6a8c6e4b01 icmp: Fix a data-race around sysctl_icmp_ratelimit.
-1ebcb25ad6fc3d50fca87350acf451b9a66dd31e icmp: Fix a data-race around sysctl_icmp_ratemask.
-1dace014928e6e385363032d359a04dee9158af0 raw: Fix a data-race around sysctl_raw_l3mdev_accept.
-4785a66702f086cf2ea84bdbe6ec921f274bd9f2 tcp: Fix data-races around sysctl_tcp_ecn.
-12b8d9ca7e678abc48195294494f1815b555d658 tcp: Fix a data-race around sysctl_tcp_ecn_fallback.
-e49e4aff7ec19b2d0d0957ee30e93dade57dab9e ipv4: Fix data-races around sysctl_ip_dynaddr.
-bdf00bf24bef9be1ca641a6390fd5487873e0d2e nexthop: Fix data-races around nexthop_compat_mode.
-7d5424b26f17b74d94e73815718b424ad207a3e7 Merge branch 'net-sysctl-races'
-49b9f431ff0d845a36be0b3ede35ec324f2e5fee net: ftgmac100: Hold reference returned by of_get_child_by_name()
-23aa6d5088e3bd65de77c5c307237b9937f8b48a net: stmmac: fix leaks in probe
-c4e789572557aa147b13bf7fe09cc99663ed0cf5 s390/nospec: build expoline.o for modules_prepare target
-a0b0987a781157263b82f4022649cf686d36c787 s390/nospec: remove unneeded header includes
-67de8acdd375e6f0d4ee9aa5745b9f9b329980b7 Merge tag 'wireless-2022-07-13' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-057cc8c9005e23330e368afd18839ce3764dc0af r8152: fix accessing unset transport header
-b11e5f6a3a5c170d16c2cf0b1d8053bbf1f6b7de net: sunhme: output link status with a single print.
-af16df54b89dee72df253abc5e7b5e8a6d16c11c ima: force signature verification when CONFIG_KEXEC_SIG is configured
-067d2521874135267e681c19d42761c601d503d6 ima: Fix potential memory leak in ima_init_crypto()
-acea108fa067d140bd155161a79b1fcd967f4137 drm/amd/display: Ignore First MST Sideband Message Return Error
-c0044865480a162146b9dfe7783e73a08e97b2b9 drm/amdkfd: correct the MEC atomic support firmware checking for GC 10.3.7
-add61d3c31de6a4b5e11a2ab96aaf4c873481568 drm/amd/display: Only use depth 36 bpp linebuffers on DCN display engines.
-0638c98c17aa12fe914459c82cd178247e21fb2b drm/amd/pm: Prevent divide by zero
-47053b1e7382628dd30415685ae257f766a311e4 drm/amd/display: correct check of coverage blend mode
-3283c83eb6fcfbda8ea03d7149d8e42e71c5d45e drm/amd/display: Ensure valid event timestamp for cursor-only commits
-5750676b64a561f7ec920d7c6ba130fc9c7378f3 fs/remap: constrain dedupe of EOF blocks
-7fccd723912702acfc2d75e8f0596982534f7f24 Merge tag 'dt-fixes-for-palmer-5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git into fixes
-d0b97f3891fb414bd1fd1cb3d83f0f6b9fd0d357 Merge tag 'cgroup-for-5.19-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-4a57a8400075bc5287c5c877702c68aeae2a033d vf/remap: return the amount of bytes actually deduplicated
-fbd74d16890b9f5d08ea69b5282b123c894f8860 ACPI: CPPC: Fix enabling CPPC on AMD systems with shared memory
-32f319183c439b239294cb2d70ada3564c4c7c39 smb3: workaround negprot bug in some Samba servers
-ebe41da5d47ac0fff877e57bd14c54dccf168827 sfc: fix use after free when disabling sriov
-8312cd3a7b835ae3033a679e5f0014a40e7891c5 scsi: megaraid: Clear READ queue map's nr_queues
-f46a5a9c679f495c555b7842807db5e886a9e650 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-2ae57c995003a7840cb6b5ec5f0c06193695321b scsi: ufs: core: Drop loglevel of WriteBoost message
-52a518019ca187227b786f8b8ee20869a97f3af4 scsi: ufs: core: Fix missing clk change notification on host reset
-e78276cadb669d3e55cffe66bd166ff3c8572e38 scsi: pm80xx: Fix 'Unknown' max/min linkrate
-355bf2e036c954317ddc4a9618b4f7e38ea5a970 scsi: pm80xx: Set stopped phy's linkrate to Disabled
-33a8573bdfeec5b746aedeea880733a4c7993158 x86/bugs: Mark retbleed_strings static
-d16e0b26672066035439b2f49887f6576c4a3689 x86/entry: Remove UNTRAIN_RET from native_irq_return_ldt
-fac47b43c760ea90e64b895dba60df0327be7775 netfs: do not unlock and put the folio twice
-df8386d13ea280d55beee1b95f61a59234a3798b seg6: fix skb checksum evaluation in SRH encapsulation/insertion
-f048880fc77058d864aff5c674af7918b30f312a seg6: fix skb checksum in SRv6 End.B6 and End.B6.Encaps behaviors
-4889fbd98deaf243c3baadc54e296d71c6af1eb0 seg6: bpf: fix skb checksum in bpf_push_seg6_encap()
-cc91b09b9ef8f8a9f29b4fdff5f65ab5700872e2 Merge branch 'seg6-fix-skb-checksum-for-srh-encapsulation-insertion'
-d13122ca3cdf75f0ab82b4080c2058604834d1da Merge tag 'kvm-riscv-fixes-5.19-2' of https://github.com/kvm-riscv/linux into HEAD
-ada74c5539eba06cf8b47d068f92e0b3963a9a6e sfc: fix kernel panic when creating VF
-0f33250760384e05c36466b0a2f92f3c6007ba92 net: atlantic: remove deep parameter on suspend/resume functions
-2e15c51fefaffaf9f72255eaef4fada05055e4c5 net: atlantic: remove aq_nic_deinit() when resume
-564d998106397394b6aad260f219b882b3347e62 um: Add missing apply_returns()
-99482726452bdf8be9325199022b17fa6d7d58fe KVM: nVMX: Always enable TSC scaling for L2 when it was enabled for L1
-84e7051c0bc1f2a13101553959b3a9d9a8e24939 x86/kvm: fix FASTOP_SIZE when return thunks are enabled
-1b870fa5573e260bc74d19f381ab0dd971a8d8e7 kvm: stats: tell userspace which values are boolean
-942d9e89524c135615e557fffa144104ea8fb361 Documentation: kvm: clarify histogram units
-8030aa3ce12e3b9d47afa62344c601ed508c2d9e ARM: 9207/1: amba: fix refcount underflow if amba_device_add() fails
-29589ca09a74cfc0c50ad002e298bf4b8e69e0bd ARM: 9208/1: entry: add .ltorg directive to keep literals in range
-1e347f861da8ddb17e1d1b3113cb6c188e0de3e5 ASoC: rockchip-i2s: Undo BCLK pinctrl changes
-73d5fe046270281a46344e06bf986c607632f7ea spi: cadence-quadspi: Remove spi_master_put() in probe failure path
-747c14307214b55dbd8250e1ab44cad8305756f1 ip: fix dflt addr selection for connected nexthop
-cd72e61bad145a0968df85193dcf1261cb66c4c6 selftests/net: test nexthop without gw
-cca3f3381bef16ae04933cc3ff480952f7ae298f Merge commit 'kvm-vmx-nested-tsc-fix' into kvm-master
-7e50133234007f77d40c5ad871960a3171b362c3 Merge tag 'v5.19-rc6' into usb-linus
-3486af89dd3c0b0bef194c4bccf17c31ef16b99f Merge tag 'usb-serial-5.19-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-081f5e753c9c4cd1dd86000bcc7f5fe14cbdcab0 nvme-pci: fix freeze accounting for error handling
-6961b5e02876b3b47f030a1f1ee8fd3e631ac270 nvme: fix block device naming collision
-8a414f943f8b5f94bbaafdec863d6f3dbef33f8a KVM: x86: Fully initialize 'struct kvm_lapic_irq' in kvm_pv_kick_cpu_op()
-b49feacbeffc7635cc6692cbcc6a1eae2c17da6f e1000e: Enable GPT clock before sending message to CSME
-6cfa45361d3eac31ba67d7d0bbef547151450106 Revert "e1000e: Fix possible HW unit hang after an s0ix exit"
-7c1ddcee5311f3315096217881d2dbe47cc683f9 igc: Reinstate IGC_REMOVED logic and implement it properly
-c24b06e1c237ee2bf3245786b0ee844ddd1610be Merge tag 'nvme-5.19-2022-07-14' of git://git.infradead.org/nvme into block-5.19
-957a2b345cbcf41b4b25d471229f0e35262f066c block: fix missing blkcg_bio_issue_init
-d11219ad53dcf61ced53ca60fe0c4a8d34393e6c amdgpu: disable powerpc support for the newer display engine
-94e8100678889ab428e68acadf042de723f094b9 xen/netback: avoid entering xenvif_rx_next_skb() with an empty rx queue
-51f1c31f8ba713f70f1659e7c91e837fe5f5554f MAINTAINERS: Add an additional maintainer to the AMD XGBE driver
-3d8c51b25a235e283e37750943bbf356ef187230 net/tls: Check for errors in tls_device_init
-656bd03a2cd853e7c7c4e08968ad8c0ea993737d nfp: flower: configure tunnel neighbour on cmsg rx
-c4634a3c7dcabed7321304efc00b5a81559adeca Merge tag 'sound-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-097da1a44d1aef15739214fecf8f4c63792bb665 um: Replace to_phys() and to_virt() with less generic function names
-2eb5866cac07121b0990d0af5085e36ca5b1ccad Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-4adfa865bb972d38d35a6fb19e59a86074d25a75 Merge tag 'integrity-v5.19-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-a24a6c05ffa7adb3f2d4b417ca46eedbe67b7302 Merge tag 'nfsd-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-f41d5df5f146d606df02ec8fafd080a5ee6e6e81 Merge tag '5.19-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-5ad26161a371e4aa2d2553286f0cac580987a493 ACPI: video: Fix acpi_video_handles_brightness_key_presses()
-9bd572ec7a66b56e1aed896217ff311d981cf575 Merge tag 'net-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-43b5240ca6b33108998810593248186b1e3ae34a mm: sysctl: fix missing numa_stat when !CONFIG_HUGETLB_PAGE
-a927444aa953f757eaea5bb3615916fba6db58bf RISCV: kexec: Fix build error without CONFIG_MODULES
-3a66a087599483612a6e6a4970ec403e61c30821 RISC-V: kexec: Fix build error without CONFIG_KEXEC
-89551fdd44a272ac88258b231b07e5644fd2b2e7 riscv: dts: align gpio-key node names with dtschema
-db886979683a8360ced9b24ab1125ad0c4d2cf76 x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
-b926f2adb0442090351dc8321ec1f99b22e372da Revert "vf/remap: return the amount of bytes actually deduplicated"
-e5d523f1ae8f2cef01f8e071aeee432654166708 ubsan: disable UBSAN_DIV_ZERO for clang
-b1f4347f732f84c7ef77467a20edc893e9ec5f92 Merge tag 'drm-misc-fixes-2022-07-14' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-5bde069b305037f9a0beb95094e047d45de9a249 Merge tag 'drm-intel-fixes-2022-07-13' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-093f8d8f10aa22935bc8bf7100700f714ebaba9c Merge tag 'amd-drm-fixes-5.19-2022-07-13' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-2f23256c0ea20627c91ea2d468cda945f68c3395 s390/ap: fix error handling in __verify_queue_reservations()
-9023ca0866250d268b047f21e1392e7a81277a54 printk: do not wait for consoles when suspended
-cf33ce6f0c220fbfe5dafcb08d4c5655097a5fa4 Merge tag 'asoc-fix-v5.19-rc4-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-8281b7ec5c56b71cb2cc5a1728b41607be66959c ip: Fix data-races around sysctl_ip_default_ttl.
-0968d2a441bf6afb551fd99e60fa65ed67068963 ip: Fix data-races around sysctl_ip_no_pmtu_disc.
-60c158dc7b1f0558f6cadd5b50d0386da0000d50 ip: Fix data-races around sysctl_ip_fwd_use_pmtu.
-7bf9e18d9a5e99e3c83482973557e9f047b051e7 ip: Fix data-races around sysctl_ip_fwd_update_priority.
-289d3b21fb0bfc94c4e98f10635bba1824e5f83c ip: Fix data-races around sysctl_ip_nonlocal_bind.
-0db232765887d9807df8bcb7b6f29b2871539eab ip: Fix a data-race around sysctl_ip_autobind_reuse.
-85d0b4dbd74b95cc492b1f4e34497d3f894f5d9a ip: Fix a data-race around sysctl_fwmark_reflect.
-1a0008f9df59451d0a17806c1ee1a19857032fa8 tcp/dccp: Fix a data-race around sysctl_tcp_fwmark_accept.
-08a75f10679470552a3a443f9aefd1399604d31d tcp: Fix data-races around sysctl_tcp_l3mdev_accept.
-f47d00e077e7d61baf69e46dde3210c886360207 tcp: Fix data-races around sysctl_tcp_mtu_probing.
-88d78bc097cd8ebc6541e93316c9d9bf651b13e8 tcp: Fix data-races around sysctl_tcp_base_mss.
-78eb166cdefcc3221c8c7c1e2d514e91a2eb5014 tcp: Fix data-races around sysctl_tcp_min_snd_mss.
-8e92d4423615a5257d0d871fc067aa561f597deb tcp: Fix a data-race around sysctl_tcp_mtu_probe_floor.
-92c0aa4175474483d6cf373314343d4e624e882a tcp: Fix a data-race around sysctl_tcp_probe_threshold.
-2a85388f1d94a9f8b5a529118a2c5eaa0520d85c tcp: Fix a data-race around sysctl_tcp_probe_interval.
-782d86fe44e38c0a02e92042fff2ce417d62c61a Merge branch 'net-sysctl-races-round2'
-fa4b3ca60e8011d3046765b3de8d3f1ffc53af28 stmmac: dwmac-mediatek: fix clock issue
-0d9a15913b871e03fdd3b3d90a2e665fb22f9bcf net: stmmac: fix pm runtime issue in stmmac_dvr_remove()
-f4c7d8948e866918d61493264dbbd67e45ef2bda net: stmmac: fix unbalanced ptp clock issue in suspend/resume flow
-8f3184b951164131a8b35770f225082cc02008be Merge branch 'stmmac-dwmac-mediatec-clock-fix'
-79629181607e801c0b41b8790ac4ee2eb5d7bc3e KVM: emulate: do not adjust size of fastop and setcc subroutines
-5a5adb1528e59e8a4b23ffa7dda4849b61e97cf8 Merge tag 'cpufreq-arm-fixes-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-2d4bd81fea1ad6ebba543bd6da3ef5179d130e6a drm/amd/display: Fix new dmub notification enabling in DM
-9b04369b060fd4885f728b7a4ab4851ffb1abb64 drm/scheduler: Don't kill jobs in interrupt context
-1ac8ec2731a5ae0f283d103873be7b945ba97e90 Merge branch 'rework/kthreads' into for-linus
-0fddf9ad06fd9f439f137139861556671673e31c mtd: rawnand: gpmi: Set WAIT_FOR_READY timeout based on program/erase times
-862161e8af0db1b725c6ad5fd93aa636125f3db5 Merge tag 'sysctl-fixes-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
-fcd1b2b9c7b085e9c200f73c079b322eb8c666f9 Merge tag 'drm-fixes-2022-07-15' of git://anongit.freedesktop.org/drm/drm
-339f74e38f53c83b5715abd28f7002b66731d917 Merge tag 'for-linus-5.19a-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-2a347a06ebb1b186a5cb919c9f5ab6e040554be7 Merge tag 'platform-drivers-x86-v5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-fc7cbcd4890e297de5d6487e04344a99b39de9be Revert "btrfs: turn fs_roots_radix in btrfs_fs_info into an XArray"
-01cd390903e00c8f42ba0e84f25a70e3d613a15c Revert "btrfs: turn fs_info member buffer_radix into XArray"
-5b8418b84303d9a0a0f7f28d6eaed915247ebdc3 Revert "btrfs: turn name_cache radix tree into XArray in send_ctx"
-088aea3b97e0ae5a2a86f5d142ad10fec8a1b80f Revert "btrfs: turn delayed_nodes_tree into an XArray"
-1c49f281c9b78da9c0f0d7a8965c26fb46e71a53 Merge tag 'soc-fixes-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-8006112d6c4137bc48ca723261198c63d9e6d38a Merge tag 'spi-fix-v5.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-1ce9d792e8ef286ed03b151b9bdfcd921e04a988 Merge tag 'ceph-for-5.19-rc7' of https://github.com/ceph/ceph-client
-a8ebfcd33caf29592957229c8350f67b48b8efce Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-9b59ec8d50a1f28747ceff9a4f39af5deba9540e Merge tag 'riscv-for-linus-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-a14bd7475452c51835dd5a0cee4c8fa48dd0b539 net: dsa: microchip: ksz_common: Fix refcount leak bug
-df254d4508f96f298be8aff08da4d7e33d8584a0 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-11052589cf5c0bab3b4884d423d5f60c38fcf25d tcp/udp: Make early_demux back namespacified.
-bcf163150cd37348a0cb59e95c916a83a9344b0e x86/bugs: Remove apostrophe typo
-e1f77ecc75aaee6bed04e8fd7830e00032af012e i2c: mlxcpld: Fix register setting for 400KHz frequency
-824a826e2e767ae1051a4c5c8ea44ec7a0c1dd26 i2c: imx: fix typo in comment
-4ca8ca873d454635c20d508261bfc0081af75cf8 i2c: cadence: Change large transfer count reset logic to be unconditional
-51a6fa0732d6be6a44e0032752ad2ac10d67c796 efi/x86: use naked RET on mixed mode call wrapper
-829d680e82a961c5370d9636130b43009ac36eb8 random: cap jitter samples per bit to factor of HZ
-be9b7b6acfeae47778f829d9d176ab1f9269593e Merge tag 'printk-for-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-16c957f089d520893b0b08e06641329fbcec492d Merge tag 'acpi-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ab6efe68a736748cf922a7641751583a3c783cb1 Merge tag 'pm-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c658cabbfd32527060c2367f405bafb4e5815c6e Merge tag 's390-5.19-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-8c91723ac9c60840e3a9819e5f767af3e7ca2660 Merge tag 'tty-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-9ed714dbd574663c1fcb01dde07e949fe7473fa8 Merge tag 'usb-5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-6bca047ecd675325eca4bc0753ef91864954bd3d Merge tag 'block-5.19-2022-07-15' of git://git.kernel.dk/linux-block
-c5fe7a97f20c7f3070ac870144515c0fabc6b999 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-972a278fe60c361eb8f37619f562f092e8786d7c Merge tag 'for-5.19-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-eee51fe38e372b89317f3950d2dc3e3ea7bace12 tools headers UAPI: Sync linux/kvm.h with the kernel sources
-f098addbdb44c8a565367f5162f3ab170ed9404a tools headers cpufeatures: Sync with the kernel sources
-91d248c3b903b46a58cbc7e8d38d684d3e4007c2 tools arch x86: Sync the msr-index.h copy with the kernel sources
-498c7a54f169b2699104d3060604d840424f15d2 perf tests: Stop Convert perf time to TSC test opening events twice
-deb44a6249f696106645c63c0603eab08a6122af perf tests: Fix Convert perf time to TSC test for hybrid
-4b335e1e0d6f8fa91dac615a44b123c9f26e93d3 perf trace: Fix SIGSEGV when processing syscall args
-396df7005ba0f02646e96e05456a14b52e0f02f4 Merge tag 'for-v5.19-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-8ad4b6fa0f874ec8ec6e92a90116e3ab43cded6c Merge tag 'input-for-v5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-2eccaca7b62b2836260c6fb22156a44e3d99a74a Merge tag 'gpio-fixes-for-v5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-59c80f053d50467758c8284348b463fa820b1b1f Merge tag 'x86_urgent_for_v5.19_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2b18593e4b9f5781a7683fca256036515bd9b946 Merge tag 'perf_urgent_for_v5.19_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ced7866db39fc5c59ee05e154d4abc0977a17f6b drm/i915/ttm: fix 32b build
-f7f4da303dd8946228860e78bd7f36c2cc47a636 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-55ea9bd666887ed4159df38d1494c204246cf2bc Merge tag 'drm-intel-fixes-2022-07-17' of git://anongit.freedesktop.org/drm/drm-intel
-ff6992735ade75aae3e35d16b17da1008d753d28 Linux 5.19-rc7
-ef0324b6415db6742bd632dc0dfbb8fbc111473b ARM: dts: lan966x: fix sys_clk frequency
-dbd0da2453c694f2f74651834d90fb280b57f151 drm/ttm: fix locking in vmap/vunmap TTM GEM helpers
-dc62db7138aa9365480254dda4c3e1316b1b1bbc pinctrl: ocelot: Fix pincfg for lan966x
-ba9c4745fca70bf773b2d5c602dcd85d1a40b07a pinctrl: ocelot: Fix pincfg
-76c16d3e19446deea98b7883f261758b96b8781a net: stmmac: switch to use interrupt for hw crosstimestamping
-613b065ca32e90209024ec4a6bb5ca887ee70980 net: stmmac: fix dma queue left shift overflow issue
-f08d8c1bb97c48f24a82afaa2fd8c140f8d3da8b net/tls: Fix race in TLS device down flow
-1e20904e417738066b26490de2daf7ef3ed34483 net: prestera: acl: use proper mask for port selector
-41ef3c1a6bb0fd4a3f81170dd17de3adbff80783 pinctrl: Don't allow PINCTRL_AMD to be a module
-f6da2267e71106474fbc0943dc24928b9cb79119 igmp: Fix data-races around sysctl_igmp_llm_reports.
-6305d821e3b9b5379d348528e5b5faf316383bc2 igmp: Fix a data-race around sysctl_igmp_max_memberships.
-6ae0f2e553737b8cce49a1372573c81130ffa80e igmp: Fix data-races around sysctl_igmp_max_msf.
-8ebcc62c738f68688ee7c6fec2efe5bc6d3d7e60 igmp: Fix data-races around sysctl_igmp_qrv.
-f2f316e287e6c2e3a1c5bab8d9b77ee03daa0463 tcp: Fix data-races around keepalive sysctl knobs.
-20a3b1c0f603e8c55c3396abd12dfcfb523e4d3c tcp: Fix data-races around sysctl_tcp_syn(ack)?_retries.
-f2e383b5bb6bbc60a0b94b87b3e49a2b1aefd11e tcp: Fix data-races around sysctl_tcp_syncookies.
-4177f545895b1da08447a80692f30617154efa6e tcp: Fix data-races around sysctl_tcp_migrate_req.
-46778cd16e6a5ad1b2e3a91f6c057c907379418e tcp: Fix data-races around sysctl_tcp_reordering.
-39e24435a776e9de5c6dd188836cf2523547804b tcp: Fix data-races around some timeout sysctl knobs.
-55be873695ed8912eb77ff46d1d1cadf028bd0f3 tcp: Fix a data-race around sysctl_tcp_notsent_lowat.
-cbfc6495586a3f09f6f07d9fb3c7cafe807e3c55 tcp: Fix a data-race around sysctl_tcp_tw_reuse.
-79539f34743d3e14cc1fa6577d326a82cc64d62f tcp: Fix data-races around sysctl_max_syn_backlog.
-5a54213318c43f4009ae158347aa6016e3b9b55a tcp: Fix data-races around sysctl_tcp_fastopen.
-021266ec640c7a4527e6cd4b7349a512b351de1d tcp: Fix data-races around sysctl_tcp_fastopen_blackhole_timeout.
-c9f21106d97b5056f36613792fe55284a9c5f75b Merge branch 'net-ipv4-sysctl-races-part-3'
-19b3b13c932fc8d613e50e3e92c1944f9fcc02c7 docs: net: dsa: update probing documentation
-54367831c5d0ce273d82814f5fcb35c004f6a912 docs: net: dsa: document the shutdown behavior
-c3f0e84d10862b2b2ed927561f12fe0bf8033590 docs: net: dsa: rename tag_protocol to get_tag_protocol
-c56313a42aaa0c353af6425aed63719823ccfc32 docs: net: dsa: add more info about the other arguments to get_tag_protocol
-d6a0336addd47af8869953a480e44a63726fad8f docs: net: dsa: document change_tag_protocol
-b763f50dc157c2796dded090fac3e05cb5147348 docs: net: dsa: document the teardown method
-3c87237ecd27fe5534f3324a4dccbce059c04e40 docs: net: dsa: document port_setup and port_teardown
-0cb8682ebf5eedbfd71a8b212f23afc1aedfe1ba docs: net: dsa: document port_fast_age
-308362394850b680ef3e2cd548bfaa27fd120a4d docs: net: dsa: remove port_bridge_tx_fwd_offload
-e465d507c76ce2552e1e08513f1d1ca8c4175e9c docs: net: dsa: remove port_vlan_dump
-7f75d3dd4f5b00a1d3ef853f044a25b4cb55082a docs: net: dsa: delete port_mdb_dump
-4e9d9bb6df6b4ef87f217e81a8eb37c359400e2e docs: net: dsa: add a section for address databases
-ea7006a7aaee54a8861e0bfd5cf6a8495fb998a7 docs: net: dsa: re-explain what port_fdb_dump actually does
-6ba1a4aa5974f8a47e6322cecc965e6357b58d80 docs: net: dsa: delete misinformation about -EOPNOTSUPP for FDB/MDB/VLAN
-7b02f40350f1b8011f724a052dcb0849cffa6c38 docs: net: dsa: mention that VLANs are now refcounted on shared ports
-c32349f3257f329a01e776e02b577bf7af97f30b Merge branch 'dsa-docs'
-28a99e95f55c61855983d36a88c05c178d966bb7 x86/amd: Use IBPB for firmware calls
-e1aadbab445b06e072013a1365fd0cf2aa25e843 drm/amdgpu: Remove one duplicated ef removal
-968996c070ef080ee7d6150faa98a4e562ce4625 iavf: Fix VLAN_V2 addition/rejection
-4635fd3a9d77581498f34ab9a7e4bcc211bf0a4c iavf: Disallow changing rx/tx-frames and rx/tx-frames-irq
-a9f49e0060301a9bfebeca76739158d0cf91cdf6 iavf: Fix handling of dummy receive descriptors
-d8fa2fd791a72087c1ce3336fbeefec4057c37c8 iavf: Fix missing state logs
-09073396ea62d0a10b03f5661dcabfd8eca3f098 ACPI: CPPC: Don't require flexible address space if X86_FEATURE_CPPC is supported
-80e19f34c2887a8881084b7bb7480e9544d56b91 Merge tag 'hte/for-5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux
-07313a2b29ed1079eaa7722624544b97b3ead84b mm: kfence: apply kmemleak_ignore_phys on early allocated pool
-0c98c8e1e181478152d440a89d802ee4508c66a6 tmpfs: fix the issue that the mount and remount results are inconsistent.
-f073c8335929a9746c19d4551aeb2d4d0dbef0d1 mailmap: update Seth Forshee's email address
-3fe2895cfecd03ac74977f32102b966b6589f481 mm: fix page leak with multiple threads mapping the same page
-f4f451a16dd1f478fdb966bcbb612c1e4ce6b962 mm: fix missing wake-up event for FSDAX pages
-c2cb0dcce9dd8b748b6ca8bb8d4a389f2e232307 mm/hugetlb: separate path for hwpoison entry in copy_hugetlb_page_range()
-84ac013046ccc438af04b7acecd4d3ab84fe4bde secretmem: fix unhandled fault in truncate
-38c9c22a85aeed28d0831f230136e9cf6fa2ed44 ntfs: fix use-after-free in ntfs_ucsncmp()
-bdeb77bc2c405fa9f954c20269db175a0bd2793f fs: sendfile handles O_NONBLOCK of out_fd
-da9a298f5fad0dc615079a340da42928bc5b138e hugetlb: fix memoryleak in hugetlb_mcopy_atomic_pte
-c80af0c250c8f8a3c978aa5aafbe9c39b336b813 Revert "ocfs2: mount shared volume without ha stack"
-984245b66cf32c494b1e4f95f5ed6ba16b8771eb pinctrl: armada-37xx: make irq_lock a raw spinlock to avoid invalid wait context
-4546760619cfa9b718fe2059ceb07101cf9ff61e pinctrl: armada-37xx: use raw spinlocks for regmap to avoid invalid wait context
-ca85855bdcae8f84f1512e88b4c75009ea17ea2f Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-45533a534a45cb12c20c81615d17306176cb1c57 net: lan966x: Fix taking rtnl_lock while holding spin_lock
-43243bb3195b0dc27741679471e23baed1efe98e net: lan966x: Fix usage of lan966x->mac_lock when entry is added
-99343cfa4f7560abf933fff7ab3ea58a6905c917 net: lan966x: Fix usage of lan966x->mac_lock when entry is removed
-c1924684369762b112428a333ad00eac6ca89d96 net: lan966x: Fix usage of lan966x->mac_lock inside lan966x_mac_irq_handler
-675c807ae26b267233b97cd5006979a6bb8d54d4 net: lan966x: Fix usage of lan966x->mac_lock when used by FDB
-b6224a36de8bb30bfec9ff2bc45ed8002e79a79a Merge branch 'net-lan966x-fix-issues-with-mac-table'
-3696c952da0733b843c8da3441345055b1cbacd9 net: ethernet: mtk_eth_soc: fix off by one check of ARRAY_SIZE
-f838a63369818faadec4ad1736cfbd20ab5da00e i40e: Fix erroneous adapter reinitialization during recovery process
-1e53834ce541d4fe271cdcca7703e50be0a44f8a ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
-4db2a5ef4ccbe6d138828284cfab241b434b5d95 net: dsa: fix dsa_port_vlan_filtering when global
-1699b4d502eda3c7ea4070debad3ee570b5091b1 net: dsa: fix NULL pointer dereference in dsa_port_reset_vlan_filtering
-49a2f5c88e8f8a66d81e93ed034f00dee9fe9cf7 Merge branch 'fix-2-dsa-issues-with-vlan_filtering_is_global'
-da791bac104a3169b05b54270afe75daacba4641 net: stmmac: remove redunctant disable xPCS EEE call
-25c2a075eb6a3031813b6051bd10dfc22c36a2a4 clk: lan966x: Fix the lan966x clock gate register address
-db8edaa09d7461ec08672a92a2eef63d5882bb79 gpio: pca953x: only use single read/write for No AI mode
-2abc17a93867dc816f0ed9d32021dda8078e7330 gpio: pca953x: use the correct range when do regmap sync
-b8c768ccdd8338504fb78370747728d5002b1b5a gpio: pca953x: use the correct register address when regcache sync during init
-d7241f679a59cfe27f92cb5c6272cb429fb1f7ec be2net: Fix buffer overflow in be_get_module_eeprom
-855fe49984a8a3899f07ae1d149d46cd8d4acb52 net: dsa: sja1105: silent spi_device_id warnings
-1774559f07993e1cac33c2406e99049d4bdea6c8 net: dsa: vitesse-vsc73xx: silent spi_device_id warnings
-30e22a6ebca039572ce9bc10f1934f4eabfb5b7f amt: use workqueue for gateway side message handling
-9c343ea6185febe5f6b74f7f7b3757f3dd9c5af6 amt: remove unnecessary locks
-928f353cb8672f0d6078aad75eeec0ed33875b12 amt: use READ_ONCE() in amt module
-627f16931bf3cb20d50274d9341380ac2c3035fd amt: add missing regeneration nonce logic in request logic
-40185f359fbabaa61da754cc29d12f3a41e0a987 amt: drop unexpected advertisement message
-239d886601e38d948a28f3b2a1c9ce5f01bf75f2 amt: drop unexpected query message
-e882827d5b8942a27b4d28548aa27562a3a7e94c amt: drop unexpected multicast data
-989918482bbccbbce3ba2bb9156eb4c193319983 amt: do not use amt->nr_tunnels outside of lock
-b3fcfc4f0c50a716487fd7ebd0e6b64a2db29d76 Merge branch 'amt-fix-validation-and-synchronization-bugs'
-450a563924ae9437758bd468c5b7cee9468ce749 KVM: stats: Fix value for KVM_STATS_UNIT_MAX for boolean stats
-e923b0537d28e15c9d31ce8b38f810b325816903 KVM: selftests: Fix target thread to be migrated in rseq_test
-dc951e22a1a2a6a11b29648c3c8b191bc8f3e5df tools headers UAPI: Sync linux/kvm.h with the kernel sources
-5f7ef4875f99538b741527963ffe09e869b49826 md/raid5: missing error code in setup_conf()
-cf5029d5dd7cb0aaa53250fa9e389abd231606b3 KVM: x86: Protect the unused bits in MSR exiting flags
-8f870e6eb8c0c3f9869bf3fcf9db39f86cfcea49 srcu: Block less aggressively for expedited grace periods
-4f2bfd9494a072d58203600de6bedd72680e612a srcu: Make expedited RCU grace periods block even less frequently
-82e094f7bd988c02df27f8c8d81af8f750660b2a Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.19
-908fc4c2abdb1835f303cf6827e66676568943e7 virt: sev-guest: Pass the appropriate argument type to iounmap()
-ef2084a8388b19c8812356106e0c8d29915f9d8b drm/panel-edp: Fix variable typo when saving hpd absent delay from DT
-cdf0b86b250fd3c1c3e120c86583ea510c52e4ce r8152: fix a WOL issue
-53eb9b04560cc368b7874a7ef1ca7666741739e4 net: ethernet: mtk_ppe: fix possible NULL pointer dereference in mtk_flow_get_wdma_info
-c6b10de537b904fb70522d8cc4600c2f11246c93 Documentation: fix udp_wmem_min in ip-sysctl.rst
-48ea8ea32dbf3231882e9bc0b297fe1400785219 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-e7999fa14f19254ee6a8b52e2711de1f6bef2a1c drm/i915/guc: Support programming the EU priority in the GuC descriptor
-443148858f26ee0fea6ad1b292d49d884dce92d1 drm/i915/guc: support v69 in parallel to v70
-be640317a1d0b9cf42fedb2debc2887a7cfa38de powerpc/64s: Disable stack variable initialisation for prom_init
-7849f5cf7639cd1125a3546a31675af4ab54278f mailmap: update Baolin Wang's email
-02c87df2480ac855d88ee308ce3fa857d9bd55a8 drm/imx/dcss: Add missing of_node_put() in fail path
-db87c005b9cce0b815b2268963502c178a1e27c8 can: mcp251xfd: fix detection of mcp251863
-7b66dfcc6e1e1f018492619c3d0fc432b6b54272 can: rcar_canfd: Add missing of_node_put() in rcar_canfd_probe()
-ef5621758a02fe8178de9d0df414ffb79463ff86 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-87507bcb4f5de16bb419e9509d874f4db6c0ad0f ipv4: Fix a data-race around sysctl_fib_multipath_use_neigh.
-7998c12a08c97cc26660532c9f90a34bd7d8da5a ipv4: Fix data-races around sysctl_fib_multipath_hash_policy.
-8895a9c2ac76fb9d3922fed4fe092c8ec5e5cccc ipv4: Fix data-races around sysctl_fib_multipath_hash_fields.
-9b55c20f83369dd54541d9ddbe3a018a8377f451 ip: Fix data-races around sysctl_ip_prot_sock.
-3d72bb4188c708bb16758c60822fc4dda7a95174 udp: Fix a data-race around sysctl_udp_l3mdev_accept.
-3666f666e99600518ab20982af04a078bbdad277 tcp: Fix data-races around sysctl knobs related to SYN option.
-52e65865deb6a36718a463030500f16530eaab74 tcp: Fix a data-race around sysctl_tcp_early_retrans.
-e7d2ef837e14a971a05f60ea08c47f3fed1a36e4 tcp: Fix data-races around sysctl_tcp_recovery.
-7c6f2a86ca590d5187a073d987e9599985fb1c7c tcp: Fix a data-race around sysctl_tcp_thin_linear_timeouts.
-4845b5713ab18a1bb6e31d1fbb4d600240b8b691 tcp: Fix data-races around sysctl_tcp_slow_start_after_idle.
-1a63cb91f0c2fcdeced6d6edee8d1d886583d139 tcp: Fix a data-race around sysctl_tcp_retrans_collapse.
-4e08ed41cb1194009fc1a916a59ce3ed4afd77cd tcp: Fix a data-race around sysctl_tcp_stdurg.
-0b484c91911e758e53656d570de58c2ed81ec6f2 tcp: Fix a data-race around sysctl_tcp_rfc1337.
-2d17d9c7382327d00aeaea35af44e9b26d53206e tcp: Fix a data-race around sysctl_tcp_abort_on_overflow.
-a11e5b3e7a59fde1a90b0eaeaa82320495cf8cae tcp: Fix data-races around sysctl_tcp_max_reordering.
-3b15b3e93e405828c0b38df15439d9a851468d98 Merge branch 'net-sysctl-races-round-4'
-c0f47c2822aadeb8b2829f3e4c3792f184c7be33 net/sched: cls_api: Fix flow action initialization
-e5ec6a2513383fe2ecc2ee3b5f51d97acbbcd4d8 mlxsw: spectrum_router: Fix IPv4 nexthop gateway indication
-44484fa8eedf1c6e8f23ba2675b266abdd170a6e Merge tag 'linux-can-fixes-for-5.19-20220720' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-9b31e60800d8fa69027baf9ec7f03a0c5b145079 tools: Fixed MIPS builds due to struct flock re-definition
-f63731e18e8d8350e05b0176e39a76639f6483c7 selftests: gpio: fix include path to kernel headers for out of tree builds
-4ceaa684459d414992acbefb4e4c31f2dfc50641 spi: bcm2835: bcm2835_spi_handle_err(): fix NULL pointer deref for non DMA transfers
-543ce63b664e2c2f9533d089a4664b559c3e6b5b lockdown: Fix kexec lockdown bypass with ima policy
-65cdf0d623bedf0e069bb64ed52e8bb20105e2ba x86/alternative: Report missing return thunk details
-eb23b5ef9131e6d65011de349a4d25ef1b3d4314 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
-efc72a665a61fd48c462f5248a9e3dc991398ddd lkdtm: Disable return thunks in rodata.c
-b0380e13502adf7dd8be4c47d622c3522aae6c63 perf/x86/intel/lbr: Fix unchecked MSR access error on HSW
-e1502ba41699736c578ba9d61ae6285d49f6921b spi: spi-cadence: Fix SPI NO Slave Select macro definition
-353f7988dd8413c47718f7ca79c030b6fb62cfe5 watchqueue: make sure to serialize 'wqueue->defunct' properly
-90af0ca047f3049c4b46e902f432ad6ef1e2ded6 drm/amdgpu: Protect the amdgpu_bo_list list with a mutex v2
-4b2b2ee1f87db6354895ed4fd76420ceeca0fda6 Merge tag 'drm-intel-fixes-2022-07-20-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-1c46f3c0759116d70cb424fc227371a254c47b25 Merge tag 'amd-drm-fixes-5.19-2022-07-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-ddfc710395cccc61247348df9eb18ea50321cbed sched/deadline: Fix BUG_ON condition for deboosted tasks
-430d31bb2e6031f82fe2f2fe15500dde2ac5f8a6 Merge tag 'at91-fixes-5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-ec8516f3b7c40ba7050e6b3a32467e9de451ecdf io_uring: fix free of unallocated buffer list
-934447a603b22d98f45a679115d8402e1efdd0f7 io_uring: do not recycle buffer in READV
-b620aa3a7be346f04ae7789b165937615c6ee8d3 spi: spi-rspi: Fix PIO fallback on RZ platforms
-44e29e64cf1ac0cffb152e0532227ea6d002aa28 watch-queue: remove spurious double semicolon
-23a67619bc7e12e1b3776802f16084530b357a5d scripts/gdb: Fix gdb 'lx-symbols' command
-1e9fdf21a4339b102539f476a9842e7526c01939 mmu_gather: Remove per arch tlb_{start,end}_vma()
-1d7708e75c49d08392884a08feeebaa3f9d80703 csky/tlb: Remove tlb_flush() define
-18ba064e42df3661e196ab58a23931fc732a420b mmu_gather: Let there be one tlb_{start,end}_vma() implementation
-b67fbebd4cf980aecbcc750e1462128bffe8ae15 mmu_gather: Force tlb-flush VM_PFNMAP vmas
-918e75f77af7d2e049bb70469ec0a2c12782d96a s390/archrandom: prevent CPACF trng invocations in interrupt context
-7ca433dc6dedb2ec98dfc943f6db0c9b8996ed11 Merge tag 'net-5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-68e77ffbfd06ae3ef8f2abf1c3b971383c866983 Merge tag 'mtd/fixes-for-5.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-c1f6eff304e4dfa4558b6a8c6b2d26a91db6c998 riscv: add as-options for modules with assembly compontents
-27161db0904ee48e59140aa8d0835939a666c1f1 net: pcs: xpcs: propagate xpcs_read error to xpcs_get_state_c37_sgmii
-ebbbe23fdf6070e31509638df3321688358cc211 net: sungem_phy: Add of_node_put() for reference returned by of_get_parent()
-7f5ec14a4e07a2a78fbde069709d5c8806882be2 Merge tag 'drm-misc-fixes-2022-07-21' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-32c094a09d5829ad9b02cdf667569aefa8de0ea6 gpio: gpio-xilinx: Fix integer overflow
-58ebb1c8b35a8ef38cd6927431e0fa7b173a632d tcp: Fix data-races around sysctl_tcp_dsack.
-02ca527ac5581cf56749db9fd03d854e842253dd tcp: Fix a data-race around sysctl_tcp_app_win.
-36eeee75ef0157e42fb6593dcc65daab289b559e tcp: Fix a data-race around sysctl_tcp_adv_win_scale.
-706c6202a3589f290e1ef9be0584a8f4a3cc0507 tcp: Fix a data-race around sysctl_tcp_frto.
-8499a2454d9e8a55ce616ede9f9580f36fd5b0f3 tcp: Fix a data-race around sysctl_tcp_nometrics_save.
-ab1ba21b523ab496b1a4a8e396333b24b0a18f9a tcp: Fix data-races around sysctl_tcp_no_ssthresh_metrics_save.
-780476488844e070580bfc9e3bc7832ec1cea883 tcp: Fix data-races around sysctl_tcp_moderate_rcvbuf.
-0f1e4d06591d0a7907c71f7b6d1c79f8a4de8098 tcp: Fix data-races around sysctl_tcp_workaround_signed_windows.
-9fb90193fbd66b4c5409ef729fd081861f8b6351 tcp: Fix a data-race around sysctl_tcp_limit_output_bytes.
-db3815a2fa691da145cfbe834584f31ad75df9ff tcp: Fix a data-race around sysctl_tcp_challenge_ack_limit.
-e0bb4ab9dfddd872622239f49fb2bd403b70853b tcp: Fix a data-race around sysctl_tcp_min_tso_segs.
-2455e61b85e9c99af38cd889a7101f1d48b33cb4 tcp: Fix a data-race around sysctl_tcp_tso_rtt_log.
-1330ffacd05fc9ac4159d19286ce119e22450ed2 tcp: Fix a data-race around sysctl_tcp_min_rtt_wlen.
-85225e6f0a76e6745bc841c9f25169c509b573d8 tcp: Fix a data-race around sysctl_tcp_autocorking.
-2afdbe7b8de84c28e219073a6661080e1b3ded48 tcp: Fix a data-race around sysctl_tcp_invalid_ratelimit.
-b20a7ca8cfa4dce01f848056fe6313b444b7dcf5 Merge branch 'sysctl-races-part-5'
-17161c341de0b02788b0428cb253a35b9a3c89b3 dt-bindings: net: ethernet-controller: Rework 'fixed-link' schema
-030f21ba2ab14c221ff31cf22a16c78963328f6f dt-bindings: net: fsl,fec: Add missing types to phy-reset-* properties
-8ee18e2a9e7b0e97730549f58dd618433c15811b caif: Fix bitmap data type in "struct caifsock"
-be76ceaf03bc04e74be5e28f608316b73c2b04ad EDAC/synopsys: Use the correct register to disable the error interrupt on v3 hw
-4bcffe941758ee17becb43af3b25487f848f6512 EDAC/synopsys: Re-enable the error interrupts on v3 hw
-e2a619ca0b38f2114347b7078b8a67d72d457a3d asm-generic: remove a broken and needless ifdef conditional
-c5cdb9286913aa5a5ebb81bcca0c17df3b0e2c79 ARM: pxa2xx: Fix GPIO descriptor tables
-7fb5e508319068de1d69e6d7230416c390cb3cbb mmu_gather: fix the CONFIG_MMU_GATHER_NO_RANGE case
-4ba1329cbb9456c937bff1ed8ad4ca91ab75eab6 Merge tag 'rcu-urgent.2022.07.21a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-8e65afba6baaa1317efc4038cbced1268c6e2f6b Merge tag 'drm-fixes-2022-07-22' of git://anongit.freedesktop.org/drm/drm
-85029503fc95ea16e0c0856251f5cba750847c85 Merge tag 'mmc-v5.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-8f636c6a16f2a6809f7de27c99e0780dd569fb23 Merge tag 'sound-5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-88bd24d73d5bfa1b7b97a9221ff320fc44ef401a riscv: compat: vdso: Fix vdso_install target
-614719111265a7a76d0ae54758f23d8614966b82 Merge tag 'pinctrl-v5.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-6f8e4e10434e2345c1e929aa93919808f99ba66e Merge tag 'gpio-fixes-for-v5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-4a1dcf77f47ec45e4c66787b2cd47f8b768c74da Merge tag 'i2c-for-5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-d945404f74f34b76cb02d73025b92ce8b4729d3f Merge tag 'block-5.19-2022-07-21' of git://git.kernel.dk/linux-block
-a5235996e1b04405fbd6deea37b051715214fd2a Merge tag 'io_uring-5.19-2022-07-21' of git://git.kernel.dk/linux-block
-ae21fbac18b980ecfd895ff32833a2543c157ee2 Merge tag 'acpi-5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-70664fc10c0d722ec79d746d8ac1db8546c94114 Merge tag 'riscv-for-linus-5.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-4d8f24eeedc58d5f87b650ddda73c16e8ba56559 Revert "tcp: change pingpong threshold to 3"
-301c8949322fe46766b334cc60ada5819b92000e Merge tag 'spi-fix-v5.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-b648ab487f31bc4c38941bc770ea97fe394304bb x86/speculation: Make all RETbleed mitigations 64-bit only
-515f71412bb73ebd7f41f90e1684fc80b8730789 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-714b82c18ba0d2e76e9c3fd7785ff5a060f5980b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-05017fed92de32c167bbd21a5ee9ad0e489e19d4 Merge tag 'x86_urgent_for_v5.19_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c2602a7ce0fc66318325df170a9ee275d7df5c2e Merge tag 'sched_urgent_for_v5.19_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-af2c9ac24019ece9281e606662e5c78fa67f5930 Merge tag 'perf_urgent_for_v5.19_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e90886291c7cd89577bf11729b205cc0ed42fbec certs: make system keyring depend on x509 parser
-e0dccc3b76fb35bb257b4118367a883073d7390e Linux 5.19-rc8
-f6336724a4d4220c89a4ec38bca84b03b178b1a3 net/tls: Remove the context from the list in tls_device_down
-aa709da0e032cee7c202047ecd75f437bb0126ed Documentation: fix sctp_wmem in ip-sysctl.rst
-3c69a99b62fde9de86a612ef1daaa07d95f0a773 Merge tag 'v5.19-rc7' into fixes
-d6c52fa3e955b97f8eb3ac824d2a3e0af147b3ce nvme-pci: Crucial P2 has bogus namespace ids
-af35f95aca69a86058d480a63f4e096f0220905c nfp: bpf: Fix typo 'the the' in comment
-2540d3c99926c234718e058acdd956d7c614eddd net: ipa: Fix typo 'the the' in comment
-1aaa62c4838a140d0592935c51985158963d5971 s390/qeth: Fix typo 'the the' in comment
-f46040eeaf2e523a4096199fd93a11e794818009 macsec: fix NULL deref in macsec_add_rxsa
-3240eac4ff20e51b87600dbd586ed814daf313db macsec: fix error message in macsec_add_rxsa and _txsa
-b07a0e2044057f201d694ab474f5c42a02b6465b macsec: limit replay window size with XPN
-c630d1fe6219769049c87d1a6a0e9a6de55328a1 macsec: always read MACSEC_SA_ATTR_PN as a u64
-20a854616d384d3210d96fee248a3ea327bab810 Merge branch 'macsec-config-issues'
-c7b205fbbf3cffa374721bb7623f7aa8c46074f1 net: macsec: fix potential resource leak in macsec_add_rxsa() and macsec_add_txsa()
-3e7d18b9dca388940a19cae30bfc1f76dccd8c28 net: mld: fix reference count leak in mld_{query | report}_work()
-59bf6c65a09fff74215517aecffbbdcd67df76e3 tcp: Fix data-races around sk_pacing_rate.
-02739545951ad4c1215160db7fbf9b7a918d3c0b net: Fix data-races around sysctl_[rw]mem(_offset)?.
-4866b2b0f7672b6d760c4b8ece6fb56f965dcc8a tcp: Fix a data-race around sysctl_tcp_comp_sack_delay_ns.
-22396941a7f343d704738360f9ef0e6576489d43 tcp: Fix a data-race around sysctl_tcp_comp_sack_slack_ns.
-79f55473bfc8ac51bd6572929a679eeb4da22251 tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
-870e3a634b6a6cb1543b359007aca73fe6a03ac5 tcp: Fix data-races around sysctl_tcp_reflect_tos.
-96b9bd8c6d125490f9adfb57d387ef81a55a103e ipv4: Fix data-races around sysctl_fib_notify_on_flag_change.
-9af0620de1e118666881376f6497d1785758b04c Merge branch 'net-sysctl-races-part-6'
-a7a47a5dfa9a9692a41764ee9ab4054f12924a42 drm/i915/reset: Add additional steps for Wa_22011802037 for execlist backend
-d295ad34f236c3518634fb6403d4c0160456e470 intel_idle: Fix false positive RCU splats due to incorrect hardirqs state
-c653c591789b3acfa4bf6ae45d5af4f330e50a91 drm/amdgpu: Re-enable DCN for 64-bit powerpc
-5fcbb711024aac6d4db385623e6f2fdf019f7782 i40e: Fix interface init with MSI interrupts (no MSI-X)
-c7560d1203b7a1ea0b99a5c575547e95d564b2a8 net: dsa: fix reference counting for LAG FDBs
-b89fc26f741d9f9efb51cba3e9b241cf1380ec5a sctp: fix sleep in atomic context bug in timer handlers
-b354eaeec8637d87003945439209251d76a2bb95 octeontx2-pf: cn10k: Fix egress ratelimit configuration
-59e1be6f83b928a04189bbf3ab683a1fc6248db3 octeontx2-pf: Fix UDP/TCP src and dst port tc filters
-33881ab73d6f6b4f0a2a89aece86dd60e6e507c6 Merge branch 'octeontx2-minor-tc-fixes'
-9b134b1694ec8926926ba6b7b80884ea829245a0 bridge: Do not send empty IFLA_AF_SPEC attribute
-0c09bc33aa8e9dc867300acaadc318c2f0d85a1e drm/simpledrm: Fix return type of simpledrm_simple_display_pipe_mode_valid()
-cdb281e63874086a650552d36c504ea717a0e0cb mm: fix NULL pointer dereference in wp_page_reuse()
-5de64d44968e4ae66ebdb0a2d08b443f189d3651 Merge tag 's390-5.19-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-99a63d36cb3ed5ca3aa6fcb64cffbeaf3b0fb164 netfilter: nf_queue: do not allow packet truncation below transport header offset
-81ea010667417ef3f218dfd99b69769fe66c2b67 netfilter: nf_tables: add rescheduling points during loop detection walks
-47f4f510ad586032b85c89a0773fbb011d412425 netfilter: nft_queue: only allow supported familes and hooks
-1e308c6fb7127371f48a0fb9770ea0b30a6b5698 ice: Fix max VLANs available for VF
-01658aeeada6f93c2924af94d895ff28d559690c ice: Fix tunnel checksum offload with fragmented traffic
-5c8e3c7ff3e7bd7b938659be704f75cc746b697f ice: Fix VSIs unable to share unicast MAC
-283d736ff7c7e96ac5b32c6c0de40372f8eb171e ice: check (DD | EOF) bits on Rx descriptor rather than (EOP | RS)
-cc019545a238518fa9da1e2a889f6e1bb1005a63 ice: do not setup vlan for loopback VSI
-aa40d5a43526cca9439a2b45fcfdcd016594dece wifi: mac80211: do not abuse fq.lock in ieee80211_do_stop()
-4b2f4e072fb2599b6a2e5e277f0d2b5705eaa630 Bluetooth: mgmt: Fix double free on error path
-ef61b6ea154464fefd8a6712d7a3b43b445c3d4a Bluetooth: Always set event mask on suspend
-d0be8347c623e0ac4202a1d4e0373882821f56b0 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
-d172b1a3bd065dd89234eac547fc62cf80681631 userfaultfd: provide properly masked address for huge-pages
-1f7ea54727caaa6701a15af0cbeddfdb015b2869 mailmap: update Gao Xiang's email addresses
-0fde22c5420ed258ee538a760291c2f3935f6a01 scsi: mpt3sas: Stop fw fault watchdog work item during system shutdown
-a3435afba87dc6cd83f5595e7607f3c40f93ef01 scsi: ufs: host: Hold reference returned by of_parse_phandle()
-d9a434fa0c12ed5f7afe1e9dd30003ab5d059b85 scsi: core: Fix warning in scsi_alloc_sgtables()
-f5c2976e0cb0f6236013bfb479868531b04f61d4 scsi: ufs: core: Fix a race condition related to device management
-39c3c396f8131f3db454c80e0fcfcdc54ed9ec01 Merge tag 'mm-hotfixes-stable-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-e53f5293973181e8f557a7fef9a47f131fc3d4f0 Merge tag 'for-net-2022-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-e77ea97d2bd99b004e96c339ee22408c5475a52e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-b5177ed92bf6f9d90a2493ed51c1327e088be1df mptcp: Do not return EINPROGRESS when subflow creation succeeds
-5e2805d5379619c4a2e3ae4994e73b36439f4bad EDAC/ghes: Set the DIMM label unconditionally
-5a159128faff151b7fe5f4eb0f310b1e0a2d56bf virtio-net: fix the race between refill work and close
-553de6e1157df63fc6cdfe4573e04c8edcbe68f2 tools headers cpufeatures: Sync with the kernel sources
-b226521923aee7051f4b24df9be5bf07d53f0a2b perf scripts python: Let script to be python2 compliant
-2d86612aacb7805f72873691a2644d7279ed0630 perf symbol: Correct address for bss symbols
-882528d2e77687c3ef26abb9c490f77a9c1f6e1a perf symbol: Skip symbols if SHF_ALLOC flag is not set
-9a241805673ec0a826b7ddf84b00f4e03adb0a5e perf bpf: Remove undefined behavior from bpf_perf_object__next()
-eda3953b6a805d6df87a4c51058493ec88bfc622 Merge tag 'nvme-5.19-2022-07-27' of git://git.infradead.org/nvme into block-5.19
-871808fd6981bcc6bb48f71032f983ca77748e96 x86/configs: Update configs in x86_debug.config
-5bb6c1d1126ebcbcd6314f80d82f50b021a9e351 Revert "x86/sev: Expose sev_es_ghcb_hv_call() for use by HyperV"
-9d8a8616ee47f478a9f78ab97f55c3fbf71bb5f0 Merge tag 'soc-fixes-5.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6e7765cb477a9753670d4351d14de93f1e9dbbd4 Merge tag 'asm-generic-fixes-5.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-fb0fd3469ead5b937293c213daa1f589b4b7ce46 ARM: 9216/1: Fix MAX_DMA_ADDRESS overflow
-e62d2e110356093c034998e093675df83057e511 tcp: md5: fix IPv4-mapped support
-8dc592c41f38735306d1f1dc0b183601379c6d94 clk: sunxi-ng: Fix H6 RTC clock definition
-0c104556267242d922a3def60be8092b280e4fee ptp: ocp: Select CRC16 in the Kconfig.
-67c3b611d92fc238c43734878bc3e232ab570c79 sfc: disable softirqs for ptp TX
-181d8d2066c000ba0a0e6940a7ad80f1a0e68e9d sctp: leave the err path free in sctp_stream_init to sctp_stream_free
-bf84719df765f1a832a770f3cd0cdc8bee20c91f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-51a83391d77bb0f7ff0aef06ca4c7f5aa9e80b4c net/funeth: Fix fun_xdp_tx() and XDP packet reclaim
-e0339f036ef4beb9b20f0b6532a1e0ece7f594c6 watch_queue: Fix missing rcu annotation
-e64ab2dbd882933b65cd82ff6235d705ad65dbb6 watch_queue: Fix missing locking in add_watch_to_object()
-e27326009a3d247b831eda38878c777f6f4eb3d1 net: ping6: Fix memleak in ipv6_renew_options().
-85f0173df35e5462d89947135a6a5599c6c3ef6f ipv6/addrconf: fix a null-ptr-deref bug for ip6_ptr
-4d3d3a1b244fd54629a6b7047f39a7bbc8d11910 stmmac: dwmac-mediatek: fix resource leak in probe
-33ea1340bafe1f394e5bf96fceef73e9771d066b Merge tag 'net-5.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-66cee9097e2b74ff3c8cc040ce5717c521a0c3fa nouveau/svm: Fix to migrate all requested pages
-f16a2f593d0095e82e6b7f9d776f869c8ab45952 Merge tag 'drm-intel-fixes-2022-07-28-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-6e2c0490769ef8a95b61304389116ccc85c53e12 Merge tag 'drm-fixes-2022-07-29' of git://anongit.freedesktop.org/drm/drm
-571c30b1a88465a1c85a6f7762609939b9085a15 x86/bugs: Do not enable IBPB at firmware entry when IBPB is not available
-ec85bd369fd2bfaed6f45dd678706429d4f75b48 ARM: findbit: fix overflowing offset
-d8e7f201a4cf148c3801cdc9603963061d28d64f LoongArch: Use ABI names of registers where appropriate
-07b480695d24d1c9f27bb60fd4b980ae87e8bc1e LoongArch: Use the "jr" pseudo-instruction where applicable
-57ce5d3eefacfaadfe2ed0a3a85713d1ae6287b9 LoongArch: Use the "move" pseudo-instruction where applicable
-d47b2dc87c58154052daf8ac0f9229db5c7890cc LoongArch: Simplify "BEQ/BNE foo, zero" with BEQZ/BNEZ
-d1bc75d7595b237f78b594509ea7cc159f98cae9 LoongArch: Simplify "BLT foo, zero" with BLTZ
-1fdb9a92495a6b6996530d27781892796e22f08b LoongArch: Simplify "BGT foo, zero" with BGTZ
-f5c3c22f21b6a002e371afdcc9180a2fa47dc267 LoongArch: Re-tab the assembly files
-ab6e57a69df515cc9231b578de5b820f9ba3d0be LoongArch: Remove several syntactic sugar macros for branches
-f62b7626cb79dfbfe292145b7ebeee4dc63c9499 LoongArch: Remove useless header compiler.h
-71610ab1d017e131a9888ef8acd035284fb0e1dd LoongArch: Remove clock setting during cpu hotplug stage
-3a3a4f7a65e3ff7ad395afc8c41ac317c8667546 LoongArch: Remove unused variables
-317980e6b4d03884429f2cdaf51efd28f01b71b0 LoongArch: Disable executable stack by default
-1aea29d7c3569e5b6c40e73c51e9f4b2142c96ef LoongArch: Fix shared cache size calculation
-b0f3bdc00240fc9d7bf0f2a076943122d168c95e LoongArch: Fix missing fcsr in ptrace's fpr_set
-45b53c9051770c0d9145083a328548745ee2e75b LoongArch: Fix wrong "ROM Size" of boardinfo
-9d928d9b78beec5d4b8afde9c144919b979685f2 Merge tag 'powerpc-5.19-6' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-a95eb1d086dcc579d52ca4c34742516f6434d1f2 Merge tag 'loongarch-fixes-5.19-5' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-e4d8b09d671f0ee92d36c48b65d2f34affcdd531 Merge tag 'riscv-for-linus-5.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-46a4d679ef88285ea17c3e1e4fed330be2044f21 workqueue: Avoid a false warning in unbind_workers()
-506e6dfb0f1131f104df66ccae1197bdf8f1b6b0 Merge tag 'pm-5.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-4b20426d044163df0ff9d868e9767ca9e65dd36c Merge tag 'wq-for-5.19-rc8-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-bb83c99d3d0aa2f51ba0b2abd7115002620118e6 Merge tag 'perf-tools-fixes-for-v5.19-2022-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-9282012fc0aa248b77a69f5eb802b67c5a16bb13 page_alloc: fix invalid watermark check on a negative value
-8a295dbbaf7292c582a40ce469c326f472d51f66 mm/hmm: fault non-owner device private entries
-ea304a8b89fd0d6cf94ee30cb139dc23d9f1a62f docs/kernel-parameters: Update descriptions for "mitigations=" param with retbleed
-1c8ac1c4af178ebcdf6fd4a0ba11716e2c814593 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-ce156c8a1811c96a243590abd0e9b5a3b72c1f3a Merge tag 'drm-misc-fixes-2022-07-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-e65c6a46df94c8d76ea1129eb2d4564670c6f214 Merge tag 'drm-fixes-2022-07-30' of git://anongit.freedesktop.org/drm/drm
-8a91f86f3e9e9608210166c70aaad4919018c0e7 Merge tag 'block-5.19-2022-07-29' of git://git.kernel.dk/linux-block
-620725263f4222b3c94d4ee19846835feec0ad69 Merge tag 'mm-hotfixes-stable-2022-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-6eebd5fb20838f5971ba17df9f55cc4f84a31053 locking/rwsem: Allow slowpath writer to ignore handoff bit if not set by first waiter
-6a010258447d386186ca10cd374d888ac66ffe1a Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-cd2715b7929bcaf6e38d13ac512e0a9bba8df10d Merge tag 'edac_urgent_for_v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-5e4823e6dab8fcc897757c1be68d157a369e4bb5 Merge tag 'locking_urgent_for_v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-89caf575400a9296e45b7de97b07d2fbf249c1f5 Merge tag 'x86_urgent_for_v5.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-334c0ef6429f261c7f53dc035632435ffbc0c60d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-3d7cb6b04c3f3115719235cc6866b10326de34cd Linux 5.19
+19ec5133968532517247d7c778cc9a88b8abae3e [PS3] Prepare ps3vram-ng for submission
+c7448ee4fecc40fd5f71c8689b9f6af77c75d1c2 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+3145d7603db7babb5eaf840259aaa38b4cb5d743 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+4af97ec04d4088878c29158daad22c9f02372af3 [PS3] Prepare RTC patches for submission
+850352a163fce23dd10c662fea50a36d4d438c86 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+636e600ae2e2b8fa743bde0374cce9475219b507 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+c146ff9b62c35e5c641eb8bae0b80892fd81999b Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+8e04f4bc42466174727893503e2d708e1a1369fe Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+a14c75d1a73ebac7b4e53f1fb7da0d4b3ea74fdf Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+909d787a0419a0c1148f5d5c0a120575d64fac3d [PS3] 16:9 aspect ratio for 720p
+0d43cf97997a43b7f93dbe8b78101a750a1069d6 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+6d89e36d0b3da4b73d68a3b2064e707ce47f9b3c Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+41b34b086f4939d4573209e7839deac0f6a9fe90 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+c6fa312c1d26fcd9b37e02e9bd763fe572190dba [PS3] Updates for gelic
+84f1f5275cd7af944a9f2e276590b6ed8995bc8b Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+e9e92a73ba06d211619bba75bab9b0ce3f91d747 [PS3] Minor ps3vram updates
+a0ba60ba19f5aee2b90df3a8687f45b76dc90881 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+c38f47d75f16663b6a1efce56c85b129e691a681 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+a7a779a504e77512b2614a3aab4ad41600148d34 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+469dfac23d7f03c55d0623438fbc9767da6f6bd4 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+3698d9a2062e4d918b1e2654c4aedcb6bdd55bfa Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+6f21f3f0c9d464faa8c37862629d15ac819e21c3 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+e6e9195bd3b5e23015b009b240230682e188da6a Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+4ce6cf68eba630e10defd9a2b39644dc4e7ead89 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+86c387a28ea35e7e26500fb215d43c54751203e3 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+8da7d6643009b3db32d3b03e46eb447843294c4a Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+abbfd1831d4116a972fc60281cdefdfa9a60ee1a [PS3] Update ps3_defconfig
+294da5bf59bb458bb1a05233157d939ee2d9102b Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+8effc19fc81a25978cd862719bf7ce2cb51d86ed Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+af2c8bbe95c0e48e52cd6038f2c23a574d5ee6d4 [PS3] Fix powerpc kexec
+085cebdb9d60c5e2a597b8ab552bc858e0114d8c Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+fa39efe7a306e4162744222ecb7517e99022722e [PS3] gpu updates
+5d3e6c2b33450cb5c91b2bf92bf6443aa17d607e [PS3] Update ps3_defconfig
+ae298c65673442e7dc901498ee3d526d2b95aefe Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+46dc0c75e68b47a36d67d72ef93779c3b2f56cc0 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+df213d31132892a3a3657c1d5ac49c68a2c2675e Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+eb533a4ab535e9eaddd8aa4c93ec37448c6b069b Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+98fd02ace47cb64ac55b62beff18c1ec06ae49e7 [PS3] Update ps3_defconfig
+a32908bcadc55994c0ad70704a4b4e1a60443735 [PS3] Enable NFS-Fix-the-return-value-in-nfs_page_mkwrite.patch
+8ce98c0af1b671b6800c0d254223ba3629eefe48 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+5eee8aa3a0c7bfc895bde9ea48aa6d16aff77575 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+f8dd3e4a7d9270c4400b998acb6fef56a6f9a0b9 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+f86fe05ba2bd87ca58ff519acf3acc7ce3a8358b [PS3] Update ps3_defconfig
+c45cd2e3f47b8fd5b15566d11bd5cb864963d6d4 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+6e3fc0ffa1bffa411abcac3c9cdd9b740f5aa177 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+747ce2d4db355ef758699be743cebc18d5d2a172 [PS3] Update ps3_defconfig
+ba7d529a0bfdfd168aa8c5a1ae4813e834bcf22b Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+095ab5ff59a7417e192c49e88a14bb4617b8cfbb Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+e18e5f68410a51c52cfe5e0b284836e7def2bc53 [PS3] Fix ps3fb unloading
+5f8ad35388e1e0e41f53f4000484399d35badbef Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+db0665ad845c1857395770f3a0b0cc0682106911 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+6ded7aa41b376ddaceb7d69fe27aa3e51499cf25 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+d6e0aad876de5664c0bf3eab771f1a48a3bfd287 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+b880cd8e0f105671c99cbde5286b6c44865c4567 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+c9c794f42caed956ee8f48047583beadd5435d81 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+2ff0945d490eaa276c89c3971d25d867f4cdd708 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+54ee7d75f2fb219f646c0a7dc527b96345f776f0 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+eb32a5624dd6d176877289493e5e515ac3dfbe9c Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+bc5fba2111e995f8c8baa82d8a862df9c46eb4de Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+2e7ce17d260ad0c68db95313c4be2cad3b9e1a43 [PS3] Add fix-ps3-maintainers.patch
+4ca5bbb92263a0c59954b7af2e286bb2f6978c8a Add ps3-fix-no-smp-build.patch
+f099b210936c249d9b041f239854b0edc4251262 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+d03d24fda0dcce7c5953a24aef646e06a62922b1 Add ps3-fix-unused-warning.patch
+c82729e4f472f37209469e724fc22b6db7fbae11 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+22d2133236249dd45a9d81d1c8d7442378efc244 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+76585d8716072c7802c01a13ddfa41c9cb6c779d Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+8206ffcc669f32360f400e8e10b2c12114ff8b91 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+f56b8d4c3772077bb91857da607bd85fc7fc4ac7 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+605d35090f60469c573f4ad2812ba8bb84f03cbd Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+a40672fb6eae6ce9493adcbf3f2b7e4224924403 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+177269852a4f24ca9a7ef3018639c0f218046900 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+0f35a8abe71782d8b0532fbca0d12b247e998e94 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+b203f7a40cf730f2b1a1d551ee500b59f629a26e Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+5ab3379d88eccc281b5bd0ae88fdb6fe273b60f5 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+936636c3c92ec3ecc31e71c13ad613baa93a9b1e Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+5d0f44144c1b95845b37a5f9b68975ff85f6d867 [PS3] ps3fb/ps3vram updates:   - ps3fb/vram: Extract common GPU stuff into <asm/ps3gpu.h>   - ps3vram: Keep ps3_mm_phys_to_lpar(__pa(priv->xdr_buf)) in a variable   - ps3fb: Re-add acciddentally removed reset of info   - ps3vram: Remove no longer used ps3vram_priv.ddr_base   - ps3vram: Make ps3vram_priv.reports a void *
+f64f92cc8fb86a1813c9b66f0683718350c910aa Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+72cf53553190048e14737d2224b9432e0f4b9eac Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+dfa1fda937d3334f795451ddf081334cd004d19b Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+f5ed8655fd093373cfed1cbb35617525e90f08e5 Add ps3-wip/block-ps3-remove-driver_data-direct-access-of-struc.patch
+91dda18e6cd86951577490e9dc159790921be3e1 [PS3] Update ps3_defconfig, set CONFIG_HID_SONY=m
+36230136e72784fed057549c9f395601b74a1b95 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+6cfda5dcafbdee05859631064ee83aa26568febd Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+7d46711b8a8edce6ceae3e211a66019aa6e1eb5c Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+a0b34826c6fa03e7bfdf083a4b9c9c1f47d3bbfe Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+e7ba15830cfea20115947adf42b255246c5d3adc Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+19d69dd0f0d8dbbcdb24517e1db9d6a21d7e9861 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+951b4922de526e786bdf55b376eb2d8cbd7cef6d [PS3] Set CONFIG_SYSFS_DEPRECATED_V2=n
+dab93ac20c3b254115020760ae8452d02ca80f08 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+d4171477dd1876aeb5940b08458e7b5daa868440 [PS3] Merge in Geert's device fixes
+7ef67c0326dffb35f9c4eeb603add203b55d56df Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+56d56aadb2ae6cb728781d91ed657bf91ac81517 Merge commit 'v2.6.30-rc7'
+da95dcf4f41cf587b6b7304e37e80e27330e0569 [PS3] Merge in storage updates
+aba219e717a70a5dd6246dec7ee6bcd44308dbd8 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+234476e94330ef9da73042ba3bf1c43bddb79298 Merge in Geert's driver cleanups
+2702b3dd4bda76b2753a4231eaacbe1b47bfdbe7 Merge in Geert's flash updates
+988abffcf1df70ae806060e9161952dfa7dbaa98 [PS3] Update ps3_defconfig
+3bd3f692a8f07c109618d65d3d3983689d4a1dc0 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+29a9941bcd08ebe28f08f2cc4b7ddb5cf8ba8700 [PS3] Cleanup patch series
+d3d86fec1b96ae375e436d2aa2615ce39243bbf0 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+5e684c26abdd6b56975e9eb6a7baa5a981cf85ce Merge commit '65795efbd380a832ae508b04dba8f8e53f0b84d9'
+374e4d58e84d49495c71226098d210d7c2c7abcf [PS3] Update ps3_defconfig
+d5939580f1cfc44575b9d295e86616df09160f3a Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+b4a212c923856823d5aac9ccdf22695d0ae6318e [PS3] Add ps3-use-pr_devel-in-mm.patch
+c9ce0af443d4c7e8e6e8f138f38c510e38432942 [PS3] Enamble some CONFIG_HID_ options
+45fc1ac5e7f77e5419250e9116fe66e02e5b42b3 Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+b03b601f3fbee589b5a2a3983067a0b21f7792f0 [PS3] Add ps3-gelic-fix-rxdmac.patch
+cfb4e24ab601dbfaf39eb3a40cc620ebf1ee6561 Merge commit 'v2.6.31-rc2'
+6cc9aad9e60407a3f7a304af57a9bd51bb048c9d Merge commit 'v2.6.31-rc3'
+9b6311d11fbfea6a5d2e7170f3e2c19f6efe3c6d [PS3] Update ps3_defconfig
+ae855c863c4034bc14e0ded350e6fb7abe744884 Merge commit 'v2.6.31-rc5'
+b51aad7005cef427c4bdb220edfa555e5cee75c3 Merge commit 'v2.6.31-rc6'
+ae65bcc22ccf2b0400738ec67c41ff33725fae08 Merge commit 'v2.6.31-rc7'
+0fd01877ef0fd83623a32e7d3217d7315eaa63b5 [PS3] Add powerpc-ps3-Add-missing-check-for-PS3-to-rtc-ps3-pl.patch
+c722073088c8afcccb8360f71db06365900dbe3f Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+34fa05fc2c4da458cdeef7b02a5192887ef6e305 [PS3] Add ps3-cechh-flash-workaround.patch
+1a1e4ca47833faca47242de59c9a14afa4420a70 Merge commit 'v2.6.31-rc9'
+93e6c28dcf45ee57d62524acd32e0a181fc54769 [PS3] Update ps3-flash-workaround.patch
+36db4679274e1cc240f63954272aa1201083319a Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+1ba9d3ab2ad64aeafb84f8f73798b30b8c09bc4a Merge branch 'master' of master.kernel.org:/pub/scm/linux/kernel/git/torvalds/linux-2.6
+96ebbe6d10c9472620ac7f1c19beef9b83681451 Merge commit 'v2.6.32-rc1'
+0b4e30167e7e019a1abcdd92dde1fea27a3e9bb3 Merge commit 'v2.6.32-rc3'
+6240a5b396cac7b477cb53785ae91566fd0d7804 [PS3] Update ps3_defconfig
+45fb79a4cf0962e1354e38b3f5de370f6914b0d2 Merge commit 'v2.6.32-rc4'
+d8a51c5a0dd7068aaa7f43b79cffd77dcbddac80 [PS3] Add gelic link speed support
+b30a57e7bde855149f27e70fb44ae2eaae351421 [PS3] Speedup VRAM IO
+b6f226cba98a21f10751bc798d168c16f1c9abb7 Merge commit 'v2.6.32-rc5'
+199a17b061f043e430e916cce118f37c3b937b0c Merge commit 'v2.6.32-rc8'
+2b28197841408efe0c41c1bbe19f565ffee26083 Merge commit 'v2.6.32'
+9592c263a34ec6beaf51395083183f84c59b2353 Merge commit 'a252e749f1ae17e43ccc5824f7b1b5854417c98b'
+5e41d587e7ee8be4cc09f4641f1de8e84987453c [PS3] Update ps3_defconfig
+840bf8646f0ce0de7e708b9f7e36d103aebfcd2b Merge commit 'd71cb81af3817193bc605de061da0499934263a6'
+8795358533438e794797b415020ccc8f7e0543e4 Merge commit 'b8a7f3cd7e8212e5c572178ff3b5a514861036a5'
+81eb573a76c4ac227f887737e1dcd60f43d95148 Merge commit 'v2.6.33-rc1'
+3c181f5bf67f090dd5d169ed277816967bb8d699 [PS3] Add ps3-gelic-fix-build.patch
+bece49acc99326a356308d8c40ade81e87ae29ed [PS3] Update ps3-gelic-fix-build.patch
+d7e3fa98998c68a82e68088027cf38a797293bac [PS3] Add ps3-usb-fix-316.patch
+f0670d1265cdcbe934c3e3e0f13866890c88646b Merge commit 'v2.6.33-rc2'
+ab917c6b503ce40e1008417a7ff83ec614f6a182 Merge commit 'c5974b835a909ff15c3b7e6cf6789b5eb919f419'
+2253566c7b41096566ffab86f90df2fa88093279 Merge commit 'v2.6.33-rc3'
+808f3f2def1325c02f71cd2436057190b580d770 [PS3] Update ps3_defconfig
+4a9ef8db6610571056a08fcfac2a5e05f9561470 Merge commit 'v2.6.33-rc4'
+4cba174d594da83ffc5bb69d95dd59c388482460 [PS3] Add zlib-Fix-build-of-powerpc-boot-wrapper.patch
+2dbc036cfa6b015b001b86d814cff43acae901fd Merge commit '61c39bb354a1f791ba6f562b766a72e508a036ee'
+082ea9e634acd217e898b945fefd814a2a73488f [PS3] Add ps3-usb-fix-295-check.patch
+068a2b1f1f1f81c4d909abd83075bc20c1f35e4e [PS3] Update ps3-usb-fix-316-debug.patch
+cb08ac8b3d53ffffbe5b5fc281df2a9dbb711905 [PS3] ps3-usb-fix-295-check.patch
+b073c9c49496b88b7291a66642cda96ad414225e [PS3] Add ps3-usb-fix-226-check.patch
+07ae6001ad8211237b55e540487fa5f75943b867 [PS3] Add ps3-usb-fix-236.patch
+f1705085bc0402dc234287fdece8725db9020b3f Merge commit 'v2.6.33-rc5'
+56f3714743b415f171835ec55f12eba8538ac084 [PS3] Add ps3-wip/ps3-usb-fix-244.patch
+01429bab3588a229043fd3cec45f3567c2eb1821 [PS3] Add ps3-usb-fix-253-check.patch
+f79049e900aa1d25e9efc2c81ac46fa45cce927d Merge commit 'v2.6.33-rc6'
+97ad87a9ced4ee93f272108feb403c6e8b2e6c25 [PS3] Update ps3_defconfig
+f91ead7e5bd60bda917c5112651f7eedc3c27412 Merge commit '08c4f1b096cc2468908ea58a77d2ef92ef765c52'
+ec03610a6cb73baf62c97b3340718f567fe502f7 [PS3] Updates to USB errata checks
+d6428d1aea934002bfb596776e9fe809cd87e009 Merge commit 'v2.6.33-rc8'
+d43750d66f50d37b5625f8546965cc3376b0d3c3 Merge commit '4805a1b0e6d74feb6428c05116a2886a076ee341'
+4b489d45781eddd680da4a52ccab4ef1dd369c0e [PS3] Update ps3_defconfig
+dc6131048e8d1ad94a48afe79a75a64d84ba44e1 [PS3] Add hex2bin patches
+3193b8c711af05d6797053b93af291e1e04906c6 [PS3] Update hex2bin patch
+5c9bc71dfda1e66a2a9f6d992a1e785b955ae352 [PS3] Remove hex2bin patches
+d1d5d2a977c352be9e2b2a75d7e0542255d9a6f6 Merge commit 'eaa5eec739637f32f8733d528ff0b94fd62b1214'
+dadab872a5653b859dfaf6d46110dd532ae04a40 [PS3] Update ps3_defconfig
+7ef2e89cb83456d22a8f069047f720280d4d5ab9 Merge commit 'v2.6.34-rc1'
+3be2c711c11ce2c73fdce2c726a5d0189cdc6328 Merge commit 'v2.6.34-rc2'
+beea9153c11c46797de526bed3cda719c7fa88c9 Merge commit 'v2.6.34-rc3'
+f04c11d130e6d325a76b653ae5b14bf563e430d7 [PS3] Add hcall cleanup patches
+29c89c8b03d343733701a61b692f1e8f1521f83e Merge commit 'v2.6.34-rc4'
+aa71ada49d8b93c84afdb76c0d4520f7adfd3229 [PS3] Update maintainer
+ca7bf383024332903febaf03ac55233a1f5c5345 [PS3] Update ps3_defconfig
+893761d6b921a325290aa99f9d4e4a3fd1d8e35c Merge commit 'v2.6.34-rc5'
+03f2b92892b36b6a875c3b52d6865a66ade8f756 Merge commit 'v2.6.34-rc6'
+f19ad1d77fb4fd56f4a94a450d1335ed2c3cb493 [PS3] Update defconfig
+05d197c5519df4262327097b03b8d2ef761d4dc3 Merge commit 'v2.6.34-rc7'
+a484323fccc82817d0dc63c8a01ab7d1343775d4 Merge commit 'v2.6.34'
+047037ca3b40e4249dc1257cf4f95c8c84dd1598 Merge commit 'v2.6.35-rc1'
+05445e63a1fa7559c3d1cbffce6697d22b88aa24 Merge commit 'v2.6.35-rc2'
+e9558c7430af93edbd37244fd73eba84b76d9d13 Merge commit 'v2.6.35-rc3'
+030a926d3414b394f808e9612a055d0b12766e59 Merge commit 'v2.6.35-rc4'
+a11c24cf4618966c54fc17c786de657d8ad1960e Merge commit 'v2.6.35-rc5'
+61dd02ae9df7dd8a907507595c74a77596937104 Merge commit 'v2.6.35-rc6'
+3270865b240ee15ad3a97f2960caa0efe69eb927 Merge commit 'v2.6.35'
+10479cf673d8d9e6851a65fe8a8c4b7bd15a45d4 Merge commit 'v2.6.36-rc1'
+683e5324e543b8e73b5831d25a90445796da7151 Merge commit 'v2.6.36-rc2'
+c53aaef8105a90a3c3ec4274c2cb6966471ac138 Merge commit 'v2.6.36-rc3'
+e5a680a6250730f7467f85c2a9c375c3a1030f6e Merge commit 'v2.6.36-rc4'
+b5d46c25df13130281cadeec14f15b87c0e9c4f0 Merge commit 'v2.6.36-rc5'
+a3c53660ddfcfbca083918948d39cdbce7fec9ed Merge commit 'v2.6.36-rc7'
+6ce8e477b82cf0962467b77850df685d56f5f952 Merge commit 'v2.6.36'
+a07c07258ca0ce7022f3050a45d86736b0e743cf Merge commit 'v2.6.37-rc1'
+810451c0e2883eeb2d393835135d0d7cd97ea66c Refresh ps3_defconfig
+925a6cff36dbd71f5ad61cfd651db3891adb9532 Merge commit 'v2.6.37-rc2'
+f1faaf392bf1952326c6981204fb0eca7ef8af86 Merge commit 'v2.6.37-rc3'
+17c7fba6ba3360c62457ee5879c228c5126d1618 Refresh ps3_defconfig
+f10bbf3570f6a3f6524a5e78be8a2da8a2ead4de Merge commit 'v2.6.37-rc4'
+b36a9a1396b946f820abde644fcdd5e27b9cbe6d Refresh usb-add-ehci-post-reset-routine.patch
+a7655c4585d2346f13b681f543ff8a87904e4ad8 Merge commit 'v2.6.37-rc6'
+cc42783f2d57e7403cd4a1766788dccb6764aec6 Merge commit 'v2.6.37'
+3a79fc2f973a1985d6911b646dbeefca76f9f1db Merge commit 'v2.6.38'
+fbe35eff6248d7c507d9cfb9ce5554eed0d1672b Update ps3_defconfig
+ce45c2c54410142fa917bafd82cf05d3dd926cbc Merge commit 'v3.0-rc7'
+99dbd40c1b21b31f878ce95e81f3b2e37cdfa9a5 Refresh ps3_defconfig
+938470683d9a9a60db6191d29e702801d367b93f Add gelic tx dma fixes
+11ac43faee479a5e39658f4c85e3643008cc67be Merge commit 'v3.0'
+a2b271fbc1a28c4c8718526cdaf64bbabd4dab4f ps3: Fix lost SMP IPIs
+e5400adef21742e2881de9011ac09eff9c42aef2 ps3: Fix SMP lockdep boot warning
+daf4c5e08129232afe93ee03e1eb23bb2d1848ed Subject: ps3: Interrupt code cleanup
+a8afd9f0929851ba62d69496785170583fc573b0 Merge commit 'v3.1'
+334081a5b1ada854f0558c5cf24fd629e7379d13 Merge commit 'v3.2-rc1'
+e5de697b89addff88b353a58867f35c493ef23da Merge commit 'v3.2-rc2'
+94d486ae664060c0cb4c7d91ef1e24ad88ca5595 Merge commit 'v3.2-rc3'
+afc7546418882b22a979a071e2c26a7a56257be4 Sync to branch rebase-queue
+98acfd44c18768063c8c16222a6a128df8583a28 Interrupt code cleanup
+50f82d2604d002001f1772339ae16794fdadd628 Sync to branch rebase-queue
+8bff73a1dc6cc8823e9be405b48e36ae11055cab Merge commit 'v3.2-rc4'
+4f5c02547ede16519192ab8c803340ca1467b08b Merge commit 'v3.2-rc5'
+eebcdd5120f5b3c504776311c67c5ba36aca2c73 Merge commit 'v3.2-rc6'
+dc4a51d61c2f3e3fda29f2314410fcfb0e09415c Merge commit 'v3.2-rc7'
+083263052100b7585b2cfcef40360125f9b54ff9 Merge commit 'v3.2'
+078815d1875468893d743f9655dc88a0ad6ff32a Merge tag 'v3.3-rc1'
+5f705be683b3d64af05a8cc7ae1c6c7667cd2bbf Merge tag 'v3.3-rc2'
+14721e7ca223c4dcab0c7b3c627f00d296fd7d26 Merge tag 'v3.3-rc3'
+b3424fd2b0bc57169063877b4f1aa6c2d90649fe Merge tag 'v3.3-rc4'
+afb2ea0a75ebe15038c2934816bc2f6bc1f4940e Merge tag 'v3.3-rc5'
+311466e0c2af1ed89837c6af2b1c2c477f005844 Merge tag 'v3.3-rc6'
+f420e8c7d57293b1e74e5ffb2fc0e2dfd1edb8dc Merge tag 'v3.3-rc7'
+a66ac0d45142f77750dfd553252f3f662b81243a Merge tag 'v3.3'
+42d5767e2eb2da2a307d6bfab8e26fdeb7c5ebd0 Merge tag 'v3.4-rc1'
+a98411f5596ebbe987acd9ba21f8fc506c075524 Merge tag 'v3.4-rc2'
+be0c591cde3ff4ec171325d8b8bc7d879f632efd Merge tag 'v3.4-rc3'
+28c0cdcb4cac6db99933893b1fa2984f24dacdf3 Merge tag 'v3.4-rc4'
+79b9ba4b4e73f4af1cd65dcaa2dcae711af14d8a powerpc/ps3: Correct lv1 repository routine names
+efd11346e01546e5c5e2c75529499bfd854e7a07 powerpc/ps3: Add PS3 repository write support
+c08b0fa704997cd0a0c416170eb7bc96cb5665e0 powerpc/ps3: Add highmem repository write routines
+3cfe9fbb4a2539fa007b5f37897a5eaa5e355995 powerpc/ps3: Add highmem repository read routines
+af17510fffa23c506ff110283a344aae2129b931 powerpc/ps3: Use highmem region from repository
+6eafff78ad0534c5112272b54d0305b0e2038f94 powerpc/ps3: Add highmem region memory early
+e42cc61ce1452241e1e5d353aa0fd187bf10d71c powerpc/ps3: Remove MEMORY_HOTPLUG requirement
+1363b00188468067d2d2406af61fb22d7e78635d powerpc/ps3: Minor Kconfig cleanup
+db553263a3c97640331230652260c8cc240a3141 powerpc/ps3: Refresh ps3_defconfig
+f6016f36fdf0922dec1e0ecb008637c93bbae22e Webcam stops other USB devices (ehci_hcd: HC died; cleaning up)
+254b776eafbb14b17dc6def589b304b9b3c915cf [PS3] Remove system.h from oprofile
+ce0a94ef0404a404227b62e115d521b4527a1e8b drivers/ps3: Fix checkpatch warnings in ps3av.c
+ab65154a761ecc699eb760803c0ffc302fa8d286 Merge tag 'v3.4-rc5'
+61678ccd69cf812979aedc4c17e8f029aee9ab85 Merge tag 'v3.4-rc6'
+ccb3505e86c7ce30ec4799e57c42601ed3bbc328 Merge tag 'v3.4'
+5bd1b70b5312175c129e92082910a9c1d2bcbe1d Merge tag 'v3.5-rc1'
+a403b828c4236135aeedd715353456eec9e92bd0 Merge tag 'v3.5-rc2'
+4990706ebf949b39bf5c70e5acb7533699ae16b8 Merge tag 'v3.5-rc3'
+b77a9ae5c2dc6a07c276fe3e126f05de40e37571 Merge tag 'v3.5-rc4'
+fe9837f742a2bfffa0a5251b1bace091cc76d2f2 Merge tag 'v3.5-rc5'
+ccac879a69768b7437d2295baa0dd04639fa8d97 Merge tag 'v3.5-rc6'
+b8117b7ee10025749754ca6630fa9580affcb5da Merge tag 'v3.5-rc7'
+1a0186f70a45f6e668c2affa99ef4228ddc3c75f Merge tag 'v3.5'
+4c368f3a5ef0b3128359778bc95acec844b6bdad Merge tag 'v3.6-rc1'
+bb73b23436f7e56915699e6a91408f24d32b9f7d Merge tag 'v3.6-rc2'
+cbaa969ccb2c1a341b51cbff8d552b4bf10949d3 Merge tag 'v3.6-rc3'
+3a40d6d3cb368a776451642fc1f7c4af9eadf584 Merge tag 'v3.6-rc4'
+18ee68ddeaa3beae6755749089270f4d2912a20e Merge tag 'v3.6-rc5'
+9e9d6ca2147d35af6919f10148721316ea19384d Merge tag 'v3.6-rc6'
+3ac1b1e5590653502f3e42109974b237d9cc55d6 Merge tag 'v3.6-rc7'
+b1cb6c900711d6753a14f77d1c1f67a6e66cb7c4 Merge tag 'v3.6'
+9b91ca8aee1c0060f574d885fcf96022e8421e17 powerpc: Apply early paca fixups to boot_paca and the boot cpu's paca
+1c29e49ded8f7823e44b098e7cfdd8660c5bf897 powerpc: Make context bits depend on virtual addr size.
+62c2e1fffeef8bcefd7ba3dfc497fe5577b97e8e Merge tag 'v3.7'
+b19b71148b2e3f5f0bf8c9f27731ea1fa4142dd9 Merge tag 'v3.8'
+cfea049b9688f0f0749009533c9d8d5c0b356573 powerpc: Disable hard IRQ before kexec
+4a5741ac175069848f13e24607b05d278072b399 powerpc/ps3: Add macro PS3_VERBOSE_RESULT
+02648255896a7b98d805d99a13a8728a8ec3d1eb powerpc/ps3: Increase verbosity of htab errors
+b26515de86bd644b1c66bab354595d4fc7158431 powerpc/ps3: Refresh ps3_defconfig
+8055c3c606da3953b5921ad83faf9eb0d02a80a7 powerpc: Move boot_paca into early_setup
+cbd436603cbc9830db0d97a27d091a0c224f9bae ps3-debugging: Limit boot mem size
+f570048f6c85b1e534b51417e1fbfe2ba622efca ps3-debugging: Limit hot plug mem size
+fb29e21181dde7a507a1130403ed0b9d9a2af8e7 ps3-debugging: Setup DABR register
+8062f2c4c87f54baaa804add1653b9f68b083bc7 Merge branch 'ps3-queue'
+a3a2d4d450b29146ab9064be67f2c48ec21cee4d powerpc/ps3: Update ps3_defconfig
+90711c4290866b269422f1c8d66e05f4a9e9e8d9 usb: PS3 EHCI remove unneeded ehci_shutdown
+9d86921f32f52377d5e5ad55b189c26f24cfcd26 net: Fix p3_gelic_net sparse warnings
+02edb2d3ce858b3da08471051d21d991e743cde9 block: Fix ps3vram sparse warnings
+0377bc4edd67d0f4b33458f64ccb68240e314284 powerpc/ps3: Fix vuart sparse warnings
+8d97262da95063fda661a3c99b8423cc1f57d7ed powerpc: Fix sys-manager-core sparse warnings
+01d452071ad97bbb362fe0b70544556eb3468309 ps3-debugging: Limit boot mem size
+3e5eb0fdd9a100ea05a9dd2d88996ff45c121692 ps3-debugging: Limit hot plug mem size
+6344bd0d5da28ee3966fc27f2f98d2bc5e2da834 ps3-debugging: Setup DABR register
+654fbe73c071fe8335880d534f104ac493108151 Merge remote-tracking branch 'origin/ps3-queue-v3.9'
+4ddd19887906ff979e1ae7b032c2c82b2cd10d38 block: Fix ps3vram sparse warnings
+157a27c31665bde4f26f9c318c6054ab713e6d91 powerpc/ps3: Fix vuart sparse warnings
+b8d83623b6daedae0a1758b313f060921fd035c5 powerpc: Fix sys-manager-core sparse warnings
+d996123b8497b7ad66414f0112d5584e970bbe26 video/ps3fb: Fix section mismatch warning
+b32ba0dd4042c4224edf335d23a3cb289524623d powerpc/ps3: Remove unused routine ps3_get_spe_id
+0ce659ecb57e72b9d712b9d7336169dd865505c2 ps3-debugging: Limit boot mem size
+7045283841eb5751162bd384e4cac7314c95492b ps3-debugging: Limit hot plug mem size
+99513f843821b1e4aadb7a00df336dd310c12710 ps3-debugging: Setup DABR register
+6771aab3a46a5e2e027b9d946973eb167f6a6482 Merge remote-tracking branch 'origin/ps3-queue-v3.10'
+a08c419ac8f99bb776be1d094c926946fa4a21d1 block: Fix ps3vram sparse warnings
+6a6369b5b9e9786618584b6d0e2e81afe8122c81 powerpc/ps3: Fix vuart sparse warnings
+2ce712d225c6587e82f1c130cf295e57d6b1d52c powerpc: Fix sys-manager-core sparse warnings
+f7e59f49d01c59124d33ae98acbb1adffe367f90 video/ps3fb: Fix section mismatch warning
+cfc5f8c564d8babacf7b09c9088b6a31bb925448 powerpc/ps3: Remove unused routine ps3_get_spe_id
+20745254c334ef20fe8478dc75766546b5e593aa ps3-debugging: Limit boot mem size
+701e7b4c9b4db03d0e7819a0f8a04c892397331f ps3-debugging: Limit hot plug mem size
+8e865f55f856f532b7c73c863a40e9181c1abfea ps3-debugging: Setup DABR register
+4a287bcb055966cacdba2ea9787d72613894f42c Merge branch 'ps3-queue'
+717179722fb500863eabc35f42a3019677cba6bc net/ps3_gelic: Fix build error with DEBUG
+59d1e67bb4c0d68fdce919f67e29ca2cd7bc788b powerpc/ps3: Refresh ps3_defconfig
+03d6296380800983fde3454426eec4f07e73cf23 block: Fix ps3vram sparse warnings
+79b782fa6d87b2ccf11c5d580720b5c93d367cd3 powerpc/ps3: Fix vuart sparse warnings
+9f144074d3910b8735e9fe985746d294f95a0e3f powerpc: Fix sys-manager-core sparse warnings
+82c6ff5684777fb1ee16a78a739f3cafc779f50e powerpc/ps3: Remove unused routine ps3_get_spe_id
+e172b4f594dfbb78fe4ca338b14a33350ca9542f ps3-debugging: Limit boot mem size
+cf5dad4509dfc0e0776604b6f12e25893205713e ps3-debugging: Limit hot plug mem size
+1e30aace4545a7ea0d7be331a487072052e1b144 ps3-debugging: Setup DABR register
+8963585aaf82a58642af794c4c3e8c5d3cd9e897 Merge branch 'ps3-queue'
+2d347f384189b5920522b7fbecff845cbf18bcdd net/ps3_gelic: Fix build error with DEBUG
+4fd564438c151b800e3c19e38de66a6caa2dd3fb powerpc/ps3: Refresh ps3_defconfig
+f4802054a50ca2427a8ceb64fa58957cb6be7483 block: Fix ps3vram sparse warnings
+291e66f82598ac14401693a6d889ca93ccf9b529 powerpc/ps3: Fix vuart sparse warnings
+eafa4f619561fe8ad06d472bc68de14f9f031623 powerpc: Fix sys-manager-core sparse warnings
+1feb1b924fb23e7a54d7cedc9d7b58f2c070b638 powerpc/ps3: Remove unused routine ps3_get_spe_id
+dde0b4b1ddd39284ee257771ebca09360f7fe156 ps3-debugging: Limit boot mem size
+4485b3590496b3b8a69032551babdac6948b6710 ps3-debugging: Limit hot plug mem size
+751e11c55711dc45576512b2d4bfdde747935f18 ps3-debugging: Setup DABR register
+8d7325fea1a4bc5d89bd092d1edc175bc3f483d2 block/ps3: Remove obsolete reference to MTD
+fd73a9da2ee9080d6e030a01e29ff771b6a443df Merge branch 'ps3-queue'
+e3c9e5ac06c1648f1de76a782da07b2037e25228 net/ps3_gelic: Fix build error with DEBUG
+f1c663553def29ccd26cbe31583e41c06bad3feb powerpc/ps3: Refresh ps3_defconfig
+9cd941fb4626ef5eb967106eebbcdc98f6a697ca block: Fix ps3vram sparse warnings
+d1c7d119fd1e0923bc11780a6a9522ad5b2d0e3b powerpc/ps3: Fix vuart sparse warnings
+ed286497d765cc0abb540e3927fd90a031894b5b powerpc: Fix sys-manager-core sparse warnings
+76093cff9e84bfbfad71e49f578bb32bfec804dd ps3-debugging: Limit boot mem size
+40bef4b91b6b74c1c0d36834ddbd07ccdce3c2e7 ps3-debugging: Limit hot plug mem size
+2d993b1c7db8adc9084884a34636099f5fbb578f ps3-debugging: Setup DABR register
+67979fc67675c2cb133af9b448f9bb1219c11839 block/ps3: Remove obsolete reference to MTD
+b9a06aaa3dabaa06cc172dde335d438a7da0f0a9 powerpc: use device_initcall for registering rtc devices
+30bb9888005ce8cb1b9fdcaafd7355e58be5aa3c powerpc/ps3: Refresh defconfig for 3.14
+f58b8980c9c6b1bebcd489f98608e6fc95e9197c ps3-vuart: don't use PREPARE_WORK
+828ee9c34689788715335b161cce6089a587c5fc Merge branch 'ps3-queue'
+1f2da5904470371fcf264cef794b5c8a97ba29c4 net/ps3_gelic: Fix build error with DEBUG
+4f70a758a4270d1fc4b16143b815efcc1ea5ca4b block: Fix ps3vram sparse warnings
+14b3bbc95d9b5d91af435b808f12770a0472b37c powerpc/ps3: Fix vuart sparse warnings
+65a7af074ea79d018068ccd13c07d7290f431cb6 powerpc: Fix sys-manager-core sparse warnings
+50b79b25853a3ec8dfc8f5ed6bdecd7764fc38fe block/ps3: Remove obsolete reference to MTD
+dd9cfa707f43ebee203f1f79556329993c8d1fe6 powerpc: use device_initcall for registering rtc devices
+ee6b80b5dfedb7cdf5f21820563412f9c64c7f07 powerpc/ps3: Refresh ps3_defconfig
+613137b94d8780474472bf220da0f079cd4e50d0 ps3-debugging: Limit boot mem size
+6e905519b99eb55bf4eb182ed6940835c5722eae ps3-debugging: Limit hot plug mem size
+3df44b11dbbe41d64cabb97d3f2cde5dbc2164bd ps3-debugging: Setup DABR register
+ccca21d8c43545c4cdc472cb8e95f801eaeeb221 Merge branch 'ps3-queue'
+fec07bc5e105ef0e1b018b482a366b85f6ef85e6 net/ps3_gelic: Fix build error with DEBUG
+823c038bdf3ab8f720b0dc423fd1e1b9bf829e39 block: Fix ps3vram sparse warnings
+2943ddcbeb280656f8d990eb0e35c124c8a6fe78 powerpc/ps3: Fix vuart sparse warnings
+2979c2fdee1dd2eb00561a323473eb174bde2ee4 powerpc: Fix sys-manager-core sparse warnings
+417dbf641d602851a5b5c631ce930dc3b24c4379 block/ps3: Remove obsolete reference to MTD
+943a189caa759adaf1de7bd0af3f74fad5244cd8 powerpc: use device_initcall for registering rtc devices
+55c4d55a1a4cac1dcdf9ebd77dfe9304701b6de2 powerpc/ps3: Refresh ps3_defconfig
+60dad1306fc57b36d3f3fe0248a1ea422fc8b17b ps3-debugging: Limit boot mem size
+78cfa2f2e5fe1faf4e3babec6ed5371669ad85aa ps3-debugging: Limit hot plug mem size
+35a6ccc1ab10231d90d618296544e1fc6bb64330 ps3-debugging: Setup DABR register
+809923e099f38bd73a2bd72cfae18b4278db6916 Merge branch 'ps3-queue'
+9bcc565a840f1992b4a2b34b449190099e2f0ad2 powerpc/ps3: Add empty repository highmem routines
+00724256d9f1ccd5f4ab124282cf357b5a40b115 powerpc/ps3: Add ps3_mm_set_repository_highmem
+f0a6f4c8f4779d798d28e04baf06518f849a5ba5 powerpc/ps3: Write highmem info to repository
+a64017747fe892ead38104190cebac22c65ae4f9 powerpc/ps3: Fix vuart sparse warnings
+4162aafec4dd266b6119cef84aef86c488032a7b powerpc/ps3: Fix sys-manager-core sparse warnings
+3b296b386acec1b83c80ff50609b7fa60188c6b0 powerpc/ps3: Update ps3_defconfig
+8554d39347910fd9fa1d275388001fa3fd89e15e net/ps3_gelic: Fix build error with DEBUG
+bb5967fc31c51366e21644abecb381ebebbd0948 block/ps3vram: Fix sparse warnings
+4bf8511a83079e54e7d3025045dbe02436c21f2f block/ps3vram: Remove obsolete reference to MTD
+46f0ff7b9234d4cae7157bf7d7e9e18db8f1cb23 ps3-debugging: Limit boot mem size
+2435bce8edca83919c471da1f1a2219f4c74e4e3 ps3-debugging: Limit hot plug mem size
+28055fcc60f5cb33a92913138d1269e2cddaa5b8 ps3-debugging: Setup DABR register
+b451e7ff786c26d53e8f74346f03ef5381426228 Merge remote-tracking branch 'origin/ps3-queue-v3.19'
+4a7003dbed588872ed7694fe9928a5df83271ba9 net/ps3_gelic: Fix build error with DEBUG
+44ce7722ed4e79c118a790c21d77b83a775d625d block/ps3vram: Fix sparse warnings
+c25c03fb14bcdf598d58c71e2c2ecd55a5cafcef block/ps3vram: Remove obsolete reference to MTD
+b566bd88326448f96c21d5f4771309b0976d8b12 ps3-debugging: Limit boot mem size
+2409cbc26cc1d622d7d63f39fb73b9ceaec103eb ps3-debugging: Limit hot plug mem size
+a7664c8f1767eb3ca5952466076460d1136085bc ps3-debugging: Setup DABR register
+295a7c4a3c4896d7807f758ae993eca40b1d104b Merge remote-tracking branch 'origin/ps3-queue-v4.0'
+824767d8080bd01ac998775299a9fea144ca295c Revert "powerpc: use device_initcall for registering rtc devices"
+93a6e511e0469d67d1a3f0ab95c695a774b0c5fe net/ps3_gelic: Fix build error with DEBUG
+1f295aae7a93da0c15c070b7ccd0db41c700748b block/ps3vram: Fix sparse warnings
+2b7085e283a370b9290eed08dd23413cfced0eaf block/ps3vram: Remove obsolete reference to MTD
+9a93d8a09390a51ba7721f4f74c3c59101cd7860 MAINTAINERS: Update ps3vram block driver
+4cf4e65b688c29dead35a6d69ef5618baaba130a powerpc/ps3: Refresh ps3_defconfig
+3e143a9fa5b0dcba05d8488f29813917526a81bb ps3-debugging: Limit boot mem size
+7896918189387f0d4abcee15de728dbb2dae8f4a ps3-debugging: Limit hot plug mem size
+b19a5f8567244ca5c65440b4f9d592a3108fa5e7 ps3-debugging: Setup DABR register
+9ed166719c80391450e627ea12a4a6ab8952c71e Merge remote-tracking branch 'origin/ps3-queue-v4.1'
+4210449251c5aad94cb730b152cca69cc9c585a9 drivers/ps3: Fix ps3-lpm white space
+37d973cb852dceb30fbe7b3bd521bfbe26d47130 powerpc/ps3: Refresh ps3_defconfig
+533d6250c8757693bbf57bd51fbfd5b53b6c612c ps3-debugging: Setup DABR register
+8e3a267fbc607d8e24855556aa0377b7649841cf ps3-debugging: Limit boot mem size
+c1f7e7b5a2e98815c83d2b3c01b7cdf07b8016cf ps3-debugging: Limit hot plug mem size
+19ff78fe6470bb44771c20c9b7546a2c7a631752 Merge remote-tracking branch 'origin/ps3-queue-v4.2'
+fd551952c5f42ef510e60789e89f87d7b2b76397 drivers/ps3: Fix ps3-lpm white space
+d41144c97b7afae6a9ce433682eb38b7de1e7e8d drivers/ps3: Fix ps3-vuart null dereference
+a799406d5c8e8e61565e302310cbba164f6756ff powerpc/ps3: Refresh ps3_defconfig
+d897430a20349217277f059305babb005b69952a ps3-debugging: Setup DABR register
+26116d1e0d560296f215a9cc0ef74fc7f6c38e34 ps3-debugging: Limit boot mem size
+c6c4bc4ce751eacdaf6316060b980c0c9ba4d9e6 ps3-debugging: Limit hot plug mem size
+05f25302d950b855a7f378538b5cf17fee55455e powerpc: Add run_cmd function to boot wrapper
+7b7eec10086e351a497b43fb7fedaef955d0979b Merge remote-tracking branch 'origin/ps3-queue-v4.3'
+4af04c2df79c02d448f02f76a3d0b4429a92823c powerpc/ps3: Remove troublesome boot check
+1007df4f794f1ce9a6d9d79c0df1bc7a3ce532f5 powerpc/ps3: Fix spu page protection
+528f8ec4cd2333c2b0777de1f0f6dfea42f0751c ps3-debugging: Setup DABR register
+9c8072efa1712260c7ad7759f6faf9414a1acd41 ps3-debugging: Limit boot mem size
+40f3fa36f3adeb6e7c0b1815d6ff633ab9f35b09 ps3-debugging: Limit hot plug mem size
+7e8c65826967e5f1c32086b46203a123d25d4e7b powerpc/ps3: Remove troublesome boot check
+76d244ea771e504924d2be141fde0fd66ac97529 powerpc/ps3: Fix spu page protection
+e6d153c3316962207e4df88bad1b99fce4f9be59 ps3-debugging: Setup DABR register
+84512bc9491d16ffe5e422825f6d6182e9b962df ps3-debugging: Limit boot mem size
+fb1aa23952ded6c85b0a4d8cbc23ef766868971e ps3-debugging: Limit hot plug mem size
+350b230bed3052a1d0ce20c45b2c2e57f088d80e powerpc/ps3: Remove troublesome boot check
+0247aed7b88837fa09e522217dea0fece73528ad ps3-debugging: Setup DABR register
+e0d3dc79391381855f4165394b3444a43a6bfa53 ps3-debugging: Limit boot mem size
+4d1821a2c851a1055e9382d772421464432574e7 ps3-debugging: Limit hot plug mem size
+3cb93c265dc7eed665ec93f8bcfac98489c4c1a6 powerpc/mm: Fixup kernel read only mapping
+0be4639e9c9a0b3a5d7a69a240c623cb5b62e38b powerpc/ps3: Remove troublesome boot check
+d9140f3f726498ddf7bf7eaab8a21c3195738113 ps3-debugging: Setup DABR register
+69966d2546d1571845ffbf468ffd8c8d6cafac81 ps3-debugging: Limit boot mem size
+498c5acb6ec3dd73a211fbcfd6a7611c19ec5a61 ps3-debugging: Limit hot plug mem size
+f222378eb992af43b0984f139701489818e2a152 powerpc/mm: Fixup kernel read only mapping
+0390fc1772c0115aa58a8c2e763a9169cbde8b32 powerpc/ps3: Remove troublesome boot check
+aed2d760e11ced4a61e84f63e1ecfa5f66a4e739 ps3-debugging: debug spu.c
+6e2e702e1325dff0638257a71af03aa1d720b765 ps3-debugging: Setup DABR register
+de2f47786ac7fd25d369f9d4eacb60362c995ac1 ps3-debugging: Limit boot mem size
+cd32f3145895110a0166285baa8a9d01072c4ebf ps3-debugging: Limit hot plug mem size
+2f36b61c825f9ee1a0b4e27baee22a53755a9cf9 Add ps3_petitboot_defconfig
+9a2bd78e228085572dbed46ccda27636c23b44eb powerpc/ps3: Fix system hang with GCC 5 builds
+fbf03b708d4dc54cc8d09508d389db20d8b67f5f ps3-debugging: Setup DABR register
+d69a1346031143db829cc4ab0d100bfc2dd9ba01 ps3-debugging: Limit boot mem size
+d4cd631d484cd2a3463884d81c2c13c7d0a50de6 ps3-debugging: Limit hot plug mem size
+d1b49371387a5bc0d0b51fda1ef77b95c50aee3a Add ps3_petitboot_defconfig
+6f9063f9b60f859be4e8c483269bb51c9cafb7d5 Merge remote-tracking branch 'origin/ps3-queue-v4.4'
+4fd728896ff15c3fc2e5dde802069d5553e29343 Merge remote-tracking branch 'origin/ps3-queue-v4.5'
+c6885c28821e1654e93cd697687403e079e5d54d Merge remote-tracking branch 'origin/ps3-queue-v4.6'
+4bdf544c730a2608eafef3984d9d0c79a59d0684 Merge remote-tracking branch 'origin/ps3-queue-v4.7'
+0f1650a3cd81427fd65a9f5e1c341eb97312296c Merge remote-tracking branch 'origin/ps3-queue-v4.8'
+ef863761824193f0ac0e2f4aa95c703a77cdcb08 Merge remote-tracking branch 'origin/ps3-queue-v4.9'
+789c20c82ff5ac38f20489fc407ea7b27ab10167 ps3-debugging: Setup DABR register
+452fed1b6191494fd6d16eb042e269097c5d3c34 ps3-debugging: Limit boot mem size
+cf2631859712a5eef626ce6ebbf52464de343d82 ps3-debugging: Limit hot plug mem size
+42b5a406176ab1b62cd5d1e875457b253c5bfd11 Add ps3_petitboot_defconfig
+68f4fd2c7c9e1d92ae1a21f8a823663ae31c8177 Merge remote-tracking branch 'origin/ps3-queue-v4.10'
+2e87a9751af76a1cb6aa0a25d941f301053c58e9 ps3-debugging: Setup DABR register
+2d4390621a2f3bce9f4612a2b803d7297cdfab3a ps3-debugging: Limit boot mem size
+67b7ce8b5a592d60da7683df21c2b53b4f778a79 ps3-debugging: Limit hot plug mem size
+315c863166370a9760dab7e67b286aa480ab40be Add ps3_petitboot_defconfig
+ad75af7cad45498c7b51c161998892ad64a0add4 Merge remote-tracking branch 'origin/ps3-queue-v4.11'
+d662c14ed16d73dae0db0698ed03b093fb5f0426 ps3-debugging: Setup DABR register
+d866dee38fb7d087042917f67a3c7a8e22ecf832 ps3-debugging: Limit boot mem size
+ef0845f52ebebd6eb014d555cecccd71e0b7dfcc ps3-debugging: Limit hot plug mem size
+d7ef56cedb3b7b63168697a4f1f4ac4b2b9cc7c8 Add ps3_petitboot_defconfig
+a65548ff34de24d0451d2058ee94f8c52c0ed874 Merge remote-tracking branch 'origin/ps3-queue-v4.12'
+c36087b2e036c4aabfc79e3d8c3316afec63b1a4 block/ps3vram: Delete an error message for a failed memory allocation in ps3vram_cache_init()
+c931381b0f2ee72be10d7bc64bf79798504b272f block/ps3vram: Check return of ps3vram_cache_init
+75b2f552b5d5ba7532e45d52ed9cd98f7e3d2be1 powerpc/ps3: Refresh ps3_defconfig
+068f19df672d26c3a00c6578ecff742e83296b65 ps3-debugging: Setup DABR register
+75a9a89d7d02e91e25eeb58ef422eabbe155fc71 ps3-debugging: Limit boot mem size
+3356cb4d5a5d884489797d75e62c91ae268f13df ps3-debugging: Limit hot plug mem size
+54ef18f4dc766842df5daf0f20b02c7a085a9f93 Add ps3_petitboot_defconfig
+48c575909486c79966633a0478b2e40184c795c4 Merge branch 'ps3-queue-v4.13'
+cbe90d34d7a0bd74ede1e1ed2d36aa5d0a390500 powerpc/ps3: Improve sizeof in two functions
+e013ccba5c55598702dc955b516d41d80d845514 powerpc/ps3: Remove message in update_flash_db
+54f810b88eea4e634638840790247a15ead8b7b6 powerpc/head_check: Automatic verbosity
+63c2bdeb4df06c85ef18a04f42dc8bba0ff1b2fa powerpc/head_check: Avoid broken pipe
+3a612d59b77c2e61b485b0981278e757b6f28168 ps3-debugging: Setup DABR register
+625a19a250fc725ff1a67b0323c2cd93bef007a3 ps3-debugging: Limit boot mem size
+096fe62e54ad1786518e4bb6f869ce320add88a8 ps3-debugging: Limit hot plug mem size
+360ed5e7357a549df59ac22582bbda8706a149ce Add ps3_petitboot_defconfig
+b4da8c5c2067e35d74d0609872c94902a3eccbf2 Merge branch 'ps3-queue-v4.14'
+86b321508c385213a80cc3c94177fada27484d88 powerpc/ps3: Improve sizeof in two functions
+4d0a823c76c33c9e511c88d4a91ff3900a9b2600 powerpc/ps3: Remove duplicate error messages
+5ff7de497cff0c44b841a236db4722f7762b3584 drivers/ps3: Remove duplicate error messages
+e22f68ae659709aeb8fe19e85ccd9fd7c8c3923f net/ps3_gelic_net: Remove duplicate error message
+43fc96c642a981f61dcd4a4ef1eeb51170d27845 powerpc/ps3: remove an unneeded NULL check
+1fbbec73060476bc23a5ce2859d1cca6baa6d713 powerpc/head_check: Automatic verbosity
+67e347234aa14b452461b1aee7f22f441c51351d powerpc/head_check: Avoid broken pipe
+324babe6359ff4e9c00cd038e837d58782900e8d powerpc/wrapper: Output linker map file
+9f67edd792bc2e6f7ece844475de741d1bf83436 powerpc/ps3: Start at _zimage_start_lib
+095b9147c543af96a0d2105df5072813f2c96943 powerpc/ps3: Re-align wrapper image
+df3bcdaf65c5f8fdfc41f007b03e715b49f03020 powerpc/ps3: Add check for otheros image size
+cb9b3375772d915234522535e1ce578633ca28a0 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+b2b2536f27467f932ba9087c80970ba2d733c0b9 ps3-debugging: Setup DABR register
+9e037a14ed1d70eed2f2a7a481d25319a9e5c6a0 ps3-debugging: Limit boot mem size
+d93e730b45bb3f0ac58a63b884f13726bb444d28 ps3-debugging: Limit hot plug mem size
+7da24fcf078b2f09ae56ecab99ca982bbccf64f5 ps3-debbuging: Early lv1_panic
+1f04963f9eb6e76d8fc0d9b2b800f992508b0bb9 local: Add ps3_petitboot_defconfig
+d83cc59eae4e6621f13f919a1a0aa210ed51b1f4 local: Add ps3_nfs_defconfig
+5691dc65c25894db252ee6c1addefabeff7f1d3f local: Add ps3_petitboot_nfs_defconfig
+da6131a53c0af575978995f1be061bd4d67ab11c local: ps3_petitboot_nfs_defconfig: ip=dhcp
+7daf3c24f81f345e97b0dd1fadd78932f2f91fd3 powerpc/boot: Add strrchr
+fc307a56681c96011d10d034fb3390b2bc57c259 Add limited read-only support for older (V2 and V3) device tree to libfdt.
+c4c94274a897b7bac6e55df89648cc426ed529f8 Merge branch 'ps3-queue-v4.15'
+dd285b148d003cbacc33d2477a9393cceff3ccf6 powerpc/ps3: Improve sizeof in two functions
+41e5030eb70fd78347439cc4cd59bc7f6b7d1a23 powerpc/ps3: Remove duplicate error messages
+b9c7da3d710189cd792faf34244d52aa6654c955 drivers/ps3: Remove duplicate error messages
+2597ba71a5bab2f52ca6235e4a1d8853643ecaa3 net/ps3_gelic_net: Remove duplicate error message
+e2dffefa79bcf7199d6dae4ac396316c5b4c2d73 powerpc/ps3: remove an unneeded NULL check
+c121f33623f26c20136bee0b8ae9349eef5a49d7 powerpc/head_check: Automatic verbosity
+48ceb7b293cd00c459776af470dc8e1ffc3a1c30 powerpc/head_check: Avoid broken pipe
+ca360e4b222e9761798526a9315442cbd3df91e5 powerpc/wrapper: Output linker map file
+2848d34bf97970e4cb0025ec26a820e1d2f394c4 powerpc/ps3: Start at _zimage_start_lib
+46efbf491cb943515ffe5d381405ae7886fa5eb6 powerpc/ps3: Re-align wrapper image
+149a3797e9ed299900a059b124b7572cc4a83e6c powerpc/ps3: Add check for otheros image size
+c3aa9f7c2daa87cde9cad3f65297656038b5aac1 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+d19e41bec344c7653fb23d97cc6b90dcd281a73c ps3-debugging: Setup DABR register
+5a086c075d28032ed386f554e8a9cf9bfa31f283 ps3-debugging: Limit boot mem size
+af34e5334347120f48ceb3314f4c3c9c11312da6 ps3-debugging: Limit hot plug mem size
+1e11300f566acc7b14377486e7353f9a0b455712 ps3-debbuging: Early lv1_panic
+4dcb3ee7f2929c9001bf1aac953c5cfcdb4ca8ef local: Add ps3_petitboot_defconfig
+2d5adf0541523348ffbfc19f94cf82b41b04684e local: Add ps3_nfs_defconfig
+543f779eccd6f9e5b5bc8c5be98d173398f54c8e local: Add ps3_petitboot_nfs_defconfig
+32c4479eea3686bcf0ef6a786dd9a83250408e36 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+bf3c9e63c5d3c36a182b497a4e57cc3124754d4a powerpc/boot: Add strrchr
+d6aca1d8458ee23b875091e069fbd3d0568d3cdf Add limited read-only support for older (V2 and V3) device tree to libfdt.
+6e3c3d3766c44b913cdff5ebf10b00f1357c9f08 Merge branch 'ps3-queue-v4.16'
+9b76e9391eb75d5b5134777c292ae828157b9115 ps3disk: handle highmem pages
+f9229b51572f08e872a9aa2d0a5001ebd163c9a3 powerpc/ps3: Remove duplicate error messages
+ee72acf1db84ed25a5b4a1f2fd22e6e7da203bc7 drivers/ps3: Remove duplicate error messages
+fe0543f64c50dacb7d9bfb4763d55b6f45b10bf9 net/ps3_gelic_net: Remove duplicate error message
+a8d7b070b8c1d3bb510f1f8621334a31a84018e1 powerpc/ps3: remove an unneeded NULL check
+dc4ba94a2a06ead7aa133675658389e2027a74f3 powerpc/head_check: Automatic verbosity
+67ed8c9f771dcc7022ce7bb8007e3e959fe5fdd7 powerpc/head_check: Avoid broken pipe
+4e7f0ad722a0a3d7d2e7c9c887845e33ca34db08 powerpc/wrapper: Output linker map file
+a62bf77c9c27ae25e954a929bc27097722ecac2f powerpc/ps3: Start at _zimage_start_lib
+4085a41bdadf0ddc0a5de401c10f5f201bbf4e21 powerpc/ps3: Re-align wrapper image
+bdb2d19a12f5843fb2ca90772487123a9a41d910 powerpc/ps3: Add check for otheros image size
+bd4298e8cefdc0d702378b78a35662509c89a0b0 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+5bb4979df5b0f849e219fe6281736a3ba3e6589e ps3-debugging: Setup DABR register
+b3ea77a03009147dcd3c0c60230c3737701c6bfb ps3-debugging: Limit boot mem size
+36a7891742b4672e343d25ed0726d9a3ae5df556 ps3-debugging: Limit hot plug mem size
+ea8729487725deb446c5c8bf88853dd499ae0db4 ps3-debbuging: Early lv1_panic
+b7456be75b2466c940acdca6c5571132c51b5956 local: Add ps3_petitboot_defconfig
+9c70344c832263cc92b82e1fafb25897da2c02bb local: Add ps3_nfs_defconfig
+dacbad786667341109b96a79dfc2ac3f31844479 local: Add ps3_petitboot_nfs_defconfig
+f95197bf64719ac668986924eb73571515d03f43 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+75cc262afc873fa00e74a46f452d66548ebb2693 Merge branch 'ps3-queue-v4.17'
+b7bc37c11162b99f8116868381727808bfafc9d7 powerpc/ps3: Set coherent_dma_mask
+0847f7881314171e17e8aa401a612126c144ca97 powerpc/ps3: Remove duplicate error messages
+88b1de3dbb61464eefd07da02c6cdb2c873e01a1 drivers/ps3: Remove duplicate error messages
+057a8999d366563e074b06cf48ffe1982612317c net/ps3_gelic_net: Remove duplicate error message
+01ace7d1d42006603871662ac7aaad35b5ae8f14 powerpc/ps3: remove an unneeded NULL check
+eb74798ca907612e0e29efcfd4ea0733cc8d0990 powerpc/head_check: Automatic verbosity
+7595a5f70e730a299fa021de4c0f2705a2709b51 powerpc/head_check: Avoid broken pipe
+5d797a2110e3de382f42dc59a99aec25dd4d3d9d powerpc/wrapper: Output linker map file
+b8d2b36b7092c65fb3b9f36eb0fa5ce37ee7e91c powerpc/ps3: Start at _zimage_start_lib
+026bb0a061ba29a34dd899eb0c7f553ab72a670a powerpc/ps3: Re-align wrapper image
+6c6511031292ac79326e108ad8206fb4656db5fe powerpc/ps3: Add check for otheros image size
+6a271ef7ba290c11498ce773410fc8e35d54ec49 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+78e7a8ab5aa7c4a4bec6e99f9b9c7af068b26ec5 ps3-debugging: Setup DABR register
+b7a9c71abda704d38bf5eefdaefdffb8f465e932 ps3-debugging: Limit boot mem size
+ec6366365b9d035f510128a7ead3297db34b9d83 ps3-debugging: Limit hot plug mem size
+c63de167f6953015440e3f23ce1470e16ff66cf6 ps3-debbuging: Early lv1_panic
+e511af1c56c5c6fac77278e45ff45d26a5c0c0f3 local: Add ps3_petitboot_defconfig
+50643293d9ae1c382b4544d2ea22380d37bc4eb7 local: Add ps3_nfs_defconfig
+2050c22c47a5d028d317e5462da8d8ccbe9b3688 local: Add ps3_petitboot_nfs_defconfig
+758ef3b710832954e7ab7dbd6060992a4676bca8 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+0d448cd37a6d4d20659d9cb1076ba7066c4e05df local: Add ps3_nfs_v3_defconfig
+7d657234fedc3aa5695e87bec2c3f0a975cc27ab Merge branch 'ps3-queue-v4.18'
+df7ffe3db48835494452e75fe3f6c9fbc46f2e28 net: toshiba: fix return type of ndo_start_xmit function
+0c3c608b7850fbf883d118f6a89c3ce1fffd9995 powerpc: signedness bug in update_flash_db()
+8d464aa5c7985e38f19f41b7c7b78e79af12ff6c powerpc/ps3: Remove duplicate error messages
+c620ec7dd00812b469dd0a44017bb49d6c83a8b7 drivers/ps3: Remove duplicate error messages
+1e6f45bef75cbbb95fcea3865221d418703ec4da net/ps3_gelic_net: Remove duplicate error message
+7082877c6b66eee16de58ff8be51398cad12b892 powerpc/ps3: remove an unneeded NULL check
+4988608d3fabfb78f659ec09f40d0a32924dceed powerpc/head_check: Automatic verbosity
+94d1b4637ace96d54a3481aeb2eea31e921b72e6 powerpc/head_check: Avoid broken pipe
+3e0fee5578f996f04bd6f9fa780b73fef4b96ab3 powerpc/wrapper: Output linker map file
+69a9fd28298b20f38e24070c359de1327149870f powerpc/ps3: Start at _zimage_start_lib
+b90db26f8e1e112ee7aa38d4f378c4882a49403c powerpc/ps3: Re-align wrapper image
+7eff7e1fe82fcc61e4fa4539ba8eb569aad91d43 powerpc/ps3: Add check for otheros image size
+0eed0fe86a52062dae788b6b61ef7787aa8202e4 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+2341fbfe9138d588a10014f5da56c1eb4ec70305 ps3-debugging: Setup DABR register
+4154a2af3065a533f92b46090c627e39fb938186 ps3-debugging: Limit boot mem size
+e327cbdfd5c4f7dbffb227627ef2ece2eb0dbb19 ps3-debugging: Limit hot plug mem size
+6a38e8b8660495a67942010083d15b537f913295 ps3-debbuging: Early lv1_panic
+a8dd9de04aa03b6c84c4fd43ec25a04cc26b37b9 local: Add ps3_petitboot_defconfig
+5d72a2885cc3ab461374d1bdc73728b8c547e2f3 local: Add ps3_nfs_defconfig
+33fe2062eb19c86414aa9328fb5dcbe7a89873b8 local: Add ps3_petitboot_nfs_defconfig
+7a159b67053a9a347cdfc04a5b31b7a4d1103efc local: ps3_petitboot_nfs_defconfig: ip=dhcp
+d65b5a3730ab178ebf24909e3eb95c5b9a6fc56e local: Add ps3_nfs_v3_defconfig
+38c6d483d72da008ebb0b1eabb5b60dbd63b1006 Merge branch 'ps3-queue-v4.19'
+24d0a9f87286ee747c7f71e6a9ed1cfa6fab50dc powerpc/ps3: Remove duplicate error messages
+70b84a3e841581ccec3c0890cd3272b5fa36d881 drivers/ps3: Remove duplicate error messages
+065d70f69b2a5e3a25929e185aad3a11d758017b net/ps3_gelic_net: Remove duplicate error message
+8fbc3f02b066380d108d91fe3048686a41cb2da4 powerpc/ps3: remove an unneeded NULL check
+0c0ba00c8dc0bdfee992f61ce198c691397ac92a powerpc/head_check: Automatic verbosity
+13484c19c235a0013f1c600b55dc8dcd29bda406 powerpc/head_check: Avoid broken pipe
+750b33276ed205c4cd150a1bda898803093b64c9 powerpc/wrapper: Output linker map file
+649cdb50fb776350f7300c0e34a46293d89648b0 powerpc/ps3: Start at _zimage_start_lib
+653d7c68ed1caa88512594a5a28fc0dcf2b61dfd powerpc/ps3: Re-align wrapper image
+357a29ad6b7b3a550b6693f08275bc4226892ec9 powerpc/ps3: Add check for otheros image size
+14bcc89b83339f431d21392a0b2b4c50b31b8240 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+cafa427e197767eea6748691a3c3062701c868f0 ps3-debugging: Setup DABR register
+aebc2b9b7b9817bd60f939074d433c5378be4d14 ps3-debugging: Limit boot mem size
+321a7aaadcc9394dbc6bfa3ffd53ad94679eba26 ps3-debugging: Limit hot plug mem size
+7c07ac7e67903d9022e25c2c27b9030f801d8150 ps3-debbuging: Early lv1_panic
+855bb56d7a1e7c0da1bf0467b276ea88cb00c070 local: Add ps3_petitboot_defconfig
+4f5aafbfd7bdfd7198fdd8b67c17663b961166f6 local: Add ps3_nfs_defconfig
+29a8d2ebcab1504aa820fe71863100f66c33f8cb local: Add ps3_petitboot_nfs_defconfig
+cc2d7fcabdc4530e6646b5c82d8fb5d87672cd9b local: ps3_petitboot_nfs_defconfig: ip=dhcp
+a85a13c99cf1c891e7dc2999225c96539ca66a1e powerpc/ps3: Cleanup lv1_panic
+7f09d29297111c546d7a1272dcaecf3ab49cb4bc powerpc/ps3: Add udbg_panic
+90b04f53a1cde2eea70dc0d8e71209f825664253 powerpc/ps3: Remove duplicate error messages
+a5977676b593b2f88e4f787b9e3f04f1b0f341f0 drivers/ps3: Remove duplicate error messages
+3de6c6f56ac763de6d09a0fe5550c93cf323e79f net/ps3_gelic_net: Remove duplicate error message
+6fb87f1f7be77f161d0b734665dd2258faae7bea powerpc/ps3: remove an unneeded NULL check
+690d8c75ee04f4e5206f351785fa5e434487c3f2 powerpc/head_check: Automatic verbosity
+55726eba6560bbeb2b1a4f303da681ee154edb1f powerpc/head_check: Avoid broken pipe
+200a6bf27337ecbbdcd1a413f7df40e8e1f503be powerpc/wrapper: Output linker map file
+93fa0ca15e63d0dd4472f2cbfb3a984fd685f32c powerpc/ps3: Start at _zimage_start_lib
+24d8a2cbc743f38cbc90f648645976b116ccf8fb powerpc/ps3: Re-align wrapper image
+78f9c30584e633072144447e95ff8cb2debaa0f6 powerpc/ps3: Add check for otheros image size
+4177d9cc4b9fa048b8851c15f4bab82cc63a2c7f powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+8f24a7975f42da26decb0612530fd6fcb4bd0909 ps3-debugging: Setup DABR register
+b5d5f5b16f52906a8a1e04855393d2d238e121b6 ps3-debugging: Limit boot mem size
+ee91de7ba5d20fdea71abd4317a896118816285a ps3-debugging: Limit hot plug mem size
+00a9d77005ea4bd885f3fa6b1128f34667b9104f ps3-debbuging: Early lv1_panic
+145e5e90318ac8e67fd2fa334cb676aac968ee94 local: Add ps3_petitboot_defconfig
+2a44f7f8453684f37bb034139c99e56388ee512e local: Add ps3_nfs_defconfig
+9a8a592231504ff9bff5dd0eaf9f413af94a522a local: Add ps3_petitboot_nfs_defconfig
+114d7e9fda969d8d601e1348ab7a040e34fa46fa local: ps3_petitboot_nfs_defconfig: ip=dhcp
+a4dbb6f2538841a74d5aab20daf87161d84b552e powerpc/ps3: Cleanup lv1_panic
+21b3d74bc3c77ff0a890ad95b6eca22794a08d13 powerpc/ps3: Add udbg_panic
+b1eb3514cf94634b09a47ea525a69bdeff56133e powerpc/ps3: Remove duplicate error messages
+ec0e2b3e81f6665c1c87272027f5ece6a531ace3 drivers/ps3: Remove duplicate error messages
+00739e0af76147dcc93ffb43d2239f7990c4b7ad net/ps3_gelic_net: Remove duplicate error message
+d56e4a9dcfa4da28ab85e1b8702bb06628af01f4 powerpc/ps3: remove an unneeded NULL check
+8517a6072820bb699aa5d3bf921a2defcafa70d8 powerpc/head_check: Automatic verbosity
+f7e6e973b62c7d26587dde617f038d44ca717155 powerpc/head_check: Avoid broken pipe
+67f6f2ee74efc3813f27e4b77690e863b7e28c10 powerpc/wrapper: Output linker map file
+46123fda6e7b5fa7943880acb791ac92bd59f528 powerpc/ps3: Start at _zimage_start_lib
+7880d30e887c2d295ad4251149526514973d2b77 powerpc/ps3: Re-align wrapper image
+2a8452c7f21d61f6a44a344135234615b1cf21d7 powerpc/ps3: Add check for otheros image size
+949295fba3198c0d084490f977b63d6a0ed5bb77 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+44c8b670c8067811c2755bb1df1ad17b1a35b98d ps3-debugging: Setup DABR register
+29ab70d64724ee7e466072964bea3cca11d50b59 ps3-debugging: Limit boot mem size
+f60aa837bd78ec5ee60bf0901c7f3e279826fb71 ps3-debugging: Limit hot plug mem size
+937c75d63f682f0db0021e81a81b9939dfeef790 ps3-debbuging: Early lv1_panic
+28cbf51fbdd88f4631f152cdf76e0ee89e4a16e9 local: Add ps3_petitboot_defconfig
+36c6610e6f992459b8252c58f65878319d709f76 local: Add ps3_nfs_defconfig
+ac19a4d3ce8a2c147a69f0e700740f8c47386cb6 local: Add ps3_petitboot_nfs_defconfig
+8a160e52a812b02fbd67fe5a61768a211e091ecb local: ps3_petitboot_nfs_defconfig: ip=dhcp
+1c02dfd5427c9ec178b9212314e925462e7b3c4d local: Add ps3_nfs_v3_defconfig
+f469f4836f278a49f8a58c71951c0cd2eb27e01c Merge branch 'ps3-queue-v4.20'
+2e305eb69c781ffbd43a1a145374c865b35540f3 Merge branch 'ps3-queue-v5.0'
+5fec41df52224baf49e68cd34e2c793f7c1920ec Merge branch 'ps3-queue-v5.1'
+350ac60405af4438e530869d5ed8bd047a3f5146 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+a7962b22d29d2fe5982956698ea28e59ee0fda17 powerpc/ps3: Refresh ps3_defconfig
+4e486a7509bd9d0fc3ab414d7d21163688ffe6ad powerpc/ps3: Remove duplicate error messages
+d0ff6ff8a8a2e6c003a68d927afabb93a50aac7e drivers/ps3: Remove duplicate error messages
+e83c9d4b5150fbcd603f8d5c2977ee549371e98f net/ps3_gelic_net: Remove duplicate error message
+20e1d26a5cfbb937b86b0bf000cd4fe70c6f6749 powerpc/ps3: remove an unneeded NULL check
+d74fac0f541e1d4d6cb72a659666fb20e8fad0ae powerpc/head_check: Automatic verbosity
+06f4ea7a108cae8ccfa6a2fd8b1ccb2fb994e87c powerpc/head_check: Avoid broken pipe
+8256493ee71bf8f93f589304575281c7881169ab powerpc/wrapper: Output linker map file
+adaa8bf1adaea04e019bb5ff07841679a0211446 powerpc/ps3: Start at _zimage_start_lib
+9b8a162e16acf7bc38bf77bf58102b4b5dd66ef1 powerpc/ps3: Re-align wrapper image
+38c72d6858b17d20c68f94098865c8417a8c2353 powerpc/ps3: Add check for otheros image size
+a2f328d1d62e0c0754d10a02323e7008b025e6de ps3-debugging: Setup DABR register
+f7e516483202385b07989c21e1fb41c6b99249df ps3-debugging: Limit boot mem size
+db931c79798c94ce50931b2ab8a43bb993939be1 ps3-debugging: Limit hot plug mem size
+0692ddf6b121a4eadf9cacb910388b41b993c880 ps3-debbuging: Early lv1_panic
+9a8c775f2b7f10d1f424291600bcc36c7d79a288 local: Add ps3_petitboot_defconfig
+2e63907b0ecce5bf03ab09201d9078413810a080 local: Add ps3_nfs_defconfig
+c16485f585c306f2fc8984712d09682a95c6ce91 local: Add ps3_petitboot_nfs_defconfig
+c87db03396e05aa5619f6b83053be2af9c114fb9 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+b458998606e1bbafbd08ac86a0ad4739fe43b108 powerpc/ps3: Cleanup lv1_panic
+1d76d4d4364517ac53b327393a703b65b0d41dbb powerpc/ps3: Add udbg_panic
+ff2c8231949a9103a0ab491d5000fad8e29f87ce powerpc/ps3: Refresh ps3_nfs_defconfig
+11dc3f25a9cf10210eb1400740cae3907ddc9b4a Merge branch 'ps3-queue-v5.2'
+998926bd9e1c1a847b7188e33bae9dce36d0a8bf ps3disk: use the default segment boundary
+0e7f432f0607e61822fef629d95b04d2e7785eb9 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+892153b383b26ee4fb2be6d784e4e7fadc827400 powerpc/ps3: Remove duplicate error messages
+fa2af9865b1706f7fdd7f8592c350f83be3f35ef drivers/ps3: Remove duplicate error messages
+0b4306f8102890f6552adadbbc7cd534fc1c982f net/ps3_gelic_net: Remove duplicate error message
+84281a443fe5384a4f38a66f59c6d06c3b1951f0 powerpc/ps3: remove an unneeded NULL check
+1214c9157c73cabe435c2ecf95bd1b1b33d27b5e powerpc/head_check: Automatic verbosity
+0ee0dbd5104d16b50c190e936e7e5ae4dd8800a4 powerpc/head_check: Avoid broken pipe
+95fcd5146ee302366c048e126b3d229e2ea4797d powerpc/wrapper: Output linker map file
+87d808738b876471648347fbc24d52a3d964a980 powerpc/ps3: Start at _zimage_start_lib
+dae7aa821e343f289dc71a07828b2bffbea65b35 powerpc/ps3: Re-align wrapper image
+8c7f87148d0e0f26da1b097823b11077a45c916c powerpc/ps3: Add check for otheros image size
+8dd302705017768e1b0237ff9298368bed985dfc ps3-debugging: Setup DABR register
+90c7b1abba4a1cf4e12c8b135245b375a53ea827 ps3-debugging: Limit boot mem size
+8513c3547ed68c8e574bd71e6bb8c5e19c939bec ps3-debugging: Limit hot plug mem size
+de1dcca4d8f71f570117f066d5b80cba8f31f5c2 ps3-debbuging: Early lv1_panic
+e5ef9bcb161163f6cbed2441e4a22b1a3d6e46cf local: Add ps3_petitboot_defconfig
+487eef1f31e33c8db55fccf1613a30021df7b032 local: Add ps3_nfs_defconfig
+55d213ee03c6ecd7d6352b2183331084ae24089a local: Add ps3_petitboot_nfs_defconfig
+e93f5f8a7dd19f36766f74e2ef4b0165bc11c5e5 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+d2fc40f75b4e48eae0caef6107cae9f9fb0a3cf3 powerpc/ps3: Cleanup lv1_panic
+ad1715940b5936ae7f6a10b874b045c62f2ce2d8 powerpc/ps3: Add udbg_panic
+e8d89aeb711c54c9434d6aeb7510f3e24674c03a powerpc/ps3: Refresh ps3_nfs_defconfig
+2d9ffc0a90563de40f273e82ec62833351f490a0 Merge branch 'ps3-queue-v5.3'
+5f4bbbf488e5e45922823c53f20006bd455a5fbe ps3disk: use the default segment boundary
+df54cbcc6281f138660b34a1d1b81e39fdc709ba powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+c829ae73ff201f4eaac0f3685b955d1c2e8b740f powerpc/ps3: Remove duplicate error messages
+f605b7d8dccb80a9673da15f381319b50a6beca0 drivers/ps3: Remove duplicate error messages
+ee9fe1abc49a832cbcb33075b7a22b38b2cf0adc net/ps3_gelic_net: Remove duplicate error message
+2ef75bf9ae557cfadf81bb944879eef28f74ddb2 powerpc/ps3: remove an unneeded NULL check
+a2ffd8d4d60d03a91c8ea7327bd07c826f91e7df powerpc/head_check: Automatic verbosity
+bb2f26f6652fa36e721421527bd390536448da2f powerpc/head_check: Avoid broken pipe
+0514143da2c22640f54e6c0a282c74e8a0aa94b6 powerpc/wrapper: Output linker map file
+a90e383476f93ab2cd9a7d6330d8370648a56ff2 powerpc/ps3: Start at _zimage_start_lib
+aa14aaa118d875684512d36538da3161c1fa4ce0 powerpc/ps3: Re-align wrapper image
+fe496871fb85a60bf7a2348dcf1ff267c59893c2 powerpc/ps3: Add check for otheros image size
+6e6338af38b9c07108504acb6a67610d197d27c8 ps3-debugging: Setup DABR register
+ff01ba42d6be6ea1048c4c2182fc5eaefee8a47f ps3-debugging: Limit boot mem size
+f41f0eb8c7f1207ad28cb9e07f6965ed53137bd0 ps3-debugging: Limit hot plug mem size
+ffdef5619fb7f9bfa995df74940ceedb4a219300 ps3-debbuging: Early lv1_panic
+7feec6e58512bb90709db85e98e3190f86dd1090 local: Add ps3_petitboot_defconfig
+d54fbbe7b3c3126b2f9b8f97458cd7e166051e89 local: Add ps3_nfs_defconfig
+3ff52926fa8cc37b74e13dd1d7e2f4598f68bcc8 local: Add ps3_petitboot_nfs_defconfig
+07ab263465e23a28eb102c408789a177bbc3e4a7 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+34a821512d34345ead7967304b4af2326925f9eb powerpc/ps3: Cleanup lv1_panic
+444cc3b1c2e877ecad4ce678a349a12683ecedfb powerpc/ps3: Add udbg_panic
+1e77a9dd3c044f7e5f39215499f4ba510d7fc550 powerpc/ps3: Refresh ps3_nfs_defconfig
+0dd2a5fdb538a5e0a2b4c97ccb884de903f71f1d Merge branch 'ps3-queue-v5.4'
+5e3f554a843e24a7a0d34b941a1384e52a16b444 ps3disk: use the default segment boundary
+9593bdcf41c355d75cf1b765cc0da9c6e9c8f5a9 powerpc/ps3: Add CONFIG_IKCONFIG_PROC to ps3_defconfig
+3578b82e20d7b754c96c1bf6977e38d074b7cf71 powerpc/ps3: Remove duplicate error messages
+f3db33807ca93ad6a9372ec57fdb206ce0453a6b drivers/ps3: Remove duplicate error messages
+94d63063d90aee9ce8d1d7036c4b31a860147e7e net/ps3_gelic_net: Remove duplicate error message
+c66e42b5ccf6f8f37ec05919997b6355d71cdd1a powerpc/ps3: remove an unneeded NULL check
+8157272d9208984332c35cf83e8f5f3f50115daa powerpc/head_check: Automatic verbosity
+e24c2e5754cbc1367509f6b74e2b68d45205d8bd powerpc/head_check: Avoid broken pipe
+0aa0cfe926d1d3972b20c90a33fafcdbfc949db9 powerpc/wrapper: Output linker map file
+4543ddbe25876643efd5b049be3bf01e3ce07bad powerpc/ps3: Start at _zimage_start_lib
+6c010a7fc8f77d366a90fa3ba87cbdcb12c91ce4 powerpc/ps3: Re-align wrapper image
+2651bb55acb805794e85a70424bba21b436c93e2 powerpc/ps3: Add check for otheros image size
+027d7e69779e55457032807674cde5fa3e50b369 ps3-debugging: Setup DABR register
+3e69ea5c5b5e0e01ef1b59ad19580b4aa2d23930 ps3-debugging: Limit boot mem size
+1b9bfd9ab600bc97f34d1c0b9615a141d4e24d6a ps3-debugging: Limit hot plug mem size
+e9580fb2096d33bd21597bb4bc9217b35fb5ce48 ps3-debbuging: Early lv1_panic
+8e914d1d20fa48172e1bd3aaaf528c261b7c8e79 local: Add ps3_petitboot_defconfig
+58b34736b89bddc29e20ee2b564209a3126409ae local: Add ps3_nfs_defconfig
+5ea5437ce5939dc087c7936663c5fa8b261bf980 local: Add ps3_petitboot_nfs_defconfig
+550ae80521a8f81358e5e353d4e4451d16b8937a local: ps3_petitboot_nfs_defconfig: ip=dhcp
+84f9d4935d538ac7c142e7114f421f8edb82e4c4 powerpc/ps3: Cleanup lv1_panic
+76b46e584f4d70b372fe132727de771d600690e5 powerpc/ps3: Add udbg_panic
+2cd35c129f337891d15361f92e3319fef3c644de powerpc/ps3: Refresh ps3_nfs_defconfig
+8916bf210ed2a95335128fa5345ebdade71da79e Merge branch 'ps3-queue-v5.5'
+36a8562e7fb1782ece037b37439cad8a4bfa182c powerpc/head_check: Automatic verbosity
+85cc2711db79c8b3db4d17da411824bcd6205cfe powerpc/wrapper: Output linker map file
+6ade8420e759716c3fcebc4dc8b94c2202a4a0d0 powerpc/head_check: Avoid broken pipe
+948b6b416ffbc6e81db4319ddfd8f035b2896653 powerpc/ps3: Remove duplicate error messages
+a23564e0c818770cbe8a558533dc7b577087b205 drivers/ps3: Remove duplicate error messages
+d207234bdaf2b52dab78b140ea67673d0b68c79a net/ps3_gelic_net: Remove duplicate error message
+644ce66fafcd033d0e394eb1defbe9b7c9bae1de powerpc/ps3: remove an unneeded NULL check
+12ab4649e79ec5d08be3946a30d0209bf2b58519 ps3disk: use the default segment boundary
+8da157b1a80925ff5bc6ab40b0501a81e923dddf powerpc/ps3: Set CONFIG_UEVENT_HELPER=y in ps3_defconfig
+c202f58f94491cb1d0bda6d51dd51ccb1f298b64 powerpc/ps3: Add check for otheros image size
+23325a72547fc2bf0997a074641d0abe8035ab0f powerpc/ps3: Add lv1_panic
+a5485f1892e7143e194418d9aef03829613298a5 powerpc/ps3: Add udbg_panic
+d80ac10dd726c1b2cdf0e3bca5b7070f63d59d88 hvc_console: Allow backends to set I/O buffer size
+dcd44f3a0ee13ff3972338c89b1a8c1d7ff6deff powerpc/ps3: Re-align DTB in image
+eb04b357b9ac35e908072dbb57a91347a2f537fd ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+6574fbcc8c7e3779e87ef2797782edb120a67f17 ps3-debugging: Add PS3_PANIC
+14ee522eb0285d39ba57bcb0cd2d2ca1cb5424c8 ps3-debugging: Setup DABR register
+e40f08da8e149e435a948c4e1b63d612dc406395 local: Add ps3_nfs_defconfig
+f6fdaf25adae5f81c97c68023b5231dc85e6f11e local: Add ps3_petitboot_defconfig
+0f6fb681f46ae8437248165cad9ebe354ae81470 local: Add ps3_petitboot_nfs_defconfig
+bc700c8cccf2254273668c6cb06d4cb7fd1f15df local: ps3_petitboot_nfs_defconfig: ip=dhcp
+520c5e5ae2101e510bf7f63694f78e301b6b4d20 powerpc/ps3: Start at _zimage_start_lib
+5715a0467c557bb6fecfdc7176c98592169e45ca Revert "powerpc/ps3: Start at _zimage_start_lib"
+012e55f9480ae91e39b49c172ecaf4ccfe04a303 Merge branch 'ps3-queue-v5.6'
+27442358af984a93b247df0bd0f5041f03e85295 powerpc/head_check: Automatic verbosity
+39ff2160fd705964046945fbabc9ffc078cebd20 powerpc/wrapper: Output linker map file
+e8f8610989f2eb13629d5265f263603e36cd920c powerpc/head_check: Avoid broken pipe
+85ec861b0226af9f5af0ff5770cca7e23acec7af drivers/ps3: Remove duplicate error messages
+8513aa3a3d53ce86dd415c9013b135ccaa55bd35 net/ps3_gelic_net: Remove duplicate error message
+67eec5b731c8aaf78b379052e91f9d62750b51bc ps3disk: use the default segment boundary
+7c246dd42033ba6dd9cb8f3b3e5cee25124175c3 powerpc/ps3: Add check for otheros image size
+d127aa1fdae83de920f0c31722207abe85bbb5dc powerpc/ps3: Fix kexec shutdown hang
+0bccf25eaf62f316b3979d4c0e99545eedd318f1 hvc_console: Allow backends to set I/O buffer size
+dac8f6ebd2326d79c22b78d1c227164e77e78e28 powerpc/ps3: Add firmware version to proc
+9c29ab08e8efc8bd0ac6a30f4787aab7e70cdda8 powerpc/ps3: Re-align DTB in image
+d6d8814ac9680dc2208e11063d64992be6ed4b4a ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+ff40aa2c9c69ed40db9704d679834f46b4bf3713 ps3-debugging: Setup DABR register
+2630498e656e6785dd62c9225a9ef7ceafbd8965 ps3_defconfig: Cut down version
+84e0ecbae673ff4d7040b95d677720d427a75656 powerpc/ps3: Refresh ps3_defconfig
+eff79fbce741176ce010dddb48d5305984ba06f1 local: Add ps3_nfs_defconfig
+314f2f6324714b4ce82c0a24ffb4d4af1c60e29a local: ps3_nfs_defconfig: Cut down version
+59de968de38564816546c38c0a1da6cfb2ee4de1 local: Refresh ps3_nfs_defconfig
+e4c17ced35f225c839486dfaad48941a7992731c local: Add ps3_petitboot_defconfig
+295d9e23949d55ae3c2886227e29a70484d20bbf local: Add ps3_petitboot_nfs_defconfig
+ae93f00ceb9dce0f450e2832b9aaeacacc983dea local: ps3_petitboot_nfs_defconfig: ip=dhcp
+afd95fcb675931866cb1d90d3e69d661fc92396d Merge branch 'ps3-queue-v5.7'
+4a730a6a7429f4221d2a20390168bb054bb15bae hvc_console: Allow backends to set I/O buffer size
+2db0c9e4e33f918a8da855e27621bfa275a441fe powerpc/ps3: Add firmware version to proc
+2855e6ab8add3ba6d79650193eb7327cd937b405 powerpc/ps3: Re-align DTB in image
+510489b19728d7d54dfef879543700377be64d10 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+eb409fc749105a19d862bf3ea421cded24e9fb97 ps3-debugging: Setup DABR register
+8dd927f5f4b6bbe0aebae47829450920551eee85 ps3_defconfig: Cut down version
+7cf650de73ea954e64ce49ee07ab00c3205bd562 powerpc/ps3: Refresh ps3_defconfig
+d0266d0b06bcf272c7659978b58e58cb00f31131 local: Add ps3_nfs_defconfig
+d22305e21e64a67f249f0b3b081464d47396581f local: ps3_nfs_defconfig: Cut down version
+9e0b572ae3a1ab93b543bfbd98007ede4adb570e local: Refresh ps3_nfs_defconfig
+e53cc6dd516caa418ef50ac4a3f71a5d6d2d7fc1 local: Add ps3_petitboot_defconfig
+df6a117b5c38dbb8f2f8f2f9dc0ed944fd08c0dd local: Add ps3_petitboot_nfs_defconfig
+525a65ba266d385a633ed34bd9d751dbb31756de local: ps3_petitboot_nfs_defconfig: ip=dhcp
+2b00793bfdd0fe3f035bf0e443dbb3b17d6882f2 Merge branch 'ps3-queue-v5.8'
+bd73ac94983acb8fedba14c5c7528b1d3a92bc8d MAINTAINERS: Update Spidernet network driver
+e9933ca4f700d130a26d5532db8b78e56beb4590 hvc_console: Allow backends to set I/O buffer size
+f24e55c1a6407432869f1b41a6cdb0eb9d006a04 powerpc/ps3: Add firmware version to proc
+3b87abc61c7c375fabdde24593d34d2c22c8a3ba powerpc/ps3: Re-align DTB in image
+9e50caba1d90d852f4376580a53bf835f1d983a8 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+49a126779c3774e6dcaf9f0b21c3202e9dcde308 ps3-debugging: Setup DABR register
+7f40c4917a1d2d9b32c92c2f6f37080f802d4fe0 ps3_defconfig: Cut down version
+448661d40099c4c34a86af6e6768506a23fc694d powerpc/ps3: Refresh ps3_defconfig
+df36b1600e80f9c5f5ac758da16e3a49da576118 local: Add ps3_nfs_defconfig
+f62505db2ca1b88ac6d7da4a84490a3854743aa8 local: ps3_nfs_defconfig: Cut down version
+4fb6dc7e9640ccb0013d9961ef1655e5a8e5e5b6 local: Refresh ps3_nfs_defconfig
+c14dd28588e6a66c67138d02d670c9a7d6e0b372 local: Add ps3_petitboot_defconfig
+38acf1d768176a9d00f34c54de77b0c653016f23 local: Add ps3_petitboot_nfs_defconfig
+65f95b054cc732a3d33ad1ce1baee3386fd14625 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+61076f193aeb405a86ea8d0b81a69eebda8d9c12 Merge branch 'ps3-queue-v5.9'
+97b830710e218e32326c846018796429087037a1 MAINTAINERS: Update Spidernet network driver
+68d53fe0cb61096eecf1becc5515659d8ca90acd hvc_console: Allow backends to set I/O buffer size
+5f851d496351470832035947fc3ad4af79de0a20 powerpc/ps3: Add firmware version to proc
+32ac1d97ede01a8940c1abe3e44db1d486db7b0f powerpc/ps3: Re-align DTB in image
+25392327ceb2818986dc8733452d67350f13137c ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+cc4bfed433955f935bac696f30be32b593457fc4 ps3-debugging: Setup DABR register
+44ff96db16e8632144e4a474cd29b751694a3155 ps3_defconfig: Cut down version
+38e6408017009c54a5476af5f1bcd92e987cc005 powerpc/ps3: Refresh ps3_defconfig
+d261c68c7072e63db364363b31fa30d3d0a8bf0c local: Add ps3_nfs_defconfig
+2ff4842f1c8bb882aca9228d68c739a662975767 local: ps3_nfs_defconfig: Cut down version
+acf3ca3bb982602cc1987e9ad49b352a25dc48a1 local: Refresh ps3_nfs_defconfig
+3cdf6b2c4264e1c7e24aded12a7381aae02e5a80 local: Add ps3_petitboot_defconfig
+d836c6e84e888c786571c6c3156b0c24baf87fc8 local: Add ps3_petitboot_nfs_defconfig
+9e3e447b155ce8ee384f74d999f50a54a2856955 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+ec950cc323c1629e7da511e2396b225601476312 ALSA: ppc: drop if block with always false condition
+06de1f5cab195c962165702522d7198f865ca215 powerpc/ps3: make system bus's remove and shutdown callbacks return void
+5bd84d14fe5d5fa369f8a71a950e3c13734b4b60 Merge branch 'ps3-queue-v5.10'
+3728acd69ed29a4c969f4877264023a13a699d2e MAINTAINERS: Update Spidernet network driver
+8d1d3c0089fe9a1a366a082db5936a08b12e8473 hvc_console: Allow backends to set I/O buffer size
+c44a78b4687c36ad14839e60993c4b03040183cd powerpc/ps3: Add firmware version to proc
+10147c91bf04762ae7f5878b9611ade8f74aa67a powerpc/ps3: Re-align DTB in image
+9425c28816a16fea4f91991a5bc845323e253ddc ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+b5a0c8b24335d00c73bc824737c389c6c19bdaff ps3-debugging: Setup DABR register
+315d585a7ad149f3948f8df5b6a0280d2a25455d ps3_defconfig: Cut down version
+7dad27fcdf0d1d7c09eaa9109b92cd77291e9800 powerpc/ps3: Refresh ps3_defconfig
+56b9296a47e3eda0129cf2a496c33dd4ed290a14 local: Add ps3_nfs_defconfig
+7412c0c3d3c11e7aaa6f772ece010d6c25cd8d4e local: ps3_nfs_defconfig: Cut down version
+ddd1adbde3f886f1ee2cdedbe66b40f559afba34 local: Refresh ps3_nfs_defconfig
+0fe05954fa92b70a3cb6b8d48eacca5593589136 local: Add ps3_petitboot_defconfig
+c2147336ad4b7b14832d080d6eefad43ce5fd1d1 local: Add ps3_petitboot_nfs_defconfig
+d86d986268407ec09d3cddc40bd0d7448af3181c local: ps3_petitboot_nfs_defconfig: ip=dhcp
+0d571955867e47b07ca2440f215f8731b7faa912 Merge branch 'ps3-queue-v5.11'
+5f478f9aa07321945737c0f0c628e0629c315c1e hvc_console: Allow backends to set I/O buffer size
+36191f4af45da5dd98824c40fc24af1fab6dc7d0 powerpc/ps3: Add firmware version to proc
+8830aedf38e59d7cb5dcd96b0216133ec8d1b272 powerpc/ps3: Re-align DTB in image
+8a73bf1ccfacf5feb01e53af8f595ec6433be641 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+86f25a3774826d6c53c3f6f0447ee340ec9f3a67 ps3-debugging: Setup DABR register
+3c7ba6587fba44c2bdb13f235cacf2f8cb4e6f84 ps3_defconfig: Cut down version
+9df3ab8a97f54f50300303848146b479757f1dc7 powerpc/ps3: Refresh ps3_defconfig
+4982dec14d773a348f4a8e4c00bb14eb5ad6047f local: Add ps3_nfs_defconfig
+1462cc1bb7fb68b3bb42c530b852da03240cf7b4 local: ps3_nfs_defconfig: Cut down version
+9db7e530c96f21b3b2afc533119756f6ed5fe770 local: Refresh ps3_nfs_defconfig
+49adc11f23c6106bb185ae69c36676a14995c704 local: Add ps3_petitboot_defconfig
+953104291cb4809aa3a56d9a62c83f21d3ac2c84 local: Add ps3_petitboot_nfs_defconfig
+43382055d7a8ededa4ce34e1252255e0abfb9229 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+7196c76413c978a146e2767db534e9716b6c562a Merge branch 'ps3-queue-v5.12'
+6990c4cabfccb2e438aae48a52f9e202a5d1b6ba powerpc/ps3: Add CONFIG_PS3_VERBOSE_RESULT option
+619539b96ad048b1d438e7f1fa4b524f0bbad700 powerpc/ps3: Warn on PS3 device errors
+97c0515cb1682a2b2ca5dc40c19f54c1cc49f016 powerpc/ps3: Add dma_mask to ps3_dma_region
+0cb80bdf75c45674d980db335b1308959d173acc net/ps3_gelic: Add gelic_descr structures
+c716851f798d682ca6b9d761d4657845eb7ea752 net/ps3_gelic: Cleanups, improve logging
+515597ea95251a9269615c4e1ac63a3eab96d53c powerpc/ps3: Add firmware version to sysfs
+31d2464375aae904354424bbd14be30a7bd49ff0 powerpc/ps3: Re-align DTB in image
+531e3cf92c3b4ae9be81e7389030492c42439889 powerpc/ps3: Remove a couple of unneeded semicolons
+1edd45db4b440681715e67c7fc714c6b3643c13f hvc_console: Allow backends to set I/O buffer size
+744d2e343ad655710201afaefb083c108aea3618 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+111e1cee873b4dae40c2d8f2305789576dec12d2 ps3-debugging: Setup DABR register
+f82b34cca7e58d404072c5b0cb7d553437a4cbd0 ps3_defconfig: Cut down version
+4e5939a93ad635938a7aed36b3362fd8955ae40f powerpc/ps3: Refresh ps3_defconfig
+caddccaad8c444c77c300de01edb45ebcdd99037 local: Add ps3_nfs_defconfig
+6ac011b9902a2754efa5eb358779c5e8912937c9 local: ps3_nfs_defconfig: Cut down version
+08b5f33c8ccc57764e64cf8710024c9b330cb335 local: Refresh ps3_nfs_defconfig
+66ba6403dfee2a464a3b36d05afdbe3f7703e875 local: Add ps3_petitboot_defconfig
+bb0ab34691577c4fc35c644aa280fbe6933fcbc1 local: Add ps3_petitboot_nfs_defconfig
+bdc2d0ece4ba4ab16fc1b0b2cacc34efa2f98b5e local: ps3_petitboot_nfs_defconfig: ip=dhcp
+d4109903e03e4a179ece3340c0211f4fb7534591 Merge branch 'ps3-queue-v5.13'
+a8bbd7e6661c34a89967c51681fb1b08bd41358f net/ps3_gelic: Add gelic_descr structures
+2509a77f652302edde20aefdbc70975a66e9d53e net/ps3_gelic: Use local dev variable
+1df179e813d21f4e8cadef96cdfb7822ef281894 net/ps3_gelic: Format cleanups
+e8046e016c3565cf95087e07141f1dbfce008a4f net/ps3_gelic: Add new macro BUG_ON_DEBUG
+6f8650fd1535068bef7687cab235022ad29ec153 net/ps3_gelic: Add vlan_id structure
+99c49cb21685b120c460b93fc83e813ac3f10c02 net/ps3_gelic: Cleanup debug code
+d6544d1c2d716f90dbbea936eea701359305f7ee net/ps3_gelic: Add new routine gelic_unmap_link
+e40486ae473eeac46f547ef3c66f91a611efaad1 net/ps3_gelic: Rename no to descr_count
+8998ef7820a6befc00ac45e49bdd950ed8a2b152 net/ps3_gelic: Add new routine gelic_work_to_card
+fecf94fb28504ff39fcbf422cb6e0f883fc125f5 net/ps3_gelic: Fix DMA mapping problems
+acfba52ceaef34d7c42cbd5f147057a1e8642929 powerpc/ps3: Remove a couple of unneeded semicolons
+a7587db14617e6dddd6f5e18b7a2dd135f2326ae hvc_console: Allow backends to set I/O buffer size
+2ea944c43807ff3418d5e0b1b7b791b90bcc78fa ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+3a1563b4e5a6ea46581852634f471b647b4bcef9 ps3-debugging: Setup DABR register
+b2a40cef4de27b769e57912b04b078896eed3f36 ps3_defconfig: Cut down version
+3c6629379ac72616ef4e53a50f58090bd3a21b0e powerpc/ps3: Refresh ps3_defconfig
+3c6742f44023604bc6a1517d8a3ae49ab9f749ac local: Add ps3_nfs_defconfig
+32e083615887255d1d66c10190e1aa05ef14f8c4 local: ps3_nfs_defconfig: Cut down version
+aa4f34ba628b5a54394bf491a16ea5092b6303f3 local: Refresh ps3_nfs_defconfig
+4a46a4d97e93a1e10357fc6326019b28c3ce42e3 local: Add ps3_petitboot_defconfig
+19a57e5513bbe3ea5957f2f45a7eec39ab6ef48b local: Add ps3_petitboot_nfs_defconfig
+a09b53e82e4cdf3c9626c3b4ab90f4ec4291f6f8 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+cfe03882bfc36af3701de83151f836a75b9e8046 Merge branch 'ps3-queue-v5.14'
+d3214ae39b429239116ceffb710ee9b96c7e312a net/ps3_gelic: Add gelic_descr structures
+322645bb90cece16094ba481263db97fb96d86a1 net/ps3_gelic: Use local dev variable
+1a0fcaa8b62b188efc187a80f6a6db49f395534d net/ps3_gelic: Format cleanups
+73d42bbab2206d7cf74666690123faf72510b6e0 net/ps3_gelic: Add new macro BUG_ON_DEBUG
+52a2a1f006ffbd7b21ed06ff5397605c5550adc5 net/ps3_gelic: Add vlan_id structure
+335a4614c3e4a01d09cdd568f7e56188f2b21d57 net/ps3_gelic: Cleanup debug code
+646e5f95d26fc5e69ef2e659576d156edad95700 net/ps3_gelic: Add new routine gelic_unmap_link
+2488829bb5eb39673a1de650673a5c23dce9a38a net/ps3_gelic: Rename no to descr_count
+d3ebabe022500bbfd9034fc3cf37dfc402126226 net/ps3_gelic: Add new routine gelic_work_to_card
+dd5b7e7e15add16a1b9c0da8fe95080c3d39dfea net/ps3_gelic: Fix DMA mapping problems
+7ca4dbbb17b5cb4008341929358629f335c2d01f powerpc/ps3: Remove a couple of unneeded semicolons
+ff8479b93647ac9ff6391f2681b5e56bd014cebb hvc_console: Allow backends to set I/O buffer size
+85c87d100ae51025d1fdcc439795f01034939145 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+3a3ea3765a639cf55c2c5e9c8a53692331e72567 ps3-debugging: Setup DABR register
+8e28228e01a7d05c7da76786abb58b4d38848adb ps3_defconfig: Cut down version
+a6a6dcf34f5560420445d7b41746baea5493f5c8 powerpc/ps3: Refresh ps3_defconfig
+5fffef80702d3a3a021f1eb5625cc199fdca4f2a local: Add ps3_nfs_defconfig
+a1b78b8e1fb53b6d6d361699bf07ac2824fbd3ee local: ps3_nfs_defconfig: Cut down version
+6b2670a5b9ecbfb5e08ffebcba0e8ac3f1c11183 local: Refresh ps3_nfs_defconfig
+b50102ee0d27f86f6703a379c509bcdfcbdaae4c local: Add ps3_petitboot_defconfig
+67110814b4acf66440345622178f85bc1a82f7db local: Add ps3_petitboot_nfs_defconfig
+8c1c78b1d0e82932c1480f73e22214904fb0c479 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+7184c2d7313cffe8fc4b8962cbf03e3198df5b76 Merge branch 'ps3-queue-v5.15'
+3f61acce9f5aaa5645da25e256a73a4796313b7f net/ps3_gelic: Add gelic_descr structures
+464b1291ae7f9e30b91ce6571c7d06389a401d66 net/ps3_gelic: Use local dev variable
+f6b1cd07d61f95feaded61ec4c853f7f6aea255a net/ps3_gelic: Format cleanups
+e26cea412d6ceff8f1d78cb0d54d7553ebdd7f8c net/ps3_gelic: Add new macro BUG_ON_DEBUG
+3523834008a32977e10b88bed560c5c102326b5a net/ps3_gelic: Add vlan_id structure
+0fe73a9f36b6b62c0cef444f092bf6e81a65aadf net/ps3_gelic: Cleanup debug code
+1a4b2533e3071aee9b180b1aaf401c28e2b4195a net/ps3_gelic: Add new routine gelic_unmap_link
+d798e1cd1ee47f089ffcbe88a8f2a1423c649b66 net/ps3_gelic: Rename no to descr_count
+991fa577c7ce3e951f23a2c7a407b7168cdeaf6c net/ps3_gelic: Add new routine gelic_work_to_card
+db9f7b2e0eb14289d7d9b9ee849280b0a339fc18 net/ps3_gelic: Fix DMA mapping problems
+9545ba6e83849d7696cbe3799f9e4c8d01919fd5 powerpc/ps3: Remove a couple of unneeded semicolons
+4bdd413d04aa8996b031c8fafb820a1bad382949 hvc_console: Allow backends to set I/O buffer size
+a89b40baf5bbcfe740620b504655c79100d05120 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+17c89374dedae675bcb4db3aebc8e53ae7510740 ps3-debugging: Setup DABR register
+f66c50859b5e7bfea3d806ede4a5a08069a63f50 ps3_defconfig: Cut down version
+9557280bb48d705ee56c0660a2b2d4879b5bbea9 powerpc/ps3: Refresh ps3_defconfig
+716e794566c546489c431337a44e2e7fe33bfd53 local: Add ps3_nfs_defconfig
+83f36e6053adf3da0649b18411d658ad3020b4c7 local: ps3_nfs_defconfig: Cut down version
+8e45cc5f944eba54f268e391d92d8a197dcaf378 local: Refresh ps3_nfs_defconfig
+96f0ad77a782fb70603bda89e803c81fcdfcc8be local: Add ps3_petitboot_defconfig
+08da1e950d15d6f5f37f7fbad049ce09be75feed local: Add ps3_petitboot_nfs_defconfig
+636182acac2d2e8b45694c8d7522321920ec7291 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+1405291861977e53804b02a7b2a91a84ffa86878 powerpc/boot: Add `otheros-too-big.bld` to .gitignore
+7d88741eb2b33d1c196b2e62259701f881be59da net/ps3_gelic: Add gelic_descr structures
+d9959c9f0a3f75ac841da6c7a604d1af917e9f0d net/ps3_gelic: Use local dev variable
+75354e6747691d8c698d12ce2ff286837961a3aa net/ps3_gelic: Format cleanups
+0fe26be86eba481788afff14585375c42fa12aad net/ps3_gelic: Add new macro BUG_ON_DEBUG
+d56557c5e8d1b05105bdf591156162e1172c4c3e net/ps3_gelic: Add vlan_id structure
+729f4c59112a42f2396763d0a798821804d4d8d5 net/ps3_gelic: Cleanup debug code
+c1fff2da711b102b995ef073639f53b1f331301a net/ps3_gelic: Add new routine gelic_unmap_link
+63894c40e06f95248001b09b69ca6684c98a070c net/ps3_gelic: Rename no to descr_count
+d91f510dda94c0b4967dc3cb0c0a14fc0a8add2a net/ps3_gelic: Add new routine gelic_work_to_card
+c9cf9af94c0424836e3ff70a083bb0741fdcab18 net/ps3_gelic: Fix DMA mapping problems
+9f756a22fb1f85b8a476f09217caa8a07b1885c5 powerpc/ps3: Remove a couple of unneeded semicolons
+335fedfa2c0e6db388cbd664084fe0f11bf093b8 hvc_console: Allow backends to set I/O buffer size
+43fbe41008e441c6d0e871771233c2cca6a20b0c ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+15359670a94bf41e63c31857e2a4876221c583d4 ps3-debugging: Setup DABR register
+f5cd244d85e64b7cbe5fa6f594f1f1e4d7e1d9e2 ps3_defconfig: Cut down version
+f6aebe7449f609d0ec1ad990e786f12eb7bdcc0c powerpc/ps3: Refresh ps3_defconfig
+7bcc23b517045202de5baaa2e71d2d97b13c8637 local: Add ps3_nfs_defconfig
+08a23ec57d32c207aa4975b9ecb258eda97dd59f local: ps3_nfs_defconfig: Cut down version
+1168287cc82e18ded707159bcc8926c4c5015f43 local: Refresh ps3_nfs_defconfig
+16b0a9a022d70c3fad5560e35c98d21025f3d10d local: Add ps3_petitboot_defconfig
+cbd3e320b92a7b0d442ad5bd99c0281c094ef060 local: Add ps3_petitboot_nfs_defconfig
+4566fc0956c46369eda36168c62d791147003127 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+097209347fda22cfeadd79fa56ed60a90d5391e2 Merge branch 'ps3-queue-v5.16'
+c016f068aaf507998ff2010bd3e3f4d7069cf68e Merge branch 'ps3-queue-v5.17'
+79a781945c583ba62124ae9aab21015b5dd4fb22 net/ps3_gelic: Add gelic_descr structures
+3d43d210f6c5f5e02aa6f183abfd2c4cf47cdae6 net/ps3_gelic: Use local dev variable
+1c493a212149dfc029c2c992d1edb2dbd290895c net/ps3_gelic: Format cleanups
+69b4d2e8e5100637755abf4780bc670180c880e7 net/ps3_gelic: Add new macro BUG_ON_DEBUG
+8372d01b2d0cf601f25b37543e462a12da3761e5 net/ps3_gelic: Add vlan_id structure
+5997882a2cfe1e971a2d1af2e78f513721e8f834 net/ps3_gelic: Cleanup debug code
+dd1e88b1f241a6eff98ffbb5a9f556c735f71681 net/ps3_gelic: Add new routine gelic_unmap_link
+16a170fc69cff1525ca446c5cb3a69ecabe10f84 net/ps3_gelic: Rename no to descr_count
+29f9db7700551335d2d8b88265812dc7855aa58e net/ps3_gelic: Add new routine gelic_work_to_card
+a11d75d350863f711f8de73b2065cd6ccf5c3d82 net/ps3_gelic: Fix DMA mapping problems
+45c0e90be1051389bcf615f2f2d35d08474d33cb hvc_console: Allow backends to set I/O buffer size
+5046aafbfb61ccc428e74b00759e35135f252cbe ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+956a6e90eb4011c7d07bf5fc415880b600e43934 ps3-debugging: Setup DABR register
+13b443c742dacb20e46fb8399e6b1217641273ce ps3_defconfig: Cut down version
+c5e42eef1122c3f46f4cc440804f9c0e7e31db49 powerpc/ps3: Refresh ps3_defconfig
+5b4bdeadd5408f81fa2fa825ba6b5a5b6795a338 local: Add ps3_nfs_defconfig
+02ac1047e9edde683d0b3eba7fa8a1566c0a6d2c local: ps3_nfs_defconfig: Cut down version
+40ca3f729ef0d21bc0ea61751cd2ed24362226cf local: Refresh ps3_nfs_defconfig
+859825591709b802a92d6a97e8325183b7e4f03c local: Add ps3_petitboot_defconfig
+f07448fb7eef242bf9901edf4168e66d9980c8a1 local: Add ps3_petitboot_nfs_defconfig
+8e524c9239ba66d491c25e7da2f926939c663e7e local: ps3_petitboot_nfs_defconfig: ip=dhcp
+29f25d126aedf6123daf954d93a941980162273b Merge branch 'ps3-queue-v5.18'
+9a80b907e5811d2b43a7d6a4b898f94cc3872f56 net/ps3_gelic: Add gelic_descr structures
+38b7b21f72faedabc98b7db477196648a9f396ad net/ps3_gelic: Use local dev variable
+e690b4d3178e9c3fabfde9ce64c7e72fc4341127 net/ps3_gelic: Format cleanups
+959419965b21dfeda603f709e28043f9c88646fd net/ps3_gelic: Add new macro BUG_ON_DEBUG
+26cee94069dc5cca07d4fda26b2c2383b257522d net/ps3_gelic: Add vlan_id structure
+1b6607ec7311626f56d4385f5e5f70c6702b7345 net/ps3_gelic: Cleanup debug code
+78f1bf052a8e650a325fcb30a0cfa8f4bc7fe70f net/ps3_gelic: Add new routine gelic_unmap_link
+678a06d3cc06b427f8ff730d2330492619983465 net/ps3_gelic: Rename no to descr_count
+1cbd93f1010b10ef0976b5ab3be361a0e17dba40 net/ps3_gelic: Add new routine gelic_work_to_card
+5ac7edc6d88eaeb10925f3951611c85abb9ed726 net/ps3_gelic: Fix DMA mapping problems
+62696cae6a75a0f6851eb3f62d0bbc780a56654d hvc_console: Allow backends to set I/O buffer size
+b9c15bb562bd12b72db64b04cc333e09d2b311f4 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+13e14d4d3bb5aae4f9493ea874df0d2ebe0247a6 ps3-debugging: Setup DABR register
+8950f66a326ac60d00585f0c7526527e683f09ff ps3_defconfig: Cut down version
+21f23f5a8a5f261063b47b0daf1e2671b4668a50 powerpc/ps3: Refresh ps3_defconfig
+634b9e043fbb6d67b763cbbad0fa0e7886b62e74 local: Add ps3_nfs_defconfig
+223ad75c9a7d139df7139e143208f283eca3f6f4 local: ps3_nfs_defconfig: Cut down version
+44ee4d22deb6f67501babfc9b5306c655ed1b814 local: Refresh ps3_nfs_defconfig
+5fac7fd03b6377eadaf7dbb031292eb5949c1918 local: Add ps3_petitboot_defconfig
+dcc18f1f20d6e1f0929375782fd7eb40c422fbee local: Add ps3_petitboot_nfs_defconfig
+dfb09d2e81efd7d82cff1b8eaea278266b2a530d local: ps3_petitboot_nfs_defconfig: ip=dhcp
+77d6de05c26f1a01331035de24952bc9b55b88cb Merge branch 'ps3-queue-v5.19'
 
---===============1867072471370870571==--
+--===============6081819278164269611==--
