@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2322684522673269311=="
+Content-Type: multipart/mixed; boundary="===============1449120938496854107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 30 Sep 2022 11:46:11 -0000
-Message-Id: <166453837100.20948.1924287358528279625@gitolite.kernel.org>
+Date: Fri, 30 Sep 2022 11:46:38 -0000
+Message-Id: <166453839879.21178.9825875043462678144@gitolite.kernel.org>
 
---===============2322684522673269311==
+--===============1449120938496854107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: a62e6791476a5d07abb8dec9afc2c6d0f65f7e4e
     new: bffcd14facbdc25ba4da9993cc7811b55b50b6e8
     log: revlist-a62e6791476a-bffcd14facbd.txt
 
---===============2322684522673269311==
+--===============1449120938496854107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664538369 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664538398 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1664538368-04eb979294c71a8136524d170ac752a55d4a289f
+nonce 1664538397-199f7a8465e7320f97925a26c64579ec5257ce5d
 
-a62e6791476a5d07abb8dec9afc2c6d0f65f7e4e bffcd14facbdc25ba4da9993cc7811b55b50b6e8 refs/heads/usb-testing
+a62e6791476a5d07abb8dec9afc2c6d0f65f7e4e bffcd14facbdc25ba4da9993cc7811b55b50b6e8 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM21wEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b5oP/0SOlVvcqX8DcbcAylwz
-FIUpKuHTwiNb6EFZ9BFuSKGzGo5bLOxKOvyqn2OsiGzuVWj5hy4olpFbYPJSqj0G
-uv7WMO0N/2Jc2uf/CS5XuIFoFkqTuMW6mlispPnbeFi6z9gbLEMRDvYdfhAkTDdZ
-+zEOYufXLB0N97EZot2iTKBnGGwkG2FcxKET/NvXhhAriLM0T2j0WchBvPSRYEnO
-olDjjQPvspLlTuuCrX1v7mm0VWfwF4xJfNpYyDVdQ+r4two6QpnW12nv3uoZd3HE
-eJfWFbu1ikOijZFcJ89sGTJ+5OdOvn2APix154auLncTmGOKGli+MFA6zXfa3+6O
-qoEeUXHbojdMF87Dbe67Mf78f0nWRRz2qSo9ljAHTjXLR329bx02vjaXfD16CIkK
-+DwrekvROrXqqbMSYsw/A9DBQRzc29A84JX+o3PcH2kV1LeONkynbFWrmAHdyiMh
-MLcBMf32u547fLDiCmPZsjQiDOcKK0BfZ0Zj89dRSGC7tkoJQCopXRc+GMY10DjE
-yg2QJycFdA0l90lwi3P1VaVXsY59xCtJODlfyM4umsZGmGolSOMSK7ErSkwHnjcE
-grehlVqfa4yP3CXwJeSKIlD/g51CysOGGXqo/S4PM9+vwQfbwXtaeLDlZhFOY1xw
-AlQ9RjsRKZcmjFySaSh7jpb3
-=5oEv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM21x4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZUMP+wTEvUuaIMcDzNEHGy8p
+03NqeReb2mupMpSQqnciazV2VVBpaNHlDVsaARwxA3uqEi+y1doE9ZUKVdLoemWZ
+RdHwyEqjvHHoE9xRY0txxQiTvrEcSmp/XeUYciBIwoWq5fOIPq0MOiXOzJ2CMtFC
+8AlYNPOHFrU/Y7aaE2byQDJjtQWNeBQl1tUF7oye8yTImuAyR4s3lXI2+iBLZeJT
+Rko0+9QQ3NJTpgYjzD/aaLuc5vkj31lI6ZF79NRsczzAIniQQW5QCBXEYURZI+pO
+29dywBpAcfaDQ1Nd3p1l2XCLbCe0dHZBe9RMdXSN7egXN7TCH1/8UM/utjJjEjAo
+1qgmcuv9tlC7X5C7g5Oute48OICR7CUECxWuucBKFNMsvXH+NNUIwscUVrSYQjmo
+aS5GSwa6PV1zvk91bYDX8KyqetNAs83OmJ1dC86xl2fhp0KZwZad8PBFYmc4qyno
+6LemEjmso8Wii8i+bARzkMK0trBsSnlpQIl3xPWCSJ4ohjnsat84IdDTpZ9RgzVK
+OMgvFZXlWbH1YqJQuYLM+EqcnElySHZIpHxh6OwVZeWaqTtZUeZGwRoJSr6HzzaB
+ePvZYl9EggwjlmkZpKldiZgo6KRJ8lpRVlNE4+4tXy+CrYUxsa2nlgJo0LkMx5IG
+NLYKWd8J1nTsUPs5JjblvCW3
+=VWnY
 -----END PGP SIGNATURE-----
 
---===============2322684522673269311==
+--===============1449120938496854107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ a52958321bbb4e8b2b4ab5849b8cbb0202b1029d thunderbolt: Add support for ASMedia NV
 5d2569cb4a65c373896ec0217febdf88739ed295 thunderbolt: Explicitly enable lane adapter hotplug events at startup
 bffcd14facbdc25ba4da9993cc7811b55b50b6e8 Merge tag 'thunderbolt-for-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 
---===============2322684522673269311==--
+--===============1449120938496854107==--
