@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 30 Sep 2022 08:27:30 -0000
-Message-Id: <166452645080.28500.13049347773386980081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 30 Sep 2022 08:31:41 -0000
+Message-Id: <166452670134.31600.9671680552190928187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: a2736f25643c68846769ccce20320617b432ed48
-    new: c68fd79cc8049747110ba366b1608e270a414f25
+    old: dc096887909e2fb5323c726e69ba6e534a1d6d10
+    new: 316d0a52dff8f805b8de42514d73946b7bc97748
     log: |
-         41a736ac20602f64773e80f0f5b32cde1830a44a ASoC: wm8997: Fix PM disable depth imbalance in wm8997_probe
-         86b46bf1feb83898d89a2b4a8d08d21e9ea277a7 ASoC: wm5110: Fix PM disable depth imbalance in wm5110_probe
-         fcbb60820cd3008bb44334a0395e5e57ccb77329 ASoC: wm5102: Fix PM disable depth imbalance in wm5102_probe
-         b73f11e895e140537e7f8c7251211ccd3ce0782b ASoC: mt6660: Fix PM disable depth imbalance in mt6660_i2c_probe
-         c8d18e44022518ab026338ae86bf14cdf2e71887 ASoC: core: clarify the driver name initialization
-         d488b28502d7c22b1b50f0543da119748e575919 Fix PM disable depth imbalance in probe
-         c68fd79cc8049747110ba366b1608e270a414f25 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
+         beb18bb22cd4fb88648bb2925d56f36131c1ac21 HID: amd_sfh: Change dev_err to dev_dbg for additional debug info
+         68266bdcceec10ea364e62c63732cd6fe5a256a8 HID: amd_sfh: Handle condition of "no sensors" for SFH1.1
+         316d0a52dff8f805b8de42514d73946b7bc97748 Merge branch 'for-6.1/amd_sfh' into for-next
          
+  - ref: refs/heads/for-6.1/amd_sfh
+    old: 0000000000000000000000000000000000000000
+    new: 68266bdcceec10ea364e62c63732cd6fe5a256a8
