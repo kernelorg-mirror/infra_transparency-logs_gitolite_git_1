@@ -1,52 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============8258405027068816258=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 30 Sep 2022 14:50:36 -0000
-Message-Id: <166454943608.22989.12295159995571434558@gitolite.kernel.org>
-
---===============8258405027068816258==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 30 Sep 2022 14:50:50 -0000
+Message-Id: <166454945008.23144.12682856009963602369@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 7ce543589fd5e8be6545fc6a5e36ba1f587f895a
-    new: d7b29a5111370ce1a67f2a970d0fbc8bdf4fa96f
+  - ref: refs/heads/master
+    old: af3da48f6387fcd530177a3ecfc04c4d5e5698d8
+    new: cf0b010a7b862ee6a44daa7dcb3f900bd757b04f
     log: |
-         b731e3575f7a45a46512708f9fdf953b40c46a53 mm/slub: fix a slab missed to be freed problem
-         00a7829ba8a44d720269e8a7562b51d4c68c03f7 Merge branch 'slab/for-6.1/slub_validation_locking' into slab/for-next
-         d7b29a5111370ce1a67f2a970d0fbc8bdf4fa96f Merge branch 'slab/for-6.1/fit_rcu_head' into slab/for-next
+         3efaca5ea0b27b07de01ae84365ed96df3b4c2f9 man: clarify non-seekable file read/write API
+         cf0b010a7b862ee6a44daa7dcb3f900bd757b04f Merge branch 'clarify_seekable' of https://github.com/fkm3/liburing
          
-
---===============8258405027068816258==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1664549434 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1664549434-3fa9a5b1f528c4ba8aa1797b7dba605fd5e04d9d
-
-7ce543589fd5e8be6545fc6a5e36ba1f587f895a d7b29a5111370ce1a67f2a970d0fbc8bdf4fa96f refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmM3AjoACgkQ4CHKc/GJ
-qRBjHQf/QnPdhtw9+6vBWJ+7hqMCl4VHra6SYUQMbHRC80pe+3pwwPaCWWq/KB/I
-X/mQnhySplI3/L8YK3QSRzQ9oJPmER8Z7s+xiEAeLcu4ssEoqO4uOw6xftgsTveI
-24p/miMIZr47LEdAvEAmEqVTn6MXqZuStuzyWUN0UGDrMzN4l0X1EXSIpFtcnZBi
-k8Zffww0/7MD3zV/vWrgBPCFK2lXtlAqN3jPpEuumINBr0NUmjR/d+avs53ep/ya
-gsx48WYLueUjkEMVJGxyI3D2h6cwhDSAqh/ubYR1rpOJzU+ZM2n/UxBuMHnLaG07
-KLgMz626/m952Q/f0zrL/AwCCOLRgg==
-=TZas
------END PGP SIGNATURE-----
-
---===============8258405027068816258==--
