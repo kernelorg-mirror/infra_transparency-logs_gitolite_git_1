@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2150618869102739105=="
+Content-Type: multipart/mixed; boundary="===============2971254872719111074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 30 Sep 2022 14:53:53 -0000
-Message-Id: <166454963306.24374.4273393982161425186@gitolite.kernel.org>
+Date: Fri, 30 Sep 2022 14:57:17 -0000
+Message-Id: <166454983780.28480.16056182285990199456@gitolite.kernel.org>
 
---===============2150618869102739105==
+--===============2971254872719111074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,57 +17,47 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const
-    old: bdafbcc6c07cf164a8b73f0dc3fa7b9b46ac5064
-    new: c3e978fc9af2731cc40bc80b1418be058a332827
-    log: revlist-bdafbcc6c07c-c3e978fc9af2.txt
+    old: c3e978fc9af2731cc40bc80b1418be058a332827
+    new: cd48a7fbde79eb2847bf60b9e69a6cb2bc48b795
+    log: |
+         8a8fa47f4da859fe6355a312b2bb90a38a2bcde9 driver core: make struct class.devnode() take a const *
+         20e83022281e70dba3ccb243ac508f8343a67760 driver core: make struct device_type.uevent() take a const *
+         babf07cda2dcefa0591342f80a157cdf323f11c5 blkdev: make struct block_device_operations.devnode() take a const *
+         fdf8c010619711a62d093bca0c897ee57a775d90 driver core: make struct device_type.devnode() take a const *
+         d139e37864a552476b38a03d96cee636c67e7268 driver core: make struct bus_type.uevent() take a const *
+         61358c21160be159f0712a130b2f5d70e3bf0fb3 driver core: device_get_devnode() should take a const *
+         133d0c95a161cafe95a389529e982d1cfa007712 driver core: pass a const * into of_device_uevent()
+         cd48a7fbde79eb2847bf60b9e69a6cb2bc48b795 kobject: kset_uevent_ops: make uevent() callback take a const *
+         
 
---===============2150618869102739105==
+--===============2971254872719111074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664549629 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664549835 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1664549627-148346c261fb762d84218d0a143b7a39daa1c8a1
+nonce 1664549834-1df0f381e595ed06d31bf9fdd6815aad9bfea34b
 
-bdafbcc6c07cf164a8b73f0dc3fa7b9b46ac5064 c3e978fc9af2731cc40bc80b1418be058a332827 refs/heads/kobject-const
+c3e978fc9af2731cc40bc80b1418be058a332827 cd48a7fbde79eb2847bf60b9e69a6cb2bc48b795 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM3Av0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VMAQAJqjPwQK5Q2k4W4PtqAS
-Heuy/vJSsOHAhk+poCXph6IwdtFDsAvO5ExfdRYHHKRhLXTgqZYmvV9YYL9MtRbV
-WBGgYoRyyUkIEQeHkx3xCG7C7ksMMTxikZAcdza/mGwmY6ktBURhJpjnzdfufkra
-FDALOLfEKdYKFPVL8ICi1p80bsw5k7URqUlnxJohpjAkPdmsjkzvJexGqKjrxdlq
-B0p7Y3ZoWPtQ2P7p57uRg5+OgOngYj6Mecz1qqffOV8RubaUv8rDJb97Wr0tanh0
-XzPen2hhW1gqi1MEHa7zFr8cVB7ftgBRsaIhaCJ2KYqe+JDpvZ7sAbYw6NbIVXTX
-kuFZZ5Jn0lyCwnNbvL4dLDRDSNu2T4LdhjhZpJZOZ0Om2j9cqQ8NKNYbsYo2Za9G
-u9O6/hL1SEUZ8HgZFZ0XznU22qhkIoDZEe6DRHkWsLXlXTDiJegY7Yg/ze/uRcWU
-KacnAB2j6iCKlKN9IwhmNyfBpW+2k8DTHPZPFInzpFlqfaIFeyi9PS1dvMIEbDx4
-62SHuBdLFlzKiCaNJS/XT5Q2dEljEs/1elD0IHPC8uSPPqKB2YJnpw2cjJcu5zSM
-zW+m6N6LK+e4bg74xzrRUlf5H1MKKMCSCP/WGmNhrZuX4De6rS0ZOeUTiFq52nP0
-irDEfvrO/jC/8jCLf+sv6X/C
-=7WF2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM3A8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ja4P/3Y3tSCULHa95bLIoL/M
+Ij1lgPBJYMZ/uCc+M7DmpP0Z/dXva2+U5t/Yp25f6nQNOKy+AWnJFJHFqtXuVf8Z
+42Wx/xhFzfuifkqf4+fABjSIMGHpsNtDTmLKZK6GBsUqiK+Mo6c6kV2ZYp1bGOoc
+wDwa/dgR+nVgA/vYqkiq7BfjLiPHEsrcPt1ecM1+cMtEJtk51OubBXCCfvY/3WRV
+GORo1WkV6DvUIjxY2/sNm0OzsvGMeUArhcw5d0Qg7j+RS0EMmcvnhqas8EYVW6RP
+jRW9HB0yOpz2PEuYVAd6jVLwll40DTLmMQub4jchmCmieTBm+qHcEkOEZY4dG+cn
+5FcAtnbRgidfteXhQt6RLGgKD9VuyXnL3QuY8KbHSBiJI4oOT0hjuHdftw0ytLSh
+3KfcBeF6fUa2ktBqPmF76EC/rvh8ls0S3MvN7X46D34cAXsGY7nVJXcS1+MK+BCd
+eOtIK9OOVgYRIPpDOgSFOe4eI7YvEKQMEBOlq6rOzuNyA5OzmgUE/Awl37wAfV6M
+fZuVQV+9BgEL6nPPxah8jAWF41kx9oRXZW+I5abeG1+F+vZekFKPcQj3rDTdUujQ
+eIbcJ0BkKrRbioHCvIKjKFNwbjfW2j/mMp23J5J6nC/phswrV0gsmIRmbLiKrd3/
+4dIpD/Mnm2JgFFXBCjLYcQxv
+=IDZe
 -----END PGP SIGNATURE-----
 
---===============2150618869102739105==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdafbcc6c07c-c3e978fc9af2.txt
-
-842180e5c9cfc2aeabb18adfd66119830d8565e6 kobject: kset_uevent_ops: make filter() callback take a const *
-789ea791df6849d7272a3dbeae5128737ce102c9 kobject: kset_uevent_ops: make name() callback take a const *
-141e36f82b1331c18df9d40d4627bb5533154fe8 driver core: make struct class.dev_uevent() take a const *
-260e45bac78037520910ebc4f7320e7df45a4779 USB: make devnode() callback in usb_class_driver take a const *
-11c1987caae0a2f001ffae14ac7f4eb3c5f0b889 driver core: make struct class.devnode() take a const *
-d23cc87e3f3f522dc63f374768e6d6cb2cf386d3 driver core: make struct device_type.uevent() take a const *
-f3679a6fb38ea5f527c21936f235ecebd3daa5d3 blkdev: make struct block_device_operations.devnode() take a const *
-7c174838230d78492ba6f7087993418e9b59ad3f driver core: make struct device_type.devnode() take a const *
-e3ec90c40a9829c7d9c65d0461d7e9512484f463 driver core: make struct bus_type.uevent() take a const *
-b380beddf6b0b5037934afaf711af248663b3025 driver core: device_get_devnode() should take a const *
-e7a078dfb9297e851c4787f7413f4a759d0a844f driver core: pass a const * into of_device_uevent()
-c3e978fc9af2731cc40bc80b1418be058a332827 kobject: kset_uevent_ops: make uevent() callback take a const *
-
---===============2150618869102739105==--
+--===============2971254872719111074==--
