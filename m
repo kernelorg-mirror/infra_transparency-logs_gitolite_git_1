@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3808881038795936775=="
+Content-Type: multipart/mixed; boundary="===============5517117528858492185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 30 Sep 2022 12:52:40 -0000
-Message-Id: <166454236089.3603.8434341272807055353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 30 Sep 2022 12:53:53 -0000
+Message-Id: <166454243310.4119.12481607833495305201@gitolite.kernel.org>
 
---===============3808881038795936775==
+--===============5517117528858492185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 379a33786d489ab81885ff0b3935cfeb36137fea
-    new: 468cdabe93c5fa969de65752e38c31f07a5e048d
+  - ref: refs/heads/driver-core-testing
+    old: 1da40c2667388dd70306bfd3d4dcb49fd20b50a9
+    new: fda8c908bc2d523c0770ded667dcdad29c06ff52
     log: |
-         468cdabe93c5fa969de65752e38c31f07a5e048d tty: serial: atmel: Add COMMON_CLK dependency to SERIAL_ATMEL
+         fda8c908bc2d523c0770ded667dcdad29c06ff52 docs: filesystems: sysfs: Make text and code for ->show() consistent
          
 
---===============3808881038795936775==
+--===============5517117528858492185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664542360 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1664542359-2f81d6b45b9f5c3d937f8101790fa81dc60014f5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664542432 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1664542431-eba24f1913c1241db7ea1c76039bb03b60ff86be
 
-379a33786d489ab81885ff0b3935cfeb36137fea 468cdabe93c5fa969de65752e38c31f07a5e048d refs/heads/tty-next
+1da40c2667388dd70306bfd3d4dcb49fd20b50a9 fda8c908bc2d523c0770ded667dcdad29c06ff52 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM25pgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y2sP/AhzQ9pwIFR14qqVvjPO
-21g/A8RRkidR5maDlUOcwY4Y9LSOA4J1W+FrX24imvVaAfKEw/VBMg7Qfg3i829a
-ioxB4SRHdEsTCaRVbD1UfVsvGLeHe7Q8GyXEp95QZWpVN+wJNiVZL1INylWI+VuK
-4+ewT3AzqRFvELLcgzGwd4zooFIly+DWqcCizmJfqKfpxmRp+ujvU27UrKJU24xD
-ijXKdJXdnoBt4Q9feRBLE9QPoUodF6UFDIsuLCsL1jCoRzbs2gfKXr0WQmeHCxXy
-h12RixRryw3LDgig4YU9sSlGdVUByCbLMQiSRsaJIaEGR0IDpadJEAKBf276me+9
-t/V6JhNJNYn6KccF7Ut1CXSWu5ZlkGF9xJkUkCIoWc8AMLeUWRHceGr9TIpV8Lwv
-rKOUyBnPF2uuzbBhSz6JrZZtr/NgIgg2YHr9lT636mGJ7SE9VnmXph87btUXAMxA
-GAeJJwpYQ3nqV030G9+xR1A17ZyWjccGq7tEn5tCMqKFHj784gIXtAQ8EA/Yyvd7
-h6ldzBKu7PbKVuXxLzvDWou5spytBM5GDwY2uYkTAiBvFF9Eizs7iU9DJIxkupTy
-wEaE/5I2BVEnSgf/RSjacb8ut8kQyhLDtB8jG+X2AkXUfTV9OmqiyIDbTXVs8c4/
-xg+rL7hiZDK9wOD6ad5Eg4yI
-=UPIQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM25uAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TJYQALG4W3Apt2Hqrf4TAGr/
+1yu9aopwgkoxW+BSsjEMuLJhtEWckhDyLljNpQbzdaNyoXRIDRB++ne0tDxoXFoo
+sVdaDlcF1rPpponlmmoDYi/sDigv+muVN/0yxp2rPnweOMRek5Gt4/ijl4tpAA/I
+dhi8n+2VknUWW0brw5G6zYWEhuCyJ0X2q1BKllF30QX7viwJdlfsfm17iNnDNdoh
+aK9B8Luj8Gzi35Ajdl7gUliP1AKZiX2aZDiGfw7vTnXyWq7NwPpKiiiWGmDJC7o5
+sWb9ONHHLBXuOnM+cfH6pFo821xGWFgu2aA+h1hddu8Mybfb5wVZvxe0BqCrNlMj
+Jdy0oZenc22jjhSnOsxvkPE09czveP2aRq5K7iIAlUvkVXdXcR1SN9kWU+S11YQZ
+/294TNoXP4I2ksKZZhPHqUk1tpJP93425xVtHOLF5Hn5AymVv7Es+9iKFke1PMxN
+ETrO/cO015KcvNgGwrHNXtE1PHvaC7qdew2iDO4fuV988j2Y1MnsMpx3G6w2pGSY
+iQXOmuTwYPUk18bubHGbmXI38yoadxWYj3WPG3T5skoSqHZFHU6BGwQeBI2O5tyh
+OUlTRgsSn3Iv2nYSPf+UfJWuOEs0dfQtWus8zxrwHh7BJ0xawFjGAZvh2v5ChPhh
+O7Lt/M4nZfMSeCWTT0MQE/Oj
+=aG2J
 -----END PGP SIGNATURE-----
 
---===============3808881038795936775==--
+--===============5517117528858492185==--
