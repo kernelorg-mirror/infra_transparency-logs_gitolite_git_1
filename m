@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5380846599674614568=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 30 Sep 2022 18:19:35 -0000
-Message-Id: <166456197567.12036.4155994971260751852@gitolite.kernel.org>
-
---===============5380846599674614568==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 30 Sep 2022 18:21:08 -0000
+Message-Id: <166456206895.14534.13630611623562302675@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 601fdc2a68e023812fc3b47ef3c05da63a6093f8
-    new: 5166be6f9ac9e760c7c0407e643c8af0faf12bf9
+  - ref: refs/heads/next-integrity-testing
+    old: 085ee16d838548d7bca4bec436d1e1a9d3a1f490
+    new: a9a6baa5acef8f0b6c6a17a13ffb35bc92dd469f
     log: |
-         5166be6f9ac9e760c7c0407e643c8af0faf12bf9 ez: initial prep --compare-to implementation
+         bab715bdaa9ebf28d99a6d1efb2704a30125e96d efi: Correct Macmini DMI match in uefi cert quirk
+         bd0526805e970fe51973a05bee67bbe840c59df7 ima: Simplify ima_lsm_copy_rule
+         a9a6baa5acef8f0b6c6a17a13ffb35bc92dd469f ima: Handle -ESTALE returned by ima_filter_rule_match()
          
-
---===============5380846599674614568==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1664561975 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1664561975-608b8e8808b627d3995a4ebfd58b2f0076102d08
-
-601fdc2a68e023812fc3b47ef3c05da63a6093f8 5166be6f9ac9e760c7c0407e643c8af0faf12bf9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYzczNwAKCRC2xBzjVmSZ
-bG9pAQDjcvh5Mmx3JERKjAbKwbXUs1dC5pIbZbQU+YcTt35d/QD/ULRzgqOSynhB
-r3Zn5B9MjnSlgcoPJwXce2Y1YBK7KQI=
-=M2OU
------END PGP SIGNATURE-----
-
---===============5380846599674614568==--
