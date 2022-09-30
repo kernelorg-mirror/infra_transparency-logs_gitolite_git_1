@@ -1,20 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 30 Sep 2022 10:33:41 -0000
-Message-Id: <166453402127.1026.6432950374029699438@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6234280126524985524=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 30 Sep 2022 10:39:11 -0000
+Message-Id: <166453435180.4630.8421415081183778077@gitolite.kernel.org>
+
+--===============6234280126524985524==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 28837e6da62cd9103e0111a1f79660fd236aaf42
-    new: e45859591df5a496ec4b9b8b11097bb720901ff5
+  - ref: refs/tags/for-linus-6.0
+    old: 58422dd9b6661e14b786237ceee894616e35e05f
+    new: f9c49540baafe3a99bf657e1b0b1319430df8c69
     log: |
-         4674284aa74cfc6db0c54c16f9557ed8c3552409 ASoC: mediatek: mt8192-mt6359: Set the driver name for the card
-         e45859591df5a496ec4b9b8b11097bb720901ff5 Merge remote-tracking branch 'asoc/for-6.1' into asoc-next
+         6336a810db5c7e8e48b55b12fbb5e9cbd36a3d19 KVM: selftests: replace assertion with warning in access_tracking_perf_test
+         09636efd1bd164ac782ff0d3a714db2c53964776 KVM: selftests: Gracefully handle empty stack traces
+         aae2e72229cdb21f90df2dbe4244c977e5d3265b KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
+         6b6f71484bf4fbe169fdbd401c829d8981365fd2 KVM: selftests: Implement memcmp(), memcpy(), and memset() for guest use
+         394265079b6c271fdc191ac31b1ebfbee3dd6d63 KVM: selftests: Compare insn opcodes directly in fix_hypercall_test
          
+
+--===============6234280126524985524==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1664534349 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1664534347-1c8ccea087f31819d7c3631a56625ed53fb56dc8
+
+58422dd9b6661e14b786237ceee894616e35e05f f9c49540baafe3a99bf657e1b0b1319430df8c69 refs/tags/for-linus-6.0
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmM2x00UHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP/RQf+JSURxHA+S9egRfxcehht1UnrRdTo
+LV5mMQywqMqtBVDCn0wCGWZoQnc1HDxnfAMadXTUe04uwq5Te8c1/nVgFZUqZHyc
+PckCBX0VldwZNUyQvVwFHddBgYjqkWXXZAtmQ7r+Uq4qcwrv4wufWkhzO55TveB0
+PyCbuWjbcTb/kosBiTRDF4ZCg5KELZ4/zHllsN0NGimz+QYrONcC+EqtXyrNIaxR
+N3afqdQXG/r8KDmILu3VCEl2drd+zuAx7H0YnrWh60tIe1ICEEGPykoUEKUQXerv
+yNhADIAvGFyNrvrJauhtAygsUJq7YJJdjevUqSLoqhnETrPOdEqU33/YXg==
+=LgWm
+-----END PGP SIGNATURE-----
+
+--===============6234280126524985524==--
