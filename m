@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Fri, 30 Sep 2022 17:59:28 -0000
-Message-Id: <166456076854.31081.11323106324277857566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 30 Sep 2022 18:02:37 -0000
+Message-Id: <166456095761.1510.4010818413887187373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/getopt
-    old: b8fc0847c57aa47fae829d4fd1e661a2424d160e
-    new: 4892096d8c54163acb3d7ee2efbde01cfd837d5d
+  - ref: refs/heads/bleeding-edge
+    old: fa117123159976b3799c5738677e0489f8537abc
+    new: 816cee8cb69ed35afedc0a1011493e5f8c6aeead
     log: |
-         ff1963daf4d5a23e5f9476710e983ab781210608 tuna: Replace python_ethtool with builtin funtionality
-         4892096d8c54163acb3d7ee2efbde01cfd837d5d tuna: Fix matching irqs in ps_show_thread
+         82b1ec794d701478381482264f3bfada3a7bf2d9 thermal: core: Increase maximum number of trip points
+         816cee8cb69ed35afedc0a1011493e5f8c6aeead Merge branch 'thermal-core' into bleeding-edge
          
