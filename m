@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4153356660414203327=="
+Content-Type: multipart/mixed; boundary="===============0508067319337230434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 30 Sep 2022 17:42:59 -0000
-Message-Id: <166455977975.18832.16690589953010257116@gitolite.kernel.org>
+Date: Fri, 30 Sep 2022 17:43:06 -0000
+Message-Id: <166455978626.18941.5688296665145505558@gitolite.kernel.org>
 
---===============4153356660414203327==
+--===============0508067319337230434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 6690c2c4c4eaa2a01f1c50ccd35dbe479bba85e3
-    new: 915b96c52763e2988e6368b538b487a7138b8fa4
-    log: revlist-6690c2c4c4ea-915b96c52763.txt
+  - ref: refs/heads/dev-queue
+    old: a245c5fb25a24f3afed4ee4f9f347a64c9cec3fc
+    new: 189797779ae56c9bc25350cfd9ec96232611a2b0
+    log: revlist-a245c5fb25a2-189797779ae5.txt
 
---===============4153356660414203327==
+--===============0508067319337230434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6690c2c4c4ea-915b96c52763.txt
+Content-Disposition: attachment; filename=revlist-a245c5fb25a2-189797779ae5.txt
 
 ac41c2b642b136a1e633379fcb87a9db0ee07f5b wifi: ath11k: Register shutdown handler for WCN6750
 b3ca32308e46b6384fdcb7e64b3fca4f61aff14b wifi: ath11k: Fix incorrect QMI message ID mappings
@@ -262,5 +262,26 @@ a8b5aef2cca15b7fa533421d462e4e0a3429bd6f wifi: rtl8xxxu: gen2: Enable 40 MHz cha
 5574d3290449916397f3092dcd2bac92415498e1 wifi: rtl8xxxu: Fix AIFS written to REG_EDCA_*_PARAM
 2fc6de5c6924aea5e84d2edaa40ed744f0720844 wifi: rtl8xxxu: Improve rtl8xxxu_queue_select
 915b96c52763e2988e6368b538b487a7138b8fa4 Merge tag 'wireless-next-2022-09-30' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+b7c480f15f30ccce79fc7efb060d4c0cae181077 e1000e: Separate MTP board type from ADP
+f726af1186a3911d914a2394bd61b2c5951b4fd1 ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+865e0bbb66dcfc5a5e24830e4808bccb71cbdecd ice: Handle LLDP MIB Pending change
+35d71f008beb81c97d03cda5dd5d0f85425f7a0a i40e: Fix ethtool rx-flow-hash setting for X722
+ad0bc22ec2dc1155f112bf8e270e68516d38673d ice: Support 5 layer topology
+91dab8712badae3d7390042f12325d81702432f1 ice: Adjust the VSI/Aggregator layers
+f12addb8121601c9c619f149aed20029dde1dd81 ice: Enable switching default tx scheduler topology
+febb8a1498f8436377bb37bb92a394efcbb43d52 ice: Add txbalancing devlink param
+2eec67d0172e8a28ebd0abe0f56db77016899cf7 ice: Document txbalancing parameter
+9004124ec53d7a5e06c4f5aed2ddcfab6fe49fe9 i40e: Add appropriate error message logged for incorrect duplex setting
+006977613d345bd1c36a2a7f4954bfaa08e7e779 i40e: Fix not setting xps_cpus after reset
+52b275030a9d351fdfc2c6db756b8aba2f3a0ae5 ice: Add GPIO pin support for E823 products
+544eb4fc19ac8e59bf98474a7517a164b8390287 e1000: Remove unnecessary use of kmap_atomic()
+6f196907e2e16a01f3cfff50a7638dc6f3a9a384 e1000e: Remove unnecessary use of kmap_atomic()
+501ce8fdbeb22f5a11dab764aa28fd38614efbab i40e: Fix DMA mappings leak
+a6af81acbec311745c23a0a45ef1124e0909bc12 igc: Correct the launchtime offset
+569ea3142cd4711f317745ccf68c2ca81243efaa e1000e: Add e1000e trace module
+3921322f80d49049ccd962d8bde99c46d485d1af ice: Add crosstimestamping on E823 devices
+e746b82cbad0228d8c50256ba0175af8528c807f ixgbe: Remove local variable
+4b2942a9b032525c669a45ee137861f7ad62d8fa e1000e: Add support for the next LOM generation
+189797779ae56c9bc25350cfd9ec96232611a2b0 ice: use GNSS subsystem instead of TTY
 
---===============4153356660414203327==--
+--===============0508067319337230434==--
