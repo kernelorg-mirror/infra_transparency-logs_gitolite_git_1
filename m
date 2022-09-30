@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Fri, 30 Sep 2022 17:46:21 -0000
-Message-Id: <166455998176.21728.11696363932090910137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Fri, 30 Sep 2022 17:47:01 -0000
+Message-Id: <166456002144.22022.11961071032558788585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/heads/unpriv-ipc-sysctls-for-v6.1
-    old: 7608b6a72ed04607cc832248cbd52fb5e68bd42c
-    new: a799be9bafe3ab638660bd3122469bddbc18fc38
+  - ref: refs/heads/getopt
+    old: 53d4bf0829a22a84f6102ae4e1f263e4eb08ff82
+    new: b8fc0847c57aa47fae829d4fd1e661a2424d160e
     log: |
-         a799be9bafe3ab638660bd3122469bddbc18fc38 ipc/ipc_sysctl: Add missing include of linux/cred.h
+         b8fc0847c57aa47fae829d4fd1e661a2424d160e tuna: Replace python_ethtool with builtin funtionality
          
