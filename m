@@ -1,48 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1441256033845981985=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 30 Sep 2022 19:26:42 -0000
-Message-Id: <166456600241.31378.10023511976683729329@gitolite.kernel.org>
-
---===============1441256033845981985==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Fri, 30 Sep 2022 19:44:22 -0000
+Message-Id: <166456706299.9783.11497011673353378335@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/kunit
-    old: f76349cf41451c5c42a99f18a9163377e4b364ff
-    new: 4e37057387cca749b7fbc8c77e3d86605117fffd
-    log: revlist-f76349cf4145-4e37057387cc.txt
-
---===============1441256033845981985==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f76349cf4145-4e37057387cc.txt
-
-a15cfa39e8cf9bb20d755978c2f25a9c427bf7b2 kunit: tool: make --raw_output=kunit (aka --raw_output) preserve leading spaces
-d20a6ba5e3be5f8d9002c6c5a5d4dfecc5dc48f9 kunit: add kunit.enable to enable/disable KUnit test
-7d97635b72813d80f909ad24d7a64b2fe9a29c0b kunit: no longer call module_info(test, "Y") for kunit modules
-7e2d619411cbcb5ee6c6e97a53dcba605d276f44 Documentation: kunit: fix trivial typo
-8ae4826363cedc84b6b4e18952a49793586fa92b Documentation: Kunit: Fix inconsistent titles
-43ca52a910d15026b474160c2b625db5be687f51 Documentation: KUnit: Fix non-uml anchor
-3920c725cbff5c6db69d7077716987a93b0e6a9a Documentation: Kunit: Add ref for other kinds of tests
-2327f7e956bab3e25f472e8c9d0aa6380970a91a Documentation: KUnit: remove duplicated docs for kunit_tool
-5ceb9a2558593658276854770f0d4e84fbcddf14 Documentation: KUnit: avoid repeating "kunit.py run" in start.rst
-c5b6c4ecbd95c8e56ef1350ab091e57e401b01fe Documentation: KUnit: add note about mrproper in start.rst
-7a79b7df4e5122ae3b5b5f2bd5b52ecb1295398a Documentation: KUnit: Reword start guide for selecting tests
-deff8d2955aa045d7053a7770cdae9874af6f474 Documentation: KUnit: add intro to the getting-started page
-79c18e37c4e645560f3952bf177a10b43e94bf88 Documentation: KUnit: update links in the index page
-0f3f1123ac6e14a2c0a32f7a43163e6704beb74f lib: overflow: update reference to kunit-tool
-4bba2a04ef98b92f21eddb492d7602d6ded026cd lib: stackinit: update reference to kunit-tool
-cb8a7d5340a3b1ad3f9099f9fbd7fa4e2309e83b kunit: tool: remove UML specific options from all_tests_uml.config
-980ac3ad051215150b637e26f3f46873687909a9 kunit: tool: rename all_test_uml.config, use it for --alltests
-4e37057387cca749b7fbc8c77e3d86605117fffd Documentation: Kunit: Use full path to .kunitconfig
-
---===============1441256033845981985==--
+  - ref: refs/heads/main
+    old: 6d4e05c1fa9b297257495bf178fe5796145caddc
+    new: 86c9664092a4d237837237e8192d1d13fc2dd473
+    log: |
+         35ad983cc8e347527f8288753c24ba7b11fd076a uapi: update of if_tun.h
+         7e0a889b54945af13b22b80bcfbb683fb310c2d0 bridge: Do not print stray prefixes in monitor mode
+         f8cf8b5db1a9672d03c5d0c6b7bc6dc2ac582f28 ip-monitor: Do not listen for nexthops by default when specifying stats
+         4e8a9914c4d459be57ddedf1df35b315e7fea8a5 ip-monitor: Include stats events in default and "all" cases
+         831f7c6f237bf071c2e573ffb84fe04887bacfcd ip-monitor: Fix the selection of rtnl groups when listening for all object types
+         86c9664092a4d237837237e8192d1d13fc2dd473 devlink: fix man page for linecard
+         
