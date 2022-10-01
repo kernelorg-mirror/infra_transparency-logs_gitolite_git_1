@@ -1,83 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============3289133876685316728=="
+Content-Type: multipart/mixed; boundary="===============0802828929942034204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 01 Oct 2022 01:14:50 -0000
-Message-Id: <166458689072.17650.247454937508893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 01 Oct 2022 01:16:53 -0000
+Message-Id: <166458701324.20040.17843434803527256571@gitolite.kernel.org>
 
---===============3289133876685316728==
+--===============0802828929942034204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/seen
-    old: 3b537d4211527e2404f3febbf3876eeed290b43c
-    new: c3d2427cb415503cf7df5db85dd9bbb369819379
-    log: revlist-3b537d421152-c3d2427cb415.txt
+  - ref: refs/heads/master
+    old: cff2d762cde669023f345157f875b7ea6658992a
+    new: a507ea32b9c2c407012bf89109ac0cf89fae313c
+    log: revlist-cff2d762cde6-a507ea32b9c2.txt
 
---===============3289133876685316728==
+--===============0802828929942034204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b537d421152-c3d2427cb415.txt
+Content-Disposition: attachment; filename=revlist-cff2d762cde6-a507ea32b9c2.txt
 
-bb90afa8a2dc8e8698c43d6f1ee7c49802f0c070 CodingGuidelines: update and clarify command-line conventions
-aa05c6309944912f72631e2addbacedc511a5246 builtin/bundle.c: indent with tabs
-60ea1c283a8108ab2ba6ad52936b43c7bf46b969 bundle: define subcommand -h in terms of command -h
-e0271d6f3805ff99bb4fd45bb966e70870ba4f8b blame: use a more detailed usage_msg_optf() error on bad -L
-50baac79c9e1f5af81277401c5f30fe383446687 doc SYNOPSIS: don't use ' for subcommands
-1d418731eef0adb25a0ce271e31e1242b7f45827 doc SYNOPSIS: consistently use ' for commands
-3c38b79f55d28a30fd54c682cf57afb24d98be15 doc SYNOPSIS & -h: fix incorrect alternates syntax
-96bb4817f435aaaea706aa234a4b83cfeec8a0e1 built-ins: consistently add "\n" between "usage" and options
-bcd4fbe9cada110e955c1d4a0f27130a3a7d15a0 doc SYNOPSIS & -h: word-wrap
-c0dfb1d8d4522a3b7341e706993cb5e878102c74 doc txt & -h consistency: word-wrap
-c668474dca0fa3e319b949bac796c0777470e9ee doc txt & -h consistency: fix incorrect alternates syntax
-1e7f412b6b30a95a16cea7832e7239b8b8b80c71 doc txt & -h consistency: add "-z" to cat-file "-h"
-f36629ed8f647214bcf06495c751c73d75dd1c1a doc txt & -h consistency: balance unbalanced "[" and "]"
-a9c8803451c1d4e0dece6aab1afc2e407e166606 doc txt & -h consistency: correct padding around "[]()"
-1ba4cb5352581a5194b77e6ec952edcdc1b0b84f stash doc SYNOPSIS & -h: correct padding around "[]()"
-bf33d77cafb2d70bb97d20b113c3eeea9e7e20e0 doc txt & -h consistency: use "<options>", not "<options>..."
-1709335d576829eb9ba1dcdf0a784f0b84899e4e t/helper/test-proc-receive.c: use "<options>", not "<options>..."
-37347f8e67b609ffc2d3efc73f6429db027f27a8 doc txt & -h consistency: fix mismatching labels
-c58526b3cff4b85491e23063e4bbfce21fda0093 doc txt & -h consistency: add or fix optional "--" syntax
-039b47c9d696ab7dfc4cf687e4da5dd2224c6d15 doc txt & -h consistency: make output order consistent
-cfc749a2c050e00025433473d43b258077a12766 doc txt & -h consistency: add missing options and labels
-1e4c4bce03a732c0c11a0336962f50abcf890f33 doc txt & -h consistency: make "rerere" consistent
-8791c08809014dcc70734cecf87c3c6def89c3c5 doc txt & -h consistency: make "read-tree" consistent
-04d824b5cc446b5c147bd539106eaef214209923 doc txt & -h consistency: make "bundle" consistent
-00095abfd60e1e32efa4c97d26738812e91bf306 doc txt & -h consistency: use "git foo" form, not "git-foo"
-918b227c720a2283a567bdaa22188225cbf4ff40 doc txt & -h consistency: add missing options
-1b15f8d214316b40be5e0252bab7711d63151bc9 doc txt & -h consistency: make "stash" consistent
-147f19e4e8d92f363f5018065326f020ff003074 doc txt & -h consistency: make "annotate" consistent
-534ed6e21ab725d58e53771f3c51d4b70133c354 doc txt & -h consistency: use "[<label>...]" for "zero or more"
-9c2af80daecfa230dfa8a85caf76fe124623766d doc txt & -h consistency: make "diff-tree" consistent
-975b93f0f6ce42174428e5f7c052bdf5af98dec2 doc txt & -h consistency: make "commit" consistent
-d4024d81845ee855529ffdcc566c19d6777a1f86 reflog doc: list real subcommands up-front
-6bb89f69739ebfc90ebfb83ea9fd05ae5af88a0e worktree: define subcommand -h in terms of command -h
-92ee1bf3604e18025b265f697dc66e759b2535e7 doc txt & -h consistency: make "worktree" consistent
-f5ef1ed0453a616bf9d9365f3f1df4ce284af6cc tests: start asserting that *.txt SYNOPSIS matches -h output
-0b6464484b094c8ea7af105ffbb68a2d44844727 tests: assert consistent whitespace in -h output
-fc5956b9f585fdb00551b4de540efeefb4b8efc9 Merge branch 'js/cmake-updates' into jch
-fee187509519f8269515cdfe378900f7c997f15e Merge branch 'gc/submodule-clone-update-with-branches' into jch
-9d272afbce27e8c7ee53ac1149dd129675617f4d Merge branch 'pw/rebase-keep-base-fixes' into jch
-54300e1c1e508db7fc297c68eae24391f4d76a1d Merge branch 'tb/diffstat-with-utf8-strwidth' into jch
-159f57c2f9fd3d6bc7496fdbfa623ac562968663 Merge branch 'ag/merge-strategies-in-c' into jch
-78624403b7d46a61406edc25ac2fc460d6fab93d Merge branch 'rs/diff-caret-bang-with-parents' into jch
-0c40bee4e67809ae3225e87d2d9392653c6c7267 branch: description for non-existent branch errors
-cd6b6960762dfab0a9fc4e5a31acf07b2b1d6580 Merge branch 'rj/branch-edit-desc-unborn' into jch
-f9d2b3fb61061c522e4bdfad74e37e41da8516dd Merge branch 'js/bisect-in-c' into seen
-9200fb587732cc4531ae2dfa075335e74247cba7 Merge branch 'ab/coccicheck-incremental' into seen
-a1b2f6944cedb3ed1e161e08825ed9761cc5754b Merge branch 'ab/doc-synopsis-and-cmd-usage' into seen
-614e873779112e4add3bc88e11262551baf65861 Merge branch 'ds/bundle-uri-3' into seen
-ebf6a3c4753e16d7fc314d215d63b70ce6c5706f Merge branch 'rj/branch-edit-description-with-nth-checkout' into seen
-afe03b1d42677772c85abcf8a9df03ab1aef236d Merge branch 'mj/credential-helper-auth-headers' into seen
-b1b41008db150068fd8f6c66a24f0d39934df947 Merge branch 'es/doc-creation-factor-fix' into seen
-ef30215f2849af3b2b2719ecdcbedde1a7431e61 Merge branch 'jt/promisor-remote-fetch-tweak' into seen
-c3d2427cb415503cf7df5db85dd9bbb369819379 Merge branch 'jc/branch-description-unset' into seen
+7ac7267fad5908476b357e7e9813d23516c2b0a1 Bluetooth: Add VID/PID 0489/e0e0 for MediaTek MT7921
+8ffde2a73f2cd2906a1bff2d315ad32154c425a3 Bluetooth: Convert le_scan_disable timeout to hci_sync
+27d54b778ad1fb32c2c108cfe97e861c3909a46f Bluetooth: Rework le_scan_restart for hci_sync
+9e63767dd58a388ca1c000058f0bf84abf154b48 Bluetooth: Delete unused hci_req_stop_discovery()
+e07a06b4eb417f5271d33ce2240e93c62d98b7b4 Bluetooth: Convert SCO configure_datapath to hci_sync
+c249ea9b4309cf3250c5bbb42a05d38d0ed9071c Bluetooth: Move Adv Instance timer to hci_sync
+dd50a864ffaece5b75621a84ae8d6e3483ce6732 Bluetooth: Delete unreferenced hci_request code
+3fe318ee72c54506534f51b4b4dfb19e0e0df2db Bluetooth: move hci_get_random_address() to hci_sync
+651cd3d65b0f76a2198fcf3a80ce5d53dd267717 Bluetooth: convert hci_update_adv_data to hci_sync
+afcb3369f46ed5dc883a7b92f2dd1e264d79d388 Bluetooth: hci_event: Fix vendor (unknown) opcode status handling
+123f6d3ae773f769695830518690ac3e4a477e82 Bluetooth: hci_sync: Fix suspend performance regression
+fc5ae5b44eb26db973a6d4cfa0f75fe0650a95c6 Bluetooth: L2CAP: Fix build errors in some archs
+529d4492aed7c005206383b84c38d515c31c1585 Bluetooth: MGMT: Fix Get Device Flags
+029bde79fb7969dcd9a4b2940efc06e9404a9df1 Bluetooth: hci_sync: fix double mgmt_pending_free() in remove_adv_monitor()
+b5e1acea065fa1339f4049c2bd9782889dc68368 Bluetooth: ISO: Fix not handling shutdown condition
+5356266552bbaaddb8d6b4b53450e290be2cd717 Bluetooth: hci_event: Fix checking conn for le_conn_complete_evt
+a112ff247a8c1e9352c8b23081da7a8f2aedeae7 Bluetooth: move from strlcpy with unused retval to strscpy
+b828854871f6851c75a5b19f1cd967bf4e7c85dd Bluetooth: hci_sync: hold hdev->lock when cleanup hci_conn
+278d933e12f163369d1f18e8e3e5c49d5e77f233 Bluetooth: Normalize HCI_OP_READ_ENC_KEY_SIZE cmdcmplt
+1a942de092c0b96216864fedcb4d8822ce3fc12e Bluetooth: Move hci_abort_conn to hci_conn.c
+c4ba5800217b9efa710b27fbe638930830a95d19 Bluetooth: btusb: Add Realtek RTL8852C support ID 0x13D3:0x3592
+d8daa3991652a5713061f23276dc91fb846dc0c0 Bluetooth: btusb: RTL8761BUV consistent naming
+c7577014b74c5369490715015db096182f1a2a23 Bluetooth: btusb: Add RTL8761BUV device (Edimax BT-8500)
+a0476f6a2cac012c0aee4dc981a53e1414cea069 Bluetooth: btusb: Add BT device 0cb8:c549 from RTW8852AE to tables
+fd3f106677bac70437dc12e76c827294ed495a44 Bluetooth: btusb: mediatek: fix WMT failure during runtime suspend
+b338d91703fae6f6afd67f3f75caa3b8f36ddef3 Bluetooth: Implement support for Mesh
+af6bcc1921ff0b644d2d750c0e3a88623b7211f5 Bluetooth: Add experimental wrapper for MGMT based mesh
+c1631dbc00c1e432713396aaa10d8bd825822db0 Bluetooth: hci_sync: Fix hci_read_buffer_size_sync
+2a40f883781d6cbbf547ed13b0cec2f9808d839d Bluetooth: Fix HCIGETDEVINFO regression
+a614ee94a8497c43015b3de662020def93295ddd Bluetooth: btusb: Add a new PID/VID 13d3/3578 for MT7921
+b43331b42e4453fe8b210d372d602e2025276419 Bluetooth: btintel: Add support for Magnetor
+dd0a1794f4334ddbf9b7c5e7d642aaffff38c69b Bluetooth: btintel: Mark Intel controller to support LE_STATES quirk
+f74ca25d6d6629ffd4fd80a1a73037253b57d06b Bluetooth: avoid hci_dev_test_and_set_flag() in mgmt_init_hdev()
+f0ad26ee822b197f2421462df9c358a5687fddfd Bluetooth: btusb: Add a new PID/VID 13d3/3583 for MT7921
+be55622ce673f9692cc15d26d77a050cda42a3d3 Bluetooth: btusb: Add a new VID/PID 0e8d/0608 for MT7921
+9afc675edeeb34d281675f1d5a217d27c5a1a3db Bluetooth: hci_sync: allow advertise when scan without RPA
+812e92b824c1db16c9519f8624d48a9901a0d38f Bluetooth: RFCOMM: Fix possible deadlock on socket shutdown/release
+2d2cb3066f2c90cd8ca540b36ba7a55e7f2406e0 Bluetooth: L2CAP: initialize delayed works at l2cap_chan_create()
+deee93d13d385103205879a8a0915036ecd83261 Bluetooth: use hdev->workqueue when queuing hdev->{cmd,ncmd}_timer works
+3124d320c22f3f4388d9ac5c8f37eaad0cefd6b1 Bluetooth: hci_{ldisc,serdev}: check percpu_init_rwsem() failure
+bb20da18ce936adda6b48aea79a8797c8eee479f Bluetooth: MGMT: fix zalloc-simple.cocci warnings
+448a496f760664d3e2e79466aa1787e6abc922b5 Bluetooth: hci_sysfs: Fix attempting to call device_add multiple times
+7096daba731eea262e0f7bf03453ceddcad89f70 Bluetooth: hci_debugfs: Fix not checking conn->debugfs
+ed680f925aea76ac666f34d9923cb40558f4e97b Bluetooth: hci_event: Make sure ISO events don't affect non-ISO connections
+116523c8fac05d1d26f748fee7919a4ec5df67ea Bluetooth: hci_core: Fix not handling link timeouts propertly
+4b8af331bb4d4cc8bb91c284b11b98dd1e265185 Bluetooth: Prevent double register of suspend
+8dbc3e75a0a56fb0ab70781338a2283d28a09164 Bluetooth: Call shutdown for HCI_USER_CHANNEL
+35fcbc4243aad7e7d020b7c1dfb14bb888b20a4f Bluetooth: L2CAP: Fix user-after-free
+6abf0dae8c3c927f54e62c46faf8aba580ba0d04 Bluetooth: hci_sync: Fix not indicating power state
+a507ea32b9c2c407012bf89109ac0cf89fae313c Merge tag 'for-net-next-2022-09-30' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 
---===============3289133876685316728==--
+--===============0802828929942034204==--
