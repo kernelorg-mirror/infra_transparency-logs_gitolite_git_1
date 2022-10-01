@@ -1,363 +1,3835 @@
-Content-Type: multipart/mixed; boundary="===============3631227338275766948=="
+Content-Type: multipart/mixed; boundary="===============6910694694140912407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 01 Oct 2022 17:54:18 -0000
-Message-Id: <166464685851.13796.2992189696570313676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
+Date: Sat, 01 Oct 2022 17:57:30 -0000
+Message-Id: <166464705068.17964.12282708609242797740@gitolite.kernel.org>
 
---===============3631227338275766948==
+--===============6910694694140912407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
+user: djwong
 changes:
-  - ref: refs/heads/damon/next
-    old: 24240f94cc1f4f51da713b26d6990687c7888873
-    new: 6b7b72690e06cd1d53ebee2286df2a41d0fa7ecb
-    log: revlist-24240f94cc1f-6b7b72690e06.txt
+  - ref: refs/heads/atomic-file-updates
+    old: f013e2eb56c6a8ca7d39d453717b125d321451cf
+    new: c45f64ac3f46e10cc5205795aa9fe659d4326e7a
+    log: revlist-f013e2eb56c6-c45f64ac3f46.txt
+  - ref: refs/heads/cached-image-external-log
+    old: 5807fa0581584dfb8ee8fdebd90ceeeefdf87576
+    new: 526189daea6c66f4e8923c8d7b9104eb516dffe3
+    log: revlist-5807fa058158-526189daea6c.txt
+  - ref: refs/heads/compress-core-dumps
+    old: 9f66479f8591d0d10fe5f16cbbf1c69739916a27
+    new: a7e7484c1c21dae89fd07f3c5338643fb50282e0
+    log: |
+         a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+         3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+         ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+         a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+         6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+         e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+         a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+         
+  - ref: refs/heads/defrag-freespace
+    old: a5b7e0c7525009bea08247480e1143f39993ab26
+    new: e79cff59484e79da058731a2491de0f8e06c4f08
+    log: revlist-a5b7e0c75250-e79cff59484e.txt
+  - ref: refs/heads/djwong-wtf
+    old: c542350dbe010e7d71825161ebf6e5f6c160c7b5
+    new: 6b6d93b6ffbd498b63a5f2eef23ed85bf9a1e990
+    log: revlist-c542350dbe01-6b6d93b6ffbd.txt
+  - ref: refs/heads/fix-alwayscow-tests
+    old: 299e796f213dd86bcef0e6514a1d90747643c331
+    new: 9fa5b938b063702d5f7c72f8f337d5a7edf281ff
+    log: revlist-299e796f213d-9fa5b938b063.txt
+  - ref: refs/heads/fuzz-baseline
+    old: bd332ebeb5f5f8f593ee48311ffa86e313609f6f
+    new: f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c
+    log: revlist-bd332ebeb5f5-f4e1d46ce6bf.txt
+  - ref: refs/heads/fuzzer-improvements
+    old: cbf8a86b7ebba24ba6d5001ee28fd08c0253f884
+    new: 4bf26bae782cce4b98413d50a7a31867f48f932c
+    log: revlist-cbf8a86b7ebb-4bf26bae782c.txt
+  - ref: refs/heads/metadir
+    old: e0852188875d42e2e83ea3ee38fc3dab2cfdbf86
+    new: 803b3157906cc378dc2c1b54f3f182657f72ed7b
+    log: revlist-e0852188875d-803b3157906c.txt
+  - ref: refs/heads/metadump-external-devices
+    old: 6dacd5c007b96309533e37914423032965fe0dd7
+    new: 7ec3643f9fd04807478b7c6e90783d8f66e6b219
+    log: revlist-6dacd5c007b9-7ec3643f9fd0.txt
+  - ref: refs/heads/mkfs-scale-geo-on-ssds
+    old: 4dd9252cd46c13224ad598b38843f84506430aea
+    new: 335c7f97d60d687dfb53f96eae1e747aa7aed18c
+    log: revlist-4dd9252cd46c-335c7f97d60d.txt
+  - ref: refs/heads/more-fuzz-testing
+    old: 94b3e2bec9ea2d1cc03ecd68322700f23a61c8fe
+    new: aa17ab5ac1a375cb100284145d12482000747f0e
+    log: revlist-94b3e2bec9ea-aa17ab5ac1a3.txt
+  - ref: refs/heads/race-scrub-and-mount-state-changes
+    old: 15712f628ab94d5805841ef9e2a51d797aa0e3c2
+    new: 445a310ffa2c245f6e344abc1fa02dca5a895c43
+    log: revlist-15712f628ab9-445a310ffa2c.txt
+  - ref: refs/heads/random-fixes
+    old: 4465e6490da21c3dec0623074c6edb78990e1d40
+    new: 6579c569269086555d8f11af5e5eeccf38686195
+    log: |
+         a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+         3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+         ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+         a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+         6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+         
+  - ref: refs/heads/realtime-groups
+    old: 990c0858ea856e4cf105ca849574fcc2208995c1
+    new: 97a19381459eac4ce53c62e53b10c12b5b7d66a4
+    log: revlist-990c0858ea85-97a19381459e.txt
+  - ref: refs/heads/realtime-quotas
+    old: bfa420079e959356bb79bed3a110b0d17862b7ef
+    new: 737a2dd7463f68e3303ef73244627cc636609cc1
+    log: revlist-bfa420079e95-737a2dd7463f.txt
+  - ref: refs/heads/realtime-reflink
+    old: 9cc58b0d978fd4e30d71ed7a398c53d8c1100213
+    new: 72e7633bccd8235620a7e14b2a51f0ee7f08ed53
+    log: revlist-9cc58b0d978f-72e7633bccd8.txt
+  - ref: refs/heads/realtime-reflink-extsize
+    old: 6db228856772d7336124afbe94300af7f2e4a9a5
+    new: 46fab59a97b7098b8cd25e8a8b52d313d36ed863
+    log: revlist-6db228856772-46fab59a97b7.txt
+  - ref: refs/heads/realtime-rmap
+    old: 5c47db39cbd50f5a0cec969d0c8dd970dc0c6c2d
+    new: 88aebda7255b1a89d7ebc36a9018a693e47b00f2
+    log: revlist-5c47db39cbd5-88aebda7255b.txt
+  - ref: refs/heads/refactor-fsmap-stress
+    old: f2c80bc5dd2f69b18916fab7c170022cf6f99b61
+    new: 510bc66c333643bf6e37792b77acd893b2117a2c
+    log: revlist-f2c80bc5dd2f-510bc66c3336.txt
+  - ref: refs/heads/refactor-scrub-stress
+    old: 33b255a19aae3c3f94fb37b41a48f72e27b4e4fb
+    new: cc6fb893802adacd398bf2f2a49bbe320d832b1d
+    log: revlist-33b255a19aae-cc6fb893802a.txt
+  - ref: refs/heads/refactor-xfs-geometry
+    old: 5aaa98975dfc191c6e53febcdbf3dd01924f8511
+    new: f1d1486238ab50b484a5f7b4de8c5ebd3c302c29
+    log: revlist-5aaa98975dfc-f1d1486238ab.txt
+  - ref: refs/heads/repair-ag-btrees
+    old: 701525c7727cf5de0d62859d99916417bed4fc82
+    new: 0ea75cdacf0601bb7073bcc20c619775e61615a9
+    log: revlist-701525c7727c-0ea75cdacf06.txt
+  - ref: refs/heads/repair-dirs
+    old: 5720db17ff0269dee0f852ce2de6a0485584ea84
+    new: e7b87cb61e383811e367056236f411208a4c842d
+    log: revlist-5720db17ff02-e7b87cb61e38.txt
+  - ref: refs/heads/repair-file-mappings
+    old: 9f2915c2b5897c98ce8edeb17ee8e7fc88666ea8
+    new: 33651c344ff486a59aa731900106dc665ed20b4e
+    log: revlist-9f2915c2b589-33651c344ff4.txt
+  - ref: refs/heads/repair-force-rebuild
+    old: 29257a1187f6b585b7f9945e92ea478a3ca6b380
+    new: ec8138a863a77b6053448f7617fd55c2836ca5d2
+    log: revlist-29257a1187f6-ec8138a863a7.txt
+  - ref: refs/heads/repair-fscounters
+    old: 75ad730377d382e387148d7432f68447da79bba3
+    new: d4f7792b0d55b21fa80bd478b576c2c72d368b9c
+    log: revlist-75ad730377d3-d4f7792b0d55.txt
+  - ref: refs/heads/repair-inodes
+    old: 71c1cf57e2b48b4797aa8049591a7910fae76a2c
+    new: dd3fcde869a700c4901db4973a753d0b2a29d5f1
+    log: revlist-71c1cf57e2b4-dd3fcde869a7.txt
+  - ref: refs/heads/repair-quota
+    old: 6b35ee0d7bb33fa986dcc4a74d368377179ef001
+    new: d98de5067c74b29fd9f13f61e65c08f54d78f363
+    log: revlist-6b35ee0d7bb3-d98de5067c74.txt
+  - ref: refs/heads/repair-quotacheck
+    old: 5075467f457b7e6bddaffbbeaf76207aee50d113
+    new: 3b9c4921da88dcdfc6e0bc87d317291a64340fc4
+    log: revlist-5075467f457b-3b9c4921da88.txt
+  - ref: refs/heads/repair-rmap-btree
+    old: a71aaa4b18d0fac4540499c0325706036f898826
+    new: 4ed8922e619c6446051cb7033de099afba800830
+    log: revlist-a71aaa4b18d0-4ed8922e619c.txt
+  - ref: refs/heads/repair-rtsummary
+    old: 0f74e8a659994509223c92deea666cda7faf289d
+    new: e9040f88d822d7a28c0ecd109923859bfd6c81fd
+    log: revlist-0f74e8a65999-e9040f88d822.txt
+  - ref: refs/heads/repair-xattrs
+    old: 70947efecbeca15065678cf103b3dff82766f87e
+    new: 9437ca2c6103a08eec15c877967dd8669fe96b18
+    log: revlist-70947efecbec-9437ca2c6103.txt
+  - ref: refs/heads/report-refcounts
+    old: 74b26627053e916e89b67eb5e57e77058d346a4c
+    new: 3a8ab009403d5895c3df2b55f1626fc5fad3f808
+    log: revlist-74b26627053e-3a8ab009403d.txt
+  - ref: refs/heads/scrub-media-error-reporting
+    old: b5ec7f585b4a9e5b07330ce80e1d2e50dc6bb1e4
+    new: 06b1064f90b4982a99489ea373d0234e5e4de67d
+    log: revlist-b5ec7f585b4a-06b1064f90b4.txt
+  - ref: refs/heads/scrub-nlinks
+    old: 5564a3b56cab9e051871c79247f6aa0dc6e9759f
+    new: 0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25
+    log: revlist-5564a3b56cab-0a40ce615c83.txt
+  - ref: refs/heads/scrub-rtsummary
+    old: 0e26cb6f9f869149d6c60b23e90f50d6b52dbd6a
+    new: b2af9ba06cf69091e619f20f3b5756d048555680
+    log: revlist-0e26cb6f9f86-b2af9ba06cf6.txt
+  - ref: refs/heads/test-swapfile-io
+    old: 61fe58be567374ff44cb3513628302dbb96410b8
+    new: 655b5c0d8db171722d39de1151701288f5159274
+    log: revlist-61fe58be5673-655b5c0d8db1.txt
+  - ref: refs/heads/upgrade-older-features
+    old: aa7a80e466d6c1337dedc7ef5c6028d513248db6
+    new: ad2800b27fe236100f940e3bb2ffc345163ff9da
+    log: revlist-aa7a80e466d6-ad2800b27fe2.txt
+  - ref: refs/heads/vectorized-scrub
+    old: 003886368bdca04770116d5883ee59de59f8989c
+    new: bc0176a6abc89e3a396ba9eacac386e9c47dbb68
+    log: revlist-003886368bdc-bc0176a6abc8.txt
+  - ref: refs/heads/metadir-baseline
+    old: 0000000000000000000000000000000000000000
+    new: ebd639201f6db7fdb0d0234625d1e42a2e7bedf7
+  - ref: refs/heads/realtime-reflink-baseline
+    old: 0000000000000000000000000000000000000000
+    new: d0c5e151f23380cc4621c4df8388381810e56690
+  - ref: refs/tags/atomic-file-updates_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 546e90bbc142b27b9164d6812c02624ad3538fad
+  - ref: refs/tags/cached-image-external-log_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 597309d66bd57dfeaf8df4e8c2e0addac8f35117
+  - ref: refs/tags/compress-core-dumps_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 733b46985c8672c58bcec09988dabc3b5a30b22e
+  - ref: refs/tags/defrag-freespace_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 70a3d3086b24a000be35f700a0069ec674d966db
+  - ref: refs/tags/djwong-wtf_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 60ba0924b5a2629634e5bb78f6e332079ce84d60
+  - ref: refs/tags/fix-alwayscow-tests_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 7ad95534ef93241aa4f5c74ecf1935fef4ba5a4c
+  - ref: refs/tags/fuzz-baseline_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: a5a0fab022ad445b6aa3e3eddb1b2875d6927df6
+  - ref: refs/tags/fuzzer-improvements_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: ebaa18dc1a92401b952f421352126f92f44a6428
+  - ref: refs/tags/metadir-baseline_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: f9bc868ca4448bf9c942f879db0bd689a45e89de
+  - ref: refs/tags/metadir_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 97ed97e53c9879cca6c9627c8e72c27254517ee0
+  - ref: refs/tags/metadump-external-devices_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 275cbee55267bbcb098603f60e306768edf0f751
+  - ref: refs/tags/mkfs-scale-geo-on-ssds_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 7b5a9bc974b1a96532efe0a72c4958b34a8466ef
+  - ref: refs/tags/more-fuzz-testing_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: fe73b4cc5a72145993258c9e4aba0fee6e9f943d
+  - ref: refs/tags/race-scrub-and-mount-state-changes_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 658abfcffed70d028c3d0908b660ac7be03da76a
+  - ref: refs/tags/random-fixes_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 20237b38ab9d02ac31e2a9638bede09811a53afc
+  - ref: refs/tags/realtime-groups_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 966e8e7bd9f9fd1a20afa2966f87b19821b7cf8c
+  - ref: refs/tags/realtime-quotas_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: b03aa5e2bb082f7554cc06486a47c488a95f8cce
+  - ref: refs/tags/realtime-reflink-baseline_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: e7a121e4fb1b47af96737eb905f0a0e08c0243dc
+  - ref: refs/tags/realtime-reflink-extsize_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: ee8ce0e08bc7ea9ccd94d3dc910346d08f51cfef
+  - ref: refs/tags/realtime-reflink_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 2a5b23454bbc64a655821a75ecee1da284bd041c
+  - ref: refs/tags/realtime-rmap_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 0ab3d131bbb1d9affda7c8e9adc30a8a36db7bcf
+  - ref: refs/tags/refactor-fsmap-stress_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: b9f80297fe50c1acf36bf72acc198c13c014063b
+  - ref: refs/tags/refactor-scrub-stress_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 016e966615ce6393699333bd9da555697dc2cdbe
+  - ref: refs/tags/refactor-xfs-geometry_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 8f94ab56d592c7dfa76bb9a2a70f317c5a8af522
+  - ref: refs/tags/repair-ag-btrees_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: e5cc3845c76d066dbc855cdd0db5233344e6b836
+  - ref: refs/tags/repair-dirs_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: d419ca60db61d075a883a398da57866e0183c412
+  - ref: refs/tags/repair-file-mappings_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 7f1a7eb42969b8db95611a89c8112cd5a16e0d38
+  - ref: refs/tags/repair-force-rebuild_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 174c35656042b0cdbb7b68e65ab3c582edd4e1f1
+  - ref: refs/tags/repair-fscounters_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 153f18c2af75d4c3176f4062bd2184b55481564e
+  - ref: refs/tags/repair-inodes_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 5fcbc3a55d2fd027541e2c85707fb54a9514b320
+  - ref: refs/tags/repair-quota_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: f7d0e51fa866833ee91c8ea305199c01bb9911b6
+  - ref: refs/tags/repair-quotacheck_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: eb9f407a6b54dd4c1644eb9fbae5df100fb7a70f
+  - ref: refs/tags/repair-rmap-btree_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: fb9d144dfcc0cd8c6e80545e10af98518a5a14ea
+  - ref: refs/tags/repair-rtsummary_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 198529631fc8a516776609394d376542467c6b77
+  - ref: refs/tags/repair-xattrs_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: be6483bdeb9965f9673e5f706fc2624b25bc4b69
+  - ref: refs/tags/report-refcounts_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: f7f4fc1fcb562a4fe460ef53a185c79e306e9197
+  - ref: refs/tags/scrub-media-error-reporting_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: b53c948dcd2db22a66967133ed6a216a898cc133
+  - ref: refs/tags/scrub-nlinks_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 4970a8c73c6d02b27cdd0f4ae6bce2d840be898c
+  - ref: refs/tags/scrub-rtsummary_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: a52249bdf71874010b9e2b1a247fbe1b0652b298
+  - ref: refs/tags/test-swapfile-io_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 43cf60b200e6dceb58f2c77bdeb5e34f8fae479b
+  - ref: refs/tags/upgrade-older-features_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 21006f1871ddb0ab7fb01beb3ddcaffc7f760d5b
+  - ref: refs/tags/vectorized-scrub_2022-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 120a3e0a59682c8f7cebe65da3b262803aafa3e2
 
---===============3631227338275766948==
+--===============6910694694140912407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24240f94cc1f-6b7b72690e06.txt
+Content-Disposition: attachment; filename=revlist-f013e2eb56c6-c45f64ac3f46.txt
 
-b674deddeb49fd37b8f20a15b658abde6671e2a8 MAINTAINERS: drop entry to removed file in ARM/RISCPC ARCHITECTURE
-30c19366636f72515679aa10dad61a4d988d4c9a mm: fix BUG splat with kvmalloc + GFP_ATOMIC
-1c8e2349f2d033f634d046063b704b2ca6c46972 damon/sysfs: fix possible memleak on damon_sysfs_add_target
-58f9d95ab7ccef42dbe5476726182bf4272d8fce mm/hugetlb: fix races when looking up a CONT-PTE/PMD size hugetlb page
-65b98a7c6cae9667108dc116cc1541b0b24f8a28 mm/uffd: fix warning without PTE_MARKER_UFFD_WP compiled in
-cd0dcdaf1d30eb035d9155c64b0a55e06ff92edc Merge branch 'mm-stable' into mm-unstable
-b003e6fc78707a501f82ff25fc188adf4a52fc18 mm: introduce common struct mm_slot
-17c46c35895830e6cf9e62abeae8542629c52d5c mm: thp: convert to use common struct mm_slot
-0529b87fd1a782670177c4886d1d49b4cde3785a ksm: remove redundant declarations in ksm.h
-0b7faed053a09f02c547b2e4a643a8f9e1a83f7a ksm: add the ksm prefix to the names of the ksm private structures
-85bdc8ef51174810de68c09ca660ad3906b6b4cb ksm: convert ksm_mm_slot.mm_list to ksm_mm_slot.mm_node
-ec85fe9547b1376f5ffc8205245249d2a7b71375 ksm: convert ksm_mm_slot.link to ksm_mm_slot.hash
-4f7701598e7544b5a36634701f47df422b6a3456 ksm: convert to use common struct mm_slot
-996ea64ee62e2835461047495e2fadb7cdb094a5 mm/vmscan: fix a lot of comments
-5d1a1b6a543a164cb198fbe4441ac34ee2199795 mm: add the first tail page to struct folio
-6f8b86eded00d0bdbccb5a3823e3f90ed7e4b8d0 mm: reimplement folio_order() and folio_nr_pages()
-31d305d14553183d3085dace7a40d0ff76743d39 mm: add split_folio()
-a05566b0d74ec1c575de73befa027567ee54e782 mm: add folio_add_lru_vma()
-781f9f8d0bebf17c6cf5a241c43ceae977d15975 shmem: convert shmem_writepage() to use a folio throughout
-29df8c23eaf202728d9c975609ed2a929a3ae902 shmem: convert shmem_delete_from_page_cache() to take a folio
-f871c161c7dfda905fd7ee304a66afd8421d641b shmem: convert shmem_replace_page() to use folios throughout
-c21cf85414528f4aa5ae5eac5567efc321f7b599 mm/swapfile: remove page_swapcount()
-f81d00cbb591593f364b5577dfab367d3d0b7a2f mm/swapfile: convert try_to_free_swap() to folio_free_swap()
-ac517dfd70ed878449b88c9ef97c1acd10d3bf28 mm/swap: convert __read_swap_cache_async() to use a folio
-45961d22c1596a665208f67e596c0242d47a69a9 mm/swap: convert add_to_swap_cache() to take a folio
-9a44dec13939c55b6817c48a6e5f6fdad4116374 mm/swap: convert put_swap_page() to put_swap_folio()
-6192646fb0d146e3f836d778d53741d0491160d0 mm: convert do_swap_page() to use a folio
-f48f0e44029e0261773daacdde5545730fcd4aa6 mm: convert do_swap_page()'s swapcache variable to a folio
-03bd7f80dae44760b8f74a876914f1d993f55eee memcg: convert mem_cgroup_swapin_charge_page() to mem_cgroup_swapin_charge_folio()
-28b87e86ebe146f040d266c9d4e7ff239626436c shmem: convert shmem_mfill_atomic_pte() to use a folio
-f2acd062592e11b33cc218766c0c556cd47adc45 shmem: convert shmem_replace_page() to shmem_replace_folio()
-c282fce50228b1c9c79c9f0b9d1f601c21dfbb06 swap: add swap_cache_get_folio()
-5a7053af34de491024f002df7b3a63fe402235ad shmem: eliminate struct page from shmem_swapin_folio()
-8088eed464fe6e1cfeea50e1047a3d27c0c03ec3 shmem: convert shmem_getpage_gfp() to shmem_get_folio_gfp()
-27e8e0d4c7de01467ff72880433cfc490c7de534 shmem: convert shmem_fault() to use shmem_get_folio_gfp()
-9e2e09e072515501450e9cd5727e2e7bccd14b75 shmem: convert shmem_read_mapping_page_gfp() to use shmem_get_folio_gfp()
-767ec730ee6a7096f29047493d0cc92587b5368b shmem: add shmem_get_folio()
-e196f1faf265dfa24849731b234f6319498a34ce shmem: convert shmem_get_partial_folio() to use shmem_get_folio()
-ee5c8817c9c7e260f9607bc1567cd529c0b9972b shmem: convert shmem_write_begin() to use shmem_get_folio()
-047f881d998e425486c725a5e828060946301b7b shmem: convert shmem_file_read_iter() to use shmem_get_folio()
-4a95a0d62da7b4b6a7e5743d07509f5832d62791 shmem: convert shmem_fallocate() to use a folio
-609cce4d4e7ad648c81013066982eef4898c5e5c shmem: convert shmem_symlink() to use a folio
-45c9d2e18cee224cbd762a2d33c3425cc85fae90 shmem: convert shmem_get_link() to use a folio
-4223da1d34251241aff05bb3cb208b1562698a4a khugepaged: call shmem_get_folio()
-bcd231b9ee531ec60d97fbf0acb07b0a347b534f userfaultfd: convert mcontinue_atomic_pte() to use a folio
-6d107c13cd8f04a4476eebc4ccd90b599e2ec3bc shmem: remove shmem_getpage()
-f05b28e8cc7d9a093a46601c262cd2965e38cf9a swapfile: convert try_to_unuse() to use a folio
-9b09da7f1bdf26e6659c99f9747c6c9be4c4429c swapfile: convert __try_to_reclaim_swap() to use a folio
-fe6f4174ba03453cab5b650036b827107438ee10 swapfile: convert unuse_pte_range() to use a folio
-0a273b2e5934248c4efc84ca1c9d88eff317809e mm: convert do_swap_page() to use swap_cache_get_folio()
-eef9019959bea9c9a9fe4f50eb32bf4bb21064ab mm: remove lookup_swap_cache()
-4851bdceb3cca74c317d625fabae0ec5088e1999 swap_state: convert free_swap_cache() to use a folio
-8beeca09c6b9d41defdc5c1e5cf48dcac5171500 swap: convert swap_writepage() to use a folio
-863c624833c9cd870d599191bbd3bc7ec7fd2997 mm: convert do_wp_page() to use a folio
-4c7477f209ce6c105c63e3d98e426c531ce395a3 huge_memory: convert do_huge_pmd_wp_page() to use a folio
-efeee2c487f8f645c42f002a361b01c8c47ee8f1 madvise: convert madvise_free_pte_range() to use a folio
-d6ce1fbdd151a86d2f9c5e1be393332d055b155a uprobes: use folios more widely in __replace_page()
-198354756ca6cd158076e7683ca876d427d8e6a1 ksm: use a folio in replace_page()
-0aba9f0fd84bdb91a67e3b6846e5612daa823845 mm: convert do_swap_page() to use folio_free_swap()
-51c3672a929f03b5c3442c13296edf97bead28b1 memcg: convert mem_cgroup_swap_full() to take a folio
-8da65f144bf4acc3c59736fc3ec2167c597150ba mm: remove try_to_free_swap()
-17a33a1f7cecb083dfa24e6fb551c4d4add453d8 rmap: convert page_move_anon_rmap() to use a folio
-d0a613d0e1bd71fb07ca0734da1d8acab7530dbe migrate: convert __unmap_and_move() to use folios
-a1970621e4d908fa6800acc6373ce9833a4aebfa migrate: convert unmap_and_move_huge_page() to use folios
-4afc79f00bc6e1fca22d2de18a550383f68013f9 huge_memory: convert split_huge_page_to_list() to use a folio
-38def21395e93d94d0b2c7e5ee65842a2ac53b52 huge_memory: convert unmap_page() to unmap_folio()
-7898aac58d7e5322ff5ce05972f5e845ab440687 mm: convert page_get_anon_vma() to folio_get_anon_vma()
-c909a4bd45431e244b4f39393b35612566c41d97 rmap: remove page_unlock_anon_vma_read()
-1a2079ef50e0a0e2491578367136de5fc56a5d9d uprobes: use new_folio in __replace_page()
-f4196e866f3ef9c284839516dea7401c3432db4d mm: convert lock_page_or_retry() to folio_lock_or_retry()
-adaa9e6fdc5f316cdfb58e49a2c75926e71e0711 mm/hugetlb.c: remove unnecessary initialization of local `err'
-27e1d55ffb5f7b94c2d8145a6eff6d375b24bc6b mm/damon/sysfs: simplify the judgement whether kdamonds are busy
-7a68866bb10d6ba2cdd695697d440e3e574219a1 hugetlb_encode.h: fix undefined behaviour (34 << 26)
-8263846bf5d057eba171663d941e447953bb07d6 filemap: convert filemap_range_has_writeback() to use folios
-6dfb31f7468babbf352ade6bcb72dd15e7b38708 kasan: check KASAN_NO_FREE_META in __kasan_metadata_size
-05613723265ce7c4e2b2b26660b58b1e6063a76c kasan: rename kasan_set_*_info to kasan_save_*_info
-6ade31155bfc4dfc7bf8c287792023c212d51ac8 kasan: move is_kmalloc check out of save_alloc_info
-9c0517d686a5691a431855d45d11ccd4a84d0030 kasan: split save_alloc_info implementations
-e4d2c62db009ea38f760329374b73d74d4747169 kasan: drop CONFIG_KASAN_TAGS_IDENTIFY
-4f552332b2a6f5d7263a27fa33419953c670b5b8 kasan: introduce kasan_print_aux_stacks
-27a8ce9f463a2c4562179ad5c420e3f4868fb461 kasan: introduce kasan_get_alloc_track
-e406c32a3e10c954ec28b06cffaabbf726ac43f0 kasan: introduce kasan_init_object_meta
-0e34d000caddb2bc506ab6aa333509c8235405d8 kasan: clear metadata functions for tag-based modes
-509e516d4a01a309b051b839caa2b21280dd844b kasan: move kasan_get_*_meta to generic.c
-640a5bd52b5ec775f4ec418c9f8db925d5a55cfa kasan: introduce kasan_requires_meta
-9887906f2ccc4c4f84cd69866a7a504f166a9670 kasan: introduce kasan_init_cache_meta
-f9ecc9491355347a8c3d071e3e1ba09bbc49ed24 kasan: drop CONFIG_KASAN_GENERIC check from kasan_init_cache_meta
-7eeff7c058e6ffae67a5eb0b7a4ebeacfc0cf37c kasan: only define kasan_metadata_size for Generic mode
-7e7b7102282ab8f2abf6c5b2bbda7abb5cd4d866 kasan: only define kasan_never_merge for Generic mode
-481fa7680be0a79ba3edc9fa991c88ce9b23cb9c kasan: only define metadata offsets for Generic mode
-ef12b249036b563ee841d04084933dbe9435abc3 kasan: only define metadata structs for Generic mode
-d4afe95f27992b573f437d49beb72e51a14cb202 kasan: only define kasan_cache_create for Generic mode
-c17f1b180c06d9148bcda3d967823f4dd929eccc kasan: pass tagged pointers to kasan_save_alloc/free_info
-0c401daeb8a7e88c12d9626f3a393e93eb87983b kasan: move kasan_get_alloc/free_track definitions
-8ebf6299b695226bb0a7f3a240b86ea0732634fb kasan: cosmetic changes in report.c
-2340be679db12207a0bda331c6da8cd2860de1f5 kasan: use virt_addr_valid in kasan_addr_to_page/slab
-3463bd44be7a4d337a195510a9a4e20049077de7 kasan: use kasan_addr_to_slab in print_address_description
-db387156d7d0f23793426098a9fb2c7c60cb72ba kasan: make kasan_addr_to_page static
-e94d9c217037e4420e805712e5f615d11fa58317 kasan: simplify print_report
-8eb2a0d92c3cce6e1a8c814636afd689bb0d7b52 kasan: introduce complete_report_info
-65adc92c556a92786cab6da9ebef76b86152e85f kasan: fill in cache and object in complete_report_info
-c8f823e258e999076e128eea032a1d5a573fa45e kasan: rework function arguments in report.c
-642009137c45334b07028179786b602ed7f35eb5 kasan: introduce kasan_complete_mode_report_info
-95458a8d9c13e93054f4f7acf3df99e00d297f85 kasan: implement stack ring for tag-based modes
-b2c0c1587ddca9695841930b8053efdc08a13e32 kasan: support kasan.stacktrace for SW_TAGS
-db26171d0f8f974d4436b86e91899f6d1ae4054c kasan: dynamically allocate stack ring entries
-78a4fe4ead0422d7d988c5d5d7972531b22d1b89 kasan: better identify bug types for tag-based modes
-3d2f086ee374c5aea9d362336d221c1758daacda kasan: add another use-after-free test
-796354732f7d197bbdec59989d1dd4801667a431 kasan: move tests to mm/kasan/
-5f8e89ea509d3a3faca9375a67beebaca7747309 kasan: better invalid/double-free report header
-ea373bea2c9b3371ed487fa780bf50e77d45e39b mm/hmm/test: use char dev with struct device to get device node
-e90a9e2c9c8b4f4c7dbbc3506ee47196f5d29bc4 mm/damon/core: iterate the regions list from current point in damon_set_regions()
-56386e77c5ff4192d2f65f7e293ded4471784426 mm/damon: simplify damon_ctx check in damon_sysfs_before_terminate
-ecbc731eeb95a1a0071485748a0c5ab301e9d8db mm/page_owner.c: remove redundant drain_all_pages
-0653ac9a6ac7d9eff6109f8418956462c6acd483 mm: reuse pageblock_start/end_pfn() macro
-02ca5d3c23b3e9a0d4f6d2e44ffb3cdbf0e8dd20 mm: add pageblock_align() macro
-b91fe852b8f70e7264ae3ed32e47125f964c9b1f mm: add pageblock_aligned() macro
-76544f2ab1556b4f3841dc640d348e7e094e8acf memblock tests: add new pageblock related macro
-ecd1ddc43703d19dfc5388194e59ba492d27a192 memcg: extract memcg_vmstats from struct mem_cgroup
-ad630ffa243661d201696ac7a1d234f416a299af memcg: rearrange code
-9578add750eb265344b13586434c373c94c9b24b memcg: reduce size of memcg vmstats structures
-b21c416531e97273ac990e6fa7c48abd0e3647a2 mm/hwpoison: add __init/__exit annotations to module init/exit funcs
-e6df76978d5326e75b2fa55a34d36327cbabd2fb mm/rodata_test: use PAGE_ALIGNED() helper
-649cf43dd342c81592a4248a255aa00fb068833c mm/damon: introduce struct damos_access_pattern
-489f70c49e27fa445311560152280d6d541eedd8 mm/damon/vaddr: add a comment for 'default' case in damon_va_apply_scheme()
-82ae6730a5e775b6c9e5a9c2b380c4820824aad2 tmpfs: add support for an i_version counter
-5a5e4545de686c39ac40296b89691d389ad403b9 selftest/damon: add a test for duplicate context dirs creation
-ae6e205d7daa811478e4de0e3a53a0559c807368 mm/damon/core: avoid holes in newly set monitoring target ranges
-50db4070ac3bfbfa61c5f66152560463d57db3c2 mm/damon/core-test: test damon_set_regions
-d417125957f2b2761d92223c21a87b7c75ca4571 Docs/admin-guide/mm/damon: rename the title of the document
-c784c6cc6185ddfb427ea88b737933c5c49cf67b mm/damon/Kconfig: notify debugfs deprecation plan
-830cee3067aafd594c84d612beded2260f2bdea2 Docs/admin-guide/mm/damon/start: mention the dependency as sysfs instead of debugfs
-ce678b213aa36102ccc9edbd40612adfb78a0758 Docs/admin-guide/mm/damon/usage: note DAMON debugfs interface deprecation plan
-4a3b78a6200d9d83ac45e0949cdc4046faef5279 mm/shuffle: convert module_param_call to module_param_cb
-ee74f95e0ef6138fd5afd4d49fd8de659d08b311 zsmalloc: use correct types in _first_obj_offset functions
-294857564269cd6a7292ac7ce363b0d67d66e488 mm: kfence: convert to DEFINE_SEQ_ATTRIBUTE
-c9230bae9a037e209c2cacf6b730a86e4671e9b0 mm/damon: remove duplicate get_monitoring_region() definitions
-ab51b6336aff5f8813b002b951c02a4d3b01aa36 mm: use nth_page instead of mem_map_offset mem_map_next
-a5c206247fc3bd31c8d710537a49b170c243c4d4 writeback: remove unused macro DIRTY_FULL_SCOPE
-a1a9bb0e44a6b0c430c73ea6e73bb5fd7f9332d3 mm/huge_memory: prevent THP_ZERO_PAGE_ALLOC increased twice
-b7b0c325ffe8871a1085754e383b13091cdc137d mm/damon/sysfs: change few functions execute order
-817ad5182623fbdd8e8410629deb698166ed4d0d mm/damon/sysfs: use the wrapper directly to check if the kdamond is running
-60fadbcf30532fe3725bbbd96d31277caa9e9d08 mm/damon: improve damon_new_region strategy
-04bbe1e6fa357f37a38df6fffe0f74a14e6b5295 zram: do not waste zram_table_entry flags bits
-c83c3ff10a3741d70a7a666680f68f1c417db6e0 zram: keep comments within 80-columns limit
-e1bf38f76f1c406b738566b142f2037ee2895b40 mm/damon: simplify scheme create in damon_lru_sort_apply_parameters
-7e49b535e8af994b48b7f3e14ed892f6493b7544 mm/damon/paddr: make supported DAMOS actions of paddr clear
-f508fa843507b8c38b151f46a67acbe04d28ed1f mm/damon/paddr: deduplicate damon_pa_{mark_accessed,deactivate_pages}()
-a7aba8246ae673bbda689ccc567cff836099d12e mm/damon/core: copy struct-to-struct instead of field-to-field in damon_new_scheme()
-cbcad26d86625561d60697c1f047da1fe9b18b23 mm/damon/core: factor out 'damos_quota' private fileds initialization
-2803472b7df3ae41a897ee1ec06fdbe37b16d1b1 mm/damon/core: use a dedicated struct for monitoring attributes
-d0efbda31f20cc6ee5013f11229b56d21a6f6eaf mm/damon/core: reduce parameters for damon_set_attrs()
-3bb62b84a3dca19e21026e3b23a372e4d058fea0 mm/damon/reclaim: use 'struct damon_attrs' for storing parameters for it
-88af555e46b09bed174e469e824b16d8d9946ed6 mm/damon/lru_sort: use 'struct damon_attrs' for storing parameters for it
-9f96c7307d2fa19f624ab1e6bdce472463fbae6f mm/damon: implement a monitoring attributes module parameters generator macro
-ed79fdd7ac197831ef5c10fa6680b85ad930a480 mm/damon/lru_sort: use monitoring attributes parameters generaotr macro
-5b2af20ecb9de6933f0889b242554dda9f127cc8 mm/damon/reclaim: use monitoring attributes parameters generator macro
-dfbf0ee8ffae24a3112b84bf7f31ed4ef46a8f88 mm/damon/modules-common: implement a watermarks module parameters generator macro
-2709c5e23ae6ea97ad230f759c186afef5722bc7 mm/damon/lru_sort: use watermarks parameters generator macro
-f30a55a6d12e21dc6d8ed8263d4a1edb10e6c577 mm/damon/reclaim: use watermarks parameters generator macro
-b5df85e2948a31bab74b83c898619392a223a4cd mm/damon/modules-common: implement a stats parameters generator macro
-542009ed76ab075b6de391fab3881d44fbd0aa4e mm/damon/reclaim: use stat parameters generator
-6d6d1213b948b468cc5bb5e1326904515308cace mm/damon/lru_sort: use stat generator
-816f53cd5cbb4c36a74ccedebd1b24d74b75307c mm/damon/modules-common: implement a damos quota params generator
-23650473c2fefa9de26721eca84493ae68726804 mm/damon/modules-common: implement damos time quota params generator
-2d4443fb3cf6241516d017a17b00fb77498adac4 mm/damon/reclaim: use the quota params generator macro
-a5d2e01df1d5f8d66357800ae055602c7c0e7259 mm/damon/lru_sort: use quotas param generator
-b27b140cfd4df8c9280ffc839a50b7eae918ec2c mm/damon/lru_sort: deduplicate hot/cold schemes generators
-53a6e714cfd0d43498c712947354c4098b950263 mm/damon: simplify the parameter passing for 'prepare_access_checks'
-b85fbe7091721ee131f292b29305af279935eddc mm/damon/sysfs: simplify the variable 'pid' assignment operation
-14b22242963bc045ea6228ef30a52e4c436b7b5d mm/damon/core: simplify the kdamond stop mechanism by removing 'done'
-7ff2381c55146a5d75044bc596c235d40d5e8d8a mm/memcontrol: use kstrtobool for swapaccount param parsing
-92d6507b823afac6c7c2e78160c1eb15bb224e20 mm/page_alloc.c: rename check_free_page() to free_page_is_bad()
-e10f76e3e91073a43e496b6ddaf3b4362591d16c mm/page_alloc.c: document bulkfree_pcp_prepare() return value
-24a77179ac66568a7da333a6008a8e127eee3cbb mm/mempolicy: use PAGE_ALIGN instead of open-coding it
-0dc89a4214dfd292ef66adbb97b26d4b26543527 mm: hugetlb: simplify per-node sysfs creation and removal
-5d96f8705c33c91da79d0ee050f5906f8ef30e6a mm: hugetlb: eliminate memory-less nodes handling
-3b1e9705c593048fc54b6f47b9a836bec9b1ec0f mm/filemap: make folio_put_wait_locked static
-4269641096414037369f3797bcd0b679e4b6f468 mm/hugetlb: remove unnecessary 'NULL' values from pointer
-f71b993c7e9e53335b61760d57884447a8d99af5 hugetlbfs: revert use i_mmap_rwsem to address page fault/truncate race
-d7826e1bfcf35114bda802fc1e9287b44bf2d33e hugetlbfs: revert use i_mmap_rwsem for more pmd sharing synchronization
-d15f5e2d0dcc3a79211b88d290f77e7fbdf2ade3 hugetlb: rename remove_huge_page to hugetlb_delete_from_page_cache
-9c24036adf8774079ca2802f1eec721b510c557a hugetlb: create remove_inode_single_folio to remove single file folio
-01597b17348907ccf4267bf00e6caeb71420666e hugetlb: rename vma_shareable() and refactor code
-dded5f5fecee5826c6d019e0154aa745548825a9 hugetlb: add vma based lock for pmd sharing
-603585d5794f0fb04737c2e3ab084cfb81e0fb09 hugetlb: create hugetlb_unmap_file_folio to unmap single file folio
-a17602adc1b5c70bc6a2663d648e4c89d73937ac hugetlb: use new vma_lock for pmd sharing synchronization
-28bb6970a8b754b0ad00ef676b37b0062142a898 hugetlb: clean up code checking for fault/truncation races
-e0d895f882b86b96726b54ba4434c8d94e4ac049 x86: add missing include to sparsemem.h
-8ab76ee28bfba73454582e4efcf6dd499dcefdc2 stackdepot: reserve 5 extra bits in depot_stack_handle_t
-190b93c52ee3dbd0e8f452b4db4bd74e64402552 instrumented.h: allow instrumenting both sides of copy_from_user()
-de25217b43ba7fff3f0b814b7c22762a64a84744 x86: asm: instrument usercopy in get_user() and put_user()
-e537bddf34cf618731972b8a7aa67fa7a799cb60 asm-generic: instrument usercopy in cacheflush.h
-7300e353bd7bdea9b3a110dd218844183326a68f kmsan: add ReST documentation
-086fa4f3b4652d0aff67d7a220f0ac5aef0f29b3 kmsan: introduce __no_sanitize_memory and __no_kmsan_checks
-1dbe1fa1fe5db8b5ce3807afcc002bece86d556f kmsan: mark noinstr as __no_sanitize_memory
-71a7085a30c87bce5e977b0703efba82cda8cfd1 x86: kmsan: pgtable: reduce vmalloc space
-aabb9baa5605b8dc3ac80fe140343787fa1f0c66 libnvdimm/pfn_dev: increase MAX_STRUCT_PAGE_SIZE
-677beb28ae6b19d451594715a4271f745f42aaa5 kmsan: add KMSAN runtime core
-eacbeeea31fee8c632bfcff7490e94adcd246f37 kmsan: disable instrumentation of unsupported common kernel code
-6393571eee3c4d2db485c7c2bba4ca2215a55652 MAINTAINERS: add entry for KMSAN
-eeb7b605a2948cfd639760a020f6c18689fbc9a9 mm: kmsan: maintain KMSAN metadata for page operations
-728d86630f341fe4dd060de728d211251724b857 mm: kmsan: call KMSAN hooks from SLUB code
-55c2c56c445d62d7903b4b9e25e9499911cf6dcf kmsan: handle task creation and exiting
-6b05b293da64ec0d7573d36b584651a7dfbf7d88 init: kmsan: call KMSAN initialization routines
-370cb15f33967f91129763f4b026ea8083ae75c2 instrumented.h: add KMSAN support
-954c9b4407b61e883793aa224bb348fd525a3318 kmsan: add iomap support
-259eb1c357aa25d12beb34021108b0c47f3b400f input: libps2: mark data received in __ps2_command() as initialized
-7aefd63845decb30920dfd9e0c97b6e4e48a342a dma: kmsan: unpoison DMA mappings
-83f325bc0cc0d5d1966d7c405fc509bb1b368dd4 virtio: kmsan: check/unpoison scatterlist in vring_map_one_sg()
-95b39d91c032926da4c103e9e2f8a8279ca2e587 kmsan: handle memory sent to/from USB
-fdef04806742119416c378c35eed494edff1745a kmsan: add tests for KMSAN
-6898e66421ba8fe1b6ba85a6802184f5d718c2b3 kmsan: disable strscpy() optimization under KMSAN
-2f457888809f143a515e6958d558026e54031e7d crypto: kmsan: disable accelerated configs under KMSAN
-4f8d0be5167eeced2cf5a935a36c27773387c3b5 kmsan: disable physical page merging in biovec
-a6ddf192b4e4fdabc7378a4eebe4a826f76fb2cb block: kmsan: skip bio block merging logic for KMSAN
-7b00cfb3d137b51da626137c386f74b5b7d075ff kcov: kmsan: unpoison area->list in kcov_remote_area_put()
-9c9f6b05940ef988f32c69811e6ca8f554cf25dc security: kmsan: fix interoperability with auto-initialization
-958f9c7636726c47f0ead88a31696d79a6beb40c objtool: kmsan: list KMSAN API functions as uaccess-safe
-804040d6d69ecd015691be239d66040c37451ec0 x86: kmsan: disable instrumentation of unsupported code
-6c7f4cd62f18b53e7f9b02663a4cf1b482419525 x86: kmsan: skip shadow checks in __switch_to()
-c4447fbba039409175d5f854e92a2a35a1fb2684 x86: kmsan: handle open-coded assembly in lib/iomem.c
-d00782522fa260e5b184d82ece27f301b98b964c x86: kmsan: use __msan_ string functions where possible.
-1262e1a4436723305c748d043e882c9d0bff435f x86: kmsan: sync metadata pages on page fault
-894c6f133bc659cdbe06f04511fab71c6ff57319 x86: kasan: kmsan: support CONFIG_GENERIC_CSUM on x86, enable it for KASAN/KMSAN
-755105a84f51382b896130f73a82e19d6709d927 x86: fs: kmsan: disable CONFIG_DCACHE_WORD_ACCESS
-c1bb7e1a7d69aa69729fb656f32cf226269c52dc x86: kmsan: don't instrument stack walking functions
-e432caf2cfcb9f156888306d13f97e8ee1f1993d entry: kmsan: introduce kmsan_unpoison_entry_regs()
-1451f69fee61aac89a4aee875134e84670e467c9 bpf: kmsan: initialize BPF registers with zeroes
-95e36aec99e8429e3183e3e73209a34071d66757 mm: fs: initialize fsdata passed to write_begin/write_end interface
-43bbc68e2a36d3849edc1b683fb77db24f17509c x86: kmsan: enable KMSAN builds for x86
-dbc00394c3286dca2b32a59c6e8cde0ab0ee5a99 x86: kmsan: handle CPU entry area
-1d38a8038b22068b489f4519fcf039dead239d75 mm/damon/sysfs: avoid call damon_target_has_pid() repeatedly
-666cf4f22d6e695dc0bb0f522ad96e34c1e1662e mm/damon: simplify scheme create in lru_sort.c
-8a78f2be6dc4c67209c751b6f297ffcf4f755c53 mm/damon: use 'struct damon_target *' instead of 'void *' in target_valid()
-0f8450f2645ad10e68def82f8072ee4f2b3d25df mm/damon/reclaim: change damon_reclaim_wmarks to static
-bf9a44706c68e6c46957cbab9e89ff9d1171cfba mm/damon/lru_sort: change damon_lru_sort_wmarks to static
-3f9464457726337e98427e1cca5ae859eb7cb82b mm/secretmem: add __init annotation to secretmem_init()
-da2a0e2a32e868fdba734ea10b52d9ffd4c449ca mm/damon: return void from damon_set_schemes()
-0354bd9396b4f94fabf27cb025c07c98972a0769 mm/page_table_check: fix typos
-3d44cc21e9253c13f01976eefee0295760f15aef mm/page_alloc: ensure kswapd doesn't accidentally go to sleep
-fb014358ac1e5fbaf1c63fbf8e545c46b2409b8c mm/page_alloc: make zone_pcp_update() static
-9e0affafb19747cc151060920b4ff29faefac2ea mm: remove obsolete macro NR_PCP_ORDER_MASK and NR_PCP_ORDER_WIDTH
-9a5463364c7450923d1697d690cc942eb82a28e7 mm/page_alloc: remove obsolete comment in zone_statistics()
-d8638bfa9076d8ff9430f81866d70cc2b35d40b4 mm/page_alloc: add __init annotations to init_mem_debugging_and_hardening()
-b3dcfa17e2a41160fb20fb0e7da150e9067aacb7 mm/page_alloc: fix freeing static percpu memory
-17f92dac0d57ff0e749af9e337c195be26abbd36 mm: remove obsolete pgdat_is_empty()
-225983e7f81ec63a621759654b839e5d6f67b8d6 mm/page_alloc: add missing is_migrate_isolate() check in set_page_guard()
-79aefb1c36a81d921d95b8e932048b7477a2e95f mm/page_alloc: use local variable zone_idx directly
-4bf5d8d0d9c757f16cd92db4e6d6a2fc9299a143 mm, memory_hotplug: remove obsolete generic_free_nodedata()
-46a05ff5a4f1e56733f9dd3a3497e3445c69bb19 mm/page_alloc: make boot_nodestats static
-baa57b23abc3c4fc287b8161a5ebbb52b30384dc mm/page_alloc: use helper macro SZ_1{K,M}
-02442e6b08f5984a2e78d99a85950728452bc913 mm/page_alloc: init local variable buddy_pfn
-d99a56661e1de45e278bd6538d2cc531fbac6a69 mm/page_alloc: use costly_order in WARN_ON_ONCE_GFP()
-de9ed602a8cb275c93280d43e51095c4549e1b59 mm/page_alloc: remove obsolete gfpflags_normal_context()
-fbc71addc817d69f9186f57a1f59a21f870eae12 mm/page_alloc: fix obsolete comment in deferred_pfn_valid()
-50b0d835fce34dfbc2a1650ac32d56dfc2275099 hugetlb: freeze allocated pages before creating hugetlb pages
-753b6a30382d8077d41b143cb4ac349248518d77 mm/damon: rename damon_pageout_score() to damon_cold_score()
-5d9d7e28d2fad861cccc3f0148ed0c69a7ded5b8 mm/page_alloc: update comments for rmqueue()
-e3299838fff7f416525c246f13baaf0a4ba0b4a0 mm/damon/sysfs: return 'err' value when call kstrtoul() failed
-d4e0031c9711fae9a0a62a8d50e1b4a3a0821dd2 mm/damon: deduplicate damon_{reclaim,lru_sort}_apply_parameters()
-aa1ba9b493a551c2a2d199f324b6e52444b7482b mm: memcontrol: use memcg_kmem_enabled in count_objcg_event
-6f5fcaf1620ec4505e8742a2d1cc8f35955cdbb9 mm: memcontrol: make cgroup_memory_noswap a static key
-6a710959450941a69ba4d61c52a26bbc1dc96720 mm: hugetlb: fix UAF in hugetlb_handle_userfault
-25c1308a99d73dc6ce0e47c015c51fd641e7ae49 mm/khugepaged: check compound_order() in collapse_pte_mapped_thp()
-ef26a74e233daa8e7f8ca14f3938bec516224484 mm/madvise: MADV_COLLAPSE return EAGAIN when page cannot be isolated
-fc4e378f25dfb0ebbf51edbc5fd2cba8aa282340 selftests/vm: retry on EAGAIN for MADV_COLLAPSE selftest
-aeecf5535f9412994120b3a1f6d97c67c3b7b8fa mm/shmem: add flag to enforce shmem THP in hugepage_vma_check()
-f133e623b1725066f9e9f9a528d08ced6556e362 mm/khugepaged: attempt to map file/shmem-backed pte-mapped THPs by pmds
-8d6e5148d956eb3f620992f1297d616309c46661 mm/madvise: add file and shmem support to MADV_COLLAPSE
-8f15bd57508db8fe0ff5e38d8cfe1e69a8d8f287 mm/khugepaged: add tracepoint to hpage_collapse_scan_file()
-d647a608c2a1b913fe071611b54a3613466f6116 selftests/vm: dedup THP helpers
-2cd2d110f0aff7a40a4f9eae9e3322b88da7a74e selftests/vm: modularize thp collapse memory operations
-0aff975c547a838b64a6fbf5f6c21675b74e2228 selftests/vm: add thp collapse file and tmpfs testing
-d35d5834da57f87b034eeafe62a52ca1dab266a2 selftests/vm: add thp collapse shmem testing
-a46794f75443e1da3c76446dbdb223832e508012 selftests/vm: add file/shmem MADV_COLLAPSE selftest for cleared pmd
-11ba090616af3e984f89c1ad69c8bd8fce9747a6 selftests/vm: add selftest for MADV_COLLAPSE of uffd-minor memory
-f77e7bbdfc4c569cc3f5059ea9e04c4ac4a7163f mm: remove unused inline functions from include/linux/mm_inline.h
-7b92490961d6a303c13b680aec0034cf034d03fd mm/hugetlb: add available_huge_pages() func
-d900bb381f13e95a9f0425a901a13a14913c8aed mm/secretmem: remove reduntant return value
-afe5b4cf6a7f517044b5672dafa7d756a2e87d1e mm: memcontrol: don't allocate cgroup swap arrays when memcg is disabled
-92821256f418863265db31e87bdb3fda854c965f mm: memcontrol: deprecate swapaccounting=0 mode
-9b943341f1f0bc242b8110cc176669c4fc499346 mm: memcontrol: use do_memsw_account() in a few more places
-9ee2ec1cc2b367c52d3d29282148881363a1b29b mm: memcontrol: drop dead CONFIG_MEMCG_SWAP config symbol
-21579e4e94e6727235afcd7d2036e107bfc49fe7 mm/mglru: don't sync disk for each aging cycle
-ae0df199184fffd7433912635b70f8ec5dc3b40f mm/compaction: fix set skip in fast_find_migrateblock
-8fa47483171f776ffae7a383e749e6fa0de8d78c mm: discard __GFP_ATOMIC
-0f964f18294de88034039af6304549a89ec19161 hugetlb: simplify hugetlb handling in follow_page_mask
-16c3ef2d7fbe53908602bd1462460a97c7c0120e ACPI: HMAT: release platform device in case of platform_device_add_data() failure
-22e49fdd8ae8237c377e3aa8e9d65bd256f46c02 lib/test_meminit: add checks for the allocation functions
-6adcfd11dd9e7760671c53dc1aaa70fc3bc12480 kasan: fix array-bounds warnings in tests
-f12a7b912a56c75193ae63bc05f8f19ff1c0d4f5 mm: vmscan: fix extreme overreclaim and swap floods
-3fcf9c38bb1729022dd23c7140dc4b6095b465b5 mm/damon: move sz_damon_region to damon_sz_region
-a601d62f1abedd5c88bafc771fc5b41198b4cd1d mm/damon: use damon_sz_region() in appropriate place
-7955ea6daf7fa07caeaf4715bc64b0a88925edc9 mm/memory.c: fix race when faulting a device private page
-498f11de550f3a7755348c95696a512c07fb730a mm-memoryc-fix-race-when-faulting-a-device-private-page-fix
-5a5669aa117f8f0fc3c8598eb03c11975b56d598 mm: free device private pages have zero refcount
-d9b077554c1e49a70b9aa91acc84975f0d9037c7 mm/memremap.c: take a pgmap reference on page allocation
-402b3705e18bd570889d1c9fd5501dd1773e5c16 mm/migrate_device.c: refactor migrate_vma and migrate_deivce_coherent_page()
-6eaddcb1f0072ddd3cc6202d10a250aa30a76f45 mm/migrate_device.c: add migrate_device_range()
-be5cd62ed3f7d21d1f3fcb61afc0df689e57bd6b nouveau/dmem: refactor nouveau_dmem_fault_copy_one()
-4bc857efd5ee11460bfa63a93f65f0459584c027 nouveau/dmem: evict device private memory during release
-564d467dc155266c68270adc1aa804e7d9e5fc74 hmm-tests: add test for migrate_device_range()
-5a76bcf7825283ad9f2ea071667d7c14eb8f6d92 mm: use update_mmu_tlb() on the second thread
-9c7d294d48754d6b8015f46bd71613307a441e50 LoongArch: update local TLB if PTE entry exists
-35e934a860eb50ee52a6a18021481c6b9384238b === Mark start of DAMON hack tree ===
-7423a20da3b94fe2f69ffe76312789192b0d143e Add -damon suffix to the version name
-9d898c3c7fdbd2ac89b27c5f32c09bc250d44aef for_damon_hack: Add files for DAMON hacks
-5ab345f4c5088bf21a5ef383969fe148694e3218 === Patches in mm-unstable but not yet pushed ===
-60d7fab5e3e138b0dc5155cbdc7541e6d275e3d6 === Patches written or reviewed by SJ but not merged in -mm ===
-4de1126f71de88f0d077e9cf5605fdf88f959fb0 xen-blkback: Advertise feature-persistent as user requested
-a166e59decb12eed27e92d1350a74b9e0fb31be1 xen-blkfront: Advertise feature-persistent as user requested
-9d3789c8b57ee5b8871e964eac137736710e64f7 xen-blkfront: Cache feature_persistent value before advertisement
-c6f29e9c0b4c69b327399575730297718bdd39b4 ==== YuanChu's DAMON kselftest fix ====
-233725d25f4fd79fbe0cfd667a3f40fb7505e1c7 selftests/damon: suppress compiler warnings for huge_count_read_write
-11cb21aef2572c9488a933fc7239df3fbf1cf24b === commits having no plan to post for now ===
-d82bd7dbbea10dc61b9a14c19ff309ca867aa01a tools/perf: Integrate DAMON in perf
-7f949c5a54a2fa63e2d8f8f57d49015d801daab1 selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
-9323499b5b739556a6e7d7dcee70dbae1e145850 selftests/damon: Test target_ids_write()'s pids leaks
-0191c9eea230c315e4278f13a6293432d72a9a41 === Commits aiming not to be posted ===
-795e9125985ba7afaf40bef0e79198ec236fecf2 mm/damon: Add debug code
-1ed63db6e45e125b0c2b23667b70e64180554370 Docs: Modify for DAMON only
-d4039941e4eedb3063dc8cf2252c068ccadcc419 Docs/DAMON: Add more docs -next doc
-a3536840013840f9ce26e24d4533e9c8ce8d5a14 === Hacks in progress (aim to be posted) ===
-4871c520160e0a921aeef11452c7f9f8ccca23cd mm/damon/modules: deduplicate init steps for DAMON context setup
-9d863572cdb01f4d56116e5339b0b05df56b532a mm/damon/core: separate DAMOS-charged region skip logic to a function
-4a476d38e13942aa30ff3c407191f488b6754901 mm/damon/core: separate damos application logic
-fc4633cab2cf30109dc5bf9e870745643d0eb621 mm/damon/core: separate scheme stat update logic
-1fc69da4a888ed9286c7a29698feda7437ab7014 mm/damon/core: fix damos_apply_scheme() factor out commit
-80f9009d07836e1c5e85963b1cdbd059d1e9adb2 mm/damon/core: separate scheme quota adjustment logic
-36a76a24d403101c7affccd9564e6874456b6d23 mm/damon/core: add a DAMON callback for scheme target regions check
-ee49839be5aa139c4e8a8bb7ea03afbdc0082760 Docs/admin-guide/DAMON: add tried regions and applied regions sysfs directory
-6b7b72690e06cd1d53ebee2286df2a41d0fa7ecb for_damon_hack/damon_commits: Support stable commits only filtering
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
 
---===============3631227338275766948==--
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5807fa058158-526189daea6c.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a5b7e0c75250-e79cff59484e.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+737a2dd7463f68e3303ef73244627cc636609cc1 xfs: regression testing of quota on the realtime device
+bc0176a6abc89e3a396ba9eacac386e9c47dbb68 xfs/122: update for vectored scrub
+3a8ab009403d5895c3df2b55f1626fc5fad3f808 xfs: test output of new FSREFCOUNTS ioctl
+655b5c0d8db171722d39de1151701288f5159274 generic: test swapping process pages in and out of a swapfile
+e79cff59484e79da058731a2491de0f8e06c4f08 xfs: test clearing of free space
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c542350dbe01-6b6d93b6ffbd.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+737a2dd7463f68e3303ef73244627cc636609cc1 xfs: regression testing of quota on the realtime device
+bc0176a6abc89e3a396ba9eacac386e9c47dbb68 xfs/122: update for vectored scrub
+3a8ab009403d5895c3df2b55f1626fc5fad3f808 xfs: test output of new FSREFCOUNTS ioctl
+655b5c0d8db171722d39de1151701288f5159274 generic: test swapping process pages in and out of a swapfile
+e79cff59484e79da058731a2491de0f8e06c4f08 xfs: test clearing of free space
+bd1a9d5efab954d73f48965c75b334a60d3ae4cf check: snapshot the test device before each test
+7f1547cd3ddcf81ba943e55c3c9890f8b5efc63f xfs/538: disable for now so that we don't trip scrub...?
+b1272b7cf4bfa9e41c86a4ad9b97ad481d6e8143 xfs/168: capture metadump on failure
+2f8644fbed3d5c79f0fe5cb487b72237e32710c4 xfs: test for premature ENOSPC with large cow delalloc extents
+0ffc4439836aa34dd0543b886c0ece61ff99c53c vfs/idmapped-mounts: fix unhandled EOVERFLOW in setattr_fix_968219708108
+9a7d559ff704ff5a0d4b44052030c03b87202ca2 generic/471: disable broken test?
+9247a3ac296841a4f4736fd6ce81fbcde8166079 common/xfs: force inodegc work before running xfs_scrub
+6b6d93b6ffbd498b63a5f2eef23ed85bf9a1e990 fuzzy: disable scrub stress tests for non djwong-dev kernels
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-299e796f213d-9fa5b938b063.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bd332ebeb5f5-f4e1d46ce6bf.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cbf8a86b7ebb-4bf26bae782c.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e0852188875d-803b3157906c.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6dacd5c007b9-7ec3643f9fd0.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4dd9252cd46c-335c7f97d60d.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-94b3e2bec9ea-aa17ab5ac1a3.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-15712f628ab9-445a310ffa2c.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-990c0858ea85-97a19381459e.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bfa420079e95-737a2dd7463f.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+737a2dd7463f68e3303ef73244627cc636609cc1 xfs: regression testing of quota on the realtime device
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9cc58b0d978f-72e7633bccd8.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6db228856772-46fab59a97b7.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5c47db39cbd5-88aebda7255b.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f2c80bc5dd2f-510bc66c3336.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-33b255a19aae-cc6fb893802a.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5aaa98975dfc-f1d1486238ab.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-701525c7727c-0ea75cdacf06.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5720db17ff02-e7b87cb61e38.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9f2915c2b589-33651c344ff4.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-29257a1187f6-ec8138a863a7.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-75ad730377d3-d4f7792b0d55.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-71c1cf57e2b4-dd3fcde869a7.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6b35ee0d7bb3-d98de5067c74.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5075467f457b-3b9c4921da88.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a71aaa4b18d0-4ed8922e619c.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0f74e8a65999-e9040f88d822.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-70947efecbec-9437ca2c6103.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74b26627053e-3a8ab009403d.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+737a2dd7463f68e3303ef73244627cc636609cc1 xfs: regression testing of quota on the realtime device
+bc0176a6abc89e3a396ba9eacac386e9c47dbb68 xfs/122: update for vectored scrub
+3a8ab009403d5895c3df2b55f1626fc5fad3f808 xfs: test output of new FSREFCOUNTS ioctl
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b5ec7f585b4a-06b1064f90b4.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5564a3b56cab-0a40ce615c83.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0e26cb6f9f86-b2af9ba06cf6.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-61fe58be5673-655b5c0d8db1.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+737a2dd7463f68e3303ef73244627cc636609cc1 xfs: regression testing of quota on the realtime device
+bc0176a6abc89e3a396ba9eacac386e9c47dbb68 xfs/122: update for vectored scrub
+3a8ab009403d5895c3df2b55f1626fc5fad3f808 xfs: test output of new FSREFCOUNTS ioctl
+655b5c0d8db171722d39de1151701288f5159274 generic: test swapping process pages in and out of a swapfile
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-aa7a80e466d6-ad2800b27fe2.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+
+--===============6910694694140912407==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-003886368bdc-bc0176a6abc8.txt
+
+a888a394ee77aa6f8a443dbe8e62a0f075a8c8bf generic/092: skip test if file allocation unit isn't aligned
+3ee288d246d3966743e8acb4dc71f76b817180f4 xfs/114: fix missing reflink requires
+ecdfde3f77516d71d00ed76203ec2dec34f853f6 xfs/229: do not _xfs_force_bdev on TEST_DIR
+a5259965a5e1c7483d27144fc5b73134c0520b81 common/populate: don't metadump xfs filesystems twice
+6579c569269086555d8f11af5e5eeccf38686195 common/populate: fix _xfs_metadump usage in _scratch_populate_cached
+e771194c3c64559ffc1fe6de82a3ac4577a45695 check: detect and preserve all coredumps made by a test
+a7e7484c1c21dae89fd07f3c5338643fb50282e0 check: optionally compress core dumps
+63dcd1b1210370a450c944972469e16fb536a9ff populate: export the metadump description name
+30a866f711c88b46e1a1e5e9acb5d4e4dc6c3050 populate: wipe external xfs log devices when restoring a cached image
+e5280a93437a52991ce5b954a2e725fe2bff4e06 populate: reformat external ext[34] journal devices when restoring a cached image
+c2f51b54b8ffafe9a36c377f9c95a470b03f1188 populate: require e2image before populating
+526189daea6c66f4e8923c8d7b9104eb516dffe3 fstests: refactor xfs_mdrestore calls
+335c7f97d60d687dfb53f96eae1e747aa7aed18c xfs: test scaling of the mkfs concurrency options
+06b1064f90b4982a99489ea373d0234e5e4de67d xfs: test xfs_scrub phase 6 media error reporting
+e24080eb66a4443967eec9a8348b37a0df3ebb9f xfs: refactor filesystem feature detection logic
+61b051bfee806142bfdcdb754df8107c4b8cc0cc xfs: refactor filesystem directory block size extraction logic
+f1d1486238ab50b484a5f7b4de8c5ebd3c302c29 xfs: refactor filesystem realtime geometry detection logic
+e9b0a12b63f739eef0a4f8c724a5a1ba50f514b2 xfs/422: create a new test group for fsstress/repair racers
+83131b30a5a5e3b4e49d41bd4efa45cf73a45226 xfs/422: move the fsstress/freeze/scrub racing logic to common/fuzzy
+a69d97493c0ea0253abfa354dcc12651e3ba569b xfs/422: rework feature detection so we only test-format scratch once
+759bd6c9fa59c2f2773b2a575a29a386f6cf31b0 fuzzy: clean up scrub stress programs quietly
+cad2aaac6b6cc9782b1edc28a9ea9e751e8bdadd fuzzy: rework scrub stress output filtering
+45543317ad170a106a51ba6c1e596a0c81d79187 fuzzy: explicitly check for common/inject in _require_xfs_stress_online_repair
+dceb64776c904c42a749b247d0a53638f4d6ec0f fuzzy: give each test local control over what scrub stress tests get run
+857fdf3bf87e2616a027fed2470b159fbc863e8b fuzzy: test the scrub stress subcommands before looping
+3287f298009923fab998c4a086f45b670c454980 fuzzy: make scrub stress loop control more robust
+9ea1a76026b7bc73a4f3be4d8b719bff221b6d50 fuzzy: abort scrub stress testing if the scratch fs went down
+6f0a7e9d2c2c101b8fae0d28cf7060397d1f72d1 fuzzy: clear out the scratch filesystem if it's too full
+df07af93d00bd45c83bb265575ed434916128509 fuzzy: increase operation count for each fsstress invocation
+c63fde4f3b40d69c9638ce1ce90065ffa398efad fuzzy: clean up frozen fses after scrub stress testing
+5262c85f82414637d3f46892e568f9befe916efa fuzzy: make freezing optional for scrub stress tests
+c0485547d1ee1de48e3ce28587534ee06a5e2856 fuzzy: allow substitution of AG numbers when configuring scrub stress test
+cc6fb893802adacd398bf2f2a49bbe320d832b1d fuzzy: delay the start of the scrub loop when stress-testing scrub
+f171664cfa68053c50eea047857b250a39c2a575 fuzzy: refactor fsmap stress test to use our helper functions
+510bc66c333643bf6e37792b77acd893b2117a2c xfs: race fsmap with readonly remounts to detect crash or livelock
+8b12eaa9e113088cc2360fa5dd0b50636895ae4e xfs: stress test xfs_scrub(8) with fsstress
+445a310ffa2c245f6e344abc1fa02dca5a895c43 xfs: stress test xfs_scrub(8) with freeze and ro-remount loops
+369d692b1a816fd1575a2dc58722548e4d74979a xfs/357: switch fuzzing to agi 1
+b7ce7f41418d7dcec0343b359b6040a97312c23e xfs: race fsstress with online scrubbers for AG and fs metadata
+ea6c89e3097190a0ccf236505dd18e5030042032 fuzzy: add a custom xfs find utility for scrub stress tests
+57d27886d99fb403be796a2eee4b97f7e27c1173 fuzzy: allow xfs scrub stress tests to pick preconfigured fsstress configs
+b2af9ba06cf69091e619f20f3b5756d048555680 xfs: race fsstress with online scrubbers for file metadata
+ec8138a863a77b6053448f7617fd55c2836ca5d2 fuzzy: use FORCE_REBUILD over injecting force_repair
+0e5d0bd2a069898c7a4ef477759578a6eeec6850 xfs: test rebuilding the entire filesystem with online fsck
+0ea75cdacf0601bb7073bcc20c619775e61615a9 xfs: stress test ag repair functions
+dd3fcde869a700c4901db4973a753d0b2a29d5f1 xfs: race fsstress with online repair for inode record metadata
+4b225a704ffcb8d887a41773df0acd409708ebf2 xfs: test rebuilding xattrs when the data fork is btree format
+c44f19fb1d391b57511d9cc49e723b5b2369aa1a xfs: race fsstress with online repair for inode and fork metadata
+217b92055e5b4c14d59b59db565c2fabe9bb0907 xfs: ensure that online file data fork repairs don't hit EDQUOT
+33651c344ff486a59aa731900106dc665ed20b4e xfs: race fsstress with online repair for special file metadata
+d98de5067c74b29fd9f13f61e65c08f54d78f363 xfs: race fsstress with online scrub and repair for quota metadata
+3b9c4921da88dcdfc6e0bc87d317291a64340fc4 xfs: race fsstress with online scrub and repair for quotacheck
+0a40ce615c834bdc9fe24d5cf8dc11f30c88ac25 xfs: race fsstress with inode link count check and repair
+711e4974a4446691d2d35d8cf79e93ecc7c2b259 xfs: test fs summary counter online repair
+d4f7792b0d55b21fa80bd478b576c2c72d368b9c xfs: race fsstress with online repair for summary counters
+4ed8922e619c6446051cb7033de099afba800830 xfs/422: don't freeze while racing rmap repair and fsstress
+3e312b65624039682dcb6ac5b73b28c6cf0c5aa0 fuzzy: disable per-field random fuzzing by default
+74aa8954fb71148d442690bcc4a071a909c6b9ad fuzzy: disable timstamp fuzzing by default
+656f645d79303fc07403c6cdc16c85e349f66fc5 fuzzy: don't fuzz the log sequence number
+06d2827e36328005494db6f7bc2af7ed5172e2bd fuzzy: don't fuzz obsolete inode fields
+186b248c91e7ba1271c7b3aadfe4c1897dadf736 fuzzy: don't fuzz inode generation numbers
+25ff28ce3f2019e792beffb6c7b56063f93fbe73 fuzzy: don't fuzz user-controllable inode flags
+abd472c1bd1a567096b19813bf7d689c4d144be3 fuzzy: don't fuzz xattr namespace flags and values
+521f14017ed081b0de86cb6f980b3d430b286511 common/fuzzy: split out each repair strategy into a separate helper
+7a69d6ca59f46871cec865ad7d5b245b787e3ec6 common/fuzzy: add an underline to the full log between sections
+5e42db074cc55145cb316071cf5292029d61570a common/fuzzy: hoist the post-repair fs modification step
+7be4081c7faa91af8dbd7dbc9c9f03d116c89d0b common/fuzzy: fix some problems with the online repair strategy
+e6e926d4fc6bf9dc40cd15f2a6aee4476bcd8d74 common/fuzzy: fix some problems with the offline repair strategy
+7b7cb81cc1d5c73db0f7b1a8b571d1199a4d3c9d common/fuzzy: fix some problems with the no-repair strategy
+1b7575efcefd58dbf1b63574590ceeff8dfeb1b8 common/fuzzy: fix some problems with the online-then-offline repair strategy
+5b5d31d51fb1abe08433e888dde5a594cd863c90 common/fuzzy: fix some problems with the post-repair fs modification code
+76ae5a2579b6cb7614075cf7d183346bb59351ce common/fuzzy: evaluate xfs_check vs xfs_repair
+02c2e065b3473168a6d238b0a07ac53de62bde09 common: check xfs health after doing an online scrub
+fe99df761147c29ce921b414c754fb788a82d5dc common/fuzzy: exercise the filesystem a little harder after repairing
+bcfc11e5f0fdd5497cda1d701d191e7a6d1733bc fuzzy: dump metadata state before fuzzing
+bdac29e84f5181494473690adc26aa697c9827aa fuzzy: compress coredumps created while fuzzing
+4bf26bae782cce4b98413d50a7a31867f48f932c xfs: improve metadata array field handling when fuzzing
+fb8f274c5374b441daad56995320193da9776c72 fuzzy: test fuzzing directory block mappings
+957c221f90fdfd91c2232561f57e9dc2433d3a58 fuzzy: test fuzzing xattr block mappings
+8b13504033646c78616116f9481efbb5c76b3e6f fuzzy: test fuzzing realtime free space metadata
+aa17ab5ac1a375cb100284145d12482000747f0e xfs: fuzz test both repair strategies
+10cf82750927174a7009fd6628e05c27a2a89e48 xfs: online fuzz test known output
+7e181808112829c5b7944d064eb9091105d554ae xfs: offline fuzz test known output
+08da965dd1b561bde8f8f0beeb06a1a94b749977 xfs: norepair fuzz test known output
+f4e1d46ce6bf00c8bd8cd14f4e90fb194ac7757c xfs: bothrepair fuzz test known output
+abf7b2a98830a5cbd199bb018fedb193fb07bb50 xfs/122: fix for swapext log items
+503bf32f4090a783e067e78858d63809008b14f0 generic: test old xfs extent swapping ioctl
+3040f263db80414a049e1164b45ba42783a823c6 generic: test new vfs swapext ioctl
+9ef971d01fbff300fa6060176a8bae5447a589b1 generic, xfs: test scatter-gather atomic file updates
+e4424156eeb403fcc8e58e8263830ca9af2e2a2d generic: test that file privilege gets dropped with FIEXCHANGE_RANGE
+826bfac10f00aaeb6ba81bc94f465170715ae305 fsx: support FIEXCHANGE_RANGE
+c45f64ac3f46e10cc5205795aa9fe659d4326e7a fsstress: update for FIEXCHANGE_RANGE
+e9040f88d822d7a28c0ecd109923859bfd6c81fd xfs: race fsstress with online repair of realtime summary files
+9437ca2c6103a08eec15c877967dd8669fe96b18 xfs: race fsstress with online repair of extended attribute data
+47f3fd46700fb3fa3278dc1a396c152ec4691128 xfs: ensure that online directory repairs don't hit EDQUOT
+e7b87cb61e383811e367056236f411208a4c842d xfs: race fsstress with online repair of dirs and parent pointers
+ad2800b27fe236100f940e3bb2ffc345163ff9da xfs: test upgrading old features
+16ec171135b92c61be0c8339ddcb1a8a6e2b9a4c xfs/122: fix metadirino
+e9644ffcfb9ade764ee15ee3c11fffc556b229c9 various: fix finding metadata inode numbers when metadir is enabled
+e2a3b2e76ddc93d036674b3584e7a0d2118f51c1 xfs/{030,033,178}: forcibly disable metadata directory trees
+a39f5537a7540c6b5d4556935b98a31974779d1a common/repair: patch up repair sb inode value complaints
+0999a20d8e2c413608535141aa68191769cb8bb5 xfs/206: update for metadata directory support
+268474423b1fe053163f0fa2479d6102917e45d8 xfs/{050,144,153,299,330}: update quota reports to leave out metadir files
+906d806eb2cbea0cac0a7c0fa88f5ee215ac266a xfs/769: add metadir upgrade to test matrix
+2d3a51ce869940cb47f799284af2eb0fb5d4a883 xfs/509: adjust inumbers accounting for metadata directories
+803b3157906cc378dc2c1b54f3f182657f72ed7b xfs: create fuzz tests for metadata directories
+ebd639201f6db7fdb0d0234625d1e42a2e7bedf7 xfs: baseline golden output for metadata directory fuzz tests
+5fe4562d9701dad8fd716c4f3d30507b5359a75c common/populate: refactor caching of metadumps to a helper
+07f2d7bb30f37c69c7cc94970e78f9ddc9c4d381 common/populate: create helpers to handle restoring metadumps
+216b7c90c74270fb4bd53246125229aae23dbb43 common/xfs: create a helper for restoring metadumps to the scratch devs
+c2af30594da53b146a0b488dc556690caffad2c2 common/xfs: wipe external logs during mdrestore operations
+e9cb9691d338e7cc431bd0cd23a482aa37e28bb6 common/ext4: reformat external logs during mdrestore operations
+845bdadb4af4a059f34305ba24a7a7cad8dc5c85 common/populate: move decompression code to _{xfs,ext4}_mdrestore
+7ec3643f9fd04807478b7c6e90783d8f66e6b219 common/xfs: capture external logs during metadump/mdrestore
+92916c7a40bc866c8e1497dd648dacf2733661d0 xfs/122: update for rtgroups
+1f149f3bb92296bcf72490421aeeb8dd0b221f8b punch-alternating: detect xfs realtime files with large allocation units
+0b6fa56a82108975ff0f6f8be3bd1a3dc585109c xfs/206: update mkfs filtering for rt groups feature
+a9972d016aaad6e91193718b8fa4f4375d004a1e common: pass the realtime device to xfs_db when possible
+20a21b33d3dea2f20c432dac1c1a505748f779a3 common: filter rtgroups when we're disabling metadir
+8b2a00f2a4f6777b6be84045f4d19842b13401e5 xfs/185: update for rtgroups
+8df4dd8bedcf41a4c0a221dd10d04f1337392945 xfs/449: update test to know about xfs_db -R
+116829cac3f370550be3948b57924e726b111867 xfs/122: update for rtbitmap headers
+6a2c89bf1b7c7b72596922faeaaab673a799805e xfs/122: udpate test to pick up rtword/suminfo ondisk unions
+c9352fc26326e281aeb0eba7b81a60963755cc7a common/xfs: capture realtime devices during metadump/mdrestore
+97a19381459eac4ce53c62e53b10c12b5b7d66a4 common/fuzzy: adapt the scrub stress tests to support rtgroups
+458b8ef08f9e580aa155d346c6190500eb5dbebb xfs: fix tests that try to access the realtime rmap inode
+753162de026eae5f979c61312536af4ab44b8e70 xfs: race fsstress with realtime rmap btree scrub and repair
+7ea681411e744980d7f3d698c05310a235867776 xfs/769: add rtrmapbt upgrade to test matrix
+ff3749973a696ed4db99240d2d28aca0cd0203c5 xfs/122: update for rtgroups-based realtime rmap btrees
+e64a320d51fed79a8f725337583518c091b76c02 xfs: fix various problems with fsmap detecting the data device
+93f5788a86facc939a2e8a5dec2974b395551a5d xfs/341: update test for rtgroup-based rmap
+118dfec335e8a9fdaaaa0a3f234ed73c7383861c xfs/3{43,32}: adapt tests for rt extent size greater than 1
+ecb1c4fcca3314b03cc05b9b3009b41ca46e5d6d xfs: skip tests if formatting small filesystem fails
+2d3cf39c70abd00089e897cec0c575c3cd463891 xfs/443: use file allocation unit, not dbsize
+c71fd775d505cc1abb88445efb945278d2e2bb92 populate: adjust rtrmap calculations for rtgroups
+88aebda7255b1a89d7ebc36a9018a693e47b00f2 populate: check that we created a realtime rmap btree of the given height
+99587219af5fae4bd8f998340dcbac8e4ba0ffc9 xfs: skip fragmentation tests when alwayscow mode is enabled
+4f7f686b0076b6f2dcae519c532412ae1b9b925a xfs/{080,329}: add missing check for fallocate support
+9fa5b938b063702d5f7c72f8f337d5a7edf281ff xfs/326: test is not appropriate for always_cow mode
+6c779e9ed7a2c7aded81bac222d2a016937fab03 xfs/122: update fields for realtime reflink
+4ddd54165510653d9ba926afe098d0936b58a2ba common/populate: create realtime refcount btree
+18c999621b2ef059c03944af190bc0461711576f xfs: create fuzz tests for the realtime refcount btree
+b0cf7d4f461003a1ad67e9f7d9d51592465a849f xfs/27[24]: adapt for checking files on the realtime volume
+592fd35e483da93c5282423d7ee639afe70ab461 xfs/243: don't run when realtime storage is the default
+1f82c065d4af26bea9222fc1d7e16576297f60ba xfs: race fsstress with realtime refcount btree scrub and repair
+a5844d6e79c1c5c07b1d855449afa443e8a18adc xfs: remove xfs/131 now that we allow reflink on realtime volumes
+d6d45e3891c877043a8eff45afacfda6468d24d0 xfs/769: add rtreflink upgrade to test matrix
+c67e425bf8893b915b8e82bc532ccebe3d6e6e8f generic/331,xfs/240: support files that skip delayed allocation
+72e7633bccd8235620a7e14b2a51f0ee7f08ed53 common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
+d0c5e151f23380cc4621c4df8388381810e56690 xfs: baseline golden output for rt refcount btree fuzz tests
+1c1841a291986106cfe8f79808aa65e37814cecc xfs: make sure that CoW will write around when rextsize > 1
+5fb1576e5ed3e667af569a5c1eaa27e67b8bb0c3 xfs: skip cowextsize hint fragmentation tests on realtime volumes
+02a724629489c187b383727bf3fcf8506c1c5da2 misc: add more congruent oplen testing
+46fab59a97b7098b8cd25e8a8b52d313d36ed863 generic/303: avoid test failures on weird rt extent sizes
+737a2dd7463f68e3303ef73244627cc636609cc1 xfs: regression testing of quota on the realtime device
+bc0176a6abc89e3a396ba9eacac386e9c47dbb68 xfs/122: update for vectored scrub
+
+--===============6910694694140912407==--
