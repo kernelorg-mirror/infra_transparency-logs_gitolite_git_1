@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 01 Oct 2022 14:22:11 -0000
-Message-Id: <166463413137.29720.9850945067215322632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 01 Oct 2022 14:48:16 -0000
+Message-Id: <166463569638.15278.2615099386076587684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: 5226c7b9784eee215e3914f440b3c2e1764f67a8
-    new: 56e696c0f0c71b77fff921fc94b58a02f0445b2c
+  - ref: refs/heads/for-next/hardening
+    old: 607e57c6c62c00965ae276902c166834ce73014a
+    new: 2120635108b35ecad9c59c8b44f6cbdf4f98214e
     log: |
-         56e696c0f0c71b77fff921fc94b58a02f0445b2c ALSA: hda: Fix position reporting on Poulsbo
-         
-  - ref: refs/heads/master
-    old: 3c1f57a3c88ce3a9f434536ae75b97523a9a394c
-    new: f67e7391efd7dbd129beb40a8b21462fdb9926d2
-    log: |
-         56e696c0f0c71b77fff921fc94b58a02f0445b2c ALSA: hda: Fix position reporting on Poulsbo
-         f67e7391efd7dbd129beb40a8b21462fdb9926d2 Merge branch 'for-next'
+         2120635108b35ecad9c59c8b44f6cbdf4f98214e Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
          
