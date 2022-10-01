@@ -1,76 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============7604629640744579974=="
+Content-Type: multipart/mixed; boundary="===============7446924282429620110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 01 Oct 2022 10:06:33 -0000
-Message-Id: <166461879315.15209.7793999076697681806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 01 Oct 2022 10:10:44 -0000
+Message-Id: <166461904448.18260.16988506840417307896@gitolite.kernel.org>
 
---===============7604629640744579974==
+--===============7446924282429620110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 57569c37f0add1b6489e1a1563c71519daf732cf
-    new: 67d0a917fb3f9e80c3fb6098ada2080d1b425c94
-    log: revlist-57569c37f0ad-67d0a917fb3f.txt
+  - ref: refs/heads/tty-next
+    old: 468cdabe93c5fa969de65752e38c31f07a5e048d
+    new: 30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d
+    log: |
+         dfdabd3856547c3bed996134e84b9452fb19e695 serial: stm32: Fix unused-variable warning
+         8a1088116ba5ddbfcd69789b4a153733c9686cbb tty: serial: allow pxa.c to be COMPILE_TESTed
+         d8544c9c7cf77100be9340c61a9e3e88fe4bb12c tty: serial: extend lqasc_tx_ready() to lqasc_console_putchar()
+         ed9bf4aea06e36bbb3482e01061c433d703bcaff tty: serial: use FIELD_GET() in lqasc_tx_ready()
+         523f54ed3be7e23340b1c43921e39fddfe149c09 tty: serial: unify TX space reads under altera_jtaguart_tx_space()
+         12f3a5eba3c4eb0031d7db36773579e517459a41 tty: serial: do unlock on a common path in altera_jtaguart_console_putc()
+         30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d serial: cpm_uart: Don't request IRQ too early for console port
+         
 
---===============7604629640744579974==
+--===============7446924282429620110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1664618779 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1664618778-a0ce2cce78de72aca791e24bbe17fbdea2ffb260
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664619043 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1664619043-b77d2f4a2a4fe24b60d3cbb4fcc1120af923dec9
 
-57569c37f0add1b6489e1a1563c71519daf732cf 67d0a917fb3f9e80c3fb6098ada2080d1b425c94 refs/heads/for-next
+468cdabe93c5fa969de65752e38c31f07a5e048d 30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmM4ER4ACgkQ7ulgGnXF
-3j0Tfw/+IGjb9X77cxbfx4tn6wz564N91OwtO6UdGdn2hZlXrPeP5cgDEPzc7RYq
-DvZ+13jNp6S0+NjGd2EWXs7TyZbksWFiT8BNO9kNocCLahvhIwkr+g1DNMtWd1a1
-LynCLXvEMOwdmrJTf7ozDP1vqoCmENzfjFDxAD8UR9fTlX/BD0LllkS+cGI9K0vP
-1sU9grPOv04ugum5tifY/RkN3eK9x/R/qsOhXZGzzjYbfC+QMsG3oiUB827rxuAm
-dGzk4X0++BS6fzeC5ZDCnubnp/s4ezielLlK9vKQyy5l/sVITaNHnCOshC6F1Iqt
-FaBa2xWl23z97Eu4WeX/EfHNeFbz4QdKv7wxMqHP0XZnQy6xIOaK20rC0vq72Dcn
-XtHdzi41AEEXxu+DnkLQ63gjUt8bCU4K1FgcnNkIT9m6PwlBFBsmPd4KZmnks14D
-6S7AkbbJfNuzo5UhArgmVChBj6zJLQDQxfRQXBsrVQ3/i4OZqCgHx97ZqHjC9GFt
-kHjzlfQGve+LYwC/TgYiFHr9QUIwcEz+3emZoB8Bt22I0MlU+BsNFaEmyqKZSwAK
-bZhoZGZr5mL7YpK1njrtyJ05MgV4TvgzAURm1fJ3+7Lxs1kdkBR7Ca9rnRAiYWQM
-LJLqbzOhfGX9VunLIOPc9oMf9AFYgkPZKXkRM7H1I1NQIADJeKs=
-=zrrj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM4EiMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FzEP/RIHocuG/c/PRhsm9UPq
+cEwlY0kM8DP1zfC53TQb37AsiSnYE+SZ7w+GwGAEZwDgcXmWAufe0OZp+4v0Cmtw
+/sGG1IpBYA2rq4RgFZQmwKOdZKbeok/5eRosQsWTxDlH/HrBnwQPegm9KtKfXt2P
++OyfNhSVUnEzBm//Y9RHMQU5rIUWcmFLZuiELR8Yg8xBR86gRH10N5kpmks84awa
+uB5twpdAp4pZC4uordTAsHhG/CmrDzImSxrZNKBlWegsjFaHtNLXh9s1B6q5s0Vc
+NyLQNe7GSCE7ZL27Cgfo+luyK4T8YiNOobBtSkleFFt7EyCcgK4YxfCGSJxsLOic
+V9LsIi+UMoPXaiHXHH5OK5mYBZc9pWVfZ7oZXdc40VgTt1hFQtWV5x92H1YeA6V6
+K8f5HUX2h1Kv8RoE0APqAyEPK+llxdqDQ4vKpgYz6p713c5ZpN+DxPGsxRKXEwZf
+w+Pok5pJNtofJMDTjg55sAS7qSuR/teszc5zhW1EMueIUSxW7EJNmthTlfGorsKZ
++YccB7apqc+i+pQOpdYaQVFu1dkbDs15GeKrJPEOok5XH/ZiSMJShKLK24VxK8UV
+GFXAwWJRBRLs3vbhBrkDEtXN+Q3THgxhLEhM7EoGRUqUd2hKyeUU762HJmNCjv56
+WdYT0AkxAOaYwLTbYNmBGzYv
+=uLe0
 -----END PGP SIGNATURE-----
 
---===============7604629640744579974==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57569c37f0ad-67d0a917fb3f.txt
-
-1f1009ea8ca5a0271ad69afe8a86c887d530b5c8 scsi: target: core: Fix preempt and abort for allreg res
-f050a7c66ca56aa2f49ab9b53e01d04b3e7e94c5 scsi: target: core: Fix memory leak in preempt_and_abort
-49790e6a582012c36ca17174cda228444f9a2414 scsi: target: core: Abort all preempted regs if requested
-3e2deba7aa662862c8046aa24148b83b49298a9b scsi: target: core: New key must be used for moved PR
-6290e23f3bd8cee52fb8fd98980bb1eb31c8284d scsi: target: core: UA on all LUNs after reset
-9b78d8fadeee078ca947a3b44157f42035fdf8b1 scsi: megaraid_sas: Correct value passed to scsi_device_lookup()
-9b201b5dff81f298cebda10d51767cd25b432a1a scsi: megaraid_sas: Correct an error message
-17883cd59f5575ebe5b3cce2fd0f0d91738871bb scsi: megaraid_sas: Simplify megasas_update_device_list
-ad40d51992392a2336af861f83c17c0b08ca64b6 scsi: megaraid_sas: Remove unnecessary memset()
-27b571cc454e5a5939b4940ed0bf20aaf37f5225 scsi: megaraid_sas: Move megasas_dbg_lvl init to megasas_init()
-07e433614cdb91e6f85cc79d738bb0a3d8c741a2 scsi: ufs: qcom: Remove redundant dev_err() call
-3ddeabd1536a71abf2b66a577c90df84514a0af2 scsi: qla2xxx: Fix serialization of DCBX TLV data request
-f915f58e382e907e2be0b2f5472617dc13f2c390 scsi: target: iblock: Fold iblock_emulate_read_cap_with_block_size() into iblock_get_blocks()
-0b863257c17c5f57a41e0a48de140ed026957a63 scsi: qla2xxx: Use transport-defined speed mask for supported_speeds
-638eec06c7f4df8eb415a0b33dd18cc6dfc986e6 scsi: lpfc: Fix spelling mistake "unsolicted" -> "unsolicited"
-67d0a917fb3f9e80c3fb6098ada2080d1b425c94 scsi: ufs: core: Remove unneeded casts from void *
-
---===============7604629640744579974==--
+--===============7446924282429620110==--
