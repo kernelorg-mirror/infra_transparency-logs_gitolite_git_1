@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7334424123085579107=="
+Content-Type: multipart/mixed; boundary="===============1711996384981348302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 01 Oct 2022 17:28:35 -0000
-Message-Id: <166464531523.29532.16608427066727034231@gitolite.kernel.org>
+Date: Sat, 01 Oct 2022 17:28:53 -0000
+Message-Id: <166464533346.29722.6057586171949220203@gitolite.kernel.org>
 
---===============7334424123085579107==
+--===============1711996384981348302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 7f615c1b5986ff08a725ee489e838c90f8197bcd
-    new: 57569c37f0add1b6489e1a1563c71519daf732cf
-    log: revlist-7f615c1b5986-57569c37f0ad.txt
+  - ref: refs/heads/for-next
+    old: 25f59b1094c1023c1a3e54e090f7b005c70a7ad6
+    new: 9f159807a6101bbd5cb450db130bf30d7fbc774f
+    log: revlist-25f59b1094c1-9f159807a610.txt
 
---===============7334424123085579107==
+--===============1711996384981348302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f615c1b5986-57569c37f0ad.txt
+Content-Disposition: attachment; filename=revlist-25f59b1094c1-9f159807a610.txt
 
 1a77dd1c2bb5d4a58c16d198cf593720787c02e4 scsi: tracing: Fix compile error in trace_array calls when TRACING is disabled
 3d217b9ac532571335e69e64acf03a307b7acaf3 scsi: core: Make SCSI_MOD depend on BLOCK for cleaner .config files
@@ -54,5 +54,6 @@ f616efbee9d64cbd3b7b955914fea01cbdd95710 scsi: mpi3mr: Update driver version to 
 6022f210461fef67e6e676fd8544ca02d1bcfa7a scsi: stex: Properly zero out the passthrough command structure
 c863a2dcb9b0894d9ac6030c4d1ab2e7867dabcb scsi: mpi3mr: Remove unnecessary cast
 57569c37f0add1b6489e1a1563c71519daf732cf scsi: iscsi: iscsi_tcp: Fix null-ptr-deref while calling getpeername()
+9f159807a6101bbd5cb450db130bf30d7fbc774f Merge branch 'misc' into for-next
 
---===============7334424123085579107==--
+--===============1711996384981348302==--
