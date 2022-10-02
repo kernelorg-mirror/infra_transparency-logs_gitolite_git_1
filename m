@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
-Date: Sun, 02 Oct 2022 10:04:58 -0000
-Message-Id: <166470509873.27252.8027025125141741610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
+Date: Sun, 02 Oct 2022 10:05:01 -0000
+Message-Id: <166470510103.27315.14372295504163047432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/firmware
+repo: pub/scm/linux/kernel/git/jkirsher/iproute2
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: 0958301bde97756f34b67fdd25526e6cc88cdb41
-    new: fdf1a65258522edf18a0a1768fbafa61ed07e598
+  - ref: refs/heads/main
+    old: 6d4e05c1fa9b297257495bf178fe5796145caddc
+    new: 86c9664092a4d237837237e8192d1d13fc2dd473
     log: |
-         3593bb7d8f6f18c442a6b0b3f3d43e4d5d7fc2be Removing crnv32
-         0e8f546c4c66a61981fd0341ec0a84563d1cfaaa qca: Update firmware files for BT chip WCN3991.
-         375d4500d315ff20c59911d12d86b477d4979b1d mediatek: mt8195: Update scp.img to v2.0.11956
-         535482db6d6a1bc426e5961c97d7bdd78b0223f1 Merge commit '0e8f546c4c66a61981fd0341ec0a84563d1cfaaa'
-         8d198465d69393e16fc6588c95ffe95011ffdeb5 Merge branch 'mtk-20220928' of https://github.com/tinghan-shen/linux_fw_scp
-         fdf1a65258522edf18a0a1768fbafa61ed07e598 linux-firmware: Update AMD cpu microcode
+         35ad983cc8e347527f8288753c24ba7b11fd076a uapi: update of if_tun.h
+         7e0a889b54945af13b22b80bcfbb683fb310c2d0 bridge: Do not print stray prefixes in monitor mode
+         f8cf8b5db1a9672d03c5d0c6b7bc6dc2ac582f28 ip-monitor: Do not listen for nexthops by default when specifying stats
+         4e8a9914c4d459be57ddedf1df35b315e7fea8a5 ip-monitor: Include stats events in default and "all" cases
+         831f7c6f237bf071c2e573ffb84fe04887bacfcd ip-monitor: Fix the selection of rtnl groups when listening for all object types
+         86c9664092a4d237837237e8192d1d13fc2dd473 devlink: fix man page for linecard
          
