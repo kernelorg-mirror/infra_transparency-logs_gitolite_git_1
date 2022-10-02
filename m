@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5011604458748806555=="
+Content-Type: multipart/mixed; boundary="===============1387198509223876003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 02 Oct 2022 12:40:32 -0000
-Message-Id: <166471443248.8941.6466162167623385155@gitolite.kernel.org>
+Date: Sun, 02 Oct 2022 12:40:42 -0000
+Message-Id: <166471444285.9091.14409868692714212826@gitolite.kernel.org>
 
---===============5011604458748806555==
+--===============1387198509223876003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 7dbd98b1927bee4be878ab2caa13546256db40e9
     new: 10a7af60e25a6a16a07285a902b526e5d707d821
     log: revlist-7dbd98b1927b-10a7af60e25a.txt
 
---===============5011604458748806555==
+--===============1387198509223876003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ e03bb9405c49e13a5a89329c564d533d3f33c740 zstd: Fixing mixed module-builtin objec
 dc81c89d50d47b8161f45c8991021c68806568e5 kbuild: rebuild .vmlinux.export.o when its prerequisite is updated
 10a7af60e25a6a16a07285a902b526e5d707d821 Revert "kbuild: Check if linker supports the -X option"
 
---===============5011604458748806555==--
+--===============1387198509223876003==--
