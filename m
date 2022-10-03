@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 03 Oct 2022 12:27:04 -0000
-Message-Id: <166480002442.20385.6514207788026760867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 03 Oct 2022 12:30:40 -0000
+Message-Id: <166480024077.23253.6042626749620308505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ba0fbdb95da5ddd8db457ce6ba09d16dd979a294
-    new: 3a4d061c699bd3eedc80dc97a4b2a2e1af83c6f5
+    old: f75886a045531fedf4c11cf06d977a91f4cb266c
+    new: 62c07983bef9d3e78e71189441e1a470f0d1e653
     log: |
-         3a4d061c699bd3eedc80dc97a4b2a2e1af83c6f5 net/ieee802154: reject zero-sized raw_sendmsg()
+         62c07983bef9d3e78e71189441e1a470f0d1e653 once: add DO_ONCE_SLOW() for sleepable contexts
          
