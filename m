@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Mon, 03 Oct 2022 12:15:58 -0000
-Message-Id: <166479935813.12077.1608000338467941475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 03 Oct 2022 12:25:57 -0000
+Message-Id: <166479995708.19927.16820327198694825367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/streams/work-v15
-    old: 0000000000000000000000000000000000000000
-    new: 7b5d7e467027ed4bc1df695c4ed739e457c1b05b
+  - ref: refs/heads/master
+    old: 12aece8b01507a2d357a1861f470e83621fbb6f2
+    new: ba0fbdb95da5ddd8db457ce6ba09d16dd979a294
+    log: |
+         ba0fbdb95da5ddd8db457ce6ba09d16dd979a294 net: wwan: iosm: Call mutex_init before locking it
+         
