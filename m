@@ -1,20 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 03 Oct 2022 15:39:51 -0000
-Message-Id: <166481159138.27659.8891756131559815553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 03 Oct 2022 15:49:57 -0000
+Message-Id: <166481219785.1944.18057696521323562533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 72e7d3ceb83d1e8b223974478f5ca539371ab894
-    new: 615e57c2896cd9361896d0a704935c626af1f1b2
+  - ref: refs/heads/fix-af-hash-msg
+    old: de8a27ae02ef43d9d81ea0225f33d82d9018f79b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: b9b08eba7c627682b4f370491b910011df942f42
+    new: de8a27ae02ef43d9d81ea0225f33d82d9018f79b
     log: |
-         47e11dea58fb2f2eab49cfb4f9630274fc424ae2 test-runner: write out individual test results
-         615e57c2896cd9361896d0a704935c626af1f1b2 monitor: change Port ID to %u print
+         de8a27ae02ef43d9d81ea0225f33d82d9018f79b Print a visible error in LUKS2 if AF hash is not available.
+         
+  - ref: refs/heads/master
+    old: b9b08eba7c627682b4f370491b910011df942f42
+    new: de8a27ae02ef43d9d81ea0225f33d82d9018f79b
+    log: |
+         de8a27ae02ef43d9d81ea0225f33d82d9018f79b Print a visible error in LUKS2 if AF hash is not available.
+         
+  - ref: refs/merge-requests/420/merge
+    old: 1cbf9c7a81a3210ae4ed1210bb661be4448e8853
+    new: 529b2e351e573876ed4375574b5dd72c1c602fc6
+    log: |
+         de8a27ae02ef43d9d81ea0225f33d82d9018f79b Print a visible error in LUKS2 if AF hash is not available.
+         529b2e351e573876ed4375574b5dd72c1c602fc6 Merge branch 'xchacha20-random' into 'main'
          
