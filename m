@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Mon, 03 Oct 2022 08:35:01 -0000
-Message-Id: <166478610189.2740.107135724158230898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Mon, 03 Oct 2022 08:38:40 -0000
+Message-Id: <166478632002.5538.4337093237966349193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 2810b99c95b11d8b8357e5fa8baf0f2d2e4f7a0c
-    new: cbcf8722b523dcf0970ab67dc3d5ced1ea7b334e
+  - ref: refs/heads/apparmor-next
+    old: 5787d46f712f0c613a76aa6846f2de32162d73c9
+    new: 59a3ff9d0d6f800774714ae80bf1bca5ce17ee58
     log: |
-         0dbc45241dc3f8d51957d4c770c16e49387cd6c2 PCI: dwc: Replace of_gpio_named_count() by gpiod_count()
-         3db1e531e444290f0f54dd794b5cc22cf189930a PCI: imx6: Add i.MX8MP PCIe support
-         cbcf8722b523dcf0970ab67dc3d5ced1ea7b334e phy: freescale: imx8m-pcie: Fix the wrong order of phy_init() and phy_power_on()
+         59a3ff9d0d6f800774714ae80bf1bca5ce17ee58 apparmor: Fix kunit test for out of bounds array
          
