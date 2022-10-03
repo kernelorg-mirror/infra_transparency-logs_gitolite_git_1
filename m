@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2008009563341551877=="
+Content-Type: multipart/mixed; boundary="===============3195868880530164280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 03 Oct 2022 00:09:15 -0000
-Message-Id: <166475575533.4019.16391798295860163546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 03 Oct 2022 00:09:27 -0000
+Message-Id: <166475576782.4179.17959018838088469151@gitolite.kernel.org>
 
---===============2008009563341551877==
+--===============3195868880530164280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 4fe89d07dcc2804c8b562f6c7896a45643d34b2f
     log: revlist-521a547ced64-4fe89d07dcc2.txt
 
---===============2008009563341551877==
+--===============3195868880530164280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -623,4 +623,4 @@ febae48afe6063105a0fad83d8e12a6addda7c6a Merge tag 'perf-urgent-2022-10-02' of g
 a962b54e162c2977ff37905726cab29728380835 Merge tag 'i2c-for-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 4fe89d07dcc2804c8b562f6c7896a45643d34b2f Linux 6.0
 
---===============2008009563341551877==--
+--===============3195868880530164280==--
