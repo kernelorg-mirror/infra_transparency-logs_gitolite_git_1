@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 03 Oct 2022 20:06:10 -0000
-Message-Id: <166482757079.26937.10181611534386877263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Mon, 03 Oct 2022 20:08:52 -0000
+Message-Id: <166482773205.27972.17244888946550557664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: f3ea00e165ee6398e603d786ed4ae9d79dd62f0f
-    new: b3786dfc7af5cc35ac003428d100a1d3be0c15eb
+  - ref: refs/heads/clk-ofnode
+    old: 4e343bafe03ff68a62f48f8235cf98f2c685468b
+    new: 058a3996b888ab60eb1857fb4fd28f1b89a9a95a
     log: |
-         20f382e769460a6ed0f62ef7421715dc1ed045c3 foo
-         b3786dfc7af5cc35ac003428d100a1d3be0c15eb foo
+         058a3996b888ab60eb1857fb4fd28f1b89a9a95a clk: ti: Balance of_node_get() calls for of_find_node_by_name()
          
