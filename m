@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3741208360313555369=="
+Content-Type: multipart/mixed; boundary="===============7959608747959834235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 03 Oct 2022 17:52:36 -0000
-Message-Id: <166481955644.28089.7908912869370628321@gitolite.kernel.org>
+Date: Mon, 03 Oct 2022 17:52:43 -0000
+Message-Id: <166481956301.28216.15120619016267567992@gitolite.kernel.org>
 
---===============3741208360313555369==
+--===============7959608747959834235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 915b96c52763e2988e6368b538b487a7138b8fa4
-    new: 62c07983bef9d3e78e71189441e1a470f0d1e653
-    log: revlist-915b96c52763-62c07983bef9.txt
+  - ref: refs/heads/dev-queue
+    old: cfc4b12ba3acb41e112c1651b2f588e63f0ae86f
+    new: 76c908058f942f5ad479b092556717d37e9461cb
+    log: revlist-cfc4b12ba3ac-76c908058f94.txt
 
---===============3741208360313555369==
+--===============7959608747959834235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-915b96c52763-62c07983bef9.txt
+Content-Disposition: attachment; filename=revlist-cfc4b12ba3ac-76c908058f94.txt
 
 93d7c52a6eb93e58e4569bd4de95ba3b19e3cf20 selftests/net: Refactor xfrm_fill_key() to use array of structs
 0de1978852dff8643a80f20a8f44cef3f16c2db0 xfrm: Drop unused argument
@@ -180,5 +180,26 @@ d06c2aba51631bf6cd32a2f8f1edd67c110ade8a octeontx2-af: cn10k: mcs: Add debugfs s
 c54ffc73601c0a239e55911923a6e23a2a74f143 octeontx2-pf: mcs: Introduce MACSEC hardware offloading
 f75886a045531fedf4c11cf06d977a91f4cb266c Merge branch 'octeontx2-macsec-offload'
 62c07983bef9d3e78e71189441e1a470f0d1e653 once: add DO_ONCE_SLOW() for sleepable contexts
+374a85fbdf7ce0412d5d43d87271d54737c5810a e1000e: Separate MTP board type from ADP
+8aa88c9cafbab0d87a2fb44e512e821dbb886d1f ice: Add 'Execute Pending LLDP MIB' Admin Queue command
+8ddb846c01e069ecd058c280a83ee851bbe55490 ice: Handle LLDP MIB Pending change
+a3cef63d3f392cf9cfcde6ee10a5a60348cc6c47 i40e: Fix ethtool rx-flow-hash setting for X722
+7ee66262332527d1dfe6ced48f1402759672eba2 ice: Support 5 layer topology
+f1a1b906bce3d422336b8ecf00ee8b5099773e3f ice: Adjust the VSI/Aggregator layers
+f9555494464fc60252660e86da610385203d2123 ice: Enable switching default tx scheduler topology
+7e00df71dc7eade37fea97a76059a5f7a2e22bc5 ice: Add txbalancing devlink param
+1765f68b9de08ac42e3d66e4f9927ec1950cea81 ice: Document txbalancing parameter
+81d788bd5b020c574c73278024217b6a90abb05b i40e: Add appropriate error message logged for incorrect duplex setting
+f3889a08380ecca7e5d411f98137ad432f4a9bac i40e: Fix not setting xps_cpus after reset
+620bdca199101d1363b8cb38bb323e01eeaaff6b ice: Add GPIO pin support for E823 products
+3ae226f8eb1c72da82719ffa1c8fdf9577b34c3d e1000: Remove unnecessary use of kmap_atomic()
+5ed000e1391759266132f33af4b0d24d2c9b7c0a i40e: Fix DMA mappings leak
+e0151fb981ee310fb439e279d3c050a285fa17d9 igc: Correct the launchtime offset
+c901970e10cc7d99efafd88632b961c0db8dbb68 e1000e: Add e1000e trace module
+606de4113f7305d8ba8c68cba5a6b1c8caf6634f ice: Add crosstimestamping on E823 devices
+4019ceeddbad6a3cc42cba1affcd875ec581451e ixgbe: Remove local variable
+b15a09bc4b893dd20010db701f7686718a7277d2 e1000e: Add support for the next LOM generation
+fab51cb1989ccc53d355ecb248313264f6833ba9 ice: use GNSS subsystem instead of TTY
+76c908058f942f5ad479b092556717d37e9461cb e1000e: Remove unnecessary use of kmap_atomic()
 
---===============3741208360313555369==--
+--===============7959608747959834235==--
