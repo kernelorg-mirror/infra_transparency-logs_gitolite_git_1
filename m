@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 03 Oct 2022 11:56:04 -0000
-Message-Id: <166479816470.31078.6926906542639949613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 03 Oct 2022 11:57:50 -0000
+Message-Id: <166479827038.31761.7435155495118276167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/integrity-v6.1
+  - ref: refs/heads/for-6.1
     old: 0000000000000000000000000000000000000000
-    new: 6760f515b27567462fbdc4268b6ce2b1149893f2
+    new: cbddcc4fa3443fe8cfb2ff8e210deb1f6a0eea38
