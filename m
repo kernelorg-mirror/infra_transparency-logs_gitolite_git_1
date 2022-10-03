@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7036215519399942251=="
+Content-Type: multipart/mixed; boundary="===============6786041370525668168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 03 Oct 2022 14:24:37 -0000
-Message-Id: <166480707779.4878.1535092145211358159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 03 Oct 2022 14:24:43 -0000
+Message-Id: <166480708359.5003.14157839258090872386@gitolite.kernel.org>
 
---===============7036215519399942251==
+--===============6786041370525668168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 036b5c52095349c4fba6c8c7ef51e61e7a0162e4
-    new: e5ceb6b92bd2351bc92e563b774cebc9630554f3
-    log: revlist-036b5c520953-e5ceb6b92bd2.txt
+    old: d09516a1de81b9eda7ff35a8bf5b0273f07065af
+    new: c6263d91f9ab65ad2cc889ed89e410ed35277c35
+    log: revlist-d09516a1de81-c6263d91f9ab.txt
 
---===============7036215519399942251==
+--===============6786041370525668168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-036b5c520953-e5ceb6b92bd2.txt
+Content-Disposition: attachment; filename=revlist-d09516a1de81-c6263d91f9ab.txt
 
 617a0d9fe6867bf5b3b7272629cd780c27c877d9 ARM: dts: at91: sama5d27_wlsom1: don't keep ldo2 enabled all the time
 3d074b750d2b4c91962f10ea1df1c289ce0d3ce8 ARM: dts: at91: sama5d2_icp: don't keep vdd_other enabled all the time
@@ -1049,6 +1049,6 @@ e2062df704dea47efe16edcaa2316d7b5ecca64f i2c: davinci: fix PM disable depth imba
 febae48afe6063105a0fad83d8e12a6addda7c6a Merge tag 'perf-urgent-2022-10-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a962b54e162c2977ff37905726cab29728380835 Merge tag 'i2c-for-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 4fe89d07dcc2804c8b562f6c7896a45643d34b2f Linux 6.0
-e5ceb6b92bd2351bc92e563b774cebc9630554f3 selinux: add a SELinux specific README.md and SECURITY.md
+c6263d91f9ab65ad2cc889ed89e410ed35277c35 audit: add a Linux Audit specific README.md and SECURITY.md
 
---===============7036215519399942251==--
+--===============6786041370525668168==--
