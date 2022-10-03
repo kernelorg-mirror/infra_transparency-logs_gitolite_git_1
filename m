@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Mon, 03 Oct 2022 19:35:41 -0000
-Message-Id: <166482574173.5685.17147719680915831686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 03 Oct 2022 19:44:41 -0000
+Message-Id: <166482628171.10335.17450601110125582210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/asm-generic
-    old: 258382f3ca77b0e50501a0010d8c9abc2d4c51c8
-    new: 52c747bd814f599ada7a6cdb38e282090629e64e
+  - ref: refs/heads/linux-next
+    old: fa117123159976b3799c5738677e0489f8537abc
+    new: 34ec1a3f211900baecef2b655ab1017719b7b411
     log: |
-         52c747bd814f599ada7a6cdb38e282090629e64e alpha: add full ioread64/iowrite64 implementation
+         82b1ec794d701478381482264f3bfada3a7bf2d9 thermal: core: Increase maximum number of trip points
+         34ec1a3f211900baecef2b655ab1017719b7b411 Merge branch 'thermal-core' into linux-next
          
-  - ref: refs/heads/master
-    old: 258382f3ca77b0e50501a0010d8c9abc2d4c51c8
-    new: 52c747bd814f599ada7a6cdb38e282090629e64e
+  - ref: refs/heads/testing
+    old: fa117123159976b3799c5738677e0489f8537abc
+    new: 34ec1a3f211900baecef2b655ab1017719b7b411
     log: |
-         52c747bd814f599ada7a6cdb38e282090629e64e alpha: add full ioread64/iowrite64 implementation
+         82b1ec794d701478381482264f3bfada3a7bf2d9 thermal: core: Increase maximum number of trip points
+         34ec1a3f211900baecef2b655ab1017719b7b411 Merge branch 'thermal-core' into linux-next
          
