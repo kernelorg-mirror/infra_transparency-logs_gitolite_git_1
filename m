@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 03 Oct 2022 18:08:19 -0000
-Message-Id: <166482049974.7453.12475575137928043307@gitolite.kernel.org>
+Date: Mon, 03 Oct 2022 18:12:04 -0000
+Message-Id: <166482072469.10328.9917230703704715252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/tags/cgroup-for-6.1
-    old: 0000000000000000000000000000000000000000
-    new: fb73bc2cf671475761b82955b1a38e4e699b19d4
+    old: fb73bc2cf671475761b82955b1a38e4e699b19d4
+    new: 84d09908646342212379b76bf4533c82e8c27d29
