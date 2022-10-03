@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 03 Oct 2022 08:33:07 -0000
-Message-Id: <166478598714.1986.18373524462492869526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 03 Oct 2022 08:35:01 -0000
+Message-Id: <166478610189.2740.107135724158230898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 5cc52337c13efbbb945a15249d899e938d339779
-    new: 4aad4ce244239dc59e250c0d2683a38f01db7615
+  - ref: refs/heads/pci/dwc
+    old: 2810b99c95b11d8b8357e5fa8baf0f2d2e4f7a0c
+    new: cbcf8722b523dcf0970ab67dc3d5ced1ea7b334e
     log: |
-         4aad4ce244239dc59e250c0d2683a38f01db7615 libblkid: (xfs) cleanup checksum code
+         0dbc45241dc3f8d51957d4c770c16e49387cd6c2 PCI: dwc: Replace of_gpio_named_count() by gpiod_count()
+         3db1e531e444290f0f54dd794b5cc22cf189930a PCI: imx6: Add i.MX8MP PCIe support
+         cbcf8722b523dcf0970ab67dc3d5ced1ea7b334e phy: freescale: imx8m-pcie: Fix the wrong order of phy_init() and phy_power_on()
          
