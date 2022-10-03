@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 03 Oct 2022 11:42:15 -0000
-Message-Id: <166479733570.20288.13035420387298522203@gitolite.kernel.org>
+Date: Mon, 03 Oct 2022 11:47:54 -0000
+Message-Id: <166479767460.23841.13031095522711191295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 9e6fd874c7bb47b6a4295abc4c81b2f41b97e970
-    new: b43f9acbb8942b05252be83ac25a81cec70cc192
+    old: b43f9acbb8942b05252be83ac25a81cec70cc192
+    new: 12aece8b01507a2d357a1861f470e83621fbb6f2
     log: |
-         cb4b12071a4b68df323c339f60805834246b3e9e eth: lan743x: reject extts for non-pci11x1x devices
-         b43f9acbb8942b05252be83ac25a81cec70cc192 bnx2x: fix potential memory leak in bnx2x_tpa_stop()
+         12aece8b01507a2d357a1861f470e83621fbb6f2 eth: sp7021: fix use after free bug in spl2sw_nvmem_get_mac_address
          
