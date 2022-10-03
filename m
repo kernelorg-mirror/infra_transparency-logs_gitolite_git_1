@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5623088735001746786=="
+Content-Type: multipart/mixed; boundary="===============0567846259054438762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 03 Oct 2022 16:43:32 -0000
-Message-Id: <166481541224.7744.9086791686778986321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 03 Oct 2022 16:43:40 -0000
+Message-Id: <166481542081.7846.6559280301807516053@gitolite.kernel.org>
 
---===============5623088735001746786==
+--===============0567846259054438762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
 
---===============5623088735001746786==
+--===============0567846259054438762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -151,4 +151,4 @@ febae48afe6063105a0fad83d8e12a6addda7c6a Merge tag 'perf-urgent-2022-10-02' of g
 a962b54e162c2977ff37905726cab29728380835 Merge tag 'i2c-for-6.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 4fe89d07dcc2804c8b562f6c7896a45643d34b2f Linux 6.0
 
---===============5623088735001746786==--
+--===============0567846259054438762==--
