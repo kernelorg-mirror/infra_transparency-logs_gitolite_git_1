@@ -1,65 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0129760163112711768=="
+Content-Type: multipart/mixed; boundary="===============1231597256107380243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 04 Oct 2022 14:10:23 -0000
-Message-Id: <166489262346.22030.4887853377765274363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 04 Oct 2022 14:10:52 -0000
+Message-Id: <166489265231.30896.14489932055607803886@gitolite.kernel.org>
 
---===============0129760163112711768==
+--===============1231597256107380243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-stable
-    old: 0d716adfa32b328681bc520ebb0aab0088215679
-    new: f56b853aa24999f62e47987f82b611b10d183ffc
+  - ref: refs/heads/master
+    old: ac872336a3e087985f88acd20b14a3d56ac5361d
+    new: 229864c4d0d19deee4079f56b9b69797a4be9674
     log: |
-         9182c86a04563f497a8156ba4359cd25d5e96b1e Revert "drm/i915/display: Fix handling of enable_psr parameter"
-         bef6a9b547302ca9fee49aef52c3e63886ab361d Revert "drm/i915/dsi: fix dual-link DSI backlight and CABC ports for display 11+"
-         10c7b3919e6d4f72fe02e7034acb9c452b1e02ed Revert "drm/i915/dsi: filter invalid backlight and CABC ports"
-         139d38c14725b1d8442ab3f4d7378deab7a761f1 Revert "drm/i915/bios: Split VBT data into per-panel vs. global parts"
-         3f2631ce3c8fe3f84102209f0ac2ee40feb7cbc9 Revert "drm/i915/bios: Split VBT parsing to global vs. panel specific parts"
-         5f86062caf4d78e35f18f170a8d3817255b01824 Revert "drm/i915/bios: Split parse_driver_features() into two parts"
-         da42e25ec54a0a90720b701ffc1e55a4debd287b Revert "drm/i915/pps: Split pps_init_delays() into distinct parts"
-         781e4317964091801c3da70dc0a0da27ac47a1fe Revert "drm/i915: Extract intel_edp_fixup_vbt_bpp()"
-         1bae99844613c7d26cd36dd58b2f071a6f43b3c5 Linux 5.19.13
-         f56b853aa24999f62e47987f82b611b10d183ffc Merge v5.19.13
+         229864c4d0d19deee4079f56b9b69797a4be9674 move 5.19 queue back into place
          
 
---===============0129760163112711768==
+--===============1231597256107380243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664892622 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1664892620-7cc586509293d4f432d7d5c8b4c763e2917ae5fe
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664892651 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1664892650-d87498ed39523bdec1267dd52805729705a4f550
 
-0d716adfa32b328681bc520ebb0aab0088215679 f56b853aa24999f62e47987f82b611b10d183ffc refs/heads/linux-rolling-stable
+ac872336a3e087985f88acd20b14a3d56ac5361d 229864c4d0d19deee4079f56b9b69797a4be9674 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM8Ps4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pzkQAJ5CA0zvTrj+kpTSk+BP
-i7+kzAi9Vr4U1cAOsiby4WtL+OKE+V+1MJTAsAZzjuZ1cO79bt8tryJ7/U7nFhCU
-NowGGK2bJWxt1vg2yC0WFWTMLga+Pb5AjJ638M63VFYqdzgQWMPQ23DS2VxC9/Cz
-r889TdHRoBKXQNHcZzd9Ap6fFtpLAhk3deZDv0qJAHPCL7JiPPQNO0F0rnTw4QXf
-D3zJNPOgBIgsg4yuxeiOY5qI4LdxOm2l9l2jEf3KlaB2Qw5CEqPxs0z8yWi56/N5
-NylFOTYDO/8F4FVU3vTNL8BO0DlF8BWMwvE1KybRlxUQOa49MtVhDxPXQ0+9i3ZQ
-Akzia21C0sQNPjBayFaIigydN0yWPCxk9bQhSjCJD/Yk6rARvbyP3Qr6dnWB403H
-Dg4Vv9m3jpXUYdtCChO39Tb5von1pG6Di5EHFX1nHwYBRnykagyLf2ivKz+WbH86
-Hvt+ypoQwL04py0oFy0qVg9jYoYR+9+F4QQ+QCXLeYZl9aCIwP7a+M4dd36xLPEy
-2a803srN0IhaQJQ9Dyx2gSE6AYeVHiGsJGGjJct3nNymeI9uTO+9gUfZMkVh0J8p
-asGc8nrnuwG0rWB9gaGQB0YbGJweDkZU3YE1V+OLVFA0N89ViPKvFY9BVbXLtfYU
-5QLL1lmuj8ZnY4IQCAloyYMF
-=jqGu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM8PusbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K3UP/15v38+GjMUj6Uk4erov
+5Kgu6fJTCTPsWjDFCqGO2ROcwzO9cJm9VSswH5NkNmnezy7fnnIDaRv9XNexXrwL
+iYuNBoS0olekdl2HIOpO6QzP92wLBJh6eQdT+GIVRqWAFZ70qRquAl43uyJSQXqm
+tbZz8t75CidavOXnW8TB4Vzy5rlcFoeSr76gdRR9PsihrGKTLfiPE2Sm4BJUDWQJ
+kMra3cG15A+VV3063RYAe9iW3C/4IM0oxnlaD9HJrYQOK+te7VaAqSTLX/ycD5pN
+xR/mbK/PZaPc+ws2vIec+cgyXtCg3eu5SrGmGiU6NC+8R2WRjmjcZW8sqTtUKXg1
+3Jj5FEx8+NEnFEi+SA9ZG5dt4yqMxs04fujINwjCTk2F5vhtFWZedsv5QyDBksu+
+rVwxGSk+1GaTnJvBf+vJVTCF6iZzMc5rFnFUDCoXmsQ1refhvLFfCUFqtohvcn4i
+RwMr9fU3/Dpf/5De7/Ty5A5jBeGoIAeVotEAWGhR6DCD2Sx+Sd7vmg0sPKYOEne2
+rdB7ctRyLEQS0IAdpTwpjeeMqRcOwmsO9OWPGahWjJKD8+bry/3XLYZzSC/HNEeG
+9zOBiGScmXPZuLS392mAYtRVWB1Ud8xrCpY2lt+CFBRjaUneh5OUn3EgnJPUmO4k
+7KDbb1+JXU3xAXFUVPd4k+JH
+=uI4L
 -----END PGP SIGNATURE-----
 
---===============0129760163112711768==--
+--===============1231597256107380243==--
