@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 04 Oct 2022 08:50:17 -0000
-Message-Id: <166487341752.20260.8887091876305059742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 04 Oct 2022 09:15:09 -0000
+Message-Id: <166487490917.5725.11290422392958206144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/v6.1-p1
+  - ref: refs/tags/ras_core_for_v6.1_rc1
     old: 0000000000000000000000000000000000000000
-    new: 56bdca910459227d8dedeb10f3c1e5711f3d6983
+    new: f13f1ed0b46f14520bd7cd1d797d86bfbe73746c
