@@ -1,50 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5478276139954146982=="
+Content-Type: multipart/mixed; boundary="===============1388799476877645016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 04 Oct 2022 16:34:33 -0000
-Message-Id: <166490127311.31967.15512728452398932112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 04 Oct 2022 16:35:57 -0000
+Message-Id: <166490135702.1736.7208020258577260384@gitolite.kernel.org>
 
---===============5478276139954146982==
+--===============1388799476877645016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.1
-    old: 96e4abbd35adb5582573c463ccc554a644ac2434
-    new: 0c72dbc96be870e4de8f9707c9a4c6d7a641381c
-    log: |
-         0c72dbc96be870e4de8f9707c9a4c6d7a641381c Revert "ASoC: soc-component: using pm_runtime_resume_and_get instead of pm_runtime_get_sync"
-         
+  - ref: refs/tags/landlock-6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 30438ff83af231646d6d4118e38812b92ee6527c
 
---===============5478276139954146982==
-Content-Type: text/plain; charset="us-ascii"
+--===============1388799476877645016==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1664901271 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1664901271-9f52f638beb99efc0809d000896d7da7e2a99874
+pusher Mickaël Salaün <mic@digikod.net> 1664901354 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
+nonce 1664901354-997f2c8d7f2a1af91ece344aa8a367a6d8d5cc84
 
-96e4abbd35adb5582573c463ccc554a644ac2434 0c72dbc96be870e4de8f9707c9a4c6d7a641381c refs/heads/for-6.1
+0000000000000000000000000000000000000000 30438ff83af231646d6d4118e38812b92ee6527c refs/tags/landlock-6.1-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmM8YJcACgkQJNaLcl1U
-h9BWAgf/bnDmQOczozbxb315/o9uBsOxEf02yUcRYzD2yLhWXaX3iPMvwxz8qOks
-n7x/7mKpUrJRNT9lG/0CEKZmVNUqVLdgzjiPCefkYOFEA3KbQ/TlPNtL+qJ26hG+
-A7Ix6e4/NKwzNHCWI904r1l3oIs6s4V4OToSyvkt8pr3lt8uomXhpUYnAmu2674u
-L8Yg1mk3hYM9GTeQYCdqGk154kf1NXQF1biHlmms6ITYFodWlMzJ+W8+ugqONL4I
-tftzxQpjowqUgbKWUTi+SiN5Bp0v5m63Op9WjgLqHghDV2p/nImQ9CmqM2UU+tCR
-q85f1FkmMYtkDpmFNYrjGOrnSagRzg==
-=eCeL
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYzxg6hAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSa4kA/3dGovHxEGhqaAm/m/+qDhFepeHFjoQzuE4r
+BKDPq3ICAP9Shgz3wdldtF58Vkwb24CV9ULPJy5KO+Wo27ashftdCg==
+=AXln
 -----END PGP SIGNATURE-----
 
---===============5478276139954146982==--
+--===============1388799476877645016==--
