@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4557068641003110398=="
+Content-Type: multipart/mixed; boundary="===============5249087845097828095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 04 Oct 2022 17:52:01 -0000
-Message-Id: <166490592103.23798.13824625658967443554@gitolite.kernel.org>
+Date: Tue, 04 Oct 2022 17:54:39 -0000
+Message-Id: <166490607946.25067.7193694216137023042@gitolite.kernel.org>
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,393 +16,391 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: c55d542261a484ffeb3089d4ddb4bff71ac4fed5
-    new: 5ee95b87b2e2f014792c2b101717222d3837592c
-    log: revlist-c55d542261a4-5ee95b87b2e2.txt
+    old: 5ee95b87b2e2f014792c2b101717222d3837592c
+    new: 625701973aed6c6731bb0e9856d0daeb81a09eee
+    log: revlist-5ee95b87b2e2-625701973aed.txt
   - ref: refs/heads/queue/4.19
-    old: 2deede246e05d8bd04fad28f8bc9c7d7638e5a82
-    new: 5ef77755cb0f60c83173413acbb54334e9546353
-    log: revlist-2deede246e05-5ef77755cb0f.txt
+    old: 5ef77755cb0f60c83173413acbb54334e9546353
+    new: ab084b4c6bb1fcdfc4d7961a3e63e3d4b5fa7070
+    log: revlist-5ef77755cb0f-ab084b4c6bb1.txt
   - ref: refs/heads/queue/4.9
-    old: b718d24d23cac0b045210532575a4dc414a2b0ba
-    new: d4bbdf74e9e11b95bb4c364d40d4f9a6345e6fd8
-    log: revlist-b718d24d23ca-d4bbdf74e9e1.txt
+    old: d4bbdf74e9e11b95bb4c364d40d4f9a6345e6fd8
+    new: a0ebde83f18eea46259e050c114055b86ea93f27
+    log: revlist-d4bbdf74e9e1-a0ebde83f18e.txt
   - ref: refs/heads/queue/5.10
-    old: b47d29f10910bf6dc0ea5faa489d0fc2508208fe
-    new: fc941dc8fe617ba283925077cf3d814b2ff45f38
-    log: revlist-b47d29f10910-fc941dc8fe61.txt
+    old: fc941dc8fe617ba283925077cf3d814b2ff45f38
+    new: c685c8981dd544d04459e05641756206739e46c6
+    log: revlist-fc941dc8fe61-c685c8981dd5.txt
   - ref: refs/heads/queue/5.15
-    old: e136b7a4fd131d114c42be7bdeac2dafefc7254e
-    new: 2d643c420b06831cdb378100ec57de7099b71553
-    log: revlist-e136b7a4fd13-2d643c420b06.txt
+    old: 2d643c420b06831cdb378100ec57de7099b71553
+    new: dc2f8bdb310cefa547df45ec65272d3d66c64d86
+    log: revlist-2d643c420b06-dc2f8bdb310c.txt
   - ref: refs/heads/queue/5.19
-    old: 719ad15eba35176b7b104d0f44a1e161fe8d090a
-    new: 7b3b0f242447233bf8976a8fb5398291935642a6
-    log: revlist-719ad15eba35-7b3b0f242447.txt
+    old: 7b3b0f242447233bf8976a8fb5398291935642a6
+    new: d520502dca79be16efb9f38ce7cbac1219b67e16
+    log: revlist-7b3b0f242447-d520502dca79.txt
   - ref: refs/heads/queue/5.4
-    old: cb73d2cd3b800f0bc5f08568554317621b9ba2a2
-    new: 88c421d5ef25f79030ee7894564d3942c38c7dc3
-    log: revlist-cb73d2cd3b80-88c421d5ef25.txt
+    old: 88c421d5ef25f79030ee7894564d3942c38c7dc3
+    new: e6505b242ad765659ed590d2f887565553ed4d2b
+    log: revlist-88c421d5ef25-e6505b242ad7.txt
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c55d542261a4-5ee95b87b2e2.txt
+Content-Disposition: attachment; filename=revlist-5ee95b87b2e2-625701973aed.txt
 
-1be0cc7ec5659b46f5cbfac2092a282d1a801f70 uas: add no-uas quirk for Hiksemi usb_disk
-5983fc4605077f6aa69b7cc7929929cbf4f79c00 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-44e38fce7babb86a646b4d5571a7228d8789f81e uas: ignore UAS for Thinkplus chips
-a74302cc9fccdcb7fd0928e11bd7cc157627a7c8 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-7b1007e14efbfcfe76ea4a2f5087a7fb0f3e596c ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-132a1b79988e186f56ede43bc7f56621feea880f mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-a63b65e352e733e232e72ecf95824980365075e0 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-7805f3fda5ffdb17aeda8bcf6fcee93b1a583e1f mm: prevent page_frag_alloc() from corrupting the memory
-4f040380e9faab0f5a2faf58896520cf03191bdb mm/migrate_device.c: flush TLB while holding PTL
-9a442fb529e298609cdcffc2c5d3228ff76eb005 soc: sunxi: sram: Actually claim SRAM regions
-8ca1fe496e90f75e94dc96a9b6dd5d2f223e71e0 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-9eae8c57227c6cd288ab5cb307ab936ba2e9c158 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-f0e957c65806cdab1fc0cced47c97f357450961c Input: melfas_mip4 - fix return value check in mip4_probe()
-aa3b3d196670aec287da2263fa0dc981d1bc1e33 usbnet: Fix memory leak in usbnet_disconnect()
-8d44d99ab2be84bc76ab1bb7148f5acf18991beb nvme: add new line after variable declatation
-31f3f7b94d945341ab86427ab7e4670ae2c8d6a5 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-bb0ff5593bb8e6b27aa5778406eee099f067b3c3 selftests: Fix the if conditions of in test_extra_filter()
-cff217f8f62601d4bfe59e1360863864618d71e1 clk: iproc: Minor tidy up of iproc pll data structures
-5ee95b87b2e2f014792c2b101717222d3837592c clk: iproc: Do not rely on node name for correct PLL setup
+09a348510a20486459845366176c3af43f6fd123 uas: add no-uas quirk for Hiksemi usb_disk
+cf1c71cfc23c9c6bdfc2006627abc7eb514b534c usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+d17c067733d4d6d163f94e207cde52da6a4fe951 uas: ignore UAS for Thinkplus chips
+4c6072ccabdd9baef5636d6cc8233e012002489f net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+5d505e1add5e2875fce0739ef4a7caf60086eae6 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+ff6aa1521c568ac94ae3330c2e1660cf5d92d151 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+444328361ab850f89a476871d440df83fdab9354 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+db766bbbe2e34e75fa7eb0e5f85d70651da1bce3 mm: prevent page_frag_alloc() from corrupting the memory
+e6c1ba2420ed7fa5df7ad979805acdfee60e7689 mm/migrate_device.c: flush TLB while holding PTL
+c86f27c181d52cdfbc2760c8c1193bd0194ce111 soc: sunxi: sram: Actually claim SRAM regions
+e2966d0b1880bdb28e3d085b21e0eb2893aff33e soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+9d921c6852f807639ad7bbea47fb99aa37aec862 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+fe0b647a8e3b55e2625a693c2ee43843a7078431 Input: melfas_mip4 - fix return value check in mip4_probe()
+1b3c1a7b7cb0e4c88b458c67636bb4e7ede7e4cb usbnet: Fix memory leak in usbnet_disconnect()
+8bf8d4e80efb5d2c0fd3e8f69cd08f9a04e1118b nvme: add new line after variable declatation
+8830259347d5ff40da444a813ef49a314ff3079e nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+b57d510b2e4bdd275f240da808f959e6d7f6edeb selftests: Fix the if conditions of in test_extra_filter()
+3165be6c4bf56abc01a7b1ab8a96e65dbea85566 clk: iproc: Minor tidy up of iproc pll data structures
+625701973aed6c6731bb0e9856d0daeb81a09eee clk: iproc: Do not rely on node name for correct PLL setup
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2deede246e05-5ef77755cb0f.txt
+Content-Disposition: attachment; filename=revlist-5ef77755cb0f-ab084b4c6bb1.txt
 
-112ec00652086f6585150d8a9f932def4a463cd4 uas: add no-uas quirk for Hiksemi usb_disk
-77fd08801d5f76d99819ece80bc1cb78cc1d6948 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-a3543e15e24aaa39a3e37feb32ffb393705f3122 uas: ignore UAS for Thinkplus chips
-987e841454d42e7d39ac3130ab44ff4e70e1f12e net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-5cac58a309572c47a607986089ca9fd3eb15b622 ARM: dts: integrator: Tag PCI host with device_type
-fe6b18edbd7968d51818582cfd6a723f14ba8a5c ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-4be5d00842b2906bf86bf83bd9d093a4da2fd540 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-dab58ceb50e02999ddeb4ed6dff381a756470e61 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-cb3c906c6bf4bcee1eafdb246a085c369e1690ef mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-e145dfb7c156f5a99713857b3a2309d86d98392b mm: prevent page_frag_alloc() from corrupting the memory
-21dc5efdcd2d59282ecdbb4d58d14ae50937af17 mm/migrate_device.c: flush TLB while holding PTL
-d2982a20cfba9debc6cdadff61a35895c10fafaf ima: Have the LSM free its audit rule
-d8c750481b55f1efe77c99c96faacec1a5af6ae5 ima: Free the entire rule when deleting a list of rules
-1fd9dbec89f709bac85ca69f017b6015640e5cb3 ima: Free the entire rule if it fails to parse
-232ceb4b611c227c946a4ee329d359a3291c5ca0 soc: sunxi: sram: Actually claim SRAM regions
-7680f2a54f555299af8766cfaf4221ec6625397e soc: sunxi: sram: Prevent the driver from being unbound
-25840b357783b804a433a203dec2304b1d7d4978 soc: sunxi: sram: Fix probe function ordering issues
-d1a212c67edebcec31d13cfb91ff83ed1af7cad8 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-6efc60fb2670ebce017c6604432bdc0415bbd78e Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-76938cca31a7e18db0eb325003b8141625ff7a08 Input: melfas_mip4 - fix return value check in mip4_probe()
-33f560e5c0622bef4f0db9cd2463d26143b9d31d usbnet: Fix memory leak in usbnet_disconnect()
-a558b0cd5b874df1d54b62bdf73613fae0e26de5 nvme: add new line after variable declatation
-59c5c8c583af7d0462e7686acd6c75f357905335 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-680d2da73a2b2cccb3cb2c4965c9ac6cff9cc8e1 selftests: Fix the if conditions of in test_extra_filter()
-5ef77755cb0f60c83173413acbb54334e9546353 clk: iproc: Do not rely on node name for correct PLL setup
+4da50e60ed4e9256ccecd9627885b071c383f158 uas: add no-uas quirk for Hiksemi usb_disk
+f20990d77b0488068ee02f0c54f476772659fd8e usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+0978d7337df89749bc3d153951143675eb30b20c uas: ignore UAS for Thinkplus chips
+fe77b4d9012a335083401d259d55348d6ebdadea net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+3bb62f0913f6811fff025ed4b5a70de09afb0694 ARM: dts: integrator: Tag PCI host with device_type
+0f86e81174e300b5e0e4507545009286b58486e9 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+803cb258a430f4d8934d438fd862c348f7a86229 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
+b8e7990e27510c20b346ea505e1e02b3b6c005d0 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+73ca83e99cc8c2dc1d46dea7bf029b5c431e96f0 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+751693f97c3f0d755976869547a09db73df4c3cd mm: prevent page_frag_alloc() from corrupting the memory
+878236daf40ffc4b9b0ef30a6e4ab611a0b46765 mm/migrate_device.c: flush TLB while holding PTL
+2b015788ba07c754df15ce89ebc00d2a33aafd6b ima: Have the LSM free its audit rule
+7df425d2c8b8a141d2bd01760e829868e70de789 ima: Free the entire rule when deleting a list of rules
+9020944b6aa415a8f047dffafb0cb8554f6adcd4 ima: Free the entire rule if it fails to parse
+597c230718bf63ff27765a7915dbf5fa3ac798e2 soc: sunxi: sram: Actually claim SRAM regions
+ad393dead3cb3621eedbe30f793af7a584759780 soc: sunxi: sram: Prevent the driver from being unbound
+1a23861329fda95c2a8b564345796adebf3bd0f2 soc: sunxi: sram: Fix probe function ordering issues
+e779c981a6011487b06156cde580f6c8a3aa9cc1 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+04d5eb1d69c9070290f96128d9e111dd14a5901e Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+d48488354f8b4f55e1a0462b09ea0b5468ab877f Input: melfas_mip4 - fix return value check in mip4_probe()
+86df5aab974d9bab873fd9a9724ec346da7cb7a2 usbnet: Fix memory leak in usbnet_disconnect()
+f79b01fec309e99cc681824e92787a25b43bd306 nvme: add new line after variable declatation
+c79a03726f8f9a7b7567dc2c8321e9e068bc56f9 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+3f8811f86d8f0d4098b69fdebf42e8bb46bb6162 selftests: Fix the if conditions of in test_extra_filter()
+ab084b4c6bb1fcdfc4d7961a3e63e3d4b5fa7070 clk: iproc: Do not rely on node name for correct PLL setup
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b718d24d23ca-d4bbdf74e9e1.txt
+Content-Disposition: attachment; filename=revlist-d4bbdf74e9e1-a0ebde83f18e.txt
 
-b1196781df61ad32f232046e1e8c1203bcf2d203 uas: add no-uas quirk for Hiksemi usb_disk
-79402df8122695a34359fa36dcdf872943d636ef usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-9ce61a3ece8da30cd426bb6e0ef8ce7da12cc93f uas: ignore UAS for Thinkplus chips
-3ce2fa9a7227b44239a2d04b1184fcfd1c9317f4 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-186b2953d3b210eff3cd548056d6840556b0e6f7 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-18d47c2ed102302a914c59e22bae77ec18102887 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-b01b1ea6cecc8aa45828622f0518a261b426c0ca mm: prevent page_frag_alloc() from corrupting the memory
-73f450af90fc82cd6d79bc44220299675d0825f8 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-9c2efc6d92fb902eef97f5731b1a3dc50c4d5102 Input: melfas_mip4 - fix return value check in mip4_probe()
-4e338d82005e1625a0dfbdb9618de80a3af46c75 usbnet: Fix memory leak in usbnet_disconnect()
-4a862c54aeb80e83e45c41130eeaace7a8a0fcac nvme: add new line after variable declatation
-f0a500fd45a4593b8dead414522ad44089a2bb1b nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-fcd47fafc1073c01b830e594da19580387382753 selftests: Fix the if conditions of in test_extra_filter()
-9a2a8052d4e54dd304401b9850046e18ac88b0e4 clk: iproc: Minor tidy up of iproc pll data structures
-d4bbdf74e9e11b95bb4c364d40d4f9a6345e6fd8 clk: iproc: Do not rely on node name for correct PLL setup
+c21ecb6493603b02b965161d18fb7b0b9c262a1a uas: add no-uas quirk for Hiksemi usb_disk
+c395ec2e3cc38035737859872db54dc94d084a16 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+acfa5afaa0184996f4009879ab76521970d7b980 uas: ignore UAS for Thinkplus chips
+bc8ccee6765a50a638859a5d1d046745aa1a0585 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+23013233afd4db2dfeec9780052f5bc61e932563 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+71031de4920175281980e9a67a008b784db79fc0 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+adae395a3b6cf8088b5056206557e9676bb15534 mm: prevent page_frag_alloc() from corrupting the memory
+e7ebbe58b4da880b3e71cc39bf5742ba596d257f Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+704459bb915162a54c18ce21b867aae0ede0f625 Input: melfas_mip4 - fix return value check in mip4_probe()
+1d8a52c88357b5146079f630a07b91422e502545 usbnet: Fix memory leak in usbnet_disconnect()
+c28d7f900b97f1da93fe6d934b3c2fa4338000e4 nvme: add new line after variable declatation
+f1f3103a1a9bc23e1cf5c3135674ea23dea18001 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+60ef1a05add055aa278fb98cc7585b08efe5322f selftests: Fix the if conditions of in test_extra_filter()
+bf222a153d4b34381e9e6e0581b1f782757ef4cc clk: iproc: Minor tidy up of iproc pll data structures
+a0ebde83f18eea46259e050c114055b86ea93f27 clk: iproc: Do not rely on node name for correct PLL setup
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b47d29f10910-fc941dc8fe61.txt
+Content-Disposition: attachment; filename=revlist-fc941dc8fe61-c685c8981dd5.txt
 
-b19a2aafdc07b5cb82d1124387e352ae5e46ce7e thunderbolt: Add support for Intel Maple Ridge
-548e91e25c93f9086a515f02aa72197676f87b1c thunderbolt: Add support for Intel Maple Ridge single port controller
-608820501b0a1d6496c0dd4f759d184e76c07e8f ALSA: hda/tegra: Use clk_bulk helpers
-bf8b35e4c9f6dfbdd949588abbc5e99de6ab75f4 ALSA: hda/tegra: Reset hardware
-d08057b67452cc934004c770e943598187d58af3 ALSA: hda/hdmi: let new platforms assign the pcm slot dynamically
-833b9b063df0abb31ea785e0dbd5893c060a2e89 ALSA: hda: Fix Nvidia dp infoframe
-70e052fdf4cbc960a3813d9bcdf338a9ca5f544c btrfs: fix hang during unmount when stopping a space reclaim worker
-54a87815c401456bb521be4ee1fe27daa4e1997e uas: add no-uas quirk for Hiksemi usb_disk
-02fef44f80588a2ab1ba25cbe08d11be1f9214e5 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-d2160a0533199f9f96cd1f6f85f63a48c2e23227 uas: ignore UAS for Thinkplus chips
-6d696e10e614ca2ca56e7c0c9ff6898dd284e4ca usb: typec: ucsi: Remove incorrect warning
-0302387db952bd0d0f47a14466fe44cf1e6703d9 thunderbolt: Explicitly reset plug events delay back to USB4 spec value
-60d5c8a60f6cdfd7d94441854e272db0d48cff0a net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-d82db8c07c0a5c8bc5a67b57daba0140cc2b8fcc Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
-42875ac65be8835835ef655a1740e1bda8117598 clk: ingenic-tcu: Properly enable registers before accessing timers
-183081029e916728fe78871109b7a8e7e1a5263f ARM: dts: integrator: Tag PCI host with device_type
-3e2b7801ba3058e28fbd4a3623e272307491b663 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-9ebc4b26b8245976cb0270aafbc4866fb5e50d61 net: mt7531: only do PLL once after the reset
-76e160ece7b17e154866b01f44f740e5b03e1528 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
-487c5e9b41c51f6994ce267b2e8527fb3e0b908a libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-695b22c96671f454bb05ff2389b2621b4c91d593 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-79992dadcb395e4b374a5d9c5d9955b87b1ebb33 mmc: hsq: Fix data stomping during mmc recovery
-dd4918675ff4bc1ca08026e3eade65182eb614f9 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-2dfa79af708c58280eb2f6641a68c7585020d9c0 mm: prevent page_frag_alloc() from corrupting the memory
-55fe2f29bb494fddbd30828a7498c722d9b933e0 mm/migrate_device.c: flush TLB while holding PTL
-5425db1928c653e94903df176ebf7112b95d9d24 mm: fix madivse_pageout mishandling on non-LRU page
-768062ab3157683af0508ae684b919c982492b4e media: dvb_vb2: fix possible out of bound access
-6ab98e2161f1ed631519d2fe75ca2611998b902a media: rkvdec: Disable H.264 error detection
-c1f8ee95ca05180af8a4c3c6520a546a837d7b09 swiotlb: max mapping size takes min align mask into account
-0a46c5122e714229e034922da119fa31cb3d34be scsi: hisi_sas: Revert "scsi: hisi_sas: Limit max hw sectors for v3 HW"
-c3e003391d595c9a1503a32ded1c9f239b76e488 ARM: dts: am33xx: Fix MMCHS0 dma properties
-5ee2fbdda8b5bd8bcba67dadda93368284a82325 reset: imx7: Fix the iMX8MP PCIe PHY PERST support
-4ada1db312ba6f66c11d719597ef1f8f4052139a soc: sunxi: sram: Actually claim SRAM regions
-e98d98810b968e1b604afda1f008b14d3c09c73c soc: sunxi: sram: Prevent the driver from being unbound
-ae357d06b23ad85572a1354dbdbc2ac5dbc8284f soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
-c6477dd0540980e462d9c3ff0d2b72076336b1cd soc: sunxi: sram: Fix probe function ordering issues
-2b86ef0280b2653839aaa017d0702f97a6356c87 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-6b6c128fff45854a0b813d45a7204f6b78f00002 ASoC: tas2770: Reinit regcache on reset
-42a4ee955d7eb696fcbdf3f63b52fa5b22dfaed9 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-153d5f63e5b9991f564ee701434a5013ea15c067 Input: melfas_mip4 - fix return value check in mip4_probe()
-df046d967a0bb5f45df0b37ccefbe8e24dd85c8b usbnet: Fix memory leak in usbnet_disconnect()
-3acdfbfbc4041b59574295f356867030ed779fa8 net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
-fc44e9460da74f6fb1318c4e3af68df8b4cc8a5a cxgb4: fix missing unlock on ETHOFLD desc collect fail path
-f7961e1933fb7ca63a3014f86a983f6cc2c48a59 nvme: add new line after variable declatation
-4d513a7bd2a8657dc27aee2a4713fc62d7fdbe0f nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-5873822afddca7c3879e07ea57926ddd1ece18fd net: stmmac: power up/down serdes in stmmac_open/release
-0cd271a1b6f1ed0d6255b8d6f544b0d89c20d6ac selftests: Fix the if conditions of in test_extra_filter()
-da1777623d587d58afbc6ade1a9e5325a7367803 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
-00a2bcb9ccb177511c0d86ef03ac04e87decc611 clk: iproc: Do not rely on node name for correct PLL setup
-2fa51c21a1c3c0ed5d7b1c094275ac3530699910 KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
-2c60f1e754f237a2184657dff0348621e0cd07d6 x86/alternative: Fix race in try_get_desc()
-fc941dc8fe617ba283925077cf3d814b2ff45f38 ALSA: hda/hdmi: fix warning about PCM count when used with SOF
+06be6751330593a120bb374571c426b68247ec29 thunderbolt: Add support for Intel Maple Ridge
+68aecf2e21f4321055167976c4374084e13223a1 thunderbolt: Add support for Intel Maple Ridge single port controller
+37193986c35b9959c761ee2f63e13679e03c5861 ALSA: hda/tegra: Use clk_bulk helpers
+2e4a132891e49c4006242b3209e039ed4244b169 ALSA: hda/tegra: Reset hardware
+4ceaca7ae9c221a1593f0262f94ca9d13b62feb9 ALSA: hda/hdmi: let new platforms assign the pcm slot dynamically
+2020e3b6f4add518d54b2a171afeee20b3f503e8 ALSA: hda: Fix Nvidia dp infoframe
+1160e114db11f96a7ab360f5958be1d8d25e264f btrfs: fix hang during unmount when stopping a space reclaim worker
+d4c859db7f12501eea6487d56cc9206e5037a42e uas: add no-uas quirk for Hiksemi usb_disk
+334eba6a953434e92bdff79e458db6d6d0021477 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+8f11f3fc5b22898bf8521f0453891201b63dc094 uas: ignore UAS for Thinkplus chips
+1b7cdae7f61c815903e5923585b6260e1807c62a usb: typec: ucsi: Remove incorrect warning
+879aa3f060f3a4139ddab8826887d8a48f463919 thunderbolt: Explicitly reset plug events delay back to USB4 spec value
+d1ef871a0dd842c7ca0829ec988bf821389ec27e net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+c5ef0da58ea54033bb4103600332ef4e6d468acd Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
+6eec35110ff30afa6edf5466b3f4c858d283af98 clk: ingenic-tcu: Properly enable registers before accessing timers
+9c63dce34b1806ad80f2266b52addc704712fc71 ARM: dts: integrator: Tag PCI host with device_type
+de40bc1292cae47a7039e70c128d380d5ea04bbb ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+1d48ddcd8b48c7a41ce50256822a94a5d4ba9cc4 net: mt7531: only do PLL once after the reset
+80ff10092d25cba0a9103475409b1efc237c3ea1 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
+142f1bf50882bb4319f8d91c54fef419d8e869fa mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+d277dc4c7a77714a443d25683244394debeea755 mmc: hsq: Fix data stomping during mmc recovery
+afcdeca28f842e9dd32c91db13a6bc04f838b277 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+422b4036f0bf7ceb8afb3603046959cb78b7a4c8 mm: prevent page_frag_alloc() from corrupting the memory
+25cfb2e62c7c420970e4e3103176a797a726d7b3 mm/migrate_device.c: flush TLB while holding PTL
+eb1bbeb3adac222a15d2611fabb33ed86a6700d5 mm: fix madivse_pageout mishandling on non-LRU page
+d37634f19a2fc445dc5e64691c59e12a52dd75da media: dvb_vb2: fix possible out of bound access
+4e8ad585fd6566cd3eb16828b53c9a1835faa774 media: rkvdec: Disable H.264 error detection
+0377a1795702620a9761200b4fb031c6e700378d swiotlb: max mapping size takes min align mask into account
+9ab6cacd037be5dc24f05a041a08f110072adb08 scsi: hisi_sas: Revert "scsi: hisi_sas: Limit max hw sectors for v3 HW"
+0ad012f8330a9e3f3f59ada6d83f8fce910af3e5 ARM: dts: am33xx: Fix MMCHS0 dma properties
+0a2ea9214f11266a9ba9c2c4e9d72c05d95ded9f reset: imx7: Fix the iMX8MP PCIe PHY PERST support
+087da8fd2b31555e92bf8c354cb3bdbe58b99412 soc: sunxi: sram: Actually claim SRAM regions
+6059ba561819077bd6b303068582c2234692c76b soc: sunxi: sram: Prevent the driver from being unbound
+c57b41b2bd7a2186557d41fc6bca77d974bcd4ff soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
+11ff17dce05d283c6d3eacf4ee35a20df448f070 soc: sunxi: sram: Fix probe function ordering issues
+175c1d9d5fdeb5548dc137fdf91f59ce6a356f58 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+e3f645c88660857f87ed52c05ae6be50a63aa999 ASoC: tas2770: Reinit regcache on reset
+705cabd3cb558c99422aec318c64abda4a826a0e Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+8c056785d7859c1e72076473eb13f33ce0f88811 Input: melfas_mip4 - fix return value check in mip4_probe()
+1da8fe40e5b24cf877d1eccb5711e5eb467f1a77 usbnet: Fix memory leak in usbnet_disconnect()
+d26fa9d40fd088e84c728e16a9f1a0b3e8caaf05 net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
+f2237d983c60c5829c01049af35e75bf938ea664 cxgb4: fix missing unlock on ETHOFLD desc collect fail path
+59d6b9c4907d5cd133198f31787611a7545a9696 nvme: add new line after variable declatation
+a2727a35711272810ede91772b934f17a91102f3 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+aea1b90a94048395810fca551dca16db5ac3f832 net: stmmac: power up/down serdes in stmmac_open/release
+a545804756c5f35f8cbaf3fda2bf280ab9e86687 selftests: Fix the if conditions of in test_extra_filter()
+8e636772f0d98368b25909b0e85b39365467630b clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
+86d6da0879d959967235c9bfe7aab5648e8d0e19 clk: iproc: Do not rely on node name for correct PLL setup
+d27510eb4b5779865479f78e8bdb5202591cd96c KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
+40c71abf92f544854e89cbfd75642ec2e9545a69 x86/alternative: Fix race in try_get_desc()
+c685c8981dd544d04459e05641756206739e46c6 ALSA: hda/hdmi: fix warning about PCM count when used with SOF
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e136b7a4fd13-2d643c420b06.txt
+Content-Disposition: attachment; filename=revlist-2d643c420b06-dc2f8bdb310c.txt
 
-2e8e8f2fd7594f8c0212f0194dc1bced77e85862 ALSA: hda: Do disconnect jacks at codec unbind
-821e0fb3b6e5b8ab8049d9f9440ece934347dc69 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
-83c2bd976c1ecb629257d7b1c0c6fbd28d0628af ALSA: hda: Fix Nvidia dp infoframe
-eca22b0a9b2b4a9139646cdb5e13200f17d1ba24 ALSA: hda/realtek: fix speakers and micmute on HP 855 G8
-8c703ff40fa8089ebe7e73c3298cdd98dbf1568d cgroup: reduce dependency on cgroup_mutex
-6e5917f26b9f07fb29e1e6b19a4c054bfaf5e8a4 cgroup: cgroup_get_from_id() must check the looked-up kn is a directory
-83ae13730c4a47f81140c150acd3848df9d5cd94 uas: add no-uas quirk for Hiksemi usb_disk
-5758562b55039f83dac45daa925becb367ec144a usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-f712868a5e9e3ccf473d2977662ea034bfc7fde7 uas: ignore UAS for Thinkplus chips
-4df24b5d9ec977f8466789c336cfa52d08274dcf usb: typec: ucsi: Remove incorrect warning
-a3ed6399dd7dd557fb32994cdd1cda8dd5373fee thunderbolt: Explicitly reset plug events delay back to USB4 spec value
-62ed5522cedd686483c7701134a2f2b2e2102cf3 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-a9a1360920820a296bfddd81483f217a93ae1b6c Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
-54305a08061999eb52946a73313e316f62c1d43e can: c_can: don't cache TX messages for C_CAN cores
-43393d5bf16f4656866440ee9472fe85e75ac19e clk: ingenic-tcu: Properly enable registers before accessing timers
-4a83708e486ea91db2f805a79f1fa3d0cd385a4c x86/sgx: Do not fail on incomplete sanitization on premature stop of ksgxd
-d55682771da5aaf42a1e160f2c89bf35237f00ca ARM: dts: integrator: Tag PCI host with device_type
-c06e0aa73a29def27289c21a76592b0f17ff1fb7 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-6254a20a85201d6ba3066c406ba5663b3b4bf153 mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
-7ecba51897796e667f4a399959dd30fa70944527 net: mt7531: only do PLL once after the reset
-19b1a739c781ab43b236af7924f41a4f04e38337 Revert "firmware: arm_scmi: Add clock management to the SCMI power domain"
-7bad660e1765f407f909c8b1acd0964e3750188d powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
-4b1942510ebe59b204868c6a580e524a9769cc79 drm/i915/gt: Restrict forced preemption to the active context
-e912ae39fa0748442925525dc3dd142e76481c44 drm/amdgpu: Add amdgpu suspend-resume code path under SRIOV
-3804f2c8480809b6de0618ce345f5c39ae38cacf vduse: prevent uninitialized memory accesses
-ed5ac577834b93a8165d42948b1a18b94b559f86 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-e45f5de0ccc393e80ee93f389d68885107b94dd1 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-59b76a3b3cfab59e7fc512aad6bf03b7fecf2159 mmc: hsq: Fix data stomping during mmc recovery
-0c35e21c64fa6d12ba9586563a9263999f24cdc9 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-5753a51f296e206ea2f84f54a21cd09b84eb0919 mm: prevent page_frag_alloc() from corrupting the memory
-d9b55e8dc238393a65610dc563fd08f0a9d3c6dc mm: fix dereferencing possible ERR_PTR
-ad129763044138da9b3908af830aaacfa1e02747 mm/migrate_device.c: flush TLB while holding PTL
-0ed00842f48615dcb6d035a35d782ef2f660af86 mm: fix madivse_pageout mishandling on non-LRU page
-1848b44b170f1a50310be7a04ffe631af02dd7c2 mm,hwpoison: check mm when killing accessing process
-a1daadc932c2ae329e388cb4554bf507cb80ffa8 media: dvb_vb2: fix possible out of bound access
-f977bdc5793d80bdd81ba23559e8deb2480b23fb media: rkvdec: Disable H.264 error detection
-651fea87142caa9c6b02e408145cd636e32d303c media: v4l2-compat-ioctl32.c: zero buffer passed to v4l2_compat_get_array_args()
-4b2f254eb45b4bce81abeaedc1d77068cd24e203 swiotlb: max mapping size takes min align mask into account
-4af283af4f407aedcb845b9b65255fc590956684 ARM: dts: am33xx: Fix MMCHS0 dma properties
-747ddde57f0ab437611b31613f12f059cd3dc08a reset: imx7: Fix the iMX8MP PCIe PHY PERST support
-577279d1edb86f62840607e512c7d70a0696ac5d ARM: dts: am5748: keep usb4_tm disabled
-ed26403ffaffe9235e49913fa1c3c498ae117d16 soc: sunxi: sram: Actually claim SRAM regions
-ebc88a3d7c5d3106c4392a39b2d36e1f2f304823 soc: sunxi: sram: Prevent the driver from being unbound
-abec2c1616b094f0d1fc670c8918e8d7108db779 soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
-8d655627337358b3684f26bf441f8f539f7c9f68 soc: sunxi: sram: Fix probe function ordering issues
-745deb11518225a9f8a1219cc7215424d65b690c soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-1b9e838db86a87753ff2be488ad948beca83888e ASoC: imx-card: Fix refcount issue with of_node_put
-ff82e3d4f3c983f7a50eb66ce641941f000cbd86 arm64: dts: qcom: sm8350: fix UFS PHY serdes size
-bd4d2447a924248335e4a3f61b70a6bad5ebb0b5 ASoC: tas2770: Reinit regcache on reset
-a6f0917e2e00dbcff5a75d7f49456471e21debca drm/bridge: lt8912b: add vsync hsync
-0330c6a112139a9aad64aa69ea5430a91e4021c7 drm/bridge: lt8912b: set hdmi or dvi mode
-8d21df3119e67092c2fd7406794f352ef29f74f2 drm/bridge: lt8912b: fix corrupted image output
-a3e31d736a1e77a433de3fdf83f5812d6ff21789 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-3cdab367e12fd51a007e6cf8f1f0a90fe47dc125 Input: melfas_mip4 - fix return value check in mip4_probe()
-331863e9e184afa86051b731f3101e3bf2723f3e gpio: mvebu: Fix check for pwm support on non-A8K platforms
-2a8ea26b5079b7e48ba625bb3c5ae83776f19a8c usbnet: Fix memory leak in usbnet_disconnect()
-a3e1e816f4efec0dab7d5a2949ed58c7aa562c0e net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
-82c9b14fbc1372eda7a6420c7c840f24e49615cb cxgb4: fix missing unlock on ETHOFLD desc collect fail path
-63f56742bd2b6f55b66bff38c07c7b73de9b80b9 net/mlxbf_gige: Fix an IS_ERR() vs NULL bug in mlxbf_gige_mdio_probe
-256efed5b598affbfb066c795a3e7d83f39fd931 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-715f8d973ccf3380f27275b30455590ed3031dce wifi: mac80211: fix regression with non-QoS drivers
-5270f1cf2a930b18bfeabda0658d13742fcd18e0 net: stmmac: power up/down serdes in stmmac_open/release
-27e888628e6d24a23ec6b404feef552d82bd7e6a net: phy: Don't WARN for PHY_UP state in mdio_bus_phy_resume()
-f4fb86aa57d3d7c49ced44130d0c7891b82f076e selftests: Fix the if conditions of in test_extra_filter()
-a9a07cbc2de0428f449cbc66cbc2981b4221c799 vdpa/ifcvf: fix the calculation of queuepair
-4ee5474a92324a617aa84cc1c8be277bbcc50e3e fs: split off setxattr_copy and do_setxattr function from setxattr
-5b2ee147fe9fb5c433c9dc5b6275e92302f7e7a0 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
-dc6e6b81e7cb6a86b8a6d7bbd739476ff15ea0a1 clk: iproc: Do not rely on node name for correct PLL setup
-d049606b13ebd68f9401716f1ae7177c57d1b4b4 KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
-406384d81a6ebf770608a007dd142da66f998abe x86/alternative: Fix race in try_get_desc()
-2d643c420b06831cdb378100ec57de7099b71553 drm/i915/gem: Really move i915_gem_context.link under ref protection
+bf1727fa392784201b8e108ae739844ed42a63f1 ALSA: hda: Do disconnect jacks at codec unbind
+60549ab11ee8e2ca9dc1468dd7876ec0882396a9 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
+79ce9d40abe6358ba317d8816580e862d33af23f ALSA: hda: Fix Nvidia dp infoframe
+b2fa45d6d47f48e45b8bbab6d819b52302ad86e7 ALSA: hda/realtek: fix speakers and micmute on HP 855 G8
+ea3fcf5462a2bdf7053bd09385cd2f22c5fb163b cgroup: reduce dependency on cgroup_mutex
+2147be1b297dc601a33aa69428873e4083952e48 cgroup: cgroup_get_from_id() must check the looked-up kn is a directory
+d20bc9c8fa75e5ce256c02cd9883e9834b8cf0cb uas: add no-uas quirk for Hiksemi usb_disk
+379f16d57169d097f920d31706c3f5f3ed5b3ebc usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+b3a9c8ffed55fcc9dd12c52c4a6b00562335b6be uas: ignore UAS for Thinkplus chips
+f79cf7c467fbcbbef43a7fa026c7dee2f77a3bc4 usb: typec: ucsi: Remove incorrect warning
+160b7913f32a0793eb9235accdbb8f6f561c69c4 thunderbolt: Explicitly reset plug events delay back to USB4 spec value
+294cedcb30394a75bb402fd0a4933c4def832ba8 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+848541937205227f355c24835eb73718ecd1dab6 Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
+65dbcafdf5b94653b662e1315c8c74fe381ddf81 can: c_can: don't cache TX messages for C_CAN cores
+692af9a78d481f7e96bbbab43234e16688cd77d9 clk: ingenic-tcu: Properly enable registers before accessing timers
+b35e6833f2d8a831186090c01710bf2021a90ae3 x86/sgx: Do not fail on incomplete sanitization on premature stop of ksgxd
+2448f21dc34d2fef9e2daa672fc4123872e3337d ARM: dts: integrator: Tag PCI host with device_type
+85ebf719a812688faff6efc854d46493da078147 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+6e2ad4727f798e983593146ae0aea39036ff33ae mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
+c4b37f403300c0770c71f5d58b7a3b21a2b07848 net: mt7531: only do PLL once after the reset
+4bfa3f53736aefa6b099e0006ecdb040956bcbaf Revert "firmware: arm_scmi: Add clock management to the SCMI power domain"
+c4b763adb6ae5873b5e74cb7f1d5dbf26fd84eca drm/i915/gt: Restrict forced preemption to the active context
+be5cace209ac36fb081cdf0cb80632075f631882 drm/amdgpu: Add amdgpu suspend-resume code path under SRIOV
+94f7aff9d1d0f3c38e11ce152f5d889c196f0a7f vduse: prevent uninitialized memory accesses
+cebcaaedec6d140e02edff134c1101bc4f1376a2 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
+33dcf77da01e7f943fc39cd038811e46102592a0 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+b28c5513f5c07f83ad63a62a7e4b829818779636 mmc: hsq: Fix data stomping during mmc recovery
+1bc384cd44982fbd5254a0ee2b255ca13d7b2ede mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+bc746593b8e52af4a123062cfa50a062e0093501 mm: prevent page_frag_alloc() from corrupting the memory
+3ee6d280535417ae714ba7754071aa253d939dd2 mm: fix dereferencing possible ERR_PTR
+9e5566004e2c0fe6184f31ff7da36bac91862169 mm/migrate_device.c: flush TLB while holding PTL
+b47814ed57bb3d3570ab7af4b6663c2230ce87b0 mm: fix madivse_pageout mishandling on non-LRU page
+8e80f61864a1692739c2ef8558a5a70081a36745 mm,hwpoison: check mm when killing accessing process
+35bc332441a334f9d66982f89dedd95b541a5635 media: dvb_vb2: fix possible out of bound access
+f70d5dbf918e7fa201b67bba9887ee7b7ef00167 media: rkvdec: Disable H.264 error detection
+b18a7978502ccd7c2ad7213157ca972661b30d31 media: v4l2-compat-ioctl32.c: zero buffer passed to v4l2_compat_get_array_args()
+85acd5e427c53259d5fb9c4950ef107be43f2fdc swiotlb: max mapping size takes min align mask into account
+a90ffd5a095812a4b346254afa9e43a12bbf1c5e ARM: dts: am33xx: Fix MMCHS0 dma properties
+ea09063a92b97490132480daa2e0e1e71af09962 reset: imx7: Fix the iMX8MP PCIe PHY PERST support
+2178f9bfdfa8e0e525b3cab28da241d7d61db29e ARM: dts: am5748: keep usb4_tm disabled
+0f0e08cb05e736e518e1ce60ba079acf43e0b9e0 soc: sunxi: sram: Actually claim SRAM regions
+53d6914f3a96e9b8271f155db1300a0784e24932 soc: sunxi: sram: Prevent the driver from being unbound
+153964625fad1b915b90f605710089479fee0faa soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
+8b7b36e2cbeca97827285c672854ae446f65d45e soc: sunxi: sram: Fix probe function ordering issues
+164f20809076e731ace6612ef67211bb5fa24e72 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+8dbbdb9322d030b7db4c34f1f1b31cd2e50c2924 ASoC: imx-card: Fix refcount issue with of_node_put
+152b9d052d911168a5c869c3894b859a156aa92f arm64: dts: qcom: sm8350: fix UFS PHY serdes size
+eade703998537e7d1222dcee27a7f6e62d1062fd ASoC: tas2770: Reinit regcache on reset
+b39638035b187779466612a59ac865061f9c5ccb drm/bridge: lt8912b: add vsync hsync
+1fb014ed13c002acb352e6bf002dff4d34743e59 drm/bridge: lt8912b: set hdmi or dvi mode
+7812aceec9d9bae4fb5e0aa97abe716f80041e11 drm/bridge: lt8912b: fix corrupted image output
+a1bd4d99043a9d780df7c5216f7ae5bc8044c767 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+9bdc85c6acb2eb07592a1269842036ed503463ac Input: melfas_mip4 - fix return value check in mip4_probe()
+d0791bd8a4396b5ec03ef193e65c4bedff360573 gpio: mvebu: Fix check for pwm support on non-A8K platforms
+ac0636e5c90bfd056d8d43a927454bd35c5bf4ad usbnet: Fix memory leak in usbnet_disconnect()
+7306fe20a38fefc63410fde214d2400cc4dac3d7 net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
+f8942d89973d37c2f49031026cf3111521119932 cxgb4: fix missing unlock on ETHOFLD desc collect fail path
+f83118f4826098eea0aa660e3e6b1a23db73ff47 net/mlxbf_gige: Fix an IS_ERR() vs NULL bug in mlxbf_gige_mdio_probe
+6b0024fbbd1ab5afd556131fa4f66bde85151813 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+601016bed1c4f0d6502839860085970db33c7174 wifi: mac80211: fix regression with non-QoS drivers
+153a0c7bf4dbf19e8501c81b05f74664eb9a2050 net: stmmac: power up/down serdes in stmmac_open/release
+b8160b9262b82c0a562ba8b9dcdfe36ad040d042 net: phy: Don't WARN for PHY_UP state in mdio_bus_phy_resume()
+4b11f8563546a31f408df843e7029a11299490de selftests: Fix the if conditions of in test_extra_filter()
+772401c45e1263acb5882662c417ebde65690e64 vdpa/ifcvf: fix the calculation of queuepair
+33754f4f38e4c5f41481dfad93e993c1e5b12629 fs: split off setxattr_copy and do_setxattr function from setxattr
+e696903b6aeaaa0faded736f51e443bf6499f583 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
+a60c0eef17c0fa157df1bc18412eb7fd89a05a6c clk: iproc: Do not rely on node name for correct PLL setup
+51fa1637a7f7d57e6a41c3d74d2e2738fb09d02d KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
+50d2a418fcc8d1e1258e645e8dbea04f751404bb x86/alternative: Fix race in try_get_desc()
+dc2f8bdb310cefa547df45ec65272d3d66c64d86 drm/i915/gem: Really move i915_gem_context.link under ref protection
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-719ad15eba35-7b3b0f242447.txt
+Content-Disposition: attachment; filename=revlist-7b3b0f242447-d520502dca79.txt
 
-4ee1c79c4fad9fc0fac863f2352a469865b96a88 riscv: make t-head erratas depend on MMU
-d8dab7c6e8d50e3dd5b05016e26352058e8f24ff tools/perf: Fix out of bound access to cpu mask array
-e6b510cf95e08ee53701765684d6793ae270b456 perf record: Fix cpu mask bit setting for mixed mmaps
-05e509855fdc0ae526f253fa5776ce3a128d2704 counter: 104-quad-8: Utilize iomap interface
-c1800d9b787b8abca24a7d4b4a09cd72c92bce96 counter: 104-quad-8: Implement and utilize register structures
-fb83cdf9da3d9eecb4e2b8437ebb577c6c9c08dd counter: 104-quad-8: Fix skipped IRQ lines during events configuration
-8aec63814f9c527eacb1e2e1b2b9dd00ef38369f uas: add no-uas quirk for Hiksemi usb_disk
-e38ddf201e26dbbefe621b4f2afc1e2c5620b5f7 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-6969a646aeab2c2d472d00aa8e6d428d967fc603 uas: ignore UAS for Thinkplus chips
-212797ec93b59186d8343a3ab3e2e8ccad2af978 usb: typec: ucsi: Remove incorrect warning
-88863accc4ff260da55639fbfca4fb884de0f52c thunderbolt: Explicitly reset plug events delay back to USB4 spec value
-8d6150ca2997ad7ae3378913362388fb828f56cb net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-ad0455995f70284d231b991d79a52823bee067bd Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
-2ffe518be2dc3c673730577e45268a8539e21d7e can: c_can: don't cache TX messages for C_CAN cores
-372cba99a7b6cc33ce8af5939d67f957e8b13741 clk: ingenic-tcu: Properly enable registers before accessing timers
-d0c12b5139c6567551cae2f0fefe9b7ac59a0178 wifi: mac80211: ensure vif queues are operational after start
-6b376f2835465380be17a1ccf42e75033e11503f x86/sgx: Do not fail on incomplete sanitization on premature stop of ksgxd
-6a9a9124f115a0e35b5bd9007205b1e7feeedd3c frontswap: don't call ->init if no ops are registered
-d481c5a7bfa78129fb66a57d4ac345225cb38971 ARM: dts: integrator: Tag PCI host with device_type
-21d1cbfe07b021a7684d74d5e1a3a785c8402b66 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-23b71265cd35e902e4229838fe0e8ab19b8f2922 x86/uaccess: avoid check_object_size() in copy_from_user_nmi()
-49614c056d15e8c77c2baa63e6b783bdefa043c1 mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
-1b0e40e4468b5eea61623245e4d07d54e8ffbbbf net: mt7531: only do PLL once after the reset
-c196cbeb1dab2262903a3a93fed0bcd89ff7b123 Revert "firmware: arm_scmi: Add clock management to the SCMI power domain"
-12528a3f9b3dcb01626e67687c196931a0ba9d7d powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
-b346b06f17f38c4efc8434fc5da3823caf28d7f4 drm/i915/gt: Restrict forced preemption to the active context
-7eadf1a875fa249e07f8bd655efc8b3770a6c942 drm/amdgpu: Add amdgpu suspend-resume code path under SRIOV
-87f24a185873e7021db0ce19a68b0ea7aab9c959 vduse: prevent uninitialized memory accesses
-40cddc9fa85e12e6da2363c96ebabe3d9a5f0f6b libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-981ee0cc690982b01ab30953ce21c259001b11f1 mm: fix BUG splat with kvmalloc + GFP_ATOMIC
-29ce7e845159225f24c905fcc65c80209350b4fb mptcp: factor out __mptcp_close() without socket lock
-2398d35d337f167129cdf30a367509ed939cfc63 mptcp: fix unreleased socket in accept queue
-324b814e01a9b42236ff65335eaadf4e5fb2c0a6 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-f03edbcc4b8ce7934c3fa6cc8a148c316ce08f10 mmc: hsq: Fix data stomping during mmc recovery
-38d86acd758263c561a1611ee23375b0b6ae79e6 mm: gup: fix the fast GUP race against THP collapse
-4997880482011a3184ebbbd05f6d9209cda3a4b0 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-e72257bd26c2d9b97b3a8714f8ee3c3a759b3b27 mm: prevent page_frag_alloc() from corrupting the memory
-63dcaa68033d587e165ae4c824535b0b2064cc9e mm/page_isolation: fix isolate_single_pageblock() isolation behavior
-fcd5917f4e5b8c01f9846f0eb99088e39ff96649 mm: fix dereferencing possible ERR_PTR
-de383633e232b24916fc26ddb7e03b7588bf82b8 mm/migrate_device.c: flush TLB while holding PTL
-3446f318fef9f985f53bd6afa1e76d4b187ce9c5 mm/migrate_device.c: add missing flush_cache_page()
-7f9f2c9c64eecb438e2ce2033d3211b09480dfe9 mm/migrate_device.c: copy pte dirty bit to page
-0c0a9d0ca3e66d6d12926dd972ae11540d4f2ac6 mm: fix madivse_pageout mishandling on non-LRU page
-96547ccd4aa5f534e22a593ac8123b6355725022 mm: bring back update_mmu_cache() to finish_fault()
-76a3f788c760f108ef553e11c035aa61f7149d42 mm/hugetlb: correct demote page offset logic
-19fb813d40a499fe1bf0f1efe554f080f4d6b06e mm,hwpoison: check mm when killing accessing process
-c6b61832c74a8d4bddd043cd91ea3afec3bdbf59 media: dvb_vb2: fix possible out of bound access
-c762889dace42c62b6dd7b96d2f2bd37a16b2a96 media: rkvdec: Disable H.264 error detection
-315e5a2d0486ff135f3d22dcefd522f9668bd629 media: mediatek: vcodec: Drop platform_get_resource(IORESOURCE_IRQ)
-ffa9f606fd83cfac2f901539bb2e258158721343 media: v4l2-compat-ioctl32.c: zero buffer passed to v4l2_compat_get_array_args()
-4c7abe5df1af1c2be2019b9d9359cc02a8ae5938 ARM: dts: am33xx: Fix MMCHS0 dma properties
-20a543b73df1bfff6fc50dd8e9420414ee535906 reset: imx7: Fix the iMX8MP PCIe PHY PERST support
-2d3435d516ab7ceaac0ba8563224115564d08a36 ARM: dts: am5748: keep usb4_tm disabled
-88bee8ff076ff853be115fbcc9ed476446835b3b soc: sunxi: sram: Actually claim SRAM regions
-0d5fd22cfdfad4515dd995fc43338bb320406145 soc: sunxi: sram: Prevent the driver from being unbound
-0d14189396a940cd400342e09c6285e21fe7ff82 soc: sunxi: sram: Fix probe function ordering issues
-f13aafd3afb34398bb711910c4f82ce06b6d8a98 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-074438d75ca8263f9a64664b9b8951f439a975b8 ASoC: imx-card: Fix refcount issue with of_node_put
-68545e1fef7bb8d8ed628b421a80c5b55dea7970 clk: microchip: mpfs: fix clk_cfg array bounds violation
-a6535c4a9651a6f56af85a257fdee865108f3253 clk: microchip: mpfs: make the rtc's ahb clock critical
-848e404b9060f39683405df751f04ac3d44e931b arm64: dts: qcom: sm8350: fix UFS PHY serdes size
-d44bd1657f38088a5ede1bd6ed5b6fe5c9115d83 ASoC: tas2770: Reinit regcache on reset
-4cf621dd2ff68de20022a0942654a7295af4074c drm/bridge: lt8912b: add vsync hsync
-0a5a2e176f20debf7ffac25a8457696c634218e6 drm/bridge: lt8912b: set hdmi or dvi mode
-2c60fafe9e98aea3b4e508388a464c6167b22738 drm/bridge: lt8912b: fix corrupted image output
-1712cc716b1d64cb8715193867b2d49d9b591e0b net: macb: Fix ZynqMP SGMII non-wakeup source resume failure
-c9674d5bb0d1d1fb2665a88d3e5c2e17abc08e47 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-076594daf262d873d05fde2a0f606bda5f3e17ad Input: melfas_mip4 - fix return value check in mip4_probe()
-6592efbcaba871c1c4399dd6f5c984f773796fa9 gpio: mvebu: Fix check for pwm support on non-A8K platforms
-f7e73dd4b99ffce18a0327f2182aceaa1bc7725c perf parse-events: Break out tracepoint and printing
-a5c7fbabd6d9c14b92aab2a1f285d68dcbac93d7 perf print-events: Fix "perf list" can not display the PMU prefix for some hybrid cache events
-a13498f847e4bf10c9f17ff3743eb22233ccca7d perf parse-events: Remove "not supported" hybrid cache events
-6aab92db7619201a4b17690e4beb5e348e837b7e usbnet: Fix memory leak in usbnet_disconnect()
-cd5e1538542383521a112512c13463f8510ee462 net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
-dc7d845957ffce488ef9626b3efd213c26bef51e cxgb4: fix missing unlock on ETHOFLD desc collect fail path
-0bff11c5f9432e827668238624543febad4d5da1 net/mlxbf_gige: Fix an IS_ERR() vs NULL bug in mlxbf_gige_mdio_probe
-1e2dc009dceca6ce9930181bbf0f59a182a7b647 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-3066818a57d6b63ad6293a4f8c94fa2618a0f44b wifi: cfg80211: fix MCS divisor value
-ed2e53231678132547791f3d9445e5eee7456eea wifi: mac80211: fix regression with non-QoS drivers
-31db5ac3a91a8867f6d64a34034e1637dc038558 wifi: mac80211: fix memory corruption in minstrel_ht_update_rates()
-29d70e324f5dc6d61dffca0e5fe3b85eaf406ae7 net: stmmac: power up/down serdes in stmmac_open/release
-5f9b068fb22343e15812a8b91e7638b747e0402f net: phy: Don't WARN for PHY_UP state in mdio_bus_phy_resume()
-b57d14259ac9eeee99396d82821f84b9e4e0eeaf selftests: Fix the if conditions of in test_extra_filter()
-107646b3eab235ec657e6d54b8b2fb137abd11dc ice: xsk: change batched Tx descriptor cleaning
-37ec8da695abcdd695e3e379b7577b8b3461601b ice: xsk: drop power of 2 ring size restriction for AF_XDP
-beef475dafe3cf4a764e9469efd6a30759000d5d vdpa/ifcvf: fix the calculation of queuepair
-18da8ea5bb51244b434c9a9d93e672762b4f1c14 virtio-blk: Fix WARN_ON_ONCE in virtio_queue_rq()
-91a12eb93c1ec38019b23a48bfc50a8314b0f002 vdpa/mlx5: Fix MQ to support non power of two num queues
-80852d9fda8e0cd6f5add183be08e51646ef4ce5 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
-5fbd6ac4cfa756b4f7bbfcc218b2eaf33dbdb351 drm/i915/gt: Perf_limit_reasons are only available for Gen11+
-2da9309a3568c8dc03af0ef4b65406156b8025b0 clk: iproc: Do not rely on node name for correct PLL setup
-eb450be0e31f315dc5a2943629e2407d7ded1754 clk: imx93: drop of_match_ptr
-bb0453a9ec46a99faef57ede4487cb89efa8f9e2 net: mscc: ocelot: fix tagged VLAN refusal while under a VLAN-unaware bridge
-7cb252ec7277e9cfaac7e8a57fd9b79f9c6077f8 net: ethernet: mtk_eth_soc: fix mask of RX_DMA_GET_SPORT{,_V2}
-50385805942f767281c4609f20c1c2577ba090c0 perf test: Fix test case 87 ("perf record tests") for hybrid systems
-bedd803eb643ee7e04396c9b6a1a4f44c31ff9dd perf tests record: Fail the test if the 'errs' counter is not zero
-d39c91c3e7038b4936755c233b94512934a5cbff KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
-8744ec86b3522e5e1748b130c6de9ce1512829a2 x86/cacheinfo: Add a cpu_llc_shared_mask() UP variant
-5e4be88ff236eba52a3c55cdd95561557b289c2a x86/alternative: Fix race in try_get_desc()
-7b3b0f242447233bf8976a8fb5398291935642a6 damon/sysfs: fix possible memleak on damon_sysfs_add_target
+8775fa42c24d421ae722fe36fcf09e4ec8452fc2 riscv: make t-head erratas depend on MMU
+8d66d9e9d8d3936440db09c52e009ccec1916184 tools/perf: Fix out of bound access to cpu mask array
+8d8e789311562417f2ac52200e03faeab0f3b180 perf record: Fix cpu mask bit setting for mixed mmaps
+85ec33e0fe9abc1006b33e899419b740b2798c1a counter: 104-quad-8: Utilize iomap interface
+f469411bea72c48769ac9f920b11510f5f19153f counter: 104-quad-8: Implement and utilize register structures
+9834e6bb6c3bf2f0a7dbadc03852ed5b4c64c290 counter: 104-quad-8: Fix skipped IRQ lines during events configuration
+9bcb1778345fcee3671d0ac4f670cce2dfc7aa07 uas: add no-uas quirk for Hiksemi usb_disk
+48944fc5ec4b56ec03274fdc68709d4aaf0019a6 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+4c6da58fe5788b431cc4e25069f9bd8052b1945e uas: ignore UAS for Thinkplus chips
+329fa2091c8cab35d904d63d9a75d66b13e3dd14 usb: typec: ucsi: Remove incorrect warning
+028a8f71d8155ce8ad15871bb8014389040e7987 thunderbolt: Explicitly reset plug events delay back to USB4 spec value
+039fd33f199403d9e992d69d5df761f1f61f9f67 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+cb3711cf0083d3b280e330763da0bc6a291cde1a Input: snvs_pwrkey - fix SNVS_HPVIDR1 register address
+413c529e84e7dc78ff744ca85b8907c7fe8dca43 can: c_can: don't cache TX messages for C_CAN cores
+2226073969816ffc5ac92f55e54d0e869d3e7dba clk: ingenic-tcu: Properly enable registers before accessing timers
+d0920532e70a48b5985cb344968ad8d151105938 wifi: mac80211: ensure vif queues are operational after start
+485c76ceb515c5ade46c9da6c5e6797744384c2d x86/sgx: Do not fail on incomplete sanitization on premature stop of ksgxd
+880d7cb515851afc3004eb3e65ef06ea13da735f frontswap: don't call ->init if no ops are registered
+b33e654d0f2c16d1cc902845232a9d331ec4574c ARM: dts: integrator: Tag PCI host with device_type
+03fdee8394d6993e2193cd9b42c13d38148d07f2 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+b57467cf064f688f22924c7070462606e22c0f4f x86/uaccess: avoid check_object_size() in copy_from_user_nmi()
+df9629ec61f881cbd878c0d2327cae1261e028bc mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
+a0346d25f60e71a5ddd15b1e48d1025ac25c904a net: mt7531: only do PLL once after the reset
+2a3b8b3121b2f64a1ef534626b8094b348fe2f62 Revert "firmware: arm_scmi: Add clock management to the SCMI power domain"
+92c49ca72219b828bd420822aab674a9ec891486 powerpc/64s/radix: don't need to broadcast IPI for radix pmd collapse flush
+3611eaa78f8beee0ec530bba0cd18159df4c8182 drm/i915/gt: Restrict forced preemption to the active context
+d1fc644825c161b1df7433371097fd4eaa6bfdb9 drm/amdgpu: Add amdgpu suspend-resume code path under SRIOV
+7e1dd0947687dfa0dd57a289e5555e99820a0cb4 vduse: prevent uninitialized memory accesses
+e12c5de8db3e5d460d7d8ff26e9ffb6291a38fe1 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
+a141bc2abc70186e4b86b5a066cd159018359a49 mm: fix BUG splat with kvmalloc + GFP_ATOMIC
+0fa27df7542720a586bbb1ec2a1ab7a68124f60b mptcp: factor out __mptcp_close() without socket lock
+ee2e0ac1710f7f77c52df24a3ff6d572e5cf52c3 mptcp: fix unreleased socket in accept queue
+69b43aa0d8d357ed325548306c299046e482f3df mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+25c899e778c0e62d01870b633e6d72890c3de220 mmc: hsq: Fix data stomping during mmc recovery
+cf03b076e63e5fff1cf9a5536f69c6ecf8856bd2 mm: gup: fix the fast GUP race against THP collapse
+86d691db75e790ef3ac612b531550bf512ec5b38 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+c06ecdca6586a2f2cb8493796c7dd28566eced27 mm: prevent page_frag_alloc() from corrupting the memory
+341a04d3fa4728aad787f0d2ccfc64b517b8f7df mm/page_isolation: fix isolate_single_pageblock() isolation behavior
+33d38a427472f440526b54cf1ff6687f50a8fdce mm: fix dereferencing possible ERR_PTR
+4e368b3d1fa021abd346a9e01587f9ec495cafe8 mm/migrate_device.c: flush TLB while holding PTL
+7635cb30169885e24dd8b77619f204a31d14ebf0 mm/migrate_device.c: add missing flush_cache_page()
+f86fbd93a13f250f9110de8e3205d79f19eb0b9c mm/migrate_device.c: copy pte dirty bit to page
+25396df83b4a9b9264227d83025a6f12680c4e15 mm: fix madivse_pageout mishandling on non-LRU page
+ec531d9dca6bb3d476a269f73f73fe3d72752df4 mm: bring back update_mmu_cache() to finish_fault()
+b4a37fe3b92e272d9678ddcd8181cb0e3b6c2d50 mm/hugetlb: correct demote page offset logic
+b11b0aaf79433d58284957d8b0ae5a29c548492a mm,hwpoison: check mm when killing accessing process
+98dfb238ff4baa90636bcd79a4a50fa78919d715 media: dvb_vb2: fix possible out of bound access
+265b4188bfe33c0b74c4476773549b54098da869 media: rkvdec: Disable H.264 error detection
+6075d1f0b91255ce49471cb94e9acb84cac9bb81 media: mediatek: vcodec: Drop platform_get_resource(IORESOURCE_IRQ)
+c2516a053a45b1715823431b5728c0e0f345f891 media: v4l2-compat-ioctl32.c: zero buffer passed to v4l2_compat_get_array_args()
+1202ab011e5020e3c9fd9534bc445561db0c2892 ARM: dts: am33xx: Fix MMCHS0 dma properties
+a85a353ac4d65558eabc7b0eab1b3ce3e682c034 reset: imx7: Fix the iMX8MP PCIe PHY PERST support
+e71084e8ad592fba7c2448b04b6abcaeb1ecb53e ARM: dts: am5748: keep usb4_tm disabled
+dd272aca3cd8482147ce45b7be97544dfeef25cb soc: sunxi: sram: Actually claim SRAM regions
+87868b7b94a53da5a4c5bbdda997cb2fde557983 soc: sunxi: sram: Prevent the driver from being unbound
+ccdf691d7f3c0e2e11c7b341b907e98409c77aa4 soc: sunxi: sram: Fix probe function ordering issues
+9a924e0450639d1863d0348078b4be355e11419c soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+b93638825e1f1c9ec46671d30094eacdeac1ed73 ASoC: imx-card: Fix refcount issue with of_node_put
+8ae81932e3932b9e568e161b8ed0ac39e532a152 clk: microchip: mpfs: fix clk_cfg array bounds violation
+b6dae72b9e9a69951df273e94bca7def7dcf0922 clk: microchip: mpfs: make the rtc's ahb clock critical
+440471dbd63147f999c78c615fac0bc2c42259c0 arm64: dts: qcom: sm8350: fix UFS PHY serdes size
+4332e288fa33b93925679ae21e0a07a314f745c8 ASoC: tas2770: Reinit regcache on reset
+b748a394a5b466ea616087378802258b8427a274 drm/bridge: lt8912b: add vsync hsync
+116e2d401b71a93c50c847bdb6971c34ab0c5b6d drm/bridge: lt8912b: set hdmi or dvi mode
+73356117efed2a1c37be506195a122030ea3eb54 drm/bridge: lt8912b: fix corrupted image output
+e930730e6b5492492c6c47ee36e8ee0afff198e2 net: macb: Fix ZynqMP SGMII non-wakeup source resume failure
+71d7de4b1493e4f973937170ae9b39f9cd61e39b Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+bd448c6825cd7b2f624e960a820336b3c2363e10 Input: melfas_mip4 - fix return value check in mip4_probe()
+7712ae1933a3a53c71a577d7f31917e25c00d82b gpio: mvebu: Fix check for pwm support on non-A8K platforms
+8d4f03eb98258472747554c73c082a68a7545f19 perf parse-events: Break out tracepoint and printing
+c3a3c97a19a80ebaf043f40c12320bd3df2eb6be perf print-events: Fix "perf list" can not display the PMU prefix for some hybrid cache events
+168e2e528b5f7258de880a5cde51d1e00462ac63 perf parse-events: Remove "not supported" hybrid cache events
+0072b6c9ca5854fed14fcc3c1aef3a1ba596e053 usbnet: Fix memory leak in usbnet_disconnect()
+7d67d63cda4cd97c2facf7c1b194686dfeaf891b net: sched: act_ct: fix possible refcount leak in tcf_ct_init()
+1a4ce6afdb05c069105d0cc7811694ce73369ca9 cxgb4: fix missing unlock on ETHOFLD desc collect fail path
+24bae9a9b84d471989e87945255dbd8696d2d450 net/mlxbf_gige: Fix an IS_ERR() vs NULL bug in mlxbf_gige_mdio_probe
+829c244afeadc7d4f358c2a4dba063ce39154778 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+41b2c3f25d949445aba0897aa3ce9d92b85a577b wifi: cfg80211: fix MCS divisor value
+690e6985785c405123caaaf7d6e1200a67a70f5e wifi: mac80211: fix regression with non-QoS drivers
+67e1dfc2ceaf2a2ac9635d3a8d6851853ee4e8b7 wifi: mac80211: fix memory corruption in minstrel_ht_update_rates()
+4c231af05bb8a28922d9a13c27b4012b722234ec net: stmmac: power up/down serdes in stmmac_open/release
+1f1e94080a5cc11b0d092c4368a58de104f83408 net: phy: Don't WARN for PHY_UP state in mdio_bus_phy_resume()
+7bbc4c621bddd2621b4656b2580bc3f226472a29 selftests: Fix the if conditions of in test_extra_filter()
+b036493f7932ad5f5532a48caa22faafaa636dfe ice: xsk: change batched Tx descriptor cleaning
+a600ee08425f81e467804becaa96f5657621308b ice: xsk: drop power of 2 ring size restriction for AF_XDP
+1e45b4fd87448cabe6536b82b8b9f1f1b399784a vdpa/ifcvf: fix the calculation of queuepair
+37402a74f8e92fcf9d909d3ca28b9a703c4c96ab virtio-blk: Fix WARN_ON_ONCE in virtio_queue_rq()
+f4378bc825223482ae68dbb8abcf6f0ff5c55c75 vdpa/mlx5: Fix MQ to support non power of two num queues
+e70ac03a14b797cf2a75f32215a1f063ba755f43 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
+06b53a4f976301107729ddb2d0c55226948a28b0 drm/i915/gt: Perf_limit_reasons are only available for Gen11+
+cf2086ce6c8f51c00d839a948753303f6ff966b1 clk: iproc: Do not rely on node name for correct PLL setup
+a1beb99e3b9e1b3e48ee093c91e8a1e134b41ac0 clk: imx93: drop of_match_ptr
+99a4c85553518f382c4dd355506fdb1d2cf158b5 net: mscc: ocelot: fix tagged VLAN refusal while under a VLAN-unaware bridge
+826f70b8611814503897b2afc9d5423a841bcf49 net: ethernet: mtk_eth_soc: fix mask of RX_DMA_GET_SPORT{,_V2}
+2ee3f20c130b8aaf2f979e780287c192bfd1026d perf test: Fix test case 87 ("perf record tests") for hybrid systems
+77dad32d0d00adf3d02d51c4880ed087cd96f113 perf tests record: Fail the test if the 'errs' counter is not zero
+8778da93faab5c3b9681fb86839ea39f3073f147 KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31:0] from the guest
+93149413c24badf25b2b08fbca331812eee4ccc9 x86/cacheinfo: Add a cpu_llc_shared_mask() UP variant
+2a1e6b42b295d662f252a69a7b9198e5d05b30c7 x86/alternative: Fix race in try_get_desc()
+d520502dca79be16efb9f38ce7cbac1219b67e16 damon/sysfs: fix possible memleak on damon_sysfs_add_target
 
---===============4557068641003110398==
+--===============5249087845097828095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb73d2cd3b80-88c421d5ef25.txt
+Content-Disposition: attachment; filename=revlist-88c421d5ef25-e6505b242ad7.txt
 
-75131ca72167738895c44dfa1773c1e271e3c955 uas: add no-uas quirk for Hiksemi usb_disk
-cdaa5cb4a8beb7e9959d0b3ab511e341bf929d83 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-760798c6b18bb7bbcf0c6ca0291b7742b503df14 uas: ignore UAS for Thinkplus chips
-4343095b8a217a25ace144b96a298c267deb53ce net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-9a558f48c9d2b123b88541994504874f6a72975a clk: ingenic-tcu: Properly enable registers before accessing timers
-c17b74d9ec3bf6475a8b58c1e31c4eb0eee8d2e4 ARM: dts: integrator: Tag PCI host with device_type
-ce1e54bca46c4c86685cd39b9dbaec7c5f11d972 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-47cafaa1b716659f8d49595968fbbbe777056872 Revert "net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()"
-2d8fa082981fd60f4d538f87cbb3e67bdecef71e libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-ac785f9c496ddbbfbe1cdc4cc3ddcc248f4303f9 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-3f6b36b0fea02d3d5c1b32e5de4e18e9c9121284 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-cc68b8606427304a18485f0cc2e24a94cc91bee6 mm: prevent page_frag_alloc() from corrupting the memory
-056e923b17c35ffe5e4a14d386db95a9f7968e9c mm/migrate_device.c: flush TLB while holding PTL
-84a9727ecf8ec577238c93fc830ef3b7347f152e mm: fix madivse_pageout mishandling on non-LRU page
-4d0865a5d01bccfeb3447dbc996d7e12c587e2f9 media: dvb_vb2: fix possible out of bound access
-73f163327fd8f279ee5196ca049b8f2bcbead5f5 ARM: dts: Move am33xx and am43xx mmc nodes to sdhci-omap driver
-08ee75973fb62cc7f3296cc4c5e3bd871aa02641 ARM: dts: am33xx: Fix MMCHS0 dma properties
-312e175d0f287f90b63253e37e80a295df7fae8e soc: sunxi: sram: Actually claim SRAM regions
-b5c27bad4329432bf61f03b865180d20b018ed99 soc: sunxi: sram: Prevent the driver from being unbound
-74b5ca2d63b14c41106d3c5cebd70f26d4a86f43 soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
-1fc9b5b96d7c05cae474957342b304aecf436c53 soc: sunxi: sram: Fix probe function ordering issues
-57db86ee1d1282321f83daf8b2d816bc2984f591 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-b7f97242c1c1c6887213d4435772fa71175cd035 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-f82b98dca22f04a1cb0b67c8439dfd5c921b33d7 Input: melfas_mip4 - fix return value check in mip4_probe()
-cceae111b55f744b20ce8b1dee2f63854b0ec7b4 usbnet: Fix memory leak in usbnet_disconnect()
-9d1c296884047202a726ccb5d95286f72d94c5e5 nvme: add new line after variable declatation
-6190e1ef0203bf2c10950dd43ab5d00a89b22a1d nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-1e407baf69f3b4365b40c78d53185048120c11cb selftests: Fix the if conditions of in test_extra_filter()
-622db2ab4fe92749dbcd7b9854278b97da01c4f5 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
-88c421d5ef25f79030ee7894564d3942c38c7dc3 clk: iproc: Do not rely on node name for correct PLL setup
+c882f0a69f0e0e26bd36a6672aaaf6488eb502cd uas: add no-uas quirk for Hiksemi usb_disk
+3e960349aa22e60b84eee2322de5eedd14cae341 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+5a47fcbfe720d03f24ff6e971b4ae41b1a954d8b uas: ignore UAS for Thinkplus chips
+b73c0327d8472cd7d0494a961658325dc4b8a4b1 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+8acd37f66b9f17feff4584045f0c849f8d66aa47 clk: ingenic-tcu: Properly enable registers before accessing timers
+f0e7026d07173e7fe482fef425b0a99accfe14a9 ARM: dts: integrator: Tag PCI host with device_type
+d13dfaf0299d6f3465c5e15725912211ac3546bb ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+c38782aee2b41e8d20f03c0add0cb0c6a1dcd896 Revert "net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()"
+30f84f86095093fabf8ff4fb89d0e4f16cdd363d libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
+412569cfdcf6a2135990eaca4e450617808c0e16 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+61a16c2496c6fac02fa15c33e5891bc6f76491be mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+9a22ab7b4c3d49ca5553c48c5d9a0a979ad999ad mm: prevent page_frag_alloc() from corrupting the memory
+245c82b224c9e9d2fa65af462570162156c9fa49 mm/migrate_device.c: flush TLB while holding PTL
+f5dba638bf8a3841fc492288d7b419385b4025f2 mm: fix madivse_pageout mishandling on non-LRU page
+1e56c25005714c2090bc3c2eccad83b1014db4bc media: dvb_vb2: fix possible out of bound access
+a8f78b305522383573be128d748a60014850f168 ARM: dts: Move am33xx and am43xx mmc nodes to sdhci-omap driver
+320411f10808c4d70a88e8a0e15695982ef424b9 ARM: dts: am33xx: Fix MMCHS0 dma properties
+85d5c6dbad0e158f62c89c15b4334df4e70b00c9 soc: sunxi: sram: Actually claim SRAM regions
+2a49682976a694eb9e0f963f0c77b1a5a3377c7e soc: sunxi: sram: Prevent the driver from being unbound
+cc9e75e51f6676215922d1f21562e956278bb354 soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
+7f79e702d999164fd1516e421fd9b108f41ae6c8 soc: sunxi: sram: Fix probe function ordering issues
+91ddf5ca0a4b1b2a44241178cfd7da6ad661770a soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+08325b17af27618f34c8e1569aa0ab1402286b49 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+576cbf5e987411297c48fb2f3df978bd1688b4d5 Input: melfas_mip4 - fix return value check in mip4_probe()
+242c6421e7e2d958daf862f5d1df00fb40168e5b usbnet: Fix memory leak in usbnet_disconnect()
+f209d63aca02e3a9f8ecfcb561f3c33c956fefe9 nvme: add new line after variable declatation
+77aafe6aced64260fd5d52bca1909979dc8a9e66 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+cc1ca45e0364d2e0eb8bdab5b10ca3ee46ceacf8 selftests: Fix the if conditions of in test_extra_filter()
+e9442d095bdc5299812eb93a4c09fc5cd8981dee clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
+e6505b242ad765659ed590d2f887565553ed4d2b clk: iproc: Do not rely on node name for correct PLL setup
 
---===============4557068641003110398==--
+--===============5249087845097828095==--
