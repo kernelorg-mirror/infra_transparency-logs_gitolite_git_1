@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 04 Oct 2022 22:32:45 -0000
-Message-Id: <166492276559.27947.16803162853765535287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 04 Oct 2022 22:42:18 -0000
+Message-Id: <166492333855.1981.18073332579392496013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/riscv-fix_toolchain_ext_detection
-    old: 0000000000000000000000000000000000000000
-    new: 46b491be73932a22f5fba570446475d1ce504548
+  - ref: refs/heads/irq/irqchip-fixes
+    old: 1b00adce8afdb842615a5bf3774510f14a9b769a
+    new: e4a7e67a08ac409f1485c82a2190636d5c81b932
+    log: |
+         e4a7e67a08ac409f1485c82a2190636d5c81b932 irqchip/imx-mu-msi: Fix wrong register offset for 8ulp
+         
