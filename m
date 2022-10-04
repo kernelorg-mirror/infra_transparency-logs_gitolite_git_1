@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 04 Oct 2022 07:27:38 -0000
-Message-Id: <166486845825.27147.5295540682972462898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 04 Oct 2022 08:09:50 -0000
+Message-Id: <166487099026.22794.3508781575494006503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.2
-    old: 8c071622822441f22680b2559acfc99909313fd4
-    new: ba4bf53c3f48e2634500864076a79edbce8289ae
-    log: |
-         7f969e1a42b8c7ee30692ee5b6918b3dce858bab clk: renesas: r8a779g0: Add SYS-DMAC clocks
-         7608bdbaf44556f0cf149eca6d8b67d39d5fd12c clk: renesas: r8a779g0: Add MSIOF clocks
-         ba4bf53c3f48e2634500864076a79edbce8289ae clk: renesas: r8a779g0: Add INTC-EX clock
-         
+  - ref: refs/tags/edac_updates_for_v6.1
+    old: 0000000000000000000000000000000000000000
+    new: 55fd3418b33482b1859304ca08a91bef69e2ce7d
