@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Oct 2022 05:04:44 -0000
-Message-Id: <166485988491.23573.15563597280241536092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 04 Oct 2022 05:09:34 -0000
+Message-Id: <166486017417.27078.15545139802102930312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/net-next-6.1
-    old: 0000000000000000000000000000000000000000
-    new: f8f80733625ae05404acc90b753ec1bd97c28bdd
+  - ref: refs/heads/master
+    old: a206a2d21c2862e0b7c49c1bab217a0acd9f0b23
+    new: 3960899d937159a6019bc65fbd150fadf24e1e7f
+    log: |
+         3960899d937159a6019bc65fbd150fadf24e1e7f Tue Oct  4 05:07:54 AM UTC 2022
+         
