@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 04 Oct 2022 15:14:31 -0000
-Message-Id: <166489647177.8374.16731962990156447162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Tue, 04 Oct 2022 15:15:51 -0000
+Message-Id: <166489655189.10466.16461976062088655178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/main
-    old: 86c9664092a4d237837237e8192d1d13fc2dd473
-    new: 4b50a646d826fc51962173a3509d9ff9132d8eac
+  - ref: refs/heads/master
+    old: 5aeb34ee72c055d886034c8d0b54c29bd49ad9fb
+    new: c46a09cf1d8e4e34b64f06132acf2effbc85e48d
     log: |
-         4b50a646d826fc51962173a3509d9ff9132d8eac ss: fix duplicate include
+         c46a09cf1d8e4e34b64f06132acf2effbc85e48d sme: Fix sign-extension bug in SMCR_EL3 write
          
