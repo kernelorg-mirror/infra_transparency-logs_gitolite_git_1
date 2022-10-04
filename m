@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3566471390451673238=="
+Content-Type: multipart/mixed; boundary="===============7968928931855263632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Tue, 04 Oct 2022 13:00:53 -0000
-Message-Id: <166488845329.14163.9285246259755907065@gitolite.kernel.org>
+Date: Tue, 04 Oct 2022 13:02:08 -0000
+Message-Id: <166488852823.14681.2513563699750801756@gitolite.kernel.org>
 
---===============3566471390451673238==
+--===============7968928931855263632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dm-cryptsetup
     old: 754e0b0e35608ed5206d6a67a791563c631cec07
-    new: 725737e7c21d2d25a4312c2aaa82a52bd03e3126
-    log: revlist-754e0b0e3560-725737e7c21d.txt
+    new: 21d0cb927f4dd84584d362f1834d7c48ef3e0f3a
+    log: revlist-754e0b0e3560-21d0cb927f4d.txt
 
---===============3566471390451673238==
+--===============7968928931855263632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-754e0b0e3560-725737e7c21d.txt
+Content-Disposition: attachment; filename=revlist-754e0b0e3560-21d0cb927f4d.txt
 
-1706623e940347ad23fdf77910eca4905dc37f91 perf dlfilter dlfilter-show-cycles: Fix types for print format
 8f7115c1923cd11146525f1615beb29018001964 drm/panel-edp: Fix delays for Innolux N116BCA-EA1
 75c523ac0c07a3f0a8eb5c6eb156cd7b3e50924f Merge tag 'nvme-6.0-2022-09-08' of git://git.infradead.org/nvme into block-6.0
 b1d27aa3b16a4689d5598abc545a88e5cda93f1d Merge tag 'regmap-fix-v6.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
@@ -1050,5 +1049,6 @@ f4309528f3dec3ead08cd4bd09e0e5fe081ab9f9 Merge tag 'dlm-6.1' of git://git.kernel
 438b2cdd17a6c9df607f574bd13b6b637795a411 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 5779aa2dac9a8dcad89b3774ee354de8b453ab21 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 725737e7c21d2d25a4312c2aaa82a52bd03e3126 Merge tag 'statx-dioalign-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+21d0cb927f4dd84584d362f1834d7c48ef3e0f3a dm-verity: Add documentation for try_verify_in_tasklet option.
 
---===============3566471390451673238==--
+--===============7968928931855263632==--
