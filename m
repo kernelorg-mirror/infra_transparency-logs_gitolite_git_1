@@ -1,19 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============5219323896165275076=="
+Content-Type: multipart/mixed; boundary="===============3284879697782519207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 04 Oct 2022 23:08:02 -0000
-Message-Id: <166492488261.20244.12352395559681170628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 04 Oct 2022 23:14:11 -0000
+Message-Id: <166492525132.24203.16497819578067276241@gitolite.kernel.org>
 
---===============5219323896165275076==
+--===============3284879697782519207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
     old: 0152dfee235e87660f52a117fc9f70dc55956bb4
@@ -22,8 +22,23 @@ changes:
   - ref: refs/tags/v6.0
     old: 0000000000000000000000000000000000000000
     new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
+  - ref: refs/tags/v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 035064d655edeefd7ea1aa65dd12bac26ab1b3c3
+  - ref: refs/tags/v6.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
+  - ref: refs/tags/v6.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 52868a8b445605ea56831f92b5607ae3183f09bd
+  - ref: refs/tags/v6.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
+  - ref: refs/tags/v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
 
---===============5219323896165275076==
+--===============3284879697782519207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1069,4 @@ c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://
 522667b24f08009591c90e75bfe2ffb67f555498 Merge tag 'landlock-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 0326074ff4652329f2a1a9c8685104576bd8d131 Merge tag 'net-next-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============5219323896165275076==--
+--===============3284879697782519207==--
