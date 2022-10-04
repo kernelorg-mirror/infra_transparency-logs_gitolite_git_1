@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 04 Oct 2022 20:30:06 -0000
-Message-Id: <166491540637.6706.798862091869769033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 04 Oct 2022 20:30:27 -0000
+Message-Id: <166491542727.6923.13020545835912149680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 793b868671d14f9a3e4fa76ac129545987084a8d
-    new: 0474b83f022f1f1cc14208c05b7ccda682e01263
+  - ref: refs/heads/dev
+    old: 2958e881d590134eb9a1b55cecb4b40b78f8d866
+    new: 0f66ce7d3f878076e79464288def7726420c9b8e
     log: |
-         ac0a7e39f048e68aa102b4543a8b411b430ca007 Android: Fix the build of the 'sg' engine
-         6a2ecfdb4befef491e13106598517889f9793e4c Android: Enable the 'sg' engine
-         0474b83f022f1f1cc14208c05b7ccda682e01263 Merge branch 'master' of https://github.com/bvanassche/fio
+         43a4df5bd26b14c3b3ebbe64e28729973e9dc467 f2fs: allow direct read for zoned device
+         0f66ce7d3f878076e79464288def7726420c9b8e f2fs: correct i_size change for atomic writes
          
