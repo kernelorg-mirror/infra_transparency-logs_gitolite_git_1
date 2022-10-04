@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7371412149189404667=="
+Content-Type: multipart/mixed; boundary="===============7565373199927966135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 04 Oct 2022 00:10:45 -0000
-Message-Id: <166484224530.5623.10793351738161276933@gitolite.kernel.org>
+Date: Tue, 04 Oct 2022 00:10:51 -0000
+Message-Id: <166484225199.5723.16767674014068578905@gitolite.kernel.org>
 
---===============7371412149189404667==
+--===============7565373199927966135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 820dc0523e05c12810bb6bf4e56ce26e4c1948a2
     new: b89eced8c329ebadfe704de005a2db1025a4f1ab
     log: revlist-820dc0523e05-b89eced8c329.txt
 
---===============7371412149189404667==
+--===============7565373199927966135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c2c9e31dfa4f23045f72f613c5809d5b030cd27f net/mlx5e: xsk: Optimize for unaligned 
 794131c40850a9c68ba9955aa7749e92b903d73f net/mlx5: E-Switch, Return EBUSY if can't get mode lock
 b89eced8c329ebadfe704de005a2db1025a4f1ab Merge branch 'mlx5-xsk-updates-part4-and-more'
 
---===============7371412149189404667==--
+--===============7565373199927966135==--
