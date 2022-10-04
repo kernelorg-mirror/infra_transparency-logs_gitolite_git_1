@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7662291291790907311=="
+Content-Type: multipart/mixed; boundary="===============2247639385078623298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 04 Oct 2022 10:58:05 -0000
-Message-Id: <166488108573.23936.3144459544438108473@gitolite.kernel.org>
+Date: Tue, 04 Oct 2022 10:58:28 -0000
+Message-Id: <166488110855.24147.10888506006144797769@gitolite.kernel.org>
 
---===============7662291291790907311==
+--===============2247639385078623298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b89eced8c329ebadfe704de005a2db1025a4f1ab
     new: 681bf011b9b5989c6e9db6beb64494918aab9a43
     log: revlist-b89eced8c329-681bf011b9b5.txt
 
---===============7662291291790907311==
+--===============2247639385078623298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ f05dfdaf567aaa482e6e4474bbf5993c5ffffc49 dt-bindings: net: pse-dt: add bindings 
 e52f7c1ddf3e47243c330923ea764e7ccfbe99f7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 681bf011b9b5989c6e9db6beb64494918aab9a43 eth: pse: add missing static inlines
 
---===============7662291291790907311==--
+--===============2247639385078623298==--
