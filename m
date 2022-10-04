@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Tue, 04 Oct 2022 10:35:59 -0000
-Message-Id: <166487975950.8753.10408091573240614607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 04 Oct 2022 10:41:40 -0000
+Message-Id: <166488010021.12246.13665018862233462371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for_next
-    old: 9f31f69bb9d5156059c65d1960dcda4e8941c1c9
-    new: 7241677fb18d7e132da4e18e929b88aae0907ae1
+  - ref: refs/heads/perf/core
+    old: 3f9a1b3591003b122a6ea2d69f89a0fd96ec58b9
+    new: 3e263c9b93f286edc1a66a8fdebdcf375e532fc2
     log: |
-         6c8ea8b8cd4722efd419f91ca46a2dc81b7d89a3 quota: Check next/prev free block number after reading from quota file
-         3fc61e0e96a3261aacfd3150fb3a9228f7ce5dd6 quota: Replace all block number checking with helper function
-         191249f708897fc34c78f4494f7156896aaaeca9 quota: Add more checking after reading from quota file
-         7241677fb18d7e132da4e18e929b88aae0907ae1 Merge quota sanity checking fixes.
+         92746eee8e5690c2387878fcd5ca99c319f49c9a perf: Fix lockdep_assert_event_ctx()
+         46bfc98a1aab89e9da9240b8eb0f0bd1e6bfeaa3 perf: Fix pmu_filter_match()
+         3e263c9b93f286edc1a66a8fdebdcf375e532fc2 perf/hw_breakpoint: Annotate tsk->perf_event_mutex vs ctx->mutex
          
