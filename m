@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 04 Oct 2022 11:32:55 -0000
-Message-Id: <166488317582.16153.11146401098320367337@gitolite.kernel.org>
+Date: Tue, 04 Oct 2022 11:33:05 -0000
+Message-Id: <166488318517.16287.15707492014681124179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,17 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: fdf756f7127185eeffe00e918e66dfee797f3625
-    new: 83bc5464d7532583a7693cbd92b989e6e27fd84e
+  - ref: refs/heads/perf/core
+    old: 3e263c9b93f286edc1a66a8fdebdcf375e532fc2
+    new: 82aad7ff7ac25c8cf09d491ae23b9823f1901486
     log: |
-         55785ab8a9d8d867c738455ea065cbfdcdacbee6 sched/uclamp: Fix relationship between uclamp and migration margin
-         c2ab1ba115c931e4cff7a5181c2ef6d8141969d7 sched/uclamp: Make task_fits_capacity() use util_fits_cpu()
-         781a30e9b09d4b0a97033783d7e9a7e44ca58456 sched/uclamp: Fix fits_capacity() check in feec()
-         e3b7104825dea6442c4812ccf128b67d49350e46 sched/uclamp: Make select_idle_capacity() use util_fits_cpu()
-         06b00f342db5daa7cbdf3e4565c27fe8482407e8 sched/uclamp: Make asym_fits_capacity() use util_fits_cpu()
-         cc84412b6237c06bf07d730bbaba9330723334e5 sched/uclamp: Make cpu_overutilized() use util_fits_cpu()
-         8555c83e3bb78817b9f993edbed870c0c6be2b06 sched/uclamp: Cater for uclamp in find_energy_efficient_cpu()'s early exit condition
-         563b04d9c62b6afc26d7a432d6048b9a87330059 sched/fair: Detect capacity inversion
-         83bc5464d7532583a7693cbd92b989e6e27fd84e sched/fair: Consider capacity inversion in util_fits_cpu()
+         0ce38047e82a02017839b6cae837f13a1383a3a0 perf: Fix lockdep_assert_event_ctx()
+         7be51cc1c68dfa180ef84e71bcb4204237bb5620 perf: Fix pmu_filter_match()
+         82aad7ff7ac25c8cf09d491ae23b9823f1901486 perf/hw_breakpoint: Annotate tsk->perf_event_mutex vs ctx->mutex
          
