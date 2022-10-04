@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5183603189521916121=="
+Content-Type: multipart/mixed; boundary="===============8218277393001393662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 04 Oct 2022 23:15:19 -0000
-Message-Id: <166492531920.26323.17524662020674763424@gitolite.kernel.org>
+Date: Tue, 04 Oct 2022 23:15:39 -0000
+Message-Id: <166492533964.26491.5066863807273719023@gitolite.kernel.org>
 
---===============5183603189521916121==
+--===============8218277393001393662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 681bf011b9b5989c6e9db6beb64494918aab9a43
     new: 0326074ff4652329f2a1a9c8685104576bd8d131
     log: revlist-681bf011b9b5-0326074ff465.txt
-  - ref: refs/tags/v6.0
-    old: 0000000000000000000000000000000000000000
-    new: 45eb8ae5370d5df1ee8236f45df3f29103ba6e12
-  - ref: refs/tags/v6.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 96e1a1037aedb9f9596e2af5a6fcaa8053dafe4f
-  - ref: refs/tags/v6.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 52868a8b445605ea56831f92b5607ae3183f09bd
-  - ref: refs/tags/v6.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3447cb6c198e59b5b4275ecc6d4400a49b9dbaba
-  - ref: refs/tags/v6.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b81e85a3efdc3d610f733fffc6f821f03d8fd490
 
---===============5183603189521916121==
+--===============8218277393001393662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -843,4 +828,4 @@ c645c11a2dba116bad3ee43e08e330db8f03ede6 Merge tag 'audit-pr-20221003' of git://
 522667b24f08009591c90e75bfe2ffb67f555498 Merge tag 'landlock-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 0326074ff4652329f2a1a9c8685104576bd8d131 Merge tag 'net-next-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============5183603189521916121==--
+--===============8218277393001393662==--
