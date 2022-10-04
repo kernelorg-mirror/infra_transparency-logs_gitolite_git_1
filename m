@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 04 Oct 2022 16:37:04 -0000
-Message-Id: <166490142406.2211.1560822318208869587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 04 Oct 2022 16:49:11 -0000
+Message-Id: <166490215175.9511.18160275032271117763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-linus
-    old: 259a8ee43dc8c2f973bb929f829185b052ab12a1
-    new: 57f7497e24a5b7fe0869d3c89f4251ebb9ecbedc
-    log: |
-         0c72dbc96be870e4de8f9707c9a4c6d7a641381c Revert "ASoC: soc-component: using pm_runtime_resume_and_get instead of pm_runtime_get_sync"
-         57f7497e24a5b7fe0869d3c89f4251ebb9ecbedc Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 259a8ee43dc8c2f973bb929f829185b052ab12a1
-    new: 57f7497e24a5b7fe0869d3c89f4251ebb9ecbedc
-    log: |
-         0c72dbc96be870e4de8f9707c9a4c6d7a641381c Revert "ASoC: soc-component: using pm_runtime_resume_and_get instead of pm_runtime_get_sync"
-         57f7497e24a5b7fe0869d3c89f4251ebb9ecbedc Merge remote-tracking branch 'asoc/for-6.0' into asoc-linus
-         
+  - ref: refs/tags/pull-d_path
+    old: 0000000000000000000000000000000000000000
+    new: 832985a39eb8b1c7313d1c02867d465c8db814f7
+  - ref: refs/tags/pull-file
+    old: 0000000000000000000000000000000000000000
+    new: 355a99b6fda193e1f7bdbc3dc9b44f2faf0be37c
+  - ref: refs/tags/pull-file_inode
+    old: 0000000000000000000000000000000000000000
+    new: fdb6dbe0c1d3bd78fe17a17e3a98640f62628722
+  - ref: refs/tags/pull-tomoyo
+    old: 0000000000000000000000000000000000000000
+    new: f2c3df7e89dbe0b698a1e316fc30020d2c722188
+  - ref: refs/tags/pull-inode
+    old: 0000000000000000000000000000000000000000
+    new: c8c4b62bf14df93c449e6259b2bc3830781244da
