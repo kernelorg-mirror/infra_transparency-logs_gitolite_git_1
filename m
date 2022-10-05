@@ -1,25 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 05 Oct 2022 16:46:32 -0000
-Message-Id: <166498839284.30025.2004170352766525311@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4038065300876476207=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 05 Oct 2022 16:47:35 -0000
+Message-Id: <166498845566.30488.12499470885531143370@gitolite.kernel.org>
+
+--===============4038065300876476207==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-queue
-    old: 98cbe1dff93b3d4fb2b9e1cc41d35b123275b387
-    new: f4da2df6e1251e92b595ff2d885b94b664d41da2
+  - ref: refs/heads/master
+    old: 320e3ae5e7894c2d3082b7dd4c66c9d2ddd93b6a
+    new: 914fdcede68010c2fa6f819f9ca555e29a03f834
     log: |
-         6f0dd16d3b323865cfd86d290e0f912667460a5b igc: Correct the launchtime offset
-         878efe8465ba4172f74bfad4eb9768848de3795f e1000e: Add e1000e trace module
-         3939b9fb946dae54a03b411008d7f7198e444f4a ice: Add crosstimestamping on E823 devices
-         e840ac4ed80f878916cca153df1b6ff2db4c18b2 ixgbe: Remove local variable
-         2b1890769248540e9e909aa9b834c36d145bd890 e1000e: Add support for the next LOM generation
-         45fbf7fba52082aed5271e03ba3e96cbbe69a9b0 ice: use GNSS subsystem instead of TTY
-         f4da2df6e1251e92b595ff2d885b94b664d41da2 e1000e: Remove unnecessary use of kmap_atomic()
+         8f34825bb6a44095c13276fe56081df006365998 5.10-stable patches
+         b3e97e1a6e3f4e01d4815c5b21369d5b86f9e9d1 5.15-stable patches
+         914fdcede68010c2fa6f819f9ca555e29a03f834 5.19-stable patches
          
+
+--===============4038065300876476207==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1664988454 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1664988454-e1e191566cd80f7567e073841bbb71fba475ed30
+
+320e3ae5e7894c2d3082b7dd4c66c9d2ddd93b6a 914fdcede68010c2fa6f819f9ca555e29a03f834 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmM9tSYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vxwP/0JB63FZLw5/wYFMCMeh
+r/j6RMoIxuLCFQhJLfWELUJ3bETWRM3439EbcNTLQMkHpVTEtcsDwNvupEitfcyq
+iSnuRT29vLt5tQLCAFEX1M+ft07FxfIpYVZdSgboiy4CCds4eeozOAOeOAvcHqzx
+jjL4vIeY1T/sxZTxmjpyEqJD68up0aaNIWcA9/DOfk/zqVNStlPJqwYIZdczg6R0
+pzoFqC1J8JrMCX7MobZJxJrcczkqqIBjdYGqjJOOOGMFSxrDBEL7m/YSIBZkPi3c
+p6fkl8lyNXOrsqJ7ONT4UxLcnPde1ZgC3rSJPkebam4XEpGMI77D1MK1AUwvy7da
+cZXrXwhwoGuTQw5BKR0sHd51D4zZkGqpzGUAwfVtcacQJnhZwATzIlUaCTXxz4OA
+71Io0khG+0Lr+BYXAg6GaTg4Z96atk+oGg+tzWDJbYy2uF9GG5GpivjvkHMn4MiH
+xzXvOKikq+wHF/MEX+tNqLNtjDffE4wGZELfIA4Yo4PKlyLKhzWC0MLItVBq9LIf
+5iD31TxqDCL701nRf0rjq1KMFj8N2WPb9DG6LZBUcCT9ccXdmai8tqMHa0AxDAXw
+AEvKZD8yX+kK1SwfqC4BPJRRLmnZpJ1Mc+IVUVPJjH70YFBt/Sf/ri7+pKFQiHEQ
+qTnXAGZv0assDHzUw9Ag+CfX
+=m94S
+-----END PGP SIGNATURE-----
+
+--===============4038065300876476207==--
