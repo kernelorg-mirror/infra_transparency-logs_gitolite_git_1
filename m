@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 05 Oct 2022 14:58:52 -0000
-Message-Id: <166498193292.19023.5133172667519792540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 05 Oct 2022 15:19:36 -0000
+Message-Id: <166498317637.32631.1972563881097746301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/for-next
-    old: 895ddf5ed4c54ea9e3533606d7a8b4e4f27f95ef
-    new: 243a5263014a30436c93ed3f1f864c1da845455e
+  - ref: refs/heads/main
+    old: 0fded956184b579a8ccd60a45f8525ebc1219979
+    new: 6b6187f546f0ddad8ea84d22c3f7ad72133dcfe3
     log: |
-         8d0d254b15cc5b7d46d85fb7ab8ecede9575e672 nfsd: fix nfsd_file_unhash_and_dispose
-         243a5263014a30436c93ed3f1f864c1da845455e nfsd: rework hashtable handling in nfsd_do_file_acquire
+         bc38df5e8e2406316e97666004273733608db537 kexec-tools 2.0.25.git
+         6b6187f546f0ddad8ea84d22c3f7ad72133dcfe3 ppc64: remove rma_top limit
          
