@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 05 Oct 2022 12:54:18 -0000
-Message-Id: <166497445818.28206.6297608095375565005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 05 Oct 2022 13:12:28 -0000
+Message-Id: <166497554860.9844.2619226696352889270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-linus
-    old: 86a4d29e75540e20f991e72f17aa51d0e775a397
-    new: 417b9c51f59734d852e47252476fadc293ad994a
-    log: |
-         417b9c51f59734d852e47252476fadc293ad994a ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-         
-  - ref: refs/heads/for-next
-    old: 86a4d29e75540e20f991e72f17aa51d0e775a397
-    new: 417b9c51f59734d852e47252476fadc293ad994a
-    log: |
-         417b9c51f59734d852e47252476fadc293ad994a ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-         
   - ref: refs/heads/master
-    old: 308a16d53ad4a7d3dd7b56b8aa583accf298930d
-    new: 34ae307810b1ab40d4aa55d149484d646a6b63b5
+    old: 2894f4dd7ceb2d11c22b59e3c3dc81c56caab0a7
+    new: 6c2856730ca9b68e86f6822d154f120441b5c30e
     log: |
-         417b9c51f59734d852e47252476fadc293ad994a ALSA: hda/realtek: remove ALC289_FIXUP_DUAL_SPK for Dell 5530
-         34ae307810b1ab40d4aa55d149484d646a6b63b5 Merge branch 'for-linus'
+         6c2856730ca9b68e86f6822d154f120441b5c30e Wed Oct  5 01:10:22 PM UTC 2022
          
