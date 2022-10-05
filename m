@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 05 Oct 2022 12:12:19 -0000
-Message-Id: <166497193960.32108.13283465201193219616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 05 Oct 2022 12:18:23 -0000
+Message-Id: <166497230377.3486.12752889593441654325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/srcu/nmisafe
+  - ref: refs/tags/timers-core-2022-10-05
     old: 0000000000000000000000000000000000000000
-    new: 08ce67f95ce4e66b361374fc40c298a4d8a76e76
+    new: f1c266391e46eba4e54f04e64d163d49470c7e34
