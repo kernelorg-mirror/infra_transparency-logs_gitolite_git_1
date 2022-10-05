@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3126979732647528314=="
+Content-Type: multipart/mixed; boundary="===============1617063274309498072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 05 Oct 2022 10:49:07 -0000
-Message-Id: <166496694766.2500.18339997793780789531@gitolite.kernel.org>
+Date: Wed, 05 Oct 2022 10:50:32 -0000
+Message-Id: <166496703211.4642.16407751404973918556@gitolite.kernel.org>
 
---===============3126979732647528314==
+--===============1617063274309498072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,120 +16,123 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 26c12a216d537aaaf97f7a1630b0ff8d62219264
-    new: 069819b6706f641b361d859f1b7adbf215bc76b8
-    log: revlist-26c12a216d53-069819b6706f.txt
+    old: 069819b6706f641b361d859f1b7adbf215bc76b8
+    new: f6798c90f11e7e61595a38b991b5c2edd80192db
+    log: revlist-069819b6706f-f6798c90f11e.txt
   - ref: refs/heads/queue/4.9
-    old: 270ca2e9617efdfceaafc82be45ccc918674b6e6
-    new: 206d7cb0a3fdcc1f0ff7eb5a66bcb11b27ab0450
-    log: revlist-270ca2e9617e-206d7cb0a3fd.txt
+    old: 206d7cb0a3fdcc1f0ff7eb5a66bcb11b27ab0450
+    new: 9c5236fd74edea31b9f80bca5a565e6a77fddee7
+    log: revlist-206d7cb0a3fd-9c5236fd74ed.txt
   - ref: refs/heads/queue/5.4
-    old: bd649eabcf2e76c1d2fcd591e2a53d641f45d03f
-    new: 96474f5c316ea4c7b6624220fe073f17e6ec390e
-    log: revlist-bd649eabcf2e-96474f5c316e.txt
+    old: 96474f5c316ea4c7b6624220fe073f17e6ec390e
+    new: 1d4c2922d6efe2f59925b85e2a1d779556652197
+    log: revlist-96474f5c316e-1d4c2922d6ef.txt
+  - ref: refs/heads/queue/6.0
+    old: 0000000000000000000000000000000000000000
+    new: a592bed01af056b1b6083f5b8abe851126f59192
 
---===============3126979732647528314==
+--===============1617063274309498072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26c12a216d53-069819b6706f.txt
+Content-Disposition: attachment; filename=revlist-069819b6706f-f6798c90f11e.txt
 
-de5fb3ea15a8b6765101fa875d50b72f436b8233 uas: add no-uas quirk for Hiksemi usb_disk
-a44e90d555b5685f11e34baef322b4500d3820eb usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-b2cc663a4fade5e0390b361917c9f5a3fe90df28 uas: ignore UAS for Thinkplus chips
-2a4ad7791027602f5cc83d29fcd48e2cfde32d63 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-78f3a7305c9c9f434e6e09661e1e8b0f5f606b61 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-773414d633c27cf135a555fd10523aa9e64d4aaa mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-66de7f56ac09a0d5e0dab26daeb080c203e92c6c mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-32e07caa2908aa6033fcee4b4311a4f2995382a2 mm: prevent page_frag_alloc() from corrupting the memory
-b1479ddd7eead06c9914acbc10bd06af29d572e8 mm/migrate_device.c: flush TLB while holding PTL
-c75adbb2b3add8b9cd36578ddf7d0bbd9c0b5230 soc: sunxi: sram: Actually claim SRAM regions
-0573115a6058820717bcacf56d2fc86ef3a78d99 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-06dd4461e8b7c9ff9a257338968d9be833986797 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-2806c4afa6bb035a61ef6767aded010e2c7f1593 Input: melfas_mip4 - fix return value check in mip4_probe()
-faf3e5b981b473ad5e19bfd61a35cf9f0eb09ac7 usbnet: Fix memory leak in usbnet_disconnect()
-13cbcc433d6c9f9a490643e00dc73066337e7e35 nvme: add new line after variable declatation
-1ec15e32f8c9c12045540500e773a088b577307c nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-ead31a438caa2ed174e1b4939fe00890af8a9d42 selftests: Fix the if conditions of in test_extra_filter()
-83cbb00b300e8d93aeddbecd83ca3803edd517e4 clk: iproc: Minor tidy up of iproc pll data structures
-069819b6706f641b361d859f1b7adbf215bc76b8 clk: iproc: Do not rely on node name for correct PLL setup
+404bb509f429ad22724819f1e8264a8d824e095e uas: add no-uas quirk for Hiksemi usb_disk
+24969a02eb06109e875d599f11cdf619750479ae usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+8c787dee11074f0ae03980af1bed883d02d7438e uas: ignore UAS for Thinkplus chips
+78d49d8420fda119dff15030fd38386f95c3f24c net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+366babc311616db31f88e1d5fb9da4c953e9d435 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+13cdf537e0822cbe918eb74be1d45bb8c8725a59 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+46992414fe073476b593e2bf4f6f55329717ca3e mm/page_alloc: fix race condition between build_all_zonelists and page allocation
+51c4baf44a1036fd2808ac6ead329090ec7bab02 mm: prevent page_frag_alloc() from corrupting the memory
+d3f3a0a3713f370aeb0b05ae4278d25a4a5e896f mm/migrate_device.c: flush TLB while holding PTL
+25f61df4647d149bbd84bb272734f3328b6c01bc soc: sunxi: sram: Actually claim SRAM regions
+f74aa369441dd58b64bc4d1043b6aec89f5f63b1 soc: sunxi: sram: Fix debugfs info for A64 SRAM C
+9e98808900843b22f4a9340db2cf2facd6d769df Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+59b516d222c5b7bd2ec47439c8e63ef84b9b2002 Input: melfas_mip4 - fix return value check in mip4_probe()
+3ad3256d488d069aa0bf6565bc2ec20e6a171c8e usbnet: Fix memory leak in usbnet_disconnect()
+c0274951fbd145250be488f35a6317e55477b183 nvme: add new line after variable declatation
+5e22df64dab61c726156583c24edf0c570729479 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+34c18d8d8c80462b792d02c476ae48a74cabb187 selftests: Fix the if conditions of in test_extra_filter()
+87560edfd63f38f6727bf44fd9427c0ac711bb3d clk: iproc: Minor tidy up of iproc pll data structures
+f6798c90f11e7e61595a38b991b5c2edd80192db clk: iproc: Do not rely on node name for correct PLL setup
 
---===============3126979732647528314==
+--===============1617063274309498072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-270ca2e9617e-206d7cb0a3fd.txt
+Content-Disposition: attachment; filename=revlist-206d7cb0a3fd-9c5236fd74ed.txt
 
-b1fe2901e54bf3b1b4d6ad724efae0395361c6d9 uas: add no-uas quirk for Hiksemi usb_disk
-023ed0ca1bd67a63a05622ccb82e4fe5805b9871 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-3397dc9a1defc9bf6fd8a033035c23a3d0d139b0 uas: ignore UAS for Thinkplus chips
-14900fcf22ae0f19638494774a31091fc393553a net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-b4091c57add5f41a7fefea2ce4ba1120610795e2 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-b83400516747f15960701254e1d94290646bdf17 mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-c6cefc705b44ab62f0be3e2a703b085c50e4bf0b mm: prevent page_frag_alloc() from corrupting the memory
-a263162f47ccb83aacc72311d4a7a45932468b74 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-1da061ae70673a049630a9ebb6ebea2a1210e5a1 Input: melfas_mip4 - fix return value check in mip4_probe()
-d07ce7f23ae9e0274a2b8aecb29582d783b90e7a usbnet: Fix memory leak in usbnet_disconnect()
-a2453d6baa546f3037321767e1e6b5e7371eb7e6 nvme: add new line after variable declatation
-dfd8f8e5a77b26ab1cdf4fd2f8334e6c214a1880 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-602a76684656d1209bb7686fa220ac21319d296f selftests: Fix the if conditions of in test_extra_filter()
-fd39961a1e819bc58709325ab649212ab698afbf clk: iproc: Minor tidy up of iproc pll data structures
-206d7cb0a3fdcc1f0ff7eb5a66bcb11b27ab0450 clk: iproc: Do not rely on node name for correct PLL setup
+75150dab4405a969d63ab0e9e6a50eef3d35e22c uas: add no-uas quirk for Hiksemi usb_disk
+b49ea1a228ecf900d13ea010d7428345e56b8b83 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
+f99c4950e2e8f28402604f17fa199d8876d1f6ff uas: ignore UAS for Thinkplus chips
+66662f5312cbf7ed8b1d1efc81b0a089d0d5c7ac net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
+fb6db18efeb40345af4feedcd5b4fbb4fb2927b6 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
+f682c5ad86cb31a5db5007ff2aa366f40c22daff mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
+306d7443dcf285505f35aa55f7f33e1628c3eea0 mm: prevent page_frag_alloc() from corrupting the memory
+0a3c4734ba631dcbc6e5c0181b073e7c67e7b369 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
+424db1030470e00549c3f466dc9e02364b81ab2a Input: melfas_mip4 - fix return value check in mip4_probe()
+54c1125c301f1bc11da3ff090fdcb62a0ca62f7c usbnet: Fix memory leak in usbnet_disconnect()
+2ecb6e39831953c939a9ee060446e190b4a8d039 nvme: add new line after variable declatation
+586539d5dba14249ee41513efd67eed5e59d6841 nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
+66a63f4d9f8ece082f1580ae588e99ea3e6d9f88 selftests: Fix the if conditions of in test_extra_filter()
+6cae263051c3b873ac9641a8b181dee1b17789e8 clk: iproc: Minor tidy up of iproc pll data structures
+9c5236fd74edea31b9f80bca5a565e6a77fddee7 clk: iproc: Do not rely on node name for correct PLL setup
 
---===============3126979732647528314==
+--===============1617063274309498072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd649eabcf2e-96474f5c316e.txt
+Content-Disposition: attachment; filename=revlist-96474f5c316e-1d4c2922d6ef.txt
 
-db80422faf7de308f9f5bde5c87dc219b71a2738 Revert "x86/speculation: Add RSB VM Exit protections"
-4169e5fb59ca8f73a33c4c583007fbfdd99f3299 Revert "x86/cpu: Add a steppings field to struct x86_cpu_id"
-e3a656f7e552af722b9c33f8098fc1c7f65c6a29 x86/devicetable: Move x86 specific macro out of generic code
-36a4ca166fcc7e8cd440288422790e59e37f958f x86/cpu: Add consistent CPU match macros
-a8d914fe0d8c3987b3cc7f11edd6fdf612e363df x86/cpu: Add a steppings field to struct x86_cpu_id
-5c14e26068ee50b507c42e7937e68a4c66276e61 x86/kvm/vmx: Make noinstr clean
-d61f256cd163ba11a6e3377bcf282ed0c9a41bd4 x86/cpufeatures: Move RETPOLINE flags to word 11
-77fd74fb94fae58fae03c362a44bcc829f240d4f x86/bugs: Report AMD retbleed vulnerability
-c286bbb306ab71b24e599ab314cdebbe0f948a29 x86/bugs: Add AMD retbleed= boot parameter
-c5d891883937967c8cbdd25d83acbdb7e9e7327e x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
-ba6c3807250296d869b25ab3e6b81a3133566fd3 x86/entry: Remove skip_r11rcx
-1a77c35806709669ec9fddafae0f295fce08d8fb x86/entry: Add kernel IBRS implementation
-c6973642f8a16fd42cfd049f31138d30f4a64cde x86/bugs: Optimize SPEC_CTRL MSR writes
-b31e4b0fdce57ac6ca26a06e2cc3db44b506f214 x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
-440ef7070e2c63ae74cc6ebf5fa1775c35b10e5c x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
-6154ae9176d06c684ec5e336f4ccbf390c04fbc6 x86/bugs: Report Intel retbleed vulnerability
-91b8313b672ca4d97fd9307db3f34460ed2a0bb9 intel_idle: Disable IBRS during long idle
-f45ae9d911127b74e2cd4184f4d8830fda5914c7 x86/speculation: Change FILL_RETURN_BUFFER to work with objtool
-71bed842859dbadb4de995f1acf7dacd9943fc63 x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
-547ae165885a877ef9db9c2eec1c9e83d4f23b9d x86/speculation: Fix firmware entry SPEC_CTRL handling
-95f27e3e3a50794b3b5e4872a5caaf63309315e6 x86/speculation: Fix SPEC_CTRL write on SMT state change
-68d3f0620d3d8a8d7517ff037b5052f38dbcd65b x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
-5cc4dc9d3b4479bd5cb55a4b7d40bcd015745742 x86/speculation: Remove x86_spec_ctrl_mask
-6fc8c763c4fb4f355a7ed457123b3277ce4dcbcd KVM/VMX: Use TEST %REG,%REG instead of CMP $0,%REG in vmenter.S
-995d334852dbbbe8648500eb9c74cb2d1ec31fb4 KVM/nVMX: Use __vmx_vcpu_run in nested_vmx_check_vmentry_hw
-79085fda2259f17f92b7d7f1571c69217d21a22c KVM: VMX: Flatten __vmx_vcpu_run()
-9fc813591ba96cd08e5e80081a3a91ea59857ad7 KVM: VMX: Convert launched argument to flags
-26ba488a6bf2a68aedc766b459029e4e33d04f55 KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
-ab28ee4a7c421b975fe95e2a85fe80449485b4d8 KVM: VMX: Fix IBRS handling after vmexit
-57b4698366c0440addf947d092510feffecd0e12 x86/speculation: Fill RSB on vmexit for IBRS
-f001d3711458c4aa4806599eeef0fe563350c623 x86/common: Stamp out the stepping madness
-5bfceb3a5a5fffbff2a9f4d90e6c3c877ddc6120 x86/cpu/amd: Enumerate BTC_NO
-51083e1a0d1af53359f9c8475a4e8f976032355e x86/bugs: Add Cannon lake to RETBleed affected CPU list
-30a23c38b8f57328f67a55e8aa853921d048e0aa x86/speculation: Disable RRSBA behavior
-33e93c80fe3f03e4eeea1ffce700b79213d8be78 x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
-f175b13bc137ea2cb8aa986f5edc13f9804d7228 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
-9d47d3f379207ca6522633873b089d06516ca524 x86/speculation: Add RSB VM Exit protections
-91345dbdf623ee52c71f69ff03b00392eed92641 xfs: fix misuse of the XFS_ATTR_INCOMPLETE flag
-c6129faf81a021cd6c0cfeaf19f823c4130d9343 xfs: introduce XFS_MAX_FILEOFF
-4dbc662276a626ed0c59bc16deac32bf3c013232 xfs: truncate should remove all blocks, not just to the end of the page cache
-93bfbe88de73d242b22e204146d74dec722f495a xfs: fix s_maxbytes computation on 32-bit kernels
-2d4335991f9f3ec3e878edad3bee8ddd0da5d9f5 xfs: fix IOCB_NOWAIT handling in xfs_file_dio_aio_read
-389e60d9bfffe2f9c666f4f6afd12845497e4094 xfs: refactor remote attr value buffer invalidation
-1df570e19f3e4f8b2409edb2f472bd589a38bb36 xfs: fix memory corruption during remote attr value buffer invalidation
-6a69fa32c259dfb30ac1e06a69d8b0523a8b7a95 xfs: move incore structures out of xfs_da_format.h
-e0a8039098a4df79c5caaff578842d2483fcbbf4 xfs: streamline xfs_attr3_leaf_inactive
-0ecd50dbfe50d4a7351a32f43663ecc209e3fdb3 xfs: fix uninitialized variable in xfs_attr3_leaf_inactive
-21234b8dff444d5629688b959b2ec9901e43130e xfs: remove unused variable 'done'
-96474f5c316ea4c7b6624220fe073f17e6ec390e Revert "drm/amdgpu: use dirty framebuffer helper"
+e2a4d6bab883c9dbfdbbe282c5be992cd1b61634 Revert "x86/speculation: Add RSB VM Exit protections"
+56077ec66dae43d3bae15c7b1a0773390019af6e Revert "x86/cpu: Add a steppings field to struct x86_cpu_id"
+06170d1bd350af52317a8212a7cf8534c245db4a x86/devicetable: Move x86 specific macro out of generic code
+cdcf7dc901c5c08af5f32b7c6486d88711525349 x86/cpu: Add consistent CPU match macros
+b02bfcd012f8bddc9d5e97a0bbc929bb03416084 x86/cpu: Add a steppings field to struct x86_cpu_id
+856c98bce3fa298d754424f127835aa6421363f8 x86/kvm/vmx: Make noinstr clean
+9492f3e8f8282ee1613df4cf48ba3586ed43c7e3 x86/cpufeatures: Move RETPOLINE flags to word 11
+edde9dd3b9aef1df0dacb42bf67d6d35186b422a x86/bugs: Report AMD retbleed vulnerability
+a077fcad061da5a2eafb9951fb064de2d38f0d73 x86/bugs: Add AMD retbleed= boot parameter
+2ea8bdbab944cc581291fbaf58ecaba1237a8cbc x86/bugs: Keep a per-CPU IA32_SPEC_CTRL value
+d4f0e3295a5ac5fe2c783163cd485a04e5619156 x86/entry: Remove skip_r11rcx
+fcdbe50a9ebc4e087f971b81aab627d6c8351840 x86/entry: Add kernel IBRS implementation
+e6b26356ef195ca486d6ed1c256fb03fe259ed27 x86/bugs: Optimize SPEC_CTRL MSR writes
+90ab18de66e974d833477733fb26c47bf2f3f1eb x86/speculation: Add spectre_v2=ibrs option to support Kernel IBRS
+97d9e407f12b09799f73958d375a7fdc1aeedd77 x86/bugs: Split spectre_v2_select_mitigation() and spectre_v2_user_select_mitigation()
+f51d8093d90eedc9c300309d35450ec90c573325 x86/bugs: Report Intel retbleed vulnerability
+ec0658888c7ce94173f17893afd63bd19820767d intel_idle: Disable IBRS during long idle
+ec9aba5ed33c861df6db6758a99d723ae556689c x86/speculation: Change FILL_RETURN_BUFFER to work with objtool
+14c4a09f3850604b4c90e3210b61694a6a740c28 x86/speculation: Fix RSB filling with CONFIG_RETPOLINE=n
+7438dd0db2896e89270f26c56a3b10ba3c53c0fe x86/speculation: Fix firmware entry SPEC_CTRL handling
+9bdc7b53bbbc1162ae003ca0a08b01d29c41af8e x86/speculation: Fix SPEC_CTRL write on SMT state change
+12e51616ca2e7426f2e6e74a1aa240e0b1b444e9 x86/speculation: Use cached host SPEC_CTRL value for guest entry/exit
+bc981fc0d1c11a9f9f837823112f08b3a21353ae x86/speculation: Remove x86_spec_ctrl_mask
+120c656a01e68b8c4e395eb718b91c7cc5a50dce KVM/VMX: Use TEST %REG,%REG instead of CMP $0,%REG in vmenter.S
+b6399e1383f7f3fdbad652a7c01914b587813713 KVM/nVMX: Use __vmx_vcpu_run in nested_vmx_check_vmentry_hw
+4c74f1474c54cf1397be055541ef855bc13fbcf2 KVM: VMX: Flatten __vmx_vcpu_run()
+2ffe49c0bc32e768d3afc3924559ef33bce0d202 KVM: VMX: Convert launched argument to flags
+f5d8d026fc66b4656269a1d110dd5bc276740378 KVM: VMX: Prevent guest RSB poisoning attacks with eIBRS
+b605340e79025ccbf930b763cd199b47187ed1c0 KVM: VMX: Fix IBRS handling after vmexit
+0b5309cc9a00b8aaa27b0573fce4bd4f024b8d99 x86/speculation: Fill RSB on vmexit for IBRS
+f882df8dc0e33a0f1c9e7c5e07e55b96ad5ea5b0 x86/common: Stamp out the stepping madness
+8cdadb080736351b5040b55e89f1efec62b30f70 x86/cpu/amd: Enumerate BTC_NO
+a1c0b29fd44e7e70c5ffa4d92f57b0c38c30a159 x86/bugs: Add Cannon lake to RETBleed affected CPU list
+368255ffaba2cbde5ae553efbdaa4ea3d26d73b6 x86/speculation: Disable RRSBA behavior
+1a5d86c51686d1fd76582a8ef8d19c7310f00c3a x86/speculation: Use DECLARE_PER_CPU for x86_spec_ctrl_current
+fa74368a9a1ad197055634f8e2837d9d6b6711b6 x86/bugs: Warn when "ibrs" mitigation is selected on Enhanced IBRS parts
+0cdf7a3dc7535d9b437b282d6fca0c52cedb2085 x86/speculation: Add RSB VM Exit protections
+f820fdd6e2f3542821b1fb29d457fcc11e73bd98 xfs: fix misuse of the XFS_ATTR_INCOMPLETE flag
+4cae5dc564eaebc4b955c8afeefe3c02a764b6c3 xfs: introduce XFS_MAX_FILEOFF
+038f157fcd876962b0e646e299656bf60b30bfa8 xfs: truncate should remove all blocks, not just to the end of the page cache
+b3bf351f26e2583296ffc678b6ea330c3f6efe07 xfs: fix s_maxbytes computation on 32-bit kernels
+3cb4b2bbc6777e5f079c7871a2fcfa91d6b9a41c xfs: fix IOCB_NOWAIT handling in xfs_file_dio_aio_read
+4c8caf9c8da23931b16fbfbfb027895cdc219052 xfs: refactor remote attr value buffer invalidation
+ca0e1749b93b8dde88bccd393c32a9759358567e xfs: fix memory corruption during remote attr value buffer invalidation
+ed3f4aed62101fa3a0fe125040efa353a3965a1e xfs: move incore structures out of xfs_da_format.h
+76ba7fe2a3501243a7fdd37d4092542f834b64b9 xfs: streamline xfs_attr3_leaf_inactive
+65db14664f46fd3c3aab896decc9801e4825b8d8 xfs: fix uninitialized variable in xfs_attr3_leaf_inactive
+e0bb239d97f5cfd1e3e17d1e05bb35651677894c xfs: remove unused variable 'done'
+1d4c2922d6efe2f59925b85e2a1d779556652197 Revert "drm/amdgpu: use dirty framebuffer helper"
 
---===============3126979732647528314==--
+--===============1617063274309498072==--
