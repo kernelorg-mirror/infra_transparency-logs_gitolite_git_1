@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 05 Oct 2022 21:56:42 -0000
-Message-Id: <166500700278.24545.17005590678650183606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 05 Oct 2022 22:01:47 -0000
+Message-Id: <166500730771.27931.5774491073737750344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/riscv-fix_toolchain_ext_detection
-    old: 46b491be73932a22f5fba570446475d1ce504548
-    new: 248c787b1b88534d4867fde756bd7f41b12b2b57
+  - ref: refs/heads/dev
+    old: c28600e91efb983ece3fd83034835466b70f6c99
+    new: dc3aff47e2cb2817502777cd007a92343adec845
     log: |
-         0ce26a81e23edd7aad8ef488f0ea6b8a6bdcea0a kbuild: check as-option support in Kconfig
-         b2b7cd9e32f05f9c9cd10306630bd7ff62dbcaa6 riscv: fix detection of toolchain Zicbom support
-         248c787b1b88534d4867fde756bd7f41b12b2b57 riscv: fix detection of toolchain Zihintpause support
+         689fe57e7ecefd2eeba76c32aa569bb3e1e790d9 f2fs: allow direct read for zoned device
+         af69ade0e60e462179840b8fc60d3f35dd6467b0 f2fs: correct i_size change for atomic writes
+         f2d729a9e0e29e77f673381144f134741add6b80 f2fs: account swapfile inodes
+         dc3aff47e2cb2817502777cd007a92343adec845 f2fs: change to use atomic_t type form sbi.atomic_files
          
