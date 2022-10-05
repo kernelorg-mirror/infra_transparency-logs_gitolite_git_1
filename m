@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 05 Oct 2022 15:52:27 -0000
-Message-Id: <166498514771.24206.8494628673491460192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Wed, 05 Oct 2022 16:20:58 -0000
+Message-Id: <166498685887.12099.16820825740494041453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 8b55399d1155b6d8035111f8233f466ca3476870
-    new: b4d88401f829fc76ec736ec9ce44cdf4820629cf
+  - ref: refs/heads/main
+    old: 4b50a646d826fc51962173a3509d9ff9132d8eac
+    new: 86ae36a70d65051e13c1a7dccfa75f9ad642319b
     log: |
-         52ce50498c6f432fad13315f0387bfc100e2d18b ACPI: thermal: Use white space more consistently
-         9e8bc16626a007108f2c3496cd48f0eda4d09045 ACPI: thermal: Drop redundant parens from expressions
-         36f554046bd6da91b7e71bddeb38952c6d92cd98 ACPI: thermal: Drop some redundant code
-         b4d88401f829fc76ec736ec9ce44cdf4820629cf Merge branch 'acpi-thermal' into bleeding-edge
+         86ae36a70d65051e13c1a7dccfa75f9ad642319b v6.0.0
          
