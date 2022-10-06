@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7702496632366842352=="
+Content-Type: multipart/mixed; boundary="===============0941578605814281728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Thu, 06 Oct 2022 10:53:35 -0000
-Message-Id: <166505361519.3866.649754185754678973@gitolite.kernel.org>
+Date: Thu, 06 Oct 2022 10:53:46 -0000
+Message-Id: <166505362609.4024.3637141471748316521@gitolite.kernel.org>
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-0
-    old: f81fd49f7ea62d703e49ac0e7545e8cb5aeec4a2
-    new: a21b509f29dd05819d65d963edca67efb59ba0f6
-    log: revlist-f81fd49f7ea6-a21b509f29dd.txt
-  - ref: refs/heads/for-greg/4.19-0
-    old: 9772bf85a6caec626eae963e334cc440d433b733
-    new: 1a68941043f47c403d2522aacc250d602ae9a60b
-    log: revlist-9772bf85a6ca-1a68941043f4.txt
-  - ref: refs/heads/for-greg/4.9-0
-    old: 234693b71fce4164fa143afe0b0c1e7b2da25a8f
-    new: b26b0248aa19950439841ae9830371654fac2883
-    log: revlist-234693b71fce-b26b0248aa19.txt
-  - ref: refs/heads/for-greg/5.10-0
-    old: d2b4633415122ebe79c18a64968a04a8ff8490f6
-    new: 7b9d0a95028352d056d14d8796a1c14c3117b8ff
-    log: revlist-d2b463341512-7b9d0a950283.txt
-  - ref: refs/heads/for-greg/5.15-0
-    old: 7ca862e6be96f372f2bfa5af26e3a4af7f6c80d7
-    new: 5c35faa6d526bc6d956f9555cd2fe14cbbebd374
-    log: revlist-7ca862e6be96-5c35faa6d526.txt
-  - ref: refs/heads/for-greg/5.19-0
-    old: 6bb6798d9ff4ee028d3f39d0f931502e969132cc
-    new: 20c9cc39dec0bbdd940616ea3e0e938ee99a40ad
-    log: revlist-6bb6798d9ff4-20c9cc39dec0.txt
-  - ref: refs/heads/for-greg/5.4-0
-    old: 3a048eb3c6b8a7a9f1efd65433974279502fef20
-    new: b55411d446b9af9e8573baa2dbb1068e9801e02b
-    log: revlist-3a048eb3c6b8-b55411d446b9.txt
-  - ref: refs/heads/for-greg/6.0-0
+  - ref: refs/heads/for-greg/4.14-1
+    old: d99bd68f4fe61b6e6263cfc6164ce881152e9ab3
+    new: 8a2e20a15112c0c6263099b41bf526fe1f970f25
+    log: revlist-d99bd68f4fe6-8a2e20a15112.txt
+  - ref: refs/heads/for-greg/4.19-1
+    old: 620067397e870586d75d45886e17c78642245f58
+    new: e2253518dfc8671eabeb8cb7f04eee560aa1809f
+    log: revlist-620067397e87-e2253518dfc8.txt
+  - ref: refs/heads/for-greg/4.9-1
+    old: 81ad1d538bc50bdd972ac3500892d9ccd9177eb4
+    new: 8a40a070c3a815c49b4e4a1612f5f23d08c648a1
+    log: revlist-81ad1d538bc5-8a40a070c3a8.txt
+  - ref: refs/heads/for-greg/5.10-1
+    old: 55812318c78880205cf6b742ec5d1e986b2619a1
+    new: 1bfa63b6ead0ef0f0294d0f1e1d5a8d8f0a8e09e
+    log: revlist-55812318c788-1bfa63b6ead0.txt
+  - ref: refs/heads/for-greg/5.15-1
+    old: 425b8897bff759dcdfee73fd780665fe657ca57a
+    new: 0dd937e89a018fdb80e74d7e40982909966d6902
+    log: revlist-425b8897bff7-0dd937e89a01.txt
+  - ref: refs/heads/for-greg/5.19-1
+    old: 1e464d3ba9c29fb67a2b024072f9fa68be26e6a7
+    new: 3f7229b449a58180d7eedf53929837c55d938341
+    log: revlist-1e464d3ba9c2-3f7229b449a5.txt
+  - ref: refs/heads/for-greg/5.4-1
+    old: bf10d3a9743cbbc312100ad660fb2fb5ce7eaee4
+    new: 33645583e03911bb719bb8c3b05fadc84ca9d8d4
+    log: revlist-bf10d3a9743c-33645583e039.txt
+  - ref: refs/heads/for-greg/6.0-1
     old: 0000000000000000000000000000000000000000
-    new: 38677cbb1c6d7a0ef8a2bd60076f5ada49dbdd8c
+    new: 01431ef8fbc07a01a047a4f7ef5842bba0c4be99
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f81fd49f7ea6-a21b509f29dd.txt
+Content-Disposition: attachment; filename=revlist-d99bd68f4fe6-8a2e20a15112.txt
 
 5bb395334392891dffae5a0e8f37dbe1d70496c9 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
 12f301c29e80c8c9110858c467b08a86b311ea43 ntfs: fix use-after-free in ntfs_ucsncmp()
@@ -434,17 +434,13 @@ c99ba48d4311a121f82073cd8d5e1275110de13d serial: tegra: Use uart_xmit_advance(),
 1f6ab281f218c3a2b789eb976c5b1ef67139680a media: em28xx: initialize refcount before kref_get
 b9fad99ffb59260c3352ccfbf466581f3899e1f6 ext4: make directory inode spreading reflect flexbg size
 9d5c0b3a8e1a8b6c4969f630803103978e8d17b6 Linux 4.14.295
-29d3ce27bc5e6742a4326156f8d13827b5035128 fs: dlm: fix race between test_bit() and queue_work()
-39807ba1c1580deb1ae0a8a7c92f1afff73e0e18 fs: dlm: handle -EBUSY first in lock arg validation
-1be2a3f038a40d30e2ff9409b1fda7f1ae68b68b fs: dlm: add union in dlm header for lockspace id
-75761da1ba4f45b50e8327526c3b686bc83af3b3 FAILED: 7175e131ebba ("fs: dlm: fix invalid derefence of sb_lvbptr")
-a21b509f29dd05819d65d963edca67efb59ba0f6 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+8a2e20a15112c0c6263099b41bf526fe1f970f25 regulator: qcom_rpm: Fix circular deferral regression
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9772bf85a6ca-1a68941043f4.txt
+Content-Disposition: attachment; filename=revlist-620067397e87-e2253518dfc8.txt
 
 bbd1fdb0e1adf827997a93bf108f20ede038e56e Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
 6c0355ca7ac434d84d8b93336462b698573ca3b3 ntfs: fix use-after-free in ntfs_ucsncmp()
@@ -967,19 +963,13 @@ ab7e255fb882eb778ce7e6578783907fe9bc8708 drm/rockchip: Fix return type of cdn_dp
 ac2604aeeabdf20769265cd5e49439ce11c4321c usb: dwc3: pci: Allow Elkhart Lake to utilize DSM method for PM functionality
 66b955d30f8cf4949a590bf6ce7b264b5ab64dea ext4: make directory inode spreading reflect flexbg size
 16d5f34aff8c24e1c6a72599bf6b9cf1fb5a51cd Linux 4.19.260
-00c201d715adcea8a8aa61c83116cf0ed276540a fs: dlm: fix race between test_bit() and queue_work()
-32e020532fdfff99b7613222bce8ac57b6077cc3 fs: dlm: handle -EBUSY first in lock arg validation
-89d714bc3b17931ab862b7acd32baf73565cb385 NFSD: Replace READ* macros in nfsd4_decode_commit()
-5c501891c09259a9c41d0589d2fb921842aa3a94 NFSD: Update GETATTR3args decoder to use struct xdr_stream
-46119196a3d584c510cc20311c6a5cafba507af9 FAILED: fa6be9cc6e80 ("NFSD: Protect against send buffer overflow in NFSv3 READ")
-18b5c1f381c46e7a48077519bed8e2aa1ae74cf3 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-1a68941043f47c403d2522aacc250d602ae9a60b FAILED: 2120635108b3 ("Makefile.extrawarn: Move -Wcast-function-type-strict to W=1")
+e2253518dfc8671eabeb8cb7f04eee560aa1809f regulator: qcom_rpm: Fix circular deferral regression
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-234693b71fce-b26b0248aa19.txt
+Content-Disposition: attachment; filename=revlist-81ad1d538bc5-8a40a070c3a8.txt
 
 d255c861e268ba342e855244639a15f12d7a0bf2 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
 d2bb6a9b8bae0cd730971ab6eb19042644627485 ntfs: fix use-after-free in ntfs_ucsncmp()
@@ -1185,19 +1175,22 @@ d86b4267834e6d4af62e3073e48166e349ab1b70 s390/dasd: fix Oops in dasd_alias_get_s
 b9870150cc3cb34145e95013a0a15de986438f30 Drivers: hv: Never allocate anything besides framebuffer from framebuffer memory region
 4a4a73fe5794787ec659ebd55c8d343c2965cda3 ext4: make directory inode spreading reflect flexbg size
 66fd5eaabe970570f8e7086af4180deedf83347f Linux 4.9.330
-b3d175caca66235d0f53824b31b5bb7e555db82e fs: dlm: fix race between test_bit() and queue_work()
-9cde845f74fc193bcaf6871f3a238bee30045d52 FAILED: eef6ec9bf390 ("fs: dlm: fix race between test_bit() and queue_work()")
-855a48bd7a6d015673f0a5f68b3734b15e942514 fs: dlm: handle -EBUSY first in lock arg validation
-05378a17c8f3128b2ba3d6097371f871b46fe5a5 FAILED: 44637ca41d55 ("fs: dlm: handle -EBUSY first in lock arg validation")
-397d62cf81d7f8d52bdee4244bdabb6b541eae7b Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-b26b0248aa19950439841ae9830371654fac2883 FAILED: 2120635108b3 ("Makefile.extrawarn: Move -Wcast-function-type-strict to W=1")
+8a40a070c3a815c49b4e4a1612f5f23d08c648a1 regulator: qcom_rpm: Fix circular deferral regression
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2b463341512-7b9d0a950283.txt
+Content-Disposition: attachment; filename=revlist-55812318c788-1bfa63b6ead0.txt
 
+648b1bb29a4631b977454be89ebfea937b91028b drm: adv7511: override i2c address of cec before accessing it
+e8673fbc10ff6db212dc60006270c2d15b066917 crypto: sun8i-ss - do not allocate memory when handling hash requests
+0e70bb9cdb0e82ab26a24999c0de81a32c400c72 crypto: sun8i-ss - fix error codes in allocate_flows()
+d0412d8f693e6f00b6cda80cc3ae1fbc7c14d392 net: fix sk_wmem_schedule() and sk_rmem_schedule() errors
+81cb31756888bb062e92d2dca21cd629d77a46a9 i2c: Fix a potential use after free
+d45eaf41140c7850ee17298b6d6bbf9fdb242509 crypto: sun8i-ss - fix infinite loop in sun8i_ss_setup_ivs()
+918f42ca1d3fee0303f4dde8b7951e2fcd416ef7 media: tw686x: Register the irq at the end of probe
+eccd7c3e2596b574241a7670b5b53f5322f470e5 ath9k: fix use-after-free in ath9k_hif_usb_rx_cb
 e7d6cac6967534e1298497e853964b3d3f994ce3 wifi: iwlegacy: 4965: fix potential off-by-one overflow in il4965_rs_fill_link_cmd()
 45e1dbe5f6e1c21f1389d58a4261cf3e1b740686 drm/radeon: fix incorrrect SPDX-License-Identifiers
 5f8a6e8f14d6b3992cb34c2b2f39d7963eb3dda4 test_bpf: fix incorrect netdev features
@@ -2208,27 +2201,33 @@ c5812807e416618477d1bb0049727ce8bb8292fd drm/gma500: Fix BUG: sleeping function 
 a968542d7e2471f3c75ed9380110049354e1de44 ext4: limit the number of retries after discarding preallocations blocks
 c18383218c3102f8f9ba56fd9abed86ac80a69c3 ext4: make directory inode spreading reflect flexbg size
 62aea694445d5fc0f51b45afe8003ff3b7431141 Linux 5.10.146
-636177a5c171974599af19f4db8376a5de5360ef fs: dlm: fix race between test_bit() and queue_work()
-352d86e3166df9514d70826f3b20b90204d7486e fs: dlm: handle -EBUSY first in lock arg validation
-1ede9ec2033046157f778b9360fc1ed680c748ca powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain
-8d3346e034cb8e5be0511ad797143e89de9ef7a7 NFSD: Update the NFSv2 READ argument decoder to use struct xdr_stream
-09e90546be38fae88c97cbaec88a59067005248c NFSD: Protect against send buffer overflow in NFSv2 READ
-877eeae1bd0bb88ec6a023970ad6e56a73a3c9fb FAILED: 401bc1f90874 ("NFSD: Protect against send buffer overflow in NFSv2 READ")
-1751721b7a471bc2b8e255fb01a4e6104fa03916 NFSD: Update READ3arg decoder to use struct xdr_stream
-8b14cc8ef221f6ace9ac733f7299d4a9c7755f4e NFSD: Fix the behavior of READ near OFFSET_MAX
-949083a68063d519acf2e420eef0d306d2865fc2 NFSD: Protect against send buffer overflow in NFSv3 READ
-f75823f2d07b26a33b4d365614f65dc020bf6bfe FAILED: fa6be9cc6e80 ("NFSD: Protect against send buffer overflow in NFSv3 READ")
-e415e6bb87c486963ca3de84ee502037d00198fb efi: Correct Macmini DMI match in uefi cert quirk
-3a65397ccfe6d80b00cc78de66ce57f1a1d7f3bb FAILED: bab715bdaa9e ("efi: Correct Macmini DMI match in uefi cert quirk")
-ca0647c6e60bc146dcf4b02eeebc52bf40ed5220 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-7b9d0a95028352d056d14d8796a1c14c3117b8ff FAILED: 2120635108b3 ("Makefile.extrawarn: Move -Wcast-function-type-strict to W=1")
+10314fabe20dc82528b83bc7787a3efad2961c0c thunderbolt: Allow disabling XDomain protocol
+f3b7e66dedb3caa817f6f9242166d73f6cc2e9d4 thunderbolt: Add tb_property_copy_dir()
+a8e758720e1b799c09bd32984abc9f61f941eca5 FAILED: ff7cd07f3064 ("net: thunderbolt: Enable DMA paths only after rings are enabled")
+c34808d9b4660beb85f4236ef03aa3d8d4b08d62 regulator: qcom_rpm: Fix circular deferral regression
+a9bf33cfbfa2d9635eba0916f67fe6f2548b336c FAILED: 8478ed584458 ("regulator: qcom_rpm: Fix circular deferral regression")
+1bfa63b6ead0ef0f0294d0f1e1d5a8d8f0a8e09e hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ca862e6be96-5c35faa6d526.txt
+Content-Disposition: attachment; filename=revlist-425b8897bff7-0dd937e89a01.txt
 
+420e449e21b928d6478b02e9e18261a99cca35f4 scsi: qla2xxx: Fix losing FCP-2 targets on long port disable with I/Os
+6f1d5e6979c15ffc3ca724d60ba77325efd43467 scsi: qla2xxx: Fix losing target when it reappears during delete
+15f67058a1eecb8714763a400343bdce1bbebf75 scsi: qla2xxx: Fix losing FCP-2 targets during port perturbation tests
+0b00cb428f7499fd048e9314995f4524862a73cb x86/bugs: Enable STIBP for IBPB mitigated RETBleed
+7c91c8da431d5e46996bdef4b4ccf3f55052bcb4 ftrace/x86: Add back ftrace_expected assignment
+1cbf3882cb372bbe752efd7c3045ca1c9ab40ac6 x86/kprobes: Update kcb status flag after singlestepping
+c273671ae826e8ca96e81b1a9504d9c0fa9024a9 x86/olpc: fix 'logical not is only applied to the left hand side'
+c9c965fa197439db9737c3803cd04023ca53add0 SMB3: fix lease break timeout when multiple deferred close handles for the same file.
+9e255ed238fc67058df87b0388ad6d4b2ef3a2bd posix-cpu-timers: Cleanup CPU timers before freeing them during exec
+60c981f4b787fb6b491fae2383e67454eb722c9e Input: gscps2 - check return value of ioremap() in gscps2_probe()
+8cbc36e7e37a9554602fdfd53bed51d411430c6b __follow_mount_rcu(): verify that mount_lock remains unchanged
+1e0ca3d809c36ad3d1f542917718fc22ec6316e7 spmi: trace: fix stack-out-of-bound access in SPMI tracing functions
+8aa68065a877c4863b32511e14a76f0619534255 drm/mediatek: Allow commands to be sent during video mode
+f96a9815b46633b4e5c34d174135bafac9f550a8 drm/mediatek: Keep dsi as LP00 before dcs cmds transfer
 3dd33a09f5dc12ccb0902923c4c784eb0f8c7554 crypto: blake2s - remove shash module
 4a54c13786c5a596b4e072b36e245029e11a565c drm/dp/mst: Read the extended DPCD capabilities during system resume
 c232db6727136051ceff84e3a217213fc4e7f888 drm/vc4: drv: Adopt the dma configuration from the HVS or V3D component
@@ -3235,31 +3234,30 @@ fd8b829195495a0b3d6b3cc88c3b77f2c9c115e4 ext4: make mballoc try target group fir
 8a1ac4167dda820686d1a0e50e51bd01e1f3d25c ext4: avoid unnecessary spreading of allocations among groups
 214194610a18477146588eeb2c8e120fdea21150 ext4: use locality group preallocation for small closed files
 90c7e9b400c751dbd73885f494f421f90ca69721 Linux 5.15.71
-c4870d8feafc9f23c7af6e822a60f6b3e85988de fs: dlm: fix race between test_bit() and queue_work()
-cea89284fcefbf53b6d7f1581f0b7c6c74586037 fs: dlm: handle -EBUSY first in lock arg validation
-d74458ddf18996a9fd82f7ea31eb4fb2af151ca8 fs: dlm: add debugfs rawmsg send functionality
-97cdf742c9a27e8b9b6fce21f435e0e9b54f40bc dlm: use __le types for dlm header
-a213f94a480138f4e6016bc8d460d6c64f70ac99 dlm: use __le types for rcom messages
-c204ead6166aeffa5dc8b0df46f7faf1d150f63b dlm: use __le types for dlm messages
-7c2b558641a5c4c9678e28a17525db5066679382 fs: dlm: fix invalid derefence of sb_lvbptr
-71fbfbe58a691c2bedba1c243d017631f0e896a3 FAILED: 7175e131ebba ("fs: dlm: fix invalid derefence of sb_lvbptr")
-7b44bf746f32d405d170a6c87ddec681dd119f68 powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain
-66649ad5ce745574ecfeff1d51b50315d87fd98f NFSD: Protect against send buffer overflow in NFSv3 READDIR
-9aeb680b5da688c55cdb4be135f500da35128c1e FAILED: 640f87c190e0 ("NFSD: Protect against send buffer overflow in NFSv3 READDIR")
-8808bbc6a23de667bd2e8ab5c1b84b743c9c1c0a NFSD: Protect against send buffer overflow in NFSv2 READ
-a2bf7a33deabba6f35a3908e5a9d829515af27a2 NFSD: Protect against send buffer overflow in NFSv3 READ
-9c56c91c0664be2c02db97ca44637f35f9055e04 FAILED: fa6be9cc6e80 ("NFSD: Protect against send buffer overflow in NFSv3 READ")
-5c86a12c84ceb7b799f5adabbac1da24934e7df2 efi: Correct Macmini DMI match in uefi cert quirk
-1e806a8ff0207f4667a1277a38baf4bc9e52771a FAILED: bab715bdaa9e ("efi: Correct Macmini DMI match in uefi cert quirk")
-6db7b3023a6d3fc531b22b6187b8f3f225612e25 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-5c35faa6d526bc6d956f9555cd2fe14cbbebd374 FAILED: 2120635108b3 ("Makefile.extrawarn: Move -Wcast-function-type-strict to W=1")
+151111b39c571c898205597dbf232fb913ff7fcb net: thunderbolt: Enable DMA paths only after rings are enabled
+a5ec507e6372f0410e94f4cf2832505837ac5909 regulator: qcom_rpm: Fix circular deferral regression
+4c7ad0ab611ed76fa3788c2283b0fa5a8dcac393 FAILED: 8478ed584458 ("regulator: qcom_rpm: Fix circular deferral regression")
+0dd937e89a018fdb80e74d7e40982909966d6902 hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bb6798d9ff4-20c9cc39dec0.txt
+Content-Disposition: attachment; filename=revlist-1e464d3ba9c2-3f7229b449a5.txt
 
+79f86b862416126a2e826cb74224180d6625a32f net: dsa: sja1105: fix buffer overflow in sja1105_setup_devlink_regions()
+18c800b1844d321df333d7a62bc4b67a9d4a971d ice: Fix VSI rebuild WARN_ON check for VF
+af1b0d1547dd1686ae842cac7f3678649a5cbd89 ice: Fix call trace with null VSI during VF reset
+d46c877935e4b6651cc4a8154d20d0aabaa98c28 ice: Fix VF not able to send tagged traffic with no VLAN filters
+6db6964e33a3b8c9b92781eb59dbb2eb590f5da3 ice: Fix double VLAN error when entering promisc mode
+26fce11f927c805e80c28c7474d183f1f07b7284 ice: Ignore EEXIST when setting promisc mode
+bc6770eb90ff5021cf42ef931e40194d60eeb5f4 ice: Fix clearing of promisc mode with bridge over bond
+0e933ded5079a3b366593492689bcf28c1fdcf1d ice: Ignore error message when setting same promiscuous mode
+5fc790e349ade000f114c1c26fd6fa9915af4b9e modpost: fix module versioning when a symbol lacks valid CRC
+6bce25a155b297c393b8cad24821d9cecffd04b4 i2c: imx: Make sure to unregister adapter on remove()
+15ccc6fa8153ff1ea9b44de0c7433fd82b0e5595 i40e: Fix tunnel checksum offload with fragmented traffic
+56ba4d6853ec5230a37889c8d8cb3a70cb4f982f regulator: pca9450: Remove restrictions for regulator-name
+7c9ebb648cdecd24774e019d083dc5892476163a i40e: Fix to stop tx_timeout recovery if GLOBR fails
 5d4dc30b4c96f047264fa60a34944a595ed1a62a blk-mq: run queue no matter whether the request is the last request
 b72e5b0457465bb66ac91980f3ddb45acff13ec1 tools/rtla: Fix command symlinks
 330eccd73fc0adae76f3cd59b9e2692e36061802 fec: Fix timer capture timing in `fec_ptp_enable_pps()`
@@ -4259,37 +4257,24 @@ b82d312ff30f59ecfabbfd365899d79a9c48fc51 ext4: make mballoc try target group fir
 cdefe8dd61c9030f74e5f6b549af9ca81ddf561d ext4: fixup possible uninitialized variable access in ext4_mb_choose_next_group_cr1()
 547262c5b37393991d4f5ff3670718cd30c00a77 ext4: make directory inode spreading reflect flexbg size
 58df6af8cea3c5377c0220d9fb47cbf85a216f54 Linux 5.19.12
-05d5fa2226c9c394299379da2a335502d90c6239 ARM: dts: exynos: add panel and backlight to p4note
-b1a6cef0043e6f5b82f23e63769e81b748be31e1 fs: dlm: fix race between test_bit() and queue_work()
-5970a7b651662c7815b2a37055449a43987461d7 FAILED: eef6ec9bf390 ("fs: dlm: fix race between test_bit() and queue_work()")
-7cbd539ccf39ac29eacb4ca64b344f2e122e05d8 fs: dlm: handle -EBUSY first in lock arg validation
-0eed74fc6dca34e8ec711130c2ecf08b45dc5c33 FAILED: 44637ca41d55 ("fs: dlm: handle -EBUSY first in lock arg validation")
-3297ca9164df0cefacc3f39f08ca54504d0b6226 fs: dlm: fix invalid derefence of sb_lvbptr
-d8b02d542f4d43fca6173951265feda1c49f338d FAILED: 7175e131ebba ("fs: dlm: fix invalid derefence of sb_lvbptr")
-836ec92ea4eb0b7d0520454cf5d5626597aa448e cpufreq: qcom-cpufreq-hw: Fix uninitialized throttled_freq warning
-58ea71a4b3a853a6c717421a78829ea4f5d00c9e FAILED: 91dc90fdb8b8 ("cpufreq: qcom-cpufreq-hw: Fix uninitialized throttled_freq warning")
-487dbfead9cae2e719c1f79166c13d5afa8ad61b powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain
-68a5f45812abe380e2dd830f49007089e68c2c1e FAILED: 4c081324df56 ("powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain")
-58b6d232fada3408b10f63e7e3ef2308901dc30b NFSD: Protect against send buffer overflow in NFSv3 READDIR
-4656f8dd1e541e55f65e73f7ffecdd3d28637531 FAILED: 640f87c190e0 ("NFSD: Protect against send buffer overflow in NFSv3 READDIR")
-3ebf116ac38a22595a804d2d0996c0c7b9204b76 NFSD: Protect against send buffer overflow in NFSv2 READ
-f75db07320b2fbf4f9ae947c3dfc1b1ad2da92e0 FAILED: 401bc1f90874 ("NFSD: Protect against send buffer overflow in NFSv2 READ")
-0c83a080dfadf2474b7bd594a542d950d95bfb15 NFSD: Protect against send buffer overflow in NFSv3 READ
-e8e8ac04b08c87d01985e0df964c7426b9cac8d9 FAILED: fa6be9cc6e80 ("NFSD: Protect against send buffer overflow in NFSv3 READ")
-29a0d6064aa42426fc01179659feffa551e4c2f8 sparc: Unbreak the build
-aa3e6b136a7748a6a18811238a69768486f8bb67 FAILED: 17006e86a764 ("sparc: Unbreak the build")
-c2fc859e83f358234a6ed1bfb248ee6f755e9dbf hardening: Remove Clang's enable flag for -ftrivial-auto-var-init=zero
-07d2a6e8e0a3ce3d8e2390d4a9187ca01b24028d FAILED: 607e57c6c62c ("hardening: Remove Clang's enable flag for -ftrivial-auto-var-init=zero")
-52c99aa8d22d19212a0f7a0aa55f49f6b64238f7 efi: Correct Macmini DMI match in uefi cert quirk
-2ae3d9a48d5e6c9996bbc48dc23ed959857885b5 FAILED: bab715bdaa9e ("efi: Correct Macmini DMI match in uefi cert quirk")
-3935acc74eea38f05aebfa19be97bc015c75421a Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-20c9cc39dec0bbdd940616ea3e0e938ee99a40ad FAILED: 2120635108b3 ("Makefile.extrawarn: Move -Wcast-function-type-strict to W=1")
+44b6495bd06df1a27ae1b91e5c8e068cf3a21b05 ARM: dts: exynos: add panel and backlight to p4note
+89b847f7c28b0d32abaa1ce114c31bf88fdd19f0 net: thunderbolt: Enable DMA paths only after rings are enabled
+0ccf24547c5e1f324cb5e350a28f3aef2f8c7d1b FAILED: ff7cd07f3064 ("net: thunderbolt: Enable DMA paths only after rings are enabled")
+fdbfc9cb03210231a1b7dc8b65f774f5731d558c regulator: qcom_rpm: Fix circular deferral regression
+31dcf3d89e4e81b1c35b1d803c3d5df76bbb7a3a FAILED: 8478ed584458 ("regulator: qcom_rpm: Fix circular deferral regression")
+c67aff2d3f24a3dbca79ef9fc1c97f8798817e2a wifi: mt76: connac: introduce mt76_connac_reg_map structure
+d59730669be356ea9b7a0005f4979c4676561855 wifi: mt76: mt7921e: fix random fw download fail
+ff99d638a903c8429ec5734da67f75c8a56c4c02 FAILED: 29e247ece5d3 ("wifi: mt76: mt7921e: fix random fw download fail")
+3d98ea9351d065e506fa249bde7ff2c223614ebc hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API
+4e8cb5945d417fbea7cf6495f18b6d7ff3d42a7e FAILED: 7f62cf781e65 ("hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API")
+202fd435765483c0a03d4abe9f8646e9f4869247 btf: Export bpf_dynptr definition
+3f7229b449a58180d7eedf53929837c55d938341 FAILED: 00f146413ccb ("btf: Export bpf_dynptr definition")
 
---===============7702496632366842352==
+--===============0941578605814281728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a048eb3c6b8-b55411d446b9.txt
+Content-Disposition: attachment; filename=revlist-bf10d3a9743c-33645583e039.txt
 
 098e07ef0059296e710a801cdbd74b59016e6624 Bluetooth: L2CAP: Fix use-after-free caused by l2cap_chan_put
 911904c577e0e9a45653265616109f4037f5eeb0 ntfs: fix use-after-free in ntfs_ucsncmp()
@@ -5047,18 +5032,6 @@ fd6c5da3fa2b2dd1af3ff00f8c0e1427c6cf2662 xfs: refactor agfl length computation f
 26e7c965f41bd34e069c3c113fa5b297d972c30b xfs: fix use-after-free when aborting corrupt attr inactivation
 579976dc0d9fdab7fe7c60af33fb0d2eec5f87ae ext4: make directory inode spreading reflect flexbg size
 6215647d9699cb8f1bf7333ec849242c4a9cf9a6 Linux 5.4.215
-8bd2dd0c0632b9407686962fc27a7734a1583da9 fs: dlm: fix race between test_bit() and queue_work()
-693b286a95efb2c0e4a6bf709b99e10fb43f6724 r8152: Factor out OOB link list waits
-b9ec977571d42ee1a38a10d8c70cd217018ebb54 fs: dlm: handle -EBUSY first in lock arg validation
-452ad6f887664841b9400ac473c26138a67800c5 FAILED: 44637ca41d55 ("fs: dlm: handle -EBUSY first in lock arg validation")
-93dd540e8ffb0cd16dbd917608693e8611dc8009 fs: dlm: add union in dlm header for lockspace id
-06fdee5e200adafb33d48b823fc987287a11713e FAILED: 7175e131ebba ("fs: dlm: fix invalid derefence of sb_lvbptr")
-58be52765f4c46ab116f73d3da9dea73f8a7f825 NFSD: Replace READ* macros in nfsd4_decode_commit()
-37615735d54cde44bdca75cbbb8ee2fa1f988146 NFSD: Update GETATTR3args decoder to use struct xdr_stream
-d4c0be32cbe8482ce6e146d6efd467cd262a1e7e FAILED: fa6be9cc6e80 ("NFSD: Protect against send buffer overflow in NFSv3 READ")
-2eb9c4e361abf105f502dcd89221eb2a06d1a86c efi: Correct Macmini DMI match in uefi cert quirk
-22ecbbfc862f407040f26ffbb19f5c57cc56aa39 FAILED: bab715bdaa9e ("efi: Correct Macmini DMI match in uefi cert quirk")
-935bec9c21b240e4732e3fe545ee97fbaaef5bda Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-b55411d446b9af9e8573baa2dbb1068e9801e02b FAILED: 2120635108b3 ("Makefile.extrawarn: Move -Wcast-function-type-strict to W=1")
+33645583e03911bb719bb8c3b05fadc84ca9d8d4 regulator: qcom_rpm: Fix circular deferral regression
 
---===============7702496632366842352==--
+--===============0941578605814281728==--
