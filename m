@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 06 Oct 2022 13:06:15 -0000
-Message-Id: <166506157530.1763.5363658689427687679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 06 Oct 2022 13:19:27 -0000
+Message-Id: <166506236770.9683.11218428485600025621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 7f12a9358e220f3d0c3a0880d01bc283113d7a5b
-    new: cc128b0969f757c930b3ab43890161863cb37dff
+    old: 5cef5fd012bd08be99c204e69674357c0c73ca72
+    new: 7b58fb2135364b09af3411ca585884a664562caf
     log: |
-         fbd18f4782e8e9f097b1d950c4bb3f64cd857bb4 defer/rcurelated: Add Timothy Harris's time-based RCU
-         54b402074ead7d07cbae5e7375865b1bd5834cb6 CodeSamples/defer: Record antecedent for rcu_ts.c
-         a4e1d87b97f8446dd18db11fd7c5b70633bba69c locking: Warn about state preservation when releasing and re-acquiring locks
-         56cf653226792f4e5847683d847c94b51f7bae45 locking: Fix small typo
-         cc128b0969f757c930b3ab43890161863cb37dff formal: Update RCU-test-ratio table as of v6.0
+         18c8999d194714384aeac3967ee901f4a5ab21d2 treewide: use prandom_u32_max() when possible
+         55c589e6341d3f6b6ccb694a8a3496337ff46bb9 treewide: use get_random_{u8,u16}() when possible
+         f3abe9eb04784c39b09c14cbec0910f37ba537f5 treewide: use get_random_u32() when possible
+         310b1bcb8a913cc9c714358ce1c81a5f5de6d0af treewide: use get_random_bytes when possible
+         7b58fb2135364b09af3411ca585884a664562caf prandom: remove unused functions
          
