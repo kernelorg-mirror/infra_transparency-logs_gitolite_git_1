@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1490568815856980038=="
+Content-Type: multipart/mixed; boundary="===============4089840039858819971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 07 Oct 2022 12:42:37 -0000
-Message-Id: <166514655751.14696.4909521133624381313@gitolite.kernel.org>
+Date: Fri, 07 Oct 2022 12:42:56 -0000
+Message-Id: <166514657602.14868.7858478274186685188@gitolite.kernel.org>
 
---===============1490568815856980038==
+--===============4089840039858819971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: 3b1913adb188a18fa5995c5b246783270525ce16
     new: d79310700590b8b40d8c867012d6c899ea6fd505
     log: revlist-3b1913adb188-d79310700590.txt
 
---===============1490568815856980038==
+--===============4089840039858819971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -95,4 +95,4 @@ f7b58cbdb3ff36eba8622e67eee66c10dd1c9995 perf mem/c2c: Add load store event mapp
 c72de11605c5e291981cd30225542169fb3da4df perf mem: Print "LFB/MAB" for PERF_MEM_LVLNUM_LFB
 d79310700590b8b40d8c867012d6c899ea6fd505 perf script: Add missing fields in usage hint
 
---===============1490568815856980038==--
+--===============4089840039858819971==--
