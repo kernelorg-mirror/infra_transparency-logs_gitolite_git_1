@@ -1,29 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 07 Oct 2022 18:20:11 -0000
-Message-Id: <166516681106.27582.2890120404532544354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 07 Oct 2022 18:25:07 -0000
+Message-Id: <166516710713.31390.9230452203642135959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/iversion
-    old: 8c967bcb92934a21384bde38df3eda9c854d76be
-    new: 1e9b644e73c88c54cb4fec8e14ec7c6c4ea68641
+  - ref: refs/heads/dev-queue
+    old: c31a043760a099115675ce97079485606df8270a
+    new: 9ce3e3f55b18026944714f74a889e059c9b52c1f
     log: |
-         eec57d9488e7e537ed70e83cff33756529992d87 vfs: plumb i_version handling into struct kstat
-         cbad794e312899373d2d88a54e6563ae5b632c0f nfs: report the inode version in getattr if requested
-         fa174bbfe69e8d6c73147119eb3efbcdd7c3ebdf ceph: report the inode version in getattr if requested
-         42e98c096c33049ec09f24d83c99b366a14e6be4 nfsd: move nfsd4_change_attribute to nfsfh.c
-         da1eb0a30a9dd16e6580d747d01ded8778950c8f nfsd: use the getattr operation to fetch i_version
-         e49d7f3b27c7422aa200d53098f037d7194f116e nfsd: remove fetch_iversion export operation
-         b2773480fe6c6148029575b345be593d256423c5 vfs: expose STATX_VERSION to userland
-         273906aaf8fd7dd04c136bc50e3b27880c94b31d fs: add a new file_update_iversion helper function
-         9ace8a3c69a4a21348e96f5db8d8c577ae9f19cc tmpfs: increment i_version after a write
-         0260d5859a6770c2c0375dedeff9c75eb2990c17 ext4: update times after I/O in write codepaths
-         1e9b644e73c88c54cb4fec8e14ec7c6c4ea68641 btrfs: update i_version after a write
+         1b8698317184e402851f70abc1b3c115046539f2 ice: Add GPIO pin support for E823 products
+         2d558b5d47b950fd76a193c3c5cb9a6e257110df e1000: Remove unnecessary use of kmap_atomic()
+         7b3ff1741f6388bae3bc726211a9a4c4fb72af12 e1000e: Add e1000e trace module
+         4f0e129b5fb816456912da4144236deec6aec14a ice: Add crosstimestamping on E823 devices
+         8997667cac2af450ea3a06cdf505a22a1c104f28 ixgbe: Remove local variable
+         937309ad35dfda388b6316be85bd0d54ef59362c e1000e: Add support for the next LOM generation
+         dc897cc9ab31723258234e6383dab3bd1e0d72b5 ice: use GNSS subsystem instead of TTY
+         6256838e3ae4f03d4ea69524fd79f7b1e473618c e1000e: Remove unnecessary use of kmap_atomic()
+         e89a57d4b228d973715deb718b9090aa3c900e9c i40e: Fix VF hang when reset is triggered on another VF
+         368a9c64dbd5af54cc4ce7b87637110df9bd3d8a i40e: Fix flow-type by setting GL_HASH_INSET registers
+         37033756490faeb4ca26c6257bf7cc432dedfb0c igc: Correct the launchtime offset
+         9ce3e3f55b18026944714f74a889e059c9b52c1f ixgbevf: Add error messages on vlan error
          
