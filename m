@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5763108722261487512=="
+Content-Type: multipart/mixed; boundary="===============0558253467850479692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Fri, 07 Oct 2022 12:19:02 -0000
-Message-Id: <166514514228.27770.2579664820835291058@gitolite.kernel.org>
+Date: Fri, 07 Oct 2022 12:19:18 -0000
+Message-Id: <166514515867.27957.4067272120381639773@gitolite.kernel.org>
 
---===============5763108722261487512==
+--===============0558253467850479692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,76 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-0
-    old: a21b509f29dd05819d65d963edca67efb59ba0f6
-    new: 39807ba1c1580deb1ae0a8a7c92f1afff73e0e18
-  - ref: refs/heads/for-greg/4.19-0
-    old: 1a68941043f47c403d2522aacc250d602ae9a60b
-    new: b2a23c16ace41089a4545aab1a9b9f602b5b59c5
-    log: revlist-1a68941043f4-b2a23c16ace4.txt
-  - ref: refs/heads/for-greg/4.9-0
-    old: b26b0248aa19950439841ae9830371654fac2883
-    new: 79bf5f29058c6dcd9a2acaefdb57703b4e5bcdaa
-    log: |
-         79bf5f29058c6dcd9a2acaefdb57703b4e5bcdaa fs: dlm: handle -EBUSY first in lock arg validation
-         
-  - ref: refs/heads/for-greg/5.10-0
-    old: 7b9d0a95028352d056d14d8796a1c14c3117b8ff
-    new: 6db29b4efc5d7ab8c3f12bd6e16548bba1e98a9e
-    log: revlist-7b9d0a950283-6db29b4efc5d.txt
-  - ref: refs/heads/for-greg/5.15-0
-    old: 5c35faa6d526bc6d956f9555cd2fe14cbbebd374
-    new: 8edc2140ee2d8366bc19722fcec42476ff8addbb
-    log: revlist-5c35faa6d526-8edc2140ee2d.txt
-  - ref: refs/heads/for-greg/5.19-0
-    old: 20c9cc39dec0bbdd940616ea3e0e938ee99a40ad
-    new: 486b7f9d5febb9649e11cc12453e6588847ce496
-    log: revlist-20c9cc39dec0-486b7f9d5feb.txt
-  - ref: refs/heads/for-greg/5.4-0
-    old: b55411d446b9af9e8573baa2dbb1068e9801e02b
-    new: f4d20a33816713878e242f0098107d4e6b987a41
-    log: revlist-b55411d446b9-f4d20a338167.txt
+  - ref: refs/heads/for-greg/5.10-1
+    old: 1bfa63b6ead0ef0f0294d0f1e1d5a8d8f0a8e09e
+    new: 78d5229934166f35fc4341ba0291e2f100e371dd
+    log: revlist-1bfa63b6ead0-78d522993416.txt
+  - ref: refs/heads/for-greg/5.15-1
+    old: 0dd937e89a018fdb80e74d7e40982909966d6902
+    new: 6acaa48a870c3e3162cb17413e054b60e2ae6ca5
+    log: revlist-0dd937e89a01-6acaa48a870c.txt
+  - ref: refs/heads/for-greg/5.19-1
+    old: 3f7229b449a58180d7eedf53929837c55d938341
+    new: a522774d28fcca479b822a0d0b67d58d22921aff
+    log: revlist-3f7229b449a5-a522774d28fc.txt
 
---===============5763108722261487512==
+--===============0558253467850479692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a68941043f4-b2a23c16ace4.txt
-
-14f2449b952ee92f7ffe21f2b13dde73621333fc uas: add no-uas quirk for Hiksemi usb_disk
-6be1c578263e525c9586339724a13a06d529def0 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-df36af305bd590aee961e946aa1bfe1bdbb33402 uas: ignore UAS for Thinkplus chips
-f5c43c9cbc220510405489c5ae554db1ae69a3c7 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-c61e4edb72a6f19f9d95fdeb857673488dea06e3 ARM: dts: integrator: Tag PCI host with device_type
-f8175bd0df66ba02b9419c373114239d643fa079 ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-abd81a43c3167a844eaedd7767c9acfcccc436ef libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-2b538411b1c53c401473262f719f385b736ccc2a mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-26e871af465dff04431b03ba9c71144f63e59599 mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-39a22a4ccd3a6c073ba2257629e752afa4e7ad08 mm: prevent page_frag_alloc() from corrupting the memory
-acf4387e553ede843bdacf3616e4b750517b58db mm/migrate_device.c: flush TLB while holding PTL
-7e290764624acfc807a9dae958b3e4ecc550b50c ima: Have the LSM free its audit rule
-3d55a948aaec1ffd4ea329bc6e1a7ecd4f10e64f ima: Free the entire rule when deleting a list of rules
-f039564c36ee609bc5327a52895dfee05c8f0f7c ima: Free the entire rule if it fails to parse
-d25e4b036fc357c249726b4e34e2652ee09ddafc soc: sunxi: sram: Actually claim SRAM regions
-f8b05efc7825a9016c20c1d4e1eb975a90b9ce32 soc: sunxi: sram: Prevent the driver from being unbound
-054c01cce669a72ef7556a516113c0b7a29284ea soc: sunxi: sram: Fix probe function ordering issues
-6d55ef4bae9afebe6e2b82b020789853d053413f soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-e112719fbe58fc9471cb6898f44e475678bf4229 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-bd06dbf5392d4765e8749946fa767e357e4ebfab Input: melfas_mip4 - fix return value check in mip4_probe()
-71f100ce7f6ccfff415015d9ca17c3d2c0319443 usbnet: Fix memory leak in usbnet_disconnect()
-788ed860d7d367d447e0d6b683b933a3cb5c8740 nvme: add new line after variable declatation
-5f7fd71e5bebf337769f20dd125822ce63266e4d nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-198e9770cc53e9cdfa5aca552dbbddb45abbb5c1 selftests: Fix the if conditions of in test_extra_filter()
-a40324786c0b05421476b30dbf1cf70b1d70c447 clk: iproc: Do not rely on node name for correct PLL setup
-cf46ee80c6d2f24c2cae2b40c7d45b6e81457b8b Linux 4.19.261
-74bcbca711358443722c14e3d96d6b845f3c236b fs: dlm: fix race between test_bit() and queue_work()
-b2a23c16ace41089a4545aab1a9b9f602b5b59c5 fs: dlm: handle -EBUSY first in lock arg validation
-
---===============5763108722261487512==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b9d0a950283-6db29b4efc5d.txt
+Content-Disposition: attachment; filename=revlist-1bfa63b6ead0-78d522993416.txt
 
 53e6282dde62be35ed311a41bbdf2372aedc8430 thunderbolt: Add support for Intel Maple Ridge
 b2ad53fbc0e16771f393cb14ca0aeb25101eae60 thunderbolt: Add support for Intel Maple Ridge single port controller
@@ -138,22 +86,14 @@ a8e6cde5062fb2aff81f86cc0770591714bee545 clk: iproc: Do not rely on node name fo
 b12d0489e4021220b3341a95a6be37c5ff14729e x86/alternative: Fix race in try_get_desc()
 98f722cc2438d16b8949fdce712feb1fbf9699e8 ALSA: hda/hdmi: fix warning about PCM count when used with SOF
 014862eecf03f58066a957027dde73cbecdf4395 Linux 5.10.147
-5635b4008b8a250fc72be509fe9bc9767c0b0c6d fs: dlm: fix race between test_bit() and queue_work()
-93e13884601db7f4c38ab3e16ac8211d56d0e762 fs: dlm: handle -EBUSY first in lock arg validation
-13305578e9cfe83f5ca7da90914a26ff59ef9d7c powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain
-ff773c52a693fa88dfbf9fec4c8f0aa2a725cc18 NFSD: Update the NFSv2 READ argument decoder to use struct xdr_stream
-764a94a3a153c682bf8b7eac1ddeb8fb7161b2b5 NFSD: Protect against send buffer overflow in NFSv2 READ
-e0a638513122e956790ea02233131a6b5147a5fb NFSD: Update READ3arg decoder to use struct xdr_stream
-e9fb5335d87b094395a34cbdb04d74d461f02c7a NFSD: Fix the behavior of READ near OFFSET_MAX
-d53f7553f501dc84586501e1038cb572f7599973 NFSD: Protect against send buffer overflow in NFSv3 READ
-c2787149473da9ef5666e1f3409a136890af66d8 efi: Correct Macmini DMI match in uefi cert quirk
-6db29b4efc5d7ab8c3f12bd6e16548bba1e98a9e Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+d829a54ca7452b6bb428fdf8834401beba4c443e regulator: qcom_rpm: Fix circular deferral regression
+78d5229934166f35fc4341ba0291e2f100e371dd hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API
 
---===============5763108722261487512==
+--===============0558253467850479692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c35faa6d526-8edc2140ee2d.txt
+Content-Disposition: attachment; filename=revlist-0dd937e89a01-6acaa48a870c.txt
 
 de5deddfa7e73dc44044a3c78c8cad25fd2d55a9 ALSA: hda: Do disconnect jacks at codec unbind
 f7392f93a2fb00a62cc841f1ce46b34f82b8ba28 ALSA: hda: Fix hang at HD-audio codec unbinding due to refcount saturation
@@ -226,21 +166,15 @@ c3d4b8970c0d86e101a6570b0131fc9db62fe431 KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31
 a00ed4e5d5ee2f5abc8b8820329b6dc8300774a2 x86/alternative: Fix race in try_get_desc()
 713fa3e4591f65f804bdc88e8648e219fabc9ee1 drm/i915/gem: Really move i915_gem_context.link under ref protection
 c68173b2012b8eba332cf9832f0ad23427d795b5 Linux 5.15.72
-da7a33c86358c879212183f3b0dad9f03b28fe87 fs: dlm: fix race between test_bit() and queue_work()
-89f3de10e53f7fa4be66e84158bc9cb3e1e23cdd fs: dlm: handle -EBUSY first in lock arg validation
-374298d13bd5c0a9f69d3fd3ef34d72c6944fc48 powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain
-00ad12df0bfd88bd8c4a810bb8bff2c9ba41662f NFSD: Protect against send buffer overflow in NFSv3 READDIR
-eeb7fbf9950fcebcf15da748f713ecf8d738d2e9 NFSD: Protect against send buffer overflow in NFSv2 READ
-b93445622cf6c96818c624af5ae2a95068512434 NFSD: Protect against send buffer overflow in NFSv3 READ
-0b9c08741e1f3f39f11c5990c87265e251f910d8 efi: Correct Macmini DMI match in uefi cert quirk
-14aba0321ded9852ebb5f56129748b17607495ba Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-8edc2140ee2d8366bc19722fcec42476ff8addbb fs: dlm: fix invalid derefence of sb_lvbptr
+740da719af9c57d7d38c83a46b78c420cef231cd net: thunderbolt: Enable DMA paths only after rings are enabled
+334a36401600734fbcc15572333ad11244332c31 regulator: qcom_rpm: Fix circular deferral regression
+6acaa48a870c3e3162cb17413e054b60e2ae6ca5 hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API
 
---===============5763108722261487512==
+--===============0558253467850479692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20c9cc39dec0-486b7f9d5feb.txt
+Content-Disposition: attachment; filename=revlist-3f7229b449a5-a522774d28fc.txt
 
 9182c86a04563f497a8156ba4359cd25d5e96b1e Revert "drm/i915/display: Fix handling of enable_psr parameter"
 bef6a9b547302ca9fee49aef52c3e63886ab361d Revert "drm/i915/dsi: fix dual-link DSI backlight and CABC ports for display 11+"
@@ -352,62 +286,12 @@ b1bad76d6a1862b8cb23269ea803e7b465e6dd3f KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31
 381eae6b1dc33170553fa09d8c401b89bc023823 x86/alternative: Fix race in try_get_desc()
 b11cc6399c56b4d46e5334cc77ccfbc162642292 damon/sysfs: fix possible memleak on damon_sysfs_add_target
 30c780ac0f9fc09160790cf58f07ef3b92097ceb Linux 5.19.14
-f332910e2fc15a3d6ad5fe26c5bcdbb9405c3e47 ARM: dts: exynos: add panel and backlight to p4note
-b0bea1bd355a4c8e8dc7242d2f1b03ab71577e72 fs: dlm: fix race between test_bit() and queue_work()
-8ba481d9d07263d1f9de187012fec671cd414734 fs: dlm: handle -EBUSY first in lock arg validation
-bfbdd81dd141f175b52f0d52cdd06e4f675a39cd fs: dlm: fix invalid derefence of sb_lvbptr
-6ae41dc558d9504f6c0b0f3a7c3c439fd854922e cpufreq: qcom-cpufreq-hw: Fix uninitialized throttled_freq warning
-c9567e0c49457b9fe6336e52916540b3b7c46272 powercap: intel_rapl: Use standard Energy Unit for SPR Dram RAPL domain
-0373d2b6f4548b4ee73d35bd8b4370284bdb6d6e NFSD: Protect against send buffer overflow in NFSv3 READDIR
-7a3cb94ac848b90ca22bac8871f35263fda756dc NFSD: Protect against send buffer overflow in NFSv2 READ
-947f82f1dfb71733182b69297147cd268ab0d3f4 NFSD: Protect against send buffer overflow in NFSv3 READ
-a29e1c499788f1b69695c7d365184b88845ee456 sparc: Unbreak the build
-df6516eef4794a85dad140cd2848a8d13074ad54 hardening: Remove Clang's enable flag for -ftrivial-auto-var-init=zero
-83d7def2dd33e946613dbfdcf94625f8e548aadb efi: Correct Macmini DMI match in uefi cert quirk
-486b7f9d5febb9649e11cc12453e6588847ce496 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
+e96862dd6dada78b0360a9214201276021e33c15 ARM: dts: exynos: add panel and backlight to p4note
+f3e2b062c762002b97e8f47001ae51ca0adcaa07 net: thunderbolt: Enable DMA paths only after rings are enabled
+936d759a5ac92a3d0790a45033be4032f1c690e0 regulator: qcom_rpm: Fix circular deferral regression
+0247b7411d6f715e5237bfb21ac9a3868adb7e43 wifi: mt76: connac: introduce mt76_connac_reg_map structure
+9518581e0f1ce8fbaa61eb98d6ff4a8359b23e25 wifi: mt76: mt7921e: fix random fw download fail
+b2bce50d3f729be7c468fcb016ea4ab613db228c hwmon: (gsc-hwmon) Call of_node_get() before of_find_xxx API
+a522774d28fcca479b822a0d0b67d58d22921aff btf: Export bpf_dynptr definition
 
---===============5763108722261487512==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b55411d446b9-f4d20a338167.txt
-
-383c663c7359c7440b2238e029e22ed80663e84a uas: add no-uas quirk for Hiksemi usb_disk
-fc540f6e4bb4be15c4a7acc2164b0c8fef962ea0 usb-storage: Add Hiksemi USB3-FW to IGNORE_UAS
-43699b8fbcf197dbbf21c26d6b8ffa6f8283f34c uas: ignore UAS for Thinkplus chips
-f8a2e22289e4c838430711a7785635253dd57b79 net: usb: qmi_wwan: Add new usb-id for Dell branded EM7455
-85b5edb1b429127e09a91b5a0cc7eb50f9f9c34f clk: ingenic-tcu: Properly enable registers before accessing timers
-46e784cf4a840a1de160ae4d5a3aeee5115ffe1c ARM: dts: integrator: Tag PCI host with device_type
-9a3740f448be2856d94619b7911d6f71fd91b79f ntfs: fix BUG_ON in ntfs_lookup_inode_by_name()
-5cebfac6a8c994ef7f269a7917a160b189bf54de Revert "net: mvpp2: debugfs: fix memory leak when using debugfs_lookup()"
-bb7c23e4e523511af3bd3cb7c5cdcf33b1eb25c5 libata: add ATA_HORKAGE_NOLPM for Pioneer BDR-207M and BDR-205
-2ec4949738c8f7a519d65c7a9fc3745d6a6cce4f mmc: moxart: fix 4-bit bus width and remove 8-bit bus width
-d535fb83844ef6a8ee3124af29c81220efec9f9c mm/page_alloc: fix race condition between build_all_zonelists and page allocation
-b9e31f4885c43b25a943724ac576ade5ac51701d mm: prevent page_frag_alloc() from corrupting the memory
-ffd11370b74f7f835440d68839f4fce5844d7a52 mm/migrate_device.c: flush TLB while holding PTL
-0f4634f70bfddae26be6600ff1504fc4efa5deff mm: fix madivse_pageout mishandling on non-LRU page
-d18565280076197dc675047d533de8c2ce60badf media: dvb_vb2: fix possible out of bound access
-d0c69c722ff16ce2481a5e0932c6d5b172109f21 ARM: dts: Move am33xx and am43xx mmc nodes to sdhci-omap driver
-1ba52486082b7ebe71a176152f8da3811b542132 ARM: dts: am33xx: Fix MMCHS0 dma properties
-883778a1f4faa0ea4c22a05b66ae32aa278e1181 soc: sunxi: sram: Actually claim SRAM regions
-26170e4fd1452a39fd46f4209d087bff68531d1e soc: sunxi: sram: Prevent the driver from being unbound
-73dbc6e136b548979b4a90c5e0445cf9a8d0dc85 soc: sunxi_sram: Make use of the helper function devm_platform_ioremap_resource()
-cdbcdfc96126df77b737987d39ae2a2492af1422 soc: sunxi: sram: Fix probe function ordering issues
-7291d19a9eebdff88c199380c7521ded9d40fb4e soc: sunxi: sram: Fix debugfs info for A64 SRAM C
-38c4d8230f937f3cf8a9f0e7bb95d982ba36a575 Revert "drm: bridge: analogix/dp: add panel prepare/unprepare in suspend/resume time"
-6ca922ec7598344ca47ba21868284ebf4fb894c7 Input: melfas_mip4 - fix return value check in mip4_probe()
-3ea4a5342452ada405d752296dc5f034f6be48b7 usbnet: Fix memory leak in usbnet_disconnect()
-18ef5cd4c53c585f68c3e7c2aa442c019a08d242 nvme: add new line after variable declatation
-ae0d3a431639d51bc949a6ab559857677435af1b nvme: Fix IOC_PR_CLEAR and IOC_PR_RELEASE ioctls for nvme devices
-762706bd12a62973c54ed2469fcb2e6cd633f495 selftests: Fix the if conditions of in test_extra_filter()
-d417d5eb29d7ba18a36ef1b7cee846de9962a6f3 clk: imx: imx6sx: remove the SET_RATE_PARENT flag for QSPI clocks
-b8b87cb13681874faaf77a1bec55c793ae75324a clk: iproc: Do not rely on node name for correct PLL setup
-f28b7414ab715e6069e72a7bbe2f1354b2524beb Linux 5.4.216
-ea88a69c068f583e7a00eb9fe246d2741347e33e fs: dlm: fix race between test_bit() and queue_work()
-f4b722fae6c0f614faedd8c172048e6af32aebb7 r8152: Factor out OOB link list waits
-b2b26a80610400eee686952bf0ca5d3a6ea7ae50 fs: dlm: handle -EBUSY first in lock arg validation
-424edc68206f78232fd2b4843f7b5e28af42a391 fs: dlm: add union in dlm header for lockspace id
-cd72278c7369a11f9ff7f6fc3df55d38b1d09d37 efi: Correct Macmini DMI match in uefi cert quirk
-f4d20a33816713878e242f0098107d4e6b987a41 Makefile.extrawarn: Move -Wcast-function-type-strict to W=1
-
---===============5763108722261487512==--
+--===============0558253467850479692==--
