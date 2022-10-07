@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 07 Oct 2022 04:03:05 -0000
-Message-Id: <166511538552.24622.15796347435408087953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 07 Oct 2022 05:16:52 -0000
+Message-Id: <166511981248.11957.1048045027927582978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 0040513a9a4d31916241b91aaa23d853ac2f38aa
-    new: 27210ff9c2c27162793af8259f45a6dbd1a14328
+  - ref: refs/heads/for-linus-6.1
+    old: 728c2edfcf14b3b61bd0ff82894f03455ca0e7d7
+    new: 5c13a4a0291b30191eff9ead8d010e1ca43a4d0c
     log: |
-         27210ff9c2c27162793af8259f45a6dbd1a14328 Fri Oct  7 04:00:53 AM UTC 2022
+         06c62f8cbb1f660a4147b0d8cbe65cf2cfc1aa5a xen/xenbus: Fix spelling mistake "hardward" -> "hardware"
+         e433715b116553892ecad8796018ae4b64304252 xen/virtio: Fix n_pages calculation in xen_grant_dma_map(unmap)_page()
+         77be00f194b6e1647cddb644b7023b352c2c6ee8 xen/virtio: Fix potential deadlock when accessing xen_grant_dma_devices
+         0991028cd49567d7016d1b224fe0117c35059f86 xen/gntdev: Prevent leaking grants
+         5c13a4a0291b30191eff9ead8d010e1ca43a4d0c xen/gntdev: Accommodate VMA splitting
          
