@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1820756376026416735=="
+Content-Type: multipart/mixed; boundary="===============8207060147925819750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 08 Oct 2022 07:00:14 -0000
-Message-Id: <166521241421.11324.14121265326035861041@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:00:17 -0000
+Message-Id: <166521241762.11388.2785126053323298614@gitolite.kernel.org>
 
---===============1820756376026416735==
+--===============8207060147925819750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: fda8c908bc2d523c0770ded667dcdad29c06ff52
     new: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
     log: revlist-fda8c908bc2d-e8bc52cb8df8.txt
 
---===============1820756376026416735==
+--===============8207060147925819750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212457 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212461 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665212413-dd7560427c51f926a98db6d831e881786dd9cfde
+nonce 1665212416-2aace5bac0e74f4e7f7dab016d6213fbbb76c7f0
 
-fda8c908bc2d523c0770ded667dcdad29c06ff52 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/driver-core-next
+fda8c908bc2d523c0770ded667dcdad29c06ff52 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBICkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AX0P/An3DuQ9k+wX7300Rbtt
-ewKpluHDyDktuvO4PuPju/5PS8L8VsqoX+zzpmFIIVmwkhMw2QtXkHrmf/Dgi6sN
-56/7pDGZYOXa7o48XBDdIim0KRIvLm69FKXXybpKtcDW46MYXlzCvi8vwyze0C4Q
-L+6q/zRCPeY1XaUcRIiUEvO9MUpmOTtn4+WFQtdNkW96s1aiStoeUq6sOxs9+zh6
-yf5EhKHfvJw9VZbUytvpeQrgbK1jBeTECzJQXmTiEJ1uVbFk4jd4LqIO7mvTLCNw
-mmI6j1tPyb+1qyOytQMWTUiFDkSX3z5h7ebi2GZAefX168aOpA9vMw2SICccBmAg
-mzjFJKLF4yqan70BfZzGxwskSujKwwePYMwj8KTXKM3d1XEK+a9yRerrfCLGQ5nW
-mLcGT+3JbnWb24P6yyXEKraY38yZ7hzACK9VzOGvs2B+Cvd9ET0dXUcqDMUmeZJR
-TbZ3BsYxSfxPHbBJlnbIRMrJbDU2T9PfgWK3u2c4rWG5RNoTbH+aZRfEfzgxu5OU
-Fe9HmEtvguwWnvvN5VCAIni0BuJ1JSMLEXSW4jXI9lIEebXCXYVpODiX2zEKNqkM
-1DXB0RqfGG4c/Y3HCfw1OAcnifAHdIAUMzK6dYzlJZInKTYfoNRFZ4bpidpwHEJl
-z1AEaX5gPXs1NfGBAEVuuWp5
-=KhRz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIC0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0r0QAJv665UwqfPuTJ/2jgHA
+rpMZPJTy7PCEs/mY+RZoRg5jQTLi8JDrDGDGAqyH7SIS8xGXzgqXRCQmE2c+XX/M
+vcKzwa84gAM6oIWIIm/ClF4Ncw2ze9k4OzBSx1dKsLjwWp7QjSOCWeGqCGf3BAGX
+hWqSH+tWv9daZBuwVH6QiwaGcmQDs3zathsvH200/uvQYY+TI7/hAZPR8bPaudbk
+gG7Xy3aSOtwSl42gf7LRILtIs0rwvI6K7TBOFTaGkfGkOYQWx+5h/WzjungkT8Sg
+Qpa3pISicF2NBlaxBTqm4wFkuYPqDbFHQg8LqM1GQ71/8Zkcux6M8WamTFkX/BkY
+WjDlCLCNjlG55oor+Kg5HEFOTeAqLCAXqEA7vL/eA4d4hbgIsy5g//prXSTQVwzb
+LH5plpQnKQUDj1zYwhSnsWlsTKDrghQKPgBcG0+f40gSAQ5nkgYP+WD7NDwn7Ky8
+tt9rcvzjy9ksvKSOQ8/gmWxpY4GtLQaO6Y1EFNeva3J5sk49MOu3KmrpnSKc8AgR
+WHPMilshxFj3zTCfvXQ0iQSsKsL4Dp1MsMBujsaIuyawUqe5303NiljNZ9Qp8j7w
+Qq0PNXgKBxqjjQGBGblMkdvCL+Wgxja3/NuVx8dmFdZZY7qkPKJqyEWlTp4+rxZD
+wkQFwNGa7h7CBeHwZ1648+OS
+=MS5x
 -----END PGP SIGNATURE-----
 
---===============1820756376026416735==
+--===============8207060147925819750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============1820756376026416735==--
+--===============8207060147925819750==--
