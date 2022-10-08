@@ -1,62 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============1005198134338250690=="
+Content-Type: multipart/mixed; boundary="===============5380500438998221156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 08 Oct 2022 07:05:45 -0000
-Message-Id: <166521274524.15745.16651008637102178986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 08 Oct 2022 07:06:24 -0000
+Message-Id: <166521278478.16038.11999445579794968519@gitolite.kernel.org>
 
---===============1005198134338250690==
+--===============5380500438998221156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: e8c2318e0bc4b468bd3cdc46aa9e2b069a8d5e25
-    new: 9f088d9d2eca67c6ec55bf0fa9ab8e299e6ed760
-    log: revlist-e8c2318e0bc4-9f088d9d2eca.txt
+  - ref: refs/heads/main
+    old: 7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9
+    new: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
+    log: revlist-7e2cd21e02b3-e8bc52cb8df8.txt
 
---===============1005198134338250690==
+--===============5380500438998221156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212787 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665212742-7069fc4a5b3d7261b7b41f7fea4dcf70625fc671
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212822 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1665212778-c890ba638ec79b5e059124eaf692d68ede715e27
 
-e8c2318e0bc4b468bd3cdc46aa9e2b069a8d5e25 9f088d9d2eca67c6ec55bf0fa9ab8e299e6ed760 refs/heads/debugfs_cleanup
+7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIXMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3X0P/RMwsn6KQCkvEi2uSJo+
-gUH4U10iE/hXda6/tGMlnkfZTmZHDx16oZbNNA4YQN53/WA/zPzMFISWoQh5sTYB
-R/zcLqXLoZPRsbMObJ4p8iwrxPorP/B90g9VJykRaVtSf9Y4a/7lm9KAlm0r55+A
-RabjhXIE1w6QIzwfH0Zd99iXSiYY3NPkdzMim9uErm72jOlWxz10n8mhsCm7+lVA
-wZ9wuiGSnb685ATZMqk4hMlcbVDLcyUjCUTVCd+mSp4fzYPon9rg+prtlBXl4Vjx
-tZGaUWHiBAsqQiPiQrSf6WuSBBTep22XJhgwKkgUDQQ43f9EyDOxg5CD540KKpgr
-o+lb5/WAT5PldabZ+bC0xw3duGecA66n/U9irPb/LX5bGDUjR3asDtQyoKgI7ZGo
-MLYVMV6N75Y9Njj2vdUe5XYiUczWXvNrrEIQ2JVBAUvEzXnGJ5w+uRMSfDBwrm+A
-pqPk4u+KtEfbJLnFUwBmC9j+PwvzI6lF/wwZ+/wymF7jnggMV4sUS3Ro7u/uqcdH
-zJ4912IAcs9Bj2Z2GYSPp/pXFxFalkFvxMLUajSdVKCKanQBPNeGek0+/NQLnKUP
-4bq8QruxlnVEgXvBJf88pjFXv05sI1nIejK5KGdaMfWomHZRamz/CPgxFyp3nQ44
-uVktDaw7ziWAUhCDT9RTpIaf
-=VSh8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIZYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+icEQANYsLi3RFFAnCeHCJ2u1
+Hf306eziVqn9kF13QbK26co7zZ5BHu30AzAE/Q6IdGGkQ9opoN92R1Yqhnybb3mn
+Oap8FDqkNa9C/D0SIiTe5jrhmYZYFSZEcnbXCcf8YLoLcuGWgZY+/+DNAe8X6N99
+sphMsf8ZfBmizFRulz5hYKphokmOBfmLy/18/VEyhswJoghoWvHYKjoLXCHFq5+h
+SgsXV+Rh/ns4Us+hJh/fvclTAXZfpJDKrDcoXzg34dYGOuMMhz3Z+M2OiSS98eTx
+5yLLhCqAnsbsxOr6CD/E+nrkGkDRL4iu7c+AXInt/R9w805rzdPiHJyeGt9DUR92
+/qFISx3i0bdzOkjm+HPsiz19IsmIlhbU9d5yE9yYipkzIPWZZT+WiQmXueXdgEmq
+hMW7qbY68+NsW+DlUv0BT0ctO9cqqd5Njx/JEBCLTDk7YTcbYJjuJ46cHiEdb86P
+uhCcJPhiQ+BXIkHZV9aMt30Y0dByZXMZGAp5rUZf2e4tre8jBeXYzBxHFxouIJU+
+qb5oLyGoK2k7UOhN1ntYcRkTWjdt7H2RLaopjelmTPHsNj1KSBv9U68bRkEN3J4t
+p1+7pzZ2SkO8Fkv7WmdR38XuWrMQSswfiNueWuuoO06xuS8G6jUGqhXOhawuuW8J
+GyZs/xtylgMYdlIhZEKtsy2v
+=4zyx
 -----END PGP SIGNATURE-----
 
---===============1005198134338250690==
+--===============5380500438998221156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8c2318e0bc4-9f088d9d2eca.txt
+Content-Disposition: attachment; filename=revlist-7e2cd21e02b3-e8bc52cb8df8.txt
 
+625065dae9f1e7dc9744e6de45101bc1752ef1f3 dt-bindings: mfd: x-powers,axp152: Document the AXP228 variant
+3fa9e4cfb55da512ebfd57336fde468830719298 mfd: fsl-imx25: Fix an error handling path in mx25_tsadc_setup_irq()
+becfdcd75126b20b8ec10066c5e85b34f8994ad5 mfd: lp8788: Fix an error handling path in lp8788_probe()
+557244f6284f30613f2d61f14b579303165876c3 mfd: lp8788: Fix an error handling path in lp8788_irq_init() and lp8788_irq_init()
+31961dc598ab8d68c4c6f2e572f9f101e1317cba mfd: twl-core: Fix double "to to" in comment.
+8e88c61d6f3432f27a2c6b8bc58ae4fe974f4b6d mfd: core: Delete corresponding OF node entries from list on MFD removal
+4e4627e1aefdbf3a7f7ae85dc5ca8a583e30c87e mfd: rt5120: Add Richtek PMIC support
+6460f51ae317aad1d0530e004890e09bff60674d dt-binding: mfd: Add Richtek RT5120 PMIC support
 79ea68e0a9cf8c0f479339aca0c60f915522ff32 dt-bindings: mfd: aspeed,ast2x00-scu: Convert to DT schema format
 26331d261f49949bff6477fc9c844b17076fa245 dt-bindings: mfd: mt8195: Add bindings for MediaTek SCPSYS
 0a6df9f16f51bae699a2dee067e92d82a2a3ff05 dt-bindings: mfd: qcom,spmi-pmic: Add missing compatibles
@@ -1073,13 +1081,5 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 6181073dd6a7e5deafc60e7981bd765b6c93da8c Merge tag 'tty-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-5753eef18a83cfd7e9d5886ec84dc4fecd28e8bf Input: elan_i2c - convert to use dev_groups
-b6968f5c09a10a79462020f9907bcb1e70e14490 driver core: remove devm_device_add_groups() and devm_device_remove_groups()
-f5e0a008a5a1d24a6abd0386f7fd21de743fec82 sysfs: do not create empty directories if no attributes are present
-e61f392f1d1ac12c3d9b0e696897ee19de5be687 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-641a2e7ad3dbbf9f750756ccb2cec460822ebd41 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-f11a5504eb38c8c1751fa24d217cd2162a550119 soundwire: sysfs: have the driver core handle the creation of the device groups
-f1582a6030a226ddfc2db22a85902d9d6f9bf7f7 soundwire: sysfs: remove sdw_slave_sysfs_init()
-9f088d9d2eca67c6ec55bf0fa9ab8e299e6ed760 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
 
---===============1005198134338250690==--
+--===============5380500438998221156==--
