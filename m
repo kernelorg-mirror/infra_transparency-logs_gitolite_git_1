@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2942703608209152139=="
+Content-Type: multipart/mixed; boundary="===============7383043251370001122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 08 Oct 2022 07:02:20 -0000
-Message-Id: <166521254083.12644.5978411209388050659@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:02:31 -0000
+Message-Id: <166521255175.12793.3529289128859523906@gitolite.kernel.org>
 
---===============2942703608209152139==
+--===============7383043251370001122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,63 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: e24e53711d76de64b331bd774a6288fcea81e034
-    new: d172cd6fa2a2111918e6824a801c8590cdb62ba3
-    log: revlist-e24e53711d76-d172cd6fa2a2.txt
+  - ref: refs/heads/kobject-const2
+    old: e40059ea7288fda9f34ed5fbd9757c71c229ad3d
+    new: 4db8532b97107b5eeed45cf8bc23d40554ea80e6
+    log: revlist-e40059ea7288-4db8532b9710.txt
 
---===============2942703608209152139==
+--===============7383043251370001122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212582 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212594 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665212537-350d86bb69b7b79a5e73bd850f7f7882f95b7db1
+nonce 1665212548-22ca447a3cbc58ef60eb89073767d4891e9b704b
 
-e24e53711d76de64b331bd774a6288fcea81e034 d172cd6fa2a2111918e6824a801c8590cdb62ba3 refs/heads/kobject-const
+e40059ea7288fda9f34ed5fbd9757c71c229ad3d 4db8532b97107b5eeed45cf8bc23d40554ea80e6 refs/heads/kobject-const2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIKYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+epMP/iOuO6eOpHjao3Yd+Fjg
-KbO39npPj4vcPRv4ZlK1N8p4ijHiH+R5/d3xu9qlvDV3MMPmYb4jAm6Zhm6tH9x0
-gx0tLUN7DPoOm+7iEEGXelHWKh8fNOJP3fcVqTOD3/SMz7ro0f/A4vI1kq5NVmBH
-5m7YcWDMQq0bZJf3Jimky7cEFhW5WG4eo0YD7uxH/X9xV4xBpFqWV/yu6RI+3Rcc
-UFAKe4TfSq0736VEL0zrmqEnzcJCrgIgiPPgWYX6MBuBFCOMx6jsBM7TOu+EPrPq
-dDKnadI8RD96QuMjqsMoifMVkgBDo3FehkpFWQIJfptnyO/H4IAjoPASOXNTIFXE
-t1+UNr/4F82v91DJLoF0PNzi52QrXGa12CsgaZhN8cOT19QiHX+iGaZ4ozjBHTdL
-hCLbYlu+b4F3j4Hb4bMoyHBlKRqgwHMeP7EL273FBt9BFMHVW1zhl/nMm3anMhOS
-JPAVHR2BDLnu2EY8yziqLdj3KLzgkWn5Irmpuy0PHc86zgsQof9++LfTG/QuKjNy
-BZjNpigaChhMnb2BjDy/xbkoa8EmHTM2ogvQfpSsNWBT6QSMf55SiTtG4Ea6WyHi
-vz0IyPdWtdYHeuvTJtVUeiroame/L2gbJRvWkEMPOXKRGWYktou3aFCnDatK5MyQ
-wjwTDbyPhLSfHpWfDRjwki01
-=kBEU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBILIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lG4QAJACuxkGKQud3ULEE2VD
+TfxoY7Ku5k1DPP3bMNKUUgcQz14CgcMgYTiFdeWsBqxfHyQ0Pmjof+AuaIVVJxgl
+pZu0rQDG3nnuoVSTtqVsnH2254e5QLMLAXMVMkutdPWoThsSLPZiXmwRasXzpNue
+i+tJ2Zxhs4b2BZqxmVLQzXbFm5/L8EnW0TAbWpTk3hxJojReet2tKLq/L+IAGJm3
+Bpdgli1G09AlYatqUEzGT2gRuAS47Pr9IZDJ8p0noESwT6AucEFSZLh3rwyLoOKx
+MgixtW4J7f66mG41FxTxPRQAp4y8v+HxtSnadN30n6guY6Pt55UP1YO7ClVdsyhy
+NFULpg+dBv3rgWc5mfQ7jTeZgEAbqyvG7UhDb6MkHgjHZv1HgvVZlcUm+7Mw1mif
+jf1nYNfW1AlFEmBaqIMOvpUNYkp4ABaTaJc0XQvyrX7Vl7f5LBrXrG98JNueLfwE
+bPW3LzPFH03dFDOKkfqdM8ZYBaQYOyzBACnJLhSRrj9wrE0m61VhbD0d4Wnkihr9
+AAizJ7v/K5GsEo2Bzh0aqTm3/mn4Ou0ghAf0TeL8BrrsE0HyeXRnxoYYa8UIQxzs
+B6nCoHq0XM28rrAK3C8jJX9yDKxJJ7bEAobLmykhsCdPByDyHHwd1CFvhn76d0qG
+o5pui7zUpOYoZNtchLQbPuaw
+=IaNq
 -----END PGP SIGNATURE-----
 
---===============2942703608209152139==
+--===============7383043251370001122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e24e53711d76-d172cd6fa2a2.txt
+Content-Disposition: attachment; filename=revlist-e40059ea7288-4db8532b9710.txt
 
+becfdcd75126b20b8ec10066c5e85b34f8994ad5 mfd: lp8788: Fix an error handling path in lp8788_probe()
+557244f6284f30613f2d61f14b579303165876c3 mfd: lp8788: Fix an error handling path in lp8788_irq_init() and lp8788_irq_init()
+31961dc598ab8d68c4c6f2e572f9f101e1317cba mfd: twl-core: Fix double "to to" in comment.
+8e88c61d6f3432f27a2c6b8bc58ae4fe974f4b6d mfd: core: Delete corresponding OF node entries from list on MFD removal
+4e4627e1aefdbf3a7f7ae85dc5ca8a583e30c87e mfd: rt5120: Add Richtek PMIC support
+6460f51ae317aad1d0530e004890e09bff60674d dt-binding: mfd: Add Richtek RT5120 PMIC support
+79ea68e0a9cf8c0f479339aca0c60f915522ff32 dt-bindings: mfd: aspeed,ast2x00-scu: Convert to DT schema format
+26331d261f49949bff6477fc9c844b17076fa245 dt-bindings: mfd: mt8195: Add bindings for MediaTek SCPSYS
+0a6df9f16f51bae699a2dee067e92d82a2a3ff05 dt-bindings: mfd: qcom,spmi-pmic: Add missing compatibles
+f5e90351a31f96e7e42a14a5cc686450b60fb94a dt-bindings: mfd: syscon: Require specific compatible also for simple-mfd
+6f42a14bc20618c13ffe26d01fffb162b4a01cb1 dt-bindings: mfd: qcom,spmi-pmic: Extend example
+ea0dd0df65cc4e5516fa3585c8768e6abb763929 dt-bindings: mfd: qcom,spmi-pmic: Fix regulator node schema
+f4b632da13cf0ee39cdbd4ff08d1961ed50e3c14 dt-bindings: mfd: qcom,spmi-pmic: Fix TM ADC node schema on PM8998
+8e3d08676735c6df6e0781a94575315e0ee2bddb Merge tag 'cpufreq-arm-updates-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+599618e5891e7d6f3caebae56f6ef65b2543ed05 Merge tag 'devfreq-next-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
+f8c1940165bea6200ce2aa1cb515a2ffa0709d74 dt-bindings: mfd: qcom,tcsr: Add several devices
 75db7907355ca5e2ff606e9dd3e86b6c3a455fe2 mfd: fsl-imx25: Fix check for platform_get_irq() errors
 6a32d3995f7bcf04598548778da54d2b6932b6a5 mfd: Move from strlcpy with unused retval to strscpy
 ce436a301615b9c256208f8d6e107d2983d43d62 dt-bindings: mfd: qcom-spmi-pmic: Add support for PMP8074
@@ -1063,23 +1079,7 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 6181073dd6a7e5deafc60e7981bd765b6c93da8c Merge tag 'tty-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-cdbadda7a85a806f9775628a2358516146ffb54a USB: make devnode() callback in usb_class_driver take a const *
-979b0969cc8fb2f6c96183ca6325312fffb5e455 blkdev: make struct block_device_operations.devnode() take a const *
-4cd1491ffaa553a82dd7c6b475b9a803eef28133 driver core: allow kobj_to_dev() to take a const pointer
-752042718b02743673306813ae8ec693038083eb driver core: class: make namespace and get_ownership take const *
-3b46306f116a440f1c9904554aa4476b6bc51dfe kobject: modify kobject_get_path() to take a const *
-a1176a29d6aa22b58e41ee6789ee8f7b19b334a8 kobject: make kobject_get_ownership() take a constant kobject *
-78d2a390054d943fef000e57a64243f9ae5768f9 kobject: make kobject_namespace take a const *
-29a19bd2a3435eff870caf9618004dbe88fded67 kobject: make get_ktype() take a const pointer
-a57f80b47d8dec3c9a20ef725bcc9a1f8f19f835 kobject: kset_uevent_ops: make filter() callback take a const *
-3e3944581e6469cddfeb8786cd3153e600b0a8b4 kobject: kset_uevent_ops: make name() callback take a const *
-54c4cee30038f092f4b035ab9111eabda98865d3 driver core: pass a const * into of_device_uevent()
-ae75ec87562d2bb68a67cb58b6cd937c8393f5ee driver core: make struct class.dev_uevent() take a const *
-f95054e1bf5d9c8446de39140b3064a6a628a75f driver core: make struct class.devnode() take a const *
-0a6da547c0f6615c5612ac637355324522e16b29 driver core: make struct device_type.uevent() take a const *
-5b69bf315a5860e1c4dacbd5ace24437f46ef533 driver core: make struct device_type.devnode() take a const *
-e426b331dcf2a0ef1a5037fcf01fa5c691a4702a driver core: device_get_devnode() should take a const *
-fbfb720a9b662d717566ab66080e4102de63bb6f driver core: make struct bus_type.uevent() take a const *
-d172cd6fa2a2111918e6824a801c8590cdb62ba3 kobject: kset_uevent_ops: make uevent() callback take a const *
+b9c81612e7f5691ae461c519dde7d3ed985575c8 driver core: allow kobj_to_dev() to take a const pointer
+4db8532b97107b5eeed45cf8bc23d40554ea80e6 USB: allow some usb functions to take a const pointer.
 
---===============2942703608209152139==--
+--===============7383043251370001122==--
