@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5061662302525847260=="
+Content-Type: multipart/mixed; boundary="===============3639150631863960895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 08 Oct 2022 07:01:56 -0000
-Message-Id: <166521251607.12215.17690309279754480927@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:01:59 -0000
+Message-Id: <166521251944.12332.5353462542257355462@gitolite.kernel.org>
 
---===============5061662302525847260==
+--===============3639150631863960895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,62 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 0fb9703a3eade0bb84c635705d9c795345e55053
+  - ref: refs/heads/usb-next
+    old: 00988f70a0763f14c97c4c0df76fb9aa4959e953
     new: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
-    log: revlist-0fb9703a3ead-e8bc52cb8df8.txt
+    log: revlist-00988f70a076-e8bc52cb8df8.txt
 
---===============5061662302525847260==
+--===============3639150631863960895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212559 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212562 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1665212514-ada4fc43136d017636c3bcb00157c88e9f9118a8
+nonce 1665212518-a9dc9cd1d779fc1dd6b424b19e588296afb64356
 
-0fb9703a3eade0bb84c635705d9c795345e55053 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/usb-linus
+00988f70a0763f14c97c4c0df76fb9aa4959e953 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBII8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eB4QAJd944VpLr4FBF6+TXsu
-bNqSooRKXc6LoG0bLnGAdq7HdcRTE9f9sJTbVMRCcBBMhhAGWtVx/saCSXtN7ABe
-sKY+spLA3t5rHfd//fPyc6gzejYFlCJfsOdgj1jv9feaG4gmp6E2GhQAfbf9uDOe
-v9Mh72SRrMjhL5Vk6W3rdacFqNwGvD4k5irv7jO59sF2pUT+879wNgVrkBGgsl37
-aD1dFiROWpR0CweRu2JkvEQbocBH9GK1HdtAQ2fJcgVd/BENkLgOQA7oBxwXiO7v
-Xo4lZ8RtAEy1JSweWNu3NV8AUhyLFx72brUUtxosf961zgpmxRsOd8bWWnOJEv4a
-DgE4h0GBPXC9BCPLj9bLEEPSBY65NTeC4ZE7Kcr0xubMoMaVZKMTwKjTRrEFsZdh
-KLNWMLzIPnJGLZDkbSrFnfeoe1LZyZeceO/fCXNklWISGtmTT3mPZRghwTOdHDWp
-XDzkLj4rLH0lVJLw1A/8/YRvXSphVZDLemULl83tLGsED3bfCtx2vbA363Hxe/FJ
-EEFv62MwqnFTJnXFw5pfZN9KanPB6W0rR5jqWBHgobpo25Lf7Rvxj8ZBs5OIHveM
-LPhTljY1DVEcCuyi/tjsumgYSQKsphPc4J7UYi4r//+sXKWJYH7Ze+1ZR/gocQ/w
-93jkP5iIffnGhI8W4yIh/VTP
-=hHCv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIJIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ynEQAKmEu4Z4/C7mLaEOFOjp
+IZQwgfYhgH15isihPv8bcsFZGoa65jQRV3trMJLRYpOYoamG6TRMLdee6xmgMvXd
+w+iA3iR2JrRVXAUnbNC2HhIG2n9BimM87a9I9LipFIQVzAixTvLm666hvXdOlFhm
+28pPaQmtLOdKSnlkuZLn7bZWzwqTBvCCGydOHSrjpit1wvkGiyr42ii6PIQydN96
+oS1PRcIi/g/fp82Qy7AJ2ECWMWNfEsjg/F9CsI8XFisMUfAZH/LemECNtEQSwqAX
+65qXlQ/fmlQDjRRM9ZdRK48MT8SBBySh1Il0mf1BfNU3ILY4ezUgRY5P8UhJ7dD6
+8VxuSh9XUTtPfTobWSjqJ2cVOlWP4NCSw9CvF5ROutWXQM6DgZPlUYHZHqlvZBc0
+k4MLbnzHBTZjwliLxRCsMaxyYtZHjjKzINJsQzf5Xz0r8hjx+t/aFzeBEHgwRuWr
+rfw645dnNzWolv66CrNRnkg8eJ9s0r/bu61h8zPMjZwulMqSBYpSGFjkK3zJphUO
+IF0qPzE2CER2xC9K/QciVtj5n6OeajlD/1HxNhg2j/e5/JfqQnsmERFJfAeL0L3J
+lvEHoeYJSzrams4jhsPCOCFspxr+fXJOIaq+M3yvKDYaPnmv21lpDGgr69KmcUNa
+JbKn75FA+9HJFaypza7HXInG
+=3WQM
 -----END PGP SIGNATURE-----
 
---===============5061662302525847260==
+--===============3639150631863960895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fb9703a3ead-e8bc52cb8df8.txt
+Content-Disposition: attachment; filename=revlist-00988f70a076-e8bc52cb8df8.txt
 
+fe969e9f017d5593169c157bc20df64f832b2ddd dt-bindings: mfd: syscon: Add Rockchip RV1126 QoS register
+48749cabba109397b4e7dd556e85718ec0ec114d mfd: intel_soc_pmic: Fix an error handling path in intel_soc_pmic_i2c_probe()
+5a30b210bfea26342ad061455a0d0ed122300f68 mfd: intel_soc_pmic_crc: Merge Intel PMIC core to crc
+81f22f284c0fe59b480492c3ecbdfd0dfa96d4b3 mfd: intel_soc_pmic: Move non-Intel Makefile entries to their own group
+cae02b7a5d908df3529432ead6f0a659c625a261 mfd: intel_soc_pmic_crc: Use devm_regmap_add_irq_chip()
+4b74ec581a1c8d35f2902f47aaa181d71d17c902 mfd: intel_soc_pmic_crc: Convert to use i2c_get/set_clientdata()
+e1efbc8e464c6ff098ca6fda9398159882e146b0 mfd: intel_soc_pmic_crc: Switch from CONFIG_PM_SLEEP guards to pm_sleep_ptr() etc
+09c4e702bc9dbd3e8a1d93144571c31f977eb866 mfd: intel_soc_pmic_crc: Drop redundant ACPI_PTR() and ifdeffery
+0c602c7f6d79b2904f0a74243f55addf4db4bd2a mfd: intel_soc_pmic_crc: Convert driver to use ->probe_new()
+39c8980cb27d8cda707cbf4b3a5b8c82785a0db7 mfd: intel_soc_pmic_crc: Replace intel_soc_pmic with crystal_cove
+03f271b0b1340350d47c23811feb08d80d2b066b mfd: intel_soc_pmic_crc: Update the copyright year
+2d48bfca42a6d2b5f92d24ceae4425fc4fae14ab mfd: rk808: Add Rockchip rk817 battery charger support
+7f915eef50829c3719be003481ca2bb116fad852 dt-bindings: mfd: Add MediaTek MT6370
+b2adf788e6037cea0109313934f432f458190992 mfd: mt6370: Add MediaTek MT6370 support
+5e88619b306482d0ac69fa8cce01271f540d551b mfd: silergy,sy7636a: Add config option MFD_SY7636A
 625065dae9f1e7dc9744e6de45101bc1752ef1f3 dt-bindings: mfd: x-powers,axp152: Document the AXP228 variant
 3fa9e4cfb55da512ebfd57336fde468830719298 mfd: fsl-imx25: Fix an error handling path in mx25_tsadc_setup_irq()
 becfdcd75126b20b8ec10066c5e85b34f8994ad5 mfd: lp8788: Fix an error handling path in lp8788_probe()
@@ -536,7 +551,6 @@ aae2e72229cdb21f90df2dbe4244c977e5d3265b KVM: x86: Hide IA32_PLATFORM_DCA_CAP[31
 aff3069954ef534bfbfa1f3d196cb1a6fa8b01b6 net: tun: Convert to use sysfs_emit() APIs
 73c2e90a0edc84751c4b95b12fc52051dd60f542 net-sysfs: Convert to use sysfs_emit() APIs
 96e0718165a0d36ed4cba365c542818f20bf7640 net: bonding: Convert to use sysfs_emit()/sysfs_emit_at() APIs
-a62e6791476a5d07abb8dec9afc2c6d0f65f7e4e MAINTAINERS: switch dwc3 to Thinh
 d427c8999b071af2003203b42a007c4a80156c18 net-next: skbuff: refactor pskb_pull
 2568a7e0832ee30b0a351016d03062ab4e0e0a3f mISDN: fix use-after-free bugs in l1oip timer handlers
 db7fccc122f4b5a6886e2a57b61019bdcab6dc22 net: lan966x: Fix spelling mistake "tarffic" -> "traffic"
@@ -547,19 +561,7 @@ ea9b9a985d58d8e2abd91e8d7514b14398fe414f bnx2: Fix spelling mistake "bufferred" 
 d6832ca48d8af0ec3d02d93c17027304c429c087 ibmveth: Copy tx skbs into a premapped buffer
 d926793c1de96e4e519b5489fe5be95a470c175f ibmveth: Implement multi queue on xmit
 10c2aba89cc0535b23ebc795f44b8b8b16785ec9 ibmveth: Ethtool set queue support
-bffcd14facbdc25ba4da9993cc7811b55b50b6e8 Merge tag 'thunderbolt-for-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-37d49519b41405b08748392c6a7f193d9f77ecd2 usb: add quirks for Lenovo OneLink+ Dock
-fce703a991b7e8c7e1371de95b9abaa832ecf9c3 usb: typec: ucsi: Don't warn on probe deferral
-c9180362a920b99f2aef7d55b89ae94b8138474e usb: typec: Replace custom implementation of device_match_fwnode()
-691f43cbfe631488cc3fe2d01658fd372c9ef0a7 usb: typec: ucsi_ccg: Disable UCSI ALT support on Tegra
-4b833fb3eb1e5c87f51211844b39743ccd01eac9 USB: omap_udc: Fix spelling mistake: "tranceiver_ctrl" -> "transceiver_ctrl"
-1c703e29da5efac6180e4c189029fa34b7e48e97 usb: mtu3: fix failed runtime suspend in host only mode
-fb87c979fd89a262481a8c49e2b78b07e1f4d229 dt-bindings: usb: Convert FOTG210 to dt schema
 8e9204cddcc3fea9affcfa411715ba4f66e97587 spi: Ensure that sg_table won't be used after being freed
-2adc960ce79d3231b02f820daeee434542fe2911 Revert "USB: fixup for merge issue with "usb: dwc3: Don't switch OTG -> peripheral if extcon is present""
-7a84e7353e23202d4f82b05093af4db2b26e6768 Revert "usb: dwc3: Don't switch OTG -> peripheral if extcon is present"
-a0d381caf99317977942e1228cdc2e14392e1d72 usb: host: ehci-exynos: switch to using gpiod API
-a15e17acce5aaae54243f55a7349c2225450b9bc usb: gadget: uvc: Fix argument to sizeof() in uvc_register_video()
 3b882a7bf6cded3af1589c4eae9b6153d6767c26 net: bna: Fix spelling mistake "muliple" -> "multiple"
 fd01b9b5b02b5eb0ff8aac748a86940e8113cf66 net/mlx5: Fix spelling mistake "syndrom" -> "syndrome"
 c827b7a3fed54e5ea23584774bfc4ca27ff90272 dt-bindings: net: mediatek-dwmac: add support for mt8188
@@ -580,7 +582,6 @@ ed9bf4aea06e36bbb3482e01061c433d703bcaff tty: serial: use FIELD_GET() in lqasc_t
 523f54ed3be7e23340b1c43921e39fddfe149c09 tty: serial: unify TX space reads under altera_jtaguart_tx_space()
 12f3a5eba3c4eb0031d7db36773579e517459a41 tty: serial: do unlock on a common path in altera_jtaguart_console_putc()
 30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d serial: cpm_uart: Don't request IRQ too early for console port
-3180d827c807d8d6e5d6ba4f2e08eed9efa083af usb: gadget: uvc: don't put item still in use
 736feaa3a08124020afe6e51f50bae8598c99f55 Merge branch 'for-6.1/block' into for-6.1/passthrough
 5853a7b5512c3017f64ca26494bd7361a12d6992 Merge branch 'for-6.1/io_uring' into for-6.1/passthrough
 e73a625bc24880f1fe5abaa89bb63e0918fbd66c block: kill deprecated BUG_ON() in the flush handling
@@ -760,7 +761,6 @@ b502a6fb46d275aa978c1e0655bada2cafc81fea bpf, docs: Delete misformatted table.
 90c2d2eb7ab5848c4f853751f12b96bdc460ad1b MIPS: pci: lantiq: switch to using gpiod API
 2a4b6e13e170a5c0c201a1858a8f5a61f98eb11e Merge tag 'mm-hotfixes-stable-2022-09-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 89f2ddce78cc2a397065de8df509364d37c058da Merge tag 'media/v6.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-00988f70a0763f14c97c4c0df76fb9aa4959e953 Merge tag 'usb-serial-6.0-rc8' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 b357fd1c2afc1a3e1b73dc4574bb7ac0e3bd4193 Merge tag 'usb-6.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 8bc800062221adb40eb24c4b4fd5c572a637114c power: supply: max1721x: Fix spelling mistake "Gauage" -> "Gauge"
 d8be4fe92433ad905eedc7d877099685eb2eaaa1 power: supply: mt6370: uses IIO interfaces, depends on IIO
@@ -1082,4 +1082,4 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============5061662302525847260==--
+--===============3639150631863960895==--
