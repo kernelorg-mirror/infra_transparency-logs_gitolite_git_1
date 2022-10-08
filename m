@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2606672506845497776=="
+Content-Type: multipart/mixed; boundary="===============1820756376026416735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 08 Oct 2022 07:00:10 -0000
-Message-Id: <166521241069.11207.17674956600472575174@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:00:14 -0000
+Message-Id: <166521241421.11324.14121265326035861041@gitolite.kernel.org>
 
---===============2606672506845497776==
+--===============1820756376026416735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 1707c39ae309bf91965aa6f04d63816a090d90a1
+  - ref: refs/heads/driver-core-next
+    old: fda8c908bc2d523c0770ded667dcdad29c06ff52
     new: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
-    log: revlist-1707c39ae309-e8bc52cb8df8.txt
+    log: revlist-fda8c908bc2d-e8bc52cb8df8.txt
 
---===============2606672506845497776==
+--===============1820756376026416735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212454 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212457 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665212409-12a4e29790d7f192ffffefdb43b0bfdba3121837
+nonce 1665212413-dd7560427c51f926a98db6d831e881786dd9cfde
 
-1707c39ae309bf91965aa6f04d63816a090d90a1 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/driver-core-linus
+fda8c908bc2d523c0770ded667dcdad29c06ff52 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBICYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HSQQAK/5EY0mIBW/xxJEwmz9
-aTFiojFBdwbhKT+kCa3LonGX0CdS5Rbs73s99mNwIHa8eBGQ9SVL+zuSpvTbzvYZ
-JERhB1rRW/9RjMYifrJBCdUUVEkiMTLDBDOZH8pdkebNnD8azoKSK2QIErQ/TEKe
-8i8hiKBVqy4vN9CaQQBFEnX+G3QWL95HqhNcOS5aJ3yoxxtr0Wr0ekvNOs9PpkYM
-9YGbID3HDpdegLIpnRAC0A7E/Uues6hNHtQSvtstlEqrPNyqRj9hEzZ/DKj9zeGH
-2bdRLu0vIQTTvHycDlMEa9NWnEC1Z8meYy+yHGbpLp+g1eckWDR8RBnut/UDFWyz
-Q7Hyrt+VQ0jXnMN1haI95SXOV7MSOwk+0la/AG7C9w63Lv62qEpje05Yf/g6mZED
-6QuvzF4xNgdr1vqdABqSVcuFsbOvH9uaB8NBqZnKcS4rMdSTgSQclXHF8AYBKo1I
-WFyWysCCVa02nMpdxWF0glKYZp6mHO2fDrWEvKSjho53KaqDyK8VN48VcBfj0qI7
-RGTx1l+oTsezcxlf52MxVepZmFocEuzbxNkztZiUO6tv7ZDf5+NoVg2OBHG5KoTz
-2Kj5Tl7lGootrt3GA6SQkhDLlcLVnrzE+QFZYYvh5BRLsVFFELl1+8G6vI2yMaTE
-GlE9WtmFKHuowvp5gmlcSrg0
-=qqMk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBICkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AX0P/An3DuQ9k+wX7300Rbtt
+ewKpluHDyDktuvO4PuPju/5PS8L8VsqoX+zzpmFIIVmwkhMw2QtXkHrmf/Dgi6sN
+56/7pDGZYOXa7o48XBDdIim0KRIvLm69FKXXybpKtcDW46MYXlzCvi8vwyze0C4Q
+L+6q/zRCPeY1XaUcRIiUEvO9MUpmOTtn4+WFQtdNkW96s1aiStoeUq6sOxs9+zh6
+yf5EhKHfvJw9VZbUytvpeQrgbK1jBeTECzJQXmTiEJ1uVbFk4jd4LqIO7mvTLCNw
+mmI6j1tPyb+1qyOytQMWTUiFDkSX3z5h7ebi2GZAefX168aOpA9vMw2SICccBmAg
+mzjFJKLF4yqan70BfZzGxwskSujKwwePYMwj8KTXKM3d1XEK+a9yRerrfCLGQ5nW
+mLcGT+3JbnWb24P6yyXEKraY38yZ7hzACK9VzOGvs2B+Cvd9ET0dXUcqDMUmeZJR
+TbZ3BsYxSfxPHbBJlnbIRMrJbDU2T9PfgWK3u2c4rWG5RNoTbH+aZRfEfzgxu5OU
+Fe9HmEtvguwWnvvN5VCAIni0BuJ1JSMLEXSW4jXI9lIEebXCXYVpODiX2zEKNqkM
+1DXB0RqfGG4c/Y3HCfw1OAcnifAHdIAUMzK6dYzlJZInKTYfoNRFZ4bpidpwHEJl
+z1AEaX5gPXs1NfGBAEVuuWp5
+=KhRz
 -----END PGP SIGNATURE-----
 
---===============2606672506845497776==
+--===============1820756376026416735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1707c39ae309-e8bc52cb8df8.txt
+Content-Disposition: attachment; filename=revlist-fda8c908bc2d-e8bc52cb8df8.txt
 
+5e88619b306482d0ac69fa8cce01271f540d551b mfd: silergy,sy7636a: Add config option MFD_SY7636A
 625065dae9f1e7dc9744e6de45101bc1752ef1f3 dt-bindings: mfd: x-powers,axp152: Document the AXP228 variant
 3fa9e4cfb55da512ebfd57336fde468830719298 mfd: fsl-imx25: Fix an error handling path in mx25_tsadc_setup_irq()
 becfdcd75126b20b8ec10066c5e85b34f8994ad5 mfd: lp8788: Fix an error handling path in lp8788_probe()
@@ -572,7 +573,6 @@ aa58c9bc833113621b3fdf0d43ada106a1e6f2fc Merge branch 'Mediatek-mt8188'
 bd1a665a01b4d65fd8dc6fece4b376fa5c8c55bb arm64: dts: exynos: fix polarity of "enable" line of NFC chip in TM2
 a08137bd1e0a7ce951dce9ce4a83e39d379b6e1b ARM: dts: exynos: fix polarity of VBUS GPIO of Origen
 468cdabe93c5fa969de65752e38c31f07a5e048d tty: serial: atmel: Add COMMON_CLK dependency to SERIAL_ATMEL
-fda8c908bc2d523c0770ded667dcdad29c06ff52 docs: filesystems: sysfs: Make text and code for ->show() consistent
 dfdabd3856547c3bed996134e84b9452fb19e695 serial: stm32: Fix unused-variable warning
 8a1088116ba5ddbfcd69789b4a153733c9686cbb tty: serial: allow pxa.c to be COMPILE_TESTed
 d8544c9c7cf77100be9340c61a9e3e88fe4bb12c tty: serial: extend lqasc_tx_ready() to lqasc_console_putchar()
@@ -1082,4 +1082,4 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============2606672506845497776==--
+--===============1820756376026416735==--
