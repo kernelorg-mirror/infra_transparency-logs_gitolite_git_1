@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3639150631863960895=="
+Content-Type: multipart/mixed; boundary="===============5794848091538353823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 08 Oct 2022 07:01:59 -0000
-Message-Id: <166521251944.12332.5353462542257355462@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:02:02 -0000
+Message-Id: <166521252278.12398.16461158596866832234@gitolite.kernel.org>
 
---===============3639150631863960895==
+--===============5794848091538353823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 00988f70a0763f14c97c4c0df76fb9aa4959e953
     new: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
     log: revlist-00988f70a076-e8bc52cb8df8.txt
 
---===============3639150631863960895==
+--===============5794848091538353823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212562 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212566 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1665212518-a9dc9cd1d779fc1dd6b424b19e588296afb64356
+nonce 1665212521-91f281d7f56247a290a8862acfac8be7f3ee9cbe
 
-00988f70a0763f14c97c4c0df76fb9aa4959e953 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/usb-next
+00988f70a0763f14c97c4c0df76fb9aa4959e953 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ynEQAKmEu4Z4/C7mLaEOFOjp
-IZQwgfYhgH15isihPv8bcsFZGoa65jQRV3trMJLRYpOYoamG6TRMLdee6xmgMvXd
-w+iA3iR2JrRVXAUnbNC2HhIG2n9BimM87a9I9LipFIQVzAixTvLm666hvXdOlFhm
-28pPaQmtLOdKSnlkuZLn7bZWzwqTBvCCGydOHSrjpit1wvkGiyr42ii6PIQydN96
-oS1PRcIi/g/fp82Qy7AJ2ECWMWNfEsjg/F9CsI8XFisMUfAZH/LemECNtEQSwqAX
-65qXlQ/fmlQDjRRM9ZdRK48MT8SBBySh1Il0mf1BfNU3ILY4ezUgRY5P8UhJ7dD6
-8VxuSh9XUTtPfTobWSjqJ2cVOlWP4NCSw9CvF5ROutWXQM6DgZPlUYHZHqlvZBc0
-k4MLbnzHBTZjwliLxRCsMaxyYtZHjjKzINJsQzf5Xz0r8hjx+t/aFzeBEHgwRuWr
-rfw645dnNzWolv66CrNRnkg8eJ9s0r/bu61h8zPMjZwulMqSBYpSGFjkK3zJphUO
-IF0qPzE2CER2xC9K/QciVtj5n6OeajlD/1HxNhg2j/e5/JfqQnsmERFJfAeL0L3J
-lvEHoeYJSzrams4jhsPCOCFspxr+fXJOIaq+M3yvKDYaPnmv21lpDGgr69KmcUNa
-JbKn75FA+9HJFaypza7HXInG
-=3WQM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIJYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G/gP/jrYtNK2Hw/RgRJchE0K
+2Qzqj61CWICTgHUf9axj1LdiOvNhlFdMTBf8O/kMilS7nb2iNA/J7XYErKbOLHH1
+dlopSH/NgdmHjSEn2v4K4mMNJt1CeuYWF4YsJw6v/ozJnmBIpaUflhbOBcz54fBw
+PtZy/yip4Mk3rbgnE3G8C6r5/5vvsGvzxvrRgdP83IVQqaK8I/z9WysEYhtCVbhy
+6jZUssiolZBfxbI+bXSzxqC+EkpOtOY53vJ9ko3pJQgs6O7pg8+wccT5KBkDOgg9
+klTP6PxPf+aJEPbR+GYWK7tBP3amyGRDaCds3E3pgGBh9cHZnXMyFWfeQpirsdyQ
+ptSINa4XdcnudbSP8p3QgxsXGkx9a/gDPk5FzMXFYONK4HjXkDc2REj7V6+O65S/
+B4Wfgtf/N7EV0KuKgFJh5AICt3bik54RtDicFkqR4OWbLw4Iv6TPK/WdhmCqe4sG
+OZMHEBWbI/dJdELQaxeuTRIVfoTIpjEhyoa+U0nIlEaroKwB+5AylM71+3+RaWJc
+KD1wpB8ObtdozAiJaZBuxYE7007TtLaDeDy4bpKpiLi9M2ztJTJyFN+pq4cDaVfK
+mfjr67q36qvZLoLm8iHtF7qNEDdYkSjnuNzen9nZC338j2vwwmPE6XdcsCQA+OQ9
+CYvgqiVlvIlRzlIqeddXYjYA
+=x+qQ
 -----END PGP SIGNATURE-----
 
---===============3639150631863960895==
+--===============5794848091538353823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============3639150631863960895==--
+--===============5794848091538353823==--
