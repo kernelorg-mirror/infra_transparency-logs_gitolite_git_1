@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7239541990327120409=="
+Content-Type: multipart/mixed; boundary="===============8141837482166445388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 08 Oct 2022 07:06:28 -0000
-Message-Id: <166521278800.16146.5220367537562192414@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:06:32 -0000
+Message-Id: <166521279279.16220.5594085928935529294@gitolite.kernel.org>
 
---===============7239541990327120409==
+--===============8141837482166445388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,55 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9
+  - ref: refs/heads/tty-next
+    old: 30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d
     new: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
-    log: revlist-7e2cd21e02b3-e8bc52cb8df8.txt
+    log: revlist-30963b2f75bf-e8bc52cb8df8.txt
 
---===============7239541990327120409==
+--===============8141837482166445388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212831 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212836 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1665212786-2a1c2cfc5cfb80c00b2f16e60430754704f18fc5
+nonce 1665212790-0b4940602c616ccf3472c8d7a4c5b5c835e781d3
 
-7e2cd21e02b35483ce8ea88da5732d4d3ec3a6c9 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/tty-linus
+30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d e8bc52cb8df80c31c73c726ab58ea9746e9ff734 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIZ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iAMP/ApYMUh5J7m/58qhCc5d
-QgwC5BpEL6kcJm5zRRiAdslJnDJVnkVfVZlAztDWtgxOLH8yqhtx33XiQ7joFWAG
-ZAJGXO3ugXqxEAywkmuQNBQZ9tTf1Ovzkdh5GR++oMrfH+0o7UNoNjahzbiAJO6/
-svQMhqBlVDzzTNoFcmGoLVtM9IfCfQfZCrFSq5DX4T4sOU7cy6IBvWuBMwk/QfOA
-VtIwTmjm8RkohITeCObaTExVRg2pzMg1sOULCzUpiL8+fzEXouJs6s9HP+p4+MLf
-Ezj53Wkld9V0ViY3PosLqIhxWgBbJlNYovOI8zzO4mXXWVD0mxwP2QTc/Dq0JfMO
-wijRJwFZjAPhPLatQm60uQhF2MipTmbG3rriNH8lslcF4SiX/XAIpl+eaHudsV8q
-sa4gTieXPMtKOJK+hWs5d7fU8VvdArfs+xAi0fbND41anz6eiTuV7O8bj5qwskxa
-Og0fiLhM/p8tcWgJ9n4WUbQWHwKYeBbWK8gm3H0i7mV7ypEIGq2lUUVBAx9TP/aD
-yrnbcEshvR4XTPcSgaAE7Y0VcxM0r2ZnIPfi+vj8VxKf7aWqpNrdOiHBRTV7WQqc
-A01Xxu/Cf+pHezlxVDXp4MkmodDP8E2IZLvnbz/IbAiHXyOqflKfhO/ur+G3WwtP
-hNdFDRzZP87r73Hj3XEr5c5S
-=J/vN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIaQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FkcP/1buQy04gHaf0AjqZ+yv
+x7jkD3Hc1PODW4vZ/Z3zgzNPpovkVWHMfj1ESUmlhoFsBRoTH5Hyn1RbDBOGxMvs
+mNpjwB1bVjDwE+nqAB1blmq5VP6WKNkAp4WDRnh2a8+zwM3uHsln+OZ3t/RC78yF
+IWTi8CUxeao4E1nN3ZVx053kOvMFnao61pBg1JKX/KD/EhsoLBpK7iYVk8SSczOU
+KWFjuAzdYE1HPFsqw9Eupk1Lkimm+0nqXhYGn9dQFQ9QzB+u4dexqAJnAN4VRj1j
+5ATKk0Vwxqx8YEhckimZ9/NCfCEPGVjL0nlg7/SJcPeRiyDUIwMqy5nuqu3BlGKk
+46OYoihd7wSxXvIOD8ZA7sugtGmpWBfkvvofGsUkJJ8LMEYnK1VJffgnIbKdcvHi
+JWj4MTUZpLqn0x7hUBm0ZwNtTLxIj/qLsumCvkRWsbHEPccDeFqZ/L+K05IPT+XQ
+qk6O+ncOW1t/mnEi6rq2FNK+Wl5H+JDZ3r8cWKuH+bRDs7nMnu7jVZFbDZ1oG+PF
+ym+JkAVhHvVUcP4OT1s6jhjF953IycCM2qtUbgVo+PaBHBIIj1jvav85flGMtvoq
+/lpDUcQVjHS7UzhvYFAIAQ+thAJU3s8CozmH6/jvebyC5AW2bXzxuIsAuW9PraW6
+tYitUMFMpB5mfLEu1QbM3gcc
+=nmOO
 -----END PGP SIGNATURE-----
 
---===============7239541990327120409==
+--===============8141837482166445388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e2cd21e02b3-e8bc52cb8df8.txt
+Content-Disposition: attachment; filename=revlist-30963b2f75bf-e8bc52cb8df8.txt
 
+09c4e702bc9dbd3e8a1d93144571c31f977eb866 mfd: intel_soc_pmic_crc: Drop redundant ACPI_PTR() and ifdeffery
+0c602c7f6d79b2904f0a74243f55addf4db4bd2a mfd: intel_soc_pmic_crc: Convert driver to use ->probe_new()
+39c8980cb27d8cda707cbf4b3a5b8c82785a0db7 mfd: intel_soc_pmic_crc: Replace intel_soc_pmic with crystal_cove
+03f271b0b1340350d47c23811feb08d80d2b066b mfd: intel_soc_pmic_crc: Update the copyright year
+2d48bfca42a6d2b5f92d24ceae4425fc4fae14ab mfd: rk808: Add Rockchip rk817 battery charger support
+7f915eef50829c3719be003481ca2bb116fad852 dt-bindings: mfd: Add MediaTek MT6370
+b2adf788e6037cea0109313934f432f458190992 mfd: mt6370: Add MediaTek MT6370 support
+5e88619b306482d0ac69fa8cce01271f540d551b mfd: silergy,sy7636a: Add config option MFD_SY7636A
 625065dae9f1e7dc9744e6de45101bc1752ef1f3 dt-bindings: mfd: x-powers,axp152: Document the AXP228 variant
 3fa9e4cfb55da512ebfd57336fde468830719298 mfd: fsl-imx25: Fix an error handling path in mx25_tsadc_setup_irq()
 becfdcd75126b20b8ec10066c5e85b34f8994ad5 mfd: lp8788: Fix an error handling path in lp8788_probe()
@@ -571,15 +579,7 @@ aa58c9bc833113621b3fdf0d43ada106a1e6f2fc Merge branch 'Mediatek-mt8188'
 0f5ef005310d4820926c76bc1e94d4d2a0e49d97 ip6_vti:Remove the space before the comma
 bd1a665a01b4d65fd8dc6fece4b376fa5c8c55bb arm64: dts: exynos: fix polarity of "enable" line of NFC chip in TM2
 a08137bd1e0a7ce951dce9ce4a83e39d379b6e1b ARM: dts: exynos: fix polarity of VBUS GPIO of Origen
-468cdabe93c5fa969de65752e38c31f07a5e048d tty: serial: atmel: Add COMMON_CLK dependency to SERIAL_ATMEL
 fda8c908bc2d523c0770ded667dcdad29c06ff52 docs: filesystems: sysfs: Make text and code for ->show() consistent
-dfdabd3856547c3bed996134e84b9452fb19e695 serial: stm32: Fix unused-variable warning
-8a1088116ba5ddbfcd69789b4a153733c9686cbb tty: serial: allow pxa.c to be COMPILE_TESTed
-d8544c9c7cf77100be9340c61a9e3e88fe4bb12c tty: serial: extend lqasc_tx_ready() to lqasc_console_putchar()
-ed9bf4aea06e36bbb3482e01061c433d703bcaff tty: serial: use FIELD_GET() in lqasc_tx_ready()
-523f54ed3be7e23340b1c43921e39fddfe149c09 tty: serial: unify TX space reads under altera_jtaguart_tx_space()
-12f3a5eba3c4eb0031d7db36773579e517459a41 tty: serial: do unlock on a common path in altera_jtaguart_console_putc()
-30963b2f75bfdbbcf1cc5d80bf88fec7aaba808d serial: cpm_uart: Don't request IRQ too early for console port
 3180d827c807d8d6e5d6ba4f2e08eed9efa083af usb: gadget: uvc: don't put item still in use
 736feaa3a08124020afe6e51f50bae8598c99f55 Merge branch 'for-6.1/block' into for-6.1/passthrough
 5853a7b5512c3017f64ca26494bd7361a12d6992 Merge branch 'for-6.1/io_uring' into for-6.1/passthrough
@@ -1082,4 +1082,4 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 
---===============7239541990327120409==--
+--===============8141837482166445388==--
