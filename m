@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 08 Oct 2022 05:48:55 -0000
-Message-Id: <166520813523.23456.16474655492904813990@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 06:01:52 -0000
+Message-Id: <166520891239.1710.2449337680537019526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 39bb254aa240235fa74841cf0ca6f8e32ca70ab6
-    new: c2c53229b8f9972ae8bd408f5a2a84eebe9b93fa
+    old: c2c53229b8f9972ae8bd408f5a2a84eebe9b93fa
+    new: e8fe5ff6c6cfd00ebdd196de19ef51d8eb0b7d7a
     log: |
-         69e3eb60b763059d99d80ee297c54648b6787837 treewide: use prandom_u32_max() when possible, part 1
-         e36964563c3cb67d3fb58675ea42a6d978a2852f treewide: use prandom_u32_max() when possible, part 2
-         e7e7c2decbb35e8cd1045bf83fb1fc4dbf6a8d52 treewide: use get_random_{u8,u16}() when possible, part 1
-         54315a5e536149bfee68bfd15867b55836905b6e treewide: use get_random_{u8,u16}() when possible, part 2
-         31fcd451565b0d2c059df58e100d7a7ba4a047ce treewide: use get_random_u32() when possible
-         4f99d300af9db323db2dbc768269dd6920223640 treewide: use get_random_bytes when possible
-         c2c53229b8f9972ae8bd408f5a2a84eebe9b93fa prandom: remove unused functions
+         6c8b8b0beed9acaa212e3c70a4abd85fb0a144eb treewide: use prandom_u32_max() when possible, part 1
+         cdff36473d49f0f3ed544385d2c69a72c63d99f3 treewide: use prandom_u32_max() when possible, part 2
+         1ae9d3ea5917070694632449051d67e641b16cc1 treewide: use get_random_{u8,u16}() when possible, part 1
+         2a000a1a164b9b4a10a2fbb1e820a150590b7e45 treewide: use get_random_{u8,u16}() when possible, part 2
+         0d0ddc332dec1aa6b335bb394aaef5afdf759d7f treewide: use get_random_u32() when possible
+         63a1236f30ee88fc716e592b335bd54a41c48eca treewide: use get_random_bytes() when possible
+         e8fe5ff6c6cfd00ebdd196de19ef51d8eb0b7d7a prandom: remove unused functions
          
