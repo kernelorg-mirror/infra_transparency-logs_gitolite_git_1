@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3705488823857927029=="
+Content-Type: multipart/mixed; boundary="===============6079434769508451259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 08 Oct 2022 07:04:21 -0000
-Message-Id: <166521266164.13508.17641760344279622524@gitolite.kernel.org>
+Date: Sat, 08 Oct 2022 07:04:37 -0000
+Message-Id: <166521267705.13683.1953687754882200111@gitolite.kernel.org>
 
---===============3705488823857927029==
+--===============6079434769508451259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,78 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_lookup_fix
-    old: c9855a55116d68ccd0a61155c97525ba4e2157ca
-    new: 5a436f5da6f44dbf4ee4e32ca337c0c268a3d3e4
-    log: revlist-c9855a55116d-5a436f5da6f4.txt
+  - ref: refs/heads/readfile
+    old: 8edc339f5fc4ec90bdfba458640daf390cb0e038
+    new: bdf9177bcfe320d10bed4f439b38a2e66f8841bd
+    log: revlist-8edc339f5fc4-bdf9177bcfe3.txt
 
---===============3705488823857927029==
+--===============6079434769508451259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212703 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665212719 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665212658-b70996b1f1212e20d094d9efac7cded8c6888177
+nonce 1665212673-3b1f5f7621fa387489d59a7a7b4d49cb6a684afa
 
-c9855a55116d68ccd0a61155c97525ba4e2157ca 5a436f5da6f44dbf4ee4e32ca337c0c268a3d3e4 refs/heads/debugfs_lookup_fix
+8edc339f5fc4ec90bdfba458640daf390cb0e038 bdf9177bcfe320d10bed4f439b38a2e66f8841bd refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIR8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+isAQAKjwnGKzraRv7//Q+n4O
-fs5vxIcHRGDV3V+geMi+m2RUMblbme9LKMG2HCJDKTiLHE/6JD+BgGUuGEuZebRt
-6pSzun3+0ePoenuXtehsuU1QvJ3Ryseo2G9iP+jamK/khosVDqWBS6RzZYswpY4Z
-9Uk+5bcTUfERMdvS2B+H6+4d+ZUp4tt4UW06n2Km9cxJzSwHZCzmRsmyBK1qzdFV
-QO4G5MNd0METHkqeOdY2F8ucPdfPuol8L9ldzSsv7K2wCU0bf1GLBjvSYN6qu3Bo
-e2EbLpTkdmFPV2t/7cigJRyoNrXwqnvM+/4ynkEPQx6OV0lFu/t4TG1C0vlVq7qR
-TyDr/tyyiUwwbgMlqpDj7WopzTupDmpchVyJkwdpu08qvmMXXDVD4vkRkVWb9Nli
-VXJmzDunL0zCc089P6mJ8qgoQNGBNAyBmBH+NgE7rYYB6awrbecEWMG1SXtwFGqR
-Pex1hIG/Lvh6cMic69IaU62zDt4LyC4ypqZ5cXfQZdodXV7dqZ4KK38ejTuQSz8d
-JlOh0WS0M5WGxODPalwqHkd8hgcOOkyjvfI5pt/WwRhOh3kQDGHDso5qPvOSMtSC
-+iiyZCJWIcKF4s0GelZvI+8czwKwi2LwmU8Uyd6nkMJ6Yc/QIH/IBFfxbmS4wVR3
-znDe5lHnuAnmpzy/0vdz3lFA
-=wlxD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNBIS8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JgQP/1zm39hXDrJnsdskajf1
+JOBA0n3MJdDp/2v1caCEUdz101VJ5kINAqEOB0hsMG278YR7lsKIQzeHJYeFjuR+
+bjdUKumxM9CurzFHWYiIv1jsD8WSrTZN9J7EU1BB+R4kL/GHY7lLymYvyP5ZOd2s
+NdGOhRkpYAaBoOciJx2of3vbuk7cC80niS4OIPEU/gz/rZW424gxipXcBkQqAr8u
+sgWh9cmRBYIG31B0/aHq/wCdL+eyeCrSUbY75qxFbI3tyRiJlWLcrpePVcXabHjI
+ybLMFGaGYIZmDoaMiLHLO3JRpHvpwhUkgSaTNFpnC6kNYgDEc3pOdoe/4jruyDJl
+ajK6LKS3WYAbqbpmMFYClt5205tOs4ZbiV2fH0UPo8DTI1HCsit/g84JF5jm9SXS
+yhFmFh7xaiTYGJR9EBcAfeZggLZkFVX+ChBkPVYO+9DWk/jqw8n/kEI/kNrumTn+
+qN76c91M9ZaF3fHQPXA1/3mbTljJwowTVlN6F+5ARUpHMMzLX0AtNTN5567UgR0H
+GxeyI/91D9CS86vzL2MIsJtyqNX1KocGhylUSjIie8EeZyGrxGVi2dDs4vtrB7pY
+RTMPUxlHfWk143GIT6CMtc9u2sigdG7PCW8yc60k+t6ak1io6Oiys9H/HSyYQ4XY
+E7nxUxreXJUSn/1u/ceXPQ4h
+=1CzI
 -----END PGP SIGNATURE-----
 
---===============3705488823857927029==
+--===============6079434769508451259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9855a55116d-5a436f5da6f4.txt
+Content-Disposition: attachment; filename=revlist-8edc339f5fc4-bdf9177bcfe3.txt
 
+31961dc598ab8d68c4c6f2e572f9f101e1317cba mfd: twl-core: Fix double "to to" in comment.
+8e88c61d6f3432f27a2c6b8bc58ae4fe974f4b6d mfd: core: Delete corresponding OF node entries from list on MFD removal
+4e4627e1aefdbf3a7f7ae85dc5ca8a583e30c87e mfd: rt5120: Add Richtek PMIC support
+6460f51ae317aad1d0530e004890e09bff60674d dt-binding: mfd: Add Richtek RT5120 PMIC support
+79ea68e0a9cf8c0f479339aca0c60f915522ff32 dt-bindings: mfd: aspeed,ast2x00-scu: Convert to DT schema format
+26331d261f49949bff6477fc9c844b17076fa245 dt-bindings: mfd: mt8195: Add bindings for MediaTek SCPSYS
+0a6df9f16f51bae699a2dee067e92d82a2a3ff05 dt-bindings: mfd: qcom,spmi-pmic: Add missing compatibles
+f5e90351a31f96e7e42a14a5cc686450b60fb94a dt-bindings: mfd: syscon: Require specific compatible also for simple-mfd
+6f42a14bc20618c13ffe26d01fffb162b4a01cb1 dt-bindings: mfd: qcom,spmi-pmic: Extend example
+ea0dd0df65cc4e5516fa3585c8768e6abb763929 dt-bindings: mfd: qcom,spmi-pmic: Fix regulator node schema
+f4b632da13cf0ee39cdbd4ff08d1961ed50e3c14 dt-bindings: mfd: qcom,spmi-pmic: Fix TM ADC node schema on PM8998
+8e3d08676735c6df6e0781a94575315e0ee2bddb Merge tag 'cpufreq-arm-updates-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+599618e5891e7d6f3caebae56f6ef65b2543ed05 Merge tag 'devfreq-next-for-6.1' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
+f8c1940165bea6200ce2aa1cb515a2ffa0709d74 dt-bindings: mfd: qcom,tcsr: Add several devices
+75db7907355ca5e2ff606e9dd3e86b6c3a455fe2 mfd: fsl-imx25: Fix check for platform_get_irq() errors
+6a32d3995f7bcf04598548778da54d2b6932b6a5 mfd: Move from strlcpy with unused retval to strscpy
+ce436a301615b9c256208f8d6e107d2983d43d62 dt-bindings: mfd: qcom-spmi-pmic: Add support for PMP8074
+90d7c4033c9a1586bd46e38878aeae5a6c3146cb mfd: qcom-spmi-pmic: Add support for PMP8074
+07a1300336870ba84670c4b4816fcb03c9d45498 MAINTAINERS: Drop Robert Jones
+a592aa3a2a8cb246547fca2c31922d51fcf4e1ed dt-bindings: mfd: Add Rockchip rk817 battery charger support
+2002d60dcfc9066b788842849eae4f01bacd7228 dt-bindings: mfd: syscon: Drop ref from reg-io-width
+6a96f6c132f2a9bdd80bbe4cd8adee565f8af377 mfd: intel-m10-bmc: Add d5005 bmc secure update driver
+a47137a5134be2f0b4724fe548362a253727d8b1 mfd/omap1: htc-i2cpld: Convert to a pure GPIO driver
+42839dcafd0a8327d8f98a117e7beea3f72cf13b dt-bindings: mfd: Add missing (unevaluated|additional)Properties on child nodes
+62a0261c9fa88721eb0cfb91bf51832b333e9f75 mfd: qcom-spmi-pmic: Add pm7250b compatible
+ac3e91199d694612a74673b0b53e339ad02b564d mfd: stmpe: Switch to using gpiod API
+3064c115bcb5165793366d348a7efc70d32b82e5 dt-bindings: mfd: syscon: Add rk3588 QoS register compatible
+1801c448d48405b1bfe7093f2ddc5461962521fa mfd: intel_soc_pmic_chtdc_ti: Switch from __maybe_unused to pm_sleep_ptr() etc
+a53ffb04ea5715ff2c33e33800382db6393f930a dt-bindings: mfd: sprd: Add bindings for ums512 global registers
+c15c19dd4eb81e38636564198e09364fe8fcb2a9 dt-bindings: mfd: dlg,da9063: Add missing regulator patterns
+6c6a8c6af6423b5d316dcb8016857e33f36ddb35 mfd: twl4030: Add missed linux/device.h header
 a5e84f33cdd7957e5497a0b324cc4bd675fb8f08 dt-bindings: mfd: mediatek: Add scpsys compatible for mt8186
 8325a6c24ad78b8c1acc3c42b098ee24105d68e5 mfd: sm501: Add check for platform_driver_register()
 a328ae8504dbc55f92be0e781aac301a23b5c21e dt-bindings: mfd: qcom,tcsr: Drop simple-mfd from IPQ6018
@@ -1046,40 +1077,9 @@ e08466a7c00733a501d3c5328d29ec974478d717 Merge tag 'for-linus' of git://git.kern
 6181073dd6a7e5deafc60e7981bd765b6c93da8c Merge tag 'tty-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 d3dcbe24a0fc6373ce7e4a65acd5c785aa8e2396 Merge tag 'usb-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 e8bc52cb8df80c31c73c726ab58ea9746e9ff734 Merge tag 'driver-core-6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-c1ec5233dce808c0d5756ff281d13fe9bb0652a0 mm/damon/dbgfs: fix memory leak when using debugfs_lookup()
-ab77406a073ba23cae0c1c65b3425a1e5bbbfb5b mtd: spi-nor: fix memory leak when using debugfs_lookup()
-4b9b212f2e6fa6097ec44be07567a5081c00beaa staging: greybus: audio_helper: remove unused and wrong debugfs usage
-88f09e64286b1ad19f369d263647e0b546f66871 USB: debugfs_lookup() fixup
-48dac4e7d4b671af8b415b3b5874b9f161b071c0 USB: chipidea: debugfs_lookup() fix
-0c6302631d6324afa5e2af3c68f4b744fa25ddef USB: ULPI: debugfs_lookup() fix
-c46b742d53b2a01d4450379e7f7b05a051ab88b6 USB: dwc3: debugfs_lookup() fix
-f19a69b38b98361d21cb5a2e207b042af60437d2 USB: uhci: debugfs_lookup() fix
-09d6d672be03fbb620a12dbb3d0f14b12d3afbc9 USB: sl811: debugfs_lookup() fix
-8b0ad88d9569b8fa9a898a54ed7ef8947559a643 USB: fotg210: debugfs_lookup() fix
-bff6596da60f5b787bc693909fb9fe9597204e97 USB: isp116x: debugfs_lookup() fix
-9c2ad747022c2b05196f71ed0add002f40e3bb25 USB: isp1362: debugfs_lookup() fix
-791d8d816a79cab492238923b8c59d7d83032e1c USB: gadget: gr_udc: debugfs_lookup() fix
-0bddde0f2b21a84aea229c8d275d1483450ae232 USB: gadget: bcm63xx_udc: debugfs_lookup() fix
-010d9a70392aa14f9482297f525aaf53daf1c88b USB: gadget: lpc32xx_udc: debugfs_lookup() fix
-35f78467db9cdbe5204197ba9baaacc3a0b2803a USB: gadget: pxa25x_udc: debugfs_lookup() fix
-dd5f808def63b4e285afb9180ad9142736ec5d56 USB: gadget: pxa27x_udc: debugfs_lookup() fix
-95e10fdf24d71b9ab8daf24cc9fccd2c8b70e991 USB: gadget: s3c2410_udc: debugfs_lookup() fix
-55463afb2bf057cccc7d6aa4c1c94b1bdf646235 HV: hv_balloon: debugfs_lookup() fix
-a138cf88bf0e4cd1d60d19c6f760d7b15eefbcab i915: debugfs_lookup() fix
-a351922b609df7bff38a7783c4aaea2db50148f6 tty: pcn_uart: debugfs_lookup() fix
-454aaa340fc10f67c819358c95b0d970d5500c03 staging: pi433: debugfs_lookup() fix
-44bf736f8060fb5fac1b66632e138db280884c04 misc: vmw_balloon: debugfs_lookup() fix
-cda5fbbde7de401902a149110e8cef1f5363dfb5 scsi: snic: debugfs_lookup() fix
-afabc3dc6bc6df9d33d82b334a45edf93a98b3b5 drivers: base: component:: debugfs_lookup() fix
-93910db2cbc0e0293079a11cb09e0c039b36472c drivers: base: dd: debugfs_lookup() fix
-c694b3bcd1b5904149d28d4ef243896f62d64e6a drivers: base: power debugfs_lookup() fix
-c5354e16a5f89b9fda0d3dd7ded934d5a376f001 mm/slub: debugfs_lookup() fix
-81c4510c65ffd0e1045d6970c5f65177b0f49b6e trace/blktrace: debugfs_lookup() fix
-97693f0c3b81dc5e0c2ffed26adc7c19ae7cc4f9 ppc: iommu: debugfs_lookup() fix
-c57c81cdf70903e43722e68dd49cdcfe706e13f2 kernel/fail_function: debugfs_lookup() fix
-0cf95348204481015de8e8724f8988cf9c58961f kernel/irq/irqdomain.c: debugfs_lookup() fix
-de9f7f672ca3d2ab7fb85441f7d803f4c12b9793 kernel/power/energy_model.c: debugfs_lookup() fix
-4728f1d7b15eff6d152298430aeac4971be0a882 kernel/printk/index.c: debugfs_lookup() fix
-5a436f5da6f44dbf4ee4e32ca337c0c268a3d3e4 kernel/time/test_udelay.c: debugfs_lookup() fix
+b5a7154927670344d80abea1c1bad8c7a1b9e9de readfile: implement readfile syscall
+3591381b3537824b196931dccb2c9f9879a0d3dc arch: wire up the readfile syscall
+898b07c3ef08d32292cbf2090ccc38310678d82b selftests: add readfile(2) selftests
+bdf9177bcfe320d10bed4f439b38a2e66f8841bd readfile.2: new page describing readfile(2)
 
---===============3705488823857927029==--
+--===============6079434769508451259==--
