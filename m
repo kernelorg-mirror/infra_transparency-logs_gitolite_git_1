@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4055980796660496373=="
+Content-Type: multipart/mixed; boundary="===============1518121462146922107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 09 Oct 2022 11:50:27 -0000
-Message-Id: <166531622780.10385.5507418673394768842@gitolite.kernel.org>
+Date: Sun, 09 Oct 2022 11:51:26 -0000
+Message-Id: <166531628614.10758.17677254373566259115@gitolite.kernel.org>
 
---===============4055980796660496373==
+--===============1518121462146922107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: d9486394c6129ccbcbe0ae4096e0517e669f2512
-    new: 8704109ec615bb3905aeb76a9d89bfae1e6555a7
-    log: revlist-d9486394c612-8704109ec615.txt
+  - ref: refs/heads/readfile
+    old: bdf9177bcfe320d10bed4f439b38a2e66f8841bd
+    new: 9baa1b9a10c1e7506ac0996961ea28b3bdbeb090
+    log: revlist-bdf9177bcfe3-9baa1b9a10c1.txt
 
---===============4055980796660496373==
+--===============1518121462146922107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316270 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316328 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665316222-6bf3a7c3a2aa1f52ed32a2d1c9cf6ab48bffcdc6
+nonce 1665316281-1a132d692d000bf82f08c653acf3a33981c019f5
 
-d9486394c6129ccbcbe0ae4096e0517e669f2512 8704109ec615bb3905aeb76a9d89bfae1e6555a7 refs/heads/debugfs_cleanup
+bdf9177bcfe320d10bed4f439b38a2e66f8841bd 9baa1b9a10c1e7506ac0996961ea28b3bdbeb090 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCta4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ylsP/2NNm2oSgz612wW9tgSg
-zbK1P/U580dmYOAWHcAnyi25Olc3w/v3eZu1tk0moS2iAxdfzzexWTxlF2Gy0Qsn
-0kOWyzdNHcZj/XikuiZQXA+kdc3mzRIYPBrmTmAj51otGR9Mat+CLotriAzRsS79
-bjtxoRsVao1d9gTpmcdRgr83CF6gfa9uF/80JytNGfDn4Vp8sEbuSI8ffbQs2iLa
-DaN0TQCIBeoGfWYFA4QgHkBuwCBk0M6G0sSm2m90MQPKl/EW+BZb+a7ohh9Yi3MR
-vgdaTg4fSaR/0S2oAhvrP+DjyPV9H2CcBWZXkYhZNyQezvVs+vQx3tbYC//CvP5Q
-wDQfu3s3jtahXPsrTrjEv+ur4JthMa1Xzx3nMiHoUw/OKKrnTNx/038VFOOumv1Z
-+RLJkpCix8+L+WX8HKpRp1knSu+T445BSEx23fLrab2KUa4XrG5z6UuxH0ZFn1VW
-h+N7VBRPgdati7FBQ+bviy2WpyUeqAGlZ5aj24BWAlx5rcwbLeSgBrCYQ2MRMzjh
-ZEMRmgdaZa5cJCqtFQlwx9mE0Y/xk5rlsToVtHSLWsjuplTvOTrvVXeqZ7AfzDWP
-28z6z76TAO6KhT9sKYOFD5kc7s13A6HNtlGZbd1Yg7n8b5OS7U44B/meh92Z8GpF
-GHt/BzobPXHRPYyYNXz2q341
-=OpEY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtegbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GxAQAMXPsSz8CaL/8vRcixR6
+GI5Ll5x/iqMIp/FUyJVBe02rUH4aHJW9fq9DbTiFa3E56AG42sHNc+di2hl1FrXs
+7T2z0rVK1GzFt9Eum7SVZ3nvb8pH8RdlYDNPjSkUyiiedpife5C7saBmXCXYFeHj
+WVuGPzQfRSdT8HMQagHRDs+ina8C6489tI5NXaol4IPBaExRFn5uVP+BlKqN/Lvj
+ckAJpckJ1LRk2qlmXoTYMPBWx9mlsjfHFGRuoPYBC6ruUe8Eo0LwNyGVVcQxl0u1
+MG6JQhzHu+1e/9ULB7vFGdlhkxln8BiUV6LhRKgVbvKwReaIszJ5JeTSTCOaCdsz
+XjLy+Jj5tvSTVhimnZOOZiJ/5shYq6KQ9jyLA9Hx0IH45PzsmbOkE3MKaQNSddHW
+9dAJCf2rc8RlOk2oVmsSfX5ubozKMDkEn/hkt9DWpanz4h44ewrhDAelDtfSUrsH
+iNYiDmi2sYR//o3x4rBqYdTHT6IUw+tGuB8POp2NnQocpPDVz9wLlElgGixaZcUW
+c2hK3r697phL/X99T68vIA3Yvr0602QJgSYpP/njzQ5aDOPZHPG2KmLPfjNZ6Bmk
+KqBif9lUc56hlmQWArkSZUjVdT6ViqRrsECWzZlH2jKb9jpKhZnm4aQ4JJtPpTOt
+cSdHjgBB9ye634ZmHoSa0fqq
+=ASlb
 -----END PGP SIGNATURE-----
 
---===============4055980796660496373==
+--===============1518121462146922107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9486394c612-8704109ec615.txt
+Content-Disposition: attachment; filename=revlist-bdf9177bcfe3-9baa1b9a10c1.txt
 
+502966c3b0267aee88803eda639d95fb98db433b iio: adc: at91-sama5d2_adc: move the check of oversampling in its function
+eea2655e10a05b0836c09a8ac7c27edc79d1d661 iio: adc: at91-sama5d2_adc: drop AT91_OSR_XSAMPLES defines
+3c5d62a1e407eb2c941d094bfc0aa9ee85998f88 iio: adc: at91-sama5d2_adc: add .read_avail() chan_info ops
+00ee4add809fa6d2a4508004e3933404de288194 iio: adc: at91-sama5d2_adc: adjust osr based on specific platform data
 5fc30713acf731f562dfdbe0795dadb71abd9183 iio: adc: at91-sama5d2_adc: add 64 and 256 oversampling ratio
 426b64752c4cc2059d5219d81071bf57608f346f iio: adc: at91-sama5d2_adc: move oversampling storage in its function
 04227f9510799b8f15fc9dcc30e12ed503bb3183 iio: adc: at91-sama5d2_adc: update trackx on emr
@@ -1073,13 +1077,9 @@ a09476668e3016ea4a7b0a7ebd02f44e0546c12c Merge tag 'char-misc-6.1-rc1' of git://
 f01603979a4afaad7504a728918b678d572cda9e Merge tag 'gpio-updates-for-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 bdc753c7fcb4eb009ae246a188ea7ac6dac98ce1 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 a6afa4199d3d038fbfdff5511f7523b0e30cb774 Merge tag 'mailbox-v6.1' of git://git.linaro.org/landing-teams/working/fujitsu/integration
-5fd3642ec65597308ec5aeed05d8a60b7d951417 Input: elan_i2c - convert to use dev_groups
-3f372ec0dad5341f076513520c0f6dd97a7b8fd7 driver core: remove devm_device_add_groups() and devm_device_remove_groups()
-fc382aa6796f2e9222c3aba7103f08e55cf96a80 sysfs: do not create empty directories if no attributes are present
-1ebc6b0ba7542918ce9cd196c4bcb07f9879db78 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-d5583ad389501b2b5a4740f90d3545dff2a121fd soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-7fb655c1e7e482087441da22c9522c5c3f84d1cc soundwire: sysfs: have the driver core handle the creation of the device groups
-3a6442a804950fda1e6a8157554a767c7667e496 soundwire: sysfs: remove sdw_slave_sysfs_init()
-8704109ec615bb3905aeb76a9d89bfae1e6555a7 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+9bf0fa15865a4b221751c0c34c13aa865eab929c readfile: implement readfile syscall
+9eb4e27a042a62da6f6c7c29248b75f41d2a687e arch: wire up the readfile syscall
+8f6530a4e6d0c615ea18b6cf81afab145ccb5b6d selftests: add readfile(2) selftests
+9baa1b9a10c1e7506ac0996961ea28b3bdbeb090 readfile.2: new page describing readfile(2)
 
---===============4055980796660496373==--
+--===============1518121462146922107==--
