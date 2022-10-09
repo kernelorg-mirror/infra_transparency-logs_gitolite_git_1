@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5987956894283364089=="
+Content-Type: multipart/mixed; boundary="===============1663072399508394999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 09 Oct 2022 12:23:00 -0000
-Message-Id: <166531818059.1350.2777979611759222025@gitolite.kernel.org>
+Date: Sun, 09 Oct 2022 12:24:40 -0000
+Message-Id: <166531828008.2145.5156137964351144488@gitolite.kernel.org>
 
---===============5987956894283364089==
+--===============1663072399508394999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,27 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 890c50823b6430bf0929d9a57e76b9b4d6bbc25f
-    new: e5555e75ba199d153f4dfb81496a891263ec9bdd
-    log: revlist-890c50823b64-e5555e75ba19.txt
+  - ref: refs/heads/for-next
+    old: e5555e75ba199d153f4dfb81496a891263ec9bdd
+    new: 3b5cb74c03312b5ac3349a0759c8d32bb9d0dada
+    log: revlist-e5555e75ba19-3b5cb74c0331.txt
 
---===============5987956894283364089==
+--===============1663072399508394999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-890c50823b64-e5555e75ba19.txt
+Content-Disposition: attachment; filename=revlist-e5555e75ba19-3b5cb74c0331.txt
 
-a945da31e759a7482a0d3087b825af674acdc3ad btrfs: test that we can not delete a subvolume with an active swap file
-1cbaf24e0cc87828504b139f38bfe9c31b05841c egrep, fgrep: deprecated
-9a5559da1af7dcd3873d52b0122cf0031b2969df common/quota: fix grep pattern
-e635c29e187db03735fc867d930f50ad0530d2b7 ext4/044: Add missing check for return value
-7c7a73c43be8e41a324eed01e3f5aa69860b0ddf idmapped-mounts: account for EOVERFLOW
-c343488d82d42c069756d1806d70f0f42e3173f7 generic: basic group ownership changing test
-b7adca6f6676eee80cfd2f31e8918369547b2036 generic: overlay group ownership changing test
-033a68a98684a2489cf4221446caf52fd65ff98e generic: new test to verify selinux label of whiteout inode
-9fd20429c9ce9355bd57776b51cbf76cd83fdd2d common: new helper to alloacate fixed size files
-ce77f0422ae87716982cc9ad1c4019fc219af1da generic: test i_blocks for truncated large files
-42cc53859ca1198c97a2ca88d4b6589592cfa50c btrfs/253: update the data chunk size to the correct one
-e5555e75ba199d153f4dfb81496a891263ec9bdd btrfs: test xattr changes for RO btrfs property
+ce018e24f0a5b30ca8bc624494f1fd4d509bba8a cleanup: remove left files after test finishes
+b57788fbe2cd10193318941f502bb3e5c4bc087f generic/299: skip test early if falloc is not supported
+18b44df21afcac7fd27b6c0f44923de3eadda852 common: introduce zone_capacity() to return a zone capacity
+dcf2ada66e2dcaf9d3724fb5456d0257eb01a555 btrfs: test active zone tracking
+8088eb0a46cc6261cd1176e6c488760acc2fce78 btrfs: test fiemap on large file with extents shared through a snapshot
+41914271ff1163cb286cfa06e30323f32bdaad70 generic/092: skip test if file allocation unit isn't aligned
+7bac64cc78ddf0c6e190c58929d899078b56c429 xfs/114: fix missing reflink requires
+62d628f7bb7152875f6e748feb11ac27f753d97f xfs/229: do not _xfs_force_bdev on TEST_DIR
+a2d5043aca5948e98a8d44e2c4e8295befa189a8 xfs/128: try to force file allocation behavior
+796546224dee718d76d08db91f079e7f551dd8f8 common/populate: don't metadump xfs filesystems twice
+3b5cb74c03312b5ac3349a0759c8d32bb9d0dada common/populate: fix _xfs_metadump usage in _scratch_populate_cached
 
---===============5987956894283364089==--
+--===============1663072399508394999==--
