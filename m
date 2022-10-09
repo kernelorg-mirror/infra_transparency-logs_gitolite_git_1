@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2041298203659167962=="
+Content-Type: multipart/mixed; boundary="===============7119958849685288201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 09 Oct 2022 11:47:59 -0000
-Message-Id: <166531607969.7373.184260939838243523@gitolite.kernel.org>
+Date: Sun, 09 Oct 2022 11:48:03 -0000
+Message-Id: <166531608398.7461.7753639594345722430@gitolite.kernel.org>
 
---===============2041298203659167962==
+--===============7119958849685288201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,70 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2bc54aaa65d2126ae629919175708a28ce7ef06e
+  - ref: refs/heads/char-misc-next
+    old: 7cd04013fbf3e6dcb67ca6b59aa813269a2ad9ce
     new: a6afa4199d3d038fbfdff5511f7523b0e30cb774
-    log: revlist-2bc54aaa65d2-a6afa4199d3d.txt
+    log: revlist-7cd04013fbf3-a6afa4199d3d.txt
 
---===============2041298203659167962==
+--===============7119958849685288201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316124 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316128 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1665316078-2eb15e7ed67031d2033a8b4770cb45b401571a12
+nonce 1665316082-a70039a8b4cf1d2dcf5fa0e6e5aec0838d83d477
 
-2bc54aaa65d2126ae629919175708a28ce7ef06e a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/char-misc-linus
+7cd04013fbf3e6dcb67ca6b59aa813269a2ad9ce a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtRwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d1kP/jxAMqQdrEY5+Lo6pGVS
-JjdAMRQgvcDHsP4Ya2PceZWQ1a5dTTRjXwqyw6FRQ3WuBgFXjjGU+PsGHQ9Og8ax
-CCTUo88Ht2LyGW/8wnN2p5kUB6hPsmiWbGRspUZSuG0NQSakWFViyscyzNKoKgWV
-BDT5c91j4dxkpRclLMw53mwHYuWxSL4tEfwREfoHmbrM+WDsNrzasI5RwMww6IMg
-wqg6WwQKqpb/TPHHjf/kE99qSLA3zsOBaeZGpXx4/YgyU8pIJukptb9+WKsTlYnV
-GLLYEwnXxzQCr4fjNG7At7U1FV2Qk6jWRO2/b75rsqqGtPhKWuUnUsz54GqSza0O
-Lug7tl1KNfwqDyeWi79iYqLwZiYCljDptpiBaDCOxTMGL9Rkj2l91GwXC1HO403l
-O6IJyinJRxG2+vf+esZyYNINfvCUOWm2bWMkEWevr//eue8OKIP49ttHnnKfQU1W
-s46xtGwbhiNic8cCd+cIQQJDQTiFEFbcySv5dykvUQDTyqH13G1agjPkjiPwLxb9
-U42CyjIFNVJ1Pm5COjteI7wl7gheXiIG/wUtaHwcXc7vyX+kIMURuhmUxAd30hVE
-JbUeRPl0BADj74BxPmnx05gMkfWq2WFVuwtzbIE/aROYnruaIapGx1dKO40Q7d/t
-90Econcel/enT+BDOxh/ACN1
-=n1uv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtSAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QBQP/2r9RHwPPqgsT+N3SJ28
+FMF3vUuoGAFVkTY5B83aKHER5z8n0YKAN6wTYSaGH5H1fnESeYShpmCXXhHXSbl/
+nQZ0q8a62KX6UCKIcrIBCV4UrMWrS8i/y9ToAAo9TyPD1gPCaOxgjLAQwAF+GFau
+d6q+0l4Ul2whmb4Ep+WogJTls2qtDLgxcA+3KTp3g21dPf84B8baWfTC08XmG6Wu
+8TSVTaLXdWQlpiDZGxMXjHWQSSXauo1C/JFKlHUsltXYaYQxB6dFuso8qbsa4aQm
+SQ85dRTq9hYSdVDfbl6YRIYQMYK4m/vrlwEn1OrYtMMJuypwj0ctR5Op54fp2ttD
+YTQ30WDheWU+IlQY+KEcW103BaGvhbet0BE3BckmsHYg+LydvKyo8pH8VnpQhNhf
+MQfzhHZEm0TLQXqzqRonEnG6FtYZJ40RrvxYBMcYr0UMr2IdU2+phwRzI2bQe+ZX
+s3zq6heIkENlPmCu/yDQCoxlZkjxG7crUYzaiJbavGCmGLwQsqNGkONNvAeE+/W9
+x9dh6pPW8IYzgJwmKcvDy8ucO24KiO18c56NR7k+1J48n576zOvEMAZ58CTkoCNu
+497TkANeMSy99n9MMJUAY4uCEOIhzf18Vk94MzjfATz6PfAn21H+TZ3pv9jdtcqX
+i8BsxCD6eOel8whspfc4vrV9
+=y31Q
 -----END PGP SIGNATURE-----
 
---===============2041298203659167962==
+--===============7119958849685288201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bc54aaa65d2-a6afa4199d3d.txt
+Content-Disposition: attachment; filename=revlist-7cd04013fbf3-a6afa4199d3d.txt
 
+6bdb6d6be019f697296f52c37865dd7b0ce80750 bpftool: Show parameters of BPF task iterators.
+aa55dfd3783f0f8131bead061fb22b0d0d75a078 Merge branch 'Parameterize task iterators.'
+4014e916fd0cea19b559890588d70b4e9f44b87f clk: sunxi-ng: h6: Fix default PLL GPU rate
+38e35e1d0cee3432baadfd6900e1d05a3419eda6 selftests/bpf: Convert sockmap_basic test to ASSERT_* macros
+d155fcb3fff16410ccd7583f9a16c15ddffeca1e selftests/bpf: Convert sockmap_ktls test to ASSERT_* macros
+099763e7da0beec120827547f227c123e9d4a155 selftests/bpf: Convert sockopt test to ASSERT_* macros
+675bc8abe16d9ce97970e8a781e9e72bb8d47ca2 selftests/bpf: Convert sockopt_inherit test to ASSERT_* macros
+a605a6bbccceebbb68ab9f8ff2b27e2faa38525d selftests/bpf: Convert sockopt_multi test to ASSERT_* macros
+f19708dfa0bf5a016f27e92ef4d3514788f6dc8b selftests/bpf: Convert sockopt_sk test to ASSERT_* macros
+a0a17296713aea7b3cbc94662c6ffb53a79a3f2c selftests/bpf: Convert tcp_estats test to ASSERT_* macros
+3082f8cd4ba32091be82c19c357ddfd300c5a433 selftests/bpf: Convert tcp_hdr_options test to ASSERT_* macros
+8dda32ac58b622f4c1ec0edd4f6b12f84170fe01 selftests/bpf: Convert tcp_rtt test to ASSERT_* macros
+9d0b05bdfbea25693cdd63c29aa12b982307d81e selftests/bpf: Convert tcpbpf_user test to ASSERT_* macros
+1fddca3d36d1dc4a19a8060d20de1b77edfe63e0 selftests/bpf: Convert udp_limit test to ASSERT_* macros
+8526f0d6135f77451566463ace6f0fb8b72cedaa Merge branch 'bpf/selftests: convert some tests to ASSERT_* macros'
+13b0452ddaa3f7d840ee16fc92aa433392a56685 clk: clk-npcm7xx: Remove unused struct npcm7xx_clk_gate_data and npcm7xx_clk_div_fixed_data
+d59bd748db0a97a5d6a33b284b6c58b7f6f4f768 io_uring/poll: disable level triggered poll
+04360d3e05e885621a5860f987c6a8a2eac4bb27 io_uring/net: fix non-zc send with address
+1b24a132eba7a1c19475ba2510ec1c00af3ff914 clk: iproc: Do not rely on node name for correct PLL setup
+fe9d25b46bc744d73491fb68f1c322910dc70437 clk: pistachio: Fix initconst confusion
+daaa2fbe678efdaced53d1c635f4d326751addf8 clk: imx93: drop of_match_ptr
+6eaab4dfdd30ea8fb0dd4ee04940676c12b728e8 net: introduce struct ubuf_info_msgzc
+b63ca3e822e7ae71f65f83df68ce18155db28eea xen/netback: use struct ubuf_info_msgzc
 dfff202be5ea884498beb9f60492053144dd4b3f vhost/net: use struct ubuf_info_msgzc
 e7d2b510165fff6bedc9cca88c071ad846850c74 net: shrink struct ubuf_info
 578b054684e6ad46f6089b726c05054fc5e3cd74 Merge branch 'shrink-struct-ubuf_info'
@@ -452,7 +475,6 @@ a0d381caf99317977942e1228cdc2e14392e1d72 usb: host: ehci-exynos: switch to using
 a15e17acce5aaae54243f55a7349c2225450b9bc usb: gadget: uvc: Fix argument to sizeof() in uvc_register_video()
 3b882a7bf6cded3af1589c4eae9b6153d6767c26 net: bna: Fix spelling mistake "muliple" -> "multiple"
 fd01b9b5b02b5eb0ff8aac748a86940e8113cf66 net/mlx5: Fix spelling mistake "syndrom" -> "syndrome"
-f5e536af4860a7d07b769d0388a68e74fe453c9b Merge tag 'fsi-for-v6.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/fsi into char-misc-next
 c827b7a3fed54e5ea23584774bfc4ca27ff90272 dt-bindings: net: mediatek-dwmac: add support for mt8188
 22ba1afdec082b48d3fcec89b396839915af163f dt-bindings: net: snps,dwmac: add new property snps,clk-csr
 7871785ce92d689b2aaa430ebc488fffa94620b0 arm64: dts: mediatek: mt2712e: Update the name of property 'clk_csr'
@@ -462,27 +484,6 @@ aa58c9bc833113621b3fdf0d43ada106a1e6f2fc Merge branch 'Mediatek-mt8188'
 0f5ef005310d4820926c76bc1e94d4d2a0e49d97 ip6_vti:Remove the space before the comma
 bd1a665a01b4d65fd8dc6fece4b376fa5c8c55bb arm64: dts: exynos: fix polarity of "enable" line of NFC chip in TM2
 a08137bd1e0a7ce951dce9ce4a83e39d379b6e1b ARM: dts: exynos: fix polarity of VBUS GPIO of Origen
-55e5832bb1f24237ce294acca5b2c67ed1197cbc MAINTAINERS: Update Counter subsystem git tree repo link
-3216e5512abdd1fc671ed8443ffc8fa9e4adc78c counter: Move symbols into COUNTER namespace
-7bbf842cdcff30ddd1da4ab9059cf92f9d1a4326 counter: interrupt-cnt: Implement watch_validate callback
-650ae67bbf7ba5ac193f053969612fbb93247b64 counter: Introduce the Signal polarity component
-9830288aeada5ec8ded1665aafe2d2b8f4121bad counter: 104-quad-8: Add Signal polarity component
-45d2918520b2d8e640e4fb3fbf664dfb823dc520 counter: Introduce the Count capture component
-bb4bbbec664ffdb4652bf3d5daf7c930e68e5c40 counter: Consolidate Counter extension sysfs attribute creation
-d2011be1e22f7769c7c71d6d7f777ffcc544808d counter: Introduce the COUNTER_COMP_ARRAY component type
-b5bee6ced21ca98389000b7017dd41b0cc37fa50 dt-bindings: counter: add ti,am62-ecap-capture.yaml
-5a47aed0d651490ad0d6f9dbc98bc6dfc71de787 Documentation: ABI: sysfs-bus-counter: add frequency & num_overflows items
-4e2f42aa00b67605938173a61d07a44fe13bad68 counter: ti-ecap-capture: capture driver support for ECAP
-54d0999f96abadcc0586fe577e6cf4dc4c2749c1 MAINTAINERS: add TI ECAP driver info
-9357fc3b3b85a7d9f0dedf5446222a26957852b4 drivers: spmi: Directly use ida_alloc()/free()
-33c912d3c5efea62298921627fad7f5ad396b8fb spmi: pmic-arb: add a print in cleanup_irq
-abb9088b3a39cfec1321e93170ee3c0c1255fd9d spmi: pmic-arb: handle spurious interrupt
-b6c1761721193c52234e3ed048e4d16ab527bb74 spmi: pmic-arb: do not ack and clear peripheral interrupts in cleanup_irq
-191adbdd26f1a26c9302369b2701bfddf8c0780e spmi: pmic-arb: check apid against limits before calling irq handler
-4df88fe5b631bb9e381880b4cca73e91750afffe spmi: pmic-arb: add support to dispatch interrupt based on IRQ status
-1f1693118c2476cb1666ad357edcf3cf48bf9b16 spmi: pmic-arb: correct duplicate APID to PPID mapping logic
-c8669773c74e26ceb2412215a2db40399e3fe119 spmi: pmic-arb: block access for invalid PMIC arbiter v5 SPMI writes
-9c573cdcf913e0a38bc260634017be3174595c56 spmi: pmic-arb: increase SPMI transaction timeout delay
 29c7dbbcd08c6d7f168797867e85dc008d868eb9 staging: r8188eu: convert ODM_ReadAndConfig_MAC_REG_8188E() to int
 9090b84a7b43148c33139abe0da1623ac1345d38 staging: r8188eu: convert ODM_ReadAndConfig_RadioA_1T_8188E() to int
 6d09f25aa60bd8fc6865c2a385746afc7cc1860c staging: r8188eu: convert ODM_ReadAndConfig_PHY_REG_1T_8188E() to int
@@ -490,7 +491,6 @@ b933b6a2667a988e999fef92e7d4bf7a4f41eaff staging: r8188eu: convert ODM_ReadAndCo
 1206c0e9e325502ef37bf34caf97dbe0716abcf0 staging: r8188eu: remove PHY_RF6052_Config8188E()
 006d2f4872b8bd05f2aca0c2c0bed5aaec1efe53 staging: r8188eu: remove PHY_RFConfig8188E()
 4256e500f61922a3e59c7ecb6a11aab972d41b18 staging: rtl8192e: Rename variable Bandwidth to avoid CamelCase
-7cd04013fbf3e6dcb67ca6b59aa813269a2ad9ce w1: Split memcpy() of struct cn_msg flexible array
 468cdabe93c5fa969de65752e38c31f07a5e048d tty: serial: atmel: Add COMMON_CLK dependency to SERIAL_ATMEL
 fda8c908bc2d523c0770ded667dcdad29c06ff52 docs: filesystems: sysfs: Make text and code for ->show() consistent
 dfdabd3856547c3bed996134e84b9452fb19e695 serial: stm32: Fix unused-variable warning
@@ -1082,4 +1082,4 @@ f01603979a4afaad7504a728918b678d572cda9e Merge tag 'gpio-updates-for-v6.1-rc1' o
 bdc753c7fcb4eb009ae246a188ea7ac6dac98ce1 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 a6afa4199d3d038fbfdff5511f7523b0e30cb774 Merge tag 'mailbox-v6.1' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 
---===============2041298203659167962==--
+--===============7119958849685288201==--
