@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 09 Oct 2022 15:58:01 -0000
-Message-Id: <166533108177.22421.5247816778478245073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 09 Oct 2022 16:13:52 -0000
+Message-Id: <166533203247.32463.6898302516836897540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/jd/get_random_u32_below
-    old: 30bec55d32be12cc1a772afe7a3ab6acc83c5d41
-    new: b973b618add593253c556e399e4662638ae69c0d
+  - ref: refs/heads/testing
+    old: 7f9d952f577bb406ac6345c12babc6a67104e08e
+    new: 4d350d625811a62e17c02ad8706cb4be05ee4d95
     log: |
-         d7b56481a9855ee3f45d975a833329f32c9c87a3 treewide: use get_random_{u8,u16}() when possible, part 1
-         cf47d8e7f7e0872e72e8de8677212a42f6b88bdd treewide: use get_random_{u8,u16}() when possible, part 2
-         88586ef8b029a43d1da24736868c0fea149bdeba treewide: use get_random_u32() when possible
-         400a9ab9252634ce2626932401cbc4b35e091188 treewide: use get_random_bytes() when possible
-         f250bbb1ad5cd5af0626e7fa02f7ead55e551ca8 prandom: remove unused functions
-         b973b618add593253c556e399e4662638ae69c0d random: use rejection sampling for uniform bounded integers
+         9a9c5b99ca279316063c0177c45e1d6298024add dt-bindings: iio: addac: adi,ad74413r: use spi-peripheral-props.yaml
+         e2cedcbdd6f8ae05efb8fae57313b3f4e3931031 dt-bindings: iio: addac: adi,ad74413r: improve example
+         709d28bb545b01077f373a6864d118d805c8329b dt-bindings: iio: frequency: use spi-peripheral-props.yaml
+         05a544adfbdee13ea0580627aaecb98e7534254f dt-bindings: iio: gyroscope: use spi-peripheral-props.yaml
+         97752108f15898c9e2d4c3176fef3050d13c7622 dt-bindings: iio: imu: adi,adis16475: use spi-peripheral-props.yaml
+         b5e601014b03615a9ee104bfde2bad07c5bf828e dt-bindings: iio: pressure: use spi-peripheral-props.yaml
+         b4042160829e8d741054c0fc3154e6c258ddf480 dt-bindings: iio: proximity: ams,as3935: use spi-peripheral-props.yaml
+         4d350d625811a62e17c02ad8706cb4be05ee4d95 dt-bindings: iio: resolver: adi,ad2s90: use spi-peripheral-props.yaml
          
