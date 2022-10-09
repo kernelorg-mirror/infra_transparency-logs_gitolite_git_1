@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5474984604471057878=="
+Content-Type: multipart/mixed; boundary="===============4846708648749252362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 09 Oct 2022 11:51:52 -0000
-Message-Id: <166531631284.11152.11683419784335796097@gitolite.kernel.org>
+Date: Sun, 09 Oct 2022 11:51:57 -0000
+Message-Id: <166531631725.11308.16293236869153542291@gitolite.kernel.org>
 
---===============5474984604471057878==
+--===============4846708648749252362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 4256e500f61922a3e59c7ecb6a11aab972d41b18
     new: a6afa4199d3d038fbfdff5511f7523b0e30cb774
     log: revlist-4256e500f619-a6afa4199d3d.txt
 
---===============5474984604471057878==
+--===============4846708648749252362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316357 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316361 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1665316311-45ca75d8c345938fc9fe504a6451bd91fc5a2b07
+nonce 1665316315-15516cc7cda9f047e0b8f0db46926bd83ae50759
 
-4256e500f61922a3e59c7ecb6a11aab972d41b18 a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/staging-next
+4256e500f61922a3e59c7ecb6a11aab972d41b18 a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtgUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uh0P/28f0wcw++dsXWSWjzUl
-xHMPBlsEeCRf2CMBK5sHlGt9CLvvb0MYRo6sWzb2OG1n3NK7/PoCYo7lhWQD2Rax
-LVMbMSJwfHZZviQDoQMNdyVAOK8K3OwWFd59SgifLalntck3bw6axu1KpsHkWUnV
-xCqEN+ETeYod1Ez+wKdhU6OyNS1tD2oLNidqDMNz1pwA7pmdVqDo+LM1K7ZiARA2
-zecU6kiWAacM7ZMgxxodTyoO0njo7/NZ1/h2YyWE/7tdrleHMOkomm1X13dXYNkO
-nF8jTa1JXBttgfXh4lzmNDSqDkxoDz1yg9599sIOm1Xc/IderOOjsWd2szF1nmbe
-0r3HhC3QokIKbjWVWrnf1NoYYkw59yixDgldSuTa8M9QNnx/++X2f1MOu1PMS3Vj
-Bv4OUJdZWLuqYXS9zHPCXz0WymxcGgnTVKHKVv94bCcYnyAYXN1FthiaO0hIfAAu
-YBremG5rRivE6i94v/7x/8yMgjBrNKW/ezGIWTp0UgefkrbIaAPWQHkMQIotwONC
-lsigIhGZUT5YlajeoMdy6tTizPsfOkM3LE72TDgDSHlRkYAHkTBgXH2yrBovF1hi
-n7ve5GX3XkfWU0+fyHuYeThGLiTJesN1pl7BDkqmgfANZJ8kUZaGY+yo59P8VmU3
-Z98C8COEEHPswno/iVBYcSjS
-=chUw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtgkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KvcQAJq1UckWefeoejM5N0Cx
+jrRgwJ73I58ztFBT/QRxfrm7VmmDnZO+V03RtdXRh79W7Jbc8FxaUfBMkFHimQx5
+vupL+LiRPDlv51+3YR0lOXzj7Pvj0xB5ABC/6qlb9WeJgx5pc8gK+0ieocd+XTKD
+JsGnSwy5ryKo0O3S4zFPAwIMi97Rk0OaT6L0b93RTAzjUS5rydyVDhbkHPKcTVNQ
+i4otxc3FNOuspdZP2pKyxfe6kLkMVZ1F5W//i0jacBxgvUxtj3x8w7obGvGUB6Su
+ItJAqSiUiQsxnpxRVCwO8DaXyQ9RqWLOzUX8+CNDdXkyLM2wyjSOM0FCew46rzm7
+A96QI+G19L+X8tWdL/xVsbdLXl7FkzjV32b8H0dZ+HNlCHJ7wnr7woUeM7Ms0vwo
+/0IXTfjpEOd1MNNAW3b5NIJ+20VSkDltqAiWj0Ro6gq9IJ/P/ZrsNKBXQKAjtssA
+Ak/oWVk4raJ1jionMb7qOR9nMvA84RyLuOew+04b/3/ygL7HnJh2sF7vBdySsK77
+eg72jwVh1hvz2tDyULb0lDMYRcqo6686uS0U5ILGu5h0FRu/xpUaxaujSrvoLB6Z
+S7BUapygZNHAbEGgesKbbR+74X2Vg6D2RFQNWUsAItKR9XEPCzj6ZrQfOCj9FvGV
+9BBKufPqypD/9SgRvPXMjR7G
+=FoRp
 -----END PGP SIGNATURE-----
 
---===============5474984604471057878==
+--===============4846708648749252362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f01603979a4afaad7504a728918b678d572cda9e Merge tag 'gpio-updates-for-v6.1-rc1' o
 bdc753c7fcb4eb009ae246a188ea7ac6dac98ce1 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 a6afa4199d3d038fbfdff5511f7523b0e30cb774 Merge tag 'mailbox-v6.1' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 
---===============5474984604471057878==--
+--===============4846708648749252362==--
