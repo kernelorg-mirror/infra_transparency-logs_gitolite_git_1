@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0103089047105870408=="
+Content-Type: multipart/mixed; boundary="===============0417930342021139734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 09 Oct 2022 11:51:44 -0000
-Message-Id: <166531630441.10974.3853175526959143595@gitolite.kernel.org>
+Date: Sun, 09 Oct 2022 11:51:48 -0000
+Message-Id: <166531630856.11055.7713324473254123245@gitolite.kernel.org>
 
---===============0103089047105870408==
+--===============0417930342021139734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 7e18e42e4b280c85b76967a9106a13ca61c16179
     new: a6afa4199d3d038fbfdff5511f7523b0e30cb774
     log: revlist-7e18e42e4b28-a6afa4199d3d.txt
 
---===============0103089047105870408==
+--===============0417930342021139734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316340 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316353 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1665316294-2053384240eb0cebe63179746a30b921bb6b3cdd
+nonce 1665316307-7fa95b4f11f5aaeec0507177091a40bbfad98789
 
-7e18e42e4b280c85b76967a9106a13ca61c16179 a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/main
+7e18e42e4b280c85b76967a9106a13ca61c16179 a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtfQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gg8P/A6uIMRXNhgnIh5Ti4eO
-f6TSbd78HMrrg4t8dhokY31j1omPSqvNERBSCRjZ+S/tClIfd73BChw8445LPwZ9
-0bOWkLRZWrTquHGlElf+TOt0KxVPabz5Jr8ESfma0x8ic3OT22OUjXMuOKu/TAA3
-wPfkc8NOQBVIEh6Bd8X9S1p4e6jMQM+IcJ4nvQ+d2y5NxvsrwqvnIK1WWjdEF/FZ
-7TJ3fPXKKxbyBir/uVIlYJOJxLRmb69051g+TeX+SVlmTTqf1mOscRbtEMB/bngc
-Zm4Ht2bvVHXqXePp/jNiVUF1yVCae1V/nEeP+sgjQwMRPuCS7VPvXy2DpV5Srsoz
-WF6lKPexqbxWuqLHJW0i/og/GfRB+lzadPPxw+djdqHYumwKOuDT3Cwx+17EvjFB
-MOjxKwnEPw9ChpFiIm5UlIJjgd13E65xNbGYtFB4ewWoH4yvehy+jUZ34s2ILoqJ
-A18AQcDRuJr55WnbqdvfXgEpnSakrt4aZSDMwEfA3ea+hwPRwzjpHnZKAmNFZMMh
-jw2LQxKoPezHQgqFk9bmxY16YqYS0vfWP6SzBPRfAXj2t5abVMq6pUGpkh7KdDfW
-IQNaV3t9sgYTh5TFcPBlTlXK18Qm2WxpzJsCQBjV2pv85L17JO5vTmPiVsyL4hjx
-bHGJmBG3+8cHxhGCICue8uxR
-=kJrQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtgEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fX0P/0AiYaMvfpEKsps7Xx7l
+a2PHeIrmucQElnAXkC/a56eQwCHg9ddo9kzBrzUDsmS1/BoE6DFUh8bOtXkC0DAi
+OrmntU85cw7dXn5EkHxqZfeDbHQ1tQ9MpR/mlgm3EF0o+krKhAG1ZiOHtrzx+VN4
+wK8nrIrOcLSwmTGeXUhS1hhz3Yk71elyvNw4VY+tsgtbKLuyTZG0GeZpjxwynnyt
+m+5QO5wSrDGOGTC3uc5B3P5OUS118F8pTTDEqw7X1E/pT3yYF9eGOCTE9fhRm+Ui
+n9+pTWB62Sq1rTkhUXe7QryZsTyLRa2ddijOcL2ukbuNRodCF7jM0rQrTU1/2li5
+nS/b4F2Az56LpEEPW5bW9goEzqqZIODiY9COu01I3ybhKLTa5tY6KzEBYXz6SvdV
+ifPOyeMdtAotCG8IWTCtRTOLKUEO/ScMmVq5RZa5Taf9sWX/EM9II8dvI7EnlXMe
+SCFmup+XCWlxTwLjnSgNZiyayaB6LRKXJ/wLqIFHfOG84OCrV1BhwHUoSbS6SxRa
+CABr1BwS5X69omH2dZmtEcpIynoKbSOhbkBUkQR6EJqQgbwyn9ojKk6RGgeD1qBH
+5GJaELuiO6Zka+lnD0hEfIeRSTaS4oP1ZcqZsip2VHtqxAMxzOFbm2sdGXlzLhV8
+ujS7S+Ay7oD1HFp5PDOvKMQ/
+=E0nh
 -----END PGP SIGNATURE-----
 
---===============0103089047105870408==
+--===============0417930342021139734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f01603979a4afaad7504a728918b678d572cda9e Merge tag 'gpio-updates-for-v6.1-rc1' o
 bdc753c7fcb4eb009ae246a188ea7ac6dac98ce1 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 a6afa4199d3d038fbfdff5511f7523b0e30cb774 Merge tag 'mailbox-v6.1' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 
---===============0103089047105870408==--
+--===============0417930342021139734==--
