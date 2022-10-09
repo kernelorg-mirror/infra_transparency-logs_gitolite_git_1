@@ -1,62 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============0250680255986635902=="
+Content-Type: multipart/mixed; boundary="===============3256460725888041020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 09 Oct 2022 11:52:30 -0000
-Message-Id: <166531635007.11665.350495504165786978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 09 Oct 2022 11:53:03 -0000
+Message-Id: <166531638358.11969.2890258284365373987@gitolite.kernel.org>
 
---===============0250680255986635902==
+--===============3256460725888041020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: d172cd6fa2a2111918e6824a801c8590cdb62ba3
-    new: 318fbfc691ea7851bfa7c54e338e1b59544d8f6a
-    log: revlist-d172cd6fa2a2-318fbfc691ea.txt
+  - ref: refs/heads/main
+    old: e8bc52cb8df80c31c73c726ab58ea9746e9ff734
+    new: a6afa4199d3d038fbfdff5511f7523b0e30cb774
+    log: revlist-e8bc52cb8df8-a6afa4199d3d.txt
 
---===============0250680255986635902==
+--===============3256460725888041020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316392 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1665316344-274ef3f260ab9d7f7db4cbc6c3101cf61f77cd87
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1665316423 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1665316378-9f7aa71fc6beae906894a2529c791563fd6d041b
 
-d172cd6fa2a2111918e6824a801c8590cdb62ba3 318fbfc691ea7851bfa7c54e338e1b59544d8f6a refs/heads/kobject-const
+e8bc52cb8df80c31c73c726ab58ea9746e9ff734 a6afa4199d3d038fbfdff5511f7523b0e30cb774 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtigbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7poP/0nZMwEiGsH/YuBE2SMU
-iZeDAuOJ08v6uYrWcsOljM44zwcWgJ+YQ0weOqkrZJ5krlCjJ1QTD2yoGN9thi2z
-j5S9RiP+p1Cn+HbvsIQwGMkO+ZydvPrsl4ZXbTlt0ok/ljl18p9KkuI0i0F2Mf4d
-hm8SWJCzVU5+zgvk8Lo3jkhR8BmQfhdUfKYiYQ8JfAhwnpToIIXgnzunjtTmR/T+
-QiTTthmB7zCoIJoRtdpvuDanLdog3gUPbPmi51xm8QiTlpUe9Ruluxbh6XQJWax0
-C0kOHKuRg+hANhtoGOUuvtNffR1AtttCAz7hXHO68G1NRJlKd3C36tkcWVsiw//D
-okiJP66w7pMgxqTzGE4oBkADBtNA+Wbs5tQej5Rx8oBtqgHijDz/iSfOR84+J00w
-sggYE+CMoHXGTsBZXmagVIx795iGU7Jk44TM58j7ygx4DTj6nyT5y+w8noNPG2uZ
-3a0DecIV1r3kia9YhTt/a5M+am0NaqR6/8RE7OqF80zZHqo4/WwGaJZat2NsA2+u
-B+yBN+h/V5g8LDbtmIhb/SdqETgdaXvjSI6ELH7gcaN/hsIP66a8iDUvwlSb7K2j
-m3zZoDU/SOwcDTNQY5R2gVZvv089kWjtzO/IomyLBuphT8UFdLdUuO/dXGz6ltc0
-To0E/e81WRXf8P2g0s2a4SfP
-=sWeC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmNCtkcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0S0QAL6ZdSJU0xfrFAYocYyo
+hoUT+jNb2N6qByeK1D4L3cx5dlIJvdypACBcIcaT1U2p8zlQVKF4JGWWJLVQ/Mfa
+tnkjFBgkVo3SYiRIJkKd2CNemvZGRP2G6sNaOFoHZ1upu2WH//DTxLNNVvRTKrgP
+JgwZs1ECBRF4X4YtT36uw3Ur/JzqFyHsPmKZwnq5DsBVIjgLeWfj1N9HzsISXr1F
+csG6LR7HGpel6wLfpld18FW0haAuwiZ630mPKNOdvucfl4MHbL54XQEziXqDwa19
+dFw7IqXJ0TWkkkzt+MCTG0z/PyhcMVT835haTpexfqE9yUH9qRr2gJDejvqxxZtf
+zEjI/Su2jgRkTrzkadXwMn5qmzqNYBPDvhR+ly2dt7dJAmKYCTidj9LmfCjKTFpG
+nRUBUJ5IIw+b7P6ESO14ZqS+lYruUkwmWPQXUz+LdpmtnOZSeMPwtdyu7eaHjivf
+vHpG0C5n6TjIWJYB8wi1kdxaPGv4sr0fcOVzJsm4Jbjk4gcuSF3551F5/tuaru0L
+z3/YnzaLBztWl4RNQhbLtm/cCQ31wV158fb/xyo9vDd0hzABGVJ25SgOScg84kYG
+xBkRjbSrQYc8RrTqVSMyJmQpCLfNA/oz3nQ5ZrUA/MUioRE588iZ5t/RZPVvxu6c
+QHzr2VVh1py2yzlH9SQ2C3SZ
+=F0yd
 -----END PGP SIGNATURE-----
 
---===============0250680255986635902==
+--===============3256460725888041020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d172cd6fa2a2-318fbfc691ea.txt
+Content-Disposition: attachment; filename=revlist-e8bc52cb8df8-a6afa4199d3d.txt
 
+9780a23ed5a0a0a63683e078f576719a98d4fb70 iio: adc: at91-sama5d2_adc: lock around oversampling and sample freq
+808175e21d9b7f866eda742e8970f27b78afe5db iio: adc: at91-sama5d2_adc: disable/prepare buffer on suspend/resume
+cf15a2b518b3e6991ef1c2f87e9a7f7e4afa7b77 iio: adc: at91-sama5d2_adc: exit from write_raw() when buffers are enabled
+287c271dee146b7ab38f29d055691b8bc3753f35 iio: adc: at91-sama5d2_adc: handle different EMR.OSR for different hw versions
+502966c3b0267aee88803eda639d95fb98db433b iio: adc: at91-sama5d2_adc: move the check of oversampling in its function
+eea2655e10a05b0836c09a8ac7c27edc79d1d661 iio: adc: at91-sama5d2_adc: drop AT91_OSR_XSAMPLES defines
+3c5d62a1e407eb2c941d094bfc0aa9ee85998f88 iio: adc: at91-sama5d2_adc: add .read_avail() chan_info ops
+00ee4add809fa6d2a4508004e3933404de288194 iio: adc: at91-sama5d2_adc: adjust osr based on specific platform data
+5fc30713acf731f562dfdbe0795dadb71abd9183 iio: adc: at91-sama5d2_adc: add 64 and 256 oversampling ratio
+426b64752c4cc2059d5219d81071bf57608f346f iio: adc: at91-sama5d2_adc: move oversampling storage in its function
+04227f9510799b8f15fc9dcc30e12ed503bb3183 iio: adc: at91-sama5d2_adc: update trackx on emr
+5f72666f4b1ac269fe5b3b3f0cfaa6ada6add57c iio: adc: at91-sama5d2_adc: add startup and tracktim as parameter for at91_adc_setup_samp_freq()
+a0f96db4ca1279d2c5150ed306e32a589f66070b iio: adc: at91-sama5d2_adc: lock around at91_adc_read_info_raw()
+cb6e097d9340e037ced6c580019e823b702c6bb9 dt-bindings: iio: adc: at91-sama5d2_adc: add id for temperature channel
+5ab38b81895c869fb72eab5b528d5ef13a741c66 iio: adc: at91-sama5d2_adc: add support for temperature sensor
+0cf53f303a02f5c4560042e856035b995a457c1f iio: adc: at91-sama5d2_adc: add empty line after functions
+75d7556ac0e4bff830f7f90ceaa8d35f4b6c346a iio: adc: at91-sama5d2_adc: add runtime pm support
+15b2ac67859006bace228cbdc8607d0ea0af4e89 iio: adc: qcom-spmi-adc5: Add missing VCOIN/GPIO[134] channels
 79c3e84874c7d14f04ad58313b64955a0d2e9437 iio: inkern: only release the device node when done with it
 9e878dbc0e8322f8b2f5ab0093c1e89926362dbe iio: inkern: fix return value in devm_of_iio_channel_get_by_name()
 ed5e5ed4e377599825d32162a6ff3e9d2d89d200 iio: inkern: only return error codes in iio_channel_get_*() APIs
@@ -1063,23 +1081,5 @@ a09476668e3016ea4a7b0a7ebd02f44e0546c12c Merge tag 'char-misc-6.1-rc1' of git://
 f01603979a4afaad7504a728918b678d572cda9e Merge tag 'gpio-updates-for-v6.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 bdc753c7fcb4eb009ae246a188ea7ac6dac98ce1 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 a6afa4199d3d038fbfdff5511f7523b0e30cb774 Merge tag 'mailbox-v6.1' of git://git.linaro.org/landing-teams/working/fujitsu/integration
-913c2b6b6cc1df04b029adc97edf9f04a3be24b3 USB: make devnode() callback in usb_class_driver take a const *
-cfd816e842e99fb8c3f214c8eb31ce13b7e9eded blkdev: make struct block_device_operations.devnode() take a const *
-a13c8da5fdf384ffb25c2d8654f32eee239150fa driver core: allow kobj_to_dev() to take a const pointer
-025ab741a85772c303bc09fdcf0343614c000092 driver core: class: make namespace and get_ownership take const *
-1deef30c85151601fdda684f0b617d3e67f7d92f kobject: modify kobject_get_path() to take a const *
-c68639cfab02f2abb68355229e9ad064609775c6 kobject: make kobject_get_ownership() take a constant kobject *
-12ea49b2d6c0613a60c5c1b897636fcd76ffc5b4 kobject: make kobject_namespace take a const *
-38ee4110dce969e64a134a2785225f54768308ba kobject: make get_ktype() take a const pointer
-23e040c4dd77829fb959d1296e768b4be6e27cb0 kobject: kset_uevent_ops: make filter() callback take a const *
-aee64607a9490eb7d9101b41524358b1cf872ee0 kobject: kset_uevent_ops: make name() callback take a const *
-53f790e68f48c979789de7976a24cc728f6f8264 driver core: pass a const * into of_device_uevent()
-0114d787607a64a33f4881b25aa835486356eea2 driver core: make struct class.dev_uevent() take a const *
-f4d9df04e14ed1e034bed4b483fd6e8fb1e3230d driver core: make struct class.devnode() take a const *
-90e7ab5e3889ea892350264ef291169dfdc331fc driver core: make struct device_type.uevent() take a const *
-969f28c7b7df48ce0658c54571a5aca35c9cc7f7 driver core: make struct device_type.devnode() take a const *
-cce1def065c94e82fc52913b0ab07c1c77239861 driver core: device_get_devnode() should take a const *
-62211cebeec6bb2e48424e2c44f90ee268f7e6d6 driver core: make struct bus_type.uevent() take a const *
-318fbfc691ea7851bfa7c54e338e1b59544d8f6a kobject: kset_uevent_ops: make uevent() callback take a const *
 
---===============0250680255986635902==--
+--===============3256460725888041020==--
