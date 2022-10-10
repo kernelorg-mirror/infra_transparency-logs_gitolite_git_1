@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 10 Oct 2022 17:59:57 -0000
-Message-Id: <166542479730.4444.9323436541252166006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Mon, 10 Oct 2022 18:06:13 -0000
+Message-Id: <166542517356.9795.9403216509992802135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/for-next
-    old: 2e64066dab157ffcd0e9ec2ff631862e6e222876
-    new: dccd35ac4fa6e21d0bf77d1b27dc979af0d1d3f8
+  - ref: refs/heads/master
+    old: d6b83759d0b8236a5ac29507539502864e790624
+    new: 4308959717a5042636e68302407f32543bb0c7f5
     log: |
-         dccd35ac4fa6e21d0bf77d1b27dc979af0d1d3f8 riscv: mm: add missing memcpy in kasan_init
+         68dd99b4bec12cfef25abcbe390a935e97862599 update UAPI header copies
+         4308959717a5042636e68302407f32543bb0c7f5 Release version 6.0.
          
